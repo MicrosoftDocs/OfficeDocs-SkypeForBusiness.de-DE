@@ -9,7 +9,7 @@ ms.assetid: dda0070b-16ec-43ca-ac81-e390aea630d2
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Georgia verfügbar.
-ms.openlocfilehash: 403116127dd3aae874fe78601db915fe6c60c49a
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 80b44f102d49617246fa91a2f3d5501f8a9aaa27
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352970"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463884"
 ---
 # <a name="availability-in-georgia"></a>Verfügbarkeit in Georgien
 

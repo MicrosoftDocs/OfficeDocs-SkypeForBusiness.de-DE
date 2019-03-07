@@ -1,5 +1,5 @@
 ---
-title: Verwenden Sie Berichte für Microsoft-Teams
+title: Verwenden von Aktivitätsberichten für Microsoft Teams
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
@@ -10,18 +10,20 @@ ms.service: msteams
 ms.reviewer: chenle
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Hier erfahren Sie, wie Sie Berichte, um zu sehen, wie Benutzer in Ihrer Organisation Microsoft-Teams verwenden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2466995597757cd5c18758bc3d1842ea4a9fb4e1
-ms.sourcegitcommit: e7f035151ba7447ada326d439df59cbfc5a79a26
+ms.openlocfilehash: 34ae95d405e9ab1f35c81db0d61ee48ba18141cf
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "29995424"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463372"
 ---
-<a name="use-activity-reports-for-microsoft-teams"></a>Verwenden Sie Berichte für Microsoft-Teams 
+<a name="use-activity-reports-for-microsoft-teams"></a>Verwenden von Aktivitätsberichten für Microsoft Teams 
 ========================================
 
 Können Berichte in der Microsoft-365-Verwaltungskonsole um zu sehen, wie Benutzer in Ihrer Organisation Microsoft-Teams verwenden. Beispielsweise wenn einige noch nicht Microsoft-Teams verwenden, können sie nicht wissen, wie steigen oder zu verstehen, wie diese Teams werden produktiver und Zusammenarbeit verwenden können. Ihre Organisation kann mithilfe der Aktivitätsberichte entscheiden, wo Schulungs- und Kommunikationsinitiativen priorisiert ansetzen sollen.

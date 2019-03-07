@@ -10,15 +10,17 @@ description: Sicherzustellen, dass Ihrer Organisation und die Benutzer sind bere
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1212201f56093ea1e0e274f560cd1cd5473b13d7
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 00294800f0e63c45c550b46be59623349ed3ade7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349287"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465236"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase] (media/upgrade-banner-user-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase")
 

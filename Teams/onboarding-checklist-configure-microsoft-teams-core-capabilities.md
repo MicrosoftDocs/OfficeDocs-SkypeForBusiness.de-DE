@@ -1,5 +1,5 @@
 ---
-title: Prüfliste für die Konfiguration von Microsoft-Teams Kernfunktionen Onboarding
+title: Onboardingcheckliste für das Konfigurieren der grundlegenden Funktionen von Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Führen Sie die Core sowie die Aufgabe Aufgaben und Aktivitäten in der Prüfliste beim Konfigurieren von Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7038d521878e03bd982e88bc8a299d2563e73d34
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: f9f703f8eae477093bfd3efa0bd986992940d697
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120357"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462268"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Konfigurieren von Microsoft-Teams Kernfunktionen
 

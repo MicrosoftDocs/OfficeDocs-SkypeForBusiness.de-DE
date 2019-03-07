@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Wählen Sie Verwendungsszenarien für die Phase Experiments Ihrer Annahme Teams.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3276fc721ca1551ee810625229e9e64a3f8386da
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 63d96ace4de4ae19446e4f0a1376088ac3294647
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699805"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464548"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Definieren von Verwendungsszenarios für Microsoft Teams
 

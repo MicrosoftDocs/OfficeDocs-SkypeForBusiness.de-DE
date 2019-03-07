@@ -1,5 +1,5 @@
 ---
-title: Cloud-VoIP in Microsoft-Teams
+title: Cloud Voice in Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -8,22 +8,21 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
 description: Zielseite für die Bereitstellung von Cloud-VoIP in Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 969bab316a39ec873fea802a9c257cf062891bb9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 93a17e76444efbc57f2d8043ca1e6eda68806263
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351298"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465308"
 ---
-# <a name="cloud-voice-in-microsoft-teams"></a>Cloud-VoIP in Microsoft-Teams
+# <a name="cloud-voice-in-microsoft-teams"></a>Cloud Voice in Microsoft Teams
 
 Sie haben [Erste Schritte](get-started-with-teams-quick-start.md) abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleicht haben Sie [Besprechungen & Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)bereitgestellt. Sie können nun Cloud Voice-Funktionen für Ihre Benutzer hinzufügen. 
 
@@ -41,7 +40,7 @@ Die folgenden Artikel enthalten weitere Informationen zum Bereitstellen und Verw
 
 - [Telefonsystem in Office 365](what-is-phone-system-in-office-365.md)
 - [Telefonsystem mit dem Plan aufrufen](calling-plan-landing-page.md)
-- [Telefon System direkten Routing](direct-routing-landing-page.md)
+- [Direktes Routing für Telefonsysteme](direct-routing-landing-page.md)
 - [Cloud Voice-Bereitstellung](cloud-voice-deployment.md)
 - [Microsoft-telefonielösungen](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Die folgenden Sitzung Weitere Informationen zum Telefonsystem Video: [Einführung in das Telefonsystem in Microsoft-Teams](https://aka.ms/teams-phone-system)

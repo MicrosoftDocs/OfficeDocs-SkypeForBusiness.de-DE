@@ -1,5 +1,5 @@
 ---
-title: Vorbereiten der Benutzer Microsoft-Teams
+title: Vorbereiten der Benutzer für Microsoft Teams
 author: dearbeen
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Erstellen Sie einen Plan für die Benutzerakzeptanz durch Ihre Ziele definieren, welche Annahme aussieht verstehen und Schulung und Support.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca1b2e5d28adf95a634df914b4693efddcbc5dd0
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 22d8383914755bdd3d9d185f083509de9175bef6
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649557"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463500"
 ---
 # <a name="prepare-my-users"></a>Vorbereiten der Benutzer
 

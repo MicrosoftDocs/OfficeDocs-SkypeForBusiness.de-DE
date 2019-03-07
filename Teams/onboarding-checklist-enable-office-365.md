@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Orientieren Sie sich beim Konfigurieren von Office 365 für Microsoft Teams an den Kernaufgaben und -aktivitäten in dieser Checkliste.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f6e5f49da3af9ff3898ff87fd74cefde075d5cc
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 1bd03565507c8b32afc2415cde8ee6c2cf45c500
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120365"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463556"
 ---
 # <a name="enable-office-365"></a>Aktivieren von Office 365
  

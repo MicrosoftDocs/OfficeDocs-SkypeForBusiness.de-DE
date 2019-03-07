@@ -9,7 +9,7 @@ ms.assetid: 1b575124-9136-45ed-a351-d6aef686bc32
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region So wählen Sie die gebührenfreie Telefonnummer.
-ms.openlocfilehash: f3d95a025db04a1fb0f8d21bcc964101f733b591
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: c4468451f0d24d010635e40e234b8aa815b10fc7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30350602"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464020"
 ---
 # <a name="toll-free-dialing-restrictions-in-serbia"></a>Einschränkungen für gebührenfreie Telefonnummern in Serbien
 
@@ -48,7 +48,7 @@ ms.locfileid: "30350602"
    
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Gebührenfreie Rufnummer einwählen einschränken](../toll-free-dialing-limitations-and-restrictions.md)
+[Einschränkungen für das Wählen von gebührenfreien Telefonnummern](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

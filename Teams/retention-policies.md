@@ -10,21 +10,23 @@ ms.reviewer: anach
 description: Erhalten Sie Informationen zu Aufbewahrungsrichtlinien und wie sie in Teams verwaltet.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 453e6f161b62846143493d7a444b364e27f3885e
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 4d07629f41a54dcab1995f2aef2d7536479be25d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25004594"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464556"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Aufbewahrungsrichtlinien in Microsoft-Teams
 
-Teams Unterhaltungen sind beständigen und ewig standardmäßig beibehalten. Mit der Einführung von Aufbewahrungsrichtlinien können Administratoren Aufbewahrungsrichtlinien (Aufbewahrung und Löschung) im Compliance Center & Sicherheit für Teams Chat und Channel-Nachrichten konfigurieren. Dadurch Organisationen, die Daten für die Kompatibilität (d. h., Beibehaltung der Richtlinie) für einen bestimmten Zeitraum beibehalten oder Beseitigen der Daten (d. h., Richtlinie löschen), wenn es eine Haftung nach einem bestimmten Zeitraum berücksichtigt wird. Aufbewahrungsrichtlinien Teams stellen Sie sicher, dass sie beim Löschen von Daten aus alle Speicherorte permanente Daten in der Teams Dienst entfernt wird. 
+Teams Unterhaltungen sind beständigen und ewig standardmäßig beibehalten. Mit der Einführung von Aufbewahrungsrichtlinien können Administratoren Aufbewahrungsrichtlinien (Aufbewahrung und Löschung) in die Sicherheit & Compliance Center für Teams Chat und Channel-Nachrichten konfigurieren. Dadurch Organisationen, die Daten für die Kompatibilität (d. h., Beibehaltung der Richtlinie) für einen bestimmten Zeitraum beibehalten oder Beseitigen der Daten (d. h., Richtlinie löschen), wenn es eine Haftung nach einem bestimmten Zeitraum berücksichtigt wird. Aufbewahrungsrichtlinien Teams stellen Sie sicher, dass sie beim Löschen von Daten aus alle Speicherorte permanente Daten in der Teams Dienst entfernt wird. 
 
-Verwenden Sie zum Verwalten von Teams Aufbewahrungsrichtlinien die Einstellungen und im Compliance Center unter **Daten Governance**& Sicherheit in Office 365-Cmdlets > **Aufbewahrung**.
+Verwenden Sie zum Verwalten von Teams Aufbewahrungsrichtlinien der Einstellungen und -Cmdlets in der Sicherheit in Office 365 Compliance Center unter **Daten Governance**& > **Aufbewahrung**.
 
 Aufbewahrungsrichtlinien Teams unterstützen: 
     
@@ -37,7 +39,7 @@ Aufbewahrungsrichtlinien Teams noch unterstützt nicht:
 - Erweiterte Aufbewahrungsrichtlinien gelten nicht für Teams Chat und Teams Channel Nachricht Speicherorte
 - Dauer von weniger als 30 Tagen
 
-Administratoren können separate Aufbewahrungsrichtlinien für Teams private Chats (1:1 oder 1: n-Chats) und Teams Channel Nachrichten einrichten. In vielen Fällen sollten Organisationen private chatdaten als mehrere eine Haftung als Channel-Nachrichten, die in der Regel Weitere projektbezogenen Unterhaltungen sind. Richten Sie diese Richtlinien in die Sicherheit & Compliance Center, **Daten Governance** > **Aufbewahrung**. Schalten Sie **Teams channel Nachrichten** und **Teams chats** und definieren Sie dann die Aufbewahrungsrichtlinien für diesen Speicherorten (ebenfalls in der folgenden Abbildung dargestellt). 
+Administratoren können separate Aufbewahrungsrichtlinien für Teams private Chats (1:1 oder 1: n-Chats) und Teams Channel Nachrichten einrichten. In vielen Fällen sollten Organisationen private chatdaten als mehrere eine Haftung als Channel-Nachrichten, die in der Regel Weitere projektbezogenen Unterhaltungen sind. Richten Sie diese Richtlinien in der Sicherheit & Compliance Center, **Daten Governance** > **Aufbewahrung**. Schalten Sie **Teams channel Nachrichten** und **Teams chats** und definieren Sie dann die Aufbewahrungsrichtlinien für diesen Speicherorten (ebenfalls in der folgenden Abbildung dargestellt). 
 
 Wenn Sie **Teams channel Nachrichten**aktivieren, können Sie Teams angeben, auf die diese Richtlinie angewendet wird. Beispielsweise für Teams X, Y und Z, der Administrator kann die Löschrichtlinien 1 Jahr (durch diese Teams einzeln auswählen) festgelegt, und Anwenden einer Richtlinie 3 Jahre Löschung auf den Rest der Teams. 
 

@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Sammeln von Feedback der Benutzer zur Verbesserung der Cloud VoIP-Implementierung in Microsoft-Teams oder Skype für Unternehmen.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3c315588365d023f61a12aa0e2ecf8068a4aaf7
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: 74594c81d86bf19b80cf40ad8292517705e7e690
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436612"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463876"
 ---
 # <a name="user-feedback-surveys"></a>Benutzer Feedback Umfragen 
 
@@ -55,13 +57,13 @@ Wenn Sie **Stimme nicht zu** oder aus einem der oben genannten Aussagen **gar ni
 
 Teams, die Sie verwenden sollten wie wahrscheinlich ist es als ein Telefon an Freunde oder Kollegen? (0 = überhaupt nicht wahrscheinlich... 10 = sehr wahrscheinlich)
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
 Wie wahrscheinlich ist es Sie Telefongerät Freunde oder Kollegen empfehlen? (0 = überhaupt nicht wahrscheinlich... 10 = sehr wahrscheinlich)  
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 

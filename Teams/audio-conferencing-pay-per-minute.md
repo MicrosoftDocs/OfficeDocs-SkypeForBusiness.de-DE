@@ -11,8 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: Zusätzlich zu den standard Audiokonferenzen pro-Benutzer-Lizenz können Organisationen, die über die Microsoft-Volumenlizenzierung auch ein Bezahlung pro Minute Angebot Audio-Konferenzfunktionen für ihre Organisation zu aktivieren.
-ms.openlocfilehash: 908249fdef3a0de1e17f1d5459d1e04b5a2c20f8
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 5b2a194b999382e66db8c9a87d19594fbb4d6a3d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353514"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464412"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audiokonferenz mit Minutenabrechnung
 

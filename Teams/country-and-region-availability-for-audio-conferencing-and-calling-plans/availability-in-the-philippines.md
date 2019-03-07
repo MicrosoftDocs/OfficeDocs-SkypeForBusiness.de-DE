@@ -1,5 +1,5 @@
 ---
-title: Verfügbarkeit in Philippinen
+title: Verfügbarkeit auf den Philippinen
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: c0cf7433-3abd-4618-8d3b-74d204caf3a7
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die Philippinen verfügbar.
-ms.openlocfilehash: 91c2a49eca7f1366cd861d5024a51214adda455d
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 766f6247419538158d35710c079f6788f94a4784
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047889"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464484"
 ---
-# <a name="availability-in-the-philippines"></a>Verfügbarkeit in Philippinen
+# <a name="availability-in-the-philippines"></a>Verfügbarkeit auf den Philippinen
 
 [Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
 

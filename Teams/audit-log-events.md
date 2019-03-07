@@ -6,18 +6,20 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Office 365-Überwachungsprotokoll abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 712f227dafab4400712471ea4b56be62662f1dcf
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a5207007b3855f5fa093050ac0ff8c885fd333af
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015677"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464052"
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Suchen nach Überwachungsprotokoll für Ereignisse in Microsoft Teams
 ==================================================
@@ -38,7 +40,7 @@ Eine vollständige Liste der in Office 365 überwachten Aktivitäten finden Sie
 
 ## <a name="turn-on-auditing-in-teams"></a>Aktivieren der Überwachung in Microsoft Teams
 
-Bevor Überwachungsdaten angezeigt werden können, müssen Sie Überwachung in der **Sicherheit und Compliance Center**zum ersten Mal einschalten (https://protection.office.com). Hilfe zum Aktivieren der Überwachung finden Sie unter [Aktivieren oder Deaktivieren der Office 365-Überwachungsprotokollsuche](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Bevor Überwachungsdaten angezeigt werden können, müssen Sie Überwachung in der **Sicherheit & Compliance Center**zum ersten Mal einschalten (https://protection.office.com). Hilfe zum Aktivieren der Überwachung finden Sie unter [Aktivieren oder Deaktivieren der Office 365-Überwachungsprotokollsuche](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 
 > [!IMPORTANT]

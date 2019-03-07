@@ -10,15 +10,17 @@ ms.reviewer: sbhatta
 description: Verwenden Sie diese Prüfliste, um Gastzugriff in Microsoft Access-Teams Gast einrichten.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 660b838c38da478be2f1226fcdd1b104c3b10b54
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 404754c373d46b9b6e5578107415d61bbb87f97e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753932"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463468"
 ---
 <a name="teams-guest-access-checklist"></a>Teams Gast Access Prüfliste
 ==========================================

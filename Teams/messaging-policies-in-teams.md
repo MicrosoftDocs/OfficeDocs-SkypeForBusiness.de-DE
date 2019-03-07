@@ -7,7 +7,9 @@ ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,14 +18,14 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Informationen Sie zu Richtlinien für Messaging und wie sie Chat in Teams messaging steuern verwendet werden können.
-ms.openlocfilehash: 6349bd8299883fe213797a51e7051411c74298ef
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: b30b14ef8db70a6d8d88d4413a82fd1d672da13b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30302665"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465300"
 ---
-# <a name="what-are-messaging-policies-in-teams"></a>Was sind Messaging-Richtlinien in Teams?
+# <a name="what-are-messaging-policies-in-teams"></a>Was sind Messaging-Richtlinien in Teams?  
 
 ::: zone target="docs"
 Messaging-Richtlinien dienen zum Steuern, welche Chat und Channel messaging-Funktionen für Benutzer in Microsoft-Teams verfügbar sind. Sie können die Standardrichtlinie, die erstellt wird, oder erstellen Sie eine oder mehrere benutzerdefinierte messaging Richtlinien für die Personen in Ihrer Organisation. Nachdem Sie eine Richtlinie erstellen, weisen es einem Benutzer oder Gruppen von Benutzern in Ihrer Organisation Sie.
@@ -35,8 +37,7 @@ Richtlinien können auf einfache Weise verwaltet werden, in der Verwaltungskonso
 Um die vorhandenen Messaging-Standardrichtlinie für Ihre Organisation zu bearbeiten, klicken Sie auf die Zeile **Global (Org geltende Standard)** , und nehmen Sie dann die Änderungen vor. Um eine neue benutzerdefinierte messaging-Richtlinie zu erstellen, klicken Sie auf **neue Richtlinie** , und wählen Sie Ihre Einstellungen aus. Wählen Sie **Speichern** aus, wenn Sie fertig sind.
 
 ![Messaging Policy Settings in Teams](media/messaging-policies-image2.png)
-::: zone-end
-
+::: zone-end  
 ::: zone target="chromeless"
 Verwenden Sie die folgenden Einstellungen zum Ändern der globalen Richtlinie Messaging oder erstellen eine neue benutzerdefinierte Richtlinie an:
 

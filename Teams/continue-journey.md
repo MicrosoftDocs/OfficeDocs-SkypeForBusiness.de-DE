@@ -10,15 +10,17 @@ search.appverid: MET150
 description: Leitfaden für die Fortsetzung Ihrer Reise von Skype für Unternehmen, die Microsoft-Teams
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac7466df9000eba2ea2689c717a2012fd252e150
-ms.sourcegitcommit: d0ef6dc70d409955bf58a13b29746f985c6355a7
+ms.openlocfilehash: 5ad07d4445e02c10eb75a62d6fa2933b413b8107
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "29562605"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463276"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 

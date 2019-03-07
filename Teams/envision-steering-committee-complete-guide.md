@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Identifizieren der Verantwortlichen und Projektleiter zum Identifizieren der Bereitstellungsziele, Nachverfolgen des Fortschritts und Entfernen von Popupblockern Steuerungsgruppe.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecbefe68b00e8388298ee6eb64ddbdc55ad0eeb9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 010d4e2b7a9f64ca57e38b185b013d92b4d7c1ca
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014483"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464284"
 ---
 # <a name="steering-committee"></a>Lenkungsausschuss
 
@@ -50,7 +52,7 @@ Der Lenkungsausschuss erfüllt in regelmäßigen Abständen während der Lebensd
 
 -   Identifizieren Sie, zu verwalten Sie und zu mindern Sie Lücken, Risiken und Probleme, wenn zusätzliche beeinflussen des Ausschusses erforderlich ist.
 
--   Sammeln von Unterstützung von executive Sponsor oder Unternehmensleitung Team für Probleme, die Ausweitung, Priorisierung und Beheben von Konflikten zwischen beteiligten Geschäftseinheiten von erfordern. 
+-   Sammeln von Unterstützung von executive Sponsor oder Unternehmensleitung Team für Probleme, die Ausweitung, Priorisierung und Beheben von Konflikten zwischen beteiligten Geschäftseinheiten von erfordern. 
 
 -   Geben Sie formelle Feedback und Empfehlungen, um die Unternehmensleitung, dem Change advisory Board oder anderen Geschäfts- und IT-Verantwortlichen, sofern gewünscht.
 

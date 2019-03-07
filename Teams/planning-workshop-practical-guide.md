@@ -10,15 +10,17 @@ ms.reviewer: lolaj, rowille
 description: Planungstools, Workshops und Kits für die ersten Schritte von Organisationen mit Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5458596d1eba8d956d6a75e0d99c99982e6525b9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 04bee65e6d2c21b6e2857d44a50bae497b251d5b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012105"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463956"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Tools und Workshops: Planen, Bereitstellen und Einführen von Microsoft Teams
 

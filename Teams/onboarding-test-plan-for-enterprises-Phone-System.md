@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Überprüfen, ob die Erwartungen hinsichtlich Ihrer Organisation erfüllt sind, über das Telefonsystem in Teams Features, Funktionen und Verwendbarkeit testen.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e96f39cbcf5dcca4c0687f89f37ead6791ff2d98
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: ff0b806a3738046abc5dc9f9193518e9e0998539
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120742"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463508"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Definieren Sie und Dokumentieren Sie Ihr Telefonsystem mit Aufrufen plant in Plan zum Testen von Teams für Unternehmen 
 ============================================================================================

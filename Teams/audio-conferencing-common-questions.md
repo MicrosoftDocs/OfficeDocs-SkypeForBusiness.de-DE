@@ -1,5 +1,5 @@
 ---
-title: Allgemeine Fragen zu Audiokonferenz
+title: Allgemeine Fragen zu Audiokonferenzen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -11,8 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,14 +22,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Im folgenden sind einige der oberen Fragen, die wir von unseren Kunden zu, die erhalten an der Audiokonferenz verwenden möchten.
-ms.openlocfilehash: 3ede756aff99f5be8d8b5f703860d54554d34ea9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 104f4affe4eb5459d8647174fea1801af4bff826
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353634"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465220"
 ---
-# <a name="audio-conferencing-common-questions"></a>Allgemeine Fragen zu Audiokonferenz
+# <a name="audio-conferencing-common-questions"></a>Allgemeine Fragen zu Audiokonferenzen
 
 Im folgenden sind einige der oberen Fragen, die wir von unseren Kunden zu, die erhalten an der Audiokonferenz verwenden möchten. 
   
