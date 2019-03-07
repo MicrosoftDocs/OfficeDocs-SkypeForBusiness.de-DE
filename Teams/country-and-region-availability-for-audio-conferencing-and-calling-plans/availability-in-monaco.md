@@ -9,7 +9,7 @@ ms.assetid: bbb45c69-746a-4891-85ae-af55bdc2ef57
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Monaco verfügbar.
-ms.openlocfilehash: 7751b27209ada3d603df14eeff5b16f9b79d4c43
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 0bc840e77fdda08f6f21a2fefed1f213b205e9ea
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353282"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461676"
 ---
 # <a name="availability-in-monaco"></a>Verfügbarkeit in Monaco
 

@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie zu informieren und implementieren eine Schulung zur Annahme der Microsoft-Teams.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8da00716e83d1b227bdf2c4ff66b1c026aa8e55c
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: bf3437d07bef4b068f68ba6607e664aa25c99605
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699757"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459588"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Fördern des Bewusstseins und Implementieren der Schulung für Microsoft Teams
 
@@ -48,7 +50,7 @@ Nutzen Sie unsere Ressourcen Endbenutzertraining übermitteln, wie Personen mit 
 - [Von Schulungsleitern gehaltene Endbenutzertraining für Teams](instructor-led-training-teams-landing-page.md)
 - [Administratorschulungen für Teams](itadmin-readiness.md)
 - [Ein Endbenutzertraining Online](enduser-training.md)
-- [Kaffee in der Cloud-online-Schulung für Champions & IT-Experten](https://aka.ms/CoffeeintheCloud) 
+- [In der Cloud online-Schulung für Champions & IT Pros Kaffee](https://aka.ms/CoffeeintheCloud) 
 - [Tag im Lebenszyklus Office 365-Schulung Spickzettel Blätter](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>Messen und Teilen des Erfolgs

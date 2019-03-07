@@ -9,7 +9,7 @@ ms.assetid: a1534ecf-fae6-4472-9f3f-c205f547af17
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Russland verfügbar.
-ms.openlocfilehash: b070493e649e31ea6d44e8bd94a5dba7a3d13984
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 01e183f29ea385fc34f4b3ecf8fba81336c37761
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352250"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460748"
 ---
 # <a name="availability-in-russia"></a>Verfügbarkeit in Russland
 

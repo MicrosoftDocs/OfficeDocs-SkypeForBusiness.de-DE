@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Auswählen eines Bereitstellungsmodells, entwickeln Matrix (RACI) verantwortlich-verantwortlich-konsultiert-darüber informiert, Ausführung und Steuerung Pläne erstellen.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 271faa8ffc4a4e6c3977382cf5a1153513bd1ba5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dd124b8ce06b15bb0c6c33aecd848d9382afde64
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374210"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462140"
 ---
 # <a name="document-my-success-plan"></a>Dokumentieren Sie meine Erfolg
 
@@ -83,13 +85,13 @@ Wenn Ihre Organisation nur ein oder zwei Websites verfügt, benötigen Sie mögl
 
 Es folgt ein Beispiel für eine vierteljährliche Ausführungsplan für die Phase Ermitteln übergeordneter Faktoren einer Cloud-VoIP-Implementierung.
 
-| Website-Bereich                            | Anzahl der Mitarbeiter | Audiokonferenz | Telefonsystem                    | Quartal ausführen |
+| Website-Bereich                            | Anzahl der Mitarbeiter | Audiokonferenzen | Telefonsystem                    | Quartal ausführen |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
 | USA: New York                             | 2000                | Ja                | Telefonsystem mit Anrufplänen | Q1 CY2018          |
 | Irland: Dublin                          | 300                 | Ja                | Telefonsystem mit Anrufplänen | Q1 CY2018          |
-| Österreich: Wien                          | 500                 | Ja                | Telefon System direkten Routing     | Q2 CY2018          |
+| Österreich: Wien                          | 500                 | Ja                | Direktes Routing für Telefonsysteme     | Q2 CY2018          |
 | Italien: Mailand                             | 200                 | Ja                | n/v                             | Q2 CY2018          |
-| Südamerika: Brasilien                    | 1500                | Ja                | Telefon System direkten Routing     | Q2 CY2018          |
+| Südamerika: Brasilien                    | 1500                | Ja                | Direktes Routing für Telefonsysteme     | Q2 CY2018          |
 | Indien: Delhi                             | 7000                | Ja                | n/v                             | Q3 CY2018          |
 
 

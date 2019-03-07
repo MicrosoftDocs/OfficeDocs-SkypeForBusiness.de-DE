@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Handbuch für die Analyse der Leistung für Microsoft-Teams, Real-Time Media mithilfe von Anrufen Quality Dashboard (CQD).
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9162a10d55b224e14867866395b1e44d18e8e6e
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: e85d6e44c37b1b7a56b2b525d28fdbeab266d4b8
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178740"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461940"
 ---
 # <a name="quality-of-experience-review-guide"></a>Quality of Experience überprüfen Guide
 

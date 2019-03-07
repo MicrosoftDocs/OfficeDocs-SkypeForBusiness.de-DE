@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Wählen Sie aus dem Aufruf von Plänen und Lizenzierung, notfallstandorten und Funktionen wie die Voicemail und Anrufer-ID konfigurieren, erwerben oder Rufnummern übertragen.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7cd550b266f69d4ad0223bd7364ec1b69e56745
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: f7a277133adb520ea2a5e23cab05477f79f18ea1
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120570"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461892"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -79,8 +81,8 @@ Kompilieren Sie nach Bestätigung, dass Ihre Organisation, den Dienst aufrufen p
 > | **Office**                     | **Standort**   | **Phone-Dienst** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | Australien      | Legacy-PSTN-Dienst |
-> | 100 Cyberport Road             | Hong Kong SAR (香港特別行政區)  | Telefon System direkten Routing |
-> | One Marina Boulevard           | Singapur      | Telefon System direkten Routing |
+> | 100 Cyberport Road             | Hong Kong SAR (香港特別行政區)  | Direktes Routing für Telefonsysteme |
+> | One Marina Boulevard           | Singapur      | Direktes Routing für Telefonsysteme |
 > | 32 London Bridge Street        | Vereinigtes Königreich | Telefonsystem mit Anrufplänen |
 > | 39 quai du Président Roosevelt | Frankreich         | Telefonsystem mit Anrufplänen |
 

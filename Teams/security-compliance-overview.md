@@ -10,15 +10,17 @@ ms.reviewer: anach
 description: Eine Übersicht über Sicherheit und Compliance-Features von Microsoft-Teams, einschließlich der Überwachung und reporting, Inhaltssuche Compliance, eDiscovery und vieles mehr.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20b1ff0536117516484a1d9f54fc49fedbab2e12
-ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
+ms.openlocfilehash: 4833a36b08d3acc4b3cbe7ffaf2eaa4726fe0c82
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30056523"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458940"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Übersicht über Sicherheit und Compliance in Microsoft Teams
 ======================================================

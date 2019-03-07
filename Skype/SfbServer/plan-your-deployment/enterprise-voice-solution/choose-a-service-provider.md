@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: Auswählen von Ihrem Dienstanbieter für eine E9-1-1-Bereitstellung in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 0ec2da13cb7dfcd90bc2ffcd5baad962421aeb08
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8ad971039bd4be594e287adbc73ea8bdf431e4ac
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884599"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30453938"
 ---
 # <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>Wählen Sie einen E9-1-1-Dienstanbieter für Skype für Business Server
  
@@ -27,5 +27,7 @@ Auswählen von Ihrem Dienstanbieter für eine E9-1-1-Bereitstellung in Skype fü
 Die E9-1-1 Service Provider leitet Notrufe von Skype für Business Server an den richtigen öffentlichen Sicherheit beantworten Point (PSAP) basierend auf den im Anruf enthaltenen Standortinformationen. 
   
 Zur Unterstützung von E9-1-1 als Teil einer Skype für Business Server-Bereitstellung, benötigen Sie E9-1-1-Routingdienst von einem Lync Open Interoperability Program qualifizierten E9-1-1-Dienstanbieter. Wählen Sie den Anbieter, der die Anforderungen Ihrer Organisation am besten erfüllt.
+
+Um der Liste routing E9-1-1-Diensten für Lync angezeigt wird, finden Sie unter [E-911 Services für Lync qualifizierte](https://docs.microsoft.com/en-us/skypeforbusiness/lync-cert/e-911-service-providers).
   
 

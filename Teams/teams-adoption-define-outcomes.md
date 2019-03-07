@@ -8,19 +8,21 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie die Ergebnisse und den Erfolg des Ihrer breit angelegte-Aktivierung von Teams messen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2df638a12b67ac70b0759f70365f48330c26914d
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 09efb86effe9179908c10eb9fbb7de30cc5a247d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699817"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461812"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definieren von Ergebnissen und des Erfolgs für Ihre Einführung von Microsoft Teams
 
@@ -55,7 +57,7 @@ Beispiel für die Ergebnisse in jeder Kategorie sind:
    - Vereinfachung des Prozesses
    - Stilllegung der Systeme der Vorversion
    
-- **Person**
+- **Individuum**
    - Verwendung der gewünschten tools
    - Mitarbeiter Bewirtungskosten
    - Produktivität der Mitarbeiter
@@ -73,7 +75,7 @@ Teams ist eine transformative-Technologie, sodass je nach Größe Ihrer Organisa
 | Zuerst Teams | Teams Core | Wechseln Sie große Teams | Skype nebeneinander | Migration |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | Führen Sie die Bereitstellung von Cloud mit Teams | Führen Sie für die Zusammenarbeit Szenario Aktivierung mit Teams | Alle Mitarbeiter auf Teams und organisationsweite teams | Ermöglichen Sie Teams und Skype für Unternehmen | Migrieren von Benutzern von Skype für Unternehmen, die Teams |
-| -Gilt für neue oder geringer Auslastung Office 365-Kunden <br/>-Voranstellen Sie Teams kundenspezifische Szenario <br/>-Hervorheben integrierte Benutzeroberfläche und schnellerer Wert für Office 365 <br/>-Durchführen Sie Planung Arbeitslast-Aktivierung zusammen zur Vermeidung von seriellen Implementierung | -Aktivieren Sie Teams zusammen mit OneDrive und SharePoint Online <br/>-Erstellen Sie Intranet eines Unternehmens zur News-Ressourcen und Videos mit Microsoft Stream<br/>**Ein starkes Team**: <br/>Microsoft Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-Für Kunden mit weniger als 1000 Arbeitsplätzen (aktuelle Beschränkung)<br/>-Cross-Organisation für die Zusammenarbeit mit einem Team für alle aktivieren<br/>-Automatisierung allgemeiner Aufgaben (Urlaub Anforderungen, Umfragen Mitarbeiter executive Engagements) |– Verwendung von Teams Core Taktiken die Zusammenarbeit zu beschleunigen<br/>-Hervorhebung meeting Szenario Anweisungen basierend auf Größe und bestimmte Features erforderlich</br>– Verwendung von Skype für Unternehmen für Anrufe von Enterprise, Interoperabilität und hybridszenarien<br/>– Verwendung von öffentlichen Roadmap für die Planung der Funktion. |-Plan Move Teams von Skype für Business durch Erstellen von Service Strategie-Roadmap für den Kunden<br/>-Feature Release Zeitplan zuordnen<br/>-Empfehlen Sie einschließlich nebeneinander Seite und Teams Core Übergang zu erleichtern
+| -Gilt für neue oder geringer Auslastung Office 365-Kunden <br/>-Voranstellen Sie Teams kundenspezifische Szenario <br/>-Hervorheben integrierte Benutzeroberfläche und schnellerer Wert für Office 365 <br/>-Durchführen Sie Planung Arbeitslast-Aktivierung zusammen zur Vermeidung von seriellen Implementierung | -Aktivieren Sie Teams zusammen mit OneDrive und SharePoint Online <br/>-Erstellen Sie Intranet eines Unternehmens zur News-Ressourcen und Videos mit Microsoft Stream<br/>**Ein starkes Team**: <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-Für Kunden mit weniger als 1000 Arbeitsplätzen (aktuelle Beschränkung)<br/>-Cross-Organisation für die Zusammenarbeit mit einem Team für alle aktivieren<br/>-Automatisierung allgemeiner Aufgaben (Urlaub Anforderungen, Umfragen Mitarbeiter executive Engagements) |– Verwendung von Teams Core Taktiken die Zusammenarbeit zu beschleunigen<br/>-Hervorhebung meeting Szenario Anweisungen basierend auf Größe und bestimmte Features erforderlich</br>– Verwendung von Skype für Unternehmen für Anrufe von Enterprise, Interoperabilität und hybridszenarien<br/>– Verwendung von öffentlichen Roadmap für die Planung der Funktion. |-Plan Move Teams von Skype für Business durch Erstellen von Service Strategie-Roadmap für den Kunden<br/>-Feature Release Zeitplan zuordnen<br/>-Empfehlen Sie einschließlich nebeneinander Seite und Teams Core Übergang zu erleichtern
 
 Im folgenden werden unsere Empfehlungen für die meisten Kunden Organisationen. Es gibt jedoch Ausnahmen. Anweisungen für jedes Szenario nicht behandelte Hier erhalten Sie Ihre Fragen in unserer Community gesteuerter Annahme oder treten der schnelle Team oder Microsoft Partner Network.
 

@@ -1,24 +1,26 @@
 ---
-title: Was sind Microsoft-Teams live Ereignisse?
+title: Was sind Live-Ereignisse in Microsoft Teams?
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: tonysmit
 search.appverid: MET150
 description: Hier erfahren Sie, wie live Ereignisse Benutzer Video- und große online Publikum in Microsoft-Teams, Yammer und Stream Microsoft Content übertragen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 881d5c2754703766cb9b84525472bfa18fc6e651
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4a818e95bf4d71fca06e7ea08f0bcff47efe4e2f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532241"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461052"
 ---
-# <a name="what-are-microsoft-teams-live-events"></a>Was sind Microsoft-Teams live Ereignisse?
+# <a name="what-are-microsoft-teams-live-events"></a>Was sind Live-Ereignisse in Microsoft Teams?
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 ## <a name="overview"></a>Übersicht
@@ -27,7 +29,7 @@ Microsoft-Teams live-Ereignissen können Benutzer in Ihrer Organisation Video- u
 
 Microsoft 365 live Ereignisse bringen live Videostreaming auf eine neue Ebene, Förderung der Verbindung während des gesamten Projekts Lebenszyklus mit Teilnehmer vor, während und nach live-Ereignissen. Sie können ein live-Ereignis erstellen, unabhängig von dessen Speicherort Ihrer Benutzergruppe, Team oder Community befindet sich mit Microsoft Stream, Microsoft-Teams, oder Yammer.  
 
-Teams bietet Chat-basierte Zusammenarbeit, Anrufe, Konferenzen und live-Ereignissen, Sie können erweitern Sie die Benutzergruppe Besprechungsliste. Teams live Ereignisse ist eine Erweiterung von Teams Besprechungen, die Benutzern ermöglichen, Video- und Meeting Inhalte an eine große online Benutzergruppe übertragen. Diese sind für die 1: n-Kommunikation vorgesehen, in denen der Host des Ereignisses wird die Interaktionen führende und Benutzergruppe Teilnahme ist in erster Linie zum Anzeigen des Inhalts von Host gemeinsam genutzt werden. Die Teilnehmer können sehen Sie sich das live oder aufgezeichnete-Ereignis im Yammer, Teams und/oder Microsoft Stream und mit der Referenten mithilfe moderierte Q & A oder Yammer-Unterhaltung interagieren können. 
+Teams bietet Chat-basierte Zusammenarbeit, Anrufe, Konferenzen und live-Ereignissen, Sie können erweitern Sie die Benutzergruppe Besprechungsliste. Teams live Ereignisse ist eine Erweiterung von Teams Besprechungen, die Benutzern ermöglichen, Video- und Meeting Inhalte an eine große online Benutzergruppe übertragen. Diese sind für die 1: n-Kommunikation vorgesehen, in denen der Host des Ereignisses wird die Interaktionen führende und Benutzergruppe Teilnahme ist in erster Linie zum Anzeigen des Inhalts von Host gemeinsam genutzt werden. Die Teilnehmer können das live oder aufgezeichnete-Ereignis im Yammer, Teams und/oder Microsoft Stream Video, und die Referenten mit moderierte Q & A oder eine Unterhaltung Yammer interagieren können. 
 
 Ersetzen Sie Teams live Ereignisse gelten die nächste Version von Skype Besprechung übertragen und schließlich werden die Funktionen in Skype Besprechung übertragen. Während der public Preview-Version von Teams live-Ereignissen wird es weiterhin Skype Besprechung übertragen,-ohne Unterbrechung im Dienst für neue oder zukünftigen Ereignisse unterstützen. Jedoch wir empfehlen Ihnen, Teams live Ereignisse, um alle neuen und interessanten Features Bildschirmfreigabe, einschließlich nutzen ausprobieren Teilnehmeranzahl, und Unterstützung für externe Hardware und Software Encoder. 
 

@@ -6,18 +6,20 @@ manager: serdars
 ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviwer: sbhatta
 search.appverid: MET150
 description: Hier erfahren Sie, wie Administratoren Informationen zu Gastbenutzern in Microsoft Teams anzeigen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b842a2434a5555fe7f65d6119750cff36e9513d
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 715e9d0a8efdf2ca5a60034f5474903eae3880a4
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "29706275"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462940"
 ---
 <a name="view-guest-users-in-a-team"></a>Anzeigen von Gastbenutzern in einem Team
 ==========================

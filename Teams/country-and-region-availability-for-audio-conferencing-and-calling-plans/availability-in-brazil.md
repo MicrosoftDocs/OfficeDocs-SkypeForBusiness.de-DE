@@ -9,7 +9,7 @@ ms.assetid: 7cd45341-1289-4592-a511-f07556ff9139
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Brasilien verfügbar.
-ms.openlocfilehash: 4bc25577bbbb0fc6ddefd9a370382e613521f626
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 6e4b9d36eeeebf9d2706ef8eeb94e082ff3264bf
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353394"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461476"
 ---
 # <a name="availability-in-brazil"></a>Verfügbarkeit in Brasilien
 

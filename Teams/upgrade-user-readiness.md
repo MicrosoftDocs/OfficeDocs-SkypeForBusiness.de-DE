@@ -1,5 +1,5 @@
 ---
-title: Vorbereiten einer bereitschaftsplan Benutzer; Upgrade von Skype für Unternehmen auf Teams
+title: Vorbereiten eines Plans für die Benutzerakzeptanz; Upgrade von Skype for Business auf Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -10,15 +10,17 @@ description: Planen der Kommunikation mit Schulen und unterstützen Ihre Benutze
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48bc1527b5f57219ecf062f1ab7025d969c13182
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 3172d85065f72d16df800d77e196632181c7d7bd
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349447"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459708"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase] (media/upgrade-banner-user-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase")
 

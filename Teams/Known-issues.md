@@ -6,19 +6,21 @@ manager: serdars
 ms.date: 2/25/2019
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: marcl
 localization_priority: Priority
 search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53a6a258d96777e5dc335fcecb84e9f2b7962beb
-ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
+ms.openlocfilehash: 64389cdf1455c23f2c234149630a9d6091ee7274
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30342103"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462332"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -32,7 +34,7 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Die EAF-Richtlinie im Enhanced Mitigation Experience Toolkit (EMET) identifiziert möglicherweise Chromium-Sandkastenoptimierungen fälschlich als Bedrohungen. <br/> |Im Zusammenhang mit Chromium-Sandkästen besteht ein Problem, bei dem die EAF-Richtlinie (Export Address Table Access Filtering) im Enhanced Mitigation Experience Toolkit (EMET) und in Windows Defender Advanced Threat Protection (ATP) Chromium-Sandkastenoptimierungen möglicherweise fälschlich als Bedrohungen identifiziert. Dies führt dazu, dass Microsoft Teams nicht ordnungsgemäß funktioniert.  <br/> | Deaktivieren Sie EAF für Microsoft Teams, um das Problem zu umgehen. Unter [Richtlinien zu EMET-Sicherheitstechnologien zur Schadensbegrenzung](https://support.microsoft.com/de-DE/help/2909257/emet-mitigations-guidelines) können Sie mehr über dieses Problem lesen. Weitere Informationen zu Windows Defender ATP und zur EAF-Richtlinie finden Sie unter [Anpassen des Exploit-Schutzes](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection). <br/> |11.10.2018 <br/> |
+|Die EAF-Richtlinie im Enhanced Mitigation Experience Toolkit (EMET) identifiziert möglicherweise Chromium-Sandkastenoptimierungen fälschlich als Bedrohungen. <br/> |Im Zusammenhang mit Chromium-Sandkästen besteht ein Problem, bei dem die EAF-Richtlinie (Export Address Table Access Filtering) im Enhanced Mitigation Experience Toolkit (EMET) und in Windows Defender Advanced Threat Protection (ATP) Chromium-Sandkastenoptimierungen möglicherweise fälschlich als Bedrohungen identifiziert. Dies führt dazu, dass Microsoft Teams nicht ordnungsgemäß funktioniert.  <br/> | Deaktivieren Sie EAF für Microsoft Teams, um das Problem zu umgehen. Unter [Richtlinien zu EMET-Sicherheitstechnologien zur Schadensbegrenzung](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) können Sie mehr über dieses Problem lesen. Weitere Informationen zu Windows Defender ATP und zur EAF-Richtlinie finden Sie unter [Anpassen des Exploit-Schutzes](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection). <br/> |11.10.2018 <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
@@ -46,7 +48,7 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|[Bedingter Zugriff](https://docs.microsoft.com/de-DE/azure/active-directory/conditional-access/overview) funktioniert möglicherweise nicht, wenn Sie die Registerkarte "Website" in der Desktop-App verwenden.<br/> |Wenn eine Website, wie z. B. ein Intranetportal, über Richtlinien für bedingten Zugriff verfügt (etwa Browser- oder IP-Adressbeschränkungen), kann es sein, dass diese Website in der Desktop-App nicht als Registerkarte innerhalb von Teams angezeigt wird. <br/> |Verwenden Sie anstatt der Desktop-App Teams in einem Browser.  <br/> |1.7.18  <br/> |
+|[Bedingter Zugriff](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) funktioniert möglicherweise nicht, wenn Sie die Registerkarte "Website" in der Desktop-App verwenden.<br/> |Wenn eine Website, wie z. B. ein Intranetportal, über Richtlinien für bedingten Zugriff verfügt (etwa Browser- oder IP-Adressbeschränkungen), kann es sein, dass diese Website in der Desktop-App nicht als Registerkarte innerhalb von Teams angezeigt wird. <br/> |Verwenden Sie anstatt der Desktop-App Teams in einem Browser.  <br/> |1.7.18  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|

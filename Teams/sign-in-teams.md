@@ -1,5 +1,5 @@
 ---
-title: Melden Sie sich bei modernen Authentifizierung mit Microsoft-Teams
+title: Anmelden bei Microsoft Teams mit moderner Authentifizierung
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,17 +11,19 @@ search.appverid: MET150
 ms.reviewer: ''
 description: Informationen zur Anmeldung bei Microsoft-Teams, mithilfe der modernen Authentifizierung.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01ca138aebae8d0db731118baf3e340aa3332120
-ms.sourcegitcommit: bd32d44d27990e373ce6afa38897159473601113
+ms.openlocfilehash: eec164da4dafe9be54272a72680cfa920d32d60c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "26544372"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458812"
 ---
-<a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Melden Sie sich bei modernen Authentifizierung mit Microsoft-Teams
+<a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Anmelden bei Microsoft Teams mit moderner Authentifizierung
 ==========================
 
 Microsoft-Teams, wird die modernen Authentifizierung, um die Anmeldung einfach und sicher zu halten. Um herauszufinden, wie Benutzer Teams anmelden, lesen Sie [Teams anmelden](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).

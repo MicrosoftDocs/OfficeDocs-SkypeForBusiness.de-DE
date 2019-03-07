@@ -10,15 +10,17 @@ description: Aufgaben und Aktivitäten erforderlich für Teams Servicemanagement
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b455d7599f5de8e2eb76f560e593eb5e409ecae
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 42df00ed52b62d70d8c9ea734291d77e0ba038ad
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562799"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460500"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 
@@ -32,9 +34,9 @@ Dieser Artikel bietet eine Übersicht über die Anforderungen für Teams für Ih
 
 Im Betriebshandbuch enthält eine Übersicht aller Aufgaben und Aktivitäten, die als Teil der Service-Management-Funktion für Microsoft-Teams, erforderlich.
 
-Service-Management ist ein weites, der täglichen Vorgänge des Diensts Microsoft-Teams abdeckt, nachdem es bereitgestellt und für Benutzer aktiviert wurde. Der Teams Service umfasst Microsoft Office 365 und die Infrastrukturkomponenten, die lokal bereitgestellt haben (beispielsweise Netzwerk).
+Die Dienstverwaltung ist ein umfangreiches Thema, das den täglichen Betrieb des Microsoft Teams-Diensts nach der Bereitstellung und der Aktivierung für die Benutzer abdeckt. Der Teams-Dienst umfasst Microsoft Office 365 und die lokal bereitgestellten Infrastrukturkomponenten (zum Beispiel das Netzwerk).
 
-Das Konzept der Service-Management ist wahrscheinlich nicht für die meisten Organisationen ein neues Konzept. Sie möglicherweise bereits implementiert haben, Prozesse und Aufgaben, bei die vorhandene Dienste zugeordnet sind. Dies bedeutet, dass Sie Ihre aktuellen Prozesse beim Service-Management heute planen zur Unterstützung von Teams in Zukunft wahrscheinlich erweitern können.
+Die Dienstverwaltung ist für die meisten Organisationen höchstwahrscheinlich kein neuer Begriff. Sie möglicherweise bereits implementiert haben, Prozesse und Aufgaben, bei die vorhandene Dienste zugeordnet sind. Dies bedeutet, dass Sie Ihre aktuellen Prozesse beim Service-Management heute planen zur Unterstützung von Teams in Zukunft wahrscheinlich erweitern können.
 
 Service-Management umfasst alle Aktivitäten und Prozessen beteiligt Teams Ende zum Verwalten. Wie bereits erwähnt einige Komponenten von Service-Management – die Infrastruktur, die der Office 365-Dienst selbst umfasst – Microsofts Verantwortung sind, während Sie mit dem Kunden verantwortlich für die Benutzer zum Verwalten der verschiedenen Aspekte der Teams, die im Netzwerk sind , und Endpunkte, die Sie bereitstellen.
 
@@ -47,7 +49,7 @@ Die Aufgaben und Aktivitäten in diesem Handbuch sind in acht Kategorien unterte
 <tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Überprüfen Sie im Betriebshandbuch vollständig.</li><li>Implementieren Sie eine Strategie für die Vorgänge, die Ziele Ihrer Organisation, um die Qualität und Zuverlässigkeit von Teams Arbeitslasten bereitzustellen ausgerichtet.</li><li>Überprüfen Sie im Handbuch für die Qualität der Erfahrung überprüfen.</li><li> Implementieren Sie eine Strategie Vorgänge für die Qualität der Erfahrung Bewertungen um sicherzustellen, dass Ihre Bereitstellung Teams auf seine Funktionen Spitzenzeiten betrieben wird regelmäßig ausführen.</li></ul></td></tr>
 </table>
 
-### <a name="operational-role-mapping"></a>Betriebliche Rolle Zuordnung
+### <a name="operational-role-mapping"></a>Zuordnung der operativen Rollen
 
 Die Planung, den, die Sie für Vorgänge während der Phase der Ermitteln übergeordneter Faktoren hat, ist entscheidend, da Operations Aktivitäten beginnen, wenn die erste Pilotbenutzer aktiviert sind. In diesem Handbuch werden die Aktivitäten und Aufgaben, die für einzelne täglich, wöchentlich, monatlich oder bei Bedarf Verwaltung eine qualitativ hochwertige Teams Bereitstellung ausgeführt werden müssen. Dieses Handbuch enthält Knowledge und Richtlinien zum diese wichtige Aktivitäten und Aufgaben ausführen.
 
@@ -81,7 +83,7 @@ Diese Technologien zusammengefügt, eine umfassende, Zusammenarbeit und intellig
 
 In diesem Handbuch wird die wichtige Bereiche der Fokus zum Verwalten des Diensts Teams behandelt. In den meisten Fällen verfügen Sie Management Servicepläne für die unterstützenden Technologien, von denen Teams abhängt. Wenn nicht, Sie ordnungsgemäße Management Servicepläne für diese Technologiekomponenten einrichten müssen (lokal und online) als auch. Dies hilft sicherzustellen, dass Ihre Benutzer eine hohe Qualität und zuverlässige Erfahrung mit Teams nutzen zu können.
 
-#### <a name="references"></a>Verweise
+#### <a name="references"></a>Referenzen
 
 [Übersicht über Microsoft Teams](teams-overview.md)
 
@@ -147,7 +149,7 @@ Sie können Dienststatus und anstehende Änderungen überwachen, durch die Nutzu
 | Monitor Dienststatus | Proaktive Überwachung Dienststatus Microsoft-Teams (und abhängigen Dienste) mithilfe der Tools verfügbar. Einschließen von abhängigen Dienste: Exchange Online, SharePoint Online, OneDrive für Unternehmen, Azure Active Directory. | In Echtzeit | |
 | Vorfall Benachrichtigung | Benachrichtigen Sie interne beteiligten von Ereignissen, die den Dienst Teams betreffen. Interne Beteiligten können Benutzer, Helpdesks und Vorfall-Manager enthalten. | Bei Bedarf | |
 
-### <a name="references"></a>Verweise
+### <a name="references"></a>Referenzen
 
 [Gewusst wie: Überprüfen von Office 365-Dienststatus](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
 
@@ -277,7 +279,7 @@ Ermitteln Sie zunächst, ob dies eine Annahme oder technischen Problem ist. Begi
 | (Laufwerk Wert Phase) | | | |
 | Aktualisieren von Anpassungsplan | Aktualisieren Sie Ihre Anpassungsplan basierend auf wie gemessene Usage vergleicht auf Ihre Planung Ziele. | Bei Bedarf | |
 
-### <a name="references"></a>Verweise
+### <a name="references"></a>Referenzen
 
 [Informationen zum Office 365 Administrationscenter](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
@@ -328,7 +330,7 @@ Um NPS Umfragen für Ihre Organisation zu ermöglichen, können Sie Ihre bevorzu
 | Bewerten der Benutzer Stimmung | Erfassen Sie und bewerten Sie der Benutzer Stimmung mithilfe von Umfragen oder Interviews oder über einen Kanal Feedback in Teams oder Yammer. | Bei Bedarf | |
 | Aktualisieren der Annahme Pläne | Laufwerk Änderung in Ihrer Organisation basierend auf Feedback der Benutzer; Hierzu gehören Änderungen an Ihrer Kommunikationsplänen, Schulungsprogramme oder die Möglichkeit, dass Sie Unterstützung für Ihren Benutzern anbieten. | Bei Bedarf | |
 
-### <a name="references"></a>Verweise
+### <a name="references"></a>Referenzen
 
 [NET Promoter Score](https://en.wikipedia.org/wiki/Net_Promoter)
 
@@ -359,11 +361,11 @@ Um die Integrität des Netzwerks sicherzustellen, müssen eine Reihe von Operati
 | Behandlung von Netzwerkproblemen und-Wartung | Unterstützen der Teams Helpdesks, Dienstbesitzer und der verantwortlichen beheben und Beheben von Problemen, um im Zusammenhang mit der Konnektivität Teams, Zuverlässigkeit oder Qualität. Netzwerkelementen können Folgendes umfassen:<ul><li>Firewalls</li><li>VPNs</li><li>Verkabelt und Wi-Fi-Netzwerke</li><li>Internet-Konnektivität und ExpressRoute</li><li>DNS</li></ul> | Bei Bedarf | |
 | Disaster Recovery und Testen der hohen Verfügbarkeit | Führen Sie regelmäßige hohe Verfügbarkeit und Disaster Recovery-Tests für die Netzwerkinfrastruktur, um sicherzustellen, dass es sich um den angegebenen Dienst-Level-Ziele (SLOs) oder Service Level Agreements (SLAs) für den Dienst Teams erfüllt. | Monatlich | |
 
-### <a name="references"></a>Verweise
+### <a name="references"></a>Referenzen
 
-[Netzwerk-Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
+[Netzwerkplaner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
-[URLs und IP-Adressbereiche von Office 365](https://aka.ms/o365ips)
+[URLs und IP-Adressbereiche für Office 365](https://aka.ms/o365ips)
 
 [Erstellen von Daten-schema](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
 
@@ -371,13 +373,13 @@ Um die Integrität des Netzwerks sicherzustellen, müssen eine Reihe von Operati
 
 ## <a name="assess-and-ensure-quality"></a>Bewerten und Sicherstellen der Qualität
 
-Alle Organisationen benötigen, eine Gruppe oder eine Person für die Qualität verantwortlich sein. Dies ist die wichtigste Funktion im Service-Management. Die Rolle für die Qualität Champion wird an eine Person oder Gruppe, die über ihre Benutzer wünschen engagierten ist zugewiesen.
-Diese Rolle erfordert die Fähigkeiten Trends in der Umgebung und der Unterstützung durch die anderen Teams Remediation Laufwerk entwickelt erkennen. Der beste Kandidat für einen Qualitätspionier ist normalerweise der Leiter des Kundendiensts. Je nach Größe und Komplexität der Organisation kann dies eine Person oder Gruppe mit dem Schwerpunkt auf sicherstellen, dass ein hoher Qualität Benutzererlebnis sein.
+Alle Organisationen benötigen, eine Gruppe oder eine Person für die Qualität verantwortlich sein. Dies ist die wichtigste Rolle bei der Dienstverwaltung. Die Rolle für die Qualität Champion wird an eine Person oder Gruppe, die über ihre Benutzer wünschen engagierten ist zugewiesen.
+Diese Rolle setzt die Fähigkeit voraus, Trends in der Umgebung zu erkennen, und muss gefördert werden, damit die Person oder Gruppe in Zusammenarbeit mit anderen Teams Verbesserungen vorantreiben kann. Der beste Kandidat für einen Qualitätspionier ist normalerweise der Leiter des Kundendiensts. Je nach Größe und Komplexität der Organisation kann dies eine Person oder Gruppe mit dem Schwerpunkt auf sicherstellen, dass ein hoher Qualität Benutzererlebnis sein.
 
 Die Qualität Champion nutzt vorhandenen Tools und dokumentierte Prozessen, wie aufrufen Quality Dashboard (CQD) und die Qualität der Erfahrung überprüfen Leitfaden zum Überwachen der Benutzer wünschen, identifizieren Qualität Trends und-Wartung Laufwerk bei Bedarf.
 Die Qualität Champion sollten mit den jeweiligen Teams auf Laufwerk Remediation Aktionen und Bericht zu einem Lenkungsausschuss zu des Fortschritts und der Probleme open arbeiten.
 
-[Erleben Sie die Überprüfung Handbuch für Quality of](https://aka.ms/qerguide) enthält Aktivitäten, die bewerten und-Wartung Anleitungen in wichtige Bereiche, die am stärksten zur Verbesserung der benutzerfreundlichkeit auswirken. Der Anleitungen in im Handbuch für die Überprüfung von Quality Erfahrung behandelt CQD Online als primäres Tool melden, und überprüfen Sie jeden dieser Bereiche mit Schwerpunkt auf Audio die Annahme und Auswirkungen auf die Maximieren Verwendung. Versucht, das Netzwerk zur Verbesserung der Audioqualität Optimierungen übersetzt auch direkt in Verbesserungen bei video sowie die Desktopfreigabe.
+[Erleben Sie die Überprüfung Handbuch für Quality of](https://aka.ms/qerguide) enthält Aktivitäten, die bewerten und-Wartung Anleitungen in wichtige Bereiche, die am stärksten zur Verbesserung der benutzerfreundlichkeit auswirken. Der Anleitungen in im Handbuch für die Überprüfung von Quality Erfahrung behandelt CQD Online als primäres Tool melden, und überprüfen Sie jeden dieser Bereiche mit Schwerpunkt auf Audio die Annahme und Auswirkungen auf die Maximieren Verwendung. Alle zur Verbesserung der Audiowahrnehmung vorgenommenen Netzwerkoptimierungen äußern sich auch direkt als Verbesserungen bei der Video- und Desktopfreigabe.
 
 Es wird dringend empfohlen, dass am Anfang der Qualität "Champion" benennen. Nach dem benannt wird, sollte sie beginnen mit der Inhalte in die Erfahrung überprüfen Handbuch für Quality of und zugehörige Schulungsmaterial vertraut machen.
 
@@ -391,9 +393,9 @@ Es wird dringend empfohlen, dass am Anfang der Qualität "Champion" benennen. Na
 | Erstellen von Daten in CQD aktualisieren | Aktualisieren oder neue Definitionen für Gebäude in CQD hinzufügen, wenn mit dem Netzwerk geändert wird (siehe [Erstellen Hochladen von Informationen](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)). | Bei Bedarf | |
 | Füllen Sie die Qualität Champion-Rolle | End-to-End-Verantwortung für die Qualität in der Organisation. Dazu gehören:<ul><li>Stellen Sie sicher, dass die QER regelmäßig durchgeführt wird.</li><li>Skalieren der verantwortlichen Mitarbeiterstatus Qualität melden.</li><li>Vergewissern Sie sich zum Erstellen von Daten, die Definitionen Stand sind.</li><li>Koordinieren von Remediation-Maßnahmen in der Organisation, um sicherzustellen, dass Benutzer eine hohe Qualität Erfahrung mit Teams verfügen.</li></ul> | Täglich | |
 
-### <a name="references"></a>Verweise
+### <a name="references"></a>Referenzen
 
-[Hier erfahren Sie, CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
+[Vertrautmachen mit dem AQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
 [Informationen zum Erstellen von hochladen](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
@@ -407,16 +409,16 @@ Microsoft-Teams, Endpunkte können als jeder PC, Mac, Tablet oder Mobiltelefonnu
 
 ### <a name="endpoint-requirements"></a>Anforderungen für Endpunkt
 
-Einer der wichtigsten Vorteile von Teams ist, dass der Client automatisch auf dem aktuellen Stand ist. Die Clients auf dem PC und Mac werden aktualisiert, mit einem Hintergrund, die für neue Builds überprüft und den neuen Client heruntergeladen, wenn die app im Leerlauf befindet. Die mobilen apps Teams sind über ihre jeweiligen app Speicher aktualisiert.
+Einer der wichtigsten Vorteile von Teams ist, dass der Client automatisch auf dem aktuellen Stand ist. Die Clients für PC und Mac werden mit einem Hintergrundprozess aktualisiert, der nach neuen Builds sucht und den neuen Client herunterlädt, wenn sich die App im Leerlauf befindet. Die mobilen apps Teams sind über ihre jeweiligen app Speicher aktualisiert.
 
 Der Client Teams über Mindestanforderungen im Hinblick auf die zugrunde liegenden Softwareplattform verfügt. Diese Anforderungen möglicherweise über einen Zeitraum ändern, und daher ist es wichtig, dass Sie diese Änderungen überwachen. Der Client Teams verfügt beispielsweise über eine minimale iOS-Version. Wenn der Client einen Internetbrowser verwendet, muss der Browser ebenfalls aktualisiert werden. Eine Liste der unterstützten Plattformen finden Sie im [-Clients für Microsoft-Teams erhalten möchten](get-clients.md).
 
-### <a name="endpoint-firewalls"></a>Endpunkt firewalls
+### <a name="endpoint-firewalls"></a>Endpunktfirewalls
 
-Mithilfe der clientseitigen Firewalls können eine erhebliche Auswirkungen Benutzerinteraktion haben.
+Clientseitige Firewalls können erhebliche Auswirkungen auf die Benutzerfreundlichkeit haben.
 Mithilfe der clientseitigen Firewalls können sogar anzurufen aufgebaut wird und die Anrufqualität beeinflussen. Nachdem die entsprechenden Ausnahmen auf dem Clientfirewall konfiguriert wurden, müssen sie auf dem aktuellen Stand werden anhand der Informationen in [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips). Ihre Drittanbieter müssen spezifische Leitfäden dafür, wie die Ausnahmen zu aktualisieren.
 
-### <a name="wi-fi-drivers"></a>Wi-Fi-Treiber
+### <a name="wi-fi-drivers"></a>WLAN-Treiber
 
 Wi-Fi-Treiber können problematisch sein. Als Beispiel möglicherweise ein Treiber sehr aggressive roaming-Verhaltens zwischen Zugriffspunkten, die nicht benötigte-Zugriffspunkt wechseln, dem führenden Anruf schlechter Qualität auslösen kann. Ein leistungsschwachen Wi-Fi-Treiber möglicherweise durch eine Qualität Erfahrung Prüfung festgestellt werden (siehe [Erfahrung überprüfen Handbuch für Quality of](https://aka.ms/qerguide) für mehr Details). Es ist wichtig, einen Qualität datengesteuerten Prozess implementieren, der neue Wi-Fi-Treiber überwacht und stellt sicher, dass sie vor dem allgemeinen Benutzersegmente bereitgestellt wird getestet werden.
 
@@ -443,16 +445,16 @@ Auch wenn Sie die vorherige Anleitung durchgeführt haben, können Benutzer in I
 | Aktivität | Beschreibung | Trittfrequenz | Team zugewiesen |
 |---|---|---|---|
 | Anforderungen für Endpunkt | Sicherstellen Sie, dass die gesamte erforderliche Software für Teams, die in [Get-Clients für Microsoft-Teams](get-clients.md)aufgeführten erfüllen Endpunkt weiterhin Teams. | Monatlich | |
-| Endpunkt firewalls | Verwalten Sie die entsprechenden Ausnahmen auf der Grundlage der Informationen in [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips)Endpunkt Firewall. Ihre Drittanbieter müssen bestimmte Richtlinien zum Verwalten der Ausschlüsse. Abonnieren Sie den [RSS-feed](https://support.office.com/o365ip/rss) Änderungen automatisch benachrichtigt werden sollen. | Bei Bedarf | |
-| Wi-Fi-Treiber | Testen Sie und aktualisieren Sie die Wi-Fi-Treiber auf dem PC. Überprüfen Sie die Ergebnisse mithilfe von CQD ([Qualität überprüfen Handbuch für of Experience](https://aka.ms/qerguide)). | Bei Bedarf | |
+| Endpunktfirewalls | Verwalten Sie die entsprechenden Ausnahmen auf der Grundlage der Informationen in [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips)Endpunkt Firewall. Ihre Drittanbieter müssen bestimmte Richtlinien zum Verwalten der Ausschlüsse. Abonnieren Sie den [RSS-feed](https://support.office.com/o365ip/rss) Änderungen automatisch benachrichtigt werden sollen. | Bei Bedarf | |
+| WLAN-Treiber | Testen Sie und aktualisieren Sie die Wi-Fi-Treiber auf dem PC. Überprüfen Sie die Ergebnisse mithilfe von CQD ([Qualität überprüfen Handbuch für of Experience](https://aka.ms/qerguide)). | Bei Bedarf | |
 | Endpunkt-Verwaltung | Verwalten des Katalogs der unterstützten Endpunkten und Geräte (wie Headsets) Schnittstelle. Hersteller Verträge, Garantie, Verteilung, Replacement verwalten und Richtlinien zu reparieren. | Monatlich | |
 | Endpunkt-Problembehandlung | Problembehandlung bei Aufgaben kann Überprüfen der Konnektivität, konsultieren die Liste der bekannten Probleme, Log sammeln, Analyse und Weiterleitung zu Support von Microsoft oder von Drittanbietern enthalten. | Bei Bedarf | |
 
-### <a name="references"></a>Verweise
+### <a name="references"></a>Referenzen
 
-[URLs und IP-Adressbereiche von Office 365](https://aka.ms/o365ips)
+[URLs und IP-Adressbereiche für Office 365](https://aka.ms/o365ips)
 
-[Beziehen von Clients für Microsoft Teams](get-clients.md)
+[Clients für Microsoft Teams abrufen](get-clients.md)
 
 [Microsoft-Teams-community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 

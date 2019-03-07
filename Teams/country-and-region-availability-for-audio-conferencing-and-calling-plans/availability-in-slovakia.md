@@ -9,7 +9,7 @@ ms.assetid: d1cbbed6-7398-4152-8836-1b06484d8bae
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die Slowakei verfügbar.
-ms.openlocfilehash: ce25f9f7852464644e3c71c1b2e1212742a3230a
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: d00770ccaa4e8cb76677e43bce063c08bc09ec2b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30350794"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462924"
 ---
 # <a name="availability-in-slovakia"></a>Verfügbarkeit in der Slowakei
 

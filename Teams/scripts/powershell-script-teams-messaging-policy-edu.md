@@ -8,15 +8,17 @@ ms.reviewer: ritikag
 ms.service: msteams
 description: Verwenden Sie dieses PowerShell-Skript ein Messagingrichtlinien im Teams erstellen, und weisen Sie es Benutzern in Ihrer Organisation.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 282a5442b6d4bf64771e741e75fab45bc87f6bd4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d65deff9f424fad8fed11d7b10cbe40ced387161
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371238"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463044"
 ---
 <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell-Skript-Beispiel – erstellen und Zuweisen einer Richtlinie auf messaging
 -------------------------------------------------------------------------

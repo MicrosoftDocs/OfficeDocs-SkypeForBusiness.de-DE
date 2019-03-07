@@ -9,7 +9,7 @@ ms.assetid: 1eb066bc-394a-434e-87a2-61d257a7e77d
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die Dominikanische Republik verfügbar.
-ms.openlocfilehash: 0d1cd8da10c66a403e987d1612b2e4f52cb7ef23
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 48c98c853804de29753b66cf28a2dd4452fe9304
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352610"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465028"
 ---
 # <a name="availability-in-the-dominican-republic"></a>Verfügbarkeit in der Dominikanischen Republik
 

@@ -1,25 +1,27 @@
 ---
-title: Verwalten von externen Zugriff (Verbund) im Microsoft-Teams
+title: Verwaltung des externen Zugriffs (Verbund) in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 01/30/2019
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: karvell
 search.appverid: MET150
 description: Ihre IT-Administrator kann den Zugriff durch andere Domänen (Verbund) können Benutzer über diese Domänen Teams teilnehmen konfigurieren.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56e4171421cc52ec1ca79895aba3c0f259d20201
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: 97b322969d3975b6f9ca2b2079d46fe95ef45e52
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29708797"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459924"
 ---
-<a name="manage-external-access-federation-in-microsoft-teams"></a>Verwalten von externen Zugriff (Verbund) im Microsoft-Teams
+<a name="manage-external-access-federation-in-microsoft-teams"></a>Verwaltung des externen Zugriffs (Verbund) in Microsoft Teams
 ======================================================
 
 Mit Microsoft-Teams, externen Zugriff können Benutzer aus anderen Domänen in Ihrer Chats und Anrufe teilnehmen. Sie können auch externe Benutzer zulassen, die noch Skype für Unternehmen Teilnahme an. 

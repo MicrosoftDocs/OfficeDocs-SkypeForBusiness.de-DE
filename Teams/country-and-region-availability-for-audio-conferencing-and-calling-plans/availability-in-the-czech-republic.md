@@ -9,7 +9,7 @@ ms.assetid: 1af19363-beb6-4155-a55e-0765a3d90f02
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die Tschechische Republik verfügbar.
-ms.openlocfilehash: 29155f7547ea913403bbab354d266463713f3e4e
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 7dc3381c34e2375c053ee09999a1d722d6ddde89
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353370"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461620"
 ---
 # <a name="availability-in-the-czech-republic"></a>Verfügbarkeit in der Tschechischen Republik
 

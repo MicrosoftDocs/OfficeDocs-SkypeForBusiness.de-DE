@@ -9,15 +9,17 @@ ms.reviewer: dearbeen
 description: Wie Sie eine detaillierte Umwelt Discovery führen Sie beim Planen Ihrer Reise von Skype für Unternehmen, die Microsoft-Teams.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cb6d41c5f57c436fd940cbf1f515e08daad9441
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 65da6bfa0ec87534d39e1665079f991e8c92aaa9
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349140"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462300"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Ermittlung der Umgebung für den Microsoft Teams-Rollout
 ===================================================
@@ -113,7 +115,7 @@ Falls zutreffend, erfassen Sie die Details der Teams Bereitstellung mithilfe der
 > | Welche Features von Teams und Modalitäten verwendet werden? | <input type="checkbox">Channel-basierter Unterhaltungen <br/> <input type="checkbox">Private chat <br/> <input type="checkbox">Gastzugriff <br/> <input type="checkbox">Kanal-Besprechungen <br/> <input type="checkbox">Private Konferenzen <br/> <input type="checkbox">Private aufrufen <br/> <input type="checkbox">Ad-hoc-Kanal meetup <br/> <input type="checkbox">Videos in Besprechungen <br/> <input type="checkbox">Bildschirmfreigabe an Besprechungen <br/> <input type="checkbox">Audiokonferenzen <br/><input type="checkbox">Applications (apps)<br> &nbsp;&nbsp; &nbsp; <input type="checkbox"> Registerkarten<br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Bots <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Connectors<br><input type="checkbox">Benutzerdefinierte Cloud-Speicher-integration <br>&nbsp;&nbsp; &nbsp; (Feld, Ablage, ShareFile, Google Laufwerk) <br/> <input type="checkbox">DDE-Kanal e-Mail-integration <br/> <input type="checkbox">Andere (Geben Sie in der Spalte Kommentare). | |
 > | Welche Anwendungen haben Sie Teams bereitgestellt? | | |
 > | Haben Sie Funktionen von Microsoft Teams ausdrücklich gesperrt? <br/>Wenn Ja, beachten Sie die Details in der Spalte Kommentare. | <input type="checkbox">"Ja" <br/> <input type="checkbox">Nein ||
-> | Welche Microsoft Teams-Clients werden verwendet? | <input type="checkbox">Web <br/> <input type="checkbox">Windows <br/> <input type="checkbox">Mac <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android (engl.) <br/> <input type="checkbox">Windows Mobile | |
+> | Welche Microsoft Teams-Clients werden verwendet? | <input type="checkbox">Web <br/> <input type="checkbox">Fenster <br/> <input type="checkbox">Mac <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android (engl.) <br/> <input type="checkbox">Windows Mobile | |
 > | Wer verfügt über Berechtigungen zum Erstellen von Teams? | <input type="checkbox">Jede Person in der Organisation <br>&nbsp;&nbsp; &nbsp;(Dies ist die Standardeinstellung) <br/> <input type="checkbox">Bestimmte Personen <br>&nbsp;&nbsp; &nbsp;(Geben Sie in der Spalte Kommentare). | |
 > | Verwenden Sie Sicherheits- und Compliance-Funktionen in Microsoft Teams? | <input type="checkbox">"Ja" <br/> <input type="checkbox">Nein | |
 
@@ -174,11 +176,11 @@ Anhand der folgenden Tabelle die Details der Clients und Endpunkte in Verwendung
 > | Welches Desktopbetriebssystem verwenden die Benutzer? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows-10 <br/> <input type="checkbox">Mac (Geben Sie die Version in der Spalte Kommentare.) <br/> <input type="checkbox">Andere (Beachten Sie die Details in der Spalte Kommentare). | |
 > | Welche Version von Microsoft Office bereitgestellt wird <br>mit diesen Geräten? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office für Mac 2011 <br/> <input type="checkbox">Office für Mac 2016 <br/> <input type="checkbox">Andere (Beachten Sie die Details in der Spalte Kommentare). | |
 > | Welche Office-Bereitstellung-Technologie wird verwendet <br>in Ihrer Organisation? | <input type="checkbox">MSI-DATEI <br/> <input type="checkbox">Klick-und-los | |
-> | Was sind die zulässigen und mobile unterstützt <br>Plattformen verwendet? <br/>Wählen Sie alle zutreffenden an. | <input type="checkbox">Windows <br/> <input type="checkbox"> Mobil <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android (engl.) <br/> <input type="checkbox">Andere (Beachten Sie die Details in der Spalte Kommentare). | |
+> | Was sind die zulässigen und mobile unterstützt <br>Plattformen verwendet? <br/>Wählen Sie alle zutreffenden an. | <input type="checkbox">Fenster <br/> <input type="checkbox"> Mobil <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android (engl.) <br/> <input type="checkbox">Andere (Beachten Sie die Details in der Spalte Kommentare). | |
 > | Wie werden mobile Geräte bereitgestellt? <br/>Wählen Sie alle zutreffenden an. | <input type="checkbox">Unternehmens-Geräte <br/> <input type="checkbox">Schalten Sie Ihr eigenes Gerät | |
 > | Welche Geräte Benutzer führen Sie derzeit verwenden für den Zugriff auf <br>Sprach- und Dienste <br>(Telefone, Headsets, Telefone, Video)? | | |
 
-<a name="operations"></a>Betrieb
+<a name="operations"></a>Vorgänge
 ---
 
 Verwenden Sie in der folgenden Tabelle, um die Details der betriebliche Aspekte der Umgebung zu erfassen.
@@ -207,5 +209,5 @@ Erfassen Sie mithilfe der folgenden Tabelle den aktuellen Status der Einführung
 > | Verfügt Ihre Organisation eine Benutzerakzeptanz <br>und Änderungsmanagement Team? | <input type="checkbox">"Ja"<br/> <input type="checkbox">Nein | |
 > | Wie messen Sie derzeit für die Technologie Erfolg <br>Einführungen gern Skype für Unternehmen? | | |
 > | Wie viel Prozent der Ihre Benutzerbasis würden Sie sagen hat <br>eingeführt Skype für Unternehmen? | | |
-> | Wie ist die Einstellung der Benutzer zu Skype for Business? | <input type="checkbox">Eine gute <br/> <input type="checkbox">Neutral <br/> <input type="checkbox">Ungültige | |
-> | Die am besten beschreibt der Einführung <br>Strategie für Ihre Skype für Unternehmen verwendet <br>Bereitstellung? | <input type="checkbox">Eine große: e-Mail-Kampagne mit <br>&nbsp;&nbsp; &nbsp;Links zu Schulungen <br/> <input type="checkbox">Erweitert: Eine große sowie eine Vielzahl <br>&nbsp;&nbsp; &nbsp;zur Förderung des Bekanntheitsgrads Kampagnen (Poster, <br>&nbsp;&nbsp; &nbsp;Ereignisse, Champions) und Schulung <br>&nbsp;&nbsp; &nbsp;(Videos, Benutzerhandbücher, persönlicher) <br/> <input type="checkbox">Zugeschnitten: Erweitert, plus die zielorientierten <br>&nbsp;&nbsp; &nbsp;messaging und Schulung nach Rolle <br/> <input type="checkbox">Andere <br>&nbsp;&nbsp; &nbsp;(Beachten Sie die Details in der Spalte Kommentare). | |
+> | Wie ist die Einstellung der Benutzer zu Skype for Business? | <input type="checkbox">gut <br/> <input type="checkbox">Neutral <br/> <input type="checkbox">Ungültige | |
+> | Die am besten beschreibt der Einführung <br>Strategie für Ihre Skype für Unternehmen verwendet <br>Einsatz? | <input type="checkbox">Eine große: e-Mail-Kampagne mit <br>&nbsp;&nbsp; &nbsp;Links zu Schulungen <br/> <input type="checkbox">Erweitert: Eine große sowie eine Vielzahl <br>&nbsp;&nbsp; &nbsp;zur Förderung des Bekanntheitsgrads Kampagnen (Poster, <br>&nbsp;&nbsp; &nbsp;Ereignisse, Champions) und Schulung <br>&nbsp;&nbsp; &nbsp;(Videos, Benutzerhandbücher, persönlicher) <br/> <input type="checkbox">Zugeschnitten: Erweitert, plus die zielorientierten <br>&nbsp;&nbsp; &nbsp;messaging und Schulung nach Rolle <br/> <input type="checkbox">Andere <br>&nbsp;&nbsp; &nbsp;(Beachten Sie die Details in der Spalte Kommentare). | |

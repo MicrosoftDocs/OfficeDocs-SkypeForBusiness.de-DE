@@ -9,7 +9,7 @@ ms.assetid: 7619d889-19c8-48b8-8203-7c25db67a0ce
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Südafrika verfügbar.
-ms.openlocfilehash: d0cda21c38895a8eeebcb75b1093d6c41a9c71fc
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 8ec789e8494263e5bdcdb882c04fe2aea6bea199
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352874"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460164"
 ---
 # <a name="availability-in-south-africa"></a>Verfügbarkeit in Südafrika
 

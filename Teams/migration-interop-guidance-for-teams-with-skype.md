@@ -9,15 +9,17 @@ ms.reviewer: bjwhalen
 description: Leitfaden für den Übergang von Skype für Unternehmen, die Teams verwalten
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 062b90003c1c1529ff3be3b05bf752fb73ad37bb
-ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
+ms.openlocfilehash: cb1a23fb64f2a6c2d24e70f69a7997b1ec2049a6
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29992865"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461572"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden
 
@@ -186,7 +188,7 @@ TeamsInteropPolicy wurde durch TeamsUpgradePolicy ersetzt. Alle Komponenten, die
 
 [Koexistenz mit Skype for Business](https://docs.microsoft.com/en-us/microsoftteams/coexistence-chat-calls-presence)
 
-[Clientumgebung Teams und Konformität mit Koexistenz Modi](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
+[Führt Kundenerfahrung und Konformität mit Koexistenzmodi zusammen](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
 
 [Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
 

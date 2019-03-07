@@ -9,15 +9,17 @@ ms.service: msteams
 description: Beschreibt Telefonsystem automatischen Telefonzentralen und Anruf Warteschlangen und erläutert, wie Sie diese Aufrufe in Teams beantworten können.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b0b533020def2e344991fa758304888c8166436
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c010ae5a812cfd3d49279dd3728e948bdb31ca53
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530946"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465332"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Beantworten Sie die automatische Telefonzentrale, und rufen Sie die Warteschlange Anrufe direkt von Teams
 ===========================================================
@@ -59,7 +61,7 @@ Um-Telefonzentrale erhalten, und rufen Sie Warteschlange Anrufe für Microsoft-T
 ## <a name="related-topics"></a>Verwandte Themen
 
 -   [Was ist Telefonsystem in Office 365](what-is-phone-system-in-office-365.md)
--   [Erstellen einer Telefonsystem-Anrufwarteschleife](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
--   [Was sind automatische Telefonzentralen für das Telefonsystem?](what-are-phone-system-auto-attendants.md)
--   [Einrichten einer automatischen Telefonzentrale für das Telefonsystem](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [Erstellen einer Warteschlange für das Telefonsystem](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [Was sind automatische Telefonzentralen des Telefonsystems?](what-are-phone-system-auto-attendants.md)
+-   [Einrichten einer automatischen Telefonzentrale des Telefonsystems](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

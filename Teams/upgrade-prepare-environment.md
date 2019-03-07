@@ -1,5 +1,5 @@
 ---
-title: Vorbereiten einer Umgebung für ein Upgrade von Skype für Unternehmen von Teams
+title: Vorbereiten einer Umgebung für das Upgrade von Skype for Business auf Teams
 author: turgayo
 ms.author: turgayo
 manager: serdars
@@ -10,15 +10,17 @@ description: Überprüfen Sie Ihre Umgebung und den Bereitschaft vor Beginn des 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c59ce73f4cff16c042753a69b4d14aa79896ebe0
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 485bd42198e54c5ccacc6296c31a19298d66ccf7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349405"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464956"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft")
 

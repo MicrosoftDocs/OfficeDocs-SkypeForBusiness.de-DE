@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Lernen Sie die Phase zum Starten des Teams Annahme aus.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbebdc95a4c915e558f905e732cfae92fcd3ed14
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 83a5d4d40b7370a2c609f33d056443c5dee06167
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699829"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460476"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams-Einführungsphase 1 – Start
 

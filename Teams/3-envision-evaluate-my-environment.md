@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Verwenden Sie Rollen und Netzwerk-Analyse ermitteln Sie die Bereitschaft Ihrer Organisation, die richtigen TCP- und UDP-Ports zu öffnen, führen Sie eine beliebige Remediation Netzwerk.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a00bf784b283f1f2d948e82d90ce54b0a67a6439
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 29bfd87d860cc68b988e365a77f28eed8fa9e2f5
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373314"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459095"
 ---
 # <a name="evaluate-my-environment"></a>Meine Umgebung bewerten
 
@@ -101,44 +103,44 @@ Ihr Netzwerk vorbereiten, die Fehler aufweisen führt zum unzufrieden Benutzer w
 
 <!--ENDOFSECTION-->
 
-## <a name="bandwidth-planning"></a>Planen der Bandbreite
+## <a name="bandwidth-planning"></a>Bandbreitenplanung
 
 Der erste Schritt zur Bereitschaft des Netzwerks müssen Sie sicherstellen, dass Ihr Netzwerk über genügend Bandbreite für die Modalitäten verfügt, Teams für Benutzer bereitgestellt werden. Planen genügend Bandbreite ist eine recht unkompliziert Aufgabe, und ein sehr niedrige einstiegshürde Start um sicherzustellen, dass Ihre Benutzer eine hohe Qualität Teams Erfahrung haben.
 
 Starten Sie die Bandbreite Weg für Teams auf der [Website Meine Advisor](https://myadvisor.fasttrack.microsoft.com/) mithilfe der Netzwerk-Planner planen. Der Netzwerk-Planner enthält pro Website Bandbreite für Teams Planung und Empfehlungen zum Optimieren der Leistung des Netzwerks bietet.
 
-### <a name="local-internet-egress"></a>Lokale Internet Ausgang
+### <a name="local-internet-egress"></a>Lokaler Internetausgang
 
-Viele Netzwerke wurden entwickelt, verwenden Sie einen Hub- and -spoke-Topologie. In dieser Topologie durchläuft Datenverkehr im Internet in der Regel das WAN an einem zentralen Datencenter bevor (Egresses) mit dem Internet herausstellt. Dies erfolgt häufig, um Sicherheit Netzwerkgeräte mit dem Ziel der Reduzierung der Gesamtkosten zentralisieren.
+Viele Netzwerke wurden für die Verwendung einer Hub-Spoke-Topologie entworfen. In dieser Topologie durchläuft der Internetdatenverkehr normalerweise das WAN zu einem zentralen Datencenter und tritt dann in das Internet aus. Dies geschieht häufig, um die Netzwerksicherheitsgeräte zu zentralisieren und dadurch die Gesamtkosten zu reduzieren.
 
-Back-Leinen zu lösen-Datenverkehr über das WAN nimmt die Wartezeit und wirkt sich negativ auf die Qualität und die Benutzeroberfläche. Da Microsoft-Teams, auf Microsoft Netzwerk für große globale ausgeführt wird, ist häufig ein Speicherort im Netzwerk Peers in der Nähe der Benutzer. Ein Benutzer in den meisten Fällen erhalten eine bessere Leistung so bald wie möglich egressing aus einer lokalen Internet Punkt erreicht bald ihrem Standort und unsere optimiert, VoIP Netzwerk an. Für einige Arbeitslasten-DNS-Anforderungen werden verwendet, um Datenverkehr zu senden, die am nächsten gelegenen Front-End-Server. In solchen Fällen ist es wichtig, dass es bei der Verwendung einer lokalen Austritt mit lokalen DNS-Auflösung gepaart ist.
+Der Rücktransport des Datenverkehrs durch das WAN erhöht die Latenz und hat negative Auswirkungen auf die Qualität und die Benutzerfreundlichkeit. Da Microsoft Teams im großen globalen Netzwerk von Microsoft ausgeführt wird, gibt es oft einen Netzwerkpeering-Standort in der Nähe des Benutzers. Benutzer erzielen wahrscheinlich eine bessere Leistung, indem sie ihre Daten so schnell wie möglich aus einem lokalen Internetpunkt in der Nähe ihres Standorts heraus und in unser für VoIP optimiertes Netzwerk leiten. Bei einigen Arbeitsauslastungen werden DNS-Anforderungen verwendet, um den Datenverkehr an den nächstgelegenen Front-End-Server zu senden. In diesen Fällen ist es wichtig, dass bei Verwendung eines lokalen Ausgangspunkts auch lokale DNS-Auflösung genutzt wird.
 
-Optimieren des Netzwerkpfades zur globalen Microsoft Netzwerk wird die Leistung verbessert und letztlich am besten für Benutzer bereitzustellen. Weitere Informationen finden Sie im Blogbeitrag [erste bewährte Konnektivität und Leistung in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
+Durch Optimieren des Netzwerkpfads zum globalen Netzwerk von Microsoft wird die Leistung verbessert und letztendlich die größtmögliche Benutzerfreundlichkeit erzielt. Weitere Details finden Sie im Blogbeitrag [Erzielen der besten Konnektivität und Leistung in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
 ### <a name="vpn"></a>VPN
 
-VPNs bieten eine wertvolle Service für viele Organisationen. Leider sind sie in der Regel nicht entwickelt und Real-Time Media-Unterstützung konfiguriert. Einige VPNs möglicherweise auch nicht UDP unterstützt werden. VPNs einführen auch eine zusätzliche Sicherheitsebene Verschlüsselung auf der Basis Mediendatenverkehr, die bereits verschlüsselt ist. Darüber hinaus Konnektivität mit dem Dienst Teams effiziente aufgrund haarstrich Verankern-Datenverkehr über ein VPN-Gerät möglicherweise nicht.
+VPNs leisten vielen Organisationen wertvolle Dienste. Leider sind sie in der Regel nicht entwickelt und Real-Time Media-Unterstützung konfiguriert. Manche VPNs unterstützen möglicherweise UDP nicht. VPNs einführen auch eine zusätzliche Sicherheitsebene Verschlüsselung auf der Basis Mediendatenverkehr, die bereits verschlüsselt ist. Darüber hinaus Konnektivität mit dem Dienst Teams effiziente aufgrund haarstrich Verankern-Datenverkehr über ein VPN-Gerät möglicherweise nicht.
 Darüber hinaus sie unbedingt aus Sicht der Kapazität eignen sich nicht um die erwarteten Lasten aufzunehmen, die Teams erforderlich ist.
 
-Es wird empfohlen, um einen alternativen Pfad bereitzustellen, der das VPN für Teams Datenverkehr umgeht. Dies wird auch als *Split-Tunnel VPN*bezeichnet. Split-tunneling bedeutet, dass Datenverkehr für Office 365 wird nicht das VPN durchlaufen jedoch direkt an den Office 365. Diese Änderung haben eine positive Auswirkung auf die Qualität, sondern bietet auch den sekundären Vorteil Last aus VPN-Geräte und des Netzwerks der Organisation verringert.
+Es wird empfohlen, einen alternativen Pfad bereitzustellen, der das VPN für Teams-Datenverkehr umgeht. Dies wird auch als *Split-Tunnel VPN*bezeichnet. Split-tunneling bedeutet, dass Datenverkehr für Office 365 wird nicht das VPN durchlaufen jedoch direkt an den Office 365. Diese Änderung wirkt sich positiv auf die Qualität aus, bietet aber auch den sekundären Vorteil, dass die Last für die VPN-Geräte und das Netzwerk der Organisation reduziert wird.
 
-Um ein Split-Tunnel zu implementieren, wenden Sie sich an den Anbieter für die Konfigurationsdetails für VPN.
+Wenn Sie einen geteilten Tunnel implementieren möchten, erkundigen Sie sich bei Ihrem VPN-Anbieter nach den Konfigurationsdetails.
 
-### <a name="wi-fi"></a>Wi-Fi
+### <a name="wi-fi"></a>WLAN
 
 Wi-Fi-Netzwerke sind nicht wie VPN unbedingt entwickelt oder Real-Time Media-Unterstützung konfiguriert. Planen oder optimieren, ist ein Wi-Fi-Netzwerk zur Unterstützung von Teams ein wichtiger Aspekt für eine hohe Qualität-Bereitstellung.
 
 Es gibt mehrere Faktoren, die ins Spiel für ein WLAN Netzwerk optimieren:
 
--   Implementieren von QoS oder Wi-Fi Multimedia (WMM), um sicherzustellen, Mediendatenverkehr wird erste priorisiert entsprechend die Wi-Fi-Netzwerke.
+-   Implementieren Sie QoS oder Wi-Fi Multimedia (WMM), um sicherzustellen, dass Mediendatenverkehr gegenüber den WLAN-Netzwerken entsprechend priorisiert wird.
 
--   Planung und Optimierung der Wi-Fi-Bereichen und Access zeigen Platzierung. Der Bereich mit 2,4 GHz möglicherweise eine angemessene wünschen, abhängig davon, wie Access Point bieten, jedoch Zugriffspunkte unterliegen häufig durch andere Consumer-Geräte, die in diesem Bereich verwendet werden. Bereich von 5 GHz erfordert weitere Zugriffspunkte zum Abrufen der ausreichenden Abdeckung jedoch ist für Real-Time Media aufgrund ihrer Dichte Bereich besser geeignet sind. Endpunkte müssen auch diesem Bereich unterstützen und nutzen Sie diese Bereiche entsprechend konfiguriert werden.
+-   Planung und Optimierung der Wi-Fi-Bereichen und Access zeigen Platzierung. Der 2,4-GHz-Bereich bietet zwar möglicherweise je nach Platzierung des Zugriffspunkts eine angemessene Qualität, aber Zugriffspunkte werden oft durch andere Heimanwendergeräte beeinflusst, die im gleichen Bereich betrieben werden. Der 5-GHz-Bereich ist aufgrund seiner Dichte besser für Echtzeitmedien geeignet, erfordert jedoch mehr Zugriffspunkte, um eine ausreichende Abdeckung zu erzielen. Außerdem müssen die Endpunkte diesen Bereich unterstützen und so konfiguriert sein, dass sie diese Bänder entsprechend nutzen.
 
 -   Wenn Dual-Band-Wi-Fi-Netzwerke bereitgestellt werden, sollten Sie die Steuerung Band implementieren. Band Steuerung ist eine Technik implementiert Wi-Fi-Anbieter, Dual-Band-Clients für die Verwendung von 5 GHz-Bereich zu beeinflussen.
 
 -   Wenn Zugriffspunkte im gleichen Kanal zu nahe beieinander können dazu führen, dass Signal Überlappung und versehentlich konkurrieren, wodurch eine schlechte Erfahrung für den Benutzer. Stellen Sie sicher, dass Zugriffspunkte, die nebeneinander auf Kanäle sind, die sich nicht überlappen.
 
-Jeder Hersteller drahtlosen verfügt über eine eigene Empfehlungen für die Bereitstellung von WLAN-Lösung. Es wird empfohlen, dass Sie den Hersteller für spezifische Leitfäden anzusehen.
+Jeder WLAN-Anbieter hat seine eigenen Empfehlungen für die Bereitstellung seiner WLAN-Lösung. Wir empfehlen Ihnen, sich bei Ihrem Anbieter nach konkreten Anleitungen zu erkundigen.
 
 <!--ENDOFSECTION-->
 
@@ -212,7 +214,7 @@ Dienstqualität (QoS) kann auf müssen Hörvermögen durch Priorisierung und Tre
 Weitere Informationen finden Sie unter [Quality of Service in Microsoft-Teams](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams).
 
 >[!NOTE]
->Viele Netzwerke weiterentwickelt über einen Zeitraum von Upgrades, Erweiterung oder anderen geschäftlichen Anforderungen. Stellen Sie sicher, dass Sie betriebliche Prozesse zum Verwalten dieser Bereiche als Teil Ihrer Service-Management-Planung verfügen.
+>Viele Netzwerke entwickeln sich im Lauf der Zeit weiter, sei es durch Upgrades, durch Erweiterung oder durch andere geschäftliche Anforderungen. Stellen Sie sicher, dass Sie über betriebliche Prozesse verfügen, mit denen diese Bereiche im Rahmen der Planung der Dienstverwaltung gewartet werden.
 
 
 <table>

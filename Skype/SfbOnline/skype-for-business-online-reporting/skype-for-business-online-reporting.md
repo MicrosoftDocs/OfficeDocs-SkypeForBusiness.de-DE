@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: 9339efa3dfe9f7984b23dd46ce0fac47dbe4b9ee
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b6e7dd3d109dfd9fab169b1cb8ec37e28f35bbc0
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865215"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30453986"
 ---
 # <a name="skype-for-business-online-reporting"></a>Skype for Business Online-Berichterstellung
 
@@ -58,7 +58,7 @@ In der Office 365 und Skype für Business Admin Center können Sie verschiedene 
 |[Skype für Business Sitzung Detailbericht](session-details-report.md) <br/> | Benutzeralias <br/> Dialog-ID  <br/> Medientypen  <br/> Anfangs- und Endzeiten <br/> Zum und vom URI <br/> Konferenz-URL <br/> Telefonnummer <br/> |
  
 ## <a name="related-topics"></a>Verwandte Themen
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

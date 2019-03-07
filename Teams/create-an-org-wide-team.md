@@ -10,15 +10,17 @@ ms.service: msteams
 search.appverid: MET150
 description: Informationen Sie zum Erstellen und Verwalten einer Org geltende Team in Teams.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b838652ee68895d8c2be3768316aa200a203945
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: a63b39d0b0ef51326b253e87be99889e9a018a03
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182520"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461060"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
@@ -40,9 +42,9 @@ Wenn ein Team Org geltende erstellt wird, werden alle globale Administratoren al
 Wenn die für die optimale Nutzung Ihrer Org geltende Team erhalten möchten, empfehlen wir Team Besitzer die folgenden Schritte aus.
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Zulassen Sie nur Team Besitzer für die Bereitstellung auf den allgemeinen Kanal
-Rauschen Sie DDE-Kanal Ausführungsstapel nur Team aus, dem Besitzer der allgemeinen Kanal veröffentlichen. Besuchen Sie das Team aus, und klicken Sie auf **Weitere Optionen (...)**  >  **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf **Member Berechtigungen** > Wählen Sie **nur die Eigentümer Nachrichten senden können**.
+Rauschen Sie DDE-Kanal Ausführungsstapel nur Team aus, dem Besitzer der allgemeinen Kanal veröffentlichen. Besuchen Sie das Team aus, und klicken Sie auf **Weitere Optionen (...)**  >  **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf **Berechtigung Mitglied** > wählen Sie **nur die Eigentümer Nachrichten senden können**.
 ### <a name="turn-off-team-and-team-name-mentions"></a>Deaktivieren Sie @team und @ erwähnungen [Teamname]
- Reduzieren Sie um zu verhindern, dass die gesamte Organisation überladen @mentions. Besuchen Sie das Team aus, und klicken Sie auf **Weitere Optionen (...)**  >  **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf **@mentions** > deaktivieren **Member anzeigen die Option zum @team oder @[Teamname]**. 
+ Reduzieren Sie um zu verhindern, dass die gesamte Organisation überladen @mentions. Besuchen Sie das Team aus, und klicken Sie auf **Weitere Optionen (...)**  >  **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf **@mentions** > ausschalten **Member anzeigen die Option zum @team oder @[Teamname]**. 
 ### <a name="automatically-favorite-important-channels"></a>Automatisch bevorzugte wichtige Kanäle
  Bevorzugte wichtige Kanäle sicherzustellen, dass jede Person in Ihrer Organisation bestimmte Unterhaltungen abwickelt. Finden Sie weitere Informationen finden Sie unter [Automatische Favoriten Kanäle für das gesamte Team](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
 

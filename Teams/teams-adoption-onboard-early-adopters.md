@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Wählen Sie für die Phase Experiments Ihrer Teams Annahme frühe Übernahmen und dann Erfassung des Feedbacks für Ihr Projekt.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58547d5f4577d9bca71317573677a56453188634
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 415726bbc78fbc98b5e3eefa3cb1455f3ddee483
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699670"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462132"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Onboarding von Early Adopters und Sammeln von Feedback für Microsoft Teams
 
@@ -33,7 +35,7 @@ Führen Sie die folgenden Schritte aus, mit diesen frühen Übernahmen:
 3. Vergewissern Sie sich Zugriff auf den Kanal Feedback von Teammitgliedern Champions Zusammenarbeit und alle anderen internen soziale Netzwerke Tools, die Sie verwenden können. 
 4. Berücksichtigen Sie Targeted Erstellen von regelmäßigen Umfragen abgeschlossen, die sammeln werden Informationen.
 
-## <a name="gather-feedback"></a>Erfassung des Feedbacks
+## <a name="gather-feedback"></a>Sammeln von Feedback
 
 Verwenden Sie die Komponenten von Office 365 zum Sammeln von Feedback für Ihr Projekt.
   

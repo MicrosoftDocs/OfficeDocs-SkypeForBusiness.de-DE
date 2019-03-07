@@ -1,5 +1,5 @@
 ---
-title: Planen von Microsoft 365 Government – GCC-Bereitstellungen – Microsoft Teams
+title: Planen von Microsoft 365 Government – GCC High-Bereitstellungen – Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,15 +11,17 @@ description: Anleitungen für IT-Spezialisten das Laufwerk Office 365-Bereitstel
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af5261e20f11cfb4234fb6d27abfa31b18370556
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: b4b1dc313fa1ea223e7c55f066b869b29c098fd2
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988264"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460828"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Planen von Microsoft 365 Government - GCC hohe Bereitstellungen
 
@@ -124,15 +126,15 @@ Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, gibt es einige
 | | eDiscovery für Anrufe und Besprechungen | Verfügbar |
 | | Organisation automatische Telefonzentrale | Klicken Sie auf der Regierung Bestand |
 | | Wenden Sie Skype Consumer - Teams | Nicht verfügbar |
-| Dateien | Letzte | Verfügbar |
-| | Microsoft Teams | Verfügbar |
-| Anmelden | App-Store | Nicht verfügbar |
+| Dateien | aktuell | Verfügbar |
+| | Microsoft Teams | Verfügbar |
+| abspeichern | App-Store | Nicht verfügbar |
 | Suche | Nachrichten | Verfügbar |
 | | Kontakte | Verfügbar |
 | | Dateien | Verfügbar |
 | | Schrägstrich-Befehle | Verfügbar |
-| Compliance | Compliance-Inhaltssuche | Verfügbar |
-| | Aufbewahrung | Verfügbar |
+| Beachtung | Compliance-Inhaltssuche | Verfügbar |
+| | Speicherung | Verfügbar |
 | | Audit Log-Suche | Verfügbar |
 | | Rechtliche Aufbewahrungspflicht | Verfügbar |
 | | eDiscovery | Verfügbar |

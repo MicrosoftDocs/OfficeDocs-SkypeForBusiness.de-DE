@@ -5,23 +5,24 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 ms.reviewer: sonua
 search.appverid: MET150
 description: Praktische Anleitungen für die Bereitstellung von Cloud-VoIP-Funktionen in Microsoft Teams
-MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f773c88c16f77e6879adb29852514ef7548790fa
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 93ab7201d96fe337cbdc1c0bbf89f9eab3006d91
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754752"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463092"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
-In Microsoft-Teams können Benutzer ihre Teams Besprechungen und Gruppe Aufrufe von Audio-, Video- und Bildschirmfreigabe Aktivität erfassen aufzeichnen. Es ist auch eine Option für Aufzeichnungen automatische Lautschrift haben, damit Benutzer wieder besprechungsaufzeichnungen mit Untertitel und suchen Sie nach wichtige Diskussionselemente in der Schulungsunterlagen ausgeführt werden können. Die Aufzeichnung geschieht in der Cloud und wird in [Microsoft Stream](https://docs.microsoft.com/stream/)gespeichert, sodass Benutzer sicher in ihrer Organisation gemeinsam verwendet werden können.
+In Microsoft-Teams können Benutzer ihre Teams Besprechungen und Gruppe Aufrufe von Audio-, Video- und Bildschirmfreigabe Aktivität erfassen aufzeichnen. Es gibt auch eine Option für die automatische Transkription von Aufzeichnungen, sodass Benutzer Besprechungsaufzeichnungen mit Untertiteln wiedergeben und nach wichtigen Diskussionsbeiträgen in der Transkription suchen können. Die Aufzeichnung geschieht in der Cloud und wird in [Microsoft Stream](https://docs.microsoft.com/stream/)gespeichert, sodass Benutzer sicher in ihrer Organisation gemeinsam verwendet werden können.
 
 Verwandte: [Teams Besprechung aufzeichnen Endbenutzerdokumentation](https://aka.ms/recordmeeting)
 

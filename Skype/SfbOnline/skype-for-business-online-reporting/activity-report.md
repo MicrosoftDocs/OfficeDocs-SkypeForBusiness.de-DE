@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: 26b835162f0db82a7ea4631d8add24dcd9ec79dc
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3d78d2e155c5364baf9c2650466022a27cc4ed9b
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374492"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30453996"
 ---
 # <a name="activity-report"></a>Bericht „Aktivität“
 
@@ -116,7 +116,7 @@ Sie können die Berichtsdaten auch in eine Excel-Datei im Format .csv exportiere
 
     
 ## <a name="related-topics"></a>Verwandte Themen
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

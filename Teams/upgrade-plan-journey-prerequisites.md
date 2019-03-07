@@ -10,15 +10,17 @@ description: Verwenden Sie diese Anleitung über die erforderlichen Komponenten 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 397f3b5017c571a1f58a8b974c288c61704e5ac3
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 39483e7b3c8e511f2081f907b187d97dbbaf526f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349217"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462044"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft")
 
@@ -33,7 +35,7 @@ Dieser Artikel ist Teil technische Bereitschaft Stufe des Ihrem Upgrade Weg, ein
 
 Teams kombiniert mehrere Office 365-Dienste und ist daher die richtige Implementierung und Betrieb dieser Dienste abhängig. Zu diesen Diensten gehören, aber nicht beschränkt auf – SharePoint Online, Exchange Online und OneDrive für Unternehmen.
 
-Obwohl nicht alle Dienste erforderlich sind, empfohlen dringend, dass Sie alle implementieren. Wenn Sie nicht bestimmte Dienste zu implementieren, wirkt die Funktionalität sich, dass Teams Ihrem Unternehmen bieten können. Angenommen, obwohl Sie SharePoint Online implementiert haben, Teams beruht auf SharePoint Online für bestimmte Funktionen wie Dateifreigabe in Gruppe Unterhaltungen, damit dieser Dienst nicht implementieren reduziert, die über die Funktionalität der Client.
+Obwohl nicht alle Dienste erforderlich sind, empfohlen dringend, dass Sie alle implementieren. Wenn Sie nicht bestimmte Dienste zu implementieren, wirkt die Funktionalität sich, dass Teams Ihrem Unternehmen bieten können. Angenommen, obwohl Sie SharePoint Online implementiert haben, Teams beruht auf SharePoint Online für bestimmte Funktionen wie Dateifreigabe in Gruppe Unterhaltungen, damit dieser Dienst nicht implementieren reduziert, die über die Funktionalität der Kunde.
 
 Finden Sie die folgenden Artikel enthalten Informationen zu Voraussetzungen und Interaktion mit anderen Technologien von Teams aus:
 

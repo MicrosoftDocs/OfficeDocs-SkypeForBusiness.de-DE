@@ -8,9 +8,9 @@ ms.topic: article
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection:
+MS.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
+- M365-collaboration
 - M365-voice
 search.appverid: MET150
 ms.audience: Admin
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Kunden können den Office 365-Anrufplan und die Office 365-Audiokonferenz gemäß den Nutzungsbedingungen und der Volumenlizenzvereinbarung mit Skype for Business Online PSTN-Dienste verwenden.
-ms.openlocfilehash: 1d1d047e4888c2f8fbfa93aeb7ab4c00dfc62bde
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 95913132b75eee1a7641c3dd590f44a81efef376
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352866"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463084"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Audiokonferenz – Zeitraum für kostenlose ausgehende Anrufe
 

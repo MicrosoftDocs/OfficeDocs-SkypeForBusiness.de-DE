@@ -7,19 +7,21 @@ ms.date: 09/12/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Finden Sie unter Konfigurieren von Teams, damit die Benutzer mit Benutzern in anderen Organisationen kommunizieren können.
-ms.openlocfilehash: 664c459f85d3a6657c0e556d19d92b7b278f0aee
-ms.sourcegitcommit: ea1085228894ae448f575f9e13a9f25a1f47e636
+ms.openlocfilehash: 6c61c8d932dfe72c1d7764ce78701c0b1e3acfc0
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30312276"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460300"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Lassen Sie Ihren Teams Benutzer Chat und kommunizieren mit Benutzern in einer anderen Organisation von Teams
 

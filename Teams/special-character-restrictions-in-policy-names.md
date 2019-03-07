@@ -1,5 +1,5 @@
 ---
-title: Was sind die Sonderzeichen Einschränkungen in Teams Richtlinien?
+title: Welche Beschränkungen gelten für Sonderzeichen in den Microsoft Teams-Richtlinien?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.service:
 - msteams
 - skype-for-business-online
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
@@ -22,14 +22,14 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: Finden Sie unter welche Probleme mit Sonderzeichen im Namen von Richtlinien und was Sie tun können sind, um es zu beheben.
-ms.openlocfilehash: ffb6082a613587b654f997bc2b2154bfeade15bf
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 3d2bc6f253f048dc07ab99111df3bc1d47788795
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754736"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460156"
 ---
-# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Was sind die Sonderzeichen Einschränkungen in Teams Richtlinien?
+# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Welche Beschränkungen gelten für Sonderzeichen in den Microsoft Teams-Richtlinien?
 
 **Sie können nicht erstellt oder Richtlinien bearbeiten (für messaging, Besprechungen, usw.), die ein Sonderzeichen den Namen in der Microsoft-Teams, Administrator haben, zentriert**. 
 

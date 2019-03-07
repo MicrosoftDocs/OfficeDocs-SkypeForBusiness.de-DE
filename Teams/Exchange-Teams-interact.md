@@ -9,15 +9,17 @@ ms.reviewer: crowe
 description: Lernen Sie die Funktionen kennen, die in Microsoft Teams und den zahlreichen Exchange-Setups gemeinsam verwendet werden, wie zum Beispiel das Erstellen von und die Teilnahme an Teams, das Erstellen von Kanälen usw.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c251255807e1c673c672db20a85b7f56c4a64d6
-ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
+ms.openlocfilehash: 020204700101e086691004cb90b5e5f7eabdbe5a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29992817"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462188"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams 
 =========================================
@@ -39,8 +41,8 @@ Die folgende Tabelle enthält Informationen für Benutzer, für die Exchange Onl
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Ja, <sup>2</sup>|Ja, <sup>2</sup>|Ja |Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja |Ja|
 |**Exchange Online Dedicated vNext**|Ja, <sup>2</sup>|Ja, <sup>2</sup>|Ja |Ja |Ja|Ja|Ja |Ja|Ja|Ja|Ja |Ja |Ja |
-|**Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)|Ja, <sup>2</sup>|Ja, <sup>2, 3</sup>|Ja <sup>4|Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer|Ja|Nein|Ja|Ja |Ja|Nein|Nein|Ja|Ja|
-|**Exchange lokal** (Synchronisierung in Azure AD erforderlich)|Ja, <sup>2</sup>| Ja, <sup>2, 3</sup> |Ja <sup>4|Ja|Ja (Exchange 2016 CU3 oder höher)|Nein|Ja|Ja |Ja|Nicht <sup>5|Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren.|Nein|Ja|
+|**Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)|Ja, <sup>2</sup>|Ja, <sup>2, 3</sup>|Ja <sup>4|Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer|Ja|Nein|Ja|Ja |Ja|Ja <sup>5|Ja |Ja |Ja|
+|**Exchange lokal** (Synchronisierung in Azure AD erforderlich)|Ja, <sup>2</sup>| Ja, <sup>2, 3</sup> |Ja <sup>4|Ja|Ja (Exchange 2016 CU3 oder höher)|Ja (Exchange 2016 CU3 oder höher)|Ja |Ja |Ja|Ja <sup>5|Ja |Ja |Ja |
 
 <sup>1</sup> exchange 2016 CU3 und oben unterstützt  
 eDiscovery- <sup>2</sup> und rechtlichen Aufbewahrungspflicht für Konformität auf Channel Nachrichten wird für alle Hostingoptionen unterstützt.  
@@ -64,7 +66,7 @@ Weitere Informationen:
 
 -   In Microsoft Teams funktionieren Sicherheits- und Compliance-Funktionen wie eDiscovery, Inhaltssuche, Archivierung und gesetzliche Aufbewahrungspflicht am besten in Exchange Online- und SharePoint Online-Umgebungen. Für Kanalunterhalten werden Nachrichten im Gruppenpostfach in Exchange Online als Journal erfasst und stehen für eDiscovery zur Verfügung. Bei Aktivierung von SharePoint Online und OneDrive for Business (mit Geschäfts- oder Schulkonto) für Benutzer in der gesamten Organisation stehen diese Compliance-Funktionen auch für alle Dateien innerhalb von Teams zur Verfügung.
 
--   Sie müssen für Exchange lokal OAuth konfigurieren, wie unter [Konfigurieren der OAuth-Authentifizierung zwischen Exchange- und Exchange Online-Organisationen](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx)beschrieben. 
+-   Für Exchange lokal müssen Sie das neue Exchange-OAuth-Authentifizierungsprotokoll konfigurieren, wie unter [Konfigurieren der OAuth-Authentifizierung zwischen Exchange- und Exchange Online-Organisationen](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
 
 > [!NOTE]
 > Wenn Ihre Organisation Compliance-Anforderungen erfüllen muss, um sicherzustellen, dass alle Besprechungsdiskussionen gefunden werden können, sollten Sie private Besprechungen deaktivieren, wenn der Organisator über ein lokales Exchange-Postfach verfügt.

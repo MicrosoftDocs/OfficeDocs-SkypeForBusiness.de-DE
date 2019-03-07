@@ -10,15 +10,17 @@ ms.reviewer: lolaj
 description: Erfahren Sie mehr über die verfügbaren Berichtsoptionen, um herauszufinden, wie Benutzer Microsoft Teams verwenden, und Feedback zu den Benutzererfahrungen zu sammeln.
 localization_priority: Priority
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf30553d8a2b04a25fa596f6692c5f5e5522aa74
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 24928ceab9224853c81ae352374aaf4e2ca947fb
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754689"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459972"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Überwachen von Nutzung und Feedback in Microsoft Teams
 Es ist wichtig zu wissen, wie Benutzer Microsoft Teams verwenden und welche Erfahrungen sie dabei machen. Mithilfe von Nutzungsberichten können Sie Nutzungsmuster besser verstehen. In Kombination mit Feedback von Benutzern gelangen Sie so zu Einsichten, die Sie Ihrer weiteren Bereitstellung zugrunde legen und zur Priorisierung von Schulungs- und Kommunikationsinitiativen verwenden können.

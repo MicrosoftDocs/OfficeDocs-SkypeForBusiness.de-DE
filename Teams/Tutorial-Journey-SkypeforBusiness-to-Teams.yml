@@ -16,14 +16,15 @@ metadata:
   ms.collection:
   - Teams_ITAdmin_JourneyFromSfB
   - Teams_ITAdmin_Training
+  - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 4e223ceb78cc2346400b7ba668cc46a4b1323f3c
-  ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+  ms.openlocfilehash: ea313574120c4b33789a3a300ea4158bc5420516
+  ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 01/19/2019
-  ms.locfileid: "29349000"
+  ms.lasthandoff: 03/07/2019
+  ms.locfileid: "30461460"
 items:
 - durationInMinutes: 1
   content: "In diesem Lernprogramm wird eine Einführung in die Skype für Unternehmen zu Microsoft-Teams Upgrade Reise und unsere Upgrade Erfolg End-to-End-Framework. In diesem Lernprogramm wird schnell orientieren Sie auf die empfohlene Aktualisierungspfade und Ressourcen verfügbar sind, ob Sie gerade bei der Planung, Ihre ersten Schritte sind bereits ausgeführt Teams zusammen mit Skype für Unternehmen, die in Ihrer Reise unterstützten oder bereit zur Aktualisierung von Teams.\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]\n\nDiese Schulung richtet sich an Sie, wenn Folgendes auf Sie zutrifft:\n-   IT pro verantwortlich für die Planung, Bereitstellung oder Verwalten von Skype für Unternehmen.\n-   Ist verantwortlich für die Planung Änderungsmanagement für Benutzer innerhalb Ihrer Organisation.\n-   Möchten Sie wissen, wie Ansatz für ein erfolgreiches Upgrade von Skype für Unternehmen, die Teams für Ihre Organisation.\n\nGehen wir im Detail, wie diese beiden Produkte zusammengefügt und wird erläutert, welche Schritte Sie heute ergreifen können, um eine vorhandene Skype geschäftsumgebung für Teams bei der Vorbereitung. \n\nErläutert das Framework helfen Ihnen beim Planen und Ausführen des Upgrades, eine Übersicht über die wichtigsten Aktivitäten aus, die eine optimale wünschen über technische und User Readiness Laufwerk.\n\nDie wichtigsten Ziele in diesem Lernprogramm sind:\n-   Verwenden Sie die Aktualisierungspfade Ihnen Planen des Upgrades zur Verfügung stehen.\n-   Hier erfahren Sie, die wichtige Schritte zum Vorbereiten und Implementieren des Upgrades.\n-   Identifizieren Sie Tiefe Leitfäden, Vorlagen und Ressourcen, die Ihnen in Ihrer Reise zur Verfügung stehen.\n-   Freigeben Sie nächste Schritte den Einstieg in der Anleitung.\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]\n\nWenn Sie Fragen oder Feedback zu dieser Schulung verfügen, veröffentlichen Sie in der Kommentarabschnitt am unteren Rand der Seite \"Nächste Schritte\" des Lernprogramms.\n\nWenn Sie Produktfeedback zu Microsoft Teams übermitteln möchten, beispielsweise Ideen für neue Funktionen, besuchen Sie [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n"

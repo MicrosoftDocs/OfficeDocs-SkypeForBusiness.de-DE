@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Erfahren Sie, wie die Skype für organisierte Konferenz Tätigkeit Bericht abgerufen und das interpretieren und passen Sie es. '
-ms.openlocfilehash: 871af1f9ec06f24b7c2ef6248c1d48b859bb4563
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 7f70da0423257df4a02207aaaa1888b279404706
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531311"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454006"
 ---
 # <a name="conference-organizer-activity-report"></a>Bericht „Aktivitäten zum Organisieren von Konferenzen“
 

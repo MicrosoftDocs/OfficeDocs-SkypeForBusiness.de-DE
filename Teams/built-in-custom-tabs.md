@@ -6,25 +6,27 @@ manager: serdars
 ms.date: 11/13/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie integrierte und benutzerdefinierte Registerkarten verwenden können, um Funktionen wie Unterhaltungen, Dateien, Karten usw. einzubeziehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dca1d1a49a749991c97e2e8807557c457f1b67f6
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: a1e93de09dc99832f942397a3af966334371a094
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788957"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458796"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Verwenden von integrierten und benutzerdefinierten Registerkarten in Microsoft Teams
 ==================================================
 
 Registerkarten können Teammitglieder Zugriff auf Dienste auf einem dedizierten Zeichenbereich in einem Kanal oder in einem Chat. Auf diese Weise können das Team direkt mit Tools und Daten arbeiten und Gespräche über diese im Kontext des DDE-Kanal oder Chat. 
 
-Besitzer und die Teammitglieder können Registerkarten einen DDE-Kanal, private Chat und Gruppenchat zu helfen, ihre Clouddienste zu integrieren hinzufügen. Registerkarten können hinzugefügt werden, Benutzern helfen, auf einfache Weise Zugriff und die Verwaltung der Daten benötigt wird, oder mit den meisten interagieren. Dies kann sein, einen Power BI-Bericht, einem Dashboard oder sogar eine [Microsoft-Stream](https://go.microsoft.com/fwlink/?linkid=855785) Videokanal, in dem Sie Schulungsvideos veröffentlichen.
+Besitzer und Teammitglieder können einem Kanal, einem privaten Chat oder einem Gruppenchat Registerkarten hinzufügen, um ihre Clouddienste besser integrieren zu können. Registerkarten können hinzugefügt werden, Benutzern helfen, auf einfache Weise Zugriff und die Verwaltung der Daten benötigt wird, oder mit den meisten interagieren. Dies kann sein, einen Power BI-Bericht, einem Dashboard oder sogar eine [Microsoft-Stream](https://go.microsoft.com/fwlink/?linkid=855785) Videokanal, in dem Sie Schulungsvideos veröffentlichen.
 
 ![Drei Screenshots mit verschiedenen Inhalten von Registerkarten](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 

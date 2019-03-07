@@ -9,7 +9,7 @@ ms.assetid: d9cdbb33-bbaf-4714-a06b-313d3e49723e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Thailand verfügbar.
-ms.openlocfilehash: e7ac845ed6ccfbe1e4e3ec091be8c0a95d89055b
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: e18e9df7f60074cb2fa88d8052242850047f7d56
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351842"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465316"
 ---
 # <a name="availability-in-thailand"></a>Verfügbarkeit in Thailand
 

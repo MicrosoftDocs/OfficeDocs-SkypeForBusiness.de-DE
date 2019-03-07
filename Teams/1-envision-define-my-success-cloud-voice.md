@@ -9,16 +9,18 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Messen Sie die Ergebnisse von Ihrer Audiokonferenzen, Telefonsystem mit Aufrufen plant oder Telefon System direkten Routing-Bereitstellung, und stellen Sie sicher, dass Sie die Ergebnisse erzielt haben, werden sollte.
-ms.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f969955dc01d0ea66ea2242549eff4938d80ce6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 405ec9e5471925ed977fc480d1b64f8d8deaee4b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372721"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465108"
 ---
 # <a name="define-my-success"></a>Meine Erfolg definieren
 
@@ -161,7 +163,7 @@ OKRs enthalten die Ziele beschrieben, die Sie am Anfang des Projekts festgelegt,
 > 
 > |Ziele  |Wichtige Ergebnisse  |zu tun  |
 > |---------|---------|---------|
-> |Bereitstellen von Aufrufen in Europäischen Zweigstellen plant vom Ende des Geschäftsjahres 2018|FY18Q3: Bereitstellen von Aufrufen in London Office Pläne|Ausblick<ul><li>Erfolgsplan erstellen</li><li>Detaillierten Plan für die technische Implementierung erstellen</li></ul><p>Onboarding<ul><li>Erfolgsplan ausführen</li><li>Plan für die technische Implementierung ausführen</li></ul>|
+> |Bereitstellen von Aufrufen in Europäischen Zweigstellen plant vom Ende des Geschäftsjahres 2018|FY18Q3: Bereitstellen von Aufrufen in London Office Pläne|Konzeptionierung<ul><li>Erfolgsplan erstellen</li><li>Detaillierten Plan für die technische Implementierung erstellen</li></ul><p>Onboarding<ul><li>Erfolgsplan ausführen</li><li>Plan für die technische Implementierung ausführen</li></ul>|
 > |Außerbetriebsetzung des Legacy-PBX-Systems in der Niederlassung in London bis zum Ende des Geschäftsjahrs 2018|4. Quartal des Geschäftsjahrs 2018: Außerbetriebsetzung des Legacy-PBX-Systems in der Niederlassung in London|Höhere Wertschöpfung erzielen<ul><li>Benutzerengagement verstärken und Übernahme vorantreiben</li><li>Veränderungen vorbereiten und verwalten</li><li>Erfolg messen und teilen und Durchlauf beschleunigen</li>|
 > 
 > [!TIP]
@@ -172,7 +174,7 @@ OKRs enthalten die Ziele beschrieben, die Sie am Anfang des Projekts festgelegt,
 > 
 > |Ziele  |Wichtige Ergebnisse  |zu tun  |
 > |---------|---------|---------|
-> |Ende des Geschäftsjahres 2018 bereitstellen Sie direkten Routing in Kanadische Zweigstellen|FY18Q3: Bereitstellen von direkten Routing in Toronto office|Ausblick<ul><li>Erfolgsplan erstellen</li><li>Detaillierten Plan für die technische Implementierung erstellen</li></ul><p>Onboarding<ul><li>Erfolgsplan ausführen</li><li>Plan für die technische Implementierung ausführen</li></ul>|
+> |Ende des Geschäftsjahres 2018 bereitstellen Sie direkten Routing in Kanadische Zweigstellen|FY18Q3: Bereitstellen von direkten Routing in Toronto office|Konzeptionierung<ul><li>Erfolgsplan erstellen</li><li>Detaillierten Plan für die technische Implementierung erstellen</li></ul><p>Onboarding<ul><li>Erfolgsplan ausführen</li><li>Plan für die technische Implementierung ausführen</li></ul>|
 > |Vorhandene PBX in Toronto Office vom Ende des Geschäftsjahres 2018 Außerbetriebnahme|FY18Q4: Außer Betrieb nehmen Sie vorhandene PBX in Toronto office|Höhere Wertschöpfung erzielen<ul><li>Benutzerengagement verstärken und Übernahme vorantreiben</li><li>Veränderungen vorbereiten und verwalten</li><li>Erfolg messen und teilen und Durchlauf beschleunigen</li>|
 
 <br>
@@ -220,7 +222,7 @@ Sie müssen Business Risiken im Rahmen dieser Übung identifizieren und definier
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Was sind Ihrer Organisation & #39; s OKRs und KSIs?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung von Audiokonferenzen in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung des Plans Aufrufen in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung von direkten Routing in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Was sind Ihrer Organization& #39; s OKRs und KSIs?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung von Audiokonferenzen in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung des Plans Aufrufen in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung von direkten Routing in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die OKRs und KSIs, und legen Sie die Risiken registrieren.</li></ul>|
 
 <!--ENDOFSECTION-->

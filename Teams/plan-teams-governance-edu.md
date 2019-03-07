@@ -1,5 +1,5 @@
 ---
-title: Microsoft Education Governance – häufig gestellte Fragen für IT-Experten - Microsoft-Teams
+title: Häufig gestellte Fragen zur Microsoft Education-Governance für IT-Spezialisten – Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Antworten auf häufig gestellte Fragen von Administratoren von Microsoft Education-Gruppen, die Teams verwenden.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 687012404713bcbfcb8ecf86efa8af36b8eb0a59
-ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
+ms.openlocfilehash: d5058347677b1c5baef6f01fefb1f8eca3ac4384
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26539065"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461180"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Microsoft Education Governance – häufig gestellte Fragen für Administratoren
 

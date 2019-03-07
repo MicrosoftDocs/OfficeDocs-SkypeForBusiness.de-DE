@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Informationen Sie zu den planungsüberlegungen für Telefonsystem in Office 365 (Cloud, PBX) mit lokalen PSTN-Anbindung.
-ms.openlocfilehash: 234c2966cb887c0adfdd15f518479ad5e363fe73
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: f0e73b2541bdab8d3e37db02bc023667ae942578
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210629"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454043"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planen der Telefonsystem in Office 365 mit lokalen PSTN-Konnektivität in Skype Business Server
 
 Informationen Sie zu den planungsüberlegungen für Telefonsystem in Office 365 (Cloud, PBX) mit lokalen PSTN-Anbindung.
 
-Dieser Inhalt ist relevant, wenn Sie bereits Skype für Business Server oder Lync Server 2013 lokal bereitgestellt haben. Für andere Szenarien finden Sie unter [Planen von Ihrem Telefonsystem in Office 365 (PBX) zu Cloud-Lösung](plan-your-phone-system-cloud-pbx-solution.md).
+Dieser Inhalt ist relevant, wenn Sie bereits Skype für Business Server oder Lync Server 2013 lokal bereitgestellt haben. Für andere Szenarien finden Sie unter [Microsoft Telefonie-Lösungen](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
  Telefonsystem in Office 365 mit lokalen PSTN-Anbindung können Sie Funktionen für Ihre Benutzer Telefonsystem (Cloud, PBX) nutzen. Das kann in folgenden Szenarien hilfreich sein:
 

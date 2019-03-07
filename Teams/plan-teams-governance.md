@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Erhalten Sie Informationen zur Planung der Implementierung von Governance-Funktionen in Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87f52eae4b99a76fc1eddf60fbdfd876efa8da05
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 0792bf80ebc2d55f4f60e72fe0373a6d86df3923
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754810"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464876"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Steuerung in Teams
 
@@ -41,7 +43,7 @@ Ihre Organisation erfordern möglicherweise, exakte Steuerelemente wie Teams mit
 > [!TIP]
 > Verwenden Sie in der folgenden Tabelle, um den Anforderungen der Organisation zu erfassen.
 
-|Funktion |Beschreibung |Azure AD-Premium <br> Lizenz erforderlich |Entscheidung |
+|Funktion |Details |Azure AD-Premium <br> Lizenz erforderlich |Entscheidung |
 |---------|---------|---------|---------|
 |Team Benennungsrichtlinie | Verwenden Sie Präfix-Suffix-basierten, benutzerdefinierte blockierte Wörter. |P1 |TBD |
 |Team-Klassifizierung |Klassifikationen in der Teams zuweisen. |P1 |TBD |
@@ -79,7 +81,7 @@ Ihre Organisation möglicherweise zusätzliche Anforderungen für das Einrichten
 > [!TIP]
 > Verwenden Sie in der folgenden Tabelle, um den Anforderungen der Organisation zu erfassen.
 
-|Funktion |Beschreibung |Azure AD-Premium-Lizenz erforderlich |Entscheidung |
+|Funktion |Details |Azure AD-Premium-Lizenz erforderlich |Entscheidung |
 |---------|---------|---------|---------|
 |Ablaufrichtlinie |Verwalten des Lebenszyklus der Office 365-Gruppen eine Ablaufrichtlinie festlegen. |P1 |TBD|
 |Aufbewahrungsrichtlinie |Beibehalten oder Löschen von Daten für einen bestimmten Zeitraum Aufbewahrungsrichtlinien für Teams im Compliance Center Sicherheit & festlegen. **Hinweis**: Diese Funktion erfordert Lizenzierung der Office 365 Enterprise E3 oder höher. |Nein |TBD |
@@ -115,8 +117,8 @@ Teams bietet detaillierte Funktionen zur Kontrolle messaging, Besprechung, aufru
 
 Eine detaillierte Liste aller Einstellungen, einschließlich technische Anleitungen für Implementierungsmethode für Ihre Organisation finden Sie unter den folgenden Artikeln:
 
--   [Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation](enable-features-office-365.md)
--   [Verwalten von Teams während der Übergang zur neuen Microsoft-Teams-Verwaltungskonsole](manage-teams-skypeforbusiness-admin-center.md)
+-   [Verwalten von Microsoft Teams-Features in Ihrer Office 365-Organisation](enable-features-office-365.md)
+-   [Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 -   [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md)
 
 

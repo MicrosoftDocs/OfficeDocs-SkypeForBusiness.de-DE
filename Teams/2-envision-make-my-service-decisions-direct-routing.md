@@ -1,5 +1,5 @@
 ---
-title: Treffe Phone System direkten Routing Service - Microsoft-Teams
+title: Treffen von Entscheidungen für das Telefonsystem mit direktem Routing – Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Erfahren Sie mehr über die direkte Routing, Lizenzierung, und die Entscheidungen, die getroffen werden müssen.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d79b6e0423ddb94b29a9d82ea1e6d6d1f173cf3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4e0597444b9f46d9ac3761ef42a4817a5db5117f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374442"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462740"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -55,8 +57,8 @@ Kompilieren Sie nach Bestätigung, dass Ihre Organisation das Telefonsystem Feat
 > | **Office**                     | **Standort**   | **Phone-Dienst** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | Australien      | Legacy-PSTN-Dienst |
-> | 100 Cyberport Road             | Hong Kong SAR (香港特別行政區)  | Telefon System direkten Routing |
-> | One Marina Boulevard           | Singapur      | Telefon System direkten Routing |
+> | 100 Cyberport Road             | Hong Kong SAR (香港特別行政區)  | Direktes Routing für Telefonsysteme |
+> | One Marina Boulevard           | Singapur      | Direktes Routing für Telefonsysteme |
 > | 32 London Bridge Street        | Vereinigtes Königreich | Telefonsystem mit Anrufplänen |
 > | 39 quai du Président Roosevelt | Frankreich         | Telefonsystem mit Anrufplänen |
 
@@ -87,9 +89,9 @@ Telefonsystem bewirkt, dass alle Benutzer in Ihrer Organisation eine eindeutige 
 
 Telefon System Voicemail, unterstützt von Azure Voicemail-Dienste unterstützt Voicemail bandbreitenbeschränkungen zu nur Exchange-Postfächern und Drittanbieter-e-Mail-Systemen nicht unterstützt.
 
-Voicemail für Telefonsysteme umfasst Voicemailtranskription. Diese Funktion ist standardmäßig für alle Benutzer in Ihrer Organisation aktiviert. Ihre geschäftsanforderungen erfordern möglicherweise, Voicemail Lautschrift für bestimmte Benutzer oder alle Benutzer in der gesamten Organisation zu deaktivieren. Wenn Ihre Organisation aktiviert Voicemail Lautschrift behalten, müssen Sie auch bedenken, ob Voicemail Lautschrift Gotteslästerung Maskierung muss aktiviert sein. Einzelheiten finden Sie unter [Festlegen von Voicemail Richtlinien in Ihrer Organisation](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) .
+Voicemail für Telefonsysteme umfasst Voicemailtranskription. Diese Funktion ist standardmäßig für alle Benutzer in Ihrer Organisation aktiviert. Ihre geschäftsanforderungen erfordern möglicherweise, Voicemail Lautschrift für bestimmte Benutzer oder alle Benutzer in der gesamten Organisation zu deaktivieren. Wenn Ihre Organisation aktiviert Voicemail Lautschrift behalten, müssen Sie auch bedenken, ob Voicemail Lautschrift Gotteslästerung Maskierung muss aktiviert sein. Einzelheiten finden Sie unter [Festlegen von Voicemail Richtlinien in Ihrer Organisation](set-up-phone-system-voicemail.md) .
 
-Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden Sie unter [Einrichten von Voicemail Telefonsystem](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail).
+Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden Sie unter [Einrichten von Voicemail Telefonsystem](set-up-phone-system-voicemail.md).
 
 |         |         |         |
 |---------|---------|---------|
@@ -109,7 +111,7 @@ Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden
 > | Isabell Potvin   | Lokal          | Ja                   | Deaktiviert                    | n/v                                           |
 > 
 > [!NOTE]
-> Teams und Voicemail, müssen Ihre Benutzer Exchange-Postfächer vorhanden sein. Einzelheiten finden Sie unter [wie Exchange- und Microsoft-Produktteams interagieren](https://docs.microsoft.com/microsoftteams/exchange-teams-interact) .
+> Teams und Voicemail, müssen Ihre Benutzer Exchange-Postfächer vorhanden sein. Einzelheiten finden Sie unter [wie Exchange- und Microsoft-Produktteams interagieren](exchange-teams-interact.md) .
 
 <!--ENDOFSECTION-->
 
@@ -117,24 +119,22 @@ Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden
 
 Wenn Ihre Organisation direkten Routing verwenden, müssen Sie die erforderliche Lizenzen zu erhalten. Benutzer von direkten Routing müssen die folgenden Lizenzen im Office 365 zugewiesen:
 
-
-
 -   Microsoft Telefonsystem
 
--   Microsoft Teams
+-   Microsoft Teams
 
--   Audiokonferenz
+-   Audiokonferenzen
 
 Audio Conferencing-Lizenz ist erforderlich für das Hinzufügen von externer Teilnehmern auf geplante Besprechungen von Ihnen Telefonverbindung oder durch die Einwahlnummer bereitstellen. Wenn Sie ein externer Teilnehmer zu gewählt wird, leitet der Audio-Konferenzdienst das Gespräch mithilfe der aufrufende Onlinefunktionen. Audio Conferencing-Lizenz ist optional und nur für Benutzer erforderlich, Konferenzen, die Audiokonferenz enthalten Teams, die organisieren sein wird.
 
 
 > [!NOTE]
-> Anzugebende gebührenfreie Konferenz Bridge Telefonnummern und zur Unterstützung von Konferenzen Anwahl auf internationale Telefonnummern, sollten Sie für Ihre Organisation [Communications haben](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) einrichten.
+> Anzugebende gebührenfreie Konferenz Bridge Telefonnummern und zur Unterstützung von Konferenzen Anwahl auf internationale Telefonnummern, sollten Sie für Ihre Organisation [Communications haben](what-are-communications-credits.md) einrichten.
 
 Audio-Konferenzen und Telefonsystem können separat als Add-on-Dienste für Kunden lizenziert werden, die über Office 365 E3 oder E1-Abonnementpläne verfügen; Sie sind bereits in der Office 365 E5-Abonnementplan enthalten.
 
 > [!TIP]
-> Sie können auch direkten Routing für die Benutzer verwenden, die für den Aufruf von plant aktiviert werden, wenn ihre Aufrufe von Drittanbieter-PBX-Anlagen routing. Weitere Informationen finden Sie unter [Lizenzierung und anderen Anforderungen von direkten Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan#licensing-and-other-requirements).
+> Sie können auch direkten Routing für die Benutzer verwenden, die für den Aufruf von plant aktiviert werden, wenn ihre Aufrufe von Drittanbieter-PBX-Anlagen routing. Weitere Informationen finden Sie unter [Lizenzierung und anderen Anforderungen von direkten Routing](direct-routing-plan.md#licensing-and-other-requirements).
 
 
 |         |         |         |
@@ -161,7 +161,7 @@ Office 365-Mandanten muss mit einer oder mehreren Domänen, aktiviert werden, da
 
 ## <a name="sbc-considerations"></a>SBC-Aspekte
 
-Sie müssen zertifizierte und unterstützte Session Border Controller (SBCs) verwenden, die mit dem Dienst direkten Routing PSTN-Anbindung für die Benutzer bereitstellen kombiniert werden müssen. Eine Liste mit zertifizierten SBCs finden Sie unter [Unterstützte Session Border Controller](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs).
+Sie müssen zertifizierte und unterstützte Session Border Controller (SBCs) verwenden, die mit dem Dienst direkten Routing PSTN-Anbindung für die Benutzer bereitstellen kombiniert werden müssen. Eine Liste mit zertifizierten SBCs finden Sie unter [Unterstützte Session Border Controller](direct-routing-plan.md#supported-session-border-controllers-sbcs).
 
 Je nach Ihrer Umgebung, die Anzahl der Standorte und VoIP-Routinganforderungen müssen Sie möglicherweise mehrere SBCs zur Unterstützung der Benutzerbasis bereitstellen.
 
@@ -179,7 +179,7 @@ Jede SBC mit direktem Routing bereitgestellt erfordert ein Zertifikat aus einer 
 > [!NOTE]
 > Die Verwendung von Platzhalterzertifikate mit SBCs wird ebenfalls unterstützt.
 
-Weitere Informationen und eine Liste der unterstützten Zertifizierungsstellen finden Sie unter [Öffentliche vertrauenswürdiges Zertifikat für den SBC](https://docs.microsoft.com/microsoftteams/direct-routing-plan#public-trusted-certificate-for-the-sbc).
+Weitere Informationen und eine Liste der unterstützten Zertifizierungsstellen finden Sie unter [Öffentliche vertrauenswürdiges Zertifikat für den SBC](direct-routing-plan.md#public-trusted-certificate-for-the-sbc).
 
 
 ### <a name="sbc-ip-addresses-and-ports"></a>SBC-IP-Adressen und ports
@@ -190,7 +190,7 @@ SBCs erfordern bidirektionale Konnektivität mit der Clouddienste für Signale u
 
 Sie müssen bestimmte Portnummern für jede SBC für SIP-Signale und Medien definieren und Konfigurieren Ihrer Firewalls um bidirektionale Datenverkehr an diesen Ports und ihre zugeordneten IP-Adressen zu ermöglichen.
 
-Weitere Informationen finden Sie unter [SIP-Signale: FQDNs und Firewallports](https://docs.microsoft.com/microsoftteams/direct-routing-plan#sip-signaling-fqdns-and-firewall-ports) und [Mediendatenverkehr: Port Bereiche](https://docs.microsoft.com/microsoftteams/direct-routing-plan#media-traffic-port-ranges).
+Weitere Informationen finden Sie unter [SIP-Signale: FQDNs und Firewallports](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports) und [Mediendatenverkehr: Port Bereiche](direct-routing-plan.md#media-traffic-port-ranges).
 
 
 > [!NOTE]
@@ -270,7 +270,7 @@ Sie können die Benutzer zum Festlegen von Teams als bevorzugter Client für Anr
 
 -   Konfigurieren von Teams als bevorzugter Client aufrufende durch die TeamsCallingPolicy und die TeamsInteropPolicy zuweisen.
 
-Weitere Informationen finden Sie unter [Microsoft-Teams festgelegt, als der bevorzugte Client für die Benutzer aufrufen](https://docs.microsoft.com/microsoftteams/direct-routing-configure#set-microsoft-teams-as-the-preferred-calling-client-for-the-users).
+Weitere Informationen finden Sie unter [Microsoft-Teams festgelegt, als der bevorzugte Client für Benutzer aufrufen](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).
 
 
 |         |         |         |
@@ -281,7 +281,7 @@ Weitere Informationen finden Sie unter [Microsoft-Teams festgelegt, als der bevo
 > [!IMPORTANT]
 > Wenn ein Benutzer für Teams-only-Modus konfiguriert ist, kann dieser Benutzer nicht mehr Skype für Unternehmen anmelden.
 
-Um Ihre Benutzer finden Sie in der Registerkarte Anrufe im Client Teams vorhanden sind, müssen Sie aktivieren private auf Organisationsebene für den Mandanten aufrufen. Weitere Informationen zum Aktivieren von privaten Anrufe von finden Sie unter [Aktivieren für Microsoft-Teams aufrufen](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-calling-for-microsoft-teams) .
+Um Ihre Benutzer finden Sie in der Registerkarte Anrufe im Client Teams vorhanden sind, müssen Sie aktivieren private auf Organisationsebene für den Mandanten aufrufen. Weitere Informationen zum Aktivieren von privaten Anrufe von finden Sie unter [Aktivieren für Microsoft-Teams aufrufen](direct-routing-configure.md) .
 
 
 <!--ENDOFSECTION-->

@@ -10,15 +10,17 @@ ms.reviewer: LolaJ
 description: Finden Sie den richtigen Weg, Microsoft Teams in Ihrer Organisation bereitzustellen. Hier erhalten Sie Informationen zur Microsoft Teams-Infrastruktur und zur Verwendung von Teams mit Office 365.
 localization_priority: Priority
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13fc63883e3dcdc5585cf68e013bbdc00bb9a503
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 7ee4cba00f20eb53630845f1956d88d47e333084
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754852"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458868"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Willkommen bei Microsoft Teams
 Sind Sie in Ihrer Organisation Administrator für Microsoft Teams? Dann sind Sie hier an der richtigen Stelle. Wenn Sie für den Einstieg in Microsoft Teams bereit sind, beginnen Sie mit [Bereitstellen von Microsoft Teams](How-to-roll-out-teams.md).
@@ -36,7 +38,7 @@ Wenn Microsoft Teams für Sie neu ist, sehen Sie sich das kurze Video [Willkomme
 
 Wenn Sie ein Team aus einer vorhandenen Gruppe erstellen, werden Mitgliedschaft, Website, Postfach und Notizbuch dieser Gruppe nach Microsoft Teams übertragen. Achten Sie auf das neue [organisationsweite Team](create-an-org-wide-team.md). Dieser besondere Teamtyp nimmt alle Benutzer in der Organisation auf und hält über Active Directory die Mitgliedschaft auf dem aktuellen Stand, wenn Benutzer der Organisation beitreten oder diese verlassen. 
 
-Um Microsoft Teams anzupassen und zu erweitern, können Sie mithilfe von [Apps, Bots und Connectors](deploy-apps-microsoft-teams-landing-page.md) Drittanbieter-Apps hinzufügen. Sie können Personen von außerhalb der Organisation in Microsoft Teams einbeziehen, indem Sie sie [als Gast zu einem Team oder Kanal hinzufügen](guest-access.md). Da Microsoft Teams Bestandteil von Office 365 ist, profitieren Sie von einer robusten [Entwicklungsplattform](https://docs.microsoft.com/de-DE/microsoftteams/platform) und können einen Hub für Teamarbeit schaffen, der ganz den Anforderungen Ihrer Organisation entspricht. 
+Um Microsoft Teams anzupassen und zu erweitern, können Sie mithilfe von [Apps, Bots und Connectors](deploy-apps-microsoft-teams-landing-page.md) Drittanbieter-Apps hinzufügen. Sie können Personen von außerhalb der Organisation in Microsoft Teams einbeziehen, indem Sie sie [als Gast zu einem Team oder Kanal hinzufügen](guest-access.md). Da Microsoft Teams Bestandteil von Office 365 ist, profitieren Sie von einer robusten [Entwicklungsplattform](https://docs.microsoft.com/en-us/microsoftteams/platform) und können einen Hub für Teamarbeit schaffen, der ganz den Anforderungen Ihrer Organisation entspricht. 
 
 ![Microsoft Teams-Desktop-App und mobile App](media/teams-overview-hub.png)
 

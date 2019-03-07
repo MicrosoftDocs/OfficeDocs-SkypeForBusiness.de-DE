@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Hier erhalten Sie Informationen zu Skype for Business Cloud Connector Edition, einem als Paket zusammengesetzten Satz von virtuellen Maschinen (VMs), die eine lokale PSTN-Anbindung mit dem Telefonsystem in Office 365 (Cloud-PBX) implementieren.
-ms.openlocfilehash: 6fcdaf3d3186effa5bb88f1252d51537dd1dba5f
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 4d03d8ea6936ad906de01a5b478fce01d62113c4
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210691"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454135"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planen für die Skype for Business Cloud Connector-Edition
 
 Hier erhalten Sie Informationen zu Skype for Business Cloud Connector Edition, einem als Paket zusammengesetzten Satz von virtuellen Maschinen (VMs), die eine lokale PSTN-Anbindung mit dem Telefonsystem in Office 365 (Cloud-PBX) implementieren.
 
-Cloud Connector Edition möglicherweise die richtige Lösung für Ihre Organisation, wenn Sie nicht bereits einer vorhandenen Lync Server oder Skype für Business Server-Bereitstellung verfügen. Wenn Sie weiterhin das Telefonsystem in Office 365-Lösung für Ihr Unternehmen geeignet ist untersuchen sind, finden Sie unter [Planen von Ihrem Telefonsystem in Office 365 (PBX) zu Cloud-Lösung](plan-your-phone-system-cloud-pbx-solution.md).
+Cloud Connector Edition möglicherweise die richtige Lösung für Ihre Organisation, wenn Sie nicht bereits einer vorhandenen Lync Server oder Skype für Business Server-Bereitstellung verfügen. Wenn Sie weiterhin das Telefonsystem in Office 365-Lösung für Ihr Unternehmen geeignet ist untersuchen sind, finden Sie unter [Microsoft Telefonie-Lösungen](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
 In diesem Dokument erläutert Cloud Connector Edition-Anforderungen und unterstützten Topologien und hilft Ihnen bei der Planung Ihrer bereitstellungs Cloud Connector Edition. Achten Sie darauf, dass Sie dieses Thema lesen, bevor Sie Ihre Cloud-Connector-Umgebung konfigurieren. Wenn Sie bereit sind, bereitstellen und Konfigurieren von Cloud-Connector Edition finden Sie [Konfigurieren und Verwalten von Skype für Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md).
 
@@ -705,7 +705,7 @@ Cloud Connector 2.1 und höher unterstützt das Überwachen von Cloud Connector
 
 Weitere Informationen finden Sie unter den folgenden Themen:
 
-- [Planen Sie Ihr Telefonsystem in Office 365 (PBX zu Cloud)-Lösung](plan-your-phone-system-cloud-pbx-solution.md)
+- [Microsoft-telefonielösungen](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Konfigurieren und Verwalten von Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md)
 

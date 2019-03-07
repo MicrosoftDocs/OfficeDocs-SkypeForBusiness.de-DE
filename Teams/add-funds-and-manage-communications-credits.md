@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen von Guthaben und Verwalten von Guthaben für Kommunikationen
+title: Hinzufügen von Geld und Verwalten von Guthaben für Kommunikationen
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,8 +13,7 @@ ms.service:
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -32,14 +31,14 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Erfahren Sie, wie Bezahlung für Kommunikation haben (PSTN Verbrauch) Skype für BusinessServices und finden Sie unter Pläne, die Benutzer mit Zugriff auf das System kontinuierliche Telefon zu halten. '
-ms.openlocfilehash: 1ae700c315188fe68d856a0a39b5dd35a4997a0c
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 1c4fc9b9834b11c641961651843073a2392bc95b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047224"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459348"
 ---
-# <a name="add-funds-and-manage-communications-credits"></a>Hinzufügen von Guthaben und Verwalten von Guthaben für Kommunikationen
+# <a name="add-funds-and-manage-communications-credits"></a>Hinzufügen von Geld und Verwalten von Guthaben für Kommunikationen
 
 Communications haben sind eine bequeme Möglichkeit bezahlen Telefonsystem und Aufrufen in Office 365 Plans. Es wird sichergestellt, dass Sie und Ihre Benutzer nie abgefangen werden, ohne können:
   
@@ -81,7 +80,7 @@ Die Pläne und Preise finden Sie unter den folgenden Links:
     
 Sie können sich die Informationen auch ansehen, indem Sie sich [beim Office 365 Admin Center anmelden](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu **Abrechnung** > **Abonnements** > **Abonnements hinzufügen** navigieren.
   
-Eine Tabelle mit den Lizenzen für die jeweilige Funktion finden Sie unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Eine Tabelle mit der Lizenz oder Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Verwandte Themen
 
@@ -91,7 +90,5 @@ Eine Tabelle mit den Lizenzen für die jeweilige Funktion finden Sie unter [Add-
     
 - [Einrichten von Anrufplänen](set-up-calling-plans.md) und [Anrufpläne für Office 365](calling-plans-for-office-365.md)
         
-- [Konfigurieren Sie den Connector Cloud](https://technet.microsoft.com/library/mt605228.aspx) , und [Laden Sie den Cloud-Connector](https://aka.ms/CloudConnectorInstaller)
-
-  
+ 
  

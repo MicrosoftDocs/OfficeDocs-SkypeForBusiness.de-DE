@@ -1,5 +1,5 @@
 ---
-title: Aktualisieren von Skype für Unternehmen, die Microsoft-Teams
+title: Upgrade von Skype for Business Online auf Microsoft Teams - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -10,15 +10,17 @@ description: Verwenden Sie ein bewährt Framework, um Ihrer Organisation Upgrade
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfe9fb437be2df1c069c79d3c5281dbb121b4204
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 41c026712370ccf6aa3b2b8819bd0e82c9b8bf83
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349077"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460172"
 ---
 # <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Upgrade von Skype for Business auf Microsoft Teams
 

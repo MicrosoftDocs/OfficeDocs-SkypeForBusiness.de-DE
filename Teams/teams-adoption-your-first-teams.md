@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Teams Annahme Laufwerk mithilfe des Produkts.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82956a64e80811efd176f853651aa9db3770afc3
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 7d57349a499e4434ba796cdf75df6258591f4144
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699710"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459452"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Erstellen Ihrer ersten Teams in Microsoft Teams
 
@@ -28,7 +30,7 @@ Die beste Möglichkeit Akzeptanz Teams ist die Verwendung des Produkts. Es wird 
 
 | Teamname | DDE vorgeschlagenen Kanalnamen |
 | --------- | ---------------------- |
-| Kennenlernen von Teams | Allgemein</br> Sagen Sie hi</br> Wie kann ich?</br>Feedback </br> Ideen für zukünftige teams </br> Support |
+| Kennenlernen von Teams | Allgemein</br> Begrüßung</br> Wie kann ich?</br>Feedback </br> Ideen für zukünftige Teams </br> Support |
 | Implementierung von Microsoft-Teams | Allgemein <br/> Zur Förderung des Bekanntheitsgrads und Akzeptanz <br/> Business-Engagements <br/> Early Firmenwerts-Programm <br/> Feedback und Insights <br/> Sicherheit und Compliance <br/> Strategie und Planung <br/> Dienststatus und Vorfälle <br/> Schulung <br/> Chat-Wasserspender |
 | Zusammenarbeit Champions | Allgemein <br/> Bewährte Methoden, Schulungen, und wie Sie <br/> Belohnungen Ecke <br/> Feedback und Support <br/> Programm Leads <br/> Soziale Hub |
 

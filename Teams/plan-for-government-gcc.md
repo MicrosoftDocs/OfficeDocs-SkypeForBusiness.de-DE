@@ -11,15 +11,17 @@ description: Anleitung für IT-Spezialisten das Laufwerk Office 365-Bereitstellu
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcdad8bfbcb873a84d03ec6c0048e4fe49cd5467
-ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
+ms.openlocfilehash: 537f951b9db2098cd1753e21e1c5c806e9d7f5d2
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "29964418"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462772"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planen von Microsoft 365 Government - GCC-Bereitstellungen
 

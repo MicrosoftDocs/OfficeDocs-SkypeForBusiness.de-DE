@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Führen Sie regelmäßige Verkaufschancen Sie Verbesserung des Diensts Teams, Überwachen der Übersicht über die Teams für interessante Feature verbessert.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66f7aafe353227c9602fbaecbd386a897aa021ea
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: eb8671e8b5a5247a8341b9921647c0dd63da8d7c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593886"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460260"
 ---
 # <a name="enhance-my-service"></a>Meine Service zu verbessern
 

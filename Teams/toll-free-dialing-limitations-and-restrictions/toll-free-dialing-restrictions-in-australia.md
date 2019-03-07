@@ -8,7 +8,7 @@ ms.assetid: 6efa769d-f6a1-4164-a264-439431180081
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region So wählen Sie die gebührenfreie Telefonnummer.
-ms.openlocfilehash: 887226a90f39a6621bbf90232d9beed3f1622955
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 82fba5658ba64b3ebf26863a4ac608063bad0943
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351082"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460092"
 ---
 # <a name="toll-free-dialing-restrictions-in-australia"></a>Gebührenfreie Rufnummer einwählen Einschränkungen in Australien
 
@@ -45,7 +45,7 @@ ms.locfileid: "30351082"
 |Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Mobilgeräte-Zugriff: Die Übertragungszeit wird berechnet.  <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
-[Gebührenfreie Rufnummer einwählen einschränken](../toll-free-dialing-limitations-and-restrictions.md)
+[Einschränkungen für das Wählen von gebührenfreien Telefonnummern](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

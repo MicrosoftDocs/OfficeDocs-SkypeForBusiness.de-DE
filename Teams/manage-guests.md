@@ -6,18 +6,20 @@ manager: serdars
 ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: IT-Administratoren können Gäste auf der Mandantenebene hinzufügen, Richtlinien und Berechtigungen für Gastbenutzer festlegen und verwalten, festlegen, welche Benutzer Gäste einladen können, und Berichte über Gastbenutzeraktivität abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef7a62f46a767271f96de6f8540867aa2e8bd917
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: a8f6d3ddc855302e450e4c01aeb136b8d63d646e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753610"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458860"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Verwalten des Benutzerzugriffs in Microsoft Teams
 ======================================
