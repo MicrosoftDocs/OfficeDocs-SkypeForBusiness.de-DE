@@ -126,7 +126,7 @@
 ## [Tutorial: Besprechungen in Microsoft Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Verwalten von Besprechungsrichtlinien](meeting-policies-in-teams.md)
 ## [Verwalten von Einstellungen für Besprechungen](meeting-settings-in-teams.md)
-## [Anpassen von Besprechungseinladungen](customize-meeting-invitations-in-teams.md)
+## [Anpassen von Besprechungseinladungen](customize-meeting-invitations.md)
 ## [E-Mails, die automatisch an Benutzer gesendet werden, wenn sich ihre Einstellungen ändern](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Aktivieren der Aufzeichnung des Benutzernamens beim Teilnehmen an einer Besprechung](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)

@@ -56,9 +56,9 @@ These apps are provided by third parties. You can configure the following settin
 
 - **Allow external apps in Microsoft Teams** (Externe Apps in Microsoft Teams zulassen): Wenn diese Einstellung aktiviert ist, können Benutzer externe Apps hinzufügen, die für Ihre Organisation verfügbar sind. 
 
-- **Allow sideloading of external apps**: If you want to turn on some external apps and turn off others , turn off this setting, and then in the list of external apps, turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted permission can sideload apps to Teams. 
+- **Querladen von externen Apps zulassen**: Wenn Sie einige externe Apps aktivieren und andere deaktivieren möchten, deaktivieren Sie diese Einstellung, und deaktivieren Sie anschließend in der Liste der externen Apps die Apps, auf die Benutzer nicht zugreifen sollen. Wenn diese Einstellung aktiviert ist, können Teambesitzer und Mitglieder, denen eine Berechtigung erteilt wurde, Apps in Microsoft Teams querladen. 
 
-- **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
+- **Enable new external apps by default** (Neue externe Apps standardmäßig aktivieren): Wenn diese Einstellung aktiviert ist, können Benutzer neue Apps aktivieren, sobald diese zum Microsoft Teams-App-Katalog hinzugefügt werden. Deaktivieren Sie diese Einstellung, wenn Sie neue Apps steuern möchten. Wenn Sie die Einstellung deaktiviert haben, müssen Sie natürlich daran denken, neue Apps regelmäßig zu überprüfen, damit Ihrer Organisation keine tollen neuen Apps entgehen. 
 
 Weitere Informationen finden Sie unter [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md). 
 

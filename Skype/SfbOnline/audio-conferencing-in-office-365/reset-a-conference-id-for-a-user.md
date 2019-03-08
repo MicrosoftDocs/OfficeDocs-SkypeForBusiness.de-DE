@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie die Schritte ein Benutzers Zurücksetzen des meeting-Konferenz-ID in Skype für Business Online sowie Get links auf meeting Update und Migration Tools. '
-ms.openlocfilehash: d569dfb015db5cea79c57233ba455adfd90a3182
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 748664ec8e6584adcbcb0630147f1bcd60be9482
+ms.sourcegitcommit: 17348a197c8ed76d587f3c3d0ff36c56414183f0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887545"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30475795"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Eine Konferenz-ID für einen Benutzer in Skype für Business Online zurücksetzen
 
@@ -35,7 +35,7 @@ ms.locfileid: "23887545"
 Eine dynamische Konferenz-ID ist enthalten am unteren Rand Besprechungsanfragen zusammen mit der Zugriffsnummer für Einwahl Telefonnummern, die von Anrufern zu einer Besprechung Anrufen verwendet werden können. Wenn der Benutzer die Telefonnummer wählt, wird die automatische Telefonzentrale für die Besprechung bitten Sie den Anrufer an diese Konferenz-ID eingeben, damit sie an der Besprechung teilnehmen können.
   
 > [!NOTE]
-> Wenn Ihr Konferenzanbieter Microsoft ist, sind die Konferenz-IDs Ihrer Benutzer standardmäßig auf "Nur dynamisch" eingestellt. Leider gibt es keine Möglichkeit, es im Skype for Business Admin Center zu ändern oder Windows PowerShell zu verwenden, damit es statisch wird, da dies nun nicht mehr unterstützt wird. Konferenz-IDs werden automatisch nur für Skype for Business-Benutzer festgelegt, die für Audiokonferenzen aktiviert sind. 
+> Ist Ihr Konferenzanbieter Microsoft, werden nur dynamische Ihrer Benutzer Konferenz-IDs festgelegt. Dies kann nicht geändert werden. Konferenz-IDs werden automatisch nur für Skype for Business-Benutzer festgelegt, die für Audiokonferenzen aktiviert sind. 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Zurücksetzen der Konferenz-ID für einen Benutzer
    
@@ -59,7 +59,7 @@ Eine dynamische Konferenz-ID ist enthalten am unteren Rand Besprechungsanfragen 
     
 - Wenn Sie den Benutzer auf der Seite **Benutzer** auswählen, kann die Konferenz-ID für einen Benutzer für Audiokonferenzen am unteren Rand der Aktionsbereich unter **Audiokonferenzen** angezeigt werden.
     
-- After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. Die Benutzer können Skype für Business Besprechung Tool um vorhandenen Besprechungen zu aktualisieren. Informationen zum Herunterladen, installieren und führen Sie die Skype für Business Besprechung Update-Tools finden Sie unter:
+- Nachdem eine neue Konferenz-ID generiert wurde, können Anrufer die alte Konferenz-ID nicht mehr verwenden. Sie sollten Benutzer benachrichtigen, dass sie ihre angesetzten Besprechungseinladungen neu planen, damit die neue Konferenz-ID den Einladungen hinzugefügt wird. Die Benutzer können Skype für Business Besprechung Tool um vorhandenen Besprechungen zu aktualisieren. Informationen zum Herunterladen, installieren und führen Sie die Skype für Business Besprechung Update-Tools finden Sie unter:
     
   - [Skype for Business (Lync) Meeting Update Tool](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)
     
