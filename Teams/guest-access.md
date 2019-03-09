@@ -10,17 +10,18 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 description: Gastzugriff in Microsoft Teams ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, indem ihnen Zugriff auf Teams und Kanäle gewährt wird.
 localization_priority: Normal
+f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59cd4e06d3a5a98298d67fcfbb785efb371fe0f0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d7fb3479c8230735d04494bd6aacfbd8d3d23395
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458828"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493573"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 ======================================

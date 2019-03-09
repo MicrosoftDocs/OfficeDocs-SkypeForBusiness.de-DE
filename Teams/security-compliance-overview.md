@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4833a36b08d3acc4b3cbe7ffaf2eaa4726fe0c82
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3c1288bee6e2b1adcceb3b899f705536c8a00133
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458940"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493981"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Übersicht über Sicherheit und Compliance in Microsoft Teams
 ======================================================
@@ -150,4 +150,4 @@ Microsoft-Teams, desktop-Anwendung unterstützt AppLocker.  Weitere Informatione
 
 Als Kunde von Office 365 sind Sie der Besitzer der Daten und verfügen auch über die vollständige Kontrolle. Microsoft verwendet Ihre Daten ausschließlich für die Bereitstellung des Diensts, den Sie abonniert haben. Als Dienstanbieter scannen wir nicht Ihre E-Mails, Dokumente oder Teams zu Werbezwecken oder nicht dienstbezogenen Zwecken. Microsoft hat keinen Zugriff auf hochgeladene Inhalte. Genau wie bei OneDrive for Business und SharePoint Online bleiben die Kundendaten im Mandanten.
 
-Weitere Informationen zu den Themen „Vertrauensstellung“ und „Sicherheit“ finden Sie im [Office 365 Trust Center](https://go.microsoft.com/fwlink/?linkid=855779). Teams folgt den gleichen Leitlinien und Prinzipien wie das Office 365 Trust Center.
+Weitere Informationen zu unserer vertrauen und Sicherheit Auschecken weiterführende Informationen finden Sie im [Microsoft Trust Center](https://microsoft.com/trustcenter). Teams folgt die gleichen Hinweise und Prinzipien als Microsoft Trust Center.

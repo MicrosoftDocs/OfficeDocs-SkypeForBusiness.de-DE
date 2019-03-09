@@ -4,7 +4,7 @@ ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
-ms.date: 01/22/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
@@ -20,16 +20,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords:
+- ms.teamsadmincenter.directrouting.callanalytics
+- ms.teamsadmincenter.users.activity.audioqualitycolumn
 ms.custom:
 - Reporting
 description: Verwenden Sie Analytics rufen Sie Informationen zu Geräten, Netzwerke und Konnektivität Benutzer bei Problemen mit Microsoft-Teams und Skype für geschäftliche Anrufe und Besprechungen.
-ms.openlocfilehash: d5409e1f37aaec6853362edc8caf74ea2a468cd7
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b020ae52b9cb7906484c6a0a5403e626ebab68a8
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464404"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494237"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Verwenden Sie Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln
 

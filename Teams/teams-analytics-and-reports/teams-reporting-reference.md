@@ -10,18 +10,19 @@ ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
+f1keywords: ms.teamsadmincenter.analyticsandreports.overview
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Lernen Sie die Teams-Berichte, die in der Verwaltungskonsole von Microsoft-Teams zur Verfügung stehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2517ebe62dc903f2abcc5f3e6aa817160e15c4d0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: a3c6479dbd9dbc9e8097f4228ad2b11288390fad
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463732"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494229"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams – Analyse und Berichterstellung
 

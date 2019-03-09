@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Informationen Sie zum Verwalten von Einstellungen für Teams Besprechungen, die Benutzer in Ihrer Organisation planen.
-ms.openlocfilehash: ad48e44ef475d3643444cfb570e81d8224117133
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ec43fe9c436de612440bbec687868dc4de749191
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462644"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494253"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -80,7 +80,7 @@ Wenn Sie den Netzwerkverkehr zu priorisieren Quality of Service [(QoS)](qos-in-t
 
     ![Meeting-Einstellungen-network.png] (media/meeting-settings-network.png "Screenshot der Netzwerkeinstellungen für Teams Besprechungen in der Verwaltungskonsole von Microsoft-Teams")
 
-    - Damit DSCP Auswahlmöglichkeiten für QoS verwendet werden können, aktivieren Sie **Einfügen Quality of Service (QoS)-Marker für Mediendatenverkehr in Echtzeit**. Sie haben nur die Möglichkeit der Verwendung von Markierungen oder nicht, benutzerdefinierte Marker für jeden Datenverkehrstyp kann nicht festgelegt werden. Weitere auf DSCP-Marker finden Sie unter [Wählen Sie eine QoS-Implementierung-Methode](QoS-in-Teams.md#select-a-qos-implementation-method) .
+    - Damit DSCP Auswahlmöglichkeiten für QoS verwendet werden können, aktivieren Sie **Einfügen Quality of Service (QoS)-Marker für Mediendatenverkehr in Echtzeit**. Sie müssen nur die Option Markierungen oder nicht verwenden; Benutzerdefinierte Markierungen kann nicht für jeden Datenverkehrstyp festgelegt werden. Weitere auf DSCP-Marker finden Sie unter [Wählen Sie eine QoS-Implementierung-Methode](QoS-in-Teams.md#select-a-qos-implementation-method) .
     - Um anzugeben Portbereiche neben, **Wählen Sie einen Portbereich für jede Art von Mediendatenverkehr in Echtzeit**, wählen Sie **Portbereiche angeben**und geben Sie die Start- und Enddatum Ports für Audio, Video und Bildschirmfreigabe. Diese Option ist erforderlich, um QoS zu implementieren.
     > [!IMPORTANT]
     > Wenn Sie wählen Sie **automatisch alle verfügbaren Ports verwenden**, verfügbaren Ports zwischen 1024 und 65535 verwendet werden. Verwenden Sie diese Option nur, wenn keine QoS zu implementieren.

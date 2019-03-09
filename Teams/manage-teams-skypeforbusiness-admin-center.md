@@ -3,7 +3,7 @@ title: Verwalten von Microsoft Teams während der Umstellung auf das neue Admin 
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/05/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -12,18 +12,19 @@ description: Weitere Informationen zum Verwalten von Mandanten geltende und von 
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
+f1keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: bab16d1078e1b52ef62e0fac223132ccad75d531
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 9f1adb47709d3e053bb2349d8a3e548bedc58d9d
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463988"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493692"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams
 ======================================================

@@ -10,17 +10,18 @@ ms.reviewer: rowille
 description: Bereiten Sie das Netzwerk Ihrer Organisation für Quality of Service (QoS) in Microsoft Teams vor.
 localization_priority: Normal
 search.appverid: MET150
+f1keywords: ms.teamsadmincenter.meetingsettings.qos
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef01b9c62fe65a04d09592ca49531e12ac6d4325
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e72b4b4fdfdbe6d31ca3543d23b67cb515568e4f
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459012"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494029"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementieren von Quality of Service (QoS) in Microsoft-Teams
 

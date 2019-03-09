@@ -11,17 +11,18 @@ description: Vorbereiten des Upgrades auf Microsoft Teams nur Kopfzeilen herunte
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
+f1keywords: ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
 MS.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a9e42d8245afdd1deb33f22f3f7695bb5d71617
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4fd32ec5f75b481c414e96d677b450a758d20cec
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459556"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494045"
 ---
 # <a name="teams-only-mode-considerations"></a>Überlegungen zum Teams Only-Modus
 

@@ -1,5 +1,5 @@
 ---
-title: Telefon System direkten Routing
+title: Direktes Routing für Telefonsysteme
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,16 +11,17 @@ ms.collection:
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
+F1keywords: ms.teamsadmincenter.directrouting.overview
 description: Zielseite zum direkten Routing
 appliesto: Microsoft Teams
-ms.openlocfilehash: 6aeff0f79dfbc6cd7b3ba3cddefee382673d24eb
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: b8f7840b981b67f941598638b2624de0cd512b8c
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353266"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494061"
 ---
-# <a name="phone-system-direct-routing"></a>Telefon System direkten Routing
+# <a name="phone-system-direct-routing"></a>Direktes Routing für Telefonsysteme
 
 Sie haben [Erste Schritte](get-started-with-teams-quick-start.md) abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleicht haben Sie [Besprechungen & Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)bereitgestellt. Sie können nun Cloud VoIP Arbeitslasten hinzufügen, und Sie haben entschieden, Telefonie-Anbieter für die Verbindungen (Public Switched Telephone Network, PSTN) zu verwenden, mithilfe von Telefon System direkten Routing. Mit direktem Routing können Sie mit nahezu jedes beliebigen Telefonie Netzbetreiber Telefonsystem.
 
@@ -34,7 +35,7 @@ Die folgenden Artikel enthalten weitere Informationen zum Konfigurieren und Tele
 - [Planen von direktem Routing](direct-routing-plan.md) 
 - [Konfigurieren von direktem Routing](direct-routing-configure.md)
 - [Liste der für direktes Routing zertifizierten Session Border Controller](direct-routing-border-controllers.md)
-- [Überwachung und Problembehandlung von direkten Routing](direct-routing-monitor-and-troubleshoot.md)
+- [Überwachung und Problembehandlung von direktem Routing](direct-routing-monitor-and-troubleshoot.md)
 
 Darüber hinaus sollten Sie je nach Bedarf die folgenden Artikel lesen:
 

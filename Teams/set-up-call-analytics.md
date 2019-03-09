@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems.
-ms.openlocfilehash: e54668afc6e71b519f1656443a25e17274b22fb2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 97faee554bd4a4ea8b88226d12cb675fab51e114
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462833"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494221"
 ---
 # <a name="set-up-call-analytics"></a>Einrichten von Anrufanalyse
 
@@ -51,7 +51,7 @@ Als eine Teams oder Skype für Business Online Admin, können Analytics rufen Si
 ## <a name="set-call-analytics-permissions"></a>Festlegen von Berechtigungen für die Anrufanalyse
 <a name="BKMK_SetCAPerms"></a>
 
-Als Administrator verfügen Sie über Vollzugriff auf alle Funktionen der Anrufanalyse. Darüber hinaus können Sie zu support-Mitarbeiter Azure Active Directory-Rollen zuweisen. Weisen Sie die Teams Communications Support-Spezialisten-Rolle für Benutzer, die eine begrenzte Ansicht des Analytics aufrufen verfügen soll. Benutzer Zugriff auf den vollen Funktionsumfang von Analytics aufrufen benötigen weisen Sie die Teams Communications Support Engineer Rolle zu. Beide Berechtigungsstufen verhindern des Zugriffs auf den Rest der im Microsoft-Teams, Administrationscenter.
+Als Administrator müssen Sie Vollzugriff auf alle Funktionen von Analytics aufrufen. Darüber hinaus können Sie zu support-Mitarbeiter Azure Active Directory-Rollen zuweisen. Weisen Sie die Teams Communications Support-Spezialisten-Rolle für Benutzer, die eine begrenzte Ansicht des Analytics aufrufen verfügen soll. Benutzer Zugriff auf den vollen Funktionsumfang von Analytics aufrufen benötigen weisen Sie die Teams Communications Support Engineer Rolle zu. Beide Berechtigungsstufen verhindern des Zugriffs auf den Rest der im Microsoft-Teams, Administrationscenter.
 
 > [!NOTE]
 > Die Rolle des Supports Specialist von Communications Support der Ebene 1 entspricht, und die Kommunikation Support Engineer Rolle Support der Ebene 2 entspricht.

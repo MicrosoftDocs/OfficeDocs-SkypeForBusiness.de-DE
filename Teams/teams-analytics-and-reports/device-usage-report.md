@@ -3,7 +3,7 @@ title: Microsoft Teams – Gerätenutzungsbericht
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 01/11/2019
+ms.date: 03/08/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 description: Hier erfahren Sie, wie mit den Teams Gerät Nutzungsbericht im Microsoft-Teams, Administrationscenter finden Sie unter Teams wie Benutzer in Ihrer Organisation herstellen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7eaa4dc63fb9de7dc4caccdc3d412f588e874a2b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0abc3afd09a1bd253319de0f4b68512c35cd2daa
+ms.sourcegitcommit: daf65bf09ca57554da744602d2551db53caedde5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463492"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "30513013"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams – Gerätenutzungsbericht
 

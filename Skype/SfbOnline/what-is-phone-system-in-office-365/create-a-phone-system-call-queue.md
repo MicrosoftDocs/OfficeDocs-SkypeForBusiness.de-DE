@@ -1,5 +1,5 @@
 ---
-title: Erstellen einer Telefonsystem-Anrufwarteschleife
+title: Erstellen einer Warteschlange für das Telefonsystem
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -17,18 +17,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.callqueues.overview
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 53d3eee97ba5fc396b47396b969fef6f2e899df1
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 054d0ff2068c6bd280331f7fa64ea5aedb58db6c
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046738"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493708"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Erstellen einer Telefonsystem-Anrufwarteschleife
+# <a name="create-a-phone-system-call-queue"></a>Erstellen einer Warteschlange für das Telefonsystem
 
 System-Telefonanruf Warteschlangen enthalten Ansage, die verwendet werden, wenn angerufen eine Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und für den nächsten verfügbaren Anruf-Agent zum Verarbeiten des Anrufs beim Personen die Möglichkeit zum Suchen, die Anruf Musik in der Warteschleife hören sind. Sie können einzelne oder mehrere Anruf Warteschlangen für Ihre Organisation erstellen.
   
@@ -246,7 +246,7 @@ Zum Verwalten einer Anrufwarteschleife benötigen Sie die folgenden Cmdlets.
   - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
 ## <a name="related-topics"></a>See Also
-[Das bekommen Sie mit Telefonsystem in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Das Telefonsystem in Office 365 bietet Ihnen Folgendes](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](getting-service-phone-numbers.md)
 

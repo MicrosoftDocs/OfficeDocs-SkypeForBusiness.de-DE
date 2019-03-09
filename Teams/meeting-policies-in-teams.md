@@ -16,13 +16,17 @@ appliesto:
 - Microsoft Teams
 f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
+- ms.teamsadmincenter.meetingpolicies.audioandvideo
+- ms.teamsadmincenter.meetingpolicies.contentsharing
+- ms.teamsadmincenter.meetingpolicies.general
+- ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Informationen zum Verwalten von Richtlinieneinstellungen in Teams meeting.
-ms.openlocfilehash: a7b7cc9d6aa0ba10583f872d8c542152f908b551
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f8f7e4bbf18fa96ebc8de3fd219945a06c05c0b3
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462652"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494085"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 

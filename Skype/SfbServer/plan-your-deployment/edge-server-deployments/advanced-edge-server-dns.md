@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Zusammenfassung: Überprüfen Sie Szenarien für Skype für Business Server Bereitstellungsoptionen. Dieses Thema wird Ihnen helfen, egal ob Sie einen einzelnen Server oder einen Server-Pool mit DNS oder HLB bevorzugen.'
-ms.openlocfilehash: 524245db9415637f1f8b986648003b35ab653245
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 2ea6c30b6a430b880b1b75b6f5e36cc6a8721f18
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882241"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493684"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Erweiterte DNS-Edge-Server planen Skype für Business Server
  
@@ -207,12 +207,12 @@ Alle DNS-Einträge in dieser Tabelle sind Beispiele.
   
 |**GeoDNS-Eintrag**|**Pool-Einträge**|**CNAME-Einträge**|**DNS-Einstellungen (wählen Sie eine Option aus)**|
 |:-----|:-----|:-----|:-----|
-|Sofortbesprechung int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com-Alias für Pool1InternalWebFQDN.contoso.com  <br/> Meet.contoso.com-Alias für Pool2InternalWebFQDN.contoso.com  <br/> |Roundrobin zwischen Pools  <br/> **ODER** <br/> Primäre verwenden, bei Fehler mit der sekundären verbinden  <br/> |
-|Sofortbesprechung ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com-Alias für Pool1ExternalWebFQDN.contoso.com  <br/> Meet.contoso.com-Alias für Pool2ExternalWebFQDN.contoso.com  <br/> |Roundrobin zwischen Pools  <br/> **ODER** <br/> Primäre verwenden, bei Fehler mit der sekundären verbinden  <br/> |
+|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com auf Sofortbesprechung int.geolb.contoso.com  <br/>   <br/> |Roundrobin zwischen Pools  <br/> **ODER** <br/> Primäre verwenden, bei Fehler mit der sekundären verbinden  <br/> |
+|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com auf Sofortbesprechung ext.geolb.contoso.com  <br/>   <br/> |Roundrobin zwischen Pools  <br/> **ODER** <br/> Primäre verwenden, bei Fehler mit der sekundären verbinden  <br/> |
 |Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Dialin.contoso.com-Alias für Pool1InternalWebFQDN.contoso.com  <br/> Dialin.contoso.com-Alias für Pool2InternalWebFQDN.contoso.com  <br/> |Roundrobin zwischen Pools  <br/> **ODER** <br/> Primäre verwenden, bei Fehler mit der sekundären verbinden  <br/> |
 |Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Dialin.contoso.com-Alias für Pool1ExternalWebFQDN.contoso.com  <br/> Dialin.contoso.com-Alias für Pool2ExternalWebFQDN.contoso.com  <br/> |Roundrobin zwischen Pools  <br/> **ODER** <br/> Primäre verwenden, bei Fehler mit der sekundären verbinden  <br/> |
-|Lyncdiscoverint int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Lyncdiscoverinternal.contoso.com-Alias für Pool1InternalWebFQDN.contoso.com  <br/> Lyncdiscoverinternal.contoso.com-Alias für Pool2InternalWebFQDN.contoso.com  <br/> |Roundrobin zwischen Pools  <br/> **ODER** <br/> Primäre verwenden, bei Fehler mit der sekundären verbinden  <br/> |
-|Lyncdiscover ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Lyncdiscover.contoso.com-Alias für Pool1ExternalWebFQDN.contoso.com  <br/> Lyncdiscover.contoso.com-Alias für Pool2ExternalWebFQDN.contoso.com  <br/> |Roundrobin zwischen Pools  <br/> **ODER** <br/> Primäre verwenden, bei Fehler mit der sekundären verbinden  <br/> |
+|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Lyncdiscoverinternal.contoso.com-Alias für Pool1InternalWebFQDN.contoso.com  <br/> Lyncdiscoverinternal.contoso.com-Alias für Pool2InternalWebFQDN.contoso.com  <br/> |Roundrobin zwischen Pools  <br/> **ODER** <br/> Primäre verwenden, bei Fehler mit der sekundären verbinden  <br/> |
+|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Lyncdiscover.contoso.com-Alias für Pool1ExternalWebFQDN.contoso.com  <br/> Lyncdiscover.contoso.com-Alias für Pool2ExternalWebFQDN.contoso.com  <br/> |Roundrobin zwischen Pools  <br/> **ODER** <br/> Primäre verwenden, bei Fehler mit der sekundären verbinden  <br/> |
 |Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Scheduler.contoso.com-Alias für Pool1InternalWebFQDN.contoso.com  <br/> Scheduler.contoso.com-Alias für Pool2InternalWebFQDN.contoso.com  <br/> |Roundrobin zwischen Pools  <br/> **ODER** <br/> Primäre verwenden, bei Fehler mit der sekundären verbinden  <br/> |
 |Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Scheduler.contoso.com-Alias für Pool1ExternalWebFQDN.contoso.com  <br/> Scheduler.contoso.com-Alias für Pool2ExternalWebFQDN.contoso.com  <br/> |Roundrobin zwischen Pools  <br/> **ODER** <br/> Primäre verwenden, bei Fehler mit der sekundären verbinden  <br/> |
    
@@ -227,9 +227,9 @@ Beispielsweise wenn drei Front-End-Servern in einem Pool mit dem Namen "pool01.c
     
    |||
    |:-----|:-----|
-   |"pool01.contoso.com"  <br/> |192.168.10.90  <br/> |
-   |"pool01.contoso.com"  <br/> |192.168.10.91  <br/> |
-   |"pool01.contoso.com"  <br/> |192.168.10.92  <br/> |
+   |pool01.contoso.com  <br/> |192.168.10.90  <br/> |
+   |pool01.contoso.com  <br/> |192.168.10.91  <br/> |
+   |pool01.contoso.com  <br/> |192.168.10.92  <br/> |
    
 - Der Client versucht, eine TCP-Verbindung zu einer der IP-Adressen herzustellen. Funktioniert dies nicht, wird er es bei der nächsten auf der Liste zwischengespeicherten IP-Adresse versuchen.
     
@@ -254,7 +254,7 @@ Keine Funktionen des DNS-Lastenausgleichs:
   
 - -Client-zu-Server-Webdatenverkehr an den Front-End-Servern oder eines Directors.
     
-Gehen Sie etwas ausführlicheren auf einen DNS-SRV-Eintrag wie ausgewählt, mehrerer-DNS-Datensätze von einer Abfrage, die Zugriffs-edgedienst immer zurückgegeben werden Record-Objekts mit der niedrigsten numerischen Priorität auswählt und Lösen von Konflikten ist erforderlich, numerische Gewichtung. Dies entspricht der [Internet Engineering Task Force](https://www.ietf.org/rfc/rfc2782.txt)-Dokumentation.
+Gehen Sie etwas ausführlicheren auf einen DNS-SRV-Eintrag wie ausgewählt, mehrerer-DNS-Datensätze von einer Abfrage, die Zugriffs-edgedienst immer zurückgegeben werden Record-Objekts mit der niedrigsten numerischen Priorität auswählt und Lösen von Konflikten ist erforderlich, numerische Gewichtung. Dies entspricht der [Internet Engineering Task Force-Dokumentation](https://www.ietf.org/rfc/rfc2782.txt)
   
 Angenommen der DNS-SRV-Eintrag A hat eine Gewichtung von 20 und eine Priorität von 40 und der DNS-SRV-Eintrag B hat eine Gewichtung von 10 und eine Priorität von 50. In diesem Fall wird der erste Eintrag ausgewählt, da er die niedrigere Priorität von 40 hat. Es kommt auf die Priorität an und den Host mit der niedrigeren steuert ein Client als erstes an. Was passiert, wenn zwei Ziele die gleiche Priorität haben? 
   

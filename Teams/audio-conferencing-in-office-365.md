@@ -18,15 +18,15 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 39c36772de3370e29e8ab47fe596186b76bf3361
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 52462bcb9f609a2e9c68757a36a9e5ed1cfa2b13
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461340"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494213"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audiokonferenzen in Office 365
 Audiokonferenzen in Office 365 ermöglicht dem Benutzer zu Besprechungen aus Telefone aufrufen. Audiokonferenzen kann bis zu 250 Telefon Teilnehmer.
