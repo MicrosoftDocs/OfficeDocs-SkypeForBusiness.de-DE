@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: af771135-60cb-4c37-ae0a-a300d3ced073
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Costa Rica verfügbar.
-ms.openlocfilehash: 5862b013821695ef95d32a8bb72a24ba1d1f2bda
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d44d72b85ed6689fda220d1f228a2c7877ddbe6a
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459473"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542263"
 ---
 # <a name="availability-in-costa-rica"></a>Verfügbarkeit in Costa Rica
 

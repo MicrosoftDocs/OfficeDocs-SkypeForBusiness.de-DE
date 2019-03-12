@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 3662b214-5798-458d-8dcd-0bd563ad01fd
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Honduras verfügbar.
-ms.openlocfilehash: a75d4cf5e38d812bcccdc37902206073e160d203
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 6e786a81ac717c6f35db0d3bee4b642fef8380e1
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461348"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542671"
 ---
 # <a name="availability-in-honduras"></a>Verfügbarkeit in Honduras
 

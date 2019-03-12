@@ -1,14 +1,13 @@
 ---
-title: Darstellung einer freigegebenen Linie in Microsoft-Teams
+title: Teamschaltung in Microsoft Teams
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/13/2018
+ms.date: 02/19/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service:
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
@@ -20,14 +19,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Darstellung einer freigegebenen Linie ermöglicht dem Benutzer die Stellvertreter zum entgegennehmen oder in ihrem Auftrag Anrufe auswählen.
-ms.openlocfilehash: 41c0eb9f740a7fa771769159fe4f560019293857
-ms.sourcegitcommit: f69b5dbdbd61f77ffc0494886516effe35a0c338
+ms.openlocfilehash: 0a110e18cb8a939870528d2700ec54103cf91a6e
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "27283760"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541696"
 ---
-# <a name="shared-line-appearance-in-microsoft-teams"></a>Darstellung einer freigegebenen Linie in Microsoft-Teams
+# <a name="shared-line-appearance-in-microsoft-teams"></a>Teamschaltung in Microsoft Teams
 
 Darstellung einer freigegebenen Linie ist Bestandteil der Delegierung-Feature, mit dem einen Benutzer wählen Sie ein Stellvertreter zum entgegennehmen oder in ihrem Auftrag Anrufe. Dieses Feature ist hilfreich, wenn ein Benutzer ein Verwaltungsmitarbeiter verfügt, die die Anrufe des Benutzers regelmäßig behandelt. Im Kontext von freigegebenen Zeile Darstellung, ist ein Manager einer Person, die eine Stellvertretung tätigen und Entgegennehmen von Anrufen in ihrem Auftrag autorisiert und Stellvertreter kann tätigen und Entgegennehmen von Anrufen im Auftrag einer anderen Person.
 
@@ -44,20 +43,22 @@ Sowohl Vorgesetzte als auch Stellvertreter müssen Enterprise-VoIP aktiviert sei
 
 Delegierung und Darstellung einer freigegebenen Linie sind benutzergesteuerten Features: Es sind keine Admin Einstellungen konfiguriert. Informationen zur Verwendung des Features finden Sie unter [Freigeben einer Telefonleitung mit einem Delegaten](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
+Administrator des Mandanten sollten Delegierung über die **TeamsCallingPolicy AllowDelegation** Einstellung für dieses Feature zu aktivieren.
+
 ## <a name="shared-line-appearance-feature-availability"></a>Verfügbarkeit von Zeile Darstellung Shared
 
 Darstellung einer freigegebenen Linie wird derzeit von den folgenden apps und -Geräte unterstützt.
 
 | Funktion | Teams Desktop | Teams Mac-App | Teams Web App (Edge) |Mobile-iOS/Android-App-Teams | Teams IP-Telefon |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| Einrichten von Delegierung | Ja | Ja | Ja | Nein | Nein |
-| Ausgehende Anrufe im Auftrag eines anderen | Ja | Ja | Ja | Ja | Ja |
-| Eine Rufnummer im Auftrag eines anderen | Ja | Ja | Ja | Ja | Ja |
-| Rufen Sie einen Benutzer Teams im Auftrag eines anderen | Ja | Ja | Ja | Ja | Ja |
-| Finden Sie unter der Admin-Ansicht des freigegebenen Zeilen | Ja | Ja | Ja | Nein | Nein |
-| Finden Sie unter der Admin-Ansicht des Managers Anrufsaktivitäten | Ja | Ja | Ja | Nein | Nein |
-| Finden Sie unter der Manager – Übersicht über Delegaten | Ja | Ja | Ja | Nein | Nein |
-| Admin oder Manager halten oder Wiederaufnehmen | Ja | Ja | Ja | Nein | Nein |
+| Einrichten von Delegierung | Ja  | Ja  | Ja | Nein | Nein |
+| Ausgehende Anrufe im Auftrag eines anderen | Ja  | Ja  | Ja  | Ja  | Ja |
+| Eine Rufnummer im Auftrag eines anderen | Ja  | Ja  | Ja  | Ja  | Ja |
+| Rufen Sie einen Benutzer Teams im Auftrag eines anderen | Ja  | Ja  | Ja  | Ja  | Ja |
+| Finden Sie unter der Admin-Ansicht des freigegebenen Zeilen | Ja  | Ja  | Ja | Nein | Nein |
+| Finden Sie unter der Admin-Ansicht des Managers Anrufsaktivitäten | Ja  | Ja  | Ja | Nein | Nein |
+| Finden Sie unter der Manager – Übersicht über Delegaten | Ja  | Ja  | Ja | Nein | Nein |
+| Admin oder Manager halten oder Wiederaufnehmen | Ja  | Ja  | Ja | Nein | Nein |
 
 ## <a name="limitations"></a>Einschränkungen
 

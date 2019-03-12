@@ -7,9 +7,7 @@ ms.reviewer: mikedav, wlooney, gageames
 ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Informationen Sie zu Analytics aufrufen und Qualitätsdashboard aufrufen und verwenden sie zur Überwachung und Problembehandlung Anrufqualität.
-ms.openlocfilehash: e8c9331a26caf5e2fe4cb618ac896393d35939ba
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 693e17152d3c51ae51efaa0977d5d83b5c5f2297
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460852"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543007"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Anrufanalyse- und Anrufqualitäts-Dashboard
 
@@ -44,7 +42,7 @@ Anruf Analytics zeigt detaillierte Informationen zu den Geräten, Netzwerke und 
 
 Wenn Sie diese Informationen für einen Benutzer in der Microsoft-Teams-Verwaltungskonsole angezeigt wird, klicken Sie auf der Registerkarte **Anrufverlauf** für diesen Benutzer auf der Seite Benutzer Detail zeigt alle Anrufe und Besprechungen, dass der Benutzer in den letzten 30 Tagen teilgenommen hat.
 
-![Rufen Sie Analytics Benutzerdaten.](media/call-analytics-user-data.png)
+![Rufen Sie Analytics Benutzerdaten.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 Wenn Sie weitere Informationen zu einer bestimmten Sitzung einschließlich detaillierte Medien und Netzwerke Statistiken erhalten möchten, klicken Sie auf eine Sitzung, um die Details anzuzeigen.
 
@@ -76,7 +74,7 @@ Möglicherweise ist der Benutzer Anrufe schlechter Qualität Qualität aufgrund 
 
 Mit der Hilfe CQDs Location-Enhanced Berichte können aggregierte Anrufqualität und Zuverlässigkeit innerhalb des Benutzers zum Erstellen von bewertet werden, um festzustellen, ob das Problem zu einem einzelnen Benutzer isoliert wird oder wirkt sich auf einer größeren Benutzersegment.
 
-![Screenshot des Anrufqualität Dashboard Speicherort mit erhöhter Berichte. Registerkarten dargestellt sind Übersicht, Gebäude - verkabelt, Gebäude - WiFi und Mobile (LZF). Ein Filter wird angewendet, um die Datenströme in einem bestimmten Gebäude anzuzeigen.](media/call-quality-dashboard-location-enhanced-reports-building-selection.png)
+![Screenshot des Anrufqualität Dashboard Speicherort mit erhöhter Berichte. Registerkarten dargestellt sind Übersicht, Gebäude - verkabelt, Gebäude - WiFi und Mobile (LZF). Ein Filter wird angewendet, um die Datenströme in einem bestimmten Gebäude anzuzeigen.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
 > Um-spezifische Erstellen von Ansichten in CQD zu aktivieren, müssen ein Administrator auf CQDs Mandanten Datenupload Seite [Informationen zum Erstellen von hochladen](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload) .

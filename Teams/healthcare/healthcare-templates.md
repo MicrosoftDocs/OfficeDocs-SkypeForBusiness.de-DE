@@ -1,10 +1,10 @@
 ---
-title: Erste Schritte mit Teams Vorlagen für Unternehmen aus dem Gesundheitswesen
+title: Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
 author: jambirk
 ms.author: jambirk
 manager: serdars
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
@@ -14,15 +14,15 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Erste Schritte mit Teams Vorlagen für Unternehmen aus dem Gesundheitswesen
-ms.openlocfilehash: fac7aa90d0fe7f1e6b3e1570378b78a50d321869
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+description: Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
+ms.openlocfilehash: 68ab93ceca20f0d26c9dac0b5b65667835bd1203
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408283"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541664"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Erste Schritte mit Teams Vorlagen für Unternehmen aus dem Gesundheitswesen
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
 
 Microsoft-Teams Vorlagen können Sie schnell und einfach Teams durch die Bereitstellung von Einstellungen, Kanäle und vorinstallierte apps einer vordefinierten Vorlage erstellen.
 

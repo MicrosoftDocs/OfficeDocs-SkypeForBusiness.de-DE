@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Informationen Sie zum Einrichten und Testen von Telefonsystem (Cloud, PBX) automatische Telefonzentralen für effiziente Anruf Behandeln von für Ihre Organisation.
-ms.openlocfilehash: f055a6851610bc2071e1705a4b5739544c5d72bd
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 83a59090e447a5bfbda4cf72481b9d6b1ce21a0e
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353298"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542319"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale des Telefonsystems
 

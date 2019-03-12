@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: ba39f7c0-3bdd-4cd5-b4bc-dccda2414c3a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für El Salvador verfügbar.
-ms.openlocfilehash: 145d395bd5ca013c67cac2bdde52e71c933da934
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: af82592374699397bc1b197a791f6899688bf37f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464292"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541120"
 ---
 # <a name="availability-in-el-salvador"></a>Verfügbarkeit in El Salvador
 

@@ -4,14 +4,12 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in Irland für Skype for Business Online und Microsoft Teams.
-ms.openlocfilehash: dbdd303ba5dedcba34d25c7d9794fa733b302343
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: d948bb89461a6b9d69b95a1088d0b0f9441647db
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352402"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542791"
 ---
 # <a name="phone-number-management-for-ireland"></a>Telefonnummernverwaltung für Irland
 

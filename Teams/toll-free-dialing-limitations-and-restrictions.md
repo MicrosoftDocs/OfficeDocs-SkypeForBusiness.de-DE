@@ -1,5 +1,5 @@
 ---
-title: Gebührenfreie Rufnummer einwählen einschränken
+title: Einschränkungen für das Wählen von gebührenfreien Telefonnummern
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,14 +7,10 @@ ms.reviewer: mikedav, roykuntz, jastark, oscarr
 ms.topic: article
 ms.assetid: 6b8d5ddb-59c1-4ee7-b171-18e5ace2dcd6
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -26,14 +22,14 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region, die gebührenfreie Nummer.
-ms.openlocfilehash: 9ecea9fa2503134c7ce3b13c6c7adaabdf24a142
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 2c5f5d97972fe1c1002ffb16ca39f6a6224beb06
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352682"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542112"
 ---
-# <a name="toll-free-dialing-limitations-and-restrictions"></a>Gebührenfreie Rufnummer einwählen einschränken
+# <a name="toll-free-dialing-limitations-and-restrictions"></a>Einschränkungen für das Wählen von gebührenfreien Telefonnummern
 
 Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land oder Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert Sie zu einer Seite es, die enthält, in dem gebührenpflichtige kostenlosen Service einschließlich spezifische Details, Einschränkungen und Grenzwerte verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region, die gebührenfreie Nummer.
   

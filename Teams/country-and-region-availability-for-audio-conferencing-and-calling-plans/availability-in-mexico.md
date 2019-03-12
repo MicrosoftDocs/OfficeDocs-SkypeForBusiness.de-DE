@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4f3430a6-141f-4842-817d-ca4355ae8fda
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Mexiko verfügbar.
-ms.openlocfilehash: a3e1b5526e859652c6c8b17e7a4b6e23d4956ffa
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 1e743d5fd5d5545e68fd9fcffac286a2fb44e99e
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461996"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541712"
 ---
 # <a name="availability-in-mexico"></a>Verfügbarkeit in Mexiko
 

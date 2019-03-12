@@ -9,18 +9,21 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.audience: Admin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Informationen Sie zu Richtlinien für die app Setup in Microsoft-Teams und Nutzung zum Anpassen von Teams für Benutzer in Ihrer Organisation Pin apps.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3e46f5ea50d3e9cdb1717838beec454cca05ba30
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: 6c88ba45aba076c6e26fe8bc16fd3643499a881b
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30302689"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541824"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -45,7 +48,7 @@ Sie können die Einstellungen zum Einschließen von apps, die Sie möchten in de
 
 ## <a name="create-a-custom-app-setup-policy"></a>Erstellen Sie eine benutzerdefinierte Anwendung Setup-Richtlinie
 
-Das Microsoft-Teams, Administrationscenter oder die Windows PowerShell können Sie um eine benutzerdefinierte Richtlinie zu erstellen.
+Das Microsoft-Teams, Administrationscenter können Sie eine benutzerdefinierte Richtlinie erstellen.
 
 1. Wechseln Sie im linken Navigationsbereich von Microsoft-Teams, Administrationscenter, **Teams**Apps > **Setup Richtlinien für die App**.
 2. Wählen Sie **neue Richtlinie**aus.

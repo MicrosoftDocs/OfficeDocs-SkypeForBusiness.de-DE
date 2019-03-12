@@ -7,14 +7,11 @@ msreviewer: jastarck, makolomi
 ms.topic: article
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 655e095f87ee9ad53cb57df09ca8366ecc8eb8f6
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 051834d3a0fd232cc9839ee6a72a41e9be127636
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120900"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542919"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Das Telefonsystem in Office 365 bietet Ihnen Folgendes
 
@@ -54,7 +51,7 @@ Mithilfe von Telefonsystem erhalten Ihre Skype für Unternehmensbenutzer die fol
 |Anruf halten/wiederaufnehmen  <br/> | Verwenden Sie diese Option, wenn mehrere Anrufe zur gleichen Zeit getätigt werden. Wenn Sie den nächsten eingehenden Anruf beantworten oder einen ausgehenden Anruf tätigen, wird Ihr aktueller Anruf automatisch gehalten. <br/> |
 |[Durchstellen eines Skype for Business-Anrufs](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |Stellt Anrufe an andere Personen durch. Oder, wenn Sie müssen so verlassen Ihrem Büro, Ihre Unterhaltung fortsetzen möchten, können Sie die Anrufe von Ihrem PC oder IP-Telefon auf Ihr Mobiltelefon oder Tablet übertragen.  <br/> |
 |Anrufer-ID  <br/> |Bei Anrufen von Personen innerhalb Ihres Unternehmens wird eine detaillierte Anrufer-ID mit Informationen aus Ihrem Unternehmensverzeichnis angezeigt. Es wird nicht nur die Telefonnummer angezeigt, sondern auch ein Bild und die Position.  <br/> |
-|[Erstellen einer Telefonsystem-Anrufwarteschleife](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |System-Telefonanruf Warteschlangen enthalten Ansage, die verwendet werden, wenn angerufen eine Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und für den nächsten verfügbaren Anruf-Agent zum Verarbeiten des Anrufs beim Personen die Möglichkeit zum Suchen, die Anruf Musik in der Warteschleife hören sind.  <br/> |
+|[Erstellen einer Warteschlange für das Telefonsystem](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |System-Telefonanruf Warteschlangen enthalten Ansage, die verwendet werden, wenn angerufen eine Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und für den nächsten verfügbaren Anruf-Agent zum Verarbeiten des Anrufs beim Personen die Möglichkeit zum Suchen, die Anruf Musik in der Warteschleife hören sind.  <br/> |
 |[Ich möchte Statusänderungen mitgeteilt bekommen](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | Mit dieser Funktion können Sie Personen markieren, die derzeit nicht erreichbar sind, und mit der Sie benachrichtigt werden, wenn sich ihr Anwesenheitsstatus ändert und sie Telefonanrufe entgegennehmen können. <br/> |
 |Für PC, Mac und Mobile Clients  <br/> | Dadurch werden Anruffunktionen auf Geräten, Tablets und Mobiltelefone, PCs und IP-Tischtelefonen. <br/> |
 |Gerätewechsel  <br/> |Ermöglicht Ihnen die Wiedergabe Ihres Anrufs oder Ihrer Besprechung auf einem anderen Gerät.  <br/> |

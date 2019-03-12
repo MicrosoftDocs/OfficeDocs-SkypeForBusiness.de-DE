@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4ec0cc20-1bcd-4596-a220-f7b363d95055
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Kenia verfügbar.
-ms.openlocfilehash: a55d6798780a2adc9219a4c3ae8940ac4f55ed7e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0e8b97ce7f07ee134532113819214b3f9bc59cc5
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465148"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542743"
 ---
 # <a name="availability-in-kenya"></a>Verfügbarkeit in Kenia
 

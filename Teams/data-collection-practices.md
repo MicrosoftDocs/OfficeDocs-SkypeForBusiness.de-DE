@@ -7,9 +7,7 @@ ms.reviewer: mikedav, allancar
 ms.topic: article
 ms.assetid: c17e8ea6-b83b-4345-9401-47a6c8b13aad
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -24,12 +22,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: d2673424bcddb1b6b3ebaae3bc7bde7f1fce790f
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ce1250030b1644dc9ec28f65ad54dd89bd863877
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464116"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542016"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Datensammlungsverfahren im Zusammenhang mit Skype for Business und Microsoft Teams
 

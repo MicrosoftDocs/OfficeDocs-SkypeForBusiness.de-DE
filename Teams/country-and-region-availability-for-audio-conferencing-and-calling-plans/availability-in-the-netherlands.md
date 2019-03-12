@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 1ea8af70-bc19-454c-adba-b029a08de07c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die Niederlande verfügbar.
-ms.openlocfilehash: 4b475c15875954e3f8a1aea13bb84ee148e35657
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c891cfc53625c7bb8e8b584f28e31cd372817907
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460964"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541888"
 ---
 # <a name="availability-in-the-netherlands"></a>Verfügbarkeit in den Niederlanden
 

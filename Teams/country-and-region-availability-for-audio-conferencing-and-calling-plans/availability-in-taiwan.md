@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: fbbdebfe-497d-41e1-b654-39bbb2e5a67e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Taiwan verfügbar.
-ms.openlocfilehash: ae654ed0eddc060bd8cf737bd54c05826bb54252
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f4f8e485da4b352c8f90dfdbfa60bf103019b7c5
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462420"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542959"
 ---
 # <a name="availability-in-taiwan"></a>Verfügbarkeit in Taiwan
 

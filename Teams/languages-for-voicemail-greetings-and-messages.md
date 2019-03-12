@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Hier erfahren Sie, welche Sprachen Sie in Skype for Business für die Standardnachrichten des Systems festlegen können. '
-ms.openlocfilehash: 43a8a0ff998360b93ef59152a63e62973a09f9a5
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 69fd7350d9e79364fdd89bf6a5b5ac64b4bfe018
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351650"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542583"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Sprachen für Voicemail-Ansagen und -nachrichten
 

@@ -3,7 +3,6 @@ title: Verwenden der Inhaltssuche in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -11,27 +10,29 @@ MS.collection:
 - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
-description: Hier erfahren Sie mehr über die Inhaltssuche in Microsoft Teams und wie Kanalchats über Exchange, Dateiuploads/-änderungen über SharePoint und OneNote durchsucht werden können.
+description: Erfahren Sie mehr über Content-Suche in Microsoft-Teams, und wie Sie mit Channel Unterhaltungen aus Exchange, Dateiuploads und Änderungen aus SharePoint suchen und OneNote ändert.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3435d43fde6cd0ca2a0948ad5d34c467ea2e0863
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 1860f3e5f79cd1ff2a2a63a8b49bf0dcfd65638f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460988"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30540616"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Verwenden der Inhaltssuche in Microsoft Teams
 =====================================
 
 Mit der Inhaltssuche können Sie Informationen in Microsoft Teams-Informationen im Ad-hoc-Verfahren abrufen. Die Abfragen schließen Exchange, SharePoint Online und OneDrive for Business ebenfalls ein.
 
-Im Beispiel unten haben wir eine neue **Inhaltssuche** erstellt. Anschließend haben wir das Produktionsspezifikations-Postfach und die SharePoint-Site für Produktionsspezifikationen ausgewählt. Auf diese Weise können wir Kanalchats über Exchange, Dateiuploads/-änderungen über SharePoint Online sowie OneNote-Änderungen durchsuchen.
+Lesen Sie weitere Informationen finden Sie [In Office 365 Inhaltssuche](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
 
-![Screenshot des Dialogfelds „New search“ (Neue Suche)](media/Use_Content_Search_in_Microsoft_Teams_image1.png)
+Beispielsweise können mithilfe der **Inhaltssuche** Ihrer Manufacturing Spezifikationsdialogfeld Postfach- und Manufacturing Spezifikationsdialogfeld SharePoint-Website, Sie gegen Teams Channel Unterhaltungen aus Exchange, Dateiuploads und Änderungen aus SharePoint Online und OneNote suchen ändert.
 
-Sie können ebenfalls Abfragekriterien zur **Inhaltssuche hinzufügen**, um die zurückgegebenen Ergebnisse einzugrenzen. Im Beispiel unten sollten beispielsweise Exchange- und SharePoint-Speicherorte für das Produktionsspezifikationsteam nach Inhalten unter Verwendung des Schlüsselworts **„Neue Produktionsspezifikationen“** gesucht werden.
+Sie können auch die **Inhaltssuche** , damit die zurückgegebenen Ergebnisse einzugrenzen Abfragekriterien hinzufügen. Im obigen Beispiel können Sie nach Inhalt suchen, in dem die Schlüsselwörter "**neue Factory Spezifikationsdialogfeld"** verwendet wurden.
 
-![Screenshot des Dialogfelds „Abfrage“, in dem eine Stichwortsuche ausgeführt wird](media/Use_Content_Search_in_Microsoft_Teams_image2.png)
+> [!TIP]
+> Nachdem Suchkriterien hinzugefügt haben, können Sie einem Bericht oder die Daten an den Computer für die Analyse exportieren.
 
-Nach dem Hinzufügen von Suchbedingungen können Sie einen Bericht oder die Daten zwecks Analyse auf Ihren Computer exportieren. Weitere Informationen zur Verwendung der Inhaltssuche finden Sie über [diese](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) Verknüpfung.
+## <a name="related-topics"></a>Verwandte Themen
+[eDiscovery-Fälle, in der Office 365-Sicherheit & Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

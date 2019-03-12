@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 98a819e4-6dd9-47ee-8c79-586aae727111
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Australien verfügbar.
-ms.openlocfilehash: 12385b482fc01f55966355d3a95191ddbe9272f8
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3035cd55a3fb255b143390bdd6d368d87f23ddbe
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462988"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541288"
 ---
 # <a name="availability-in-australia"></a>Verfügbarkeit in Australien
 

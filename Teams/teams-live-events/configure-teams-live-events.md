@@ -3,7 +3,7 @@ title: Konfigurieren von Einstellungen für Live-Ereignisse in Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
-ms.date: 10/23/2018
+ms.date: 03/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -16,12 +16,12 @@ description: Informationen Sie zum Verwalten von Einstellungen für Teams live E
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94a167e8a929f2011ccaa773cd04d4e0ca6a2a0e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 56a7834f1547c682c690f8c42082af0a314efec9
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463668"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542839"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Konfigurieren von Einstellungen für Live-Ereignisse in Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]

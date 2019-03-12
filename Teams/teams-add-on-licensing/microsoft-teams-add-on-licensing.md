@@ -5,7 +5,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 MS.collection:
@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Informationen zu den Add-on-Lizenzen, was Sie features erhalten mit jeder Lizenz, wie sie für Ihr Produkt kaufen und wie Sie mit Ihren vorhandenen Netzbetreiber mit ihnen. Erhalten Sie Informationen über Preise und Plan Details für Office 365 Kommunikation haben, und plant aufrufen.
-ms.openlocfilehash: 6cf3b2a242a941c9a4352aa35afd1dcbe23c902c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5912ac5cf79f0db7aaf02fa4d8425d3da80a99bb
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460132"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543079"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Lizenzierung für Microsoft Teams-Add-On
 
