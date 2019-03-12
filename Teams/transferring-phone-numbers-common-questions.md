@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Die folgenden folgen häufig gestellte Fragen zur Übertragung von Rufnummern auf Skype für Unternehmen. Überprüfen Sie die Antworten, sollte Sie zum Erstellen einer Port Reihenfolge und übertragen Ihre Rufnummern bereit. Finden Sie unter Weiterleiten von Telefonnummern zu Office 365 Anweisungen.
-ms.openlocfilehash: 2f69573859e04681f895dfc1a577a73f707e569a
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 57d20095302e4a971ea35a91e1fb46e4499735f9
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351730"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543215"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Übertragen von Telefonnummern – häufig gestellte Fragen
 

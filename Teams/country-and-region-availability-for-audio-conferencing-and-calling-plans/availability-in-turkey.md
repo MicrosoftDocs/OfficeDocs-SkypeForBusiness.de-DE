@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: c34f4dba-6803-42f8-8133-6ecc5220be3c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die Türkei verfügbar.
-ms.openlocfilehash: 505b4c6877f931925f8cba2bf2f0b7539070d512
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3af57fbfe0306c4be682668814795639524da384
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464932"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543288"
 ---
 # <a name="availability-in-turkey"></a>Verfügbarkeit in der Türkei
 
