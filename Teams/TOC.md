@@ -674,16 +674,14 @@
 #### [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Datenstromklassifizierung im Dashboard für Anrufqualität](stream-classification-in-call-quality-dashboard.md)
 
-
-
 ## Microsoft Teams Education
 ### [Schnellstart – Administratoren von Microsoft Teams Education](teams-quick-start-edu.yml)
 ### [Teams-Ressourcen für Administratoren in Bildungseinrichtungen](resources-teams-edu.md)
 ### [Häufig gestellte Fragen zur Microsoft Education-Governance für Administratoren](plan-teams-governance-edu.md)
 
 ## Teams für Mitarbeiter in Service und Produktion
-### [Microsoft StaffHub soll eingestellt werden](microsoft-staffhub-to-be-retired.md)
-### [Verwalten der Schichten-App für Ihre Organisation in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Microsoft StaffHub soll eingestellt werden](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
+### [Verwalten der Schichten-App für Ihre Organisation in Teams](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Erste Schritte mit Vorlagen für Teams im Einzelhandel](get-started-with-retail-teams-templates.md)
 
 ## [Planen von Microsoft 365 Government – GCC](plan-for-government-gcc.md)
@@ -694,7 +692,4 @@
 ### [Referenz für PowerShell-Cmdlets für Teams](https://docs.microsoft.com/powershell/module/teams)
 
 ## [Entwicklerdokumentation für Teams](https://docs.microsoft.com/microsoftteams/platform)
-
-
-
 ## [Anfordern von Hilfe in Microsoft Teams](get-help-in-microsoft-teams.md)
