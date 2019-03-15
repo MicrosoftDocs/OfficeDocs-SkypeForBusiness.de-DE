@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 07/09/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e0597444b9f46d9ac3761ef42a4817a5db5117f
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: aca4fc24cb39fd1dc607825a73b9f3751992de3d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462740"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569766"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
 Wenn Sie die technische Implementierung der Phone System direkten Routing ("Direktes Routing") planen, müssen Sie eine Reihe von vorausschauendes Service Entscheidungen besser Vorbereiten Ihrer Organisation zum Implementieren einer Lösung, die die geschäftlichen Anforderungen erfüllt, die Sie definiert haben.
 
-## <a name="calling-in-teams"></a>Anrufe in Microsoft Teams
+## <a name="calling-in-teams"></a>Aufrufen in Teams
 
 Mit Microsoft-Teams können Ihre Benutzer tätigen und Entgegennehmen von Anrufen zu oder aus dem öffentlichen Telefonfestnetz (PSTN). Die Benutzer können ihre eigenen dedizierten Telefonnummern nutzen für das tätigen und annehmen von nationalen und internationalen Telefonanrufe (einschließlich Voicemail) von der Clientanwendung Teams.
 
@@ -59,8 +59,8 @@ Kompilieren Sie nach Bestätigung, dass Ihre Organisation das Telefonsystem Feat
 > | One Epping Road                | Australien      | Legacy-PSTN-Dienst |
 > | 100 Cyberport Road             | Hong Kong SAR (香港特別行政區)  | Direktes Routing für Telefonsysteme |
 > | One Marina Boulevard           | Singapur      | Direktes Routing für Telefonsysteme |
-> | 32 London Bridge Street        | Vereinigtes Königreich | Telefonsystem mit Anrufplänen |
-> | 39 quai du Président Roosevelt | Frankreich         | Telefonsystem mit Anrufplänen |
+> | 32 London Bridge Street        | Vereinigtes Königreich | Telefonsystem mit dem Aufrufen der Pläne |
+> | 39 quai du Président Roosevelt | Frankreich         | Telefonsystem mit dem Aufrufen der Pläne |
 
 <!--ENDOFSECTION-->
 
@@ -74,7 +74,7 @@ Telefonsystem bewirkt, dass alle Benutzer in Ihrer Organisation eine eindeutige 
 > [!TIP]
 > Die folgende Vorlage können Sie um das Telefon Zahlen Details zu dokumentieren.
 > 
-> |Benutzer |Telefonnummer |
+> |User |Telefonnummer |
 > |-----|-------------|
 > |Emily Braun | + 44 23 4567 8901 |
 > |Lidia Holloway | + 44 23 4567 89112 |
@@ -101,7 +101,7 @@ Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden
 > [!TIP]
 > Telefon System Voicemail Details für die Implementierung plant aufrufen können wie in der folgenden Tabelle dokumentiert werden.
 > 
-> | **User**         | **Exchange-Postfach** | **Aktivieren Sie Voicemail?** | **Voicemail Lautschrift** | **Voicemail Lautschrift Gotteslästerung-Maskierung** |
+> | **Benutzer**         | **Exchange-Postfach** | **Aktivieren Sie Voicemail?** | **Voicemail Lautschrift** | **Voicemail Lautschrift Gotteslästerung-Maskierung** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|
 > | Emily Braun      | Online               | Ja                   | Aktiviert                     | Aktiviert                                       |
 > | Lidia Holloway   | Online               | Ja                   | Aktiviert                     | Deaktiviert                                      |
@@ -290,9 +290,9 @@ Um Ihre Benutzer finden Sie in der Registerkarte Anrufe im Client Teams vorhande
 
 Verwenden Sie die Informationen aus den vorherigen Abschnitten dieses Artikels, um Ihre Entscheidungen Service zu dokumentieren. Im Allgemeinen enthält diese Dokumentation die folgenden Hauptabschnitte:
 
--   Aktivierungsliste für Standorte mit dem Telefonsystem mit Anrufplänen
+-   Telefonsystem mit Aufrufen plant Websiteliste-Aktivierung
 
--   Details der Voicemailkonfiguration
+-   Voicemail-Konfigurationsdetails
 
 -   Lizenz-Zuordnung für Benutzer Phone System direkten Routing
 

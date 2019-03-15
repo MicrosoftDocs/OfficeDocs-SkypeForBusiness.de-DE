@@ -1,10 +1,10 @@
 ---
-title: Definieren von Erfolg Audiokonferenzen, Telefonsystem mit Aufrufen plant, oder Telefon System direkten Routing - Microsoft-Teams
+title: Definieren von Erfolg in Audiokonferenzen, Telefonsystem mit Anrufplänen oder Telefonsystem mit direktem Routing – Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 06/07/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 405ec9e5471925ed977fc480d1b64f8d8deaee4b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c6d841a593cf88830f95bb6282b21a081abf6f21
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465108"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569758"
 ---
-# <a name="define-my-success"></a>Meine Erfolg definieren
+# <a name="define-my-success"></a>Definieren der Erfolgskriterien
 
 Dieser Artikel bietet eine Übersicht über die Anforderungen für die Definition des Erfolgs des Updates für die Bereitstellung von Audiokonferenzen, Telefonsystem mit Aufrufen plant oder Telefon System direkten Routing für Ihre Organisation. Gewünschten Erfolg korrekt definiert ist, können Sie Ihre Ergebnisse im Verlauf messen, durch die Bereitstellung und stellen Sie sicher, dass die Ergebnisse, die Sie zu erreichen sind, werden sollte.
 
@@ -67,7 +67,7 @@ Business-Anwendungsfälle sollen definieren und Dokumentieren der erwarteten und
 > 
 > |         |
 > |---------|
-> |**Beschreibung des aktuellen Geschäftsprozesses**<br>Die Standardkonfiguration der Büroarbeitsplätze in Contosos Niederlassung sieht für jeden Schreibtisch ein Festnetztelefon vor. Jeder Mitarbeiter verfügt über eine Telefonnummer (DIALING) Wählt direkte einwärts erteilt wurden. Die Tischtelefonen sind mit einem PBX-System verbunden und mit PSTN über einen Session Initiation Protocol (SIP) Trunk verbunden sind. Die Mitarbeiter können nur an den ihnen zugewiesenen Festnetztelefonen Telefonanrufe tätigen und empfangen.|
+> |**Beschreibung des aktuellen Geschäftsprozesses**<br>Standardkonfiguration der Contoso Office-Arbeitsbereiche enthält für jedes Desk herkömmliches Telefon. Jeder Mitarbeiter verfügt über eine Telefonnummer (DIALING) Wählt direkte einwärts erteilt wurden. Die Tischtelefonen sind mit einem PBX-System verbunden und mit PSTN über einen Session Initiation Protocol (SIP) Trunk verbunden sind. Mitarbeiter können nur tätigen und Entgegennehmen von Anrufen an ihre zugewiesenen Tischtelefonen.|
 > |**Herausforderungen mit vorhandenen Geschäftsprozessen**<br>Verwendungsanalyse desktop Telefone zeigt, dass nur 10 % der der Tischtelefonen aktiv verwendet werden, mit dem Rest entweder zum Weiterleiten von Anrufen an Mobiltelefone oder auf gleichzeitig Anrufen an Mobiltelefone konfiguriert. Verwalten der vorhandenen PBX-System und zugehörige Tischtelefonen trägt zur 20 % der Contoso monatliche Telefonie Servicekosten.|
 > |**Wie diesen Herausforderungen am besten begegnet werden kann**<br>Aufrufen von Plänen zulassen des Benutzers privaten Computer empfangen und tätigen von Anrufen über das Datennetzwerk durch nutzen die systemeigene Microsoft-Teams app. Dadurch entfällt die Notwendigkeit einführen und Verwalten von Tischtelefonen, und öffnet die Möglichkeit, das vorhandene PBX-System außer Betrieb nehmen, da der Telefondienst über die Cloud über das Netzwerk mit keine Abhängigkeit von einem herkömmlichen Telefonsystem übermittelt werden kann.|
 > |**Erwartete, messbare Geschäftsergebnisse**<br>Entfernen von Anforderungen für die Wartung und Außerbetriebnahme von vorhandene PBX und Tischtelefonen werden eine 20 % Reduzierung der monatlichen Telefonie Service Ausgaben übermitteln. Aufrufen von Plänen wird Office-Arbeitsbereiche "Contoso", um ihre Vorgänge zu erweitern, durch die Einrichtung von neuen Büros mit minimalem Vorabinvestitionen Telefonkosten vereinfacht.|
@@ -79,7 +79,7 @@ Business-Anwendungsfälle sollen definieren und Dokumentieren der erwarteten und
 > 
 > |         |
 > |---------|
-> |**Beschreibung des aktuellen Geschäftsprozesses**<br>Die Standardkonfiguration der Büroarbeitsplätze in Contosos Niederlassung sieht für jeden Schreibtisch ein Festnetztelefon vor. Jeder Mitarbeiter verfügt über eine Telefonnummer (DIALING) Wählt direkte einwärts erteilt wurden. Die Tischtelefonen sind mit einem PBX-System verbunden und mit PSTN über einen Session Initiation Protocol (SIP) Trunk verbunden sind. Die Mitarbeiter können nur an den ihnen zugewiesenen Festnetztelefonen Telefonanrufe tätigen und empfangen.|
+> |**Beschreibung des aktuellen Geschäftsprozesses**<br>Standardkonfiguration der Contoso Office-Arbeitsbereiche enthält für jedes Desk herkömmliches Telefon. Jeder Mitarbeiter verfügt über eine Telefonnummer (DIALING) Wählt direkte einwärts erteilt wurden. Die Tischtelefonen sind mit einem PBX-System verbunden und mit PSTN über einen Session Initiation Protocol (SIP) Trunk verbunden sind. Mitarbeiter können nur tätigen und Entgegennehmen von Anrufen an ihre zugewiesenen Tischtelefonen.|
 > |**Herausforderungen mit vorhandenen Geschäftsprozessen**<br>Verwendungsanalyse desktop Telefone zeigt, dass nur 10 % der der Tischtelefonen aktiv verwendet werden, mit dem Rest entweder zum Weiterleiten von Anrufen an Mobiltelefone oder auf gleichzeitig Anrufen an Mobiltelefone konfiguriert. Verwalten der vorhandenen PBX-System und zugehörige Tischtelefonen trägt zur 20 % der Contoso monatliche Telefonie Servicekosten.|
 > |**Wie diesen Herausforderungen am besten begegnet werden kann**<br>Der SIP-Trunk-Anbieter Vertrag zuletzt signiert wurde und für drei Jahre direkten werden. Direkte Routing ermöglicht PSTN-Anbindung von SIP-Trunk-Dienstanbieter bereitgestellt werden und lässt auch eines Benutzers privaten Computer empfangen und tätigen von Anrufen über das Datennetzwerk durch nutzen die systemeigene Microsoft-Teams, app. Dadurch entfällt die Notwendigkeit einführen und Tischtelefonen verwalten und die Möglichkeit, das vorhandene PBX-System außer Betrieb nehmen einen begrenzte lokale Session Border Controller (SBC) Speicherbedarf Verteidigung geöffnet.|
 > |**Erwartete, messbare Geschäftsergebnisse**<br>Entfernen von Anforderungen für die Wartung und Außerbetriebnahme von vorhandene PBX und Tischtelefonen werden eine 20 % Reduzierung der monatlichen Telefonie Service Ausgaben übermitteln. Direktes Routing wird Office-Arbeitsbereichen vereinfacht zulassen "Contoso", um ihre Vorgänge durch die Einrichtung von neuen Büros mit minimalem Vorabinvestitionen Telefonkosten zu erweitern.|
@@ -163,8 +163,8 @@ OKRs enthalten die Ziele beschrieben, die Sie am Anfang des Projekts festgelegt,
 > 
 > |Ziele  |Wichtige Ergebnisse  |zu tun  |
 > |---------|---------|---------|
-> |Bereitstellen von Aufrufen in Europäischen Zweigstellen plant vom Ende des Geschäftsjahres 2018|FY18Q3: Bereitstellen von Aufrufen in London Office Pläne|Konzeptionierung<ul><li>Erfolgsplan erstellen</li><li>Detaillierten Plan für die technische Implementierung erstellen</li></ul><p>Onboarding<ul><li>Erfolgsplan ausführen</li><li>Plan für die technische Implementierung ausführen</li></ul>|
-> |Außerbetriebsetzung des Legacy-PBX-Systems in der Niederlassung in London bis zum Ende des Geschäftsjahrs 2018|4. Quartal des Geschäftsjahrs 2018: Außerbetriebsetzung des Legacy-PBX-Systems in der Niederlassung in London|Höhere Wertschöpfung erzielen<ul><li>Benutzerengagement verstärken und Übernahme vorantreiben</li><li>Veränderungen vorbereiten und verwalten</li><li>Erfolg messen und teilen und Durchlauf beschleunigen</li>|
+> |Bereitstellen von Aufrufen in Europäischen Zweigstellen plant vom Ende des Geschäftsjahres 2018|FY18Q3: Bereitstellen von Aufrufen in London Office Pläne|Ausblick<ul><li>Erfolgsplan erstellen</li><li>Detaillierten Plan für die technische Implementierung erstellen</li></ul><p>Onboarding<ul><li>Erfolgsplan ausführen</li><li>Plan für die technische Implementierung ausführen</li></ul>|
+> |Vorhandene PBX in London Office vom Ende des Geschäftsjahres 2018 Außerbetriebnahme|FY18Q4: Außer Betrieb nehmen Sie vorhandene PBX in London office|Höhere Wertschöpfung erzielen<ul><li>Benutzerengagement verstärken und Übernahme vorantreiben</li><li>Veränderungen vorbereiten und verwalten</li><li>Erfolg messen und teilen und Durchlauf beschleunigen</li>|
 > 
 > [!TIP]
 > Beispiele für eine direkte Routing-Implementierung für die Überprüfung relevante OKRs können unter verwiesen werden:
@@ -174,7 +174,7 @@ OKRs enthalten die Ziele beschrieben, die Sie am Anfang des Projekts festgelegt,
 > 
 > |Ziele  |Wichtige Ergebnisse  |zu tun  |
 > |---------|---------|---------|
-> |Ende des Geschäftsjahres 2018 bereitstellen Sie direkten Routing in Kanadische Zweigstellen|FY18Q3: Bereitstellen von direkten Routing in Toronto office|Konzeptionierung<ul><li>Erfolgsplan erstellen</li><li>Detaillierten Plan für die technische Implementierung erstellen</li></ul><p>Onboarding<ul><li>Erfolgsplan ausführen</li><li>Plan für die technische Implementierung ausführen</li></ul>|
+> |Ende des Geschäftsjahres 2018 bereitstellen Sie direkten Routing in Kanadische Zweigstellen|FY18Q3: Bereitstellen von direkten Routing in Toronto office|Ausblick<ul><li>Erfolgsplan erstellen</li><li>Detaillierten Plan für die technische Implementierung erstellen</li></ul><p>Onboarding<ul><li>Erfolgsplan ausführen</li><li>Plan für die technische Implementierung ausführen</li></ul>|
 > |Vorhandene PBX in Toronto Office vom Ende des Geschäftsjahres 2018 Außerbetriebnahme|FY18Q4: Außer Betrieb nehmen Sie vorhandene PBX in Toronto office|Höhere Wertschöpfung erzielen<ul><li>Benutzerengagement verstärken und Übernahme vorantreiben</li><li>Veränderungen vorbereiten und verwalten</li><li>Erfolg messen und teilen und Durchlauf beschleunigen</li>|
 
 <br>
@@ -214,7 +214,7 @@ Sie müssen Business Risiken im Rahmen dieser Übung identifizieren und definier
 > |Risiko  |Wahrscheinlichkeit  |Auswirkungen  |Gesamt  |Risikominderungsplan  |
 > |---------|---------|---------|---------|---------|
 > |Bei der bevorstehenden Fusion werden bis zu 1.000 Personen dazukommen|Hoch|Hoch|Hoch|<ul><li>Erstellen Sie eine separate OKR, die für ihre eigenen Projektphasen (Ermitteln übergeordneter Faktoren, Onboard, Laufwerk Wert) gilt für verbundene Unternehmen</li><li>Diese OKRs in vorhandenen OKRs einzuschließen.</li></ul>|
-> |Die Portierung von Telefonnummern verzögert den Projektabschluss.|Hoch|Hoch|Hoch|<ul><li>Vorbereiten der alle Informationen zur Unterstützung von Telefonnummer Portieren vorausschauendes (Customer Service-Eintrag Abrechnung Details Buchstaben der Autorisierung) erforderlich</li><li>Passen Sie die Bearbeitungszeit von Telefon Nummer Portieren Ausführung zur Erfüllung der Projektplan an</li><li>Teilen Sie den externen Teilnehmern die neuen Einwahlkonferenznummern mit.</li><li>Verwenden Sie vorübergehende Telefonnummern mit Änderung der Anrufer-ID.</li></ul>|
+> |Die Portierung von Telefonnummern verzögert den Projektabschluss.|Hoch|Hoch|Hoch|<ul><li>Vorbereiten der alle Informationen zur Unterstützung von Telefonnummer Portieren vorausschauendes (Customer Service-Eintrag Abrechnung Details Buchstaben der Autorisierung) erforderlich</li><li>Passen Sie die Bearbeitungszeit von Telefon Nummer Portieren Ausführung zur Erfüllung der Projektplan an</li><li>Teilen Sie den externen Teilnehmern die neuen Einwahlkonferenznummern mit.</li><li>Verwenden Sie die temporären Telefonnummern mit Änderung von Anrufer-IDs</li></ul>|
 > |Geplante Umgestaltung des Netzwerks|Hoch|Mittel|Mittel|<ul><li>Vor der Implementierung von Teams als Plattform für die Zusammenarbeit und modernen Communications, Durchführen einer Netzwerk-Bereitschaft für Websites im Bereich des Projekts</li></ul>|
 > |SBC-Konfiguration|Hoch|Hoch|Hoch|<ul><li>Bestätigen Sie vor der Implementierung von Teams als Ersatz für die vorhandene Nebenstellenanlage, dass Sie alle SBC konfigurationsanforderungen erfüllen können</li><li>Bestätigen Sie, dass SBC Supportressourcen die richtigen Qualifikationen SBC für die direkte Weiterleitung konfigurieren haben</li></ul>|
 

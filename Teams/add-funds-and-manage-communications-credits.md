@@ -29,16 +29,16 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Erfahren Sie, wie Bezahlung für Kommunikation haben (PSTN Verbrauch) Skype für BusinessServices und finden Sie unter Pläne, die Benutzer mit Zugriff auf das System kontinuierliche Telefon zu halten. '
-ms.openlocfilehash: f2b4b6d882753e20d2c7d401fb4fb63082b02f0f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: bbb24094e7aefd428e510273a922dab4461b7dde
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542255"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569080"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Hinzufügen von Geld und Verwalten von Guthaben für Kommunikationen
 
-Communications haben sind eine bequeme Möglichkeit bezahlen Telefonsystem und Aufrufen in Office 365 Plans. Es wird sichergestellt, dass Sie und Ihre Benutzer nie abgefangen werden, ohne können:
+Communications haben sind eine bequeme Möglichkeit bezahlen Telefonsystem und Aufrufen in Office 365 Plans. Kommunikation haben kann sichergestellt werden, dass Sie und Ihre Benutzer nie abgefangen werden, ohne können:
   
 - Wählen Sie sich zu Audiokonferenzen Besprechungen mit gebührenfreie von Rufnummern.
     
@@ -78,13 +78,13 @@ Die Pläne und Preise finden Sie unter den folgenden Links:
     
 Sie können sich die Informationen auch ansehen, indem Sie sich [beim Office 365 Admin Center anmelden](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu **Abrechnung** > **Abonnements** > **Abonnements hinzufügen** navigieren.
   
-Eine Tabelle mit der Lizenz oder Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Eine Tabelle mit der Lizenz oder Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Einrichten von Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Einrichten von Voicemail für Telefonsystem - Administratorhilfe](set-up-phone-system-voicemail.md)
+- [Einrichten von Voicemail für das Telefonsystem – Administratorhilfe](set-up-phone-system-voicemail.md)
     
 - [Einrichten von Anrufplänen](set-up-calling-plans.md) und [Anrufpläne für Office 365](calling-plans-for-office-365.md)
         

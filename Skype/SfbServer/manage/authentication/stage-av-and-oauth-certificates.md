@@ -11,10 +11,10 @@ ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 'Zusammenfassung: Phase AV- und OAuth Zertifikate für Skype für Business Server.'
 ms.openlocfilehash: 9fd4074034e9bff6b27ed9a22143c59dc9890821
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "25375936"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Bereitstellen von AV- und OAuth-Zertifikaten in Skype für Business Server mithilfe von-Roll in Set-CsCertificate
@@ -79,7 +79,7 @@ Für das Bereitstellen der OAuthTokenIssuer-Zertifikate liegen verschiedene Anfo
   
 Um dem Vorgang zu veranschaulichen, Set-CsCertificate - Roll und -EffectiveDate verwenden, um die Stufe eines neuen Zertifikats für die neue AudioVideoAuthentication-Token gleichzeitiger Verwendung eines vorhandenen Zertifikats AudioVideoAuthentication überprüft, die verwendet werden Consumer ist eine visual Zeitachse ein effektives Mittel zum Verständnis des Prozess. Im folgenden Beispiel der Administrator bestimmt, die dem A / V-Edgeserver das Zertifikat ist fällig bis zu 2:00:00 Uhr am 07/22/2015 ablaufen. Er fordert und erhält ein neues Zertifikat und dann in seinem Pool in jedem Edgeserver importiert. Um 2 Uhr am 07/22/2015, er beginnt mit Get-CsCertificate - Roll, - Fingerabdruck gleich der Zeichenfolge Fingerabdruck des neuen Zertifikats und -EffectiveTime auf 07/22/2015 festgelegt werden 6:00:00 Uhr. Er führt diesen Befehl auf jedem Edgeserver.
   
-![Verwenden der Parameter "Roll" und "EffectiveDate"](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
+![Verwenden das Zurücksetzen und die EffectiveDate-Parameter.](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
   
 |**Beschriftung**|**Phase**|
 |:-----|:-----|

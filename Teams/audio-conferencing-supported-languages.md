@@ -1,10 +1,10 @@
 ---
-title: Unterstützte Sprachen für Einwahlkonferenzen
+title: In Audiokonferenzen unterstützte Sprachen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 572ca0c8-b9f0-4948-9409-e12ee0b94aa0
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,23 +22,23 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: fe90baf5bcad46bef1c9f9609c98de993ce68e98
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 32e2c93cc43d548e96c2cda7c2e501e3b94fab80
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460764"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569662"
 ---
-# <a name="audio-conferencing-supported-languages"></a>Unterstützte Sprachen für Einwahlkonferenzen
+# <a name="audio-conferencing-supported-languages"></a>In Audiokonferenzen unterstützte Sprachen
 
-Bei der Einrichtung und Konfiguration von Einwahlkonferenzen in Office 365 können Sie die primären und sekundären (bis zu 4) Sprachen wählen, die verwendet werden, wenn sich Anrufer in eine Besprechung einwählen. In der folgenden Liste sind die unterstützten Sprachen für Einwahlkonferenzen aufgeführt. 
+Wenn Sie das Einrichten und Konfigurieren von Audiokonferenzen in Office 365, können Sie auswählen, die primäre und sekundäre (bis zu 4) Sprachen, die verwendet werden, wenn Anrufer in einen Skype für Business oder Microsoft-Teams Besprechung einwählen. Hier wird die Liste der unterstützten Sprachen für Audiokonferenzen: 
   
 > [!IMPORTANT]
-> Primäre und sekundäre Sprachen können nur für hierfür vorgesehene Telefonnummern von Einwahlkonferenzen geändert werden. 
+> Primäre und sekundäre Sprachen können nur auf dedizierten Audiokonferenzen Telefonnummern geändert werden. 
   
 ## <a name="currently-supported-languages"></a>Derzeit unterstützte Sprachen
 
-|****Sprache****|****Land/Region****|****Kultur-ID****|
+|**Sprache**|**Land/Region**|**Kultur-ID**|
 |:-----|:-----|:-----|
 |Arabisch  <br/> |Saudi Arabia (المملكة العربية السعودية)  <br/> |ar-SA  <br/> |
 |Bulgarisch  <br/> |Bulgarien  <br/> |bg-BG  <br/> |
@@ -85,13 +85,13 @@ Bei der Einrichtung und Konfiguration von Einwahlkonferenzen in Office 365 könn
 |Türkisch  <br/> |Türkei  <br/> |tr-TR  <br/> |
 |Ukrainisch  <br/> |Ukraine  <br/> |uk-UA  <br/> |
    
-Wenn Sie Länder oder Regionen suchen, in denen Sie PSTN-Konferenz erwerben können, finden Sie weitere Informationen unter [Sind in meinem Land bzw. meiner Region PSTN-Konferenzen mit Telefonnummern verfügbar?](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) (Wo erhalte ich PSTN-Konferenz?).
+Wenn der gesuchte Ländern oder Regionen, in dem Sie Audiokonferenzen erwerben können, finden Sie unter [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 Wenn der gesuchte bestimmten Ländern oder Regionen, die Telefonnummern für Audiokonferenzen haben, finden Sie unter [Telefonnummern für Audiokonferenzen in Microsoft-Teams,](phone-numbers-for-audio-conferencing-in-teams.md) oder [Rufnummern für Audiokonferenzen in Skype für Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
-- Um Zeit zu sparen oder diesen Vorgang zu automatisieren, können Sie die Cmdlets [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) oder[Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689)verwenden.
+- Um Zeit sparen oder dies automatisieren, können Sie die Cmdlets [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) oder [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) verwenden.
     
 - Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
@@ -110,8 +110,8 @@ Wenn der gesuchte bestimmten Ländern oder Regionen, die Telefonnummern für Aud
     > [!NOTE]
     > Mithilfe des Windows PowerShell-Moduls für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, bei der eine Verbindung mit Skype for Business Online hergestellt wird. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
   
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder Erwerben von Audiokonferenzen in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 

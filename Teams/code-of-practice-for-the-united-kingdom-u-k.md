@@ -1,10 +1,10 @@
 ---
-title: Aufrufen von Plänen in Office 365 - Code der Praxis für Großbritannien (Großbritannien)
+title: Anrufpläne in Office 365 – Verhaltenskodex für das Vereinigte Königreich
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
-ms.topic: article
+ms.topic: reference
 ms.assetid: 44c6c523-2cd8-43c5-a53c-e9c59489b9c6
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,14 +22,14 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: 74458d97735d678f827b1510f10969bcda407cb6
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 0973dab8afdbcfbeeb563694489a593e0029b212
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542999"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569431"
 ---
-# <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Aufrufen von Plänen in Office 365 - Code der Praxis für Großbritannien (Großbritannien)
+# <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Anrufpläne in Office 365 – Verhaltenskodex für das Vereinigte Königreich
 
 Dieser Code gilt für small Business-Kunden (Organisationen mit 10 Mitarbeitern oder weniger) in Großbritannien (Großbritannien) im Hinblick auf den Dienst aufrufen Planen von Office 365 (der "Dienst") gemäß den Vorschriften von Großbritannien Communications. Andere Skype für BusinessServices unterliegen Service-Vereinbarung mit Microsoft und andere Begriffe für die Verwendung eines bestimmten Service gelten.
 

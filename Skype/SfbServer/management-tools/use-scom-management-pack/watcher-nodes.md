@@ -12,10 +12,10 @@ ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Zusammenfassung: Installieren und Konfigurieren von Watcher-Knoten für Skype für synthetische Transaktionen Business Server.'
 ms.openlocfilehash: 6719826515954290f30eac272f638b846f45142a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "25375986"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Installieren und Konfigurieren von Monitorknoten

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Zusammenfassung: Integrieren von Skype für Business Server und Outlook Web App.'
-ms.openlocfilehash: 63533e0f592a332e1e5f4ff9829b16cde4b1299f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 17f58acac3b59611df58d4c60ce875a5a17187cf
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263921"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569630"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Konfigurieren der Integration zwischen einer lokalen Skype for Business Server-Bereitstellung und Outlook Web App
 
@@ -40,7 +40,7 @@ Verwenden die Skype als Business Server-Verwaltungsshell, Konfigurieren der Edge
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 ```
 
-- **AllowFederatedUsers** -Parameter gibt an, ob interne Benutzer zur Kommunikation mit Benutzern von Partnerdomänen zulässig sind. Diese Eigenschaft bestimmt zudem, ob interne Benutzer mit Benutzern in einem freigegebenen SIP-Adresse Speicherplatz Szenario mit Skype für Business Server und Exchange Online kommunizieren können.
+- Der **AllowFederatedUsers**-Parameter gibt an, ob interne Benutzer mit Benutzern aus Partnerdomänen kommunizieren dürfen. Diese Eigenschaft bestimmt zudem, ob interne Benutzer mit Benutzern in einem freigegebenen SIP-Adresse Speicherplatz Szenario mit Skype für Business Server und Exchange Online kommunizieren können.
 
 Weitere Informationen zur Verwendung der Skype für Business Server-Verwaltungsshell finden Sie unter [Skype für Business Server-Verwaltungsshell](../../manage/management-shell.md).
 
@@ -55,19 +55,19 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 > [!NOTE]
 > Wenn Sie Office 365 über 21Vianet in China nutzen, ersetzen Sie den Wert für den Parameter ProxyFqdn in diesem Beispiel („exap.um.outlook.com“) mit dem FQDN für den Dienst, der in China von 21Vianet bereitgestellt wird: „exap.um.partner.outlook.cn“. Wenn Sie Office 365 GCC hohe verwenden, ersetzen Sie den Wert für den Parameter ProxyFqdn in diesem Beispiel wird ("exap.um.outlook.com") durch den FQDN für hohe GCC: "exap.um.office365.us".
 
-- **Identität** gibt einen eindeutigen Zeichenfolgenwert für den Hostinganbieter, den Sie erstellen (z. B. "Exchange Online"). Werte, die Leerzeichen enthalten, müssen in Anführungszeichen gesetzt werden.
+- **Identity** gibt einen eindeutigen Zeichenfolgenwert für den Hostinganbieter an, den Sie erstellen (beispielsweise „Exchange Online“). Werte, die Leerzeichen enthalten, müssen in Anführungszeichen gesetzt werden.
 
 - **Enabled** gibt an, ob die Netzwerkverbindung zwischen Ihrer Domäne und dem Hostinganbieter aktiviert ist. Dieser Parameter muss auf TRUE festgelegt werden.
 
-- **EnabledSharedAddressSpace** gibt an, ob der Hostinganbieter in einem freigegebenen SIP-Adresse Speicherplatz Szenario verwendet wird. Dieser Parameter muss auf TRUE festgelegt werden.
+- **EnabledSharedAddressSpace** gibt an, ob der Hostinganbieter in einem Szenario mit freigegebenem SIP-Adressraum verwendet wird. Dieser Parameter muss auf TRUE festgelegt werden.
 
 - **HostsOCSUsers** gibt an, ob der Hostinganbieter zum Hosten von Office Communications Server oder Skype für Business Server verwendet wird. Dieser Parameter muss auf FALSE festgelegt werden.
 
-- **ProxyFQDN** gibt den vollqualifizierten Domänennamen (FQDN) für die vom Hostinganbieter verwendete Proxyserver. Für Exchange Online ist der FQDN „exap.um.outlook.com“.
+- **ProxyFQDN** gibt den vollqualifizierten Domänennamen (FQDN) des vom Hostinganbieter verwendeten Proxyservers an. Für Exchange Online ist der FQDN „exap.um.outlook.com“.
 
 - **IsLocal** gibt an, ob der vom Hostinganbieter verwendete Proxyserver in Ihrer Skype für Business Server-Topologie enthalten ist. Dieser Parameter muss auf FALSE festgelegt werden.
 
-- **"Verificationlevel"** Gibt die Überprüfung zulässig für Nachrichten, die an und von der gehosteten Anbieter gesendet werden. Geben Sie **"usesourceverification"**, die den Überprüfungsstufen Hostinganbieter gesendeten Nachrichten enthalten benötigt. Wenn dieser Ebene nicht angegeben ist, wird die Meldung als nicht überprüfbar abgelehnt werden.
+- **"Verificationlevel"** Gibt die Überprüfung zulässig für Nachrichten, die an und von der gehosteten Anbieter gesendet werden. Geben Sie den **UseSourceVerification**-Wert an, der von der Überprüfungsstufe in Nachrichten abhängt, die vom Hostinganbieter gesendet werden. Wenn dieser Ebene nicht angegeben ist, wird die Meldung als nicht überprüfbar abgelehnt werden.
 
 ## <a name="verify-replication-of-the-updated-central-management-store"></a>Überprüfen der Replikation des aktualisierten zentralen Verwaltungsspeichers
 
@@ -78,12 +78,14 @@ Führen Sie zum Überprüfen der Replikation-Updates auf einem Server in Ihrer S
 ```
 Get-CsManagementStoreReplicationStatus
 ```
+Überprüfen Sie, ob das aktuellste Wert TRUE für alle Replikate angezeigt wird.
 
 Führen Sie das folgende Cmdlet aus, um zu bestätigen, dass die Änderungen auf dem Edgeserver angewendet wurden:
 
 ```
 Get-CsHostingProvider -LocalStore
 ```
+Double-Wert prüfen Sie, ob die angezeigten Informationen die Änderungen ein Commit in den vorherigen Schritten entspricht.
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -13,20 +13,20 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: 4dd22442cec0a2171a9833b043af415b02b78d99
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ffea5c4b73c5034dffcd39f3f7ddf17277c37b03
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374333"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568744"
 ---
-# <a name="define-my-success"></a>Meine Erfolg definieren
+# <a name="define-my-success"></a>Definieren der Erfolgskriterien
 
 Dieser Artikel bietet eine Übersicht über die Anforderungen für die Definition des Erfolgs des Updates für die Bereitstellung von Telefonsystem mit Aufrufen Pläne für Ihre Organisation. Gewünschten Erfolg korrekt definiert ist, können Sie Ihre Ergebnisse im Verlauf messen, durch die Bereitstellung und stellen Sie sicher, dass die Ergebnisse, die Sie zu erreichen sind, werden sollte.
 
 <!--ENDOFSECTION-->
 
-## <a name="define-business-use-cases-for-phone-system-with-calling-plans"></a>Definieren von Geschäftsanwendungsfällen für das Telefonsystem mit Anrufplänen
+## <a name="define-business-use-cases-for-phone-system-with-calling-plans"></a>Definieren von Anwendungsbeispiele für Telefonsystem mit Aufrufen Pläne
 
 Organisationen können Telefonsystem mit Aufrufen plant verwenden, um der täglichen Arbeit modernisieren, indem Benutzern von Computern und mobilen Geräten geschäftliche Anrufe tätigen.
 
@@ -49,10 +49,10 @@ Business-Anwendungsfälle sollen definieren und Dokumentieren Sie erwartet, mess
 > 
 > |         |
 > |---------|
-> |**Beschreibung des aktuellen Geschäftsprozesses**<br>Die Standardkonfiguration der Büroarbeitsplätze in Contosos Niederlassung sieht für jeden Schreibtisch ein Festnetztelefon vor. Jeder Mitarbeiter verfügt über eine Telefonnummer (DIALING) Wählt direkte einwärts erteilt wurden. Die Tischtelefonen sind mit einem PBX-System verbunden und mit PSTN über einen Session Initiation Protocol (SIP) Trunk verbunden sind. Die Mitarbeiter können nur an den ihnen zugewiesenen Festnetztelefonen Telefonanrufe tätigen und empfangen.|
+> |**Beschreibung des aktuellen Geschäftsprozesses**<br>Standardkonfiguration der Contoso Office-Arbeitsbereiche enthält für jedes Desk herkömmliches Telefon. Jeder Mitarbeiter verfügt über eine Telefonnummer (DIALING) Wählt direkte einwärts erteilt wurden. Die Tischtelefonen sind mit einem PBX-System verbunden und mit PSTN über einen Session Initiation Protocol (SIP) Trunk verbunden sind. Mitarbeiter können nur tätigen und Entgegennehmen von Anrufen an ihre zugewiesenen Tischtelefonen.|
 > |**Herausforderungen mit vorhandenen Geschäftsprozessen**<br>Verwendungsanalyse desktop Telefone zeigt, dass nur 10 % der der Tischtelefonen aktiv verwendet werden, mit dem Rest entweder zum Weiterleiten von Anrufen an Mobiltelefone oder auf gleichzeitig Anrufen an Mobiltelefone konfiguriert. Verwalten der vorhandenen PBX-System und zugehörige Tischtelefonen trägt zur 20 % der Contoso monatliche Telefonie Servicekosten.|
 > |**Wie diesen Herausforderungen am besten begegnet werden kann**<br>Telefonsystem mit Aufrufen plant ansetzt, kann ein Benutzer privaten Computer empfangen und tätigen von Anrufen über das Datennetzwerk durch nutzen die systemeigene Microsoft-Teams app. Dadurch entfällt die Notwendigkeit einführen und Verwalten von Tischtelefonen, und öffnet die Möglichkeit, das vorhandene PBX-System außer Betrieb nehmen, da der Telefondienst über die Cloud über das Netzwerk mit keine Abhängigkeit von einem herkömmlichen Telefonsystem übermittelt werden kann.|
-> |**Erwartete, messbare Geschäftsergebnisse**<br>Entfernen von Anforderungen für die Wartung und Außerbetriebnahme von vorhandene PBX und Tischtelefonen werden eine 20 % Reduzierung der monatlichen Telefonie Service Ausgaben übermitteln. Durch das Telefonsystem mit Anrufplänen werden die Büroarbeitsplätze vereinfacht, sodass Contoso seine Geschäftstätigkeit durch die Einrichtung neuer Büros mit minimalen Vorabkosten für Telefonie erweitern kann.|
+> |**Erwartete, messbare Geschäftsergebnisse**<br>Entfernen von Anforderungen für die Wartung und Außerbetriebnahme von vorhandene PBX und Tischtelefonen werden eine 20 % Reduzierung der monatlichen Telefonie Service Ausgaben übermitteln. Telefonsystem mit Aufrufen plant wird Office-Arbeitsbereichen vereinfacht zulassen "Contoso", um ihre Vorgänge durch die Einrichtung von neuen Büros mit minimalem Vorabinvestitionen Telefonkosten zu erweitern.|
 
 Zusätzlich zum Definieren von Ihrem Unternehmen Anwendungsfällen Sie sowie die Project-Grenzen, die Sie darauf gerichtet sind auf Laufwerk Angaben zu festgelegt:
 
@@ -115,15 +115,15 @@ Vollständige Beteiligung Projektbeteiligten in der Definition von OKRs und KSIs
 OKRs enthalten die Ziele beschrieben, die Sie am Anfang des Projekts festgelegt, und Sie messbare Hauptergebnisse vierteljährlich definieren. Sie monatlich Hauptergebnisse überprüfen, um den Status des gesamten Projekts, verfolgen und – basierend auf Fortschritt – passen Sie vierteljährliche Pläne nach Bedarf.
 
 > [!TIP]
-> Das folgende Beispiel enthält Ziele und wesentliche Ergebnisse, die für die Implementierung eines Telefonsystems mit Anrufplänen relevant sind:
+> Beispiel für OKRs relevant Telefonsystem mit Implementierung plant aufrufen kann unter verwiesen werden:
 > <br>
 > 
 > **Vision: Steigern der Produktivität durch Maximierung der Investition in Office 365**
 > 
 > |Ziele  |Wesentliche Ergebnisse  |Aufgabe  |
 > |---------|---------|---------|
-> |Bereitstellen eines Telefonsystems mit Anrufplänen in den europäischen Zweigniederlassungen bis zum Ende des Geschäftsjahrs 2018|3. Quartal des Geschäftsjahrs 2018: Bereitstellung eines Telefonsystems mit Anrufplänen in der Niederlassung in London|Konzeptionierung<ul><li>Erfolgsplan erstellen</li><li>Detaillierten Plan für die technische Implementierung erstellen</li></ul><p>Onboarding<ul><li>Erfolgsplan ausführen</li><li>Plan für die technische Implementierung ausführen</li></ul>|
-> |Außerbetriebsetzung des Legacy-PBX-Systems in der Niederlassung in London bis zum Ende des Geschäftsjahrs 2018|4. Quartal des Geschäftsjahrs 2018: Außerbetriebsetzung des Legacy-PBX-Systems in der Niederlassung in London|Höhere Wertschöpfung erzielen<ul><li>Benutzerengagement verstärken und Übernahme vorantreiben</li><li>Veränderungen vorbereiten und verwalten</li><li>Erfolg messen und teilen und Durchlauf beschleunigen</li>|
+> |Ende des Geschäftsjahres 2018 bereitstellen Sie Telefonsystem mit Aufrufen in Europäischen Zweigstellen plant|FY18Q3: Bereitstellen von Telefonsystem mit Aufrufen in London Office Pläne|Ausblick<ul><li>Erfolgsplan erstellen</li><li>Detaillierten Plan für die technische Implementierung erstellen</li></ul><p>Onboarding<ul><li>Erfolgsplan ausführen</li><li>Plan für die technische Implementierung ausführen</li></ul>|
+> |Vorhandene PBX in London Office vom Ende des Geschäftsjahres 2018 Außerbetriebnahme|FY18Q4: Außer Betrieb nehmen Sie vorhandene PBX in London office|Höhere Wertschöpfung erzielen<ul><li>Benutzerengagement verstärken und Übernahme vorantreiben</li><li>Veränderungen vorbereiten und verwalten</li><li>Erfolg messen und teilen und Durchlauf beschleunigen</li>|
 
 KSIs Qualität und Erfolg der wichtigsten Ergebnisse messen und ergänzen die binäre Art des OKRs (erreicht oder nicht erreicht) mit gute und/oder fehlerhafte Ergebnissen.
 
@@ -160,14 +160,14 @@ Als Teil dieser Übung müssen Sie Geschäftsrisiken sowie einen Risikominderung
 > |Risiko  |Wahrscheinlichkeit  |Auswirkungen  |Gesamt  |Risikominderungsplan  |
 > |---------|---------|---------|---------|---------|
 > |Bei der bevorstehenden Fusion werden bis zu 1.000 Personen dazukommen|Hoch|Hoch|Hoch|<ul><li>Erstellen Sie eine separate OKR, die für ihre eigenen Projektphasen (Ermitteln übergeordneter Faktoren, Onboard, Laufwerk Wert) gilt für verbundene Unternehmen</li><li>Diese OKRs in vorhandenen OKRs einzuschließen.</li></ul>|
-> |Die Portierung von Telefonnummern verzögert den Projektabschluss.|Hoch|Hoch|Hoch|<ul><li>Vorbereiten der alle Informationen zur Unterstützung von Telefonnummer Portieren vorausschauendes (Customer Service-Eintrag Abrechnung Details Buchstaben der Autorisierung) erforderlich</li><li>Passen Sie die Bearbeitungszeit von Telefon Nummer Portieren Ausführung zur Erfüllung der Projektplan an</li><li>Verwenden Sie vorübergehende Telefonnummern mit Änderung der Anrufer-ID.</li></ul>|
+> |Die Portierung von Telefonnummern verzögert den Projektabschluss.|Hoch|Hoch|Hoch|<ul><li>Vorbereiten der alle Informationen zur Unterstützung von Telefonnummer Portieren vorausschauendes (Customer Service-Eintrag Abrechnung Details Buchstaben der Autorisierung) erforderlich</li><li>Passen Sie die Bearbeitungszeit von Telefon Nummer Portieren Ausführung zur Erfüllung der Projektplan an</li><li>Verwenden Sie die temporären Telefonnummern mit Änderung von Anrufer-IDs</li></ul>|
 > |Geplante Umgestaltung des Netzwerks|Hoch|Mittel|Mittel|<ul><li>Vor der Implementierung von Teams als Plattform für die Zusammenarbeit und modernen Communications, Durchführen einer Netzwerk-Bereitschaft für Websites im Bereich des Projekts</li></ul>|
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Was sind Ihrer Organisation & #39; s OKRs und KSIs?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung von Audiokonferenzen in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Was sind Ihrer Organization& #39; s OKRs und KSIs?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung von Audiokonferenzen in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren der OKRs KSIs, und Einrichten von Risiken registrieren.</li></ul>|
 
 <!--ENDOFSECTION-->

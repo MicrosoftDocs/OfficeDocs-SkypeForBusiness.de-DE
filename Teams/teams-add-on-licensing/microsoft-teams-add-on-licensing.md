@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Informationen zu den Add-on-Lizenzen, was Sie features erhalten mit jeder Lizenz, wie sie für Ihr Produkt kaufen und wie Sie mit Ihren vorhandenen Netzbetreiber mit ihnen. Erhalten Sie Informationen über Preise und Plan Details für Office 365 Kommunikation haben, und plant aufrufen.
-ms.openlocfilehash: 5912ac5cf79f0db7aaf02fa4d8425d3da80a99bb
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 8b3e68fe89f2a7f07f5f117d60c2a74327a891ca
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543079"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633226"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Lizenzierung für Microsoft Teams-Add-On
 
@@ -38,7 +38,7 @@ Lizenzierung von Microsoft-Teams soll Ihnen die maximale Größe des Flexibilit�
 
 Für die meisten Unternehmen ist es insgesamt gesehen günstiger, ein Softwarepaket im Rahmen eines Enterprise-Plans zu kaufen. In der Regel, wenn Sie mehrere Add-on-Lizenzen einzeln anstelle von als Teil eines Plans kaufen, können Sie höhere kombinierter am Ende.
 
-Weitere Kosteninformationen finden Sie unter [Wie Sie Preise einsehen und Add-On-Lizenzen erwerben](microsoft-teams-add-on-licensing.md#bkmk_how) oder unter einer der folgenden:
+Weitere Kosteninformationen finden Sie unter eine der folgenden:
 
 - [Preise für Audiokonferenzen](https://products.office.com/microsoft-teams/online-meeting-solutions)
 
@@ -68,8 +68,8 @@ Die verfügbaren Add-on-Lizenzierungsoptionen hängt von Ihrer Office 365-Plan a
 - [Office 365 Enterprise E1 oder E3](office-365-enterprise-e1-e3.md)
 - [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5 (ohne Audiokonferenz)](office-365-enterprise-e5-without-audio-conferencing.md)
-- [Skype Room System, Version 2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
-- [GOV, EDU und gemeinnützige Organisationen](gov-edu-and-nonprofit-organizations.md)
+- [Skype Room Systems V2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Behörden, Bildungseinrichtungen und gemeinnützige Organisationen](gov-edu-and-nonprofit-organizations.md)
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Wie Sie Preise finden und Add-On-Lizenzen kaufen können
 <a name="bkmk_how"> </a>
@@ -95,7 +95,7 @@ Eine ausführliche Dokumentation für die Planung Ihrer bereitstellungs, einschl
 
 - [Einrichten von Teams](../microsoft-teams.md)
     
-- [Einrichten von Voicemail für Telefonsystem - Administratorhilfe](../set-up-phone-system-voicemail.md)
+- [Einrichten von Voicemail für das Telefonsystem – Administratorhilfe](../set-up-phone-system-voicemail.md)
     
 - [Für Office 365-Pläne aufrufen](../calling-plans-for-office-365.md) und [Einrichten von Aufrufen-Pläne](../set-up-calling-plans.md)
     

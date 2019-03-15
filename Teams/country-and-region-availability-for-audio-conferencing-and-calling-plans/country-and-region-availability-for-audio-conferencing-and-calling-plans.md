@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Sie können ein Land/eine Region auswählen, um zu sehen, ob Audiokonferenz, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen und gebührenpflichtige sowie gebührenfreie Telefonnummern verfügbar sind.
-ms.openlocfilehash: accdefde4fa94b9a0526938bd64ec5171810d36e
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 817b74a0dd98ccb2d580fc71b5efa0a75f3484bc
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542903"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569734"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
 
@@ -43,7 +43,7 @@ Sie können auswählen, einem Land oder Region, um herauszufinden, welche Cloud 
 > - [Australien](availability-in-australia.md)
 > - [Österreich](availability-in-austria.md)
 > - [Bahrain](availability-in-bahrain.md)
-> - [Belarus](availability-in-belarus.md)
+> - [Belarus (Weißrussland)](availability-in-belarus.md)
 > - [Belgien](availability-in-belgium.md)
 > - [Belize](availability-in-belize.md)
 > - [Bosnien und Herzegowina](availability-in-bosniaherzegovina.md)
@@ -57,7 +57,7 @@ Sie können auswählen, einem Land oder Region, um herauszufinden, welche Cloud 
 > - [Costa Rica](availability-in-costa-rica.md)
 > - [Kroatien](availability-in-croatia.md)
 > - [Zypern](availability-in-cyprus.md)
-> - [Tschechische Republik](availability-in-the-czech-republic.md)
+> - [Tschechien](availability-in-the-czech-republic.md)
 > - [Dänemark](availability-in-denmark.md)
 > - [Dominikanische Republik](availability-in-the-dominican-republic.md)
 > - [Ecuador](availability-in-ecuador.md)
@@ -78,7 +78,7 @@ Sie können auswählen, einem Land oder Region, um herauszufinden, welche Cloud 
 > - [Israel](availability-in-israel.md)
 > - [Italien](availability-in-italy.md)
 > - [Japan](availability-in-japan.md)
-> - [Jordanien](availability-in-jordan.md)
+> - [Jordan](availability-in-jordan.md)
 > - [Kenia](availability-in-kenya.md)
 > - [Lettland](availability-in-latvia.md)
 > - [Litauen](availability-in-lithuania.md)
@@ -87,7 +87,7 @@ Sie können auswählen, einem Land oder Region, um herauszufinden, welche Cloud 
 > - [Malaysia](availability-in-malaysia.md)
 > - [Malta](availability-in-malta.md)
 > - [Mexiko](availability-in-mexico.md)
-> - [Moldawien](availability-in-moldova.md)
+> - [Moldova](availability-in-moldova.md)
 > - [Monaco](availability-in-monaco.md)
 > - [Niederlande](availability-in-the-netherlands.md)
 > - [Neuseeland](availability-in-new-zealand.md)
@@ -100,10 +100,10 @@ Sie können auswählen, einem Land oder Region, um herauszufinden, welche Cloud 
 > - [Polen](availability-in-poland.md)
 > - [Portugal](availability-in-portugal.md)
 > - [Puerto Rico](availability-in-puerto-rico.md)
-> - [Katar](availability-in-qatar.md)
+> - [Qatar](availability-in-qatar.md)
 > - [Rumänien](availability-in-romania.md)
 > - [Russische Föderation](availability-in-russia.md)
-> - [Saudi-Arabien](availability-in-saudi-arabia.md)
+> - [Saudi Arabien](availability-in-saudi-arabia.md)
 > - [Serbien](availability-in-serbia.md)
 > - [Singapur](availability-in-singapore.md)
 > - [Slowakei](availability-in-slovakia.md)
@@ -126,7 +126,7 @@ Sie können auswählen, einem Land oder Region, um herauszufinden, welche Cloud 
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**Wenn Sie ein Arbeitsblatt mit allen Ländern und Regionen, suchen herunterladen und speichern Sie die [Cloud VoIP-Feature Land/Region Verfügbarkeit Spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-02012019)-(en-us).xlsx?raw=true)**.
+**Wenn Sie ein Arbeitsblatt mit allen Ländern und Regionen, suchen herunterladen und speichern Sie die [Cloud VoIP-Feature Land/Region Verfügbarkeit Spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-03132019)-(en-us).xlsx?raw=true)**.
 
 ***
 

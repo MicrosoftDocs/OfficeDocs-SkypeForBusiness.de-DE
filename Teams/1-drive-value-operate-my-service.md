@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 04/12/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ description: Aufgaben und Aktivitäten für Teams Servicemanagement, einschließ
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc4dbb59b5346286b10b8a146b96c2b1f5dbc40e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cbf0da1cab0f350b9abc7b01e6583e54a996c687
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459156"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569479"
 ---
-# <a name="operate-my-service"></a>Meine Dienst betreiben
+# <a name="operate-my-service"></a>Verwenden des Diensts
 
 Dieser Artikel bietet eine Übersicht über die Anforderungen für den Betrieb von VoIP Clouddiensten für Ihre Organisation erfolgreich. Ihre Stimme Clouddiensten ordnungsgemäß funktioniert, können Sie sein sicher, dass Sie eine hohe Qualität und zuverlässige Erfahrung für Ihre Organisation zur Verfügung stellen.
 
@@ -400,7 +400,7 @@ Es wird dringend empfohlen, dass am Anfang der Qualität "Champion" benennen. Na
 
 [Informationen zum Erstellen von hochladen](turning-on-and-using-call-quality-dashboard.md#upload-building-information)
 
-[Quality of Experience überprüfen Guide](https://aka.ms/qerguide)
+[Handbuch für die Überprüfung der QoE (Quality of Experience)](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 
@@ -508,7 +508,7 @@ Zur Unterstützung der Benutzer eine Organisation eine beliebige Anzahl von Aufg
 
 [Verwalten der Audiokonferenzeinstellungen für einen Benutzer](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-[Die Audiokonferenz PIN zurücksetzen](reset-the-audio-conferencing-pin-in-teams.md)
+[Zurücksetzen der Audiokonferenz-PIN](reset-the-audio-conferencing-pin-in-teams.md)
 
 ### <a name="license-management"></a>Lizenzverwaltung
 
@@ -547,7 +547,7 @@ Standardmäßig haben alle Benutzer mit einem Postfach in Exchange Online Berech
 
 <!--ENDOFSECTION-->
 
-## <a name="quality-of-experience-review-guide"></a>Quality of Experience überprüfen Guide
+## <a name="quality-of-experience-review-guide"></a>Handbuch für die Überprüfung der QoE (Quality of Experience)
 
 [Erleben Sie die Überprüfung Handbuch für Quality of](https://aka.ms/qerguide) enthält einen Satz von Aktivitäten, die bewerten und-Wartung Anleitungen in wichtige Bereiche, die am stärksten auf Verbessern der benutzererfahrung auswirken, wie im folgenden beschrieben.
 

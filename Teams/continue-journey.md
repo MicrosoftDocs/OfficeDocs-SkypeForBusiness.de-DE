@@ -3,7 +3,7 @@ title: Microsoft-Teams, Benutzer Anpassungsplan | Bewährte Methoden
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ad07d4445e02c10eb75a62d6fa2933b413b8107
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cb457ff6f5ba40575a8a7fc35738d8dda1ce45f5
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463276"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569974"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 
@@ -34,9 +34,9 @@ Technologie wird immer schneller Innovation. Ständige und Aktivieren einer mode
 
 Der Status des Netzwerks wirkt sich auf die Benutzeroberfläche. Wenn ein Benutzer eine schlechte Erfahrung verfügt (beispielsweise Anruf setzt oder Verzögerung Zeit bei der Teilnahme an Besprechungen), deren korrelieren mit der Technologie erläutert selbst, und setzen diese mit den Eindruck, der nicht die Technologie funktioniert, und öffnen die Tür für nicht unterstützte apps. Implementieren einen Plan zum Überwachen und zur Abwehr von Integrität des Netzwerks können Sie einen positiven Eindruck zusätzlich zur Reduzierung von Anrufen an Ihre Helpdesk sicherstellen. Weitere Informationen finden Sie unter den folgenden Artikeln:
 
-- [Verwenden von Ihrem Dienst](upgrade-operate-my-service.md)
-- [Monitorqualität](upgrade-monitor-quality.md)
-- [Erweitern Sie den Dienst](upgrade-enhance-my-service.md)
+- [Betreiben des Diensts](upgrade-operate-my-service.md)
+- [Überwachen der Qualität](upgrade-monitor-quality.md)
+- [Verbessern Ihres Diensts](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>Laufwerk Benutzer Momentum und Akzeptanz
 

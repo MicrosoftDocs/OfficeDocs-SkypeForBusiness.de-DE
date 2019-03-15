@@ -3,7 +3,7 @@ title: Microsoft Teams – Nutzungsbericht
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 01/11/2019
+ms.date: 03/12/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 description: Informationen Sie zur Verwendung des Nutzungsberichts Teams in der Verwaltungskonsole von Microsoft-Teams, um einen Überblick über Teams Aktivität in Ihrer Organisation abzurufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d013073402de29fc586b14c9cc3bd5ab336d3086
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0307d0b0d8c0d2501aa8f61693c4c9c01d30cc07
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463108"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569934"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams – Nutzungsbericht
 
@@ -50,5 +50,5 @@ Teams-Verwendungsbericht in der Verwaltungskonsole von Microsoft-Teams, bietet e
 
 ## <a name="related-topics"></a>Verwandte Themen
 - [Teams Analysen und Berichte](teams-reporting-reference.md)
-- [Bericht über Benutzeraktivität Teams](user-activity-report.md)
-- [Bericht zur Verwendung der Teams Gerät](device-usage-report.md)
+- [Teams-Benutzeraktivitätsbericht](user-activity-report.md)
+- [Teams-Gerätenutzungsbericht](device-usage-report.md)

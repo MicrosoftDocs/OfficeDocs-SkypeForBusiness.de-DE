@@ -4,23 +4,23 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 12/28/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Erfahren Sie mehr über Besprechungen, Lizenzierung und Verfügbarkeit, Konferenz Bridge Einstellungen konfigurieren, erwerben oder Übertragen von Rufnummern, wählen Sie Mandanten-Wählpläne.
+description: Informationen zu Besprechungen, Lizenzierung und Verfügbarkeit, Konfigurieren von Konferenz Bridge Einstellungen, erwerben oder beim Übertragen von Telefonnummern und Auswählen der Option Mandanten-Wählpläne.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8b98aa7a601466826d95ddb2413e702f94f4877
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 9b6bd854de7af09ebea6b66a6393beb751f11770
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459148"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569998"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -68,8 +68,8 @@ Nach Bestätigung, dass Ihre Organisation berechtigt ist auf der Grundlage den A
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, an welchen Benutzerstandorten oder in welchen Niederlassungen der Audiokonferenzdienst implementiert wird.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Benutzerstandorte oder Niederlassungen, die für den Audiokonferenzdienst aktiviert werden.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, welche Standorte oder Büros der Audiokonferenz Dienst implementiert werden.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Standorte oder Büros für die Audiokonferenz-Dienst aktiviert werden soll.</li></ul>|
 
 > [!TIP]
 > Es folgt ein Beispiel einer Audiokonferenz-Aktivierung-Liste Websitevorlage:
@@ -161,11 +161,11 @@ Wenn Sie vorhandene Konferenz Bridge Telefonnummern an den Audio-Konferenzdienst
 
 Lesen Sie mehr über die Konferenz Bridge Rufnummern finden Sie in den folgenden Artikeln:
 
--   [Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+-   [Einrichten von Audiokonferenzen für Microsoft-Teams](set-up-audio-conferencing-in-teams.md)
 
 -   [Telefonnummern für Audiokonferenzen](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
 
--   [Anfordern von Servicenummern](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+-   [Abrufen von Diensttelefonnummern](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 -   [Übertragen von Telefonnummern an Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
@@ -225,7 +225,7 @@ Mit diesen Steuerelementen können Sie entscheiden, ob Besprechungsorganisatoren
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden, ob Ihre Organisation Beitritts- und Benachrichtigungen erfordert und – wenn dies der Fall ist – die Art der Benachrichtigung implementiert werden (Töne, Telefonnummer oder aufgezeichneten Namen).</li><li>Entscheiden Sie, die Audio-Konferenzen PIN-Mindestlänge, die den Anforderungen der Sicherheit in der Organisation entspricht.</li><li>Entscheiden Sie, ob Ihre Organisation möchte Benutzerkommunikation im Zusammenhang mit der Audiokonferenz Dienst steuern.</li><li>Wählen Sie die Telefonnummern für Konferenzbrücken aus, die jedem Besprechungsorganisator zugewiesen werden.</li><li>Entscheiden Sie, ob einige Besprechungsorganisatoren gebührenfreie Konferenz Bridge Rufnummern für ihre Besprechungen verwenden müssen.</li><li>Entscheiden Sie, ob einige Besprechungsorganisatoren nicht authentifizierter Anrufer an eine Besprechung starten zu ermöglichen müssen.</li><li>Entscheiden Sie, ob einige Besprechungsorganisatoren Konferenz Anwahl gesteuert werden benötigen.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden, ob Ihre Organisation Beitritts- und Benachrichtigungen erfordert und – wenn dies der Fall ist – die Art der Benachrichtigung implementiert werden (Töne, Telefonnummer oder aufgezeichneten Namen).</li><li>Entscheiden Sie, die Audio-Konferenzen PIN-Mindestlänge, die den Anforderungen der Sicherheit in der Organisation entspricht.</li><li>Entscheiden Sie, ob Ihre Organisation möchte Benutzerkommunikation im Zusammenhang mit der Audiokonferenz Dienst steuern.</li><li>Entscheiden Sie, die Konferenz Bridge Telefonnummern, jede Besprechungsorganisator zugewiesen werden soll.</li><li>Entscheiden Sie, ob einige Besprechungsorganisatoren gebührenfreie Konferenz Bridge Rufnummern für ihre Besprechungen verwenden müssen.</li><li>Entscheiden Sie, ob einige Besprechungsorganisatoren nicht authentifizierter Anrufer an eine Besprechung starten zu ermöglichen müssen.</li><li>Entscheiden Sie, ob einige Besprechungsorganisatoren Konferenz Anwahl gesteuert werden benötigen.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die detaillierten Konferenzbrückeneinstellungen (Benachrichtigungen über Zu- und Abgänge, PIN-Länge, E-Mail-Benachrichtigung über Konfigurationsänderungen).</li><li>Dokumentieren der Konferenz Bridge Rufnummern zugewiesen an jedem Organisator der Besprechung und die entsprechende Einstellung zum Steuern der Richtlinie für nicht authentifizierter Anrufer und gebührenfreie und Kontrollen einwählen.</li></ul>|
 
 > [!TIP]
@@ -342,7 +342,7 @@ Weitere Informationen zu Wählplänen finden Sie unter [Was Wählpläne sind?](h
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Ihre Organisation angepasste Wählpläne (geschäftlichen Anforderungen, Annahme Anforderungen usw.) erforderlich sind.</li><li>Legen Sie (falls anwendbar) den Gültigkeitsbereich für den Mandantenwählplan (globaler Wählplan für Mandanten oder Wählplan für Mandantenbenutzer) fest, um die Anforderungen für angepasste Wählpläne zu erfüllen.</li><li>Gegebenenfalls entscheiden, die Mandanten-Wählpläne, die Sie erstellen, um Standorte oder Büros unterstützt im Gültigkeitsbereich für die Cloud VoIP-Implementierung.</li><li>Gegebenenfalls entscheiden Sie, welche Benutzer benötigen, eine angepasste Wählplan und die Wähleinstellungen Mandanten für jeden Benutzer zugewiesen werden soll.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Ihre Organisation angepasste Wählpläne (geschäftlichen Anforderungen, Annahme Anforderungen usw.) erforderlich sind.</li><li>Entscheiden, falls zutreffend, des Bereichs eines Mandanten Wählplans (Mandanten globalen oder Mandanten Benutzer) die für die Unterstützung für benutzerdefinierte Wählpläne.</li><li>Gegebenenfalls entscheiden, die Mandanten-Wählpläne, die Sie erstellen, um Standorte oder Büros unterstützt im Gültigkeitsbereich für die Cloud VoIP-Implementierung.</li><li>Gegebenenfalls entscheiden Sie, welche Benutzer benötigen, eine angepasste Wählplan und die Wähleinstellungen Mandanten für jeden Benutzer zugewiesen werden soll.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie angepasste Wählpläne und die zugehörigen Normalisierungsregeln als Teil der Cloud VoIP-Implementierung konfiguriert werden soll.</li><li>Dokumentieren Sie die Benutzer um einen benutzerdefinierten Wählplan und die Mandanten-Wähleinstellungen für jeden Benutzer zugewiesen werden zugewiesen werden.</li></ul>|
 
 > [!TIP]

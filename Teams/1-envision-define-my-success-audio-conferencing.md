@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -13,14 +13,14 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: 267ce64472fe643bb3544b80a3e3f6222db1d4ba
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7c294b3ac75b92f7c6e2384f34497bc620478d29
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373976"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568539"
 ---
-# <a name="define-my-success"></a>Meine Erfolg definieren
+# <a name="define-my-success"></a>Definieren der Erfolgskriterien
 
 Dieser Artikel bietet eine Übersicht über die Anforderungen für die Definition des Erfolgs des Updates für die Bereitstellung von Audiokonferenzen für Ihre Organisation. Gewünschten Erfolg korrekt definiert ist, können Sie Ihre Ergebnisse im Verlauf messen, durch die Bereitstellung und stellen Sie sicher, dass die Ergebnisse, die Sie zu erreichen sind, werden sollte.
 
@@ -165,7 +165,7 @@ Sie müssen Business Risiken im Rahmen dieser Übung identifizieren und definier
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Was sind Ihrer Organisation & #39; s OKRs und KSIs?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung von Audiokonferenzen in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Was sind Ihrer Organization& #39; s OKRs und KSIs?</li><li>Welche Risiken stehen Ihnen identifiziert die Durchführung von Audiokonferenzen in Ihrer Organisation? Was sind die Pläne für den identifizierten Risiken Abhilfemaßnahmen?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren der OKRs KSIs, und Einrichten von Risiken registrieren.</li></ul>|
 
 <!--ENDOFSECTION-->

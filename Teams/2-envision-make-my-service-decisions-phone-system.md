@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7a277133adb520ea2a5e23cab05477f79f18ea1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4d473408b054d1e7a89ad5ce27c1686cce181d9e
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461892"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568688"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
 Um die technischen Implementierung der Telefonsystem mit Aufrufen plant planen, müssen Sie eine Reihe von Dienst Entscheidungen zum besseren vorausschauendes bereiten Sie Ihre Organisation zum Implementieren einer Lösung, die Ihren definierten geschäftlichen Anforderungen erfüllt vornehmen.
 
-## <a name="calling-in-teams"></a>Anrufe in Microsoft Teams
+## <a name="calling-in-teams"></a>Aufrufen in Teams
 
 Mit Microsoft-Teams können Ihre Benutzer tätigen und Entgegennehmen von Anrufen zu oder aus dem öffentlichen Telefonfestnetz (PSTN). Ihre Benutzer können ihre eigenen dedizierten Rufnummern für tätigen und Empfangen von nationalen und internationalen Telefonanrufe in Teams-Clientanwendungen mit erweiterten Features, die Voicemail enthalten.
 
@@ -42,7 +42,7 @@ Um die Konnektivität mit dem PSTN zu aktivieren, kann Ihrer Organisation Micros
 > [!IMPORTANT]
 > Die Möglichkeit, mit eigenen Telekommunikation Dienstanbieter für Telefonsystem bei Ihrer Bereitstellung Teams ist auch mit Phone System direktem Routing verfügbar. Weitere Informationen zum direkten Routing überprüfen Sie die [Anweisungen direkten Routing](2-envision-make-my-service-decisions-direct-routing.md).
 
-## <a name="phone-system-with-calling-plans"></a>Telefonsystem mit Anrufplänen
+## <a name="phone-system-with-calling-plans"></a>Telefonsystem mit dem Aufrufen der Pläne
 
 Um Microsoft wie Ihre Telekommunikation Internetdienstanbieter zu verwenden, müssen Sie planen der Aufruf von Lizenzen zu erhalten, und weisen Sie diese den Benutzern Telefonsystem.
 
@@ -56,7 +56,7 @@ Jede Art von aufrufende Plan weist eine bestimmte Anzahl von Minuten pro Monat A
 
 <!--ENDOFSECTION-->
 
-## <a name="availability-of-calling-plans"></a>Verfügbarkeit von Anrufplänen
+## <a name="availability-of-calling-plans"></a>Verfügbarkeit von Aufrufen Pläne
 
 Vor der Planung für die Implementierung von Aufrufen in Teams plant, stellen Sie sicher, dass der Aufruf von plant Dienst verfügbar in Ihrer Region durch die Überprüfung von [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
@@ -83,8 +83,8 @@ Kompilieren Sie nach Bestätigung, dass Ihre Organisation, den Dienst aufrufen p
 > | One Epping Road                | Australien      | Legacy-PSTN-Dienst |
 > | 100 Cyberport Road             | Hong Kong SAR (香港特別行政區)  | Direktes Routing für Telefonsysteme |
 > | One Marina Boulevard           | Singapur      | Direktes Routing für Telefonsysteme |
-> | 32 London Bridge Street        | Vereinigtes Königreich | Telefonsystem mit Anrufplänen |
-> | 39 quai du Président Roosevelt | Frankreich         | Telefonsystem mit Anrufplänen |
+> | 32 London Bridge Street        | Vereinigtes Königreich | Telefonsystem mit dem Aufrufen der Pläne |
+> | 39 quai du Président Roosevelt | Frankreich         | Telefonsystem mit dem Aufrufen der Pläne |
 
 <!--ENDOFSECTION-->
 
@@ -92,7 +92,7 @@ Kompilieren Sie nach Bestätigung, dass Ihre Organisation, den Dienst aufrufen p
 
 Mit Aufrufen in Office 365-Pläne muss jeder Benutzer in Ihrer Organisation eine eindeutige direkte nach innen einwählen Telefonnummer (DID) und eine entsprechende überprüfte Notfall Adresse haben. Überprüfen Sie [Verwalten Cloud VoIP Telefonnummern](2-envision-make-my-service-decisions-phone-system.md#manage-cloud-voice-telephone-numbers) klicken, um das Telefon Nummer Erwerb für die Implementierung des Plans aufrufen planen.
 
-Beim Konfigurieren von Telefonnummern für den Aufruf von plant müssen Sie eine Notfall Adresse an jede Telefonnummer zuweisen, bevor Sie die Nummer, die einem Benutzer zuweisen. Dieser Schritt ist für die Unterstützung von Notrufen erforderlich. Die Notfall-Adresse muss überprüft werden, um sicherzustellen, dass es im richtigen Format von den Diensten für Notfallmaßnahmen geeignet ist.
+Beim Konfigurieren von Telefonnummern für den Aufruf von plant müssen Sie eine Notfall Adresse an jede Telefonnummer zuweisen, bevor Sie die Nummer, die einem Benutzer zuweisen. Dies ist erforderlich, wenn notrufdienste. Die Notfall-Adresse muss überprüft werden, um sicherzustellen, dass es im richtigen Format von den Diensten für Notfallmaßnahmen geeignet ist.
 
 > [!IMPORTANT]
 > Notdienste aufrufen funktioniert anders im Dienst aufrufen plant als in herkömmlichen Telefondienste. Es ist wichtig, dass Sie diese Unterschiede und allen Benutzern zu kommunizieren. Einzelheiten finden Sie unter [Emergency Aufrufen von allgemeinen Geschäftsbedingungen](emergency-calling-terms-and-conditions.md) .
@@ -115,12 +115,12 @@ Weitere Informationen zum notfallstandorten im Verhältnis zum Aufrufen von plan
 > [!TIP]
 > Die folgende Vorlage können Sie um die Details der Telefonnummern und Details zum Besprechungsort Notfall zu dokumentieren.
 > 
-> |Benutzer |Notruf Speicherort und Adresse |Telefonnummer |
+> |User |Notruf Speicherort und Adresse |Telefonnummer |
 > |-----|-------------------------------|-------------|
-> |Emily Braun |1034/32 London Bridge Street, London, SE1, Vereinigtes Königreich |+ 44 23 4567 8901 |
+> |Emily Braun |1034/32 London Bridge Straße, London, SE1, Vereinigtes Königreich |+ 44 23 4567 8901 |
 > |Lidia Holloway |1065/32 London Bridge Straße, London, SE1, Vereinigtes Königreich |+ 44 23 4567 89112 |
-> |Louis Lahr |1023/32 London Bridge Street, London, SE1, Vereinigtes Königreich |+ 44 23 4567 8921 |
-> |Marcel Beauchamp |07E15D/39 Quai du Président Roosevelt, 92130 Issy-les-Moulineaux, Frankreich | TBA |
+> |Louis Lahr |1023/32 London Bridge Straße, London, SE1, Vereinigtes Königreich |+ 44 23 4567 8921 |
+> |Marcel Beauchamp |07E15D/39 Quai du Président Roosevelt, 92130 Issy-Les-Moulineaux, Frankreich | TBA |
 > |Rachelle Cormier |07N15D/39 Quai du Président Roosevelt, 92130 Issy-Les-Moulineaux, Frankreich | TBA |
 > |Isabell Potvin |07F05E/39 Quai du Président Roosevelt, 92130 Issy-Les-Moulineaux, Frankreich | TBA |
 
@@ -149,7 +149,7 @@ Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden
 > [!TIP]
 > Telefon System Voicemail Details für das Telefonsystem mit Implementierung plant aufrufen können wie folgt dokumentiert werden.
 > 
-> |Benutzer |Exchange-Postfach |Aktivieren Sie Voicemail? |Voicemail Lautschrift |Voicemail Lautschrift Gotteslästerung-Maskierung |
+> |User |Exchange-Postfach |Aktivieren Sie Voicemail? |Voicemail Lautschrift |Voicemail Lautschrift Gotteslästerung-Maskierung |
 > |------------------|------------------|-------------------|----------|----------|
 > |Emily Braun      |Online      |Ja |Aktiviert |Aktiviert |
 > |Lidia Holloway   |Online      |Ja |Aktiviert |Deaktiviert |
@@ -160,9 +160,9 @@ Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden
 
 <!--ENDOFSECTION-->
 
-## <a name="calling-identity"></a>Anrufer-ID
+## <a name="calling-identity"></a>Aufrufen von Identität
 
-Standardmäßig wird bei allen ausgehenden Anrufen die zugewiesene Telefonnummer als Anrufer-ID verwendet. Der Empfänger des Anrufs kann den Anrufer schnell identifizieren und entscheiden, ob er den Anruf annehmen oder ablehnen möchte. In einigen Fällen sind legitimen geschäftlichen Anforderungen an die Anrufer-ID, um die Identität des Aufrufers mithilfe der Office Main Zeilennummer schützen maskieren – Dies ist üblicherweise ein Service-Nummer bedient durch die automatische Telefonzentrale-Konfiguration – als Anrufer-ID, oder Blockieren von Anrufer-ID Präsentation vollständig.
+Alle ausgehenden Anrufe verwenden standardmäßig die zugewiesene Telefonnummer als aufrufende Identität (Anrufer-ID). Der Empfänger des Anrufs kann den Anrufer schnell identifizieren und entscheiden, ob er den Anruf annehmen oder ablehnen möchte. In einigen Fällen sind legitimen geschäftlichen Anforderungen an die Anrufer-ID, um die Identität des Aufrufers mithilfe der Office Main Zeilennummer schützen maskieren – Dies ist üblicherweise ein Service-Nummer bedient durch die automatische Telefonzentrale-Konfiguration – als Anrufer-ID, oder Blockieren von Anrufer-ID Präsentation vollständig.
 
 <br>
 
@@ -174,14 +174,14 @@ Standardmäßig wird bei allen ausgehenden Anrufen die zugewiesene Telefonnummer
 > [!TIP]
 > Es folgt ein Beispiel für Anrufer-ID Maskierung Details-Dokumentation.
 > 
-> |Benutzer  |Maskierung für ausgehende Anrufer-IDs aktivieren  |Art der Anrufer-ID-Maskierung  |Außerkraftsetzung durch Benutzer zulassen  | Maskierung für eingehende Anrufer-IDs aktivieren  |
+> |User  |Aktivieren Sie ausgehende Anrufer-ID-Maskierung  |Typ der Anrufer-ID-Maskierung  |Außerkraftsetzung durch Benutzer zulassen  | Aktivieren Sie eingehende Anrufer-ID-Maskierung  |
 > |---------|---------|---------|---------|---------|
-> |Emily Braun|Nein|n/v|Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer|Nein|
-> |Lidia Holloway|Ja|Servicenummer (OrgAA, +44 20 7946 0000)|Nein|Ja|
-> |Louis Lahr|Nein|n/v|Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer|Nein|
-> |Marcel Beauchamp|Ja|Servicenummer (OrgAA, TBA)|Nein|Ja|
-> |Rachelle Cormier|Ja|Anonymisieren|Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer|Nein|
-> |Isabell Potvin|Ja|Servicenummer (OrgAA, TBA)|Nein|Ja|
+> |Emily Braun|Nein|n/v|Ja|Nein|
+> |Lidia Holloway|Ja|Service-Nummer (OrgAA + 44 20 7946 0000)|Nein|Ja|
+> |Louis Lahr|Nein|n/v|Ja|Nein|
+> |Marcel Beauchamp|Ja|Service-Nummer (OrgAA, TBA)|Nein|Ja|
+> |Rachelle Cormier|Ja|Patientenmetadaten|Ja|Nein|
+> |Isabell Potvin|Ja|Service-Nummer (OrgAA, TBA)|Nein|Ja|
 
 <!--ENDOFSECTION-->
 
@@ -193,24 +193,24 @@ Aufrufen von Plänen ist ein auszuführendes Add-on das Telefonsystem Feature in
 
 Unterstützung für zusätzliche Audiokonferenzen und Pläne aufrufen Anwendungsfälle (Internationale Konferenz Dial-Out-aufrufen nach Minute Zuweisungen aufrufen planen aufgebraucht sind externe und usw.), Sie können Communications haben für Ihre Organisation einrichten.
 
-## <a name="licensing-for-calling-plans"></a>Lizenzierung für Anrufpläne
+## <a name="licensing-for-calling-plans"></a>Lizenzierung für den Aufruf von Plänen
 
 Wenn Ihre Organisation Microsoft verwenden möchte, wie Telekommunikation Internetdienstanbieter, müssen Sie planen aufrufen Add-ons zu Ihrer Benutzer geschäftlichen Anforderungen zu erhalten. Im Allgemeinen muss nicht allen Mitgliedern einer Organisation Ausland telefonieren, damit Sie die meisten Benutzer mit nationalen aufrufen planen Lizenzen bereitstellen können.
 
-Es gibt zwei Arten von Anrufplanlizenzen:
+Es gibt zwei Arten von Lizenzen aufrufen planen:
 
 -   Anrufplan für Inland
 
 -   Anrufplan für Ausland und Inland
 
 > [!NOTE]
-> Was für einen bestimmten Benutzer als „Inland“ gilt, wird durch den zugewiesenen Office 365-Verwendungsstandort des Benutzers bestimmt.
+> Was "nationalen" für einen bestimmten Benutzer betrachtet wird, wird durch zugewiesene Office 365-Usage-Standort des Benutzers bestimmt.
 
-Jeder Anrufplantyp umfasst ein zugewiesenes Minutenkontingent, das die Benutzer pro Monat für Inlands- oder Auslandsanrufe nutzen können. Die nationalen aufrufen planen Kosten, die kleiner im Vergleich zu den internationalen und nationalen aufrufen planen.
+Jeder Typ aufrufen planen bietet eine Zuweisung von Minuten, mit denen Benutzer pro Monat, entweder können Gespräche oder Auslandsgespräche stellen aufrufen. Die nationalen aufrufen planen Kosten, die kleiner im Vergleich zu den internationalen und nationalen aufrufen planen.
 
 Die Flexibilität der abonnieren und Zuweisen von am besten geeigneten aufrufen planen Typ für einzelne Benutzer geschäftlichen Anforderungen kann Ihrer Organisation steuern, die Kosten für seine Implementierung plant aufrufen.
 
-Alle Minutenkontingente der einzelnen Office 365-Mandanten werden in Pools für Länder bzw. Regionen und Anrufplantypen zusammengefasst. Wenn die Obergrenze des monatlichen Minutenkontingents für den Mandanten erreicht ist, wird der Anrufplandienst (mit Ausnahme von Notrufen) für den Rest des Monats ausgesetzt. Der Dienst aufrufen Pläne wird automatisch auf den ersten Tag des nächsten Monats fortgesetzt.
+Für jeden Office 365-Mandanten sind die kombinierte Anzahl der aufrufenden Minuten nach Land oder Region und pro Typ aufrufen planen zusammengefasst. Wenn die monatlichen aufrufende Minuten Cap für den Mandanten erreicht ist, wird Pläne aufrufen Service (außer notrufdienste) für den Rest des Monats angehalten. Der Dienst aufrufen Pläne wird automatisch auf den ersten Tag des nächsten Monats fortgesetzt.
 
 Sie können Communications haben für Ihre Organisationen durch Benutzer einrichten, ausgehende Anrufe tätigen, nach die Zuweisung von Minuten aufrufen, ohne warten, bis zum nächsten Monat Abrechnung Cycle erreicht ist. Darüber hinaus zugewiesen haben Communications bieten Benutzern die nationalen aufrufen planen die Möglichkeit, internationale Anrufe tätigen, die dann mithilfe eines Modells "Bezahlung pro Minute" berechnet werden.
 
@@ -409,17 +409,17 @@ Weitere Informationen zu Wählplänen finden Sie unter [Was sind Wählpläne?](w
 
 Verwenden Sie die Informationen aus den vorherigen Abschnitten dieses Artikels, um Ihre Entscheidungen Service zu dokumentieren. Im Allgemeinen enthält diese Dokumentation die folgenden Hauptabschnitte:
 
--   Aktivierungsliste für Standorte mit dem Telefonsystem mit Anrufplänen
+-   Telefonsystem mit Aufrufen plant Websiteliste-Aktivierung
 
--   Lizenzzuweisungen für Benutzer des Telefonsystems mit Anrufplänen
+-   Lizenz-Zuordnung für Telefonsystem mit plant Aufrufen von Benutzern
 
 -   Zahlen für die Planung des Kommunikationsguthabens
 
--   Erwerb von Telefonnummern, Details zu Telefonnummern und Notfallstandorten
+-   Telefon Nummer Erwerb, Telefonnummern und Details zum Besprechungsort Notfall
 
--   Details der Voicemailkonfiguration
+-   Voicemail-Konfigurationsdetails
 
--   Details der Konfiguration der Anrufer-ID-Maskierung
+-   Anrufer-ID Konfigurationsdetails Maskierung
 
 -   Mandantenwählpläne
 

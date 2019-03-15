@@ -1,10 +1,10 @@
 ---
-title: Bewerten der Umgebung für Microsoft-Teams, Cloud VoIP Arbeitslasten
+title: Bewerten Ihrer Umgebung für Microsoft Teams-Cloud Voice-Workloads
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29bfd87d860cc68b988e365a77f28eed8fa9e2f5
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c092904151ac0a05536a52a9ee8b475c9264a21a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459095"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568542"
 ---
-# <a name="evaluate-my-environment"></a>Meine Umgebung bewerten
+# <a name="evaluate-my-environment"></a>Bewerten der Umgebung
 
 Dieser Artikel bietet eine Übersicht über die Anforderungen für ordnungsgemäß bewerten der aktuellen Umgebung für die Verwendung von Clouddiensten VoIP. Bewerten der Umgebung, geben Sie an Risiken und Anforderungen, die Ihrer gesamten Cloud VoIP-Bereitstellung beeinflussen werden. Durch das Identifizieren von dieser Elemente im voraus, können Sie die Planung für Laufwerk Erfolg anpassen.
 

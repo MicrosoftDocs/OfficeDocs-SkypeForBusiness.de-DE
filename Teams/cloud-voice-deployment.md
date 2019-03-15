@@ -4,7 +4,7 @@ author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 08/21/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: MyAdvisor
@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6d8057fa2cba1f14ed00eebebdb522144eb283d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 953c971c39bde9d112619fcaee145008c378f1a3
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458916"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568440"
 ---
 # <a name="cloud-voice-deployment"></a>Cloud Voice-Bereitstellung
 
-Microsoft-Teams, den Hub für Zusammenarbeit und Kommunikation in Office 365 und bietet nun Audiokonferenzen, Telefonsystem mit Aufrufen plant, und Telefonsystem direktes Routing-Funktionen, die durch die Erweiterung der Teams Besprechung zusätzliche unternehmensanforderungen zu erfüllen und Aufrufen von Erfahrung, um externen Teilnehmern über das öffentliche Telefonfestnetz (PSTN) verbunden sind.
+Microsoft Teams, die Drehscheibe für Teamarbeit und Kommunikation in Office 365, bietet jetzt Funktionen für Audiokonferenzen, ein Telefonsystem mit Anrufplänen und direktes Routing für Telefonsysteme, die zusätzliche Geschäftsanforderungen erfüllen. Dazu wurde die Funktionalität der Besprechungen und Anrufe in Microsoft Teams erweitert, sodass jetzt auch externe Benutzer über das Telefonfestnetz teilnehmen können.
 
 
 > [!Tip] 
@@ -44,7 +44,7 @@ Hier ist das Ergebnis mit [Audiokonferenzen](https://docs.microsoft.com/SkypeFor
 
 ## <a name="phone-system-with-calling-plans-calling-plans-in-microsoft-teams"></a>Telefonsystem mit dem Aufrufen der Pläne ("Aufrufen von Plänen") in Microsoft-Teams
 
-Das Telefonsystem ist eine Office 365-Funktion, die das Verwalten von Anrufweiterleitung, Richtlinien und Benutzerbereitstellung ermöglicht. Dazu gehören ein Verwaltungssystem für Telefonanrufe sowie Anrufweiterleitung und Anrufsteuerung.
+Telefonsystem ist eine Office 365-Funktion, die die Möglichkeit zum Verwalten von Anrufrouting, Richtlinien und benutzerbereitstellung bietet. Dazu gehören Telefon aufrufen Managementsystem, Anrufrouting und Remote Call Control.
 
 Aufrufen von Plänen ist ein Add-On-Dienst für das Telefonsystem-Feature, über Teams und Skype für Business Online übermittelt. Aufrufen von Plänen erfordert, dass der betreffende Benutzer in Skype für Business Online Arbeit in Microsoft-Teams verwaltet werden. Aufrufen von Plänen bieten die Personen in Ihrem Unternehmen mit einer primären Rufnummer, und ermöglicht ihnen das tätigen und Entgegennehmen von Anrufen außerhalb Ihrer Organisation über das Telefonfestnetz.
 
@@ -64,7 +64,7 @@ Diese Ihnen praktische Leitfäden wird mithilfe des Office 365 schnelle Kunden R
 > [!div class="mx-tableFixed"]
 > |Konzeptionierung  |Onboarding  |Höhere Wertschöpfung erzielen  |
 > |---------|---------|---------|
-> |[Meine Erfolg definieren](1-envision-define-my-success-cloud-voice.md) <br> Meine Service treffe für <br>&nbsp;&nbsp;[Audiokonferenzen](2-envision-make-my-service-decisions-audio-conferencing.md)<br>&nbsp;&nbsp;[Aufrufen von Plänen](2-envision-make-my-service-decisions-phone-system.md)oder [direkten Routing](2-envision-make-my-service-decisions-direct-routing.md) <br> [Meine Umgebung bewerten](3-envision-evaluate-my-environment.md) <br> [Planen der Verwaltung von Meine service](4-envision-plan-my-service-management.md) <br> [Planen von meiner Benutzer-Erlebnis](5-envision-plan-my-users-experience.md) <br> [Dokumentieren Sie meine Erfolg](6-envision-document-my-success-plan.md)    | [Meine Service vorbereiten](1-onboard-prepare-my-service.md) <br> [Vorbereiten der Benutzer](2-onboard-prepare-my-users.md) <br> [Stellen Sie meine Dienst](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [Meine Dienst betreiben](1-drive-value-operate-my-service.md) <br> [Meine Service zu verbessern](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
+> |[Definieren der Erfolgskriterien](1-envision-define-my-success-cloud-voice.md) <br> Meine Service treffe für <br>&nbsp;&nbsp;[Audiokonferenzen](2-envision-make-my-service-decisions-audio-conferencing.md)<br>&nbsp;&nbsp;[Aufrufen von Plänen](2-envision-make-my-service-decisions-phone-system.md)oder [direkten Routing](2-envision-make-my-service-decisions-direct-routing.md) <br> [Bewerten der Umgebung](3-envision-evaluate-my-environment.md) <br> [Planen der Dienstverwaltung](4-envision-plan-my-service-management.md) <br> [Planen von meiner Benutzer-Erlebnis](5-envision-plan-my-users-experience.md) <br> [Dokumentieren des Erfolgsplans](6-envision-document-my-success-plan.md)    | [Vorbereiten des Diensts](1-onboard-prepare-my-service.md) <br> [Vorbereiten der Benutzer](2-onboard-prepare-my-users.md) <br> [Bereitstellen des Diensts](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [Verwenden des Diensts](1-drive-value-operate-my-service.md) <br> [Verbessern des Diensts](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
 
 Der Inhalt in einer sortierten und Weise dargestellt wird, und ist darauf ausgelegt, die Sie über eine End-to-End-Bereitstellung Weg von seinem Anfang bis zu bringen. Wenn Sie bereits aktiv bereitstellen, empfehlen wir noch Ihnen auf die entsprechenden Abschnitten Inhalte zu verweisen.
 

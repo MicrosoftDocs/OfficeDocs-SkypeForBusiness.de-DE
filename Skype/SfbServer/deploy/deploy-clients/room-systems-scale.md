@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen von Skype Raum Systeme mithilfe von System Center Configuration Manager
-ms.author: jambirk
 author: jambirk
+ms.author: jambirk
 ms.reviewer: Turgayo
 manager: serdars
 ms.date: 5/10/2018
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lesen Sie dieses Thema zu erfahren Sie mehr über die Bereitstellung von Skype Raum Systemen v2 auf umfangreiche Bereitstellungen.
-ms.openlocfilehash: 3602422779a405376893a3a7e6663520ed6a4a4c
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 3188748c1222a87d0861693c5b0c85ede3cba5a9
+ms.sourcegitcommit: 2a34c9955d2cf54085dee527ea493ce991ef2e10
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210873"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30340477"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Bereitstellen von Skype Raum Systemen v2 mithilfe von System Center Configuration Manager
 

@@ -3,7 +3,7 @@ title: Neuigkeiten in Skype for Business Server 2015
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2018
+ms.date: 12/20/2017
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu neuen Features in Skype für Business Server 2015 zu erhalten. Ausführliche Informationen zu den neuen Client gewohnt sind finden Sie in Lync jetzt Skype für Unternehmen ist – finden Sie unter Neuigkeiten.'
-ms.openlocfilehash: 9c5dd3996cb6c15de93b564fa800e01270d92b66
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e1ae2a046b955e83ccc7c811984a526c26f7c526
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21012451"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "24961029"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Neuigkeiten in Skype for Business Server 2015
 
@@ -48,7 +48,7 @@ Skype für Business Server 2015 enthält Verbesserungen an Funktionalität von S
   
 ### <a name="call-data-collection-and-analysis"></a>Sammlung und Analyse von Anrufdaten
 
-Rufen Sie meine Rate Feature können Skype für Business Server 2015 Administratoren Anrufdaten erfassen. Diese Funktion steht nur für lokale Bereitstellungen zur Verfügung. Die Benutzer werden aufgefordert, nach dem Anruf eine Umfrage zu beantworten. Weitere Informationen finden Sie unter [Meine Anruf in Skype für Business Server 2015 Rate](manage/health-and-monitoring/rate-my-call.md).
+Rufen Sie meine Rate Feature können Skype für Business Server 2015 Administratoren Anrufdaten erfassen. Diese Funktion steht nur für lokale Bereitstellungen zur Verfügung. Die Benutzer werden aufgefordert, nach dem Anruf eine Umfrage zu beantworten. Weitere Informationen finden Sie unter [Rate my Call in Skype for Business Server 2015](manage/health-and-monitoring/rate-my-call.md).
   
 ### <a name="improved-interoperability-with-third-party-video-teleconferencing-systems"></a>Verbesserte Interoperabilität mit externen Telekonferenzsystemen
 
@@ -100,7 +100,7 @@ Skype für Business Server 2015 bietet verschiedene neue Funktionen zur Verbesse
 
 Sie können Lync Server 2013-Systeme jetzt für Business Server 2015 mithilfe der neuen in-Place Upgrade Funktion, die vorhandene Investitionen in Lync Server 2013 Hardware und Server verwendet wird, wodurch die Gesamtkosten zum Bereitstellen von Skype für Business Server 2015 zu Skype aktualisieren.
   
-Es gibt zwei Szenarien für die direkten Upgrades: die Methode, bei der Benutzer verschoben werden und es zu keiner Ausfallzeit des Servers kommt, und die Offline-Methode, bei der der Server abgestellt werden muss. Weitere Informationen zu den Upgrade-Prozedur für Ihr Unternehmen geeignet ist, finden Sie unter [Planen eines Upgrades auf Skype für Business Server 2015](plan-your-deployment/upgrade.md). 
+Es gibt zwei Szenarien für die direkten Upgrades: die Methode, bei der Benutzer verschoben werden und es zu keiner Ausfallzeit des Servers kommt, und die Offline-Methode, bei der der Server abgestellt werden muss. Weitere Informationen darüber, welche Upgrade-Methode für Ihr Unternehmen geeignet ist, erhalten Sie unter [Plan to upgrade to Skype for Business Server 2015](plan-your-deployment/upgrade.md). 
   
 > [!NOTE]
 > Die in-Place-Option ist nicht verfügbar, wenn Sie ein von Lync Server 2010 Upgrade. Weitere Informationen über das Aktualisieren von Lync Server 2010 finden Sie unter [Planen eines Upgrades auf Skype für Business Server 2015](plan-your-deployment/upgrade.md). 
@@ -127,7 +127,7 @@ SQL Server AlwaysOn Availability Groups ist eine hohe Verfügbarkeit und Disaste
   
 SQL Server-Failoverclusterinstanzen nutzen Windows Server Failover Clustering (WSFC) Funktionen für die lokalen hohe Verfügbarkeit durch Redundanz Ebene der Server-Instanz zu gewährleisten – einer Failoverclusterinstanz (FCI). Ein FCI ist eine einzelne Instanz von SQL Server, die über Windows Server Failover Clustering (WSFC)-Knoten und möglicherweise auch über mehrere Subnetze installiert ist.
   
-Weitere Informationen finden Sie unter [Planen für hohe Verfügbarkeit und notfallwiederherstellung in Skype für Business Server 2015](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Weitere Informationen finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server 2015](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 ### <a name="centralized-logging-and-troubleshooting-improvements-for-on-premises-servers"></a>Verbesserung der zentralisierten Protokollierung und Fehlerbehebung bei lokalen Servern
 

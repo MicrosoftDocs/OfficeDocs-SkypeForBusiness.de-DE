@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.date: 01/28/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
@@ -14,21 +14,20 @@ search.appverid: MET150
 F1keywords: ms.teamsadmincenter.directrouting.overview
 description: Zielseite zum direkten Routing
 appliesto: Microsoft Teams
-ms.openlocfilehash: b8f7840b981b67f941598638b2624de0cd512b8c
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 5710ddd2c3715f0cfd1e4b1ca5b45058c9741e18
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494061"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569862"
 ---
 # <a name="phone-system-direct-routing"></a>Direktes Routing für Telefonsysteme
 
 Sie haben [Erste Schritte](get-started-with-teams-quick-start.md) abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleicht haben Sie [Besprechungen & Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)bereitgestellt. Sie können nun Cloud VoIP Arbeitslasten hinzufügen, und Sie haben entschieden, Telefonie-Anbieter für die Verbindungen (Public Switched Telephone Network, PSTN) zu verwenden, mithilfe von Telefon System direkten Routing. Mit direktem Routing können Sie mit nahezu jedes beliebigen Telefonie Netzbetreiber Telefonsystem.
 
-Dieser Artikel beschreibt Core Bereitstellung Entscheidungen für das direkte Routing sowie weitere Aspekte zu beachten, dass Sie möglicherweise konfigurieren möchten, basierend auf der Anforderungen Ihrer Organisation.  [Cloud-VoIP in Microsoft-Teams,](cloud-voice-landing-page.md) lesen Sie auch weitere Informationen zu VoIP Cloudlösungen von Microsoft.
+Dieser Artikel beschreibt Core Bereitstellung Entscheidungen für das direkte Routing sowie weitere Aspekte zu beachten, dass Sie möchten möglicherweise bedenken sollten, basierend auf der Anforderungen Ihrer Organisation. [Cloud-VoIP in Microsoft-Teams,](cloud-voice-landing-page.md) lesen Sie auch weitere Informationen zu VoIP Cloudlösungen von Microsoft.
 
 ## <a name="learn-more-about-direct-routing"></a>Erfahren Sie mehr über die direkte Routing
-
 
 Die folgenden Artikel enthalten weitere Informationen zum Konfigurieren und Telefon System direktes Routing. Konfigurieren von direkten Routing erfordert Verständnis der PSTN-routing-Entwurf. Lesen Sie alle in diesen Artikeln zu verstehen, wie beim Planen und Konfigurieren von direkten Routing:
 
@@ -40,14 +39,13 @@ Die folgenden Artikel enthalten weitere Informationen zum Konfigurieren und Tele
 Darüber hinaus sollten Sie je nach Bedarf die folgenden Artikel lesen:
 
 -  [Konfigurieren eines Session Border Controllers für mehrere Mandanten](direct-routing-sbc-multiple-tenants.md)
--  [Migrieren zu direkten Routing](direct-routing-migrating.md)
+-  [Migration zu direktem Routing](direct-routing-migrating.md)
 -  [Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität](direct-routing-user-accounts-in-a-hybrid-environment.md)
 - Sehen Sie sich die folgenden Sitzung Weitere Informationen zum direkten Routing: [Direktes Routing in Microsoft-Teams](https://aka.ms/teams-direct-routing)
 
 ## <a name="core-deployment-decisions"></a>Zentrale Entscheidungen bei der Bereitstellung
 
 Dies sind die Core Entscheidungen zu berücksichtigende zum direkten weiterleiten. 
-
 
 |Frage|Aktion |
 | :------------|:-------|

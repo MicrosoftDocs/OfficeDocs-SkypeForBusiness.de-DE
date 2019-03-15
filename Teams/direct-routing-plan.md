@@ -5,23 +5,21 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: NMuravlyannikov
-ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.topic: conceptual
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: 77c4e21b2be0f8d4729924484102ba31becbfbe7
-ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
+ms.openlocfilehash: 202b25903a3e48b0a2a2f32853f061eb8ca73cc8
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690572"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569942"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -79,7 +77,7 @@ Anforderungen an die Infrastruktur für die unterstützten SBCs, Domänen und an
 |Verbindungspunkte zum direkten weiterleiten |Die Verbindungspunkte für direkte Routing sind die folgenden drei FQDNs:<br/><br/>`sip.pstnhub.microsoft.com`– Globale FQDN muss zuerst getestet werden.<br/>`sip2.pstnhub.microsoft.com`– Sekundären FQDN, ordnet geografisch die zweite Region Priorität.<br/>`sip3.pstnhub.microsoft.com`– Tertiäre FQDN, ordnet geografisch die dritte Priorität Region.<br/><br/>Informationen zu konfigurationsanforderungen, finden Sie unter [SIP-Signale: FQDNs und Firewallports](#sip-signaling-fqdns-and-firewall-ports).|
 |Firewall-IP-Adressen und Ports für die direkte Routing |Der SBC kommuniziert, um die folgenden Dienste in der Cloud:<br/><br/>SIP-Proxy, der die Signale behandelt<br/>Media-Prozessor, der Medien verarbeitet-es sei denn, die Medienumgehung auf<br/><br/>Diese beiden Dienste über separate IP-Adressen in Microsoft Cloud, weiter unten in diesem Dokument beschriebenen verfügen.<br/><br/>Weitere Informationen finden Sie im [Abschnitt Microsoft-Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) in [Office 365-URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Media Transport-Profil|TCP/RTP/SAVP <br/>RTP/UDP/SAVP|
-Firewall-IP-Adressen und Ports für die Microsoft-Teams |Weitere Informationen finden Sie unter [URLs und IP-Adressbereiche von Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+Firewall-IP-Adressen und Ports für die Microsoft-Teams |Weitere Informationen finden Sie unter [Office 365-URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Lizenzierung und sonstige Anforderungen 
@@ -87,7 +85,7 @@ Firewall-IP-Adressen und Ports für die Microsoft-Teams |Weitere Informationen f
 Benutzer von direkten Routing müssen die folgenden Lizenzen im Office 365 zugewiesen: 
 
 - Microsoft Telefonsystem 
-- Microsoft Teams 
+- Microsoft Teams 
 - Microsoft-Audiokonferenzen 
 
 Die Lizenz Audiokonferenzen ist erforderlich für das Hinzufügen von externer Teilnehmern auf geplante Besprechungen von Ihnen Telefonverbindung oder durch die Einwahlnummer bereitstellen. 
@@ -106,7 +104,7 @@ Mischen von Aufrufen planen und direkte Routing-Konnektivität für den gleichen
 
 Weitere Informationen zur Lizenzierung Telefonsystem finden Sie unter [Optimieren Sie die Nutzung von Office mit Office 365](https://products.office.com/compare-all-microsoft-office-products?tab=2) und [Planen von Office 365-Produkten](https://technet.microsoft.com/library/office-365-plan-options.aspx). 
 
-Weitere Informationen zur Lizenzierung Telefonsystem finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). 
+Weitere Informationen zur Lizenzierung Telefonsystem finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
 
 ## <a name="sbc-domain-names"></a>SBC-Domänennamen
 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: 'Zusammenfassung: Informationen Sie zum Überwachen von Server-Speicher-Kapazitätsgrenzen in Skype für Business Server.'
-ms.openlocfilehash: 05913ea5b32a9a40d7c577c4a0795ccb07db211f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6eb60d48e9da0736ac8753000343b5dc1458bacf
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978700"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "21226974"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Überwachen von Server-Speicher-kapazitätslimits in Skype für Business Server
  
@@ -24,7 +24,7 @@ ms.locfileid: "20978700"
 > Die Informationen in diesem Thema, das auf Capacity Planning verweist bezieht sich nur auf Lync 2010 Mobile-Clients und den Mobilitätsdienst ("MCX"). Kapazitätsplanung für die Unified Communications Web API (UCWA), durch die Lync 2013-Mobile-Clients verwendet, wird von Lync Server 2013, Planungstool bereitgestellt. 
 
 > [!NOTE]
-> MCX-Unterstützung für mobile Clients von Vorversionen ist nicht mehr in Skype für Business Server 2019 verfügbar. Die Benutzer müssen an einen aktuellen Client aktualisieren.
+> Unterstützung für mobile Clients von Vorversionen MCX (Mobility Service) ist nicht mehr in Skype für Business Server 2019 verfügbar. Alle aktuellen Skype für mobile Clients Business Unified Communications Web API (UCWA) zur Unterstützung von Sofortnachrichten (IM), Anwesenheit und Kontakte bereits verwenden. Benutzer mit Clients von Vorversionen von MCX müssen an einen aktuellen Client aktualisieren.
   
 Zwei Leistungsindikatoren für Mobilität können Sie zum Bestimmen der Nutzung von aktuellen und unterstützt Sie beim Planen der Kapazität für die Skype für Business Server-Mobilitätsdienst ("MCX"), als auch um Speicherverwendung UCWA überwachen. Für UCWA ist der Leistungsindikatorkategorie **LS:WEB - UCWA**. Leistungsindikatoren sind für den Mobilitätsdienst ("MCX") unter der Kategorie **LS:WEB - Mobile-Kommunikationsdienst**. Die zu überwachende Leistungsindikatoren sind:
   

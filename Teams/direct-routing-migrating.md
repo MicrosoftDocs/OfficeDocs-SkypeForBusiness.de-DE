@@ -1,5 +1,5 @@
 ---
-title: Migration zum direkten Routing
+title: Migration zu direktem Routing
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +13,14 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Hier erfahren Sie, was für die Migration zu direkten Routing von einer Skype für Business Online und Teams Konfiguration Perspektive erforderlich ist.
-ms.openlocfilehash: 100999483aa3246807008c2e8c60fc6d3ed5baa9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: ff70af11783fb184fc3599fdb6d5fc13c15478a7
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353114"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569926"
 ---
-# <a name="migrating-to-direct-routing"></a>Migration zum direkten Routing
+# <a name="migrate-to-direct-routing"></a>Migration zu direktem Routing
 
 In diesem Artikel wird beschrieben, was für die Migration zu direkten Routing von einer Skype für Business Online und Microsoft-Teams Konfiguration Perspektive erforderlich ist. Dieser Artikel behandelt die Migration aus den folgenden: 
  
@@ -35,7 +35,7 @@ Zusätzlich zu diese Konfigurationsschritte ist Konfiguration auch auf Session B
 
 Die folgende Tabelle zeigt Endstatus für einen Benutzer für den ausgewählten Optionen der PSTN-Konnektivität in Office 365-Telefonsystem bereitgestellt. Nur für VoIP relevanten Attribute werden angezeigt.
 
-|Benutzerattribute-Objekt |Telefonsystem mit Anrufplänen|Phone System mit lokalen PSTN-Anbindung über Skype für Business Server|Telefon-System mit lokalen PSTN-Anbindung über Cloud-Connector|Telefon-System mit lokalen PSTN-Anbindung über direkte Routing|
+|Benutzerattribute-Objekt |Telefonsystem mit dem Aufrufen der Pläne|Phone System mit lokalen PSTN-Anbindung über Skype für Business Server|Telefon-System mit lokalen PSTN-Anbindung über Cloud-Connector|Telefon-System mit lokalen PSTN-Anbindung über direkte Routing|
 |---|---|---|---|---|
 |Client|Skype für Geschäftskunden und Teams |Skype for Business |Skype for Business |Microsoft Teams|
 |Lizenzen|Skype-Business Online</br>Planen von 2</br></br>MCOProfessional oder MCOSTANDARD)</br></br></br>Telefonsystem (MCOEV)</br></br></br>Anrufpläne</br>Teams|Skype Business Online-Plan 2 (MCOProfessional oder MCOSTANDARD)</br></br></br>Telefonsystem (MCOEV)|Skype Business Online-Plan 2 (MCOProfessional oder MCOSTANDARD)</br></br></br>Telefonsystem (MCOEV)|Skype Business Online-Plan 2 (MCOProfessional oder MCOSTANDARD</br></br></br>Telefonsystem (MCOEV)</br></br>Teams|

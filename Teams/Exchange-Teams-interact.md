@@ -3,7 +3,7 @@ title: Interaktion von Exchange und Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: crowe
 description: Lernen Sie die Funktionen kennen, die in Microsoft Teams und den zahlreichen Exchange-Setups gemeinsam verwendet werden, wie zum Beispiel das Erstellen von und die Teilnahme an Teams, das Erstellen von Kanälen usw.
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 020204700101e086691004cb90b5e5f7eabdbe5a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 560e1f81db6e8150bcd8d686747bfb297cbfcf84
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462188"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569982"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams 
 =========================================
@@ -41,8 +41,8 @@ Die folgende Tabelle enthält Informationen für Benutzer, für die Exchange Onl
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Ja, <sup>2</sup>|Ja, <sup>2</sup>|Ja |Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja |Ja|
 |**Exchange Online Dedicated vNext**|Ja, <sup>2</sup>|Ja, <sup>2</sup>|Ja |Ja |Ja|Ja|Ja |Ja|Ja|Ja|Ja |Ja |Ja |
-|**Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)|Ja, <sup>2</sup>|Ja, <sup>2, 3</sup>|Ja <sup>4|Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer|Ja|Nein|Ja|Ja |Ja|Ja <sup>5|Ja |Ja |Ja|
-|**Exchange lokal** (Synchronisierung in Azure AD erforderlich)|Ja, <sup>2</sup>| Ja, <sup>2, 3</sup> |Ja <sup>4|Ja|Ja (Exchange 2016 CU3 oder höher)|Ja (Exchange 2016 CU3 oder höher)|Ja |Ja |Ja|Ja <sup>5|Ja |Ja |Ja |
+|**Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)|Ja, <sup>2</sup>|Ja, <sup>2, 3</sup>|Ja <sup>4|Ja|Nein|Nein|Ja|Ja |Nein|Ja <sup>5|Ja |Ja |Ja|
+|**Exchange lokal** (Synchronisierung in Azure AD erforderlich)|Ja, <sup>2</sup>| Ja, <sup>2, 3</sup> |Ja <sup>4|Ja|Ja (Exchange 2016 CU3 oder höher)|Ja (Exchange 2016 CU3 oder höher)|Ja |Ja |Nein|Ja <sup>5|Ja |Ja |Ja |
 
 <sup>1</sup> exchange 2016 CU3 und oben unterstützt  
 eDiscovery- <sup>2</sup> und rechtlichen Aufbewahrungspflicht für Konformität auf Channel Nachrichten wird für alle Hostingoptionen unterstützt.  

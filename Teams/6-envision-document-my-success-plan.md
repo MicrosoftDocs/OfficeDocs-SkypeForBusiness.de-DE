@@ -1,10 +1,10 @@
 ---
-title: Dokumentieren Sie Ihre Microsoft-Teams Erfolg
+title: Dokumentieren Ihres Microsoft Teams-Erfolgsplans
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd124b8ce06b15bb0c6c33aecd848d9382afde64
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b0a10f56c29ca2218d5dde2c98fb3285c3907b1d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462140"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568472"
 ---
-# <a name="document-my-success-plan"></a>Dokumentieren Sie meine Erfolg
+# <a name="document-my-success-plan"></a>Dokumentieren des Erfolgsplans
 
 Dieser Artikel bietet eine Übersicht über die Anforderungen für Ihre Cloud-VoIP-Bereitstellung ordnungsgemäß dokumentieren. Durch das Definieren und dokumentieren alle Entscheidungspunkte und nächste Schritte beim Planen der VoIP-Cloudbereitstellung, Sie können sicherstellen, dass alle Beteiligten und Mitglieder des Projektteams erfolgreiche Ergebnisse liefern ausgerichtet werden. 
 
@@ -87,8 +87,8 @@ Es folgt ein Beispiel für eine vierteljährliche Ausführungsplan für die Phas
 
 | Website-Bereich                            | Anzahl der Mitarbeiter | Audiokonferenzen | Telefonsystem                    | Quartal ausführen |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
-| USA: New York                             | 2000                | Ja                | Telefonsystem mit Anrufplänen | Q1 CY2018          |
-| Irland: Dublin                          | 300                 | Ja                | Telefonsystem mit Anrufplänen | Q1 CY2018          |
+| USA: New York                             | 2000                | Ja                | Telefonsystem mit dem Aufrufen der Pläne | Q1 CY2018          |
+| Irland: Dublin                          | 300                 | Ja                | Telefonsystem mit dem Aufrufen der Pläne | Q1 CY2018          |
 | Österreich: Wien                          | 500                 | Ja                | Direktes Routing für Telefonsysteme     | Q2 CY2018          |
 | Italien: Mailand                             | 200                 | Ja                | n/v                             | Q2 CY2018          |
 | Südamerika: Brasilien                    | 1500                | Ja                | Direktes Routing für Telefonsysteme     | Q2 CY2018          |

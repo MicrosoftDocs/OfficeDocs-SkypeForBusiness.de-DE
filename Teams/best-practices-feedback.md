@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 description: Hier erhalten Sie Informationen zu den bewährten Methoden für Benutzerfeedback in Microsoft Teams, um optimales Arbeiten im Team sicherzustellen.
 localization_priority: Normal
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65364208cfb268394d764320dbceaedfc5559542
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ee84c8d3c841f7b6e0a8a1ddc6287ecd27c0b898
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461828"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568448"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Bewährte Methoden für Benutzerfeedback in Microsoft Teams
 ===========================================================
