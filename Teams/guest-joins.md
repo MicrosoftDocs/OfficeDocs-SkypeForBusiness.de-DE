@@ -4,7 +4,7 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 ms.date: 10/20/17
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
@@ -14,17 +14,17 @@ search.appverid: MET150
 description: Hier erhalten Sie einen kurzen Überblick darüber, wie ein Gast eingeladen wird, einem Team in Microsoft Teams beizutreten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85956acbdd07ea5e014c93a1229a1ebc432b718f
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d8bc9eabb467479b0b33793ace9fc0b97d179f93
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458876"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640714"
 ---
 <a name="how-a-guest-joins-a-team"></a>Beitritt eines Gasts zu einem Team
 ========================
 
-Ein Teambesitzer inMicrosoft Teams kann Gäste im Team über das Web oder den Desktop hinzufügen und verwalten. Alle Benutzer, die über ein E-Mail-Konto für Geschäftsbenutzer oder Heimanwender (z. B. Outlook, Gmail usw.) verfügen, können als Gäste in Microsoft Teams teilnehmen und erhalten Vollzugriff auf Chats, Besprechungen und Dateien des Teams. Nur Personen außerhalb Ihrer Organisation, z. B. Partner oder Berater, können als Gäste hinzugefügt werden. Personen innerhalb Ihrer Organisation können als reguläre Teammitglieder beitreten.
+Ein Teambesitzer inMicrosoft Teams kann Gäste im Team über das Web oder den Desktop hinzufügen und verwalten. Jeder Benutzer mit einer Business "oder" Consumer e-Mail-Konto, wie Outlook, Google Mail oder andere, kann als Gast in Teams vollen Zugriff auf Team Chats, Besprechungen und Dateien teilnehmen. Nur Personen außerhalb Ihrer Organisation, z. B. Partner oder Berater, können als Gäste hinzugefügt werden. Personen innerhalb Ihrer Organisation können als reguläre Teammitglieder beitreten.
   
 > [!NOTE]
 > Bevor Gäste einem Team beitreten können, muss ein Administrator den Gastzugriff in Teams aktivieren. Klicken Sie dazu finden Sie unter [Aktivieren oder Deaktivieren der Gastzugriff für Microsoft-Teams](set-up-guests.md). 

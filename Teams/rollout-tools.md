@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e542dbcba4d098d197dfd70ab663aa06c9144f4c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 17ef7a0575de20fcef7a10e71d8b81e1504f947e
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458836"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640674"
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Beziehen von Tools zur Unterstützung eines Rollouts von Microsoft Teams
 =================================================
@@ -28,7 +28,7 @@ Das Microsoft Teams Customer Success Kit stellt Tools zur Verfügung, die Ihre O
 
 ### <a name="learn-adjust-and-repeat"></a>Lernen, Anpassen und Wiederholen
 
-Während Sie die hier empfohlenen Schritte unter Verwendung der Customer Success Kit-Ressourcen ausführen, teilen Ihre Projektbeteiligten, Pioniere und Benutzer ihr Feedback. Diese wertvollen Einblicke können Sie bei der Anpassung Ihres Ansatzes, Ihrer Kommunikation und Ihrer Modelle unterstützen, um die Übernahme zu erweitern und voranzutreiben und Ihre Geschäftsergebnisse zu erzielen. Flexibilität in einem agilen Serviceverwaltungsmodell ist ein entscheidender Faktor, um den Erfolg eines heutigen Unternehmens zu garantieren. Wenn Sie dieses Dokument lesen, sind Sie einer der wichtigsten Personen für den Erfolg dieser Bereitstellung, und Ihre Fähigkeit zur Anpassung Ihres Plans an die aktuellen Bedingungen dient als Beschleuniger für die Übernahmekurve in Ihrem Unternehmen.
+Wie Sie die hier mithilfe des Customer Success Kit Ressourcen empfohlen Schritte durchlaufen, werden Ihre beteiligten Champions und Benutzer Feedback freigeben. Diese wertvolle Einblicke unterstützen Sie bei Ihrer Ansatz messaging und Modelle, um bessere Akzeptanz zusätzliche und letztlich sorgt Ihrer Geschäftsergebnisse anpassen. Flexibilität bei einer agile Service-Management-Modell ist wichtig, bei der Bereitstellung von Erfolg am geschäftlichen heute. Wenn Sie dieses Dokument lesen, Sie können eine der Verantwortlichen für den Erfolg dieser Bereitstellung Core Personen, und wird die Möglichkeit zum Anpassen des Plans basierend auf aktuellen von der Annahme Kurve in Ihrem Unternehmen beschleunigt.
 
 Microsoft Teams fördert die Zusammenarbeit und stellt gleichzeitig einen benutzerfreundlichen und robusten Dienst dar. Durch die regelmäßige Überprüfung der Geschäftsergebnisse, die Sie am Anfang dieser Reise festgelegt haben, wird sichergestellt, dass sich die Übernahme von Microsoft Teams positiv auf die Unternehmensgeschäfte innerhalb dieser Prioritäten auswirkt.
 

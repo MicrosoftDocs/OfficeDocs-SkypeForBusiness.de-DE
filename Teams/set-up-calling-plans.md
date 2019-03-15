@@ -22,15 +22,16 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 3462a77deeb6334ae715dadb6445d8b9b0200089
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 97dfa3c330979b151ea851be14e3149ecdfd10b7
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543071"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641374"
 ---
 # <a name="set-up-calling-plans"></a>Einrichten von Anrufplänen
-Anrufe an andere Skype for Business-Benutzer sind kostenlos. Wenn Sie Ihren Benutzern jedoch ermöglichen möchten, Telefone außerhalb Ihres Unternehmens anzurufen, benötigen Sie einen Plan für Inlandsanrufe oder einen Plan für Auslandsanrufe in Office 365. Dies können Sie ganz leicht für Ihr Unternehmen einrichten. 
+
+Anrufe an andere Skype für Unternehmensbenutzer sind kostenlos, allerdings sollen die Benutzer werden sollen, rufen Sie Telefone außerhalb Ihres Unternehmens Abrufen einer nationalen aufrufen planen oder eine International aufrufen planen in Office 365. Es ist einfach, diese für Ihr Unternehmen einzurichten. 
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Schritt 1: Herauszufinden Sie, ob plant Aufrufen in Ihrem Land/Ihrer Region verfügbar sind
 Wechseln Sie zur [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) und wählen Sie Ihr Land oder Region plant aufrufen Verfügbarkeitsinformationen oder Informationen zu Audiokonferenzen, Telefonsystem, gebührenpflichtige und gebührenfreie Rufnummer abrufen Zahlen und Communications haben.
@@ -39,7 +40,7 @@ Wechseln Sie zur [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und
 1. Wenn das Telefonsystem in Office 365-Features nicht in Ihren Plan steht, müssen Sie möglicherweise **Telefonsystem** Add-on-Lizenzen erwerben. Nachdem Sie **Telefonsystem** Lizenzen haben, kaufen Sie [Für Office 365-Pläne aufrufen](calling-plans-for-office-365.md). Finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)und kaufen Sie die Lizenzen und Plan. 
     
     > [!TIP]
-    > **Telefonsystemlizenzen** und Anrufpläne in Office 365 gehören zusammen. Daher benötigen Sie zuerst die **Telefonsystemlizenzen**, damit die Option zum Kaufen von Anrufplänen angezeigt wird.
+    > **Telefonsystem** Lizenzen und Aufrufen in Office 365-Pläne wechseln zusammen, um herauszufinden, die Option zum erwerben aufrufen plant, zuerst die **Telefonsystem** Lizenzen müssen Sie verfügen.
   
 2. Weisen Sie zuerst die Lizenzen aus, und weisen Sie an die Personen in Ihrer Organisation aufrufen planen. Finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md).
     

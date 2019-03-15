@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 msreviewer: jastarck, makolomi
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 051834d3a0fd232cc9839ee6a72a41e9be127636
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 3982afffc948d58d6793b13c06fa3d29d8e48ac9
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542919"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640922"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Das Telefonsystem in Office 365 bietet Ihnen Folgendes
 
-Eine PBX ist ein Telefonsystem in einem Unternehmen. Das Telefonsystem in Office 365 Add-on bietet Ihnen die Möglichkeit der Nebenstellenanlage, jedoch ohne die Equipment kompliziert und teuer. 
+Eine Nebenstellenanlage ist ein Telefonsystem innerhalb eines Unternehmens. Das Telefonsystem in Office 365 Add-on bietet Ihnen die Möglichkeit der Nebenstellenanlage, jedoch ohne die Equipment kompliziert und teuer. 
   
 Skype für Unternehmen können Sie mit dem Add-on Telefonsystem führen Sie grundlegende Aufgaben wie das tätigen und annehmen von Anrufen, übertragen Anrufe und Stummschalten oder unmuting Aufrufe von fast überall mit Internetzugriff. Es ist weltweit verfügbar! 
   
@@ -77,7 +77,7 @@ Einrichten von Telefonsystem ein, in die Möglichkeit, dass am besten Ihr Untern
     
 Finden Sie in diesen Artikeln zur Planung und das Telefonsystem in Ihrem Unternehmen eingerichtet:
 
-- [Telefonsystem mit Anrufplänen](calling-plan-landing-page.md)
+- [Telefonsystem mit dem Aufrufen der Pläne](calling-plan-landing-page.md)
 
 - [Einrichten von Aufrufen plant](set-up-calling-plans.md): in diesem Artikel ist eine schrittweise Anleitung zum Einrichten Ihrer Telefonnummern oder Ihre vorhandenen Telefonnummern in Skype für Unternehmen zu übertragen.
     

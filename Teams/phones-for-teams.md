@@ -4,7 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.reviewer: kponnus
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.audience: Admin
 appliesto:
@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: Dieser Artikel behandelt die Liste der Telefone, die für Microsoft-Teams, und die Features, die in die Zertifizierung für Microsoft-Teams, Telefone unterstützt zertifiziert wurden.
-ms.openlocfilehash: 55777b0bdf03b51e01ffe127e173adb475c957e6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 9531d1c3619c15b0b8669708e40264fec5f211fd
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461796"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640986"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefone für Microsoft Teams
 
@@ -41,12 +41,12 @@ Eine allgemeine Reihe von Features, die in zertifizierten IP-Telefone Teams unte
 |Anmelden mit Benutzeranmeldeinformationen |  Ja  | Ja |
 |Melden Sie sich mit PC/Smartphone  | Ja  |Ja|
 |Moderne Authentifizierung | Ja  |Ja  |
-|Telefon Sperren/Sperre aufheben | Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer |Nein |
+|Telefon Sperren/Sperre aufheben | Ja |Nein |
 |**Anrufe** |  |  |
 |Eingehend/ausgehend P2P-Aufrufe | Ja   |Ja  |
 |Anruf Steuerelemente über die Benutzeroberfläche (stumm schalten, halten/fortsetzen, Weiterleitung, Anruf beenden)| Ja   |Ja  |
 |PSTN-Anrufe| Ja   |Ja  |
-|Visuelle Mailbox | Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer | Nein |
+|Visuelle Mailbox | Ja | Nein |
 |911-Unterstützung  | Ja   |Ja  |
 |**Kalender und Anwesenheit**|   | |
 |Zugriff auf den Kalender und Besprechungsdetails|Ja  |Ja |
@@ -58,7 +58,7 @@ Eine allgemeine Reihe von Features, die in zertifizierten IP-Telefone Teams unte
 |Per Mausklick Join für Besprechungen  | Ja   |Ja  |
 |Skype für Business-Besprechungen teilnehmen | Ja   | Ja |
 |Besprechung die anrufsteuerungen (Stummschalten/stummschaltung aufheben halten/fortsetzen, Auflegen, Teilnehmer hinzufügen/entfernen)|Ja |Ja |
-|Besprechungsdetails|Festlegen einer internationalen Nummer als Standardeinwahlnummer (die in der Besprechungseinladung angegeben ist) für einen Benutzer|Nein|
+|Besprechungsdetails|Ja|Nein|
 
 Wir arbeiten ständig Features, mit denen Benutzer-Erlebnis auf Telefonen ihren Teams hinzuzufügen. Die folgenden Screenshots veranschaulichen einige der Kommunikationskanäle, die wir heute unterstützt werden.
 

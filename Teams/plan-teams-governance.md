@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 08/10/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 description: Erhalten Sie Informationen zur Planung der Implementierung von Governance-Funktionen in Teams.
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0792bf80ebc2d55f4f60e72fe0373a6d86df3923
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 2ce14fee8e9039f538d39c61ef4436c69160b222
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464876"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640946"
 ---
-# <a name="plan-for-governance-in-teams"></a>Planen der Steuerung in Teams
+# <a name="plan-for-governance-in-teams"></a>Planen der Governance in Teams.
 
 Teams bietet einen umfassenden Satz von Tools, die alle Governance-Funktionen, die Ihre Organisation erfordern möglicherweise implementieren. In diesem Artikel wird beschrieben, wie IT-Spezialisten die richtigen Fragen zum Ermitteln der ihren Anforderungen für die Unternehmensleitung und wie diese entsprechen. 
 

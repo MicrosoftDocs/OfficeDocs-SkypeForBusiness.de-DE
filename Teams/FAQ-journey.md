@@ -3,7 +3,7 @@ title: 'Microsoft Teams: Häufig gestellten Fragen | Besprechungen, Konferenzen,
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Häufig gestellte Fragen zur Upgrade-Strategie beim Wechseln von Skype for Business zu Microsoft Teams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7df0310420ba54cffb47393e254bb9d40387a21d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 069c7f067ee1d408ad92cb980d81b807bce0d880
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461716"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641351"
 ---
 # <a name="faq---upgrading-from-skype-for-business-to-microsoft-teams"></a>Häufig gestellten Fragen: Upgrade von Skype for Business auf Microsoft Teams
 

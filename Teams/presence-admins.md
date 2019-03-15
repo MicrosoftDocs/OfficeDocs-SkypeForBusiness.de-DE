@@ -1,26 +1,28 @@
 ---
-title: Vorhandensein eines Benutzers in Teams
+title: Anwesenheit in Teams
 author: jambirk
 ms.author: jambirk
 manager: serdars
 ms.date: 08/21/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: rakayala
 description: Administratoren Informationen müssen zum Verständnis von Anwesenheitsinformationen in Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1934a602d89240c89ffb4f7410192d19a7dd2e61
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 75710a428273a38954de38ef5b6094d412aa3085
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533026"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640970"
 ---
-# <a name="user-presence-in-teams"></a>Vorhandensein eines Benutzers in Teams
+# <a name="user-presence-in-teams"></a>Anwesenheit in Teams
 
 Anwesenheit ist Teil der Profil eines Benutzers in Microsoft-Teams (und in der gesamten Office 365) – und gibt die aktuelle Verfügbarkeit und den Status für andere Benutzer in der Organisation des Benutzers an. Standardmäßig kann jeder Benutzer in Ihrer Organisation mithilfe von Teams anzeigen, und zwar unabhängig davon, ob andere Benutzer online zur Verfügung stehen.
 
@@ -58,9 +60,9 @@ Benutzer können angeben, die über unterbrechen können (in Kontakt treten Übe
 
 Die folgenden administratoreinstellung in Skype für Unternehmen unterscheiden sich in Teams:
 - Freigeben von Anwesenheitsinformationen wird immer in Teams für Benutzer in der Organisation aktiviert. Datenschutz (entscheiden, die Anwesenheitsinformationen angezeigt werden) Konfiguration ist nicht verfügbar in Teams.
-- Anwesenheit Freigabe für alle Benutzer (einschließlich Federated Dienste) ist für Benutzer in Teams immer aktiviert. Ihrer Kontaktliste (Wenn sie SfB in war) wird unter angezeigt **Chat > Kontakte** oder unter **Anrufe > Kontakte**.
+- Anwesenheit Freigabe für alle Benutzer (einschließlich Federated Dienste) ist für Benutzer in Teams immer aktiviert. Ihrer Kontaktliste (Wenn sie SfB in war) wird angezeigt, unter **Chat > Kontakte** oder **Anrufe > Kontakte**.
 - Client nicht stören und überzeugend Features sind für Benutzer in Teams immer aktiviert.
-- Kalender (einschließlich OOF & andere Kalender Info) Integration ist für Benutzer in Teams immer aktiviert, wenn in Outlook integriert.
+- Kalender (einschließlich OOF & anderen Kalender Info) Integration ist für Benutzer in Teams immer aktiviert, wenn in Outlook integriert.
 - *Zuletzt gesehen* oder *Abwesend seit* (sofern in einer Umgebung mit zwei mit Skype für Unternehmen) Indikator ist für Benutzer in Teams immer aktiviert.
 - Festlegen einer benutzerdefinierten Anwesenheitsstatus ist für Benutzer in Teams nicht aktiviert.
 
@@ -68,6 +70,6 @@ Die folgenden administratoreinstellung in Skype für Unternehmen unterscheiden s
 > Die Möglichkeit zum Anpassen dieser Einstellungen einer Teams Admin wird derzeit nicht unterstützt.
 
 
-## <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype für Unternehmen
+## <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 
 Informationen zur Funktionsweise von Teams Anwesenheit bei Koexistenz mit Skype für Unternehmen finden Sie unter [Koexistenz mit Skype für Unternehmen](coexistence-chat-calls-presence.md) . 

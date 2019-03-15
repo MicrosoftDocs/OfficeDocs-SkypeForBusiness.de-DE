@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 10/05/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
 description: Lernen Sie die Grenzwerte für die Spezifikationen und anderen Anforderungen für Microsoft-Teams.
@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4da0f7049912c246a58792c8c03c15b28a083cbc
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 391fd25aeec4ae52b31865f25be9b127158ef764
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460652"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641168"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limits und Spezifikationen für Microsoft Teams
 =============================================
@@ -80,7 +80,7 @@ Microsoft-Teams, Chat Funktion arbeitet auf einem Microsoft Exchange Back-End-Ex
 |Funktion  |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |---------|---------|---------|---------|---------|
 |Die Nachrichtengröße&dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
-|Grenzwert für Dateianlagen&Dagger;  | 10     | 10     | 10     | 10    |
+|Grenzwert für Dateianlagen&Dagger;  |10     |10     |10     |10    |
 |Beschränken der Bilder&Dagger; |50   |50   |50   |50   |
 
 &dagger;Wenn die Nachricht diesen Grenzwert überschreitet, wird eine Vorschau der Nachricht wird generiert, und der Benutzer wird aufgefordert, Ansicht/die ursprüngliche e-Mail aus den angezeigten Link herunterladen.
@@ -89,7 +89,7 @@ Microsoft-Teams, Chat Funktion arbeitet auf einem Microsoft Exchange Back-End-Ex
 
 Weitere Informationen finden Sie unter [Exchange Online-Begrenzungen](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
-<a name="browsers"></a>-Browser 
+<a name="browsers"></a>Browser 
 --------
 
 [!INCLUDE [browser-support](includes/browser-support.md)]

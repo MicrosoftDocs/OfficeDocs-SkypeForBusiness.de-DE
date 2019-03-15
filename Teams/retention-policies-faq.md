@@ -1,10 +1,10 @@
 ---
-title: Microsoft-Teams, Aufbewahrungsrichtlinien – häufig gestellte Fragen
+title: Häufig gestellte Fragen zu Microsoft Teams-Aufbewahrungsrichtlinien
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/11/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
 description: Häufig gestellte Fragen zu Aufbewahrungsrichtlinien in Microsoft-Teams.
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7597565afcd63872554e867d8f68929a3e214538
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 14e398908a13e621d739a5a923b52588551506f8
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461020"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641335"
 ---
-# <a name="microsoft-teams-retention-policies-faq"></a>Microsoft-Teams, Aufbewahrungsrichtlinien – häufig gestellte Fragen
+# <a name="microsoft-teams-retention-policies-faq"></a>Häufig gestellte Fragen zu Microsoft Teams-Aufbewahrungsrichtlinien
 
 ### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>Welche Arten von Richtlinien kann ich in eingerichtet Aufbewahrungsrichtlinien und wie funktionieren?
 

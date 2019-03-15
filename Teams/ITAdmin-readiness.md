@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 02/15/2019
+ms.date: 03/14/2019
 ms.topic: landing-page
 ms.service: msteams
 ms.collection:
@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Schulungsvideos, PowerPoint-Präsentationen, Lernprogramme und andere Ressourcen für Administratoren zum Planen, bereitstellen und Ausführen von Microsoft-Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85ff5f21b1e23f2ff0407272a3e86885b779a3d6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f166d3a00fbf0ea9b51fa1d083ed490d7323df0c
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461852"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641160"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Administratorschulungen für Microsoft Teams
 
@@ -90,24 +90,25 @@ Verwenden Sie die Schulungsressourcen informieren Sie sich über Teams, andere P
 | ------------ | -------------------- | -------------------- |
 | Grundlagen - Kernkomponenten | [Video](https://aka.ms/teams-foundations) | [Deck](https://aka.ms/teams-foundations-deck) |
 | Windows-Desktop-Client | [Video](https://aka.ms/teams-clients) | [Deck](https://aka.ms/teams-clients-deck) |
-| Steuerung und Verwaltung Lifecylce | [Video](https://aka.ms/teams-governance) | [Deck](https://aka.ms/teams-governance-deck) |
+| Steuerung und Verwaltung Lebenszyklus | [Video](https://aka.ms/teams-governance) | [Deck](https://aka.ms/teams-governance-deck) |
 | Netzwerkplanung | [Video](https://aka.ms/teams-networking) | [Deck](https://aka.ms/teams-networking-deck) |
 | Übersicht über die Qualität aufrufen | [Video](https://aka.ms/teams-quality) | [Deck](https://aka.ms/teams-quality-deck) |
 | Einführung in Besprechungen | [Video](https://aka.ms/teams-meetings-intro) | [Deck](https://aka.ms/teams-meetings-intro-deck) |
+| Live-Ereignisse | [Video](https://aka.ms/teams-live-events-session) | [Deck](https://aka.ms/teams-live-events-deck) |
 | Einführung in die Telefon-System | [Video](https://aka.ms/teams-phone-system) | [Deck](https://aka.ms/teams-phone-system-deck) |
 | Direktes Routing | [Video](https://aka.ms/teams-direct-routing) | [Deck](https://aka.ms/teams-direct-routing-deck) |
 | Upgrade von Skype for Business auf Microsoft Teams | [Video 1: Einführung in das Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Planen des Upgrades](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Interoperabilität und Koexistenz](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administratorbenutzeroberfläche](https://aka.ms/teams-upgrade-admin) | [Deck](https://aka.ms/teams-upgrade-deck)|
 
-<h2>Schnellstarthandbücher</h2>
+<h2>Schnellstart Führungslinien</h2>
 
 - [Schnellstart: Teams für Bildungseinrichtungen-Admins](teams-quick-start-edu.yml)
 - [Schnellstart: Konfigurieren von Aufrufen plant in Teams](configuring-teams-calling-quickstartguide.md)
 
 <h2>Lernprogramme</h2>
 
-- [Tutorial: Reise von Skype for Business zu Microsoft Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
+- [Tutorial: Von Skype for Business zu Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
 - [Tutorial: Besprechungen in Microsoft Teams](tutorial-meetings-in-teams.yml)
-- [Lernprogramm: Audiokonferenzen in Teams](tutorial-audio-conferencing.yml)
+- [Tutorial: Audiokonferenzen in Teams](tutorial-audio-conferencing.yml)
 - [Tutorial: Grundlegendes zu Anrufen in Microsoft Teams](tutorial-calling-in-teams.yml)
 
 <h2>Schulungskurse</h2>

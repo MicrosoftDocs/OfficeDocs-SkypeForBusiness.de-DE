@@ -4,7 +4,7 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 ms.date: 11/26/18
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9301ecf94588560b1ba11b17b2c7f92d89cb072a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 041bd5db6f0579a21dbdff15136e91a70e5a8d21
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458980"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641081"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
@@ -63,24 +63,24 @@ In der folgenden Tabelle zeigt die verfügbaren Features aufrufende und Besprech
 | Können einen Anruf weiterleiten | Ja | Ja  | Ja  |
 | Konsultieren vor dem durchstellen können | Ja | Ja  | Ja  |
 | Können andere Benutzer zu einem Anruf über VOIP hinzufügen | Ja | Ja  | Ja  |
-| Können Benutzer nach Telefonnummer einen Anruf hinzufügen | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
+| Können Benutzer nach Telefonnummer einen Anruf hinzufügen | Nein | Nein | Ja |
 | Forward-Ziel | Nein | Ja | Ja  |
 | Rufen Sie die Gruppe Ziel | Nein | Ja | Ja  |
 | Nicht beantwortete Ziel | Nein | Ja | Ja  |
 | Kann das Ziel einer federated Aufrufs | Nein | Ja | Ja  |
 | Können Verbundbenutzer anrufen | Nein | Ja | Ja  |
-| Können sofort ihre Anrufe weiterleiten. | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
-| Ihre Anrufe können gleichzeitig bei Anrufen. | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
-| Kann ihre nicht entgegengenommene Anrufe weitergeleitet werden. | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
+| Können sofort ihre Anrufe weiterleiten. | Nein | Nein | Ja |
+| Ihre Anrufe können gleichzeitig bei Anrufen. | Nein | Nein | Ja |
+| Kann ihre nicht entgegengenommene Anrufe weitergeleitet werden. | Nein | Nein | Ja |
 | Verpasste Anrufe können an Voicemail umgeleitet wird | Nein | Keine<sup>1</sup> |Ja |
-| Haben Sie eine Telefonnummer ein, die Anrufe empfangen zu können | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
-| Wählen Sie Telefonnummern können | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
-| Kann Access Einstellungen aufrufen | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
+| Haben Sie eine Telefonnummer ein, die Anrufe empfangen zu können | Nein | Nein | Ja |
+| Wählen Sie Telefonnummern können | Nein | Nein | Ja |
+| Kann Access Einstellungen aufrufen | Nein | Nein | Ja |
 | Voicemail-Ansage zu ändern können | Nein | Keine<sup>1</sup> | Ja |
-| Klingeltöne kann geändert werden. | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein  | Ja |
-| Unterstützt TTY | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
-| Kann eine Stellvertretung werden | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
-|  Kann eine als Stellvertretung in Frage | Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren. | Nein | Ja |
+| Klingeltöne kann geändert werden. | Nein | Nein  | Ja |
+| Unterstützt TTY | Nein | Nein | Ja |
+| Kann eine Stellvertretung werden | Nein | Nein | Ja |
+|  Kann eine als Stellvertretung in Frage | Nein | Nein | Ja |
 
 
 <sup>1</sup> dieses Feature Kürze verfügbar.
