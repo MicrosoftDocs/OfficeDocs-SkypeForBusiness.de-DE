@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark
-ms.topic: article
+ms.topic: reference
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Dieses Thema enthält alle Länder/Regionen Benutzer ausgehende Anrufe an tätigen können, wenn sie einen Aufruf von Plan verfügen.
-ms.openlocfilehash: 1965e362114b98f2b41cf3f3efbf74fcab93a83c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 70c0a0631f4f01ab87ef185b96b6c3fb00b14e6e
+ms.sourcegitcommit: 13445200c9b2991d5a88c8e203048cd7d094382c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465100"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30645424"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Benutzer können ausgehende Anrufe in diese Länder und Regionen vornehmen
 
@@ -63,16 +63,16 @@ ms.locfileid: "30465100"
 |Bhutan |Guinea |Luxemburg |Niederländische Antillen |Slowakei |Sambia  |
 |Bolivien |Guyana| |Neukaledonien |Slowenien |Simbabwe |
 |Bosnien und Herzegowina |Haiti ||Neuseeland |Südafrika | 
-|Botswana |Honduras ||Nicaragua |Spanien |
-|Brasilien |Hongkong ||Niger |Sri Lanka | 
-|Bunei Darussalam |Ungarn ||Nigeria |Saint-Pierre und Miquelon | 
-|Bulgarien |||Nördliche Marianen |Sudan |
-|Burkina Faso |||Norwegen |Surinam |
-|Kambodscha |||Oman |Swasiland | 
-|Kamerun ||||Schweden |
-|Kanada ||||Schweiz | 
-|Cabo Verde ||||Syrische Arabische Republik |
-|Kaimaninseln |
+|Botswana |Honduras ||Nicaragua |South Sudan |
+|Brasilien |Hongkong ||Niger |Spanien | 
+|Bunei Darussalam |Ungarn ||Nigeria |Sri Lanka | 
+|Bulgarien |||Nördliche Marianen |Saint-Pierre und Miquelon |
+|Burkina Faso |||Norwegen |Sudan |
+|Kambodscha |||Oman |Surinam | 
+|Kamerun ||||Swasiland |
+|Kanada ||||Schweden | 
+|Cabo Verde ||||Schweiz |
+|Kaimaninseln ||||Syrische Arabische Republik |
 |Zentralafrikanische Republik |
 |Chile |
 |China |
