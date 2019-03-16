@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/06/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -12,12 +12,12 @@ ms.collection:
 description: Erfahren Sie, die PowerShell-Steuerelemente verwenden Sie zum Verwalten von Microsoft-Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68dbd84c93e34d79d29c75ce7c3ad98934227432
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 9d1bf3c0c29b9720e0199377b92371468e3a7a52
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543223"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649484"
 ---
 # <a name="teams-powershell-overview"></a>Übersicht über PowerShell für Microsoft Teams
 

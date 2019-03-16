@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 11/02/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 description: Hier erhalten Sie Informationen zu den verschiedenen verfügbaren Teams, Kanälen und Apps für die verschiedensten Anforderungen wie zum Beispiel Finanzen, Planung von Veranstaltungen, Vertrieb und vieles mehr.
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e78806ae0fb4b118757026fda695dcba03bae1dd
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 8677354bf6a8e500e1ee138fef65327711e74105
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493973"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647441"
 ---
 > [!NOTE]
 > Lesen Sie die folgenden Informationen zum Verständnis der Chat, Teams, Kanäle, &-apps in Teams. Fahren Sie mit [Chat bereitstellen, Teams, Kanäle, &-apps in Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) eine Liste von wichtigen Entscheidungen zu nahezubringen Teams durchlaufen.
@@ -36,7 +36,7 @@ Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst org
 
     -   Teams können als private Teams nur für eingeladene Benutzer erstellt werden.
 
-    -   Teams können auch als öffentliche und offene Teams erstellt werden, an denen alle in der Organisation teilnehmen können (maximal 2.500 Mitglieder).
+    -   Teams können ebenfalls erstellt werden, um öffentliche und geöffnet werden, und jeder innerhalb der Organisation (bis zu 5000 Mitglieder) teilnehmen kann.
     
     Teams sollen Gruppen von Personen zusammenbringen, die eng zusammenarbeiten, um ihre Produktivität zu verbessern. Möglich sind dynamische Teams für projektbasierte Aufgaben (zum Beispiel Einführung eines Produkts oder Einrichtung eines gemeinsamen digitalen Arbeitsraums). Eine weitere Möglichkeit sind ständige Teams, die die interne Struktur Ihrer Organisation widerspiegeln (z. B. Abteilungen und Bürostandorte). Unterhaltungen, Dateien und Notizen in Teamkanälen sind nur für Mitglieder des Teams sichtbar.
 

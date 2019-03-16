@@ -3,7 +3,7 @@ title: Eintragen von Beteiligten | Skype für Unternehmen, die Teams Planen eine
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Eintragen von Beteiligten, um das Projektteam für das Upgrade zu verarbeiten.
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c456d60d8dc4f98e2fa75b90dfbb80c0fd90f13
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 6de0b8a3924a9f4e80bd1ff462a5a7dd9e8f8bd6
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461292"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649204"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf das Team der Projektbeteiligten sammeln] (media/upgrade-banner-stakeholders.png "Phasen der Upgrade Reise, mit Schwerpunkt auf das Team der Projektbeteiligten sammeln")
 
 Dieser Artikel ist Teil der Projektbeteiligten Stufe des Ihrem Upgrade Weg, die erste und die wichtigsten Aktivität, die für den Erfolg des Projekts ausgeführt werden.
 
-# <a name="enlist-your-project-stakeholders"></a>Tragen Sie Ihre Projektbeteiligten
+# <a name="enlist-your-project-stakeholders"></a>Ernennen der Projektbeteiligten
 
 Durch die Implementierung von Projektlieferumfänge Accountability führen, halten Sie die Taste für den Erfolg des Projekts Beteiligten. Es gibt zwei Gruppen von Beteiligten, die Sie zuweisen möchten: (1) ein _Coalition Unterstützung durch_ die Führungskräfte und Projekt Sponsor, die ein begründetes Interesse haben und Einfluss auf des Projekts Erfolg und (2 umfasst) _Team project_, bestehend aus der Planen von Personen zur Sicherstellung technische und benutzervorbereitung, verantwortlich, die die verschiedenen Aufgaben im Projekt abgeschlossen werden. Das verbindende zwischen diesen beiden Gruppen ist _Projektmanager_, um sicherzustellen, dass Projektaufgaben termingerecht abgeschlossen abrufen und Berichte wieder auf die Coalition Projektstatus arbeitet.
 

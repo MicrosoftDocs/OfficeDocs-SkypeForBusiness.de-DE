@@ -3,7 +3,7 @@ title: Planen von dienstverwaltung und Qualität | Technische Bereitschaft
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Verwenden Sie diese Anleitung um kennen zu lernen die Anforderungen, die zum Bereitstellen und Verwalten von eine hohe Qualität Microsoft-Teams, Bereitstellung erforderlich sind.
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc1332acb7f6623ed3d9faf8919558b71d4b347d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 45dafd29302dc26dae80461a7c4082c6a73469c8
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465188"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649516"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft")
 
@@ -33,7 +33,7 @@ Dieser Artikel ist Teil technische Bereitschaft Stufe des Ihrem Upgrade Weg, ein
 
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
 
-# <a name="plan-for-quality"></a>Plan für die Qualität
+# <a name="plan-for-quality"></a>Planen der Qualität
 
 Wenn Sie Audio-, Video- oder Besprechungen bereitstellen, können Sie einige zusätzliche Schritte zur Optimierung Ihrer Umgebung für diese Funktionalität nutzen. Sie erhalten hier eine Übersicht über die Anforderungen, die bei einer qualitativ hochwertigen Microsoft Teams-Bereitstellung erfüllt sein müssen. Sie können eine erfolgreiche Bereitstellung durch Planung für dienstverwaltung und die Qualität, vor der ersten Bereitstellung Pilot- oder Produktionsserverfarm sicherzustellen.
 

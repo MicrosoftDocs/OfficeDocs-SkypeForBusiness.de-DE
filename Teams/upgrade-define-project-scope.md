@@ -3,7 +3,7 @@ title: Project Bereich Skype für Microsoft-Teams, Einführung Business | Upgrad
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Gültigkeitsbereich des Upgrade-Projekts durch optimieren Ihre Vision und Ziele.
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a4d042864e3260404ddbbaa56f39c7408a0896c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 346fbfc241616af0ac071269f73dbc4f1ad66bfb
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464828"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649404"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase] (media/upgrade-banner-project-definition.png "Phasen der Upgrade Reise, mit Schwerpunkt auf der Project-Definition-Phase")
 
@@ -28,7 +28,7 @@ Dieser Artikel ist Teil der Project-Definition Phase der Ihrem Upgrade Weg, eine
 
 - [Eingetragenen Projektbeteiligten](upgrade-enlist-stakeholders.md)
 
-# <a name="define-your-project-scope"></a>Definieren der Umfang des Projekts
+# <a name="define-your-project-scope"></a>Definieren des Projektumfangs
 
 Zeit zum Definieren Ihrer Projektziel, Umfang, Ziele und Governance wird sichergestellt alle Beteiligten Projektdateien ausgerichtet sind und in Richtung die gleichen Ergebnisse arbeiten. Dies ist besonders wichtig, wenn die des technischen Bereitschaft Teams und der Benutzer Readiness Team unabhängig voneinander arbeiten, um die entsprechenden Teile zusammen. Nach Abschluss der in diesem Abschnitt finden Sie im Verlauf des Projekts, um sicherzustellen, dass Sie befinden sich auf Weg der Endzustand erreichen möchten, hinzu. Verwenden Sie die Ziele, die Sie unter identifizieren, um Ihre Ergebnisse zu messen und bei Bedarf zu mindern.
 

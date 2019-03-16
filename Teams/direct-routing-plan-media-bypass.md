@@ -15,18 +15,18 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lesen Sie in diesem Thema erfahren, wie für die medienumgehung mit Phone System direktem Routing planen.
-ms.openlocfilehash: 39fc46fb95fef1d78f6f6cc946693f05c7c1f865
-ms.sourcegitcommit: 260635a24b282fbdf4a4aeffdb0f4f9be5407ec6
+ms.openlocfilehash: 6a152fed20dde9d641abfab1bdba7b211f2dcdb9
+ms.sourcegitcommit: 27cf21fb02632e9f65dfa2f995120fb927114b3d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30631055"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30649212"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der medienumgehung mit direktem Routing
 
 ## <a name="about-media-bypass-with-direct-routing"></a>Zur medienumgehung mit direktem Routing
 
-Die medienumgehung können Sie den Pfad der Mediendatenverkehr kürzen, und reduzieren Sie die Anzahl von Hops während der Übertragung für eine bessere Leistung. Mit medienumgehung werden Medien zwischen Session Border Controller (SBC) und dem Client anstelle der Microsoft-Telefonsystem per gespeichert. Zum Konfigurieren von Medien muss umgehen, die SBC und dem Client im selben Speicherort oder Netzwerk
+Die medienumgehung können Sie den Pfad der Mediendatenverkehr kürzen, und reduzieren Sie die Anzahl von Hops während der Übertragung für eine bessere Leistung. Mit medienumgehung werden Medien zwischen Session Border Controller (SBC) und dem Client anstelle der Microsoft-Telefonsystem per gespeichert. Zum Konfigurieren von Medien muss umgehen, die SBC und dem Client im selben Speicherort oder Netzwerk.
 
 Sie können die medienumgehung für jede SBC steuern, mit dem **Set-CSOnlinePSTNGateway** -Befehl mit dem **MediaBypass -** Parameter auf true oder false festgelegt. Wenn Sie die medienumgehung aktivieren, bedeutet dies nicht, dass alle Mediendatenverkehr innerhalb des Unternehmensnetzwerks während bleibt. Dieser Artikel beschreibt den Anruffluss in verschiedenen Szenarien.    
 

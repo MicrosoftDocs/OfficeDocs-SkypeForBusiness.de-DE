@@ -3,7 +3,7 @@ title: Vorgänge für Microsoft-Teams | Service-Management | Qualität
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Aufgaben und Aktivitäten erforderlich für Teams Servicemanagement, einschließlich Dienststatus, monitoring und bewerten und sicherstellen, dass Netzwerkqualität und Verwendungsanalyse
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42df00ed52b62d70d8c9ea734291d77e0ba038ad
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 44a215c96c85c6681ba4dcfda82e7193a48b95c9
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460500"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649412"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 
 Dieser Artikel ist Teil der erstklassige Betriebsprozesse Stufe des Ihre Upgrade Reise, wodurch gestartet wird, sobald Sie die Aktualisierung von Skype für Unternehmen auf Teams abgeschlossen haben.
 
-# <a name="operate-your-service"></a>Verwenden von Ihrem Dienst
+# <a name="operate-your-service"></a>Betreiben des Diensts
 
 Dieser Artikel bietet eine Übersicht über die Anforderungen für Teams für Ihre Organisation erfolgreich ausgeführt, nachdem Sie aktualisiert haben. Ihre Teams Dienste ordnungsgemäß funktioniert, können Sie sein sicher, dass Sie eine hohe Qualität und zuverlässige Erfahrung für Ihre Organisation zur Verfügung stellen.
 
@@ -399,7 +399,7 @@ Es wird dringend empfohlen, dass am Anfang der Qualität "Champion" benennen. Na
 
 [Informationen zum Erstellen von hochladen](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[Quality of Experience überprüfen Guide](https://aka.ms/qerguide)
+[Handbuch für die Überprüfung der QoE (Quality of Experience)](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 

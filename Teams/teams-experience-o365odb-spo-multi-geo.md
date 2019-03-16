@@ -1,9 +1,9 @@
 ---
-title: Teams Erfahrung in einer Office 365 OneDrive und SharePoint Online Multi-Geo-enabled-Instanz
+title: Teams-Umgebung in einer Office 365 OneDrive und SharePoint Online Multi-Geo-fähigen Mandanteneinheit
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 description: Informationen Sie zum Verwenden von Teams in einer Office 365 OneDrive und SharePoint Online Multi-Geo-enabled-Instanz.
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01b93b67125693487e07fce824c01dbd5e955294
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e90e4a3c1ae2886a01802a805da3464cea3d8b50
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462628"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649260"
 ---
-<a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Teams Erfahrung in einer Office 365 OneDrive und SharePoint Online Multi-Geo-enabled-Instanz
+<a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Teams-Umgebung in einer Office 365 OneDrive und SharePoint Online Multi-Geo-fähigen Mandanteneinheit
 ===========================================
 
 Microsoft-Teams ist Group Chat Software, den Hub für die Zusammenarbeit in Office 365. Es wird von der Gruppen von Office 365-Dienst zusammen mit SharePoint Online und OneDrive für Unternehmen für ihre Dateien Erfahrung bereitgestellt. In einer OneDrive for Business/SharePoint Online Multi-Geo-Instanz, in dem der Mandant auf viele geografische Standorte hinweg wie Nordamerika und Europa Australien, erweitert wird bildet die zugrunde liegenden Dateien Multi-Geo beachten, damit die Teams bei Datei auftreten Zusammenarbeit ist auch Multi-Geo berücksichtigen. Dies spielt eine wichtige führender für Teams Fläche Dateien über mehrere Geos in ihre Erfahrung systemeigene Dateien gehostet.

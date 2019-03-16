@@ -15,12 +15,12 @@ f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticl
 description: Hier erfahren Sie, wie Administratoren Informationen zu Gastbenutzern in Microsoft Teams anzeigen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 852963652397b2e8c792ad7203c71520f79a4a52
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 6a5db8c39ace9dc3682441495000f61a7a2523f9
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493653"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649140"
 ---
 <a name="view-guest-users-in-a-team"></a>Anzeigen von Gastbenutzern in einem Team
 ==========================
@@ -29,8 +29,8 @@ Jeder Benutzer in einem Team kann alle Mitglieder des Teams, einschließlich Gä
 Gastbenutzer identifiziert:
 
 1.  Melden Sie sich bei Microsoft 365 Administrationscenter an.
-2.  Wählen Sie **Admin zentriert** > **Teams & Skype**.
-3.  Wählen Sie in der Microsoft-Teams & Skype Admin Center **Benutzer**. **Gast** an den Anzeigenamen aller Benutzer Gast angefügt wurden, werden angezeigt.
+2.  Wählen Sie **Admin zentriert** > **Teams**.
+3.  Wählen Sie in der Verwaltungskonsole von Microsoft-Teams, **Benutzer**. **Gast** an den Anzeigenamen aller Benutzer Gast angefügt wurden, werden angezeigt.
   
 Sie können auch Gastbenutzern über ein Team identifizieren, die Sie besitzen.  
 

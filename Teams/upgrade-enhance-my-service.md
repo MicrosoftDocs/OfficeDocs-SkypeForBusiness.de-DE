@@ -3,7 +3,7 @@ title: Microsoft-Teams Anforderungen | Verbessern der Service
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Führen Sie regelmäßige Verkaufschancen Sie zum Verbessern des Teams Diensts nach der Aktualisierung, Überwachen der Übersicht über die Teams für interessante Feature verbessert.
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20d3c30157b58640b3bdfe5c1941d68a745c0e68
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 78b90349ebaf5dfea878d32c750d03d379c14cab
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461252"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649372"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 

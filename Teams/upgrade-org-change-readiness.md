@@ -3,7 +3,7 @@ title: Skype für Unternehmen, die Microsoft-Teams | Aktualisieren von Benutzerv
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Sicherzustellen, dass Ihrer Organisation und die Benutzer sind bereit für Microsoft-Teams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00294800f0e63c45c550b46be59623349ed3ade7
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0ac397a7ba54a81a2d92cf4823144da2b0c56a3c
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465236"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649452"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase] (media/upgrade-banner-user-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase")
 
@@ -31,7 +31,7 @@ Dieser Artikel ist Teil der User Readiness Stufe des Ihrem Upgrade Weg, eine Akt
 - [Skype-Interoperabilität und Koexistenz für Unternehmen und Teams verstanden](https://aka.ms/SkypeToTeams-Coexist)
 - [Ihre Reise Upgrade ausgewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="assess-organizational-change-readiness"></a>Ermitteln Sie die Bereitschaft der Organisation ändern
+# <a name="assess-organizational-change-readiness"></a>Bewerten der Bereitschaft zu organisationsweiten Änderungen
 
 Nachdem Sie Ihr Projektteam gesichert und Vision, Umfang und die Ziele definiert haben, wird im nächsten Schritt auf Ihrem Upgrade Weg um sicherzustellen, dass Ihre Organisation und Benutzer für Teams bereit sind – eine Aktivität, die Sie parallel zu gewährleisten, dass Ihre technische Bereitschaft abschließen. Um den Wert von Teams nutzen zu können, müssen Benutzer tatsächlich verwendet werden. Aktivieren einfach Teams wird nicht gewährleistet, dass Sie Ihr Ziel erreichen. Benutzer verfügen über verschiedene Anwendungsfälle und verschiedener Learning Formatvorlagen, und sie auf neue Technologie mit verschiedenen Geschwindigkeit anpassen. Die gute Nachricht ist, dass Verwalten von Änderung alles ganz einfach ist, aber es eine Engagement im Zusammenhang dauert. Die unten aufgeführten geführten Diskussionen sollen Ihnen Ihre Benutzerbasis zu verdeutlichen, damit Sie das richtige Maß Education zu vereinfachen und zu beschleunigen Benutzerakzeptanz vorbereiten können. Es gibt zwei Methoden, die Sie Ihre Benutzerbasis betrachten sollten:
 

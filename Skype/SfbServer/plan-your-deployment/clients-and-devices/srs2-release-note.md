@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2.
-ms.openlocfilehash: 7eb6eb3c9bcd2cbbbe72a6fc96d619303216cd37
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: fefad8a37d53760a81b2ea78e73bbd75069c848f
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729400"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30645356"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version 
 
@@ -26,7 +26,9 @@ In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2
 
 | Version | Veröffentlicht <br>Microsoft Store | 
 | ---     | ---  |
-| 4.0.64.0 | 14.12.2018   |
+| 4.0.78.0 | 03/14/2019   |
+| 4.0.76.0 | 03/04/2019   |
+| 4.0.64.0 | 12/14/2018   |
 | 4.0.51.0 | 11/17/2018   | 
 | 4.0.31.0 | 10/16/2018   | 
 | 4.0.27.0 |  10/1/2018    | 
@@ -50,6 +52,19 @@ In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype-Chatroom-Systemen v2 Feature Einführung und Behebung
+
+### <a name="40780-03142018"></a>4.0.78.0 (14/03/2018)
+In diesem Update eingeführt:
+- Update für "hängt beim Start app" Fehler, die Geräte an, für die Vorversion Windows 10 RS2 Build betroffen.  
+
+### <a name="40760-03042019"></a>4.0.76.0 (04/03/2019)
+In diesem Update eingeführt:
+- DTMF-Tastatur für Microsoft-Teams, Besprechungen. Damit Microsoft-Teams, der Standardclient für aufrufen können, müssen Administratoren IsTeamsDefaultClient auf True festgelegt.
+- Anheften eines remote Teilnehmers eingehendes Video Vollbildmodus auf Raum Anzeige am Anfang. Verwenden Sie Befehl "Anheften" aus der Teilnehmerliste der Teilnehmer in der Konsole
+- Verbesserungen an Wartebereich Benachrichtigungen durch Hinzufügen von Front-Chatroom-Benachrichtigung
+- Am Anfang Raum Anzeige entfernt Casting-Symbol, wenn Bluetooth-Signal auf Raum Systemgerät nicht aktiviert ist
+- Update für Volume Steuerelement Problem in Teams Besprechungen
+
 
 ### <a name="40640-12142018"></a>4.0.64.0 (14/12/2018)
 In diesem Update eingeführt:
@@ -159,7 +174,7 @@ In diesem Update eingeführt:
 - Die Möglichkeit, Feedback geben für Öffentliche builds     
 - Verbesserte Telemetrie an Besprechung teilnehmen Zuverlässigkeit     
 - Zusätzliche OMS reporting     
-- Möglichkeit für IT-Administrator können Sie Geräte Remote konfigurieren<!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
+- Möglichkeit für IT-Administrator können Sie Geräte Remote konfigurieren  <!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
 
 
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
@@ -198,7 +213,7 @@ In diesem Update eingeführt:
  
 
 <a name="See"> </a>  
-## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
+## <a name="see-also"></a>Siehe auch
 
 [Skype Raum Systeme Version 2-Hilfe](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

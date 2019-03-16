@@ -3,7 +3,7 @@ title: Microsoft-Teams durchführen eines Upgrades von Skype für Unternehmen | 
 author: lsomi
 ms.author: lsomi
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen, bjwhalen
 description: Details der Skype für Geschäfts- und Microsoft-Teams Koexistenz Optionen Modi und Upgrade Fahrten Teams von Skype für Unternehmen mit Beispielszenarien.
@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4c7401ccf8bdefa7eaf906795d5e5e37ac8ba2e
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 22bd17ffbb29695f69aa4eff8581821a882f1614
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493957"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649196"
 ---
 ![Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase] (media/upgrade-banner-deployment.png "Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase")
 
@@ -54,7 +54,7 @@ Wenn es nicht möglich, für die gesamte Organisation verschieben, Teams ist, k�
 
 Die folgende Tabelle vergleicht Upgrade und Koexistenz beider Modi.
 
-|Modus |Situation |Empfohlene Verwendung |Vorteile |Warnhinweise |
+|Modus |Situation |Empfohlene Verwendung |Advantages |Warnhinweise |
 |---|---|---|---|---|
 |Inseln |Kleinere oder einfacher Skype für die Business-Bereitstellung<br><br>Möglichkeit und Bereitschaft zur einige kurzfristige Komplexität verwalten Teams schneller zu verschieben |Wechseln Sie zu der vollständigen Teams Erfahrung so schnell wie möglich<br><br>Durchführen einer Machbarkeitsstudie (PoC) des Teams<br><br>Empfohlene Aktualisierungspfad für Organisationen, die für Business Online Skype beschlossen |Einfach zu bedienen<br><br>Erleben Sie die im Vorfeld für alle Funktionen inhaltlich Teams |Erfordert eine gute Benutzerkommunikation um Verwechslungen zu vermeiden und zur Verwendung in Richtung Teams Laufwerk<br><br>Exit-Strategie erfordert, dass Benutzer vollständig Teams eingeführt haben, vor dem Beginn der Aktualisierung auf Teams nur phase<br><br>Keine Interop für Benutzer im Modus Inseln; auch verwaltet lokale von Teams bei Skype für Business-Konto des Benutzers ist kein Verbund|
 |Skype für Unternehmen mit Teams für die Zusammenarbeit |Skype für die Business-Bereitstellung mit Anforderungen, die von Teams (beispielsweise erweiterte Compliance) noch nicht erfüllt ist<br><br>Langfristige Notwendigkeit und/oder Engagement Skype für Unternehmen|Starten Sie Teams Annahme schnell, zuerst Konzentration auf die Zusammenarbeit von Gruppen<br><br>Alle unified Communications-Arbeitslasten auf Skype für Unternehmen für jetzt gespeichert werden sollen<br><br>Empfohlene Verwendung als Ausgangspunkt für ihre Reise aus für vor Ort (oder Hybrid) starten Organisation Skype für Unternehmen|Keine überlappenden Funktionen zwischen Teams und Skype für Unternehmen<br><br>Instant messaging, Chat und Besprechung planen befinden sich in Skype für Unternehmen (verbunden mit einem Aufruf)<br><br>Interoperabilität mit Benutzern in nur-Teams|

@@ -3,7 +3,7 @@ title: Die Qualität des Benutzererlebnisses | Microsoft-Teams | QoS | Die Anruf
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Aufgaben und Aktivitäten, die für die Qualität und zur Verwendung des Microsoft-Teams, Überwachung erforderlich
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4060c0f9171c8871ed22d15325d560616bf5fc23
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5d5b34a7dc556313108555bff4d55cee7a6f9a31
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460076"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649380"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 
 Dieser Artikel ist Teil der erstklassige Betriebsprozesse Stufe des Ihre Upgrade Reise, wodurch gestartet wird, sobald Sie die Aktualisierung von Skype für Unternehmen auf Teams abgeschlossen haben.
 
-# <a name="quality-of-experience-review-guide"></a>Quality of Experience überprüfen Guide
+# <a name="quality-of-experience-review-guide"></a>Handbuch für die Überprüfung der QoE (Quality of Experience)
 
 [Erleben Sie die Überprüfung Handbuch für Quality of](https://aka.ms/qerguide) enthält einen Satz von Aktivitäten, die bewerten und-Wartung Anleitungen in wichtige Bereiche, die am stärksten auf Verbessern der benutzererfahrung auswirken, wie im folgenden beschrieben.
 

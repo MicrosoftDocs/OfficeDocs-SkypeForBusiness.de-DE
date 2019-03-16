@@ -4,7 +4,7 @@ author: dearbeen
 ms.author: dearbeen
 manager: serdars
 ms.date: 12/18/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Verwenden Sie ein bewährt Framework, um Ihrer Organisation Upgrade Weg von Skype für Unternehmen Teams
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91a2b5ae92598ad9a210f84bfce1a89fc1c97350
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cf114075b4c35b19beeab9a4c28a1ade97330300
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460564"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649276"
 ---
 # <a name="about-the-upgrade-framework"></a>Info zum Upgrade-Framework
 
@@ -58,7 +58,7 @@ Um besser zu veranschaulichen, wie Ihre Upgrade Reise abgewickelt werden kann, h
 | **3** | **Definieren Sie Ihre Ziele des Projekts** | Legen Sie gezielte Ziele, mit denen Sie Status messen als auch project Erfolg. | [Die Ziele des Projekts](upgrade-define-project-scope.md#project-goals) |
 | **4** | **Identifizieren Sie Risiken und Risikominderung Pläne** | Richten Sie einen Plan zur Risikominderung sicherzustellen, dass Sie schnell das Projekt wieder auf Kurs bringen können, wenn Probleme auftreten sollte. | [Risiken und Risikominderung](upgrade-define-project-scope.md#risks-and-mitigation) |
 | **5** | **Definieren des Zeitplans** | Legen Sie einen Zeitplan und wichtige Meilensteine zu Ihrem Projekt Zeit und Budget bleiben. | [Zeitachse](upgrade-define-project-scope.md#timeline) <br><br> [Upgrade-Kit für Erfolg](https://aka.ms/UpgradeSuccessKit) |
-| **6** | **Definieren Sie die entsprechenden Skype für Geschäfts- und Teams Strategie für Upgrade und Koexistenz** | Ordnen Sie Ihre Reise, um die beste Route aus Skype für Unternehmen Teams für Ihre Organisation sicherzustellen. | [Grundlegendes zu Microsoft-Teams und Skype für Interoperabilität und Koexistenz Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [Wählen Sie Ihre Upgrade Reise](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
+| **6** | **Definieren Sie die entsprechenden Skype für Geschäfts- und Teams Strategie für Upgrade und Koexistenz** | Ordnen Sie Ihre Reise, um die beste Route aus Skype für Unternehmen Teams für Ihre Organisation sicherzustellen. | [Grundlegendes zu Microsoft-Teams und Skype für Interoperabilität und Koexistenz Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
 
 
 ### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>Vorbereiten: Bewerten der Bereitschaft Ihrer Organisation für Teams
@@ -68,7 +68,7 @@ Um besser zu veranschaulichen, wie Ihre Upgrade Reise abgewickelt werden kann, h
 | **1** | **Bewerten der Umgebung, und schließen Sie technische Onboarding Teams** | Stellen Sie sicher, dass Ihre Umgebung ist bereit für Teams zum Optimieren der benutzererfahrung sowie zu vereinfachen des Upgrades über einen Zeitraum. | [Bewerten der Umgebung vor dem Upgrade auf Teams](upgrade-plan-journey-evaluate-environment.md).<br><br> [Vorbereiten des Diensts für das Upgrade auf Teams](upgrade-prepare-environment-prepare-service.md) |
 | **2** | **Optimieren der Leistung von Netzwerk für Teams, insbesondere für Real-Time Media-Szenarios** | Wenn Sie Audio-, Video- oder Besprechungen bereitstellen, führen Sie diese zusätzlichen Schritte aus, um Ihr Netzwerk für diese Funktionalität zu optimieren. | [Bereiten Sie Ihr Netzwerk für das Upgrade auf Teams](upgrade-prepare-environment-prepare-network.md) |
 | **3** | **Ermitteln Sie die Bereitschaft der Organisation ändern und Definieren von Szenarien der Zusammenarbeit** | Verstehen der Benutzers auf den richtigen Wert messaging vorbereiten und Ebene der Bildung erleichtern und beschleunigen Benutzerakzeptanz. | [Organisatorische Bereitschaft](upgrade-org-change-readiness.md#organizational-change-readiness) |
-| **4** | **Vorbereiten einer bereitschaftsplan Benutzer definieren, wie Sie kommunizieren, Schulen und unterstützen von Benutzern** | Anpassen des Plans Communications, Schulung und Support, um sicherzustellen, dass eine optimale Receptiveness auf die neue Technologie. | [Vorbereiten einer bereitschaftsplan für Benutzer](upgrade-user-readiness.md)<br><br>[Upgrade-Kit für Erfolg](https://aka.ms/UpgradeSuccessKit) |
+| **4** | **Vorbereiten einer bereitschaftsplan Benutzer definieren, wie Sie kommunizieren, Schulen und unterstützen von Benutzern** | Anpassen des Plans Communications, Schulung und Support, um sicherzustellen, dass eine optimale Receptiveness auf die neue Technologie. | [Vorbereiten eines Plans zur Benutzerbereitschaft](upgrade-user-readiness.md)<br><br>[Upgrade-Kit für Erfolg](https://aka.ms/UpgradeSuccessKit) |
 | **5** | **Announce die ausstehende Einführung von Microsoft-Teams** | Einem frühen Zeitpunkt zu kommunizieren, mit denen Benutzer fühlen enthalten, weniger Verwirrung und zum Generieren von Interesse. | [Upgrade-Kit für Erfolg](https://aka.ms/UpgradeSuccessKit) |
 | **6** | **Vorbereiten Sie Ihrer IT-Mitarbeiter für Teams** | Vergewissern Sie sich Ihrem technischen und Supportmitarbeiter hat alles, was sie benötigen bereit und der technischen Umgebung für Teams unterstützen. | [Vorbereiten der Microsoft-Teams, Ihre IT-Mitarbeiter](upgrade-prepare-it-pros.md) <br><br> [Upgrade-Kit für Erfolg](https://aka.ms/UpgradeSuccessKit) |
 
@@ -101,8 +101,8 @@ Um besser zu veranschaulichen, wie Ihre Upgrade Reise abgewickelt werden kann, h
 | Schritt |  | Zusammenfassung | Ressource |
 |------|--|---------|----------|
 | **1** | **Vergewissern Sie sich, dass Sie die oben beschriebenen vor dem upgrade Aktivitäten abgeschlossen haben** | Unterstützung des Erfolgs Upgrade nach Abschluss aller Aktivitäten für Planung und Vorbereitung bestätigen. | Alle oben genannten Antworten |
-| **2** | **Initiieren Sie Kommunikation mit Benutzern in Ihrer ersten Upgrade Gruppe** | Benachrichtigen Sie Benutzer, dass Upgrades beginnen, und sie darüber informiert über den gesamten Prozess behalten. | [Vorbereiten einer bereitschaftsplan für Benutzer](upgrade-user-readiness.md) <br><br> [Upgrade-Kit für Erfolg](https://aka.ms/UpgradeSuccessKit) |
-| **3** | **Aktivieren Sie den Koexistenzmodus Teams nur für Benutzer in Ihrer ersten Upgrade Gruppe** | Führen Sie die entsprechenden Schritte für Ihre Skype für geschäftsumgebung zum Durchführen der Benutzermigration technische. | [Aktualisieren von Skype für Unternehmen Online auf Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[Upgrade von Skype für hybride Business oder lokale-Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
+| **2** | **Initiieren Sie Kommunikation mit Benutzern in Ihrer ersten Upgrade Gruppe** | Benachrichtigen Sie Benutzer, dass Upgrades beginnen, und sie darüber informiert über den gesamten Prozess behalten. | [Vorbereiten eines Plans zur Benutzerbereitschaft](upgrade-user-readiness.md) <br><br> [Upgrade-Kit für Erfolg](https://aka.ms/UpgradeSuccessKit) |
+| **3** | **Aktivieren Sie den Koexistenzmodus Teams nur für Benutzer in Ihrer ersten Upgrade Gruppe** | Führen Sie die entsprechenden Schritte für Ihre Skype für geschäftsumgebung zum Durchführen der Benutzermigration technische. | [Upgrade von Skype for Business Online auf Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[Upgrade von hybriden oder lokalen Skype for Business-Bereitstellungen auf Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
 | **4** | **Wiederholen Sie die vorhergehenden Upgrade Aktivitäten für die verbleibenden Upgrade Gruppen auf einem parallelen Zyklus** | Fahren Sie mit Ihrer laufenden Kommunikationsplans Laufwerk und Durchführen eines Upgrades auf Grundlage Ihres Plans Benutzergruppen. | |
 | **5** | **Nach dem upgrade Feedback Umfragen an alle Benutzer senden** | Verwenden einer Umfrage zum Erfassen von Feedback und Einblicke in die von Benutzern. | [Upgrade-Kit für Erfolg](https://aka.ms/UpgradeSuccessKit) |
 

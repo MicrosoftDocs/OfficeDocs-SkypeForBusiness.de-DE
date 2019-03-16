@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d57349a499e4434ba796cdf75df6258591f4144
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 38c7e34f5efb70dce5a81295f0145b539f8265aa
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459452"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647505"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Erstellen Ihrer ersten Teams in Microsoft Teams
 

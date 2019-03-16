@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Die folgenden folgen häufig gestellte Fragen zur Übertragung von Rufnummern auf Skype für Unternehmen. Überprüfen Sie die Antworten, sollte Sie zum Erstellen einer Port Reihenfolge und übertragen Ihre Rufnummern bereit. Finden Sie unter Weiterleiten von Telefonnummern zu Office 365 Anweisungen.
-ms.openlocfilehash: 57d20095302e4a971ea35a91e1fb46e4499735f9
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 311eaa78920b3853947df5dd375c6471cab4d8aa
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543215"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649428"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Übertragen von Telefonnummern – häufig gestellte Fragen
 
@@ -69,7 +69,7 @@ Im Allgemeinen können Sie eine beliebige Telefonnummer übertragen, die von ein
   **KANN NICHT ÜBERTRAGEN WERDEN:**
   
 > [!NOTE]
-> Zu diesem Zeitpunkt können nicht Sie alle Telefonnummer oder Zahlen, die aus einem unterstützten Land/Region einschließlich Telefonnummern von einem VoIP-Telefon-Anbieter werden nicht übertragen. Eine Liste der unterstützten Ländern/Regionen finden Sie unter [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> Zu diesem Zeitpunkt können nicht Sie alle Telefonnummer oder Zahlen, die aus einem einschließlich Telefonnummern von einem VoIP-Telefon-Anbieter unterstützte Land/Region, werden nicht übertragen. Eine Liste der unterstützten Ländern/Regionen finden Sie unter [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - Telefonnummern Sie für datenverbindungen wie für DSL Zeilen oder Breitband internetverbindungen verwendet.
     
@@ -173,7 +173,7 @@ Für die Übertragung oder *Port out* Telefonnummern von Skype für Business Onl
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Verschiedene Arten von Telefonnummern für Anrufpläne](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
 

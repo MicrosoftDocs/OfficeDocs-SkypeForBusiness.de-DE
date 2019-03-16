@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 6b8d5ddb-59c1-4ee7-b171-18e5ace2dcd6
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region, die gebührenfreie Nummer.
-ms.openlocfilehash: 2c5f5d97972fe1c1002ffb16ca39f6a6224beb06
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 854b471cff9affeb6c051a1a7d8993aeb27f7f6d
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542112"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649396"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Einschränkungen für das Wählen von gebührenfreien Telefonnummern
 
@@ -40,14 +40,14 @@ Wenn Sie bereit sind, wählen Sie ein Land oder Region:
 > [!div class="op_single_selector"]    
 > - [Argentinien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 > - [Australia]toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
-> - [Belarus](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
+> - [Belarus (Weißrussland)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
 > - [Belize](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
 > - [Bosnien und Herzegowina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
 > - [Brasilien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md)
 > - [Brunei](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md)
 > - [Bulgarien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md)
 > - [Chile](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md)
-> - [China (nach Norden)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
+> - [China (Nord)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
 > - [China (Süd)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
 > - [Kolumbien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md)
 > - [Kroatien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md)
@@ -71,7 +71,7 @@ Wenn Sie bereit sind, wählen Sie ein Land oder Region:
 > - [Luxemburg](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md)
 > - [Malaysia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md)
 > - [Mexiko](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md)
-> - [Moldawien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md)
+> - [Moldova](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md)
 > - [Monaco](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md)
 > - [Niederlande](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md)
 > - [Panama](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md)
@@ -80,9 +80,9 @@ Wenn Sie bereit sind, wählen Sie ein Land oder Region:
 > - [Philippinen](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md)
 > - [Polen](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md)
 > - [Portugal](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md)
-> - [Katar](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md)
+> - [Qatar](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md)
 > - [Rumänien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md)
-> - [Saudi-Arabien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md)
+> - [Saudi Arabien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md)
 > - [Serbien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md)
 > - [Singapur](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md)
 > - [Slowakei](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md)
