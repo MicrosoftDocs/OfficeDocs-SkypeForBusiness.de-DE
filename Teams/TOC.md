@@ -145,7 +145,7 @@
 ### [Zeitraum für kostenlose ausgehende Anrufe für Audiokonferenzen](complimentary-dial-out-period.md)
 
 
-### [Einrichten von Audiokonferenzen für Skype for Business und Microsoft Teams](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Einrichten von Audiokonferenzen für Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 ### [Zuweisen von Microsoft als Audiokonferenzanbieter](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
@@ -343,6 +343,12 @@
 #### [Planen des standortbasierten Routings für direktes Routing](location-based-routing-plan.md)
 #### [Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing](location-based-routing-configure-network-settings.md)
 #### [Aktivieren des standortbasierten Routings für direktes Routing](location-based-routing-enable.md)
+
+### Medienumgehung für direkte Weiterleitung
+#### [Planen der Medienumgehung mit direkter Weiterleitung](direct-routing-plan-media-bypass.md)
+#### [Konfigurieren der Medienumgehung mit direkter Weiterleitung](direct-routing-configure-media-bypass.md)
+
+
 ### Technische Referenz für direktes Routing
 #### [Trunkfailover bei ausgehenden Anrufen](direct-routing-trunk-failover-on-outbound-call.md)
 
