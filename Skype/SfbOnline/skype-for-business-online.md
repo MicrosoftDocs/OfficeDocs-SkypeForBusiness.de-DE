@@ -13,12 +13,13 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: db174b9e9df8fb6a819930babfaae9422f3ffe30
-ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
-ms.translationtype: HT
+f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+ms.openlocfilehash: 4f941766db77b8bb8678d4d593e6843db662dc06
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "26531748"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664604"
 ---
 # <a name="skype-for-business-online-admin"></a>Skype for Business Online-Administrator
 
@@ -54,7 +55,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Wir helfen Ihnen gerne weiter</h3>
+                        <h3>We& #39; Re Hilfe</h3>
                     </div>
                 </div>
             </div>
@@ -119,7 +120,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
 
 ---
 
-<h2>Neuerungen</h2>
+<h2>What& #39; s neue</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -151,7 +152,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Neue Funktionen</h3>
+                        <h3>Neue features</h3>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">Anrufpläne in Kanada (Allgemeine Verfügbarkeit)</a></p>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">Anrufpläne in Australien (nur Vorschauversion)</a></p>
                     </div>
@@ -169,8 +170,8 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Wichtige Updates</h3>
-                        <p><a href="/microsoftteams/audio-conferencing-in-office-365">Einrichten von Audiokonferenzen</a></p>
+                        <h3>Wichtige Aktualisierungen</h3>
+                        <p><a href="/microsoftteams/audio-conferencing-in-office-365">Einrichten von Audiokonferenz</a></p>
                     </div>
                 </div>
             </div>
@@ -180,7 +181,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
 
 ---
 
-<h2>Bereitgestellte Artikel</h2>
+<h2>Ausgewählte Artikel</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -224,7 +225,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                 <div class="card">
                     <div class="cardText">
                         <h3>Anrufpläne</h3>
-                        <p><a href="/MicrosoftTeams/what-are-calling-plans-in-office-365">Was sind Anrufpläne in Office 365?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Einrichten von Anrufplänen</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Anzeigen, ob Anrufpläne in Ihrem Land/Ihrer Region verfügbar sind</a></p>
+                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">Was sind Anrufpläne in Office 365?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Einrichten von Anrufplänen</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Anzeigen, ob Anrufpläne in Ihrem Land/Ihrer Region verfügbar sind</a></p>
                     </div>
                 </div>
             </div>
@@ -236,7 +237,7 @@ Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisa
                 <div class="card">
                     <div class="cardText">
                         <h3>Telefonsystem</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Was ist Telefonsystem in Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Das bietet Ihnen Telefonsystem in Office 365</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Was ist Telefonsystem in Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39; s erhalten Sie in das Telefonsystem in Office 365</a></p>
                </div>
                 </div>
             </div>
