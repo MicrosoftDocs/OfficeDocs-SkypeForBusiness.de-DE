@@ -16,15 +16,14 @@ description: Informationen Sie zum Verwalten von Einstellungen für Teams live E
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56a7834f1547c682c690f8c42082af0a314efec9
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e3c1a3c4883705f5e9e5ded88cce94fc37da650b
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542839"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664892"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Konfigurieren von Einstellungen für Live-Ereignisse in Microsoft Teams
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Verwenden Sie Teams live Ereignisse Einstellungen zum Konfigurieren von Einstellungen für live Ereignisse, die gehalten werden in Ihrer Organisation. Sie können eine Support-URL einrichten und Konfigurieren eines Anbieters video Verteilung von Drittanbietern für. Diese Einstellungen gelten für alle live Ereignisse, die in Ihrer Organisation erstellt werden. 
 
@@ -82,6 +81,6 @@ Weitere Informationen finden Sie unter [Set-CsTeamsMeetingBroadcastConfiguration
 > Wenn Sie planen, live Ereignisse erstellen, die externe Encoder verwenden, müssen Sie auch so [Konfigurieren Sie Ihren eCDN-Anbieter Microsoft-Stream](https://docs.microsoft.com/stream/network-caching). 
 
 ### <a name="related-topics"></a>Verwandte Themen
-- [Was sind Teams live Ereignisse?](what-are-teams-live-events.md)
-- [Planen von Teams live-Ereignisse](plan-for-teams-live-events.md)
-- [Einrichten von für Teams live Ereignisse](set-up-for-teams-live-events.md)
+- [Was sind Teams-Liveereignisse?](what-are-teams-live-events.md)
+- [Planen von Teams-Liveereignissen](plan-for-teams-live-events.md)
+- [Einrichten von Teams-Liveereignissen](set-up-for-teams-live-events.md)

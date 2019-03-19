@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ee9ecf1a6db549a002c72f7eeea1e0a383ae966
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e463061dca0633480124bbe91fb2e8e6f9f926f6
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543015"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664708"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>Erste Schritte mit Teams Vorlagen im Einzelhandel 
 
@@ -43,7 +43,7 @@ Die Vorlage Store eignet sich ideal für das Erstellen eines Teams, um ein einze
 
 | Basisvorlage-Typ | baseTemplateId | Eigenschaften, die im Lieferumfang von diese Basisvorlage |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Retail- <br>abspeichern | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore`| Kanäle <ul><li>Verschiebt die Übergabe\*</li><li>Learning\*</li></ul>\*Automatische favorisierte Kanäle<br><br>Team-Eigenschaften <ul><li>Team Sichtbarkeit auf Public festgelegt</li></ul> <br>Member-Berechtigungen <ul><li>Kann nicht erstellen/aktualisieren/löschen Kanäle </li><li>Apps können nicht hinzufügen/entfernen werden </li><li>Kann nicht Registerkarten erstellen/aktualisieren/entfernen</li><li>Kann nicht erstellen/aktualisieren/Entfernen von connectors</li><ul>|
+| Retail- <br>abspeichern | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Kanäle <ul><li>Verschiebt die Übergabe\*</li><li>Learning\*</li></ul>\*Automatische favorisierte Kanäle<br><br>Team-Eigenschaften <ul><li>Team Sichtbarkeit auf Public festgelegt</li></ul> <br>Member-Berechtigungen <ul><li>Kann nicht erstellen/aktualisieren/löschen Kanäle </li><li>Apps können nicht hinzufügen/entfernen werden </li><li>Kann nicht Registerkarten erstellen/aktualisieren/entfernen</li><li>Kann nicht erstellen/aktualisieren/Entfernen von connectors</li><ul>|
 ||||
 
 Empfohlene Vorgehensweisen zum Anpassen der Vorlage Speicher für Ihre Organisation:
@@ -58,7 +58,7 @@ Die Vorlage-Manager für die Zusammenarbeit ist ein weiterer, die eine der Teams
 
 | Basisvorlage-Typ | baseTemplateId | Eigenschaften, die im Lieferumfang von diese Basisvorlage |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Retail- <br>abspeichern | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration`| Kanäle <ul><li>Vorgänge\*</li><li>Learning\*</li></ul>\*Automatische favorisierte Kanäle<br><br>Team-Eigenschaften <ul><li>Team Visibility auf Private festgelegt</li></ul> <br>Member-Berechtigungen <ul><li>Erstellen/Aktualisieren/löschen Kanäle können </li><li>Apps können hinzufügen/entfernen werden </li><li>Erstellen/Aktualisieren/Entfernen Registerkarten können</li><li>Erstellen/Aktualisieren/Entfernen Connectors können</li><ul>|
+| Retail- <br>abspeichern | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Kanäle <ul><li>Vorgänge\*</li><li>Learning\*</li></ul>\*Automatische favorisierte Kanäle<br><br>Team-Eigenschaften <ul><li>Team Visibility auf Private festgelegt</li></ul> <br>Member-Berechtigungen <ul><li>Erstellen/Aktualisieren/löschen Kanäle können </li><li>Apps können hinzufügen/entfernen werden </li><li>Erstellen/Aktualisieren/Entfernen Registerkarten können</li><li>Erstellen/Aktualisieren/Entfernen Connectors können</li><ul>|
 ||||
 
 Empfohlene Vorgehensweisen zum Anpassen der Vorlage-Manager für die Zusammenarbeit für Ihre Organisation:

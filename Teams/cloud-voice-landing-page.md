@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Zielseite für die Bereitstellung von Cloud-VoIP in Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a17e76444efbc57f2d8043ca1e6eda68806263
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 1b9398e7a468c023949a0b7079d2924a9e1f0924
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465308"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664918"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Cloud Voice in Microsoft Teams
 
@@ -39,10 +39,10 @@ Es wird empfohlen, dass alle Organisationen über den Core Entscheidungen arbeit
 Die folgenden Artikel enthalten weitere Informationen zum Bereitstellen und Verwenden von Cloud-VoIP-Funktionen in Teams:
 
 - [Telefonsystem in Office 365](what-is-phone-system-in-office-365.md)
-- [Telefonsystem mit dem Plan aufrufen](calling-plan-landing-page.md)
+- [Telefonsystem mit dem Aufrufen der Pläne](calling-plan-landing-page.md)
 - [Direktes Routing für Telefonsysteme](direct-routing-landing-page.md)
 - [Cloud Voice-Bereitstellung](cloud-voice-deployment.md)
-- [Microsoft-telefonielösungen](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft-Telefonielösungen](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Die folgenden Sitzung Weitere Informationen zum Telefonsystem Video: [Einführung in das Telefonsystem in Microsoft-Teams](https://aka.ms/teams-phone-system)
 
 
@@ -77,7 +77,7 @@ Um das Telefonsystem zu im Public Switched Telephone Network, (PSTN) anschließe
 Sie möchten die Einstellungen für den folgenden ändern basierend auf Ihrer Organisation Anforderungen und Konfiguration:
 
 - Voicemail
-- Anrufer-ID
+- Aufrufen von Identität
 - Telefonnummern von Microsoft.
 - Wählpläne
 - Anrufwarteschleifen
@@ -93,7 +93,7 @@ Telefon System Voicemail, unterstützt von Azure Voicemail-Dienste unterstützt 
 | Möchte ich Voicemail Lautschrift für einige oder alle Benutzer aktivieren? | Um Voicemail Lautschrift deaktivieren, finden Sie unter [Festlegen von Voicemail Richtlinien in Ihrer Organisation](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
 |||
 
-### <a name="calling-identity"></a>Anrufer-ID
+### <a name="calling-identity"></a>Aufrufen von Identität
 
 Alle ausgehenden Anrufe verwenden standardmäßig die zugewiesene Telefonnummer als aufrufende Identität (Anrufer-ID). Der Empfänger des Anrufs kann den Anrufer schnell identifizieren und entscheiden, ob er den Anruf annehmen oder ablehnen möchte.
 
@@ -148,7 +148,7 @@ Weitere Informationen zu den unterstützten Geräten finden Sie unter den folgen
 
 - [Verwalten Ihrer Geräte in Microsoft Teams](device-management.md)
 - [IP-Telefone](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [USB-Geräte für audio und video](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [USB-Audio- und -Videogeräte](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Intelligente Communications für Geräte](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 

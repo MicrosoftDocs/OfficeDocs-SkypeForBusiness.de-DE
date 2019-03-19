@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Windows Server-Dateifreigabe als Teil der Installation von Skype für Business Server erstellen. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: a6a040c60d3c5a41df8dfa24abd5948d85180f2e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a3fe1d69bb9e7db377c6a9334b90f8ce96c581ad
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884621"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664827"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Erstellen Sie eine Dateifreigabe in Skype für Business Server
  
@@ -60,4 +60,13 @@ Sehen Sie sich im Video die Schritte zum **Erstellen einer Dateifreigabe** an:
     
      ![Registerkarte „Freigabe“ zur Ordnerfreigabe.](../../media/78fe8441-dead-43ed-9a04-3c7c8c657c15.png)
   
+> [!NOTE]
+>Wenn auf der Dateispeicher gehostet wird ein DFS freigeben, wird die folgende Warnung empfangen:
 
+Warnung: Kein Freigabeberechtigungen für Zugriff auf "\\<domain>\<Share>".
+
+>Wenn Sie kein Administrator auf dem Dateiserver sind, oder wenn es eine Freigabe (Distributed File System, DFS) wird erwartet. Wenn die Freigabeberechtigungen bereits konfiguriert haben, kann diese Warnung ignoriert werden. Wenn sie eine neue Freigabe ist, finden Sie in der Dokumentation weitere Informationen zum manuellen Konfigurieren von Freigabeberechtigungen.
+
+>Aufgrund der fehlenden die Freigabeberechtigungen auf einer DFS-Freigabe zugreifen werden Skype für Business Server kann nicht explizit Gruppen für die Dateifreigabe festgelegt. Um sicherzustellen, dass Skype für Business Server-Komponenten die Dateifreigabe mit den entsprechenden Berechtigungen zugreifen kann, stellen Sie sicher, dass die folgenden RTC-Gruppen mit Änderung Ebene Freigabeberechtigungen zusätzlich zu der lokalen Administratoren mit Vollzugriff Freigabeberechtigungen hinzugefügt werden.
+
+RTCHSUniversalServices RTCComponentUniversalServices "RTCUniversalServerAdmins"

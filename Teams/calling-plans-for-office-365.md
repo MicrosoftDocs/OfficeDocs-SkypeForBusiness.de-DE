@@ -1,5 +1,5 @@
 ---
-title: Aufrufpläne für Office 365
+title: Anrufpläne für Office 365
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -25,16 +25,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 3f1f28862274a95f5bfbb0eb3fbdc3a32f72bc90
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 023b04b6d7826913fc0946ff88dda5c247db92c0
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542096"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664732"
 ---
-# <a name="calling-plans-for-office-365"></a>Aufrufpläne für Office 365
+# <a name="calling-plans-for-office-365"></a>Anrufpläne für Office 365
 
-Anrufe an andere Skype für Unternehmen und die Microsoft-Teams sind kostenlos, aber wenn nicht bereits einen Dienstanbieter VoIP-Anrufe tätigen, und Ihre Benutzer regulären Telefone aufrufen können sollen, müssen Sie zum Aufrufen von Plan erwerben. [Was sind Anrufpläne in Office 365?](what-are-calling-plans-in-office-365.md)
+Anrufe an andere Skype für Unternehmen und die Microsoft-Teams sind kostenlos, aber wenn nicht bereits einen Dienstanbieter VoIP-Anrufe tätigen, und Ihre Benutzer regulären Telefone aufrufen können sollen, müssen Sie zum Aufrufen von Plan erwerben. Weitere Informationen finden Sie unter [Telefonsystem und Pläne aufrufen](calling-plan-landing-page.md).
   
 Hier sind die Pläne aufrufen-Optionen aus:
   
@@ -94,7 +94,7 @@ Hier sind weitere Artikel, in denen das Einrichten Ihrer aufrufen plant erläute
 
 - [Einrichten von Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Einrichten von Voicemail für Telefonsystem - Administratorhilfe](set-up-phone-system-voicemail.md)
+- [Einrichten von Voicemail für das Telefonsystem – Administratorhilfe](set-up-phone-system-voicemail.md)
     
 - [Einrichten von Anrufplänen](set-up-calling-plans.md)
     

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
-ms.openlocfilehash: 68ab93ceca20f0d26c9dac0b5b65667835bd1203
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e5116ecf2ab9fa0bbad25222e69317c47cf0c892
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541664"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664700"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
 
@@ -36,7 +36,7 @@ Die Vorlage Bezirk ist für die Kommunikation und Zusammenarbeit innerhalb einer
 
 |Basisvorlage-Typ |baseTemplateId |Geplante Vorlage Kanäle|
 |:--- |:---|:---|
-|Gesundheitswesen - Bezirk | https://<span></span>Diagramm<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | Ansagen\* <br> Huddles\* <br> Rundet\* <br> Koordiniertes\* <br> Schulung\* |
+|Gesundheitswesen - Bezirk | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Ansagen\* <br> Huddles\* <br> Rundet\* <br> Koordiniertes\* <br> Schulung\* |
 |     | |         |
 
 \*Automatische favorisierte
@@ -47,7 +47,7 @@ Die Vorlage Krankenhaus ist für die Kommunikation und Zusammenarbeit zwischen m
 
 |Basisvorlage-Typ |baseTemplateId |Geplante Vorlage Kanäle|
 |:--- |:---|:---|
-|Gesundheitswesen - Krankenhaus | https://<span></span>Diagramm<span></span>.microsoft.com/beta/teamsTemplates/healthcareHospital   | Ansagen\* <br> Beachtung\* <br> Freiheitsentziehenden <br> Personalwesen <br> Apotheke |
+|Gesundheitswesen - Krankenhaus | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Ansagen\* <br> Beachtung\* <br> Freiheitsentziehenden <br> Personalwesen <br> Apotheke |
 | | |  |
 
 \*Automatische favorisierte 
@@ -60,7 +60,7 @@ Um diese Vorlagen zu verwenden, ändern Sie einfach die Eigenschaft 'template@od
 
 ``` Powershell
 { 
-          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospital",
+          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('healthcareHospital')",
           "DisplayName": "Contoso Hospital",
           "Description": "Team for all staff in Contoso Hospital",
           "Channels": [

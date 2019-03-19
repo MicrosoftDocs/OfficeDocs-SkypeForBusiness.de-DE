@@ -3,8 +3,8 @@ title: Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/11/2019
-ms.reviewer: larryjin
+ms.date: 3/18/2019
+ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,17 +17,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Informationen Sie zu Richtlinien für die app Setup in Microsoft-Teams und Nutzung zum Anpassen von Teams für Benutzer in Ihrer Organisation Pin apps.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6c88ba45aba076c6e26fe8bc16fd3643499a881b
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+f1keywords:
+- ms.teamsadmincenter.apppolicies.setup
+ms.openlocfilehash: 29fcd5541e4817a2c5880316bba33d7d55047444
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541824"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664748"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Als Administrator können Sie Richtlinien für die app-Setup zum Anpassen von Microsoft-Teams, um apps zu markieren, die am besten für Ihre Benutzer wichtig sind. Sie wählen den apps zum Anheften und Festlegen der Reihenfolge, die sie angezeigt werden. Richtlinien für die App Setup können Sie apps, die Benutzer in Ihrer Organisation auch von Drittanbietern oder von Entwicklern in Ihrer Organisation erstellt müssen, präsentieren. Sie können auch Richtlinien für die app-Setup zum Verwalten von Features wie integrierter angezeigt werden.
 
@@ -50,10 +51,10 @@ Sie können die Einstellungen zum Einschließen von apps, die Sie möchten in de
 
 Das Microsoft-Teams, Administrationscenter können Sie eine benutzerdefinierte Richtlinie erstellen.
 
-1. Wechseln Sie im linken Navigationsbereich von Microsoft-Teams, Administrationscenter, **Teams**Apps > **Setup Richtlinien für die App**.
+1. Wechseln Sie im linken Navigationsbereich von Microsoft-Teams, Administrationscenter, **Teams**Apps > **Richtlinien einrichten**.
 2. Wählen Sie **neue Richtlinie**aus.
 3. Geben Sie einen beschreibenden Namen für die Richtlinie ein, und klicken Sie dann auf **apps hinzufügen**.
-4. Suchen Sie im Bereich **Hinzufügen fixiert apps** für die apps, den, die Sie hinzufügen, und klicken Sie dann auf **Hinzufügen**möchten.  Um eine Liste mit allen apps anzuzeigen, wählen Sie in der **Teams app speichern**. Wenn Sie die Liste der apps ausgewählt haben, klicken Sie auf **Hinzufügen**.
+4. Suchen Sie im Bereich **Hinzufügen fixiert apps** für die apps, den, die Sie hinzufügen, und klicken Sie dann auf **Hinzufügen**möchten. Sie können auch apps durch app Berechtigungsrichtlinie filtern. Wenn Sie die Liste der apps ausgewählt haben, klicken Sie auf **Hinzufügen**.
 
      ![App-Setup-Richtlinien-add-apps.png](media/app-setup-policies-add-apps.png)
 
@@ -63,16 +64,19 @@ Das Microsoft-Teams, Administrationscenter können Sie eine benutzerdefinierte R
 
 ## <a name="edit-an-app-setup-policy"></a>Bearbeiten einer Richtlinie für den app-setup
 
-Sie können das Microsoft-Teams, Administrationscenter oder die Windows PowerShell verwenden, so bearbeiten Sie eine Richtlinie, einschließlich der globalen (Org geltende) Standardrichtlinie und benutzerdefinierte Richtlinien, die Sie erstellen. 
+Das Microsoft-Teams, Administrationscenter können Sie eine Richtlinie, einschließlich der globalen (Org geltende) Standardrichtlinie und benutzerdefinierte Richtlinien, die Sie erstellen, bearbeiten.
 
-1. Wechseln Sie im linken Navigationsbereich von Microsoft-Teams, Administrationscenter, **Teams**Apps > **Setup Richtlinien für die App**.
+1. Wechseln Sie im linken Navigationsbereich von Microsoft-Teams, Administrationscenter, **Teams**Apps > **Richtlinien einrichten**.
 2. Wählen Sie die Richtlinie, den, die Sie bearbeiten möchten. 
 3. Stellen Sie dort die gewünschten Änderungen. Sie können hinzufügen oder entfernen und Ändern der Reihenfolge von apps.
-4. Klicken Sie auf **Speichern**. 
+4. Klicken Sie auf **Speichern**.
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>Zuweisen einer Richtlinie auf benutzerdefinierte Anwendung Setup für Benutzer
 
-Das Microsoft-Teams, Administrationscenter können Sie einzelne Benutzer oder Windows PowerShell-Skripte zur weisen Sie einer benutzerdefinierten Richtlinie für Gruppen von Benutzern, beispielsweise eine Sicherheitsgruppe oder Verteilergruppe eine benutzerdefinierte Richtlinie zuweisen.
+Das Microsoft-Teams, Administrationscenter können Sie weisen Sie eine benutzerdefinierte Richtlinie für einzelne Benutzer oder die Skype für Business PowerShell-Modul für Gruppen von Benutzern, beispielsweise eine Sicherheitsgruppe oder Verteilergruppe eine benutzerdefinierte Richtlinie zuweisen.
+
+> [!IMPORTANT]
+> Es wird empfohlen, mithilfe von PowerShell nur für Richtlinien Benutzern zuweisen. Verwenden Sie das Microsoft-Teams, Administrationscenter zu erstellen, bearbeiten und Verwalten von Richtlinien.
 
 ### <a name="assign-a-custom-app-setup-policy-to-individual-users"></a>Zuweisen einer Richtlinie auf benutzerdefinierte Anwendung Setup für einzelne Benutzer
 
@@ -160,4 +164,7 @@ Derzeit können Benutzer die Reihenfolge der ihre angeheftete apps auf mobilen C
 Stellen Sie sicher, dass die Logorichtlinien befolgen, bevor Sie die app zu übermitteln. Finden Sie weitere Informationen finden Sie unter [Prüfliste für die Übermittlung Seller Dashboard](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist). 
 
  ## <a name="related-topics"></a>Verwandte Themen
+- [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
+- [Verwalten von Berechtigungsrichtlinien in Teams app](teams-app-permission-policies.md)
+- [Verwalten von benutzerdefinierten app-Richtlinien und Einstellungen im Team](teams-custom-app-policies-and-settings.md)
 - [Veröffentlichen einer app mit dem Mandanten Apps Katalog vom Client Teams](tenant-apps-catalog-teams.md)

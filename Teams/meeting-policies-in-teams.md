@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Informationen zum Verwalten von Richtlinieneinstellungen in Teams meeting.
-ms.openlocfilehash: f8f7e4bbf18fa96ebc8de3fd219945a06c05c0b3
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 344c45761ebbb326162d2c62b4fb8cac25f47645
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494085"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664716"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -106,8 +106,8 @@ Wenn Sie eine vorhandene Richtlinie auf der Seite **Besprechungsrichtlinien** au
 <a name="bkparticipantsandguests"> </a>
 
 ### <a name="participants--guests"></a>Teilnehmer & Gäste
-   - **Anonyme Benutzer können Besprechungen starten** Wenn diese Einstellung deaktiviert ist, kann nur einer Person, die für die Besprechung mit einer app Teams authentifiziert wurde die Besprechung beginnen. Falls er aktiviert ist, kann alle Benutzer die Besprechung starten.
-   - **Benutzer automatisch zulassen** Wenn Sie diese Option deaktiviert wird, klicken Sie dann Teilnehmer in der Lobby bleibt, bis eine Person die Besprechung wird gestartet. Falls er aktiviert ist, Besprechungsteilnehmer kann Teilnahme an der Besprechung automatisch.
+   - **Zulassen von Personen, die sich einwählen, um eine Besprechung zu starten.** Sie können auf Aktivieren oder deaktivieren, wenn Sie Besucher authentifiziert wurde noch nicht, da sie gewählt haben, in über das Telefon an eine Besprechung starten möchten.
+   - **Automatisch Personen zulassen** Bestimmt, welche Arten von Teilnehmern automatisch werden von diesem Benutzer organisierte Besprechungen hinzugefügt werden. Legen Sie den "Jede Person in einer Organisation" Besprechungen platzieren Sie alle externen Benutzer in der Lobby, aber alle Benutzer im Unternehmen Teilnahme an der Besprechung sofort zulassen möchten. Legen Sie dies auf "Jeder", wenn Sie standardmäßig anonyme Benutzer zulassen möchten. Legen Sie den "Jede Person in Ihrer Organisation und Partnerorganisationen" Besprechungen Verbundbenutzer wie Ihres Unternehmens Benutzer teilnehmen, aber setzen Sie alle externen Benutzer in einer Wartebereich zulassen möchten.
 
 [Vollständigen Artikel](meeting-policies-in-teams.md)
 

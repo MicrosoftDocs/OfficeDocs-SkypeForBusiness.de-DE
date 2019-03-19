@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34070ae8ac21be278596960a5a15129906d867f0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 04ab6b74745bf343ec09e887ef3e7187d3ffeaad
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463708"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664740"
 ---
 ![Phasen der Upgrade-Strategie, mit Schwerpunkt auf der technischen Bereitschaft](media/upgrade-banner-tech-readiness.png "Phasen der Upgrade-Strategie, mit Schwerpunkt auf der technischen Bereitschaft")
 
@@ -56,22 +56,19 @@ Die unten beschriebenen Schritte helfen Ihnen bei der Bestimmung, ob Ihre Bereit
 
 ## <a name="bandwidth-planning"></a>Bandbreitenplanung
 
-Der erste Schritt zur Bereitschaft des Netzwerks müssen Sie sicherstellen, dass Ihr Netzwerk über genügend Bandbreite für die Modalitäten verfügt, Teams für Benutzer bereitgestellt werden. Planen genügend Bandbreite ist eine recht unkompliziert Aufgabe, und eine sehr niedrige einstiegshürde-starten, um sicherzustellen, dass Ihre Benutzer eine hohe Qualität Teams Erfahrung haben.
+Microsoft-Teams, können Sie die beste Audio-, Video- und unabhängig von den netzwerkbedingungen Erfahrung von Inhalten. Mit den Variablen Codecs können Medien in Umgebungen mit minimaler Beeinträchtigung eingeschränkter Bandbreite ausgehandelt werden. Aber wo Bandbreite kein Belang ist, können Erfahrungen für die Qualität, einschließlich von videoauflösung 1080p, bis 30 f/s für Video und Audio Inhalt und hoher Qualität optimiert werden.
 
-Starten Sie die Bandbreite Weg für Teams auf der [Website Meine Advisor](https://myadvisor.fasttrack.microsoft.com/) mithilfe der Netzwerk-Planner planen. Der Netzwerk-Planner enthält pro Website Bandbreite für Teams Planung und Empfehlungen zum Optimieren der Leistung des Netzwerks bietet.
+Dieser Artikel beschreibt eine präzise Version wie Bandbreite von Teams Echtzeit Audio-, Video- und Desktopfreigabe Modalitäten in verschiedene Anwendungsfälle genutzt wird. Teams ist immer auf bandbreitenauslastung konservativ und HD-Videoqualität in unter 1.2 Mb realisiert werden können. Die tatsächlichen Bandbreitenverbrauch in einzelnen a/v-Anruf oder Besprechung, hängt Grundlage verschiedener Faktoren, wie video Layout, Auflösung und Videoframes pro Sekunde.Wenn mehr Bandbreite verfügbar ist werden die Qualität und Nutzung am besten zu erhöhen.
 
-> [!IMPORTANT]
-> Wenn die erforderliche Bandbreite nicht verfügbar ist, nimmt der medienstapel innerhalb Teams die Qualität der a/v-Sitzung, um diesen niedrigeren Betrag der verfügbaren Bandbreite aufzunehmen, die die Qualität der Anruf oder Besprechung wirkt sich auf ab. Der Client Teams versucht, die Qualität der über die Qualität des Videos zu priorisieren. Es ist daher sehr wichtig, die erwartete verfügbare Bandbreite verfügbar ist.
-
-|Aktivität |Laden Sie die Bandbreite |Hochladen der Bandbreite |Datenfluss |
-|---|---|---|---|
-|**Peer-zu-Peer-Audioanruf** |0,1 MBit/s |0,1 Mbit/s |Client <> Client |
-|**Peer-zu-Peer-Videoanrufe (Vollbild)** |4 MBit/s |4 Mbit/s |Client <> Client |
-|**Peer-zu-Peer-Desktopfreigabe (1920& #215; 1080 Lösung)** |4 MBit/s |4 Mbit/s |Client <> Client |
-|**Zwei Teilnehmer Besprechung** |4 MBit/s |4 Mbit/s |Client <> Office 365 |
-|**Drei Teilnehmer Besprechung** |8 Mbit/s |6.5 Mbit/s |Client <> Office 365 |
-|**Vier Teilnehmer Besprechung** |5,5 Mbit/s |4 Mbit/s |Client <> Office 365 |
-|**Fünf oder mehr – Teilnehmer Besprechung** |6 Mbit/s |1,5 Mbit/s |Client <> Office 365 |
+|Bandwidth(Up/Down) |Szenarien |
+|---|---|
+|30 Kbit/s |Aufrufen von Peer-zu-Peer-audio |
+|130 Kbit/s |Peer-zu-Peer-audio Anruf- und Bildschirmfreigabe |
+|500 KBit/s |Peer-zu-Peer-Bildqualität 360p mit 30fps aufrufen |
+|1.2 Mbit/s |Durch den Aufruf von Auflösung von HD 720p mit 30fps Videoqualität HD Peer-zu-peer |
+|1,5 Mbit/s |Durch den Aufruf von Auflösung von HD 1080p mit 30fps Videoqualität HD Peer-zu-peer |
+|500 KBit/s/1 Mbit/s |Gruppe Video aufrufen |
+|1Mps/2 Mbit/s |HD-Gruppe video aufrufen (540p Videos auf 1080p Bildschirm) |
 
 ### <a name="local-internet-egress"></a>Lokaler Internetausgang
 
@@ -81,20 +78,20 @@ Der Rücktransport des Datenverkehrs durch das WAN erhöht die Latenz und hat ne
 
 Durch Optimieren des Netzwerkpfads zum globalen Netzwerk von Microsoft wird die Leistung verbessert und letztendlich die größtmögliche Benutzerfreundlichkeit erzielt. Weitere Details finden Sie im Blogbeitrag [Erzielen der besten Konnektivität und Leistung in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
-Wenn Sie optimal Real-Time Media in Microsoft-Teams verwenden möchten, müssen Sie die Netzwerken Anforderungen für Office 365 erfüllen. Weitere Informationen finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+Wenn Sie optimal Real-Time Media in Microsoft-Teams verwenden möchten, müssen Sie die Netzwerken Anforderungen für Office 365 erfüllen. Weitere Informationen finden Sie unter [Medienqualität und Leistung des Netzwerks Konnektivität für Skype für Business Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
-Die beiden definierenden Netzwerksegmente (Client zu Microsoft Edge und Kundenedge zu Microsoft Edge) müssen die folgenden Anforderungen erfüllen:
+Zwei definierenden Netzwerksegmente (Client Microsoft Edge) und Customer Kante Microsoft Edge müssen die folgenden Anforderungen erfüllen:
 
-|**Wert** |**Client zu Microsoft Edge** |**Kundenedge zu Microsoft Edge** |
+|**Wert** |**Client für Microsoft-Edge** |**Customer Edge zum Microsoft Rand** |
 |---|---|---|
-|**Latenz (ein Weg)** |< 50 ms |< 30 ms |
+|**Wartezeit (unidirektional)** |< 50 ms |< 30 ms |
 |**Wartezeit (Roundtripzeit oder Zeit)** |< 100 ms |< 60 ms |
-|**Burstverlust von Paketen** |<10 % Intervall 200 ms |<1 % Intervall 200 ms |
+|**Bursts von Paketverlusten** |<10 % Intervall 200 ms |<1 % Intervall 200 ms |
 |**Paketverlust** |<1 % Intervall 15 s |<0.1% Intervall 15 s |
 |**Die Kommunikation zwischen hinzukommen Jitter Paket** |<30 ms Intervall 15 s |<15 ms Intervall 15 s |
-|**Neuanordnung von Paketen** |< 0,05 % Pakete in falscher Reihenfolge |< 0,01% Pakete in falscher Reihenfolge |
+|**Paket neu anordnen** |<0.05% außerhalb der Reihenfolge Pakete |<0.01% außerhalb der Reihenfolge Pakete |
 
-Um beide Netzwerksegmente zu testen, können Sie das [Network Assessment-Tool](https://go.microsoft.com/fwlink/?linkid=855799) verwenden. Dieses Tool kann direkt auf dem Client-PC sowie auf einem PC, der mit dem Netzwerkedge des Kunden verbunden ist, bereitgestellt werden. Das Tool selbst enthält eine begrenzte Dokumentation, eine umfassendere Dokumentation zur Verwendung des Tools finden Sie hier: [Bewertung der Netzwerkbereitschaft](https://go.microsoft.com/fwlink/?linkid=855800). Indem Sie diese Bewertung der Netzwerkbereitschaft ausführen, können Sie die Bereitschaft Ihres Netzwerks für die Ausführung von Echtzeitmedienanwendungen wie beispielsweise Microsoft Teams validieren.
+Um beide Netzwerksegmente zu testen, können Sie das [Tool zur Bewertung der Netzwerk](https://go.microsoft.com/fwlink/?linkid=855799)verwenden. Dieses Tool kann auf dem Client PC direkt und auf einem PC verbunden mit dem Kunden Netzwerkgrenze bereitgestellt werden. Das Tool umfasst begrenzte Dokumentation, aber eine tiefere Dokumentation entsprechend der Verwendung des Tools finden Sie hier: [Bereitschaft des Netzwerks](https://go.microsoft.com/fwlink/?linkid=855800). Diese Bereitschaft Netzwerk ausführen, können Sie Netzwerks auszuführenden Real-Time Media-Anwendungen wie Microsoft-Teams überprüfen.
 
 > [!NOTE]
 > Dies ist die gleiche Netzwerk Bereitschaft, die wir empfehlen von Kunden, die zum Bereitstellen von Skype für Business erfolgreich ausgeführt werden.
@@ -137,7 +134,7 @@ Im Falle eines Proxyservers bereitgestellt wird wird empfohlen, dass der Proxyse
 
 <!--ENDOFSECTION-->
 
-## <a name="additional-network-considerations"></a>Zusätzliche Netzwerküberlegungen
+## <a name="additional-network-considerations"></a>Zusätzliche Netzwerkaspekte
 
 ### <a name="external-name-resolution"></a>Externe namensauflösung
 
@@ -147,7 +144,7 @@ Stellen Sie sicher, dass alle Clientcomputer wird der Client Teams ausgeführt e
 
 Wenn Sie mehrere Benutzer und Geräte Access Office 365 mithilfe von (Network Address Translation, NAT) oder Port Address Translation (PAT), müssen Sie sicherstellen, dass nicht die Geräte hinter jeder öffentlich routingfähige IP-Adresse ausgeblendet unterstützte Anzahl nicht überschreiten.
 
-Um dieses Risiko zu verringern, stellen Sie sicher, über ausreichend öffentliche IP-Adressen in der NAT-Pools zu verhindern, dass Port Erschöpfung zugewiesen sind. Portauslastung führt dazu, dass für interne Endbenutzer und Geräte Probleme beim Herstellen der Verbindung mit den Office 365-Diensten auftreten. Weitere Informationen finden Sie unter [NAT-Unterstützung für Office 365](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365).
+Um dieses Risiko zu verringern, stellen Sie sicher, über ausreichend öffentliche IP-Adressen in der NAT-Pools zu verhindern, dass Port Erschöpfung zugewiesen sind. Port Erschöpfung bewirkt, dass interne Endbenutzer und Geräten, um Probleme mit der Vorderseite nach beim Verbinden mit Office 365-Dienste. Weitere Informationen finden Sie unter [NAT-Unterstützung mit Office 365](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365).
 
 ### <a name="intrusion-detection-and-prevention-guidance"></a>Hinweise zur Intrusion Erkennung und Datenausführungsverhinderung
 

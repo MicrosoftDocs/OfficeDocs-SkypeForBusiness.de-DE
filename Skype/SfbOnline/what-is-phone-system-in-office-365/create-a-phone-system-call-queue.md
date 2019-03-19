@@ -1,5 +1,5 @@
 ---
-title: Erstellen einer Warteschlange für das Telefonsystem
+title: Erstellen einer Anrufwarteschleife für das Telefonsystem
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,14 +21,14 @@ f1keywords: ms.teamsadmincenter.callqueues.overview
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 054d0ff2068c6bd280331f7fa64ea5aedb58db6c
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 204959e68fa398300352e477fc7e78ea870aa359
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493708"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664630"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Erstellen einer Warteschlange für das Telefonsystem
+# <a name="create-a-phone-system-call-queue"></a>Erstellen einer Anrufwarteschleife für das Telefonsystem
 
 System-Telefonanruf Warteschlangen enthalten Ansage, die verwendet werden, wenn angerufen eine Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und für den nächsten verfügbaren Anruf-Agent zum Verarbeiten des Anrufs beim Personen die Möglichkeit zum Suchen, die Anruf Musik in der Warteschleife hören sind. Sie können einzelne oder mehrere Anruf Warteschlangen für Ihre Organisation erstellen.
   
@@ -61,7 +61,7 @@ Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von Anrufwartesch
     > [!NOTE]
     > Zum Umleiten von Anrufen an Personen in Ihrer Organisation, die Online sind, sie benötigen eine Lizenz **Telefonsystem** und für Enterprise-VoIP aktiviert sein oder Office 365 aufrufen Plans. Siehe [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Um diese Lizenzen für Enterprise-VoIP zu aktivieren, können Sie die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- Weitere Informationen zu Office 365 Anrufplänen finden Sie unter [Was sind Anrufpläne in Office 365?](/microsoftteams/what-are-calling-plans-in-office-365) und [Anrufpläne für Office 365](/microsoftteams/calling-plans-for-office-365).
+- Weitere Informationen zu Office 365 aufrufen plant, finden Sie unter [Telefonsystem und plant aufrufen](/microsoftteams/calling-plan-landing-page) und [Für Office 365-Pläne aufrufen](/microsoftteams/calling-plans-for-office-365).
 
     > [!NOTE]
     > Benutzer: lokal gehostet werden nicht mithilfe von Lync Server 2010 als ein Anruf Warteschlange Agents unterstützt. 
@@ -245,7 +245,7 @@ Zum Verwalten einer Anrufwarteschleife benötigen Sie die folgenden Cmdlets.
 
   - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Das Telefonsystem in Office 365 bietet Ihnen Folgendes](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](getting-service-phone-numbers.md)
