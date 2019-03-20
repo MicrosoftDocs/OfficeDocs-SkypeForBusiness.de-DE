@@ -6,7 +6,7 @@ ms.topic: landing-page
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/28/2019
+ms.date: 03/19/2019
 ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
@@ -14,12 +14,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f227a9787368b325f102229afebdebf000513bb9
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ddc0e9cb6c3f8a708b7633a5731908e0a27db8ff
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463684"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684041"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams-Schulung
 
@@ -96,7 +96,7 @@ ms.locfileid: "30463684"
                 <div class="card">
                     <div class="cardText">
                         <h3>Reise von Skype for Business zu Microsoft Teams</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Reise von Skype for Business zu Microsoft Teams</a></p>
+                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Von Skype for Business zu Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -124,4 +124,15 @@ ms.locfileid: "30463684"
             </div>
         </div>
     </li>
-  
+      </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Einführung in die Zusammenarbeit in Microsoft 365</h3>
+                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">Informationen Sie zu den Microsoft-365-Tools, die die Zusammenarbeit für alle Mitarbeiter, unabhängig davon, wo sich diese befinden oder wie beim Verbinden mit den Ressourcen Ihrer Organisation erleichtern.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
