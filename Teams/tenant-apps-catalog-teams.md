@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61b8f631857d9e81ced843437288fde88001032d
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 909ed249ea4e408cbddcd52824a7cb0047504613
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649508"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684072"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Veröffentlichen von Apps im App-Katalog eines Microsoft Teams-Mandanten
 =======================================================
@@ -71,7 +71,7 @@ Die app wird auf Version 2.0 überarbeitet werden. Sie werden auch die app für 
 
 ## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>Mit dem Mandanten-App-Katalog verwalten der Office 365-Verwaltungsportals
 
-Wenn Sie apps verfügen, die Fehlerbehebungen erforderlich sind, können Sie vorübergehend apps über das Office 365-Admin-Portal deaktivieren. Zusätzlich zur vorherigen Einstellungen ist vorhanden jetzt ein Abschnitt für Ihr Unternehmen apps. Sie können auswählen, welche apps Sie aktivieren oder deaktivieren möchten.
+Wenn Sie apps verfügen, Fehlerbehebungen erforderlich sind, Sie können vorübergehend apps über das Office 365-Admin-Portal deaktivieren, wählen Sie **Einstellungen** > **Services &-add-ins** > **Microsoft-Teams**. Zusätzlich zur vorherigen Einstellungen ist vorhanden jetzt ein Abschnitt für Ihr Unternehmen apps. Sie können auswählen, welche apps Sie aktivieren oder deaktivieren möchten.
 
 ![Screenshot, der von den Teams App Store zeigt den app-Katalog.](media/private-app-store-teams-image05.png)
 
