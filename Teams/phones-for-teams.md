@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: Dieser Artikel behandelt die Liste der Telefone, die für Microsoft-Teams, und die Features, die in die Zertifizierung für Microsoft-Teams, Telefone unterstützt zertifiziert wurden.
-ms.openlocfilehash: 9531d1c3619c15b0b8669708e40264fec5f211fd
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: c7b5278acf8b03cdd2f27b6f10a4e83be74b5a2f
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640986"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720440"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefone für Microsoft Teams
 
@@ -29,7 +29,7 @@ Microsoft-Teams, unterstützt ein Portfolio Telefonapparate für Benutzer, die e
 
 ## <a name="teams-certified-ip-phones"></a>Teams certified IP-Telefone 
 
-Um einen qualitativ hochwertige und zuverlässige Umgang mit Microsoft-Teams auf Telefonen zu übermitteln, sind wir eine Partnerschaft und aktiv arbeiten mit Yealink, Crestron, Polycom und Audiocodes zu entwickeln und ein breites Portfolio-Tischtelefonen und Konferenz Raum Audiogeräte Zertifizierung. Aktuelle unterstützten Geräte finden Sie unter [derzeit certified IP-Telefone](/SfbPartnerCertification/certification/teams-ip-phones.md#currently-certified-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) .
+Um einen qualitativ hochwertige und zuverlässige Umgang mit Microsoft-Teams auf Telefonen zu übermitteln, sind wir eine Partnerschaft und aktiv arbeiten mit Yealink, Crestron, Polycom und Audiocodes zu entwickeln und ein breites Portfolio-Tischtelefonen und Konferenz Raum Audiogeräte Zertifizierung. Aktuelle unterstützten Geräte finden Sie unter [derzeit certified IP-Telefone](/SkypeForBusiness/certification/teams-ip-phones.md#currently-certified-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) .
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Microsoft-Teams, Telefone Featuregruppe
 

@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Lesen Sie in diesem Thema, um Informationen zur Verwaltung von Skype Raum Systemen v2, der nächsten Generation Skype Raum Systeme zu erfahren.
-ms.openlocfilehash: 5dcfcf13b22e7ad110b675d5d202f1ad53d32687
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4c94ffbcb83e5e208e5cd7278af54e157b9f478c
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373647"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720424"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Skype-Chatroom-Systemen v2 Wartung und Betrieb 
  
@@ -23,7 +23,7 @@ Lesen Sie in diesem Thema, um Informationen zur Verwaltung von Skype Raum System
   
 Skype-Chatroom-Systemen v2 ist Microsofts neueste konferenzlösung entwickelt, um Ihre Besprechungsraum in einer umfassenden, gemeinsame Skype Business wünschen umgewandelt. Die Benutzer finden sich dank der vertrauten Benutzeroberfläche von Skype for Business schnell zurecht, und IT-Administratoren werden die Skype-Besprechungs-App für Windows 10 aufgrund der einfachen Bereitstellung und Verwaltung zu schätzen wissen. Skype Raum Systemen v2 dient zur Nutzung von vorhandenen Ausrüstung, wie Bereiche der LCD-Anzeige zur Erleichterung der Installation in Ihrem Besprechungsraum Skype für Unternehmen eingefügt werden sollen.
   
-Durch zusätzliche Konfiguration kann die Remoteverwaltung Microsoft Operations Management Suite (OMS) verwenden, wie beschrieben in [Planen Skype Raum v2 systemverwaltung mit OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) [Bereitstellen Skype Raum v2 systemverwaltung mit OMS](../../deploy/deploy-clients/with-oms.md)und [Verwalten Skype-Chatroom-Systemen v2 Geräte mit OMS](oms.md). Sie können auch [Verwalten einer Skype Raum Systemen v2 Konsolenstamm Remote mit einer XML-Konfigurationsdatei](xml-config-file.md), einschließlich eines Designs benutzerdefinierte anzeigen. 
+Durch zusätzliche Konfiguration kann die Remoteverwaltung Microsoft Operations Management Suite (OMS) verwenden, wie beschrieben in [Planen Skype Raum v2 systemverwaltung mit OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) [Bereitstellen Skype Raum v2 systemverwaltung mit OMS](../../deploy/deploy-clients/with-oms.md)und [Verwalten Skype-Chatroom-Systemen v2 Geräte mit OMS](oms.md). ///Sie können auch [Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md), was die Anwendung des benutzerdefinierten Anzeigedesigns beinhaltet. 
   
 ## <a name="collecting-logs-on-skype-room-systems-v2"></a>Erfassen von Protokollen in Skype Room Systems v2
 <a name="Logs"> </a>
@@ -74,9 +74,9 @@ In diesem Abschnitt werden die Systemeinstellungen, von denen Skype Raum Systeme
 
 |**Einstellung**|**Ermöglicht**|
 |:-----|:-----|
-|HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (REG_SZ) 1  <br/> |Ermöglicht das Skype Raum Systemen v2 starten  <br/> |
+|HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon automatische Anmeldung = (REG_SZ) 1  <br/> |Ermöglicht das Skype Raum Systemen v2 starten  <br/> |
 |Strom-Management -\> AC, deaktivieren Sie auf Bildschirm nach 10 Minuten  <br/> Strom-Management -\> auf AC, setzen Sie nie System in den Energiesparmodus  <br/> |Skype-Chatroom-Systemen v2 angefügte zeigt deaktivieren und Reaktivieren von automatisch aktiviert  <br/> |
-|net accounts /maxpwage:unlimited  <br/> Oder entsprechende Möglichkeit zum Deaktivieren des Kennwortablaufs für das lokale Konto. Wird dies nicht ausgeführt, kann bei der Anmeldung des Skype-Kontos aufgrund eines abgelaufenen Kennworts ein Fehler auftreten. Beachten Sie, dass sich dies auf alle lokalen Konten auf dem Computer auswirkt, sodass bei Nichtfestlegung dieser Einstellung auch das Administratorkonto ablaufen kann.   <br/> |Ermöglicht die ständige Anmeldung des Skype-Kontos  <br/> |
+|net accounts /maxpwage:unlimited  <br/> Oder entsprechende Möglichkeit zum Deaktivieren des Kennwortablaufs für das lokale Konto. Wird dies nicht ausgeführt, kann bei der Anmeldung des Skype-Kontos aufgrund eines abgelaufenen Kennworts ein Fehler auftreten. Beachten Sie, dass sich dies auf alle lokalen Konten auf dem Computer auswirkt, sodass bei Nichtfestlegung dieser Einstellung auch das Administratorkonto ablaufen kann.  <br/> |Ermöglicht die ständige Anmeldung des Skype-Kontos  <br/> |
    
 Übertragen von Dateien mithilfe von Gruppenrichtlinien wird unter [Konfigurieren einer Dateielement](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)erläutert.
   
@@ -106,7 +106,7 @@ Sie können Remote-PowerShell beispielsweise wie folgt aktivieren:
     
 2. Öffnen Sie eine PowerShell-Eingabeaufforderung mit erhöhten Rechten.
     
-3. Geben Sie den folgenden Befehl ein: Enable-psremoting sieht - erzwingen
+3. Geben Sie den folgenden Befehl ein: Enable-PSRemoting -force
     
 So führen Sie einen Verwaltungsvorgang durch:
   
@@ -223,7 +223,7 @@ Die Konsole ist nun wieder in den normalen Betrieb-Modus. Das folgende Verfahren
   
 ### <a name="switching-to-admin-mode-and-back-when-the-skype-room-systems-v2-app-crashes"></a>Wechsel in Administratormodus und zurück, wenn die Skype Raum Systemen v2 app stürzt ab
 
-1. Drücken Sie fünf Mal schnell hintereinander die WINDOWS-TASTE. Daraufhin gelangen Sie zum Windows-Anmeldebildschirm.  
+1. Drücken Sie fünf Mal schnell hintereinander die WINDOWS-TASTE. Daraufhin gelangen Sie zum Windows-Anmeldebildschirm. 
     
 2. Melden Sie sich mit Ihren Administratoranmeldeinformationen beim Desktop an.
     

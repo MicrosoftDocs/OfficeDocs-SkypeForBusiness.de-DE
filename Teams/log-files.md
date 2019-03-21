@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Hier erhalten Sie Informationen zu den von Microsoft Teams erstellten Debug-, Medien- und Desktopprotokollen, zu deren Speicherort und wie diese für die Problembehandlung eingesetzt werden können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 018247ba7f5f7ac088226bd505f6bf11737533c2
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 8e2e638af7ca9f728835f244996a0d922d8f7cbc
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640706"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720331"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams
 =================================================
@@ -96,9 +96,7 @@ Desktopprotokolle, auch bekannt unter Bootstrapper-Protokolle, enthalten Protoko
 
 Windows:
 
-  1.  Klicken Sie mit der rechten Maustaste auf **das Microsoft Teams-Symbol im** Infobereich Ihrer Anwendung, und wählen Sie **Protokolle abrufen** aus.
-
-  2.  Auswählen von **Protokolle abrufen** aus dem Pulldownmenü **Hilfe**
+1.  Klicken Sie mit der rechten Maustaste auf **das Microsoft Teams-Symbol im** Infobereich Ihrer Anwendung, und wählen Sie **Protokolle abrufen** aus.
 
 Mac OSX ausgeführt werden:
 
