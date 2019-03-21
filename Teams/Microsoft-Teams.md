@@ -4,17 +4,18 @@ hide_bc: true
 title: Technische Dokumentation zu Microsoft Teams
 description: Technische Dokumentation zu Microsoft Teams
 ms.topic: hub-page
+localization_priority: Priority
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
-ms.openlocfilehash: 1d30744f71683b7681ad738938a714d066b31c4a
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
-ms.translationtype: MT
+ms.openlocfilehash: 14ab61709f40f0d2e2d6be95df4cd758322d0ff2
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493582"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720315"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -39,7 +40,7 @@ ms.locfileid: "30493582"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Willkommen bei Microsoft Teams</h3>
-                                                <P>Übersicht über die Teams und hier finden Sie die technische Anleitungen Sie als ein Teams Admin müssen oder IT-Experten</p>
+                                                <P>Hier finden Sie sich einen Überblick über Microsoft Teams sowie die technische Anleitung, die Sie als Microsoft Teams-Administrator oder IT-Profi benötigen.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -56,8 +57,8 @@ ms.locfileid: "30493582"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Gewusst wie: Rollout Teams</h3>
-                                                <P>Ob Sie ein kleines Unternehmen oder ein multinationale Unternehmen sind, beginnen Sie hier den richtigen Pfad zum Teams Rollout finden</p>
+                                                <h3>Bereitstellen von Microsoft Teams</h3>
+                                                <P>Ganz gleich, ob Sie ein kleines Unternehmen oder ein multinationaler Konzern sind, hier finden Sie den richtigen Weg für die Bereitstellung von Microsoft Teams.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -76,7 +77,7 @@ ms.locfileid: "30493582"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Erste Schritte</h3>
-                                                <P>Verwenden Sie unsere Schnellstart-Handbuch abzurufenden betriebsbereit fast mit ein Paar von Teams und Kanäle</p>
+                                                <P>Verwenden Sie unsere Kurzanleitung, um mit ein paar Teams und Kanälen schnell in Betrieb zu gehen.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -95,7 +96,7 @@ ms.locfileid: "30493582"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Upgrade von Skype for Business auf Microsoft Teams</h3>
-                                                <P>Finden Sie Anleitungen und Tools, um Ihren optimalen Pfad nach Teams zu beschreiten</p>
+                                                <P>Hier finden Sie Anleitungen und Tools zum Erkunden des optimalen Pfads zu Microsoft Teams.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -113,8 +114,8 @@ ms.locfileid: "30493582"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Annahme hub</h3>
-                                                <P>Abrufen von Tools zur Unterstützung von nahezubringen Teams</p>
+                                                <h3>Übernahmehub</h3>
+                                                <P>Hier finden Sie Tools zur Unterstützung des Rollouts von Microsoft Teams.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -132,7 +133,7 @@ ms.locfileid: "30493582"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Suchen Sie nach & Schulungsvideos</h3>
+                                                <h3>Hier finden Sie Schulungen und Videos.</h3>
                                                 <P>Hier finden Sie Microsoft Teams-Schulungen für sich und Ihre Benutzer.</p>
                                             </div>
                                         </div>
@@ -155,8 +156,8 @@ ms.locfileid: "30493582"
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Teams Developer-Plattform</h3>
-                                            <p>Erfahren Sie mehr über die Microsoft-Teams, Developer-Plattform und wie es nützliche und leistungsfähige apps erstellen können</p>
+                                            <h3>Microsoft Teams-Entwicklerplattform</h3>
+                                            <p>Erfahren Sie mehr über die Microsoft Teams-Entwicklerplattform und wie sie damit hilfreiche und leistungsstarke Apps erstellen können.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -174,8 +175,8 @@ ms.locfileid: "30493582"
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Teams Tech-community</h3>
-                                            <p>Teilnehmen an der Teams Technikcommunity Fragen &amp; Antworten und Teams Blog lesen</p>
+                                            <h3>Technische Community für Microsoft Teams</h3>
+                                            <p>Treten Sie der technischen Community für Microsoft Teams bei. Hier können Sie Fragen stellen, erhalten Antworten und können Microsoft Teams-Blog lesen.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -193,8 +194,8 @@ ms.locfileid: "30493582"
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>PowerShell-Cmdlet-Referenz für Microsoft Teams</h3>
-                                            <p>Rufen Sie die PowerShell-Module und -Cmdlets für Teams</p>
+                                            <h3>Referenz für PowerShell-Cmdlets für Teams</h3>
+                                            <p>Hier finden Sie die PowerShell-Module und -Cmdlets für Microsoft Teams.</p>
                                                     </div>
                                                 </div>
                                             </div>
