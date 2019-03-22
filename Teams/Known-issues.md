@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 718b239da2d65bc01675f91c68ad18f7dee68c3e
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 2908ff9bec8be1eaf7d6dc09ff03adb9ae3ea9ea
+ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641232"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30737816"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -257,6 +257,10 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Legacy-OneNote-Registerkarte  <br/> |Legacy-OneNote-Registerkarten, die während der öffentlichen Vorschau von Microsoft Teams erstellt wurden, können nicht umbenannt oder gelöscht werden.  <br/> |Keine Problemumgehung. <br/> |08.11.2017  <br/> |
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Suchfunktion in der SharePoint-Listenregisterkarte  <br/> |Wenn Sie versuchen, eine Datei über die Suchfunktion der SharePoint-Listenregisterkarte zu öffnen, wird die Eingabeaufforderung "Sie benötigen eine neue App, um diese Info zu öffnen" ausgelöst, und die Datei wird nicht geöffnet. <br/> |Öffnen Sie die Datei direkt aus der Liste statt über die Suchleiste. <br/> |11.2.2019  <br/> |
 
 ## <a name="teams"></a>Teams
 
