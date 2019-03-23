@@ -16,16 +16,14 @@ description: Informationen Sie zu den Schritten für Ereignisse in Teams, einsch
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bd650e9f34a63007cee63ae8d7ce604e28abddd
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 957db93e2eb8cba5b2b35388b00ed4d38b21d6ca
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464524"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747678"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichten von Live-Ereignissen in Microsoft Teams
-
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Wenn Sie für live Ereignisse einrichten, sind mehrere Schritte, die Sie durchführen müssen:
 
@@ -56,7 +54,7 @@ Live Ereignisse, die den Richtlinien verwendet werden, um zu steuern, wer in Ihr
 
     ![Screenshot der live Ereignisse Richtlinieneinstellungen] (../media/teams-live-events-policies.png "Screenshot der live Ereignisse Richtlinieneinstellungen in der Verwaltungskonsole von Microsoft-Teams") 
 
-|Einstellung  |Beschreibung  |
+|Einstellung  |Description (Beschreibung)  |
 |---------|---------|
 |**Name**     |Dies ist der Name der Richtlinie, die auf der Seite live Ereignisse Richtlinien angezeigt wird. Es kann nicht länger als 64 Zeichen sein oder über keine Sonderzeichen.          |
 |**Beschreibung**    |Verwenden Sie diese Option, um eine benutzerfreundliche Beschreibung für die Richtlinie hinzufügen.         |
@@ -76,6 +74,17 @@ Wenn Sie eine benutzerdefinierte live Ereignisse Richtlinie erstellt haben, weis
 1. Klicken Sie im linken Navigationsbereich besuchen Sie **Benutzer**, und wählen Sie den Benutzer.
 2. Neben **zugewiesene Richtlinien**wählen Sie **Bearbeiten**aus. 
 3. Wählen Sie die live Ereignisse Richtlinie ein, die Sie zuweisen möchten, und wählen Sie dann auf **Speichern**. 
+
+Sie können einen oder mehrere Benutzer auch wie folgt eine live Ereignisse Richtlinie zuweisen:
+
+![Teams-Logo-30x30.png](../media/teams-logo-30x30.png) Verwenden das Microsoft-Teams, Administrationscenter
+
+1. Wechseln Sie zu **Besprechungen** > **Live Ereignisse Richtlinien**.
+2. Wählen Sie die Richtlinie, indem Sie auf links neben den Namen der Richtlinie.
+3. Wählen Sie **Benutzer verwalten**.
+4. Klicken Sie im Bereich **Benutzer verwalten** Suche für den Benutzer nach Anzeigename oder nach Benutzernamen, wählen Sie den Namen, und wählen Sie dann auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, die Sie hinzufügen möchten.
+5. Wenn Sie die Benutzer hinzugefügt haben, wählen Sie **Speichern**aus.
+ 
 
 ### <a name="enable-users-to-schedule-external-encoder-events"></a>Aktivieren von Benutzern zum Planen von externen Encoder-Ereignisse
 
@@ -111,7 +120,7 @@ Nachdem Sie die Lösung SDN oder eCDN eingerichtet haben, können Sie zum Konfig
 Wechseln Sie zur [Konfigurieren live Ereignisse Einstellungen in Teams](configure-teams-live-events.md).
 
 ### <a name="related-topics"></a>Verwandte Themen
-- [Was sind Teams live Ereignisse?](what-are-teams-live-events.md)
-- [Planen von Teams live-Ereignisse](plan-for-teams-live-events.md)
+- [Was sind Teams-Liveereignisse?](what-are-teams-live-events.md)
+- [Planen von Teams-Liveereignissen](plan-for-teams-live-events.md)
 - [Konfigurieren von live Ereignisse Einstellungen in Teams](configure-teams-live-events.md)
 

@@ -3,7 +3,7 @@ title: Verwalten von Besprechungsrichtlinien
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 03/01/2019
+ms.date: 03/22/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -21,19 +21,19 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Informationen zum Verwalten von Richtlinieneinstellungen in Teams meeting.
-ms.openlocfilehash: 344c45761ebbb326162d2c62b4fb8cac25f47645
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: dc2870786c586715164dde94fdd6795f04f567bc
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664716"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747670"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
 ::: zone target="docs"
 Besprechungsrichtlinien werden verwendet, um die Steuerung der Features, die an die Teilnehmer bei Besprechungen, die von Benutzern in Ihrer Organisation geplant sind verfügbar sind. Nachdem Sie eine Richtlinie erstellen und Ihre Änderungen vornehmen, können Sie und Zuweisen der Richtlinie verwendet. 
 
-Standardmäßig wird eine Richtlinie mit dem Namen Global (Org geltende Standard) erstellt. Alle Benutzer in Ihrer Organisation werden standardmäßig diese besprechungsrichtlinie zugewiesen werden. Sie können entweder Änderungen an dieser Richtlinie vornehmen oder einen oder mehrere benutzerdefinierte Richtlinien erstellen und Benutzer zuweisen. Wenn Sie eine benutzerdefinierte Richtlinie erstellen, können Sie zulassen oder verhindern, dass bestimmte Features wird für die Benutzer verfügbar und weisen Sie es an einen oder mehrere Benutzer die Einstellungen angewendet werden. 
+Standardmäßig wird eine Richtlinie mit dem Namen Global (Org geltende Standard) erstellt. Alle Benutzer in Ihrer Organisation werden standardmäßig diese besprechungsrichtlinie zugewiesen werden. Sie können entweder Änderungen an dieser Richtlinie vornehmen oder einen oder mehrere benutzerdefinierte Richtlinien erstellen und Benutzer zuweisen. Wenn Sie eine benutzerdefinierte Richtlinie erstellen, können Sie zulassen oder verhindern, dass bestimmte Features für die Benutzer verfügbar wird, und weisen Sie es an einen oder mehrere Benutzer die Einstellungen angewendet werden. 
 
 ## <a name="change-or-create-a-meeting-policy"></a>Ändern Sie oder erstellen Sie eine besprechungsrichtlinie
 
@@ -55,16 +55,20 @@ Klicken Sie dann den Benutzern zuweisen der Richtlinie.
 > [!NOTE] 
 > Ein Benutzer kann jeweils nur eine besprechungsrichtlinie zugewiesen werden. 
 
-## <a name="assign-a-meeting-policy-to-a-user"></a>Zuweisen einer besprechungsrichtlinie zu einem Benutzer
+## <a name="assign-a-meeting-policy-to-users"></a>Weisen Sie eine besprechungsrichtlinie für Benutzer
 
-Wechseln Sie zum Zuweisen einer Richtlinie zur **Microsoft-Teams-Verwaltungskonsole** > **Benutzer**. 
+Wenn Sie die Richtlinie auf einen Benutzer anwenden möchten, wählen Sie im linken Navigationsbereich auf **Benutzer** aus, und klicken Sie dann auf den Namen des Benutzers anzeigen. Wählen Sie auf der Benutzer-Seite neben **zugewiesene Richtlinien** **Bearbeiten**. Klicken Sie dann im Bereich **Richtlinien für Benutzer bearbeiten** unter **besprechungsrichtlinie**, wählen Sie die besprechungsrichtlinie aus der Dropdownliste aus, und wählen Sie dann auf **Speichern**. Sie können auch Richtlinien aus der Liste der Benutzer zuweisen. Wählen Sie den Benutzer dazu, indem Sie auf der linken Seite des Anzeigenamen des Benutzers auf. Wählen Sie **Einstellungen bearbeiten**. Klicken Sie dann im Bereich **Einstellungen bearbeiten** unter **besprechungsrichtlinie**, wählen Sie die Richtlinie aus der Dropdown-Liste aus, und wählen Sie dann auf **Speichern**. 
  
-Wenn Sie die Richtlinie auf einen Benutzer anwenden möchten, wählen Sie Anzeigenamen des Benutzers. Neben **zugewiesene Richtlinien**wählen Sie **Bearbeiten**aus. Klicken Sie dann im Bereich **Richtlinien für Benutzer bearbeiten** unter **besprechungsrichtlinie**, wählen Sie die besprechungsrichtlinie aus der Dropdownliste aus, und wählen Sie **Speichern**aus. Sie können auch die Einstellungen aus der Liste der Benutzer bearbeiten. Wählen Sie den Benutzer dazu, indem Sie auf der linken Seite des Anzeigenamen des Benutzers auf. Wählen Sie **Einstellungen bearbeiten**. Klicken Sie dann im Bereich **Einstellungen bearbeiten** unter **besprechungsrichtlinie**, wählen Sie die Richtlinie aus der Dropdown-Liste aus, und wählen Sie dann auf **Speichern**. 
+Wenn Sie eine Richtlinie auf mehrere Benutzer anwenden möchten, wählen Sie **Benutzer** im linken Navigationsbereich und wählen Sie dann jeden Benutzer durch Klicken auf links neben den Benutzernamen ein, und klicken Sie dann auf **Bearbeiten**. Klicken Sie im Bereich **Einstellungen bearbeiten** unter **besprechungsrichtlinie**wählen Sie die Richtlinie aus der Dropdown-Liste aus, und wählen Sie dann auf **Speichern**.
  
-Wenn Sie eine Richtlinie auf mehrere Benutzer anwenden möchten, wählen Sie jeden Benutzer aus, indem Sie links neben den Benutzernamen ein, und klicken Sie dann auf **Bearbeiten**. Klicken Sie im Bereich **Einstellungen bearbeiten** unter **besprechungsrichtlinie**wählen Sie die Richtlinie aus der Dropdown-Liste aus, und wählen Sie dann auf **Speichern**.
- 
-Sie können auch dazu zu **Microsoft-Teams, Administrationscenter** > **Besprechungen** >  **Besprechungsrichtlinien**. Wählen Sie die Richtlinie, und wählen Sie dann auf **Benutzer verwalten**. Suchen Sie Anzeige- oder Benutzer namentlich für den Benutzer, klicken Sie im Bereich **Benutzer verwalten** . Wählen Sie den Namen, und wählen Sie **Hinzufügen**aus. Wenn Sie die Benutzer hinzugefügt haben, wählen Sie **Speichern**aus.
+Sie können einen oder mehrere Benutzer auch wie folgt eine besprechungsrichtlinie zuweisen:
 
+1. Navigieren Sie zum **Microsoft-Teams, Administrationscenter** > **Besprechungen** > **Besprechungsrichtlinien**.
+2. Wählen Sie die Richtlinie, indem Sie auf links neben den Namen der Richtlinie.
+3. Wählen Sie **Benutzer verwalten**.
+4. Klicken Sie im Bereich **Benutzer verwalten** Suche für den Benutzer nach Anzeigename oder nach Benutzernamen, wählen Sie den Namen, und wählen Sie dann auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, die Sie hinzufügen möchten.
+5. Wenn Sie die Benutzer hinzugefügt haben, wählen Sie **Speichern**aus.
+ 
 > [!NOTE] 
 > Eine Richtlinie kann nicht gelöscht werden, wenn Benutzer zugewiesen sind. Sie müssen zuerst eine andere Richtlinie für alle betroffenen Benutzer zuweisen, und klicken Sie dann können Sie die ursprüngliche Richtlinie löschen.
  

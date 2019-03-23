@@ -1,10 +1,10 @@
 ---
-title: Verwalten von app-Berechtigungsrichtlinien in Microsoft-Teams
+title: Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 3/05/2019
-ms.reviewer: larryjin
+ms.date: 3/18/2019
+ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,17 +17,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Informationen Sie zu Richtlinien für die app-Berechtigung in der Microsoft-Teams und deren Verwendung zum Steuern, welche apps für Benutzer in Ihrer Organisation zur Verfügung stehen.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 46a4cbd008db7dc742cd5cc3d22277d7535daa88
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+f1keywords:
+- ms.teamsadmincenter.apppolicies.overview
+ms.openlocfilehash: e88493e5ecb764f207ee0eebd9a46e68db3671cd
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542231"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747686"
 ---
-# <a name="manage-app-permission-policies-in-microsoft-teams"></a>Verwalten von app-Berechtigungsrichtlinien in Microsoft-Teams
+# <a name="manage-app-permission-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams
 
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Ein Administrator können Berechtigungsrichtlinien app Sie steuern, welche apps Microsoft-Teams, Benutzer in Ihrer Organisation zur Verfügung stehen. Sie können zulassen oder blockieren alle apps oder bestimmte apps, die von Microsoft veröffentlicht dritten und Ihrer Organisation. Wenn Sie eine app blockieren, können Benutzer nicht aus dem Teams app Store zu installieren.
 
@@ -40,37 +41,36 @@ Sie können Richtlinien für die app-Berechtigung in der Verwaltungskonsole von 
 
 Angenommen Sie, Sie möchten alle Drittanbieter-apps blockieren und bestimmte apps von Microsoft für die HR-Abteilung in Ihrer Organisation zulassen. Sie würden erstellen Sie eine benutzerdefinierte Richtlinie mit dem Namen HR App Berechtigungsrichtlinie, setzen Sie sie blockieren und Zulassen von apps, die Sie möchten und weisen Sie es Benutzern in der HR-Abteilung.
 
-
 ## <a name="manage-org-wide-app-settings"></a>Org geltende app-Einstellungen verwalten
 
 Verwenden Sie Org geltende app-Einstellungen auf Steuerelement, welche apps in Ihrer Organisation zur Verfügung stehen. Org geltende app-Einstellungen steuern das Verhalten für alle Benutzer und überschreiben Sie alle anderen app Berechtigungsrichtlinien, die Benutzern zugewiesen. Org geltende app-Einstellungen werden sofort wirksam und können sie bösartiger oder problematisch apps zu steuern.
 
-1. Wechseln Sie im linken Navigationsbereich von Microsoft-Teams, Administrationscenter, **Teams**App > **Berechtigungsrichtlinien App**.
+1. Wechseln Sie im linken Navigationsbereich von Microsoft-Teams, Administrationscenter, **Teams**App > **Berechtigungsrichtlinien**.
 2. Wählen Sie **gesamte Org Einstellungen**aus. Sie können dann die gewünschten Einstellungen konfigurieren, in der Systemsteuerung. 
 ![Screenshot der gesamte Org app-Einstellungen](media/app-permission-policies-org-wide-settings.png)
 3. Deaktivieren Sie unter **Drittanbieter - apps**oder aktivieren Sie diese Einstellungen zur Steuerung des Zugriffs auf Drittanbieter-apps:
 
-- **Zulassen von Drittanbieter - apps in Teams**: Hiermit legen Sie fest, ob Benutzer Drittanbieter-apps verwenden können.
-- **Neue Drittanbieter - apps, die an den Store standardmäßig veröffentlicht zulassen**: Diese steuert, ob neue Drittanbieter-apps, die an die Teams app veröffentlicht werden gespeichert werden automatisch in Teams verfügbar. Sie können diese Option nur festlegen, wenn Sie zulassen, dass Drittanbieter-apps. 
-- **Interaktion mit benutzerdefinierten apps zulassen**: Hiermit legen Sie fest, ob Benutzer benutzerdefinierte (Sideloaded) apps interagieren können. Beachten Sie, dass dies zulassen, dass Benutzer Kunden apps *Hochladen* unterscheidet beibehalten. 
+    - **Zulassen von Drittanbieter - apps in Teams**: Hiermit legen Sie fest, ob Benutzer Drittanbieter-apps verwenden können.
+    - **Neue Drittanbieter - apps, die an den Store standardmäßig veröffentlicht zulassen**: Diese steuert, ob neue Drittanbieter-apps, die an die Teams app veröffentlicht werden gespeichert werden automatisch in Teams verfügbar. Sie können diese Option nur festlegen, wenn Sie zulassen, dass Drittanbieter-apps.
 
-4. Unter **blockiert apps**suchen und Hinzufügen von apps, die Sie in Ihrer Organisation blockieren möchten. Sie können apps aus dem Mandanten app-Katalog oder Teams app Store auswählen.
-5. Klicken Sie auf die für die gesamte Org app-Einstellungen **Speichern** , um wirksam wird.
+4. Klicken Sie unter **benutzerdefinierte apps**deaktivieren Sie oder aktivieren Sie **Zulassen Interaktion mit benutzerdefinierten apps**. Diese Einstellung steuert, ob Benutzer benutzerdefinierte (Sideloaded) apps interagieren können. Beachten Sie, dass dies ermöglicht Benutzern das *Hochladen* von benutzerdefinierten apps unterscheidet beibehalten.
+5. Unter **blockiert apps**suchen und Hinzufügen von apps, die Sie in Ihrer Organisation blockieren möchten. Sie können apps aus dem Mandanten app-Katalog oder Teams app Store auswählen.
+6. Klicken Sie auf die für die gesamte Org app-Einstellungen **Speichern** , um wirksam wird.
 
 ## <a name="create-a-custom-app-permission-policy"></a>Erstellen Sie eine benutzerdefinierte Anwendung Berechtigungsrichtlinie
 
-Wenn Sie möchten die apps zu steuern, die für verschiedene Gruppen von Benutzern in Ihrer Organisation zur Verfügung stehen, erstellen und eine oder mehrere benutzerdefinierte Richtlinien zuweisen. Sie erstellen und Zuweisen von separaten basierend auf gibt an, ob apps von Microsoft veröffentlicht werden benutzerdefinierte Richtlinien können Drittanbieter oder Ihre Organisation. Es ist wichtig, zu wissen, dass nach der Erstellung einer benutzerdefinierten Richtlinie nicht mehr ändern können, wenn Drittanbieter-apps in Org geltende Einstellungen deaktiviert sind. 
+Wenn Sie möchten die apps zu steuern, die für verschiedene Gruppen von Benutzern in Ihrer Organisation zur Verfügung stehen, erstellen Sie, und weisen Sie Berechtigungsrichtlinien für eine oder mehrere benutzerdefinierte Anwendung. Sie erstellen und Zuweisen von separaten basierend auf gibt an, ob apps von Microsoft veröffentlicht werden benutzerdefinierte Richtlinien können Drittanbieter oder Ihre Organisation. Es ist wichtig, zu wissen, dass nach der Erstellung einer benutzerdefinierten Richtlinie nicht mehr ändern können, wenn Drittanbieter-apps in Org geltende Einstellungen deaktiviert sind. 
 
-1. Wechseln Sie im linken Navigationsbereich von Microsoft-Teams, Administrationscenter, **Teams**App > **Berechtigungsrichtlinien App**.
+1. Wechseln Sie im linken Navigationsbereich von Microsoft-Teams, Administrationscenter, **Teams**App > **Berechtigungsrichtlinien**.
 2. Wählen Sie **neue Richtlinie**aus.
     ![Screenshot des neuen app-Berechtigungsrichtlinie](media/app-permission-policies-new-policy.png)
 3. Geben Sie einen beschreibenden Namen für die Richtlinie ein.
 4. Wählen Sie unter **Microsoft-apps**, **Drittanbieter - apps**und **Mandanten apps**eine der folgenden:
 
-- **Alle apps zulassen**
-- **Zulassen Sie bestimmte apps oder blockieren Sie alle anderen**
-- **Blockieren Sie bestimmte apps, und zulassen alle anderen**
-- **Blockieren Sie alle apps**
+    - **Alle apps zulassen**
+    - **Zulassen Sie bestimmte apps oder blockieren Sie alle anderen**
+    - **Blockieren Sie bestimmte apps, und zulassen alle anderen**
+    - **Blockieren Sie alle apps**
 
 5. Wenn Sie **bestimmte apps zulassen und verhindern, dass Benutzer**ausgewählt haben, fügen Sie die apps, die Sie zulassen möchten:
 
@@ -83,9 +83,9 @@ Wenn Sie möchten die apps zu steuern, die für verschiedene Gruppen von Benutze
 
 ## <a name="edit-an-app-permission-policy"></a>Bearbeiten einer Berechtigungsrichtlinie für eine app
 
-Sie können das Microsoft-Teams, Administrationscenter oder die Windows PowerShell verwenden, so bearbeiten Sie eine Richtlinie, einschließlich der globalen (Org geltende) Standardrichtlinie und benutzerdefinierte Richtlinien, die Sie erstellen. 
+Das Microsoft-Teams, Administrationscenter können Sie eine Richtlinie, einschließlich der globalen (Org geltende) Standardrichtlinie und benutzerdefinierte Richtlinien, die Sie erstellen, bearbeiten. 
 
-1. Wechseln Sie im linken Navigationsbereich von Microsoft-Teams, Administrationscenter, **Teams**App > **Berechtigungsrichtlinien App**.
+1. Wechseln Sie im linken Navigationsbereich von Microsoft-Teams, Administrationscenter, **Teams**App > **Berechtigungsrichtlinien**.
 2. Wählen Sie die Richtlinie, den, die Sie bearbeiten möchten.
 3. Stellen Sie dort die gewünschten Änderungen. Sie können basierte auf den Herausgeber der app-Einstellungen verwalten und hinzufügen und Entfernen von apps basierend auf der Einstellung zulassen/blockieren.
 4. Klicken Sie auf **Speichern**.
@@ -94,13 +94,25 @@ Sie können das Microsoft-Teams, Administrationscenter oder die Windows PowerShe
 
 Das Microsoft-Teams, Administrationscenter können Sie weisen Sie eine benutzerdefinierte Richtlinie für einzelne Benutzer oder die Skype für Business PowerShell-Modul mehrere Benutzer, wie alle Benutzer in einer Sicherheitsgruppe oder Verteilergruppe eine benutzerdefinierte Richtlinie zugewiesen.
 
-### <a name="assign-a-custom-app-setup-policy-to-individual-users"></a>Zuweisen einer Richtlinie auf benutzerdefinierte Anwendung Setup für einzelne Benutzer
+> [!IMPORTANT]
+> Es wird empfohlen, mithilfe von PowerShell nur für Richtlinien Benutzern zuweisen. Verwenden Sie das Microsoft-Teams, Administrationscenter zu erstellen, bearbeiten und Verwalten von Richtlinien.
+
+### <a name="assign-a-custom-app-permission-policy-to-individual-users"></a>Weisen Sie eine benutzerdefinierte Anwendung Berechtigungsrichtlinie für einzelne Benutzer
 
 1. Im linken Navigationsbereich von Microsoft-Teams, Administrationscenter wechseln Sie zu dem **Benutzer**, und klicken Sie dann auf Benutzer.
 2. Neben **zugewiesene Richtlinien**wählen Sie **Bearbeiten**aus.
 3. Wählen Sie unter **App Berechtigungsrichtlinie**die app-Berechtigung-Richtlinie, den, die Sie zuweisen möchten, und wählen Sie dann auf **Speichern**.
 
     ![App-Setup-Berechtigung-zuweisen-policy.png](media/app-permission-policies-assign-policy.png)
+
+Sie können einen oder mehrere Benutzer auch wie folgt eine Berechtigungsrichtlinie app zuweisen:
+
+1. Navigieren Sie zum **Microsoft-Teams, Administrationscenter** > **Teams apps** > **Berechtigungsrichtlinien**.
+2. Wählen Sie die Richtlinie, indem Sie auf links neben den Namen der Richtlinie.
+3. Wählen Sie **Benutzer verwalten**.
+4. Klicken Sie im Bereich **Benutzer verwalten** Suche für den Benutzer nach Anzeigename oder nach Benutzernamen, wählen Sie den Namen, und wählen Sie dann auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, die Sie hinzufügen möchten.
+5. Wenn Sie die Benutzer hinzugefügt haben, wählen Sie **Speichern**aus.
+ 
 
 ### <a name="assign-a-custom-app-permission-policy-to-users-in-a-group"></a>Weisen Sie eine benutzerdefinierte Anwendung Berechtigungsrichtlinie für Benutzer in einer Gruppe
 
@@ -137,6 +149,10 @@ Ja, können Sie Berechtigungsrichtlinien app verwenden, um die Einführung und V
 
 Sie können Richtlinien für die app Setup zusammen mit Berechtigungsrichtlinien app verwenden. Vor dem angeheftete apps sind aus dem Satz von aktivierte apps für einen Benutzer ausgewählt. Verfügt ein Benutzer einer Berechtigungsrichtlinie für eine app, die eine app in ihrer app-Richtlinie Setup blockiert, werden nicht darüber hinaus app in Teams angezeigt.
 
+#### <a name="can-i-use-app-permission-policies-to-restrict-uploading-custom-apps-also-known-as-sideloading"></a>Kann ich app Berechtigungsrichtlinien einschränken Hochladen von benutzerdefinierten apps (auch bekannt als Sideloading) verwenden?
+
+Weitere Informationen zum Einschränken des benutzerdefinierten apps hochladen finden Sie unter [Manage benutzerdefinierte app-Richtlinien und Einstellungen in Teams](teams-custom-app-policies-and-settings.md).
+
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>Wie lange dauert es Richtlinie, damit Änderungen wirksam werden, bis?
 
 Nachdem Sie die globale Richtlinie bearbeiten oder einer Richtlinie für Benutzer zuweisen, kann es bis zu 24 Stunden, damit die Änderungen wirksam werden. Org geltende app-Einstellungen werden sofort wirksam.
@@ -161,4 +177,6 @@ Beispielsweise, wenn eine app gesperrt wird, können nicht Benutzer der folgende
 - Verwenden Sie die app-messaging-Erweiterung
 
  ## <a name="related-topics"></a>Verwandte Themen
-- [Verwalten von Richtlinien für das App-Setup in Microsoft Teams](teams-app-setup-policies.md)
+- [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
+- [Verwalten von Richtlinien für die app Setup in Teams](teams-app-setup-policies.md)
+- [Verwalten von benutzerdefinierten app-Richtlinien und Einstellungen im Team](teams-custom-app-policies-and-settings.md)

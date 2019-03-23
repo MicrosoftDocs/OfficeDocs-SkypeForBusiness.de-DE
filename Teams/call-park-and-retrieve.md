@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Verwenden Sie Parken und fortsetzen, um einen Anruf in der Warteschleife im Dienst Teams in der Cloud.
-ms.openlocfilehash: 48052768ce172fda88b3e034277c4454988b32db
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 416458b1f7c134fca3294107bd82bbd0f2300abc
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353474"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747654"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parken und Fortsetzen von Anrufen in Microsoft Teams
 
@@ -60,6 +60,16 @@ Sie müssen ein Administrator konfigurieren Parken und fortsetzen sein, und das 
 
 Informationen zum Verwenden der Parken und Abrufen von Feature finden Sie unter [Parken eines Anrufs in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
 
+### <a name="assign-a-call-park-policy"></a>Zuweisen einer Richtlinie auf Anruf Parken
+
+Führen Sie diese Schritte, um einen oder mehrere Benutzer eine Anruf Parken Richtlinie zuweisen:
+
+1. Navigieren Sie zum **Microsoft-Teams, Administrationscenter** > **VoIP** > **Richtlinien für das Parken von Anrufen**.
+2. Wählen Sie die Richtlinie, indem Sie auf links neben den Namen der Richtlinie.
+3. Wählen Sie **Benutzer verwalten**.
+4. Klicken Sie im Bereich **Benutzer verwalten** Suche für den Benutzer nach Anzeigename oder nach Benutzernamen, wählen Sie den Namen, und wählen Sie dann auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, die Sie hinzufügen möchten.
+5. Wenn Sie die Benutzer hinzugefügt haben, wählen Sie **Speichern**aus.
+ 
 ### <a name="configure-call-park-and-retrieve-with-powershell"></a>Konfigurieren Sie des Parkens von Anrufen, und rufen Sie mit PowerShell
 
 Verwenden Sie das [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) PowerShell-Cmdlet eine Anruf Parken Richtlinie erstellen.

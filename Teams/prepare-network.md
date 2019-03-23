@@ -15,45 +15,42 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57f8ffc7d5cedeb6117deffb99ad48ccbe17b48f
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: c39924df868d7d9a3dae45a68b9785a4f493b35a
+ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640730"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30771710"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
 
-> [!Tip]
-> Sehen Sie sich die folgenden Sitzung erfahren, wie Sie Teams nutzt Ihr Netzwerk und am besten für die optimale Netzwerkkonnektivität planen: [Teams Netzwerkplanung](https://aka.ms/teams-networking)
 
+Microsoft Teams kombiniert drei Arten von Datenverkehr:
 
-Teams sind drei Arten von Datenverkehr kombiniert:
+-   Datenverkehr zwischen der Office 365-Onlineumgebung und dem Microsoft Teams-Client (Signalisierung, Anwesenheit, Chat, Dateiupload und -download, OneNote-Synchronisierung)
 
--   Datenverkehr zwischen online Office 365-Umgebung und dem Client Teams (Signale, Anwesenheit, Chat, Dateien hochladen und herunterladen, OneNote-Synchronisierung).
+-   Datenverkehr für Peer-zu-Peer-Echtzeitkommunikation (Audio, Video, Desktopfreigabe)
 
--   Real-Time Communications Peer-zu-Peer-Datenverkehr (audio, video, desktop freigeben).
+-   Datenverkehr für Echtzeitkommunikation in Konferenzen (Audio, Video, Desktopfreigabe)
 
--   Echtzeitkommunikation konferenzdatenverkehr (audio, video, desktop freigeben).
-
-Dies wirkt sich auf das Netzwerk auf zwei Ebenen: Datenverkehr fließt zwischen den Clients Microsoft-Teams, direkt für Peer-zu-Peer-Szenarien und Datenverkehr fließt zwischen Office 365-Umgebung und den Clients Microsoft-Teams zur Erfüllung Szenarien. Um eine optimale mediendatenfluss zu gewährleisten, Datenverkehr muss dürfen beide zwischen dem internen Netzwerksegmente (beispielsweise zwischen Standorten über das WAN) wie sowie zwischen flow der Netzwerkstandorte und Office 365. Nicht die richtigen Ports öffnen oder aktiv bestimmte Ports Sperren führt zu einer beeinträchtigter wünschen.
+Dies wirkt sich auf zwei Ebenen auf das Netzwerk aus: Der Datenverkehr fließt in Peer-zu-Peer-Szenarien direkt zwischen den Microsoft Teams-Clients und in Besprechungsszenarien zwischen der Office 365-Umgebung und den Microsoft Teams-Clients. Um den optimalen Datenverkehrsfluss sicherzustellen, muss der Datenverkehr zwischen den internen Netzwerksegmenten (zum Beispiel zwischen den Standorten über das WAN) sowie zwischen den Netzwerkstandorten und Office 365 fließen können. Wenn Sie nicht die richtigen Ports öffnen oder bestimmte Ports aktiv blockieren, führt dies zu Beeinträchtigungen.
 
 > [!NOTE]
 > Besprechungen werden auf iOS und Android mobilen Geräten unterstützt. 
 
-Wenn Sie eine optimale wünschen mit Echtzeit-Medien in Microsoft-Teams erhalten möchten, muss Ihr Netzwerk Netzwerken Anforderungen für Office 365 erfüllen. Weitere Informationen finden Sie unter [Medienqualität und Leistung des Netzwerks Konnektivität für Skype für Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+Wenn Sie eine optimale wünschen mit Echtzeit-Medien in Microsoft-Teams erhalten möchten, muss Ihr Netzwerk Netzwerken Anforderungen für Office 365 erfüllen. Weitere Informationen finden Sie unter [Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
-Sollten Sie für die zwei definierenden Netzwerksegmente (Client Microsoft Edge) und Customer Kante Microsoft Edge die folgenden Empfehlungen.
+Für die beiden definierenden Netzwerksegmente (Client zum Edge von Microsoft und Kundenedge zum Edge von Microsoft) gelten die folgenden Empfehlungen.
 
 
-|Wert  |Client für Microsoft-Edge  |Customer Edge zum Microsoft Rand  |
+|Wert  |Client zu Microsoft Edge  |Kundenedge zu Microsoft Edge  |
 |:--- |:--- |:--- |
-|**Wartezeit (unidirektional)**\*  |< 50 ms          |< 30ms         |
-|**Wartezeit (Zeit oder Roundtripzeit)**\* |< 100 ms   |< 60ms |
-|**Bursts von Paketverlusten**    |<10 % Intervall 200 ms         |<1 % Intervall 200 ms         |
-|**Paketverlust**     |<1 % während alle 15 s Intervall          |<0.1% während alle 15 s Intervall         |
-|**Die Kommunikation zwischen hinzukommen Jitter Paket**    |<30ms während alle 15 s Intervall         |<15ms während alle 15 s Intervall         |
-|**Paket neu anordnen**    |<0.05% außerhalb der Reihenfolge Pakete         |<0.01% außerhalb der Reihenfolge Pakete         |
+|**Wartezeit (unidirektional)**\*  |< 50 ms          |< 30 ms         |
+|**Wartezeit (Zeit oder Roundtripzeit)**\* |< 100 ms   |< 60 ms |
+|**Burstverlust von Paketen**    |< 10 % in einem Intervall von 200 ms         |< 1% in einem Intervall von 200 ms         |
+|**Paketverlust**     |< 1% in einem Intervall von 15 s          |< 0,1% in einem Intervall von 15 s         |
+|**Jitter zwischen der Ankunftszeit von Paketen**    |< 30 ms in einem Intervall von 15 s         |< 15 ms in einem Intervall von 15 s         |
+|**Neuanordnung von Paketen**    |< 0,05 % Pakete in falscher Reihenfolge         |< 0,01% Pakete in falscher Reihenfolge         |
 
 \*Die Wartezeit metrischen Ziele gehen davon aus Ihrer Firma Website oder Websites und die Microsoft Kanten auf dem gleichen Kontinent.
 
@@ -69,10 +66,19 @@ Um beide Netzwerksegmente zu testen, können Sie das [Tool zur Bewertung der Net
 
 ## <a name="bandwidth-requirements"></a>Erforderliche Bandbreite
 
-Bandbreite Berechnungen für Microsoft-Teams sind komplex und dabei zu unterstützen, um ein Rechner erstellt wurde. Um den Rechner zuzugreifen, wechseln Sie zur [Netzwerk Planner](https://aka.ms/bwcalc/) in MyAdvisor.
 
-> [!NOTE]
-> Behandlung von Teams Bandbreite wurden verbessert Skype für Business Online: für eine hohe Qualität aufrufen oder meeting-Erfahrung (mit Audio, Video und Freigabe), Teams nur 1,2 Mbit/s benötigt. Sie können auch Skalieren bis super hochwertige weiter, wenn genügend Bandbreite vorhanden ist. Wenn eine Anforderung Teams eine Bedingung geringer Bandbreite stößt, können Teams schnell Auslastung der Bandbreite Anpassung an die verfügbare Bandbreite textlichen.
+Dieser Artikel beschreibt eine präzise Version wie Bandbreite von Microsoft-Teams Echtzeit Audio-, Video- und Desktopfreigabe Modalitäten in verschiedene Anwendungsfälle genutzt wird. Teams ist immer auf bandbreitenauslastung konservativ und HD-Videoqualität in unter 1.2Mbps realisiert werden können.  Die tatsächlichen Bandbreitenverbrauch in einzelnen a/v-Anruf oder Besprechung, hängt Grundlage verschiedener Faktoren, wie video Layout, Auflösung und Videoframes pro Sekunde. Wenn mehr Bandbreite verfügbar ist werden die Qualität und Nutzung am besten zu erhöhen.
+
+
+|Bandwidth(Up/Down) |Szenarien |
+|---|---|
+|30 Kbit/s |Aufrufen von Peer-zu-Peer-audio |
+|130 Kbit/s |Peer-zu-Peer-audio Anruf- und Bildschirmfreigabe |
+|500 KBit/s |Peer-zu-Peer-Bildqualität 360p mit 30fps aufrufen |
+|1.2 Mbit/s |Durch den Aufruf von Auflösung von HD 720p mit 30fps Videoqualität HD Peer-zu-peer |
+|1,5 Mbit/s |Durch den Aufruf von Auflösung von HD 1080p mit 30fps Videoqualität HD Peer-zu-peer |
+|500 KBit/s/1 Mbit/s |Gruppe Video aufrufen |
+|1 Mbit/s/2 Mbit/s |HD-Gruppe video aufrufen (540p Videos auf 1080p Bildschirm) |
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.

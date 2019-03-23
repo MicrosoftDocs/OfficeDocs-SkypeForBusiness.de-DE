@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Informationen Sie zu Richtlinien für die app Setup in Microsoft-Teams und Nutzung zum Anpassen von Teams für Benutzer in Ihrer Organisation Pin apps.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 29fcd5541e4817a2c5880316bba33d7d55047444
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: 5633e5158a3f19ea8960e957b91537547d2580a1
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664748"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747662"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -85,6 +85,14 @@ Das Microsoft-Teams, Administrationscenter können Sie weisen Sie eine benutzerd
 3. Wählen Sie unter **Teams App Setup Richtlinie**die app-Setup-Richtlinie, die Sie zuweisen möchten, und wählen Sie dann auf **Speichern**.
 
     ![App-Setup-Richtlinien-zuweisen-policy.png](media/app-setup-policies-assign-policy.png)
+
+Sie können einen oder mehrere Benutzer auch wie folgt eine app-Setup-Richtlinie zuweisen:
+
+1. Navigieren Sie zum **Microsoft-Teams, Administrationscenter** > **Teams apps** > **Richtlinien einrichten**.
+2. Wählen Sie die Richtlinie, indem Sie auf links neben den Namen der Richtlinie.
+3. Wählen Sie **Benutzer verwalten**.
+4. Klicken Sie im Bereich **Benutzer verwalten** Suche für den Benutzer nach Anzeigename oder nach Benutzernamen, wählen Sie den Namen, und wählen Sie dann auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, die Sie hinzufügen möchten.
+5. Wenn Sie die Benutzer hinzugefügt haben, wählen Sie **Speichern**aus.
 
 ### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>Zuweisen einer Richtlinie auf benutzerdefinierte Anwendung Setup für Benutzer in einer Gruppe
 
