@@ -10,54 +10,54 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5ca71746-ead6-4e8c-90b1-461e846d1f4a
 description: In diesem Artikel wird erläutert, wie modernen Authentifizierung (die auf dem Active Directory-Authentifizierung Library (ADAL) und OAuth 2.0 basiert) verwenden, die in der März 2016 nachlesen können kumulative Update für Skype für Unternehmen für Skype für Business Server 2015.
-ms.openlocfilehash: 70878092baaee9414c8acada21a89ceea6587658
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: 0121e1a99aab70b10a00dbcf72d3a8be8a50553a
+ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25692761"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30800139"
 ---
-# <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>How to use Modern Authentication (ADAL) with Skype for Business
+# <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>Wie Sie moderne Authentifizierung (ADAL) mit Skype for Business verwenden
  
 In diesem Artikel wird erläutert, wie modernen Authentifizierung (die auf dem Active Directory-Authentifizierung Library (ADAL) und OAuth 2.0 basiert) verwenden, die in der März 2016 nachlesen können kumulative Update für Skype für Unternehmen für Skype für Business Server 2015 oder aus Initial die Version für Skype für Business Server 2019.
   
 ## <a name="whats-in-this-article"></a>Inhalt dieses Themas
 
-[Konfigurieren von ADAL in Ihrem Pool und Festlegen von ADFS als Sicherheitstokenserver](use-adal.md#BKMK_Config)
+[Konfigurieren von ADAL in Ihrem Pool, und legen Sie AD FS als Sicherheitstoken](use-adal.md#BKMK_Config)
   
 [Weitere Optionen für die Aktivierung der ADAL-Anmeldung (zum Beispiel Office-Client-Apps)](use-adal.md#BKMK_Options)
   
 [Clients, bei denen moderne Authentifizierung/ADAL nicht unterstützt wird](use-adal.md#BKMK_Support)
   
-### <a name="configure-adal-in-your-pool-and-set-adfs-as-security-token-server"></a>Konfigurieren von ADAL in Ihrem Pool und Festlegen von ADFS als Sicherheitstokenserver
+### <a name="configure-adal-in-your-pool-and-set-ad-fs-as-security-token-server"></a>Konfigurieren von ADAL in Ihrem Pool, und legen Sie AD FS als Sicherheitstoken
 <a name="BKMK_Config"> </a>
 
 In diesem Prozess verbinden Sie die Installation von AD FS mit einer Skype für Business Server-Pool, der für ADAL konfiguriert ist.
   
-1. Installieren der März 2016 kumulative Update für Skype für Business Server 2015 zu Ihrer Skype für Business Server-Pool oder Standard Edition-Server. (Planen Sie nach Bedarf Wartungsfenster, um Windows Update für die automatische Installation auszuführen.)
+1. Installieren der März 2016 Kumulatives Update (oder höher) für Skype für Business Server 2015 zu Ihrer Skype für Business Server-Pool oder Standard Edition-Server. (Planen Sie nach Bedarf Wartungsfenster, um Windows Update für die automatische Installation auszuführen.)
     
-2. Auf Ihrer lokalen AD FS-Servern, [Laden Sie](https://aka.ms/sfbadalscripts) das Setup-AdfsOAuthTrustForSfB Skript. (Dies pro AD FS-Farm oder unabhängigen AD FS-Server ausgeführt werden soll. Es muss nicht auf AD FS-Proxy oder Proxys ausgeführt werden).
+2. Klicken Sie auf dem lokalen AD FS-Server, [Laden Sie](https://aka.ms/sfbadalscripts) das Setup-AdfsOAuthTrustForSfB Skript. (Dies pro AD FS-Farm oder unabhängigen AD FS-Server ausgeführt werden soll. Es muss nicht auf AD FS-Proxys oder Web-Anwendungsproxys ausgeführt werden.)
     
 3. Notieren Sie sich von der internen und externen Webdienst vollqualifizierte Domänennamen (FQDNs) für Ihre Skype für Business Server-Pool oder Standard Edition-Server. Tun Sie dies für alle Skype for Business-Pools.
     
-4. Führen Sie über PowerShell auf dem oder den ADFS-Server(n)das Setup-Adfs OAuthTrustForSfB-Skript aus. Sie müssen die zutreffenden URLs für die FQDNs des internen und externen Webdienstes eingeben. Nachfolgend ein Beispiel:
+4. Ausführen von PowerShell auf den AD FS-Servern, `Setup-AdfsOAuthTrustForSfB.ps1` (für Windows Server 2012 R2) oder `Setup-Adfs2016OAuthTrustForSfB.ps1` (für Windows Server 2016 oder höher.) Sie müssen die richtigen URLs für die internen und externen Webdienst vollqualifizierten Domänennamen (FQDNs) eingeben. Nachfolgend ein Beispiel:
     
      `Setup-AdfsOAuthTrustForSfB.ps1 -poolIDs https://contosoSkype.contoso.com,https://contoso01Skype.contosoIn.com`
     
     Zusätzliche Pools müssen Sie die Webdienst-URLs Pool manuell die Skype für Business Server Vertrauensstellung für vertrauende Seite in AD FS hinzugefügt werden.
     
     > [!IMPORTANT]
-    > Es ist nicht möglich, passive Authentifizierung für einen Pool und außerdem ADAL zu verwenden. Sie müssen passive Authentifizierung deaktivieren, damit Sie ADAL verwenden können. Weitere Informationen zu PowerShell-Cmdlets und zum Festlegen von Authentifizierung für einen Pool finden Sie in [diesem](https://technet.microsoft.com/en-us/library/gg398396.aspx) Artikel.
+    > Es ist nicht möglich, passive Authentifizierung für einen Pool und außerdem ADAL zu verwenden. Sie müssen passive Authentifizierung deaktivieren, damit Sie ADAL verwenden können. PowerShell-Cmdlets zum Festlegen der Authentifizierung für einen Pool finden Sie unter [in diesem](https://technet.microsoft.com/en-us/library/gg398396.aspx) Artikel.
   
     > [!TIP]
-    > Wenn Sie zusätzliche Pools haben müssen Sie diese als [Bezeichner](https://technet.microsoft.com/en-us/library/gg557759%28v=ws.10%29.aspx) hinzufügen, um die Vertrauensstellung für vertrauende Seite in AD FS. > Gehe zu AD FS-Server und öffnen Sie die AD FS-Verwaltung. Erweitern Sie Vertrauensstellungen \> Relying Party-Vertrauensstellungen. Mit der rechten Maustaste die Vertrauensstellung für vertrauende Seite, die aufgeführt wird und für Eigenschaften Rechtsklick \> Bezeichner \> Geben Sie die zusätzliche Pool URL(s) \> klicken Sie auf Hinzufügen. 
+    > Wenn Sie zusätzliche Pools haben, die Sie diese als [Bezeichner](https://technet.microsoft.com/en-us/library/gg557759%28v=ws.10%29.aspx) hinzufügen, um die Vertrauensstellung für vertrauende Seite müssen, in AD FS.> wechseln Sie zu Ihrem AD FS-Server, und öffnen Sie AD FS-Verwaltung. Erweitern Sie Vertrauensstellungen \> Relying Party-Vertrauensstellungen. Mit der rechten Maustaste die Vertrauensstellung für vertrauende Seite, die aufgeführt wird und für Eigenschaften Rechtsklick \> Bezeichner \> Geben Sie die zusätzliche Pool URL(s) \> klicken Sie auf Hinzufügen. 
   
 5. Geben Sie an Ihre Skype für Business Server-Front-End oder Standard Edition-Server. Hier müssen Sie die Cmdlets ausführen, die OAuth-Server erstellen und ändern die OAuth-Konfiguration Skype für Unternehmen entwickelt. Sie müssen nur führen Sie diesen Schritt einmal pro Skype für Business Server-Bereitstellung. Hier ist ein Beispiel:
     
      `New-CsOAuthServer -Identity sts.contosoIn.com -Type ADFS -MetadataURL https://sts.contosoIn.com/FederationMetadata/2007-06/FederationMetadata.xml`
     
     > [!TIP]
-    > Die Sie in diesem Befehl finden Sie unter "Identität" URL ist tatsächlich ADFS Namen des Verbunddienstes können Sie die bei der Verwaltung von AD FS mit der rechten Maustaste Service \> Eigenschaften. Der "Typ" ist immer ADFS, und die 'Metadaten-URL' ist immer \<Your ADFS Dienstname\> + "/ FederationMetadata/2007-06/FederationMetadata.xml". 
+    > Die Sie in diesem Befehl finden Sie unter "Identität" URL ist tatsächlich AD FS Namen des Verbunddienstes können Sie die bei der Verwaltung von AD FS mit der rechten Maustaste Service \> Eigenschaften. Der "Typ" ist immer "ADFS", und die 'Metadaten-URL' ist immer \<Ihrer AD FS-Dienstname\> + "/ FederationMetadata/2007-06/FederationMetadata.xml". 
   
      `Set-CsOAuthConfiguration -ClientAuthorizationOAuthServerIdentity sts.contosoIn.com`
     
@@ -70,7 +70,7 @@ In diesem Prozess verbinden Sie die Installation von AD FS mit einer Skype für 
     > [!NOTE]
     > Wenn Ihr STS-URL in AD FS *intern* aufgelöst wird, werden die Aufforderung sehen Sie ein **Windows-Sicherheitshinweis** angezeigt. Sollte die URL extern aufgelöst werden, sehen Sie eine Eingabeaufforderung namens **Anmelden**. Normalerweise sollte an dieser Stelle die **Windows Security**-Eingabeaufforderung angezeigt werden. Beachten Sie, dass dieses Verhalten unterschiedlich ausfallen kann, speziell wenn Sie formularbasierte Authentifizierung (FBA) implementiert haben.
   
-Beachten Sie außerdem: Wenn die STS-URL zu einem internen ADFS-Server aufgelöst wird und in Browsern integrierte Windows-Authentifizierung aktiviert ist, können auf Computern, auf denen sich viele verschiedene Nutzer für Client-Anwendungen anmelden, Authentifizierungsfehler auftreten, wenn nicht der Browser ausdrücklich dafür konfiguriert ist, Nutzern eine Eingabeaufforderung für ihre Anmeldedaten in einer bestimmten Browser-Sicherheitszone zu präsentieren. Denken Sie zum Beispiel an einen Kiosk. Das Konto der Anmeldung beim Betriebssystem kann ein anderes als das Benutzerkonto der Anmeldung beim Skype for Business-Client sein. In einem solchen Fall könnten die hier beschriebenen Fehler auftreten.
+Beachten Sie, wenn der STS-URL in einer internen AD FS-Servers aufgelöst wird und in Browsern, die integrierte Windows-Authentifizierung aktiviert ist, Computer, auf dem viele verschiedene Benutzer Clientanwendungen melden Sie sich, möglicherweise ein Fehler bei der Authentifizierung, sofern nicht explizit ist mit browser so konfiguriert, dass Benutzer nach ihren Anmeldeinformationen in einem bestimmten Browser Sicherheitszone. Denken Sie zum Beispiel an einen Kiosk. Das Konto der Anmeldung beim Betriebssystem kann ein anderes als das Benutzerkonto der Anmeldung beim Skype for Business-Client sein. In einem solchen Fall könnten die hier beschriebenen Fehler auftreten.
     
 Sie können finden Sie unter und diese Browsereinstellung in Internet Explorer ändern, indem Sie auf \> Tools (oder die Zahnrad) \> Internetoptionen \> Registerkarte Sicherheit \> und die Sicherheitszone (beispielsweise Lokales Intranet). Klicken Sie in diesem Dialogfeld auf „Stufe anpassen“ und blättern Sie im Dialogfeld „Einstellungen“ bis zum Ende der Liste. Klicken Sie unter Benutzerauthentifizierung \> Anmeldung \> sehen Sie eine Option, um 'Nach Benutzername und Kennwort Fragen'. Bei einem Kiosk, bei dem der Nutzer, der den Skype for Business-Client startet, ein anderer ist (ein anderes Konto hat) als der beim Computer angemeldete Nutzer, empfiehlt es sich, diese Option für diese Computer in einer Gruppenrichtlinie probehalber auf „EIN“ zu stellen.
     
@@ -117,4 +117,5 @@ Einige Clientversionen unterstützen OAuth nicht. Sie können Ihre Version des O
     
 - Office-Client 16,0. [6000-6224].\*
     
-
+> [!NOTE]
+> Hybrid modernen Authentifizierung steht auch mit Skype für Business lokal, wenn Sie mehr wissen, besuchen die [zum Konfigurieren von Skype für Unternehmen: lokal modernen Hybrid-Authentifizierung verwenden](https://docs.microsoft.com/en-us/office365/enterprise/configure-skype-for-business-for-hybrid-modern-authentication) möchten

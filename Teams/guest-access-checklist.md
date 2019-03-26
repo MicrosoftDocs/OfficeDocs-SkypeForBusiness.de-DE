@@ -1,13 +1,13 @@
 ---
-title: Prüfliste für den Microsoft Teams-Gastzugriff
+title: Microsoft-Teams Gast Access Prüfliste
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
-ms.date: 01/22/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
-description: Verwenden Sie diese Prüfliste, um Gastzugriff in Microsoft Access-Teams Gast einrichten.
+description: Verwenden Sie diese Prüfliste, um Gastzugriff in Microsoft-Teams, einrichten.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,17 +15,17 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 404754c373d46b9b6e5578107415d61bbb87f97e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 68beeba403f6a64e194594d5bd40b985c8051dc6
+ms.sourcegitcommit: fba1151c968aa2c43d0c5b42b889b2cdd8dba3cd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463468"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "30795586"
 ---
 <a name="teams-guest-access-checklist"></a>Teams Gast Access Prüfliste
 ==========================================
 
-Verwenden Sie diese Prüfliste, mit denen Sie aktivieren und Konfigurieren des Gast Access-Features in Microsoft-Teams gemäß den Anforderungen Ihrer Organisation.
+Verwenden Sie diese Prüfliste, mit denen Sie aktivieren und Konfigurieren des Gast-Access-Features in Microsoft-Teams gemäß den Anforderungen Ihrer Organisation.
 
 ## <a name="understand-the-limitations-for-guests"></a>Verstehen der Grenzen für Gäste
 
@@ -65,7 +65,7 @@ Einige Dinge bedenken:
 4. Klicken Sie unter **externe Benutzer**klicken Sie auf **Einstellungen für externe verwalten für die Zusammenarbeit**.
 5. Klicken Sie auf der Seite **Einstellungen für die externe Zusammenarbeit** sicherstellen Sie, dass **Mitglieder können einladen** auf **Ja**festgelegt ist.
 
-      ![Screenshot zeigt ein Beispiel für eine Umschaltfläche AAD Einstellungen. ](media/guest-access-checklist-AADSettings1.png)
+      ![Screenshot zeigt ein Beispiel für eine AAD Einstellungen ein-/ausschalten. ](media/guest-access-checklist-AADSettings1.png)
 
     Zur Unterstützung der Gäste müssen **Mitglieder können einladen** auf **Ja**festgelegt werden. 
    
@@ -93,7 +93,7 @@ Zumindest müssen Sie Gast Access für Microsoft-Teams, unter der **Microsoft-Te
 1. Wählen Sie in der Verwaltungskonsole Teams **Org geltende Einstellungen** > **Gastzugriff**.
 2. Legen Sie die Option **Zulassen Gast Access in Microsoft-Teams** auf **aktiviert**.
 
-    ![Screenshot zeigt ein Beispiel für eine Umschaltfläche Teams Einstellungen](media/set-up-guests-image1.png)
+    ![Screenshot zeigt ein Beispiel für eine Teams Einstellungen ein-/ausschalten](media/guest-access-checklist-set-up-guests-image1.png)
 
 3. Klicken Sie auf der gleichen Seite konfigurieren Sie alle anderen Gast-Einstellungen, die Sie benötigen.
 4. Klicken Sie auf **Speichern**.
@@ -107,15 +107,15 @@ Stellen Sie sicher, dass Benutzer Gäste hinzufügen können. Hier ist wie:
 
 1. Wechseln Sie in der Microsoft-365-Verwaltungskonsole zu **Einstellungen** > **Sicherheit & Datenschutz**.
 
-     ![Screenshot zeigt ein Beispiel einer Services-Einstellungen](media/guest-access-checklist-Office365Admin_Services_addins.png)
+     ![Screenshot zeigt ein Beispiel für Services-Einstellungen](media/guest-access-checklist-Office365Admin_Services_addins.png)
 
 2. Wählen Sie in der **Freigabe** **Bearbeiten**.
 
-     ![Screenshot zeigt ein Beispiel für eine Freigabe Einstellungen umschalten](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
+     ![Screenshot zeigt ein Beispiel für eine Freigabe Einstellungen ein-/ausschalten](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
  
 3. Legen Sie **dazu, Benutzern das Hinzufügen von neuen Gäste auf diese Organisation** auf **aktiviert**, und klicken Sie dann auf **Speichern**.
 
-     ![Screenshot zeigt ein Beispiel für eine Freigabe Einstellungen umschalten](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
+     ![Screenshot zeigt ein Beispiel für eine Freigabe Einstellungen ein-/ausschalten](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
  
 > [!NOTE]
 > Diese Einstellung entspricht der Einstellung **Mitglieder einladen können** in **benutzereinstellungen** > **externe Benutzer** in Azure Active Directory.  
@@ -128,14 +128,14 @@ Stellen Sie sicher, dass Benutzer Gäste hinzufügen können. Hier ist wie:
 3. Wählen Sie in der SharePoint-Verwaltungskonsole **Freigabe**.
 4. Stellen Sie sicher, dass die Option für **nicht zulassen Freigabe außerhalb Ihrer Organisation** *nicht* ausgewählt ist.
  
-     ![Screenshot zeigt ein Beispiel für eine Umschaltfläche Sparepoint Online-Einstellungen.](media/guest-access-checklist-SPOSettings1.png)
+     ![Screenshot zeigt ein Beispiel für eine SparePoint Online Einstellungen ein-/ausschalten.](media/guest-access-checklist-SPOSettings1.png)
 
 
 ## <a name="-step-6-enable-specific-settings-for-channels"></a>□ Schritt 6: Aktivieren Sie bestimmte Einstellungen für Kanäle 
 
 Konfigurieren Sie in der Anwendung Teams auf Ebene der einzelnen Teams Gastberechtigungen, sodass Gäste erstellen, aktualisieren und Löschen von Kanäle können. Zusätzlich zur-Administratoren können Team Besitzer dieser Einstellung konfigurieren.
 
-![Screenshot zeigt ein Beispiel für eine Umschaltfläche Team/Channel-Einstellungen](media/guest-access-checklist-TeamsSettings2.png)
+![Screenshot zeigt ein Beispiel einer Team-Kanal Einstellungen ein-/ausschalten](media/guest-access-checklist-TeamsSettings2.png)
 
 Weitere Informationen, einschließlich videoanleitungen finden Sie unter [Gast Access in Microsoft-Teams](guest-access.md).
 
