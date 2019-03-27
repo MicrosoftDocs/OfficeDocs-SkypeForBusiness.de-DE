@@ -24,6 +24,7 @@
 ## [Verwalten von Messagingrichtlinien](messaging-policies-in-teams.md)
 ## [Erste Schritte mit Microsoft Teams-Vorlagen](get-started-with-teams-templates.md)
 ## [Teams-Vorlagen für das Gesundheitswesen](healthcare/healthcare-templates.md)
+## [Teams-Vorlagen für den Einzelhandel](get-started-with-retail-teams-templates.md)
 ## [Übersicht über dynamische Mitgliedschaft für Teams](dynamic-memberships.md)
 ## [Anwesenheit](presence-admins.md)
 ## [Kommunizieren mit Microsoft Teams-Benutzern in anderen Organisationen](let-your-teams-users-communicate-with-other-people.md)
@@ -34,6 +35,9 @@
 ## [Apps, Bots und Connectors](deploy-apps-microsoft-teams-landing-page.md)
 ### [Berechtigungen für Apps und Überlegungen dazu](app-permissions.md).
 ### [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
+### [Verwalten von Richtlinien für App-Berechtigungen in Teams](teams-app-permission-policies.md)
+### [Verwalten von Richtlinien für App-Setup in Teams](teams-app-setup-policies.md)
+### [Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams](teams-custom-app-policies-and-settings.md)
 ### [Hinzufügen von Bots für private Chats und Kanäle in Teams](add-bots.md)
 ### [Verwenden integrierter und benutzerdefinierter Registerkarten](built-in-custom-tabs.md)
 ### [Office 365 und benutzerdefinierte Connectors](Office-365-custom-connectors.md)
@@ -317,7 +321,7 @@
 ### Automatische Telefonzentralen und Anrufwarteschleifen 
 #### [Was sind automatische Telefonzentralen des Telefonsystems?](what-are-phone-system-auto-attendants.md)
 #### [Einrichten einer automatischen Telefonzentrale des Telefonsystems](create-a-phone-system-auto-attendant.md)
-#### [Beispiel für Kleinunternehmen – Einrichten einer automatischen Telefonzentrale](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Beispiel für Kleinunternehmen – Einrichten einer automatischen Telefonzentrale](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Verwalten von Ressourcenkonten in Microsoft Teams](manage-resource-accounts.md)
 #### [Erstellen einer Anrufwarteschleife für das Telefonsystem](create-a-phone-system-call-queue.md)
 #### [Direktes Beantworten von Anrufen aus der automatischen Telefonzentrale und der Anrufwarteschleife aus Teams](answer-auto-attendant-and-call-queue-calls.md)
@@ -345,8 +349,8 @@
 #### [Aktivieren des standortbasierten Routings für direktes Routing](location-based-routing-enable.md)
 
 ### Medienumgehung für direkte Weiterleitung
-#### [Planen der Medienumgehung mit direkter Weiterleitung](direct-routing-plan-media-bypass.md)
-#### [Konfigurieren der Medienumgehung mit direkter Weiterleitung](direct-routing-configure-media-bypass.md)
+#### [Planen der Medienumgehung mit direktem Routing](direct-routing-plan-media-bypass.md)
+#### [Konfigurieren der Medienumgehung mit direktem Routing](direct-routing-configure-media-bypass.md)
 
 
 ### Technische Referenz für direktes Routing
@@ -688,7 +692,7 @@
 ## Teams für Mitarbeiter in Service und Produktion
 ### [Microsoft StaffHub soll eingestellt werden](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
 ### [Verwalten der Schichten-App für Ihre Organisation in Teams](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
-### [Erste Schritte mit Vorlagen für Teams im Einzelhandel](get-started-with-retail-teams-templates.md)
+### [Erste Schritte mit Microsoft Teams-Vorlagen im Einzelhandel](get-started-with-retail-teams-templates.md)
 
 ## [Planen von Microsoft 365 Government – GCC](plan-for-government-gcc.md)
 ### [Planen von Microsoft 365 Government – GCC High](plan-for-government-gcc-high.md)
