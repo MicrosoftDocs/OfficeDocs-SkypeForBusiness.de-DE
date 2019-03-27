@@ -1,5 +1,6 @@
 ---
 title: Audiokonferenzen in Microsoft Teams
+ms.reviewer: ''
 description: Verwenden Sie diese Bereitstellungsressourcen zur Unterstützung bei der Bereitstellung von Audiokonferenzen als Bestandteil der Besprechungsarbeitslast in Microsoft Teams.
 ms.topic: article
 author: LolaJacobsen
@@ -15,12 +16,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c146e0bc3417e5a62af4a57c3ec1e2e49158c3a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 596edc9aa9adf3a12bac9ec4553e27beec82f648
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461172"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898670"
 ---
 # <a name="audio-conferencing-in-microsoft-teams"></a>Audiokonferenzen in Microsoft Teams
 
@@ -40,14 +41,14 @@ Bevor Sie Audiokonferenzen für Teams bereitstellen können, beachten Sie Folgen
 |Frage|Aktion |
 |------------|-------|
 |Sind Audiokonferenzen für mein Land/meine Region verfügbar?|Informationen darüber, ob Audiokonferenzen für Ihr Land/Ihre Region verfügbar sind, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).|
-|Besitzen meine Benutzer die entsprechenden Lizenzen für Teams-Audiokonferenzen?|Die Audiokonferenzlizenzen sind im Rahmen eines Office 365 E5-Abonnements oder als Add-On-Service für ein Office 365 E1- oder Office 365 E3-Abonnement verfügbar. <ul><li>Informationen zum Abrufen und Zuweisen von Lizenzen finden Sie unter [Testen oder Kaufen von Audiokonferenz in Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) und [Zuweisen oder Entfernen von Lizenzen in Office 365 Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Weitere Informationen finden Sie unter "[Skype für Business und Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md". </li><li>Welche Cloudfeatures in den einzelnen Office 365-Plänen enthalten sind, erfahren Sie in den Artikeln [Lizenzoptionen auf Grundlage Ihres Plans](teams-add-on-licensing/office-365-business-premium.md).</li></ul>|
+|Besitzen meine Benutzer die entsprechenden Lizenzen für Teams-Audiokonferenzen?|Die Audiokonferenzlizenzen sind im Rahmen eines Office 365 E5-Abonnements oder als Add-On-Service für ein Office 365 E1- oder Office 365 E3-Abonnement verfügbar. <ul><li>Informationen zum Abrufen und Zuweisen von Lizenzen finden Sie unter [Testen oder Kaufen von Audiokonferenz in Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) und [Zuweisen oder Entfernen von Lizenzen in Office 365 Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Weitere Informationen finden Sie unter [Lizenzierung für Microsoft Teams-Add-On](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>Welche Cloudfeatures in den einzelnen Office 365-Plänen enthalten sind, erfahren Sie in den Artikeln [Lizenzoptionen auf Grundlage Ihres Plans](teams-add-on-licensing/office-365-business-premium.md).</li></ul>|
 |Muss ich Guthaben für Kommunikationen für Benutzer erwerben, denen eine Lizenz für Audiokonferenzen zugewiesen wurde?|Lesen Sie weiter unter [Was ist Guthaben für Kommunikationen?](what-are-communications-credits.md), und sehen Sie sich anschließend den Abschnitt [Guthaben für Kommunikationen](#communications-credits) weiter unten an.|
 |||
 
 
 ## <a name="core-deployment-decisions"></a>Zentrale Entscheidungen bei der Bereitstellung
 
-Nachdem Sie die [Voraussetzungen für Audiokonferenzen](#audio-conferencing-prerequisites) erfüllt haben, führen Sie die folgenden Schritte aus, um Audiokonferenzen für Ihre Benutzer zu konfigurieren.
+Nachdem Sie die Voraussetzungen für Audiokonferenzen erfüllt haben, führen Sie die folgenden Schritte aus, um Audiokonferenzen für Ihre Benutzer zu konfigurieren.
 
 
 ### <a name="teams-administrators"></a>Teamadministratoren
@@ -100,7 +101,7 @@ Nachdem Sie Ihre Audiokonferenzbrücke erstellt haben, müssen Sie die gebühren
 
 |Frage|Aktion |
 |------------|-------|
-| Welche Konferenzbrückennummern weise ich den jeweiligen Benutzern zu, die Besprechungen leiten? | Weitere Informationen zum Zuweisen einer Einwahltelefonnummer zu einem Benutzer finden Sie unter [Schritt 7: Zuweisen von Einwahlnummern zu Benutzern, die Besprechungen leiten](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing#step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). |
+| Welche Konferenzbrückennummern weise ich den jeweiligen Benutzern zu, die Besprechungen leiten? | Weitere Informationen zum Zuweisen einer Einwahltelefonnummer zu einem Benutzer finden Sie unter [Schritt 7: Zuweisen von Einwahlnummern zu Benutzern, die Besprechungen leiten](set-up-audio-conferencing-in-teams.md#step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings). |
 |||
 
 ### <a name="communications-credits"></a>Guthaben für Kommunikationen
@@ -111,7 +112,7 @@ Um gebührenfreie Telefonnummern für Konferenzbrücken zur Verfügung zu stelle
 |------------|-------|
 |Ist Guthaben für Kommunikationen für meine Audiokonferenz-Implementierung erforderlich? |Um zu erfahren, ob Sie Guthaben für Kommunikationen einrichten müssen, lesen Sie [Einrichten von Guthaben für Kommunikationen für Ihr Unternehmen](set-up-communications-credits-for-your-organization.md).|
 |Wenn Guthaben erforderlich ist, wie viel soll ich erwerben?|Wenn Sie bestimmen möchten, wie viel Guthaben für Kommunikationen Sie benötigen, lesen Sie [Empfohlene Einzahlungsbeträge](what-are-communications-credits.md#recommended-funding-amounts).|
-|Soll ich einen Betrag für das automatische Aufladen konfigurieren?|Informationen zum Konfigurieren eines Betrags für das automatische Aufladen finden Sie unter [Einrichten von Guthaben für Kommunikationen für Ihr Unternehmen](what-are-communications-credits.md#recommended-funding-amounts).|
+|Soll ich einen Betrag für das automatische Aufladen konfigurieren?|Informationen zum Konfigurieren eines Betrags für das automatische Aufladen finden Sie unter [Einrichten von Guthaben für Kommunikationen für Ihr Unternehmen](set-up-communications-credits-for-your-organization.md).|
 |||
 
 
