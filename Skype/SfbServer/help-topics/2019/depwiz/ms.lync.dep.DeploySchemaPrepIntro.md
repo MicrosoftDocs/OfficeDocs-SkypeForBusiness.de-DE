@@ -1,5 +1,6 @@
 ---
 title: Vorbereiten des Schemas (Einführung)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,15 +13,15 @@ localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um den Vorgang zum Erweitern des Schemas für Skype für Business Server starten, starten Sie auf der Seite Schema vorbereiten. Klicken Sie auf Weiter, um die Schemavorbereitung fortzusetzen.
-ms.openlocfilehash: 69532c4f69c6f85278c3e9c83015308709332ff0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3dd114243a6685064aa976bd1427445d202d945a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993975"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883630"
 ---
-# <a name="prepare-schema-intro"></a><span data-ttu-id="a7de9-104">Vorbereiten des Schemas (Einführung)</span><span class="sxs-lookup"><span data-stu-id="a7de9-104">Prepare Schema (Intro)</span></span>
+# <a name="prepare-schema-intro"></a><span data-ttu-id="9da3c-104">Vorbereiten des Schemas (Einführung)</span><span class="sxs-lookup"><span data-stu-id="9da3c-104">Prepare Schema (Intro)</span></span>
  
-<span data-ttu-id="a7de9-105">Um den Vorgang zum Erweitern des Schemas für Skype für Business Server starten, starten Sie auf der Seite **Schema vorbereiten** .</span><span class="sxs-lookup"><span data-stu-id="a7de9-105">To start the task to extend the schema for Skype for Business Server, you begin on the **Prepare Schema** page.</span></span> <span data-ttu-id="a7de9-106">Klicken Sie auf **Weiter**, um die Schemavorbereitung fortzusetzen.</span><span class="sxs-lookup"><span data-stu-id="a7de9-106">Click **Next** to continue with the schema preparation.</span></span>
+<span data-ttu-id="9da3c-105">Um den Vorgang zum Erweitern des Schemas für Skype für Business Server starten, starten Sie auf der Seite **Schema vorbereiten** .</span><span class="sxs-lookup"><span data-stu-id="9da3c-105">To start the task to extend the schema for Skype for Business Server, you begin on the **Prepare Schema** page.</span></span> <span data-ttu-id="9da3c-106">Klicken Sie auf **Weiter**, um die Schemavorbereitung fortzusetzen.</span><span class="sxs-lookup"><span data-stu-id="9da3c-106">Click **Next** to continue with the schema preparation.</span></span>
   
 
