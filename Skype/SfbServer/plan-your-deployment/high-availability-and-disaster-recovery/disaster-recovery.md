@@ -1,5 +1,6 @@
 ---
 title: Front-End-Pool Disaster Recovery in Skype für Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Skype für Business Server bietet für Disaster Recovery und poolpaaren mit Failover für den Fall, dass ein Pool ausfällt.
-ms.openlocfilehash: 4f7be2c41155c25984a3a4892fdabe982384756a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 56108fe2187b37fd6f3094d68a8cc89bac436bea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979891"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897423"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Front-End-Pool Disaster Recovery in Skype für Business Server
  
@@ -51,17 +52,17 @@ Beachten Sie, dass Skype for Business die Notfallwiederherstellung für Benutzer
   
 ## <a name="recovery-time-for-pool-failover-and-pool-failback"></a>Wiederherstellungsdauer bei einem Failover und Failback eines Pools
 
-Für Poolfailover und Poolfailback liegt das Entwicklungsziel für das Recovery Time Objective (RTO) bei 15-20 Minuten. Dies ist die Zeit, die erforderlich ist, bis das Failover stattfindet, nachdem Administratoren festgestellt haben, dass ein Notfall vorliegt, und die Failover-Prozeduren initiiert haben. Hierin ist die Zeit, die Administratoren für die Bewertung der Situation und die Entscheidungsfindung benötigen, nicht enthalten. Auch nicht enthalten ist die Zeit, die Benutzer nach Abschluss des Failovers für die Anmeldung benötigen.
+Bei einem Failover und Failback eines Pools ist das engineering Ziel für Recovery Time Objectives (RTO) 15 bis 20 Minuten. Hierbei handelt es sich um den Zeitaufwand für das Failover ausgeführt, nachdem es Administratoren bestimmt haben, wurde von ein Notfall, und die FailoverVerfahren gestartet. Umfasst nicht die Zeit für Administratoren bei der Bewertung der Situation und treffen einer Entscheidung, und umfasst auch den Zeitpunkt den Benutzer erneut anmelden, nach dem Failover abgeschlossen ist.
   
 Für Poolfailover und Poolfailbacks liegt das Entwicklungsziel für das Recovery Time Objective (RTO) bei 5 Minuten. Dies definiert die Zeitspanne, in der Daten aufgrund des Notfalls und aufgrund der Replikationswartezeit des Sicherungsdienstes verloren gehen können. Beispiel: bei ein Pool ausfällt, 10:00 Uhr und RPO ist 5 Minuten, auf den Pool zwischen 9:55 Uhr geschriebene Daten und 10:00 Uhr .might nicht mit dem Sicherungspool repliziert und würde verloren.
   
-Bei den in diesem Dokument aufgeführten RTO- und RPO-Zahlen wird davon ausgegangen, dass sich die beiden Rechenzentren in derselben Weltregion befinden und zwischen den Standorten eine Hochgeschwindigkeitsübertragung mit geringer Latenz stattfindet. Die Zahlen wurden für einen Pool mit 40.000 gleichzeitig aktiven Benutzern und 200.000 für Lync aktivierten Benutzern gemessen. Eingehalten wird ein vordefiniertes Benutzermodell, das keinen Rückstand der Datenreplikation vorsieht. Die Zahlen können sich aufgrund von Leistungstests und Leistungsvalidierungen ändern.
+Alle RTO- und RPO-Nummern in diesem Dokument wird davon ausgegangen, dass die zwei Rechenzentren innerhalb desselben Bereichs World mit Hochgeschwindigkeits, geringer Latenz Transport zwischen den beiden Standorten befinden. Diese Nummern werden für einen Pool mit 40.000 gleichzeitig aktive Benutzer und 200.000 Benutzern im Hinblick auf eine vordefinierte Benutzermodell für Lync aktivierten gemessen in Datenreplikation Backlogs vorhanden ist. Sie werden können basierend auf Leistungstests und Validierung geändert.
   
 ## <a name="central-management-store-failover"></a>Failover des zentralen Verwaltungsspeichers
 
 Der zentrale Verwaltungsspeicher enthält Konfigurationsdaten zu Servern und Diensten in Ihrer Bereitstellung. Jede Skype für Business Server-Bereitstellung umfasst einen zentralen Verwaltungsspeicher, die vom Back End-Server von einem Front-End-Pool gehostet wird.
   
-Wenn Sie den Pool, der den zentralen Verwaltungsspeicher hostet, verbinden, wird im Backup-Pool eine zentrale Sicherungsverwaltungsspeicher-Datenbank eingerichtet. Zu jedem Zeitpunkt ist eine der zwei zentralen Verwaltungsspeicherdatenbanken aktiv und eine befindet sich im Standby.
+Wenn ein Paar, Pools, der den zentralen Verwaltungsspeicher einer zentralen Speicher Sicherungsdatenbank hostet ist, im Sicherungspool eingerichtet werden. Zu jedem Zeitpunkt eine der zwei Datenbanken zentralen Speicher aktiv ist, und der andere eine Standby. Der Inhalt wird von den Sicherungsdienst aus der aktiven Datenbank auf dem Standbymodus repliziert.
   
 ![Zeigt zwei Front-End-Pools, einen mit dem aktiven CMS-Speicher und den anderen mit dem passiven CMS-Sicherungsspeicher](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
   

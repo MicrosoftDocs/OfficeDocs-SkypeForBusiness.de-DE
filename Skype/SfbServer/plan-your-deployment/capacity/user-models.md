@@ -1,5 +1,6 @@
 ---
 title: Benutzermodelle in Skype für Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
 description: Die hier beschriebenen Benutzermodelle bilden die Grundlage für die kapazitätsplanung Zahlenangaben und Empfehlungen in Capacity beschriebenen Skype Business Server für die Verwendung des Objektmodells für Benutzer planen.
-ms.openlocfilehash: 4f2c9ed9701b7b90812960c050f27bedcf8aab4d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2e636b41187c862ea866b97ea99f6b0275657557
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987370"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897493"
 ---
 # <a name="user-models-in-skype-for-business-server"></a>Benutzermodelle in Skype für Business Server
  

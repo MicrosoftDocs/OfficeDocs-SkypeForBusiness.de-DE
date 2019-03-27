@@ -1,5 +1,6 @@
 ---
 title: Start-CcDownload
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
 description: Das Cmdlet Start-CcDownload downloads der Skype für Business Cloud Connector Edition Bits und MSI-Datei synchron.
-ms.openlocfilehash: aec8d5c1848e7e55d6ed4b7e4d3633942f74ab55
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cc157825df75a4534422cb0a2fd07abb0ae0daea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893838"
 ---
 # <a name="start-ccdownload"></a>Start-CcDownload
  
@@ -74,7 +76,7 @@ Keine. Das Cmdlet Start-CcDownload akzeptiert keine weitergeleitete Eingabe.
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine
+Keine 
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>

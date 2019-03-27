@@ -1,5 +1,6 @@
 ---
 title: tblServerIdentity
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5411c9bc-b0b3-41fc-8b7e-fa71cccd770b
 description: TblServerIdentity enthält die aktiven Chatserver im Pool Persistent Chat Server.
-ms.openlocfilehash: 445021bb486d418011ea21dd32c0339e11b4d17a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1f9455e4c35a3bc6061c1d44ad10cbd4778c6c1f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899526"
 ---
 # <a name="tblserveridentity"></a>tblServerIdentity
  

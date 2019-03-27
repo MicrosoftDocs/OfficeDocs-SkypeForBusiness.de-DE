@@ -1,5 +1,6 @@
 ---
 title: Planen der Integration von Exchange Unified Messaging in Skype for Business
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Zusammenfassung: Lesen Sie diesen Abschnitt beim Planen der Integration von Skype für Business Server mit Exchange 2013 oder 2016.'
-ms.openlocfilehash: ee6e6bc81c4bd0b2291b7f4be7ceb13894d2aec2
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 951b31e36290bda0d6bd171c4a7df8f6aa4ff337
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059187"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886017"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planen der Integration von Exchange Unified Messaging in Skype for Business
 
@@ -52,7 +53,7 @@ Skype für Business Server, Enterprise-VoIP verwendet die Infrastruktur für Exc
 
 - **Automatische Telefonzentrale** Automatische Telefonzentrale ist eine Exchange UM-Funktion, die verwendet werden kann, so konfigurieren Sie eine Telefonnummer ein, die externe Benutzer wählen können, um Unternehmensmitarbeiter zu erreichen. Diese Funktion stellt ferner verschiedene Ansagen bereit, die einem externen Anrufer die Navigation in einem Menüsystem ermöglichen. Die Liste der verfügbaren Optionen wird vom Exchange UM-Administrator auf dem Exchange UM-Server konfiguriert.
 
-- **Faxdienste** Exchange UM umfasst faxfeatures, die damit Benutzer eingehende Faxe in ihren Exchange-Postfächern empfangen können. Ausführliche Informationen zu diesem Thema finden Sie unter [Unified Messaging](https://go.microsoft.com/fwlink/p/?linkId=135652) in der Microsoft Exchange Server-Dokumentation.
+- **Faxdienste** Exchange UM umfasst faxfeatures, die damit Benutzer eingehende Faxe in ihren Exchange-Postfächern empfangen können. Weitere Informationen hierzu finden Sie in der Dokumentation zu Microsoft Exchange Server [Unified Messaging](https://go.microsoft.com/fwlink/p/?linkId=135652) .
 
     > [!NOTE]
     > Faxdienste des Exchange UM-Servers stehen nicht in Skype für Business Server-Bereitstellungen, die in Microsoft Exchange Server 2010, Exchange 2010 mit dem neuesten Servicepack, Exchange 2013 oder Exchange 2016 integriert sind.
@@ -132,9 +133,9 @@ Ausführliche Informationen zum Aktivieren oder Deaktivieren von Unified Messagi
 
 Ausführliche Informationen zum Aktivieren oder Deaktivieren von Unified Messaging auf Microsoft Exchange Server 2010 finden Sie unter:
 
-- [Aktivieren von Unified Messaging in Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204418)
+- [Aktivieren von Unified Messaging in Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204418)
 
-- [Deaktivieren von Unified Messaging in Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
+- [Deaktivieren von Unified Messaging in Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
 
 ### <a name="exchange-server-2019"></a>Exchange Server 2019
 

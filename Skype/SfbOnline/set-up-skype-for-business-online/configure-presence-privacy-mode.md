@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren des vertraulichen Anwesenheitsmodus
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Informationen Sie zum Einrichten von datenschutzmodus für Ihre Benutzer, damit sie besser steuern können, wie Personen ihrer Verfügbarkeit anzeigen. '
-ms.openlocfilehash: e2fb222046dc936d8fbd010dc8016da2b06e1ae8
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e51c4b6a545b59dc6eed713a1518f44f1cd25443
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862801"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874223"
 ---
 # <a name="configure-presence-privacy-mode"></a>Konfigurieren des vertraulichen Anwesenheitsmodus
 
@@ -32,7 +33,7 @@ Die Skype Business Online Einstellung kann Personen besser steuern, wer anzeigen
 ## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>Wählen Sie die Standardeinstellung für die Onlineanwesenheit für alle Benutzer in Ihrer Organisation
 <a name="__top"> </a>
 
-1. Wechseln Sie zu der Skype für Business Online Administrationscenter > **Organisation > Allgemein**.
+1. Wechseln Sie zu der Skype für Business Online Admin Center > **Organisation > Allgemein**.
     
 2. Klicken Sie unter **datenschutzmodus für Anwesenheitsinformationen**wählen Sie die Einstellung, und klicken Sie dann auf **Speichern**.
     

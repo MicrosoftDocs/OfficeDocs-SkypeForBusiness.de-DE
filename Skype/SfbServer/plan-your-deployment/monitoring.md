@@ -1,5 +1,6 @@
 ---
 title: Planen der Überwachung in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 'Zusammenfassung: Lesen Sie diesen Abschnitt beim Planen des Überwachungsdienst in Skype für Business Server.'
-ms.openlocfilehash: ab2b96063d94471ce47564845c64a63dfc5710c8
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cfe5e0eb31ca2badb3c4610f33c0761a98972ce7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243347"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892511"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Planen der Überwachung in Skype für Business Server
 
@@ -85,7 +86,7 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
 
 Dies spielt eine wichtige Rolle für die Planung, da Sie für die Spiegelung die erforderliche Anzahl von Datenbanken verdoppeln müssen. Denn zusätzlich zu jeder primären Datenbank benötigen Sie eine zweite Datenbank als Spiegeldatenbank.
 
- **Ist Ihre Skype für Business Server Websites ihre eigenen benutzerdefinierten Konfigurationen für die überwachen erforderlich?** Bei der Installation von Skype für Business Server installieren Sie auch globalen Auflistung von KDS und QoE-Konfigurationseinstellungen. Diese globalen Sammlungen Geben Sie die Möglichkeit, denselben KDS und QoE-Einstellungen für die gesamte Organisation gelten. In vielen Fällen ist dies ausreichend, denn Sie könne damit z. B. die KDS-Überwachung für alle Ihre Benutzer aktivieren.
+ **Ist Ihre Skype für Business Server Websites ihre eigenen benutzerdefinierten Konfigurationen für die überwachen erforderlich?** Bei der Installation von Skype für Business Server installieren Sie auch globalen Auflistung von KDS und QoE-Konfigurationseinstellungen. Diese globalen Sammlungen Geben Sie die Möglichkeit, denselben KDS und QoE-Einstellungen für die gesamte Organisation gelten. In many cases, this will be sufficient: often-times you will want, say, to have CDR monitoring enabled for all of your users.
 
 Jedoch auch möglicherweise vorkommen, dass Sie unterschiedliche Einstellungen auf verschiedenen Websites anwenden möchten. Beispielsweise vielleicht Sie KDS und QoE-Überwachung in Ihrem Standort "Redmond" verwenden möchten, jedoch nur CDR Überwachung in Ihrer Dublin-Website verwenden. Sie möchten ebenso Überwachungsdaten für 60 Tage in den Standort Redmond beibehalten, aber nur diese Art von Daten für 30 Tage auf der Website Dublin verwalten müssen. Skype für Business Server können Sie separate Sammlungen von KDS und QoE-Konfigurationseinstellungen auf Standortebene zu erstellen. mit dem Sie jede Website unterschiedlich zu verwalten. (Dies umfasst beide aktivieren und Deaktivieren der Überwachung und Konfigurieren von Einstellungen für die Verwaltung wie etwa wie lange Daten aufbewahrt werden, ist).
 
@@ -111,4 +112,4 @@ Das heißt, zwei Instanzen der LcsCdr-Datenbank sind in derselben SQL Server-Ins
 ## <a name="see-also"></a>Siehe auch
 
 
-[Bereitstellen des Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

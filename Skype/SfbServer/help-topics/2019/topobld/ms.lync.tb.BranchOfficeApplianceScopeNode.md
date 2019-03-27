@@ -1,5 +1,6 @@
 ---
 title: Filialanwendung  – Bereichsknoten
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN), Pools und Server und Resiliency Informationen über diese Survivable Branch Appliance zugeordnet. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 53c2d42088dc9ea6d1b295265053e41494ab3af5
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 0fe014df84d371c3c1cd1cd0d1be76d81dd64122
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057335"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895237"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Filialanwendung  – Bereichsknoten
  

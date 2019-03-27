@@ -1,5 +1,6 @@
 ---
 title: Auswählen von Kontakten aus Active Directory
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8732867c-4f78-454a-a4cc-49c3e76ce40c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie die auswählen aus Active Directory-Dialogfeld, um Kontakte suchen, die Sie für Skype für Unternehmen aktivieren möchten. Geben Sie im Suchfeld die SIP-Adresse oder den Anzeigenamen des Kontakts ein, nach dem gesucht werden soll. Wenn Sie alle verfügbaren Kontakte abrufen möchten, geben Sie im Suchfeld keine Suchzeichenfolge ein.
-ms.openlocfilehash: 6acb6a4728f43d2f60d64c42f3a05da4932263db
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6793abc2121a552bcab9f2c165f7902ea5da40a1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989933"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926553"
 ---
 # <a name="select-contacts-from-active-directory"></a>Auswählen von Kontakten aus Active Directory
  

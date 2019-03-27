@@ -1,5 +1,6 @@
 ---
-title: Übersicht über die Features (Planungstool)
+title: Feature Overview (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Skype for Business Server 2015 – Planungstool
-ms.openlocfilehash: 8d35b9babe99b4899cda51804f40dd6e3302feeb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f04935f7dc4d27883e40b388051b9affa4ec30e9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899736"
 ---
-# <a name="feature-overview-planning-tool"></a>Übersicht über die Features (Planungstool)
+# <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
 Skype for Business Server 2015 – Planungstool
   
@@ -109,7 +111,7 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
     
     Disaster Recovery Maßnahmen können Sie Paar Front-End-Pools befindet sich in zwei Rechenzentren.
     
-- **Überwachung**
+- **Überwachen**
     
     Mit der Überwachung werden Anrufdetaildatensätze zu Kommunikationssitzungen erfasst. Zudem werden Metriken aus Audio- und Videositzungen von den Teilnehmerendpunkten gesammelt. Monitoring Server bietet Nutzungsstatistiken, Trends und Media Quality Statistik.
     

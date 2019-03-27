@@ -1,5 +1,6 @@
 ---
 title: Kategorien für beständigen Chat, Chatrooms und Benutzerrollen in Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu Kategorien, Chatrooms und Benutzer und Administrator Rollen für Persistent Chat Server in Skype für Business Server 2015 erhalten.'
-ms.openlocfilehash: 83aa18d427c97ba54dcc3c66e684a4e13ed0c5df
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0a65d5d8944d28ba834fac461051f23fcdd98800
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983777"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898859"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Kategorien für beständigen Chat, Chatrooms und Benutzerrollen in Skype for Business Server 2015
  
@@ -39,7 +40,7 @@ Mithilfe von Kategorien können Sie Chatrooms organisieren und bestimmen, welche
 Das primäre Grundprinzip für das Konzept der zulässigen und abgelehnten Mitglieder sind so genannte Chinesische Mauern. Beispielsweise ist es bei Banken und Finanzinstitutionen üblich, dass beim Implementieren von Richtlinien und Konventionen Chinesische Mauern definiert werden, die verhindern, dass Händler und Analysten Mitteilungen und Informationen austauschen. Um dieser Anforderung nachzukommen, kann ein Administrator Kategorien erstellen, sodass in einer Kategorie Chatrooms von Händlern und in einer anderen Kategorie Chatrooms von Analysten erstellt und verwendet werden können. Benutzer können einem Chatroom nicht hinzugefügt werden, wenn die übergeordnete Kategorie dies nicht zulässt.
   
 > [!IMPORTANT]
-> Die zulässigen und abgelehnten Mitglieder in einer Kategorie sind nicht der Rolle **Mitglied** , die für eine beständige Chatrooms. gilt > alle offenen und geschlossenen Chatrooms für die der Benutzer den Suchvorgang in der Liste der zulässigen und abgelehnten ist anzeigen. Geheime Chatrooms werden nur angezeigt, wenn der Benutzer, der die Suche durchführt, Mitglied des geheimen Chatrooms ist. Der Benutzer kann nur nach Chatrooms suchen, bei denen er bereits Mitglied ist oder für die er eine Mitgliedschaft anfordern kann. 
+> Zugelassene und abgelehnte Elemente in einer Kategorie sind nicht identisch mit der Rolle **Mitglied** , die ein beständiger Chat Room.> Suchvorgänge anzeigen betrifft alle öffnen und Chatrooms für die der Benutzer den Suchvorgang darf wurde geschlossen und Mitgliederliste verweigert. Geheime Chatrooms werden nur angezeigt, wenn der Benutzer, der die Suche durchführt, Mitglied des geheimen Chatrooms ist. Der Benutzer kann nur nach Chatrooms suchen, bei denen er bereits Mitglied ist oder für die er eine Mitgliedschaft anfordern kann. 
   
 ## <a name="chat-rooms-and-user-roles"></a>Chatrooms und Benutzerrollen
 
@@ -65,7 +66,7 @@ Zusätzlich zur zugelassene und abgelehnte Elemente für Kategorien können Sie 
 
 Im folgenden sind die Administratorrollen für Persistent Chat Server:
   
-- **Persistent Chat Administrator**: die Persistent Chat Administrator Rolle Chatrooms (alle Eigenschaften einschließlich der Mitgliedschaft, Manager, Kategorien, Chatrooms als deaktiviert Mark ändern), sowie erstellen und Verwalten von Kategorien für Chatrooms, die definieren, die verwalten Erstellen und Chatrooms zugreifen können. Zudem können Administratoren Chatrooms als deaktiviert kennzeichnen und Chatrooms entfernen, die nicht mehr aktiv sind. Administratoren unterliegen nicht den Einschränkungen, die für Ersteller oder zulässige Mitglieder gelten. Administratoren können jede Art von Chatroom erstellen und sich selbst als Mitglied beliebiger Chatrooms hinzufügen. Administratoren können auch ändern und Verwalten von Persistent Chat-Konfiguration (Pooleigenschaften, globale Einstellungen und Kompatibilitätskonfiguration) und können auch planen und implementieren Migration von einer älteren Group-Chat-Server-Bereitstellung zu Skype für Business Server 2015 Persistent Chat-Server.
+- **Persistent Chat Administrator**: die Persistent Chat Administrator Rolle Chatrooms (alle Eigenschaften einschließlich der Mitgliedschaft, Manager, Kategorien, Chatrooms als deaktiviert Mark ändern), sowie erstellen und Verwalten von Kategorien für Chatrooms, die definieren, die verwalten Erstellen und Chatrooms zugreifen können. Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active. Administrators are not subject to the Creators or Allowed Members restrictions. Administrators can create any kind of chat room and add themselves as a member to any chat room. Administratoren können auch ändern und Verwalten von Persistent Chat-Konfiguration (Pooleigenschaften, globale Einstellungen und Kompatibilitätskonfiguration) und können auch planen und implementieren Migration von einer älteren Group-Chat-Server-Bereitstellung zu Skype für Business Server 2015 Persistent Chat-Server.
     
     Persistent Chat-Administratoren sind Persistent Chat Server mithilfe von Windows PowerShell-Cmdlets Remote zu verwalten (d. h., von einem anderen Computer als dem Persistent Chat Server). Persistent Chat Server überprüft, ob der Persistent Chat Administrator ein Mitglied der RTC Local lokalen Administratorgruppe auf dem Persistent Chat Server-Front-End-Server.
     

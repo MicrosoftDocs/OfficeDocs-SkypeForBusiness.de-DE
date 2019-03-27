@@ -1,5 +1,6 @@
 ---
 title: Liste von QoE-Tabellen
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: Das Datenbankschema besteht aus den folgenden Tabellen.
-ms.openlocfilehash: 5f8957bfa4bbe2da75073082132468bff748c712
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c3ab045e67f38082910f5a2870d4e8c0c8e595b4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895901"
 ---
 # <a name="list-of-qoe-tables"></a>Liste von QoE-Tabellen
  
@@ -33,10 +35,10 @@ Das Datenbankschema besteht aus den folgenden Tabellen.
 |[UserAgentDef-Tabelle (QoE)](useragentdef-qoe.md) <br/> |Ordnet Benutzer-Agent-IDs den beschreibenden Namen.  <br/> |
 |[VideoMetricsThreshold-Tabelle](videometricsthreshold.md) <br/> |Speichert optimale und zulässige Werte für Quality of Experience-Metriken, die bei Videoanrufen verwendet.  <br/> |
 |[UserAgent-Tabelle](useragent.md) <br/> |Speichert Zeichenfolgen Session Initiation Protocol (SIP) User Agent (UA) und UA-Typen, die in Audio- und videositzungen verwendet.  <br/> |
-|[Benutzertabelle](user-0.md) <br/> |Speichert Benutzer, Konferenz- und Telefon-URIs, die in Audio- und videositzungen verwendet werden.  <br/> |
-|[EndPoint-Tabelle](endpoint.md) <br/> |Speichert FQDN-Computernamen von Endpunkten in Audio- und videositzungen teilnehmen.  <br/> |
+|[User-Tabelle](user-0.md) <br/> |Speichert Benutzer, Konferenz- und Telefon-URIs, die in Audio- und videositzungen verwendet werden.  <br/> |
+|[Endpoint-Tabelle](endpoint.md) <br/> |Speichert FQDN-Computernamen von Endpunkten in Audio- und videositzungen teilnehmen.  <br/> |
 |[Pool-Tabelle](pool.md) <br/> |Speichert die Namen von Pools, zu denen, die metrische Daten gehören.  <br/> |
-|[Gerätentabelle](device.md) <br/> |Speichert Aufnahme- und darstellungsgeräte in einer Audio-/Videoanrufen verwendet werden.  <br/> |
+|[Device-Tabelle](device.md) <br/> |Speichert Aufnahme- und darstellungsgeräte in einer Audio-/Videoanrufen verwendet werden.  <br/> |
 |[DeviceDriver-Tabelle](devicedriver.md) <br/> |Speichert den Treiber für das Aufnahmegerät und das darstellungsgerät, die bei Audio-/Videoanrufen verwendet werden.  <br/> |
 |[Conference-Tabelle](conference.md) <br/> |Speichert Konferenz-URIs für konferenzszenarien oder die Dialog-ID für andere Szenarien.  <br/> |
 |[SessionCorrelation-Tabelle](sessioncorrelation.md) <br/> |Speichert CorrelationID für PSTN-Anrufe.  <br/> |
@@ -44,13 +46,13 @@ Das Datenbankschema besteht aus den folgenden Tabellen.
 |[AppliedBandwidthSource-Tabelle](appliedbandwidthsource.md) <br/> |Speichert die bei Audio-/Videoanrufen verwendete bandbreitenquelle.  <br/> |
 |[MacAddress-Tabelle](macaddress.md) <br/> |Speichert die MAC-Adresse der Endpunkte, die Audio- und videositzungen teilnehmen.  <br/> |
 |[Dialog-Tabelle](dialog.md) <br/> |Speichert die Dialog-ID von Audio- und videositzungen.  <br/> |
-|[Regionstabelle](region.md) <br/> |Speichert die netzwerkregion in der NCS-Einstellung definiert.  <br/> |
+|[Region-Tabelle](region.md) <br/> |Speichert die netzwerkregion in der NCS-Einstellung definiert.  <br/> |
 |[UserSite-Tabelle](usersite.md) <br/> |Speichert den Netzwerkstandort in der NCS-Einstellung definiert.  <br/> |
 |[Subnet-Tabelle](subnet.md) <br/> |Speichert das Subnetz in der NCS-Einstellung definiert.  <br/> |
 |[MonitoredRegionLink-Tabelle](monitoredregionlink.md) <br/> |Speichert die in der NCS-Einstellung festgelegten regionslink.  <br/> |
 |[MonitoredUserSiteLink-Tabelle](monitoredusersitelink.md) <br/> |Speichert die netzwerkstandortverknüpfungen in der NCS-Einstellung.  <br/> |
 |[EndpointSubnet-Tabelle](endpointsubnet.md) <br/> |Speichert das Subnetz des Endpunkts eine Audio- und videositzung teilnimmt.  <br/> |
-|[Server-Tabelle](server.md) <br/> |Speichert den FQDN oder IP-Adresse des Servers, die das Medium durchläuft.  <br/> |
+|[Servertabelle](server.md) <br/> |Speichert den FQDN oder IP-Adresse des Servers, die das Medium durchläuft.  <br/> |
    
 **Tabellen für metrische Daten**
 

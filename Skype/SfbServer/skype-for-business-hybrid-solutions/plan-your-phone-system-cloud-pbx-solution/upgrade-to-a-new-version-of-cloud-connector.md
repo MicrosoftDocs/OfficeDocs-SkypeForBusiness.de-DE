@@ -1,5 +1,6 @@
 ---
 title: Aktualisieren auf eine neue Version von Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Informationen Sie zum Aktualisieren der Cloud Connector Edition-bereitstellungs.
-ms.openlocfilehash: c0946cf26181df81327412c2dc0efc227b5a5586
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5b3ca4b216bc376c9e23424fb978b5cd83e4aa41
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370627"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897650"
 ---
-# <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Aktualisieren auf eine neue Version von Cloud Connector
+# <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Upgrade to a new version of Cloud Connector
  
 Informationen Sie zum Aktualisieren der Cloud Connector Edition-bereitstellungs.
   
@@ -61,7 +62,7 @@ Automatische Updates ist erforderlich, dass der Connector Cloud-Dienst ausgefüh
   - Die alte Appliance wird ausgeglichen, und die Netzwerkverbindung wird auf die neue Appliance umgeschaltet.
     
 > [!NOTE]
->  Wenn Cloud Connector auf einen neuen Build aktualisiert, möglicherweise Cloud Connector-Cmdlets nicht aktualisiert werden. Dies kann beispielsweise auftreten, wenn ein PowerShell-Fenster geöffnet bleibt, während der automatischen Aktualisierung. Um die aktualisierten Cmdlets zu laden, führen Sie entweder die folgenden Schritte: > Schließen PowerShell auf die Cloud Connector Appliance, und klicken Sie dann erneut öffnen Sie PowerShell. > oder Sie können die Import-Module CloudConnector ausführen-Force.
+>  Wenn Cloud Connector auf einen neuen Build aktualisiert, möglicherweise Cloud Connector-Cmdlets nicht aktualisiert werden. Dies kann beispielsweise auftreten, wenn ein PowerShell-Fenster geöffnet bleibt, während der automatischen Aktualisierung. Um die aktualisierten Cmdlets zu laden, Sie können führen Sie eines der folgenden Schritte aus: >-schließen PowerShell in der Cloud Connector Appliance und PowerShell.> oder klicken Sie dann erneut öffnen, können Sie Import-Module CloudConnector ausführen-Force.
   
 ## <a name="upgrade-a-single-site-to-a-new-version"></a>Aktualisieren eines einzelnen Standorts auf eine neue Version
 <a name="BKMK_Upgrade"> </a>

@@ -1,5 +1,6 @@
 ---
 title: Warum verwenden kann nicht ich die Skype für Business Online Administrationscenter sofort?
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Hier erfahren Sie, was Sie können und nicht in Skype für Business-Verwaltungskonsole und andere Features verwenden, wenn Ihren Dienst auf einem anderen Microsoft-Rechenzentrum migriert wird. '
-ms.openlocfilehash: d0b67b7193d6bc56617807d3c14d1196ee66d76c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 57ffa6e37c18de8e87e5af00750eef276649f4f5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854199"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885639"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Warum verwenden kann nicht ich die Skype für Business Online Administrationscenter sofort?
 
