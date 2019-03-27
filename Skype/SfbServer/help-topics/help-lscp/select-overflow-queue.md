@@ -1,5 +1,6 @@
 ---
 title: Auswählen der Überlaufwarteschleife
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,19 +13,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 description: Verwenden Sie auswählen ein Dialogfeld Warteschleife für Überlauf auswählen eine Warteschleife aus, werden Anrufe weitergeleitet, wenn eine reaktionsgruppenwarteschleife voll ist.
-ms.openlocfilehash: ac568927bbf35187b8d20ae3eefcf76f49b29fc6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d86a11efbfa775f38737eeee3704866e43cbc15d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989212"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879567"
 ---
-# <a name="select-overflow-queue"></a><span data-ttu-id="36640-103">Auswählen der Überlaufwarteschleife</span><span class="sxs-lookup"><span data-stu-id="36640-103">Select Overflow Queue</span></span>
+# <a name="select-overflow-queue"></a><span data-ttu-id="043b4-103">Auswählen der Überlaufwarteschleife</span><span class="sxs-lookup"><span data-stu-id="043b4-103">Select Overflow Queue</span></span>
  
-<span data-ttu-id="36640-104">Verwenden Sie das Dialogfeld **Wählen Sie eine Warteschlange Überlauf** auswählen eine Warteschleife aus, in dem werden Anrufe weitergeleitet, wenn eine reaktionsgruppenwarteschleife voll ist.</span><span class="sxs-lookup"><span data-stu-id="36640-104">Use the **Select an overflow queue** dialog box to select a queue where calls are forwarded when a response group queue is full.</span></span>
+<span data-ttu-id="043b4-104">Verwenden Sie das Dialogfeld **Wählen Sie eine Warteschlange Überlauf** auswählen eine Warteschleife aus, in dem werden Anrufe weitergeleitet, wenn eine reaktionsgruppenwarteschleife voll ist.</span><span class="sxs-lookup"><span data-stu-id="043b4-104">Use the **Select an overflow queue** dialog box to select a queue where calls are forwarded when a response group queue is full.</span></span>
   
-<span data-ttu-id="36640-105">Geben Sie im Suchfeld Teile oder den vollständigen Namen der Warteschlange, den, die Sie verwenden möchten.</span><span class="sxs-lookup"><span data-stu-id="36640-105">In the search box, type all or part of the name of the queue you want to use.</span></span> <span data-ttu-id="36640-106">Um alle verfügbaren Warteschlangen zurückzugeben, lassen Sie das Suchfeld leer, und klicken Sie auf das Suchsymbol.</span><span class="sxs-lookup"><span data-stu-id="36640-106">To return all available queues, leave the search box empty and click the search icon.</span></span>
+<span data-ttu-id="043b4-105">Geben Sie im Suchfeld Teile oder den vollständigen Namen der Warteschlange, den, die Sie verwenden möchten.</span><span class="sxs-lookup"><span data-stu-id="043b4-105">In the search box, type all or part of the name of the queue you want to use.</span></span> <span data-ttu-id="043b4-106">Um alle verfügbaren Warteschlangen zurückzugeben, lassen Sie das Suchfeld leer, und klicken Sie auf das Suchsymbol.</span><span class="sxs-lookup"><span data-stu-id="043b4-106">To return all available queues, leave the search box empty and click the search icon.</span></span>
   
-<span data-ttu-id="36640-107">Wählen Sie in der Liste der von der Suche zurückgegebenen Warteschleifen die Warteschlange zu verwenden, um Anrufe weitergeleitet werden sollen, wenn eine reaktionsgruppenwarteschleife voll ist.</span><span class="sxs-lookup"><span data-stu-id="36640-107">In the list of queues returned by the search, select the queue you want to use to forward calls when a response group queue is full.</span></span>
+<span data-ttu-id="043b4-107">Wählen Sie in der Liste der von der Suche zurückgegebenen Warteschleifen die Warteschlange zu verwenden, um Anrufe weitergeleitet werden sollen, wenn eine reaktionsgruppenwarteschleife voll ist.</span><span class="sxs-lookup"><span data-stu-id="043b4-107">In the list of queues returned by the search, select the queue you want to use to forward calls when a response group queue is full.</span></span>
   
 
