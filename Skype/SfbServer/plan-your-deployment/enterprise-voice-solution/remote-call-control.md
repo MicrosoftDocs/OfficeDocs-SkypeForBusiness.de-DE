@@ -1,5 +1,6 @@
 ---
 title: Plan für die Remoteanrufsteuerung in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: Remoteanrufsteuerung wurde Feature in früheren Versionen von Lync Server die Benutzer ihre Nebenstellentelefone über mit Lync Server steuern aktiviert. Dieses Feature wurde in Skype für Business Server mit über Arbeitsplatz anrufen ersetzt. In die Clientversionen für Skype für Business Server 2015 und Wechsel zu weiterleiten, remote Call Control ist nicht mehr verfügbar in den Client konfiguriert und wurde für die Verwendung entfernt.
-ms.openlocfilehash: 2c17418f765ba7b542f5ce349ba486a4bbe278fe
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 31ee089e5f4142a0db728878d2bd35d86b628804
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881818"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879045"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>Plan für die Remoteanrufsteuerung in Skype für Unternehmen
  

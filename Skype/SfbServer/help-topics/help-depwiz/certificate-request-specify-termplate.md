@@ -1,5 +1,6 @@
 ---
 title: Zertifikatsanforderung (mit Angabe der Vorlage)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
-description: Die Seite Alternative Zertifikatvorlage angeben können Sie eine andere Zertifikatvorlage als die WebServer-Zertifikatvorlage definieren, die standardmäßig verwendet wird. Wählen Sie das Kontrollkästchen alternative Zertifikatvorlage verwenden für ausgewählte Zertifizierungsstelle aus, und klicken Sie dann definieren Sie den Namen der alternative Zertifikatvorlage in Text im Feld Name der Zertifikatvorlage. Sie müssen den Namen der Vorlage entsprechend der Definition der Zertifizierungsstelle verwenden. Klicken Sie auf zurück, um zur vorherigen Seite zurückzukehren. Klicken Sie auf Abbrechen, um die zertifikatanforderung ab zu beenden.
-ms.openlocfilehash: 856ad66b4bf2974e43e8684ca6016494df26019f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Auf der Seite Alternative Zertifikatvorlage angeben können Sie eine Zertifikatvorlage bestimmen, die sich von der standardmäßig verwendeten Webserver-Zertifikatvorlage unterscheidet. Aktivieren Sie das Kontrollkästchen Alternative Zertifikatvorlage für ausgewählte Zertifizierungsstelle verwenden und geben Sie in das Textfeld Zertifikatvorlagenname den Namen der alternativen Zertifikatvorlage ein. Sie müssen den Namen der Vorlage entsprechend der Definition der Zertifizierungsstelle verwenden. Klicken Sie auf Zurück, um zur vorherigen Seite zurückzukehren. Klicken Sie auf Abbrechen, um den Zertifikatsanforderungsprozess zu beenden.
+ms.openlocfilehash: 18b5e54ef99a4c26e32aa1e6b826f69ca2db0555
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878238"
 ---
 # <a name="certificate-request-specify-termplate"></a>Zertifikatsanforderung (mit Angabe der Vorlage)
  

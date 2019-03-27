@@ -1,5 +1,6 @@
 ---
 title: Verwalten von Netzwerk-bandbreitenrichtlinienprofilen
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Verwenden Sie die Verfahren in diesem Artikel zum Anzeigen, erstellen, ändern oder Löschen von Netzwerk-bandbreitenrichtlinienprofilen.
-ms.openlocfilehash: 58a73774a55a64ac6cb81f0bdf887eb0d1493a35
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: d27e4df1b549afd3c176f8b54453c44bb97819f8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222940"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878900"
 ---
-# <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Verwalten von Netzwerk-bandbreitenrichtlinienprofilen in Skype für Business Server
+# <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Verwalten von Richtlinienprofilen für die Netzwerkbandbreite in Skype for Business Server
 
 Verwenden Sie die Verfahren in diesem Artikel zum Anzeigen, erstellen, ändern oder Löschen von Netzwerk-bandbreitenrichtlinienprofilen.
 

@@ -1,5 +1,6 @@
 ---
 title: PSTN-Gateway – Bereichsknoten
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN), zugeordnete Vermittlungsserver und andere grundlegende Informationen zu diesem Gateway public switched Telephone Network, (PSTN). Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: dcdb2ee6710f2c5b13fb3ff3b25b4dd229155f40
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: bef624564d8c6f20555d8a9b2f9bb5f3dba7a43c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069060"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878487"
 ---
 # <a name="pstn-gateway-scope-node"></a>PSTN-Gateway – Bereichsknoten
  

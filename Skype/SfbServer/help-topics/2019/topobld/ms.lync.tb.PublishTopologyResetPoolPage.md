@@ -1,5 +1,6 @@
 ---
 title: Veröffentlichen der Topologie - Seite "Pool zurücksetzen"
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Diese Dokumentation ist vorläufig und kann geändert werden. Leere Themen sind als Platzhalter enthalten.
-ms.openlocfilehash: 64975d6623594d956add9aa4dc641644658840ff
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: a9638fd10c811bc8db000e780ef28b1905025b68
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064551"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879371"
 ---
 # <a name="publish-topology-reset-pool-page"></a>Veröffentlichen der Topologie - Seite "Pool zurücksetzen"
  

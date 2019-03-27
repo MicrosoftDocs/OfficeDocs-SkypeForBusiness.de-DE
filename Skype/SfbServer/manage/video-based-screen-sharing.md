@@ -1,5 +1,6 @@
 ---
-title: Video basierten für Skype für Business Server Bildschirmfreigabe
+title: Videobasierte Bildschirmübertragung für Skype for Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/20/2018
@@ -9,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype für Business Server planen und Konfigurationsinformationen zu Bildschirmfreigabe videobasierte (VbSS)
-ms.openlocfilehash: 84547168eb883522005480fb07ff2bfb9abd54f6
-ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
+ms.openlocfilehash: d899e07fc478e33c4480cd235b3eb0cafd95ecba
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "26993433"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878914"
 ---
-# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Video basierten für Skype für Business Server Bildschirmfreigabe 
+# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Videobasierte Bildschirmübertragung für Skype for Business Server 
  
 Video-basierte Bildschirmfreigabe (VbSS) in Skype für Business Server 2015 ist jetzt zum Download zur Verfügung: [Skype für Business Server 2015 kumulative Update KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690). VbSS gehört zum Lieferumfang von Skype für Business Server 2019.
   
@@ -46,7 +47,7 @@ Beachten Sie auch, dass auf einen Teil der Treue/Schärfe der übertragenen Inha
 
 **Erforderliche Serverports**
 
-|**Serverrolle**|**Name des Diensts**|**Port oder Portbereich**|**Protokoll**|**Notizen**|
+|**Serverrolle**|**Name des Diensts**|**Port oder Portbereich**|**Protokoll**|**Hinweise**|
 |:-----|:-----|:-----|:-----|:-----|
 |Front-End-Server  <br/> |Skype für Business Server-anwendungsfreigabedienst  <br/> |5065  <br/> |TCP  <br/> |Wird für eingehende SIP-Überwachungsanforderungen für die Anwendungsfreigabe verwendet.  <br/> |
 |Front-End-Server  <br/> |Skype für Business Server-anwendungsfreigabedienst  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Für die Anwendungsfreigabe verwendeter Medienportbereich.  <br/> |

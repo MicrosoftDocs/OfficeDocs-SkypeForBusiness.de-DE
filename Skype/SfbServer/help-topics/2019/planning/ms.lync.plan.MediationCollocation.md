@@ -1,5 +1,6 @@
 ---
-title: Mediation Kollokation (Planungstool)
+title: Mediation Collocation (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Der Vermittlungsserver ist standardmäßig mit dem Front-End-Server zusammengestellt. Der Vermittlungsserver kann auch in einem eigenständigen Pool aus Gründen der Systemleistung bereitgestellt werden, oder wenn Sie SIP-Trunking bereitstellen, in diesem Fall der eigenständige Pool wird dringend empfohlen. Verbinden in Skype für Business Server-Funktionen, wie er wurde in Lync Server 2013. Ausführliche Informationen finden Sie in den folgenden Themen:'
-ms.openlocfilehash: 845b31a934318e0de2b10189ab6fa4d83be92482
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: effffec9ae375aea95e5286074eb03020ff6b5a1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21066415"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876205"
 ---
-# <a name="mediation-collocation-planning-tool"></a>Mediation Kollokation (Planungstool)
+# <a name="mediation-collocation-planning-tool"></a>Mediation Collocation (Planning Tool)
  
 Der Vermittlungsserver ist standardmäßig mit dem Front-End-Server zusammengestellt. Der Vermittlungsserver kann auch in einem eigenständigen Pool aus Gründen der Systemleistung bereitgestellt werden, oder wenn Sie SIP-Trunking bereitstellen, in diesem Fall der eigenständige Pool wird dringend empfohlen. Verbinden in Skype für Business Server-Funktionen, wie er wurde in Lync Server 2013. Ausführliche Informationen finden Sie in den folgenden Themen:
   

@@ -1,5 +1,6 @@
 ---
 title: DNS-Anforderungen für einfache URLs in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Zusammenfassung: Überprüfen Sie die einfache URL Aspekte in diesem Thema vor der Implementierung von DNS-Einträgen für Skype für Business Server.'
-ms.openlocfilehash: 89100dc91b9b4a69a295bcbf5992b205fafb15ca
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1fffb1303381797a800a235d3965fe387e4d8eb2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373429"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878550"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>DNS-Anforderungen für einfache URLs in Skype für Business Server
 
@@ -22,7 +23,7 @@ ms.locfileid: "25373429"
 
 Einfache URLs vereinfachen den benutzerbeitritt zu Besprechungen für Ihre Benutzer und erleichtern den Zugriff auf Skype für Business Server-Verwaltungstools Administratoren. Einfache URLs verwenden der eigenen Domäne, die nicht der SIP-Domänen übereinstimmen muss, die Sie definieren. 
 
-Skype für Business Server unterstützt die folgenden drei einfache URLs: Dial-In und Portals erfüllen Sie sind erforderlich, um einfache URLs für die Besprechung und Einwahl einzurichten, und die einfache Admin-URL ist optional. Die zur Unterstützung einfacher URLs erforderlichen DNS-Einträge (Domain Name System) richten sich danach, wie Sie die einfachen URLs definiert haben und ob Sie die Notfallwiederherstellung für einfache URLs unterstützen möchten. 
+Skype für Business Server unterstützt die folgenden drei einfache URLs: Dial-In und Portals erfüllen Sie sind erforderlich, um einfache URLs für die Besprechung und Einwahl einzurichten, und die einfache Admin-URL ist optional. Die Domain Name System (DNS)-Datensätze, die Sie zur Unterstützung von einfachen URLs müssen hängen davon ab, wie Sie diese einfachen URLs definiert haben, und ob Sie Disaster Recovery für einfache URLs unterstützen möchten. 
 
 ## <a name="simple-url-scope"></a>Einfache URL-Bereichs
 
@@ -66,7 +67,7 @@ Wenn Sie diese Option verwenden, benötigen Sie einen separaten DNS-A-Eintrag f�
 
 | **Einfache URL** <br/> | **Beispiel** <br/>                                                                                                    |
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | https://meet.contoso.com, https://meet.fabrikam.comund so weiter (eine für jede SIP-Domäne in Ihrer Organisation)  <br/> |
+| Erfüllen  <br/>          | https://meet.contoso.com, https://meet.fabrikam.comund so weiter (eine für jede SIP-Domäne in Ihrer Organisation)  <br/> |
 | Einwahl  <br/>       | <https://dialin.contoso.com>  <br/>                                                                                  |
 | Admin  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
 
@@ -77,7 +78,7 @@ Mit der Option 2 sind einfache URLs auf dem Domänennamen SfB2015.contoso.com ba
 
 | **Einfache URL** <br/> | **Beispiel** <br/>                                                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meetund so weiter (eine für jede SIP-Domäne in Ihrer Organisation)  <br/> |
+| Erfüllen  <br/>          | https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meetund so weiter (eine für jede SIP-Domäne in Ihrer Organisation)  <br/> |
 | Einwahl  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                                          |
 | Admin  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
 
@@ -88,7 +89,7 @@ Option 3 ist besonders nützlich, wenn Sie viele SIP-Domänen verfügen, und Sie
 
 | **Einfache URL** <br/> | **Beispiel** <br/>                                                                                                      |
 |:---------------------|:-----------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
+| Erfüllen  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
 | Einwahl  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                            |
 | Admin  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
 
@@ -97,7 +98,7 @@ Option 3 ist besonders nützlich, wenn Sie viele SIP-Domänen verfügen, und Sie
 
 Wenn Sie verfügen über mehrere Standorte, die Front-End-Pools enthalten und Ihrem DNS-Anbieter GeoDNS unterstützt, können Sie Ihre DNS-Einträge für einfache URLs zur Unterstützung von Disaster Recovery und einrichten, sodass einfache URL-Funktionalität wird fortgesetzt, auch wenn eine gesamte Front-End-Pool ausfällt. Dieses Disaster Recovery-Feature unterstützt die erfüllen und Einwahl einfache URLs.
 
-Erstellen Sie zum Konfigurieren dieser Notfallwiederherstellung zwei GeoDNS-Adressen. Jede Adresse hat zwei DNS-A- oder CNAME-Einträge. Diese werden in zwei Pools aufgelöst, die zu Notfallwiederherstellungszwecken ein Paar bilden. Eine GeoDNS-Adresse wird für den internen Zugriff verwendet und in den internen Web-FQDN oder die Lastenausgleichs-IP-Adresse für die beiden Pools aufgelöst. Die andere GeoDNS-Adresse wird für den externen Zugriff verwendet und in den externen Web-FQDN oder die Lastenausgleich-IP-Adresse für die beiden Pools aufgelöst. Im Folgenden sehen Sie ein Beispiel für eine einfache URL vom Typ „Meet“, in dem vollqualifizierte Domänennamen (FQDNs) für die Pools verwendet werden. 
+Um dies zu konfigurieren, erstellen Sie zwei GeoDNS-Adressen. Jede Adresse verfügt über zwei DNS-A- oder CNAME-Datensätze, die in beiden Pools aufgelöst, die für Disaster Recovery miteinander kombiniert werden. Eine GeoDNS-Adresse für den internen Zugriff verwendet wird, und der interne Web-FQDN oder die Last zum Lastenausgleich IP-Adresse für die beiden Pools aufgelöst wird. GeoDNS Adresse für den externen Zugriff verwendet wird und der externe Webdienste FQDN oder die Load Balancer IP-Adresse für die beiden Pools aufgelöst wird. Es folgt ein Beispiel für die einfache Meet-URL, verwenden die FQDNs für die Pools. 
 
 ```
 Meet-int.geolb.contoso.com
@@ -111,22 +112,22 @@ Meet-ext.geolb.contoso.com
      Pool2ExternalWebFQDN.contoso.com
 ```
 
-Erstellen Sie dann CNAME-Einträge, die Ihre einfache Meet-URL (z. B. meet.contoso.com) in die beiden GeoDNS-Adressen auflösen.
+Erstellen Sie dann CNAME-Einträge, die die einfache Meet-URL (beispielsweise meet.contoso.com) in die beiden GeoDNS-Adressen aufgelöst.
 
 > [!NOTE]
-> Wenn in Ihrem Netzwerk das so genannte Hairpinning eingesetzt wird (der gesamte Datenverkehr der einfachen URL wird über den externen Link geleitet, einschließlich des Datenverkehrs aus der Organisation), können Sie einfach nur die externe GeoDNS-Adresse konfigurieren und Ihre einfache Meet-URL nur in diese externe Adresse auflösen.
+> Wenn Ihr Netzwerk verwendet Hairpinning (routing alle einfache URL-Datenverkehr über die externe Verknüpfung, einschließlich Datenverkehr, der in Ihrem Unternehmen stammen), klicken Sie dann Sie einfach konfigurieren Sie die externe GeoDNS-Adresse und die einfache Meet-URL nur dem Auflösen externe Adresse.
 
-Wenn Sie diese Methode verwenden, können Sie jede GeoDNS-Adresse so konfigurieren, dass entweder eine Roundrobin-Methode zur Verteilung der Anforderungen an die beiden Pools verwendet wird oder dass hauptsächlich eine Verbindung mit einem Pool hergestellt wird (z. B. mit dem Pool, der geografisch näher ist) und der andere Pool nur bei einem Konnektivitätsfehler zum Einsatz kommt. 
+Wenn Sie diese Methode verwenden, können Sie jede GeoDNS-Adresse zur Verwendung konfigurieren eine Roundrobin-Methode zum Verteilen von Anforderungen an die beiden Pools oder zum Verbinden in erster Linie mit einem Pool (wie der Pool befindet sich geografisch näher), und verwenden Sie das andere Pool nur im Fall von Konnektivitätsfehler. 
 
-Sie können dieselbe Konfiguration für die einfache Dialin-URL verwenden. Erstellen Sie hierzu zusätzliche Datensätze wie im vorherigen Beispiel ersetzen `dialin` für `meet` in den DNS-Einträgen. Verwenden Sie für die einfache Admin-URL eine der weiter oben in diesem Abschnitt aufgelisteten drei Optionen.
+Sie können die gleiche Konfiguration für die Einwahl einfache URL einrichten. Erstellen Sie hierzu zusätzliche Datensätze wie im vorherigen Beispiel ersetzen `dialin` für `meet` in den DNS-Einträgen. Verwenden Sie eine der drei weiter oben in diesem Abschnitt aufgeführten Optionen an, für die einfache Admin-URL.
 
-Sobald diese Konfiguration eingerichtet ist, müssen Sie eine Überwachungsanwendung verwenden, um die HTTP-Überwachung so einzurichten, dass nach Fehlern Ausschau gehalten wird. Überwachen Sie für den externen Zugriff, um sicherzustellen, dass diese Lyncdiscover HTTPS erhalten möchten.<sipdomain> Anforderungen an den externen Web-FQDN oder Load Balancer IP-Adresse für die beiden Pools sind erfolgreich. Beispielsweise die folgenden Anforderungen müssen keine **ACCEPT** -Header enthalten und muss zurückgeben **200 OK**.
+Nachdem Sie diese Konfiguration eingerichtet haben, müssen Sie eine Überwachung Anwendung zum Einrichten von HTTP-Überwachung, für Fehlern Video verwenden. Überwachen Sie für den externen Zugriff, um sicherzustellen, dass diese Lyncdiscover HTTPS erhalten möchten.<sipdomain> Anforderungen an den externen Web-FQDN oder Load Balancer IP-Adresse für die beiden Pools sind erfolgreich. Beispielsweise die folgenden Anforderungen müssen keine **ACCEPT** -Header enthalten und muss zurückgeben **200 OK**.
 
 ```
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 ```
 
-Für den internen Zugriff müssen Sie den Port 5061 des internen Web-FQDN oder die Lastenausgleichs-IP-Adresse für die zwei Pools überwachen. Bei festgestellten Verbindungsfehlern muss die VIP für diese Pools die Ports 80, 443 und 4443 schließen.
+Für den internen Zugriff müssen Sie überwachen Port 5061 am internen FQDN oder IP-Adresse zum Lastenausgleich für die beiden Pools laden. Wenn Verbindungsfehler erkannt werden, muss die VIP-Adresse für diese Pools Ports 80, 443 und 4443 schließen.
 
 

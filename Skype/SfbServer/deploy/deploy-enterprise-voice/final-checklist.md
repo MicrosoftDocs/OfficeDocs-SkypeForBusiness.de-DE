@@ -1,5 +1,6 @@
 ---
 title: Anruf Admission Control endgültigen Prüfliste zur Bereitstellung von Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: Endgültige Checkliste für die Bereitstellung von Call Admission Control (CAC) in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 841a3a8d124a50142cd3644dd6f001e6019af9f3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d0d61bcf6c6f0ab509eafa2b968bbb45c00b2a50
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885476"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878459"
 ---
 # <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Rufen Sie die Bereitstellung der anrufsteuerung: endgültige Checkliste für Skype für Business Server
  

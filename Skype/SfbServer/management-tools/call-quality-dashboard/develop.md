@@ -1,5 +1,6 @@
 ---
 title: Entwickeln von Anrufqualität Dashboard für Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 664917b4-c954-40b6-864e-f72db94c6180
 description: 'Zusammenfassung: Informationen Sie zum Entwickeln von Lösungen für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 38a40cbcf0037810188c4ac457a439ed8c6f4da3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1c0f3c8303a08e312e83f1ccb3fff0c4796acb86
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530953"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879111"
 ---
 # <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>Entwickeln von Anrufqualität Dashboard für Skype für Business Server
  

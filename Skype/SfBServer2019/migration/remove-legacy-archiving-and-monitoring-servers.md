@@ -1,5 +1,6 @@
 ---
-title: Entfernen Sie älterer Archivierungs- und Monitoring Servern
+title: Entfernen von Archivierungsservern und Monitoring Servern der Vorversion
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Falls Ihre Bereitstellung der Vorversion einen Archivierungsserver oder einen Monitoring Server nach der Migration zu Skype für Business Server 2019 enthalten, können dieser Server aus der vorgängerumgebung entfernt werden, sofern alle Benutzer aus den verbleibenden Pools Vorversion entfernt wurden. Sie können in eine beliebige Abfolge der Archivierungsserver oder Monitoring Server entfernen. Die wichtigste Anforderung ist, dass alle Benutzer aus den verbleibenden Pools Vorversion entfernt wurden.
-ms.openlocfilehash: 4de6d9db5538864646f978e9fc33a79b39d4c2a4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5a3a691c8f2e8a4ad3610ccf1ea947ce23b74111
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028614"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878339"
 ---
-# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Entfernen Sie älterer Archivierungs- und Monitoring Servern
+# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Entfernen von Archivierungsservern und Monitoring Servern der Vorversion
 
 Falls Ihre Bereitstellung der Vorversion einen Archivierungsserver oder einen Monitoring Server nach der Migration zu Skype für Business Server 2019 enthalten, kann dieser Server aus der vorgängerumgebung entfernt, vorausgesetzt, dass alle Benutzer aus den verbleibenden Pools Vorversion entfernt wurden. Sie können in eine beliebige Abfolge der Archivierungsserver oder Monitoring Server entfernen. Die wichtigste Anforderung ist, dass alle Benutzer aus den verbleibenden Pools Vorversion entfernt wurden.
   

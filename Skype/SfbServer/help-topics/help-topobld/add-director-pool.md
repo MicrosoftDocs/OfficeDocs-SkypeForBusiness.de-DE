@@ -1,5 +1,6 @@
 ---
-title: Hinzufügen von Director-Pool
+title: Hinzufügen des Director-Pools
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 description: Um den FQDN des Director-Pools zu definieren, wählen Sie einen Pool mit mehreren Computern, der aus zwei oder mehr Directors in einem Pool mit Lastenausgleich bestehen wird oder einen Pool mit einem Computer aus. Sie müssen auch den vollqualifizierten Domänennamen (FQDN) eingeben, der zum Verbinden mit den Director-Pool oder den einzelnen Director-FQDN verwendet werden. Für einen Pool von Computern Director würde dies den Eintrag Domain Name System (DNS) für die virtuelle IP-Adresse des ein Hardwaregerät zum Lastenausgleich oder den freigegebenen DNS-Eintrag für DNS-Lastenausgleich sein.
-ms.openlocfilehash: 7ba0efad72094fba880058e81ff701453d9e8252
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8dfccfdac8ee2651c935b626f2deb0e688488b54
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992287"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879272"
 ---
-# <a name="add-director-pool"></a>Hinzufügen von Director-Pool
+# <a name="add-director-pool"></a>Hinzufügen des Director-Pools
  
 Wählen Sie mit **dem FQDN des Director-Pools definieren**entweder einen **Pool mit mehreren Computern** , die aus zwei oder mehr Directors in einem Pool mit Lastenausgleich bestehen wird oder einen **Pool mit einem Computer**aus. Sie müssen auch den vollqualifizierten Domänennamen (FQDN) eingeben, der zum Verbinden mit den Director-Pool oder den einzelnen Director-FQDN verwendet werden. Für einen Pool von Computern Director würde dies den Eintrag Domain Name System (DNS) für die virtuelle IP-Adresse des ein Hardwaregerät zum Lastenausgleich oder den freigegebenen DNS-Eintrag für DNS-Lastenausgleich sein.
   

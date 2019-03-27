@@ -1,5 +1,6 @@
 ---
 title: Erstellen von benutzerdefinierten externen Zugriffsrichtlinien
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,42 +17,42 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Skype for Business Online allows you to create additional external access policies. Unlike client or conferencing policies, where you can have multiple combinations, there are three predefined external access policies that can cover most of the scenarios.
-ms.openlocfilehash: a822e09875bbef1fcd1472ac988a32cadfaf5850
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+description: Skype für Business Online können Sie zusätzliche externe Zugriffsrichtlinien erstellen. Im Gegensatz zu Client oder für Konferenzen Richtlinien, wenn Sie mehrere Kombinationen verfügen, gibt es drei vordefinierten externen Zugriff-Richtlinien, die meisten Szenarien abdecken können.
+ms.openlocfilehash: b368c7d30e74225f7808f9f3728691040e75016f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561696"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878777"
 ---
 # <a name="create-custom-external-access-policies"></a>Erstellen von benutzerdefinierten externen Zugriffsrichtlinien
 
-Skype for Business Online allows you to create additional external access policies. Unlike client or conferencing policies, where you can have multiple combinations, there are three predefined external access policies that can cover most of the scenarios. These are:
+Skype für Business Online können Sie zusätzliche externe Zugriffsrichtlinien erstellen. Im Gegensatz zu Client oder für Konferenzen Richtlinien, wenn Sie mehrere Kombinationen verfügen, gibt es drei vordefinierten externen Zugriff-Richtlinien, die meisten Szenarien abdecken können. Dies sind:
   
-- No Federated oder Skype Consumer Zugriff (_Tag: NoFederationAndPIC_)
+- No Federated oder Skype Consumer Zugriff (_Tag: NoFederationAndPIC_ )
     
-- Nur Federated Zugriff (_Tag: FederationOnly_)
+- Zugriff auf eine Föderation nur (_Tag: FederationOnly_ )
     
-- Federated und Consumer Zugriff (_FederationAndPICDefault_)
+- Verbund und Consumer zugreifen (_FederationAndPICDefault_)
     
-Custom external policies allow you to create additional polices that aren't covered by the settings above. When the policy was created, you would be required to set all required parameters and you couldn't alter them later. Creating new custom policies allow you to control features such as Skype consumer access or a policy to disable public cloud audio/video, which is something that wasn't covered with predefined settings. Custom external access policies follow the same syntax as client, mobility, and conferencing policies. You can find out more about those settings [here](https://technet.microsoft.com/en-us/library/mt228132.aspx).
+Richtlinien für den benutzerdefinierten externe können Sie zusätzliche erstellen Richtlinien, die durch die Einstellungen der oben genannten abgedeckt sind. Wenn die Richtlinie erstellt wurde, würden Sie alle erforderlichen Parameter festlegen erforderlich sein, und Sie konnte nicht sie später ändern. Erstellen neuer benutzerdefinierte Richtlinien können Sie auf die Funktionen wie etwa Skype Consumerzugriff oder eine Richtlinie zum Deaktivieren der öffentlichen cloud Audio/Video, das ist ein Element, das mit vordefinierten Einstellungen behandelt wurde nicht. Benutzerdefinierte externe Zugriffsrichtlinien führen Sie dieselbe Syntax wie die-Client, Mobilität und Conferencing-Richtlinien. Sie können erfahren Sie mehr über diese Einstellungen [hier](https://technet.microsoft.com/en-us/library/mt228132.aspx).
   
-To make this work, the user must be using a supported version of 2016 Click-to-Run Skype for Business app that supports it. The following minimum version of Skype for Business 2016 Click-to-Run client is required:
+Damit dies funktioniert, muss der Benutzer eine unterstützte Version von 2016 verwendet Klick-und-Los Skype für Geschäfts-app, die sie unterstützt. Die folgenden Mindestversion von Skype für Business 2016 Klick-und-Los-Client ist erforderlich:
   
 |**Typ**|**Veröffentlichungsdatum**|**Version**|**Build**|
 |:-----|:-----|:-----|:-----|
-|Erste Freigabe für den aktuellen Kanal  <br/> |17.11.2016  <br/> |16.0.7571.2006  <br/> |Version 1611 (Build 7571.2006)  <br/> |
-|Aktueller Kanal  <br/> |06.12.2016  <br/> |16.0.7571.2072  <br/> |Version 1611 (Build 7571.2072)  <br/> |
-|Verzögerter Kanal  <br/> |22.02.2017  <br/> |16.0.7369.2118  <br/> |Version 1609 (Build 7369.2118)  <br/> |
+|Erste Version für aktuellen Kanal  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |Version 1611 (Build 7571.2006)  <br/> |
+|Aktueller Channel  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Version 1611 (Build 7571.2072)  <br/> |
+|Zurückgestellte DDE-Kanal  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |Version 1609 (Build 7369.2118)  <br/> |
    
 > [!CAUTION]
-> Benutzer, die ältere Versionen von Windows-Apps für Skype for Business verwenden oder Mac-Kunden können weiterhin Dateien übertragen. 
+> Benutzer, die ältere Versionen von Skype für apps für Windows Business oder Macintosh-Clients verwenden weiterhin werden können Dateien übertragen. 
   
 ## <a name="verify-and-start-windows-powershell"></a>Überprüfen und Starten von Windows PowerShell
 
 - **Überprüfen, ob Windows PowerShell 3.0 oder höher ausgeführt wird**
     
-1. Zur Überprüfung ob Sie Version 3.0 oder höher verwenden: **Start Menu** > **Windows PowerShell**.
+1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
     
 2. Überprüfen Sie die Version, indem Sie im Fenster _Windows PowerShell_ die Zeichenfolge **Get-Host** eingeben.
     
@@ -63,7 +64,7 @@ To make this work, the user must be using a supported version of 2016 Click-to-R
     
 - **Starten einer Windows PowerShell-Sitzung**
     
-1. Vom **Start Menu** > **Windows PowerShell**.
+1. From the **Start Menu** > **Windows PowerShell**.
     
 2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
     
@@ -79,7 +80,7 @@ To make this work, the user must be using a supported version of 2016 Click-to-R
 
    Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Sie unter [Connect auf alle Office 365-Dienste in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder das [Einrichten des Computers für Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
-## <a name="create-a-custom-external-access-policy-for-a-user"></a>Erstellen einer benutzerdefinierten Richtlinie für den externen Zugriff eines Benutzers
+## <a name="create-a-custom-external-access-policy-for-a-user"></a>Erstellen einer benutzerdefinierten externen Zugriffsrichtlinie für einen Benutzer
 
 Zu diesem Zweck führen Sie Folgendes aus:
   
@@ -95,7 +96,7 @@ Zu diesem Zweck führen Sie Folgendes aus:
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -109,7 +110,7 @@ Zu diesem Zweck führen Sie Folgendes aus:
     
   - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Datenblöcke Point-Datei übertragen](block-point-to-point-file-transfers.md)
 
 [Einrichten von Clientrichtlinien für Ihre Organisation](set-up-client-policies-for-your-organization.md)

@@ -1,5 +1,6 @@
 ---
 title: Bereitstellen der Funktion „Gemeinsame Leitungen“ in Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: Lesen Sie dieses Thema und finden Sie heraus, wie die Funktion „Gemeinsame Leitungen“ (SLA) in Skype for Business Server 2015, kumulatives Update vom November 2015, bereitzustellen ist. Bei SLA handelt es sich um eine Funktion zum Verarbeiten mehrerer Anrufe an eine bestimmte Nummer, die als gemeinsam genutzte Nummer bezeichnet wird.
-ms.openlocfilehash: f5c97c94f2e0ed2034ac96864b20dec604708d55
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c0da29e54f03a5c328f1b65807f438b63c14a68f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372014"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878648"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Bereitstellen der Funktion „Gemeinsame Leitungen“ in Skype for Business Server 2015
 
 Lesen Sie dieses Thema und finden Sie heraus, wie die Funktion „Gemeinsame Leitungen“ (SLA) in Skype for Business Server 2015, kumulatives Update vom November 2015, bereitzustellen ist. Bei SLA handelt es sich um eine Funktion zum Verarbeiten mehrerer Anrufe an eine bestimmte Nummer, die als gemeinsam genutzte Nummer bezeichnet wird.
 
-Weitere Informationen zu diesem Feature finden Sie unter [Planen der Darstellung einer gemeinsamen Linie in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).
+Mehr über diese Funktion erfahren Sie unter [Plan for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).
 
 Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Business Server 2015 November Kumulatives Update. Um dieses Feature aktivieren, müssen Sie zuerst das kumulative Update bereitgestellt.
 
@@ -57,7 +58,7 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
 
 ### <a name="create-an-sla-group-and-add-users-to-it"></a>Erstellen Sie eine SLA-Gruppe und fügen Sie ihr Benutzer hinzu.
 
-1. Erstellen Sie die SLA-Gruppe mit dem Cmdlet [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
+1. Erstellen Sie die SLA-Gruppe mithilfe des Cmdlet [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps):
 
    ```
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
@@ -78,7 +79,7 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
     > [!NOTE]
     > Beachten Sie, dass die Angaben für `-Identity` muss ein gültige vorhandenen Enterprise-VoIP-aktiviertes Benutzerkonto.
 
-2. Fügen Sie der Gruppe Stellvertretungen mithilfe des Cmdlets [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps) hinzu:
+2. Fügen Sie der Gruppe mithilfe des Cmdlet [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps) Stellvertretungen hinzu:
 
    ```
    Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
@@ -95,7 +96,7 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
 
 ### <a name="configure-the-sla-group-busy-option"></a>Konfigurieren der „Besetzt“-Option für die SLA-Gruppe
 
-- Konfigurieren der Vereinbarung zum SERVICELEVEL gruppieren beschäftigt Option mithilfe des Cmdlets [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
+- Konfigurieren Sie die „Besetzt“-Option für die SLA-Gruppe mithilfe des Cmdlet [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps):
 
   ```
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
@@ -109,7 +110,7 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
 
 ### <a name="configure-the-sla-group-missed-call-option"></a>Konfigurieren der Option „Entgangener Anruf“ für die SLA-Gruppe
 
-1. Konfigurieren der Vereinbarung zum SERVICELEVEL Gruppe Entgangener Anrufoption mithilfe des Cmdlets [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) :
+1. Konfigurieren Sie die Option „Entgangener Anruf“ für die SLA-Gruppe mithilfe des Cmdlet [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps):
 
    ```
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
@@ -123,7 +124,7 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
 
 ### <a name="remove-a-delegate-from-a-group"></a>Entfernen einer Stellvertretung aus einer Gruppe
 
-- Entfernen Sie eine Stellvertretung aus einer Gruppe mithilfe des Cmdlets [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates?view=skype-ps) :
+- Entfernen Sie eine Stellvertretung mithilfe des Cmdlet [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates?view=skype-ps) aus einer Gruppe:
 
   ```
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
@@ -137,7 +138,7 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
 
 ### <a name="delete-an-sla-group"></a>Löschen einer SLA-Gruppe
 
-- Löschen Sie eine SLA-Gruppe mit dem Cmdlet [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) :
+- Löschen Sie eine SLA-Gruppe mithilfe des Cmdlets [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps):
 
   ```
   Remove-CsSlaConfiguration -Identity <IdentityOfGroup>

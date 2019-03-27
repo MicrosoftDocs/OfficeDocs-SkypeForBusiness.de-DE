@@ -1,5 +1,6 @@
 ---
 title: Trunk – Bereichsknoten
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 description: 'Sie klicken Sie auf einen vorhandenen SIP-Trunks im Topologie-Generator, um die folgenden Schritte aus:'
-ms.openlocfilehash: d43339fce817367b593218d1584b04b05e0d80a7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 881409acb5b45b1f6662d96bfda110cbf1381f2a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878367"
 ---
 # <a name="trunk-scope-node"></a>Trunk – Bereichsknoten
  

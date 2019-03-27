@@ -1,5 +1,6 @@
 ---
-title: Allgemeine Director Einstellungen – Erweiterung
+title: Allgemeine Einstellungen für Director – Erweiterung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Zum Bearbeiten der Einstellungen für einen vorhandenen Director werden in den folgenden Abschnitten bearbeitet:'
-ms.openlocfilehash: 1c292ec694583994131c926094e11eb0a7303e93
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 9d400f44fd3b0ee288de2e3f91eebfb6e90604c6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21065307"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879083"
 ---
-# <a name="director-general-settings-expander"></a>Allgemeine Director Einstellungen – Erweiterung
+# <a name="director-general-settings-expander"></a>Allgemeine Einstellungen für Director – Erweiterung
  
 Zum Bearbeiten der Einstellungen für einen vorhandenen Director werden in den folgenden Abschnitten bearbeitet:
   

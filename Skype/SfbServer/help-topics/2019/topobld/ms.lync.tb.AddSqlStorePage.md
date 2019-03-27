@@ -1,5 +1,6 @@
 ---
-title: Hinzufügen des SQL-Speichers
+title: Hinzufügen von SQL-Speichern
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Definieren eines neuen SQL-Speichers, was bedeutet, dass Sie eine SQL Server-basierte Datenbank und einer Instanz von SQL Server angeben – eine Standardinstanz oder eine benannte Instanz – geben Sie Folgendes.
-ms.openlocfilehash: c77174d83253a8df910e63f5e4f8cc50fdb98cf3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5f362d66f7764c69e51a3d54c51ba251a93ae5f9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245160"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878231"
 ---
-# <a name="add-sql-store"></a>Hinzufügen des SQL-Speichers
+# <a name="add-sql-store"></a>Hinzufügen von SQL-Speichern
 
 Definieren eines neuen SQL-Speichers, was bedeutet, dass Sie eine SQL Server-basierte Datenbank und einer Instanz von SQL Server angeben – eine Standardinstanz oder eine benannte Instanz – geben Sie Folgendes.
 

@@ -1,5 +1,6 @@
 ---
 title: Planen Sie für die Mobilität Skype für Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/17/2018
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Plan für die Implementierung von Mobilität für Skype für Business Server.
-ms.openlocfilehash: 22d5b8bdeb6a82a202740af4919756daac47010a
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6616560afbea5a2aed30fbf671035ae46d6ed8b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533266"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878182"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Planen Sie für die Mobilität Skype für Business Server
  
@@ -243,7 +244,7 @@ Wir haben die Tabelle, die Ihnen bei der einige der Features, die für alle Benu
 |Mobilität aktivieren  <br/> |EnableMobility  <br/> |Steuert die Benutzer in einem bestimmten Bereich, die Skype für Business mobilen Client installiert haben. Wenn die Richtlinie auf „False“ festgelegt ist, können sich die Benutzer nicht mit ihrem Client anmelden.  <br/> |True  <br/> |
 |Externe Anrufe  <br/> |EnableOutsideVoice  <br/> |Ermöglicht Benutzern die Verwendung der Funktion „Geschäftlich anrufen“, das heißt, die Benutzer können Anrufe unter ihrer geschäftlichen Telefonnummer anstelle ihrer Mobiltelefonnummer tätigen und empfangen. Wenn „False“ festgelegt ist, können die Benutzer auf ihren Mobiltelefonen nicht über die geschäftliche Telefonnummer Anrufe tätigen oder empfangen.  <br/> |True  <br/> |
 |IP-Audio und -Video aktivieren  <br/> |EnableIPAudioVideo  <br/> |Wenn der Standardwert festgelegt ist, können Benutzer auf mobilen Geräten über VoIP Sprach- oder Videoanrufe tätigen oder empfangen. Wenn die Einstellung auf „False“ festgelegt ist, können die Benutzer auf ihren mobilen Geräten keine dieser Funktionen nutzen.  <br/> |True  <br/> |
-|Wi-Fi für IP-Audio erforderlich  <br/> |RequireWiFiForIPAudio  <br/> |Definiert, ob VoIP-Anrufe in Clients über das WLAN anstatt über das Mobilfunknetz getätigt oder empfangen werden. Wenn „True“ festgelegt ist, können die Benutzer nur dann VoIP-Anrufe tätigen und empfangen, wenn sie mit einem WLAN verbunden sind.  <br/> |False  <br/> |
+|Wi-Fi für IP-Audio erforderlich  <br/> |RequireWiFiForIPAudio  <br/> |Definiert, ob VoIP-Anrufe in Clients über das WLAN anstatt über das Mobilfunknetz getätigt oder empfangen werden. Wenn „True“ festgelegt ist, können die Benutzer nur dann VoIP-Anrufe tätigen und empfangen, wenn sie mit einem WLAN verbunden sind.  <br/> |Falsch  <br/> |
 |Wi-Fi für IP-Video erforderlich  <br/> |RequireWiFiForIPVideo  <br/> |Definiert, ob Videoanrufe in Clients über das WLAN anstatt über das Mobilfunknetz getätigt oder empfangen werden. Wenn „True“ festgelegt ist, können die Benutzer nur dann VoIP-Anrufe tätigen und empfangen, wenn sie mit einem WLAN verbunden sind.  <br/> |False  <br/> |
    
 ### <a name="should-users-who-arent-enabled-for-enterprise-voice-be-able-to-use-click-to-join-to-join-conferences"></a>Sollen Benutzer, die nicht für Enterprise-VoIP aktiviert sind, an Konferenzen teilnehmen können, indem sie auf den entsprechenden Teilnahmelink klicken?
