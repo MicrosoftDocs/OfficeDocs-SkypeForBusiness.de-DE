@@ -1,5 +1,6 @@
 ---
 title: Plan für IPv6 in Skype for Business
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Zusammenfassung: Implementieren IPv6 vor der Installation von Skype für Business Server.'
-ms.openlocfilehash: b500a0b3f4b99b97b1fc3a89eda7c5736953d854
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c2ac3470646c78e0a7312fb9390a712321793915
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888346"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884747"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Plan für IPv6 in Skype for Business
  
@@ -132,8 +133,8 @@ Die folgende Tabelle zeigt die Matrix der unterstützten zwischen den Front-End-
 
 ||**Edgepool: IPv4** <br/> |**Edgepool: Dualer Stapel** <br/> |**Edgepool: IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
-|**Front-End-Pool: IPv4** <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|**Front-End-Pool: Dualer Stapel** <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
+|**Front-End-Pool: IPv4** <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
+|**Front-End-Pool: Dualer Stapel** <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
 |**Front-End-Pool: IPv6** <br/> |Nein  <br/> |Nein  <br/> |Ja\*  <br/> |
    
 \*Verwenden Sie diese Kombination nur in einer laborumgebung.
@@ -200,10 +201,10 @@ Die folgenden Szenarien werden bei der Migration und Koexistenz unterstützt:
     
 - Skype für Business Server-Pool im nur-IPv6-Modus, wenn der reine IPv6-Pool in Silos zusammengefasst wird.
     
-## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
+## <a name="see-also"></a>Siehe auch
 <a name="migration"> </a>
 
-[Konfigurieren von IP-Adresstypen in Skype for Business](ip-address-types.md)
+[Configure IP address types in Skype for Business](ip-address-types.md)
 
 [Reagieren auf IP Version 6-Architektur](https://tools.ietf.org/html/rfc4291)
   

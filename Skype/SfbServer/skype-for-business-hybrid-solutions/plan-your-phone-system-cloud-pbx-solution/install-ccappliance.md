@@ -1,5 +1,6 @@
 ---
 title: Install-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: 'Das Cmdlet „Install-CcAppliance“ installiert die Skype for Business Cloud Connector Edition-Appliance (einschließlich der virtuellen Maschinen für AD, den zentralen Verwaltungsspeicher, den Vermittlungsserver und den Edgeserver) auf dem Hostserver. '
-ms.openlocfilehash: d35a102f7d3ade7b64bcf43388eaf03dc455c27b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 8f1a8b7d99a555006c1d69ee52f2403e9bf0a874
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569987"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880214"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
@@ -66,7 +67,7 @@ Der Parameter „-ShowStepsOnly“ ist nur für die Problembehandlung vorgesehen
   
 ### <a name="example-5"></a>Beispiel 5
 
-Im folgenden Beispiel werden Konfigurationsdateien für die einzelnen Bereitstellungsschritte auf dem Hostserver generiert. Konfigurationsdateien gespeichert, die \<ApplianceRoot\>\Instances\\< Version\>-Default\ExportedConfig-Ordner auf dem Hostserver:
+Im folgenden Beispiel werden Konfigurationsdateien für die einzelnen Bereitstellungsschritte auf dem Hostserver generiert. Konfigurationsdateien gespeichert, die \<ApplianceRoot\>\Instances\\<Version\>-Default\ExportedConfig-Ordner auf dem Hostserver:
   
 ```
 Install-CcAppliance -PrepareOnly
@@ -89,7 +90,7 @@ Der Parameter „SkipExistingObjects“ muss in Verbindung mit dem Parameter „
   
 Um die Bereitstellungsschritte zu ermitteln, führen Sie den folgenden Befehl aus:
   
-Install-CcAppliance - ShowStepsOnly
+Install-CcAppliance -ShowStepsOnly
   
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
@@ -120,17 +121,17 @@ Keine. Das Cmdlet „Install-CcAppliance“ akzeptiert keine Pipelineeingaben.
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine
+Keine 
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>
 
-[Veröffentlichen von CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
 [Register-CcAppliance](register-ccappliance.md)
   
-[Aufheben der Registrierung CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
-[Deinstallieren von CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
 

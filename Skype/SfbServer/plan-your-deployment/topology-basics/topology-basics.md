@@ -1,5 +1,6 @@
 ---
 title: Topologiegrundlagen Skype für Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Zusammenfassung: Wählen Sie Ihre Topologie für Skype für Business Server. Informationen Sie zu serverausführung für Skype für Business Server.'
-ms.openlocfilehash: 5d2589d6ba7878ea69c8860ad99f182912e471dd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 566d044defd69dd9ae79bc964c9a587332649b42
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886165"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881618"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Topologiegrundlagen Skype für Business Server
 
@@ -133,7 +134,7 @@ Der Front-End-Server umfasst Folgendes:
 
 - Webkomponenten zu unterstützten webbasierten Aufgaben wie Webplaner und Join Launcher.
 
-- Optional eine Archivierung der Chatnachrichtenkommunikation und Besprechungsinhalte, um rechtliche Vorgaben einzuhalten. Weitere Informationen hierzu finden Sie unter [Planning for Archiving](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx) in der Planungsdokumentation.
+- Optional eine Archivierung der Chatnachrichtenkommunikation und Besprechungsinhalte, um rechtliche Vorgaben einzuhalten. Ausführliche Informationen finden Sie unter [Planning for Archiving](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx) in der Planungsdokumentation.
 
     In Lync Server 2010 und früheren Versionen wurden die Überwachung und Archivierung separaten Serverrollen nicht auf Front-End-Server verbunden.
 
@@ -262,7 +263,7 @@ Die folgenden Datenbanken können auf dem gleichen Back-End-SQL Server kombinier
 
 - Kompatibilitätsdatenbank für beständigen Chat
 
-#### <a name="both"></a>Beide
+#### <a name="both"></a>Both
 
 Nun, es gibt einige zusätzlichen Regeln zu befolgen, wenn Verbindung Skype für Business Server-Datenbanken in einer einzelnen SQL-Instanz oder in mehreren SQL-Instanzen in der gleichen SQL Server-Datenbank:
 

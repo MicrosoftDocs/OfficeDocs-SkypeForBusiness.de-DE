@@ -1,5 +1,6 @@
 ---
 title: Netzwerkeinstellungen für den erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Erfahren Sie mehr über Netzwerkregionen, Netzwerkstandorte und IP-Subnetze. Alle diese müssen konfiguriert werden, um Plan bereitstellen für in Skype für Unternehmen, Plan für die medienumgehung anrufsteuerung in Skype für Business Server), oder Plan für Notdienste in Skype für Business Server in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 6dad93aa2d5ef235b07f2189329f94d94b1a3d02
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a37cf9aea2ef400a61a0b457e1973b05d079ec74
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885657"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882313"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Netzwerkeinstellungen für den erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server
 
@@ -33,7 +34,7 @@ Dieses Thema bietet eine Übersicht über die konfigurationsanforderungen, die a
 Bei einer Netzwerkregion handelt es sich um einen Netzwerkhub oder Netzwerkbackbone, der ausschließlich in der Konfiguration von Anrufsteuerung (Call Admission Control, CAC), E9-1-1 und Medienumgehung verwendet wird.
 
 > [!NOTE]
-> Netzwerkregionen sind nicht identisch mit Skype für Business Server einwahlkonferenzen Bereiche, die es erforderlich, die eine oder mehrere Skype für Wählpläne Business Server Zugriffsnummern für einwahlkonferenzen zugeordnet sind. Ausführliche Informationen zu einwahlkonferenzen Regionen finden Sie unter [Planung für Einwahlkonferenzen](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx).
+> Netzwerkregionen sind nicht identisch mit Skype für Business Server einwahlkonferenzen Bereiche, die es erforderlich, die eine oder mehrere Skype für Wählpläne Business Server Zugriffsnummern für einwahlkonferenzen zugeordnet sind. Ausführliche Informationen zu Regionen für Einwahlkonferenzen finden Sie unter [Planning for Dial-In Conferencing](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx).
 
 CAC erfordert, dass jeder netzwerkregion ein zugeordneten Skype für Business Server zentralen Standort, haben die Mediendatenverkehr innerhalb der Region verwaltet (d. h., es entscheidet, die basierend auf Richtlinien, die Sie, bezüglich, ob konfiguriert haben eine in Echtzeit Audio- oder videositzung hergestellt werden). Skype für zentrale Standorte Business Server geografischen Standorten, aber vielmehr logischen Gruppen von Servern, die als Pool konfiguriert sind oder eine Gruppe von Pools nicht darstellen.
 
@@ -59,7 +60,7 @@ Arbeiten Sie mit Ihrem Netzwerkadministrator zusammen, um zu ermitteln, welche I
 Sie können z. B. dem Standort „New York“ in der Region „Nordamerika“ die folgenden IP-Subnetze zuweisen: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Wenn der Benutzer Bob, der üblicherweise in Detroit arbeitet, für eine Schulung in das New Yorker Büro reist, seinen Computer einschaltet und sich mit dem Netzwerk verbindet, erhält sein Computer eine IP-Adresse aus einem der vier Bereiche, die für „New York“ zugewiesen sind, beispielsweise die Adresse 172.29.80.103.
 
 > [!CAUTION]
-> Die während der Netzwerkkonfiguration auf dem Server angegebenen IP-Subnetze müssen dem Format entsprechen, das von Clientcomputern bereitgestellt wird, damit eine ordnungsgemäße Verwendung für die Medienumgehung gewährleistet ist. Einen Skype für Business-Client nimmt seine lokale IP-Adresse und die IP-Adresse mit der zugehörigen Subnetzmaske maskiert. Bei Ermittlung der Umgehungs-ID für jeden Client vergleicht die Registrierung die Liste der IP-Subnetze für jeden Netzwerkstandort mit dem vom Client bereitgestellten Subnetz, um eine exakte Übereinstimmung zu ermitteln. Aus diesem Grund ist es wichtig, dass es sich bei den während der Netzwerkkonfiguration auf dem Server eingegebenen Subnetzen nicht um virtuelle, sondern um tatsächliche Subnetze handelt. (Wenn Sie die anrufsteuerung bereitstellen, aber keine medienumgehung, die anrufsteuerung funktioniert, auch wenn Sie virtuelle Subnetze konfigurieren.) Wenn eine Skype für Business-Client auf einem Computer mit der IP-Adresse 172.29.81.57 IP-Subnetzmaske 255.255.255.0 anmeldet, wird es beispielsweise die umgehungs-ID anfordern, das Subnetz 172.29.81.0 zugeordnet ist. Wenn das Subnetz als 172.29.0.0/16 definiert ist, betrachtet die Registrierung dies – wenngleich der Client dem virtuellen Subnetz angehört – nicht als Übereinstimmung, da die Registrierung ausschließlich nach Subnetz 172.29.81.0 sucht. Aus diesem Grund ist es wichtig, dass der Administrator Subnetze gibt genau wie von Skype für Business Clients bereitgestellt wird (die mit Subnetze während der Netzwerkkonfiguration, statisch oder von Dynamic Host Configuration Protocol (DHCP) bereitgestellt werden.)
+> Die während der Netzwerkkonfiguration auf dem Server angegebenen IP-Subnetze müssen dem Format entsprechen, das von Clientcomputern bereitgestellt wird, damit eine ordnungsgemäße Verwendung für die Medienumgehung gewährleistet ist. Einen Skype für Business-Client nimmt seine lokale IP-Adresse und die IP-Adresse mit der zugehörigen Subnetzmaske maskiert. Bei Ermittlung der Umgehungs-ID für jeden Client vergleicht die Registrierung die Liste der IP-Subnetze für jeden Netzwerkstandort mit dem vom Client bereitgestellten Subnetz, um eine exakte Übereinstimmung zu ermitteln. Aus diesem Grund ist es wichtig, dass es sich bei den während der Netzwerkkonfiguration auf dem Server eingegebenen Subnetzen nicht um virtuelle, sondern um tatsächliche Subnetze handelt. (Wenn Sie die anrufsteuerung bereitstellen, aber keine medienumgehung, die anrufsteuerung funktioniert, auch wenn Sie virtuelle Subnetze konfigurieren.) Wenn eine Skype für Business-Client auf einem Computer mit der IP-Adresse 172.29.81.57 IP-Subnetzmaske 255.255.255.0 anmeldet, wird es beispielsweise die umgehungs-ID anfordern, das Subnetz 172.29.81.0 zugeordnet ist. Wenn das Subnetz als 172.29.0.0/16 definiert ist, betrachtet die Registrierung dies – auch wenn der Client dem virtuellen Subnetz angehört – nicht als Übereinstimmung, da die Registrierung ausschließlich nach Subnetz 172.29.81.0 sucht. Aus diesem Grund ist es wichtig, dass der Administrator Subnetze gibt genau wie von Skype für Business Clients bereitgestellt wird (die mit Subnetze während der Netzwerkkonfiguration, statisch oder von Dynamic Host Configuration Protocol (DHCP) bereitgestellt werden.)
 
 ## <a name="associating-subnets-with-network-sites"></a>Zuordnen von Subnetzen zu Netzwerkstandorten
 

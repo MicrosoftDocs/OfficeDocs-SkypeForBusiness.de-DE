@@ -1,5 +1,6 @@
 ---
 title: Get-CcExternalCertificateFilePath
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 62fdc9cc-e82e-463f-b8b3-05d5c6482ea2
 description: Das Cmdlet „Get-CcExternalCertificateFilePath“ gibt den Pfad der externen Zertifikatdatei für die Skype for Business Cloud Connector Edition-Bereitstellung zurück. Der Benutzer bereitet dieses Zertifikat vor.
-ms.openlocfilehash: 9ceba99310ab25676a7cd3938ed386c4752f453e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 997b5d7a39decf11a19c307f4e7a7b439069441f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882586"
 ---
 # <a name="get-ccexternalcertificatefilepath"></a>Get-CcExternalCertificateFilePath
  
@@ -55,7 +57,7 @@ Bei der Bereitstellung oder beim Ändern der Topologie müssen Sie den Pfad für
 
 |**Parameter**|**Erforderlich**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|
-|Target  <br/> |Optional  <br/> | System.Management.Automation.SwitchParameter <br/> |Der Typ des angeforderten Dateipfads. Mögliche Typen:  <br/> „EdgeServer“ (Standard)  <br/> MediationServer  <br/> |
+|Target  <br/> |Optional  <br/> | System.Management.Automation.SwitchParameter <br/> |Der Typ des angeforderten Dateipfads. Mögliche Typen:  <br/> „EdgeServer“ (Standard)  <br/> „MediationServer“  <br/> |
    
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>

@@ -1,5 +1,6 @@
 ---
 title: Hinzufügen eines Survivable Branch Appliance-Pools
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
 description: Um den FQDN der Survivable Branch Appliance zu definieren, geben Sie den vollqualifizierten Domänennamen (FQDN) (wie in Domain Name System (DNS) definiert) der Survivable Branch Appliance oder einen Survivable Branch Server in das Textfeld FQDN. Klicken Sie auf Weiter, um fortzufahren.
-ms.openlocfilehash: 78b19494afe973ce1c27e18194d4f3017fffca6c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0cb5b580f52791d8af449a0b4d3e6ea6d28f31f7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973716"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883039"
 ---
 # <a name="add-survivable-branch-appliance-pool"></a>Hinzufügen eines Survivable Branch Appliance-Pools
  

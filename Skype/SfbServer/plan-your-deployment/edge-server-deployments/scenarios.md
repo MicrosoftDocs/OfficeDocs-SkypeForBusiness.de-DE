@@ -1,5 +1,6 @@
 ---
 title: Edge-Server-Szenarien in Skype für Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 'Zusammenfassung: Lesen Sie diese Szenarien, die Ihnen bei der Planung Ihrer Edge-Server-Topologie in Skype für Business Server erleichtern.'
-ms.openlocfilehash: 6343c69c493992656b17aaadb5e1450baec85560
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 26bdb7e007c3ba0da6c5590db4c1e6953e43e701
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885180"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881535"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Edge-Server-Szenarien in Skype für Business Server
  
@@ -42,60 +43,60 @@ NAT-Geräte, die für NAT64 zulassen vorhanden sind (IPv6 IPv4) und NAT66 (IPv6 
 
 Bei diesem Szenario gibt es keine Option für hohe Verfügbarkeit. Das bedeutet, dass Sie weniger für Hardware ausgeben und die Bereitstellung einfacher ist. Wenn hohe Verfügbarkeit für Sie ein Muss ist, informieren Sie sich unten über die skalierten konsolidierten Szenarien.
   
-![Edgeszenario für einzelnen konsolidierten Edgeserver mit privater IP bei Verwendung von NAT](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
+![Edge-Szenario für einzelnen konsolidierten Edgeserver mit privaten IP-mit NAT](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
   
 ### <a name="port-diagram"></a>Portdiagramm
 
 Wir haben auch ein Diagramm für Ports für einzelne konsolidierte Edge-Server.
   
-![Umkreisnetzwerk – Edgeszenario für einzelnen konsolidierten Edgeserver](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![Umkreisnetzwerk für Edge Szenario einzelnen konsolidierten Edgeserver](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
 ## <a name="single-consolidated-skype-for-business-server-edge-server-with-public-ip-addresses"></a>Einzelner konsolidierter Skype für Business Server-Edgeserver mit öffentlichen IP-Adressen
 
 Bei diesem Szenario gibt es keine Option für hohe Verfügbarkeit. Das bedeutet, dass Sie weniger für Hardware ausgeben und die Bereitstellung einfacher ist. Wenn hohe Verfügbarkeit für Sie ein Muss ist, informieren Sie sich unten über die skalierten konsolidierten Szenarien.
   
-![Edgeszenario für einzelnen konsolidierten Edgeserver mit öffentlicher IP](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePublicIP.jpg)
+![Edge-Szenario für einzelnen konsolidierten Edgeserver mit öffentliche IP-Adresse](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePublicIP.jpg)
   
 ### <a name="port-diagram"></a>Portdiagramm
 
 Wir haben auch ein Diagramm für Ports für einzelne konsolidierte Edge-Server.
   
-![Umkreisnetzwerk – Edgeszenario für einzelnen konsolidierten Edgeserver](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![Umkreisnetzwerk für Edge Szenario einzelnen konsolidierten Edgeserver](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-private-ip-addresses-and-nat"></a>Skalierte konsolidierte Skype für Business Server Edge-Pool mit DNS laden, Lastenausgleich und privaten IP-Adressen und Netzwerkadressenübersetzung
 
 Mit diesem Szenario können Sie über hohe Verfügbarkeit in Ihrer Edgebereitstellung verfügen, wodurch Sie die Vorteile von Skalierbarkeit und Failoverunterstützung genießen können.
   
-![Edgeszenario für skalierten konsolidierten Edgeserver, DNS-LB mit privater IP bei Verwendung von NAT](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
+![Edge-Szenario für skalierte konsolidierte Edgetopologie, DNS-kg mit privaten IP mit NAT](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
   
 ### <a name="port-diagram"></a>Portdiagramm
 
 Wir haben auch ein Diagramm für einen skalierten konsolidierten Edge-Pools mit DNS-Lastenausgleich.
   
-![Umkreisnetzwerk – Edgeszenario für skalierten konsolidierten Edgeserver mithilfe von DNS-LB](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![Umkreisnetzwerk für Edge-Szenario skalierter konsolidierter Edgeserver mit Verwendung DNS kg](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-public-ip-addresses"></a>Skalierte konsolidierte Skype für Business Server Edge-Pool mit DNS load Lastenausgleich und öffentliche IP-Adressen
 
 Mit diesem Szenario können Sie über hohe Verfügbarkeit in Ihrer Edgebereitstellung verfügen, wodurch Sie die Vorteile von Skalierbarkeit und Failoverunterstützung genießen können.
   
-![Edgeszenario für skalierten konsolidierten Edgeserver, DNS-LB mit öffentlicher IP](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
+![Edge-Szenario für skalierte konsolidierte Edgetopologie, DNS-kg mit öffentliche IP-Adresse](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
   
 ### <a name="port-diagram"></a>Portdiagramm
 
 Wir haben auch ein Diagramm für einen skalierten konsolidierten Edge-Pools mit DNS-Lastenausgleich.
   
-![Umkreisnetzwerk – Edgeszenario für skalierten konsolidierten Edgeserver mithilfe von DNS-LB](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![Umkreisnetzwerk für Edge-Szenario skalierter konsolidierter Edgeserver mit Verwendung DNS kg](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-hardware-load-balancing"></a>Eine skalierte konsolidierte Skype für Business Server Edge-Pool mit Hardwaregerät zum Lastenausgleich
 
 Mit diesem Szenario können Sie über hohe Verfügbarkeit in Ihrer Edgebereitstellung verfügen, wodurch Sie die Vorteile von Skalierbarkeit und Failoverunterstützung genießen können.
   
-![Edgeszenario für skalierten konsolidierten Edgeserver mit HLB](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
+![Edge-Szenario für skalierte konsolidierte Edgetopologie mit Hardwarelastenausgleich](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
   
 ### <a name="port-diagram"></a>Portdiagramm
 
 Wir haben auch ein Diagramm für skalierte konsolidierte Edge-Pools mit Hardwaregerät zum Lastenausgleich
   
-![Ports und Protokolle des Edgeserver-Umkreisnetzwerks](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeHLB.jpg)
+![Edge-Server-Umkreisnetzwerk Ports und Protokolle](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeHLB.jpg)
   
 

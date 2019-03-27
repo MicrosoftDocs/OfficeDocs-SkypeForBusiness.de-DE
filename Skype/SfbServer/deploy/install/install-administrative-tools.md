@@ -1,5 +1,6 @@
 ---
 title: Installieren der Verwaltungstools in Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: 'Zusammenfassung: Informationen Sie zum Installieren der erforderlichen für eine Installation von Skype für Business Server administrative Tools. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 5f5e00075f34a6a09d36dede7c4cf2ac2a6ab60f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 48c6234b04f3c594f8cc50bda82ffca8cb256552
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373057"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884009"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Installieren der Verwaltungstools in Skype für Business Server
  

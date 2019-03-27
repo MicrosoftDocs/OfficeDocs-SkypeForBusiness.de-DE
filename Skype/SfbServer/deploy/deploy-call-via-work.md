@@ -1,5 +1,6 @@
 ---
 title: Bereitstellen Sie Anruf über den Arbeitsplatz in Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 'Zusammenfassung: Informationen Sie zum Bereitstellen von Anrufen über Arbeitsplatz in Skype für Business Server für einige oder alle Benutzer.'
-ms.openlocfilehash: 7962e256bcb9bc13bec8353f55c2aa08fce1314c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d0cee2cbf3a88514983efd77e2b1728b2df1e792
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881923"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879434"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Bereitstellen Sie Anruf über den Arbeitsplatz in Skype für Business Server
  

@@ -1,5 +1,6 @@
 ---
 title: Planen von mehreren Notfall Zahlen in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: Lesen Sie in diesem Thema erfahren, wie mehrere Notfall Zahlen in Skype für Business Server planen.
-ms.openlocfilehash: 6a27539641544682f6cb0905d8434f632fa868f2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e3ecbc039dac510a1ebc5eb989773c1f32c3b6ac
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891521"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880763"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planen von mehreren Notfall Zahlen in Skype für Business Server
  
@@ -73,9 +74,12 @@ Die folgende Tabelle zeigt Beispiele für Standortrichtlinien (da es sich um Bei
 
 |**Name der Standortrichtlinie**|**Notrufe aktiviert**|**Notrufwählzeichenfolge**|**Wählmaske**|**Notruf Zahlen**|**PSTN-Verwendung**|**Standort erforderlich**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Vereinigte Staaten  <br/> |Ja  <br/> |911  <br/> | 112; 999 <br/> ||USEmergency  <br/> |Ja  <br/> |
-|US-Hospital  <br/> |Ja  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Ja  <br/> |
-|London  <br/> |Ja  <br/> |999  <br/> |144  <br/> |999 144  <br/> 112 911 117; 118  <br/> |GBEmergency  <br/> |Nein  <br/> |
+|Vereinigte Staaten  <br/> |Ja  <br/> |911  
+  <br/> | 112;999 <br/> ||USEmergency  <br/> |Ja  <br/> |
+|US-Hospital  <br/> |Ja  <br/> |911  
+  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Ja  <br/> |
+|London  <br/> |Ja  <br/> |999  
+  <br/> |144  <br/> |999 144  <br/> 112 911 117; 118  <br/> |GBEmergency  <br/> |Nein  <br/> |
 |India  <br/> |Ja  <br/> |||100-911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |Nein  <br/> |
    
  **Vereinigte Staaten** – besteht keine Notwendigkeit für mehrere Notfall Zahlen. In den Vereinigten Staaten verwenden Sie die alten Emergency Dial Zeichenfolge und Einwahl Maske Konfigurationen.

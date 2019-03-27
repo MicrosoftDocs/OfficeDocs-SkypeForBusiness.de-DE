@@ -1,5 +1,6 @@
 ---
 title: Definieren des FQDN für beständigen Chat
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 description: Sie erstellen einen neuen Persistent Chat Server oder Persistent Chat Server Pool mit dem Assistenten Definieren neuer Pool für beständigen Chat. Wählen Sie entweder die Option Pool mit mehreren Computern oder Pool mit einem Computer. Wenn Sie einen Pool mit einem Computer wählen und später einen Pool mit mehreren Computern benötigen, müssen Sie den Pool mit einem Computer entfernen und dann einen Pool mit mehreren Computern definieren.
-ms.openlocfilehash: 5dc548f791abe6aa0b697d69bc30ecf3af54d701
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 9de27a5b64c9fa13effa9396798cb67083a407e5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503935"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880924"
 ---
 # <a name="define-persistent-chat-fqdn"></a>Definieren des FQDN für beständigen Chat
  

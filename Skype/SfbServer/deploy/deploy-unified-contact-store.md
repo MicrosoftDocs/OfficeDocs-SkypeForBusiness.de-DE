@@ -1,5 +1,6 @@
 ---
 title: 'Bereitstellen des einheitlichen Kontaktspeicher in Skype für Business Server '
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 'Zusammenfassung: Den einheitlichen Kontaktspeicher in Skype für Business Server zu aktivieren.'
-ms.openlocfilehash: 36515e9542a18d422254292b0cf2a2b4ef937178
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5e7fb34d03459be5066d154e89fa8e27dc060757
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978221"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882565"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Bereitstellen des einheitlichen Kontaktspeicher in Skype für Business Server
  
@@ -107,17 +108,17 @@ Verwenden Sie eine der folgenden Methoden, um zu ermitteln, ob die Kontakte eine
   
 - Überprüfen Sie den folgenden Registrierungsschlüssel auf dem Clientcomputer:
     
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\\< SIP-URL\>\UCS
+    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\\<SIP URL\>\UCS
     
     Wenn die Kontakte des Benutzers in Exchange 2013 gespeichert sind, enthält dieser Schlüssel einen Wert von InUCSMode mit einem Wert 2165.
     
-- Führen Sie das **Test-CsUnifiedContactStore** -Cmdlet. Geben Sie bei der Skype für Business Server-Verwaltungsshell Befehlszeile aus Folgendes ein:
+- Führen Sie das Cmdlet **Test-CsUnifiedContactStore** aus. Geben Sie bei der Skype für Business Server-Verwaltungsshell Befehlszeile aus Folgendes ein:
     
   ```
   Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
   ```
 
-    Wenn der **Test-CsUnifiedContactStore** erfolgreich, wurden die Kontakte des Benutzers zum einheitlichen Kontaktspeicher migriert.
+    Wenn**Test-CsUnifiedContactStore** erfolgreich ist, wurden die Kontakte des Benutzers zum einheitlichen Kontaktspeicher migriert.
     
 ## <a name="roll-back-migrated-users"></a>Zurücksetzen von migrierten Benutzern
 

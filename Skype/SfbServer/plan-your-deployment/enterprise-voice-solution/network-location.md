@@ -1,5 +1,6 @@
 ---
 title: Definieren der Netzwerkelemente zum Ermitteln des Standorts in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: Entscheidungen zur Planung der Netzwerkkomponenten, mit denen Sie Anrufer Speicherorte für E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP zugeordnet werden.
-ms.openlocfilehash: 1a454c8391f67a1a20d50896bb79c47466f417f2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 4cab36efdf0f4bcfbf3834e9c077558610655e3a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882075"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882306"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>Definieren der Netzwerkelemente zum Ermitteln des Standorts in Skype für Business Server
  

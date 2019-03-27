@@ -1,5 +1,6 @@
 ---
 title: Referenz zur Benutzeroberfläche des Planungstools
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 12/20/2018
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: 9dbed79364072fdb8640dc291b9d1114d50d76fc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a33a6aa66ac795723c72d65fdedc2c8d6b9da3be
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981480"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883658"
 ---
 # <a name="planning-tool-ui-reference"></a>Referenz zur Benutzeroberfläche des Planungstools
  
@@ -21,54 +22,54 @@ ms.locfileid: "20981480"
 
 In diesen Themen dokumentieren die Schnittstelle für das Planungstool aus dem [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?LinkID=282725)zur Verfügung. 
   
-- [Video Audiokonferenzen (Planungstool)](../../help-topics/help-planning/audio-video-conferencing.md)
+- [Audio Video Conferencing (Planning Tool)](../../help-topics/help-planning/audio-video-conferencing.md)
     
-- [Einwahlkonferenzen Sie (Planungstool)](../../help-topics/help-planning/dial-in-conferencing.md)
+- [Dial-in Conferencing (Planning Tool)](../../help-topics/help-planning/dial-in-conferencing.md)
     
-- [Webkonferenzen (Planungstool)](../../help-topics/help-planning/web-conferencing.md)
+- [Web Conferencing (Planning Tool)](../../help-topics/help-planning/web-conferencing.md)
     
-- [Enterprise-VoIP (Planungstool)](../../help-topics/help-planning/enterprise-voice.md)
+- [Enterprise Voice (Planning Tool)](../../help-topics/help-planning/enterprise-voice.md)
     
-- [Exchange Unified Messaging-Einstellungen (Planungstool)](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
+- [Exchange Unified Messaging Settings (Planning Tool)](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
     
-- [Die Anrufsteuerung (Planungstool)](../../help-topics/help-planning/call-admission-control.md)
+- [Call Admission Control (Planning Tool)](../../help-topics/help-planning/call-admission-control.md)
     
-- [Überwachung (Planungstool)](../../help-topics/help-planning/monitoring.md)
+- [Monitoring (Planning Tool)](../../help-topics/help-planning/monitoring.md)
     
-- [Beständiger Chat (Planungstool)](../../help-topics/help-planning/persistent-chat.md)
+- [Persistent Chat (Planning Tool)](../../help-topics/help-planning/persistent-chat.md)
     
-- [Mobilität (Planungstool)](../../help-topics/help-planning/mobility.md)
+- [Mobility (Planning Tool)](../../help-topics/help-planning/mobility.md)
     
-- [Verbund (Planungstool)](../../help-topics/help-planning/federation.md)
+- [Federation (Planning Tool)](../../help-topics/help-planning/federation.md)
     
-- [Hohe Verfügbarkeit (Planungstool)](../../help-topics/help-planning/high-availability.md)
+- [High Availability (Planning Tool)](../../help-topics/help-planning/high-availability.md)
     
-- [IP-Version (Planungstool)](../../help-topics/help-planning/ip-version.md)
+- [IP Version (Planning Tool)](../../help-topics/help-planning/ip-version.md)
     
-- [Disaster Recovery (Planungstool)](../../help-topics/help-planning/disaster-recovery.md)
+- [Disaster Recovery (Planning Tool)](../../help-topics/help-planning/disaster-recovery.md)
     
-- [Übersicht über die Features (Planungstool)](../../help-topics/help-planning/feature-overview.md)
+- [Feature Overview (Planning Tool)](../../help-topics/help-planning/feature-overview.md)
     
-- [Exchange Unified Messaging (Planungstool)](../../help-topics/help-planning/exchange-unified-messaging.md)
+- [Exchange Unified Messaging (Planning Tool)](../../help-topics/help-planning/exchange-unified-messaging.md)
     
-- [System zum Lastenausgleich (Planungstool)](../../help-topics/help-planning/load-balancer.md)
+- [Load Balancer (Planning Tool)](../../help-topics/help-planning/load-balancer.md)
     
-- [Director (Planungstool)](../../help-topics/help-planning/director.md)
+- [Director (Planning Tool)](../../help-topics/help-planning/director.md)
     
-- [Clienteinstellungen (Planungstool)](../../help-topics/help-planning/client-settings.md)
+- [Client Settings (Planning Tool)](../../help-topics/help-planning/client-settings.md)
     
-- [Mediation Kollokation (Planungstool)](../../help-topics/help-planning/mediation-collocation.md)
+- [Mediation Collocation (Planning Tool)](../../help-topics/help-planning/mediation-collocation.md)
     
-- [Archivierung (Planungstool)](../../help-topics/help-planning/archiving.md)
+- [Archiving (Planning Tool)](../../help-topics/help-planning/archiving.md)
     
-- [Zweigniederlassungen (Planungstool)](../../help-topics/help-planning/branch-sites.md)
+- [Branch Sites (Planning Tool)](../../help-topics/help-planning/branch-sites.md)
     
-- [Edgenetzwerk (Planungstool)](../../help-topics/help-planning/edge-network.md)
+- [Edge Network (Planning Tool)](../../help-topics/help-planning/edge-network.md)
     
-- [Die Medienumgehung (Planungstool)](../../help-topics/help-planning/media-bypass.md)
+- [Media Bypass (Planning Tool)](../../help-topics/help-planning/media-bypass.md)
     
-- [VoIP-Infrastruktur (Planungstool)](../../help-topics/help-planning/voice-infrastructure.md)
+- [Voice Infrastructure (Planning Tool)](../../help-topics/help-planning/voice-infrastructure.md)
     
-- [VoIP-Datenverkehr (Planungstool)](../../help-topics/help-planning/voice-traffic.md)
+- [Voice Traffic (Planning Tool)](../../help-topics/help-planning/voice-traffic.md)
     
 

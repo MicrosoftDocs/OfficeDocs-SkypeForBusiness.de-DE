@@ -1,5 +1,6 @@
 ---
 title: Einrichten von Konferenzrichtlinien für Ihre Organisation
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Konferenzen sind ein wichtiger Bestandteil von Skype for Business Online: In Konferenzen können Gruppen von Benutzern gemeinsam online Folien und Videos anzeigen, Anwendungen freigeben, Dateien austauschen und anderweitig kommunizieren und zusammenarbeiten.'
-ms.openlocfilehash: 35cbafdbd69f3241cc1634e4edff455b4c35926d
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 46e22191875709f13936db395563eb9f7326300f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561656"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884534"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Einrichten von Konferenzrichtlinien für Ihre Organisation
 
@@ -143,7 +144,7 @@ Wenn Sie bereits eine Richtlinie erstellt haben, können Sie mit dem [Set-CsConf
     
   - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Erstellen von benutzerdefinierten externen Zugriffsrichtlinien](create-custom-external-access-policies.md)
 
 [Datenblöcke Point-Datei übertragen](block-point-to-point-file-transfers.md)

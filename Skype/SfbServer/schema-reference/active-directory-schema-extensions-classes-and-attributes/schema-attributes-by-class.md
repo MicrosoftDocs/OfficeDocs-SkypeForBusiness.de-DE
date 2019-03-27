@@ -1,5 +1,6 @@
 ---
 title: Schemaattribute nach Klasse in Skype für Business Server
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: Dieser Abschnitt enthält die Schemaattribute, die in jedem Skype für Business Server-Klasse und die Klassen, die in anderen Klassen enthalten sein können enthalten sein können. Eine Liste aller Klassen und ihre Beschreibungen finden Sie unter Schemaklassen und Beschreibungen in Skype für Business Server. Eine Liste aller Attribute und ihre Beschreibungen finden Sie unter Schemaattribute und Beschreibungen in Skype für Business Server.
-ms.openlocfilehash: 6ecfea185ad18ad6a84a5d3e735f6cfa4b9b68f1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a2dc6ee09730c1245a3242f88ad25ad07f9b582a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880889"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Schemaattribute nach Klasse in Skype für Business Server
  
@@ -24,7 +26,7 @@ Dieser Abschnitt enthält die Schemaattribute, die in jedem Skype für Business 
 
 |**Klasse**|**Kann diese Attribute enthalten**|
 |:-----|:-----|
-|Kontakt  <br/> |MsDS-SourceObjectDN  <br/> MsRTCSIP-mehrere AcpInfo  <br/> MsRTCSIP-ApplicationDestination  <br/> MsRTCSIP-ApplicationOptions  <br/> MsRTCSIP-ApplicationPrimaryLanguage  <br/> MsRTCSIP-ApplicationSecondaryLanguages  <br/> MsRTCSIP-ArchivingEnabled  <br/> MsRTCSIP-DeploymentLocator  <br/> MsRTCSIP-FederationEnabled  <br/> "MsRTCSIP-groupingid"  <br/> MsRTCSIP-InternetAccessEnabled  <br/> MsRTCSIP-Line  <br/> MsRTCSIP-LineServer  <br/> MsRTCSIP-OptionFlags  <br/> MsRTCSIP-OriginatorSid  <br/> MsRTCSIP-OwnerUrn  <br/> MsRTCSIP-PrimaryHomeServer  <br/> MsRTCSIP-PrimaryUserAddress  <br/> MsRTCSIP-PrivateLine  <br/> MsRTCSIP-ProxyAddresses  <br/> MsRTCSIP-Objekttyp (Herkunft)  <br/> MsRTCSIP-TargetHomeServer  <br/> MsRTCSIP-TargetUserPolicies  <br/> MsRTCSIP-TenantId  <br/> MsRTCSIP-UserEnabled  <br/> MsRTCSIP-UserExtension  <br/> MsRTCSIP-UserLocationProfile  <br/> MsRTCSIP-UserPolicies  <br/> MsRTCSIP-UserPolicy  <br/> MsRTCSIP-UserRoutingGroupId  <br/> Proxyadressen  <br/> |
+|Kontakt  <br/> |MsDS-SourceObjectDN  <br/> MsRTCSIP-mehrere AcpInfo  <br/> MsRTCSIP-ApplicationDestination  <br/> MsRTCSIP-ApplicationOptions  <br/> MsRTCSIP-ApplicationPrimaryLanguage  <br/> MsRTCSIP-ApplicationSecondaryLanguages  <br/> MsRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> MsRTCSIP-FederationEnabled  <br/> "MsRTCSIP-groupingid"  <br/> MsRTCSIP-InternetAccessEnabled  <br/> MsRTCSIP-Line  <br/> MsRTCSIP-LineServer  <br/> MsRTCSIP-OptionFlags  <br/> MsRTCSIP-OriginatorSid  <br/> MsRTCSIP-OwnerUrn  <br/> MsRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> MsRTCSIP-PrivateLine  <br/> MsRTCSIP-ProxyAddresses  <br/> MsRTCSIP-Objekttyp (Herkunft)  <br/> MsRTCSIP-TargetHomeServer  <br/> MsRTCSIP-TargetUserPolicies  <br/> MsRTCSIP-TenantId  <br/> MsRTCSIP-UserEnabled  <br/> MsRTCSIP-UserExtension  <br/> MsRTCSIP-UserLocationProfile  <br/> MsRTCSIP-UserPolicies  <br/> MsRTCSIP-UserPolicy  <br/> MsRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
 |E-Mail-Empfänger  <br/> |"msexchucvoicemailsettings"  <br/> msExchUserHoldPolicies  <br/> |
 |MsRTCSIP-ApplicationServerService  <br/> |MsRTCSIP-ApplicationServerBL  <br/> |
 |MsRTCSIP-ApplicationServerSettings  <br/> |MsRTCSIP-ApplicationList  <br/> MsRTCSIP-ApplicationServerPoolLink  <br/> MsRTCSIP-ExtensionData  <br/> MsRTCSIP-ServerVersion  <br/> |
@@ -53,7 +55,7 @@ Dieser Abschnitt enthält die Schemaattribute, die in jedem Skype für Business 
 |MsRTCSIP-TrustedWebComponentsServer  <br/> |MsRTCSIP-TrustedWebComponentsServerData  <br/> MsRTCSIP-TrustedWebComponentsServerFQDN  <br/> MsRTCSIP-TrustedServerVersion  <br/> |
 |MsRTCSIP-WebComponentsService  <br/> |MsRTCSIP-WebComponentsServers  <br/> |
 |MsRTCSIP-WebComponentSettings  <br/> |MsRTCSIP-WebComponentsData  <br/> MsRTCSIP-WebComponentsPoolAddress  <br/> MsRTCSIP-ServerVersion  <br/> |
-|Benutzer  <br/> |MsRTCSIP-mehrere AcpInfo  <br/> MsRTCSIP-ApplicationOptions  <br/> MsRTCSIP-ArchivingEnabled  <br/> MsRTCSIP-DeploymentLocator  <br/> MsRTCSIP-FederationEnabled  <br/> "MsRTCSIP-groupingid"  <br/> MsRTCSIP-InternetAccessEnabled  <br/> MsRTCSIP-Line  <br/> MsRTCSIP-LineServer  <br/> MsRTCSIP-OptionFlags  <br/> MsRTCSIP-OriginatorSid  <br/> MsRTCSIP-OwnerUrn  <br/> MsRTCSIP-PrimaryHomeServer  <br/> MsRTCSIP-PrimaryUserAddress  <br/> MsRTCSIP-PrivateLine  <br/> MsRTCSIP-TargetHomeServer  <br/> MsRTCSIP-TargetUserPolicies  <br/> MsRTCSIP-TenantId  <br/> MsRTCSIP-UserEnabled  <br/> MsRTCSIP-UserExtension  <br/> MsRTCSIP-UserLocationProfile  <br/> MsRTCSIP-UserPolicies  <br/> MsRTCSIP-UserPolicy  <br/> MsRTCSIP-UserRoutingGroupId  <br/> Proxyadressen  <br/> |
+|User  <br/> |MsRTCSIP-mehrere AcpInfo  <br/> MsRTCSIP-ApplicationOptions  <br/> MsRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> MsRTCSIP-FederationEnabled  <br/> "MsRTCSIP-groupingid"  <br/> MsRTCSIP-InternetAccessEnabled  <br/> MsRTCSIP-Line  <br/> MsRTCSIP-LineServer  <br/> MsRTCSIP-OptionFlags  <br/> MsRTCSIP-OriginatorSid  <br/> MsRTCSIP-OwnerUrn  <br/> MsRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> MsRTCSIP-PrivateLine  <br/> MsRTCSIP-TargetHomeServer  <br/> MsRTCSIP-TargetUserPolicies  <br/> MsRTCSIP-TenantId  <br/> MsRTCSIP-UserEnabled  <br/> MsRTCSIP-UserExtension  <br/> MsRTCSIP-UserLocationProfile  <br/> MsRTCSIP-UserPolicies  <br/> MsRTCSIP-UserPolicy  <br/> MsRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
    
 ### <a name="classes-contained-in-other-classes"></a>In anderen Klassen enthaltene Klassen
 

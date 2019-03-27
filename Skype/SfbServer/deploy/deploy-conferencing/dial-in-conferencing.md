@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren von einwahlkonferenzen in Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie einwahlkonferenzen in Skype für Business Server konfigurieren.'
-ms.openlocfilehash: 3c4460761fadd1dee523eb15949da8fc1bf69f14
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dbd851f416fb3bc91a556753ce33d2ef80976ff2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372402"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881507"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Konfigurieren von einwahlkonferenzen in Skype für Business Server
  
@@ -120,7 +121,7 @@ Weitere Informationen finden Sie unter [Get-CsDialPlan](https://docs.microsoft.c
     
 Weitere Informationen finden Sie unter [Set-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/set-csdialplan?view=skype-ps).
   
-## <a name="configure-dial-in-access-numbers"></a>Configure dial-in access numbers
+## <a name="configure-dial-in-access-numbers"></a>Konfigurieren von Zugriffsnummern für die Einwahl
 <a name="BKMK_ConfigureDialInAccessNumbers"> </a>
 
 Beim Bereitstellen von Einwahlkonferenzen müssen Sie Telefonnummern einrichten, die Benutzer aus dem Telefonfestnetz (Public Switched Telephone Network, PSTN) wählen können, um am Audioteil einer Konferenz teilzunehmen. Diese Zugriffsnummern für die Einwahl werden in Besprechungseinladungen und auf der Webseite mit den Einstellungen für Einwahlkonferenzen angezeigt.
@@ -171,7 +172,7 @@ Vor dem Erstellen von Zugriffsnummern für die Einwahl müssen Sie zunächst die
 9. Klicken Sie unter **Pool** auf den Pool, der die Instanz der Konferenzzentrale ausführt, die diese Einwahlnummer unterstützt.
     
     > [!NOTE]
-    > Wenn Sie den Pool nach dem Erstellen der Zugriffsnummer ändern müssen, müssen Sie das Cmdlet [Move-CsApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) verwenden oder löschen und neu erstellen die Zugriffsnummer.
+    > Wenn der Pool nach dem Erstellen der Zugriffsnummer geändert werden muss, müssen Sie das Cmdlet [Move-CsApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) verwenden oder die Zugriffsnummer löschen und neu erstellen.
   
 10. Klicken Sie unter **Primäre Sprache** auf die Sprache, in der Ansagen für diese Einwahlnummer wiedergegeben werden. 
     
@@ -194,7 +195,7 @@ Die Konferenzrichtlinie ist eine Benutzerkontoeinstellung, die die Konferenzmög
   
 Weitere Informationen zum Konfigurieren von konferenzrichtlinien finden Sie unter [Manage Conferencing Policies in Skype für Business Server](../../manage/conferencing/conferencing-policies.md).
   
-## <a name="assign-a-line-uri-to-a-user-account"></a>Assign a Line URI to a user account
+## <a name="assign-a-line-uri-to-a-user-account"></a>Weisen Sie einem Benutzerkonto einen Anschluss-URI zu
 <a name="BKMK_AssignaLineURI"> </a>
 
 Teilnehmer an Einwahlkonferenzen geben ihre Telefonnummer oder Durchwahl sowie eine PIN ein, um als authentifizierte Benutzer an Konferenzen teilzunehmen. Die Telefonie auf Skype für Benutzerkonten Business Server angegebenen **Anschluss-URI** ist für die Authentifizierung erforderlich.

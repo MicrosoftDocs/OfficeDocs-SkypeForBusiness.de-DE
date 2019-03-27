@@ -1,5 +1,6 @@
 ---
-title: Server-FQDN Edgeeinstellungen für Lync Server 2010
+title: Edgeserver-FQDN-Einstellungen für Lync Server 2010 – Erweiterung
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 'Um die Eigenschaften unter externe Einstellungen zu definieren, konfigurieren Sie Folgendes:'
-ms.openlocfilehash: d925da792e2c2c296707a99d6a4ae6b29c0545a9
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3ebd98c17f7b32af72809375bd17e55514684e6d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375608"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882348"
 ---
-# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Server-FQDN Edgeeinstellungen für Lync Server 2010
+# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Edgeserver-FQDN-Einstellungen für Lync Server 2010 – Erweiterung
  
 Um die Eigenschaften unter **externe Einstellungen**zu definieren, konfigurieren Sie Folgendes:
   

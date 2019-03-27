@@ -1,5 +1,6 @@
 ---
 title: Importieren von Zertifikaten (Einführung)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 description: Um ein Zertifikat zu importieren, müssen Sie einen Pfad zu der Zertifikatsdatei an angeben. In das Textfeld Datei Zertifikat auswählen, können Sie entweder Geben Sie den vollständigen Pfad und Dateinamen ein, oder klicken Sie auf die Schaltfläche Durchsuchen und navigieren Sie zu den Pfad und den Dateinamen (in der Regel eine p7b-, PFX- oder CER-Datei).
-ms.openlocfilehash: b6397595a0996e85c97898219ea8fcd3e326b69b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5006fa68b4b19fe312d92a3dc641f1ab61638e72
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998392"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881988"
 ---
 # <a name="import-certificate-intro"></a>Importieren von Zertifikaten (Einführung)
  

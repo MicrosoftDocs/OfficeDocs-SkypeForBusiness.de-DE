@@ -1,5 +1,6 @@
 ---
 title: Ports und Protokolle-Anforderungen für Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Zusammenfassung: Überprüfen der Aspekte beim Port-Nutzung vor der Implementierung von Skype für Business Server.'
-ms.openlocfilehash: a014df31ad27e5ed89b97fd7ca09979d4cfb5661
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: 612a6f98ff2517163e3e720d4272c05463250cd2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069512"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882285"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Ports und Protokolle-Anforderungen für Server
  

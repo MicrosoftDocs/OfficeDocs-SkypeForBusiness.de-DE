@@ -1,5 +1,6 @@
 ---
 title: Bereitstellen Sie Anrufqualität Dashboard für Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Zusammenfassung: Informationen Sie zu den Bereitstellungsprozess für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: a4e8cfb48e0d9efc93b6c107db1ab9051f928e4d
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: ee67ddd0c0c9c3f2d169831c50dda49240d2ec7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735167"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883616"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Bereitstellen Sie Anrufqualität Dashboard für Skype für Business Server
  
@@ -338,7 +339,7 @@ Beispiele
   
 - VPN
     
-- ÜBUNG
+- Labor
     
   **Beispiel-SQL-Syntax**
   

@@ -1,5 +1,6 @@
 ---
 title: Videogatewaybereich
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a3adee56-819e-48a5-a5a8-673eca45ec16
 description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator werden in einem Pool gegenüber in Skype erstellen für Business Server 2015 online beschrieben.
-ms.openlocfilehash: 23288496d4c824d69de391af988b8753f58732d3
-ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
+ms.openlocfilehash: 5340a9133818ff61f4a0aa456dbfd57074668340
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/04/2018
-ms.locfileid: "19504327"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880721"
 ---
 # <a name="video-gateways-scope"></a>Videogatewaybereich
  

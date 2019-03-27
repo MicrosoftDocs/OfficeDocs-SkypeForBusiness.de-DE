@@ -1,5 +1,6 @@
 ---
 title: VoIP-Richtlinie Erstellen einer neuen oder Bearbeiten einer vorhandenen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb07d783-e084-4256-a928-a67a6ac006cb
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 35103a94e1c2f23087cd3419f06ac0dce05baa6d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: aaaed4feb2c66799969c07315f6dfff281fa9276
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263191"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884188"
 ---
-# <a name="voice-policy-create-new-or-edit-existing"></a>VoIP-Richtlinie: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen
+# <a name="voice-policy-create-new-or-edit-existing"></a>VoIP-Richtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen VoIP-Richtlinie
 
-Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
+Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 
 - [Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie, welche Informationen automatisch per E-Mail an Benutzer gesendet werden, wenn sich ihre Dial-in-Konferenzeinstellungen in Microsoft Teams ändern. '
-ms.openlocfilehash: cdd45eaad709ed2060cc0b0f9700e213ea884b72
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 67e4945095b9ed7e69632741e04b4ac384741feb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633334"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883419"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen in Microsoft Teams ändern
 
@@ -77,7 +77,7 @@ Standardmäßig gibt es vier Arten von E-Mails, die an die für Audiokonferenzen
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Vornehmen von Änderungen an den gesendeten E-Mails
 
-Sie können die E-Mail-Nachricht ändern, die automatisch an Benutzer gesendet wird. Zu den zu ändernden Optionen gehören die E-Mail-Adresse und der Anzeigename, der in der Kontaktinformation *From* enthalten ist. Standardmäßig ist Office 365 als Absender der E-Mails angegeben. Sie können jedoch die E-Mail-Adresse und den Anzeigenamen mit Windows PowerShell ändern. Weitere Informationen finden Sie in der [PowerShell-Referenz für Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Sie können die e-Mail-Nachricht ändern, die automatisch an Benutzer gesendet wird. In der Standardeinstellung der Absender der e-Mail werden von Office 365, aber Sie können den Anzeigenamen von Windows PowerShell ändern. Weitere Informationen finden Sie in der [PowerShell-Referenz für Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Wie gehen Sie vor, wenn keine E-Mails an die Benutzer gesendet werden sollen?
 

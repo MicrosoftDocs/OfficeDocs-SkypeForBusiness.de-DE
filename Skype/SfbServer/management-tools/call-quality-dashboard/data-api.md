@@ -1,5 +1,6 @@
 ---
 title: Daten-API für Anruf Qualitätsdashboard (CQD) in Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 'Zusammenfassung: Informationen Sie zu den Rata-API für die Qualitätsdashboard Anruf. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 0af168c46e8b2732d5c967550391ab52459ddf95
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8dd04971533a8631b4f95be2f13bad84e41963d7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531757"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881803"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>Daten-API für Anruf Qualitätsdashboard (CQD) in Skype für Business Server
  
@@ -34,10 +35,10 @@ In der folgenden Tabelle sind die REST-Vorgänge enthalten.
 |:-----|:-----|
 |[Abrufen von Cubes](get-cube.md) <br/> |Rufen Sie die Liste der verfügbaren Dimensionen und Maßeinheiten an.  <br/> |
 |[Abrufen von Dimensionselementen](get-dimension-members.md) <br/> |Dimensionselemente Abrufvorgang gibt die Liste der Mitglieder einer bestimmten Dimension zurück. Es auch bieten die Möglichkeit zum Filtern der Memberliste und erhalten Sie eine Teilmenge die Leitung Übertragung Kosten zu senken.  <br/> |
-|[Ausführen der Abfrage](run-query.md) <br/> |Führen Sie Abfrage Vorgang die Möglichkeit zum Ausführen einer Abfrage für den Cube basierend auf angegebenen Dimensionen, Maßeinheiten und Filter bietet und wieder zurückgeben Sie die Daten.  <br/> |
-|[Cache löschen](clear-cache.md) <br/> |Löschvorgang Cache löscht den Cache auf dem Server für Abfragen und Daten. Dadurch wird den Cache zurückgesetzt, und wir erhalten neue Daten vom QoE-Cube später für neue Anfragen.  <br/> |
-|[Integration Protokoll abrufen](get-integration-log.md) <br/> |Möchten Sie Integration Protokoll Operation gibt eine Liste der Protokolleinträge, beschreibt die Aktivitäten in QoE-Cube zurück, Verarbeitung erhalten.  <br/> |
-|[Abrufen von Integrationsdaten der letzten](get-last-integration-data.md) <br/> |Rufen Sie die letzten von Integrationsdaten aus dem Cube.  <br/> |
+|[Ausführen von Abfragen](run-query.md) <br/> |Führen Sie Abfrage Vorgang die Möglichkeit zum Ausführen einer Abfrage für den Cube basierend auf angegebenen Dimensionen, Maßeinheiten und Filter bietet und wieder zurückgeben Sie die Daten.  <br/> |
+|[Leeren des Caches](clear-cache.md) <br/> |Löschvorgang Cache löscht den Cache auf dem Server für Abfragen und Daten. Dadurch wird den Cache zurückgesetzt, und wir erhalten neue Daten vom QoE-Cube später für neue Anfragen.  <br/> |
+|[Abrufen des Integrationsprotokolls](get-integration-log.md) <br/> |Möchten Sie Integration Protokoll Operation gibt eine Liste der Protokolleinträge, beschreibt die Aktivitäten in QoE-Cube zurück, Verarbeitung erhalten.  <br/> |
+|[Abrufen der letzten Integrationsdaten](get-last-integration-data.md) <br/> |Rufen Sie die letzten von Integrationsdaten aus dem Cube.  <br/> |
    
  **Cross-Origin Resource Sharing (CORS)-Unterstützung für Daten-API**
   

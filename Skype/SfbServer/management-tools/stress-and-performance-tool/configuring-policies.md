@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren von Richtlinien für die Skype für Business Server 2015 Stress and Performance-Tool
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 11/11/2015
@@ -10,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
 description: Richtlinienkonfiguration für Skype für Business Server 2015 Stress and Performance-Tool.
-ms.openlocfilehash: 5bdeb4c65b3649e7d417550578e277e01e55fcc3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c5dd20df0cac3121169f6eb5659eb6339d7875e2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881207"
 ---
 # <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Konfigurieren von Richtlinien für die Skype für Business Server 2015 Stress and Performance-Tool
  

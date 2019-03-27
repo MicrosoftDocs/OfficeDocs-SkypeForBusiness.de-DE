@@ -1,5 +1,6 @@
 ---
 title: VideoStream-Tabelle
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: Jeder Datensatz steht für einen Videodatenstrom. Eine Videomedien Zeile enthält in der Regel zwei Videostreams.
-ms.openlocfilehash: 27a9c8cdd8b1975b7854147b5855a8494155ce2a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d6eeeb96acc766859d6b57594bd11a5538593da3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881681"
 ---
 # <a name="videostream-table"></a>VideoStream-Tabelle
  
@@ -52,7 +54,7 @@ Jeder Datensatz steht für einen Videodatenstrom. Eine Videomedien Zeile enthäl
 |**BPSPDropRatio** <br/> |tinyint  <br/> ||Prozentsatz der Anrufdauer mit BPSP-Frame-Löschung.  <br/> |
 |**BPSPIDropRatio** <br/> |tinyint  <br/> ||Prozentsatz der Anrufdauer mit BPSPI-Frame-Löschung.  <br/> |
 |**Eingehend** <br/> |bit  <br/> | <br/> |Streamdaten empfangen auf Empfängerseite empfangen werden.  <br/> |
-|**Ausgehende** <br/> |bit  <br/> | <br/> |Streamdaten empfangen auf der Seite Absender empfangen werden.  <br/> |
+|**Ausgehend** <br/> |bit  <br/> | <br/> |Streamdaten empfangen auf der Seite Absender empfangen werden.  <br/> |
 |**SenderIsCallerPAI** <br/> |bit  <br/> | <br/> |1 bedeutet, dass die streamrichtung vom Anrufer zum angerufenen verläuft.  <br/> 0 bedeutet, dass die streamrichtung vom angerufenen zum Anrufer verläuft.  <br/> |
 |**LossCongestionPercent** <br/> |float  <br/> ||Gibt den Prozentsatz der Zeit an, wenn der Aufruf in einem Verlust Überlastung Zustand war.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**DelayCongestionPercent** <br/> |float  <br/> ||Gibt den Prozentsatz des Anrufs, in dem eine Überlastung aufgrund der verzögerten Ankunft von Netzwerkpaketen verursacht wurde.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
@@ -73,14 +75,14 @@ Jeder Datensatz steht für einen Videodatenstrom. Eine Videomedien Zeile enthäl
 |**RelativeOneWayGapDuration** <br/> |float  <br/> ||Unidirektionale lückendauer insgesamt. Eine "bursty" Übertragung ist eine Übertragung, in dem Daten in unvorhersehbare Bursts im Gegensatz zu einem kontinuierlichen Datenstrom fließt. Geben Sie Lücken Verzögerungen zwischen diesen Bursts an. Diese Metrik misst Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**VideoPacketLossRate** <br/> |decimal(9,4)  <br/> ||Rate, bei der Videopakete verlorengingen.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**VideoAllocateBWAvg** <br/> |int  <br/> ||Durchschnittliche reservierte Bandbreite für Video.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**SendCodecTypes** <br/> |smallint  <br/> |Fremdschlüssel  <br/> |Typ des video-Codecs vom Absender verwendete. Finden Sie weitere Informationen der [CodecDescription-Tabelle](codecdescription.md) . <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**SendCodecTypes** <br/> |smallint  <br/> |Ausländisch  <br/> |Typ des video-Codecs vom Absender verwendete. Finden Sie weitere Informationen der [CodecDescription-Tabelle](codecdescription.md) . <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**SendResolutionWidth** <br/> |int  <br/> ||Vom Absender verwendete Auflösungsbreite.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**SendResolutionHeight** <br/> |int  <br/> ||Vom Absender verwendete auflösungshöhe.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**SendFrameRateAverage** <br/> |float  <br/> ||Durchschnittliche videoframerate bei der Übertragung vom Absender verwendete.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**SendBitRateMaximum** <br/> |int  <br/> ||Maximale Bitrate für den Absender.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**SendBitRateAverage** <br/> |int  <br/> ||Durchschnittliche Bitrate für den Absender.  <br/> |
 |**SendVideoStreamsMax** <br/> |int  <br/> ||Maximale Anzahl der vom Absender verwendeten Videostreams.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**RecvCodecTypes** <br/> |smallint  <br/> |Fremdschlüssel  <br/> |Video Codes vom Empfänger verwendet. Finden Sie weitere Informationen der [CodecDescription-Tabelle](codecdescription.md) . <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**RecvCodecTypes** <br/> |smallint  <br/> |Ausländisch  <br/> |Video Codes vom Empfänger verwendet. Finden Sie weitere Informationen der [CodecDescription-Tabelle](codecdescription.md) . <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RecvResolutionWidth** <br/> |int  <br/> ||Vom anrufempfänger verwendete Auflösungsbreite.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RecvResolutionHeight** <br/> |int  <br/> ||Vom anrufempfänger verwendete auflösungshöhe.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RecvFrameRateAverage** <br/> |float  <br/> ||Durchschnittliche Framerate des Videostreams vom Empfänger verwendet.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |

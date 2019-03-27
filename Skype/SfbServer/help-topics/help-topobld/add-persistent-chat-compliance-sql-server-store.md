@@ -1,5 +1,6 @@
 ---
 title: Hinzufügen des SQL Server-Speichers für Konformität für den beständigen Chat
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 description: Konfigurieren Sie die Konformität, den, die SQL Server-Speicher, die Datenbanken für die Persistent Chat Server oder die Funktion zur Einhaltung von Persistent Chat Server bereitgestellt werden.
-ms.openlocfilehash: 3342cea06870ef6841536c9d99e2503745961782
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 46b8052409bcb65a828bd07ebbec72d3b84c0962
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503711"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883074"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>Hinzufügen des SQL Server-Speichers für Konformität für den beständigen Chat
  
@@ -49,7 +50,7 @@ Klicken Sie auf **Hilfe**, um auf die kontextbezogene Hilfe (z. B. diese Seite)
 
 [Planen für den Server für beständigen Chat in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Serveranforderungen für Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
 [Hardware- und Softwareanforderungen an den Server für beständigen Chat in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   

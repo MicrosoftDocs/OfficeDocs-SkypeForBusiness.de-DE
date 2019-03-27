@@ -1,5 +1,6 @@
 ---
-title: Zuweisen einer Richtlinie für den externen Benutzerzugriff
+title: Zuweisen einer Richtlinie für den Zugriff durch externe Benutzer
+ms.reviewer: ''
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Wenn ein Benutzer für Skype für Business Server aktiviert wurde, können Sie die SIP-Verbund, Remotebenutzerzugriff und öffentlichen Instant messaging-Diensten in der Skype Business Server-Systemsteuerung durch Anwenden geeigneten Richtlinien auf bestimmte Benutzer konfigurieren.
-ms.openlocfilehash: 3498b7aabaddc80053efca70b89198c224147c0e
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: f07a407fee6f32f4cd4207c93ca19341e409ea78
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222842"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881500"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Zuweisen einer Richtlinie für den externen Benutzerzugriff zu einer Skype für Geschäftsbenutzer aktiviert
 
@@ -44,7 +45,7 @@ Verwenden Sie das Verfahren in diesem Thema, um eine zuvor erstellte externe Ben
 5.  Wählen Sie in **Skype für Business Server-Benutzer bearbeiten** unter **Richtlinie für den externen Zugriff**die Benutzerrichtlinie aus, der Sie anwenden möchten.
      
 > [!NOTE]  
-> Die ** \<automatische >** Einstellungen gelten die Standardeinstellungen des Servers oder globale Richtlinieneinstellungen.
+> Die ** \<Automatic>** Einstellungen gelten die Standardeinstellungen des Servers oder globale Richtlinieneinstellungen.
 
 
 ## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Zuweisen von Richtlinien für externen Zugriff pro Benutzer mithilfe von Windows PowerShell-Cmdlets

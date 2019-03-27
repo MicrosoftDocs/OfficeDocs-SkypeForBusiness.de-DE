@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren von Benutzerrichtlinien für beständigen Chat in Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie die ursprüngliche Benutzerrichtlinien für Persistent Chat Server in Skype für Business Server 2015 zu erstellen. Mit Benutzerrichtlinien für beständigen Chat wird festgelegt, ob Benutzer Zugriff auf Chatrooms erhalten oder nicht.'
-ms.openlocfilehash: 186611977a1a9dfa77549e8f0c5df6b863718eee
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e082898d92e622827e2543316b07a8be224c56c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000836"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883707"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Konfigurieren von Benutzerrichtlinien für beständigen Chat in Skype for Business Server 2015
  
@@ -119,7 +120,7 @@ Nach dem Erstellen von Richtlinien können Sie diese wie folgt auf ein Benutzerk
 5. **Skype für Business Server-Benutzer bearbeiten** unter **Richtlinie für beständigen Chat**wählen Sie die Benutzerrichtlinie für beständigen Chat, die Sie anwenden möchten.
     
     > [!NOTE]
-    > Die ** \<automatische\> ** Einstellungen die Standardrichtlinie für eine effektive gelten. Diese Einstellungen werden automatisch vom Server angewendet.
+    > Die ** \<automatische\> ** Einstellungen die Standardrichtlinie für eine effektive gelten. Diese Einstellungen werden vom Server automatisch übernommen.
   
 6. Klicken Sie auf **Commit ausführen**.
     

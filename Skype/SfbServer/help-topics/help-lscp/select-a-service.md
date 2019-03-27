@@ -1,5 +1,6 @@
 ---
 title: Auswählen eines Diensts
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: Verwenden Sie das Dialogfeld Dienst auswählen, um nach den in Ihrer Umgebung verfügbaren Diensten zu suchen. Klicken Sie auf einen Dienst in der Liste und anschließend auf OK, um einen vorhandenen Dienst zu verwenden.
-ms.openlocfilehash: 99a6011906254dd26fa1f8e2812ecbbf4f8a3f7f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cc5a65521cc8f7b508abd06256026fb769be47e8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247549"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880546"
 ---
 # <a name="select-a-service"></a>Auswählen eines Diensts
 
@@ -29,11 +30,11 @@ Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der
 
 Auf der Seite **Dienst auswählen** können Sie die folgenden Aufgaben ausführen:
 
-- [Konfigurieren von Kategorien](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
+- [Configure Categories](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
 
-- [Konfigurieren von Add-Ins für Räume](https://technet.microsoft.com/library/4eeaf19e-8369-4f6f-af65-a283cf7daa1c.aspx)
+- [Configure Add-ins for Rooms](https://technet.microsoft.com/library/4eeaf19e-8369-4f6f-af65-a283cf7daa1c.aspx)
 
-- [Konfigurieren von Persistent Chat Server Options Globally or for Persistent Chat Server-Pool](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
+- [Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
 
 Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
 

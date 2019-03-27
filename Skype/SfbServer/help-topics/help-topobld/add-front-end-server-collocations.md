@@ -1,5 +1,6 @@
 ---
 title: Hinzufügen von Front-End-Server-Kollokationen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 description: Für eine Enterprise Edition-Bereitstellung der A / V-Konferenzdienst auf den Front-End-Pool verbunden ist. Sie können auch den Vermittlungsserver auf den Front-End-Pool verbinden, oder Sie können es als eigenständiger Server bereitstellen. Der A / V-Konferenzdienst ist immer verbunden, wenn die Konferenz aktiviert ist.
-ms.openlocfilehash: 376a5f7a878f4760a832c998aaae3f5ddd6eee90
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 98e42a36bd57d256b66e08b6a44cca1d8b492155
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263795"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884357"
 ---
 # <a name="add-front-end-server-collocations"></a>Hinzufügen von Front-End-Server-Kollokationen
 

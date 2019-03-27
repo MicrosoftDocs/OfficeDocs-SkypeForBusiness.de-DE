@@ -1,5 +1,6 @@
 ---
 title: Liste der CDR-Tabellen in Skype für Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: Die Aufzeichnung von kommunikationsdatensätzen (CDR)-Datenbankschema besteht aus den folgenden Tabellen.
-ms.openlocfilehash: 7e224b8170ec078cafaec2fe3cbf4cf9819eba41
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 977c48b58c5b1d1c0f21fbac07a28ec6efb0bfd6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881200"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Liste der CDR-Tabellen in Skype für Business Server 2015
  

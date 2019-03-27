@@ -1,5 +1,6 @@
 ---
 title: Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,23 +20,23 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Administratoren können den Typ des audio-Konferenzen und Endbenutzer-PSTN-Anrufe steuern, die von Benutzern vorgenommen werden können.
-ms.openlocfilehash: 97df093168e896eabbc210545d516f386e1a6d25
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 36f116acb62cd16863cb547a11fe5687457a8a4e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753472"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881839"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe
 
-Als Administrator können Sie ausgehende Anrufe Steuerelemente verwenden, um den Typ des audio-Konferenzen und Endbenutzer-PSTN-Anrufe zu beschränken, die von Benutzern in Ihrer Organisation hergestellt werden kann. 
+Als Administrator können Sie die Steuerelemente für ausgehende Anrufe verwenden, um den Typ der Audiokonferenzen und Endbenutzer-PSTN-Anrufe einzuschränken, die von Benutzern in Ihrer Organisation verwendet werden können. 
 
 Ausgehende Anrufe für jeden Benutzer einzeln angewendet werden kann und ermöglichen die folgenden zwei Steuerelemente, um jede Art von ausgehenden Anrufen unabhängig voneinander zu beschränken. Standardmäßig werden beide Steuerelemente festgelegt, um internationaler und ausgehende Anrufe zu ermöglichen. 
 
-|Steuerelement|Beschreibung|Steueroptionen|
+|Steuerung|Beschreibung|Steueroptionen|
 |:-----|:-----|:-----|
-|Audio-Konferenzen PSTN-Anrufe|Legt eine Beschränkung auf den Typ des ausgehenden </br>Anrufe, die innerhalb zulässig sind </br>von einem Benutzer organisierte Besprechungen.|Internationalisierung und National (Standard)</br>Inlandsanruf</br>Keine|
-|Endbenutzer-PSTN-Anrufe|Legt eine Beschränkung auf den Typ von Anrufen </br>können von einem Benutzer vorgenommen werden.|Internationalisierung und National (Standard)</br>Inlandsanruf</br>Keine|
+|Audio-Konferenzen PSTN-Anrufe|Legt eine Beschränkung auf den Typ des ausgehenden </br>Anrufe, die innerhalb zulässig sind </br>von einem Benutzer organisierte Besprechungen.|Internationalisierung und National (Standard)</br>Inlandsanruf</br>Keine |
+|Endbenutzer-PSTN-Anrufe|Legt eine Beschränkung auf den Typ von Anrufen </br>können von einem Benutzer vorgenommen werden.|Internationalisierung und National (Standard)</br>Inlandsanruf</br>Keine |
 
    > [!NOTE]
    > Ein Aufruf ist bestimmt nationalen, wenn die gewählte Rufnummer in demselben Land als das Land ist, die in Office 365 für den Organisator der Besprechung (im Fall von Audiokonferenzen) oder die Endbenutzer (im Fall von Endbenutzer PSTN-Anrufe) festgelegt wurde. 

@@ -1,5 +1,6 @@
 ---
 title: Sicherheitsframework für Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
 description: Dieser Abschnitt enthält eine Übersicht über die grundlegenden Elemente, die das Sicherheitsframework für Skype für Business Server bilden. Grundlegendes zur Funktionsweise dieser Elemente zusammen ist entscheidend, um fundierte Entscheidungen zum Sichern Ihrer bestimmten Skype für Business Server-Bereitstellung.
-ms.openlocfilehash: 487b3ea7f57c1a008327be2b9b31664a160e8425
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7c678e1f005178b569f8e4136d40fd911483a3d5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983616"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879882"
 ---
 # <a name="security-framework-for-skype-for-business-server"></a>Sicherheitsframework für Skype für Business Server
  

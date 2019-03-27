@@ -1,5 +1,6 @@
 ---
 title: Blockieren von Punkt-zu-Punkt-Dateiübertragungen
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: In Skype für Business Online haben Sie die Kontrolle über dateiübertragungen Point (P2P) als Teil des vorhandenen konferenzrichtlinieneinstellungen aufgeführt. Jedoch auf diese Weise können oder Blöcke Datei überträgt für Benutzer, unabhängig davon, ob sie Dateien an Benutzer, die innerhalb derselben Organisation sind oder an ein Verbundbenutzer aus einer anderen Organisation übertragen werden. Die folgenden Schritte ausführen, können Sie P2P dateiübertragungen mit verbundorganisationen oder Partnern blockieren.
-ms.openlocfilehash: 7128de070e13a1c4fc62ba12e05c1fffb3595467
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 9b7d229c7f0ea0565dc3174286b4117984a2b606
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561666"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883243"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Blockieren von Punkt-zu-Punkt-Dateiübertragungen
 
@@ -34,17 +35,17 @@ In Skype für Business Online haben Sie die Kontrolle über dateiübertragungen 
     
 - Erstellen einer globalen externen Kommunikation Benutzerrichtlinie blockieren externe P2P-dateiübertragungen (_EnableP2PFileTransfer_ Festlegung auf _"false"_), und weisen Sie es zu einem Benutzer in Ihrer Organisation festgelegt. 
     
-Weitere Informationen zu diesen Einsellungen finden Sie [hier](https://technet.microsoft.com/en-us/library/mt228132.aspx).
+Sie können erfahren Sie mehr über diese Einstellungen [hier](https://technet.microsoft.com/en-us/library/mt228132.aspx).
   
 Wenn ein Verbundbenutzer außerhalb Ihrer Organisation versucht, eine Datei an einen Benutzer senden, in dem die Richtlinie angewendet wurde, erhalten sie einen **Transfer** -Fehler. Und wenn ein Benutzer versucht, eine Datei senden, erhalten sie eine Fehlermeldung **Dateiübertragung ist deaktiviert** .
   
-Damit dies funktioniert, muss der Benutzer eine unterstützte Version von einer 2016 Klick-und-Los Skype-Geschäfts-app verwenden, die sie unterstützt. Die folgende Minimalversion von Skype for Business 2016 Click-to-Run ist erforderlich:
+Damit dies funktioniert, muss der Benutzer eine unterstützte Version von einer 2016 Klick-und-Los Skype-Geschäfts-app verwenden, die sie unterstützt. Die folgenden Mindestversion von Skype für Business 2016 Klick-und-Los-Client ist erforderlich:
   
 |**Typ**|**Veröffentlichungsdatum**|**Version**|**Build**|
 |:-----|:-----|:-----|:-----|
-|Erste Freigabe für den aktuellen Kanal  <br/> |17.11.2016  <br/> |16.0.7571.2006  <br/> |Version 1611 (Build 7571.2006)  <br/> |
-|Aktueller Kanal  <br/> |06.12.2016  <br/> |16.0.7571.2072  <br/> |Version 1611 (Build 7571.2072)  <br/> |
-|Verzögerter Kanal  <br/> |22.02.2017  <br/> |16.0.7369.2118  <br/> |Version 1609 (Build 7369.2118)  <br/> |
+|Erste Version für aktuellen Kanal  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |Version 1611 (Build 7571.2006)  <br/> |
+|Aktueller Channel  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Version 1611 (Build 7571.2072)  <br/> |
+|Zurückgestellte DDE-Kanal  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |Version 1609 (Build 7369.2118)  <br/> |
    
 > [!CAUTION]
 > Benutzer, die ältere Versionen von Skype für apps für Windows Business oder Macintosh-Clients verwenden weiterhin werden können Dateien übertragen. 
@@ -119,7 +120,7 @@ Sie können dies zu einem Benutzer anwenden, indem eine neue Richtlinie erstelle
     
   - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Erstellen von benutzerdefinierten externen Zugriffsrichtlinien](create-custom-external-access-policies.md)
 
 [Einrichten von Clientrichtlinien für Ihre Organisation](set-up-client-policies-for-your-organization.md)

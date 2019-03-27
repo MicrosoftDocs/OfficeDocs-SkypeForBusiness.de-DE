@@ -1,5 +1,6 @@
 ---
 title: Erstellen von Quality of Experience-Konfigurationseinstellungen in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: 'Zusammenfassung: Informationen Sie zu Quality of Experience (QoE)-Einstellungen in Skype für Business Server.'
-ms.openlocfilehash: 678f57ba06008244bf9872ee44b26ea0c1e9a0f2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 971d3488d0c6d20586e33424c1fbb2b197b31241
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968195"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883186"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Erstellen von Quality of Experience-Konfigurationseinstellungen in Skype für Business Server
  
@@ -30,15 +31,15 @@ QoE-Konfigurationseinstellungen können unter Verwendung von entweder Skype für
 |:-----|:-----|:-----|
 |Name  <br/> |Identität  <br/> |Eindeutiger Bezeichner für die zu erstellenden Einstellungen. QoE-Konfigurationseinstellungen können nur auf der Standortebene erstellt werden.  <br/> |
 |Überwachung der QoE-Daten aktivieren  <br/> |EnableQoE  <br/> |Gibt an, ob QoE-Datensätze erfasst und in der Überwachungsdatenbank gespeichert werden.  <br/> |
-|Löschvorgang für QoE-Daten aktivieren  <br/> |"Enablepurging"  <br/> |Gibt an, ob Datensätze nach Ablauf des in der Eigenschaft **QoE-Daten für maximal (Tage) aufbewahren** festgelegten Zeitraums gelöscht werden sollen. <br/> |
-|QoE-Daten für maximal (Tage) aufbewahren  <br/> |"Keepqoedatafordays"  <br/> |Zeitdauer in Tagen, die QoE-Daten gespeichert bleiben sollen, bevor sie aus der Datenbank gelöscht werden. Bei deaktiviertem Löschvorgang wird dieser Wert ignoriert.  <br/> |
+|Löschvorgang für QoE-Daten aktivieren  <br/> |EnablePurging  <br/> |Gibt an, ob Datensätze nach Ablauf des in der Eigenschaft **QoE-Daten für maximal (Tage) aufbewahren** festgelegten Zeitraums gelöscht werden sollen. <br/> |
+|QoE-Daten für maximal (Tage) aufbewahren  <br/> |KeepQoEDataForDays  <br/> |Zeitdauer in Tagen, die QoE-Daten gespeichert bleiben sollen, bevor sie aus der Datenbank gelöscht werden. Bei deaktiviertem Löschvorgang wird dieser Wert ignoriert.  <br/> |
    
 > [!NOTE]
 > Das Cmdlet New-CsQoEConfiguration enthält zusätzliche Optionen für die Business Server-Systemsteuerung in Skype nicht verfügbar. Weitere Informationen finden Sie im Hilfethema [New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) .
   
 ### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Erstellen Sie QoE-Konfigurationseinstellungen mithilfe von Skype Business Server-Systemsteuerung
 
-1. Melden Sie sich an dem Computer als Mitglied der Gruppe RTCUniversalServerAdmins oder als Mitglied der Rolle CsVoiceAdministrator, CsServerAdministrator oder csadministrator an. Weitere Informationen hierzu finden Sie unter **Delegate Setup Permissions**.
+1. Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter **Delegate Setup Permissions**.
     
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.  
     

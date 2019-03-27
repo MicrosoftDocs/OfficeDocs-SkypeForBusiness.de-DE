@@ -1,5 +1,6 @@
 ---
 title: Office Communications Server – Bereichsknoten
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 description: Diese Dokumentation ist vorläufig und kann geändert werden. Leere Themen sind als Platzhalter enthalten.
-ms.openlocfilehash: 19490132992a86af0afce38ad02b3aaacf0c78b3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cec7a84d5915ee2f7692071d0759fea24f142178
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248265"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884705"
 ---
 # <a name="office-communications-server-scope-node"></a>Office Communications Server – Bereichsknoten
 

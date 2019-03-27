@@ -1,5 +1,6 @@
 ---
 title: (Optional) Reaktionsgruppe Definieren von Geschäftszeiten in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: Erstellen oder Ändern von Reaktionsgruppen Geschäftszeiten in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: a5f24d218ab15cb1307f042363147c9e915a351e
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: ba10f513495d21c7f94397350c1227cb77fe588b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546806"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884677"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Optional) Reaktionsgruppe Definieren von Geschäftszeiten in Skype für Unternehmen 
  
@@ -23,7 +24,7 @@ Erstellen oder Ändern von Reaktionsgruppen Geschäftszeiten in Skype für Busin
   
 ## <a name="defining-business-hours"></a>Definieren von Geschäftszeiten
 
-Mit der Einstellung der Geschäftszeiten wird definiert, wann der Workflow zur Anrufbeantwortung zur Verfügung steht und es werden die Aktionen angegeben, die für Anrufe außerhalb der Geschäftszeiten ausgeführt werden sollen. Das Cmdlet " **New-CsRgsHoursOfBusiness** " können reaktionsgruppenadministratoren vordefinierten Zeitpläne erstellen, die Sie für eine beliebige Anzahl von reaktionsgruppen verwenden können.
+Mit der Einstellung der Geschäftszeiten wird definiert, wann der Workflow zur Anrufbeantwortung zur Verfügung steht und es werden die Aktionen angegeben, die für Anrufe außerhalb der Geschäftszeiten ausgeführt werden sollen. Reaktionsgruppenadministratoren können mit dem **New-CsRgsHoursOfBusiness**-Cmdlet vordefinierte Zeitpläne erstellen, die Sie für eine beliebige Anzahl von Reaktionsgruppen verwenden können.
   
 > [!TIP]
 > Beim Erstellen oder Ändern eines Workflows können Sie einen benutzerdefinierten Zeitplan angeben, der nur für diesen Workflow gilt. Weitere Informationen hierzu finden Sie unter [Entwerfen und Erstellen von Antwort Gruppe Workflows in Skype für Unternehmen](designing-and-creating-response-group-workflows.md). 

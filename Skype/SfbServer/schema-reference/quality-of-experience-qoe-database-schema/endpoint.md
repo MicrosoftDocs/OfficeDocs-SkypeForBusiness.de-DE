@@ -1,5 +1,6 @@
 ---
 title: Endpoint-Tabelle
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
 description: Die Endpunkt-Tabelle ist eine unterstützende Tabelle, die Informationen zu den Endpunkten gespeichert, die in der Datenbank aufgezeichnet Sitzungen teilgenommen haben. Jeder Datensatz in der Tabelle steht für einen Endpunkt.
-ms.openlocfilehash: 64eb55a0c1bebe7f2ce992351ce21db2fdc575d7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f9c304408006ef9caf5521b8f0bbe28c2d917abe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882997"
 ---
 # <a name="endpoint-table"></a>Endpoint-Tabelle
  
@@ -24,7 +26,7 @@ Die Endpunkt-Tabelle ist eine unterstützende Tabelle, die Informationen zu den 
 |:-----|:-----|:-----|:-----|
 |**EndpointKey** <br/> |int  <br/> |Primary  <br/> |Eindeutige Zahl, die diesen Endpunkt identifiziert.  <br/> |
 |**Name** <br/> |nvarchar(256)  <br/> |Eindeutige  <br/> |Name des Endpunkts.  <br/> |
-|**BETRIEBSSYSTEM** <br/> |nvarchar(128)  <br/> | <br/> |Betriebssystem (OS) des Endpunkts.  <br/> |
+|**OS** <br/> |nvarchar(128)  <br/> | <br/> |Betriebssystem (OS) des Endpunkts.  <br/> |
 |**CPUName** <br/> |nvarchar(128)  <br/> ||Prozessorname des Endpunkts.  <br/> |
 |**CPUNumberOfCores** <br/> |smallint  <br/> ||Anzahl der Prozessorkerne des Endpunkts.  <br/> |
 |**CPUProcessorSpeed** <br/> |int  <br/> ||Prozessorgeschwindigkeit des Endpunkts.  <br/> |

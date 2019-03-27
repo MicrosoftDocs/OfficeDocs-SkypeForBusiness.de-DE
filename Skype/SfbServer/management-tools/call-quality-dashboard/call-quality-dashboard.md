@@ -1,5 +1,6 @@
 ---
-title: Rufen Sie die Qualitätsdashboard für Skype für Business Server
+title: Anrufqualitäts-Dashboard für Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
 description: 'Zusammenfassung: Erfahren Sie mehr über das Aufrufen Qualitätsdashboard mit ein Berichterstellungstool für Skype für Business Server ist.'
-ms.openlocfilehash: ec0924ff5e1c2d2099b004b0fd357d5e70b1f151
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 93830e6d0d746e44187241d9c300e4b5bd8ab3f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531095"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883956"
 ---
-# <a name="call-quality-dashboard-for-skype-for-business-server"></a>Rufen Sie die Qualitätsdashboard für Skype für Business Server
+# <a name="call-quality-dashboard-for-skype-for-business-server"></a>Anrufqualitäts-Dashboard für Skype for Business Server
  
 **Zusammenfassung:** Hier erfahren Sie, über das Aufrufen Qualitätsdashboard, das ein Berichterstellungstool für Skype für Business Server ist.
  

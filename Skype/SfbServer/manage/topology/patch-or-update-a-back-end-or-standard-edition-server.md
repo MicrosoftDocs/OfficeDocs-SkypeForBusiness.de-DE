@@ -1,5 +1,6 @@
 ---
 title: Patchen Sie oder aktualisieren Sie einen Back-End-Server oder Standard Edition-Server in Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: 'Zusammenfassung: Erfahren Sie, wie Sie ein Update oder Patch auf eine Back-End-Server in Skype für Business Server installieren.'
-ms.openlocfilehash: 7815c42443afae6fef7aaec71399120fb61ece82
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7919d437e5111d32f3f51fa19a1880714800666b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969131"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884153"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>Patchen Sie oder aktualisieren Sie einen Back-End-Server oder Standard Edition-Server in Skype für Business Server
  

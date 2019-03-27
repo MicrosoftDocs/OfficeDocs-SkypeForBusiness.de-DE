@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren einer sekundären standortinformationsdienst in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: Konfigurieren einer sekundären Standortdatenbank Quelle (SLS) für E9-1-1 in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: e811062bbec9e3b6caf368e010b751e496c1b305
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d5ff35be38030cc6081224e11431463e30696e4e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885122"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881113"
 ---
 # <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>Konfigurieren einer sekundären standortinformationsdienst in Skype für Business Server
  

@@ -1,5 +1,6 @@
 ---
 title: Installieren des Planungstools in Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Vor Beginn entwerfen und planen Ihre Skype für Business Server 2015 Infrastruktur mithilfe der Skype für Business Server 2015-Planungstool, Sie müssen zuerst installieren das Planungstool. Das Planungstool muss nicht bereitgestellt werden, auf einer Arbeitsstation oder einem Server, der Teil der Domäne oder der Infrastruktur, in der Sie Skype für Business Server 2015 installieren möchten. Die Planungstool gehörenden Infodatei enthält wichtige Informationen zur Installation und Verwendung des Tools. Einige Informationen aus dieser Datei werden zur Verdeutlichung im Folgenden noch einmal aufgeführt.
-ms.openlocfilehash: 2314a9ae548bea70bc13872714ae3215d7439eec
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 616cec026dfc5890cffc3975ea421d98ec13e412
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244323"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884132"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Installieren des Planungstools in Skype for Business Server 2015
 
@@ -27,15 +28,15 @@ Vor Beginn entwerfen und planen Ihre Skype für Business Server 2015 Infrastrukt
 
 Die unterstützten Betriebssysteme für Installation und Verwendung des Planungstool sind:
 
-- Windows 10
+- Windows 10
 
 - Windows 8
 
-- Windows 8.1
+- Windows 8,1
 
 - Windows Server 2012
 
-- Windows Server 2012 R2
+- Windows Server 2012 R2
 
 - Windows 7, 32-Bit-Version
 
@@ -69,7 +70,7 @@ Wenn die Vorinstallation Anforderungen erfüllt sind, können Sie dann das Planu
 
 9. Das Planungstool ist für die Verwendung bereit.
 
-## <a name="optional-software"></a>Optional Software
+## <a name="optional-software"></a>Optionale Software
 <a name="Optional_Software"> </a>
 
 Die Skype für Business Server 2015 Planungstool dient zum Exportieren nach Microsoft Excel und Microsoft Visio. Während dieser Anwendungen nicht für den Betrieb von Planungstool erforderlich sind, sie die Bereitstellung und die Dokumentation des Entwurfs erhebliche Wert hinzufügen.
@@ -105,7 +106,7 @@ Beim Exportieren Ihres Entwurfs nach Microsoft Visio wird ein Diagramm erstellt,
 
 - Edge-Netzplandiagramm - Diagramm mit ausführlichen Informationen zu den Edge-Server-Konfiguration mit zugeordneten IP-Adressen und FQDNs. DNS-Lastenausgleich und Hardwarelastenausgleich sind ebenfalls enthalten. Darüber hinaus werden von Directors und dem Front-End-Server oder Front-End-Pool angezeigt, mit zugeordneten DNS kg oder Hardwaregeräts zum Lastenausgleich und die zugeordnete IP-Adresse (das Planungstool unterstützt sowohl IPv4 als auch IPv6-Adressen) und den FQDN.
 
-## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
+## <a name="see-also"></a>Siehe auch
 <a name="Optional_Software"> </a>
 
-[Installieren des Planungstools](https://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)
+[Installing the Planning Tool](https://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)

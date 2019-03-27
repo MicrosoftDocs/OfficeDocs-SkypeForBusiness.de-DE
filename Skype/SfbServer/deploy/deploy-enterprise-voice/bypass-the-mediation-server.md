@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren der medienumgehung in Skype für Business Server zum dauerhaften Umgehung des Vermittlungsservers
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 description: Aktivieren Sie die medienumgehung auf immer Umgehung des Vermittlungsservers in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 2671a4df1b7c068e650cba35be6409f97b8682f8
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 31ecb80df342ac68ba6bb28b20248648bd5808c8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881854"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880179"
 ---
 # <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Konfigurieren der medienumgehung in Skype für Business Server zum dauerhaften Umgehung des Vermittlungsservers
  

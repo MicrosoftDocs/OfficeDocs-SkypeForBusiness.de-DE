@@ -1,5 +1,6 @@
 ---
-title: Hinzufügen des A / V-MCU-Pools
+title: Hinzufügen des A/V-MCU-Pools
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 description: Alle Enterprise Edition-Front-End-Server von einem zentralen Standort, die nicht über einen verbundenen verfügen A / V-Konferenzdienst können das gleiche eigenständige A / V-konferenzpool. Für jede A / V-konferenzpool, geben Sie einen vollqualifizierten Domänennamen (FQDN) für den Pool und gibt an, ob es nur einen einzelnen A hat / V-Konferenzserver oder mehrere, Lastenausgleich und A / V-Konferenzserver.
-ms.openlocfilehash: 435b750715246be6e1f461dd49ce53965c85d2a6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c120504b56d159b40be7d7401f43ef39757f5253
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016551"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883623"
 ---
-# <a name="add-av-mcu-pool"></a>Hinzufügen des A / V-MCU-Pools
+# <a name="add-av-mcu-pool"></a>Hinzufügen des A/V-MCU-Pools
  
 Alle Enterprise Edition-Front-End-Server von einem zentralen Standort, die nicht über einen verbundenen verfügen A / V-Konferenzdienst können das gleiche eigenständige A / V-konferenzpool. Für jede A / V-konferenzpool, geben Sie einen vollqualifizierten Domänennamen (FQDN) für den Pool und gibt an, ob es nur einen einzelnen A hat / V-Konferenzserver oder mehrere, Lastenausgleich und A / V-Konferenzserver.
   

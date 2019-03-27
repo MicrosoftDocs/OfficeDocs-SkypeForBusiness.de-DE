@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Übersicht über die dokumentverwaltung für Skype Raum Systemen v2.
-ms.openlocfilehash: b30406c9f186fad699056a78ed1b18da9f59537a
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: edd73c6ecf973d0d066b5f46d949a792bc0910c5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699352"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880285"
 ---
-# <a name="management-overview"></a>Übersicht über die Verwaltung 
+# <a name="management-overview"></a>Verwaltung (Übersicht) 
 
 Es ist wichtig, dass Sie entwickeln und Ausführen von laufenden Wartung und erleben Sie die Vorgänge, um sicherzustellen, dass Ihre Skype Raum v2-basierte Systeme für Ihre Benutzer verfügbar sind und einen hervorragendes Benutzer bereitzustellen. 
 
-## <a name="monitoring"></a>Überwachung 
+## <a name="monitoring"></a>Überwachung 
 
 Überwachung Skype Raum v2-basierte Systeme besteht aus zwei wichtige Aktivitäten:
 
@@ -35,7 +35,7 @@ Es ist wichtig, dass Sie entwickeln und Ausführen von laufenden Wartung und erl
 Die Einheiten, um sicherzustellen, dass Benutzer die Skype Raum Systemen v2 Einheiten verwenden können, müssen auf, mit dem Netzwerk verbunden ist, mit der Skype Raum Systemen v2 Anwendung ordnungsgemäß konfiguriert und funktionsfähig Peripheriegeräte hergestellt werden. 
 
 
-Informationen zum Status der Skype Raum Systemen v2 Anwendung und der verbundenen Peripheriegeräte wird von der Skype Raum Systemen v2-Anwendung in der Windows-Ereignisprotokoll geschrieben und [in diesem Artikel](oms.md#understand-the-log-entries)dokumentiert. 
+Informationen zum Status der Skype Raum Systemen v2 Anwendung und der verbundenen Peripheriegeräte wird von der Skype Raum Systemen v2-Anwendung in der Windows-Ereignisprotokoll geschrieben und in [die Protokolleinträge verstehen](azure-monitor.md#understand-the-log-entries)dokumentiert. 
 
 |**Einstellung**|**Ermöglicht**|
 |:-----|:-----|
@@ -43,13 +43,13 @@ Informationen zum Status der Skype Raum Systemen v2 Anwendung und der verbundene
 |Strom-Management -\> AC, deaktivieren Sie auf Bildschirm nach 10 Minuten  <br/> Strom-Management -\> auf AC, setzen Sie nie System in den Energiesparmodus  <br/> |Skype-Chatroom-Systemen v2 angefügte zeigt deaktivieren und Reaktivieren von automatisch aktiviert  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Oder entsprechende Möglichkeit zum Deaktivieren des Kennwortablaufs für das lokale Konto. Wird dies nicht ausgeführt, kann bei der Anmeldung des Skype-Kontos aufgrund eines abgelaufenen Kennworts ein Fehler auftreten. Beachten Sie, dass sich dies auf alle lokalen Konten auf dem Computer auswirkt, sodass bei Nichtfestlegung dieser Einstellung auch das Administratorkonto ablaufen kann.  <br/> |Ermöglicht die ständige Anmeldung des Skype-Kontos  <br/> |
    
-Die Übertragung von Dateien mithilfe von Gruppenrichtlinien wird unter [Konfigurieren eines Dateielements](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx) näher diskutiert.
+Übertragen von Dateien mithilfe von Gruppenrichtlinien wird unter [Konfigurieren einer Dateielement](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)erläutert.
   
 ## <a name="remote-management-using-powershell"></a>Remoteverwaltung mit PowerShell
 <a name="RemotePS"> </a>
 
 
-Es wird empfohlen, dass Sie Microsoft Operations Manager-Suite verwenden, um Ihre Skype Raum v2 Systeme überwachen. Anleitungen für Überwachung und Warnungen grundlegende einrichten finden Sie unter [Bereitstellen von Skype Raum v2 systemverwaltung mit OMS](../../deploy/deploy-clients/with-oms.md). 
+Es wird empfohlen, dass Sie Microsoft Operations Manager-Suite verwenden, um Ihre Skype Raum v2 Systeme überwachen. Anleitungen zum Einrichten der Überwachung und grundlegende Warnungen finden Sie unter [Bereitstellen von Skype Raum v2 systemverwaltung mit Azure Monitor](../../deploy/deploy-clients/azure-monitor.md). 
 
 Dieser Anleitung können Sie ein Dashboard einfach zu verwendende, um Probleme mit Ihrer Skype Raum Systemen v2 Einheiten in Ihrer Bereitstellung zu erkennen erstellen. 
 

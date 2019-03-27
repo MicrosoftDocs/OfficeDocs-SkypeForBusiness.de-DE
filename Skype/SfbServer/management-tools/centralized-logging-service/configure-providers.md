@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren von Anbietern für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 'Zusammenfassung: Erfahren Sie, wie der zentralisierte Protokollierungsdienst szenarioanbieter in Skype für Business Server 2015 zu konfigurieren.'
-ms.openlocfilehash: e67a1dee9227624ecc94c50437f60781435b2fe8
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 36eb16eb1aea584e1ca28670ea75bd3a262ceb1a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372492"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882208"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Konfigurieren von Anbietern für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015
  
@@ -123,7 +124,7 @@ Die - Ebene sammelt schwerwiegenden Fehler, Fehler, Warnung und Informationen Na
 New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
 ```
 
-In der $LyssProvider der Variablen, enthält das definierte Szenario mit **New-CsClsProvider**erstellt wird.
+Hierbei ist „$LyssProvider“ die Variable, in der sich das definierte Szenario befindet, das mit **New-CsClsProvider** erstellt wurde.
 ### <a name="to-change-an-existing-centralized-logging-service-scenario-provider"></a>So ändern Sie eine vorhandene Centralized Logging Service-szenarioanbieter
 
 1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
@@ -140,9 +141,9 @@ In der $LyssProvider der Variablen, enthält das definierte Szenario mit **New-C
    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
    ```
 
-Dieser Befehl bewirkt, dass beim Szenariostandort „Redmond/RedmondLyssInfo“ die Flags und die Ebene für den zugewiesenen Anbieter aktualisiert werden. Das neue Szenario können Sie mithilfe von „Get-CsClsScenario“ anzeigen. Weitere Informationen hierzu finden Sie unter [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps).
+Dieser Befehl bewirkt, dass beim Szenariostandort „Redmond/RedmondLyssInfo“ die Flags und die Ebene für den zugewiesenen Anbieter aktualisiert werden. Das neue Szenario können Sie mithilfe von „Get-CsClsScenario“ anzeigen. Weitere Informationen dazu finden Sie unter [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps).
 > [!CAUTION]
-> **New-ClsCsProvider** wird nicht überprüft, um festzustellen, ob die Kennzeichen gültig sind. Sie müssen sicherstellen, dass die Namen der Flags keine Schreibfehler enthalten (z. B. TF_DIAG oder TF_CONNECTION). Wenn die Flags falsch geschrieben sind, kann der Anbieter nicht die gewünschten Protokollinformationen zurückgeben.
+> **New-ClsCsProvider** überprüft nicht, ob die Flags gültig sind. Sie müssen sicherstellen, dass die Namen der Flags keine Schreibfehler enthalten (z. B. TF_DIAG oder TF_CONNECTION). Wenn die Flags falsch geschrieben sind, kann der Anbieter nicht die gewünschten Protokollinformationen zurückgeben.
   
 Wenn Sie diesem Szenario weitere Anbieter hinzufügen möchten, geben Sie Folgendes ein:
 
@@ -150,12 +151,12 @@ Wenn Sie diesem Szenario weitere Anbieter hinzufügen möchten, geben Sie Folgen
 Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSProvider, $CASProvider, S4Provider}
 ```
 
-Mit jedem Provider definiert hat die Richtlinie hinzufügen bereits mithilfe des **New-CsClsProvider** -Prozesses definiert wurde.
+Hierbei wurde jeder mit der „Add“-Anweisung festgelegte Anbieter bereits mithilfe des **New-CsClsProvider**-Prozesses definiert.
 ### <a name="to-remove-a-scenario-provider"></a>So entfernen Sie einen Szenarioanbieter
 
 1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
     
-2. Mithilfe der bereitgestellten Cmdlets können Sie vorhandene Anbieter aktualisieren und neue Anbieter erstellen. Um einen Anbieter zu entfernen, müssen Sie die Replace-Direktive für den Anbieter-Parameter zum **Set-CsClsScenario**verwenden. Die einzige Möglichkeit, einen Anbieter komplett zu entfernen, besteht darin, ihn durch einen neu definierten Anbieter mit dem gleichen Namen zu ersetzen und die Anweisung „Update“ zu verwenden. Beispiel: Der Anbieter „LyssProvider“ ist mit dem Protokollierungstyp „WPP“, der Protokollierungsebene „Debug“ und den gesetzten Flags „TF_CONNECTION“ und „TF_DIAG“ definiert. So ändern Sie die Flags, die benötigten "All". Geben Sie dazu den folgenden Befehl ein, um den Anbieter zu ändern:
+2. Mithilfe der bereitgestellten Cmdlets können Sie vorhandene Anbieter aktualisieren und neue Anbieter erstellen. Wenn Sie einen Anbieter entfernen möchten, müssen Sie bei **Set-CsClsScenario** beim Parameter „-Provider“ die Anweisung „Replace“ verwenden. Die einzige Möglichkeit, einen Anbieter komplett zu entfernen, besteht darin, ihn durch einen neu definierten Anbieter mit dem gleichen Namen zu ersetzen und die Anweisung „Update“ zu verwenden. Beispiel: Der Anbieter „LyssProvider“ ist mit dem Protokollierungstyp „WPP“, der Protokollierungsebene „Debug“ und den gesetzten Flags „TF_CONNECTION“ und „TF_DIAG“ definiert. So ändern Sie die Flags, die benötigten "All". Geben Sie dazu den folgenden Befehl ein, um den Anbieter zu ändern:
     
    ```
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
@@ -178,14 +179,14 @@ Mit jedem Provider definiert hat die Richtlinie hinzufügen bereits mithilfe des
    ```
 
     > [!CAUTION]
-    > Das Cmdlet **Remove-CsClsScenario** werden nicht zur Bestätigung aufgefordert. Das Szenario wird einschließlich der zugewiesenen Anbieter gelöscht. Sie können das Szenario wieder neu erstellen, indem Sie die Befehle ausführen, mit denen das Szenario ursprünglich erstellt wurde. Ein Verfahren zum Wiederherstellen entfernter Szenarien oder Anbieter gibt es nicht.
+    > Das Cmdlet **Remove-CsClsScenario** fordert Sie nicht zur Eingabe einer Bestätigung auf. Das Szenario wird einschließlich der zugewiesenen Anbieter gelöscht. Sie können das Szenario wieder neu erstellen, indem Sie die Befehle ausführen, mit denen das Szenario ursprünglich erstellt wurde. Ein Verfahren zum Wiederherstellen entfernter Szenarien oder Anbieter gibt es nicht.
   
-Wenn Sie ein Szenario mit dem Cmdlet **Remove-CsClsScenario** entfernen, entfernen Sie das Szenario vollständig aus dem Bereich. Wenn Sie die von Ihnen erstellten Szenarien mit den zugehörigen Anbietern verwenden möchten, müssen Sie neue Anbieter erstellen und diese einem neuen Szenario zuweisen.
+Wenn Sie ein Szenario mit dem Cmdlet**Remove-CsClsScenario** entfernen, wird es komplett aus dem Bereich entfernt. Wenn Sie die von Ihnen erstellten Szenarien mit den zugehörigen Anbietern verwenden möchten, müssen Sie neue Anbieter erstellen und diese einem neuen Szenario zuweisen.
 ## <a name="see-also"></a>Siehe auch
 
 [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)
   
-[Neue CsClsScenario](https://docs.microsoft.com/powershell/module/skype/new-csclsscenario?view=skype-ps)
+[New-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/new-csclsscenario?view=skype-ps)
   
 [Remove-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/remove-csclsscenario?view=skype-ps)
   

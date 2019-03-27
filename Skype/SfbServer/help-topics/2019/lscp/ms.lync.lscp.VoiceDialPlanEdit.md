@@ -1,5 +1,6 @@
 ---
 title: Wählplan Erstellen einer neuen oder Bearbeiten einer vorhandenen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: d4487d518854df99429f24e456329ce18f82f6cd
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: 6ec36413e6e766618ab7b48e0fd8a674a4652cfa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242281"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882009"
 ---
-# <a name="dial-plan-create-new-or-edit-existing"></a>Wähleinstellungen: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen
+# <a name="dial-plan-create-new-or-edit-existing"></a>Wähleinstellungen: Erstellen eines neuen oder Bearbeiten eines vorhandenen Satzes mit Wähleinstellungen
 
-Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
+Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 
 - [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 

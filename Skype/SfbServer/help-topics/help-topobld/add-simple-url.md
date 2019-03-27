@@ -1,5 +1,6 @@
 ---
-title: Fügen einfacher URLs hinzu
+title: Hinzufügen einfacher URLs
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: Um die Definition der Bereitstellung weitere einfache URLs hinzuzufügen, geben Sie die URL der neuen einfache URL.
-ms.openlocfilehash: 20db564e90051ffa274aa46587603273a8ca7581
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 749049f9d4f56321d095aee6d8c25cecd6ae0cb0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21007274"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882983"
 ---
-# <a name="add-simple-url"></a>Fügen einfacher URLs hinzu
+# <a name="add-simple-url"></a>Hinzufügen einfacher URLs
  
 Um die Definition der Bereitstellung weitere einfache URLs hinzuzufügen, geben Sie die URL der neuen einfache URL. Das Format der URL lautet http:// _\<einfache URL-Typ\>.\< Domänenname\> _ oder _http://\<Domänennamen\>/\<einfache URL-Typ\>_, wobei der einfache URL-Typ eine der folgenden ist:
   
-- Meet
+- Erfüllen
     
 - Wählen Sie sich
     

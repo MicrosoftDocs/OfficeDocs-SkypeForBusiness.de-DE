@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren einer Netzwerkregionenroute Erstellen einer neuen oder Bearbeiten einer vorhandenen
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 3165c6ddcd225176be44f0f3d86828d55e0ce663
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: 88a4392172f3cd650dd8c33944c31a1578e67e67
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257654"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880151"
 ---
-# <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>Konfigurieren einer Netzwerkregionenroute: Erstellen einer neuen oder Bearbeiten einer vorhandenen
+# <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>Konfigurieren einer Netzwerkregionenroute: Erstellen einer neuen oder Bearbeiten einer vorhandenen Netzwerkregionenroute
 
-Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
+Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 
 - [Konfigurieren von Netzwerkregionenrouten](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
 

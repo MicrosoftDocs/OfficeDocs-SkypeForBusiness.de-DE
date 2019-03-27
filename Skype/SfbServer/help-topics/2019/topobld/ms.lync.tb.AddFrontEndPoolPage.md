@@ -1,5 +1,6 @@
 ---
-title: Hinzufügen von Front-End-Pool-FQDN
+title: Hinzufügen des FQDN des Front-End-Pools
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 02ae996c-a1c6-4ff4-b6d6-bdef4ad44d2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Geben Sie den vollqualifizierten Domänennamen (FQDN) des Front-End-Pools, die Sie erstellen. Sie können den FQDN eines Pools nach dem Veröffentlichen der Topologie mit den Front-End-Pool nicht ändern. Wenn Sie einen Pool umbenennen müssen, müssen Sie den Pool zu löschen und fügen Sie einen neuen Pool mit dem neuen vollqualifizierten Domänennamen.
-ms.openlocfilehash: 9730c1857ccb68e5aeb05a66d89e306aa9646246
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 28e831df0cdf86620eefc1a22ced199507026c46
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21068233"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884252"
 ---
-# <a name="add-front-end-pool-fqdn"></a>Hinzufügen von Front-End-Pool-FQDN
+# <a name="add-front-end-pool-fqdn"></a>Hinzufügen des FQDN des Front-End-Pools
  
 Geben Sie den vollqualifizierten Domänennamen (FQDN) des Front-End-Pools, die Sie erstellen. Sie können den FQDN eines Pools nach dem Veröffentlichen der Topologie mit den Front-End-Pool nicht ändern. Wenn Sie einen Pool umbenennen müssen, müssen Sie den Pool zu löschen und fügen Sie einen neuen Pool mit dem neuen vollqualifizierten Domänennamen.
   

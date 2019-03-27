@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lesen Sie diesen Artikel, erfahren Sie mehr über die Bereitstellung von Skype Raum Systemen v2.
-ms.openlocfilehash: 7d9a24b69c1e91c5193f67b6bdc321981265cda7
-ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
+ms.openlocfilehash: 7d80a803038724e8818ab01f6b4ae54b552cabcd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26539072"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879777"
 ---
 # <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
@@ -27,7 +27,7 @@ Bereitstellung von Skype Raum Systemen v2 bricht im Wesentlichen in Phasen:
 - Bestätigen, dass Ihre Bereitstellung Speicherorte (Chatrooms) die Bereitstellung Abhängigkeiten erfüllt
 - Skype für Geschäfts- und Exchange-Konten erstellen und Zuweisen der Konsolengeräte (finden Sie unter [Konfigurieren von Konten für Skype Raum Systemen v2](room-systems-v2-configure-accounts.md))
 - Erstellen eines neuen Image Microsoft Surface Tablets als Skype Raum Systemen v2 Konsolen verwendbar sind (siehe [Konfigurieren einer Skype Raum Systemen v2 Konsole](console.md) oder [Bereitstellen von Skype Raum Systemen v2 Massen-e-Bereitstellungshandbuch](room-systems-scale.md))
-- (Optional) Einrichten von Microsoft Operations Management Suite für die Systeme (finden Sie unter [Bereitstellen von Skype Raum v2 systemverwaltung mit OMS](with-oms.md))
+- (Optional) Einrichten von Microsoft Operations Management Suite für die Systeme (finden Sie unter [Bereitstellen von Skype Raum v2 systemverwaltung mit Azure Monitor](azure-monitor.md))
 - Einrichten von Konsolen in Besprechungsräumen und verbinden die Peripheriegeräte müssen Sie (OEM-Dokumentation für den Satz von Geräten finden Sie unter)
 
 A/v-Techs für die letzte Aufgabe, aber Ihrer Organisation verwendet werden können IT-Abteilung müssen die andere Teile des Prozesses. 
@@ -57,7 +57,7 @@ Sie können diese Abhängigkeiten in die Planung Anleitungen Links unten erkunde
 -   [Einführung und Planung der Migration - Website (Playbook)](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_16)
 
     > [!NOTE]
-    > Führen Sie in der Playbook die Aufgaben im Abschnitt "4.3 – > Konferenzräume" unter dem Blatt "4-Endpunkte" für jeden Standort, auf dem Sie planen, Skype Raum Systemen v2 Geräte bereitstellen. Dies ermöglicht Ihnen das Skript später im Vorgang provisioning Massen-Konto verwenden. 
+    > Führen Sie in der Playbook die Aufgaben im Abschnitt "4.3 – > Konferenzräume" unter dem Blatt "4-Endpunkte" für jeden Standort, auf dem Sie vorab Skype Raum Systemen v2 Geräte bereitstellen. Dies ermöglicht Ihnen das Skript später im Vorgang provisioning Massen-Konto verwenden. 
 
 ## <a name="service-readiness"></a>Bereitschaft für den Dienst
 
@@ -90,7 +90,7 @@ _Beispiel Skype Raum Systemen v2-Dienstkonto planning-Tabelle_
 | **Standort**  | **Raumname** | **Raum-Typ** | **Zukünftige Raum-Funktionen**                                                 | **Skype-Chatroom-Systemen v2 Kontofeatures**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | London Unternehmenszentrale | Curie         | Mittel        | 1 Bildschirm, Audio- und Videodaten plus Präsentation <br>Einwahlkonferenzen Zugriff<br> PSTN-Zugang  | Für die Skype für Unternehmen, für Exchange (Ressourcenpostfach) aktiviert aktiviert <br>Für Audiokonferenzen aktiviert <br>Für Telefonsystem aktiviert |
-| Australische Unternehmenszentrale | Hill          | Groß         | 2 Bildschirme, Audio- und Videodaten plus Präsentation<br>Einwahlkonferenzen Zugriff<br> PSTN-Zugang  | Für die Skype für Unternehmen, für Exchange (Ressourcenpostfach) aktiviert aktiviert<br> Für Audiokonferenzen aktiviert <br>Für Telefonsystem aktiviert |
+| Australische Unternehmenszentrale | Hill          | Große         | 2 Bildschirme, Audio- und Videodaten plus Präsentation<br>Einwahlkonferenzen Zugriff<br> PSTN-Zugang  | Für die Skype für Unternehmen, für Exchange (Ressourcenpostfach) aktiviert aktiviert<br> Für Audiokonferenzen aktiviert <br>Für Telefonsystem aktiviert |
 
 
 ### <a name="prepare-to-host-skype-room-systems-v2-machine-and-service-accounts-optional"></a>Vorbereiten Sie der Hostcomputer Skype Raum Systemen v2 und Dienstkonten Sie (optional)
@@ -143,16 +143,16 @@ Bei der Planung von Skype Raum Systemsv2 bereitstellen, müssen Sie eine Anzahl 
 
 | **Szenario**            | **Ansatz**         |
 |-------------------------|-----------------------|   
-|Eine kleine Anzahl von Skype Raum Systeme Geräten bereitstellen (< 10). | Wenn Surface Pro-basierten Skype Raum Systemen v2 verwenden, führen Sie die [installationsanweisungen pro Gerät installieren](console.md). [In diesem Video praktisch führt Sie durch den Prozess.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Wenn Sie eine integrierte Lösung verwenden, mithilfe der Hersteller Bilds bereitstellen und Konfigurieren von Einstellungen nach Bedarf. |
+|Eine kleine Anzahl von Skype Raum Systeme Geräten (<10) bereitstellen. | Wenn Surface Pro-basierten Skype Raum Systemen v2 verwenden, führen Sie die [installationsanweisungen pro Gerät installieren](console.md). [In diesem Video praktisch führt Sie durch den Prozess.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Wenn Sie eine integrierte Lösung verwenden, mithilfe der Hersteller Bilds bereitstellen und Konfigurieren von Einstellungen nach Bedarf. |
 | Bereitstellen von zwischen 10 und 50 Geräte von einem einzigen Anbieter.     | Erstellen Sie ein Bild WIM-basierte, pause nach [Schritt 6 in der Anleitung](console.md)und erfassen Sie ein Bild Verteilung mit Ihrer Klonen Verteilung Technologie verwendet werden.    |
-| Bereitstellen von mehr als 50 Skype Raum Systeme Geräten, Bereitstellen von Geräten von mehr als einem Hersteller oder organisationsspezifischen Agents im Rahmen der Bereitstellung erfordern. | Verwenden Sie eine Aufgabe Sequencer basierenden Build und Verteilung Softwareplattform, wie [System Center Configuration Manager](with-oms.md).  |
+| Bereitstellen von mehr als 50 Skype Raum Systeme Geräten, Bereitstellen von Geräten von mehr als einem Hersteller oder organisationsspezifischen Agents im Rahmen der Bereitstellung erfordern. | Verwenden Sie eine Aufgabe Sequencer basierenden Build und Verteilung Softwareplattform, wie [System Center Configuration Manager](room-systems-scale.md).  |
 
 **Tipp pro** - Each Skype Raum Systemen v2 muss eine gültige und eindeutige Computername in Ihrem Netzwerk befinden. Viele für Überwachung und Warnungen Systeme zeigt den Namen des Computers als Schlüssel-ID, damit es ist wichtig, eine Benennungskonvention für Skype Raum Systemen v2 Bereitstellungen zu entwickeln, die können für das Supportpersonal auf einfache Weise die v2 Skype Raum Systeme finden, die als markiert wurde eine Aktion kommunizieren können. Ein Beispiel verwendet möglicherweise ein Muster der SRS -*Website*-*Raumname* (SRS LON CURIE). 
 
 
 Im Rahmen der Bereitstellung müssen Sie auch sollten Ihre Strategie für die Verwaltung und Konfiguration von der [lokalen Konten](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) , die durch das Installationsprogramm der Skype Raum Systeme erstellt werden.
 
-Wir bieten einen Leitfaden zum Verwenden der [Microsoft Operations Management Suite](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/oms-management) zum Überwachen der Skype Raum Systemen v2-bereitstellungs und Berichten über Verfügbarkeit, Hardware und Software-Fehlern und Skype Raum Systemen v2 Anwendungsversion. Wenn Sie Microsoft Operations Management-Suite verwenden möchten, installieren Sie den Agent Vorgänge Management Suite als Teil der Installation der Software und konfigurieren die Workspace-Verbindungsinformationen für den Arbeitsbereich. 
+Wir bieten einen Leitfaden zum Verwenden der [Microsoft Azure Monitor](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) zum Überwachen der Skype Raum Systemen v2-bereitstellungs und Berichten über Verfügbarkeit, Hardware und Software-Fehlern und Skype Raum Systemen v2 Anwendungsversion. Wenn Sie Microsoft Operations Management-Suite verwenden möchten, installieren Sie den Agent Vorgänge Management Suite als Teil der Installation der Software und konfigurieren die Workspace-Verbindungsinformationen für den Arbeitsbereich. 
 
 Eine zusätzliche Überlegung ist, ob die Skype Raum Systemen v2 Domäne beigetreten sein soll. Informationen zu den Vorteilen der Domäne beitreten kann in [Skype Raum System Domäne beitretenden Aspekte](domain-joining-considerations.md)gefunden werden. 
 
@@ -177,7 +177,7 @@ _Beispieltabelle für die Bereitstellung_
 | **Standort**  | **Raumname** | **Raum-Typ** | **Skype-Chatroom-Systemen v2 system**  | **Peripheriegeräte**  | **Skype-Chatroom-Systemen v2-Computername**  | **Skype-Chatroom-Systemen v2 Ressourcenkonto**  |
 |-----------|---------------|---------------|-----------------------------------|------------------|------------------------------------------|---------------------------------------------|
 | London Unternehmenszentrale | Curie         | Mittel        |                                   |                  |                                          |                                             |
-| Australische Unternehmenszentrale | Hill          | Groß         |                                   |                  |                                          |                                             |
+| Australische Unternehmenszentrale | Hill          | Große         |                                   |                  |                                          |                                             |
 
 ### <a name="skype-room-systems-v2-application-and-peripheral-device-configuration"></a>Skype-Chatroom-Systemen v2 Anwendung und peripherer Gerätekonfiguration 
 
@@ -211,6 +211,6 @@ _Anlage Beispieltabelle_
 | **Standort**  | **Raumname** | **Raum-Typ** | **Skype-Chatroom-Systemen v2 seriellen No.**  | **Peripheriegeräte / seriellen Selected / Ports**  | **Skype-Chatroom-Systemen v2-Computername**  | **Skype-Chatroom-Systemen v2-Dienstkonto**  | **Datum bereitgestellt** |
 |-----------|---------------|---------------|------------------------------------------|------------------------------------------|------------------------------------------|--------------------------------------------|-------------------|
 | London Unternehmenszentrale | Curie         | Mittel        |                                          |                                          |                                          |                                            |                   |
-| Australische Unternehmenszentrale | Hill          | Groß         |                                          |                                          |                                          |                                            |                   |
+| Australische Unternehmenszentrale | Hill          | Große         |                                          |                                          |                                          |                                            |                   |
 
 

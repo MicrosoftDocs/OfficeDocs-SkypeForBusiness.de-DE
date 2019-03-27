@@ -1,5 +1,6 @@
 ---
 title: Session-Ansicht
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: Session-Ansicht speichert Informationen über Sitzungen, die Datensätze in der Datenbank verfügen. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 056067b0c0e06b3ce9eb862898345fe4c8ff131c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c72773b4ff87786ab5b4e73b67e89032dc393fa1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880221"
 ---
 # <a name="session-view"></a>Session-Ansicht
  

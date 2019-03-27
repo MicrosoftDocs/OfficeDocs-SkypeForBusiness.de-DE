@@ -1,5 +1,6 @@
 ---
-title: Problembehandlung bei Statistiken Manager für Skype für Business Server
+title: Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um die Bereitstellung von Statistiken Manager für Skype für Business Server zu beheben.'
-ms.openlocfilehash: 236b109f28de838d626e9c85844b87dc9e9eb20b
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 33635c39086211e7e3e99b33268870c56704a367
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297918"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883806"
 ---
-# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Problembehandlung bei Statistiken Manager für Skype für Business Server
+# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server
  
 **Zusammenfassung:** Lesen Sie dieses Thema, um die Bereitstellung von Statistiken Manager für Skype für Business Server zu beheben.
   
@@ -172,8 +173,8 @@ In diesem Thema wird beschrieben, wie für die Problembehandlung bei der Bereits
 
 Weitere Informationen finden Sie unter den folgenden Themen:
   
-- [Planen der Business Server für den Statistiken-Manager für Skype](plan.md)
+- [Planen von Statistics Manager für Skype for Business Server](plan.md)
     
-- [Bereitstellen von Statistiken Manager für Skype für Business Server](deploy.md)
+- [Bereitstellen von Statistics Manager für Skype for Business Server](deploy.md)
     
-- [Aktualisieren von Statistiken Manager für Skype für Business Server](upgrade.md)
+- [Aktualisieren von Statistics Manager für Skype for Business Server](upgrade.md)

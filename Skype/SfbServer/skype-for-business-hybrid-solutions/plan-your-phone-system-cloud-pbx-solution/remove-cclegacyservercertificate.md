@@ -1,5 +1,6 @@
 ---
 title: Remove-CcLegacyServerCertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
 description: Das Cmdlet „Remove-CcLegacyServerCertificate“ entfernt ältere Serverzertifikate aus dem zentralen Verwaltungsspeicher, vom Vermittlungsserver und vom Edgeserver, nachdem Sie das Cmdlet „Renew-CcCACertificate“ oder „Renew CcServerCertificate“ ausgeführt haben.
-ms.openlocfilehash: dc52351d9c66ff310329da62dbd69da74b19c222
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 5f148aa083b646565adf0158f34fb15314296170
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569840"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882460"
 ---
 # <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  
@@ -49,7 +50,7 @@ Remove-CcLegacyServerCertificate -Roles @("MS", "Edge")
 
 |**Parameter**|**Erforderlich**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|
-|  Rollen <br/> |Optional   <br/> |System.Array  <br/> |  Array von Cloud Connector-Serverrollen <br/> |
+|  Rollen <br/> |Optional  <br/> |System.Array  <br/> |  Array von Cloud Connector-Serverrollen <br/> |
    
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
@@ -59,16 +60,16 @@ Keine. Das Cmdlet „Remove-CcLegacyServerCertificate“ akzeptiert keine Pipeli
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine
+Keine 
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>
 
-[Erneuern CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
 [Reset-CcCACertificate](reset-cccacertificate.md)
   
-[Erneuern CcCACertificate](renew-cccacertificate.md)
+[Renew-CcCACertificate](renew-cccacertificate.md)
   
 [Update-CcCACertificate](update-cccacertificate.md)
   

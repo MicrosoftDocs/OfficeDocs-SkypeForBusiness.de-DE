@@ -1,5 +1,6 @@
 ---
 title: Windows PowerShell und Skype für Business Server-Verwaltungstools
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 description: 'In Skype für Business Server werden die Verwaltungstools von Windows PowerShell implementiert. Windows PowerShell enthält ein Command-Line-Umgebung, produktspezifische Befehle und eine vollständige Skriptsprache. Die folgenden Skype für Business Server-Tools, die von Windows PowerShell implementiert werden:'
-ms.openlocfilehash: 4811f8fb6e4db1003e367a9cc99feb92a2928d5f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 743823e5465d6fa18f46d0f8f38802098416d7e6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21007288"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882621"
 ---
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Windows PowerShell und Skype für Business Server-Verwaltungstools
  
 In Skype für Business Server werden die Verwaltungstools von Windows PowerShell implementiert. Windows PowerShell enthält ein Command-Line-Umgebung, produktspezifische Befehle und eine vollständige Skriptsprache. Die folgenden Skype für Business Server-Tools, die von Windows PowerShell implementiert werden: 
   
-- **Topologie-Generator**. Verwenden Sie Topology Builder erstellen, anpassen und veröffentlichen Ihre geplante Topologie, und prüft er Ihrer Topologie vor Beginn des Server-Installationen. Wenn Sie Skype für Business Server auf einzelnen Servern installieren, die Server Lesen der veröffentlichten Topologie als Teil des Installationsvorgangs, und das Installationsprogramm stellt den Server bereit, wie beschrieben in der Topologie. Nach der Installation wird automatisch die Konfigurationsinformationen für alle Server repliziert. Komponenten können nur mithilfe des Topologie-Generators für Ihre Bereitstellung hinzugefügt werden.
+- **Topologie-Generator**. Verwenden Sie Topology Builder erstellen, anpassen und veröffentlichen Ihre geplante Topologie, und prüft er Ihrer Topologie vor Beginn des Server-Installationen. Wenn Sie Skype für Business Server auf einzelnen Servern installieren, die Server Lesen der veröffentlichten Topologie als Teil des Installationsvorgangs, und das Installationsprogramm stellt den Server bereit, wie beschrieben in der Topologie. After setup, configuration information is automatically replicated to all servers. Components can be added to your deployment only by using Topology Builder.
     
 - **Skype für Business Server-Verwaltungsshell**. Sie können Skype für Business Server-Verwaltungsshell für vollständigen Befehlszeilen Verwaltung Ihrer Bereitstellung verwenden.
     

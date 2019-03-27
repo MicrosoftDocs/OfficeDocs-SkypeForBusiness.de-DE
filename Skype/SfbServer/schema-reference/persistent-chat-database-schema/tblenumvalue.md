@@ -1,5 +1,6 @@
 ---
 title: tblEnumValue
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: "\"TblEnumValue\" ist eine hardkodierte Tabelle mit den Werten Visibility und Behavior der Attribute, die in der Node-Tabelle verwendet werden."
-ms.openlocfilehash: 4e17e5fc167342c106e7b5354d90c7fc284785c3
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 579b2747ea753b8a701d11dd806178427cbb27b3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19505076"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881169"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
@@ -41,7 +42,7 @@ ms.locfileid: "19505076"
 |**valueID**|**attributeID**|**attributeValue**|
 |:-----|:-----|:-----|
 |2  <br/> |1  <br/> |privat  <br/> |
-|3  <br/> |1  <br/> |Bereich  <br/> |
+|3  <br/> |1  <br/> |Umfang  <br/> |
 |4  <br/> |2  <br/> |normale  <br/> |
 |5  <br/> |2  <br/> |Auditorium  <br/> |
 |6  <br/> |1  <br/> |Öffnen Sie  <br/> |

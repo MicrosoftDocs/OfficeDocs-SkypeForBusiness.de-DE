@@ -1,5 +1,6 @@
 ---
 title: Erstellen einer Archivierungskonfiguration in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 'Zusammenfassung: Informationen Sie zum Erstellen einer Archivierungskonfiguration für Skype für Business Server.'
-ms.openlocfilehash: b46aa3605d34ba083b7021424536b9c2d1c9bbea
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2a45a627ab8bbeedd18d1cbda636606ebc641745
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21019845"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881284"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Erstellen einer Archivierungskonfiguration in Skype für Business Server
 

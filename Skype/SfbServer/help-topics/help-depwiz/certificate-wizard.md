@@ -1,5 +1,6 @@
 ---
 title: Zertifikat-Assistent
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
-description: Um anzufordern, zuweisen möchten, entfernen oder Zertifikate anzuzeigen, verwenden Sie den Zertifikat-Assistenten. Sie müssen als Mitglied der Gruppe „RTCUniversalServerAdmins“ angemeldet sein. Zum Anfordern eines Zertifikats von einer öffentlichen Zertifizierungsstelle sind keine besonderen Gruppenmitgliedschaften erforderlich. Zum Anfordern eines Zertifikats aus Ihrer Organisation public Key-Infrastruktur (PKI), müssen Sie bestätigen was zusätzliche – falls zutreffend – Gruppenmitgliedschaften, die Sie benötigen. Während des Vorgangs Anforderung können Sie alternative Anmeldeinformationen eingeben, die zum anfordern, dass das Zertifikat von Ihrem PKI Zertifizierungsstelle Ausstellen des verwendet werden.
-ms.openlocfilehash: d700a6cae510bbc12ed2e37c9c3df166d2704269
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Im Zertifikat-Assistenten können Sie Zertifikate anfordern, zuweisen, entfernenund anzeigen. Sie müssen als Mitglied der Gruppe „RTCUniversalServerAdmins“ angemeldet sein. Zum Anfordern eines Zertifikats von einer öffentlichen Zertifizierungsstelle sind keine besonderen Gruppenmitgliedschaften erforderlich. Zum Anfordern eines Zertifikats aus Ihrer Organisation public Key-Infrastruktur (PKI), müssen Sie bestätigen was zusätzliche – falls zutreffend – Gruppenmitgliedschaften, die Sie benötigen. Während des Vorgangs Anforderung können Sie alternative Anmeldeinformationen eingeben, die zum anfordern, dass das Zertifikat von Ihrem PKI Zertifizierungsstelle Ausstellen des verwendet werden.
+ms.openlocfilehash: 7d20fe489928a430c972c7e48e0938ff1eb1622d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880242"
 ---
 # <a name="certificate-wizard"></a>Zertifikat-Assistent
  
@@ -43,6 +45,6 @@ Klicken Sie zum Importieren eines Zertifikats, das noch nicht im Zertifikatspeic
 > [!NOTE]
 > **Importieren des Zertifikats** wird normalerweise verwendet, um ein Zertifikat verarbeiten, die über einen anderen Prozess als einer Anforderung in den Zertifikat-Assistenten empfangen wird. Beispiel der PKI-Administrator erstellt ein Zertifikat und für Sie verfügbar gemacht. **Zertifikat importieren** zum Importieren des Zertifikats in Zertifikat des Computers speichern und zur Verfügung gestellt Skype für Business Server zuweisen.
   
-Zum Abschließen des Prozess des Anforderns von einer Anforderung von einer Zertifizierungsstelle in Ihrer Organisation, die Zertifizierungsstelle Administrator genehmigt werden muss, klicken Sie auf **Ausstehende Anforderung Prozess**. Die Anforderung wird der Status pending zurückgegeben haben, und zeigt auch die Kennnummer des ausstehende Anforderung. Klicken Sie auf **Aktualisieren** , um die Schaltfläche **Prozess ausstehende Anforderung** zu aktivieren, um den Vorgang fortzusetzen, ein Zertifikat mit dem Status ausstehende Verarbeitung. Die Schaltfläche **Prozess ausstehende Anforderung** werden nicht mehr verfügbar (abgeblendet). Sie können dann versuchen, die ausstehende Anforderung abrufen, jedoch bleibt des Status der Anforderung offen, bis das Zertifikat ausgestellt oder vom Administrator Zertifizierungsstelle verweigert. Die Schaltfläche ist nicht verfügbar, wenn es sind keine gültigen ausstehender Anfragen, die mit dem Zertifikat-Assistenten erstellt wurden.
+To complete the process of requesting a certificate request from a CA in your organization that requires CA administrator approval, click **Process Pending Request**. The certificate request will have returned a status of pending, and also displays the identification number of the pending request. To continue processing a certificate with a pending status, click **Refresh** to enable the **Process Pending Request** button. The **Process Pending Request** button will no longer be unavailable (dimmed). You can then attempt to retrieve the pending request, but the status of the request will remain pending until the certificate is issued or denied by the CA administrator. The button will be unavailable if there are no valid pending requests that have been created by the Certificate Wizard.
   
 

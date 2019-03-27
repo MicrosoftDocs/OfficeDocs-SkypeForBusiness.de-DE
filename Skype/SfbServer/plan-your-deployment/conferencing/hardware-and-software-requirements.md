@@ -1,5 +1,6 @@
 ---
 title: Hardware und Software-Anforderungen für Konferenzen in Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu Hardware und Software-Anforderungen für Konferenzen in Skype für Business Server erhalten.'
-ms.openlocfilehash: 0029bca57477d52e1886ff476984477bdac75b97
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3385395eb34e69fadcdce4ba4bf529a347a2979c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247669"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883928"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Hardware und Software-Anforderungen für Konferenzen in Skype für Business Server
 
@@ -74,7 +75,7 @@ Informationen zur Konfiguration von Skype für Business Server mit Office Web Ap
 
 Zum Planen von A/V-Konferenzen müssen Sie die erforderliche Netzwerkbandbreite für den Typ der Konferenzmedien kennen, die in Ihrer Organisation verwendet werden. Dies könnten z. B. Audio, Video und Panoramavideo sein. Eine zu geringe Netzwerkbandbreite kann zu einem stark beeinträchtigten Benutzererlebnis führen.
 
-Informationen zu Audio- und kapazitätsplanung für Konferenzen finden Sie unter [Planen der netzwerkanforderungen für Skype für Unternehmen](../../plan-your-deployment/network-requirements/network-requirements.md).
+Weitere Informationen zur Kapazitätsplanung für Audio- und Videoinhalte auf Konferenzen finden Sie unter [Plan network requirements for Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md)
 
 Für die Verwaltung der von A/V-Konferenzen verwendeten Netzwerkbandbreite können Sie die Anrufsteuerung (CAC) verwenden. Dies ist für eingeschränkte Netzwerke wichtig, beispielsweise bei Verbindungen mit beschränkter Bandbreite zwischen Zentrale und Niederlassungen. Weitere Informationen hierzu finden Sie unter [Planen für die anrufsteuerung in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
 
@@ -98,7 +99,7 @@ Sie müssen die folgenden Skype für Business Server-Komponenten installieren, b
 
 - Mindestens ein Vermittlungsserver und ein PSTN-Gateway
 
-Müssen Sie für einwahlkonferenzen, -Anwendungsdienst, konferenzzentrale und Konferenzankündigungsdienst-Anwendung die gleichen betriebssystemanforderungen als Front-End-Server. Weitere Informationen hierzu finden Sie unter [Server-Anforderungen für Skype für Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Müssen Sie für einwahlkonferenzen, -Anwendungsdienst, konferenzzentrale und Konferenzankündigungsdienst-Anwendung die gleichen betriebssystemanforderungen als Front-End-Server. Weitere Einzelheiten finden Sie in [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
 
 Die Anwendung Konferenzzentrale und Konferenzankündigungsdienst Anwendung erfordern, dass Windows Media Format-Laufzeitkomponente auf Front-End-Servern installiert ist. Die Windows Media Format-Laufzeitkomponente ist für die Wiedergabe von WMA-Dateien (Windows Media Audio) erforderlich, die für Wartemusik, aufgezeichnete Namen und Ansagen verwendet werden. Wenn Sie auf Windows Server 2012 oder Windows Server 2012 R2 (die empfohlen) installieren, müssen Sie installieren Microsoft Media Foundation Wenn Windows Media Format-Laufzeitkomponente erhalten möchten. Wenn Sie auf einer älteren Version als Windows Server 2012 installieren, müssen Sie sicherstellen, dass Windows Desktop Experience installiert ist, damit Sie die Windows Media Format-Laufzeitkomponente erhalten.
 
@@ -129,7 +130,7 @@ Um die Konferenzfeatures verwenden, erfordert Skype für Business Server an, das
 **Erforderliche Serverports**
 
 
-|**Serverrolle**|**Name des Diensts**|**Port**|**Protokoll**|**Notizen**|
+|**Serverrolle**|**Name des Diensts**|**Port**|**Protokoll**|**Hinweise**|
 |:-----|:-----|:-----|:-----|:-----|
 |Front-End-Server  <br/> |Skype für Business Server Sofortnachrichten-Konferenzdienst  <br/> |5062  <br/> |TCP  <br/> |Wird für eingehende SIP-Anforderungen für Instant Messaging-Konferenzen verwendet.  <br/> |
 |Front-End-Server  <br/> |Skype für Business Server-Webkonferenzdienst  <br/> |8057  <br/> |TCP (TLS)  <br/> |Wird zum Überwachen von PSOM-Verbindungen (Persistent Shared Object Model) vom Client verwendet.  <br/> |
@@ -147,7 +148,7 @@ Um die Konferenzfeatures verwenden, erfordert Skype für Business Server an, das
 **Erforderliche Clientports**
 
 
-|**Port**|**Protokoll**|**Notizen**|
+|**Port**|**Protokoll**|**Hinweise**|
 |:-----|:-----|:-----|
 |443  <br/> |TCP (PSOM/TLS)  <br/> |Wird für externen Benutzerzugriff auf Webkonferenzsitzungen verwendet.  <br/> |
 |443  <br/> |TCP (STUN/MSTURN)  <br/> |Wird für externen Benutzerzugriff auf A/V-Sitzungen und -Mediendaten verwendet (TCP).  <br/> |

@@ -1,5 +1,6 @@
 ---
 title: Was ist das Telefonsystem in Office 365?
+ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Erfahren Sie, was Telefonsystem für Sie möglich ist. '
-ms.openlocfilehash: a11f527e80ec38d86c2adb97a9d861e7c11b6b8c
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 511f5892bad23901e30e1e3e1c5feacf43fa97f0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649252"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884245"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Was ist das Telefonsystem in Office 365?
 
@@ -38,7 +39,7 @@ Mit herkömmlichen PBX-Systemen Anrufe zwischen Benutzern in Ihrer Organisation 
   
 Um Anrufe an Landlines und Mobiltelefonen zu aktivieren, kann Telefonsystem an das Telefonfestnetz auf zwei Arten erfolgen:
   
-- Durch den Kauf der ein Aufruf von planen (National oder National und International) zu Office 365. Finden Sie unter [Was sind plant aufrufen?](what-are-calling-plans-in-office-365.md)
+- Durch den Kauf der ein Aufruf von planen (National oder National und International) für Office 365. Finden Sie unter [Telefonsystem und Aufrufen von Plänen](calling-plan-landing-page.md)
     
 - Mithilfe von lokalen-PSTN-Anbindung verbindet, auf dem Software lokal mit Ihrer vorhandenen Telefonieinfrastruktur. Finden Sie unter [Planen von Ihrem Telefonsystem](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution).
 
@@ -50,7 +51,7 @@ Verwenden ein auszuführendes Add-on aufrufen planen Telefonsystem in Office 365
 
 ![Topologiediagramm, in dem Cloud PBX mit PSTN-Anrufen dargestellt wird – die VoIP-Lösung, die komplett in der Cloud bereitgestellt wird](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
-Da Betrieb in Office 365-Pläne aufrufen, ist dies ein vollständig in--Cloud-Angebot, die eine Bereitstellung von lokalen Server nicht erforderlich ist. Sie haben die Wahl der Verwendung einer National oder National und International aufrufen, die den einzelnen Benutzern zugewiesen werden, die Sie anrufen möchten. [Möchten Sie mehr erfahren?](what-are-calling-plans-in-office-365.md)
+Da Betrieb in Office 365-Pläne aufrufen, ist dies ein vollständig in--Cloud-Angebot, die eine Bereitstellung von lokalen Server nicht erforderlich ist. Sie haben die Wahl der Verwendung einer National oder National und International aufrufen, die den einzelnen Benutzern zugewiesen werden, die Sie anrufen möchten. [Möchten Sie mehr erfahren?](calling-plan-landing-page.md).
   
 Benutzer, die in Skype für Business Online oder Microsoft-Teams in Office 365 verwaltet werden, haben Zugriff auf Office 365-VoIP-Dienste. Microsoft ist Anbieter sowohl von Kernanrufen als auch von PSTN-Anrufen und kann sogar die Telefonnummern Ihrer Benutzer bereitstellen oder portieren. 
   

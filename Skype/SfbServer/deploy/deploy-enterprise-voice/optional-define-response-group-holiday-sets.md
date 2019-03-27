@@ -1,5 +1,6 @@
 ---
 title: (Optional) Definieren von Reaktionsgruppe feiertagssätze in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: Erstellen oder Ändern von Reaktionsgruppe feiertagssätzen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: f959b69462ecc3d3d37d6febfbf043a48f9dd4ad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: cc34c7a2e3f03b99bc29852766926e6c63c2463f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974747"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883844"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Optional) Definieren von Reaktionsgruppe feiertagssätze in Skype für Unternehmen
  
@@ -58,4 +59,4 @@ Feiertage sind als Tage definiert, an denen die Reaktionsgruppe geschlossen ist.
 
 [Mit New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
-[Mit New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)
+[New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)

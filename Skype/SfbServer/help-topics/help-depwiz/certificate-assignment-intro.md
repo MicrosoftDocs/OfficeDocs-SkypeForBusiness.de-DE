@@ -1,5 +1,6 @@
 ---
 title: Zertifikatzuweisung (Einführung)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26d6b07e-d2c7-4ff7-aca4-4bbb29f13f8d
 description: Zum Zuweisen eines Zertifikats für die Verwendung in Skype für Business Server beginnen, klicken Sie auf Weiter.
-ms.openlocfilehash: f823d53385736cdb1fed19affe38da577d8f7e2e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 896bce068a02451d08f249ef09d0550a6fc6732b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883559"
 ---
 # <a name="certificate-assignment-intro"></a>Zertifikatzuweisung (Einführung)
  

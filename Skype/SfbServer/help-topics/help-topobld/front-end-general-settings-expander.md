@@ -1,5 +1,6 @@
 ---
 title: Allgemeine Front-End-Einstellungen – Erweiterung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Zum Bearbeiten der Einstellungen eines vorhandenen Front-End-Pools oder Standard Edition-Servers stehen die folgenden Abschnitte zur Verfügung:'
-ms.openlocfilehash: d60af3a2542c0a80ab93921b49807ffbf3c4e369
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 411dd91a47fc00a5f3233ae21e9bc97c4ddd6f73
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253346"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883273"
 ---
 # <a name="front-end-general-settings-expander"></a>Allgemeine Front-End-Einstellungen – Erweiterung
 
@@ -33,7 +34,7 @@ Zum Bearbeiten der Einstellungen eines vorhandenen Front-End-Pools oder Standard
 
 ## <a name="front-end-pool"></a>Front-End-Pool
 
-Für einen Front-End-Pool können Sie allgemeine Einstellungen sowie Einstellungen zu Flexibilität, Webdiensten und Vermittlungsservern konfigurieren. Ausführliche Informationen finden Sie in den folgenden Unterabschnitten. Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für den Front-End-Pool finden Sie unter [Bereitstellen von Vermittlungsservern und Definieren von Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Für einen Front-End-Pool können Sie allgemeine Einstellungen sowie Einstellungen zu Flexibilität, Webdiensten und Vermittlungsservern konfigurieren. Ausführliche Informationen finden Sie in den folgenden Unterabschnitten. Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für den Front-End-Pool finden Sie unter [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
 
 ### <a name="general-settings"></a>Allgemeine Einstellungen
 
@@ -124,11 +125,11 @@ Geben Sie in **Vermittlungsserver** Folgendes an:
 
 - Falls einem Vermittlungsserver mehr als ein Trunk zugeordnet ist, können Sie einen Trunk als Standard angeben, indem Sie das Gateway auswählen und auf **Als Standardeinstellung festlegen** klicken. Klicken Sie auf **Festlegung als Standardeinstellung aufheben**, um die Festlegung als Standardeinstellung aufzuheben.
 
-Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für den Front-End-Pool finden Sie unter [Bereitstellen von Vermittlungsservern und Definieren von Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für den Front-End-Pool finden Sie unter [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
 
 ## <a name="standard-edition-server"></a>Standard Edition-Server
 
-Für einen Standard Edition-Server können Sie allgemeine Einstellungen sowie Einstellungen zu Ausfallsicherheit, Webdiensten und Vermittlungsservern konfigurieren. Ausführliche Informationen finden Sie in den folgenden Unterabschnitten. Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für Standard Edition-Servers finden Sie unter [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) und [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Für einen Standard Edition-Server können Sie allgemeine Einstellungen sowie Einstellungen zu Ausfallsicherheit, Webdiensten und Vermittlungsservern konfigurieren. Ausführliche Informationen finden Sie in den folgenden Unterabschnitten. Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für den Standard Edition-Server finden Sie unter [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) und [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
 
 ### <a name="general-settings"></a>Allgemeine Einstellungen
 
@@ -203,6 +204,6 @@ Für **Vermittlungsserver** können Sie Folgendes angeben:
 
 - Falls einem Vermittlungsserver mehr als ein Gateway zugeordnet ist, können Sie ein Gateway als Standard angeben, indem Sie das Gateway auswählen und auf **Als Standardeinstellung festlegen** klicken. Klicken Sie auf **Festlegung als Standardeinstellung aufheben**, um die Festlegung als Standardeinstellung aufzuheben.
 
-Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für Standard Edition-Servers finden Sie unter [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) und [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für den Standard Edition-Server finden Sie unter [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) und [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
 
 

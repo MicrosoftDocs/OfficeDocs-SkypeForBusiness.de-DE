@@ -1,5 +1,6 @@
 ---
 title: Definieren von zusätzlichen Trunks im Topologie-Generator in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 'Zusammenfassung: Erfahren Sie, wie Sie einen zusätzlichen Trunk zwischen einem Vermittlungsserver und einem gatewaypeer im Topologie-Generator in Skype für Business Server definieren.'
-ms.openlocfilehash: 1f70a1d99ebff1bbc1fbd162b322185b3cd21690
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 874d32053f4c3d91f16818bd34dc11806de8692c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370659"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881960"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Definieren von zusätzlichen Trunks im Topologie-Generator in Skype für Business Server
  
@@ -57,7 +58,7 @@ Ein Trunk ist eine logische Verbindung zwischen einem Vermittlungsserver und ein
     > Zwei Trunks mit unterschiedlichen trunknamen können nicht mit Unterstützung mehrerer Trunks in Skype für Business Server mit dem gleichen **zugeordneter Vermittlungsserver Port** und **Überwachungsport für IP/PSTN-Gateway** konfiguriert werden
   
     > [!NOTE]
-    > Mit Unterstützung mehrerer Trunks in Skype für Business Server kann mehrere SIP-Signalisierung Ports auf dem Vermittlungsserver für die Kommunikation mit mehreren Peers definiert werden. Wenn Sie einen Trunk zu definieren, muss die Portnummer **Zugeordneter Vermittlungsserver** innerhalb des Bereichs von die Überwachungsports für das jeweilige Protokoll vom Vermittlungsserver zulässig sein. Dieser Portbereich ist unter Skype für Business Server und Vermittlungsserver Pools definiert. Mit der rechten Maustaste in des entsprechenden Vermittlungsserver Pools, und wählen Sie **Eigenschaften bearbeiten**. Geben Sie den Portbereich im Feld **Überwachungsports** an.
+    > Mit Unterstützung mehrerer Trunks in Skype für Business Server kann mehrere SIP-Signalisierung Ports auf dem Vermittlungsserver für die Kommunikation mit mehreren Peers definiert werden. Wenn Sie einen Trunk zu definieren, muss die Portnummer **Zugeordneter Vermittlungsserver** innerhalb des Bereichs von die Überwachungsports für das jeweilige Protokoll vom Vermittlungsserver zulässig sein. Dieser Portbereich ist unter Skype für Business Server und Vermittlungsserver Pools definiert. Mit der rechten Maustaste in des entsprechenden Vermittlungsserver Pools, und wählen Sie **Eigenschaften bearbeiten**. Specify the port range in the **Listening ports** field.
   
 7. Klicken Sie anschließend auf **OK**. 
     

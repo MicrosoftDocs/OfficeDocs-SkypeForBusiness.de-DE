@@ -1,5 +1,6 @@
 ---
 title: Archivierungsrichtlinie Erstellen einer neuen oder Bearbeiten einer vorhandenen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,17 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 description: 'Verwenden Sie Archivierungsrichtlinien, um die Archivierung der internen und externen Kommunikation in Ihrer Bereitstellung für Benutzer, die auf Skype für Business Server verwaltet werden. Zu den Archivierungsrichtlinien gehören die globale Richtlinie und optional eine oder mehrere Richtlinien für Standorte und Benutzer:'
-ms.openlocfilehash: af8038371cd421b0232ce2df0ba92aa5b079702e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 76dcc63ed6c08c0a8d11c79547b8a11f6b1e4b39
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880735"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Archivierungsrichtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen Archivierungsrichtlinie
  
 Verwenden Sie Archivierungsrichtlinien, um die Archivierung der internen und externen Kommunikation in Ihrer Bereitstellung für Benutzer, die auf Skype für Business Server verwaltet werden. Zu den Archivierungsrichtlinien gehören die globale Richtlinie und optional eine oder mehrere Richtlinien für Standorte und Benutzer:
   
-- **Globale Richtlinie** Die globale Richtlinie wird standardmäßig in allen Skype für Business Server-Bereitstellungen erstellt. Sie können die globale Richtlinie bearbeiten, aber nicht löschen. Wenn Sie versuchen, sie zu löschen, werden alle Optionen auf die Standardwerte zurückgesetzt.
+- **Globale Richtlinie** Die globale Richtlinie wird standardmäßig in allen Skype für Business Server-Bereitstellungen erstellt. Sie können die globale Richtlinie bearbeiten, aber Sie können diese Richtlinie nicht löschen. Wenn Sie versuchen, sie zu löschen, werden alle Optionen auf die Standardwerte zurückgesetzt.
     
 - **Website-Richtlinien (optional)** Sie können mindestens einen Website-Archivierungsrichtlinien angeben, von denen jedes Sie zum Aktivieren und Deaktivieren der Archivierung von interner oder externer Kommunikation für eine bestimmte Website konfigurieren können. Eine Standortrichtlinie setzt die globale Richtlinie außer Kraft, jedoch nur für die in den Archivierungsrichtlinien angegebenen Standorte. Sie können Standortrichtlinien bearbeiten oder löschen.
     

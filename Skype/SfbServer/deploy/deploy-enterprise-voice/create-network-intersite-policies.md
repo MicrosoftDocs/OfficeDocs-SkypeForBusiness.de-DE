@@ -1,5 +1,6 @@
 ---
 title: Erstellen Sie Netzwerk Netzwerkrichtlinien in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Erstellen Sie Netzwerk standortübergreifende Richtlinien, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden.
-ms.openlocfilehash: cc07db85ec27a5ebd84b3604017048515ef2fcee
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6619787bf071afe719c715de39e23b992d6e6ede
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890133"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880158"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Erstellen Sie Netzwerk Netzwerkrichtlinien in Skype für Business Server
  
@@ -45,7 +46,7 @@ In der Region „Nordamerika“ der Beispieltopologie besteht eine direkte Verbi
     
 ## <a name="see-also"></a>Siehe auch
 
-[Neue CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
+[New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
   
 [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/get-csnetworkintersitepolicy?view=skype-ps)
   

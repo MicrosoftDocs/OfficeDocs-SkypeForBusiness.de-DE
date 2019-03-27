@@ -1,5 +1,6 @@
 ---
 title: Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a54549fd1e82affecad6a69d17e10cf6e1dc763
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 016831a9c3d5cac6c331d6112adbc2738ec8382b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640682"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884386"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams
 ==========================================================
@@ -28,7 +29,7 @@ Berücksichtigen Sie bei Ihren Überlegungen zur Verwendung von Office 365-Grup
 
 Es gibt zwei Szenarien im Zusammenhang mit der Planung von Office 365-Gruppen und ihren Auswirkungen auf (oder durch) Microsoft Teams, die der Erläuterung bedürfen:
 
--   Da Kunden vorhandene Investitionen in Gruppen sein können, unterstützen wir zunächst derzeit öffentlichen und privaten Gruppen von weniger als 2500 Mitglieder. Wie bereits erwähnt, möchten Sie die Mitgliedschaft von Personen zu einem Team mit dem Client Teams statt der Office 365-Verwaltungskonsole Web verwalten. In diesem Szenario erhält, wenn Personen zu Threading Unterhaltungen in Office 365-Gruppen verwendet werden, ist es sinnvoll, die besagt, dass eine Unterhaltung Gruppen im Wesentlichen e-Mails und nicht dasselbe wie eine Chatnachricht in einem Kanal Teams ist. Schulen Sie Ihre Mitarbeiter über diesen Unterschied und schlagen Sie vor, dass sie das flexiblere Chat Nachrichtenformat in Teams einführen, im Vergleich zu senden per e-Mail mit Outlook oder OWA die Gruppe.
+-   Da Kunden vorhandene Investitionen in Gruppen sein können, unterstützen wir zunächst derzeit öffentlichen und privaten Gruppen von weniger als 5000 Mitglieder. Wie bereits erwähnt, möchten Sie die Mitgliedschaft von Personen zu einem Team mit dem Client Teams statt der Office 365-Verwaltungskonsole Web verwalten. In diesem Szenario erhält, wenn Personen zu Threading Unterhaltungen in Office 365-Gruppen verwendet werden, ist es sinnvoll, die besagt, dass eine Unterhaltung Gruppen im Wesentlichen e-Mails und nicht dasselbe wie eine Chatnachricht in einem Kanal Teams ist. Schulen Sie Ihre Mitarbeiter über diesen Unterschied und schlagen Sie vor, dass sie das flexiblere Chat Nachrichtenformat in Teams einführen, im Vergleich zu senden per e-Mail mit Outlook oder OWA die Gruppe.
 
 -   Zweitens können für Kunden, die nicht vorhandene Gruppen in Office 365 definiert haben, Sie entweder mit dem Office 365-Verwaltungsportal, Teams Web oder Desktopclients erstellen. Wie bereits erwähnt, verwalten Sie alle zukünftigen Mitgliedschaft des Teams-Clients mit der Office 365-Gruppe. Da die Mitgliedschaft in einer Team auch Mitgliedschaft zu Office 365-Gruppen definiert, sollten Sie Personen für diese Änderung vorbereiten.
  

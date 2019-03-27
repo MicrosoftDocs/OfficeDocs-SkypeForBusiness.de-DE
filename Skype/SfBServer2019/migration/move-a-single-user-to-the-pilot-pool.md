@@ -1,5 +1,6 @@
 ---
 title: Verschieben eines einzelnen Benutzers in den pilotpool
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Sie können einen Benutzer aus Ihrem vorversionspool in Ihrer Skype für Business Server 2019 pilot Pool mit Skype für Business Server 2019-Systemsteuerung oder Skype für Business Server 2019-Verwaltungsshell verschieben. Im folgenden Beispiel, in der Spalte Registrierungspool pool01.contoso.net Pool der Vorgängerversion ist, und alle sechs dieser Benutzer mit diesem Pool verbunden sind. Verwenden Sie die folgenden Verfahren, um einen Benutzer in Ihrer Skype für mithilfe von Skype für Business Server 2019-Systemsteuerung und Skype für Business Server-Verwaltungsshell Business Server 2019 Pool verschieben.
-ms.openlocfilehash: 6742c5fc00c9d53030ac32ee698686bb8b11fa07
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 94896ce2ea05a3102d5a7643e3f26430e74bfe19
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372745"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880249"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>Verschieben eines einzelnen Benutzers in den pilotpool
 
@@ -27,13 +28,13 @@ Sie können einen Benutzer aus Ihrem vorversionspool in Ihrer Skype für Busines
     
 3. Klicken Sie auf **Benutzer**, klicken Sie auf **Suchen**, und klicken Sie dann auf **Suchen**.
     
-4. Wählen Sie einen Benutzer, den Sie in der Skype für Business Server 2019 Pool verschieben möchten. In diesem Beispiel wird es Benutzer Sara Davis verschoben.
+4. Wählen Sie einen Benutzer, den Sie in der Skype für Business Server 2019 Pool verschieben möchten. In diesem Beispiel verschieben wir den Benutzer Sara Davis.
     
 5. Wählen Sie im Menü **Aktion** die Option **Ausgewählte Benutzer in Pool verschieben** aus.
     
 6. Wählen Sie aus der Dropdownliste die Skype für Business Server 2019 Pool aus.
     
-7. Klicken Sie auf **Aktion**, und klicken Sie dann auf **ausgewählte Benutzer in Pool verschieben**. Klicken Sie anschließend auf **OK**.
+7. Klicken Sie auf **Aktion**, und klicken Sie dann auf **ausgewählte Benutzer in Pool verschieben**. Klicken Sie auf **OK**.
   
 8. Stellen Sie sicher, dass die Spalte **Registrierungsstellenpool** für den Benutzer enthält nun die Skype für Business Server 2019 Pool, die angibt, dass der Benutzer erfolgreich verschoben wurde. 
     

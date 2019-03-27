@@ -1,5 +1,6 @@
 ---
 title: Bericht über Benutzeraktivität in Skype für Business Server 25
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 'Zusammenfassung: Erfahren Sie mehr über User Activity Report in Skype für Business Server.'
-ms.openlocfilehash: eecdd9879bf4fbf32c98505684631041332b5e2f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3fb69e68052ae5f3b1938de95291fb7fa5a3ac88
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374766"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884698"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>Bericht über Benutzeraktivität in Skype für Business Server
 
@@ -30,13 +31,13 @@ Wenn Sie dies tun, gibt User Activity Report Informationen für alle Benutzer zu
 
 - **Ken** burg@litwareinc.com
 
-- **Ken**. Sanchez@litwareinc.com
+- **Klaus**.Kiefer@litwareinc.com
 
 - **Ken** nedy@litwareinc.com
 
 Um diese Informationen nur für Ken Myer zurückgegeben wird, entweder seine vollständige URI (Ken.Myer@litwareinc.com) in das Suchfeld oder zumindest genügend Typ von Ken geben sicherzustellen URI ihm von anderen Benutzern in Ihrer Organisation eindeutig zu unterscheiden. Ein Beispiel:
 
-Ken.My
+Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>So greifen Sie auf den Bericht über Benutzeraktivität zu
 
@@ -121,7 +122,7 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über
 | **Aktivitätstyp** <br/>    | Aktivitätstyp. Wählen Sie eine der folgenden Optionen aus: <br/>  [Alle] <br/>  Peer-to-Peer <br/>  Konferenz <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Modalität** <br/>         | Die für Sie verfügbare Modalität ist je nach ausgewähltem Aktivitätstyp unterschiedlich. Wenn Aktivitätstyp Peer-zu-Peer ist, können Sie Sofortnachrichten auswählen. Dateiübertragung; Die Anwendungsfreigabe; VoIP; oder Video als die Modalität.  <br/> Wenn der Aktivitätstyp Konferenz ist, können Sie Chat-Telefonkonferenz, Webkonferenz, Anwendungsfreigabe, Sprach-/Videokonferenz oder Telefoniekonferenz auswählen.  <br/>                                                                                                                                                                                                                                            |
 | **Sitzungskategorie** <br/> | Gibt an, ob die betreffende Aktivität erfolgreich war oder nicht. Wählen Sie eine der folgenden Optionen aus: <br/>  [Alle] <br/>  Erfolg <br/>  Erwarteter Fehler <br/>  Unerwarteter Fehler <br/>  Ein „erwarteter Fehler“ ist ein Fehler, der erwartungsgemäß auftritt. Hat beispielsweise ein Benutzer seinen Status auf „Nicht stören“ gesetzt, ist zu erwarten, dass alle Anrufe an diesen Benutzer fehlschlagen. Ein „unerwarteter Fehler“ ist ein Fehler, der in einem ansonsten scheinbar fehlerfreien System auftritt. Beispielsweise sollte ein Anruf nicht abgebrochen werden, während der Anrufer sich in der Warteschleife befindet. In diesem Fall würde der Fehler als „unerwartet“ gekennzeichnet. <br/> |
-| **Präfix des Benutzer-URI** <br/>  | SIP-Adresse für den Benutzer. Um nur die Datensätze des Benutzers Ken Myer anzuzeigen, geben Sie die SIP-Adresse von Ken Myer ein, z. B.:  <br/> SIP:kenmyer@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Präfix des Benutzer-URI** <br/>  | SIP-Adresse für den Benutzer. Um nur die Datensätze des Benutzers Ken Myer anzuzeigen, geben Sie die SIP-Adresse von Ken Myer ein, z. B.:  <br/> sip:kenmyer@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 ## <a name="metrics-for-peer-to-peer-sessions"></a>Metriken für Peer-to-Peer-Sitzungen
 

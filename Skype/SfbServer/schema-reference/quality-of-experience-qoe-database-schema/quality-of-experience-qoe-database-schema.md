@@ -1,5 +1,6 @@
 ---
 title: QoE-Datenbankschema (Quality of Experience)
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 87b9c534-a1b1-48a6-bf51-cb232f5240c1
 description: In diesem Artikel wird das Schema der Datenbank Quality of Experience (QoE) in Skype für Business Server 2015.
-ms.openlocfilehash: 23a6e551da114354a83ff92f1f270a08cfeceee1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 88d2e05ec8515ab286c5f20adc9486ea9664301e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884543"
 ---
 # <a name="quality-of-experience-qoe-database-schema"></a>QoE-Datenbankschema (Quality of Experience)
  
@@ -22,12 +24,12 @@ In diesem Artikel wird das Schema der Datenbank Quality of Experience (QoE) in S
   
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-- [Liste der QoE-Tabellen](list-of-qoe-tables.md)
+- [Liste von QoE-Tabellen](list-of-qoe-tables.md)
     
 - [Ausführliche Informationen zur QoE-Tabelle](qoe-table-details.md)
     
-- [Anzeigen von Details QoE](qoe-view-details.md)
+- [Details zur QoE-Ansicht](qoe-view-details.md)
     
-- [Beispielabfragen QoE-Datenbank](sample-qoe-database-queries.md)
+- [Beispiele für QoE-Datenbankabfragen](sample-qoe-database-queries.md)
     
 

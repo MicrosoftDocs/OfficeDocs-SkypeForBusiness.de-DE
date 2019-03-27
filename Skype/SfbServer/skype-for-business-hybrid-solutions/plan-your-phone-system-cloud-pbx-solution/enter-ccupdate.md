@@ -1,5 +1,6 @@
 ---
-title: Geben Sie CcUpdate
+title: Enter-CcUpdate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 ms.date: 3/31/2017
@@ -8,17 +9,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
-description: Das Cmdlet „Enter-CcUpdate“ bereitet den Hostserver von Skype for Business Cloud Connector Edition auf den Updateprozess vor, indem es ihn in den Wartungsmodus versetzt. Die Appliance Isdrained – d. h., alle aktuellen Anrufe abgeschlossen, aber neue Aufrufe zurückgewiesen.
-ms.openlocfilehash: f9b789bbd76bd3405617dc170af0695f9cbe94ed
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+description: Das Enter-CcUpdate-Cmdlet wird die Skype für Business Cloud Connector Edition Hostserver für des Aktualisierungsvorgangs indem Sie ihn im Wartungsmodus ablegen vorbereitet. Die Appliance Isdrained – d. h., alle aktuellen Anrufe abgeschlossen, aber neue Aufrufe zurückgewiesen.
+ms.openlocfilehash: 45972058cd9263330b6a4c0a68a5a1b800a85d9d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450511"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882579"
 ---
-# <a name="enter-ccupdate"></a>Geben Sie CcUpdate
+# <a name="enter-ccupdate"></a>Enter-CcUpdate
  
-Das Cmdlet „Enter-CcUpdate“ bereitet den Hostserver von Skype for Business Cloud Connector Edition auf den Updateprozess vor, indem es ihn in den Wartungsmodus versetzt. Die Einheit ist "ein Ausgleich vorgenommen" – d. h., alle aktuellen Anrufe abgeschlossen, aber neue Aufrufe zurückgewiesen. 
+Das Enter-CcUpdate-Cmdlet wird die Skype für Business Cloud Connector Edition Hostserver für des Aktualisierungsvorgangs indem Sie ihn im Wartungsmodus ablegen vorbereitet. Die Einheit ist "ein Ausgleich vorgenommen" – d. h., alle aktuellen Anrufe abgeschlossen, aber neue Aufrufe zurückgewiesen. 
   
 ```
 Enter-CcUpdate
@@ -46,7 +47,7 @@ Das Enter-CcUpdate-Cmdlet wird sofort beenden Sie alle Dienste beenden alle lauf
   
 Der Wartungsmodus ist hilfreich, wenn zum Beispiel für Ihre Appliance automatische Updates aktiviert sind und Microsoft einen wichtigen Hotfix veröffentlicht. Außerdem ist der Wartungsmodus hilfreich, wenn Sie zwar beschließen, automatische Updates zu deaktivieren, aber regelmäßig manuelle Updates ausführen.
   
-Nach der Installation der Updates können Sie die Appliance wieder in den Produktionsmodus versetzen, indem Sie das Cmdlet „Exit-CcUpdate“ ausführen.
+Nach der Installation der Updates, kann die Appliance wieder zu Produktionsmodus geschaltet werden durch Ausführen des Cmdlets Exit-CcUpdate.
   
 > [!NOTE]
 > Wenn Sie eine Cloud-Connector Appliance manuell aktualisieren möchten, müssen Sie innerhalb von 60 Tagen nach der Veröffentlichung von Microsoft der nächsten Version zu aktualisieren. Microsoft unterstützt die zuvor veröffentlichte Version von Cloud-Connector für 60 Tage nach der Veröffentlichung der neuen version 
@@ -59,7 +60,7 @@ Keine. Das Cmdlet „Enter-CCUpdate“ akzeptiert keine Pipelineeingaben.
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine 
+Keine  
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>

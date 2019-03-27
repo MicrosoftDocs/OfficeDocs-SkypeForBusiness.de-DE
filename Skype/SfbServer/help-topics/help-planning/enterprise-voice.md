@@ -1,5 +1,6 @@
 ---
-title: Enterprise-VoIP (Planungstool)
+title: Enterprise Voice (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 description: Mit Enterprise-VoIP bietet Skype für Business Server 2015 einer eigenständigen Voice over Internet Protocol (VoIP), der zur Optimierung oder Ersetzen Sie herkömmliche private Branch Exchange, (Nebenstellenanlage PBX) Systeme anbietet. Enterprise-VoIP-Benutzer können Kollegen auf VoIP-Netzwerk Ihrer Organisation oder einer Nebenstellenanlage, und sie können herkömmliche Telefonnummern außerhalb Ihrer Organisation aufgerufen. Die Enterprise-VoIP-Lösung enthält allgemeine Anruffunktion wie Antwort, weiterleiten, übertragen, halten, weiterzuleiten, freigeben und parken, und erweiterten E9-1-1 (E9-1-1) (E9-1-1 ist nur in den USA verfügbar). Enterprise-VoIP unterstützt auch eine Breite Palette von aktuellen und ältere IP- und USB-Geräte.
-ms.openlocfilehash: a32f3ce7c3ac989fc17eca30e482ca58cada4f0c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 30fc68aed4da713592d40d7400f8022c2b2f952a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881493"
 ---
-# <a name="enterprise-voice-planning-tool"></a>Enterprise-VoIP (Planungstool)
+# <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (Planning Tool)
  
 Mit Enterprise-VoIP bietet Skype für Business Server 2015 einer eigenständigen Voice over Internet Protocol (VoIP), der zur Optimierung oder Ersetzen Sie herkömmliche private Branch Exchange, (Nebenstellenanlage PBX) Systeme anbietet. Enterprise-VoIP-Benutzer können Kollegen auf VoIP-Netzwerk Ihrer Organisation oder einer Nebenstellenanlage, und sie können herkömmliche Telefonnummern außerhalb Ihrer Organisation aufgerufen. Die Enterprise-VoIP-Lösung enthält allgemeine Anruffunktion wie Antwort, weiterleiten, übertragen, halten, weiterzuleiten, freigeben und parken, und erweiterten E9-1-1 (E9-1-1) (E9-1-1 ist nur in den USA verfügbar). Enterprise-VoIP unterstützt auch eine Breite Palette von aktuellen und ältere IP- und USB-Geräte.
   

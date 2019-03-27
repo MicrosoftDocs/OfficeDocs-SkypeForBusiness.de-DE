@@ -1,5 +1,6 @@
 ---
 title: Vorbereiten von Active Directory für Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Zusammenfassung: Informationen Sie zum Vorbereiten von Active Directory-Domäne für eine Installation von Skype für Business Server. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 278a46ab7f39f3274905741fb40212869c043e9e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: de5de35377e526844a7badeb9897fe29b4b15db4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884004"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880826"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Vorbereiten von Active Directory für Skype für Business Server
  
@@ -156,9 +157,9 @@ Schauen Sie sich das Video mit den Schritten zum **Vorbereiten von Active Direc
     
     c. Klicken Sie im Fenster **CSAdministrator-Eigenschaften** auf die Registerkarte **Mitglieder**.
     
-    d. Klicken Sie auf der Registerkarte **Mitglieder** auf **Hinzufügen**. Suchen Sie unter **Benutzer, Kontakte, Computer, Dienstkonten oder Gruppen auswählen** **Geben Sie die zu verwendenden Objektnamen ein**. Geben Sie den Benutzernamen oder den Namen der Gruppe Teilnehmer die Gruppe CSAdministrators hinzu. Klicken Sie anschließend auf **OK**.
+    d. Klicken Sie auf der Registerkarte **Mitglieder** auf **Hinzufügen**. Suchen Sie unter **Benutzer, Kontakte, Computer, Dienstkonten oder Gruppen auswählen** **Geben Sie die zu verwendenden Objektnamen ein**. Geben Sie den Benutzernamen oder den Namen der Gruppe Teilnehmer die Gruppe CSAdministrators hinzu. Klicken Sie auf **OK**.
     
-    e. Vergewissern Sie sich, dass die Benutzer oder Gruppen, die von Ihnen gewählten vorhanden sind, auf die Registerkarte **Mitglieder** . Klicken Sie anschließend auf **OK**.
+    e. Vergewissern Sie sich, dass die Benutzer oder Gruppen, die von Ihnen gewählten vorhanden sind, auf die Registerkarte **Mitglieder** . Klicken Sie auf **OK**.
     
     > [!CAUTION]
     > Die Skype Business Server-Systemsteuerung ist ein rollenbasierten. Mitgliedschaft in der Gruppe CsAdministrator bietet ein Benutzer, der die Skype für Business Server-Systemsteuerung Vollzugriff auf alle verfügbaren Konfigurationsfunktionen verwendet wird. Es sind weitere Rollen verfügbar, die für spezifische Funktionen konzipiert sind. Informationen zu den verfügbaren Rollen finden Sie unter [umgebungsanforderungen für Skype für Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) oder [Server-Anforderungen für Skype für Business Server 2019](../../../SfBServer2019/plan/system-requirements.md). Beachten Sie, dass Benutzer nicht für Skype für Business Server aktiviert werden soll, um die Mitglieder der Verwaltungsgruppen vorgenommen werden. 
@@ -175,4 +176,4 @@ Schauen Sie sich das Video mit den Schritten zum **Vorbereiten von Active Direc
 
 ## <a name="see-also"></a>Siehe auch
  
-[Active Directory-Domänendienste für Skype for Business Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)
+[Active Directory Domain Services for Skype for Business Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)

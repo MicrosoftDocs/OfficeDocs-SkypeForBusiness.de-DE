@@ -1,5 +1,6 @@
 ---
 title: Vorbereiten der aktuellen Gesamtstruktur
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 ROBOTS: NOINDEX, NOFOLLOW
 description: Zum Vorbereiten der Active Directory-Domänendienste-Gesamtstruktur müssen Sie erfolgreich das Schema erweitern (Siehe im Thema Running Schema Preparation), und stellen Sie sicher, dass das Schema repliziert wurde.
-ms.openlocfilehash: 1d3f1356e1fb0cdf5b97577b1de3fa7e9897f870
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2e21b1b3ad2fbfd5ea4194b47710a09366707f64
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245712"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882229"
 ---
 # <a name="prepare-current-forest"></a>Vorbereiten der aktuellen Gesamtstruktur
 

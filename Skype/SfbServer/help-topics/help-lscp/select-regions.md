@@ -1,5 +1,6 @@
 ---
 title: Auswählen von Regionen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1b79b214-cc7b-4686-b7e2-f451910335fd
-description: Verwenden Sie das Dialogfeld Wählen Sie Bereiche finden Sie in Ihrer Umgebung verfügbaren Regionen. Um einen vorhandenen Bereich zu verwenden, klicken Sie auf eine Region in der Liste, und klicken Sie dann auf OK.
-ms.openlocfilehash: 84971d758916edf31918a54c9ebf86a33ed011a8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Suchen Sie im Dialogfeld Regionen auswählen nach den in Ihrer Umgebung verfügbaren Regionen. Klicken Sie auf eine Region in der Liste und anschließend auf OK, um eine vorhandene Region zu verwenden.
+ms.openlocfilehash: c05ceff5d617817b4870cfdc8744559e91d6939f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881423"
 ---
 # <a name="select-regions"></a>Auswählen von Regionen
  

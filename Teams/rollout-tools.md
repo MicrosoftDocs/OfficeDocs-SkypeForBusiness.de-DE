@@ -1,5 +1,6 @@
 ---
 title: Beziehen von Tools zur Unterstützung eines Rollouts von Microsoft Teams
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17ef7a0575de20fcef7a10e71d8b81e1504f947e
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 495cd36ebaa8192439770f183ce1ab4c5ef78c0e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640674"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879912"
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Beziehen von Tools zur Unterstützung eines Rollouts von Microsoft Teams
 =================================================

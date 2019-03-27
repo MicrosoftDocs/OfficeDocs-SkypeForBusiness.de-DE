@@ -1,5 +1,6 @@
 ---
 title: Stop-CcLogging
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fee9eda7-ad15-40d2-b9fe-21c5462d3309
 description: Das Cmdlet „Stop-CcLogging“ beendet die Generierung der Liste für ein- und ausgehende Anrufe für eine Skype for Business Cloud Connector Edition-Appliance.
-ms.openlocfilehash: abecc5acc6a454b2965fbf79caadb23f2256e4cd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: eaccde49421cd22e32b23b89d8b5ea42dd073912
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879623"
 ---
 # <a name="stop-cclogging"></a>Stop-CcLogging
  
@@ -63,12 +65,12 @@ Keine. Das Cmdlet „Stop-CcLogging“ akzeptiert keine Pipelineeingaben.
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine
+Keine 
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>
 
-[Suche CcLog](search-cclog.md)
+[Search-CcLog](search-cclog.md)
   
 [Start-CcLogging](start-cclogging.md)
   

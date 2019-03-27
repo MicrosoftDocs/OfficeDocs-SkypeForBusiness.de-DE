@@ -1,5 +1,6 @@
 ---
 title: Verschieben aller Benutzer
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 ROBOTS: NOINDEX, NOFOLLOW
 description: Im Dialogfeld Benutzer verschieben können Sie die Quell- und Zielpools zum Verschieben von Benutzerkonten aus einem Pool in einen anderen Pool der Bereitstellung auswählen.
-ms.openlocfilehash: f44fb4e3e7aeff24f3b2f25071bfd4833da939b3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3d1567900b43e3d92d2f7d28a9ecb48000d12381
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263198"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880525"
 ---
 # <a name="move-all-users"></a>Verschieben aller Benutzer
 

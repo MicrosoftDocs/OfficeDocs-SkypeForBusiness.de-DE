@@ -1,5 +1,6 @@
 ---
-title: Konfigurieren die Besprechung teilnehmen-Seite
+title: Konfigurieren der Seite für den Besprechungsbeitritt
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Wenn ein Benutzer klickt einen Link zur Besprechung in eine Besprechungsanfrage an der Besprechung teilnehmen Seite erkennt der Client bereits auf dem Computer des Benutzers installiert ist. Wenn ein Client bereits installiert ist, wird dieser Client wird geöffnet und der Besprechung teilnimmt. Wenn ein Client nicht installiert ist, wird standardmäßig geöffnet Web-App.
-ms.openlocfilehash: f7c66b7e7171e9d7f0dc39f30a7e99059e53a0c2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 88ae915318505efef6ae716a17217aaa1e7b12df
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374062"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879940"
 ---
-# <a name="configure-the-meeting-join-page"></a>Konfigurieren die Besprechung teilnehmen-Seite
+# <a name="configure-the-meeting-join-page"></a>Konfigurieren der Seite für den Besprechungsbeitritt
 
 Wenn ein Benutzer klickt einen Link zur Besprechung in eine Besprechungsanfrage an der Besprechung teilnehmen Seite erkennt der Client bereits auf dem Computer des Benutzers installiert ist. Wenn ein Client bereits installiert ist, wird dieser Client wird geöffnet und der Besprechung teilnimmt. Wenn ein Client nicht installiert ist, wird standardmäßig geöffnet Web-App.
   
@@ -25,7 +26,7 @@ Sie können das Verhalten der Teilnahme an einer Besprechung ändern Seite, wenn
 
 |**CsWebServiceConfiguration-Parameter**|**Beschreibung**|
 |:-----|:-----|
-|ShowJoinUsingLegacyClientLink  <br/> |Wenn auf True festgelegt, teilnehmen an einer Besprechung mithilfe einer anderen Clientanwendung als Lync Benutzer die Möglichkeit, an der Besprechung teilzunehmen gewährt werden. Der Standardwert ist "False".  <br/> |
+|ShowJoinUsingLegacyClientLink  <br/> |Wenn auf True festgelegt, teilnehmen an einer Besprechung mithilfe einer anderen Clientanwendung als Lync Benutzer die Möglichkeit, an der Besprechung teilzunehmen gewährt werden. Der Standardwert lautet "False".  <br/> |
 |ShowAlternateJoinOptionsExpanded  <br/> |Bei Festlegung auf true festgelegt ist, alternative Optionen für die Teilnahme an einer Konferenz online wird automatisch erweitert und anschließend den Benutzern angezeigt. Bei Festlegung auf False (Standardwert), werden diese Optionen zur Verfügung stehen, aber der Benutzer muss die Liste der Optionen für sich selbst anzuzeigen.  <br/> |
    
 ### <a name="to-configure-the-meeting-join-page-by-using-skype-for-business-server-2019-management-shell"></a>So konfigurieren Sie die Besprechung teilnehmen Seite mithilfe von Skype für Business Server 2019-Verwaltungsshell

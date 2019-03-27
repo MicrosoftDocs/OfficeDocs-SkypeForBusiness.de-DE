@@ -1,5 +1,6 @@
 ---
-title: Konfigurieren von Clients für die migration
+title: Konfigurieren von Clients für die Migration
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Dieses Thema enthält die empfohlenen Client Bereitstellungsschritte, die Sie ergreifen sollten vor der Migration zu Skype für Business Server 2019. Dieser Änderungen soll auf Lync Server 2013 oder Skype für Business Server 2015 erfolgen.
-ms.openlocfilehash: 1e636bf4c40999c917a28870df31c70d128db8de
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9e855907cc5be97e494195651ff48ce60004aeda
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028635"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880980"
 ---
-# <a name="configure-clients-for-migration"></a>Konfigurieren von Clients für die migration
+# <a name="configure-clients-for-migration"></a>Konfigurieren von Clients für die Migration
 
 Dieses Thema enthält die empfohlenen Client Bereitstellungsschritte, die Sie ergreifen sollten vor der Migration zu Skype für Business Server 2019. Dieser konfigurationsänderungen sollte auf Lync Server 2013 oder Skype für Business Server 2015 (die Version, dass Sie eine Migration **von**) erstellt werden.
   
@@ -29,6 +30,7 @@ Dieses Thema enthält die empfohlenen Client Bereitstellungsschritte, die Sie er
 
 [Neue und geänderte Einstellungen für Lync 2013](https://technet.microsoft.com/en-us/library/jj205204(v=ocs.15).aspx) 
  
-[Clientinteroperabilität in Lync 2013](https://technet.microsoft.com/en-us/library/jj204672(v=ocs.15).aspx) <!-- The above links point to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
+[Clientinteroperabilität in Lync 2013](https://technet.microsoft.com/en-us/library/jj204672(v=ocs.15).aspx)
+ <!-- The above links point to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
 
  [Planen für Clients und Geräte](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)

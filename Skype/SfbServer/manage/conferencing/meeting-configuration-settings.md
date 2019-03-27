@@ -1,5 +1,6 @@
 ---
 title: Verwalten von besprechungskonfigurationseinstellungen in Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: 'Zusammenfassung: Informationen zum Verwalten von besprechungskonfigurationseinstellungen in Skype für Business Server.'
-ms.openlocfilehash: 28f0dc37579f762b8ae3b0ac8ac58440c6ce5e24
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 90d1004101f1dd3b4737c7bfa4414438a65c54a6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966066"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883221"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Verwalten von besprechungskonfigurationseinstellungen in Skype für Business Server
  
@@ -57,7 +58,7 @@ Verwenden Sie zum Verwalten von Besprechungen mithilfe von Skype für Business S
 |**Cmdlet**|**Beschreibung**|
 |:-----|:-----|
 |[Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps) <br/> |Gibt Informationen zu den derzeit in Ihrer Organisation verwendeten Besprechungskonfigurationseinstellungen zurück.  <br/> |
-|[Mit New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |Erstellt eine neue Auflistung von Konfigurationseinstellungen für Besprechungen auf Standort- oder Dienstebene.  <br/> |
+|[New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |Erstellt eine neue Auflistung von Konfigurationseinstellungen für Besprechungen auf Standort- oder Dienstebene.  <br/> |
 |[Remove-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |Löscht eine vorhandene Auflistung von Konfigurationseinstellungen für Besprechungen.  <br/> |
 |[Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |Passt die derzeit in Ihrer Organisation verwendeten Besprechungskonfigurationseinstellungen an.  <br/> |
    

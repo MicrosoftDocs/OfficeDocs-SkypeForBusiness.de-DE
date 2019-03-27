@@ -1,5 +1,6 @@
 ---
 title: Konferenzdetailbericht in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 'Zusammenfassung: Informationen Sie zu den detaillierten Konferenzbericht in Skype für Business Server verwendet wird.'
-ms.openlocfilehash: 025e8bda6e26baf261aeb3729907a3f13c220774
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 122cd3b8bdc69342b4d0f55c9fe5168fdc44757d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214595"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880462"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>Konferenzdetailbericht in Skype für Business Server
 

@@ -1,5 +1,6 @@
 ---
 title: Hinzufügen von Front-End-Webdiensten – 2010
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97420584-3c2e-4d6d-9a2b-f7e361f1e2d1
 description: Die Basis-URL ist die Webdienstidentität der URL ohne https://. Wenn die vollständige URL für die Webdienste des Pools ist beispielsweise https://pool01.contoso.net, die base-URL ist pool01.contoso.net.
-ms.openlocfilehash: 1e18c4956e9b9d369bae766ed557debe44586298
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 75a905767ff4dbf2b9366193727bde370d05f87c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015704"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882797"
 ---
 # <a name="add-front-end-web-services-2010"></a>Hinzufügen von Front-End-Webdiensten – 2010
  
