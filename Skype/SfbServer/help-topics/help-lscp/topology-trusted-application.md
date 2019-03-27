@@ -1,5 +1,6 @@
 ---
 title: Topologie vertrauenswürdige Anwendung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,19 +12,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 83803513e83b58defdadb038427761d190a9293c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: ca66c8a21bcd5938574c593543bd40dceb72c2c4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248244"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891329"
 ---
-# <a name="topology-trusted-application"></a><span data-ttu-id="bc618-104">Topologie: Vertrauenswürdige Anwendung</span><span class="sxs-lookup"><span data-stu-id="bc618-104">Topology: Trusted Application</span></span>
+# <a name="topology-trusted-application"></a><span data-ttu-id="dadc8-104">Topologie: Vertrauenswürdige Anwendung</span><span class="sxs-lookup"><span data-stu-id="dadc8-104">Topology: Trusted Application</span></span>
 
-<span data-ttu-id="bc618-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="bc618-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="dadc8-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="dadc8-105">What do you want to do?</span></span> <span data-ttu-id="dadc8-106">Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="dadc8-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="bc618-107">Anzeigen einer Liste der vertrauenswürdigen Anwendungen</span><span class="sxs-lookup"><span data-stu-id="bc618-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
+- [<span data-ttu-id="dadc8-107">Anzeigen einer Liste der vertrauenswürdigen Anwendungen</span><span class="sxs-lookup"><span data-stu-id="dadc8-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
 
-<span data-ttu-id="bc618-108">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="bc618-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="dadc8-108">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="dadc8-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

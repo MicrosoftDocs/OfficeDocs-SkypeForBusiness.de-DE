@@ -1,5 +1,6 @@
 ---
 title: Netzwerkkonfiguration Bearbeiten der globalen Einstellungen
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: abc2f59c-d21a-4d3f-bf23-6ac86effcd86
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: a3342ce8176e1c0cbf25a05a4be65432f915fcf7
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: 6e8080c5dc70d5f6c9549be04b2ecbd8ad1d174f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263037"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894149"
 ---
-# <a name="network-configuration-edit-global-setting"></a><span data-ttu-id="b0e81-104">Netzwerkkonfiguration: Bearbeiten der globalen Einstellungen</span><span class="sxs-lookup"><span data-stu-id="b0e81-104">Network Configuration: Edit Global Setting</span></span>
+# <a name="network-configuration-edit-global-setting"></a><span data-ttu-id="e5bcb-104">Netzwerkkonfiguration: Bearbeiten der globalen Einstellungen</span><span class="sxs-lookup"><span data-stu-id="e5bcb-104">Network Configuration: Edit Global Setting</span></span>
 
-<span data-ttu-id="b0e81-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="b0e81-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="e5bcb-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="e5bcb-105">What do you want to do?</span></span> <span data-ttu-id="e5bcb-106">Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="e5bcb-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="b0e81-107">Aktivieren der Anrufsteuerung</span><span class="sxs-lookup"><span data-stu-id="b0e81-107">Enabling Call Admission Control</span></span>](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
+- [<span data-ttu-id="e5bcb-107">Aktivieren der Anrufsteuerung</span><span class="sxs-lookup"><span data-stu-id="e5bcb-107">Enabling Call Admission Control</span></span>](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
 
-- [<span data-ttu-id="b0e81-108">Aktivieren der Medienumgehung</span><span class="sxs-lookup"><span data-stu-id="b0e81-108">Enabling Media Bypass</span></span>](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
+- [<span data-ttu-id="e5bcb-108">Aktivieren der Medienumgehung</span><span class="sxs-lookup"><span data-stu-id="e5bcb-108">Enabling Media Bypass</span></span>](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
 
 
 

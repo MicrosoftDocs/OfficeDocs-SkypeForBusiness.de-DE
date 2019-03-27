@@ -1,5 +1,6 @@
 ---
 title: Skype Room Systems V2
+ms.reviewer: null
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,13 +12,8 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Die relevanten planungsüberlegungen für die Bereitstellung von Skype Raum Systemen v2 und das Bereitstellen und Verwalten des Systems.
-ms.openlocfilehash: 52d837877a962a3a087073175a169268dd169eae
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531801"
 ---
+
 <h2>Skype-Raum Systemen v2 & #x 2013; <br>die nächste Generation von Skype-Chatroom-Systemen </h2>
 <ul class="panelContent cardsW cols cols2">
     <li>
@@ -25,7 +21,7 @@ ms.locfileid: "26531801"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Transform Besprechung Leerzeichen zwischen kleine drängeln Bereiche und große Konferenzräume mit einer umfassenden, gemeinsame Skype Business wünschen, & #39; s einfach zu verwenden, bereitstellen und verwalten. </p>
+                        <p>Transform Besprechung Leerzeichen von Bereichen kleine drängeln bis hin zu großen Konferenzräume mit einer umfassenden, gemeinsame Skype für Business Erfahrung That& #39; s einfach zu verwenden, bereitstellen und verwalten. </p>
                         <p>Starten von Besprechungen auf Zeit mit einem Tastendruck Join und dann sofort project zur Anzeige in der Raum und die Freigabe an Remoteteilnehmer übertragen. </p>
                         <p>Wählen Sie die richtigen System und audio-video-Peripheriegeräte aus einem unserer Partner: Logitech, Crestron, Polycom, Lenovo und HP.</p>
                         <p></p>
@@ -60,7 +56,7 @@ ms.locfileid: "26531801"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Planen</h3>
+                        <h3>Plan</h3>
                     </div>
                 </div>
             </div>
@@ -78,7 +74,7 @@ ms.locfileid: "26531801"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Bereitstellen von </h3>
+                        <h3>Bereitstellen</h3>
                     </div>
                 </div>
             </div>

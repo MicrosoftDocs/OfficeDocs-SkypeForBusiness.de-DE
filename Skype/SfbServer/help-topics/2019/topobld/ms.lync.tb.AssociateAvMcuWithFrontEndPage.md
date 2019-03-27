@@ -1,5 +1,6 @@
 ---
-title: Zuordnen der a/v MCU Front-End
+title: Zuordnen der A/V MCU zum Front-End
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,15 +13,15 @@ localization_priority: Normal
 ms.assetid: 5a436e41-c902-4968-8d6e-8e7c0adf9f40
 ROBOTS: NOINDEX, NOFOLLOW
 description: Alle Enterprise Edition-Front-End-Pools mit Live Meeting aktiviert benötigen einen A / V-Konferenzdienst verbunden, oder verwenden Sie müssen einen eigenständigen A / V-konferenzpool. Alle vorhandenen Enterprise Edition-Front-End-pools, die derzeit haben einen A / V-Konferenzen verbunden kann ausgewählt werden, verwenden Sie diesen neuen eigenständigen A / V-Konferenzen stattdessen pool.
-ms.openlocfilehash: 7b271cbc4a5d440950b72287fb4fa1556585419b
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: c9c1fbbecb173626270f278e0eec9f8ce4047a9f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21068669"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896267"
 ---
-# <a name="associate-av-mcu-with-front-end"></a><span data-ttu-id="6c83d-104">Zuordnen der a/v MCU Front-End</span><span class="sxs-lookup"><span data-stu-id="6c83d-104">Associate AV MCU With Front End</span></span>
+# <a name="associate-av-mcu-with-front-end"></a><span data-ttu-id="5b493-104">Zuordnen der A/V MCU zum Front-End</span><span class="sxs-lookup"><span data-stu-id="5b493-104">Associate AV MCU With Front End</span></span>
  
-<span data-ttu-id="6c83d-105">Alle Enterprise Edition-Front-End-Pools mit Live Meeting aktiviert benötigen einen A / V-Konferenzdienst verbunden, oder verwenden Sie müssen einen eigenständigen A / V-konferenzpool.</span><span class="sxs-lookup"><span data-stu-id="6c83d-105">All Enterprise Edition Front End pools with Conferencing enabled must have an A/V Conferencing service collocated, or must use a stand-alone A/V Conferencing pool.</span></span> <span data-ttu-id="6c83d-106">Alle vorhandenen Enterprise Edition-Front-End-pools, die derzeit haben einen A / V-Konferenzen verbunden kann ausgewählt werden, verwenden Sie diesen neuen eigenständigen A / V-Konferenzen stattdessen pool.</span><span class="sxs-lookup"><span data-stu-id="6c83d-106">Any existing Enterprise Edition Front End pools that currently have an A/V Conferencing service collocated may be selected to use this new stand-alone A/V Conferencing pool instead.</span></span>
+<span data-ttu-id="5b493-105">Alle Enterprise Edition-Front-End-Pools mit Live Meeting aktiviert benötigen einen A / V-Konferenzdienst verbunden, oder verwenden Sie müssen einen eigenständigen A / V-konferenzpool.</span><span class="sxs-lookup"><span data-stu-id="5b493-105">All Enterprise Edition Front End pools with Conferencing enabled must have an A/V Conferencing service collocated, or must use a stand-alone A/V Conferencing pool.</span></span> <span data-ttu-id="5b493-106">Alle vorhandenen Enterprise Edition-Front-End-pools, die derzeit haben einen A / V-Konferenzen verbunden kann ausgewählt werden, verwenden Sie diesen neuen eigenständigen A / V-Konferenzen stattdessen pool.</span><span class="sxs-lookup"><span data-stu-id="5b493-106">Any existing Enterprise Edition Front End pools that currently have an A/V Conferencing service collocated may be selected to use this new stand-alone A/V Conferencing pool instead.</span></span>
   
 
