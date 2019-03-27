@@ -1,5 +1,6 @@
 ---
-title: Hinzufügen des FQDN des Edgeservers
+title: Hinzufügen des Edgeserver-FQDN
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 description: Sie müssen einen vollqualifizierten Domänennamen (FQDN) für den Dienst Zugriffs-Edgeservers angeben. Wenn Sie nicht die Verwendung einer einzelnen FQDN ausgewählt haben &amp; IP-Adressenoption wählen Sie auf der Seite features, geben Sie auch einen vollqualifizierten Domänennamen für den Webkonferenz-edgedienst und A / V-edgedienst.
-ms.openlocfilehash: 5f9d3bc3b63eaaf9db303c3fc0c74038df223391
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 33856832407e6e12a3c0854fb2d2c87a1bde376c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965898"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880018"
 ---
-# <a name="add-edge-server-fqdn"></a>Hinzufügen des FQDN des Edgeservers
+# <a name="add-edge-server-fqdn"></a>Hinzufügen des Edgeserver-FQDN
  
 Sie müssen einen vollqualifizierten Domänennamen (FQDN) für den Dienst Zugriffs-Edgeservers angeben. Wenn Sie nicht ausgewählt haben die **verwenden einen einzelnen FQDN &amp; IP-Adresse** Option auf der Seite **Features auswählen** , müssen Sie auch angeben einen vollqualifizierten Domänennamen für den Webkonferenz-edgedienst und A / V-edgedienst.
   

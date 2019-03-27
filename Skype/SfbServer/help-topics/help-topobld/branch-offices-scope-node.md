@@ -1,5 +1,6 @@
 ---
 title: Zweigstellen – Bereichsknoten
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
-description: 'Der Knoten Zweigniederlassungen Listet die Zweigniederlassungen, die diese zentralen Standort zugeordnet sind. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: cc0509a7af85637147d1560324c9198a218d28a4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Im Knoten Zweigstellen werden die Zweigstellen aufgelistet, die diesem zentralen Standort zugeordnet sind. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: 52d971b14f058a5284d84a710257f61794b5f091
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895160"
 ---
 # <a name="branch-offices-scope-node"></a>Zweigstellen – Bereichsknoten
  

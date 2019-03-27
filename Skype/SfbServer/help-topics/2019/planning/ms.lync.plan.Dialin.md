@@ -1,5 +1,6 @@
 ---
-title: Einwahlkonferenzen Sie (Planungstool)
+title: Dial-in Conferencing (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype für einwahlkonferenzen Business Server ermöglicht Benutzern, die Audiodaten in der eine Skype für Business Server Konferenz beitreten, indem Sie mit einem Telefon ein public switched Telephone Network, (PSTN) ohne einen Drittanbieter-Audiokonferenzen.
-ms.openlocfilehash: 86d52085023bc9600f794a63d47f86f6df161d61
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 2e8e70f84358c1f5223149a8ad44be2e14156584
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057806"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899505"
 ---
-# <a name="dial-in-conferencing-planning-tool"></a>Einwahlkonferenzen Sie (Planungstool)
+# <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (Planning Tool)
  
 Skype für einwahlkonferenzen Business Server ermöglicht Benutzern, die Audiodaten in der eine Skype für Business Server Konferenz beitreten, indem Sie mit einem Telefon ein public switched Telephone Network, (PSTN) ohne einen Drittanbieter-Audiokonferenzen.
   

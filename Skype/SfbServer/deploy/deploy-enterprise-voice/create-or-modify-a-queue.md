@@ -1,5 +1,6 @@
 ---
 title: Erstellen oder Ändern einer Warteschleife in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Erstellen Sie oder ändern Sie einer Warteschleife für Reaktionsgruppen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: a77940bae3dd720594619ebffc1858dae2a161ba
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d564a40f8e650042fe23ff1db6262c6d1c5b93a1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374515"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895513"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Erstellen oder Ändern einer Warteschleife in Skype für Unternehmen
  
@@ -41,7 +42,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
 4. Führen Sie auf der Seite **Warteschleife** einen der folgenden Schritte aus:
     
-   - Klicken Sie zum Erstellen einer neuen Warteschleife auf **Neu**. Fügen in **Wählen Sie einen Dienst**Typ Teil oder den vollständigen Namen des **ApplicationServer** -Diensts, in dem Sie möchten, die Warteschlange in das Suchfeld ein. Klicken Sie in der Dienstliste auf den gewünschten Dienst und klicken Sie dann auf **OK**.
+   - Klicken Sie zum Erstellen einer neuen Warteschleife auf **Neu**. Geben Sie in **Dienst auswählen** den Namen des **ApplicationServer**-Diensts, zu dem Sie die Warteschleife hinzufügen möchten, vollständig oder teilweise in das Suchfeld ein. Klicken Sie in der Dienstliste auf den gewünschten Dienst und klicken Sie dann auf **OK**.
     
    - Geben Sie den Warteschleifennamen vollständig oder teilweise in das Suchfeld ein, um eine vorhandene Warteschleife zu ändern. Klicken Sie in der Warteschleifenliste auf die gewünschte Warteschleife, klicken Sie auf **Bearbeiten** und dann auf **Details anzeigen**.
     
@@ -118,7 +119,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
    ```
 
    > [!NOTE]
-   > Um eine Audiodatei für die Aufforderung zur verwenden möchten, verwenden Sie das Cmdlet **Import-CsRgsAudioFile** . Weitere Informationen hierzu finden Sie unter [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+   > Verwenden Sie das **Import-CsRgsAudioFile**-Cmdlet, um eine Audiodatei als Ansage zu verwenden. Weitere Informationen hierzu finden Sie unter [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 4. Legen Sie die auszuführende Aktion fest, wenn der Schwellenwert für den Warteschleifen-Timeout erreicht wurde und speichern Sie diesen in einer Variable. Führen Sie an der Eingabeaufforderung Folgendes aus:
     
@@ -148,7 +149,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
    ```
 
       > [!NOTE]
-      > Um eine Audiodatei für die Aufforderung zur verwenden möchten, verwenden Sie das Cmdlet **Import-CsRgsAudioFile** . Weitere Informationen hierzu finden Sie unter [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+      > Verwenden Sie das **Import-CsRgsAudioFile**-Cmdlet, um eine Audiodatei als Ansage zu verwenden. Weitere Informationen hierzu finden Sie unter [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 6. Legen Sie die auszuführende Aktion fest, wenn der Schwellenwert für den Warteschleifen-Überlauf erreicht wurde und speichern Sie diesen in einer Variable. Führen Sie an der Eingabeaufforderung Folgendes aus:
     
@@ -204,7 +205,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
   
 [Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
   
-[Neue CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
 [Mit New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
   

@@ -1,5 +1,6 @@
 ---
 title: Bereitstellen der SQL-Spiegelung für hohe Verfügbarkeit von Back-End-Servern in Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: Damit eine SQL-Spiegelung bereitgestellt werden kann, müssen Ihre Server mindestens SQL Server 2008 R2 ausführen. Diese Version muss auf allen beteiligten Servern (primärer Server, Spiegel und Zeuge) ausgeführt werden. Weitere Informationen hierzu finden Sie unter kumulative Paket 9 für SQL Server 2008 Service Pack 1 aktualisiert.
-ms.openlocfilehash: 9ea6e8a48fbcc3f5938c33e9d06db3c882f28de2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ebf1d222bff572100fe7824e52acdef2ff85216d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373800"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886275"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Bereitstellen von SQL-Spiegelung für hohe Verfügbarkeit in Skype Back-End-Server für Business Server 2015
 
@@ -49,7 +50,7 @@ Bei der SQL-Spiegelung können Sie die Topologie für die Spiegelung entweder be
 > Über Topologie-Generator oder Cmdlets zum Einrichten und Entfernen von SQL-Spiegelung werden nur, wenn die primäre, Spiegel und Zeuge (sofern gewünscht) Server derselben Domäne angehören. Wenn Sie die SQL-Spiegelung für Server einrichten möchten, die sich in unterschiedlichen Domänen befinden, erhalten Sie weitere Informationen in der Dokumentation zu SQL Server.
 
 > [!IMPORTANT]
-> Bei jeder Änderung an einer Spiegelungsbeziehung einer Back-End-Datenbank müssen Sie alle Front-End-Server im Pool neu starten.  > Für eine Änderung der Spiegelung müssen (beispielsweise ändern den Speicherort der Spiegelung), Sie Topologie-Generator verwenden diese drei Schritte ausführen:
+> Bei jeder Änderung an einer Spiegelungsbeziehung einer Back-End-Datenbank müssen Sie alle Front-End-Server im Pool neu starten.  > für eine Änderung der Spiegelung, (z. B. "ändern den Speicherort der Spiegelung), Sie müssen Topologie-Generator zum Verwenden dieser drei Schritte ausführen:
 
 1. Entfernen Sie die Spiegelung vom alten Spiegelserver.
 
@@ -58,7 +59,7 @@ Bei der SQL-Spiegelung können Sie die Topologie für die Spiegelung entweder be
 3. Veröffentlichen Sie die Topologie.
 
 > [!NOTE]
-> Sie müssen eine Dateifreigabe erstellen, in die die Spiegeldateien geschrieben werden, und der Dienst, unter dem SQL Server und SQL Agent ausgeführt werden, benötigt Lese-/Schreibzugriff. Wenn der SQL Server-Dienst im Kontext des Netzwerkdienst ausgeführt wird, können Sie hinzufügen \<Domäne\>\\< SQLSERVERNAME\>$ von Haupt- und SQL-Spiegelserver an die Freigabeberechtigungen. Das $-Zeichen ist wichtig, um anzugeben, dass es sich um ein Computerkonto handelt.
+> Sie müssen eine Dateifreigabe erstellen, in die die Spiegeldateien geschrieben werden, und der Dienst, unter dem SQL Server und SQL Agent ausgeführt werden, benötigt Lese-/Schreibzugriff. Wenn der SQL Server-Dienst im Kontext des Netzwerkdienst ausgeführt wird, können Sie hinzufügen \<Domäne\>\\<SQLSERVERNAME\>$ von Haupt- und SQL-Spiegelserver an die Freigabeberechtigungen. Das $-Zeichen ist wichtig, um anzugeben, dass es sich um ein Computerkonto handelt.
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>So konfigurieren Sie SQL-Spiegelung bei der Erstellung eines Pools im Topologie-Generator
 
@@ -236,11 +237,11 @@ Die einfachste Möglichkeit zum Einrichten der Spiegelung wird mithilfe des Topo
 
     **Install-csmirrordatabase anfügen** Spiegel installiert und konfiguriert die Spiegelung für alle Datenbanken, die auf dem primären SQL-Speicher vorhanden sind. Wenn Sie nur bestimmte Datenbanken für die Spiegelung konfigurieren möchten, können Sie die Option "databasetype"-, oder wenn Sie für alle Datenbanken mit Ausnahme von ein paar Spiegelung konfigurieren möchten, können Sie die Option - ExcludeDatabaseList zusammen mit einer durch Trennzeichen getrennte Liste der Datenbank verwenden Namen, ausgeschlossen werden sollen.
 
-    Angenommen, wenn Sie die folgende Option an **Install-csmirrordatabase anfügen**hinzufügen, werden alle Datenbanken außer "rtcab" und "rtcxds" gespiegelt.
+    Wenn Sie beispielsweise die folgende Option an **Install-CsMirrorDatabase** anfügen, werden alle Datenbanken außer „rtcab“ und „rtcxds“ gespiegelt.
 
     `-ExcludeDatabaseList rtcab,rtcxds`
 
-   Angenommen, wenn Sie die folgende Option an **Install-csmirrordatabase anfügen**hinzufügen, werden nur die Datenbanken "rtcab", Rtcshared und "rtcxds" gespiegelt.
+   Wenn Sie beispielsweise die folgende Option an **Install-CsMirrorDatabase** anfügen, werden nur die Datenbanken „rtcab“, „rtcshared“ und „rtcxds“ gespiegelt.
 
     `-DatabaseType User`
 

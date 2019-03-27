@@ -1,5 +1,6 @@
 ---
 title: Dokumentation zu den Tools im Resource Kit von Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: In diesem Thema werden die Tools in der Skype für Business Server 2015 Resource Kit, einschließlich des Zwecks der einzelnen Tools und Beispiele für deren Verwendung beschrieben. Die Skype für Business Server 2015 Resource Kit können Sie Routineaufgaben für IT-Administratoren erleichtern, die Bereitstellung und Verwaltung von Skype für Business Server 2015. Beispielsweise kann das Tool Web Conf Data verwendet werden, um bequem Daten zu steuern, die während einer Onlinebesprechung von Benutzern hochgeladen werden. Mithilfe des SEFAUtil-Tools können Sie Stellvertretungsanrufweiterleitung und -beantwortung für Benutzer einrichten. Wir empfehlen IT-Administratoren mit diesen Tools Skype für Business Server 2015 effektiver verwalten.
-ms.openlocfilehash: d58ba07a06b29ffe03eadc38beb55d3cb623b8cd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 730ba434a70f49b01b70aaf0d9f1ac889bd2ba75
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533434"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879861"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Dokumentation zu den Tools im Resource Kit von Skype for Business Server 2015
 
@@ -115,7 +116,7 @@ Die folgenden Softwarekomponenten müssen vor der Ausführung des ABSConfig-Tool
 
 - Skype for Business Server 2015
 
-#### <a name="users"></a>Benutzer
+#### <a name="users"></a>Nutzer
 
 Administratoren, die über die erforderlichen Berechtigungen zum Aktualisieren der Skype für Business Server 2015 Bereitstellung.
 
@@ -123,7 +124,7 @@ Administratoren, die über die erforderlichen Berechtigungen zum Aktualisieren d
 
 ABSConfig kann durch Eingeben von **ABSConfig.exe** an einer Eingabeaufforderung gestartet werden. Unten sehen Sie eine Abbildung der Benutzeroberfläche des ABSConfig-Tools.
 
-![Das Tool ABSConfig.exe](../media/Reskit_2012_Tools_Documentation_ABSConfig.JPG)
+![Das Tool ABSConfig.exe.](../media/Reskit_2012_Tools_Documentation_ABSConfig.JPG)
 
 ### <a name="summary"></a>Zusammenfassung
 
@@ -253,7 +254,7 @@ Durch die Protokollierung des Zeitraums können die Benutzer des Tools, wie in d
 
 2. **Enddatum** Dies ist das Enddatum des Zeitraums, für den der Bericht generiert werden soll, beispielsweise 30. September 2010.
 
-     ![Start- und Enddatum in der Bandbreitennutzung A](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
+     ![Start- und Enddatumsangaben in die Auslastung der Bandbreite A](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
 
 #### <a name="step-2---specify-the-file-directories"></a>Schritt 2 – Angeben der Dateiverzeichnisse
 
@@ -263,7 +264,7 @@ Die folgenden Dateiverzeichnisse können von den Benutzern wie gezeigt angegeben
 
 - **Temporären Dateispeicherort** Am temporären Dateispeicherort, in dem temporäre Dateien gespeichert sind, während der Bericht generiert wird.
 
-![Dateiverzeichnisse in der Bandbreitennutzungsanalyse](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
+![Dateiverzeichnissen, die in der Bandbreite Auslastung Afterflossen](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
 
 > [!NOTE]
 > Stellen Sie sicher, dass den Benutzern des Tools ausreichender Dateizugriff auf den Speicherort der Serverprotokolle und der temporären Dateien gewährt wird.
@@ -272,11 +273,11 @@ Die folgenden Dateiverzeichnisse können von den Benutzern wie gezeigt angegeben
 
 Um die Protokolle zu erfassen und die Berichtanzeige zu starten, klicken Sie, wie unten gezeigt, auf **Execute**. In diesem Schritt werden die erforderlichen Daten erfasst.
 
-![Sammeln von Daten in der Bandbreitennutzungsanalyse](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
+![Sammeln von Daten in die Bandbreite Auslastung Analy](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
 
 Nach erfolgreicher Überprüfung der Eingabe wird die unten wiedergegebene Meldung angezeigt.
 
-![In Protokollen erfasste Benachrichtigung im Bandbreitendienstprogramm](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
+![Protokolle gesammelten Benachrichtigung in der Utili Bandbreite](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
 
 Klicken Sie auf **OK**. „BandwidthUtilizationAnalyzer.xlsm“ wird automatisch gestartet. Befolgen Sie die im Meldungsfeld angezeigten Anweisungen. Ausführliche Informationen finden Sie im nächsten Abschnitt unter **Verwenden von „BandwidthUtilizationAnalyzer.xlsm“**.
 
@@ -289,19 +290,19 @@ Klicken Sie auf **OK**. „BandwidthUtilizationAnalyzer.xlsm“ wird automatisch
 
 2. Wenn ein Dateiordner geöffnet wird, wählen Sie die Datei „consolidated.csv“ an dem Speicherort aus, der in dem unten gezeigten Meldungsfeld angegeben ist. Dort wird außerdem der Speicherort **C:\Temp** angezeigt.
 
-     ![Öffnen eines Ordners in BandwidthUtilizationAnalyzer](../media/Reskit_2012_Tools_Documentation_Image9.jpg)
+     ![Öffnen einen Ordner im BandwidthUtilizationAnalyzer.](../media/Reskit_2012_Tools_Documentation_Image9.jpg)
 
 3. Klicken Sie auf **Import**.
 
 4. Das grafische Diagramm wird automatisch generiert. Es ist verfügbar, sobald der Hintergrundaktivitäts-Mauszeiger nicht mehr angezeigt wird.
 
-     ![Anwenden von Filtern in der Berichtsansicht](../media/Reskit_2012_Tools_Documentation_Image11.jpg)
+     ![Anwenden von Filtern in der Berichtsansicht an.](../media/Reskit_2012_Tools_Documentation_Image11.jpg)
 
 #### <a name="applying-filters-to-the-report-view"></a>Anwenden von Filtern auf die Berichtsansicht
 
 Die Filter, die wie unten gezeigt auf die Berichtsansicht angewendet werden können, werden nachfolgend beschrieben:
 
-![Anwenden von Filtern in der Berichtsansicht](../media/Reskit_2012_Tools_Documentation_Image11.jpg)
+![Anwenden von Filtern in der Berichtsansicht an.](../media/Reskit_2012_Tools_Documentation_Image11.jpg)
 
 1. **Name** Filtern nach WAN-Verbindungen (der Filter befindet sich rechts von der Grafik). Das Präfix identifiziert die folgenden Verbindungstypen, siehe im vertikalen (blauen) Feld:
 
@@ -334,27 +335,27 @@ Die folgenden Abbildungen zeigen die oben beschriebenen Filter.
 
 Filtern nach **Name**. Wählen Sie die Liste der Verbindungen aus, die in dem Diagramm angezeigt werden sollen.
 
-![Filtern nach Name in BandwidthUtilizationAnalyzer](../media/Reskit_2012_Tools_Documentation_Image12.jpg)
+![Filtern nach Name in BandwidthUtilizationAnalyzer.](../media/Reskit_2012_Tools_Documentation_Image12.jpg)
 
 Filtern nach **Exceeded limit**. Wählen Sie **True** aus, um den Filter zu erzwingen.
 
-![Filtern nach Exceeded Limit](../media/Reskit_2012_Tools_Documentation_Image13.jpg)
+![Filtern nach Überschrittener Grenzwert.](../media/Reskit_2012_Tools_Documentation_Image13.jpg)
 
 Filtern nach **Critical levels**. Wählen Sie **True** aus, um den Filter zu erzwingen.
 
-![Filtern nach Critical Levels](../media/Reskit_2012_Tools_Documentation_Image14.jpg)
+![Filtern nach kritischen Ebenen.](../media/Reskit_2012_Tools_Documentation_Image14.jpg)
 
 Filtern nach **Under utilized**. Wählen Sie **True** aus, um den Filter zu erzwingen.
 
-![Filtern nach Under Utilized](../media/Reskit_2012_Tools_Documentation_Image15.jpg)
+![Filtern nach unter genutzt.](../media/Reskit_2012_Tools_Documentation_Image15.jpg)
 
 Filtern nach **Link Type**. Wählen Sie die Typen aus, die angezeigt werden sollen.
 
-![Filtern nach Link Type](../media/Reskit_2012_Tools_Documentation_Image16.jpg)
+![Filtern nach Verknüpfungstyp.](../media/Reskit_2012_Tools_Documentation_Image16.jpg)
 
 Filtern nach **Region**. Wählen Sie eine Liste der Regionen aus, deren Verbindungen angezeigt werden sollen.
 
-![Filtern nach Region](../media/Reskit_2012_Tools_Documentation_Image17.jpg)
+![Filtern nach Region.](../media/Reskit_2012_Tools_Documentation_Image17.jpg)
 
 ### <a name="requirements"></a>Anforderungen
 
@@ -440,23 +441,23 @@ Integrated Security=false;"/>
 
 Bereiche für den anrufparkorbit bereitgestellt: der -o Parameter Listet alle orbitbereiche, die für diesen Pool konfiguriert sind, siehe
 
-![Orbitbereiche in der Anrufparkuhr](../media/Reskit_2012_Tools_Documentation_Image18.jpg)
+![Orbitbereiche in Parkometer aufrufen.](../media/Reskit_2012_Tools_Documentation_Image18.jpg)
 
 Derzeit geparkt Anrufe: - n-Parameter werden alle derzeit verwendeten Orbits für diesen Pool aufgelistet, siehe
 
-![Aktuell in der Anrufparkuhr geparkte Anrufe](../media/Reskit_2012_Tools_Documentation_Image19.jpg)
+![Derzeit geparkt Anrufe in Parkometer aufrufen.](../media/Reskit_2012_Tools_Documentation_Image19.jpg)
 
 Anzahl der freien Orbits: der Parameter-f Listet die Anzahl der derzeit kostenlose Orbits im Pool, siehe
 
-![Freie Orbitbereiche in der Anrufparkuhr](../media/Reskit_2012_Tools_Documentation_Image20.jpg)
+![Kostenlose Orbits in Parkometer aufrufen.](../media/Reskit_2012_Tools_Documentation_Image20.jpg)
 
 Kürzlich geparkt Anrufe: R - \<n\> Parameterlisten der \<n\> letzten Anrufe geparkt, siehe
 
-![Zuletzt in der Anrufparkuhr geparkte Anrufe](../media/Reskit_2012_Tools_Documentation_Image21.jpg)
+![Kürzlich geparkt Anrufe in Parkometer aufrufen.](../media/Reskit_2012_Tools_Documentation_Image21.jpg)
 
 Testen der Orbit Reservierung: -t \<n\> Parameter getestet, reservieren eine orbitbereiche in der Datenbank, siehe
 
-![Testorbitreservierungen in der Anrufparkuhr](../media/Reskit_2012_Tools_Documentation_Image22.jpg)
+![Test Orbit Reservierungen in Parkometer aufrufen.](../media/Reskit_2012_Tools_Documentation_Image22.jpg)
 
 ### <a name="summary"></a>Zusammenfassung
 
@@ -496,9 +497,9 @@ Dieses Tool gibt vordefinierte Berichte über die Skype für Business Server 201
 
 Um Dbanalyze.exe zu installieren, kopieren Sie sie in einen lokalen Ordner, und führen Sie das Tool. Wenn das Tool verwenden möchten, führen Sie den folgenden Befehl an der Befehlszeile. `dbanalyze.exe [/v] [/report:value] [/sqlserver:value] [/user:user@domain.com] [/conf:value][/pstnid:Value] [/maxcontacts:value]`Die Beschreibungen für die Befehlszeilenoptionen sind unten aufgeführt.
 
-![Befehlszeilenoptionen für Dbanalyze.exe](../media/Reskit_2012_Tools_Documentation_Image35.JPG)
+![Befehlszeilenoptionen für Dbanalyze.exe.](../media/Reskit_2012_Tools_Documentation_Image35.JPG)
 
-### <a name="requirements"></a>Anforderungen
+### <a name="requirements"></a>Voraussetzungen
 
  **Computer** Dbanalyze aus kann nur von einer Domäne gehörenden Computer ausgeführt werden, Skype für Business Server 2015 installiert sind.
 
@@ -508,7 +509,7 @@ Um Dbanalyze.exe zu installieren, kopieren Sie sie in einen lokalen Ordner, und 
 
  **Benutzer** Die nachstehende Tabelle zeigt den Administratoren besitzen die erforderlichen Berechtigungen zum Skype für Business Server 2015 Datenbanken zugreifen.
 
-![Berechtigungstabelle für Dbanalyze.exe](../media/Reskit_2012_Tools_Documentation_Image36.JPG)
+![Tabelle für Dbanalyze.exe Berechtigungen.](../media/Reskit_2012_Tools_Documentation_Image36.JPG)
 
 > [!NOTE]
 > Für den **/report:disk**-Modus ist ein lokales Administratorkonto erforderlich.
@@ -547,9 +548,9 @@ Für die Version Onlinedienst Wenn Health monitoring Pack für SCOM für Skype f
 
 Dieses Tool erhöht die Auslastung von CPU und E/A-Vorgängen auf dem Front-End-Server, auf dem es ausgeführt wird, sowie auf anderen Front-End-Servern, wenn der Front-End-Server, auf dem das Tool ausgeführt wird, nicht Besitzer der Daten ist. Wir empfehlen die Ausführung dieses Tools, wenn die Auslastung von CPU und E/A-Vorgängen auf den Front-End-Servern niedrig ist, beispielsweise außerhalb der Spitzenzeiten. Darüber hinaus kann dieses Tool zwei bis drei Minuten für den Import einer Datendatei benötigen. Denken Sie hieran, wenn Sie die voraussichtliche Ausführungsdauer des Tools schätzen. Die von dem Tool generierte ausführliche Protokolldatei wird standardmäßig im Dateispeicher angezeigt. Löschen Sie sie, wenn darin keine Fehler gemeldet werden, da die Protokolldatei mehrere 10 MB übersteigen kann.
 
-![Beispielereignisse für das Ereignisprotokoll des Speicherservers](../media/Reskit_2012_Tools_Documentation_Image1.jpg)
+![Beispiel Storage Server-Ereignisprotokollereignisse.](../media/Reskit_2012_Tools_Documentation_Image1.jpg)
 
-### <a name="requirements"></a>Anforderungen
+### <a name="requirements"></a>Voraussetzungen
 
 Installieren Sie die Skype für Business Server 2015 Resource Kit-Tools. Das Tool wird ausgeführt auf Domäne gehörenden Computer, auf dem Skype für Business Server und Skype für Business Server-Verwaltungsshell installiert. Das Tool verwendet ein Cmdlet aus der-Verwaltungsshell auf um allen Front-End-Servern im Pool zu identifizieren. Zweitens muss das Tool von einem Computer im Pool ausgeführt werden, die die **RtcLocal** -Datenbank installiert hat. Diese Datenbank wird vom Programm verwendet, um den Speicherort der WEBSERVICE Dateifreigabe für den Pool abzurufen. Darüber hinaus muss vor der Verwendung des Tools, jedem Front-End-Server aktivieren, Windows PowerShell-Remoting mit **Enable-psremoting sieht** auf jedem Front-End-Server als auch den Computer aus, dem das Tool ausgeführt wird. Andernfalls werden von diesem Tool remote Windows PowerShell-Befehle fehl. Windows PowerShell-Remoting kann deaktiviert werden auf allen Front-End-Servern im Pool nachdem der Importvorgang abgeschlossen ist. Schließlich muss das Tool aufrufen Anmeldeinformationen Lese-/Schreibberechtigung für die Webservice-Dateifreigabe für den Pool verfügen, die sie für dieses Tool ausgeführt werden. Andernfalls wird das Tool Berechtigung e/a-Fehler auftreten.
 
@@ -878,35 +879,35 @@ Anzeigen der Verbindungen in der CAC-Netzwerktopologie des Unternehmens auf eine
 
  **Laden und Anzeigen der CAC Netzwerktopologie aus einer Skype für die Bereitstellung in einem Grafikformat Business Server 2015**: Skype für Business Server 2015 Administratoren kann laden und Anzeigen von CAC Topologie Netzwerkkonfiguration auf eine beliebige Skype für Business Server 2015 Computer durch verwenden die Option **Netzwerkkonfiguration herunterladen** aus, wie in der folgenden Abbildung dargestellt. Das Tool nicht laden oder Anzeigen einer Konfigurations bei der Bereitstellung auf einem Computer, die keine Verbindung mit der Skype für Business Server 2015 Konfigurationsspeicher verfügt.
 
-![Herunterladen der Netzwerkkonfiguration](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
+![Herunterladen der Netzwerkkonfiguration.](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
 
  **Laden und anzeigen CAC Netzwerktopologie aus einer Bandbreitenrichtlinie Server-Protokolldatei in einem Grafikformat:** Skype für Business Server 2015 Bandbreitenrichtlinie Server speichern die Netzwerktopologie CAC als Teil der Protokollierungsmechanismen unter der Skype für Business Server 2015 Dateispeicherort freigeben. Skype für Business Server 2015-Administratoren kann eine solche Datei in einem Grafikformat anzeigen, mithilfe der Option **Open Netzwerkkonfiguration** wie unten dargestellt.
 
-![Öffnen einer Bandbreitenrichtlinienserver-Protokolldatei](../media/Reskit_2012_Tools_Documentation_Image24.jpg)
+![Öffnen eine Protokolldatei Bandbreite Policy Server.](../media/Reskit_2012_Tools_Documentation_Image24.jpg)
 
 Speichern und CAC-Netzwerktopologie in XML-Format auf dem Datenträger speichern: Skype für Business Server 2015-Administratoren kann die CAC Netzwerk Topologie Konfiguration-Datei in einem XML-Format speichern, mithilfe der Option zum **Speichern einer Kopie der Netzwerkkonfiguration** wie unten dargestellt. Die gespeicherte Konfigurationsdatei kann dann offline als Grafik angezeigt werden.
 
-![Speichern der Netzwerkkonfiguration als XML-Datei](../media/Reskit_2012_Tools_Documentation_Image25.jpg)
+![Speichern die Netzwerkkonfiguration als eine XML-Datei.](../media/Reskit_2012_Tools_Documentation_Image25.jpg)
 
 Speichern und Store CAC Netzwerktopologie JPG- oder BMP-Format: Skype für Business Server 2015-Administratoren kann die Netzwerkkonfiguration Topologie CAC in einem Grafikformat (JPG und BMP-Dateiformate) mithilfe des Netzwerkkonfiguration speichern **Diagramms als speichern Bild** option wie unten dargestellt.
 
-![Speichern der Netzwerkkonfiguration als Bild](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
+![Speichern die Netzwerkkonfiguration als Bild ein.](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
 
  <strong>Ansicht CAC Netzwerk topologiekonfigurationsdaten:</strong> Skype für Business Server 2015-Administratoren kann verwandte Netzwerkkonfigurationsdaten wie netzwerkregionen, Netzwerkstandorten, Bandbreite Profile und Website Subnetz-IP-Adressen in einem Textformat anzeigen mithilfe der Option Ansicht Netzwerkkonfiguration Daten wie dargestellt unten.
 
-![Anzeigen von Netzwerkkonfigurationsdaten](../media/Reskit_2012_Tools_Documentation_Image27.jpg)
+![Anzeigen von Netzwerk-Konfigurationsdaten aus.](../media/Reskit_2012_Tools_Documentation_Image27.jpg)
 
  **Netzwerktopologie ausgezeichnet Strukturansicht Ansicht CAC:** Skype für Business Server 2015 Administratoren kann verwandte Netzwerkkonfigurationsdaten ausgezeichnet Ansicht graphical Struktur anzeigen, mithilfe der Systemsteuerung auf der linken Seite des Toolfensters wie unten dargestellt.
 
-![Anzeigen von Netzwerkkonfigurationsdaten in einer Strukturansicht](../media/Reskit_2012_Tools_Documentation_Image28.jpg)
+![Anzeigen von Netzwerk-Konfigurationsdaten in eine Strukturansicht.](../media/Reskit_2012_Tools_Documentation_Image28.jpg)
 
  **Definieren benutzerdefinierte Konnektoren für die Anrufsteuerung Netzwerk-Topologie Links (beispielsweise Standort-zu-Region und regional-Standort-zu-Standort-Verknüpfungen):** Skype für Business Server 2015-Administratoren kann benutzerdefinierte graphical Connectors für CAC Netzwerk Konfiguration WAN-Verbindungen mithilfe der Option Einstellungen wie folgt definieren. Dies erleichtert die Unterscheidung zwischen verschiedenen Netzwerkverbindungstypen, die in der Netzwerkkonfiguration bereitgestellt sind.
 
-![Tools](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
+![Werkzeuge](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
 
  **Ansicht CAC netzwerkstandortinformationen Topologie und Regionsinformationen bereitgestellten Bandbreitenrichtlinien:** Skype für Business Server 2015-Administratoren kann verwandte CAC netzwerkregionsinformationen, Websiteinformationen und CAC Bandbreite, die Bereitstellung von Informationen mithilfe der unten gezeigten Optionen anzeigen. (Klicken Sie beispielsweise in einer Netzwerkregion oder einem Netzwerkstandortobjekt auf **Info**.)
 
-![Definieren von benutzerdefinierten Connectors für Ihr Netzwerk](../media/Reskit_2012_Tools_Documentation_Image30.jpg)
+![Definieren benutzerdefinierte Konnektoren für Ihr Netzwerk.](../media/Reskit_2012_Tools_Documentation_Image30.jpg)
 
 ### <a name="summary"></a>Zusammenfassung
 
@@ -931,7 +932,7 @@ Das Tool Antwort Gruppe Agent Live baut auf der reaktionsgruppendienst und die S
 
 Die Abbildung unten zeigt die Hauptoberfläche von Response Group Agent Live.
 
-![Das Tool „Reaktionsgruppen-Agent Live“](../media/Reskit_2012_Tools_Documentation_Image37.JPG)
+![Die Antwort Gruppe Agent Live-Tool.](../media/Reskit_2012_Tools_Documentation_Image37.JPG)
 
 Folgende drei Hauptfeatures stehen Agents in Response Group Agent Live zur Verfügung:
 
@@ -957,7 +958,7 @@ Response Group Agent Live kann mithilfe des Dialogfelds „Options“ in der Anw
 
 Die Abbildung unten zeigt das Dialogfeld „Options“, in dem Agents die Hostadresse und Tastenkombinationen konfigurieren können. Auf dieses Dialogfeld können Sie zugreifen, indem Sie auf der Hauptbenutzeroberfläche rechts oben auf die Schaltfläche „Options“ klicken.
 
-![Das Dialogfeld mit Optionen für „Reaktionsgruppen-Agent Live“](../media/Reskit_2012_Tools_Documentation_Image38.JPG)
+![Im Dialogfeld Gruppe Agent Live Antwortoptionen.](../media/Reskit_2012_Tools_Documentation_Image38.JPG)
 
 Folgende drei unterschiedliche Einstellungen können in der Konfiguration von Response Group Agent Live angepasst werden:
 
@@ -971,11 +972,11 @@ Folgende drei unterschiedliche Einstellungen können in der Konfiguration von Re
 
 Die Abbildung unten zeigt, wie Sie andere Agents anrufen oder ihnen eine Chatnachricht senden, indem Sie mit der rechten Maustaste im rechten Bereich auf den Kontakt klicken.
 
-![Anruf tätigen oder Chatnachricht senden](../media/Reskit_2012_Tools_Documentation_Image39.JPG)
+![Tätigen eines Anrufs oder eine Sofortnachricht senden.](../media/Reskit_2012_Tools_Documentation_Image39.JPG)
 
 Die Abbildung unten zeigt, wie Response Group Agent Live die aktuelle Anzahl der Anrufe in der Warteschleife sowie die längste Wartezeit all dieser eingehenden Anrufe anzeigt.
 
-![Anzeigen von Warteschlangeninformationen](../media/Reskit_2012_Tools_Documentation_Image40.JPG)
+![Anzeigen von Informationen zur Warteschlange.](../media/Reskit_2012_Tools_Documentation_Image40.JPG)
 
 ### <a name="summary"></a>Zusammenfassung
 
@@ -1039,7 +1040,7 @@ Hier sind einige der Hauptszenarien, in denen dieses Tool eingesetzt werden kann
 
 - Eine Praxis des Kundendiensts in der Personalabteilung bei Contoso besteht darin, allen Anrufern vom ersten Anruf an persönlichen Service zu bieten. Da alle Mitglieder der Abteilung sehr nah beieinander sitzen, kann das gleichzeitige Klingeln auf allen Telefonen bei Teamanrufen sehr störend für das Team sein. Um den besten Service bereitzustellen, ohne Beeinträchtigung der Teammitglieder, nutzt die Skype für Business Server 2015 Administrator der Gruppe anrufen Pickup-Funktion. Der Administrator fügt alle Abteilungsmitglieder einer Annahmegruppe hinzu und teilt der Abteilung die Annahmegruppennummer mit. Wenn nun Samantha nicht an ihrem Platz ist, bemerkt Joe, dass ihr Telefon klingelt, und kann den Anruf von seinem Platz aus annehmen.
 
-### <a name="requirements"></a>Anforderungen
+### <a name="requirements"></a>Voraussetzungen
 
 Das SEFAUtil-Tool kann nur auf einem Computer ausgeführt werden, der zu einem Pool mit vertrauenswürdigen Anwendungen gehört. Auf diesem Computer muss UCMA 3.0 installiert sein. Um das Tool auszuführen, muss in diesem Pool eine neue vertrauenswürdige Anwendung mit der SEFAUtil-Anwendungs-ID erstellt werden.
 
@@ -1064,7 +1065,7 @@ Das SEFAUtil-Tool kann nur auf einem Computer ausgeführt werden, der zu einem P
     > Gegebenenfalls kann ein anderer Port verwendet werden.
     
     > [!NOTE]
-    > Pool-FQDN: Den FQDN des Servers oder Pools, der die SEFAUtil-Anwendung gehostet wird (in der Regel ein Skype für Business Front-End-Servers > oder Pool).
+    > Pool-FQDN: Der FQDN des Servers oder Pools, der die SEFAUtil-Anwendung (normalerweise Skype für > der Business-Front-End-Server oder Pool) gehostet wird.
     > Pool Registrierungsstellen-FQDN: Der FQDN des der Skype für Business Front-End-Server oder Pool diesen Anwendungspool zugeordnet.
     > Pool-Website: Der Site-ID der Website auf der in diesem Pool verwaltet wird.
 
@@ -1489,7 +1490,7 @@ Das Unassigned Number Announcements Migration-Skript kann in den drei folgenden 
 
 - **Verschieben von Daten zwischen Bereitstellungen:** Contoso wird gerade Ersetzen von allen Servern eines Pools mit neueren Servern. Verschieben Sie ihre Strategie besteht darin, eine neue Skype für Business Server 2015-Pool bereitstellen alle Daten vom alten auf den neuen Pool, und klicken Sie dann verwerfen der alten Pools. Sobald der neue Pool bereitgestellt ist, wird die Konfiguration mit dem Tool Unassigned Number Announcements Migration aus dem alten Pool in den neuen verschoben.
 
-#### <a name="requirements"></a>Anforderungen
+#### <a name="requirements"></a>Voraussetzungen
 
 Hier sind die Hauptanforderungen für eine erfolgreiche Ausführung des Tools:
 
@@ -1501,7 +1502,7 @@ Hier sind die Hauptanforderungen für eine erfolgreiche Ausführung des Tools:
 
 Das Skript „Move-CsAnnouncementConfiguration“ erfordert die in der Tabelle unten beschriebenen zwei Parameter. 
 
-![Parameter „Move-CsAnnouncementConfiguration“](../media/Reskit_2012_Tools_Documentation_Image41.JPG)
+![Move-CsAnnouncementConfiguration-Parameter.](../media/Reskit_2012_Tools_Documentation_Image41.JPG)
 
 ### <a name="examples"></a>Beispiele
 
@@ -1563,7 +1564,7 @@ Das Tool muss mit Administratorrechten und mit Zugriff auf den Inhaltsdateispeic
 
 In der folgenden Tabelle werden die Parameter beschrieben, die zum Teil in den Beispielen verwendet werden.
 
-![Parameter für das Webkonferenzdaten-Tool](../media/Reskit_2012_Tools_Documentation_Image51.JPG)
+![Web-Tool zum Conf Daten-Parameter.](../media/Reskit_2012_Tools_Documentation_Image51.JPG)
 
 ```
 WebConfDataTool.exe /User:user0@contoso.com /Action:query ""/ExpirationDate:08/09/2010 12:00:00""

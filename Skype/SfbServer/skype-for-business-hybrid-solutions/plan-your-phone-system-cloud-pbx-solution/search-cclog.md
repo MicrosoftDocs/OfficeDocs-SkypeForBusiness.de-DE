@@ -1,5 +1,6 @@
 ---
-title: Suche CcLog
+title: Search-CcLog
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: Das Cmdlet „Search-CcLog“ durchsucht die Listen für ein- und ausgehende Anrufe im Protokollverzeichnis der Skype for Business Cloud Connector Edition-Appliance.
-ms.openlocfilehash: 3d7d34f2e069b9c4ed728dcc805af5ccf9d13067
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e11e82ba105ed58efa6892165a19c6a4c4de0429
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892765"
 ---
-# <a name="search-cclog"></a>Suche CcLog
+# <a name="search-cclog"></a>Search-CcLog
  
 Das Cmdlet „Search-CcLog“ durchsucht die Listen für ein- und ausgehende Anrufe im Protokollverzeichnis der Skype for Business Cloud Connector Edition-Appliance.
   
@@ -55,7 +57,7 @@ Das Cmdlet  Search-CsClsLogging bietet eine Befehlszeilenoption zum Durchsuchen 
 |:-----|:-----|:-----|:-----|
 |StartTime  <br/> | Erforderlich <br/> |System.Datetime  <br/> |  Anfangszeitpunkt (Datum und Uhrzeit) für die zu durchsuchenden Protokolleinträge. Wird in der lokalen Zeitzone angegeben. <br/> |
 |EndTime  <br/> |Erforderlich  <br/> |System.Datetime  <br/> |Endzeitpunkt (Datum und Uhrzeit) für die zu durchsuchenden Protokolleinträge. Wird in der lokalen Zeitzone angegeben.  <br/> |
-|Dateiname  <br/> |Erforderlich  <br/> |System.String  <br/> |Gibt den vollständigen Pfad der Textdatei mit den Suchergebnissen an.  <br/> |
+|FileName  <br/> | Erforderlich  <br/> |System.String  <br/> |Gibt den vollständigen Pfad der Textdatei mit den Suchergebnissen an.  <br/> |
    
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
@@ -65,7 +67,7 @@ Keine. Das Cmdlet „Search-CcLog“ akzeptiert keine Pipelineeingaben.
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine
+Keine 
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>

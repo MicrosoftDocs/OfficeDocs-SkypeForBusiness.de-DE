@@ -1,5 +1,6 @@
 ---
-title: System zum Lastenausgleich (Planungstool)
+title: Load Balancer (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Wenn Sie Front-End-Pools, Director-Pools oder edgeserverpools haben, müssen Sie für den Lastenausgleich für diese Pools bereitstellen. Beim Lastenausgleich wird der Datenverkehr auf die Server in einem Pool verteilt. Ausführliche Informationen finden Sie unter:'
-ms.openlocfilehash: cb1c7c89deb8a6ad2d7b3355f996077bae8c009b
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 877225a197d953a503eb865ad9a85d83ac404000
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069519"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889487"
 ---
-# <a name="load-balancer-planning-tool"></a>System zum Lastenausgleich (Planungstool)
+# <a name="load-balancer-planning-tool"></a>Load Balancer (Planning Tool)
  
 Wenn Sie Front-End-Pools, Director-Pools oder edgeserverpools haben, müssen Sie für den Lastenausgleich für diese Pools bereitstellen. Beim Lastenausgleich wird der Datenverkehr auf die Server in einem Pool verteilt. Ausführliche Informationen finden Sie unter:
   

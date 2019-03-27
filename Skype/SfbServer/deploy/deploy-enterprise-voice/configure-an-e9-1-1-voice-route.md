@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren einer E9-1-1-VoIP-Route in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Konfigurieren von E9-1-1-VoIP-Routen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: a465dd40eb79224db4e021a227f46fb0f1f6a129
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 04890782eb9c550428d89c99304c5a7951fc34b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890322"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894922"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Konfigurieren einer E9-1-1-VoIP-Route in Skype für Business Server
  
@@ -27,7 +28,7 @@ Konfigurieren von E9-1-1-VoIP-Routen in Skype für Business Server Enterprise-Vo
 Für die Bereitstellung von E9-1-1 müssen Sie zunächst eine VoIP-Route für Notrufe konfigurieren. Ausführliche Informationen zum Erstellen von VoIP-Routen finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md). Sie können auch mehrere Routen definieren, zum Beispiel wenn Ihre Bereitstellung einen primären und einen sekundären SIP-Trunk enthält. 
   
 > [!NOTE]
-> Wenn Sie Standortinformationen in einen E9-1-1-INVITE-Befehl aufnehmen möchten, müssen Sie zunächst den SIP-Trunk konfigurieren, der zum Routen von Notrufen über das Gateway eine Verbindung mit dem E9-1-1-Dienstanbieter herstellt. Zu diesem Zweck festlegen Sie EnablePIDFLOSupport das Flag im Cmdlet **Set-CsTrunkConfiguration** auf True. Der Standardwert für „EnablePIDFLOSupport“ lautet „False“. Beispiel: `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` es ist nicht notwendig, den Empfang von Standortinformationen für fallback öffentlich Gateways Telephone Network (Telefonfestnetz PSTN) und Emergency Location Identification-Nummer (ELIN)-Gateways gewechselt aktivieren.
+> Wenn Sie Standortinformationen in einen E9-1-1-INVITE-Befehl aufnehmen möchten, müssen Sie zunächst den SIP-Trunk konfigurieren, der zum Routen von Notrufen über das Gateway eine Verbindung mit dem E9-1-1-Dienstanbieter herstellt. Legen Sie zu diesem Zweck im Cmdlet **Set-CsTrunkConfiguration** das Flag „EnablePIDFLOSupport“ auf „True“ fest. Der Standardwert für „EnablePIDFLOSupport“ lautet „False“. Beispiel: `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` es ist nicht notwendig, den Empfang von Standortinformationen für fallback öffentlich Gateways Telephone Network (Telefonfestnetz PSTN) und Emergency Location Identification-Nummer (ELIN)-Gateways gewechselt aktivieren.
   
 ### <a name="to-configure-an-e9-1-1-voice-route"></a>So konfigurieren Sie eine E9-1-1-VoIP-Route
 

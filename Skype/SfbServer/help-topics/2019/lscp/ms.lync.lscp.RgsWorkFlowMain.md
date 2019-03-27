@@ -1,5 +1,6 @@
 ---
-title: Workflow für reaktionsgruppen
+title: Workflow für Reaktionsgruppen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 ROBOTS: NOINDEX, NOFOLLOW
 description: Reaktionsgruppen bestehen aus agentgruppen, Warteschlangen und Workflows. Workflows für Reaktionsgruppen definieren die Aktionen, die ausgeführt werden, wenn die Anwendung "Reaktionsgruppe" einen Telefonanruf empfängt.
-ms.openlocfilehash: ac0e52d17bf29a63fa405264ca7d62f6d49d86df
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fad6e7ac71e36f89df712054d1322f8150bc1083
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247024"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899617"
 ---
-# <a name="response-groups-workflow"></a>Workflow für reaktionsgruppen
+# <a name="response-groups-workflow"></a>Workflow für Reaktionsgruppen
 
 Reaktionsgruppen bestehen aus agentgruppen, Warteschlangen und Workflows. Workflows für Reaktionsgruppen definieren die Aktionen, die ausgeführt werden, wenn die Anwendung "Reaktionsgruppe" einen Telefonanruf empfängt.
 
@@ -35,7 +36,7 @@ Sie können die folgenden Aufgaben ausführen, aus der **Reaktionsgruppen** - **
 
 ## <a name="ui-reference"></a>Referenz zur Benutzeroberfläche
 
-In der folgenden Liste sind die Befehle der Seite beschrieben.
+In der folgenden Liste werden die Befehle der Seite beschrieben.
 
 - **Erstellen oder Bearbeiten eines Workflows** Öffnet das Konfigurationstool für Reaktionsgruppen zu erstellen oder Bearbeiten eines Workflows.
 

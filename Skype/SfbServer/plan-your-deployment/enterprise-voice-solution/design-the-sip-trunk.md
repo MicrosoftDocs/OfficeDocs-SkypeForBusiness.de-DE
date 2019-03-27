@@ -1,5 +1,6 @@
 ---
 title: Entwerfen des SIP-Trunks für E9-1-1 in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: Planen Ihre SIP-Trunking-Topologien für eine Bereitstellung von E9-1-1, die SIP-Trunking-Anbietern in Skype für Business Server Enterprise-VoIP verwendet wird.
-ms.openlocfilehash: 7640cbd78dadaac999327becce360bf5ea865ef5
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 25d961c00eb701dce6386ce2a901c1fbe5cf3cde
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885538"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893640"
 ---
 # <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>Entwerfen des SIP-Trunks für E9-1-1 in Skype für Business Server
  

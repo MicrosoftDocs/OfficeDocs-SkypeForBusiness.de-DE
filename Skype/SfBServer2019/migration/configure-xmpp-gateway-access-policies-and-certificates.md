@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren von Zugriffsrichtlinien und Zertifikaten für XMPP-Gateways
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'XMPP-Verbund definiert eine externe Bereitstellung auf Grundlage von eXtensible Messaging and Presence Protocol (XMPP). XMPP-Konfiguration ermöglicht Benutzern den Zugriff auf XMPP-Domänenbenutzern anhand folgender Kriterien:'
-ms.openlocfilehash: 2ec2440365907632523728238c51cc90e894c84e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 65ef8904660eaa75ddd10238a6561ea91b9f7278
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027858"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889973"
 ---
 # <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>Konfigurieren von Zugriffsrichtlinien und Zertifikaten für XMPP-Gateways
 

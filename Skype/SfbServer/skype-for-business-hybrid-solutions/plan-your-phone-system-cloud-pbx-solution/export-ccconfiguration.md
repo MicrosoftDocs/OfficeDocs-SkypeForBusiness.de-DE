@@ -1,5 +1,6 @@
 ---
 title: Export-CcConfiguration
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
 description: Die Skype für Business Cloud Connector Edition-Konfiguration exportiert in einer lokalen Datei auf die Skype für Hostserver Business Cloud Connector Edition.
-ms.openlocfilehash: dfabf5f486190b13acd18f0ffcf67f9b7e37052c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8afca55e6727c84c579957de9e2010e84a72fb15
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894237"
 ---
 # <a name="export-ccconfiguration"></a>Export-CcConfiguration
  

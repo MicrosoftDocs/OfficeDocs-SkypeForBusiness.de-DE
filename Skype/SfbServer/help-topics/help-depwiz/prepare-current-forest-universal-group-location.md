@@ -1,5 +1,6 @@
 ---
 title: Vorbereiten der aktuellen Gesamtstruktur (Ort der universellen Gruppe)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1da76935-ab93-46e5-a862-3f2a77171760
 description: Sie müssen angeben, in dem Sie die universellen Gruppen in der Gesamtstruktur erstellt werden müssen. Die Seite Speicherort für universelle Gruppe verwendet die Domäne, in der Computer, auf dem Sie angemeldet sind ein Mitglied unverändert ist. Wenn Sie die universellen Gruppen in einer anderen Domäne als die standardmäßige lokale Domäne erstellen möchten, wählen Sie FQDN der Domäne, und geben Sie den vollqualifizierten Domänennamen (FQDN) in das Textfeld ein. Vorausgesetzt, ein alternativer Domäne hilfreich ist, wenn Sie die Gesamtstruktur vorbereiten Aufgabe, aus einer anderen Domäne ausgeführt werden als die universellen Gruppen werden soll erstellt werden. Klicken Sie auf Weiter, um fortzufahren.
-ms.openlocfilehash: 2f1c9d720f13341db5ca4c1e76448ca7a7f170c9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 47138aaaa9ed2d2dc1733c462e889fcfbfc3fa12
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21017789"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879195"
 ---
 # <a name="prepare-current-forest-universal-group-location"></a>Vorbereiten der aktuellen Gesamtstruktur (Ort der universellen Gruppe)
  

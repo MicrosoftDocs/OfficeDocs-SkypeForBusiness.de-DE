@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2.
-ms.openlocfilehash: fefad8a37d53760a81b2ea78e73bbd75069c848f
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: b3e6a6341e917b49eed6f1c89dcadfe29bcdaf10
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645356"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891599"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version 
 
@@ -53,9 +53,11 @@ In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype-Chatroom-Systemen v2 Feature Einführung und Behebung
 
+
 ### <a name="40780-03142018"></a>4.0.78.0 (14/03/2018)
 In diesem Update eingeführt:
 - Update für "hängt beim Start app" Fehler, die Geräte an, für die Vorversion Windows 10 RS2 Build betroffen.  
+
 
 ### <a name="40760-03042019"></a>4.0.76.0 (04/03/2019)
 In diesem Update eingeführt:
@@ -180,7 +182,7 @@ In diesem Update eingeführt:
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
 In diesem Update eingeführt: 
 - Auswahl des meeting Room Audio- und USB-Geräte in app-Benutzers
-- Integrierte Raum Konsole Statusberichte für Kunden mit Microsoft Operations Management Suite (finden Sie unter [Planen von Skype Raum v2 systemverwaltung mit OMS](oms-management.md)) 
+- Integrierte Raum Konsole Statusberichte für Kunden mit Microsoft Operations Management Suite jetzt Azure Monitor  
 
 ### <a name="release-to-market--1272016"></a>Version (7/12/2016) auf den Markt
 **Features:** 

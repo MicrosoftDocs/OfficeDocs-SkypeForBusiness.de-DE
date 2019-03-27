@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren des primären Verwaltungsservers
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Konfigurieren Sie Ihren primären Verwaltungsserver, Installieren von System Center Operations Manager und Importieren des Management Packs für Skype für Business Server 2019.'
-ms.openlocfilehash: 39ed469227c607084dc030fa003700074a6aae9a
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a1e77a46b450e7f2e8f706099224ae314618ed78
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536036"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895677"
 ---
 # <a name="configure-the-primary-management-server"></a>Konfigurieren des primären Verwaltungsservers
 
@@ -57,7 +58,7 @@ Sie können die Funktionen von System Center Operations Manager durch Installier
 - **Die Komponente und User Management Pack** (Microsoft.LS.2019.Monitoring.ComponentAndUser.mp) verfolgt Skype für Business Server Probleme in den Ereignisprotokollen aufgezeichnet, durch die Leistungsindikatoren registriert oder in der kommunikationsdatensätze (KDS) oder die Datenbanken Quality of Experience (QoE) angemeldet. Für kritische Probleme können System Center Operations Manager konfiguriert werden, um Administratoren über e-Mail, Sofortnachricht oder SMS messaging sofort zu benachrichtigen. (SMS ist die Technologie, die verwendet wird, um Textnachrichten von einem Mobilgerät an ein anderes zu senden.)
 
     > [!NOTE]
-    >  Ausführliche Informationen zum Konfigurieren von Operations Manager-Benachrichtigungen finden Sie unter [Konfigurieren von Benachrichtigungen](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
+    >  Ausführliche Informationen zum Konfigurieren von Operations Manager-Benachrichtigung finden Sie unter [Konfigurieren der Benachrichtigung](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
 
 - **Das aktive Monitoring Management Pack** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) Schlüssel proaktiv Tests Skype für Business Server-Komponenten, beispielsweise auf das System anmeldet, Sofortnachrichten austauschen oder tätigen von Anrufen bei einem Telefon befindet sich auf dem öffentlichen Telefonfestnetz (PSTN ). Diese Tests werden mithilfe der Skype for Business Server-Cmdlets für synthetische Transaktionen durchgeführt. Zum Beispiel wird das **Test-CsIM**-Cmdlet verwendet, um eine Sofortnachrichtenunterhaltung zwischen zwei Testbenutzern zu simulieren. Wenn bei dieser simulierten Nachrichtenunterhaltung ein Fehler auftritt, wird eine Benachrichtigung erzeugt.
 

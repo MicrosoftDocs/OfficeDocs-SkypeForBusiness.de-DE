@@ -1,5 +1,6 @@
 ---
 title: Bereitstellen von SRS v1 Administrative Webportal in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 description: Die Skype für Server Skype Raum Geschäftssystemen v1 (SRS v1, früher bekannt als Lync Raum System) Administrative Webportal ist ein Webportal, mit denen Organisationen können der Konferenzräume Skype Raum Systeme verwalten. Administratoren können dem SRS v1 Administrative Webportal Gerät Zustand, beispielsweise zu überwachen, durch die Überwachung der a/v-Geräte verwenden. Mit diesem Portal können Administratoren über Remoteverbindungen Diagnoseinformationen sammeln, um die Konferenzraumintegrität zu überwachen.
-ms.openlocfilehash: 6aa7b0d4f36fbffe29a27f77209fb6f2cf312c05
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d6575f83aaf76dee1255c37482cf4435e8e3771c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248131"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891945"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Bereitstellen von SRS v1 Administrative Webportal in Skype für Business Server
 
@@ -174,7 +175,7 @@ Im Abschnitt zu den Einstellungen können Sie das Kennwort, das Tag für den Rau
 
 ![Einstellungen für das Webportal zur Verwaltung des Lync-Raumsystems](../../media/LRS_AdminPortal_RoomInfoSettings.png)
 
-#### <a name="details"></a>Beschreibung
+#### <a name="details"></a>Details
 
 Im Detailbereich enthält eine schreibgeschützte Zusammenfassung der Einstellungen für den SRS Raum sowie: der Zeitpunkt der letzten Aktualisierung; nächsten Besprechung; zuletzt aktualisiert, Wartung und Kalibrierung; Standard Lautsprecher und Mikrofon sowie Rufton; Version. SIP-URI; die Anzahl der Bildschirme und Details zu jedem Bildschirm; Status und Aktivität.
 
@@ -193,7 +194,7 @@ Bereich "Health" bietet eine visuelle Darstellung der die Integrität der Skype 
 ### <a name="additional-notes-about-the-administrative-web-portal"></a>Weitere Hinweise zum Webportal für die Verwaltung
 
 > [!NOTE]
->  Ändert sich die Einstellung werden erst nach dem Neustart des Systems SRS angewendet. > Wenn das Kontokennwort LRSApp abläuft, Sie werden nicht den Status der Chatrooms anzeigen können. Konfigurieren Sie das Kontokennwort LRSAppuser, sodass es nie abläuft, oder müssen Sie unbedingt das Kennwort aktualisieren, wenn es in Ihrer Nähe Ablauf. > administrative Webportal der SRS wird für lokale Bereitstellungen nur unterstützt.
+>  Ändert sich die Einstellung werden angewendet, wenn das System SRS .> neu gestartet ist, wenn das Kontokennwort LRSApp abläuft, Sie werden nicht den Status der Chatrooms anzeigen. Konfigurieren Sie das Kontokennwort LRSAppuser, sodass es nie abläuft, oder müssen Sie unbedingt das Kennwort aktualisieren, wenn es in der Nähe der SRS administrative Expiration.>, dass nur lokale Bereitstellungen Webportal geführt wird.
 
 ### <a name="bulk-management"></a>Massenverwaltung 
 

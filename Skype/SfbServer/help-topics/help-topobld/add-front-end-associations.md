@@ -1,5 +1,6 @@
 ---
 title: Hinzufügen von Front-End-Zuordnungen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 description: 'Zum Aktivieren der Unterstützung für bestimmte Funktionen, für die andere Server bereitgestellt werden müssen, können Sie die Serverrollen nun dem Front-End-Pool zuordnen. Sie können Serverrollen auch zu einem späteren Zeitpunkt dem Front-End-Pool zuordnen. Die folgenden Serverrollen können einem Front-End-Pool zugeordnet werden:'
-ms.openlocfilehash: 21529f84255a907ca9df8a564789a53d4e4a03dd
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 448a73a00de558fcd04b1ae881ed0e1a2c239f0c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242274"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891461"
 ---
 # <a name="add-front-end-associations"></a>Hinzufügen von Front-End-Zuordnungen
 
 Zum Aktivieren der Unterstützung für bestimmte Funktionen, für die andere Server bereitgestellt werden müssen, können Sie die Serverrollen nun dem Front-End-Pool zuordnen. Sie können Serverrollen auch zu einem späteren Zeitpunkt dem Front-End-Pool zuordnen. Die folgenden Serverrollen können einem Front-End-Pool zugeordnet werden:
 
-- A / V-Edgeserver. Weitere Informationen zur Implementierung von ein A / V-Edgeserver finden Sie unter [Planen für Konferenzen](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) in der Planungsdokumentation.
+- A/V-Edgeserver: Ausführliche Informationen zur Implementierung eines A/V-Edgeservers finden Sie in der Planungsdokumentation unter [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx).
 
 > [!IMPORTANT]
 > Wenn Sie die Unterstützung dieser Funktionen nun aktivieren, umfasst der veröffentlichte Topologieentwurf die erforderlichen Serverkomponenten für die Implementierung der ausgewählten Funktionen. Um die Topologie ohne Fehler zu veröffentlichen, müssen die physischen Computer zur Domäne hinzugefügt werden. Wenn Sie zu diesem Zeitpunkt z. B. die Unterstützung der Archivierung aktivieren, müssen Sie einen Archivierungsserver bereitstellen und die entsprechenden Archivierungsoptionen konfigurieren, bevor Sie mit der Archivierung der Kommunikation für Ihre Organisation beginnen.

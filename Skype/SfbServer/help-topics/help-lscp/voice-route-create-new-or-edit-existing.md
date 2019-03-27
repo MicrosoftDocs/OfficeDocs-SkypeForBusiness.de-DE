@@ -1,5 +1,6 @@
 ---
 title: VoIP-Route Erstellen einer neuen oder Bearbeiten einer vorhandenen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 15e9f61ffd234b50394fed83cb14b2412093aa51
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: c125898dfd3596a1e49801d6fc8f0752bdb81332
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258291"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899680"
 ---
-# <a name="voice-route-create-new-or-edit-existing"></a>VoIP-Route: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen
+# <a name="voice-route-create-new-or-edit-existing"></a>VoIP-Route: Erstellen einer neuen oder Bearbeiten einer vorhandenen VoIP-Route
 
-Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
+Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 
 - [Erstellen oder Ändern einer VoIP-Route in Skype for Business 2015](../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 

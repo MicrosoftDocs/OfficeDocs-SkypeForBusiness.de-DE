@@ -1,5 +1,6 @@
 ---
 title: Plan für die anrufsteuerung in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Lernen Sie die anrufsteuerung, die verhindern kann Anrufe von stattfinden, wenn schlechte Medienqualität in Skype für Business Server Enterprise-VoIP vorhanden wäre.
-ms.openlocfilehash: db4b2f7a77885ff96a4b43b01aa2337996418217
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f02952c45badf26fa2e02a9d3d8349d087bbe6e8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883851"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897713"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Plan für die anrufsteuerung in Skype für Business Server
 
@@ -95,7 +96,7 @@ Die folgende Abbildung zeigt, wie die Anrufsteuerung für PSTN-Verbindungen mit 
 
 **Erzwingen der Anrufsteuerung für Verbindungen mit dem PSTN**
 
-![VoIP-Anrufsteuerung: Medienumgehung – Verbindungserzwingung](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![VoIP CAC Medienumgehung – Verbindungserzwingung](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 ## <a name="defining-your-requirements-for-call-admission-control"></a>Definieren der Anforderungen Ihrer Organisation für die Anrufsteuerung
 
@@ -118,7 +119,7 @@ Zur Erläuterung dieser Konzepte, verwenden wir die Beispiel-Netzwerktopologie i
 
 **Beispieltopologie für die Anrufsteuerung**
 
-![Litware Inc.: Netzwerktopologiebeispiel](../../media/Plan_CS_VoiceCAC_Litwarenetworktopo.jpg)
+![Nettwerktopologiebeispiel Litware Inc.](../../media/Plan_CS_VoiceCAC_Litwarenetworktopo.jpg)
 
 > [!NOTE]
 > Alle Netzwerkstandorte sind einer Netzwerkregion zugeordnet. Beispielsweise sind die Standorte „Portland“, „Reno“ und „Albuquerque“ in der Region „Nordamerika“ enthalten. In dieser Abbildung werden nur WAN-Verbindungen mit Bandbreiteneinschränkungen gezeigt, auf die Anrufsteuerungsrichtlinien angewendet werden. Die Netzwerkstandorte „Chicago“, „New York“ und „Detroit“ werden innerhalb des Regionenovals „Nordamerika“ angezeigt, da sie keine Bandbreiteneinschränkungen aufweisen und für diese Standorte daher keine Richtlinien für die Anrufsteuerung erforderlich sind.
@@ -146,7 +147,7 @@ CAC erfordert, dass eine Skype für Business Server zentralen Standort für jede
 |:-----|:-----|:-----|
 |Nordamerika  <br/> |Chicago  <br/> |Chicago  <br/> New York  <br/> Detroit  <br/> Portland  <br/> Reno  <br/> Albuquerque  <br/> |
 |EMEA  <br/> |London  <br/> |London  <br/> Köln  <br/> |
-|APAC  <br/> |Peking  <br/> |Peking  <br/> Manila  <br/> |
+|APAC  <br/> |Beijing (Peking)  <br/> |Peking  <br/> Manila  <br/> |
 
 ### <a name="identify-network-sites"></a>Identifizieren von Netzwerkstandorten
 
@@ -201,8 +202,8 @@ Verwenden Sie die folgende Tabelle, um die maximalen Bandbreiteneinstellungen pr
 |RTAudio (8 KHz)  <br/> |49,8 KBit/s  <br/> |61,6 KBit/s  <br/> |
 |RTAudio (16 kHz)  <br/> |67 KBit/s  <br/> |96 KBit/s  <br/> |
 |Siren  <br/> |57,6 KBit/s  <br/> |73,6 KBit/s  <br/> |
-|G. 711  <br/> |102 KBit/s  <br/> |166 KBit/s  <br/> |
-|G. 722  <br/> |105,6 KBit/s  <br/> |169,6 KBit/s  <br/> |
+|G.711  <br/> |102 KBit/s  <br/> |166 KBit/s  <br/> |
+|G.722  <br/> |105,6 KBit/s  <br/> |169,6 KBit/s  <br/> |
 |RTVideo (CIF mit 15 F/s)  <br/> |260 KBit/s  <br/> |Nicht zutreffend  <br/> |
 |RTVideo (VGA mit 30 F/s)  <br/> |610 KBit/s  <br/> |Nicht zutreffend  <br/> |
 
@@ -237,7 +238,7 @@ Arbeiten Sie mit Ihrem Netzwerkadministrator zusammen, um zu ermitteln, welche I
 Im hier verwendeten Beispiel sind dem Standort „New York“ in der Region „Nordamerika“ die folgenden IP-Subnetze zugewiesen: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Angenommen, der Benutzer Bob, der üblicherweise in Detroit arbeitet, reist für eine Schulung in das New Yorker Büro. Wenn er seinen Computer einschaltet und sich mit dem Netzwerk verbindet, erhält sein Computer eine IP-Adresse aus einem der vier Bereiche, die für „New York“ reserviert sind, beispielsweise 172.29.80.103.
 
 > [!CAUTION]
-> Die während der Netzwerkkonfiguration auf dem Server angegebenen IP-Subnetze müssen dem Format entsprechen, das von Clientcomputern bereitgestellt wird, damit eine ordnungsgemäße Verwendung für die Medienumgehung gewährleistet ist. Einen Skype für Business-Client nimmt seine lokale IP-Adresse und die IP-Adresse mit der zugehörigen Subnetzmaske maskiert. Bei Ermittlung der Umgehungs-ID für jeden Client vergleicht die Registrierung die Liste der IP-Subnetze für jeden Netzwerkstandort mit dem vom Client bereitgestellten Subnetz, um eine exakte Übereinstimmung zu ermitteln. Aus diesem Grund ist es wichtig, dass es sich bei den während der Netzwerkkonfiguration auf dem Server eingegebenen Subnetzen nicht um virtuelle, sondern um tatsächliche Subnetze handelt. (Wenn Sie die anrufsteuerung bereitstellen, aber keine medienumgehung, die anrufsteuerung funktioniert, auch wenn Sie virtuelle Subnetze konfigurieren.) Beispielsweise wenn ein Client auf einem Computer mit der IP-Adresse 172.29.81.57 IP-Subnetzmaske 255.255.255.0 anmeldet, anfordern Skype für Unternehmen die umgehungs-ID zugeordnet Subnetz 172.29.81.0. Wenn das Subnetz als 172.29.0.0/16 definiert ist, betrachtet die Registrierung dies – wenngleich der Client dem virtuellen Subnetz angehört – nicht als Übereinstimmung, da die Registrierung ausschließlich nach Subnetz 172.29.81.0 sucht. Aus diesem Grund ist es wichtig, dass der Administrator Subnetze gibt genau wie von Skype für Business Clients bereitgestellt wird (die mit Subnetze während der Netzwerkkonfiguration statisch oder von DHCP bereitgestellt werden.)
+> Die während der Netzwerkkonfiguration auf dem Server angegebenen IP-Subnetze müssen dem Format entsprechen, das von Clientcomputern bereitgestellt wird, damit eine ordnungsgemäße Verwendung für die Medienumgehung gewährleistet ist. Einen Skype für Business-Client nimmt seine lokale IP-Adresse und die IP-Adresse mit der zugehörigen Subnetzmaske maskiert. Bei Ermittlung der Umgehungs-ID für jeden Client vergleicht die Registrierung die Liste der IP-Subnetze für jeden Netzwerkstandort mit dem vom Client bereitgestellten Subnetz, um eine exakte Übereinstimmung zu ermitteln. Aus diesem Grund ist es wichtig, dass es sich bei den während der Netzwerkkonfiguration auf dem Server eingegebenen Subnetzen nicht um virtuelle, sondern um tatsächliche Subnetze handelt. (Wenn Sie die anrufsteuerung bereitstellen, aber keine medienumgehung, die anrufsteuerung funktioniert, auch wenn Sie virtuelle Subnetze konfigurieren.) Beispielsweise wenn ein Client auf einem Computer mit der IP-Adresse 172.29.81.57 IP-Subnetzmaske 255.255.255.0 anmeldet, anfordern Skype für Unternehmen die umgehungs-ID zugeordnet Subnetz 172.29.81.0. Wenn das Subnetz als 172.29.0.0/16 definiert ist, betrachtet die Registrierung dies – auch wenn der Client dem virtuellen Subnetz angehört – nicht als Übereinstimmung, da die Registrierung ausschließlich nach Subnetz 172.29.81.0 sucht. Aus diesem Grund ist es wichtig, dass der Administrator Subnetze gibt genau wie von Skype für Business Clients bereitgestellt wird (die mit Subnetze während der Netzwerkkonfiguration statisch oder von DHCP bereitgestellt werden.)
 
 ## <a name="best-practices-for-call-admission-control"></a>Bewährte Methoden für die Anrufsteuerung
 
@@ -252,7 +253,7 @@ Halten Sie sich bei der Bereitstellung der Anrufsteuerung an die folgenden bewä
 
 - Verwenden Sie Richtlinien für die Anrufsteuerung zur Ergänzung der QoS-Einstellungen.
 
-- Wenn Sie blockierte Anrufe zum PSTN umleiten möchten, überprüfen Sie die Funktionalität und die Kapazität des PSTN. Weitere Informationen hierzu finden Sie unter [Planen des Routings ausgehender Anrufe](https://technet.microsoft.com/library/37c55fa4-175a-4190-b9e4-c2e5ac7b9261.aspx).
+- Wenn Sie blockierte Anrufe zum PSTN umleiten möchten, überprüfen Sie die Funktionalität und die Kapazität des PSTN. Weitere Informationen hierzu finden Sie unter [Planning Outbound Call Routing](https://technet.microsoft.com/library/37c55fa4-175a-4190-b9e4-c2e5ac7b9261.aspx).
 
     > [!NOTE]
     > „Kapazität“ bezieht sich auf die Anzahl der Ports, die Sie zur Unterstützung einer möglichen PSTN-Umleitung öffnen müssen.

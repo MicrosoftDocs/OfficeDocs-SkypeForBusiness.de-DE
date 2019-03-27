@@ -1,5 +1,6 @@
 ---
-title: Konfigurieren der Unterstützung von Partnerverbund für einen Skype für Business Online-Kunden
+title: Konfigurieren der Unterstützung für Partnerverbund mit einem Skype for Business Online-Kunden
+ms.reviewer: ''
 ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
 ms:contentKeyID: 48185669
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Wenn Sie Skype für Unternehmen in Ihrer Organisation bereitstellen, können Sie für Business Online-Kunden einen Verbund mit der eine oder mehrere Skype-Domänen konfigurieren. '
-ms.openlocfilehash: 978da18a4ae639e52dedd6971c1a2291c94cb9f1
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 70eda58c5d01b09c9f3e00ef8f3ac0391a90ed07
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223367"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899722"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Konfigurieren von verbundunterstützung für einen Skype für Business Online-Kunden in Skype für Business Server 
 
@@ -70,7 +71,7 @@ Einrichten eines partnerverbunds mit einem Skype für Business Online-Kunden mü
     
       - **Identität** gibt einen eindeutigen Zeichenfolgenwert für den Hostinganbieter, den Sie erstellen. Beachten Sie, dass der Befehl nicht erfolgreich ist, wenn bereits ein Anbieter mit dieser Identität konfiguriert wurde.
     
-      - **ProxyFQDN** gibt den vollqualifizierten Domänennamen (FQDN) für die vom Hostinganbieter verwendete Proxyserver. Dieser Wert kann nicht geändert werden. Wenn der Hostinganbieter seinen Proxyserver ändert, muss der Eintrag für diesen Anbieter gelöscht und neu erstellt werden.
+      - **ProxyFQDN** gibt den vollqualifizierten Domänennamen (FQDN) des vom Hostinganbieter verwendeten Proxyservers an. Dieser Wert kann nicht geändert werden. Wenn der Hostinganbieter seinen Proxyserver ändert, muss der Eintrag für diesen Anbieter gelöscht und neu erstellt werden.
     
       - **VerificationLevel** gibt an, wie (oder ob) von einem Hostinganbieter gesendete Nachrichten überprüft werden, um sicherzustellen, dass sie von diesem Anbieter gesendet wurden.
     

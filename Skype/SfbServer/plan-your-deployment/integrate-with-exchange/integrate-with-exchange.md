@@ -1,5 +1,6 @@
 ---
 title: Plan zur Integration von Skype for Business mit Exchange Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Zusammenfassung: In diesem Thema finden Sie Informationen zur Integration von Skype for Business Server in Exchange Server 2016 oder Exchange Server 2013.'
-ms.openlocfilehash: 13be5cf29369b84db74052b36dec288220b91395
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: 3e94e1ab399e8a8a825826e37a281b377a31037e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015340"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892336"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plan zur Integration von Skype for Business mit Exchange Server
  
@@ -100,18 +101,18 @@ Die folgende Tabelle zeigt Einzelheiten zu den unterstützten Funktionen in vers
 |Veröffentlichen des Status basierend auf den Frei/Gebucht-Informationen im Outlook-Kalender  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |
 |Kontaktliste (über den einheitlichen Kontaktspeicher)  <br/> |J (erfordert Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
 |Hochauflösende Kontaktfotos (Erfordert mindestens Lync 2013- oder Skype for Business-Clients. Nicht unterstützt für LWA, mobile Apps, Lync 2010, Lync für Mac und andere ältere Clients.)  <br/> |J (erfordert Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |J  <br/> |J  <br/> |
-|Besprechungsdelegation  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |
+|Besprechungsdelegation  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |Y  <br/> |
 |Die Protokolle der verpassten Unterhaltungen und Anruflisten werden in das Exchange-Postfach des Benutzers geschrieben.  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |J  <br/> |
 |Inhalt wird in Exchange archiviert (Chat und Besprechung).  <br/> |J (erfordert Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
 |Durchsuchen von archivierten Inhalten  <br/> |J (erfordert Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
 |Exchange UM-Voicemail  <br/> |J  <br/> |J  <br/> |N  <br/> |N  <br/> |N  <br/> |
-|Serverseitig aufgezeichnete Unterhaltungen  <br/> |J  <br/> |J  <br/> |N  <br/> |J  <br/> |J  <br/> |
+|Serverseitig aufgezeichnete Unterhaltungen  <br/> |J  <br/> |J  <br/> |N  <br/> |J  <br/> |Y  <br/> |
 
 > [!NOTE]
 > Es ist ein Cloud-Voicemail-Dienst, der für Skype für Business Online, Skype für Business Server 2019, Skype für Business Server 2015 und Lync Server 2013 unterstützt wird.
 > 
 
-## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
+## <a name="see-also"></a>Siehe auch
 <a name="feature_support"> </a>
 
 [Konfigurieren der Integration zwischen einer lokalen Skype for Business Server-Bereitstellung und Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)

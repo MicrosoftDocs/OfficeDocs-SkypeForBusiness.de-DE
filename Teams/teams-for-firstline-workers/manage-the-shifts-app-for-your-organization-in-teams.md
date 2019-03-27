@@ -1,5 +1,6 @@
 ---
 title: Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
+author: kenwith
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -14,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 994d83645c272b2beed4752c7cdaaeaef6c9cd0f
-ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
+ms.openlocfilehash: fdb34f0cc1df67350ec5224e02d5922d49b2663f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30537732"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891636"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
 

@@ -1,5 +1,6 @@
 ---
 title: Hinzufügen des nächsten Hops für den VIS
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8c25449d-375b-477b-b8d0-ed19e6775906
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator sind online unter Erstellen eines Pools gegenüber in Skype für Business Server beschrieben.
-ms.openlocfilehash: 8c1a05ae438eca11039d34637050ae225c6a1d64
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 683e1a7428a0ebb6ad268c5692efd1a6eb4566fd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082615"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890641"
 ---
 # <a name="add-vis-next-hop"></a>Hinzufügen des nächsten Hops für den VIS
  

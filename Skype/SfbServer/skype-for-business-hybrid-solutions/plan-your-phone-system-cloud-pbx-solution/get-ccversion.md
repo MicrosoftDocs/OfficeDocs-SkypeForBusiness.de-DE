@@ -1,5 +1,6 @@
 ---
 title: Get-CcVersion
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d370abd-0c01-4490-88a1-55b42e51b663
 description: Gibt die Version der Cloud Connector Appliance zurück. Get-CCVersion kann nur auf dem Hostcomputer der Cloud-Verbindung verwendet werden.
-ms.openlocfilehash: 8391264603a73e3f594122dcdd2eb62b9ba19978
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5e5428e53d53eec66bafa9eb566059ef1b5a5833
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881333"
 ---
 # <a name="get-ccversion"></a>Get-CcVersion
  
@@ -32,7 +34,7 @@ Gibt die Version der Cloud Connector Appliance basierend auf PowerShell-Skripts 
 
 |**Parameter**|**Erforderlich**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|
-|VersionType  <br/> |Optional   <br/> |System.String  <br/> |Typ der Version. Wert des Parameters kann RunningScripts, RunningBits, BackupBits oder alle entsprechen. Standardwert ist RunningScripts.  <br/> |
+|VersionType  <br/> |Optional  <br/> |System.String  <br/> |Typ der Version. Wert des Parameters kann RunningScripts, RunningBits, BackupBits oder alle entsprechen. Standardwert ist RunningScripts.  <br/> |
    
 ## <a name="examples"></a>Beispiele
 <a name="Examples"> </a>

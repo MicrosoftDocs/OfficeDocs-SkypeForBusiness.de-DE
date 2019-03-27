@@ -1,5 +1,6 @@
 ---
 title: CQD-Entwicklungsbeispiele
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Zusammenfassung: Überprüfen einer Lernprogramm und Entwicklung Beispiele für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 994a26af99ec141b531ed3011a42f626c0c62886
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: eb2e195a9eaac54b01af6d0da498fda6fafe374c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531067"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887372"
 ---
 # <a name="cqd-development-samples"></a>CQD-Entwicklungsbeispiele
 
@@ -346,14 +347,14 @@ Im Folgenden erhalten Sie detaillierte Anweisungen zum Abruf der Scorecard-Seite
    ],
    ```
 
-   Hier die Dimension `[Scenarios].[ScenarioPair]` wird festgelegt, `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. Die `[Scenario.][ScenarioPair]` ist eine spezielle Dimension erstellt, um den Bericht erstellen zu vereinfachen. Sie hat sechs Werte: `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. Um ein Szenario definieren zu können, brauchen wir also anstelle einer Kombination von 6 Filtern nur 1 Filter. In unserem Beispiel der Wert `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` übersetzt für das Szenario, in dem: zuerst Server ist, Zweitens ist kein Server, zuerst ist innerhalb, Zweitens innerhalb, erste Verbindungstyp ist verkabelt und zweiten Verbindungstyp ist verkabelt, also die genaue Definition " Server-Client-Inside verkabelt".
+   Hier die Dimension `[Scenarios].[ScenarioPair]` wird festgelegt, `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. Die `[Scenario.][ScenarioPair]` ist eine spezielle Dimension erstellt, um den Bericht erstellen zu vereinfachen. Es hat sechs entsprechenden Werte `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. Um ein Szenario definieren zu können, brauchen wir also anstelle einer Kombination von 6 Filtern nur 1 Filter. In unserem Beispiel der Wert `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` übersetzt für das Szenario, in dem: zuerst Server ist, Zweitens ist kein Server, zuerst ist innerhalb, Zweitens innerhalb, erste Verbindungstyp ist verkabelt und zweiten Verbindungstyp ist verkabelt, also die genaue Definition " Server-Client-Inside verkabelt".
 
 3. Erstellen Sie einen einzelnen Filtersatz pro Szenario. In der Abbildung steht jede Zeile in der Scorecard für ein anderes Szenario, das wiederum für einen anderen Filter steht (während Dimensionen und Messwerte gleich bleiben). 
 
 4. Analysieren Sie die Ergebnisse aus den AJAX-Abrufen und fügen Sie sie an der richtigen Stelle in der Tabelle ein. Da es sich hierbei in der Hauptsache um eine HTML- und JavaScript-Manipulation handelt, gehen wir nicht im Detail darauf ein. Den Code finden Sie in Anhang A.
 
     > [!NOTE]
-    >  Wenn Cross-Origin Resource Sharing (CORS) aktiviert ist, können Benutzer Fehler auftreten, wie "keine"Access-Steuerelement-zulassen-Ursprung"-Header auf die angeforderte Ressource vorhanden ist. Ursprung "Null" ist daher nicht Zugriff zulässig". Um das Problem zu lösen, speichern Sie die HTML-Datei in dem Ordner, in dem auch das Portal installiert ist (standardmäßig unter `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`. Rufen Sie über einen beliebigen Browser mit der URL den HTML-Code `http://<servername>/cqd/<html_file_name>`. (Die Standard-URL für lokale CQD Dashboard ist `http://<servername>/cqd.`) 
+    >  Wenn Cross-Origin Resource Sharing (CORS) aktiviert ist, können Benutzer Fehler auftreten, wie "keine"Access-Steuerelement-zulassen-Ursprung"-Header auf die angeforderte Ressource vorhanden ist. Ursprung "Null" ist daher nicht Zugriff zulässig". Um das Problem zu beheben, platzieren Sie die HTML-Datei unter dem Ordner, in dem das Portal installiert ist (Standardmäßig wird `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`. Rufen Sie über einen beliebigen Browser mit der URL den HTML-Code `http://<servername>/cqd/<html_file_name>`. (Die Standard-URL für lokale CQD Dashboard ist `http://<servername>/cqd.`) 
 
 ### <a name="appendix-a"></a>Anhang A
 

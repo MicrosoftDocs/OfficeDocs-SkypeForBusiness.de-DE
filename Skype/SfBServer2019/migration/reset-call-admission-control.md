@@ -1,5 +1,6 @@
 ---
 title: Zurücksetzen der Anrufsteuerung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Wenn eine Deaktivierung von Front-End-Pools die anrufsteuerung (CAC) gehostet wird, müssen Sie verschieben, CAC hosting an einen Skype für Business Server 2019 Pool, bevor Sie den legacy-Front-End-Pool entfernen können.
-ms.openlocfilehash: 65d56d000c5bcec5f7aae73413c287dee8ab29ca
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3b94322b86feb2c647f88102617ab1dcc9d5f8bc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027319"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895775"
 ---
 # <a name="reset-call-admission-control"></a>Zurücksetzen der Anrufsteuerung
 

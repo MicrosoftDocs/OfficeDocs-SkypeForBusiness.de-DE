@@ -1,5 +1,6 @@
 ---
-title: Die Medienumgehung (Planungstool)
+title: Media Bypass (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die medienumgehung wird der Vermittlungsserver aus dem Medienpfad nach Möglichkeit für Anrufe, deren Signaldaten über den Vermittlungsserver durchläuft. Weitere Informationen finden Sie unter Plan für Medien in Skype für Unternehmen zu umgehen.
-ms.openlocfilehash: 601bf7a12a077dc2e820849b92c924711a19da0d
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: f0045ae5b4124d1135c6d3f771c501e3c35a1dd0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21058668"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895454"
 ---
-# <a name="media-bypass-planning-tool"></a>Die Medienumgehung (Planungstool)
+# <a name="media-bypass-planning-tool"></a>Media Bypass (Planning Tool)
  
 Die medienumgehung wird der Vermittlungsserver aus dem Medienpfad nach Möglichkeit für Anrufe, deren Signaldaten über den Vermittlungsserver durchläuft. Weitere Informationen finden Sie unter [Plan für Medien in Skype für Unternehmen zu umgehen](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
   

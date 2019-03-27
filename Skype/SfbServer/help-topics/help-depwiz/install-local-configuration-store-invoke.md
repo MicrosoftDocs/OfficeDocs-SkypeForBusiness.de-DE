@@ -1,5 +1,6 @@
 ---
 title: Installieren des lokalen Konfigurationsspeichers (Aufruf)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 description: 'Bereich Befehle ausführen zeigt den Status von Vorgängen für die Installation von der lokalen schreibgeschützten Replikat des zentralen Verwaltungsspeichers. Während die Aufgaben ausgeführt werden, wird im Aufgabenbereich aktualisiert, wenn die Befehle ausgeführt werden. Überprüfen Sie den Aufgabenstatus, und beachten Sie etwaige Fehler oder Warnungen, die angezeigt werden. Wenn die Aufgaben abgeschlossen sind, die Nachricht Aufgabenstatus: abgeschlossen angezeigt wird, und die Dropdown Liste für die Protokolldateien werden die Namen der Protokolldateien angezeigt. Zum Anzeigen der Protokolldateien, die erstellt wurden, wählen Sie eine Protokolldatei anzeigen, und klicken Sie auf Protokoll anzeigen. Überprüfen Sie alle Protokolldateien für Erfolg, Fehler und Fehlermeldungen.'
-ms.openlocfilehash: 167c75345d08051c93a62977f1e22c9b6fc9880f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0d4bb71821751c1eefa750ceb3fcc7ab5ae309be
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987649"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892490"
 ---
 # <a name="install-local-configuration-store-invoke"></a>Installieren des lokalen Konfigurationsspeichers (Aufruf)
  

@@ -1,5 +1,6 @@
 ---
 title: Manuelles Löschen der KDS- und Quality of Experience-Datenbanken in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: 'Zusammenfassung: Erfahren Sie, wie Manuelles Löschen von Datensätzen KDS und die QoE-Datenbank von Skype für Business Server verwendet wird.'
-ms.openlocfilehash: 14218bbc6af3d05cba3c9886da70ab7155d05159
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 55582d28541e798e8ab1c488fb6eeed266bd29b9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006082"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879833"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Manuelles Löschen der KDS- und Quality of Experience-Datenbanken in Skype für Business Server
  
@@ -26,7 +27,7 @@ Die KDS- und die QoE-Datenbank können manuell oder automatisch von Datensätzen
 
 Administratoren können die Datenbank für die Aufzeichnung von Kommunikationsdatensätzen (KDS) und/oder die QoE-Datenbanken (Quality of Experience) so konfigurieren, dass alte Datensätze automatisch aus der Datenbank gelöscht werden. Dies ist der Fall, wenn der Löschvorgang für die angegebene Datenbank (KDS oder QoE) aktiviert wurde und wenn Datensätze vorhanden sind, die länger als der angegebene Zeitraum in der Datenbank vorhanden waren. Administratoren können das System beispielsweise so konfigurieren, dass täglich um 1:00 Uhr QoE-Datensätze, die älter als 60 Tage sind, aus der QoE-Datenbank gelöscht werden.
   
-Zusätzlich zu, dass automatische Löschung, zwei neue Cmdlets & #x 2014; Rufen Sie CsCdrDatabasePurge und Aufrufen CsQoEDatbasePurge & #x 2014; Skype wurden für Business Server hinzugefügt; Diese Cmdlets ermöglichen Administratoren die Datensätze aus der KDS und QoE-Datenbanken können Sie jederzeit manuell zu löschen. Beispielsweise um Manuelles Löschen aller Datensätze von mehr als 10 Tage alt sind, aus der CDR-Datenbank einen ähnlichen Befehl wie können Sie:
+Zusätzlich zu den automatische Löschung; zwei neue Cmdlets & #x 2014 Rufen Sie CsCdrDatabasePurge und Aufrufen CsQoEDatbasePurge & #x 2014; Skype wurden für Business Server hinzugefügt; Diese Cmdlets ermöglichen Administratoren die Datensätze aus der KDS und QoE-Datenbanken können Sie jederzeit manuell zu löschen. Beispielsweise um Manuelles Löschen aller Datensätze von mehr als 10 Tage alt sind, aus der CDR-Datenbank einen ähnlichen Befehl wie können Sie:
   
 ```
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10

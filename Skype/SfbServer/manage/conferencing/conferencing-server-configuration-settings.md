@@ -1,5 +1,6 @@
 ---
 title: Verwalten von Server konferenzkonfigurationseinstellungen in Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 'Zusammenfassung: Erfahren Sie, wie Server konferenzkonfigurationseinstellungen in Skype für Business Server verwalten.'
-ms.openlocfilehash: ede34c37e957340f0aa01ac511378d2f4bb3a80e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a12226f9f7d56f9f8a61b6f820a2c0f9744121fc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21009894"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890381"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Verwalten von Server konferenzkonfigurationseinstellungen in Skype für Business Server
  
@@ -22,7 +23,7 @@ ms.locfileid: "21009894"
   
 In diesem Themenbereich wird die Verwaltung der Einstellungen der Konferenzkonfiguration beschrieben. Weitere Informationen zum Planen und Bereitstellen von Konferenzen finden Sie unter [Planen von Konferenzen in Skype für Business Server](../../plan-your-deployment/conferencing/conferencing.md) und [Konferenzen in Skype für Business Server bereitstellen](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
-Konferenzkonfigurationseinstellungen bestimmen anderem als die maximal zulässige Größe für Besprechungsinhalte und Ausdrucke. maximal Bandbreite für die Anwendung Anwendungsfreigabe-Konferenzdienst Speichergrenzwerte und Zeitlimits; die URLs für die interne und externe heruntergeladen unterstützten Clients. Zeiger auf die internen und externen URLs, in dem Benutzer Konferenzen Ressourcen erhalten Sie Hilfe und können; und die verwendeten Ports für die Anwendungsfreigabe, Client-Audio, dateiübertragungen und Mediendatenverkehr. Mit diesen Einstellungen können Sie die aktuellen Server selbst verwalten. Diese Einstellungen können mithilfe von Skype für Business Server-Verwaltungsshell festgelegt werden.
+Konferenzkonfigurationseinstellungen bestimmen anderem als die maximal zulässige Größe für Besprechungsinhalte und Ausdrucke. maximal Bandbreite für die Anwendung Anwendungsfreigabe-Konferenzdienst Speichergrenzwerte und Zeitlimits; die URLs für die interne und externe heruntergeladen unterstützten Clients. Zeiger auf die internen und externen URLs, in dem Benutzer Konferenzen Ressourcen erhalten Sie Hilfe und können; und die verwendeten Ports für die Anwendungsfreigabe, Client-Audio, dateiübertragungen und Mediendatenverkehr. Diese Einstellungen ermöglichen es Ihnen, die eigentlichen Server selbst zu verwalten. Diese Einstellungen können mithilfe von Skype für Business Server-Verwaltungsshell festgelegt werden.
   
 Wenn Sie Skype für Business Server installieren, enthält das System eine einzelne Auflistung von Konferenzen Konfigurationseinstellungen (die globale Auflistung). Wenn Sie benutzerdefinierte Einstellungen für einen Standort oder Dienst erstellen müssen, können Sie mit dem Cmdlet **New-CsConferencingConfiguration** tun. Beachten Sie, dass die neue Einstellungen nur auf Standortebene Standort oder Dienst angewendet werden können. Sie können keine neue globale Auflistung von Konferenzen Konfigurationseinstellungen erstellen, aber Sie können die globale Auflistung mithilfe des Cmdlets **Set-CsConferencingConfiguration** ändern. Darüber hinaus kann keine Standort oder Dienst mehr als eine Auflistung von Einstellungen hosten. Wenn Sie versuchen zum Erstellen neuer Einstellungen für die Redmond-Website und die Redmond Website bereits enthält eine Auflistung von konferenzkonfigurationseinstellungen und dann den gewünschten Befehl schlägt fehl.
   
@@ -35,7 +36,7 @@ Verwenden Sie zum Verwalten von konferenzkonfigurationseinstellungen mithilfe vo
 |**Cmdlet**|**Beschreibung**|
 |:-----|:-----|
 |[Get-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csconferencingconfiguration?view=skype-ps) <br/> |Gibt Informationen zu den in Ihrer Organisation verwendeten Konferenzkonfigurationseinstellungen zurück.  <br/> |
-|[Mit New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> |Erstellt eine neue Auflistung von Konferenzkonfigurationseinstellungen.  <br/> |
+|[New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> |Erstellt eine neue Auflistung von Konferenzkonfigurationseinstellungen.  <br/> |
 |[Remove-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingconfiguration?view=skype-ps) <br/> |Entfernt die angegebene Auflistung von Konferenzkonfigurationseinstellungen.  <br/> |
 |[Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> |Ändert eine vorhandene Auflistung von Konfigurationseinstellungen für Konferenzen.  <br/> |
    

@@ -1,5 +1,6 @@
 ---
 title: Office 365-Gruppen und Microsoft-Teams
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae3a64111ae00241d88ed6ef4b02948f1c8c75a0
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 8a456e0777d354585eddf3676f2fdcae56ae9485
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641200"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890094"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365-Gruppen und Microsoft-Teams
 =====================================
@@ -34,7 +35,7 @@ Ein Office 365-Administrator kann Definieren einer Office 365-Gruppe, Hinzufüge
 <a name="how-office-365-groups-work"></a>Funktionsweise von Office 365-Gruppen
 --------------------------
 
-Beim Erstellen eines Teams für die Back-End-erstellen Sie eine Office 365-Gruppe und die zugeordneten SharePoint-Dokumentbibliothek und OneNote-Notizbuch zusammen mit Einbindung in anderen Office 365-Cloud-Anwendungen. Wenn die Person, die das Team erstellt einen Besitzer einer vorhandenen Office 365 öffentlichen oder privaten Gruppe ist, können sie der Gruppe Teams Funktionen hinzufügen mit weniger als 2500 Personen und Teams nie hinzugefügt wurde. Erstellt einen **allgemeinen** Standard-Kanal Nachrichten, Dokumente, OneNote und andere Objekte in der befinden. Anzeigen der Dokumentbibliothek für den DDE-Kanal informiert, auf den Ordner **Allgemein** , den Kanal im Team darstellt. Wichtiger, wenn Sie Ihre eigene Ordnerstruktur in einem Dokumentbibliothek **werden nicht weitergegeben** , Teams als Kanal; erstellen für den Moment fließt er nur von Teams in SharePoint.
+Beim Erstellen eines Teams für die Back-End-erstellen Sie eine Office 365-Gruppe und die zugeordneten SharePoint-Dokumentbibliothek und OneNote-Notizbuch zusammen mit Einbindung in anderen Office 365-Cloud-Anwendungen. Wenn die Person, die das Team erstellt einen Besitzer einer vorhandenen Office 365 öffentlichen oder privaten Gruppe ist, können sie Teams Funktionalität zur Gruppe hinzufügen, mit weniger als 5.000 Mitarbeitern und Teams nie hinzugefügt wurde. Erstellt einen **allgemeinen** Standard-Kanal Nachrichten, Dokumente, OneNote und andere Objekte in der befinden. Anzeigen der Dokumentbibliothek für den DDE-Kanal informiert, auf den Ordner **Allgemein** , den Kanal im Team darstellt. Wichtiger, wenn Sie Ihre eigene Ordnerstruktur in einem Dokumentbibliothek **werden nicht weitergegeben** , Teams als Kanal; erstellen für den Moment fließt er nur von Teams in SharePoint.
 
 > [!NOTE]
 > Basierend auf Feedback von Kunden, neue Office 365 Gruppen infolge einer erstellen ein Team in Microsoft-Teams, nicht mehr in Outlook standardmäßig angezeigt. Für Kunden, die das vorhandene Verhalten der mit diesen Gruppen in Outlook fortsetzen möchten, wird die Gruppe die für die benutzerfreundlichkeit von Outlook ermöglichen können ein Exchange Online PowerShell-Cmdlet bereitgestellt werden. Gruppen über Outlook erstellt und dann später für Teams aktiviert werden weiterhin in Outlook und Teams angezeigt. Dieses Update wird schrittweise Roll out über Outlook und Teams in den nächsten Monaten.

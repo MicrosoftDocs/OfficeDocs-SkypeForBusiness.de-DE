@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren von Add-Ins für beständige Chatrooms in Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Zusammenfassung: Informationen Sie zum Konfigurieren von Add-Ins für Chatrooms Persistent Chat Server in Skype für Business Server 2015.'
-ms.openlocfilehash: 4fe6c5fa15118949bd559ddb280ddf56fe41b360
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b43340f44b7ce41a1d77768f10a96bff651afc3f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372699"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885954"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Konfigurieren von Add-Ins für beständige Chatrooms in Skype for Business Server 2015
  
@@ -54,15 +55,15 @@ So konfigurieren Sie Add-Ins für Chatrooms mithilfe der Systemsteuerung:
     
 ## <a name="configure-add-ins-by-using-windows-powershell"></a>Konfigurieren von Add-Ins mithilfe von Windows PowerShell
 
-Sie können Add-Ins für Chatrooms mithilfe der Windows PowerShell-Cmdlets konfigurieren. Ausführliche Informationen zur Syntax, einschließlich aller verfügbaren Parameter finden Sie unter [Skype für Business Server 2015-Verwaltungsshell](../management-shell.md).
+Sie können Add-Ins für Chatrooms mithilfe der Windows PowerShell-Cmdlets konfigurieren. Ausführliche Informationen zur Syntax einschließlich aller verfügbaren Parameter finden Sie unter [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 
 |**Cmdlet**|**Beschreibung**|
 |:-----|:-----|
-|"New-cspersistentchataddin"  <br/> |Erstellt ein neues Add-In  <br/> |
-|"Set-cspersistentchataddin"  <br/> |Konfiguriert Einstellungen für ein vorhandenes Add-In  <br/> |
-|"Get-cspersistentchataddin"  <br/> |Ruft Informationen über Add-Ins ab  <br/> |
-|"Remove-cspersistentchataddin"  <br/> |Entfernt ein Add-In  <br/> |
+|New-CsPersistentChatAddin  <br/> |Erstellt ein neues Add-In  <br/> |
+|Set-CsPersistentChatAddin  <br/> |Konfiguriert Einstellungen für ein vorhandenes Add-In  <br/> |
+|Get-CsPersistentChatAddin  <br/> |Ruft Informationen über Add-Ins ab  <br/> |
+|Remove-CsPersistentChatAddin  <br/> |Entfernt ein Add-In  <br/> |
    
 ### <a name="create-a-new-add-in"></a>Erstellt ein neues Add-In
 

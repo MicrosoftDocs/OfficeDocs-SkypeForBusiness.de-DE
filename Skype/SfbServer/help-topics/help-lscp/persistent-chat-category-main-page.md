@@ -1,5 +1,6 @@
 ---
 title: Kategorie für beständigen Chat – Hauptseite
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
-description: Auf der Seite Beständiger Chat können Sie den Abschnitt Kategorie verwenden, um Kategorien zu konfigurieren. Eine Kategorie für beständigen Chat Raum ist eine logische Struktur zum Organisieren von Chatrooms. In einer Kategorie ist eine Standardgruppe von Zugriffssteuerungslisten (Access Control Lists, ACLs) zum Steuern der Benutzer und Benutzergruppen definiert, die zum Erstellen oder zum Beitreten zu Chatrooms berechtigt sind. Sie können Kategorien verwenden, um „Chinesische Mauern“ zwischen verschiedenen Unterabteilungen der Organisationen einzurichten.
-ms.openlocfilehash: 3fdc450ee913e20885e8582bff4ba0dbdcc70867
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: Auf der Seite Beständiger Chat können Sie den Abschnitt Kategorie verwenden, um Kategorien zu konfigurieren. Eine Kategorie für beständigen Chat Raum ist eine logische Struktur zum Organisieren von Chatrooms. In einer Kategorie ist eine Standardgruppe von Zugriffssteuerungslisten (Access Control Lists, ACLs) zum Steuern der Benutzer und Benutzergruppen definiert, die zum Erstellen von oder zum Beitreten zu Chatrooms berechtigt sind. Sie können Kategorien verwenden, um „Chinesische Mauern“ zwischen verschiedenen Unterabteilungen der Organisationen einzurichten.
+ms.openlocfilehash: b54a8d5299049f33bc366cde0988bcb92be5640e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371936"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899313"
 ---
 # <a name="persistent-chat-category-main-page"></a>Kategorie für beständigen Chat – Hauptseite
  
-Auf der Seite **Beständiger Chat** können Sie den Abschnitt **Kategorie** verwenden, um Kategorien zu konfigurieren. Eine Kategorie für beständigen Chat Raum ist eine logische Struktur zum Organisieren von Chatrooms. In einer Kategorie ist eine Standardgruppe von Zugriffssteuerungslisten (Access Control Lists, ACLs) zum Steuern der Benutzer und Benutzergruppen definiert, die zum Erstellen oder zum Beitreten zu Chatrooms berechtigt sind. Sie können Kategorien verwenden, um „Chinesische Mauern“ zwischen verschiedenen Unterabteilungen der Organisationen einzurichten.
+Auf der Seite **Beständiger Chat** können Sie den Abschnitt **Kategorie** verwenden, um Kategorien zu konfigurieren. Eine Kategorie für beständigen Chat Raum ist eine logische Struktur zum Organisieren von Chatrooms. In einer Kategorie ist eine Standardgruppe von Zugriffssteuerungslisten (Access Control Lists, ACLs) zum Steuern der Benutzer und Benutzergruppen definiert, die zum Erstellen von oder zum Beitreten zu Chatrooms berechtigt sind. Sie können Kategorien verwenden, um „Chinesische Mauern“ zwischen verschiedenen Unterabteilungen der Organisationen einzurichten.
   
 Chatroomkategorien können Chatrooms enthalten, jedoch keine anderen Kategorien. Jeder Kategorie beschrieben, dessen Inhalt mit Metadaten wie der _Name_ und _Beschreibung_. Darüber hinaus wurde die Kategorie Eigenschaften, die zum Steuern des Verhaltens von der zugehörigen, Chatrooms festgelegt werden können beispielsweise, wenn die Chatrooms _Einladungen_ oder _Dateiuploads_zulassen oder _Den Chatverlauf_enthalten.
   
@@ -39,7 +40,7 @@ Auf der Seite **Kategorie** können Sie die folgenden Aufgaben ausführen:
     
 ## <a name="to-configure-categories-for-persistent-chat-rooms"></a>So konfigurieren Sie Kategorien für Chatrooms für beständigen Chat
 
-1. Melden Sie sich mit einem Benutzerkonto, das über die Rolle „CsPersistentChatAdministrator“ oder „CsAdministrator“ verfügt, bei einem Computer in Ihrer internen Bereitstellung an.
+1. Melden Sie sich mit einem Benutzerkonto, das über die Rolle „CsPersistentChatAdministrator“ oder „CsAdministrator-Rolle“ verfügt, bei einem Computer in Ihrer internen Bereitstellung an.
     
 2. Im Menü **Start** wählen Sie die Skype für Business Server-Systemsteuerung oder öffnen Sie ein Browserfenster, und geben Sie die Admin-URL. .
     
@@ -55,7 +56,7 @@ Auf der Seite **Kategorie** können Sie die folgenden Aufgaben ausführen:
     
 7. Geben Sie unter **Name** einen Namen für die neue Raumkategorie an.
     
-8. Geben Sie unter **Beschreibung** Einzelheiten zur Raumkategorie an (z. B. eine Raumkategorie für Contoso).
+8. Geben Sie unter **Beschreibung** Einzelheiten über die Raumkategorie an (z. B. eine Raumkategorie für Contoso).
     
 9. Klicken Sie zum Steuern, ob Einladungen für Chatrooms aktiviert werden können, die dieser Kategorie angehören, aktivieren Sie oder deaktivieren Sie das Kontrollkästchen **Einladungen zu aktivieren** . Wenn ausgewählt haben, können in dieser Kategorie Chatrooms Einladungen aktiviert oder deaktiviert haben; Wenn deaktiviert, dürfen die Chatrooms in dieser Kategorie nicht Einladungen haben. Wenn ein Chatroom Einladungen weist auf, wenn ein neues Mitglied in einem Raum hinzugefügt wird, ruft er eine Benachrichtigung über die neuen Raums in ihrem Persistent Chat-Client ab.
     

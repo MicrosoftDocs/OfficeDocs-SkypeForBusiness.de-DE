@@ -1,5 +1,6 @@
 ---
 title: Virenscan Ausschlüsse für Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Übersicht über Antivirusscanner Interoperation mit Skype für Business Server.
-ms.openlocfilehash: 782f7bc6fe004eb5106fa07c93b6f22993849d98
-ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
+ms.openlocfilehash: 377c9e8fb9de71187978fe541a23f43cc2282749
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24975194"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895965"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Virenscan Ausschlüsse für Skype für Business Server
 
@@ -126,7 +127,7 @@ Um sicherzustellen, dass die Antivirusscanner nicht mit dem Betrieb des Skype f�
 
   - %systemroot%\SysWow64\LogFiles
 
-  - %SystemRoot%\Microsoft.NET\assembly\GAC_MSIL
+  - %systemroot%\Microsoft.NET\assembly\GAC_MSIL
 
     > [!NOTE]
     > Beachten Sie, dass diese Pfade für Business Server-Version für Skype spezifisch sind.
@@ -143,7 +144,7 @@ Um sicherzustellen, dass die Antivirusscanner nicht mit dem Betrieb des Skype f�
 
   - Dateifreigabespeicher (im Topologie-Generator angegeben). Dateispeicher werden im Topologie-Generator angegeben.
 
-  - SQL Server Daten- und Protokolldateien-Dateien, einschließlich derer, für die Back-End-Datenbank, Benutzerspeicher, Archivierungsspeicher, Speicher für Überwachung und Anwendungsspeicher. Datenbank-und Protokolldateien können im Topologie-Generator angegeben werden. Ausführliche Informationen zu den Dateien Daten- und Protokolldateien für jede Datenbank, einschließlich Standardnamen finden Sie unter [SQL Server-Daten und Platzieren der Protokolldatei](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) in der Bereitstellungsdokumentation.
+  - SQL Server-Daten und -Protokolldateien, u. a. für die Back-End-Datenbank, den Benutzer-, Archivierungs-, Überwachungs- und den Anwendungsspeicher. Datenbank- und Protokolldateien können im Topologie-Generator angegeben werden. Ausführliche Informationen zu den Daten- und Protokolldateien für jede Datenbank, einschließlich Standardnamen, finden Sie unter [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) in der Bereitstellungsdokumentation.
 
   - SQL Server Daten- und Protokolldateien-Dateien, einschließlich derer, für die Front-End-Datenbank, Skype für Business Store und RtcDatabase Store. Sie sind normalerweise unter % localdrive%\CSData.
 

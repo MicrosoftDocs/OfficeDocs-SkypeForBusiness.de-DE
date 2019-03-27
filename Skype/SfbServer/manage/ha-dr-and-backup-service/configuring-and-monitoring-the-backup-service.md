@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren und Überwachen des Sicherungsdiensts
+ms.reviewer: ''
 author: heidip
 manager: serdars
 ms.audience: ITPro
@@ -7,12 +8,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Sie können Skype für Business Server Management Shell-Befehle zum Konfigurieren und Überwachen des Sicherungsdienstes verwenden.
-ms.openlocfilehash: f06da0cad4bf6a7deb5ab098530bfea548db21f9
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 3a41caecb4e123505da2d529ea74c22a5d0e28e7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222884"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896833"
 ---
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>Konfigurieren und Überwachen des Sicherungsdienstes in Skype für Business Server
 

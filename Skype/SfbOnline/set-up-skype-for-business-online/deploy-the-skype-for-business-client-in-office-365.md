@@ -1,5 +1,6 @@
 ---
 title: Den Skype for Business-Client in Office 365 bereitstellen
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to plan and deploy Skype for Business in small, medium, and large organizations and making it available to your users. '
-ms.openlocfilehash: c96d4759e25370997b9af8d42d8130d7964962df
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6dccd022d82519c1dfdce13f767e5b0a2531eb10
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372571"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896793"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Den Skype for Business-Client in Office 365 bereitstellen
 
@@ -52,7 +53,7 @@ Als [Administrator](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-
     ![Choose which software you want the user to access.](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> Wenn Sie sehen, welche Pläne an Personen in Ihrer Organisation zugewiesen werden müssen, melden Sie sich das neue Office 365 Administrationscenter > **Benutzer** > **aktive Benutzer**. Wählen Sie die Person aus der Liste aus, und klicken Sie dann unter **Lizenzen**zu suchen. Wenn Sie das klassische Office 365 Administrationscenter verwenden, suchen Sie unter **Lizenz zugewiesen**. 
+> Wenn Sie sehen, welche Pläne an Personen in Ihrer Organisation zugewiesen werden müssen, melden Sie sich bei der neuen Office 365 Admin Center > **Benutzer** > **aktive Benutzer**. Wählen Sie die Person aus der Liste aus, und klicken Sie dann unter **Lizenzen**zu suchen. Wenn Sie das klassische Office 365 Administrationscenter verwenden, suchen Sie unter **Lizenz zugewiesen**. 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>Manuelle Bereitstellung von Skype for Business für Ihre Benutzer
 <a name="bkmk_manual_1"> </a>

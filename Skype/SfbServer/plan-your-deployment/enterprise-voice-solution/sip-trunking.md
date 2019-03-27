@@ -1,5 +1,6 @@
 ---
 title: SIP-Trunking in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: Erfahren Sie mehr über SIP-Trunking in Skype für Business Server Enterprise-VoIP
-ms.openlocfilehash: 502629c794ed95b5d6228880c8fe37a23eb86af9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 98b107d02d223ea8bad555c5aa0802f8f7581807
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882234"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892956"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>SIP-Trunking in Skype für Business Server
 
@@ -153,10 +154,10 @@ Die folgende Abbildung zeigt die Topologie für das SIP-Trunking in Skype für B
 Wie in der Abbildung gezeigt wird das virtuelle private IP-Netzwerk (IP-VPN) für die Verbindungen zwischen dem Unternehmensnetzwerk und dem PSTN (Public Switched Telephone Network, Telefonfestnetz)-Dienstanbieter verwendet. Mit diesem privaten Netzwerk sollen IP-Verbindungen, erweiterte Sicherheit und (optional) Garantien für die Dienstqualität (Quality of Service, QoS) geboten werden. Aufgrund der Merkmale eines VPNs ist es nicht erforderlich, Transport Layer Security (TLS) für den SIP-Signaldatenverkehr oder Secure Real-Time Transport Protocol (SRTP) für den Mediendatenverkehr zu verwenden. Die Verbindungen zwischen dem Unternehmen und dem Dienstanbieter bestehen deshalb aus einfachen TCP-Verbindungen für SIP-Datenverkehr und einfachen Real-Time Transport Protocol (RTP)-Verbindungen (über UDP) für Mediendatenverkehr, der durch ein IP-VPN getunnelt werden kann. Stellen Sie sicher, dass alle Firewalls zwischen den VPN-Routern offene Ports aufweisen, damit die VPN-Router kommunizieren können. Zudem müssen die IP-Adressen der externen Edgeschnittstellen der VPN-Router öffentlich routingfähig sein.
 
 > [!IMPORTANT]
-> Kontaktieren Sie Ihren Dienstanbieter, um zu ermitteln, ob er Unterstützung für hohe Verfügbarkeit (einschließlich Failover) bietet. Wenn ja, müssen Sie die erforderlichen Vorgehensweisen zum Einrichten von hoher Verfügbarkeit ermitteln. Beispielsweise müssen Sie nur eine IP-Adresse und eine SIP-Trunk auf jedem Vermittlungsserver konfigurieren, oder möchten Sie mehrere SIP-Trunks auf jedem Vermittlungsserver konfigurieren? > Wenn Sie mehrere zentrale Standorte verfügen, Fragen Sie auch, ob der Dienstanbieter die Verbindungen zu und von einem anderen zentralen Standort aktivieren kann.
+> Kontaktieren Sie Ihren Dienstanbieter, um zu ermitteln, ob er Unterstützung für hohe Verfügbarkeit (einschließlich Failover) bietet. Wenn ja, müssen Sie die erforderlichen Vorgehensweisen zum Einrichten von hoher Verfügbarkeit ermitteln. Beispielsweise müssen Sie nur eine IP-Adresse und eine SIP-Trunk auf jedem Vermittlungsserver konfigurieren, oder möchten Sie mehrere SIP-Trunks auf jedem Vermittlungsserver konfigurieren? >, wenn Sie mehrere zentrale Standorte, haben auch bitten Sie, ob der Dienstanbieter die Verbindungen zu und von einem anderen zentralen Standort aktivieren kann.
 
 > [!NOTE]
-> SIP-Trunking wird dringend empfohlen, dass Sie den eigenständigen Vermittlungsserver bereitstellen. Weitere Informationen hierzu finden Sie unter [Bereitstellen von Vermittlungsservern und Definieren von Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx) in der Bereitstellungsdokumentation.
+> SIP-Trunking wird dringend empfohlen, dass Sie den eigenständigen Vermittlungsserver bereitstellen. Ausführliche Informationen finden Sie in der Bereitstellungsdokumentation unter [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
 
 ### <a name="securing-the-mediation-server-for-sip-trunking"></a>Schützen des Vermittlungsservers für das SIP-Trunking
 

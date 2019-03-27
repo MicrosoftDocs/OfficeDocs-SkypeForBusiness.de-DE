@@ -1,5 +1,6 @@
 ---
 title: Aktivieren des Parkens von Anrufen für Benutzer in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Aktivieren von Benutzern für das Parken von Anrufen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: b9df6aebba145d71aa6d64d8f192d2ef332e5a7d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 98b02294beb633e5d9a0147fcce7257a4497753d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883932"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894543"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>Aktivieren des Parkens von Anrufen für Benutzer in Skype für Unternehmen
  

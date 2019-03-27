@@ -1,5 +1,6 @@
 ---
 title: Planen der Medienumgehung in Cloud Connector Edition
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,27 +13,27 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
-description: Lesen Sie dieses Thema, um die Planungsüberlegungen für die Implementierung der Medienumgehung mit Cloud Connector Edition, Version 2.0 und höher, zu überprüfen. Informationen zum Bereitstellen von Medien zu umgehen Sie, finden Sie unter Deploy Medien in der Cloud Connector Edition umgehen.
-ms.openlocfilehash: a3cfaea8d963efa4f7774b8b589fcd0ecc61d3bc
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: Lesen Sie dieses Thema um Planungsaspekte für die Implementierung der medienumgehung mit Cloud Connector Edition, Version 2.0 und höher zu überprüfen. Informationen zum Bereitstellen von Medien zu umgehen Sie, finden Sie unter Deploy Medien in der Cloud Connector Edition umgehen.
+ms.openlocfilehash: 6ddaec00925d5eea7d7c82d89f0324958c87abb9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371001"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896021"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planen der Medienumgehung in Cloud Connector Edition
  
-Lesen Sie dieses Thema, um die Planungsüberlegungen für die Implementierung der Medienumgehung mit Cloud Connector Edition, Version 2.0 und höher, zu überprüfen. Informationen zum Bereitstellen von Medien zu umgehen Sie, finden Sie unter [medienumgehung in der Cloud Connector Edition bereitstellen](deploy-media-bypass-in-cloud-connector.md).
+Lesen Sie dieses Thema um Planungsaspekte für die Implementierung der medienumgehung mit Cloud Connector Edition, Version 2.0 und höher zu überprüfen. Informationen zum Bereitstellen von Medien zu umgehen Sie, finden Sie unter [medienumgehung in der Cloud Connector Edition bereitstellen](deploy-media-bypass-in-cloud-connector.md).
   
 Die medienumgehung kann ein Client zum Senden von Medien direkt an den nächsten Hop (Public Switched Telephone Network, PSTN) – Session Border Controller (SBC) oder ein Gateway – und die Cloud Connector Edition-Komponente aus dem Medienpfad auszuschließen.
   
-Die Medienumgehung kann die Sprachqualität verbessern, indem die Latenz verringert, die Möglichkeit von Paketverlust verhindert sowie potenzielle Fehlerstellen minimiert werden. Vermeidung von Medien für umgangener Anrufe verarbeiten reduziert die Belastung Cloud Connector, wodurch eine größere Anzahl gleichzeitiger Anrufe und Skalierbarkeit verbessern kann. 
+Die medienumgehung kann Sprachqualität verbessern, da Wartezeit, die Möglichkeit, Paketverlust und die Anzahl der potenziellen Fehlerquellen. Vermeidung von Medien für umgangener Anrufe verarbeiten reduziert die Belastung Cloud Connector, wodurch eine größere Anzahl gleichzeitiger Anrufe und Skalierbarkeit verbessern kann. 
   
  Freigeben von Cloud-Connector aus Medien Verarbeitungsaufgaben kann die Anzahl der Cloud Connector Einheiten, die eine Infrastruktur erfordert, die reduziert, damit die medienumgehung Wenn möglich aktiviert werden sollten.
   
 ## <a name="how-media-bypass-affects-media-and-signaling-pathways"></a>Auswirkungen der Medienumgehung auf Medien- und Signalisierungspfade
 
-Während die Signalisierung mit und ohne Medienumgehung dem gleichen Pfad folgt, unterscheidet sich der Medienfluss. Die folgenden Diagramme zeigen Medien- und Signalisierungspfade in Topologien mit und ohne Medienumgehung.  
+Während die Signalisierung mit und ohne Medienumgehung dem gleichen Pfad folgt, unterscheidet sich der Medienfluss. Die folgenden Diagramme zeigen Medien- und Signalisierungspfade in Topologien mit und ohne Medienumgehung.   
   
 Beispielsweise in der folgenden Topologie – die nicht beschäftigen medienumgehung – eine Skype für Business Client platziert einen PSTN-Anruf an eine externe Nummer, die SIP-Signale wechselt zu Office 365 und Office 365 leitet die signaldatenverkehr entsprechend der Endbenutzer VoIP Richtlinie. Für Benutzer von Cloud-Connector weist die VoIP-Richtlinie signaldatenverkehr mit dem Cloud Connector-Edgeserver, die die signaldatenverkehr dann an eine PSTN Session Border Controller (SBC) oder über die Cloud Connector Mediation-Server-Gateway weitergeleitet. Die Medien werden übertragen aus der Skype für Business-Client zum Vermittlungsserver Cloud-Connector, und klicken Sie dann auf den SBC oder Gateway, wie im folgenden Diagramm dargestellt:
   
@@ -48,7 +49,7 @@ In der nächsten Topologie – die beschäftigen medienumgehung – Signale dens
 
 ![Signalisierung mit Medienumgehung](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
   
-## <a name="multi-site-scenario-and-media-bypass"></a>Szenario mit mehreren Standorten und Medienumgehung
+## <a name="multi-site-scenario-and-media-bypass"></a>Szenario mit mehreren Standorten und Medienumgehung  
 
 Die medienumgehung ist außerdem hilfreich, wenn Telefoniedienste für mehrere Websites mit einer einzigen Appliance Cloud-Connector bereitgestellt werden soll. Da Cloud Connector basierend auf Quell- oder Ziel Zahlen Anrufe weiterleiten können, stellen Sie die meisten Unternehmen ein SBC oder Gateway hinter Cloud Connector, um Routingentscheidungen bereit. In diesem Szenario eliminiert die Medienumgehung wie im folgenden Diagramm gezeigt den Hop zwischen dem Client und dem zentralen SBC oder Gateway:
   
@@ -85,7 +86,7 @@ Die aktuelle Version Version der Clients in unterschiedliche Kanäle finden Sie 
 
 Ohne medienumgehung – und von der Hardware – eine Cloud-Connector Appliance von 50 500 gleichzeitige Anrufe, die über einen Vermittlungsserver Reisen Media erfordern behandeln kann. Weitere Informationen finden Sie unter [Planen von Skype für Business Cloud Connector Edition](https://technet.microsoft.com/en-us/library/mt605227.aspx). 
   
-Bei aktivierter Medienumgehung verwenden interne Clients in der unterstützten Version den Vermittlungsserver nicht, sodass die Anzahl der internen Clients erheblich zunehmen kann. 
+Bei aktivierter Medienumgehung verwenden interne Clients in der unterstützten Version den Vermittlungsserver nicht, sodass die Anzahl der internen Clients erheblich zunehmen kann.  
   
 Wie bereits erwähnt, werden externe Clients oder nicht unterstützte Clients Cloud Connector Rand und Mediation Server für Medien verwendet werden. Bei der Berechnung, wie viele Connector Cloud Appliances in einer Website verschoben werden soll, müssen Sie den Datenverkehr von externen Benutzern und Benutzern auf nicht unterstützte Clients berücksichtigen.
   
@@ -108,7 +109,7 @@ Beispielsweise in der folgenden Abbildung muss Europa Benutzer über eine gute V
   
 ## <a name="codecs-used-in-media-bypass"></a>Bei der Medienumgehung verwendete Codecs
 
-Bei aktivierter Medienumgehung wird für den Mediendatenverkehr zwischen einem Client und einem SBC oder Gateway der Codec G.711 verwendet. 
+Bei aktivierter Medienumgehung wird für den Mediendatenverkehr zwischen einem Client und einem SBC oder Gateway der Codec G.711 verwendet.  
   
 ## <a name="see-also"></a>Siehe auch
 

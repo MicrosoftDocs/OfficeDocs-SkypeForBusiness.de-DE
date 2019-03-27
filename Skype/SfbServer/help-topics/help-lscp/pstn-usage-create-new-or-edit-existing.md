@@ -1,5 +1,6 @@
 ---
 title: PSTN-Verwendung Erstellen einer neuen oder Bearbeiten einer vorhandenen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 7e995794bc58d1935ef7bc58527fbdeb98a2dafe
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: a40eb1f2369942aefbb6f7407ee105a59e168824
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244639"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888780"
 ---
-# <a name="pstn-usage-create-new-or-edit-existing"></a>PSTN-Verwendung: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen
+# <a name="pstn-usage-create-new-or-edit-existing"></a>PSTN-Verwendung: Erstellen einer neuen oder Bearbeiten einer vorhandenen PSTN-Verwendung
 
-Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
+Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 
 - [Anzeigen von PSTN-Verwendungsdatensätzen in Skype for Business 2015](../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
 

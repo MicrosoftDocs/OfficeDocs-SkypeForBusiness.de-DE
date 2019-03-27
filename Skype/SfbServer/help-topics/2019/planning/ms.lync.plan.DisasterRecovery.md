@@ -1,5 +1,6 @@
 ---
-title: Disaster Recovery (Planungstool)
+title: Disaster Recovery (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype für Business Server umfasst Disaster Recovery Maßnahmen ermöglicht es Ihnen Paar Front-End-Pools befindet sich in zwei Rechenzentren.
-ms.openlocfilehash: 0fbed831b3a3aaa2fd307f042bad44d8706dce84
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 6d5e14095504f20cfa8de5dd5c2258d713107df2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067848"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891440"
 ---
-# <a name="disaster-recovery-planning-tool"></a>Disaster Recovery (Planungstool)
+# <a name="disaster-recovery-planning-tool"></a>Disaster Recovery (Planning Tool)
  
 Skype für Business Server umfasst Disaster Recovery Maßnahmen ermöglicht es Ihnen Paar Front-End-Pools befindet sich in zwei Rechenzentren.
   

@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren der zweistufigen Authentifizierung in Skype für Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,24 +11,24 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Zusammenfassung: Konfigurieren einer zweistufigen Authentifizierung in Skype für Business Server.'
-ms.openlocfilehash: cc73997fffcae3ef7d63e32898173fe68ecb9447
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: d9df5072e1d67e46c40e1fd82ec1d88354321577
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25694576"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887246"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Konfigurieren der zweistufigen Authentifizierung in Skype für Business Server
 
 **Zusammenfassung:** Konfigurieren der zweistufigen Authentifizierung in Skype für Business Server.
 
-In den folgenden Abschnitten werden die erforderlichen Schritte beschrieben, um für eine Bereitstellung zweistufige Authentifizierungen zu konfigurieren. Weitere Informationen zur zweistufigen Authentifizierung finden Sie unter [Enabling Office 365 multi-factor authentication for online administrators - Grid User Post](https://go.microsoft.com/fwlink/p/?LinkId=313332).
+In den folgenden Abschnitten werden die erforderlichen Schritte beschrieben, um für eine Bereitstellung zweistufige Authentifizierungen zu konfigurieren. Weitere Informationen zur zweistufigen Authentifizierung finden Sie unter [Aktivieren von Office 365 mehrstufige Authentifizierung für online-Administratoren - Raster Benutzer Post](https://go.microsoft.com/fwlink/p/?LinkId=313332).
 
 ## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>Konfigurieren einer Stammzertifizierungsstelle im Unternehmen zur Unterstützung der SmartCard-Authentifizierung
 
 In den folgenden Schritten wird das Konfigurieren einer Stammzertifizierungsstelle im Unternehmen zur Unterstützung der SmartCard-Authentifizierung beschrieben:
 
-Informationen zum Installieren einer Stammzertifizierungsstelle im Unternehmen finden Sie in [Installieren einer Stammzertifizierungsstelle](https://go.microsoft.com/fwlink/p/?LinkID=313364).
+Informationen zum Installieren einer Stammzertifizierungsstelle für die Zertifizierungsstelle finden Sie unter [Installieren einer Stammzertifizierungsstelle der Organisation](https://go.microsoft.com/fwlink/p/?LinkID=313364).
 
 1. Melden Sie sich beim CA-Computer des Unternehmens mit dem Konto eines Domänenadministrators an.
 
@@ -63,7 +64,7 @@ Informationen zum Installieren einer Stammzertifizierungsstelle im Unternehmen f
 
 Ein zu berücksichtigender Faktor bei der Bereitstellung der zweistufigen Authentifizierung und der Smartcardtechnologie sind die Kosten der Implementierung. Windows 8 bietet eine Reihe von neuen Sicherheitsfunktionen, und eine der interessantesten neuen Features Unterstützung für virtuelle Smart Karten ist.
 
-Bei Computern, die mit einem TPM-Chip (Trusted Platform Module) ausgerüstet sind, der die Spezifikationen von Version 1.2 erfüllt, können Organisationen nun die Vorteile einer Smartcardanmeldung nutzen, ohne in zusätzliche Hardware investieren zu müssen. Weitere Informationen hierzu finden Sie unter [Using Virtual Smart Cards with Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365).
+Bei Computern, die mit einem TPM-Chip (Trusted Platform Module) ausgerüstet sind, der die Spezifikationen von Version 1.2 erfüllt, können Organisationen nun die Vorteile einer Smartcardanmeldung nutzen, ohne in zusätzliche Hardware investieren zu müssen. Weitere Informationen finden Sie unter [Using virtuelle Smart Karten mit Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=313365).
 
 ### <a name="to-configure-windows-8-for-virtual-smart-cards"></a>So konfigurieren Sie Windows 8 für virtuelle Smartcards
 
@@ -113,7 +114,7 @@ Bei Computern, die mit einem TPM-Chip (Trusted Platform Module) ausgerüstet sin
 
 Allgemein bestehen zwei Verfahren für das Registrieren von Benutzern für die SmartCard-Authentifizierung. Das einfachere Verfahren sieht die direkte Registrierung der Benutzer für die SmartCard-Authentifizierung mithilfe der Webregistrierung vor, während bei der komplexeren Methode ein Enrollment Agent verwendet wird. Dieses Thema legt den Schwerpunkt auf die Selbstregistrierung der Benutzer für SmartCard-Zertifikate.
 
-Weitere Informationen zur Registrierung im Auftrag von Benutzern als Enrollment Agent finden Sie in [Registrieren von Zertifikaten im Auftrag von anderen Benutzern](https://go.microsoft.com/fwlink/p/?LinkID=313367).
+Weitere Informationen zum Registrieren von als Registrierungs-Agent im Namen von Benutzern finden Sie unter [Registrieren für Zertifikate im Namen von anderen Benutzern](https://go.microsoft.com/fwlink/p/?LinkID=313367).
 
 ### <a name="to-enroll-users-for-smart-card-authentication"></a>So registrieren Sie Benutzer für die SmartCard-Authentifizierung
 
@@ -176,10 +177,10 @@ Weitere Informationen zur Registrierung im Auftrag von Benutzern als Enrollment 
 
 ## <a name="configure-active-directory-federation-services-ad-fs-20"></a>Konfigurieren von Active Directory-Partnerverbunddiensten (AD FS 2.0)
 
-Im folgenden Abschnitt wird beschrieben, wie Active Directory-Partnerverbunddienste (AD FS 2.0) konfiguriert werden muss, damit die mehrstufige Authentifizierung unterstützt wird. Informationen, wie AD FS 2.0 installiert wird, finden Sie unter [AD FS 2.0 Step-by-Step and How To Guides](https://go.microsoft.com/fwlink/p/?LinkId=313374).
+Im folgenden Abschnitt wird beschrieben, wie Active Directory-Partnerverbunddienste (AD FS 2.0) konfiguriert werden muss, damit die mehrstufige Authentifizierung unterstützt wird. Informationen zum Installieren von AD FS 2.0 finden Sie unter [AD FS 2.0 schrittweise und wie an Führungslinien](https://go.microsoft.com/fwlink/p/?LinkId=313374).
 
 > [!NOTE]
-> Wenn Sie AD FS 2.0 installieren, dürfen Sie nicht den Windows Server Manager verwenden, um die Active Directory-Partnerverbunddienste-Rolle hinzuzufügen. Laden Sie stattdessen das Paket [Active Directory Federation Services 2.0 RTW](https://go.microsoft.com/fwlink/p/?LinkId=313375) herunter und installieren Sie das Paket.
+> Wenn Sie AD FS 2.0 installieren, dürfen Sie nicht den Windows Server Manager verwenden, um die Active Directory-Partnerverbunddienste-Rolle hinzuzufügen. Stattdessen herunterladen Sie und installieren Sie das [Active Directory Federation Services 2.0 RTW-Paket](https://go.microsoft.com/fwlink/p/?LinkId=313375).
 
 ### <a name="to-configure-ad-fs-for-two-factor-authentication"></a>So konfigurieren Sie AD FS für die zweistufige Authentifizierung
 
@@ -240,7 +241,7 @@ Es gibt zwei mögliche Authentifizierungstypen, die so konfiguriert werden könn
 
 - Transport Layer Security-Clientauthentifizierung
 
-Wenn Sie formularbasierte Authentifizierung verwenden, können Sie eine Webseite entwickeln, die es Benutzern ermöglicht, sich entweder mit der Kombination aus Benutzername und Kennwort oder mit Smartcard und PIN zu authentifizieren. Im vorliegenden Thema wird beschrieben, wie Transport Layer Security-Clientauthentifizierung mit AD FS 2.0 implementiert wird. Weitere Informationen zu den Authentifizierungstypen von AD FS 2.0 finden Sie unter [AD FS 2.0: How to Change the Local Authentication Type](https://go.microsoft.com/fwlink/p/?LinkId=313384).
+Wenn Sie formularbasierte Authentifizierung verwenden, können Sie eine Webseite entwickeln, die es Benutzern ermöglicht, sich entweder mit der Kombination aus Benutzername und Kennwort oder mit Smartcard und PIN zu authentifizieren. Im vorliegenden Thema wird beschrieben, wie Transport Layer Security-Clientauthentifizierung mit AD FS 2.0 implementiert wird. Weitere Informationen zu AD FS 2.0 Authentifizierungstypen, finden Sie unter [AD FS 2.0: Ändern Sie den lokalen Authentifizierungstyp](https://go.microsoft.com/fwlink/p/?LinkId=313384).
 
 ### <a name="to-configure-ad-fs-20-to-support-client-authentication"></a>So konfigurieren Sie AD FS 2.0, sodass Clientauthentifizierung unterstützt wird
 

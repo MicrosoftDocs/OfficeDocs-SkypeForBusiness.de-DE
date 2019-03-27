@@ -1,5 +1,6 @@
 ---
 title: Erstellen von DNS-Einträgen für Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 'Zusammenfassung: Informationen Sie zum Konfigurieren von DNS und DNS-Einträge für eine Installation von Skype für Business Server erstellen. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 0090cdd19d0bef8b73ad79bd8c7f0d36a5044a48
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 35e8aecea74cc74cda6ea086a1765642885a091e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885459"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890683"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Erstellen von DNS-Einträgen für Skype für Business Server
  
@@ -41,19 +42,19 @@ Das vorliegende Beispiel ist der Pool „contoso.local“ mit DNS-Lastenausgleic
  
 |**Beschreibung**|**Eintragstyp**|**Name**|**Auflösung in**|**Lastenausgleichstyp**|
 |:-----|:-----|:-----|:-----|:-----|
-|Interner Webdienst-FQDN  <br/> |A  <br/> |webint.contoso.Local  <br/> |VIP für interne Webdienste  <br/> |Unterstützte Software und Hardware  <br/> |
-|Pool-FQDN  <br/> |A  <br/> |Pool.contoso.Local  <br/> |IP-Adresse von Server SFB01  <br/> |DNS  <br/> |
-|FQDN von SFB01  <br/> |A  <br/> |SFB01.contoso.Local  <br/> |IP-Adresse von Server SFB01  <br/> |DNS  <br/> |
-|Pool-FQDN  <br/> |A  <br/> |Pool.contoso.Local  <br/> |IP-Adresse von Server SFB02  <br/> |DNS  <br/> |
-|FQDN von SFB02  <br/> |A  <br/> |SFB02.contoso.Local  <br/> |IP-Adresse von Server SFB02  <br/> |DNS  <br/> |
-|Pool-FQDN  <br/> |A  <br/> |Pool.contoso.Local  <br/> |IP-Adresse von Server SFB03  <br/> |DNS  <br/> |
-|FQDN von SFB03  <br/> |A  <br/> |SFB03.contoso.Local  <br/> |IP-Adresse von Server SFB03  <br/> |DNS  <br/> |
-|Skype for Business-AutoErmittlung  <br/> |A  <br/> |lyncdiscoverinternal.contoso.Local  <br/> |VIP für interne Webdienste  <br/> |Unterstützte Software und Hardware  <br/> |
-|Einfache URL für Besprechungen  <br/> |A  <br/> |Meet.contoso.Local  <br/> |VIP für interne Webdienste  <br/> |Unterstützte Software und Hardware  <br/> |
-|Einfache URL vom Typ „Dialin“  <br/> |A  <br/> |Dialin.contoso.Local  <br/> |VIP für interne Webdienste  <br/> |Unterstützte Software und Hardware  <br/> |
-|Einfache URL für Web Scheduler  <br/> |A  <br/> |Scheduler.contoso.Local  <br/> |VIP für interne Webdienste  <br/> |Unterstützte Software und Hardware  <br/> |
-|Einfache URL für die Verwaltung  <br/> |A  <br/> |Admin.contoso.Local  <br/> |VIP für interne Webdienste  <br/> |Unterstützte Software und Hardware  <br/> |
-|Vorgänger-Ermittlung  <br/> |SRV  <br/> |_sipinternaltls._tcp.contoso.Local  <br/> |Pool-FQDN (Port 5061)  <br/> |-  <br/> |
+|Interner Webdienst-FQDN  <br/> |A  <br/> |webint.contoso.local  <br/> |VIP für interne Webdienste  <br/> |Unterstützte Software und Hardware  <br/> |
+|Pool-FQDN  <br/> |A  <br/> |pool.contoso.local  <br/> |IP-Adresse von Server SFB01  <br/> |DNS  <br/> |
+|FQDN von SFB01  <br/> |A  <br/> |SFB01.contoso.local  <br/> |IP-Adresse von Server SFB01  <br/> |DNS  <br/> |
+|Pool-FQDN  <br/> |A  <br/> |pool.contoso.local  <br/> |IP-Adresse von Server SFB02  <br/> |DNS  <br/> |
+|FQDN von SFB02  <br/> |A  <br/> |SFB02.contoso.local  <br/> |IP-Adresse von Server SFB02  <br/> |DNS  <br/> |
+|Pool-FQDN  <br/> |A  <br/> |pool.contoso.local  <br/> |IP-Adresse von Server SFB03  <br/> |DNS  <br/> |
+|FQDN von SFB03  <br/> |A  <br/> |SFB03.contoso.local  <br/> |IP-Adresse von Server SFB03  <br/> |DNS  <br/> |
+|Skype for Business-AutoErmittlung  <br/> |A  <br/> |lyncdiscoverinternal.contoso.local  <br/> |VIP für interne Webdienste  <br/> |Unterstützte Software und Hardware  <br/> |
+|Einfache URL für Besprechungen  <br/> |A  <br/> |meet.contoso.local  <br/> |VIP für interne Webdienste  <br/> |Unterstützte Software und Hardware  <br/> |
+|Einfache URL vom Typ „Dialin“  <br/> |A  <br/> |dialin.contoso.local  <br/> |VIP für interne Webdienste  <br/> |Unterstützte Software und Hardware  <br/> |
+|Einfache URL für Web Scheduler  <br/> |A  <br/> |scheduler.contoso.local  <br/> |VIP für interne Webdienste  <br/> |Unterstützte Software und Hardware  <br/> |
+|Einfache URL für die Verwaltung  <br/> |A  <br/> |admin.contoso.local  <br/> |VIP für interne Webdienste  <br/> |Unterstützte Software und Hardware  <br/> |
+|Vorgänger-Ermittlung  <br/> |SRV  <br/> |_sipinternaltls._tcp.contoso.local  <br/> |Pool-FQDN (Port 5061)  <br/> |-  <br/> |
    
 ### <a name="create-dns-records"></a>Erstellen von DNS-Einträgen
 
@@ -86,9 +87,9 @@ Das vorliegende Beispiel ist der Pool „contoso.local“ mit DNS-Lastenausgleic
     
    |**FQDN**|**Typ**|**Daten**|
    |:-----|:-----|:-----|
-   |Pool.contoso.Local  <br/> |Host (A)  <br/> |10.0.0.5  <br/> |
-   |Pool.contoso.Local  <br/> |Host (A)  <br/> |10.0.0.6  <br/> |
-   |Pool.contoso.Local  <br/> |Host (A)  <br/> |10.0.0.7  <br/> |
+   |pool.contoso.local  <br/> |Host (A)  <br/> |10.0.0.5  <br/> |
+   |pool.contoso.local  <br/> |Host (A)  <br/> |10.0.0.6  <br/> |
+   |pool.contoso.local  <br/> |Host (A)  <br/> |10.0.0.7  <br/> |
    
 8. Fahren Sie mit der Erstellung von A-Einträgen für alle Server in der Bereitstellung fort. 
     

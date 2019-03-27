@@ -1,5 +1,6 @@
 ---
 title: Besprechungen und Konferenzen in Microsoft Teams
+ms.reviewer: ''
 description: Verwenden Sie diese Bereitstellungsressourcen zur Unterstützung Ihrer Bereitstellung von Besprechungen in Microsoft Teams.
 ms.topic: article
 author: LolaJacobsen
@@ -14,12 +15,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d6554a641fe9abc02461fac891a3bb4fc5a9440
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: afd7e15f759caafdc76dc2f20777f4d3ab66d672
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461092"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889769"
 ---
 # <a name="meetings--conferencing-in-microsoft-teams"></a>Besprechungen und Konferenzen in Microsoft Teams
 
@@ -49,7 +50,7 @@ Sie können den [Netzwerktest](https://www.powershellgallery.com/packages/Networ
 
 | Frage | Aktion |
 |--------------|--------|
-|Ist mein Netzwerk bereit für eine Teams-Besprechungsumgebung? | Die erforderlichen Schritte, um sicherzustellen, dass Ihr Netzwerk bereit ist, finden Sie unter:<ul><li>[Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/prepare-network)</li><li>[URLs und IP-Adressbereiche für Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Ist mein Netzwerk bereit für eine Teams-Besprechungsumgebung? | Die erforderlichen Schritte, um sicherzustellen, dass Ihr Netzwerk bereit ist, finden Sie unter:<ul><li>[Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](https://docs.microsoft.com/de-DE/MicrosoftTeams/prepare-network)</li><li>[URLs und IP-Adressbereiche für Office 365](https://docs.microsoft.com/de-DE/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Zentrale Entscheidungen bei der Bereitstellung

@@ -1,5 +1,6 @@
 ---
 title: Zuweisen des Gültigkeitsbereichs der Standortrichtlinie in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
 description: Planen von Standortrichtlinien für eine E9-1-1-Bereitstellung in Skype Business Server Enterprise-VoIP.
-ms.openlocfilehash: 28759d88be1586149b0dd482d934c5bbc89a1853
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0c39d0f464b7cde9521dbb69043411b964f74858
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881885"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892217"
 ---
 # <a name="assign-location-policy-scope-in-skype-for-business-server"></a>Zuweisen des Gültigkeitsbereichs der Standortrichtlinie in Skype für Business Server
  

@@ -1,5 +1,6 @@
 ---
 title: SIP-Videotrunks – Bereichsknoten
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4df43f5-0563-4738-a020-7aec3bc46e17
 description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator werden in einem Pool gegenüber in Skype erstellen für Business Server 2015 online beschrieben.
-ms.openlocfilehash: b9dda367ee98411ec552f2773ebb051a4d7988d5
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: d3a75645a7dfa42616cf44b66b8fa93b49249c8e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504194"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894093"
 ---
 # <a name="sip-video-trunks-scope-node"></a>SIP-Videotrunks – Bereichsknoten
  

@@ -1,5 +1,6 @@
 ---
 title: ProgressReport-Ansicht
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
 description: ProgressReport-Ansicht speichert Informationen zu beendeten konferenzsitzungen. Fortschrittsberichte geschrieben werden nur für anrufen und Sitzungen, die Lync Server 2013 bestimmt um zu Diagnosezwecken hilfreich sein können. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 7dab41202eb098e2e49e5d4960b0c7b4e4c6570d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5f7cbba2580b83a65dbce00588f3c567317f4df4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891117"
 ---
 # <a name="progressreport-view"></a>ProgressReport-Ansicht
  

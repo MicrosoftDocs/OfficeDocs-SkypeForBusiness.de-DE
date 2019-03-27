@@ -1,5 +1,6 @@
 ---
 title: Erstellen oder Ändern einer agentgruppe in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Erstellen oder Ändern einer agentgruppe in Reaktionsgruppe in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 0eb94658abac8d137b915fd5a499364b43b51916
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 16dafbfc3157e08a187be5799c5901115d738b48
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370684"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894536"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Erstellen oder Ändern einer agentgruppe in Skype für Unternehmen
  
@@ -120,7 +121,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
     
 2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
     
-3. Verwenden Sie **New-CsRgsAgentGroup** zum Erstellen einer neuen agentgruppe. Verwenden Sie **Set-CsRgsAgentGroup** , um eine vorhandene agentgruppe zu ändern. Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
+3. Verwenden Sie **New-CsRgsAgentGroup**, um eine neue Agentgruppe zu erstellen. Zum Ändern einer vorhandenen Agentgruppe verwenden Sie **Set-CsRgsAgentGroup**. Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
     
    ```
    New-CsRgsAgentGroup -Name "<agent group name>" -Parent $serviceId [-Description "<agent group description>"] -[AgentAlertTime <# seconds until call is routed to next agent>] [-ParticipationPolicy <Formal | Informal>] [-RoutingMethod <method for routing calls>] [-AgentsByUri("<first agent's SIP address>","<second agent's SIP address>")];

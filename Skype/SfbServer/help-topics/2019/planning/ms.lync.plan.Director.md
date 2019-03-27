@@ -1,5 +1,6 @@
 ---
-title: Director (Planungstool)
+title: Director (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Ein Director ist ein Server mit Skype für Business Server Communications-Software, die Benutzeranfragen authentifizieren kann, jedoch ist kein Homeserver für alle Benutzerkonten.
-ms.openlocfilehash: e6210c6c4c6b4f92b99eb9287f82e6268db5df12
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 63af64f9b922d1c96a177498d1d60aa3df171a0b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21058272"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889754"
 ---
-# <a name="director-planning-tool"></a>Director (Planungstool)
+# <a name="director-planning-tool"></a>Director (Planning Tool)
  
 Ein Director ist ein Server mit Skype für Business Server Communications-Software, die Benutzeranfragen authentifizieren kann, jedoch ist kein Homeserver für alle Benutzerkonten. 
   

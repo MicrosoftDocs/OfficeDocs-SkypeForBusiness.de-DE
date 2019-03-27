@@ -1,5 +1,6 @@
 ---
 title: Problembehandlung bei Ihrer Cloud Connector-Bereitstellung
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Problembehandlung bei der Cloud Connector Edition-Bereitstellung.
-ms.openlocfilehash: 2290d032f1461c37c31d138510388f17a52f5843
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a80d6977ff565d5d06f2487e5fb3ab8293b5e000
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531905"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894466"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Problembehandlung bei Ihrer Cloud Connector-Bereitstellung
  
@@ -179,13 +180,13 @@ Es folgen Lösungen zu häufig auftretenden Problemen:
     
 - **Problem: Das Cmdlet Get-CcRunningVersion gibt einen leeren Wert zurück, wenn eine auf dem Host bereitgestellten Appliance vorhanden ist.**
     
-  **Lösung:** Dieser Fall kann eintreten, wenn Sie ein Upgrade von 1.3.4 oder 1.3.8 auf 1.4.1 durchführen. Nach der Installation von Version 1.4.1 mit der MSI-Datei müssen Sie `Register-CcAppliance` ausführen, bevor Sie ein anderes Cmdlet ausführen. `Register-CcAppliance` migriert die module.ini-Datei von %UserProfile%\CloudConnector auf %ProgramData%\CloudConnector. Wenn Sie diesen Vorgang nicht durchführen, wird eine neue module.ini-Datei im Ordner %ProgramData%\CloudConnector erstellt, und die Informationen der laufenden bzw. der Sicherungsversion für 1.3.4 oder 1.3.8 werden ersetzt.
+  **Lösung:** Dies kann bei der Aktualisierung von 1.3.4 oder 1.3.8 zu 1.4.1 auftreten. Wenn Sie Version 1.4.1 mit MSI-Datei installieren, müssen Sie ausführen `Register-CcAppliance` vor dem Ausführen von einem beliebigen anderen Cmdlet. `Register-CcAppliance`die Datei module.ini wird von %UserProfile%\CloudConnector nach % ProgramData%\CloudConnector migriert werden. Wenn Sie die verpasst haben, eine neue module.ini im Ordner %ProgramData%\CloudConnector erstellt werden und die Ausführung-Sicherung Versionsinformationen für 1.3.4 oder 1.3.8 ersetzen.
     
   Vergleichen Sie die Dateien im Ordner %UserProfile%\CloudConnector und %ProgramData%\CloudConnector module.ini. Wenn Unterschiede vorhanden sind, löschen Sie die Datei module.ini in %ProgramData%\CloudConnector und erneut ausführen `Register-CcAppliance`. Sie können auch die Datei manuell fest, um die korrekte Ausführung und Sicherungsversion ändern.
     
 - **Problem: Nach der Ausführung des Switch-CcVersion-Cmdlets, um eine ältere Version wechseln, der aktuelle Version des Skripts unterscheidet, wird keine hohe Verfügbarkeit unterstützt für die alte Version.**
     
-    **Lösung:** Sie haben beispielsweise von 1.4.1 auf 1.4.2 aktualisiert. Die aktuelle Skriptversion, die durch Ausführen von ermittelt werden kann `Get-CcVersion`, und Ihre ausgeführt wird, die durch Ausführen von ermittelt werden kann `Get-CcRunningVersion` sind beide 1.4.2. Wenn Sie zu diesem Zeitpunkt `Switch-CcVersion` ausführen, um die zurzeit ausgeführte Version auf Version 1.4.1 zurückzusetzen, wird hohe Verfügbarkeit für diese ältere Version nicht unterstützt.
+    **Lösung:** Sie haben beispielsweise von 1.4.1 auf 1.4.2 aktualisiert. Die aktuelle Skriptversion, die durch Ausführen von ermittelt werden kann `Get-CcVersion`, und Ihre ausgeführt wird, die durch Ausführen von ermittelt werden kann `Get-CcRunningVersion` sind beide 1.4.2. Zu diesem Zeitpunkt, wenn Sie ausführen `Switch-CcVersion` die ausgeführte Version zum 1.4.1 wechseln möchten, klicken Sie dann fallen keine Unterstützung hoher Verfügbarkeit für die alte Version.
     
     Um die vollständige Unterstützung von hoher Verfügbarkeit zu erhalten, müssen Sie zurück zu Version 1.4.2 wechseln, damit die zurzeit ausgeführte Version mit der Skriptversion übereinstimmt. Wenn bei Ihrer 1.4.2-Bereitstellung Probleme auftreten, deinstallieren Sie die Version, und installieren Sie sie umgehend neu.
     

@@ -1,5 +1,6 @@
 ---
 title: Definieren des Umfangs der E9-1-1-Bereitstellung in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: Entscheidungen zur Planung einer E9-1-1-bereitstellungs in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 01b6b1656826977444928583ff08e8cb23b2982d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 014ef9a07679341a7d5eada4ecbad382a9576b61
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886289"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889140"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Definieren des Umfangs der E9-1-1-Bereitstellung in Skype für Business Server
 
@@ -36,7 +37,7 @@ Bevor Sie Skype für Unternehmen für E9-1-1 konfigurieren, müssen Sie die E9-1
 
  **Wie möchten Sie E9-1-1-Zweigstellen bereitstellen?**
 
- Sie müssen mit dem Konzept der VoIP-Ausfallsicherheit für Zweigstellenstandorte vertraut sein, wenn Sie E9-1-1 in einer Zweigstelle bereitstellen. Wenn Sie E-9-1-1-SIP-Trunks zentral haben, und ein WAN-Ausfalls auftritt, Clients anmelden zum Abrufen eines Speicherorts aus standortinformationsdienst oder die Verbindung mit dem Dienstanbieter Notdienste möglicherweise nicht. Skype für Unternehmen bietet mehrere Strategien für die Verarbeitung von VoIP-ausfallsicherheit in Zweigstellen, einschließlich: müssen ausfallsichere Datennetzwerke, einen SIP-Trunk in jeder Zweigstelle bereitstellen oder pushen von Notrufen an das lokale Gateway out bei Ausfällen. Weitere Informationen hierzu finden Sie unter [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).
+ Sie müssen mit dem Konzept der VoIP-Ausfallsicherheit für Zweigstellenstandorte vertraut sein, wenn Sie E9-1-1 in einer Zweigstelle bereitstellen. Wenn Sie E-9-1-1-SIP-Trunks zentral haben, und ein WAN-Ausfalls auftritt, Clients anmelden zum Abrufen eines Speicherorts aus standortinformationsdienst oder die Verbindung mit dem Dienstanbieter Notdienste möglicherweise nicht. Skype für Unternehmen bietet mehrere Strategien für die Verarbeitung von VoIP-ausfallsicherheit in Zweigstellen, einschließlich: müssen ausfallsichere Datennetzwerke, einen SIP-Trunk in jeder Zweigstelle bereitstellen oder pushen von Notrufen an das lokale Gateway out bei Ausfällen. Ausführliche Informationen finden Sie unter [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).
 
  **Planen Sie die Aktivierung von E9-1-1 für Benutzer außerhalb des Netzwerks?**
 

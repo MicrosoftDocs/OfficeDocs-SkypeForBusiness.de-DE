@@ -1,5 +1,6 @@
 ---
 title: Register-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: Das Cmdlet „Register-CcAppliance“ registriert Appliance-Informationen für einen PSTN-Standort in einer Onlinemandantenkonfiguration. Sie müssen eine Appliance registrieren, bevor diese bereitgestellt und mit dem Skype for Business Cloud Connector Edition-Verwaltungsdienst verwaltet werden kann.
-ms.openlocfilehash: 8f1156ccd32b101e6eab957bc3ce7549a3bcc7d7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e753f92c84b880da6aac060b65726bda5f9ba1ae
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892273"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
@@ -54,7 +56,7 @@ Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Sie müssen den Namen und das Kennwort für das Administratorkonto des Mandanten angeben. Verwenden Sie das Konto, das Sie erstellt haben, für das Cloud-Connector online Management. 
+Sie müssen den Namen und das Kennwort für das Administratorkonto des Mandanten angeben. Verwenden Sie das Konto, das Sie für die Onlineverwaltung von Cloud Connector erstellt haben. 
   
 In Version 1.4.2 und früher, befolgen Sie die Anweisungen, die externe Zertifikatkennwort, Administratorkennwort abgesicherten Modus, Admin Domänenkennwort und VM Administratorkennwort bereitzustellen. 
   
@@ -86,7 +88,7 @@ In der folgenden Situation schlägt das Cmdlet fehl und weist darauf hin, dass d
 |**Parameter**|**Erforderlich**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|
 |SiteName  <br/> |Optional   <br/> |System.String  <br/> |Name des PSTN-Standorts, für den die Appliance registriert ist. Der Standardwert ist der Wert „SiteName“ in der Datei „CloudConnector.ini“.   <br/> |
-|ApplianceName  <br/> |Optional  <br/> |System.String  <br/> |Name der aktuellen Appliance. Der Standardwert ist der Computername des Hostservers.  <br/> |
+|ApplianceName  <br/> |Optional   <br/> |System.String  <br/> |Name der aktuellen Appliance. Der Standardwert ist der Computername des Hostservers.  <br/> |
 |Local  <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Überprüft Konfigurationen lokal auf eine Registrierung, ohne eine Verbindung mit einer Onlinemandantenkonfiguration herzustellen.  <br/> |
    
 ## <a name="input-types"></a>Eingabetypen
@@ -97,17 +99,17 @@ Keine. Das Cmdlet „Register-CcAppliance“ akzeptiert keine Pipelineeingaben.
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine
+Keine 
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>
 
-[Aufheben der Registrierung CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
-[Veröffentlichen von CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
 [Install-CcAppliance](install-ccappliance.md)
   
-[Deinstallieren von CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
 

@@ -1,5 +1,6 @@
 ---
 title: Verwalten von netzwerkregionsrouten
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Eine netzwerkregionenroute definiert die Route zwischen zwei netzwerkregionen. Jedem netzwerkregionenpaar in der die Bereitstellung der anrufsteuerung erfordert eine netzwerkregionenroute.
-ms.openlocfilehash: 98d7f0ce8f6cb89aa443c5dc8863afd34c355ff3
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 12e8d9072df3affdb6e47b6ddb0452e0ee5982a5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223157"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898123"
 ---
-# <a name="managing-network-region-routes-in-skype-for-business-server"></a>Verwalten von netzwerkregionsrouten in Skype für Business Server
+# <a name="managing-network-region-routes-in-skype-for-business-server"></a>Verwalten von Netzwerkregionsrouten in Skype for Business Server
 
 Eine *netzwerkregionenroute* definiert die Route zwischen zwei netzwerkregionen. Jedem netzwerkregionenpaar in der die Bereitstellung der anrufsteuerung erfordert eine netzwerkregionenroute. So kann jede Netzwerkregion innerhalb der Bereitstellung auf alle anderen Regionen zugreifen. Verwenden Sie die Verfahren in diesem Artilce zum Anzeigen, erstellen, ändern oder Löschen von netzwerkregionenrouten.
 
@@ -129,13 +130,13 @@ Jeder Region innerhalb einer Call Admission Control (, CAC) Konfiguration benöt
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Löschen**.
 
-6.  Klicken Sie anschließend auf **OK**.
+6.  Klicken Sie auf **OK**.
 
 
 
 ## <a name="see-also"></a>Siehe auch
 
-[Verwalten von netzwerkregionen in Skype für Business Server](managing-network-regions.md)
+[Verwalten von Netzwerkregionen in Skype for Business Server](managing-network-regions.md)
 
 [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)  
 

@@ -1,5 +1,6 @@
 ---
 title: Willkommen e-Mails an Zugriffsnummer für Einwahl senden Benutzer in Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Zusammenfassung: Informationen Sie zum Einladen von Benutzern zu einwahlkonferenzen in Skype für Business Server.'
-ms.openlocfilehash: 90c56fd97d9eb51c96c1a0cb149f732a31a70743
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 51c4dbc04b44cb33e27cbe09f22608836485e9ad
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373713"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898494"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Willkommen e-Mails an Zugriffsnummer für Einwahl senden Benutzer in Skype für Business Server
  
@@ -51,7 +52,7 @@ Sie können ein Skript erstellen, mit dem das **Set-CsPinSendCAWelcomeMail**-Skr
    [-Credential <SMTP server credentials used to send email with the specified From address>]
    ```
 
-**SmtpServer** Standardmäßig wird das Skript den Wert der Variable reservierte Umgebung **$PSEmailServer** für diesen Parameter verwendet. Wenn die Variable **$PSEmailServer** nicht festgelegt ist, müssen Sie diesen Parameter angeben.
+**SmtpServer** Standardmäßig wird das Skript den Wert der Variable reservierte Umgebung **$PSEmailServer** für diesen Parameter verwendet. Wenn die Variable **$PSEmailServer** nicht gesetzt ist, müssen Sie diesen Parameter angeben.
     
 **Anmeldeinformationen** Standardmäßig wird das Skript die Anmeldeinformationen des aktuellen Benutzers verwendet. Wenn der aktuelle Benutzer nicht zum Senden von E-Mails im Namen der angegebenen Absenderadresse berechtigt ist, müssen Sie diesen Parameter angeben. Als allgemeine Regel gilt: Wenn Sie nicht Ihre E-Mail-Adresse als Absenderadresse verwenden, geben Sie diesen Parameter an.
     

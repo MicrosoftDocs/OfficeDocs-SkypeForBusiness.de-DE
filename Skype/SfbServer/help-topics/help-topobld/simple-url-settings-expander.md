@@ -1,5 +1,6 @@
 ---
-title: Einfache URL – Erweiterung
+title: Einstellungen für einfache URL – Erweiterung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 'Zum Angeben neuer, Entfernen vorhandener oder ändern dem aktiven einfachen URLs, führen Sie die folgenden Schritte aus:'
-ms.openlocfilehash: 8f548f927666dfe6fafdbbe2a5b02e94db514ffa
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2015b377647c96e2e590a07c89c81f84ab59f586
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258410"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889014"
 ---
-# <a name="simple-url-settings-expander"></a>Einfache URL – Erweiterung
+# <a name="simple-url-settings-expander"></a>Einstellungen für einfache URL – Erweiterung
 
 Zum Angeben neuer, Entfernen vorhandener oder ändern dem aktiven einfachen URLs, führen Sie die folgenden Schritte aus:
 

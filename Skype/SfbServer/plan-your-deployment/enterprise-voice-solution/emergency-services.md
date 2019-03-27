@@ -1,5 +1,6 @@
 ---
 title: Planen für Notdienste in Skype Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Informationen zu erweiterten E9-1-1 (E9-1-1) Dienste in Skype für Business Server Enterprise-VoIP, einschließlich Speicherort Erwerb und Anrufrouting.
-ms.openlocfilehash: 19c660152903c1091612060bfd808bea5a116d2f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 4dba79c1c1b1b1fed0f60ea4f4c4a9a1d1baea92
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884392"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893810"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planen für Notdienste in Skype Business Server
 
@@ -75,7 +76,7 @@ Die Skype für Business-Client umfasst die PIDF-LO-Daten als Teil des ein Notruf
 
 Das folgende Diagramm zeigt, wie eine Skype für Business-Client einen Standort (mit Ausnahme der Drittanbieter-Client-MAC-Adresse-basierte Location-Methode) abruft:
 
-![Beschreibung des Abrufs eines Standorts durch einen Client (Diagramm)](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
+![Wie erhält Client einen Standort-Diagramm](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
 
 Damit ein Client den Standort erwirbt, sind folgende Schritte erforderlich:
 
@@ -89,13 +90,13 @@ Damit ein Client den Standort erwirbt, sind folgende Schritte erforderlich:
 
 ## <a name="routing-e9-1-1-calls-using-a-sip-trunk"></a>Weiterleiten von E9-1-1-Anrufen mittels SIP-Trunk
 
-Das Verwenden eines SIP-Trunks zum Herstellen einer Verbindung mit einem qualifizierten E9-1-1-Dienstanbieter ist eine Möglichkeit für die Bereitstellung von E9-1-1. Ausführliche Informationen zur Verwendung eines ELIN-Gateways zur Verbindung von eines öffentlichen Telefonfestnetz (PSTN)-basierte E9-1-1-Dienstanbieter, finden Sie unter [Routing E9-1-1 Calls mithilfe eines ELIN-Gateways](https://technet.microsoft.com/library/5a3997e3-898d-49cb-922a-4184c3373350.aspx).
+Das Verwenden eines SIP-Trunks zum Herstellen einer Verbindung mit einem qualifizierten E9-1-1-Dienstanbieter ist eine Möglichkeit für die Bereitstellung von E9-1-1. Wie Sie über ein ELIN-Gateway eine Verbindung mit einem PSTN-basierten E9-1-1-Dienstanbieter herstellen, erfahren Sie unter [Routing E9-1-1 Calls by Using an ELIN Gateway](https://technet.microsoft.com/library/5a3997e3-898d-49cb-922a-4184c3373350.aspx).
 
 Das folgende Diagramm zeigt, wie ein Notruf von weitergeleitet wird Skype für Business Server zum öffentlichen Sicherheit beantworten Point (PSAP) Wenn Sie eine SIP-Trunk und einen qualifizierten E9-1-1-Dienstanbieter verwenden.
 
 **Weiterleiten von E9-1-1-Anrufen über einen SIP-Trunk**
 
-![Notrufweiterleitung vom Lync Server an PSAP](../../media/Plan_LyncServer_E911_CallRouting.jpg)
+![Emergency Call Routing vom Lync Server an PSAP](../../media/Plan_LyncServer_E911_CallRouting.jpg)
 
 Wenn ein Notruf über einen kompatiblen Skype für Business Server-Client befindet:
 
@@ -124,13 +125,13 @@ Wenn eine Skype für Business Client den Speicherort aus dem Dienst Standortinfo
 ELIN-Gateways unterstützen Notrufe nur innerhalb des Netzwerks Ihrer Organisation. Notrufe von außerhalb dieses Netzwerks werden nicht unterstützt.
 
 > [!NOTE]
-> Weitere Informationen zur Verwendung einer SIP-trunkverbindung für Notrufe finden Sie unter [Routing E9-1-1 Calls by Using a SIP Trunk](https://technet.microsoft.com/library/157753c3-fe74-4e2c-81da-ee06911d4cc2.aspx).
+> Nähere Informationen zur Verwendung einer SIP-Trunkverbindung für Notrufe finden Sie unter [Routing E9-1-1 Calls by Using a SIP Trunk](https://technet.microsoft.com/library/157753c3-fe74-4e2c-81da-ee06911d4cc2.aspx).
 
 Das folgende Diagramm zeigt, wie ein Notruf von weitergeleitet wird Skype für Business Server an den PSAP bei Verwendung ein ELIN-Gateways.
 
 **Weiterleiten von E9-1-1-Anrufen über ein ELIN-Gateway**
 
-![Zeigt, wie ein Anruf bei Notdiensten über den Vermittlungsserver läuft und dann zum Anbieter für die Notrufunterstützung gelangt. Danach kann optional eine Sofortnachricht an den Sicherheitsdienst vor Ort gesendet und/oder ein Rückruf zum ursprünglichen Anrufer durchgeführt werden.](../../media/Plan_LyncServer_E911_ELINCallRouting.jpg)
+![Zeigt, wie ein Aufruf von Notdienste über den Vermittlungsserver, und klicken Sie dann an den Notruf Dienstanbieter übertragen wird. Danach optional möglich eine Sofortnachricht an Sicherheit vor Ort und/oder einen Aufruf an den ursprünglichen Aufrufer gesendet.](../../media/Plan_LyncServer_E911_ELINCallRouting.jpg)
 
 1. Eine SIP INVITE-Anforderung mit dem Standort, der Rückrufnummer des Anrufers sowie der (optional) Benachrichtigungs-URL und konferenzrückrufnummer wird an Skype für Business Server weitergeleitet.
 

@@ -1,5 +1,6 @@
 ---
-title: Ändern von einfachen URLs nach der migration
+title: Ändern einfacher URLs nach der Migration
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,20 +9,20 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype für Business Server unterstützt einfache URLs.
-ms.openlocfilehash: 71935aab09de1598b355d2a7b27dfa02fd169216
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 02f4cc729a50459a8125e216265b935d557007c6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374990"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892709"
 ---
-# <a name="change-simple-urls-after-migration"></a>Ändern von einfachen URLs nach der migration
+# <a name="change-simple-urls-after-migration"></a>Ändern einfacher URLs nach der Migration
 
 Skype für Business Server unterstützt drei einfache URLs:
   
 - **Erfüllen** wird als Basis-URL für alle Konferenzen in der Website oder Ihrer Organisation verwendet. Mit den einfachen URLs sind Links zu Besprechungen teilnehmen, die einfach zu verstehen und leicht zu kommunizieren und zu verteilen. 
     
-- **Zugriffsnummer für Einwahl** ermöglicht den Zugriff auf die Webseite mit Einwahl Einstellungen. Die einfache Einwahl-URL ist in allen Besprechungseinladungen enthalten, sodass Benutzer, die sich in die Besprechung einwählen möchten, Zugriff auf die erforderlichen Informationen zu Telefonnummer und PIN haben. 
+- **Zugriffsnummer für Einwahl** ermöglicht den Zugriff auf die Webseite mit Einwahl Einstellungen. Die Zugriffsnummer für Einwahl einfache URL ist in allen besprechungseinladungen enthalten, damit Benutzer, die in die Besprechung einwählen möchten die erforderlichen Telefonnummer und PIN-Informationen zugreifen können. 
     
 - **Admin** ermöglicht schnellen Zugriff auf die Skype Business Server-Systemsteuerung. Die einfache Admin-URL dient der internen Verwendung in Ihrer Organisation. 
     

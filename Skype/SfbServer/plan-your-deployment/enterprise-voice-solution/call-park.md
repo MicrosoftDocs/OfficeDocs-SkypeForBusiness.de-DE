@@ -1,5 +1,6 @@
 ---
 title: Planen des Parkens von Anrufen in Skype for Business
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planung für das Parken von Anrufen in Skype für Business Server Enterprise-VoIP, können die für Anrufe, die auf halten und Weiterleiten von Anrufen zu Abteilungen eingefügt. Hierzu gehören die Kapazitätsplanung, unterstützte Anrufe und unterstützte Clients.
-ms.openlocfilehash: 328c94507c393aba1edc7253bdf962a2904a44d6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 92c896bb610827108379af2bca38cd7a89639af2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883355"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894065"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Planen des Parkens von Anrufen in Skype for Business
  
@@ -60,7 +61,7 @@ Alle Front-End-Servern und Standard Edition-Servern in der Parken bereitgestellt
 Die Anwendung zum Parken von Anrufen verwendet **Port 5075** für SIP-überwachungsanforderungen verwendet.
     
 > [!NOTE]
-> Dieser Port ist eine Standardeinstellung, die Sie mit dem Cmdlet **Set-CsApplicationServer** ändern können. Ausführliche Informationen zu diesem Cmdlet finden Sie unter der Lync Server-Verwaltungsshell-Dokumentation.
+> Dieser Port ist die Standardeinstellung, die Sie mit dem Cmdlet **Set-CsApplicationServer** ändern können. Ausführliche Informationen zu diesem Cmdlet finden Sie unter der Lync Server-Verwaltungsshell-Dokumentation.
   
 ### <a name="audio-file-requirements"></a>Anforderungen für Audiodateien
 
@@ -88,7 +89,7 @@ Die folgenden Clients können zum Parken von Anrufen für das Parken von Anrufen
     
 - Lync 2010
     
-- Lync 2010 Attendant
+- Lync 2010-Vermittlung
     
 - Lync Phone Edition
     
@@ -109,7 +110,7 @@ Die folgenden Clients können Anrufe wiederaufnehmen, die auf das Parken von Anr
     
 - Lync 2010
     
-- Lync 2010 Attendant
+- Lync 2010-Vermittlung
     
 - Lync Phone Edition
     

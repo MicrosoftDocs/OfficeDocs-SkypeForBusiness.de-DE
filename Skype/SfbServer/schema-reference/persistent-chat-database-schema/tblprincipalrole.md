@@ -1,5 +1,6 @@
 ---
 title: tblPrincipalRole
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
 description: TblPrincipalRole enthält explizite Rollen, die Knoten zugewiesen.
-ms.openlocfilehash: 0e6c7f60f372bc14542567ccaa1b1b1a837c6c6d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 69cfb0cb2b821064801a07510758514bb5d33128
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890769"
 ---
 # <a name="tblprincipalrole"></a>tblPrincipalRole
  

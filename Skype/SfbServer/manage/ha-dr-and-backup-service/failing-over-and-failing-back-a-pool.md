@@ -1,5 +1,6 @@
 ---
-title: Ein Fehler über, ansonsten wieder einen pool
+title: Ausführen von Failover und Failback für einen Pool
+ms.reviewer: ''
 author: heidip
 manager: serdars
 ms.audience: ITPro
@@ -7,12 +8,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: .
-ms.openlocfilehash: 23b70817ba75f3a0a6e73cc42a9df9026e17b2d7
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 809d0305eaa4c8e2197c5137a647ff9354cbf9bd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223507"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899778"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Stets über, ansonsten einen Pool in Skype für Business Server 
 
@@ -158,11 +159,11 @@ Wenn der Edge-Pool, in dem Sie Skype für Business Server den Verbund konfigurie
 
 1.  Öffnen Sie auf einem Front-End-Server-Topologie-Generator. Erweitern Sie **edgepools**, und klicken Sie dann die mit der rechten Maustaste die Edge-Server oder Edge-Server-Pool, der aktuell für den Verbund konfiguriert ist. Wählen Sie **Eigenschaften bearbeiten**.
 
-2.  **Bearbeiten von Eigenschaften** unter **Allgemein**deaktivieren Sie **aktivieren den Verbund für diesen edgepool (Port 5061)**. Klicken Sie anschließend auf **OK**.
+2.  **Bearbeiten von Eigenschaften** unter **Allgemein**deaktivieren Sie **aktivieren den Verbund für diesen edgepool (Port 5061)**. Klicken Sie auf **OK**.
 
 3.  Erweitern Sie **edgepools**, und klicken Sie dann die mit der rechten Maustaste die Edge-Server oder Pool für Edge-Server, die Sie nun für den Verbund verwenden möchten. Wählen Sie **Eigenschaften bearbeiten**.
 
-4.  **Eigenschaften bearbeiten** unter **Allgemein**die Option **Partnerverbund für diesen edgepool (Port 5061) aktivieren**. Klicken Sie anschließend auf **OK**.
+4.  **Eigenschaften bearbeiten** unter **Allgemein**die Option **Partnerverbund für diesen edgepool (Port 5061) aktivieren**. Klicken Sie auf **OK**.
 
 5.  Klicken Sie auf **Aktion**, wählen Sie **Topologie**aus, wählen Sie **Veröffentlichen**aus. **Veröffentlichen der Topologie**auf dazu aufgefordert werden, klicken Sie auf **Weiter**. Wenn die Veröffentlichung abgeschlossen ist, klicken Sie auf **Fertig stellen**.
 
@@ -218,11 +219,11 @@ Nach einer fehlerhaften Kante Pool, mit dem Host Verbund gebracht worden wieder 
     
       - Öffnen Sie auf einem Front-End-Server-Topologie-Generator. Erweitern Sie die **Edge-Pools**, und klicken Sie mit der rechten Maustaste auf den Edgeserver oder Edge-Server-Pool, der aktuell für den Verbund konfiguriert ist. Wählen Sie **Eigenschaften bearbeiten**.
     
-      - **Bearbeiten von Eigenschaften** unter **Allgemein**deaktivieren Sie **aktivieren den Verbund für diesen edgepool (Port 5061)**. Klicken Sie anschließend auf **OK**.
+      - **Bearbeiten von Eigenschaften** unter **Allgemein**deaktivieren Sie **aktivieren den Verbund für diesen edgepool (Port 5061)**. Klicken Sie auf **OK**.
     
       - Erweitern Sie die **Edge-Pools**, und klicken Sie mit der rechten Maustaste auf den ursprünglichen Edgeserver oder edgeserverpool, den Sie erneut für den Verbund verwenden möchten. Wählen Sie **Eigenschaften bearbeiten**.
     
-      - **Eigenschaften bearbeiten** unter **Allgemein**die Option **Partnerverbund für diesen edgepool (Port 5061) aktivieren**. Klicken Sie anschließend auf **OK**.
+      - **Eigenschaften bearbeiten** unter **Allgemein**die Option **Partnerverbund für diesen edgepool (Port 5061) aktivieren**. Klicken Sie auf **OK**.
     
       - Klicken Sie auf **Aktion**, wählen Sie **Topologie**aus, wählen Sie **Veröffentlichen**aus. **Veröffentlichen der Topologie**auf dazu aufgefordert werden, klicken Sie auf **Weiter**. Wenn die Veröffentlichung abgeschlossen ist, klicken Sie auf **Fertig stellen**.
     

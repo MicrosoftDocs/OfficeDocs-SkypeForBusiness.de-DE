@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren der PIN-losen Besprechungsanmeldung in Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 'Zusammenfassung: Informationen zum Konfigurieren des PIN-kleiner meeting Verknüpfungsoption in Skype für Business Server.'
-ms.openlocfilehash: 843ea92a331391faa47e4cbc32191312c6dfbc6b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4ea20f68b123f6593c5a98fc82dbca62f90f31b1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985963"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892287"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Konfigurieren der PIN-losen Besprechungsanmeldung in Skype for Business Server
  
 **Zusammenfassung:** Informationen zum Konfigurieren des PIN-kleiner meeting Verknüpfungsoption in Skype für Business Server.
   
-Wenn ein Anrufer einwählen versucht, an einer Besprechung teilnehmen, platziert (Conference Auto Attendant, CAA)-Dienst den Anrufer in einen Stift Betrieb, der sich aus dem Wartebereich & #x 2014 unterscheidet. Wenn Referent noch nicht auf einen Anruf ist, und der Zugriffsnummer für Einwahl Anrufer eine PIN in leitender Position nicht eingegeben hat. Die PIN-lose Besprechungsanmeldeoption ermöglicht Einwahl-Anrufern die Teilnahme an einer Besprechung ohne Eingabe einer Leiter-PIN sogar dann, wenn sie nicht als Erste zugeschaltet werden. 
+Wenn ein Anrufer einwählen versucht, an einer Besprechung teilnehmen, platziert (Conference Auto Attendant, CAA)-Dienst den Anrufer in einen Stift Betrieb, der sich aus der Lobby & #x 2014 unterscheidet. Wenn Referent noch nicht auf einen Anruf ist, und der Zugriffsnummer für Einwahl Anrufer eine PIN in leitender Position nicht eingegeben hat. Die PIN-lose Besprechungsanmeldeoption ermöglicht Einwahl-Anrufern die Teilnahme an einer Besprechung ohne Eingabe einer Leiter-PIN sogar dann, wenn sie nicht als Erste zugeschaltet werden. 
   
 Beachten Sie Folgendes, wenn Sie diese Funktion konfigurieren:
   

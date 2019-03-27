@@ -1,5 +1,6 @@
 ---
 title: Die Aufzeichnung von kommunikationsdatensätzen (CDR) Database Schema in Skype für Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 754642cd-051a-47da-bb08-27800dae39d1
 description: In diesem Artikel wird das Schema der Aufzeichnung von kommunikationsdatensätzen (CDR) Database in Skype für Business Server 2015.
-ms.openlocfilehash: 746c428076c02431268fb06af935e5c8935a02c7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 35f740172568eef5ed5863498d7c0bdb9afd8625
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890930"
 ---
 # <a name="call-detail-recording-cdr-database-schema-in-skype-for-business-server-2015"></a>Die Aufzeichnung von kommunikationsdatensätzen (CDR) Database Schema in Skype für Business Server 2015
  
@@ -26,6 +28,6 @@ In diesem Artikel wird das Schema der Aufzeichnung von kommunikationsdatensätze
     
 - [KDS ausführliche Informationen zur Tabelle in Skype für Business Server 2015](cdr-table-details.md)
     
-- [Liste der CDR-Ansichten](list-of-cdr-views.md)
+- [Liste der KDS-Ansichten](list-of-cdr-views.md)
     
 

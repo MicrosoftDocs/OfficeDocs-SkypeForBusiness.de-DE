@@ -1,5 +1,6 @@
 ---
 title: Verwalten von enhanced 9-1-1- und des ortungsdienstes
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype für Business Server unterstützt erweiterte 9-1-1 (E9-1-1) aufrufen in Skype für Business-Clients. Beim Konfigurieren von Skype für Business Server für E9-1-1 Angaben Notrufe Skype für Unternehmen getätigt Emergency Response Speicherort (ERL) aus der Standortinformationen-Datenbank.
-ms.openlocfilehash: ef45f6e30e65a9a3fe79fd51576c24a6a4dfb318
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 31e1d529c8fb60145bc1ab4a22a75660d9f3ef63
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223458"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895153"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Verwalten von enhanced 9-1-1- und des ortungsdienstes in Skype für Business Server
 
@@ -141,7 +142,7 @@ In Skype für Business Server können Sie die standardmäßige Zeitspanne zwisch
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Löschen**.
 
-6.  Klicken Sie anschließend auf **OK**.
+6.  Klicken Sie auf **OK**.
 
     > [!IMPORTANT]  
     > Die globale Standortrichtlinie kann nicht gelöscht werden. Wenn Sie versuchen, löschen Sie die globale Richtlinie erhalten Sie eine Warnmeldung angezeigt, und dieser Richtlinie werden auf die Standardwerte zurückgesetzt.

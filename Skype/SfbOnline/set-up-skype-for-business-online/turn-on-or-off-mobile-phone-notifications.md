@@ -1,5 +1,6 @@
 ---
 title: Aus- oder Einschalten von Mobiltelefonbenachrichtigungen
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: Erfahren Sie, wie Mobiltelefon Benachrichtigungen aktivieren oder deaktivieren, damit die Benutzer die Benachrichtigungen über eingehende, Voicemail empfangen können und entgangene Sofortnachrichten.
-ms.openlocfilehash: 6ec2dad1a6084db4c83061b06d056382f90787b8
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 40d71ba5a3106e9ae33e5f39a504e1e413a58af1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854243"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897023"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Aus- oder Einschalten von Mobiltelefonbenachrichtigungen
 
@@ -53,7 +54,7 @@ Bitte beachten Sie:
 - Nachdem Sie Pushbenachrichtigungen ausgeschaltet haben, können sie benutzerseitig nicht wieder eingeschaltet werden.
     
 > [!IMPORTANT]
->  Microsoft greift für die Bereitstellung von mobilen Skype for Business-Benachrichtigungen in Echtzeit für Windows Phone-, iPhone- und iPad-Benutzer auf andere Unternehmen zurück. Finden Sie unter den [Datenschutzbestimmungen für Microsoft Skype für Business-Produkte](https://go.microsoft.com/fwlink/p/?linkid=247732). 
+>  Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users. See the [Privacy Statement for Microsoft Skype for Business Products](https://go.microsoft.com/fwlink/p/?linkid=247732). 
   
 ## <a name="related-topics"></a>Verwandte Themen
 

@@ -1,5 +1,6 @@
 ---
 title: Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 'Zusammenfassung: Informationen Sie zum Aktivieren von Benutzern tätigen und Entgegennehmen von Anrufen mithilfe von Enterprise-VoIP in Skype für Business Server.'
-ms.openlocfilehash: 9e1435c73a175ef40b4962ace41f4c7690f85953
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b02155f424e8b3f29881caf8c4a29db6f76cb807
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883756"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882969"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Aktivieren von Benutzern für Enterprise-VoIP in Skype für Business Server
  
@@ -37,7 +38,7 @@ Nach der Bereitstellung von Enterprise-VoIP oder über Arbeitsplatz anrufen kön
     
 ### <a name="to-enable-a-user-account-for-enterprise-voice"></a>So aktivieren Sie ein Benutzerkonto für Enterprise-VoIP
 
-1. Melden Sie sich als Mitglied der Gruppe **RTCUniversalServerAdmins** oder als Benutzer mit der Administratorrolle **CsVoiceAdministrator**, **CsServerAdministrator** oder CsAdministrator beim Computer an.
+1. Melden Sie sich als Mitglied der Gruppe RTCUniversalServerAdmins oder als Benutzer mit der Administratorrolle **CsVoiceAdministrator**, **CsServerAdministrator** oder **CsAdministrator** beim Computer an.
     
 2. Öffnen von Skype Business Server-Systemsteuerung.
     
@@ -55,7 +56,7 @@ Nach der Bereitstellung von Enterprise-VoIP oder über Arbeitsplatz anrufen kön
     
 9. Klicken Sie auf **Commit ausführen**.
     
-Zum Abschließen der Aktivieren eines Benutzers für Enterprise-VoIP, achten Sie darauf, dass der Benutzer eine VoIP-Richtlinie und einem Wählplan zugewiesen ist, ob globale (standardmäßig zugewiesen) oder benutzerspezifische. In der Standardeinstellung alle Benutzer werden eine globale VoIP-Richtlinie zugewiesen und Wählplan. Wenn auf Standortebene eine VoIP-Richtlinie für den Standort vorhanden ist, der das Benutzerkonto verwaltet, gelten diese Standortrichtlinien automatisch für alle Benutzer. Zum Anwenden einer benutzerspezifischen VoIP-Richtlinie oder Wählplan zu einem Benutzer, müssen Sie die **Grant-CsVoicePolicy** und **Grant-CsDialPlan** -Cmdlets ausführen. Ausführliche Informationen finden Sie in den folgenden Verfahren in diesem Thema.
+Zum Abschließen der Aktivieren eines Benutzers für Enterprise-VoIP, achten Sie darauf, dass der Benutzer eine VoIP-Richtlinie und einem Wählplan zugewiesen ist, ob globale (standardmäßig zugewiesen) oder benutzerspezifische. In der Standardeinstellung alle Benutzer werden eine globale VoIP-Richtlinie zugewiesen und Wählplan. Wenn auf Standortebene eine VoIP-Richtlinie für den Standort vorhanden ist, der das Benutzerkonto verwaltet, gelten diese Standortrichtlinien automatisch für alle Benutzer. Führen Sie die Cmdlets **Grant-CsVoicePolicy** und **Grant-CsDialPlan** aus, um eine benutzerspezifische VoIP-Richtlinie oder einen Wählplan für einen Benutzer anzuwenden. Ausführliche Informationen finden Sie in den folgenden Verfahren in diesem Thema.
 ## <a name="voice-policy-assignment"></a>Zuweisen einer VoIP-Richtlinie
 
 Globale und Websiteebene VoIP-Richtlinien werden automatisch alle Benutzerkonten zugewiesen, die für Enterprise Voice aktiviert sind. Sie können auch VoIP-Richtlinien erstellen, die für spezielle Benutzer oder Gruppen gelten. Diese benutzerbezogenen Richtlinien müssen den Benutzern oder Gruppen explizit zugewiesen werden. Wenn verwenden Sie die globale oder Standortebene VoIP-Richtlinie für alle Benutzer, die für Enterprise Voice aktiviert werden soll, können Sie diesen Abschnitt überspringen und weiterhin, [Dial Plan Zuordnung](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) Abschnitt weiter unten in diesem Thema.

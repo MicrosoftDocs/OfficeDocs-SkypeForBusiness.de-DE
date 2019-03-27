@@ -1,5 +1,6 @@
 ---
 title: Get-CcCredential
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: 'Das Cmdlet „Get-CcCredential“ gibt die Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung zurück. '
-ms.openlocfilehash: cff2ba89f7ebf3151a92a753e4dc6adc490dde05
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 651190f31ad44e0bb2375bbf4a70951c2011e1a7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569994"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898395"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
@@ -61,7 +62,7 @@ Write-Host $text
 
 |**Parameter**|**Erforderlich**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> |Erforderlich  <br/> | System.String <br/> | Für „AccountType“ sind die folgenden Werte möglich: <br/>  VmAdmin: den lokalen Administrator eines Cloud-Connector virtuellen Computern. <br/>  „DomainAdmin“: Der Domänenadministrator einer Domäne für Cloud Connector-VMs <br/>  „SafeModeAdmin“: Der „SafeModeAdmin“ eines Domänencontrollers für Cloud Connector-VMs <br/>  „ExternalCert“: Das Konto eines externen Zertifikats, das auf dem Edgeserver installiert ist <br/>  „TenantAdmin“: Der Administrator des Office 365-Mandanten <br/> |
+|  AccountType <br/> |Erforderlich  <br/> | System.String <br/> | Für „AccountType“ sind die folgenden Werte möglich: <br/>  VmAdmin: den lokalen Administrator eines Cloud-Connector virtuellen Computern. <br/>  „DomainAdmin“: Der Domänenadministrator einer Domäne für Cloud Connector-VMs. <br/>  „SafeModeAdmin“: Der „SafeModeAdmin“ eines Domänencontrollers für Cloud Connector-VMs <br/>  „ExternalCert“: Das Konto eines externen Zertifikats, das auf dem Edgeserver installiert ist <br/>  „TenantAdmin“: Der Administrator des Office 365-Mandanten <br/> |
    
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>

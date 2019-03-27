@@ -1,5 +1,6 @@
 ---
 title: Verwalten von SIP-Partnerdomänen für eine Organisation
+ms.reviewer: ''
 ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
 ms:contentKeyID: 48679565
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Erfahren Sie, wie das Verwalten und Konfigurieren von SIP-Domänen, denen Sie einen Verbund mit konfigurieren können,
-ms.openlocfilehash: 565971ccf5cd4cbf62f08acc91e15f9615d350f7
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 83623b41e0d9adb1e4539958344214fd2ebe0db9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223087"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892259"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>Verwalten von Domänen für Ihre Organisation in Skype für Business Server SIP-Verbund
 
@@ -90,10 +91,10 @@ Darüber hinaus müssen Sie konfigurieren und anwenden die Richtlinie auf Benutz
 
 ## <a name="see-also"></a>Siehe auch
 
-[Konfigurieren von Richtlinien zur Steuerung des Zugriffs für Verbundbenutzer](../external-access-policies/configure-policies-to-control-federated-user-access.md)  
+[Konfigurieren von Richtlinien zur Steuerung des Partnerbenutzerzugriffs](../external-access-policies/configure-policies-to-control-federated-user-access.md)  
 
 [Aktivieren oder Deaktivieren des Partnerverbunds und der Konnektivität mit öffentlichen Chatdiensten](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 
-[Aktivieren Sie oder deaktivieren Sie der Ermittlung von Verbundpartnern](../access-edge/enable-or-disable-discovery-of-federation-partners.md)
+[Aktivieren oder Deaktivieren der Suche von Verbundpartnern](../access-edge/enable-or-disable-discovery-of-federation-partners.md)
   
 

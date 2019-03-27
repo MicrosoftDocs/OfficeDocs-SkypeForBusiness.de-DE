@@ -1,5 +1,6 @@
 ---
 title: Aktivieren der anrufsteuerung
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: " Nachdem Sie das Anruf Admission Control (, CAC) Netzwerk konfigurieren, müssen Sie zum Erzwingen der Netzwerkbandbreite ist eingeschränkt CAC aktivieren."
-ms.openlocfilehash: 9c264305a38bf4bf9ef3716c5df82d74155e8936
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: a683fe0f437fc1c3fa92784313135d094e43c8b1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222835"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897643"
 ---
-# <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Aktivieren der anrufsteuerung in Skype für Business Server
+# <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Aktivieren der Anrufsteuerung in Skype for Business Server
 
 Bei der Anrufsteuerung handelt es sich um ein Netzwerk aus Regionen, Standorten und Subnetzen, mit dem Sie basierend auf der verfügbaren Bandbreite Einschränkungen für Audio- und Videoübertragungen festlegen können. Nachdem Sie das CAC Netzwerk konfiguriert haben, müssen Sie CAC zum Erzwingen der Netzwerkbandbreite ist eingeschränkt aktivieren. Sie können die Skype Business Server-Systemsteuerung dazu verwenden.
 

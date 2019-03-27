@@ -1,5 +1,6 @@
 ---
 title: Ohne Commit VoIP-Konfiguration Einstellungen überprüfen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 description: Verwenden Sie das Dialogfeld VoIP-Konfigurationseinstellungen ohne Commit, um alle Änderungen zu überprüfen, die Sie vorgenommen haben. Blättern Sie durch das Dialogfeld auf alle nicht übernommene Änderungen überprüfen, oder klicken Sie auf die Pfeile zum Erweitern oder reduzieren die verschiedenen Abschnitte. Wenn Sie fertig sind, klicken Sie auf Schließen. Nachdem Sie das Dialogfeld schließen, können Sie Ihre Änderungen zu ändern oder diese übernehmen.
-ms.openlocfilehash: 87446600b72caf1a2bd46fa27cd718724ad24ddb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e7acfdb6dc73998713c02dacf75c9fadce274ae7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21004361"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897751"
 ---
-# <a name="uncommitted-voice-configuration-settings-review"></a>Konfigurationseinstellungen ohne Commit VoIP: Überprüfen
+# <a name="uncommitted-voice-configuration-settings-review"></a>VoIP-Konfigurationseinstellungen ohne Commit: Anzeigen
  
 Verwenden Sie das Dialogfeld **VoIP-Konfigurationseinstellungen ohne Commit** , um alle Änderungen zu überprüfen, die Sie vorgenommen haben. Blättern Sie durch das Dialogfeld auf alle nicht übernommene Änderungen überprüfen, oder klicken Sie auf die Pfeile zum Erweitern oder reduzieren die verschiedenen Abschnitte. Wenn Sie fertig sind, klicken Sie auf **Schließen**. Nachdem Sie das Dialogfeld schließen, können Sie Ihre Änderungen zu ändern oder diese übernehmen.
   

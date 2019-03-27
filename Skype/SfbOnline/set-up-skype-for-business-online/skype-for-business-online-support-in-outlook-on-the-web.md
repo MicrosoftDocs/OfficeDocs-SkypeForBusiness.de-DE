@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Online-Support in Outlook im Web
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Outlook im Web (Outlook Web App) in Office 365 bietet einen grundlegenden Skype for Business-Webclient über die Navigationsleiste. Dieses grundlegende Client ist für Online-Benutzern, deren Admin eine Vanity-URL für ihre Office 365-Organisation konfiguriert noch nicht, verfügbar. Solange das Konto des Benutzers online ist und verfügt nicht über eine Vanity-URL, sehen sie, auch wenn ihre Organisation einige Benutzerkonten verfügt, die lokal sind weiterhin die Erfahrung. Benutzer, Benutzerkonten: lokal (gibt an, ob sie eine Vanity-URL oder nicht verfügen) oder von Microsoft verwaltet werden, sieht die Lync-Erfahrung in Outlook Web app.'
-ms.openlocfilehash: 112da508d0f21175d309679a529f86d22a37d0d4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0d98d2490510b54ec0aabd4fefb7ed4137b449b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863245"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891037"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Skype for Business Online-Support in Outlook im Web
 

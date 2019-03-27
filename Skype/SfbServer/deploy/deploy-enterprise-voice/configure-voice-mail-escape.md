@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren des Wechsels der Voicemail in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 'Zusammenfassung: Erfahren Sie, wie mithilfe der Skype für Business Server-Verwaltungsshell des Wechsels der Voicemail in Skype für Business Server konfigurieren.'
-ms.openlocfilehash: 260488701348fdf52eaccb82cc6dc41c19c68339
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6c1c6977949eb45c28cce482f98be67295ee4eef
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891265"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891867"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>Konfigurieren des Wechsels der Voicemail in Skype für Unternehmen
 
@@ -47,5 +48,5 @@ Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -P
 
 ## <a name="see-also"></a>Siehe auch
 
-[Konfigurieren von VoIP-Richtlinien und PSTN-Verwendungsdatensätzen zum Autorisieren von Anruffunktionen und-Berechtigungen](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
+[Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
 

@@ -1,5 +1,6 @@
 ---
 title: Gruppen "reaktionsgruppe"
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: Reaktionsgruppen bestehen aus agentgruppen, Warteschlangen und Workflows. Eine agentgruppe ist eine Gruppe von Personen, die Annahme von Anrufen für Reaktionsgruppen vorgesehen sind.
-ms.openlocfilehash: e6293b40575d3847cb94082bdd9049387900feef
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 9f7e28aad186467938df9d0ec64e7a5de151d7aa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248272"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898013"
 ---
 # <a name="response-groups-group"></a>Reaktionsgruppen: Gruppe
 
@@ -37,7 +38,7 @@ Sie können die folgenden Aufgaben ausführen, aus der **Reaktionsgruppen** - Se
 
 ## <a name="ui-reference"></a>Referenz zur Benutzeroberfläche
 
-In der folgenden Liste sind die Befehle der Seite beschrieben.
+In der folgenden Liste werden die Befehle der Seite beschrieben.
 
 - **Neue** Ermöglicht die Erstellung einer neuen agentgruppe.
 
@@ -53,6 +54,6 @@ In der folgenden Liste werden die Felder der Seite beschrieben.
 
 - **Beschreibung** Die Beschreibung für die agentgruppe.
 
-Ausführliche Informationen zu Response Group Features und Funktionen finden Sie unter [Planen für die Anwendung "Reaktionsgruppe" in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von agentgruppen finden Sie unter [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in der Betriebsdokumentation.
+Ausführliche Informationen zu Response Group Features und Funktionen finden Sie unter [Planen für die Anwendung "Reaktionsgruppe" in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Agentgruppen finden Sie in der Betriebsdokumentation unter [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx).
 
 

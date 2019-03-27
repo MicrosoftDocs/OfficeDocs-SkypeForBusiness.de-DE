@@ -1,5 +1,6 @@
 ---
 title: Planen Sie Ihre Enterprise-VoIP-Lösung in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Zusammenfassung: Erfahren Sie mehr über die Optionen für die Planung einer einheitlichen Sprach- und Communications-Lösung in Skype für Business Server.'
-ms.openlocfilehash: 23bd0663be3a5e8a2dfc98c83bccacf9a5b1b793
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d564c609bdcb869db47986179d18a518c1bcab34
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885039"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893647"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planen Sie Ihre Enterprise-VoIP-Lösung in Skype für Business Server
  
@@ -32,7 +33,7 @@ Sie können außerdem Enterprise-VoIP und über Arbeitsplatz anrufen zusammen ve
   
 - Enterprise-VoIP ist das umfassendste VoIP-Angebot. Es handelt sich um eine softwaregesteuerte Voice over IP (VoIP)-Lösung mit einem sehr reichhaltigen Funktionsumfang, einschließlich der umfassenden Integration in Outlook und Exchange, sowie vielen leistungsstarken Funktionen wie Reaktionsgruppen, dem Parken von Anrufen, Teamanruffunktion, Gruppenanrufannahme sowie Unterstützung von Notrufen im Rahmen erweiterter Notfalldienste (E9-1-1). Mit Enterprise-VoIP verwenden Benutzer ein Audiogerät, wie ein Kopfhörer mit ihrem Computer oder VoIP-fähigen Telefon, anstatt eine herkömmliche PSTN oder PBX-Telefon.
     
-- Über Arbeitsplatz anrufen bietet eine Möglichkeit, die vorhandene PBX-Telefonsysteme Ihrer Skype for Business-Lösung zu integrieren. In Skype für Unternehmen aufrufen, einen anderen Benutzer, entweder innerhalb Ihrer Bereitstellung oder um einen externen Benutzer kann Benutzer mit aktivierter über Arbeitsplatz anrufen klicken. Der Anruf wird dann über das Festnetztelefon des Benutzers geführt. Darüber hinaus können diese Benutzer in Skype für Unternehmen an Konferenzen teilnehmen klicken.
+- Über Arbeitsplatz anrufen bietet eine Möglichkeit, die vorhandene PBX-Telefonsysteme Ihrer Skype for Business-Lösung zu integrieren. In Skype für Unternehmen aufrufen, einen anderen Benutzer, entweder innerhalb Ihrer Bereitstellung oder um einen externen Benutzer kann Benutzer mit aktivierter über Arbeitsplatz anrufen klicken. Das Gespräch wird dann mit dem Festnetztelefon des Benutzers durchgeführt. Darüber hinaus können diese Benutzer in Skype für Unternehmen an Konferenzen teilnehmen klicken.
     
     Bereitstellen von Anrufen über Arbeitsplatz ist auch ein Vorteil für Benutzer, die noch über PBX-Telefone, aber sind Übergang zu Enterprise-VoIP ausgeführt wird, wie sie diese Benutzer wird ihre Skype für Business-Client verwenden, um ihre Telefongespräche steuern kann.
     

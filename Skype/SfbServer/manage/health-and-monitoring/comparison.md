@@ -1,5 +1,6 @@
 ---
 title: Media Quality Comparison Report in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
 description: 'Zusammenfassung: Informationen Sie zu Media Quality Comparison Report in Skype für Business Server.'
-ms.openlocfilehash: f3c40b2f496d03ecd74cb188f0111d3f15735630
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: adf9e817c575766ad24b9e9253e9ae8d8e885824
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20980974"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899498"
 ---
 # <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Media Quality Comparison Report in Skype für Business Server
  

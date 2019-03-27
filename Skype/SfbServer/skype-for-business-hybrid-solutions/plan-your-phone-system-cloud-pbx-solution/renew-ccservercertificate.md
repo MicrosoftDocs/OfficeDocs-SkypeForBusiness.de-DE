@@ -1,5 +1,6 @@
 ---
-title: Erneuern CcServerCertificate
+title: Renew-CcServerCertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
 description: Das Cmdlet „Renew-CcServerCertificate“ erneuert die Zertifikate für Skype for Business Cloud Connector Edition, wenn diese in Kürze ablaufen oder bereits abgelaufen sind. Mit diesem Befehl wurde Update-CcServerCertificate in der Cloud Connector 2.0 und spätere Versionen geändert.
-ms.openlocfilehash: 3d895a24c4cc8b400aa48ce394324435cfbb3979
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ad366bdf7f6c27552a8e7621ee9244762dd864eb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894817"
 ---
-# <a name="renew-ccservercertificate"></a>Erneuern CcServerCertificate
+# <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  
 Das Cmdlet „Renew-CcServerCertificate“ erneuert die Zertifikate für Skype for Business Cloud Connector Edition, wenn diese in Kürze ablaufen oder bereits abgelaufen sind. Mit diesem Befehl wurde Update-CcServerCertificate in der Cloud Connector 2.0 und spätere Versionen geändert. 
   
@@ -53,7 +55,7 @@ Interne Zertifikate für den zentralen Verwaltungsspeicher, Vermittlungsserver u
 
 |**Parameter**|**Erforderlich**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|
-| Rollen  <br/> |Optional   <br/> |System.Array  <br/> |  Array von Cloud Connector-Serverrollen <br/> |
+| Rollen  <br/> |Optional  <br/> |System.Array  <br/> |  Array von Cloud Connector-Serverrollen <br/> |
    
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
@@ -63,14 +65,14 @@ Keine. Das Cmdlet „Renew-CcServerCertificate“ akzeptiert keine Pipelineeinga
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine
+Keine 
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>
 
 [Reset-CcCACertificate](reset-cccacertificate.md)
   
-[Erneuern CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   

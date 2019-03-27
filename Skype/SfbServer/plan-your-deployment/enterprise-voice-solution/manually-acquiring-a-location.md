@@ -1,5 +1,6 @@
 ---
 title: Definieren Sie die Benutzeroberfläche für manuell Abrufen eines Standorts in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
 description: Planen für mobile Benutzer in einer E9-1-1-Bereitstellung mit Anbietern von SIP-Trunking in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 921724b2dc93b852cebe6a34acbd8d4d66a594f8
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8682ba47e3543cc39b1fc793c587040a7821f8c7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881811"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891350"
 ---
 # <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>Definieren Sie die Benutzeroberfläche für manuell Abrufen eines Standorts in Skype für Business Server
  

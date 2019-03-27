@@ -1,5 +1,6 @@
 ---
 title: Edgeserver – Bereichsknoten
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
-description: 'Der Knoten edgepools Listet die Edge-Pools in Ihrer Topologie. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 62e77cbf86a692d6245ad262918188e3e0e15a11
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Im Knoten Edgepools werden die Edgepools in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: 7cdd190f1a39d51815ccfd3751f193adacd02cca
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891685"
 ---
 # <a name="edge-servers-scope-node"></a>Edgeserver – Bereichsknoten
  

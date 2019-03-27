@@ -1,5 +1,6 @@
 ---
-title: Servereinstellungen – Erweiterung für Lync Server 2010
+title: Servereinstellungen für Lync Server 2010 – Erweiterung
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e2309ade-f9c7-4cd1-b135-45bf73b0441f
 description: 'Um die Eigenschaften für diesen Computer zu bearbeiten, führen Sie die folgenden Aufgaben:'
-ms.openlocfilehash: 242f2b25a77de7f81ce8c11828f2fc0fbe1c2d41
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4b05c52d92d3702c76afd6c7b682c1c9ffda7ab9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992449"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879721"
 ---
-# <a name="server-settings-expander-for-lync-server-2010"></a>Servereinstellungen – Erweiterung für Lync Server 2010
+# <a name="server-settings-expander-for-lync-server-2010"></a>Servereinstellungen für Lync Server 2010 – Erweiterung
  
 Um die Eigenschaften für diesen Computer zu bearbeiten, führen Sie die folgenden Aufgaben:
   

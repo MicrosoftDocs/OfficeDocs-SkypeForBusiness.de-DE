@@ -1,5 +1,6 @@
 ---
 title: SessionDetails-Ansicht
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: Der SessionDetails View speichert Informationen zu Peer-zu-Peer-Sitzungen, die VoIP-VoIP-Anruf, zwei Teilnehmern Sofortnachrichtensitzung oder andere Art von Sitzung sein könnten. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: b13b0b184d13273c339f1ca3fa09a68687d26889
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c62f6e2c1bb505bf00d56898a562db2c00d298d0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896028"
 ---
 # <a name="sessiondetails-view"></a>SessionDetails-Ansicht
  
@@ -59,7 +61,7 @@ Der SessionDetails View speichert Informationen zu Peer-zu-Peer-Sitzungen, die V
 |**ResponseCode** <br/> |int  <br/> |SIP-Antwortcode auf die sitzungseinladung. In diesem Feld wird in der Regel durch aus der ersten INVITE-Nachricht in der Sitzung generierte Daten aufgefüllt. Wenn keine INVITE-Nachricht vorhanden ist, wird das Feld mit Datum und Uhrzeit der ersten relevanten SIP-Nachricht (BYE, Abbrechen, Nachricht oder INFO) aufgefüllt.  <br/> |
 |**DiagnosticId** <br/> |int  <br/> |Diagnose-ID aus SIP-Headern erfasst.  <br/> |
 |**ContentType** <br/> |nvarchar(256)  <br/> |Typ des Inhalts für die Sitzung.  <br/> |
-|**Front-End** <br/> |nvarchar(256)  <br/> |FQDN des Front-End-Servers, die die Daten für die Sitzung erfasst hat.  <br/> |
+|**FrontEnd** <br/> |nvarchar(256)  <br/> |FQDN des Front-End-Servers, die die Daten für die Sitzung erfasst hat.  <br/> |
 |**Pool** <br/> |nvarchar(256)  <br/> |Vollqualifizierter Domänenname des Pools, der die Daten für die Sitzung erfasst hat.  <br/> |
 |**FromEdgeServer** <br/> |nvarchar(256)  <br/> |FQDN des Edge-Servers, von dem Benutzer, der die Sitzung gestartet hat.  <br/> |
 |**ToEdgeServer** <br/> |nvarchar(256)  <br/> |FQDN des Edge-Servers, von dem Benutzer, der die Sitzung gestartet hat  <br/> |

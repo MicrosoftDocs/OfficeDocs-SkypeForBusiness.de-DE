@@ -1,5 +1,6 @@
 ---
 title: AudioStream-Tabelle
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Jeder Datensatz steht für einen Audiodatenstrom. Eine Audiomedien Zeile enthält in der Regel zwei Audiostreams.
-ms.openlocfilehash: 2e910eb3f6717beed4ba228237f16b96471aea29
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 7c1e7ae70a04aabc7db704aaaad873bc5b2100c9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570051"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894135"
 ---
 # <a name="audiostream-table"></a>AudioStream-Tabelle
  
@@ -41,7 +42,7 @@ Jeder Datensatz steht für einen Audiodatenstrom. Eine Audiomedien Zeile enthäl
 |**DegradationMax** <br/> |decimal(3,2)  <br/> | <br/> |Maximale Netzwerk-MOS-Beeinträchtigung während des Anrufs.  <br/> |
 |**DegradationJitterAvg** <br/> |decimal(3,2)  <br/> | <br/> |Netzwerk-MOS-Beeinträchtigung aufgrund von Jitter.  <br/> |
 |**DegradationPacketLossAvg** <br/> |decimal(3,2)  <br/> | <br/> |Netzwerk-MOS-Beeinträchtigung aufgrund von Paketverlust.  <br/> |
-|**AudioPayloadDescription** <br/> |int  <br/> |Fremdschlüssel  <br/> |Verwendete Audiocodec für den Anruf, verwiesen von der PayloadDescription-Tabelle.  <br/> |
+|**AudioPayloadDescription** <br/> |int  <br/> |Ausländisch  <br/> |Verwendete Audiocodec für den Anruf, verwiesen von der PayloadDescription-Tabelle.  <br/> |
 |**AudioSampleRate** <br/> |int  <br/> | <br/> |Samplingrate für den Audiostream.  <br/> |
 |**RoundTrip** <br/> |int  <br/> | <br/> |Roundtripzeit aus RTCP-Statistik. Für eine akzeptable Qualität sollte dies weniger als 100 ms sein.  <br/> |
 |**RoundTripMax** <br/> |int  <br/> | <br/> |Maximale Roundtripzeit für den Audiostream.  <br/> |

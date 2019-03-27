@@ -1,5 +1,6 @@
 ---
 title: Verwenden die Verwaltungstools bereitstellungs-Assistenten
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 33fdbb31-c9c7-49cb-81ab-2522ac9ac8b9
 description: Weitere Informationen zur Verwendung von Bereitstellungs-Assistenten zum Installieren von Skype für Business Server 2015 finden Sie unter Business Server 2015 Skype installieren.
-ms.openlocfilehash: 52d4a04609c7e52356107696a0710fb52d7c60b4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5ca2972a0b011ff43cf135de0cb8e4f19ef10eeb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895733"
 ---
 # <a name="deployment-wizard-using-the-admin-tools"></a>Bereitstellungs-Assistent: Verwenden der Admin-Tools
  

@@ -1,5 +1,6 @@
 ---
 title: Convert-CcIsoToVhdx
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
 description: Das Cmdlet „Convert-CcIsoToVhdx“ erstellt eine Datei einer virtuellen Basisfestplatte (VHDX) und verwendet dazu eine vom Kunden bereitgestellte ISO-Datei von Windows Server 2012 R2. Die VHDX-Datei wird bei der Bereitstellung von Skype for Business Cloud Connector Edition verwendet.
-ms.openlocfilehash: 9bf27e7161a3d5c74cc972df12246c36226be8cc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 181d1af762d1f8c9c8f3e65a4411b317ab36ce4a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898487"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  
@@ -72,7 +74,7 @@ Keine. Das Cmdlet „Convert-CcIsoToVhdx“ akzeptiert keine Pipelineeingaben.
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine
+Keine 
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>

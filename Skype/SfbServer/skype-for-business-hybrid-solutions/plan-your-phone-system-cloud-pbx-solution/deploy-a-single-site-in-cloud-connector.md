@@ -1,5 +1,6 @@
 ---
 title: Bereitstellen eines einzelnen Standorts in Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Informationen Sie zu eine einzelne PSTN-Website in der Cloud Connector Edition bereitstellen.
-ms.openlocfilehash: 389829373d857d587a1fd904932f13a7a321deec
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 667637fdf7dd42df64c4fdf9aca6b20931da188d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375004"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881141"
 ---
-# <a name="deploy-a-single-site-in-cloud-connector"></a>Bereitstellen eines einzelnen Standorts in Cloud Connector
+# <a name="deploy-a-single-site-in-cloud-connector"></a>Deploy a single site in Cloud Connector
  
 Informationen Sie zu eine einzelne PSTN-Website in der Cloud Connector Edition bereitstellen.
   
@@ -38,7 +39,7 @@ Befolgen Sie die Anweisungen zum Angeben des Namens und des Kennworts des Admini
   
 In Version 1.4.2 und früher auch befolgen Sie die Anweisungen, die externe Zertifikatkennwort, Administratorkennwort abgesicherten Modus, Admin Domänenkennwort und VM Administratorkennwort bereitzustellen. 
   
-Befolgen Sie in Version 2.0 und höher außerdem die Anweisungen zum Bereitstellen des Kennworts für das externe Zertifikat, des Kennworts für „CceService“ und des Kennworts für „CABackupFile“.
+In Version 2.0 und höher, auch führen Sie die Anweisungen, um die externe Zertifikatkennwort, CceService Kennwort und Kennwort CABackupFile bieten.
   
 Um die Installation zu starten, öffnen Sie eine PowerShell-Konsole als Administrator, und führen Sie das folgende Cmdlet aus:
   
@@ -71,7 +72,7 @@ Sie können eine vorhandene Website Cloud Connector zur Unterstützung der HA du
    ```
 
 > [!NOTE]
-> Wenn das Standortverzeichnis auf einen lokalen Ordnerpfad festgelegt ist, müssen Sie eine Dateifreigabe für diesen Ordner definieren und für das Standortverzeichnis in der neuen Appliance einen UNC-Pfad verwenden. Sie können für das Standortverzeichnis der ersten Appliance den lokalen Pfad beibehalten oder es so ändern, dass der UNC-Pfad für die Freigabe des gleichen Ordners verwendet wird. Wenn sich der Speicherort für das freigegebene Standortverzeichnis ändert, müssen alle bereits installierten Appliances deinstalliert und dann erneut installiert werden. > Wichtig: Das Kennwort für das Konto CceService und das CABackupFile Konto muss auf allen Einheiten, die innerhalb der Website bereitgestellt übereinstimmen, damit die Appliances die Site Directory Freigabe als auch die verschlüsselte Zertifizierungsstelle Sicherungsdatei im Websiteverzeichnis zugreifen können. 
+> Wenn das Standortverzeichnis auf einen lokalen Ordnerpfad festgelegt ist, müssen Sie eine Dateifreigabe für diesen Ordner definieren und für das Standortverzeichnis in der neuen Appliance einen UNC-Pfad verwenden. Sie können für das Standortverzeichnis der ersten Appliance den lokalen Pfad beibehalten oder es so ändern, dass der UNC-Pfad für die Freigabe des gleichen Ordners verwendet wird. Wenn sich der Speicherort für das freigegebene Standortverzeichnis ändert, müssen alle bereits installierten Appliances deinstalliert und dann erneut installiert werden. > wichtig: das Kennwort für das Konto CceService und das CABackupFile Konto muss auf allen Einheiten, die innerhalb der Website bereitgestellt, damit die Appliances die Site Directory Freigabe als auch die verschlüsselte Zertifizierungsstelle Sicherungsdatei im Websiteverzeichnis zugreifen können. 
   
 ## <a name="remove-an-appliance-from-an-existing-site"></a>Entfernen einer Appliance aus einer vorhandenen Site
 

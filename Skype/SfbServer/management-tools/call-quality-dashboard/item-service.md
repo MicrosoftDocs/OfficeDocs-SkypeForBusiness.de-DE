@@ -1,5 +1,6 @@
 ---
 title: Dienst für Anruf Qualitätsdashboard (CQD)
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: 'Zusammenfassung: Informationen Sie zu den Element-Dienst, der Teil der Repository-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 5e5198afd95d6c9e1de517054053b724a54b1105
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 28a705d488519e439a0fd4c9c9345b1d540fd949
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532598"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895944"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>Dienst für Anruf Qualitätsdashboard (CQD)
  
@@ -23,7 +24,7 @@ ms.locfileid: "26532598"
   
 Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen.
   
-## <a name="item-service"></a>Element-Dienst
+## <a name="item-service"></a>Elementdienst
 
 Repository-API bietet eine einfache Content Management Service, bekannt als Element-Dienst, der zum Speichern von anwendungsdefinierte Inhalt für Benutzer verwendet werden kann. 
   
@@ -50,9 +51,9 @@ In der folgenden Tabelle sind die REST-Vorgänge enthalten.
 |**Vorgang**|**Beschreibung**|
 |:-----|:-----|
 |[Abrufen von Elementen](get-items.md) <br/> |Rufen Sie Elemente gibt alle Elemente im Repository.  <br/> |
-|[Element abrufen](get-item.md) <br/> |Möchten Sie gibt ein bestimmtes Element erhalten.  <br/> |
-|[Untergeordnete Elemente abrufen](get-sub-items.md) <br/> |Rufen Sie ein bestimmtes Element Unterelemente Unterelemente gibt.  <br/> |
-|[Abrufen der Vorgänger des Elements](get-item-ancestors.md) <br/> |Get-Element Vorgänger gibt ein bestimmtes Element Vorgänger zurück.  <br/> |
-|[Update-Element](update-item.md) <br/> |Aktualisieren Sie ein bestimmtes Element im Repository.  <br/> |
+|[Abrufen eines Elements](get-item.md) <br/> |Möchten Sie gibt ein bestimmtes Element erhalten.  <br/> |
+|[Abrufen von untergeordneten Elementen](get-sub-items.md) <br/> |Rufen Sie ein bestimmtes Element Unterelemente Unterelemente gibt.  <br/> |
+|[Abrufen von übergeordneten Elementen](get-item-ancestors.md) <br/> |Get-Element Vorgänger gibt ein bestimmtes Element Vorgänger zurück.  <br/> |
+|[Aktualisieren von Elementen](update-item.md) <br/> |Aktualisieren Sie ein bestimmtes Element im Repository.  <br/> |
    
 

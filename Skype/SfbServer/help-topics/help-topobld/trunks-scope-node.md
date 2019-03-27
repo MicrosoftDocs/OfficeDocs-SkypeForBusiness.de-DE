@@ -1,5 +1,6 @@
 ---
 title: Trunks - Bereichsknoten
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,13 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 description: 'Mit der Maustaste Trunks im Topologie-Generator, um die folgenden Schritte aus:'
-ms.openlocfilehash: e164e11c3185e8306146f3558459afbcf9fe52f5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 543c4cb31f87d670ac8b0e0d89d0f87b84927111
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897949"
 ---
-# <a name="trunks-scope-node"></a>Trunks – Bereichsknoten
+# <a name="trunks-scope-node"></a>Trunks - Bereichsknoten
  
 Mit der Maustaste **Trunks** im Topologie-Generator, um die folgenden Schritte aus:
   
@@ -26,7 +28,7 @@ Mit der Maustaste **Trunks** im Topologie-Generator, um die folgenden Schritte a
     
 Zusätzlich zur Option „Neuer Trunk“ sind die folgenden allgemeinen Optionen verfügbar:
   
-![Trunks – Bereichsknoten](../../media/Trunks_Scope_Node.jpg)
+![Trunks - Bereichsknoten](../../media/Trunks_Scope_Node.jpg)
   
 - **Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten vorheriger Versionen zusammenführen oder die Bereitstellung entfernen.
     

@@ -1,5 +1,6 @@
 ---
-title: Externe Anwendung Allgemeine Einstellungen – Erweiterung
+title: Allgemeine Einstellungen für externe Anwendungen – Erweiterung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Gehen Sie wie folgt vor, um die Eigenschaften für einen vertrauenswürdigen Anwendungsserver zu bearbeiten, der bereits definiert wurde.
-ms.openlocfilehash: 73010b40bd5c06c1e59d9b2fee0e4fde3d247732
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 66f82f4e6dadf39cbfcce77c46cafc2fedd3d168
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374546"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896014"
 ---
-# <a name="external-application-general-settings-expander"></a>Externe Anwendung Allgemeine Einstellungen – Erweiterung
+# <a name="external-application-general-settings-expander"></a>Allgemeine Einstellungen für externe Anwendungen – Erweiterung
  
 Gehen Sie wie folgt vor, um die Eigenschaften für einen vertrauenswürdigen Anwendungsserver zu bearbeiten, der bereits definiert wurde.
   

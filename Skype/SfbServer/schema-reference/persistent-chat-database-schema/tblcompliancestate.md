@@ -1,5 +1,6 @@
 ---
 title: tblComplianceState
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
 description: TblComplianceState enthält poolweite Informationen zum kompatibilitätszustand.
-ms.openlocfilehash: e46db9c73f4489ade9bbed90f0061567fd14af1d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4e9f103ef019e743b5dfcb4ef554ff6a28c340b8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899292"
 ---
 # <a name="tblcompliancestate"></a>tblComplianceState
  

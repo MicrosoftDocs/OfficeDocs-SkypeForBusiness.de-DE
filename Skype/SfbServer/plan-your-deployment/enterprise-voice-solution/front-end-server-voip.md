@@ -1,5 +1,6 @@
 ---
 title: Front-End-Server-VoIP-Komponenten für Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: Informationen Sie zu den Enterprise-VoIP-Komponenten, die sich auf Front-End-Servern in Skype für Business Server, einschließlich Übersetzungsdienst und verschiedenen Routingkomponenten befinden.
-ms.openlocfilehash: 5b99ea77d31f1697b0809c4089c801b2df729a29
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: caeec86f4b4a965570773ee4bc51a4e752e76e46
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888897"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892801"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Front-End-Server-VoIP-Komponenten für Skype für Business Server
 
@@ -66,7 +67,7 @@ Die Exchange UM Routingkomponente behandelt auch die Umleitung von Voicemail üb
 
 Zum Aktivieren der voicemailumleitung wird empfohlen, Ihre Exchange-Administrator Exchange UM Auto Attendant zum Akzeptieren von Nachrichten nur konfiguriert.
 
-Ausführliche Informationen zu diesen Features finden Sie unter [On-Premises Exchange Unified Messaging Integration](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx) und [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx).
+Ausführliche Informationen zu diesen Funktionen finden Sie unter [On-Premises Exchange Unified Messaging Integration](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx) bzw. [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx).
 
 ## <a name="intercluster-routing-component"></a>Komponente für das clusterübergreifende Routing
 

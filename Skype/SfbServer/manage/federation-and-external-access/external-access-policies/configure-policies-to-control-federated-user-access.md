@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren von Richtlinien zur Steuerung des Partnerbenutzerzugriffs
+ms.reviewer: ''
 ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
 ms:contentKeyID: 48184180
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Beim Konfigurieren von Richtlinien zur Unterstützung der Kommunikation mit Verbundpartnern wenden Sie die Richtlinien für Benutzer von Partnerdomänen. '
-ms.openlocfilehash: fcb4b0651c81316e06ab659430c3b0e9e5664e64
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: df5702fb217d238a26a8a9975e7e4a0792787399
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222989"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895076"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>Konfigurieren von Richtlinien zur Steuerung des Zugriffs von Verbundbenutzer in Skype für Business Server
 
@@ -122,7 +123,7 @@ Ist dies eine Benutzerrichtlinie, müssen Sie auch die Richtlinie für Benutzer 
 
 [Aktivieren oder Deaktivieren des Partnerverbunds und der Konnektivität mit öffentlichen Chatdiensten](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md) 
 
-[Zuweisen einer Richtlinie für den externen Benutzerzugriff](assign-an-external-user-access-policy.md)
+[Zuweisen einer Richtlinie für den Zugriff durch externe Benutzer](assign-an-external-user-access-policy.md)
 
 [Verwalten von SIP-Partnerdomänen für eine Organisation](../sip-domains/manage-sip-federated-domains-for-your-organization.md)
  

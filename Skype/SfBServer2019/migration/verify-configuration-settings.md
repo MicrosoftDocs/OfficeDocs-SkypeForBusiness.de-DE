@@ -1,5 +1,6 @@
 ---
-title: Überprüfen von Konfigurationseinstellungen
+title: Überprüfen der Konfigurationseinstellungen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Sie können die Replikation der Konfigurationsinformationen auf dem Edge-Server durch Ausführen der Skype für Business Server 2019 Get-CsManagementStoreReplicationStatus-Cmdlet auf dem internen Computer, auf dem sich der zentrale Verwaltungsspeicher befindet oder auf eine überprüfen in die Domäne eingebundener Computer, auf dem Skype für Business Server 2019-Hauptkomponenten (OcsCore.msi) installiert ist.
-ms.openlocfilehash: 23a5b4c3af8ac02ebfd620d3bbc46ddcba5bea11
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1b64569ffbdce3d7f41e7f6c54815d051848cfd1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027809"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889676"
 ---
-# <a name="verify-configuration-settings"></a>Überprüfen von Konfigurationseinstellungen
+# <a name="verify-configuration-settings"></a>Überprüfen der Konfigurationseinstellungen
 
 Sie können auf Gültigkeit überprüfen die Replikation der Konfigurationsinformationen auf dem Edge-Server durch Ausführen der Skype für Business Server 2019 **Get-CsManagementStoreReplicationStatus** -Cmdlet auf dem internen Computer, auf dem sich der zentralen Verwaltungsspeicher befindet, oder Klicken Sie auf eine beliebige Domäne gehörenden Computer auf dem Skype für Business Server 2019-Hauptkomponenten (OcsCore.msi) installiert ist. 
   

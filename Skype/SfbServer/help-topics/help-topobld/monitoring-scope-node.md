@@ -1,5 +1,6 @@
 ---
 title: Überwachung – Bereichsknoten
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: 'In Lync Server 2013-Topologie-Generator, können Sie Aufgaben im Zusammenhang mit einem einzelnen Server unter Überwachung Maustaste auf dem Server mit der Überwachung in der Konsolenstruktur ausführen, klicken auf der Symbolleiste Aktion oder einen Vorgang im Bereich Aktionen auf und führen Sie dann durch Klicken auf eine der folgenden Optionen für den Server mit der Überwachung:'
-ms.openlocfilehash: f1e59900993444218df820f81668c1c6d4762162
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cbefbef6872daeaadbf4972cafb440b58270622c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892172"
 ---
 # <a name="monitoring-scope-node"></a>Überwachung – Bereichsknoten
  

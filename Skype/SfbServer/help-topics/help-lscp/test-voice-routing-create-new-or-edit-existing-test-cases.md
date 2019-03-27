@@ -1,5 +1,6 @@
 ---
 title: Erstellen einer neuen oder Bearbeiten vorhandener Testfälle VoIP-Routing testen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
 description: UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
-ms.openlocfilehash: da9e2bce9343186f05140fb1fff411b780202911
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fbc06e91adc5dab65e37ae2b8d9d59338ddfd874
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250581"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890332"
 ---
-# <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>VoIP-Routing testen: Erstellen Sie einer neuen oder bearbeiten Sie vorhandener Testfälle
+# <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>Testen des VoIP-Routings: Erstellen neuer oder Bearbeiten vorhandener Testfälle
 
 UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
 

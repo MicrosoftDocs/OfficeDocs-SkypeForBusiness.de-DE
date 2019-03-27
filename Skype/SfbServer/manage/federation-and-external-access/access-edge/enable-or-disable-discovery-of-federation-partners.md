@@ -1,5 +1,6 @@
 ---
 title: Aktivieren oder Deaktivieren der Suche von Verbundpartnern
+ms.reviewer: ''
 ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182550(v=OCS.15)
 ms:contentKeyID: 48184857
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Der Zeitpunkt Edgeserver bereitgestellt und aktiviert den Verbund für Ihr Unternehmen, Sie sollten haben angegeben, ob die automatische Ermittlung aus verbundpartnerdomänen unterstützen.
-ms.openlocfilehash: afa022ae1a52124c3dabaf788de8308ba9834227
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: de61d8180a8f4e8f8be13abaab3d8911d2c6e22c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222849"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887998"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>Aktivieren Sie oder deaktivieren Sie der Ermittlung von Verbundpartnern in Skype für Business Server
 

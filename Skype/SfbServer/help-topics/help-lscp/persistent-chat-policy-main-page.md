@@ -1,5 +1,6 @@
 ---
 title: Richtlinie für beständigen Chat – Hauptseite
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,16 +13,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: Die Seite Richtlinie für beständigen Chat, der Gruppe der beständigen Chat können Sie Richtlinien auf globaler Ebene sowie Pool, Standort oder Benutzer Ebene, einschließlich der Konfiguration der globale Richtlinie, und erstellen eine oder mehrere zusätzliche Benutzer- und Website Richtlinien für die Bereitstellung verwalten. Wenn ein Benutzer durch eine Richtlinie für Persistent Chat Server aktiviert ist, wird die Persistent Chat Server-Umgebung in ihrem Client angezeigt.
-ms.openlocfilehash: 670c372c5dc3997d0d2c15622a9780e52c03508c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c44986a053fc891d7d8d956d21b12012fd62fc5c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372728"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898888"
 ---
 # <a name="persistent-chat-policy-main-page"></a>Richtlinie für beständigen Chat – Hauptseite
  
-Sie können die Seite **Richtlinie für beständigen Chat** , der Gruppe der **Beständigen Chat** zum Verwalten von Richtlinien auf globaler Ebene sowie Pool, Standort oder Benutzer Ebene, einschließlich der Konfiguration der globale Richtlinie, und erstellen eine oder mehrere zusätzliche Benutzer- und Website Richtlinien für Ihre Bereitstellung. Wenn ein Benutzer durch eine Richtlinie für Persistent Chat Server aktiviert ist, wird die Persistent Chat Server-Umgebung in ihrem Client angezeigt.
+Sie können die Seite **Richtlinie für beständigen Chat** , der Gruppe der **Beständigen Chat** zum Verwalten von Richtlinien auf globaler Ebene sowie Pool, Standort oder Benutzer Ebene, einschließlich der Konfiguration der globale Richtlinie, und erstellen eine oder mehrere zusätzliche Benutzer- und Website Richtlinien für Ihre Einsatz. Wenn ein Benutzer durch eine Richtlinie für Persistent Chat Server aktiviert ist, wird die Persistent Chat Server-Umgebung in ihrem Client angezeigt.
   
 > [!NOTE]
 > In der Topologie gelten die Standortrichtlinien für Persistent Chat Server Global, pro Pool des Benutzers oder pro Standort des Benutzers oder pro Benutzer. 
@@ -124,7 +125,7 @@ Verwenden Sie das Verfahren in diesem Thema, um eine zuvor erstellte Benutzerric
 5. Wählen Sie in **Lync Server-Benutzer bearbeiten** unter **Richtlinie für beständigen Chat**die Benutzerrichtlinie beständigen Chat, die Sie anwenden möchten.
     
     > [!NOTE]
-    > Die ** \<automatische\> ** Einstellungen die Standardrichtlinie für eine effektive gelten. Diese Einstellungen werden automatisch vom Server angewendet.
+    > Die ** \<automatische\> ** Einstellungen die Standardrichtlinie für eine effektive gelten. Diese Einstellungen werden vom Server automatisch übernommen.
   
 6. Klicken Sie auf **Commit ausführen**.
     

@@ -1,5 +1,6 @@
 ---
 title: Externe Anwendungen – Bereichsknoten
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
-description: 'Der Knoten Vertrauenswürdige Anwendungsserver Listet die vertrauenswürdigen Anwendungspools an diesem Standort. Vertrauenswürdige Anwendungspools enthalten Server, die vertrauenswürdige Microsoft Unified Communications-Anwendungen auszuführen, aber nicht Skype für Business Serverrollen ausgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: c7f877e069b240c80219ce24f15943b2cce5fb08
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Der Knoten Vertrauenswürdige Anwendungsserver enthält die vertrauenswürdigen Anwendungspools dieses Standorts. Vertrauenswürdige Anwendungspools enthalten Server, die vertrauenswürdige Microsoft Unified Communications-Anwendungen auszuführen, aber nicht Skype für Business Serverrollen ausgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: 3554487210ed415e1a49c78194b4fb858cd1d20e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894037"
 ---
 # <a name="external-applications-scope-node"></a>Externe Anwendungen – Bereichsknoten
  
