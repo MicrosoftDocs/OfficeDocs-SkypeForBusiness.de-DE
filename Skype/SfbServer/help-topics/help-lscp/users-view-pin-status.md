@@ -1,5 +1,6 @@
 ---
 title: PIN-Status für Benutzer anzeigen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,19 +12,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4b8cf70-b8c3-499d-b0f9-7019d9b6aae4
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 536a11c09a6450a5695f49449518d89330aa3c3e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: b76d082d32fb1b1331e868ac6afe8fee2a284140
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001740"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891124"
 ---
-# <a name="users-view-pin-status"></a><span data-ttu-id="7630f-104">Benutzer: View PIN Status</span><span class="sxs-lookup"><span data-stu-id="7630f-104">Users: View PIN Status</span></span>
+# <a name="users-view-pin-status"></a><span data-ttu-id="d9b0d-104">Benutzer: Anzeigen des PIN-Status</span><span class="sxs-lookup"><span data-stu-id="d9b0d-104">Users: View PIN Status</span></span>
  
-<span data-ttu-id="7630f-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="7630f-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="d9b0d-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="d9b0d-105">What do you want to do?</span></span> <span data-ttu-id="d9b0d-106">Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="d9b0d-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="7630f-107">Festlegen der Einwahlkonferenz-PIN eines Benutzers in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="7630f-107">Set a user's dial-in conferencing PIN in Skype for Business Server 2015</span></span>](../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [<span data-ttu-id="d9b0d-107">Festlegen der Einwahlkonferenz-PIN eines Benutzers in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="d9b0d-107">Set a user's dial-in conferencing PIN in Skype for Business Server 2015</span></span>](../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
-<span data-ttu-id="7630f-108">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="7630f-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="d9b0d-108">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="d9b0d-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

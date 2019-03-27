@@ -1,5 +1,6 @@
 ---
 title: Partnerdomänen
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f48ba3dd-9ced-4d3e-b75a-be81cee69d6b
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: dc9f00fe39903c40011583a4852ca8017b331ce6
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: b4e8c1e529a295f2eebd8cfb84d71cca0159a463
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250595"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887680"
 ---
-# <a name="federated-domains"></a><span data-ttu-id="83210-104">Partnerdomänen</span><span class="sxs-lookup"><span data-stu-id="83210-104">Federated Domains</span></span>
+# <a name="federated-domains"></a><span data-ttu-id="3c52a-104">Partnerdomänen</span><span class="sxs-lookup"><span data-stu-id="3c52a-104">Federated Domains</span></span>
 
-<span data-ttu-id="83210-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="83210-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="3c52a-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="3c52a-105">What do you want to do?</span></span> <span data-ttu-id="3c52a-106">Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="3c52a-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="83210-107">Konfigurieren des Zugriffs für Verbundpartner</span><span class="sxs-lookup"><span data-stu-id="83210-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="3c52a-107">Configure Access for Federated Partners</span><span class="sxs-lookup"><span data-stu-id="3c52a-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [<span data-ttu-id="83210-108">Überwachen und Steuern der Zugriff von Verbundpartnern</span><span class="sxs-lookup"><span data-stu-id="83210-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
+- [<span data-ttu-id="3c52a-108">Monitor and Control Federated Partner Access</span><span class="sxs-lookup"><span data-stu-id="3c52a-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
 
 

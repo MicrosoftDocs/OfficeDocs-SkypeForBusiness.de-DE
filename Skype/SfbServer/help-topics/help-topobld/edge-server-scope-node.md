@@ -1,5 +1,6 @@
 ---
 title: Edgeserver – Bereichsknoten
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,28 +13,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und andere grundlegende Einstellungen dieses Edgepools. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: eb44c51141c8378dbd86d44d8e1ead3920c9e313
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5cdeef0873c3501c17b2c5d638fb85a9b62df5cf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893195"
 ---
-# <a name="edge-server-scope-node"></a><span data-ttu-id="87732-104">Edgeserver – Bereichsknoten</span><span class="sxs-lookup"><span data-stu-id="87732-104">Edge Server Scope Node</span></span>
+# <a name="edge-server-scope-node"></a><span data-ttu-id="2fbf8-104">Edgeserver – Bereichsknoten</span><span class="sxs-lookup"><span data-stu-id="2fbf8-104">Edge Server Scope Node</span></span>
  
-<span data-ttu-id="87732-p102">Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und andere grundlegende Einstellungen dieses Edgepools. Folgende Möglichkeiten stehen zur Verfügung:</span><span class="sxs-lookup"><span data-stu-id="87732-p102">This node shows the pool fully qualified domain name (FQDN) and other basic settings for this Edge pool. You can perform the following actions:</span></span>
+<span data-ttu-id="2fbf8-p102">Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und andere grundlegende Einstellungen dieses Edgepools. Folgende Möglichkeiten stehen zur Verfügung:</span><span class="sxs-lookup"><span data-stu-id="2fbf8-p102">This node shows the pool fully qualified domain name (FQDN) and other basic settings for this Edge pool. You can perform the following actions:</span></span>
   
-- <span data-ttu-id="87732-p103">**Neuer Server**: Dient zum Starten des Assistenten zum Definieren eines neuen Servers****, mit dem Sie diesem Pool einen weiteren Edgeserver hinzufügen können.</span><span class="sxs-lookup"><span data-stu-id="87732-p103">**New Server**. Starts the **Define New Server** wizard, which you can use to add another Edge Server to this pool.</span></span>
+- <span data-ttu-id="2fbf8-p103">**Neuer Server**: Dient zum Starten des Assistenten zum Definieren eines neuen Servers\*\*\*\*, mit dem Sie diesem Pool einen weiteren Edgeserver hinzufügen können.</span><span class="sxs-lookup"><span data-stu-id="2fbf8-p103">**New Server**. Starts the **Define New Server** wizard, which you can use to add another Edge Server to this pool.</span></span>
     
-- <span data-ttu-id="87732-p104">**Eigenschaften bearbeiten**: Dient zum Öffnen der Seite **Eigenschaften bearbeiten** für diesen Server, auf der Sie den vollqualifizierten Domänennamen und Port des internen und externen Pools festlegen, den Partnerverbund und die Netzwerkadressenübersetzung (NAT) aktivieren und deaktivieren und den nächsten Hoppool angeben können.</span><span class="sxs-lookup"><span data-stu-id="87732-p104">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can set the internal and external pool FQDN and port, enable and disable federation and network address translation (NAT), and specify the next.</span></span>
+- <span data-ttu-id="2fbf8-p104">**Eigenschaften bearbeiten**: Dient zum Öffnen der Seite **Eigenschaften bearbeiten** für diesen Server, auf der Sie den vollqualifizierten Domänennamen und Port des internen und externen Pools festlegen, den Partnerverbund und die Netzwerkadressenübersetzung (NAT) aktivieren und deaktivieren und den nächsten Hoppool angeben können.</span><span class="sxs-lookup"><span data-stu-id="2fbf8-p104">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can set the internal and external pool FQDN and port, enable and disable federation and network address translation (NAT), and specify the next.</span></span>
     
-- <span data-ttu-id="87732-p105">**Löschen**: Dient zum Löschen des Pools aus der Topologie.</span><span class="sxs-lookup"><span data-stu-id="87732-p105">**Delete**. Deletes the pool from the topology.</span></span>
+- <span data-ttu-id="2fbf8-p105">**Löschen**: Dient zum Löschen des Pools aus der Topologie.</span><span class="sxs-lookup"><span data-stu-id="2fbf8-p105">**Delete**. Deletes the pool from the topology.</span></span>
     
-<span data-ttu-id="87732-113">Zusätzlich zu diesen Optionen sind die folgenden allgemeinen Optionen verfügbar:</span><span class="sxs-lookup"><span data-stu-id="87732-113">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="2fbf8-113">Zusätzlich zu diesen Optionen sind die folgenden allgemeinen Optionen verfügbar:</span><span class="sxs-lookup"><span data-stu-id="2fbf8-113">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="87732-p106">**Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten zusammenführen oder die Bereitstellung entfernen.</span><span class="sxs-lookup"><span data-stu-id="87732-p106">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="2fbf8-p106">**Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten zusammenführen oder die Bereitstellung entfernen.</span><span class="sxs-lookup"><span data-stu-id="2fbf8-p106">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="87732-p107">**Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="87732-p107">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="2fbf8-p107">**Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="2fbf8-p107">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="87732-p108">**Hilfe**: Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.</span><span class="sxs-lookup"><span data-stu-id="87732-p108">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="2fbf8-p108">**Hilfe**: Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.</span><span class="sxs-lookup"><span data-stu-id="2fbf8-p108">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

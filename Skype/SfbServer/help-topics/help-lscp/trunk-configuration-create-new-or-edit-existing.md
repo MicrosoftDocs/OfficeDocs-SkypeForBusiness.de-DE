@@ -1,5 +1,6 @@
 ---
 title: Trunkkonfiguration Erstellen einer neuen oder Bearbeiten einer vorhandenen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,25 +12,25 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 6e83d436f1496ab9fabb84aa3d56a2449c8ebb06
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: 37fb37b7355bdc7457f89d8904b6dabc4bcadb79
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244958"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895520"
 ---
-# <a name="trunk-configuration-create-new-or-edit-existing"></a><span data-ttu-id="74a7d-104">Trunkkonfiguration: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen</span><span class="sxs-lookup"><span data-stu-id="74a7d-104">Trunk Configuration: Create New or Edit Existing</span></span>
+# <a name="trunk-configuration-create-new-or-edit-existing"></a><span data-ttu-id="b273b-104">Trunkkonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Trunkkonfiguration</span><span class="sxs-lookup"><span data-stu-id="b273b-104">Trunk Configuration: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="74a7d-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="74a7d-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b273b-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="b273b-105">What do you want to do?</span></span> <span data-ttu-id="b273b-106">Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="b273b-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="74a7d-107">Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="74a7d-107">Configure a trunk with media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [<span data-ttu-id="b273b-107">Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="b273b-107">Configure a trunk with media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-- [<span data-ttu-id="74a7d-108">Konfigurieren eines Trunks ohne Medienumgehung in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="74a7d-108">Configure a trunk without media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+- [<span data-ttu-id="b273b-108">Konfigurieren eines Trunks ohne Medienumgehung in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="b273b-108">Configure a trunk without media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-- [<span data-ttu-id="74a7d-109">Erstellen oder Ändern einer Übersetzungsregel für die Darstellung der ID des Angerufenen in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="74a7d-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [<span data-ttu-id="b273b-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="b273b-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [<span data-ttu-id="74a7d-110">Manuelles Erstellen oder Ändern einer Übersetzungsregel</span><span class="sxs-lookup"><span data-stu-id="74a7d-110">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [<span data-ttu-id="b273b-110">Manuelles Erstellen oder Ändern einer Übersetzungsregel</span><span class="sxs-lookup"><span data-stu-id="b273b-110">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
-<span data-ttu-id="74a7d-111">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="74a7d-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="b273b-111">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="b273b-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

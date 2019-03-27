@@ -1,5 +1,6 @@
 ---
 title: Entfernen von Zertifikaten (Aufruf)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,15 +13,15 @@ localization_priority: Normal
 ms.assetid: c62bc3e5-3f34-46cf-91a5-85f84d8f455e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die Seite Befehle ausführen enthält Details zum Entfernen des Zertifikats an. Überprüfen Sie die zusammenfassende Informationen über das Zertifikat entfernen. Achten Sie darauf, dass die Protokolldatei Zertifikat entfernen in der Dropdown-Liste angezeigt wird, und klicken Sie dann auf Protokoll anzeigen, um die Details des Endes Zertifikat überprüfen. Wenn Sie die Überprüfung der Zusammenfassung und die Protokolldatei abgeschlossen haben, klicken Sie auf Fertig stellen.
-ms.openlocfilehash: 313af0bdbef536e700b699827200653c5aa714aa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1cf96bf0a8a6a2cbecd6d187e93d92f0393d542e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971577"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894114"
 ---
-# <a name="remove-certificate-invoke"></a><span data-ttu-id="8df60-106">Entfernen von Zertifikaten (Aufruf)</span><span class="sxs-lookup"><span data-stu-id="8df60-106">Remove Certificate (Invoke)</span></span>
+# <a name="remove-certificate-invoke"></a><span data-ttu-id="4ddff-106">Entfernen von Zertifikaten (Aufruf)</span><span class="sxs-lookup"><span data-stu-id="4ddff-106">Remove Certificate (Invoke)</span></span>
  
-<span data-ttu-id="8df60-107">Die Seite **Befehle ausführen** enthält Details zum Entfernen des Zertifikats an.</span><span class="sxs-lookup"><span data-stu-id="8df60-107">The **Executing Commands** page provides details for removing the certificate.</span></span> <span data-ttu-id="8df60-108">Überprüfen Sie die zusammenfassende Informationen über das Zertifikat entfernen.</span><span class="sxs-lookup"><span data-stu-id="8df60-108">Review the summary information from the certificate removal.</span></span> <span data-ttu-id="8df60-109">Achten Sie darauf, dass die Protokolldatei Zertifikat entfernen in der Dropdown-Liste angezeigt wird, und klicken Sie dann auf **Protokoll anzeigen** , um die Details des Endes Zertifikat überprüfen.</span><span class="sxs-lookup"><span data-stu-id="8df60-109">Be sure that the Remove Certificate log file is visible in the drop-down list, and then click **View Log** to review the details of the certificate removal.</span></span> <span data-ttu-id="8df60-110">Wenn Sie die Überprüfung der Zusammenfassung und die Protokolldatei abgeschlossen haben, klicken Sie auf **Fertig stellen**.</span><span class="sxs-lookup"><span data-stu-id="8df60-110">When you have finished reviewing the summary and the log file, click **Finish**.</span></span>
+<span data-ttu-id="4ddff-107">Die Seite **Befehle ausführen** enthält Details zum Entfernen des Zertifikats an.</span><span class="sxs-lookup"><span data-stu-id="4ddff-107">The **Executing Commands** page provides details for removing the certificate.</span></span> <span data-ttu-id="4ddff-108">Überprüfen Sie die zusammenfassende Informationen über das Zertifikat entfernen.</span><span class="sxs-lookup"><span data-stu-id="4ddff-108">Review the summary information from the certificate removal.</span></span> <span data-ttu-id="4ddff-109">Achten Sie darauf, dass die Protokolldatei Zertifikat entfernen in der Dropdown-Liste angezeigt wird, und klicken Sie dann auf **Protokoll anzeigen** , um die Details des Endes Zertifikat überprüfen.</span><span class="sxs-lookup"><span data-stu-id="4ddff-109">Be sure that the Remove Certificate log file is visible in the drop-down list, and then click **View Log** to review the details of the certificate removal.</span></span> <span data-ttu-id="4ddff-110">Wenn Sie die Überprüfung der Zusammenfassung und die Protokolldatei abgeschlossen haben, klicken Sie auf **Fertig stellen**.</span><span class="sxs-lookup"><span data-stu-id="4ddff-110">When you have finished reviewing the summary and the log file, click **Finish**.</span></span>
   
 
