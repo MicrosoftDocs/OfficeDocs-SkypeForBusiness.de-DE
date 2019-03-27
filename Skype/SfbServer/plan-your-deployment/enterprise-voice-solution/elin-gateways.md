@@ -1,5 +1,6 @@
 ---
 title: Verwalten von Speicherorten für ELIN-Gateways in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Entscheidungen zur Planung einer der Standortdatenbank Informationen oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mit ELIN-Gateways in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 622593285ef4b1643f19d54f6c7d2f5c1e956c84
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 858493089c6c0e274a45616ea4b93a3fdf69e010
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885664"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894691"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Verwalten von Speicherorten für ELIN-Gateways in Skype für Business Server
 
@@ -35,7 +36,7 @@ Damit Skype für Business Server automatisch Standorte für Clients in einem Net
 Ausführliche Informationen zum Ausführen dieser Aufgaben finden Sie unter [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) in der Bereitstellungsdokumentation.
 
 > [!NOTE]
-> Speicherorte der zentralen Datenbank hinzugefügt sind nicht an den Client verfügbar, bis sie mithilfe einer Skype für Business Server Management Shell-Befehl veröffentlicht wurden und in den Pool Geschäften repliziert werden. Weitere Informationen hierzu finden Sie unter [Veröffentlichung der Standortdatenbank](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) in der Bereitstellungsdokumentation.
+> Speicherorte der zentralen Datenbank hinzugefügt sind nicht an den Client verfügbar, bis sie mithilfe einer Skype für Business Server Management Shell-Befehl veröffentlicht wurden und in den Pool Geschäften repliziert werden. Ausführliche Informationen finden Sie unter [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) in der Bereitstellungsdokumentation.
 
 In diesem Abschnitt wird beschrieben, was Sie beim Planen der Aktualisierung und Verwaltung der Standortdatenbank berücksichtigen sollten.
 

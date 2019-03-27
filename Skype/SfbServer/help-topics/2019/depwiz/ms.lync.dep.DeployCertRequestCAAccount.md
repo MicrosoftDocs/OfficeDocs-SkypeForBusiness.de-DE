@@ -1,5 +1,6 @@
 ---
 title: Zertifikatanforderung (Zertifizierungsstellenkonto)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um eine Anfrage zu senden, erfordern das Zertifizierungsstelle (CA) Anmeldeinformationen als derjenigen, die für den Benutzer, die Sie derzeit als angemeldet sind.
-ms.openlocfilehash: 5dba120d79cda59babb4f4e3dc3854c6c40083fd
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 71239d8b4648c08de12b0c425c5050c5c4f2e0ed
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016774"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890213"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>Zertifikatanforderung (Zertifizierungsstellenkonto)
  

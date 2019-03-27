@@ -1,5 +1,6 @@
 ---
 title: Verwalten von einwahlkonferenzen in Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
 description: 'Zusammenfassung: Erfahren Sie, wie einwahlkonferenzen in Skype für Business Server verwalten.'
-ms.openlocfilehash: dac805421539116f89e007c68689ffd89400d059
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 109f40e66feda81098f09689a862ce219ac2f676
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969638"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884936"
 ---
 # <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>Verwalten von einwahlkonferenzen in Skype für Business Server
  
@@ -60,14 +61,14 @@ Verwenden Sie zum Verwalten von einwahlkonferenzen mithilfe von Skype für Busin
 |[Get-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |Gibt die DTMF-Signaleinstellungen (Mehrfrequenzverfahren) zurück, die für Einwahlkonferenzen verwendet werden. Mit DTMF können Benutzer, die sich bei einer Konferenz einwählen, Konferenzeinstellungen mit der Telefontastatur steuern (z. B. eigene Person stummschalten bzw. Stummschaltung der eigenen Person aufheben oder Konferenz sperren bzw. entsperren).  <br/> |
 |[Get-CsDialInConferencingLanguageList](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencinglanguagelist?view=skype-ps) <br/> |Gibt eine Liste der Sprachen, einschließlich Regions-/Minderheit Sprachen, für die Verwendung mit Skype für einwahlkonferenzen Business Server unterstützt. Diese Sprachen werden für die Übermittlung von Audionachrichten und Anweisungen für Benutzer verwendet, die mit einem Telefon an der Konferenz teilnehmen.  <br/> |
 |[Get-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/get-csdialplan?view=skype-ps) <br/> |Gibt Informationen zu den in Ihrer Organisation verwendeten Sätzen mit Wähleinstellungen zurück.  <br/> |
-|[GRANT-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) <br/> |Weist einem oder mehreren Benutzern oder Gruppen einen Wählplan zu.  <br/> |
+|[Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) <br/> |Weist einem oder mehreren Benutzern oder Gruppen einen Wählplan zu.  <br/> |
 |[Import-CsLegacyConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/import-cslegacyconferencedirectory?view=skype-ps) <br/> |Konferenzverzeichnisse importiert aus Microsoft Office Communications Server 2007 R2 zu Skype für Business Server. Dadurch wird die Interoperabilität zwischen Skype für Business Server und Office Communications Server 2007 R2 bereitstellen.  <br/> |
 |[Move-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/move-csconferencedirectory?view=skype-ps) <br/> |Verschiebt ein vorhandenes Konferenzverzeichnis aus einem Pool in einen anderen.  <br/> |
 |[New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |Erstellt ein neues Konferenzverzeichnis für die Verwendung in Ihrer Organisation.  <br/> |
 |[New-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingaccessnumber?view=skype-ps) <br/> |Erstellt eine neue Zugriffsnummer für Einwahlkonferenzen.  <br/> |
-|[Neue CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingconfiguration?view=skype-ps) <br/> |Erstellt eine neue Auflistung von einwahlkonferenzen Konfigurationseinstellungen. Diese Einstellungen bestimmen, wie Skype für Business Server reagiert, wenn Benutzer beitreten oder eine Konferenz einwählen verlassen. Insbesondere Informationen bezüglich unabhängig davon, ob Teilnehmer benötigt, um ihren Namen aufzeichnen müssen bei der Teilnahme an einer Konferenz, und wie werden zurückgegeben (oder ob) des Systems gibt bekannt, dass jemand hat sind oder diese verlassen des Anrufs.  <br/> |
-|[Neue CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps)  <br/> |Erstellt eine neue Auflistung von DTMF-Signaleinstellungen (Dual-Tone Multifrequency, Mehrfrequenzverfahren), die für Einwahlkonferenzen verwendet werden.  <br/> |
-|[Neue CsDialPlan](https://docs.microsoft.com/powershell/module/skype/new-csdialplan?view=skype-ps) <br/> |Erstellt einen neuen Wählplan.  <br/> |
+|[New-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingconfiguration?view=skype-ps) <br/> |Erstellt eine neue Auflistung von einwahlkonferenzen Konfigurationseinstellungen. Diese Einstellungen bestimmen, wie Skype für Business Server reagiert, wenn Benutzer beitreten oder eine Konferenz einwählen verlassen. Insbesondere Informationen bezüglich unabhängig davon, ob Teilnehmer benötigt, um ihren Namen aufzeichnen müssen bei der Teilnahme an einer Konferenz, und wie werden zurückgegeben (oder ob) des Systems gibt bekannt, dass jemand hat sind oder diese verlassen des Anrufs.  <br/> |
+|[New-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps)  <br/> |Erstellt eine neue Auflistung von DTMF-Signaleinstellungen (Dual-Tone Multifrequency, Mehrfrequenzverfahren), die für Einwahlkonferenzen verwendet werden.  <br/> |
+|[New-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/new-csdialplan?view=skype-ps) <br/> |Erstellt einen neuen Wählplan.  <br/> |
 |[Remove-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/remove-csconferencedirectory?view=skype-ps) <br/> |Entfernt ein vorhandenes Konferenzverzeichnis.  <br/> |
 |[Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps) <br/> |Entfernt eine vorhandene Zugriffsnummer für Einwahlkonferenzen.  <br/> |
 |[Remove-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csdialinconferencingconfiguration?view=skype-ps) <br/> |Entfernt eine oder mehrere Auflistungen von Konfigurationseinstellungen für Einwahlkonferenzen. Diese Einstellungen bestimmen, wie Skype für Business Server reagiert, wenn Benutzer beitreten oder eine Konferenz einwählen verlassen.  <br/> |
@@ -82,8 +83,8 @@ Verwenden Sie zum Verwalten von einwahlkonferenzen mithilfe von Skype für Busin
 |**Cmdlet**|**Beschreibung**|
 |:-----|:-----|
 |[Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps) <br/> |Gibt Informationen zu den Client-PIN-Richtlinien zurück, die zur Verwendung in Ihrer Organisation konfiguriert sind. PIN-Authentifizierung ermöglicht Benutzern, Skype für Business Server zugreifen, indem Sie eine PIN anstatt einen Benutzernamen und ein Kennwort bereitstellen.  <br/> |
-|[GRANT-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps) <br/> |Weist einem Benutzer oder einer Benutzergruppe eine Client-PIN-Richtlinie zu.  <br/> |
-|[Neue CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps) <br/> |Erstellt eine neue Client-PIN-Richtlinie (PIN: persönliche Identifikationsnummer).  <br/> |
+|[Grant-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps) <br/> |Weist einem Benutzer oder einer Benutzergruppe eine Client-PIN-Richtlinie zu.  <br/> |
+|[New-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps) <br/> |Erstellt eine neue Client-PIN-Richtlinie (PIN: persönliche Identifikationsnummer).  <br/> |
 |[Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps) <br/> |Entfernt die angegebene PIN-Richtlinie (persönliche Identifikationsnummer).  <br/> |
 |[Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps) <br/> |Ändert eine oder mehrere vorhandene Clientrichtlinien für die persönliche Identifikationsnummer (PIN).  <br/> |
    

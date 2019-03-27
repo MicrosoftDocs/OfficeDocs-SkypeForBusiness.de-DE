@@ -1,5 +1,6 @@
 ---
 title: Anforderungen an den Lastenausgleich für Skype for Business
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Zusammenfassung: Überprüfen Sie den Lastenausgleich Überlegungen vor der Implementierung von Skype für Business Server.'
-ms.openlocfilehash: ed3572b16126ce16b423d4ffe0d60d1f84d6b3cf
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: a7e8e70088c83276c36334c5d9a1e3be1538ca38
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408165"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897891"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Anforderungen an den Lastenausgleich für Skype for Business
  
@@ -109,7 +110,7 @@ Wenn Sie mobile Geräte bereitstellen, muss das Hardwaregerät zum Lastenausglei
 > Wenn Sie mobile Geräte bereitstellen, Ihr Hardwaregerät zum Lastenausgleich muss möglicherweise einzeln laden jeder Anforderung in einer TCP-Verbindung zu erreichen. Für die neuesten mobilen Apps für Apple iOS ist Transport Layer Security (TLS) Version 1.2 erforderlich.  
   
 > [!CAUTION]
-> Detaillierte Informationen zu Drittanbieter-Hardwaregeräten zum Lastenausgleich finden Sie unter [Infrastruktur für Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
+> Ausführliche Informationen zum Drittanbieter Hardwaregeräte zum Lastenausgleich finden Sie unter [Infrastruktur für Skype für Unternehmen](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
 Im Folgenden sind die Anforderungen bei Verwendung eines Hardwaregeräts zum Lastenausgleich für Director- und Front-End-Pool-Webdienste aufgeführt:
   
@@ -150,7 +151,7 @@ Sie definieren die Portüberwachung für Hardwaregeräte zum Lastenausgleich (Ha
 
 Skype für Business Server ermöglicht DNS-Lastenausgleich, eine Software-Lösung, die die Verwaltung Wartungsaufwand für den Lastenausgleich in Ihrem Netzwerk erheblich beeinträchtigen können. DNS-Lastenausgleich gleicht den Netzwerkdatenverkehr, der für Skype für Business Server, wie etwa SIP-Datenverkehr und der Mediendatenverkehr eindeutig ist.
   
-Wenn Sie die DNS-Lastenausgleich bereitstellen, wird Ihre Organisation Administration Wartungsaufwand für Hardwaregeräte zum Lastenausgleich minimiert. Darüber hinaus entfällt die komplexe Problembehandlung zur Beseitigung von Fehlern, die durch eine falsche Konfiguration des Lastenausgleichs für SIP-Datenverkehr entstehen. Zudem können Sie Serververbindungen verhindern, sodass Sie Server offline schalten können. Der DNS-Lastenausgleich stellt ferner sicher, dass durch Hardwarelastenausgleich hervorgerufene Probleme sich nicht auf den SIP-Datenverkehr, etwa auf die grundlegende Anrufweiterleitung, auswirken.
+Wenn Sie die DNS-Lastenausgleich bereitstellen, wird Ihre Organisation Administration Wartungsaufwand für Hardwaregeräte zum Lastenausgleich minimiert. Darüber hinaus werden komplexe Problembehandlung von Problemen im Zusammenhang mit einer fehlerhaften Konfiguration des Systems zum Lastenausgleich für SIP-Datenverkehr ausgeschlossen werden. Sie können auch Server-Verbindungen verhindern, sodass Sie die Server offline schalten können. DNS-Lastenausgleich wird sichergestellt, dass Hardware Load Balancer Probleme Elemente des SIP-Datenverkehr, wie Sie grundlegende Anrufrouting nicht beeinträchtigen.
 
 Das folgende Diagramm zeigt ein Beispiel, das sowohl interne und externe DNS-Lastenausgleich: 
   
@@ -158,15 +159,15 @@ Das folgende Diagramm zeigt ein Beispiel, das sowohl interne und externe DNS-Las
 
 ![Beispiel eines DNS-Netzwerkdiagramms](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
-Wenn Sie DNS-Lastenausgleich verwenden, können Sie möglicherweise auch kostengünstigere Hardwaregeräte zum Lastenausgleich anschaffen, da diese nicht für alle Arten von Datenverkehr eingesetzt werden müssen. Sie sollten den Systemen zum Lastenausgleich verwenden, die Interoperabilität Qualifikation Testen mit Skype für Business Server übergeben haben. Ausführliche Informationen zur Interoperabilität das Testen des Lastenausgleichs finden Sie unter [Lync Server 2010 Load Balancer Partners](https://go.microsoft.com/fwlink/p/?linkId=202452). Der Inhalt es gilt für Skype für Business Server.
+Wenn Sie die DNS-Lastenausgleich verwenden, können Sie möglicherweise auch niedrigeren Kosten Hardwaregeräte zum Lastenausgleich als, wenn Sie die Hardwaregeräte zum Lastenausgleich für alle Arten von Datenverkehr verwendet erwerben. Sie sollten den Systemen zum Lastenausgleich verwenden, die Interoperabilität Qualifikation Testen mit Skype für Business Server übergeben haben. Ausführliche Informationen zur Interoperabilität das Testen des Lastenausgleichs finden Sie unter [Lync Server 2010 Load Balancer Partners](https://go.microsoft.com/fwlink/p/?linkId=202452). Der Inhalt es gilt für Skype für Business Server.
   
-Der DNS-Lastenausgleich wird für Front-End-Pools, Edgeserverpools, Directorpools und eigenständige Vermittlungsserverpools unterstützt.
+DNS-Lastenausgleich wird für Front-End-Pools, edgeserverpools, Director-Pools und eigenständige vermittlungsserverpools unterstützt.
   
 DNS-Lastenausgleich wird in der Regel auf der Anwendungsebene implementiert. Die Anwendung (beispielsweise in einem Client unter Skype für Unternehmen), versucht, Verbindung mit einem Server in einem Pool eine Verbindung zu einer IP-Adressen zurückgegeben, die von den DNS-A und AAAA (Wenn IPv6-Adressen verwendet wird) Abfrage für den vollqualifizierten Domänennamen (FQDN) von Pools aufzeichnen. 
   
-Wenn z. B. drei Front-End-Server im Pool „pool01.contoso.com“ vorhanden sind, werden folgende Schritte ausgeführt:
+Beispielsweise, wenn es sind drei Front-End-Servern in einem Pool mit dem Namen "pool01.contoso.com", passiert Folgendes:
   
-- Clients, auf denen Skype für Unternehmen DNS-Abfrage für "pool01.contoso.com". Die Anfrage gibt drei IP-Adressen zurück und speichert diese wie folgt im Zwischenspeicher (nicht unbedingt in dieser Reihenfolge):
+- Clients, auf denen Skype für Unternehmen DNS-Abfrage für "pool01.contoso.com". Die Abfrage gibt drei IP-Adressen und speichert diese wie folgt (nicht unbedingt in dieser Reihenfolge):
     
     "pool01.contoso.com" 192.168.10.90
     
@@ -174,67 +175,67 @@ Wenn z. B. drei Front-End-Server im Pool „pool01.contoso.com“ vorhanden sin
     
     "pool01.contoso.com" 192.168.10.92
     
-- Der Client versucht, eine TCP-Verbindung (Transmission Control Protocol) mit einer der IP-Adressen herzustellen. Wenn dies nicht gelingt, versucht der Client, eine Verbindung mit der nächsten IP-Adresse im Zwischenspeicher herzustellen.
+- Der Client versucht, eine Verbindung (TCP = Transmission Control Protocol) auf eine IP-Adressen herzustellen. Wenn dies nicht funktioniert, versucht der Client die nächste IP-Adresse im Cache.
     
 - Bei erfolgreicher TCP-Verbindung handelt der Client die Verwendung von TLS zur Verbindungsherstellung mit der primären Registrierung in „pool01.contoso.com“ aus.
     
 - Wenn der Client alle zwischengespeicherten Einträge eine erfolgreiche Verbindung versucht, wird der Benutzer benachrichtigt, dass gegenwärtig keine Server mit Skype für Business Server verfügbar sind.
     
 > [!NOTE]
-> Der DNS-basierte Lastenausgleich unterscheidet sich von DNS-Roundrobin (DNS RR). Dieser letztgenannte Mechanismus bezieht sich normalerweise auf einen Lastenausgleich, bei dem DNS zur Bereitstellung einer anderen Reihenfolge von IP-Adressen für die Server in einem Pool eingesetzt wird. Mit DNS RR ist typischerweise nur ein Lastenausgleich, jedoch kein Failover möglich. Wenn die Verbindung mit der IP-Adresse, die über die DNS-A- und DNS-AAAA-Abfrage (wenn Sie IPv6-Adressen nutzen) zurückgegeben wurde, nicht hergestellt werden kann, tritt für die Verbindungsherstellung ein Fehler auf. Daher ist DNS-Roundrobin allein weniger zuverlässig als der DNS-basierte Lastenausgleich. Sie können DNS-Roundrobin gemeinsam mit dem DNS-Lastenausgleich verwenden. 
+> DNS-Lastenausgleich unterscheidet sich vom DNS Round-Robin (DNS-Ressourceneintrag) in der Regel bezieht sich dies auf Lastenausgleich mithilfe der vertrauenden Seite DNS zum Bereitstellen einer anderen Reihenfolge von IP-Adressen, die Server in einem Pool entspricht. In der Regel die DNS-RR nur ermöglicht Verteilung geladen werden jedoch nicht Failover zu ermöglichen. Beispiel: bei die Verbindung mit der eine IP-Adresse durch die DNS-A und AAAA zurückgegeben (Wenn Sie IPv6-Adressen nutzen) Abfrage fehlschlägt, schlägt die Verbindung. Aus diesem Grund DNS Round-Robin allein weniger als DNS-Lastenausgleich zuverlässig ist. Sie können DNS Round-Robin in Verbindung mit DNS-Lastenausgleich. 
   
-DNS-Lastenausgleich wird für folgende Szenarien eingesetzt:
+DNS-Lastenausgleich wird für Folgendes verwendet:
   
-- Lastenausgleich zwischen SIP- und Edgeservern
+- Lastenausgleich für Server-zu-Server-SIP an den Edge-Servern
     
-- Lastenausgleich für Anwendungen der Unified Communications-Anwendungsdienste, z. B. automatische Konferenzzentrale, Reaktionsgruppen und die Anwendung zum Parken von Anrufen
+- Unified Communications Application Services (UCAS) Anwendungen wie Konferenzen Auto Attendant, die Reaktionsgruppenanwendung und Parken von Anrufen für den Lastenausgleich
     
-- Verhindern neuer Verbindungen mit Anwendungen der Unified Communications-Anwendungsdienste (auch als „Serverausgleich“ bezeichnet)
+- Verhindern neuer Verbindungen mit UCAS Applications (auch bekannt als "serverausgleich")
     
-- Lastenausgleich für den gesamten Datenverkehr zwischen Clients und Edgeservern
+- Alle Client-zu-Server-Datenverkehr zwischen Clients und Edge-Server-Lastenausgleich
     
-DNS-Lastenausgleich kann für folgende Szenarien nicht eingesetzt werden:
+DNS-Lastenausgleich kann für Folgendes verwendet werden:
   
-- Webdatenverkehr zu Director- oder Front-End-Servern
+- Client-zu-Server-Webdatenverkehr zu Director oder Front-End-Servern
     
-DNS-Lastenausgleich und Datenverkehr im Partnerverbund:
+DNS-Lastenausgleich Lastenausgleich und Datenverkehr:
   
-Wenn eine DNS-SRV-Abfrage mehrere DNS-Einträge zurückgibt, wählt der Zugriffs-Edgedienst immer den DNS-SRV-Eintrag aus, dessen Priorität durch die kleinste Zahl und dessen Gewichtung durch die größte Zahl gekennzeichnet ist. Internet Engineering Task Force "Einen DNS-Ressourceneintrag für die Angabe des Speicherorts der Dienste (DNS SRV)" Dokument [RFC 2782, DNS-SRV-Ressourceneintrag](https://www.ietf.org/rfc/rfc2782.txt) gibt an, dass mehrere DNS-SRV Datensätze definiert sind, Priorität zuerst verwendet wird, klicken Sie dann weight. Angenommen, DNS-SRV-Eintrag A hat eine Gewichtung von 20 und eine Priorität von 40 und DNS-SRV-Eintrag B hat eine Gewichtung von 10 und eine Priorität von 50. DNS-SRV-Eintrag A mit Priorität 40 wird ausgewählt. Für die Auswahl von DNS-SRV-Einträgen gelten folgende Regeln:
+Wenn mehrere DNS-Datensätze von einer DNS-SRV-Abfrage zurückgegeben werden, tragen der Zugriffs-Edgeserver Service immer die DNS-SRV wählt mit der niedrigsten numerischen Priorität und numerische Gewichtung. Internet Engineering Task Force "Einen DNS-Ressourceneintrag für die Angabe des Speicherorts der Dienste (DNS SRV)" Dokument [RFC 2782, DNS-SRV-Ressourceneintrag](https://www.ietf.org/rfc/rfc2782.txt) gibt an, dass mehrere DNS-SRV Datensätze definiert sind, Priorität zuerst verwendet wird, klicken Sie dann weight. Beispielsweise DNS-SRV-Eintrag A hat eine Stärke Gewichtung 20 und eine Priorität von 40 und DNS-SRV-Eintrag B hat eine Stärke von 10 und Priorität von 50. DNS-SRV-Eintrag A mit Priorität 40 wird ausgewählt. Die folgenden Regeln gelten für DNS-SRV-Eintrag Auswahl:
   
-- Die Priorität wird zuerst berücksichtigt. Ein Client MUSS versuchen, den Zielhost zu kontaktieren, der vom DNS-SRV-Eintrag mit der niedrigsten Prioritätszahl definiert ist, die erreicht werden kann. Ziele mit derselben Priorität SOLLTEN in einer durch das Gewichtungsfeld definierten Reihenfolge zu kontaktieren versucht werden.
+- Priorität wird zuerst berücksichtigt. Ein Client muss versuchen, wenden Sie sich an den Zielhost definiert durch den DNS-SRV-Eintrag mit der niedrigsten nummerierten Priorität, die er erreichen kann. Ziele mit derselben Priorität sollten in der Reihenfolge von Feld Gewicht definierten versucht werden.
     
-- Das Gewichtungsfeld gibt eine relative Gewichtung für Einträge mit derselben Priorität an. Größere Gewichtungen SOLLTEN mit proportional höherer Wahrscheinlichkeit gewählt werden. DNS-Administratoren sollten Gewichtung den Wert 0 verwenden, wenn keine Aktionen-Serverauswahl vorhanden ist. Wenn Server mit größeren Gewichtungen als 0 vorhanden sind, werden Einträge mit der Gewichtung 0 höchstwahrscheinlich nicht ausgewählt.
+- Feld Gewicht gibt eine relative Gewichtung für Einträge mit derselben Priorität. Größere Weights gegeben proportional steigt die Wahrscheinlichkeit eines ausgewählt werden kann. DNS-Administratoren sollten Gewichtung den Wert 0 verwenden, wenn keine Aktionen-Serverauswahl vorhanden ist. In Anwesenheit Datensätze, die größer als 0 Weights sollte Datensätze mit Gewichtung den Wert 0 eine sehr kleine Chance ausgewählt werden kann.
     
-Wenn mehrere DNS-SRV-Einträge mit gleicher Priorität und Gewichtung zurückgegeben werden, wählt der Zugriffs-Edgedienst den SRV-Eintrag aus, der zuerst vom DNS-Server empfangen wurde.
+Wenn mehrere DNS-SRV-Einträge mit gleicher Priorität und Gewichtung zurückgegeben werden, wählt der Zugriffs-edgedienst den SRV-Eintrag, der zunächst von der DNS-Server empfangen wurde.
   
-### <a name="dns-load-balancing-on-front-end-pools-and-director-pools"></a>DNS-Lastenausgleich in Front-End-Pools und Directorpools
+### <a name="dns-load-balancing-on-front-end-pools-and-director-pools"></a>DNS-Lastenausgleichs für Front-End-Pools und Director-Pools
 
-Sie können den DNS-Lastenausgleich für den SIP-Datenverkehr in Front-End-Pools und Directorpools verwenden. Auch wenn Sie einen DNS-Lastenausgleich konfiguriert haben, müssen Sie trotzdem auch Hardwaregeräte zum Lastenausgleich für diese Pools verwenden, jedoch nur für den HTTPS-Datenverkehr von Client zu Server. Das Hardwaregerät zum Lastenausgleich wird für HTTPS-Datenverkehr von Clients über die Ports 443 und 80 verwendet. 
+Sie können die DNS-Lastenausgleich für den SIP-Datenverkehr auf Front-End-Pools und Director-Pools verwenden. Mit der DNS-Lastenausgleich bereitgestellt haben, müssen Sie dennoch auch Hardwaregeräte zum Lastenausgleich für diese Pools, jedoch nur für HTTPS-Datenverkehr von Client-zu-Server verwenden. Das Hardwaregerät zum Lastenausgleich wird für HTTPS-Datenverkehr von Clients über Port 443 und 80 verwendet. 
   
-Auch wenn für diese Pools weiterhin Hardwaregeräte zum Lastenausgleich benötigt werden, müssen diese vornehmlich für den HTTPS-Datenverkehr eingerichtet und verwaltet werden. Dies stellt für Administratoren von Hardwaregeräten zum Lastenausgleich jedoch eine gängige Aufgabe dar.
+Obwohl Sie noch Hardwaregeräte zum Lastenausgleich für diese Pools benötigen, werden die Einrichtung und Verwaltung in erster Linie für HTTPS-Datenverkehr sein, die die Administratoren von Hardwaregeräten zum Lastenausgleich mit vertraut sind.
   
-#### <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>DNS-Lastenausgleich und Unterstützung älterer Clients und Server
+#### <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>DNS-Lastenausgleich Lastenausgleich und Unterstützung älterer Clients und Server
 
 DNS-Lastenausgleich Lastenausgleich unterstützt Automatisches Failover nur für Server unter Skype für Business Server oder Lync Server 2010 sowie für Lync 2013 und Skype für Business-Clients. Frühere Versionen von Clients und Office Communications Server können weiterhin eine Verbindung mit Pools der DNS-Lastenausgleich ausgeführt, wenn sie einer Verbindung mit dem ersten Server nicht ausgeführt werden können, dass DNS-Lastenausgleich zu verweist, werden aber kann nicht zum Failover auf einen anderen Server im pool . 
   
-Wenn Sie Exchange UM verwenden, müssen Sie darüber hinaus ein Minimum von Exchange 2010 SP1 verwenden, um Unterstützung für Skype für Business Server DNS-Lastenausgleich zu erhalten. Bei Verwendung früherer Exchange-Versionen verfügen Sie nicht über Failoverfunktionen für diese Exchange UM-Szenarien:
+Wenn Sie Exchange UM verwenden, müssen Sie darüber hinaus ein Minimum von Exchange 2010 SP1 verwenden, um Unterstützung für Skype für Business Server DNS-Lastenausgleich zu erhalten. Wenn Sie eine frühere Version von Exchange verwenden, müssen Ihre Benutzer nicht Failover-Funktionen für diese Exchange UM-Szenarien:
   
-- Wiedergeben ihrer Enterprise-Voicemail auf ihrem Telefon
+- Ihre Enterprise-Voicemail wiedergeben über ein Telefon
     
-- Weiterleiten von Anrufen von einer automatischen Exchange UM-Telefonzentrale
+- Weiterleiten von Anrufen von einem Exchange UM-Telefonzentrale
     
-Alle anderen Exchange UM-Szenarien funktionieren ordnungsgemäß.
+Alle anderen Exchange UM-Szenarien funktionieren ordnungsgemäß.
   
-#### <a name="deploying-dns-load-balancing-on-front-end-pools-and-director-pools"></a>Bereitstellen von DNS-Lastenausgleich in Front-End-Pools und Directorpools
+#### <a name="deploying-dns-load-balancing-on-front-end-pools-and-director-pools"></a>Bereitstellen von DNS-Lastenausgleich in Front-End-Pools und Director Pools
 <a name="BK_FE_Dir"> </a>
 
-Für die Bereitstellung von DNS-Lastenausgleich in Front-End-Pools und Directorpools müssen einige zusätzliche Schritte im Zusammenhang mit FQDNs und DNS-Einträgen ausgeführt werden.
+Bereitstellen von DNS müssen-Lastenausgleich in Front-End-Pools und Director-Pools Sie einige zusätzliche Schritte mit FQDNs und DNS-Einträge ausführen.
   
 - Ein Pool, der DNS-Lastenausgleich verwendet, benötigen zwei FQDNs: der reguläre Pool-FQDN, die von DNS verwendet wird Lastenausgleichs (beispielsweise "pool01.contoso.com") und ergibt die physischen IP-Adressen der Server im Pool zu laden und eine andere FQDN für den Pool-Web services (z. b. web01.contoso.com), die virtuelle IP-Adresse des Pools aufgelöst wird. 
     
     Im Topologie-Generator Wenn Sie DNS-Lastenausgleich für einen Pool bereitstellen möchten müssen, um diese zusätzlichen FQDN für den Pool-Webdienste zu erstellen Sie aktivieren Sie das Kontrollkästchen **interne Webdienste außer Kraft setzen pool-FQDN** und geben Sie den FQDN, in der **Angeben der Webdienst-URLs für In diesem Pool** Seite.
     
-- Um den vom DNS-Lastenausgleich verwendeten FQDN zu unterstützen, müssen Sie DNS für die Auflösung des Pool-FQDN (z. B. pool01.contoso.com) in die IP-Adressen aller Server im Pool bereitstellen (z. B. 192.168.1.1, 192.168.1.2 usw.). Berücksichtigen Sie nur die IP-Adressen von Servern, die gegenwärtig bereitgestellt sind.
+- Sie müssen DNS zum Auflösen des Pools-FQDN (beispielsweise "pool01.contoso.com") in die IP-Adressen aller Server im Pool bereitstellen, zur Unterstützung der des FQDN von DNS-Lastenausgleich verwendet (zum Beispiel: 192.168.1.1, 192.168.1.2 usw.). Sie sollten nur die IP-Adressen der Server einschließen, die derzeit bereitgestellt werden.
     
     > [!CAUTION]
     > Wenn Sie mehrere Front-End-Pool oder Front-End-Server verfügen muss die externen Webdienste FQDN eindeutig sein. Wenn Sie die externen Webdienste-FQDN des Front-End-Server als **"pool01.contoso.com"** definieren, können nicht Sie beispielsweise **"pool01.contoso.com"** für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Director-Server bereitstellen, die externe Webdienste-FQDN für alle Director definierten oder Director-Pool muss aus einem anderen eindeutig sein Director oder Director-Pools sowie alle Front-End-Pool oder Front-End-Server Wenn Sie die internen Webdienste mit einem selbstdefinierten FQDN überschreiben, jeder FQDN muss von einem beliebigen anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
@@ -242,50 +243,50 @@ Für die Bereitstellung von DNS-Lastenausgleich in Front-End-Pools und Directorp
 ### <a name="dns-load-balancing-on-edge-server-pools"></a>DNS-Lastenausgleich in Edgeserverpools
 <a name="BK_Edge"> </a>
 
-Sie können DNS-Lastenausgleich in Edgeserverpools bereitstellen. In diesem Fall müssen einige Faktoren berücksichtigt werden.
+Sie können die DNS-Lastenausgleich in edgeserverpools bereitstellen. Wenn Sie dies tun, müssen Sie einige Punkte beachten sein.
   
-Bei Verwendung des DNS-Lastenausgleichs auf Ihren Edgeservern verfügen Sie in den folgenden Szenarien nicht mehr über eine Failoverfunktion:
+Bei Verwendung des DNS-Lastenausgleichs auf Edge-Servern kein Failover mehr möglich in den folgenden Szenarien:
   
 - Partnerverbund mit Organisationen, die Versionen von Skype für Business Server veröffentlicht werden, bevor Sie Lync Server 2010 ausgeführt werden.
     
 - Austauschen von Sofortnachrichten mit Benutzern eines öffentlichen instant messaging (IM) Services AOL und Yahoo!, zusätzlich zu XMPP-basierten Anbieter und Server, wie Google Talk derzeit die einzige unterstützte XMPP-Partner.
     
-Diese Szenarien werden unterstützt, solange alle Edgeserver im Pool verfügbar sind und ausgeführt werden. Wenn jedoch einer der Edgeserver ausfällt, werden Anforderungen für diese Szenarien nicht an einen anderen Edgeserver weitergeleitet, sondern können nicht verarbeitet werden.
+Diese Szenarien funktionieren, solange alle Edge-Server im Pool ausgeführt werden, wenn ein Edge-Server nicht verfügbar ist, alle Anforderungen für diese Szenarien, die an sie gesendete fehl schlägt, anstelle der Weiterleitung an einen anderen Edge-Server.
   
- Wenn Sie Exchange UM verwenden, müssen Sie mindestens Exchange 2013 zum Abrufen von Unterstützung für Skype für Business Server DNS-Lastenausgleich in Edge verwenden. Bei Verwendung früherer Exchange-Versionen verfügen Ihre Remotebenutzer nicht über Failoverfunktionen für diese Exchange UM-Szenarien:
+ Wenn Sie Exchange UM verwenden, müssen Sie mindestens Exchange 2013 zum Abrufen von Unterstützung für Skype für Business Server DNS-Lastenausgleich in Edge verwenden. Wenn Sie eine frühere Version von Exchange verwenden, müssen Ihre Remotebenutzer nicht Failover-Funktionen für diese Exchange UM-Szenarien:
   
-- Wiedergeben ihrer Enterprise-Voicemail auf ihrem Telefon
+- Ihre Enterprise-Voicemail wiedergeben über ein Telefon
     
-- Weiterleiten von Anrufen von einer automatischen Exchange UM-Telefonzentrale
+- Weiterleiten von Anrufen von einem Exchange UM-Telefonzentrale
     
-Alle anderen Exchange UM-Szenarien funktionieren ordnungsgemäß.
+Alle anderen Exchange UM-Szenarien funktionieren ordnungsgemäß.
   
-Für die interne und die externe Edgeschnittstelle muss derselbe Typ von Lastenausgleich verwendet werden. Es ist nicht möglich, für eine Edgeschnittstelle den DNS-Lastenausgleich und für die andere Edgeschnittstelle ein Hardwaregerät zum Lastenausgleich zu verwenden.
+Für die interne Edgeschnittstelle und die externe Edgeschnittstelle muss derselbe Typ von Lastenausgleich verwendet werden. Es ist nicht möglich, für eine Edgeschnittstelle den DNS-Lastenausgleich und für die andere Edgeschnittstelle ein Hardwaregerät zum Lastenausgleich zu verwenden.
   
 #### <a name="deploying-dns-load-balancing-on-edge-server-pools"></a>Bereitstellen von DNS-Lastenausgleich in Edgeserverpools
 
-Zur Bereitstellung des DNS-Lastenausgleichs für die externe Schnittstelle Ihres Edgeserverpools benötigen Sie die folgenden DNS-Einträge:
+Zum Bereitstellen von DNS-Lastenausgleichs für die externe Schnittstelle Ihres edgeserverpools benötigen Sie die folgenden DNS-Einträge:
   
-- Für den Zugriffs-Edgedienst benötigen Sie einen Eintrag für jeden Server im Pool. Jeder Eintrag muss den FQDN des Zugriffs-Edgediensts (z. B. „sip.contoso.com“) in die IP-Adresse des Zugriffs-Edgediensts auf einem der Edgeserver im Pool auflösen.
+- Für den Zugriffs-edgedienst benötigen Sie einen Eintrag für jeden Server im Pool. Jeder Eintrag muss den FQDN des Zugriffs-edgediensts (zum Beispiel sip.contoso.com) in die IP-Adresse des Zugriffs-edgediensts auf einem Edge-Server im Pool aufgelöst werden.
     
-- Für den Webkonferenz-Edgedienst benötigen Sie einen Eintrag für jeden Server im Pool. Jeder Eintrag muss den FQDN des Webkonferenz-Edgediensts (z. B. „webconf.contoso.com“) in die IP-Adresse des Webkonferenz-Edgediensts auf einem der Edgeserver im Pool auflösen.
+- Für den Webkonferenz-edgedienst benötigen Sie einen Eintrag für jeden Server im Pool. Jeder Eintrag muss den FQDN des Webkonferenz-Edgeserver-Diensts (beispielsweise webconf.contoso.com) in die IP-Adresse des Webkonferenz-Edgeserver-Dienstes auf einem Edge-Server im Pool aufgelöst werden.
     
-- Für den A/V-Edgedienst benötigen Sie einen Eintrag für jeden Server im Pool. Jeder Eintrag muss den FQDN des a/v-edgediensts (beispielsweise av.contoso.com) beheben, zur IP-Adresse des A / V-edgedienst auf einem Edge-Server im Pool.
+- Für den a/v-edgedienst benötigen Sie einen Eintrag für jeden Server im Pool. Jeder Eintrag muss den FQDN des a/v-edgediensts (beispielsweise av.contoso.com) beheben, zur IP-Adresse des A / V-edgedienst auf einem Edge-Server im Pool.
     
-Zur Bereitstellung des DNS-Lastenausgleichs für die interne Schnittstelle Ihres Edgeserverpools müssen Sie einen DNS-A-Eintrag hinzufügen, der den internen FQDN des Edgeserverpools in die IP-Adressen der einzelnen Server innerhalb des Pools auflöst.
+Zum Bereitstellen von DNS-Lastenausgleichs für die interne Schnittstelle des Edgeservers Pools müssen Sie einen DNS-A-Datensatz hinzufügen, der den internen FQDN des Edge-Server-Pools in die IP-Adresse der einzelnen Server im Pool aufgelöst wird.
   
-### <a name="using-dns-load-balancing-on-mediation-server-pools"></a>Verwenden des DNS-Lastenausgleichs in Vermittlungsserverpools
+### <a name="using-dns-load-balancing-on-mediation-server-pools"></a>Mithilfe von DNS-Lastenausgleichs in Vermittlungsserverpools
 <a name="BK_Mediation"> </a>
 
-Sie können den DNS-Lastenausgleich in eigenständigen Vermittlungsserverpools verwenden. Der gesamte SIP- und Mediendatenverkehr wird durch den DNS-Lastenausgleich verteilt.
+DNS-Lastenausgleichs für eigenständige vermittlungsserverpools können. Alle Medien und SIP-Datenverkehr wird von der DNS-Lastenausgleich ausgeglichen.
   
-Zur Bereitstellung des DNS-Lastenausgleichs in einem Vermittlungsserverpool müssen Sie DNS für die Auflösung des Pool-FQDN (z. B. mediationpool1.contoso.com) in die IP-Adressen aller Server im Pool (z. B. 192.168.1.1, 192.168.1.2 usw.) bereitstellen.
+Zum Bereitstellen von DNS-Lastenausgleich in einem Pool Mediation Server müssen Sie DNS, um den vollqualifizierten Domänennamen (z. B. mediationpool1.contoso.com) des Pools aufgelöst bereitstellen, den IP-Adressen aller Server im Pool (zum Beispiel: 192.168.1.1, 192.168.1.2 usw.).
   
-### <a name="blocking-traffic-to-a-server-with-dns-load-balancing"></a>Blockieren von Datenverkehr an einen Server mit dem DNS-Lastenausgleich
+### <a name="blocking-traffic-to-a-server-with-dns-load-balancing"></a>Blockieren von Datenverkehr an einen Server mit DNS-Lastenausgleich
 <a name="BK_Mediation"> </a>
 
 Wenn Sie den DNS-Lastenausgleich verwenden und den Datenverkehr an einen bestimmten Computer blockieren müssen, reicht es nicht aus, einfach nur die IP-Adresseinträge aus dem Pool-FQDN zu entfernen. Sie müssen auch den DNS-Eintrag für den Computer entfernen. 
   
-Beachten Sie, dass für Server-zu-Server-Datenverkehr Topologie berücksichtigen Lastenausgleich Skype für Business Server verwendet wird. Server lesen die veröffentlichte Topologie im zentralen Verwaltungsspeicher erhalten Sie die FQDNs der Server in der Topologie, und automatisch den Datenverkehr zwischen den Servern zu verteilen. Um den Datenverkehr zwischen Servern für einen bestimmten Server zu blockieren, müssen Sie diesen Server aus der Topologie entfernen. 
+Beachten Sie, dass für Server-zu-Server-Datenverkehr Topologie berücksichtigen Lastenausgleich Skype für Business Server verwendet wird. Server lesen die veröffentlichte Topologie im zentralen Verwaltungsspeicher erhalten Sie die FQDNs der Server in der Topologie, und automatisch den Datenverkehr zwischen den Servern zu verteilen. Um einen Server erhalten, Server-zu-Server-Datenverkehr zu blockieren, müssen Sie den Server aus der Topologie entfernen. 
   
 

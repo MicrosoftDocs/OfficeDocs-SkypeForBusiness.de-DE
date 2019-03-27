@@ -1,5 +1,6 @@
 ---
 title: Medienqualitäts-Diagnoseberichte in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
 description: 'Zusammenfassung: Lernen Sie die Medienqualitäts-Diagnoseberichte in Skype für Business Server.'
-ms.openlocfilehash: 8d1149a0e0361d3a8e54978a46fe9769e427a0f7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a7861d60e9108dcf599c5cecee9a678248715e44
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965660"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889189"
 ---
 # <a name="media-quality-diagnostic-reports-in-skype-for-business-server"></a>Medienqualitäts-Diagnoseberichte in Skype für Business Server
  

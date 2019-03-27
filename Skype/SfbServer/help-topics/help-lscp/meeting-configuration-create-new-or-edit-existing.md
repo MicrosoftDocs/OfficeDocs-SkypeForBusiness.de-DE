@@ -1,5 +1,6 @@
 ---
 title: Besprechungskonfiguration Erstellen einer neuen oder Bearbeiten einer vorhandenen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 description: Mithilfe von Konfigurationseinstellungen für Besprechungen wird der Benutzerbeitritt für von Benutzern geplante Konferenzen definiert. Diese Einstellungen gelten nur für geplante Besprechungen. Sie gelten nicht für Ad-hoc-Besprechungen, die durch Klicken auf die Option Sofortbesprechung erstellt werden.
-ms.openlocfilehash: e67381ff779b7ef410e1a9accc9dc2e7791c2e43
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bb2b81aa860660503522783d3ed3a3aa9ec09985
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244202"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926504"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Besprechungskonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Besprechungskonfiguration
 
@@ -53,6 +54,6 @@ In der folgenden Liste werden die Felder der Seite beschrieben.
 
 - **Benutzerdefinierter Fußzeilentext text** Geben Sie den Text für benutzerdefinierte konferenzeinladungen verwendet wird.
 
-Ausführliche Informationen zur Verwendung von besprechungskonfigurationen finden Sie unter [Erstellen einer oder Ändern einer Auflistung von Besprechungskonfigurationseinstellungen](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) in der Betriebsdokumentation. Ausführliche Informationen zur Einstellung besprechungskonfigurationen von großen Besprechungen finden Sie unter [Festlegen von Unterstützung von großen Besprechungen](https://technet.microsoft.com/library/8e22d34b-b395-408d-9d48-8f2a3abe9513.aspx) in der Planungsdokumentation.
+Ausführliche Informationen zur Verwendung von Besprechungskonfigurationen finden Sie in der Betriebsdokumentation unter [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx). Ausführliche Informationen zur Festlegung von Besprechungskonfigurationen für große Besprechungen finden Sie in der Planungsdokumentation unter [Setting Up Support for Large Meetings](https://technet.microsoft.com/library/8e22d34b-b395-408d-9d48-8f2a3abe9513.aspx).
 
 

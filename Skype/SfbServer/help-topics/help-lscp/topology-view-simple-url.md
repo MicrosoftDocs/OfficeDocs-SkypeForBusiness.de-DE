@@ -1,5 +1,6 @@
 ---
 title: Topologie anzeigen einfacher URLs
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c17f13f2-2e45-44d6-b56d-74ec8989eef1
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: c652f9fd4a8de6e8ada981374ad6a0c05a2491f8
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: bfb0a5cf30ac19e99c89482ae4cffbb2bb4d4762
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241841"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880053"
 ---
 # <a name="topology-view-simple-url"></a>Topologie: Anzeigen einfacher URLs
 
-Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
+Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 
 - [Bearbeiten Sie oder konfigurieren Sie einfacher URLs](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
 

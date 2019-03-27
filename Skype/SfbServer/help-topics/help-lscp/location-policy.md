@@ -1,5 +1,6 @@
 ---
 title: Standortrichtlinie
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: Anhand von Standortrichtlinien wird bestimmt, ob E9-1-1 aktiviert ist, wie es verwendet wird und wie Standortinformationen für Benutzer und Kontakte verwendet werden.
-ms.openlocfilehash: 8dea581da6111973ee7d7ec3d8cfcc27d3c1346b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 9d22f76f65c84c12d16a2f8668882b2db16b7923
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261840"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898557"
 ---
 # <a name="location-policy"></a>Standortrichtlinie
 
@@ -48,7 +49,7 @@ Auf der Seite **Standortrichtlinie** können Sie die folgenden Aufgaben ausführ
 
 ## <a name="ui-reference"></a>Referenz zur Benutzeroberfläche
 
-In der folgenden Liste sind die Befehle der Seite beschrieben.
+In der folgenden Liste werden die Befehle der Seite beschrieben.
 
 - **Neue** Ermöglicht die Erstellung einer neuen Standortrichtlinie oder Standortrichtlinie.
 
@@ -75,6 +76,6 @@ In der folgenden Liste werden die Felder der Seite beschrieben.
 
 - **Maske E9-1-1** Gibt eine Zahl, die ein Benutzer wählt, die dann in die Notrufnummer Nummer übersetzt wird.
 
-Weitere Informationen zu Enterprise-VoIP notrufunterstützung Features und Funktionen finden Sie unter [Übersicht über E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) in der Planungsdokumentation. Ausführliche Informationen zum Arbeiten mit ortungsrichtlinien finden Sie unter [Standortrichtlinie konfigurieren](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) in der Betriebsdokumentation.
+Weitere Informationen zu Enterprise-VoIP notrufunterstützung Features und Funktionen finden Sie unter [Übersicht über E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Standortrichtlinien finden Sie in der Betriebsdokumentation unter [Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx).
 
 

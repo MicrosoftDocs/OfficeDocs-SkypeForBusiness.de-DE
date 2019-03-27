@@ -1,5 +1,6 @@
 ---
-title: Ausführen der Abfrage
+title: Ausführen von Abfragen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 'Zusammenfassung: Informationen Sie zum Vorgang Abfrage ausführen, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: ac9f042a8d5b8e016a398a0daf9595ffcb9d2fcb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8a1bea338039914695e16d1294f28abfe1e4b559
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533390"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899151"
 ---
-# <a name="run-query"></a>Ausführen der Abfrage
+# <a name="run-query"></a>Ausführen von Abfragen
 
 **Zusammenfassung:** Informationen Sie zu den Vorgang Abfrage ausführen, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
 
 Führen Sie beim Abfragevorgang ist Teil der Daten-API für die Qualitätsdashboard aufrufen.
 
-## <a name="run-query"></a>Ausführen der Abfrage
+## <a name="run-query"></a>Ausführen von Abfragen
 
 Führen Sie Abfrage Vorgang die Möglichkeit zum Ausführen einer Abfrage für den Cube basierend auf angegebenen Dimensionen, Maßeinheiten und Filter bietet und wieder zurückgeben Sie die Daten.
 

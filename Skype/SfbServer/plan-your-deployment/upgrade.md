@@ -1,5 +1,6 @@
 ---
 title: Planen des Upgrades auf Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Zusammenfassung: Informationen Sie über die Dinge, dass Sie bei der Planung eines Upgrades auf Skype für Business Server 2015 berücksichtigen sollten. Laden Sie eine kostenlose Testversion von Skype für Business Server 2015 aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: dd62ee7b8b7721b8ace7c3e49dd69df60d3229f7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 711b675c902824e6aab31ed64266a946a135b7fb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375134"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899165"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Planen des Upgrades auf Skype for Business Server 2015
  
@@ -147,7 +148,7 @@ Zur Verwendung dieser Methode verschieben Sie die Benutzer in einen anderen Pool
    - Verwenden Sie Start-CSWindowsService für Server, die keine Front-End-Server sind.
     
 > [!NOTE]
->  Wenn Sie kein Upgrade für die bereits vorhandenen Datenbanken zur Archivierung und Überwachung durchführen möchten, entfernen Sie die Abhängigkeit, bevor Sie ein Upgrade der Topologie durchführen. Wenn Sie neue Datenbanken zur Archivierung und Überwachung erstellen möchten, können Sie einen neuen SQL-Speicher erstellen und ihn dem Pool zuweisen. Sie können die Schritte zum dazu im Thema[Durchführen eines Upgrades auf Skype für Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)suchen. > In-Place Upgrade unterstützt hohe Verfügbarkeit oder notfallwiederherstellung für Skype für Business Server nicht. Um zu vermeiden, Benutzer Dienste unterbrechen, verwenden Sie die [Benutzer verschieben-Methode (keine Benutzer Ausfallzeit)](upgrade.md#bkmk_MoveUsersMethod) zum Upgrade. > während des Upgrades das Xds-Replikat in der lokalen freigegebenen Ordner auf dem Laufwerk mit dem meisten freien Speicherplatz platziert wird. Wird dieses Laufwerk später entfernt, treten unter Umständen Probleme auf, zum Beispiel starten Dienste möglicherweise nicht.
+>  Wenn Sie kein Upgrade für die bereits vorhandenen Datenbanken zur Archivierung und Überwachung durchführen möchten, entfernen Sie die Abhängigkeit, bevor Sie ein Upgrade der Topologie durchführen. Wenn Sie neue Datenbanken zur Archivierung und Überwachung erstellen möchten, können Sie einen neuen SQL-Speicher erstellen und ihn dem Pool zuweisen. Sie können die Schritte zum dazu im Thema[Durchführen eines Upgrades auf Skype für Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)suchen. > in-Place Upgrade unterstützt hohe Verfügbarkeit oder notfallwiederherstellung für Skype für Business Server nicht. Verwenden Sie die [Benutzer verschieben-Methode (keine Ausfallzeiten für Benutzer)](upgrade.md#bkmk_MoveUsersMethod) , Upgrade.> während des Upgradeprozesses, die das Xds-Replikat in der lokalen freigegebenen Ordner auf dem Laufwerk mit dem meisten freien Speicherplatz befindet, zum Vermeiden von Benutzercomputern Services unterbrechen. Wird dieses Laufwerk später entfernt, treten unter Umständen Probleme auf, zum Beispiel starten Dienste möglicherweise nicht.
   
 ### <a name="upgrade-order"></a>Upgrade-Reihenfolge
 
@@ -183,11 +184,11 @@ Wenn erneut hinzugefügt Migrieren einer Lync Server 2010-Topologie zu Skype fü
   
 Für Topologien Koexistenz von Lync Server 2010 und Lync Server 2013 angepasst werden zuerst die Empfehlungen im Abschnitt "Unterstützung für die Koexistenz mit Lync Server 2013 und Lync Server 2010" gestellt.
   
-## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
+## <a name="see-also"></a>Siehe auch
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
-[Upgrade auf Skype für Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
+[Upgrade to Skype for Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
   
-[Anforderungen an die Umgebung für Skype for Business Server 2015](requirements-for-your-environment/environmental-requirements.md)
+[Environmental requirements for Skype for Business Server 2015](requirements-for-your-environment/environmental-requirements.md)
   
-[Serveranforderungen für Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md)

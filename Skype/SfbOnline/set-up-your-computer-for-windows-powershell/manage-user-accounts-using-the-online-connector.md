@@ -1,5 +1,6 @@
 ---
 title: Verwalten von Benutzerkonten mithilfe der Online-Connector
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Use the Get-CsOnlineUser cmdlet in Windows PowerShell to get information about your organization's Skype for Business Online users.
-ms.openlocfilehash: fb652b53ee082834dbc4775720774985a7d51af5
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 4c2e7e581146c179f3171f38e82eff219871a90a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855853"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893533"
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>Verwalten von Benutzerkonten mithilfe der Online-Connector
 
@@ -41,7 +42,7 @@ Dieses Thema enthält die folgenden Abschnitte:
 > [!NOTE]
 > Das Cmdlet **Set-CsUser** ist auch in den Cmdlets enthalten, die für Skype for Business Online-Administratoren zur Verfügung stehen. **Set-CsUser** kann aber zurzeit nicht zum Verwalten von Skype for Business Online verwendet werden, mit einer Ausnahme: Festlegen des Parameters _AudioVideoDisabled_. Wenn Sie versuchen, das Cmdlet mit einem anderen Parameter auszuführen, schlägt dies mit etwa dieser Fehlermeldung fehl: „‚SipAddress' kann nicht festgelegt werden. Dieser Parameter ist auf die Remotemandanten-PowerShell eingeschränkt."
 
-### <a name="return-information-about-all-your-skype-for-business-online-users"></a>Abrufen von Informationen zu allen Skype for Business Online-Benutzern
+### <a name="return-information-about-all-your-skype-for-business-online-users"></a>Abrufen von Informationen zu allen Lync Online-Benutzern
 <a name="BKAllUsers"> </a>
 
 Um Informationen zu allen Benutzern abzurufen, die für Skype for Business Online aktiviert sind, rufen Sie das Cmdlet [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) ohne zusätzliche Parameter auf.

@@ -1,5 +1,6 @@
 ---
 title: PSTN-Gateway – Bereichsknoten
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN), zugeordnete Vermittlungsserver und andere grundlegende Informationen zu diesem Gateway public switched Telephone Network, (PSTN). Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 4b9d34a9decb2989bd82ce5b1c97b10d2b8ad992
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0dcb1632c3c1803f93eaba6a3bc271172cba08a5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892231"
 ---
 # <a name="pstn-gateway-scope-node"></a>PSTN-Gateway – Bereichsknoten
  

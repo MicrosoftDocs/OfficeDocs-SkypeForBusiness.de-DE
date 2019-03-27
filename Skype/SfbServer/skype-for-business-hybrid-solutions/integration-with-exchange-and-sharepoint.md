@@ -1,5 +1,6 @@
 ---
 title: Integration mit Exchange und SharePoint
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Zusammenfassung: Informationen Sie zu Skype für die Integration mit Exchange und SharePoint Business Server 2015.'
-ms.openlocfilehash: 98e84fdac1e070c10bdcfb99278e78fb6f56a9a6
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 91291f960636b8fd0c41519ff65830b98b631e8c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210621"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879962"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integration mit Exchange und SharePoint
 

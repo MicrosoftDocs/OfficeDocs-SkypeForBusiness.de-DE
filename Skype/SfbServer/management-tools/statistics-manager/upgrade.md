@@ -1,5 +1,6 @@
 ---
-title: Aktualisieren von Statistiken Manager für Skype für Business Server
+title: Aktualisieren von Statistics Manager für Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Statistiken Manager für Skype für Business Server zu aktualisieren.'
-ms.openlocfilehash: e2118377fc782af6818d070bc0bd3f5ddacab99e
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 8ff7eeb9c0abbd0482248f9b69db4013edda6495
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297895"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897129"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Aktualisieren von Statistiken Manager für Skype für Business Server
+# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Aktualisieren von Statistics Manager für Skype for Business Server
  
 **Zusammenfassung:** Gelesen Sie in diesem Thema erfahren, wie ein Upgrade Statistiken Manager für Skype für Business Server.
   
@@ -106,8 +107,8 @@ Sollte aus irgendeinem Grund die automatisierte Aktualisierung fehlschlagen, kö
 
 Weitere Informationen finden Sie unter den folgenden Themen:
   
-- [Planen der Business Server für den Statistiken-Manager für Skype](plan.md)
+- [Planen von Statistics Manager für Skype for Business Server](plan.md)
     
-- [Bereitstellen von Statistiken Manager für Skype für Business Server](deploy.md)
+- [Bereitstellen von Statistics Manager für Skype for Business Server](deploy.md)
     
-- [Problembehandlung bei Statistiken Manager für Skype für Business Server](troubleshoot.md)
+- [Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server](troubleshoot.md)

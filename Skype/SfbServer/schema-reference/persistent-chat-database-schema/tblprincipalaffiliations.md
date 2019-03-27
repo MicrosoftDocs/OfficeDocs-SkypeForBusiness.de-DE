@@ -1,5 +1,6 @@
 ---
 title: tblPrincipalAffiliations
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45fd8484-5837-44d2-85bb-45c83546607c
 description: TblPrincipalAffiliations enthält die prinzipalzuordnungen, die Mitgliedschaften in Standorten, einschließlich Active Directory-Domänendienste-Sicherheitsgruppen, in Active Directory-Containern und in Domänen beschreiben.
-ms.openlocfilehash: 4e5529590a6a636c28c801392953c7fd69e9f649
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c93edb552c63ebd4f7344926a7d43858b42506ae
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897039"
 ---
 # <a name="tblprincipalaffiliations"></a>tblPrincipalAffiliations
  

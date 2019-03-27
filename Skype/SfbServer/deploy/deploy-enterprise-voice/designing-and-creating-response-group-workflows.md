@@ -1,5 +1,6 @@
 ---
 title: Entwerfen und Erstellen von Antwort Gruppe Workflows in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Entwerfen und Erstellen von Workflows für Reaktionsgruppen in Skype für Business Server Enterprise-VoIP. Es werden sowohl Workflows für Sammelanschlüsse als auch interaktive Workflows abgedeckt.
-ms.openlocfilehash: 9bb701cf3d4894ff46127b04a3132b6b1fb5895a
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: efa77ffa0a1d7b8fda3720c3002c5364216af8eb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27264860"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895555"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Entwerfen und Erstellen von Antwort Gruppe Workflows in Skype für Unternehmen
 
@@ -29,7 +30,7 @@ Ein Workflow definiert, wie mit einem Anruf ab dem Läuten des Telefons bis zur 
 Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, Wartemusik, Geschäftszeiten und Feiertage.
 
 > [!NOTE]
-> Vor dem Erstellen eines Workflows müssen Sie zuerst Agentgruppen und Warteschleifen erstellen, die vom Workflow verwendet werden sollen.
+> Vor dem Erstellen eines Workflows müssen Sie zuerst Agent-Gruppen und Warteschleifen erstellen, die vom Workflow verwendet werden sollen.
 
 ## <a name="creating-or-modifying-a-hunt-group-workflow"></a>Erstellen oder ändern einen Workflow für Sammelanschlüsse
 
@@ -43,7 +44,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
 
 4. Klicken Sie auf der Seite **Workflow** auf **Workflow erstellen oder bearbeiten**.
 
-5. Geben Sie im Suchfeld **Dienst auswählen einen** Teil oder den Namen des **ApplicationServer** -Diensts, der den Workflow hostet, den Sie erstellen oder ändern möchten. Klicken Sie in der nun angezeigten Liste der Dienst auf den gewünschten Dienst und klicken Sie dann auf **OK**.
+5. Geben Sie im Suchfeld **Dienst auswählen** einen Teil oder den vollständigen Namen des **ApplicationServer**-Diensts ein, von dem der Workflow gehostet wird, den Sie erstellen oder ändern möchten. Klicken Sie in der nun angezeigten Liste der Dienst auf den gewünschten Dienst und klicken Sie dann auf **OK**.
 
     > [!NOTE]
     > Das Konfigurationstool für Reaktionsgruppen wird geöffnet. Sie können auch das Konfigurationstool für Reaktionsgruppen direkt über einen Webbrowser öffnen, indem Sie die folgende URL eingeben: https://\<WebPoolFqdn\>/RgsConfig.
@@ -216,7 +217,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
    ```
 
      > [!NOTE]
-     > Um eine Audiodatei für die Aufforderung zur verwenden möchten, verwenden Sie das Cmdlet **Import-CsRgsAudioFile** . Weitere Informationen hierzu finden Sie unter [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
+     > Verwenden Sie das **Import-CsRgsAudioFile**-Cmdlet, um eine Audiodatei als Ansage zu verwenden. Weitere Informationen hierzu finden Sie unter [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
 
 4. Rufen Sie die Identität der Warteschleife oder Frage ab, an die die Anrufe weitergeleitet werden. Führen Sie an der Befehlszeile folgenden Befehl aus:
 
@@ -251,7 +252,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
-9. Erstellen oder ändern Sie den Workflow. Verwenden Sie zum Erstellen eines Workflows, **New-CsRgsWorkflow**. Um einen Workflow ändern möchten, verwenden Sie **Set-CsRgsWorkflow**. Geben Sie in der Befehlszeile Folgendes ein:
+9. Erstellen oder ändern Sie den Workflow. Verwenden Sie **New-CsRgsWorkflow** zum Erstellen eines Workflows. Verwenden Sie **Set-CsRgsWorkflow** zum Ändern eines Workflows. Geben Sie in der Befehlszeile Folgendes ein:
 
    ```
    $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-ManagersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
@@ -314,7 +315,7 @@ In der folgenden Abbildung ist der Anruffluss dargestellt.
 
  **Interaktiver Anruffluss mit einer Ebene**
 
-![Entwerfen von Anrufflüssen per interaktiver Sprachantwort (IVR)](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
+![Entwerfen von Anrufflüssen mithilfe von Anrufflüssen für interaktive](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
 
 #### <a name="ivr-with-two-levels-of-questions"></a>IVR mit zwei Frageebenen
 
@@ -346,7 +347,7 @@ In der folgenden Abbildung ist der Anruffluss dargestellt.
 
  **Interaktiver Anruffluss mit zwei Ebenen**
 
-![Entwerfen von Anrufflüssen per interaktiver Sprachantwort (IVR)](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
+![Entwerfen von Anrufflüssen mithilfe von Anrufflüssen für interaktive](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
 
 ### <a name="best-practices"></a>Bewährte Methoden
 
@@ -376,7 +377,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen der i
 
 4. Klicken Sie auf der Seite **Workflow** auf **Workflow erstellen oder bearbeiten**.
 
-5. Geben Sie im Suchfeld **Dienst auswählen einen** Teil oder den Namen des **ApplicationServer** -Diensts, der den Workflow hostet, den Sie erstellen oder ändern möchten. Klicken Sie in der nun angezeigten Liste der Dienst auf den gewünschten Dienst und klicken Sie dann auf **OK**.
+5. Geben Sie im Suchfeld **Dienst auswählen** einen Teil oder den vollständigen Namen des **ApplicationServer**-Diensts ein, von dem der Workflow gehostet wird, den Sie erstellen oder ändern möchten. Klicken Sie in der nun angezeigten Liste der Dienst auf den gewünschten Dienst und klicken Sie dann auf **OK**.
 
     > [!NOTE]
     > Das Konfigurationstool für Reaktionsgruppen wird geöffnet. Sie können auch das Konfigurationstool für Reaktionsgruppen direkt über einen Webbrowser öffnen, indem Sie die folgende URL eingeben: https://\<WebPoolFqdn\>/RgsConfig.

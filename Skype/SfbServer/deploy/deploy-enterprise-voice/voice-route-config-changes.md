@@ -1,5 +1,6 @@
 ---
 title: Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: 'Zusammenfassung: Informationen Sie zum Überprüfen, veröffentlichen oder verwerfen routing Änderungen VoIP-Konfiguration in Skype für Business Server mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: fa31026627aa70d3c33412a0b6454e3a87cefd8d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 9878e719234a5d7eff2e7321fa71e30c094d489a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886588"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897706"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen
  

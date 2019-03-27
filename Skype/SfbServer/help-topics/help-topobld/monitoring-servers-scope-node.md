@@ -1,5 +1,6 @@
 ---
 title: Monitoring Server – Bereichsknoten
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 description: 'Der Knoten Monitoring Server enthält den Monitoring Server in Ihrer Topologie. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 6d6d2030c9db5fb055a3a3a2958d507b481cd33f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 166ceeef9ce17b2a1ffad8b6270e61f631fd22b9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20977597"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889428"
 ---
 # <a name="monitoring-servers-scope-node"></a>Monitoring Server – Bereichsknoten
  
@@ -27,7 +28,7 @@ Der Knoten **Monitoring Server** enthält den Monitoring Server in Ihrer Topolog
     
 Zusätzlich zu den Optionen für die Monitoring Server können Sie die folgenden allgemeinen Aufgaben ausführen:
   
-- **Topologie**. Verwenden Sie diese Option zum Definieren einer neuen Topologie, Öffnen einer vorhandenen Topologie, Herunterladen der aktuellen Topologie, Speichern einer Kopie der Topologie, veröffentlichen Sie die Topologie, eine Datenbank installieren, Zusammenführen der Komponenten aus vorherigen Versionen von Office Communications Server oder Entfernen der Bereitstellung.
+- **Topologie**. Verwenden Sie diese Option zum Definieren einer neuen Topologie, Öffnen einer vorhandenen Topologie, Herunterladen der aktuellen Topologie, Speichern einer Kopie der Topologie, veröffentlichen Sie die Topologie, eine Datenbank installieren, Zusammenführen der Komponenten aus vorherigen Versionen von Office Communications Server oder Entfernen der Einsatz.
     
 - **Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.
     

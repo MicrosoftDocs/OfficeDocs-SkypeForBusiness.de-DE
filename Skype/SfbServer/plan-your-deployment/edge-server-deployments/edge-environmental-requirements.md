@@ -1,5 +1,6 @@
 ---
 title: Edge-Server-umgebungsanforderungen in Skype für Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Zusammenfassung: Erfahren Sie mehr über die umgebungsanforderungen für Edge-Server in Skype für Business Server.'
-ms.openlocfilehash: c1a7c9ff9b55d2b5cdf978b87913f50b6521ea77
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: eaa6c1ac5b1d014f6c2bb54a342dabd4c6388c2e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047881"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878814"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Edge-Server-umgebungsanforderungen in Skype für Business Server
  
@@ -75,10 +76,10 @@ Wir haben mehrere verfügbaren Topologieoptionen für Skype für Business Server
     
 Die folgende Tabelle hilft Ihnen bei der Auswahl, indem Sie eine Zusammenfassung der Optionen jeder Topologie gibt:
   
-|**Topologie**|**Hochverfügbarkeit**|**Zusätzliche DNS-Einträge für externe Edgeserver im edgepool erforderlich?**|**Edgefailover für Skype für Business Server-Sitzungen**|**Edgefailover für Skype für verbundsitzungen zwischen Business Server**|
+|**Topologie**|**Hohe Verfügbarkeit**|**Zusätzliche DNS-Einträge für externe Edgeserver im edgepool erforderlich?**|**Edgefailover für Skype für Business Server-Sitzungen**|**Edgefailover für Skype für verbundsitzungen zwischen Business Server**|
 |:-----|:-----|:-----|:-----|:-----|
-|Einzelner konsolidierter Edgeserver mit privaten IP-Adressen und NAT  <br/> |Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren.  <br/> |Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren.  <br/> |Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren.  <br/> |Nein  <br/> |
-|Einzelner konsolidierter Edgeserver mit öffentlichen IP-Adressen  <br/> |Nein  <br/> |Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren.  <br/> |Jeder Benutzer in der Organisation kann sich mit einer PIN authentifizieren.  <br/> |Nein  <br/> |
+|Einzelner konsolidierter Edgeserver mit privaten IP-Adressen und NAT  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |
+|Einzelner konsolidierter Edgeserver mit öffentlichen IP-Adressen  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |
 |Skalierter konsolidierter Edgeserver mit privaten IP-Adressen und NAT (DNS-Lastenausgleich)  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Yes&sup1;  <br/> |
 |Skalierter konsolidierter Edgeserver mit öffentlichen IP-Adressen (DNS-Lastenausgleich)  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Yes&sup1;  <br/> |
 |Skalierter konsolidierter Edgeserver mit Hardwarelastenausgleich  <br/> |Ja  <br/> |Nein (ein DNS A-Eintrag pro VIP)  <br/> |Ja  <br/> |Ja   <br/> |
@@ -175,7 +176,7 @@ Webkonferenzen und A / V-Edgeserver, öffentliche IP-Adressen sind zusätzliche 
     
 - Sie können mit drei externen Netzwerkadaptern statt einem arbeiten und jedem davon eine Dienst-IPs zuweisen. Warum sollten Sie das tun? Dadurch werden die Dienste getrennt und wenn etwas schief läuft, ist die Problembehandlung einfacher. Außerdem können Ihre anderen Dienste möglicherweise weiterarbeiten, während Sie das Problem beheben.
     
-|**Standort**|**Typ**|**Port**|**FQDN oder DNS-Eintrag**|**IP-Adresse oder FQDN**|**Notizen**|
+|**Standort**|**Typ**|**Port**|**FQDN oder DNS-Eintrag**|**IP-Adresse oder FQDN**|**Hinweise**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Externes DNS  <br/> |Ein Eintrag  <br/> |NV  <br/> |sip.contoso.com  <br/> |**Öffentliche:** 131.107.155.10 <br/> **private:** 10.45.16.10 <br/> |Eine externe Schnittstelle für den Zugriffs-Edgeservers-Dienst. Sie benötigen einen für jede SIP-Domäne mit Skype für Geschäftsbenutzer.  <br/> |
 |Externes DNS  <br/> |Ein Eintrag  <br/> |NV  <br/> |webcon.contoso.com  <br/> |**Öffentliche:** 131.107.155.20 <br/> **private:** 10.45.16.20 <br/> |Eine externe Schnittstelle für Ihre Webkonferenz-edgedienst.  <br/> |
@@ -249,7 +250,7 @@ Es gibt weitere möglich Konfigurationen:
     
 - Sie können mit drei externen Netzwerkadaptern statt einem arbeiten und jedem davon eine Dienst-IPs zuweisen. Warum sollten Sie das tun? Dadurch werden die Dienste getrennt und wenn etwas schief läuft, ist die Problembehandlung einfacher. Außerdem können Ihre anderen Dienste möglicherweise weiterarbeiten, während Sie das Problem beheben.
     
-|**Standort**|**Typ**|**Port**|**FQDN oder DNS-Eintrag**|**IP-Adresse oder FQDN**|**Notizen**|
+|**Standort**|**Typ**|**Port**|**FQDN oder DNS-Eintrag**|**IP-Adresse oder FQDN**|**Hinweise**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Externes DNS  <br/> |Ein Eintrag  <br/> |NV  <br/> |sip.contoso.com  <br/> |**Öffentliche:** 131.107.155.10 und 131.107.155.11 <br/> **Privat:** 10.45.16.10 und 10.45.16.11 <br/> |Eine externe Schnittstelle für den Zugriffs-Edgeservers-Dienst. Sie benötigen einen für jede SIP-Domäne mit Skype für Geschäftsbenutzer.  <br/> |
 |Externes DNS  <br/> |Ein Eintrag  <br/> |NV  <br/> |webcon.contoso.com  <br/> |**Öffentliche:** 131.107.155.20 und 131.107.155.21 <br/> **Privat:** 10.45.16.20 und 10.45.16.21 <br/> |Eine externe Schnittstelle für Ihre Webkonferenz-edgedienst.  <br/> |
@@ -260,7 +261,7 @@ Es gibt weitere möglich Konfigurationen:
    
 ### <a name="dns-record-for-federation-all-scenarios"></a>DNS-Eintrag für Partnerverbund (alle Szenarien)
 
-|**Standort**|**Typ**|**Port**|**FQDN**|**FQDN-Hosteintrag**|**Notizen**|
+|**Standort**|**Typ**|**Port**|**FQDN**|**FQDN-Hosteintrag**|**Hinweise**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Externes DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Die SIP-Zugriffs-Edgeservers externe Schnittstelle für die automatische DNS-Ermittlung erforderlich. Wird von der potenziellen Verbundpartnern verwendet. Es ist auch bekannt als "SIP-Domänen zulassen". Sie benötigen eine der folgenden für jede SIP-Domäne mit Skype für Geschäftsbenutzer.  <br/><br/> **Hinweis:** Sie benötigen diesen SRV-Eintrag für die Mobilität und das Push Notification clearing House verwenden. <br/> |
    
@@ -283,7 +284,7 @@ Wir besprechen externe und interne Zertifikate getrennt und sehen uns dann auch 
   
 ### <a name="external-certificates"></a>Externe Zertifikate
 
-Das Zertifikat zugewiesen Ihrer externen Edge-Server-Schnittstellen müssen mindestens von einer öffentlichen Zertifizierungsstelle (CA) bereitgestellt werden. Wir können Ihnen keine bestimmte CA empfehlen, haben jedoch eine Liste von CAs, [Zertifikatspartner Unified Communications](https://support.microsoft.com/en-us/kb/929395), die Sie sich ansehen können, um festzustellen, ob Ihre bevorzugte CA aufgeführt ist.
+Das Zertifikat zugewiesen Ihrer externen Edge-Server-Schnittstellen müssen mindestens von einer öffentlichen Zertifizierungsstelle (CA) bereitgestellt werden. Es kann keine bestimmte Zertifizierungsstelle wird empfohlen, Ihnen, aber haben wir eine Liste von Zertifizierungsstellen, die [Unified Communications-Zertifikats Partner](https://support.microsoft.com/en-us/kb/929395) , die Sie eine Aufstellung der ergreifen können, um festzustellen, ob Ihre bevorzugten Zertifizierungsstellen aufgeführt ist.
   
 Wann müssen Sie eine Anforderung an eine CA für dieses öffentliche Zertifikat stellen und wie machen Sie das? Es gibt verschiedene Arten:
   
@@ -353,7 +354,7 @@ Betrachten wir die folgenden Tabelle, bevor wir uns die Zusammenfassungstabelle 
 
 Die Quell-IP-Adresse und die Ziel-IP-Adresse enthalten Informationen für Benutzer, die private IP-Adressen mit NAT verwenden sowie für alle, die öffentliche IP-Adressen verwenden. Dadurch werden alle Variationen unsere [Edge-Server-Szenarien in Skype für Business Server](scenarios.md) im Abschnitt behandelt.
   
-|**Rollen oder Protokoll**|**TCP oder UDP**|**Zielport oder Portbereich**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Notizen**|
+|**Rollen oder Protokoll**|**TCP oder UDP**|**Zielport oder Portbereich**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Hinweise**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |XMPP  <br/> Nicht unterstützt Skype für Business Server 2019 |TCP  <br/> |5269  <br/> |Beliebig  <br/> |XMPP-Proxydienst (teilt eine IP-Adresse mit Zugriffs-edgediensts  <br/> |XMPP-Proxydienst akzeptiert Datenverkehr von XMPP-Kontakten in definierten XMPP-Verbünden.  <br/> |
 |Zugriff/HTTP  <br/> |TCP  <br/> |80  <br/> |**Private IP mit NAT:** Edge-Server-Zugriffsedge-Dienst <br/> **Öffentliche IP-Adresse:** Edge-Server-Zugriffs-Edgeservers öffentliche IP-Adresse <br/> |Beliebig  <br/> |Zertifikatsperre und Zertifikatssperrlistenprüfung und -abruf  <br/> |
@@ -372,7 +373,7 @@ Die Quell-IP-Adresse und die Ziel-IP-Adresse enthalten Informationen für Benutz
    
 ### <a name="internal-port-firewall-summary-table"></a>Zusammenfassungstabelle für interne Port-Firewall
 
-|**Protokoll**|**TCP oder UDP**|**Port**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Notizen**|
+|**Protokoll**|**TCP oder UDP**|**Port**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Hinweise**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Jede der folgenden, die den XMPP-Gatewaydienst ausführt:  <br/> • Front-End-Server  <br/> • Front-End-pool  <br/> |Interne Schnittstelle des Edgeservers  <br/> |Ausgehender XMPP-Datenverkehr von Ihrem XMPP-Gateway-Dienst auf dem Front-End-Server oder Front-End-Pool ausgeführt.  <br/> **Hinweis:** XMPP-Gateways und -Proxys werden stehen in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype für Business Server 2019. Weitere Informationen finden Sie unter [Migrieren von XMPP-Verbund](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .|
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Jede:  <br/> • Director  <br/> • Director-pool  <br/> • Front-End-Server  <br/> • Front-End-pool  <br/> |Interne Schnittstelle des Edgeservers  <br/> |Ausgehender SIP-Datenverkehr aus dem Director, Director-Pool, Front-End-Server oder Front-End-Pool zu Ihrer internen Edge-Server-Schnittstelle.  <br/> |
@@ -394,7 +395,7 @@ Hardwaregeräte zum Lastenausgleich und Edge-Ports bekommen Ihren eigenen Abschn
 
 Die Quell-IP-Adresse und die Ziel-IP-Adresse enthalten Informationen für Benutzer, die private IP-Adressen mit NAT verwenden sowie für alle, die öffentliche IP-Adressen verwenden. Dadurch werden alle Variationen unsere [Edge-Server-Szenarien in Skype für Business Server](scenarios.md) im Abschnitt behandelt.
   
-|**Rollen oder Protokoll**|**TCP oder UDP**|**Zielport oder Portbereich**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Notizen**|
+|**Rollen oder Protokoll**|**TCP oder UDP**|**Zielport oder Portbereich**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Hinweise**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Zugriff/HTTP  <br/> |TCP  <br/> |80  <br/> |Edge-Server-Zugriffs-Edgeservers öffentliche IP-Adresse  <br/> |Beliebig  <br/> |Zertifikatsperre und Zertifikatssperrlistenprüfung und -abruf  <br/> |
 |Zugriff/DNS  <br/> |TCP  <br/> |53  <br/> |Edge-Server-Zugriffs-Edgeservers öffentliche IP-Adresse  <br/> |Beliebig  <br/> |DNS-Abfrage über TCP.  <br/> |
@@ -421,7 +422,7 @@ Die Quell-IP-Adresse und die Ziel-IP-Adresse enthalten Informationen für Benutz
    
 #### <a name="external-interface-virtual-ips"></a>Virtuelle IPs externe Schnittstelle
 
-|**Rollen oder Protokoll**|**TCP oder UDP**|**Zielport oder Portbereich**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Notizen**|
+|**Rollen oder Protokoll**|**TCP oder UDP**|**Zielport oder Portbereich**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Hinweise**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |XMPP  <br/> Skype für Business Server 2019 unterstützt nicht |TCP  <br/> |5269  <br/> |Beliebig  <br/> |XMPP-Proxydienst (teilt eine IP-Adresse mit Zugriffs-edgedienst)  <br/> |XMPP-Proxydienst akzeptiert Datenverkehr von XMPP-Kontakten in definierten XMPP-Verbünden.  <br/> |
 |XMPP  <br/>Skype für Business Server 2019 unterstützt nicht |TCP  <br/> |5269  <br/> |XMPP-Proxydienst (teilt eine IP-Adresse mit Zugriffs-edgedienst)  <br/> |Beliebig  <br/> |XMPP-Proxydienst sendet Datenverkehr von XMPP-Kontakten in definierten XMPP-Verbünden.  <br/> |
@@ -442,7 +443,7 @@ Unsere Hilfestellung ist hier etwas anders. Tatsächlich empfehlen wir in einer 
     
 Die folgende Tabelle liefert Anweisungen für diese Szenarien, jedoch können von zentralen Verwaltungsspeicher (CMS) für die Weiterleitung von Verkehr an den einzelnen Edgeserver abhängig bekannt, dass ist Sie andernfalls sollte (Dies erfordert, dass CMS auf Edge-Server auf dem aktuellen Stand ist Informationen, natürlich).
   
-|**Protokoll**|**TCP oder UDP**|**Port**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Notizen**|
+|**Protokoll**|**TCP oder UDP**|**Port**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Hinweise**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Zugriff/ SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |Jede:  <br/> • Director  <br/> • Director-Pool-VIP-Adresse  <br/> • Front-End-Server  <br/> • IP-Adresse des Front-End-pool  <br/> |Interne Schnittstelle des Edgeservers  <br/> |Ausgehender SIP-Datenverkehr aus dem Director, Director-Pool-VIP-Adresse, Front-End-Server oder Front-End-Pool-VIP-Adresse in Ihrer internen Edge-Server-Schnittstelle.  <br/> |
 |Zugriff/ SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |Edge-Server interne VIP-Schnittstelle  <br/> |Jede:  <br/> • Director  <br/> • Director-Pool-VIP-Adresse  <br/> • Front-End-Server  <br/> • IP-Adresse des Front-End-pool  <br/> |Eingehender SIP-Datenverkehr auf dem Director Director-Pool-VIP-Adresse, Front-End-Server oder Front-End-Pool-VIP-Adresse von der internen Edge-Server-Schnittstelle.  <br/> |

@@ -1,5 +1,6 @@
 ---
-title: Die Anrufsteuerung (Planungstool)
+title: Call Admission Control (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 description: Der Anrufsteuerungsdienst ermittelt anhand der verfügbaren Netzwerkbandbreite, ob Kommunikationssitzungen (beispielsweise Sprach- oder Videoanrufe) in Echtzeit eingerichtet werden dürfen.
-ms.openlocfilehash: 10750b7f3653eed9051b59ebd0b79174cd92f5c9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5341b3dda1e739c649ca859356d61712a7ec8d3a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895810"
 ---
-# <a name="call-admission-control-planning-tool"></a>Die Anrufsteuerung (Planungstool)
+# <a name="call-admission-control-planning-tool"></a>Call Admission Control (Planning Tool)
  
 Der Anrufsteuerungsdienst ermittelt anhand der verfügbaren Netzwerkbandbreite, ob Kommunikationssitzungen (beispielsweise Sprach- oder Videoanrufe) in Echtzeit eingerichtet werden dürfen.
   

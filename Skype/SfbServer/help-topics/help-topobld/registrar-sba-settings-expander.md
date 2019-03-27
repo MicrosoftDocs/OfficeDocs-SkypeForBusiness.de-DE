@@ -1,5 +1,6 @@
 ---
-title: SBA Registrierungseinstellungen – Erweiterung
+title: SBA-Einstellungen der Registrierungsstelle – Erweiterung
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 description: 'Sie bearbeiten die Einstellungen für Flexibilität und konfigurieren Sie die folgenden Eigenschaften:'
-ms.openlocfilehash: f4237972f271ed65e323d67637d9428631c9a899
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 118c7e3eda7fc8422483989880f7ae0b31b9842f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375878"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896703"
 ---
-# <a name="registrar-sba-settings-expander"></a>SBA Registrierungseinstellungen – Erweiterung
+# <a name="registrar-sba-settings-expander"></a>SBA-Einstellungen der Registrierungsstelle – Erweiterung
 
 Sie bearbeiten die Einstellungen für **Flexibilität** und konfigurieren Sie die folgenden Eigenschaften:
 

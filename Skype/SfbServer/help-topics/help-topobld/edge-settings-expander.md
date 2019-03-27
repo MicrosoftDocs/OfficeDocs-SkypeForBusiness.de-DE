@@ -1,5 +1,6 @@
 ---
 title: Edgeeinstellungen – Erweiterung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Servern werden in den folgenden Abschnitten bearbeitet:'
-ms.openlocfilehash: c8c167673151f8fdc5801e31444cd70b1e21b068
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 23162ee4100c077d072d6cc1d72946059611ce7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257458"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889161"
 ---
 # <a name="edge-settings-expander"></a>Edgeeinstellungen – Erweiterung
 

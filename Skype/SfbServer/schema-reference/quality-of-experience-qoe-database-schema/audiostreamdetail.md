@@ -1,5 +1,6 @@
 ---
 title: AudioStreamDetail-Ansicht
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: AudioStreamDetail-Ansicht werden Informationen zu jedem Audiostream in der Datenbank gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 4dadc53f0641e2d59dc72b2add433c69fc9b8ad1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c5078a0d936cce0dec29ddfee3813db7334aba71
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895286"
 ---
 # <a name="audiostreamdetail-view"></a>AudioStreamDetail-Ansicht
  

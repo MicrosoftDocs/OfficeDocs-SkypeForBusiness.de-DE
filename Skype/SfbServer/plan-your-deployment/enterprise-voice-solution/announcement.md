@@ -1,5 +1,6 @@
 ---
 title: Planen der ankündigungsanwendung in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: Planung für die ansageanwendung in Skype für Business Server Enterprise-VoIP, konfiguriert die auszuführende Aktion, mit dem Telefonanrufe an nicht zugewiesene Telefonnummern in Ihrer Organisation. Es konfiguriert, was mit nicht zugewiesenen Telefonnummern in Ihren Organisationen passiert und beinhaltet Audiodateianforderungen.
-ms.openlocfilehash: 2642dc13653f18520371b31c9e5ff41bc6a479d3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5e3b9af1a6bdc83081a1a8f17cd4963337efbbb6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882105"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896560"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Planen der ankündigungsanwendung in Skype für Unternehmen
 
@@ -43,10 +44,10 @@ Alle Front-End-Server oder Standard Edition-Server, die die ankündigungsanwendu
 Die ankündigungsanwendung verwendet **Port 5071** für SIP-überwachungsanforderungen verwendet.
 
 > [!NOTE]
-> Dieser Port ist die Standardeinstellung, die Sie mit dem Cmdlet **Set-CsApplicationServer** ändern können. Ausführliche Informationen zu diesem Cmdlet finden Sie unter der Skype Business Server-Verwaltungsshell-Dokumentation.
+> Dieser Port ist die Standardeinstellung, kann aber mit dem Cmdlet **Set-CsApplicationServer** geändert werden. Ausführliche Informationen zu diesem Cmdlet finden Sie unter der Skype Business Server-Verwaltungsshell-Dokumentation.
 
 ### <a name="audio-file-requirements"></a>Anforderungen für Audiodateien
 
-Der ankündigungsanwendung unterstützt WAV-Dateiformat und Windows Media Audio (WMA) Dateiformat für Musik und Ankündigungen. Audiodateianforderungen für die ansageanwendung sind die gleichen wie für die Anwendung "Reaktionsgruppe". Weitere Informationen hierzu finden Sie unter [Technische Anforderungen für Reaktionsgruppen](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+Der ankündigungsanwendung unterstützt WAV-Dateiformat und Windows Media Audio (WMA) Dateiformat für Musik und Ankündigungen. Audiodateianforderungen für die ansageanwendung sind die gleichen wie für die Anwendung "Reaktionsgruppe". Ausführliche Informationen finden Sie unter [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 

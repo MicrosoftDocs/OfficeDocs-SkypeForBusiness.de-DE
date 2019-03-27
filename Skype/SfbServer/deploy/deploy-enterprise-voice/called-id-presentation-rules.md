@@ -1,5 +1,6 @@
 ---
 title: Erstellen oder Ändern einer übersetzungsregel für die gewählte ID Präsentation in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine übersetzungsregel mit dem Erstellen einer Übersetzungsregel-Tool in Skype für Business Server definieren.'
-ms.openlocfilehash: c50b16f2753569b1a47b37f6615ef0e7f6d26cae
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 947dc6a76482fc5b00efaeb71463b35eab9f9cea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370830"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897692"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Erstellen oder Ändern einer übersetzungsregel für die gewählte ID Präsentation in Skype für Business Server
 
 **Zusammenfassung:** Hier erfahren Sie, wie Sie eine übersetzungsregel mit dem Erstellen einer Übersetzungsregel-Tool in Skype für Business Server definieren.
 
-Gehen Sie folgendermaßen vor, wenn Sie eine übersetzungsregel definieren durch Eingabe einer Gruppe von Werten in das Tool **eine Übersetzungsregel erstellen** und Aktivieren von Skype Business Server-Systemsteuerung auf den entsprechenden Vergleichsmuster und die übersetzungsregel zu generieren möchten. Alternativ können Sie manuell einen regulären Ausdruck erstellen, um das Vergleichsmuster und die Übersetzungsregel zu definieren. Weitere Informationen hierzu finden Sie unter [Erstellen oder Ändern einer Übersetzung Regel manuell](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx).
+Gehen Sie folgendermaßen vor, wenn Sie eine übersetzungsregel definieren durch Eingabe einer Gruppe von Werten in das Tool **eine Übersetzungsregel erstellen** und Aktivieren von Skype Business Server-Systemsteuerung auf den entsprechenden Vergleichsmuster und die übersetzungsregel zu generieren möchten. Alternativ können Sie manuell einen regulären Ausdruck erstellen, um das Vergleichsmuster und die Übersetzungsregel zu definieren. Ausführliche Informationen finden Sie unter [Create or Modify a Translation Rule Manually](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx).
 
 ### <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>So definieren Sie eine Regel mit dem Tool zum Erstellen einer Übersetzungsregel
 

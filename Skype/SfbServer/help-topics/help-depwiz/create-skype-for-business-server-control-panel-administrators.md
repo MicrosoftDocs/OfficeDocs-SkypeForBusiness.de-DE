@@ -1,5 +1,6 @@
 ---
 title: Erstellen von Administratoren für die Skype for Business Server-Systemsteuerung
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 description: 'Um Zugriff auf die Skype für Business Server 2015 gewähren möchten, führen Sie folgende Schritte aus:'
-ms.openlocfilehash: db781611e2df2abf23c071673d3dfe0570f5700b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5d01066da5be34ba53f4eca37d35a3913d07142a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898866"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Erstellen von Administratoren für die Skype for Business Server-Systemsteuerung
  

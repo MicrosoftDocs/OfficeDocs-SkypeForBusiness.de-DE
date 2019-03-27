@@ -1,5 +1,6 @@
 ---
 title: Planen der Telefonsystem in Office 365 mit lokalen PSTN-Konnektivität in Skype Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Informationen Sie zu den planungsüberlegungen für Telefonsystem in Office 365 (Cloud, PBX) mit lokalen PSTN-Anbindung.
-ms.openlocfilehash: f0e73b2541bdab8d3e37db02bc023667ae942578
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.openlocfilehash: 3c3dcb8316cdd3665d7570d16777a8b4195c4a82
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454043"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897914"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planen der Telefonsystem in Office 365 mit lokalen PSTN-Konnektivität in Skype Business Server
 
@@ -100,7 +101,7 @@ Darüber hinaus müssen Sie Folgendes sicherstellen:
 
     Wenn Sie Lync Server 2013 verwenden, finden Sie unter [Planning for Enterprise-VoIP in Lync Server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx) und [Bereitstellen von Enterprise-VoIP in Lync Server 2013](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx).
 
-- **Active Directory-Synchronisierung** Sie müssen Active Directory-Synchronisierung mit Azure Active Directory verbinden konfigurieren. Weitere Informationen finden Sie unter [Nächste Schritte und Verwalten von Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
+- **Active Directory-Synchronisierung** Sie müssen Active Directory-Synchronisierung mit Azure Active Directory verbinden konfigurieren. Weitere Informationen finden Sie unter [Verwalten von Azure Active Directory verbinden](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
 
     > [!NOTE]
     > Die von Ihnen verwendete Version von AAD Connect muss Version 1.0.9125.0 oder höher sein. Wenn Sie mit einer früheren Version der AAD Connect-Werkzeuge oder DirSync arbeiten, führen Sie ein Upgrade auf die unterstützte Version durch. Sie können aber auch ein Upgrade Ihrer aktuellen Installation durchführen und alle benutzerdefinierten Regeln beibehalten, die Sie in Ihrer Umgebung definiert haben. 

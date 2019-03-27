@@ -1,5 +1,6 @@
 ---
 title: Überprüfen der Replikation der Gesamtstrukturvorbereitung
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 description: 'Um zu bestätigen, dass die Replikation des globalen Katalogs und die Erstellung von Objekten während der Vorbereitung der Gesamtstruktur verfügen erfolgreich war, gehen Sie folgendermaßen vor:'
-ms.openlocfilehash: cfb993a9a80bf4b37e76712a58aa6c1fb0c270c3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 113f3627f1d180ac8ccb63c97a606c5af6622767
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884020"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>Überprüfen der Replikation der Gesamtstrukturvorbereitung
  

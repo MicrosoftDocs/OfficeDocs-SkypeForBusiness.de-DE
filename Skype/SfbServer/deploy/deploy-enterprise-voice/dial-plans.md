@@ -1,5 +1,6 @@
 ---
 title: Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Zusammenfassung: Informationen Sie zum Erstellen oder Ändern von Wähleinstellungen mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: dc60b2b2f922e5f6581f6742d055243ccfe06113
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b8f2e2831a611679f74aebcf49bcc24086adef7e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371068"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895859"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server
 
@@ -44,12 +45,12 @@ ms.locfileid: "25371068"
 4. Wenn Sie einen Wählplan erstellen, geben Sie im Dialogfeld **Neuer Wählplan** im Feld **Name** einen beschreibenden Namen ein. Nach dem Speichern kann dieser Name nicht mehr geändert werden.
 
     > [!NOTE]
-    > Für standortwähleinstellungen im Feld **Name** wird mit dem Namen des Standorts vorausgefüllt und kann nicht geändert werden. > für poolwählpläne im Feld **Name** wird mit dem PSTN-Gateway oder Name der Registrierungsstelle vorausgefüllt und kann nicht geändert werden.
+    > Für standortwähleinstellungen im Feld **Name** wird mit dem Namen des Standorts vorausgefüllt und kann nicht geänderten .> für Pool Wählpläne werden, im Feld **Name** wird mit der PSTN-Gateway oder der Name der Registrierung vorausgefüllt und kann nicht geändert werden.
 
 5. Das Feld **Einfacher Name** wird mit demselben Namen vorausgefüllt, der im Feld **Name** erscheint. Sie können dieses Feld optional bearbeiten, um einen aussagekräftigeren Namen anzugeben, der den Standort, Dienst oder Benutzer zur Anwendung des Wählplans besser beschreibt.
 
    > [!IMPORTANT]
-   > Die **einfacher Name** muss für alle Wählpläne in Ihrer Bereitstellung eindeutig sein. 256 Unicodezeichen, kann jeweils ein Buchstaben oder numerische Zeichen, einen Bindestrich (-), einen Punkt (.) oder einem Unterstrich (_) nicht überschreiten. > Zeichen **nicht unterstützt** gehören, Leerzeichen und reservierte Zeichen gemäß Definition in RFC 3966 (<http://www.ietf.org/rfc/rfc3966.txt>). Reservierte Zeichen, die in der **Einfachen Namen** **nicht unterstützt** werden, sind: > ";" "/" "?" ":" "@" "&amp;" "=" "+""$"","
+   > Die **einfacher Name** muss für alle Wählpläne in Ihrer Bereitstellung eindeutig sein. 256 Unicodezeichen, jeweils ein Buchstaben oder numerische Zeichen kann nicht überschreiten und einen Bindestrich (-), einem Punkt (.) oder ein Unterstrich (_) .> Zeichen **nicht unterstützt** Leerzeichen und reservierte Zeichen gemäß Definition in RFC 3966 einschließen (<http://www.ietf.org/rfc/rfc3966.txt>). Reservierte Zeichen, die in der **Einfachen Namen** **nicht unterstützt** werden gehören die folgenden: > ";" "/" "?" ":" "@" "&amp;" "=" "+""$"","
 
 6. (Optional) Geben Sie im Feld **Beschreibung** zusätzliche beschreibende Informationen zum Wählplan ein.
 
@@ -81,7 +82,7 @@ ms.locfileid: "25371068"
 10. Stellen Sie sicher, dass die Wähleinstellungen Normalisierungsregeln in der richtigen Reihenfolge angeordnet sind. Um eine Regel Position in der Liste zu ändern, markieren Sie den Namen der Regel und klicken Sie auf den Pfeil nach oben oder nach-unten Sie-Pfeil.
 
     > [!IMPORTANT]
-    > Skype für Business Server der Regelliste Normalisierung von oben nach unten durchläuft und verwendet die erste Regel, die mit die gewählte Nummer übereinstimmt. Wenn Sie einen Wählplan so konfigurieren, dass eine gewählte Nummer mit mehr als einer Normalisierungsregel übereinstimmen kann, müssen Sie sicherstellen, dass die einschränkenderen Regeln über den weniger einschränkenden Regeln angeordnet sind. > Normalisierungsregel die Standardeinstellung **Alle beibehalten** ^(\d{11})$ entspricht einer beliebigen 11 Ziffern Anzahl. Beispielsweise wenn Sie eine Normalisierungsregel hinzuzufügen, 11 Ziffern entspricht, die mit 1425 beginnen, stellen Sie sicher, dass **Alle beibehalten** unterhalb der restriktiveren sortiert ist ^(1425\d{7})$ Regel.
+    > Skype für Business Server der Regelliste Normalisierung von oben nach unten durchläuft und verwendet die erste Regel, die mit die gewählte Nummer übereinstimmt. Wenn Sie einen Wählplan so konfigurieren, dass eine gewählte Nummer mit mehr als einer Normalisierungsregel übereinstimmen kann, müssen Sie sicherstellen, dass die einschränkenderen Regeln über den weniger einschränkenden Regeln angeordnet sind. Die Standardeinstellung **Alle beibehalten** Normalisierungsregel > ^(\d{11})$ entspricht einer beliebigen 11 Ziffern Anzahl. Beispielsweise wenn Sie eine Normalisierungsregel hinzuzufügen, 11 Ziffern entspricht, die mit 1425 beginnen, stellen Sie sicher, dass **Alle beibehalten** unterhalb der restriktiveren sortiert ist ^(1425\d{7})$ Regel.
 
 11. (Optional) Geben Sie eine Nummer zum Testen des Wählplans ein und klicken Sie auf **Los**. Die Testergebnisse werden unterhalb von **Geben Sie eine Testnummer ein** angezeigt.
 
@@ -94,7 +95,7 @@ ms.locfileid: "25371068"
 
 ### <a name="to-modify-a-dial-plan"></a>So ändern Sie einen Satz mit Wähleinstellungen
 
-1. Melden Sie sich an dem Computer als Mitglied der Gruppe RTCUniversalServerAdmins oder als Mitglied der Rolle CsVoiceAdministrator, CsServerAdministrator oder csadministrator an. Weitere Informationen hierzu finden Sie unter **Delegate Setup Permissions**.
+1. Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter **Delegate Setup Permissions**.
 
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.
 
@@ -108,7 +109,7 @@ ms.locfileid: "25371068"
 5. (Optional) Bearbeiten Sie im Abschnitt **Wähleinstellungen bearbeiten** das Feld **Einfacher Name** (dieses wird mit dem Namen im Feld **Name** vorausgefüllt), um einen beschreibenderen Namen einzugeben, der den Standort, Dienst oder Benutzer angibt, für den die Wähleinstellungen gelten.
 
     > [!IMPORTANT]
-    > Die **einfacher Name** muss unter allen Wählplänen in der Lync Server 2013-Bereitstellung eindeutig sein. 256 Unicodezeichen, kann jeweils ein Buchstaben oder numerische Zeichen, einen Bindestrich (-), einen Punkt (.), ein Pluszeichen (+) oder einem Unterstrich (_) nicht überschreiten. > Leerzeichen sind im Feld **einfacher Name** nicht zulässig.
+    > Die **einfacher Name** muss unter allen Wählplänen in der Lync Server 2013-Bereitstellung eindeutig sein. 256 Unicodezeichen, kann jeweils ein Buchstaben oder numerische Zeichen, einen Bindestrich (-), einen Punkt (.), ein Pluszeichen (+) oder einem Unterstrich (_) nicht überschreiten .> Leerzeichen sind im Feld **einfacher Name** nicht zulässig.
 
 6. (Optional) Geben Sie im Feld **Beschreibung** beschreibende Informationen zu den Wähleinstellungen ein.
 
@@ -140,12 +141,12 @@ ms.locfileid: "25371068"
 10. Stellen Sie sicher, dass die Wähleinstellungen Normalisierungsregeln in der richtigen Reihenfolge angeordnet sind. Um eine Regel Position in der Liste zu ändern, markieren Sie den Namen der Regel und klicken Sie auf den Pfeil nach oben oder nach-unten Sie-Pfeil.
 
     > [!IMPORTANT]
-    > Skype für Business Server der Regelliste Normalisierung von oben nach unten durchläuft und verwendet die erste Regel, die mit die gewählte Nummer übereinstimmt. Wenn Sie einen Wählplan so konfigurieren, dass eine gewählte Nummer mit mehr als einer Normalisierungsregel übereinstimmen kann, müssen Sie sicherstellen, dass die einschränkenderen Regeln über den weniger einschränkenden Regeln angeordnet sind. > Normalisierungsregel die Standardeinstellung **Alle beibehalten** ^(\d{11})$ entspricht einer beliebigen 11 Ziffern Anzahl. Wenn beispielsweise Sie eine Normalisierungsregel hinzuzufügen, 11 Ziffern entspricht, die mit 1425 beginnen, stellen Sie sicher, dass **Alle beibehalten** unterhalb der restriktiveren sortiert ist ^(1425\d{7})$ Regel.
+    > Skype für Business Server der Regelliste Normalisierung von oben nach unten durchläuft und verwendet die erste Regel, die mit die gewählte Nummer übereinstimmt. Wenn Sie einen Wählplan so konfigurieren, dass eine gewählte Nummer mit mehr als einer Normalisierungsregel übereinstimmen kann, müssen Sie sicherstellen, dass die einschränkenderen Regeln über den weniger einschränkenden Regeln angeordnet sind. Die Standardeinstellung **Alle beibehalten** Normalisierungsregel > ^(\d{11})$ entspricht einer beliebigen 11 Ziffern Anzahl. Wenn beispielsweise Sie eine Normalisierungsregel hinzuzufügen, 11 Ziffern entspricht, die mit 1425 beginnen, stellen Sie sicher, dass **Alle beibehalten** unterhalb der restriktiveren sortiert ist ^(1425\d{7})$ Regel.
 
 11. (Optional) Geben Sie eine Nummer zum Testen des Wählplans ein und klicken Sie auf **Los**. Die Testergebnisse werden unterhalb von **Geben Sie eine Testnummer ein** angezeigt.
 
     > [!NOTE]
-    > Sie können einen Wählplan speichern, der den Test nicht bestanden hat, und ihn später neu konfigurieren. Weitere Informationen hierzu finden Sie unter [VoIP-Routing testen](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).
+    > Sie können einen Wählplan speichern, der den Test nicht bestanden hat, und ihn später neu konfigurieren. Ausführliche Informationen dazu finden Sie unter [Testing Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).
 
 12. Klicken Sie anschließend auf **OK**.
 

@@ -1,5 +1,6 @@
 ---
 title: Planen von instant messaging und Anwesenheit in Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 'Zusammenfassung: Erfahren Sie, wie Sofortnachrichten und Anwesenheit in Skype für Business Server planen.'
-ms.openlocfilehash: e68a7b427545105db9ed543e2f1ad77411ba88b7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8d26ad08242248f08e2e54ba7e46d2aa112e362a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002233"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898208"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planen von instant messaging und Anwesenheit in Skype for Business Server
  
@@ -36,7 +37,7 @@ Chat und Anwesenheit werden in der Enterprise Edition immer auf Front-End-Pools 
   
 ### <a name="enabling-communication-with-external-users"></a>Aktivieren der Kommunikation mit externen Benutzern
 
-Um zusätzlich von Ihrer Investition in Skype for Business Server zu profitieren, können Sie Ihre Benutzer für die Kommunikation mit externen Benutzern aktivieren. Bei externen Benutzern handelt es sich u. a. um folgende Benutzertypen:
+Sie können die Vorteile der Investition in Skype für Business Server erheblich erhöhen, indem es den Benutzern die Kommunikation mit externen Benutzern ermöglichen. Bei externen Benutzern sind unter anderem folgende Kategorien möglich:
   
 - Remotebenutzer: die organisationseigenen Benutzer, wenn außerhalb der Organisationsfirewalls arbeiten und Laptops oder andere Skype für Business Server-Geräte verwenden.
     
@@ -48,16 +49,16 @@ Um zusätzlich von Ihrer Investition in Skype for Business Server zu profitieren
 > AOL, Yahoo und Google Talk werden nicht mehr unterstützt. 
   
 > [!NOTE]
-> Zum Aktivieren eines oder aller dieser Szenarien müssen Sie einen Edgeserver für die sichere Kommunikation zwischen Ihrer Skype for Business Server-Bereitstellung und externen Benutzern bereitstellen. Remotebenutzer und Benutzern am Partnerorganisationen Ihrer Organisation können finden Sie unter die Anwesenheitsinformationen des anderen und über Sofortnachrichten kommunizieren können. 
+> Um einige oder alle der folgenden Szenarien zu aktivieren, müssen Sie die Bereitstellung eines Edgeservers, mit denen die sichere Kommunikation zwischen Ihrer Skype für Business Server-Bereitstellung und externen Benutzern zu ermöglichen. Remotebenutzer und Benutzern am Partnerorganisationen Ihrer Organisation können finden Sie unter die Anwesenheitsinformationen des anderen und über Sofortnachrichten kommunizieren können. 
   
 > [!NOTE]
 > Extensible Messaging and Presence Protocol (XMPP) wird nur für Zertifizierungsszenarien auf der Unified Capabilities Collaboration Platform (UCCP) Joint Interoperability Test Command (JITC) unterstützt. 
   
 ### <a name="archiving-im-content"></a>Archivieren von Chatinhalten
 
-Skype for Business Server bietet Funktionen, die Sie bei der Einhaltung rechtlicher Vorschriften unterstützen. Mithilfe der Archivierung können Sie Chatinhalte für alle Benutzer in Ihrer Organisation oder nur für bestimmte Benutzer archivieren. Weitere Informationen hierzu finden Sie unter [Planen für die Archivierung in Skype für Business Server](archiving/archiving.md). 
+Skype für Business Server bietet Features, die Sie verwenden können, wenn Ihre Organisation Vorschriften einhalten muss. Mithilfe der Archivierung können Sie Chatinhalte für alle Benutzer in Ihrer Organisation oder nur für bestimmte Benutzer archivieren. Weitere Informationen hierzu finden Sie unter [Planen für die Archivierung in Skype für Business Server](archiving/archiving.md). 
   
-Wenn Sie auch Microsoft Exchange Server 2013 bereitgestellt haben, können Sie die Archivierung von Exchange-Daten in die Archivierung von Skype for Business Server-Daten integrieren und mithilfe eines einzigen Tools beide archivierten Datentypen durchsuchen. Weitere Informationen finden Sie unter [Konfigurieren von Skype für Business Server auf Exchange Server-Archivierung verwendet](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
+Wenn Sie auch Microsoft Exchange Server 2013 bereitgestellt haben, können Sie integrieren die Archivierung von Exchange-Daten mit der Archivierung von Skype für Business Server-Daten und ein einzelnes Tool verwenden, um beide Arten von archivierten Daten zu suchen. Weitere Informationen finden Sie unter [Konfigurieren von Skype für Business Server auf Exchange Server-Archivierung verwendet](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
   
 ### <a name="topologies-and-components"></a>Topologien und Komponenten
 

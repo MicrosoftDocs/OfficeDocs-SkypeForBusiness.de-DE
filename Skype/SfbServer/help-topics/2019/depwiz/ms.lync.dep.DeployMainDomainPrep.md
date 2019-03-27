@@ -1,5 +1,6 @@
 ---
 title: Vorbereiten der aktuellen Domäne
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Um eine Domäne und Hostservern, die mit Skype für Business Server oder Skype für Benutzer von Business Server vorzubereiten, müssen Sie Schritt 5: aktuelle Domäne vorbereiten, wie im Thema Verwenden des Setups zum Ausführen der Domänenvorbereitung beschrieben. Zum Abschließen des Schritts müssen Sie als Mitglied der Gruppe „Domänenadmins“ in der Domäne, die Sie vorbereiten, oder der Gruppe „Organisations-Admins“ der Gesamtstruktur, zu der die Domäne gehört, angemeldet sein. So bereiten Sie die Domäne vor:'
-ms.openlocfilehash: 1cee0b54d4a5329640ddc49a5a696bc7beaf0b84
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 0544381fbb4965bd370f1ac128d2e203de0cb109
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256280"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896106"
 ---
 # <a name="prepare-current-domain"></a>Vorbereiten der aktuellen Domäne
 

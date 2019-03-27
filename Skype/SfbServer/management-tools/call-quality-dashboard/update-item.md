@@ -1,5 +1,6 @@
 ---
-title: Update-Element
+title: Aktualisieren von Elementen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,20 +10,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
 description: 'Zusammenfassung: Informationen Sie zum Vorgang Update-Element, der Teil der Element-Dienst ist. Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 5839118dc6e907696d4ce3e9adfbc58504808fac
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 3ac56b8761f565663ffaa689c666e285b2347ed5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532225"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887949"
 ---
-# <a name="update-item"></a>Update-Element
+# <a name="update-item"></a>Aktualisieren von Elementen
  
 **Zusammenfassung:** Informationen Sie zu den Vorgang Update-Element, der Teil der Element-Dienst ist. Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
   
 Der Vorgang der Update-Element ist Teil des Diensts Element in der Repository-API für die Qualitätsdashboard aufrufen.
   
-## <a name="update-item"></a>Update-Element
+## <a name="update-item"></a>Aktualisieren von Elementen
 
 Update-Element aktualisiert ein bestimmtes Element im Repository.
   

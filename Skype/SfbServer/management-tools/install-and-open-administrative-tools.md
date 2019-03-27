@@ -1,5 +1,6 @@
 ---
-title: Installieren Sie und öffnen Sie Verwaltung
+title: Installieren und Öffnen von Verwaltungstools
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In diesem Thema wird beschrieben, wie zum Installieren und öffnen Sie die Bereitstellung und Verwaltung von Skype für Unternehmen benötigten Verwaltungstools.
-ms.openlocfilehash: a27f16ab72d8fcdd4a5c440909dfb40baadd2572
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 260d84f071558ff54511b8650868db3ebb56abcb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223164"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899477"
 ---
-# <a name="install-and-open-administrative-tools"></a>Installieren Sie und öffnen Sie Verwaltung
+# <a name="install-and-open-administrative-tools"></a>Installieren und Öffnen von Verwaltungstools
 
 In diesem Thema wird beschrieben, wie Sie die Verwaltungstools installieren, die Sie zum Bereitstellen und Verwalten von Skype für Business Server benötigen. Die Verwaltungstools werden standardmäßig auf jedem Server mit Skype für Business Server installiert. Darüber hinaus können Sie die Verwaltungstools auf anderen Computern, wie beispielsweise dedizierten Verwaltungskonsolen installieren. Es wird dringend empfohlen, dass Sie die Verwaltungstools installieren, auf einem Computer, die in der gleichen Domäne oder der Gesamtstruktur wie der Skype für Business Server-Bereitstellung, die Sie erstellen, um sicherzustellen, Vorbereitung von Active Directory Domain Services bereits Schritte abgeschlossen sind, die können Sie später verwenden Sie die Verwaltungstools auf diesem Computer um Ihrer Topologie zu veröffentlichen. Stellen Sie außerdem sicher, dass Sie die erforderlichen Anforderungen, ehe Sie installieren oder verwenden die Skype für Business Server-Verwaltungstools. Finden Sie unter in der Anforderungsdokumentation in [Skype für Business Server 2019](../../SfBServer2019/plan/system-requirements.md) oder [Skype für Business Server 2015](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md).
  

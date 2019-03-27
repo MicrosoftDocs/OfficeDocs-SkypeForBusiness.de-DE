@@ -1,5 +1,6 @@
 ---
 title: Definieren von Computern im Pool für beständigen Chat
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie definieren der Computer, die Teil einer Persistent Chat Server Pool werden durch die im Computer-FQDN den vollqualifizierten Domänennamen (FQDN) eingeben. Dies muss der Name des Computers sein, der in den DNS-Hosteinträgen (A oder AAAA) definiert ist.
-ms.openlocfilehash: 0aedfef5aefeab8a483450df938e174dd1edf6ae
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 956fba56e1a14c90f7d535c5bce0ea8d1f49544a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060573"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889154"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>Definieren von Computern im Pool für beständigen Chat
 

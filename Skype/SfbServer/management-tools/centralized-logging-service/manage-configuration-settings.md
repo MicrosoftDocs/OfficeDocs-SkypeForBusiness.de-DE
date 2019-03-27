@@ -1,5 +1,6 @@
 ---
 title: Verwalten von Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Zusammenfassung: Informationen Sie zum Abrufen, aktualisieren und Erstellen von Konfigurationseinstellungen für den Dienst für die zentralisierte Protokollierung in Skype für Business Server 2015.'
-ms.openlocfilehash: 62902a25e50043f2e03eda907f4ba572249b1a60
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1aab363f88b7639e2eb61f9101864bac20cc0aa0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375601"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896931"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Verwalten von Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015
 
@@ -72,7 +73,7 @@ Website- und Global Bereiche sind in die Cmdlets **New-**, **Set-** und **Remove
 
 Verwenden Sie die Cmdlets **New-CsClsConfiguration** und **Set-CsClsConfiguration** , um eine neue Konfiguration zu erstellen oder eine vorhandene Konfiguration zu aktualisieren. Beim Ausführen von **"Get-csclsconfiguration"** werden Informationen ähnlich dem folgenden Screenshot, bei die Bereitstellung aktuell die standardmäßige globale Konfiguration, aber keine Standortkonfigurationen definiert hat angezeigt:
 
-![Beispielausgabe von Get-CsClsConfiguration](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
+![Beispielausgabe von "Get-csclsconfiguration".](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
 
 ### <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a>Abrufen die aktuelle Centralized Logging Service-Konfiguration aus dem lokalen Speicher des Computers
 
@@ -185,12 +186,12 @@ Wenn Sie eine Konfiguration auf Standortebene löschen, verwendet der Standort a
 
 [Konfigurieren von Szenarien für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015](configure-scenarios.md)
 
-[Zentralisierter Protokollierungsdienst in Skype for Business 2015](centralized-logging-service.md)
+[Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md)
 
-["Set-csclsconfiguration"](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
+[Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
 
-["Get-csclsconfiguration"](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps)
+[Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps)
 
-["New-csclsconfiguration"](https://docs.microsoft.com/powershell/module/skype/new-csclsconfiguration?view=skype-ps)
+[New-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csclsconfiguration?view=skype-ps)
 
-["Remove-csclsconfiguration"](https://docs.microsoft.com/powershell/module/skype/remove-csclsconfiguration?view=skype-ps)
+[Remove-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csclsconfiguration?view=skype-ps)

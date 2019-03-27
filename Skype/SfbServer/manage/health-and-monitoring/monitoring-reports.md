@@ -1,5 +1,6 @@
 ---
 title: Verwenden von Überwachungsberichten in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: 'Zusammenfassung: Informationen Sie zu Überwachungsberichten in Skype für Business Server.'
-ms.openlocfilehash: 68fcf3a738d2cf849bd51959a86f2d61e53db603
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 11eb398d45102cb73fa02e61f63e0eda56e70200
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003793"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896785"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>Verwenden von Überwachungsberichten in Skype für Business Server 
  

@@ -1,5 +1,6 @@
 ---
-title: Hinzufügen von Edge-Server-IP-Optionen
+title: Hinzufügen der IP-Adresse des Edgeservers – Optionen
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Skype für Business Server können Sie IPv4 und IPv6-Adressen für jede Schnittstelle für den Edge-Server und Edge-Pool zu konfigurieren. Zu diesem Zweck führen Sie die folgenden Aufgaben:'
-ms.openlocfilehash: b4b7a80ac8f1cc9f310542a9c87c5a2c568e870b
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 727a946c6e9992b9391e7bf77238fdb61910c830
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069300"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898585"
 ---
-# <a name="add-edge-server-ip-options"></a>Hinzufügen von Edge-Server-IP-Optionen
+# <a name="add-edge-server-ip-options"></a>Hinzufügen der IP-Adresse des Edgeservers – Optionen
  
 Skype für Business Server können Sie IPv4 und IPv6-Adressen für jede Schnittstelle für den Edge-Server und Edge-Pool zu konfigurieren. Zu diesem Zweck führen Sie die folgenden Aufgaben:
   

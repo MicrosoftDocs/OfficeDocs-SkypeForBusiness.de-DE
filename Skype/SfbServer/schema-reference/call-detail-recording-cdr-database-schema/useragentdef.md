@@ -1,5 +1,6 @@
 ---
 title: UserAgentDef-Tabelle
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
 description: UserAgentDef-Tabelle ordnet Benutzer-Agent-IDs den beschreibenden Namen. Benutzer-Agents werden verwendet, um eine Verbindung mit Skype für Business Server 2015 Softwareclients. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: fe447daa511eccf9d08b47f5bf4872be4e651a41
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6248c2ec24052c2a1349decdc2fd294ca1ca8415
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896056"
 ---
 # <a name="useragentdef-table"></a>UserAgentDef-Tabelle
  
@@ -22,7 +24,7 @@ UserAgentDef-Tabelle ordnet Benutzer-Agent-IDs den beschreibenden Namen. Benutze
   
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
-|1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
+|1  <br/> |„MediationServer“  <br/> |„MediationServer“  <br/> |
 |2  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
 |4  <br/> |OC  <br/> |OC  <br/> |
 |8  <br/> |OCPhone  <br/> |OCPhone  <br/> |

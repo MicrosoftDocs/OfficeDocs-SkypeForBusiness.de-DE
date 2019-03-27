@@ -1,5 +1,6 @@
 ---
 title: Übersetzungsregel Erstellen einer neuen oder Bearbeiten einer vorhandenen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 0f7a3d5187185dcbef9b8b22f2c543b452359225
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: 92f98136edd544416607d02e638dd5889a7a22ab
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241827"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891547"
 ---
-# <a name="translation-rule-create-new-or-edit-existing"></a>Übersetzungsregel: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen
+# <a name="translation-rule-create-new-or-edit-existing"></a>Übersetzungsregel: Erstellen einer neuen oder Bearbeiten einer vorhandenen Übersetzungsregel
 
-Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
+Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 
 - [Erstellen oder Ändern einer übersetzungsregel für die gewählte ID Präsentation in Skype für Business Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 

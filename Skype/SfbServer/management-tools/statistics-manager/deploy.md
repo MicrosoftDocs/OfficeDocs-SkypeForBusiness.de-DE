@@ -1,5 +1,6 @@
 ---
-title: Bereitstellen von Statistiken Manager für Skype für Business Server
+title: Bereitstellen von Statistics Manager für Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Statistiken Manager für Skype für Business Server bereitstellen.'
-ms.openlocfilehash: ef2dd51306dc2806161fc0c0d4b11087a2f466ea
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 901720f87cf1c0bf78f558ed0d031bd41377799a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297699"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898258"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Bereitstellen von Statistiken Manager für Skype für Business Server
+# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Bereitstellen von Statistics Manager für Skype for Business Server
  
 **Zusammenfassung:** Lesen Sie in diesem Thema erfahren, wie Statistiken Manager für Skype für Business Server bereitstellen.
   
@@ -67,7 +68,7 @@ Um den Hostcomputer vorzubereiten, müssen Sie das Redis-System für die InMemor
     
     Nicht signierte Installer können hier heruntergeladen werden[https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    Bei Bedarf sind signierte Binärdateien über häufig verwendete Paketmanager verfügbar: [Nuget](https://www.nuget.org/packages/Redis-64/) und [Choclatey](https://chocolatey.org/packages/redis-64).
+    Falls erforderlich, stehen signierte Binärdateien über beliebte Paket-Managern: [Nuget](https://www.nuget.org/packages/Redis-64/) und [Choclatey](https://chocolatey.org/packages/redis-64).
     
    - Führen Sie die bereitgestellte MSI-Datei aus und folgen Sie den Aufforderungen.
     
@@ -182,7 +183,7 @@ Gehen folgendermaßen Sie vor, um die Skype für Business Server-Topologie zu im
   
 1. Auf einem Host, der die Skype für Business Server PowerShell-Cmdlets verfügt:
     
-    a. Führen Sie den folgenden Befehl aus: 
+    a. Führen Sie den folgenden Befehl aus:   
     
    ```
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
@@ -287,7 +288,7 @@ Microsoft empfiehlt dringend die Verwendung eines Zertifikats, das von einer ver
     
 6. Geben Sie im Feld **Geben Sie die zu verwendenden Objektnamen ein** folgenden Text ein: Netzwerkdienst
     
-7. Klicken Sie anschließend auf **OK**.
+7. Klicken Sie auf **OK**.
     
 8. Deaktivieren Sie unter **Vollzugriff** das Kontrollkästchen **Zulassen**. (Nur Leseberechtigung erforderlich)
     
@@ -298,8 +299,8 @@ Microsoft empfiehlt dringend die Verwendung eines Zertifikats, das von einer ver
 
 Weitere Informationen finden Sie unter den folgenden Themen:
   
-- [Planen der Business Server für den Statistiken-Manager für Skype](plan.md)
+- [Planen von Statistics Manager für Skype for Business Server](plan.md)
     
-- [Aktualisieren von Statistiken Manager für Skype für Business Server](upgrade.md)
+- [Aktualisieren von Statistics Manager für Skype for Business Server](upgrade.md)
     
 - [Problembehandlung von Statistiken Manager für Skype für Business Server](troubleshoot.md) ß

@@ -1,5 +1,6 @@
 ---
 title: Systemsteuerung - aktualisierte Benutzersuche
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Die Ergebnisse einer Suchabfrage können Sie Benutzer für Skype für Business Server konfigurieren. Sie können anhand des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontonamens (Security Accounts Manager), der SIP-Adresse oder des Anschluss-URI (Uniform Resource Identifier) nach Benutzern suchen. Ferner können Sie Benutzer über die Lync Server-Systemsteuerung oder das Snap-In „Active Directory-Benutzer und -Computer“ suchen.
-ms.openlocfilehash: a254881713064ad0442d359f3d385d94165c6629
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5d94c468edeb8c982d901f1c396bfd49c8c88fb6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254851"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896484"
 ---
 # <a name="control-panel---updated-user-search"></a>Systemsteuerung – aktualisiert: Benutzersuche
 
@@ -27,21 +28,21 @@ Die Ergebnisse einer Suchabfrage können Sie Benutzer für Skype für Business S
 
 Auf der Systemsteuerungsseite **Benutzersuche** können Sie die folgenden Aufgaben ausführen:
 
-- [Suchen nach Lync Server 2010-Benutzern](https://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
+- [Search for Lync Server 2010 Users](https://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
 
-- [Aktivieren oder Deaktivieren von Benutzern für Lync Server 2010](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [Enable or Disable Users for Lync Server 2010](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
 
 - [Verschieben von Benutzern](move-user.md)
 
 - [Verschieben aller Benutzer](move-all-users.md)
 
-- [Zuweisen von Richtlinien für Benutzer](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
+- [Assign Policies to Users](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
 
-- [Aktivieren von Benutzern für Enterprise-VoIP in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [Konfigurieren von Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten für Benutzer](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [Konfigurieren von Telefonieoptionen für Benutzer](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [Configure Telephony for Users](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
 Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
 
@@ -75,7 +76,7 @@ Fügen Sie je nach Bedarf weiteren Beschreibungstext hinzu.
 
 - **Aktivieren von Benutzern** Klicken Sie zum Öffnen der [Benutzer: neuer Lync Server-Benutzer](users-new-lync-server-user.md) Dialogfeld, in dem Sie einen neuen Benutzer zu Skype für Business Server hinzufügen können.
 
-    Hinzufügen eines neuen Kontakts, klicken Sie auf den Pfeil nach unten aus, und wählen Sie anschließend **Aktivieren von Kontakten** , zum Öffnen der [Benutzer: New Contact Objects](users-new-contact-objects.md) Dialogfeld.
+    Klicken Sie auf den Pfeil nach unten und wählen Sie dann die Option **Kontakte aktivieren**, um das Dialogfeld [Users: New Contact Objects](users-new-contact-objects.md) zu öffnen und einen neuen Kontakt hinzuzufügen.
 
 - **Bearbeiten** Klicken Sie auf **Bearbeiten** , und klicken Sie dann auf **Details anzeigen** , um die Details zu den ausgewählten Benutzer anzuzeigen, oder klicken Sie auf **alle Suchergebnisse auswählen** , aktivieren Sie alle Benutzer in der Ergebnistabelle angezeigt.
 

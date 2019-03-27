@@ -1,5 +1,6 @@
 ---
 title: Feature Overview (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype für Business Server-Planungstool
-ms.openlocfilehash: f7a9f7fd0dfc7f4c65d85404bd827aee7b98332b
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 8541167196f3940a1621e6bb843c81e82d212e46
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059144"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887309"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
@@ -119,7 +120,7 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
     
     Disaster Recovery Maßnahmen können Sie Paar Front-End-Pools befindet sich in zwei Rechenzentren.
     
-- **Überwachung**
+- **Überwachen**
     
     Mit der Überwachung werden Anrufdetaildatensätze zu Kommunikationssitzungen erfasst. Zudem werden Metriken aus Audio- und Videositzungen von den Teilnehmerendpunkten gesammelt. Monitoring Server bietet Nutzungsstatistiken, Trends und Media Quality Statistik.
     
@@ -151,7 +152,7 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
     
     Die Anwendung "Reaktionsgruppe" automatisch beantwortet und verteilt Anrufe an einen verfügbaren Helpdesk-Agent.
     
-- **Ansage**
+- **Ankündigung**
     
     Wenn Sie Enterprise-VoIP bereitstellen möchten, möchten Sie möglicherweise mehr konfigurieren wie Telefonanrufe behandelt werden, wenn die gewählte Nummer gültig, aber nicht in einen gemeinsamen Benutzerbereich zugeordnet ist. Administratoren können den Ankündigungsdienst so konfigurieren, dass diese Anrufe an ein vorab festgelegtes Ziel (Rufnummer, SIP-URI) übergeben werden, oder eine Audioansage wiedergegeben wird oder beides. Die Verwendung des Ankündigungsdiensts verhindert Situationen, in denen sich ein Anrufer verwählt und ein Besetztzeichen hört oder der SIP-Client eine Fehlermeldung empfängt. Die Ankündigungsdienstfunktion ist ein gängiges Feature bei Nebenstellenanlagen. 
     

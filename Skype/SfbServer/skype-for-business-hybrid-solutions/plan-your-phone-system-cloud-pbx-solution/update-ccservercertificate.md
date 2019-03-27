@@ -1,5 +1,6 @@
 ---
 title: Update-CcServerCertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cd2889c4-0eb1-4752-9274-93a5a68a8080
 description: Das Cmdlet Update-CcServerCertificate erneuert die Zertifikate für Skype für Business Cloud Connector Edition ein, wenn sie in der Nähe Ablauf sind oder bereits abgelaufen sind.
-ms.openlocfilehash: 1971f754a7c850d72a3d870e7181738267c99101
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 92f914db04d3a3621624efd5b6a72e249b3eb19e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899659"
 ---
 # <a name="update-ccservercertificate"></a>Update-CcServerCertificate
  
@@ -55,7 +57,7 @@ Mit diesem Befehl wird das Cmdlet erneuern CcServerCertificate in der Cloud Conn
 
 |**Parameter**|**Erforderlich**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|
-| Rollen  <br/> |Optional   <br/> |System.Array  <br/> |  Array von Cloud Connector-Serverrollen <br/> |
+| Rollen  <br/> |Optional  <br/> |System.Array  <br/> |  Array von Cloud Connector-Serverrollen <br/> |
    
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
@@ -65,14 +67,14 @@ Keine. Das Cmdlet Update-CcServerCertificate akzeptiert keine weitergeleitete Ei
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine
+Keine 
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>
 
 [Reset-CcCACertificate](reset-cccacertificate.md)
   
-[Erneuern CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   

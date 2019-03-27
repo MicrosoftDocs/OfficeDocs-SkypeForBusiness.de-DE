@@ -1,5 +1,6 @@
 ---
 title: Systemauslastungsberichte in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: 'Zusammenfassung: Lernen Sie die Systemauslastungsberichte in Skype für Business Server.'
-ms.openlocfilehash: 979736f9e5659abc572b5308db55bd082a4be3c7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5e3bcca092eb1ab8e03a837455924320e3af5e9b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016767"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896742"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>Systemauslastungsberichte in Skype für Business Server
  
@@ -38,7 +39,7 @@ Die Systemauslastungsberichte liefern basierend auf Aufzeichnung von kommunikati
     
 - [PSTN-Konferenz Zusammenfassungsbericht in Skype für Business Server](pstn-conference-summary-report.md)
     
-    Bietet eine Übersicht über alle PSTN-Konferenzen. Dies sind Konferenzen, bei denen sich mindestens ein Benutzer über das Festnetz (Public Switched Telephone Network, PSTN) einwählt. Sie werden auch als Einwahlkonferenzen bezeichnet.
+    Enthält eine Zusammenfassung aller PSTN-Konferenzen. Hierbei handelt es sich um Konferenzen wählt, in dem mindestens ein Benutzer sich mit dem Netzwerk Telefonfestnetz (PSTN), die auch als einwahlkonferenzen bezeichnet wird.
     
 - [Reaktionsgruppen-Verwendungsbericht in Skype für Business Server](response-group-usage-report.md)
     

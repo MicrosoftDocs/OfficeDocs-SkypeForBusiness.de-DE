@@ -1,5 +1,6 @@
 ---
 title: Neuigkeiten in Skype für Business Server 2019 | Funktionen
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Diese Features sind neu in Skype für Business Server 2019.'
-ms.openlocfilehash: 4eb674293b152109a9743fce5114fe11e3e97158
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 770cfa8934f40e8ab847b7d77a60f18250c64842
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30058982"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891781"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>Was ist in Skype für Business Server 2019
 
@@ -22,8 +23,8 @@ ms.locfileid: "30058982"
 
 Die folgenden: neuen Features in Skype für Business Server 2019
   
-- Cloud-Voicemail  
-- Rufen Sie Daten Connector
+- Cloudvoicemail  
+- Anrufdatenconnector
 - Side-by-Side-migration
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>Unified messaging-Dienste: Cloud-Voicemail

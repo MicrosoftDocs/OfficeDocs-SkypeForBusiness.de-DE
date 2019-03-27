@@ -1,5 +1,6 @@
 ---
 title: Verschieben des zentralen Verwaltungsservers
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,18 +9,18 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Nach der Migration zu Skype für Business Server 2019, müssen Sie den zentralen Verwaltungsserver an der Skype für Business Server 2019 Front-End-Server oder Pool verschieben, bevor Sie dem-Legacyserver entfernen können.
-ms.openlocfilehash: 6a358b11d7d319d5dafbb82f4391cdc3d0ae1562
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dc85548a3c81e55267bc0ed3a32e53860e4bce09
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373443"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894747"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Verschieben der Vorversion zentralen Verwaltungsserver in Skype für Business Server 2019
 
 Nach der Migration zu Skype für Business Server 2019 und bevor Sie dem-Legacyserver entfernen können, müssen Sie den zentralen Verwaltungsserver in der Skype für Business Server 2019 Front-End-Server oder Pool zu verschieben. 
   
-Den zentralen Verwaltungsserver ist ein einzelnes Master/mehreren Replikat System, auf dem wird die Lese-Schreib-Kopie der Datenbank vom Front-End-Server gespeichert, der den zentralen Verwaltungsserver enthält. Auf jedem Computer in der Topologie, einschließlich der Front-End-Server, der den zentralen Verwaltungsserver enthält ist eine schreibgeschützte Kopie der zentralen Speicherdaten in SQL Server-Datenbank (namens RTCLOCAL standardmäßig) auf dem Computer während des Setups installiert und Bereitstellung. Die lokale Datenbank empfängt Replikat Updates über die Skype für Business Server Replikat Replikations-Agent, der als Dienst auf allen Computern ausgeführt wird. Der Name der aktuellen Datenbank auf den zentralen Verwaltungsserver und dem lokalen Replikat ist XDS, die der Dateien xds.mdf und xds.ldf besteht. Einen Dienststeuerungspunkt (SCP) in Active Directory Domain Services verweist auf der Speicherort der master-Datenbank. Alle Tools, die verwenden den zentralen Verwaltungsserver Skype für Business Server konfigurieren und verwalten, mithilfe des zentralen Verwaltungsspeichers Suchen des Dienstverbindungspunkts.
+Den zentralen Verwaltungsserver ist ein einzelnes Master/mehreren Replikat System, auf dem wird die Lese-Schreib-Kopie der Datenbank vom Front-End-Server gespeichert, der den zentralen Verwaltungsserver enthält. Auf jedem Computer in der Topologie, einschließlich der Front-End-Server, der den zentralen Verwaltungsserver enthält ist eine schreibgeschützte Kopie der zentralen Speicherdaten in SQL Server-Datenbank (namens RTCLOCAL standardmäßig) auf dem Computer während des Setups installiert und Einsatz. Die lokale Datenbank empfängt Replikat Updates über die Skype für Business Server Replikat Replikations-Agent, der als Dienst auf allen Computern ausgeführt wird. Der Name der aktuellen Datenbank auf den zentralen Verwaltungsserver und dem lokalen Replikat ist XDS, die der Dateien xds.mdf und xds.ldf besteht. Einen Dienststeuerungspunkt (SCP) in Active Directory Domain Services verweist auf der Speicherort der master-Datenbank. Alle Tools, die verwenden den zentralen Verwaltungsserver Skype für Business Server konfigurieren und verwalten, mithilfe des zentralen Verwaltungsspeichers Suchen des Dienstverbindungspunkts.
   
 Nachdem Sie den zentralen Verwaltungsserver erfolgreich verschoben haben, sollten Sie die Datenbanken zentralen Verwaltungsserver vom ursprünglichen Front-End-Server entfernen. Informationen zum Entfernen von der zentralen Verwaltungsserver-Datenbanken finden Sie unter [Entfernen der SQL Server-Datenbank für einen Front-End-Pool](remove-the-sql-server-database-for-a-front-end-pool.md).
   

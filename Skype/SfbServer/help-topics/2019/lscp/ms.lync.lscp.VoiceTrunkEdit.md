@@ -1,5 +1,6 @@
 ---
 title: Trunkkonfiguration Erstellen einer neuen oder Bearbeiten einer vorhandenen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 6cb7d46634b7d87d4100d89baeaef71c96f94304
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: fa5b6e857dbf933f31b2a5a650cd7dccddd21beb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242183"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892476"
 ---
-# <a name="trunk-configuration-create-new-or-edit-existing"></a>Trunkkonfiguration: Erstellen Sie einer neuen oder bearbeiten Sie einer vorhandenen
+# <a name="trunk-configuration-create-new-or-edit-existing"></a>Trunkkonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Trunkkonfiguration
 
-Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
+Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 
 - [Konfigurieren eines Trunks mit medienumgehung in Skype für Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 

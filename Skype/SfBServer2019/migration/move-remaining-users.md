@@ -1,5 +1,6 @@
 ---
-title: Verschieben der restlichen Benutzer
+title: Verschieben der verbleibenden Benutzer
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Sie können Benutzer in der neuen Skype für Business Server 2019 Bereitstellung verschieben, unter Verwendung von entweder Skype für Business Server-Systemsteuerung oder Skype für Business Server-Verwaltungsshell. Sie müssen einige Anforderungen um einen reibungslosen Übergang zur Skype für Business Server 2019 sicherzustellen erfüllen. Ausführliche Informationen zu den erforderlichen Komponenten bis zum Abschluss der Verfahren in diesem Thema finden Sie unter Konfigurieren von Clients für die Migration. Ausführliche Schritte zum Verschieben von Benutzern, finden Sie unter Phase 4: Verschieben von Testbenutzern in den pilotpool.'
-ms.openlocfilehash: 7bc5d942ddcf30cad84ceb5badf8817de2b254a0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9f984b7fac919decce521c6dafc587a4ac86de50
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030497"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878324"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>Verschieben der restlichen Benutzer zu Skype für Business Server 2019
 

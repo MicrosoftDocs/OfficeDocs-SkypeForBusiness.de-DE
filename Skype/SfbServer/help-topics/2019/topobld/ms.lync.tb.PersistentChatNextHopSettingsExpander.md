@@ -1,5 +1,6 @@
 ---
 title: Einstellungen unter "Nächster Hop" für beständigen Chat – Erweiterung
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Konfigurieren Sie den beständigen Chat nächsten hoppool, indem Sie einen Front-End-Server oder Front-End-Pool aus der Liste auswählen.
-ms.openlocfilehash: 360ac484d7b74040a2dd67d62193f65c01bb200b
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: a836ffc5b089aea7377a245e9649db031cf3510d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062382"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895139"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>Einstellungen unter "Nächster Hop" für beständigen Chat – Erweiterung
 

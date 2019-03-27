@@ -1,5 +1,6 @@
 ---
-title: Planen Sie für Enterprise Voice Resiliency in Skype für Business Server
+title: Plan for Enterprise Voice resiliency in Skype for Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Erfahren Sie, wie VoIP-ausfallsicherheit für Business Server Enterprise-VoIP an zentralen Standorten und Zweigniederlassungen in Skype zu unterstützen. Branch-Site-Optionen umfassen Survivable Branch Appliances oder Survivable Branch Servern bereitstellen.
-ms.openlocfilehash: b93e93e32baf67b71c2a1eb842455973ee619f80
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8b6b414cc1667c0764ac8878ea0f06da7468e781
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374759"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887799"
 ---
-# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planen Sie für Enterprise Voice Resiliency in Skype für Business Server
+# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Plan for Enterprise Voice resiliency in Skype for Business Server
 
 Erfahren Sie, wie VoIP-ausfallsicherheit für Business Server Enterprise-VoIP an zentralen Standorten und Zweigniederlassungen in Skype zu unterstützen. Branch-Site-Optionen umfassen Survivable Branch Appliances oder Survivable Branch Servern bereitstellen.
 
@@ -219,7 +220,7 @@ Die folgende Abbildung zeigt die empfohlenen Topologien für Zweigstellenstandor
 
 **Optionen für die Website**
 
-![VoIP-Zweig: Ausfallsicherheitsoptionen](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
+![VoIP Zweig: Ausfallsicherheitsoptionen](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
 
 #### <a name="survivable-branch-appliance-details"></a>Survivable Branch Appliance-Details
 
@@ -358,7 +359,7 @@ Schließlich müssen Benutzer des zweigstellenstandorts für Enterprise Voice ko
 
 #### <a name="requirements-for-survivable-branch-servers"></a>Anforderungen für Survivable Branch Server
 
-Die Anforderungen für Survivable Branch Server stimmen die Anforderungen für einen Front-End-Server. Weitere Informationen hierzu finden Sie unter [Server-Anforderungen für Skype für Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Die Anforderungen für Survivable Branch Server stimmen die Anforderungen für einen Front-End-Server. Weitere Einzelheiten finden Sie in [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
 
 #### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>Anforderungen für vollständige Skype für Business Server-Branch-Site-Bereitstellungen
 
@@ -372,17 +373,17 @@ Weitere Informationen hierzu finden Sie unter [Server-Anforderungen für Skype f
 
 |**Benutzerrichtlinie**|**Telefonverwendung**|
 |:-----|:-----|
-|Standardanrufrichtlinie  <br/> |Lokal  <br/> "Globalpstnhopoff"  <br/> |
+|Standardanrufrichtlinie  <br/> |Local  <br/> "Globalpstnhopoff"  <br/> |
 |Richtlinie für Ortsgespräche Redmond  <br/> |RedmondLocal  <br/> |
 |Anrufrichtlinie für Dallas  <br/> |DallasUsers  <br/> "Globalpstnhopoff"  <br/> |
 
 **In Tabelle 2. Routen**
 
 
-| **Name der Route**             | **Nummernmuster** | **Telefonverwendung**         | **Trunk**                                 | **Gateway**                                     |
+| **Name der Route**             | **Nummernmuster** | **Telefonverwendung**         | **Kofferraum**                                 | **Gateway**                                     |
 |:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
-| Route für Ortsgespräche Redmond  <br/> | ^\+1 (425           | 206                     | 253)(\d{7})$  <br/>                       | Lokal  <br/> RedmondLocal  <br/>                |
-| Route für Ortsgespräche Dallas  <br/>  | ^\+1 (972           | 214                     | 469)(\d{7})$  <br/>                       | Lokal  <br/>                                    |
+| Route für Ortsgespräche Redmond  <br/> | ^\+1 (425           | 206                     | 253)(\d{7})$  <br/>                       | Local  <br/> RedmondLocal  <br/>                |
+| Route für Ortsgespräche Dallas  <br/>  | ^\+1 (972           | 214                     | 469)(\d{7})$  <br/>                       | Local  <br/>                                    |
 | Universalroute  <br/>     | ^\+?(\d\*)$  <br/> | "Globalpstnhopoff"  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
 | Route für Dallas Benutzer  <br/>  | ^\+?(\d\*)$  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
 

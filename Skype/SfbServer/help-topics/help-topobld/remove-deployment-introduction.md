@@ -1,5 +1,6 @@
 ---
-title: Einführung in die Bereitstellung entfernen
+title: Entfernen der Bereitstellung – Einführung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 description: Führen Sie den Assistenten zum Entfernen einer Bereitstellung nur, wenn Sie die gesamte Bereitstellung außer Betrieb setzen möchten. Dieser Assistent erstellt eine leere Topologie, die aus einem einzelnen Front-End-Server besteht. Zu Ihrer ursprünglichen Topologie Sie führen Sie den Assistenten und die leere Topologie zu veröffentlichen, kann nicht zurückgesetzt.
-ms.openlocfilehash: 0aac4f412a58dc7e636037ebd3775a7636f61476
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a9b58c76ccd027e5a9641fb7b2d2f8bbf6ef58ca
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967537"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892109"
 ---
-# <a name="remove-deployment-introduction"></a>Einführung in die Bereitstellung entfernen
+# <a name="remove-deployment-introduction"></a>Entfernen der Bereitstellung – Einführung
  
 Führen Sie den **Assistenten zum Entfernen von Bereitstellung** , nur, wenn Sie die gesamte Bereitstellung außer Betrieb setzen möchten. Dieser Assistent erstellt eine leere Topologie, die aus einem einzelnen Front-End-Server besteht. Zu Ihrer ursprünglichen Topologie Sie führen Sie den Assistenten und die leere Topologie zu veröffentlichen, kann nicht zurückgesetzt.
   

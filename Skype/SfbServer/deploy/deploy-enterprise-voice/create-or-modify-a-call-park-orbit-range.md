@@ -1,5 +1,6 @@
 ---
 title: Erstellen Sie oder ändern Sie einen orbitbereich zum Parken von Anrufen in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Erstellen Sie oder ändern Sie einer Parken Bereich orbittabelle in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 6892c48c95b7c5e84242a1456855e869a70e532b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 23de2c42ff7b7e8bf3c020eaf3bb5050524b87d3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370691"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896120"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Erstellen Sie oder ändern Sie einen orbitbereich zum Parken von Anrufen in Skype für Unternehmen
 
@@ -38,7 +39,7 @@ Mit den folgenden Verfahren können Sie Orbitbereichseinstellungen für das Park
 
 ### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>Verwenden Sie zum Erstellen oder ändern einen Nummernbereich für das Parken von Anrufen Skype Business Server-Systemsteuerung
 
-1. Melden Sie sich an dem Computer als Mitglied der Gruppe RTCUniversalServerAdmins oder als Mitglied der Rolle CsVoiceAdministrator, CsServerAdministrator oder csadministrator an. Weitere Informationen hierzu finden Sie unter **Delegate Setup Permissions**.
+1. Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter **Delegate Setup Permissions**.
 
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.
 
@@ -77,7 +78,7 @@ Mit den folgenden Verfahren können Sie Orbitbereichseinstellungen für das Park
 
 2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
 
-3. Verwenden Sie **New-CsCallParkOrbit** , um einen neuen Bereich von orbitnummern erstellen. Verwenden Sie **Set-CsCallParkOrbit** , um einen bestehenden Bereich von orbitnummern ändern.
+3. Mit **New-CsCallParkOrbit** können Sie einen neuen Orbitnummernbereich erstellen. Mit **Set-CsCallParkOrbit** können Sie einen bestehenden Orbitnummernbereich bearbeiten.
 
     Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
 

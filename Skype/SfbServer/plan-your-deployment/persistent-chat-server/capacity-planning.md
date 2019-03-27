@@ -1,5 +1,6 @@
 ---
 title: Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu lernen Capacity planning for Persistent Chat Server in Skype für Business Server 2015.'
-ms.openlocfilehash: 395beed6a295a76c781aa65c654bcbf2693bbc40
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 08c360b26efd04c34ca1833b0c0022394f8c4ac2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026452"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898331"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015
  
@@ -25,7 +26,7 @@ Persistent Chat-Server können mehrere Benutzer, Real-Time Chat, die beibehalten
   
 Planen der Kapazität ist ein wichtiger Teil der Vorbereitung zur Bereitstellung von Persistent Chat Server. Dieses Thema umfasst Tabellen zur Kapazitätsplanung, anhand derer Sie die beste Konfiguration für Ihre Bereitstellung ermitteln können. Es wird auch von Persistent Chat Server-Bereitstellungen am besten zu verwalten, die eine höhere Kapazität zu Spitzenzeiten erfordern beschrieben.
   
-Bevor Sie diesen Abschnitt lesen, sollten Sie sich mit Topologien für beständigen Chat vertraut machen. Weitere Informationen finden Sie unter [Planen von Persistent Chat Server-Topologie](topology.md).
+Bevor Sie diesen Abschnitt lesen, sollten Sie sich mit Topologien für beständigen Chat vertraut machen. Weitere Informationen finden Sie unter [Plan Persistent Chat Server topology](topology.md).
 
 > [!NOTE] 
 > Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
@@ -52,9 +53,9 @@ Ermitteln Sie anhand der folgenden Beispieltabelle die Anzahl von Benutzern, die
 |:-----|:-----|
 |Aktive beständigen Chat Dienstinstanzen  <br/> |4  <br/> |
 |Persistent Chat-Dienstinstanzen  <br/> |8 (nur maximal 4 können aktiv sein; 4 müssen inaktiv sein)  <br/> |
-|Aktive verbundene Benutzer  <br/> |80.000  <br/> |
-|Gesamtzahl der bereitgestellten Benutzer  <br/> |150.000  <br/> |
-|Anzahl der Endpunkte  <br/> |120.000  <br/> |
+|Aktive verbundene Benutzer  <br/> |80,000  <br/> |
+|Gesamtzahl der bereitgestellten Benutzer  <br/> |150,000  <br/> |
+|Anzahl der Endpunkte  <br/> |120,000  <br/> |
    
 Im vorstehenden Beispiel, es ist geplant, die maximale Anzahl von Benutzern unterstützt, die Persistent Chat Server ermöglicht: vier Servern/Instanzen des Persistent Chat-Dienstes (können vier weitere passive Servern Persistent Chat Server für hohe Verfügbarkeit ausgeführt haben und Disaster Recovery) und 20.000 Benutzer pro Server, für insgesamt 80.000 aktive Benutzer unterstützt.
   
@@ -67,7 +68,7 @@ Die folgende Beispieltabelle helfen Ihnen bei der Planung für die Verwaltung de
 ||**Kleine Chatrooms**|**Mittlere Chatrooms**|**Große Chatrooms**|**Gesamt**|
 |:-----|:-----|:-----|:-----|:-----|
 |Größe der Chatrooms (Anzahl der verbundenen Benutzer)  <br/> |30 pro Chatroom  <br/> |150 pro Chatroom  <br/> |16.000 pro Chatroom  <br/> ||
-|Chatrooms  <br/> |32.000  <br/> |1,067  <br/> |10  <br/> |33,077  <br/> |
+|Chatrooms  <br/> |32,000  <br/> |1,067  <br/> |10  <br/> |33,077  <br/> |
 |% der Chatrooms als Auditorium verwendet  <br/> |1 %  <br/> |1 %  <br/> |50%  <br/> ||
 |% der Chatrooms sind offen  <br/> |3%  <br/> |3%  <br/> |50%  <br/> ||
 |Offene Chatrooms (ohne explizite Mitgliedschaft)  <br/> |960  <br/> |32  <br/> |5  <br/> |997  <br/> |
@@ -76,15 +77,15 @@ Die folgende Beispieltabelle helfen Ihnen bei der Planung für die Verwaltung de
 |Über direkte Mitgliedschaft verwaltete Chatrooms  <br/> |50%  <br/> |10%  <br/> |0%  <br/> ||
 |Von Benutzergruppen verwaltete Chatrooms  <br/> |50%  <br/> |90%  <br/> |100%  <br/> ||
 |Benutzergruppen in der Mitgliederliste der einzelnen Chatrooms für offene Chatrooms (nicht explizit angegeben)  <br/> |0  <br/> |0  <br/> |0  <br/> ||
-|Benutzer in der Mitgliederliste der einzelnen Chatrooms für nicht offene Chatrooms  <br/> |30  <br/> |150  <br/> |16.000  <br/> ||
+|Benutzer in der Mitgliederliste der einzelnen Chatrooms für nicht offene Chatrooms  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
 |Benutzergruppen in der Mitgliederliste der einzelnen Chatrooms für nicht offene Chatrooms  <br/> |3  <br/> |5  <br/> |10  <br/> ||
 |Benutzer und Benutzergruppen in der Managerliste der einzelnen Chatrooms (für offene und nicht offene Chatrooms)  <br/> |6  <br/> |6  <br/> |6  <br/> ||
 |Benutzer und Benutzergruppen in der Referentenliste der einzelnen Auditorium-Chatrooms (für offene und nicht offene Chatrooms)  <br/> |6  <br/> |6  <br/> |6  <br/> ||
 |Benutzerbasierte Mitgliedschaftsentitäten in allen nicht offenen Chatrooms  <br/> |465,600  <br/> |15,520  <br/> |-  <br/> ||
 |Benutzergruppenbasierte Mitgliedschaftsentitäten in allen nicht offenen Chatrooms  <br/> |46,560  <br/> |4656  <br/> |50  <br/> ||
 |Benutzer- und benutzergruppenbasierte Entitäten für alle Auditorium-Chatrooms  <br/> |0  <br/> |192  <br/> |50  <br/> ||
-|Benutzer- und benutzergruppenbasierte Managerentitäten für alle Chatroom-Managerlisten  <br/> |192,000  <br/> |6.400  <br/> |60  <br/> ||
-|Aktive Benutzer pro Chatroom  <br/> |30  <br/> |150  <br/> |16.000  <br/> ||
+|Benutzer- und benutzergruppenbasierte Managerentitäten für alle Chatroom-Managerlisten  <br/> |192,000  <br/> |6,400  <br/> |60  <br/> ||
+|Aktive Benutzer pro Chatroom  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
 |Chatrooms pro Benutzer  <br/> |12  <br/> |2  <br/> |2  <br/> |16  <br/> |
 |Benutzergruppen in der Mitgliederliste der einzelnen Chatrooms  <br/> |10  <br/> |10  <br/> |15  <br/> ||
 |Von Benutzergruppen verwaltete Chatrooms  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
@@ -93,7 +94,7 @@ Die folgende Beispieltabelle helfen Ihnen bei der Planung für die Verwaltung de
 |Benutzer und Benutzergruppen in den Manager-, Referenten- und Bereichslisten der einzelnen Chatrooms  <br/> |6  <br/> |6  <br/> |6  <br/> ||
 |Benutzer und Benutzergruppen in den Manager-, Referenten- und Bereichslisten aller Chatrooms  <br/> |192,000  <br/> |6400  <br/> |60  <br/> ||
 |Zugriffssteuerungseinträge  <br/> |704,160  <br/> |26,768  <br/> |160  <br/> |731,088  <br/> |
-|Maximale Anzahl von Zugriffssteuerungseinträgen  <br/> ||||2.000.000  <br/> |
+|Maximale Anzahl von Zugriffssteuerungseinträgen  <br/> ||||2,000,000  <br/> |
    
 Im vorstehenden Beispiel bei der Bereitstellung der Persistent Chatserver entsprechend der empfohlenen Richtlinien können sie bis zu 80.000 aktive Benutzer über einen vier-Server-Pool mit aktiviertem kompatibilitätsdienst behandeln.
   
@@ -125,17 +126,17 @@ Für die Beispieldaten in der folgenden Tabelle wird davon ausgegangen, dass die
 |:-----|:-----|:-----|:-----|:-----|
 |Benutzer, die auf den Chatroom zugreifen können  <br/> |30 pro Chatroom  <br/> |150 pro Chatroom  <br/> |16.000 pro Chatroom  <br/> ||
 |Prozentsatz an Chatrooms mit Einladung  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
-|Für das Senden von Einladungen konfigurierte Chatrooms  <br/> |16.000  <br/> |533  <br/> |5  <br/> ||
-|Benutzer, die auf den Chatroom zugreifen können  <br/> |60  <br/> |225  <br/> |16.000  <br/> ||
-|Vom Persistent Chat Server generierte Einladungen  <br/> |960,000  <br/> |120.000  <br/> |80.000  <br/> |1,160,000  <br/> |
-|Maximal zulässige Anzahl von Einladungen  <br/> ||||2.000.000  <br/> |
+|Für das Senden von Einladungen konfigurierte Chatrooms  <br/> |16,000  <br/> |533  <br/> |5  <br/> ||
+|Benutzer, die auf den Chatroom zugreifen können  <br/> |60  <br/> |225  <br/> |16,000  <br/> ||
+|Vom Persistent Chat Server generierte Einladungen  <br/> |960,000  <br/> |120,000  <br/> |80,000  <br/> |1,160,000  <br/> |
+|Maximal zulässige Anzahl von Einladungen  <br/> ||||2,000,000  <br/> |
 |Modell 1: Start mit der erwarteten Anzahl an Nachrichten pro Chatroom und Tag  <br/> |||||
 |Chatrate pro Chatroom (pro Tag)  <br/> |50  <br/> |500  <br/> |100  <br/> |650  <br/> |
-|Chatrate (pro Sekunde) für alle Chatrooms  <br/> |55.56  <br/> |18.52  <br/> |0,03  <br/> |74  <br/> |
+|Chatrate (pro Sekunde) für alle Chatrooms  <br/> |55.56  <br/> |18.52  <br/> |0.03  <br/> |74  <br/> |
 |Modell 2: Start mit der Anzahl an veröffentlichten Nachrichten pro Benutzer und Tag  <br/> |||||
-|Chatrate pro Benutzer und Tag  <br/> |15  <br/> |5  <br/> |0,1  <br/> |20  <br/> |
+|Chatrate pro Benutzer und Tag  <br/> |15  <br/> |5  <br/> |0.1  <br/> |20  <br/> |
 |Chatrate pro Chatroom (pro Tag)  <br/> |38  <br/> |375  <br/> |800  <br/> |1,213  <br/> |
-|Chatrate (pro Sekunde) für alle Chatrooms  <br/> |41.67  <br/> |13.89  <br/> |0,28  <br/> |56  <br/> |
+|Chatrate (pro Sekunde) für alle Chatrooms  <br/> |41.67  <br/> |13.89  <br/> |0.28  <br/> |56  <br/> |
    
 ### <a name="plan-capacity-for-persistent-chat-server-performance"></a>Planen der Kapazität für Persistent Chat Server-Leistung
 
@@ -145,13 +146,13 @@ In der folgenden Tabelle wird das Benutzermodell für Persistent Chat Server bes
 
 |||
 |:-----|:-----|
-|Anzahl der aktiven verbundenen Benutzer  <br/> |80.000  <br/> |
+|Anzahl der aktiven verbundenen Benutzer  <br/> |80,000  <br/> |
 |Anzahl der Persistent Chat Server-Dienstinstanzen  <br/> |4  <br/> |
 |Umfang kleiner Chatrooms  <br/> |30 Benutzer  <br/> |
 |Umfang mittelgroßer Chatrooms  <br/> |150 Benutzer  <br/> |
 |Umfang großer Chatrooms  <br/> |16.000 Benutzer  <br/> |
 |Gesamtzahl der Chatrooms  <br/> |33,077  <br/> |
-|Anzahl kleiner Chatrooms  <br/> |32.000  <br/> |
+|Anzahl kleiner Chatrooms  <br/> |32,000  <br/> |
 |Anzahl mittelgroßer Chatrooms  <br/> |1,067  <br/> |
 |Anzahl großer Chatrooms  <br/> |10  <br/> |
 |Gesamtzahl der Chatrooms pro Benutzer  <br/> |16  <br/> |
@@ -161,20 +162,20 @@ In der folgenden Tabelle wird das Benutzermodell für Persistent Chat Server bes
 |Anzahl der betretenen Chatrooms pro Benutzer  <br/> |24  <br/> |
 |Maximale Beitrittsrate  <br/> |10/s  <br/> |
 |Gesamtchatrate  <br/> |24/s  <br/> |
-|Chatrate für kleine Chatrooms  <br/> |22.22/Sekunde  <br/> |
-|Chatrate für mittelgroße Chatrooms  <br/> |1,67/Sekunde  <br/> |
-|Chatrate für große Chatrooms  <br/> |~0.15/Second  <br/> |
+|Chatrate für kleine Chatrooms  <br/> |22.22/second  <br/> |
+|Chatrate für mittelgroße Chatrooms  <br/> |1.67/second  <br/> |
+|Chatrate für große Chatrooms  <br/> |~0.15/second  <br/> |
 |Prozentsatz der Chatrooms, die für Einladungen konfiguriert sind  <br/> |50%  <br/> |
 |Prozentsatz der direkten Mitgliedschaften  <br/> |50%  <br/> |
 |Prozentsatz der Gruppenmitgliedschaften  <br/> |50%  <br/> |
-|Durchschnittliche Anzahl von zugehörigkeiten zu vorgängerobjekten in Active Directory-Domänendienste  <br/> |100 – 200  <br/> |
+|Durchschnittliche Anzahl von zugehörigkeiten zu vorgängerobjekten in Active Directory-Domänendienste  <br/> |100 - 200  <br/> |
 |Anzahl abonnierter Kontakte pro Benutzer  <br/> |80  <br/> |
-|Durchschnittliche Anzahl von Endpunkten pro Benutzer  <br/> |1,5  <br/> |
-|Durchschnittliche Anzahl von sichtbaren Chatrooms pro Endpunkt  <br/> |1,5  <br/> |
+|Durchschnittliche Anzahl von Endpunkten pro Benutzer  <br/> |1.5  <br/> |
+|Durchschnittliche Anzahl von sichtbaren Chatrooms pro Endpunkt  <br/> |1.5  <br/> |
 |Durchschnittliche Anzahl von sichtbaren Chatrooms pro Benutzer  <br/> |2,25 (50 % für 1 Chatroom und 50 % für 2 Chatrooms); bis zu 6 Chatrooms offen, ein Chatroom pro Bildschirm  <br/> |
 |Anzahl von Teilnehmern, die pro Intervall abgerufen werden  <br/> |25 pro sichtbarem Chatroom  <br/> |
 |Länge des Abrufintervalls  <br/> |5 Minuten  <br/> |
-|Anzahl von Teilnehmern, die pro Sekunde abgerufen werden  <br/> |15.000  <br/> |
+|Anzahl von Teilnehmern, die pro Sekunde abgerufen werden  <br/> |15,000  <br/> |
 |Anzahl von Änderungen des Anwesenheitsstatus pro Stunde und Benutzer  <br/> |6  <br/> |
 |Anzahl von Änderungen des Anwesenheitsstatus pro Sekunde  <br/> |133.33  <br/> |
    

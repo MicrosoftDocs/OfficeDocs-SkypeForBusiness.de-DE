@@ -1,5 +1,6 @@
 ---
 title: Suche nach vom zentralisierten Protokollierungsdienst in Skype for Business Server 2015 erstellten Erfassungsprotokollen
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 'Zusammenfassung: Informationen Sie zum Suchen und Lesen von Erfassungsprotokollen in Skype Centralized Logging Service für Business Server 2015.'
-ms.openlocfilehash: 9429ef0f2c14552c615e4d7f81c497ea9bb546f3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b1f049260eff7524e5a728852b3dcd99526d8742
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372219"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895887"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Suche nach vom zentralisierten Protokollierungsdienst in Skype for Business Server 2015 erstellten Erfassungsprotokollen
  

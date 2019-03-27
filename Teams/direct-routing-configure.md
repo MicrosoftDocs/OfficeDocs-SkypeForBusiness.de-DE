@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren von direktem Routing
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Erfahren Sie, wie Microsoft Phone System direkte Routing konfigurieren.
-ms.openlocfilehash: 5c2d90ccb88c0e654239ec02a5780778a7db6bbe
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 20bd29bdd2ba83050bd83513f513732ce646cbbe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569782"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883567"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren von direktem Routing
 
@@ -449,7 +450,7 @@ In der folgenden Tabelle werden die routing Richtlinie "No Einschränkungen" Usa
 
 
   > [!NOTE]
-  > - Die Reihenfolge der PSTN-Verwendungen in VoIP-Routing-Richtlinien ist wichtig. Die Verwendungen in Reihenfolge angewendet werden, und wenn in der ersten Verwendung eine Übereinstimmung gefunden wird, klicken Sie dann andere Verwendungen werden nie ausgewertet. Die PSTN-Verwendung "International" muss nach der PSTN-Verwendung "Uns nur." platziert werden Führen Sie zum Ändern der Reihenfolge der PSTN-Verwendungen, die `Set-CSOnlineRouteRoutingPolicy` Befehl. <br/>Ändern die Reihenfolge von "Uns und Kanada" beispielsweise vor- und "International" Sekunde bis zu der umgekehrten Reihenfolge ausführen:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+  > - Die Reihenfolge der PSTN-Verwendungen in VoIP-Routing-Richtlinien ist wichtig. Die Verwendungen in Reihenfolge angewendet werden, und wenn in der ersten Verwendung eine Übereinstimmung gefunden wird, klicken Sie dann andere Verwendungen werden nie ausgewertet. Die PSTN-Verwendung "International" muss nach der PSTN-Verwendung "Uns nur." platziert werden Führen Sie zum Ändern der Reihenfolge der PSTN-Verwendungen, die `Set-CSOnlineVoiceRoutingPolicy` Befehl. <br/>Ändern die Reihenfolge von "Uns und Kanada" beispielsweise vor- und "International" Sekunde bis zu der umgekehrten Reihenfolge ausführen:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
  > - Die Priorität für "Andere + 1" und "International" VoIP-Routen werden automatisch zugewiesen. Diese nicht von Bedeutung sind, solange sie niedrigere Prioritäten als "" Redmond "1" und "Redmond 2" besitzen
 
 #### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>Beispiel für VoIP-Routing-Richtlinie für den Benutzer John Woods

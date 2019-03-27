@@ -1,5 +1,6 @@
 ---
 title: Verbinden von netzwerkregionen
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Sie können die Verbindungen zwischen zwei netzwerkregionen im Rahmen der anrufsteuerung (CAC) konfigurieren. '
-ms.openlocfilehash: f2f3e170b11677663739f4e06ea7c6768f0a9c11
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 4ea6ddcc72d2cadea32608288d1db93ba8505aee
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223017"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884684"
 ---
-# <a name="linking-network-regions-in-skype-for-business-server"></a>Verknüpfen von netzwerkregionen in Skype für Business Server
+# <a name="linking-network-regions-in-skype-for-business-server"></a>Verknüpfen von Netzwerkregionen in Skype for Business Server
 
 Sie können die Verbindungen zwischen zwei netzwerkregionen im Rahmen der anrufsteuerung (CAC) konfigurieren. Verwenden Sie in den Abschnitten in diesem Artikel, um Newtwork Informationen zu netzwerkregionenverbindungen anzeigen oder konfigurieren oder Löschen von Netwrok Region Verknüpfungen. 
 
@@ -125,7 +126,7 @@ Sie können die Verbindungen zwischen zwei netzwerkregionen im Rahmen der anrufs
 
 5.  Wählen Sie im Menü **Bearbeiten** **Löschen**aus.
 
-6.  Klicken Sie anschließend auf **OK**.
+6.  Klicken Sie auf **OK**.
 
 
 ## <a name="see-also"></a>Siehe auch

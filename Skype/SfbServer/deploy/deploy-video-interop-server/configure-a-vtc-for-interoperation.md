@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren einer VTC für die Interoperation mit Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: 'Zusammenfassung: Konfigurieren der Geräte VTC Skype für Business Server entwickelt.'
-ms.openlocfilehash: cc6b8d4fb48a0f43d646d204d399c575af503390
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1a8422ddfa33652fa13d5aeb42b86a72b809126b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21017907"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880672"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>Konfigurieren einer VTC für die Interoperation mit Skype für Business Server
  
@@ -56,7 +57,7 @@ Die hier beschriebenen Einstellungen Präsentationsstil nur als Beispiele wie CU
    |HTTP-Modus  <br/> | Ein <br/> |
    | SIP-Modus <br/> | Ein <br/> |
    |Telnet-Modus  <br/> | Ein <br/> |
-   |WelcomeText  <br/> | Ein <br/> |
+   |Begrüßungstext  <br/> | Ein <br/> |
    |XMLAPI-Modus  <br/> | Ein <br/> |
    
 7. Navigieren Sie zur Konfiguration -\>System Konfiguration -\>SIP.

@@ -1,5 +1,6 @@
 ---
 title: Archivierungskonfiguration Erstellen einer neuen oder Bearbeiten einer vorhandenen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 'Verwenden Sie Archivierungskonfigurationen zum Steuern der Archivierungsoptionen für Ihre Bereitstellung. Zu den Archivierungskonfigurationen gehören die globale Konfiguration und optional eine oder mehrere Poolkonfigurationen:'
-ms.openlocfilehash: 49227ded326c893d42852796e9c783a2dc4096cd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2167b0ccc65a9bfc6ae731add156fa0b0925eaf2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890662"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Archivierungskonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Archivierungskonfiguration
  
@@ -54,7 +56,7 @@ Geben Sie die folgenden Optionen an, um die Einstellungen für eine neue oder vo
     
   - **Sofortnachrichten** ein Fehler kann eine vollständige Datenbank oder ein Problem mit der Speicherdienst handeln. In diesem Fall ist der Chat für Benutzer blockiert, die für die Archivierung aktiviert sind.
     
-  - **Live Meeting** Ein Fehler kann eine Dateifreigabe nicht verfügbar oder ein Problem mit der Speicherdienst handeln. In diesem Fall werden aktiven Konferenzen, die beim Auftreten des Fehlers im Pool gehostet werden, in den eingeschränkten Modus umgeschaltet und neue Konferenzen können nicht aktiviert werden.
+  - **Live Meeting** Ein Fehler kann eine Dateifreigabe nicht verfügbar oder ein Problem mit der Speicherdienst handeln. In diesem Fall werden aktive Konferenzen, die beim Auftreten des Fehlers im Pool gehostet werden, in den eingeschränkten Modus umgeschaltet und neue Konferenzen können nicht aktiviert werden.
     
     Chatnachrichten und Konferenzen werden nach dem Beheben des Fehlers automatisch wiederhergestellt.
     

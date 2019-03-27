@@ -1,5 +1,6 @@
 ---
 title: Anpassen des Parkens von Anrufen Musik in der Warteschleife InSkype für Unternehmen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: Passen Sie die Musik in der Warteschleife in Skype für Business Server Enterprise-VoIP Parken.
-ms.openlocfilehash: 261c3dac0926ca15240eb3c8a345d1a70fecdfb4
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e3d1ccdf70278173bf5a3a448e5330a24879d117
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885115"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895433"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>Anpassen des Parkens von Anrufen Musik in der Warteschleife InSkype für Unternehmen
  
 Passen Sie die Musik in der Warteschleife in Skype für Business Server Enterprise-VoIP Parken.
   
-Sie können angeben, dass eine eigene Musikdatei für Musik in der Warteschleife, anstatt die Musikdatei Standard verwenden, die mit Skype für Business Server verwendet werden soll. Verwenden Sie das **Set-CsCallParkServiceMusicOnHoldFile** -Cmdlet, um Musik in der Warteschleife anzupassen.
+Sie können angeben, dass eine eigene Musikdatei für Musik in der Warteschleife, anstatt die Musikdatei Standard verwenden, die mit Skype für Business Server verwendet werden soll. Verwenden Sie zum Anpassen der Wartemusik das Cmdlet **Set-CsCallParkServiceMusicOnHoldFile**.
   
 > [!NOTE]
 > Wenn Sie die wartemusik anpassen und die gleiche Musikdatei für mehrere Standorte verwenden möchten, müssen Sie die Musikdatei für jeden Standort konfigurieren, die die Anwendung zum Parken von Anrufen ausgeführt wird. 
@@ -42,7 +43,7 @@ Sie können angeben, dass eine eigene Musikdatei für Musik in der Warteschleife
    ```
 
     > [!TIP]
-    > Verwenden Sie das Cmdlet " **Get-CsService** ", um den Dienst zu identifizieren. Weitere Informationen hierzu finden Sie unter [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps). 
+    > Verwenden Sie das Cmdlet **Get-CsService**, um den Dienst zu ermitteln. Weitere Informationen hierzu finden Sie unter [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps). 
   
     Im folgenden Beispiel wird gezeigt, wie die Inhalte der Datei „soothingmusic.wma“ als Bytearray abgerufen und einer Variablen zugewiesen werden. Anschließend wird die Audiodatei als Wartemusikdatei für die Funktion zum Parken von Anrufen zugewiesen. Weitere Informationen hierzu finden Sie unter [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps).
     

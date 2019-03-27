@@ -1,5 +1,6 @@
 ---
 title: Installieren von Skype for Business Server auf Servern in der Topologie
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 'Zusammenfassung: Erfahren Sie, wie die Skype für die Business Server-Komponenten auf jedem Server in der Topologie installieren. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: c6122bea5af5be0e08f2510a6fae4b9c0e406df4
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: caa933e3469227fe0fa2aab680f53ddee445256e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887266"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891902"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Installieren von Skype for Business Server auf Servern in der Topologie
  
@@ -158,9 +159,9 @@ Nachdem Sie eine Topologie veröffentlicht haben, können Sie die Skype für Bus
     
 15. Klicken Sie auf der Seite **Befehle werden ausgeführt** auf **Weiter**.
     
-16. Überprüfen Sie auf der Seite **Status der Onlinezertifikatsanforderung** die angezeigten Informationen. Das Zertifikat sollte ausgegeben und in den lokalen Zertifikatspeicher installiert worden sein. Wenn wird gemeldet, wie ausgestellt und installiert haben, aber es nicht zulässig ist, stellen Sie sicher, dass das Stammzertifikat der Zertifizierungsstelle installiert wurde in der Server-Speicher für vertrauenswürdige Stammzertifizierungsstelle. Informationen zum Anfordern des Zertifikats einer vertrauenswürdigen Stammzertifizierungsstelle finden Sie in der Dokumentation der Zertifizierungsstelle. Klicken Sie auf **Zertifikatdetails anzeigen**, wenn Sie das angeforderte Zertifikat anzeigen möchten. Standardmäßig ist das Kontrollkästchen für **weisen Sie das Zertifikat zu Skype für zertifikatverwendungen Business Server** aktiviert. Wenn Sie das Zertifikat manuell zuweisen möchten, deaktivieren Sie das Kontrollkästchen und klicken Sie dann auf **Fertig stellen**.
+16. On the **Online Certificate Request Status** page, review the information returned. You should note that the certificate was issued and installed into the local certificate store. Wenn wird gemeldet, wie ausgestellt und installiert haben, aber es nicht zulässig ist, stellen Sie sicher, dass das Stammzertifikat der Zertifizierungsstelle installiert wurde in der Server-Speicher für vertrauenswürdige Stammzertifizierungsstelle. Refer to your CA documentation on how to retrieve a Trusted Root CA certificate. If you need to view the retrieved certificate, click **View Certificate Details**. Standardmäßig ist das Kontrollkästchen für **weisen Sie das Zertifikat zu Skype für zertifikatverwendungen Business Server** aktiviert. If you want to manually assign the certificate, clear the check box, and then click **Finish**.
     
-17. Wenn Sie das Kontrollkästchen für **weisen Sie das Zertifikat zu Skype für zertifikatverwendungen Business Server** auf die vorherige Seite deaktiviert haben, wird mit der Seite **Zertifikatzuweisung** angezeigt werden. Klicken Sie auf **Weiter**.
+17. Wenn Sie das Kontrollkästchen für **weisen Sie das Zertifikat zu Skype für zertifikatverwendungen Business Server** auf die vorherige Seite deaktiviert haben, wird mit der Seite **Zertifikatzuweisung** angezeigt werden. Click **Next**.
     
 18. Wählen Sie auf der Seite **Zertifikatspeicher** das von Ihnen angeforderte Zertifikat aus. Klicken Sie auf **Zertifikatdetails anzeigen**, wenn Sie das Zertifikat anzeigen möchten, und klicken Sie zum Fortfahren auf **Weiter**.
     
@@ -185,7 +186,7 @@ Nachdem Sie eine Topologie veröffentlicht haben, können Sie die Skype für Bus
 
 1. Überprüfen Sie die Anforderungen für den **Schritt 4: Dienste starten**.
     
-2. Ist dies ein Enterprise Edition-Front-End-Pool mit mindestens drei Servern, Windows Fabric wird verwendet, und Sie müssen das **Start-CsPool** -Cmdlet verwenden. Wenn ein einzelner Server verwendet wird, die immer der Fall mit Standard Edition ist, muse Sie verwenden das Cmdlet **Start-CsWindowsService** . Öffnen Sie in diesem Beispiel, dass wir Enterprise Edition mit drei Front-End-Servern im Pool verwenden die **Skype für Business Server-Verwaltungsshell** , und führen Sie das Cmdlet **Start-CsPool** , wie in der Abbildung dargestellt. Für alle anderen Rollen, einschließlich der Standard Edition-Server müssen Sie die **Start-CsWindowsService**verwenden. Zum Bereitstellen von Rollen außer der Front-End-Rolle finden Sie in der Dokumentation für die bestimmten Rollen.
+2. If this is an Enterprise Edition Front End pool with at least three servers, Windows Fabric is used, and you must use the **Start-CsPool** cmdlet. Wenn ein einzelner Server verwendet wird, die immer der Fall mit Standard Edition ist, muse Sie verwenden das Cmdlet **Start-CsWindowsService** . Öffnen Sie in diesem Beispiel, dass wir Enterprise Edition mit drei Front-End-Servern im Pool verwenden die **Skype für Business Server-Verwaltungsshell** , und führen Sie das Cmdlet **Start-CsPool** , wie in der Abbildung dargestellt. For all other roles, including Standard Edition server, you must use **Start-CsWindowsService**. To deploy roles other than the Front End role, see documentation for those particular roles.
     
      ![Starten der Skype for Business-Dienste](../../media/f52ec719-9476-419f-9a78-df08368395f7.png)
   

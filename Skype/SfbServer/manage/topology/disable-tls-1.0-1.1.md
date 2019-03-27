@@ -1,5 +1,6 @@
 ---
 title: Deaktivieren Sie TLS 1.0/1.1 in Skype für Business Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: heidip
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Zusammenfassung: Vorbereiten Sie und implementieren Sie in Ihren Umgebungen deaktivieren TLS 1.0 und 1.1.'
-ms.openlocfilehash: f99cf01ceb952298e90d296461e0d2b663f92c5d
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: c10be59bb3e14ccb0a3ac315891789e8a0e2ce64
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493933"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886603"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Deaktivieren Sie TLS 1.0/1.1 in Skype für Business Server 2015
 
@@ -38,7 +39,7 @@ Microsoft hat ein Whitepaper über TLS verfügbaren [hier](https://cloudblogs.mi
 
 ### <a name="fully-tested-and-supported-servers"></a>Vollständig getesteten und unterstützten Server
 
-- Skype für Business Server 2019
+- Skype for Business Server 2019
 - Skype für Business Server 2015 CU6 HF2 6.0.9319.516 ([update März 2018](https://support.microsoft.com/en-us/help/4086059/march-2018-cumulative-update-6-0-9319-516-for-skype-for-business)) und höher auf: 
     - Windows Server 2012 (mit KB 3140245 oder vorrangiges Update), 2012 R2 oder 2016
 - In-Place Upgrade Skype für Business Server 2015 mit CU6 HF2 und höher auf 

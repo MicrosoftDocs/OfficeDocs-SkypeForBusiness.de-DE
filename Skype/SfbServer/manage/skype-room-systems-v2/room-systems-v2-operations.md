@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Lesen Sie in diesem Thema, um Informationen zur Verwaltung von Skype Raum Systemen v2, der nächsten Generation Skype Raum Systeme zu erfahren.
-ms.openlocfilehash: 4c94ffbcb83e5e208e5cd7278af54e157b9f478c
-ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
+ms.openlocfilehash: 29c3af2b73f9a8b1277abdc6a47afeb69cb26ef2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30720424"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889322"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Skype-Chatroom-Systemen v2 Wartung und Betrieb 
  
@@ -23,7 +23,7 @@ Lesen Sie in diesem Thema, um Informationen zur Verwaltung von Skype Raum System
   
 Skype-Chatroom-Systemen v2 ist Microsofts neueste konferenzlösung entwickelt, um Ihre Besprechungsraum in einer umfassenden, gemeinsame Skype Business wünschen umgewandelt. Die Benutzer finden sich dank der vertrauten Benutzeroberfläche von Skype for Business schnell zurecht, und IT-Administratoren werden die Skype-Besprechungs-App für Windows 10 aufgrund der einfachen Bereitstellung und Verwaltung zu schätzen wissen. Skype Raum Systemen v2 dient zur Nutzung von vorhandenen Ausrüstung, wie Bereiche der LCD-Anzeige zur Erleichterung der Installation in Ihrem Besprechungsraum Skype für Unternehmen eingefügt werden sollen.
   
-Durch zusätzliche Konfiguration kann die Remoteverwaltung Microsoft Operations Management Suite (OMS) verwenden, wie beschrieben in [Planen Skype Raum v2 systemverwaltung mit OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) [Bereitstellen Skype Raum v2 systemverwaltung mit OMS](../../deploy/deploy-clients/with-oms.md)und [Verwalten Skype-Chatroom-Systemen v2 Geräte mit OMS](oms.md). ///Sie können auch [Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md), was die Anwendung des benutzerdefinierten Anzeigedesigns beinhaltet. 
+Zusätzliche Konfiguration ist Remoteverwaltung möglich mit Microsoft Azure Monitor gemäß [Planung Skype Raum v2 systemverwaltung mit Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [Bereitstellen Skype Raum v2 systemverwaltung mit Azure Monitor](../../deploy/deploy-clients/azure-monitor.md), [Verwalten Skype-Chatroom-Systemen v2 Geräte mit Azure Monitor](azure-monitor.md). ///Sie können auch [Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md), was die Anwendung des benutzerdefinierten Anzeigedesigns beinhaltet. 
   
 ## <a name="collecting-logs-on-skype-room-systems-v2"></a>Erfassen von Protokollen in Skype Room Systems v2
 <a name="Logs"> </a>

@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 537f951b9db2098cd1753e21e1c5c806e9d7f5d2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 45c3f16645755a2f459bd136aa439b2a68382f1e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462772"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897218"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planen von Microsoft 365 Government - GCC-Bereitstellungen
 
@@ -101,7 +101,7 @@ Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, es gibt einige
 | | Besprechungsnotizen | Verfügbar |
 | | Übertragen von Besprechungen | Klicken Sie auf der Regierung Bestand |
 | | Verbundpartner Besprechungen | Verfügbar |
-| | Offenlegen Sie Hub-Unterstützung (Preview) | Verfügbar |
+| | Offenlegen Sie Hub-Unterstützung (Preview) | Klicken Sie auf der Regierung Bestand |
 | Anrufe | Kontakte | Verfügbar |
 | | Verlauf | Verfügbar |
 | | Voicemail | Verfügbar |

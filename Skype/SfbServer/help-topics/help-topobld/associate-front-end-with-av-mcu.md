@@ -1,5 +1,6 @@
 ---
-title: Ordnen Sie a/v MCU-Front-End
+title: Zuordnen des Front-Ends zur A/V MCU
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
 description: A / V-Konferenzen in Echtzeit Audio- und Videokommunikation Ihre Benutzer können (d. h., wenn sie die entsprechenden Clientgeräte wie Headsets für Audiokonferenzen und Webcams für Videokonferenzen verfügen). Wenn Ihre Bereitstellung, Konferenzen unterstützt und Sie, Webkonferenzen und A aktivieren / V-Konferenzen, möglich, A / V-Konferenzserver mit dem Front-End-Server), bereitstellen oder Sie können eine oder mehrere eigenständige A / V-Konferenzserver (A / V-konferenzpool) . Wenn Sie die Option zum Bereitstellen eines eigenständigen A / V-Konferenzservers müssen definieren Sie sie im Topologie-Generator.
-ms.openlocfilehash: 1e6e95ef7f6dd216b5cb2fe87b1f4525ce900396
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 62b6dfc54fcbdd839fce9b317d0256845f3c2c08
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975501"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887323"
 ---
-# <a name="associate-front-end-with-av-mcu"></a>Ordnen Sie a/v MCU-Front-End
+# <a name="associate-front-end-with-av-mcu"></a>Zuordnen des Front-Ends zur A/V MCU
  
 A / V-Konferenzen in Echtzeit Audio- und Videokommunikation Ihre Benutzer können (d. h., wenn sie die entsprechenden Clientgeräte wie Headsets für Audiokonferenzen und Webcams für Videokonferenzen verfügen). Wenn Ihre Bereitstellung, Konferenzen unterstützt und Sie, Webkonferenzen und A aktivieren / V-Konferenzen, möglich, A / V-Konferenzserver mit dem Front-End-Server), bereitstellen oder Sie können eine oder mehrere eigenständige A / V-Konferenzserver (A / V-konferenzpool) . Wenn Sie die Option zum Bereitstellen eines eigenständigen A / V-Konferenzservers müssen definieren Sie sie im Topologie-Generator.
   

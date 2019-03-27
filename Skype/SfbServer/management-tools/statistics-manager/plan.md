@@ -1,5 +1,6 @@
 ---
-title: Planen der Business Server für den Statistiken-Manager für Skype
+title: Planen von Statistics Manager für Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Zusammenfassung: Lesen Sie in diesem Thema, um Informationen zu Statistiken Manager für Skype für Business Server zu erfahren.'
-ms.openlocfilehash: a73e58acdd91b4112537fa0028bf2c134e9c0fce
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 7e086dda9bfea755265d2c77413989f8cc634df7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297858"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893988"
 ---
-# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planen der Business Server für den Statistiken-Manager für Skype
+# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planen von Statistics Manager für Skype for Business Server
 
 **Zusammenfassung:** Lesen Sie in diesem Thema, um Informationen zu Statistiken Manager für Skype für Business Server zu erfahren.
 
@@ -121,7 +122,7 @@ Das folgende Diagramm zeigt eine lokale Bereitstellung, in der die Statistiken-M
 
 ![Stats Manager – lokale Bereitstellung](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
-## <a name="requirements"></a>Anforderungen
+## <a name="requirements"></a>Voraussetzungen
 <a name="BKMK_Requirements"> </a>
 
 Sie müssen die folgenden Anforderungen Software, Netzwerk und Hardware berücksichtigen Sie vor der Bereitstellung von Statistiken-Manager.
@@ -176,8 +177,8 @@ Der gesamte Datenverkehr zwischen Servern wird verschlüsselt.
 
 Weitere Informationen finden Sie unter den folgenden Themen:
 
-- [Bereitstellen von Statistiken Manager für Skype für Business Server](deploy.md)
+- [Bereitstellen von Statistics Manager für Skype for Business Server](deploy.md)
 
-- [Aktualisieren von Statistiken Manager für Skype für Business Server](upgrade.md)
+- [Aktualisieren von Statistics Manager für Skype for Business Server](upgrade.md)
 
-- [Problembehandlung bei Statistiken Manager für Skype für Business Server](troubleshoot.md)
+- [Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server](troubleshoot.md)

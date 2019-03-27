@@ -1,5 +1,6 @@
 ---
 title: Sammeln von Anforderungen für die anrufsteuerung in Skype für Business Server Beispiel
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: Enthält ein ausführliches Beispiel für die anrufsteuerung in Skype Business Server Enterprise-VoIP, einschließlich Sammeln von Informationen zu Websites, Regionen und Bandbreite des Netzwerks planen.
-ms.openlocfilehash: f5c050e33271958c103b5ea6ecd9f7a13d9da998
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b406db2a4ddf2b0ff25128774577407e0e3acaf6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375189"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893911"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Beispiel: Sammeln von Anforderungen für die anrufsteuerung in Skype für Business Server
 
@@ -54,7 +55,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
    **Beispielunternehmensnetzwerk mit drei Netzwerkregionen**
 
-     ![Netzwerktopologiebeispiel mit drei Netzwerkregionen](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
+     ![Nettwerktopologiebeispiel mit 3 Netzwerkregionen](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
     > Ein MPLS-Netzwerk (Multiprotocol Label Switching) sollte als Netzwerkregion abgebildet werden, bei der jeder geografische Standort über einen entsprechenden Netzwerkstandort verfügt. Weitere Informationen hierzu finden Sie unter [Komponenten und Topologien für die anrufsteuerung in Skype für Unternehmen](components-and-topologies.md). 
@@ -106,7 +107,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
    **Anrufsteuerung in der Netzwerkregion „Nordamerika“ mit drei Netzwerkstandorten, die keine Bandbreiteneinschränkung aufweisen (Chicago, New York und Detroit), und drei Netzwerkstandorten mit eingeschränkter WAN-Bandbreite (Portland, Reno und Albuquerque)**
 
-     ![Beispiel: Netzwerkstandorte mit Einschränkungen in Bezug auf die WAN-Bandbreite](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
+     ![Beispiel: Netzwerkstandorte WAN-Bandbreite eingeschränkt](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
 
 5. Ermitteln Sie für jede WAN-Verbindung mit eingeschränkter Bandbreite die folgenden Informationen:
 
@@ -124,8 +125,8 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
      | **Netzwerkstandort**   | **Netzwerkregion**   | **Grenzwert für Bandbreite**      | **Grenzwert für Audio**   | **Grenzwert für Audiositzung** | **Grenzwert für Video**   | **Grenzwert für Videositzung** |
      |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|
      | Albuquerque  <br/> | Nordamerika  <br/> | 5.000  <br/>      | 2.000  <br/>      | 175  <br/>              | 1.400  <br/>      | 700  <br/>              |
-     | Reno  <br/>        | Nordamerika  <br/> | 10.000  <br/>     | 4000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              |
-     | Portland  <br/>    | Nordamerika  <br/> | 5.000  <br/>      | 4000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              |
+     | Reno  <br/>        | Nordamerika  <br/> | 10.000  <br/>     | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              |
+     | Portland  <br/>    | Nordamerika  <br/> | 5.000  <br/>      | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              |
      | New York  <br/>    | Nordamerika  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       |
      | Chicago  <br/>     | Nordamerika  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       |
      | Detroit  <br/>     | Nordamerika  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       |
@@ -137,7 +138,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     > Jedes Subnetz in Ihrem Netzwerk muss einem Netzwerkstandort zugeordnet sein - selbst dann, wenn für den Netzwerkstandort keine Bandbreiteneinschränkungen gelten. Diese Anforderung gilt, da die Anrufsteuerung mithilfe von Subnetzinformationen ermittelt, an welchem Netzwerkstandort sich ein Endpunkt befindet. Wenn die Standorte beider Sitzungsteilnehmer ermittelt wurden, kann über die Anrufsteuerung festgestellt werden, ob genügend Bandbreite für einen Anruf vorhanden ist. Wird eine Sitzung über eine Verbindung ohne Bandbreiteneinschränkungen hergestellt, wird eine Warnung generiert. 
 
     > [!IMPORTANT]
-    > Wenn Sie A/V-Edgeserver (Audio/Video) bereitstellen, müssen die öffentlichen IP-Adressen der jeweiligen Edgeserver dem Netzwerkstandort zugeordnet werden, in dem der Edgeserver bereitgestellt wurde. Jede öffentliche IP-Adresse des A/V-Edgeservers muss in den Netzwerkkonfigurationseinstellungen als Subnetz mit der Subnetzmaske 32 hinzugefügt werden. Wenn Sie beispielsweise A/V-Edgeserver in Chicago bereitstellen, müssen Sie für jede externe IP-Adresse dieser Server ein Subnetz mit der Subnetzmaske 32 erstellen und den Netzwerkstandort „Chicago“ diesen Subnetzen zuordnen. Ausführliche Informationen zu öffentlichen IP-Adressen finden Sie unter [Planen von netzwerkanforderungen für die Skype für Unternehmen](../../plan-your-deployment/network-requirements/network-requirements.md). 
+    > Wenn Sie A/V-Edgeserver (Audio/Video) bereitstellen, müssen die öffentlichen IP-Adressen der jeweiligen Edgeserver dem Netzwerkstandort zugeordnet werden, in dem der Edgeserver bereitgestellt wurde. Jede öffentliche IP-Adresse des A/V-Edgeservers muss in den Netzwerkkonfigurationseinstellungen als Subnetz mit der Subnetzmaske 32 hinzugefügt werden. Wenn Sie beispielsweise A/V-Edgeserver in Chicago bereitstellen, müssen Sie für jede externe IP-Adresse dieser Server ein Subnetz mit der Subnetzmaske 32 erstellen und den Netzwerkstandort „Chicago“ diesen Subnetzen zuordnen. Ausführliche Informationen zu öffentlichen IP-Adressen finden Sie unter [Plan network requirements for Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md) in der Planungsdokumentation. 
 
     Es wird eine KHI-Warnung (Key Health Indicator) ausgegeben. Diese enthält eine Liste der IP-Adressen, die in Ihrem Netzwerk vorhanden, aber keinem Subnetz zugeordnet sind, oder gibt das Subnetz an, das die IP-Adressen enthält, jedoch keinem Netzwerkstandort zugeordnet ist. Diese Warnung wird innerhalb von 8 Stunden nur einmal angezeigt. Nachfolgend finden Sie die relevanten Warnungsinformationen und ein Beispiel:
 
@@ -165,8 +166,8 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
    | **Netzwerkstandort**   | **Netzwerkregion**   | **Grenzwert für Bandbreite**      | **Grenzwert für Audio**   | **Grenzwert für Audiositzung** | **Grenzwert für Video**   | **Grenzwert für Videositzung** | **Subnetze**                                                            |
    |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|:-----------------------------------------------------------------------|
    | Albuquerque  <br/> | Nordamerika  <br/> | 5.000  <br/>      | 2.000  <br/>      | 175  <br/>              | 1.400  <br/>      | 700  <br/>              | 172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24  <br/> |
-   | Reno  <br/>        | Nordamerika  <br/> | 10.000  <br/>     | 4000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              | 157.57.210.0/23, 172.28.151.128/25  <br/>                              |
-   | Portland  <br/>    | Nordamerika  <br/> | 5.000  <br/>      | 4000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              | 172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23  <br/>                  |
+   | Reno  <br/>        | Nordamerika  <br/> | 10.000  <br/>     | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              | 157.57.210.0/23, 172.28.151.128/25  <br/>                              |
+   | Portland  <br/>    | Nordamerika  <br/> | 5.000  <br/>      | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              | 172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23  <br/>                  |
    | New York  <br/>    | Nordamerika  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24  <br/> |
    | Chicago  <br/>     | Nordamerika  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | 157.57.211.0/23, 172.28.152.128/25  <br/>                              |
    | Detroit  <br/>     | Nordamerika  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | 172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23  <br/>                  |
@@ -184,12 +185,12 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
    **Netzwerkregionenverbindungen mit zugehörigen Bandbreiteneinschränkungen**
 
-     ![Beispiel für Einschränkungen zwischen drei Regionen](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
+     ![Beispiel für Einschränkungen zwischen 3 Regionen](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
 
    **Bandbreiteninformationen zu Regionenverbindungen (Bandbreite in KBit/s)**
 
 
-   | **Name der Regionenverbindung**  | **First Region**     | **Second Region** | **Grenzwert für Bandbreite**  | **Grenzwert für Audio** | **Grenzwert für Audiositzung** | **Grenzwert für Video** | **Grenzwert für Videositzung** |
+   | **Name der Regionenverbindung**  | **Erste Region**     | **Zweite Region** | **Grenzwert für Bandbreite**  | **Grenzwert für Audio** | **Grenzwert für Audiositzung** | **Grenzwert für Video** | **Grenzwert für Videositzung** |
    |:----------------------|:---------------------|:------------------|:--------------|:----------------|:------------------------|:----------------|:------------------------|
    | NA-EMEA-LINK  <br/>   | Nordamerika  <br/> | EMEA  <br/>       | 50.000  <br/> | 20.000  <br/>   | 175  <br/>              | 14.000  <br/>   | 700  <br/>              |
    | EMEA-APAC-LINK  <br/> | EMEA  <br/>          | APAC  <br/>       | 25.000  <br/> | 10.000  <br/>   | 175  <br/>              | 7.000  <br/>    | 700  <br/>              |
@@ -203,7 +204,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
    **Routen zwischen Regionen**
 
 
-   | **Name der Regionenroute**  | **First Region**     | **Second Region** | **Regionenverbindungen**                    |
+   | **Name der Regionenroute**  | **Erste Region**     | **Zweite Region** | **Regionenverbindungen**                    |
    |:-----------------------|:---------------------|:------------------|:------------------------------------|
    | NA-EMEA-ROUTE  <br/>   | Nordamerika  <br/> | EMEA  <br/>       | NA-EMEA-LINK  <br/>                 |
    | EMEA-APAC-ROUTE  <br/> | EMEA  <br/>          | APAC  <br/>       | EMEA-APAC-LINK  <br/>               |
@@ -222,7 +223,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
    **Anrufsteuerung in der Netzwerkregion „Nordamerika“ mit Anzeige der Bandbreitenkapazitäten und -einschränkungen für die standortübergreifende Verbindung zwischen Reno und Albuquerque**
 
-     ![Netzwerkstandorte mit Einschränkungen in Bezug auf die WAN-Bandbreite (Beispiel)](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
+     ![Netzwerk Einschränkungen in Bezug auf WAN-Bandbreite (Beispiel)](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
 
    **Bandbreiteninformationen für eine standortübergreifende Verbindung zwischen zwei Netzwerkstandorten (Bandbreite in KBit/s)**
 
@@ -235,6 +236,6 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 Nachdem Sie die erforderliche Informationen zusammengetragen haben, können Sie die Bereitstellung der Anrufsteuerung entweder mit der Skype für Business Server-Verwaltungsshell oder Skype Business Server-Systemsteuerung ausführen.
 
 > [!NOTE]
-> Obwohl Sie die meisten Aufgaben der Netzwerk-Konfiguration mithilfe von Skype Business Server-Systemsteuerung ausführen können, müssen Sie aus um Subnetze und intersite Links erstellen Skype für Business Server-Verwaltungsshell verwenden. Weitere Informationen hierzu finden Sie unter [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps) und [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps). 
+> Obwohl Sie die meisten Aufgaben der Netzwerk-Konfiguration mithilfe von Skype Business Server-Systemsteuerung ausführen können, müssen Sie aus um Subnetze und intersite Links erstellen Skype für Business Server-Verwaltungsshell verwenden. Details finden Sie unter [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps) und [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps). 
 
 

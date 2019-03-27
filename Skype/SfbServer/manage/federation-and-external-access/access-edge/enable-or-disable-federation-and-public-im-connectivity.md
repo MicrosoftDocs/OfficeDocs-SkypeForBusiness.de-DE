@@ -1,5 +1,6 @@
 ---
 title: Aktivieren oder Deaktivieren des Partnerverbunds und der Konnektivität mit öffentlichen Chatdiensten
+ms.reviewer: ''
 ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)
 ms:contentKeyID: 48184813
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Unterstützung für den Verbund erforderlich ist, um Benutzern zu ermöglichen, die über ein Konto mit einer vertrauenswürdigen Kunden oder Partner Organisation, einschließlich Partnerdomänen und Benutzer des öffentlichen instant messaging (IM)-Anbieter-Benutzer, die Sie Unterstützung für die Zusammenarbeit mit Benutzern in Ihrer Organisation.
-ms.openlocfilehash: 9e293c70565832944a10e3c6d2533425c747197e
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: c207f409164162f066d1ea49197cbd26fa50273b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222996"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892224"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Aktivieren Sie oder deaktivieren Sie den Verbund und öffentliches Instant Messaging-Diensten in Skype für Business Server
 

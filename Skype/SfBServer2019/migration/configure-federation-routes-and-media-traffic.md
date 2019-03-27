@@ -1,5 +1,6 @@
 ---
-title: Konfigurieren von partnerverbundrouten und verbunddatenverkehr
+title: Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Verbund bezeichnet eine Vertrauensstellung zwischen zwei oder mehr SIP-Domänen, die Benutzern in unterschiedlichen Organisationen die Kommunikation über Netzwerkgrenzen hinweg ermöglicht. Nach der Migration zum pilotpool müssen Sie für den Übergang von der partnerverbundroute Ihrer früherer Versionen Edge-Servern auf die partnerverbundroute von Ihrer Skype für Business Server 2019 Edge-Server.
-ms.openlocfilehash: 3d6fb6455221b85c4cdbfc63a5a868cdf6444341
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 607d98c3c831ae9fd911b9fd2782490dcfb0e4f4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027333"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880228"
 ---
-# <a name="configure-federation-routes-and-media-traffic"></a>Konfigurieren von partnerverbundrouten und verbunddatenverkehr
+# <a name="configure-federation-routes-and-media-traffic"></a>Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
 
 Verbund bezeichnet eine Vertrauensstellung zwischen zwei oder mehr SIP-Domänen, die Benutzern in unterschiedlichen Organisationen die Kommunikation über Netzwerkgrenzen hinweg ermöglicht. Nach der Migration zum pilotpool müssen Sie für den Übergang von der partnerverbundroute des Edge-Server der Vorversion auf die partnerverbundroute von Ihrer Skype für Business Server 2019 Edge-Server.
   

@@ -1,5 +1,6 @@
 ---
 title: Kommunizieren mit Microsoft Teams-Benutzern in einer anderen Organisation
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: Finden Sie unter Konfigurieren von Teams, damit die Benutzer mit Benutzern in anderen Organisationen kommunizieren können.
-ms.openlocfilehash: b3aa366d26399f3d899da471d41823e79f4bc0f1
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: c3faf65dd3f36c193a75e74e73d90bf5e9be11df
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494246"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894188"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Lassen Sie Ihren Teams Benutzer Chat und kommunizieren mit Benutzern in einer anderen Organisation von Teams
 
@@ -84,7 +85,7 @@ Haben Sie die Admin, Organisation führen Sie diese Schritte:
     
 1. Wechseln Sie in das Office 365 Administrationscenter zu **Admin Center** > **Teams & Skype** > **Legacy-Portal**.
   
-2. Wählen Sie unter **Skype for Business Admin Center**die Option **Organisation** > **Externe Kommunikation**.
+2. Wählen Sie in der **Skype für Business Administrationscenter**, **Organisation** > **externe Kommunikation**.
     
 3. Zum Einrichten der Kommunikation mit einem bestimmten Unternehmen oder mit Benutzern in einer anderen Domäne, in der Dropdown-Feld auswählen **auf nur für zulässige Domänen**.
     

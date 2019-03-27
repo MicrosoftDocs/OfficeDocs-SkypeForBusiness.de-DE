@@ -1,5 +1,6 @@
 ---
-title: Erneuern CcCACertificate
+title: Renew-CcCACertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
 description: Das Cmdlet „Renew-CcCACertificate“ erneuert das Zertifikat der Stammzertifizierungsstelle für Skype for Business Cloud Connector Edition, das in Kürze abläuft oder bereits abgelaufen ist. Mit diesem Befehl wurde Update-CcCACertificate in der Cloud Connector 2.0 und spätere Versionen geändert.
-ms.openlocfilehash: bfcf7c69e27af8ebf83c85a8c90cc46491fbc454
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 616abb35d577b816368854396a201b9f07b40d12
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893862"
 ---
-# <a name="renew-cccacertificate"></a>Erneuern CcCACertificate
+# <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
 Das Cmdlet „Renew-CcCACertificate“ erneuert das Zertifikat der Stammzertifizierungsstelle für Skype for Business Cloud Connector Edition, das in Kürze abläuft oder bereits abgelaufen ist. Mit diesem Befehl wurde Update-CcCACertificate in der Cloud Connector 2.0 und spätere Versionen geändert.
   
@@ -48,7 +50,8 @@ Wenn das Stammzertifikat in Kürze abläuft oder bereits abgelaufen ist, führen
   
 Wenn sich an einem PSTN-Standort mehrere Appliances befinden, führen Sie das Cmdlet „Renew-CcCACertificate“ in allen Appliances des gleichen PSTN-Standorts aus.
   
-Als letzten Schritt ausführen, um das Stammzertifikat in einer lokalen Datei in die erste Appliance exportieren Export-CcRootCertificate und klicken Sie dann kopieren Sie und installieren Sie das exportierte Zertifikat zu PSTN-Gateways.
+Letzter Schritt: Führen Sie das Cmdlet „Export-CcRootCertificate“ aus, um das Stammzertifikat in eine lokale Datei in der ersten Appliance zu exportieren. Kopieren Sie dann das exportierte Zertifikat, und installieren Sie es in Ihren PSTN-Gateways.
+
   
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
@@ -58,14 +61,14 @@ Keine. Das Cmdlet „Renew-CcCACertificate“ akzeptiert keine Pipelineeingaben.
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine
+Keine 
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>
 
 [Reset-CcCACertificate](reset-cccacertificate.md)
   
-[Erneuern CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   

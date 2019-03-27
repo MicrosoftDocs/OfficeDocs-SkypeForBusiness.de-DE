@@ -1,5 +1,6 @@
 ---
 title: Planen der Interop-Videoserver in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 'Zusammenfassung: Lesen Sie diesen Abschnitt beim Planen von Drittanbietern Telekonferenzen Geräte Skype für Business Server Integration.'
-ms.openlocfilehash: c4308b27371c9e0da312eee0fa5c52602674c45c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 015f93496879e84c1959db7d6b46b765e0d286e1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975634"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894252"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>Planen der Interop-Videoserver in Skype für Business Server
  
@@ -183,7 +184,7 @@ Die Unterstützung von VTCs, die über einen lokalen VIS an Onlinebesprechungen 
 
 Die Unterstützung von VTCs, die über einen lokalen VIS an Besprechungen in einem Partnerverbund teilnehmen, ist kein Bestandteil von Skype for Business.
   
-## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
+## <a name="see-also"></a>Siehe auch
 <a name="resiliency"> </a>
 
 [Bereitstellen eines Video Interop-Servers in Skype für Business Server](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)

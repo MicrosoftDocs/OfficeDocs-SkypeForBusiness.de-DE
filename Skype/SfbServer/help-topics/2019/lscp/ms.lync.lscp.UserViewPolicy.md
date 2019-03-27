@@ -1,5 +1,6 @@
 ---
 title: VoIP-Richtlinie für Benutzer anzeigen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f259a753-cfdc-4fa7-ba35-6fb812e1552a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 9d9030ae9b86d5165114db6ea78184ede8343575
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: 5382f4bea05768e744422fef9e7e18a9516336d7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246024"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890157"
 ---
-# <a name="users-view-voice-policy"></a>Benutzer: VoIP-Richtlinie anzeigen
+# <a name="users-view-voice-policy"></a>Benutzer: Anzeigen einer VoIP-Richtlinie
 
-Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
+Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 
 - [Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8b3105889021408983c8e3ae249c74833e65ced
-ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
+ms.openlocfilehash: 5d92e30617fb62000cd4b10dac29ec23eee1feaa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30800073"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882962"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
 
@@ -65,20 +65,13 @@ Um beide Netzwerksegmente zu testen, können Sie das [Tool zur Bewertung der Net
 
 
 ## <a name="bandwidth-requirements"></a>Erforderliche Bandbreite
-
+Microsoft-Teams, können Sie die beste Audio-, Video- und unabhängig von den netzwerkbedingungen Erfahrung von Inhalten. Mit den Variablen Codecs können Medien in Umgebungen mit minimaler Beeinträchtigung eingeschränkter Bandbreite ausgehandelt werden. Aber wo Bandbreite kein Belang ist, können Erfahrungen optimiert für die Qualität, videoauflösung 1080p, einschließlich von bis zu 30 f/s für Video und 15fps für Inhalte und Audio mit hoher Qualität.
 
 Dieser Artikel beschreibt eine präzise Version wie Bandbreite von Microsoft-Teams Echtzeit Audio-, Video- und Desktopfreigabe Modalitäten in verschiedene Anwendungsfälle genutzt wird. Teams ist immer auf bandbreitenauslastung konservativ und HD-Videoqualität in unter 1.2Mbps realisiert werden können.  Die tatsächlichen Bandbreitenverbrauch in einzelnen a/v-Anruf oder Besprechung, hängt Grundlage verschiedener Faktoren, wie video Layout, Auflösung und Videoframes pro Sekunde. Wenn mehr Bandbreite verfügbar ist werden die Qualität und Nutzung am besten zu erhöhen.
 
 
-|Bandwidth(Up/Down) |Szenarien |
-|---|---|
-|30 Kbit/s |Aufrufen von Peer-zu-Peer-audio |
-|130 Kbit/s |Peer-zu-Peer-audio Anruf- und Bildschirmfreigabe |
-|500 KBit/s |Peer-zu-Peer-Bildqualität 360p mit 30fps aufrufen |
-|1.2 Mbit/s |Durch den Aufruf von Auflösung von HD 720p mit 30fps Videoqualität HD Peer-zu-peer |
-|1,5 Mbit/s |Durch den Aufruf von Auflösung von HD 1080p mit 30fps Videoqualität HD Peer-zu-peer |
-|500 KBit/s/1 Mbit/s |Gruppe Video aufrufen |
-|1 Mbit/s/2 Mbit/s |HD-Gruppe video aufrufen (540p Videos auf 1080p Bildschirm) |
+[!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
+
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.

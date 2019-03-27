@@ -1,5 +1,6 @@
 ---
 title: Verwalten des Servers für beständigen Chat in Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
 description: 'Zusammenfassung: Informationen Sie zum Verwalten von Persistent Chat Server in Skype für Business Server 2015.'
-ms.openlocfilehash: 2511de09c321c70d73d824f5fc94bf21fa674131
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f6bd3f9e1364f4dd5b347e65a0a5799e66a97b33
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967898"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899109"
 ---
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten des Servers für beständigen Chat in Skype for Business Server 2015
  
@@ -36,26 +37,26 @@ So verwenden Sie die Systemsteuerung:
     
 3. Klicken Sie in der linken Navigationsleiste auf **Beständiger Chat**.
     
-In der folgenden Tabelle werden die Windows PowerShell-Cmdlets zur einfacheren Verwaltung von Persistent Chat Server zusammengefasst. Ausführliche Informationen zur Syntax, einschließlich aller verfügbaren Parameter finden Sie unter [Skype für Business Server 2015-Verwaltungsshell](../management-shell.md).
+In der folgenden Tabelle werden die Windows PowerShell-Cmdlets zur einfacheren Verwaltung von Persistent Chat Server zusammengefasst. Ausführliche Informationen zur Syntax einschließlich aller Parameter finden Sie unter [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 
 |**Cmdlet**|**Beschreibung**|
 |:-----|:-----|
-|"New-cspersistentchatcategory"  <br/> |Erstellt eine neue Kategorie  <br/> |
-|"Set-cspersistentchatcategory"  <br/> |Konfiguriert Einstellungen für eine vorhandene Kategorie  <br/> |
-|"Get-cspersistentchatcategory"  <br/> |Ruft Informationen über Kategorien ab  <br/> |
-|"Remove-cspersistentchatcategory"  <br/> |Entfernt eine Kategorie  <br/> |
-|"New-cspersistentchatroom"  <br/> |Erstellt einen neuen Chatroom  <br/> |
-|"Set-cspersistentchatroom"  <br/> |Konfiguriert Einstellungen für einen bestehenden Chatroom; weist dem Chatroom Benutzer und Benutzergruppen zu  <br/> |
-|"Get-cspersistentchatroom"  <br/> |Ruft Informationen zu Chatrooms  <br/> |
-|"Clear-cspersistentchatroom"  <br/> |Löscht einen Chatroom oder Nachrichten in einem Chatroom  <br/> |
-|"Remove-cspersistentchatroom"  <br/> |Entfernt einen Chatroom  <br/> |
+|New-CsPersistentChatCategory  <br/> |Erstellt eine neue Kategorie  <br/> |
+|Set-CsPersistentChatCategory  <br/> |Konfiguriert Einstellungen für eine vorhandene Kategorie  <br/> |
+|Get-CsPersistentChatCategory  <br/> |Ruft Informationen über Kategorien ab  <br/> |
+|Remove-CsPersistentChatCategory  <br/> |Entfernt eine Kategorie  <br/> |
+|New-CsPersistentChatRoom  <br/> |Erstellt einen neuen Chatroom  <br/> |
+|Set-CsPersistentChatRoom  <br/> |Konfiguriert Einstellungen für einen bestehenden Chatroom; weist dem Chatroom Benutzer und Benutzergruppen zu  <br/> |
+|Get-CsPersistentChatRoom  <br/> |Ruft Informationen zu Chatrooms  <br/> |
+|Clear-CsPersistentChatRoom  <br/> |Löscht einen Chatroom oder Nachrichten in einem Chatroom  <br/> |
+|Remove-CsPersistentChatRoom  <br/> |Entfernt einen Chatroom  <br/> |
 |Remove-CsPersistentChatMessage  <br/> |Entfernt Nachrichten aus einem Chatroom  <br/> |
-|"New-cspersistentchataddin"  <br/> |Erstellt ein neues Add-In  <br/> |
-|"Set-cspersistentchataddin"  <br/> |Konfiguriert Einstellungen für ein vorhandenes Add-In  <br/> |
-|"Get-cspersistentchataddin"  <br/> |Ruft Informationen über Add-Ins ab  <br/> |
-|"Remove-cspersistentchataddin"  <br/> |Entfernt ein Add-In  <br/> |
-|"Set-cspersistentchatcomplianceconfiguration"  <br/> |Ändert eine vorhandene Auflistung von Konfigurationseinstellungen für Kompatibilitäten  <br/> |
+|New-CsPersistentChatAddin  <br/> |Erstellt ein neues Add-In  <br/> |
+|Set-CsPersistentChatAddin  <br/> |Konfiguriert Einstellungen für ein vorhandenes Add-In  <br/> |
+|Get-CsPersistentChatAddin  <br/> |Ruft Informationen über Add-Ins ab  <br/> |
+|Remove-CsPersistentChatAddin  <br/> |Entfernt ein Add-In  <br/> |
+|Set-CsPersistentChatComplianceConfiguration  <br/> |Ändert eine vorhandene Auflistung von Konfigurationseinstellungen für Kompatibilitäten  <br/> |
 |Export-CsPersistentChatData  <br/> |Exportiert Daten aus einer Datenbank für beständigen Chat  <br/> |
 |Import-CsPersistentChatData  <br/> |Importiert Daten, die von einer früheren Version von Lync Server exportiert wurden  <br/> |
    

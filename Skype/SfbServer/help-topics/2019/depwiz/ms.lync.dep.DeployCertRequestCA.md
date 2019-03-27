@@ -1,5 +1,6 @@
 ---
 title: Zertifikatsanforderung (Zertifizierungsstelle)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Beim Erstellen einer Zertifikatsanforderung an eine Onlinezertifizierungsstelle (im Allgemeinen ein Server im internen Netzwerk) auf der Seite Zertifizierungsstelle auswählen werden zwei Optionen angezeigt:'
-ms.openlocfilehash: 860faad4bcbb78010cabf835817ad852aca1e66b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 64e4b5b52f0ebf6eb5dab6b60c7aa9c140ada080
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975400"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897056"
 ---
 # <a name="certificate-request-certificate-authority"></a>Zertifikatsanforderung (Zertifizierungsstelle)
  

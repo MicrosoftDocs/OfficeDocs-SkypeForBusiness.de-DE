@@ -1,5 +1,6 @@
 ---
 title: Planen der Anruf über den Arbeitsplatz in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Planen von Anrufen über Arbeitsplatz in Skype für Business Server, ermöglicht die Integration zwischen Skype für Unternehmen und Ihre Telefonanlage, damit Benutzer ihre Nebenstellentelefone über steuern Skype für Unternehmen verwenden können.
-ms.openlocfilehash: b7c1765af7140bdfc1a0e304dd94218231ed41c7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3a2452f732d55f305d91cee9cd2b940f7bb3c88e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887919"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891664"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Planen der Anruf über den Arbeitsplatz in Skype für Business Server
  
 Planen von Anrufen über Arbeitsplatz in Skype für Business Server, ermöglicht die Integration zwischen Skype für Unternehmen und Ihre Telefonanlage, damit Benutzer ihre Nebenstellentelefone über steuern Skype für Unternehmen verwenden können.
   
- **Über Arbeitsplatz anrufen** ist ein neues Feature in Skype für Business Server, dem Sie Ihre Skype for Business-Lösung in die vorhandene PBX-Telefonsysteme integrieren können. In Skype für Unternehmen aufrufen, einen anderen Benutzer, entweder innerhalb Ihrer Bereitstellung oder um einen externen Benutzer kann Benutzer mit aktivierter über Arbeitsplatz anrufen klicken. Der Anruf wird dann über das Festnetztelefon des Benutzers geführt. Dadurch können Benutzer mit einem PBX-Telefon Audio in ihren rich Skype für Business Unterhaltungen werden soll. In früheren Versionen von Lync Server Remoteaufruf war Steuerelement ein Feature, das Benutzer ihre Nebenstellentelefone über mit Lync Server steuern aktiviert. Dieses Feature wurde in Skype für Business Server mit über Arbeitsplatz anrufen ersetzt.
+ **Über Arbeitsplatz anrufen** ist ein neues Feature in Skype für Business Server, dem Sie Ihre Skype for Business-Lösung in die vorhandene PBX-Telefonsysteme integrieren können. In Skype für Unternehmen aufrufen, einen anderen Benutzer, entweder innerhalb Ihrer Bereitstellung oder um einen externen Benutzer kann Benutzer mit aktivierter über Arbeitsplatz anrufen klicken. Das Gespräch wird dann mit dem Festnetztelefon des Benutzers durchgeführt. Dadurch können Benutzer mit einem PBX-Telefon Audio in ihren rich Skype für Business Unterhaltungen werden soll. In früheren Versionen von Lync Server Remoteaufruf war Steuerelement ein Feature, das Benutzer ihre Nebenstellentelefone über mit Lync Server steuern aktiviert. Dieses Feature wurde in Skype für Business Server mit über Arbeitsplatz anrufen ersetzt.
   
 Über Arbeitsplatz anrufen ermöglicht die folgenden für Benutzer der PBX-Telefon
   
@@ -34,7 +35,7 @@ Planen von Anrufen über Arbeitsplatz in Skype für Business Server, ermöglicht
     
 - Die Möglichkeit zum Hinzufügen von Instant Messaging, Anwendungsfreigabe und Dateiübertragung zu einem Anruf über Arbeitsplatz anrufen.
     
-- One-click-Funktion zur Besprechungsteilnahme
+- Per Mausklick der Funktion für den besprechungsbeitritt
     
 ## <a name="how-it-works"></a>Funktionsweise
 
@@ -46,21 +47,21 @@ Die folgende Abbildung zeigt, wie Benutzer mit aktivierter über Arbeitsplatz an
   
 ![Zeigt die Schritte während eines geschäftlichen Anrufs; zunächst klickt der Anrufer im Skype for Business-Client auf das entsprechende Symbol, um jemanden anzurufen; anschließend lässt die UCWA das Telefon des Anrufers klingeln. Wenn der Anrufer abhebt, wird der Empfänger angerufen](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
   
-1. Der Benutzer wählt einen Benutzer in ihrer Skype für Business-Client und klickt auf das Telefonsymbol, um sie anzurufen. Im Fall einer Chatunterhaltung klickt der Benutzer, um den Benutzer anzurufen, mit dem die Sitzung stattfindet.
+1. Der Benutzer wählt einen Benutzer in ihrer Skype für Business-Client und klickt auf das Telefonsymbol, um sie anzurufen. Oder während einer Sofortnachrichtenunterhaltung der Benutzer klickt, um den Benutzer anrufen, die die Sitzung mit einzelnen.
     
-2. Das PBX-Telefon des Benutzers, der den Anruf ausgeführt hat, beginnt zu klingeln. Die Anrufer-ID für dieses Telefon zeigt eine globale Rufnummer das zum Anzeigen in der Anrufer-ID aller Benutzer tätigen von Anrufen über Arbeitsplatz anrufen eingerichtet haben. Diese globale Telefonnummer ist nicht die tatsächliche Telefonnummer, die dem Telefon eines Benutzers entspricht. Es ist stattdessen ein visuelles Signal, durch das der Benutzer weiß, dass es sein eigener ausgehender Anruf und nicht ein eingehender Anruf zur selben Zeit ist. Bei der Bereitstellung über Arbeitsplatz anrufen, sollten Sie die Benutzer über diese Telefonnummer für die globale und was es bedeutet informieren.
+2. PBX-Telefon des Benutzers, der der Anruf getätigt startet angeboten werden soll. Die Anrufer-ID für dieses Telefon zeigt eine globale Rufnummer das zum Anzeigen in der Anrufer-ID aller Benutzer tätigen von Anrufen über Arbeitsplatz anrufen eingerichtet haben. Diese globalen Telefonnummer ist keine tatsächliche Telefonnummer, die alle einer bestimmten Person Phone entspricht. Es ist ein optisches Signal, damit einen Benutzer wissen, dass dies ihre eigenen Ausgehender Anruf und keinen eingehenden Anruf gleichzeitig passiert ist. Bei der Bereitstellung über Arbeitsplatz anrufen, sollten Sie die Benutzer über diese Telefonnummer für die globale und was es bedeutet informieren.
     
-3. Der Benutzer, der den Anruf ausgeführt hat, nimmt den Anruf an. Skype für Unternehmen initiiert dann den Anruf an den angerufenen. 
+3. Der Benutzer, der der Anruf getätigt nimmt ihre PBX-Telefon. Skype für Unternehmen initiiert dann den Anruf an den angerufenen. 
     
-4. Wenn der Angerufene antwortet, beginnt der Sprachanruf. Wenn die beiden Benutzer bereits eine laufende Chatsitzung hatten, kann diese fortgeführt werden.
+4. Wenn angerufenen annimmt, beginnt der VoIP-Anruf. Wenn die beiden Benutzer bereits eine Sofortnachrichtensitzung unterschiedlich sein und sollte wurde, kann er weiterhin.
     
-### <a name="joining-a-conference-with-call-via-work"></a>Einer Konferenz beitreten mithilfe von „Anruf über Arbeit“
+### <a name="joining-a-conference-with-call-via-work"></a>Teilnehmen an einer Konferenz mit Anruf über den Arbeitsplatz
 
 Ein Benutzer über Arbeitsplatz anrufen kann einer geplanten Besprechung teilnehmen, indem Sie auf die besprechungs-URL. Skype für Unternehmen zeigt anschließend eine **anwählen einer** Nachricht, bis der Meeting-Dienst PBX-Telefon des Benutzers wählt. Der Benutzer über Arbeitsplatz anrufen, und klicken Sie dann das PBX-Telefon nimmt und der Besprechung teilnimmt.
   
-Ein Benutzer über Arbeitsplatz anrufen können die Option **Jetzt besprechen** in Skype für Unternehmen auch um sofort-Besprechungen zu erstellen. Der Benutzer sieht dann die Nachricht **Ausgehende Verbindung**, und das PBX-Telefon klingelt.
+Ein Benutzer über Arbeitsplatz anrufen können die Option **Jetzt besprechen** in Skype für Unternehmen auch um sofort-Besprechungen zu erstellen. Der Benutzer erhält dann **anwählen einer** Nachricht und das PBX-Telefon klingelt.
   
-Ein Benutzer über Arbeitsplatz anrufen kann auch in einer Besprechung einwählen durch Aufrufen von die Konferenzbrücke Nummer aus in Skype für Unternehmen. Wenn eine Konferenz-PIN angefordert wird, muss der Benutzer sein PBX-Telefon verwenden, um die PIN einzugeben.
+Ein Benutzer über Arbeitsplatz anrufen kann auch in einer Besprechung einwählen durch Aufrufen von die Konferenzbrücke Nummer aus in Skype für Unternehmen. Wenn eine Konferenz PIN erforderlich ist, muss der Benutzer sein Nebenstellenanlagen-Telefon verwenden, um die PIN-Nummer einzugeben.
   
 ### <a name="incoming-calls"></a>Eingehende Anrufe
 
@@ -72,7 +73,7 @@ Wenn ein Benutzer mit aktivierter über Arbeitsplatz anrufen PBX-Anruf, nur das 
 
 Über Arbeitsplatz anrufen ist eine VoIP-Lösung, die wenig Hardwaresetup erfordert, jedoch ist im Vergleich zu in vollständige Enterprise-VoIP oder Remoteanrufsteuerung verfügbaren Features eingeschränkt. Über Arbeitsplatz anrufen weist die folgenden Nachteile:
   
-- Wenn ein Benutzer über Arbeitsplatz anrufen die anrufweiterleitung, die über Arbeitsplatz anrufen Rückrufnummer eingerichtet hat und jemand versucht, die diesen Benutzer zu einer Besprechung mithilfe des Benutzers Telefonnummer einladen, wird die Einladung den Benutzer nicht angezeigt. Sie sollten Ihre Benutzer darüber informieren, dass sie Besprechungsteilnehmer einladen, indem sie den entsprechenden Namen anklicken, nicht die Telefonnummer. 
+- Wenn ein Benutzer über Arbeitsplatz anrufen die anrufweiterleitung, die über Arbeitsplatz anrufen Rückrufnummer eingerichtet hat und jemand versucht, die diesen Benutzer zu einer Besprechung mithilfe des Benutzers Telefonnummer einladen, wird die Einladung den Benutzer nicht angezeigt. Schulen Sie Ihre Benutzer um Teilnehmer zu Besprechungen einladen, indem Sie auf den Namen, nicht die Rufnummer ein. 
     
 - Erweiterte 911-Funktion und Missbrauch sind bei Anrufen über Arbeitsplatz anrufen nicht verfügbar.
     
@@ -86,11 +87,11 @@ Wenn ein Benutzer mit aktivierter über Arbeitsplatz anrufen PBX-Anruf, nur das 
     
 - Benutzer von Anrufen über Arbeitsplatz können nicht zu einem Anruf 2 Person weitere Benutzer hinzufügen.
     
-- Keine Unterstützung von Deskphonekopplung oder VDI-Plug-In-Kopplung.
+- Keine Unterstützung für eine Kopplung Telefonapparat oder VDI-Plug-in-Paarung auftreten.
     
 - Wenn ein Benutzer macht oder ein Anruf über das PBX-Telefon (und nicht die Skype für Business Fenster) Antworten, werden keine Protokolldatei des Anrufs.
     
-- Wenn Ihr PBX-System **REFER with Replaces** nicht unterstützt, tritt folgendes Verhalten auf. Klicken Sie auf einen Anruf über Arbeitsplatz anrufen, wenn der Benutzer den laufenden Anruf von der PBX-Telefon übermittelt, wird im Anruffenster nicht von ihrer Skype für Business Fenster ausgeblendet. Wenn der Benutzer dann das Anruffenster schließt, wird der Anruf zwischen dem Durchstellungsziel und dem Durchstellenden beendet. 
+- Wenn Ihre PBX-System **erhalten Sie im Abschnitt mit ersetzt**nicht unterstützt, wird das folgende Verhalten auftreten. Klicken Sie auf einen Anruf über Arbeitsplatz anrufen, wenn der Benutzer den laufenden Anruf von der PBX-Telefon übermittelt, wird im Anruffenster nicht von ihrer Skype für Business Fenster ausgeblendet. Wenn der Benutzer im Anruffenster dann geschlossen wird, werden die Unterhaltung zwischen dem Ziel durchstellen und Übernehmers beendet. 
     
 ## <a name="prerequisites-for-call-via-work"></a>Erforderliche Komponenten für Anruf über den Arbeitsplatz
 

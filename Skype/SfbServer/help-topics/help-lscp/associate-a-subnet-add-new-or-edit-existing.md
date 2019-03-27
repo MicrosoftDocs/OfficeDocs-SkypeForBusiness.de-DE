@@ -1,5 +1,6 @@
 ---
 title: Zuordnen ein Subnetzes Hinzufügen einer neuen oder Bearbeiten einer vorhandenen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 768745f87e6af4fe2b0e3e75592a2dbb740f69c3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: 2ca5ad983f49e15a4e20ff1d175cab2a545849ef
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242218"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897233"
 ---
-# <a name="associate-a-subnet-add-new-or-edit-existing"></a>Zuordnen eines Subnetzes: Hinzufügen einer neuen oder Bearbeiten einer vorhandenen
+# <a name="associate-a-subnet-add-new-or-edit-existing"></a>Zuordnen eines Subnetzes: Hinzufügen einer neuen oder Bearbeiten einer vorhandenen Zuordnung eines Subnetzes
 
-Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
+Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 
 - [Konfigurieren von Netzwerksubnetzen](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
 

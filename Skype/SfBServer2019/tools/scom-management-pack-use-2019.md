@@ -1,5 +1,6 @@
 ---
 title: Verwalten von Skype für Business Server 2019 mit SCOM-Management pack
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Informationen Sie zum Konfigurieren Ihrer Skype Business Server 2019 Infrastruktur für System Center Operations Manager entwickelt.'
-ms.openlocfilehash: 89aeb18f896510dd251519b8a4fb618012d7e222
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 003d2f13373b9d13ea5dc64fab43693deecbc20d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536038"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899039"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Verwalten von Skype für Business Server 2019 mit SCOM-Management pack
  
@@ -143,7 +144,7 @@ Skype für Business Server 2019 Management Packs bieten eine erhöhte Abdeckung 
 ||||
 |:-----|:-----|:-----|
 |9  <br/> |Audio/Video-Konferenzen  <br/> |Verfügbar in Lync Server 2010 und darüber hinaus  <br/> |
-| 10  <br/> |Datenkonferenzen  <br/> |Verfügbar in Lync Server 2013 und darüber hinaus  <br/> |
+|10  <br/> |Datenkonferenzen  <br/> |Verfügbar in Lync Server 2013 und darüber hinaus  <br/> |
 |11  <br/> |Chatkonferenzen  <br/> |Verfügbar in Lync Server 2010 und darüber hinaus  <br/> |
 |12  <br/> | Beständiger Chat <br/> |Verfügbar in Lync Server 2013 und darüber hinaus  <br/> |
 |13  <br/> |Join Launcher (geplante Besprechungen)  <br/> |Verfügbar in Lync Server 2013 und darüber hinaus  <br/> |
@@ -200,53 +201,53 @@ Das Erstellen eines neuen Management Packs zum Speichern von Anpassungen der ein
 
 Nachfolgend finden Sie Links zu Informationen zu gängigen Aufgaben im Zusammenhang mit System Center 2012 Monitoring Packs:
   
-- [Lebenszyklus von Management Packs](https://technet.microsoft.com/en-us/library/hh212732.aspx)
+- [Management Pack-Lebenszyklus](https://technet.microsoft.com/en-us/library/hh212732.aspx)
     
-- [Importieren eines Management Packs in Operations Manager 2012 ](https://technet.microsoft.com/en-us/library/hh212691.aspx)
+- [Gewusst wie: Importieren eines Management Packs in Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh212691.aspx)
     
-- [Überschreiben einer Regel oder Überwachung ](https://technet.microsoft.com/en-us/library/hh212869.aspx)
+- [Gewusst wie: Überschreiben einer Regel- oder Monitorbezogenen](https://technet.microsoft.com/en-us/library/hh212869.aspx)
     
-- [Erstellen eines ausführenden Kontos in Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh321655.aspx)
+- [Zum Erstellen einer Ausführen als Konto in Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh321655.aspx)
     
-- [Verwalten von ausführenden Konten und Profilen](https://technet.microsoft.com/en-us/library/hh212714.aspx)
+- [Verwalten von Ausführen als Konten und Profile](https://technet.microsoft.com/en-us/library/hh212714.aspx)
     
-- [Exportieren eines Operations Manager Management Packs](https://technet.microsoft.com/en-us/library/hh320149.aspx)
+- [So exportieren Sie ein Management Pack für Operations Manager](https://technet.microsoft.com/en-us/library/hh320149.aspx)
     
-- [Entfernen eines Operations Manager Management Packs](https://technet.microsoft.com/en-us/library/hh230746.aspx)
+- [So entfernen Sie ein Management Pack für Operations Manager](https://technet.microsoft.com/en-us/library/hh230746.aspx)
     
 Nachfolgend finden Sie Links zu Informationen zu gängigen Aufgaben im Zusammenhang mit System Center 2007 Monitoring Packs:
   
-- [Verwalten des Management Pack-Lebenszyklus](https://go.microsoft.com/fwlink/p/?LinkId=211463)
+- [Verwalten der Management Pack-Lebenszyklus](https://go.microsoft.com/fwlink/p/?LinkId=211463)
     
-- [Importieren eines Management Packs in Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=142351)
+- [Gewusst wie: Importieren ein Management Packs in Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=142351)
     
-- [Überwachen mithilfe von Außerkraftsetzungen](https://go.microsoft.com/fwlink/p/?LinkID=117777)
+- [Überwachen der Verwendung überschreibt](https://go.microsoft.com/fwlink/p/?LinkID=117777)
     
-- [Erstellen einer Ausführung als Konto in Operations Manager 2007 ](https://go.microsoft.com/fwlink/p/?LinkID=165410)
+- [Gewusst wie: Erstellen einer Ausführen als Konto in Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=165410)
     
-- [Ändern eines ausführenden Profils](https://go.microsoft.com/fwlink/p/?LinkID=165412)
+- [Gewusst wie: Ändern einer vorhandenen Ausführen als Profil](https://go.microsoft.com/fwlink/p/?LinkID=165412)
     
-- [Exportieren von Management Pack-Anpassungen](https://go.microsoft.com/fwlink/p/?LinkId=209940)
+- [Management Pack Anpassungen exportieren](https://go.microsoft.com/fwlink/p/?LinkId=209940)
     
-- [Entfernen eines Management Packs](https://go.microsoft.com/fwlink/p/?LinkId=209941)
+- [Gewusst wie: entfernen ein Management Packs](https://go.microsoft.com/fwlink/p/?LinkId=209941)
     
-Bei Fragen zu Operations Manager und Monitoring Packs finden Sie Informationen im [System Center Operations Manager-Communityforum](https://go.microsoft.com/fwlink/p/?LinkID=179635).
+Fragen Operations Manager und Überwachung Packs finden Sie im [System Center Operations Manager Community-Forum](https://go.microsoft.com/fwlink/p/?LinkID=179635).
   
 Eine nützliche Ressource ist im [System Center Operations Manager verbreitet](https://opsmgrunleashed.wordpress.com/) Blog, das Beiträge für bestimmte monitoring Packs "By Example" enthält.
   
 Weitere Informationen zum Operations Manager finden Sie in den folgenden Blogs: 
   
-- [Operations Manager Team Blog](https://blogs.technet.com/momteam/default.aspx)
+- [Operations Manager-Teamblog](https://blogs.technet.com/momteam/default.aspx)
     
-- [Kevin Holman's OpsMgr Blog](https://blogs.technet.com/kevinholman/default.aspx)
+- [Kevin Holmans OpsMgr Blog (engl.)](https://blogs.technet.com/kevinholman/default.aspx)
     
-- [Thoughts on OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
+- [Gedanken auf OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
     
 - [Blog Raphael Burris (engl.)](https://rburri.wordpress.com/)
     
-- [BWren's Management Space](https://blogs.technet.com/brianwren/default.aspx)
+- [BWren des Management Speicherplatz](https://blogs.technet.com/brianwren/default.aspx)
     
-- [Ops Mgr ++](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
+- [OpsMgr ++](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
     
 > [!IMPORTANT]
 > Alle Informationen und Inhalte auf Nicht-Microsoft-Websites werden vom Besitzer oder den Benutzern der Website zur Verfügung gestellt. Microsoft schließt jede ausdrückliche, konkludente oder gesetzliche Gewährleistung in Bezug auf die Informationen auf dieser Website aus. 

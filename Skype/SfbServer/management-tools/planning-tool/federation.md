@@ -1,5 +1,6 @@
 ---
-title: Verbund (Planungstool)
+title: Federation (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: Edge-Server können konfiguriert werden, um die interne und externe Benutzer Zugriff auf Kontakte bei Partnerorganisationen oder Dienste zuzulassen.
-ms.openlocfilehash: 2c4e87831a971b50852ffda41e7b8268e6c3392f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f05a52d3e2ba6dbfa3804070a199c4954176d3e7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898515"
 ---
-# <a name="federation-planning-tool"></a>Verbund (Planungstool)
+# <a name="federation-planning-tool"></a>Federation (Planning Tool)
  
 Edge-Server können konfiguriert werden, um die interne und externe Benutzer Zugriff auf Kontakte bei Partnerorganisationen oder Dienste zuzulassen.
   

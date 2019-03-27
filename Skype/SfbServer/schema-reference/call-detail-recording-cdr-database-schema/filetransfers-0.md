@@ -1,5 +1,6 @@
 ---
 title: FileTransfers-Tabelle in Skype für Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5368e67c-d8a9-43a1-9472-a839950dedb3
 description: Jeder Datensatz steht für eine dateiübertragungssitzung.
-ms.openlocfilehash: 07ab898246efbac623910886000e97037f43ead2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: fe95db4e023dfb25158cf0bdf1b07f147abe6bd6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899341"
 ---
 # <a name="filetransfers-table-in-skype-for-business-server-2015"></a>FileTransfers-Tabelle in Skype für Business Server 2015
  

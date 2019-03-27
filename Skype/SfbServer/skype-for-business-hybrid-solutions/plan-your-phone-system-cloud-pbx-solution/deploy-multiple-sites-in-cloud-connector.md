@@ -1,5 +1,6 @@
 ---
 title: Bereitstellen mehrerer Standorte in Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Informationen Sie zu mehreren PSTN-Websites in der Cloud Connector Edition bereitstellen.
-ms.openlocfilehash: 388915d0ab22dc50378d84a82c01291cfd7c99eb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 194eaf0b68489b37a5ab1fc2d5d501177edd0b35
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532369"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895951"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Bereitstellen mehrerer Standorte in Cloud Connector
  
@@ -69,7 +70,7 @@ ExternalMRPublicIPs=104.42.226.134
 Führen Sie für jede PSTN-Website, die Sie hinzufügen möchten die Schritte unter [Deploy einer einzelnen Website in der Cloud-Connector](deploy-a-single-site-in-cloud-connector.md).
   
 > [!IMPORTANT]
-> Der freigegebene Ordner für die Vorbereitung hoher Verfügbarkeit wird pro PSTN-Standort erstellt. Der freigegebene Ordner **muss** sich zwischen den PSTN-Standorten unterscheiden. Verwenden Sie nicht den gleichen freigegebenen Ordner für mehrere Websites. > 
+> Der freigegebene Ordner für die Vorbereitung hoher Verfügbarkeit wird pro PSTN-Standort erstellt. Der freigegebene Ordner **muss** sich zwischen den PSTN-Standorten unterscheiden. Verwenden Sie nicht den gleichen freigegebenen Ordner für mehrere sites.> 
   
 ## <a name="single-site-with-high-availability-ha-compared-to-multi-site-deployments"></a>Bereitstellung eines einzelnen Standorts mit hoher Verfügbarkeit im Vergleich zur Bereitstellung mehrerer Standorte
 <a name="BKMK_SingleSitecomparedtomulti-site"> </a>
@@ -92,6 +93,6 @@ In der folgenden Tabelle sind die Unterschiede zwischen der Bereitstellung an ei
 |Konfigurieren  <br/> |DNS-Eintrag  <br/> |Hinzufügen von Datensätzen mit der **gleichen** externen Zugriff FQDNs und **verschiedene** IP-Adressen <br/> |Datensätze mit **unterschiedlichen** FQDNs für externen Zugriff und **unterschiedlichen** IP-Adressen hinzufügen <br/> |
 |Installationsanforderungen  <br/> |Hybrid-Mandanten  <br/> |„HybridPSTNSite“ festlegen  <br/> Peer-Ziel für Fallback einrichten  <br/> |„HybridPSTNSite“ festlegen  <br/> Peer-Ziel für Fallback einrichten  <br/> |
 |Installationsanforderungen  <br/> |Gateway  <br/> |Vermittlungsserver-Gateway **M:N**-Zuordnung an diesem Standort <br/> |PSTN-Gateways an den einzelnen PSTN-Standorten sollten nur Verbindungen mit Vermittlungsservern am gleichen Standort herstellen.  <br/> |
-|Installationsanforderungen  <br/> |Benutzer  <br/> |„UserPSTNSettings“ festlegen  <br/> |„UserPSTNSettings“ festlegen  <br/> |
+|Installationsanforderungen  <br/> |User  <br/> |„UserPSTNSettings“ festlegen  <br/> |„UserPSTNSettings“ festlegen  <br/> |
    
 

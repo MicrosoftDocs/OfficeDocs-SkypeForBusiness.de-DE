@@ -1,5 +1,6 @@
 ---
 title: Upgrade auf Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,14 +15,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Zusammenfassung: Informationen Sie zum Upgrade von Lync Server 2013 zu Skype für Business Server 2015. Laden Sie eine kostenlose Testversion von Skype für Business Server 2015 aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 5c23faeb1dca662b80855b87a93152b3e81de43d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0a09de79bd60917667dfb2e7ca33310da3b04ddd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885145"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878189"
 ---
-# <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade auf Skype for Business Server 2015
+# <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade to Skype for Business Server 2015
  
 **Zusammenfassung:** Informationen Sie zum upgrade von Lync Server 2013 zu Skype für Business Server 2015. Laden Sie eine kostenlose Testversion von Skype für Business Server 2015 aus dem [Microsoft-Evaluierungscenter](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
@@ -36,7 +37,7 @@ Aktualisieren von Lync Server 2013 auf Skype für Business Server 2015 bei der I
   
 ### <a name="before-you-begin"></a>Vorbereitung
 
-- Überprüfen Sie [Planen eines Upgrades auf Skype für Business Server 2015](../plan-your-deployment/upgrade.md).
+- Überprüfen Sie [Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md).
     
 - Überprüfen Sie die [Anforderungen für Skype für Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
     
@@ -71,7 +72,7 @@ Aktualisieren von Lync Server 2013 auf Skype für Business Server 2015 bei der I
 Bevor Sie den Upgradeprozess beginnen, müssen alle Dienste für die Pools ausgeführt werden, den, die Sie aktualisieren möchten. Die Topologieänderungen werden in der lokalen Datenbank der Server im Pool repliziert.
   
 > [!IMPORTANT]
->  Speichern Sie vor dem Upgrade eine Kopie Ihrer Topologiedatei. Nach dem upgrade Sie ist nicht möglich, um die herabzustufen Topologie. > Wenn Ihre Dienste auf den gleichen Servern werden wie Ihre Datenbanken, wie Sie den beständigen Chat-Dienst auf demselben Server wie die Datenbank für beständigen Chat ist, um diesen Schritt überspringen, und gehen Sie zu Schritt 4. Wenn Sie die Dienste angehalten haben, führen Sie das Setup der Funktion für direkte Upgrades auf jedem Server zum Aktualisieren der lokalen Datenbanken aus.
+>  Speichern Sie vor dem Upgrade eine Kopie Ihrer Topologiedatei. Nach dem upgrade wird nicht die Topology.> downgraden, wenn Ihre Dienste auf den gleichen Servern als Ihrer Datenbanken, wie Sie den beständigen Chat sind, den Dienst auf demselben Server wie die Datenbank für beständigen Chat ist, überspringen Sie diesen Schritt und fahren mit Schritt 4 sein. Wenn Sie die Dienste angehalten haben, führen Sie das Setup der Funktion für direkte Upgrades auf jedem Server zum Aktualisieren der lokalen Datenbanken aus.
   
 > [!NOTE]
 > Wenn die Topologie eine gespiegelte Back-End-Datenbank hat, werden Sie feststellen, dass sowohl der Prinzipalserver als auch die gespiegelten Datenbanken angezeigt werden, **wenn Sie die Topologie mithilfe des Topologie-Generators veröffentlichen**. Stellen Sie sicher, dass sämtliche Datenbanken auf dem Prinzipalserver laufen und dass Sie beim Veröffentlichen der Topologie nur die Prinzipaldatenbank und nicht die Spiegelung auswählen, andernfalls wird nach der Veröffentlichung der Topologie eine Warnung angezeigt.
@@ -179,7 +180,7 @@ Es wird empfohlen, Disable-CsComputer verwenden, da Sie möglicherweise den Serv
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>Schritt 5: Upgrades für Front-End-Pools und Nicht-Front-End-Pool-Server durchführen
 
 > [!NOTE]
->  Vor dem Aktualisieren installieren Sie alle neue erforderlichen Komponenten für Skype für Business Server 2015 benötigt die umfassen: > mindestens 32GB freiem Speicherplatz, bevor Sie versuchen, ein Upgrade. Darüber hinaus stellen Sie sicher, dass das Laufwerk eine lokale Festplatte ist, nicht über USB oder Firewire verbunden ist, mit dem NTFS-Dateisystem formatiert ist, nicht komprimiert ist und keine Seite Datei enthält. > PowerShell, Version 6.2.9200.0 oder höher. > die neuesten Lync Server 2013 Kumulatives Update installiert. > SQL Server 2012 SP1 installiert. > die folgenden KB (automatisch installiert, wenn Microsoft Update verwenden) durch die Installation: > Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
+>  Vor dem Aktualisieren installieren Sie alle neue erforderlichen Komponenten für Skype für Business Server 2015 benötigt die umfassen: > mindestens 32GB freiem Speicherplatz, bevor Sie versuchen, ein Upgrade. Darüber hinaus stellen Sie sicher, dass das Laufwerk eine lokale Festplatte ist, nicht über USB oder Firewire verbunden ist, mit dem NTFS-Dateisystem formatiert ist, nicht komprimiert ist und enthält keiner Seite File.> PowerShell Version 6.2.9200.0 oder höher .> des neuesten Lync Server 2013 Kumulatives Update installiert SQL Server 2012 SP1 installiert (automatisch installiert, wenn Microsoft Update verwenden) der folgenden KB installiert .> .>: > Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
   
 Verwenden Sie die In-Place Upgrade auf jedem Server, um den Front-End-Pool, edgepool, Mediation Server und Pools für beständigen Chat zu aktualisieren.
   
@@ -240,9 +241,9 @@ Ausfall der In-Place Upgrade auf **Verifying upgraden Bereitschaft** oder **Fehl
   
 ## <a name="see-also"></a>Siehe auch
 
-[Planen des Upgrades auf Skype for Business Server 2015](../plan-your-deployment/upgrade.md)
+[Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md)
   
-[Serveranforderungen für Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
 [Installieren der erforderlichen Komponenten für Skype for Business Server 2015](install/install-prerequisites.md)
   
