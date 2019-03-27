@@ -1,5 +1,6 @@
 ---
 title: Verwalten von Archivierungsrichtlinien in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: 'Zusammenfassung: Informationen Sie zum Verwalten von Benutzerrichtlinien für die Archivierung für Skype für Business Server.'
-ms.openlocfilehash: d29d30c99320631279114d3ebdfa8ee7db00b677
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 289902ded6f1530c74f9c945517a3c853c99d364
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013321"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873240"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>Verwalten von Archivierungsrichtlinien in Skype für Business Server
 
@@ -50,8 +51,8 @@ Sie können die Archivierungsrichtlinien auch mithilfe der in der folgenden Tabe
 |**Cmdlet**|**Beschreibung**|
 |:-----|:-----|
 |Get-CsArchivingPolicy  <br/> |Gibt Informationen zu Archivierungsrichtlinien für Chatsitzungen zurück.  <br/> |
-|GRANT-CsArchivingPolicy  <br/> |Instant messaging (IM) Sitzung Archivierungsrichtlinien für Benutzer oder Gruppen von Benutzern zugewiesen. Mithilfe dieser Archivierungsrichtlinien können Sie alle Chatsitzungen archivieren, die zwischen internen Benutzern und/oder zwischen internen und externen Benutzern stattfinden.  <br/> |
-|Mit New-CsArchivingPolicy  <br/> |Erstellt neue Archivierungsrichtlinien für Chatsitzungen. Mithilfe dieser Archivierungsrichtlinien können Sie alle Chatsitzungen archivieren, die zwischen internen Benutzern und/oder zwischen internen und externen Benutzern stattfinden.  <br/> |
+|Grant-CsArchivingPolicy  <br/> |Instant messaging (IM) Sitzung Archivierungsrichtlinien für Benutzer oder Gruppen von Benutzern zugewiesen. Mithilfe dieser Archivierungsrichtlinien können Sie alle Chatsitzungen archivieren, die zwischen internen Benutzern und/oder zwischen internen und externen Benutzern stattfinden.  <br/> |
+|New-CsArchivingPolicy  <br/> |Erstellt neue Archivierungsrichtlinien für Chatsitzungen. Mithilfe dieser Archivierungsrichtlinien können Sie alle Chatsitzungen archivieren, die zwischen internen Benutzern und/oder zwischen internen und externen Benutzern stattfinden.  <br/> |
 |Remove-CsArchivingPolicy  <br/> |Entfernt die angegebene Sofortnachrichten (Instant messaging) Archivierungsrichtlinie, der bestimmt, ob Skype für Business Server automatisch alle Sofortnachrichtensitzungen gespeichert, die zwischen internen Benutzern und/oder alle Sofortnachrichtensitzungen zwischen internen Benutzern und Verbundpartner stattfinden.  <br/> |
 |Set-CsArchivingPolicy  <br/> |Ändert eine vorhandene Sofortnachrichten (Instant messaging) Archivierungsrichtlinie. Eine Archivierungsrichtlinie bietet die Möglichkeit, alle IM-Sitzungen und Konferenzen, die stattfinden zwischen internen Benutzern archivieren. Sie können auch Sitzungen archivieren, die zwischen internen Benutzern und Verbundpartner stattfinden.  <br/> |
    

@@ -1,5 +1,6 @@
 ---
 title: Zuordnen des Vermittlungsservers zur Edgekomponente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 'Geben Sie zum Definieren eines Vermittlungsservers Einstellungen, die der Vermittlungsserver mit einem Front-End-Server und mit einem Edge-Server oder Pool zuzuordnen. Gehen Sie wie folgt vor, um mit einem Edge-Server oder Pool für Edge-Server Mediation Server oder Pool zuzuordnen:'
-ms.openlocfilehash: 4761b9e84d786386c052caa323b101eb589d77f9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: dce7037d865d072c2b7897932b54c03b861c3908
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967607"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877377"
 ---
 # <a name="associate-mediation-server-with-edge"></a>Zuordnen des Vermittlungsservers zur Edgekomponente
  

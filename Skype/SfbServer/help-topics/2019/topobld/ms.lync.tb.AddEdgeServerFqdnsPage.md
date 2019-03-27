@@ -1,5 +1,6 @@
 ---
-title: Hinzufügen des FQDN des Edgeservers
+title: Hinzufügen des Edgeserver-FQDN
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie müssen einen vollqualifizierten Domänennamen (FQDN) für den Dienst Zugriffs-Edgeservers angeben. Wenn Sie nicht die Verwendung einer einzelnen FQDN ausgewählt haben &amp; IP-Adressenoption wählen Sie auf der Seite features, geben Sie auch einen vollqualifizierten Domänennamen für den Webkonferenz-edgedienst und A / V-edgedienst.
-ms.openlocfilehash: 1387726c9f4cffd22d7e9becd7908846b734357d
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 07591bf9e98f74d9092e34e34b62b8cb2bdcf525
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067602"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873562"
 ---
-# <a name="add-edge-server-fqdn"></a>Hinzufügen des FQDN des Edgeservers
+# <a name="add-edge-server-fqdn"></a>Hinzufügen des Edgeserver-FQDN
  
 Sie müssen einen vollqualifizierten Domänennamen (FQDN) für den Dienst Zugriffs-Edgeservers angeben. Wenn Sie nicht ausgewählt haben die **verwenden einen einzelnen FQDN &amp; IP-Adresse** Option auf der Seite **Features auswählen** , müssen Sie auch angeben einen vollqualifizierten Domänennamen für den Webkonferenz-edgedienst und A / V-edgedienst.
   

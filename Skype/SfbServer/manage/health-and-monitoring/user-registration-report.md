@@ -1,5 +1,6 @@
 ---
 title: Bericht über Benutzerregistrierung in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 'Zusammenfassung: Informationen Sie zu den Bericht über Benutzerregistrierung in Skype für Business Server.'
-ms.openlocfilehash: 6136e90700bf371621f2b7b27c87453ceb04d854
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ba60e691a8f2c7c976fa1c8dbe79ee3668e9c81a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001628"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873443"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>Bericht über Benutzerregistrierung in Skype für Business Server
  
@@ -38,7 +39,7 @@ Demgegenüber zeigt die Metrik Anmeldungen insgesamt wie insgesamt oft jeder Sky
   
 Sehen Sie sich in der folgenden Tabelle mit Anmeldungen in einem bestimmten Zeitraum an, in der der Unterschied zwischen Anmeldungen insgesamt und eindeutigen Anmeldungen näher erklärt ist.
   
-|**User**|**Anmeldezeitpunkt**|
+|**Benutzer**|**Anmeldezeitpunkt**|
 |:-----|:-----|
 |Ken Myer  <br/> |07.07.2015 08:45  <br/> |
 |Ken Myer  <br/> |07.07.2015 08:46  <br/> |

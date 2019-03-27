@@ -1,5 +1,6 @@
 ---
 title: Aktivieren und Deaktivieren der medienumgehung
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Verwenden Sie die Verfahren in diesem Artikel zum Aktivieren oder deaktivieren die medienumgehung mithilfe der Skype für Business Server-Systemsteuerung.
-ms.openlocfilehash: f595ab5380575f34c0a470cb58c82459841ee4d7
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: eebbc111f0d205be8dced9ec8ddb5150deff8119
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222758"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874286"
 ---
-# <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Aktivieren und Deaktivieren von Medien umgehen in Skype für Business Server
+# <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Aktivieren und Deaktivieren der Medienumgehung in Skype for Business Server
 
 Verwenden Sie die Verfahren in diesem Artikel zum Aktivieren oder deaktivieren die medienumgehung mithilfe der Skype für Business Server-Systemsteuerung.
 

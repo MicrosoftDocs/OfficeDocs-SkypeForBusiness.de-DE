@@ -1,5 +1,6 @@
 ---
 title: Kapazitätsplanung für Skype für Business Server 2019
+ms.reviewer: ''
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Die Themen in diesem Abschnitt können Sie verstehen, wie Sie zum Planen und Bereitstellen von Skype für Business Server, sodass ausreichend planen zu können, für die Anzahl der Benutzer in Ihrer Organisation und Plan für die Auslastung des Servers, die deren Aktivitäten generieren.
-ms.openlocfilehash: 4a18b68d080eb7cb2a384b727e4ce4d7593d0ac4
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: 1d20ed85c06514f4e999a966c5d137727842726d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178716"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875970"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>Capacity Planning for Skype für Business Server 2019
 
@@ -77,7 +78,7 @@ Die folgende Tabelle zeigt die durchschnittliche Bandbreite für SOFORTNACHRICHT
 |3-3,75 Kbit/s  <br/> |13 Mbit/s  <br/> |
 
 > [!NOTE]
-> Zum Verbessern der Leistung Media am selben Standort A / V-Konferenzen und Vermittlungsserver Funktionalität auf Front-End-Servern, aktivieren Sie erhalten-Side Skalierung (RSS) auf die Netzwerkadapter auf Front-End-Servern. RSS ermöglicht die parallele Bearbeitung eingehender Pakete durch mehrere Prozessoren auf dem Server. Ausführliche Informationen dazu finden Sie unter [„Empfangsseitige Skalierung (RSS)“ in der Dokumentation von Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> Zum Verbessern der Leistung Media am selben Standort A / V-Konferenzen und Vermittlungsserver Funktionalität auf Front-End-Servern, aktivieren Sie erhalten-Side Skalierung (RSS) auf die Netzwerkadapter auf Front-End-Servern. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Weitere Informationen hierzu finden Sie unter [Empfangen Seite Skalierung (RSS) in der Dokumentation zu Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 ## <a name="conferencing-maximums"></a>Maximale Anzahl von Benutzern für Konferenzen
 
@@ -101,7 +102,7 @@ Sie sollten für jede 18.000 Remotebenutzer eine Edge-Server bereitstellen, die 
 Wenn Sie für die Anzahl der Benutzer für den Edge-Servern, auch die Benutzer Konto verwaltet auf Survivable Branch Appliances und Survivable Branch Servern in Zweigstellen, die einem Front-End-Pool an diesem Standort zugeordnet sind.
 
 > [!NOTE]
-> Zur Verbesserung der Leistung des A / V Conferencing-edgedienst auf den Edge-Servern sollten Sie empfangen der clientseitigen Skalierung (RSS) auf den Netzwerkadaptern auf Edge-Servern aktivieren. RSS ermöglicht die parallele Bearbeitung eingehender Pakete durch mehrere Prozessoren auf dem Server. Überprüfen Sie weitere Informationen hierzu [Erhalten Seite Skalierung (RSS) in Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731). Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> Zur Verbesserung der Leistung des A / V Conferencing-edgedienst auf den Edge-Servern sollten Sie empfangen der clientseitigen Skalierung (RSS) auf den Netzwerkadaptern auf Edge-Servern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Überprüfen Sie weitere Informationen hierzu [Erhalten Seite Skalierung (RSS) in Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731). Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 ## <a name="director"></a>Director
 
@@ -145,7 +146,7 @@ Alle in den folgenden Tabellen gehen von einer Verwendung unter [User Models in 
 > Diese Nummer wird viel kleiner als die Zahlen für den eigenständigen Vermittlungsserver. Dies liegt daran der Front-End-Server muss verarbeiten andere Features und Funktionen für die 6600 Benutzer verwaltet, zusätzlich zu der Transcodierungsvorgabe für Sprachanrufe erforderlich ist.
 
 > [!NOTE]
-> Zum Verbessern der Leistung des Vermittlungsservers, sollten Sie empfangen der clientseitigen Skalierung (RSS) auf die Netzwerkadapter auf Ihrem Vermittlungsservern aktivieren. RSS ermöglicht die parallele Bearbeitung eingehender Pakete durch mehrere Prozessoren auf dem Server. Weitere Informationen hierzu finden Sie unter "[Receive-Side Scaling in Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> Zum Verbessern der Leistung des Vermittlungsservers, sollten Sie empfangen der clientseitigen Skalierung (RSS) auf die Netzwerkadapter auf Ihrem Vermittlungsservern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Weitere Informationen hierzu finden Sie unter "[Receive-Side Scaling in Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 ## <a name="back-end-server"></a>Back-End-Server
 

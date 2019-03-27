@@ -1,5 +1,6 @@
 ---
 title: Datenbankschema für beständigen Chat
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: In diesem Artikel wird das Schema der Datenbank für beständigen Chat in Skype für Business Server.
-ms.openlocfilehash: 1c78ea53438484fb0ad573a815c10ad76f08edca
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 37b22077157def7ea25a5cf70b23a0272a58956e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874051"
 ---
 # <a name="persistent-chat-database-schema"></a>Datenbankschema für beständigen Chat
  
@@ -37,12 +39,12 @@ Führen Sie die folgenden bewährten Methoden:
     
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [Liste der Tabellen für Persistent Chat Server](list-of-persistent-chat-server-tables.md)
+- [Liste der Tabellen für den Server für beständigen Chat](list-of-persistent-chat-server-tables.md)
     
 - [Liste der kompatibilitätstabellen für Persistent Chat Server in Skype für Business Server](list-of-persistent-chat-server-compliance-tables.md)
     
-- [Persistent Chat Server-Tabelle-details](persistent-chat-server-table-details.md)
+- [Ausführliche Informationen zur Tabelle für den Server für beständigen Chat](persistent-chat-server-table-details.md)
     
-- [Beispiel Persistent Chat-Datenbankabfragen](sample-persistent-chat-database-queries.md)
+- [Beispieldatenbankabfragen für beständigen Chat](sample-persistent-chat-database-queries.md)
     
 

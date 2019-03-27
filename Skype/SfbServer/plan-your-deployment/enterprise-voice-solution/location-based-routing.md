@@ -1,5 +1,6 @@
 ---
 title: Plan für die Standortbasierte Weiterleitung im Skype für Unternehmen
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Planen von Standortbasierte Weiterleitung im Skype für Business Server Enterprise-VoIP, einschließlich der Interaktion mit Gleichzeitiges Klingeln und Delegierung und unterstützte Szenarios für die Standortbasierte Weiterleitung.
-ms.openlocfilehash: 1e4f19d96306db31be0606dbfda799e93c2d34e0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 2e9070e5ecddcf88e5edac8064409177caa82b4d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886098"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874364"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Plan für die Standortbasierte Weiterleitung im Skype für Unternehmen
 
@@ -207,7 +208,7 @@ Die folgende Tabelle zeigt die Kombination von Serverrollen und Versionen, die f
 
 ****
 
-|**Poolversion**|**Version des Vermittlungsservers**|**Unterstützt**|
+|**Poolversion**|**Mediation Server-version**|**Unterstützt**|
 |:-----|:-----|:-----|
 |Skype für Business Server oder für Lync Server 2013 für Februar 2013 kumulative Update  <br/> |Skype für Business Server oder für Lync Server 2013 für Februar 2013 kumulative Update  <br/> |ja  <br/> |
 |Skype für Business Server oder für Lync Server 2013 für Februar 2013 kumulative Update  <br/> |Lync Server 2013  <br/> |nein  <br/> |
@@ -236,7 +237,7 @@ Die folgende Tabelle zeigt die Clients, die standortbasierte Routing unterstütz
 |Lync Mobile 2010  <br/> |ja  <br/> ||
 
 > [!NOTE]
-> Um VoIP für Skype für Business-Clients zu deaktivieren, weisen Sie eine mobilitätsrichtlinie mit der Einstellung der IP-Audio/Video, für alle Benutzer aktiviert für standortbasierte Routing deaktiviert. Weitere Informationen zu mobilitätsrichtlinie finden Sie unter [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+> Um VoIP für Skype für Business-Clients zu deaktivieren, weisen Sie eine mobilitätsrichtlinie mit der Einstellung der IP-Audio/Video, für alle Benutzer aktiviert für standortbasierte Routing deaktiviert. Ausführlichere Informationen zu Mobilitätsrichtlinien finden Sie unter [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
 
 ## <a name="capabilities-not-supported-by-location-based-routing"></a>Vom standortbasierten Routing nicht unterstützte Funktionen
 

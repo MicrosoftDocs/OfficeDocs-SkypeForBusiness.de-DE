@@ -1,5 +1,6 @@
 ---
-title: Migrieren Sie vorhandener Besprechungen und Besprechungsinhalten
+title: Migrieren vorhandener Besprechungen und Besprechungsinhalte
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Wenn ein Benutzerkonto aus an einen Skype für Business Server 2019 Server verschoben wird, werden die folgende Informationen zusammen mit dem Benutzerkonto verschoben:'
-ms.openlocfilehash: 03ccad0498af777c7d93765af7df2baf5da51f83
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: bf10fa6b4ad4d555ce80dee5ec4e4a6584020ac7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030371"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874661"
 ---
-# <a name="migrate-existing-meetings-and-meeting-content"></a>Migrieren Sie vorhandener Besprechungen und Besprechungsinhalten
+# <a name="migrate-existing-meetings-and-meeting-content"></a>Migrieren vorhandener Besprechungen und Besprechungsinhalte
 
 Wenn ein Benutzerkonto in ein Skype für Business Server 2019 Server verschoben wird, werden die folgende Informationen zusammen mit dem Benutzerkonto verschoben:
   

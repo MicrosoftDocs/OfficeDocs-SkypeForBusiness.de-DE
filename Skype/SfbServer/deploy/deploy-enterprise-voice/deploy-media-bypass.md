@@ -1,5 +1,6 @@
 ---
 title: Die medienumgehung in Skype für Business Server bereitstellen
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: Bereitstellen von medienumgehung in Skype für Business Server Enterprise-VoIP. Dazu gehören die Voraussetzungen sowie die Prüfliste für den Bereitstellungsprozess.
-ms.openlocfilehash: 9b850b05308d7518e95b8c93159f9462fcc7f945
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 307c3ff66adf042a984c544a722517d2709154d0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885428"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872902"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>Die medienumgehung in Skype für Business Server bereitstellen
  
@@ -29,7 +30,7 @@ In diesem Thema wird davon ausgegangen, dass Sie bereits veröffentlicht und min
  Wenn es sich bei dem Peer, mit dem Sie sich verbinden, um den SBC eines SIP-Trunkinganbieters handelt, sollten Sie sich vergewissern, dass dieser ein qualifizierter Anbieter ist und die Medienumgehung unterstützt. Viele SIP-Trunkinganbieter lassen für den SBC nur den Empfang von Datenverkehr vom Vermittlungsserver zu. In diesem Fall darf die Medienumgehung für den betreffenden Trunk nicht aktiviert werden. Darüber hinaus können Sie die Medienumgehung nur aktivieren, wenn Ihre Organisation dem SIP-Trunkinganbieter ihre internen Netzwerk-IP-Adressen offenlegt.
   
 > [!NOTE]
-> Die Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen und SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit IP-Nebenstellenanlagen von Cisco durchgeführt. Die medienumgehung wird nur mit Produkten unterstützt und aufgeführtes Dokument Versionen [Unified Communications Open Interoperability Program – Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406). 
+> Die Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen oder SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit IP-Nebenstellenanlagen von Cisco durchgeführt. Die medienumgehung wird nur mit Produkten unterstützt und aufgeführtes Dokument Versionen [Unified Communications Open Interoperability Program – Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406). 
   
 Wenn Sie die Anrufsteuerung (Call Admission Control, CAC) – eine andere erweiterte Enterprise-VoIP-Funktion – bereits optional konfiguriert haben, beachten Sie, dass die Bandbreitenreservierung der Anrufsteuerung nicht für Anrufe gilt, für welche die Medienumgehung aktiviert ist. Bei einem Anruf wird zuerst überprüft, ob die Medienumgehung angewendet werden soll. Wenn dies der Fall ist, wird die Anrufsteuerung nicht angewendet. Nur wenn die Medienumgehung nicht aktiviert ist, wird geprüft, ob die Anrufsteuerung angewendet werden soll. Diese beiden Funktionen schließen sich für alle Anrufe, die an das PSTN weitergeleitet werden, gegenseitig aus. Dies ist ein logisches Verhalten, denn die Medienumgehung setzt voraus, dass bei einem Anruf keine Bandbreitenbeschränkungen zwischen den Medienendpunkten vorhanden sind. In Verbindungen mit eingeschränkter Bandbreite kann keine Medienumgehung stattfinden. Demzufolge trifft auf einen PSTN-Anruf nur eine der beiden folgenden Verhaltensweisen zu: a) die Medien umgehen den Vermittlungsserver und die Anrufsteuerung reserviert keine Bandbreite für den Anruf oder b) die Anrufsteuerung reserviert Bandbreite für den Anruf und die Medien werden vom betroffenen Vermittlungsserver verarbeitet.
   
@@ -42,7 +43,7 @@ Zusätzlich zur Aktivierung der Medienumgehung für einzelne Trunkverbindungen, 
 
 Die folgende Tabelle enthält eine Übersicht über den Bereitstellungsprozess für die Medienumgehung. 
   
-|**Phase**|**Schritte**|** Rollen**|**Bereitstellungsdokumentation**|
+|**Phase**|**Schritte**|**Rollen**|**Bereitstellungsdokumentation**|
 |:-----|:-----|:-----|:-----|
 |Konfigurieren von Trunks für die Medienumgehung  <br/> |Konfigurieren Sie, wenn Sie es noch nicht getan haben, einen oder mehrere Trunks für die Medienumgehung.  <br/> | Mitglied der Gruppe "RTCUniversalServerAdmins" oder ein Mitglied der Rolle CsVoiceAdministrator, CsServerAdministrator oder CsAdministrator <br/> |[Konfigurieren eines Trunks mit medienumgehung in Skype für Business Server](configure-trunk-with-media-bypass.md) <br/> |
 |Globales Konfigurieren der Medienumgehung  <br/> |Konfigurieren Sie die Medienumgehung entweder für alle Anrufe an das PSTN oder für bestimmte Anrufe basierend auf Netzwerkstandorten und Netzwerkregionen.  <br/> | Mitglied der Gruppe "RTCUniversalServerAdmins" oder ein Mitglied der Rolle CsVoiceAdministrator, CsServerAdministrator oder CsAdministrator <br/> |[Konfigurieren der medienumgehung in Skype für Business Server zum dauerhaften Umgehung des Vermittlungsservers](bypass-the-mediation-server.md) <br/> [Konfigurieren von globalen Einstellungen für die medienumgehung in Skype für Business Server der Standorte und Regionen verwenden](use-site-and-region-information.md) <br/> |

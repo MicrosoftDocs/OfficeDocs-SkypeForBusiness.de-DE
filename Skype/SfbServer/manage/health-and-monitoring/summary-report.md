@@ -1,5 +1,6 @@
 ---
 title: Zusammenfassender anrufdiagnosebericht in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 'Zusammenfassung: Informationen Sie zu den zusammenfassenden Anrufdiagnosebericht in Skype für Business Server verwendet wird.'
-ms.openlocfilehash: 6d4db52f266e9c7387662563a8640cfaeab56ca8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f575d258c5207e5a0361f3c47613fb10b8c0f1f8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20976821"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873436"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Zusammenfassender anrufdiagnosebericht in Skype für Business Server
  
@@ -65,7 +66,7 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Zusammenfasse
 
 In der folgenden Tabelle werden die Metriken aufgelistet, die im Zusammenfassenden Anrufdiagnosebericht für Peer-to-Peer-Sitzungen (d. h. für Sitzungen mit nur zwei Teilnehmern) angegeben werden.
   
-**Metriken für Peer-to-Peer-Sitzungen**
+**Metriken für Peer-zu-Peer-Sitzungen**
 
 |**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|

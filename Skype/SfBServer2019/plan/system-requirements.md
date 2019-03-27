@@ -1,5 +1,6 @@
 ---
 title: Systemanforderungen für Skype für Business Server 2019
+ms.reviewer: ''
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -9,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Zusammenfassung: Vorbereiten Sie Ihrer Skype Business Server 2019 Servern Infrastruktur und die Domäne mit den in diesem Thema. Hardware, OS, Datenbanken, Software, alle die Systemanforderungen und Empfehlungen, zusammen mit Zertifikat DNS, Dateifreigabe und Active Directory-Informationen sind hier zur Sicherstellung einer erfolgreichen Installation und Bereitstellung Ihrer Serverfarm.'
-ms.openlocfilehash: 0f2926bc0d110ce7270b6798895ecda7ebabb23a
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 86ef54a5a269a47fb1e2b8dff04808bf85b5b296
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120658"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875644"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Systemanforderungen für Skype für Business Server 2019
  
 **Zusammenfassung:** Vorbereiten von Skype für Business Server 2019 mit diesem Thema zu installieren. Hier werden Hardware, Betriebssystem, Software, Datenbanken, Zertifikate, Active Directory, DNS und Dateifreigaben behandelt. Alle Systemanforderungen und-Empfehlungen sind hier zur Sicherstellung einer erfolgreichen Installation und Bereitstellung Ihrer Serverfarm.
   
-Wie zu erwarten, sind einige vorbereitenden Schritte vor Beginn der Bereitstellung von Skype für Business Server 2019. Dieser Artikel führt Sie durch die Planung der folgenden Aspekte:
+Wie zu erwarten, sind einige vorbereitenden Schritte vor Beginn der Bereitstellung von Skype für Business Server 2019. Dieser Artikel führt Sie durch die Planung für folgende Arbeitsschritte:
   
 - [Hardware](system-requirements.md#Hardware)
   
@@ -267,7 +268,7 @@ Die Domänenfunktionsebene von jeder Domäne, die Sie zum Business Server 2019 i
     
 Dürfen in diesen Umgebungen schreibgeschützte Domänencontroller vorhanden sein? Sicher, solange dort auch sofern nicht schreibgeschützte Domänencontroller sind verfügbar.
   
-Es ist wichtig, zu wissen, dass Skype für Business Server 2019 Domänen mit einfacher Bezeichnung unterstützt. Was ist das? Wenn Sie eine mit der Bezeichnung contoso.local Stammdomäne verfügen, geht, die kein Problem sein. Wenn Sie über eine Stammdomäne, die nur lokale heißt verfügen, nicht dadurch arbeiten, und nicht dementsprechend unterstützt. Mehr Informationen dazu finden Sie [in diesem Artikel der Knowledge Base](https://support.microsoft.com/kb/300684/en-us).
+Es ist wichtig, zu wissen, dass Skype für Business Server 2019 Domänen mit einfacher Bezeichnung unterstützt. Was ist das? Wenn Sie eine mit der Bezeichnung contoso.local Stammdomäne verfügen, geht, die kein Problem sein. Wenn Sie über eine Stammdomäne, die nur lokale heißt verfügen, nicht dadurch arbeiten, und nicht dementsprechend unterstützt. Weitere wurde zu diesem [in dieser Knowledge Base-Artikel](https://support.microsoft.com/kb/300684/en-us)geschrieben.
   
 Skype für Business Server 2019 unterstützt keine auch Umbenennen von Domänen. Wenn Sie Ihre Domäne umbenennen müssen, müssen Sie So deinstallieren Sie Skype für Business Server 2019, führen Sie das Umbenennen von Domänen, und Neuinstallieren von Skype für Business Server 2019.
   
@@ -352,7 +353,7 @@ In dieser Topologie sind eine oder mehrere Benutzergesamtstrukturen und Skype f�
   
 Bei diesem Szenario sind mehrere lokale Gesamtstrukturen mit einer Topologie mit Ressourcengesamtstruktur vorhanden. Zwischen den Active Directory-Gesamtstrukturen besteht eine vollständige Vertrauensstellung. Das Tool „Azure Active Directory Connect“ wird zur Synchronisierung von Konten zwischen den lokalen Benutzergesamtstrukturen und Office 365 verwendet.
   
- Die Organisation verfügt außerdem über Office 365 und verwendet [Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) zur Synchronisierung ihrer lokalen Konten mit Office 365. Für Skype für Unternehmen aktivierte Benutzer werden über Office 365 und Skype für Business Online aktiviert. Skype für Business Server ist nicht lokal bereitgestellt.
+ Die Organisation auch Office 365 und [Azure Active Directory verbinden](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) ihrer lokalen Konten mit Office 365 synchronisiert. Für Skype für Unternehmen aktivierte Benutzer werden über Office 365 und Skype für Business Online aktiviert. Skype für Business Server ist nicht lokal bereitgestellt.
   
 Authentifizierung für einmaliges Anmelden wird von einer Active Directory Federation Services-Farm befindet sich in der benutzergesamtstruktur bereitgestellt.
   
@@ -462,7 +463,7 @@ Zertifikate für Front-End-Server in einem Front-End-Pool:
   
 |**Zertifikat**|**Name/gemeinsamen Antragstellername**|**Alternativer Antragstellername**|**Beispiel**|**Anmerkungen**|
 |:-----|:-----|:-----|:-----|:-----|
-|Default (Standard)  <br/> |FQDN des Pools  <br/> |FQDN des Pools und FQDN des Servers  <br/> Wenn mehrere SIP-Domänen vorhanden sind und die automatische Clientkonfiguration aktiviert wurde, erkennt der Zertifikat-Assistent die unterstützten FQDNs für SIP-Domänen und fügt diese hinzu.  <br/> Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich (Domain Name System) festgelegt ist, benötigen Sie auch Einträge für „sip.sipDomäne“ (für jede vorhandene SIP-Domäne).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com   <br/> Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch „SAN=sip.contoso.com; SAN=sip.fabrikam.com“.  <br/> |Der Assistent erkennt alle SIP-Domänen, die Sie während der Installation angegeben haben, und fügt sie automatisch zum alternativen Antragstellernamen (SAN) hinzu.  <br/> Sie können dieses Zertifikat auch für die Server-zu-Server-Authentifizierung verwenden.  <br/> |
+|Standard  <br/> |FQDN des Pools  <br/> |FQDN des Pools und FQDN des Servers  <br/> Wenn mehrere SIP-Domänen vorhanden sind und die automatische Clientkonfiguration aktiviert wurde, erkennt der Zertifikat-Assistent die unterstützten FQDNs für SIP-Domänen und fügt diese hinzu.  <br/> Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich (Domain Name System) festgelegt ist, benötigen Sie auch Einträge für „sip.sipDomäne“ (für jede vorhandene SIP-Domäne).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com   <br/> Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch „SAN=sip.contoso.com; SAN=sip.fabrikam.com“.  <br/> |Der Assistent erkennt alle SIP-Domänen, die Sie während der Installation angegeben haben, und fügt sie automatisch zum alternativen Antragstellernamen (SAN) hinzu.  <br/> Sie können dieses Zertifikat auch für die Server-zu-Server-Authentifizierung verwenden.  <br/> |
 |Web, intern  <br/> |FQDN des Pools  <br/> |Jeder der folgenden:  <br/> • Interne Web-FQDN (der nicht identisch mit den FQDN des Servers ist)  <br/> • FQDN des Servers  <br/> • Skype für Business Pool-FQDN  <br/> UND  <br/> • Meet einfache URLs  <br/> • DFÜ-einfache URL  <br/> • Einfache Admin-URL  <br/> ODER  <br/> • Ein Platzhaltereintrag für einfache URLs  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Mit einem Platzhalterzertifikat:  <br/> Sn=ee01.contoso.com; SAN=ee01.contoso.com; SAN =\*. "contoso.com"  <br/> |Wenn Sie mehrere einfache Meet-URLs haben, müssen Sie alle als alternative Antragstellernamen einbeziehen.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
 |Web, extern  <br/> |FQDN des Pools  <br/> |Jeder der folgenden:  <br/> • Externen Web-FQDN  <br/> UND  <br/> • DFÜ-einfache URL  <br/> • Einfache Admin-URL  <br/> ODER  <br/> • Ein Platzhaltereintrag für einfache URLs  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Mit einem Platzhalterzertifikat:  <br/> Sn=ee01.contoso.com; SAN=webcon01.contoso.com; SAN =\*. "contoso.com"  <br/> |Wenn Sie mehrere einfache Meet-URLs haben, müssen Sie alle als alternative Antragstellernamen einbeziehen.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
    
@@ -470,7 +471,7 @@ Zertifikate für den Director:
   
 |**Zertifikat**|**Name/gemeinsamen Antragstellername**|**Alternativer Antragstellername**|**Beispiel**|
 |:-----|:-----|:-----|:-----|
-|Default (Standard)  <br/> |Directorpool  <br/> |FQDN des Directors, des FQDN des Director-Pools.  <br/> Wenn in diesem Pool Server die automatische Anmeldung für Clients und exakte DNS-Abgleich ist erforderlich, in den Gruppenrichtlinien, Sie benötigen auch Einträge für sip.sipdomain (für jede SIP-Domäne).  <br/> |pool.contoso.com; SAN=dir01.contoso.com   <br/> Wenn dieser Director-Pool der Server für die automatische Anmeldung für Clients ist und exakte DNS-Abgleich in den Gruppenrichtlinien erforderlich ist, benötigen Sie auch festgelegt; SAN=SIP.Fabrikam.com  <br/> |
+|Standard  <br/> |Directorpool  <br/> |FQDN des Directors, des FQDN des Director-Pools.  <br/> Wenn in diesem Pool Server die automatische Anmeldung für Clients und exakte DNS-Abgleich ist erforderlich, in den Gruppenrichtlinien, Sie benötigen auch Einträge für sip.sipdomain (für jede SIP-Domäne).  <br/> |pool.contoso.com; SAN=dir01.contoso.com   <br/> Wenn dieser Director-Pool der Server für die automatische Anmeldung für Clients ist und exakte DNS-Abgleich in den Gruppenrichtlinien erforderlich ist, benötigen Sie auch festgelegt; SAN=SIP.Fabrikam.com  <br/> |
 |Web, intern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Interne Web-FQDN (Dies entspricht dem FQDN des Servers ist)  <br/> • FQDN des Servers  <br/> • Skype für Business Pool-FQDN  <br/> UND  <br/> • Meet einfache URLs  <br/> • DFÜ-einfache URL  <br/> • Einfache Admin-URL  <br/> ODER  <br/> • Ein Platzhaltereintrag für einfache URLs  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Mit einem Platzhalterzertifikat:  <br/> Sn=dir01.contoso.com; SAN=dir01.contoso.com SAN =\*. "contoso.com"  <br/> |
 |Web, extern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Externen Web-FQDN  <br/> UND  <br/> • Meet einfache URLs pro SIP-Domäne  <br/> • DFÜ-einfache URL  <br/> ODER  <br/> • Ein Platzhaltereintrag für einfache URLs  <br/> |Director externe Web-FQDN muss sich von den Front-End-Pool oder Front-End-Server unterscheiden.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Mit einem Platzhalterzertifikat:  <br/> Sn=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN =\*. "contoso.com"  <br/> |
    
@@ -478,7 +479,7 @@ Zertifikate für eigenständige Vermittlungsserver:
   
 |**Zertifikat**|**Name/gemeinsamen Antragstellername**|**Alternativer Antragstellername**|**Beispiel**|
 |:-----|:-----|:-----|:-----|
-|Default (Standard)  <br/> |FQDN des Pools  <br/> |FQDN des Pools  <br/> FQDN des Poolmitgliedsservers  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
+|Standard  <br/> |FQDN des Pools  <br/> |FQDN des Pools  <br/> FQDN des Poolmitgliedsservers  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
    
 Zertifikate für Survivable Branch Appliance (insbesondere Survivable Branch-Gerät 2015 für Skype für Business Server 2019):
   
@@ -535,7 +536,7 @@ Dieser SAN muss dem Zertifikat zugewiesen werden, das dem SSL-Listener (Secure S
 
 Skype für Business Server 2019 kann die gleichen Dateifreigabe für alle Dateispeicher verwenden. Beachten Sie bitte Folgendes:
   
-- Eine Dateifreigabe muss sich entweder auf DAS (Direct Attached Storage) oder auf einem SAN (Storage Area Network) befinden, einschließlich des DFS (Distributed File System) sowie von RAID-Komponenten (Redundant Array of Independent Disks) für Dateispeicher. Wenn Sie mehr über DFS für Windows Server 2012 erfahren möchten, finden Sie auf [dieser DFS-Seite](https://technet.microsoft.com/en-us/library/jj127250.aspx) weitere Informationen.
+- Eine Dateifreigabe muss sich entweder auf DAS (Direct Attached Storage) oder auf einem SAN (Storage Area Network) befinden, einschließlich des DFS (Distributed File System) sowie von RAID-Komponenten (Redundant Array of Independent Disks) für Dateispeicher. Für Weitere DFS für Windows Server 2012 lesen, sollten checken Sie [Diese Seite DFS aus](https://technet.microsoft.com/en-us/library/jj127250.aspx).
     
 - Es wird empfohlen, einen freigegebenen Cluster für die Dateifreigabe. Wenn Sie eine verwenden, sollten Sie Windows Server 2012 oder Windows Server 2012 R2 Cluster bilden. Warum die neuesten Windows? Ältere Versionen möglicherweise nicht die richtigen Berechtigungen für alle Features zu aktivieren. Sie können Clusterverwaltung verwenden, um die Dateifreigaben erstellen, und dieser [Erstellen eines Clusters](https://support.microsoft.com/en-us/help/224967) KB-Artikel helfen Ihnen mit diesen Details.
     

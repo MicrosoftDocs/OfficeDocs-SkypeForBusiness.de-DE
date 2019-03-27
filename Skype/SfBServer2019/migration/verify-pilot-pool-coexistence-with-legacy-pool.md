@@ -1,5 +1,6 @@
 ---
 title: Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversion
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Prozess zum Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversion.
-ms.openlocfilehash: 717726acd3654abb2296d622afc5a4d45009430e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ed3809bdde3109bdbd341c42eed0dc1d8cecd11f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028691"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875468"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversion
 

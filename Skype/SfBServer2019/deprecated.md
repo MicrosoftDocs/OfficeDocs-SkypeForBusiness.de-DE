@@ -1,5 +1,6 @@
 ---
 title: Was ist aus Skype für Business Server 2019 veraltet
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Diese Features wurden aus Skype für Business Server 2019 entfernt.'
-ms.openlocfilehash: 399c5f219ae5a088c4e7f8aa40f40344885d571e
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: bd7519e66632c005d81ff9fc110684f6c4854c41
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561611"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876655"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Was ist aus Skype für Business Server 2019 veraltet
 
@@ -52,11 +53,11 @@ Alle aktuellen Skype für mobile Clients Business Unified Communications Web API
 
 Weitere Informationen finden Sie unter [Planen für die Mobilität für Skype für Business Server](../SfbServer/plan-your-deployment/mobility.md) und [mobilen Client Featurevergleich für Skype für Unternehmen](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md).
 
-## <a name="tools"></a>Tools
+## <a name="tools"></a>Werkzeuge
 
 Die folgenden Tools werden nicht auf die erste Version von Skype für Business Server 2019 zur Verfügung:
 
-- Skype für Rechner Business Server-Kapazitätsplanung
+- Skype for Business Server: Rechner zur Kapazitätsplanung
 - Skype für Business Server Debugging-Werkzeuge
 - Skype für Business Server Resource Kit-Tools (einige Tools werden entfernt)
     - Call Parkometer
@@ -67,11 +68,11 @@ Die folgenden Tools werden mit Skype für Business Server 2019 nicht unterstütz
 
 - Rufen Sie der Qualität Methodik auf (aber nicht rufen Sie Qualitätsdashboard auf)
 - Microsoft-Aufruf Qualität Methodik Scorecard, v1. 5
-- Skype for Business Server 2015 Planning Tool
+- Skype for Business Server 2015 – Planungstool
 - Skype for Business Server 2015 Stress and Performance Tool
 
 ### <a name="see-also"></a>Siehe auch
 
 [Was ist neu in Skype für Business Server 2019](whats-new.md)
 
-[Migrieren von XMPP-Verbund](migration/migrating-xmpp-federation.md)
+[Migrieren eines XMPP-Partnerverbunds](migration/migrating-xmpp-federation.md)

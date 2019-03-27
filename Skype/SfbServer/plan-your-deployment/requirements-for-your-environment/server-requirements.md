@@ -1,5 +1,6 @@
 ---
 title: Serveranforderungen für Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Zusammenfassung: Bereiten Sie Ihre Server von Skype for Business Server 2015 mit diesem Thema vor. Mithilfe von Hardware, Betriebssystem, Datenbank, Software und den Systemvoraussetzungen und -empfehlungen können Sie eine erfolgreiche Installation und Bereitstellung Ihrer Server-Farm garantieren.'
-ms.openlocfilehash: f9c85fb774362e00c8b34e9cc0343e71e499ce49
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 1c970a517fbb984d09aeba066a69726c9461a12c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210644"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875897"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Serveranforderungen für Skype for Business Server 2015
  
@@ -102,7 +103,7 @@ Wenn die von Ihnen gewünschte SQL Server-Edition nicht aufgeführt wird, könn
 > Sie nun auch müssen Sie SQL Server Reporting Services für den Monitoring Server-Role zu installieren.
 
 ### <a name="microsoft-exchange-storage"></a>Microsoft Exchange-Speicher
-Dateien mit Besprechungsinhalten, z. B. PowerPoint-Präsentationen, werden als Anlagen archiviert. Wenn Sie Skype für Geschäftsdaten für Archivierung mit Exchange Kompatibilitätsdaten speichern möchten, müssen Sie Exchange für Ihre Exchange-Bereitstellung verwenden und stellen Sie sicher, dass die maximale Speichergröße Speicherung von der Besprechung Inhaltsdateien unterstützt. Sie müssen vor dem Bereitstellen und Aktivieren der Archivierung die Option Microsoft Exchange-Integration mit Exchange bereitstellen. 
+Meeting content files, such as PowerPoint presentations, are archived as attachments. Wenn Sie Skype für Geschäftsdaten für Archivierung mit Exchange Kompatibilitätsdaten speichern möchten, müssen Sie Exchange für Ihre Exchange-Bereitstellung verwenden und stellen Sie sicher, dass die maximale Speichergröße Speicherung von der Besprechung Inhaltsdateien unterstützt. Sie müssen vor dem Bereitstellen und Aktivieren der Archivierung die Option Microsoft Exchange-Integration mit Exchange bereitstellen. 
     
     If you choose to use Exchange storage, you do not need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who are not homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
   
@@ -171,7 +172,7 @@ Es gibt ein paar Dinge, die Sie für jeden Server mit Skype for Business Server�
   
 |**Software/Rolle**|**Details**|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |Auf allen Skype for Business Server-Servern muss Windows PowerShell 3.0 installiert sein.  <br/> • Wenn Sie die Installation unter Windows Server 2012 oder Windows Server 2012 R2 ausführen, müssen Sie nichts mehr tun, da PowerShell bereits installiert ist.  <br/> • Wenn Sie unter Windows Server 2008 R2 ein Upgrade durchführen, können Sie [Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595) herunterladen, um PowerShell zu installieren. <br/> **Tipp:** Nachdem Sie dort die korrekte PowerShell installiert haben, überprüfen Sie, ob ihre BuildVersion 6.2.9200.0 oder neuer ist, indem Sie zur PowerShell-Eingabeaufforderung wechseln und `$PSVersionTable` eingeben. Dadurch erhalten Sie die gewünschten Informationen.<br/> |
+|Windows PowerShell 3.0  <br/> |Auf allen Skype for Business Server-Servern muss Windows PowerShell 3.0 installiert sein.  <br/> • Wenn Sie die Installation unter Windows Server 2012 oder Windows Server 2012 R2 ausführen, müssen Sie nichts mehr tun, da PowerShell bereits installiert ist.  <br/> • Wenn Sie unter Windows Server 2008 R2 ein Upgrade durchführen, können Sie [Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595) herunterladen, um PowerShell zu installieren. <br/> **Tipp:** Vergewissern Sie sich nach der Installation von PowerShell, dass es sich um Buildversion 6.2.9200.0 oder höher handelt. Wechseln Sie dazu zur PowerShell-Eingabeaufforderung, und geben Sie `$PSVersionTable` ein. Dadurch erhalten Sie die gewünschten Informationen.  <br/> |
 |Microsoft .NET Framework  <br/> |Die WCF-Dienste sind als Windows-**Funktion** unter **Server-Manager** installiert. Sie müssen nichts herunterladen. <br/> • Wenn Sie diese Funktion installieren oder wenn die Funktion bereits installiert ist und Sie sie überprüfen möchten, müssen Sie sicherstellen, dass wie in dieser Abbildung auch die Option **HTTP-Aktivierung** aktiviert und installiert ist: <br/> ![Screenshot mit der Option „HTTP-Aktivierung“ in den Funktionen von .NET Framework 4.5](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)Machen Sie sich keine Sorgen, wenn ein zusätzliches Popupfenster angezeigt wird und Sie darüber informiert, dass für die HTTP-Aktivierung weitere Komponenten installiert werden müssen. Das ist normal, klicken Sie daher einfach auf „OK“, und fahren Sie fort. Wenn dieses Popupfenster nicht angezeigt wird, können Sie davon ausgehen, dass diese Komponenten bereits installiert sind, und fortfahren.  <br/> Microsoft .NET Framework wird normalerweise bei der Installation von Windows Server 2012 R2 oder Windows Server 2016 installiert. Skype for Business Server funktioniert mit den folgenden Versionen von Microsoft .NET Framework:  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7 (für Skype for Business Server CU 5 oder höhere Versionen)  <br/>  .NET Framework 3.5 wurde wahrscheinlich standardmäßig auf Ihrem Windows Server 2008 R2-Computer installiert (überprüfen Sie dies unbedingt vor dem Upgrade), befindet sich aber nicht auf den Servern unter Windows Server 2012 oder Windows Server 2012 R2 (bei neuen Installationen). Um die Komponente hinzuzufügen, benötigen Sie Zugriff auf Ihr Installationslaufwerk oder auf Ihr Installationsmedium (den Ort, von dem aus Windows Server installiert wurde bzw. an dem sich die Installationsdateien jetzt befinden). Fahren Sie dann fort und installieren Sie es als eine Funktion des Server-Manager und geben Sie den Installationspfad zum Installationsmedium an (besonders den Ordner **\sources\sxs**), wenn Sie danach gefragt werden, und fahren Sie mit der Installation fort. <br/> |
 |Media Foundation  <br/> |Für Windows Server 2016, Windows Server 2012 und Windows Server 2012 R2 wird die Windows Media-Format-Laufzeitkomponente zusammen mit Microsoft Media Foundation installiert.  <br/> Alle Front-End-Server und Standard Edition-Server, die für Konferenzen verwendet werden, benötigen die Windows Media-Format-Laufzeitkomponente, damit die WMA-Dateien (Windows Media Audio) ausgeführt werden können. Über diese Dateien geben die Anwendungen für das Parken von Anrufen, für Ankündigungen und für Reaktionsgruppen Ankündigungen und Musik wieder.  <br/> |
 |Windows Identity Foundation  <br/> |Wir benötigen Windows Identity Foundation 3.5 für die Unterstützung von Szenarien mit Server-zu-Server-Authentifizierung für Skype for Business Server 2015.  <br/> • Für Windows Server 2012 und Windows Server 2012 R2 müssen Sie nichts herunterladen. Öffnen Sie den **Server-Manager** und rufen Sie den **Assistenten zum Hinzufügen von Rollen und Features** auf. **Windows Identity Foundation 3.5** wird unter dem Abschnitt **Funktionen** aufgelistet. Wenn das entsprechende Kontrollkästchen aktiviert ist, ist alles soweit in Ordnung. Andernfalls müssen Sie es auswählen und auf „Weiter“ klicken, um zur Schaltfläche **Installieren** zu gelangen. <br/> |

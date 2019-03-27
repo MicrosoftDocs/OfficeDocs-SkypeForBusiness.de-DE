@@ -1,5 +1,6 @@
 ---
 title: Erstellen von netzwerkregionenverbindungen in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: Erstellen oder Ändern von netzwerkregionenverbindungen, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden.
-ms.openlocfilehash: fd74960ed2efe9e8e67c5682c5b30aac17c9b2b6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 729b20010390bf0a8865adce96a398d362009552
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886464"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874004"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>Erstellen von netzwerkregionenverbindungen in Skype für Business Server
  
@@ -69,7 +70,7 @@ Die Beispieltopologie weist eine Verbindung zwischen den Regionen „North Ameri
     
 ## <a name="see-also"></a>Siehe auch
 
-[Neue CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
+[New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   
 [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
   

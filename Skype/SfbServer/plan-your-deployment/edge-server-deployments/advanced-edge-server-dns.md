@@ -1,5 +1,6 @@
 ---
 title: Erweiterte DNS-Edge-Server planen Skype für Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Zusammenfassung: Überprüfen Sie Szenarien für Skype für Business Server Bereitstellungsoptionen. Dieses Thema wird Ihnen helfen, egal ob Sie einen einzelnen Server oder einen Server-Pool mit DNS oder HLB bevorzugen.'
-ms.openlocfilehash: 4631f7120bb091f3a9666edd4ab2d92cfdf52a00
-ms.sourcegitcommit: ce3f40d2ffdf452111a317a019eeebf807b0c78a
+ms.openlocfilehash: e6619056d7c8a69f63fa22007a7702b41480719f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30537565"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872958"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Erweiterte DNS-Edge-Server planen Skype für Business Server
  
@@ -254,7 +255,7 @@ Keine Funktionen des DNS-Lastenausgleichs:
   
 - -Client-zu-Server-Webdatenverkehr an den Front-End-Servern oder eines Directors.
     
-Gehen Sie etwas ausführlicheren auf einen DNS-SRV-Eintrag wie ausgewählt, mehrerer-DNS-Datensätze von einer Abfrage, die Zugriffs-edgedienst immer zurückgegeben werden Record-Objekts mit der niedrigsten numerischen Priorität auswählt und Lösen von Konflikten ist erforderlich, numerische Gewichtung. Dies entspricht der [Internet Engineering Task Force-Dokumentation](https://www.ietf.org/rfc/rfc2782.txt)
+Gehen Sie etwas ausführlicheren auf einen DNS-SRV-Eintrag wie ausgewählt, mehrerer-DNS-Datensätze von einer Abfrage, die Zugriffs-edgedienst immer zurückgegeben werden Record-Objekts mit der niedrigsten numerischen Priorität auswählt und Lösen von Konflikten ist erforderlich, numerische Gewichtung. Dies entspricht der [Internet Engineering Task Force](https://www.ietf.org/rfc/rfc2782.txt)-Dokumentation.
   
 Angenommen der DNS-SRV-Eintrag A hat eine Gewichtung von 20 und eine Priorität von 40 und der DNS-SRV-Eintrag B hat eine Gewichtung von 10 und eine Priorität von 50. In diesem Fall wird der erste Eintrag ausgewählt, da er die niedrigere Priorität von 40 hat. Es kommt auf die Priorität an und den Host mit der niedrigeren steuert ein Client als erstes an. Was passiert, wenn zwei Ziele die gleiche Priorität haben? 
   

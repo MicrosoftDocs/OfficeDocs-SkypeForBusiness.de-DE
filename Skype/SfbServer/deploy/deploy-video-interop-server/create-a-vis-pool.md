@@ -1,5 +1,6 @@
 ---
 title: Erstellen eines Pools gegenüber in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 'Zusammenfassung: Erstellen Sie einen Video Interop-Serverpool in Skype für Business Server mithilfe des Topologie-Generator.'
-ms.openlocfilehash: 65771e72250ad1d5e9625bdd6cc1a8d47b5dabe2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 484cb1c504680dde393d24ce65606e415d070edb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373458"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874109"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Erstellen eines Pools gegenüber in Skype für Business Server
  
@@ -59,9 +60,9 @@ ms.locfileid: "25373458"
 11. Veröffentlichen Sie das Topologiedokument gemäß [Erstellen und veröffentlichen Sie die neue Topologie in Skype für Business Server 2015](../../deploy/install/create-and-publish-new-topology.md).
     
     > [!NOTE]
-    > Um ausfallsicherheit zu verbessern, sollten Sie einen zweiten Interop Videoserver oder gegenüber Pool oder einem Front-End-Sicherungspool konfigurieren. Weitere Informationen hierzu finden Sie unter [Resiliency mechanisms](../../plan-your-deployment/video-interop-server.md#resiliency).
+    > Um ausfallsicherheit zu verbessern, sollten Sie einen zweiten Interop Videoserver oder gegenüber Pool oder einem Front-End-Sicherungspool konfigurieren. Weitere Informationen finden Sie unter [Resiliency Mechanismen](../../plan-your-deployment/video-interop-server.md#resiliency) .
   
-Alle mithilfe des Topologie-Generators durchgeführten Aufgaben sollten jetzt abgeschlossen sein. Installieren Sie nun die Software auf dem neuen VIS-Server bzw. den neuen VIS-Servern.
+Alle Aufgaben des Topologie-Generators sollte jetzt abgeschlossen sein. Wechseln Sie zum Installieren der Software auf den neuen gegenüber oder die Server.
 ## <a name="see-also"></a>Siehe auch
 
 [Bereitstellen der Serverrolle gegenüber in Skype für Business Server](deploy-the-vis-server-role.md)

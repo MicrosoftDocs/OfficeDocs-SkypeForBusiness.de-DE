@@ -1,5 +1,6 @@
 ---
 title: ErrorReport-Ansicht
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: ErrorReport-Ansicht speichert Informationen über Fehler gemeldet. Jeder Datensatz ist ein Fehler auftreten. Die Fehler werden erfasst entweder von der CDR-Agent auf dem Front-End-Server oder vom Client gesendet. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: b1815d4420b5768b065a5695ea09174ecff91912
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8d72ad73b5894e73b7d95b1b11bc10dffcabc5f7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874179"
 ---
 # <a name="errorreport-view"></a>ErrorReport-Ansicht
  
@@ -50,7 +52,7 @@ ErrorReport-Ansicht speichert Informationen über Fehler gemeldet. Jeder Datensa
 |**IsCapturedByServer** <br/> |bit  <br/> |Gibt an, ob der Fehlerbericht vom KDS-Agent auf dem Front-End-Server ausgeführt erfasst wurde, oder vom Client gesendet wurde.  <br/> |
 |**Kennzeichnung** <br/> |smallint  <br/> |Für künftige Zwecke vorbehalten.  <br/> |
 |**MsDiagHeader** <br/> |varchar(max)  <br/> |Weitere Informationen zu dem Fehler.  <br/> |
-|**Front-End** <br/> |nvarchar  <br/> |Vollqualifizierter Domänenname des Front-End-Servers, die den Bericht gesendet.  <br/> |
+|**FrontEnd** <br/> |nvarchar  <br/> |Vollqualifizierter Domänenname des Front-End-Servers, die den Bericht gesendet.  <br/> |
 |**Pool** <br/> |nvarchar  <br/> |Vollständig qualifizierte Domänenname des Pools mit dem Front-End-Server, der den Bericht gesendet.  <br/> |
    
 

@@ -1,5 +1,6 @@
 ---
-title: Standard-Sip-Domäne hinzufügen
+title: Hinzufügen der Standard-SIP-Domäne
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: b9dd496e-d43b-42e4-9e70-a70abb79cdc3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Geben Sie die primäre Domäne Session Initiation Protocol (SIP), die Sie Ihrer Bereitstellung unterstützen möchten. Die primäre SIP-Domäne kann, oder anders Ihre Active Directory-Domänendienste-Domäne mit diesem identisch sein. Beispielsweise Ihre Active Directory-Domäne fabrikam.net werden konnte, und geben Sie Ihre primäre SIP-Domäne um contoso.net werden.
-ms.openlocfilehash: e6598b5171b4ed170db933723c2307052b929342
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: ac7f328b23a9b4f3e75e3ad89a7496e0fff8dbe7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067841"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876006"
 ---
-# <a name="add-default-sip-domain"></a>Standard-Sip-Domäne hinzufügen
+# <a name="add-default-sip-domain"></a>Hinzufügen der Standard-SIP-Domäne
  
 Geben Sie die primäre Domäne Session Initiation Protocol (SIP), die Sie Ihrer Bereitstellung unterstützen möchten. Die primäre SIP-Domäne kann, oder anders Ihre Active Directory-Domänendienste-Domäne mit diesem identisch sein. Beispielsweise Ihre Active Directory-Domäne fabrikam.net werden konnte, und geben Sie Ihre primäre SIP-Domäne um contoso.net werden.
   

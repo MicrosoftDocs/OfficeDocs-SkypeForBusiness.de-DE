@@ -16,23 +16,23 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67202207b5668022f4e0b33acc2d20f3c4abd7aa
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 60af1c90cd1dbd7855da7686950ffd135d1da5dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462708"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876768"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
-Wenn Sie noch nicht haben lesen [Plan Location-Based Routing für das direkte Routing getan](location-based-routing-plan.md) , um weitere Schritte anzuzeigen müssen Sie vor der Bereitstellung von Netzwerkeinstellungen für standortbasierte Routing übernehmen.
+Wenn Sie noch nicht haben lesen [Plan Location-Based Routing für das direkte Routing getan](location-based-routing-plan.md) , um weitere Schritte überprüfen müssen Sie ergreifen, bevor Sie Netzwerkeinstellungen für standortbasierte Routing konfigurieren.
 
 In diesem Artikel wird beschrieben, wie Netzwerk für standortbasierte Routing konfigurieren. Nach der Bereitstellung von Telefon System direkten Routing in Ihrer Organisation sind die nächsten Schritte zum Erstellen und Einrichten von netzwerkregionen, Netzwerkstandorten und Netzwerksubnetzen. Um die Schritte in diesem Artikel ausführen zu können, benötigen Sie einige gute Kenntnisse im Umgang mit PowerShell-Cmdlets. Weitere Informationen finden Sie unter [Teams PowerShell (Übersicht)](teams-powershell-overview.md).
 
 ## <a name="define-network-regions"></a>Definieren von netzwerkregionen
- Eine netzwerkregion sind die verschiedenen Teile eines Netzwerks über mehrere geografische Bereiche. Verwendung der ``New-CsTenantNetworkRegion`` PowerShell-Cmdlet, um netzwerkregionen zu definieren. Beachten Sie, dass die ``RegionID`` Parameter ist ein logischer Name, der die Region des Bereichs darstellt und hat keine Abhängigkeiten oder Einschränkungen und der ``CentralSite <site ID>`` Parameter ist optional. 
+ Eine netzwerkregion sind die verschiedenen Teile eines Netzwerks über mehrere geografische Bereiche. Verwenden Sie das Cmdlet " [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) ", um netzwerkregionen zu definieren. Beachten Sie, dass der Parameter RegionID ein logischer Name der Region des Bereichs darstellt und hat keine Abhängigkeiten oder Einschränkungen und der CentralSite &lt;site-ID&gt; Parameter ist optional. 
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -45,7 +45,7 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 
 ## <a name="define-network-sites"></a>Definieren von Netzwerkstandorten
 
-Verwendung der ``New-CsTenantNetworkSite`` PowerShell-Cmdlet, um Netzwerkstandorte zu definieren. 
+Verwenden Sie das [New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) -Cmdlet, um Netzwerkstandorte zu definieren. 
 
 ```
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
@@ -64,7 +64,7 @@ Die folgende Tabelle zeigt der Netzwerkstandorte, die in diesem Beispiel definie
 
 ## <a name="define-network-subnets"></a>Definieren von Netzwerksubnetzen
 
-Verwendung der ``New-CsTenantNetworkSubnet`` -Cmdlet zum Definieren von Netzwerksubnetzen und verknüpfen Sie diese mit Netzwerkstandorten. Jeder internen Subnetz kann nur einem einzigen Standort zugeordnet werden. 
+Verwenden Sie das Cmdlet [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) von Netzwerksubnetzen definieren und diese zu Netzwerkstandorten zuordnen. Jeder internen Subnetz kann nur einem einzigen Standort zugeordnet werden. 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
@@ -94,7 +94,7 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 ## <a name="define-external-subnets"></a>Definieren der externen Subnetze
-Verwendung der ``New-CsTenantTrustedIPAddress`` -Cmdlet zum Definieren von externen Subnetze und weisen Sie diese den Mandanten. Sie können eine unbegrenzte Anzahl von Subnetzen für einen Mandanten definieren. 
+Verwenden Sie das Cmdlet " [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) " zum Definieren von externen Subnetze und weisen Sie diese den Mandanten. Sie können eine unbegrenzte Anzahl von Subnetzen für einen Mandanten definieren. 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```

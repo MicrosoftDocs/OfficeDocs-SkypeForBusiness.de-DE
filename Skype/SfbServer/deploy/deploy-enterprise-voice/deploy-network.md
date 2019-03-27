@@ -1,5 +1,6 @@
 ---
 title: Bereitstellen von netzwerkregionen, Standorten und Subnetzen in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Erstellen oder Ändern von netzwerkregionen, Netzwerkstandorten, und ordnen Sie Subnetze in Skype Netzwerk für Business Server. Alle diese für den erweiterten Enterprise-VoIP-Funktionen verwendet werden: Medien umgehen, call Admission Control und Standortbasierte Weiterleitung.'
-ms.openlocfilehash: fe6edf779d00b96918d8bf92ac7e749b9c003f15
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 91ce871d3e8d4871693b7ad28cf4659ea0bb0c4c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297649"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875482"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Bereitstellen von netzwerkregionen, Standorten und Subnetzen in Skype für Unternehmen
 
@@ -225,7 +226,7 @@ Alle konfigurierten öffentlichen IP-Adressen der Audio-Video-Edgeserver in Ihre
 
 1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
 
-2. Führen Sie das Cmdlet **New-csnetworksubnet aus** , um ein Subnetz einem Netzwerkstandort zuzuordnen:
+2. Führen Sie das Cmdlet **New-CsNetworkSubnet** aus, um ein Subnetz einem Netzwerkstandort zuzuordnen:
 
    ```
    New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
@@ -280,7 +281,7 @@ Alle konfigurierten öffentlichen IP-Adressen der Audio-Video-Edgeserver in Ihre
 7. Klicken Sie auf **Netzwerkstandort-ID** und wählen Sie die Standort-ID des Standorts aus, dem Sie dieses Subnetz hinzufügen.
 
     > [!NOTE]
-    > Wenn Sie noch keine Netzwerkstandorte erstellt haben, ist diese Liste leer. Ausführliche Informationen zu dem Verfahren finden Sie unter [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). Sie können auch Site-IDs für Ihre Bereitstellung durch Ausführen des Cmdlets **Get-CsNetworkSite** abrufen. Weitere Informationen hierzu finden Sie unter der Skype Business Server-Verwaltungsshell-Dokumentation.
+    > Wenn Sie noch keine Netzwerkstandorte erstellt haben, ist diese Liste leer. Ausführliche Informationen zu dem Verfahren finden Sie unter [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). Sie können auch Standort-IDs für Ihre Bereitstellung abrufen, indem Sie das Cmdlet **Get-CsNetworkSite** ausführen. Weitere Informationen hierzu finden Sie unter der Skype Business Server-Verwaltungsshell-Dokumentation.
 
 8. Klicken Sie optional auf **Beschreibung** und geben Sie zusätzliche Informationen zur Beschreibung dieses Subnetzes ein.
 
@@ -310,7 +311,7 @@ Wenn die Liste der IP-Adressen beispielsweise die Einträge 10.121.248.226 und 1
 
 2. Stellen Sie sicher, dass die Subnetze 10.121.248.0/24 und 10.121.249.0/24 jeweils einem Netzwerkstandort zugeordnet sind.
 
-## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
+## <a name="see-also"></a>Siehe auch
 <a name="BKMK_AssociateSubnets"> </a>
 
 

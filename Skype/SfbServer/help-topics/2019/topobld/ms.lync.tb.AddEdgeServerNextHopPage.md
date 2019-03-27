@@ -1,5 +1,6 @@
 ---
-title: Der nächste Hop des Edge-Server hinzufügen
+title: Hinzufügen des nächsten Hops für den Edgeserver
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,17 +13,17 @@ localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Der nächste Hop für den Edge-Pool ist ein Front-End-Pool (der Enterprise-Pool oder Standard Edition-Server werden kann), oder wenn Ihre Bereitstellung einen Director umfasst, ist des nächsten Hops Director.
-ms.openlocfilehash: 75227cdfe98e64576d74eb3a0a9d803894864c06
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d653502ff596be8b77858085f683fd459b0a04d6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246603"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877332"
 ---
-# <a name="add-edge-server-next-hop"></a>Der nächste Hop des Edge-Server hinzufügen
+# <a name="add-edge-server-next-hop"></a>Hinzufügen des nächsten Hops für den Edgeserver
 
 Der nächste Hop für den Edge-Pool ist ein Front-End-Pool (der Enterprise-Pool oder Standard Edition-Server werden kann), oder wenn Ihre Bereitstellung einen Director umfasst, ist des nächsten Hops Director.
 
-Sie können Unterstützung für den externen Benutzerzugriff beim Bereitstellen der anfänglichen Topologie oder zu einem späteren Zeitpunkt hinzufügen. Ausführliche Informationen zum Hinzufügen von Edge-Servern zu einer vorhandenen Topologie finden Sie unter [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in der Dokumentation zur Bereitstellung der Edge-Server.
+Sie können Unterstützung für den externen Benutzerzugriff beim Bereitstellen der anfänglichen Topologie oder zu einem späteren Zeitpunkt hinzufügen. Ausführliche Informationen zum Hinzufügen von Edgeservern zu einer vorhandenen Topologie finden Sie in der Edgeserver-Bereitstellungsdokumentation unter [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
 
 

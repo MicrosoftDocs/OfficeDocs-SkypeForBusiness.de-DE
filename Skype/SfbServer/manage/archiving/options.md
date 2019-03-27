@@ -1,5 +1,6 @@
 ---
 title: Verwalten von Archivierungsoptionen in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: 'Zusammenfassung: Informationen Sie zum Konfigurieren von Archivierungsoptionen für Skype für Business Server.'
-ms.openlocfilehash: 235a0170a4301e48caeae17b7315a174ca2c8aee
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: db0fbe113f38065e85419b05d39fd0176b5ba845
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993567"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877783"
 ---
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>Verwalten von Archivierungsoptionen in Skype für Business Server
 
@@ -62,6 +63,6 @@ Sie können die Archivierungsoptionen auch mithilfe der in der folgenden Tabelle
 |**Cmdlet**|**Beschreibung**|
 |:-----|:-----|
 |Get-CsArchivingConfiguration  <br/> |Gibt Informationen zu den in Ihrer Organisation verwendeten Konfigurationseinstellungen zurück.  <br/> |
-|Mit New-CsArchivingConfiguration  <br/> |Erstellt einen neuen Satz mit Chatnachrichteneinstellungen. Diese Einstellungen dienen zum Aktivieren bzw. Deaktivieren der automatischen Speicherung von Chatsitzungen. Sie ermöglichen ferner das Blockieren von Chatnachrichten, die nicht archiviert werden können.  <br/> |
+|New-CsArchivingConfiguration  <br/> |Erstellt einen neuen Satz mit Chatnachrichteneinstellungen. Diese Einstellungen dienen zum Aktivieren bzw. Deaktivieren der automatischen Speicherung von Chatsitzungen. Sie ermöglichen ferner das Blockieren von Chatnachrichten, die nicht archiviert werden können.  <br/> |
 |Remove-CsArchivingConfiguration  <br/> |Entfernt die angegebene Auflistung von Archivierungseinstellungen. Archivierungseinstellungen dienen zum Aktivieren und Deaktivieren des automatischen Speicherns von Chatsitzungen sowie zum optionalen Sperren aller Chatnachrichten, die nicht archiviert werden können.  <br/> |
 |Set-CsArchivingConfiguration  <br/> |Ändert eine bestehende Auflistung von Optionen zur Archivierungskonfiguration für Chatnachrichten.  <br/> |

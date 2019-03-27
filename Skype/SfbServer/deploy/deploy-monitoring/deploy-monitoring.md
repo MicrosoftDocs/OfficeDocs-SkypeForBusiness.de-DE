@@ -1,5 +1,6 @@
 ---
 title: Bereitstellen Sie Überwachung in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Zusammenfassung: Erfahren Sie, wie Überwachung in Skype für Business Server bereitstellen.'
-ms.openlocfilehash: 0bcc324e9f37b37078719e3e5c0e5ffe1518f5cd
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 147d20c7a6b85ef294711602748ee474b4e9abd3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252387"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878105"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Bereitstellen Sie Überwachung in Skype für Business Server
 
@@ -54,7 +55,7 @@ Obwohl monitoring ist bereits installiert und auf jedem Front-End-Server aktivie
 
 |**Phase**|**Schritte**|**Rolle und Gruppenmitgliedschaft**|**Dokumentation**|
 |:-----|:-----|:-----|:-----|
-|**Installieren der erforderlichen Hardware und Software** <br/> |Installieren einer unterstützten Version von Microsoft SQL Server auf dem Computer, der als Back-End-Datenspeicher für die Überwachung fungiert.  <br/> |Domänenbenutzer, der auch Mitglied der lokalen Administratorgruppe ist.  <br/> |[Unterstützte Hardware](https://technet.microsoft.com/library/5f9c085d-205e-4235-9061-9ad875283cb0.aspx) <br/> [Serversoftware and Infrastructure Support](https://technet.microsoft.com/library/4ee5fe38-0191-4710-9aa2-df8895e8c51b.aspx) <br/> |
+|**Installieren der erforderlichen Hardware und Software** <br/> |Installieren einer unterstützten Version von Microsoft SQL Server auf dem Computer, der als Back-End-Datenspeicher für die Überwachung fungiert.  <br/> |Domänenbenutzer, der auch Mitglied der lokalen Administratorgruppe ist.  <br/> |[Supported Hardware](https://technet.microsoft.com/library/5f9c085d-205e-4235-9061-9ad875283cb0.aspx) <br/> [Server Software and Infrastructure Support](https://technet.microsoft.com/library/4ee5fe38-0191-4710-9aa2-df8895e8c51b.aspx) <br/> |
 |**Erstellen der geeigneten internen Topologie zur Unterstützung der Überwachung** <br/> |Verwendung Skype für Business Server-Topologie-Generator hinzufügen veröffentlicht Überwachungsdatenbanken zur Topologie, klicken Sie dann die aktualisierte Topologie.  <br/> |Definieren einer Topologie, ein Benutzer, der Mitglied der lokalen Benutzergruppe ist.  <br/> Veröffentlichen der Topologie, ein Benutzer, der Mitglied der Domänenadministratorgruppe und der RTCUniversalServerAdmins-Gruppe ist.  <br/> |[Zuordnen eines überwachungsspeichers zu einem Front-End-Pool in Skype für Business Server](associate-a-monitoring-store.md) <br/> |
 |**Aktivieren der entsprechenden Überwachungseinstellungen** <br/> |Aktivieren Sie die Aufzeichnung von Kommunikationsdatensätzen und/oder die QoE-Überwachung (Quality of Experience) auf globaler und/oder auf Standortebene.  <br/> |Ein Benutzer, der Mitglied der RTCUniversalServerAdmins-Gruppe ist oder dem eine RBAC-Rolle mit Zugriff auf das Cmdlet CsCdrConfiguration und auf das Cmdlet CsQoEConfiguration zugewiesen wurde.  <br/> |[Konfigurieren Sie die Aufzeichnung von kommunikationsdatensätzen und Quality of Experience Settings in Skype für Business Server](call-detail-recording-and-qoe.md) <br/> |
 

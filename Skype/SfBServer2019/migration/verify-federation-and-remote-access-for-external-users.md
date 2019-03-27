@@ -1,5 +1,6 @@
 ---
-title: Überprüfen des partnerverbunds und Remotezugriff für externe Benutzer
+title: Überprüfen des Partnerverbunds und des Remotezugriffs für externe Benutzer
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Nach dem Übergang der partnerverbundroute, der Skype für Business Server 2019 Edge-Server, sollten Sie Funktionstests aus, um sicherzustellen, dass der Partnerverbund erwartungsgemäß ausgeführt wird, durchführen. Tests für den Zugriff externer Benutzer sollte jede Art von externer Benutzer enthalten, die Ihre Organisation einige oder alle der folgenden einschließlich unterstützt.
-ms.openlocfilehash: ce0e2dd6ee7d4fb605f844d7dfb26b3f9d13bf14
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3a520b39d76ab93f4ec7fcaacd139b3f83a3326a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027235"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876697"
 ---
-# <a name="verify-federation-and-remote-access-for-external-users"></a>Überprüfen des partnerverbunds und Remotezugriff für externe Benutzer
+# <a name="verify-federation-and-remote-access-for-external-users"></a>Überprüfen des Partnerverbunds und des Remotezugriffs für externe Benutzer
 
 Nach dem Übergang der partnerverbundroute, der Skype für Business Server 2019 Edge-Server, sollten Sie Funktionstests aus, um sicherzustellen, dass der Partnerverbund erwartungsgemäß ausgeführt wird, durchführen. Tests für den Zugriff externer Benutzer sollte jede Art von externer Benutzer enthalten, die Ihre Organisation einige oder alle der folgenden einschließlich unterstützt.
   

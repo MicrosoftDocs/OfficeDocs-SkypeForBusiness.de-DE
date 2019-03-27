@@ -1,5 +1,6 @@
 ---
 title: Switch-CcVersion
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: Das Switch-CcVersion-Cmdlet trennt die Verbindung der ausgeführten Appliance und wechselt zu einer neu bereitgestellten oder backup Einheit.
-ms.openlocfilehash: 651dad80ef5c9907eb6c182527b646da7aa5acc8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 73ae9b4f93a2488dea29f3271565ac3d25759fd1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872859"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  
@@ -58,12 +60,12 @@ Das Switch-CcVersion-Cmdlet verbraucht der Connector Cloud-Dienste auf dem Vermi
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
 
--
+Keine 
   
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine
+Keine 
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>

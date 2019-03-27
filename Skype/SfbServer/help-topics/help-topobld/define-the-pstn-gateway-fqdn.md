@@ -1,5 +1,6 @@
 ---
 title: Definieren des FQDN des PSTN-Gateways
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: Geben Sie den vollqualifizierten Domänennamen (FQDN) des öffentlichen Telefonnetz (Network, PSTN)-Gateways, die Ihrer Enterprise-VoIP-Komponenten mit einem PSTN oder private Branch Exchange, (Nebenstellenanlage PBX) verbunden wird.
-ms.openlocfilehash: 2f1c8eea8a8d3334d5c95e0b606799ad2f9c5f6b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 586b59185187379b2f93bb0e7a67383b892153d7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257486"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877888"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Definieren des FQDN des PSTN-Gateways
 

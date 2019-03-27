@@ -1,5 +1,6 @@
 ---
-title: Federation Route Einstellungen – Erweiterung
+title: Einstellungen für die Partnerverbundroute – Erweiterung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn eine Zuweisung der partnerverbundroute Route festlegen möchten, müssen Sie zuerst den Verbund aktiviert werden, auf dem Edge-Server oder Pool für Edge-Server verfügen. Wenn auf dem Edge-Server oder Pool nicht den Verbund aktiviert ist, werden die Federation Route Zuordnung Einstellungen für die Website nicht geändert.
-ms.openlocfilehash: 201fa7b556cc3a12c422145cf46c844faafb1cb4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 49709f5c4a91e25efb14cc4b2c321c99fec89b68
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371781"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873338"
 ---
-# <a name="federation-route-settings-expander"></a>Federation Route Einstellungen – Erweiterung
+# <a name="federation-route-settings-expander"></a>Einstellungen für die Partnerverbundroute – Erweiterung
  
 Wenn eine Zuweisung der partnerverbundroute Route festlegen möchten, müssen Sie zuerst den Verbund aktiviert werden, auf dem Edge-Server oder Pool für Edge-Server verfügen. Wenn auf dem Edge-Server oder Pool nicht den Verbund aktiviert ist, werden die Federation Route Zuordnung Einstellungen für die Website nicht geändert.
 

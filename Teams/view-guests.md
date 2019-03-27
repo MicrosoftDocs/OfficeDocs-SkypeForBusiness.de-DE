@@ -1,5 +1,6 @@
 ---
 title: Anzeigen von Gastbenutzern in einem Team
+ms.reviewer: ''
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
@@ -15,12 +16,12 @@ f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticl
 description: Hier erfahren Sie, wie Administratoren Informationen zu Gastbenutzern in Microsoft Teams anzeigen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a5db8c39ace9dc3682441495000f61a7a2523f9
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 9a54d9f23bd32fd84e53f5e285014b92679000f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649140"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873605"
 ---
 <a name="view-guest-users-in-a-team"></a>Anzeigen von Gastbenutzern in einem Team
 ==========================

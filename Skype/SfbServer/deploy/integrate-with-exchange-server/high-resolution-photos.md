@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren Sie die Verwendung von hoch auflösenden Fotos in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 'Zusammenfassung: Konfigurieren Sie die Verwendung von hoch auflösenden Fotos in Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server.'
-ms.openlocfilehash: 47e9e0f4d2d1c49a7d3fe916cbffa8e87d1b277b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 56fef2cfa8c62a66698c2232c9273cdb5604b5b8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375855"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875433"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Konfigurieren Sie die Verwendung von hoch auflösenden Fotos in Skype für Business Server
  
@@ -24,7 +25,7 @@ ms.locfileid: "25375855"
   
 In Skype für Business Server können Fotos in Exchange Server 2016 oder Exchange Server 2013 Postfach eines Benutzers, die bis zu 648 x 648 Pixel Foto Größen ermöglicht gespeichert werden. Exchange Server darüber hinaus können diese Fotos in anderen Produkten automatisch angepasst, je nach Bedarf. In der Regel bedeutet, dass drei verschiedenen Foto Größen und Lösungen:
   
-- 64 x 64 Pixel: die für das thumbnailPhoto-Attribut in Active Directory verwendete Größe. Wenn Sie ein Foto in Exchange Server hochladen, Exchange automatisch ein 64 Pixel von 64 Pixel-Version dieses Foto erstellen und aktualisieren ThumbnailPhoto-Attribut des Benutzers. Beachten Sie jedoch, dass die Umkehrung nicht true ist: Wenn Sie das Attribut ThumbnailPhoto in Active Directory manuell aktualisieren das Foto im Exchange-Postfach des Benutzers wird nicht automatisch aktualisiert werden.
+- 64 x 64 Pixel: die für das „thumbnailPhoto“-Attribut in Active Directory verwendete Größe. Wenn Sie ein Foto in Exchange Server hochladen, Exchange automatisch ein 64 Pixel von 64 Pixel-Version dieses Foto erstellen und aktualisieren ThumbnailPhoto-Attribut des Benutzers. Beachten Sie jedoch, dass die Umkehrung nicht true ist: Wenn Sie das Attribut ThumbnailPhoto in Active Directory manuell aktualisieren das Foto im Exchange-Postfach des Benutzers wird nicht automatisch aktualisiert werden.
     
 - 96 x 96 Pixel, für die Verwendung in Microsoft Outlook 2013 Web App, Microsoft Outlook 2013, Skype für Business Web App und Skype für Unternehmen.
     

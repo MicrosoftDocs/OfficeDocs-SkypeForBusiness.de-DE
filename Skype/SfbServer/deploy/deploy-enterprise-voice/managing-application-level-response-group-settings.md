@@ -1,5 +1,6 @@
 ---
 title: Verwalten von reaktionsgruppeneinstellungen auf Anwendungsebene in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Verwalten von auf Anwendungsebene reaktionsgruppeneinstellungen, wie Musik halten und Rückruf Einstellungen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 4a44ee8988925025b81eac6bd1ee340a3bbef81b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ceb59b041918836f00f2a568ab8f93f638ecdac5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23890943"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873696"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Verwalten von reaktionsgruppeneinstellungen auf Anwendungsebene in Skype für Unternehmen
  
 Verwalten von auf Anwendungsebene reaktionsgruppeneinstellungen, wie Musik halten und Rückruf Einstellungen in Skype für Business Server Enterprise-VoIP.
   
-Anwendungsebene Einstellungen für die Anwendung "Reaktionsgruppe" umfassen die Standardkonfiguration für die Musik halten, die standardmäßige Musik halten Audiodatei, die Agents bei Kulanzfrist und der anrufkontextkonfiguration. Pro Pool können Sie nur eine Gruppe von Einstellungen auf Anwendungsebene definieren. Verwenden Sie das Cmdlet **Get-CsRgsConfiguration** aus, um Einstellungen auf Anwendungsebene anzuzeigen. Um die Einstellungen auf Anwendungsebene ändern möchten, verwenden Sie das Cmdlet " **Set-CsRgsConfiguration** ".
+Anwendungsebene Einstellungen für die Anwendung "Reaktionsgruppe" umfassen die Standardkonfiguration für die Musik halten, die standardmäßige Musik halten Audiodatei, die Agents bei Kulanzfrist und der anrufkontextkonfiguration. Pro Pool können Sie nur eine Gruppe von Einstellungen auf Anwendungsebene definieren. Verwenden Sie zum Anzeigen der Einstellungen auf Anwendungsebene das Cmdlet **Get-CsRgsConfiguration**. Wenn Sie die Einstellungen auf Anwendungsebene ändern möchten, verwenden Sie das Cmdlet **Set-CsRgsConfiguration**.
   
 Die Standard-Wartemusik wird wiedergegeben, wenn ein Anruf in der Warteschleife platziert wird, und auch nur dann, wenn keine benutzerdefinierte Wartemusik definiert wurde. Der Anrufkontext ist nur für Warteschleifen verfügbar, die interaktiven Workflows zugeordnet sind. Wenn der Anrufkontext aktiviert ist, kann ein Agent Informationen wie die Wartezeit des Anrufers oder Fragen und Antworten zu einem Workflow anzeigen, wenn der Anruf empfangen wird.
   

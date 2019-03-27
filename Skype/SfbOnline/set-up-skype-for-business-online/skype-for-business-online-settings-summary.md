@@ -1,5 +1,6 @@
 ---
 title: Zusammenfassung der Skype for Business Online-Einstellungen
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Diese Zusammenfassung von Skype für Business Unternehmens- und Einstellungen helfen Ihnen die Weitere Informationen zu öffentlichen Instant Messaging-Diensten, Besprechungsanfragen, Aufzeichnung Anrufe Besprechungen und vieles mehr.  '
-ms.openlocfilehash: 95368d06cbd243aa5b57b7e68ec1e99db81b2fb0
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: df16f6893da94e456bc873a74c8e0a1639eda3db
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865597"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876063"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Zusammenfassung der Skype for Business Online-Einstellungen
 

@@ -1,5 +1,6 @@
 ---
 title: Komponenten und Topologien für die anrufsteuerung in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Planung für die anrufsteuerung (CAC), wenn Sie einem MPLS-Netzwerk, einen SIP-Trunk oder ein Drittanbieter-PSTN-Gateway oder einer Nebenstellenanlage verfügen. Gilt für Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: f43b111d0ef3260c34b53e27a903de20fdf676ef
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7022ade98dbd614023a4faaea283b939fa658e73
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887672"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872838"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Komponenten und Topologien für die anrufsteuerung in Skype für Unternehmen
 
@@ -52,14 +53,14 @@ Die folgende Abbildung zeigt ein Beispiel für die Bereitstellung der Anrufsteue
 
 Zur Konfiguration der Anrufsteuerung für einen SIP-Trunk müssen Sie während der Bereitstellung der Anrufsteuerung die folgenden Aufgaben ausführen:
 
-1. Erstellen eines Netzwerkstandorts, der den Anbieter von Internettelefoniediensten repräsentiert. Zuordnen des Netzwerkstandorts zu einer geeigneten Netzwerkregion und Zuweisen eines Bandbreitenwerts von Null für Audio und Video an diesem Netzwerkstandort. Weitere Informationen hierzu finden Sie unter [Konfigurieren von Netzwerkstandorten für die Anrufsteuerung](https://technet.microsoft.com/library/afcea38f-5789-45ec-97af-c6e38364950c.aspx) in der Bereitstellungsdokumentation.
+1. Erstellen eines Netzwerkstandorts, der den Anbieter von Internettelefoniediensten repräsentiert. Zuordnen des Netzwerkstandorts zu einer geeigneten Netzwerkregion und Zuweisen eines Bandbreitenwerts von Null für Audio und Video an diesem Netzwerkstandort. Ausführliche Informationen finden Sie unter [Configure Network Sites for CAC](https://technet.microsoft.com/library/afcea38f-5789-45ec-97af-c6e38364950c.aspx) in der Bereitstellungsdokumentation.
 
     > [!NOTE]
     > Für den Anbieter von Internettelefoniediensten ist diese Netzwerkstandortkonfiguration nicht funktionsfähig. Die Bandbreitenrichtlinienwerte werden tatsächlich in Schritt 2 angewendet.
 
 2. Erstellen Sie eine standortübergreifende Verbindung für den SIP-Trunk mit den entsprechenden Parameterwerten für die Website, die Sie in Schritt 1 erstellt haben. Verwenden Sie beispielsweise den Namen des den Netzwerkstandort in Ihrem Unternehmen als Wert des Parameters NetworkSiteID1 und den Netzwerkstandort ITSP als Wert des Parameters NetworkSiteID2. Weitere Informationen hierzu finden Sie unter [Erstellen von standortübergreifenden Netzwerkrichtlinien in Skype für Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) in der Dokumentation zur Bereitstellung und [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
 
-3. Die IP-Adresse von der Controller des (SCB) Medienendpunkt aus Ihrem ITSP. Fügen Sie diese IP-Adresse mit der Subnetzmaske 32 zu dem Netzwerkstandort hinzu, der den Anbieter von Internettelefoniediensten repräsentiert. Weitere Informationen hierzu finden Sie unter [Zuordnen eines Subnetzes zu einem Netzwerkstandort](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+3. Die IP-Adresse von der Controller des (SCB) Medienendpunkt aus Ihrem ITSP. Fügen Sie diese IP-Adresse mit der Subnetzmaske 32 zu dem Netzwerkstandort hinzu, der den Anbieter von Internettelefoniediensten repräsentiert. Ausführliche Informationen finden Sie unter [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
 ## <a name="call-admission-control-with-a-third-party-pstn-gateway-or-pbx"></a>Anrufsteuerung mit einem PSTN-Gateway oder einer Nebenstellenanlage eines Drittanbieters
 
@@ -88,7 +89,7 @@ Dies gilt sowohl für eingehende PSTN-Anrufe an einen Client an Netzwerkstandort
 > Stellen Sie sicher, dass das IP-Subnetz, dem beide Schnittstellen des Vermittlungsservers angehören, konfiguriert und Netzwerkstandort 1 zugeordnet.
 
 > [!NOTE]
-> Weitere Informationen hierzu finden Sie unter [Zuordnen eines Subnetzes zu einem Netzwerkstandort](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+> Ausführliche Informationen finden Sie unter [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
 ### <a name="case-2-cac-between-the-mediation-server-and-a-third-party-pbx-with-media-termination-point"></a>Fall 2: Anrufsteuerung zwischen dem Vermittlungsserver und einer Drittanbieter-Nebenstellenanlage mit Medienendpunkt
 
@@ -113,7 +114,7 @@ Dies gilt sowohl für eingehende PSTN-Anrufe an einen Client an Netzwerkstandort
 > Stellen Sie sicher, dass das IP-Subnetz, dem beide Schnittstellen des Vermittlungsservers angehören, konfiguriert und Netzwerkstandort 1 zugeordnet.
 
 > [!NOTE]
-> Weitere Informationen hierzu finden Sie unter [Zuordnen eines Subnetzes zu einem Netzwerkstandort](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+> Ausführliche Informationen finden Sie unter [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
 ### <a name="case-3-cac-between-the-mediation-server-and-a-third-party-pbx-without-a-media-termination-point"></a>Fall 3: Anrufsteuerung zwischen dem Vermittlungsserver und einer Drittanbieter-Nebenstellenanlage ohne Medienendpunkt
 
@@ -134,6 +135,6 @@ Für Anrufe, die vom Endpunkt von Drittanbietern stammen, die Informationen zu d
 > Stellen Sie sicher, dass das IP-Subnetz, dem beide Schnittstellen des Vermittlungsservers angehören, konfiguriert und Netzwerkstandort 1 zugeordnet.
 
 > [!NOTE]
-> Weitere Informationen hierzu finden Sie unter [Zuordnen eines Subnetzes zu einem Netzwerkstandort](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+> Ausführliche Informationen finden Sie unter [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
 

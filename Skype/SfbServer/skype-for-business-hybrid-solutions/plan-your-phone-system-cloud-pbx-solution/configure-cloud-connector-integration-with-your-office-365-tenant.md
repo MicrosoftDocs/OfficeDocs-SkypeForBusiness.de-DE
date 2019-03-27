@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren der Cloud Connector-Integration mit Ihrem Office 365-Mandanten
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Informationen Sie zum Konfigurieren der Integration mit Cloud mit Ihrem Office 365-Mandanten.
-ms.openlocfilehash: 837775fea5a128dbbb8d143f15064e08d9267756
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 52b66d7870f8416b1dda1a3b5f34f8f028f65557
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729379"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877895"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configure Cloud Connector integration with your Office 365 tenant
  
@@ -42,7 +43,7 @@ Wenn Sie TLS zwischen Vermittlungsservern und Gateways verwenden, müssen Sie di
     
 3. Importieren Sie das Zertifikat der Stammzertifizierungsstelle für das für Ihr Gateway auf dem Vermittlungsserver ausgegebene Zertifikat. Wenn Sie ein SSL-Zertifikat für das Gateway abrufen müssen, können Sie dafür den Zertifizierungsstellen-Dienst verwenden, der auf dem Cloud Connector Active Directory-Computer ausgeführt wird. Gehen Sie dazu folgendermaßen vor:
     
-   - Ändern Sie die vorhandene Webservervorlage zum Aktivieren von authentifizierten Benutzern die Registrierung, oder erstellen Sie eine neue Webserver-Vorlage, um andere Eigenschaften konfigurieren und Aktivieren von authentifizierten Benutzern die Registrierung. Eine detaillierte Anleitung finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/en-us/library/cc730705.aspx).
+   - Ändern Sie die vorhandene Webservervorlage zum Aktivieren von authentifizierten Benutzern die Registrierung, oder erstellen Sie eine neue Webserver-Vorlage, um andere Eigenschaften konfigurieren und Aktivieren von authentifizierten Benutzern die Registrierung. Weitere Informationen finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/en-us/library/cc730705.aspx).
     
    - Fordern Sie ein Zertifikat mit dem Zertifikat-Snap-In an, indem Sie die aktivierte Webservervorlage auswählen. Vergewissern Sie sich, dass Sie als Antragsteller den allgemeinen Namen und den DNS-Namen als alternativen Namen mit dem FQDN des Gateways hinzufügen, und prüfen Sie, dass für „Privater Schlüssel“ unter den Schlüsseloptionen die Option „Privaten Schlüssel exportierbar machen“ ausgewählt ist. 
     
@@ -54,7 +55,7 @@ Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihrer Domäne in Off
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>Hinzufügen von DNS-Datensätzen in Office 365 für Ihre Edges
 
-Fügen Sie Ihrem Office 365-Mandanten die folgenden DNS-Datensätze hinzu. Informationen zum Hinzufügen von DNS-Datensätzen zu Ihrem Office 365-Mandanten finden Sie unter [Hinzufügen oder Bearbeiten von benutzerdefinierten DNS-Datensätzen in Office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
+Fügen Sie Ihrem Office 365-Mandanten die folgenden DNS-Datensätze hinzu. Informationen dazu, wie Sie Ihre Office 365-Mandanten DNS-Datensätze hinzufügen finden Sie unter [Hinzufügen oder Bearbeiten benutzerdefinierter DNS-Einträgen in Office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
   
 1. Fügen Sie einen DNS-A-Eintrag für Zugriffs-Edges hinzu.
     
@@ -66,7 +67,7 @@ Fügen Sie Ihrem Office 365-Mandanten die folgenden DNS-Datensätze hinzu. Infor
 
 Führen Sie das folgende Cmdlet in einer remote-PowerShell-Sitzung, um hybridkonnektivität zwischen Ihrer Skype für Business Cloud Connector Edition-Bereitstellung und Ihres Office 365-Mandanten zu konfigurieren. Gewusst wie: Einrichten einer PowerShell-Remotesitzung finden Sie unter: [Einrichten des Computers für Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
   
-Mit dem Cmdlet wird der externe FQDN des Zugriffsedge eingerichtet. In der ersten der Befehle die \<externer FQDN der Access Edge\> sollte demjenigen, der für die SIP-Zugriffs-Edgeservers-Rolle sein. In der Standardeinstellung sollte dies ap.\<Domänennamen\>.
+Das Cmdlet legt den externen FQDN für Zugriffs-Edges fest. In der ersten der Befehle die \<externer FQDN der Access Edge\> sollte demjenigen, der für die SIP-Zugriffs-Edgeservers-Rolle sein. In der Standardeinstellung sollte dies ap.\<Domänennamen\>.
   
 ```
 Set-CsTenantHybridConfiguration -PeerDestination <External Access Edge FQDN> -UseOnPremDialPlan $false
@@ -88,7 +89,7 @@ Wenn Sie TLS zwischen Vermittlungsservern und Gateways verwenden, müssen Sie di
     
 3. Importieren Sie das Zertifikat der Stammzertifizierungsstelle für das für Ihr Gateway auf dem Vermittlungsserver ausgegebene Zertifikat. Wenn Sie ein SSL-Zertifikat für das Gateway abrufen müssen, können Sie dafür den Zertifizierungsstellen-Dienst verwenden, der auf dem Cloud Connector Active Directory-Computer ausgeführt wird. Gehen Sie dazu folgendermaßen vor:
     
-   - Ändern Sie die vorhandene Webservervorlage, um die Registrierung authentifizierter Benutzer zuzulassen, oder erstellen Sie eine neue Webservervorlage, um andere Eigenschaften zu konfigurieren und die Registrierung authentifizierter Benutzer zuzulassen. Eine detaillierte Anleitung finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/library/cc730705.aspx).
+   - Ändern Sie die vorhandene Webserver-Vorlage, damit sich authentifizierte Benutzer registrieren können, oder erstellen Sie eine neue Webserver-Vorlage, um andere Eigenschaften zu konfigurieren und um authentifizierten Benutzern die Registrierung zu ermöglichen. Weitere Informationen finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/library/cc730705.aspx).
     
    - Fordern Sie ein Zertifikat mit dem Zertifikat-Snap-In an, indem Sie die aktivierte Webservervorlage auswählen. Vergewissern Sie sich, dass Sie als Antragsteller den allgemeinen Namen und den DNS-Namen als alternativen Namen mit dem FQDN des Gateways hinzufügen, und prüfen Sie, dass für „Privater Schlüssel“ unter den Schlüsseloptionen die Option „Privaten Schlüssel exportierbar machen“ ausgewählt ist. 
     
@@ -111,9 +112,9 @@ Aktivieren Sie nach dem Hinzufügen Ihrer Benutzer zu Office 365, deren Konten f
   ```
 
     > [!NOTE]
-    > Sie können die Identität eines Benutzers auch über seine SIP-Adresse, den Benutzerprinzipalnamen (UPN), den Domänennamen und Benutzernamen (Domäne\Benutzername) und den Anzeigenamen in Active Directory („Bob Kelly“) kenntlich machen.  
+    > Sie können die Identität eines Benutzer auch über seine SIP-Adresse, den Benutzerprinzipalnamen (UPN), den Domänennamen (Domäne\Benutzername) und den Displaynamen in Active Directory („Bob Kelly“) kenntlich machen.  
   
-Dann können Sie anhand des folgenden Skripts überprüfen, ob die Benutzer hinzugefügt und aktiviert wurden:
+Mit dem folgenden Skript können Sie dann überprüfen, ob die Benutzer hinzugefügt und aktiviert wurden:
   
 ```
 # Input the user name you want to verify
@@ -129,9 +130,9 @@ $user.HostedVoiceMail
 $user.VoicePolicy
 ```
 
-Sie müssen festlegen, ob Ihre Benutzer internationale Anrufe tätigen dürfen. Standardmäßig sind internationale Anrufe aktiviert. Verwenden Sie das Skype for Business Admin Center online, um internationale Anrufe für die Benutzer zu deaktivieren oder zu aktivieren.
+Sie müssen festlegen, ob Ihre Benutzer internationale Anrufe tätigen können. Standardmäßig sind internationale Anrufe aktiviert. Im Online-Skype for Business-Admin Center können Sie die Option für internationale Anrufe aktivieren bzw. deaktivieren.
   
-Um internationale Anrufe für einzelne Benutzer zu deaktivieren, führen Sie in der Skype for Business Online-PowerShell das folgende Cmdlet aus:
+Um internationale Anrufe auf einer Pro-Benutzer-Basis zu deaktivieren, führen Sie das folgende Cmdlet in Skype for Business Online PowerShell aus:
   
 ```
 Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $user

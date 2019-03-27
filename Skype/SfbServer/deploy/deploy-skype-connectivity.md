@@ -1,5 +1,6 @@
 ---
 title: Skype-Konnektivität in Skype für Business Server bereitstellen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Zusammenfassung: Erfahren Sie, wie Skype für Business Server mit Skype Consumer verbunden wird. Wird auch als Skype-Konnektivität bezeichnet.'
-ms.openlocfilehash: 33b24ff4ea609240bbb1a1bbea4a8e25154dc14a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3dd48661b230f4e780505be4aeb05bbe9ff82340
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372453"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874507"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Skype-Konnektivität in Skype für Business Server bereitstellen
  
@@ -80,7 +81,7 @@ Für Office 365 Small Business Premium: Melden Sie sich bei Office 365, und wech
   
 Weitere Informationen zur Skype for Business Online-Verwaltung finden Sie unter:
   
-- [Benutzern gestatten, externe Skype for Business-Benutzer zu kontaktieren](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+- [Zulassen, dass Benutzer externe Skype for Business-Benutzer kontaktieren](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 
 - [Versuchen, wenn Sie Sofortnachrichten Skype für Business oder Skype externe Kontakte können nicht zu](https://support.office.com/en-us/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
     
@@ -231,15 +232,15 @@ Die folgende Tabelle umreißt die Status der Interoperabilität zwischen der jü
   
 |**Client**|**Skype-Verzeichnissuche und Hinzufügen von Kontakten**|**Skype Audio/Video, Chatnachrichten-Interoperabilität**|
 |:-----|:-----|:-----|
-|Skype for Business  <br/> |Ja  <br/> |Ja  <br/> |
+|Skype for Business  <br/> |Ja   <br/> |Ja   <br/> |
 |Skype for Business auf dem Mac  <br/> |Hinzufügen möglich (keine Suche)  <br/> |Ja  <br/> |
 |Lync Desktop 2013  <br/> |Hinzufügen möglich (keine Suche)  <br/> |Ja  <br/> |
-|Lync Web App – online und lokal  <br/> |n/v  <br/> |n/v  <br/> |
+|Lync Web App – online und lokal  <br/> |-  <br/> |n/v  <br/> |
 |Lync Mobile – Windows Phone  <br/> |In Kürze verfügbar  <br/> |Ja  <br/> |
 |Lync Mobile – Android  <br/> |In Kürze verfügbar  <br/> |Ja  <br/> |
 |Lync Mobile – iOS  <br/> |In Kürze verfügbar  <br/> |Ja  <br/> |
 |Lync Room System  <br/> |In Kürze verfügbar  <br/> |Ja  <br/> |
-|Lync Modern App (Windows 8.1)  <br/> |Ja  <br/> |Ja  <br/> |
+|Lync Modern App (Windows 8.1)  <br/> |Ja  <br/> |Ja   <br/> |
 |Lync Mac 2011  <br/> |Hinzufügen möglich (keine Suche)  <br/> |Ja  <br/> |
 |Lync Desktop 2010  <br/> |Hinzufügen möglich (keine Suche)  <br/> |Ja  <br/> |
 |Lync Phone Edition  <br/> |-  <br/> |n/v  <br/> |

@@ -1,5 +1,6 @@
 ---
-title: "\"tbllastinviteid\""
+title: tblLastInviteId
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 222b3508-5963-4ddc-b4f3-e8412767e61b
 description: "\"tbllastinviteid\" enthält die letzte einladungs-ID, die generierte (und in der TblPrincipalInvites-Tabelle verwendete) für jeden Benutzer."
-ms.openlocfilehash: 5f94714bfe42d6777907f3ce3e467e4add7a00d8
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 977911150992b2e90b7dc344af0550a25ad77221
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504852"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873937"
 ---
-# <a name="tbllastinviteid"></a>"tbllastinviteid"
+# <a name="tbllastinviteid"></a>tblLastInviteId
  
 "tbllastinviteid" enthält die letzte einladungs-ID, die generierte (und in der TblPrincipalInvites-Tabelle verwendete) für jeden Benutzer.
   

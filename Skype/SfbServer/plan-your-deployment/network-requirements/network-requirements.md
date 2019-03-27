@@ -1,5 +1,6 @@
 ---
 title: Plan network requirements for Skype for Business
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Zusammenfassung: Prüfen der Überlegungen zum Netzwerk-Komponente unter vor der Implementierung von Skype für Business Server.'
-ms.openlocfilehash: e05e40bc460ddddc6d9576d9842ab592f16e1481
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 338a2d273fbba2bd006c5ed5acdd878338333b8a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408172"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877846"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
 **Zusammenfassung:** Überprüfen Sie die Komponente Netzwerkaspekte unter vor der Implementierung von Skype für Business Server.
 
-Noch umfassender und mit zusätzlichen Details werden die in diesen Themen enthaltenen Informationen im Whitepaper zur [Netzwerkplanung, Überwachung und Problembehandlung mit Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) behandelt. Während sich der Inhalt explizit auf Lync 2010 und Lync 2013 bezieht, sind die Kriterien für die Skype für Business Server unverändert.
+Die Informationen in diesen Themen wird in das Whitepaper [Netzwerkplanung, Überwachung und Problembehandlung von Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) mit weiteren Details und Tiefe ebenfalls diskutiert. Während sich der Inhalt explizit auf Lync 2010 und Lync 2013 bezieht, sind die Kriterien für die Skype für Business Server unverändert.
 
 Dienstanbieter entscheidet auch, wenn Ihr Netzwerk wi-Fi sowie verkabelten Zugriff beinhaltet, im Whitepaper [Bereitstellung von Lync 2013 Real-Time Communications über Wi-Fi](https://www.microsoft.com/en-us/download/details.aspx?id=36494) ist eine gute Verweis und gleichermaßen auf Skype für Business Server.
 
@@ -47,7 +48,7 @@ Zur Integration in das Telefonfestnetz (Public Switched Telephone Network, PSTN)
 
 Netzwerkanforderungen für Audio/Video (A / V) in einer Skype für Business Server-Bereitstellung lauten wie folgt:
 
-- Wenn Sie einen einzelnen Edgeserver oder ein Edge-Pool mit DNS-Lastenausgleich bereitstellen, können Sie die _externe_ Firewall zum Ausführen der Netzwerkadressübersetzung (NAT) konfigurieren. Sie können keine NAT ausführen, um die _interne_ Firewall konfigurieren. Weitere Informationen hierzu finden Sie unter [Port und Planung Firewall](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
+- Wenn Sie einen einzelnen Edgeserver oder ein Edge-Pool mit DNS-Lastenausgleich bereitstellen, können Sie die _externe_ Firewall zum Ausführen der Netzwerkadressübersetzung (NAT) konfigurieren. Die _internal_-Firewall unterstützt keine Konfiguration mit NAT. Weitere Informationen hierzu finden Sie unter [Port und Planung Firewall](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
 
     > [!IMPORTANT]
     > Wenn Sie einen edgepool haben und ein Hardwaregerät zum Lastenausgleich verwenden, müssen Sie öffentliche IP-Adressen verwenden, auf dem Edge-Servern und können keine NAT für die Server oder Pool an Ihre NAT-fähigen Geräten (beispielsweise eine Firewall Appliance oder LAN wechseln. Weitere Informationen hierzu finden Sie unter [Edge-Server-Szenarien in Skype für Business Server](../edge-server-deployments/scenarios.md).
@@ -184,10 +185,10 @@ Zusätzlich zu der Bandbreite, die für den RTP-Datenverkehr (Real-Time Transpor
 
 **RTCP-Bandbreite**
 
-|**Media**|**Maximale RTCP-Bandbreite (KBit/s)**|
+|**Medien**|**Maximale RTCP-Bandbreite (KBit/s)**|
 |:-----|:-----|
 |Audio  <br/> |5  <br/> |
-|Video (es wird nur H.264 oder RTVideo gesendet/empfangen)  <br/> | 10  <br/> |
+|Video (es wird nur H.264 oder RTVideo gesendet/empfangen)  <br/> |10  <br/> |
 |Video (H.264 und RTVideo werden gesendet/empfangen)  <br/> |15  <br/> |
 
 Für die Kapazitätsplanung sind die folgenden beiden Bandbreiten von Interesse:
@@ -202,7 +203,7 @@ In den folgenden Tabellen finden Sie Werte für verschiedene Szenarien.
 
 **Planen der Audio/Videokapazität für Peer-to-Peer-Sitzungen**
 
-|**Media**|**Codec**|**Typische Streambandbreite (KBit/s)**|**Maximale Streambandbreite ohne FEC**|**Maximale Streambandbreite mit FEC**|
+|**Medien**|**Codec**|**Typische Streambandbreite (KBit/s)**|**Maximale Streambandbreite ohne FEC**|**Maximale Streambandbreite mit FEC**|
 |:-----|:-----|:-----|:-----|:-----|
 |Audio  <br/> |RTAudio, Breitband  <br/> |39.8  <br/> |62  <br/> |91  <br/> |
 |Audio  <br/> |RTAudio, Schmalband  <br/> |29.3  <br/> |44.8  <br/> |56.6  <br/> |
@@ -214,7 +215,7 @@ In den folgenden Tabellen finden Sie Werte für verschiedene Szenarien.
 
 **Planen der Audio-/Videokapazität für Konferenzen**
 
-|**Media**|**Typischer Codec**|**Typische Streambandbreite (KBit/s)**|**Maximale Streambandbreite ohne FEC**|**Maximale Streambandbreite mit FEC**|
+|**Medien**|**Typischer Codec**|**Typische Streambandbreite (KBit/s)**|**Maximale Streambandbreite ohne FEC**|**Maximale Streambandbreite mit FEC**|
 |:-----|:-----|:-----|:-----|:-----|
 |Audio  <br/> |G.722  <br/> |46.1  <br/> |100.6  <br/> |164.6  <br/> |
 |Audio  <br/> |Siren  <br/> |25.5  <br/> |52.6  <br/> |68.6  <br/> |
@@ -241,7 +242,7 @@ Die typische Streambandbreite für Panoramavideos basiert auf Geräten, die Pano
 
 **Planen der Audiokapazität für PSTN**
 
-|**Media**|**Typischer Codec**|**Typische Streambandbreite (KBit/s)**|**Maximale Streambandbreite ohne FEC**|**Maximale Streambandbreite mit FEC**|
+|**Medien**|**Typischer Codec**|**Typische Streambandbreite (KBit/s)**|**Maximale Streambandbreite ohne FEC**|**Maximale Streambandbreite mit FEC**|
 |:-----|:-----|:-----|:-----|:-----|
 |Audio  <br/> |G. 711 (einschließlich PSTN-Teilnehmer in Konferenzen)  <br/> |64.8  <br/> |97  <br/> |161  <br/> |
 |Audio  <br/> |RTAudio, Schmalband  <br/> |30.9  <br/> |44.8  <br/> |56.6  <br/> |
@@ -274,7 +275,7 @@ Skype für Business Server bietet umfassende Unterstützung für QoS:, dass bede
 
 QoS wird in das Whitepaper [Netzwerkplanung, Überwachung und Problembehandlung von Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) mit weiteren Details und Tiefe ebenfalls diskutiert. Während sich der Inhalt explizit auf Lync 2010 und Lync 2013 bezieht, sind die Kriterien für die Skype für Business Server unverändert.
 
-## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
+## <a name="see-also"></a>Siehe auch
 <a name="man_QOS"> </a>
 
 [Plan für IPv6 in Skype for Business](ipv6.md)

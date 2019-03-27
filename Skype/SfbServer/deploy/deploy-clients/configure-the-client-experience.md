@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren der Clientumgebung mit Skype für Business 2015
+ms.reviewer: ''
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Konfigurieren der Clientumgebung für Skype für Geschäftsbenutzer.'
-ms.openlocfilehash: 9e2a7d53788eda36fc18cb9094cde096864ce2ba
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b8d258236a5254aa1dab5e86edb9586ea514c689
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375358"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875792"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Konfigurieren der Clientumgebung mit Skype für Business 2015
  
@@ -98,7 +99,7 @@ Wenn beim ersten Start des Skype for Business-Clients die Lync-Benutzeroberfläc
 
 Die Lync-Benutzeroberfläche wird nun angezeigt, wenn Benutzer den Skype for Business-Client zum ersten Mal starten.
   
-### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>Steuern der Anzeige des Lernprogramms auf der Willkommensseite
+### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>Steuern der Anzeige des Lernprogramms auf der Willkommenseite
 
 Wenn Benutzer die Skype für Business-Client öffnen, ist das Standardverhalten Willkommen angezeigt, die *meisten Benutzer des Clientcomputers fordern 7 Tipps*enthält. Sie können die Anzeige der Willkommensseite ausschalten, Benutzern aber die Möglichkeit geben, dennoch auf das Lernprogramm zuzugreifen, indem Sie den folgenden Registrierungswert auf dem Clientcomputer hinzufügen:
   
@@ -110,7 +111,7 @@ Der Schlüssel sollte wie folgt aussehen:
 
 ### <a name="turn-off-the-client-tutorial"></a>Ausschalten des Client-Lernprogramms
 
-Wenn Sie nicht möchten, dass die Benutzer auf das Lernprogramm zugreifen, können Sie das Client-Lernprogramm mit dem folgenden Registrierungswert ausschalten:
+Wenn Sie nicht möchten, dass die Benutzer auf das Lernprogramm zugreifen, können Sie das Clientlernprogramm mit dem folgenden Registrierungswert ausschalten:
   
 Erstellen Sie im Schlüssel **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** einen neuen **DWORD-Wert (32-Bit)**. Der **Wertname** muss **TutorialFeatureEnabled** sein und die **Wertdaten** müssen auf **0** festgelegt werden.
   
@@ -127,14 +128,14 @@ Sie können das Lernprogramm wieder aktivieren, indem Sie die **Wertdaten** auf 
 Wenn Ihre Organisation sowohl Skype für Business Server und Lync Server bereitgestellt wurde, wird die Clientumgebung je nach Server-Versionen und die Skype UI Einstellung davon abweichen. Die folgende Tabelle zeigt die anfängliche Clientumgebung basierend auf der Serverversion und der Benutzeroberflächeneinstellung:
   
 
-|**Serverversion**|**EnableSkypeUI-Einstellung**|**Clientumgebung**|
+|**Serverversion**|**EnableSkypeUI-Einstellung**|**Client-Erfahrung**|
 |:-----|:-----|:-----|
 |Skype for Business Server |Standard  <br/> |Skype for Business  <br/> |
 |Skype for Business Server  |True  <br/> |Skype for Business  <br/> |
-|Skype for Business Server  |False  <br/> |Benutzer aufgefordert werden, auf den Lync-Modus wechseln (Benutzer kann zu wechseln Skype für Unternehmen später, wenn Sie die UI-Einstellung auf $true ändern)  <br/> |
+|Skype for Business Server  |Falsch  <br/> |Benutzer aufgefordert werden, auf den Lync-Modus wechseln (Benutzer kann zu wechseln Skype für Unternehmen später, wenn Sie die UI-Einstellung auf $true ändern)  <br/> |
 |Lync Server 2010 oder Lync Server 2013 (mit der richtigen Patches)  <br/> |Standard  <br/> |Benutzer aufgefordert werden, auf den Lync-Modus wechseln (Benutzer kann zu wechseln Skype für Unternehmen später, wenn Sie die UI-Einstellung auf $true ändern)  <br/> |
 |Lync Server 2010 oder Lync Server 2013 (mit der richtigen Patches)  <br/> |True  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 oder Lync Server 2013 (mit der richtigen Patches)  <br/> |False  <br/> |Benutzer aufgefordert werden, auf den Lync-Modus wechseln (Benutzer kann zu wechseln Skype für Unternehmen später, wenn Sie die UI-Einstellung auf $true ändern)  <br/> |
+|Lync Server 2010 oder Lync Server 2013 (mit der richtigen Patches)  <br/> |Falsch  <br/> |Benutzer aufgefordert werden, auf den Lync-Modus wechseln (Benutzer kann zu wechseln Skype für Unternehmen später, wenn Sie die UI-Einstellung auf $true ändern)  <br/> |
 |Lync Server 2010 oder Lync Server 2013 (ohne Patches)  <br/> |Standard  <br/> |Benutzer aufgefordert werden, auf den Lync-Modus wechseln (Benutzer kann keine wechseln Sie zu Skype für Unternehmen weiter unten)  <br/> |
    
 Die folgende Tabelle zeigt die Clientumgebung, wenn der Administrator die ursprüngliche Einstellung für die Erfahrung Skype UI ändert:
@@ -143,9 +144,9 @@ Die folgende Tabelle zeigt die Clientumgebung, wenn der Administrator die urspr�
 |**Serverversion**|**EnableSkypeUI-Einstellung**|**Client-Benutzeroberfläche = Lync**|**Client-Benutzeroberfläche = Skype for Business**|
 |:-----|:-----|:-----|:-----|
 |Skype for Business Server |True  <br/> |Benutzer aufgefordert werden, wechseln Sie zu Skype für Unternehmen  <br/> |Skype for Business  <br/> |
-|Skype for Business Server |False  <br/> |Lync-Modus  <br/> |Benutzer aufgefordert werden, auf den Lync-Modus wechseln  <br/> |
+|Skype for Business Server |Falsch  <br/> |Lync-Modus  <br/> |Benutzer aufgefordert werden, auf den Lync-Modus wechseln  <br/> |
 |Lync Server 2010 oder Lync Server 2013 (mit der richtigen Patches)  <br/> |True  <br/> |Benutzer aufgefordert werden, wechseln Sie zu Skype für Unternehmen  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 oder Lync Server 2013 (mit der richtigen Patches)  <br/> |False  <br/> |Lync-Modus  <br/> |Benutzer aufgefordert werden, auf den Lync-Modus wechseln  <br/> |
+|Lync Server 2010 oder Lync Server 2013 (mit der richtigen Patches)  <br/> |Falsch  <br/> |Lync-Modus  <br/> |Benutzer aufgefordert werden, auf den Lync-Modus wechseln  <br/> |
 |Lync Server 2010 oder Lync Server 2013 (ohne Patches)  <br/> |Standard  <br/> |Lync-Modus (kann nicht wechseln zu Skype für Unternehmen)  <br/> |Lync-Modus (kann nicht wechseln zu Skype für Unternehmen)  <br/> |
    
 Die Patch-Versionen erforderlich, um die Konfiguration der Skype für Business Client verwalten sind:

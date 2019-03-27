@@ -1,5 +1,6 @@
 ---
 title: Tabelle "appsharingmetricsthreshold"
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 description: Die Tabelle "appsharingmetricsthreshold" enthält optimale und zulässige Werte für Quality of Experience-Metriken, die mit der Anwendungsfreigabe verwendet. Diese Schwellenwerte werden verwendet, um festzustellen, ob die Anwendungsfreigabe Erfahrung als schlecht klassifiziert werden sollen.
-ms.openlocfilehash: 1ccf60fc9668d2ad2943929affad6fd4a078c789
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bddad99803ab6683985b0f44ed5df509b84344f3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877042"
 ---
 # <a name="appsharingmetricsthreshold-table"></a>Tabelle "appsharingmetricsthreshold"
  

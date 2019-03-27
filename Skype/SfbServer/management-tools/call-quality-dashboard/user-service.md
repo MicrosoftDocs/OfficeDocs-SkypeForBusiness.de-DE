@@ -1,5 +1,6 @@
 ---
 title: Benutzerdienst für CQD
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: 'Zusammenfassung: Erfahren Sie mehr über den Benutzer-Dienst, der Teil der Repository-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 42268078337e41b2dff595f58963f94656c2fd66
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4ee4594e86b14655c94472b516b9e04da674e3f0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532112"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872881"
 ---
 # <a name="user-service-for-cqd"></a>Benutzerdienst für CQD
  
@@ -49,6 +50,6 @@ In der folgenden Tabelle sind die REST-Vorgänge enthalten.
 |**Vorgang**|**Beschreibung**|
 |:-----|:-----|
 |[Abrufen von Benutzern](get-users.md) <br/> |Gibt eine Liste der Benutzer im Repository.  <br/> |
-|[Benutzer erhalten](get-user.md) <br/> |Gibt einen Benutzerdatensatz zurück.  <br/> |
+|[Abrufen eines Benutzers](get-user.md) <br/> |Gibt einen Benutzerdatensatz zurück.  <br/> |
    
 

@@ -1,5 +1,6 @@
 ---
 title: Definieren eines Gateways im Topologie-Generator in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: 'Zusammenfassung: Erfahren Sie, wie ein PSTN-Gateway im Topologie-Generator in Skype für Business Server definieren.'
-ms.openlocfilehash: 50c5dca09608f6b0ef9046109e434f3ccbbba0d3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 036c6805ab2c4821ee1bb0544b75553ab40c7100
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886796"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876320"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>Definieren eines Gateways im Topologie-Generator in Skype für Business Server
  
@@ -58,7 +59,7 @@ Befolgen Sie diese Schritte, um die Topologie-Generator verwenden, um einen Peer
 9. Geben Sie unter **zugeordneter Vermittlungsserver Port**den Überwachungsport, den der Vermittlungsserver für SIP-Nachrichten vom Gateway verwendet wird.
     
     > [!NOTE]
-    > Mit Unterstützung mehrerer Trunks in Skype für Business Server können Sie mehrere SIP-Signalisierung Ports auf dem Vermittlungsserver für die Kommunikation mit mehreren PSTN-Gateways definieren. Wenn Sie einen Trunk zu definieren, muss der **zugeordneter Vermittlungsserver Port** innerhalb des Bereichs von die Überwachungsports für das jeweilige Protokoll vom Vermittlungsserver zulässig sein. Dieser Portbereich ist unter Skype für Business Server und Vermittlungspools definiert. Mit der rechten Maustaste vermittlungsserverpool von Interesse, und wählen Sie **Eigenschaften bearbeiten**. Geben Sie den Portbereich im Feld **Überwachungsports** ein.
+    > Mit Unterstützung mehrerer Trunks in Skype für Business Server können Sie mehrere SIP-Signalisierung Ports auf dem Vermittlungsserver für die Kommunikation mit mehreren PSTN-Gateways definieren. Wenn Sie einen Trunk zu definieren, muss der **zugeordneter Vermittlungsserver Port** innerhalb des Bereichs von die Überwachungsports für das jeweilige Protokoll vom Vermittlungsserver zulässig sein. Dieser Portbereich ist unter Skype für Business Server und Vermittlungspools definiert. Mit der rechten Maustaste vermittlungsserverpool von Interesse, und wählen Sie **Eigenschaften bearbeiten**. Specify the port range in the **Listening ports** field.
   
 10. Stellen Sie sicher, dass der Peer, den Sie definiert haben, ausgeführt wird und den angegebenen FQDN oder die angegebene IP-Adresse verwendet. Klicken Sie auf **Fertig stellen**.
     

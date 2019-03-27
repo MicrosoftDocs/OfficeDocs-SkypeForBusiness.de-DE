@@ -1,5 +1,6 @@
 ---
 title: Video-Interoperabilität-Server – Festlegen des Knotenbereichs
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 963e6693-26bc-439f-b76d-04389e6ebbf9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator sind online unter Erstellen eines Pools gegenüber in Skype für Business Server beschrieben.
-ms.openlocfilehash: 73652eda2cdb5b8b86f8c1fc0dbae0500d77cc2f
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 93521e524e300c6ebae26a990a8f6857c961e3d0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21059689"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873899"
 ---
 # <a name="video-interop-servers---scope-the-node"></a>Video-Interoperabilität-Server – Festlegen des Knotenbereichs
  

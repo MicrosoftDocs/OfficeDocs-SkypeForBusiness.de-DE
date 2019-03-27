@@ -1,5 +1,6 @@
 ---
-title: Aktualisieren von DNS-SRV-Einträgen
+title: Aktualisieren von DNS SRV-Einträgen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Zum erfolgreichen Durchführen dieses Verfahrens sollten Sie auf dem Server oder Domäne als Mitglied der Gruppe Domänen-Admins oder ein Mitglied der Gruppe "DnsAdmins" angemeldet sein.
-ms.openlocfilehash: f298db10f7030482b604734a1719756af4071ce2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5cdf98d065abbb57b3cb654c8b770f8f1f87500c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027228"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872724"
 ---
-# <a name="update-dns-srv-records"></a>Aktualisieren von DNS-SRV-Einträgen
+# <a name="update-dns-srv-records"></a>Aktualisieren von DNS SRV-Einträgen
 
 Zum erfolgreichen Durchführen dieses Verfahrens sollten Sie auf dem Server oder Domäne als Mitglied der Gruppe Domänen-Admins oder ein Mitglied der Gruppe "DnsAdmins" angemeldet sein.
   
@@ -31,7 +32,7 @@ In diesem Thema wird beschrieben, wie die Datensätze Domain Name System (DNS) n
     
 4. Aktualisieren Sie unter **Host, der diesen Dienst anbietet**den Host FQDN So zeigen Sie auf die Skype für Business Server 2019 Pool ein.
     
-5. Klicken Sie anschließend auf **OK**.
+5. Klicken Sie auf **OK**.
     
 ## <a name="to-verify-that-the-fqdn-of-the-front-end-pool-or-standard-edition-server-can-be-resolved"></a>Um sicherzustellen, dass der FQDN des Front-End-Pool oder Standard Edition-Servers aufgelöst werden kann
 

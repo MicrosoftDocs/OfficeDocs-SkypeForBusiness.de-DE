@@ -1,5 +1,6 @@
 ---
 title: Zentralisierter Protokollierungsdienst in Skype for Business 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Zusammenfassung: Informationen Sie zu den Komponenten und Konfigurationseinstellungen für die zentralisierte Protokollierungsdienst in Skype für Business Server 2015.'
-ms.openlocfilehash: b2234ac1b52ff41108573f6a90a07bfa28c50a58
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6f1766e97c318a11095aa2f064cd09a0785c1562
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372460"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877755"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Zentralisierter Protokollierungsdienst in Skype for Business 2015
  
@@ -53,11 +54,11 @@ Der zentralisierte Protokollierungsdienst ist ein leistungsstarkes Tool zur Prob
     
 **Kommunikation zwischen ClsController und ClsAgent**
 
-![Beziehung zwischen CLSController und CLSAgent](../../media/Ops_CLS_Architecture.jpg)
+![Beziehung zwischen CLSController und CLSAgent.](../../media/Ops_CLS_Architecture.jpg)
   
 Sie Befehle mithilfe der Windows Server-Befehlszeilenschnittstelle oder die Skype für die Business Server-Verwaltungsshell. Die Befehle werden auf dem Computer ausgeführt, bei dem Sie angemeldet sind, und an den lokalen ClsAgent oder an die anderen Computer und Pools in Ihrer Bereitstellung gesendet.
   
-ClsAgent verwaltet eine Indexdatei aller .CACHE-Dateien, die auf dem lokalen Computer vorhanden sind. ClsAgent weist sie so, dass sie über Volumes, die durch die Option CacheFileLocalFolders, nie Verarbeiten von mehr als 80 % aller Volumes (d. h., den Speicherort des lokalen sowie den prozentualen lässt sich mithilfe der **definiert gleichmäßig verteilt werden Set-CsClsConfiguration** Cmdlet). ClsAgent ist außerdem für die Cacheablaufzeiten alter gecachter Ereignisablaufprotokolldateien (ETL-Dateien) vom lokalen Computer zuständig. Nach zwei Wochen (d. h., der Zeitrahmen ist mit dem Cmdlet **"Set-csclsconfiguration"** konfigurierbar) diese Dateien sind in einer Dateifreigabe kopiert und aus dem lokalen Computer gelöscht. Weitere Informationen hierzu finden Sie unter [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Wenn eine Suchanfrage empfangen wird, werden die Suchkriterien verwendet, um die gecachten ETL-Dateien auszuwählen und die Suche anhand der Werte in dem vom Agent geführten Index durchzuführen.
+ClsAgent verwaltet eine Indexdatei aller .CACHE-Dateien, die auf dem lokalen Computer vorhanden sind. ClsAgent ordnet diese so zu, dass sie, entsprechend der Definition der Option „CacheFileLocalFolders“, gleichmäßig auf Volumes verteilt sind und nie mehr als 80 % eines Volumes belegen (der lokale Cachespeicherort und der Prozentsatz sind mit dem Cmdlet **Set-CsClsConfiguration** konfigurierbar). ClsAgent ist außerdem für die Cacheablaufzeiten alter gecachter Ereignisablaufprotokolldateien (ETL-Dateien) vom lokalen Computer zuständig. Nach zwei Wochen (der Zeitrahmen kann mit dem Cmdlet**Set-CsClsConfiguration** konfiguriert werden) werden diese Dateien in eine Dateifreigabe kopiert und vom lokalen Computer gelöscht. Ausführliche Informationen finden Sie unter [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Wenn eine Suchanfrage empfangen wird, werden die Suchkriterien verwendet, um die gecachten ETL-Dateien auszuwählen und die Suche anhand der Werte in dem vom Agent geführten Index durchzuführen.
   
 > [!NOTE]
 > Dateien, die vom lokalen Computer in die Dateifreigabe verschoben wurden, können von ClsAgent durchsucht werden. Sobald ClsAgent die Dateien in die Dateifreigabe verschiebt, werden die Cacheablaufzeiten und das Entfernen von Dateien nicht mehr durch ClsAgent verwaltet. Sie sollten daher eine administrative Aufgabe definieren, die die Größe der Dateien in der Dateifreigabe überwacht und diese Dateien löscht oder archiviert. 
@@ -99,9 +100,9 @@ Der zentralisierte Protokollierungsdienst wird so konfiguriert, dass definieren,
    ```
 
     > [!TIP]
-    > Sie können beschränken oder Erweitern Sie den Bereich der Konfigurationseinstellungen, die durch die Definition zurückgegeben werden `-Identity` und einen Bereich, z. B. "Site: Redmond", um nur die CsClsConfiguration für den Standort "Redmond" zurückzugeben. Wenn Sie Details zu einem bestimmten Teil der Konfiguration möchten, können Sie die Ausgabe in eine andere Windows PowerShell-Cmdlet umleiten. Um beispielsweise Details über die Szenarien zu erhalten, die in der Konfiguration für den Standort „Redmond“ definiert sind, geben Sie Folgendes ein: `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
+    > Sie können beschränken oder Erweitern Sie den Bereich der Konfigurationseinstellungen, die durch die Definition zurückgegeben werden `-Identity` und einen Bereich, z. B. "Site: Redmond", um nur die CsClsConfiguration für den Standort "Redmond" zurückzugeben. Wenn Sie Details zu einem bestimmten Teil der Konfiguration möchten, können Sie die Ausgabe in eine andere Windows PowerShell-Cmdlet umleiten. Angenommen, um Details zu den in der Konfiguration für den Standort "Redmond" definierten Szenarien erhalten möchten, geben Sie Folgendes ein:`Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
   
-     ![Beispielausgabe von Get-CsClsConfiguration](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
+     ![Beispielausgabe von "Get-csclsconfiguration".](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
   
     Das Ergebnis des Cmdlets zeigt die aktuelle Konfiguration des Centralized Logging Service.
     
@@ -110,7 +111,7 @@ Der zentralisierte Protokollierungsdienst wird so konfiguriert, dass definieren,
 |**Identity** <br/> |Identifiziert den Bereich und den Namen dieser Konfiguration. Es gibt nur eine globale Konfiguration sowie eine Konfiguration pro Standort.  <br/> |
 |**Scenarios** <br/> |Auflistung aller Szenarien, die für diese Konfiguration definiert sind.  <br/> |
 |**SearchTerms** <br/> |Definierte Suchbegriffe für die Konfiguration. Office 365, nicht lokalen Bereitstellungen.  <br/> |
-|**Zusammenzufassen** <br/> |Definierte Sicherheitsgruppen, die steuern, welche Mitglieder von Sicherheitsgruppen Computer basierend auf dem Standort, an dem sie sich befinden, anzeigen können. In diesem Kontext-Website ist die Website gemäß Definition im Topologie-Generator.  <br/> |
+|**SecurityGroups** <br/> |Definierte Sicherheitsgruppen, die steuern, welche Mitglieder von Sicherheitsgruppen Computer basierend auf dem Standort, an dem sie sich befinden, anzeigen können. In diesem Kontext-Website ist die Website gemäß Definition im Topologie-Generator.  <br/> |
 |**Regions** <br/> |Definierte Regionen werden verwendet, um Sicherheitsgruppen zu einer Region zusammenzufassen, beispielsweise EMEA.  <br/> |
 |**EtlFileRolloverSizeMB** <br/> |Dieser Parameter gibt die maximale Größe der Protokolldatei vor der Erstellung einer neuen ETL-Datei (Event Trace Log, Ereignis-Ablaufverfolgungsprotokoll) an. Wenn die definierte Größe erreicht ist, wird eine neue Protokolldatei erstellt, auch wenn die in EtlFileRolloverMinutes festgelegte maximale Zeit noch nicht erreicht wurde.  <br/> |
 |**EtlFileRolloverMinutes** <br/> |Die definierte maximale Zeitspanne in Minuten, die für ein Protokoll verstreichen kann, bevor eine neue ETL-Datei erstellt wird. Wenn der Timer abläuft, wird eine neue Protokolldatei erstellt, auch wenn die in EtlFileRolloverSizeMB festgelegte maximale Größe noch nicht erreicht wurde.  <br/> |

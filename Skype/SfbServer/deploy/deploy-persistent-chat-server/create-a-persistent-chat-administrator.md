@@ -1,5 +1,6 @@
 ---
 title: Erstellen eines Administrators für beständigen Chat in Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie eine Administratorrolle für Persistent Chat Server zum Aktivieren von anfängliche Konfiguration und Verwaltung von Persistent Chat-Dienste in Skype für Business Server 2015 zu erstellen.'
-ms.openlocfilehash: df2c62964d6c1d315f6fda04132c829d235e6038
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fb8a222f65f6fe579d3600df15a53bb84f65de66
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966115"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874067"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>Erstellen eines Administrators für beständigen Chat in Skype for Business Server 2015
  
@@ -28,7 +29,7 @@ Bevor Sie den Server für beständigen Chat konfigurieren und verwalten, sollten
 > [!NOTE] 
 > Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden.
 
-## <a name="create-a-persistent-chat-administrator"></a>Erstellen eines Administrators für beständigen Chat
+## <a name="create-a-persistent-chat-administrator"></a>Create a Persistent Chat administrator
 
 Führen Sie zum Hinzufügen eines Benutzers zur Persistent Chat Administrator-Sicherheitsgruppe Rolle "cspersistentchatadministrator", die folgenden Schritte aus:
   

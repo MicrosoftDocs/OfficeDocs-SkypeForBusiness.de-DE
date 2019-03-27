@@ -1,5 +1,6 @@
 ---
 title: Update-CcCACertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5b474789-75de-443c-89bd-de89be55a1dd
 description: Das Cmdlet Update-CcCACertificate erneuert das Skype für Business Cloud Connector Edition Stammzertifikat der Zertifizierungsstelle, die in der Nähe Ablauf oder bereits abgelaufen ist.
-ms.openlocfilehash: f23298f1be30ab96b3e77ff0625ff6e3b419e111
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d123474240fb18ffcb6c1c037cc5407eb4c6c4e3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877933"
 ---
 # <a name="update-cccacertificate"></a>Update-CcCACertificate
  
@@ -48,7 +50,8 @@ Wenn das Stammzertifikat in Ihrer Nähe Ablauf oder bereits abgelaufen ist, füh
   
 Wenn mehrere Einheiten auf der gleichen PSTN-Website vorhanden sind, führen Sie das Cmdlet Update-CcCACertificate in alle am gleichen Standort der PSTN-Einheiten.
   
-Als letzten Schritt ausführen, um das Stammzertifikat in einer lokalen Datei in die erste Appliance exportieren Export-CcRootCertificate und klicken Sie dann kopieren Sie und installieren Sie das exportierte Zertifikat zu PSTN-Gateways.
+Letzter Schritt: Führen Sie das Cmdlet „Export-CcRootCertificate“ aus, um das Stammzertifikat in eine lokale Datei in der ersten Appliance zu exportieren. Kopieren Sie dann das exportierte Zertifikat, und installieren Sie es in Ihren PSTN-Gateways.
+
   
 Mit diesem Befehl wird das Cmdlet erneuern CcCACertificate in der Cloud Connector 2.0 und spätere Versionen ersetzt.
   
@@ -67,7 +70,7 @@ Keine.
 
 [Reset-CcCACertificate](reset-cccacertificate.md)
   
-[Erneuern CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   

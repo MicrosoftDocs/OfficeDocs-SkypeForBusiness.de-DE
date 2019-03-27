@@ -1,5 +1,6 @@
 ---
 title: Verwalten von Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: 'Zusammenfassung: Erkunden Sie diese Links, um Informationen zum Verwalten und Skype für Business Server verwalten.'
-ms.openlocfilehash: 82a5c28904a169e406224668a32176dbfeb94886
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a2f9b33c4ab5a33e9b4cb3a20d77008ee1b0e315
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993874"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874444"
 ---
 # <a name="manage-skype-for-business-server"></a>Verwalten von Skype for Business Server 
 
@@ -31,7 +32,7 @@ Zeigen Sie die folgenden Ressourcen Informationen zum Verwalten von Skype für B
   
 ||**Inhalt**|**Beschreibung**|
 |:-----|:-----|:-----|
-|![Symbol für technische Diagramme](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Technische Diagramme für Skype für Business Server](../technical-diagrams.md) <br/> |In diesen großformatigen Diagrammen finden Sie Architekturauswahlmöglichkeiten auf einen Blick.  <br/> |
+|![Symbol für technische Diagramme](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Technical diagrams for Skype for Business Server](../technical-diagrams.md) <br/> |In diesen großformatigen Diagrammen finden Sie Architekturauswahlmöglichkeiten auf einen Blick.  <br/> |
 |![Symbol für Videos](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|Videodemos und Schulung – *bald verfügbar!*  <br/> |Entdecken Sie Videopräsentationen und Schulungen für Skype für Business Server.  <br/> |
    
 ##  <a name="articles-about-managing-skype-for-business-server"></a>Artikel zur Verwaltung von Skype für Business Server
@@ -53,7 +54,7 @@ Die folgenden Ressourcen zur Planung für Skype für Business Server sind von an
 ||**Inhalt**|**Beschreibung**|
 |:-----|:-----|:-----|
 |![Symbol für Dokumente](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype für Business Server für IT-Experten](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Im Ressourcencenter zu Access-Videos, Communitywebsites, Dokumentation, Downloads und mehr. |
-|![Symbol für Entwicklerinhalt](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|Skype for Business Server für Entwickler  <br/> |Hier finden Sie Entwicklerressourcen für Skype für Business Server, einschließlich Codebeispielen, Schulungen und SDKs. |
+|![Symbol für Entwicklerinhalt](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|Skype für Business Server für Entwickler  <br/> |Hier finden Sie Entwicklerressourcen für Skype für Business Server, einschließlich Codebeispielen, Schulungen und SDKs. |
 |![Symbol für News, Blogs usw.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Änderungsmanagement und Akzeptanz](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office-Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Office 365: technischer Blog](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Skype-Teamblog](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Halten Sie sich mit Neuigkeiten aus der Teams, die erstellt und dem Dokument Skype für Business Server an.  |
    
 

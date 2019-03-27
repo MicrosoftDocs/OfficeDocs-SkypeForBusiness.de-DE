@@ -1,5 +1,6 @@
 ---
 title: Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Zusammenfassung: Informationen Sie zum Verwalten von Persistent Chat Server-Kategorien in Skype für Business Server 2015.'
-ms.openlocfilehash: 01b1bad9fd8b68eee68e1980fcb79f69462e9dfa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a0d70ec0266fc85d94c44c11ba15e42eea0be44b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979505"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874193"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015
  
@@ -58,7 +59,7 @@ Sie können Kategorien über die Systemsteuerung oder mit Windows PowerShell-Cmd
     
    - Geben Sie unter **Name** einen Namen für die neue Raumkategorie an.
     
-   - Geben Sie unter **Beschreibung** Einzelheiten zur Raumkategorie an (z. B. eine Raumkategorie für Contoso).
+   - Geben Sie unter **Beschreibung** Einzelheiten über die Raumkategorie an (z. B. eine Raumkategorie für Contoso).
     
    - Klicken Sie zum Steuern, ob Einladungen für Chatrooms aktiviert werden können, die dieser Kategorie angehören, aktivieren Sie oder deaktivieren Sie das Kontrollkästchen **Einladungen zu aktivieren** . Wenn ausgewählt haben, können in dieser Kategorie Chatrooms Einladungen aktiviert oder deaktiviert haben; Wenn deaktiviert, dürfen die Chatrooms in dieser Kategorie nicht Einladungen haben. Wenn ein Chatroom Einladungen weist auf, wenn ein neues Mitglied in einem Raum hinzugefügt wird, ruft er eine Benachrichtigung über die neuen Raums in ihrem Persistent Chat-Client ab.
     
@@ -83,10 +84,10 @@ Sie können Kategorien mithilfe der folgenden Windows PowerShell-Cmdlets konfigu
 
 |**Cmdlet**|**Beschreibung**|
 |:-----|:-----|
-|"New-cspersistentchatcategory"  <br/> |Erstellen einer neuen Kategorie  <br/> |
-|"Set-cspersistentchatcategory"  <br/> |Konfigurieren von Einstellungen für eine vorhandene Kategorie  <br/> |
-|"Get-cspersistentchatcategory"  <br/> |Abrufen von Informationen über Kategorien  <br/> |
-|"Remove-cspersistentchatcategory"  <br/> |Löschen einer Kategorie  <br/> |
+|New-CsPersistentChatCategory  <br/> |Erstellen einer neuen Kategorie  <br/> |
+|Set-CsPersistentChatCategory  <br/> |Konfigurieren von Einstellungen für eine vorhandene Kategorie  <br/> |
+|Get-CsPersistentChatCategory  <br/> |Abrufen von Informationen über Kategorien  <br/> |
+|Remove-CsPersistentChatCategory  <br/> |Löschen einer Kategorie  <br/> |
    
 Sie können die folgenden Parameter für Kategorien konfigurieren:
   
@@ -102,7 +103,7 @@ Sie können die folgenden Parameter für Kategorien konfigurieren:
     
 - DeniedMembers. Führt die Benutzer auf, denen der Zugriff auf Chatrooms in der Kategorie nicht gestattet ist.
     
-Umfassende Informationen zum Cmdlet Syntax, einschließlich aller Parameter finden Sie unter [Skype für Business Server 2015-Verwaltungsshell](../management-shell.md).
+Umfassende Informationen über die Cmdlet-Syntax sowie alle Parameter finden Sie unter [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 ### <a name="create-a-new-category"></a>Erstellen einer neuen Kategorie
 

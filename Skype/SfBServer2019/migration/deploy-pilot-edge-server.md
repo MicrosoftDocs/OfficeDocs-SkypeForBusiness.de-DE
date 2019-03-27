@@ -1,5 +1,6 @@
 ---
-title: Bereitstellen von pilot Edge-Server
+title: Bereitstellen eines Pilot-Edgeservers
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In diesem Thema werden die Konfigurationseinstellungen, die Sie kennen sollten, bevor Sie Ihre Skype für Business Server 2019 Edge-Server bereitstellen müssen. Die Bereitstellung und Konfiguration Prozesse für Skype für Business Server 2019 sind Skype für Business Server 2015 sehr ähnlich. In diesem Abschnitt werden nur die wichtigsten Punkte, die Sie als Teil Ihrer Bereitstellung eines pilotpools berücksichtigen sollten. Ausführliche Schritte finden Sie unter Deploying Zugriff durch externe Benutzer in Skype für Business Server 2019 in der Bereitstellungsdokumentation, wird der Bereitstellungsprozess beschrieben und bietet auch Konfigurationsinformationen für den Zugriff externer Benutzer.
-ms.openlocfilehash: 3ae1508c56ac3240cfb9904415090ff1bdf18677
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5b755d0ba8802c47a176cb3375a87b6523f35fad
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029860"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876198"
 ---
-# <a name="deploy-pilot-edge-server"></a>Bereitstellen von pilot Edge-Server
+# <a name="deploy-pilot-edge-server"></a>Bereitstellen eines Pilot-Edgeservers
 
 In diesem Thema werden die Konfigurationseinstellungen, die, denen Sie berücksichtigen sollten vor der Bereitstellung von Ihrer Skype für Business Server 2019 Edge-Server, behandelt. Die Bereitstellung und Konfiguration Prozesse für Skype für Business Server 2019 sind Skype für Business Server 2015 sehr ähnlich. In diesem Abschnitt werden nur die wichtigsten Punkte, die Sie als Teil Ihrer Bereitstellung eines pilotpools berücksichtigen sollten. <!-- For detailed steps, see 
  [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->

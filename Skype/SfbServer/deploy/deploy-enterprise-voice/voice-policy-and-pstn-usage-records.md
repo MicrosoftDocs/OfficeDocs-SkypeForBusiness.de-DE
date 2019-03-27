@@ -1,5 +1,6 @@
 ---
 title: Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Zusammenfassung: Erstellen Sie oder ändern Sie der VoIP-Richtlinien und konfigurieren Sie PSTN-verwendungsdatensätzen mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: 53414afd6fcf3ee365caad9a168c88f101e8788b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9a7847e918be71b88a7ba32c986c18f7659905ee
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371710"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875574"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen
 
@@ -128,7 +129,7 @@ ms.locfileid: "25371710"
 
    - Um dieselben PSTN-Verwendungseinträge für die Anrufweiterleitung und für das gleichzeitige Klingeln wie in dieser VoIP-Richtlinie zu verwenden, wählen Sie aus dem Dropdownmenü die Option **Mithilfe der PSTN-Anrufverwendung weiterleiten** aus.
 
-   - Wenn die anrufweiterleitung und Gleichzeitiges Klingeln zu internen Skype für Unternehmensbenutzer nur zulassen möchten, wählen Sie die Option **Route zu internen Skype für Unternehmensbenutzer nur** aus dem Dropdown-Menü. Anrufe werden nicht an externe PSTN-Nummern weitergeleitet.
+   - Wenn die anrufweiterleitung und Gleichzeitiges Klingeln zu internen Skype für Unternehmensbenutzer nur zulassen möchten, wählen Sie die Option **Route zu internen Skype für Unternehmensbenutzer nur** aus dem Dropdown-Menü. Calls will not be forwarded to external PSTN numbers.
 
    - Um andere PSTN-Verwendungseinträge für die Anrufweiterleitung und für das gleichzeitige Klingeln wie für diese VoIP-Richtlinie anzugeben, wählen Sie aus dem Dropdownmenü die Option **Mithilfe benutzerdefinierter PSTN-Verwendung weiterleiten** aus. Mit dieser Option wird ein Steuerelement angezeigt, um vorhandene PSTN-Verwendungseinträge auszuwählen oder um neue PSTN-Verwendungseinträge speziell für die Anrufweiterleitung und für das gleichzeitige Klingeln zu erstellen.
 
@@ -277,7 +278,7 @@ ms.locfileid: "25371710"
 
    - Um dieselben PSTN-Verwendungseinträge für die Anrufweiterleitung und für das gleichzeitige Klingeln wie in dieser VoIP-Richtlinie zu verwenden, wählen Sie aus dem Dropdownmenü die Option **Mithilfe der PSTN-Anrufverwendung weiterleiten** aus.
 
-   - Um die anrufweiterleitung und Gleichzeitiges Klingeln zu internen Skype Business nur für Benutzer zu ermöglichen, wählen Sie aus dem Dropdown-Menü **Route zu internen Skype für Unternehmensbenutzer nur** aus. Die Anrufe werden dann nicht an externe PSTN-Nummern weitergeleitet.
+   - Um die anrufweiterleitung und Gleichzeitiges Klingeln zu internen Skype Business nur für Benutzer zu ermöglichen, wählen Sie aus dem Dropdown-Menü **Route zu internen Skype für Unternehmensbenutzer nur** aus. Calls will not be forwarded to external PSTN numbers.
 
    - Um andere PSTN-Verwendungsdatensätze für die Anrufweiterleitung und gleichzeitiges Klingeln zu verwenden, als die für diese VoIP-Richtlinie verwendeten, wählen Sie die Option **Mithilfe benutzerdefinierter PSTN-Verwendungen weiterleiten** im Dropdownmenü aus. Bei Auswahl dieser Option wird ein Steuerelement angezeigt, über das vorhandene PSTN-Verwendungsdatensätze ausgewählt oder neue PSTN-Verwendungsdatensätze erstellt werden können, die speziell auf die Anrufweiterleitung und gleichzeitiges Klingeln ausgerichtet sind.
 
@@ -302,7 +303,7 @@ ms.locfileid: "25371710"
 
    - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
 
-   - Markieren Sie die Route und klicken Sie anschließend auf **Details anzeigen**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungsdatensatz bereits zugeordnet wurde. Weitere Informationen hierzu finden Sie unter [Ändern einer VoIP-Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
+   - Markieren Sie die Route und klicken Sie anschließend auf **Details anzeigen**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungsdatensatz bereits zugeordnet wurde. Ausführliche Informationen erhalten Sie im Abschnitt [Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
 
      d. Klicken Sie auf **OK**.
 
@@ -318,7 +319,7 @@ ms.locfileid: "25371710"
 
      - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
 
-     - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde. Weitere Informationen hierzu finden Sie unter [Ändern einer VoIP-Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
+     - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde. Ausführliche Informationen finden Sie unter [Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
 
      c. Klicken Sie auf **OK**.
 

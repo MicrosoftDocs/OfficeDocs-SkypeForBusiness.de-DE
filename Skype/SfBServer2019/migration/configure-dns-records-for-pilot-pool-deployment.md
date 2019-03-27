@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren von DNS-Einträgen für die Pilotpoolbereitstellung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Vor der Bereitstellung des pilotpools, müssen Sie die DNS-Host-A-Einträge für den pilotpool aktualisieren. Zum erfolgreichen Durchführen dieses Verfahrens sollten Sie auf dem Server oder Domäne als Mitglied der Gruppe Domänen-Admins oder ein Mitglied der Gruppe "DnsAdmins" angemeldet sein.
-ms.openlocfilehash: 13492f7972e127de7a8200a0dbe933c72aba2da7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 23ac5e4f85dc0da560b4d288bbfad426298bf82e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029895"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872739"
 ---
 # <a name="configure-dns-records-for-pilot-pool-deployment"></a>Konfigurieren von DNS-Einträgen für die Pilotpoolbereitstellung
 

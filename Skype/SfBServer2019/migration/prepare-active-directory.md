@@ -1,5 +1,6 @@
 ---
 title: Vorbereiten von Active Directory
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Vor dem Bereitstellen von Skype für Business Server 2019 zusammen, müssen Sie einige zusätzlichen Active Directory-Aufgaben aus, um das Schema,-Gesamtstruktur und-Domäne für Skype für Business Server 2019 konfigurieren ausführen. Durch die schemaerweiterungen Hinzufügen der Active Directory-Klassen und Attribute, die für Business Server 2019 Skype erforderlich sind. Weitere Informationen finden Sie unter dem Thema Vorbereiten von Active Directory Domain Services für Skype für Business Server 2019.
-ms.openlocfilehash: ccc26901072f6a8cc166d6ead2e295473347c9d9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 290919f0c3ac1c58a92e00ba6d3403b6d2fb9069
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029405"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874724"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Vorbereiten von Active Directory für Skype für Business Server
 

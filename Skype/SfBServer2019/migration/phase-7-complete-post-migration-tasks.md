@@ -1,5 +1,6 @@
 ---
 title: Phase 7 ausführen nach der Migration von Aufgaben
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,32 +9,32 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In den Themen in diesem Abschnitt werden die Aufgaben, die Sie benötigen, führen Sie nach Abschluss die Migration zu Skype für Business Server 2019 beschrieben.
-ms.openlocfilehash: dedeb9fd3cb524fb2f61ff7e8ade87265c2001e0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ef3a1f4b6d7262d223e78ebfae53e02203e9248e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028894"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875454"
 ---
-# <a name="phase-7-complete-post-migration-tasks"></a>Phase 7: Ausführen von Aufgaben nach der migration
+# <a name="phase-7-complete-post-migration-tasks"></a>Phase 7: Aufgaben nach der Migration abschließen
 
 In den Themen in diesem Abschnitt werden die Aufgaben, die Sie benötigen, führen Sie nach Abschluss die Migration zu Skype für Business Server 2019 beschrieben.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [Migrieren Sie vorhandener Besprechungen und Besprechungsinhalten](migrate-existing-meetings-and-meeting-content.md)
+- [Migrieren vorhandener Besprechungen und Besprechungsinhalte](migrate-existing-meetings-and-meeting-content.md)
     
-- [Migrieren von Einwahl Zugriffsnummern](migrate-dial-in-access-numbers.md)
+- [Migrieren von Zugriffsnummern für die Einwahl](migrate-dial-in-access-numbers.md)
     
-- [Migrieren von Einstellungen für das Parken von Anrufen](migrate-call-park-application-settings.md)
+- [Migrieren von Einstellungen für die Anwendung zum Parken von Anrufen](migrate-call-park-application-settings.md)
     
-- [Migrieren von reaktionsgruppen](migrate-response-groups.md)
+- [Migrieren von Reaktionsgruppen](migrate-response-groups.md)
     
-- [Migrieren von Adressbüchern](migrate-address-book.md)
+- [Migrieren des Adressbuchs](migrate-address-book.md)
     
-- [Konfigurieren die Besprechung teilnehmen-Seite](configure-the-meeting-join-page.md)
+- [Konfigurieren der Seite für den Besprechungsbeitritt](configure-the-meeting-join-page.md)
     
-- [Entfernen Sie älterer Archivierungs- und Monitoring Servern](remove-legacy-archiving-and-monitoring-servers.md)
+- [Entfernen von Archivierungsservern und Monitoring Servern der Vorversion](remove-legacy-archiving-and-monitoring-servers.md)
     
 - [Konfigurieren von vertrauenswürdigen Anwendungsservern](configure-trusted-application-servers.md)
     
@@ -43,8 +44,8 @@ In den Themen in diesem Abschnitt werden die Aufgaben, die Sie benötigen, führ
     
 - [Konfigurieren der SCOM-Überwachung](configure-scom-monitoring.md)
     
-- [Migrieren von Telefonen in öffentlichen Bereichen](migrate-common-area-phones.md)
+- [Migrieren von Telefonen für gemeinsame Bereiche](migrate-common-area-phones.md)
     
-- [Migrieren von analogen Geräten](migrate-analog-devices.md)
+- [Migrieren analoger Geräte](migrate-analog-devices.md)
     
 

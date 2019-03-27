@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren von Mobility Service für hohe Leistung in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 description: 'Zusammenfassung: Informationen Sie zu den Mobilitätsdienst in Skype für Business Server.'
-ms.openlocfilehash: 5031d34a2fdcb1610325afbf58c5524a0ee28ca8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3e3f0df7550a64236335108453f0c35d902a1713
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026806"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876408"
 ---
 # <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>Konfigurieren von Mobility Service für hohe Leistung in Skype für Business Server
  
@@ -29,9 +30,9 @@ Die Leistungseinstellungen lauten wie folgt:
   
 ### <a name="settings-for-mcx-on-iis-75"></a>Einstellungen für Mcx auf IIS 7.5
 
-1. **MaxConcurrentThreadsPerCPU** ist auf Null (0) festgelegt.
+1. **maxConcurrentThreadsPerCPU** ist auf null (0) gesetzt.
     
-2. **MaxConcurrentRequestsPerCPU** ist auf Null (0) festgelegt.
+2. **maxConcurrentRequestsPerCPU** ist auf null (0) gesetzt.
     
 3. Das ASP.NET-Prozessmodell ist auf AutoConfig (nur für IIS 7.5) gesetzt.
     

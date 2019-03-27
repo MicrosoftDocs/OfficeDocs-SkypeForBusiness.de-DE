@@ -1,5 +1,6 @@
 ---
-title: Abrufen der Vorgänger des Elements
+title: Abrufen von übergeordneten Elementen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: 'Zusammenfassung: Informationen Sie zum Vorgang Element Vorgänger erhalten möchten, der Teil der Element-Dienst ist. Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: e9e23c32aada4c609f9deb43004385b389a533bf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 7afeecb81d1933b0a308b174e49f6d8ff45a93dd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532591"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873112"
 ---
-# <a name="get-item-ancestors"></a>Abrufen der Vorgänger des Elements
+# <a name="get-item-ancestors"></a>Abrufen von übergeordneten Elementen
  
 **Zusammenfassung:** Informationen Sie zum Vorgang Element Vorgänger erhalten möchten, der Teil der Element-Dienst ist. Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
   
 Der erste Artikel Vorgänger Vorgang ist Teil des Diensts Element in der Repository-API für die Qualitätsdashboard aufrufen.
   
-## <a name="get-item-ancestors"></a>Abrufen der Vorgänger des Elements
+## <a name="get-item-ancestors"></a>Abrufen von übergeordneten Elementen
 
 Get-Element Vorgänger gibt ein Vorgänger bestimmte Elemente aus dem Repository zurück.
   

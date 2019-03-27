@@ -1,5 +1,6 @@
 ---
 title: Erstellen Sie eine Edge-Topologie für Skype für Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Zusammenfassung: Informationen Sie zum Erstellen, veröffentlichen und Exportieren der Edge-Server-Topologie in Skype für Business Server.'
-ms.openlocfilehash: b01f0c107207d79f62a092acc2e287e632969234
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 32273f7e0cf14b4ed5be3956eb69ef66a3b06fee
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372773"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875447"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Erstellen Sie eine Edge-Topologie für Skype für Business Server
  
@@ -36,7 +37,7 @@ In diesem Artikel werden die folgenden Themen behandelt:
   > [!NOTE]
   > Sie müssen sich bei den unten genannten Domänenservern als Benutzer anmelden, der Mitglied der folgenden Domänengruppen ist, um die nachfolgend beschriebenen Schritte ausführen zu können: 
   
-- "RTCUniversalServerAdmins"
+- RTCUniversalServerAdmins
     
 - Domänen-Admins
     
@@ -96,7 +97,7 @@ Wenn Sie sich über die benötigten Anforderungen nicht sicher sind, empfehlen w
     
     - Sie können einen einzelnen FQDN für alle Dienste verwenden. Wenn dies der Fall ist, geben Sie Ihre externen IPv4 oder IPv6-Adresse (je nachdem, was Sie verwenden) im Textfeld **SIP-Zugriff** , und klicken Sie dann auf **Weiter**.
     
-    - Sie haben ausgewählt, Verwendung von drei separaten FQDNs und IP-Adressen für die Dienste. Wenn dies der Fall ist, geben Sie die externen IPv4 oder IPv6-Adressen für den **SIP-Zugriffs** -edgedienst **Edge Webkonferenzdienst,** und die **A / V** Edge-Dienst, und klicken Sie dann auf **Weiter**.
+    - Wenn Sie drei separate FQDNs und IP-Adressen verwenden möchten, geben Sie die externen IPv4 und IPv6-Adressen für den Edgedienst SIP-Zugriff, für den Edgedienst Webkonferenzen und für den Edgedienst A/V ein. Wenn dies der Fall ist, geben Sie die externen IPv4 oder IPv6-Adressen für den **SIP-Zugriffs** -edgedienst **Edge Webkonferenzdienst,** und die **A / V** Edge-Dienst, und klicken Sie dann auf **Weiter**.
     
     > [!NOTE]
     > Wenn Sie die Aktivierung und Zuweisung von IPv6-Adressen vorher nicht ausgewählt haben, wird dieses Dialogfeld nicht angezeigt. Das ist normal und Sie können mit dem nächsten Schritt fortfahren. 
@@ -160,7 +161,7 @@ Wenn Sie sich über die benötigten Anforderungen nicht sicher sind, empfehlen w
     
     - Sie können einen einzelnen FQDN für alle Dienste verwenden. Wenn dies der Fall ist, geben Sie Ihre externen IPv4 oder IPv6-Adresse (je nachdem, was Sie verwenden) im Textfeld **SIP-Zugriff** , und klicken Sie dann auf **Weiter**.
     
-    - Sie haben ausgewählt, Verwendung von drei separaten FQDNs und IP-Adressen für die Dienste. Wenn dies der Fall ist, geben Sie die externen IPv4 oder IPv6-Adressen für den **SIP-Zugriffs** -edgedienst **Edge Webkonferenzdienst,** und die **A / V** Edge-Dienst, und klicken Sie dann auf **Weiter**.
+    - Wenn Sie drei separate FQDNs und IP-Adressen verwenden möchten, geben Sie die externen IPv4 und IPv6-Adressen für den Edgedienst SIP-Zugriff, für den Edgedienst Webkonferenzen und für den Edgedienst A/V ein. Wenn dies der Fall ist, geben Sie die externen IPv4 oder IPv6-Adressen für den **SIP-Zugriffs** -edgedienst **Edge Webkonferenzdienst,** und die **A / V** Edge-Dienst, und klicken Sie dann auf **Weiter**.
     
     > [!NOTE]
     > Wenn Sie die Aktivierung und Zuweisung von IPv6-Adressen vorher nicht ausgewählt haben, wird dieses Dialogfeld nicht angezeigt. Das ist normal und Sie können mit dem nächsten Schritt fortfahren. 
@@ -231,7 +232,7 @@ Wenn Sie sich über die benötigten Anforderungen nicht sicher sind, empfehlen w
     
     - Sie können einen einzelnen FQDN für alle Dienste verwenden. Wenn dies der Fall ist, geben Sie Ihre externen IPv4 oder IPv6-Adresse (je nachdem, was Sie verwenden) im Textfeld **SIP-Zugriff** , und klicken Sie dann auf **Weiter**.
     
-    - Sie haben ausgewählt, Verwendung von drei separaten FQDNs und IP-Adressen für die Dienste. Wenn dies der Fall ist, geben Sie die externen IPv4 oder IPv6-Adressen für den **SIP-Zugriffs** -edgedienst **Edge Webkonferenzdienst,** und die **A / V** Edge-Dienst, und klicken Sie dann auf **Weiter**.
+    - Wenn Sie drei separate FQDNs und IP-Adressen verwenden möchten, geben Sie die externen IPv4 und IPv6-Adressen für den Edgedienst SIP-Zugriff, für den Edgedienst Webkonferenzen und für den Edgedienst A/V ein. Wenn dies der Fall ist, geben Sie die externen IPv4 oder IPv6-Adressen für den **SIP-Zugriffs** -edgedienst **Edge Webkonferenzdienst,** und die **A / V** Edge-Dienst, und klicken Sie dann auf **Weiter**.
     
     > [!NOTE]
     > Wenn Sie die Aktivierung und Zuweisung von IPv6-Adressen vorher nicht ausgewählt haben, wird dieses Dialogfeld nicht angezeigt. Das ist normal und Sie können mit dem nächsten Schritt fortfahren. 

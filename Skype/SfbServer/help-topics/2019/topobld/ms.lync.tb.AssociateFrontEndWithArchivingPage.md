@@ -1,5 +1,6 @@
 ---
-title: Zuordnen von Front-End mit der Archivierung
+title: Zuordnen des Front-Ends zur Archivierung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 ROBOTS: NOINDEX, NOFOLLOW
 description: Jeder Front-End-Pool und Survivable Branch Appliance kann nur eine verfügen, die zugeordneten Archivierungsserver werden soll. Wenn die Archivierung für die Website aktiviert ist, Archivierungsserver sammelt dann und instant messaging (IM)-Nachrichtendaten und Konferenz Webinhalte aus Unterhaltungen der Benutzer Datensätze in der zugeordneten Pools und Survivable Branch Appliances verwaltet.
-ms.openlocfilehash: ffdb79634e6d36f113216f37291b2b67d78be01e
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: ea6ddb783861117a15b95c5b2de4580fae183583
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060032"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874088"
 ---
-# <a name="associate-front-end-with-archiving"></a>Zuordnen von Front-End mit der Archivierung
+# <a name="associate-front-end-with-archiving"></a>Zuordnen des Front-Ends zur Archivierung
  
 Jeder Front-End-Pool und Survivable Branch Appliance kann nur eine verfügen, die zugeordneten Archivierungsserver werden soll. Wenn die Archivierung für die Website aktiviert ist, Archivierungsserver sammelt dann und instant messaging (IM)-Nachrichtendaten und Konferenz Webinhalte aus Unterhaltungen der Benutzer Datensätze in der zugeordneten Pools und Survivable Branch Appliances verwaltet. 
   

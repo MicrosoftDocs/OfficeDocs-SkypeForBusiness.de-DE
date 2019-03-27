@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Informationen Sie zum Einrichten von einwählen oder Audiokonferenz für die Personen in Ihrem Unternehmen, die ein Telefon zum Teilnehmen an Telefonkonferenzen verwenden müssen. '
-ms.openlocfilehash: 64ebcb97157d94a5c25ddff38e8e1ca58d3975ec
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: d57eedec13d9bd1c01ec9365fd42c0a4dfdc2d96
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633298"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877190"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Einrichten von Audiokonferenzen für Skype für Unternehmen
 
@@ -49,7 +49,7 @@ Gehen Sie auf [Länder- und Regionenverfügbarkeit für Audiokonferenzen und Anr
     >[!NOTE] 
     > Audiokonferenzen ist in Office 365 Enterprise E5 Lizenzen und als Add-on enthalten.
         
-2. Nachdem Sie die Audiokonferenz-Lizenzen erworben haben, müssen Sie diese den Personen in Ihrer Organisation zuweisen, die Besprechungen planen oder leiten werden. Finden Sie unter [zuweisen oder Entfernen von Lizenzen für Office 365 für Unternehmen](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) Sie erworben haben, um die Personen in Ihrer Organisation, die Besprechungen planen oder Lead gesendet werden.
+2. Nachdem Sie die Audiokonferenz Lizenzen erwerben möchten, müssen Sie diese Personen in Ihrer Organisation zu planen, oder führen Besprechungen, die zuordnen. Finden Sie unter [zuweisen oder Entfernen von Lizenzen für Office 365 für Unternehmen](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) Sie erworben haben, um die Personen in Ihrer Organisation, die Besprechungen planen oder Lead gesendet werden.
     
 3. Wir empfehlen auch, dass Sie Guthaben für Kommunikations-Lizenzen (sie kosten nichts) denselben Personen zuweisen, denen Sie im vorherigen Schritt Lizenzen zugewiesen haben. Weitere Informationen zum Guthaben für Kommunikationen finden Sie unter [Einrichten von Guthaben für Kommunikationen für Ihr Unternehmen](/microsoftteams/set-up-communications-credits-for-your-organization).
     
@@ -147,6 +147,6 @@ Die Einwahlnummern, die für den Benutzer festgelegt sind werden automatisch der
   
 [Einrichten von Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
-[Telefonnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing.md)
+[Telefonnummern für Audiokonferenz](phone-numbers-for-audio-conferencing.md)
   
 [Optionen für Onlinebesprechungen und Telefonkonferenzen festlegen](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

@@ -1,5 +1,6 @@
 ---
 title: NetworkConfigurationSettings-Ansicht
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
 description: NetworkConfigurationSettings-Ansicht speichert Informationen über die Netzwerkkonfiguration. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 7e024a61eb03dc6f60a224d00eec70e1c125bcf4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8b366d0763ff1754fb41a58b5b32bfd3b2f7d628
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876669"
 ---
 # <a name="networkconfigurationsettings-view"></a>NetworkConfigurationSettings-Ansicht
  

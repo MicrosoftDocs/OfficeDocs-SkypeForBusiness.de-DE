@@ -1,5 +1,6 @@
 ---
 title: Exportieren oder Importieren einer VoIP-routenkonfigurationsdatei in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 description: 'Zusammenfassung: Informationen Sie zum Exportieren oder importieren eine Konfigurationsdatei VoIP routing in Skype für Business Server mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: 5cf9021a1cc18daf90fc719723962959142ad92e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8f0d8f4e221cbe23ac37c4126a9d26aac46e6d53
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886789"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874843"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Exportieren oder Importieren einer VoIP-routenkonfigurationsdatei in Skype für Unternehmen
  
@@ -32,7 +33,7 @@ Wenn Sie an den Einstellungen auf eine beliebige Seite innerhalb der Gruppe ohne
   
 ### <a name="to-export-a-voice-routing-configuration"></a>So exportieren Sie eine VoIP-Routingkonfiguration
 
-1. Melden Sie sich als Mitglied der Gruppe „RTCUniversalServerAdmins“ oder als Benutzer mit der Administratorrolle **CsVoiceAdministrator**, **CsServerAdministrator** oder **CsAdministrator** beim Computer an.
+1. Melden Sie sich als Mitglied der Gruppe RTCUniversalServerAdmins oder als Benutzer mit der Administratorrolle **CsVoiceAdministrator**, **CsServerAdministrator** oder **CsAdministrator** beim Computer an.
     
 2. Öffnen von Skype Business Server-Systemsteuerung.
     

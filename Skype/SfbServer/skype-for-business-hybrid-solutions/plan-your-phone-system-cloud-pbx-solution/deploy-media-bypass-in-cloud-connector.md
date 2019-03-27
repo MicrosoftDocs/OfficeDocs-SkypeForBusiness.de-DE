@@ -1,5 +1,6 @@
 ---
 title: Die medienumgehung in der Cloud Connector Edition bereitstellen
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lesen Sie dieses Thema Weitere Informationen zu den Schritten zum Bereitstellen von, dass die medienumgehung mit Cloud Connector Edition, Version 2.0 und höher.
-ms.openlocfilehash: a764c17af7c23d27305f9e2f3e88eaed6edc33cf
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: f4ea5449e7a324ae206241af25d12ecabf9c5259
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561914"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878049"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Die medienumgehung in der Cloud Connector Edition bereitstellen
  
@@ -185,7 +186,7 @@ An dieser Stelle geben Clients aus dem Amsterdam-Subnetz die DNS-Abfragen für �
 > Wenn die Appliance CCE scheinbar nicht, die aktualisierten Einstellungen zu erhalten, überprüfen Sie, um festzustellen, ob das Gerät mit den Mandanten über remote-PowerShell eine Verbindung herstellen. Remote-PowerShell können Sie überprüfen des Appliance Status mit Get-CsHybridPSTNAppliance oder mithilfe von PowerShell auf dem Host CCE um Status mit Get-CcApplianceStatus zu überprüfen.
 
   
-## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
+## <a name="see-also"></a>Siehe auch
 <a name="Example"> </a>
 
-[Planen der Medienumgehung in Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
+[Planen der Medienumgehung in der Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)

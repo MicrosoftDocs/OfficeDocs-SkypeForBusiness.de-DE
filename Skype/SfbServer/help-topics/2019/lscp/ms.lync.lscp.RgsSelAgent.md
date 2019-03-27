@@ -1,5 +1,6 @@
 ---
 title: Auswählen von Agents
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Agents sind Benutzer, die Annahme von Anrufen für Reaktionsgruppen vorgesehen sind. Reaktionsgruppen müssen über eine zugewiesene Agentgruppe verfügen, in der die Agents angegeben sind, die Anrufe für die Reaktionsgruppe entgegennehmen können. Eine Möglichkeit zur Erstellung einer Agentgruppe ist die Definition einer benutzerdefinierten Gruppe, indem geeignete Benutzer ausgewählt werden. Berechtigte Benutzern sind für Skype für Business Server und Enterprise-VoIP aktiviert.
-ms.openlocfilehash: 23e274f11183742ab96f4117ea5d7c754596253a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: e4599d4fbcedc2e99810c96e186d90801f963534
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23262827"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877063"
 ---
 # <a name="select-agents"></a>Auswählen von Agents
 
@@ -43,6 +44,6 @@ In der folgenden Liste werden die Felder des Dialogfelds **Agents auswählen** b
 
 - **Aktiviert** Zeigt den Wert des Felds **aktiviert für Lync Server** für Benutzer definiert ist.
 
-Ausführliche Informationen zur Verwendung von agentgruppen finden Sie unter [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in der Betriebsdokumentation.
+Ausführliche Informationen zur Verwendung von Agentgruppen finden Sie in der Betriebsdokumentation unter [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx).
 
 

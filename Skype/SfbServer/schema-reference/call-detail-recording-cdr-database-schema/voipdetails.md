@@ -1,5 +1,6 @@
 ---
 title: VoIPDetails-Ansicht
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
 description: Die VoIPDetails-Ansicht speichert Informationen zu Peer-zu-Peer-Sitzungen, wobei mindestens ein Benutzer einen VoIP-Benutzer ist. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 93c2afb6383817a4d3941d5b427565fb1d0db098
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 940c3874d5ce8eb8a4d2261de56b8988b6d3a4c9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875553"
 ---
 # <a name="voipdetails-view"></a>VoIPDetails-Ansicht
  

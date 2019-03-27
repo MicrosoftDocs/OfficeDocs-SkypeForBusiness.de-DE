@@ -1,5 +1,6 @@
 ---
 title: Seite „Nächsten Hop für beständigen Chat hinzufügen“
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a47c824d-a76a-413b-9335-bfe5ffef15db
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie diese Seite, um den nächsten Hop aus der Persistent Chat Server in Ihrer Bereitstellung zu definieren. Weitere Informationen zum Bereitstellen von Persistent Chat Server finden Sie unter Bereitstellen von Persistent Chat Server in Skype Business Server 2015.
-ms.openlocfilehash: d8b874c72bdd69dc36618e91d85dd89a752edf7a
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 16071d9875f34483477ec68bdc1dfd72e9c55380
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060878"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875777"
 ---
 # <a name="add-persistent-chat-next-hop-page"></a>Seite „Nächsten Hop für beständigen Chat hinzufügen“
 

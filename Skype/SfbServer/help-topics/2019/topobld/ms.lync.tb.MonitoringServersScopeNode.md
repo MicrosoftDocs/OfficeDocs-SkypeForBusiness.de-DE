@@ -1,5 +1,6 @@
 ---
 title: Monitoring Server – Bereichsknoten
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Der Knoten Monitoring Server enthält den Monitoring Server in Ihrer Topologie. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: fcb72dcbcbca0c2242785aaec95d36006896e5f6
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 6b44ddd868bb530e76849b2653306665ef785d24
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057195"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877199"
 ---
 # <a name="monitoring-servers-scope-node"></a>Monitoring Server – Bereichsknoten
  
@@ -27,7 +28,7 @@ Der Knoten **Monitoring Server** enthält den Monitoring Server in Ihrer Topolog
     
 Zusätzlich zu den Optionen für die Monitoring Server können Sie die folgenden allgemeinen Aufgaben ausführen:
   
-- **Topologie**. Verwenden Sie diese Option zum Definieren einer neuen Topologie, Öffnen einer vorhandenen Topologie, Herunterladen der aktuellen Topologie, Speichern einer Kopie der Topologie, veröffentlichen Sie die Topologie, eine Datenbank installieren, Zusammenführen der Komponenten aus vorherigen Versionen von Office Communications Server oder Entfernen der Bereitstellung.
+- **Topologie**. Verwenden Sie diese Option zum Definieren einer neuen Topologie, Öffnen einer vorhandenen Topologie, Herunterladen der aktuellen Topologie, Speichern einer Kopie der Topologie, veröffentlichen Sie die Topologie, eine Datenbank installieren, Zusammenführen der Komponenten aus vorherigen Versionen von Office Communications Server oder Entfernen der Einsatz.
     
 - **Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.
     

@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren von Archivierungsrichtlinien für Skype Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie die ursprüngliche Archivierungsrichtlinien für Skype für Business Server-Benutzer konfigurieren.'
-ms.openlocfilehash: 9db5d04ba04a3d840c493f5fbea42260ed87a6d4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 88840d10cbd7a71b32b5079a8600018b97e8b0c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003955"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876450"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>Konfigurieren von Archivierungsrichtlinien für Skype Business Server
  
@@ -134,7 +135,7 @@ Benutzerrichtlinien wirken sich nur auf Benutzer aus, denen eine solche Richtlin
 5. Wählen Sie in **Skype für Business Server-Benutzer bearbeiten** unter **Archivierungsrichtlinie**Benutzerrichtlinie, die Sie anwenden möchten.
     
     > [!NOTE]
-    > Die ** \<automatische\> ** Einstellungen gelten die Standardeinstellungen für Server-Installation. Diese Einstellungen werden automatisch vom Server angewendet.
+    > Die ** \<automatische\> ** Einstellungen gelten die Standardeinstellungen für Server-Installation. Diese Einstellungen werden vom Server automatisch übernommen.
   
 6. Klicken Sie auf **Commit ausführen**.
     

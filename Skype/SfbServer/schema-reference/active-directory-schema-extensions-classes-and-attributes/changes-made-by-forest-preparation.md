@@ -1,5 +1,6 @@
 ---
 title: Änderungen, die durch die Vorbereitung der Gesamtstruktur in Skype für Business Server
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: Dieser Abschnitt beschreibt die globalen Einstellungen und Objekte und der universellen Dienst- und Administrationsgruppen, die durch die gesamtstrukturvorbereitung erstellt werden.
-ms.openlocfilehash: 6c031bf06310c6aba2ee18f532e95438bd495936
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 27b8e183f4c76c7c5db71af1422ba9185206632a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373535"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875560"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Änderungen, die durch die Vorbereitung der Gesamtstruktur in Skype für Business Server
 
@@ -45,7 +46,7 @@ In der folgenden Tabelle werden die administrativen Gruppen beschrieben.
 
 |**Administrative Gruppe**|**Beschreibung**|
 |:-----|:-----|
-|"RTCUniversalServerAdmins"  <br/> |Ermöglicht Mitgliedern das Verwalten von Server und pooleinstellungen, darunter alle Serverrollen, globalen Einstellungen und Benutzer.  <br/> |
+|RTCUniversalServerAdmins  <br/> |Ermöglicht Mitgliedern das Verwalten von Server und pooleinstellungen, darunter alle Serverrollen, globalen Einstellungen und Benutzer.  <br/> |
 |RTCUniversalUserAdmins  <br/> |Ermöglicht Mitgliedern das Verwalten von benutzereinstellungen und das Verschieben von Benutzern von einem Server oder Pool in einen anderen.  <br/> |
 |RTCUniversalReadOnlyAdmins  <br/> |Ermöglicht Mitgliedern das Lesen von Server-, Pool- und User Settings.  <br/> |
 
@@ -112,7 +113,7 @@ Vorbereitung der Gesamtstruktur werden sowohl private als auch öffentliche ACEs
 **Von der Gesamtstrukturvorbereitung erstellten öffentlichen ACEs**
 
 
-| **ACE**                                                                 | **"Rtcuniversalglobalreadonlygroup"** |
+| **Ass**                                                                 | **"Rtcuniversalglobalreadonlygroup"** |
 |:------------------------------------------------------------------------|:------------------------------------|
 | Der Stammdomäne lesen (nicht vererbt) Systemcontainer**\\**\* <br/>        | X  <br/>                            |
 | DisplaySpecifiers-Container der Konfiguration lesen (nicht vererbt)  <br/> | X  <br/>                            |

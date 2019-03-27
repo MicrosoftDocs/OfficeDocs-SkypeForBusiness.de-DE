@@ -1,5 +1,6 @@
 ---
 title: Bereitstellungseinstellungen – Erweiterung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 'Sie können die Eigenschaften für eine vorhandene Bereitstellung mit den folgenden Abschnitten bearbeiten:'
-ms.openlocfilehash: ebb2b81b5b0f351b533a8f4352d05043a9fa0de0
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d9a42dffe3782a84b90b8cecbbc2af2835871732
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253090"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878091"
 ---
 # <a name="deployment-settings-expander"></a>Bereitstellungseinstellungen – Erweiterung
 
@@ -25,9 +26,9 @@ Sie können die Eigenschaften für eine vorhandene Bereitstellung mit den folgen
 
 - SIP-Domäne
 
-- Einfache URLs
+- Einfache URLs 
 
-- Zentraler Verwaltungsserver
+- zentraler Verwaltungsserver
 
 ## <a name="sip-domain"></a>SIP-Domäne
 
@@ -70,10 +71,10 @@ Der zentrale Verwaltungsserver kann aus einem definierten Front-End-Pool in eine
 > [!IMPORTANT]
 > Nachdem Sie den zentralen Verwaltungsspeicher für die Infrastruktur definiert, veröffentlicht und bereitgestellt haben, kann der Speicherort des zentralen Verwaltungsspeichers nur über einen externen Vorgang in einen anderen Front-End-Pool verschoben werden.
 
-Ausführliche Informationen zum Verschieben des zentralen Verwaltungsspeichers finden Sie unter [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) in der Windows PowerShell-Cmdlet-Referenz.
+Weitere Informationen zum Verschieben des zentralen Verwaltungsspeichers finden Sie unter [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) in der Referenz zu den Windows PowerShell-Cmdlets.
 
 ## <a name="see-also"></a>Siehe auch
 
-Ausführliche Informationen zum Definieren und Konfigurieren dieser Einstellungen finden Sie unter [definieren und Konfigurieren der Topologie](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
+Weitere Informationen zum Definieren und Konfigurieren dieser Einstellungen finden Sie unter [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
 
 

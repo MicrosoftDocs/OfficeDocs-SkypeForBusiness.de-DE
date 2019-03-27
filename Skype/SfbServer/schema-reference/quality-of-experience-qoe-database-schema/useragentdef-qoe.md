@@ -1,5 +1,6 @@
 ---
 title: UserAgentDef-Tabelle (QoE)
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
 description: UserAgentDef-Tabelle ordnet Benutzer-Agent-IDs den beschreibenden Namen. Benutzer-Agents werden verwendet, um eine Verbindung mit Skype für Business Server Softwareclients.
-ms.openlocfilehash: fac9f838185482a13bb778cfc7f27f78baf2c66f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8f607be022851a6622060c47dedc5ac36358a3c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876613"
 ---
 # <a name="useragentdef-table-qoe"></a>UserAgentDef-Tabelle (QoE)
  
@@ -22,7 +24,7 @@ UserAgentDef-Tabelle ordnet Benutzer-Agent-IDs den beschreibenden Namen. Benutze
   
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
-|1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
+|1  <br/> |„MediationServer“  <br/> |„MediationServer“  <br/> |
 |2  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
 |4  <br/> |OC  <br/> |OC  <br/> |
 |8  <br/> |OCPhone  <br/> |OCPhone  <br/> |

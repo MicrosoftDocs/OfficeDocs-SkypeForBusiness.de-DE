@@ -1,5 +1,6 @@
 ---
 title: ConferenceSessionDetails-Ansicht
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: Der ConferenceSessionDetails View speichert Informationen über Sitzungen mit mehreren Beteiligten. Jeder Datensatz steht für eine konferenzsitzung, der die Sitzung mit Konferenzzustandsobjekt oder die Sitzung mit einem spezifischen Konferenzserver werden konnte. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 8e81f33a68fc90a589f4d3574f9ca3070076c479
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 448b73326f7caf7657d146939eb01729e97628f9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874123"
 ---
 # <a name="conferencesessiondetails-view"></a>ConferenceSessionDetails-Ansicht
  
@@ -58,7 +60,7 @@ Der ConferenceSessionDetails View speichert Informationen über Sitzungen mit me
 |**ResponseCode** <br/> |int  <br/> |SIP-Antwortcode auf die sitzungseinladung. In diesem Feld wird in der Regel durch aus der ersten INVITE-Nachricht in der Sitzung generierte Daten aufgefüllt. Wenn keine INVITE-Nachricht vorhanden ist, wird das Feld mit Datum und Uhrzeit der ersten relevanten SIP-Nachricht (BYE, Abbrechen, Nachricht oder INFO) aufgefüllt.  <br/> |
 |**DiagnosticId** <br/> |int  <br/> |Diagnose-ID aus der Sitzung SIP-Header.  <br/> |
 |**ContentType** <br/> |nvarchar(256)  <br/> |Inhaltstyp für die Sitzung.  <br/> |
-|**Front-End** <br/> |nvarchar(256)  <br/> |FQDN des Front-End-Servers, die die Daten für die Sitzung erfasst hat.  <br/> |
+|**FrontEnd** <br/> |nvarchar(256)  <br/> |FQDN des Front-End-Servers, die die Daten für die Sitzung erfasst hat.  <br/> |
 |**Pool** <br/> |nvarchar(256)  <br/> |Vollqualifizierter Domänenname des Pools, der die Daten für die Sitzung erfasst hat.  <br/> |
 |**MediationServer** <br/> |nvarchar(256)  <br/> |Vom Benutzer aus der Sitzung verwendet wurde, verwendeter Vermittlungsserver.  <br/> |
 |**Gateway** <br/> |nvarchar(256)  <br/> |Vom Benutzer verwendet wurde, verwendetes Gateway der Sitzung.  <br/> |

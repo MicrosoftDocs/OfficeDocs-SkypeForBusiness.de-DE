@@ -1,5 +1,6 @@
 ---
 title: Hinzufügen von Vermittlungsservern – NextHop
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: ede4123a-b863-4c53-916b-edf776948dd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um den nächsten Hop für einen Vermittlungsserver zu definieren, den Sie definieren, wählen Sie aus der nächsten Hop Pool Dropdown-Liste, die Enterprise Edition-Server oder Standard Edition-Server, der als Nächster Hop für den Vermittlungsserver fungiert. Klicken Sie auf Weiter, um fortzufahren.
-ms.openlocfilehash: 357c91b3e3bab9ed6e98efd30c3e5a415ad1bf3b
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 7c6f1c07f38582481aa3e1e3f3dcdd8c2f1244d1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062186"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877622"
 ---
 # <a name="add-mediation-server-nexthop"></a>Hinzufügen von Vermittlungsservern – NextHop
  

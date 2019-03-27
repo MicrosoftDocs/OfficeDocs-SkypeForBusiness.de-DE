@@ -1,5 +1,6 @@
 ---
 title: Planen Sie für hohe Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server in Skype Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie für hohe Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server in Skype für Business Server 2015 planen.'
-ms.openlocfilehash: 90f01de0ca7efef8fdcda4f03fa4bfaa28bd4fcc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 88584c43cb205d10d2baacb6cb31c4e8fdbb228a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971655"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874794"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planen Sie für hohe Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server in Skype Business Server 2015
  
@@ -47,7 +48,7 @@ Vor dem Konfigurieren von Persistent Chat Server für hohe Verfügbarkeit und no
     
 ## <a name="disaster-recovery-and-high-availability-solutions"></a>Lösungen für Notfallwiederherstellung und hohe Verfügbarkeit
 
-Skype für Business Server unterstützt mehrere Unterhaltungsmodi hohe Verfügbarkeit für die Back-End-Server, die einschließlich der datenbankspiegelung. Weitere Informationen finden Sie unter [Planen für hohe Verfügbarkeit und notfallwiederherstellung in Skype für Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
+Skype für Business Server unterstützt mehrere Unterhaltungsmodi hohe Verfügbarkeit für die Back-End-Server, die einschließlich der datenbankspiegelung. Weitere Informationen finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
   
 Die Lösung für die notfallwiederherstellung für Persistent Chat Server in diesem Thema beschriebenen basiert auf einer ausgedehnten Persistent Chat Server Pool. Es ist keine Voraussetzung für eine ausgedehnte virtuelles LAN (VLAN). Durch Strecken einen Persistent Chat Server Pool, Sie einem Pool logisch in der Topologie konfigurieren, aber physisch platzieren Sie die Server im Pool in zwei verschiedenen Rechenzentren. Sie SQL Server-Spiegelung für die Datenbank auf die gleiche Weise konfigurieren und Bereitstellen der Datenbank und die Spiegelung im gleichen Rechenzentrum. Sie müssen eine Sicherungskopie der Datenbank im sekundären Rechenzentrum (mit einer optionalen Spiegelung zur Bereitstellung von hoher Verfügbarkeit während der notfallwiederherstellung) konfigurieren. Dies ist die Sicherungskopie der Datenbank während der notfallwiederherstellung für Failover verwendet. 
   

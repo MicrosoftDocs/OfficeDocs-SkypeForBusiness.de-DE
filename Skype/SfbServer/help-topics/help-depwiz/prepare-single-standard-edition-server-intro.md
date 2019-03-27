@@ -1,5 +1,6 @@
 ---
 title: Vorbereiten eines einzelnen Standard Edition-Servers (Einführung)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
 description: Um die Installation von einer Skype für Business Server 2015 Standard Edition-Server beginnen, die enthalten soll, dem zentralen Verwaltungsspeicher und andere verbundenen Dienste, die Sie auswählen, müssen Sie angemeldet sein, als Mitglied der lokalen Gruppe Administratoren auf dem Server, die wird werden Sie Standard Edition-Servers. Die Prepare einzelnen Standard Edition-Server-Seite werden die Anforderungen für die Erstinstallation. Der Computer muss ein Mitglied der Domäne, in der Sie ihn bereitstellen möchten, und Sie müssen erfolgreich abgeschlossen haben die Prep-Schema,-Gesamtstruktur und-Domäne für die Gesamtstruktur.
-ms.openlocfilehash: 9c43f3bc4574d35577b483cf1ca0748f78f3d04a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0f3980ec0fc8e65b6737dcbaf2deff5dccaca5e4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874273"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>Vorbereiten eines einzelnen Standard Edition-Servers (Einführung)
  

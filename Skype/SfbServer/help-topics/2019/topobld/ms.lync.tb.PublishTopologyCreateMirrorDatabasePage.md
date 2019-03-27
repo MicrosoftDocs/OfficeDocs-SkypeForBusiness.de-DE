@@ -1,5 +1,6 @@
 ---
-title: Veröffentlichen der Topologie – Seite Spiegelung erstellen
+title: Veröffentlichen der Topologie – Seite "Spiegeldatenbanken erstellen"
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 ROBOTS: NOINDEX, NOFOLLOW
 description: Diese Dokumentation ist vorläufig und kann geändert werden. Leere Themen sind als Platzhalter enthalten.
-ms.openlocfilehash: 99314d7f2e75850a79d565f2db9d8e06e30059c4
-ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
+ms.openlocfilehash: 004930723ab8376f9e0cc1c916d1814e3321594a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22196091"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873836"
 ---
-# <a name="publish-topology-create-mirror-database-page"></a>Veröffentlichen der Topologie – Seite Spiegelung erstellen
+# <a name="publish-topology-create-mirror-database-page"></a>Veröffentlichen der Topologie – Seite "Spiegeldatenbanken erstellen"
  
 > [!NOTE]
 > SQL-Spiegelung wird steht in Skype für Business Server 2015 jedoch nicht mehr in unterstützt Skype für Business Server 2019. Die AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instanzen (FCI) und SQL clustering Failovermethoden werden bevorzugt mit Skype für Business Server 2019.

@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren von Skype für Business Server mit Exchange Server-Archivierung
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: 'Zusammenfassung: Konfigurieren von Instant Messaging-Protokolle für Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server.'
-ms.openlocfilehash: 63d533091426fe609932de18e3d37bd75004ce4c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5db51f1206fee5ef3f87f16e73836a32c460234b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258025"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873486"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Konfigurieren von Skype für Business Server mit Exchange Server-Archivierung
 
@@ -103,7 +104,7 @@ Wenn Sie eine Richtlinie auf Einzelbenutzerebene erstellen, müssen Sie diese Ri
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolicy"
 ```
 
-Archivierungsrichtlinien kann auch mithilfe der Skype für Business Server-Systemsteuerung verwaltet werden. Klicken Sie in der Systemsteuerung auf **Überwachung und Archivierung** und anschließend auf **Archivierungsrichtlinie**. Um eine vorhandene Richtlinie zu ändern, doppelklicken Sie auf die Richtlinie (z. B. Global) und klicken Sie dann im Bereich **Bearbeiten der Archivierungsrichtlinie** aktivieren oder deaktivieren Sie die **interne Kommunikation archivieren** , und das Kontrollkästchen **externe Kommunikation archivieren** nach Bedarf. Zum Erstellen einer neuen Archivierungsrichtlinie auf **neu** , und wählen Sie dann auf **Standort-** oder **Benutzerrichtlinie**. Wenn Sie eine neue Richtlinie erstellen Sie einen Zugriff auf die entsprechenden Benutzerkonten (aus der Registerkarte **Benutzer** ) und die Benutzer die neue Richtlinie zuweisen.
+Archivierungsrichtlinien kann auch mithilfe der Skype für Business Server-Systemsteuerung verwaltet werden. Klicken Sie in der Systemsteuerung auf **Überwachung und Archivierung** und anschließend auf **Archivierungsrichtlinie**. Um eine vorhandene Richtlinie zu ändern, doppelklicken Sie auf die Richtlinie (z. B. Global) und klicken Sie dann im Bereich **Bearbeiten der Archivierungsrichtlinie** aktivieren oder deaktivieren Sie die **interne Kommunikation archivieren** , und das Kontrollkästchen **externe Kommunikation archivieren** nach Bedarf. Zum Erstellen einer neuen Archivierungsrichtlinie auf **neu** , und wählen Sie dann auf **Standort-** oder **Benutzerrichtlinie**. Wenn Sie eine neue Benutzerrichtlinie erstellen, müssen Sie (über die Registerkarte „Benutzer“) auf die entsprechenden Benutzerkonten zugreifen und diesen Benutzern die neue Richtlinie zuweisen.
 
 ## <a name="step-3-configuring-the-exchangearchivingpolicy-property"></a>Schritt 3: Konfigurieren der Eigenschaft "ExchangeArchivingPolicy"
 
@@ -115,7 +116,7 @@ Skype für Business Server und Exchange Server in unterschiedlichen Gesamtstrukt
 
 3. **NoArchiving**. Gibt an, dass des Benutzers instant messaging und webkonferenzaufzeichnungen nicht in allen archiviert werden sollen. Beachten Sie, dass diese Einstellung für Business Server, die dem Benutzer zugewiesene Archivierungsrichtlinien Skype außer Kraft gesetzt.
 
-4. **ArchivingToExchange**. Gibt an, die des Benutzers instant messaging und Webkonferenzen Protokolle zu Exchange müssen, unabhängig von den Einstellungen In-Place Hold archiviert werden, die haben (oder nicht) auf das Postfach des Benutzers zugewiesen wurden.
+4. **ArchivingToExchange**: zeigt an, dass die Chat- und Webkonferenzaufzeichnungen des Benutzers unabhängig von den Compliance-Archiv-Einstellungen, die ggf. Gibt an, die des Benutzers instant messaging und Webkonferenzen Protokolle zu Exchange müssen, unabhängig von den Einstellungen In-Place Hold archiviert werden, die haben (oder nicht) auf das Postfach des Benutzers zugewiesen wurden.
 
 Um ein Benutzerkonto so konfigurieren, dass instant messaging und webkonferenzaufzeichnungen immer auf Exchange archiviert werden können Sie beispielsweise einen Befehl wie den folgenden von der Skype für Business Server-Verwaltungsshell verwenden:
 

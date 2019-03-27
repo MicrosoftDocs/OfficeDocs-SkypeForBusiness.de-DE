@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren von Skype for Business Server-Computern, die überwacht werden sollen
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Installieren der Operations Manager-Agent-Dateien auf die Skype für Business Server 2019 Computer überwacht werden, und konfigurieren Sie den Computer, die als System Center-Proxy fungiert.'
-ms.openlocfilehash: 3f2e17dcaa32a37f0ae7b5ef73cd6f351c9d4bc1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 90608d9233bea466b523418553d5421735234aee
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536043"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875418"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>Konfigurieren von Skype for Business Server-Computern, die überwacht werden sollen
 
@@ -26,9 +27,9 @@ Jede Skype für Business Server 2019 Computer, den Sie überwachen möchten muss
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>Installieren eines Zertifikats auf einem Watcher-Knoten, der sich außerhalb des Umkreisnetzwerks befindet
 <a name="watcher_node_outside"> </a>
 
-System Center Operations Manager-Agents in einem Umkreisnetzwerk ausgeführt Netzwerk (wie eine Skype für Business Server-Edgeserver) außerhalb des Unternehmens (beispielsweise ein externer synthetische Transaktion Watcher-Knoten) oder über eine Active Directory-Vertrauensstellung Grenze, erfordern möglicherweise die Konfiguration der ein System Center Operations Manager-Gatewayservers. Diese Serverrolle ermöglicht es Agents, die keine Vertrauensstellung mit dem Root Management Server haben, Warnungen auszulösen. Ausführliche Informationen finden Sie in [Verwalten von Gatewayservern in Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh212823.aspx).
+System Center Operations Manager-Agents in einem Umkreisnetzwerk ausgeführt Netzwerk (wie eine Skype für Business Server-Edgeserver) außerhalb des Unternehmens (beispielsweise ein externer synthetische Transaktion Watcher-Knoten) oder über eine Active Directory-Vertrauensstellung Grenze, erfordern möglicherweise die Konfiguration der ein System Center Operations Manager-Gatewayservers. Diese Serverrolle ermöglicht es Agents, die keine Vertrauensstellung mit dem Root Management Server haben, Warnungen auszulösen. Weitere Informationen hierzu finden Sie unter [Managing Gateway Servers in Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh212823.aspx).
 
-Wenn Sie einen Agent in einem der folgenden Speicherorte bereitstellen, müssen Sie auch zum Anfordern und Konfigurieren eines Zertifikats, das den Watcher-Knoten zum Senden von Benachrichtigungen zu System Center Operations Manager ermöglicht. Um diesen Prozess vereinfachen, hat das Team Operations Manager einen Satz Dienstprogramme erstellt, mit denen Sie anfordern und den korrekten Typ des Zertifikats auf dem Watcher-Knoten-Computer installieren. Ausführliche Informationen, unter anderem zum Herunterladen dieser Dienstprogramme, finden Sie unter [Obtaining Certificates for Non-Domain Joined Agents Made Easy with Certificate Generation Wizard](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409).
+Wenn Sie einen Agent in einem der folgenden Speicherorte bereitstellen, müssen Sie auch zum Anfordern und Konfigurieren eines Zertifikats, das den Watcher-Knoten zum Senden von Benachrichtigungen zu System Center Operations Manager ermöglicht. Um diesen Prozess vereinfachen, hat das Team Operations Manager einen Satz Dienstprogramme erstellt, mit denen Sie anfordern und den korrekten Typ des Zertifikats auf dem Watcher-Knoten-Computer installieren. Weitere Informationen und Laden Sie diese Dienstprogramme finden Sie unter [Abrufen von Zertifikaten für nicht der Domäne beigetreten Agents Made Easy mit Generation-Zertifikat-Assistenten](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409).
 
 ### <a name="installing-the-operation-manager-agent-files"></a>Installieren der Operations Manager-Agent-Dateien
 
@@ -54,7 +55,7 @@ Wenn Sie einen Agent in einem der folgenden Speicherorte bereitstellen, müssen 
 
 11. Klicken Sie auf **Beenden**.
 
-Für System Center 2012 stellen Sie sicher, dass der Agent erstellt wurde, indem Sie klicken Sie auf **Start**, **Alle**Programme, auf **System Center Operations Manager 2012**und klicken Sie dann auf **Operations Manager 2012-Shell**. Geben Sie in der Operations Manager-Shell den folgenden Windows PowerShell-Befehl ein, und drücken Sie die EINGABETASTE:
+Für System Center 2012 stellen Sie sicher, dass der Agent erstellt wurde, indem Sie klicken Sie auf **Start**, **Alle**Programme, auf **System Center Operations Manager 2012**und klicken Sie dann auf **Operations Manager 2012-Shell**. In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:
 ```
 Get-SCOMAgent
 ```

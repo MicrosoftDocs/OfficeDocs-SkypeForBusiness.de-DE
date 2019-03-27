@@ -1,5 +1,6 @@
 ---
 title: Verwalten von netzwerkregionen
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Netzwerk Region * sind die Netzwerk-Hubs oder Backbones in der Konfiguration des Call Admission Control, E9-1-1 und medienumgehung verwendet.
-ms.openlocfilehash: 3fe6707e6949fa47a9cc5e96703e06132ed8cb2f
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: ea574fe981af679e4d841d786daf04460d1fb7c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223311"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877629"
 ---
-# <a name="managing-network-regions-in-skype-for-business-server"></a>Verwalten von netzwerkregionen in Skype für Business Server
+# <a name="managing-network-regions-in-skype-for-business-server"></a>Verwalten von Netzwerkregionen in Skype for Business Server
 
 *Netzwerkregionen* sind die Netzwerk-Hubs oder Backbones in der Konfiguration des Call Admission Control, E9-1-1 und medienumgehung verwendet. Verwenden Sie die folgenden Verfahren, um anzuzeigen, erstellen oder Ändern von netzwerkregionen. Angenommen, wenn Sie bereits von netzwerkregionen für eine VoIP-Funktion erstellt haben, müssen nicht Sie neue netzwerkregionen zu erstellen; andere erweiterten Enterprise-VoIP-Funktionen werden die gleichen netzwerkregionen verwenden. Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregion ändern, um funktionsspezifische Einstellungen anzuwenden. Wenn Sie z. B. Netzwerkregionen für E9-1-1 erstellt haben (denen kein zentraler Standort zugeordnet werden muss) und Sie zu einem späteren Zeitpunkt die Anrufsteuerung bereitstellen, müssen Sie die Definitionen der Netzwerkregionen ändern und einen zentralen Standort angeben. 
 
@@ -131,7 +132,7 @@ Eine netzwerkregion sind die verschiedenen Teile eines Netzwerks über mehrere g
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Löschen**.
 
-6.  Klicken Sie anschließend auf **OK**.
+6.  Klicken Sie auf **OK**.
 
 
     > [!WARNING]  
