@@ -1,5 +1,6 @@
 ---
 title: Ausführliche Informationen zur Tabelle für den Server für beständigen Chat
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: In den folgenden Themen werden die Spalten den beständigen Chat Database Schema Tabellen.
-ms.openlocfilehash: 016974ff261cd862b888158f729e4baaff504366
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5ee15bfab456f2e2e5c1ea535a1b521f9544a352
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992798"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889653"
 ---
 # <a name="persistent-chat-server-table-details"></a>Ausführliche Informationen zur Tabelle für den Server für beständigen Chat
  
@@ -23,19 +24,19 @@ In den folgenden Themen werden die Spalten den beständigen Chat Database Schema
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- ["tbladcookie"](tbladcookie.md)
+- [tblADCookie](tbladcookie.md)
     
-- [Principalmemberdifference](tblprincipalmemberdifference.md)
+- [tblPrincipalMemberDifference](tblprincipalmemberdifference.md)
     
 - [tblADUpdates](tbladupdates.md)
     
-- ["tblprincipalmembers"](tblprincipalmembers.md)
+- [tblPrincipalMembers](tblprincipalmembers.md)
     
-- ["tblprincipalmeta"](tblprincipalmeta.md)
+- [tblPrincipalMeta](tblprincipalmeta.md)
     
-- [Skippedaffiliations](tblskippedaffiliations.md)
+- [tblSkippedAffiliations](tblskippedaffiliations.md)
     
-- ["tblprincipaltype"](tblprincipaltype.md)
+- [tblPrincipalType](tblprincipaltype.md)
     
 - [tblPrincipal](tblprincipal.md)
     
@@ -43,15 +44,15 @@ In den folgenden Themen werden die Spalten den beständigen Chat Database Schema
     
 - [tblNode](tblnode.md)
     
-- ["tblroletype"](tblroletype.md)
+- [tblRoleType](tblroletype.md)
     
-- [in "tblscopeprincipal"](tblscopeprincipal.md)
+- [tblScopePrincipal](tblscopeprincipal.md)
     
 - [tblPrincipalRole](tblprincipalrole.md)
     
 - [tblSiopWhiteList](tblsiopwhitelist.md)
     
-- [Enumattribute](tblenumattribute.md)
+- [tblEnumAttribute](tblenumattribute.md)
     
 - [tblEnumValue](tblenumvalue.md)
     
@@ -59,9 +60,9 @@ In den folgenden Themen werden die Spalten den beständigen Chat Database Schema
     
 - [tblChat](tblchat.md)
     
-- ["tbllastinviteid"](tbllastinviteid.md)
+- [tblLastInviteId](tbllastinviteid.md)
     
-- ["lastchatid"](tbllastchatid.md)
+- [tblLastChatId](tbllastchatid.md)
     
 - [tblPreference](tblpreference.md)
     
@@ -71,13 +72,13 @@ In den folgenden Themen werden die Spalten den beständigen Chat Database Schema
     
 - [tblAdminLock](tbladminlock.md)
     
-- ["tblsystemrevision"](tblsystemrevision.md)
+- [tblSystemRevision](tblsystemrevision.md)
     
 - [tblActivePeers](tblactivepeers.md)
     
 - [tblConfig](tblconfig.md)
     
-- ["tblcompliancedata"](tblcompliancedata.md)
+- [tblComplianceData](tblcompliancedata.md)
     
 - [tblComplianceFanout](tblcompliancefanout.md)
     

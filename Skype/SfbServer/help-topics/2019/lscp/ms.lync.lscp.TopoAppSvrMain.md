@@ -1,5 +1,6 @@
 ---
 title: Topologie-Server-Anwendung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Topologie: Serveranwendung Seite zeigt die serveranwendungen in Ihrer Bereitstellung.'
-ms.openlocfilehash: 8a8806ac83a0ccd8a16be05d0ac9961f55aa2c6e
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bd438b535717b76cb02079e7be83403ef85f21d2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242197"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889952"
 ---
 # <a name="topology-server-application"></a>Topologie: Serveranwendung
 

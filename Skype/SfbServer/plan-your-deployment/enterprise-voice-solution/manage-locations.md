@@ -1,5 +1,6 @@
 ---
 title: Verwalten von Speicherorten für SIP-Trunk-Dienstanbieter in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Entscheidungen zur Planung einer der Standortdatenbank Informationen oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mit Anbietern von SIP-Trunking in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 5920abd848645354b95c4b9ba2dc9b8a27410ef6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 07b6c95ad36e740d5dec6bb882766f876da52626
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887054"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886039"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Verwalten von Speicherorten für SIP-Trunk-Dienstanbieter in Skype für Business Server
 
 Entscheidungen zur Planung einer der Standortdatenbank Informationen oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mit Anbietern von SIP-Trunking in Skype für Business Server Enterprise-VoIP.
 
-Zum Konfigurieren von Skype für Business Server, Clients in einem Netzwerk automatisch gesucht werden soll, müssen Sie entweder die Standortinformationen Dienstdatenbank mithilfe einer netzwerkwiremap Auffüllen und veröffentlichen Sie die Standorte oder link zu einer externen Datenbank, die bereits enthält die richtigen Zuordnungen. Im Rahmen dieses Vorgangs müssen Sie die Adressen der Standorte mit Ihrem E9-1-1-Dienstanbieter abgleichen. Weitere Informationen hierzu finden Sie unter [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) in der Bereitstellungsdokumentation.
+Zum Konfigurieren von Skype für Business Server, Clients in einem Netzwerk automatisch gesucht werden soll, müssen Sie entweder die Standortinformationen Dienstdatenbank mithilfe einer netzwerkwiremap Auffüllen und veröffentlichen Sie die Standorte oder link zu einer externen Datenbank, die bereits enthält die richtigen Zuordnungen. Im Rahmen dieses Vorgangs müssen Sie die Adressen der Standorte mit Ihrem E9-1-1-Dienstanbieter abgleichen. Ausführliche Informationen finden Sie unter [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) in der Bereitstellungsdokumentation.
 
 Die Datenbank des Standortinformationsdiensts füllen Sie mit einem Emergency Response Location (ERL) auf, der aus der allgemeinen Adresse und der spezifischen Adresse innerhalb eines Gebäudes besteht. Standortinformationen Service Felds **Standort** , der die Position in einem Gebäude ist, hat die maximal 20 Zeichen (einschließlich Leerzeichen). In diesem Feld mit begrenzter Länge sollten Sie Folgendes angeben:
 
@@ -35,7 +36,7 @@ Die Datenbank des Standortinformationsdiensts füllen Sie mit einem Emergency Re
 - Wenn die ungefähre erfolgt, da es von einem drahtlosen Zugriffspunkt bestimmt wird, können Sie das Wort **[in Ihrer Nähe]** (beispielsweise "in der Nähe 1. Floor 1234") hinzufügen.
 
 > [!NOTE]
-> Speicherorte der zentralen Datenbank hinzugefügt sind nicht an den Client verfügbar, bis sie über einen Skype für Business Server Management Shell-Befehl veröffentlicht und in den Pool Geschäften repliziert werden werden. Weitere Informationen hierzu finden Sie unter [Veröffentlichung der Standortdatenbank](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) in der Bereitstellungsdokumentation.
+> Speicherorte der zentralen Datenbank hinzugefügt sind nicht an den Client verfügbar, bis sie über einen Skype für Business Server Management Shell-Befehl veröffentlicht und in den Pool Geschäften repliziert werden werden. Ausführliche Informationen finden Sie unter [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) in der Bereitstellungsdokumentation.
 
 In den folgenden Abschnitten erfahren Sie, was Sie beim Auffüllen und Verwalten der Standortdatenbank bedenken müssen.
 

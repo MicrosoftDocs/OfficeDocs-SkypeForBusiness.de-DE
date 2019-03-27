@@ -1,5 +1,6 @@
 ---
 title: Entfernen von Zertifikaten (Aufruf)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c62bc3e5-3f34-46cf-91a5-85f84d8f455e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die Seite Befehle ausführen enthält Details zum Entfernen des Zertifikats an. Überprüfen Sie die zusammenfassende Informationen über das Zertifikat entfernen. Achten Sie darauf, dass die Protokolldatei Zertifikat entfernen in der Dropdown-Liste angezeigt wird, und klicken Sie dann auf Protokoll anzeigen, um die Details des Endes Zertifikat überprüfen. Wenn Sie die Überprüfung der Zusammenfassung und die Protokolldatei abgeschlossen haben, klicken Sie auf Fertig stellen.
-ms.openlocfilehash: 313af0bdbef536e700b699827200653c5aa714aa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1cf96bf0a8a6a2cbecd6d187e93d92f0393d542e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971577"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894114"
 ---
 # <a name="remove-certificate-invoke"></a>Entfernen von Zertifikaten (Aufruf)
  

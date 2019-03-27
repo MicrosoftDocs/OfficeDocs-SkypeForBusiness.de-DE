@@ -1,5 +1,6 @@
 ---
 title: Skype für Business Client Auflösung
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Zusammenfassung: Überprüfen der Clientanforderungen für video beim Planen von Skype für Business Server.'
-ms.openlocfilehash: 0150acf98a2d5219975cf33c573f31f755db62f0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a17e3e269f24e74c5403c053723d544898560f34
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886143"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886690"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype für Business Client Auflösung
  
@@ -66,23 +67,23 @@ Die folgenden drei Tabellen erläutern die maximalen Codierungs- und Decodierung
 
 |**Mögliche Codiererauflösung**|**Mögliche Decodiererauflösung**|**Anforderung**|
 |:-----|:-----|:-----|
-|424 x 240  <br/> |424 x 240 (640 x 360 bei 15 fps für Szenarien, bei denen nur empfangen wird)  <br/> |1 Kern und VideoEncodeScore ≥ 4,0  <br/> |
-|640 x 360  <br/> |640 x 360  <br/> |2 Kerne und VideoEncodeScore ≥ 4,5  <br/> |
-|640 x 360  <br/> |1280 x 720  <br/> |2 Kerne und VideoEncodeScore ≥ 4,5  <br/> |
-|640 x 360  <br/> |1920 x 1080  <br/> |4 Kerne und VideoEncodeScore ≥ 4,5  <br/> |
-|1280 x 720  <br/> |1280 x 720  <br/> |4 Kerne und VideoEncodeScore ≥ 7,3  <br/> |
-|1280 x 720  <br/> |1920 x 1080  <br/> |4 Kerne und VideoEncodeScore ≥ 7,3  <br/> |
-|1920 x 1080  <br/> |1920 x 1080  <br/> |-  <br/> |
+|424 x 240  <br/> |424 x 240 (640 x 360 bei 15 fps für Szenarien, bei denen nur empfangen wird)  <br/> |1 Kern und VideoEncodeScore ≥ 4,0  <br/> |
+|640x360  <br/> |640x360  <br/> |2 Kerne und VideoEncodeScore ≥ 4,5  <br/> |
+|640x360  <br/> |1280x720  <br/> |2 Kerne und VideoEncodeScore ≥ 4,5  <br/> |
+|640 x 360  <br/> |1920x1080  <br/> |4 Kerne und VideoEncodeScore ≥ 4,5  <br/> |
+|1280x720  <br/> |1280x720  <br/> |4 Kerne und VideoEncodeScore ≥ 7,3  <br/> |
+|1280 x 720  <br/> |1920x1080  <br/> |4 Kerne und VideoEncodeScore ≥ 7,3  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |-  <br/> |
    
 **Computer mit DXVA, aber ohne hardwarebeschleunigten Codierer**
 
 |**Mögliche Codiererauflösung**|**Mögliche Decodiererauflösung**|**Anforderung**|
 |:-----|:-----|:-----|
-|424 x 240  <br/> |1920 x 1080  <br/> |1 Kern und VideoEncodeScore ≥ 3,0  <br/> |
-|640 x 360  <br/> |1920 x 1080  <br/> |2 Kerne und VideoEncodeScore ≥ 4,5  <br/> |
-|960 x 540  <br/> |1920 x 1080  <br/> |2 Kerne und VideoEncodeScore ≥ 6,0  <br/> |
-|1280 x 720  <br/> |1920 x 1080  <br/> |4 Kerne und VideoEncodeScore ≥ 6,7  <br/> |
-|1920 x 1080  <br/> |1920 x 1080  <br/> |4 Kerne und VideoEncodeScore ≥ 8,2  <br/> |
+|424 x 240  <br/> |1920x1080  <br/> |1 Kern und VideoEncodeScore ≥ 3,0  <br/> |
+|640 x 360  <br/> |1920x1080  <br/> |2 Kerne und VideoEncodeScore ≥ 4,5  <br/> |
+|960 x 540  <br/> |1920x1080  <br/> |2 Kerne und VideoEncodeScore ≥ 6,0  <br/> |
+|1280 x 720  <br/> |1920x1080  <br/> |4 Kerne und VideoEncodeScore ≥ 6,7  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |4 Kerne und VideoEncodeScore ≥ 8,2  <br/> |
    
 > [!NOTE]
 > Die WinSAT-Bewertung ist unter Windows 7 auf maximal 7,9 beschränkt. Die maximale Codierungsfähigkeit für einen Computer ohne hardwarebeschleunigten Codierer kann daher nur unter Windows 8 oder Windows 8.1 erreicht werden, wo der maximale WinSAT-Wert bei 9,9 liegt. 
@@ -91,8 +92,8 @@ Die folgenden drei Tabellen erläutern die maximalen Codierungs- und Decodierung
 
 |**Mögliche Codiererauflösung**|**Mögliche Decodiererauflösung**|**Anforderung**|
 |:-----|:-----|:-----|
-|1280 x 720  <br/> |1920 x 1080  <br/> |Alle Intel HD Graphics-Modelle der 2. und 3. Generation  <br/> |
-|1920 x 1080  <br/> |1920 x 1080  <br/> |Intel HD Graphics-Modelle der 2. und 3. Generation und GraphicsScore ≥ 5,0  <br/> |
+|1280 x 720  <br/> |1920x1080  <br/> |Alle Intel HD Graphics-Modelle der 2. und 3. Generation  <br/> |
+|1920 x 1080  <br/> |1920 x 1080  <br/> |Intel HD Graphics-Modelle der 2. und 3. Generation und GraphicsScore ≥ 5,0  <br/> |
    
 ## <a name="mobile-device-video-capabilities"></a>Videofunktionen für mobile Geräte
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lesen Sie dieses Thema Weitere Informationen zu konfigurieren in Exchange-Konten für Skype Raum Systemen v2 und Skype für Unternehmen.
-ms.openlocfilehash: 38fdc37467b1a9f7b73271ac8684e86f52059981
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 59e94251014b2f5c567e3b672d67007471d3709b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699679"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888276"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Konfigurieren von Konten für Skype Raum Systemen v2
  
@@ -57,7 +57,7 @@ Sie können ein Benutzerkonto als das Ressourcenkonto vorstellen, die Personen a
   
 Wenn bereits ein Postfach-Ressourcenkonto festgelegt ist für die Besprechung Speicherplatz, an dem Sie Skype Raum Systemen v2 installiert sind, können Sie dieses Ressourcenkontos in ein Benutzerkonto ändern. Wenn das erledigt ist, müssen Sie, nur das Benutzerkonto zu einem Gerät, v2 Skype Raum Systeme hinzuzufügen. Sehen Sie sich dazu die unten gezeigten Beispiele für die Einrichtung von Benutzerkonten an.
   
-Durch zusätzliche Konfiguration kann die Remoteverwaltung Microsoft Operations Management Suite (OMS) verwenden, wie beschrieben in [Planen Skype Raum v2 systemverwaltung mit OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) [Bereitstellen Skype Raum v2 systemverwaltung mit OMS](with-oms.md)und [Verwalten Skype-Chatroom-Systemen v2 Geräte mit OMS](../../manage/skype-room-systems-v2/oms.md). 
+Zusätzliche Konfiguration ist Remoteverwaltung möglich mit Microsoft Azure Monitor gemäß [Planen Skype Raum v2 systemverwaltung mit Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md) [Bereitstellen Skype Raum v2 systemverwaltung mit Azure Monitor](azure-monitor.md)und [Verwalten Skype-Chatroom-Systemen v2 Geräte mit Azure Monitor](../../manage/skype-room-systems-v2/azure-monitor.md). 
   
 ## <a name="basic-configuration"></a>Grundlegende Konfiguration
 
@@ -79,7 +79,7 @@ Während die Eigenschaften für die grundlegende Konfiguration das Benutzerkonto
    
 Die einfachste Möglichkeit zum Einrichten von Benutzerkonten ist von remote Windows PowerShell konfigurieren. Microsoft bietet [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), eines Skripts, das neue Benutzerkonten erstellen oder vorhandene Ressourcenkonten, mit denen Sie damit können Sie diese in kompatibel Skype Raum Systemen v2-Benutzerkonten aktivieren überprüfen helfen.
   
-Wenn Sie die Benutzeroberfläche von Office 365 über Windows PowerShell-Cmdlets verwenden möchten, können einige Schritte manuell ausgeführt werden. Lesen Sie dazu [Erstellen eines Gerätekontos mithilfe von Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
+Wenn Sie die Benutzeroberfläche von Office 365 über Windows PowerShell-Cmdlets verwenden möchten, können einige Schritte manuell ausgeführt werden. Finden Sie unter [Erstellen eines Geräts-Kontos mithilfe von Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
   
 ## <a name="see-also"></a>Siehe auch
 

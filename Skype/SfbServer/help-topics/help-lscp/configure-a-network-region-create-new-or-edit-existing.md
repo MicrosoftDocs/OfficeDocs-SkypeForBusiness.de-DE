@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren einer Netzwerkregion Erstellen einer neuen oder Bearbeiten einer vorhandenen
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0277b988-e12e-4786-9001-9c212495cb89
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 64b1463fb6bc83af5e60b08ff191cd57bff8d3b6
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: e6dfbfb6a03e8f9a9ee7f8548b8bb06f379b1ed3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257472"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885041"
 ---
-# <a name="configure-a-network-region-create-new-or-edit-existing"></a>Konfigurieren einer Netzwerkregion: Erstellen einer neuen oder Bearbeiten einer vorhandenen
+# <a name="configure-a-network-region-create-new-or-edit-existing"></a>Konfigurieren einer Netzwerkregion: Erstellen einer neuen oder Bearbeiten einer vorhandenen Netzwerkregion
 
-Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
+Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 
 - [Konfigurieren von Netzwerkregionen](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
 

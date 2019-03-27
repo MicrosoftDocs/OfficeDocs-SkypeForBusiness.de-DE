@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren Sie den Speicher für persönliche Kontakte auf Lync 2010-Client-Computern
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: 'Zusammenfassung: Konfigurieren des persönlichen kontaktspeichers von Legacyclients verwendet.'
-ms.openlocfilehash: b817ae3c7e4e8d54a06d497d91ca83d2b8715e8d
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: 4afb40f57043988768118a0b83c0afe7e9df0028
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635706"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887778"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Konfigurieren Sie den Speicher für persönliche Kontakte auf Lync 2010-Client-Computern
   

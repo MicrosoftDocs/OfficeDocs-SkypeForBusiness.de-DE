@@ -1,5 +1,6 @@
 ---
 title: Zuordnen eines überwachungsspeichers zu einem Front-End-Pool in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 'Zusammenfassung: Erfahren Sie, wie ein Speicher für Überwachung von Skype für Business Server verwendeten Front-End-Pools zuordnen.'
-ms.openlocfilehash: a7a7965016ed659d120cf4bff642e85e9941b193
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1156883202218dd536926f44f40e6ba774b17cb7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968209"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887144"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Zuordnen eines überwachungsspeichers zu einem Front-End-Pool in Skype für Business Server 
 **Zusammenfassung:** Erfahren Sie, wie ein Speicher für Überwachung von Skype für Business Server verwendeten Front-End-Pools zuordnen.

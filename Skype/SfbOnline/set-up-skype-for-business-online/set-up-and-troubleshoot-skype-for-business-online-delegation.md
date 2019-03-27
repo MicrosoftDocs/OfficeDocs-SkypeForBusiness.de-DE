@@ -1,5 +1,6 @@
 ---
 title: Einrichten von und Problembehandlung bei Skype for Business Online-Delegierung
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: In diesem Artikel wird erläutert, wie eingerichtet und Problembehandlung bei Skype für Business Online Delegierung. Dieser Artikel enthält eine Anleitung für Setup Empfehlungen, bewährte Methoden und Schritte zur Problembehandlung.
-ms.openlocfilehash: e3131b28be1ad01e0965b2739dc152a627826d5e
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 450aee07691a007b976aafffc05d34c3e7ef85f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546675"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887835"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Einrichten von und Problembehandlung bei Skype for Business Online-Delegierung
 
@@ -55,8 +56,8 @@ Einrichten und erste Delegierung ordnungsgemäß funktioniert, hängt Sie die fo
 ||**Outlook 2013**|**Outlook 2016**|
 |:-----|:-----|:-----|
 |**Lync/Skype für grundlegende Business-Client**| Nicht unterstützt |Nicht unterstützt
-|**Skype for Business 2015**|Unterstützt | Unterstützt |
-|**Skype für Business 2016**|Unterstützt | Unterstützt |
+|**Skype for Business 2015**|Unterstützt | Unterstützt|
+|**Skype für Business 2016**|Unterstützt | Unterstützt|
 
    
 ### <a name="licensing-requirements"></a>Lizenzanforderungen
@@ -105,7 +106,7 @@ Um Skype für Business Online Delegierung einzurichten, gehen Sie folgendermaße
     
 ### <a name="verify-success"></a>Überprüfen des Erfolgs des Updates
 
-Wenn die Installation erfolgreich ist, die Stellvertretung sollte angezeigt werden die **Sie als Stellvertreter für < Name > hinzugefügt wurden** Meldung und außerdem, die die **Personen, für die ich Anrufe verwalte** -Gruppe wird erstellt. Stellvertreters sollte angezeigt werden, dass die Gruppe **Stellvertretungen** erstellt wird.
+Wenn die Installation erfolgreich ist, die Stellvertretung sollte angezeigt werden die **Sie als Stellvertreter für < Name> hinzugefügt wurden** Meldung und außerdem, die die **Personen, für die ich Anrufe verwalte** -Gruppe wird erstellt. Stellvertreters sollte angezeigt werden, dass die Gruppe **Stellvertretungen** erstellt wird.
   
 > [!NOTE]
 > Delegierungsberechtigungen werden in der Regel innerhalb von 30 Minuten der Installation angezeigt. Dieser Vorgang kann jedoch bis zu 24 Stunden dauern. 

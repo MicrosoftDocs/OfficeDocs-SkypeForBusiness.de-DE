@@ -1,5 +1,6 @@
 ---
 title: Erstellen oder Ändern einer Auflistung von KDS-Konfigurationseinstellungen in Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: 'Zusammenfassung: Erfahren Sie mehr über die Aufzeichnung von kommunikationsdatensätzen (KDS) in Skype für Business Server.'
-ms.openlocfilehash: f1bbf12f3766156b5f30ef3f2760669791e8c4c0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 563aeb37a0d6ae8cc10f73fe8d5d6808b9a051a9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20970372"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892998"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Erstellen oder Ändern einer Auflistung von KDS-Konfigurationseinstellungen in Skype für Business Server
  
@@ -30,8 +31,8 @@ Sie können KDS-Konfigurationseinstellungen mithilfe von entweder Skype für Bus
 |:-----|:-----|:-----|
 |Name  <br/> |Identität  <br/> |Eindeutiger Bezeichner für die KDS-Konfigurationseinstellungen, die erstellt werden. Diese Einstellungen können nur auf der Standortebene erstellt werden.  <br/> |
 |Überwachung von KDS-Aufzeichnungen aktivieren  <br/> |EnableCDR  <br/> |Gibt an, ob KDS aktiviert ist.  <br/> |
-|Bereinigung von KDS-Aufzeichnungen aktivieren  <br/> |"Enablepurging"  <br/> |Gibt an, ob Kommunikationsdatensätze (KDS) regelmäßig aus der KDS-Datenbank gelöscht werden oder nicht.  <br/> |
-|Maximale Aufbewahrungsdauer für KDS-Aufzeichnungen (in Tagen)  <br/> |"Keepcalldetailfordays"  <br/> |Gibt die Anzahl von Tagen an, die KDS-Datensätze in der KDS-Datenbank gespeichert werden. Datensätze, die älter sind als angegeben, werden automatisch gelöscht. (Beachten Sie, dass der Löschvorgang nur stattfindet, wenn die Bereinigung aktiviert wurde.)  <br/> |
+|Bereinigung von KDS-Aufzeichnungen aktivieren  <br/> |EnablePurging  <br/> |Gibt an, ob Kommunikationsdatensätze (KDS) regelmäßig aus der KDS-Datenbank gelöscht werden oder nicht.  <br/> |
+|Maximale Aufbewahrungsdauer für KDS-Aufzeichnungen (in Tagen)  <br/> |KeepCallDetailForDays  <br/> |Gibt die Anzahl von Tagen an, die KDS-Datensätze in der KDS-Datenbank gespeichert werden. Datensätze, die älter sind als angegeben, werden automatisch gelöscht. (Beachten Sie, dass der Löschvorgang nur stattfindet, wenn die Bereinigung aktiviert wurde.)  <br/> |
 |Maximale Aufbewahrungsdauer von Fehlerberichtsdaten (in Tagen)  <br/> |KeepErrorReportForDays  <br/> |Gibt die Anzahl von Tagen an, die KDS-Fehlerberichte aufbewahrt werden. Berichte, die älter sind als angegeben, werden automatisch gelöscht. Fehlerberichte zu Kommunikationsdatensätzen sind Diagnoseberichte, die von Clientanwendungen hochgeladen werden.  <br/> |
    
 > [!NOTE]

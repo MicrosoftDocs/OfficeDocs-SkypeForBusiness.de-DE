@@ -1,5 +1,6 @@
 ---
 title: Planen der medienumgehung in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Umgehen der Entscheidungen zur Planung für Medien in Skype für Business Server Enterprise-VoIP. Hierzu gehört die Interoperationalität mit Anrufsteuerung (CAC, call admission control).
-ms.openlocfilehash: b9cb62e8153f7eb54159637954ea13cda72b6817
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 26cf20fcd7b8378d99da21be46bd6ca219b82196
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885315"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884863"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planen der medienumgehung in Skype für Unternehmen
 
@@ -36,7 +37,7 @@ Die folgende Abbildung zeigt grundlegende Pfade für Medien- und Signaldatenverk
 
 **Pfade für Medien- und Signaldatenverkehr mit und ohne Medienumgehung**
 
-![VoIP-Anrufsteuerung: Medienumgehung – Verbindungserzwingung](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![VoIP CAC Medienumgehung – Verbindungserzwingung](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 Die medienumgehung ist nützlich, wenn minimieren Sie die Anzahl der Vermittlungsserver bereitgestellt werden soll. In der Regel wird ein vermittlungsserverpool an einem zentralen Standort bereitgestellt werden, und es wird Gateways an Zweigniederlassungen steuern. Durch Aktivierung der Medienumgehung können Mediendaten für PSTN-Anrufe (Telefonfestnetz) von Clients an Zweigstellenstandorten direkt durch die Gateways an diesen Standorten geleitet werden. Skype für Enterprise-VoIP-Richtlinien und Routen für ausgehende Anrufe Business Server muss ordnungsgemäß konfiguriert sein, damit die PSTN-Anrufe von Clients an einem Zweigstellenstandort an das entsprechende Gateway weitergeleitet werden.
 
@@ -101,7 +102,7 @@ Medienumgehung und Anrufsteuerung (Call Admission Control, CAC) arbeiten zusamme
 
     Selbst wenn die Anrufsteuerung global deaktiviert wurde, müssen Bandbreitenrichtlinien für jeden Standort und jede Verbindung definiert werden, wenn die Konfiguration von Standorten und Regionen für Entscheidungen zur Medienumgehung herangezogen werden soll. Der tatsächliche Wert der Einschränkung Bandbreite oder seine Modalität spielt keine Rolle. Das Ziel besteht darin, dass das System automatisch unterschiedliche Umgehungs-IDs berechnet, die verschiedenen Standorten ohne gute Verbindung zugeordnet sind. Das Definieren einer Bandbreiteneinschränkung bedeutet per Definition, dass eine Verbindung keine gute Konnektivität aufweist.
 
-- Weder die Anrufsteuerung noch die Medienumgehung sind aktiviert. Dieser Fall tritt nur ein, wenn alle Gateways und IP-Nebenstellenanlagen über Leitungen mit geringer Konnektivität verbunden sind oder andere Anforderungen für die Medienumgehung nicht erfüllen. Ausführliche Informationen zu den für die medienumgehung finden Sie unter [Anforderungen für die Medienumgehung](https://technet.microsoft.com/library/6162a204-0e7c-460a-8eb2-e592c6590a8a.aspx).
+- Weder die Anrufsteuerung noch die Medienumgehung sind aktiviert. Dieser Fall tritt nur ein, wenn alle Gateways und IP-Nebenstellenanlagen über Leitungen mit geringer Konnektivität verbunden sind oder andere Anforderungen für die Medienumgehung nicht erfüllen. Ausführliche Informationen zu den Anforderungen für die Medienumgehung finden Sie unter [Requirements for Media Bypass](https://technet.microsoft.com/library/6162a204-0e7c-460a-8eb2-e592c6590a8a.aspx).
 
 ## <a name="technical-requirements"></a>Technische Anforderungen
 

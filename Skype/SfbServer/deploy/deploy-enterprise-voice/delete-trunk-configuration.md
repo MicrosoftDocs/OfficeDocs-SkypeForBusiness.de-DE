@@ -1,5 +1,6 @@
 ---
 title: Löschen einer vorhandenen Auflistung von SIP-Trunk-Konfigurationseinstellungen in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Auflistung von trunkkonfigurationseinstellungen mithilfe der Skype für Business Server-Systemsteuerung zu löschen.'
-ms.openlocfilehash: 27e022588798e848cf690bb643d921e46d827b39
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: da86cbaf45afa47de580c02ab74e3b0b9bb344bf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890537"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890550"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Löschen einer vorhandenen Auflistung von SIP-Trunk-Konfigurationseinstellungen in Skype für Business Server
  
@@ -26,7 +27,7 @@ ms.locfileid: "23890537"
   
 SIP-Trunk-Konfigurationseinstellungen definieren die Beziehung und die Funktionen zwischen einem Vermittlungsserver und dem PSTN-Gateway (Public Switched Telephone Network, Festnetz), einer IP-Nebenstellenanlage (Public Branch Exchange, PBX) oder einem Session Border Controller (SBC) beim Dienstanbieter. Diese Einstellungen geben unter anderem Folgendes an:
   
-- Ob Medienumgehung für die Trunks aktiviert werden soll
+- Ob Medienumgehung für die Trunks aktiviert werden soll.
     
 - Die Bedingungen, unter denen RTCP-Pakete (Real-Time Transport Control Protocol) gesendet werden.
     
@@ -52,7 +53,7 @@ Administratoren können auch benutzerdefinierte Trunkkonfigurationseinstellungen
     
 5. Klicken Sie im Dialogfeld **Skype Business Server-Systemsteuerung** auf **OK**.
     
-6. Wenn Sie sich umentscheiden und die Auflistung nicht löschen möchten, klicken Sie auf **Commit ausführen** und anschließend auf **Alle noch nicht übernommenen Änderungen verwerfen**. Wenn das Dialogfeld **Skype Business Server-Systemsteuerung** angezeigt wird, klicken Sie auf **OK**.
+6. If you change your mind and decide not to delete the collection, click **Commit** and then click **Cancel All Uncommitted Changes**. Wenn das Dialogfeld **Skype Business Server-Systemsteuerung** angezeigt wird, klicken Sie auf **OK**.
     
 ## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>Entfernen der Trunkkonfigurationseinstellungen mithilfe von Skype für Business Server-Verwaltungsshell-Cmdlets
 

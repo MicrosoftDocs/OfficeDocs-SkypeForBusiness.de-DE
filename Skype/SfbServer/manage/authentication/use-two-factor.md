@@ -1,5 +1,6 @@
 ---
 title: Verwenden Sie zweistufige Authentifizierung mit Skype für Business Client- und Skype für Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 'Zusammenfassung: Verwenden Sie zweistufige Authentifizierung mit Skype für Business Server und Skype für Unternehmen.'
-ms.openlocfilehash: 734e63d22610dab44cc221290b462e51e93291f1
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: 0c66808f22655e3f78a23930adc84dcbc31af6bb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25694575"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894202"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Verwenden Sie zweistufige Authentifizierung mit Skype für Business Client- und Skype für Business Server
  
@@ -49,7 +50,7 @@ Wenn Sie die Verwendung von Skype für Unternehmen haben, können Sie die Anzeig
 |:-----|:-----|:-----|
 |Schließen  <br/> |Schließt die Anzeige, aber die Skype für Business-Sitzung identifiziert mit Ihrer Benutzer ID weiterhin ausgeführt werden können. Dies hat den Sinn, dass Sie weiterhin Benachrichtigungen erhalten und sich mit anderen austauschen können. <br/> <br/> Sie können die Anzeige jederzeit wieder durch Klicken auf die Skype Business-Symbol auf der Taskleiste oder im Infobereich am unteren Bildschirmrand abrufen.  <br/> | Führen Sie einen der folgenden Schritte aus, auf die Skype für Business-Hauptfenster: <br/> 1. Wählen Sie die Schaltfläche **Optionen** und dann wählen Sie **Datei** > **Schließen**.  <br/> 2. Klicken Sie in der oberen rechten Ecke des Fensters auf die Schaltfläche **Schließen** (X). <br/> |
 |Abmelden  <br/> |Enden wird weiterhin die Sitzung mit Ihrer Benutzer-ID, aber Skype für Unternehmen im Hintergrund ausgeführt. Wenn Sie sich abmelden, wird das Abmeldefenster angezeigt.  <br/> **Tipp:** Wählen Sie **Meine Anmeldeinformationen löschen** beim Anmelden um den Datensatz Ihrer Anmelde-ID und das Kennwort vom Computer zu entfernen. Dies vereinfacht möglicherweise den Support bei der Behandlung von Anmeldeproblemen. Außerdem trägt es dazu bei, Ihre Anmeldeinformationen zu sichern, da es nicht autorisierten Benutzern so erschwert wird, sich mit Ihren Anmeldeinformationen anzumelden. <br/> |Klicken Sie auf die Skype für Business-Hauptfenster, wählen Sie die Schaltfläche **Optionen** , und wählen Sie **Datei** > **Abmelden**.  <br/> |
-|Beenden  <br/> |Ihre Skype für Business-Sitzung beendet und Skype für Unternehmen auf Ihrem Computer Herunterfahren. Nach dem Beenden, wenn Sie neu starten möchten, wählen Sie **Start** > **Alle Programme** > Skype für Unternehmen. <br/> |Klicken Sie auf die Skype für Business-Hauptfenster, wählen Sie die Schaltfläche **Optionen** , und wählen Sie **Datei** > **Beenden**.  <br/> |
+|Beenden  <br/> |Ihre Skype für Business-Sitzung beendet und Skype für Unternehmen auf Ihrem Computer Herunterfahren. Nach dem Beenden, wenn Sie neu starten möchten, wählen Sie **Start** > **Programme** > Skype für Unternehmen. <br/> |Klicken Sie auf die Skype für Business-Hauptfenster, wählen Sie die Schaltfläche **Optionen** , und wählen Sie **Datei** > **Beenden**.  <br/> |
    
 ## <a name="sign-in-to-skype-for-business-with-a-smart-card"></a>Anmelden bei Skype for Business mit einer SmartCard
 

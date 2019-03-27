@@ -1,5 +1,6 @@
 ---
 title: Erstellen oder Ändern eines Gruppe anrufen Pickup-Nummernbereichs in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Erstellen oder Ändern eines Gruppe anrufen Pickup-Nummernbereichs in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: d73b3e72aa7cd5f733406c861d8a3357fe28fe45
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0032d46507c6cb91629b94662ec67bf9c67b7cc4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883953"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885610"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Erstellen oder Ändern eines Gruppe anrufen Pickup-Nummernbereichs in Skype für Unternehmen
 
@@ -51,7 +52,7 @@ Die Nummernbereiche für die Anrufannahmegruppe müssen folgenden Regeln entspre
 
 2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
 
-3. Verwenden Sie **New-CsCallParkOrbit** , um einen neuen Nummernbereich Anruf pickup Gruppe erstellen. Verwenden Sie **Set-CsCallParkOrbit** , um einen bestehenden Bereich von Rufnummern pickup ändern.
+3. Mit **New-CsCallParkOrbit** erstellen Sie einen neuen Nummernbereich für die Anrufannahmegruppe. Mit **Set-CsCallParkOrbit** ändern Sie einen vorhandenen Nummernbereich für die Anrufannahmegruppe.
 
     Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
 

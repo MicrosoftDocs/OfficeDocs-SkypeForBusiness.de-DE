@@ -1,5 +1,6 @@
 ---
-title: "\"lastchatid\""
+title: tblLastChatId
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
 description: "\"lastchatid\" enthält die letzte Chat-ID, die generierte (und in der TblChat-Tabelle verwendete) für jeden Benutzer."
-ms.openlocfilehash: dc25eb68ee1b4069ba54133548f743ca45b73e16
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 3208ada77643957295f9894cb58187c2b4bc7493
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19505089"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884929"
 ---
-# <a name="tbllastchatid"></a>"lastchatid"
+# <a name="tbllastchatid"></a>tblLastChatId
  
 "lastchatid" enthält die letzte Chat-ID, die generierte (und in der TblChat-Tabelle verwendete) für jeden Benutzer.
   

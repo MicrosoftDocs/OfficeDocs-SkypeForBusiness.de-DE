@@ -1,5 +1,6 @@
 ---
 title: Zertifikatanforderung (Geografie)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: aef0110c-b4b0-453c-a2dd-602372e64952
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die Seite Geographische Informationen fordert zusätzliche Informationen für die zertifikatanforderung an. Auf dieser Seite Wählen Sie in einem Textfeld Land, und klicken Sie dann Sie Typ Bundesland/Region und Ort ein. Beachten Sie, dass Abkürzungen nicht verwendet sollte und sollte den vollständigen Namen der Stadt/Ort und Bundesland/Kanton ausschreiben.
-ms.openlocfilehash: 3c0a2749100d4d188c80bdf664694438231ad5c5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: bfb19bbeea3004094443fc7f2e3ffe3733353e61
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21025998"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889643"
 ---
 # <a name="certificate-request-geography"></a>Zertifikatanforderung (Geografie)
  

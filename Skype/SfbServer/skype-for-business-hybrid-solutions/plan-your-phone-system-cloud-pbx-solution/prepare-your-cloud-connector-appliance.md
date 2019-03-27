@@ -1,5 +1,6 @@
 ---
 title: Vorbereiten der Cloud Connector-Appliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Informationen Sie zum Vorbereiten Ihrer Appliance Cloud-Connector für die Bereitstellung und Verwendung mit Telefonsystem in Office 365 (Cloud, PBX).
-ms.openlocfilehash: 336136021041131189261c8c3b57c46ca8b53809
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3716c7c4b9d4b8daa0a4995ed7e3d77b400b587f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371202"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887316"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Vorbereiten der Cloud Connector-Appliance
 
@@ -118,7 +119,7 @@ In diesem Abschnitt wird beschrieben, wie Sie die Installationsdateien für Skyp
     Geben Sie den vollständigen Pfad einschließlich Dateinamen zum externen Zertifikat an. Das Zertifikat kann lokal oder in einer Dateifreigabe gespeichert werden. Wenn das Zertifikat in einem freigegebenen Ordner gespeichert ist, wird der freigegebene Ordner muss auf die erste Appliance jeder Website erstellt werden und muss durch andere Geräte, die auf der gleichen Website gehören zugegriffen werden. Dieses Cmdlet kopiert das externe Zertifikat in das **Appliance-Verzeichnis**.
 
     > [!IMPORTANT]
-    > **Wenn Sie auf Cloud Connector, Version 1.4.2 oder höher, aktualisiert haben**, stellen Sie sicher, dass Ihr vorbereitetes externes Zertifikat private Schlüssel sowie die vollständige Zertifikatkette einschließlich des Zertifikats der Stammzertifizierungsstelle und der Zertifikate der Zwischenzertifizierungsstellen enthält.  **Wenn Sie noch NICHT auf Cloud Connector, Version 1.4.2, aktualisiert haben**, stellen Sie sicher, dass Ihr vorbereitetes externes Zertifikat private Schlüssel enthält. Dieses externe Zertifikat muss von einer Zertifizierungsstelle ausgestellt sein, der Windows standardmäßig vertraut.
+    > **Wenn Sie auf Cloud Connector, Version 1.4.2 oder höher, aktualisiert haben**, stellen Sie sicher, dass Ihr vorbereitetes externes Zertifikat private Schlüssel sowie die vollständige Zertifikatkette einschließlich des Zertifikats der Stammzertifizierungsstelle und der Zertifikate der Zwischenzertifizierungsstellen enthält. **Wenn Sie noch NICHT auf Cloud Connector, Version 1.4.2, aktualisiert haben**, stellen Sie sicher, dass Ihr vorbereitetes externes Zertifikat private Schlüssel enthält. Dieses externe Zertifikat muss von einer Zertifizierungsstelle ausgestellt sein, der Windows standardmäßig vertraut.
 
 ## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Festlegen des Pfads für das externe Zertifikat des PSTN-Gateways/SBC
 
@@ -157,7 +158,7 @@ Führen Sie zum Aktualisieren der Datei zunächst das folgende Cmdlet aus, um di
 Export-CcConfigurationSampleFile
 ```
 
-Die Beispielvorlage wird im **Appliance-Verzeichnis** gespeichert. 
+Die Beispielvorlage wird im **Appliance-Verzeichnis** gespeichert.
 
 Nachdem Sie sie mit den Werten für Ihre Umgebung aktualisiert haben, speichern Sie die Datei als „CloudConnector.ini“ im **Appliance-Verzeichnis**. Sie können **Get-CcApplianceDirectory** ausführen, um den Pfad zum **Appliance-Verzeichnis** zu ermitteln.
 
@@ -175,7 +176,6 @@ Beachten Sie Folgendes beim Aktualisieren der INI-Datei:
 - **HardwareType:** Wenn Sie nicht festgelegt oder lassen Sie den Wert auf NULL festgelegt, wird der Standardwert der **Normal** verwendet werden. Wenn Sie die größere Version von Cloud-Connector zur Unterstützung von 500 gleichzeitige Anrufe pro Hostcomputer wie beschrieben unter [Plan for Skype für Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md)bereitstellen möchten, verwenden Sie **Normal** . Verwenden Sie **Minimum** für eine kleinere Bereitstellung, die 50 gleichzeitige Anrufe unterstützt.
 
 - **Virtuelle Switches für Internet/Unternehmensnetzwerk/Verwaltung**: Fügen Sie die Namen der virtuellen Switches hinzu, die Sie erstellt haben. Für den virtuellen Switch für die Verwaltung behalten Sie den Standardwert bei. Das Bereitstellungsskript erstellt den virtuellen Switch für die Verwaltung zu Beginn der Bereitstellung und löscht ihn, sobald die Bereitstellung abgeschlossen ist.
-
 
 - **ManagementIPPrefix:** „ManagementIPPrefix“ im Netzwerkabschnitt muss ein anderes Subnetz als das der anderen internen IPs sein. Beispiel: Der Standardwert für „ManagementIPPrefix“ lautet 192.168.213.0, während die AD-IP-Adresse 192.168.0.238 lautet.
 
@@ -243,15 +243,15 @@ In diesem Schritt wird eine virtuelle Festplattendatei (VHDX) vom Windows Server
 
 Bevor Sie mit diesem Schritt fortfahren, vergewissern Sie sich, dass der Switch für das Unternehmensnetzwerk erstellt wurde. Bestätigen Sie auch, dass die folgenden Einstellungen in der Datei „CloudConnector.ini“ richtig konfiguriert sind:
 
-- [Network] CorpnetSwitchName
+- [Network]CorpnetSwitchName
 
-- [Allgemeine] BaseVMIP
+- [Common]BaseVMIP
 
-- [Network] CorpnetIPPrefixLength
+- [Network]CorpnetIPPrefixLength
 
-- [Network] CorpnetDefaultGateway
+- [Network]CorpnetDefaultGateway
 
-- [Network] CorpnetDNSIPAddress
+- [Network]CorpnetDNSIPAddress
 
 Starten Sie eine PowerShell-Konsole als Administrator und führen Sie das folgende Cmdlet aus, um das ISO-Image in eine virtuelle Festplatte (VHD) zu konvertieren:
 

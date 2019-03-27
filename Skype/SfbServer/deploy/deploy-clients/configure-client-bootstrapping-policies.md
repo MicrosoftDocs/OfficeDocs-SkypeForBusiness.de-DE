@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren von Richtlinien für das Client-Bootstrapping
+ms.reviewer: ''
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: 'Zusammenfassung: Informationen zum Verwalten von Gruppenrichtlinien.'
-ms.openlocfilehash: 8c7254d42de76150eb4f3910f3e5e400206e7acf
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b2652b42b58767aecd3556224b869211eb7e7a27
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967789"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885850"
 ---
 # <a name="configure-client-bootstrapping-policies"></a>Konfigurieren von Richtlinien für das Client-Bootstrapping
  

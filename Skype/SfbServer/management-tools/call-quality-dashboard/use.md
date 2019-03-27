@@ -1,5 +1,6 @@
 ---
 title: Verwenden von Anrufqualität Dashboards für Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Zusammenfassung: Informationen Sie zur Verwendung des Qualität-Dashboards aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 6b431bb34ca6350662fbae720c61d2033d95fba4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 856035642d1d8a818abe5f0a106c90270d706516
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533427"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891519"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Verwenden von Anrufqualität Dashboards für Skype für Business Server
  
@@ -200,9 +201,9 @@ CQD verwenden nicht Anrufer/angerufenen Felder. Diese wurden umbenannte "First" 
 |:-----|:-----|:-----|:-----|
 |2 (AVMCU)   <br/> |4 (Skype for Business)   <br/> |Endpunkt 1  <br/> |Endpunkt 2  <br/> |
 |2 (AVMCU)   <br/> |1 (mMediationServer)   <br/> |Endpunkt 2  <br/> |Endpunkt 1  <br/> |
-|4 (Skype for Business)   <br/> |4 (Skype for Business)   <br/> |Der Anrufer in MediaLine   <br/> |Der Angerufene in MMediaLine  <br/> |
+|4 (Skype for Business)  <br/> |4 (Skype for Business)   <br/> |Der Anrufer in MediaLine   <br/> |Der Angerufene in MMediaLine  <br/> |
    
-Falls beide Endpunkte denselben Typ aufweisen, legt CQD den Anrufer als Ersten fest, sodass der Angerufene zum Zweiten wird. Weitere Informationen finden Sie in [diesem Blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx).
+Falls beide Endpunkte denselben Typ aufweisen, legt CQD den Anrufer als Ersten fest, sodass der Angerufene zum Zweiten wird. [In diesem Blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx) Weitere Informationen finden Sie.
   
 ## <a name="accounting-for-vpn"></a>VPN-Kontoerstellung
 

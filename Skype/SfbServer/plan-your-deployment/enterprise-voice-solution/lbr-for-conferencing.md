@@ -1,5 +1,6 @@
 ---
 title: Standortbasierte Weiterleitung für Konferenzen in Skype für Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Überträgt die Planung für standortbasierte für Konferenzen in Skype für Business Server Enterprise-VoIP-routing, einschließlich konsultieren Anruf.
-ms.openlocfilehash: 810b93d20fe9bdbf0ae057250509b1e9ec612afe
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: cdb043aca3f2e2ac4278de1782f756d395016770
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240738"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892963"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Standortbasierte Weiterleitung für Konferenzen in Skype für Business Server
 
@@ -66,7 +67,7 @@ Im folgenden sind zusätzliche Merkmale des speicherortbasierte Routing für Liv
 > [!NOTE]
 > Mit dem kumulativen Update 4 für Skype for Business sollte das Verhalten in der folgenden Tabelle beobachtet werden.
 
-|**User**|**Andere Teilnehmer**|**Aktion**|**Ergebnis**|
+|**Benutzer**|**Andere Teilnehmer**|**Aktion**|**Ergebnis**|
 |:-----|:-----|:-----|:-----|
 |Skype for Business Mobile  <br/> |Telefonfestnetz (PSTN)  <br/> |Skype for Business Mobile ist in einem PSTN-Anruf. Skype for Business Mobile stuft den Anruf dann zu einem Conference Auto Attendant (CAA) hoch.  <br/> |Der Anruf wird mit einer entsprechenden Fehlermeldung blockiert.  <br/> |
 |Skype for Business Mobile  <br/> |Skype for Business-Client oder Verbundbenutzer  <br/> |Der Client oder zum Verbund gehörenden Benutzer ist auf einen VoIP-Anruf an einen Skype für Benutzer Business Mobile Location-Based Routing und Kommunikationspartner eskaliert, um eine CAA.  <br/> |Der Eskalationsanruf wird mit einer entsprechenden Fehlermeldung blockiert.  <br/> |
@@ -88,20 +89,20 @@ Wenn ein Benutzer für standortbasierte Routing initiiert Übertragung konsultie
 In der folgenden Tabelle wird beschrieben, wie standortbasierte Routing Einschränkungen durch die standortbasierte Routing für Konferenzen Anwendung für konsultieren Call gehandelt angewendet werden. Zwar sind Nebenstellenanlagenendgeräte nicht direkt einem Netzwerkstandort zugewiesen, aber die SIP-Vermittlungsleitung, an die die jeweilige Nebenstellenanlage angeschlossen ist, kann einem Netzwerkstandort zugewiesen sein. Daher kann ein Nebenstellenanlagenendgerät indirekt einem Netzwerkstandort zugewiesen sein.
 
 
-|**Netzwerkstandort des Teilnehmers, dessen Anruf durchgestellt wird**|**Netzwerkstandort des Ziels der Anrufdurchstellung**|**Verhalten**|
+|**Netzwerkstandort des Teilnehmers, dessen Anruf durchgestellt wird**|**Der Anruf weiterleiten Ziel Netzwerkstandort**|**Verhalten**|
 |:-----|:-----|:-----|
-|Endpunkt im öffentlichen Telefonnetz  <br/> |Skype für Geschäftsbenutzer im gleichen Netzwerkstandort (d. h. Website 1)  <br/> |Anrufdurchstellung mit Ankündigung wird zugelassen  <br/> |
-|Endpunkt im öffentlichen Telefonnetz  <br/> |Skype für Geschäftsbenutzer in verschiedenen Netzwerkstandorten (d. h. Website 2)  <br/> |Anrufdurchstellung mit Ankündigung wird nicht zugelassen  <br/> |
-|Endpunkt im öffentlichen Telefonnetz  <br/> |Skype für Benutzer in einem unbekannten Netzwerkstandort Business  <br/> |Anrufdurchstellung mit Ankündigung wird nicht zugelassen  <br/> |
-|Endpunkt im öffentlichen Telefonnetz  <br/> |Verbundpartner Skype für Geschäftsbenutzer  <br/> |Anrufdurchstellung mit Ankündigung wird nicht zugelassen  <br/> |
-|Endpunkt im öffentlichen Telefonnetz  <br/> |Nebenstellenanlagenendgerät am selben Standort (d. h. Standort 1)  <br/> |Anrufdurchstellung mit Ankündigung wird zugelassen  <br/> |
-|Endpunkt im öffentlichen Telefonnetz  <br/> |Nebenstellenanlagenendgerät an einem anderen Standort (d. h. Standort 2)  <br/> |Anrufdurchstellung mit Ankündigung wird nicht zugelassen  <br/> |
-|Nebenstellenanlagenendgerät am selben Standort (d. h. Standort 1)  <br/> |Endpunkt im öffentlichen Telefonnetz  <br/> |Anrufdurchstellung mit Ankündigung wird zugelassen  <br/> |
-|Nebenstellenanlagenendgerät in einem anderen Standort (d. h. Standort 2)  <br/> |Endpunkt im öffentlichen Telefonnetz  <br/> |Anrufdurchstellung mit Ankündigung wird nicht zugelassen  <br/> |
-|Nebenstellenanlagenendgerät in einem beliebigen Standort  <br/> |Skype für Geschäftsbenutzer im gleichen Netzwerkstandort (d. h. Website 1)  <br/> |Anrufdurchstellung mit Ankündigung wird zugelassen  <br/> |
-|Nebenstellenanlagenendgerät in einem beliebigen Standort  <br/> |Skype für Geschäftsbenutzer in verschiedenen Netzwerkstandorten (d. h. Website 2)  <br/> |Anrufdurchstellung mit Ankündigung wird zugelassen  <br/> |
-|Nebenstellenanlagenendgerät in einem beliebigen Standort  <br/> |Skype für Benutzer in einem unbekannten Netzwerkstandort Business  <br/> |Anrufdurchstellung mit Ankündigung wird zugelassen  <br/> |
-|Nebenstellenanlagenendgerät in einem beliebigen Standort  <br/> |Verbundpartner Skype für Geschäftsbenutzer  <br/> |Anrufdurchstellung mit Ankündigung wird zugelassen  <br/> |
+|Endpunkt im öffentlichen Telefonnetz  <br/> |Skype für Geschäftsbenutzer im gleichen Netzwerkstandort (d. h. Website 1)  <br/> |Konsultieren vor dem durchstellen ist möglich  <br/> |
+|Endpunkt im öffentlichen Telefonnetz  <br/> |Skype für Geschäftsbenutzer in verschiedenen Netzwerkstandorten (d. h. Website 2)  <br/> |Konsultieren vor dem durchstellen wird deaktiviert  <br/> |
+|Endpunkt im öffentlichen Telefonnetz  <br/> |Skype für Benutzer in einem unbekannten Netzwerkstandort Business  <br/> |Konsultieren vor dem durchstellen wird deaktiviert  <br/> |
+|Endpunkt im öffentlichen Telefonnetz  <br/> |Verbundpartner Skype für Geschäftsbenutzer  <br/> |Konsultieren vor dem durchstellen wird deaktiviert  <br/> |
+|Endpunkt im öffentlichen Telefonnetz  <br/> |PBX-Endpunkt am gleichen Standort (d. h. Website 1)  <br/> |Konsultieren vor dem durchstellen ist möglich  <br/> |
+|Endpunkt im öffentlichen Telefonnetz  <br/> |PBX-Endpunkt in einen anderen Websites (d. h. Website 2)  <br/> |Konsultieren vor dem durchstellen wird deaktiviert  <br/> |
+|PBX-Endpunkt am gleichen Standort (d. h. Website 1)  <br/> |Endpunkt im öffentlichen Telefonnetz  <br/> |Konsultieren vor dem durchstellen ist möglich  <br/> |
+|PBX-Endpunkt in einem anderen Standort (d. h. Website 2)  <br/> |Endpunkt im öffentlichen Telefonnetz  <br/> |Konsultieren vor dem durchstellen wird deaktiviert  <br/> |
+|PBX-Endpunkt in einer beliebigen Website  <br/> |Skype für Geschäftsbenutzer im gleichen Netzwerkstandort (d. h. Website 1)  <br/> |Konsultieren vor dem durchstellen ist möglich  <br/> |
+|PBX-Endpunkt in einer beliebigen Website  <br/> |Skype für Geschäftsbenutzer in verschiedenen Netzwerkstandorten (d. h. Website 2)  <br/> |Konsultieren vor dem durchstellen ist möglich  <br/> |
+|PBX-Endpunkt in einer beliebigen Website  <br/> |Skype für Benutzer in einem unbekannten Netzwerkstandort Business  <br/> |Konsultieren vor dem durchstellen ist möglich  <br/> |
+|PBX-Endpunkt in einer beliebigen Website  <br/> |Verbundpartner Skype für Geschäftsbenutzer  <br/> |Konsultieren vor dem durchstellen ist möglich  <br/> |
 
 ## <a name="requirements"></a>Voraussetzungen
 
@@ -110,21 +111,21 @@ Speicherortbasierte Routing für Konferenzen Anwendung erfordert, dass entweder 
 Die folgende Tabelle zeigt die Kombination von Serverrollen und Versionen, die standortbasierte Routing zu unterstützen.
 
 
-|**Version des Front-End-Pools**|**Version des Vermittlungsservers**|**Unterstützt**|
+|**Front-End-Pool-version**|**Mediation Server-version**|**Unterstützt**|
 |:-----|:-----|:-----|
 |Skype für Business Server oder für Lync Server 2013 Kumulatives Update 2  <br/> |Skype für Business Server oder für Lync Server 2013 Kumulatives Update 2  <br/> |Ja  <br/> |
-|Lync Server 2013, kumulatives Update 2  <br/> |Lync Server 2013, kumulatives Update 1  <br/> |Nein  <br/> |
-|Lync Server 2013, kumulatives Update 2  <br/> |Lync Server 2010  <br/> |Nein  <br/> |
-|Lync Server 2013, kumulatives Update 2  <br/> |Office Communications Server 2007 R2  <br/> |Nein  <br/> |
-|Lync Server 2013, kumulatives Update 1  <br/> |Beliebig  <br/> |Nein  <br/> |
+|Lync Server 2013 Kumulatives Update 2  <br/> |Lync Server 2013 Kumulatives Update 1  <br/> |Nein  <br/> |
+|Lync Server 2013 Kumulatives Update 2  <br/> |Lync Server 2010  <br/> |Nein  <br/> |
+|Lync Server 2013 Kumulatives Update 2  <br/> |Office Communications Server 2007 R2  <br/> |Nein  <br/> |
+|Lync Server 2013 Kumulatives Update 1  <br/> |Beliebig  <br/> |Nein  <br/> |
 |Lync Server 2010  <br/> |Beliebig  <br/> |Nein  <br/> |
 |Office Communications Server 2007 R2  <br/> |Beliebig  <br/> |Nein  <br/> |
 
 ## <a name="configuration-of-location-based-routing-for-conferencing"></a>Konfiguration der Standortbasierte Weiterleitung für Konferenzen
 
-Speicherortbasierte Routing für Konferenzen Anwendung nutzt die Konfiguration der speicherortbasierte Routing. Es gibt folgende Hauptkonfigurationen:
+Speicherortbasierte Routing für Konferenzen Anwendung nutzt die Konfiguration der speicherortbasierte Routing. Die wichtigsten Konfigurationen sind folgende:
 
-- Der Standort von Teilnehmern, die an einer Besprechung teilnehmen, wird anhand ihres Netzwerkstandorts ermittelt. Einem Netzwerkstandort und die zugehörigen Netzwerksubnetzen müssen in Skype für Business Server, um die standortbasierte Routing erzwingen definiert werden.
+- Der Speicherort der Teilnehmer, die Teilnahme an einer Besprechung wird basierend auf ihren Netzwerkstandort bestimmt. Einem Netzwerkstandort und die zugehörigen Netzwerksubnetzen müssen in Skype für Business Server, um die standortbasierte Routing erzwingen definiert werden.
 
 - Zum Erzwingen der speicherortbasierte Routing von Besprechungen muss Skype für Business Teilnehmer für standortbasierte Routing aktiviert sein.
 
@@ -132,7 +133,7 @@ Speicherortbasierte Routing für Konferenzen Anwendung nutzt die Konfiguration d
 
 ## <a name="enabling-the-location-based-routing-for-conferencing"></a>Aktivieren die Standortbasierte Weiterleitung für Konferenzen
 
-Speicherortbasierte Routing für Live Meeting-Anwendung ist standardmäßig deaktiviert. Bevor Sie diese App aktivieren, müssen Sie die korrekte Priorität ermitteln, die für die App zugewiesen werden muss. Wenn dieser Priorität ermitteln möchten, führen Sie das folgende Cmdlet in Skype für Business Server-Verwaltungsshell:
+Speicherortbasierte Routing für Live Meeting-Anwendung ist standardmäßig deaktiviert. Bevor Sie diese Anwendung aktivieren, müssen Sie die richtige Priorität zuweisen für die Anwendung zu bestimmen. Wenn dieser Priorität ermitteln möchten, führen Sie das folgende Cmdlet in Skype für Business Server-Verwaltungsshell:
 
 Get-CsServerApplication-Identity Service: Registrar:<Pool FQDN>In dieses Cmdlet \<Pool-FQDN\> wird von der Pool, in dem die standortbasierte Routing für Konferenzen Anwendung aktiviert werden soll.
 
@@ -142,7 +143,7 @@ Beispielsweise, wenn die Anwendung "UdcAgent" den Prioritätswert "2" hat, die A
 
 Nachdem Sie den richtigen Prioritätswert für standortbasierte Routing für Konferenzen Anwendung ermittelt wird, geben Sie das folgende Cmdlet für jeden Front-End-Pool oder Standard Edition-Server, die für das Routing speicherortbasierte Hause Benutzer aktiviert:
 
-New-CsServerApplication-Identity Service: Registrar:`<Pool FQDN`> / LBRouting-Priorität \<Anwendungspriorität\> -aktiviert $true-kritische $true - Uri<http://www.microsoft.com/LCS/LBRouting> 
+New-CsServerApplication-Identity Service: Registrar:`<Pool FQDN`>/LBRouting - Priorität \<Anwendungspriorität\> -aktiviert $true-kritische $true - Uri<http://www.microsoft.com/LCS/LBRouting> 
 
 Beispiel:
 

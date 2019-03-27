@@ -1,5 +1,6 @@
 ---
 title: Verwenden die Skype für Business Server 2015 Stress and Performance-Tool
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/13/2018
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Um die Skype für Business Server 2015 Stress and Performance-Tool auszuführen, müssen Sie Benutzer, Kontakte und Benutzerprofile verwalten können konfigurieren das Tool zum Ausführen, und überprüfen Sie die Ausgabe oder Ergebnisse, die von dem Tool erstellt werden.
-ms.openlocfilehash: 829bedbd2a042234e67285045ac67cff30064936
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7ce25ec13af020734e0784392e457f96399a2398
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375439"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884842"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Verwenden die Skype für Business Server 2015 Stress and Performance-Tool
  
@@ -296,7 +297,7 @@ Die Optionen sind:
 - **Vermittlungsserver und PSTN-** Jeder Vermittlungsserver, die Sie verwenden möchten benötigt einen eigenen PSTN Simulator. Nachdem Sie den Client Sie nun für den Simulator verwenden ermittelt haben, Konfiguration Ihrer Mediation Server weitergeleitet Aufrufe von diesem Computer auf dem PSTN-Simulator Sie konfiguriert. Klicken Sie auf die Schaltfläche **Hinzufügen** , um einen Wert für den Vermittlungsserver konfigurieren.
     
     > [!NOTE]
-    > Jedes Szenario verfügt über eine Schaltfläche Erweitert neben es sich befindet. Erweiterte Dialogfelder enthalten speziell für jedes Szenario Einstellungen, die das Verhalten von der Stress and Performance-Tool ändern und Anpassung aktivieren. > Für jedes Szenario auf der Registerkarte VoIP-Szenarien ist der Wert der Auslastung **benutzerdefinierte**, wird dann die Unterhaltung Rate berechnet mithilfe der im Dialogfeld Erweitert das entsprechende Feld. Der Name des Felds abweichen, je nach Szenario, festlegen, sondern im Beschreibungsfeld wird: *Hinweis Diese Nummer wird nur verwendet werden, wenn aus dem Dropdown - Menü die Option Benutzerdefiniert ausgewählt ist* .
+    > Jedes Szenario verfügt über eine Schaltfläche Erweitert neben es sich befindet. Erweiterte Dialogfelder enthalten speziell für jedes Szenario Einstellungen, die das Verhalten von der Stress and Performance-Tool ändern und Anpassung aktivieren. > für jedes Szenario auf der Registerkarte VoIP-Szenarien ist der Wert der Auslastung **Benutzerdefiniert**, und klicken Sie dann auf die Unterhaltung Rate wird mithilfe der im Dialogfeld Erweitert das entsprechende Feld berechnet werden. Der Name des Felds abweichen, je nach Szenario, festlegen, sondern im Beschreibungsfeld wird: *Hinweis Diese Nummer wird nur verwendet werden, wenn aus dem Dropdown - Menü die Option Benutzerdefiniert ausgewählt ist* .
   
 #### <a name="web-app-tab"></a>Registerkarte für Web-App
 
@@ -315,7 +316,7 @@ Web App unterstützt konferenzszenarien über den Unified Communications Web API
 - **Sprachkonferenzen-** Wählen Sie einen Wert für die Auslastung.
     
 > [!NOTE]
-> Jedes der Szenarien verfügt über eine Schaltfläche **Erweitert** neben es sich befindet. Erweiterte Dialogfenster enthalten Werte speziell für jedes Szenario, die das Verhalten der Stress and Performance-Tool zu ändern und aktivieren Sie Anpassung. > für jedes der Szenarien Web App, wenn die Auslastung **benutzerdefinierte**, ist dann der Wert angegeben in der ** ConversationsPerHour** Feld anstatt vom standardmäßigen verwendet wird.
+> Jedes der Szenarien verfügt über eine Schaltfläche **Erweitert** neben es sich befindet. Erweiterte Dialogfenster enthalten Werte speziell für jedes Szenario, die das Verhalten der Stress and Performance-Tool zu ändern und Customization.> für jedes der Szenarien Web App aktivieren, wenn die Auslastung **Benutzerdefiniert**, klicken Sie dann in der **angegebene Wert ist ConversationsPerHour** Feld anstatt vom standardmäßigen verwendet wird.
   
 #### <a name="mobility-tab"></a>Registerkarte für Mobilität
 
@@ -330,7 +331,7 @@ Die hier aufgeführten Optionen sind:
 - **Anwesenheits- und Audio/P2P Instant Messaging-** Wählen Sie einen Wert für die Auslastung die Mobilität Simulation aktivieren.
     
 > [!NOTE]
-> Jedes der Szenarien verfügt über eine Schaltfläche **Erweitert** neben es sich befindet. Erweiterte Dialogfenster enthalten Werte speziell für jedes Szenario, die das Verhalten der Stress and Performance-Tool zu ändern und aktivieren Sie Anpassung. > für jedes der Szenarien Mobilität, wenn die Auslastung **benutzerdefinierte**, ist dann der Wert angegeben in der ** ConversationsPerHour** Feld anstatt vom standardmäßigen verwendet wird.
+> Jedes der Szenarien verfügt über eine Schaltfläche **Erweitert** neben es sich befindet. Erweiterte Dialogfenster enthalten Werte speziell für jedes Szenario, die das Verhalten der Stress and Performance-Tool zu ändern und Customization.> für jedes der Szenarien Mobilität aktivieren, wenn die Auslastung **Benutzerdefiniert**, klicken Sie dann in der **angegebene Wert ist ConversationsPerHour** Feld anstatt vom standardmäßigen verwendet wird.
   
 #### <a name="summary-tab"></a>Registerkarte "Zusammenfassung"
 

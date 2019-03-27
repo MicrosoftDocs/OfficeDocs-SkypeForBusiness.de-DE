@@ -1,5 +1,6 @@
 ---
-title: Hinzufügen von NextHop Anwendungsserver vertrauenswürdige
+title: Hinzufügen eines vertrauenswürdigen NextHop-Anwendungsservers
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49c9e65a-ae2d-46fa-a6a2-fff47ed0f3de
 description: 'Wenn den nächsten Hop für den vertrauenswürdigen Anwendungsserver oder-Pool festlegen möchten, führen Sie folgende Schritte aus:'
-ms.openlocfilehash: 48dd7d025c79b5b342f282eeb2d690bb9eb99d0b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ed2141d8d55a84789a18b70f11f32ce83c07a16a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21004708"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887203"
 ---
-# <a name="add-nexthop-trusted-application-server"></a>Hinzufügen von NextHop Anwendungsserver vertrauenswürdige
+# <a name="add-nexthop-trusted-application-server"></a>Hinzufügen eines vertrauenswürdigen NextHop-Anwendungsservers
  
 Wenn den nächsten Hop für den vertrauenswürdigen Anwendungsserver oder-Pool festlegen möchten, führen Sie folgende Schritte aus:
   

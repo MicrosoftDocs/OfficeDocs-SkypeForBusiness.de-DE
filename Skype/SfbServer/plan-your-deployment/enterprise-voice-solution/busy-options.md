@@ -1,5 +1,6 @@
 ---
 title: Planen der Beschäftigt-Optionen für Skype for Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: Informieren Sie sich über das Feature beschäftigt Optionen in Skype für Business Server.
-ms.openlocfilehash: 7b71cad7eebaf2d375098abfa0891cdf6b494fe9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 41e34dbb4eaf4a264ba1cec3756cc53c78992611
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884786"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897977"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Planen der Beschäftigt-Optionen für Skype for Business Server
  
@@ -27,7 +28,7 @@ Wird eine neue VoIP-Richtlinie eingeführt beschäftigt Optionen in der Juli 201
   
 Die Richtlinie für Beschäftigt-Optionen wird für Failover- und Notfallwiederherstellung in gepaarten Front-End-Pools und Survivable Branch Servers (SBS) unterstützt.
   
-In diesem Thema werden die Funktionen der Beschäftigt-Optionen beschrieben. Informationen zum Installieren und Konfigurieren von Optionen für beschäftigt finden Sie unter [Installieren und Konfigurieren von beschäftigt Optionen für Skype für Business Server](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md).
+In diesem Thema werden die Funktionen der Beschäftigt-Optionen beschrieben. Weitere Informationen zum Installieren und Konfigurieren der Beschäftigt-Optionen finden Sie unter [Install and configure Busy Options for Skype for Business Server](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md).
   
 ## <a name="configuration-options"></a>Konfigurationsoptionen
 

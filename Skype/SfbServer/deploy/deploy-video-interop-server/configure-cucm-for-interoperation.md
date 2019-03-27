@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren von CUCM für die Interoperation mit Skype für Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 'Zusammenfassung: Konfigurieren Sie CUCM Skype für Business Server entwickelt.'
-ms.openlocfilehash: 6ace5eb2f6cb9763bf78b3930536ae50f8fee815
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 630ab5165c3c7bb3a64663d54ef750fe9275f932
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986558"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888036"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Konfigurieren von CUCM für die Interoperation mit Skype für Business Server
  
@@ -83,7 +84,7 @@ Mehrere CUCM-Einstellungen müssen für die Interoperabilität mit dem VIS best�
     |AAR Calling Search Space (AAR-Anrufsuchbereich)  <br/> |CSS_SfBVideoInterop  <br/> |
     |Connected Party Transformation CSS (Transformations-CSS des verbundenen Teilnehmers)  <br/> |CSS_SfBVideoInterop  <br/> |
    
-18. Scrollen Sie nach unten. Geben Sie unter im Abschnitt Ziel für SIP-Informationen der SIP-Trunk-Konfiguration die gegenüber Pool-FQDN oder die IP-Adresse des einzelnen gegenüber Servern im Pool (mehrere Einträge hinzufügen). Geben Sie unter „Destination Port“ (Zielport) den Port an, den VIS für Verbindungen von CUCM überwachen soll (Standardwert ist 6001). Geben Sie wie dargestellt auch das vorher erstellte SIP-Trunk-Sicherheitsprofil und SIP-Profil an.
+18. Scrollen Sie noch weiter nach unten. Geben Sie unter im Abschnitt Ziel für SIP-Informationen der SIP-Trunk-Konfiguration die gegenüber Pool-FQDN oder die IP-Adresse des einzelnen gegenüber Servern im Pool (mehrere Einträge hinzufügen). Geben Sie unter „Destination Port“ (Zielport) den Port an, den VIS für Verbindungen von CUCM überwachen soll (Standardwert ist 6001). Geben Sie wie dargestellt auch das vorher erstellte SIP-Trunk-Sicherheitsprofil und SIP-Profil an.
     
     |**Parameter**|**Empfohlene Einstellung**|
     |:-----|:-----|
@@ -100,43 +101,43 @@ Mehrere CUCM-Einstellungen müssen für die Interoperabilität mit dem VIS best�
     
 21. Navigieren Sie zu Cisco Unified CM Administration-\>Call Routing -\>Route/Sammelanschlüsse-\>Routenmuster.
     
-22. Geben Sie auf dem Bildschirm „Route Pattern Configuration“ (Konfiguration des Weiterleitungsmusters) die Parameter für die Musterdefinition wie im Folgenden angegeben an. Scrollen Sie zum Abschnitt „Called Party Transformations“ (Transformationen des angerufenen Teilnehmers) und geben Sie die folgende Maske ein. Klicken Sie abschließend auf **Add New** (Neu hinzufügen).
+22. Geben Sie im Bildschirm Routenkonfiguration Muster der unten angezeigten Muster-Definition-Parameter aus. Führen Sie einen Bildlauf nach unten zum Abschnitt Partei Transformationen aufgerufen und legen Sie die Maske wie dargestellt, und klicken Sie dann auf **Neu hinzufügen** nach Abschluss des.
     
     |**Parameter**|**Empfohlene Einstellung**|
     |:-----|:-----|
-    |Route Pattern (Weiterleitungsmuster)  <br/> |7779999  <br/> |
-    |Route Partition (Weiterleitungspartition)  <br/> |SfBVideoInterop_RoutePartition  <br/> |
-    |Description (Beschreibung)  <br/> |Partition for SfBVideoInterop  <br/> |
-    |Gateway/Route List (Gateway-/Weiterleitungsliste)  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
-    |Called Party Transform Mask (Transformationsmaske des angerufenen Teilnehmers)  <br/> |+14257779999  <br/> |
+    |Routenmuster  <br/> |7779999  <br/> |
+    |Route Partition  <br/> |SfBVideoInterop_RoutePartition  <br/> |
+    |Beschreibung  <br/> |Partition für SfBVideoInterop  <br/> |
+    |Liste der Gateway-Route  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
+    |Aufgerufen von Teilnehmern Transform Maske  <br/> |+14257779999  <br/> |
    
 23. Navigieren Sie zu Cisco Unified CM Administration-\>Call Routing -\>Routen SIP-Muster.
     
-24. Legen Sie auf dem Bildschirm „SIP Route Pattern Configuration“ (Konfiguration des SIP-Weiterleitungsmusters) die Optionen unter „Pattern Definition“ (Musterdefinition) wie im Folgenden angegeben fest. Klicken Sie dann auf **Add New** (Neu hinzufügen).
+24. Legen Sie im Bildschirm SIP-Muster Routenkonfiguration die Optionen Musterdefinition wie dargestellt, und klicken Sie auf **Neu hinzufügen**.
     
     |**Parameter**|**Empfohlene Einstellung**|
     |:-----|:-----|
-    | Pattern Usage (Musterverwendung) <br/> |Domain Routing (Domänenweiterleitung)  <br/> |
-    |IPv4 Pattern (IPv4-Muster)  <br/> |contoso.com (bei Verwendung von IPv6 leer lassen)  <br/> |
-    |IPv6 Pattern (IPv6-Muster)  <br/> |contoso.com (bei Verwendung von IPv4 leer lassen)  <br/> |
-    |Description (Beschreibung)  <br/> |SIPRoute Pattern to mediarv  <br/> |
-    |Route Partition (Weiterleitungspartition)  <br/> |SfBVideoInterop_RoutePartition  <br/> |
-    |SIP Trunk/Route List (SIP-Trunk-/Weiterleitungsliste)  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
-    |Kontrollkästchen „Block Pattern“ (Blockmuster)  <br/> |Deaktiviert lassen  <br/> |
+    | Muster Verwendung <br/> |Domäne-Routing  <br/> |
+    |IPv4-Muster  <br/> |Contoso.com (leer lassen, wenn IPv6 verwenden)  <br/> |
+    |IPv6-Muster  <br/> |Contoso.com (leer lassen, wenn IPv4 verwenden)  <br/> |
+    |Beschreibung  <br/> |SIPRoute Muster mediarv  <br/> |
+    |Route Partition  <br/> |SfBVideoInterop_RoutePartition  <br/> |
+    |Liste der SIP-Trunk-Route  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
+    |Das Kontrollkästchen Block Muster  <br/> |Lassen Sie deaktiviert  <br/> |
    
-25. Wenn Sie die Standardeinstellungen der Audio- oder Videobitraten geändert haben, müssen Sie diese wieder auf die Standardwerte zurücksetzen. Um die Bitrate für Audio-/Videoanrufen festzulegen, navigieren Sie zu Cisco Unified CM Administration -\>System -\>Region Informationen -\>Region. Zu Referenzzwecken sind die Standardeinstellungen im Folgenden angegeben:
+25. Wenn Sie die Audio- oder Videodatei Bitraten von den Standardeinstellungen geändert haben, müssen Sie diese auf die Standardwerte zurück. Um die Bitrate für Audio-/Videoanrufen festzulegen, navigieren Sie zu Cisco Unified CM Administration -\>System -\>Region Informationen -\>Region. Die Standardwerte sind als Referenz unten aufgeführt:
     
     |**Parameter**|**Empfohlene Einstellung**|
     |:-----|:-----|
-    |Region  <br/> |Default (Standard)  <br/> |
-    |Audio Codec Preference List (Audiocodec-Einstellungsliste)  <br/> |System Default (Systemstandard)  <br/> |
-    |Maximum Audio Bit Rate (Max. Audiobitrate)  <br/> |64 kbps (G.722, G.711) (64 KBit/s)  <br/> |
-    |Maximum Session Bit Rate for Video Calls (Max. Sitzungsbitrate für Videoanrufe)  <br/> |200000 kbps (200000 KBit/s)  <br/> |
-    |Maximum Session Bit Rate (Max. Sitzungsbitrate)  <br/> |2000000000 kbps (2000000000 KBit/s)  <br/> |
+    |Region  <br/> |Standard  <br/> |
+    |Liste der bevorzugten Audiocodec  <br/> |Standardeinstellungen des Systems  <br/> |
+    |Maximale Bitrate für Audio  <br/> |64 Kbit/s (g. 722, g. 711)  <br/> |
+    |Maximale Bitrate für Videoanrufe  <br/> |200000 Kbit/s  <br/> |
+    |Maximale Bitrate  <br/> |2000000000 Kbit/s  <br/> |
    
-An dieser Stelle wurde das CUCM-Videogateway so konfiguriert, dass es mit dem VIS funktioniert. Die entsprechende Konfiguration muss für jedes zu integrierende Videotelekonferenzgerät vorgenommen werden.
+An dieser Stelle wird das video CUCM-Gateway konfiguriert die VIS. entwickelt Entsprechende Konfiguration müssen für jeden VTC ausgeführt werden, die Sie integrieren möchten.
 > [!NOTE]
-> Um ausfallsicherheit zu verbessern, sollten Sie dieses Gateway CUCM entwickelt einen zweiten Interop Videoserver oder gegenüber Pool zu konfigurieren. Weitere Informationen hierzu finden Sie unter [Resiliency mechanisms](../../plan-your-deployment/video-interop-server.md#resiliency).
+> Um ausfallsicherheit zu verbessern, sollten Sie dieses Gateway CUCM entwickelt einen zweiten Interop Videoserver oder gegenüber Pool zu konfigurieren. Weitere Informationen finden Sie unter [Resiliency Mechanismen](../../plan-your-deployment/video-interop-server.md#resiliency) .
   
 ## <a name="see-also"></a>Siehe auch
 

@@ -1,5 +1,6 @@
 ---
 title: Erstellen oder Löschen einer Ankündigung in Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Erstellen oder Löschen von Ansagen für ansageanwendung in Skype für Business Server Enterprise-VoIP. Dies wirkt sich auf den Umgang mit Anrufen an nicht zugewiesene Nummern aus.
-ms.openlocfilehash: cbdcaed3d5908b76f0932f3461dfc21716f74b32
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cf6fc0ce754e30e4d52e968dc3a167bbe87a5a83
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372294"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885575"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Erstellen oder Löschen einer Ankündigung in Skype für Business Server
 
@@ -28,7 +29,7 @@ Bei der Konfiguration von Ansagen wird tatsächlich konfiguriert, wie Anrufe an 
 
 Sie müssen Ansagen erstellen, bevor Sie die Tabelle nicht zugewiesener Nummern definieren. Diesen Schritt führen Sie für alle Ansagen aus, die eine Audioansage, eine TTS-Ansage oder keine Ansage enthalten.
 
-In diesem Abschnitt wird beschrieben, wie Ansagen importiert und erstellt werden. Weitere Informationen zu den in der Tabelle für den nicht zugewiesenen Nummern Ansagen zuweisen finden Sie unter [Konfigurieren der Tabelle nicht zugewiesener Anzahl](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx).
+In diesem Abschnitt wird beschrieben, wie Ansagen importiert und erstellt werden. Ausführliche Informationen zur Zuweisung von Ansagen in der Tabelle nicht zugewiesener Nummern finden Sie unter [Configure the Unassigned Number Table](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx).
 
 ## <a name="create-a-new-announcement-for-unassigned-numbers"></a>Erstellen einer neuen Ansage für nicht zugewiesene Nummern
 
@@ -36,9 +37,9 @@ Zum Erstellen einer neuen Ansage müssen Sie die folgenden Schritte ausführen:
 
 1. Für Audioansagen zeichnen Sie die Audiodatei mithilfe Ihrer bevorzugten Anwendung zur Audioaufzeichnung auf.
 
-2. Führen Sie für audioansagen das **Import-CsAnnouncementFile** -Cmdlet, um den Inhalt der Audiodatei in Dateispeicher zu importieren.
+2. Führen Sie für Audioansagen das Cmdlet **Import-CsAnnouncementFile** aus, um den Inhalt der Audiodatei in den Dateispeicher zu importieren.
 
-3. Führen Sie das Cmdlet **New-CsAnnouncement** erstellen, und nennen die Ankündigung aus. Diesen Schritt führen Sie aus, um Ansagen zu erstellen, die Audioansagen, eine Text-zu-Sprache-Ansage (Text-to-Speech, TTS) oder keine Ansage enthalten.
+3. Führen Sie das Cmdlet **New-CsAnnouncement** aus, um die Ansage zu erstellen und zu benennen. Diesen Schritt führen Sie aus, um Ansagen zu erstellen, die Audioansagen, eine Text-zu-Sprache-Ansage (Text-to-Speech, TTS) oder keine Ansage enthalten.
 
     > [!TIP]
     > Möglicherweise möchten Sie eine Ansage erstellen (wenn Sie z. B. Anrufe an ein bestimmtes Ziel durchstellen möchten, ohne eine Nachricht wiederzugeben.

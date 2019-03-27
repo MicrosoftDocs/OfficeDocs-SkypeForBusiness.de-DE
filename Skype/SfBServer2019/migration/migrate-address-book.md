@@ -1,5 +1,6 @@
 ---
-title: Migrieren von Adressbüchern
+title: Migrieren des Adressbuchs
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Im Allgemeinen wird zusammen mit dem Rest der Topologie im Adressbuch migriert. Sie müssen jedoch möglicherweise einige Schritte nach der Migration ausführen, wenn Sie die folgenden in der Vorversion Umgebung angepasst:'
-ms.openlocfilehash: 081246acaaede37ab7f7f204a3f7204d9b25fbcc
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 728ae97270cd8451178c6ef962f05e0351118119
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788994"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890648"
 ---
-# <a name="migrate-address-book"></a>Migrieren von Adressbüchern
+# <a name="migrate-address-book"></a>Migrieren des Adressbuchs
 
 Im Allgemeinen wird zusammen mit dem Rest der Topologie im Adressbuch migriert. Sie müssen jedoch möglicherweise einige Schritte nach der Migration ausführen, wenn Sie die folgenden in der Vorversion Umgebung angepasst: 
 

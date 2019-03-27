@@ -1,5 +1,6 @@
 ---
 title: UriTypes-Tabelle
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
 description: UriTypes-Tabelle sind die unterschiedlichen URI (Uniform Resource Identifier) Typen in Skype für Business Server 2015 überwacht.
-ms.openlocfilehash: d1a796367ae068dcd814b13b1b0ec6ce9ae453f1
-ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
+ms.openlocfilehash: cb9c131901a322f9d22c8d29aa52a73dc27c9ea1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19649605"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899645"
 ---
 # <a name="uritypes-table"></a>UriTypes-Tabelle
  

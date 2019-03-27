@@ -1,5 +1,6 @@
 ---
 title: Auswählen eines Regionslinks
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie das Dialogfeld Regionslink, um nach den in Ihrer Umgebung verfügbaren Regionslinks zu suchen. Klicken Sie auf einen Regionslink in der Liste und anschließend auf OK, um einen vorhandenen Regionslink zu verwenden.
-ms.openlocfilehash: 3674a21689de265ac167415c2433e2e4c9ace25b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 512171611a11572f1e3be385b04d566011155e9a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973415"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885505"
 ---
 # <a name="select-a-region-link"></a>Auswählen eines Regionslinks
  

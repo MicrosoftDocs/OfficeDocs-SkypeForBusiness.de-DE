@@ -1,5 +1,6 @@
 ---
-title: Verbessern der vorhandene Office 365-Gruppen mit Microsoft-Teams
+title: Erweitern von vorhandenen Office 365-Gruppen mit Microsoft Teams
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,22 +15,22 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13b34da03c35706fafb02a4e9e02eab629a4a399
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 665a8197b81ec823ef73962babdcbfecc664b03f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568416"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885291"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Verbessern der vorhandene Office 365-Gruppen mit Microsoft-Teams
 =======================================================
 
-Microsoft Teams-Benutzer können eine vorhandene Office 365-Gruppe mit Microsoft Teams-Funktionen erweitern. Eine öffentliche Office 365-Gruppe kann von Benutzern erweitert werden, wenn die Anzahl der Mitglieder kleiner oder gleich 2.500 ist.
+Microsoft-Teams, Benutzer können eine vorhandene Gruppe von Office 365 mit Microsoft-Teams Funktionalität verbessern. Beim Erweitern einer öffentlichen Office 365-Gruppe von betrachten, können Benutzer nicht, wenn die Anzahl der Elemente 5000 kleiner oder gleich ist.
 
 Zu diesem Zweck sollten Benutzer über den Ablauf des Erstellen eines neuen Teams vom Microsoft-Teams, Client wechseln. Wählen Sie **erstellen ein Team aus einer vorhandenen Office 365-Gruppe** am unteren Rand des Bildschirms aus, und wählen Sie dann die vorhandene Gruppe, die Sie mit Microsoft-Teams verbessern möchten. Vorhandene Gruppenmitglieder werden als Mitglieder des Teams automatisch hinzugefügt werden.
 
 > [!IMPORTANT]
-> Nur Office 365-Gruppe Besitzer über die Berechtigung verfügen, um eine vorhandene Gruppe mit Microsoft-Teams verbessern, und dieser Gruppe muss kleiner als 2500 Benutzer enthalten. Teams, die bereits verbessert werden nicht in der Liste angezeigt.
+> Nur Office 365-Gruppe Besitzer über die Berechtigung verfügen, um eine vorhandene Gruppe mit Microsoft-Teams verbessern, und dieser Gruppe muss kleiner als 5000 Benutzer enthalten. Teams, die bereits verbessert werden nicht in der Liste angezeigt.
 >
 >Die Option **Erstellen Sie ein Team aus einer vorhandenen Office 365-Gruppe** ist nicht verfügbar, es sei denn, diese Bedingungen erfüllt sind.
 

@@ -1,5 +1,6 @@
 ---
 title: Häufige Sicherheitsbedrohungen in der modernen EDV
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Da Skype für Business Server einem Enterprise-Klasse Communications-System handelt, sollten Sie häufig vorkommende Angriff beachten, die die Infrastruktur und Kommunikation auswirken könnten.
-ms.openlocfilehash: 354e537a7e927ed6825b5909107c80fe59e04996
-ms.sourcegitcommit: f2b89fea199e7a1d2a3c90c153c94b0a35965e6f
+ms.openlocfilehash: 15c5f71db846ad51fa0df70396cb7ca1252dd4dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25599211"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885864"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Häufige Sicherheitsbedrohungen in der modernen EDV
  
@@ -70,11 +71,11 @@ Andererseits, kommt Anrufer-Id Spoofing ins Spiel, wenn Sie einen SIP-Trunk zwis
   
 ## <a name="man-in-the-middle-attack"></a>Man-in-the-Middle-Angriff
 
-Ein Man-in-the-Middle-Angriff tritt auf, wenn ein Angreifer die Kommunikation zwischen zwei Benutzern über seinen Computer ohne Wissen der zwei kommunizierenden Benutzer leitet. Die Angreifer können die übertragenen Daten überwachen und lesen, ehe sie an den eigentlichen Empfänger weitergeleitet werden. Beide Kommunikationspartner senden unwissentlich Daten an die Angreifer und empfangen von ihnen Daten, sind aber dabei in dem Glauben, ausschließlich mit der beabsichtigten Person zu kommunizieren. Dies kann passieren, wenn es Angreifern gelingt, die Active Directory-Domänendienste so zu ändern, dass ihr Server als vertrauenswürdiger Server hinzugefügt wird, oder wenn sie den DNS-Eintrag (Domain Name System) so ändern können, dass Clients auf ihrem Weg zum Server über den Computer der Angreifer geleitet werden. Ein Man-in-the-Middle-Angriff kann auch mit Mediendatenverkehr zwischen zwei Clients auftreten. Allerdings werden in Skype für Business Server Point Audio-, Video- und Anwendungsfreigabe, Datenströme verschlüsselt, mit SRTP, kryptografische Schlüssel, die zwischen den Peers ausgehandelt werden, die über TLS Session Initiation Protocol (SIP) verwenden. Server wie Gruppenchat nutzen HTTPS zur Erhöhung der Sicherheit des Webdatenverkehrs.
+Ein Man-in-the-Middle-Angriff tritt auf, wenn ein Angreifer die Kommunikation zwischen zwei Benutzern über seinen Computer ohne Wissen der zwei kommunizierenden Benutzer leitet. Die Angreifer können die übertragenen Daten überwachen und lesen, ehe sie an den eigentlichen Empfänger weitergeleitet werden. Beide Kommunikationspartner senden unwissentlich Daten an die Angreifer und empfangen von ihnen Daten, sind aber dabei in dem Glauben, ausschließlich mit der beabsichtigten Person zu kommunizieren. Dies kann passieren, wenn es Angreifern gelingt, die Active Directory-Domänendienste so zu ändern, dass ihr Server als vertrauenswürdiger Server hinzugefügt wird, oder wenn sie den DNS-Eintrag (Domain Name System) so ändern können, dass Clients auf ihrem Weg zum Server über den Computer der Angreifer geleitet werden. Ein Man-in-the-Middle-Angriff kann auch bei Mediendatenverkehr zwischen zwei Clients erfolgen, wobei jedoch in skype16_server_short Point-to-Point-Audio-, Video- und Anwendungsfreigabe-Datenströme mit dem Secure Real-Time Transport Protocol (SRTP) verschlüsselt werden. Allerdings werden in Skype für Business Server Point Audio-, Video- und Anwendungsfreigabe, Datenströme verschlüsselt, mit SRTP, kryptografische Schlüssel, die zwischen den Peers ausgehandelt werden, die über TLS Session Initiation Protocol (SIP) verwenden. Server wie Gruppenchat nutzen HTTPS zur Erhöhung der Sicherheit des Webdatenverkehrs.
   
 ## <a name="rtp-replay-attack"></a>Angriff mit Aufzeichnungswiederholung (RTP-Datenverkehr)
 
-Bei einem Angriff mit Aufzeichnungswiederholung wird in böswilliger Absicht eine gültige Medienübertragung zwischen zwei Parteien abgefangen und erneut übertragen. Durch die Verwendung von SRTP in Verbindung mit einem sicheren Signalübermittlungsprotokoll werden Übertragungen vor Angriffen mit Aufzeichnungswiederholung geschützt. Mit SRTP können Empfänger einen Index der bereits empfangenen RTP-Pakete erstellen und jedes neue Paket mit den bereits enthaltenen vergleichen.
+Ein Replay-Angriff liegt vor, wenn eine gültige Medienübertragung zwischen zwei Parteien abgefangen und für böswillige Zwecke erneut übertragen wird. SRTP in Verbindung mit einer sicheren signalübermittlungsprotokoll Replay-Angriffen geschützt werden, da des Empfängers einen Index, der bereits empfangenen RTP-Pakete verwalten und den Vergleich von jeder neuen Paket mit die bereits im Index aufgeführten Übertragungen verhindert.
   
 ## <a name="spim"></a>SPIM (Spam over Instant Messaging)
 

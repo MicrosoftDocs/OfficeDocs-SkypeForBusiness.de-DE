@@ -1,5 +1,6 @@
 ---
 title: Benutzer anzeigen oder Konfigurieren von Wähleinstellungen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 49c77aff1c74fb7240fa00a18cd6deeaf33210f1
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: b831ee19b09e38b456c251e1aacb3390274446a2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241956"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894936"
 ---
 # <a name="users-view-or-configure-dial-plan"></a>Benutzer: Anzeigen oder Konfigurieren von Wähleinstellungen
 
-Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.
+Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 
 - [Erstellen oder Ändern von Wähleinstellungen in Skype für Business Server](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 

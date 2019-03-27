@@ -1,5 +1,6 @@
 ---
 title: Planen für die Skype for Business Cloud Connector-Edition
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Hier erhalten Sie Informationen zu Skype for Business Cloud Connector Edition, einem als Paket zusammengesetzten Satz von virtuellen Maschinen (VMs), die eine lokale PSTN-Anbindung mit dem Telefonsystem in Office 365 (Cloud-PBX) implementieren.
-ms.openlocfilehash: 4d03d8ea6936ad906de01a5b478fce01d62113c4
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.openlocfilehash: da594ba2511b7e3a296eb57b825489305d9473d9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454135"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888752"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planen für die Skype for Business Cloud Connector-Edition
 
@@ -49,7 +50,7 @@ Cloud Connector ermöglicht die Weiterleitung zwischen den lokal verwalteten Ben
 
 Berücksichtigen Sie beim Planen der Bereitstellung Cloud Connector Edition Folgendes:
 
-- Um Cloud Connector verwenden, um die Cloud VoIP-Lösungen nutzen, müssen Sie für ein Office 365-Mandanten zu registrieren, die in Office 365 Telefonsystem enthält. Sofern Sie noch nicht über einen Office 365-Mandanten verfügen, erfahren Sie hier Näheres über die Registrierung: [Office 365 – auf Ihr Unternehmen zugeschnitten](https://products.office.com/en-us/business/office). Beachten Sie, dass Sie benötigen, um für einen Plan registrieren, der Skype für Business Online enthält.
+- Um Cloud Connector verwenden, um die Cloud VoIP-Lösungen nutzen, müssen Sie für ein Office 365-Mandanten zu registrieren, die in Office 365 Telefonsystem enthält. Wenn Sie noch nicht über Office 365-Mandanten verfügen Sie können erfahren Sie, wie sich hier anmelden: [Office 365 für Unternehmen](https://products.office.com/en-us/business/office). Beachten Sie, dass Sie benötigen, um für einen Plan registrieren, der Skype für Business Online enthält.
 
 - Zum Registrieren von Cloud-Connector Appliances mit der Skype für Business Onlinedienst, und verschiedene Cmdlets ausführen, erfordert Cloud Connector 2.0 und höher ein dediziertes Office 365-Konto mit der Skype für Business Mandanten Administratorrechte. Cloud Connector-Versionen vor 2.0 erfordern ein dediziertes Office 365-Konto mit den Rechten eines globalen Mandantenadministrators.
 
@@ -112,7 +113,7 @@ Cloud Connectorkomponenten bieten die folgenden Funktionen:
 
   - **Media Relayauthentifizierung / MRAS** -Token für den Zugriff auf Mediarelay generiert.
 
-- **Ausgangsrouting** - bietet Lastenausgleich des VoIP-Datenverkehrs zwischen Gateways oder an einer Cloud-Connector Appliance SBCs angeschlossen sein. Die Anrufe werden gleichmäßig auf alle mit der Cloud Connector-Appliance verbundenen Gateways oder SBCs verteilt.
+- **Ausgangsrouting** - bietet Lastenausgleich des VoIP-Datenverkehrs zwischen Gateways oder an einer Cloud-Connector Appliance SBCs angeschlossen sein. Anrufe werden gleichmäßig zwischen alle Gateways oder mit der Cloud Connector Einheit verbunden SBCs aufgeteilt.
 
     Bietet Routing zu Gateways basierend auf Richtlinien. Es werden nur globale Richtlinien unterstützt, die auf (ausgehenden) PSTN-Zielnummern basieren.
 
@@ -120,7 +121,7 @@ Cloud Connectorkomponenten bieten die folgenden Funktionen:
 
 - **Replikat des zentralen Management Store (CMS)** - Konfigurationsinformationen aus der globalen CMS-Datenbank auf dem Server, CMS Rolle synchronisiert.
 
-- **Domänencontroller** - Cloud-Connector Active Directory Domain Services zum Speichern der globalen Einstellungen und Gruppen Cloud Connector Komponenten bereitgestellt, erforderlich sind. Für jede Appliance Cloud-Connector wird einer Gesamtstruktur erstellt werden. Der Domänencontroller muss keine Verbindungen mit der Produktion Active Directory verfügen. Die Active Directory-Dienste umfassen:
+- **Domänencontroller** - Cloud-Connector Active Directory Domain Services zum Speichern der globalen Einstellungen und Gruppen Cloud Connector Komponenten bereitgestellt, erforderlich sind. Für jede Appliance Cloud-Connector wird einer Gesamtstruktur erstellt werden. Der Domänencontroller muss keine Verbindungen mit der Produktion Active Directory verfügen. Active Directory Domain Services umfassen:
 
   - Active Directory-Domänendienste
 
@@ -249,7 +250,7 @@ Vor der Bereitstellung von Cloud-Connector Edition, stellen Sie sicher, dass Sie
 
 - Qualifizierte PBX/qualifizierter Trunk oder qualifizierter SBC/qualifiziertes Gateway (Empfohlen werden mindestens zwei Gateways.)
 
-    Cloud Connector unterstützt die gleichen Session Border Controller (SBCs), die für Skype for Business zertifiziert sind. Weitere Informationen finden Sie unter [Telefonieinfrastruktur für Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).
+    Cloud Connector unterstützt die gleichen Session Border Controller (SBCs), die für Skype for Business zertifiziert sind. Weitere Informationen finden Sie unter [Telefonie-Infrastruktur für Skype für Unternehmen](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).
 
 - Ein lokaler Server-Administratorkonto mit Berechtigungen zum Installieren und Konfigurieren von Hyper-V auf den Hostservern. Das Konto muss über Administratorberechtigungen auf dem lokalen Server verfügen, auf dem Hyper-V installiert und konfiguriert ist.
 
@@ -272,10 +273,10 @@ Vor der Bereitstellung von Cloud-Connector Edition, stellen Sie sicher, dass Sie
 
 - Ein Remote-PowerShell-Modul für einen Mandanten ist auf der Hostmaschine installiert.
 
-- Die Anmeldeinformationen des Office 365 Skype for Business-Administrators zum Ausführen von Remote-PowerShell
+- Die Anmeldeinformationen des Office 365 Skype for Business-Administrators zum Ausführen von Remote-PowerShell  
 
     > [!IMPORTANT]
-    > Für das Administratorkonto darf die mehrstufige Authentifizierung NICHT aktiviert sein. 
+    > Für das Administratorkonto darf die mehrstufige Authentifizierung NICHT aktiviert sein.
 
 > [!NOTE]
 > Bereitstellung von Cloud-Connector wird nur auf der Microsoft Hyper-V virtualisierten-Plattform unterstützt. Andere Plattformen (zum Beispiel VMware und Amazon Web Services) werden nicht unterstützt.
@@ -420,11 +421,11 @@ Das Hostsystem muss externe Ressourcen, um erfolgreich installieren, aktualisier
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Ausgehend  <br/> |Cloud Connector Host IP-Adressen  <br/> |Beliebig  <br/> |Beliebig  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Ausgehend  <br/> |Cloud Connector Host IP-Adressen  <br/> |Beliebig  <br/> |Beliebig  <br/> |80, 443  <br/> |TCP  <br/> |Zertifikatssperrliste (CRL)  <br/> |
-|Ausgehend  <br/> |Cloud Connectorr Host IP-Adressen  <br/> |Beliebig  <br/> |Beliebig  <br/> |80, 443  <br/> |TCP  <br/> |Cloud-Connector-update  <br/> Skype for Business Online  <br/> Administrator-PowerShell  <br/> Windows Update  <br/> |
+|Ausgehend  <br/> |Cloud Connectorr Host IP-Adressen  <br/> |Beliebig  <br/> |Beliebig  <br/> |80, 443  <br/> |TCP  <br/> |Cloud-Connector-update  <br/> Administrator-PowerShell  <br/> Administrator-PowerShell  <br/> Wenn restriktivere Regeln erforderlich sind, finden Sie unter den folgenden URLs zum Thema Whitelists weitere Informationen:  <br/> |
 
 Wenn restriktivere Regeln erforderlich sind, finden Sie unter den folgenden URLs zum Thema Whitelists weitere Informationen:
 
-- [URLs für Zertifikatssperrlisten](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) in [URLs und IP-Adressbereiche von Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
+- [Die URLs für Zertifikatsperrlisten](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) in [Office 365-URLs und IP-Adressbereiche](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
 - Windows Update: [Gewusst wie: Konfigurieren einer Firewall für Softwareupdates](https://technet.microsoft.com/en-us/library/bb693717.aspx)
 
@@ -441,7 +442,7 @@ Die Edge-Komponente muss die externen Namen von Office 365-Dienste und anderer K
 
 Jeder Edge-Komponente ist ein Multihoming-Computer mit externen und internen internetbasierte Schnittstellen. Cloud-Connector wird DNS-Server auf der Domänencontroller-Komponente im Umkreisnetzwerk bereitgestellt. So aktivieren Sie die Cloud Connector DNS-Server zum Auflösen der externer Names durch das Festlegen einer DNS-Zone mit mindestens einen DNS-A-Einträge für externe Abfragen, die Namen verweisen müssen aber können Sie die Edge-Server auf dem DNS-Server im Umkreisnetzwerk für alle Namen Auflösungen zeigen Suchvorgänge mit anderen öffentlichen DNS-Servern.
 
-Wenn Sie in der INI-Datei den FQDN für Gateways aus demselben Domänenbereich wie dem Ihrer SIP-Domäne zuweisen, wird die autoritative Zone für diese SIP-Domäne im DNS-Server innerhalb des Umkreises erstellt. Wenn Edge-Server auf diesen DNS-Server zum Auflösen von Namen verwiesen wird, wird die _sipfederationtls nie Edge aufgelöst werden. \<Ihre Domäne\> DNS-Eintrag für Anruffluss erforderlich ist. In diesem Fall empfiehlt es sich, dass Sie einen DNS-Server, auf die externe edgeschnittstelle zum Internet Namenssuche auflösen bereitstellen und jede Edge-Komponente muss eine Hostdatei zum Auflösen von anderen Komponentennamen Cloud-Connector in IP-Adressen verwenden.
+In der INI-Datei Wenn Sie den Vollqualifizierten Domänennamen für Gateways aus der gleichen Domäne Speicherplatz wie Ihre SIP-Domäne festgelegt wird die autorisierende Zone für diese SIP-Domäne in der DNS-Server im Umkreisnetzwerk erstellt. Wenn Edge-Server auf diesen DNS-Server zum Auflösen von Namen verwiesen wird, wird die _sipfederationtls nie Edge aufgelöst werden. \<Ihre Domäne\> DNS-Eintrag für Anruffluss erforderlich ist. In diesem Fall empfiehlt es sich, dass Sie einen DNS-Server, auf die externe edgeschnittstelle zum Internet Namenssuche auflösen bereitstellen und jede Edge-Komponente muss eine Hostdatei zum Auflösen von anderen Komponentennamen Cloud-Connector in IP-Adressen verwenden.
 
 > [!NOTE]
 > Aus Sicherheitsgründen wird empfohlen, dass Sie den Cloud Connector DNS-Server nicht mit internen Servern in der Produktionsdomäne für die namensauflösung zeigen.
@@ -471,7 +472,7 @@ Beachten Sie beim Konfigurieren der Gateway-Informationen Folgendes:
 
 
 
-|**Standortparameter**|**Beschreibung**|**Notizen**|
+|**Standortparameter**|**Beschreibung**|**Hinweise**|
 |:-----|:-----|:-----|
 |Virtuelle Maschine – Domänenname  <br/> |Der Domänenname für die internen Komponenten des Cloud-Connector. Diese Domäne muss sich von der Produktionsdomäne unterscheiden. Der Name muss für sämtliche Cloud Connector-Appliances verwendet werden.  <br/> Name in INI-Datei: "VirtualMachineDomain"  <br/> |Eine .local-Domäne wird bevorzugt.   <br/> |
 |Connector-Domänencontrollername Cloud  <br/> |Name des Domänencontrollers   <br/> Name in INI-Datei: "ServerName"  <br/> |Höchstens 15 Zeichen. Tragen Sie nur den NetBIOS-Namen ein.  <br/> |
@@ -528,7 +529,7 @@ Beachten Sie beim Konfigurieren der Gateway-Informationen Folgendes:
 |CABackupFile  <br/> Version 2.0 und höher  <br/> |Verwendet zum Speichern von Dienst der Zertifizierungsstelle aus Active Directory-Server für eine Datei bei der Bereitstellung von mehreren Appliances in einer Cloud-Connector-Website. Achten Sie darauf, für alle Appliances an einem Cloud Connector-Standort das gleiche Kennwort zu verwenden, damit die CA-Sicherungsdatei auf neu hinzugefügten Appliances erfolgreich importiert werden kann.  <br/> ||
 |Nur Version 2.0  <br/> Version 2.0 und höher   <br/> |Wird für den Cloud Connector-Verwaltungsdienst verwendet und benötigt Zugriff auf das Cloud Connector-Standortverzeichnis. Achten Sie darauf, für alle Appliances an einem Cloud Connector-Standort das gleiche Kennwort zu verwenden.   <br/> ||
 |Office 365-Mandantenadministrator  <br/> | Das Konto wird von Cloud Connector verwendet, um Mandanteneinstellungen für Cloud Connector zu aktualisieren und zu verwalten: <br/>  Version 2.0 und höher: Anmeldeinformationen für einen dedizierten Office 365-Konto mit Skype für Business Administratorrechte. <br/>  Versionen vor 2.0: Anmeldeinformationen für ein dediziertes Office 365-Konto mit den Rechten eines globalen Mandantenadministrators <br/> ||
-|Aktivieren von REFER-Unterstützung  <br/> |Dadurch wird festgelegt, ob „SIP REFER-Unterstützung“ in der Trunk-Konfiguration zu Ihrer IP/PBX aktiviert oder deaktiviert ist. Der Standardwert ist „True“. Wenn Ihr IP/PBX-Gateway REFER-Unterstützung unterstützt, behalten Sie „True“ bei. Andernfalls muss dieser Wert in „False“ geändert werden. Wenn Sie nicht sicher sind, ob Ihr Gateway REFER unterstützt, informieren Sie sich bitte unter [Qualified IP-PBXs and Gateways nach: ](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)   <br/> ||
+|Aktivieren von REFER-Unterstützung  <br/> |Dadurch wird festgelegt, ob „SIP REFER-Unterstützung“ in der Trunk-Konfiguration zu Ihrer IP/PBX aktiviert oder deaktiviert ist. Der Standardwert ist „TRUE“ (WAHR). Sofern Ihr IP/PBX-Gateway „REFER-Unterstützung“ unterstützt, belassen Sie die Einstellung auf „WAHR“. Wenn nicht, muss dieser Wert in „FALSE“ (FALSCH) geändert werden. Wenn Sie nicht sicher sind, ob Ihre Gateway REFER unterstützt, finden Sie [qualifizierten IP-PBXs und Gateways](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).   <br/> ||
 |EnableFastFailoverTimer  <br/> Version 2.0 und höher  <br/> |Mit dem Standardwert "True", werden Wenn ausgehende Anrufe vom Gateway nicht innerhalb von 10 Sekunden beantwortet werden sie zum nächsten verfügbaren Gateway weitergeleitet werden; Wenn es keine zusätzlichen Trunks sind wird der Anruf automatisch gelöscht werden.  <br/> Wenn in einer Organisation langsame Netzwerke und Gatewayreaktionen vorliegen oder der Aufbau von Anrufen mehr als zehn Sekunden in Anspruch nimmt, kann dies dazu führen, dass Anrufe unnötig getrennt werden.  <br/> Wenn Anrufe in bestimmte Länder/Regionen wie zum Beispiel in die Vereinigten Arabischen Emirate oder nach Afghanistan getätigt werden, kann der Anrufaufbau länger als zehn Sekunden dauern. Wenn vergleichbare Probleme auftreten, müssen Sie den Wert in „False“ ändern. Denken Sie daran, die entsprechende Einstellung auf dem verbundenen SBC oder Gateway zu ändern.  <br/> Gültige Werte sind „True“ oder „False“. Der Standardwert lautet „True“.  <br/> ||
 |ForwardCallHistory  <br/> Version 2.0 und höher  <br/> | Dieser Parameter wird verwendet, um SIP-Header zu aktivieren, mit deren Hilfe der anfängliche Anrufer in Szenarien mit gleichzeitigem Klingeln, Anrufweiterleitung und Anrufdurchstellung gemeldet wird. Wenn Sie den Parameter auf „True“ festlegen, werden zwei SIP-Header aktiviert:<br/>  Referred-By <br/>  Referred-By <br/>  Die Kopfzeile "History-Info" wird für die SIP-Anforderungen der Zielversion und "Package-Lösung(en) einen standard Mechanismus für das Erfassen der Anforderung Verlaufsinformationen zum Aktivieren einer Vielzahl von Diensten für Netzwerke und Endbenutzer" ([RFC 4244 - Abschnitt 1.1](http://www.ietf.org/rfc/rfc4244.txt)). Für die Cloud Connector-Trunkschnittstellen wird diese in Szenarien mit gleichzeitigem Klingeln und Anrufweiterleitung verwendet.  <br/>  Gültige Werte sind „True“ oder „False“. Der Standardwert lautet „False“.<br/> ||
 |PAI weiterleiten  <br/> Version 2.0 und höher  <br/> |PAI ist eine private Erweiterung von SIP, mit der SIP-Server die Identität von authentifizierten Benutzern bestätigen können. Der SIP-Trunkanbieter kann PAI zu Abrechnungszwecken verwenden, falls keine „History-Info“- und „Referred-By“-Header vorhanden sind. Beim Weiterleiten P-Asserted-Identity in der Konfiguration aktiviert ist, wird der Vermittlungsserver PAI-Kopfzeilen mit SIP weiterleiten &amp; Tel URI von Cloud-Connector auf dem SIP-Trunk. Der Vermittlungsserver wird PAI-Kopfzeilen mit tel-URI weiterleiten &amp; e. 164-Nummern, die nur für die SIP-Trunk an Cloud-Konnektor empfangen. Außerdem leitet der Vermittlungsserver alle empfangenen „Privacy“-Header unabhängig von der Richtung weiter. Wenn der SIP-Anforderung gesendet vom Vermittlungsserver eine private Kopfzeile des Formulars - umfasst "Privacy: Id" in Verbindung mit dem PAI-Header, klicken Sie dann die bestätigte Identität beibehalten werden sollten private außerhalb der vertrauenswürdigen Domäne von Netzwerk.  <br/> Gültige Werte sind „True“ oder „False“. Der Standardwert lautet „False“.  <br/> ||
@@ -582,7 +583,7 @@ Sie müssen für jede SIP-Domäne „sip.sipdomain.com“ sowie den Namen der Zu
 
 Für die Bereitstellung können Sie folgende Tabelle verwenden:
 
-|**Option**|**Beschreibung**|**Notizen**|
+|**Option**|**Beschreibung**|**Hinweise**|
 |:-----|:-----|:-----|
 |Welche Option möchten Sie für Ihre Bereitstellung verwenden?  <br/> |Option 1 oder 2  <br/> ||
 |SN  <br/> |Geben Sie den SN für Ihr Zertifikat an.  <br/> ||
@@ -670,7 +671,7 @@ Der Mechanismus für Überwachung und Problembehandlung wird mit jeder Cloud Con
 
 - Dienste werden nicht ausgeführt.
 
-  Wenn eines der folgenden Ereignisse erkannt wurde, wird die gesamte Cloud Connector Appliance ein Ausgleich vorgenommen und zu verhindern, dass den Versuch, Anrufe an eine fehlerhafte Einheit herzustellen als offline markiert. Die Cloud Connector-Funktionen für automatische Wiederherstellung stellen anschließend die Dienste wieder her und kennzeichnen die Appliance als online. Wenn die automatische Wiederherstellung aus irgendeinem Grund ein Fehler auftritt, finden Sie unter [Problembehandlung bei der Bereitstellung von Cloud-Connector](troubleshoot-your-cloud-connector-deployment.md).
+  Wenn eines der folgenden Ereignisse erkannt wurde, wird die gesamte Cloud Connector Appliance ein Ausgleich vorgenommen und zu verhindern, dass den Versuch, Anrufe an eine fehlerhafte Einheit herzustellen als offline markiert. Cloud Connector automatischen Wiederherstellungsfeatures werden anschließend wiederherstellen Services und kennzeichnen die Appliance als online. Wenn die automatische Wiederherstellung aus irgendeinem Grund ein Fehler auftritt, finden Sie unter [Problembehandlung bei der Bereitstellung von Cloud-Connector](troubleshoot-your-cloud-connector-deployment.md).
 
   - In der virtuellen Maschine für den zentralen Verwaltungsspeicher:
 
@@ -705,11 +706,11 @@ Cloud Connector 2.1 und höher unterstützt das Überwachen von Cloud Connector
 
 Weitere Informationen finden Sie unter den folgenden Themen:
 
-- [Microsoft-telefonielösungen](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft-Telefonielösungen](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Konfigurieren und Verwalten von Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md)
 
-- [Planen der Medienumgehung in Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
+- [Planen der Medienumgehung in der Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
 
 - [Die medienumgehung in der Cloud Connector Edition bereitstellen](deploy-media-bypass-in-cloud-connector.md)
 

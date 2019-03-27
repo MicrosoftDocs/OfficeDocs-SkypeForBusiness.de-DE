@@ -1,5 +1,6 @@
 ---
 title: Vermittlungsserverkomponente in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: 'Informationen Sie zu Vermittlungsservern in Skype für Business Server, einschließlich der unterstützten Topologien und seine Relations m: n-Trunks, medienumgehung und anrufsteuerung.'
-ms.openlocfilehash: 3f8b1e9fa1c1026c89fb67456e33ee0758140ee7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 237892f446250332e00616dcc8a08abf9c59d741
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882281"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889168"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Vermittlungsserverkomponente in Skype für Business Server
  
@@ -125,7 +126,7 @@ Die folgende Abbildung zeigt eine einfache Topologie, bei denen Vermittlungsserv
   
 **Beispiel für Standorte, die über eine WAN-Leitung mit einem Vermittlungsserver an Standort 1 und einer Nebenstellenanlage an Standort 2 verbunden sind**
 
-![VoIP-Topologie mit Vermittlungsserver und WAN-Festnetztelefonanlage](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
+![VoIP-Topologie Mediation Server WAN-Nebenstellenanlage](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
   
 In diesem Thema die letzte Abbildung zeigt eine Topologie, in dem der Vermittlungsserver mit den SBC des Internet Telephony Service Provider verbunden ist. 
   
@@ -158,7 +159,7 @@ Können Sie die Microsoft Lync Server 2013, Planungstool für ausgewertet werden
  Vermittlungsserver am zentralen Standort können für das Anrufrouting für IP-Nebenstellenanlagen oder PSTN-Gateways an Zweigniederlassungen verwendet werden. Wenn Sie SIP-Trunks bereitstellen, müssen Sie jedoch einen Vermittlungsserver am Standort bereitstellen, auf dem jeden Trunk beendet wird. Mit einem Vermittlungsserver an den zentralen Standort Weiterleitung von Anrufen für eine IP-Nebenstellenanlage oder PSTN-Gateway an einem Zweigstellenstandort erfordert nicht die Verwendung von Medien umgehen. Wenn Sie die Medienumgehung jedoch aktivieren können, wird die Latenz für den Medienpfad reduziert und somit eine bessere Medienqualität erreicht, da der Medienpfad nicht mehr dem Signalpfad folgen muss. Die medienumgehung verringert außerdem die Verarbeitungslast auf den Pool.
   
 > [!NOTE]
-> Die Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen und SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit IP-Nebenstellenanlagen von Cisco durchgeführt. Die medienumgehung wird nur mit Produkten unterstützt und Versionen am aufgeführten [Unified Communications Open Interoperability Program – Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=268730). 
+> Die Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen oder SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit IP-Nebenstellenanlagen von Cisco durchgeführt. Die medienumgehung wird nur mit Produkten unterstützt und Versionen am aufgeführten [Unified Communications Open Interoperability Program – Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=268730). 
   
 Wenn Zweigstellenstandorte erforderlich ist, muss eine Survivable Branch Appliance oder eine Kombination aus einem Front-End-Server, einen Vermittlungsserver und ein Gateway am Zweigstellenstandort bereitgestellt werden. (Die Annahme mit Zweigstellenstandorte ist, dass die Anwesenheit und Konferenzen nicht am Standort ausfallsichere sind.) Anleitung zum Planen von VoIP Zweigstellenstandort finden Sie unter [Planen für Enterprise Voice Resiliency in Skype für Business Server](enterprise-voice-resiliency.md).
   

@@ -1,5 +1,6 @@
 ---
 title: Ändern der Konfiguration einer vorhandenen Cloud Connector-Bereitstellung
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Führen Sie die Schritte in diesem Thema, um die Konfiguration von einer vorhandenen Skype für Business Cloud Connector Edition 1.4.1 oder höher Bereitstellung zu ändern.
-ms.openlocfilehash: be3c7cbbc1395000dbb84bab0c9be0a866fb4403
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: abe7d9be6ec0ae48ff8cbac09475c6a41bf2a49f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375372"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893055"
 ---
-# <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Ändern der Konfiguration einer vorhandenen Cloud Connector-Bereitstellung
+# <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modify the configuration of an existing Cloud Connector deployment
  
 Führen Sie die Schritte in diesem Thema, um die Konfiguration von einer vorhandenen Skype für Business Cloud Connector Edition 1.4.1 oder höher Bereitstellung zu ändern. 
   
@@ -172,17 +173,17 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > Dieser Abschnitt ist für Cloud-Connector-Version 2.0 und höher. 
   
-Alle Cloud Connector Anmeldeinformationen werden in der folgenden Datei gespeichert: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ". Wenn das Kennwort für den Hostserver geändert wird, müssen Sie die lokal gespeicherten Anmeldeinformationen aktualisieren.
+Alle Cloud Connector Anmeldeinformationen werden in der folgenden Datei gespeichert: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ". Wenn sich das Kennwort auf dem Hostserver ändert, müssen Sie die lokal gespeicherten Anmeldeinformationen aktualisieren.
   
 Um die lokal gespeicherten Anmeldeinformationen in der Cloud Connector-Anwendung zu aktualisieren, verwenden Sie die Cmdlets [Get-CcCredential](get-cccredential.md) und [Set-CcCredential](set-cccredential.md) , und gehen Sie folgendermaßen vor:
   
 1. Führen Sie die folgenden Befehle aus, um die Kennwörter abzurufen, die Sie später benötigen:  
     
-   - Get-CcCredential - AccountType DomainAdmin "- DisplayPassword
+   - Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
    - Get-CcCredential -AccountType VMAdmin -DisplayPassword
     
-   - Get-CcCredential AccountType - CceService - DisplayPassword
+   - Get-CcCredential -AccountType CceService -DisplayPassword
     
 2. Ändern Sie das Kennwort Ihres Kontos auf dem Hostserver.
     
@@ -190,7 +191,7 @@ Um die lokal gespeicherten Anmeldeinformationen in der Cloud Connector-Anwendung
     
 4. Löschen Sie die folgende Datei: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
     
-5. Starten Sie eine PowerShell-Konsole als Administrator, und führen Sie "Register-CcAppliance-lokale" die Kennwörter die Beschreibung nach erneut eingeben. Stellen Sie sicher, dass Sie das gleiche Kennwort eingeben eingegebene vor dem für die Bereitstellung von Cloud-Connector.
+5. Starten Sie eine PowerShell-Konsole als Administrator, und führen Sie "Register-CcAppliance-lokale" die Kennwörter die Beschreibung nach erneut eingeben. Achten Sie darauf, das gleiche Kennwort einzugeben, das Sie vor der Cloud Connector-Bereitstellung eingegeben haben.
     
 Für „VmAdmin“ und „DomainAdmin“ wird standardmäßig das gleiche Kennwort wie für „CceService“ verwendet. Wenn in Schritt 1 andere Kennwörter für „DomainAdmin“, „VMAdmin“ und „CceService“ zurückgegeben wurden, müssen Sie die folgenden Schritte ausführen:
   
@@ -279,7 +280,7 @@ Für jede Anwendung, die am gleichen Standort PSTN angehört, benötigen Sie Fol
 
 Um eine neue SIP-Domäne (oder mehrere SIP-Domänen) Ihre vorhandene Bereitstellung Cloud Connector hinzuzufügen, führen Sie folgende Schritte aus:
   
-1. Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihre Domäne in Office 365 und haben die Möglichkeit zum Hinzufügen von DNS-Einträgen abgeschlossen haben. Weitere Informationen dazu, wie Sie Ihre Domäne in Office 365 einrichten finden Sie unter [Hinzufügen einer Domäne zu Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
+1. Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihrer Domäne in Office 365 abgeschlossen und die Möglichkeit haben, DNS-Datensätze hinzuzufügen. Weitere Informationen dazu, wie Sie Ihre Domäne in Office 365 einrichten finden Sie unter [Hinzufügen einer Domäne zu Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Aktualisieren der Konfigurationsdatei Cloud Connector mit den neuen SIP-Domäne oder Domänen.
     
@@ -300,7 +301,7 @@ Um eine neue SIP-Domäne (oder mehrere SIP-Domänen) Ihre vorhandene Bereitstell
 
 Wenn Sie die primäre SIP-Domäne in der Cloud Connector Bereitstellung ändern müssen, führen Sie folgende Schritte aus:
   
-1. Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihre Domäne in Office 365 und haben die Möglichkeit zum Hinzufügen von DNS-Einträgen abgeschlossen haben. Weitere Informationen dazu, wie Sie Ihre Domäne in Office 365 einrichten finden Sie unter [Hinzufügen einer Domäne zu Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
+1. Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihrer Domäne in Office 365 abgeschlossen und die Möglichkeit haben, DNS-Datensätze hinzuzufügen. Weitere Informationen dazu, wie Sie Ihre Domäne in Office 365 einrichten finden Sie unter [Hinzufügen einer Domäne zu Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Aktualisieren Sie die Konfigurationsdatei Cloud Connector mit der neuen SIP-Domäne.
     
@@ -323,8 +324,6 @@ Wenn Sie die primäre SIP-Domäne in der Cloud Connector Bereitstellung ändern 
 6. 
     
     Entfernen Sie die Siteregistrierung für jede Site, indem Sie das folgende Cmdlet in Skype for Business Online-PowerShell ausführen:
-
-
     
    ```
    Remove-CsHybridPSTNSite
@@ -361,7 +360,7 @@ Wenn Sie das externe edgezertifikat auf Ihre Cloud-Connector Appliances ersetzen
   
 1. Tragen Sie mithilfe des Cmdlets EINGABETASTE CcUpdate der Appliance im Wartungsmodus befindet.
     
-2. Führen Sie den folgenden Befehl aus: 
+2. Führen Sie den folgenden Befehl aus:   
     
    ```
    Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import

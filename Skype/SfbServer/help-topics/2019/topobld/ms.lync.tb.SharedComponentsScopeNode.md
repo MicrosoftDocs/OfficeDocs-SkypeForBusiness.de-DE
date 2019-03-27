@@ -1,5 +1,6 @@
 ---
 title: Freigegebene Komponenten – Bereichsknoten
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie klicken Sie auf freigegebene Komponenten in der Hierarchiestruktur Topologie-Generator, um neue freigegebene Komponenten zu erstellen oder zu Optionen der Topologieebene zuzugreifen.
-ms.openlocfilehash: 36395e21e3b697c5fc881223a223c70e32e10386
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 68b11a03edb129c0249f3a8816e44eea065a69f3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060155"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893090"
 ---
 # <a name="shared-components-scope-node"></a>Freigegebene Komponenten – Bereichsknoten
  
@@ -34,6 +35,6 @@ Wählen Sie **neu** aus, um einen neuen Dateispeicher, ein neues IP/PSTN-Gateway
   
 Sie wählen Sie **Topologie** auf Optionen, um ein neues topologiedokument öffnen klicken. Zum Öffnen eines vorhandenen Topologie Dokuments Herunterladen der aktuellen Topologie aus dem zentralen Verwaltungsspeicher, Speichern einer Kopie des aktuellen Topologie Dokuments, das aktuelle topologiedokument veröffentlichen, Datenbank installieren, um die aktuell konfigurierte Datenbankkonfigurationen erstellen Zusammenführen von Office Communications Server 2007 R2 in der aktuellen Bereitstellung oder Bereitstellung entfernen.
   
-![Freigegebene Komponenten – Bereichsknoten C](../../../media/Shared_Components_Scope_NodeC.jpg)
+![Gemeinsam genutzte Komponenten – Bereichsknoten C](../../../media/Shared_Components_Scope_NodeC.jpg)
   
 

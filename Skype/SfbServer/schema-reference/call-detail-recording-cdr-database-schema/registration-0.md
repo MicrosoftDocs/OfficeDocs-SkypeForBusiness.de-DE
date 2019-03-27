@@ -1,5 +1,6 @@
 ---
 title: Registration-Ansicht
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: Registration-Ansicht werden Informationen zur benutzerregistrierung gespeichert. Diese Ansicht wurde in Lync Server 2013 eingeführt.
-ms.openlocfilehash: e116c2609f1f26268eaaa3413c3a4491da096585
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bf6797bee124653515744d3c1bcd481c2ea1bfc2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887886"
 ---
 # <a name="registration-view"></a>Registration-Ansicht
  
@@ -39,7 +41,7 @@ Registration-Ansicht werden Informationen zur benutzerregistrierung gespeichert.
 |**Dialog-ID** <br/> |varstring(775)  <br/> |SIP-Dialog-ID. Das Format der ist:  <br/> Dialogfeld; aus Tag; -tag  <br/> |
 |**ResponseCode** <br/> |int  <br/> |SIP-Antwortcode auf die sitzungseinladung. In diesem Feld wird in der Regel durch aus der ersten INVITE-Nachricht in der Sitzung generierte Daten aufgefüllt. Wenn keine INVITE-Nachricht vorhanden ist, wird das Feld mit Datum und Uhrzeit der ersten relevanten SIP-Nachricht (BYE, Abbrechen, Nachricht oder INFO) aufgefüllt.  <br/> |
 |**DiagnosticId** <br/> |int  <br/> |Diagnose-ID vom SIP-Header.  <br/> |
-|**Registrierung** <br/> |nvarchar(256)  <br/> |FQDN der Registrierung.  <br/> |
+|**Registrierungsstelle** <br/> |nvarchar(256)  <br/> |FQDN der Registrierung.  <br/> |
 |**Pool** <br/> |nvarchar(256)  <br/> |Vollqualifizierter Domänenname des Pools, der die Daten für die Sitzung erfasst hat.  <br/> |
 |**EdgeServer** <br/> |nvarchar(256)  <br/> |FQDN des Edge-Servers, von der registrierten Benutzer.  <br/> |
 |**IsInternal** <br/> |bit  <br/> |Gibt an, ob der Benutzer aus dem internen Netzwerk angemeldet.  <br/> |

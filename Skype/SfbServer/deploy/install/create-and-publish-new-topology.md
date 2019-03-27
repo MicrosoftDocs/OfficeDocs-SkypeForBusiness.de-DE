@@ -1,5 +1,6 @@
 ---
 title: Erstellen Sie und veröffentlichen Sie neue Topologie in Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 'Zusammenfassung: Informationen Sie zum Erstellen, veröffentlichen und eine neue Topologie überprüfen, bevor Sie Skype für Business Server installieren. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: c2879b2323ffe85624c852d70028ab2388b4feb7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ba141e76732705008ded4e8e03737154bc45b1c6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371334"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886675"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Erstellen Sie und veröffentlichen Sie neue Topologie in Skype für Business Server
  
@@ -29,7 +30,7 @@ Vor der Installation von der Skype für Business Server-System auf jedem Server 
   
 ![Übersichtsdiagramm](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
   
-## <a name="create-and-publish-new-topology"></a>Erstellen und Veröffentlichen einer neuen Topologie
+## <a name="create-and-publish-new-topology"></a>Create and publish new topology
 
 Sie können verwenden Skype für Business Server-Topologie-Generator zum Entwerfen, definieren, konfigurieren und Veröffentlichen von Topologien. Dieses Tool wurde zusammen mit den Verwaltungstools (siehe weiter oben) installiert. Beim Erstellen einer Topologie stehen zahlreiche Auswahlmöglichkeiten zur Verfügung. In diesem Verfahren erstellen Sie eine einfache Topologie mit Konferenzfunktion.
   
@@ -185,7 +186,7 @@ Sie können verwenden Skype für Business Server-Topologie-Generator zum Entwerf
     > Es wird empfohlen, die einfachstmögliche URL als Verwaltungs-URL zu verwenden. Die einfachste Option ist https://admin. _ \<Domäne\>_. Die Verwaltungs-URL kann eine interne oder eine externe Domäne sein, z. B. contoso.local oder contoso.com, sofern der jeweilige Datensatz im internen DNS aufgelöst werden kann. 
   
     > [!IMPORTANT]
-    > Wenn Sie eine einfache URL nach der ersten Bereitstellung ändern, müssen Sie beachten, welche Änderungen sich auf Ihre DNS-Datensätze und -Zertifikate für einfache URLs auswirken. Wenn die Änderung wirkt sich auf der Basis von einer einfachen URL, müssen Sie die DNS-Einträgen und Zertifikaten zu ändern. Beispiel: Ändern von https://sfb.contoso.com/Meet auf https://meet.contoso.com die base-URL von sfb.contoso.com in meet.contoso.com, geändert, damit Sie die DNS-Einträgen und Zertifikaten verweisen auf meet.contoso.com ändern müssen. Wenn Sie die einfache URL aus geändert https://sfb.contoso.com/Meet auf https://sfb.contoso.com/Meetings, die base-URL des sfb.contoso.com bleibt, also keine DNS oder zertifikatänderungen erforderlich sind. Wenn Sie einen einfachen URL-Name ändern, müssen Sie jedoch das Cmdlet **Enable-CsComputer** ausführen, auf jedem Director und Front-End-Server die Änderung zu registrieren.
+    > Wenn Sie eine einfache URL nach der ersten Bereitstellung ändern, müssen Sie beachten, welche Änderungen sich auf Ihre DNS-Datensätze und -Zertifikate für einfache URLs auswirken. Wenn die Änderung wirkt sich auf der Basis von einer einfachen URL, müssen Sie die DNS-Einträgen und Zertifikaten zu ändern. Beispiel: Ändern von https://sfb.contoso.com/Meet auf https://meet.contoso.com die base-URL von sfb.contoso.com in meet.contoso.com, geändert, damit Sie die DNS-Einträgen und Zertifikaten verweisen auf meet.contoso.com ändern müssen. Wenn Sie die einfache URL aus geändert https://sfb.contoso.com/Meet auf https://sfb.contoso.com/Meetings, die base-URL des sfb.contoso.com bleibt, also keine DNS oder zertifikatänderungen erforderlich sind. Bei jeder Änderung einer einfachen URL müssen Sie jedoch das Cmdlet **Enable-CsComputer** auf jedem Director- und Front-End-Server ausführen, um die Änderung zu registrieren.
   
 ### <a name="publish-and-verify-the-topology"></a>Veröffentlichen und Prüfen der Topologie
 

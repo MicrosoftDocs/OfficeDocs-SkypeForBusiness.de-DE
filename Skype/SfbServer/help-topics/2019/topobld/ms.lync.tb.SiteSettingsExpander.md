@@ -1,5 +1,6 @@
 ---
-title: Lync Server-Website-Einstellungen – Erweiterung
+title: Einstellungen für Lync Server-Standort – Erweiterung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Führen Sie folgende Schritte aus, um die Eigenschaften einer vorhandenen Website zu bearbeiten:'
-ms.openlocfilehash: b9660fcfbabc1276a5a470d6f83752981c35c54f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fdbcd5ddb62de7d4d4040e0b790e3475e20372c7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258235"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887047"
 ---
-# <a name="lync-server-site-settings-expander"></a>Lync Server-Website-Einstellungen – Erweiterung
+# <a name="lync-server-site-settings-expander"></a>Einstellungen für Lync Server-Standort – Erweiterung
 
 Führen Sie folgende Schritte aus, um die Eigenschaften einer vorhandenen Website zu bearbeiten:
 

@@ -1,5 +1,6 @@
 ---
 title: Konferenzrichtlinie Erstellen einer neuen oder Bearbeiten einer vorhandenen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 description: Eine Konferenzrichtlinie definiert die Funktionen, die Benutzern während einer Konferenz (auch als Besprechung bezeichnet) zur Verfügung stehen.
-ms.openlocfilehash: 6dbdb4a300e899e5172785cc08b081852a2c9742
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 393ced559593f63068dd8cf0761096330b8c4544
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23262351"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899568"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Konferenzrichtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen Konferenzrichtlinie
 
@@ -58,7 +59,7 @@ In der folgenden Liste werden die Felder der Seite beschrieben.
 
 - **Aktivieren von PSTN - einwahlkonferenzen** Wenn Sie im Abschnitt **Audio/Video-** Audio aktiviert, aktivieren Sie dieses Kontrollkästchen, dass Benutzer mit dem öffentlichen Telefonfestnetz (PSTN) in Konferenzen einwählen können.
 
-- **Anonyme Teilnehmer zulassen anwählen** Aktivieren Sie dieses Kontrollkästchen, wenn Sie Benutzern in Konferenzen einwählen und nicht authentifizierte (anonymen) Benutzer an einer Konferenz teilnehmen, mithilfe von Client-anrufen können sollen. Bei ausgehenden Telefonverbindungen ruft der Konferenzserver den Benutzer an und der Benutzer nimmt das Gespräch an, um an der Konferenz teilzunehmen.
+- **Anonyme Teilnehmer zulassen anwählen** Aktivieren Sie dieses Kontrollkästchen, wenn Sie Benutzern in Konferenzen einwählen und nicht authentifizierte (anonymen) Benutzer an einer Konferenz teilnehmen, mithilfe von Client-anrufen können sollen. Bei ausgehenden Telefonverbindungen führt der Konferenzserver einen Anruf an den Benutzer durch und der Benutzer nimmt das Gespräch an, um an der Konferenz teilzunehmen.
 
 - **Teilnehmern gestatten, die nicht für Enterprise-VoIP anwählen aktiviert** Wenn Sie im Abschnitt **Audio/Video-** Audio aktiviert, wählen Sie dieses Kontrollkästchen, um Benutzern zu ermöglichen, die nicht für Enterprise-VoIP in eine Konferenz mithilfe von Anwahl anrufen aktiviert sind. Bei ausgehenden Telefonverbindungen führt der Konferenzserver einen Anruf an den Benutzer durch und der Benutzer nimmt das Gespräch an, um an der Konferenz teilzunehmen.
 
@@ -104,6 +105,6 @@ In der folgenden Liste werden die Felder der Seite beschrieben.
     > [!NOTE]
     > Mit der Option **Mehrere Videostreams zulassen** wird festgelegt, ob für eine Konferenz mehrere Videostreams zulässig sind.
 
-Ausführliche Informationen zu Live Meeting-Features und Funktionen finden Sie unter [Übersicht über Konferenzen](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von konferenzrichtlinien finden Sie unter [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) in der Betriebsdokumentation.
+Ausführliche Informationen zu den Konferenzfunktionen finden Sie in der Planungsdokumentation unter [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx). Ausführliche Informationen zur Verwendung von Konferenzrichtlinien finden Sie in der Betriebsdokumentation unter [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx).
 
 

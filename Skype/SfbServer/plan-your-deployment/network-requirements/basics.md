@@ -1,5 +1,6 @@
 ---
 title: DNS-Grundlagen
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 verfügt über integrierte Software, die DNS-Dienste bereitstellen, können Sie die verfügbare Dokumentation wie das DNS-Richtlinie Szenario Handbuch überprüfen möchten. Sie können eine Drittanbieter-Lösung auswählen, falls gewünscht.
-ms.openlocfilehash: 297dc905a308806aec9228a9514f8e1bd65a245b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2ba20c6aabd296f13ea5e84053d140123097f114
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532816"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886613"
 ---
 # <a name="dns-basics"></a>DNS-Grundlagen
  
@@ -27,7 +28,7 @@ Es wird empfohlen, dass es empfiehlt sich einen bestimmten Server in Ihrer Imple
 Jede Zuordnung eines Namens in eine IP-Adresse (und das wäre eine IPv4 oder IPv6-Adresse) in einer DNS-Eintrag auf dem DNS-Server gespeichert ist. Der Name wird im speziell als FQDN des DNS-Berichts beschrieben – einen vollständig qualifizierten Domänennamen. Zwar *"contoso.com"* auf einen gültigen Domänennamen ein, es ist die Abkürzung für * \*. contoso.com* , sodass es nicht eindeutig ist und könnte möglicherweise auf einem beliebigen Server in der Domäne verweisen. Ein Beispiel für einen vollqualifizierten Domänennamen, die auf einem einzelnen Server in Ihrer Domäne verweisen würde möglicherweise **meeting01.contoso.com**.
   
 > [!IMPORTANT]
-> Der Name eines Computers, der nicht Mitglied einer Domäne ist, ist standardmäßig ein Hostname und kein FQDN. Topologie-Generator verwendet FQDNs nicht Hostnamen. Daher müssen Sie ein DNS-Suffix für den Namen des Computers konfigurieren, der als Edgeserver bereitgestellt werden soll und nicht Mitglied einer Domäne ist. **Nur Standardzeichen verwenden** (einschließlich A – Z, a – Z, 0-9 und Bindestriche) bei der Zuweisung von FQDNs auf Servern mit Skype für Business Server. Verwenden Sie keine Unicode-Zeichen oder Unterstriche. Andere als die genannten Zeichen in einem FQDN werden von externen DNS und öffentlichen Zertifizierungsstellen (wenn der FQDN dem SN im Zertifikat zugewiesen werden muss) häufig nicht unterstützt.
+> Standardmäßig ist der Computername eines Computers, der keiner Domäne Mitglied einen Hostnamen und nicht über einen vollqualifizierten Domänennamen (FQDN). Topologie-Generator verwendet FQDNs nicht Hostnamen. Daher müssen Sie ein DNS-Suffix für den Namen des Computers konfigurieren, der als Edgeserver bereitgestellt werden soll und nicht Mitglied einer Domäne ist. **Nur Standardzeichen verwenden** (einschließlich A – Z, a – Z, 0-9 und Bindestriche) bei der Zuweisung von FQDNs auf Servern mit Skype für Business Server. Verwenden Sie keine Unicode-Zeichen oder Unterstriche. Andere als die genannten Zeichen in einem FQDN werden von externen DNS und öffentlichen Zertifizierungsstellen (wenn der FQDN dem SN im Zertifikat zugewiesen werden muss) häufig nicht unterstützt.
   
 Zusätzlich zu einer IP-Adresse der vollqualifizierten Domänennamen zuordnen eine **VIP-Adresse** konnte – eine virtuelle IP-Adresse. Eine VIP-Adresse ist eine IP-Adresse, die eine tatsächliche physische Netzwerkschnittstelle entsprechen nicht. Eine VIP-Adresse verweist häufig auf einen Pool von Servern durchführen einer Serverrolle oder auf ein Paar von Servern für die Redundanz und Fehlertoleranz konfiguriert sind.
   

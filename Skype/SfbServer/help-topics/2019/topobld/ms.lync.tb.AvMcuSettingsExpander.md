@@ -1,5 +1,6 @@
 ---
-title: A/v MCU – Erweiterung
+title: Einstellungen der A/V MCU – Erweiterung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Zum Bearbeiten der Eigenschaften für einen A / V-Konferenzserver-Pool, die Sie bereits definiert haben, gehen Sie folgendermaßen vor:'
-ms.openlocfilehash: 9bbdeb4d03971884d6a68ed858da94912f2f6911
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 60e5a5b8600dd82d4ec66c7f68581e1d32a182aa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069554"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893469"
 ---
-# <a name="av-mcu-settings-expander"></a>A/v MCU – Erweiterung
+# <a name="av-mcu-settings-expander"></a>Einstellungen der A/V MCU – Erweiterung
  
 Zum Bearbeiten der Eigenschaften für einen A / V-Konferenzserver-Pool, die Sie bereits definiert haben, gehen Sie folgendermaßen vor:
   

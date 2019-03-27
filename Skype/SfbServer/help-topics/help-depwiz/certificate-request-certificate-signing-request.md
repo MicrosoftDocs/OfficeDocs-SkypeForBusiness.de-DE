@@ -1,5 +1,6 @@
 ---
-title: Zertifikatanforderung (Certificate Signing Request)
+title: Zertifikatanforderung (Signieranforderung für das Zertifikat)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 description: Um eine offlineanforderung zu erstellen, müssen Sie zuerst Certificate signing Request (CSR) erstellen. Geben Sie den Pfad und Dateiname für die CSR in das Textfeld Dateiname ein. Sie können klicken Sie auf Durchsuchen, um einen Speicherort für die CSR erstellen auszuwählen. Klicken Sie auf Weiter, um fortzufahren.
-ms.openlocfilehash: cb37e3c6308fd2326949a027c8f5f0e2bf0d3826
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: aae9882d81c8772becac2eb93e66eddaf22fed37
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988762"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899582"
 ---
-# <a name="certificate-request-certificate-signing-request"></a>Zertifikatanforderung (Certificate Signing Request)
+# <a name="certificate-request-certificate-signing-request"></a>Zertifikatanforderung (Signieranforderung für das Zertifikat)
  
 Um eine offlineanforderung zu erstellen, müssen Sie zuerst Certificate signing Request (CSR) erstellen. Geben Sie den Pfad und Dateiname für die CSR in das Textfeld **Dateiname** ein. Klicken Sie auf **Durchsuchen** , um einen Speicherort zum Erstellen der CSR auszuwählen. Klicken Sie auf **Weiter**, um fortzufahren.
   

@@ -1,5 +1,6 @@
 ---
 title: Zuordnen des Front-Ends zur Überwachung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 ROBOTS: NOINDEX, NOFOLLOW
 description: Jeder Front-End-Pool und Survivable Branch Appliance kann nur jeweils eine haben, die sie Monitoring Server zugeordnet werden soll. Wenn die Überwachung für die Website aktiviert ist, enthält die Monitoring Server die Aufzeichnung von kommunikationsdatensätzen (CDR) und Quality of Experience (QoE)-Datensammlung und Berichte.
-ms.openlocfilehash: 6180f7d6fc48db5293ffae8eaba5f95c34267358
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: b6a1f46f24e016fe7fab9b620bf3240c23b0d6b2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060813"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896900"
 ---
 # <a name="associate-front-end-with-monitoring"></a>Zuordnen des Front-Ends zur Überwachung
  

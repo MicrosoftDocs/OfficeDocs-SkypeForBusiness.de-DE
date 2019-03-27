@@ -1,5 +1,6 @@
 ---
 title: Verschieben aller Benutzer
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 description: Im Dialogfeld Benutzer verschieben können Sie die Quell- und Zielpools zum Verschieben von Benutzerkonten aus einem Pool in einen anderen Pool der Bereitstellung auswählen.
-ms.openlocfilehash: 3fc5a99db43394d5ec7ad56a3a12d9e2087e2adc
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2ef78e35bbe05318c91332654c1b6ec86c8075e8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254441"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885519"
 ---
 # <a name="move-all-users"></a>Verschieben aller Benutzer
 

@@ -1,5 +1,6 @@
 ---
-title: Video Audiokonferenzen (Planungstool)
+title: Audio Video Conferencing (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,18 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 description: Skype für Business Server 2015 Audio/Video (A / V) Konferenzen kann Benutzer in Echtzeit Audio- oder Videokonferenzen teilnehmen.
-ms.openlocfilehash: a8261a81a675a60ec9d420192d05ec2e9d33ff28
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 300b819a87de1397c5d19aff6086347cff769b4a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889210"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a>Video Audiokonferenzen (Planungstool)
+# <a name="audio-video-conferencing-planning-tool"></a>Audio Video Conferencing (Planning Tool)
  
 Skype für Business Server 2015 Audio/Video (A / V) Konferenzen kann Benutzer in Echtzeit Audio- oder Videokonferenzen teilnehmen.
   
 Ausführliche Informationen zur Planung der Aktivierung von A/V-Konferenzen in Ihrer Organisation finden Sie im folgenden Thema und seinen Unterthemen: 
   
-- [Planen von Konferenzen in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
     
 

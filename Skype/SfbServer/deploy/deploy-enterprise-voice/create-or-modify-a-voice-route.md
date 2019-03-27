@@ -1,5 +1,6 @@
 ---
 title: Erstellen oder Ändern einer VoIP-Route in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Zusammenfassung: Informationen Sie zum Erstellen oder Ändern einer VoIP-Route in Skype für Business Server mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: d3265f3864e01391598b11ab5466c96f41a123ae
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 166b9635d9ddb50ec65b7cbc4d55aa92c19b55e0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886354"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888570"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Erstellen oder Ändern einer VoIP-Route in Skype für Unternehmen
  
@@ -26,7 +27,7 @@ ms.locfileid: "23886354"
   
 ### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>Erstellen Sie eine VoIP-Route mithilfe der Skype für Business Server-Systemsteuerung
 
-1. Melden Sie sich als Mitglied der Gruppe **RTCUniversalServerAdmins** oder als Benutzer mit der Administratorrolle **CsVoiceAdministrator**, **CsServerAdministrator** oder CsAdministrator beim Computer an.
+1. Melden Sie sich als Mitglied der Gruppe RTCUniversalServerAdmins oder als Benutzer mit der Administratorrolle **CsVoiceAdministrator**, **CsServerAdministrator** oder **CsAdministrator** beim Computer an.
     
 2. Öffnen von Skype Business Server-Systemsteuerung.
     
@@ -57,7 +58,7 @@ ms.locfileid: "23886354"
 11. Wenn Sie der VoIP-Route eine oder mehrere PSTN-Verwendungen zuordnen möchten, klicken Sie auf **Auswählen** und wählen Sie einen Eintrag aus der Liste der PSTN-Verwendungseinträge aus, die für Ihre Enterprise-VoIP-Bereitstellung definiert wurden.
     
     > [!NOTE]
-    > Zum Anzeigen der Eigenschaften aller verfügbaren PSTN-verwendungsdatensätzen finden Sie unter [View PSTN-Verwendungseinträge in Skype für Unternehmen](view-pstn-usage-records.md). > Zum Erstellen oder Bearbeiten von PSTN-verwendungsdatensätzen, finden Sie unter [Erstellen oder ändern eine VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Business](voice-policy-and-pstn-usage-records.md)
+    > Zum Anzeigen der Eigenschaften aller verfügbaren PSTN-verwendungsdatensätzen finden Sie unter [View PSTN-Verwendungseinträge in Skype für Unternehmen](view-pstn-usage-records.md). > zum Erstellen oder Bearbeiten von PSTN-verwendungsdatensätzen finden Sie unter [Erstellen oder ändern eine VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Business](voice-policy-and-pstn-usage-records.md)
   
 12. Ordnen Sie die PSTN-Verwendungseinträge zur Erzielung optimaler Leistung an. Um einen Datensatz Position in der Liste zu ändern, markieren Sie den Namen des Datensatzes, und klicken Sie auf den Pfeil nach oben oder nach-unten Sie-Pfeil.
     
@@ -104,7 +105,7 @@ ms.locfileid: "23886354"
 9. Um die VoIP-Route einen oder mehrere PSTN-Verwendungen zuzuordnen, klicken Sie auf **auswählen** , und wählen Sie einen Eintrag aus der Liste der PSTN-verwendungsdatensätzen, die für die Enterprise-VoIP-Bereitstellung definiert wurden.
     
     > [!NOTE]
-    > Zum Anzeigen der Eigenschaften aller verfügbaren PSTN-verwendungsdatensätzen finden Sie unter [View PSTN-Verwendungseinträge in Skype für Unternehmen](view-pstn-usage-records.md). > Zum Erstellen oder Bearbeiten von PSTN-verwendungsdatensätzen, finden Sie unter [Erstellen oder ändern eine VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Business](voice-policy-and-pstn-usage-records.md). 
+    > Zum Anzeigen der Eigenschaften aller verfügbaren PSTN-verwendungsdatensätzen finden Sie unter [View PSTN-Verwendungseinträge in Skype für Unternehmen](view-pstn-usage-records.md). > zum Erstellen oder Bearbeiten von PSTN-verwendungsdatensätzen finden Sie unter [Erstellen oder ändern eine VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Business](voice-policy-and-pstn-usage-records.md). 
   
 10. Ordnen Sie die PSTN-Verwendungseinträge zur Erzielung optimaler Leistung an. Um einen Datensatz Position in der Liste zu ändern, markieren Sie den Namen des Datensatzes, und klicken Sie auf den Pfeil nach oben oder nach-unten Sie-Pfeil.
     

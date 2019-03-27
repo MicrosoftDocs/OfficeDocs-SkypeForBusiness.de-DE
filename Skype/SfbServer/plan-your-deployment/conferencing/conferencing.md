@@ -1,5 +1,6 @@
 ---
 title: Planen von Konferenzen in Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu Live Meeting-Features und Funktionen in Skype für Business Server erhalten.'
-ms.openlocfilehash: d1ac78876df97d2420c0951c9c2e1a9a41e451ce
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cefd631f1750d7eaa4404a2fe2ffa8aa91675824
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375797"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899435"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planen von Konferenzen in Skype for Business Server
  
@@ -133,7 +134,7 @@ Die Größe von Besprechungen, die unterstützt Skype für Business Server häng
     
 Weitere Informationen zum Verwalten von großen Besprechungen finden Sie unter [Planen von großen Besprechungen in Skype für Business Server](large-meetings.md).
   
-Wenn Ihre Organisation größere Besprechung Funktionen erforderlich sind, sollten Sie erwägen, implementieren eine hybridumgebung, die ein Onlinedienst Skype Besprechung übertragen nutzt, die Teil von Office 365 ist. Skype-Livekonferenz ermöglicht Benutzern, Besprechungen von bis zu 10.000 Teilnehmern zu hosten und an ein ebenso großes Online-Publikum zu übertragen. Für die Nutzung von Skype-Livekonferenz muss Skype for Business Server bereits in einer Hybridumgebung mit einem Office 365-Produktionsmandanten konfiguriert sein. Als Grundvoraussetzung muss bei allen Benutzern ein Online-Mandant eingerichtet sein. Wenn Sie bei der Bereitstellung von einer Hybrid-Lösung, die Besprechung übertragen werden Skype nutzen kann, finden Sie unter [Konfigurieren der lokalen Bereitstellung für Skype Besprechung übertragen werden](../../deploy/configure-skype-meeting-broadcast.md).
+Wenn Ihre Organisation größere Besprechung Funktionen erforderlich sind, sollten Sie erwägen, implementieren eine hybridumgebung, die ein Onlinedienst Skype Besprechung übertragen nutzt, die Teil von Office 365 ist. Skype-Livekonferenz ermöglicht Benutzern, Besprechungen von bis zu 10.000 Teilnehmern zu hosten und an ein ebenso großes Online-Publikum zu übertragen. Für die Nutzung von Skype-Livekonferenz muss Skype for Business Server bereits in einer Hybridumgebung mit einem Office 365-Produktionsmandanten konfiguriert sein. Als Grundvoraussetzung muss bei allen Benutzern ein Online-Mandant eingerichtet sein. Wenn Sie an der Bereitstellung einer Hybridlösung interessiert sind, die die Vorteile von Skype-Livekonferenz nutzen kann, finden Sie weitere Informationen unter [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md)
   
 ## <a name="determine-your-organizations-needs"></a>Festlegen der Anforderungen Ihres Unternehmens
 

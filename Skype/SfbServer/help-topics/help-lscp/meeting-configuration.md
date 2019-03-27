@@ -1,5 +1,6 @@
 ---
 title: Besprechungskonfiguration
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 description: Besprechungskonfigurationseinstellungen definieren Sie den Typ der Konferenzen (auch Calledmeetings), dass Benutzer erstellen können, und steuern, wie (oder ob) anonyme Benutzer und einwahlkonferenzbenutzer diesen Konferenzen teilnehmen können. Diese Einstellungen gelten nur für geplante Besprechungen. Sie gelten nicht für Ad-hoc-Besprechungen, die durch Klicken auf die Option Sofortbesprechung erstellt werden.
-ms.openlocfilehash: 7d815877375759a45de4df6543eca8ef82af1481
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 32bbb6861271623e0a4126d98e36c28542ddfc8d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244209"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885128"
 ---
 # <a name="meeting-configuration"></a>Besprechungskonfiguration
 
@@ -45,7 +46,7 @@ Auf der Seite **Besprechungskonfiguration** können Sie die folgenden Aufgaben a
 
 ## <a name="ui-reference"></a>Referenz zur Benutzeroberfläche
 
-In der folgenden Liste sind die Befehle der Seite beschrieben.
+In der folgenden Liste werden die Befehle der Seite beschrieben.
 
 - **Neue** Startet einen neuen besprechungskonfiguration auf Standort- oder Poolebene.
 
@@ -62,6 +63,6 @@ In der folgenden Liste werden die Felder der Seite beschrieben.
 
 - **Bereich** Gibt den Bereich der besprechungskonfiguration: global, Standort oder Pool.
 
-Ausführliche Informationen zur Verwendung von besprechungskonfigurationen finden Sie unter [Erstellen einer oder Ändern einer Auflistung von Besprechungskonfigurationseinstellungen](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) in der Betriebsdokumentation.
+Ausführliche Informationen zur Verwendung von Besprechungskonfigurationen finden Sie in der Betriebsdokumentation unter [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx).
 
 

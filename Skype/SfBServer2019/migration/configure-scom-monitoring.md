@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren der SCOM-Überwachung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Nach der Migration zu Microsoft Skype für Business Server 2019, müssen Sie einige Aufgaben zum Konfigurieren von Skype für Business Server 2019 arbeiten mit System Center Operations Manager ausführen.
-ms.openlocfilehash: c54038bc89c62a9911e684e451a66f4f12a23124
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 80ef737c57006550111331db7f46fd607f7cf1ed
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373742"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887414"
 ---
 # <a name="configure-scom-monitoring"></a>Konfigurieren der SCOM-Überwachung
 

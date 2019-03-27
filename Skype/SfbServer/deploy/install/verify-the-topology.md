@@ -1,5 +1,6 @@
 ---
 title: Überprüfen Sie die Topologie in Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 'Zusammenfassung: Informationen zum Überprüfen der Skype für Business Server-Topologie und Active Directory-Server wie erwartet funktionieren. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: ed06860837805886f1d2287f23281edb90c470c1
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 03dfb45c03aa104cc5a9b265a37c347380590877
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881973"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896421"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Überprüfen Sie die Topologie in Skype für Business Server
  
@@ -59,7 +60,7 @@ Der letzte Schritt besteht, testen den Front-End-Pool, und stellen Sie sicher, d
     
 9. Wählen Sie im Bereich mit den Suchergebnissen alle hinzuzufügenden Benutzer aus und klicken Sie dann auf **OK**.
     
-10. Auf der Seite **Neue Skype für Business Server-Benutzer** sind in die Anzeige der **Benutzer** die Benutzer gewählte. Wählen Sie in der Liste **Benutzer einem Pool zuweisen** den Server aus, auf dem die Benutzer verwaltet werden sollen.
+10. Auf der Seite **Neue Skype für Business Server-Benutzer** sind in die Anzeige der **Benutzer** die Benutzer gewählte. In the **Assign users to a pool** list, select the server where the users should reside.
     
     Im Folgenden finden Sie eine Liste der Optionen, die Sie zum Konfigurieren der Objekte verwenden können.
     

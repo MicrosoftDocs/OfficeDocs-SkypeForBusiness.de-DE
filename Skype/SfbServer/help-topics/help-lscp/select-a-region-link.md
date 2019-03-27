@@ -1,5 +1,6 @@
 ---
 title: Auswählen eines Regionslinks
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
-description: Verwenden Sie das Dialogfeld Regionenverbindung, um in Ihrer Umgebung verfügbaren regionenverbindungen zu erhalten. Um einer vorhandenen Verknüpfung auf Region verwenden möchten, klicken Sie auf einen Link Region in der Liste, und klicken Sie dann auf OK.
-ms.openlocfilehash: a18bb0740e353752b9ff2d704e11499d78f91fc4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Verwenden Sie das Dialogfeld Regionslink, um nach den in Ihrer Umgebung verfügbaren Regionslinks zu suchen. Klicken Sie auf einen Regionslink in der Liste und anschließend auf OK, um einen vorhandenen Regionslink zu verwenden.
+ms.openlocfilehash: 0a5bda6f55b6f476558390e6a052b3f3ac0672ab
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886882"
 ---
 # <a name="select-a-region-link"></a>Auswählen eines Regionslinks
  

@@ -1,5 +1,6 @@
 ---
 title: Plan für die Anwendung "Reaktionsgruppe" in Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planen von reaktionsgruppen in Skype für Business Server Enterprise-VoIP, ermöglicht Ihnen die Anrufrouting für Benutzergruppen einrichten. Es konfiguriert, was mit nicht zugewiesenen Telefonnummern in Ihren Organisationen passiert und beinhaltet Audiodateianforderungen.
-ms.openlocfilehash: a5dcf77d2c5c87bf2f3bfa3156795b050591eee5
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 68a693715739d58488e134934416790641dd091e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885585"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894402"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Plan für die Anwendung "Reaktionsgruppe" in Skype für Business Server
 
@@ -101,7 +102,7 @@ Die Anwendung "Reaktionsgruppe" werden die folgenden Ports verwendet:
     > Dieser Port wird für den matchmakingdienst verwendet und ist erforderlich, wenn die Anwendung "Reaktionsgruppe" in einem Pool bereitgestellt wird, das mehr als einem Front-End-Server verfügt.
 
    > [!NOTE]
-   > Diese Ports sind die Standardeinstellungen, die Sie mit dem Cmdlet **Set-CsApplicationServer** ändern können. Ausführliche Informationen zu diesem Cmdlet finden Sie unter der Skype Business Server-Verwaltungsshell-Dokumentation.
+   > Diese Ports sind Standardeinstellungen, die Sie mit dem Cmdlet **Set-CsApplicationServer** ändern können. Ausführliche Informationen zu diesem Cmdlet finden Sie unter der Skype Business Server-Verwaltungsshell-Dokumentation.
 
 ### <a name="audio-file-requirements"></a>Anforderungen für Audiodateien
 
@@ -145,7 +146,7 @@ Das Konfigurationstool für Reaktionsgruppen unterstützt die Kombinationen von 
 |Windows Server 2008 mit Service Pack 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (einheitlicher Modus)  <br/> Internet Explorer 9 (einheitlicher Modus)  <br/> |
 |Windows Server 2008 R2  <br/> Windows Server 2008 R2 mit Service Pack 1  <br/> |Internet Explorer 8 (einheitlicher Modus)  <br/> Internet Explorer 9 (einheitlicher Modus)  <br/> |
 |Windows Server 2012  <br/> ||
-|Windows Server 2012 R2  <br/> ||
+|Windows Server 2012 R2  <br/> ||
 
 ### <a name="response-group-agent-console"></a>Agentkonsole für Reaktionsgruppen
 
@@ -163,7 +164,7 @@ Die Agentkonsole unterstützt die in der folgenden Tabelle aufgeführten Kombina
 |Windows Server 2008 mit Service Pack 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (einheitlicher Modus)  <br/> Internet Explorer 9 (einheitlicher Modus)  <br/> |
 |Windows Server 2008 R2  <br/> Windows Server 2008 R2 mit Service Pack 1  <br/> |Internet Explorer 8 (einheitlicher Modus)  <br/> Internet Explorer 9 (einheitlicher Modus)  <br/> Firefox 10.0  <br/> Chrome 18.0  <br/> |
 |Windows Server 2012  <br/> |
-|Windows Server 2012 R2  <br/> |
+|Windows Server 2012 R2  <br/> |
 
 ## <a name="client-support"></a>Clientunterstützung
 

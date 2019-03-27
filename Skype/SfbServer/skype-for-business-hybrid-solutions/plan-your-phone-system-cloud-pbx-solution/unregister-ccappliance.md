@@ -1,5 +1,6 @@
 ---
-title: Aufheben der Registrierung CcAppliance
+title: Unregister-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
 description: Das Cmdlet „Unregister-CcAppliance“ hebt die Registrierung der aktuellen Skype for Business Cloud Connector Edition-Appliance an einem PSTN-Standort in der Onlinemandantenkonfiguration auf.
-ms.openlocfilehash: 21bd0a7dffc6a395f829af68a61dfd7523d2c09a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6ee21f66c2b189aff8c8aa7d831369536618b18c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892004"
 ---
-# <a name="unregister-ccappliance"></a>Aufheben der Registrierung CcAppliance
+# <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
 Das Cmdlet „Unregister-CcAppliance“ hebt die Registrierung der aktuellen Skype for Business Cloud Connector Edition-Appliance an einem PSTN-Standort in der Onlinemandantenkonfiguration auf.
   
@@ -64,7 +66,7 @@ Nach die Appliance aufgehoben wird, starten Sie neu den Connector Cloud-Verwaltu
 |**Parameter**|**Erforderlich**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|
 | SiteName <br/> |Optional   <br/> |System.String  <br/> |Name des PSTN-Standorts, an dem die Appliance registriert ist. Der Standardwert ist der Wert „SiteName“ in der Datei „CloudConnector.ini“.  <br/> |
-|ApplianceName  <br/> |Optional  <br/> |System.String  <br/> |Name der aktuellen Appliance. Der Standardwert ist der Computername des Hostservers.  <br/> |
+|ApplianceName  <br/> |Optional   <br/> |System.String  <br/> |Name der aktuellen Appliance. Der Standardwert ist der Computername des Hostservers.  <br/> |
 |Local  <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Überprüft die Konfiguration lokal auf eine Registrierung, ohne eine Verbindung mit einer Onlinemandantenkonfiguration herzustellen.  <br/> |
    
 ## <a name="input-types"></a>Eingabetypen
@@ -75,7 +77,7 @@ Keine. Das Cmdlet „Unregister-CcAppliance“ akzeptiert keine Pipelineeingaben
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine
+Keine 
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>
@@ -84,8 +86,8 @@ Keine
   
 [Install-CcAppliance](install-ccappliance.md)
   
-[Deinstallieren von CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
-[Veröffentlichen von CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
 

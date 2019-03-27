@@ -1,5 +1,6 @@
 ---
-title: Speichern Sie VoIP-Routing Testen auf Testfallinformationen
+title: Speichern von Testfallinformationen für das VoIP-Routing
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: Sie können das Dialogfeld Speichern VoIP-Routing Testen auf Testfallinformationen verwenden, um einen Testfall der temporären VoIP-routing speichern. Geben Sie in VoIP-Routing Testfallinformationen speichern den Namen, den Sie verwenden möchten, weisen Sie diesen Testfall im Namen, und klicken Sie dann auf OK.
-ms.openlocfilehash: 50ad181cec9944e56a763a4352e82efec8bfb172
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3ec9ed0a878f6d6482d2756d929221eb26dccb92
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21012121"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894803"
 ---
-# <a name="save-voice-routing-test-case-information"></a>Speichern Sie VoIP-Routing Testen auf Testfallinformationen
+# <a name="save-voice-routing-test-case-information"></a>Speichern von Testfallinformationen für das VoIP-Routing
  
 Sie können das Dialogfeld **Speichern VoIP-Routing Testen auf Testfallinformationen** verwenden, um Testfall der Atemporary VoIP-routing speichern. Geben Sie im **Speichern VoIP-Routing Testen auf Testfallinformationen**den Namen, den Sie verwenden möchten, weisen Sie diesen Testfall im **Namen** , und klicken Sie dann auf **OK**. 
   

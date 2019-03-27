@@ -1,5 +1,6 @@
 ---
 title: SQL-Instanz – Bereichsknoten
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN) in Microsoft SQL Server und die Instanz von SQL Server auf diesem Server und den Pools oder Servern, die in SQL Server verwenden. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: bd89b0fa262b24b4d4f64d2cf549c980965cb009
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 18da478ce1cda34c6ce36c5cfc10141d57878c3b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889336"
 ---
 # <a name="sql-instance-scope-node"></a>SQL-Instanz – Bereichsknoten
  

@@ -1,5 +1,6 @@
 ---
 title: McuJoinsAndLeaves-Ansicht
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 description: McuJoinsAndLeaves-Ansicht speichert Informationen zu Benutzer teilnehmen, und lassen Sie Informationen für eine Konferenzserver. Jeder Datensatz in dieser Ansicht enthält Anrufdetails zu eine Kombination aus einem Benutzer beitreten oder verlassen und Conferencing Server. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 77045d852708cd7d8ceb0da473032485e130ea50
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: db759e324689cfbad92389f30c8fd632c24ebd5e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892808"
 ---
 # <a name="mcujoinsandleaves-view"></a>McuJoinsAndLeaves-Ansicht
  

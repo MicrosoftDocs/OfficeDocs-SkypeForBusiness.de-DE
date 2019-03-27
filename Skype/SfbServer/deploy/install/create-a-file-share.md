@@ -1,5 +1,6 @@
 ---
 title: Erstellen Sie eine Dateifreigabe in Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Windows Server-Dateifreigabe als Teil der Installation von Skype für Business Server erstellen. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: a3fe1d69bb9e7db377c6a9334b90f8ce96c581ad
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: b92d85d375b76b43dcf65f01205c3826e5637905
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664827"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885631"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Erstellen Sie eine Dateifreigabe in Skype für Business Server
  

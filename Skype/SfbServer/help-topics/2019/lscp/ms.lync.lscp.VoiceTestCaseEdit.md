@@ -1,5 +1,6 @@
 ---
 title: Erstellen einer neuen oder Bearbeiten vorhandener Testfälle VoIP-Routing testen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
 ROBOTS: NOINDEX, NOFOLLOW
 description: UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
-ms.openlocfilehash: 9f9e54b30e859521da61ee98ae3f1e15f0da9582
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 4257df474f2e99cd8af287a60d2592211d841362
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245810"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893216"
 ---
-# <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>VoIP-Routing testen: Erstellen Sie einer neuen oder bearbeiten Sie vorhandener Testfälle
+# <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>Testen des VoIP-Routings: Erstellen neuer oder Bearbeiten vorhandener Testfälle
 
 UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
 

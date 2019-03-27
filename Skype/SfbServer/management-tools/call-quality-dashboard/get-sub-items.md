@@ -1,5 +1,6 @@
 ---
-title: Untergeordnete Elemente abrufen
+title: Abrufen von untergeordneten Elementen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
 description: 'Zusammenfassung: Informationen Sie zum Vorgang untergeordnete Elemente abrufen, der Teil der Element-Dienst ist. Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 648f514ff03361673962052445d25076437057b9
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 41287978338bce49d8d8c30d1d6b91b9b2498acc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531074"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889007"
 ---
-# <a name="get-sub-items"></a>Untergeordnete Elemente abrufen
+# <a name="get-sub-items"></a>Abrufen von untergeordneten Elementen
  
 **Zusammenfassung:** Informationen Sie zu den Vorgang untergeordnete Elemente abrufen, der Teil der Element-Dienst ist. Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
   
 Der untergeordneten Elemente abrufen Vorgang ist Teil des Diensts Element in der Repository-API für die Qualitätsdashboard aufrufen.
   
-## <a name="get-sub-items"></a>Untergeordnete Elemente abrufen
+## <a name="get-sub-items"></a>Abrufen von untergeordneten Elementen
 
 Rufen Sie ein bestimmtes Element Unterelemente Unterelemente gibt.
   

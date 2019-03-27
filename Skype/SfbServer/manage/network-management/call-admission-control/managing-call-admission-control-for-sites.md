@@ -1,5 +1,6 @@
 ---
 title: Verwalten der anrufsteuerung für Standorte
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Netzwerkstandorte sind die Büros oder Speicherorte innerhalb jeder netzwerkregion der anrufsteuerung (CAC), E9-1-1 und Media Bypass Bereitstellungen aufrufen.
-ms.openlocfilehash: ecf23a8a052afbd21b02f8ff5507c248d42b7118
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 53140cf03110991f2c757e5d52e30a6c7db1d7de
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223171"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895419"
 ---
-# <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Verwalten der anrufsteuerung für Websites in Skype für Business Server
+# <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Verwalten der Anrufsteuerung für Standorte in Skype for Business Server
 
 Netzwerkstandorte sind die Büros oder Speicherorte innerhalb jeder netzwerkregion der anrufsteuerung (CAC), E9-1-1 und Media Bypass Bereitstellungen aufrufen. Verwenden Sie die Verfahren in diesem Artikel, um die anrufsteuerung bei den Netzwerkstandorten konfigurieren.
 
@@ -183,7 +184,7 @@ Netzwerkstandorte sind die Niederlassungen oder Standorte innerhalb jeder Region
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Löschen**.
 
-6.  Klicken Sie anschließend auf **OK**.
+6.  Klicken Sie auf **OK**.
     
 
     > [!WARNING]  

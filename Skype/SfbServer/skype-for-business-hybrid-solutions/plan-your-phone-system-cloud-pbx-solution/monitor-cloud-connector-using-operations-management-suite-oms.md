@@ -1,5 +1,6 @@
 ---
-title: Überwachen von Cloud-Connector mithilfe von Operationen Management Suite (OMS)
+title: Überwachen von Cloud Connector mithilfe der Operations Management Suite (OMS).
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Lesen Sie in diesem Thema erfahren, wie Ihre Cloud-Connector-Version 2.1 und höher Bereitstellung überwachen, mithilfe von Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 36d70a1504eab085d319e46d03c3c6f0bd9d14f3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2077b5525984cc3d9948e7602036dfbb7f0ee4b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532080"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886078"
 ---
-# <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Überwachen von Cloud-Connector mithilfe von Operationen Management Suite (OMS)
+# <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Überwachen von Cloud Connector mithilfe der Operations Management Suite (OMS).
 
 Lesen Sie in diesem Thema erfahren, wie Ihre Cloud-Connector-Version 2.1 und höher Bereitstellung überwachen, mithilfe von Microsoft Operations Management Suite (OMS).
 

@@ -1,5 +1,6 @@
 ---
 title: Erstellen Sie Netzwerk regionenübergreifende Routen in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: Erstellen Sie oder ändern Sie regionenübergreifende Netzwerkrouten, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden.
-ms.openlocfilehash: db3447e28ad038dd9976959da62c347c911234c9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5b792a9d1471e8925a44bcc5c0a1026e79aa0a0c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887484"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885568"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Erstellen Sie Netzwerk regionenübergreifende Routen in Skype für Business Server
  
@@ -34,7 +35,7 @@ In der Beispieltopologie müssen für jedes der drei Regionenpaare regionenüber
 
 1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
     
-2. Führen Sie das Cmdlet **New-CsNetworkInterRegionRoute** , um die erforderlichen Routen zu definieren. Führen Sie beispielsweise den folgenden Befehl aus:
+2. Führen Sie das Cmdlet **New-CsNetworkInterRegionRoute** aus, um die erforderlichen Routen zu definieren. Führen Sie beispielsweise den folgenden Befehl aus:
     
    ```
    New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
@@ -78,7 +79,7 @@ In der Beispieltopologie müssen für jedes der drei Regionenpaare regionenüber
     
 ## <a name="see-also"></a>Siehe auch
 
-[Neue CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
+[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
   
 [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
   

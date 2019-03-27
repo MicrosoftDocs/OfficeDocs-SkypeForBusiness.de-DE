@@ -1,5 +1,6 @@
 ---
-title: Anzeigen der aktuellen Benutzer im vorversionspool
+title: Anzeigen der aktuellen Benutzer im Legacypool
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Vor dem Lernen der verschiedenen Verfahren zum Verschieben von Benutzern zwischen Pools, müssen wir zunächst ermitteln, welche Benutzer in Pool der Vorgängerversion vorhanden sind. In der folgenden Abbildung identifiziert die Spalte Registrierungspool sechs Benutzer, die für den Pool der Vorgängerversion konfiguriert sind. Dies sind die Testbenutzer, den, die wir auf die Skype für Business Server 2019 Pool verschoben werden.
-ms.openlocfilehash: 172d73c35986a57941a1a6778fbf52f21367f3f1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 980c3c48e026f929e95fcd9f9784b7d2a534c6cc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028817"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894473"
 ---
-# <a name="view-current-users-in-legacy-pool"></a>Anzeigen der aktuellen Benutzer im vorversionspool
+# <a name="view-current-users-in-legacy-pool"></a>Anzeigen der aktuellen Benutzer im Legacypool
 
 Bevor Sie lernen die verschiedenen Verfahren zum Verschieben von Benutzern zwischen Pools, müssen wir zunächst ermitteln, welche Benutzer im Pool Vorgängerversion vorhanden sein. In der folgenden Abbildung identifiziert die Spalte **Registrierungsstellenpool** sechs Benutzer, die für den Pool der Vorgängerversion konfiguriert sind. Dies sind die Testbenutzer, den, die wir auf die Skype für Business Server 2019 Pool verschoben werden.
   

@@ -1,5 +1,6 @@
 ---
 title: Konfigurieren Sie mehrerer Notfall Zahlen in Skype für Unternehmen
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: Lesen Sie in diesem Thema erfahren, wie mehrere Notfall Nummern in Skype für Business Server konfigurieren.
-ms.openlocfilehash: 64f9368b5d6eaac1c2f872ebf48152514cc99b34
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 26d533b277bd8d57166cd65c7326b0e80739bf4e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372685"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885547"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Konfigurieren Sie mehrerer Notfall Zahlen in Skype für Unternehmen
 

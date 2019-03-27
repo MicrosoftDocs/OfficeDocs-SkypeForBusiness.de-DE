@@ -1,5 +1,6 @@
 ---
 title: Definieren von Eigenschaften und Optionen für den Pool für beständigen Chat
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 'Konfigurieren Sie Optionen für den beständigen Chat-Server oder Persistent Chat Server Pool, durch die folgenden Eigenschaften definieren:'
-ms.openlocfilehash: 23b307af37ae16a3ffb5c90e97d3974f3f5317ff
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 380a1e34e041368d4520cd5c8ecea5b18284ef51
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503599"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887543"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>Definieren von Eigenschaften und Optionen für den Pool für beständigen Chat
  

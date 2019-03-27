@@ -1,5 +1,6 @@
 ---
 title: Bereitstellen Sie die anrufsteuerung in Skype für Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
 description: Die anrufsteuerung (CAC)-Steuerelement eine Lösung ist, die bestimmt, ob eine in Echtzeit-Sitzung hergestellt werden kann basierend auf der verfügbaren Bandbreite, um zu verhindern, dass schlechten Qualität von Audio/Video für Benutzer auf überlastete Netzwerke.
-ms.openlocfilehash: 3cf2c63de5eb4e64eb33f690b003ea897a533893
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 52fcedaab781e9ed76222afb32b56840a3b07c1c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887499"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892864"
 ---
 # <a name="deploy-call-admission-control-in-skype-for-business-server"></a>Bereitstellen Sie die anrufsteuerung in Skype für Business Server
  

@@ -1,5 +1,6 @@
 ---
 title: Verwalten von PIN-Richtlinien für einwahlkonferenzen in Skype für Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Zusammenfassung: Informationen Sie zum Verwalten von PIN-Richtlinien für einwahlkonferenzen in Skype für Business Server.'
-ms.openlocfilehash: 0fd6d8a3ebfaeee0c6b4b3757a7b58b8d3882d71
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 29fd3e2fff1628eaa96d7296e8fe9d7b9183d690
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013414"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893321"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Verwalten von PIN-Richtlinien für einwahlkonferenzen in Skype für Business Server
  

@@ -1,5 +1,6 @@
 ---
 title: Hinzufügen der VIS-Verwendung
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: db402ac4-4c30-405e-b322-6aae5df81f46
 description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator werden in einem Pool gegenüber in Skype erstellen für Business Server 2015 online beschrieben.
-ms.openlocfilehash: beb867319181bcda1a532d7446e70e87e71150f3
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 166c2a367f7b93f6e20fa0e13f0ca86a76ef7c2f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503851"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895485"
 ---
 # <a name="add-vis-usage"></a>Hinzufügen der VIS-Verwendung
  

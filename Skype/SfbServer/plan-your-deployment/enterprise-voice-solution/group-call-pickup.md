@@ -1,5 +1,6 @@
 ---
 title: Planen der Gruppe Anruf Pickup-in Skype for Business
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: Planung für Gruppe aufrufen Pickup-in Skype für Business Server Enterprise-VoIP, können die Benutzer Annahme von Anrufen, die ursprünglich für andere Benutzer vorgesehen.
-ms.openlocfilehash: 561dc483194b497e06007dfcecfcd43fb62c678a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ce00ebcacfe8703bcec6418ea620b3d4fe525a68
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882090"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892871"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Planen der Gruppe Anruf Pickup-in Skype for Business
  
@@ -45,7 +46,7 @@ Nach dem Konfigurieren der Nummern für die Anrufannahmegruppe weisen Sie Benutz
   
 Wenn ein Benutzer zum Annehmen eines Anrufs die Nummer für die Anrufannahmegruppe wählt und mehrere Telefone in der Gruppe klingeln, nimmt der Benutzer den Anruf an, der bereits am längsten klingelt.
   
-Gleichzeitige Klingeln Einstellungen funktionieren für Benutzer, die Gruppe Pickup aufgerufen haben. D. h., ein Anruf versucht, ein Benutzer, der Gruppe anrufen Pickup-klingelt für alle konfigurierten Ziele, und ein anderer Benutzer den Anruf entgegennehmen kann. Eine Ausnahme zu dieser Regel tritt auf, wenn der Benutzer gleichzeitig eingehende Anrufe so konfiguriert, dass sie an alle Teammitglieder eingehen.
+Einstellungen für gleichzeitig eingehende Anrufe funktionieren für Benutzer mit GroupCallPickup. D. h., ein Anruf versucht, ein Benutzer, der Gruppe anrufen Pickup-klingelt für alle konfigurierten Ziele, und ein anderer Benutzer den Anruf entgegennehmen kann. Eine Ausnahme zu dieser Regel tritt auf, wenn der Benutzer gleichzeitig eingehende Anrufe so konfiguriert, dass sie an alle Teammitglieder eingehen.
   
 Gruppe aufrufen Pickup-kann nicht verwendet werden, die folgenden Arten von Anrufen zu beantworten:
   

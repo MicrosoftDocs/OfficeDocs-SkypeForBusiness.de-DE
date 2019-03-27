@@ -1,5 +1,6 @@
 ---
 title: ConferenceUris-Tabelle in Skype für Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
 description: Die ConfereneUris-Tabelle ist eine Tabelle, die speichert eine Liste der verschiedenen Konferenz-URIs, die in der Datenbank aufgezeichnet konferenzsitzungen teilgenommen haben. Jeder Datensatz in der Tabelle steht für eine Konferenz-URI.
-ms.openlocfilehash: 921bb448ffe50d62aa7680db0e8097c186eef8e7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6f373774b652e9858af84dd4c16b51fcb3c5d493
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887771"
 ---
 # <a name="conferenceuris-table-in-skype-for-business-server-2015"></a>ConferenceUris-Tabelle in Skype für Business Server 2015
  
@@ -26,6 +28,6 @@ Die ConfereneUris-Tabelle ist eine Tabelle, die speichert eine Liste der verschi
 |**ConferenceUriId** <br/> |int  <br/> |Primary  <br/> |Eindeutige Zahl, die diesen Konferenz-URI identifiziert.  <br/> |
 |**ConferenceUri** <br/> |nvarchar(450)  <br/> ||Konferenz-URI.  <br/> |
 |**Prüfsumme** <br/> |int  <br/> ||Prüfsumme der ConferenceUri. Verwendet zum erhöht die Geschwindigkeit der Datenbank suchen.  <br/> |
-|**UriTypeId** <br/> |int  <br/> |Fremdschlüssel  <br/> |URI-Typ, wie etwa Conf:chat für Instant Messaging-Konferenz oder Conf:audio-video für Audio-Video-Konferenz. Finden Sie weitere Informationen die [UriTypes-Tabelle](uritypes.md) -Tabelle. <br/> |
+|**UriTypeId** <br/> |int  <br/> |Ausländisch  <br/> |URI-Typ, wie etwa Conf:chat für Instant Messaging-Konferenz oder Conf:audio-video für Audio-Video-Konferenz. Finden Sie weitere Informationen die [UriTypes-Tabelle](uritypes.md) -Tabelle. <br/> |
    
 

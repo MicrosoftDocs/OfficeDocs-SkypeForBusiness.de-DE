@@ -1,5 +1,6 @@
 ---
 title: PSTN-Gateways – Bereichsknoten
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Im Knoten PSTN-Gateways werden die PSTN-Gateways (Public Switched Telephone Network) der Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 094dbf42d9e8acd1bda9994c3de1a1049d211941
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: fe9c9167d13fb869786b68380e115cc0d6c190cb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21059077"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890311"
 ---
 # <a name="pstn-gateways-scope-node"></a>PSTN-Gateways – Bereichsknoten
  

@@ -1,5 +1,6 @@
 ---
-title: Deinstallieren von CcAppliance
+title: Uninstall-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
 description: 'Das Cmdlet „Uninstall-CcAppliance“ deinstalliert die ausgeführte Skype for Business Cloud Connector Edition-Appliance auf dem Hostserver. '
-ms.openlocfilehash: 325e21d28ef87f9d27e87721452bc3d67d197169
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7b2def71eee17c81b6f178a18d4c248557a0f022
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885648"
 ---
-# <a name="uninstall-ccappliance"></a>Deinstallieren von CcAppliance
+# <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  
 Das Cmdlet „Uninstall-CcAppliance“ deinstalliert die ausgeführte Skype for Business Cloud Connector Edition-Appliance auf dem Hostserver.  
   
@@ -61,7 +63,7 @@ Wenn Sie die aktuelle ausgeführte Version von Cloud-Connector deinstallieren, w
 
 |**Parameter**|**Erforderlich**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|
-|  Version <br/> | Optional <br/> |System.String  <br/> | Die Version der Cloud-Verbindung, die vom Hostserver deinstalliert werden. Wenn nichts angegeben ist, wird die zurzeit ausgeführte Version deinstalliert. <br/> |
+| Version <br/> |  Optional <br/> |System.String  <br/> | Die Version der Cloud-Verbindung, die vom Hostserver deinstalliert werden. Wenn nichts angegeben ist, wird die zurzeit ausgeführte Version deinstalliert. <br/> |
 |Force  <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Wenn die zurzeit ausgeführte Version deinstalliert werden soll, wird versucht, Dienste auf dem Vermittlungsserver und dem Edgeserver auszugleichen, bevor die virtuellen Maschinen deinstalliert werden. Wenn Sie den Parameter „Force“ angeben, werden die virtuellen Maschinen auch dann deinstalliert, wenn der Dienstausgleich fehlgeschlagen ist. Dieser Parameter wird nur zum Deinstallieren der zurzeit ausgeführten Version verwendet.  <br/> |
 |Confirm  <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Bitten Sie Bestätigung So deinstallieren Sie die virtuellen Computer des Benutzers. Der Standardwert ist „TRUE“.  <br/> |
    
@@ -73,17 +75,17 @@ Keine. Das Cmdlet „Uninstall-CcAppliance“ akzeptiert keine Pipelineeingaben.
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine
+Keine 
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>
 
 [Install-CcAppliance](install-ccappliance.md)
   
-[Veröffentlichen von CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
 [Register-CcAppliance](register-ccappliance.md)
   
-[Aufheben der Registrierung CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
 

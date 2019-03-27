@@ -1,5 +1,6 @@
 ---
 title: Benutzerfreundlichkeit während des Ausfalls eines Pools in Skype für Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: Erfahren Sie, was Benutzer fest, wenn ein Front-End-Pool ein Failover oder wieder während der notfallwiederherstellung in Skype für Business Server fällt aus.
-ms.openlocfilehash: 741eb40d0bf4ee615d68d05ab6b9543b6f65474b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9311078b0b987f4340fec671e559ca4430949a6b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001189"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893669"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Benutzerfreundlichkeit während des Ausfalls eines Pools in Skype für Business Server
  

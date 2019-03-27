@@ -1,5 +1,6 @@
 ---
 title: Skype für Business Online Dienstplan des Benutzers ist nicht zulässig
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Finden Sie unter Where Zuweisen einer gültigen Dienstplan für einen Benutzer nach einer Skype für Business Online Dienstplan gültige Fehler nicht zur Verfügung. '
-ms.openlocfilehash: 92945ec7cb39a91c68c6fe31022feaf482e4310b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a6e42e26b9a0257005d735b0e5cda13af6f11b67
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861009"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888020"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>Skype für Business Online Dienstplan des Benutzers ist nicht zulässig
 
