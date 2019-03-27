@@ -1,5 +1,6 @@
 ---
 title: Definieren des FQDN des PSTN-Gateways
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,19 +13,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: Geben Sie den vollqualifizierten Domänennamen (FQDN) des öffentlichen Telefonnetz (Network, PSTN)-Gateways, die Ihrer Enterprise-VoIP-Komponenten mit einem PSTN oder private Branch Exchange, (Nebenstellenanlage PBX) verbunden wird.
-ms.openlocfilehash: 2f1c8eea8a8d3334d5c95e0b606799ad2f9c5f6b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 586b59185187379b2f93bb0e7a67383b892153d7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257486"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877888"
 ---
-# <a name="define-the-pstn-gateway-fqdn"></a><span data-ttu-id="c25a0-103">Definieren des FQDN des PSTN-Gateways</span><span class="sxs-lookup"><span data-stu-id="c25a0-103">Define the PSTN Gateway FQDN</span></span>
+# <a name="define-the-pstn-gateway-fqdn"></a><span data-ttu-id="4dd23-103">Definieren des FQDN des PSTN-Gateways</span><span class="sxs-lookup"><span data-stu-id="4dd23-103">Define the PSTN Gateway FQDN</span></span>
 
-<span data-ttu-id="c25a0-104">Geben Sie den vollqualifizierten Domänennamen (FQDN) des öffentlichen Telefonnetz (Network, PSTN)-Gateways, die Ihrer Enterprise-VoIP-Komponenten mit einem PSTN oder private Branch Exchange, (Nebenstellenanlage PBX) verbunden wird.</span><span class="sxs-lookup"><span data-stu-id="c25a0-104">You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX).</span></span>
+<span data-ttu-id="4dd23-104">Geben Sie den vollqualifizierten Domänennamen (FQDN) des öffentlichen Telefonnetz (Network, PSTN)-Gateways, die Ihrer Enterprise-VoIP-Komponenten mit einem PSTN oder private Branch Exchange, (Nebenstellenanlage PBX) verbunden wird.</span><span class="sxs-lookup"><span data-stu-id="4dd23-104">You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX).</span></span>
 
-<span data-ttu-id="c25a0-105">Weitere Informationen hierzu finden Sie unter [PSTN Connectivity Components in Skype für Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span><span class="sxs-lookup"><span data-stu-id="c25a0-105">For details, see [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span></span>
+<span data-ttu-id="4dd23-105">Weitere Informationen hierzu finden Sie unter [PSTN Connectivity Components in Skype für Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span><span class="sxs-lookup"><span data-stu-id="4dd23-105">For details, see [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c25a0-106">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="c25a0-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4dd23-106">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="4dd23-106">See also</span></span>
 
-[<span data-ttu-id="c25a0-107">Bereitstellungsoptionen für PSTN-Gateway</span><span class="sxs-lookup"><span data-stu-id="c25a0-107">PSTN Gateway Deployment Options</span></span>](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[<span data-ttu-id="4dd23-107">Bereitstellungsoptionen für PSTN-Gateway</span><span class="sxs-lookup"><span data-stu-id="4dd23-107">PSTN Gateway Deployment Options</span></span>](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)

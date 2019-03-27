@@ -1,5 +1,6 @@
 ---
 title: Kategorie für beständigen Chat – Hauptseite
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,15 +12,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 ROBOTS: NOINDEX, NOFOLLOW
-description: Auf der Seite Beständiger Chat können Sie den Abschnitt Kategorie verwenden, um Kategorien zu konfigurieren. Eine Kategorie für beständigen Chat Raum ist eine logische Struktur zum Organisieren von Chatrooms. In einer Kategorie ist eine Standardgruppe von Zugriffssteuerungslisten (Access Control Lists, ACLs) zum Steuern der Benutzer und Benutzergruppen definiert, die zum Erstellen oder zum Beitreten zu Chatrooms berechtigt sind. Sie können Kategorien verwenden, um „Chinesische Mauern“ zwischen verschiedenen Unterabteilungen der Organisationen einzurichten.
-ms.openlocfilehash: 4f95fc2cc6525a4ddccd7de09ebefb6e5b1cf25c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: Auf der Seite Beständiger Chat können Sie den Abschnitt Kategorie verwenden, um Kategorien zu konfigurieren. Eine Kategorie für beständigen Chat Raum ist eine logische Struktur zum Organisieren von Chatrooms. In einer Kategorie ist eine Standardgruppe von Zugriffssteuerungslisten (Access Control Lists, ACLs) zum Steuern der Benutzer und Benutzergruppen definiert, die zum Erstellen von oder zum Beitreten zu Chatrooms berechtigt sind. Sie können Kategorien verwenden, um „Chinesische Mauern“ zwischen verschiedenen Unterabteilungen der Organisationen einzurichten.
+ms.openlocfilehash: 1c9f69bdc250b82c7841671ffef10d7620c15954
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966243"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876838"
 ---
-# <a name="persistent-chat-category-main-page"></a><span data-ttu-id="1c3fe-106">Kategorie für beständigen Chat – Hauptseite</span><span class="sxs-lookup"><span data-stu-id="1c3fe-106">Persistent Chat Category Main Page</span></span>
+# <a name="persistent-chat-category-main-page"></a><span data-ttu-id="9188a-106">Kategorie für beständigen Chat – Hauptseite</span><span class="sxs-lookup"><span data-stu-id="9188a-106">Persistent Chat Category Main Page</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="1c3fe-107">Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="1c3fe-107">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="1c3fe-108">Die gleiche Funktionalität ist in Teams verfügbar.</span><span class="sxs-lookup"><span data-stu-id="1c3fe-108">The same functionality is available in Teams.</span></span> <span data-ttu-id="1c3fe-109">Weitere Informationen finden Sie unter [upgrade Skype für Unternehmen, die Microsoft-Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="1c3fe-109">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="1c3fe-110">Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl migrieren Benutzer, die diese Funktionalität für Teams oder weiterhin Skype für Business Server 2015 verwenden.</span><span class="sxs-lookup"><span data-stu-id="1c3fe-110">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
+> <span data-ttu-id="9188a-107">Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="9188a-107">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="9188a-108">Die gleiche Funktionalität ist in Teams verfügbar.</span><span class="sxs-lookup"><span data-stu-id="9188a-108">The same functionality is available in Teams.</span></span> <span data-ttu-id="9188a-109">Weitere Informationen finden Sie unter [upgrade Skype für Unternehmen, die Microsoft-Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="9188a-109">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="9188a-110">Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl migrieren Benutzer, die diese Funktionalität für Teams oder weiterhin Skype für Business Server 2015 verwenden.</span><span class="sxs-lookup"><span data-stu-id="9188a-110">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

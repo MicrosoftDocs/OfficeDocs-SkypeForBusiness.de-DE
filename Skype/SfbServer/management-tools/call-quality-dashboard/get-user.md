@@ -1,5 +1,6 @@
 ---
-title: Benutzer erhalten
+title: Abrufen eines Benutzers
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,40 +11,40 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
 description: 'Zusammenfassung: Informationen Sie zum Vorgang Benutzer abrufen, der Teil der Benutzerdienst ist. Der Benutzer-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 3508336eda934cf317f857d7ad7e903cb7298e00
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2d3c5febe30af2ea4d41d94aec026c25e27f21b9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533273"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874948"
 ---
-# <a name="get-user"></a><span data-ttu-id="30c84-105">Benutzer erhalten</span><span class="sxs-lookup"><span data-stu-id="30c84-105">Get User</span></span>
+# <a name="get-user"></a><span data-ttu-id="689c2-105">Abrufen eines Benutzers</span><span class="sxs-lookup"><span data-stu-id="689c2-105">Get User</span></span>
  
-<span data-ttu-id="30c84-106">**Zusammenfassung:** Informationen Sie zu den Vorgang erhalten Benutzer, der Teil der Benutzerdienst ist.</span><span class="sxs-lookup"><span data-stu-id="30c84-106">**Summary:** Learn about the Get User operation, which is part of the User Service.</span></span> <span data-ttu-id="30c84-107">Der Benutzer-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen.</span><span class="sxs-lookup"><span data-stu-id="30c84-107">The User Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="30c84-108">Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.</span><span class="sxs-lookup"><span data-stu-id="30c84-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
+<span data-ttu-id="689c2-106">**Zusammenfassung:** Informationen Sie zu den Vorgang erhalten Benutzer, der Teil der Benutzerdienst ist.</span><span class="sxs-lookup"><span data-stu-id="689c2-106">**Summary:** Learn about the Get User operation, which is part of the User Service.</span></span> <span data-ttu-id="689c2-107">Der Benutzer-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen.</span><span class="sxs-lookup"><span data-stu-id="689c2-107">The User Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="689c2-108">Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.</span><span class="sxs-lookup"><span data-stu-id="689c2-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
   
-<span data-ttu-id="30c84-109">Der Benutzer abrufen-Vorgang ist Teil des Dienstes Benutzer in der Repository-API für die Qualitätsdashboard aufrufen.</span><span class="sxs-lookup"><span data-stu-id="30c84-109">The Get Users operation is part of the User Service in the Repository API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="689c2-109">Der Benutzer abrufen-Vorgang ist Teil des Dienstes Benutzer in der Repository-API für die Qualitätsdashboard aufrufen.</span><span class="sxs-lookup"><span data-stu-id="689c2-109">The Get Users operation is part of the User Service in the Repository API for Call Quality Dashboard.</span></span>
   
-## <a name="get-user"></a><span data-ttu-id="30c84-110">Benutzer erhalten</span><span class="sxs-lookup"><span data-stu-id="30c84-110">Get User</span></span>
+## <a name="get-user"></a><span data-ttu-id="689c2-110">Abrufen eines Benutzers</span><span class="sxs-lookup"><span data-stu-id="689c2-110">Get User</span></span>
 
-<span data-ttu-id="30c84-111">Rufen Sie Benutzer gibt Datensatz eines Benutzers aus dem Repository.</span><span class="sxs-lookup"><span data-stu-id="30c84-111">Get User returns a user record from the repository.</span></span>
+<span data-ttu-id="689c2-111">Rufen Sie Benutzer gibt Datensatz eines Benutzers aus dem Repository.</span><span class="sxs-lookup"><span data-stu-id="689c2-111">Get User returns a user record from the repository.</span></span>
   
-|<span data-ttu-id="30c84-112">**Methode**</span><span class="sxs-lookup"><span data-stu-id="30c84-112">**Method**</span></span>|<span data-ttu-id="30c84-113">**Anforderungs-URI**</span><span class="sxs-lookup"><span data-stu-id="30c84-113">**Request URI**</span></span>|<span data-ttu-id="30c84-114">**HTTP-Version**</span><span class="sxs-lookup"><span data-stu-id="30c84-114">**HTTP Version**</span></span>|
+|<span data-ttu-id="689c2-112">**Methode**</span><span class="sxs-lookup"><span data-stu-id="689c2-112">**Method**</span></span>|<span data-ttu-id="689c2-113">**Anforderungs-URI**</span><span class="sxs-lookup"><span data-stu-id="689c2-113">**Request URI**</span></span>|<span data-ttu-id="689c2-114">**HTTP-Version**</span><span class="sxs-lookup"><span data-stu-id="689c2-114">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="30c84-115">Erhalten</span><span class="sxs-lookup"><span data-stu-id="30c84-115">GET</span></span>  <br/> |<span data-ttu-id="30c84-116">https://\<Portal\>/QoERepositoryService/Repository/Benutzer / {Benutzer-ID}</span><span class="sxs-lookup"><span data-stu-id="30c84-116">https://\<portal\>/QoERepositoryService/repository/user/{userId}</span></span>  <br/> |<span data-ttu-id="30c84-117">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="30c84-117">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="689c2-115">Erhalten</span><span class="sxs-lookup"><span data-stu-id="689c2-115">GET</span></span>  <br/> |<span data-ttu-id="689c2-116">https://\<Portal\>/QoERepositoryService/Repository/Benutzer / {Benutzer-ID}</span><span class="sxs-lookup"><span data-stu-id="689c2-116">https://\<portal\>/QoERepositoryService/repository/user/{userId}</span></span>  <br/> |<span data-ttu-id="689c2-117">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="689c2-117">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="30c84-118">**URI-Parameter** - None.</span><span class="sxs-lookup"><span data-stu-id="30c84-118">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="689c2-118">**URI-Parameter** - None.</span><span class="sxs-lookup"><span data-stu-id="689c2-118">**URI Parameters** - None.</span></span>
   
- <span data-ttu-id="30c84-119">**Anfordern von Kopfzeilen** - keine zusätzlichen Header.</span><span class="sxs-lookup"><span data-stu-id="30c84-119">**Request Headers** - No additional headers.</span></span>
+ <span data-ttu-id="689c2-119">**Anfordern von Kopfzeilen** - keine zusätzlichen Header.</span><span class="sxs-lookup"><span data-stu-id="689c2-119">**Request Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="30c84-120">**Anforderungstextkörper** – None.</span><span class="sxs-lookup"><span data-stu-id="30c84-120">**Request Body** - None.</span></span>
+ <span data-ttu-id="689c2-120">**Anforderungstextkörper** – None.</span><span class="sxs-lookup"><span data-stu-id="689c2-120">**Request Body** - None.</span></span>
   
- <span data-ttu-id="30c84-121">**Antwort** - die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheader.</span><span class="sxs-lookup"><span data-stu-id="30c84-121">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="689c2-121">**Antwort** - die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheader.</span><span class="sxs-lookup"><span data-stu-id="689c2-121">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
- <span data-ttu-id="30c84-122">**Statuscode** - eine erfolgreiche Ausführung Gibt Statuscode 200 (OK).</span><span class="sxs-lookup"><span data-stu-id="30c84-122">**Status Code** - A successful operation returns status code 200 (OK).</span></span> <span data-ttu-id="30c84-123">Wenn einen angegebenen Benutzer-ID nicht gefunden wurde, wird der Statuscode 404 (nicht gefunden) zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="30c84-123">If a specified user ID is not found, it returns status code 404 (Not Found).</span></span>
+ <span data-ttu-id="689c2-122">**Statuscode** - eine erfolgreiche Ausführung Gibt Statuscode 200 (OK).</span><span class="sxs-lookup"><span data-stu-id="689c2-122">**Status Code** - A successful operation returns status code 200 (OK).</span></span> <span data-ttu-id="689c2-123">Wenn einen angegebenen Benutzer-ID nicht gefunden wurde, wird der Statuscode 404 (nicht gefunden) zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="689c2-123">If a specified user ID is not found, it returns status code 404 (Not Found).</span></span>
   
- <span data-ttu-id="30c84-124">**Antwortheader** - keine zusätzlichen Header.</span><span class="sxs-lookup"><span data-stu-id="30c84-124">**Response Headers** - No additional headers.</span></span>
+ <span data-ttu-id="689c2-124">**Antwortheader** - keine zusätzlichen Header.</span><span class="sxs-lookup"><span data-stu-id="689c2-124">**Response Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="30c84-125">**Antworttext** - ist im folgenden Beispiel Antwort Nutzlast in JSON.</span><span class="sxs-lookup"><span data-stu-id="30c84-125">**Response Body** - Below is a sample response payload in JSON.</span></span>
+ <span data-ttu-id="689c2-125">**Antworttext** - ist im folgenden Beispiel Antwort Nutzlast in JSON.</span><span class="sxs-lookup"><span data-stu-id="689c2-125">**Response Body** - Below is a sample response payload in JSON.</span></span>
   
 ```
 {
@@ -53,13 +54,13 @@ ms.locfileid: "26533273"
 }
 ```
 
- <span data-ttu-id="30c84-126">*UserId* - ID des Benutzers.</span><span class="sxs-lookup"><span data-stu-id="30c84-126">*userId*  - ID of the user.</span></span>
+ <span data-ttu-id="689c2-126">*UserId* - ID des Benutzers.</span><span class="sxs-lookup"><span data-stu-id="689c2-126">*userId*  - ID of the user.</span></span>
   
- <span data-ttu-id="30c84-127">*LoginName* - externe Benutzer-ID für normale Benutzer.</span><span class="sxs-lookup"><span data-stu-id="30c84-127">*loginName*  - External user identification for regular users.</span></span> <span data-ttu-id="30c84-128">Wenn Windows-Authentifizierung zum Authentifizieren von Benutzern verwendet wird, kann dies eine FQDN des Benutzers sein.</span><span class="sxs-lookup"><span data-stu-id="30c84-128">If Windows Authentication is used for authenticating users, then this may be a FQDN of the user.</span></span>
+ <span data-ttu-id="689c2-127">*LoginName* - externe Benutzer-ID für normale Benutzer.</span><span class="sxs-lookup"><span data-stu-id="689c2-127">*loginName*  - External user identification for regular users.</span></span> <span data-ttu-id="689c2-128">Wenn Windows-Authentifizierung zum Authentifizieren von Benutzern verwendet wird, kann dies eine FQDN des Benutzers sein.</span><span class="sxs-lookup"><span data-stu-id="689c2-128">If Windows Authentication is used for authenticating users, then this may be a FQDN of the user.</span></span>
   
- <span data-ttu-id="30c84-129">*DefaultItemId* - ID des Standard-Element für diesen Benutzer.</span><span class="sxs-lookup"><span data-stu-id="30c84-129">*defaultItemId*  - ID of the default Item for this user.</span></span> <span data-ttu-id="30c84-130">Der Standardwert Element ist das oberste Element, das dem Benutzer zugeordnet ist.</span><span class="sxs-lookup"><span data-stu-id="30c84-130">The default Item is the top-most Item that is associated to the user.</span></span> <span data-ttu-id="30c84-131">Alle anderen Elemente, die dieser Benutzer besitzt, können aus der Standard-Element navigiert werden.</span><span class="sxs-lookup"><span data-stu-id="30c84-131">All other Items this user owns can be navigated from the default Item.</span></span>
+ <span data-ttu-id="689c2-129">*DefaultItemId* - ID des Standard-Element für diesen Benutzer.</span><span class="sxs-lookup"><span data-stu-id="689c2-129">*defaultItemId*  - ID of the default Item for this user.</span></span> <span data-ttu-id="689c2-130">Der Standardwert Element ist das oberste Element, das dem Benutzer zugeordnet ist.</span><span class="sxs-lookup"><span data-stu-id="689c2-130">The default Item is the top-most Item that is associated to the user.</span></span> <span data-ttu-id="689c2-131">Alle anderen Elemente, die dieser Benutzer besitzt, können aus der Standard-Element navigiert werden.</span><span class="sxs-lookup"><span data-stu-id="689c2-131">All other Items this user owns can be navigated from the default Item.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="30c84-132">Geben Sie die `defaultItemId` Wert zum Element abrufen Operation, die Details des Standard-Element abgerufen.</span><span class="sxs-lookup"><span data-stu-id="30c84-132">Supply the  `defaultItemId` value to Get Item operation to retrieve the details of the default Item.</span></span>
+> <span data-ttu-id="689c2-132">Geben Sie die `defaultItemId` Wert zum Element abrufen Operation, die Details des Standard-Element abgerufen.</span><span class="sxs-lookup"><span data-stu-id="689c2-132">Supply the  `defaultItemId` value to Get Item operation to retrieve the details of the default Item.</span></span>
   
 

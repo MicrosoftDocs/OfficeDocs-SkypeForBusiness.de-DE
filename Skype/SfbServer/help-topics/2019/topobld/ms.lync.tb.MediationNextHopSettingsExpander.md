@@ -1,5 +1,6 @@
 ---
 title: Einstellungen unter „Nächster Hop“ für Vermittlung – Erweiterung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,17 +13,17 @@ localization_priority: Normal
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie geben Sie den vermittlungsserverpool oder Vermittlungsserver Nächster Hop, indem Sie den definierten Enterprise Edition-Front-End-Pool oder Standard Edition-Front-End-Server aus der Dropdown-Liste auswählen. Ein Director oder Director Pool ist keine gültige Auswahl für einen vermittlungsserverpool oder Vermittlungsserver Nächster Hop und nicht in der Liste angezeigt wird. Klicken Sie auf OK, um das akzeptieren und Ihre Änderungen zu speichern. Klicken Sie auf Abbrechen, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
-ms.openlocfilehash: 783c7d8c5cd0f7a85ceb3500f3583340ad49a272
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: fcb1c9151da69d222898335347aa04ee9c658a84
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064653"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876079"
 ---
-# <a name="mediation-next-hop-settings-expander"></a><span data-ttu-id="62afb-106">Einstellungen unter „Nächster Hop“ für Vermittlung – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="62afb-106">Mediation Next Hop Settings Expander</span></span>
+# <a name="mediation-next-hop-settings-expander"></a><span data-ttu-id="ade98-106">Einstellungen unter „Nächster Hop“ für Vermittlung – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="ade98-106">Mediation Next Hop Settings Expander</span></span>
  
-<span data-ttu-id="62afb-107">Sie geben Sie den vermittlungsserverpool oder Vermittlungsserver Nächster Hop, indem Sie den definierten Enterprise Edition-Front-End-Pool oder Standard Edition-Front-End-Server aus der Dropdown-Liste auswählen.</span><span class="sxs-lookup"><span data-stu-id="62afb-107">You specify the Mediation Server pool or Mediation Server next hop by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="62afb-108">Ein Director oder Director Pool ist keine gültige Auswahl für einen vermittlungsserverpool oder Vermittlungsserver Nächster Hop und nicht in der Liste angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="62afb-108">A Director or Director pool is not a valid selection for a Mediation Server pool or Mediation Server next hop, and will not appear in the list.</span></span> <span data-ttu-id="62afb-109">Klicken Sie auf **OK** , um zu akzeptieren und Ihre Änderungen zu speichern.</span><span class="sxs-lookup"><span data-stu-id="62afb-109">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="62afb-110">Klicken Sie auf **Abbrechen**, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.</span><span class="sxs-lookup"><span data-stu-id="62afb-110">Click **Cancel** to discard your changes and exit the properties page.</span></span>
+<span data-ttu-id="ade98-107">Sie geben Sie den vermittlungsserverpool oder Vermittlungsserver Nächster Hop, indem Sie den definierten Enterprise Edition-Front-End-Pool oder Standard Edition-Front-End-Server aus der Dropdown-Liste auswählen.</span><span class="sxs-lookup"><span data-stu-id="ade98-107">You specify the Mediation Server pool or Mediation Server next hop by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="ade98-108">Ein Director oder Director Pool ist keine gültige Auswahl für einen vermittlungsserverpool oder Vermittlungsserver Nächster Hop und nicht in der Liste angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="ade98-108">A Director or Director pool is not a valid selection for a Mediation Server pool or Mediation Server next hop, and will not appear in the list.</span></span> <span data-ttu-id="ade98-109">Klicken Sie auf **OK** , um zu akzeptieren und Ihre Änderungen zu speichern.</span><span class="sxs-lookup"><span data-stu-id="ade98-109">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="ade98-110">Klicken Sie auf **Abbrechen**, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.</span><span class="sxs-lookup"><span data-stu-id="ade98-110">Click **Cancel** to discard your changes and exit the properties page.</span></span>
   
-<span data-ttu-id="62afb-111">Ausführliche Informationen zu den Einstellungen für den vermittlungsserverpool oder Vermittlungsserver finden Sie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="62afb-111">For details about the settings for the Mediation Server pool or Mediation Server, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="ade98-111">Ausführliche Informationen zu den Einstellungen für den vermittlungsserverpool oder Vermittlungsserver finden Sie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="ade98-111">For details about the settings for the Mediation Server pool or Mediation Server, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) in the Deployment documentation.</span></span>
   
 

@@ -1,5 +1,6 @@
 ---
-title: Registrierungssicherheitseinstellungen
+title: Sicherheitseinstellungen für die Registrierung
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,23 +12,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.'
-ms.openlocfilehash: 3abca26900b10db7aa014209357c6936e13c016b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: 20cb4bfd9954f93e92f46488ca842d9fb7a9bc59
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260615"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877091"
 ---
-# <a name="registrar-security-settings"></a><span data-ttu-id="0e75f-104">Registrierungssicherheitseinstellungen</span><span class="sxs-lookup"><span data-stu-id="0e75f-104">Registrar Security Settings</span></span>
+# <a name="registrar-security-settings"></a><span data-ttu-id="4e77c-104">Sicherheitseinstellungen für die Registrierung</span><span class="sxs-lookup"><span data-stu-id="4e77c-104">Registrar Security Settings</span></span>
 
-<span data-ttu-id="0e75f-p102">Verfügbare Aktionen: Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchte.</span><span class="sxs-lookup"><span data-stu-id="0e75f-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="4e77c-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="4e77c-105">What do you want to do?</span></span> <span data-ttu-id="4e77c-106">Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="4e77c-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="0e75f-107">Verwalten von registrierungskonfigurationseinstellungen in Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="0e75f-107">Manage Registrar configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/registrar-configuration-settings.md)
+- [<span data-ttu-id="4e77c-107">Verwalten von registrierungskonfigurationseinstellungen in Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="4e77c-107">Manage Registrar configuration settings in Skype for Business Server</span></span>](../../../manage/authentication/registrar-configuration-settings.md)
 
-- [<span data-ttu-id="0e75f-108">Ändern einer vorhandenen Registrierung</span><span class="sxs-lookup"><span data-stu-id="0e75f-108">Modify an Existing Registrar</span></span>](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
+- [<span data-ttu-id="4e77c-108">Ändern einer vorhandenen Registrierung</span><span class="sxs-lookup"><span data-stu-id="4e77c-108">Modify an Existing Registrar</span></span>](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
 
-- [<span data-ttu-id="0e75f-109">Löschen einer Registrierung</span><span class="sxs-lookup"><span data-stu-id="0e75f-109">Delete a Registrar</span></span>](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
+- [<span data-ttu-id="4e77c-109">Löschen einer Registrierung</span><span class="sxs-lookup"><span data-stu-id="4e77c-109">Delete a Registrar</span></span>](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
 
 
 

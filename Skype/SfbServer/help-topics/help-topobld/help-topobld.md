@@ -1,5 +1,6 @@
 ---
-title: Hilfe-TopoBld
+title: Help-TopoBld
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 ms.date: 1/1/1900
@@ -9,15 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c7a60ee-b803-4cd4-a7cc-6552f3b238b8
 description: Topologie-Generator-Themen
-ms.openlocfilehash: 87d64bd6282386903dfcdc08f476b5b99ec602d8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 84164b67938d4127a6ff0b01357f5fe9a6363dd2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876542"
 ---
-# <a name="help-topobld"></a><span data-ttu-id="565af-103">Hilfe-TopoBld</span><span class="sxs-lookup"><span data-stu-id="565af-103">Help-TopoBld</span></span>
+# <a name="help-topobld"></a><span data-ttu-id="4582e-103">Help-TopoBld</span><span class="sxs-lookup"><span data-stu-id="4582e-103">Help-TopoBld</span></span>
  
-<span data-ttu-id="565af-104">Dieser Knoten enthält die Themen der Onlinehilfe für die Skype für Business Server-Topologie-Generator.</span><span class="sxs-lookup"><span data-stu-id="565af-104">This node contains help topics for the Skype for Business Server topology builder.</span></span>
+<span data-ttu-id="4582e-104">Dieser Knoten enthält die Themen der Onlinehilfe für die Skype für Business Server-Topologie-Generator.</span><span class="sxs-lookup"><span data-stu-id="4582e-104">This node contains help topics for the Skype for Business Server topology builder.</span></span>
   
 
   
