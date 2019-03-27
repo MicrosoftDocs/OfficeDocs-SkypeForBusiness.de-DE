@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 'Zusammenfassung: Erkunden Sie diese Links, um Informationen zum Implementieren von Skype für Business Server 2015.'
-ms.openlocfilehash: bc7c8f586eaf0312d0a37e814634104dab4df324
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: 4ec6dd19757c4a4d367146582cf9b05205662ed3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069639"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899764"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype for Business Server 2015
 
@@ -136,7 +137,7 @@ Skype für Unternehmen ist eine Kommunikation und Zusammenarbeit Plattform, die 
 
 ---
 
-<h2>Bereitgestellte Artikel</h2>
+<h2>Ausgewählte Artikel</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -144,9 +145,9 @@ Skype für Unternehmen ist eine Kommunikation und Zusammenarbeit Plattform, die 
                 <div class="card">
                     <div class="cardText">
                         <h3>Bevor Sie beginnen</h3>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Requirements for your environment</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Anforderungen an Ihre Umgebung</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">Netzwerkanforderungen</a></p>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">Clients und Geräten</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">Clients und Geräte</a></p>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 ---
 title: Ausstehendes Zertifikat (Aufruf)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,18 +13,18 @@ localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die Seite Befehle ausführen zeigt den Status der Befehle, die das ausstehende Zertifikat abrufen. Wenn der Vorgang abgeschlossen ist, ist die Protokolldatei ausstehende Zertifikate abrufen verfügbar. Klicken Sie auf Protokoll anzeigen, um die Verarbeitung und Abschlussstatus Aufgabe überprüfen. Klicken Sie auf Weiter, um fortzufahren.
-ms.openlocfilehash: 63da48b442c0b82e3c9f729ff5a6931803208437
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f9c22f5a427c289ebae2509ea56c6f1f2f2a7edc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988110"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891447"
 ---
-# <a name="pending-certificate-invoke"></a><span data-ttu-id="912b9-106">Ausstehendes Zertifikat (Aufruf)</span><span class="sxs-lookup"><span data-stu-id="912b9-106">Pending Certificate (Invoke)</span></span>
+# <a name="pending-certificate-invoke"></a><span data-ttu-id="97414-106">Ausstehendes Zertifikat (Aufruf)</span><span class="sxs-lookup"><span data-stu-id="97414-106">Pending Certificate (Invoke)</span></span>
  
-<span data-ttu-id="912b9-107">Die Seite **Befehle ausführen** zeigt den Status der Befehle, die das ausstehende Zertifikat abrufen.</span><span class="sxs-lookup"><span data-stu-id="912b9-107">The **Executing Commands** page displays the status of the commands that are retrieving the pending certificate.</span></span> <span data-ttu-id="912b9-108">Wenn der Vorgang abgeschlossen ist, ist die Protokolldatei **Ausstehende Zertifikate abrufen** verfügbar.</span><span class="sxs-lookup"><span data-stu-id="912b9-108">When the task is completed, the **Retrieve Pending Certificates** log file is available.</span></span> <span data-ttu-id="912b9-109">Klicken Sie auf **Protokoll anzeigen** , um die Verarbeitung und Abschlussstatus Aufgabe überprüfen.</span><span class="sxs-lookup"><span data-stu-id="912b9-109">Click **View Log** to review the processing and task completion status.</span></span> <span data-ttu-id="912b9-110">Klicken Sie auf **Weiter**, um fortzufahren.</span><span class="sxs-lookup"><span data-stu-id="912b9-110">Click **Next** to continue.</span></span>
+<span data-ttu-id="97414-107">Die Seite **Befehle ausführen** zeigt den Status der Befehle, die das ausstehende Zertifikat abrufen.</span><span class="sxs-lookup"><span data-stu-id="97414-107">The **Executing Commands** page displays the status of the commands that are retrieving the pending certificate.</span></span> <span data-ttu-id="97414-108">Wenn der Vorgang abgeschlossen ist, ist die Protokolldatei **Ausstehende Zertifikate abrufen** verfügbar.</span><span class="sxs-lookup"><span data-stu-id="97414-108">When the task is completed, the **Retrieve Pending Certificates** log file is available.</span></span> <span data-ttu-id="97414-109">Klicken Sie auf **Protokoll anzeigen** , um die Verarbeitung und Abschlussstatus Aufgabe überprüfen.</span><span class="sxs-lookup"><span data-stu-id="97414-109">Click **View Log** to review the processing and task completion status.</span></span> <span data-ttu-id="97414-110">Klicken Sie auf **Weiter**, um fortzufahren.</span><span class="sxs-lookup"><span data-stu-id="97414-110">Click **Next** to continue.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="912b9-111">Wenn das Zertifikat noch nicht durch die Zertifizierungsstellen-Administrator genehmigt wurde, wird die Protokolldatei abrufen ausstehende Anforderung laut ausstehende Anforderungen vorhanden sind.</span><span class="sxs-lookup"><span data-stu-id="912b9-111">If the certificate has not yet been approved by the certification authority administrator, the Retrieve Pending Request log file will indicate that there are pending requests.</span></span> <span data-ttu-id="912b9-112">Wenn Sie der Zertifizierungsstellen-Administrator die Anforderung zurückgewiesen hat, wird die Protokolldatei wird und meldet den Fehler zurück, der angibt, der die Anforderung verweigert wurde und den Benutzernamen der Person ein, die die Anforderung abgelehnt.</span><span class="sxs-lookup"><span data-stu-id="912b9-112">If the certification authority administrator has denied the request, the log file will indicate a failure and will report the error, indicating that the request was denied and the user name of the person who denied the request.</span></span> 
+> <span data-ttu-id="97414-111">Wenn das Zertifikat noch nicht durch die Zertifizierungsstellen-Administrator genehmigt wurde, wird die Protokolldatei abrufen ausstehende Anforderung laut ausstehende Anforderungen vorhanden sind.</span><span class="sxs-lookup"><span data-stu-id="97414-111">If the certificate has not yet been approved by the certification authority administrator, the Retrieve Pending Request log file will indicate that there are pending requests.</span></span> <span data-ttu-id="97414-112">Wenn Sie der Zertifizierungsstellen-Administrator die Anforderung zurückgewiesen hat, wird die Protokolldatei wird und meldet den Fehler zurück, der angibt, der die Anforderung verweigert wurde und den Benutzernamen der Person ein, die die Anforderung abgelehnt.</span><span class="sxs-lookup"><span data-stu-id="97414-112">If the certification authority administrator has denied the request, the log file will indicate a failure and will report the error, indicating that the request was denied and the user name of the person who denied the request.</span></span> 
   
 

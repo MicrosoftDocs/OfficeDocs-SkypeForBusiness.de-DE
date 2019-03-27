@@ -1,5 +1,6 @@
 ---
-title: Lync Server 2013 erstellen neue – Erweiterung
+title: Neuerstellen unter Lync Server 2013 – Erweiterung
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 description: Sie können im Lync Server 2013-Knoten des Topologie-Generator neue Serverrollen erstellen, indem Sie mit der rechten Maustaste auf Lync Server 2013, wählen Sie neu und dann die zu erstellende Serverrolle auswählen.
-ms.openlocfilehash: 9c6ca8c2ee103d1f7049b1fc743ed6e06612b2ad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e15c2f326642903df7b1512009f56897f26ebec5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002418"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895632"
 ---
-# <a name="lync-server-2013-create-new-expander"></a><span data-ttu-id="1285f-103">Lync Server 2013 erstellen neue – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="1285f-103">Lync Server 2013 Create New Expander</span></span>
+# <a name="lync-server-2013-create-new-expander"></a><span data-ttu-id="77ad6-103">Neuerstellen unter Lync Server 2013 – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="77ad6-103">Lync Server 2013 Create New Expander</span></span>
  
-<span data-ttu-id="1285f-104">Sie können im Lync Server 2013-Knoten des Topologie-Generator neue Serverrollen erstellen, indem Sie mit der rechten Maustaste auf **Lync Server 2013**, wählen Sie **neu**und dann die zu erstellende Serverrolle auswählen.</span><span class="sxs-lookup"><span data-stu-id="1285f-104">You can create new server roles in the Lync Server 2013 node of Topology Builder by right clicking on **Lync Server 2013**, select **New**, then select the server role to create.</span></span>
+<span data-ttu-id="77ad6-104">Sie können im Lync Server 2013-Knoten des Topologie-Generator neue Serverrollen erstellen, indem Sie mit der rechten Maustaste auf **Lync Server 2013**, wählen Sie **neu**und dann die zu erstellende Serverrolle auswählen.</span><span class="sxs-lookup"><span data-stu-id="77ad6-104">You can create new server roles in the Lync Server 2013 node of Topology Builder by right clicking on **Lync Server 2013**, select **New**, then select the server role to create.</span></span>
   
 

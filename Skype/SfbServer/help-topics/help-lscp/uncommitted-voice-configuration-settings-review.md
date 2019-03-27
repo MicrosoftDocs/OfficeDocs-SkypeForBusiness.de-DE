@@ -1,5 +1,6 @@
 ---
 title: Ohne Commit VoIP-Konfiguration Einstellungen überprüfen
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 description: Verwenden Sie das Dialogfeld VoIP-Konfigurationseinstellungen ohne Commit, um alle Änderungen zu überprüfen, die Sie vorgenommen haben. Blättern Sie durch das Dialogfeld auf alle nicht übernommene Änderungen überprüfen, oder klicken Sie auf die Pfeile zum Erweitern oder reduzieren die verschiedenen Abschnitte. Wenn Sie fertig sind, klicken Sie auf Schließen. Nachdem Sie das Dialogfeld schließen, können Sie Ihre Änderungen zu ändern oder diese übernehmen.
-ms.openlocfilehash: 87446600b72caf1a2bd46fa27cd718724ad24ddb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e7acfdb6dc73998713c02dacf75c9fadce274ae7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21004361"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897751"
 ---
-# <a name="uncommitted-voice-configuration-settings-review"></a><span data-ttu-id="efbf9-106">Konfigurationseinstellungen ohne Commit VoIP: Überprüfen</span><span class="sxs-lookup"><span data-stu-id="efbf9-106">Uncommitted Voice Configuration Settings: Review</span></span>
+# <a name="uncommitted-voice-configuration-settings-review"></a><span data-ttu-id="2dbc0-106">VoIP-Konfigurationseinstellungen ohne Commit: Anzeigen</span><span class="sxs-lookup"><span data-stu-id="2dbc0-106">Uncommitted Voice Configuration Settings: Review</span></span>
  
-<span data-ttu-id="efbf9-107">Verwenden Sie das Dialogfeld **VoIP-Konfigurationseinstellungen ohne Commit** , um alle Änderungen zu überprüfen, die Sie vorgenommen haben.</span><span class="sxs-lookup"><span data-stu-id="efbf9-107">Use the **Uncommitted Voice Configuration Settings** dialog box to review all of the changes that you have made.</span></span> <span data-ttu-id="efbf9-108">Blättern Sie durch das Dialogfeld auf alle nicht übernommene Änderungen überprüfen, oder klicken Sie auf die Pfeile zum Erweitern oder reduzieren die verschiedenen Abschnitte.</span><span class="sxs-lookup"><span data-stu-id="efbf9-108">Scroll through the dialog box to review all of the uncommitted changes, or click the arrows to expand or collapse the different sections.</span></span> <span data-ttu-id="efbf9-109">Wenn Sie fertig sind, klicken Sie auf **Schließen**.</span><span class="sxs-lookup"><span data-stu-id="efbf9-109">When you are finished, click **Close**.</span></span> <span data-ttu-id="efbf9-110">Nachdem Sie das Dialogfeld schließen, können Sie Ihre Änderungen zu ändern oder diese übernehmen.</span><span class="sxs-lookup"><span data-stu-id="efbf9-110">After you close this dialog box, you can modify your changes or commit them.</span></span>
+<span data-ttu-id="2dbc0-107">Verwenden Sie das Dialogfeld **VoIP-Konfigurationseinstellungen ohne Commit** , um alle Änderungen zu überprüfen, die Sie vorgenommen haben.</span><span class="sxs-lookup"><span data-stu-id="2dbc0-107">Use the **Uncommitted Voice Configuration Settings** dialog box to review all of the changes that you have made.</span></span> <span data-ttu-id="2dbc0-108">Blättern Sie durch das Dialogfeld auf alle nicht übernommene Änderungen überprüfen, oder klicken Sie auf die Pfeile zum Erweitern oder reduzieren die verschiedenen Abschnitte.</span><span class="sxs-lookup"><span data-stu-id="2dbc0-108">Scroll through the dialog box to review all of the uncommitted changes, or click the arrows to expand or collapse the different sections.</span></span> <span data-ttu-id="2dbc0-109">Wenn Sie fertig sind, klicken Sie auf **Schließen**.</span><span class="sxs-lookup"><span data-stu-id="2dbc0-109">When you are finished, click **Close**.</span></span> <span data-ttu-id="2dbc0-110">Nachdem Sie das Dialogfeld schließen, können Sie Ihre Änderungen zu ändern oder diese übernehmen.</span><span class="sxs-lookup"><span data-stu-id="2dbc0-110">After you close this dialog box, you can modify your changes or commit them.</span></span>
   
-<span data-ttu-id="efbf9-111">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="efbf9-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="2dbc0-111">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="2dbc0-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

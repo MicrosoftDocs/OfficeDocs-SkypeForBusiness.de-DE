@@ -1,5 +1,6 @@
 ---
 title: Legacyzusammenführung – Start
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,15 +13,15 @@ localization_priority: Normal
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um eine Bereitstellung der Vorversion mit Skype für Business Server zusammenführen, klicken Sie auf Weiter.
-ms.openlocfilehash: 0f9e606dfe184fd2084f3a65c65de456d2c485e7
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: c920ede0266136f7a16393b3383264794a2c50b6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082573"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889733"
 ---
-# <a name="legacy-merge-start"></a><span data-ttu-id="3016b-103">Legacyzusammenführung – Start</span><span class="sxs-lookup"><span data-stu-id="3016b-103">Legacy Merge Start</span></span>
+# <a name="legacy-merge-start"></a><span data-ttu-id="80ca7-103">Legacyzusammenführung – Start</span><span class="sxs-lookup"><span data-stu-id="80ca7-103">Legacy Merge Start</span></span>
  
-<span data-ttu-id="3016b-104">Zum Zusammenführen einer bereitstellungs der Vorversionen mit Skype für Business Server beginnen, klicken Sie auf **Weiter**.</span><span class="sxs-lookup"><span data-stu-id="3016b-104">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> 
+<span data-ttu-id="80ca7-104">Zum Zusammenführen einer bereitstellungs der Vorversionen mit Skype für Business Server beginnen, klicken Sie auf **Weiter**.</span><span class="sxs-lookup"><span data-stu-id="80ca7-104">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> 
   
 
