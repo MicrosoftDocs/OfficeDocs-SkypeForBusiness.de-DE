@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2908ff9bec8be1eaf7d6dc09ff03adb9ae3ea9ea
-ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
+ms.openlocfilehash: a9abe6e17a4c11dd2e1943643c7030eadd5bd0ba
+ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30737816"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30771734"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -178,7 +178,7 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Maximale Teilnehmeranzahl für Besprechungen  <br/> |Jede Microsoft Teams-Besprechung kann maximal 80 Teilnehmer enthalten.  <br/> |Keine Problemumgehung.  <br/> |13.03.2017  <br/> |
+|Maximale Teilnehmeranzahl für Besprechungen  <br/> |Jede Microsoft Teams-Besprechung kann maximal 250 Teilnehmer enthalten.  <br/> |Erstellen Sie Liveereignisse in Teams für bis zu 10.000 Benutzer.  <br/> |13.03.2017  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
@@ -249,10 +249,6 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Integration zwischen Microsoft Teams und Planner mit der Onlineversion von Planner <br/> |Aufgabenbuckets in Planner werden in der Onlineversion von Planner nicht angezeigt.  <br/> |Keine Problemumgehung. <br/> |28.02.2017  <br/>|
-
-|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
-|:-----|:-----|:-----|:-----|
-|Eine SharePoint-Registerkartenseite wird als leerer Bildschirm dargestellt. <br/> |Benutzerdefinierte SharePoint Online-Domänen werden zurzeit nicht unterstützt. Wenn Benutzer versuchen, eine SharePoint-Registerkartenseite hinzuzufügen, wird ein leerer Bildschirm angezeigt. <br/> |Keine Problemumgehung. <br/> |20.08.2018  <br/>|
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
