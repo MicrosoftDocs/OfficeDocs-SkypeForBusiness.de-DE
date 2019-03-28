@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Verwalten Sie die Features und Funktionen für den Gastzugriff in Microsoft Teams mit vier verschiedenen Autorisierungsebenen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e14236503ca22a7de9af01adb1d612faf7bb102
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 2b98eb03a8a77e878354ed07e3104b1b6d91b4aa
+ms.sourcegitcommit: 8af806727bfdc5a90c41f957f6ae1671946277dc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458900"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30936457"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorisieren des Gastzugriffs in Microsoft Teams
 ===========================================
@@ -90,11 +90,11 @@ Sie können Teams Gast Access-Einstellungen aus dem Microsoft-Teams, Administrat
     
 3. Wählen Sie **Office 365-Gruppen** aus.
     
-     ![Office 365-Gruppen](media/e25a7920-254c-4da3-bc5f-a8c7f6b61423.png)
+     ![Office 365-Gruppen](media/authorize-guest-image2.png)
   
 4. Legen Sie auf der Seite Office 365 Gruppen die Umschaltfläche auf **ein-** oder **Ausschalten**, je nachdem, ob Sie Teams und der Gruppe Besitzer außerhalb Ihrer Organisation Zugriff auf Office 365-Gruppen ermöglichen möchten. Klicken oder tippen Sie neben **Hinzufügen von Personen außerhalb der Organisation zu Gruppen durch Gruppenbesitzer zulassen** auf die Umschaltfläche, um sie in **Ein** zu ändern. Wenn Sie diese umschalten, **Klicken Sie auf**deaktivieren, sehen Sie eine andere Option steuern, ob Sie Gruppe lassen möchten und Team Besitzer Hinzufügen von Personen außerhalb Ihrer Organisation zu Office 365-Gruppen und Microsoft-teams. Legen Sie diese Umschalten auf **auf** , wenn Sie Gruppe lassen möchten und Team Besitzer Gastbenutzer hinzufügen. 
  
-   ![Dieser Screenshot bildet den Office 365 Groups-Bereich mit den aktivierten Optionen für den Zugriff von Gruppenmitgliedern außerhalb der Organisation auf Gruppeninhalte sowie für das Hinzufügen von Personen außerhalb der Organisation zu Gruppen durch Gruppenbesitzer ab.](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)
+   ![Dieser Screenshot bildet den Office 365 Groups-Bereich mit den aktivierten Optionen für den Zugriff von Gruppenmitgliedern außerhalb der Organisation auf Gruppeninhalte sowie für das Hinzufügen von Personen außerhalb der Organisation zu Gruppen durch Gruppenbesitzer ab.](media/authorize-guest-image3.png)
 
 Diese Einstellungen auf der Ebene der Mandanten anwenden und steuern die Gast Erfahrung in Office 365-Gruppen und Microsoft-Teams.
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Erfahren Sie, was Telefonsystem für Sie möglich ist. '
-ms.openlocfilehash: 511f5892bad23901e30e1e3e1c5feacf43fa97f0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 41694fcc91ccb1d7bdf4df38c39a6554851d2a8f
+ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884245"
+ms.locfileid: "30934780"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Was ist das Telefonsystem in Office 365?
 
@@ -69,7 +69,7 @@ Aufrufen von Pläne (nationalen und nationalen und internationalen) sind in best
 
 - **Aufrufen von Warteschlangen**  Mit Telefonsystem können Sie Anruf Warteschlange Ansage erstellen, die verwendet werden, wenn eine angegebene Rufnummer für Ihre Organisation angerufen werden; Dazu gehört die Möglichkeit, automatisch die Anrufe in die Warteschleife gestellt und die Möglichkeit, suchen Sie nach dem nächsten verfügbaren Anruf-Agent zum Verarbeiten des Anrufs beim die Personen, die Musik in der Warteschleife Anruf hören sind. Sie können einzelne oder mehrere Anruf Warteschlangen für Ihre Organisation erstellen. Finden Sie unter [Erstellen einer Telefonsystem Anruf Warteschleife](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
-- **Voicemail** Wenn für einen Benutzer eine Lizenz Telefonsystem eingeht, wird der Benutzer werden Voicemail abgerufen, die vom Anrufer gelassen wurde. Telefon System Voicemail wird automatisch eingerichtet und für Benutzer bereitgestellt werden, nachdem Sie ihnen eine Lizenz Telefonsystem und eine Telefonnummer zuweisen. Finden Sie unter [Einrichten von Voicemail Telefonsystem](set-up-phone-system-voicemail.md).
+- **Voicemail** Wenn für einen Benutzer eine Lizenz Telefonsystem eingeht, wird der Benutzer werden Voicemail abgerufen, die vom Anrufer gelassen wurde. Cloud-Voicemail wird automatisch eingerichtet und für Benutzer bereitgestellt werden, nachdem Sie ihnen eine Lizenz Telefonsystem und eine Telefonnummer zuweisen. Finden Sie unter [Einrichten von Voicemail Cloud](set-up-phone-system-voicemail.md).
 
 Wenn Sie loslegen sind, finden Sie unter [Setting up Telefonsystem in Ihrer Organisation](setting-up-your-phone-system.md).
 
