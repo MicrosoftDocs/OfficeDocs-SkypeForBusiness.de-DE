@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Ihre IT-Administrator kann den Zugriff durch andere Domänen (Verbund) können Benutzer über diese Domänen Teams teilnehmen konfigurieren.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97b322969d3975b6f9ca2b2079d46fe95ef45e52
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b04b125f5cb998c71f161bf31809a39097accf6c
+ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459924"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955022"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Verwaltung des externen Zugriffs (Verbund) in Microsoft Teams
 ======================================================
@@ -56,7 +56,7 @@ Finden Sie in der folgenden Tabelle einen Vergleich von externen und Gast-Funkti
 <sup>2</sup> nur per e-Mail oder Adresse Session Initiation Protocol (SIP).<br>
 <sup>3</sup> externe (Verbund) Chat ist 1:1.
 
-## <a name="turn-on-or-turn-off-external-access"></a>Aktivieren Sie oder deaktivieren Sie des externen Zugriffs
+## <a name="turn-on-or-turn-off-external-access-users-can-communicate-with-skype-for-business-and-teams-users"></a>Aktivieren Sie oder deaktivieren Sie des externen Zugriffs (Benutzer können mit Skype für Unternehmen und Teams kommunizieren)
 
 Die Microsoft-Teams & Skype für Business Admin Center können Sie um externen Zugriff zu verwalten.
 
@@ -64,7 +64,7 @@ Die Microsoft-Teams & Skype für Business Admin Center können Sie um externen Z
 
      ![Screenshot des externen Zugriff für die gesamte Org-Einstellungen](media/manage-external-access-1.png).
 
-2. Bringen Sie den **externen Zugriff** Schalter zum **ein-** oder **Ausschalten**.
+2. Bringen Sie den Schalter **können Benutzer mit Skype für Unternehmen und Teams kommunizieren** , **aktiviert** oder **deaktiviert**.
 
      ![Screenshot des externen Zugriffs Switch eingeschaltet](media/manage-external-access-2.png).
 
