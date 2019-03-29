@@ -1,14 +1,12 @@
-Teams vollständig unterstützt die folgenden Internetbrowser mit Ausnahmefällen.
+Teams unterstützt die folgenden Internet-Browser mit den beschriebenen Ausnahmen vollständig.
 
-|Browser  |Notizen  |
+|Browser  |Hinweise  |
 |---------|---------|
-|Internet Explorer 11     |   Anruf- und Besprechungen werden nicht unterstützt. Benutzer, die versuchen, teilnehmen an einer Besprechung auf Internet Explorer 11 werden auf den Desktopclient Teams herunterladen weitergeleitet.      |
-|Microsoft Edge    |Anruf- und Besprechungen auf Edge-RS2 oder höher unterstützt |
-|Chrome, die neueste Version sowie zwei früheren Versionen     | Besprechungen auf Chrome 59 oder höher unterstützt<br>  Unterstützung für den Aufruf von wird in Kürze zur Verfügung     |
-|Firefox, die neueste Version plus zwei früheren Versionen     |   Anruf- und Besprechungen werden nicht unterstützt. Benutzer, die versuchen, teilnehmen an einer Besprechung auf Firefox werden auf den Desktopclient Teams herunterladen weitergeleitet.       |
+|Internet Explorer 11     |   Anrufen und Besprechungen werden nicht unterstützt. Benutzer, die versuchen, einer Besprechung mit Internet Explorer 11 beizutreten, werden aufgefordert, den Microsoft Teams-Desktopclient herunterzuladen.      |
+|Microsoft Edge    |Anrufe und Besprechungen werden von Edge RS2 oder höher unterstützt. |
+|Chrome (neueste Version sowie die zwei vorhergehenden Versionen)     | Besprechungen werden auf Chrome 59 oder höher unterstützt.<br>  Unterstützung für Anrufe ist in Kürze verfügbar     |
+|Firefox (neueste Version sowie die zwei vorhergehenden Versionen)     |   Anrufen und Besprechungen werden nicht unterstützt. Benutzer, die versuchen, einer Besprechung mit Firefox beizutreten, werden aufgefordert, den Teams-Desktopclient herunterzuladen.       |
+|Safari 11.1+     |   Safari ist in den Versionen höher als 11.1 in der Vorschau aktiviert. Während der Vorschauphase gibt es [bekannte Probleme](https://support.office.com/article/safari-browser-support-1aac0a7c-35a8-42c1-a7df-f674afe234df) mit der Intelligent Tracking Prevention von Safari.|
 
 > [!NOTE]
-> Safari wird zurzeit nicht unterstützt. Neuigkeiten zu den neuen Funktionen in Microsoft Teams finden Sie in der [Microsoft Teams-Roadmap](https://aka.ms/TeamsRoadmap). Benutzer, die Microsoft Teams in Safari zu öffnen versuchen, werden aufgefordert, den Microsoft Teams-Desktopclient herunterzuladen.
-
-> [!NOTE]
-> Solange die unterstützten Browser-Teams ein Betriebssystems ausgeführt werden können, werden unterstützt. Firefox auf das Linux-Betriebssystem ausgeführt wird beispielsweise eine Option für die Verwendung von Teams.
+> Solange das Betriebssystem den unterstützten Browser ausführen kann, wird Teams unterstützt. So kann zum Beispiel Firefox unter Linux für Teams verwendet werden.
