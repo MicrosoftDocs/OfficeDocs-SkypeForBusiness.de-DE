@@ -187,26 +187,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-## [Cloud-Video-Interoperabilität](cloud-video-interop.md)
-
-## Liveereignisse
-### [Was sind Teams-Liveereignisse?](teams-live-events/what-are-teams-live-events.md)
-### [Planen von Teams-Liveereignissen](teams-live-events/plan-for-teams-live-events.md)
-### [Einrichten von Teams-Liveereignissen](teams-live-events/set-up-for-teams-live-events.md)
-### [Verwenden von PowerShell zum Festlegen von Richtlinien für Teams-Liveereignisse](teams-live-events/set-teams-live-events-policies-using-powershell.md)
-### [Konfigurieren der Teams-Einstellungen für Liveereignisse](teams-live-events/configure-teams-live-events.md)
-
-<!-- ============================================================ -->
-
 ### Referenz
 #### [In Audiokonferenzen unterstützte Sprachen](audio-conferencing-supported-languages.md)
 
@@ -305,6 +285,26 @@
 <!-- ============================================================ -->
 
 
+
+
+
+
+
+
+
+## [Cloud-Video-Interoperabilität](cloud-video-interop.md)
+
+## Liveereignisse
+### [Was sind Teams-Liveereignisse?](teams-live-events/what-are-teams-live-events.md)
+### [Planen von Teams-Liveereignissen](teams-live-events/plan-for-teams-live-events.md)
+### [Einrichten von Teams-Liveereignissen](teams-live-events/set-up-for-teams-live-events.md)
+### [Verwenden von PowerShell zum Festlegen von Richtlinien für Teams-Liveereignisse](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+### [Konfigurieren der Teams-Einstellungen für Liveereignisse](teams-live-events/configure-teams-live-events.md)
+
+<!-- ============================================================ -->
+
+
+
 # [Cloud Voice](cloud-voice-landing-page.md)
 ## Telefonsystem
 ### [Was ist das Telefonsystem?](what-is-phone-system-in-office-365.md)
@@ -312,7 +312,7 @@
 ### [Einrichten des Telefonsystems](setting-up-your-phone-system.md)
 ### [Einrichten von Telefonen in öffentlichen Bereichen](set-up-common-area-phones.md)
 ### Voicemail
-#### [Einrichten von Voicemail für das Telefonsystem](set-up-phone-system-voicemail.md)
+#### [Einrichten von Cloudvoicemail](set-up-phone-system-voicemail.md)
 #### [Ändern der Standardsprache für Voicemail](change-the-default-language-for-greetings-and-emails.md)
 #### [Sprachen für Voicemail-Ansagen und -Nachrichten](languages-for-voicemail-greetings-and-messages.md)
 ### Anrufer-ID
