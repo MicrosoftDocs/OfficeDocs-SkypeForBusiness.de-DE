@@ -1,5 +1,5 @@
 ---
-title: Voicemail für Telefonsystem
+title: Cloudvoicemail
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,14 +17,14 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom: None
-description: Informationen Sie zu Telefonsystem Voicemail.
-ms.openlocfilehash: 69e0908552149ff171d41961d8721b4a4f6ab615
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+description: Informationen Sie zu Cloud Voicemail.
+ms.openlocfilehash: 6c224d3b00234bc65f724f7c255049b3be9edbe8
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856419"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948133"
 ---
-# <a name="phone-system-voicemail"></a><span data-ttu-id="1b8c8-103">Voicemail für Telefonsystem</span><span class="sxs-lookup"><span data-stu-id="1b8c8-103">Phone System voicemail</span></span>
+# <a name="cloud-voicemail"></a><span data-ttu-id="12718-103">Cloudvoicemail</span><span class="sxs-lookup"><span data-stu-id="12718-103">Cloud Voicemail</span></span>
 
 
