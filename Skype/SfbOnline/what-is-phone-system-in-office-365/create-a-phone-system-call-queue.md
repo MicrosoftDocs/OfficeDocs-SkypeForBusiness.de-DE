@@ -1,7 +1,7 @@
 ---
 title: Erstellen einer Anrufwarteschleife für das Telefonsystem
-author: CarolynRowe
-ms.author: crowe
+author: Jambirk
+ms.author: jambirk
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -21,12 +21,12 @@ f1keywords: ms.teamsadmincenter.callqueues.overview
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 204959e68fa398300352e477fc7e78ea870aa359
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: c76f7e00c8c12e79c0dc333e05d4ccb0ca75266a
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664630"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952351"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Erstellen einer Anrufwarteschleife für das Telefonsystem
 
@@ -173,7 +173,7 @@ Klicken Sie in der **Microsoft-Teams, Administrationscenter**auf ![Sfb-Logo-30x3
 ![Nummer 2](../images/sfbcallout2.png)<br/><br/>**Wenn die maximale Anzahl von Anrufen erreicht wird** Wenn die Anruf Warteschlange die maximale Größe (unter Verwendung der Einstellung **Maximum von Anrufen in der Warteschlange** festgelegt) erreicht, können Sie auswählen, was passiert, um neue eingehende Anrufe.
 * **Mit Besetztzeichen trennen**: Der Anruf wird getrennt.
 * **In diesem Anruf weiterleiten an** Wenn Sie diese Option wählen, müssen Sie diese Optionen:
-  * **Person in Ihrem Unternehmen** Ein Online-Benutzer mit einer Lizenz **Telefonsystem** und für Enterprise-VoIP aktiviert sein oder aufrufen planen. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen Sie eine **Person in Ihrem Unternehmen** , und legen Sie diese Person ihre Anrufe an die Voicemail weitergeleitet werden. <br/> <br/>Informationen zur erforderlichen Lizenzierung für Voicemail finden Sie unter [Einrichten von Telefonsystem-Voicemail](/microsoftteams/set-up-phone-system-voicemail). 
+  * **Person in Ihrem Unternehmen** Ein Online-Benutzer mit einer Lizenz **Telefonsystem** und für Enterprise-VoIP aktiviert sein oder aufrufen planen. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen Sie eine **Person in Ihrem Unternehmen** , und legen Sie diese Person ihre Anrufe an die Voicemail weitergeleitet werden. <br/> <br/>Informationen zur Lizenzierung für Voicemail erforderlich sind, finden Sie unter [Einrichten von Voicemail Cloud](/microsoftteams/set-up-phone-system-voicemail). 
 
     > [!Note]
     > Benutzer gehostet: lokal mit Lync Server 2010 werden nicht unterstützt.<br/>
@@ -187,7 +187,7 @@ Klicken Sie in der **Microsoft-Teams, Administrationscenter**auf ![Sfb-Logo-30x3
 ![Nummer 4](../images/sfbcallout4.png)<br/><br/>**Wenn das Zeitlimit eines Anrufs überschritten ist**: Wenn der Anruf das Limit erreicht, das Sie für die Einstellung **Wie lange ein Anruf in der Warteschlange warten kann** festgelegt haben, können Sie auswählen, was mit den in der Anrufwarteschleife wartenden Anrufen geschieht:
 * **Trennen**: Der Anruf wird getrennt.
 * **In diesem Anruf weiterleiten an** Wenn Sie diese Option wählen, müssen Sie diese Optionen:
-  * **Person in Ihrem Unternehmen** Ein Online-Benutzer mit einer Lizenz **Telefonsystem** und für Enterprise-VoIP aktiviert sein oder plant aufrufen. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen Sie eine **Person in Ihrem Unternehmen** , und legen Sie diese Person ihre Anrufe an die Voicemail weitergeleitet werden. </br><br/>  Informationen zur erforderlichen Lizenzierung für Voicemail finden Sie unter [Einrichten von Telefonsystem-Voicemail](/microsoftteams/set-up-phone-system-voicemail). 
+  * **Person in Ihrem Unternehmen** Ein Online-Benutzer mit einer Lizenz **Telefonsystem** und für Enterprise-VoIP aktiviert sein oder plant aufrufen. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen Sie eine **Person in Ihrem Unternehmen** , und legen Sie diese Person ihre Anrufe an die Voicemail weitergeleitet werden. </br><br/>  Informationen zur Lizenzierung für Voicemail erforderlich sind, finden Sie unter [Einrichten von Voicemail Cloud](/microsoftteams/set-up-phone-system-voicemail). 
 
     > [!Note]
     > Benutzer gehostet: lokal mit Lync Server 2010 werden nicht unterstützt.<br/>

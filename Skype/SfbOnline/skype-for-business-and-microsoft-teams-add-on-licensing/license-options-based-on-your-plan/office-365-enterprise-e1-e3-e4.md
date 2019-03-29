@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Erfahren Sie mehr über Add-On-Lizenzen, Funktionen und Informationen zum Kauf von Office 365 Enterprise, Plan E1, E3 und E4. '
-ms.openlocfilehash: 0ff3a0cb4ff29f98dd5a3b69490eeb2c9a513eaa
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 74518e09344136e399ed0307ff7bff110ac8e9d9
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120307"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948205"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 und E4
 
@@ -37,7 +37,7 @@ Wenn Sie die [Office 365 Enterprise E1](https://products.office.com/en-us/busine
 |**Audiokonferenz** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |**Audiokonferenzen** Add-On <br/>Wenn Sie die Lizenz kaufen, wird Microsoft Ihr Audiokonferenzanbieter. |
 |**Gebührenfreie Nummern für DFÜ-Zugriff auf Ihre Besprechungen und die Möglichkeit anwählen aus einer Besprechung auf jemanden hinzufügen, indem eine Telefonnummer in der ganzen Welt** <br/> |[Guthaben für Kommunikationen](/microsoftteams/add-funds-and-manage-communications-credits)|
 |**Telefonsystem** <br/> |1. **Office 365 Telefonsystem** Add-on <br/> 2. Anrufpläne: Kaufen Sie einen [Anrufplan](/MicrosoftTeams/calling-plans-for-office-365) von Office 365. <br/>  Oder verwenden Sie den [Telefondienst Ihres bestehenden Anbieters](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|**Voicemail für Telefonsysteme** <br/> |Kaufen Sie Exchange Online Plan 2 für E1- und E4-Pläne. <br/>Sie können auch zu einer im Lieferumfang von Exchange Online Plan 2 enthaltenen Office Suite wechseln, zum Beispiel zu Office 365 E3. |
+|**Cloudvoicemail** <br/> |Kaufen Sie Exchange Online Plan 2 für E1- und E4-Pläne. <br/>Sie können auch zu einer im Lieferumfang von Exchange Online Plan 2 enthaltenen Office Suite wechseln, zum Beispiel zu Office 365 E3. |
 |**Anrufpläne** <br/> |1. **Telefonsystem** Add-on <br/> 2. [Anrufplan](/MicrosoftTeams/calling-plans-for-office-365): Sie können diesen nur erwerben, nachdem Sie das **Telefonsystem** Add-On gekauft haben. <br/> |
    
   

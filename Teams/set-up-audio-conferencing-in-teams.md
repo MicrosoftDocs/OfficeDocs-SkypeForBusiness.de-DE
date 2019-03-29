@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Informationen Sie zum Einrichten von einwählen oder Audiokonferenz für die Personen in Ihrem Unternehmen, die ein Telefon zum Teilnehmen an Telefonkonferenzen verwenden müssen. '
-ms.openlocfilehash: c5925677889d9a81e15ccb15494163fd28c14639
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 30e79282f04c2d1b4dc7ff01673461b7a18254fd
+ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30635521"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955030"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Einrichten von Audiokonferenzen für Microsoft-Teams
 
@@ -51,7 +51,7 @@ Gehen Sie auf [Länder- und Regionenverfügbarkeit für Audiokonferenzen und Anr
     >[!NOTE] 
     > Audiokonferenzen ist in Office 365 Enterprise E5 Lizenzen und als Add-on enthalten.
         
-2. Nachdem Sie die Audiokonferenz-Lizenzen erworben haben, müssen Sie diese den Personen in Ihrer Organisation zuweisen, die Besprechungen planen oder leiten werden. Finden Sie unter [Zuweisen von Lizenzen für Benutzer in Office 365 für Unternehmen](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) Sie erworben haben, um die Personen in Ihrer Organisation, die Besprechungen planen oder Lead gesendet werden.
+2. Nachdem Sie die Audiokonferenz Lizenzen erwerben möchten, müssen Sie diese Personen in Ihrer Organisation zu planen, oder führen Besprechungen, die zuordnen. Finden Sie unter [Zuweisen von Lizenzen für Benutzer in Office 365 für Unternehmen](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) Sie erworben haben, um die Personen in Ihrer Organisation, die Besprechungen planen oder Lead gesendet werden.
     
 3. Wir empfehlen auch, dass Sie Guthaben für Kommunikations-Lizenzen (sie kosten nichts) denselben Personen zuweisen, denen Sie im vorherigen Schritt Lizenzen zugewiesen haben. Weitere Informationen zum Guthaben für Kommunikationen finden Sie unter [Einrichten von Guthaben für Kommunikationen für Ihr Unternehmen](set-up-communications-credits-for-your-organization.md).
     

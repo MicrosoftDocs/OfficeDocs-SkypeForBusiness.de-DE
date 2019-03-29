@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Zielseite für die Bereitstellung von Cloud-VoIP in Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b9398e7a468c023949a0b7079d2924a9e1f0924
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: abc8d3e552820ee93b5ccd1fc968e914ac5287ba
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664918"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948377"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Cloud Voice in Microsoft Teams
 
@@ -85,11 +85,11 @@ Sie möchten die Einstellungen für den folgenden ändern basierend auf Ihrer Or
 
 ### <a name="voicemail"></a>Voicemail
 
-Telefon System Voicemail, unterstützt von Azure Voicemail-Dienste unterstützt Voicemail bandbreitenbeschränkungen zu nur Exchange-Postfächern und Drittanbieter-e-Mail-Systemen nicht unterstützt. Voicemail für Telefonsysteme umfasst Voicemailtranskription. Diese Funktion ist standardmäßig für alle Benutzer in Ihrer Organisation aktiviert. Ihre geschäftsanforderungen erfordern möglicherweise, Voicemail Lautschrift für bestimmte Benutzer oder alle Benutzer in der gesamten Organisation zu deaktivieren.
+Cloud-Voicemail, unterstützt von Azure Voicemail-Dienste unterstützt Voicemail bandbreitenbeschränkungen zu nur Exchange-Postfächern und Drittanbieter-e-Mail-Systemen nicht unterstützt. Cloud-Voicemail enthält Voicemail Lautschrift, die standardmäßig für alle Benutzer in Ihrer Organisation aktiviert ist. Ihre geschäftsanforderungen erfordern möglicherweise, Voicemail Lautschrift für bestimmte Benutzer oder alle Benutzer in der gesamten Organisation zu deaktivieren.
 
 |Frage|Aktion |
 |:------------|:-------|
-| Möchte ich Telefonsystem Voicemail aktivieren? | Voicemail-Setup-Verfahren finden Sie unter [Einrichten von Voicemail Telefonsystem](set-up-phone-system-voicemail.md).
+| Möchte ich Cloud Voicemail aktivieren? | Voicemail-Setup-Verfahren finden Sie unter [Einrichten von Voicemail Cloud](set-up-phone-system-voicemail.md).
 | Möchte ich Voicemail Lautschrift für einige oder alle Benutzer aktivieren? | Um Voicemail Lautschrift deaktivieren, finden Sie unter [Festlegen von Voicemail Richtlinien in Ihrer Organisation](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
 |||
 

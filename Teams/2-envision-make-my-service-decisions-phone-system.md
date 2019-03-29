@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d473408b054d1e7a89ad5ce27c1686cce181d9e
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 98a66e0335daf0e74c96d0a2dad18f89bd1f4c5f
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568688"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948187"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -128,14 +128,14 @@ Weitere Informationen zum notfallstandorten im Verhältnis zum Aufrufen von plan
 
 ## <a name="voicemail"></a>Voicemail
 
-Telefon System Voicemail, unterstützt von Azure Voicemail-Dienste unterstützt Voicemail bandbreitenbeschränkungen zu nur Exchange-Postfächern und Drittanbieter-e-Mail-Systemen nicht unterstützt.
+Cloud-Voicemail, unterstützt von Azure Voicemail-Dienste unterstützt Voicemail bandbreitenbeschränkungen zu nur Exchange-Postfächern und Drittanbieter-e-Mail-Systemen nicht unterstützt.
 
-Die Standardeinstellung ist Telefonsystem Voicemail mit Exchange Online; Es wurde jedoch eine minimale unterstützte Exchange lokale Version und Bereitstellungsmodell um Übermittlung von Voicemailnachrichten auf Benutzerpostfächer in der lokalen Exchange-Bereitstellung zu ermöglichen.
+Die Standardeinstellung ist Cloud Voicemail mit Exchange Online; Es wurde jedoch eine minimale unterstützte Exchange lokale Version und Bereitstellungsmodell um Übermittlung von Voicemailnachrichten auf Benutzerpostfächer in der lokalen Exchange-Bereitstellung zu ermöglichen.
 
-Voicemail für Telefonsysteme umfasst Voicemailtranskription. Diese Funktion ist standardmäßig für alle Benutzer in Ihrer Organisation aktiviert. Ihre geschäftsanforderungen erfordern möglicherweise, Voicemail Lautschrift für bestimmte Benutzer oder alle Benutzer in der gesamten Organisation zu deaktivieren. Wenn Ihre Organisation aktiviert Voicemail Lautschrift behalten, müssen Sie auch bedenken, ob Voicemail Lautschrift Gotteslästerung Maskierung aktiviert werden müssen. Einzelheiten finden Sie unter [Festlegen von Voicemail Richtlinien in Ihrer Organisation](set-up-phone-system-voicemail.md) .
+Cloud-Voicemail enthält Voicemail Lautschrift, die standardmäßig für alle Benutzer in Ihrer Organisation aktiviert ist. Ihre geschäftsanforderungen erfordern möglicherweise, Voicemail Lautschrift für bestimmte Benutzer oder alle Benutzer in der gesamten Organisation zu deaktivieren. Wenn Ihre Organisation aktiviert Voicemail Lautschrift behalten, müssen Sie auch bedenken, ob Voicemail Lautschrift Gotteslästerung Maskierung aktiviert werden müssen. Einzelheiten finden Sie unter [Festlegen von Voicemail Richtlinien in Ihrer Organisation](set-up-phone-system-voicemail.md) .
 
 >[!NOTE]
-> Als Ausweichmechanismus kann Voicemail für Telefonsysteme Nachrichten über SMTP erneut senden. Das bedeutet, dass Benutzer mit einem Postfach in einem E-Mail-System eines Drittanbieters ihre Voicemailnachrichten erhalten. Dieser Mechanismus umfasst nicht garantiert Service Betriebszeit oder andere Voicemail-Features, beispielsweise Voicemail-Ansage ändern.
+> Ein Sicherungsmechanismus wurde implementiert, sodass Cloud Voicemail Nachrichten mithilfe von SMTP, was bedeutet, dass Benutzer mit einem Postfach auf einem Drittanbieter-e-Mail-System erhalten ihre Voicemail-Nachrichten senden können. Dieser Mechanismus umfasst nicht garantiert Service Betriebszeit oder andere Voicemail-Features, beispielsweise Voicemail-Ansage ändern.
 
 Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden Sie unter [Telefonsystem mit plant aufrufen](calling-plan-landing-page.md).
 
@@ -143,11 +143,11 @@ Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Sie in der Implementierung aufrufen plant Telefonsystem Voicemail ermöglichen.</li><li>Wenn Exchange lokal und Ihre vorhandene Bereitstellung mit Ihren Anforderungen zur Unterstützung von Telefonsystem Voicemail nicht erfüllt, wählen Sie aus den verfügbaren Optionen (aktualisieren und für die Unterstützung von Telefonsystem Voicemail Einrichtung, Migrieren zu Exchange Online oder Nutzung der Fallback-Mechanismus wie oben beschrieben).</li><li>Entscheiden Sie, ob Sie aktivieren oder Lautschrift Voicemail und Voicemail Lautschrift Gotteslästerung Maskierung in der gesamten Organisation oder für bestimmte Benutzer deaktivieren benötigen.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Falls zutreffend, dokumentieren Sie die Exchange-Entscheidungspunkte zur Unterstützung der Telefonsystem Voicemail.</li><li>Wenn Sie aktivieren/Voicemail, Lautschrift Voicemail und Voicemail Lautschrift Gotteslästerung Maskierung nur für bestimmte Benutzer deaktivieren müssen, dokumentieren Sie dieser Liste von Benutzern.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Sie in der Implementierung aufrufen plant Cloud Voicemail aktivieren werden.</li><li>Wenn Exchange lokal und Ihre vorhandene Bereitstellung mit Ihren Anforderungen zur Unterstützung von Cloud-Voicemail nicht erfüllt, wählen Sie aus den verfügbaren Optionen (Upgrade und Setup für die Unterstützung von Voicemail Cloud Migrieren zu Exchange Online oder Nutzung das Fallback Mechanismus, wie oben beschrieben).</li><li>Entscheiden Sie, ob Sie aktivieren oder Lautschrift Voicemail und Voicemail Lautschrift Gotteslästerung Maskierung in der gesamten Organisation oder für bestimmte Benutzer deaktivieren benötigen.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Falls zutreffend, dokumentieren Sie die Exchange-Entscheidungspunkte zur Unterstützung der Cloud Voicemail.</li><li>Wenn Sie aktivieren/Voicemail, Lautschrift Voicemail und Voicemail Lautschrift Gotteslästerung Maskierung nur für bestimmte Benutzer deaktivieren müssen, dokumentieren Sie dieser Liste von Benutzern.</li></ul>|
 
 > [!TIP]
-> Telefon System Voicemail Details für das Telefonsystem mit Implementierung plant aufrufen können wie folgt dokumentiert werden.
+> Cloud-Voicemail-Details für das Telefonsystem mit Aufrufen plant Implementierung wie folgt dokumentiert werden kann.
 > 
 > |User |Exchange-Postfach |Aktivieren Sie Voicemail? |Voicemail Lautschrift |Voicemail Lautschrift Gotteslästerung-Maskierung |
 > |------------------|------------------|-------------------|----------|----------|

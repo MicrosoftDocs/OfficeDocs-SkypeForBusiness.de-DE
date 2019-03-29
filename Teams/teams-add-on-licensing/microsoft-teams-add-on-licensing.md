@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Informationen zu den Add-on-Lizenzen, was Sie features erhalten mit jeder Lizenz, wie sie für Ihr Produkt kaufen und wie Sie mit Ihren vorhandenen Netzbetreiber mit ihnen. Erhalten Sie Informationen über Preise und Plan Details für Office 365 Kommunikation haben, und plant aufrufen.
-ms.openlocfilehash: 8b3e68fe89f2a7f07f5f117d60c2a74327a891ca
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 9413a8384aadc08d77bf16bf155d12a8edad9447
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633226"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948369"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Lizenzierung für Microsoft Teams-Add-On
 
@@ -95,7 +95,7 @@ Eine ausführliche Dokumentation für die Planung Ihrer bereitstellungs, einschl
 
 - [Einrichten von Teams](../microsoft-teams.md)
     
-- [Einrichten von Voicemail für das Telefonsystem – Administratorhilfe](../set-up-phone-system-voicemail.md)
+- [Einrichten von Voicemail von Cloud - Admin-Hilfe](../set-up-phone-system-voicemail.md)
     
 - [Für Office 365-Pläne aufrufen](../calling-plans-for-office-365.md) und [Einrichten von Aufrufen-Pläne](../set-up-calling-plans.md)
     

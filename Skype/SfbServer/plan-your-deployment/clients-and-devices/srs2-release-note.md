@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2.
-ms.openlocfilehash: b3e6a6341e917b49eed6f1c89dcadfe29bcdaf10
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 8de76d085bad4ec8fc7c52c0f46a416d9b1cac82
+ms.sourcegitcommit: 0ea63f45cb31852fea6894cc6ffb0ae1ae444e64
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891599"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30950256"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version 
 
@@ -61,7 +61,7 @@ In diesem Update eingeführt:
 
 ### <a name="40760-03042019"></a>4.0.76.0 (04/03/2019)
 In diesem Update eingeführt:
-- DTMF-Tastatur für Microsoft-Teams, Besprechungen. Damit Microsoft-Teams, der Standardclient für aufrufen können, müssen Administratoren IsTeamsDefaultClient auf True festgelegt.
+- DTMF-Tastatur für Microsoft-Teams P2P Besprechungen und PSTN-Anrufe. Damit Microsoft-Teams, der Standardclient für aufrufen können, müssen Administratoren IsTeamsDefaultClient auf True festgelegt.
 - Anheften eines remote Teilnehmers eingehendes Video Vollbildmodus auf Raum Anzeige am Anfang. Verwenden Sie Befehl "Anheften" aus der Teilnehmerliste der Teilnehmer in der Konsole
 - Verbesserungen an Wartebereich Benachrichtigungen durch Hinzufügen von Front-Chatroom-Benachrichtigung
 - Am Anfang Raum Anzeige entfernt Casting-Symbol, wenn Bluetooth-Signal auf Raum Systemgerät nicht aktiviert ist

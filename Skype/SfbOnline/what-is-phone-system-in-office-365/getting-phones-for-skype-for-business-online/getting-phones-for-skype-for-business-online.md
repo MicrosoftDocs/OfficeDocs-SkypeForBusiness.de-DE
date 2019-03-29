@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: 8b218161268855a1b89aa54fd0e40c4b308db40d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: e79c942923e9a9d4d0df0bc18172eb10caff57bc
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371565"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952397"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Kauf von Telefonen für Skype for Business Online
 
@@ -56,7 +56,7 @@ Weitere Informationen zu Yealink Telefone finden Sie unter [Skype für Business 
 Weitere Details zu AudioCodes-Telefonen finden Sie unter [IP-Telefone für Skype for Business](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
 > [!NOTE]
-> Lync Phone Edition wird mit Skype für Business Online, aber nicht mit Microsoft-Teams, unterstützt. Mainstream-Support für die Plattform LPE beendet vom April/10/2014 mit erweiterten Support bis April/11/2023 zurück an den Produktsupportlebenszyklus von Lync Server 2013 ausgerichtet. Finden Sie für den Lebenszyklus LPE Einzelheiten in der [Microsoft Product Lifecycle](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) . LPE CAP Modelle werden mit Skype für Business Online nicht unterstützt.
+> Lync Phone Edition wird mit Skype für Business Online, aber nicht mit Microsoft-Teams, unterstützt. Mainstream-Support für die Plattform LPE beendet vom April/10/2014 mit erweiterten Support bis April/11/2023 zurück an den Produktsupportlebenszyklus von Lync Server 2013 ausgerichtet. Finden Sie für den Lebenszyklus LPE Einzelheiten in der [Microsoft Product Lifecycle](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) . LPE CAP Modelle werden mit Skype für Business Online nicht unterstützt.
 >
 > Weiter unten in diesem Jahr, wird Office 365 eine beliebige Version von TLS, die älter sind als 1.2 nicht unterstützt. Seit das zugrunde liegenden Betriebssystem des LPE TLS 1.2 nicht unterstützt, wird LPE nicht unterstützt werden, um mehr zu Office 365 herzustellen. Weitere Informationen finden Sie unter [Preparing für die obligatorische Verwendung von TLS 1.2 in Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) .
   
@@ -71,7 +71,9 @@ Für unterstützte Telefone ist die folgende Mindestsoftwareversion erforderlich
 |Zertifizierte Polycom VVX-Serie  <br/> |5.4.0A  <br/> |Dezember 2015  <br/> |
 |Yealink  <br/> |X.8.1.52  <br/> |Februar 2017  <br/> |
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |Dezember 2016  <br/> |
-   
+
+Weitere Informationen zu aktuellen certified-Firmware-Versionen finden Sie unter [Skype für Business IP-Telefone](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones#conference-phones).
+
 > [!NOTE]
 > Telefone mit Lync Phone Edition (LPE), die Sie für die lokale Bereitstellung eingerichtet haben, müssen auf die Mindestversion oder höher der notwendigen Firmware aktualisiert werden, bevor die entsprechenden Benutzer zu Skype for Business Online transferiert werden. Wenn Sie Ihre Benutzer von lokal auf Skype for Business Online transferieren, bevor Sie die Firmware auf den Telefonen aktualisieren, können diese Telefone nicht mit Skype for Business Online verbunden werden. 
   
@@ -88,24 +90,24 @@ Eine vollständige Aufstellung der Gerätefeatures und -funktionen finden Sie in
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Funktion** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
-|Anmelden mit Benutzeranmeldeinformationen  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Anmelden über PC (Kopplung), nur Windows  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Anmelden über Webanmeldung  <br/>  <br/> **Hinweis:** Überprüfen Sie die unterstützbarkeitsmatrix im Bereitstellungshandbuch.           |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Teilnehmen an einer Besprechung mit Einfachklick  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Wählen durch Klicken (Kopplung)  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Besprechungssteuerelemente  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Visuelle Mailbox  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Telefonsperre  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Geräteupdate  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|In-Band-Bereitstellung  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|QoE  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Protokoll-Upload  <br/> <br/> **Hinweis:** Derzeit werden nur die Microsoft-Support-Team alle Protokolle hochgeladen; Kundenzugriffs auf Gesprächsnotizen sind noch nicht verfügbar.           |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Moderne Authentifizierung  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
+|Anmelden mit Benutzeranmeldeinformationen  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Nein  <br/> |
+|Anmelden über PC (Kopplung), nur Windows  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
+|Anmelden über Webanmeldung  <br/>  <br/> **Hinweis:** Überprüfen Sie die unterstützbarkeitsmatrix im Bereitstellungshandbuch.           |Ja   <br/> |Ja   <br/> |Ja   <br/> |Nein  <br/> |
+|Teilnehmen an einer Besprechung mit Einfachklick  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
+|Wählen durch Klicken (Kopplung)  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
+|Besprechungssteuerelemente  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
+|Visuelle Mailbox  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
+|Telefonsperre  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
+|Geräteupdate  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
+|In-Band-Bereitstellung  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|QoE  <br/> |Ja  <br/> |Ja   <br/> |Ja   <br/> |Nein  <br/> |
+|Protokoll-Upload  <br/> <br/> **Hinweis:** Derzeit werden nur die Microsoft-Support-Team alle Protokolle hochgeladen; Kundenzugriffs auf Gesprächsnotizen sind noch nicht verfügbar.           |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
+|Moderne Authentifizierung  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Nein  <br/> |
 |Mehrere Notrufnummern  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Ja  <br/> |
-|Integration von Exchange-Kalendern*  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> <br/> **Hinweis:** Erfordert tethering PC           |
-|Integration von Anwesenheitsfunktionen  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Unternehmensverzeichnis  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Delegierung  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
+|Integration von Exchange-Kalendern*  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> <br/> **Hinweis:** Erfordert tethering PC           |
+|Integration von Anwesenheitsfunktionen  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
+|Unternehmensverzeichnis  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Delegierung  <br/> |Ja  <br/> |Ja   <br/> |Ja   <br/> |Nein  <br/> |
 |Integration von Kontaktbildern  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |
 ||||||
 
@@ -119,7 +121,7 @@ Schrittweise Anweisungen finden Sie unter [Bereitstellen von Telefonen für Skyp
 ## <a name="related-topics"></a>Verwandte Themen
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md)
 
-[Das bekommen Sie mit Telefonsystem in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Das Telefonsystem in Office 365 bietet Ihnen Folgendes](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
