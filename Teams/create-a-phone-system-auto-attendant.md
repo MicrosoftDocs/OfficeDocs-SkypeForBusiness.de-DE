@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Informationen Sie zum Einrichten und Testen von Telefonsystem (Cloud, PBX) automatische Telefonzentralen für effiziente Anruf Behandeln von für Ihre Organisation.
-ms.openlocfilehash: ad60bf758c339a801d63e0f8886a9e92329d286a
-ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
+ms.openlocfilehash: 8bf33e911e11ab7561cc09e0cd18f4cfaf314d98
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30952437"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013095"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale des Telefonsystems
 
@@ -37,17 +37,22 @@ Wenn Sie weitere Informationen zu automatischen Telefonzentralen finden möchten
 > [!NOTE]
 > Dieser Artikel bezieht sich auf Microsoft-Teams und Skype für Business Online.
 
+
+
 ## <a name="step-1---get-started"></a>Schritt 1: Erste Schritte
 
-- Bevor Sie erstellen und der automatischen Telefonzentralen, einrichten Wenn die automatische Telefonzentrale eine Rufnummer verfügen können (und viele zweiter Ebene fordert oder automatische Telefonzentralen wird nicht geschachtelt erfordern eine Rufnummer ein) müssen Sie zum Abrufen oder übertragen Ihre vorhandenen gebührenpflichtige oder gebührenfreie Service Zahlen . Nachdem Sie die gebührenpflichtige oder gebührenfreie Service Zahlen erhalten möchten, sie werden angezeigt, auf der **Microsoft-Teams, Administrationscenter** > **VoIP** > Seite**Rufnummern** . Um die Rufnummern Service erhalten möchten, finden Sie unter [Getting Service Rufnummern](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)oder Übertragung und vorhandenen Service-Nummer, finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md). **User (subscriber)** numbers can't be assigned to auto attendants. Wenden Sie sich außerhalb der USA, können das Microsoft-Teams, Administrationscenter Sie Service Zahlen erhalten; Klicken Sie [hier](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- Eine automatische Telefonzentrale ist erforderlich, um ein Ressourcenkonto zugeordneten verfügen. Details auf Ressourcenkonten finden Sie unter [Manage Ressourcenkonten in Teams](manage-resource-accounts.md) .
+- Wenn Sie eine direkte Routing Number zuweisen möchten, müssen Sie erwerben und weisen Sie die folgenden Lizenzen der Ressourcenkonten \(Office 365 Enterprise E1, E3 oder E5, mit dem Telefonsystem Add-on\).
+- Wenn Sie stattdessen eine Microsoft-Dienst Zahl zuordnen möchten, müssen Sie erwerben und weisen Sie Ihr Ressourcenkonto folgenden Lizenzen \(Office 365 Enterprise E1, E3 oder E5, mit dem Telefonsystem Add-on und Aufrufen planen\).
 
-    > [!CAUTION]
-    > Zum Abrufen und gebührenfreien Telefonnummern verwenden, müssen Sie Communications haben einrichten. Hierzu finden Sie [Was sind Communications haben?](what-are-communications-credits.md) und [Communications haben für Ihre Organisation einrichten](set-up-communications-credits-for-your-organization.md).
-  
-- Ihre Organisation muss eine Lizenz Enterprise E3 plus **Telefonsystem** oder einer E5 Enterprise-Lizenz (mindestens) verfügen. Die Anzahl der **Telefonsystem** Benutzerlizenzen, die zugewiesen sind, wirkt sich auf die Anzahl der Dienst Zahlen, die für automatische Telefonzentralen zu verwendende verfügbar sind. Die Nummern der automatischen Telefonzentralen können Ihnen ist abhängig von die Zahlen **Telefonsystem** und **Audiokonferenzen** -Lizenzen, die in Ihrer Organisation zugewiesen sind. Weitere Informationen zu Lizenzierung finden Sie unter [Skype für Business Add-on Lizenzierung](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) oder [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). .
+> [!NOTE] 
+> Microsoft arbeitet eine entsprechende Lizenzierungsmodell für Anwendungen wie Cloud automatische Telefonzentrale und den Anruf-Warteschlangen für an jetzt Sie das Benutzerlizenzierung Objektmodell verwenden müssen.
 
-    > [!TIP]
-    > Zum Umleiten von Anrufen an einen Operator oder eine Menüoption, die ein Benutzer Online mit einer Lizenz **Telefonsystem** ist, müssen Sie für Enterprise-VoIP zu aktivieren oder Aufrufen in Office 365-Pläne ihnen zuweisen. Finden Sie unter [Skype für Business Lizenzen zuweisen](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) oder [Lizenzen für Microsoft-Teams zuweisen](assign-teams-licenses.md). Sie können auch die Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!CAUTION]
+> Zum Abrufen und gebührenfreien Telefonnummern verwenden, müssen Sie Communications haben einrichten. Hierzu finden Sie [Was sind Communications haben?](what-are-communications-credits.md) und [Communications haben für Ihre Organisation einrichten](set-up-communications-credits-for-your-organization.md).
+
+> [!TIP]
+> Zum Umleiten von Anrufen an einen Operator oder eine Menüoption, die ein Benutzer Online mit einer Lizenz **Telefonsystem** ist, müssen Sie für Enterprise-VoIP zu aktivieren oder Aufrufen in Office 365-Pläne ihnen zuweisen. Finden Sie unter [Skype für Business Lizenzen zuweisen](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) oder [Lizenzen für Microsoft-Teams zuweisen](assign-teams-licenses.md). Sie können auch die Windows PowerShell verwenden. Führen Sie beispielsweise Folgendes aus:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## <a name="step-2---create-a-new-auto-attendant"></a>Schritt 2 - Erstellen einer neuen automatischen Telefonzentrale
 
@@ -101,7 +106,7 @@ Als Vermittlung können Sie Folgendes festlegen:
 - **Person in Ihrem Unternehmen** mit einer **Telefonsystem**-Lizenz, die für Enterprise Voice aktiviert oder Anruf-Plänen in Office 365 zugeordnet ist.
 
      > [!Note]
-     > **Die Person in Ihrem Unternehmen** kann ein Online-Benutzer oder ein vor Ort gehosteter Benutzer sein, der den Skype for Business Server 2015 oder den Lync Server 2013 verwendet. Der Lync Server 2010 wird nicht unterstützt.
+     > **Die Person in Ihrem Unternehmen** kann ein Online-Benutzer oder ein vor Ort gehosteter Benutzer sein, der den Skype for Business Server 2015 oder den Lync Server 2013 verwendet.
 
 - Eine **Warteschlange aufrufen** , die Sie eingerichtet haben.
 - Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen Sie **Person in Ihrem Unternehmen** aus, und legen Sie diese Person Anrufe an die Voicemail weitergeleitet werden.
@@ -169,7 +174,7 @@ Sie können auswählen, was mit Anrufen geschieht, die während der Geschäftsze
   - **Person im Unternehmen** mit einer **Telefonsystem** -Lizenz, die für Enterprise Voice aktiviert oder Aufrufen in Office 365-Pläne zugeordnet ist. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen **Person im Unternehmen** aus, und legen Sie diese Person ihre Anrufe an die Voicemail weitergeleitet werden.
 
     > [!Note]
-    > **Person im Unternehmen** kann es sich um ein Online-Benutzer oder ein Benutzer gehostet: lokal mit Skype für Business Server 2015 oder Lync Server 2013. Der Lync Server 2010 wird nicht unterstützt.
+    > **Person im Unternehmen** kann es sich um ein Online-Benutzer oder ein Benutzer gehostet: lokal mit Skype für Business Server 2015 oder Lync Server 2013.
 
    - Eine andere **automatische Telefonzentrale**
 
@@ -332,18 +337,24 @@ Sie können auch Windows PowerShell verwenden, um automatische Telefonzentralen 
 
 Zum Verwalten einer automatischen Telefonzentrale benötigen Sie die folgenden Cmdlets.
 
-|||
-|---  |---  |
-| [New-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796493.aspx) | [New-CsOrganizationalAutoAttendantPrompt](https://technet.microsoft.com/library/mt796484.aspx) |
-| [Set-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796486.aspx) | [New-CsOrganizationalAutoAttendantMenuOption](https://technet.microsoft.com/library/mt796485.aspx) |
-| [Get-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796482.aspx) | [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csorganizationalautoattendantholidays?view=skype-ps) |
-| [Remove-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796492.aspx) | [New-CsOrganizationalAutoAttendantMenu](https://technet.microsoft.com/library/mt796488.aspx) |
-| [New- CsOnlineAudioFile](https://technet.microsoft.com/library/mt796479.aspx) | [New-CsOrganizationalAutoAttendantCallFlow](https://technet.microsoft.com/library/mt796489.aspx) |
-| [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps) | [New-CsOnlineTimeRange](https://technet.microsoft.com/library/mt796491.aspx) |
-| [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) | [New-CsOnlineSchedule](https://technet.microsoft.com/library/mt796490.aspx) |
-| [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://technet.microsoft.com/library/mt796483.aspx) | [New-CsOrganizationalAutoAttendantCallHandlingAssociation](https://technet.microsoft.com/library/mt796487.aspx) |
-| [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://technet.microsoft.com/library/mt796481.aspx) | [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csorganizationalautoattendantholidays?view=skype-ps) |
-| [New-CsOrganizationalAutoAttendantCallableEntity](https://technet.microsoft.com/library/mt796480.aspx) | |
+ 
+- [Neue CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
+- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps) 
+- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant?view=skype-ps) 
+- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps) 
+- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps) 
+- [Neue CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps) 
+- [Neue CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
+- [Neue CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps) 
+- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps) 
+- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps) 
+- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) 
+- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps) 
+- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps) 
+- [Neue CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps) 
+- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps) 
+- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps) 
+- [Neue CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
 
 ### <a name="more-about-windows-powershell"></a>Weitere Informationen zu Windows PowerShell
 
@@ -371,5 +382,4 @@ Zum Verwalten einer automatischen Telefonzentrale benötigen Sie die folgenden C
 
 [Was sind automatische Telefonzentralen des Telefonsystems?](what-are-phone-system-auto-attendants.md)
 
-[Beispiel für Kleinunternehmen – Einrichten einer automatischen Telefonzentrale](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa
-)  
+[Beispiel für Kleinunternehmen – Einrichten einer automatischen Telefonzentrale](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)  

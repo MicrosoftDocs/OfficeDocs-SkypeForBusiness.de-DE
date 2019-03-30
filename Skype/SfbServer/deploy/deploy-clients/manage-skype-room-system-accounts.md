@@ -9,20 +9,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
+ms.collection: M365-voice
 description: Lesen Sie dieses Thema und erfahren Sie, wie Sie Skype Room System-Konten verwalten.
-ms.openlocfilehash: 715eda137395d2133b6b19dee4a9d2336923c13b
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 4c276d4acf0cf15df7689fa5c11a0e6e2cde785b
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699244"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012524"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Verwalten von Skype Room System-Konten
  
 Lesen Sie dieses Thema und erfahren Sie, wie Sie Skype Room System-Konten verwalten. 
 
 > [!NOTE]
-> Skype-Chatroom-Systemen v2 ist ein anderes Produkt mit verschiedenen Abhängigkeiten und Bereitstellungsverfahren. Informationen zu Skype Raum Systemen v2 finden Sie unter Skype Raum Systemen v2 [(Übersicht)](../../manage/skype-room-systems-v2/skype-room-systems-v2.md).
+> Microsoft-Teams Chatrooms ist ein anderes Produkt mit verschiedenen Abhängigkeiten und Bereitstellungsverfahren. Informationen zu Microsoft-Teams Chatrooms finden Sie unter [Übersicht über die Verwaltung](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)in der Microsoft-Teams Chatrooms.
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>Das Systemkonto von Skype Platz zwischen Pools verschieben
 

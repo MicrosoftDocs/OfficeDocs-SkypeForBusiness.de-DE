@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'Zusammenfassung: Übersicht über Enterprise-Client-Installationsmethoden für Skype für Unternehmen.'
-ms.openlocfilehash: 7b58b712f5b6dec7383bcb8a58e1b17b0ed4d870
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 49eff64918deefe2ec169993557dd0f9dfbf6955
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699281"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012539"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Bereitstellen von Clients für Skype für Business Server
  
@@ -51,7 +51,7 @@ In den Themen in diesem Abschnitt wird beschrieben, wie verwenden und Anpassen v
     
 - [Bereitstellen von Skype Room System in Skype for Business Server](deploy-skype-room-system.md)
     
-- [Bereitstellen von Skype Room Systems v2](room-systems-v2.md)
+- [Bereitstellen von Microsoft-Teams, Räume](room-systems-v2.md)
     
 - [Bereitstellen des Lync VDI-Plug-in mit Skype für Business Server](deploy-the-lync-vdi-plug-in.md)
     

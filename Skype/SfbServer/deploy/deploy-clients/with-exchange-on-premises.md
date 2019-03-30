@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen von Skype Room Systems v2 mit lokaler Exchange-Bereitstellung
+title: Bereitstellen von Microsoft-Teams Chatrooms mit Exchange lokal
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,27 +10,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
-description: Lesen Sie dieses Thema bietet Informationen zum Bereitstellen von Skype Raum Systemen v2 in einer hybridumgebung mit Exchange lokal.
-ms.openlocfilehash: 9ebd7463465d8b2fbf11e95d71c8fcb557666b3a
-ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
+ms.collection: M365-voice
+description: Lesen Sie dieses Thema bietet Informationen zum Bereitstellen von Microsoft-Teams Chatrooms in einer hybridumgebung mit Exchange lokal.
+ms.openlocfilehash: b6c10635180d5707982efbc259eca577c45b1638
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30737794"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012517"
 ---
-# <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>Bereitstellen von Skype Room Systems v2 mit lokaler Exchange-Bereitstellung
+# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Bereitstellen von Microsoft-Teams Chatrooms mit Exchange lokal
 
-Lesen Sie dieses Thema bietet Informationen zur Bereitstellung von Skype Raum Systemen v2 in einer hybridumgebung mit Exchange lokal und Skype für Business Online.
+Lesen Sie dieses Thema bietet Informationen zum Bereitstellen von Microsoft-Teams Chatrooms in einer hybridumgebung mit Exchange lokal und Skype für Business Online.
   
-Wenn Ihre Organisation eine Kombination von Diensten, mit einigen an lokalen und online gehostet gehostet hat, wird die Konfiguration abhängen, wo jeden Dienst gehostet wird. In diesem Thema werden für Skype Raum Systemen v2 hybridbereitstellungen mit Exchange lokal gehostet. Da so viele verschiedene Variationen bei dieser Art von Bereitstellung vorhanden sind, ist nicht möglich, detaillierte Informationen für alle bereitzustellen. Der folgende Prozess wird für viele Konfigurationen verwendet werden. Wenn der Vorgang nicht für die Installation die richtige ist, wird empfohlen, dass Sie Windows PowerShell verwenden, um das gleiche Endergebnis zu erzielen, wie hier und für andere Bereitstellungsoptionen dokumentiert.
+Wenn Ihre Organisation eine Kombination von Diensten, mit einigen an lokalen und online gehostet gehostet hat, wird die Konfiguration abhängen, wo jeden Dienst gehostet wird. In diesem Thema werden die hybridbereitstellungen für Microsoft-Teams Chatrooms mit Exchange lokal gehostet. Da so viele verschiedene Variationen bei dieser Art von Bereitstellung vorhanden sind, ist nicht möglich, detaillierte Informationen für alle bereitzustellen. Der folgende Prozess wird für viele Konfigurationen verwendet werden. Wenn der Vorgang nicht für die Installation die richtige ist, wird empfohlen, dass Sie Windows PowerShell verwenden, um das gleiche Endergebnis zu erzielen, wie hier und für andere Bereitstellungsoptionen dokumentiert.
 
-Microsoft bietet [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), eines Skripts, das neue Benutzerkonten erstellen oder vorhandene Ressourcenkonten, mit denen Sie damit können Sie diese in kompatibel Skype Raum Systemen v2-Benutzerkonten aktivieren überprüfen helfen. Auf Wunsch können Sie die Schritte unten, um Geräts v2 Skype Raum Systemen verwendeten Konten zu konfigurieren.
+Microsoft bietet [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), eines Skripts, das neue Benutzerkonten erstellen oder vorhandene Ressourcenkonten, mit denen Sie damit können Sie diese in kompatibel Microsoft Teams Räume-Benutzerkonten aktivieren überprüfen helfen. Auf Wunsch können Sie die Schritte unten, um das Konfigurieren von Konten, mit Ihrem Microsoft-Teams Chatrooms Gerät.
   
 ## <a name="requirements"></a>Voraussetzungen
 
-Bevor Sie Skype Raum Systemen v2 mit Exchange lokal bereitstellen, achten Sie darauf, dass Sie die Anforderungen erfüllt sind. Weitere Informationen finden Sie unter [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
+Vor der Bereitstellung von Microsoft-Teams Chatrooms mit Exchange lokal, achten Sie darauf, dass Sie die Anforderungen erfüllt sind. Weitere Informationen finden Sie unter [Microsoft Teams Chatrooms Requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
   
-Wenn Sie Skype Raum Systemen v2 mit Exchange lokal bereitstellen, werden Sie Active Directory-Verwaltungstools verwenden, um eine e-Mail-Adresse für Ihr Konto der lokalen Domäne hinzufügen. Dieses Konto wird mit Office 365 synchronisiert werden. Sie müssen die folgenden Schritte ausführen:
+Wenn Sie Microsoft-Teams Chatrooms mit Exchange lokal bereitgestellt werden, werden Sie Active Directory-Verwaltungstools verwenden, um eine e-Mail-Adresse für Ihr Konto der lokalen Domäne hinzufügen. Dieses Konto wird mit Office 365 synchronisiert werden. Sie müssen die folgenden Schritte ausführen:
   
 - Erstellen Sie ein Konto, und synchronisieren Sie es mit Active Directory.
 
@@ -42,24 +43,24 @@ Wenn Sie Skype Raum Systemen v2 mit Exchange lokal bereitstellen, werden Sie Act
 
   - Sie müssen Ihre Office 365-Plan Skype für Business Online (Plan 2) oder höher sein. Der Plan muss die Konferenzfunktion unterstützen.
   
-  - - Wenn Sie Enterprise-VoIP (PSTN-Telefonie) benötigen benötigen Telefoniedienstanbieter für Skype Raum Systemen v2 verwenden Sie Skype für Business Online (Plan 3).
+  - - Wenn Sie Enterprise-VoIP (PSTN-Telefonie) benötigen benötigen Telefoniedienstanbieter für Microsoft-Teams Chatrooms verwenden Sie Skype für Business Online (Plan 3).
   
   - - Die Mandanten-Benutzer müssen Exchange-Postfächer haben.
   
-  - - Ihr Skype Raum Systemen v2 Konto erfordert einen Skype für Business Online (Plan 2) oder Skype für Business Online (Plan 3)-Lizenz, aber keine Exchange Online-Lizenz erforderlich.
+  - - Ihr Microsoft-Teams Chatrooms Konto erfordert einen Skype für Business Online (Plan 2) oder Skype für Business Online (Plan 3)-Lizenz, aber keine Exchange Online-Lizenz erforderlich.
 
-- Ihr Skype Raum Systemen v2 Konto einen Skype für Business Server-Lizenz zuweisen.
+- Weisen Sie Ihr Konto Microsoft Teams Chatrooms einen Skype für Business Server-Lizenz.
 
 ### <a name="create-an-account-and-synchronize-with-active-directory"></a>Erstellen Sie ein Konto, und synchronisieren Sie es mit Active Directory.
 
-1. Im **Active Directory-Benutzer und-Computer AD** -Tool mit der rechten Maustaste auf den Ordner oder die Organisationseinheit, dass die Skype Raum Systeme v2-Konten erstellt werden, klicken Sie auf **neu**, und klicken Sie dann auf **Benutzer**.
+1. Im **Active Directory-Benutzer und-Computer AD** -Tool mit der rechten Maustaste auf den Ordner oder die Organisationseinheit, dass Ihre Microsoft Teams Räume-Konten erstellt werden, klicken Sie auf **neu**, und klicken Sie dann auf **Benutzer**.
 
 2. Geben Sie den Anzeigenamen aus dem vorherigen Cmdlet in das Feld **Vollständiger Name** und den Alias in das Feld **Benutzeranmeldename** ein. Klicken Sie auf **Weiter**.
 
 3. Geben Sie das Kennwort für dieses Konto ein. Sie müssen das Kennwort zur Bestätigung erneut eingeben. Stellen Sie sicher, dass als einzige Option das Kontrollkästchen **Kennwort läuft nie ab** aktiviert ist.
 
     > [!NOTE]
-    > Auswählen von **Kennwort läuft nie ab** ist eine Voraussetzung für Skype für Business Server auf Skype Raum Systemen v2. Möglicherweise verhindern Ihre Domänenregeln nicht ablaufende Kennwörter. In diesem Fall müssen Sie eine Ausnahme für jedes Skype Raum Systemen v2 Gerät Konto erstellen.
+    > Auswählen von **Kennwort läuft nie ab** ist eine Voraussetzung für Skype für Business Server auf Microsoft Teams Chatrooms. Möglicherweise verhindern Ihre Domänenregeln nicht ablaufende Kennwörter. In diesem Fall müssen Sie eine Ausnahme für jedes Microsoft Teams Chatrooms Gerät Konto erstellen.
   
 4. Führen Sie nach der Erstellung des Kontos eine Verzeichnissynchronisierung aus. Wenn es abgeschlossen ist, wechseln Sie zu der Benutzerseite in Ihrer Office 365 Administrationscenter, und stellen Sie sicher, dass das Konto in den vorherigen Schritten erstellten online zu zusammengeführt wurde.
 
@@ -135,7 +136,7 @@ Wenn Sie Skype Raum Systemen v2 mit Exchange lokal bereitstellen, werden Sie Act
    Import-PSSession $cssess -AllowClobber
    ```
 
-2. Führen Sie diesen Befehl, um Ihr Skype Raum Systemen v2-Konto für Skype für Business Server zu aktivieren:
+2. Führen Sie diesen Befehl, um Ihr Konto Microsoft Teams Chatrooms für Skype für Business Server zu aktivieren:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
@@ -147,25 +148,25 @@ Wenn Sie Skype Raum Systemen v2 mit Exchange lokal bereitstellen, werden Sie Act
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
-### <a name="assign-a-skype-for-business-license-to-your-skype-room-systems-v2-account"></a>Zuweisen einer Skype for Business-Lizenz zu Ihrem Skype Room Systems v2-Konto
+### <a name="assign-a-skype-for-business-license-to-your-microsoft-teams-rooms-account"></a>Weisen Sie Ihr Konto Microsoft Teams Chatrooms einen Skype für Business-Lizenz
 
 1. Melden Sie sich als mandantenadministrator an, öffnen Sie die administrativen Office 365-Portal, und klicken Sie auf die Admin-app.
 2. Klicken Sie auf **Benutzer und Gruppen** und dann auf **Benutzer hinzufügen, Kennwörter zurücksetzen und mehr**.
-3. Klicken Sie auf das Konto Skype Raum Systemen v2, und klicken Sie dann auf das Stiftsymbol, um die Kontoinformationen zu bearbeiten.
+3. Klicken Sie auf der Microsoft-Teams Räume-Konto, und klicken Sie dann auf das Stiftsymbol, um die Kontoinformationen zu bearbeiten.
 4. Klicken Sie auf **Lizenzen**.
-5. Wählen Sie in **Lizenzen zuweisen** abhängig von Ihren Anforderungen für Lizenzen und für Enterprise-VoIP entweder Skype for Business (Plan 2) oder Skype for Business (Plan 3) aus. Sie müssen eine Lizenz planen 3 verwenden, falls Sie Enterprise-VoIP für Ihre Skype Raum Systemen v2 verwenden möchten.
+5. Wählen Sie in **Lizenzen zuweisen** abhängig von Ihren Anforderungen für Lizenzen und für Enterprise-VoIP entweder Skype for Business (Plan 2) oder Skype for Business (Plan 3) aus. Sie müssen eine Lizenz planen 3 verwenden, falls Sie Enterprise-VoIP auf Ihrem Microsoft-Teams Chatrooms verwenden möchten.
 6. Klicken Sie auf **Speichern**.
 
 Für die Validierung sollten Sie alle Skype für Business-Client verwenden Sie dieses Konto anzumelden sein.
   
 ## <a name="see-also"></a>Siehe auch
 
-[Konfigurieren von Konten für Skype Raum Systemen v2](room-systems-v2-configure-accounts.md)
+[Konfigurieren von Konten für Microsoft-Teams Räume](room-systems-v2-configure-accounts.md)
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planen der Microsoft-Teams, Räume](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Bereitstellen von Skype Room Systems v2](room-systems-v2.md)
+[Bereitstellen von Microsoft-Teams, Räume](room-systems-v2.md)
   
-[Konfigurieren einer Konsole für Skype Room Systems v2](console.md)
+[Konfigurieren einer Microsoft-Teams Räume-Konsole](console.md)
   
-[Verwalten von Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Verwalten von Microsoft-Teams, Räume](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

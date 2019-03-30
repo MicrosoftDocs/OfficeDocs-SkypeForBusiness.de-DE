@@ -9,13 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
+ms.collection: M365-voice
 description: Lesen Sie dazu, wie Sie sollten Sie Skype Raum System, einer Besprechung bereitstellen Raum-Lösung mit integrierter Hardware und Software, die Skype für Business-Besprechungen teilnehmen optimiert ist.
-ms.openlocfilehash: 94a9b1cb7ff3f341a51944cdc678bc66e44831cb
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 26ce5f6e50d26b408a8bce5d167e4e7b6046e514
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699317"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012567"
 ---
 # <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>Planen der Bereitstellung für Skype Raum System in Skype für Unternehmen
  
@@ -25,7 +26,7 @@ Lesen Sie dazu, wie Sie sollten Sie Skype Raum System, einer Besprechung bereits
 > Im Rahmen dieser Inhalte Skype für Unternehmen für intelligente Raum-System, Crestron RL, and Polycom CX8000 werden als Skype Raum System bezeichnet. 
 
 > [!NOTE]
-> Skype-Chatroom-Systemen v2 ist ein anderes Produkt mit verschiedenen Abhängigkeiten und Bereitstellungsverfahren. Informationen zu Skype Raum Systemen v2 finden Sie unter [Planen von Skype Raum Systemen v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md).
+> Microsoft-Teams Chatrooms ist ein anderes Produkt mit verschiedenen Abhängigkeiten und Bereitstellungsverfahren. Informationen zu Microsoft-Teams Chatrooms finden Sie unter [Planen von Microsoft Teams Chatrooms](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md).
   
  Skype Raum System ist eine Skype für Business unified Communications-Client, der für Skype für Besprechungen in physischen Konferenzräume Business optimiert wurde.
   
@@ -78,8 +79,8 @@ In der folgenden Tabelle angegeben Skype Raum System Client Supportability mit V
 
 |**Exchange**|**Lokal**|**Online**|**Hybrid**|
 |:-----|:-----|:-----|:-----|
-|Exchange 2010  <br/> |Ja (nur einzelne Gesamtstruktur)  <br/> |-  <br/> |-  <br/> |
-|Exchange 2013  <br/> |Ja (Mehrfach-Gesamtstruktur-Unterstützung verfügbar für Exchange 2013 CU6 und höhere Versionen)  <br/> |Ja  <br/> |Ja  <br/> |
-|Exchange 2016  <br/> |Ja (mit mehreren Gesamtstrukturen Unterstützung verfügbar)  <br/> |Ja  <br/> |Ja  <br/> |
+|Exchange 2010  <br/> |Ja (nur einzelne Gesamtstruktur)  <br/> |n/v  <br/> |-  <br/> |
+|Exchange 2013  <br/> |Ja (Mehrfach-Gesamtstruktur-Unterstützung verfügbar für Exchange 2013 CU6 und höhere Versionen)  <br/> |Ja  <br/> |Ja   <br/> |
+|Exchange 2016  <br/> |Ja (mit mehreren Gesamtstrukturen Unterstützung verfügbar)  <br/> |Ja   <br/> |Ja  <br/> |
    
 

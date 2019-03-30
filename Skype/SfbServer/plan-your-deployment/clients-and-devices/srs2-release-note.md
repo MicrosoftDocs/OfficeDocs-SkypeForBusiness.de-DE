@@ -9,17 +9,18 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2.
-ms.openlocfilehash: 8de76d085bad4ec8fc7c52c0f46a416d9b1cac82
-ms.sourcegitcommit: 0ea63f45cb31852fea6894cc6ffb0ae1ae444e64
+ms.collection: M365-voice
+description: In diesem Artikel werden die kumulative Verbesserungen bei der Microsoft-Teams Chatrooms.
+ms.openlocfilehash: 3d80c1c2e4aa2fcad241f566b832e8ddbc662120
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30950256"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012898"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version 
 
-In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2.
+In diesem Artikel werden die kumulative Verbesserungen bei der Microsoft-Teams Chatrooms.
 
 
 ##  <a name="version-history"></a>Versionsverlauf
@@ -51,7 +52,7 @@ In diesem Artikel werden die kumulative Verbesserungen in Skype Raum Systemen v2
 | RTM-VERSION (1.0.8) | 7/12/2016  | 
 
 
-## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Skype-Chatroom-Systemen v2 Feature Einführung und Behebung
+## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft-Teams Chatrooms Feature Einführung und Behebung
 
 
 ### <a name="40780-03142018"></a>4.0.78.0 (14/03/2018)
@@ -72,7 +73,7 @@ In diesem Update eingeführt:
 In diesem Update eingeführt:
 - Anzeigen von Inhalten auf beide Front-der Raum (zeigt auf zwei Bildschirm Raum Systemen für)
 - Designs und Front-Raum Verbesserungen der Benutzeroberfläche
-- Client-seitigen TLS 1.2 unterstützt. Für erfordert auf Kunden vor Ort, aktivieren Threats-Kommunikation über TLS 1.2 für Skype Raum System V2 Skype für Business Server 2015 Cummulative Update 9 (CU9) oder Skype für Unternehmenseinheiten Server 2019 Cummulative Update 1 (CU1).
+- Client-seitigen TLS 1.2 unterstützt. Für erfordert auf Kunden vor Ort, Aktivierung Threats-Kommunikation über TLS 1.2 für Microsoft-Teams Chatrooms Skype für Business Server 2015 Cummulative Update 9 (CU9) oder Skype für Unternehmenseinheiten Server 2019 Cummulative Update 1 (CU1).
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
 In diesem Update eingeführt:
@@ -84,14 +85,14 @@ In diesem Update eingeführt:
 
 ### <a name="40270-1012018"></a>4.0.27.0 (1/10/2018)
 In diesem Update eingeführt: 
-- Ändern von Code erforderlich sind, um die app SRSv2 höher Windows 10 Version 1803-Upgrade vorbereiten
+- Ändern von Code erforderlich sind, um die Microsoft-Teams Chatrooms app höher Windows 10 Version 1803-Upgrade vorbereiten
 - Beheben von Formatierung Problem mit lokalisierten EULAs - speziell Norwegisch - die verhindert, dass der Inhalt hinter EULA OOBE-Setup-Fenster
-- Ändern von Code erforderlich, damit Skype Raum Systemen v2 Anwendung auf Systeme der Vorversion Lync Raum ausgeführt. Weitere Informationen finden Sie [hier](https://aka.ms/lrsupgrade).
+- Ändern von Code erforderlich, damit Microsoft Teams Chatrooms Anwendung auf Systeme der Vorversion Lync Raum ausgeführt. Weitere Informationen finden Sie [hier](https://aka.ms/lrsupgrade).
  
 
 ### <a name="40190-8312018"></a>4.0.19.0 (8/31/2018)
 In diesem Update eingeführt: 
-- Hotfix für Crestron-Anwendung nicht starten, die normalerweise möglich wäre durch Drücken der Taste app auf Crestron SR-Geräte. SRSv2 app neu starten nach der Installation von 4.0.19.0 erforderlich 
+- Hotfix für Crestron-Anwendung nicht starten, die normalerweise möglich wäre durch Drücken der Taste app auf Crestron SR-Geräte. Microsoft-Teams Chatrooms app-Neustart nach der Installation von 4.0.19.0 erforderlich. 
 
 ### <a name="40180-08272018"></a>4.0.18.0 (27/08/2018)
 In diesem Update eingeführt: 
@@ -163,7 +164,7 @@ In diesem Update eingeführt:
 - Unterstützung für [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) Andocken hardware    
 - OEM-Unterstützung für Umgebung-Steuerelemente (Crestron)
     
-Die 64-Bit-Version von Windows 10 Enterprise Jahrestag Edition (englische, Version 1607) wird nicht mehr Skype Raum Systemen v2 Version 3.0.12.0 (Update 3) unterstützt. 
+Die 64-Bit-Version von Windows 10 Enterprise Jahrestag Edition (englische, Version 1607) ab Microsoft Teams Chatrooms nicht mehr unterstützt werden release 3.0.12.0 (Update 3). 
 
 ### <a name="3080-842017"></a>3.0.8.0 (8/4/2017) 
 In diesem Update eingeführt: 
@@ -217,14 +218,14 @@ In diesem Update eingeführt:
 <a name="See"> </a>  
 ## <a name="see-also"></a>Siehe auch
 
-[Skype Raum Systeme Version 2-Hilfe](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Hilfe für Microsoft-Teams Räume](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Vorbereiten Sie Ihrer Skype Geschäftsumgebung](srs-v2-prep.md)
+[Vorbereiten der Umgebung](srs-v2-prep.md)
 
-[Unterstützung für Skype Raum Systemen v2 aktuellen Branch Versionen](srs2-lifecycle-support.md)
+[Unterstützung für Microsoft-Teams Chatrooms aktuelle Branch-Versionen](srs2-lifecycle-support.md)
 
-[Bekannte Probleme bei Skype Raum Systemen v2](../../manage/skype-room-systems-v2/known-issues.md)
+[Bekannte Probleme beim Microsoft Teams Räume](../../manage/skype-room-systems-v2/known-issues.md)
 
-[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
+[Planen der Microsoft-Teams, Räume](skype-room-systems-v2-0.md)
 
-[Verwalten von Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Verwalten von Microsoft-Teams, Räume](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

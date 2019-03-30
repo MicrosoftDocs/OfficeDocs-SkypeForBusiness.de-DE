@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Zusammenfassung: Überprüfen Sie die unterstützten Clients und Apps für Skype for Business.'
-ms.openlocfilehash: bde1e70699de8adfdf58a7cc892405d8eee8675c
-ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
+ms.openlocfilehash: 0aff83afc14401e3b8d165f108415cb32c407e60
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "26993380"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012747"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planen für Clients und Geräte
 
@@ -78,9 +78,9 @@ Wenn Skype for Business nicht auf dem Computer eines Benutzers installiert ist u
 
 Eine VDI-Umgebung (Virtual Desktop Infrastructure) wird in einigen Organisationen verwendet, in denen Sicherheits- und Complianceprobleme besonders sensibel sind. Die Verwendung von Skype for Business mit vollständigen Audio- und Videofunktionen über eine derartige Verbindung erfordert eine hohe Audio- und Videoverarbeitungsleistung auf dem Client, der auf einem virtuellen Desktop verwaltet wird. Über verfügbare zusätzliche VDI-Plug-In-Software kann diese Verarbeitung auf die lokalen Computer der Endbenutzer ausgelagert werden, sodass die Last für den virtuellen Desktop verringert wird. Details zur Verwendung dieser Plug-Ins finden Sie unter [Planen für Skype for Business in VDI-Umgebungen](vdi-environments.md).
 
-### <a name="skype-room-systems-v2"></a>Skype Room Systems V2
+### <a name="microsoft-teams-rooms"></a>Microsoft-Teams, Räume
 
-Skype Room Systems v2 ist neueste Konferenzlösung von Microsoft, die eine vertraute Skype for Business-Benutzeroberfläche verwendet und einfach implementiert und verwaltet werden kann, wobei vorhandene Geräte wie LCD-Bildschirme für eine einfache Installation genutzt werden. Skype Room Systems v2 nutzt eine zu diesem Zweck erstellte UWP-App, die auf einem Surface Pro 4-Gerät im Konsolenmodus ausgeführt wird (nach der Bereitstellung wird der Client als einzige App auf dem Gerät ausgeführt). Außerdem wird ein eigenes Gerätekonto in Ihrer Skype for Business-Implementierung benötigt. Software wird sowohl über den Windows Store als auch über Windows Update aktualisiert. Details zur Verwendung dieser Room-Konsolen in Ihrer Bereitstellung finden Sie unter https://aka.ms/SRSDocs.
+Microsoft-Teams Chatrooms ist Microsofts neueste Lösung für Webkonferenzen verwendet eine vertraute Oberfläche und wird auf einfache Weise bereitgestellt und verwaltet, nutzen vorhandene Geräte wie LCD-Bereiche für einfache Installation. Microsoft-Teams Chatrooms verwendet eine spezielle UWP app auf einem Surface Pro 4 oder Surface Pro in einem Konsolenmodus ausgeführt (nach der Bereitstellung der app UWP ist die einzige app, die auf dem Gerät ausgeführt wird) und ein eigenen Konto Gerät auf Ihre Implementierung erfordert. Software wird sowohl über den Windows Store als auch über Windows Update aktualisiert. Details zur Verwendung dieser Room-Konsolen in Ihrer Bereitstellung finden Sie unter https://aka.ms/SRSDocs. 
 
 ### <a name="skype-for-business-on-surface-hub"></a>Skype for Business für Surface Hub
 
@@ -139,7 +139,7 @@ MSI ist eine traditionellere Installationsmethode, die auf den Skype for Busines
 
 Skype for Business Server 2019 and Skype for Business Online unterstützen die folgenden zuvor veröffentlichten Clients: Skype for Business 2016, Skype for Business 2015, Lync 2013.
 
-Skype for Business Server 2015 unterstützt die folgenden früher freigegebenen Clients: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition und Lync 2010 Attendant. Weitere Informationen zu diesen Clients bei Verwendung mit anderen Servern finden Sie in den [Clientvergleichstabellen für Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) und den [Clientvergleichstabellen für Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
+Skype für Business Server 2015 unterstützt die folgenden früher veröffentlichten Clients: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition und Lync 2010 Attendant. Weitere Informationen zu diesen Clients bei Verwendung mit anderen Servern finden Sie in den [Clientvergleichstabellen für Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) und den [Clientvergleichstabellen für Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
 
 
 ## <a name="client-system-requirements"></a>Clientsystemanforderungen
@@ -165,7 +165,7 @@ Weitere Informationen zum Verständnis der für Skype for Business-Clients erfor
 
 - [Anforderungen für Skype for Business auf dem Mac-Client](mac-requirements.md)
 
-- [Planen für Skype Room Systems v2](skype-room-systems-v2-0.md)
+- [Planen der Microsoft-Teams, Räume](skype-room-systems-v2-0.md)
 
 - [Planen für Skype for Business in VDI-Umgebungen](vdi-environments.md)
 

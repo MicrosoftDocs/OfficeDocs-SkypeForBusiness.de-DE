@@ -1,5 +1,5 @@
 ---
-title: Verwalten einer Skype Room Systems v2-Konsoleneinstellung auf einem Remote-Gerät mit einer XML-Konfigurationsdatei
+title: Verwalten einer Microsoft-Teams Chatrooms Konsolenstamm Remote mit einer XML-Konfigurationsdatei
 ms.author: jambirk
 author: jambirk
 ms.reviewer: davgroom
@@ -10,19 +10,20 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
-description: In diesem Artikel wird remote Management die Standardeinstellungen, die von einem Gerät Skype Raum Systemen v2, einschließlich eines benutzerdefinierten Designs verwendet.
-ms.openlocfilehash: 55a2dc3de11c4fbe8540740a52fe29a377264545
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.collection: M365-voice
+description: In diesem Artikel wird remote Management die Standardeinstellungen, die von einem Microsoft-Teams Räume-Gerät, einschließlich eines benutzerdefinierten Designs verwendet.
+ms.openlocfilehash: 2dc99046647fc1cbda8fcb7643dbdf06d2d24c82
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965975"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013029"
 ---
-# <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Verwalten einer Skype Room Systems v2-Konsoleneinstellung auf einem Remote-Gerät mit einer XML-Konfigurationsdatei
+# <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Verwalten einer Microsoft-Teams Chatrooms Konsolenstamm Remote mit einer XML-Konfigurationsdatei
  
-In diesem Artikel wird remote Management die Standardeinstellungen, die von einem Gerät Skype Raum Systemen v2, einschließlich eines benutzerdefinierten Designs verwendet.
+In diesem Artikel wird remote Management die Standardeinstellungen, die von einem Microsoft-Teams Räume-Gerät, einschließlich eines benutzerdefinierten Designs verwendet.
   
-Eine Master-Shape XML-Datei aktualisiert und Senden von Kopien den Konsolen, die Sie verwalten ermöglicht es zum Ändern der Standardeinstellungen für die Remoteverwaltung Geräte. In diesem Artikel wird erläutert, wie solche einer Datei sowie Links zu Diskussionen zum Platzieren Bedarf auf den Remote verwalteten Geräten zu erstellen. Mit dieser Methode können Sie auch benutzerdefinierte Designs auf Ihre Skype Raum Systemen v2 Konsolen implementieren. 
+Eine Master-Shape XML-Datei aktualisiert und Senden von Kopien den Konsolen, die Sie verwalten ermöglicht es zum Ändern der Standardeinstellungen für die Remoteverwaltung Geräte. In diesem Artikel wird erläutert, wie solche einer Datei sowie Links zu Diskussionen zum Platzieren Bedarf auf den Remote verwalteten Geräten zu erstellen. Mit dieser Methode können Sie auch benutzerdefinierte Designs auf Ihre Microsoft-Teams Chatrooms Konsolen implementieren. 
   
 ## <a name="creating-an-xml-configuration-file"></a>Erstellen einer XML-Konfigurationsdatei
 
@@ -72,29 +73,29 @@ Wenn die XML-Datei falsch formatiert wurde (Elemente sind nicht funktionsfähig,
 |Element|Typ|Ebene|Verwendung|
 |:--- |:--- |:--- |:--- |
 |\<SkypeSettings\>   |Container für alle Elemente.   ||Erforderlich.   |
-| \<AutoScreenShare\>  |Boolescher Wert & #x 2777;  |Erste & #x 2776;  | Falls zutreffend, ist die automatische Bildschirmfreigabe aktiviert.  |
-|\<HideMeetingName\>   |Boolescher Wert & #x 2777;  |Erste & #x 2776;  |Falls zutreffend, sind die Besprechungsnamen ausgeblendet.   |
+| \<AutoScreenShare\>  |Boolean & #x 2777;  |Erste & #x 2776;  | Falls zutreffend, ist die automatische Bildschirmfreigabe aktiviert.  |
+|\<HideMeetingName\>   |Boolean & #x 2777;  |Erste & #x 2776;  |Falls zutreffend, sind die Besprechungsnamen ausgeblendet.   |
 |\<"Useraccount" bei\>   |Container   |Erste & #x 2776;  |Container für Anmeldeinformationen-Parameter.   Anmelden bei Adresse, die Exchange-Adresse oder die e-Mail-Adresse in der Regel identisch sind, wie etwa RanierConf<span></span>@contoso.com.   |
-|\<SkypeMeetingsEnabled\>  |Boolescher Wert & #x 2777;  |Erste & #x 2776;  |Diese Option ist standardmäßig aktiviert.   |
+|\<SkypeMeetingsEnabled\>  |Boolean & #x 2777;  |Erste & #x 2776;  |Diese Option ist standardmäßig aktiviert.   |
 |\<SkypeSignInAddress\>   |Zeichenfolge & #x 2778;  ||Der Anmeldename für das Skype for Business-Gerätekonto der Konsole.   |
 |\<ExchangeAddress\>   |Zeichenfolge & #x 2778;  ||Der Anmeldename für das Exchange-Gerätekonto der Konsole.   Wenn die Exchange-Adresse ausgelassen wird, wird die Skype-Anmeldeadresse nicht automatisch wiederverwendet.    |
 |\<DomainUsername\>   |Zeichenfolge & #x 2778;  ||Die Domäne und der Benutzername für das Konsolengerät, zum Beispiel Seattle\RanierConf.   |
-|\<Kennwort\>   |Zeichenfolge 3  || Der Kennwortparameter stimmt mit dem für die Kontoanmeldung für das Skype for Business-Gerät verwendeten Kennwort überein.   |
+|\<Passwort\>   |Zeichenfolge 3  || Der Kennwortparameter stimmt mit dem für die Kontoanmeldung für das Skype for Business-Gerät verwendeten Kennwort überein.   |
 | \<ConfigureDomain\>  |Zeichenfolge & #x 2778;  ||Sie können mehrere durch Kommata getrennte Domänen auflisten.   |
-|\<TeamsMeetingsEnabled\>   |Boolescher Wert & #x 2777;  |Erste & #x 2776;  |Diese Option ist standardmäßig deaktiviert. <br/> <br/> Die XML-Datei wird nicht wohlgeformten betrachtet, wenn beide \<SkypeMeetingsEnabled\> und\<TeamsMeetingsEnabled\> sind deaktiviert, aber es ist akzeptabel, beide Einstellungen zur selben Zeit aktiviert haben.   |
-|\<IsTeamsDefaultClient > |Boolescher Wert & #x 2777;  |Erste & #x 2776;  |Diese Option ist standardmäßig deaktiviert. |
-|\<BluetoothAdvertisementEnabled > |Boolescher Wert & #x 2777;  |Erste & #x 2776;  |Diese Option ist standardmäßig aktiviert. |
-|\<DualScreenMode\>  |Boolescher Wert & #x 2777;  |Erste & #x 2776;  |Dual-Screen-Modus ist aktiviert, wenn "true". Andernfalls verwendet das Gerät den Einzelbildschirmmodus.   |
+|\<TeamsMeetingsEnabled\>   |Boolean & #x 2777;  |Erste & #x 2776;  |Diese ist standardmäßig deaktiviert. <br/> <br/> Die XML-Datei wird nicht wohlgeformten betrachtet, wenn beide \<SkypeMeetingsEnabled\> und\<TeamsMeetingsEnabled\> sind deaktiviert, aber es ist akzeptabel, beide Einstellungen zur selben Zeit aktiviert haben.   |
+|\<IsTeamsDefaultClient> |Boolean & #x 2777;  |Erste & #x 2776;  |Diese ist standardmäßig deaktiviert. |
+|\<BluetoothAdvertisementEnabled> |Boolean & #x 2777;  |Erste & #x 2776;  |Diese Option ist standardmäßig aktiviert. |
+|\<DualScreenMode\>  |Boolean & #x 2777;  |Erste & #x 2776;  |Dual-Screen-Modus ist aktiviert, wenn "true". Andernfalls verwendet das Gerät den Einzelbildschirmmodus.   |
 |\<SendLogs\>   |Container   |Erste & #x 2776;  ||
 |\<EmailAddressForLogsAndFeedback\>   |Zeichenfolge & #x 2778;  ||Damit wird eine optionale E-Mail-Adresse verwendet, an die Protokolle gesendet werden können, wenn das Fenster "Feedback senden" angezeigt wird.    |
-|\<SendLogsAndFeedback\>   |Boolescher Wert & #x 2777;  || Falls zutreffend werden Protokolle an den Administrator gesendet. Falls zutreffend wird Feedback nur an den Administrator (nicht an die Protokolle) gesendet.  |
+|\<SendLogsAndFeedback\>   |Boolean & #x 2777;  || Falls zutreffend werden Protokolle an den Administrator gesendet. Falls zutreffend wird Feedback nur an den Administrator (nicht an die Protokolle) gesendet.  |
 | \<Geräte\>  |Container   |Erste & #x 2776;  | Die Namen der verbundenen Audiogeräte in den untergeordneten Elementen stimmen mit den Werten in der Gerätemanager-App überein. Die Konfiguration kann ein Gerät enthalten, das derzeit nicht auf dem System vorhanden ist, wie zum Beispiel ein aktuelle nicht mit der Konsole verbundenes A/V-Gerät. Die Konfiguration würde für das entsprechende Gerät beibehalten.  |
 |\<MicrophoneForCommunication\>   |Zeichenfolge & #x 2778;  ||Legt das Mikrofon fest, das als Aufnahmegerät in einer Konferenz verwendet wird.   |
 |\<SpeakerForCommunication\>   |Zeichenfolge & #x 2778;  ||Das als Lautsprecher für die Konferenz verwendete Gerät. Diese Einstellung wird verwendet, um das Lautsprechergerät festzulegen, das für die Audiowiedergabe in einem Anruf verwendet wird.   |
 |\<DefaultSpeaker\>   |Zeichenfolge & #x 2778;  ||Gerät, das zum Abspielen von Audio aus einer HDMI-Erfassungsquelle verwendet wird.    |
 | \<Verwendung von Designs\>  |Container   |Erste & #x 2776;  |Bei einer der Funktionen, die unter Verwendung einer XML-Datei verwendet werden kann, handelt es sich um ein benutzerdefiniertes Design für Ihre Organisation. Sie werden können einen Namen des Standarddesigns, Hintergrundbild und Farbe angeben.   |
 |\<ThemeName\>   |Zeichenfolge & #x 2778;  || Wird zum Identifizieren des Designs auf dem Client verwendet. Bei den Optionen für den Designnamen handelt es sich um "Standard" (eines der voreingestellten Designs) oder um "Benutzerdefiniert". <br/>  Benutzerdefiniertes Designnamen sollten stets den Namen *Custom* verwenden. Der Client Benutzeroberfläche kann festgelegt werden in der Konsole auf die Standardvorlage oder eine der Vorgaben, jedoch Anwenden eines benutzerdefinierten Designs muss festgelegt werden Remote von einem Administrator. <br/>  Werkseitig eingestellte Designs enthalten: <br/>  Standard <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  Verwenden Sie zum Deaktivieren des aktuellen Designs "Kein Design" für die ThemeName.  |
-|\<CustomThemeImageUrl\>   |Zeichenfolge & #x 2778;  ||Erforderlich, wenn ein benutzerdefiniertes Design, andernfalls optional. Finden Sie im Abschnitt [Benutzerdefinierte Designs Bilder](xml-config-file.md#Themes) unter Weitere Details auf das Bild der benutzerdefinierten Designs.  |
+|\<CustomThemeImageUrl\>   |Zeichenfolge & #x 2778;  ||Bei Verwendung eines benutzerdefinierten Designs erforderlich, andernfalls optional. Finden Sie im Abschnitt [Benutzerdefinierte Designs Bilder](xml-config-file.md#Themes) unter Weitere Details auf das Bild der benutzerdefinierten Designs.  |
 |\<CustomThemeColor\>   |Container   ||Container für die \<RedComponent\>, \<GreenComponent\>, und \<BlueComponent\> Werte. diese Werte sind bei Verwendung eines benutzerdefinierten Designs erforderlich.   |
 |\<RedComponent\>   |Byte (0-255)   ||Stellt die rote Komponente dar.   |
 |\<GreenComponent\>   |Byte (0-255)   ||Stellt die grüne Komponente dar.   |
@@ -109,11 +110,11 @@ Wenn die XML-Datei falsch formatiert wurde (Elemente sind nicht funktionsfähig,
   
 ## <a name="manage-console-settings-using-an-xml-configuration-file"></a>Verwalten von Konsoleneinstellungen unter Verwendung einer XML-Konfigurationsdatei
 
-Beim Start eine Skype Raum Systemen v2 Konsole findet eine XML-Datei mit dem Namen SkypeSettings.xml an der Position **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, wird die Konfigurationseinstellungen angewendet durch die XML-Datei und klicken Sie dann Löschen der XML-Datei angegeben wird.
+Beim Start eine Microsoft-Teams Chatrooms Konsole findet eine XML-Datei mit dem Namen SkypeSettings.xml an der Position **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, wird die Konfigurationseinstellungen angewendet durch die XML-Datei und klicken Sie dann Löschen der XML-Datei angegeben wird.
   
-Je nach wie vielen Geräten von Skype Raum Systemen v2 Ihr Unternehmen hat und wie verwalten sie konfiguriert werden soll, es gibt eine Reihe von Methoden, um die XML-Konfigurationsdatei zu platzieren. Sobald die Datei  in die Konsole verschoben wurde, starten Sie das Gerät, um die Konfigurationsänderungen zu verarbeiten. Die XML-Datei wird nach erfolgreicher Verarbeitung entfernt. Die Management-Methoden für Skype Raum Systemen v2 Geräte vorgeschlagen werden in erläutert:
+Je nach wie vielen Geräten von Microsoft Teams Chatrooms Ihr Unternehmen hat und wie verwalten sie konfiguriert werden soll, es gibt eine Reihe von Methoden, um die XML-Konfigurationsdatei zu platzieren. Sobald die Datei  in die Konsole verschoben wurde, starten Sie das Gerät, um die Konfigurationsänderungen zu verarbeiten. Die XML-Datei wird nach erfolgreicher Verarbeitung entfernt. Die Management-Methoden für Microsoft-Teams Chatrooms Geräte vorgeschlagen werden in erläutert:
   
-- [Konfigurieren von Gruppenrichtlinie für Skype Room Systems v2](room-systems-v2-operations.md#GroupPolicy)
+- [Konfigurieren von Gruppenrichtlinien für Microsoft-Teams, Räume](room-systems-v2-operations.md#GroupPolicy)
     
 - [Remoteverwaltung mithilfe von PowerShell](room-systems-v2-operations.md#RemotePS) und [Konfigurieren einer Datei](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
     
@@ -124,13 +125,13 @@ Sie können eine beliebige-Methode verwenden, solange Sie es zum Übertragen von
 
 Benutzerdefiniertes Design Bilddatei muss platziert werden in **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, geben den Dateinamen und die Erweiterung in der \<CustomThemeImageUrl\> Variable.
   
-Die Bilddatei muss genau 3840X1080 Pixel enthalten und eines der folgenden Formate aufweisen: jpg, jpeg, png und bmp. Wenn Ihre Organisation ein benutzerdefiniertes Bild möchte, wird ein Graphic Designer unsere [Benutzerdefinierte Designs Photoshop Vorlage](https://go.microsoft.com/fwlink/?linkid=870441) hilfreich. Sie enthält weitere Details auf verschiedenen Elemente in einem Design-Abbild platzieren und welche Bereiche auf Konsolen und zeigt angezeigt.
+Die Bilddatei muss genau 3840 x 1080 Pixel groß sein und eines der folgenden Dateiformate aufweisen: JPG, JPEG, PNG oder BMP. Wenn Ihre Organisation ein benutzerdefiniertes Bild möchte, wird ein Graphic Designer unsere [Benutzerdefinierte Designs Photoshop Vorlage](https://go.microsoft.com/fwlink/?linkid=870441) hilfreich. Sie enthält weitere Details zur Platzierung der verschiedenen Elemente in einem Designbild und zu den Bereichen, die auf Konsolen und Displays angezeigt werden.
   
 Die XML-Konfigurationsdatei muss beim Starten des Geräts aktualisiert werden, damit das Designbild erkannt wird. Sobald die neue XML-Datei verarbeitet und gelöscht wurde, wird die Designgrafikdatei im Verzeichnis gelöscht.
   
 ## <a name="see-also"></a>Siehe auch
 
 
-[Verwalten von Skype Room Systems v2](skype-room-systems-v2.md)
+[Verwalten von Microsoft-Teams, Räume](skype-room-systems-v2.md)
 
 [Konfigurieren eines Dateielements für](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren einer Konsole für Skype Room Systems v2
+title: Konfigurieren einer Microsoft-Teams Räume-Konsole
 ms.author: jambirk
 author: jambirk
 ms.reviewer: Travis-Snoozy
@@ -8,68 +8,68 @@ ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.collection: Strat_SB_Admin
+ms.collection:
+- Strat_SB_Admin
+- M365-voice
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: In diesem Artikel wird beschrieben, wie die Skype Raum Systemen v2-Konsole und die zugehörigen Peripheriegeräte einrichten.
-ms.openlocfilehash: 00203c8aa781c489d8a1cc8c2bf91a364bea057f
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+description: In diesem Artikel wird beschrieben, wie die Microsoft-Teams Räume-Konsole und zugehörigen Peripheriegeräte einrichten.
+ms.openlocfilehash: fc1d50ffe6dd7415848e02571eab1484bd3dfe22
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694720"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012613"
 ---
-# <a name="configure-a-skype-room-systems-v2-console"></a>Konfigurieren einer Konsole für Skype Room Systems v2
- 
-In diesem Artikel wird beschrieben, wie die Skype Raum Systemen v2-Konsole und die zugehörigen Peripheriegeräte einrichten.
+# <a name="configure-a-microsoft-teams-rooms-console"></a>Konfigurieren einer Microsoft-Teams Räume-Konsole
+
+In diesem Artikel wird beschrieben, wie die Microsoft-Teams Räume-Konsole und zugehörigen Peripheriegeräte einrichten.
   
-Sie sollten nur diese Schritte ausführen, wenn die erforderlichen Skype für Geschäfts- und Exchange-Konten bereits erstellt und getestet werden, wie unter [Bereitstellen von Skype Raum Systemen v2](room-systems-v2.md)beschrieben. Sie benötigen die Hardware und Software in [Skype Raum Systemen v2 Anforderungen](../../plan-your-deployment/clients-and-devices/requirements.md)beschrieben. Dieses Thema enthält die folgenden Abschnitte:
+Sie sollten nur diese Schritte ausführen, wenn die erforderlichen Skype für Geschäfts- und Exchange-Konten bereits erstellt und getestet werden, wie unter [Bereitstellen von Microsoft Teams Chatrooms](room-systems-v2.md)beschrieben. Sie benötigen die Hardware und Software, die in [Microsoft Teams Chatrooms Anforderungen](../../plan-your-deployment/clients-and-devices/requirements.md)beschrieben. Dieses Thema enthält die folgenden Abschnitte:
   
 - [Vorbereiten der Installationsmedien](console.md#Prep_Media)
-    
 - [Installieren Sie das Zertifikat einen privates in der Konsole](console.md#Certs)
-    
-- [Installieren von Windows 10 und der Konsolen-App für Skype Room Systems v2](console.md#Reimage)
-   
+- [Installieren Sie Windows 10 und die Microsoft-Teams Chatrooms Konsole-app](console.md#Reimage)
 - [Anfängliche Einrichten der Konsole](console.md#Initial)
-    
-- [Prüfliste für die Bereitstellung von Skype Raum Systemen v2](console.md#Checklist)
-    
+- [Prüfliste für die Bereitstellung von Microsoft-Teams Räume](console.md#Checklist)
+
 > [!NOTE]
-> Skype-Chatroom-Systemen v2 funktioniert nur in einer ordnungsgemäß konfigurierten Skype für Business-Umgebung, in dem die Gerät Konten wie unter [Bereitstellen von Skype Raum Systemen v2](room-systems-v2.md)ordnungsgemäß eingerichtet wurden.
+> Microsoft-Teams Chatrooms funktioniert nur in einer ordnungsgemäß konfigurierten Skype für Business-Umgebung, in dem die Gerät Konten wie unter [Bereitstellen von Microsoft Teams Chatrooms](room-systems-v2.md)ordnungsgemäß eingerichtet wurden.
   
 ## <a name="prepare-the-installation-media"></a>Vorbereiten der Installationsmedien
 <a name="Prep_Media"> </a>
 
-Installieren der Skype Raum Systemen v2 Konsole-app erfordert ein USB-Speichergerät mit mindestens 32GB Kapazität. Es sollte keine anderen Dateien auf dem Gerät vorhanden sein. alle vorhandenen Dateien auf den USB-Speicher geht verloren.
+Installieren der Microsoft-Teams Chatrooms Konsole-app erfordert ein USB-Speichergerät mit mindestens 32GB Kapazität. Es sollte keine anderen Dateien auf dem Gerät vorhanden sein. alle vorhandenen Dateien auf den USB-Speicher geht verloren.
   
 > [!NOTE]
-> Fehler beim Skype Raum Systemen v2 Installationsmedium entsprechend diese Anweisungen wahrscheinlich in unerwartetes Verhalten zu erstellen.
+> Fehler bei die Microsoft-Teams Chatrooms Installationsmedien entsprechend diese Anweisungen wahrscheinlich in unerwartetes Verhalten zu erstellen.
 
 > [!NOTE]
-> Der nachfolgend beschriebenen Vorgang ist für die Erstellung des-Installationsmedien Bild neue Skype Raum System v2 Geräte. Vorhandene Geräte aktualisieren standardmäßig automatisch aus Windows Update und den Windows Store.
+> Der nachfolgend beschriebenen Vorgang ist für das Erstellen Installationsmedium Bild neue Microsoft-Teams Chatrooms Geräte. Vorhandene Geräte aktualisieren standardmäßig automatisch aus Windows Update und den Windows Store.
   
-1. Laden Sie das [Skript „CreateSrsMedia.ps1“](https://go.microsoft.com/fwlink/?linkid=867842) herunter. 
+1. Laden Sie das [Skript CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
 2. Führen Sie das Skript „CreateSrsMedia.ps1“ an einer Eingabeaufforderung mit erhöhten Rechten auf einem Windows 10-Computer aus.
-3. Führen Sie das Skript-Anweisungen, um eine Skype Raum Systemen v2 USB-Installationsdiskette erstellen.
+3. Führen Sie das Skript-Anweisungen, um eine Microsoft-Teams Chatrooms USB-Installationsdiskette erstellen.
 
 > [!CAUTION]
 > Der Name des Ordners, den Sie das Medium Erstellungsskript aus ausführen kann keine Leerzeichen enthalten. Das Skript schlägt fehl, wenn ein Leerzeichen in Ordnernamen vorhanden ist.
 
 Das Skript CreateSrsMedia.ps1 automatisiert die folgenden Aufgaben:
 
-1. Laden Sie den neueste Version MSI-Installer für Skype Raum Systemen v2.
-2. Bestimmen des Builds von Windows, die der Benutzer eingeben muss. Die am häufigsten kürzlich veröffentlichten Versionen möglicherweise oder möglicherweise nicht getestet und für die Verwendung mit Skype Raum System v2 Geräte unterstützt werden.
+1. Laden Sie den neueste Version MSI-Installer für Microsoft-Teams Chatrooms.
+2. Bestimmen des Builds von Windows, die der Benutzer eingeben muss. Die am häufigsten kürzlich veröffentlichten Versionen möglicherweise oder möglicherweise nicht getestet und für die Verwendung mit Microsoft-Teams Chatrooms Geräte unterstützt werden.
 3. Laden Sie die erforderliche unterstützende Komponenten.
 4. Die erforderlichen Komponenten auf dem Installationsmedium zusammenstellen.
 
-Nach Abschluss den USB-Datenträger auf Ihrem Computer zu entfernen, und fahren Sie [Windows 10 installieren und die Skype Raum Systemen v2 Konsole app](console.md#Reimage)fort.
+Eine bestimmte Version von Windows 10 ist erforderlich, und dieser Version ist nur verfügbar für Volume licensing-Kunden.  Sie können eine Kopie aus dem [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/)abrufen.
+
+Nach Abschluss den USB-Datenträger auf Ihrem Computer zu entfernen, und fahren Sie [Windows 10 installieren und die Microsoft-Teams Räume console app](console.md#Reimage)fort.
 
     
-## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Installieren von Windows 10 und der Konsolen-App für Skype Room Systems v2
+## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>Installieren Sie Windows 10 und die Microsoft-Teams Chatrooms Konsole-app
 <a name="Reimage"> </a>
 
-Nun müssen Sie die Setup-Medien anwenden, die Sie erstellt haben. Das Zielgerät wird als Appliance ausgeführt, und der Standard-Benutzer werden nur die Skype Raum Systemen v2 Konsole app ausgeführt festgelegt werden.
+Nun müssen Sie die Setup-Medien anwenden, die Sie erstellt haben. Das Zielgerät wird als Appliance ausgeführt, und der Standard-Benutzer werden nur die Microsoft-Teams Chatrooms Konsole app ausgeführt festgelegt werden.
 
 1. Wenn das Zielgerät in ein (z. B. eine Surface Pro) Andocken installiert wird, trennen sie die Dockingstation.
 
@@ -133,11 +133,11 @@ In Erstellers aktualisieren müssen, verwenden Sie das Skript ApplyCurrentRegion
     
 13. Starten Sie das System neu.
     
-Die gewünschte Sprache wird jetzt in der Konsole der Skype Raum Systemen v2 angewendet.
+Die gewünschte Sprache ist jetzt auf der Microsoft-Teams Chatrooms Konsole angewendet.
 ## <a name="initial-set-up-of-the-console"></a>Anfängliche Einrichten der Konsole
 <a name="Initial"> </a>
 
-Nach der Installation von Windows gehen die Skype Raum Systemen v2 Konsole app in seiner ursprünglichen Setup-Prozess beim nächsten Starten, oder wenn die Option/Reboot ausgewählt wurde.
+Nach der Installation von Windows gehen die Microsoft-Teams Chatrooms Konsole app in seiner ursprünglichen Setup-Prozess beim nächsten Starten, oder wenn die Option/Reboot ausgewählt wurde.
   
 1. Der Benutzerkonto Bildschirm wird angezeigt. Geben Sie die Skype-Anmeldeadresse ein (im Format user@domain) des Raums Kontos, das mit der Konsole verwendet werden.
     
@@ -159,10 +159,10 @@ Nach der Installation von Windows gehen die Skype Raum Systemen v2 Konsole app i
     
 6. Klicken Sie auf **Fertig stellen**.
     
-Die Skype Raum Systemen v2 Konsole app Anmelden bei Skype für Business Server mit den oben eingegebenen Anmeldeinformationen sollten sofort gestartet werden soll, und beginnen soll auch die Synchronisierung der Kalender mit Exchange diese dieselben Anmeldeinformationen verwenden. Ausführliche Informationen zum Verwenden der Verwaltungskonsole app finden Sie in der [Hilfe Skype Raum Systeme, Version 2](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+Die Microsoft-Teams Chatrooms Konsole app Anmelden bei Skype für Business Server mit den oben eingegebenen Anmeldeinformationen sollten sofort gestartet werden soll, und beginnen soll auch den Kalender mit Exchange diese dieselben Anmeldeinformationen verwenden wird synchronisiert. Ausführliche Informationen zum Verwenden der Verwaltungskonsole app finden Sie in der [Hilfe von Microsoft Teams Chatrooms](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
-> Skype Raum Systemen v2 erfordert das Vorhandensein von zertifizierten Konsole Hardware. Sogar eine ordnungsgemäß erstellte Image, enthält die Skype Raum Systemen v2 Konsole app kann nicht nach der Erstinstallation Verfahren starten, es sei denn, die Konsole Hardware erkannt wird. Für Surface Pro-basierte Lösungen muss die Surface Pro für die zugehörige Andocken Hardware, übergeben dieses Kontrollkästchen verbunden sein.
+> Microsoft-Teams Chatrooms erfordert das Vorhandensein von zertifizierten Konsole Hardware. Selbst ein Bild ordnungsgemäß erstellte, enthält die Microsoft-Teams Chatrooms Konsole app startet nicht nach der Erstinstallation Verfahren, wenn die Konsole Hardware erkannt wird. Für Surface Pro-basierte Lösungen muss die Surface Pro für die zugehörige Andocken Hardware, übergeben dieses Kontrollkästchen verbunden sein.
   
 > [!NOTE]
 > Möglicherweise benötigen einige Benutzer nicht-englischen eine physische Tastatur während des Setups mit der Konsole verbunden, Symbole auf der Bildschirmtastatur nicht unterstützt werden.
@@ -170,7 +170,7 @@ Die Skype Raum Systemen v2 Konsole app Anmelden bei Skype für Business Server m
 ### <a name="install-a-private-ca-certificate-on-the-console"></a>Installieren Sie das Zertifikat einen privates in der Konsole
 <a name="Certs"> </a>
 
-Die Skype Raum Systemen v2-Konsole muss Zertifikate von der Skype für Geschäfts- und Exchange-Servern, die Verbindung mit verwendet wird. Für Office 365 geschieht dies automatisch, da diese Server öffentliche Zertifizierungsstellen verwenden, denen Windows 10 automatisch vertraut. In dem Fall, in dem die Zertifizierungsstelle privat, ist, für die Instanz einer lokalen Bereitstellung mit Active Directory und die Windows-Zertifizierungsstelle können Sie das Zertifikat der Skype Raum Systemen v2-Konsole in eine Reihe von Methoden hinzufügen:
+Zertifikate wird von der Skype für Geschäfts- und Exchange-Servern, die Verbindung mit muss die Microsoft-Teams Chatrooms Konsole. Für Office 365 geschieht dies automatisch, da diese Server öffentliche Zertifizierungsstellen verwenden, denen Windows 10 automatisch vertraut. In dem Fall, in dem die Zertifizierungsstelle privat, ist, für die Instanz einer lokalen Bereitstellung mit Active Directory und die Windows-Zertifizierungsstelle können Sie das Zertifikat auf der Microsoft-Teams Räume-Konsole in eine Reihe von Methoden hinzufügen:
   
 - Sie können die Konsole Active Directory teilnehmen und, die werden automatisch hinzugefügt, die erforderlichen Zertifikate erhält der Zertifizierungsstelle auf Active Directory (normale Bereitstellungsoption) veröffentlicht wird.
     
@@ -182,7 +182,7 @@ Die Skype Raum Systemen v2-Konsole muss Zertifikate von der Skype für Geschäft
     
 2. Platzieren Sie die Konsole im Admin-Modus (siehe [Admin-Modus und Gerät Management](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)).
     
-3. Führen Sie den folgenden Befehl aus:
+3. Führen Sie den folgenden Befehl aus:  
     
    ```
    certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
@@ -191,9 +191,9 @@ Die Skype Raum Systemen v2-Konsole muss Zertifikate von der Skype für Geschäft
 ### <a name="join-an-active-directory-domain-optional"></a>Teilnehmen an einer Active Directory-Domäne (Optional)
 <a name="Certs"> </a>
 
-Sie können Skype Raum Systemen v2 Konsolen an Ihre Domäne beitreten. Skype Raum Systemen v2 Konsolen sollte in einer separaten Organisationseinheit aus Ihrem PC Arbeitsstationen platziert werden, da viele Arbeitsstation Richtlinien nicht mit Skype Raum Systemen v2 kompatibel sind. Ein allgemeines Beispiel sind Erzwingung Kennwortrichtlinien, die verhindern Skype Raum Systemen v2 automatisch gestartet. Weitere Informationen zur Verwaltung von GPO-Einstellungen finden Sie unter [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md).
+Sie können Microsoft Teams Chatrooms Konsolen an Ihre Domäne beitreten. Microsoft-Teams Chatrooms Konsolen sollte in einer separaten Organisationseinheit aus Ihrem PC Arbeitsstationen platziert werden, da viele Arbeitsstation Richtlinien nicht kompatibel mit Microsoft-Teams Räumen sind. Ein allgemeines Beispiel sind Erzwingung Kennwortrichtlinien, die Microsoft-Teams Chatrooms verhindern automatisch gestartet. Informationen über die Verwaltung der Gruppenrichtlinienergebnisse finden Sie unter [Verwalten von Microsoft Teams Räumen](../../manage/skype-room-systems-v2/room-systems-v2-operations.md).
   
-### <a name="to-join-skype-room-system-v2-to-a-domain"></a>So verbinden Sie Skype Room Systems v2 durch einen Domänenbeitritt mit einer Domäne
+### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>Microsoft-Teams Chatrooms einer Domäne beitreten
 
 1. Melden Sie sich bei der Konsole aus der Administrator beifügen (siehe [Admin-Modus und Gerät Management](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)).
     
@@ -205,15 +205,15 @@ Sie können Skype Raum Systemen v2 Konsolen an Ihre Domäne beitreten. Skype Rau
    Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
    ```
 
-Wenn Ihre vollqualifizierten Domänennamen redmond.corp.microsoft.com und Sie möchten Ihre Skype Raum Systemen v2 Konsolen "Skype Raum Systemen v2" werden beispielsweise Organisationseinheit, die ein untergeordnetes Element des einer OU "Ressourcen" ist der Befehl werden:
+Wenn Ihre vollqualifizierten Domänennamen redmond.corp.microsoft.com und Sie möchten die Microsoft-Teams Chatrooms Konsolen in einer Organisationseinheit "Microsoft-Teams Rooms" sein, die ein untergeordnetes Element des einer OU "Ressourcen" ist, kann beispielsweise der Befehl werden:
   
 ```
-Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_System,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
+Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_Rooms,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
 ```
 
  Wenn Sie den Computer umbenennen, wenn sie einer Domäne beitreten möchten, verwenden Sie das NewName - Flag gefolgt von der neue Name des Computers.
   
-## <a name="skype-room-systems-v2-deployment-checklist"></a>Prüfliste für die Bereitstellung von Skype Raum Systemen v2
+## <a name="microsoft-teams-rooms-deployment-checklist"></a>Prüfliste für die Bereitstellung von Microsoft-Teams Räume
 <a name="Checklist"> </a>
 
 Verwenden Sie die folgende Checkliste, während eine endgültige Überprüfung, dass die Konsole und alle zugehörigen Peripheriegeräte konfiguriert sind:
@@ -249,13 +249,13 @@ Verwenden Sie die folgende Checkliste, während eine endgültige Überprüfung, 
 |☐  <br/> |Das Dock lässt sich frei drehen.  <br/> |
 |☐  <br/> |Die Helligkeit des Bildschirms ist für die Umgebung geeignet.  <br/> |
    
-## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
+## <a name="see-also"></a>Siehe auch
 <a name="Checklist"> </a>
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planen der Microsoft-Teams, Räume](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Bereitstellen von Skype Room Systems v2](room-systems-v2.md)
+[Bereitstellen von Microsoft-Teams, Räume](room-systems-v2.md)
   
-[Konfigurieren einer Konsole für Skype Room Systems v2](console.md)
+[Konfigurieren einer Microsoft-Teams Räume-Konsole](console.md)
   
-[Verwalten von Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Verwalten von Microsoft-Teams, Räume](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

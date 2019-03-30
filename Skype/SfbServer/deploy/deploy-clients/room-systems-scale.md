@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen von Skype Raum Systeme mithilfe von System Center Configuration Manager
+title: Bereitstellen von Microsoft-Teams Chatrooms mithilfe von System Center Configuration Manager
 author: jambirk
 ms.author: jambirk
 ms.reviewer: Turgayo
@@ -11,30 +11,31 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: Lesen Sie dieses Thema zu erfahren Sie mehr über die Bereitstellung von Skype Raum Systemen v2 auf umfangreiche Bereitstellungen.
-ms.openlocfilehash: 39884e660ca757827570f6c7c4005baa7b59a1b0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.collection: M365-voice
+description: Lesen Sie dieses Thema zu erfahren Sie mehr über die Bereitstellung von Microsoft-Teams Räume unter umfangreiche Bereitstellungen.
+ms.openlocfilehash: fe6ffee0c6ab86496204ab4e17b86cc84a70a2a7
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880777"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013036"
 ---
-# <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Bereitstellen von Skype Raum Systemen v2 mithilfe von System Center Configuration Manager
+# <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Bereitstellen von Microsoft-Teams Chatrooms mithilfe von System Center Configuration Manager
 
-In diesem Artikel können Sie die erforderliche Informationen zu Ihrer Skype Raum Systemen v2-Bereitstellungen mithilfe von System Center Configuration Manager erstellen.
+In diesem Artikel erhalten Sie alle erforderliche Informationen zur Bereitstellung Ihrer Microsoft Teams Chatrooms erstellen mithilfe von System Center Configuration Manager.
 
 Mit den Methoden leicht zu bedienende zur Verfügung gestellt von System Center Configuration Manager können Sie das Betriebssystem und andere Anwendungen für mehrere Geräte bereitstellen.
 
 Verwenden Sie den unten dargestellten, durch die Konfiguration der Konfigurations-Manager, leiten Ansatz, und passen Sie die Beispielpaketen und der Bedarf für Ihre Organisation in dieser Anleitung bereitgestellten Skripts.
 
-![Skype-Chatroom-Systemen v2 Bereitstellungsprozess von Configuration Manager](../../media/room-systems-scale-image1.png)
+![Microsoft-Teams Chatrooms Bereitstellungsprozess von Configuration Manager](../../media/room-systems-scale-image1.png)
 
 > [!IMPORTANT]
 > Diese Lösung wurde mit Surface Pro basierenden Bereitstellungen nur getestet. Folgen Sie den Hersteller Richtlinien für Konfigurationen, die nicht auf Surface Pro basieren.
 
 ## <a name="validate-prerequisites"></a>Überprüfen Sie die Komponenten
 
-Um Skype Raum Systemen v2 mit Configuration Manager bereitstellen, stellen Sie sicher, dass die folgenden Voraussetzungen und Anforderungen erfüllt.
+Um Microsoft Teams Chatrooms mit Configuration Manager bereitstellen, stellen Sie sicher, dass die folgenden Voraussetzungen und Anforderungen erfüllt.
 
 ### <a name="system-center-configuration-manager-requirements"></a>System Center Configuration Manager-Anforderungen
 
@@ -46,11 +47,11 @@ Um Skype Raum Systemen v2 mit Configuration Manager bereitstellen, stellen Sie s
 
 -   Ein Netzwerk für den Inhaltszugriff muss zur Unterstützung der neuen Computer (bare-Metal) Bereitstellungsszenarien konfiguriert werden. Mehr über die Konfiguration des ein Netzwerk für den Inhaltszugriff finden Sie unter [Verwalten von Konten Zugriff auf die Inhalte in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
--   Wir empfehlen, dass Sie [multicast-Support](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), aktivieren, wenn Sie wahrscheinlich dasselbe Skype Raum Systemen v2 Bild für mehrere Einheiten zur selben Zeit bereitstellen werden.
+-   Wir empfehlen, dass Sie [multicast-Support](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), aktivieren, wenn Sie wahrscheinlich dasselbe Microsoft-Teams Chatrooms Bild für mehrere Einheiten zur selben Zeit bereitstellen werden.
 
 ### <a name="networking-requirements"></a>Netzwerkanforderungen
 
--   Ihr Netzwerk sollte auf einen Dynamic Host Configuration Protocol (DHCP)-Server konfiguriert werden, für die automatische Verteilung von IP-Adresse an die Subnetze dem Skype Raum Systemen v2 Einheiten bereitgestellt wird.
+-   Ihr Netzwerk sollte einen Dynamic Host Configuration Protocol (DHCP)-Server, für die automatische Verteilung von IP-Adresse an die Subnetze, auf dem Microsoft-Teams Chatrooms Einheiten bereitgestellt wird, konfiguriert haben.
 
     > [!NOTE]
     > Die DHCP-Lease muss auf einen anderen Wert länger als die Dauer der Bild-Bereitstellung festgelegt werden. Andernfalls kann die Bereitstellung fehlschlagen.
@@ -80,7 +81,7 @@ Gehen Sie folgendermaßen vor, um sicherzustellen, dass das Betriebssystem Berei
 
 1.  Navigieren Sie in der Configuration Manager-Konsole zu **Administration** \> **Verteilungspunkte**.
 
-2.  Wählen Sie den Verteilung Punkt Server, der die Skype Raum Systemen v2 Bereitstellung dienen, und wählen Sie dann **Eigenschaften**aus.
+2.  Wählen Sie den Verteilung Point Server, der die Bereitstellung von Microsoft-Teams Räume dienen, und wählen Sie dann **Eigenschaften**aus.
 
 3.  Wählen Sie die **PXE** -Registerkarte, und stellen Sie sicher, dass die folgenden Einstellungen aktiviert sind:
     -   Aktivieren der PXE-Unterstützung für clients
@@ -129,16 +130,16 @@ Weitere Informationen finden Sie unter [Manage Boot Bilder mit System Center Con
 
 ## <a name="create-configuration-manager-packages"></a>Konfigurations-Manager-Pakete erstellen
 
-Konfigurations-Manager erfordert eine Reihe von Paketen zum Bereitstellen und Konfigurieren der Skype Raum System v2 Einheiten.
+Konfigurations-Manager erfordert eine Reihe von Paketen zum Bereitstellen und konfigurieren die Microsoft-Teams Chatrooms Einheiten.
 
 Sie benötigen zum Erstellen und konfigurieren die folgenden Pakete, und klicken Sie dann den Konfigurations-Manager-Website-Systemen, die die Verteilung Point-Serverrolle zugewiesen wurden verteilen.
 
 | **Paketname**                     | **Typ**               | **Beschreibung**                                                                           |
 |--------------------------------------|------------------------|-------------------------------------------------------------------------------------------|
-| SRS v2 - Anwendungspaket SRS     | Softwarepaket       | Paket für das Skype Raum Systemen v2 Deployment kit                                      |
-| SRS v2 - Sysprep-Paket             | Softwarepaket       | Paket für die benutzerdefinierte Unattended.xml Skype Raum Systemen v2 Einheiten konfigurieren            |
+| SRS v2 - Anwendungspaket SRS     | Softwarepaket       | Paket für das Microsoft-Teams Chatrooms Deployment kit                                      |
+| SRS v2 - Sysprep-Paket             | Softwarepaket       | Paket für die benutzerdefinierte Unattended.xml Microsoft Teams Chatrooms Einheiten konfigurieren            |
 | SRS v2 - Set-SRSComputerName-Paket | Softwarepaket       | Paket für die HTML-Anwendung (HTA) zuweisen einen Computernamen während der Bereitstellung    |
-| SRS v2 - SRS Setup konfigurieren         | Softwarepaket       | So konfigurieren Sie die Bereitstellung der app v2 Skype Raum Systeme Paket                          |
+| SRS v2 - SRS Setup konfigurieren         | Softwarepaket       | Konfigurieren der Bereitstellung der Microsoft-Teams Chatrooms app-Paket                          |
 | SRS v2 - aktualisiert OS Paket          | Softwarepaket       | Paket zum Bereitstellen von Updates obligatorisch Betriebssystem                                      |
 | SRS v2 - Root Certificate-Paket    | Softwarepaket       | Optional - Pakets zum Bereitstellen von des Stammzertifikats (nicht für die Domäne eingebundener Einheiten erforderlich)  |
 | SRS v2 - Microsoft Agent-Paket Monitoring | Softwarepaket       | Optional - Pakets zum Bereitstellen und Konfigurieren des Microsoft Operations Management Suite-Agents|
@@ -215,7 +216,7 @@ Erstellen Sie die folgende Ordnerstruktur, die Zentraladministrationswebsite fü
    ```
 3. Laden Sie die obligatorische Windows Update-Pakete in den gleichen Ordner.
    > [!NOTE]
-   > Zum Zeitpunkt der Veröffentlichung des Artikels, war nur [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) erforderlich. Überprüfen Sie [Konfigurieren einer Skype Raum Systemen v2-Konsole](console.md), um festzustellen, ob andere Updates erforderlich sind.
+   > Zum Zeitpunkt der Veröffentlichung des Artikels, war nur [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) erforderlich. Überprüfen Sie [Konfigurieren einer Microsoft-Teams Räume-Konsole](console.md), um festzustellen, ob andere Updates erforderlich sind.
 
 4. Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Anwendungsverwaltung** \> **Pakete**, und wählen Sie dann **Paket erstellen**.
 
@@ -235,7 +236,7 @@ Erstellen Sie die folgende Ordnerstruktur, die Zentraladministrationswebsite fü
 
 Sie erstellen diese Package, um das Stammzertifikat für Geräte verteilen, die mit einer Active Directory-Domäne verknüpft werden, werden nicht aus. Erstellen Sie dieses Paket nur, wenn beide die folgenden Bedingungen gelten:
 -   Ihre Bereitstellung umfasst lokalen Lync oder Skype für Business Server.
--   Skype-Chatroom-Systemen v2 Einheiten werden für die Verwendung in einer Arbeitsgruppe statt Mitglied einer Domäne konfiguriert.
+-   Microsoft-Teams Chatrooms Einheiten werden für die Verwendung in einer Arbeitsgruppe statt Mitglied einer Domäne konfiguriert.
 
 1.  Kopieren Sie das Stammzertifikat, in den Ordner **SRS v2 – Root Certificate-Paket** .
 
@@ -253,9 +254,9 @@ Sie erstellen diese Package, um das Stammzertifikat für Geräte verteilen, die 
 
 6.  Wählen Sie **Schließen**aus.
 
-### <a name="create-the-skype-room-systems-v2-deployment-kit-package"></a>Erstellen Sie das Skype Raum Systemen v2 Kit Bereitstellungspaket
+### <a name="create-the-microsoft-teams-rooms-deployment-kit-package"></a>Das Microsoft-Teams Chatrooms Kit Bereitstellungspaket erstellen
 
-1.  Herunterladen der neuesten Version des **Skype Raum Systemen v2 Deployment Kit** von <https://go.microsoft.com/fwlink/?linkid=851168>, und installieren Sie es auf einer Arbeitsstation.
+1.  Herunterladen der neuesten Version des **Microsoft-Teams Chatrooms Deployment Kit** von <https://go.microsoft.com/fwlink/?linkid=851168>, und installieren Sie es auf einer Arbeitsstation.
 
 2.  Kopieren Sie den Inhalt von **C:\\Program Files (x86)\\Skype Raum System Deployment Kit** in den Ordner **SRS v2 - SRS Anwendungspaket** .
 
@@ -469,10 +470,10 @@ Weitere Informationen finden Sie unter [Manage Betriebssystem Bilder mit System 
 
 ### <a name="create-surface-pro-device-driver-packages"></a>Erstellen Sie Surface Pro Gerät Treiberpakete.
 
-Skype-Chatroom-Systemen v2 wird für Surface Pro und Surface Pro 4 unterstützt. Sie müssen ein Paket für jedes Surface Pro Modell zu erstellen, die Ihnen in Ihrer Umgebung.
+Microsoft-Teams Chatrooms wird für Surface Pro und Surface Pro 4 unterstützt. Sie müssen ein Paket für jedes Surface Pro Modell zu erstellen, die Ihnen in Ihrer Umgebung.
 
 > [!IMPORTANT]
-> Die Treiber müssen mit der Windows 10 Enterprise Build und Skype Raum Systemen v2 Deployment Kit Version kompatibel sein. Weitere Informationen finden Sie unter [Laden Sie die neueste Firmware und Treiber für Fläche Geräte](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) und [Konfigurieren einer Konsole](console.md).
+> Die Treiber müssen mit der Windows-10-Enterprise-Build und die Microsoft-Teams Chatrooms Deployment Kit Version kompatibel sein. Weitere Informationen finden Sie unter [Laden Sie die neueste Firmware und Treiber für Fläche Geräte](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) und [Konfigurieren einer Konsole](console.md).
 
 1.  Laden Sie die aktuellsten Treiber und Firmware.
     -   Für Surface Pro:<https://www.microsoft.com/download/details.aspx?id=55484>
@@ -505,7 +506,7 @@ Skype-Chatroom-Systemen v2 wird für Surface Pro und Surface Pro 4 unterstützt.
 > [!NOTE]
 > Wiederholen Sie die gleichen Schritte für andere Surface Pro Modelle möglicherweise. Weitere Informationen finden Sie unter [Manage Treiber in System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
 
-### <a name="create-skype-room-system-configuration-package"></a>Skype-Raum Systempakets Konfiguration erstellen
+### <a name="create-microsoft-teams-rooms-configuration-package"></a>Microsoft-Teams, Räume Konfigurationspaket erstellen
 
 1.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Anwendungsverwaltung** \> **Pakete**, und wählen Sie dann **Paket erstellen**.
 
@@ -564,13 +565,13 @@ Alle Pakete müssen an die Server verteilt werden, die die Verteilungspunktrolle
 > [!NOTE]
 > Paket Verteilung kann je nach der Größe der Verteilungspakete, Konfigurations-Manager-Hierarchie, Anzahl der Verteilung Point Server und die Bandbreite in Ihrem Netzwerk verfügbar einige Zeit dauern.
 > 
-> Bevor Sie eine Skype Raum Systemen v2 Einheit bereitstellen können, müssen alle Pakete verteilt werden.
+> Bevor Sie eine Einheit Microsoft Teams Chatrooms bereitstellen können, müssen alle Pakete verteilt werden.
 > 
 > Sie können den Status Ihrer Paket Verteilung in der Configuration Manager-Konsole auf **Überwachung** überprüfen \> **Verteilungsstatus** \> **Status des Inhalts**.
 
 ## <a name="configuration-manager-task-sequences"></a>Konfigurations-Manager Task sequences
 
-Mit System Center Configuration Manager verwenden Sie Task Sequences, um die Schritte zur Bereitstellung eines Betriebssystemabbilds auf einem Zielcomputer zu automatisieren. Zum Bereitstellen von Skype Raum Systemen v2 Einheit automatisiert zu erstellen Sie eine Aufgabensequenz, die zum Starten der Zielcomputer Skype Raum Systemen v2, das Windows-10-Enterprise-Betriebssystemabbild, das Sie installieren möchten und andere Boot-Abbild verweist Weitere zusätzliche Inhalte wie andere Anwendungen oder Softwareupdates.
+Mit System Center Configuration Manager verwenden Sie Task Sequences, um die Schritte zur Bereitstellung eines Betriebssystemabbilds auf einem Zielcomputer zu automatisieren. Zum Bereitstellen von Microsoft-Teams Chatrooms Einheit automatisiert zu erstellen Sie eine Aufgabensequenz, die zum Starten der Zielcomputer Microsoft Teams Chatrooms, die Windows-10-Enterprise-Betriebssystemabbilds, die Sie installieren möchten und andere Boot-Abbild verweist Weitere zusätzliche Inhalte wie andere Anwendungen oder Softwareupdates.
 
 ### <a name="import-the-sample-task-sequence"></a>Importieren Sie die Beispiel Aufgabensequenz
 
@@ -579,7 +580,7 @@ Sie können herunterladen und auf einfache Weise importieren eine Beispiel-Aufga
 1.  [**Herunterladen**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) der Aufgabensequenz Sample, und kopieren Sie die heruntergeladene Zip-Datei an einen freigegebenen Speicherort.
 2.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Betriebssysteme** \> **Task Sequences**, und wählen Sie dann **Import Task Sequence**.
 
-3.  Wählen Sie **Durchsuchen**, wechseln Sie auf den Speicherort des freigegebenen Ordners, den Sie in Schritt 1 verwendet haben, wählen Sie die **Skype Raum Systemen v2-Bereitstellung (EN-US) ZIP** -Datei, und wählen Sie dann auf **Weiter**.
+3.  Wählen Sie **Durchsuchen**, wechseln Sie auf den Speicherort des freigegebenen Ordners, den Sie in Schritt 1 verwendet haben, wählen Sie die **Microsoft-Teams Chatrooms Bereitstellung (EN-US) ZIP** -Datei, und wählen Sie dann auf **Weiter**.
 
 4.  Legen Sie die **Aktion** auf **Neu erstellen**, und wählen Sie dann auf **Weiter**.
 
@@ -591,7 +592,7 @@ Sie können herunterladen und auf einfache Weise importieren eine Beispiel-Aufga
 
 1. Wählen Sie die importierten Aufgabensequenz aus, und wählen Sie dann auf **Bearbeiten**.
 
-    Den Task Sequence Editor wird geöffnet und zeigt jede sequenziellen Schritt, die Sie benötigen zum Bereitstellen und Konfigurieren von Skype Raum Systemen v2 Einheit.
+    Den Task Sequence Editor wird geöffnet und zeigt jede sequenziellen Schritt, die Sie benötigen zum Bereitstellen und konfigurieren eine Microsoft-Teams Chatrooms Einheit.
 
 2. Durch die einzelnen Schritte durchlaufen Sie, und schließen Sie die empfohlenen Updates:
 
@@ -599,7 +600,7 @@ Sie können herunterladen und auf einfache Weise importieren eine Beispiel-Aufga
 
    2. **Partition Datenträger 0 – UEFI**: in diesem Schritt löscht die Datenträgerkonfiguration und Partitionen basierend auf den konfigurierten Einstellungen erstellt. Es wird empfohlen, dass Sie keine Änderungen an diesen Schritt vorgenommen.
 
-   3. **SRS Computername festgelegt**: Dieser Schritt umfasst das eine HTML-Anwendung eine Benutzeroberfläche zum Festlegen von eines Computernamen für die Skype Raum Systemen v2 Einheit während der Bereitstellung bereitstellen.
+   3. **SRS Computername festgelegt**: Dieser Schritt umfasst das eine HTML-Anwendung eine Benutzeroberfläche zum Festlegen von eines Computernamen für die Microsoft-Teams Chatrooms Einheit während der Bereitstellung bereitstellen.
       -  Dies ist ein optionaler Schritt, aber es kann nur deaktiviert werden, wenn Sie über ein alternativer Prozess die Benennung von Computern verwalten möchten.
       -  Stellen Sie sicher, dass das Paket **SRS v2 - Set-SRSComputerName** ausgewählt ist. Falls nicht, suchen Sie das Paket, und wählen Sie sie aus.
 
@@ -612,7 +613,7 @@ Sie können herunterladen und auf einfache Weise importieren eine Beispiel-Aufga
 
    6. **Netzwerkeinstellungen anwenden**: in diesem Schritt können Sie einer Arbeitsgruppe oder Name der Active Directory-Domäne und Organisationseinheit angeben.
       > [!NOTE]
-      > Empfohlene Schritte, die Sie bei der Bereitstellung von Skype Raum Systemen v2 Einheiten als Mitglied einer Domäne ADSI Directory durchführen müssen, finden Sie unter [Skype Raum System Domäne beitretenden Considerations](domain-joining-considerations.md) .
+      > Empfohlene Schritte, die Sie bei der Bereitstellung von Microsoft-Teams Chatrooms Einheiten als Mitglied einer Domäne ADSI Directory durchführen müssen, finden Sie unter [Skype Raum System Domäne beitreten Considerations](domain-joining-considerations.md) .
    7. **Treiber anwenden:** Dieser Schritt und seine Unterschritte dienen zum entsprechenden Gerätetreiber und Firmware basierend auf dem Surface Pro Modell haben Sie bereitstellen. Aktualisieren Sie jeden Schritt zum Angeben des entsprechenden Treiberpakets dieser Bereitstellung zugeordnet.
       -   Jedes Paket Nutzung der Windows-Verwaltungsinstrumentation (WMI) Filter zum Bereitstellen von relevanten Treiber konfiguriert und Firmware basierend auf dem Surface Pro Marke und das Modell.
       -   Es wird dringend empfohlen, dass Sie die Konfiguration dieser Treiber nicht ändern, andernfalls Bereitstellung fehlschlagen.
@@ -620,21 +621,21 @@ Sie können herunterladen und auf einfache Weise importieren eine Beispiel-Aufga
    8. **Einrichten von Windows und Konfigurations-Manager**: in diesem Schritt bereitstellen und konfigurieren Sie den Konfigurations-Manager-Client. Aktualisieren Sie diesen Schritt, um die integrierten Konfigurations-Manager-Client-Paket angeben.
 
    9. **Stammzertifikat installieren**: in diesem Schritt das Stammzertifikat für Geräte nicht in die Domäne eingebundener verteilt und daher ist optional und standardmäßig deaktiviert.
-      -   Aktivieren Sie diesen Schritt, wenn Sie ein Stammzertifikat für die Skype Raum Systemen v2 Einheiten bereitstellen müssen.
+      -   Aktivieren Sie diesen Schritt, wenn Sie ein Stammzertifikat der Einheiten von Microsoft-Teams Chatrooms bereitstellen müssen.
       -   Wenn Sie benötigen, um diesen Schritt ausführen, stellen Sie sicher, dass der **SRS v2 – Root Certificate-Paket** und **Deaktivieren von 64-Bit-Datei System Umleitung** ausgewählt sind.
 
    10. **Installieren und Konfigurieren der Überwachung Agent**: in diesem Schritt installiert die 64-Bit-Version von der Microsoft Azure Monitor-Agent und den Verbindung mit den Arbeitsbereich Protokoll Analytics-Agent konfiguriert.
-       -   Dieser Schritt ist standardmäßig deaktiviert. Aktivieren Sie diesen Schritt nur aus, wenn der Agent Monitoring verwenden Sie zum Überwachen der Integrität der Skype Raum Systemen v2-Einheiten werden soll.
+       -   Dieser Schritt ist standardmäßig deaktiviert. Aktivieren Sie diesen Schritt nur aus, wenn der Agent Monitoring verwenden Sie zum Überwachen der Integrität der Microsoft-Teams Räume-Einheiten werden soll.
        -   Bearbeiten Sie diesen Schritt und aktualisieren Sie die Befehlszeilenparameter, um das **Workspace-ID** und den **Arbeitsbereich Schlüssel**anzugeben.
        -   Weitere Informationen zum Beziehen der Vorgänge Management Suite Workspace-ID und den Primärschlüssel finden Sie unter [Configure Geräte für die Überwachung von Azure testen](azure-monitor.md#configure-test-devices-for-azure-monitoring) .
        -   Stellen Sie sicher, dass der **SRS v2 – Microsoft Monitoring Agent-Paket** und **Deaktivieren von 64-Bit-Datei System Umleitung** ausgewählt sind.
-       -   Weitere Informationen zum Überwachen der Integrität der Bereitstellung v2 Skype Raum Systeme finden Sie unter [Planen von Skype Raum v2 systemverwaltung mit Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [Bereitstellen Skype Raum v2 systemverwaltung mit Azure Monitor](azure-monitor.md) und [Verwalten Skype Raum Systeme v2 Geräte mit Azure Monitor](../../manage/skype-room-systems-v2/azure-monitor.md).
+       -   Weitere Informationen zum Überwachen der Integrität Ihrer Bereitstellung von Microsoft-Teams Chatrooms finden Sie unter [Planen von Microsoft Teams Chatrooms Verwaltung mit Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [Deploy Microsoft-Teams, Räume mit Azure Monitor](azure-monitor.md) und [verwalten Microsoft Teams Chatrooms Geräte mit Azure Monitor](../../manage/skype-room-systems-v2/azure-monitor.md).
 
-   11. **Kopie SRS v2 Konfigurationsdateien**: Dieser Schritt kopiert die erforderlichen Dateien von Setup und Konfiguration aus Skype Raum Systemen v2 Deployment Kit in der lokalen Festplatte. Keine Anpassung ist für diesen Schritt erforderlich.
+   11. **Kopie SRS v2 Konfigurationsdateien**: Dieser Schritt kopiert die erforderlichen Dateien von Setup und Konfiguration aus dem Microsoft Teams Chatrooms Deployment Kit in der lokalen Festplatte. Keine Anpassung ist für diesen Schritt erforderlich.
        -   Stellen Sie sicher, dass der **SRS v2 – SRS Anwendungspaket** und **Deaktivieren von 64-Bit-Datei System Umleitung** ausgewählt sind.
 
-   12. **Install-SRSv2-OS-Updates**: in diesem Schritt wird alle obligatorisch mit der Bereitstellung der Skype Raum Systemen v2 erforderlichen Betriebssystemupdates bereitgestellt. Gehen Sie wie folgt vor:
-       -   Überprüfen Sie [konfigurieren einen Skype Raum Systemen v2-Konsole](console.md) , um herauszufinden, welche Updates erforderlich sind.
+   12. **Install-SRSv2-OS-Updates**: in diesem Schritt wird alle obligatorisch mit der Bereitstellung von Microsoft-Teams Chatrooms erforderlichen Betriebssystemupdates bereitgestellt. Gehen Sie wie folgt vor:
+       -   Überprüfen Sie [Konfigurieren einer Microsoft-Teams Räume-Konsole](console.md) , um herauszufinden, welche Updates erforderlich sind.
        -   Stellen Sie sicher, dass Ihre **SRS v2 – Paket mit OS Updates** alle erforderlichen Updates enthält.
        -   Stellen Sie sicher, dass der **SRS v2 – Paket mit OS Updates** aktiviert ist.
        -   Stellen Sie sicher, dass die PowerShell-Ausführungsrichtlinie **umgehen**festgelegt ist.
@@ -645,9 +646,9 @@ Sie können herunterladen und auf einfache Weise importieren eine Beispiel-Aufga
 
    15. **Computer neu starten**: Dieser Schritt startet den Computer neu, nachdem die Windows-Features konfiguriert werden. Keine Anpassung ist für diesen Schritt erforderlich.
 
-   16. **Skype-Benutzer**: Dieser Schritt wird das lokale Skype-Konto verwendet, um automatisch bei Windows anmelden und starten Sie die Skype Raum Systemen v2-Anwendung erstellt. Dieser Schritt keine Softwarepaket zugeordnet haben, und keine Anpassung für die es erforderlich ist.
+   16. **Skype-Benutzer**: Bei diesem Schritt wird das lokale Skype-Konto verwendet, um automatisch bei Windows anmelden, und starten Sie die Anwendung Microsoft-Teams Chatrooms. Dieser Schritt keine Softwarepaket zugeordnet haben, und keine Anpassung für die es erforderlich ist.
 
-   17. **Festlegen einrichten und Konfigurieren der SRS Anwendung**: in diesem Schritt Skype Raum Systemen v2 die Installation der Anwendung für den nächsten Start des Betriebssystems konfiguriert.
+   17. **Festlegen einrichten und Konfigurieren der SRS Anwendung**: in diesem Schritt Microsoft Teams Chatrooms die Installation der Anwendung für den nächsten Start des Betriebssystems konfiguriert.
        -   Stellen Sie sicher, dass der **SRS v2 – SRS Setuppaket konfigurieren** und **Deaktivieren von 64-Bit-Datei System Umleitung** ausgewählt sind.
 
 > [!IMPORTANT]
@@ -671,7 +672,7 @@ Sie können herunterladen und auf einfache Weise importieren eine Beispiel-Aufga
    > [!WARNING]
    > Es ist sehr wichtig, dass **Zweck** auf **verfügbar**festgelegt ist. Stellen Sie sicher, dass der **Zweck** **nicht** auf **erforderlich**festgelegt ist. Stellen Sie außerdem sicher, dass Sie in **der folgenden zur Verfügung stellen** **nur Medien und PXE** auswählen.
    >
-   > Festlegen von diese Werte auf einen anderen Suchbegriff möglicherweise alle Computer mit dem Skype Raum Systeme Bereitstellungsabbild Wenn gestartet wird.
+   > Festlegen von diese Werte auf einen anderen Suchbegriff möglicherweise alle Computer mit dem Microsoft-Teams Chatrooms Bereitstellungsabbild Wenn gestartet wird.
 7. Geben Sie eine beliebige Zeitplan keine, und wählen Sie **Weiter**aus.
 
 8. Ändern Sie alles innerhalb des Abschnitts der **Benutzeroberfläche** nicht, und wählen Sie **Weiter**aus.
@@ -687,7 +688,7 @@ Sie können herunterladen und auf einfache Weise importieren eine Beispiel-Aufga
 <a name="validate-and-troubleshoot-the-solution"></a>Überprüfen Sie und Problembehandlung bei der Lösung
 --------------------------------------
 
-Nachdem Sie die System Center Configuration Manager Task Sequences abgeschlossen haben, müssen Sie führen Sie einen Test ausführen, um zu überprüfen, ob die Abfolge der Vorgänge kann bereitstellen und Konfigurieren von Skype Raum Systemen v2 Einheiten.
+Nachdem Sie die System Center Configuration Manager Task Sequences abgeschlossen haben, müssen Sie führen Sie einen Test ausführen, um zu überprüfen, ob die Abfolge der Vorgänge kann bereitstellen und Konfigurieren von Microsoft-Teams Chatrooms Einheiten.
 
 1.  Verbinden Sie das Testgerät mit dem Kabelnetzwerk mithilfe einer der unterstützten Ethernet-Adapter oder mit der Fläche andocken. Wenn PXE-Boot-Funktionalität für Ihre Umgebung nicht konfiguriert wurde, können Sie das Boot-Abbild auf die USB flash-Laufwerk [das Sie zuvor erstellt](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media) von USB starten und eine Verbindung herstellen zu Configuration Manager.
 
@@ -720,13 +721,13 @@ Nachdem Sie die System Center Configuration Manager Task Sequences abgeschlossen
 
 8.  Der Rest des Bereitstellungsprozesses erfolgt automatisch und nicht für jede weitere Benutzereingaben bitten.
 
-9.  Nach Abschluss die Bereitstellungsreihenfolge für die Aufgabe Konfigurieren des Geräts sehen Sie die folgenden Konfigurationsbildschirm, die Sie zum Konfigurieren der Einstellungen der Skype Raum Systemen v2 aufgefordert werden.
+9.  Nach Abschluss die Bereitstellungsreihenfolge für die Aufgabe Konfigurieren des Geräts sehen Sie die folgenden Konfigurationsbildschirm, die Sie zum Konfigurieren der Einstellungen für die Microsoft-Teams Chatrooms aufgefordert werden.
 
-    ![Anfängliche Setupbildschirm für Skype Raum Systemen v2-Anwendung](../../media/room-systems-scale-image2.png)
+    ![Anfängliche Setupbildschirm für Microsoft-Teams Chatrooms fest](../../media/room-systems-scale-image2.png)
 
-10.  Schließen Sie die Konsole Skype Raum Systeme v2 Surface Pro, und Konfigurieren der Einstellungen.
+10.  Schließen Sie in der Microsoft-Teams Chatrooms Konsole Surface Pro und konfigurieren Sie der Einstellungen für die.
 
-11.  Überprüfen Sie, dass die Funktionen in [Skype Raum Systemen v2 Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) aufgeführten auf dem Gerät bereitgestellt werden.
+11.  Überprüfen Sie, dass die Funktionen aufgeführt, die in der [Hilfe zu Microsoft-Teams Chatrooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) auf dem Gerät bereitgestellt werden.
 
 
 Um eine fehlerhafte Installation zu beheben, überprüfen Sie **die Masterprotokolldatei, in dem alle Schritte in einer Configuration Manager-Aufgabensequenz ausgeführt protokolliert** .

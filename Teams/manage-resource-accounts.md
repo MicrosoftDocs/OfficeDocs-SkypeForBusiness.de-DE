@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Erfahren Sie mehr über das Verwalten von Ressourcenkonten in Microsoft-Teams
-ms.openlocfilehash: ad435a812191cc8f7b9061ac5fba2bbe626b908e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: b24538e73d236da2c7ee9e889b7cd117a3c931b0
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886061"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012955"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
@@ -38,11 +38,15 @@ In Microsoft-Teams oder Skype für Business Online, jeden Anruf Warteschlange od
 
 Erste Schritte beim es ist wichtig, sollten Sie einige Dinge bedenken:
   
-- Sie müssen ein Ressourcenkonto eine Telefonsystem Lizenz zuweisen, die die automatische Telefonzentrale oder ein Anruf Warteschlange zugeordnet werden. Weitere Informationen zu Lizenzierung finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-    
+- Eine automatische Telefonzentrale oder ein Anruf Warteschlange ist erforderlich, um ein Ressourcenkonto zugeordneten verfügen. Details auf Ressourcenkonten finden Sie unter [Manage Ressourcenkonten in Teams](manage-resource-accounts.md) .
+- Wenn Sie eine direkte Routing Number zuweisen möchten, müssen Sie erwerben und weisen Sie die folgenden Lizenzen der Ressourcenkonten \(Office 365 Enterprise E1, E3 oder E5, mit dem Telefonsystem Add-on\).
+- Wenn Sie stattdessen eine Microsoft-Dienst Zahl zuordnen möchten, müssen Sie erwerben und weisen Sie Ihr Ressourcenkonto folgenden Lizenzen \(Office 365 Enterprise E1, E3 oder E5, mit dem Telefonsystem Add-on und Aufrufen planen\).
 
-    > [!NOTE]
-    > Zum Umleiten von Anrufen an Personen in Ihrer Organisation, die Online sind, sie benötigen eine Lizenz **Telefonsystem** und für Enterprise-VoIP aktiviert sein oder Office 365 aufrufen Plans. Finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md). Um diese Lizenzen für Enterprise-VoIP zu aktivieren, können Sie die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!NOTE] 
+> Microsoft arbeitet eine entsprechende Lizenzierungsmodell für Anwendungen wie Cloud automatische Telefonzentrale und den Anruf-Warteschlangen für an jetzt Sie das Benutzerlizenzierung Objektmodell verwenden müssen.
+    
+> [!NOTE]
+> Zum Umleiten von Anrufen an Personen in Ihrer Organisation, die Online sind, sie benötigen eine Lizenz **Telefonsystem** und für Enterprise-VoIP aktiviert sein oder Office 365 aufrufen Plans. Finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md). Um diese Lizenzen für Enterprise-VoIP zu aktivieren, können Sie die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Sie können eine direkte Routing Hybrid Anzahl Ihrer Ressourcenkonto zuweisen.  Einzelheiten finden Sie unter [Planen der direkten Routing](direct-routing-plan.md) .
 - Für Microsoft aufrufende plant können Sie nur zuweisen gebührenpflichtige oder gebührenfreie Service Telefonnummern, die Sie haben Sie in der **Microsoft-Teams, Administrationscenter** oder in einem Ressourcenkonto aus einer anderen Dienstanbieter übertragen. Um gebührenfreie Servicenummern zu erhalten müssen Sie Communication Credits einrichten.
@@ -54,6 +58,12 @@ Eine Telefonnummer ein, um ein Ressourcenkonto zuzuweisen, müssen Sie erhalten 
   
 > [!NOTE]
 > Wenn Sie sich außerhalb der USA sind, können das Microsoft-Teams, Administrationscenter Sie um Service Zahlen zu erhalten. Wechseln Sie zum [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) stattdessen, wie Sie von außerhalb der USA finden Sie unter.
+
+## <a name="create-a-resource-account-in-admin-center"></a>Erstellen Sie ein Ressourcenkonto im Administrationscenter
+
+Navigieren Sie zum Erstellen einer Ressourcenkontos im Microsoft-Teams, Administrationscenter zu **Org geltende Settings** > **Ressourcenkonten**, klicken Sie auf **+ Hinzufügen**, und füllen Sie den Anzeigenamen, den Benutzernamen ein, und klicken Sie dann wählen Sie den Domänennamen aus und klicken Sie auf **Speichern**.
+
+Um eine Lizenz für das Ressourcenkonto übernehmen möchten, navigieren Sie zur Registerkarte Benutzer O365 Admin Center.
 
 ## <a name="create-a-resource-account-in-powershell"></a>Erstellen Sie ein Ressourcenkonto in Powershell
 
@@ -82,7 +92,11 @@ Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
 Get-CsOnlineTelephoneNumber -TelephoneNumber 19294450177
 ```
 
+Die Telefon Zuweisung schlägt fehl, wenn Sie keine Lizenz beim Erstellen des Ressourcenkontos anwenden. 
+
 Weitere Informationen zu diesem Befehl finden Sie unter [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) .
+
+
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>Verwalten von Einstellungen für Ressource-Konto im Microsoft-Teams, Administrationscenter
 

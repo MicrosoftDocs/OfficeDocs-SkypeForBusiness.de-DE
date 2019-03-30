@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen von Skype Raum Systemen v2 mit Skype für Business Server
+title: Bereitstellen von Microsoft-Teams, Räume mit Skype für Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,31 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
+- M365-voice
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: Lesen Sie dieses Thema bietet Informationen zum Skype Raum Systemen v2 mit Skype für Business Server bereitstellen.
-ms.openlocfilehash: 5159d9cc8835ebe2b6e1d74e2f7644ee11232b63
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+description: Lesen Sie dieses Thema bietet Informationen zum Microsoft-Teams Chatrooms mit Skype für Business Server bereitstellen.
+ms.openlocfilehash: e5ba372a5990f7c63827f1f8b0426e67ae48b620
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645394"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012476"
 ---
-# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Bereitstellen von Skype Raum Systemen v2 mit Skype für Business Server
+# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Bereitstellen von Microsoft-Teams, Räume mit Skype für Business Server
   
-In diesem Thema wird erläutert, wie Sie ein Gerät Konto für Skype Raum Systemen v2 hinzufügen, wenn Sie eine einzelnen Gesamtstruktur, lokale Bereitstellung vorhanden sind.
+In diesem Thema wird erläutert, wie Sie ein Gerät-Konto für Microsoft-Teams Chatrooms hinzufügen, Sie mit eine einzelnen Gesamtstruktur, lokale Bereitstellung haben.
   
 Wenn Sie einer einzelnen Gesamtstruktur, lokalen Bereitstellung von Exchange 2013 SP1 oder höher und Skype für Business Server 2015 oder höher verfügen, können Sie bereitgestellte Windows PowerShell-Skripts verwenden, um Gerät Konten zu erstellen. Wenn Sie eine Bereitstellung mit mehreren Gesamtstrukturen verwenden, können Sie die entsprechenden-Cmdlets verwenden, die die gleichen Ergebnisse erzeugt. Diese Cmdlets werden in diesem Abschnitt beschrieben.
 
-Die einfachste Möglichkeit zum Einrichten von Benutzerkonten ist von remote Windows PowerShell konfigurieren. Microsoft bietet [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), eines Skripts, das neue Benutzerkonten erstellen oder vorhandene Ressourcenkonten, mit denen Sie damit können Sie diese in kompatibel Skype Raum Systemen v2-Benutzerkonten aktivieren überprüfen helfen. Auf Wunsch können Sie die Schritte unten, um Geräts v2 Skype Raum Systemen verwendeten Konten zu konfigurieren.
-
-## <a name="requirements"></a>Voraussetzungen
-
-Bevor Sie Skype Raum Systemen v2 mit Skype für Business Server bereitstellen, achten Sie darauf, dass Sie die Anforderungen erfüllt sind. Weitere Informationen finden Sie unter [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
   
-Bevor Sie Skype Raum Systemen v2 bereitstellen beginnen, müssen Sie unbedingt, mit denen Sie die entsprechenden Berechtigungen für die zugehörigen Cmdlets ausführen.
+Bevor Sie Microsoft Teams Chatrooms bereitstellen beginnen, müssen Sie unbedingt, mit denen Sie die entsprechenden Berechtigungen für die zugehörigen Cmdlets ausführen.
   
-1. Eine Windows PowerShell-Remotesitzung von einem PC starten und eine Verbindung mit Exchange herstellen.
 
    ``` Powershell
    Set-ExecutionPolicy Unrestricted
@@ -49,7 +44,7 @@ Bevor Sie Skype Raum Systemen v2 bereitstellen beginnen, müssen Sie unbedingt, 
 
    Beachten Sie, dass $strExchangeServer den vollqualifizierten Domänennamen (FQDN) des Exchange-Servers, und $strLyncFQDN der FQDN des Ihrer Skype für Business Server-Bereitstellung ist.
 
-2. Nach dem Einrichten einer Sitzung, werden Sie entweder ein neues Postfach erstellen und als eine RoomMailboxAccount zu aktivieren oder Ändern der Einstellungen für ein vorhandenes Raumpostfach. Dadurch wird das Konto zum Skype Raum Systemen v2 authentifizieren.
+2. Nach dem Einrichten einer Sitzung, werden Sie entweder ein neues Postfach erstellen und als eine RoomMailboxAccount zu aktivieren oder Ändern der Einstellungen für ein vorhandenes Raumpostfach. Dadurch wird das Konto zum Microsoft-Teams Chatrooms authentifizieren.
 
     Wenn Sie ein vorhandenes Ressourcenpostfach ändern:
 
@@ -79,13 +74,13 @@ Bevor Sie Skype Raum Systemen v2 bereitstellen beginnen, müssen Sie unbedingt, 
    Set-AdUser $acctUpn -PasswordNeverExpires $true
    ```
 
-5. Aktivieren Sie das Konto in Active Directory, damit es Skype Raum Systemen V2 authentifiziert wird.
+5. Aktivieren Sie das Konto in Active Directory, damit es zu Microsoft-Teams Räumen authentifiziert wird.
 
    ``` Powershell
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. Aktivieren Sie das Gerät Konto mit Skype für Business Server, indem Ihre Skype Raum Systemen v2 Active Directory-Kontos auf einen Skype für Business Server-Pool aktivieren:
+6. Aktivieren Sie das Gerät Konto mit Skype für Business Server, indem Ihre Microsoft Teams Chatrooms Active Directory-Kontos auf einen Skype für Business Server-Pool aktivieren:
 
    ``` Powershell
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
@@ -94,7 +89,7 @@ Bevor Sie Skype Raum Systemen v2 bereitstellen beginnen, müssen Sie unbedingt, 
 
     Sie müssen die SIP-Adresse (Session Initiation-Protokoll) und den Domänencontroller für das Projekt verwenden.
 
-7. **Optional.** Sie können auch Skype Raum Systemen v2 tätigen und annehmen von public switched Telephone Network, (PSTN) Telefonanrufe durch Aktivieren von Enterprise-VoIP für Ihr Konto. Enterprise-VoIP ist eine Voraussetzung für Skype Raum Systemen v2 nicht, wenn Sie PSTN-Einwahl-Funktionalität für den Skype Raum Systemen v2 Client möchten, es gibt aber noch zum Aktivieren:
+7. **Optional.** Sie können auch Microsoft Teams Chatrooms tätigen und annehmen von public switched Telephone Network, (PSTN) Telefonanrufe durch Aktivieren von Enterprise-VoIP für Ihr Konto. Enterprise-VoIP ist eine Voraussetzung für Microsoft-Teams Chatrooms nicht, wenn Sie PSTN-Einwahl-Funktionalität für den Client für Microsoft-Teams Chatrooms möchten, es gibt aber noch zum Aktivieren:
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -123,12 +118,12 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 ## <a name="see-also"></a>Siehe auch
 
-[Konfigurieren von Konten für Skype Raum Systemen v2](room-systems-v2-configure-accounts.md)
+[Konfigurieren von Konten für Microsoft-Teams Räume](room-systems-v2-configure-accounts.md)
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planen der Microsoft-Teams, Räume](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Bereitstellen von Skype Room Systems v2](room-systems-v2.md)
+[Bereitstellen von Microsoft-Teams, Räume](room-systems-v2.md)
   
-[Konfigurieren einer Konsole für Skype Room Systems v2](console.md)
+[Konfigurieren einer Microsoft-Teams Räume-Konsole](console.md)
   
-[Verwalten von Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Verwalten von Microsoft-Teams, Räume](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

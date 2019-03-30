@@ -1,5 +1,5 @@
 ---
-title: Verwenden Sie das Skype Raum Systemen v2 Recovery-tool
+title: Verwenden Sie das Microsoft-Teams Chatrooms Recovery-tool
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,31 +8,32 @@ ms.date: 4/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+ms.collection: M365-voice
 localization_priority: Normal
-description: In diesem Artikel wird erläutert, wie das Wiederherstellungstool verwenden für Skype Raum Systemen v2, Sie verwenden würden, um ein veraltet System in einem unterstützten Zustand bringen.
-ms.openlocfilehash: 04bce72f6a8812c35b92f9f92d445cdf8765d110
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+description: In diesem Artikel wird erläutert, wie mit dem Recovery Tool für Microsoft-Teams Chatrooms, die Sie verwenden würden, um ein veraltet System in einem unterstützten Zustand bringen.
+ms.openlocfilehash: 9580a94c96b7982a3030ccc0435be8e05f7c4a25
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965989"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013080"
 ---
-# <a name="use-the-skype-room-systems-v2-recovery-tool"></a>Verwenden Sie das Skype Raum Systemen v2 Recovery-tool
+# <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Verwenden Sie das Microsoft-Teams Chatrooms Recovery-tool
  
-In diesem Artikel wird erläutert, wie das Wiederherstellungstool verwenden für Skype Raum Systemen v2, Sie verwenden würden, um ein veraltet System in einem unterstützten Zustand bringen. Verwenden Sie dieses Tool, wenn die Skype Raum Systemen v2-Konsole einen "veraltet System Config" Fehler angezeigt wird.
+In diesem Artikel wird erläutert, wie mit dem Recovery Tool für Microsoft-Teams Chatrooms, die Sie verwenden würden, um ein veraltet System in einem unterstützten Zustand bringen. Verwenden Sie dieses Tool, wenn die Microsoft-Teams Räume-Konsole einen "veraltet System Config" Fehler angezeigt wird.
   
 
 <a name="Prerequisites"> </a>  
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Laden Sie das neueste [Skype Raum Systemen v2 Installationspaket](https://go.microsoft.com/fwlink/?linkid=851168) und Entpacken Sie es auf einem USB-Speicher Stick oder einer Netzwerkressource Skype Raum Systemen v2 Gerät zugegriffen werden.
+Laden Sie das neueste [Installationspaket für den Microsoft-Teams Chatrooms](https://go.microsoft.com/fwlink/?linkid=851168) und Entpacken Sie es auf ein USB-Speicher Stick oder eine Netzwerkfreigabe für das Microsoft-Teams Chatrooms Gerät zugänglich ist.
 
 Sie müssen auch [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)installieren.
 
 <a name="Windows-ver"> </a>
 ## <a name="verify-windows-version"></a>Überprüfen der Windows-Version 
 
-1. Melden Sie sich ein Administratorkonto, indem Sie auf **Einstellungen > Windows-Einstellung > Admin anmelden** vom Gerät v2 Skype Raum Systeme. Diese Option bietet Ihnen zum Anmeldebildschirm.
+1. Melden Sie sich an ein Administratorkonto, indem Sie auf **Settings> Setting> Admin Anmeldung im Windows** vom Microsoft-Teams Chatrooms Gerät. Diese Option bietet Ihnen zum Anmeldebildschirm.
 2. Melden Sie sich bei einer Administratorkonto der Standard-Administrator berücksichtigt wird `admin` mit dem Kennwort `sfb`.
 3. Klicken Sie auf das Startmenü und Typ `winver.exe` in das Suchfeld, und klicken Sie auf * das Ergebnis der*Befehl ausführen* .
 4. Notieren Sie die Nummer nach "Version" in der zweiten Zeile im Infobereich.
@@ -52,17 +53,17 @@ Sie müssen auch [KB4089848](http://download.windowsupdate.com/d/msdownload/upda
 <a name="Perform"> </a>
 ## <a name="perform-a-recovery"></a>Führen Sie eine Wiederherstellung
 
-1. Melden Sie sich an das Administratorkonto auf dem mobilen Gerät Skype Raum Systeme-v2, und starten Sie eine Eingabeaufforderung mit erhöhten Rechten.
-2. Vergewissern Sie sich vom Gerät v2 Skype Raum Systeme, dass Sie Zugriff auf sind die `RecoveryTool.ps1` -Datei, die in die Dateien extrahiert haben, aus dem Skype Raum Systemen v2-Installationspaket enthalten ist. Das Kit finden Sie auf der Netzwerkfreigabe oder USB-Laufwerk beim Vorbereiten der erforderlichen Komponenten verwendet.
+1. Melden Sie sich an das Administratorkonto auf dem Gerät Microsoft Teams Chatrooms, und starten Sie eine Eingabeaufforderung mit erhöhten Rechten.
+2. Vergewissern Sie sich vom Microsoft-Teams Chatrooms Gerät, dass Sie Zugriff auf sind die `RecoveryTool.ps1` -Datei, die in die Dateien extrahiert haben, aus dem Microsoft-Teams Räume-Installationspaket enthalten ist. Das Kit finden Sie auf der Netzwerkfreigabe oder USB-Laufwerk beim Vorbereiten der erforderlichen Komponenten verwendet.
 3. Führen Sie den Befehl Powershell.exe `-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`.
 4. Bei Aufforderung durch die Option "Skript auswählen" `1:"Repair System"`.
-5. Starten Sie nach dem Abschluss das Skype Raum Systemen v2 Gerät neu. Es wird erneut automatisch neu gestartet und könnten vollständig wiederhergestellte zweites Mal.
+5. Starten Sie nach dem Abschluss das Microsoft-Teams Chatrooms Gerät neu. Es wird erneut automatisch neu gestartet und könnten vollständig wiederhergestellte zweites Mal.
 
 
 
 <a name="See"> </a>  
-## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
+## <a name="see-also"></a>Siehe auch
  
-[Skype Raum Systeme Version 2-Hilfe](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Hilfe für Microsoft-Teams Räume](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Verwalten von Skype Room Systems v2](skype-room-systems-v2.md)
+[Verwalten von Microsoft-Teams, Räume](skype-room-systems-v2.md)

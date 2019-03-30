@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen von Skype Room Systems v2
+title: Bereitstellen von Microsoft-Teams, Räume
 ms.author: Turgayo
 author: Turgayo
 manager: serdars
@@ -10,24 +10,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
+- M365-voice
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: Lesen Sie diesen Artikel, erfahren Sie mehr über die Bereitstellung von Skype Raum Systemen v2.
-ms.openlocfilehash: 7d80a803038724e8818ab01f6b4ae54b552cabcd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: In diesem Artikel erfahren Sie mehr über die Bereitstellung von Microsoft-Teams Chatrooms zu lesen.
+ms.openlocfilehash: c005f9c0bdd087c90746ff55a322a087da83032e
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879777"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012980"
 ---
 # <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
-Bereitstellung von Skype Raum Systemen v2 bricht im Wesentlichen in Phasen:
+Bereitstellung von Microsoft-Teams Chatrooms bricht im Wesentlichen in Phasen:
 
 - Bestätigen, dass Ihre Bereitstellung Speicherorte (Chatrooms) die Bereitstellung Abhängigkeiten erfüllt
-- Skype für Geschäfts- und Exchange-Konten erstellen und Zuweisen der Konsolengeräte (finden Sie unter [Konfigurieren von Konten für Skype Raum Systemen v2](room-systems-v2-configure-accounts.md))
-- Erstellen eines neuen Image Microsoft Surface Tablets als Skype Raum Systemen v2 Konsolen verwendbar sind (siehe [Konfigurieren einer Skype Raum Systemen v2 Konsole](console.md) oder [Bereitstellen von Skype Raum Systemen v2 Massen-e-Bereitstellungshandbuch](room-systems-scale.md))
-- (Optional) Einrichten von Microsoft Operations Management Suite für die Systeme (finden Sie unter [Bereitstellen von Skype Raum v2 systemverwaltung mit Azure Monitor](azure-monitor.md))
+- Skype für Geschäfts- und Exchange-Konten erstellen und Zuweisen der Konsolengeräte (finden Sie unter [Konfigurieren von Konten für Microsoft Teams Chatrooms](room-systems-v2-configure-accounts.md))
+- Erstellen eines neuen Image Microsoft Surface Tablets als Microsoft Teams Chatrooms Konsolen verwendbar sind (siehe [Konfigurieren einer Microsoft-Teams Chatrooms Konsole](console.md) oder [Bereitstellen von Microsoft Teams Chatrooms Masse Bereitstellungshandbuch](room-systems-scale.md))
+- (Optional) Einrichten von Microsoft Operations Management Suite für die Systeme (finden Sie unter [Bereitstellen von Microsoft Teams Chatrooms Management mit Azure Monitor](azure-monitor.md))
 - Einrichten von Konsolen in Besprechungsräumen und verbinden die Peripheriegeräte müssen Sie (OEM-Dokumentation für den Satz von Geräten finden Sie unter)
 
 A/v-Techs für die letzte Aufgabe, aber Ihrer Organisation verwendet werden können IT-Abteilung müssen die andere Teile des Prozesses. 
@@ -43,68 +44,68 @@ Sie können diese Abhängigkeiten in die Planung Anleitungen Links unten erkunde
 -   [Zertifikate](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#certificates)
 -   [Proxy](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#proxy)
 
-**Pro Tipp** - Wenn Sie beabsichtigen, Proxyserver verwenden, um Zugriff auf das Skype für Business Online ersten [Dieser Artikel enthält](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Beachten Sie, dass bei Skype für Business-Datenverkehr über Proxyserver, sollten umgehen von Proxyservern vollständig. Skype für Business Datenverkehr ist damit Proxy-Server sicherer machen nicht bereits verschlüsselt. Als Teil Ihrer breiter Skype für die Business-Bereitstellung wird empfohlen, dass Sie die Anleitung in [Meine Umgebung bewerten](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) für Bandbreite planen und Bewerten des Netzwerks Eignung für Real-Time-Datenverkehr zu befolgen. Verwenden Sie für die gesamte Bandbreite Planung der [MyAdvisor Netzwerk Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (Wir empfehlen, dass Sie eine Rolle Skype Raum Systeme v2 erstellen, um entsprechend der vorgesehenen Skype Raum v2 Systemverwendung [Video, Bildschirmfreigabe, Audio], und weisen Sie eine Anzahl von Benutzern, die die Anzahl der Einheiten an jedem Standort bereitgestellt werden Skype Raum Systeme entspricht). 
+**Pro Tipp** - Wenn Sie beabsichtigen, Proxyserver verwenden, um Zugriff auf das Teams oder Skype für Business Online ersten [Dieser Artikel enthält](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Beachten Sie, dass bei Skype für Business-Datenverkehr über Proxyserver, sollten umgehen von Proxyservern vollständig. Skype für Business Datenverkehr ist damit Proxy-Server sicherer machen nicht bereits verschlüsselt. Als Teil Ihrer breiter Skype für die Business-Bereitstellung wird empfohlen, dass Sie die Anleitung in [Meine Umgebung bewerten](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) für Bandbreite planen und Bewerten des Netzwerks Eignung für Real-Time-Datenverkehr zu befolgen. Verwenden Sie für die gesamte Bandbreite Planung der [MyAdvisor Netzwerk Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (Wir empfehlen, dass Sie erstellen eine Rolle Microsoft Teams Rooms um aktualisiert die beabsichtigte Verwendung der Microsoft-Teams Chatrooms [Video, Bildschirmfreigabe, Audio], und weisen Sie eine Anzahl von Benutzern, die ermittelt die Anzahl der Einheiten von Microsoft-Teams Chatrooms für jeden Standort bereitgestellt werden.) 
 
 |    |     |
 |-----------|------------|
-| ![](../../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Vergewissern Sie sich, dass Ihre Websites die wichtigsten Skype Raum Systemen v2 erfüllen.</li><li>Vergewissern Sie sich, dass Sie genügend Bandbreite für jede Website bereitgestellt haben.</li></ul>| 
+| ![](../../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Vergewissern Sie sich, dass Ihre Websites für Microsoft-Teams Chatrooms wichtigen Anforderungen erfüllen.</li><li>Vergewissern Sie sich, dass Sie genügend Bandbreite für jede Website bereitgestellt haben.</li></ul>| 
 | ![](../../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Planen der gerätebereitstellung und der Konfiguration beginnen.</li></ul>| 
 
-**Pro-Info-** Website-Planung im Hinblick auf nützlich die folgenden Ressourcen sind. Mehr als nur Skype Raum Systemen v2 abdecken, und können in eine vollständige Einführung von Skype für Business Online verwendet werden:
+**Pro-Info-** Website-Planung im Hinblick auf nützlich die folgenden Ressourcen sind. Mehr als nur Microsoft-Teams Chatrooms abdecken, und können in eine vollständige Einführung von Skype für Business Online verwendet werden:
 
 -   [Einführung/Websitemigration Übermittlung Planungshandbuch](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_24)
 
 -   [Einführung und Planung der Migration - Website (Playbook)](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_16)
 
     > [!NOTE]
-    > Führen Sie in der Playbook die Aufgaben im Abschnitt "4.3 – > Konferenzräume" unter dem Blatt "4-Endpunkte" für jeden Standort, auf dem Sie vorab Skype Raum Systemen v2 Geräte bereitstellen. Dies ermöglicht Ihnen das Skript später im Vorgang provisioning Massen-Konto verwenden. 
+    > Führen Sie in der Playbook die Aufgaben im Abschnitt "4.3 – > Konferenzräume" unter dem Blatt "4-Endpunkte" für jeden Standort, auf dem Sie vorab Microsoft Teams Chatrooms Geräte bereitstellen. Dies ermöglicht Ihnen das Skript später im Vorgang provisioning Massen-Konto verwenden. 
 
 ## <a name="service-readiness"></a>Bereitschaft für den Dienst
 
-Führen Sie zur Vorbereitung Ihrer bereitstellungs Skype Raum Systeme die folgenden Schlüssel, zentralen Aufgaben aus:
+Führen Sie zur Vorbereitung der bereitstellungs von Microsoft-Teams Chatrooms den folgenden Schlüssel, zentralen Aufgaben aus:
 
--   Definieren Sie Skype Raum Systeme Service Account-Features.
--   Vorbereiten einer Organisationseinheit und Active Directory-Gruppe, halten Sie Ihren Computer Skype Raum Systeme und-Dienstkonten und – optional – Vorbereiten von Gruppenrichtlinienobjekten (GPOs) PowerShell-Remoting aktivieren.
+-   Microsoft-Teams Chatrooms Service Account-Features zu definieren.
+-   Vorbereiten einer Organisationseinheit und Active Directory-Gruppe, halten Sie den Microsoft-Teams Chatrooms Computer und Dienstkonten, und – optional – Vorbereiten von Gruppenrichtlinienobjekten (GPOs) PowerShell-Remoting aktivieren.
 
-### <a name="define-skype-room-systems-service-account-features"></a>Definieren von Skype Raum Systeme Service Account-features 
+### <a name="define-microsoft-teams-rooms-service-account-features"></a>Definieren von Microsoft-Teams Chatrooms Service Account-features 
 
-Je nach den Szenarien für die Zusammenarbeit, die Sie mit der Skype Raum Systemen v2-Bereitstellung aktivieren entschieden haben, müssen Sie die Features und Funktionen, die Sie für jede Skype Raum Systemen v2-Dienstkonto zuweisen, mit denen Sie bestimmen.
+Je nach den Szenarien für die Zusammenarbeit, die Sie mit der Bereitstellung von Microsoft-Teams Chatrooms aktivieren entschieden haben, müssen Sie die Features und Funktionen, die Sie für jede Microsoft-Teams Chatrooms-Dienstkonto zuweisen, mit denen Sie bestimmen.
 
-| **Szenario** | **Beschreibung** | **Skype Raum Systeme v2 Service Account-Funktion** |
+| **Szenario** | **Beschreibung** | **Microsoft Teams Chatrooms Service Account-Funktion** |
 |---------- |------------- | --- |
-| Interaktive Besprechungen            | Verwenden von Sprach-, Video- und Bildschirmfreigabe; Durchführen der Skype Raum Systemen v2 eine bookable Ressource                     | Für die Skype für Unternehmen, für Exchange (Ressourcenpostfach) aktiviert aktiviert |
-| Einwahlkonferenzen            | Schritte Besprechungen *direkt* aus der Skype Raum Systemen v2-Konsole mit einwahlkonferenzen Koordinaten aktivieren | Für Audiokonferenzen aktiviert                                          |
-| Ausgehend/eingehende PSTN aufrufen | Aktivieren der Skype Raum Systemen v2-Konsole das tätigen und annehmen von PSTN-Anrufe                                         | Für Telefonsystem aktiviert                                                |
+| Interaktive Besprechungen            | Verwenden von Sprach-, Video- und Bildschirmfreigabe; tätigen von Chatrooms den Microsoft-Teams eine bookable Ressource                     | Für die Skype für Unternehmen, für Exchange (Ressourcenpostfach) aktiviert aktiviert |
+| Einwahlkonferenzen            | Enable-Besprechungen *direkt* aus der Microsoft-Teams Räume-Konsole mit einwahlkonferenzen Koordinaten gestartet. | Für Audiokonferenzen aktiviert                                          |
+| Ausgehend/eingehende PSTN aufrufen | Aktivieren Sie die Microsoft-Teams Chatrooms Konsole tätigen und annehmen von PSTN-Anrufe                                         | Für Telefonsystem aktiviert                                                |
 
-Weitere Informationen zu Skype Raum Systeme-Konten finden Sie unter [Konfigurieren von Konten für Skype Raum Systemen v2](room-systems-v2-configure-accounts.md).
+Weitere Informationen zu Microsoft-Teams Räume-Konten finden Sie unter [Konten für Microsoft Teams Chatrooms konfigurieren](room-systems-v2-configure-accounts.md).
 
 
 |    |     |
 |-----------|------------|
-| ![](../../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, welche Szenarien Sie unterstützen und lizenzierungsanforderungen für die Skype Raum Systemen v2 Dienstkonten zu identifizieren.</li></ul>| 
+| ![](../../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, welche Szenarien Sie unterstützen und lizenzierungsanforderungen für die Microsoft-Teams Chatrooms Dienstkonten zu identifizieren.</li></ul>| 
 | ![](../../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Vorbereiten der host Computer und Dienstkonten.</li></ul>| 
 
 
-_Beispiel Skype Raum Systemen v2-Dienstkonto planning-Tabelle_
+_Planen der Tabelle Dienstkonto Microsoft Teams Chatrooms Beispiel_
 
-| **Standort**  | **Raumname** | **Raum-Typ** | **Zukünftige Raum-Funktionen**                                                 | **Skype-Chatroom-Systemen v2 Kontofeatures**                                                                                         |
+| **Standort**  | **Raumname** | **Raum-Typ** | **Zukünftige Raum-Funktionen**                                                 | **Microsoft-Teams Chatrooms Kontofeatures**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | London Unternehmenszentrale | Curie         | Mittel        | 1 Bildschirm, Audio- und Videodaten plus Präsentation <br>Einwahlkonferenzen Zugriff<br> PSTN-Zugang  | Für die Skype für Unternehmen, für Exchange (Ressourcenpostfach) aktiviert aktiviert <br>Für Audiokonferenzen aktiviert <br>Für Telefonsystem aktiviert |
 | Australische Unternehmenszentrale | Hill          | Große         | 2 Bildschirme, Audio- und Videodaten plus Präsentation<br>Einwahlkonferenzen Zugriff<br> PSTN-Zugang  | Für die Skype für Unternehmen, für Exchange (Ressourcenpostfach) aktiviert aktiviert<br> Für Audiokonferenzen aktiviert <br>Für Telefonsystem aktiviert |
 
 
-### <a name="prepare-to-host-skype-room-systems-v2-machine-and-service-accounts-optional"></a>Vorbereiten Sie der Hostcomputer Skype Raum Systemen v2 und Dienstkonten Sie (optional)
+### <a name="prepare-to-host-microsoft-teams-rooms-machine-and-service-accounts-optional"></a>Vorbereiten der zum Hosten von Microsoft-Teams Chatrooms Computer und Dienstkonten (optional)
 
-So aktivieren Sie Sie verwalten und Berichten über Computers v2 Skype Raum Systeme und Dienstkonten, bereiten Sie Ihre lokale Active Directory oder Azure Active Directory (AD Azure) vor. 
+Um ermöglichen es Ihnen, verwalten und Berichte zu Ihrem Microsoft-Teams Chatrooms Computer- und Dienstkonten, bereiten Sie Ihre lokale Active Directory oder Azure Active Directory (AD Azure). 
 
-Definieren Sie eine lokale Active Directory oder Azure AD-Gruppe alle Skype Raum Systemen v2 (Benutzer) Dienstkonten auf Hinzufügen, und klicken Sie dann erstellen Sie Verwendungsberichte mithilfe des Get-CSUserSession-PowerShell-Cmdlets für Ihre Bereitstellung der Skype Raum Systemen v2. Beispielsweise erstellen Sie eine Gruppe namens SkypeRoomSystemsv2 Dienstkonten. 
+Definieren Sie eine lokale Active Directory oder Azure AD-Gruppe, um alle Microsoft-Teams Chatrooms (Benutzer) Dienstkonten auf Hinzufügen, und klicken Sie dann erstellen Sie Verwendungsberichte mithilfe des Get-CSUserSession-PowerShell-Cmdlets für Ihre Bereitstellung von Microsoft-Teams Chatrooms. Beispielsweise erstellen Sie eine Gruppe namens SkypeRoomSystemsv2 Dienstkonten. 
 
 
-Definieren einer Organisationseinheit in Ihrer lokalen Active Directory oder Azure AD-Hierarchie, die alle Skype Raum Systemen v2 Computerkonten enthalten soll (Wenn sie mit der Domäne verknüpft sind) und einer Organisationseinheit, um alle Skype Raum Systemen v2-Benutzerkonten zu halten. Wenn Sie eine Organisationseinheit für die Skype Raum Systemen v2 Konten auf dem Computer erstellen, sollten Sie Deaktivieren der Vererbung, um sicherzustellen, dass Sie nur die Richtlinien gelten, die Sie für die Domäne eingebundener Skype Raum Systemen v2 gelten soll. 
+Definieren einer Organisationseinheit in Ihrer lokalen Active Directory oder Azure AD-Hierarchie für alle Microsoft-Teams Chatrooms Computerkonten Artikelseite (Wenn sie mit der Domäne verknüpft sind) und einer Organisationseinheit, um alle Microsoft-Teams Chatrooms Benutzerkonten zu halten. Wenn Sie eine Organisationseinheit für den Microsoft-Teams Chatrooms Computerkonten erstellen, sollten Sie Deaktivieren der Vererbung, um sicherzustellen, dass Sie nur die Richtlinien gelten, die Sie für die Domäne eingebundener Microsoft Teams Chatrooms gelten soll. 
 
-Erstellen Sie ein Gruppenrichtlinienobjekt mit der Organisationseinheit, die Ihre Computerkonten Skype Raum Systeme enthält zugewiesen. Verwenden Sie diese Option, um: 
+Erstellen Sie ein Gruppenrichtlinienobjekt mit der Organisationseinheit, die Ihre Computerkonten Microsoft Teams Räume enthält zugewiesen. Verwenden Sie diese Option, um: 
 
--   [Power und Einstellungen für lokales Konto festgelegt](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#configuring-group-policy-for-skype-room-systems-v2).
+-   [Power und Einstellungen für lokales Konto festgelegt](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#configuring-group-policy-for-microsoft-teams-rooms).
 -   Aktivieren Sie Windows Update.
 -   PowerShell-Remoting zu aktivieren. Sie können ein Start-Skript zum Ausführen eines einfachen Skripts konfigurieren: Enable-psremoting sieht - Force
 
@@ -118,97 +119,96 @@ Planen der Konfiguration und Bereitstellung umfasst die folgenden wichtige Berei
 -   Bereitstellen von Konten
 -   Gerät für die Softwareinstallation
 -   Gerätebereitstellung
--   Skype-Chatroom-Systemen v2 Anwendung und peripherer Gerätekonfiguration
+-   Microsoft-Teams Chatrooms Anwendung und peripherer Gerätekonfiguration
 -    Tests
 -   Ressourcenmanagement
 
 ### <a name="account-provisioning"></a>Bereitstellen von Konten 
 
-Jedes Skype Raum Systemen v2 Gerät erfordert eine dedizierte und eindeutige Ressourcenkonto, die für beide Skype für Unternehmen und Exchange aktiviert werden muss. Dieses Konto muss ein Raumpostfach auf Exchange gehostet und als einen Besprechungsraum in der Skype für die Bereitstellung von Business aktiviert sein. Auf der Seite Exchange muss kalenderverarbeitung konfiguriert sein, damit das Gerät automatisch eingehende Besprechungsanfragen akzeptieren kann. Weitere Informationen zum Erstellen dieser Konten finden Sie unter [Konfigurieren von Konten für Skype Raum Systemen v2](room-systems-v2-configure-accounts.md). 
+Jedes Gerät Microsoft Teams Chatrooms erfordert einen dedizierten und eindeutige Ressourcenkonto, die für beide Skype für Unternehmen und Exchange aktiviert werden muss. Dieses Konto muss ein Raumpostfach auf Exchange gehostet und als einen Besprechungsraum in der Skype für die Bereitstellung von Business aktiviert sein. Auf der Seite Exchange muss kalenderverarbeitung konfiguriert sein, damit das Gerät automatisch eingehende Besprechungsanfragen akzeptieren kann. Weitere Informationen zum Erstellen dieser Konten finden Sie unter [Konfigurieren von Konten für Microsoft Teams Chatrooms](room-systems-v2-configure-accounts.md). 
 
-**Tipp pro** – stellen die Anzeige für diese benennt Konten beschreibende und leicht zu verstehen. Dies sind die Namen, die Benutzern angezeigt werden, wenn für Suchen und Hinzufügen von Skype Raum v2-basierte Systeme zu Besprechungen. Manche Organisationen verwenden die Konvention *Website*-*Raumname*(*Max Raum Kapazität*)-RS, also beispielsweise Curie – eine 12 Person Konferenzraum in London – möglicherweise den Anzeigenamen LON CURIE (12)-RS. 
+**Tipp pro** – stellen die Anzeige für diese benennt Konten beschreibende und leicht zu verstehen. Dies sind die Namen, die Benutzern beim Suchen und Hinzufügen von Microsoft-Teams Chatrooms Systemen zu Besprechungen angezeigt wird. Manche Organisationen verwenden die Konvention *Website*-*Raumname*(*Max Raum Kapazität*)-RS, also beispielsweise Curie – eine 12 Person Konferenzraum in London – möglicherweise den Anzeigenamen LON CURIE (12)-RS. 
 
 Wenn Ihre Organisation viele Konferenzräume, die mehrere erfordern verfügt, bereitgestellten Konten empfiehlt [Skype Raum Systeme Konten Provisioning Skripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) Massen-Bereitstellung mehrere Dienstkonten automatisiert zu verwenden.
 
 
 |    |     |
 |-----------|------------|
-| ![](../../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie die Benennungskonvention für Ihre Skype Raum Systemen v2 Konten.</li><li>Entscheiden Sie, ob Sie einzelne Konten erstellen, oder verwenden Sie Skripts Massen-Bereitstellung.</li></ul>| 
+| ![](../../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie die Benennungskonvention für Ihre Microsoft-Teams Chatrooms Konten.</li><li>Entscheiden Sie, ob Sie einzelne Konten erstellen, oder verwenden Sie Skripts Massen-Bereitstellung.</li></ul>| 
 | ![](../../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Beginnen Sie mit der Planung Ihrer gerätebereitstellung.</li></ul>| 
 
 
 ### <a name="device-software-installation"></a>Gerät für die Softwareinstallation 
 
-Bei der Planung von Skype Raum Systemsv2 bereitstellen, müssen Sie eine Anzahl von Optionen, um die erforderliche Software installieren. Häufige Probleme und Ansätze werden in der folgenden Tabelle beschrieben. 
+Bei der Planung von Microsoft-Teams Chatrooms bereitstellen, müssen Sie eine Anzahl von Optionen, um die erforderliche Software installieren. Häufige Probleme und Ansätze werden in der folgenden Tabelle beschrieben. 
 
 | **Szenario**            | **Ansatz**         |
 |-------------------------|-----------------------|   
-|Eine kleine Anzahl von Skype Raum Systeme Geräten (<10) bereitstellen. | Wenn Surface Pro-basierten Skype Raum Systemen v2 verwenden, führen Sie die [installationsanweisungen pro Gerät installieren](console.md). [In diesem Video praktisch führt Sie durch den Prozess.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Wenn Sie eine integrierte Lösung verwenden, mithilfe der Hersteller Bilds bereitstellen und Konfigurieren von Einstellungen nach Bedarf. |
+|Eine kleine Anzahl von Microsoft-Teams Räume-Geräten (<10) bereitstellen. | Wenn Surface Pro-basierten Microsoft Teams Chatrooms verwenden möchten, führen Sie die [installationsanweisungen pro Gerät installieren](console.md). [In diesem Video praktisch führt Sie durch den Prozess.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Wenn Sie eine integrierte Lösung verwenden, mithilfe der Hersteller Bilds bereitstellen und Konfigurieren von Einstellungen nach Bedarf. |
 | Bereitstellen von zwischen 10 und 50 Geräte von einem einzigen Anbieter.     | Erstellen Sie ein Bild WIM-basierte, pause nach [Schritt 6 in der Anleitung](console.md)und erfassen Sie ein Bild Verteilung mit Ihrer Klonen Verteilung Technologie verwendet werden.    |
-| Bereitstellen von mehr als 50 Skype Raum Systeme Geräten, Bereitstellen von Geräten von mehr als einem Hersteller oder organisationsspezifischen Agents im Rahmen der Bereitstellung erfordern. | Verwenden Sie eine Aufgabe Sequencer basierenden Build und Verteilung Softwareplattform, wie [System Center Configuration Manager](room-systems-scale.md).  |
+| Bereitstellen von mehr als 50 Geräte von Microsoft Teams Chatrooms, Bereitstellen von Geräten von mehr als einem Hersteller oder erfordern organisationsspezifischen Agents im Rahmen der Bereitstellung. | Verwenden Sie eine Aufgabe Sequencer basierenden Build und Verteilung Softwareplattform, wie [System Center Configuration Manager](room-systems-scale.md).  |
 
-**Tipp pro** - Each Skype Raum Systemen v2 muss eine gültige und eindeutige Computername in Ihrem Netzwerk befinden. Viele für Überwachung und Warnungen Systeme zeigt den Namen des Computers als Schlüssel-ID, damit es ist wichtig, eine Benennungskonvention für Skype Raum Systemen v2 Bereitstellungen zu entwickeln, die können für das Supportpersonal auf einfache Weise die v2 Skype Raum Systeme finden, die als markiert wurde eine Aktion kommunizieren können. Ein Beispiel verwendet möglicherweise ein Muster der SRS -*Website*-*Raumname* (SRS LON CURIE). 
+**Tipp pro** - jede Microsoft-Teams Räume muss eine gültige und eindeutige Computername in Ihrem Netzwerk befinden. Viele für Überwachung und Warnungen Systeme zeigt den Namen des Computers als Schlüssel-ID, daher ist es wichtig zu eine Benennungskonvention für Microsoft-Teams Chatrooms Bereitstellungen zu entwickeln, die können für das Supportpersonal auf einfache Weise die Microsoft-Teams Räume zu finden, die markiert wurde erfordert eine Aktion. Ein Beispiel verwendet möglicherweise ein Muster der MTR -*Website*-*Raumname* (MTR LON CURIE). 
 
+Im Rahmen der Bereitstellung müssen Sie auch sollten Ihre Strategie für die Verwaltung und Konfiguration von der [lokalen Konten](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) , die durch das Installationsprogramm der Microsoft-Teams Räume erstellt werden.
 
-Im Rahmen der Bereitstellung müssen Sie auch sollten Ihre Strategie für die Verwaltung und Konfiguration von der [lokalen Konten](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) , die durch das Installationsprogramm der Skype Raum Systeme erstellt werden.
+Wir bieten einen Leitfaden zum Verwenden der [Microsoft Azure Monitor](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) zum Überwachen der Bereitstellung von Microsoft-Teams Chatrooms und Verfügbarkeit, Hardware und Software Fehler und Microsoft Teams Chatrooms Anwendungsversion melden. Wenn Sie Microsoft Operations Management-Suite verwenden möchten, installieren Sie den Agent Vorgänge Management Suite als Teil der Installation der Software und konfigurieren die Workspace-Verbindungsinformationen für den Arbeitsbereich. 
 
-Wir bieten einen Leitfaden zum Verwenden der [Microsoft Azure Monitor](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) zum Überwachen der Skype Raum Systemen v2-bereitstellungs und Berichten über Verfügbarkeit, Hardware und Software-Fehlern und Skype Raum Systemen v2 Anwendungsversion. Wenn Sie Microsoft Operations Management-Suite verwenden möchten, installieren Sie den Agent Vorgänge Management Suite als Teil der Installation der Software und konfigurieren die Workspace-Verbindungsinformationen für den Arbeitsbereich. 
-
-Eine zusätzliche Überlegung ist, ob die Skype Raum Systemen v2 Domäne beigetreten sein soll. Informationen zu den Vorteilen der Domäne beitreten kann in [Skype Raum System Domäne beitretenden Aspekte](domain-joining-considerations.md)gefunden werden. 
+Eine zusätzliche Überlegung ist, ob die Microsoft-Teams Räume Domäne beigetreten sein soll. Informationen zu den Vorteilen der Domäne beitreten kann in [Skype Raum System Domäne beitretenden Aspekte](domain-joining-considerations.md)gefunden werden. 
 
 |    |     |
 |-----------|------------|
-| ![](../../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, der Skype Raum Systeme Gerät-Benennungskonvention während der Bereitstellung verwendet werden.</li><li>Entscheiden Sie, ob Sie Skype Raum Systemen v2 Geräte an Ihre Domäne und zum Verwalten und Konfigurieren von lokalen Konten teilnehmen können. </li><li>Entscheiden Sie, ob Sie zum Überwachen der bereitstellungs der Skype Raum Systemen v2 Operations Management Suite verwenden.</li><li>Entscheiden Sie, welche Methode Sie zum Bereitstellen von Software und Agents mit dem Skype Raum Systemen v2 System im Rahmen der Vorbereitung für die Bereitstellung des verwenden. </li></ul>| 
+| ![](../../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, die Microsoft-Teams Chatrooms Gerät-Benennungskonvention während der Bereitstellung verwendet werden.</li><li>Entscheiden Sie, ob Sie Microsoft-Teams Chatrooms Geräte an Ihre Domäne und zum Verwalten und Konfigurieren von lokalen Konten teilnehmen können. </li><li>Entscheiden Sie, ob Sie zum Überwachen der bereitstellungs von Microsoft-Teams Chatrooms Vorgänge Management Suite verwenden.</li><li>Entscheiden Sie, welche Methode Sie zum Bereitstellen von Software und Agents mit dem Microsoft-Teams Chatrooms System im Rahmen der Vorbereitung für die Bereitstellung des verwenden. </li></ul>| 
 | ![](../../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Starten Sie die Bereitstellungsmethode Gerät planen.</li></ul>| 
 
 
 ### <a name="device-deployment"></a>Gerätebereitstellung
 
-Nachdem Sie Ihre Software entsprechen den v2 Einheiten Skype Raum Systeme bereitgestellt haben, erstellen Sie Ihr Plan zur liefern die Geräte und ihre zugeordneten Peripheriegeräte zu Ihrer Räumen, und fahren Sie mit der Installation und Konfiguration. 
+Nachdem Sie Ihre Software auf die Microsoft-Teams Chatrooms Einheiten bereitgestellt haben, erstellen Sie Ihr Plan zur liefern die Geräte und ihre zugeordneten Peripheriegeräte zu Ihrer Räumen, und fahren Sie mit der Installation und Konfiguration. 
 
 
 |    |     |
 |-----------|------------|
-| ![](../../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, wer die Website-Bereitstellung verwalten werden.</li><li> Identifizieren Sie die Ressourcen, die die Skype Raum Systemen v2 Geräte auf Website installiert und verpflichten sich die Konfiguration und Tests.</li></ul>| 
+| ![](../../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, wer die Website-Bereitstellung verwalten werden.</li><li> Identifizieren Sie die Ressourcen, die die Microsoft-Teams Chatrooms Geräte auf Website installiert und verpflichten sich die Konfiguration und Tests.</li></ul>| 
 | ![](../../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Starten Sie das Gerät zu testen.</li></ul>| 
 
 _Beispieltabelle für die Bereitstellung_
 
-| **Standort**  | **Raumname** | **Raum-Typ** | **Skype-Chatroom-Systemen v2 system**  | **Peripheriegeräte**  | **Skype-Chatroom-Systemen v2-Computername**  | **Skype-Chatroom-Systemen v2 Ressourcenkonto**  |
+| **Standort**  | **Raumname** | **Raum-Typ** | **Microsoft-Teams Chatrooms system**  | **Peripheriegeräte**  | **Microsoft-Teams Chatrooms Computername**  | **Microsoft-Teams Chatrooms Ressourcenkonto**  |
 |-----------|---------------|---------------|-----------------------------------|------------------|------------------------------------------|---------------------------------------------|
 | London Unternehmenszentrale | Curie         | Mittel        |                                   |                  |                                          |                                             |
 | Australische Unternehmenszentrale | Hill          | Große         |                                   |                  |                                          |                                             |
 
-### <a name="skype-room-systems-v2-application-and-peripheral-device-configuration"></a>Skype-Chatroom-Systemen v2 Anwendung und peripherer Gerätekonfiguration 
+### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Microsoft-Teams Chatrooms Anwendung und peripherer Gerätekonfiguration 
 
-Nach jedem Skype Raum Systemen v2 System physisch bereitgestellt wurde, und die unterstützten Peripheriegeräte verbunden ist, Sie die Skype Raum Systemen v2-Anwendung zum Zuweisen der Skype Raum Systemen v2 Ressourcenkonto und die zuvor erstellte Kennwort konfigurieren müssen auf Damit das Skype Raum Systemen v2 System für Unternehmen und Exchange Skype anmelden. Es handelt sich um Schlüssel Skype für USB-audio und video Peripheriegeräte an anderer Stelle im Dokument verknüpft certified Business verwenden können. Nicht auf diese Weise kann zu unvorhersehbaren führen. 
+Nach dem jede Microsoft-Teams Chatrooms System physisch bereitgestellt wurde, und die unterstützten Peripheriegeräte verbunden ist, müssen Sie die Anwendung Microsoft-Teams Chatrooms, weisen Sie das Microsoft-Teams Chatrooms Ressourcenkonto und Kennwort zuvor erstellten konfigurieren , um die Microsoft-Teams Chatrooms System für Unternehmen und Exchange Skype anmelden zu ermöglichen. Es handelt sich um Schlüssel Skype für USB-audio und video Peripheriegeräte an anderer Stelle im Dokument verknüpft certified Business verwenden können. Nicht auf diese Weise kann zu unvorhersehbaren führen. 
 
-Sie können jedes Skype Raum Systemen v2 System manuell konfigurieren. Sie können auch eine zentral gespeicherten pro – Skype Raum Systeme XML-Konfigurationsdatei zum Verwalten der Einstellungen und Nutzen eines Startpfade GPO-Skripts, um die Konfiguration angewendet werden soll, jedes Mal Skype Raum Systemen v2 Systemstart. 
+Sie können jede Microsoft-Teams Chatrooms System manuell konfigurieren. Alternativ können Sie eine zentral gespeicherten verwenden – Microsoft Teams Chatrooms XML-Konfigurationsdatei zum Verwalten der Einstellungen und Nutzen eines Startpfade GPO-Skripts, um die Konfiguration angewendet werden soll, jedes Mal Microsoft Teams Chatrooms Systemstart. 
 
-Weitere Informationen zur Verwendung von XML-Konfigurationsdatei finden Sie unter [Konsolenstamm Remote mit einer XML-Konfigurationsdatei Verwalten einer Skype Raum Systemen v2](../../manage/skype-room-systems-v2/xml-config-file.md). 
+Weitere Informationen zur Verwendung von XML-Konfigurationsdatei finden Sie unter [Verwalten von einer Microsoft-Teams Chatrooms Konsole Einstellungen Remote mit einer XML-Konfigurationsdatei](../../manage/skype-room-systems-v2/xml-config-file.md). 
 
-[Remote-PowerShell](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#remote-management-using-powershell) können Sie die Konfiguration der Skype Raum Systemen v2 für berichterstellungsanforderungen pull. 
+[Remote-PowerShell](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#remote-management-using-powershell) können Sie die Konfiguration der Microsoft-Teams Chatrooms für berichterstellungsanforderungen ziehen. 
 
 |    |     |
 |-----------|------------|
-| ![](../../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Sie manuell konfigurieren Sie jedes Skype Raum Systemen v2 System oder eine zentrale XML-Datei (eine pro Skype Raum Systemen v2 Gerät) verwenden.</li></ul>| 
+| ![](../../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Sie manuell konfigurieren Sie jedes System Microsoft Teams Chatrooms oder eine zentrale XML-Datei (eine pro Gerät Microsoft Teams Chatrooms) verwenden.</li></ul>| 
 | ![](../../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Definieren Sie Ihren Ansatz für die Remoteverwaltung.</li></ul>| 
 
 ### <a name="testing"></a> Tests
 
-Nachdem das Skype Raum Systemen v2 System bereitgestellt wurde, sollten Sie sie testen. Überprüfen Sie, dass die Funktionen in [Skype Raum Systemen v2 Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) aufgeführten auf dem Gerät bereitgestellt werden. Es wird dringend empfohlen, dass das Bereitstellungsteam stellen Sie sicher, dass die Skype Raum Systemen v2 Microsoft Operations Management Suite Protokollierung ist (falls verwendet). Es ist außerdem wichtig, dass Sie eine Reihe von Test-Aufrufe und Besprechungen auf Anrufqualität prüfen vornehmen. Weitere Informationen finden Sie unter diese [Prüfliste für die Bereitstellung hilfreich](console.md#skype-room-systems-v2-deployment-checklist). 
+Nachdem das Microsoft-Teams Chatrooms System bereitgestellt wurde, sollten Sie sie testen. Überprüfen Sie, dass die Funktionen aufgeführt, die in der [Hilfe zu Microsoft-Teams Chatrooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) auf dem Gerät bereitgestellt werden. Es wird dringend empfohlen, dass das Bereitstellungsteam stellen Sie sicher, dass die Microsoft-Teams Räume Microsoft Operations Management Suite Protokollierung ist (falls verwendet). Es ist außerdem wichtig, dass Sie eine Reihe von Test-Aufrufe und Besprechungen auf Anrufqualität prüfen vornehmen. Weitere Informationen finden Sie unter diese [Prüfliste für die Bereitstellung hilfreich](console.md#microsoft-teams-rooms-deployment-checklist).
 
 Es wird empfohlen, im Rahmen der allgemeinen Skype für Business Einführung, Erstellen von Dateien für aufrufen Quality Dashboard (CQD) konfigurieren, überwacht die Qualität Trends und Teilnahme an die Qualität der Erfahrung Überprüfungsprozess. Weitere Informationen finden Sie im [Erfahrung überprüfen Handbuch für Quality of](https://aka.ms/qerguide). 
 
-**Tipp pro** – die [Matrix testen](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) von [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) enthält eine Registerkarte mit einer Anzahl von Skype Raum Systemen v2 Tests, die Sie als Teil der Tests überprüfen sollten. 
+**Tipp pro** – die [Matrix testen](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) von [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) enthält eine Registerkarte mit einer Reihe von Microsoft-Teams Chatrooms Tests, die Sie als Teil der Tests überprüfen sollten. 
 
 ### <a name="asset-management"></a>Ressourcenmanagement 
 
-Im Rahmen der Bereitstellung, Ihre Anlage Register Raumname, Skype Raum Systemen v2 Gerätename, angemeldeten Skype Raum Systemen v2-Ressourcenkonto aktualisieren möchten, und Peripheriegeräte zugewiesen (und welche USB-Anschlüsse verwenden). 
+Im Rahmen der Bereitstellung, Ihre Anlage Register Raumname, Gerätename Microsoft Teams Chatrooms, angemeldeten Microsoft Teams Chatrooms Ressourcenkonto aktualisieren möchten, und Peripheriegeräte zugewiesen (und welche USB-Anschlüsse verwenden). 
 
 _Anlage Beispieltabelle_
 
-| **Standort**  | **Raumname** | **Raum-Typ** | **Skype-Chatroom-Systemen v2 seriellen No.**  | **Peripheriegeräte / seriellen Selected / Ports**  | **Skype-Chatroom-Systemen v2-Computername**  | **Skype-Chatroom-Systemen v2-Dienstkonto**  | **Datum bereitgestellt** |
+| **Standort**  | **Raumname** | **Raum-Typ** | **Microsoft-Teams Chatrooms seriellen No.**  | **Peripheriegeräte / seriellen Selected / Ports**  | **Microsoft-Teams Chatrooms Computername**  | **Microsoft-Teams Räume-Dienstkonto**  | **Datum bereitgestellt** |
 |-----------|---------------|---------------|------------------------------------------|------------------------------------------|------------------------------------------|--------------------------------------------|-------------------|
 | London Unternehmenszentrale | Curie         | Mittel        |                                          |                                          |                                          |                                            |                   |
 | Australische Unternehmenszentrale | Hill          | Große         |                                          |                                          |                                          |                                            |                   |
