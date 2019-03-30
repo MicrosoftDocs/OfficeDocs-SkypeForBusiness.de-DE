@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Schulungsvideos, PowerPoint-Präsentationen, Lernprogramme und andere Ressourcen für Administratoren zum Planen, bereitstellen und Ausführen von Microsoft-Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8294854a3ff4ed7d38b90380b1e1e25230f859d1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 14fea980b7f0cfbb3d8a8218c20ebe503387529a
+ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872710"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31003820"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Administratorschulungen für Microsoft Teams
 
@@ -92,6 +92,7 @@ Verwenden Sie die Schulungsressourcen informieren Sie sich über Teams, andere P
 | Grundlagen - Kernkomponenten | [Video](https://aka.ms/teams-foundations) | [Deck](https://aka.ms/teams-foundations-deck) |
 | Windows-Desktop-Client | [Video](https://aka.ms/teams-clients) | [Deck](https://aka.ms/teams-clients-deck) |
 | Steuerung und Verwaltung Lebenszyklus | [Video](https://aka.ms/teams-governance) | [Deck](https://aka.ms/teams-governance-deck) |
+| Sicherheit und Compliance | [Video](https://aka.ms/teams-security-compliance) | [Deck](https://aka.ms/teams-security-compliance-deck) |
 | Netzwerkplanung | [Video](https://aka.ms/teams-networking) | [Deck](https://aka.ms/teams-networking-deck) |
 | Übersicht über die Qualität aufrufen | [Video](https://aka.ms/teams-quality) | [Deck](https://aka.ms/teams-quality-deck) |
 | Einführung in Besprechungen | [Video](https://aka.ms/teams-meetings-intro) | [Deck](https://aka.ms/teams-meetings-intro-deck) |
