@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu bewährten Methoden für das Implementieren und Verwalten von großen Besprechungen in Skype für Business Server erhalten.'
-ms.openlocfilehash: 3c4b00a961aa8c687ad4a420cade08af908ca102
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 4ef45f5393e389a3c6a1246041d058d1e0b387f1
+ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877909"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31003874"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planen von großen Besprechungen in Skype für Business Server
  
@@ -189,8 +189,14 @@ Erstellen Sie eine neue Konferenzrichtlinie speziell für große Besprechungen u
 > [!NOTE]
 > Unterstützung für große Besprechungen in Skype for Business Server erfordert, dass die Einstellung **AllowLargeMeetings** auf true festgelegt. Wenn diese Einstellung auf true festgelegt ist, der Skype Business wünschen festgelegt ist wird von sehr großen Besprechungen optimiert werden, wenn Benutzer an der Besprechung teilzunehmen. Insbesondere wird Skype für Unternehmen in eine große Besprechung, nicht angezeigt, die Initial oder Aktualisierung der der vollständige Besprechung Teilnehmerliste, die einen Leistungsengpass für den Client und Skype für Business Server ist. Skype für Unternehmen werden stattdessen nur Informationen zu den Benutzer und die Liste mit Referenten der Besprechung angezeigt. Skype für Unternehmen wird weiterhin die Gesamtzahl der Teilnehmer in großen Besprechungen verfügbar angezeigt.
 
+Die Einstellung - AllowLargeMeetings $true bewirkt, dass die folgenden: · Blendet aus der Teilnehmerliste der Teilnehmer einer. · Fehler in das Sofortnachrichtenfenster deaktiviert.
+· Video mit mehreren Teilnehmern deaktiviert.
+· Deaktiviert die Möglichkeit, einen Teilnehmer zum Referenten zu fördern. Sie müssen im Voraus planen und alle Referenten vor der Besprechung zu deklarieren.
+· Deaktiviert die Möglichkeit, einzelne Teilnehmer stummschaltung aufheben.
+· Deaktiviert die Möglichkeit, das Feature Sperre Video Spotlight auf Teilnehmer anzuwenden.
+· Öffentliche TELEFONE einwählen und Benutzer können sich über die stummschaltung aufheben keine * 6, da Befehle persönlichen virtuellen Unterstützung verantwortlich für DTMF aktiven große Besprechungen ist nicht vorhanden.
+· Wenn der Referent/Organisator eine Besprechung plant, in dem jeder zuerst stummgeschaltet werden soll ("Stummschalten alle"), PSTN-Benutzer wird in der gesamten den Anruf stumm geschaltet werden und werden nicht stummschaltung nicht selbst aufheben.
 
-  
 Mit Ausnahme der Einstellung **Maximale Besprechungsgröße** sind alle anderen hier angegeben Konferenzrichtlinieneinstellungen erforderlich, um die Konferenzfunktionen, die für große Besprechungen nicht erforderlich sind, zu deaktivieren.
   
 Darüber hinaus müssen Sie den dedizierten großen besprechungspool konfigurieren, sodass jede Skype für Business Server-Benutzer, der im Pool verwalteten und für die Verwaltung des Zeitplans für die Besprechung verantwortlich ist die entsprechenden Berechtigungen verfügt. Gehen Sie hierzu wie folgt vor:

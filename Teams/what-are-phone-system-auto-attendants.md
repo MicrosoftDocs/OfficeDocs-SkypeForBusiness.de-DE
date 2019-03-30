@@ -1,5 +1,5 @@
 ---
-title: Was sind automatische Telefonzentralen des Telefonsystems?
+title: Was sind automatische Telefonzentralen Telefonsystem?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,14 +22,14 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, was Telefonsystem automatischen Telefonzentralen sind und deren Verwendung.
-ms.openlocfilehash: 036044f779d964b19db53e7e568bb5df86ff372c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 03eec73f8274ab9b5cbe67624b0ef1158d548a4a
+ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879336"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31003867"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>Was sind automatische Telefonzentralen des Telefonsystems?
+# <a name="what-are-phone-system-auto-attendants"></a>Was sind automatische Telefonzentralen Telefonsystem?
 
 Telefonsystem in Office 365 bietet automatische Telefonzentralen, die verwendet werden kann, um zu externen lassen und interne Anrufer über ein Menüsystem platzieren, und durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in Ihrer Organisation verschieben.
   
@@ -53,17 +53,22 @@ Eine automatische Telefonzentrale Telefonsystem weist die folgenden Features:
 ## <a name="getting-started"></a>Erste Schritte
 
 Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von automatischen Telefonzentralen wichtig:
-  
-- Sie müssen ein Ressourcenkonto eine Telefonsystem Lizenz zuweisen, die die automatische Telefonzentrale zugeordnet werden. Weitere Informationen zu Lizenzierung finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+- Eine automatische Telefonzentrale ist erforderlich, um ein Ressourcenkonto zugeordneten verfügen. Details auf Ressourcenkonten finden Sie unter [Manage Ressourcenkonten in Teams](manage-resource-accounts.md) .
+- Wenn Sie eine direkte Routing Number zuweisen möchten, müssen Sie erwerben und weisen Sie die folgenden Lizenzen der Ressourcenkonten \(Office 365 Enterprise E1, E3 oder E5, mit dem Telefonsystem Add-on\).
+- Wenn Sie stattdessen eine Microsoft-Dienst Zahl zuordnen möchten, müssen Sie erwerben und weisen Sie Ihr Ressourcenkonto folgenden Lizenzen \(Office 365 Enterprise E1, E3 oder E5, mit dem Telefonsystem Add-on und Aufrufen planen\).
+
+> [!NOTE] 
+> Microsoft arbeitet eine entsprechende Lizenzierungsmodell für Anwendungen wie Cloud automatische Telefonzentrale und den Anruf-Warteschlangen für an jetzt Sie das Benutzerlizenzierung Objektmodell verwenden müssen.
     
     > [!TIP]
-    > Zum Umleiten von Anrufen an einen Operator oder eine Menüoption, die ein Benutzer Online mit einer Lizenz **Telefonsystem** ist, müssen Sie für Enterprise-VoIP zu aktivieren oder zu diesen zuweisen plant aufrufen. Finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md). Sie können auch die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Zum Abrufen und gebührenfreie Service Zahlen für die automatische Telefonzentralen verwenden, müssen Sie Communications haben einrichten. Hierzu finden Sie unter [Was sind Communications haben?](what-are-communications-credits.md) und [Communications haben für Ihre Organisation einrichten](set-up-communications-credits-for-your-organization.md).
 
     > [!IMPORTANT]
     > Telefonnummern von Benutzern (Abonnenten) können automatischen Telefonzentralen nicht zugewiesen werden - es können nur gebührenpflichtige oder gebührenfreie Telefonnummern verwendet werden.
-- Eine automatische Telefonzentrale ist erforderlich, um ein Ressourcenkonto zugeordneten verfügen. Details auf Ressourcenkonten finden Sie unter [Manage Ressourcenkonten in Teams](manage-resource-accounts.md) .
+
 - Eine vollständige Auto attendant System wird gewöhnlich sind mehrere automatische Telefonzentralen und erfordern nur eine einzelne zugewiesene Telefonnummer für den Eintrag oder der obersten Ebene der automatischen Telefonzentrale. Andere Telefonzentralen oder Anruf Warteschlangen in der gesamten Systems werden nur eine Telefonnummer ein erforderlich, wenn Sie mehrere Einstiegspunkte in das System bereitstellen möchten.
 - Es ist möglich, eine automatische Telefonzentrale durch mehrere Ressourcenkonto an eine automatische Telefonzentrale zuordnen mehr als eine Telefonnummer zuweisen.
   
