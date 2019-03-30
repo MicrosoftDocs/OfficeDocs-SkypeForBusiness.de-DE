@@ -1,5 +1,5 @@
 ---
-title: Skype Room Systems V2
+title: 'Microsoft-Teams, Räume'
 ms.reviewer: null
 ms.author: jambirk
 author: jambirk
@@ -11,17 +11,17 @@ ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: Die relevanten planungsüberlegungen für die Bereitstellung von Skype Raum Systemen v2 und das Bereitstellen und Verwalten des Systems.
+description: Die relevanten planungsüberlegungen für die Bereitstellung von Microsoft-Teams Räumen und das Bereitstellen und Verwalten des Systems.
 ---
 
-<h2>Skype-Raum Systemen v2 & #x 2013; <br>die nächste Generation von Skype-Chatroom-Systemen </h2>
+<h2>Microsoft-Teams, Räume</h2>
 <ul class="panelContent cardsW cols cols2">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Transform Besprechung Leerzeichen von Bereichen kleine drängeln bis hin zu großen Konferenzräume mit einer umfassenden, gemeinsame Skype für Business Erfahrung That& #39; s einfach zu verwenden, bereitstellen und verwalten. </p>
+                        <p>Transform Besprechung Leerzeichen von Bereichen kleine drängeln bis hin zu großen Konferenzräume mit einer umfassenden, gemeinsame Teams Erfahrung That& #39; s einfach zu verwenden, bereitstellen und verwalten. </p>
                         <p>Starten von Besprechungen auf Zeit mit einem Tastendruck Join und dann sofort project zur Anzeige in der Raum und die Freigabe an Remoteteilnehmer übertragen. </p>
                         <p>Wählen Sie die richtigen System und audio-video-Peripheriegeräte aus einem unserer Partner: Logitech, Crestron, Polycom, Lenovo und HP.</p>
                         <p></p>
@@ -36,7 +36,7 @@ description: Die relevanten planungsüberlegungen für die Bereitstellung von Sk
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../media/srs-room.jpg" alt="A conference table with Skype Room Systems v2 equipment" />
+                            <img src="../media/srs-room.jpg" alt="A conference table with Microsoft Teams Rooms equipment" />
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ description: Die relevanten planungsüberlegungen für die Bereitstellung von Sk
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-blue.svg" alt="Tasks" />
+                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Tasks" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -70,7 +70,7 @@ description: Die relevanten planungsüberlegungen für die Bereitstellung von Sk
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/deploy-blue.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" alt="Deploy" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -102,9 +102,9 @@ description: Die relevanten planungsüberlegungen für die Bereitstellung von Sk
 </ul>
 
 > [!NOTE]
-> Skype-Chatroom-Systemen v2 ist für die Verwendung mit Skype für Business Server 2019, Skype für Business Server 2015, Microsoft-Teams oder Skype für Business Online vorgesehen.  <br><br>Frühere Plattformen wie Lync Server 2013 werden nicht erwartet Skype Raum Systemen v2 entwickelt. 
+> Microsoft-Teams Chatrooms ist für die Verwendung mit den Teams, Skype für Business Online, Skype für Business Server 2019 oder Skype für Business Server 2015 vorgesehen.  <br><br>Frühere Plattformen wie Lync Server 2013 sind nicht entwickelt Microsoft Teams Chatrooms erwartet.
 
-In diesen Artikeln sind für Personen, die mit der Planung, Bereitstellung und Verwaltung von diesen Geräten beauftragt und nicht für die Benutzer des Systems vorgesehen. Benutzer können mehr interessiert der Skype Raum Systemen v2- [Onlinehilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+In diesen Artikeln sind für Personen, die mit der Planung, Bereitstellung und Verwaltung von diesen Geräten beauftragt und nicht für die Benutzer des Systems vorgesehen. Benutzer können mehr Interesse in der Microsoft-Teams Räume- [Onlinehilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
 
 > [!NOTE]
-> Skype-Chatroom-System und Skype Raum Systeme v2 sind verschiedene Produkte mit verschiedenen Abhängigkeiten und Bereitstellungsverfahren. 
+> [Skype-Chatroom-System](../deploy/deploy-clients/lrs-migration.md) (früher Lync Raum System) und Microsoft Teams Räume sind verschiedene Produkte mit verschiedenen Abhängigkeiten und Bereitstellungsverfahren.
