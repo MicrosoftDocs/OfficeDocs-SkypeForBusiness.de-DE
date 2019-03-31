@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Erfahren Sie mehr über das Verwalten von Ressourcenkonten in Microsoft-Teams
-ms.openlocfilehash: b24538e73d236da2c7ee9e889b7cd117a3c931b0
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 345b3b8698f0c387f90b37cc1212c320a2d3d85d
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012955"
+ms.locfileid: "31013645"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
@@ -59,7 +59,7 @@ Eine Telefonnummer ein, um ein Ressourcenkonto zuzuweisen, müssen Sie erhalten 
 > [!NOTE]
 > Wenn Sie sich außerhalb der USA sind, können das Microsoft-Teams, Administrationscenter Sie um Service Zahlen zu erhalten. Wechseln Sie zum [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) stattdessen, wie Sie von außerhalb der USA finden Sie unter.
 
-## <a name="create-a-resource-account-in-admin-center"></a>Erstellen Sie ein Ressourcenkonto im Administrationscenter
+## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Erstellen Sie ein Ressourcenkonto im Microsoft-Teams, Administrationscenter
 
 Navigieren Sie zum Erstellen einer Ressourcenkontos im Microsoft-Teams, Administrationscenter zu **Org geltende Settings** > **Ressourcenkonten**, klicken Sie auf **+ Hinzufügen**, und füllen Sie den Anzeigenamen, den Benutzernamen ein, und klicken Sie dann wählen Sie den Domänennamen aus und klicken Sie auf **Speichern**.
 

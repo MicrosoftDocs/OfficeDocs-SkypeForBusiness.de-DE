@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Informationen Sie zum Einrichten und Testen von Telefonsystem (Cloud, PBX) automatische Telefonzentralen für effiziente Anruf Behandeln von für Ihre Organisation.
-ms.openlocfilehash: 8bf33e911e11ab7561cc09e0cd18f4cfaf314d98
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 32fbf066524ec73b6cfa683a493dc93c58932d7c
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013095"
+ms.locfileid: "31013653"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale des Telefonsystems
 
@@ -211,7 +211,7 @@ Zum Einrichten Ihrer Menüoptionen nach dem Auswählen der Einwahl Keys benötig
   - **Einer Person in Ihrem Unternehmen** mit einer **Telefonsystem** -Lizenz, die für Enterprise Voice aktiviert oder Anruf-Plänen in Office 365 zugeordnet ist. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen **Person in Ihrem Unternehmen** aus, und legen Sie diese Person ihre Anrufe an die Voicemail weitergeleitet werden.
 
     > [!Note]
-    > **Die Person in Ihrem Unternehmen** kann ein Online-Benutzer oder ein vor Ort gehosteter Benutzer sein, der den Skype for Business Server 2015 oder den Lync Server 2013 verwendet. Der Lync Server 2010 wird nicht unterstützt.
+    > **Die Person in Ihrem Unternehmen** kann ein Online-Benutzer oder ein vor Ort gehosteter Benutzer sein, der den Skype for Business Server 2015 oder den Lync Server 2013 verwendet. 
     - Eine andere **automatische Telefonzentrale**
 
        Eine vorhandene automatische Telefonzentrale können Sie eine zweite Ebene im Menü Optionen, die mit einem Untermenü erstellen. Diese werden als geschachtelte automatische Telefonzentralen bezeichnet. Um den Anruf an eine automatische Telefonzentrale geschachtelte senden möchten, wählen Sie **Person im Unternehmen** aus, und weisen Sie ein Ressourcenkonto entweder diejenige, die bereits verfügt über eine zugehörige automatische Telefonzentrale oder eine, die Sie zuordnen möchten, um eine automatische Telefonzentrale, sobald Sie fertig sind diese automatische Telefonzentrale erstellen.
@@ -227,8 +227,6 @@ Zum Einrichten Ihrer Menüoptionen nach dem Auswählen der Einwahl Keys benötig
 
 **Wählen Sie nach Namen** Wenn Sie diese Option auswählen, können diese Personen, die in die Suche nach Personen in Ihrer Organisation mithilfe der Verzeichnissuche aufrufen. Sie können auswählen, welche Personen für die Namensanwahl als verfügbar oder nicht verfügbar aufgelistet werden, indem Sie diese Optionen auf der Seite **Wählbereich** einrichten. Jeder Online-Benutzer mit einer **Telefonsystem**-Lizenz oder ein beliebiger Benutzer der vor Ort gehostet wird und den Skype for Business Server 2015 oder den Lync Server 2013 verwenden, finden Sie unter nach Namen wählen.
 
-> [!WARNING]
-> Benutzer, die lokal gehostet werden und Lync 2010 verwenden, können mit nach Namen wählen **nicht erreicht werden**.
 
 * * *
 
@@ -280,7 +278,7 @@ Feiertags-Namen können bis zu 64 Zeichen lang sein und müssen für die gleiche
   - Eine **Person in Ihrem Unternehmen** mit einer **Telefonsystem** -Lizenz, die für Enterprise Voice aktiviert oder Anruf-Plänen in Office 365 zugeordnet ist. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Zu diesem Zweck wählen **Person in Ihrem Unternehmen**aus, und legen Sie diese Person ihre Anrufe an die Voicemail weitergeleitet werden.
 
     > [!Note]
-    > **Die Person in Ihrem Unternehmen** kann ein Online-Benutzer oder ein vor Ort gehosteter Benutzer sein, der den Skype for Business Server 2015 oder den Lync Server 2013 verwendet. Der Lync Server 2010 wird nicht unterstützt.
+    > **Die Person in Ihrem Unternehmen** kann ein Online-Benutzer oder ein vor Ort gehosteter Benutzer sein, der den Skype for Business Server 2015 oder den Lync Server 2013 verwendet. 
 
   - Eine **Warteschlange anrufen** auf den Anruf an eine vorhandene Anruf Warteschlange übertragen, die Sie eingerichtet haben.
   - Eine andere **automatische Telefonzentrale**, erstellen Sie eine zweite Ebene im Menü Optionen, die einem Untermenü enthält. Diese werden als geschachtelte automatische Telefonzentralen bezeichnet.
@@ -301,9 +299,6 @@ Auf dieser Seite können Sie die Benutzer in Ihrer Organisation aufgelistet in I
 - **Alle Onlinebenutzer**: Wenn Sie diese Option verwenden, können alle Benutzer in Ihrer Organisation in eine Verzeichnissuche eingeschlossen werden. Alle Online-Benutzer mit einer **Telefonsystem**-Lizenz und auch lokal gehostete Benutzer, die den Skype for Business Server 2015 oder den Lync Server 2013 verwenden, die Anruf-Pläne in Office 365 haben, werden aufgeführt.
 - **Benutzerdefinierte Gruppe** Wenn Sie diese Option verwenden, Sie können für eine Gruppe von Office 365, Verteilerliste oder Sicherheitsgruppe an, die in Ihrer Organisation erstellt wurde, suchen, und Personen hinzugefügt in Office 365, Verteilerliste, oder Sicherheitsgruppe, die entweder **sind Online-Benutzer mit einem Telefon-Lizenz** oder gehostete lokalen Skype für die Business Server 2015 oder Lync Server 2013. Sie können mehrere Office 365-Gruppen, Verteilerlisten und Sicherheitsgruppen hinzufügen.
 
-  > [!Caution]
-  > Lokale Benutzer aus der Bereitstellung von Lync Server 2010 wird nicht aufgeführt, wenn jemand das Verzeichnis mit Dial sucht nach Namen.
-
 * * *
 
 ![Nummer 2](media/sfbcallout2.png)
@@ -312,9 +307,6 @@ Verwenden die Option **ausschließen** , haben Sie zwei Optionen:
 
 - **Keine**: Wenn Sie diese Option verwenden, werden keine Onlinebenutzer von der Verzeichnissuche ausgeschlossen..
 - **Benutzerdefinierte Gruppe** Wenn Sie diese Option verwenden, Sie können für eine Gruppe von Office 365, Verteilerliste oder Sicherheitsgruppe an, die in Ihrer Organisation erstellt wurde, suchen und alle Personen an diese Office 365 Gruppe Verteilerliste hinzugefügt oder Sicherheitsgruppen aus Verzeichnissuche ausgeschlossen. Sie können mehrere Office 365-Gruppen, Verteilerlisten und Sicherheitsgruppen hinzufügen.
-
-  > [!Caution]
-  > Lokale Benutzer aus der Bereitstellung von Lync Server 2010 wird nicht aufgeführt, wenn jemand das Verzeichnis mit Dial sucht nach Namen.
 
 > [!NOTE]
 > Es kann bis zu 36 Stunden für einen neuen Benutzer haben ihre Namen in das Verzeichnis, wenn ein Benutzer Einwahl verwendet nach Namen für die Spracherkennung dauern.
@@ -337,24 +329,23 @@ Sie können auch Windows PowerShell verwenden, um automatische Telefonzentralen 
 
 Zum Verwalten einer automatischen Telefonzentrale benötigen Sie die folgenden Cmdlets.
 
- 
-- [Neue CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps) 
-- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant?view=skype-ps) 
-- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps) 
-- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps) 
-- [Neue CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps) 
-- [Neue CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
-- [Neue CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps) 
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps) 
+- [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csOrganizationalautoattendant?view=skype-ps)  
+- [Set-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csOrganizationalautoattendant?view=skype-ps) 
+- [Get-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csOrganizationalautoattendant?view=skype-ps) 
+- [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csOrganizationalautoattendantholidays?view=skype-ps) 
+- [Remove-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csOrganizationalautoattendant?view=skype-ps) 
+- [New-CsOrganizationalAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csOrganizationalautoattendantmenu?view=skype-ps) 
+- [Neue CsOrganizationalOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
+- [New-CsOrganizationalAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsOrganizationalAutoAttendantCallFlow?view=skype-ps) 
+- [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsOrganizationalAutoAttendantHolidays?view=skype-ps) 
 - [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps) 
 - [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) 
 - [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps) 
-- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps) 
-- [Neue CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps) 
-- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps) 
-- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps) 
-- [Neue CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
+- [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsOrganizationalAutoAttendantSupportedTimeZone?view=skype-ps)
+- [New-CsOrganizationalAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsOrganizationalAutoAttendantCallHandlingAssociation?view=skype-ps)
+- [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsOrganizationalAutoAttendantSupportedLanguage?view=skype-ps)
+- [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csOrganizationalautoattendantholidays?view=skype-ps) 
+- [New-CsOrganizationalAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
 
 ### <a name="more-about-windows-powershell"></a>Weitere Informationen zu Windows PowerShell
 

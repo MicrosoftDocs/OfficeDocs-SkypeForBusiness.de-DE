@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
-ms.openlocfilehash: 282c28661de3d2678f7b4b29129de4f80dece491
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 5482afa3302085f113a57ec7b6b9f3f188f7cffc
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013217"
+ms.locfileid: "31013629"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
 
@@ -157,3 +157,9 @@ Um diese Vorlagen zu verwenden, ändern Sie einfach die Eigenschaft 'template@od
           }
 
 ```
+
+## <a name="related-topics"></a>Verwandte Themen
+
+[Erste Schritte mit Microsoft Teams-Vorlagen](../../get-started-with-teams-templates.md)
+
+[Erste Schritte mit Teams für Unternehmen aus dem Gesundheitswesen](teams-in-hc.md)

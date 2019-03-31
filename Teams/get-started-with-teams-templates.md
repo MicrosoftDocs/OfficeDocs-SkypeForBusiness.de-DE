@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a41e16b8e813fe3f8acb1a41d9c2751fa7c71e4c
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: b620f163f1dc071bde8a0ed43bf7fe546a9bc04a
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640938"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013637"
 ---
 # <a name="get-started-with-teams-templates"></a>Erste Schritte mit Microsoft Teams-Vorlagen 
 
@@ -64,14 +64,14 @@ Standardmäßig ist die Basisvorlage auf **Standard** festgelegt, die keine zus�
 
 | Basisvorlage-Typ | baseTemplateId | Eigenschaften, die im Lieferumfang von diese Basisvorlage |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`standard` | Keine zusätzliche apps und Eigenschaften |
-| Education-<br>Klasse-Team | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | Apps:<ul><li>OneNote-Klasse-Notizbuch (angeheftet auf der Registerkarte **Allgemein** ) </li><li>Assignments-app (angeheftet auf der Registerkarte **Allgemein** )</li></ul> Team-Eigenschaften:<ul><li>Legen Sie die Sichtbarkeit Team auf **HiddenMembership** (können nicht überschrieben werden)</li></ul> |
-| Education-<br>Mitarbeiter-Team | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | Apps:<ul><li>OneNote-Personal-Notizbuch (angeheftet auf der Registerkarte **Allgemein** )</li></ul> |
-|Education-<br>PLC-team |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | Apps:<ul><li>OneNote PLC-Notizbuch (angeheftet auf der Registerkarte **Allgemein** )</ul></li>|
-| Retail-<br>abspeichern | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | Kanäle:<ul><li>UMSCHALT Übergabe</li><li>Learning</li></ul>Team-Eigenschaften<ul><li>Team Sichtbarkeit auf Public festgelegt</li></ul>Member-Berechtigungen<ul><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von Kanäle</li><li>Verhindern, dass Mitglieder hinzufügen oder Entfernen von apps</li><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von connectors</li></ul> |
-| Retail-<br>Manager für die Zusammenarbeit | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | Kanäle:<ul><li>UMSCHALT Übergabe</li><li>Learning</li></ul>Team-Eigenschaften:<ul><li>Team Visibility auf Private festgelegt</li></ul>Member-Berechtigungen:<ul><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von Kanäle</li><li>Verhindern, dass Mitglieder hinzufügen oder Entfernen von apps</li><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von connectors</li></ul>|
-| Gesundheitswesen-<br>Bezirk |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWard` |Kanäle: <ul><li>Ansagen\*</li><li>Huddles\*</li><li>Rundet</li><li>Koordiniertes\*</li><li>Schulung\*</li></ul>\*Automatische favorisierte Kanäle |
-|Gesundheitswesen-<br>Krankenhaus | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospital` |Kanäle:<ul><li>Ansagen\*</li><li>Beachtung\*</li><li>Freiheitsentziehenden</li><li>Personalwesen</li></li><li>Apotheke</li></ul>\*Automatische favorisierte DDE-Kanal|
+| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | Keine zusätzliche apps und Eigenschaften |
+| Education-<br>Klasse-Team | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Apps:<ul><li>OneNote-Klasse-Notizbuch (angeheftet auf der Registerkarte **Allgemein** ) </li><li>Assignments-app (angeheftet auf der Registerkarte **Allgemein** )</li></ul> Team-Eigenschaften:<ul><li>Legen Sie die Sichtbarkeit Team auf **HiddenMembership** (können nicht überschrieben werden)</li></ul> |
+| Education-<br>Mitarbeiter-Team | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Apps:<ul><li>OneNote-Personal-Notizbuch (angeheftet auf der Registerkarte **Allgemein** )</li></ul> |
+|Education-<br>PLC-team |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Apps:<ul><li>OneNote PLC-Notizbuch (angeheftet auf der Registerkarte **Allgemein** )</ul></li>|
+| Retail-<br>abspeichern | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Kanäle:<ul><li>UMSCHALT Übergabe</li><li>Learning</li></ul>Team-Eigenschaften<ul><li>Team Sichtbarkeit auf Public festgelegt</li></ul>Member-Berechtigungen<ul><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von Kanäle</li><li>Verhindern, dass Mitglieder hinzufügen oder Entfernen von apps</li><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von connectors</li></ul> |
+| Retail-<br>Manager für die Zusammenarbeit | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Kanäle:<ul><li>UMSCHALT Übergabe</li><li>Learning</li></ul>Team-Eigenschaften:<ul><li>Team Visibility auf Private festgelegt</li></ul>Member-Berechtigungen:<ul><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von Kanäle</li><li>Verhindern, dass Mitglieder hinzufügen oder Entfernen von apps</li><li>Verhindern, dass Mitglieder erstellen, aktualisieren oder Entfernen von connectors</li></ul>|
+| Gesundheitswesen-<br>Bezirk |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Kanäle: <ul><li>Ansagen\*</li><li>Huddles\*</li><li>Rundet</li><li>Koordiniertes\*</li><li>Schulung\*</li></ul>\*Automatische favorisierte Kanäle |
+|Gesundheitswesen-<br>Krankenhaus | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Kanäle:<ul><li>Ansagen\*</li><li>Beachtung\*</li><li>Freiheitsentziehenden</li><li>Personalwesen</li></li><li>Apotheke</li></ul>\*Automatische favorisierte DDE-Kanal|
 |||
 
 > [!NOTE]
@@ -84,4 +84,4 @@ Standardmäßig ist die Basisvorlage auf **Standard** festgelegt, die keine zus�
 - [Neues Team](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Administratorschulung für Microsoft Teams](itadmin-readiness.md)
 - [Erste Schritte mit Vorlagen für Teams im Einzelhandel](get-started-with-retail-teams-templates.md)
-- [Erste Schritte mit Gesundheitswesen Teams Vorlagen](healthcare/healthcare-templates.md)
+- [Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/healthcare-templates.md)

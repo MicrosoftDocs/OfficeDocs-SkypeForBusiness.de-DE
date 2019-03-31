@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Zusammenfassung: Überprüfen Sie die unterstützten Clients und Apps für Skype for Business.'
-ms.openlocfilehash: 0aff83afc14401e3b8d165f108415cb32c407e60
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 56d397d1cdab0f63c856934c4ff66c834b0b8137
+ms.sourcegitcommit: c355738d09c2697834373e27ffa1a010457ed583
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012747"
+ms.locfileid: "31013549"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planen für Clients und Geräte
 
@@ -80,7 +80,7 @@ Eine VDI-Umgebung (Virtual Desktop Infrastructure) wird in einigen Organisatione
 
 ### <a name="microsoft-teams-rooms"></a>Microsoft-Teams, Räume
 
-Microsoft-Teams Chatrooms ist Microsofts neueste Lösung für Webkonferenzen verwendet eine vertraute Oberfläche und wird auf einfache Weise bereitgestellt und verwaltet, nutzen vorhandene Geräte wie LCD-Bereiche für einfache Installation. Microsoft-Teams Chatrooms verwendet eine spezielle UWP app auf einem Surface Pro 4 oder Surface Pro in einem Konsolenmodus ausgeführt (nach der Bereitstellung der app UWP ist die einzige app, die auf dem Gerät ausgeführt wird) und ein eigenen Konto Gerät auf Ihre Implementierung erfordert. Software wird sowohl über den Windows Store als auch über Windows Update aktualisiert. Details zur Verwendung dieser Room-Konsolen in Ihrer Bereitstellung finden Sie unter https://aka.ms/SRSDocs. 
+Microsoft-Teams Chatrooms ist Microsofts neueste Lösung für Webkonferenzen verwendet eine vertraute Oberfläche und wird auf einfache Weise bereitgestellt und verwaltet, nutzen vorhandene Geräte wie LCD-Bereiche für einfache Installation. Microsoft-Teams Chatrooms verwendet eine spezielle UWP app auf einem Surface Pro 4 oder Surface Pro in einem Konsolenmodus ausgeführt (nach der Bereitstellung der app UWP ist die einzige app, die auf dem Gerät ausgeführt wird) und ein eigenen Konto Gerät auf Ihre Implementierung erfordert. Software wird sowohl über den Windows Store als auch über Windows Update aktualisiert. Details zur Verwendung dieser Room-Konsolen in Ihrer Bereitstellung finden Sie unter https://aka.ms/MTRDocs. 
 
 ### <a name="skype-for-business-on-surface-hub"></a>Skype for Business für Surface Hub
 
