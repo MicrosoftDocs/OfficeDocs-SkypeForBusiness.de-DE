@@ -224,11 +224,11 @@
 #### [Bereitstellen von Telefonen für Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
 #### [Einrichten von Telefonen für gemeinsame Bereiche (CAP)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
-### [Dies erhalten Sie mit Telefonsystem](/microsoftteams/here-s-what-you-get-with-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### Voicemail für Telefonsystem
+### [Das Telefonsystem bietet Ihnen Folgendes](/microsoftteams/here-s-what-you-get-with-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### Cloudvoicemail
 #### [Ändern der Standardsprache für Voicemail-Begrüßungen und E-Mails in Ihrer Organisation](/microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Sprachen für Voicemail-Ansagen und -Nachrichten](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Einrichten von Voicemail für das Telefonsystem – Administratorhilfe](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+#### [Einrichten von Cloudvoicemail – Admin-Hilfe](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Einrichten des Telefonsystems in Ihrer Organisation](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Was sind automatische Telefonzentralen des Telefonsystems?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Einrichten einer automatischen Telefonzentrale des Telefonsystems](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)

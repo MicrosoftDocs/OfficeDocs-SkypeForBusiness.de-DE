@@ -1,9 +1,10 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Von einem Kursleiter durchgeführte Schulung und Videos für Microsoft Teams-Administratoren
+title: Kursleitergeführte Schulung und Videos für Microsoft Teams-Benutzer
 ms.reviewer: ''
-description: Melden Sie sich für Klassen von Schulungsleitern gehaltene, um alle Informationen zu Microsoft-Teams erhalten.
+description: Registrieren Sie sich für kursleitergeführte Kurse, um alles über Microsoft Teams zu erfahren.
+localization_priority: Priority
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
@@ -11,26 +12,26 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: ddbd1a70cdc6617deb413e4b3e216b35fa9425d9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: MT
+ms.openlocfilehash: a33fc22f3a00d995c5399a99537508a769be9e89
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898216"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952379"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Von Schulungsleitern gehaltene Kurse für Microsoft-Teams</h1>
+        <h1>Kursleitergeführte Schulung für Microsoft Teams</h1>
         <ul class="pivots">
             <li>
-                <a href="#tab1">Von Schulungsleitern gehaltene Kurse</a>
+                <a href="#tab1">Kursleitergeführte Schulung</a>
                 <ul id="tab1">
                     <li>
                         <a href="#tab1-all"></a>
                         <ul id="tab1-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Microsoft ist auf eine Reihe von kostenlose, live-online-Schulungskurse entwickelt, um Sie beim Einstieg hosten und mit Teams wird ausgeführt.Wenn Sie ein Entscheidungsträger im Unternehmen, Admin, IT-Experten oder Endbenutzer sind, finden Sie eine Klasse, die für Sie geeignet ist. Besuchen Sie uns finden Sie unter Teams in Aktion, Ihre Fragen erhalten möchten, und interagieren mit unserem live Kursleiter. Checken Sie unseren <a href="https://docs.microsoft.com/microsoftteams/enduser-training">Endbenutzertraining bei Bedarf</a>für weitere Schulungstermine, einschließlich der Versionen des live-Schulung auf Abruf aus.<br><br>Klicken Sie auf eine Kachel zu registrieren.</p>
+                                    <p>Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubieten, die Sie auf Teams vorbereiten. Wenn Sie Entscheidungsträger, Admin, IT-Experte oder Endbenutzer sind, finden Sie bestimmt den richtigen Kurs. Schließen Sie sich uns an, um Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und live mit unseren Kursleitern zu interagieren. Weitere Schulungsmöglichkeiten, darunter On-Demand-Versionen von Liveschulungen, finden Sie hier: <a href="https://docs.microsoft.com/microsoftteams/enduser-training">On-Demand-Endbenutzerschulungen</a>.<br><br>Klicken Sie zum Registrieren auf eine Kachel.</p>
                                 </div>
                             </li>
                             <li>
@@ -44,8 +45,8 @@ ms.locfileid: "30898216"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>#ThisIsTeams - Microsoft-Teams (Übersicht)</h3>
-                                                    <p>Was ist Microsoft Teams? Besuchen Sie uns für diese 30-minütigen Ausrichtung ermitteln können, welche Teams ist und wie es für Sie arbeiten kann. (Benutzergruppe: alle)</p>
+                                                    <h3>#ThisIsTeams – Übersicht zu Microsoft Teams</h3>
+                                                    <p>Was ist Microsoft Teams? Nehmen Sie an dieser 30-minütigen Orientierungssitzung teil, um mehr über Teams und die Vorteile für Sie zu erfahren. (Zielgruppe: alle)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -64,7 +65,7 @@ ms.locfileid: "30898216"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Erste Schritte mit Teams</h3>
-                                                    <p>Aus Chat und Verwendung von Teams und Kanäle Besprechungen verlassen Benutzer in dieser Sitzung mit der Foundation Teams mit Confidence verwenden. (Benutzergruppe: Endbenutzer)</p>
+                                                    <p>Von Chat und Besprechungen bis hin zur Verwendung von Teams und Kanälen – Benutzer kennen nach dieser Sitzung die Grundlagen, um Teams zu verwenden. (Zielgruppe: Endbenutzer)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -82,8 +83,8 @@ ms.locfileid: "30898216"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Teams Tipps, Tricks &</h3>
-                                                <p>Grundlegendes creative zum Optimieren der Leistung und Teams bei Ihrer täglichen Arbeit organisieren. (Benutzergruppe: Endbenutzer)</p>
+                                                <h3>Tipps und Tricks für Teams</h3>
+                                                <p>Lernen Sie kreative Möglichkeiten kennen, um Ihre tägliche Arbeit mit Teams zu optimieren und zu organisieren. (Zielgruppe: Endbenutzer)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -101,8 +102,8 @@ ms.locfileid: "30898216"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Verwalten des Upgrades von Skype für Unternehmen zu Teams</h3>
-                                                <p>Plan & implementieren ein erfolgreiches Upgrade auf Teams (Zielgruppe: IT-Experten, Annahme ändern-Manager)</p>
+                                                <h3>Verwalten Ihres Upgrade von Skype for Business auf Microsoft Teams</h3>
+                                                <p>Planen und Implementieren eines erfolgreichen Upgrades auf Teams (Zielgruppe: IT-Experten, Adoption Change Manager)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -120,8 +121,8 @@ ms.locfileid: "30898216"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Wechseln von Skype für Unternehmen zu Teams: Leitfaden für Endbenutzer</h3>
-                                                    <p>Rufen Sie, was Sie benötigen schnellen Einstieg Teams während des Übergangs von Skype für Unternehmen, die Teams. (Benutzergruppe: Endbenutzer)</p>
+                                                <h3>Wechseln von Skype for Business zu Teams: Leitfaden für Endbenutzer</h3>
+                                                    <p>Sie erfahren alles, um während dem Wechsel von Skype for Business zu Teams schnell mit Teams loslegen zu können. (Zielgruppe: Endbenutzer)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -139,8 +140,8 @@ ms.locfileid: "30898216"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Teams für Bildungseinrichtungen - Webinare</h3>
-                                                <p>Erfahren Sie, wie in Hochschule Teams verwenden. (Benutzergruppe: Mitarbeiter, Studenten, Wissenschaftler, Recherchieren Fakultät, IT-Experten)</p>
+                                                <h3>Microsoft Teams Education – Webinare</h3>
+                                                <p>Erfahren Sie, wie Sie Teams in Hochschulen verwenden. (Zielgruppe: Mitarbeiter, Studenten, Akademiker, Forschungsmitarbeiter, IT-Experten)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -158,8 +159,8 @@ ms.locfileid: "30898216"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Optimieren von Teams Besprechungen</h3>
-                                                <p>Hier erfahren Sie, wie Sie Teams für Ihre vor, während, nutzen und buchen Besprechungen wünschen. (Benutzergruppe: Endbenutzer)</p>
+                                                <h3>Optimieren von Teambesprechungen</h3>
+                                                <p>Erfahren Sie, wie Sie Teams für Ihre Besprechungen nutzen. (Zielgruppe: Endbenutzer)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -177,8 +178,8 @@ ms.locfileid: "30898216"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Firstline Mitarbeiter mit Teams</h3>
-                                                <p>Lernen Sie die neu veröffentlichter Firstline Worker-Funktionen in Teams. (Benutzergruppe: Endbenutzer)</p>
+                                                <h3>Mitarbeiter in Service und Produktion mit Teams</h3>
+                                                <p>Erfahren Sie mehr über die neu veröffentlichten Funktionen für Mitarbeiter in Service und Produktion in Teams. (Zielgruppe: Endbenutzer)</p>
                                             </div>
                                         </div>
                                     </div>
