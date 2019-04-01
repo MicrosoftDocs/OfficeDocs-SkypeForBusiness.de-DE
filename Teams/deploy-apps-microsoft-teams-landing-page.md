@@ -1,5 +1,6 @@
 ---
 title: Apps, Bots und Connectors in Microsoft Teams
+ms.reviewer: ''
 description: Verwenden Sie diese Bereitstellungsressourcen zur Unterstützung Ihrer Bereitstellung von Apps in Microsoft.
 ms.topic: article
 author: LolaJacobsen
@@ -14,20 +15,18 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7ccc2c489d4423b906aec92dcb594f82a380e40
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 00653ebb796f0b33fa1461327ad173378fed8e28
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460796"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873169"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Apps, Bots und Connectors in Microsoft Teams
 
 Mithilfe von Apps finden Sie Inhalte aus Ihren bevorzugten Diensten und teilen sie direkt in Teams. Sie helfen Ihnen beim Anheften von Diensten oben in einem Kanal, beim Chat mit Bots, beim Teilen und Zuweisen von Aufgaben und ähnlichen Tätigkeiten. Weitere Informationen finden Sie unter [Übersicht über Apps in Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
 Es ist empfehlenswert, die von uns vorgeschlagenen Apps – wie etwa Planner – in Ihre erstmalige Teams-Bereitstellung mit aufzunehmen. Fügen Sie mit fortschreitender Einführung von Teams weitere Apps, Bots und Connectors hinzu.
-
-
 
 ## <a name="apps-deployment-decisions"></a>Entscheidungen bei der Bereitstellung von Apps
 
@@ -39,13 +38,13 @@ Dies sind die Einstellungen für Apps, deren Änderung in den meisten Organisati
 
 ### <a name="app-availability-settings"></a>Verfügbarkeitseinstellungen für Apps 
 
-Teams bietet eine Reihe von vom Originalhersteller (von Microsoft bereitgestellte) und von Drittanbietern stammende Apps, um Benutzer zu binden, die Produktivität zu steigern und häufig verwendete Businessdienste in Teams zu integrieren. Laden Sie Apps aus dem Teams Store herunter. Standardmäßig sind alle Apps, einschließlich externer Apps, die Sie mithilfe des [Teams Store-Genehmigungsverfahrens](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process) eingereicht haben, für alle Benutzer aktiviert. Beispielsweise können Benutzer die Planner-App verwenden, um Teamaufgaben in Teams zu erstellen und verwalten.
+Teams bietet eine Reihe von von Microsoft veröffentlichte und von Drittanbietern stammende Apps, um Benutzer zu binden, die Produktivität zu steigern und häufig verwendete Businessdienste in Teams zu integrieren. Laden Sie Apps aus dem Teams Store herunter. Standardmäßig sind alle Apps, einschließlich benutzerdefinierter Apps, die Sie mithilfe des [Teams Store-Genehmigungsverfahrens](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process) eingereicht haben, für alle Benutzer aktiviert. Beispielsweise können Benutzer die Planner-App verwenden, um Teamaufgaben in Teams zu erstellen und verwalten.
 
-Standardmäßig sind alle von Microsoft und von externen Anbietern bereitgestellten Apps verfügbar, und Sie können einzelne Apps aktivieren oder deaktivieren. Mithilfe einer globalen Einstellung können Sie alle externen Apps für Ihre gesamte Organisation aktivieren oder deaktivieren.
+Standardmäßig sind alle von Microsoft bereitgestellten und benutzerdefinierten Apps verfügbar, und Sie können einzelne Apps aktivieren oder deaktivieren. Mithilfe einer unternehmensweiten Einstellung können Sie alle benutzerdefinierten Apps für Ihre gesamte Organisation aktivieren oder deaktivieren.
 
 | Frage | Aktion |
 |--------------|--------|
-|Müssen Sie die Teams-Standardeinstellungen für Apps ändern? | Weitere Informationen zum Konfigurieren der Verfügbarkeit externer Apps finden Sie unter [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md).|
+|Müssen Sie die Teams-Standardeinstellungen für Apps ändern? | Weitere Informationen zu Richtlinien und Einstellungen, die Sie zum Verwalten von Apps in Ihrer Organisation verwenden können, finden Sie unter [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md).|
 |||
 
 ### <a name="app-permissions-and-other-considerations"></a>App-Berechtigungen und andere Überlegungen

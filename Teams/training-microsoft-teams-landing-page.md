@@ -1,6 +1,7 @@
 ---
 title: Microsoft Teams-Schulung
-description: Verwenden Sie diese Endbenutzer, Admin und von Schulungsleitern gehaltene Schulungsressourcen, die Ihnen die optimale Nutzung von Microsoft-Teams in Ihrer Organisation erleichtern.
+ms.reviewer: ''
+description: Verwenden Sie diese kursleitergeführten Schulungsressourcen für Endbenutzer und Administratoren, um Microsoft Teams in Ihrer Organisation optimal zu nutzen.
 layout: LandingPage
 ms.topic: landing-page
 author: LolaJacobsen
@@ -8,18 +9,19 @@ ms.author: lolaj
 manager: serdars
 ms.date: 03/19/2019
 ms.service: msteams
+localization_priority: Priority
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddc0e9cb6c3f8a708b7633a5731908e0a27db8ff
-ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
-ms.translationtype: MT
+ms.openlocfilehash: 81a8b7fe6043d868d88c24c4d1b2573e71f31beb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30684041"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878886"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams-Schulung
 
@@ -37,8 +39,8 @@ ms.locfileid: "30684041"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Administrator-Schulung</h3>
-                        <p>Verwenden Sie diese Lernprogramme, Videos und anderen Schulungsressourcen, um Informationen zu Teams und Erzielung Nutzung in Ihrer Organisation.</p>
+                        <h3>Schulung für Administratoren</h3>
+                        <p>Verwenden Sie diese Lernprogramme, Videos und anderen Schulungsressourcen, um mehr über Teams zu erfahren und dessen Verwendung in Ihrer Organisation voranzutreiben.</p>
                     </div>
                 </div>
             </div>
@@ -56,8 +58,8 @@ ms.locfileid: "30684041"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Von Schulungsleitern gehaltene Kurse</h3>
-                        <p>Soll, erhalten Sie von Microsoft gehosteten kostenlose, live-online-Schulung Klassen und mit Teams. Besuchen Sie uns finden Sie unter Teams in Aktion, Ihre Fragen erhalten möchten, und interagieren mit unserem live Kursleiter.</p>
+                        <h3>Kursleitergeführte Schulung</h3>
+                        <p>Von Microsoft gehostete, kostenlose Live-Onlineschulungskurse, die Sie auf Teams vorbereiten. Schließen Sie sich uns an, um Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und live mit unseren Kursleitern zu interagieren.</p>
                     </div>
                 </div>
             </div>
@@ -75,8 +77,8 @@ ms.locfileid: "30684041"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Schulungen für Endbenutzer</h3>
-                        <p>Verwenden Sie diese Schulungsressourcen, um Benutzer in Ihrer Organisation die optimale Nutzung von Teams.</p>
+                        <h3>Benutzerschulung</h3>
+                        <p>Verwenden Sie diesen Schulungsressourcen, um Benutzern in Ihrer Organisation zu helfen, Teams optimal zu nutzen.</p>
                     </div>
                 </div>
             </div>
@@ -87,16 +89,16 @@ ms.locfileid: "30684041"
 
 ---
 
-<h2>Verpassen Sie nicht wichtige Schulung</h2>
-Überprüfen häufig sichern – wir behalten aktualisiert dieser Liste aus, dass Sie immer über die neuesten, coolsten, wichtigsten Teams wissen Schulung.
+<h2>Lassen Sie sich diese wichtige Schulung nicht entgehen</h2>
+Schauen Sie immer mal wieder vorbei – Wir aktualisieren diese Liste weiterhin, damit Sie immer über die neuesten, coolsten und wichtigsten Teams-Schulungen Bescheid wissen.
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Reise von Skype for Business zu Microsoft Teams</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Von Skype for Business zu Teams</a></p>
+                        <h3>Von Skype for Business zu Teams</h3>
+                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Lernprogramm: Von Skype for Business zu Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -106,8 +108,8 @@ ms.locfileid: "30684041"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Zusammenarbeit</h3>
-                         <p><a href="https://aka.ms/edx-cld267x-about">Kurs: Aktivieren der Zusammenarbeit im Team mit Microsoft-Teams</a></p>
+                        <h3>Teamarbeit</h3>
+                         <p><a href="https://aka.ms/edx-cld267x-about">Kurs: Die Zusammenarbeit in Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -117,8 +119,8 @@ ms.locfileid: "30684041"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Annahme Specialist-Zertifizierung</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">Im Januar 2019 frühe veröffentlicht wir einen Kurs Specialist-Zertifizierung für Microsoft-Dienst Annahme mit Teams. Es können Sie wie in Ihrer org Annahme von Microsoft Services Laufwerk vermitteln</a></p>
+                        <h3>Einführung der Specialist-Zertifizierung</h3>
+                        <p><a href="http://aka.ms/AdoptionCert">Im Kurs „Microsoft Service Adoption Specialist Certification“ geht es um Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation vorantreiben können.</a></p>
                     </div>
                 </div>
             </div>
@@ -130,7 +132,7 @@ ms.locfileid: "30684041"
                 <div class="card">
                     <div class="cardText">
                         <h3>Einführung in die Zusammenarbeit in Microsoft 365</h3>
-                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">Informationen Sie zu den Microsoft-365-Tools, die die Zusammenarbeit für alle Mitarbeiter, unabhängig davon, wo sich diese befinden oder wie beim Verbinden mit den Ressourcen Ihrer Organisation erleichtern.</a></p>
+                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">Informationen zu den Microsoft 365-Werkzeugen, die die Teamarbeit für alle Mitarbeiter erleichtern, ganz gleich, wo diese sich befinden oder wie sie sich mit Ihrer Organisation verbinden.</a></p>
                     </div>
                 </div>
             </div>
