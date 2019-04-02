@@ -1,5 +1,5 @@
 ---
-title: Exchange Unified Messaging-Migration Onlinesupport
+title: Migrationsunterstützung für Exchange Unified Messaging Online
 ms.author: heidip
 author: heidip
 manager: serdars
@@ -10,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft ist den Exchange Unified Messaging (ExchUMO) Onlinedienst vom Februar 2020 abschließen. In diesem Artikel werden zusammengefasst, was betroffen Kunden kennen und tun, um für ihre Business Continuity planen sollten.
-ms.openlocfilehash: 8d09a9a16104420bfbe225aefefab57399f8dec5
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 2622b95e8bae7d5721665c5691c1c76691207e74
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059166"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026244"
 ---
-# <a name="exchange-unified-messaging-online-migration-support"></a>Exchange Unified Messaging-Migration Onlinesupport  
+# <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online  
 
 Microsoft ist den Exchange Unified Messaging (ExchUMO) Onlinedienst vom Februar 2020 Außerbetriebnehmen der als Verweis auf die [Ankündigung](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) auf 8 Februar 2019. Dieser Artikel bietet eine Zusammenfassung der was betroffenen Kunden kennen und tun, um für ihre Business Continuity planen sollten. 
  
@@ -66,7 +66,7 @@ Microsoft hat verschiedene Kunden Deployments identifiziert, die Features von Ex
 
 3. **Planen der automatischen Telefonzentrale-migration**
     
-    Administratoren können Migrieren ihrer automatischen Telefonzentralen von ExchUMO zu Cloud-Telefonzentrale können Sie jederzeit starten. Einzelheiten finden Sie unter [Einrichten von einer Telefonzentrale Telefonsystem](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md) . Microsoft plant, um zusätzliche Funktionen, die automatische Telefonzentrale bereitzustellen, die Kunden für die Migration von März 2019 kritische berücksichtigen. Administratoren sollten Features überprüfen und ihre automatische Telefonzentrale-Instanzen entsprechend migrieren. Feature-Liste Vergleich finden Sie unter der [ExchUMO und Azure featurematrix in cloudbasierten Diensten](#exchumo-and-azure-cloud-based-services-feature-matrix).
+    Administratoren können Migrieren ihrer automatischen Telefonzentralen von ExchUMO zu Cloud-Telefonzentrale können Sie jederzeit starten. Einzelheiten finden Sie unter [Einrichten von einer Telefonzentrale Telefonsystem](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) . Microsoft plant, um zusätzliche Funktionen, die automatische Telefonzentrale bereitzustellen, die Kunden für die Migration von März 2019 kritische berücksichtigen. Administratoren sollten Features überprüfen und ihre automatische Telefonzentrale-Instanzen entsprechend migrieren. Feature-Liste Vergleich finden Sie unter der [ExchUMO und Azure featurematrix in cloudbasierten Diensten](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
 4. **Ihre Voicemail-Überprüfung nach der Migration planen und testen**
 
@@ -93,7 +93,7 @@ Microsoft hat verschiedene Kunden Deployments identifiziert, die Features von Ex
 
 
 
-| -Dienst | Feature-Ebene | Funktion | Notizen  | Cloud VM/AA  | ExUMO |
+| Dienst | Feature-Ebene | Funktion | Hinweise  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VM  | Service-Features| Unterstützung von Drittanbietern 3rd PBX    |  | N   | J    |
 | VM | Service-Features  | Unterstützt Skype für Business Server   |  | Q1CY19 | Y    |
@@ -170,7 +170,7 @@ Beim Testen der Voicemail-Funktionalität nach der Migration Ihrer Benutzer stel
 
 - Voicemail-Zugriff für alle Arten von Endpunkt in Ihrer Organisation überprüfen: apps und IP-Telefone. 
 - Überprüfen Sie mit Beispiel-Benutzern, die den konfigurierten personalisierte Ansage für Anrufer wiedergegeben werden.   
-- Wenn Ihre Organisation eine Anforderung rechtlichen oder Compliance Lautschrift für Benutzer deaktivieren verfügt, stellen Sie sicher, dass sie deaktivierte nach der Migration ist. Weitere Informationen finden Sie unter [Einrichten von Voicemail Telefonsystem](/microsoftteams/set-up-phone-system-voicemail).
+- Wenn Ihre Organisation eine Anforderung rechtlichen oder Compliance Lautschrift für Benutzer deaktivieren verfügt, stellen Sie sicher, dass sie deaktivierte nach der Migration ist. Weitere Informationen finden Sie unter [Einrichten von Voicemail Cloud](/microsoftteams/set-up-phone-system-voicemail).
 - Wenn Sie bereits Exchange VM-Richtlinien und Regeln konfiguriert haben, stellen Sie sicher, dass sie wirksam werden.
 - Machen Sie sich mit der Cloud Voicemail Service PowerShell-Cmdlets zum Ändern der benutzereinstellungen.  
 
@@ -193,8 +193,8 @@ Es folgt ein Endbenutzer Voicemail-Übersicht über die Migration wünschen.
 
 #### <a name="user-management-and-provisioning-in-cvm"></a>Die Verwaltung und Bereitstellung in CVM 
 
-Skype für neue Benutzer Business wird für Voicemail in CVM Service bei der Erstellung automatisch bereitgestellt werden. Bereitstellung von neuen Benutzern für Voicemail ist keine zusätzliche Admin Arbeit "oder" Lizenz erforderlich. Finden Sie Informationen zur Verwaltung von Richtlinien für bestehende und neue Benutzer [Telefonsystem Voicemail einrichten](/microsoftteams/set-up-phone-system-voicemail) .
+Skype für neue Benutzer Business wird für Voicemail in CVM Service bei der Erstellung automatisch bereitgestellt werden. Bereitstellung von neuen Benutzern für Voicemail ist keine zusätzliche Admin Arbeit "oder" Lizenz erforderlich. Finden Sie Informationen zur Verwaltung von Richtlinien für bestehende und neue Benutzer [Cloud Voicemail einrichten](/microsoftteams/set-up-phone-system-voicemail) .
 
 #### <a name="admin-auto-attendant-management-experience"></a>Verwaltung der Admin-Telefonzentrale 
 
-Finden Sie unter [Set up eine automatische Telefonzentrale Telefonsystem](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md) weiterführende Informationen zur Konfiguration und Verwaltung von automatischen Telefonzentralen. 
+Finden Sie unter [Set up eine automatische Telefonzentrale Telefonsystem](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) weiterführende Informationen zur Konfiguration und Verwaltung von automatischen Telefonzentralen. 

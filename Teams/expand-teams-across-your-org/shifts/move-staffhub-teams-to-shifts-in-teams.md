@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49d8ea5235c490b38c0ef52bf5cf5a9903c4137c
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 2eb6e6616d1164dad462e349a80e7ac36cc5ce1e
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013281"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026213"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Verschieben Sie Ihren Teams bei Microsoft StaffHub in Schichten in der Microsoft-Teams
 
@@ -128,7 +128,7 @@ Es folgt ein Beispiel der Antwort, die Sie erhalten, wenn eine Verschiebung ausg
 
 ### <a name="raise-awareness"></a>Bewusstsein
 
-Wann können Sie jetzt Ihre pilot Teams hinausgehen, und Verschieben Ihrer Organisation StaffHub Team, Teams, es ist wichtig, zuerst die Änderung in Ihrer Organisation kommunizieren. Das Wort zu Schichten und den Übergang zu Teams Bewusstsein, Interesse generieren und bessere Akzeptanz verteilt.
+Wenn können Sie jetzt Ihre pilot Teams hinausgehen, und Verschieben von Ihrer Organisation StaffHub Teams Teams, es ist wichtig, zuerst die Änderung in Ihrer Organisation kommunizieren. Das Wort zu Schichten und den Übergang zu Teams Bewusstsein, Interesse generieren und bessere Akzeptanz verteilt.
 
 ### <a name="move-your-staffhub-teams"></a>Verschieben Sie Ihren Teams bei der StaffHub
 

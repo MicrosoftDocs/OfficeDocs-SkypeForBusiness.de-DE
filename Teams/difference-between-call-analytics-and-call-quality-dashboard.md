@@ -3,8 +3,8 @@ title: Anrufanalyse- und Anrufqualitäts-Dashboard
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney, gageames
-ms.topic: article
+ms.reviewer: mikedav, siunies, gageames
+ms.topic: conceptual
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Informationen Sie zu Analytics aufrufen und Qualitätsdashboard aufrufen und verwenden sie zur Überwachung und Problembehandlung Anrufqualität.
-ms.openlocfilehash: 693e17152d3c51ae51efaa0977d5d83b5c5f2297
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 057d74a5c0dcda70119eb16eed3a048b459c087c
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543007"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026221"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Anrufanalyse- und Anrufqualitäts-Dashboard
 
-Microsoft-Teams und Skype für Unternehmen bieten Ihnen zwei Möglichkeiten zur Überwachung und Problembehandlung Anrufqualität: Analytics aufrufen, und rufen Sie Qualitätsdashboard. In diesem Artikel werden beide Methoden beschrieben, und Sie erfahren, welche Sie jeweils verwenden sollten.
+Microsoft-Teams und Skype für Unternehmen bieten Ihnen zwei Möglichkeiten zur Überwachung und Problembehandlung Anrufqualität: Analytics aufrufen, und rufen Sie Quality Dashboard (CQD). In diesem Artikel werden beide Methoden beschrieben, und Sie erfahren, welche Sie jeweils verwenden sollten.
 
 Die Anrufanalyse und das Anrufqualitätsdashboard werden parallel ausgeführt und können unabhängig voneinander oder zusammen verwendet werden. Angenommen Sie, ein Communications Supportspezialisten bestimmt, dass sie einen Anruf Problembehandlung Weitere Hilfe benötigen. Der Communications-Supportspezialisten übergibt den Anruf an einen Supportmitarbeiter Communications, wer hat Zugriff auf Weitere Informationen im Analytics rufen Sie die Kommunikation Specialist unterstützt. Infolgedessen kann der Supporttechniker Communications Netzwerktechniker auf ein Problem benachrichtigen. Die Netzwerktechniker kann CQD, um festzustellen, ob eine allgemeine Problem im Zusammenhang mit der Website die Mitwirkenden Ursache für Anruf Probleme sein konnte überprüfen.
 
@@ -66,7 +66,7 @@ Details zum Einrichten der Anrufanalyse finden Sie unter [Einrichten der Anrufan
   
 ## <a name="whats-the-call-quality-dashboard-and-when-should-i-use-it"></a>Was ist das Anrufqualitätsdashboard, und wann sollte ich es verwenden?
   
-Wo Zertifizierungsstelle soll helfen, Administratoren und Helpdesk-Agents Problembehandlung Anrufqualität für bestimmte Aufrufe aufrufen Quality Dashboard (CQD) soll helfen, Microsoft-Teams Admins, Skype Informationen zu Business-Administratoren, und Netzwerktechniker Optimieren der Leistung von einem Netzwerk. CQD verschiebt den Fokus von bestimmten Benutzern und stattdessen untersucht aggregierte Informationen für ein ganzes Microsoft-Teams oder Skype für Business-Organisation. Weitere Details finden Sie unter [Funktionen des Anrufqualitäts-Dashboards für Skype for Business Online](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD).
+Analytics aufrufen soll helfen, Administratoren und Helpdesk-Agents Problembehandlung Anrufqualität für bestimmte Aufrufe-aufrufen Quality Dashboard (CQD) soll helfen, Teams Admins, Skype für Business-Admins und Netzwerktechniker Optimieren der Leistung von einem Netzwerk. CQD verschiebt den Fokus von bestimmten Benutzern und stattdessen untersucht aggregierte Informationen für eine ganze Teams oder Skype für Business-Organisation. Weitere Informationen finden Sie unter [Features des Dashboards Qualität Aufrufen für Teams und Skype für Business Online](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD).
   
 Möglicherweise ist der Benutzer Anrufe schlechter Qualität Qualität aufgrund ein Problem mit der, die auch zahlreiche andere Benutzer auswirkt. Die Erfahrung einzelner Anruf nicht in CQD sichtbar ist, aber die allgemeine Qualität der Anrufe, die mithilfe von Microsoft-Teams oder Skype für Unternehmen werden erfasst. Durch das Anrufqualitätsdashboard können allgemeine Muster sichtbar werden, die Netzwerktechnikern fundierte Bewertungen der Anrufqualität ermöglichen. CQD bietet Berichte über die Anruf-Qualitätsmetriken, mit denen Sie Einblicke in insgesamt Qualität, Server-Client-Streams, Client-Client-Streams und Sprachqualität [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)aufrufen.
   
@@ -102,6 +102,6 @@ Weitere Informationen zu CQD finden Sie unter [aktivieren, und rufen Sie Qualit�
 
 [Einrichten von Anrufanalyse](set-up-call-analytics.md)
 
-[Verwenden Sie Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Einschalten und Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online](turning-on-and-using-call-quality-dashboard.md)

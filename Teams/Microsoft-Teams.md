@@ -13,12 +13,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
-ms.openlocfilehash: ca57f4d54f67275f8659f295a6db47c8e6b74d91
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 4c62c045bde4492ac4035145d3460ea7f7eea5af
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012469"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026042"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -119,25 +119,6 @@ ms.locfileid: "31012469"
                                             <div class="cardText">
                                                 <h3>Übernahmehub</h3>
                                                 <P>Hier finden Sie Tools zur Unterstützung des Rollouts von Microsoft Teams.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            </li>
-                            <li>
-                                <a href="https://docs.microsoft.com/SkypeForBusiness/room-systems/">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="tasks" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Microsoft Teams-Räume</h3>
-                                                <P>Informationen zum Planen, Bereitstellen und Verwalten von Microsoft Teams-Räumen.</p>
                                             </div>
                                         </div>
                                     </div>

@@ -9,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Eine der ersten Schritte für die Migration zu Skype für Business Server 2019 erforderlich ist einen pilot Pool bereitstellen. Der pilot Pool ist, in dem Sie Ihre Bereitstellung der Vorversion Koexistenz von Skype für Business Server 2019 testen. Die Koexistenz stellt einen temporären Zustand, der dauert, bis Sie alle Benutzer und Pools zu Skype für Business Server 2019 verschoben haben.
-ms.openlocfilehash: e0ac949b0cc7a52e1da5edd9f150e5f59717c08f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 26f391a485c991aa3575498b98b181f1b5ac761c
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890655"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026049"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>Skype für Business Server 2019 pilot Pool bereitstellen
 
@@ -53,6 +53,10 @@ Wenn Sie einen pilot Pool bereitstellen, verwenden Sie den definieren neuen Fron
 10. Klicken Sie zum Veröffentlichen Ihrer Topologie Maustaste auf den Knoten **Skype für Business Server** , und klicken Sie dann auf **Topologie veröffentlichen**.
   
 11. Wenn der Veröffentlichungsvorgang abgeschlossen ist, klicken Sie auf **Fertig stellen**.
+
+12. Vor dem Aufruf von "Verify Koexistenz der Pilotinstallation mit Pools der Vorversion" mit dem nächsten Abschnitt verschieben benötigen Sie zum Installieren der Skype für Business Server neuen Front-End pilot Pool, die wir gerade in der veröffentlichten Topologie definiert haben, führen die hier beschriebenen Verfahren [Installieren Skype für Business Server auf Servern in der Topologie](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+
+13. Nach Abschluss der vorherigen Schritt mit dem nächsten Abschnitt zum Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversion verschieben.
     
 <!-- To install a local copy of the configuration store and start the required services, see 
 [Setting up Front End Servers and Front End pools for Skype for Business Server 2019](../deployment/deploying-lync-server-2013/setting-up-front-end-servers-and-front-end-pools.md) in the Deployment documentation.  -->

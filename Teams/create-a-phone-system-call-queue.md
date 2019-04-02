@@ -21,14 +21,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie eingerichtet Telefonsystem für Telefonsystem Anruf Warteschlangen, damit Sie eine Organisationseinheit Begrüßung Musik in der Warteschleife, und Umleiten von Anrufen Agents in Verteilerlisten und Sicherheitsgruppen aufrufen können. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: a44bd5b00b47655dc950ee01f82ffd0c0a308466
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: be8055dfe1d92caa7e3416740856ab2b6578e799
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012973"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026229"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Erstellen einer Anrufwarteschleife für das Telefonsystem
+# <a name="create-a-phone-system-call-queue"></a>Erstellen einer Warteschlange für das Telefonsystem
 
 System-Telefonanruf Warteschlangen enthalten Ansage, die verwendet werden, wenn angerufen eine Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und für den nächsten verfügbaren Anruf-Agent zum Verarbeiten des Anrufs beim Personen die Möglichkeit zum Suchen, die Anruf Musik in der Warteschleife hören sind. Sie können einzelne oder mehrere Anruf Warteschlangen für Ihre Organisation erstellen.
   
@@ -209,7 +209,7 @@ Um auf die Abmeldungsfunktion zuzugreifen können Telefonisten folgendes tun:
  3. Klicken Sie auf der Einstellungsseite für Benutzer auf **Anrufwarteschleifen** und deaktivieren Sie die Kontrollkästchen für alle Warteschleifen, von denen sie sich abmelden möchten.
 
     > [!NOTE]
-    > Mithilfe der Mac-, Mobile oder Lync 2013-Clients oder Hybrid-VoIP-Benutzern, die lokal auf einem Skype for Business 2015 Server gehostet werden, können Telefonisten die Abmeldungsoption über [https://aka.ms/cqsettings](https://aka.ms/cqsettings) aufrufen.
+    > Agents mit apps oder Endpunkte außer Skype für Business Desktop kann zugreifen, die lehnen Sie die Option vom Benutzer Einstellungen Portal [https://aka.ms/cqsettings](https://aka.ms/cqsettings).
 
 ![Nummer 2](media/sfbcallout2.png)
 **Agent Alert Einstellung**
