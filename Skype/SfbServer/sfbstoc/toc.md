@@ -15,6 +15,10 @@
 
 ### [Ermöglichen, dass Benutzer des Telefonsystems eine lokale Festnetzanbindung in Skype for Business Server herstellen](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md)
 
+#### [Benutzer lokal für Enterprise-VoIP aktivieren](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)
+#### [Zuweisen einer VoIP-Routingrichtlinie](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md)
+#### [Aktivieren von Benutzern für Enterprise-VoIP und für Telefonsystem in Office 365 Voicemail](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
+
 
 ### [Planen der Skype for Business-Cloud Connector-Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
 #### [Planen von PSTN-Standorten der Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md)
@@ -100,7 +104,7 @@
 #### [Clients für Besprechungen](../plan-your-deployment/clients-and-devices/meetings-clients.md)
 ##### [Mindestnetzwerkanforderungen für die Skype-Besprechungs-App](../plan-your-deployment/clients-and-devices/minimum-network-requirements.md)
 #### [Anforderungen für Windows Phone](../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md)
-<!-- #### [Skype Room Systems v2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+<!-- #### [Microsoft Teams Rooms](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ##### [Support for current branch versions](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
 ##### [Release notes](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ##### [Prepare your Environment](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
@@ -575,7 +579,7 @@
 
 ### [Videobasierte Bildschirmübertragung](../manage/video-based-screen-sharing.md)
 
-<!-- ### [Skype Room Systems v2](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+<!-- ### [Microsoft Teams Rooms](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 #### [Known issues](../manage/skype-room-systems-v2/known-issues.md)
 #### [OMS](../manage/skype-room-systems-v2/oms.md)
 #### [XML config file](../manage/skype-room-systems-v2/xml-config-file.md)
