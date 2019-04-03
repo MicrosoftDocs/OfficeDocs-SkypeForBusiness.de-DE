@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9abe6e17a4c11dd2e1943643c7030eadd5bd0ba
-ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
+ms.openlocfilehash: e3dc7e1797c1e5c1551abad40cf6598f11e01ada
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30771734"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026103"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -108,7 +108,8 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Unterstützung des Webclients in Safari  <br/> |Benutzer, die den Microsoft Teams-Webclient in Safari zu öffnen versuchen, werden aufgefordert, den Desktopclient herunterzuladen. Microsoft überprüft die Safari-Unterstützung und informiert in der [Microsoft Teams-Roadmap](https://aka.ms/TeamsRoadmap) über Updates.  <br/> |Verwenden Sie unterstützte Internetbrowser wie zum Beispiel Internet Explorer 11+, Microsoft Edge 12+, Chrome 51.0+ und Firefox 47.0+.  <br/> |02.11.2016  <br/> |
+|Unterstützung des Webclients in Safari  <br/> | Teams ist jetzt in der Vorschau in Safari 11.1 und höher unter macOS verfügbar. Während der Vorschauphase treten möglicherweise [bekannte Probleme](https://go.microsoft.com/fwlink/?linkid=2062082) mit der Intelligent Tracking Prevention von Safari.  <br/> | Wechseln Sie während der Vorschauphase für die Safari-Browserunterstützung zu **Einstellungen > Datenschutz** , und deaktivieren Sie die Einstellung  **Websiteübergreifende Nachverfolgung blockieren**  . Schließen Sie dann den Browser, und navigieren Sie zu teams.microsoft.com in Safari. <br/> |02.11.2016  <br/> |
+
 
 ## <a name="channels"></a>Kanäle
 
