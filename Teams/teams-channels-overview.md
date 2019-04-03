@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ea532f31bff01ba31e22f9253db157a9466a733
-ms.sourcegitcommit: 27621c3ba369d2a54b092a3fa007e22c8a5030ef
+ms.openlocfilehash: 415f4d94cf64de76ed3d7b4a7243d419d092999c
+ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31038564"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "31043365"
 ---
 > [!NOTE]
 > Lesen Sie die folgenden Informationen zum Verständnis der Chat, Teams, Kanäle, &-apps in Teams. Fahren Sie mit [Chat bereitstellen, Teams, Kanäle, &-apps in Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) eine Liste von wichtigen Entscheidungen zu nahezubringen Teams durchlaufen.
@@ -98,4 +98,4 @@ Sie können Teams erstellen, die die Organisationsstruktur widerspiegeln.  Diese
 
 ## <a name="org-wide-teams"></a>Org geltende teams
 
-Wenn Ihre Organisation nicht mehr als 2.500 Benutzer umfasst, können Sie ein Team Org geltende erstellen. Org geltende Teams bieten eine automatische Möglichkeit für alle Benutzer in einer Organisation, um ein Team für die Zusammenarbeit angehören. Weitere Informationen, einschließlich best Practices zum Erstellen und Verwalten von einer Team Org geltende finden Sie unter [erstellen ein Teams Org geltende in Microsoft-Teams](create-an-org-wide-team.md).
+Wenn Ihre Organisation nicht mehr als 5.000 Benutzer umfasst, können Sie ein Team Org geltende erstellen. Org geltende Teams bieten eine automatische Möglichkeit für alle Benutzer in einer Organisation, um ein Team für die Zusammenarbeit angehören. Weitere Informationen, einschließlich best Practices zum Erstellen und Verwalten von einer Team Org geltende finden Sie unter [erstellen ein Teams Org geltende in Microsoft-Teams](create-an-org-wide-team.md).
