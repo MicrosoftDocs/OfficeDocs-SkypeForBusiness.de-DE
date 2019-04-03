@@ -1,5 +1,5 @@
 ---
-title: Erweitern von vorhandenen Office 365-Gruppen mit Microsoft Teams
+title: Verbessern der vorhandene Office 365-Gruppen mit Microsoft-Teams
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -15,35 +15,35 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 665a8197b81ec823ef73962babdcbfecc664b03f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 2e20971ec2c1b2b493428b4f37466d673a9f013f
+ms.sourcegitcommit: 27621c3ba369d2a54b092a3fa007e22c8a5030ef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885291"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31038556"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Verbessern der vorhandene Office 365-Gruppen mit Microsoft-Teams
 =======================================================
 
-Microsoft-Teams, Benutzer können eine vorhandene Gruppe von Office 365 mit Microsoft-Teams Funktionalität verbessern. Beim Erweitern einer öffentlichen Office 365-Gruppe von betrachten, können Benutzer nicht, wenn die Anzahl der Elemente 5000 kleiner oder gleich ist.
+Microsoft-Teams, Benutzer können eine vorhandene Gruppe von Office 365 mit Funktionalität Teams verbessern. Beim Erweitern einer öffentlichen Office 365-Gruppe von betrachten, können Benutzer nicht, wenn die Anzahl der Elemente 5.000 kleiner oder gleich ist.
 
-Zu diesem Zweck sollten Benutzer über den Ablauf des Erstellen eines neuen Teams vom Microsoft-Teams, Client wechseln. Wählen Sie **erstellen ein Team aus einer vorhandenen Office 365-Gruppe** am unteren Rand des Bildschirms aus, und wählen Sie dann die vorhandene Gruppe, die Sie mit Microsoft-Teams verbessern möchten. Vorhandene Gruppenmitglieder werden als Mitglieder des Teams automatisch hinzugefügt werden.
+Zu diesem Zweck sollten Benutzer über den Ablauf des Erstellen eines neuen Teams vom Microsoft-Teams, Client wechseln. Wählen Sie **erstellen aus** > **Office 365-Gruppe**, und wählen Sie dann die vorhandene Gruppe, die Sie mit den Teams verbessern möchten. Vorhandene Gruppenmitglieder werden als Mitglieder des Teams automatisch hinzugefügt werden.
 
 > [!IMPORTANT]
-> Nur Office 365-Gruppe Besitzer über die Berechtigung verfügen, um eine vorhandene Gruppe mit Microsoft-Teams verbessern, und dieser Gruppe muss kleiner als 5000 Benutzer enthalten. Teams, die bereits verbessert werden nicht in der Liste angezeigt.
+> Nur Office 365-Gruppe Besitzer über die Berechtigung verfügen, um eine vorhandene Gruppe mit Teams verbessern, und dieser Gruppe muss weniger als 5.000 Benutzer enthalten. Teams, die bereits verbessert werden nicht in der Liste angezeigt.
 >
->Die Option **Erstellen Sie ein Team aus einer vorhandenen Office 365-Gruppe** ist nicht verfügbar, es sei denn, diese Bedingungen erfüllt sind.
+>Die Option zum Erstellen eines Teams aus einer Office 365-Gruppe ist nicht verfügbar, es sei denn, diese Bedingungen erfüllt sind.
 
-Benutzer können auch eine Verteilerliste in ein Team einladen, und die Mitglieder dieser Verteilerliste werden zum Team hinzugefügt. Dies ist eine einmalige Synchronisierung, und spätere Änderungen an der Gruppenmitgliedschaft in der Verteilerliste werden in Teams nicht übernommen. 
+Benutzer können auch eine Verteilerliste ein Team einladen, und die Mitglieder der Verteilerliste werden an das Team hinzugefügt werden. Dies ist eine einmalige hinzufügen, und spätere Änderungen in müssen Sie Mitglied in der Verteilerliste nicht repliziert oder Teams synchronisiert werden.
 
-![Die Screenshots zeigen der Reihenfolge nach die Einladung einer Verteilerliste und ihrer Mitglieder in ein Team.](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
+![Screenshot der Option, um ein Team aus einer Office 365-Gruppe zu erstellen.](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
 
 Sie könne auch für E-Mail aktivierte Sicherheitsgruppen als Mitglieder eines Teams hinzufügen. Wenn Sie danach jedoch weitere Mitglieder zur Sicherheitsgruppe hinzufügen, werden diese Mitglieder nicht automatisch zum Team hinzugefügt. Sie müssen neue Mitglieder separat hinzufügen oder die Sicherheitsgruppe erneut zum Team hinzufügen. (Wenn Sie die Sicherheitsgruppe erneut hinzufügen, wird durch die Deduplizierung sichergestellt, dass Mitglieder nur einmal hinzugefügt werden.)
 
-Es gibt zwei Typen von Datenschutzeinstellungen für Office 365-Gruppen: **öffentlich und privat**. Beide Typen können für Microsoft Teams aktiviert werden, wobei im Zusammenhang mit Self-Service ein kleiner Unterschied auftritt.
+Es gibt zwei Arten von datenschutzeinstellungen mit Office 365-Gruppen, **Öffentliche und private**. Während beide Arten Gruppe für Teams aktiviert werden können, ist geringfügige Unterschiede, wenn es um Self-Service geht.
 
 -   Benutzer können nach öffentlichen Gruppen suchen und ohne Genehmigung durch den Teambesitzer teilnehmen.
 
 -   Private Gruppen können nicht durchsucht werden, und Benutzer können nur teilnehmen, wenn Sie vom Teambesitzer als Mitglieder hinzugefügt wurden.
 
-Beim Erstellen eines neuen Teams in Microsoft Teams kann ein Besitzer einer vorhandenen privaten Office 365-Gruppe die Mitgliedschaft in der Office 365-Gruppe verwenden, um das Team zu erstellen. Benutzer können ihre vorhandenen SharePoint- und OneNote-Dateien hinzufügen, indem Sie eine Registerkarte für SharePoint hinzufügen und OneNote-Dateien zusammenführen.
+Wenn Sie ein neues Team in Teams erstellen, hat einen Besitzer einer vorhandenen privaten Office 365-Gruppe eine Option, um die Mitgliedschaft in der Gruppe der Office 365 verwenden, um das Team erstellen. Benutzer können ihre vorhandenen SharePoint- und OneNote-Dateien durch Hinzufügen einer Registerkarte für SharePoint und Zusammenführen von OneNote-Dateien hinzufügen.

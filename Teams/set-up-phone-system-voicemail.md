@@ -1,5 +1,5 @@
 ---
-title: Einrichten von Cloud-Voicemail
+title: Einrichten von Cloudvoicemail
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,19 +21,19 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Informationen Sie zum Einrichten von Voicemail Cloud für Ihre Benutzer. '
-ms.openlocfilehash: 8219934b8e95962f0e9ea81f4965ad9e5c55fb34
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.openlocfilehash: 26594c9d955cb21dc5751491e1857525660bdcae
+ms.sourcegitcommit: 7ca70e8a2108462afd505258b455169ead30f33f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934772"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31041934"
 ---
-# <a name="set-up-cloud-voicemail"></a>Einrichten von Cloud-Voicemail
+# <a name="set-up-cloud-voicemail"></a>Einrichten von Cloudvoicemail
 
 Dieser Artikel ist für die [Office 365-Admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) , möchte das Cloud-Voicemail-Feature für alle Benutzer im Unternehmen eingerichtet.
 
 > [!NOTE]
-> Cloud Voicemail unterstützt Voicemailnachrichten Hinterlegung nur in einem Exchange-Postfach und Drittanbieter-e-Mail-Systemen nicht unterstützt. Als ein Sicherungsmechanismus Cloud Voicemail-Nachrichten mithilfe von SMTP, d. h., Benutzer mit einem Postfach auf einem Drittanbieter-e-Mail-System erhalten ihre Voicemail-Nachrichten mit keine zuverlässiger Dienst Betriebszeit oder andere Voicemail-Features, beispielsweise ändern senden können ihre Ansagen und andere Einstellungen.
+> Cloud Voicemail unterstützt Voicemailnachrichten Hinterlegung nur in einem Exchange-Postfach und Drittanbieter-e-Mail-Systemen nicht unterstützt. 
 
 ## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>Nur-Cloud-Umgebungen: Einrichten von Cloud-Voicemail
 
@@ -41,7 +41,7 @@ Cloud-Voicemail wird für Skype für Benutzer Online Business und plant aufrufen
   
 1. Wenn die Telefonsystemfunktion nicht in Ihrem Plan enthalten ist, müssen Sie möglicherweise Lizenzen für das **Telefonsystem**-Add-On kaufen. Sie müssen möglicherweise auch eine Exchange Online-Lizenz kaufen. Finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-2. [Zuweisen oder Entfernen von Lizenzen für Office 365 für Unternehmen](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), die [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md)und die Exchange Online Lizenzen an die Personen in Ihrem Unternehmen. After you do that, they will be able to receive voicemail messages!
+2. [Zuweisen oder Entfernen von Lizenzen für Office 365 für Unternehmen](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), die [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md)und die Exchange Online Lizenzen an die Personen in Ihrem Unternehmen. Anschließend können sie Voicemailnachrichten empfangen.
     
 3. Seit März 2017 ist die Unterstützung für Voicemailtranskription standardmäßig für alle Organisationen und Benutzer aktiviert. Sie können die Transkription für Ihre Organisation mithilfe von Windows PowerShell deaktivieren, indem Sie die folgenden Schritte ausführen.
 
@@ -53,13 +53,16 @@ Die folgenden Informationen sind zum Konfigurieren von Cloud-Voicemail lokale au
     
 2. [Zuweisen oder Entfernen von Lizenzen für Office 365 für Unternehmen](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), die [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md)und die Exchange Online Lizenzen an die Personen in Ihrem Unternehmen.
     
-3. Befolgen Sie die Anweisungen im Abschnitt **Aktivieren von Benutzern für Telefonsystem Sprach- und Voicemail-Dienste** von der [Skype für Business Cloud Connector Edition Handbuch konfigurieren](https://technet.microsoft.com/library/mt605228.aspx).
+3. Führen Sie die Anweisungen übereinstimmenden lokale öffentliche Telefonnetz für Ihre Benutzer bereitgestellte Lösung. Befolgen Sie die Anweisungen im Abschnitt über das [Konfigurieren von Skype für Business Cloud Connector Edition Handbuch](https://technet.microsoft.com/library/mt605228.aspx) **Aktivieren von Benutzern für Telefonsystem Sprach- und Voicemail-Dienste** , für die Cloud Connector Edition. Führen Sie für PSTN durch den Aufruf von Skype für Business Server [Aktivieren Sie die Benutzer für Enterprise-VoIP lokal](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises). Führen Sie für Teams direkten Routing im Abschnitt **Enterprise-VoIP aktivieren und konfigurieren Sie die Telefonnummer und Voicemail** [direkte](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail)Routing konfigurieren.
 
 4. Seit März 2017 ist die Unterstützung für Voicemailtranskription standardmäßig für alle Organisationen und Benutzer aktiviert. Sie können die Transkription für Ihre Organisation mithilfe von Windows PowerShell deaktivieren, indem Sie die folgenden Schritte ausführen.
 
-5. Unter [Unterstützung für Azure-PBX-Voicemail für Exchange Server](https://support.microsoft.com/kb/3195158) können Sie nachlesen, wie Sie die Übermittlung von Azure-Voicemailnachrichten für Telefonsystembenutzer mit lokalen Postfächern konfigurieren.
+5. Voicemailnachrichten werden mit Exchange-Postfach der Benutzer über SMTP über Exchange Online Protection weitergeleitet übermittelt. Werden Sie um die erfolgreiche Übermittlung dieser Nachrichten zu aktivieren, sicher, dass die Exchange-Connectors zwischen Exchange-Servern und Exchange Online Protection korrekt konfiguriert sind. [Verwendung Connectors zu E-Mail-Fluss zu konfigurieren](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 
-6. Wenden Sie sich auch lesen und befolgen Sie die Schritte im folgenden Dokument: [Hybrid-Konfigurations-Assistenten](https://docs.microsoft.com/exchange/hybrid-configuration-wizard)
+6. Verbindung zwischen Office 365 und Exchange Server-Postfachs über Exchange-Webdienste ist erforderlich, um Voicemail-Features wie beispielsweise anpassen Ansage DFÜ-Zugriff und visual Voicemail aktivieren. Um diese Konnektivität zu aktivieren müssen Sie konfigurieren die neue Exchange-Oauth-Authentifizierungsprotokoll beschreiben in [Konfigurieren der OAuth-Authentifizierung zwischen Exchange- und Exchange Online-Organisationen](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) 
+
+> [!NOTE]
+> Die Exchange-Hybrid-Assistenten ausführen von Exchange 2013 CU5 oder höher wird automatisch die Anforderungen in die Schritte 5 und 6 behandelt. 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Einrichten von Voicemailrichtlinien in Ihrer Organisation
 

@@ -2,6 +2,7 @@
 title: Übersicht über Teams und Kanäle in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
+ms.reviewer: ''
 manager: serdars
 ms.date: 11/02/2018
 ms.topic: conceptual
@@ -17,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8677354bf6a8e500e1ee138fef65327711e74105
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 8ea532f31bff01ba31e22f9253db157a9466a733
+ms.sourcegitcommit: 27621c3ba369d2a54b092a3fa007e22c8a5030ef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647441"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31038564"
 ---
 > [!NOTE]
 > Lesen Sie die folgenden Informationen zum Verständnis der Chat, Teams, Kanäle, &-apps in Teams. Fahren Sie mit [Chat bereitstellen, Teams, Kanäle, &-apps in Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) eine Liste von wichtigen Entscheidungen zu nahezubringen Teams durchlaufen.
@@ -97,4 +98,4 @@ Sie können Teams erstellen, die die Organisationsstruktur widerspiegeln.  Diese
 
 ## <a name="org-wide-teams"></a>Org geltende teams
 
-Wenn Ihre Organisation nicht mehr als 1.000 Benutzer umfasst, können Sie ein Team Org geltende erstellen. Org geltende Teams bieten eine automatische Möglichkeit für alle Benutzer in einer Organisation, um ein Team für die Zusammenarbeit angehören. Weitere Informationen, einschließlich best Practices zum Erstellen und Verwalten von einer Team Org geltende finden Sie unter [erstellen ein Teams Org geltende in Microsoft-Teams](create-an-org-wide-team.md).
+Wenn Ihre Organisation nicht mehr als 2.500 Benutzer umfasst, können Sie ein Team Org geltende erstellen. Org geltende Teams bieten eine automatische Möglichkeit für alle Benutzer in einer Organisation, um ein Team für die Zusammenarbeit angehören. Weitere Informationen, einschließlich best Practices zum Erstellen und Verwalten von einer Team Org geltende finden Sie unter [erstellen ein Teams Org geltende in Microsoft-Teams](create-an-org-wide-team.md).
