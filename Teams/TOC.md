@@ -22,8 +22,6 @@
 ## [Bewährte Methoden zum Organisieren von Teams in Microsoft Teams](best-practices-organizing.md)
 ## [Erstellen eines organisationsweiten Teams in Teams](create-an-org-wide-team.md)
 ## [Verwalten von Messagingrichtlinien](messaging-policies-in-teams.md)
-## [Teams-Vorlagen für das Gesundheitswesen](healthcare/healthcare-templates.md)
-## [Teams-Vorlagen für den Einzelhandel](get-started-with-retail-teams-templates.md)
 ## [Übersicht über dynamische Mitgliedschaft für Teams](dynamic-memberships.md)
 ## [Anwesenheit](presence-admins.md)
 ## [Kommunizieren mit Microsoft Teams-Benutzern in anderen Organisationen](let-your-teams-users-communicate-with-other-people.md)
@@ -592,6 +590,7 @@
 #       
 #        
 
+
 <!-- ============================================================ -->
 # [Upgrade auf Teams](upgrade-introduction.md)
 ## [Erste Schritte](upgrade-start-here.md)
@@ -627,21 +626,22 @@
 ### [Führt Kundenerfahrung und Konformität mit Koexistenzmodi zusammen](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
 <!-- ============================================================ -->
+# 
+# 
 
-#       
-#        
-
-<!-- ============================================================ -->
-
-# [Erweitern von Teams in Ihrer Organisation](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
+# [Erweitern von Teams in Ihrer Organisation](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates.md)
-## [Schichten für Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md) 
+## [Schichten für Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub soll eingestellt werden](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Features für Mitarbeiter in Service und Produktion in Kürze in Microsoft Teams verfügbar](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
 ### [Verschieben Ihrer Microsoft StaffHub-Teams in Schichten in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Verwalten der Schichten-App für Ihre Organisation in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+
 ## [Teams für das Gesundheitswesen](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
+### [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### [Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+
 ## [Teams für Bildungseinrichtungen](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Schnellstart – Administratoren von Microsoft Teams Education](teams-quick-start-edu.yml)
 ### [Teams-Ressourcen für Administratoren in Bildungseinrichtungen](resources-teams-edu.md)
@@ -655,8 +655,10 @@
 ### [Planen von Microsoft 365 Government – GCC High](plan-for-government-gcc-high.md)
 ### [Planen von Microsoft 365 Government – DoD](plan-for-government-dod.md)
 
-#       
-#        
+<!-- ============================================================ -->
+
+# 
+# 
 
 <!-- ============================================================ -->
 
@@ -665,6 +667,7 @@
 ## [Administratorschulungen für Microsoft Teams](itadmin-readiness.md)
 ## [Microsoft Teams-Schulungen für Endbenutzer](enduser-training.md)
 <!-- ============================================================ -->
+
 
 # Referenz
 
