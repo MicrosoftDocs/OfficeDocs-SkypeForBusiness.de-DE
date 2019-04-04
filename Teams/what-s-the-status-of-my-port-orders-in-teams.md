@@ -1,35 +1,33 @@
 ---
-title: Wie ist der Status meiner Portierungsanträge?
+title: Was ist der Status der eigene Port Aufträge in Teams?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
-ms.assetid: f651e82d-4237-4e3d-ad74-40fdf11fa8d1
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-appliesto:
-- Skype for Business
+appliesto: Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.lync.lac.PortOrderNoOrderHelp
 ms.custom:
 - Calling Plans
-description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: e8cc303c503d52a9424c400617c7a982aec99d1f
+description: 'Informationen Sie zum Abrufen des Status der Aufträge Port, und lernen die verschiedenen Aktionen, die Sie ergreifen können. '
+ms.openlocfilehash: bf1fc2d6fc58ce2586e768392aac0d6e91c5aaf3
 ms.sourcegitcommit: a37abb5c433012d501ede319fba60e0ae7474fce
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/03/2019
-ms.locfileid: "31397048"
+ms.locfileid: "31407753"
 ---
-# <a name="whats-the-status-of-my-port-orders"></a>Wie ist der Status meiner Portierungsanträge?
+# <a name="whats-the-status-of-my-port-orders-in-teams"></a>Was ist der Status der eigene Port Aufträge in Teams?
 
-Sie können den Status Ihrer Bestellung Anschluss sehen, durch das Aufrufen der **Skype für Business Administrationscenter** > **VoIP** > **Port-Aufträge**. Jeder Auftragsstatus Port wird in der Spalte **Status** aufgeführt werden. Wenn Sie Hilfe, [Kontaktieren des Supports für Business-Produkte – Admin Hilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)benötigen.
+Sie können den Status Ihrer Bestellung Port sehen, indem Sie auf der **Microsoft-Teams, Administrationscenter** > **Legacy-Portal** > **VoIP** > **Port-Aufträge**. Jeder Auftragsstatus Port wird in der Spalte **Status** aufgeführt werden. Wenn Sie Hilfe, [Kontakt Unterstützung für Business-Produkte – Admin Hilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)benötigen.
 
 Die folgende Tabelle enthält die Port Status als auch Aktionen, die Sie ergreifen können, falls erforderlich.
 
@@ -56,6 +54,6 @@ Die folgende Tabelle enthält die Port Status als auch Aktionen, die Sie ergreif
 
 [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Notruf aufrufen Haftungsausschluss Beschriftung](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
 
