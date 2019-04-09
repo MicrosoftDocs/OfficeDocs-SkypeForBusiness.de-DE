@@ -1,5 +1,5 @@
 ---
-title: Aktivieren oder deaktivieren des Gastzugriffs auf Microsoft Teams
+title: Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
@@ -19,63 +19,63 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6a4b0013e3e3ca31baea21e4e733a9606f3765c6
 ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/27/2019
 ms.locfileid: "30885283"
 ---
-<a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Aktivieren oder deaktivieren des Gastzugriffs auf Microsoft Teams
+<a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams
 ======================================
 
 Als Office 365-Administrator müssen Sie die Gastfunktion aktivieren, bevor Sie oder die Benutzer Ihrer Organisation (vor allem Teambesitzer) Gäste hinzufügen können. 
 
-Die Gasteinstellungen werden in Azure Active Directory festgelegt. Es dauert ca. 2 bis 24 Stunden, bis die Änderungen in der gesamten Office 365-Organisation wirksam werden. Wenn ein Benutzer die Meldung erhält "Wenden Sie sich an Ihren Administrator", wenn sie versuchen, ihr Team Gastsystem hinzuzufügen, ist es wahrscheinlich, dass das Feature Gast noch nicht aktiviert wurde, oder die Einstellungen für eine effektive sind noch nicht.
+Die Gasteinstellungen werden in Azure Active Directory festgelegt. Es dauert ca. 2 bis 24 Stunden, bis die Änderungen in der gesamten Office 365-Organisation wirksam werden. Wenn Benutzer versuchen, einen Gast zu ihrem Team hinzuzufügen, und dabei die Meldung „Wenden Sie sich an Ihren Administrator“ sehen, ist wahrscheinlich die Gastfunktion nicht aktiviert, oder die Einstellungen sind noch nicht wirksam.
 
 > [!IMPORTANT]
 > Um die Nutzung der Gastzugriffsfunktion in vollem Umfang zu ermöglichen, müssen Sie die gegenseitige Abhängigkeit bezüglich der Kernautorisierung von Microsoft Teams, Azure Active Directory und Office 365 verstehen. Weitere Informationen finden Sie unter [Autorisieren des Gastzugriffs in Microsoft Teams](Teams-dependencies.md).
 
-## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff im Vergleich zum externen Zugriff (Verbund)
+## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff und externer Zugriff (Partnerverbund) im Vergleich
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a>Konfigurieren des Zugriffs von Gast in der Verwaltungskonsole von Microsoft-Teams
+## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a>Konfigurieren von Teams im Admin Center für Microsoft Teams
 
-1.  Melden Sie sich bei der Microsoft-Teams-Verwaltungskonsole.
+1.  Melden Sie sich beim Admin Center für Microsoft Teams an.
 
-2.  Wählen Sie **gesamte Org Einstellungen** > **Gastzugriff**.
+2.  Wählen Sie **Organisationsweite Einstellungen** > **Gastzugriff** aus.
 
-3. Legen Sie die Umschaltfläche **Gast Zugriffsberechtigung in Microsoft-Teams** auf **aktiviert**.
+3. Legen Sie **Gastzugriff in Teams ermöglichen** auf **An** fest.
 
-    ![Legen Sie Gast Access Switch auf auf zulassen ](media/set-up-guests-image1.png)
+    ![Schalter für „Gastzugriff in Teams ermöglichen“ ist auf „An“ eingestellt ](media/set-up-guests-image1.png)
 
-4.  Legen Sie die schaltet unter **aufrufen**, **Besprechung**und **Messaging** auf **ein-** oder **Ausschalten**, je nach den Möglichkeiten, den, die Sie für Gastbenutzer zulassen möchten.
+4.  Legen Sie die Schalter unter **Anruf**, **Besprechung** und **Messaging** je nach den Funktionen, die Sie Gastbenutzern bereitstellen möchten, auf **An** oder **Aus** fest.
 
-    - **Private tätigen** – aktivieren Sie diese Einstellung **auf** um Gäste Peer-zu-Peer-Anrufe tätigen zu ermöglichen.
-    - **Zulassen von IP-video** - aktivieren diese Einstellung **auf** Gäste Video in ihre Anrufe und Besprechungen verwenden sollen.
-    - **Bildschirmfreigabe Modus** – diese Einstellung steuert die Verfügbarkeit der Bildschirmfreigabe für Gastbenutzer. 
-       - Aktivieren Sie diese Einstellung, um **deaktiviert** die Möglichkeit für ihre Bildschirme in Teams freigeben Gäste entfernen. 
-       - Aktivieren Sie diese Einstellung, um **einzelne Anwendung** um Freigabe von einzelnen Anwendungen zu ermöglichen. 
-       - Aktivieren Sie diese Einstellung, um den **gesamten Bildschirm** aus, um die vollständige Bildschirmfreigabe zulassen.
-    - **Zulassen "Jetzt besprechen"** – aktivieren Sie diese Einstellung **auf** um Gäste mit der Funktion "Jetzt besprechen" in Microsoft-Teams zu ermöglichen.
-    - **Bearbeiten gesendete Nachrichten** - aktivieren diese Einstellung **auf** Gäste bearbeiten zu Nachrichten sie zuvor gesendet.
-    - **Gäste können gesendete Nachrichten löschen** – aktivieren Sie diese Einstellung **auf** Gäste löschen zu Nachrichten sie zuvor gesendet.
-    - **Gruppenchat** – aktivieren Sie diese Einstellung **auf** so übergeben Sie die Gäste der Möglichkeit, Chat in Teams verwenden.
-    - **Verwenden Sie Giphys Unterhaltungen** – aktivieren diese Einstellung **auf** um Gäste mit Giphys in Unterhaltungen zu ermöglichen. Giphy ist ein online-Datenbank und die Suchmaschine, mit dem Benutzer suchen und Freigeben von animierte GIF-Dateien. Jede Giphy wird eine Content Bewertung zugewiesen.
-    - **Giphy zum Bewerten** – wählen Sie eine Bewertung aus der Dropdown-Liste aus:
-       - **Alle Inhalte zulassen** - Gäste können sehen, fügen alle Giphys in Chats, unabhängig von der zum bewerten.
-       - **Moderater** - Gäste können Giphys in Chats einfügen, aber einigermaßen aus Versender nicht jugendfreier Inhalte eingeschränkt werden.
-       - **Strict** – Gäste können Giphys in Chats einfügen, aber unbedingt Versender nicht jugendfreier Inhalte einfügen eingeschränkt werden.
-    - **Verwenden Sie Memes Unterhaltungen** - aktivieren diese Einstellung **auf** um Gäste mit Memes in Unterhaltungen zu ermöglichen.
-    - **Verwenden Sie Aufkleber Unterhaltungen** – aktivieren diese Einstellung **auf** um Gäste mit Aufkleber in Unterhaltungen zu ermöglichen. 
+    - **Private Anrufe führen**: **Aktivieren** Sie diese Einstellung, um Gästen Peer-to-Peer-Anrufe zu ermöglichen.
+    - **IP-Video zulassen**: **Aktivieren** Sie diese Einstellung, damit Gäste Video in ihren Anrufen und Besprechungen verwenden dürfen.
+    - **Bildschirmübertragungsmodus**: Diese Einstellung steuert die Verfügbarkeit der Bildschirmübertragung für Gastbenutzer. 
+       - Legen Sie diese Einstellung auf **Deaktiviert** fest, wenn Sie möchten, dass Gäste ihren Bildschirm in Teams nicht übertragen können. 
+       - Legen Sie diese Einstellung auf **Einzelne Anwendung** fest, um die Übertragung einzelner Anwendungen zu gestatten. 
+       - Legen Sie diese Einstellung auf **Vollbild** fest, um die vollständige Bildschirmübertragung zuzulassen.
+    - **Sofortbesprechungen zulassen**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung des Features „Sofortbesprechung“ in Microsoft Teams zu ermöglichen.
+    - **Gesendete Nachrichten bearbeiten**: **Aktivieren** Sie diese Einstellung, um Gästen die Bearbeitung von zuvor gesendeten Nachrichten zu ermöglichen.
+    - **Gäste können gesendete Nachrichten löschen**: **Aktivieren** Sie diese Einstellung, um Gästen das Löschen von zuvor gesendeten Nachrichten zu ermöglichen.
+    - **Chat**: **Aktivieren** Sie diese Einstellung, um Gästen den Zugriff auf den Chat in Teams zu ermöglichen.
+    - **Giphys in Unterhaltungen verwenden**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung von Giphys in Unterhaltungen zu ermöglichen. Giphy ist eine Onlinedatenbank und Suchmaschine, die es Benutzern ermöglicht, nach animierten GIF-Dateien zu suchen und diese zu teilen. Jedem Giphy wird eine Inhaltsbewertung zugewiesen.
+    - **Giphy-Inhaltsbewertung**: Wählen Sie eine Bewertung aus der Dropdown-Liste aus:
+       - **Alle Inhalte zulassen**: Gäste können alle Giphys in Chats einfügen, unabhängig von der Inhaltsbewertung.
+       - **Moderat**: Gäste können Giphys in Chats einfügen, der Zugriff auf nicht jugendfreie Inhalte wird aber moderat eingeschränkt.
+       - **Streng**: Gäste können Giphys in Chats einfügen, der Zugriff auf nicht jugendfreie Inhalte wird aber strikt eingeschränkt.
+    - **Memes in Unterhaltungen verwenden**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung von Memes in Unterhaltungen zu ermöglichen.
+    - **Sticker in Unterhaltungen verwenden**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung von Stickern in Unterhaltungen zu ermöglichen. 
 
 
 5.  Klicken Sie auf **Speichern**.
 
-## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Verwenden von PowerShell, aktivieren oder deaktivieren Sie Gastzugriff
+## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Verwenden Sie PowerShell zum Aktivieren oder Deaktivieren von Gastzugriff.
 
-1.  Laden Sie die Skype für Business Online-PowerShell-Modul aushttps://www.microsoft.com/en-us/download/details.aspx?id=39366
+1.  Laden Sie das Skype for Business Online PowerShell-Modul unter https://www.microsoft.com/en-us/download/details.aspx?id=39366 herunter.
  
-2.  Verbinden Sie eine PowerShell-Sitzung mit der Skype für Business Online Endpunkt.
+2.  Verbinden Sie eine PowerShell-Sitzung mit dem Skype for Business Online-Endpunkt.
 
     ```
     Import-Module SkypeOnlineConnector
@@ -83,7 +83,7 @@ Die Gasteinstellungen werden in Azure Active Directory festgelegt. Es dauert ca.
     $CSSession = New-CsOnlineSession -Credential $Cred
     Import-PSSession -Session $CSSession
     ```
-3.  Überprüfen Sie die Konfiguration und wenn `AllowGuestUser` ist `$False`, verwenden Sie das Cmdlet " [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) ", um diese Liste festgelegt, `$True`.
+3.  Überprüfen Sie Ihre Konfiguration und wenn `AllowGuestUser` ist `$False`, verwenden Sie das Cmdlet [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) zum Einstellen auf `$True`.
 
     ```
     Get-CsTeamsClientConfiguration
@@ -105,11 +105,11 @@ Die Gasteinstellungen werden in Azure Active Directory festgelegt. Es dauert ca.
     
     Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
     ```
-Sie können jetzt Gastbenutzer in Teams für Ihre Organisation verwenden.
+Sie können jetzt Gastbenutzer für Ihre Organisation in Teams unterstützen.
 
 ## <a name="more-information"></a>Weitere Informationen
 
-Das folgende Video ausführliche Informationen zum Gastzugriff.
+In den folgenden Videos erfahren Sie mehr über den Gastzugriff.
 
 |  |  |
 |---------|---------|

@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: dbe0b72c03d8e85deff538924c17dac8f0d3773c
 ms.sourcegitcommit: daf65bf09ca57554da744602d2551db53caedde5
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/09/2019
 ms.locfileid: "30512989"
@@ -35,7 +35,7 @@ Das Microsoft Teams-Besprechungs-Add-In wird für Benutzer, auf deren Windows-PC
 ![Screenshot des Microsoft Teams-Add-Ins auf dem Outlook-Menüband](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
-> Windows 7-Benutzer müssen das [Update für universelle C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) für Teams Meeting-add-in zu installieren.
+> Benutzer von Windows 7 müssen das [Update für Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) installieren, damit das Add-In für die Teams-Besprechung funktioniert.
 
 Wenn Benutzer das Microsoft Teams-Besprechungs-Add-In nicht sehen, weisen Sie sie an, Outlook und Microsoft Teams zu schließen, den Microsoft Teams-Client neu zu starten, sich bei Microsoft Teams anzumelden und den Outlook-Client zu starten (in dieser Reihenfolge).
 
@@ -53,16 +53,16 @@ Weitere Informationen zum Konfigurieren der Authentifizierung finden Sie unter [
 
 ## <a name="enable-private-meetings"></a>Aktivieren von privaten Besprechungen
 
-Zulassen Sie, dass in der Microsoft-Teams-Verwaltungskonsole für das plug-in bereitgestellt Planung für private Konferenzen aktiviert werden muss. Wechseln Sie in der Verwaltungskonsole zu **Besprechungen** > **Besprechungsrichtlinien**, und wechseln Sie in den Abschnitt **Allgemein** **Planen von privaten Besprechungen zulassen** auf On.)
+Die Option „Zeitplanung für private Besprechungen zulassen“ muss im Microsoft Teams Admin Center aktiviert sein, damit das Plug-In bereitgestellt wird. Wechseln Sie im Admin Center zu **Besprechungen** > **Besprechungsrichtlinien**, und legen Sie im Abschnitt **Allgemein** **Zeitplanung für private Besprechungen zulassen** auf „Aktiviert“ fest.)
 
-![Screenshot der Einstellungen in der Verwaltungskonsole von Microsoft-Teams.](media/teams-add-in-for-outlook-image1.png)
+![Screenshot der Einstellungen im Microsoft Teams Admin Center.](media/teams-add-in-for-outlook-image1.png)
 
 Der Microsoft Teams-Client ermittelt, ob die Benutzer die 32-Bit- oder 64-Bit-Version benötigen, und installiert dann das richtige Add-In.
 
 > [!NOTE]
 > Möglicherweise müssen die Benutzer Outlook nach einer Installation oder einem Upgrade von Microsoft Teams neu starten, um das aktuelle Add-In zu erhalten.
 
-## <a name="other-considerations"></a>Weitere Überlegungen
+## <a name="other-considerations"></a>Andere Überlegungen
 
 Die Funktionen des Microsoft Teams-Besprechungs-Add-Ins werden noch weiterentwickelt. Beachten Sie daher Folgendes:
 - Einige Funktionen von Onlinebesprechungen, beispielsweise Aufzeichnung, Umfragen und Whiteboards, sind noch nicht verfügbar.
@@ -70,18 +70,18 @@ Die Funktionen des Microsoft Teams-Besprechungs-Add-Ins werden noch weiterentwic
 - Sie können zurzeit nur Personen aus Ihrer Firma einladen, da die Teilnahme externer Benutzer an Besprechungen noch nicht möglich ist.
 - Das Add-In ist für geplante Besprechungen mit bestimmten Teilnehmern gedacht, nicht für Besprechungen in einem Kanal. Kanalbesprechungen müssen in Microsoft Teams geplant werden. Zurzeit ist das Microsoft Teams-Besprechungs-Add-In in Outlook nur für Windows-Benutzer verfügbar, aber die Unterstützung für Mac wird noch hinzugefügt.
 - Das Add-In funktioniert nicht, wenn sich im Netzwerkpfad zwischen dem PC des Benutzers und den Microsoft Teams-Diensten ein Authentifizierungsproxy befindet.
-- Das Add-in wird schrittweise eingeführt werden und möglicherweise nicht für Ihre Organisation noch verfügbar sind.
+- Das Add-In wird schrittweise bereitgestellt und steht möglicherweise noch nicht für Ihre Organisation zur Verfügung.
 
 ## <a name="troubleshooting"></a>Problembehandlung
 
-Wenn Sie die Besprechung Teams add-in für Outlook installieren nicht, versuchen Sie diese Schritte zur Problembehandlung.
+Wenn Sie das Add-In für Teams-Besprechungen für Outlook nicht installieren können, versuchen Sie diese Schritte zur Problembehandlung.
 
-- Stellen Sie sicher, dass alle verfügbaren Updates für Outlook-Desktopclient angewendet wurden 
-- Starten Sie den Desktopclient Teams neu.
-- Melden Sie sich ab und dann wieder anmelden auf dem Desktopclient Teams.
-- Starten Sie den desktop Outlook-Client neu. (Stellen Sie sicher, dass Outlook nicht im Admin-Modus ausgeführt wird.)
-- Stellen Sie sicher, dass der Kontoname angemeldeten Benutzer keine Leerzeichen enthalten. (Dies ist ein bekanntes Problem und wird in einem zukünftigen Update behoben werden.)
-- Stellen Sie sicher, dass einmaliges Anmelden (SSO) aktiviert ist.
+- Stellen Sie sicher, dass alle verfügbaren Updates für den Outlook-Desktopclient angewendet wurden. 
+- Starten Sie den Teams-Desktopclient neu.
+- Melden Sie sich ab, und melden Sie sich dann wieder beim Teams-Desktopclient an.
+- Starten Sie den Outlook-Desktopclient neu. (Stellen Sie sicher, dass Outlook nicht im Admin-Modus ausgeführt wird.)
+- Stellen Sie sicher, dass der Name des angemeldeten Benutzerkontos keine Leerzeichen enthält. (Dies ist ein bekanntes Problem, das in einem zukünftigen Update behoben wird.)
+- Stellen Sie sicher, dass Single Sign-On (SSO) aktiviert ist.
 
 Eine allgemeine Anleitung zum Deaktivieren von Add-Ins finden Sie unter [Anzeigen, Verwalten und Installieren von Add-Ins in Office-Programmen](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 

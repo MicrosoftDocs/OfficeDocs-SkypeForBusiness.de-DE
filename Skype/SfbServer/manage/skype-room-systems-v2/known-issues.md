@@ -10,59 +10,59 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
-description: In diesem Artikel werden bekannte Probleme für Microsoft-Teams, Räume nach Funktionsbereich.
+description: Dieser Artikel erläutert die bekannten Probleme für Microsoft Teams Rooms nach Funktionsbereich.
 ms.openlocfilehash: d71b209784f4737ac4433e2eececb1f9ada3ebc8
 ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/30/2019
 ms.locfileid: "31013087"
 ---
 # <a name="known-issues"></a>Bekannte Probleme 
  
-In diesem Artikel werden die bekannten Probleme für Microsoft-Teams, Räume nach Funktionsbereich.
+Dieser Artikel führt die bekannten Probleme für Microsoft Teams Rooms nach Funktionsbereichen auf.
 <!-- If we get word that one of these issues no longer applies, contact meerak@microsoft.com or msmets@microsoft.com and let them know to EoL the corresponding KB  -->
 
 <a name="update"> </a>  
-## <a name="update"></a>Update 
+## <a name="update"></a>Aktualisieren 
 
-| Titel des Problems |  Verhalten \/ Symptom | Bekannte Problemumgehung | KB-Artikel |
+| Problemtitel |  Verhalten \/ Symptom | Bekannte Problemumgehung | KB-Artikel |
 |  ---        |      ---             |   ---            | --- |
-|  App veraltete         |    Die Microsoft-Teams Räume-Konsole zeigt einen "veraltet System Config".                |   [Verwenden Sie das Microsoft-Teams Chatrooms Recovery-tool](recovery-tool.md)             |  Keine  |
+|  App nicht mehr aktuell         |    Die Microsoft Teams Rooms-Konsole zeigt einen Fehler des Typs „Systemkonfiguration abgelaufen“ an.                |   [Verwenden Sie das Wiederherstellungstools für Microsoft Teams Rooms](recovery-tool.md)             |  Keine |
 
 
 <a name="OS-conflicts"> </a>  
 ## <a name="user-interface"></a>Benutzeroberfläche 
 
-| Titel des Problems |  Verhalten \/ Symptom | Bekannte Problemumgehung | KB-Artikel |
+| Problemtitel |  Verhalten \/ Symptom | Bekannte Problemumgehung | KB-Artikel |
 |  ---        |      ---             |   ---            | --- |
-|Fehlende virtuelle Tastatur   | Virtuelle Tastatur wird nicht angezeigt, wenn Sie die Informationen in den Microsoft-Teams Chatrooms eingeben müssen. Dieses Problem tritt nach der Installation der Windows 10 Ersteller von Updates (Version 1703) unter Surface Pro 4, auf dem Microsoft-Teams Chatrooms ausgeführt wird. | Um dieses Problem zu umgehen, öffnen Sie manuell virtuelle Tastatur. Gehen Sie hierzu folgendermaßen vor:<br><br> **1.** Tippen Sie und halten Sie den Vorgangsbalken, und tippen Sie dann auf die Schaltfläche **Show Bildschirmtastatur** . Ein Tastatursymbol sollte auf der rechten Seite des Vorgangsbalkens angezeigt werden. <br><br> **2.** Tippen auf der Tastatursymbol, um die virtuelle Tastatur zu öffnen. | [KB4037694](https://support.microsoft.com/en-us/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
+|Virtuelle Tastatur fehlt   | Die virtuelle Tastatur wird nicht angezeigt, wenn Sie Informationen in Microsoft Teams Rooms eingeben müssen. Dieses Problem tritt nach der Installation des Windows 10 Creators Update (Version 1703) auf dem Surface Pro 4 auf, auf dem Microsoft Teams Rooms ausgeführt wird. | Um dieses Problem zu umgehen, öffnen Sie die virtuelle Tastatur manuell. Führen Sie hierzu folgende Schritte aus:<br><br> **1.** Halten Sie die Taskleiste gedrückt, und tippen Sie dann auf die Schaltfläche **Bildschirmtastatur anzeigen**. Ein Tastatursymbol sollte auf der rechten Seite der Taskleiste angezeigt werden. <br><br> **2.** Tippen Sie auf das Tastatursymbol, um die virtuelle Tastatur zu öffnen. | [KB4037694](https://support.microsoft.com/de-DE/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
    
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>Hardware
 
-| Titel des Problems |  Verhalten \/ Symptom | Bekannte Problemumgehung | KB-Artikel |
+| Problemtitel |  Verhalten \/ Symptom | Bekannte Problemumgehung | KB-Artikel |
 |  ---        |      ---             |   ---            |   --- |
-| Monitore nicht erkannt | Wenn Sie Microsoft-Teams Räume auf einem Gerät Surface Pro (Modell 2017) ausführen, werden die Monitore nicht erkannt. |  Halten Sie die Surface Pro Power mindestens 20 Sekunden lang. Wenn Sie dies tun, wird das Gerät neu gestartet, und löscht den Cache Grafiken. |[KB4055681](https://support.microsoft.com/en-us/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
+| Monitore nicht erkannt | Wenn Sie Microsoft Teams Rooms auf einem Surface Pro-Gerät (Modell 2017) ausführen, werden Monitore nicht erkannt. |  Halten Sie den Surface Pro Power-Netzschalter mindestens 20 Sekunden lang gedrückt. Wenn Sie dies tun, wird das Gerät neu gestartet und löscht den Grafik-Cache. |[KB4055681](https://support.microsoft.com/de-DE/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
           
 <a name="Limits"> </a>
 ## <a name="limitations-and-expected-behaviors"></a>Einschränkungen und erwartetes Verhalten
 ***
-Microsoft-Teams Chatrooms unterstützt keine HDCP-Eingang beobachtet hat verursacht Probleme mit HDMI Aufnahme Funktionalität (Video, audio). Achten Sie darauf, dass Switches angeschlossen zu Microsoft-Teams Räumen HDCP-Optionen deaktiviert aufweisen. 
+Microsoft Teams Rooms unterstützt keine HDCP-Eingabe. Von dieser ist bekannt, dass sie Probleme mit der HDMI-Erfassungsfunktion (Video, Audio) verursacht. Stellen Sie sicher, dass die HDCP-Optionen der mit Microsoft Teams Rooms verbundenen Switches deaktiviert sind. 
 ***
-Ein Consumer TV als Front Raum Anzeige Anforderungen für den Support/HDMI das Consumer Electronics Steuerelement (CEC)-Feature aktivieren, damit er automatisch an eine aktive Bildquelle aus dem Standbymodus wechseln kann. Dieses Feature wird auf alle TV-Geräte nicht unterstützt. 
+Ein Consumer-TV, der als eine Anzeige vorne im Raum verwendet wird, muss das Feature „Consumer Electronics Control (CEC)“ von HDMI unterstützen/aktivieren, sodass ein automatischer Wechsel zu einer aktiven Videoquelle aus dem Standbymodus möglich ist. Dieses Feature wird nicht auf allen TVs unterstützt. 
 ***
-Verwenden Sie immer eine drahtgebundene 1 Gbit/s-Netzwerk-Verbindung, um sicherzustellen, dass Sie die erforderliche Bandbreite verfügen. 
+Verwenden Sie immer eine 1-GBit/s-Kabelnetzwerkverbindung, um sicherzustellen, dass die benötigte Bandbreite verfügbar ist. 
 ***
-Wenn Ihr Microsoft-Teams Chatrooms Gerät verliert Vertrauensstellung mit der Domäne (beispielsweise, wenn Sie die Microsoft-Teams Räume aus der Domäne entfernen, nach der Domäne beigetreten ist), werden nicht Sie an das Gerät authentifizieren und Einstellungen zu öffnen. Melden Sie sich über das lokale Administratorkonto werden der umgangen. 
+Wenn die Vertrauensstellung zwischen Ihrem Microsoft Teams Rooms-Gerät und der Domäne verloren geht (zum Beispiel, wenn Sie Microsoft Teams Rooms nach dem Domänenbeitritt aus der Domäne entfernen), können Sie sich nicht gegenüber dem Gerät authentifizieren und die Einstellungen öffnen. Die Lösung ist, sich mit dem lokalen Administratorkonto anzumelden. 
 ***
-3.0.12.0 freigeben, die 64-Bit-Version von Windows 10 Enterprise Jahrestag Edition (englische, Version 1607) ab Microsoft Teams Chatrooms nicht mehr unterstützt werden. 
+Die 64-Bit-Version von Windows 10 Enterprise Anniversary Edition (Englisch, Version 1607) wird seit der Microsoft Teams Rooms-Version 3.0.12.0 nicht mehr unterstützt. 
 ***
 
 <a name="See"> </a>  
 ## <a name="see-also"></a>Siehe auch
 
-[Hilfe für Microsoft-Teams Räume](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms-Hilfe](https://support.office.com/de-DE/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Verwalten von Microsoft-Teams, Räume](skype-room-systems-v2.md)
+[Microsoft Teams Rooms verwalten](skype-room-systems-v2.md)

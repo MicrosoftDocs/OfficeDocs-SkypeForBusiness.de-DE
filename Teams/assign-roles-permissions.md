@@ -16,10 +16,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0c7343f294f18d5aaacf01059459524cdd2700a2
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
-ms.translationtype: MT
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
+ms.lasthandoff: 03/19/2019
 ms.locfileid: "30569958"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams
@@ -28,35 +28,35 @@ ms.locfileid: "30569958"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-In Microsoft-Teams, es gibt zwei Benutzerrollen: **Besitzer** und **Member**. Standardmäßig wird ein neues Team erstellt ein Benutzer den Status eines Besitzers erteilt. Wenn ein Team aus einer vorhandenen Office 365-Gruppe erstellt wird, werden Berechtigungen vererbt.
+Es gibt in Microsoft Teams zwei Benutzerrollen: **Besitzer** und **Mitglied**. Standardmäßig wird einem Benutzer, der ein neues Team erstellt. der Status „Besitzer“ gewährt. Wenn ein Team aus einer vorhandenen Office 365-Gruppe erstellt wird, werden die Berechtigungen vererbt.
 
-Die folgende Tabelle zeigt den Unterschied Berechtigungen zwischen einer Besitzer und Mitglied.
+Die folgende Tabelle zeigt den Unterschied zwischen Berechtigungen eines Besitzers und eines Mitglieds.
 
 
 |                                   | Teambesitzer | Teammitglied |
 |-----------------------------------|------------|-------------|
-|          **Team erstellen**          |    Ja,<sup>1</sup>     |     Nein      |
+|          **Team erstellen**          |    Ja<sup>1</sup>     |     Nein      |
 |          **Team verlassen**           |    Ja     |     Ja     |
 |  **Teamnamen/Teambeschreibung bearbeiten**   |    Ja     |     Nein      |
 |          **Team löschen**          |    Ja     |     Nein      |
-|          **Kanal hinzufügen**          |    Ja     |    Ja,<sup>2</sup>|
-| **Kanalnamen/Kanalbeschreibung bearbeiten** |    Ja     |    Ja,<sup>2</sup>|
-|        **Kanal löschen**         |    Ja     |    Ja,<sup>2</sup>|
-|          **Mitglieder hinzufügen**          |  Ja,<sup>3</sup>   |     Keine<sup>4</sup>    |
-|          **Anforderung zum Hinzufügen von Mitgliedern**          |  n/v   |     Ja,<sup>5</sup>     |
-|           **Registerkarten hinzufügen**            |    Ja     |    Ja,<sup>2</sup>|
-|        **Connectors hinzufügen**         |    Ja     |    Ja,<sup>2</sup>|
-|           **Bots hinzufügen**            |    Ja     |    Ja,<sup>2</sup>|
+|          **Kanal hinzufügen**          |    Ja     |    Ja<sup>2</sup>|
+| **Kanalnamen/Kanalbeschreibung bearbeiten** |    Ja     |    Ja<sup>2</sup>|
+|        **Delete channel**         |    Ja     |    Ja<sup>2</sup>|
+|          **Hinzufügen von Mitgliedern**          |  Ja<sup>3</sup>   |     Nein<sup>4</sup>    |
+|          **Hinzufügen von Mitgliedern anfordern**          |  Nicht zutreffend   |     Ja<sup>5</sup>     |
+|           **Registerkarten hinzufügen**            |    Ja     |    Ja<sup>2</sup>|
+|        **Connectors hinzufügen**         |    Ja     |    Ja<sup>2</sup>|
+|           **Bots hinzufügen**            |    Ja     |    Ja<sup>2</sup>|
 
-<sup>1</sup> Team Besitzer können Teams erstellen, es sei denn, sie haben aus auf diese Weise eingeschränkt wurde. Siehe "Berechtigungen zum Erstellen von Teams" weiter unten.
+<sup>1</sup> Teambesitzer können Teams erstellen, es sei denn, sie wurden davon ausgeschlossen. Siehe „Berechtigungen zum Erstellen von Teams“ weiter unten.
 >
-<sup>2</sup> dieser Elemente können mithilfe eines Besitzers auf einer Teamebene deaktiviert werden in diesem Fall würde die Mitglieder nicht darauf zugreifen können.
+<sup>2</sup> Diese Elemente können von einem Besitzer auf Teamebene deaktiviert werden. In diesem Fall können Mitglieder nicht darauf zugreifen.
 
-<sup>3</sup> nach dem Hinzufügen eines Elements zu einem Team, kann ein Besitzers auch Mitglied, um den Status eines Besitzers heraufgestuft werden. Es ist außerdem möglich, dass Besitzer zu stufende Websites ihren eigenen Status auf einen Member.
+<sup>3</sup> Nach dem Hinzufügen eines Mitglieds zu einem Team kann ein Besitzer auch ein Mitglied in den Besitzerstatus höherstufen. Es ist auch möglich, dass ein Besitzer seinen eigenen Status zu einem Mitglied tiefer stuft.
 
 <sup>4</sup> Teammitglieder können andere Mitglieder zu einem öffentlichen Team hinzufügen.
 
-<sup>5</sup> während ein Teammitglied Mitglieder direkt zu einem privaten Team hinzufügen kann, können sie Anfordern einer Person zu einem Team hinzugefügt werden, den sie bereits Mitglied sind. Wenn ein Element einer Person zu einem Team hinzugefügt werden anfordert, empfangen Team Besitzer eine Benachrichtigung, dass sie eine ausstehende Anforderung sind, die sie annehmen oder ablehnen können.
+<sup>5</sup> Während ein Teammitglied Mitglieder nicht direkt zu einem privaten Team hinzufügen kann, kann es das Hinzufügen einer anderen Person zu einem Team anfordern, in dem es bereits Mitglied ist. Wenn ein Mitglied das Hinzufügen einer anderen Person zu einem Team anfordert, erhalten Teambesitzer eine Benachrichtigung über eine ausstehende Anforderung, die sie annehmen oder ablehnen können.
 
 
 
@@ -67,7 +67,7 @@ Die folgende Tabelle zeigt den Unterschied Berechtigungen zwischen einer Besitze
 <a name="permissions-to-create-teams"></a>Berechtigungen zum Erstellen von Teams
 ---------------------------
 
-Standardmäßig haben alle Benutzer mit einem Postfach in Exchange Online Berechtigungen zum Erstellen von Office 365-Gruppen und daher ein Team in Microsoft-Teams. Sie können haben eine genauere Kontrolle und die Erstellung des neuen Teams und somit die Erstellung des neuen Office 365-Gruppen nach Gruppe erstellen und Verwaltungsrechte an eine Gruppe von Benutzern delegieren einschränken. Anweisungen finden Sie unter [verwalten, die Office 365 Gruppen erstellen können](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+Standardmäßig verfügen alle Benutzer mit einem Postfach in Exchange Online über die Berechtigung zum Erstellen von Office 365-Gruppen und damit zum Erstellen eines Teams in Microsoft Teams. Sie können dies genauer steuern und die Erstellung neuer Teams und damit die Erstellung neuer Office 365-Gruppen einschränken, indem Sie die Gruppenerstellungs- und Verwaltungsrechte an eine Gruppe von Benutzern delegieren. Anweisungen finden Sie unter [Verwalten von Personen, die Office 365-Gruppen erstellen können](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 
 ||||

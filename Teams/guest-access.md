@@ -17,56 +17,57 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 42ec1ce60a206fa0a67f40c08db4658c0c53e543
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
-ms.translationtype: MT
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2019
+ms.lasthandoff: 03/19/2019
 ms.locfileid: "30641192"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 ======================================
 
-## <a name="guest-access-overview"></a>Übersicht über den Datenzugriff Gast
+## <a name="guest-access-overview"></a>Übersicht Über Gastzugriff
 
-Gastzugriff ist eines der Features, die für die meisten Kunden hatten. Hier wird, wie Sie mit den Fortschritt auf Gast Access halten und teilen Sie uns Ihre Meinung:
+Bei Gastzugriff handelt es sich um eine der meistgewünschten Funktionen. So können Sie sich über unsere Fortschritte beim Gastzugriff auf dem Laufenden halten und uns Ihre Meinung sagen:
 
 - Wenn Sie Probleme mit dem Gastzugriff haben, lesen Sie [Bekannte Probleme für Microsoft Teams](Known-issues.md).
 - Informationen zu geplanten neuen oder aktualisierten Funktionen finden Sie in der [Microsoft Teams-Roadmap](https://aka.ms/teamsroadmap).
 - Teilen Sie uns auf der [Microsoft Teams-UserVoice](https://aka.ms/TeamsUserVoice)-Website Ihre Wünsche mit.
 - Berichten Sie unten im Abschnitt „Kommentare“ über Ihre Erfahrungen.
 
-Gast Access ermöglicht Teams in Ihrer Organisation für die Zusammenarbeit mit Personen außerhalb Ihrer Organisation durch gewähren sie Zugriff auf vorhandenen Teams und Kanäle in einem oder mehreren Mandanten. Jeder Benutzer mit einer Business "oder" Consumer e-Mail-Konto, wie Outlook, Google Mail oder andere, kann als Gast in Teams vollen Zugriff auf Team Chats, Besprechungen und Dateien teilnehmen.
+Gastzugriff ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb der Organisation zusammenzuarbeiten, indem ihnen Zugriff auf vorhandene Teams und Kanäle auf einem oder mehreren Ihrer Mandanten gewährt wird. Alle Benutzer, die über ein E-Mail-Konto für Geschäftsbenutzer oder Heimanwender (z. B. Outlook, Gmail usw.) verfügen, können als Gäste in Microsoft Teams teilnehmen und erhalten Vollzugriff auf Chats, Besprechungen und Dateien des Teams.
 
-Gastzugriff ist in allen Office 365 Business Premium, Office 365 Enterprise und Office 365 Education Abonnements mit keine zusätzliche Lizenzierung Anforderung enthalten. Sie können bis zu 5 Gäste pro lizenzierten Benutzer bei Ihrem Mandanten haben. Weitere Informationen zur Lizenzierung finden Sie unter [Azure Active Directory B2B Zusammenarbeit Lizenzierung Anweisungen](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance). 
+Gastzugriff ist in allen Office 365 Business Premium-, Office 365 Enterprise- und Office 365 Education-Abonnements ohne zusätzliche Lizenzanforderungen enthalten. Sie können bis zu 5 Gäste pro lizenziertem Benutzer auf Ihrem Mandanten unterstützen. Weitere Informationen zu Lizenzierung finden Sie unter [Lizenzierungsanleitung zur Azure Active Directory B2B-Zusammenarbeit](https://docs.microsoft.com/de-DE/azure/active-directory/b2b/licensing-guidance). 
 
-Der Gastzugriff ist eine Einstellung auf Mandantenebene in Microsoft Teams, die standardmäßig deaktiviert ist. Gast Access unterliegt Azure AD und Einschränkungen für Office 365-Dienst.
+Der Gastzugriff ist eine Einstellung auf Mandantenebene in Microsoft Teams, die standardmäßig deaktiviert ist. Gastzugriff unterliegt Azure AD- und Office 365-Dienstbegrenzungen.
 
 > [!NOTE]
-> Benutzer in Ihrer Organisation mit Office 365-Abonnement-Plänen nur, wie Exchange Online – Plan 2, können nicht als Gäste zu Ihrer Organisation eingeladen werden, da Teams betrachtet diese Benutzer in derselben Organisation angehören. Für diese Benutzer zu Teams verwenden müssen sie ein Office 365 Business Premium, Office 365 Enterprise oder Office 365 Education-Abonnement zugewiesen werden. 
+> Benutzer in Ihrer Organisation, die nur über eigenständige Office 365-Abonnementpläne verfügen, z. B. Exchange Online Plan 2, können nicht als Gäste zu Ihrer Organisation eingeladen werden, da Teams diese Benutzer als derselben Organisation angehörig betrachtet. Damit diese Benutze Teams verwenden können, müssen Sie über ein Office 365 Business Premium-, Office 365 Enterprise- oder Office 365 Education-Abonnement verfügen. 
 
-## <a name="who-is-a-guest"></a>Wer ist Gastsystem?
+## <a name="who-is-a-guest"></a>Wer ist ein Gast?
 
-Ein Gast ist kein Mitarbeiter, Schüler/Student oder Mitglied Ihrer Organisation Er verfügt über kein Geschäfts-, Schul- oder Unikonto bei Ihrer Organisation. Gäste können beispielsweise Partner, Hersteller, Lieferanten oder Berater sein. Jeder Benutzer, der nicht Teil Ihrer Organisation ist, kann als Gast in Teams hinzugefügt werden. Dies bedeutet, dass jeder Benutzer mit einer Business-Konto (d. h., ein Azure Active Directory-Konto) oder die Consumer e-Mail-Konto (mit Outlook.com, Gmail.com oder andere) als Gast in Teams, mit Vollzugriff auf den Teams teilnehmen kann und Channel guter. (Sie können über Gast Einschränkungen in [Access Gast autorisieren Microsoft-Teams](teams-dependencies.md)lesen.) Alle Gäste in Teams unterliegen den gleichen Einhaltung von Vorschriften und Überwachung Schutz als den Rest von Office 365 und in Azure AD sicher verwaltet werden können.
+Ein Gast ist kein Mitarbeiter, Schüler/Student oder Mitglied Ihrer Organisation Er verfügt über kein Geschäfts-, Schul- oder Unikonto bei Ihrer Organisation. Gäste können beispielsweise Partner, Hersteller, Lieferanten oder Berater sein. Jede Person, die nicht Teil Ihrer Organisation ist, kann als Gast in Teams hinzugefügt werden. Dies bedeutet, dass jeder Benutzer mit einem Business-Konto (d. h. ein Azure Active Directory-Konto) oder E-Mail-Consumer-Konto (mit Outlook.com, Gmail.com oder einer sonstigen Adresse) als Gast in Teams teilnehmen kann – mit vollständigem Zugriff auf Team- und Kanalfunktionen. (Informationen zu Gastbeschränkungen finden Sie unter [Autorisieren des Gastzugriffs in Microsoft Teams](teams-dependencies.md).) Für alle Gäste in Microsoft Teams gelten die gleichen Compliance- und Überwachungsmaßnahmen wie überall in Office 365. Gäste können in Azure AD sicher verwaltet werden.
 
-## <a name="why-use-guest-access"></a>Gründe für die Verwendung von Access Gast
+## <a name="why-use-guest-access"></a>Warum Gastzugriff verwenden?
       
-Mit Gast Access können Organisationen, mit denen Teams externen Zugriff auf Teams, Dokumente in Kanäle, Ressourcen, Chats und an ihre Partner Applications Beibehaltung vollständige Kontrolle über ihre eigenen Unternehmensdaten bereitstellen. Alle Gäste in Teams unterliegen den gleichen Einhaltung von Vorschriften und Überwachung Schutz als den Rest von Office 365 und Gäste in Azure AD sicher verwaltet werden können.  
+Mit Gastzugriff können Organisationen, die Teams verwenden, ihren Partnern externen Zugriff auf Teams, Dokumente in Kanälen, Ressourcen, Chats und Anwendungen gewähren und gleichzeitig die vollständige Kontrolle über ihre eigenen Unternehmensdaten behalten. Für alle Gäste in Microsoft Teams gelten die gleichen Compliance- und Überwachungsmaßnahmen wie überall in Office 365. Gäste können in Azure AD sicher verwaltet werden.  
 
-Teams basiert auf Office 365-Gruppen und bietet eine neue Möglichkeit zum Zugriff auf gemeinsame Elemente für ein Office 365-Gruppe. Teams ist die beste Lösung für beständigen Chat zwischen Gruppen- bzw. Teammitgliedern. Office 365-Gruppen ist ein Dienst, der anwendungsübergreifende Mitgliedschaft für bestimmte freigegebene Teamressourcen (beispielsweise eine SharePoint-Website oder ein Power BI-Dashboard) bietet, damit das Team effektiv und sicher zusammenarbeiten kann. 
+Teams basiert auf Office 365-Gruppen und bietet neue Möglichkeiten, auf freigegebene Ressourcen für eine Office 365-Gruppe zuzugreifen. Teams ist die beste Lösung für beständigen Chat zwischen Gruppen- bzw. Teammitgliedern. Office 365-Gruppen ist ein Dienst, der anwendungsübergreifende Mitgliedschaft für bestimmte freigegebene Teamressourcen (beispielsweise eine SharePoint-Website oder ein Power BI-Dashboard) bietet, damit das Team effektiv und sicher zusammenarbeiten kann. 
 
-## <a name="how-does-guest-access-compare-to-external-access-federation"></a>Wie Vergleich Access Gast im zu den externen Zugriff (Verbund)?
+## <a name="how-does-guest-access-compare-to-external-access-federation"></a>Inwiefern unterscheidet sich der Gastzugriff von externem Zugriff (Verbund)?
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>Weitere Informationen
     
 [Supportressourcen für Microsoft Teams](support-resources.md)  
-[Gast Access in Office 365-Gruppen](https://support.office.com/en-us/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
+
+  [Gastzugriff in Office 365-Gruppen](https://support.office.com/en-us/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   
 |  |  |
 |---------|---------|
-|Einführung in Access Gast   | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
-|Ausführliche Behandlung von Gastzugriff   | <iframe width="350" height="200" src="https://www.youtube.com/embed/vaJRRSjBxxY" frameborder="0" allowfullscreen></iframe>   |
-| Hinzufügen von Gäste in Microsoft-Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+|Einführung in Gastzugriff   | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
+|Umfassender Einblick in Gastzugriff   | <iframe width="350" height="200" src="https://www.youtube.com/embed/vaJRRSjBxxY" frameborder="0" allowfullscreen></iframe>   |
+| Hinzufügen von Gästen in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
     
 

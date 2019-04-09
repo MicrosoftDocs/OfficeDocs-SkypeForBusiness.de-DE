@@ -1,12 +1,12 @@
 ---
-title: Upgrade von Skype for Business Online auf Microsoft Teams - Microsoft Teams
+title: Upgrade von Skype for Business Online auf Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Verwenden Sie ein bewährt Framework, um Ihrer Organisation Upgrade Weg von Skype für Unternehmen Teams
+description: Verwenden Sie ein bewährtes Erfolgs-Framework bei Ihrem Umstieg von Skype for Business zu Teams in Ihrer Organisation.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -17,41 +17,41 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 60094153f0e48187b0437bce1f25077c742ad773
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
-ms.translationtype: MT
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2019
+ms.lasthandoff: 03/19/2019
 ms.locfileid: "30641179"
 ---
-# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype für Unternehmen so aktualisieren Sie Microsoft-Teams
+# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Upgrade von Skype for Business auf Microsoft Teams
 
-Unterstützung von Microsoft intelligenten Communications Vision, ist Microsoft-Teams, die zentrale Plattform für die Zusammenarbeit, Chat, Besprechungen, Anrufe, für die Zusammenarbeit, app-Integration und Dateispeicher, da es Menschen und. Als eine vorhandene Skype für Unternehmenskunden sind Sie eingeladen eines Upgrades auf Microsoft-Teams, diese umfassendes, Kommunikation und Zusammenarbeit-Funktionen in einem einzigen Client arbeiten-Umgebung zu bieten.
+Microsoft Teams unterstützt die Vision von Microsoft im Hinblick auf intelligente Kommunikation und ist der zentrale Ort für Teamarbeit. Die Lösung bringt Chats, Besprechungen, Anrufe, Zusammenarbeit, App-Integration und Dateispeicher zusammen. Als vorhandener Skype for Business-Kunde laden wir Sie ein, ein Upgrade auf Microsoft Teams durchzuführen, um die gesamte Suite der Kommunikations- und Zusammenarbeitsfunktionen in einer einzigen Clientlösung zu erleben.
 
-Ihre Upgrade Reise kann eine Weile dauern, und wir zur Unterstützung von jedem Schritt den Weg. Ob Sie sind nur erste Schritte mit Verwendung bereits für Unternehmen, Teams zusammen mit Skype-Teams oder bereit zur Aktualisierung, wir hart arbeiten schalten Sie die richtige Ebene der Anleitung für Ihre Organisation und Fördern Sie die nächsten Schritte zur Realisierung beginnen die Wert Teams können Ihrem Unternehmen bieten.
+Der Upgradevorgang kann einige Zeit dauern, und wir stehen Ihnen bei jedem Schritt auf dem Weg zur Seite. Ganz gleich, ob Sie gerade erst mit Teams starten, Teams bereits zusammen mit Skype for Business verwenden oder bereit für ein Upgrade sind – wir bieten Ihnen das richtige Maß an Unterstützung in Ihrer Organisation und ermutigen Sie, die nächsten Schritte zu gehen, um den Nutzen zu realisieren, den Teams Ihrer Organisation bieten kann.
 
-Zeigen Sie in dieser [Übersicht über](https://aka.ms/UpgradeOverview) eine Einführung in die Skype für Unternehmen zu Teams Upgrade Weg, einschließlich zentrale Konzepte, Framework und Upgradepfade an.
+Sehen Sie sich diese [Übersicht](https://aka.ms/UpgradeOverview) an, und erhalten Sie eine Einführung in das Upgrade von Skype for Business zu Teams, einschließlich Hauptkonzepte, Framework und Upgradepfade.
 
 > [!Tip]
-> Sehen Sie sich die folgenden Sitzung um kennen zu lernen die Aktualisierung von Skype für Unternehmen, die Microsoft-Teams:
+> Sehen Sie sich die folgende Sitzung an, um sich über das Upgrade von Skype for Business auf Microsoft Teams zu informieren:
 > - [Einführung in das Upgrade](https://aka.ms/teams-upgrade-intro)
 > - [Planen des Upgrades](https://aka.ms/teams-upgrade-plan)
-> - [Interoperabilität und Koexistenz](https://aka.ms/teams-upgrade-coexistence-interop)
-> - [Administratorbenutzeroberfläche](https://aka.ms/teams-upgrade-admin)
+> - [Koexistenz und Interoperabilität](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Das Upgrade aus Sicht des Administrators](https://aka.ms/teams-upgrade-admin)
 
-## <a name="upgrade-journey-framework"></a>Upgrade Reise-framework
+## <a name="upgrade-journey-framework"></a>Upgrade-Framework
 
-Mit denen die umständliche Ihrer Reise Upgrade dauern, haben wir eine bewährt Framework für gesteuerter ändern, beschäftigt, Leitfäden, Tipps und Ressourcen in der gesamten einbinden. Auf dem vorherigen und optimale Ergebnisse zu jedem Schritt erstellt wurde, empfehlen wir die Schritte unter Reihenfolge.
+Damit Sie das Upgrade ohne Überraschungen ausführen können, haben wir ein bewährtes Erfolgs-Framework verwendet, um Änderungen voranzutreiben sowie Anleitungen, Tipps und Ressourcen in den gesamten Prozess einzubinden. Jeder Schritt baut auf dem vorherigen auf, und für optimale Ergebnisse empfehlen wir, die entsprechenden Schritte in der richtigen Reihenfolge auszuführen.
 
-Wie unten dargestellt, zunächst ein erfolgreiches Upgrade bringt genau das richtige Team zusammen und in der Phase Projektbeteiligten und verschieben klicken Sie dann auf Projektdefinition, in dem Umfang, Ziele und Zeitachse verfestigte sind. Auf diese Weise erstellen Sie eine solide Grundlage für Ihre Upgrade Weg. Von dort ist es wichtig, sowohl die technischen Bereitschaft _und_ User Readiness Phasen Vorbereitung, bevor Sie mit der Bereitstellung und Implementierung fortfahren. Planen eines Pilotprojekts Bereitschaft, bevor Sie eine umfassende Einführung zu überprüfen. Maximale Leistung während der Phase erstklassige Betriebsprozesse Einrichten eines Plans, das überwacht werden, für die Qualität und beschleunigt Benutzerakzeptanz.
+Wie unten dargestellt, beginnt ein erfolgreiches Upgrade damit, das richtige Team in der Projekt-Stakeholder-Phase zusammenzustellen und dann mit der Projektdefinition fortzufahren, bei der Umfang, Ziele und die Zeitachse festgelegt werden. Dadurch wird eine solide Grundlage für den Upgradeprozess erstellt. Ab diesem Zeitpunkt ist es wichtig, sowohl die technischen Voraussetzungen _als auch_ die Benutzerbereitschaft vorzubereiten, bevor Sie mit der Bereitstellung und der Implementierung fortfahren. Planen Sie ein Pilotprojekt, um die Bereitschaft vor der umfassenden Implementierung zu überprüfen. Richten Sie für maximale Leistung während der Phase für betriebliche Exzellenz einen Plan ein, der die Qualität überwacht und die Benutzerakzeptanz beschleunigt.
 
 > [!Tip]
-> Damit Ihre Upgrade Reise Navigation gewährleistet ist, suchen Sie nach dieser Grafik auf verwandte Seiten zum Identifizieren, wo Sie in dem Prozess befinden. ![Sicherstellen, dass das Projekt für den Erfolg mit dem richtigen Projektteam eingerichtet ist. Definieren der Umfang, Ziele und Zeitachse. Vergewissern Sie sich technische und User Readiness. Führen Sie Ihrem Bereitstellungsplan. Verwalten von Momentum, um die Ergebnisse zu maximieren.] (media/upgrade-banner-main.png "Sicherstellen, dass das Projekt für den Erfolg mit dem richtigen Projektteam eingerichtet ist. Definieren der Umfang, Ziele und Zeitachse. Vergewissern Sie sich technische und User Readiness. Führen Sie Ihrem Bereitstellungsplan. Verwalten von Momentum, um die Ergebnisse zu maximieren.")
+> Anhand von dieser Grafik auf verwandten Seiten können Sie bestimmen, an welcher Stelle im Upgradeprozess Sie sich gerade befinden. ![Stellen Sie sicher, dass Ihr Projekt mit dem richtigen Projektteam für Erfolg aufgestellt ist. Definieren Sie den Umfang des Projekts, Ziele und die Zeitachse. Überprüfen Sie sowohl die Benutzer- als auch die technische Bereitschaft. Führen Sie Ihren Implementierungsplan aus. Sorgen Sie für Dynamik, um die Ergebnisse zu maximieren.](media/upgrade-banner-main.png "Stellen Sie sicher, dass Ihr Projekt mit dem richtigen Projektteam für Erfolg aufgestellt ist. Definieren Sie den Umfang des Projekts, Ziele und die Zeitachse. Überprüfen Sie sowohl die Benutzer- als auch die technische Bereitschaft. Führen Sie Ihren Implementierungsplan aus. Sorgen Sie für Dynamik, um die Ergebnisse zu maximieren.")
 
-## <a name="to-get-started"></a>Erste Schritte beim...
+## <a name="to-get-started"></a>Erste Schritte...
 
-Wir wissen, dass Kunden Stange gibt es nicht. Flexibilität, haben wir das Framework in zwei Pfade organisiert: grundlegende aktualisieren und Pro aktualisieren. Wählen Sie die Reise, die Anforderungen Ihrer Organisation am besten erfüllt.
+Uns ist bewusst, dass eine Einheitslösung nicht immer passend ist. Für zusätzliche Flexibilität haben wir das Framework in zwei Pfade unterteilt: Upgrade Basic und Upgrade Pro. Sie können den Pfad auswählen, der den Anforderungen Ihrer Organisation am besten entspricht.
 
-Wählen Sie eine der folgenden Optionen aus, oder Erkunden Sie beide, um den optimalen Pfad für Sie zu bestimmen. Weitere Informationen kommt online im Laufe der Zeit zurück, während Ihrer Organisation auf dem Weg Teams weiterhin so zu überprüfen. Um uns besser zu verstehen Ihrer Upgradepfad und welche weiteren Anleitungen hilfreich sein kann, sollten Sie einen Moment, bis <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">Ihr Feedback freigeben</a>.
+Wählen Sie eine der folgenden Optionen aus, oder erkunden Sie beide, um den optimalen Pfad für Sie zu ermitteln. Weitere Informationen werden im Laufe der Zeit online gestellt, daher sollten Sie während der Umstellung auf Teams immer mal wieder zurückkehren. Helfen Sie uns, Ihren Upgradepfad besser zu verstehen und einen Überblick darüber zu gewinnen, welche zusätzliche Unterstützung hilfreich sein könnte. Nehmen Sie sich einen kurzen Moment, um <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">uns Ihr Feedback mittzuteilen</a>.
 
 <div class="mx-tableFixed">
 <table>
