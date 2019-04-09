@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams-Schulungen für Endbenutzer
+title: Endbenutzer-Schulungen für Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -12,20 +12,20 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
-description: Schulungsvideos, Lernprogramme und andere Ressourcen für Benutzer in Ihrer Organisation zu erlernen und Verwenden von Teams.
+description: Schulungsvideos, Tutorials und weitere Ressourcen für Benutzer in Ihrer Organisation zum Kennenlernen und Verwenden von Teams.
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 01246103d321e40316df01799c3c7f5a82940340
 ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/08/2019
 ms.locfileid: "30493666"
 ---
-# <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams-Schulungen für Endbenutzer
+# <a name="end-user-training-for-microsoft-teams"></a>Endbenutzer-Schulungen für Microsoft Teams
 
-Verwenden Sie diese Schulungsressourcen, um Benutzer in Ihrer Organisation die optimale Nutzung von Teams.
+Verwenden Sie diese Schulungsressourcen, um Benutzern in Ihrer Organisation zu helfen, Teams optimal zu nutzen.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -39,8 +39,8 @@ Verwenden Sie diese Schulungsressourcen, um Benutzer in Ihrer Organisation die o
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Willkommen beim Teams!<br>
-In diesem kurzen Video in Teams</h3>
+                        <h3>Willkommen bei Teams!<br>
+Kurzes Video zur Einführung in Teams ansehen</h3>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@ In diesem kurzen Video in Teams</h3>
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Führen Sie die in diesem Schnellstart, betriebsbereit in Teams schnell</h3>
+                    <h3>Schnellstart für den Einstieg in Teams</h3>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ In diesem kurzen Video in Teams</h3>
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Erhalten Sie Hilfe und Vorgehensweisen Dokumentation in der Mitte des Teams Hilfe</h3>
+                        <h3>Hilfe und Anleitungen im Teams-Hilfecenter erhalten</h3>
                     </div>
                 </div>
             </div>
@@ -93,7 +93,7 @@ In diesem kurzen Video in Teams</h3>
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Schulungsvideos Watch-Teams</h3>
+                        <h3>Teams-Schulungsvideos ansehen</h3>
                     </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@ In diesem kurzen Video in Teams</h3>
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Checken Sie den Kanal Teams auf YouTube</h3>
+                        <h3>Teams-Kanal auf YouTube ansehen</h3>
                     </div>
                 </div>
             </div>
@@ -125,16 +125,16 @@ In diesem kurzen Video in Teams</h3>
 
 ---
 
-<h2>Ausgewählte Schulung</h2>
+<h2>Empfohlene Schulung</h2>
 <ul class="panelContent cardsW">
      <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Schnelles beginnt</h3>
-                         <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">Laden Sie dieses Schnellstart-Handbuch (PDF) zum Erlernen der Grundlagen</a></p>
-                        <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">Führen Sie die Artikel in diesem Schnellstart, schnell schnell</a></p>
+                        <h3>Schnellstarts</h3>
+                         <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">Schnellstarthandbuch (PDF) herunterladen, um die Grundlagen kennenzulernen</a></p>
+                        <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">Artikel in diesem Schnellstart befolgen, um schnell einsteigen zu können</a></p>
                     </div>
                 </div>
             </div>
@@ -144,10 +144,10 @@ In diesem kurzen Video in Teams</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Übersicht über die Teams</h3>
-                        <p><a href="https://teamsdemo.office.com/">Interaktive Demo Teams</a></p>  
-                        <p><a href="https://microsoftteams.eventbuilder.com/event/1772">Live-Schulung auf Abruf: #ThisisTeams - wie Teams können Sie arbeiten.</a></p>
-                        <p><a href="https://aka.ms/teamsgettingstartedondemand">Live-Schulung auf Abruf: Erste Schritte mit Teams</a></p>
+                        <h3>Teams-Übersicht</h3>
+                        <p><a href="https://teamsdemo.office.com/">Interaktive Teams-Demo</a></p>  
+                        <p><a href="https://microsoftteams.eventbuilder.com/event/1772">On-Demand-Live-Schulung: #ThisisTeams – wie Sie Teams für sich einsetzen können</a></p>
+                        <p><a href="https://aka.ms/teamsgettingstartedondemand">On-Demand-Live-Schulung: Erste Schritte mit Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -158,10 +158,10 @@ In diesem kurzen Video in Teams</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Wechseln Sie zu Teams von Skype für Unternehmen</h3>
-                         <p><a href="https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964">Artikel: Schalter, mit dem Teams von Skype für Unternehmen</a></p>
-                         <p><a href="https://aka.ms/upgrade101ondemand">Live-Schulung auf Abruf: Upgrade 101: Verständnis des Upgrades von Skype für Unternehmen, die Teams</a></p>
-                        <p><a href="https://aka.ms/fromskypetoteamsondemand">Live-Schulung auf Abruf: von Skype für Unternehmen, die Teams</a></p>
+                        <h3>Umstieg von Skype for Business auf Teams</h3>
+                         <p><a href="https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964">Artikel: Umstieg von Skype for Business auf Teams</a></p>
+                         <p><a href="https://aka.ms/upgrade101ondemand">On-Demand-Live-Schulung: Upgrade 101: Übersicht über das Upgrade von Skype for Business auf Teams</a></p>
+                        <p><a href="https://aka.ms/fromskypetoteamsondemand">On-Demand-Live-Schulung: Von Skype for Business zu Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -171,11 +171,11 @@ In diesem kurzen Video in Teams</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Einrichten von teams</h3>
-                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">Video: Erste Team dargelegten</a></p>
-                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Video: Go to Guide für Team-Besitzer</a></p>
-                         <p><a href="https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542">Video: Organisieren Sie Ihrer Teams (Liste)</a></p>
-                         <p><a href="https://www.youtube.com/watch?v=hjJWtoaRJeE">Video: Anweisungen zum Einrichten von Teams, Kanäle und Registerkarten</a></p> 
+                        <h3>Einrichten von Teams</h3>
+                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">Video: Vorbereiten Ihres Teams</a></p>
+                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Video: Leitfaden für Teambesitzer</a></p>
+                         <p><a href="https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542">Video: Organisieren Ihrer Teamliste</a></p>
+                         <p><a href="https://www.youtube.com/watch?v=hjJWtoaRJeE">Video: Anleitung zum Einrichten von Teams, Kanälen und Registerkarten</a></p> 
                     </div>
                 </div>
             </div>
@@ -187,9 +187,9 @@ In diesem kurzen Video in Teams</h3>
                     <div class="cardText">
                         <h3>Teams und Kanäle</h3>
                          <p><a href="https://support.office.com/article/video-overview-of-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46">Video: Übersicht über Teams und Kanäle</a></p>
-                         <p><a href="https://support.office.com/article/favorite-and-follow-channels-3f76dffd-78a8-49ca-b8de-28671cb444ba">Video: Favoriten, und befolgen Sie die Kanäle</a></p>
-                         <p><a href="https://support.office.com/article/video-work-in-channels-99d33aaa-0743-47c6-a476-eb0a24abcb7e">Video: Arbeit in Kanäle</a></p>
-                         <p><a href="https://support.office.com/article/tip-send-email-to-a-channel-2c17dbae-acdf-4209-a761-b463bdaaa4ca">Video: Tipp – Senden von e-Mails an einen Kanal</a></p>
+                         <p><a href="https://support.office.com/article/favorite-and-follow-channels-3f76dffd-78a8-49ca-b8de-28671cb444ba">Video: Festlegen von Kanälen als Favoriten und Folgen von Kanälen</a></p>
+                         <p><a href="https://support.office.com/article/video-work-in-channels-99d33aaa-0743-47c6-a476-eb0a24abcb7e">Video: Arbeiten in Kanälen</a></p>
+                         <p><a href="https://support.office.com/article/tip-send-email-to-a-channel-2c17dbae-acdf-4209-a761-b463bdaaa4ca">Video: Tipp: Senden einer E-Mail an einen Kanal</a></p>
                     </div>
                 </div>
             </div>
@@ -200,10 +200,11 @@ In diesem kurzen Video in Teams</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Beiträge & Nachrichten</h3>
-                         <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">Video: Erstellen Sie und formatieren Sie einer POST-Anforderung</a></p>
-                         <p><a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Video: Erste Aufmerksamkeit mit @mentions</a></p>
-                         <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">Video: Ein Beitrag oder eine Nachricht speichern</a></p>
+                        <h3>Beiträge und Nachrichten</h3>
+                         <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">Video: Erstellen und Formatieren eines Beitrags</a></p>
+                         <p>
+  <a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Video: Auf etwas aufmerksam machen mit Erwähnungen</a></p>
+                         <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">Video: Speichern eines Beitrags oder einer Nachricht</a></p>
                     </div>
                 </div>
             </div>
@@ -213,9 +214,9 @@ In diesem kurzen Video in Teams</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Chats, Anrufe & Besprechungen</h3>
-                       <p><a href="https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5">Video: Starten Sie Chats und tätigen von Anrufen</a></p>
-                       <p><a href="https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf">Video: Erstellen von Sofortnachrichten Besprechungen mit Meet jetzt</a></p>
+                        <h3>Chats, Anrufe und Besprechungen</h3>
+                       <p><a href="https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5">Video: Starten von Chats und Tätigen von Anrufen</a></p>
+                       <p><a href="https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf">Video: Erstellen von Sofortbesprechungen mit „Jetzt besprechen“</a></p>
                        <p><a href="https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137">Video: Verwalten von Besprechungen</a></p>
                     </div>
                 </div>
@@ -227,11 +228,11 @@ In diesem kurzen Video in Teams</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Apps & tools</h3>
-                        <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">Video: Tools mit Registerkarten hinzufügen</a></p>
-                        <p><a href="https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05">Video: Umwandeln einer Datei in einer Registerkarte</a></p>
-                        <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">Video: Verwenden Sie das Befehl</a></p>
-                        <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">Video: Befehl Balken (Übersicht)</a></p>
+                        <h3>Apps und Tools</h3>
+                        <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">Video: Hinzufügen von Tools mit Registerkarten</a></p>
+                        <p><a href="https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05">Video: Umwandeln einer Datei in eine Registerkarte</a></p>
+                        <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">Video: Verwenden des Befehlsfelds</a></p>
+                        <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">Video: Befehlsleistenübersicht</a></p>
                     </div>
                 </div>
             </div>
@@ -243,8 +244,8 @@ In diesem kurzen Video in Teams</h3>
                 <div class="card">
                     <div class="cardText">
                         <h3>Aktivitätsfeed</h3>
-                         <p><a href="https://support.office.com/article/filter-your-activity-feed-02b9ece4-6086-4daa-b4c0-627beeacbf08">Video: Filtern des Aktivitätsfeeds</a></p>
-                         <p><a href="https://support.office.com/article/manage-notification-settings-348672f7-9ed0-4b96-86ed-d6fdcecb4096">Video: Verwalten der Benachrichtigungseinstellungen</a></p>
+                         <p><a href="https://support.office.com/article/filter-your-activity-feed-02b9ece4-6086-4daa-b4c0-627beeacbf08">Video: Filtern Ihres Aktivitätsfeeds</a></p>
+                         <p><a href="https://support.office.com/article/manage-notification-settings-348672f7-9ed0-4b96-86ed-d6fdcecb4096">Video: Verwalten von Benachrichtigungseinstellungen</a></p>
                     </div>
                 </div>
             </div>
@@ -254,8 +255,8 @@ In diesem kurzen Video in Teams</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Teams Tipps, Tricks &</h3>
-                        <p><a href="https://support.office.com/office-training-center/Teams-tips">Artikel: Teams Tipps & tricks</a></p>
+                        <h3>Tipps und Tricks für Teams</h3>
+                        <p><a href="https://support.office.com/office-training-center/Teams-tips">Artikel: Tipps und Tricks für Teams</a></p>
                     </div>
                 </div>
             </div>

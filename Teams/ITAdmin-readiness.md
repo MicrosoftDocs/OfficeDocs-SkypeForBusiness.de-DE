@@ -1,5 +1,5 @@
 ---
-title: Administratorschulungen für Microsoft Teams
+title: Administrator-Schulung für Microsoft Teams
 ms.reviewer: ''
 author: LanaChin
 ms.author: v-lanac
@@ -12,20 +12,20 @@ ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
 search.appverid: MET150
-description: Schulungsvideos, PowerPoint-Präsentationen, Lernprogramme und andere Ressourcen für Administratoren zum Planen, bereitstellen und Ausführen von Microsoft-Teams.
+description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 14fea980b7f0cfbb3d8a8218c20ebe503387529a
 ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/30/2019
 ms.locfileid: "31003820"
 ---
-# <a name="admin-training-for-microsoft-teams"></a>Administratorschulungen für Microsoft Teams
+# <a name="admin-training-for-microsoft-teams"></a>Administrator-Schulung für Microsoft Teams
 
 
-Verwenden Sie die Schulungsressourcen informieren Sie sich über Teams, andere Personen zu vermitteln oder Workshops ausführen. Hier finden Sie regelmäßig nach neuen Inhalten. 
+Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren, andere zu unterrichten oder Workshops zu veranstalten. Hier finden Sie häufig neue Inhalte. 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -39,7 +39,7 @@ Verwenden Sie die Schulungsressourcen informieren Sie sich über Teams, andere P
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Erste Schritte mit ein Paar von Teams und Kanälen fast</h3>
+                        <h3>Schneller Einstieg mit einigen Teams und Kanälen</h3>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@ Verwenden Sie die Schulungsressourcen informieren Sie sich über Teams, andere P
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Anzeigen von best Practice und Vorgehensweisen Videos in der Kaffee in der Cloud-Kanal auf YouTube (engl.)</h3>
+                        <h3>Bewährte Methoden und Anleitungsvideos im Kanal „Coffee in the Cloud“ auf YouTube anzeigen</h3>
                     </div>
                 </div>
             </div>
@@ -87,33 +87,33 @@ Verwenden Sie die Schulungsressourcen informieren Sie sich über Teams, andere P
 
 <h2>Technische Schulung</h2>
 
-| Modul | Video | PowerPoint-Foliengruppe hinzu |
+| Modul | Video | PowerPoint-Foliensatz |
 | ------------ | -------------------- | -------------------- |
-| Grundlagen - Kernkomponenten | [Video](https://aka.ms/teams-foundations) | [Deck](https://aka.ms/teams-foundations-deck) |
-| Windows-Desktop-Client | [Video](https://aka.ms/teams-clients) | [Deck](https://aka.ms/teams-clients-deck) |
-| Steuerung und Verwaltung Lebenszyklus | [Video](https://aka.ms/teams-governance) | [Deck](https://aka.ms/teams-governance-deck) |
-| Sicherheit und Compliance | [Video](https://aka.ms/teams-security-compliance) | [Deck](https://aka.ms/teams-security-compliance-deck) |
-| Netzwerkplanung | [Video](https://aka.ms/teams-networking) | [Deck](https://aka.ms/teams-networking-deck) |
-| Übersicht über die Qualität aufrufen | [Video](https://aka.ms/teams-quality) | [Deck](https://aka.ms/teams-quality-deck) |
-| Einführung in Besprechungen | [Video](https://aka.ms/teams-meetings-intro) | [Deck](https://aka.ms/teams-meetings-intro-deck) |
-| Live-Ereignisse | [Video](https://aka.ms/teams-live-events-session) | [Deck](https://aka.ms/teams-live-events-deck) |
-| Einführung in die Telefon-System | [Video](https://aka.ms/teams-phone-system) | [Deck](https://aka.ms/teams-phone-system-deck) |
-| Direktes Routing | [Video](https://aka.ms/teams-direct-routing) | [Deck](https://aka.ms/teams-direct-routing-deck) |
-| Upgrade von Skype for Business auf Microsoft Teams | [Video 1: Einführung in das Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Planen des Upgrades](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Interoperabilität und Koexistenz](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administratorbenutzeroberfläche](https://aka.ms/teams-upgrade-admin) | [Deck](https://aka.ms/teams-upgrade-deck)|
+| Grundlagen – Kernkomponenten | [Video](https://aka.ms/teams-foundations) | [Foliensatz](https://aka.ms/teams-foundations-deck) |
+| Windows-Desktopclient | [Video](https://aka.ms/teams-clients) | [Foliensatz](https://aka.ms/teams-clients-deck) |
+| Governance, Verwaltung und Lebenszyklus | [Video](https://aka.ms/teams-governance) | [Foliensatz](https://aka.ms/teams-governance-deck) |
+| Security & Compliance | [Video](https://aka.ms/teams-security-compliance) | [Foliensatz](https://aka.ms/teams-security-compliance-deck) |
+| Netzwerkplanung | [Video](https://aka.ms/teams-networking) | [Foliensatz](https://aka.ms/teams-networking-deck) |
+| Übersicht zu Anrufqualität | [Video](https://aka.ms/teams-quality) | [Foliensatz](https://aka.ms/teams-quality-deck) |
+| Einführung in Besprechungen | [Video](https://aka.ms/teams-meetings-intro) | [Foliensatz](https://aka.ms/teams-meetings-intro-deck) |
+| Liveereignisse | [Video](https://aka.ms/teams-live-events-session) | [Foliensatz](https://aka.ms/teams-live-events-deck) |
+| Telefonsystem-Einführung | [Video](https://aka.ms/teams-phone-system) | [Foliensatz](https://aka.ms/teams-phone-system-deck) |
+| Direktes Routing | [Video](https://aka.ms/teams-direct-routing) | [Foliensatz](https://aka.ms/teams-direct-routing-deck) |
+| Upgrade von Skype for Business auf Microsoft Teams | [Video 1: Einführung in das Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Planen des Upgrades](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Koexistenz und Interoperabilität](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Das Upgrade aus Sicht des Administrators](https://aka.ms/teams-upgrade-admin) | [Foliensatz](https://aka.ms/teams-upgrade-deck)|
 
-<h2>Schnellstart Führungslinien</h2>
+<h2>Schnellstarthandbücher</h2>
 
-- [Schnellstart: Teams für Bildungseinrichtungen-Admins](teams-quick-start-edu.yml)
-- [Schnellstart: Konfigurieren von Aufrufen plant in Teams](configuring-teams-calling-quickstartguide.md)
+- [Schnellstart: Administratoren von Microsoft Teams Education](teams-quick-start-edu.yml)
+- [Schnellstart: Konfigurieren von Anrufplänen in Teams](configuring-teams-calling-quickstartguide.md)
 
 <h2>Lernprogramme</h2>
 
-- [Tutorial: Von Skype for Business zu Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
+- [Lernprogramm: Von Skype for Business zu Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
 - [Tutorial: Besprechungen in Microsoft Teams](tutorial-meetings-in-teams.yml)
 - [Tutorial: Audiokonferenzen in Teams](tutorial-audio-conferencing.yml)
-- [Tutorial: Grundlegendes zu Anrufen in Microsoft Teams](tutorial-calling-in-teams.yml)
+- [Lernprogramm: Grundlegendes zu Anrufen in Microsoft Teams](tutorial-calling-in-teams.yml)
 
-<h2>Schulungskurse</h2>
+<h2>Kurse</h2>
 
-- [Aktivieren der Zusammenarbeit im Team mit Microsoft-Teams](https://aka.ms/edx-cld267x-about)
-- [Microsoft-Dienst Akzeptanz Spezialisten](https://aka.ms/AdoptionCert)
+- [Die Zusammenarbeit in Microsoft Teams](https://aka.ms/edx-cld267x-about)
+- [Microsoft Service Adoption Specialist](https://aka.ms/AdoptionCert)
