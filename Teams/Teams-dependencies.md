@@ -16,7 +16,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 87b0e6bf1f920ea4eaab4a4ed2bfb3f314b60601
 ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/02/2019
 ms.locfileid: "31026064"
@@ -31,7 +31,7 @@ Um die Anforderungen Ihrer Organisation zu erfüllen, können Sie die Features u
 - **Office 365-Gruppen**: Steuert den Gastzugriff in Office 365-Gruppen und in Microsoft Teams.
 - **SharePoint Online und OneDrive for Business**: Steuert den Gastzugriff in SharePoint Online, OneDrive for Business, Office 365-Gruppen und Microsoft Teams.
 
-Diese verschiedenen Autorisierungsebenen bieten Ihnen Flexibilität beim Einrichten des Gastzugriffs für Ihre Organisation. Angenommen, wenn Sie nicht möchten Gast Benutzern in Ihrer Microsoft-Teams, aber es in Ihrer Organisation insgesamt zulassen möchten, deaktivieren Sie einfach Gast Access in Microsoft-Teams. Ein weiteres Beispiel: Sie können den Gastzugriff auf AAD-Ebene, Microsoft Teams-Ebene und Gruppenebene aktivieren, aber dann das Hinzufügen von Gastbenutzern zu ausgewählten Teams deaktivieren, die einem oder mehreren Kriterien (z. B. der Datenklassifizierung „Vertraulich“) entsprechen. Für SharePoint Online und OneDrive for Business gibt es eigene Einstellungen für den Gastzugriff, die nicht auf Office 365-Gruppen basieren. 
+Diese verschiedenen Autorisierungsebenen bieten Ihnen Flexibilität beim Einrichten des Gastzugriffs für Ihre Organisation. Wenn Sie zum Beispiel in Ihrer Microsoft Teams-Organisation keine Gastbenutzer zulassen möchten (aber generell in Ihrer Organisation), deaktivieren Sie einfach den Gastzugriff in Microsoft Teams. Ein weiteres Beispiel: Sie können den Gastzugriff auf AAD-Ebene, Microsoft Teams-Ebene und Gruppenebene aktivieren, aber dann das Hinzufügen von Gastbenutzern zu ausgewählten Teams deaktivieren, die einem oder mehreren Kriterien (z. B. der Datenklassifizierung „Vertraulich“) entsprechen. Für SharePoint Online und OneDrive for Business gibt es eigene Einstellungen für den Gastzugriff, die nicht auf Office 365-Gruppen basieren. 
 
 > [!NOTE]
 > Gäste unterliegen den [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347)- und [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019)-Dienstbeschränkungen. 
@@ -40,51 +40,51 @@ Das folgende Diagramm zeigt, wie die Abhängigkeit der Gastzugriffsautorisierung
 
 ![Diagramm der Autorisierungsabhängigkeiten für den Gastzugriff](media/teams_dependencies_image1.png)
 
-Das folgende Diagramm zeigt auf allgemeiner Ebene, wie die Benutzeroberfläche mit des Berechtigungsmodells in einem normalen Gast Access-Einladung und Rückzahlung Flow funktioniert.
+Das nächste Diagramm bietet einen Überblick, wie das Benutzererlebnis mit dem Berechtigungsmodell über einen typischen Einladungs- und Einlösungsprozess in Bezug auf den Gastzugriff funktioniert.
 
-![Darstellung der Einladung und Rückzahlung fließt.](media/authorize-guest-image1.png)
+![Diagramm zu Einladungs- und Einlösungsprozess](media/authorize-guest-image1.png)
 
-Es ist wichtig zu beachten, dass apps, Bots und Connectors möglicherweise einen eigenen Satz von Berechtigungen erfordern und/oder speziell für das Benutzerkonto stimmen. Diese müssen separat erteilt werden. In ähnlicher Weise kann SharePoint zusätzliche externe Freigabe Grenzen für einen bestimmten Benutzer, Gruppen von Benutzern oder sogar auf der Websiteebene bedingen.
+Es ist wichtig, zu beachten, dass Apps, Bots und Connectors evtl. einen eigenen Satz Berechtigungen und/oder je nach Benutzerkonto eine Zustimmung erfordern. Diese müssen möglicherweise separat gewährt werden. Gleichermaßen kann SharePoint zusätzliche externe Freigabegrenzen für einen bestimmten Benutzer, bestimmte Benutzergruppen oder sogar auf Site-Ebene auferlegen.
 
-## <a name="control-guest-access-in-azure-active-directory"></a>Steuern des Zugriffs Gast in Azure Active Directory
+## <a name="control-guest-access-in-azure-active-directory"></a>Steuern des Gastzugriffs in Azure Active Directory
 
-Verwenden Sie Azure AD, um zu bestimmen, ob externe Mitarbeiter in Ihrem Mandanten als Gäste und auf welche Weise eingeladen werden können. Weitere Informationen zu Azure B2B Gast Access finden Sie unter [Was ist Gast Benutzerzugriff in Azure Active Directory B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b). Informationen zu Azure AD-Rollen finden Sie unter [Erteilen von Berechtigungen für Benutzer von Partnerorganisationen in Ihrem Azure Active Directory-Mandanten](https://docs.microsoft.com/en-us/azure/active-directory/b2b/add-guest-to-role).
+Verwenden Sie Azure AD, um festzustellen, ob externe Projektmitarbeiter in Ihren Mandanten als Gäste eingeladen werden können und wie. Weitere Informationen zu Azure B2B-Gastzugriff, finden Sie unter [Was ist Gastbenutzerzugriff in Azure Active Directory B2B?](https://docs.microsoft.com/de-DE/azure/active-directory/b2b/what-is-b2b). Informationen zu Azure AD-Rollen finden Sie unter [Erteilen von Berechtigungen für Benutzer von Partnerorganisationen in Ihrem Azure Active Directory-Mandanten](https://docs.microsoft.com/de-DE/azure/active-directory/b2b/add-guest-to-role).
 
 Die Einstellungen für Einladungen gelten auf Mandantenebene und steuern den Gastzugriff auf Verzeichnis-, Mandanten- und Anwendungsebene. 
 
 ![Screenshot der Benutzereinstellungen im Azure Active Directory-Portal](media/teams_dependencies_image2.png)
 
-Azure AD umfasst die folgenden Einstellungen zum Konfigurieren von externer Benutzern:
+Azure AD umfasst die folgenden Einstellungen, um externe Benutzer zu konfigurieren:
 
-- **Benutzerberechtigungen Gast sind beschränkt**: **Ja** bedeutet, dass Gäste nicht über die Berechtigung für bestimmte Verzeichnisaufgaben verfügen, wie Aufzählen von Benutzern, Gruppen oder andere Directory Ressourcen. Darüber hinaus können nicht Gäste Administratorrollen in Ihrem Verzeichnis zugewiesen werden. **Keine** Möglichkeit, die Gäste haben den gleichen Zugriff auf Directory-Daten, die in Ihrem Verzeichnis reguläre Benutzer haben.
-- **Administratoren und Benutzer in die Guest-Rolle eingeladenen können einladen**: **Ja** bedeutet, dass Administratoren und Benutzer in der Rolle "Gast eingeladenen" Gäste, die dem Mandanten einladen können. **No** bedeutet, dass Administratoren und Benutzer können keine Gäste, die dem Mandanten einladen.
-- **Mitglieder können einladen**: **Ja** bedeutet, dass nicht-Administrator Mitglieder Ihres Verzeichnisses Gäste auf Ressourcen, die durch Ihre Azure AD, wie SharePoint-Websites oder Azure Ressourcen gesichert Zusammenarbeit einladen können. **No** bedeutet, dass nur Administratoren einladen können, die in das Verzeichnis Gäste.</br>
+- **Gastbenutzerberechtigungen sind beschränkt**: **Ja** bedeutet, dass Gäste keine Berechtigung für bestimmte Verzeichnisaufgaben haben, wie das Aufzählen von Benutzern, Gruppen oder anderen Verzeichnisressourcen. Darüber hinaus können Gästen in Ihrem Verzeichnis keine administrativen Rollen zugewiesen werden. **Nein** bedeutet, dass Gäste denselben Zugriff auf Verzeichnisdaten haben wie normale Benutzer in Ihrem Verzeichnis.
+- **Administratoren und Benutzer mit der Rolle „Einladender“ können einladen**: **Ja** bedeutet, dass Administratoren und Benutzer mit der Rolle „Einladender“ Gäste in den Mandanten einladen können. **Nein** bedeutet, dass Administratoren und Benutzer Gäste nicht in den Mandanten einladen können.
+- **Mitglieder können einladen**: **Ja** bedeutet, dass Mitglieder des Verzeichnisses ohne Administratorrechte Gäste zur Zusammenarbeit an Ressourcen einladen können, die durch Azure AD gesichert sind, z. B. SharePoint-Sites oder Azure-Ressourcen. **Nein** bedeutet, dass nur Administratoren Gäste in Ihr Verzeichnis einladen können.</br>
       
     > [!NOTE]
-    > Derzeit Teams unterstützt nicht die Guest-Rolle eingeladenen. die **Mitglieder einladen können** mindestens muss Umschalten auf **Ja** für Access Gast Arbeit in Teams festgelegt werden.
-- **Gäste können einladen**: **Ja** bedeutet, dass Gäste in Ihrem Verzeichnis selbst andere Gäste auf Ressourcen, die durch Ihre Azure AD, wie SharePoint-Websites oder Azure Ressourcen gesichert Zusammenarbeit einladen können. **Keine** Möglichkeit, die Gäste einladen nicht andere Gäste für die Zusammenarbeit mit Ihrer Organisation.
+    > Derzeit unterstützt Teams nicht die Rolle „Einladender“. Mindestens die Umschaltfläche **Mitglieder können einladen** muss auf **Ja** festgelegt werden, damit der Gastzugriff in Teams funktioniert.
+- **Gäste können einladen**: **Ja** bedeutet, dass Gäste in Ihrem Verzeichnis selbst andere Gäste zur Zusammenarbeit an Ressourcen einladen können, die durch Azure AD gesichert sind, z. B. SharePoint-Sites oder Azure-Ressourcen. **Nein** bedeutet, dass Gäste keine anderen Gäste zur Zusammenarbeit mit Ihrer Organisation einladen können.
  
-Weitere Informationen zu steuern, wer Gäste einladen können finden Sie unter [Stellvertreter Einladungen für die Zusammenarbeit mit Azure Active Directory B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/delegate-invitations)
+Weitere Informationen zum Steuern der Einladung von Gästen finden Sie unter [Delegieren von Einladungen für Azure Active Directory B2B-Zusammenarbeit](https://docs.microsoft.com/de-DE/azure/active-directory/b2b/delegate-invitations)
 
 > [!NOTE]
-> Sie können auch verwalten, welche Domänen in Ihrem Mandanten als Gäste eingeladen werden können. Finden Sie unter [Zulassen/Blockieren Gast des Zugriffs auf Office 365-Gruppen](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups). 
+> Sie können auch verwalten, welche Domänen in Ihren Mandanten als Gäste eingeladen werden können. Informationen finden Sie unter [Gewähren/Blockieren des Gastzugriffs auf Office 365-Gruppen](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups). 
 
-Manuelles Hinzufügen das Benutzerkonto Gast zu Azure AD B2B ist nicht erforderlich, wie das Konto in das Verzeichnis automatisch soll beim Hinzufügen des Gasts zu Teams eingefügt werden. 
+Das manuelle Hinzufügen des Benutzergastkontos zu Azure AD B2B ist nicht erforderlich, da das Konto automatisch zum Verzeichnis hinzugefügt wird, wenn Sie den Gast zu Teams hinzufügen. 
 
-Azure AD-Lizenzierung können Sie bis zu 5 Gäste pro Lizenz hinzufügen. Weitere Informationen zur Lizenzierung von Azure AD finden Sie unter [Azure Active Directory B2B Zusammenarbeit Lizenzierung Anweisungen](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
+Die Azure AD-Lizenzierung ermöglicht es Ihnen, bis zu 5 Gäste pro Lizenz hinzuzufügen. Weitere Informationen zu Azure AD-Lizenzen finden Sie unter [Lizenzierungsanleitung zur Azure Active Directory B2B-Zusammenarbeit](https://docs.microsoft.com/de-DE/azure/active-directory/b2b/licensing-guidance).
 
-## <a name="control-guest-access-in-teams"></a>Steuern des Zugriffs Gast in Teams
+## <a name="control-guest-access-in-teams"></a>Steuern des Gastzugriffs in Teams
 
-In Teams können Sie steuern, ob die Erfahrung Gast aktiviert oder für Ihre Organisation deaktiviert ist. Diese Einstellung ist standardmäßig deaktiviert und auf der Ebene der Mandant gilt für Teams nur.
+Sie können in Teams steuern, ob der Gastzugriff für Ihre Organisation aktiviert oder deaktiviert ist. Die Einstellung ist standardmäßig deaktiviert und gilt auf Mandantenebene nur für Teams.
 
-Sie können Teams Gast Access-Einstellungen aus dem Microsoft-Teams, Administrationscenter verwalten. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](set-up-guests.md). 
+Sie können die Einstellungen für den Gastzugriff in Teams über das Microsoft Teams Admin Center verwalten. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](set-up-guests.md). 
 
 
-## <a name="control-guest-access-in-office-365-groups"></a>Steuern des Zugriffs Gast in Office 365-Gruppen
+## <a name="control-guest-access-in-office-365-groups"></a>Steuern des Gastzugriffs in Office 365-Gruppen
 
 Über Office 365-Gruppen können Sie das Hinzufügen von Gastbenutzern sowie den Gastzugriff auf alle Office 365-Gruppen und auf Microsoft Teams in Ihrer Organisation steuern.
 
-1. Melden Sie sich mit dem Konto Globaler Office 365-Administrator bei [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) an.
+1. Melden Sie sich mit Ihrem globalen Office 365-Administratorkonto unter [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) an.
     
 2. Wählen Sie im Navigationsmenü **Einstellungen** und dann **Dienste &amp; Add-Ins** aus.
     
@@ -92,15 +92,15 @@ Sie können Teams Gast Access-Einstellungen aus dem Microsoft-Teams, Administrat
     
      ![Office 365-Gruppen](media/authorize-guest-image2.png)
   
-4. Legen Sie auf der Seite Office 365 Gruppen die Umschaltfläche auf **ein-** oder **Ausschalten**, je nachdem, ob Sie Teams und der Gruppe Besitzer außerhalb Ihrer Organisation Zugriff auf Office 365-Gruppen ermöglichen möchten. Klicken oder tippen Sie neben **Hinzufügen von Personen außerhalb der Organisation zu Gruppen durch Gruppenbesitzer zulassen** auf die Umschaltfläche, um sie in **Ein** zu ändern. Wenn Sie diese umschalten, **Klicken Sie auf**deaktivieren, sehen Sie eine andere Option steuern, ob Sie Gruppe lassen möchten und Team Besitzer Hinzufügen von Personen außerhalb Ihrer Organisation zu Office 365-Gruppen und Microsoft-teams. Legen Sie diese Umschalten auf **auf** , wenn Sie Gruppe lassen möchten und Team Besitzer Gastbenutzer hinzufügen. 
+4. Je nachdem, ob Sie den Zugriff für Team- oder Gruppenbesitzer außerhalb Ihres Unternehmens auf Office 365-Gruppen gewähren möchten, legen Sie die Umschaltfläche auf der Seite „Office 365-Gruppen“ auf **Ein** oder **Aus** fest. Ändern Sie die Umschaltfläche in **Ein** neben **Gruppenbesitzern das Hinzufügen von Personen außerhalb der Organisation zu Gruppen ermöglichen**. Wenn Sie diese Umschaltfläche in **Ein** ändern, sehen Sie eine weitere Option. Mit dieser können Sie steuern, ob es Gruppen- und Teambesitzern möglich sein soll, Personen außerhalb der Organisation zu Office 365-Gruppen und Microsoft Teams hinzuzufügen. Legen Sie diese Umschaltfläche auf **Ein** fest, wenn Sie Gruppen- und Teambesitzern das Hinzufügen von Gastbenutzern ermöglichen möchten. 
  
    ![Dieser Screenshot bildet den Office 365 Groups-Bereich mit den aktivierten Optionen für den Zugriff von Gruppenmitgliedern außerhalb der Organisation auf Gruppeninhalte sowie für das Hinzufügen von Personen außerhalb der Organisation zu Gruppen durch Gruppenbesitzer ab.](media/authorize-guest-image3.png)
 
-Diese Einstellungen auf der Ebene der Mandanten anwenden und steuern die Gast Erfahrung in Office 365-Gruppen und Microsoft-Teams.
+Diese Einstellungen gelten auf Mandantenebene und steuern den Gastzugriff in Office 365-Gruppen und in Microsoft Teams.
 
-Weitere Informationen über Gast in Gruppen, einschließlich Gast Access Funktionsweise der Verwaltung von Gastzugriff und Antworten auf häufig gestellte Fragen finden Sie unter [Gast in Office 365 Gruppen zugreifen](https://support.office.com/en-us/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6) .
+Unter [Gastzugriff in Office 365-Gruppen](https://support.office.com/de-DE/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6) finden Sie weitere Informationen zum Gastzugriff in Gruppen, einschließlich Funktionsweise des Gastzugriffs, Verwalten des Gastzugriffs und Antworten auf häufig gestellte Fragen.
 
-## <a name="control-guest-access-to-sharepoint-online-and-onedrive-for-business"></a>Steuern Gast des Zugriffs auf SharePoint Online und OneDrive für Unternehmen
+## <a name="control-guest-access-to-sharepoint-online-and-onedrive-for-business"></a>Steuern des Gastzugriffs auf Sharepoint Online und OneDrive for Business
 
 Teams nutzt SharePoint Online und OneDrive for Business zum Speichern von Dateien und Dokumenten für Kanäle und Chatunterhaltungen.  
    
@@ -108,16 +108,16 @@ Um alle Gastzugriffsfunktionen in Microsoft Teams zu aktivieren, müssen Office�
 
 - In SharePoint Online: **Freigabe nur für bereits im Verzeichnis enthaltenen externen Benutzern zulassen**
     
-    Weitere Informationen finden Sie unter [Verwalten von externer Freigabe für Ihre SharePoint Online-Umgebung](https://docs.microsoft.com/sharepoint/external-sharing-overview).
+    Weitere Informationen finden Sie unter [Verwalten der externen Dateifreigabe für Ihre SharePoint-Onlineumgebung](https://docs.microsoft.com/sharepoint/external-sharing-overview).
     
 - In Office 365-Gruppen: **Hinzufügen von Personen außerhalb der Organisation zu Gruppen durch Gruppenbesitzer zulassen**
     
-    Weitere Informationen finden Sie unter [Steuern des Zugriffs Gast in Office 365-Gruppen](#control-guest-access-in-office-365-groups), oben.
+    Weitere Informationen finden Sie unter [Steuern des Gastzugriffs in Office 365-Gruppen](#control-guest-access-in-office-365-groups) oben.
   
-Diese Einstellungen auf der Ebene der Mandanten anwenden und steuern die Gast Erfahrung mit SharePoint Online, OneDrive für Unternehmen, Office 365-Gruppen und Teams.
+Diese Einstellungen gelten auf Mandantenebene und steuern den Gastzugriff in SharePoint Online, OneDrive for Business, Office 365-Gruppen und Teams.
 
 Sie können SharePoint Online-Einstellungen für externe Benutzer für die mit Microsoft Teams verbundene Teamwebsite verwalten. Weitere Einzelheiten finden Sie unter [Verwalten der Einstellungen Ihrer SharePoint-Teamwebsite](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).﻿
 
-## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff im Vergleich zum externen Zugriff (Verbund)
+## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff und externer Zugriff (Partnerverbund) im Vergleich
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

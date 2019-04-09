@@ -1,5 +1,5 @@
 ---
-title: Limits und Spezifikationen für Microsoft Teams
+title: Grenzwerte und Spezifikationen für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,7 +7,7 @@ ms.date: 10/05/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
-description: Lernen Sie die Grenzwerte für die Spezifikationen und anderen Anforderungen für Microsoft-Teams.
+description: Erfahren Sie mehr über die Grenzwerte, Spezifikationen und anderen Anforderungen für Microsoft Teams.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
@@ -17,77 +17,77 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a151ca7e35f6b512064bc1554b754e9aefdef358
 ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/03/2019
 ms.locfileid: "31043357"
 ---
-<a name="limits-and-specifications-for-microsoft-teams"></a>Limits und Spezifikationen für Microsoft Teams
+<a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 =============================================
 
-Dieser Artikel beschreibt einige der die Grenzwerte für die Spezifikationen und anderen Anforderungen für Teams. 
+In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anforderungen für Teams beschrieben. 
 
 <a name="teams-and-channels"></a>Teams und Kanäle 
 ------------------
 
-|Funktion    | Maximale Grenzwert |
+|Feature    | Obergrenze |
 |-----------|---------------|
-|Anzahl der Teams, die ein Benutzer erstellen kann | Kann ein limit&sup1 250-Objekt;         |
-|Anzahl der Elemente in einem team | 5.000       |
-|Anzahl der Elemente in einer [Organisation geltende team](create-an-org-wide-team.md) | 5.000       |
-|Anzahl der Teams, die ein globaler Administrator erstellen können        |  500.000   |
-|Anzahl der Teams, die ein Office 365-Mandanten enthalten kann    | 500.000     |
-|Anzahl der Kanäle pro team    | 200 (einschließlich der gelöschten Kanäle)         |
+|Anzahl der Teams, die ein Benutzer erstellen kann | Grenzwert von 250 Objekten&sup1;         |
+|Anzahl der Mitglieder in einem Team | 5.000       |
+|Anzahl der Mitglieder in einem [organisationsweiten Team](create-an-org-wide-team.md) | 5.000       |
+|Anzahl der Teams, die ein globaler Administrator erstellen kann        |  500.000   |
+|Anzahl der Teams in einem Office 365-Mandanten    | 500.000     |
+|Anzahl der Kanäle pro Team    | 200 (einschließlich gelöschter Kanäle)         |
 
-&sup1; Alle Verzeichnisobjekt in Azure Active Directory wird für diese Grenze. Globale Administratoren sind von diesen Grenzwert, ausgenommen apps Microsoft Graph verwenden von [Anwendungsberechtigungen](https://docs.microsoft.com/graph/permissions-reference)aufrufen.
+&sup1;Jedes Verzeichnisobjekt in Azure Active Directory zählt. Globale Administratoren und Apps, die Microsoft Graph mit [Anwendungsberechtigungen](https://docs.microsoft.com/graph/permissions-reference) aufrufen, sind von diesem Grenzwert ausgeschlossen.
 
-<a name="meetings-and-calls"></a>Besprechungen und Telefonkonferenzen 
+<a name="meetings-and-calls"></a>Besprechungen und Anrufe 
 ------------------
 
-|Funktion     | Maximale Grenzwert |
+|Feature     | Obergrenze |
 |------------|---------------|
 |Anzahl der Personen in einer Besprechung  | 250    |
-|Anzahl der Personen in einem privaten chat  | 50    |
+|Anzahl der Personen in einem privaten Chat  | 50    |
 
 <a name="storage"></a>Speicher
 -------
 
 Jedes Team in Microsoft Teams verfügt über eine Teamsite in SharePoint Online, und jeder Kanal in einem Team erhält einen Ordner innerhalb der Dokumentbibliothek der Standardteamsite. In einer Unterhaltung freigegebene Dateien werden automatisch zur Dokumentbibliothek hinzugefügt, und in SharePoint festgelegte Berechtigungen und Dateisicherheitsoptionen werden automatisch in Teams übernommen.
 
-Wenn Sie SharePoint Online in Ihrem Mandanten aktiviert ist, können nicht Microsoft-Teams, Benutzer immer Dateien in Teams freigeben. Benutzer im privaten Chat können nicht auch Dateien freigeben, da OneDrive für Unternehmen (die SharePoint-Benutzerlizenz verbunden ist) der Funktionalität erforderlich ist.
+Wenn Sie SharePoint Online nicht in Ihrem Mandanten aktiviert haben, können Microsoft Teams-Benutzer nicht immer Dateien in Teams freigeben. Benutzer im privaten Chat können Dateien auch nicht freigeben, weil OneDrive for Business (mit der SharePoint-Lizenz verknüpft) für diese Funktionalität erforderlich ist.
 
-Beim Speichern der Dateien in der SharePoint Online-Dokumentbibliothek und OneDrive for Business werden alle auf der Mandantenebene konfigurierten Complianceregeln eingehalten. (Weitere finden Sie unter [wie SharePoint Online und OneDrive für Unternehmen interagieren mit Microsoft-Teams,](sharepoint-onedrive-interact.md).)
+Beim Speichern der Dateien in der SharePoint Online-Dokumentbibliothek und OneDrive for Business werden alle auf der Mandantenebene konfigurierten Complianceregeln eingehalten. (Weitere Informationen finden Sie unter [Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](sharepoint-onedrive-interact.md).)
 
-Da Teams, die auf einer SharePoint Online-Back-End für die Dateifreigabe ausgeführt wird, gelten SharePoint Einschränkungen in den Abschnitt Dateien innerhalb eines Teams. Hier sind die entsprechenden Speichergrenzwerte für SharePoint Online.
+Da Teams in einem SharePoint Online-Backend für die Dateifreigabe ausgeführt wird, gelten die SharePoint-Einschränkungen für den Bereich „Dateien“ innerhalb eines Teams. Hier die entsprechenden Speichergrenzwerte für SharePoint Online:
 
-|Funktion                 |Office 365 Business Essentials  |Office 365 Business Premium   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
+|Feature                 |Office 365 Business Essentials  |Office 365 Business Premium   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
-|Speicher                 |1 TB pro Organisation plus 10 GB pro erworbene Lizenz  |1 TB pro Organisation plus 10 GB pro erworbene Lizenz  |1 TB pro Organisation plus 10 GB pro erworbene Lizenz   |1 TB pro Organisation plus 10 GB pro erworbene Lizenz |1 TB pro Organisation plus 10 GB pro erworbene Lizenz  |1 TB pro Organisation           |
-|Speicher für Teams Dateien |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |
-|Maximale Dateigröße beim upload       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
+|Speicher                 |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation plus 10 GB pro erworbener Lizenz   |1 TB pro Organisation plus 10 GB pro erworbener Lizenz |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation           |
+|Speicher für Teams-Dateien |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |
+|Grenzwert bei Dateiuploads       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
-Jede Registerkarte Dateien in Teams führt auf einer SharePoint Online Back-End, gilt die oben genannten Speichergrenzwerte für jeden Kanal innerhalb eines Teams.
+Jede Dateienregisterkarte in Teams wird in einem SharePoint Online-Backend ausgeführt. Die Speichergrenzwerte oben gelten also für jeden Kanal in einem Team.
 
-Weitere Informationen finden Sie unter [SharePoint Online-Begrenzungen](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
+Weitere Informationen finden Sie unter [SharePoint Online-Grenzwerte](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
 <a name="messaging"></a>Messaging
 ---------
 
-Benutzer, die Unterhaltungen teilnehmen, die Teil der Liste der Chat in Microsoft-Teams sind benötigen ein Exchange Online (Cloud-basierten) Postfach für ein Administrator Chat Unterhaltungen suchen. Dies liegt daran Unterhaltungen, die Teil der Liste der Chat sind in der Cloud-basierten Postfächern Chat Teilnehmer gespeichert sind. Wenn ein Teilnehmer Chat ein Exchange Online-Postfach besitzt, werden nicht der Administrator suchen oder einen Haltestatus auf Chat Unterhaltungen setzen. Beispielsweise können in einer Exchange-hybridbereitstellung Benutzer mit lokalen Postfächern möglicherweise zur Teilnahme an Unterhaltungen, die Teil der Liste der Chat in Microsoft-Teams sind. Jedoch in diesem Fall Inhalte aus dieser Unterhaltungen nicht durchsuchbaren und kann nicht in der Warteschleife platziert werden, da der Benutzer nicht über cloudbasierten Postfächer verfügen. (Weitere finden Sie unter [wie Exchange- und Microsoft-Produktteams interagieren](exchange-teams-interact.md).)
+Benutzer, die an Gesprächen teilnehmen, die Teil der Chat-Liste in Microsoft Teams sind, müssen ein Exchange Online-Postfach (cloudbasiert) für einen Administrator haben, um Unterhaltungen im Chat zu suchen. Der Grund hierfür ist, dass Unterhaltungen, die Teil der Chat-Liste sind, in den cloudbasierten Postfächern der Chat-Teilnehmer gespeichert werden. Wenn ein Chat-Teilnehmer nicht über ein Exchange Online-Postfach verfügt, kann der Administrator Chat-Unterhaltungen nicht durchsuchen oder sperren. Beispielsweise können Benutzer mit lokalen Postfächern in einer Exchange-Hybridbereitstellung an Unterhaltungen teilnehmen, die Teil der Chat-Liste in Microsoft Teams sind. Der Inhalt dieser Unterhaltungen ist in diesem Fall jedoch nicht durchsuchbar und kann nicht gesperrt werden, da die Benutzer keine cloudbasierten Postfächer haben. (Weitere Informationen finden Sie unter [Interaktion von Exchange und Microsoft Teams](exchange-teams-interact.md).)
 
-Microsoft-Teams, Chat Funktion arbeitet auf einem Microsoft Exchange Back-End-Exchange-messaging-Grenzwerten in Microsoft-Teams, die Chat-Funktion angewendet werden kann. Wenn Benutzer eine e-Mail in einem Kanal Teams senden möchten, verwenden sie die e-Mail-Adresse des DDE-Kanal. Nachdem eine e-Mail-Nachricht einen Kanal gehört, kann alle Benutzer auf, um eine Unterhaltung zu beginnen Antworten. Hier sind einige der entsprechenden Grenzwerte für das Senden von e-Mails an einen Kanal. 
+Die Chat-Funktion von Microsoft Teams funktioniert in einem Microsoft Exchange-Backend, damit Sie die Grenzwerte für das Exchange-Messaging auf die Chat-Funktion in Microsoft Teams anwenden können. Wenn Benutzer eine E-Mail an einen Kanal in Teams senden möchten, verwenden sie die E-Mail-Adresse des Kanals. Wenn eine E-Mail Teil eines Kanals ist, kann jeder antworten, um eine Unterhaltung zu beginnen. Hier einige geltende Grenzwerte zum Senden von E-Mails an einen Kanal: 
 
-|Funktion  |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
+|Feature  |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |---------|---------|---------|---------|---------|
-|Die Nachrichtengröße&dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
-|Grenzwert für Dateianlagen&Dagger;  |10     |10     |10     |10    |
-|Beschränken der Bilder&Dagger; |50   |50   |50   |50   |
+|Grenzwert für Nachrichtengröße &dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
+|Grenzwert für Dateianlagen &Dagger;  |10     |10     |10     |10    |
+|Grenzwert für Inlinegrafiken &Dagger; |50   |50   |50   |50   |
 
-&dagger;Wenn die Nachricht diesen Grenzwert überschreitet, wird eine Vorschau der Nachricht wird generiert, und der Benutzer wird aufgefordert, Ansicht/die ursprüngliche e-Mail aus den angezeigten Link herunterladen.
+&dagger; Wenn die Nachricht diesen Grenzwert überschreitet, wird eine Vorschaunachricht generiert und der Benutzer wird gebeten, die Original-E-Mail aus dem bereitgestellten Link anzuzeigen/herunterzuladen.
 
-&Dagger;Wenn die Anzahl der Anlagen oder Bilder diesen Grenzwert überschreitet, die Nachricht nicht verarbeitet werden, und eine Unzustellbarkeitsbericht E-mail an den Absender benachrichtigen des Fehlers gesendet.
+&Dagger; Wenn die Anzahl der Anlagen oder Bilder diesen Grenzwert überschreitet, wird die Nachricht nicht verarbeitet und eine NDR-E-Mail mit einer Benachrichtigung über den Fehler zurück an den Absender gesendet.
 
-Weitere Informationen finden Sie unter [Exchange Online-Begrenzungen](https://technet.microsoft.com/library/exchange-online-limits.aspx).
+Weitere Informationen finden Sie unter [Exchange Online-Grenzwerte](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
 <a name="browsers"></a>Browser 
 --------
@@ -97,6 +97,6 @@ Weitere Informationen finden Sie unter [Exchange Online-Begrenzungen](https://te
 <a name="operating-systems"></a>Betriebssysteme
 -----------------
 
-Informationen zu betriebssystemanforderungen finden Sie unter [Get-Clients für Microsoft-Teams](get-clients.md).
+Informationen zu den Betriebssystemanforderungen finden Sie unter [Beziehen von Clients für Microsoft Teams](get-clients.md).
 
 
