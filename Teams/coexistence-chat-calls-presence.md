@@ -14,12 +14,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 description: Dieses Dokument beschreibt das Verhalten der Chat, Anrufrouting und Anwesenheit zwischen Benutzern, Teams und Skype für Unternehmen, die im Mandanten und Verbundpartner, basierend auf zugewiesenen TeamsUpgrade Modi. Sie umfasst routing Optimierungen, Anwesenheit Verhalten sowie die Änderung TeamsUpgrade Standardmodus aus *Legacy* *Inseln* und die bevorstehende Stilllegung der *Vorversion*.
-ms.openlocfilehash: c6343b7f62249dab6e02c1e42fce1cc567f5035a
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569710"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517216"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 
@@ -27,8 +27,6 @@ Koexistenz und Interoperabilität zwischen Benutzern und Skype für Geschäfts- 
 
 Alle Benutzer werden immer einen TeamsUpgrade-Modus, entweder standardmäßig oder explizit durch den Administrator zugewiesen. Der Standardwert ist *Inseln*. Benutzer, die Teams aktualisiert haben, den Modus der *TeamsOnly*. *SfBOnly*, *SfBWithTeamsCollab*und *SfBWithTeamsCollabAndMeetings* sind auch Modi.
 
-> [!NOTE]
-> *Legacymodus* wurde als veraltet eingestuft. Benutzer, die auf *Legacymodus* waren wurden in *Inseln* Modus konvertiert.
 
 ## <a name="routing-parameters"></a>Routing-Parameter
 
@@ -49,9 +47,9 @@ Der Parameter, mit die die Routingmethode Thread bestimmt sind:
 - Gibt an, ob die Unterhaltung neu oder Teil eines vorhandenen Threads ist
 - Gibt an, ob die Unterhaltung im Mandanten oder im Verbund ist
 - Gibt an, ob die Unterhaltung möglich ist.
-    - Interoperabilität *im Mandanten* erfordert, dass der Mandant entweder ist rein online oder Skype für hybride Business. Rein lokale Mandanten können nicht im Mandanten Interoperabilität haben.
+    - Interoperabilität *im Mandanten* erfordert, dass der Mandant entweder ist rein online oder Skype für hybride Business. Rein lokalen Mandanten in Mandanten Interoperabilität haben können.
     - *Cross-Mandanten Verbund* erfordert immer ordnungsgemäße Skype für Business Verbundkonfiguration als auch Teams Verbundkonfiguration aus beiden Mandanten. Skype für hybride Business ist nicht erforderlich, entweder-Mandanten.
-    - Wenn die Skype für Business-Konto des Absenders verwaltete am Standort ist, kann nicht der Benutzer der Client Teams für die Interoperabilität in Mandanten oder für den Verbund verwenden. Benutzer kann nur die Skype für Business-Client für Interoperabilität und Verbund verwenden.
+    - Wenn die Skype für Business-Konto des Absenders lokal ist, kann nicht der Benutzer der Client Teams für die Interoperabilität in Mandanten oder für den Verbund verwenden. Benutzer kann nur die Skype für Business-Client für Interoperabilität und Verbund verwenden.
     - Teams Teams Kommunikation ist immer möglich Mandanten.
 
 > [!NOTE]
@@ -123,7 +121,7 @@ Die folgenden Tabellen beschreiben, welcher Client einen Anruf über den Erstell
 | TeamsOnly |Teams |Online| &boxv;|*Skype for Business* |
 |  | | | | 
 
-**Tabelle 2 b: federated neue Chat oder Anrufrouting an an einen Empfänger in einer SfB\* Modus**
+**Tabelle 2 b: federated neue Chat oder Anrufrouting an einen Empfänger in einer SfB\* Modus**
 
 | <br/><br/>Modus   | Absender<br/><br/> Client| <br/><br/>SfB verwaltet| |  Empfänger<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
@@ -178,8 +176,6 @@ Um wissen, welche das zu erwartende Verhalten, benötigen Sie erkennen, dass die
     * Von Teams wird ein anderer Benutzer in einem Verbundpartner Mandanten des Benutzers Inseln Skype für Business Anwesenheitsinformationen angezeigt. Dies wird mit der Sammelsuche Routingtabelle oben ausgerichtet.
     * Von Skype für Unternehmen wird ein anderer Benutzer des Benutzers Inseln Skype Business Vorhandensein (sowohl im Mandanten und Verbundpartner) angezeigt. Dies wird mit den Routingtabellen oben ausgerichtet.
 
-> [!NOTE]
-> Dies ist einer kürzlich vorgenommenen Änderung aus der vorherigen Implementierung (Unified Anwesenheit genannt) der kombinierten, aggregierten Anwesenheitsstatus des Ziels Teams und Skype für Business Clients ergab. Diese vorherigen Ansatz war für Benutzer verwirrend sein, da es häufig führen würde, unrichtige Anwesenheit, d. h. dass Benutzer nicht erreichbar, obwohl ihre Anwesenheit, die sie online ergab anzeigen.
 
 ## <a name="in-tenant-presence"></a>Mandanten Anwesenheit
 
@@ -216,5 +212,6 @@ Um ausrichten Anwesenheits- und Erreichbarkeit in vorhandenem Threads, das Ziel 
 Insbesondere wenn einen Empfänger Sie zuvor eine beständige interop Unterhaltungsthreads mit hatten wurde aktualisiert, Teams, dass Thread wider präzise Anwesenheit nicht mehr und nicht mehr routingfähig sein. Sie sollten einen neuen Thread starten.
 
 ## <a name="related-links"></a>Verwandte Links
+[Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [Video: Verwalten von Koexistenz und Interoperabilität zwischen SfB und Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

@@ -1,5 +1,5 @@
 ---
-title: Weisen Sie zu oder ändern Sie des Speicherorts des Notfall für einen Benutzer
+title: Zuweisen oder Ändern des Notfallstandorts für einen Benutzer
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,15 +20,15 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to change the emergency location for your users. With an unlimited number of locations, you can change emergency locations as employees move floors or buildings. '
-ms.openlocfilehash: c55f8f51ee7d94ad3b9e0c91c0bb67c319a28c46
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+description: 'Erfahren Sie, wie Sie den Notfallort für Ihre Benutzer ändern können. Mit einer unbegrenzten Anzahl von Standorten können Sie Notfallorte ändern, wenn Mitarbeiter Stockwerke oder Gebäude wechseln. '
+ms.openlocfilehash: 79ba52d65dc87b36397d4d0a8df121ac1fec8262
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046496"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516942"
 ---
-# <a name="assign-or-change-the-emergency-location-for-a-user"></a>Weisen Sie zu oder ändern Sie des Speicherorts des Notfall für einen Benutzer
+# <a name="assign-or-change-the-emergency-location-for-a-user"></a>Zuweisen oder Ändern des Notfallstandorts für einen Benutzer
 
 Jede aktive Telefonnummer benötigen eine Adresse für den Notfall zugeordnete, wenn Sie die Telefonnummer ein, die einem Benutzer zuweisen. (Sie die Adresse beim Zuordnen erhalten Sie eine Telefonnummer in Office 365 oder wenn Sie eine Telefonnummer ein übertragen.) Wenn Sie die Nummer mit einem Notfall Adresse zuordnen, können Sie auch einen Notfall Speicherort zum Bereitstellen einer genauen Position in einem physischen Standort hinzufügen. Ein Notfallstandort kann ein Stockwerk, ein Gebäudeflügel oder die Nummer eines Büros sein, in dem sich der Benutzer befindet. Sie können eine unbegrenzte Anzahl von Standorten für eine bestimmte Notfalladresse haben, und Sie können den Notfallort ändern, wenn der Benutzer in ein anderes Büro oder Gebäude umzieht - zum Beispiel, wenn der Benutzer von Stockwerk 34 in Stockwerk 35 wechselt.
   
@@ -60,6 +60,9 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
     Wenn Sie einen neuen Notfall Speicherort, der angezeigt werden, wird in der Liste hinzufügen möchten, finden Sie unter [Hinzufügen, ändern oder Entfernen von einem Notfall Speicherort für Ihre Organisation](add-change-or-remove-an-emergency-location-for-your-organization.md).
     
 ## <a name="related-topics"></a>Verwandte Themen
+
+[Zuweisen einer Notfallmaßnahmen Standorten über powershell](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsOnlineVoiceUser.md)
+
 [Hinzufügen oder Löschen einer Notfalladresse für Ihr Unternehmen](add-or-remove-an-emergency-address-for-your-organization.md)
 
 [Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](add-change-or-remove-an-emergency-location-for-your-organization.md)

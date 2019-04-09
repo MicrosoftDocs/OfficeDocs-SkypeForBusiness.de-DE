@@ -19,16 +19,16 @@ search.appverid: MET150
 description: Informationen Sie zu Richtlinien für die app-Berechtigung in der Microsoft-Teams und deren Verwendung zum Steuern, welche apps für Benutzer in Ihrer Organisation zur Verfügung stehen.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: e88493e5ecb764f207ee0eebd9a46e68db3671cd
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: 49200d597811d87ce27d94d9bb19577def6355c1
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747686"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520224"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
 
 Ein Administrator können Berechtigungsrichtlinien app Sie steuern, welche apps Microsoft-Teams, Benutzer in Ihrer Organisation zur Verfügung stehen. Sie können zulassen oder blockieren alle apps oder bestimmte apps, die von Microsoft veröffentlicht dritten und Ihrer Organisation. Wenn Sie eine app blockieren, können Benutzer nicht aus dem Teams app Store zu installieren.
 
@@ -178,5 +178,5 @@ Beispielsweise, wenn eine app gesperrt wird, können nicht Benutzer der folgende
 
  ## <a name="related-topics"></a>Verwandte Themen
 - [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
-- [Verwalten von Richtlinien für die app Setup in Teams](teams-app-setup-policies.md)
-- [Verwalten von benutzerdefinierten app-Richtlinien und Einstellungen im Team](teams-custom-app-policies-and-settings.md)
+- [Verwalten von Richtlinien für App-Setup in Teams](teams-app-setup-policies.md)
+- [Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams](teams-custom-app-policies-and-settings.md)

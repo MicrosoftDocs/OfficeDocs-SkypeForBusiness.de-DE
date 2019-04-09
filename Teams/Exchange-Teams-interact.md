@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 560e1f81db6e8150bcd8d686747bfb297cbfcf84
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: bdb998587eefd0eb15477b26799d487e041df220
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569982"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516799"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams 
 =========================================
@@ -27,7 +27,7 @@ ms.locfileid: "30569982"
 > [!Tip]
 > Sehen Sie sich die folgenden Sitzung um zu erfahren, wie Teams interagiert mit Azure Active Directory (AAD), Gruppen von Office 365, Exchange, SharePoint und OneDrive für Unternehmen: [Grundlagen der Microsoft-Teams](https://aka.ms/teams-foundations)
 
-Um den vollen Funktionsumfang von Microsoft Teams zu nutzen, sollten alle Benutzer für Exchange Online, SharePoint Online und das Erstellen einer Office 365-Gruppe aktiviert sein.
+Um den vollen Funktionsumfang von Teams zu nutzen, sollten alle Benutzer für Exchange Online, SharePoint Online und das Erstellen einer Office 365-Gruppe aktiviert sein.
 
 Die Exchange-Postfächer der Benutzer können online oder lokal gehostet werden. In Exchange Online oder Exchange Dedicated vNext gehostete Benutzer können alle Funktionen von Microsoft Teams verwenden. Sie können Teams und Kanäle erstellen und diesen beitreten, Besprechungen erstellen und anzeigen, anrufen und chatten, Benutzerprofilbilder ändern sowie Connectors, Registerkarten und Bots hinzufügen und konfigurieren.
 
@@ -66,13 +66,15 @@ Weitere Informationen:
 
 -   In Microsoft Teams funktionieren Sicherheits- und Compliance-Funktionen wie eDiscovery, Inhaltssuche, Archivierung und gesetzliche Aufbewahrungspflicht am besten in Exchange Online- und SharePoint Online-Umgebungen. Für Kanalunterhalten werden Nachrichten im Gruppenpostfach in Exchange Online als Journal erfasst und stehen für eDiscovery zur Verfügung. Bei Aktivierung von SharePoint Online und OneDrive for Business (mit Geschäfts- oder Schulkonto) für Benutzer in der gesamten Organisation stehen diese Compliance-Funktionen auch für alle Dateien innerhalb von Teams zur Verfügung.
 
--   Für Exchange lokal müssen Sie das neue Exchange-OAuth-Authentifizierungsprotokoll konfigurieren, wie unter [Konfigurieren der OAuth-Authentifizierung zwischen Exchange- und Exchange Online-Organisationen](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
+-   Für Exchange lokal müssen Sie das neue Exchange-OAuth-Authentifizierungsprotokoll konfigurieren, wie unter [Konfigurieren der OAuth-Authentifizierung zwischen Exchange- und Exchange Online-Organisationen](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). 
+
+-  Steuern, und die Konfiguration der Richtlinien für die Kompatibilität in Teams und Exchange mithilfe der bedingten Zugriff zu schützen. Weitere Informationen finden Sie unter [wie funktionieren bedingte Zugriffsrichtlinien für Teams?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams) .
 
 > [!NOTE]
 > Wenn Ihre Organisation Compliance-Anforderungen erfüllen muss, um sicherzustellen, dass alle Besprechungsdiskussionen gefunden werden können, sollten Sie private Besprechungen deaktivieren, wenn der Organisator über ein lokales Exchange-Postfach verfügt.
 > 
 > [!IMPORTANT]
-> In einer Exchange-hybridbereitstellung kann Inhalt von Chatnachrichten durchsucht werden, unabhängig davon, ob Chat Teilnehmer einem cloudbasierten Postfach oder ein lokales Postfach verfügen. Weitere Informationen finden lesen Sie [Searching cloudbasierten Postfächer für lokale Benutzer in Office 365](https://docs.microsoft.com/en-us/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Informationen zum Suchen nach Inhalten in Teams, lesen Sie [Inhalte Suche in der Office 365-Sicherheit & Compliance Center](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+> In einer Exchange-hybridbereitstellung kann Inhalt von Chatnachrichten durchsucht werden, unabhängig davon, ob Chat Teilnehmer einem cloudbasierten Postfach oder ein lokales Postfach verfügen. Weitere Informationen finden lesen Sie [Searching cloudbasierten Postfächer für lokale Benutzer in Office 365](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Informationen zum Suchen nach Inhalten in Teams, lesen Sie [Inhalte Suche in der Office 365-Sicherheit & Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 > 
 > [!TIP]
 > Informationen zur Verwendung von Azure Active Directory verbinden mit Azure Active Directory synchronisiert finden Sie unter [Integration von Ihrer lokalen Identitäten mit Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).

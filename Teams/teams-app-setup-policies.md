@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Informationen Sie zu Richtlinien für die app Setup in Microsoft-Teams und Nutzung zum Anpassen von Teams für Benutzer in Ihrer Organisation Pin apps.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 5633e5158a3f19ea8960e957b91537547d2580a1
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: dc5800d6231245be1b562dbedef44608232f04c1
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747662"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517103"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -54,11 +54,12 @@ Das Microsoft-Teams, Administrationscenter können Sie eine benutzerdefinierte R
 1. Wechseln Sie im linken Navigationsbereich von Microsoft-Teams, Administrationscenter, **Teams**Apps > **Richtlinien einrichten**.
 2. Wählen Sie **neue Richtlinie**aus.
 3. Geben Sie einen beschreibenden Namen für die Richtlinie ein, und klicken Sie dann auf **apps hinzufügen**.
-4. Suchen Sie im Bereich **Hinzufügen fixiert apps** für die apps, den, die Sie hinzufügen, und klicken Sie dann auf **Hinzufügen**möchten. Sie können auch apps durch app Berechtigungsrichtlinie filtern. Wenn Sie die Liste der apps ausgewählt haben, klicken Sie auf **Hinzufügen**.
+4. Aktivieren oder Deaktivieren von **benutzerdefinierten apps Hochladen zulassen**, je nachdem, ob Sie benutzerdefinierte apps in Teams hoch Benutzern ermöglichen möchten.
+5. Suchen Sie im Bereich **Hinzufügen fixiert apps** für die apps, den, die Sie hinzufügen, und klicken Sie dann auf **Hinzufügen**möchten. Sie können auch apps durch app Berechtigungsrichtlinie filtern. Wenn Sie die Liste der apps ausgewählt haben, klicken Sie auf **Hinzufügen**.
 
      ![App-Setup-Richtlinien-add-apps.png](media/app-setup-policies-add-apps.png)
 
-5. Ordnen Sie die apps in der Reihenfolge, in der Sie sollen in Teams angezeigt, und klicken Sie dann auf **Speichern**.
+6. Ordnen Sie die apps in der Reihenfolge, in der Sie sollen in Teams angezeigt, und klicken Sie dann auf **Speichern**.
 
     ![App-Setup-Policies-New-Policy-Setup.PNG](media/app-setup-policies-new-policy-setup.png)
 
@@ -173,6 +174,6 @@ Stellen Sie sicher, dass die Logorichtlinien befolgen, bevor Sie die app zu übe
 
  ## <a name="related-topics"></a>Verwandte Themen
 - [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
-- [Verwalten von Berechtigungsrichtlinien in Teams app](teams-app-permission-policies.md)
-- [Verwalten von benutzerdefinierten app-Richtlinien und Einstellungen im Team](teams-custom-app-policies-and-settings.md)
+- [Verwalten von Richtlinien für App-Berechtigungen in Teams](teams-app-permission-policies.md)
+- [Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams](teams-custom-app-policies-and-settings.md)
 - [Veröffentlichen einer app mit dem Mandanten Apps Katalog vom Client Teams](tenant-apps-catalog-teams.md)

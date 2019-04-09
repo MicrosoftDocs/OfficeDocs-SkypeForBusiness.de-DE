@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Informationen Sie zum Einrichten von Voicemail Cloud für Ihre Benutzer. '
-ms.openlocfilehash: 26594c9d955cb21dc5751491e1857525660bdcae
-ms.sourcegitcommit: 7ca70e8a2108462afd505258b455169ead30f33f
+ms.openlocfilehash: 3f8729c9737bcbf0e7731ac61b38d56d708e15dc
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31041934"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517152"
 ---
 # <a name="set-up-cloud-voicemail"></a>Einrichten von Cloudvoicemail
 
@@ -59,7 +59,7 @@ Die folgenden Informationen sind zum Konfigurieren von Cloud-Voicemail lokale au
 
 5. Voicemailnachrichten werden mit Exchange-Postfach der Benutzer über SMTP über Exchange Online Protection weitergeleitet übermittelt. Werden Sie um die erfolgreiche Übermittlung dieser Nachrichten zu aktivieren, sicher, dass die Exchange-Connectors zwischen Exchange-Servern und Exchange Online Protection korrekt konfiguriert sind. [Verwendung Connectors zu E-Mail-Fluss zu konfigurieren](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 
-6. Verbindung zwischen Office 365 und Exchange Server-Postfachs über Exchange-Webdienste ist erforderlich, um Voicemail-Features wie beispielsweise anpassen Ansage DFÜ-Zugriff und visual Voicemail aktivieren. Um diese Konnektivität zu aktivieren müssen Sie konfigurieren die neue Exchange-Oauth-Authentifizierungsprotokoll beschreiben in [Konfigurieren der OAuth-Authentifizierung zwischen Exchange- und Exchange Online-Organisationen](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) 
+6. Verbindung zwischen Office 365 und Exchange Server-Postfachs über Exchange-Webdienste ist erforderlich, um Voicemail-Features wie beispielsweise anpassen Ansagen und visual Voicemail in Skype für Business-Clients zu aktivieren. Um diese Konnektivität zu aktivieren müssen Sie konfigurieren die neue Exchange-Oauth-Authentifizierungsprotokoll beschreiben in [Konfigurieren der OAuth-Authentifizierung zwischen Exchange- und Exchange Online-Organisationen](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) 
 
 > [!NOTE]
 > Die Exchange-Hybrid-Assistenten ausführen von Exchange 2013 CU5 oder höher wird automatisch die Anforderungen in die Schritte 5 und 6 behandelt. 
@@ -127,6 +127,8 @@ Wir bieten Schulungsinformationen und Artikel an, damit Ihre Benutzer erfolgreic
 ## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
-[Das bekommen Sie mit Telefonsystem in Office 365](here-s-what-you-get-with-phone-system.md)
+[Das Telefonsystem in Office 365 bietet Ihnen Folgendes](here-s-what-you-get-with-phone-system.md)
+
+[Planen der Migration von Skype for Business Server und Exchange Server](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-um-migration)
 
 

@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Microsoft-Partner mit ausgewählten SBC-Anbietern ihre SBCs Zertifizierung arbeiten mit direktem Routing.
-ms.openlocfilehash: ec9c3b152858e9e1968340d20d20996bf3dfbfb0
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: ed394326f56c9647036d2b4785dcf04b59caeba6
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664724"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517127"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 
@@ -65,3 +65,5 @@ Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierte
 |                                                                                                                   |      AP 6350           |    &#10004;   |   Steht noch aus    |     ECZ8.1m1p6  |                                             
 |                                                                                                                    |      VME           |    &#10004;    |   Steht noch aus    |     ECZ8.1m1p6   |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      V3.16.2      |
+
+Besuchen Sie [Uservoice](https://microsoftteams.uservoice.com) , um uns Feedback zu Produkten zu Teams, beispielsweise Ideen für neue Features zu versehen

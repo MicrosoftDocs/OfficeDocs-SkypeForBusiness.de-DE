@@ -1,5 +1,5 @@
 ---
-title: Planen der medienumgehung mit direktem Routing
+title: Planen der Medienumgehung mit direktem Routing
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,14 +15,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lesen Sie in diesem Thema erfahren, wie für die medienumgehung mit Phone System direktem Routing planen.
-ms.openlocfilehash: 6a152fed20dde9d641abfab1bdba7b211f2dcdb9
-ms.sourcegitcommit: 27cf21fb02632e9f65dfa2f995120fb927114b3d
+ms.openlocfilehash: 308150121733f5f135d248404c663634ddaeea7c
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30649212"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517247"
 ---
-# <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der medienumgehung mit direktem Routing
+# <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
 ## <a name="about-media-bypass-with-direct-routing"></a>Zur medienumgehung mit direktem Routing
 
@@ -47,7 +47,7 @@ Aber nehmen wir an, dass ein Benutzer im gleichen Gebäude oder Netzwerk wie der
 
 ![Zeigt Signale und Medien Flussdiagramm mit medienumgehung](media/direct-routing-media-bypass-2.png)
 
-Die medienumgehung nutzt Protokolle Interactive Connectivity Establishment (ICE) auf dem Client Teams und ICE auf den SBC light aufgerufen. Diese Protokolle aktivieren direkte Weiterleitung an die direkte Medienpfad für eine optimale Qualität verwenden. ICE und ICE-hell sind WebRTC Standards. Ausführliche Informationen zu diesen Protokollen finden Sie unter RFC 5245.
+Die medienumgehung nutzt Protokolle Interactive Connectivity Establishment (ICE) auf dem Client Teams und ICE auf den SBC light aufgerufen. Diese Protokolle aktivieren direkte Weiterleitung an die direkte Medienpfad für eine optimale Qualität verwenden. ICE und ICE Lite sind WebRTC Standards. Ausführliche Informationen zu diesen Protokollen finden Sie unter RFC 5245.
 
 
 ## <a name="call-flow-and-firewall-planning"></a>Anruffluss und Planung firewall
@@ -136,7 +136,7 @@ In Medienpfad für nicht umgangen Anrufe für Endbenutzer | Immer | Nie |
 In Medienpfad für umgangener Anrufe für Endbenutzer | Nie | Wenn der Client den SBC die öffentliche IP-Adresse nicht erreichen kann | 
 In Medienpfad für VoIP-Anwendungen | Immer | Nie | 
 Möglichkeiten transcodieren (B2BUA)\* | Ja | Nein, leitet nur Audio zwischen Endpunkten | 
-Anzahl der Instancess weltweit und Ort | insgesamt 8: 2 in uns Osten und Westen; 2 in Amsterdam und Dublin; 2 in Hongkong und Singapur; 2 in Japan (wird in Q1CY2019 hinzugefügt)  | Mehrere
+Anzahl der Instanzen weltweit und Ort | insgesamt 8: 2 in uns Osten und Westen; 2 in Amsterdam und Dublin; 2 in Hongkong und Singapur; 2 in Japan (wird in Q1CY2019 hinzugefügt)  | Mehrere
 
 Der IP-Adressbereich ist 52.112.0.0 /14 (IP-Adressen von 52.112.0.1 bis 52.115.255.254). 
 
@@ -154,7 +154,7 @@ Teams Transport Relays sind immer in der Medienpfad in den folgenden Szenarien:
 - Anruf schlägt an ein Verbundbenutzer Teams
 - Anruf wird weitergeleitet oder in einen Skype für Geschäftsbenutzer übertragen
 
-Stellen Sie sicher Ihren SBC beziehen sich hat Zugriff auf die Relays Transport wie unten beschrieben.    
+Stellen Sie sicher, dass für Ihren SBC beziehen, Zugriff auf die Relays Transport ist, wie unten beschrieben.    
 
 
 ## <a name="sip-signaling-fqdns-and-firewall-ports"></a>SIP-Signalisierung: FQDNs und Firewallports
@@ -220,7 +220,7 @@ Der Portbereich Teams Transport Relays wird in der folgenden Tabelle gezeigt:
 | Datenverkehr | Von | Bis | Quellport | Zielport|
 | :-------- | :-------- |:-----------|:--------|:---------|
 UDP/SRTP | Transport-Relay | SBC | 50 000-59 999    | Klicken Sie auf die SBC definiert |
-| UDP/SRTP | SBC | Transport-Relay | Klicken Sie auf die SBC definiert | 50 000 bis 59 9999, 3478, 3479     |
+| UDP/SRTP | SBC | Transport-Relay | Klicken Sie auf die SBC definiert | 50 000 – 59 999, 3478, 3479     |
 
 
 Hinweis: Microsoft empfiehlt mindestens zwei Ports pro gleichzeitigem Anruf auf die SBC. Da Microsoft zwei Versionen von Transport Relays verfügt, wird Folgendes benötigt:
@@ -289,7 +289,7 @@ Wenn Ihre Benutzer Teams Web-app in Microsoft Edge, Google Chrome oder Mozilla F
  
 ## <a name="see-also"></a>Siehe auch
 
-[Konfigurieren der medienumgehung mit direktem Routing](direct-routing-configure-media-bypass.md)
+[Konfigurieren der Medienumgehung mit direktem Routing](direct-routing-configure-media-bypass.md)
 
 
 

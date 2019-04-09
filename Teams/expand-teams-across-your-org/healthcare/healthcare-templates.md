@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
-ms.openlocfilehash: 5482afa3302085f113a57ec7b6b9f3f188f7cffc
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+ms.openlocfilehash: 38b2067bc91a79ff2efa8bc20726ad14d793aa24
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013629"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517111"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen
 
@@ -55,6 +55,9 @@ Die Vorlage Krankenhaus ist für die Kommunikation und Zusammenarbeit zwischen m
 ## <a name="how-to-use-first-party-templates"></a>So verwenden Sie die erste Partei-Vorlagen
 
 Um diese Vorlagen zu verwenden, ändern Sie einfach die Eigenschaft 'template@odata.bind' im Textkörper Anforderung von'standard' der oben genannten TemplateIDs.  Weitere Informationen zum Bereitstellen von Vorlagen für Teams, finden im Microsoft Graph- [Artikel über das Erstellen eines Teams](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+
+> [!NOTE]
+> Die Kanäle in der Vorlage werden automatisch unter der Registerkarte "Allgemein" erstellt.
 
 ### <a name="example-hospital-template-extension-script"></a>Beispiel: Krankenhaus Vorlage Erweiterungsskript
 
@@ -160,6 +163,6 @@ Um diese Vorlagen zu verwenden, ändern Sie einfach die Eigenschaft 'template@od
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Erste Schritte mit Microsoft Teams-Vorlagen](../../get-started-with-teams-templates.md)
+[Erste Schritte mit Teams-Vorlagen](../../get-started-with-teams-templates.md)
 
-[Erste Schritte mit Teams für Unternehmen aus dem Gesundheitswesen](teams-in-hc.md)
+[Erste Schritte mit Teams für Organisationen im Gesundheitswesen](teams-in-hc.md)

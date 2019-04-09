@@ -1,5 +1,5 @@
 ---
-title: Einrichten von Feiertagen in der Microsoft-Teams
+title: Einrichten von Feiertagen in Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 description: Informationen Sie zum Einrichten von Feiertagen in der Microsoft-Teams, und schließen Sie sie an die automatische Telefonzentrale.
-ms.openlocfilehash: ee88135a030aa1a20872b397b2709da40b3ab8e5
-ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
+ms.openlocfilehash: 72feed025e43eb7242f75608534db45d74aca9c9
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30537756"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517119"
 ---
-# <a name="set-up-holidays-in-microsoft-teams"></a>Einrichten von Feiertagen in der Microsoft-Teams
+# <a name="set-up-holidays-in-microsoft-teams"></a>Einrichten von Feiertagen in Microsoft Teams
 
 Sie können das Feature Microsoft Teams Feiertage verwenden, um bestimmte Termine planen und wie oft Wenn Personen in Ihrer Organisation Zeit aus deaktiviert und werden arbeiten und während der normalen Geschäftszeiten nicht verfügbar. 
 
@@ -55,7 +55,7 @@ Weitere Informationen zu automatischen Telefonzentralen finden Sie unter [Was si
 
 9. Wählen Sie **Speichern**aus.
 
-## <a name="change-a-holdiay"></a>Ändern einer holdiay
+## <a name="change-a-holiday"></a>Ändern Sie einen Feiertag
 
 1. Wechseln Sie in der Microsoft-Teams-Verwaltungskonsole zu **Org geltende Einstellungen** > **Feiertage**.
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 'Zusammenfassung: Überprüfen Sie die featureunterstützung für den mobilen Client beim Planen von Skype für Business Server.'
-ms.openlocfilehash: f04d0162113db68e2507930e827904110b69066f
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 6d43d5dbadbc11abaabde8858c75273a0190b324
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965748"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520162"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Mobiler Client Featurevergleich für Skype für Unternehmen
  
@@ -165,7 +165,7 @@ Auf iOS-Geräten erfolgt eine automatische Skype für Unternehmen Abmeldung nach
 |Auf detaillierte Besprechungsliste für Chatnachrichtenkonferenzen zugreifen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Desktop oder Programm freigeben  <br/> |& #x 2714;||||
 |Anzeigen von freigegebenen Desktop oder Programm (VbSS oder RDP)  <br/> |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |
-|Freigegebene PowerPoint-Dateien anzeigen  <br/> |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |
+|Freigegebene PowerPoint-Dateien anzeigen  <br/> |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714; & #x 2777; & #x 2778; |& #x 2714; & #x 2777; & #x 2778;|
 |PowerPoint-Dateien hochladen und präsentieren  <br/> |& #x 2714;||& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |
 |Besprechungstools verwenden (Whiteboard verwenden, Umfragen durchführen, Dateien freigeben)  <br/> |& #x 2714;||||
 |In Besprechungsliste navigieren  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
@@ -176,6 +176,8 @@ Auf iOS-Geräten erfolgt eine automatische Skype für Unternehmen Abmeldung nach
  & #x 2776;  Für Office 365-Benutzer erfordert dieses Feature Enterprise-VoIP, das Teil der Lizenz E5 ist.
   
  & #x 2777;  Erfordert eine WLAN-Verbindung in der Standardeinstellung.
+ 
+ & #x 2778;  Anzeigen von eingebettete Videos in PowerPoint-Präsentationen wird nicht unterstützt.
   
 ## <a name="telephony-support"></a>Telefonieunterstützung
 
@@ -211,7 +213,7 @@ Auf iOS-Geräten erfolgt eine automatische Skype für Unternehmen Abmeldung nach
 |Chat mit Partnerkontakt initiieren  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Anrufe mit zwei Teilnehmern mit externen Benutzern durchführen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Anrufe mit mehreren Teilnehmern mit externen Benutzern durchführen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|Verwenden Sie "geschäftlich anrufen", um einen Partnerkontakt auf dem Mobiltelefon zu erreichen ihrer veröffentlichten geschäftlichen Telefonnummer & #x 2776.            <br/> ||& #x 2714;|& #x 2714;|& #x 2714;|
+|Verwenden Sie "geschäftlich anrufen", um einen Partnerkontakt auf dem Mobiltelefon zu erreichen ihrer veröffentlichten geschäftlichen Rufnummer & #x 2776.            <br/> ||& #x 2714;|& #x 2714;|& #x 2714;|
    
  & #x 2776;  Standardmäßig werden die Verbundbenutzer die private Beziehung externe Kontakte zugewiesen. Damit Sie einen Partnerkontakt auf seinem Mobiltelefon erreichen können, indem Sie die veröffentlichte geschäftliche Telefonnummer anrufen, muss der Partnerkontakt Ihnen manuell die private Beziehung „Kollegen“ zuweisen.
   

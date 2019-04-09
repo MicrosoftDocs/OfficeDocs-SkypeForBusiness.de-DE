@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Informationen Sie zum Konfigurieren einer Session Border Controller (SBC), um mehrere Mandanten zu verarbeiten.
-ms.openlocfilehash: 53cc4d6f9d930c9069ac39d81e304b0265669b5e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 26c2263747b33eab5c6e27a1a22b13fd44af7874
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893343"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517224"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -118,7 +118,7 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Off
 3. Klicken Sie auf **Weiter**.
 4. Im Beispiel hat der Mandanten adatum.biz bereits als Namen einer überprüften Domäne. Der Assistent fordert nicht für eine zusätzliche Überprüfung, da customers.adatum.biz eine Unterdomäne für den Namen bereits registriert ist. Wenn Sie einen vollqualifizierten Domänennamen, der nicht hinzufügen vor überprüft wurde, müssen Sie über den Prozess der Überprüfung geleitet. Die Überprüfung wird [unten beschriebenen](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
-    ![Bestätigung eines Domänennamens verfied](media/direct-routing-3-sbc-verify-domain.png)
+    ![Bestätigung des einen Namen für die überprüften Domäne](media/direct-routing-3-sbc-verify-domain.png)
 
 5.  Klicken Sie auf **Weiter**, und wählen Sie auf der Seite **Einstellungen für DNS-Updates** **ich fügen die DNS-Datensätze selbst** , und klicken Sie auf **Weiter**.
 6.  Deaktivieren Sie auf der nächsten Seite alle Werte (es sei denn, Sie den Domänennamen für Exchange, SharePoint oder Teams/Skype für Unternehmen verwenden möchten), klicken Sie auf **Weiter**, und klicken Sie dann auf **Fertig stellen**. Stellen Sie sicher, dass die neue Domäne im Status Setup abgeschlossen ist.

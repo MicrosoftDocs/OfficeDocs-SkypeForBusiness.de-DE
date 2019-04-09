@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Zusammenfassung: Skype für Business Server 2019 oder Skype für Business Online-Administratoren kann diese Tabellen verwenden, um zu verstehen, welche Funktionen auf welche Clients unterstützt werden.'
-ms.openlocfilehash: 296e96af455b7cea8cddf833acff19a665349933
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: f11a6c5c31267dabd2d8125a604a659a71168d6c
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789111"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516926"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Featurevergleich für Skype für Business Server 2019 Desktopclient
 
@@ -91,7 +91,7 @@ Diese Tabelle enthält Funktionen im Zusammenhang mit der Chatunterstützung.
 |Chatunterhaltungen in Outlook protokollieren  |& #x 2714;|& #x 2714; Wenn die serverseitige aufgezeichnete aktiviert ist   |& #x 2714;|   
 |Rechtschreibung überprüfen |& #x 2714;|& #x 2714;||   
 |Qualifikationssuche (mit SharePoint Server-Integration)   <br/> (Lokale Skype für Business Server und lokale SharePoint 2013 sind für die Suche nach Fertigkeiten erforderlich.)  |& #x 2714;||& #x 2714;|
-|Integration des beständigen Chats (Gruppenchats)  <br/> (nicht verfügbar für Skype für Business Online)|& #x 2714;||& #x 2714;|  
+|Integration des beständigen Chats (Gruppen-Chats)   <br/> (nicht verfügbar für Skype für Business Online)|& #x 2714;||& #x 2714;|  
 |Beständigen Chatroom mit einem Klick zu einer Skype for Business-Besprechung eskalieren   <br/> (nicht verfügbar für Skype für Business Online) |& #x 2714;||& #x 2714;| 
 |Inlinebilder von Absender und Empfänger im Chatfenster |& #x 2714;||& #x 2714;| 
 |Freihandnachrichten empfangen |& #x 2714;||& #x 2714;| 
@@ -119,7 +119,7 @@ Weitere Informationen hierzu finden Sie unter der [Skype für Business Online Se
 |Auf detaillierte Teilnehmerliste der Besprechung zugreifen |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|  
 |An Chats mit mehreren Teilnehmern teilnehmen |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|  
 |Desktop freigeben (sofern aktiviert)  |& #x 2714;|& #x 2714; & #x 2776; |& #x 2714; & #x 2776; (erfordert plug-in) |& #x 2714;| & #x 2714;|
-|Programm freigeben (sofern aktiviert) |& #x 2714;|Nur Ansicht   |& #x 2714;(requires plug-in)  |& #x 2714;|& #x 2714;|   
+|Programm freigeben (sofern aktiviert) |& #x 2714;|Nur anzeigen   |& #x 2714;(requires plug-in)  |& #x 2714;|& #x 2714;|   
 |Anonyme Teilnehmer hinzufügen (sofern aktiviert) |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Verwenden Sie Einwahl Audiokonferenzen Besprechungen & #x 2777.|& #x 2714; |& #x 2714;|& #x 2714;  |& #x 2714;|& #x 2714;  |
 |Besprechung mit „Jetzt besprechen“ initiieren|& #x 2714;|& #x 2714;||& #x 2714;|& #x 2714;|  
@@ -128,7 +128,7 @@ Weitere Informationen hierzu finden Sie unter der [Skype für Business Online Se
 |OneNote-Besprechungsnotizen hinzufügen und bearbeiten  |& #x 2714;||Nur bearbeiten (nicht hinzufügen)  |& #x 2714;|& #x 2714;|
 |Whiteboard verwenden |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
 |Umfragen durchführen |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
-|Dateien zur gemeinsamen Verwendung mit anderen hochladen |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
+|Dateien zur gemeinsamen Verwendung mit anderen hochladen |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Besprechung oder Konferenz planen |Outlook oder Skype für Business-Webplaner  |Outlook oder Skype für Business-Webplaner |Skype für Business-Webplaner |Outlook oder Skype für Business-Webplaner   |Outlook oder Lync Web Scheduler |  
 |Q&amp;ein Manager |& #x 2714;|||||
 |Teilnehmervideo deaktivieren |& #x 2714;||& #x 2714;|||
@@ -141,7 +141,7 @@ Weitere Informationen hierzu finden Sie unter der [Skype für Business Online Se
 |Videospotlight festlegen (Video sperren) |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;| 
 |Steuerung der Bildschirmübertragung übergeben/übernehmen  |& #x 2714;||& #x 2714;|||
 
- & #x 2776;  Teilnehmer können nicht Desktops steuern, die von Skype für Unternehmen auf Mac, Lync für Mac 2011 oder Communicator für Mac 2011 Benutzer freigegeben werden. Skype für Unternehmen auf Mac, kann nicht Lync für Mac 2011 und Communicator für Mac 2011 Benutzer von Windows-Benutzern gemeinsam genutzt werden Desktops steuern. Auch für die Skype for Business Web App unter Mac OS X funktioniert das nicht.
+ & #x 2776;  Teilnehmer können nicht Desktops steuern, die von Skype für Unternehmen auf Mac, Lync für Mac 2011 oder Communicator für Mac 2011 Benutzer freigegeben werden. Skype für Unternehmen auf Mac, kann nicht Lync für Mac 2011 und Communicator für Mac 2011 Benutzer von Windows-Benutzern gemeinsam genutzt werden Desktops steuern. Dies auch funktioniert für Skype für Web-Geschäfts-App auf Max OSX nicht.
 
  & #x 2777;  Für Skype für Business Online benötigt dieses Feature die PSTN-Konferenz von Microsoft Exchange Unified Messaging oder einen Drittanbieter-Audiokonferenzen.
 
@@ -169,8 +169,8 @@ Diese Tabelle enthält Funktionen im Zusammenhang mit der Unterstützung für Vo
 |Stellvertretungen verwalten |& #x 2714;|& #x 2714;   |& #x 2714; & #x 2776; |
 |Anruf an eine Reaktionsgruppe initiieren|& #x 2714;||& #x 2714; & #x 2776; |
 |Unterstützung für Notrufe (E-911) |& #x 2714;|& #x 2714; |& #x 2714; & #x 2776; |
-|Chatbenachrichtigung an SIP-URIs für E-911-Anrufe |& #x 2714;|& #x 2714;|& #x 2714;|
-|Chatbenachrichtigung an Verteilerliste für E-911-Anrufe|& #x 2714;|& #x 2714;|& #x 2714;|
+|Instant Messaging-Benachrichtigung an SIP-URI(s) für E-911 Anruf |& #x 2714;|& #x 2714;|& #x 2714;|
+|Instant Messaging-Benachrichtigung an Verteilerliste für E-911 aufrufen|& #x 2714;|& #x 2714;|& #x 2714;|
 |Mit Voicemail verbinden, Begrüßung einrichten oder ändern |& #x 2714;|& #x 2714;|& #x 2714; & #x 2776; | 
 |Benachrichtigung über verpasste Anrufe |& #x 2714;|& #x 2714;|& #x 2714; & #x 2776; | 
 |Anrufe im Namen eines anderen Kontakts tätigen (Vorgesetzter/Stellvertretung-Szenario) |& #x 2714;|& #x 2714;|& #x 2714; & #x 2776; |
@@ -192,7 +192,7 @@ Diese Tabelle enthält Funktionen im Zusammenhang mit der Unterstützung für ex
 |:-----|:-----|:-----|:-----|  
 |Chat mit öffentlichem Kontakt initiieren |& #x 2714;|& #x 2714;|& #x 2714;| 
 |Chat mit Partnerkontakt initiieren |& #x 2714;|& #x 2714;|& #x 2714;| 
-|Anrufe mit zwei oder mehr Teilnehmern mit externen Benutzern durchführen  <br/> (nicht verfügbar in Skype für Business Online)  |& #x 2714;|& #x 2714;|& #x 2714;| 
+|Anrufe mit zwei oder mehr Teilnehmern mit externen Benutzern durchführen   <br/> (nicht verfügbar in Skype für Business Online)  |& #x 2714;|& #x 2714;|& #x 2714;| 
 
 ## <a name="recording-support"></a>Aufzeichnungsunterstützung
 <a name="BKMK_Recording"> </a>
@@ -227,60 +227,60 @@ Moderne Authentifizierung erfordert auch eine Topologie beschrieben in [Skype f�
 ## <a name="archiving-compliance-and-logging-support"></a>Unterstützung für Archivierung, Compliance und Protokollierung
 <a name="BKMK_Archiving"> </a>
 
-Diese Tabelle enthält Funktionen im Zusammenhang mit der Unterstützung für Archivierungs- und Protokollierungsfunktionen.
+Diese Tabelle enthält Features, die im Zusammenhang mit der Unterstützung für Archivierung und Protokollierung Funktionen.
 
 
  | Feature/Funktion | Skype für Business 2015, 2016 oder 2019-client | Skype for Business auf dem Mac | Lync 2013-client |  
 |:-----|:-----|:-----|:-----|  
-|Archivierung von Chats im Outlook-Ordner „Aufgezeichnete Unterhaltungen“|& #x 2714; & #x 2776; |& #x 2714; Wenn die serverseitige aufgezeichnete aktiviert ist  |& #x 2714; & #x 2776; | 
-|Archivierung von Audio, Video, Anwendungsfreigabe, Desktopfreigabe und hochgeladenen Inhalten auf Clientseite  |& #x 2714; & #x 2776; ||& #x 2714; & #x 2776; |
+|Archivierung von Sofortnachrichtenunterhaltungen im Outlook-Unterhaltungen|& #x 2714; & #x 2776; |& #x 2714; Wenn die serverseitige aufgezeichnete aktiviert ist  |& #x 2714; & #x 2776; | 
+|Mithilfe der clientseitigen Archivierung von Audio, Video, Anwendungsfreigabe, Desktopfreigabe und hochgeladene Inhalte  |& #x 2714; & #x 2776; ||& #x 2714; & #x 2776; |
 |Mithilfe der clientseitigen Archivierung von dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen (in Skype für Business Online nicht verfügbar)  |& #x 2714;||& #x 2714;|
 |Access-Anmeldung Protokolle von Skype für Business-Symbol in der Taskleiste |& #x 2714;||& #x 2714;|
 
  & #x 2776;  Skype für Business Online-Benutzern dieses Feature erfordert Exchange Online und wird durch den Benutzer Exchange-Postfach Compliance-Archiv-Attribut gesteuert.
 
-## <a name="client-limitations"></a>Einschränkungen der Clients 
+## <a name="client-limitations"></a>Client-Einschränkungen
 <a name="Types"> </a>
 
-### <a name="basic-client-limitations"></a>Einschränkungen des Standardclients
+### <a name="basic-client-limitations"></a>Basic-Client-Einschränkungen
 <a name="Full-Basic"> </a>
 
-Die folgenden Funktionen sind bei Verwendung des Clients mit vollem Funktionsumfang verfügbar, bei Verwendung des Standardclients jedoch nicht:  
+Die folgenden Features stehen zur Verfügung, mit dem vollständigen und sind nicht mit dem grundlegenden Client verfügbar: 
 
-- Einstellungen für Teamanruf verwalten
+- Einstellungen für Teamanrufe verwalten
 
 - Stellvertretungen verwalten
 
-- Anrufe im Namen eines anderen Kontakts tätigen (Vorgesetzter/Stellvertreter-Szenario)
+- Anrufe im Namen eines anderen Kontakts tätigen (Vorgesetzter/Stellvertretung-Szenario)
 
-- Anrufe eines anderen Benutzers verwalten, wenn eine Delegierung konfiguriert wurde
+- Anrufe eines anderen Benutzers verwalten, wenn eine Stellvertretung konfiguriert ist
 
-- Hohes Anrufaufkommen verwalten
+- Verwalten einer großen Anzahl von Anrufen
 
 - Anruf an eine Reaktionsgruppe initiieren
 
 - Anruf parken
 
-- Begrüßung ändern
+- Ändern der Ansage
 
 - Gruppenanrufannahme
 
-### <a name="online-or-hybrid-user-account-limitations"></a>Einschränkungen für Onlinebenutzerkonten oder hybride Benutzerkonten
+### <a name="online-or-hybrid-user-account-limitations"></a>Online oder Hybrid Benutzer Konto Einschränkungen
 <a name="Online-Hybrid"> </a>
 
 Benutzerkonten können Online oder lokalen vorhanden sind, und wirkt, die für diesen Benutzer verfügbaren Features. Benutzer mit Konten in Skype für Business Online haben Zugriff auf die folgenden Features nicht selbst mit dem vollständigen-Client: 
 
-- Erweiterte Anwesenheit: Foto von einer beliebigen öffentlichen Site für „Mein Bild“ verwenden
+- Erweiterte Anwesenheit: Verwenden Sie ein Foto für mein Bild von einer öffentlichen Website
 
 - Kontakte: Nach Reaktionsgruppen suchen
 
-- Chatunterstützung: Integration des beständigen Chats (Gruppen-Chats)
+- Instant Messaging-Unterstützung: Integration beständigen Chat (Gruppenchats)
 
 - Instant Messaging-Unterstützung: Ausweiten einer beständigen Chat Speicherplatz für einen Skype für Business-Besprechung mit nur einem Klick
 
-- Externe Benutzer: Anrufe mit zwei oder mehr Teilnehmern mit externen Benutzern durchführen
+- Externe Benutzer: Durchführen Sie zwei oder mehr Teilnehmern Anrufe mit externen Benutzern
 
-## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
+## <a name="see-also"></a>Siehe auch
 <a name="Types"> </a>
 
 [Planen für Clients und Geräte](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)

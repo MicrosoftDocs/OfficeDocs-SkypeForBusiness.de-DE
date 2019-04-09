@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: Dieser Artikel behandelt die Liste der Telefone, die für Microsoft-Teams, und die Features, die in die Zertifizierung für Microsoft-Teams, Telefone unterstützt zertifiziert wurden.
-ms.openlocfilehash: 2a5ae7d996d2b89aae02e4104e762dfa916c9f55
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: a5ac86ee1eb5e6ae87c25f9a2151efb092635323
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747646"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517208"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefone für Microsoft Teams
 
@@ -78,7 +78,7 @@ Klickt ein Benutzer auf die Schaltfläche in Teams, wird Anmeldung über das Unt
 
 Nach der erfolgreichen Anmeldung kann der Benutzer wählen, ob das Gerät für die persönliche Verwendung oder in einem freigegebenen Konferenzraum verwendet werden.
 
-![Die freigegebenen Kontooption oder personl](media/personal-vs-shared-mode.jpg)
+![Die Option persönliche oder gemeinsam genutzte Konto](media/personal-vs-shared-mode.jpg)
 
 Die Teams Phone Experience wird basierend auf der Auswahl des Benutzers optimiert.
 

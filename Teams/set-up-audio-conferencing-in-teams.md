@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Informationen Sie zum Einrichten von einwählen oder Audiokonferenz für die Personen in Ihrem Unternehmen, die ein Telefon zum Teilnehmen an Telefonkonferenzen verwenden müssen. '
-ms.openlocfilehash: 30e79282f04c2d1b4dc7ff01673461b7a18254fd
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.openlocfilehash: 7ff24dd2b29eabbad46759471b69c3619e4e7b24
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955030"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517176"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Einrichten von Audiokonferenzen für Microsoft-Teams
 
@@ -74,7 +74,7 @@ Für Audiokonferenzen können Sie keine Benutzertelefonnummern verwenden; Sie m�
 
 Nachdem Sie Ihre gebührenpflichtige und/oder gebührenfreien Telefonnummern für Ihre Konferenzbrücke erhalten, müssen Sie die Zahlen zuweisen, damit sie für besprechungseinladungen verwendet werden können.  
 
-Befolgen Sie diese Stesps eine neue Rufnummer ein, um Ihre audiokonferenzbrücke zuzuweisen.
+Befolgen Sie diese Schritte, um eine neue Rufnummer Ihre audiokonferenzbrücke zuweisen.
 
 ![SFB-Logo-30x30.png](media/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter:**
 

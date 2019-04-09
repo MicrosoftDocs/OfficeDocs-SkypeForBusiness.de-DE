@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7cd8f5a2d0402418bb2a8c0e5a2c20bc95aeef68
-ms.sourcegitcommit: 2dd1369e5112b0c4ed7c6b0be8a17489b71f494a
+ms.openlocfilehash: 980bb0ad6602cc25df5743f1932fbc76092e7842
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30469746"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516823"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Schnellstarthandbuch: Konfigurieren von Anrufplänen in Microsoft Teams
 ==============================================================
@@ -37,22 +37,22 @@ Durch Hinzufügen von Anrufplänen – einer Office 365-Funktion, die von Skyp
 
 ![Anrufe in Microsoft Teams](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Voraussetzungen für das Aktivieren der Registerkarte **Anrufe** in Microsoft Teams
-Zum Aktivieren der Registerkarte **Anrufe** in Teams benötigen Benutzer 1:1 aktiviert werden, Teams aufrufen und Verwenden von Clientidentität Teams, die 1:1-Teams aufrufen unterstützt. Weitere Informationen zum Verwalten von 1:1 einwählen, Teams lesen Sie [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Um zu erfahren, welche Clients aufrufen unterstützen, lesen Sie [Grenzwerte und Spezifikationen für Microsoft-Teams](https://docs.microsoft.com/en-us/microsoftteams/limits-specifications-teams).
+Zum Aktivieren der Registerkarte **Anrufe** in Teams benötigen Benutzer 1:1 aktiviert werden, Teams aufrufen und Verwenden von Clientidentität Teams, die 1:1-Teams aufrufen unterstützt. Weitere Informationen zum Verwalten von 1:1 einwählen, Teams lesen Sie [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Um zu erfahren, welche Clients aufrufen unterstützen, lesen Sie [Grenzwerte und Spezifikationen für Microsoft-Teams](https://docs.microsoft.com/microsoftteams/limits-specifications-teams).
 
 > [!NOTE]
 > Derzeit wird Voicemail in der Registerkarte Anrufe nicht verfügbar, wenn der Benutzer für PSTN-Anrufe aktiviert ist. 
 
 ## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Voraussetzungen für das **Wähltastenfeld** im Teams aktivieren
-Zum Aktivieren der Registerkarte **Wähltastatur** in Teams und ermöglichen die Benutzer das tätigen und annehmen von PSTN-Anrufe müssen Sie die Bereitstellung von Benutzern für Telefonsystem und plant aufrufen. Zum Aufrufen von plant einrichten finden Sie unter [Einrichten von plant aufrufen](https://docs.microsoft.com/en-us/microsoftteams/set-up-calling-plans).
+Zum Aktivieren der Registerkarte **Wähltastatur** in Teams und ermöglichen die Benutzer das tätigen und annehmen von PSTN-Anrufe müssen Sie die Bereitstellung von Benutzern für Telefonsystem und plant aufrufen. Zum Aufrufen von plant einrichten finden Sie unter [Einrichten von plant aufrufen](https://docs.microsoft.com/microsoftteams/set-up-calling-plans).
 
 > [!NOTE]
-> Sie können auch direkten Routing zulassen, dass Ihre Benutzer zu Erf und PSTN-Anrufe empfangen. Weitere Informationen zum Einrichten der direkten Routing lesen Sie [Direkten Routing konfigurieren](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure).
+> Direktes Routing können auch Ihre Benutzerberechtigungen zum tätigen und annehmen von PSTN-Anrufe. Weitere Informationen zum Einrichten der direkten Routing lesen Sie [Direkten Routing konfigurieren](https://docs.microsoft.com/microsoftteams/direct-routing-configure).
 
 ## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>Verwenden von TeamsUpgradePolicy zum Steuerelement sorgt, in dem Anrufe
 Administratoren verwenden um zu steuern, ob eingehende Anrufe (und Chats) in Teams oder Skype für Unternehmen sorgt TeamsUpgradePolicy, verwenden entweder [Microsoft-Teams-Verwaltungskonsole](https://aka.ms/teamsadmincenter) oder mithilfe einer Windows PowerShell-Remotesitzung mit der [Skype für Business](https://docs.microsoft.com/powershell/module/skype) Cmdlets.
 
 
-Die Standardkonfiguration der TeamsUpgradePolicy ist Inseln-Modus, die entworfen wurde, um sicherzustellen, dass diese vorhandenen Business, Workflows nicht während der Bereitstellung Teams unterbrochen werden. VoIP-, PSTN- und Partneranrufe an Ihre Benutzer werden standardmäßig weiterhin an Skype for Business weitergeleitet, bis Sie die Richtlinie aktualisieren, um eingehende Anrufe in Microsoft Teams zu aktivieren.  Wenn Empfänger im Modus Inseln sind:
+Die Standardkonfiguration der TeamsUpgradePolicy ist Inseln-Modus, die entworfen wurde, um sicherzustellen, dass diese vorhandenen Business, Workflows nicht während der Bereitstellung Teams unterbrochen werden. Standardmäßig werden VoIP, PSTN und Verbundpartner Anrufe an Ihre Benutzer weiterhin an Skype für Unternehmen weitergeleitet werden, bis Sie die Richtlinie so aktivieren eingehenden Anrufe von Teams aktualisieren.  Wenn Empfänger im Modus Inseln sind:
 
  - Eingehende VOIP ruft diese originated in Skype für Unternehmen immer Flächen, die in der Aufgabenliste des Empfängers Skype für Business-Client.
  - Eingehende VOIP aufruft, die in Teams Land in Teams, *Wenn der Absender und Empfänger in derselben mandantenorganisation sind*stammt.
@@ -76,7 +76,7 @@ Um sicherzustellen, dass Benutzer in Teams alle eingehenden VoIP- und PSTN-Anruf
 
 [Anleitungen zur Migration und Interoperabilität für Organisationen, die Microsoft Teams zusammen mit Skype for Business verwenden](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-[Telefonsystem mit Anrufplänen](calling-plan-landing-page.md)
+[Telefonsystem mit dem Aufrufen der Pläne](calling-plan-landing-page.md)
 
-[PowerShell-Cmdlet-Referenz für Skype for Business](https://docs.microsoft.com/powershell/module/skype)
+[Skype für Referenz Business PowerShell-Cmdlets](https://docs.microsoft.com/powershell/module/skype)
 

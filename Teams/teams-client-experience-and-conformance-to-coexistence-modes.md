@@ -1,5 +1,5 @@
 ---
-title: Teams-Clienterfahrung und Konformität mit Koexistenzmodi
+title: Führt Kundenerfahrung und Konformität mit Koexistenzmodi zusammen
 author: dearbeen
 ms.author: bjwhalen
 manager: serdars
@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4865d66d4d3ff1257d0fc4bd355a65c7c1330101
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.openlocfilehash: 363da62c378a60cb85a9544339dbf7ccd699b7c0
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934788"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517079"
 ---
 <a name="about-upgrade-basic"></a>
 
-# <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams-Clienterfahrung und Konformität mit Koexistenzmodi
+# <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Führt Kundenerfahrung und Konformität mit Koexistenzmodi zusammen
 
 > [!NOTE]
 > Auf dieser Seite werden wichtige, kürzlich veröffentlichte Änderungen in das Verhalten des Teams-Clients beschrieben, wenn Benutzer in einer der der Skype für Business Modi (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) sind.
@@ -35,7 +35,7 @@ Der Zweck der Koexistenz Modi darin eine einfache und vorhersehbare Erfahrung f�
 Wenn ein Benutzer in einer der der Skype für Business Modi ist, werden alle eingehenden Chats und Anrufe an Skype für Business-Client des Benutzers weitergeleitet. Endbenutzer Verwechslungen und die Sicherstellung ordnungsgemäßes routing, ist Anruf- und Chat Funktionalität in der Teams-Client deaktiviert, wenn ein Benutzer in einer der der Skype für Business Modi ist. In ähnlicher Weise ist Besprechung planen in Teams explizit deaktiviert, wenn Benutzer in den SfBOnly oder SfBWithTeamsCollab Modi sind und explizit aktiviert, wenn ein Benutzer in den Modus SfBWithTeamsCollabAndMeetings ist.   
 
 ## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Die verfügbare Funktionalität in Teams Client wie ändert basierend auf Modus
-Die verfügbare Funktionalität in Teams Dependes auf die Benutzermodus Koexistenz von TeamsUpgradePolicy festgelegt wurde. In der folgenden Tabelle wird das Verhalten zusammengefasst:
+Die verfügbare Funktionalität in Teams hängt die Benutzermodus Koexistenz von TeamsUpgradePolicy festgelegt wurde. In der folgenden Tabelle wird das Verhalten zusammengefasst:
 
 |Eine effektive Benutzermodus|Erleben Sie die Teams-Client|
 |---|---|

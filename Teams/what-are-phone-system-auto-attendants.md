@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, was Telefonsystem automatischen Telefonzentralen sind und deren Verwendung.
-ms.openlocfilehash: 03eec73f8274ab9b5cbe67624b0ef1158d548a4a
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 1f5d54308836f0677db26e63003ab04c60ef395a
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31003867"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517255"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>Was sind automatische Telefonzentralen Telefonsystem?
 
@@ -76,7 +76,7 @@ Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von automatischen
 
 ### <a name="dial-by-name"></a>Namensanwahl
 
-Dial namentlich ist ein Feature von einer automatischen Telefonzentrale, die auch als Verzeichnissuche bezeichnet. Sie können die Personen, die die automatische Telefonzentrale Verwendung von VoIP (Spracherkennung) oder die Telefonnummer Tastatur (MFV) Antworten, geben einen vollständigen oder teilweisen Namen Unternehmensverzeichnis durchsuchen, suchen Sie die Person anrufen, und veranlassen Sie der Anruf weitergeleitet werden. Benutzer, die Sie verwenden möchten, befindet sich und mit Dial namentlich erreicht haben **ist nicht erforderlich, haben eine Telefonnummer oder ihnen zugewiesen haben plant aufrufen, aber benötigen sie eine Lizenz Telefonsystem**. Dial namentlich werden auch ermitteln und durchstellen von Anrufen an Microsoft-Teams, Benutzer, die in verschiedenen Ländern oder Regionen für multinationale Unternehmen gehostet werden.
+Dial namentlich ist ein Feature von einer automatischen Telefonzentrale, die auch als Verzeichnissuche bezeichnet. Sie können die Personen, die die automatische Telefonzentrale Verwendung von VoIP (Spracherkennung) oder die Telefonnummer Tastatur (MFV) Antworten, geben einen vollständigen oder teilweisen Namen Unternehmensverzeichnis durchsuchen, suchen Sie die Person anrufen, und veranlassen Sie der Anruf weitergeleitet werden. Benutzer, die Sie verwenden möchten, befindet sich und mit Dial namentlich erreicht haben **ist nicht erforderlich, haben Sie eine Rufnummer ein oder ihnen zugewiesen haben aufrufen plant, aber sie müssen eine Lizenz Telefonsystem aufweisen, wenn sie die online-Benutzer sind oder EV für Verbindungspfad Benutzer aktiviert**. Dial namentlich werden auch ermitteln und durchstellen von Anrufen an Microsoft-Teams, Benutzer, die in verschiedenen Ländern oder Regionen für multinationale Unternehmen gehostet werden.
 
 ### <a name="maximum-directory-size"></a>Maximale Verzeichnisgröße
 

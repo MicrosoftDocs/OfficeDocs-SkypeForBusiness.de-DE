@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: In diesem Artikel wird beschrieben, wie die Microsoft-Teams Räume-Konsole und zugehörigen Peripheriegeräte einrichten.
-ms.openlocfilehash: fc1d50ffe6dd7415848e02571eab1484bd3dfe22
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 9027057314d405788e81d4d27f9ce4e5d5649a48
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012613"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520155"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Konfigurieren einer Microsoft-Teams Räume-Konsole
 
@@ -51,8 +51,9 @@ Installieren der Microsoft-Teams Chatrooms Konsole-app erfordert ein USB-Speiche
 2. Führen Sie das Skript „CreateSrsMedia.ps1“ an einer Eingabeaufforderung mit erhöhten Rechten auf einem Windows 10-Computer aus.
 3. Führen Sie das Skript-Anweisungen, um eine Microsoft-Teams Chatrooms USB-Installationsdiskette erstellen.
 
-> [!CAUTION]
-> Der Name des Ordners, den Sie das Medium Erstellungsskript aus ausführen kann keine Leerzeichen enthalten. Das Skript schlägt fehl, wenn ein Leerzeichen in Ordnernamen vorhanden ist.
+
+> [!TIP]
+> Jedes Mal das Skript CreateSrsMedia.ps1 gestartet wird, wird die Bildschirmausgabe den Namen einer Protokolldatei oder Aufzeichnung für die Sitzung enthalten. Wenn Probleme beim Ausführen des Skripts vorhanden sind, stellen Sie sicher, dass eine Kopie dieses Protokoll verfügbar beim Anfordern von Unterstützung. 
 
 Das Skript CreateSrsMedia.ps1 automatisiert die folgenden Aufgaben:
 

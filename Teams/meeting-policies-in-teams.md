@@ -21,17 +21,17 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Informationen zum Verwalten von Richtlinieneinstellungen in Teams meeting.
-ms.openlocfilehash: dc2870786c586715164dde94fdd6795f04f567bc
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: a31f663a7714a0a5af09e6fddd9436e710582fa1
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747670"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517200"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
 ::: zone target="docs"
-Besprechungsrichtlinien werden verwendet, um die Steuerung der Features, die an die Teilnehmer bei Besprechungen, die von Benutzern in Ihrer Organisation geplant sind verfügbar sind. Nachdem Sie eine Richtlinie erstellen und Ihre Änderungen vornehmen, können Sie und Zuweisen der Richtlinie verwendet. 
+Besprechungsrichtlinien werden verwendet, um die Steuerung der Features, die an die Teilnehmer bei Besprechungen, die von Benutzern in Ihrer Organisation geplant sind verfügbar sind. Nachdem Sie eine Richtlinie erstellen und Ihre Änderungen vornehmen, können Sie die Richtlinie Benutzer zuweisen. 
 
 Standardmäßig wird eine Richtlinie mit dem Namen Global (Org geltende Standard) erstellt. Alle Benutzer in Ihrer Organisation werden standardmäßig diese besprechungsrichtlinie zugewiesen werden. Sie können entweder Änderungen an dieser Richtlinie vornehmen oder einen oder mehrere benutzerdefinierte Richtlinien erstellen und Benutzer zuweisen. Wenn Sie eine benutzerdefinierte Richtlinie erstellen, können Sie zulassen oder verhindern, dass bestimmte Features für die Benutzer verfügbar wird, und weisen Sie es an einen oder mehrere Benutzer die Einstellungen angewendet werden. 
 

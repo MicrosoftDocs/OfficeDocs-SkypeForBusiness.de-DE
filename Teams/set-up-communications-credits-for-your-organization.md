@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: afe1ce61a5c5f137b5123cb530094d6a651ecf7f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 48283d2c8ecaf121457197bf09ffb70afc59803b
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541784"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517071"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
@@ -76,6 +76,8 @@ Weitere Informationen finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](te
 
       > [!NOTE]
      > Das Guthaben wird nur zu den von Microsoft veröffentlichten Tarifen auf Guthaben für Kommunikationen angewendet, wenn die Dienste genutzt werden. Wenn ein Guthaben nicht innerhalb von 12 Monaten ab dem Kaufdatum aufgebraucht wird, verfällt es. 
+     > 
+     > Monatliche Abrechnung für Kommunikation haben nur angewendet, wenn der reservierte überschritten Fonds erfahren, wie überprüfen Sie die Nutzung von monatlichen, verwendet wurde, lesen Sie [Skype für Business PSTN-Verwendungsbericht](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
     
 5. Geben Sie Ihre Zahlungsinformationen ein, und klicken Sie auf **Bestellung aufgeben**.
     >[!IMPORTANT]
@@ -83,7 +85,7 @@ Weitere Informationen finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](te
     
 Each organization will have a different usage of Calling Plan volume and rates to consider. You will need to get this type of usage data from your current service provider. Organizations already using Skype for Business Online already as their service provider can get usage data by reviewing it in the **Skype for Business admin center** > **Reports** > **PSTN usage details** report.
   
-Wenn Sie Guthaben für Kommunikationen einrichten, müssen Sie die Anrufnutzung für Ihre Organisation prüfen, um die Beträge zu bestimmen, die Sie aufladen müssen. Informationen zur Anrufnutzung finden Sie im Bericht **PSTN-Nutzungsdetails**. Die Anrufdatensätze aus diesem Bericht können Sie nach Excel exportieren, wenn Sie die Daten speichern oder benutzerdefinierte Berichte erstellen möchten. Verwendung finden Sie unter [Skype für Business PSTN-Verwendungsbericht](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
+Wenn Sie Communications haben einrichten, müssen Sie untersuchen Anruf Verwendung für Ihre Organisation die Beträge bestimmen, die Sie benötigen. Informationen zur Anrufnutzung finden Sie im Bericht **PSTN-Nutzungsdetails**. In diesem Bericht können Sie die anrufdatensätze nach Excel exportieren, wenn Sie die Daten speichern oder benutzerdefinierte Berichte erstellen müssen. Lesen Sie, um weitere Informationen zum Verwendung finden Sie unter [Skype für Business PSTN-Verwendungsbericht](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Schritt 3: Zuweisen einer Lizenz für Guthaben für Kommunikationen für Benutzer
 
@@ -116,7 +118,7 @@ Eine Tabelle mit der Lizenz oder Lizenzen, die Sie für jedes Feature benötigen
 
 - [Einrichten von Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Einrichten von Voicemail für Telefonsystem - Administratorhilfe](set-up-phone-system-voicemail.md)
+- [Einrichten von Cloudvoicemail – Admin-Hilfe](set-up-phone-system-voicemail.md)
     
 - [Einrichten von Anrufplänen](set-up-calling-plans.md) und [Anrufpläne für Office 365](calling-plans-for-office-365.md)
     

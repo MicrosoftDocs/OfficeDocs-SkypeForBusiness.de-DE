@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d92e30617fb62000cd4b10dac29ec23eee1feaa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: cf48da12ddd1088c499f9d0703dc229d5b5df605
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882962"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516791"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
 
@@ -66,9 +66,6 @@ Um beide Netzwerksegmente zu testen, können Sie das [Tool zur Bewertung der Net
 
 ## <a name="bandwidth-requirements"></a>Erforderliche Bandbreite
 Microsoft-Teams, können Sie die beste Audio-, Video- und unabhängig von den netzwerkbedingungen Erfahrung von Inhalten. Mit den Variablen Codecs können Medien in Umgebungen mit minimaler Beeinträchtigung eingeschränkter Bandbreite ausgehandelt werden. Aber wo Bandbreite kein Belang ist, können Erfahrungen optimiert für die Qualität, videoauflösung 1080p, einschließlich von bis zu 30 f/s für Video und 15fps für Inhalte und Audio mit hoher Qualität.
-
-Dieser Artikel beschreibt eine präzise Version wie Bandbreite von Microsoft-Teams Echtzeit Audio-, Video- und Desktopfreigabe Modalitäten in verschiedene Anwendungsfälle genutzt wird. Teams ist immer auf bandbreitenauslastung konservativ und HD-Videoqualität in unter 1.2Mbps realisiert werden können.  Die tatsächlichen Bandbreitenverbrauch in einzelnen a/v-Anruf oder Besprechung, hängt Grundlage verschiedener Faktoren, wie video Layout, Auflösung und Videoframes pro Sekunde. Wenn mehr Bandbreite verfügbar ist werden die Qualität und Nutzung am besten zu erhöhen.
-
 
 [!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
 

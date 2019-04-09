@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Erfahren Sie mehr über das Verwalten von Ressourcenkonten in Microsoft-Teams
-ms.openlocfilehash: 345b3b8698f0c387f90b37cc1212c320a2d3d85d
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+ms.openlocfilehash: 055e419e5a82233676e5b66857589216b4dbca6d
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013645"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517232"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
@@ -61,9 +61,13 @@ Eine Telefonnummer ein, um ein Ressourcenkonto zuzuweisen, müssen Sie erhalten 
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Erstellen Sie ein Ressourcenkonto im Microsoft-Teams, Administrationscenter
 
-Navigieren Sie zum Erstellen einer Ressourcenkontos im Microsoft-Teams, Administrationscenter zu **Org geltende Settings** > **Ressourcenkonten**, klicken Sie auf **+ Hinzufügen**, und füllen Sie den Anzeigenamen, den Benutzernamen ein, und klicken Sie dann wählen Sie den Domänennamen aus und klicken Sie auf **Speichern**.
+Navigieren Sie zum Erstellen einer Ressourcenkontos im Microsoft-Teams, Administrationscenter zu **Org geltende Settings** > **Ressourcenkonten**, klicken Sie dann auf **+ Hinzufügen**. Im Popup füllen Sie den Anzeigenamen und Benutzernamen für das Ressourcenkonto (der Domänenname sollte automatisch aufgefüllt) klicken Sie dann auf **Speichern**.
 
-Um eine Lizenz für das Ressourcenkonto übernehmen möchten, navigieren Sie zur Registerkarte Benutzer O365 Admin Center.
+![Ressource-Konto](media/res-acct.png)
+
+Sie müssen auch das Ressourcenkonto eine Lizenz gilt gemäß [Zuweisen von Lizenzen für Benutzer in Office 365 für Unternehmen](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide)
+
+Sobald Sie das Ressourcenkonto erstellt und die Lizenz zugewiesen haben, klicken Sie auf **Zuweisen/Zuweisung entfernen** das Ressourcenkonto eine Telefonnummer zuweisen oder eine automatische Telefonzentrale oder ein Anruf-Warteschlange das Ressourcenkonto zugewiesen.
 
 ## <a name="create-a-resource-account-in-powershell"></a>Erstellen Sie ein Ressourcenkonto in Powershell
 
@@ -74,7 +78,7 @@ Je nachdem, ob Ihre Telefonnummer online oder lokal befindet müssen Sie in der 
 - Hybrid Implementierungen (Zahlen Zahlen verwaltet auf direktes Routing, OPCH und CCE) werden [Neu CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) verwenden, um ein Ressourcenkonto erstellen, die lokal verwaltet wird.  
 - Nur Online Implementierungen [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) verwendet, die ein Resource-Konto verfügen, die online verwaltet wird.
 
-Es folgt ein Beispiel für online-Umgebung ein Ressourcenkonto erstellen:
+Es folgt ein Beispiel für online-Umgebung mit einer automatischen Telefonzentrale ApplicationID Ressourcenkonto erstellen. Für eine Warteschlange Anruf können Sie die folgenden ApplicationID 11cd3e2e-Fccb-42ad-ad00-878b93575e07 verwenden:
 
 ``` Powershell
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
@@ -89,7 +93,7 @@ Weitere Informationen zu diesem Befehl finden Sie unter [New-CsOnlineApplication
 ``` Powershell
 Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
  -TelephoneNumber +14255550100
-Get-CsOnlineTelephoneNumber -TelephoneNumber 19294450177
+Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
 ```
 
 Die Telefon Zuweisung schlägt fehl, wenn Sie keine Lizenz beim Erstellen des Ressourcenkontos anwenden. 
