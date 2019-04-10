@@ -482,6 +482,7 @@
 #### [Argentinien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [Australien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 #### [Belarus (Weißrussland)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
+#### [Belgien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 #### [Belize](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
 #### [Bosnien und Herzegowina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
 #### [Brasilien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md)
@@ -634,8 +635,9 @@
 ## [Schichten für Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub soll eingestellt werden](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Features für Mitarbeiter in Service und Produktion in Kürze in Microsoft Teams verfügbar](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
+### [Installieren des Microsoft StaffHub PowerShell-Moduls](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
 ### [Verschieben Ihrer Microsoft StaffHub-Teams in Schichten in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Verwalten der Schichten-App für Ihre Organisation in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## [Teams für das Gesundheitswesen](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
 ### [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/teams-in-hc.md)
