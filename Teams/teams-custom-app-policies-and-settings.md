@@ -1,5 +1,5 @@
 ---
-title: Verwalten von benutzerdefinierten app-Richtlinien und Einstellungen in der Microsoft-Teams
+title: Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,16 +17,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Informationen Sie zum Verwalten von benutzerdefinierten app-Richtlinien und Einstellungen steuern, wer in Ihrer Organisation benutzerdefinierte apps im Microsoft-Teams hochladen können.
-ms.openlocfilehash: f914048c33bf611c53646d7d512c6af276209960
-ms.sourcegitcommit: 1337975398a750bc06d2b03a7d6eb61716dcefb0
+ms.openlocfilehash: 3cbd517cdfe8066eebff0164457c8e2e3aa37a5d
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "30677232"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749757"
 ---
-# <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Verwalten von benutzerdefinierten app-Richtlinien und Einstellungen in der Microsoft-Teams
+# <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
 
 Als Administrator können Sie benutzerdefinierte app-Richtlinien und Einstellungen steuern, wer in Ihrer Organisation benutzerdefinierte apps, die Microsoft-Teams hochladen können. Administratoren entscheiden, welche Benutzer benutzerdefinierte apps hochladen können, und Administratoren und Team Besitzer zu ermitteln, ob bestimmte Teams in Ihrer Organisation benutzerdefinierte apps hinzugefügt werden können.  
 
@@ -48,7 +48,7 @@ Diese Einstellungen wirken sich nicht auf die Möglichkeit zum Blockieren von Dr
 
 ### <a name="user-custom-app-policy"></a>Benutzerdefinierte app Benutzerrichtlinie
 
-Im Rahmen der [Richtlinien für die app Setup](teams-app-setup-policies.md)können Administratoren eine richtlinieneinstellung, die **Benutzer kann benutzerdefinierte apps hochladen**verwenden, um zu steuern, ob ein Benutzer kann benutzerdefinierte apps Teams hochladen.
+Im Rahmen der [Richtlinien für die app Setup](teams-app-setup-policies.md)können Administratoren richtlinieneinstellung **benutzerdefinierte apps Hochladen zulassen**, Kontrolle verwenden, ob ein Benutzer auf Teams benutzerdefinierte apps hochladen kann.
  
 Wenn diese Einstellung deaktiviert ist:
 
@@ -67,7 +67,7 @@ Sie können die Einstellungen zum Einschließen von apps, die Sie möchten in de
 
 1. Wechseln Sie im linken Navigationsbereich von Microsoft-Teams, Administrationscenter, **Teams**Apps > **Richtlinien einrichten**.
 2. Wählen Sie **neue Richtlinie**aus.
-3. Aktivieren Sie oder deaktivieren Sie die **Benutzer kann benutzerdefinierte apps hochladen**.
+3. Aktivieren Sie oder deaktivieren Sie der **benutzerdefinierten apps Hochladen zulassen**.
 4. Wählen Sie weitere Einstellungen, die Sie für die Richtlinie möchten.
 5. Klicken Sie auf **Speichern**.
 

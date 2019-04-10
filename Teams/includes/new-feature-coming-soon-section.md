@@ -1,0 +1,1 @@
+Dieses Feature wurde nicht noch zur Verfügung gestellt. Es ist bekannt gegeben und wird in Kürze verfügbar.Wenn Sie ein Administrator sind, können Sie feststellen, wenn dieses Feature in der Mitte der Nachricht (in der [Microsoft-365-Verwaltungskonsole](https://portal.office.com/adminportal/home)) freigegeben wird.

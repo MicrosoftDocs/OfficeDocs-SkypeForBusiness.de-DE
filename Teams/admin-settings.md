@@ -18,19 +18,17 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 034ac8eeb5529179013540b1911a7bbc34b49014
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.openlocfilehash: 1caac1d6d96b93f686e4eb0fe71e39248da30f11
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520148"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749669"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Administratoreinstellungen für Apps in Microsoft Teams
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
-
-> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
 
 Apps bereitstellen Out-of-Box-Tools für Ihre Organisation zu Teams optimal. Diese apps kombiniert die Funktionalität von Registerkarten, messaging-Erweiterungen, Connectors und Bots bereitgestellt von Microsoft, von einem Drittanbieter oder von Entwicklern in Ihrer Organisation erstellt.
 
@@ -38,7 +36,7 @@ Verwalten von apps für Ihre Organisation in **Teams apps** in der Verwaltungsko
 
 ## <a name="app-permission-policies"></a>Richtlinien für die App-Berechtigung
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-section.md)]
 
 Mit app-Berechtigungsrichtlinien können Sie blockieren oder Zulassen von apps, Org geltende oder für bestimmte Benutzer.  Wenn Sie eine app blockieren, alle Interaktionen mit dieser app sind deaktiviert, und die app wird nicht für Benutzer in Teams angezeigt.
 
@@ -52,7 +50,7 @@ Weitere Informationen finden Sie wechseln Sie zur [Verwalten app Berechtigungsri
 
 ## <a name="app-setup-policies"></a>Richtlinien für die App-setup
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Richtlinien für die App Setup können Sie die app-Benutzeroberfläche für Ihre Benutzer anpassen. Sie wählen den apps, die Sie auf der app-Leiste in den Clients Teams und der Reihenfolge, in der sie angezeigt, auf Webservern, Desktop- und mobilen Clients werden, anheften möchten.
 
@@ -64,7 +62,7 @@ Weitere Informationen finden Sie checken Sie [Setup Richtlinien für verwalten d
 
 ## <a name="custom-app-policies-and-settings"></a>Benutzerdefinierte app-Richtlinien und Einstellungen
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-section.md)]
 
 Teams können Entwickler in Ihrer Organisation zu erstellen, testen und Bereitstellen von benutzerdefinierten apps für andere Benutzer. Benutzerdefinierte apps können Teams durch ein app-Paket in einer ZIP-Datei hochladen, direkt zu einem Team oder im persönlichen Kontext hinzugefügt werden. Sie können app-Setup-Richtlinien zur Steuerung, die in Ihrer Organisation benutzerdefinierte apps hochladen können. Sie können auch festlegen, dass Org geltende Einstellungen steuern, ob Benutzer bestimmte benutzerdefinierte apps interagieren können.
 

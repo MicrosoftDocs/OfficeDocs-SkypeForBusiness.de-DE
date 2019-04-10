@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft ist den Exchange Unified Messaging (ExchUMO) Onlinedienst vom Februar 2020 abschließen. In diesem Artikel werden zusammengefasst, was betroffen Kunden kennen und tun, um für ihre Business Continuity planen sollten.
-ms.openlocfilehash: 2622b95e8bae7d5721665c5691c1c76691207e74
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: e318e6aac1e4c5ab2b9934fd655dc3112120f36b
+ms.sourcegitcommit: 38b501cedfe5fa4ab0126f58926fe2ce4f0cdd0c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026244"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31740933"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online  
 
@@ -66,7 +66,7 @@ Microsoft hat verschiedene Kunden Deployments identifiziert, die Features von Ex
 
 3. **Planen der automatischen Telefonzentrale-migration**
     
-    Administratoren können Migrieren ihrer automatischen Telefonzentralen von ExchUMO zu Cloud-Telefonzentrale können Sie jederzeit starten. Einzelheiten finden Sie unter [Einrichten von einer Telefonzentrale Telefonsystem](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) . Microsoft plant, um zusätzliche Funktionen, die automatische Telefonzentrale bereitzustellen, die Kunden für die Migration von März 2019 kritische berücksichtigen. Administratoren sollten Features überprüfen und ihre automatische Telefonzentrale-Instanzen entsprechend migrieren. Feature-Liste Vergleich finden Sie unter der [ExchUMO und Azure featurematrix in cloudbasierten Diensten](#exchumo-and-azure-cloud-based-services-feature-matrix).
+    Administratoren können Migrieren ihrer automatischen Telefonzentralen von ExchUMO zu Cloud-Telefonzentrale können Sie jederzeit starten. Einzelheiten finden Sie unter [Einrichten von einer Telefonzentrale Telefonsystem](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) . Microsoft plant, um zusätzliche Funktionen, die automatische Telefonzentrale bereitzustellen, die Kunden für die Migration von März 2019 kritische berücksichtigen. Administratoren sollten Features überprüfen und ihre automatische Telefonzentrale-Instanzen entsprechend migrieren. Feature-Liste Vergleich finden Sie unter der [ExchUMO und Azure featurematrix in cloudbasierten Diensten](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
 4. **Ihre Voicemail-Überprüfung nach der Migration planen und testen**
 
@@ -93,10 +93,10 @@ Microsoft hat verschiedene Kunden Deployments identifiziert, die Features von Ex
 
 
 
-| Dienst | Feature-Ebene | Funktion | Hinweise  | Cloud VM/AA  | ExUMO |
+| Dienst | Feature-Ebene | Feature | Hinweise  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
-| VM  | Service-Features| Unterstützung von Drittanbietern 3rd PBX    |  | N   | J    |
-| VM | Service-Features  | Unterstützt Skype für Business Server   |  | Q1CY19 | Y    |
+| VM  | Service-Features| Unterstützung von Drittanbietern 3rd PBX    | Benachrichtigen Sie einschließlich alle Features zur Verfügung gestellt, 3. Partei PBX wie MWI (Message Waiting Indicator) mithilfe von SIP-Nachrichten von Exchange UM Online | N   | J    |
+| VM | Service-Features  | Unterstützt Skype für Business Server   |  | J | Y    |
 | VM | Service-Features | Unterstützung von Microsoft-Teams|  | J | N    |
 | VM | Service-Features | eDiscovery und halten  | Für Sicherheit und compliance  | Y | Y    |
 | VM | Service-Features | Unterstützung für Exchange-Regeln | Für Sicherheit und compliance  | Y | Y    |
@@ -119,7 +119,7 @@ Microsoft hat verschiedene Kunden Deployments identifiziert, die Features von Ex
 | VM | Benutzerfeatures | Senden einer Sprachnachricht an eine Gruppe von Benutzern  |Voicemail-Übertragung   | N | J   |
 | VM | Benutzerfeatures | Voicemail-Benachrichtigung, die mit SMS    | Benutzer können eine SMS empfangen, wenn sie eine neue Voicemail sind    | N | J    |
 | VM | Benutzerfeatures | Ansage unterstützte Sprachen | Details finden Sie hier:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | J | Y    |
-| VM | Benutzerfeatures | Mailboxansageregeln |  | Q1CY19 | Y    |
+| VM | Benutzerfeatures | Mailboxansageregeln |  | J | Y    |
 | VM | Benutzerfeatures | Wiedergabe über Telefon (PSTN) – Nachricht wiedergeben | Anruf an mich auf Meine Zelle aus, um die Sprachnachricht anhören  | N | J    |
 | VM | Benutzerfeatures | Wiedergabe über Telefon (Auth) - Nachricht wiedergeben | Anruf an mich auf meinem Gerät authentifizierten  | J | Y    |
 | VM | Benutzerfeatures | Freigegebenes Postfach zwischen mehreren Benutzern |  | J | Y    |
@@ -128,13 +128,13 @@ Microsoft hat verschiedene Kunden Deployments identifiziert, die Features von Ex
 | VM | Anrufer-Features  | Erkennung von Hintergrundgeräuschen   |  | N | J    |
 | VM | Mandanten-Administrator-Features | Geschützte Voicemail auf Serverebene    | Mandanten-Administrator kann eine Regel Servicelevel, um eingehende Voicemail als geschützt zu markieren, konfigurieren. | J | Y    |
 | VM | Mandanten-Administrator-Features | Änderung Aufzeichnung Dauer zeitliche Begrenzung  | CVM Festplatte und auf 5 Minuten    | N | J    |
-| VM | Mandanten-Administrator-Features | Änderung Silence Erkennung timeout    |  | n/v    | Y    |
+| VM | Mandanten-Administrator-Features | Änderung Silence Erkennung timeout    |  | Nicht zutreffend    | Y    |
 | VM | Mandanten-Administrator-Features | Ändern Sie die Nummer des Fehlers input | CVM: hartcodierte 3 | N | J    |
 | VM | Mandanten-Administrator-Features | Ändern Sie die Standardsprache |  | J | Y    |
 | VM | Mandanten-Administrator-Features | Aktivieren Sie Lautschrift/deaktivieren |  | J | Y    |
 | VM | Mandanten-Administrator-Features | Aktivieren Sie Benachrichtigung über verpasste Anrufe/deaktivieren |  | N | J    |
 | VM | Mandanten-Administrator-Features | Voicemailvorschau Verbesserung der Microsoft-Hilfe    |  | Y | Y    |
-| VM | Mandanten-Administrator-Features | Anpassen der Textnachricht für aktivierte Benutzer|  | n/v    | Y    |
+| VM | Mandanten-Administrator-Features | Anpassen der Textnachricht für aktivierte Benutzer|  | Nicht zutreffend    | Y    |
 | VM | Mandanten-Administrator-Features | Lautschrift Gotteslästerung-Maskierung|  | J | N    |
 | VM | Mandanten-Administrator-Features | Voicemail-Richtlinie    |   | Y | Y    |
 | VM | Mandanten-Administrator-Features | Web-portalverwaltung   |  | CY19   | Y    |

@@ -19,16 +19,16 @@ search.appverid: MET150
 description: Informationen Sie zu Richtlinien für die app Setup in Microsoft-Teams und Nutzung zum Anpassen von Teams für Benutzer in Ihrer Organisation Pin apps.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: dc5800d6231245be1b562dbedef44608232f04c1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 7e4eaf604c075f8ab95cd40ec7588515c428360c
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517103"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749749"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Als Administrator können Sie Richtlinien für die app-Setup zum Anpassen von Microsoft-Teams, um apps zu markieren, die am besten für Ihre Benutzer wichtig sind. Sie wählen den apps zum Anheften und Festlegen der Reihenfolge, die sie angezeigt werden. Richtlinien für die App Setup können Sie apps, die Benutzer in Ihrer Organisation auch von Drittanbietern oder von Entwicklern in Ihrer Organisation erstellt müssen, präsentieren. Sie können auch Richtlinien für die app-Setup zum Verwalten von Features wie integrierter angezeigt werden.
 

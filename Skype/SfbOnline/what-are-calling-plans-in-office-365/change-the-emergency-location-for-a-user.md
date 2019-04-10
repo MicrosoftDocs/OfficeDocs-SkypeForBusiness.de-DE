@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Sie den Notfallort für Ihre Benutzer ändern können. Mit einer unbegrenzten Anzahl von Standorten können Sie Notfallorte ändern, wenn Mitarbeiter Stockwerke oder Gebäude wechseln. '
-ms.openlocfilehash: 79ba52d65dc87b36397d4d0a8df121ac1fec8262
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 9e583cf7882b5a269378dd69dbda37311ad08e28
+ms.sourcegitcommit: c40ebb4095fae861295c01af0a518375f32988e1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31516942"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31744280"
 ---
 # <a name="assign-or-change-the-emergency-location-for-a-user"></a>Zuweisen oder Ändern des Notfallstandorts für einen Benutzer
 
@@ -74,6 +74,8 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
 [Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+
+[Set-CsOnlineVoiceUser-cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
 
   
  
