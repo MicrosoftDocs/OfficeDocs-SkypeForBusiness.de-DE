@@ -15,12 +15,12 @@ description: Aufgaben und Aktivitäten für Teams Servicemanagement, einschließ
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbf0da1cab0f350b9abc7b01e6583e54a996c687
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 47628a52d91c3a9d0492accf9bcb8bce926f3649
+ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569479"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "31765181"
 ---
 # <a name="operate-my-service"></a>Verwenden des Diensts
 
@@ -440,7 +440,7 @@ Auch wenn Sie die vorherige Anleitung durchgeführt haben, können Benutzer in I
 
 4.  **Besuchen Sie die Microsoft-Teams, Community:** Der [Microsoft-Teams, Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) bietet dedizierte Leerzeichen für Teams. Der Community Teams bietet eine Diskussionsliste, Blogbeiträge und Teams zentraler Ankündigungen. Sie können eine Frage oder vorherige Diskussionen für Lösungen auf Ihr Problem suchen.
 
-5.  **Support von Microsoft:** Microsoft-Support erhalten Sie bei Problemen mit Teams online oder per Telefon. Informationen finden Sie unter [Unterstützung für Microsoft-Teams, Kontakt](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+5.  **Support von Microsoft:** Microsoft-Support erhalten Sie bei Problemen mit Teams online oder per Telefon. Informationen finden Sie unter [Kontakt für Business-Produkte zu unterstützen](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
     Für Premier Kunden Anforderungen initiiert werden können, durch Befolgen der Anleitung zur Unterstützung [Kontaktieren des Supports bei Microsoft-Teams (Premier Kunden)](https://support.microsoft.com/premier/contacts).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Täglich/wöchentlich/monatlich/bedarfsorientierte Aufgaben
@@ -465,7 +465,7 @@ Auch wenn Sie die vorherige Anleitung durchgeführt haben, können Benutzer in I
 
 [Überprüfen der Dienstintegrität für Microsoft Teams](service-health.md)
 
-[Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+[Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [Kontakt Premier support](https://support.microsoft.com/premier/contacts)
 
@@ -514,7 +514,7 @@ Zur Unterstützung der Benutzer eine Organisation eine beliebige Anzahl von Aufg
 
 Wie Ihre Organisation wächst oder verringert wird, ist es wichtig, Lizenzierung für aktuelle und zukünftige Anforderungen zu planen. Ist base Teams-Lizenz, zusätzlich zur Lizenzierung für Cloud-Sprachfunktionen ([Telefonsystem](here-s-what-you-get-with-phone-system.md) und [Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing)).
 
-Für Teams erfordern Telefonsystem Lizenzen Lizenzen [Aufrufen planen](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) . Plan Lizenzierung aufrufen, können Sie tätigen und Entgegennehmen von Anrufen nationalen und/oder internationale. Diese Pläne basieren auf verwendungs- und Minute Pools zugeordnet werden. Provisioning [Communications haben](what-are-communications-credits.md) , wird sichergestellt, dass Sie nie ausgeführt haben, nicht verfügbar ist.
+Für Teams erfordern Telefonsystem Lizenzen Lizenzen [Plant aufrufen](calling-plan-landing-page.md) . Plan Lizenzierung aufrufen, können Sie tätigen und Entgegennehmen von Anrufen nationalen und/oder internationale. Diese Pläne basieren auf verwendungs- und Minute Pools zugeordnet werden. Provisioning [Communications haben](what-are-communications-credits.md) , wird sichergestellt, dass Sie nie ausgeführt haben, nicht verfügbar ist.
 
 Audiokonferenzen kann für tolled einwahlkonferenzen und nationalen Dial-Out-Konferenz-Dienste. Gebührenfreie einwahlkonferenzen oder Ausland Dial-Out-Szenarien möglicherweise führen Sie für die [Kommunikation haben](what-are-communications-credits.md) zusätzliche Gebühren anfallen erforderlich sind.
 

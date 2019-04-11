@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50102058aa14d988ad92bf832609500e049d6174
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3524e28df5e24fa32655e694def1400db45c5953
+ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459620"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "31765205"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft")
 
@@ -38,7 +38,7 @@ Ihre Office 365-Mandanten-Admins, technische Leads und Helpdesk sind verantwortl
 Freigeben Sie die folgenden Ressourcen für Ihre IT-Mitarbeiter, und bestätigen Sie, dass sie die Unterstützung der Benutzer vor Beginn des Upgrades auf Teams bereit sind:
 
 - [Administratorschulung für Microsoft Teams](itadmin-readiness.md)
-- [Supportressourcen für Microsoft Teams](support-resources.md)
+- [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Behandeln von Konnektivitätsproblemen mit dem Microsoft Teams-Client](connectivity-issues.md)
 - [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](log-files.md)
 

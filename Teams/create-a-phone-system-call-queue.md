@@ -1,5 +1,5 @@
 ---
-title: Erstellen einer Warteschlange Anruf
+title: Erstellen einer Anrufwarteschlange
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -21,14 +21,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie eingerichtet Telefonsystem für Telefonsystem Anruf Warteschlangen, damit Sie eine Organisationseinheit Begrüßung Musik in der Warteschleife, und Umleiten von Anrufen Agents in Verteilerlisten und Sicherheitsgruppen aufrufen können. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: be8055dfe1d92caa7e3416740856ab2b6578e799
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: 1260f74deecefd93dcb9e8d99c4ea5063918a720
+ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026229"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31808062"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Erstellen einer Warteschlange für das Telefonsystem
+# <a name="create-a-phone-system-call-queue"></a>Erstellen einer Anrufwarteschleife für das Telefonsystem
 
 System-Telefonanruf Warteschlangen enthalten Ansage, die verwendet werden, wenn angerufen eine Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und für den nächsten verfügbaren Anruf-Agent zum Verarbeiten des Anrufs beim Personen die Möglichkeit zum Suchen, die Anruf Musik in der Warteschleife hören sind. Sie können einzelne oder mehrere Anruf Warteschlangen für Ihre Organisation erstellen.
   
@@ -60,9 +60,13 @@ Alle Anrufe, die in der Warteschlange werden mit einer der folgenden Methoden ve
 
 Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von Anrufwarteschleifen wichtig:
   
-- Eine automatische Telefonzentrale ist erforderlich, um ein Ressourcenkonto zugeordneten verfügen. Details auf Ressourcenkonten finden Sie unter [Manage Ressourcenkonten in Teams](manage-resource-accounts.md) .
+- Eine Warteschlange Anruf ist erforderlich, um ein Ressourcenkonto zugeordneten verfügen. Details auf Ressourcenkonten finden Sie unter [Manage Ressourcenkonten in Teams](manage-resource-accounts.md) .
 - Wenn Sie eine direkte Routing Number zuweisen möchten, müssen Sie erwerben und weisen Sie die folgenden Lizenzen der Ressourcenkonten \(Office 365 Enterprise E1, E3 oder E5, mit dem Telefonsystem Add-on\).
 - Wenn Sie stattdessen eine Microsoft-Dienst Zahl zuordnen möchten, müssen Sie erwerben und weisen Sie Ihr Ressourcenkonto folgenden Lizenzen \(Office 365 Enterprise E1, E3 oder E5, mit dem Telefonsystem Add-on und Aufrufen planen\).
+- Sie müssen nur die Ressourcenkonten mit einer Telefonnummer, die ihnen zugewiesenen lizenzieren. In einer geschachtelten automatische Telefonzentrale oder ein Anruf die Warteschlange müssen Sie nicht den Rest der automatischen Telefonzentralen lizenzieren, oder rufen Sie Warteschlangen aus, wenn keine ihnen zugeordnete Telefonnummern vorhanden sind. 
+
+> [!NOTE] 
+> Direkte Routing Service Zahlen für die automatische Telefonzentrale und Anruf Warteschlangen werden gegenwärtig nur für Microsoft-Teams, Benutzer und Agents unterstützt.
 
 > [!NOTE] 
 > Microsoft arbeitet eine entsprechende Lizenzierungsmodell für Anwendungen wie Cloud automatische Telefonzentrale und den Anruf-Warteschlangen für an jetzt Sie das Benutzerlizenzierung Objektmodell verwenden müssen.
