@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lesen Sie dieses Thema Weitere Informationen zu Exchange Konfigurieren von Konten für Microsoft-Teams Chatrooms und Skype für Unternehmen.
-ms.openlocfilehash: cbff055a80a156deab0446e5da08fa4fe9bb3808
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 7606f31dde96236111b4a44919427245fa32215d
+ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012891"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31828951"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Konfigurieren von Konten für Microsoft-Teams Räume
  
@@ -52,7 +52,7 @@ Jedes Gerät Konto ist für ein einzelnes Gerät Microsoft Teams Chatrooms einde
 - Ihre Infrastruktur muss konfiguriert werden, damit Microsoft Teams Chatrooms, um das Gerät Konto zu überprüfen und die entsprechenden Microsoft-Dienste zu erreichen können.
     
 > [!IMPORTANT]
-> Es wird dringend empfohlen, das Konto rechtzeitig vor der eigentlichen Hardwareinstallation zu erstellen. Im Idealfall beginnen Sie zwei bis drei Wochen vor der Installation mit der Kontovorbereitung. 
+> Es wird dringend empfohlen, das Konto rechtzeitig vor der eigentlichen Hardwareinstallation zu erstellen. Im Idealfall beginnen Sie zwei bis drei Wochen vor der Installation mit der Kontovorbereitung. In hybridumgebungen benötigen das Konto für den Microsoft-Teams Chatrooms Kennwort Sync AAD synchron aktiviert werden, da Microsoft Teams Chatrooms Authentifizierung 0ffice 365 Authentifizierung erforderlich ist.
   
 Von einem Gerät-Konto können als das Ressourcenkonto vorstellen, die Personen als einen des Raums oder eine Besprechung Konferenzraum des Kontos zu erkennen. Wenn Sie eine Besprechung in diesem Konferenzraum planen möchten, laden Sie das Konto zu dieser Besprechung ein. Um Microsoft Teams Chatrooms möglichst effektiv zu verwenden, führen Sie die gleiche mit dem Gerät-Konto, das jeweils zugeordnet ist.
   
@@ -88,5 +88,5 @@ Wenn Sie die Benutzeroberfläche von Office 365 über Windows PowerShell-Cmdlets
   
 [Konfigurieren einer Microsoft-Teams Räume-Konsole](console.md)
   
-[Verwalten von Microsoft-Teams, Räume](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Microsoft Teams Rooms verwalten](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

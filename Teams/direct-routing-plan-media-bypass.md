@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lesen Sie in diesem Thema erfahren, wie für die medienumgehung mit Phone System direktem Routing planen.
-ms.openlocfilehash: 308150121733f5f135d248404c663634ddaeea7c
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: b3a31e23ef065840d830c111c64e0618d90aa71b
+ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517247"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31827881"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -66,7 +66,7 @@ Wenn der Benutzer direkten Zugriff auf die öffentliche IP-Adresse die SBC hat, 
 
 Das folgende Diagramm zeigt die Anruffluss, wenn die medienumgehung aktiviert ist, ist ein interner Client und der Client die öffentliche IP-Adresse die SBC (direct Medien) erreichen kann: 
 
-- Die Pfeile und numerische Werte der Pfade sind gemäß den Microsoft-Teams Online-Anrufflüsse Dokument.
+- Die Pfeile und numerische Werte der Pfade sind gemäß den Artikel [Microsoft-Teams, rufen Sie fließt](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
 
 - Die SIP-Signale immer akzeptiert Pfade 4 und 4' (abhängig von der Richtung des Datenverkehrs). Medien bleibt lokalen und Pfad 5 b akzeptiert.
 
@@ -87,7 +87,7 @@ Nehmen wir beispielsweise an, der Benutzer ist externe und der mandantenadminist
 
 Das folgende Diagramm zeigt die Anruffluss, wenn die medienumgehung aktiviert ist, befindet sich außerhalb des Clients und der Client kann nicht die öffentliche IP-Adresse der Session Border Controller (Medien werden von Teams Transport Relay weitergeleitet) erreichen.
 
-- Die Pfeile und numerische Werte der Pfade sind gemäß den Microsoft-Teams Online-Anrufflüsse Dokument.
+- Die Pfeile und numerische Werte der Pfade sind gemäß den Artikel [Microsoft-Teams, rufen Sie fließt](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
 
 - Medien wird über Pfade 3, 3', 4 weitergeleitet und 4'
 
@@ -101,7 +101,7 @@ Das folgende Diagramm zeigt die Anruffluss, wenn die medienumgehung aktiviert is
 
 Das folgende Diagramm zeigt die Anruffluss, wenn die medienumgehung aktiviert ist, befindet sich außerhalb des Clients und der Client die öffentliche IP-Adresse die SBC (direct Medien) erreichen kann.
 
-- Die Pfeile und numerische Werte der Pfade sind gemäß den Microsoft-Teams Online-Anrufflüsse Dokument.
+- Die Pfeile und numerische Werte der Pfade sind gemäß den Artikel [Microsoft-Teams, rufen Sie fließt](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
 
 - Die SIP-Signale immer akzeptiert Pfade 3 und 3' (abhängig von der Richtung des Datenverkehrs). Media fließt Pfad 2 verwenden.
 
@@ -125,7 +125,7 @@ Die folgende Abbildung zeigt zwei anrufflüssen – eine Vorlage mit medienumgeh
 
 - Der SIP-Proxy ist eine Komponente, die HTTP REST Signale verwendet in Teams in SIP übersetzt.    
 
-![Zeigt zeigt zwei anrufflüssen – eine mit Medienumgehung aktiviert und deaktiviert die zweite mit Medienumgehung)](media/direct-routing-media-bypass-6.png)
+![Zeigt zwei anrufflüssen – eine mit Medienumgehung und die zweite mit Medienumgehung deaktiviert)](media/direct-routing-media-bypass-6.png)
 
 
 In der folgenden Tabelle werden die Unterschiede zwischen Media Prozessoren und Transport Relays zusammengefasst.
