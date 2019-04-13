@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Meeting-Migration Service (MMS) ist ein Dienst, der im Hintergrund ausgeführt, und Skype für Geschäfts- und Microsoft-Teams, Besprechungen für Benutzer automatisch aktualisiert. Mit MMS brauchen die Benutzer nicht mehr Meeting Migration Tool auszuführen, um ihre Skype for Business- und Microsoft Teams-Besprechungen zu aktualisieren.
-ms.openlocfilehash: e700725fc95957647bea8fe44d6a73a34bd16ab8
-ms.sourcegitcommit: 2d79898281258e123a86d9a0a2bc1211ee6b039e
+description: Meeting-Migration Service (MMS) ist ein Dienst, der im Hintergrund ausgeführt, und Skype für Geschäfts- und Microsoft-Teams, Besprechungen für Benutzer automatisch aktualisiert. MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
+ms.openlocfilehash: 90953f1352f54a8411513a78ccfda8bfb5356883
+ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28019576"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31836856"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Verwenden die Migration Besprechungsdienst (MMS)
 
@@ -41,7 +41,7 @@ Die Besprechung Migration Service (MMS) handelt es sich um Dienst, mit dem ein B
 Standardmäßig wird MMS automatisch in beiden Fällen ausgelöst, obwohl Administratoren auf der Ebene der Mandanten deaktiviert werden können. Darüber hinaus können Admins ein PowerShell-Cmdlets Sie Besprechung Migration für einen bestimmten Benutzer manuell auslösen.
 
 > [!NOTE]
-> Die Möglichkeit zum Konvertieren von Skype für Business Besprechungen zu Teams Besprechungen und die Möglichkeit zum Aktualisieren vorhandener Teams Besprechungen um Audiokonferenzen Einstellungen zu ändern ist derzeit auf nur Kunden TAP beschränkt.
+> Die Möglichkeit zum Konvertieren von Skype für Business Besprechungen zu Teams Besprechungen und die Möglichkeit zum Aktualisieren vorhandener Teams Besprechungen um Audiokonferenzen Einstellungen zu ändern ist derzeit auf nur Kunden TAP beschränkt. Microsoft erwartet, diese Funktionalität für alle Kunden im Mai 2019 verfügbar machen.
 
 **Nachteile**: die Besprechung migrationsdienst kann nicht verwendet werden, wenn Folgendes zutrifft:
 
@@ -113,7 +113,7 @@ Nicht alle Änderungen an den Audiokonferenzeinstellungen eines Benutzers lösen
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>Aktualisieren von Besprechungen beim Zuweisen der TeamsUpgradePolicy
 
 > [!NOTE]
-> Dieser Abschnitt beschreibt die Funktionen, die derzeit nur TAP-Kunden zur Verfügung steht.
+> Dieser Abschnitt beschreibt die Funktionen, die derzeit nur TAP-Kunden zur Verfügung steht. Microsoft erwartet, diese Funktionalität für alle Kunden im Mai 2019 verfügbar machen.
 
 In der Standardeinstellung meeting Migration wird automatisch ausgelöst werden, wenn ein Benutzer eine Instanz des erteilt wird `TeamsUpgradePolicy` mit `mode=TeamsOnly` oder `mode= SfBWithTeamsCollabAndMeetings`. Wenn Sie nicht möchten, um Besprechungen zu migrieren, wenn Sie eine der folgenden Modi erteilen, und geben Sie dann `MigrateMeetingsToTeams $false` in `Grant-CsTeamsUpgradePolicy`.
 
@@ -211,6 +211,6 @@ Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings 
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder Erwerben von Audiokonferenzen in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
 [Verschieben von Benutzern zwischen lokalen und cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
