@@ -101,6 +101,7 @@
 #### [Installieren von Teams mithilfe von MSI](msi-deployment.md).
 #### [Aktivieren von Teams in Ihrer Organisation](Office-365-set-up.md)
 #### [URLs und IP-Adressbereiche für Office 365](office-365-urls-ip-address-ranges.md)
+#### [Teams für Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)
 #### [Bereitstellen von Teams für Surface Hub](teams-surface-hub.md)
 
 ### Lizenzierung
@@ -144,7 +145,7 @@
 ### [Tutorial: Audiokonferenzen in Teams](Tutorial-Audio-Conferencing.yml)
 ### [Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Zeitraum für kostenlose ausgehende Anrufe für Audiokonferenzen](complimentary-dial-out-period.md)
-
+### [Vorteil „Ausgehende Anrufe/Rückruf unter“ von Audiokonferenzen-Abonnement](audio-conferencing-subscription-dial-out.md)
 
 ### [Einrichten von Audiokonferenzen für Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
@@ -547,7 +548,7 @@
 #### [Einrichten von Guthaben für Kommunikationen für Ihre Organisation](set-up-communications-credits-for-your-organization.md)
 #### [Hinzufügen von Geld und Verwalten von Guthaben für Kommunikationen](add-funds-and-manage-communications-credits.md)
 
-### [Microsoft Teams-Onlineanruf-Datenflüsse](microsoft-teams-online-call-flows.md)
+### [Microsoft Teams-Anrufflüsse](microsoft-teams-online-call-flows.md)
 
 ## Praktische Anleitung für große Organisationen
 ### [Tutorial: Anrufe in Microsoft Teams](Tutorial-calling-in-teams.yml)
@@ -702,7 +703,7 @@
 
 ## Problembehandlung und Support
 ### [Bekannte Probleme für Microsoft Teams](Known-issues.md)
-### [Supportressourcen für Microsoft Teams](support-resources.md)
+### [Supportressourcen für Microsoft Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Behandeln von Konnektivitätsproblemen mit dem Teams-Client](connectivity-issues.md)
 ### [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](log-files.md)
 ### [Überprüfen der Dienstintegrität für Teams](service-health.md)
