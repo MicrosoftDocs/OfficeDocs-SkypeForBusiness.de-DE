@@ -15,14 +15,14 @@ MS.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1f80ede0432c3666a1974b1e0c8d7fa3dc2bbfc
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 101deb10cf3d86dbc97116cad269556683d03be4
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408267"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869846"
 ---
-# <a name="set-qos-on-windows-clients"></a>Set-QoS auf Windows-clients
+# <a name="set-qos-on-windows-clients"></a>Festlegen von QoS auf Windows-Clients
 
 Sie können Richtlinienbasierte QoS innerhalb der Gruppenrichtlinien verwenden, um den Quellportbereich für den vordefinierten DSCP-Wert in der Teams Client festzulegen. Die Portbereiche in der folgenden Tabelle angegeben sind, als Ausgangspunkt zum Erstellen einer Richtlinie für jeden Workload.
 
@@ -37,7 +37,7 @@ Media-Datenverkehrstyp| Client-Quellportbereich |Protokoll|DSCP-Wert|DSCP-Klasse
 
 Konfigurieren Sie nach Möglichkeit, Richtlinienbasierte QoS-Einstellungen in ein Gruppenrichtlinienobjekt. Die folgenden Schritte sind sehr ähnlich [Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für die Skype für Business Server-Clients](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), die über einige zusätzliche Details verfügt, die möglicherweise nicht erforderlich.
 
-Zum Erstellen einer audio QoS-Richtlinie für Windows 10 Computer einstecken gehörenden zuerst melden Sie sich an einem Computer, auf dem die Gruppenrichtlinien-Verwaltungskonsole installiert wurde. Öffnen Sie die Gruppenrichtlinien-Verwaltungskonsole (klicken Sie auf Start, zeigen Sie auf Verwaltung, und klicken Sie dann auf die Gruppenrichtlinien-Verwaltungskonsole), und führen Sie dann die folgenden Schritte aus:
+Zum Erstellen einer audio QoS-Richtlinie für die Domäne eingebundener Windows 10 Computer zuerst melden Sie sich an einem Computer, auf dem die Gruppenrichtlinien-Verwaltungskonsole installiert wurde. Öffnen Sie die Gruppenrichtlinien-Verwaltungskonsole (klicken Sie auf Start, zeigen Sie auf Verwaltung, und klicken Sie dann auf die Gruppenrichtlinien-Verwaltungskonsole), und führen Sie dann die folgenden Schritte aus:
 
 1. Suchen Sie in der Gruppenrichtlinien-Verwaltungskonsole den Container, in dem die neue Richtlinie erstellt werden soll. Beispielsweise sollte alle Client-Computer in einer Organisationseinheit mit dem Namen **Clients**befinden, die neue Richtlinie in der Organisationseinheit Client erstellt werden.
 

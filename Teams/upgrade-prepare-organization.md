@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76367a02920500a8e329ff5a2fa984f922d763ca
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4bfbc65edac21c39a7135588d420c3515344d45d
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465044"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869822"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase] (media/upgrade-banner-user-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase")
 
@@ -36,7 +36,7 @@ Dieser Artikel ist Teil der User Readiness Stufe des Ihrem Upgrade Weg, eine Akt
 Um den Höchstwert von Teams nutzen zu können, Benutzer müssen tatsächlich verwenden, jedoch erhalten Benutzer die Möglichkeit zu ändern, an denen, die Sie arbeiten, nicht immer leicht. Zeit zum Verstehen Sie die Benutzer und Entwerfen der richtigen bereitschaftsplan helfen zu vereinfachen ändern und schnellere Umsetzung von Teams. Diese Aktivitäten sollten gleichzeitig mit Ihrer technische Bereitschaft zur Vorbereitung abgeschlossen werden:
 
 - [Bewerten der Bereitschaft ändern](https://aka.ms/OrgReadiness): hierzu gehören Kenntnisse, die Ihre Benutzer sind, wie die neue Technologie verwendet werden und wie einfach sie ändern anpassen. Dies ist auch die Möglichkeit, spezifische Benutzerprofile zu identifizieren, die von den Fokus besitzt Onboarding profitieren würden.
-- [Vorbereiten einer bereitschaftsplan Benutzer](https://aka.ms/UserReadinessPlan): bestehend aus zur Förderung des Bekanntheitsgrads, Schulung und Support-Aktivitäten, Ihre bereitschaftsplan sollte Ihre große Benutzerbasis berücksichtigen und zielorientierten Profile, wie im Artikel [Änderung Bereitschaft bewerten](https://aka.ms/OrgReadiness) identifiziert.
+- [Vorbereiten einer bereitschaftsplan Benutzer](https://aka.ms/UserReadinessPlan): bestehend aus zur Förderung des Bekanntheitsgrads, Schulung und Support-Aktivitäten, Ihre bereitschaftsplan sollte Adresse, die große Benutzerbasis und die gezielte Profile wie im Artikel [Änderung Bereitschaft bewerten](https://aka.ms/OrgReadiness) identifiziert.
 
 > [!Tip]
 > Laden Sie das [Upgrade Erfolg Kit](https://aka.ms/UpgradeSuccessKit) für Vorlage User Readiness Materialien wie Communications und den benutzerumfragen, zusätzlich zu einem Upgrade Beispielprojektplan und pilot Testplan.

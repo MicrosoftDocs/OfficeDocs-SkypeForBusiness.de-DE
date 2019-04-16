@@ -1,9 +1,9 @@
 ---
-title: Aufrufen von Gruppenrichtlinien in Microsoft-Teams
+title: Aufrufen von Richtlinien in der Microsoft-Teams
 author: LolaJacobsen
 ms.author: tonysmit
 manager: serdars
-ms.date: 04/12/2019
+ms.date: 04/15/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
@@ -17,14 +17,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c97fd5ff9228d0761f55f2f56b9a908cc3861c29
-ms.sourcegitcommit: 82490c2ef74900c348c14968b605a313b5bf3078
+ms.openlocfilehash: 20dc75dfeb39fbd7a00e6c389dc923617265cc0b
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2019
-ms.locfileid: "31860262"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869806"
 ---
-<a name="calling-policy-in-microsoft-teams"></a>Aufrufen von Gruppenrichtlinien in Microsoft-Teams
+<a name="calling-policies-in-microsoft-teams"></a>Aufrufen von Richtlinien in der Microsoft-Teams
 ==========================================
 
 In Microsoft-Teams Richtlinien-Steuerelements aufrufen, denen der Aufruf und Features für die anrufweiterleitung für Benutzer verfügbar sind. Aufrufen von Standortrichtlinien wird bestimmt, ob ein Benutzer private aufgerufen werden kann, verwenden Sie die anrufweiterleitung oder Gleichzeitiges Klingeln an andere Benutzer oder externe Telefonnummern, Weiterleitung von Anrufen an Voicemail, senden Anrufe an Gruppen aufrufen Delegierung für eingehende und ausgehende Anrufe, und so weiter. Eine globale Standardrichtlinie wird automatisch erstellt, aber Administratoren können auch benutzerdefinierte aufrufende Richtlinien zuweisen.
@@ -41,6 +41,14 @@ In Microsoft-Teams Richtlinien-Steuerelements aufrufen, denen der Aufruf und Fea
 |Erlaubt die Delegierung für eingehende und ausgehende Anrufe | Ermöglicht die eingehende Anrufe an die Stellvertretungen weitergeleitet werden sollen; ermöglicht die Stellvertretungen zu ausgehenden Anrufe im Namen der Benutzer, für den sie Berechtigungen delegiert wurden. |
 |Verhindern, dass Gebühren umgehen und senden Sie Anrufe über das Telefonfestnetz | Durch Festlegen dieser auf **aktiviert** wird, sendet Anrufe über PSTN und Gebühren für statt über das Netzwerk laufen und umgeht die Gebühren anfallen. |
 |Beschäftigt auf beschäftigt ist während eines Anrufs verfügbar.| Konfiguriert, wie eingehende Anrufe verarbeitet werden, wenn ein Benutzer bereits in einem Anruf oder einer Konferenz ist. Neue oder eingehende Anrufe können mit einer Besetztzeichen abgelehnt werden. |
+
+### <a name="busy-options-busy-on-busy-setting"></a>Gebucht-Optionen (beschäftigt auf beschäftigt Einstellung)
+
+Halten Sie eine neue Einstellung in Teams aufrufende Richtlinien, die Sie Konfigurieren eingehender Anrufe können behandelt werden, wenn ein Benutzer bereits eines Anrufs oder einer Konferenz oder auf ein Anruf platziert wird beschäftigt Optionen angezeigt. Neue oder eingehende Anrufe können mit einer Besetztzeichen abgelehnt werden. Sie können auf einer Ebene Mandanten oder auf der Benutzerebene beschäftigt Optionen aktivieren. 
+
+Unabhängig davon, wie ihre beschäftigt Optionen konfiguriert werden sind Benutzer in einen Anruf oder Konferenz oder die durch einen Anruf in der Warteschleife nicht verhindert neue anrufen oder Konferenzen initiieren.
+
+Die beschäftigt können auf beschäftigt Einstellung in den Aufruf von Richtlinieneinstellungen Sie stark ausgelastet Optionen konfigurieren. Diese Einstellung ist standardmäßig deaktiviert.
 
 ## <a name="create-a-custom-calling-policy"></a>Erstellen Sie eine benutzerdefinierte Richtlinie an aufrufende
 
