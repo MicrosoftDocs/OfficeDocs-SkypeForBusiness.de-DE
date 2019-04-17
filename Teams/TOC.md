@@ -61,6 +61,7 @@
 ### [Verwalten von Microsoft Teams-Funktionen in Ihrer Organisation](enable-features-office-365.md)
 ### [Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 ### [Verwalten von Teams im Admin Center für Microsoft Teams](manage-teams-in-modern-portal.md)
+### [Verwalten der kostenlosen Version von Teams](manage-freemium.md)
 ### [Zuweisen von Teambesitzern und -mitgliedern in Teams](assign-roles-permissions.md)
 ### [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Kommunizieren mit Microsoft Teams-Benutzern in anderen Organisationen](let-your-teams-users-communicate-with-other-people.md)
@@ -325,6 +326,7 @@
 #### [Direktes Beantworten von Anrufen aus der automatischen Telefonzentrale und der Anrufwarteschleife aus Teams](answer-auto-attendant-and-call-queue-calls.md)
 ### [Parken von Anrufen und Holen](call-park-and-retrieve.md)
 ### [Freigeben von Anrufen und Gruppenanrufannahme](call-sharing-and-group-call-pickup.md)
+### [Anrufrichtlinie](teams-calling-policy.md)
 ### [Funktion "Gemeinsame Leitungen"](shared-line-appearance.md)
 
 ## [Anrufpläne](calling-plan-landing-page.md)
