@@ -1,10 +1,10 @@
 ---
-title: Was sind automatische Telefonzentralen Telefonsystem?
+title: Was sind automatische Telefonzentralen Cloud?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
-ms.date: 9/1/2018
+ms.date: 4/2/2019
 ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
@@ -21,23 +21,23 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
-description: Hier erfahren Sie, was Telefonsystem automatischen Telefonzentralen sind und deren Verwendung.
-ms.openlocfilehash: 46828acc60f6960416f8aeb18452da0ae5e31e68
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+description: Enthält Informationen zu Cloud-Telefonzentralen und deren Verwendung.
+ms.openlocfilehash: 1d9c72817b865b323b9d018710c9201b51bb56a3
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808086"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914628"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>Was sind automatische Telefonzentralen Telefonsystem?
+# <a name="what-are-cloud-auto-attendants"></a>Was sind automatische Telefonzentralen Cloud?
 
 Telefonsystem in Office 365 bietet automatische Telefonzentralen, die verwendet werden kann, um zu externen lassen und interne Anrufer über ein Menüsystem platzieren, und durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in Ihrer Organisation verschieben.
   
 Eine automatische Telefonzentrale ist eine Reihe von Ansagen oder audio-Dateien, die anstelle einer human Operator Anrufer hören, wenn sie eine Organisation anrufen. Beim Aufruf von Personen einer Zahl, die eine automatische Telefonzentrale zugeordnet können ihre Optionen leiten den Anruf an einen Benutzer oder Suchen nach einer Person in Ihrer Organisation und dem betreffenden Benutzer verbinden. Sie können ihre Auswahl express und interagieren mit dem Menüsystem mithilfe eines Telefontastatur (MFV) oder die Spracherkennung.
   
-Um eine automatische Telefonzentrale für das Telefonsystem in Office 365 einzurichten, gehen Sie [Richten Sie eine automatische Telefonzentrale Telefonsystem](create-a-phone-system-auto-attendant.md).
+Um eine automatische Telefonzentrale für das Telefonsystem in Office 365 einzurichten, gehen Sie zu [einer Cloud-Telefonzentrale einrichten](create-a-phone-system-auto-attendant.md).
   
-Eine automatische Telefonzentrale Telefonsystem weist die folgenden Features:
+Eine Cloud-Telefonzentrale bietet Folgendes:
   
 - Sie kann Unternehmensbegrüßungen oder informative Begrüßungen bereitstellen.
 - Sie kann benutzerdefinierte Unternehmensmenüs bereitstellen. Diese Menüs können Sie so anpassen, dass sie aus mehreren Ebenen bestehen.
@@ -199,7 +199,7 @@ Der Operator kann festgelegt werden:
 - Ein Microsoft-Teams, Benutzer oder eine Skype für Unternehmen auf lokale Benutzer, die Enterprise-VoIP aktiviert ist.
   
 - Eine andere für Ihre Organisation eingerichtete automatische Telefonzentrale
-- Eine beliebige in Ihrer Organisation eingerichtete Anrufwarteschleife. Weitere Informationen zum Anruf Warteschlangen finden Sie unter [Erstellen einer Telefonsystem Anruf Warteschleife](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- Eine beliebige in Ihrer Organisation eingerichtete Anrufwarteschleife. Weitere Informationen zum Anruf Warteschlangen finden Sie unter [Erstellen einer Cloud-Anruf-Warteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 ### <a name="business-hours-and-call-handling"></a>Geschäftszeiten und Anrufbehandlung
 
@@ -212,14 +212,14 @@ Jede automatische Telefonzentrale hat Anrufbehandlung Optionen, die festgelegt w
   - Umleiten des Anrufs an einen Microsoft-Teams, Benutzer, der über eine Lizenz **Telefonsystem** verfügt, die Enterprise-VoIP aktiviert ist, oder sie zugewiesen wurde plant aufrufen. Sie können einrichten, dass Anrufer an die Voicemail gesendet werden. Dazu wählen Sie eine **Person in Ihrem Unternehmen** aus, deren Anrufe dann automatisch direkt an die Voicemail weitergeleitet werden.
 
   
-  - Umleiten des Anrufs an eine Warteschleife Anruf. Weitere Informationen zum Anruf Warteschlangen finden Sie unter [Erstellen einer Telefonsystem Anruf Warteschleife](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+  - Umleiten des Anrufs an eine Warteschleife Anruf. Weitere Informationen zum Anruf Warteschlangen finden Sie unter [Erstellen einer Cloud-Anruf-Warteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
   - Leiten Sie den Anruf an eine andere automatische Telefonzentrale, die Sie eingerichtet haben.
 - Menüoptionen erstellen und eine Menüansage für die Anrufer wiedergeben. Beispiel: „Drücken Sie ‚1' für den Vertrieb oder ‚2' für den Service. Durch Drücken von ‚0' können Sie jederzeit mit der Vermittlung sprechen."
 
 ### <a name="menu-options"></a>Menüoptionen
 
-System-Telefonzentralen Phone können Sie Menüansagen ("drücken Sie 1 für den Vertrieb, 2 für Dienste drücken") erstellen und Einrichten von Menüoptionen für das Anrufrouting basierend auf der Auswahl des Benutzers. Durch Einrichten von Menüoptionen für eine automatische Telefonzentrale können Organisationen die Anrufer interaktiv schneller an ihr Ziel führen, ohne dass dazu Vermittlungsmitarbeiter für die Abwicklung der eingehenden Anrufe benötigt werden. Menüansagen können erstellt werden, mithilfe der Sprachausgabe (vom System generierte Ansagen) oder durch Hochladen einer Audiodatei, die aufgezeichnet wurden. Bei der Spracherkennung werden Sprachbefehle für Freisprechnavigation verwendet, aber die Anrufer können auch mithilfe der Wähltastatur eines Telefons in den Menüs navigieren.
+Cloud-Telefonzentralen können Sie Menüansagen ("drücken Sie 1 für den Vertrieb, 2 für Dienste drücken") erstellen und Einrichten von Menüoptionen für das Anrufrouting basierend auf der Auswahl des Benutzers. Durch Einrichten von Menüoptionen für eine automatische Telefonzentrale können Organisationen die Anrufer interaktiv schneller an ihr Ziel führen, ohne dass dazu Vermittlungsmitarbeiter für die Abwicklung der eingehenden Anrufe benötigt werden. Menüansagen können erstellt werden, mithilfe der Sprachausgabe (vom System generierte Ansagen) oder durch Hochladen einer Audiodatei, die aufgezeichnet wurden. Bei der Spracherkennung werden Sprachbefehle für Freisprechnavigation verwendet, aber die Anrufer können auch mithilfe der Wähltastatur eines Telefons in den Menüs navigieren.
   
 Tasten 0 bis 9 können in eine automatische Telefonzentrale mit der Skype für Business Administrationscenter **Menüoptionen** zugewiesen werden. Verschiedene Sätze von Menüoptionen können erstellt werden, für die Geschäftszeiten und außerhalb der Geschäftszeiten, und Sie aktivieren oder deaktivieren Sie namentlich in den **Optionen im Menü**wählen können. Schlüssel können zum Weiterleiten der Anrufe für zugeordnet werden:
   
@@ -230,7 +230,7 @@ Tasten 0 bis 9 können in eine automatische Telefonzentrale mit der Skype für B
   
 Der Name des jede Menüoption wird ein Spracherkennung Schlüsselwort, wenn die Spracherkennung aktiviert wurde. Beispielsweise können Anrufer sagen Sie "1", um die Menüoption, Schlüssel 1 zugeordnet sind, wählen oder sie können einfach sagen "Sales", um die gleichen Menüoption mit dem Namen "Sales".
   
-Um eine automatische Telefonzentrale und den Menüoptionen einzurichten, gehen Sie [Richten Sie eine automatische Telefonzentrale Telefonsystem](create-a-phone-system-auto-attendant.md).
+Um eine automatische Telefonzentrale und die Menüoptionen im einzurichten, gehen Sie [Richten Sie eine Cloud-Telefonzentrale](create-a-phone-system-auto-attendant.md).
   
 ### <a name="assigning-phone-numbers-for-an-auto-attendant"></a>Zuweisen von Rufnummern für eine automatische Telefonzentrale
 

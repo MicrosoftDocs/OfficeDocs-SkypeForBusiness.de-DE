@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Hier erfahren Sie, wie eingerichtet Telefonsystem für Telefonsystem Anruf Warteschlangen, damit Sie eine Organisationseinheit Begrüßung Musik in der Warteschleife, und Umleiten von Anrufen Agents in Verteilerlisten und Sicherheitsgruppen aufrufen können. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 1260f74deecefd93dcb9e8d99c4ea5063918a720
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+description: Hier erfahren Sie, wie eingerichtet Telefonsystem für Cloud Anruf Warteschlangen, Ihnen eine Organisationseinheit Begrüßung Musik in der Warteschleife, und Umleiten von Anrufen Agents in Verteilerlisten und Sicherheitsgruppen aufrufen zu erteilen. You can also set the maximum queue size, time out, and call handling options.
+ms.openlocfilehash: da178761658460812bc1d0330f3540be43c3e6e6
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808062"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914644"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Erstellen einer Anrufwarteschleife für das Telefonsystem
+# <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloud-Anruf-Warteschlange
 
-System-Telefonanruf Warteschlangen enthalten Ansage, die verwendet werden, wenn angerufen eine Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und für den nächsten verfügbaren Anruf-Agent zum Verarbeiten des Anrufs beim Personen die Möglichkeit zum Suchen, die Anruf Musik in der Warteschleife hören sind. Sie können einzelne oder mehrere Anruf Warteschlangen für Ihre Organisation erstellen.
+Cloud Anruf Warteschlangen enthalten Ansage, die verwendet werden, wenn jemand anruft eine angegebene Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und die Möglichkeit, suchen Sie für den nächsten verfügbaren Anruf-Agent den Anruf beim Menschen Anruf behandeln Anhören von Musik in der Warteschleife. Sie können einzelne oder mehrere Anruf Warteschlangen für Ihre Organisation erstellen.
   
-Telefonsystem-Anrufwarteschleifen bieten:
+Cloud Anruf Warteschlangen bieten:
   
 - Eine Begrüßung der Organisation
 - Musik, während die wartenden Anrufer gehalten werden
@@ -76,12 +76,12 @@ Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von Anrufwartesch
   
 - Weitere Informationen zu Office 365 aufrufen plant, finden Sie unter [Telefonsystem und plant aufrufen](calling-plan-landing-page.md) und [Für Office 365-Pläne aufrufen](calling-plans-for-office-365.md).
 
-- Sie können nur zuweisen gebührenpflichtige oder gebührenfreie Service Telefonnummern, die Sie haben Sie in der **Microsoft-Teams, Administrationscenter** oder aus einem anderen Dienstanbieter in Telefonsystem Anruf Warteschlangen übertragen. Um gebührenfreie Servicenummern zu erhalten müssen Sie Communication Credits einrichten.
+- Sie können nur zuweisen gebührenpflichtige oder gebührenfreie Service Telefonnummern, die Sie haben Sie in der **Microsoft-Teams, Administrationscenter** oder aus einem anderen Dienstanbieter in der Cloud Anruf Warteschlangen übertragen. Um gebührenfreie Servicenummern zu erhalten müssen Sie Communication Credits einrichten.
 
     > [!NOTE]
     > Telefonnummern von Benutzern (Abonnenten) können Anrufwarteschleifen nicht zugewiesen werden - es können nur gebührenpflichtige oder gebührenfreie Telefonnummern verwendet werden.
   
-- Wenn Sie eingehende Anrufe von einer Telefonsystem Anruf Warteschlange verteilen, werden diese Clients für Call-Agenten unterstützt:
+- Wenn Sie eingehende Anrufe aus einer Cloud-Anruf-Warteschlange verteilen, werden diese Clients für Call-Agenten unterstützt:
 
   - Desktopclient von Skype for Business 2016 (32- und 64-Bit-Version)
 

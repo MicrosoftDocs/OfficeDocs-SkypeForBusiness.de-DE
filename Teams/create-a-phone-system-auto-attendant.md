@@ -1,5 +1,5 @@
 ---
-title: Einrichten einer automatischen Telefonzentrale des Telefonsystems
+title: Richten Sie eine Cloud-Telefonzentrale
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Informationen Sie zum Einrichten und Testen von Telefonsystem (Cloud, PBX) automatische Telefonzentralen für effiziente Anruf Behandeln von für Ihre Organisation.
-ms.openlocfilehash: 32fbf066524ec73b6cfa683a493dc93c58932d7c
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+description: Informationen Sie zum Einrichten und Testen von Cloud-Telefonzentralen für effiziente Anruf Behandeln von für Ihre Organisation.
+ms.openlocfilehash: 8ab3dd318e8ae4c815a78dcc8f7430b2b6d08b04
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013653"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914670"
 ---
-# <a name="set-up-a-phone-system-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale des Telefonsystems
+# <a name="set-up-a-cloud-auto-attendant"></a>Richten Sie eine Cloud-Telefonzentrale
 
 Automatische Telefonzentralen ermöglichen es Personen, die in Ihrer Organisation anrufen, über ein Menüsystem zur richtigen Abteilung, Warteschlange, Person oder dem Telefonisten zu gelangen. Sie können für Ihre Organisation eine automatische Telefonzentrale erstellen, mit dem Microsoft-Teams, Administrationscenter. Zum Erstellen einer neuen automatischen Telefonzentrale, wechseln im linken Navigationsbereich zu **VoIP** , und wählen Sie **automatische Telefonzentralen** > **Hinzufügen**.
 
-Wenn Sie weitere Informationen zu automatischen Telefonzentralen finden möchten, finden Sie unter [Was Telefonsystem automatischen Telefonzentralen sind?](/microsoftteams/what-are-phone-system-auto-attendants)
+Wenn Sie weitere Informationen zu automatischen Telefonzentralen finden möchten, finden Sie unter [Was Cloud-Telefonzentralen sind?](/microsoftteams/what-are-phone-system-auto-attendants)
 
 > [!NOTE]
 > Dieser Artikel bezieht sich auf Microsoft-Teams und Skype für Business Online.
@@ -57,7 +57,7 @@ Wenn Sie weitere Informationen zu automatischen Telefonzentralen finden möchten
 ## <a name="step-2---create-a-new-auto-attendant"></a>Schritt 2 - Erstellen einer neuen automatischen Telefonzentrale
 
 > [!IMPORTANT]
-> Jeder Anruf Warteschlange ist erforderlich, um einer zugeordneten [Ressource-Konto](manage-resource-accounts.md)haben. Sie müssen das Ressourcenkonto erstellen und dann können Sie es an die automatische Telefonzentrale zuordnen.
+> Jede automatische Telefonzentrale ist erforderlich, um einer zugeordneten [Ressource-Konto](manage-resource-accounts.md)haben. Sie müssen das Ressourcenkonto erstellen und dann können Sie es an die automatische Telefonzentrale zuordnen.
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden das Microsoft-Teams, Administrationscenter
 
@@ -77,7 +77,7 @@ In der **Microsoft-Teams, Administrationscenter**, klicken Sie auf **VoIP** > **
 
 ![Nummer 2](media/sfbcallout2.png)
 
-**Ressource-Konto** Klicken Sie auf diese Schaltfläche, um eine oder mehrere Ressourcenkonten für Ihre neue automatische Telefonzentrale die Verbindung auswählen. Alle automatischen Telefonzentralen sind erforderlich, um über ein Ressourcenkonto zugeordneten verfügen. Ein Ressourcenkonto kann eine Telefonnummer ein, das Konto zugeordnet ist, aber möglicherweise nicht. Eine automatische Telefonzentrale auf oberster Ebene würde fast immer würde ein Ressourcenkonto mit einer zugewiesene Telefonnummer, eine sekundären Telefonzentrale (als Ebene 2 Menü die erste Ebene Telefonzentrale für die Verbindung mit verwendet) möglicherweise auf einfache Weise müssen jedoch nicht zugewiesene eine Telefonnummer seine Ressource-Konto
+**Ressource-Konto** Klicken Sie auf diese Schaltfläche, um eine oder mehrere Ressourcenkonten für Ihre neue automatische Telefonzentrale die Verbindung auswählen. Alle automatischen Telefonzentralen sind erforderlich, um über ein Ressourcenkonto zugeordneten verfügen. Ein Ressourcenkonto kann eine Telefonnummer ein, das Konto zugeordnet ist, aber möglicherweise nicht. Eine automatische Telefonzentrale der obersten Ebene haben in der Regel ein Ressourcenkonto mit einer zugewiesene Telefonnummer, aber geschachtelte-Telefonzentrale (als Ebene 2 Menü die erste Ebene Telefonzentrale für die Verbindung mit verwendet) verfügen nicht über eine Telefonnummer ein, dessen Ressourcenkonto zugewiesen ist.
 
 * * *
 
@@ -329,23 +329,23 @@ Sie können auch Windows PowerShell verwenden, um automatische Telefonzentralen 
 
 Zum Verwalten einer automatischen Telefonzentrale benötigen Sie die folgenden Cmdlets.
 
-- [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csOrganizationalautoattendant?view=skype-ps)  
-- [Set-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csOrganizationalautoattendant?view=skype-ps) 
-- [Get-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csOrganizationalautoattendant?view=skype-ps) 
-- [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csOrganizationalautoattendantholidays?view=skype-ps) 
-- [Remove-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csOrganizationalautoattendant?view=skype-ps) 
-- [New-CsOrganizationalAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csOrganizationalautoattendantmenu?view=skype-ps) 
-- [Neue CsOrganizationalOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
-- [New-CsOrganizationalAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsOrganizationalAutoAttendantCallFlow?view=skype-ps) 
-- [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsOrganizationalAutoAttendantHolidays?view=skype-ps) 
+- [Neue CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
+- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps) 
+- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csattendant?view=skype-ps) 
+- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps) 
+- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps) 
+- [Neue CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps) 
+- [Neue CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
+- [Neue CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps) 
+- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps) 
 - [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps) 
 - [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) 
 - [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps) 
-- [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsOrganizationalAutoAttendantSupportedTimeZone?view=skype-ps)
-- [New-CsOrganizationalAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsOrganizationalAutoAttendantCallHandlingAssociation?view=skype-ps)
-- [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsOrganizationalAutoAttendantSupportedLanguage?view=skype-ps)
-- [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csOrganizationalautoattendantholidays?view=skype-ps) 
-- [New-CsOrganizationalAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
+- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
+- [Neue CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
+- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
+- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps) 
+- [Neue CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
 
 ### <a name="more-about-windows-powershell"></a>Weitere Informationen zu Windows PowerShell
 
@@ -371,6 +371,6 @@ Zum Verwalten einer automatischen Telefonzentrale benötigen Sie die folgenden C
 
 [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
-[Was sind automatische Telefonzentralen des Telefonsystems?](what-are-phone-system-auto-attendants.md)
+[Was sind automatische Telefonzentralen Cloud?](what-are-phone-system-auto-attendants.md)
 
 [Beispiel für Kleinunternehmen – Einrichten einer automatischen Telefonzentrale](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)  

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Erfahren Sie, was Telefonsystem für Sie möglich ist. '
-ms.openlocfilehash: 41694fcc91ccb1d7bdf4df38c39a6554851d2a8f
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.openlocfilehash: a4ac90d24863ecaf56ca471d412474bf81653a50
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934780"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914620"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Was ist das Telefonsystem in Office 365?
 
@@ -65,9 +65,9 @@ Aufrufen von Pläne (nationalen und nationalen und internationalen) sind in best
 
 ## <a name="phone-system-with-services"></a>Telefonsystem mit Diensten
  Telefon-System Aso für Dienste und Voicemail verwendet werden kann:
-- **Automatische Telefonzentralen**  Telefonsystem in Office 365-Telefonzentralen verwendet werden können, um ein Menüsystem für Ihre Organisation zu erstellen, externe und interne Anrufer können, über ein Menüsystem platzieren, und durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in Ihrer Organisation verschieben. Finden Sie unter [Was Telefonsystem automatischen Telefonzentralen sind?](what-are-phone-system-auto-attendants.md)
+- **Automatische Telefonzentralen**  Telefonsystem in Office 365-Telefonzentralen verwendet werden können, um ein Menüsystem für Ihre Organisation zu erstellen, externe und interne Anrufer können, über ein Menüsystem platzieren, und durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in Ihrer Organisation verschieben. Finden Sie unter [Was Cloud-Telefonzentralen sind?](what-are-phone-system-auto-attendants.md)
 
-- **Aufrufen von Warteschlangen**  Mit Telefonsystem können Sie Anruf Warteschlange Ansage erstellen, die verwendet werden, wenn eine angegebene Rufnummer für Ihre Organisation angerufen werden; Dazu gehört die Möglichkeit, automatisch die Anrufe in die Warteschleife gestellt und die Möglichkeit, suchen Sie nach dem nächsten verfügbaren Anruf-Agent zum Verarbeiten des Anrufs beim die Personen, die Musik in der Warteschleife Anruf hören sind. Sie können einzelne oder mehrere Anruf Warteschlangen für Ihre Organisation erstellen. Finden Sie unter [Erstellen einer Telefonsystem Anruf Warteschleife](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- **Aufrufen von Warteschlangen**  Mit Telefonsystem können Sie Anruf Warteschlange Ansage erstellen, die verwendet werden, wenn eine angegebene Rufnummer für Ihre Organisation angerufen werden; Dazu gehört die Möglichkeit, automatisch die Anrufe in die Warteschleife gestellt und die Möglichkeit, suchen Sie nach dem nächsten verfügbaren Anruf-Agent zum Verarbeiten des Anrufs beim die Personen, die Musik in der Warteschleife Anruf hören sind. Sie können einzelne oder mehrere Anruf Warteschlangen für Ihre Organisation erstellen. Finden Sie unter [Erstellen einer Cloud-Anruf-Warteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 - **Voicemail** Wenn für einen Benutzer eine Lizenz Telefonsystem eingeht, wird der Benutzer werden Voicemail abgerufen, die vom Anrufer gelassen wurde. Cloud-Voicemail wird automatisch eingerichtet und für Benutzer bereitgestellt werden, nachdem Sie ihnen eine Lizenz Telefonsystem und eine Telefonnummer zuweisen. Finden Sie unter [Einrichten von Voicemail Cloud](set-up-phone-system-voicemail.md).
 

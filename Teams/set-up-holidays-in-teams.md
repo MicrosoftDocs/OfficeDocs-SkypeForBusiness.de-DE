@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 description: Informationen Sie zum Einrichten von Feiertagen in der Microsoft-Teams, und schließen Sie sie an die automatische Telefonzentrale.
-ms.openlocfilehash: 72feed025e43eb7242f75608534db45d74aca9c9
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: afec7fc3f1bbe47c907b823711db3b8b8ef3aded
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517119"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914578"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Einrichten von Feiertagen in Microsoft Teams
 
@@ -33,7 +33,7 @@ Sie können die Feiertage mit automatischen Telefonzentralen verknüpfen, die Si
 
 Ein gutes Beispiel erstellt einen Feiertag für Weihnachten für Wenn viele Ihre Mitarbeiter nicht im Büro sind. Nach dem Erstellen des Feiertags und legen Sie fest, würden Sie das Hauptfenster von den Feiertag hinzufügen automatische Telefonzentrale, sodass Wenn Personen anrufen, werden sie eine audio-Nachricht hören, den, die Sie erstellt haben. Etwa, "Wir sind für Weihnachten aus 22. Dezember bis 27. Dezember geschlossen. Lassen Sie uns eine Sprachnachricht deshalb wir den Anruf zurück können, wenn wir wieder im Büro sind."
 
-Weitere Informationen zu automatischen Telefonzentralen finden Sie unter [Was sind Telefonsystem automatischen Telefonzentralen](what-are-phone-system-auto-attendants.md)?  
+Weitere Informationen zu automatischen Telefonzentralen finden Sie unter [Was sind Cloud-Telefonzentralen](what-are-phone-system-auto-attendants.md)?  
 
 ## <a name="create-a-holiday"></a>Erstellen Sie einen Feiertag
 
@@ -88,4 +88,4 @@ Weitere Informationen zu automatischen Telefonzentralen finden Sie unter [Was si
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Was sind automatische Telefonzentralen Telefonsystem](what-are-phone-system-auto-attendants.md)?
+[Was sind automatische Telefonzentralen Cloud](what-are-phone-system-auto-attendants.md)?

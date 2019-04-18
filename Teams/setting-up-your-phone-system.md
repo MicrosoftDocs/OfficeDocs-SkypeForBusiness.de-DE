@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Informationen Sie zum Einrichten von Telefonsystem (Cloud, PBX) für Ihre Organisation. '
-ms.openlocfilehash: 5423ceb0dcd4de03c95ff956e50442a784de877c
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 7a180817fb4a3885748a5ca80c494ef1b69143a4
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633282"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914652"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Einrichten des Telefonsystems in Ihrer Organisation
 
@@ -207,26 +207,26 @@ Häufig gestellte Fragen zu Audiokonferenzen finden Sie unter [Häufig gestellte
 
 **Weitere Informationen zu Audiokonferenzen finden Sie unter [Einrichten von Audiokonferenzen für Microsoft-Teams](set-up-audio-conferencing-in-teams.md).**
 
-## <a name="step-7-if-you-want-to-set-up-a-phone-system-call-queue"></a>Schritt 7: Wenn Sie eine Telefonsystem Anruf-Warteschlange einrichten möchten
+## <a name="step-7-if-you-want-to-set-up-a-cloud-call-queue"></a>Schritt 7: Wenn Sie eine Cloud Anruf Warteschlange einrichten möchten
 
-Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
+Cloud Anruf Warteschlangen enthalten Ansage, die verwendet werden, wenn jemand anruft eine angegebene Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und die Möglichkeit, suchen Sie für den nächsten verfügbaren Anruf-Agent den Anruf beim Menschen Anruf behandeln Anhören von Musik in der Warteschleife. Sie können einzelne oder mehrere Anruf Warteschlangen für Ihre Organisation erstellen.
 
 Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > If you are outside the United States, you can't use the Skype for Business admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
 
-Um eine neue Warteschleife zu erstellen, klicken Sie unter **Skype for Business Admin Center** auf **Anrufrouting** > **Warteschleifen**, Klicken Sie auf **Neu hinzufügen**, und folgen Sie dann den Anweisungen in **Schritt 3** von [Eine Warteschleife für Telefonsystem erstellen](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue#step-3---create-a-new-call-queue).
+Klicken Sie zum Erstellen einer neuen Warteschleife für Anrufe in die **Skype für Business Administrationscenter**auf **Anrufrouting** > **Warteschlangen aufrufen**, klicken Sie auf **neue hinzufügen**, und gehen Sie wie in **Schritt 3** [Erstellen einer Cloud-Anruf-Warteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue#step-3---create-a-new-call-queue).
 
-**Weitere Informationen zu Anrufwarteschleifen finden Sie unter [Eine Warteschleife für Telefonsystem erstellen](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).**
+**Ausführliche Informationen zum Anruf Warteschlangen finden Sie unter [Erstellen einer Cloud-Anruf-Warteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).**
 
-## <a name="step-8-if-you-want-to-set-up-a-phone-system-auto-attendant"></a>Schritt 8: Wenn Sie eine automatische Telefonzentrale für Telefonsystem einrichten möchten
+## <a name="step-8-if-you-want-to-set-up-a-cloud-auto-attendant"></a>Schritt 8: Wenn Sie eine Cloud einrichten möchten automatische Telefonzentrale
 
 Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center.
 
-Um eine neue Telefonzentrale zu erstellen, klicken Sie im Admin Center von Skype for Business auf **Rufweiterleitung** > **Auto-Telefonzentrale**. Dort klicken Sie auf **Neu hinzufügen**. Anschließend folgen Sie den Anweisungen für jede Seite in **Schritt 2** von [Einrichten einer automatischen Telefonzentrale](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+Um eine neue automatische Telefonzentrale in der Skype für Business Administrationscenter zu erstellen, klicken Sie auf **Anrufweiterleitung** > **automatische Telefonzentralen**, klicken Sie auf **neue hinzufügen**, und folgen Sie den Anweisungen für jede Seite in **Schritt2** des [Set up einer Cloud-Telefonzentrale ](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
 
-**Weitere Informationen zu den automatischen Telefonzentralen für Telefonsystem finden Sie unter [Einrichten einer automatischen Telefonzentrale in Telefonsystem](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).**
+**Weitere Informationen zu Cloud-Telefonzentralen finden Sie unter [Einrichten von einer Cloud-Telefonzentrale](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).**
 
 ## <a name="step-9-assign-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>Schritt 9: Servicenummern zuweisen (Audiokonferenzen, Anruf-Warteschleifen, automatische Vermittlung)
 
@@ -234,9 +234,9 @@ Once you have your service numbers from **Step 4 above**, you need to assign the
 
 - Für Audiokonferenzen: Sie können einer Konferenzbrücke eine dedizierte Nummer zuweisen, indem Sie zu **Office 365 Admin Center** > **Admin Center** > **Skype for Business** > **Audiokonferenzen** gehen. Dort klicken Sie auf die Konferenzbrücke oder sehen Sie [Ändern der gebührenpflichtigen oder gebührenfreien Nummern auf Ihrer Audiokonferenzbrücke](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-- For Auto Attendants, you can assign a dedicated number to an auto attendant by going to **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Call routing** > **Auto attendants** and click on the auto attendant. On the **General** page the service number you already have will be listed in the **Phone number** drop down. For details, see [Set up a Phone System Auto Attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
+- Für automatische Telefonzentralen: Sie können einer automatischen Telefonzentrale eine eigene Nummer zuweisen, indem Sie zu **Office 365 Admin Center** > **Admin Center** > **Skype for Business** > **Anrufweiterleitung** > **Automatische Telefonzentralen** gehen. Dort klicken Sie auf die automatische Telefonzentrale. Auf der Seite **Allgemein** wird die bereits vorhandene Servicenummer im Dropdown-Menü **Telefonnummer** aufgelistet. Weitere Informationen hierzu finden Sie unter [Einrichten von einer Cloud-Telefonzentrale](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
 
-- For Call Queues, you can assign a dedicated number to a call queue by going to **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Call routing** > **Call queues** and click on the call queue. On the **General** page the service number you already have will be listed in the **Phone number** drop down. For details, see [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- Für Warteschleifen: Sie können einer Warteschleife eine eigene Nummer zuweisen, indem Sie zu **Office 365 Admin Center** > **Admin Center** > **Skype for Business** > **Anrufweiterleitung** > **Warteschleifen** gehen. Dort klicken Sie auf die Warteschleife. Auf der Seite **Allgemein** wird die bereits vorhandene Servicenummer im Dropdown-Menü **Telefonnummer** aufgelistet. Weitere Informationen hierzu finden Sie unter [Erstellen einer Cloud-Anruf-Warteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 **Ausführliche Informationen zum Bezug neuer Servicerufnummern und zur Portierung bestehender Servicerufnummern finden Sie unter [Servicerufnummern beziehen](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).**
 

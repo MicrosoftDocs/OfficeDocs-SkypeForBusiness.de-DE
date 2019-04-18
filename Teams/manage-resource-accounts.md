@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Erfahren Sie mehr über das Verwalten von Ressourcenkonten in Microsoft-Teams
-ms.openlocfilehash: 3e3dbfb43498041296cb9cfb79341a3f40f2eda0
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+ms.openlocfilehash: e8d3da4938a5040972b3c4853434808ca7457c90
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808054"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914594"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
@@ -127,13 +127,13 @@ Für Implementierungen sind, Hybrid mit Skype für Business Server:
 
 Für Implementierungen in Teams oder Skype für Business Online:
 
-[Was sind automatische Telefonzentralen des Telefonsystems?](what-are-phone-system-auto-attendants.md)
+[Was sind automatische Telefonzentralen Cloud?](what-are-phone-system-auto-attendants.md)
 
-[Einrichten einer automatischen Telefonzentrale des Telefonsystems](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+[Richten Sie eine Cloud-Telefonzentrale](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
 [Beispiel für Kleinunternehmen – Einrichten einer automatischen Telefonzentrale](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[Erstellen einer Warteschlange für das Telefonsystem](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+[Erstellen einer Cloud-Anruf-Warteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [Neue CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 

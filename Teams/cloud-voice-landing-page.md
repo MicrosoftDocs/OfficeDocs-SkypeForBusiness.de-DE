@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Zielseite für die Bereitstellung von Cloud-VoIP in Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abc8d3e552820ee93b5ccd1fc968e914ac5287ba
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.openlocfilehash: 47c534eba93c6f5af21a75fa20b5015fac00c674
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948377"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914612"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Cloud Voice in Microsoft Teams
 
@@ -127,20 +127,20 @@ Welche Benutzer benötigen einen angepassten Wählplan und welcher Mandantenwäh
 
 ### <a name="call-queues"></a>Anrufwarteschleifen
 
-System-Telefonanruf Warteschlangen enthalten Ansage, die verwendet werden, wenn angerufen eine Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und für den nächsten verfügbaren Anruf-Agent zum Verarbeiten des Anrufs beim Personen die Möglichkeit zum Suchen, die Anruf Musik in der Warteschleife hören sind. Sie können einzelne oder mehrere Anruf Warteschlangen für Ihre Organisation erstellen. 
+Cloud Anruf Warteschlangen enthalten Ansage, die verwendet werden, wenn jemand anruft eine angegebene Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und die Möglichkeit, suchen Sie für den nächsten verfügbaren Anruf-Agent den Anruf beim Menschen Anruf behandeln Anhören von Musik in der Warteschleife. Sie können einzelne oder mehrere Anruf Warteschlangen für Ihre Organisation erstellen. 
 
 
 |Frage|Aktion |
 |:------------|:-------|
-| Ruft meiner Organisation Warteschlangen auf müssen? | Weitere Informationen finden Sie unter [erstellen eine Telefonsystem Anruf Warteschlange](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) und [Einrichten von Ihrem Telefonsystem](setting-up-your-phone-system.md). |
+| Ruft meiner Organisation Warteschlangen auf müssen? | Weitere Informationen finden Sie unter [erstellen eine Cloud-Anruf-Warteschlange](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) und [Einrichten von Ihrem Telefonsystem](setting-up-your-phone-system.md). |
 
 ### <a name="auto-attendants"></a>Automatische Telefonzentralen
 
-Telefonsystem Telefonzentralen verwendet werden können, um ein Menüsystem für Ihre Organisation zu erstellen, externe und interne Anrufer können, über ein Menüsystem platzieren, und durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in Ihrer Organisation verschieben.
+Cloud-Telefonzentralen können verwendet werden, erstellen Sie ein Menüsystem für Ihre Organisation, mit der, externen und internen Anrufer über ein Menüsystem platzieren, und durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in Ihrer Organisation verschieben.
 
 |Frage|Aktion |
 |:------------|:-------|
-| Werden meine Organisation für automatische Telefonzentralen benötigt? | Weitere Informationen finden Sie unter [Was sind Telefonsystem automatischen Telefonzentralen](what-are-phone-system-auto-attendants.md) und [Richten Sie eine automatische Telefonzentrale Telefonsystem](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). |
+| Werden meine Organisation für automatische Telefonzentralen benötigt? | Weitere Informationen finden Sie unter [Was sind Cloud-Telefonzentralen](what-are-phone-system-auto-attendants.md) und [Richten Sie eine Cloud-Telefonzentrale](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). |
 
 ### <a name="devices"></a>Geräte
 

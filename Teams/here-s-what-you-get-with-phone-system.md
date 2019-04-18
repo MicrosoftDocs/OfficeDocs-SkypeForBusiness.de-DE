@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 4cfb143bc8d86bbd5340cb7dddc203563ec1d093
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a8660693fefdca2ecfdfe327927e89431d0fe5db
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896085"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914570"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Das Telefonsystem in Office 365 bietet Ihnen Folgendes
 
@@ -44,7 +44,7 @@ Mithilfe von Telefonsystem erhalten Ihre Skype für Unternehmensbenutzer die fol
 |||
 |:-----|:-----|
 |**Telefonsystem in Office 365-Funktion** <br/> |**Beschreibung** <br/> |
-|[Was sind automatische Telefonzentralen des Telefonsystems?](what-are-phone-system-auto-attendants.md) <br/> |Telefonsystem Telefonzentralen verwendet werden können, um ein Menüsystem für Ihre Organisation zu erstellen, externe und interne Anrufer können, über ein Menüsystem platzieren, und durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in Ihrer Organisation verschieben.  <br/> |
+|[Was sind automatische Telefonzentralen Cloud?](what-are-phone-system-auto-attendants.md) <br/> |Cloud-Telefonzentralen können verwendet werden, erstellen Sie ein Menüsystem für Ihre Organisation, mit der, externen und internen Anrufer über ein Menüsystem platzieren, und durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in Ihrer Organisation verschieben.  <br/> |
 |Anruf beantworten/starten (nach Name und Nummer)  <br/> |Beantworten Sie eingehende Anrufe mit einer Touchbewegung, und tätigen Sie ausgehende Anrufe entweder durch Wählen der vollständigen Nummer oder durch Klicken auf einen Namen in Skype for Business oder Outlook.  <br/> |
 |[Festlegen von Anrufweiterleitungsoptionen in Skype for Business](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Tätigen oder beantworten Sie Anrufe im Namen eines Ihrer Manager. Wenn Anrufe für eine andere Person beantwortet oder getätigt werden, werden alle Teilnehmer durch Benachrichtigungen darüber informiert.  <br/> |
 |[Anrufweiterleitung und gleichzeitiges Anrufen](https://support.office.com/article/967d9aaf-3fed-448b-ab96-40bbc9a11a20) <br/> |Mit diesen Funktionen können Sie Weiterleitungsregeln einrichten, damit Sie von überall aus angerufen werden können und Ihre Anrufe an Kollegen oder an Ihre Voicemail weiterleiten können.  <br/> |
@@ -52,7 +52,7 @@ Mithilfe von Telefonsystem erhalten Ihre Skype für Unternehmensbenutzer die fol
 |Anruf halten/wiederaufnehmen  <br/> | Verwenden Sie diese Option, wenn mehrere Anrufe zur gleichen Zeit getätigt werden. Wenn Sie den nächsten eingehenden Anruf beantworten oder einen ausgehenden Anruf tätigen, wird Ihr aktueller Anruf automatisch gehalten. <br/> |
 |[Durchstellen eines Skype for Business-Anrufs](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |Stellt Anrufe an andere Personen durch. Oder, wenn Sie müssen so verlassen Ihrem Büro, Ihre Unterhaltung fortsetzen möchten, können Sie die Anrufe von Ihrem PC oder IP-Telefon auf Ihr Mobiltelefon oder Tablet übertragen.  <br/> |
 |Anrufer-ID  <br/> |Bei Anrufen von Personen innerhalb Ihres Unternehmens wird eine detaillierte Anrufer-ID mit Informationen aus Ihrem Unternehmensverzeichnis angezeigt. Es wird nicht nur die Telefonnummer angezeigt, sondern auch ein Bild und die Position.  <br/> |
-|[Erstellen einer Warteschlange für das Telefonsystem](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |System-Telefonanruf Warteschlangen enthalten Ansage, die verwendet werden, wenn angerufen eine Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und für den nächsten verfügbaren Anruf-Agent zum Verarbeiten des Anrufs beim Personen die Möglichkeit zum Suchen, die Anruf Musik in der Warteschleife hören sind.  <br/> |
+|[Erstellen einer Cloud-Anruf-Warteschlange](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Cloud Anruf Warteschlangen enthalten Ansage, die verwendet werden, wenn jemand anruft eine angegebene Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und die Möglichkeit, suchen Sie für den nächsten verfügbaren Anruf-Agent den Anruf beim Menschen Anruf behandeln Anhören von Musik in der Warteschleife.  <br/> |
 |[Ich möchte Statusänderungen mitgeteilt bekommen](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | Mit dieser Funktion können Sie Personen markieren, die derzeit nicht erreichbar sind, und mit der Sie benachrichtigt werden, wenn sich ihr Anwesenheitsstatus ändert und sie Telefonanrufe entgegennehmen können. <br/> |
 |Für PC, Mac und Mobile Clients  <br/> | Dadurch werden Anruffunktionen auf Geräten, Tablets und Mobiltelefone, PCs und IP-Tischtelefonen. <br/> |
 |Gerätewechsel  <br/> |Ermöglicht Ihnen die Wiedergabe Ihres Anrufs oder Ihrer Besprechung auf einem anderen Gerät.  <br/> |
@@ -65,7 +65,7 @@ Mithilfe von Telefonsystem erhalten Ihre Skype für Unternehmensbenutzer die fol
 |Skype und Verbundpartner aufrufen  <br/> |Sie können Suchen Sie nach jeder im Skype-Verzeichnis, und klicken Sie dann sicher verbinden, Kommunikation und Zusammenarbeit mit diesen.  <br/> |
 |[Festlegen von Anrufweiterleitungsoptionen in Skype for Business](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Sendet Ihre Anrufe entweder sofort oder nach einem bestimmten Zeitraum an Ihr Team.  <br/> |
 |[Tätigen und Annehmen eines Videoanrufs mit Skype for Business](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Sie können den Namen und den Videostream des Sprechers in einem kleinen unverankerten Fenster sehen, sodass Sie immer in der Lage sind, auf eine Frage zu antworten. <br/> |
-|[Prüfen von Skype for Business-Voicemail und -Optionen](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Funktioniert Telefonsystem Voicemail: Wenn ein Benutzer eine Voicemail empfängt, wird Sie mit ihrem Postfach als eine e-Mail-Nachricht mit der Voicemailnachricht als Anlage übermittelt. Der Nutzer kann die Nachrichten auch über seinen Skype-zertifizierten Telefonapparat, über alle Skype for Business-Anwendungen oder über Lync for Mac 2011 abhören.  <br/> Telefon System Voicemail enthält persönliche Begrüßung, Anzeige für wartende Nachrichten und Antworten durch Anruf an. Ihre Voicemails können alle in Postfächern gespeichert und über Skype for Business auf Ihrem PC, Ihrem Mobilgerät und Ihrem IP-Telefon abgehört werden.  <br/> |
+|[Prüfen von Skype for Business-Voicemail und -Optionen](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Hier wird die Funktionsweise von Cloud-Voicemail: Wenn ein Benutzer eine Voicemail empfängt, wird Sie mit ihrem Postfach als eine e-Mail-Nachricht mit der Voicemailnachricht als Anlage übermittelt. Der Nutzer kann die Nachrichten auch über seinen Skype-zertifizierten Telefonapparat, über alle Skype for Business-Anwendungen oder über Lync for Mac 2011 abhören.  <br/> Cloud-Voicemail enthält persönliche Begrüßung, Anzeige für wartende Nachrichten und Antworten durch Anruf an. Ihre Voicemails können alle in Postfächern gespeichert und über Skype for Business auf Ihrem PC, Ihrem Mobilgerät und Ihrem IP-Telefon abgehört werden.  <br/> |
    
 ## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>Planen und das Telefonsystem in Office 365 einrichten
 <a name="bkmk_setup"> </a>
@@ -82,11 +82,11 @@ Finden Sie in diesen Artikeln zur Planung und das Telefonsystem in Ihrem Unterne
 
 - [Einrichten von Aufrufen plant](set-up-calling-plans.md): in diesem Artikel ist eine schrittweise Anleitung zum Einrichten Ihrer Telefonnummern oder Ihre vorhandenen Telefonnummern in Skype für Unternehmen zu übertragen.
     
-- [Planen Sie Ihr Telefonsystem in Office 365 (PBX) zu Cloud-Lösung](https://go.microsoft.com/fwlink/?LinkId=708645): in diesem Artikel erstellt das Layout aller Ihrer Bereitstellungsoptionen. Zudem erhalten Sie Informationen zum Planen der gesamten cloudbasierten Lösung. 
+- [Microsoft telefonielösungen](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions): in diesem Artikel erstellt das Layout aller Ihrer Bereitstellungsoptionen. Zudem erhalten Sie Informationen zum Planen der gesamten cloudbasierten Lösung. 
     
 - [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Hier erfahren Sie, welche Lizenzen, die Sie zum Abrufen der Telefonsystem in Office 365 kaufen müssen.
     
-- [Einrichten von Voicemail für Telefonsysteme - Administratorhilfe](set-up-phone-system-voicemail.md)
+- [Einrichten von Cloudvoicemail – Admin-Hilfe](set-up-phone-system-voicemail.md)
     
 - [Skype for Business entdecken](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): Stellen Sie den Benutzern in Ihrem Unternehmen dieses Material bereit, um sie bei der Verwendung von Skype for Business-Funktionen zu unterstützen. 
 

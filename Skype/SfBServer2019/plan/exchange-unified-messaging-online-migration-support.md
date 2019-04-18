@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft ist den Exchange Unified Messaging (ExchUMO) Onlinedienst vom Februar 2020 abschließen. In diesem Artikel werden zusammengefasst, was betroffen Kunden kennen und tun, um für ihre Business Continuity planen sollten.
-ms.openlocfilehash: e318e6aac1e4c5ab2b9934fd655dc3112120f36b
-ms.sourcegitcommit: 38b501cedfe5fa4ab0126f58926fe2ce4f0cdd0c
+ms.openlocfilehash: 703c51f3d42c9eea12964230693e602428454754
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31740933"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914677"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online  
 
@@ -66,7 +66,7 @@ Microsoft hat verschiedene Kunden Deployments identifiziert, die Features von Ex
 
 3. **Planen der automatischen Telefonzentrale-migration**
     
-    Administratoren können Migrieren ihrer automatischen Telefonzentralen von ExchUMO zu Cloud-Telefonzentrale können Sie jederzeit starten. Einzelheiten finden Sie unter [Einrichten von einer Telefonzentrale Telefonsystem](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) . Microsoft plant, um zusätzliche Funktionen, die automatische Telefonzentrale bereitzustellen, die Kunden für die Migration von März 2019 kritische berücksichtigen. Administratoren sollten Features überprüfen und ihre automatische Telefonzentrale-Instanzen entsprechend migrieren. Feature-Liste Vergleich finden Sie unter der [ExchUMO und Azure featurematrix in cloudbasierten Diensten](#exchumo-and-azure-cloud-based-services-feature-matrix).
+    Administratoren können Migrieren ihrer automatischen Telefonzentralen von ExchUMO zu Cloud-Telefonzentrale können Sie jederzeit starten. Einzelheiten finden Sie unter [Einrichten von einer Cloud-Telefonzentrale](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) . Microsoft plant, um zusätzliche Funktionen, die automatische Telefonzentrale bereitzustellen, die Kunden für die Migration von März 2019 kritische berücksichtigen. Administratoren sollten Features überprüfen und ihre automatische Telefonzentrale-Instanzen entsprechend migrieren. Feature-Liste Vergleich finden Sie unter der [ExchUMO und Azure featurematrix in cloudbasierten Diensten](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
 4. **Ihre Voicemail-Überprüfung nach der Migration planen und testen**
 
@@ -197,4 +197,4 @@ Skype für neue Benutzer Business wird für Voicemail in CVM Service bei der Ers
 
 #### <a name="admin-auto-attendant-management-experience"></a>Verwaltung der Admin-Telefonzentrale 
 
-Finden Sie unter [Set up eine automatische Telefonzentrale Telefonsystem](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) weiterführende Informationen zur Konfiguration und Verwaltung von automatischen Telefonzentralen. 
+Finden Sie unter [Einrichten einer Cloud-Telefonzentrale](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) weiterführende Informationen zur Konfiguration und Verwaltung von automatischen Telefonzentralen. 
