@@ -230,10 +230,10 @@
 #### [Sprachen für Voicemail-Ansagen und -Nachrichten](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Einrichten von Cloudvoicemail – Admin-Hilfe](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Einrichten des Telefonsystems in Ihrer Organisation](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Was sind automatische Telefonzentralen des Telefonsystems?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Einrichten einer automatischen Telefonzentrale des Telefonsystems](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Was sind automatische Cloudtelefonzentralen?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+#### [Einrichten einer automatischen Cloudtelefonzentrale](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Beispiel für Kleinunternehmen – Einrichten einer automatischen Telefonzentrale](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
-### [Erstellen einer Warteschlange für das Telefonsystem](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Erstellen einer Cloudanrufwarteschleife](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 
 
