@@ -1,14 +1,14 @@
 ---
-title: Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
+title: Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/29/2018
+ms.date: 04/18/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie in Ihrer Office 365-Organisation Microsoft Teams-Apps einschließlich Registerkarten, Connectors, Bots oder einer Kombination aus diesen drei Komponenten aktivieren bzw. deaktivieren.
+description: Erfahren Sie, wie Sie unternehmensweite Microsoft Teams-Einstellungen für Ihre Organisation aktivieren oder deaktivieren, einschließlich Apps, externem Zugriff, Gastzugriff, Teams-Einstellungen und Teams-Aktualisierungseinstellungen.
 localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
@@ -17,20 +17,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a302d27884f92fb5cf17cc605cead6addbe98bfd
-ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
+ms.openlocfilehash: a61a9e31e2c1ba7c33da3a09d213e1ab0339756b
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30683892"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959268"
 ---
-# <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Verwalten von Microsoft Teams-Funktionen in Ihrer Office 365-Organisation
+# <a name="manage-microsoft-teams-settings-for-your-organization"></a>Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
 
 Alle Teams-Einstellungen werden in Kürze zum neuen Admin Center für Microsoft Teams migriert. Apps werden als einzige Teams-Funktion im Microsoft 365 Admin Center verwaltet. 
 
 Wenn nichts anderes angegeben ist, lautet der Standardwert für die jeweilige Option **Ein**.
 
-## <a name="tenant-wide-settings"></a>Mandantenweite Einstellungen 
+## <a name="tenant-wide-settings-in-the-microsoft-365-admin-center"></a>Mandantenweite Einstellungen im Microsoft 365 Admin Center
 
 Sie können Apps für Microsoft Teams in **Mandantenweite Einstellungen** im Microsoft 365 Admin Center deaktivieren oder aktivieren. 
 
@@ -62,13 +62,19 @@ Diese Apps werden von Drittanbietern bereitgestellt. Sie können die folgenden E
 
 Weitere Informationen finden Sie unter [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md). 
 
-## <a name="teams-org-wide-settings"></a>Organisationsweite Einstellungen für Microsoft Teams
-
+## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Unternehmensweite Teams-Einstellungen im Admin Center für Microsoft Teams
 Sie können organisationsweite Benutzereinstellungen im Microsoft Teams Admin Center steuern. Um organisationsweite Einstellungen zu bearbeiten, gehen Sie zum Microsoft Teams Admin Center, und wählen Sie dann **Organisationsweite Einstellungen** aus. Sie können die folgenden Einstellungen konfigurieren.
 
 ### <a name="external-access"></a>Externer Zugriff
 
 **Externer Zugriff** ermöglicht Ihren Microsoft Teams- und Skype for Business-Benutzern die Kommunikation mit Benutzern außerhalb der Organisation. Um den externen Zugriff zu konfigurieren, wechseln Sie zu [Let your Teams users chat and communicate with users in another Teams organization](let-your-teams-users-communicate-with-other-people.md) (Microsoft Teams-Benutzern das Chatten und Kommunizieren mit Benutzern in einer anderen Microsoft Teams-Organisation ermöglichen).
+
+Hinzufügen oder Sperren einer Domäne:
+
+1. Wählen Sie **Domäne hinzufügen**.
+2. Geben Sie im Bereich „Domäne hinzufügen“ den Domänennamen ein, und drücken Sie die LEERTASTE, um den Namen zu speichern.
+3. Wählen Sie **Zulässig** oder **Blockiert**.
+4. Wählen Sie **Fertig** aus, um die Änderungen zu speichern. 
 
 ### <a name="guest-access"></a>Gastzugriff
 
@@ -100,7 +106,7 @@ Diese Einstellungen steuern das Verhalten von Ressourcenkonten für Surface Hub-
 - **Set content PIN** (Inhalts-PIN festlegen): Legen Sie fest, dass Benutzer diese PIN eingeben müssen, damit der nicht autorisierte Zugriff auf Dokumente nicht möglich ist. Damit verhindern Sie, dass nicht autorisierte Benutzer an bevorstehenden Besprechungen teilnehmen und Anlagen durchsuchen.
 - **Resource accounts can send messages** (Ressourcenkonten können Nachrichten senden): Legen Sie diese Einstellung auf **Ein** fest, um das Senden von Nachrichten über das Surface Hub-Ressourcenkonto zuzulassen.
 
-#### <a name="search"></a>Suche
+#### <a name="search-by-name"></a>Nach Name suchen
 
 Die Verzeichnissuche in Microsoft Teams verwendet Exchange-Adressbuchrichtlinien, damit Organisationen virtuelle Grenzen erstellen können. Diese steuern, wie Benutzer andere Benutzer in der Organisation suchen und mit diesen kommunizieren können. Eine bereichsbezogene Verzeichnissuche eignet sich zum Beispiel in diesen Situationen:
 
