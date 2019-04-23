@@ -1,5 +1,5 @@
 ---
-title: Übersicht über PowerShell für Microsoft Teams
+title: Teams PowerShell (Übersicht)
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -13,21 +13,21 @@ ms.collection:
 description: Erfahren Sie, die PowerShell-Steuerelemente verwenden Sie zum Verwalten von Microsoft-Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 497aeba1e339e3c079de9eb4a23182e8f727f278
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 1e85261b133d8f1562bcca7d79f83eb21e345be2
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897203"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959362"
 ---
-# <a name="teams-powershell-overview"></a>Übersicht über PowerShell für Microsoft Teams
+# <a name="teams-powershell-overview"></a>Teams PowerShell (Übersicht)
 
 Microsoft-Teams, verfügt über einen umfassenden Satz von Tools für IT-Administratoren zur Verwaltung des Produkts über die Microsoft-Teams, Administrationscenter, PowerShell Steuerelemente und Diagramm-APIs. In diesem Handbuch wird erläutert, wie wir unsere PowerShell-Cmdlets für IT-Administratoren verwenden, strukturieren und enthält Verweise auf Weitere Dokumentation. Beachten Sie, dass unterschiedliche Teams Administratorrollen auf anderen Cmdlets zugreifen. Weitere Informationen finden Sie unter [Verwendung von Microsoft-Teams Administratorrollen zum Verwalten von Teams](using-admin-roles.md).
 
 ## <a name="which-modules-do-you-need-to-use"></a>Welche Module müssen Sie verwenden?
 
 Die Steuerelemente PowerShell zum Verwalten von Teams sind in zwei verschiedenen PowerShell Modulen: 
-- [Microsoft-Teams PowerShell-Modul](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5) (öffentliche Preview): der Teams PowerShell-Modul enthält alle Cmdlets müssen Sie erstellen und Verwalten von Teams.  
+- [Microsoft-Teams PowerShell-Modul](https://www.powershellgallery.com/packages/MicrosoftTeams/) : der Teams PowerShell-Modul enthält alle Cmdlets müssen Sie erstellen und Verwalten von Teams.  
 - [Skype für Business PowerShell-Modul](https://www.microsoft.com/en-us/download/details.aspx?id=39366): der Skype für Business PowerShell-Modul enthält die Cmdlets zum Verwalten von Richtlinien, Konfigurationen und andere Tools von Teams. 
 
 Die Referenzdokumentation für die PowerShell-Steuerelemente erfahren Sie, welche Modul mit dem Cmdlet enthält, das Sie untersuchen möchten. (Schließlich werden die zwei Module kombiniert werden.)
@@ -38,9 +38,9 @@ Lesen Sie [Administratorrollen verwalten Teams verwenden Microsoft-Teams,](using
 
 ## <a name="creating-and-managing-teams-via-powershell"></a>Erstellen und Verwalten von Teams über die PowerShell
 
-Die Cmdlets für das Erstellen und Verwalten von Teams sind im [Microsoft-Teams PowerShell-Modul](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3). 
+Die Cmdlets für das Erstellen und Verwalten von Teams sind im [Microsoft-Teams PowerShell-Modul](https://www.powershellgallery.com/packages/MicrosoftTeams/). 
 
-Teams sind gesichert nach Office 365-Gruppen, also wenn Sie ein Team erstellen, erstellen Sie eine Gruppe. Es gibt eine Gruppe von Cmdlets für den Betrieb auf das Team Core und die zugehörigen Einstellungen bereitgestellt (``new-team``, ``get-team``, ``set-teamfunsettings``, ``set-teammessagingsettings``, ``set-teamguestsettings``, ``set-teammembersettings``), Verwalten von Benutzern Team (``add-teamuser``, ``remove-teamuser``), sowie von Cmdlets für die Verwaltung der Kanäle des Teams (``new-teamchannel`` , ``remove-teamchannel``). Alle diese Cmdlets als Endbenutzer ausgeführt werden können, aber sie nur auf den Teams, die Sie besitzen oder ein Mitglied arbeiten. Wenn Sie ein globaler Administrator oder Teams Service-Administrator sind, werden Sie auf alle Teams in Ihrer Organisation agieren sein.
+Teams sind gesichert nach Office 365-Gruppen, also wenn Sie ein Team erstellen, erstellen Sie eine Gruppe. Es gibt eine Gruppe von Cmdlets für den Betrieb auf das Team Core und die zugehörigen Einstellungen bereitgestellt (``new-team``, ``get-team``, ``set-team``), Verwalten von Benutzern Team (``add-teamuser``, ``remove-teamuser``), sowie von Cmdlets für die Verwaltung der Kanäle des Teams (``new-teamchannel``, ``remove-teamchannel``). Alle diese Cmdlets als Endbenutzer ausgeführt werden können, aber sie nur auf den Teams, die Sie besitzen oder ein Mitglied arbeiten. Wenn Sie ein globaler Administrator oder Teams Service-Administrator sind, werden Sie auf alle Teams in Ihrer Organisation agieren sein.
 
 > Die in den Microsoft-Teams PowerShell-Modul-Cmdlets verwendet **GroupId** ist identisch mit der **Identity** -Eigenschaft zurückgegebene ``Get-UnifiedGroup`` in der Exchange PowerShell-Modul.
 

@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1caac1d6d96b93f686e4eb0fe71e39248da30f11
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.openlocfilehash: c089aed27acb4f7864bf5dc1948b0b55a4643790
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749669"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959156"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Administratoreinstellungen für Apps in Microsoft Teams
 ==========================================
@@ -49,8 +49,6 @@ Beispielsweise können Sie Richtlinien für die app-Berechtigung zu verwenden:
 Weitere Informationen finden Sie wechseln Sie zur [Verwalten app Berechtigungsrichtlinien in Teams](teams-app-permission-policies.md).
 
 ## <a name="app-setup-policies"></a>Richtlinien für die App-setup
-
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Richtlinien für die App Setup können Sie die app-Benutzeroberfläche für Ihre Benutzer anpassen. Sie wählen den apps, die Sie auf der app-Leiste in den Clients Teams und der Reihenfolge, in der sie angezeigt, auf Webservern, Desktop- und mobilen Clients werden, anheften möchten.
 

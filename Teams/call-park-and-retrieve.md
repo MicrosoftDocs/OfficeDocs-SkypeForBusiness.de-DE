@@ -1,9 +1,9 @@
 ---
 title: Parken und Fortsetzen von Anrufen in Microsoft Teams
 ms.author: lolaj
-author: lolaj
+author: LolaJacobsen
 manager: serdars
-ms.date: 01/16/2019
+ms.date: 04/12/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Verwenden Sie Parken und fortsetzen, um einen Anruf in der Warteschleife im Dienst Teams in der Cloud.
-ms.openlocfilehash: 416458b1f7c134fca3294107bd82bbd0f2300abc
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: 798e53ef9a0638be659da8567419b7bd3d3c3555
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993502"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parken und Fortsetzen von Anrufen in Microsoft Teams
 
@@ -34,7 +34,7 @@ Parken und Fortsetzen von Anrufen ist ein Feature, in dem einen Benutzer einen A
 Einige häufigen Szenarien für die Verwendung des Parkens von Anrufen werden: 
 
 - Ein Empfangsmitarbeiter parks einen Anruf nach einer Person in einer Factory arbeiten. Die Empfangsmitarbeiter Ankündigung klicken Sie dann den Anruf und die Anzahl von Code über das öffentliche Adresse-System. Klicken Sie dann kann der Benutzer, die der Anruf ist ein Telefon Teams werksseitige aufzunehmen und geben Sie den Code, um den Anruf entgegenzunehmen.
-- Ein Benutzer parks ein Anrufs auf einem mobilen Gerät, da die Batterie Gerät nicht mehr genug Power vorhanden ist. Der Benutzer kann dann geben Sie dann code zum Abrufen des Anrufs von einem Telefonapparat Teams.
+- Ein Benutzer parks ein Anrufs auf einem mobilen Gerät, da die Batterie Gerät nicht mehr genug Power vorhanden ist. Der Benutzer kann dann den Code zum Abrufen des Anrufs von einem Telefonapparat Teams eingeben.
 - Eine repräsentative Parks Unterstützung ein Kunden aufrufen und sendet eine Ankündigung in einem Kanal Teams für einen Experten So rufen Sie den Anruf und helfen Sie dem Kunden. Gibt den Code ein Experte in Teams-Clients, um den Anruf
 
 > [!IMPORTANT]
@@ -42,7 +42,7 @@ Einige häufigen Szenarien für die Verwendung des Parkens von Anrufen werden:
 
 ## <a name="license-required"></a>Lizenz erforderlich
 
-Um Parken und Anrufe wiederaufnehmen, muss ein Benutzer einen Enterprise-VoIP-Benutzer sein, und ein Administrator muss dem Benutzer eine Anruf Parken Richtlinie erteilen. Weitere Details zur am Lizenzierungsmodell finden Sie unter [Office 365-Lizenzierung für Microsoft-Teams](office-365-licensing.md).
+Um Parken und Anrufe wiederaufnehmen, muss ein Benutzer einen Enterprise-VoIP-Benutzer sein, und ein Administrator muss dem Benutzer eine Anruf Parken Richtlinie erteilen. Weitere Informationen zu am Lizenzierungsmodell finden Sie unter [Office 365-Lizenzierung für Microsoft-Teams](office-365-licensing.md).
 
 ## <a name="call-park-and-retrieve-feature-availability"></a>Parken und Fortsetzen der Verfügbarkeit von Features
 
@@ -52,13 +52,22 @@ Parken und fortsetzen wird durch die folgenden Clients und Geräten derzeit unte
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
 | Parken eines Anrufs | Ja | Ja | Ja | Ja | In Kürze verfügbar| Nein |
 | Abrufen eines geparkten Anrufs | Ja | Ja | Ja | Ja | In Kürze verfügbar| Nein |
-| Wieder aufgehoben abgerufenen Anruf ring | Ja | Ja | Ja | Ja | In Kürze verfügbar| Nein |
+| Nicht abgerufen Anruf Ring zurück | Ja | Ja | Ja | Ja | In Kürze verfügbar| Nein |
 
 ## <a name="configuring-call-park-and-retrieve"></a>Konfigurieren von Parken und fortsetzen
 
-Sie müssen ein Administrator konfigurieren Parken und fortsetzen sein, und das Feature ist standardmäßig deaktiviert. Sie können diese für Benutzer aktivieren und Benutzergruppen mit der Anruf Parken Richtlinie erstellen. Wenn Sie die gleiche Richtlinie auf eine Gruppe von Benutzern anwenden, werden sie Parken und anrufen untereinander abrufen können. Zum Konfigurieren des Parkens von Anrufen für Benutzer, und Anruf Parken Benutzergruppen erstellen, befolgen Sie die folgenden Schritte aus.
+Sie müssen ein Administrator konfigurieren Parken und fortsetzen sein, und das Feature ist standardmäßig deaktiviert. Sie können diese für Benutzer aktivieren und Benutzergruppen mit der Anruf Parken Richtlinie erstellen. Wenn Sie eine Gruppe von Benutzern die gleiche Richtlinie zuweisen, können sie Parken und Anrufe zwischen selbst abzurufen. Zum Konfigurieren des Parkens von Anrufen für Benutzer und Benutzergruppen zum Parken von Anrufen zu erstellen, gehen Sie folgendermaßen [Zuweisen einer Richtlinie auf Anruf Parken](#assign-a-call-park-policy) .
 
 Informationen zum Verwenden der Parken und Abrufen von Feature finden Sie unter [Parken eines Anrufs in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
+
+### <a name="enable-a-call-park-policy"></a>Aktivieren Sie die Richtlinie ein Anruf Parken
+
+Führen Sie diese Schritte, um eine Anruf Parken Richtlinie zu aktivieren:
+
+1. Navigieren Sie zum **Microsoft-Teams, Administrationscenter** > **VoIP** > **Richtlinien für das Parken von Anrufen**.
+2. Wählen Sie **neue Richtlinie**aus.
+3. Benennen Sie der Richtlinie, und wechseln Sie auf **aktiviert** **Park aufrufen können** .
+4. Wählen Sie **Speichern**aus.
 
 ### <a name="assign-a-call-park-policy"></a>Zuweisen einer Richtlinie auf Anruf Parken
 

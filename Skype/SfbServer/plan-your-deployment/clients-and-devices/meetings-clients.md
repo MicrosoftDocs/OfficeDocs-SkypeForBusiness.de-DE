@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Zusammenfassung: IT-Experten die Support-Anforderungen für die Skype für Business Web App und Skype Besprechungen App sollten beim Planen von Skype für Business Server. In diesem Artikel ist nicht für die Benutzer über diese apps vorgesehen.'
-ms.openlocfilehash: 6b0b8df34530005e7baf14cef4aa38c4536d4673
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6006bf1ca4b8ce63a662a1c55c79865097c86b18
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531505"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959315"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planen von Besprechungen-Clients (Web App und Besprechungen App)
  
@@ -38,12 +38,12 @@ Höher auf diejenigen Benutzer können Besprechungen erstellen und Benutzer von 
   
 Standardmäßig wird der Hostserver für die Besprechung weisen Sie den Benutzer zum Herunterladen und Installieren von Skype für Business Web App an der Besprechung teilnehmen. Die Skype für Web-Geschäfts-App auf dem Front-End-Server gespeichert ist und ruft an Besprechungsteilnehmer gesendet. 
   
-Für Skype für Business Server Skype Besprechungen App steht als Ersatz für Skype für Web-Geschäfts-App mit CU5 beginnt, aber in [Aktivieren Skype Besprechungen App Skype ersetzen beschriebene zusätzliche Konfiguration erfordert die Skype Besprechungen App bereitstellen für Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Skype-Besprechungen App aktiviert ist, wird die neueste Version der app aus der Office 365 Content Delivery Network (CDN) und nicht aus Ihrer Skype für Business Server herunterladen werden. Für Skype für Business Server 2019 Skype Besprechungen App ist die einzige Option.
+Für Skype für Business Server Skype Besprechungen App (unter Windows) und Skype für Unternehmen für Mac (auf dem Macintosh) stehen als Ersatz für Skype für Web-Geschäfts-App mit CU5 beginnt, aber Bereitstellen von Ersatz-apps ist die zusätzliche Konfiguration erforderlich. in [Aktivieren Skype Besprechungen App ersetzen Skype für Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)beschrieben.  Skype-Besprechungen App und Skype für Unternehmen für Mac aktiviert sind, werden Benutzer die neueste Version der apps aus dem Office 365 Content Delivery Network (CDN) und nicht aus Ihrer Skype für Business Server herunterladen. Für Skype für Business Server 2019 ist Verwendung von Skype Besprechungen App und Skype für Mac für Unternehmen die einzige Option aus.
   
-Skype-Besprechungen App bietet eine vereinfachte Browserumgebung zum Herunterladen und Installieren der app und teilnehmen an Besprechungen, einschließlich per Mausklick Join für Benutzer von Internet Explorer. Skype-Besprechungen App hat auch zahlreichen Verbesserungen TheSkype für Web-Geschäfts-App für Zuverlässigkeit und die besprechungsumgebung. 
+Skype-Besprechungen App bietet eine vereinfachte Browserumgebung zum Herunterladen und Installieren der app und teilnehmen an Besprechungen, einschließlich per Mausklick Join für Benutzer von Internet Explorer. Skype Besprechungen App besitzt auch zahlreichen Verbesserungen über die Skype für Web-Geschäfts-App für die Zuverlässigkeit und die besprechungsumgebung. 
   
 > [!NOTE]
-> Ab Skype für Business Server 2015 CU5 oder höher Besprechungen vergleichbar, die mithilfe der Skype für Business Online werden nicht mehr senden einem Objektserver Benutzer die Skype für Web-Geschäfts-App, stattdessen Skype Besprechungen App gesendet. Ab Skype für Business Server 2015 CU5 oder höher, wenn Sie [Skype Besprechungen-App ersetzen Skype für Business Web App (Optional) aktivieren](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable), Objektserver Benutzern Skype Besprechungen App anstelle von Skype für Business Web App nicht gesendet werden. 
+> Ab Skype für Business Server 2015 CU5 oder höher Besprechungen vergleichbar, die mithilfe der Skype für Business Online werden nicht mehr senden einem Objektserver Benutzer die Skype für Web-Geschäfts-App, stattdessen gesendet Skype Besprechungen App (unter Windows) oder für Unternehmen Skype für Mac (auf dem Macintosh). Ab, oder Skype für Unternehmen für Mac anstelle von Skype für Business Web App Skype für Business Server 2015 CU5 oder höher, wenn Sie [Skype Besprechungen-App ersetzen Skype für Business Web App (Optional) aktivieren](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable), Objektserver Benutzern Skype Besprechungen App nicht gesendet werden. 
   
 ## <a name="software-requirements"></a>Softwareanforderungen
 <a name="OS-Browser"> </a>
@@ -54,14 +54,14 @@ Verwendung der Skype für Business Web App, die ein Benutzer muss eine der folge
 
 | Betriebssystem | Edge | 32- und 64-Bit InternetExplorer 11 oder höher | 32- und 64-Bit InternetExplorer 10 oder höher | 32- und 64-Bit InternetExplorer 9 oder höher | 32- und 64-Bit-Version von Safari 6.2.8 - 11.X | 32- und 64-Bit Version von Chrome 18.X oder höher |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |Ja  <br/> |Ja  <br/> |n/v  <br/> |n/v  <br/> |n/v  <br/> |Ja & #x 2778; <br/> |
-|Windows 8.1 & #x 2776; <br/> |n/v  <br/> |Ja  <br/> |n/v  <br/> |n/v  <br/> |n/v <br/> |Ja & #x 2778; <br/> |
-|Windows 8 (Intel-basiert) & #x 2776; <br/> |n/v  <br/> |n/v  <br/> |Ja  <br/> |n/v <br/> |n/v  <br/> |Ja & #x 2778; <br/> |
+|Windows 10  <br/> |Ja   <br/> |Ja  <br/> |-  <br/> |-  <br/> |-  <br/> |Ja & #x 2778; <br/> |
+|Windows 8.1 & #x 2776; <br/> |n/v  <br/> |Ja  <br/> |-  <br/> |-  <br/> |- <br/> |Ja & #x 2778; <br/> |
+|Windows 8 (Intel-basiert) & #x 2776; <br/> |-  <br/> |n/v  <br/> |Ja  <br/> |- <br/> |-  <br/> |Ja & #x 2778; <br/> |
 |Windows 7 mit SP1 & #x 2777; <br/> |n/v  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |n/v <br/>|Ja & #x 2778; <br/> |
-|Windows Server 2008 R2 mit SP1 & #x 2777; <br/> |n/v  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |n/v <br/>|Ja & #x 2778; <br/> |
-|Mac OS 10,8 und höher (Intel-basiert) & #x 2777; <br/> |n/v  <br/> |n/v  <br/> |n/v  <br/> |n/v  <br/> |Ja  <br/> |Ja <br/> |
+|Windows Server 2008 R2 mit SP1 & #x 2777; <br/> |n/v  <br/> |Ja  <br/> |Ja   <br/> |Ja  <br/> |Nicht zutreffend <br/>|Ja & #x 2778; <br/> |
+|Mac OS 10,8 und höher (Intel-basiert) & #x 2777; <br/> |-  <br/> |-  <br/> |-  <br/> |n/v  <br/> |Ja  <br/> |Ja <br/> |
    
-& #x 2776; Die Skype für Web-Geschäfts-App-Browser-Plug-in erfordert eine bestimmte Freigabe-Plug-Ins computerbasierter, Video, Freigabe und Anzeige von laufenden Bildschirmfreigabe und anderen Features verwenden. Ein Teilnehmer der Besprechung erhält die Option zum Installieren der Freigabe-Plug-in beim Beitritt zu der Besprechung oder wenn sie eines dieser Features initiieren. Unter Windows 8 und Windows 8.1 kann die Freigabe-Plug-In installiert werden nur, wenn Sie Internet Explorer 10 oder Internet Explorer 11 für den Desktop ausführen. Diese Funktionen sind mit anderen (Nicht-Desktop-) Versionen von Internet Explorer 10 oder Internet Explorer 11 nicht verfügbar. Beachten Sie, dass Firefox und Safari Version 12.0 oder höher nicht mehr unterstützt werden.
+& #x 2776; Die Skype für Web-Geschäfts-App-Browser-Plug-in erfordert eine bestimmte Freigabe-Plug-Ins computerbasierter, Video, Freigabe und Anzeige von laufenden Bildschirmfreigabe und anderen Features verwenden. Ein Teilnehmer der Besprechung erhält die Option zum Installieren der Freigabe-Plug-in beim Beitritt zu der Besprechung oder wenn sie eines dieser Features initiieren. Unter Windows 8 und Windows 8.1 kann die Freigabe-Plug-In installiert werden nur, wenn Sie Internet Explorer 10 oder Internet Explorer 11 für den Desktop ausführen. Diese Funktionen stehen nicht mit nicht-Desktop-Versionen von Internet Explorer 10 und 11. Beachten Sie, dass Firefox und Safari Version 12.0 oder höher nicht mehr unterstützt werden.
   
 & #x 2777; Klicken Sie auf unterstützte Windows 7, Windows Server 2008 R2 und Macintosh-Betriebssysteme sind alle Features verfügbar, einschließlich computerbasierter, Video, Anwendung anzeigen, Anwendungsfreigabe, desktop anzeigen und Desktopfreigabe. Um diese Funktionen zu verwenden, müssen Sie ein Plug-In installieren, wenn Sie dazu aufgefordert werden. Mac OS X Version 10.7 wird nicht mehr unterstützt.
   
@@ -72,12 +72,14 @@ Verwendung der Skype für Business Web App, die ein Benutzer muss eine der folge
   
 ### <a name="skype-meetings-app"></a>Skype-Besprechungs-App
 
-Die Skype Besprechungen App als einer app auf Computern mit Windows 10, Windows 8.1, Windows 8, Windows 7 mit 32- und 64-Bit Internet Explorer 11 ausgeführt oder höher installiert sein. 
+Skype-Besprechungen App als einer app auf Computern mit Windows 10, Windows 8.1, Windows 8, Windows 7 mit 32- und 64-Bit Internet Explorer 11 ausgeführt oder höher installiert sein. 
   
-Die app führt auch auf Mac OS 10.10 oder spätere Betriebssysteme mit keine bestimmten Browser Abhängigkeit. 
+Andere Abhängigkeiten finden Sie unter [Unterstützte Plattformen für Skype Besprechungen App](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
   
-Informationen zu anderen Abhängigkeiten finden Sie unter [Unterstützte Plattformen für die Skype-Besprechungs-App](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001).
-  
+### <a name="skype-for-business-for-mac"></a>Skype für Unternehmen für Mac
+
+Skype für Unternehmen für Mac auf Computern unter Mac OS Version 10,8 oder höher ausgeführt wird. 
+
 ## <a name="hardware-requirements"></a>Hardwareanforderungen
 <a name="OS-Browser"> </a>
 
@@ -102,7 +104,7 @@ Die folgende Tabelle vergleicht die besprechungsfunktionen für Benutzer des Sky
 |Audio für authentifizierte Teilnehmer zu einem Telefon wechseln  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Audio für Gastteilnehmer zu einem Telefon wechseln  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||
 |Video mit mehreren Teilnehmern anzeigen (Katalogansicht)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|Videobasierte Bildschirmübertragung  <br/> |& #x 2714;|& #x 2714; <br/> |& #x2714;(View-only)  <br/> |||
+|Videobasierte Bildschirmübertragung  <br/> |& #x 2714;|& #x 2714; <br/> |&#x2714;(View-only)  <br/> |||
 |Steuerelemente für Referenten in Besprechungen verwenden  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Auf detaillierte Teilnehmerliste der Besprechung zugreifen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |An Chats mit mehreren Teilnehmern teilnehmen  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
@@ -133,7 +135,7 @@ Die folgende Tabelle vergleicht die besprechungsfunktionen für Benutzer des Sky
 |Alle zu Teilnehmern machen  <br/> |& #x 2714;|||||
 |Skype Meeting Broadcast erstellen  <br/> |& #x 2714;|||||
    
- & #x 2776;  Teilnehmer können nicht Desktops steuern, die von Skype für Unternehmen für Mac, Lync für Mac 2011 oder Communicator für Mac 2011 Benutzer freigegeben werden. Auch für die Skype for Business Web App unter Mac OS X funktioniert das nicht.
+ & #x 2776;  Teilnehmer können nicht Desktops steuern, die von Skype für Unternehmen für Mac, Lync für Mac 2011 oder Communicator für Mac 2011 Benutzer freigegeben werden. Dies auch funktioniert für Skype für Web-Geschäfts-App auf Max OSX nicht.
   
  & #x 2777;  Dieses Feature erfordert Microsoft PSTN-Konferenz, Exchange Unified Messaging, Skype für Business Online oder ein 3rd von Drittanbietern für Audiokonferenzen.
   
@@ -162,7 +164,7 @@ Für die Endbenutzer ist die [online-Hilfe](https://aka.ms/smahelp) für diese a
 
 Ab Skype für Business Server 2015 CU5 AES für ASP.NET 4.6 nicht unterstützt wird, und dadurch kann Skype Besprechungen App zu einem Fehler beim Starten. [Kryptografische Anforderungen aufgrund von ASP .NET 4.5](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) hat weitere Details.
   
-## <a name="see-also"></a>Waren diese Schritte hilfreich? Wenn ja, teilen Sie uns dies bitte unterhalb des Artikels mit. Wenn nicht, schreiben Sie uns, was für Sie unklar war, und wir verwenden Ihr Feedback, um unsere Schritte zu überprüfen.
+## <a name="see-also"></a>Siehe auch
 <a name="BKMK_Conferencing"> </a>
 
 [Bereitstellen Sie herunterladbare Webclients in Skype für Business Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)

@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Erfahren Sie mehr über das Verwalten von Ressourcenkonten in Microsoft-Teams
-ms.openlocfilehash: e8d3da4938a5040972b3c4853434808ca7457c90
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.openlocfilehash: a5b03c8bca7bcc8e012331afe9835a8de6cfe99a
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914594"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959505"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
@@ -65,51 +65,65 @@ Eine Telefonnummer ein, um ein Ressourcenkonto zuzuweisen, müssen Sie abzurufen
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Erstellen Sie ein Ressourcenkonto im Microsoft-Teams, Administrationscenter
 
-Navigieren Sie zum Erstellen einer Ressourcenkontos im Microsoft-Teams, Administrationscenter zu **Org geltende Settings** > **Ressourcenkonten**, klicken Sie dann auf **+ Hinzufügen**. Im Popup füllen Sie den Anzeigenamen und Benutzernamen für das Ressourcenkonto (der Domänenname sollte automatisch aufgefüllt) klicken Sie dann auf **Speichern**.
+Im Microsoft-Teams, Administrationscenter, navigieren Sie zu **Organisation geltende Settings** > **Ressourcenkonten**. 
+
+![ASD](media/r-a-master.png)
+
+![Nummer 1](media/sfbcallout1.png)
+
+So erstellen Sie eine neue Ressource Konto klicken Sie auf **+ Neues Konto**. Im Popup füllen Sie den Anzeigenamen und Benutzernamen für das Ressourcenkonto (der Domänenname sollte automatisch aufgefüllt) klicken Sie dann auf **Speichern**.
 
 ![Ressource-Konto](media/res-acct.png)
 
-Sie müssen auch das Ressourcenkonto eine Lizenz gilt gemäß [Zuweisen von Lizenzen für Benutzer in Office 365 für Unternehmen](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide)
+Im nächsten Schritt müssen Sie das Ressourcenkonto eine Lizenz gilt gemäß [Zuweisen von Lizenzen für Benutzer in Office 365 für Unternehmen](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)
 
-Sobald Sie das Ressourcenkonto erstellt und die Lizenz zugewiesen haben, klicken Sie auf **Zuweisen/Zuweisung entfernen** das Ressourcenkonto eine Telefonnummer zuweisen oder eine automatische Telefonzentrale oder ein Anruf-Warteschlange das Ressourcenkonto zugewiesen.
+![Zahlenformatvorlage 3](media/sfbcallout3.png) , nachdem Sie das Ressourcenkonto erstellt haben und die Lizenz zugewiesen haben, klicken Sie auf **Zuweisen/Zuweisung entfernen** das Ressourcenkonto eine Telefonnummer zuweisen oder zuweisen die Ressource berücksichtigt werden an eine automatische Telefonzentrale oder aufrufen Warteschlange, die bereits vorhanden ist. Wenn die Warteschlange Anruf oder automatische Telefonzentrale weiterhin erstellt werden soll, können Sie das Ressourcenkonto verknüpfen, während Sie es erstellen. Klicken Sie auf **Speichern** , wenn Sie fertig sind.
+
+![Ressourcenkonto zuweisen](media/r-a-assign.png)
+
+![Zahlenformatvorlage 2](media/sfbcallout2.png) können Sie den Anzeigenamen der Ressource-Konto mit der Option **Bearbeiten** bearbeiten.  Klicken Sie auf **Speichern** , wenn Sie fertig sind.
+![Ressourcenkonto bearbeiten](media/r-a-edit.png)
 
 ## <a name="create-a-resource-account-in-powershell"></a>Erstellen Sie ein Ressourcenkonto in Powershell
 
 Für Microsoft aufrufende plant können Sie nur zuweisen gebührenpflichtige oder gebührenfreie Service Telefonnummern, die Sie haben Sie in der **Microsoft-Teams, Administrationscenter** oder Port aus einer anderen Dienstanbieter ein Ressourcenkonto. Um gebührenfreie Servicenummern zu erhalten müssen Sie Communication Credits einrichten.
 
-Je nachdem, ob Ihre Telefonnummer online oder lokal befindet müssen Sie in der entsprechenden Aufforderung Powershell mit Administratorberechtigungen eine Verbindung herstellen.
+Je nachdem, ob Ihr Ressourcenkonto online oder lokal befindet müssen Sie in der entsprechenden Aufforderung Powershell mit Administratorberechtigungen eine Verbindung herstellen. 
+- Die folgenden Powershell, Cmdlet-Beispiele nehmen an, dass das Ressourcenkonto online verwaltet wird, mithilfe von [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) ein Ressourcenkonto erstellen, die online verwaltet wird.
 
+- Ressource Konten lokal in Skype für Business Server 2019, die mit Cloud aufrufen, Warteschlangen und Cloud-Telefonzentralen verwendet werden können, finden Sie unter [Konfigurieren von Cloud Aufrufen von Warteschlangen](/skypeforbusiness/SfbHybrid/hybrid/configure-call-queue.md) oder [Cloud-Telefonzentralen konfigurieren](/skypeforbusiness/SfbHybrid/hybrid/configure-cloud-auto-attendant.md). Hybrid-Implementierungen (Zahlen verwaltet auf direktes Routing) werden [Neu CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)verwenden.
 
-- Hybrid Implementierungen (Zahlen verwaltet auf direktes Routing) werden [Neu CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) verwenden, um ein Ressourcenkonto erstellen, die lokal verwaltet wird.  
-- Nur Online Implementierungen [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) verwendet, die ein Resource-Konto verfügen, die online verwaltet wird.
+Die Anwendung IDs, dass Sie beim Erstellen der Anwendung Listeninstanzen werden verwenden müssen:
+- **Automatische um-Telefonzentrale:** ce933385-9390-45d1-9512-c8d228074e07
+- **Warteschlange aufrufen:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-Es folgt ein Beispiel für online-Umgebung mit einer automatischen Telefonzentrale ApplicationID Ressourcenkonto erstellen. Für eine Warteschlange Anruf können Sie die folgenden ApplicationID 11cd3e2e-Fccb-42ad-ad00-878b93575e07 verwenden:
+> [!NOTE]
+> Wenn Sie die Warteschlange Anruf möchten oder automatische Telefonzentrale von lokalen Benutzern durchsucht werden können, sollten Sie Ihre Ressource Konten am Standort, erstellen, da online-Ressourcenkonten nicht nach unten zu Active Directory synchronisiert werden.
+
+1. So erstellen Sie das Benutzerkonto eine Ressource für verwenden mit eine automatische Telefonzentrale, mit den folgenden Befehl ein.  
 
 ``` Powershell
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
-$resacct=Get-MsolUser -UserPrincipalName testra1@contoso.com
 ```
 
-Weitere Informationen zu diesem Befehl finden Sie unter [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps) .
+2. Sie werden nicht das Ressourcenkonto verwenden, bis Sie eine Lizenz darauf anwenden können. Dafür, wie ein Konto im Office 365 Administrationscenter eine Lizenz zuweisen, finden Sie unter [Zuweisen von Lizenzen für Benutzer in Office 365 für Unternehmen] (https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user sowie [Skype für Business Lizenzen zuweisen](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) .
 
-> [!NOTE]
-> Es ist am einfachsten, die mit dem Microsoft-Teams, Administrationscenter online Telefonnummer festgelegt, wie im nächsten Abschnitt beschrieben. Sie können auch die `Set-CsOnlineVoiceApplicationInstance` Befehl für eine Zuweisung eine Rufnummer, das Ressourcenkonto nach der anfänglichen Erstellung wie dargestellt:
+3. (Optional) Nachdem die richtige Lizenz auf das Ressourcenkonto angewendet wird können Sie eine Telefonnummer ein, das Ressourcenkonto festlegen, wie unten dargestellt. Nicht alle Resource Konten erfordern eine Telefonnummer ein. Die Telefon Zuweisung schlägt fehl, wenn Sie eine Lizenz nicht auf das Ressourcenkonto angewendet haben.
 
 ``` Powershell
-Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
+Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com
  -TelephoneNumber +14255550100
 Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
 ```
 
-Die Telefon Zuweisung schlägt fehl, wenn Sie keine Lizenz beim Erstellen des Ressourcenkontos anwenden. 
-
 Weitere Informationen zu diesem Befehl finden Sie unter [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) .
 
-
+> [!NOTE]
+> Es ist am einfachsten, die mit dem Microsoft-Teams, Administrationscenter online Telefonnummer festgelegt, wie oben beschrieben.
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>Verwalten von Einstellungen für Ressource-Konto im Microsoft-Teams, Administrationscenter
 
-Navigieren Sie zum Verwalten von Einstellungen der Ressource-Konto im Microsoft-Teams, Administrationscenter zu **Org geltende Settings**  > **Ressource Firmen**, auswählen das Ressourcenkonto Sie Einstellungen für ändern müssen und dann auf die Schaltfläche **Bearbeiten** . Klicken Sie im Bildschirm **Bearbeiten Ressourcenkonto** werden Sie ändern die:
+Navigieren Sie zum Verwalten von Einstellungen der Ressource-Konto im Microsoft-Teams, Administrationscenter zu **Org geltende Settings**  > **Ressource Firmen**, auswählen das Ressourcenkonto Sie Einstellungen für ändern müssen und dann auf die Schaltfläche **Bearbeiten** . Klicken Sie im Bildschirm **Ressourcenkonto bearbeiten** können Sie diese Einstellungen zu ändern:
 
 - **Anzeigename** für das Konto
 - Rufen Sie die Warteschlange oder automatische um-Telefonzentrale, die das Konto verwendet
@@ -127,13 +141,13 @@ Für Implementierungen sind, Hybrid mit Skype für Business Server:
 
 Für Implementierungen in Teams oder Skype für Business Online:
 
-[Was sind automatische Telefonzentralen Cloud?](what-are-phone-system-auto-attendants.md)
+[Was sind automatische Cloudtelefonzentralen?](what-are-phone-system-auto-attendants.md)
 
-[Richten Sie eine Cloud-Telefonzentrale](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+[Einrichten einer automatischen Cloudtelefonzentrale](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
 [Beispiel für Kleinunternehmen – Einrichten einer automatischen Telefonzentrale](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[Erstellen einer Cloud-Anruf-Warteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+[Erstellen einer Cloudanrufwarteschleife](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [Neue CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ce14fee8e9039f538d39c61ef4436c69160b222
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 072fc92184841be318e84e7891a204d1b7576215
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640946"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959521"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Governance in Teams.
 
@@ -117,7 +117,7 @@ Teams bietet detaillierte Funktionen zur Kontrolle messaging, Besprechung, aufru
 
 Eine detaillierte Liste aller Einstellungen, einschließlich technische Anleitungen für Implementierungsmethode für Ihre Organisation finden Sie unter den folgenden Artikeln:
 
--   [Verwalten von Microsoft Teams-Features in Ihrer Office 365-Organisation](enable-features-office-365.md)
+-   [Verwalten von Einstellungen für Ihre Organisation Microsoft-Teams](enable-features-office-365.md)
 -   [Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 -   [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md)
 

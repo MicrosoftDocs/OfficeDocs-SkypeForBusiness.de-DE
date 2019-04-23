@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Informationen Sie zu Analytics aufrufen und Qualitätsdashboard aufrufen und verwenden sie zur Überwachung und Problembehandlung Anrufqualität.
-ms.openlocfilehash: 057d74a5c0dcda70119eb16eed3a048b459c087c
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: c85bcecd31c978616e5394740efac6bb5c28c07c
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026221"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993654"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Anrufanalyse- und Anrufqualitäts-Dashboard
 
@@ -77,7 +77,7 @@ Mit der Hilfe CQDs Location-Enhanced Berichte können aggregierte Anrufqualität
 ![Screenshot des Anrufqualität Dashboard Speicherort mit erhöhter Berichte. Registerkarten dargestellt sind Übersicht, Gebäude - verkabelt, Gebäude - WiFi und Mobile (LZF). Ein Filter wird angewendet, um die Datenströme in einem bestimmten Gebäude anzuzeigen.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
-> Um-spezifische Erstellen von Ansichten in CQD zu aktivieren, müssen ein Administrator auf CQDs Mandanten Datenupload Seite [Informationen zum Erstellen von hochladen](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload) .
+> Um Gebäude oder Endpunkt-spezifische Ansichten in CQD zu aktivieren, müssen ein Administrator auf CQDs Mandanten Datenupload Seite [Informationen zum Erstellen von oder Endpunkt hochladen](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) . 
 
 Nicht-Administratoren, wie etwa Helpdesk-Agents auf Wunsch können zum Aufrufen Dashboard für die Qualität, verwenden Sie diese Benutzer die Rolle **Teams Communications Supporttechniker**, **Teams Communications Supportspezialisten**oder **Leser von Berichten** zuweisen. Benutzer mit den folgenden Rollen können aufrufen Qualitätsdashboard zugreifen:
 

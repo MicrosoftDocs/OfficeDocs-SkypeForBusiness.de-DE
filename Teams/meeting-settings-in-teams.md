@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Informationen Sie zum Verwalten von Einstellungen für Teams Besprechungen, die Benutzer in Ihrer Organisation planen.
-ms.openlocfilehash: ec43fe9c436de612440bbec687868dc4de749191
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 4ded26dae69b5afef1d9fafb4819a73475c44898
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494253"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959537"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -46,10 +46,10 @@ Wenn Sie nicht, dass anonyme Benutzern die Teilnahme von Benutzern in Ihrer Orga
 
 Sie können Teams Besprechungsanfragen erfüllen der Anforderungen Ihrer Organisation anpassen. Sie können Ihrer Organisation Logo und enthalten hilfreiche Informationen, wie Links zu Support-Website und Haftungsausschluss und eine nur-Text-Fußzeile.
 
-### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Tipps zum Erstellen eines Logos für Besprechungseinladungen  
+### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Tipps zum Erstellen eines Logos für Besprechungsanfragen  
 
 1. Erstellen Sie ein Bild, das nicht mehr als 188 Pixel breit und 30 Pixel hoch ist (es ist sehr klein).
-2. Speichern Sie das Bild im JPG-Format.
+2. Speichern Sie das Bild wird im JPG-Format.
 3. Speichern Sie das Bild in einen zentralen Speicherort, den alle Benutzer in Ihrer Organisation, wie etwa einer Netzwerkfreigabe zugreifen können.
 
 ### <a name="customize-your-meeting-invitations"></a>Anpassen der besprechungseinladungen
@@ -100,6 +100,6 @@ Media-Datenverkehrstyp| Client-Quellportbereich\* |Protokoll|DSCP-Wert|DSCP-Klas
 
 \*Die Portbereiche, die Sie zuweisen können nicht überlappen und nebeneinander sein.
 
-Festlegen von Portbereichen für unterschiedliche Datenverkehrstypen ist nur ein Schritt bei der Behandlung von Real Time Media, finden Sie unter [Quality of Service (QoS) in Teams](qos-in-teams.md) für wesentlich mehr Details. Wenn Sie aktivieren oder ändern, Teams Admin Center, müssen Sie die Änderungen an QoS vollständig in Teams implementieren zum [entsprechende Einstellungen für alle Benutzer Geräte anwenden](QoS-in-Teams-clients.md) und internen Netzwerkgeräte.
+Festlegen von Portbereichen für unterschiedliche Datenverkehrstypen ist nur ein Schritt bei der Behandlung von Real Time Media. Weitere Details finden Sie unter [Quality of Service (QoS) in Teams](qos-in-teams.md) . Wenn Sie aktivieren oder ändern, in der Verwaltungskonsole von Microsoft-Teams, müssen Sie die Änderungen an QoS vollständig in Teams implementieren zum [entsprechende Einstellungen für alle Benutzer Geräte anwenden](QoS-in-Teams-clients.md) und internen Netzwerkgeräte.
 
 Nachdem QoS verwendet wurde für eine Weile haben Sie Informationen zur Verwendung auf die Anforderung für jede der folgenden drei Arbeitslasten, und Sie können auswählen, welche Änderungen an Stellen auf Ihre Bedürfnisse Grundlage. [Rufen Sie Qualitätsdashboard](turning-on-and-using-call-quality-dashboard.md) wird mit dem hilfreich sein.

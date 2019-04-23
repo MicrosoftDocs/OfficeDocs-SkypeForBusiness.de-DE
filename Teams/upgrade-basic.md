@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e31cfcecf519489f21a99e9e68c14d92639a624c
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: b9c95e8eea5081be4b26732914cff7618b415021
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494165"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959386"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -64,7 +64,7 @@ Leitende Führungskräfte sind verantwortlich für den Erfolg des Unternehmens. 
 
 <a name="step-2"></a>
 
-## <a name="step-2-prepare-your-organization-for-teams"></a>Schritt 2. Bereiten Sie Ihre Organisation für Teams
+## <a name="step-2-prepare-your-organization-for-teams"></a>Schritt 2. Vorbereiten Ihrer Organisation auf Teams
 
 *(Etwa vier bis sechs Wochen vor dem Upgrade)*
 
@@ -78,7 +78,7 @@ Teams bietet kompatibel Skype für Business-Funktionalität – wie Sofortnachri
 - [Übersicht über Microsoft Teams](Teams-overview.md)
 - [Erfahren Sie mehr über Teams und Kanäle](teams-channels-overview.md)
 - [Technische Planung abgeschlossen](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [Verwalten von Skype-Chatroom-Systemen](https://aka.ms/srsdocs)
+- [Microsoft Teams Rooms verwalten](https://aka.ms/MTRDocs)
 
 [Zurück zum Seitenanfang](#about-upgrade-basic)
 
@@ -113,7 +113,7 @@ Bereitstellen der umfangreichen Hinweis an Ihre Benutzer erhält Zeit sie mit de
 
 **Ressourcen:**
 
-- [Verwalten von Teams Features in Ihrer Organisation](enable-features-office-365.md)
+- [Verwalten von Einstellungen für Ihre Organisation Microsoft-Teams](enable-features-office-365.md)
 - [Beispiel-e-Mail: Ankündigung aus, wenn Benutzer über Skype für Unternehmen](upgrade-emails-surveys.md#step-4-email)
 
 [Zurück zum Seitenanfang](#about-upgrade-basic)
@@ -164,7 +164,7 @@ Es wird empfohlen, nachdem jeder aktualisiert wurde, senden Sie eine e-Mail-Nach
 
 **Ressourcen:**
 
-- [Festlegen der Koexistenz und Einstellungen aktualisieren](setting-your-coexistence-and-upgrade-settings.md)
+- [Festlegen Ihrer Einstellungen für Koexistenz und Upgrades](setting-your-coexistence-and-upgrade-settings.md)
 - [Beispiel-e-Mail: einladen von Benutzern zu Teams](upgrade-emails-surveys.md#step-7-email)
 
 [Zurück zum Seitenanfang](#about-upgrade-basic)

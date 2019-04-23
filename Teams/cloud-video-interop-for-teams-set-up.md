@@ -1,6 +1,6 @@
 ---
-title: Einrichten von Cloud-Video-Interop für Microsoft-Teams
-author: lolaj
+title: Einrichten von Cloud-Video-Interoperabilität für Microsoft Teams
+author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
@@ -14,20 +14,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b51bcd5cd5813c317c79a5f89656e11423d91412
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b171b3fb5e73561ea5aea54e6e4f25bfabe6b0dc
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993621"
 ---
-# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Einrichten von Cloud-Video-Interop für Microsoft-Teams
+# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Einrichten von Cloud-Video-Interoperabilität für Microsoft Teams
 
 Nachdem Sie [auf Ihren Partnern Cloud Video Interop ausgewählt](cloud-video-interop.md)haben, müssen Sie der Planung Ihrer Bereitstellung, Get mit provisioning Details und Partner mandantenschlüssel und Zustimmung der video Interop-App in Ihrer Organisation einrichten. Im folgende Diagramm wird das Verfahren erläutert. 
 
 ![CVI in Ihrer Organisation bereitstellen.](media/deploying-cvi.png)
 
-## <a name="plan"></a>Planen
+## <a name="plan"></a>Plan
 
 Informationen zum Identifizieren eines Partners oder Partner für die Verwendung in Ihrer Organisation finden Sie unter [Cloud-Video-Interop für Microsoft-Teams](cloud-video-interop.md) . 
 

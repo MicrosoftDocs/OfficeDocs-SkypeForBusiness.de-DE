@@ -1,5 +1,5 @@
 ---
-title: Aktivieren Sie in Office 365-Organisation Microsoft-Teams
+title: Aktivieren von Microsoft Teams in Ihrer Office 365-Organisation
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1bf865f9efd7960e7c0df10859d6c821130990b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e68746631b6e30aedac347c8fb1c0c3c24d26675
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460924"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959148"
 ---
 # <a name="enable-teams-in-your-organization"></a>Aktivieren von Teams in Ihrer Organisation
 
@@ -32,7 +32,7 @@ ms.locfileid: "30460924"
 Microsoft Teams ist standardmäßig für alle Organisationen aktiviert. Wenn Sie Microsoft Teams im Vorschauzeitraum verwendet haben, bleibt die Einstellung erhalten, die Sie in der Microsoft Teams-Vorschau festgelegt haben. 
 
 
-Als Administrator für Ihre Organisation können Sie Benutzerlizenzen für einzelne Teams Zugriffsteuerung zuweisen, und können Sie zulassen oder blockieren, welche Inhaltsquellen in Teams verwendet werden können. Weitere Informationen finden Sie unter [Microsoft-Teams, Verwalten von Features in Office 365-Organisation](enable-features-office-365.md) oder [administratoreinstellung für apps im Microsoft-Teams](admin-settings.md) . 
+Als Administrator für Ihre Organisation können Sie Benutzerlizenzen für einzelne Teams Zugriffsteuerung zuweisen, und können Sie zulassen oder blockieren, welche Inhaltsquellen in Teams verwendet werden können. Weitere Informationen finden Sie unter [Microsoft-Teams, Verwalten von Einstellungen für die Organisation](enable-features-office-365.md) oder [administratoreinstellung für apps im Microsoft-Teams](admin-settings.md) . 
 
 
  

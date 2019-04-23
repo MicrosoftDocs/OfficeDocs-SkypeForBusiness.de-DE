@@ -1,5 +1,5 @@
 ---
-title: Verwalten des Benutzerzugriffs in Microsoft Teams
+title: Verwalten des Gastzugriffs in Microsoft Teams
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
@@ -14,19 +14,19 @@ search.appverid: MET150
 description: IT-Administratoren können Gäste auf der Mandantenebene hinzufügen, Richtlinien und Berechtigungen für Gastbenutzer festlegen und verwalten, festlegen, welche Benutzer Gäste einladen können, und Berichte über Gastbenutzeraktivität abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5be03fb6e28519c53457b6eaabd050a5d9a6bb3b
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 601582953136b982245bc7f4b2976c64d37424e7
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493941"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959244"
 ---
-<a name="manage-guest-access-in-microsoft-teams"></a>Verwalten des Benutzerzugriffs in Microsoft Teams
+<a name="manage-guest-access-in-microsoft-teams"></a>Verwalten des Gastzugriffs in Microsoft Teams
 ======================================
 
 **Gast** ist ein Benutzer-Lizenz in Microsoft-Teams, die alle Abonnements für Office 365 Business Premium, Office 365 Enterprise und Office 365 Education enthalten ist. Eine zusätzliche Office 365-Lizenz ist nicht erforderlich. Der Gastzugriff auf Microsoft Teams ist eine Einstellung auf Mandantenebene, die standardmäßig deaktiviert ist. Ausführliche Informationen zum Gastzugriff zu ermöglichen finden Sie unter [Aktivieren oder Deaktivieren der Gastzugriff auf Microsoft-Teams](set-up-guests.md).
 
-Nachdem der **Gast** User-Lizenz Typ aktiviert ist, können Sie Einstellungen konfigurieren, für Gäste über die Steuerelemente in [Microsoft-Teams, Verwalten von features in Office 365-Organisation](enable-features-office-365.md) und [Teams verwalten während des Übergangs auf die neue Microsoft beschrieben Teams Administrationscenter](manage-teams-skypeforbusiness-admin-center.md).     
+Nach Benutzer/Lizenztyp **Gast** aktiviert ist, können Sie zu konfigurieren für Gäste über die Steuerelemente in [Microsoft-Teams, Verwalten von Einstellungen für Ihre Organisation](enable-features-office-365.md) und [Teams verwalten während des Übergangs auf die neue Microsoft-Teams beschrieben Administrationscenter](manage-teams-skypeforbusiness-admin-center.md).     
     
 IT-Administratoren können Gäste auf der Ebene der Mandant hinzufügen, festlegen und Verwalten von Gast-Richtlinien für Benutzer und Berechtigungen und Pull Berichte über Benutzeraktivität Gast. Diese Steuerelemente sind über das Microsoft-Teams, Administrationscenter verfügbar. Inhalte und Aktivitäten von Gastbenutzern unterliegen dem gleichen Compliance- und Überwachungsschutz wie der Rest von Office 365.
 
@@ -39,7 +39,7 @@ Azure Active Directory-Portal können Sie Gäste und deren Zugriff auf Office 36
 > [!NOTE]
 > Microsoft-Teams berücksichtigt immer externe Azure Active Directory-Einstellungen zum Zulassen oder Sperren von Gast Benutzer Ergänzungen, die dem Mandanten. Weitere Informationen finden Sie unter [Autorisieren Gast Access in Microsoft-Teams](Teams-dependencies.md).
   
-## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff im Vergleich zum externen Zugriff (Verbund)
+## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff und externer Zugriff (Partnerverbund) im Vergleich
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
@@ -57,7 +57,7 @@ Teams verhindert nicht die Anzahl von Gästen, die Sie hinzufügen können. Die 
 
 ## <a name="guest-access-latencies"></a>Gast Access Wartezeiten
 
-Die Gasteinstellungen werden in Azure Active Directory festgelegt. Es dauert ca. 2 bis 24 Stunden, bis die Änderungen in der gesamten Office 365-Organisation wirksam werden. Wenn ein Benutzer die Meldung erhält "Wenden Sie sich an Ihren Administrator", wenn sie versuchen, ihr Team Gastsystem hinzuzufügen, ist es wahrscheinlich, dass das Feature Gast noch nicht aktiviert wurde, oder die Einstellungen für eine effektive sind noch nicht.
+Die Gasteinstellungen werden in Azure Active Directory festgelegt. Es dauert ca. 2 bis 24 Stunden, bis die Änderungen in der gesamten Office 365-Organisation wirksam werden. Wenn Benutzer versuchen, einen Gast zu ihrem Team hinzuzufügen, und dabei die Meldung „Wenden Sie sich an Ihren Administrator“ sehen, ist wahrscheinlich die Gastfunktion nicht aktiviert, oder die Einstellungen sind noch nicht wirksam.
 
 ## <a name="more-information"></a>Weitere Informationen
 

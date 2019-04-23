@@ -15,12 +15,12 @@ description: Aufgaben und Aktivitäten für Teams Servicemanagement, einschließ
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47628a52d91c3a9d0492accf9bcb8bce926f3649
-ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
+ms.openlocfilehash: 45de98935cdba03697c84172ba7a0c081b0811da
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/10/2019
-ms.locfileid: "31765181"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959236"
 ---
 # <a name="operate-my-service"></a>Verwenden des Diensts
 
@@ -480,7 +480,7 @@ Nachdem der Dienst Microsoft-Teams bereitgestellt wurde, müssen Sie mehrere Akt
 ### <a name="service-administration"></a>Verwalten des Diensts
 
 Der Dienst Teams hat mehrere Einstellungen, die gesamte Mandanten konfiguriert werden können.
-Änderungen an den Einstellungen für Mandanten betreffen alle Benutzer, die für Teams aktiviert wurden. Eine ausführliche Übersicht über diese Einstellungen finden Sie unter [Microsoft-Teams, Verwalten von Features in Office 365-Organisation](enable-features-office-365.md).
+Änderungen an den Einstellungen für Mandanten betreffen alle Benutzer, die für Teams aktiviert wurden. Eine ausführliche Übersicht über diese Einstellungen finden Sie unter [Microsoft-Teams, Verwalten von Einstellungen für Ihre Organisation](enable-features-office-365.md).
 
 ### <a name="user-administration"></a>Verwalten des
 

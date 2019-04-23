@@ -1,7 +1,7 @@
 ---
 title: Teamschaltung in Microsoft Teams
 ms.author: lolaj
-author: lolaj
+author: LolaJacobsen
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Darstellung einer freigegebenen Linie ermöglicht dem Benutzer die Stellvertreter zum entgegennehmen oder in ihrem Auftrag Anrufe auswählen.
-ms.openlocfilehash: 81eea77595f07db5772ffc4f3d6ee0b0dafa95c5
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: d16fe4b3241e814609999d8068ee47743bfca516
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993540"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Teamschaltung in Microsoft Teams
 

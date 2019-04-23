@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Reguläre Ausdrücke von .NET Framework nicht Skype für Normalisierungsregeln Business Server mit gewählten Telefonnummern in das e. 164-Format übersetzt wird. Anders ausgedrückt, Normalisierungsregeln übernehmen die von einem Benutzer gewählte Rufnummer und konvertieren diese Nummer in das Format von Skype für Business Server intern verwendet. Jedem Wählplan muss mindestens eine Normalisierungsregel zugewiesen werden.
-ms.openlocfilehash: 8e32ac485763c626d7d4347bb194fb4c4f3dba44
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a1157e9cf435fdd655e9d1772294fa3f57acf3f4
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993515"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Definieren von Normalisierungsregeln in Skype für Business Server
 
@@ -36,7 +36,7 @@ Führen Sie die folgenden Schritte aus, wenn Sie erstellen oder Ändern einer No
 
 1. Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Weitere Informationen hierzu finden Sie unter [Delegieren von setupberechtigungen](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL zum Öffnen der Systemsteuerung. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten der Skype für die Business-Systemsteuerung verwenden können, finden Sie unter [Installieren und open-Verwaltungstools](../../management-tools/install-and-open-administrative-tools.md).
-3. (Optional) Führen Sie die Schritte in [Erstellen Sie einen Dial Plan](GET LINK AFTER MIGRATION) bis Schritt 11 oder [Ändern eines Wählplans](GET LINK AFTER MIGRATION) bis Schritt 10. 
+3. (Optional) Führen Sie die Schritte in [Erstellen Sie einen Dial Plan](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-create-a-dial-plan) bis Schritt 11 oder [Ändern eines Wählplans](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-modify-a-dial-plan) bis Schritt 10. 
 4. Geben Sie unter **Neue Normalisierungsregel** oder **Normalisierungsregel bearbeiten** im Feld **Name** einen beschreibenden Namen für das zu normalisierende Nummernmuster ein (beispielsweise **5DigitExtension**).
 5. (Optional) Geben Sie in **Beschreibung** eine Beschreibung der Normalisierungsregel ein (beispielsweise „Übersetzt 5-stellige Durchwahlnummern“).
 6. Geben Sie im Abschnitt **Normalisierungsregel erstellen** Werte in die folgenden Felder ein:

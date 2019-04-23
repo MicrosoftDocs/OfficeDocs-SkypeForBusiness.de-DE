@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Im neuen Bereich Berichte im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht PSTN-Verwendungsdetails in Skype for Business die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
-ms.openlocfilehash: 9522cf7919808d059146e977de35a5590a05286f
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.openlocfilehash: 2a0db39852169cbb4c1dacab178d2f5b3b96dc7e
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993548"
 ---
 # <a name="pstn-usage-report"></a>Bericht „PSTN-Verbrauch“
 
@@ -34,7 +34,7 @@ Checken Sie der [Übersicht über die Berichte](https://support.office.com/artic
 In diesem Bericht, zusammen mit den anderen Skype für Business-Berichte, erhalten Sie Details auf Aktivität, einschließlich aufrufen Verwendung in Ihrer Organisation. Diese Angaben sind sehr hilfreich, wenn Sie untersuchen, für Ihre Organisation und für das Einrichten von [Communications haben](/microsoftteams/what-are-communications-credits) planen und Durchführen von anderen Business Entscheidungen
   
 > [!NOTE]
-> Sie können sich alle Skype for Business-Berichte ansehen, wenn Sie sich als Administrator beim Office 365 Admin Center anmelden 
+> Sie können sich alle Skype for Business-Berichte ansehen, wenn Sie sich als Administrator beim Office 365 Admin Center anmelden. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Abrufen des Berichts zu den PSTN-Verbrauchsdetails in Skype for Business
 
@@ -58,8 +58,8 @@ Der Bericht sieht wie folgt aus:
 *    **Anruf-ID** ist die ID für einen Anruf. Damit wird der Anruf eindeutig identifiziert, wenn Sie beim Microsoft-Support anrufen.
 *    **Benutzer-ID** ist der Anmeldename des Benutzers.
 *    **Rufnummer** ist die Skype for Business-Rufnummer, unter der ein eingehender Anruf empfangen wurde, oder die Nummer, die für einen ausgehenden Anruf gewählt wurde.
-*    **Benutzerstandort** ist das Land/die Region, in dem bzw. der sich der Benutzer befindet.  
-*    **Anrufer-ID** ist die Telefonnummer des Anrufers (Anrufer-ID). Bei eingehenden Anrufen handelt es sich um die Nummer, von der der Anruf ausging, und bei ausgehenden Anrufen um die Skype for Business-Nummer, von der der Anruf ausging.  
+*    **Benutzerstandort** ist das Land/die Region, in dem bzw. der sich der Benutzer befindet.   
+*    **Anrufer-ID** ist die Telefonnummer des Anrufers (Anrufer-ID). Bei eingehenden Anrufen handelt es sich um die Nummer, von der der Anruf ausging, und bei ausgehenden Anrufen um die Skype for Business-Nummer, von der der Anruf ausging.   
 *    **Anruftyp** gibt an, ob es sich um einen aus- oder eingehenden PSTN-Anruf handelte und um welchen Anruftyp es sich handelte (z. B. von einem Benutzer getätigter Anruf oder Audiokonferenz). Die folgenden Anruftypen sind möglich: 
 
      **Anrufplan-Anruftypen** 
@@ -78,10 +78,10 @@ Der Bericht sieht wie folgt aus:
      *    **ucap_out** (eine ausgehende PSTN-Anruf aus der UC-Anwendung wie automatische Telefonzentrale oder ein Anruf Warteschlange)
      *    **Hinweis:** Anrufe, die aus der UC-Anwendung an einen Benutzer übertragen wurden, wie eine automatische Telefonzentrale oder ein Anruf Warteschlange nicht in den Nutzungsbericht PSTN, da diese erscheint anrufabschnitte Audioanrufe für Peer-zu-Peer (P2P) sind. Wählen Sie Zugriff auf die P2P-Anrufe in die Skype für Business Admin Center unter "Tools > Skype für Anruf BA" und zum Suchen nach Benutzername oder SIP-Adresse den Aufruf von Datum/Uhrzeit Korrelieren und/oder Ursprung CLID (Aufrufen von Zeile-ID). 
 *     
-     **Inland/International** gibt an, ob der getätigte Anruf basierend auf dem Standort des Benutzers ein Inlandsanruf (innerhalb eines Lands bzw. einer Region) oder ein Auslandsanruf (außerhalb eines Lands bzw. einer Region) war.   
-*    **Gewähltes Ziel** ist der Name des gewählten Lands bzw. der gewählten Region, beispielsweise Frankreich, Deutschland oder Vereinigte Staaten (USA).   
+     **Inland/International** gibt an, ob der getätigte Anruf basierend auf dem Standort des Benutzers ein Inlandsanruf (innerhalb eines Lands bzw. einer Region) oder ein Auslandsanruf (außerhalb eines Lands bzw. einer Region) war.    
+*    **Gewähltes Ziel** ist der Name des gewählten Lands bzw. der gewählten Region, beispielsweise Frankreich, Deutschland oder Vereinigte Staaten (USA).    
 *    **Zahl** ist der Typ der Telefonnummer, die Telefonnummer des Benutzers ein Dienst oder eine gebührenfreie Telefonnummer stammt.  
-*    **Startzeit (UTC)** ist die Uhrzeit, zu der der Anruf gestartet bzw. getätigt wurde.   
+*    **Startzeit (UTC)** ist die Uhrzeit, zu der der Anruf gestartet bzw. getätigt wurde.    
 *    **Dauer** gibt an, wie lange der Anruf verbunden war.  
 *    **ConfID** (Konferenzkennung) ist die Konferenzkennung der Audiokonferenz. 
 *    **Gebühren** ist der Betrag (Kosten des Anrufs), der Ihrem Konto für den Anruf belastet wird. 
@@ -98,6 +98,9 @@ Der Bericht sieht wie folgt aus:
 ***
 > [!NOTE]
 > Sie können auch "keine Daten" in einigen Feldern finden Sie unter. "Keine Daten" bedeutet, dass das Feld nicht auf den Anruftyp oder Funktion angewendet ist. 
+***
+> [!NOTE]
+> Wenn Sie einen Telstra aufrufenden Plan haben, nicht sehen Sie eine call Detail Records, in der PSTN-Verwendungsbericht. Wenden Sie sich an Telstra für Ihre Bedürfnisse reporting. 
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
  ***

@@ -15,16 +15,16 @@ description: Hier erhalten Sie einen kurzen Überblick darüber, wie ein Gast ei
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d8bc9eabb467479b0b33793ace9fc0b97d179f93
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2019
+ms.lasthandoff: 04/22/2019
 ms.locfileid: "30640714"
 ---
 <a name="how-a-guest-joins-a-team"></a>Beitritt eines Gasts zu einem Team
 ========================
 
-Ein Teambesitzer inMicrosoft Teams kann Gäste im Team über das Web oder den Desktop hinzufügen und verwalten. Jeder Benutzer mit einer Business "oder" Consumer e-Mail-Konto, wie Outlook, Google Mail oder andere, kann als Gast in Teams vollen Zugriff auf Team Chats, Besprechungen und Dateien teilnehmen. Nur Personen außerhalb Ihrer Organisation, z. B. Partner oder Berater, können als Gäste hinzugefügt werden. Personen innerhalb Ihrer Organisation können als reguläre Teammitglieder beitreten.
+Ein Teambesitzer inMicrosoft Teams kann Gäste im Team über das Web oder den Desktop hinzufügen und verwalten. Alle Benutzer, die über ein E-Mail-Konto für Geschäftsbenutzer oder Heimanwender (z. B. Outlook, Gmail usw.) verfügen, können als Gäste in Microsoft Teams teilnehmen und erhalten Vollzugriff auf Chats, Besprechungen und Dateien des Teams. Nur Personen außerhalb Ihrer Organisation, z. B. Partner oder Berater, können als Gäste hinzugefügt werden. Personen innerhalb Ihrer Organisation können als reguläre Teammitglieder beitreten.
   
 > [!NOTE]
 > Bevor Gäste einem Team beitreten können, muss ein Administrator den Gastzugriff in Teams aktivieren. Klicken Sie dazu finden Sie unter [Aktivieren oder Deaktivieren der Gastzugriff für Microsoft-Teams](set-up-guests.md). 
@@ -44,6 +44,6 @@ Gäste können ein Team jederzeit über Teams-Webclients und -Desktopclients ver
 > [!NOTE]
 > Das Team verlassen entfernen nicht das Gastkonto von der Organisation-Mandanten. Finden Sie in [einer Organisation als Gast lassen](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization) , selbst aus der Organisation zu entfernen. Alternativ kann der Organisation Admin Gastbenutzer aus den Mandanten entfernen.
 
-## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff im Vergleich zum externen Zugriff (Verbund)
+## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff und externer Zugriff (Partnerverbund) im Vergleich
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
