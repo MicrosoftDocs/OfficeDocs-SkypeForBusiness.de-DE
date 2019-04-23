@@ -4,7 +4,7 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 ms.date: 12/10/2018
-ms.topic: article
+ms.topic: reference
 audience: Admin
 ms.reviewer: annikaelias
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4fdeba0e4540d64e98eb2853b73e6d1edb5110e
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 5633250ce07d0baed78ab98220ea39e76cd691ff
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569615"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959418"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Verwalten des Angebots für einen Test der kommerziellen Cloud von Microsoft Teams
 =======================================================
@@ -124,7 +124,7 @@ So deaktivieren Sie die Testlizenz:
 
 ### <a name="manage-teams-for-users-who-have-the-trial-license"></a>Verwalten von Microsoft Teams für Benutzer, die über die Testlizenz verfügen
 
-Sie können Benutzer mit einer Testlizenz genauso verwalten wie Benutzer mit einer regulären kostenpflichtigen Lizenz. Weitere Informationen finden Sie unter [Verwalten von Microsoft Teams-Features in Ihrer Office 365-Organisation](enable-features-office-365.md).
+Sie können Benutzer mit einer Testlizenz genauso verwalten wie Benutzer mit einer regulären kostenpflichtigen Lizenz. Weitere Informationen finden Sie unter [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md).
 
 ### <a name="upgrade-users-from-the-trial-license"></a>Upgraden von Benutzern mit Testlizenz
 
