@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lesen Sie dieses Thema Weitere Informationen zu den Schritten zum Bereitstellen von, dass die medienumgehung mit Cloud Connector Edition, Version 2.0 und höher.
 ms.openlocfilehash: f4ea5449e7a324ae206241af25d12ecabf9c5259
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878049"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234084"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Die medienumgehung in der Cloud Connector Edition bereitstellen
  

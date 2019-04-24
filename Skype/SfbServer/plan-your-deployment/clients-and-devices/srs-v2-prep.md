@@ -13,11 +13,11 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: In diesem Artikel wird erläutert, die Infrastruktur vorbereitenden Schritte für die Bereitstellung von Microsoft-Teams Chatrooms.
 ms.openlocfilehash: ac1bcfc374350bde38d8e37f8870e1d3223a511c
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013001"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214498"
 ---
 # <a name="prepare-your-environment"></a>Vorbereiten der Umgebung
 
@@ -38,7 +38,7 @@ Dieser Abschnitt enthält eine Übersicht über die erforderlichen Schritte zur 
    - Wenn Sie in Ihrem Netzwerk einen Proxy verwenden, benötigen Sie außerdem die Proxyadresse oder Skriptinformationen.
     
      > [!NOTE]
-     > Microsoft-Teams Chatrooms unterstützt keine HDCP-Eingang beobachtet hat verursacht Probleme mit HDMI Aufnahme Funktionalität (Video, audio). Achten Sie darauf, dass Switches angeschlossen zu Microsoft-Teams Räumen HDCP-Optionen deaktiviert aufweisen. 
+     > Microsoft Teams Rooms unterstützt keine HDCP-Eingabe. Von dieser ist bekannt, dass sie Probleme mit der HDMI-Erfassungsfunktion (Video, Audio) verursacht. Stellen Sie sicher, dass die HDCP-Optionen der mit Microsoft Teams Rooms verbundenen Switches deaktiviert sind. 
   
 3. Microsoft erfasst Daten, um die Benutzerfreundlichkeit zu verbessern. Für die Erfassung der Daten müssen die folgenden Sites in der Whitelist enthalten sein:
     
@@ -133,7 +133,7 @@ Provisioning Pakete verwendet zum Authentifizieren zu Exchange Server oder Skype
 Nach der Domäne beitreten können Sie Gruppenrichtlinien oder dem lokalen Computer Management verwenden, um eine Sicherheitsgruppe als lokaler Administrator ebenso wie für einen Windows-PC in Ihrer Domäne festzulegen. Jeder Benutzer, der Mitglied der Sicherheitsgruppe ist kann seine Anmeldeinformationen eingeben und entsperren Einstellungen.
   
 > [!NOTE]
-> Wenn Ihr Microsoft-Teams Chatrooms Gerät verliert Vertrauensstellung mit der Domäne (beispielsweise, wenn Sie die Microsoft-Teams Räume aus der Domäne entfernen, nach der Domäne beigetreten ist), werden nicht Sie an das Gerät authentifizieren und Einstellungen zu öffnen. Melden Sie sich über das lokale Administratorkonto werden der umgangen. 
+> Wenn die Vertrauensstellung zwischen Ihrem Microsoft Teams Rooms-Gerät und der Domäne verloren geht (zum Beispiel, wenn Sie Microsoft Teams Rooms nach dem Domänenbeitritt aus der Domäne entfernen), können Sie sich nicht gegenüber dem Gerät authentifizieren und die Einstellungen öffnen. Die Lösung ist, sich mit dem lokalen Administratorkonto anzumelden. 
   
 ## <a name="local-accounts"></a>Lokale Konten
 
@@ -168,4 +168,4 @@ Viel wie Windows-Gerät den Namen des Computers können umbenannt werden durch K
   
 [Konfigurieren einer Microsoft-Teams Räume-Konsole](../../deploy/deploy-clients/console.md)
   
-[Verwalten von Microsoft-Teams, Räume](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Microsoft Teams Rooms verwalten](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

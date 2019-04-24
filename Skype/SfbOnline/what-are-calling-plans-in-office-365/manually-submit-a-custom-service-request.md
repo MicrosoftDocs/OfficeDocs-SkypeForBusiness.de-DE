@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
 ms.openlocfilehash: 7c44e6be750e4793083a0fa931874db2e6b09b80
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371873"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229857"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>Manuelles Übermitteln einer benutzerdefinierten Serviceanfrage
 
@@ -98,13 +98,13 @@ In einigen Ländern/Regionen müssen Sie auch eine benutzerdefinierte Serviceanf
 8. Überprüfen Sie die Informationen, und klicken Sie dann auf **Submit request** (Anfrage senden).
     
 > [!TIP]
-> Die Referenznummer wird im Office 365 Admin Center auf der Seite **Serviceanfragen** aufgelistet.
+> Die Referenznummer wird im Office 365 Admin Center auf der Seite **Serviceanfragen** angezeigt.
   
-## <a name="what-else-should-you-know-about-number-porting"></a>Was sollten Sie noch über die Nummernportierung wissen?
+## <a name="what-else-should-you-know-about-number-porting"></a>Was sollten Sie über die Zahl Portieren wissen?
 
 - Verwenden Sie die Pläne aufrufen, müssen Sie erwerben und Ihren Benutzern Lizenzen zuweisen. [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
-- Sie müssen jedem Ihrer Benutzer eine neue Telefonnummer zuweisen. [Zuweisen, ändern oder entfernen Sie eine Rufnummer für einen Benutzer](assign-change-or-remove-a-phone-number-for-a-user.md).
+- Sie müssen die neue Telefonnummern, die Sie für jeden Ihrer Benutzer zuweisen. [Zuweisen, ändern oder entfernen Sie eine Rufnummer für einen Benutzer](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

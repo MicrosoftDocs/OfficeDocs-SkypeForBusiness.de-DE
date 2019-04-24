@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 'Verwenden Sie Archivierungskonfigurationen zum Steuern der Archivierungsoptionen für Ihre Bereitstellung. Zu den Archivierungskonfigurationen gehören die globale Konfiguration und optional eine oder mehrere Poolkonfigurationen:'
 ms.openlocfilehash: 2167b0ccc65a9bfc6ae731add156fa0b0925eaf2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234845"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Archivierungskonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Archivierungskonfiguration
  

@@ -14,11 +14,11 @@ ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection: M365-voice
 description: Lesen Sie dieses Thema zu erfahren Sie mehr über die Bereitstellung von Microsoft-Teams Räume unter umfangreiche Bereitstellungen.
 ms.openlocfilehash: fe6ffee0c6ab86496204ab4e17b86cc84a70a2a7
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013036"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214913"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Bereitstellen von Microsoft-Teams Chatrooms mithilfe von System Center Configuration Manager
 

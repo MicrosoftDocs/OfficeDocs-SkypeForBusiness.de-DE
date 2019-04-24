@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 description: Das Datenbankschema beständigen Chat besteht aus den folgenden Tabellen.
 ms.openlocfilehash: e2ce24bb37c3ea4eaee0986f0243033ab4a8a18a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898543"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213221"
 ---
 # <a name="list-of-persistent-chat-server-tables"></a>Liste der Tabellen für den Server für beständigen Chat
  

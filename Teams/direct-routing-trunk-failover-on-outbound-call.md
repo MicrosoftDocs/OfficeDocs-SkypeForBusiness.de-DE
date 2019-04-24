@@ -15,11 +15,11 @@ ms.collection:
 appliesto: Microsoft Teams
 description: Lesen Sie in diesem Thema erfahren, wie behandeln Trunk Failover auf ausgehende Anrufe von Teams, Session Border Controller (SBC).
 ms.openlocfilehash: 1a40cc3fa94bfba3c637769774f5f5b829d29ed4
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351106"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232645"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Trunkfailover bei ausgehenden Anrufen
 

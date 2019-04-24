@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: Jeder Datensatz in dieser Tabelle enthält Anrufdetails zu einer Konferenz.
 ms.openlocfilehash: f0401c150f3835772ba0df20f8c02c64c9919921
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881953"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213263"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>Conferences-Tabelle in Skype für Business Server 2015
  

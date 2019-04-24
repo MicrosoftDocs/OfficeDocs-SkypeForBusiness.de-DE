@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
 description: ProgressReport-Ansicht speichert Informationen zu beendeten konferenzsitzungen. Fortschrittsberichte geschrieben werden nur für anrufen und Sitzungen, die Lync Server 2013 bestimmt um zu Diagnosezwecken hilfreich sein können. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
 ms.openlocfilehash: 5f7cbba2580b83a65dbce00588f3c567317f4df4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891117"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212873"
 ---
 # <a name="progressreport-view"></a>ProgressReport-Ansicht
  

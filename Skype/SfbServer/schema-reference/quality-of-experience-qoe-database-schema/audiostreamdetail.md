@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: AudioStreamDetail-Ansicht werden Informationen zu jedem Audiostream in der Datenbank gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
 ms.openlocfilehash: c5078a0d936cce0dec29ddfee3813db7334aba71
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895286"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212291"
 ---
 # <a name="audiostreamdetail-view"></a>AudioStreamDetail-Ansicht
  

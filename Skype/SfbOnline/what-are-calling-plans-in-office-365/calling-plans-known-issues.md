@@ -1,5 +1,5 @@
 ---
-title: Bekannte Probleme mit Anrufplänen
+title: Bekannte Probleme von Anrufplänen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,17 +19,17 @@ ms.custom:
 - Calling Plans
 description: 'Learn known issues with the calling plan for Office 365 (PSTN Calling) and what you can do about them. '
 ms.openlocfilehash: 01a49749f472b6a3e591295cff7184dc26fd564a
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958411"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233225"
 ---
-# <a name="calling-plans-known-issues"></a>Bekannte Probleme mit Anrufplänen
+# <a name="calling-plans-known-issues"></a>Bekannte Probleme von Anrufplänen
 
 Aufrufen von Plänen in Office 365 sind ein neues Feature in Skype für Business Online gefunden. Im folgenden sind aktuelle Probleme, die werden nachverfolgt und aktiv untersucht. Sie werden potenziell aufgelöst werden, wenn das Feature für Business Online in zukünftigen Builds in Office 365 und Skype aktualisiert wird.
   
-## <a name="calling-plans-known-issues"></a>Bekannte Probleme mit Anrufplänen
+## <a name="calling-plans-known-issues"></a>Bekannte Probleme von Anrufplänen
 
 |**Bekanntes Problem**|**Anmerkungen**|
 |:-----|:-----|

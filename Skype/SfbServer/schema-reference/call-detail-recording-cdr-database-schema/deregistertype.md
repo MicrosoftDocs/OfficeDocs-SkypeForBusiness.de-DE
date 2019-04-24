@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 09148118-6209-4fd7-a494-99118689a245
 description: DeRegisterType-Tabelle handelt es sich um eine statische Tabelle, die die Liste der möglichen Benutzer speichert eine Aufhebung der Registrierung Typen, z. B. "vom Client initiierte", "Registrierung abgelaufen" oder "Client reagiert."
 ms.openlocfilehash: be6fd10388c9f85315554605fd491aafa9d3a0d0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213193"
 ---
 # <a name="deregistertype-table-in-skype-for-business-server-2015"></a>DeRegisterType-Tabelle in Skype für Business Server 2015
  

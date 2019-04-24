@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Zusammenfassung: Informationen Sie zum Vorbereiten von Active Directory-Domäne für eine Installation von Skype für Business Server. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
 ms.openlocfilehash: de5de35377e526844a7badeb9897fe29b4b15db4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210620"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Vorbereiten von Active Directory für Skype für Business Server
  

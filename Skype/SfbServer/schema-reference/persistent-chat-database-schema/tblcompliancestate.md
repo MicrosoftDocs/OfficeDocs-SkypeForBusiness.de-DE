@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
 description: TblComplianceState enthält poolweite Informationen zum kompatibilitätszustand.
 ms.openlocfilehash: 4e9f103ef019e743b5dfcb4ef554ff6a28c340b8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899292"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212635"
 ---
 # <a name="tblcompliancestate"></a>tblComplianceState
  

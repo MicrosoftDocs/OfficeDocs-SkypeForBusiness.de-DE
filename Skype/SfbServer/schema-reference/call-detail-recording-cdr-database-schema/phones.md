@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
 description: Phones-Tabelle ist eine Tabelle. Jeder Datensatz in der Tabelle speichert Informationen über eine Rufnummer beteiligt VoIP-Anrufe, die Datensätze in der Datenbank verfügen.
 ms.openlocfilehash: 733adec46e948c3b7f1d804f57011110355078f4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894642"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212887"
 ---
 # <a name="phones-table"></a>Phones-Tabelle
  

@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: 'Zusammenfassung: Konfigurieren des persönlichen kontaktspeichers von Legacyclients verwendet.'
 ms.openlocfilehash: 4afb40f57043988768118a0b83c0afe7e9df0028
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887778"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216655"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Konfigurieren Sie den Speicher für persönliche Kontakte auf Lync 2010-Client-Computern
   

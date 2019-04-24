@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
 description: 'PurgeSettings-Tabelle enthält Informationen, die angibt, ob (und wann) veraltete Quality of Experience-Einträge werden automatisch aus der QoE-Datenbank gelöscht werden. Beachten Sie, dass Bereinigung-bezogene Informationen ebenfalls innerhalb der Skype für Business Server-Verwaltungsshell gewonnen werden kann mithilfe des folgenden Befehls:'
 ms.openlocfilehash: b9aaa8b5fd988e1fb1476ec75077507b55aaf9d1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212334"
 ---
 # <a name="purgesettings-table-qoe"></a>PurgeSettings-Tabelle (QoE)
  

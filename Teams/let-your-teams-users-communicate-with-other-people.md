@@ -19,11 +19,11 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: Finden Sie unter Konfigurieren von Teams, damit die Benutzer mit Benutzern in anderen Organisationen kommunizieren können.
 ms.openlocfilehash: c3faf65dd3f36c193a75e74e73d90bf5e9be11df
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222371"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Lassen Sie Ihren Teams Benutzer Chat und kommunizieren mit Benutzern in einer anderen Organisation von Teams
 

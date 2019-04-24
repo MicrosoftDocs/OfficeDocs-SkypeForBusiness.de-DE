@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Dieser Artikel beschreibt die für den Skype for Business für Mac-Client verfügbaren Clienteinstellungen und Standardwerte sowie deren Bearbeitung außerhalb der App.
 ms.openlocfilehash: dd2f9b1d69e24f17cf76f33896804e5f50cd0ad3
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699295"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212747"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Anpassen der Mac-Clienterfahrung in Skype for Business
  
@@ -35,15 +35,15 @@ Wenn diese Einstellungen festlegen möchten, erhalten Sie auf einer terminal ein
 | Schlüssel | Typ | Wert | Beschreibung |
 |:-----|:-----|:-----|:-----|
 |AutoDetectAutoDiscoveryURLs    |Bool    |0 = manuelle Serverkonfiguration  <br/> 1 = automatische Servererkennung (Standardwert)    |Geben Sie an, wie Skype für Unternehmen Transportprotokoll und Server, die während der Anmeldung verwendet identifiziert. Wenn Sie diese Richtlinieneinstellung aktivieren, müssen Sie **internalAutoDiscoveryURL** und **externalAutoDiscoveryURL** angeben.   |
-|internalAutoDiscoveryURL    |String    |Vollständige URL zur automatischen Erkennung    |Interne URL zur automatischen Erkennung    |
-|externalAutoDiscoveryURL    |String    |Vollständige URL zur automatischen Erkennung    |Externe URL zur automatischen Erkennung    |
-|httpProxyDomain    |String    ||HTTP-Proxy-Domäne    |
-|httpProxyUserName    |String    ||HTTP-Proxy-Benutzername    |
+|internalAutoDiscoveryURL    |Zeichenfolge    |Vollständige URL zur automatischen Erkennung    |Interne URL zur automatischen Erkennung    |
+|externalAutoDiscoveryURL    |Zeichenfolge    |Vollständige URL zur automatischen Erkennung    |Externe URL zur automatischen Erkennung    |
+|httpProxyDomain    |Zeichenfolge    ||HTTP-Proxy-Domäne    |
+|httpProxyUserName    |Zeichenfolge    ||HTTP-Proxy-Benutzername    |
 |httpProxyPassword    |String    ||HTTP-Proxy-Kennwort    |
 |trustedDomainList    |Array    ||Liste mit vertrauenswürdigen Domänen für HTTP-Umleitungen.    |
 |autoAcceptTimeout    |Number    |300 (Standardwert)    |Automatisch akzeptiertes Timeout für Benutzer mit serverseitigem Konversationsverlauf.    |
 |warnWhenUnknownLocationForE911    |Bool    |0 = Deaktiviert  <br/> 1 = Aktiviert    |Warnt den Benutzer beim Wählen einer Notrufnummer von einem unbekannten Standort aus.    |
-|sipAddress    |String    ||Die SIP-Adresse (e) verwendet, um Skype für Unternehmen anmelden.    |
+|sipAddress    |Zeichenfolge    ||Die SIP-Adresse (e) verwendet, um Skype für Unternehmen anmelden.    |
 |userName    |String    ||Der UPN (UserName) verwendet, um Skype für Unternehmen anmelden.    |
 |userNameInAdvancedOnly    |Bool    |0 = das Feld Benutzername auf das Hauptfenster im Anmeldebildschirm und im Dialogfeld Erweiterte Eigenschaften anzeigen  <br/> 1 = zeigt das Feld Benutzername nur in das Dialogfeld Erweiterte Eigenschaften (Standard)    |Geben Sie an, wo das Feld Benutzername bei der Anmeldung angezeigt wird.    |
    

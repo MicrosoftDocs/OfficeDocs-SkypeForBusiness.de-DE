@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Entfernen Sie die Microsoft SQL Server-Datenbanken und Instanzen nach dem Entfernen von der Servers, die mit hängen darauf klicken, oder nachdem Sie die Server, um eine andere Datenbank verwenden neu konfigurieren. Sie müssen mit dem Verfahren in diesem Thema beim Zurückziehen der aktuelle SQL Server oder neu, den aktuellen Server so konfigurieren, dass sie die Datenbanken veraltete oder nicht verfügbar rendert.
 ms.openlocfilehash: 531d4c06daa7dacd2a616244c13207b3e79dca4c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898740"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231504"
 ---
 # <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>Entfernen von SQL Server-Instanzen und -Datenbanken auf dem Back-End-Server
 

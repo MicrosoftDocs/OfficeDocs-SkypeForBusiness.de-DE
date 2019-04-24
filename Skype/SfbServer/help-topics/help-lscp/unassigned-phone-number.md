@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: Nicht zugewiesene Nummern sind Rufnummern, die für Ihre Organisation gültig sind, jedoch keinem Benutzer oder Telefon zugewiesen sind. In der Tabelle mit den nicht zugewiesenen Nummern ist angegeben, wie Anrufe bei nicht zugewiesenen Nummern behandelt werden sollen.
 ms.openlocfilehash: fcb94ca101f2a2380c1d458ae740a492d6cd60c1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897720"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219922"
 ---
 # <a name="unassigned-phone-number"></a>Nicht zugewiesene Telefonnummer
 

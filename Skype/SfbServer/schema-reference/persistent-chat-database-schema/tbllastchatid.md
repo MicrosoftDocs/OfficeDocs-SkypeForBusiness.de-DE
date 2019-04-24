@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
 description: "\"lastchatid\" enthält die letzte Chat-ID, die generierte (und in der TblChat-Tabelle verwendete) für jeden Benutzer."
 ms.openlocfilehash: 3208ada77643957295f9894cb58187c2b4bc7493
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212565"
 ---
 # <a name="tbllastchatid"></a>tblLastChatId
  
