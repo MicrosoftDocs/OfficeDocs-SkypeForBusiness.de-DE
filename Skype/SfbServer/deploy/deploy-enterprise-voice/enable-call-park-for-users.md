@@ -15,57 +15,57 @@ ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Aktivieren von Benutzern für das Parken von Anrufen in Skype für Business Server Enterprise-VoIP.
 ms.openlocfilehash: 98b02294beb633e5d9a0147fcce7257a4497753d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894543"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212509"
 ---
-# <a name="enable-call-park-for-users-in-skype-for-business"></a><span data-ttu-id="46e4f-103">Aktivieren des Parkens von Anrufen für Benutzer in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="46e4f-103">Enable Call Park for users in Skype for Business</span></span>
+# <a name="enable-call-park-for-users-in-skype-for-business"></a><span data-ttu-id="3de0f-103">Aktivieren des Parkens von Anrufen für Benutzer in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="3de0f-103">Enable Call Park for users in Skype for Business</span></span>
  
-<span data-ttu-id="46e4f-104">Aktivieren von Benutzern für das Parken von Anrufen in Skype für Business Server Enterprise-VoIP.</span><span class="sxs-lookup"><span data-stu-id="46e4f-104">Enable users for Call Park in Skype for Business Server Enterprise Voice.</span></span>
+<span data-ttu-id="3de0f-104">Aktivieren von Benutzern für das Parken von Anrufen in Skype für Business Server Enterprise-VoIP.</span><span class="sxs-lookup"><span data-stu-id="3de0f-104">Enable users for Call Park in Skype for Business Server Enterprise Voice.</span></span>
   
-<span data-ttu-id="46e4f-105">Parken von Anrufen ist standardmäßig für alle Benutzer deaktiviert.</span><span class="sxs-lookup"><span data-stu-id="46e4f-105">By default, Call Park is disabled for all users.</span></span> <span data-ttu-id="46e4f-106">Benutzer können nicht Anrufe Parken oder Geparkte Anrufe abgerufen werden soll, bis sie für das Parken von Anrufen in VoIP-Richtlinie aktiviert sind.</span><span class="sxs-lookup"><span data-stu-id="46e4f-106">Users cannot park calls or retrieve parked calls until they are enabled for Call Park in voice policy.</span></span>
+<span data-ttu-id="3de0f-105">Parken von Anrufen ist standardmäßig für alle Benutzer deaktiviert.</span><span class="sxs-lookup"><span data-stu-id="3de0f-105">By default, Call Park is disabled for all users.</span></span> <span data-ttu-id="3de0f-106">Benutzer können nicht Anrufe Parken oder Geparkte Anrufe abgerufen werden soll, bis sie für das Parken von Anrufen in VoIP-Richtlinie aktiviert sind.</span><span class="sxs-lookup"><span data-stu-id="3de0f-106">Users cannot park calls or retrieve parked calls until they are enabled for Call Park in voice policy.</span></span>
   
-<span data-ttu-id="46e4f-107">Sie können das Parken von Anrufen auf globaler Ebene oder auf Standortebene oder Benutzerebene aktivieren.</span><span class="sxs-lookup"><span data-stu-id="46e4f-107">You can enable Call Park at the global scope, or at the site scope or user scope.</span></span> <span data-ttu-id="46e4f-108">Benutzerbereich Vorrang gegenüber auf Standortebene und auf Standortebene Vorrang gegenüber globaler Ebene.</span><span class="sxs-lookup"><span data-stu-id="46e4f-108">User scope takes precedence over site scope, and site scope takes precedence over global scope.</span></span> <span data-ttu-id="46e4f-109">Wenn Sie mehrere VoIP-Richtlinien haben, überprüfen Sie alle Richtlinien zum Parken von Anrufen, nicht nur die globale Richtlinie zu aktivieren.</span><span class="sxs-lookup"><span data-stu-id="46e4f-109">If you have multiple voice policies, review all the policies to enable Call Park, not just the global policy.</span></span>
+<span data-ttu-id="3de0f-107">Sie können das Parken von Anrufen auf globaler Ebene oder auf Standortebene oder Benutzerebene aktivieren.</span><span class="sxs-lookup"><span data-stu-id="3de0f-107">You can enable Call Park at the global scope, or at the site scope or user scope.</span></span> <span data-ttu-id="3de0f-108">Benutzerbereich Vorrang gegenüber auf Standortebene und auf Standortebene Vorrang gegenüber globaler Ebene.</span><span class="sxs-lookup"><span data-stu-id="3de0f-108">User scope takes precedence over site scope, and site scope takes precedence over global scope.</span></span> <span data-ttu-id="3de0f-109">Wenn Sie mehrere VoIP-Richtlinien haben, überprüfen Sie alle Richtlinien zum Parken von Anrufen, nicht nur die globale Richtlinie zu aktivieren.</span><span class="sxs-lookup"><span data-stu-id="3de0f-109">If you have multiple voice policies, review all the policies to enable Call Park, not just the global policy.</span></span>
   
-### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a><span data-ttu-id="46e4f-110">Skype für Business Server-Systemsteuerung zum Aktivieren des Parkens von Anrufen für Benutzer zu verwenden.</span><span class="sxs-lookup"><span data-stu-id="46e4f-110">To Use Skype for Business Server Control Panel to Enable Call Park for Users</span></span>
+### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a><span data-ttu-id="3de0f-110">Skype für Business Server-Systemsteuerung zum Aktivieren des Parkens von Anrufen für Benutzer zu verwenden.</span><span class="sxs-lookup"><span data-stu-id="3de0f-110">To Use Skype for Business Server Control Panel to Enable Call Park for Users</span></span>
 
-1. <span data-ttu-id="46e4f-111">Melden Sie sich als Mitglied der Gruppe **RTCUniversalServerAdmins** oder als Benutzer mit der Administratorrolle **CsVoiceAdministrator**, **CsServerAdministrator** oder **CsAdministrator** beim Computer an.</span><span class="sxs-lookup"><span data-stu-id="46e4f-111">Log on to the computer as a member of the **RTCUniversalServerAdmins** group, or as a member of the **CsVoiceAdministrator**, **CsServerAdministrator**, or **CsAdministrator** administrative role.</span></span>
+1. <span data-ttu-id="3de0f-111">Melden Sie sich als Mitglied der Gruppe **RTCUniversalServerAdmins** oder als Benutzer mit der Administratorrolle **CsVoiceAdministrator**, **CsServerAdministrator** oder **CsAdministrator** beim Computer an.</span><span class="sxs-lookup"><span data-stu-id="3de0f-111">Log on to the computer as a member of the **RTCUniversalServerAdmins** group, or as a member of the **CsVoiceAdministrator**, **CsServerAdministrator**, or **CsAdministrator** administrative role.</span></span>
     
-2. <span data-ttu-id="46e4f-112">Öffnen von Skype Business Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="46e4f-112">Open Skype for Business Server Control Panel.</span></span>
+2. <span data-ttu-id="3de0f-112">Öffnen von Skype Business Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="3de0f-112">Open Skype for Business Server Control Panel.</span></span>
     
-3. <span data-ttu-id="46e4f-113">Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing**.</span><span class="sxs-lookup"><span data-stu-id="46e4f-113">In the left navigation bar, click **Voice Routing**.</span></span>
+3. <span data-ttu-id="3de0f-113">Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing**.</span><span class="sxs-lookup"><span data-stu-id="3de0f-113">In the left navigation bar, click **Voice Routing**.</span></span>
     
-4. <span data-ttu-id="46e4f-114">Klicken Sie auf die Registerkarte **VoIP-Richtlinie**.</span><span class="sxs-lookup"><span data-stu-id="46e4f-114">Click the **Voice Policy** tab.</span></span>
+4. <span data-ttu-id="3de0f-114">Klicken Sie auf die Registerkarte **VoIP-Richtlinie**.</span><span class="sxs-lookup"><span data-stu-id="3de0f-114">Click the **Voice Policy** tab.</span></span>
     
-5. <span data-ttu-id="46e4f-115">Doppelklicken Sie auf eine vorhandene VoIP-Richtlinie, um das Dialogfeld **VoIP-Richtlinie bearbeiten** zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="46e4f-115">Double-click an existing voice policy to open the **Edit Voice Policy** dialog box.</span></span>
+5. <span data-ttu-id="3de0f-115">Doppelklicken Sie auf eine vorhandene VoIP-Richtlinie, um das Dialogfeld **VoIP-Richtlinie bearbeiten** zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="3de0f-115">Double-click an existing voice policy to open the **Edit Voice Policy** dialog box.</span></span>
     
-6. <span data-ttu-id="46e4f-116">Wählen Sie unter **Anruffunktionen** die Option **Parken von Anrufen aktivieren** aus.</span><span class="sxs-lookup"><span data-stu-id="46e4f-116">Under **Calling features**, select **Enable call park**.</span></span>
+6. <span data-ttu-id="3de0f-116">Wählen Sie unter **Anruffunktionen** die Option **Parken von Anrufen aktivieren** aus.</span><span class="sxs-lookup"><span data-stu-id="3de0f-116">Under **Calling features**, select **Enable call park**.</span></span>
     
-7. <span data-ttu-id="46e4f-117">Klicken Sie auf **OK**, um die VoIP-Richtlinie zu speichern.</span><span class="sxs-lookup"><span data-stu-id="46e4f-117">Click **OK** to save the voice policy</span></span>
+7. <span data-ttu-id="3de0f-117">Klicken Sie auf **OK**, um die VoIP-Richtlinie zu speichern.</span><span class="sxs-lookup"><span data-stu-id="3de0f-117">Click **OK** to save the voice policy</span></span>
     
-### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a><span data-ttu-id="46e4f-118">Zum Verwenden von Cmdlets zum Aktivieren des Parkens von Anrufen für Benutzer</span><span class="sxs-lookup"><span data-stu-id="46e4f-118">To Use Cmdlets to Enable Call Park for Users</span></span>
+### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a><span data-ttu-id="3de0f-118">Zum Verwenden von Cmdlets zum Aktivieren des Parkens von Anrufen für Benutzer</span><span class="sxs-lookup"><span data-stu-id="3de0f-118">To Use Cmdlets to Enable Call Park for Users</span></span>
 
-1. <span data-ttu-id="46e4f-119">Melden Sie sich auf dem Computer als Mitglied der Gruppe „RTCUniversalServerAdmins“ oder als Benutzer mit der administrativen Rolle „CsVoiceAdministrator“, „CsServerAdministrator“ oder „CsAdministrator“ an.</span><span class="sxs-lookup"><span data-stu-id="46e4f-119">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator administrative role.</span></span>
+1. <span data-ttu-id="3de0f-119">Melden Sie sich auf dem Computer als Mitglied der Gruppe „RTCUniversalServerAdmins“ oder als Benutzer mit der administrativen Rolle „CsVoiceAdministrator“, „CsServerAdministrator“ oder „CsAdministrator“ an.</span><span class="sxs-lookup"><span data-stu-id="3de0f-119">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator administrative role.</span></span>
     
-2. <span data-ttu-id="46e4f-120">Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="46e4f-120">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="3de0f-120">Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="3de0f-120">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="46e4f-121">Führen Sie folgenden Befehl aus:</span><span class="sxs-lookup"><span data-stu-id="46e4f-121">Run:</span></span>
+3. <span data-ttu-id="3de0f-121">Führen Sie folgenden Befehl aus:</span><span class="sxs-lookup"><span data-stu-id="3de0f-121">Run:</span></span>
     
    ```
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
    ```
 
-    <span data-ttu-id="46e4f-122">Wenn Sie beispielsweise zum Parken von Anrufen für die standardmäßige globale VoIP-Richtlinie zu aktivieren:</span><span class="sxs-lookup"><span data-stu-id="46e4f-122">For example, to enable Call Park for the default global voice policy:</span></span>
+    <span data-ttu-id="3de0f-122">Wenn Sie beispielsweise zum Parken von Anrufen für die standardmäßige globale VoIP-Richtlinie zu aktivieren:</span><span class="sxs-lookup"><span data-stu-id="3de0f-122">For example, to enable Call Park for the default global voice policy:</span></span>
     
    ```
    Set-CsVoicePolicy -EnableCallPark $true
    ```
 
-## <a name="see-also"></a><span data-ttu-id="46e4f-123">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="46e4f-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3de0f-123">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="3de0f-123">See also</span></span>
 
 
 
-[<span data-ttu-id="46e4f-124">Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="46e4f-124">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](voice-policy-and-pstn-usage-records.md)
+[<span data-ttu-id="3de0f-124">Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="3de0f-124">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](voice-policy-and-pstn-usage-records.md)
 
