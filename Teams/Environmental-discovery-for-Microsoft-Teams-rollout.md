@@ -15,13 +15,13 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 65da6bfa0ec87534d39e1665079f991e8c92aaa9
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32181428"
 ---
-<a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Ermittlung der Umgebung für den Microsoft Teams-Rollout
+<a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Umwelt Discovery für eine Microsoft-Teams, Einführung
 ===================================================
 
 Ermittlung ist einer der ersten, wichtige Schritte, die Sie ergreifen bei der Planung für Ihre Reise zu Microsoft-Teams.
@@ -176,7 +176,7 @@ Anhand der folgenden Tabelle die Details der Clients und Endpunkte in Verwendung
 > | Welches Desktopbetriebssystem verwenden die Benutzer? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows-10 <br/> <input type="checkbox">Mac (Geben Sie die Version in der Spalte Kommentare.) <br/> <input type="checkbox">Andere (Beachten Sie die Details in der Spalte Kommentare). | |
 > | Welche Version von Microsoft Office bereitgestellt wird <br>mit diesen Geräten? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office für Mac 2011 <br/> <input type="checkbox">Office für Mac 2016 <br/> <input type="checkbox">Andere (Beachten Sie die Details in der Spalte Kommentare). | |
 > | Welche Office-Bereitstellung-Technologie wird verwendet <br>in Ihrer Organisation? | <input type="checkbox">MSI-DATEI <br/> <input type="checkbox">Klick-und-los | |
-> | Was sind die zulässigen und mobile unterstützt <br>Plattformen verwendet? <br/>Wählen Sie alle zutreffenden an. | <input type="checkbox">Fenster <br/> <input type="checkbox"> Mobil <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android (engl.) <br/> <input type="checkbox">Andere (Beachten Sie die Details in der Spalte Kommentare). | |
+> | Was sind die zulässigen und mobile unterstützt <br>Plattformen verwendet? <br/>Wählen Sie alle zutreffenden an. | <input type="checkbox">Fenster <br/> <input type="checkbox">mobil <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android (engl.) <br/> <input type="checkbox">Andere (Beachten Sie die Details in der Spalte Kommentare). | |
 > | Wie werden mobile Geräte bereitgestellt? <br/>Wählen Sie alle zutreffenden an. | <input type="checkbox">Unternehmens-Geräte <br/> <input type="checkbox">Schalten Sie Ihr eigenes Gerät | |
 > | Welche Geräte Benutzer führen Sie derzeit verwenden für den Zugriff auf <br>Sprach- und Dienste <br>(Telefone, Headsets, Telefone, Video)? | | |
 

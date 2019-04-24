@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen, ändern oder Entfernen einer Notfall Adresse für Ihre Organisation
+title: Hinzufügen, Ändern oder Entfernen einer Notfalladresse für Ihre Organisation
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to add an emergency address to your Skype for Business account. '
+description: 'Erfahren Sie, wie eine Notfalladresse zu Ihrem Skype for Business-Konto hinzuzufügen. '
 ms.openlocfilehash: b3fab8d41c1b6f59961feee09f5eae888d32b362
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047738"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32170915"
 ---
-# <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Hinzufügen, ändern oder Entfernen einer Notfall Adresse für Ihre Organisation
+# <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Hinzufügen, Ändern oder Entfernen einer Notfalladresse für Ihre Organisation
 
 Eine Notfall-Adresse muss eine Rufnummer zugeordnet sein, wenn in diesem Fall kann jedoch unterschiedlich sein zwischen Ländern/Regionen. In den Vereinigten Staaten müssen Sie beispielsweise eine Notfalladresse zuordnen, wenn Sie die Telefonnummer einem Benutzer zuweisen. Im Vereinigten Königreich müssen Sie der Telefonnummer eine Notfalladresse zuordnen, wenn Sie die Telefonnummern von Office 365 erhalten oder wenn Sie Telefonnummern von Ihrem aktuellen Dienstanbieter übertragen.
   
-Unabhängig davon, in welchem Land/Region Sie sich befinden, ist es möglich, einer Notfalladresse einen oder mehrere Orte hinzuzufügen oder eine Notfalladresse zu entfernen. Je nach Anzahl der physischen Standorten in Ihrer Organisation können Sie diese für Gebäude, Etagen und Büros erstellen. Finden Sie unter [Was notfallstandorten, Adressen und Anrufrouting sind?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) einige Details.
+No matter which country/region you are in, it's possible to add a location or locations to an emergency address or remove an emergency address. Depending on the number of physical locations in your organization, you can create them for buildings, floors, and offices. See [What are emergency locations, addresses, and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for some details.
   
 Informationen zum Aufrufen von planen möchten und wie viel kostet finden Sie [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
