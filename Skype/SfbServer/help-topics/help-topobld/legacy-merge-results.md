@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
 description: Um eine Bereitstellung der Vorversion mit Skype für Business Server zusammenführen, klicken Sie auf Weiter. Ausführliche Informationen zur Ausführung des Zusammenführungs-Assistenten des Topologie-Generators finden Sie unter Merge Using Topology Builder Merge Wizard in der Migrationsdokumentation.
 ms.openlocfilehash: ab0dfc91b08f4ec1d2136647d616aad2d911e9f2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891243"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200165"
 ---
-# <a name="legacy-merge-results"></a><span data-ttu-id="47d1b-104">Legacyzusammenführung – Ergebnisse</span><span class="sxs-lookup"><span data-stu-id="47d1b-104">Legacy Merge Results</span></span>
+# <a name="legacy-merge-results"></a><span data-ttu-id="1f921-104">Legacyzusammenführung – Ergebnisse</span><span class="sxs-lookup"><span data-stu-id="1f921-104">Legacy Merge Results</span></span>
 
-<span data-ttu-id="47d1b-105">Zum Zusammenführen einer bereitstellungs der Vorversionen mit Skype für Business Server beginnen, klicken Sie auf **Weiter**.</span><span class="sxs-lookup"><span data-stu-id="47d1b-105">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> <span data-ttu-id="47d1b-106">Ausführliche Informationen zur Ausführung des Zusammenführungs-Assistenten des Topologie-Generators finden Sie unter [Merge Using Topology Builder Merge Wizard](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx) in der Migrationsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="47d1b-106">For details about running the Topology Builder merge wizard, see [Merge Using Topology Builder Merge Wizard](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx) in the Migration documentation.</span></span>
+<span data-ttu-id="1f921-105">Zum Zusammenführen einer bereitstellungs der Vorversionen mit Skype für Business Server beginnen, klicken Sie auf **Weiter**.</span><span class="sxs-lookup"><span data-stu-id="1f921-105">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> <span data-ttu-id="1f921-106">Ausführliche Informationen zur Ausführung des Zusammenführungs-Assistenten des Topologie-Generators finden Sie unter [Merge Using Topology Builder Merge Wizard](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx) in der Migrationsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="1f921-106">For details about running the Topology Builder merge wizard, see [Merge Using Topology Builder Merge Wizard](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx) in the Migration documentation.</span></span>
 
 

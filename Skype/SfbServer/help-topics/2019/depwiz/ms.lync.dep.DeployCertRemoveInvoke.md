@@ -14,14 +14,14 @@ ms.assetid: c62bc3e5-3f34-46cf-91a5-85f84d8f455e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die Seite Befehle ausführen enthält Details zum Entfernen des Zertifikats an. Überprüfen Sie die zusammenfassende Informationen über das Zertifikat entfernen. Achten Sie darauf, dass die Protokolldatei Zertifikat entfernen in der Dropdown-Liste angezeigt wird, und klicken Sie dann auf Protokoll anzeigen, um die Details des Endes Zertifikat überprüfen. Wenn Sie die Überprüfung der Zusammenfassung und die Protokolldatei abgeschlossen haben, klicken Sie auf Fertig stellen.
 ms.openlocfilehash: 1cf96bf0a8a6a2cbecd6d187e93d92f0393d542e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216935"
 ---
-# <a name="remove-certificate-invoke"></a><span data-ttu-id="4ddff-106">Entfernen von Zertifikaten (Aufruf)</span><span class="sxs-lookup"><span data-stu-id="4ddff-106">Remove Certificate (Invoke)</span></span>
+# <a name="remove-certificate-invoke"></a><span data-ttu-id="921a6-106">Entfernen von Zertifikaten (Aufruf)</span><span class="sxs-lookup"><span data-stu-id="921a6-106">Remove Certificate (Invoke)</span></span>
  
-<span data-ttu-id="4ddff-107">Die Seite **Befehle ausführen** enthält Details zum Entfernen des Zertifikats an.</span><span class="sxs-lookup"><span data-stu-id="4ddff-107">The **Executing Commands** page provides details for removing the certificate.</span></span> <span data-ttu-id="4ddff-108">Überprüfen Sie die zusammenfassende Informationen über das Zertifikat entfernen.</span><span class="sxs-lookup"><span data-stu-id="4ddff-108">Review the summary information from the certificate removal.</span></span> <span data-ttu-id="4ddff-109">Achten Sie darauf, dass die Protokolldatei Zertifikat entfernen in der Dropdown-Liste angezeigt wird, und klicken Sie dann auf **Protokoll anzeigen** , um die Details des Endes Zertifikat überprüfen.</span><span class="sxs-lookup"><span data-stu-id="4ddff-109">Be sure that the Remove Certificate log file is visible in the drop-down list, and then click **View Log** to review the details of the certificate removal.</span></span> <span data-ttu-id="4ddff-110">Wenn Sie die Überprüfung der Zusammenfassung und die Protokolldatei abgeschlossen haben, klicken Sie auf **Fertig stellen**.</span><span class="sxs-lookup"><span data-stu-id="4ddff-110">When you have finished reviewing the summary and the log file, click **Finish**.</span></span>
+<span data-ttu-id="921a6-107">Die Seite **Befehle ausführen** enthält Details zum Entfernen des Zertifikats an.</span><span class="sxs-lookup"><span data-stu-id="921a6-107">The **Executing Commands** page provides details for removing the certificate.</span></span> <span data-ttu-id="921a6-108">Überprüfen Sie die zusammenfassende Informationen über das Zertifikat entfernen.</span><span class="sxs-lookup"><span data-stu-id="921a6-108">Review the summary information from the certificate removal.</span></span> <span data-ttu-id="921a6-109">Achten Sie darauf, dass die Protokolldatei Zertifikat entfernen in der Dropdown-Liste angezeigt wird, und klicken Sie dann auf **Protokoll anzeigen** , um die Details des Endes Zertifikat überprüfen.</span><span class="sxs-lookup"><span data-stu-id="921a6-109">Be sure that the Remove Certificate log file is visible in the drop-down list, and then click **View Log** to review the details of the certificate removal.</span></span> <span data-ttu-id="921a6-110">Wenn Sie die Überprüfung der Zusammenfassung und die Protokolldatei abgeschlossen haben, klicken Sie auf **Fertig stellen**.</span><span class="sxs-lookup"><span data-stu-id="921a6-110">When you have finished reviewing the summary and the log file, click **Finish**.</span></span>
   
 

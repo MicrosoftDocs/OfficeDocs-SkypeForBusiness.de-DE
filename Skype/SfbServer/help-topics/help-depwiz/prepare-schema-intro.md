@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
 description: Um den Vorgang zum Erweitern des Schemas für Skype für Business Server 2015 zu starten, starten Sie auf der Seite Schema vorbereiten. Klicken Sie auf Weiter, um die Schemavorbereitung fortzusetzen.
 ms.openlocfilehash: 7454e82fac3c2af03d640d499feeaf54dcdf38f7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892885"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234932"
 ---
-# <a name="prepare-schema-intro"></a><span data-ttu-id="67093-104">Vorbereiten des Schemas (Einführung)</span><span class="sxs-lookup"><span data-stu-id="67093-104">Prepare Schema (Intro)</span></span>
+# <a name="prepare-schema-intro"></a><span data-ttu-id="4c8e4-104">Vorbereiten des Schemas (Einführung)</span><span class="sxs-lookup"><span data-stu-id="4c8e4-104">Prepare Schema (Intro)</span></span>
  
-<span data-ttu-id="67093-105">Um den Vorgang zum Erweitern des Schemas für Skype für Business Server 2015 zu starten, starten Sie auf der Seite **Schema vorbereiten** .</span><span class="sxs-lookup"><span data-stu-id="67093-105">To start the task to extend the schema for Skype for Business Server 2015, you begin on the **Prepare Schema** page.</span></span> <span data-ttu-id="67093-106">Klicken Sie auf **Weiter**, um die Schemavorbereitung fortzusetzen.</span><span class="sxs-lookup"><span data-stu-id="67093-106">Click **Next** to continue with the schema preparation.</span></span>
+<span data-ttu-id="4c8e4-105">Um den Vorgang zum Erweitern des Schemas für Skype für Business Server 2015 zu starten, starten Sie auf der Seite **Schema vorbereiten** .</span><span class="sxs-lookup"><span data-stu-id="4c8e4-105">To start the task to extend the schema for Skype for Business Server 2015, you begin on the **Prepare Schema** page.</span></span> <span data-ttu-id="4c8e4-106">Klicken Sie auf **Weiter**, um die Schemavorbereitung fortzusetzen.</span><span class="sxs-lookup"><span data-stu-id="4c8e4-106">Click **Next** to continue with the schema preparation.</span></span>
   
 
