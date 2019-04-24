@@ -1,5 +1,5 @@
 ---
-title: Autorisierte Person für das Konto
+title: Autorisierte Personen auf das Konto
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, warum Sie autorisierte Personen hinzufügen, die Änderungen an das Konto vornehmen können, wenn Sie den Assistenten für neue lokale Anzahl Port Reihenfolge verwenden müssen.
 ms.openlocfilehash: 0220e999a2454cd4fb80fadd19678e9108e4707b
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958391"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233235"
 ---
-# <a name="authorized-person-on-the-account"></a>Autorisierte Person für das Konto
+# <a name="authorized-person-on-the-account"></a>Autorisierte Personen auf das Konto
 
 Im Assistenten **Neue lokale Anzahl Port Reihenfolge** Geben Sie den Namen der Person, die berechtigt ist, das Konto, mit dem Dienstanbieter oder der Netzbetreiber zu ändern. Der Name wird nicht verwendet, um die Reihenfolge Port verarbeiten, aber im Falle eines Rechtsstreits verwendet wird oder wenn etwas falsch ist bei Zahlen werden übertragen. Diese Person werden verantwortlich für die Buchstaben der Autorisierung (Geladene) für einen Auftrag Port.
   

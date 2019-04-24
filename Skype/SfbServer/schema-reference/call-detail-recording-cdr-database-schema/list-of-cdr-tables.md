@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: Die Aufzeichnung von kommunikationsdatensätzen (CDR)-Datenbankschema besteht aus den folgenden Tabellen.
 ms.openlocfilehash: 977c48b58c5b1d1c0f21fbac07a28ec6efb0bfd6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881200"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213015"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Liste der CDR-Tabellen in Skype für Business Server 2015
  

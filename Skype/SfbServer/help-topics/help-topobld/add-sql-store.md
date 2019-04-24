@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 description: Definieren eines neuen SQL-Speichers, was bedeutet, dass Sie eine SQL Server-basierte Datenbank und einer Instanz von SQL Server angeben – eine Standardinstanz oder eine benannte Instanz – geben Sie Folgendes.
 ms.openlocfilehash: 131ee9cab80918a644793bef4cf02e667cfe286e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899074"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246443"
 ---
 # <a name="add-sql-store"></a>Hinzufügen von SQL-Speichern
 

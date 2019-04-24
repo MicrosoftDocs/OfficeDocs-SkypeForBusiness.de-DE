@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 416ba609-5a32-4c60-b346-ef3119932c91
 description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator werden in einem Pool gegenüber in Skype erstellen für Business Server 2015 online beschrieben.
 ms.openlocfilehash: be0ef406f94cc16ba53acad545b38a4010c1ba4f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873773"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219001"
 ---
 # <a name="video-interop-server-port-settings-expander"></a>Erweiterung der Porteinstellungen für den Video-Interoperabilität-Server
  

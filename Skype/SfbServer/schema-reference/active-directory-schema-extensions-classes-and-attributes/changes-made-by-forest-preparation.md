@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: Dieser Abschnitt beschreibt die globalen Einstellungen und Objekte und der universellen Dienst- und Administrationsgruppen, die durch die gesamtstrukturvorbereitung erstellt werden.
 ms.openlocfilehash: 27b8e183f4c76c7c5db71af1422ba9185206632a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875560"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213424"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Änderungen, die durch die Vorbereitung der Gesamtstruktur in Skype für Business Server
 

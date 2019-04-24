@@ -14,11 +14,11 @@ ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die Seite Befehle ausführen zeigt die Aktionen, die durch die Aufgaben zum Zuweisen des Zertifikats an den Server. Wenn die Aufgaben abgeschlossen haben, können Sie das Protokoll anzeigen, das das Zertifikat Zuweisung zur Archivierung details. Klicken Sie zum Anzeigen der Protokolldatei auf Protokoll anzeigen.
 ms.openlocfilehash: 510f2d7a55530ba4c1a0096ce15aa4481f64e0dc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899701"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216508"
 ---
 # <a name="certificate-assignment-invoke"></a>Zertifikatzuweisung (Aufruf)
  

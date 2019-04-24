@@ -14,11 +14,11 @@ ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 ROBOTS: NOINDEX, NOFOLLOW
 description: Das Dialogfeld VoIP-Konfigurationseinstellungen ohne Commit können Sie um alle Änderungen zu überprüfen, die Sie vorgenommen haben. Blättern Sie durch das Dialogfeld auf alle nicht übernommene Änderungen überprüfen, oder klicken Sie auf die Pfeile zum Erweitern oder reduzieren die verschiedenen Abschnitte. Wenn Sie fertig sind, klicken Sie auf Commit, um diese Änderungen zu übernehmen, oder klicken Sie auf Abbrechen, um zurückzugehen und Ihre Änderungen zu ändern.
 ms.openlocfilehash: 19e60df24656ff9a65b6eb93af1a53929d912d0f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221109"
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>VoIP-Konfigurationseinstellungen ohne Commit: Commit ausführen
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: abc2f59c-d21a-4d3f-bf23-6ac86effcd86
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: 97ce2a5eb8e5f4bc7578dcf79cab19526e18afa6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30926483"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220270"
 ---
 # <a name="network-configuration-edit-global-setting"></a>Netzwerkkonfiguration: Bearbeiten der globalen Einstellungen
 

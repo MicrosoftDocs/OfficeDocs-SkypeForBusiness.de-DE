@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In Skype für Business Server 2019 definieren Sie Websites in Ihrem Netzwerk, die Skype für Business Server 2019 Komponenten enthalten. Eine Website ist eine Gruppe von Computern, die über eine gute Verbindung über ein Netzwerk mit hoher Geschwindigkeit und geringer Latenz wie einem einzelnen lokalen Netzwerk (LAN) oder zwei Netzwerke über ein Glasfaserkabel Hochgeschwindigkeits-Fiber-Netzwerk verbunden sind.
 ms.openlocfilehash: d34351b551262450dee852efd7679f17cbe1e161
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886530"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231623"
 ---
 # <a name="migration-phases"></a>Migrationsphasen
 

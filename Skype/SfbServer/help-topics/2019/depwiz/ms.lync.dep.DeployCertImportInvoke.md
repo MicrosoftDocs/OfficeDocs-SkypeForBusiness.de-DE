@@ -14,11 +14,11 @@ ms.assetid: 1c248faa-2023-48b2-8cac-9a28045b72c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Überprüfen Sie auf der Seite Befehle ausführen die zusammenfassende Informationen für das importierte Zertifikat aus. Wählen Sie in der Dropdown-Liste die Protokolldatei Importieren des Zertifikats ein. Stellen Sie sicher, dass die Protokolldatei Importieren des Zertifikats in der Dropdown-Liste angezeigt wird. Klicken Sie auf Protokoll anzeigen, um die Details der Zertifikatimport prüfen. Wenn Sie die Überprüfung der Zusammenfassung und die Protokolldatei abgeschlossen haben, klicken Sie auf Fertig stellen.
 ms.openlocfilehash: e892dde5317c7c8ee8583b5054ccf46ccf306250
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881604"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216571"
 ---
 # <a name="import-certificate-invoke"></a>Importieren von Zertifikaten (Aufruf)
  

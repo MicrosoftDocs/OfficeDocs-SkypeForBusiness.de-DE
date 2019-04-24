@@ -1,5 +1,5 @@
 ---
-title: Microsoft-Teams, rufen Sie Abläufe
+title: Microsoft Teams-Anrufflüsse
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 description: Beschreibt, wie Teams Office 365 fließt in verschiedenen Topologien verwendet.
 ms.openlocfilehash: ecdeb6dc4e1e7219dc8c01c710877437661e0ceb
-ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31828937"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232133"
 ---
-# <a name="microsoft-teams-call-flows"></a>Microsoft-Teams, rufen Sie Abläufe
+# <a name="microsoft-teams-call-flows"></a>Microsoft Teams-Anrufflüsse
 
 > [!Tip]
 > Sehen Sie sich die folgenden Sitzung um erfahren, wie Teams nutzt Ihr Netzwerk und Planen Sie eine optimale Netzwerkkonnektivität: [Teams Netzwerkplanung](https://aka.ms/teams-networking)

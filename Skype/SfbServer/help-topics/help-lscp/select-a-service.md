@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: Verwenden Sie das Dialogfeld Dienst auswählen, um nach den in Ihrer Umgebung verfügbaren Diensten zu suchen. Klicken Sie auf einen Dienst in der Liste und anschließend auf OK, um einen vorhandenen Dienst zu verwenden.
 ms.openlocfilehash: cc5a65521cc8f7b508abd06256026fb769be47e8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220157"
 ---
 # <a name="select-a-service"></a>Auswählen eines Diensts
 

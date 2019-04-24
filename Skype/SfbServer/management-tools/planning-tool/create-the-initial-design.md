@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Nach dem Installieren der Skype für Business Server-Planungstool können Sie zum Starten des Planungstools und mit dem Entwerfen der vorgeschlagenen Skype für Business Server 2015-Infrastruktur beginnen.
 ms.openlocfilehash: 132db1bfacac5d5faec17c2edceb72fe7736f887
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876895"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217229"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Erstellen des anfänglichen Topologieentwurfs für Skype for Business Server 2015
 

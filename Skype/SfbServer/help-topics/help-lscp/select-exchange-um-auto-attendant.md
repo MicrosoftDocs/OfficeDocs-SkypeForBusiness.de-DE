@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 description: Verwenden Sie das Dialogfeld Wählen Sie Exchange UM-Telefonzentrale, um eine automatische Telefonzentrale von Exchange UM auszuwählen, die eingehende Anrufe für einen Bereich nicht zugewiesener Nummern behandelt werden sollen.
 ms.openlocfilehash: 5724c2fbdfc2caca986dfc2fea31d788b6a72955
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892399"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220136"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Auswählen einer automatischen Exchange UM-Telefonzentrale
  

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
 description: Jeder Datensatz in dieser Tabelle enthält die CDR Informationen zu einem Benutzer teilnehmen und Informationen für eine Konferenz verlassen. Jede Konferenz wird in dieser Tabelle durch einen Datensatz für jedes Mal dargestellt ein Benutzer teilnimmt und die Konferenz verlässt.
 ms.openlocfilehash: dea6ae9e66416da41c9ca5df0d6a8c3e61550238
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881228"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213081"
 ---
 # <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>FocusJoinsAndLeaves-Tabelle in Skype für Business Server 2015
  

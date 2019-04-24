@@ -16,15 +16,16 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e85d6e44c37b1b7a56b2b525d28fdbeab266d4b8
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461940"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211325"
 ---
-# <a name="quality-of-experience-review-guide"></a>Quality of Experience überprüfen Guide
+# <a name="quality-of-experience-review-guide"></a>Handbuch für die Überprüfung der QoE (Quality of Experience)
 
-<!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->In diesem Handbuch wird über das Laufwerk Wert Phase für Microsoft-Teams und Skype für Business Online. Sie können dieses Handbuchs [eine Word-Version herunterladen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) .
+<!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
+In diesem Handbuch wird über das Laufwerk Wert Phase für Microsoft-Teams und Skype für Business Online. Sie können dieses Handbuchs [eine Word-Version herunterladen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) .
 
 ## <a name="introduction"></a>Einführung
 
@@ -639,9 +640,9 @@ _Tabelle 5: Erstellen von Dateistruktur_
 | Netzwerkname        | Zeichenfolge    | USA/Seattle/SEATTLE-SEA-1 | Erforderlich\*  |
 | NetworkRange       | Zahl    | 26                        | Erforderlich    |
 | BuildingName       | Zeichenfolge    | SEATTLE-SEA-1             | Erforderlich\*  |
-| OwnershipType      | Zeichenfolge    | Contoso                   | Optional     |
-| BuildingType       | Zeichenfolge    | IT Termination            | Optional     |
-| BuildingOfficeType | Zeichenfolge    | Engineering               | Optional     |
+| OwnershipType      | Zeichenfolge    | Contoso                   | Optional    |
+| BuildingType       | Zeichenfolge    | IT Termination            | Optional    |
+| BuildingOfficeType | Zeichenfolge    | Engineering               | Optional    |
 | Ort               | Zeichenfolge    | Seattle                   | Empfohlen |
 | ZipCode            | Zeichenfolge    | 98001                     | Empfohlen |
 | Land            | Zeichenfolge    | USA                        | Empfohlen |
@@ -1237,7 +1238,7 @@ Versionsnummern für Skype für Unternehmen finden Sie über die folgenden Links
 
 -   [Freigeben von Informationen nach Updates für Office ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
 -   [Updateverlauf für Office 365 ProPlus](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
--   [Skype für Business-Downloads und-Updates](/SkypeForBusiness/software-updates)
+-   [Skype for Business – Downloads and Updates](/SkypeForBusiness/software-updates)
 
 ### <a name="devices"></a>Geräte
 
@@ -1316,14 +1317,14 @@ Die Qualität von Real-Time-Medien (Audio, Video und Anwendungsfreigabe) Impleme
 
 _Tabelle 12 - Netzwerk leistungsanforderungen_
 
-| Metrik                            | Client zu Microsoft Edge           | Kundenedge zu Microsoft Edge    |
+| Metrik                            | Client für Microsoft-Edge           | Customer Edge zum Microsoft Rand    |
 |-----------------------------------|------------------------------------|------------------------------------|
-| Latenz (ein Weg)                 | \<50 ms                            | \<30 ms                            |
+| Wartezeit (unidirektional)                 | \<50 ms                            | \<30 ms                            |
 | Wartezeit (Zeit oder Roundtripzeit) | \<100 ms                           | \<60 ms                            |
-| Burstverlust von Paketen                 | \<10 % Intervall 200 ms   | \<1 % Intervall 200 ms    |
+| Bursts von Paketverlusten                 | \<10 % Intervall 200 ms   | \<1 % Intervall 200 ms    |
 | Paketverlust                       | \<1 % Intervall 15 s    | \<0,1 % Intervall 15 s  |
-| Jitter zwischen der Ankunftszeit von Paketen       | \<während ein Intervall von 15 s 30 ms | \<15 ms Intervall 15 s |
-| Neuanordnung von Paketen                    | \<0,05 % außerhalb der Reihenfolge Pakete       | \<0,01 % außerhalb der Reihenfolge Pakete      |
+| Die Kommunikation zwischen hinzukommen Jitter Paket       | \<während ein Intervall von 15 s 30 ms | \<15 ms Intervall 15 s |
+| Paket neu anordnen                    | \<0,05 % außerhalb der Reihenfolge Pakete       | \<0,01 % außerhalb der Reihenfolge Pakete      |
 
 Weitere Informationen finden Sie unter [in diesem Artikel zur Leistung von Medien Qualität und Netzwerk](https://aka.ms/performancerequirements) für Teams und Skype für Business Online.
 
@@ -1349,7 +1350,7 @@ Weitere Informationen finden Sie unter [in diesem Artikel zur Leistung von Medie
 
 -   [Was ist der Unterschied zwischen der Anrufanalyse und dem Anrufqualitätsdashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
--   [Verwenden Sie Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+-   [Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 ### <a name="call-analytics-support"></a>Wenden Sie Analytics
 

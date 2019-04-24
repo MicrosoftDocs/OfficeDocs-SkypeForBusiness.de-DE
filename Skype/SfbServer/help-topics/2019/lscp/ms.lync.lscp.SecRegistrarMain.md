@@ -14,11 +14,11 @@ ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: 20cb4bfd9954f93e92f46488ca842d9fb7a9bc59
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215129"
 ---
 # <a name="registrar-security-settings"></a>Sicherheitseinstellungen für die Registrierung
 

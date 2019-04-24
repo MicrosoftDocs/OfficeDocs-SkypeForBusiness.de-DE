@@ -1,5 +1,5 @@
 ---
-title: Administratorschulungen für Microsoft Teams
+title: Administrator-Schulung für Microsoft Teams
 ms.reviewer: ''
 description: Erhalten Sie eine Schulung, die Sie Microsoft-Teams in Ihrer Organisation verwalten müssen
 author: dearbeen
@@ -16,13 +16,13 @@ ms.collection:
 ms.topic: landing-page
 ms.author: dearbeen
 ms.openlocfilehash: 5bc3f744ff3bf04388de1ba19c02c4ad64f6263f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891110"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226893"
 ---
-# <a name="admin-training-for-microsoft-teams"></a>Administratorschulungen für Microsoft Teams
+# <a name="admin-training-for-microsoft-teams"></a>Administrator-Schulung für Microsoft Teams
 
 Informationen Sie zum Verwalten von Teams für Ihre Organisation.
 
@@ -110,7 +110,7 @@ Informationen Sie zum Verwalten von Teams für Ihre Organisation.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Reise von Skype for Business zu Microsoft Teams</h3>
+                        <h3>Von Skype for Business zu Teams</h3>
                     </div>
                 </div>
             </div>

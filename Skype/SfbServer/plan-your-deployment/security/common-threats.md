@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Da Skype für Business Server einem Enterprise-Klasse Communications-System handelt, sollten Sie häufig vorkommende Angriff beachten, die die Infrastruktur und Kommunikation auswirken könnten.
 ms.openlocfilehash: 15c5f71db846ad51fa0df70396cb7ca1252dd4dc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885864"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213648"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Häufige Sicherheitsbedrohungen in der modernen EDV
  

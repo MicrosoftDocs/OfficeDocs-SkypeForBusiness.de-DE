@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: c125898dfd3596a1e49801d6fc8f0752bdb81332
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220101"
 ---
 # <a name="voice-route-create-new-or-edit-existing"></a>VoIP-Route: Erstellen einer neuen oder Bearbeiten einer vorhandenen VoIP-Route
 

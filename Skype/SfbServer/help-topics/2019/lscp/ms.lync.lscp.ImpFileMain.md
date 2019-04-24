@@ -14,11 +14,11 @@ ms.assetid: 6178d9e5-a919-4a7d-9633-d5f155556306
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: a4e6ab21ac1dc5b52bea4cd5e8d8c02fd642d8da
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877790"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215519"
 ---
 # <a name="file-filter"></a>Dateifilter
 

@@ -14,11 +14,11 @@ ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 ROBOTS: NOINDEX, NOFOLLOW
 description: Im Dialogfeld Standort auswählen suchen Sie nach den in Ihrer Umgebung verfügbaren Standorten. Klicken Sie auf einen Standort in der Liste und anschließend auf OK, um einen vorhandenen Standort zu verwenden.
 ms.openlocfilehash: 930f6bb29e0fb175383cc868ccdfd4ae5ce98b33
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884287"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215052"
 ---
 # <a name="select-a-site"></a>Auswählen eines Standorts
 

@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 640ea739b91a8e4904d5ac93a73c533d980033c1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463980"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218739"
 ---
 ![Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase] (media/upgrade-banner-deployment.png "Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase")
 
@@ -38,7 +38,7 @@ Dieser Artikel ist Teil der Bereitstellung und Implementierung Stufe der Ihrem U
 
 Wählen Sie Ihre Upgrade Reise basierend auf Ihrer aktuellen Bereitstellung von Skype für Unternehmen:
 
-- [Aktualisieren von Skype für Unternehmen Online auf Teams](https://aka.ms/SkypeToTeams-UpgradeOnline)
+- [Upgrade von Skype for Business Online auf Microsoft Teams](https://aka.ms/SkypeToTeams-UpgradeOnline)
 - [Upgrade von Skype für hybride Business auf Teams](https://aka.ms/SkypeToTeams-UpgradeHybrid)
 - [Aktualisieren von Skype für Business lokal auf Teams](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
 

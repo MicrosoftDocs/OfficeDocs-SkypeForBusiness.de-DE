@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren der medienumgehung mit direktem Routing
+title: Konfigurieren der Medienumgehung mit direktem Routing
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,14 +15,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lesen Sie dieses Thema, um Informationen zum Konfigurieren der medienumgehung mit Phone System direktem Routing.
-ms.openlocfilehash: 405f71fd0a1e0ea3e8fec6ee1061786c93fabf1b
-ms.sourcegitcommit: 260635a24b282fbdf4a4aeffdb0f4f9be5407ec6
+ms.openlocfilehash: 459ebd80a175fbf2c213a016436a2bf130ae9982
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30631054"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232695"
 ---
-# <a name="configure-media-bypass-with-direct-routing"></a>Konfigurieren der medienumgehung mit direktem Routing
+# <a name="configure-media-bypass-with-direct-routing"></a>Konfigurieren der Medienumgehung mit direktem Routing
 
 Vor dem Konfigurieren von Medien mit direktem Routing zu umgehen, achten Sie darauf, dass Sie [Plan für Medien mit direktem Routing umgehen](direct-routing-plan-media-bypass.md)gelesen haben.
 
@@ -53,16 +53,8 @@ Anweisungen zum Konfigurieren der Trunks und Durchführen der Migration finden S
 - Bändchen
 - TE-Systems (AnyNode)    
 
-Zum Zeitpunkt der Ankündigung die in der folgenden SBCs vollständig getestet und zertifiziert medienumgehung entwickelt:
+Eine Liste der für das direkte Routing certified Session Border Controller (SBCs) finden Sie unter [Liste der Sitzung Broder Controller für die direkte Weiterleitung zertifiziert](direct-routing-border-controllers.md).
 
-- AudioCodes 9000 V7.20A.204.222, AudioCodes M800B-SBC / V7.20A.250.003
-
--   Bändchen
-    - 5210 v06.02.xx-xxx 
-    - 5400, v06.02.xx-xxx
-    - 5110, v06.02.xx-xxx
-
--   TE-System AnyNode V 3.16.2 
 
 
 ## <a name="see-also"></a>Siehe auch

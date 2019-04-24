@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 description: Führen Sie den Assistenten zum Entfernen einer Bereitstellung nur, wenn Sie die gesamte Bereitstellung außer Betrieb setzen möchten. Dieser Assistent erstellt eine leere Topologie, die aus einem einzelnen Front-End-Server besteht. Zu Ihrer ursprünglichen Topologie Sie führen Sie den Assistenten und die leere Topologie zu veröffentlichen, kann nicht zurückgesetzt.
 ms.openlocfilehash: a9b58c76ccd027e5a9641fb7b2d2f8bbf6ef58ca
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892109"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219359"
 ---
 # <a name="remove-deployment-introduction"></a>Entfernen der Bereitstellung – Einführung
  

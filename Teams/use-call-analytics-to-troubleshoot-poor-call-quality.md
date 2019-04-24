@@ -1,5 +1,5 @@
 ---
-title: Verwenden Sie Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln
+title: Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -25,13 +25,13 @@ ms.custom:
 - Reporting
 description: Verwenden Sie Analytics rufen Sie Informationen zu Geräten, Netzwerke und Konnektivität Benutzer bei Problemen mit Microsoft-Teams und Skype für geschäftliche Anrufe und Besprechungen.
 ms.openlocfilehash: e437401f759e92aa13c0d6680ef30eabd20ffc56
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543183"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218645"
 ---
-# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Verwenden Sie Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln
+# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln
 
 Anruf Analytics Unterstützung bei der Anruf mit der Realität Probleme mit Microsoft-Teams und Skype für Unternehmen. Rufen Sie Analytics zeigt detaillierte Informationen zu den Geräten, Netzwerke und Konnektivität für die Aufrufe und Besprechungen von jedem Benutzer in Ihrer Office 365-Konto ein. Wenn Informationen zu Gebäuden, Standorten und Mandanten zur Anrufanalyse hinzugefügt wurden, werden auch diese für jeden Anruf und jede Sitzung angezeigt. Anhand der über die Anrufanalyse verfügbaren Informationen können Sie herausfinden, warum bestimmte Benutzer eine schlechte Anruf- oder Besprechungsqualität wahrnehmen. 
   
@@ -84,8 +84,8 @@ Für audio-Sitzungen, die Daten Quality of Experience (QoE) verfügen, werden in
   
 |**Problem**|**Bereich**|**Beschreibung**|
 |:-----|:-----|:-----|
-|Verbindungsaufbau  <br/> |Sitzung  <br/> |Der Fehlercode 20-29 Ms-Diagnose zeigt den Anruf ist ein Fehler aufgetreten. Der Benutzer konnte nicht dem Anruf oder der Besprechung teilnehmen.  <br/> |
-|Audio Netzwerk klassifiziert Anrufe schlechter Qualität  <br/> |Sitzung  <br/> |Qualität Netzwerkprobleme (beispielsweise Paketverlust, Jitter, NMOS-Beeinträchtigung, Zeit oder ausgeblendeter Verhältnis) sind aufgetreten. Weitere Informationen über die Bedingungen, die zum Klassifizieren von schlechter Anrufe verwendet finden Sie unter in diesem [Blogbeitrag Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
+|Verbindungsaufbau  <br/> |Session  <br/> |Der Fehlercode 20-29 Ms-Diagnose zeigt den Anruf ist ein Fehler aufgetreten. Der Benutzer konnte nicht dem Anruf oder der Besprechung teilnehmen.  <br/> |
+|Audio Netzwerk klassifiziert Anrufe schlechter Qualität  <br/> |Session  <br/> |Qualität Netzwerkprobleme (beispielsweise Paketverlust, Jitter, NMOS-Beeinträchtigung, Zeit oder ausgeblendeter Verhältnis) sind aufgetreten. Weitere Informationen über die Bedingungen, die zum Klassifizieren von schlechter Anrufe verwendet finden Sie unter in diesem [Blogbeitrag Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
 |Gerät nicht funktionsfähig  <br/> |Gerät  <br/> | Ein Gerät ist nicht ordnungsgemäß funktioniert. Gerät nicht funktioniert Verhältnisse verwendet werden: <br/>  DeviceRenderNotFunctioningEventRatio > = 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0,005 <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen

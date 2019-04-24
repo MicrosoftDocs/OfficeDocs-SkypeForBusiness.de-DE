@@ -15,11 +15,11 @@ ms.collection:
 appliesto: Microsoft Teams
 description: Informationen Sie zu verschiedenen Kombinationen der Erstellung des Benutzers und welche Kombinationen unterstützt oder nicht unterstützt werden.
 ms.openlocfilehash: 88f679d5028cd2626ce4e85f0794aafb38317c9c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899194"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232619"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität
 
@@ -58,10 +58,10 @@ Eine Skype für Business-hybridumgebung mit PSTN-Anbindung bietet Flexibilität 
 | ------------ | --------- | --------- | --------- | -------- |
 |Lokal AD| Lokal |Skype for Business   | Enterprise-VoIP   |Ja|
 |Lokal AD|Online| Skype for Business  | Hybrid-VoIP-Konnektivität   |Ja |
-|Lokal AD|Online |Microsoft Teams |Direktes Routing  |Ja |
+|Lokal AD|Online |Microsoft Teams |Direktes Routing  |Ja |
 |**Nicht unterstützte Kombinationen**    | |         |         |      |
 |Azure AD| Lokale/Online | Skype für Business/Microsoft-Teams|Enterprise-VoIP/Hybrid-VoIP Connectivity/Direct-Routing  |Nein, muss User-Objekt erstellt werden, der lokale AD zuerst |
-|Lokal AD  |Lokal| Microsoft Teams| Enterprise-VoIP/Hybrid-VoIP Connectivity/Direct-Routing   |Nein, Microsoft-Teams, Client nicht mit lokalen Skype für Unternehmen unterstützt |     
+|Lokal AD  |Lokal| Microsoft Teams| Enterprise-VoIP/Hybrid-VoIP Connectivity/Direct-Routing   |Nein, Microsoft-Teams, Client nicht mit lokalen Skype für Unternehmen unterstützt |     
 |Lokal AD  |Online |Skype for Business  | Direktes Routing  |Nein, direkten Routing wird mit nicht unterstützt Skype für Business-Client und Benutzer muss zunächst für Enterprise-VoIP in Skype für Unternehmen aktiviert werden  |
 
 

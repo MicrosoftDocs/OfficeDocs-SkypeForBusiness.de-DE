@@ -14,11 +14,11 @@ ms.assetid: 0eb47fc9-17fe-4ccf-b7c9-1a2cf95f943c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Weitere Informationen zur Verwendung von Bereitstellungsassistenten Skype für Business Server installieren finden Sie unter Installieren von Skype Business Server.
 ms.openlocfilehash: 0724e407aa7df17b878537da42fc49ef542144bf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216102"
 ---
 # <a name="deployment-wizard-unified-communications-api"></a>Bereitstellungs-Assistent: Unified Communications-API
  

@@ -1,5 +1,5 @@
 ---
-title: Firstline Worker-Features in Kürze Microsoft-Teams
+title: Features für Mitarbeiter in Service und Produktion in Kürze in Microsoft Teams verfügbar
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -14,13 +14,13 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c96510d0015e8ff026dee28567c7626196007fd6
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245816"
 ---
-# <a name="firstline-worker-features-coming-soon-to-microsoft-teams"></a>Firstline Worker-Features in Kürze Microsoft-Teams
+# <a name="firstline-worker-features-coming-soon-to-microsoft-teams"></a>Features für Mitarbeiter in Service und Produktion in Kürze in Microsoft Teams verfügbar
 
 > [!IMPORTANT]
 > Die Übermittlung wirksamer wird 1 Oktober 2019, Microsoft StaffHub zurückgezogen werden. Wir erstellen StaffHub-Funktionen in Microsoft-Teams. Heute, Teams enthält die Schichten app für zeitplanverwaltung und zusätzliche Funktionen, die über einen Zeitraum einführen werden. StaffHub werden nicht für alle Benutzer auf 1 Oktober 2019 mehr. Jeder Benutzer, der versucht, StaffHub öffnen wird eine Meldung mit der Weiterleitung zum Herunterladen von Teams angezeigt. Weitere Informationen finden Sie unter [Microsoft StaffHub zurückgezogen werden](microsoft-staffhub-to-be-retired.md).
@@ -50,4 +50,4 @@ Wir sind verpflichtet, Erstellen von Funktionen, die die Anforderungen Ihrer Mit
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Microsoft StaffHub soll eingestellt werden](microsoft-staffhub-to-be-retired.md)
-- [Verschieben Sie Ihren Teams bei Microsoft StaffHub in Schichten in Teams](move-staffhub-teams-to-shifts-in-teams.md)
+- [Verschieben Ihrer Microsoft StaffHub-Teams in Schichten in Teams](move-staffhub-teams-to-shifts-in-teams.md)

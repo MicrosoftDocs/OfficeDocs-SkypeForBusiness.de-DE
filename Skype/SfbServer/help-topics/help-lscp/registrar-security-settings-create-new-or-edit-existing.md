@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: 4a09f6da994c095f08d9ed51c3f42b238ad16276
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220228"
 ---
 # <a name="registrar-security-settings-create-new-or-edit-existing"></a>Sicherheitseinstellungen für die Registrierung: Erstellen neuer oder Bearbeiten vorhandener Sicherheitseinstellungen für die Registrierung
 

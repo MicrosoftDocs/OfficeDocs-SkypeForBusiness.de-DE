@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Zusammenfassung: Erfahren Sie, wie Skype für Business Server mit Skype Consumer verbunden wird. Wird auch als Skype-Konnektivität bezeichnet.'
 ms.openlocfilehash: 3dd48661b230f4e780505be4aeb05bbe9ff82340
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874507"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219696"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Skype-Konnektivität in Skype für Business Server bereitstellen
  
@@ -232,18 +232,18 @@ Die folgende Tabelle umreißt die Status der Interoperabilität zwischen der jü
   
 |**Client**|**Skype-Verzeichnissuche und Hinzufügen von Kontakten**|**Skype Audio/Video, Chatnachrichten-Interoperabilität**|
 |:-----|:-----|:-----|
-|Skype for Business  <br/> |Ja   <br/> |Ja   <br/> |
+|Skype for Business  <br/> |Ja  <br/> |Ja  <br/> |
 |Skype for Business auf dem Mac  <br/> |Hinzufügen möglich (keine Suche)  <br/> |Ja  <br/> |
 |Lync Desktop 2013  <br/> |Hinzufügen möglich (keine Suche)  <br/> |Ja  <br/> |
-|Lync Web App – online und lokal  <br/> |-  <br/> |n/v  <br/> |
+|Lync Web App – online und lokal  <br/> |-  <br/> |Nicht zutreffend  <br/> |
 |Lync Mobile – Windows Phone  <br/> |In Kürze verfügbar  <br/> |Ja  <br/> |
 |Lync Mobile – Android  <br/> |In Kürze verfügbar  <br/> |Ja  <br/> |
 |Lync Mobile – iOS  <br/> |In Kürze verfügbar  <br/> |Ja  <br/> |
 |Lync Room System  <br/> |In Kürze verfügbar  <br/> |Ja  <br/> |
-|Lync Modern App (Windows 8.1)  <br/> |Ja  <br/> |Ja   <br/> |
+|Lync Modern App (Windows 8.1)  <br/> |Ja  <br/> |Ja  <br/> |
 |Lync Mac 2011  <br/> |Hinzufügen möglich (keine Suche)  <br/> |Ja  <br/> |
 |Lync Desktop 2010  <br/> |Hinzufügen möglich (keine Suche)  <br/> |Ja  <br/> |
-|Lync Phone Edition  <br/> |-  <br/> |n/v  <br/> |
+|Lync Phone Edition  <br/> |-  <br/> |Nicht zutreffend  <br/> |
 |Lync Attendant  <br/> |n/v  <br/> |n/v  <br/> |
    
 

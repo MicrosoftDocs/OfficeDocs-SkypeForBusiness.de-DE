@@ -14,11 +14,11 @@ ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Reaktionsgruppen bestehen aus agentgruppen, Warteschlangen und Workflows. Eine agentgruppe ist eine Gruppe von Personen, die Annahme von Anrufen für Reaktionsgruppen vorgesehen sind.
 ms.openlocfilehash: 52032cd3c5141ce407809301db7cfc3a93557de5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886085"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215220"
 ---
 # <a name="response-groups-group"></a>Reaktionsgruppen: Gruppe
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
 description: TblFileToken enthält temporäre Token für die Dateiübertragung.
 ms.openlocfilehash: 46553a4b8752e2a95691dc2042a2632845166fc7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881298"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212600"
 ---
 # <a name="tblfiletoken"></a>tblFileToken
  

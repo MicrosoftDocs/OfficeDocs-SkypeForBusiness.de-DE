@@ -1,5 +1,5 @@
 ---
-title: Aufrufen von Richtlinien in der Microsoft-Teams
+title: Anrufrichtlinien in Microsoft Teams
 author: LolaJacobsen
 ms.author: tonysmit
 manager: serdars
@@ -17,42 +17,21 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20dc75dfeb39fbd7a00e6c389dc923617265cc0b
-ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
+ms.openlocfilehash: 6e56f0c89859b940a82e76f8de35ff524a757ec9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "31869806"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225000"
 ---
-<a name="calling-policies-in-microsoft-teams"></a>Aufrufen von Richtlinien in der Microsoft-Teams
+<a name="calling-policies-in-microsoft-teams"></a>Anrufrichtlinien in Microsoft Teams
 ==========================================
 
 In Microsoft-Teams Richtlinien-Steuerelements aufrufen, denen der Aufruf und Features für die anrufweiterleitung für Benutzer verfügbar sind. Aufrufen von Standortrichtlinien wird bestimmt, ob ein Benutzer private aufgerufen werden kann, verwenden Sie die anrufweiterleitung oder Gleichzeitiges Klingeln an andere Benutzer oder externe Telefonnummern, Weiterleitung von Anrufen an Voicemail, senden Anrufe an Gruppen aufrufen Delegierung für eingehende und ausgehende Anrufe, und so weiter. Eine globale Standardrichtlinie wird automatisch erstellt, aber Administratoren können auch benutzerdefinierte aufrufende Richtlinien zuweisen.
 
-## <a name="calling-policy-settings"></a>Aufrufen von Richtlinieneinstellungen
-
-|Aufrufen der richtlinieneinstellung | Beschreibung |
-|-----------------------|-------------|
-|Benutzer kann private Anrufe tätigen. | Steuert alle aufrufende Funktionen in Teams. Deaktivieren Dies wird alle Anruffunktionen in Teams deaktiviert.|
-|Die anrufweiterleitung und Gleichzeitiges Klingeln an andere Benutzer | Steuert, ob eingehende Anrufe an andere Benutzer weitergeleitet werden kann oder eine andere Person gleichzeitig Anrufen kann. |
-|Die anrufweiterleitung und Gleichzeitiges Klingeln an externe Telefonnummern | Steuert, ob eingehende Anrufe an eine externe Nummer weitergeleitet werden kann, oder eine externe Nummer gleichzeitig Anrufen kann.|
-|Voicemail wird für eingehende Anrufe an die Benutzer verfügbar | Ermöglicht die eingehende Anrufe an die Voicemail gesendet werden. Gültige Optionen sind **immer aktiviert**, **immer deaktiviert**oder **Benutzer gesteuert**. |
-|Zum Aufrufen von Gruppen können eingehende Anrufe weitergeleitet werden | Steuert, ob eingehende Anrufe an eine anrufgruppe weitergeleitet werden können.  |
-|Erlaubt die Delegierung für eingehende und ausgehende Anrufe | Ermöglicht die eingehende Anrufe an die Stellvertretungen weitergeleitet werden sollen; ermöglicht die Stellvertretungen zu ausgehenden Anrufe im Namen der Benutzer, für den sie Berechtigungen delegiert wurden. |
-|Verhindern, dass Gebühren umgehen und senden Sie Anrufe über das Telefonfestnetz | Durch Festlegen dieser auf **aktiviert** wird, sendet Anrufe über PSTN und Gebühren für statt über das Netzwerk laufen und umgeht die Gebühren anfallen. |
-|Beschäftigt auf beschäftigt ist während eines Anrufs verfügbar.| Konfiguriert, wie eingehende Anrufe verarbeitet werden, wenn ein Benutzer bereits in einem Anruf oder einer Konferenz ist. Neue oder eingehende Anrufe können mit einer Besetztzeichen abgelehnt werden. |
-
-### <a name="busy-options-busy-on-busy-setting"></a>Gebucht-Optionen (beschäftigt auf beschäftigt Einstellung)
-
-Halten Sie eine neue Einstellung in Teams aufrufende Richtlinien, die Sie Konfigurieren eingehender Anrufe können behandelt werden, wenn ein Benutzer bereits eines Anrufs oder einer Konferenz oder auf ein Anruf platziert wird beschäftigt Optionen angezeigt. Neue oder eingehende Anrufe können mit einer Besetztzeichen abgelehnt werden. Sie können auf einer Ebene Mandanten oder auf der Benutzerebene beschäftigt Optionen aktivieren. 
-
-Unabhängig davon, wie ihre beschäftigt Optionen konfiguriert werden sind Benutzer in einen Anruf oder Konferenz oder die durch einen Anruf in der Warteschleife nicht verhindert neue anrufen oder Konferenzen initiieren.
-
-Die beschäftigt können auf beschäftigt Einstellung in den Aufruf von Richtlinieneinstellungen Sie stark ausgelastet Optionen konfigurieren. Diese Einstellung ist standardmäßig deaktiviert.
-
 ## <a name="create-a-custom-calling-policy"></a>Erstellen Sie eine benutzerdefinierte Richtlinie an aufrufende
 
-Befolgen Sie diese Schritte, um eine neue benutzerdefinierte aufrufende Richtlinie erstellen.
+Befolgen Sie diese Schritte, um eine benutzerdefinierte aufrufende Richtlinie erstellen.
 
 1. Wählen Sie in der Verwaltungskonsole von Microsoft-Teams, **Stimme** > **Richtlinie aufrufen**.
 2. Wählen Sie **neue Richtlinie**aus.
@@ -79,3 +58,44 @@ Befolgen Sie diese Schritte, um eine benutzerdefinierte Richtlinie an aufrufen, 
 3. Suchen Sie nach den Namen des Benutzers, klicken Sie im Bereich **Benutzer verwalten** . (Sie müssen mindestens drei Zeichen eingeben.)
 4. Wählen Sie den Namen des Benutzers aus, und wählen Sie dann auf **Hinzufügen**.
 5. Wählen Sie **Speichern**aus.
+
+## <a name="calling-policy-settings"></a>Aufrufen von Richtlinieneinstellungen
+
+Verwenden Sie die folgenden Einstellungen, um eine benutzerdefinierte aufrufende Richtlinie erstellen.
+
+### <a name="user-can-make-private-calls"></a>Benutzer kann private Anrufe tätigen.
+
+Diese Einstellung steuert alle aufrufende Funktionen in Teams. Deaktivieren Sie diese Option deaktivieren alle Anruffunktionen in Teams.
+
+### <a name="call-forwarding-and-simultaneous-ringing-to-other-users"></a>Die anrufweiterleitung und Gleichzeitiges Klingeln an andere Benutzer
+
+Diese Einstellung steuert, ob eingehende Anrufe an andere Benutzer weitergeleitet werden können, oder eine andere Person gleichzeitig anrufen können. 
+
+### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>Die anrufweiterleitung und Gleichzeitiges Klingeln an externe Telefonnummern
+
+Diese Einstellung steuert, ob eingehende Anrufe an eine externe Nummer weitergeleitet werden können, oder eine externe Nummer gleichzeitig anrufen können.
+
+### <a name="voicemail-is-available-for-routing-inbound-calls-to-users"></a>Voicemail wird für eingehende Anrufe an die Benutzer verfügbar
+
+Diese Einstellung aktiviert eingehende Anrufe an die Voicemail gesendet werden. Gültige Optionen sind:
+
+   - **Immer aktiviert** Voicemail ist immer für eingehende Anrufe verfügbar. 
+   - **Immer deaktiviert**  Voicemail ist nicht verfügbar für eingehende Anrufe. 
+   - **Benutzer gesteuert**. Benutzer können bestimmen, ob sie Voicemail verfügbar sein sollen.
+
+### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Zum Aufrufen von Gruppen können eingehende Anrufe weitergeleitet werden 
+
+Diese Einstellung steuert, ob eingehende Anrufe an eine anrufgruppe weitergeleitet werden können.
+
+### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>Erlaubt die Delegierung für eingehende und ausgehende Anrufe
+
+Diese Einstellung aktiviert eingehende Anrufe an die Stellvertretungen, Stellvertretungen zu ausgehenden Anrufe im Namen der Benutzer, für den sie Berechtigungen delegiert wurden, zulassen weitergeleitet werden. Weitere Informationen finden Sie unter [Freigeben einer Telefonleitung mit einem Delegaten](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
+
+### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Verhindern, dass Gebühren umgehen und senden Sie Anrufe über das Telefonfestnetz 
+
+Durch Festlegen auf **auf** Anrufe über das Telefonfestnetz sendet und Gebühren statt sie über das Netzwerk gesendet werden und umgeht die Gebühren anfallen.
+
+### <a name="busy-on-busy-is-available-while-in-a-call"></a>Beschäftigt auf beschäftigt steht während eines Anrufs
+
+Beschäftigt auf beschäftigt (beschäftigt Optionen)) ist, dass eine neue Einstellung in Teams aufrufende Richtlinien, die Sie Konfigurieren eingehender Anrufe können behandelt werden, wenn ein Benutzer bereits in einem Anruf oder einer Konferenz oder einen Anruf hat in der Warteschleife platziert. Neue oder eingehende Anrufe können mit einer Besetztzeichen abgelehnt werden. Sie können auf einer Ebene Mandanten oder auf der Benutzerebene beschäftigt Optionen aktivieren. Unabhängig davon, wie ihre beschäftigt Optionen konfiguriert werden sind Benutzer in einen Anruf oder Konferenz oder die durch einen Anruf in der Warteschleife nicht verhindert neue anrufen oder Konferenzen initiieren. Diese Einstellung ist standardmäßig deaktiviert.
+

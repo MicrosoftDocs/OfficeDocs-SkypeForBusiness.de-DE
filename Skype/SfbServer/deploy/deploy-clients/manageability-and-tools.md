@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Lesen Sie dieses Thema und erfahren Sie mehr über Verwaltungstools für Skype Room System.
 ms.openlocfilehash: 9be385030ad09e73608b461c5a0c05cea70987c0
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699623"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219402"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype Room System – Verbesserte Verwaltung und Tools
  
@@ -51,7 +51,7 @@ Skype-Chatroom-System kann über die System Center Operations Manager (SCOM) dur
   - Skype für Business Health Analysetool (Excel)    
   - Skype für Business Connectivity Analyzer, 32-Bit oder 64-Bit
     
-- Lesen Sie das Thema [Useful new troubleshooting and analysis tools for Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/) (Praktische neue Analysetools zur Fehlerbehebung für Office 365). Vergewissern Sie sich, Sie haben einen Skype für Business-Pool und einen Office Web Apps-Server und ein PowerPoint-Deck mithilfe der Skype für Business-Client freigeben können.
+- Überprüfen Sie [nützliche neue Problembehandlung und Analysetools für Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Vergewissern Sie sich, Sie haben einen Skype für Business-Pool und einen Office Web Apps-Server und ein PowerPoint-Deck mithilfe der Skype für Business-Client freigeben können.
     
 - Wenn Besprechungsraum bereits ein Ressourcenpostfach verfügt, aktivieren Sie es für Skype für Unternehmen.
     

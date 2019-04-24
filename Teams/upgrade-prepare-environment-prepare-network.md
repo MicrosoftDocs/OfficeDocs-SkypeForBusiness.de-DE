@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 950786a6d1014b322c76d1f4cd35afaec789f177
-ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
+ms.openlocfilehash: b7a26792cb16c103c6e8a47c5049efa84e5b1120
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30771782"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218702"
 ---
 ![Phasen der Upgrade-Strategie, mit Schwerpunkt auf der technischen Bereitschaft](media/upgrade-banner-tech-readiness.png "Phasen der Upgrade-Strategie, mit Schwerpunkt auf der technischen Bereitschaft")
 
@@ -56,21 +56,9 @@ Die unten beschriebenen Schritte helfen Ihnen bei der Bestimmung, ob Ihre Bereit
 
 ## <a name="bandwidth-planning"></a>Bandbreitenplanung
 
-
 Microsoft-Teams, können Sie die beste Audio-, Video- und unabhängig von den netzwerkbedingungen Erfahrung von Inhalten. Mit den Variablen Codecs können Medien in Umgebungen mit minimaler Beeinträchtigung eingeschränkter Bandbreite ausgehandelt werden. Aber wo Bandbreite kein Belang ist, können Erfahrungen optimiert für die Qualität, videoauflösung 1080p, einschließlich von bis zu 30 f/s für Video und 15fps für Inhalte und Audio mit hoher Qualität.
 
-
-Dieser Artikel beschreibt eine präzise Version wie Bandbreite von Teams Echtzeit Audio-, Video- und Desktopfreigabe Modalitäten in verschiedene Anwendungsfälle genutzt wird. Teams ist immer auf bandbreitenauslastung konservativ und HD-Videoqualität in unter 1.2Mbps realisiert werden können. Die tatsächlichen Bandbreitenverbrauch in einzelnen a/v-Anruf oder Besprechung, hängt Grundlage verschiedener Faktoren, wie video Layout, Auflösung und Videoframes pro Sekunde.Wenn mehr Bandbreite verfügbar ist werden die Qualität und Nutzung am besten zu erhöhen.
-
-|Bandwidth(Up/Down) |Szenarien |
-|---|---|
-|30 Kbit/s |Aufrufen von Peer-zu-Peer-audio |
-|130 Kbit/s |Peer-zu-Peer-audio Anruf- und Bildschirmfreigabe |
-|500 KBit/s |Peer-zu-Peer-Bildqualität 360p mit 30fps aufrufen |
-|1.2 Mbit/s |Durch den Aufruf von Auflösung von HD 720p mit 30fps Videoqualität HD Peer-zu-peer |
-|1,5 Mbit/s |Durch den Aufruf von Auflösung von HD 1080p mit 30fps Videoqualität HD Peer-zu-peer |
-|500 KBit/s/1 Mbit/s |Gruppe Video aufrufen |
-|1 Mbit/s/2 Mbit/s |HD-Gruppe video aufrufen (540p Videos auf 1080p Bildschirm) |
+[!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
 
 ### <a name="local-internet-egress"></a>Lokaler Internetausgang
 

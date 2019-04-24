@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 description: Klicken Sie mit der rechten Maustaste auf Office Web Apps-Server, und wählen Sie Neuer Office Web Apps-Server, um den Office Online-Assistenten zu öffnen.
 ms.openlocfilehash: f566f8f8f92335af66ee99cc4c96def7ad08439b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874871"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219314"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps-Server - Bereichsknoten
 

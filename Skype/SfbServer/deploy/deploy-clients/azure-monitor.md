@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: In diesem Artikel wird erläutert, wie Verwaltung von Microsoft-Teams Chatrooms Geräte in Azure Monitor mit integrierten, End-to-End-Weise bereitstellen.
 ms.openlocfilehash: 599cbb7abce2b20dac27ffebacb041062a254905
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013109"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219514"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Bereitstellen von Microsoft-Teams Chatrooms Management mit Azure Monitor
 

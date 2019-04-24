@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 'Zusammenfassung: Informationen Sie zum Erstellen, ändern und Szenarien für die zentralisierte Protokollierungsdienst in Skype für Business Server 2015 zu entfernen.'
 ms.openlocfilehash: 453c9c593e53dca186b09e1ba835bc8f94bb7112
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878301"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217677"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Konfigurieren von Szenarien für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015
  

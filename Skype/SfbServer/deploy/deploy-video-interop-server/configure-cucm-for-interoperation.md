@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 'Zusammenfassung: Konfigurieren Sie CUCM Skype für Business Server entwickelt.'
 ms.openlocfilehash: 630ab5165c3c7bb3a64663d54ef750fe9275f932
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888036"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219659"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Konfigurieren von CUCM für die Interoperation mit Skype für Business Server
  

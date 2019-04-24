@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: Das Mobilitätsfeature in Skype für Business Server 2015 unterstützt Skype für Business-Funktionen auf mobilen Geräten.
 ms.openlocfilehash: 24152e0b3da1d1bdfcfe033b9d14ea5cd8f90321
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882411"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217544"
 ---
 # <a name="mobility-planning-tool"></a>Mobility (Planning Tool)
  

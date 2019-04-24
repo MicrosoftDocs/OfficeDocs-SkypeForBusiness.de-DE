@@ -1,5 +1,5 @@
 ---
-title: Kontoinformationen für Portierungsaufträge
+title: Port Reihenfolge Kontoinformationen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,19 +22,19 @@ ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, welche Kontoinformationen, die Sie beim Arbeiten mit dem Assistenten für eine neue lokale Anzahl Port Reihenfolge benötigen. '
 ms.openlocfilehash: 404bef2ad18728de90ac0a296c213e841719984b
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958311"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229847"
 ---
-# <a name="port-order-account-information"></a>Kontoinformationen für Portierungsaufträge
+# <a name="port-order-account-information"></a>Port Reihenfolge Kontoinformationen
 
 Wenn Sie die Seite **Kontoinformationen** im Assistenten für **Neue lokale Anzahl Port Reihenfolge** verwenden eine Port-Reihenfolge zu übermitteln, benötigen Sie fast alle dieselben Informationen, die Sie in das Geladene bereitstellen würde einschließlich:
   
 - Account-Nummer für den Dienstanbieter oder Netzbetreiber
     
-- Abrechnungstelefonnummer (BTN, Billing Telephone Number)
+- Abrechnung-Telefonnummer (BTN)
     
 - PIN - bei Bedarf vom aktuellen Dienstanbieter oder Netzbetreiber
     
@@ -43,12 +43,12 @@ Wenn Sie die Seite **Kontoinformationen** im Assistenten für **Neue lokale Anza
     > [!NOTE]
     > Dadurch werden nur 25 Zeichen, einschließlich Leerzeichen akzeptiert. Wenn der Firmenname länger als 25 Zeichen ist, werden die ersten 25 Zeichen des Namens eingereicht und der Portierungsantrag wird ausgeführt. 
   
-- Name des autorisierten Benutzers
+- Autorisierten Benutzernamen
     
     > [!NOTE]
     > Dadurch werden nur 15 Zeichen, einschließlich Leerzeichen akzeptiert. Wenn der Name der berechtigten Person länger als 15 Zeichen ist, werden die ersten 15 Zeichen des Namens eingereicht und der Portierungsantrag wird ausgeführt. 
   
-- Dienstadresse
+- Dienst-Adresse
     
 - Ort, Bundesland und Postleitzahl der Abrechnung-Adresse
     

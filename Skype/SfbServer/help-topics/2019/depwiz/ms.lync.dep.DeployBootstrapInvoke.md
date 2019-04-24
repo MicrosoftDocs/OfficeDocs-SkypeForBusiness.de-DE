@@ -14,11 +14,11 @@ ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die Befehle ausführen zeigt eine ausgeführte Übersicht über die Aufgaben, die ausgeführt werden, um die Serverrolle bereitzustellen. Nach Abschluss der Aufgaben – bereitstellen und aktivieren oder deaktivieren und deinstallieren Sie eine Zusammenfassung wird angezeigt. Darüber hinaus können Sie in der Dropdown-Liste Sie Protokolldateien auswählen, die erstellt werden, wenn die Befehle ausgeführt werden. Verwenden Sie die Dropdown-Liste die Protokolldatei aus, der Sie anzeigen möchten, und klicken Sie auf Protokoll anzeigen.
 ms.openlocfilehash: 7cf9ba48be5cfe311dfd3c38046d8730942064a5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883900"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216557"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>Einrichten und Entfernen von Komponenten von Skype for Business Server (Aufruf)
  

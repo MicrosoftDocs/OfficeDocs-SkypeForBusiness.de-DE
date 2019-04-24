@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 description: Die Persistent Chat Server-Bereitstellung kann viele gleichzeitige beständigen Chat Rooms hosten. Chatrooms können in Kategoriegruppen auf dem Server angeordnet werden. Jeder Chatroom gehört einer Kategorie an und übernimmt die Einstellungen dieser Kategorie. Diese Anordnung ergibt eine hilfreiche Struktur zur Identifikation von Konversationen basierend auf ihrem geschäftlichen Anlass und ermöglicht die delegierte Administration und eine einfachere Verwaltung.
 ms.openlocfilehash: a1995f5d6049bc861e1aa79a3932d734d4002026
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879104"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220263"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>Konfiguration für beständigen Chat – Hauptseite
  

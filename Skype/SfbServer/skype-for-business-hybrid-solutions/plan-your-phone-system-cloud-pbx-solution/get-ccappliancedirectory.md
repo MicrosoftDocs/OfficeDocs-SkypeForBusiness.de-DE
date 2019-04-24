@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: c2fda202-db2f-4122-b630-7df11a697c5f
 description: 'Das Cmdlet „Get-CcApplianceDirectory“ ruft das Arbeitsverzeichnis auf dem Hostserver von Skype for Business Cloud Connector Edition ab. In diesem Verzeichnis werden alle Bereitstellungsdateien gespeichert. '
 ms.openlocfilehash: bcd80018b2286865945638f66c13e4c5198346dc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891483"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233974"
 ---
 # <a name="get-ccappliancedirectory"></a>Get-CcApplianceDirectory
  

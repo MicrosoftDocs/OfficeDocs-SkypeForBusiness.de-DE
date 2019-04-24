@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 'Zusammenfassung: Lesen Sie diesen Abschnitt beim Planen des Überwachungsdienst in Skype für Business Server.'
 ms.openlocfilehash: cfe5e0eb31ca2badb3c4610f33c0761a98972ce7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892511"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213914"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Planen der Überwachung in Skype für Business Server
 

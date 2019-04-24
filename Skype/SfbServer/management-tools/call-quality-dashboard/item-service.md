@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: 'Zusammenfassung: Informationen Sie zu den Element-Dienst, der Teil der Repository-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
 ms.openlocfilehash: 28a705d488519e439a0fd4c9c9345b1d540fd949
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895944"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217817"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>Dienst für Anruf Qualitätsdashboard (CQD)
  

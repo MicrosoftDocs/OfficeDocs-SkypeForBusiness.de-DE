@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: a1d7187c-f851-4967-88ea-73922911ee7a
 description: Die CallType-Tabelle ist eine statische Tabelle, die die Liste der möglichen Anruftypen gespeichert.
 ms.openlocfilehash: 29e5ed85de5917092ad00cd0e1aa60fec1a31b22
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883179"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213361"
 ---
 # <a name="calltype-table-in-skype-for-business-server-2015"></a>CallType-Tabelle in Skype für Business Server 2015
  

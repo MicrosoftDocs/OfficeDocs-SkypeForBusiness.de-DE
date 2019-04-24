@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: a909daad-d137-45e0-b149-1de9f8e1e029
 description: Die Gateways-Tabelle ist eine Tabelle. Jeder Datensatz speichert Informationen über ein Gateway, die beteiligt ist im öffentlichen Telefonnetz (Network, PSTN) anrufen, die Datensätze in der Datenbank verfügen.
 ms.openlocfilehash: 16860e924fb69f1dfe337e05c13d54fb66a8ed81
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213074"
 ---
 # <a name="gateways-table-in-skype-for-business-server-2015"></a>Gateways-Tabelle in Skype für Business Server 2015
  

@@ -14,11 +14,11 @@ ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie können im Lync Server 2013-Knoten des Topologie-Generator neue Serverrollen erstellen, indem Sie mit der rechten Maustaste auf Lync Server 2013, wählen Sie neu und dann die zu erstellende Serverrolle auswählen.
 ms.openlocfilehash: aa53e7a373a95e8f264a64aaac82bbcab47b0dcc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235420"
 ---
 # <a name="skype-for-business-server-create-new-expander"></a>Skype für Business Server erstellen neue – Erweiterung
  

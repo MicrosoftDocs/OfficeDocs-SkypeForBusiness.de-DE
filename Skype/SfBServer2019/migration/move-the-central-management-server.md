@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Nach der Migration zu Skype für Business Server 2019, müssen Sie den zentralen Verwaltungsserver an der Skype für Business Server 2019 Front-End-Server oder Pool verschieben, bevor Sie dem-Legacyserver entfernen können.
 ms.openlocfilehash: dc85548a3c81e55267bc0ed3a32e53860e4bce09
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894747"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231574"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Verschieben der Vorversion zentralen Verwaltungsserver in Skype für Business Server 2019
 

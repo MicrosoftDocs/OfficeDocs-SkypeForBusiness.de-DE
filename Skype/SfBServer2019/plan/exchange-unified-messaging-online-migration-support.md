@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: ''
 description: Microsoft ist den Exchange Unified Messaging (ExchUMO) Onlinedienst vom Februar 2020 abschließen. In diesem Artikel werden zusammengefasst, was betroffen Kunden kennen und tun, um für ihre Business Continuity planen sollten.
 ms.openlocfilehash: 703c51f3d42c9eea12964230693e602428454754
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244462"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online  
 

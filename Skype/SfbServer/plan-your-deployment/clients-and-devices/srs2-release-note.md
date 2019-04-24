@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.collection: M365-voice
 description: In diesem Artikel werden die kumulative Verbesserungen bei der Microsoft-Teams Chatrooms.
 ms.openlocfilehash: 3d80c1c2e4aa2fcad241f566b832e8ddbc662120
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012898"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214491"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version 
 
@@ -218,7 +218,7 @@ In diesem Update eingeführt:
 <a name="See"> </a>  
 ## <a name="see-also"></a>Siehe auch
 
-[Hilfe für Microsoft-Teams Räume](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms-Hilfe](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Vorbereiten der Umgebung](srs-v2-prep.md)
 
@@ -228,4 +228,4 @@ In diesem Update eingeführt:
 
 [Planen der Microsoft-Teams, Räume](skype-room-systems-v2-0.md)
 
-[Verwalten von Microsoft-Teams, Räume](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Microsoft Teams Rooms verwalten](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

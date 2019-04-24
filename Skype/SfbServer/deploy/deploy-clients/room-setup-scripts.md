@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: Lesen Sie dieses Thema, in dem Sie Beispielskripte für die Bereitstellung von Skype Room System-Konten finden.
 ms.openlocfilehash: 2032799059d59d1a99526a2b90630dd3c7b1cb3e
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699665"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219381"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype Room System – Skripte für das Raumsetup
  

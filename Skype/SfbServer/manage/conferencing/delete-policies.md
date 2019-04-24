@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: 'Zusammenfassung: Erfahren Sie, wie konferenzrichtlinien in Skype für Business Server zu löschen.'
 ms.openlocfilehash: 404e981af46b29bd95b36ca402c9f691e34737a5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873366"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222807"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>Löschen von konferenzrichtlinien in Skype für Business Server
  

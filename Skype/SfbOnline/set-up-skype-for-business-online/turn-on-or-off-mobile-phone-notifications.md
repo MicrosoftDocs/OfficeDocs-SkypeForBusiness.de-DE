@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: Erfahren Sie, wie Mobiltelefon Benachrichtigungen aktivieren oder deaktivieren, damit die Benutzer die Benachrichtigungen über eingehende, Voicemail empfangen können und entgangene Sofortnachrichten.
 ms.openlocfilehash: 40d71ba5a3106e9ae33e5f39a504e1e413a58af1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897023"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226397"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Aus- oder Einschalten von Mobiltelefonbenachrichtigungen
 

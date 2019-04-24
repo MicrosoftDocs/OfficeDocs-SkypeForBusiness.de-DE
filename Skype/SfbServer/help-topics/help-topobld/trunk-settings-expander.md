@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 'Führen Sie zum Bearbeiten oder Ändern der Einstellungen für einen SIP-Trunk die folgenden Aufgaben aus:'
 ms.openlocfilehash: 5d415ee6fb219eee21c1b29287748ba7edddf5f3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884740"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219092"
 ---
 # <a name="trunk-settings-expander"></a>Trunkeinstellungen – Erweiterung
 

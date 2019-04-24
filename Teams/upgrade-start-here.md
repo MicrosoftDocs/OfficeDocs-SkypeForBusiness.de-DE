@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d35f146ee7c52aa6c32f44e5fcefdad855dfbd3e
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649500"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218606"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Erste Schritte mit dem Upgrade von Microsoft Teams
 
@@ -53,8 +53,8 @@ Beginnen Sie Ihre Reise durch Kennenlernen Upgrade Erfolg-Framework und den zuge
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 > [!Tip]
-> Sehen Sie sich die folgenden Sitzung um kennen zu lernen die Aktualisierung von Skype für Unternehmen, die Microsoft-Teams:
+> Sehen Sie sich die folgende Sitzung an, um sich über das Upgrade von Skype for Business auf Microsoft Teams zu informieren:
 > - [Einführung in das Upgrade](https://aka.ms/teams-upgrade-intro)
 > - [Planen des Upgrades](https://aka.ms/teams-upgrade-plan)
-> - [Interoperabilität und Koexistenz](https://aka.ms/teams-upgrade-coexistence-interop)
-> - [Administratorbenutzeroberfläche](https://aka.ms/teams-upgrade-admin)
+> - [Koexistenz und Interoperabilität](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Das Upgrade aus Sicht des Administrators](https://aka.ms/teams-upgrade-admin)

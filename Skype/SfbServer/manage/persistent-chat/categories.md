@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Zusammenfassung: Informationen Sie zum Verwalten von Persistent Chat Server-Kategorien in Skype für Business Server 2015.'
 ms.openlocfilehash: a0d70ec0266fc85d94c44c11ba15e42eea0be44b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219737"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015
  

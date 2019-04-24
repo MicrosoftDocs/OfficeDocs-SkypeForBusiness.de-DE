@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
 description: 'Zusammenfassung: Ändern einer vorhandenen PIN-Richtlinie in Skype für Business Server.'
 ms.openlocfilehash: 7694b96b3e3dc169e6642c435edf38506a506bb8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877636"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217866"
 ---
 # <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>Ändern einer vorhandenen PIN-Richtlinie in Skype für Business Server
  

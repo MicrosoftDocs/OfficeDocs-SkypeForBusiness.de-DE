@@ -18,11 +18,11 @@ ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Mithilfe der Skype für Business Server Hybrid Verwaltbarkeit-Assistenten können Sie Ihre Umgebung für hybride mit Skype für Business Online zu konfigurieren.
 ms.openlocfilehash: efbb21fded9a6ec6445062bc075f9116f963c71c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215577"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>Hybrid-Assistent: Anmelden bei Office 365
 

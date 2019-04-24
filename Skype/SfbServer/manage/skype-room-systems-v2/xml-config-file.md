@@ -13,11 +13,11 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection: M365-voice
 description: In diesem Artikel wird remote Management die Standardeinstellungen, die von einem Microsoft-Teams Räume-Gerät, einschließlich eines benutzerdefinierten Designs verwendet.
 ms.openlocfilehash: 2dc99046647fc1cbda8fcb7643dbdf06d2d24c82
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214743"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Verwalten einer Microsoft-Teams Chatrooms Konsolenstamm Remote mit einer XML-Konfigurationsdatei
  
@@ -132,6 +132,6 @@ Die XML-Konfigurationsdatei muss beim Starten des Geräts aktualisiert werden, d
 ## <a name="see-also"></a>Siehe auch
 
 
-[Verwalten von Microsoft-Teams, Räume](skype-room-systems-v2.md)
+[Microsoft Teams Rooms verwalten](skype-room-systems-v2.md)
 
 [Konfigurieren eines Dateielements für](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

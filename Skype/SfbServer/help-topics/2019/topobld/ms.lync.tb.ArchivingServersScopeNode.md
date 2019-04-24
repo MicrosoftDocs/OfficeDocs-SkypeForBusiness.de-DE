@@ -14,11 +14,11 @@ ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Im Topologie-Generator können Sie auf einen einzelnen Archivierungsserver bezogene Aufgaben ausführen, indem Sie entweder in der Konsolenstruktur mit der rechten Maustaste auf Archivierungsserver klicken und anschließend auf der Symbolleiste auf Aktion klicken oder im Bereich „Aktionen“ auf eine Aufgabe und anschließend auf die folgende Archivierungsserveroption klicken.
 ms.openlocfilehash: e6233c42576b6346852146b9a58ccc06d0df4e25
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889874"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220719"
 ---
 # <a name="archiving-servers-scope-node"></a>Archivierungsserver – Bereichsknoten
  

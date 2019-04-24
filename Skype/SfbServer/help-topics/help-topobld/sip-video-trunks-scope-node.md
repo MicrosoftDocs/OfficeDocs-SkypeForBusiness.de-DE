@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: a4df43f5-0563-4738-a020-7aec3bc46e17
 description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator werden in einem Pool gegenüber in Skype erstellen für Business Server 2015 online beschrieben.
 ms.openlocfilehash: d3a75645a7dfa42616cf44b66b8fa93b49249c8e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219085"
 ---
 # <a name="sip-video-trunks-scope-node"></a>SIP-Videotrunks – Bereichsknoten
  

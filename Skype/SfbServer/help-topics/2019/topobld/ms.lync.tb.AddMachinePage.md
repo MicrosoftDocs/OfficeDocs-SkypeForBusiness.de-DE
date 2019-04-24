@@ -14,11 +14,11 @@ ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Zum Hinzufügen eines neuen Servers zu einem vorhandenen Pool von Servern, eine der folgenden pooltypen:'
 ms.openlocfilehash: 5db99c8cdd2a08722a27a9da437911dcf573d5bf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220927"
 ---
 # <a name="add-server"></a>Hinzufügen des Servers
  

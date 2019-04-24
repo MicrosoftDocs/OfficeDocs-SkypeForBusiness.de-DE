@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie vor dem Verschieben der bereitstellungs von Skype für Business Server 2019 von einer pilotbereitstellung zu einer Bereitstellung auf Produktionsebene durchführen müssen.
 ms.openlocfilehash: 92e74af1881da85b84a7886965986c42d6e6d955
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876306"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231525"
 ---
 # <a name="phase-6-move-from-pilot-deployment-into-production"></a>Phase 6: Migration von der Pilotbereitstellung zur Produktionsbereitstellung
 

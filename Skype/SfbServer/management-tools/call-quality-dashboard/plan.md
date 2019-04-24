@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Zusammenfassung: Erfahren Sie mehr über welche Aspekte bei der Planung für das Anrufqualität Dashboard zu.'
 ms.openlocfilehash: ee82d56747ee4f4241f2630a5a6fd3136ff42be4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217781"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planen Sie für die Qualitätsdashboard Anruf Skype für Business Server 
  

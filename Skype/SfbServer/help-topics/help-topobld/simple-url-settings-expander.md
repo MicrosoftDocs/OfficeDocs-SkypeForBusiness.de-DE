@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 'Zum Angeben neuer, Entfernen vorhandener oder ändern dem aktiven einfachen URLs, führen Sie die folgenden Schritte aus:'
 ms.openlocfilehash: 2015b377647c96e2e590a07c89c81f84ab59f586
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889014"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219162"
 ---
 # <a name="simple-url-settings-expander"></a>Einstellungen für einfache URL – Erweiterung
 

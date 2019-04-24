@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In diesem Artikel wird beschrieben, wie Portbereiche für Clients, die auf Windows-10 für Ihre Clients und Konfigurieren von Quality of Service-Richtlinien in Skype für Business Server konfigurieren.
 ms.openlocfilehash: 2e5328406634302a1b076eec8466e7f7b9245150
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881521"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219723"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Konfigurieren von Portbereichen und einer Richtlinie Quality of Service für Clients in Skype für Business Server
 

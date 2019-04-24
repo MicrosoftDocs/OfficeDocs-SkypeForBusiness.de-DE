@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Reguläre Ausdrücke von .NET Framework nicht Skype für Normalisierungsregeln Business Server mit gewählten Telefonnummern in das e. 164-Format übersetzt wird. Anders ausgedrückt, Normalisierungsregeln übernehmen die von einem Benutzer gewählte Rufnummer und konvertieren diese Nummer in das Format von Skype für Business Server intern verwendet. Jedem Wählplan muss mindestens eine Normalisierungsregel zugewiesen werden.
 ms.openlocfilehash: a1157e9cf435fdd655e9d1772294fa3f57acf3f4
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993515"
+ms.locfileid: "32214659"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Definieren von Normalisierungsregeln in Skype für Business Server
 

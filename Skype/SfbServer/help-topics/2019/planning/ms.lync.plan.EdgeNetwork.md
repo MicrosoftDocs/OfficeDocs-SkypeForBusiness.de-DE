@@ -15,11 +15,11 @@ ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt. Die Edgetopologie des Umkreisnetzwerks umfasst die folgenden Komponenten. Wenn nicht anders angegeben werden die Komponenten sind Teil der Edge-Server-Szenarien in Skype für Business Server und werden im Umkreisnetzwerk. Zu den Edgekomponenten gehören:'
 ms.openlocfilehash: 0cd49ba3acc1b6943a1fdf9ae8ba8dc1a96727d1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221004"
 ---
 # <a name="edge-network-planning-tool-in-skype-for-business"></a>Edgenetzwerk (Planungstool) in Skype für Unternehmen 
  

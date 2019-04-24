@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.custom: httpsfix
 description: Das folgende Thema bietet Hilfestellung für Aktualisieren von DNS-Einträge, die Content Management Server verschieben, Außerbetriebnahme von Pools, und deaktivieren und Entfernen von Servern und Pools aus einer Vorgängerversion Bereitstellung. Nicht alle Verfahren in diesem Abschnitt aufgeführten sind erforderlich. Lesen Sie die Dokumentation und bestimmen Sie, welche Außerbetriebnahme Verfahren verwenden.
 ms.openlocfilehash: 2363b90f1bcc71c3c8c1ee42d258101240bcacb7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880261"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231511"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>Phase 8: Außerbetriebsetzen der Legacypools
 

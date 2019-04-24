@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Lesen Sie dieses Thema und erfahren Sie, wie Konferenzrichtlinien für Skype Room System-Konten zugewiesen werden.
 ms.openlocfilehash: a56bf9f6b8ba70a4f9ec1f28e84dfa67b1e71aa9
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699573"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219465"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Konferenzrichtlinie für Skype Room System-Konten
  
@@ -46,8 +46,8 @@ Die dem Konto Skype Raum System zugeordnete konferenzrichtlinie muss bestimmte M
 |EnableAppDesktopSharing  <br/> |Desktop  <br/> |Wirkt sich auf Jetzt besprechen (ad-hoc-) Whiteboardsitzungen in Skype Raum System  <br/> |
 |AllowConferenceRecording  <br/> |FALSE  <br/> |Nicht zutreffend für Raum Skype-System. Wenn „TRUE“ (WAHR), könnte eine ferne Partei aufzeichnen  <br/> |
 |EnableP2PRecording  <br/> |FALSE  <br/> |Nicht zutreffend für Raum Skype-System. Wenn „TRUE“ (WAHR), könnte eine ferne Partei aufzeichnen  <br/> |
-|EnableFileTransfer  <br/> |TRUE  <br/> |-  <br/> |
-|EnableP2PFileTransfer  <br/> |TRUE  <br/> |-  <br/> |
+|EnableFileTransfer  <br/> |TRUE  <br/> |Nicht zutreffend  <br/> |
+|EnableP2PFileTransfer  <br/> |TRUE  <br/> |Nicht zutreffend  <br/> |
 |EnableP2PVideo  <br/> |TRUE  <br/> |Ermöglicht dem Client Skype Raum System zur Teilnahme an Peer-zu-Peer-videositzungen  <br/> |
 |AllowLargeMeetings  <br/> |FALSE  <br/> |-  <br/> |
 |EnableDataCollaboration  <br/> |TRUE  <br/> |Wirkt sich auf Jetzt besprechen (ad-hoc-) Whiteboardsitzungen in Skype Raum System  <br/> |

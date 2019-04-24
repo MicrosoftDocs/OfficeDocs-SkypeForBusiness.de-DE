@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: In den Themen in diesem Abschnitt wird erläutert, wie die Bereitstellung eines pilotpools einen Skype für Business Server 2019 Edge-Server hinzugefügt. Die Themen enthalten Hinweise zur Konfiguration und Überprüfung, bei der Ausführung des Assistenten zum Bereitstellen von neuen Edge-Pools.
 ms.openlocfilehash: c7da85f000fad55b27ed376d40bed957edf8dd6c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231518"
 ---
 # <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a>Phase 5: Hinzufügen von Skype für Business Server 2019 Edge-Server zum pilotpool
 

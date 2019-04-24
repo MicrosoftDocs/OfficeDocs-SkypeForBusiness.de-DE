@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 78569dbf-5217-42fa-ba1a-4380f56e2a3d
 description: Jeder Datensatz in dieser Tabelle stellt einen Benutzer in einer Sofortnachrichtenkonferenz und enthält die Anzahl der Nachrichten, die von diesem Benutzer gesendet. Jede Konferenz wird durch mehrere Datensätze in dieser Tabelle dargestellt. einen Eintrag für jeden Benutzer.
 ms.openlocfilehash: 60fa79de17c2db14116bd0ffe211e25a61ec9136
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213277"
 ---
 # <a name="conferencemessagecount-table-in-skype-for-business-server-2015"></a>ConferenceMessageCount-Tabelle in Skype für Business Server 2015
  

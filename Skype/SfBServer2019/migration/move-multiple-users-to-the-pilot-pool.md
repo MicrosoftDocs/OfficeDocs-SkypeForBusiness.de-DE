@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Sie können mehrere Benutzer in Ihrer Skype für Business Server 2019 pilot Pool mit Skype für Business Server 2019-Systemsteuerung oder Skype für Business Server 2019-Verwaltungsshell aus Ihrem legacy-Pool verschieben.
 ms.openlocfilehash: c77598d531fa4640d64a61e22ace17e39d87b005
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888301"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233967"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>Verschieben Sie mehrerer Benutzer in den pilotpool
 

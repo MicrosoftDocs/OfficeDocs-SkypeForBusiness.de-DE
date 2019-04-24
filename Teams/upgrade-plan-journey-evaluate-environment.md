@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d8803c4f4135b620d0ab654415546a7419f9e4f1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223092"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft")
 
@@ -157,7 +157,7 @@ Anhand der folgenden Tabelle die Details der Clients und Endpunkte in Verwendung
 > | Welches Desktopbetriebssystem verwenden die Benutzer? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows-10 <br/> <input type="checkbox">Mac (Geben Sie die Version in der Spalte Kommentare.) <br/> <input type="checkbox">Andere (Beachten Sie die Details in der Spalte Kommentare). | |
 > | Welche Version von Microsoft Office bereitgestellt wird <br>mit diesen Geräten? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office für Mac 2011 <br/> <input type="checkbox">Office für Mac 2016 <br/> <input type="checkbox">Andere (Beachten Sie die Details in der Spalte Kommentare). | |
 > | Welche Office-Bereitstellung-Technologie wird verwendet <br>in Ihrer Organisation? | <input type="checkbox">MSI-DATEI <br/> <input type="checkbox">Klick-und-los | |
-> | Was sind die zulässigen und mobile unterstützt <br>Plattformen verwendet? <br/>Wählen Sie alle zutreffenden an. | <input type="checkbox">Fenster <br/> <input type="checkbox"> Mobil <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android (engl.) <br/> <input type="checkbox">Andere (Beachten Sie die Details in der Spalte Kommentare). | |
+> | Was sind die zulässigen und mobile unterstützt <br>Plattformen verwendet? <br/>Wählen Sie alle zutreffenden an. | <input type="checkbox">Fenster <br/> <input type="checkbox">mobil <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android (engl.) <br/> <input type="checkbox">Andere (Beachten Sie die Details in der Spalte Kommentare). | |
 > | Wie werden mobile Geräte bereitgestellt? <br/>Wählen Sie alle zutreffenden an. | <input type="checkbox">Unternehmens-Geräte <br/> <input type="checkbox">Schalten Sie Ihr eigenes Gerät | |
 > | Welche Geräte Benutzer führen Sie derzeit verwenden für den Zugriff auf <br>Sprach- und Dienste <br>(Telefone, Headsets, Telefone, Video)? | | |
 

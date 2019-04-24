@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Nachdem Ihre Benutzer in Skype für Business Server 2019 Pools verschoben werden, können Sie Ihre reaktionsgruppen migrieren. Migrieren von Antwort Gruppen enthält, agentgruppen, Warteschlangen, Workflows, Audiodateien kopieren und Verschieben von Kontaktobjekten Response Group aus der Bereitstellung der Vorversion in der Skype für Business Server 2019 Pool. Nach dem Migrieren von reaktionsgruppen von Vorversionen werden Anrufe an die reaktionsgruppen von der Anwendung "Reaktionsgruppe" in der Skype für Business Server 2019 Pool behandelt. Aufrufe von reaktionsgruppen werden nicht mehr vom vorversionspool behandelt.
 ms.openlocfilehash: 17ba19be3b574436f3a175457264654d8c28ebd0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876313"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231651"
 ---
 # <a name="migrate-response-groups"></a>Migrieren von Reaktionsgruppen
 

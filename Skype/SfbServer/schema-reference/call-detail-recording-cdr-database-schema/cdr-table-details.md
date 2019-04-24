@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: In den folgenden Themen werden die Spalten den Anruf Detail Datensätze (CDR) Database Schema Tabellen.
 ms.openlocfilehash: c6deafa34450e996766389f343afece5f81ba698
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213312"
 ---
 # <a name="cdr-table-details-in-skype-for-business-server-2015"></a>KDS ausführliche Informationen zur Tabelle in Skype für Business Server 2015
  

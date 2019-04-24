@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: Jeder Datensatz steht für eine medienzeile. (In der Regel eine audiositzung enthält eine Audiomedien-Zeile. Eine Audio- und Videokonferenzen (A / V) Sitzung in der Regel enthält zeilenweise Audiomedien und Videomedien zeilenweise, obwohl die Sitzung zwei Videomedien Zeilen enthalten kann, wenn ein Konferenzgerät verwendet wird oder wenn Katalogansicht verwendet wird.
 ms.openlocfilehash: 11c309091211ce0bc480fa032e0f1dbbbbf533cd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896070"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212544"
 ---
 # <a name="medialine-table"></a>MediaLine-Tabelle
  

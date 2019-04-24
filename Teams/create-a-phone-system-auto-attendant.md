@@ -1,5 +1,5 @@
 ---
-title: Richten Sie eine Cloud-Telefonzentrale
+title: Einrichten einer automatischen Cloudtelefonzentrale
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Phone System
 description: Informationen Sie zum Einrichten und Testen von Cloud-Telefonzentralen für effiziente Anruf Behandeln von für Ihre Organisation.
 ms.openlocfilehash: 8ab3dd318e8ae4c815a78dcc8f7430b2b6d08b04
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914670"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218827"
 ---
-# <a name="set-up-a-cloud-auto-attendant"></a>Richten Sie eine Cloud-Telefonzentrale
+# <a name="set-up-a-cloud-auto-attendant"></a>Einrichten einer automatischen Cloudtelefonzentrale
 
 Automatische Telefonzentralen ermöglichen es Personen, die in Ihrer Organisation anrufen, über ein Menüsystem zur richtigen Abteilung, Warteschlange, Person oder dem Telefonisten zu gelangen. Sie können für Ihre Organisation eine automatische Telefonzentrale erstellen, mit dem Microsoft-Teams, Administrationscenter. Zum Erstellen einer neuen automatischen Telefonzentrale, wechseln im linken Navigationsbereich zu **VoIP** , und wählen Sie **automatische Telefonzentralen** > **Hinzufügen**.
 
@@ -371,6 +371,6 @@ Zum Verwalten einer automatischen Telefonzentrale benötigen Sie die folgenden C
 
 [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
-[Was sind automatische Telefonzentralen Cloud?](what-are-phone-system-auto-attendants.md)
+[Was sind automatische Cloudtelefonzentralen?](what-are-phone-system-auto-attendants.md)
 
 [Beispiel für Kleinunternehmen – Einrichten einer automatischen Telefonzentrale](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)  

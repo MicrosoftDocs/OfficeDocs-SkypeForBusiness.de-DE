@@ -14,11 +14,11 @@ ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Zusätzlich zur Angabe der Version des Clients, die Sie in Ihrer Umgebung unterstützen möchten, können Sie eine Standardaktion für Clients angeben, die noch keine Versionsrichtlinie definiert haben. So können Sie einschränken, welche Clientversionen in Ihrer Umgebung verwendet werden, das Sie zum Steuern der Kosten aufgrund der Unterstützung mehrerer Clientversionen hilfreich sein können.
 ms.openlocfilehash: c83dc832d6ea866a7f29f0a98213ea25853cd2f7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215920"
 ---
 # <a name="client-version-configuration"></a>Clientversionskonfiguration
 

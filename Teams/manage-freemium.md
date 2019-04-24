@@ -1,12 +1,12 @@
 ---
-title: Verwalten Sie die kostenlose Version von Microsoft-Teams
+title: Verwalten der kostenlosen Version von Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 04/12/2019
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: ''
+ms.reviewer: daryav
 search.appverid: MET150
 description: Informationen Sie zu Features in Teams kostenlose Admin.
 localization_priority: Normal
@@ -17,14 +17,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4a3d72374e2d49df0298002b99272c80d78ffe0
-ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
+ms.openlocfilehash: b6eb43669761e6f61d88299fe155501e807e1100
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31854149"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222333"
 ---
-<a name="manage-the-free-version-of-microsoft-teams"></a>Verwalten Sie die kostenlose Version von Microsoft-Teams
+<a name="manage-the-free-version-of-microsoft-teams"></a>Verwalten der kostenlosen Version von Microsoft Teams
 ==========================================
 
 In der kostenlosen Version von Microsoft-Teams weist die erste Person, die in Ihrer Organisation anmeldet eine begrenzte Administratorrolle. Die Person, die diese Rolle beschränkt hat kann hinzufügen und Entfernen von Teammitgliedern und angeben, ob alle Benutzer kann zusätzliche Mitglieder einladen, aber dieser Benutzer keine erweiterten Verwaltungsfunktionen und ohne Zugriff auf das Microsoft-Teams, Administrationscenter hat. 

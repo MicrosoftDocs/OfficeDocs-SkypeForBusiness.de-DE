@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Sie starten Topologie-Generator, um die Eigenschaften und die Konfiguration Ihrer Bereitstellung von Microsoft Lync Server 2013 konfigurieren. Beim Starten zeigt Topology Builder ein Dialogfeld mit der Aufforderung, was die Quelle des Dokuments Topologie sein wird. Wählen Sie eine der drei Optionen zur Verfügung:'
 ms.openlocfilehash: df784ea76497cb038eb46f929844662066a298aa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891095"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219106"
 ---
 # <a name="topology-builder-startup-dialog"></a>Topologie-Generator – Startdialogfeld
 

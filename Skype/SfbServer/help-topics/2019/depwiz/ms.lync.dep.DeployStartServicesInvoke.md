@@ -14,11 +14,11 @@ ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 ROBOTS: NOINDEX, NOFOLLOW
 description: Bereich "Zusammenfassung", klicken Sie im Bereich Befehle ausführen zeigt den Status der Aufgaben ausgegeben, um die Dienste für die Skype für Business Server Role Server starten, das Sie bereitstellen.
 ms.openlocfilehash: db2e0282e15b1995aa6b83bcfdd4ecbecd922207
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887851"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215955"
 ---
 # <a name="start-services-invoke"></a>Starten von Diensten (Aufruf)
  

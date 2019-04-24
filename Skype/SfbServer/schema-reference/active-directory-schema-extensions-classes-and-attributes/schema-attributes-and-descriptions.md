@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b009df76-9c22-471d-b57a-bda009a98261
 description: Dieser Abschnitt beschreibt alle Schemaattribute von Skype für Business Server verwendet wird. Die Klassen im Zusammenhang mit Attributen finden Sie unter Schemaattribute nach Klasse in Skype für Business Server.
 ms.openlocfilehash: 3aa9796b0152f4d21ae0c1a1027e5fb2c0b175c8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875390"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213410"
 ---
 # <a name="schema-attributes-and-descriptions-in-skype-for-business-server"></a>Schemaattribute und Beschreibungen in Skype für Business Server
  

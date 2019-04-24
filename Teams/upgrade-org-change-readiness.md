@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0ac397a7ba54a81a2d92cf4823144da2b0c56a3c
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649452"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222541"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase] (media/upgrade-banner-user-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase")
 
@@ -110,7 +110,7 @@ Wenn Sie die optimale Nutzung von Teams erhalten möchten, Erstellen einer Strat
 
 **Project-centric Zusammenarbeit: Produkt Veranstaltung** (zum Beispiel: Ihrer Organisation ist ein neues Produkt auf dem Markt starten möchten abrufen und plant eine umfassende Werbe-Ereignis, um Laufwerk zur Förderung des Bekanntheitsgrads, Leads zu generieren und zu fördern Sales).
 
-| Erwägung | Notizen |
+| Erwägung | Hinweise |
 |----|---|
 | Core-Attribute |<ul><li>Cross-Team Beteiligten mit verschiedenen Project Arbeitsabläufe sichergestellt ist</li><li>Häufig verwendete gezielte Besprechungen</li><li>Viele der Teile/Personen gemeinsam (Budget, Zeitpläne, Präsentationen, Registrierung usw.)</li></ul> |
 | Zusammenarbeit Herausforderungen heute |<ul><li>Arbeitsabläufe sichergestellt ist in Silos beschränkt Einblick in Project Gesamtstatus arbeiten oder Cross-Team Maßnahmen:<br><ul><li>Getrennte Unterhaltungen und fehlenden "wer was tut" </li><li>Informationen, die an verschiedenen Orten mit keine Sichtbarkeit Cross-Team nachverfolgt</li></ul><li>Sinkender Produktivität Zeit, wenn ein neues Element auf Pinnwand und Abfangen von aus eine Besprechung fehlende schalten</li></ul>|
@@ -121,7 +121,7 @@ Unterstützung der Integration von app oder Ausrichtung in Teams <sup>1</sup> .
 
 **Personen-centric Zusammenarbeit: Verkaufsteam** (zum Beispiel: Ihre Umsätze Regional verteilte team von unterwegs bleiben, bleibt in der Pipeline ausgerichtet werden muss, und wichtige Angebote und Initiativen, die zur Vorbereitung der jährliche Kontingent Ziele helfen zu verstehen)
 
-| Erwägung | Notizen |
+| Erwägung | Hinweise |
 |----|---|
 | Core-Attribute | <ul><li>Remote (auf Reisen, Hotels, Kundenstandorten) arbeiten</li><li>Beziehung-Experten – externe Core</li></ul> |
 | Zusammenarbeit Herausforderungen heute |<ul><li>Jeder wiederholte Unterhaltungen mit mehreren Feld Vertriebsmitarbeiter (Chat, Anrufe, Konferenzen usw.) – können nicht zusammen gleichzeitig abgerufen werden</li><li>Verpasste Verkaufschancen aus sales "Wins" – nur Freigabe Mundpropaganda lernen</li><li>Zufällige Wiedergabe ständig zwischen Anwendungen:<ul><li>Planungsprozess für den Verkauf in Excel</li><li>Trend in Power BI</li><li>Begleitmaterial in e-Mail</li><li>Kunden-Demo Ressourcen für SharePoint</li><li>1:1-Chats und Point-in-Time-Besprechungen</li><li>Verkauf von Newsgroups in Yammer</li></ul></ul> |

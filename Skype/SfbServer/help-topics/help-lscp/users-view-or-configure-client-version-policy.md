@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 446915b6-462e-4cc1-8584-9f59f7eb8cc8
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: 1a9dfc14ea0d08f40e77a2251dbda9807c83637b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887701"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220164"
 ---
 # <a name="users-view-or-configure-client-version-policy"></a>Benutzer: Anzeigen oder Konfigurieren von Clientversionsrichtlinien
 

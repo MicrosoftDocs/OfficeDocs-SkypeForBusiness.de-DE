@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: Reaktionsgruppen bestehen aus agentgruppen, Warteschlangen und Workflows. Reaktionsgruppenwarteschleifen halten Anrufe an eine reaktionsgruppe, bis ein Agent den Anruf annimmt.
 ms.openlocfilehash: fe5c13153dd03a80f0ac3603d456ec12ed448c9f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887274"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220221"
 ---
 # <a name="response-groups-queue"></a>Reaktionsgruppenwarteschleife
 

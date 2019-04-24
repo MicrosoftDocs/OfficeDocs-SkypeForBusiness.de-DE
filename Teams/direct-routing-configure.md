@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: Erfahren Sie, wie Microsoft Phone System direkte Routing konfigurieren.
 ms.openlocfilehash: a26972e16758a00e2afc5d39029cfb1504b974c4
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517263"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233653"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren von direktem Routing
 
@@ -105,9 +106,9 @@ Die folgende Tabelle enthält die zusätzlichen Parameter, die Sie verwenden kö
 
 |Erforderlich?|Name|Beschreibung|Standard|Mögliche Werte|Typ und Einschränkungen|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Ja|FQDN|Den Vollqualifizierten Domänennamen der SBC |Keine |NoneFQDN Name, Grenzwert 63 Zeichen|Zeichenfolge, die Liste der zulässigen / nicht zulässigen Zeichen auf [Namenskonventionen in Active Directory für Computer, Domänen, Sites und OUs](https://support.microsoft.com/help/909264)|
-|Nein|MediaBypass |Der Parameter für die zukünftige Verwendung reserviert. Unterstützt die Medienumgehung der Parameter angegeben, der die SBC und der Administrator möchte, um es zu verwenden.|Keine |True<br/>Falsch|Boolean|
-|Ja|SipSignallingPort |Überwachungsport für die Kommunikation mit direktem Routing Services mithilfe des Protokolls Transport Layer Security (TLS) verwendet.|Keine |Alle Ports|zwischen 0 und 65535 |
+|Ja|FQDN|Den Vollqualifizierten Domänennamen der SBC |Keine|NoneFQDN Name, Grenzwert 63 Zeichen|Zeichenfolge, die Liste der zulässigen / nicht zulässigen Zeichen auf [Namenskonventionen in Active Directory für Computer, Domänen, Sites und OUs](https://support.microsoft.com/help/909264)|
+|Nein|MediaBypass |Der Parameter für die zukünftige Verwendung reserviert. Unterstützt die Medienumgehung der Parameter angegeben, der die SBC und der Administrator möchte, um es zu verwenden.|Keine|True<br/>Falsch|Boolean|
+|Ja|SipSignallingPort |Überwachungsport für die Kommunikation mit direktem Routing Services mithilfe des Protokolls Transport Layer Security (TLS) verwendet.|Keine|Alle Ports|zwischen 0 und 65535 |
 |Nein|FailoverTimeSeconds |Bei Festlegung auf 10 (Standardwert), ausgehende Anrufe, die vom Gateway nicht innerhalb von 10 Sekunden beantwortet werden an den nächsten verfügbaren Trunk weitergeleitet werden; Wenn keine zusätzlichen Trunks vorhanden sind, wird der Anruf automatisch gelöscht. In einer Organisation mit langsamen Netzwerken und Gateway Antworten möglich, die potenziell Anrufe unnötig gelöscht wird. Der Standardwert ist 10.|10|Nummer|Int|
 |Nein|ForwardCallHistory |Gibt an, ob Informationen zum Anrufverlauf durch den Trunk weitergeleitet werden. Falls aktiviert, sendet der Office 365-PSTN-Proxy zwei Header: "History-Info" und weitergeleitet durch. Der Standardwert ist **"false"** ($False). |Falsch|True<br/>Falsch|Boolean|
 |Nein|ForwardPAI|Gibt an, ob der PAI-Header (P-Asserted-Identity) zusammen mit dem Anruf weitergeleitet wird. Der PAI-Header bietet eine Möglichkeit, die Identität des Anrufers zu überprüfen. Wenn die private: ID aktiviert Kopfzeile wird auch gesendet werden. Der Standardwert ist **"false"** ($False).|Falsch|True<br/>Falsch|Boolean|

@@ -15,11 +15,11 @@ ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Wenn Sie Front-End-Pools, Director-Pools oder edgeserverpools haben, müssen Sie für den Lastenausgleich für diese Pools bereitstellen. Beim Lastenausgleich wird der Datenverkehr auf die Server in einem Pool verteilt. Ausführliche Informationen finden Sie unter:'
 ms.openlocfilehash: 877225a197d953a503eb865ad9a85d83ac404000
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889487"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220955"
 ---
 # <a name="load-balancer-planning-tool"></a>Load Balancer (Planning Tool)
  

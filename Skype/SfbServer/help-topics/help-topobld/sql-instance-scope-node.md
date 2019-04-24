@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN) in Microsoft SQL Server und die Instanz von SQL Server auf diesem Server und den Pools oder Servern, die in SQL Server verwenden. Folgende Möglichkeiten stehen zur Verfügung:'
 ms.openlocfilehash: 18da478ce1cda34c6ce36c5cfc10141d57878c3b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219198"
 ---
 # <a name="sql-instance-scope-node"></a>SQL-Instanz – Bereichsknoten
  

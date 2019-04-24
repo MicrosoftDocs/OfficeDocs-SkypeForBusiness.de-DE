@@ -15,11 +15,11 @@ description: Ihre IT-Administrator kann den Zugriff durch andere Domänen (Verbu
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b04b125f5cb998c71f161bf31809a39097accf6c
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955022"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245573"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Verwaltung des externen Zugriffs (Verbund) in Microsoft Teams
 ======================================================
@@ -34,19 +34,19 @@ Externen Zugriff (Verbund) und Gast Access unterscheiden:
 
 Finden Sie in der folgenden Tabelle einen Vergleich von externen und Gast-Funktionen zuzugreifen.
 
-| Funktion | Zugriff durch externe Benutzer | Gast Access-Benutzer |
+| Feature | Zugriff durch externe Benutzer | Gast Access-Benutzer |
 |---------|-----------------------|--------------------|
-| Benutzer kann mit einer anderen Person in einem anderen Unternehmen chat. | Ja |Ja  |
-| Benutzer kann eine Person in einem anderen Unternehmen aufrufen. | Ja | Ja  |
-| Benutzer kann sehen, wenn jemand aus einem anderen Unternehmen für Anruf oder Chat verfügbar ist | Ja | Ja,<sup>1</sup> |
-| Benutzer kann externe konstant nach Benutzern suchen. | Ja,<sup>2</sup> | Nein |
+| Benutzer kann mit einer anderen Person in einem anderen Unternehmen chat. | Ja |Ja |
+| Benutzer kann eine Person in einem anderen Unternehmen aufrufen. | Ja | Ja |
+| Benutzer kann sehen, wenn jemand aus einem anderen Unternehmen für Anruf oder Chat verfügbar ist | Ja | Ja<sup>1</sup> |
+| Benutzer kann externe konstant nach Benutzern suchen. | Ja<sup>2</sup> | Nein |
 | Benutzer kann Dateien freigeben. | Nein | Ja |
 | Benutzer kann Teams Ressourcen zugreifen. | Nein | Ja |
 | Benutzer kann einen Gruppenchat hinzugefügt werden | Nein | Ja |
-| Benutzer kann an einer Besprechung hinzugefügt werden | Ja | Ja  |
-| Weitere Benutzer können einen Chat mit einem externen Benutzer hinzugefügt werden | Keine<sup>3</sup> | n/v |
-| Benutzer wird als von externer Seite identifiziert. | Ja | Ja  |
-| Anwesenheitsinformationen wird angezeigt. | Ja | Ja  |
+| Benutzer kann an einer Besprechung hinzugefügt werden | Ja | Ja |
+| Weitere Benutzer können einen Chat mit einem externen Benutzer hinzugefügt werden | Keine<sup>3</sup> | Nicht zutreffend |
+| Benutzer wird als von externer Seite identifiziert. | Ja | Ja |
+| Anwesenheitsinformationen wird angezeigt. | Ja | Ja |
 | Abwesend wird Nachricht angezeigt. | Nein | Ja |
 | Einzelner Benutzer kann ausgeschlossen werden | Nein | Ja |
 | @mentions werden unterstützt. | Nein | Ja |
@@ -76,7 +76,7 @@ Befolgen Sie diese Schritte zum Hinzufügen einer Domäne oder Deaktivieren des 
 
 1. Wählen Sie in der Microsoft-Teams & Skype für Business Admin Center **Org geltende Einstellungen** > **externen Zugriff**.
 
-2. Wählen Sie **eine Domäne hinzufügen**. 
+2. Wählen Sie **Domäne hinzufügen**. 
  
     ![Screenshot des externen Zugriffs-Seite mit einen Domäne Link hinzufügen](media/manage-external-access-3.png).
 
@@ -87,7 +87,7 @@ Befolgen Sie diese Schritte zum Hinzufügen einer Domäne oder Deaktivieren des 
 
 3. Geben Sie den Namen der Domäne, klicken Sie unter **Hinzufügen einer Domäne**; Geben Sie beispielsweise "contoso.com".
 
-4. Wählen Sie **zugelassen** oder **blockiert**. Sie können diese Einstellung jederzeit ändern.
+4. Wählen Sie **Zulässig** oder **Blockiert**. Sie können diese Einstellung jederzeit ändern.
 
 2. Wählen Sie **Fertig**.
 

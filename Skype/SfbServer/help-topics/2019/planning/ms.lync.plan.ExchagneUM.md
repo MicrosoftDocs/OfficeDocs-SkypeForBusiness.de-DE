@@ -15,11 +15,11 @@ ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype für Business Server 2015 unterstützt die Integration mit Exchange Unified Messaging (UM) zum Kombinieren von Voicemessaging und e-Mail-messaging in einer einzigen Messaginginfrastruktur.
 ms.openlocfilehash: fa658b67939da641de349b3a1872ab387ec47262
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875949"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221032"
 ---
 # <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Exchange Unified Messaging (Planungstool) in Skype für Business 2015
 

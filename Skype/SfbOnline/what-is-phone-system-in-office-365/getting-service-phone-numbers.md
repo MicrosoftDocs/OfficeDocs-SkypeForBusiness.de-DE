@@ -1,5 +1,5 @@
 ---
-title: Anfordern von Servicenummern
+title: Abrufen von Diensttelefonnummern
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Phone System
 description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
 ms.openlocfilehash: e1f4020e7062066451eebd626832da8d4a633069
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048914"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227874"
 ---
-# <a name="getting-service-phone-numbers"></a>Anfordern von Servicenummern
+# <a name="getting-service-phone-numbers"></a>Abrufen von Diensttelefonnummern
 
 In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle 100s of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
   
@@ -86,7 +86,7 @@ If you want to transfer service numbers from your current service provider or ca
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, finden Sie weitere Informationen unter [Kontaktieren des Supports für Business-Produkte - Administratorhilfe](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
 ## <a name="related-topics"></a>Verwandte Themen
-[Das bekommen Sie mit Telefonsystem in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Das Telefonsystem in Office 365 bietet Ihnen Folgendes](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 

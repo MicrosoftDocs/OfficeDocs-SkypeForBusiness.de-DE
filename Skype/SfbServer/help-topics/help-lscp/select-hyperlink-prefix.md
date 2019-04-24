@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: Verwenden Sie das Dialogfeld Linkpräfix auswählen auf die Typen von Hyperlinks, die Sie blockieren, senden eine Warnmeldung oder durch (zu blockieren oder eine Warnmeldung senden) aktivieren oder deaktivieren (zum zulassen) zulassen möchten, wählen die Kontrollkästchen für ihren Erweiterungen aus den Kategorien unter Linkpräfixe. Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und alle linkpräfixe für die Kategorie anzeigen. Wenn Sie alle linkpräfixe für eine Kategorie auswählen möchten, wählen Sie den Namen der Kategorie.
 ms.openlocfilehash: d0811bab0d7e44e7e7fb2fec116b9aa65a78a530
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882628"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220122"
 ---
 # <a name="select-hyperlink-prefix"></a>Auswählen von Präfixen für Links
  
