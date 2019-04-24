@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 'Zusammenfassung: Konfigurieren einer lokalen partneranwendung für Skype für Business Server.'
 ms.openlocfilehash: fe80ae08a730ad4765c366a77fd0c44daaa18899
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211011"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Konfigurieren einer lokalen partneranwendung für Skype für Business Server
  

@@ -16,11 +16,11 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2618f4ad5a09e6fff33580f9e9085d6d282797a6
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211108"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu
 
@@ -136,7 +136,7 @@ _Ausgehende Webhooks_ werden während der Bearbeitung durch Team Besitzer oder T
   </tr>
     <tr>
     <td valign="top">RECEIVE_MESSAGE, REPLYTO_MESSAGE. Empfangen von Nachrichten von Benutzern und darauf antworten können.</td>
-    <td valign="top">Keine </td>
+    <td valign="top">Keine</td>
     <td valign="top"><ul><li>Ausgehende Webhooks ähneln Bots, aber deshalb mit niedrigeren Berechtigungen haben. Sie müssen explizit, genau wie Bots angegeben werden.</li><li>Wenn eine ausgehende Webhook registriert ist, wird einen <em>geheimen Schlüssel</em> generiert, sodass die ausgehende Webhook überprüfen, ob der Absender Microsoft-Teams, im Gegensatz zu einem Angreifer ist. Dieser Schlüssel sollte einen geheimen Schlüssel bleiben. Jeder Benutzer mit Zugriff auf die Datei kann Microsoft-Teams imitieren. Wenn der geheimen Schlüssel gefährdet ist, die ausgehende Webhook gelöscht und neu erstellt werden kann, und ein neuer geheimen Schlüssel generiert werden.</li><li>Obwohl It& #39; s möglich, erstellen Sie eine ausgehende Webhook, Doesn& #39; t den geheimen Schlüssel, es wird empfohlen, ihn zu überprüfen.</li><li>Außer empfangen und Beantworten von Nachrichten, ausgehende Webhooks Can& #39; nicht viel t: sie Can& #39; t proaktiv Nachrichten senden sie Can& #39; t senden oder Empfangen von Dateien, sie Can& #39; t andere Dinge, die Bots empfangen und beantworten Sie außer können Nachrichten.</li></ul></td>
   </tr>
 </table>

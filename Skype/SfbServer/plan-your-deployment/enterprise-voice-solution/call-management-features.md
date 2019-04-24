@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: Übersicht über unterstützte Anruf-Verwaltungsfunktionen in Skype für Business Server Enterprise-VoIP.
 ms.openlocfilehash: 35e05a3b8c31efd21c8abb0e5d0a0f06a780cc66
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878620"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207041"
 ---
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>Planen der anrufverwaltungsfunktionen in Skype für Unternehmen
 

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 'Zusammenfassung: Konfigurieren der Server-zu-Server-Authentifizierung für einen Skype für Business Server-hybridumgebung.'
 ms.openlocfilehash: d8ba920d516368d1931097e5e31b738a0d271bcf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211018"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>Konfigurieren Sie Server-zu-Server-Authentifizierung für einen Skype für Business Server-hybridumgebung.
 

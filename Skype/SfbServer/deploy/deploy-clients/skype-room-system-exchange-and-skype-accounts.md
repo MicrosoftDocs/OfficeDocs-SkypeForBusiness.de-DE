@@ -12,11 +12,11 @@ ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
 description: Lesen Sie diese Themen und erfahren Sie, wie Sie Exchange- und Skype-Konten für Skype Room System bereitstellen.
 ms.openlocfilehash: 2da978d84ac763a27bba135e1899e83955b4fb53
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012554"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207895"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Bereitstellung von Skype Room System-Exchange- und -Skype-Konten
  

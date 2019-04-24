@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Planen von Standortbasierte Weiterleitung im Skype für Business Server Enterprise-VoIP, einschließlich der Interaktion mit Gleichzeitiges Klingeln und Delegierung und unterstützte Szenarios für die Standortbasierte Weiterleitung.
 ms.openlocfilehash: 2e9070e5ecddcf88e5edac8064409177caa82b4d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874364"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206789"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Plan für die Standortbasierte Weiterleitung im Skype für Unternehmen
 

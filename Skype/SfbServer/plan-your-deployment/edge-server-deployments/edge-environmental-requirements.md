@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Zusammenfassung: Erfahren Sie mehr über die umgebungsanforderungen für Edge-Server in Skype für Business Server.'
 ms.openlocfilehash: eaa6c1ac5b1d014f6c2bb54a342dabd4c6388c2e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878814"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207160"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Edge-Server-umgebungsanforderungen in Skype für Business Server
  
@@ -80,9 +80,9 @@ Die folgende Tabelle hilft Ihnen bei der Auswahl, indem Sie eine Zusammenfassung
 |:-----|:-----|:-----|:-----|:-----|
 |Einzelner konsolidierter Edgeserver mit privaten IP-Adressen und NAT  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |
 |Einzelner konsolidierter Edgeserver mit öffentlichen IP-Adressen  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |
-|Skalierter konsolidierter Edgeserver mit privaten IP-Adressen und NAT (DNS-Lastenausgleich)  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Yes&sup1;  <br/> |
-|Skalierter konsolidierter Edgeserver mit öffentlichen IP-Adressen (DNS-Lastenausgleich)  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Yes&sup1;  <br/> |
-|Skalierter konsolidierter Edgeserver mit Hardwarelastenausgleich  <br/> |Ja  <br/> |Nein (ein DNS A-Eintrag pro VIP)  <br/> |Ja  <br/> |Ja   <br/> |
+|Skalierter konsolidierter Edgeserver mit privaten IP-Adressen und NAT (DNS-Lastenausgleich)  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Yes&sup1;  <br/> |
+|Skalierter konsolidierter Edgeserver mit öffentlichen IP-Adressen (DNS-Lastenausgleich)  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Yes&sup1;  <br/> |
+|Skalierter konsolidierter Edgeserver mit Hardwarelastenausgleich  <br/> |Ja  <br/> |Nein (ein DNS A-Eintrag pro VIP)  <br/> |Ja  <br/> |Ja  <br/> |
    
 &sup1; Exchange Unified Messaging (UM) Remotebenutzer Failover mit DNS-Lastenausgleich erfordert Exchange 2013 oder höher.
   
@@ -267,7 +267,7 @@ Es gibt weitere möglich Konfigurationen:
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>DNS-Einträge für XMPP (Extensible Messaging and Presence Protocol)
 
-|**Standort**|**Typ**|**Port**|**FQDN**|**IP-Adresse oder FQDN-Hosteintrag**|**Notizen**|
+|**Standort**|**Typ**|**Port**|**FQDN**|**IP-Adresse oder FQDN-Hosteintrag**|**Hinweise**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Externes DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |Die XMPP-Proxy-Schnittstelle auf dem Zugriffs-edgedienst oder Edge-Pool. Sie müssen dies wiederholen nach Bedarf für alle internen SIP-Domänen mit Skype für aktiviert Business Server-Benutzer, Kontakt mit XMPP-Kontakten durch zulässig ist:  <br/> • eine globale Richtlinie  <br/> • ein, in dem der Benutzer aktiviert die, Standortrichtlinie  <br/> • eine Benutzerrichtlinie angewendet, der Skype für Business Server aktivierten Benutzer  <br/> Eine zulässige XMPP-Richtlinie muss auch in der XMPP-Partnerbenutzerrichtlinie konfiguriert werden.  <br/> |
 |Externes DNS  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |IP-Adresse des Zugriffs-edgediensts auf dem Edgeserver oder edgepool XMPP-Proxydienst hosting  <br/> |Dies verweist auf Zugriffs-edgediensts auf dem Edge-Server oder Edge-Pool, der als Host den XMPP-Proxydienst. In der Regel verweist der von Ihnen erstellte SRV-Eintrag auf diesen Hosteintrag (A oder AAAA).  <br/> |
@@ -323,7 +323,7 @@ Diese Tabelle hilft Ihnen bei Ihren Anforderungen. Die FQDN-Einträge sind ledig
 
 Unabhängig davon, ob Sie einen einzelnen Edgeserver oder einem edgepool durchführen ist dies für das Zertifikat benötigen:
   
-|**Komponente**|**Antragstellername**|**Alternative Antragstellernamen (SAN)/Reihenfolge**|**Notizen**|
+|**Komponente**|**Antragstellername**|**Alternative Antragstellernamen (SAN)/Reihenfolge**|**Hinweise**|
 |:-----|:-----|:-----|:-----|
 |Externer Edgeserver  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |Sie benötigen dieses Zertifikat, um eine Anfrage an eine öffentliche CA zu stellen. Es muss den externen Edgeschnittstellen für Folgendes zugewiesen werden:<br/> • Zugriffs-Edgeservers  <br/> • Webkonferenz-Edgeserver  <br/> • Audio/Video-Authentifizierung  <br/> <br/>Die gute Nachricht ist, dass SANs werden automatisch auf Ihre zertifikatanforderung hinzugefügt, und daher senden Sie Ihr Zertifikat nach der die Anforderung, basierend auf was Sie für diese Bereitstellung im Topologie-Generator definiert haben. Sie müssen nur SAN-Einträge für zusätzliche SIP-Domänen oder andere Einträge hinzufügen, die unterstützt werden sollen. Warum wird sip.contoso.com in dieser Instanz repliziert? Dies geschieht auch automatisch und ist notwendig, damit alles reibungslos läuft.  <br/><br/> **Hinweis:** Dieses Zertifikat kann auch für Öffentliche Instant Messaging-Diensten verwendet werden. Die Vorgehensweise ist die gleiche; in früheren Versionen dieser Dokumentation wurde das jedoch als getrennte Tabelle aufgeführt, was jetzt nicht mehr der Fall ist. <br/> |
 |Interner Edgeserver  <br/> |sfbedge.contoso.com  <br/> |NV  <br/> |Sie können dieses Zertifikat von einer öffentlichen CA oder einer internen CA bekommen. Es muss die Server-EKU (erweiterte Schlüsselverwendung für Server) beinhalten. Sie weisen es der internen Edgeschnittstelle zu.  <br/> |
@@ -409,7 +409,7 @@ Die Quell-IP-Adresse und die Ziel-IP-Adresse enthalten Informationen für Benutz
    
 #### <a name="internal-port-firewall-summary-table"></a>Zusammenfassungstabelle für interne Port-Firewall
 
-|**Protokoll**|**TCP oder UDP**|**Port**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Notizen**|
+|**Protokoll**|**TCP oder UDP**|**Port**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Hinweise**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Jede der folgenden, die den XMPP-Gatewaydienst ausführt:  <br/> • Front-End-Server  <br/> • Front-End-Pool VIP-Adresse den XMPP-Gatewaydienst ausführt  <br/> |Interne Schnittstelle des Edgeservers  <br/> |Ausgehender XMPP-Datenverkehr von Ihrem XMPP-Gateway-Dienst auf dem Front-End-Server oder Front-End-Pool ausgeführt.  <br/><br/> **Hinweis:** XMPP-Gateways und -Proxys werden stehen in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype für Business Server 2019. Weitere Informationen finden Sie unter [Migrieren von XMPP-Verbund](../../../SfBServer2019/migration/migrating-xmpp-federation.md) . |
 |HTTPS  <br/> |TCP  <br/> |4443  <br/> |Jede:  <br/> • Front-End-Server, der den zentralen Verwaltungsspeicher beinhaltet  <br/> • Front-End-Pool, der den zentralen Verwaltungsspeicher beinhaltet  <br/> |Interne Schnittstelle des Edgeservers  <br/> |Replikation von Änderungen aus Ihrer zentralen Verwaltungsspeicher an den Edge-Server.  <br/> |

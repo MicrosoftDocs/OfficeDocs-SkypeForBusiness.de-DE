@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Zusammenfassung: Erfahren Sie mehr über das neue Skype für Unternehmen und die Schritte können zum Vorbereiten Ihrer Umgebung und Ihre Benutzer für das Update, ob Sie für Business Online, Skype für Business Server 2019, Skype für Lync Server 2013 Business Server 2015 Skype verwenden oder Lync Server 2010.'
 ms.openlocfilehash: 351582e7a7619541d5401acfb46854f61c9e052d
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531167"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207258"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planen der Skype für Business 2015 Clientumgebung für Ihre Benutzer
  
@@ -52,7 +52,7 @@ Zusätzlich zu den Features von Lync bietet Skype für Unternehmen neue Features
   
 ### <a name="lync-client-experience"></a>Lync-Clientumgebung
 
-Die Lync-Clientumgebung ähnelt stark der Lync 2013-Clientumgebung, mit der Ihre Benutzer bereits vertraut sind, aber es gibt einige Änderungen, auf die Sie Ihre Benutzer hinweisen sollten. Informationen zu den Unterschieden zwischen der Lync-Clientumgebung und dem Lync 2013-Client finden Sie unter [Warum wird Skype for Business angezeigt, wenn ich Lync verwende?](https://go.microsoft.com/fwlink/p/?LinkId=544712) und den zusätzlichen Links weiter unten in diesem Thema.
+Die Lync-Clientumgebung ähnelt stark der Lync 2013-Clientumgebung, mit der Ihre Benutzer bereits vertraut sind, aber es gibt einige Änderungen, auf die Sie Ihre Benutzer hinweisen sollten. Um herauszufinden, was die Erfahrung Lync-Client und Lync 2013-Client unterschiedlich ist, finden Sie unter [Warum kann ich überprüfen Skype für Unternehmen, wenn ich Lync verwende?](https://go.microsoft.com/fwlink/p/?LinkId=544712) und der zusätzlichen Links weiter unten in diesem Thema.
   
 ## <a name="prepare-your-environment-for-the-skype-for-business-client"></a>Vorbereiten Ihrer Umgebung für den Skype for Business-Client
 <a name="usinglync"> </a>
@@ -190,14 +190,14 @@ Ausführliche Informationen zum Konfigurieren des Clients von Erfahrung mit Skyp
 
 Wir haben, damit es einfacher für Sie und Ihre Organisation für den Übergang vorbereiten, viele zusätzliche Ressourcen zur Verfügung, mit denen Sie planen, informieren und ausschließlich für Endbenutzer zu.
   
-- [Video: Einführung in Skype for Business](https://go.microsoft.com/fwlink/p/?LinkId=544819)
+- [Video: Einführung in Skype für Unternehmen](https://go.microsoft.com/fwlink/p/?LinkId=544819)
     
-- [Schnellstarthandbücher zu Skype for Business (Download)](https://go.microsoft.com/fwlink/p/?LinkId=544818)
+- [Skype für Business Schnellstart-Handbuch (Download)](https://go.microsoft.com/fwlink/p/?LinkId=544818)
     
 - [Lync ist nun Skype für Unternehmen – finden Sie unter Neuigkeiten](https://go.microsoft.com/fwlink/p/?LinkID=529224)
     
 - [Skype für Unternehmen: schrittweise Anleitung für neue Benutzer](https://go.microsoft.com/fwlink/p/?LinkId=544815)
     
-- [Warum wird Skype for Business angezeigt, wenn ich Lync verwende?](https://go.microsoft.com/fwlink/p/?LinkID=544712)
+- [Warum werden ich Skype für Unternehmen angezeigt, wenn ich Lync verwende?](https://go.microsoft.com/fwlink/p/?LinkID=544712)
     
 

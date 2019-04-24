@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: Session-Ansicht speichert Informationen über Sitzungen, die Datensätze in der Datenbank verfügen. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
 ms.openlocfilehash: c72773b4ff87786ab5b4e73b67e89032dc393fa1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880221"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212102"
 ---
 # <a name="session-view"></a>Session-Ansicht
  

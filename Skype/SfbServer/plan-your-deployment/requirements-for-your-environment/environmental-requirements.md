@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Zusammenfassung: Konfigurieren der nicht-Server-Anforderungen für Skype für Business Server 2015. Es gibt verschiedene Dinge, die Sie konfigurierten sollten vor Ihrer Bereitstellung, einschließlich Active Directory, DNS, Zertifikate und Dateifreigaben.'
 ms.openlocfilehash: a75301a6f6f26ac933841ead0192d707d0647897
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887137"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207804"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  

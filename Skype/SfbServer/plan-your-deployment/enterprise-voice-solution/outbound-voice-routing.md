@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Erfahren Sie mehr über ausgehende VoIP-routing in Skype für Business Server Enterprise-VoIP, einschließlich Aufruf für Routen, Wählpläne, Normalisierungsregeln, VoIP-Richtlinien, PSTN-verwendungsdatensätzen, und VoIP-Routen.
 ms.openlocfilehash: 61e2721f2dac3ea6f49708213b1da9752300cbed
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206550"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planen der ausgehende VoIP-routing in Skype für Business Server
  

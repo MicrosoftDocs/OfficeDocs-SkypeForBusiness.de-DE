@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, welche Art von Dial Plans (Aufrufen von PSTN-Wählpläne) aufrufen mit Office 365 verfügbar sind und wie Sie eine für Ihre Organisation wählen.  '
 ms.openlocfilehash: 8dc0bb49d37c2df1903332eb71809869d9ebf66a
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542407"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211782"
 ---
 # <a name="what-are-dial-plans"></a>Was sind Wählpläne?
 

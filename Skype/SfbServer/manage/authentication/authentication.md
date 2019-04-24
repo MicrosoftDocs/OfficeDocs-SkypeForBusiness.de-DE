@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
 description: 'Zusammenfassung: Verwenden Sie die folgenden Verfahren zum Verwalten von Skype für Business Server-Sicherheit und Authentifizierung.'
 ms.openlocfilehash: df5a5c100df82453652f8ac9fa1b29f01af3ceed
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887564"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211649"
 ---
 # <a name="manage-authentication-in-skype-for-business-server"></a>Verwalten der Authentifizierung in Skype für Business Server
  

@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 description: 'Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. '
 ms.openlocfilehash: 4e9fd0d3fa9fabc1f9b2176a4dc2b7ac59206352
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541984"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211708"
 ---
 # <a name="what-are-emergency-locations-addresses-and-call-routing"></a>Was sind notfallstandorten, Adressen und Anrufrouting?
 
@@ -71,7 +71,7 @@ Notfall-Adressen und Speicherorte werden beim ersten entsendet abgesetzt währen
 ## <a name="related-topics"></a>Verwandte Themen
 [Was ist Adressvalidierung?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
-[Verschiedene Arten von Telefonnummern für Anrufpläne](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
 

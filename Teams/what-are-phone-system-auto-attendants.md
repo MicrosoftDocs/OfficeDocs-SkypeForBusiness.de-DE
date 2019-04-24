@@ -1,5 +1,5 @@
 ---
-title: Was sind automatische Telefonzentralen Cloud?
+title: Was sind automatische Cloudtelefonzentralen?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,14 +22,14 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Enthält Informationen zu Cloud-Telefonzentralen und deren Verwendung.
-ms.openlocfilehash: 1d9c72817b865b323b9d018710c9201b51bb56a3
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.openlocfilehash: 99310e44fbab43e16d0816acdb8a85815863b286
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914628"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211693"
 ---
-# <a name="what-are-cloud-auto-attendants"></a>Was sind automatische Telefonzentralen Cloud?
+# <a name="what-are-cloud-auto-attendants"></a>Was sind automatische Cloudtelefonzentralen?
 
 Telefonsystem in Office 365 bietet automatische Telefonzentralen, die verwendet werden kann, um zu externen lassen und interne Anrufer über ein Menüsystem platzieren, und durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in Ihrer Organisation verschieben.
   
@@ -62,7 +62,7 @@ Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von automatischen
 > [!NOTE]
 > Direkte Routing Service Zahlen für die automatische Telefonzentrale und Anruf Warteschlangen werden gegenwärtig nur für Microsoft-Teams, Benutzer und Agents unterstützt.
 
-> [!NOTE] 
+> [!NOTE]
 > Microsoft arbeitet eine entsprechende Lizenzierungsmodell für Anwendungen wie Cloud automatische Telefonzentrale und den Anruf-Warteschlangen für an jetzt Sie das Benutzerlizenzierung Objektmodell verwenden müssen.
     
    > [!TIP]

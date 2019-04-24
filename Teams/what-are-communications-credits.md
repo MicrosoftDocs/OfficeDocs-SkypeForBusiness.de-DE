@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: d113731d9b2c8f387e543a8d1733abcee12b2fcf
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 8fa06f22d1fb31f592f520ba3b1d17c8fcaf0ccb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211769"
 ---
 # <a name="what-are-communications-credits"></a>Was ist Guthaben für Kommunikationen?
 
@@ -61,7 +61,7 @@ Für die Verwendung von gebührenfreien Telefonnummern in Skype for Business ist
 > [!NOTE]
 > Sie müssen Guthaben für Kommunikationen einrichten und dann unter **Office 365 Admin Center** > **Benutzer** > **Aktive Benutzer** jedem Benutzer eine Lizenz für Guthaben für Kommunikationen zuweisen. 
   
-Es wird empfohlen, dass Sie der PSTN-Dienst Verwendungsoptionen sorgfältig, um die beste Setup für Communications haben zu verstehen. Sie können weitere Informationen zu PSTN-Services sehen, Beitrag [Was sind in Office 365-Pläne aufrufen?](what-are-calling-plans-in-office-365.md) und [Audiokonferenzen häufig gestellte Fragen](Audio-Conferencing-common-questions.md).
+Es wird empfohlen, dass Sie der PSTN-Dienst Verwendungsoptionen sorgfältig, um die beste Setup für Communications haben zu verstehen. Sie können weitere Informationen zu PSTN-Services Beitrag [Telefonsystem und plant aufrufen](calling-plan-landing-page.md) und [Audiokonferenzen häufig gestellte Fragen](Audio-Conferencing-common-questions.md)finden Sie unter.
   
 Sie können die verbrauchsbasierte Abrechnung mit einer **einmaligen Einzahlung** des vorausbezahlten Saldos **ODER** mit einem Betrag für **automatisches Aufladen** ( **empfohlen** ) und einem Mindestsaldo einrichten, der einen Kauf für diesen Aufladungsbetrag auslöst. Anfänglich sollten Sie Beträge für das automatische Aufladen einrichten, mit denen Sie die tatsächliche Nutzung überwachen können und die richtigen Grenzwerte für das automatische Aufladen finden, die Ihren Anforderungen und Ihrem Nutzungsverhalten entsprechen. Überwachen Sie das Guthaben für Kommunikationen im Lauf der Zeit, und passen Sie dann den Mindestsaldo und die Aufladungsbeträge nach Bedarf an die Anforderungen Ihrer Organisation an.
   

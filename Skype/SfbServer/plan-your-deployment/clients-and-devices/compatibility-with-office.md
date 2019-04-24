@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Verstehen Sie, wie Sie Skype für Business-Features in Outlook und anderen Office-Anwendung zugreifen können.
 ms.openlocfilehash: c5636b5c7e41b480a9c8aa5532a22523c3554a54
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965663"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207475"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype für die Business-Kompatibilität mit Office-apps
  
@@ -36,14 +36,14 @@ Die folgende Tabelle beschreibt die Skype für Business-Features, die von den ve
 |**Funktion**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 und 2016**|**2016 von Office für Mac** & #x 2776; |
 |:-----|:-----|:-----|:-----|
 |**Outlook-Funktionen** ||||
-|Outlook-Besprechungseinladungen anpassen (Logo, Hilfe-URL, Haftungsausschluss, Fußzeilentext hinzufügen)  |Nein  |Ja   |Ja|
+|Outlook-Besprechungseinladungen anpassen (Logo, Hilfe-URL, Haftungsausschluss, Fußzeilentext hinzufügen)  |Nein  |Ja    |Ja|
 |Besprechungsoption konfigurieren, um Teilnehmeraudio und -video standardmäßig stummzuschalten    |Nein    |Ja    |Nein    |
 |Einheitliche Kontaktspeicher für die Verwaltung von Kontaktlisten in Office und Skype für Unternehmen    |Nein    |Ja (erfordert Exchange 2013 oder höher)    |Ja    |
 |Profilbilder mit hoher Auflösung    |Nein    |Ja (erfordert Exchange 2013 oder höher)    |Ja    |
-|Anwesenheitsstatus in der Microsoft Outlook aus, an und Cc-Felder    |Ja    |Ja    |Ja    |
+|Anwesenheitsstatus in der Microsoft Outlook aus, an und Cc-Felder    |Ja     |Ja     |Ja    |
 |Antworten mit Sofortnachricht oder einem Anruf aus dem Menü für Verfügbarkeit    |Ja (von der Visitenkarte aus)    |Ja (von der Visitenkarte aus)    |Ja (von der Visitenkarte aus)    |
-|Anwesenheitsstatus in einer Besprechungsanfrage auf der Registerkarte „Terminplanungs-Assistent“    |Ja    |Ja    |Nein    |
-|Antworten mit Sofortnachricht oder Anruf von der Symbolleiste oder dem Menüband in einer empfangenen e-Mail-Nachricht    |Ja    |Ja    |Ja    |
+|Anwesenheitsstatus in einer Besprechungsanfrage auf der Registerkarte „Terminplanungs-Assistent“    |Ja     |Ja    |Nein    |
+|Antworten mit Sofortnachricht oder Anruf von der Symbolleiste oder dem Menüband in einer empfangenen e-Mail-Nachricht    |Ja     |Ja     |Ja    |
 |**Weitere Office-apps**   ||||
 |Freigegebene OneNote-Notizen    |Nein    |Ja    |Nein    |
 |Integration des Setups in das Office-Setupprogramm    |Nein    |Ja    |Nein    |

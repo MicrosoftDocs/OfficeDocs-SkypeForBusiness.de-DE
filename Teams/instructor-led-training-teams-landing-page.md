@@ -13,11 +13,11 @@ ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
 ms.openlocfilehash: 31ade1137987bc67e4f45ea2fe8b51a4501bcd7c
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993524"
+ms.locfileid: "32245214"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -193,7 +193,7 @@ ms.locfileid: "31993524"
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image10.png" alt="government" />
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image10.svg" alt="government" />
                                                 </div>
                                             </div>
                                             <div class="cardText">

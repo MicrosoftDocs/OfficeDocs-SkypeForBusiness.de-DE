@@ -84,7 +84,6 @@
 #### [Proxyserver für Skype for Business Online und Microsoft Teams](proxy-servers-for-skype-for-business-online.md)
 #### [Grenzwerte und -Daten für Teams](limits-specifications-teams.md)
 #### [Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams](plan-office-365-groups.md)
-#### [Beziehen von Tools zur Unterstützung eines Rollouts von Teams](rollout-tools.md)
 #### [Planen der Lebenszyklusverwaltung in Microsoft Teams](plan-teams-lifecycle.md)
 #### [Planen der Governance in Teams](plan-teams-governance.md).
 
