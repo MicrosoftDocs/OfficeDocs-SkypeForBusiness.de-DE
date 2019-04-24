@@ -14,15 +14,15 @@ ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 ROBOTS: NOINDEX, NOFOLLOW
 description: Rufnummernpräfix, die diese Route behandelt werden sollen, einschließlich Anfangsziffern, hinzufügen und Definieren der Präfixe der + bei Bedarf. Beispielsweise können Sie alle Rufnummern beginnend mit +123 übereinstimmen.
 ms.openlocfilehash: 99b445b02e36f162105ddaa91b543b85f9e05cb0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221201"
 ---
-# <a name="prefix-edit"></a><span data-ttu-id="7eb7f-104">Bearbeiten von Präfixen</span><span class="sxs-lookup"><span data-stu-id="7eb7f-104">Prefix Edit</span></span>
+# <a name="prefix-edit"></a><span data-ttu-id="79335-104">Bearbeiten von Präfixen</span><span class="sxs-lookup"><span data-stu-id="79335-104">Prefix Edit</span></span>
  
-<span data-ttu-id="7eb7f-105">Rufnummernpräfix, die diese Route behandelt werden sollen, einschließlich Anfangsziffern, hinzufügen und Definieren der Präfixe der + bei Bedarf.</span><span class="sxs-lookup"><span data-stu-id="7eb7f-105">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary.</span></span> <span data-ttu-id="7eb7f-106">Beispielsweise können Sie alle Rufnummern beginnend mit +123 übereinstimmen.</span><span class="sxs-lookup"><span data-stu-id="7eb7f-106">For example, you can match all numbers starting with +123.</span></span>
+<span data-ttu-id="79335-105">Rufnummernpräfix, die diese Route behandelt werden sollen, einschließlich Anfangsziffern, hinzufügen und Definieren der Präfixe der + bei Bedarf.</span><span class="sxs-lookup"><span data-stu-id="79335-105">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary.</span></span> <span data-ttu-id="79335-106">Beispielsweise können Sie alle Rufnummern beginnend mit +123 übereinstimmen.</span><span class="sxs-lookup"><span data-stu-id="79335-106">For example, you can match all numbers starting with +123.</span></span>
   
  
   
