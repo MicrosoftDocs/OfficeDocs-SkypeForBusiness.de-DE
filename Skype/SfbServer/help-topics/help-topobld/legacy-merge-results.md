@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
 description: Um eine Bereitstellung der Vorversion mit Skype für Business Server zusammenführen, klicken Sie auf Weiter. Ausführliche Informationen zur Ausführung des Zusammenführungs-Assistenten des Topologie-Generators finden Sie unter Merge Using Topology Builder Merge Wizard in der Migrationsdokumentation.
 ms.openlocfilehash: ab0dfc91b08f4ec1d2136647d616aad2d911e9f2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891243"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200165"
 ---
 # <a name="legacy-merge-results"></a>Legacyzusammenführung – Ergebnisse
 

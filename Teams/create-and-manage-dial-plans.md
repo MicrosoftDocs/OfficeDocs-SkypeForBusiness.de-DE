@@ -20,20 +20,20 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to create calling dial plans (PSTN Calling dial plans) in Office 365 and how to manage them. '
+description: 'Erfahren Sie, wie aufrufende Wählpläne (Aufrufen von PSTN-Wählpläne) in Office 365 erstellen und deren Verwaltung. '
 ms.openlocfilehash: a499ddb9a9788fce9bdd9bfb2a5bd6e8d1d0f687
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543320"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199217"
 ---
 # <a name="create-and-manage-dial-plans"></a>Erstellen und Verwalten von Wählplänen
 
 Nachdem Sie Wähleinstellungen für Ihre Organisation geplant und herausgefunden, dass alle Normalisierungsregeln, die zum Weiterleiten von Anrufen erstellt werden müssen, müssen Sie mithilfe von Windows PowerShell Wählpläne erstellen und ändern Sie die Einstellung.
   
 > [!NOTE]
-> Das Skype for Business Admin Center können Sie nicht zum Erstellen und Verwalten von Wählplänen verwenden. 
+> Die Skype für Business-Verwaltungskonsole kann nicht für das Erstellen und Verwalten von Wählplänen verwendet werden. 
   
 ## <a name="verifying-and-starting-remote-powershell"></a>Überprüfen und Starten von Remote-PowerShell
 
@@ -68,72 +68,72 @@ Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten 
 
 Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Sie unter [Connect auf alle Office 365-Dienste in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Herstellen einer Verbindung mit Skype für Business Online mithilfe von Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
-## <a name="creating-and-managing-your-dial-plans"></a>Erstellen und Verwalten Ihrer Wählpläne
+## <a name="creating-and-managing-your-dial-plans"></a>Erstellen und Verwalten von Wählplänen
 
-Sie können ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, um Mandantenwählpläne zu erstellen und zu verwalten.
+Sie können Verwenden eines einzelnen Cmdlets oder ein PowerShell-Skript erstellen und Verwalten von Mandanten-Wählpläne.
   
-### <a name="using-single-cmdlets"></a>Verwenden einzelner Cmdlets
+### <a name="using-single-cmdlets"></a>Verwenden von einzelnen cmdlets
 
-- Um einen neuen Wählplan zu erstellen, führen Sie folgenden Befehl aus:
+- So erstellen Sie einen neuen Wählplan, führen Sie Folgendes aus:
     
   ```
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [New-CsTenantDialPlan](https://technet.microsoft.com/library/mt775026.aspx).
+    Andere Beispiele und Parametern finden Sie unter [New-CsTenantDialPlan](https://technet.microsoft.com/library/mt775026.aspx).
     
-- Um die Einstellungen eines vorhandenen Wählplans zu ändern, führen Sie folgenden Befehl aus:
+- Um einem vorhandenen Wählplan Einstellung geändert haben, führen Sie Folgendes aus:
     
   ```
   Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Set-CsTenantDialPlan](https://technet.microsoft.com/library/mt775023.aspx).
+    Andere Beispiele und Parametern finden Sie unter [Set-CsTenantDialPlan](https://technet.microsoft.com/library/mt775023.aspx).
     
-- Um Benutzer zu einem Wählplan hinzuzufügen, führen Sie folgenden Befehl aus:
+- Führen Sie zum Hinzufügen von Benutzern zu einem Wählplan aus:
     
   ```
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Grant-CsTenantDialPlan](https://technet.microsoft.com/library/mt775021.aspx).
+    Andere Beispiele und Parametern finden Sie unter [Grant-CsTenantDialPlan](https://technet.microsoft.com/library/mt775021.aspx).
     
-- Um die Einstellungen eines Wählplans anzuzeigen, führen Sie folgenden Befehl aus:
+- Um die Einstellungen für einen Wählplan anzuzeigen, führen Sie Folgendes aus:
     
   ```
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Get-CsTenantDialPlan](https://technet.microsoft.com/library/mt775024.aspx).
+    Andere Beispiele und Parametern finden Sie unter [Get-CsTenantDialPlan](https://technet.microsoft.com/library/mt775024.aspx).
     
-- Um einen Wählplan zu löschen, führen Sie folgenden Befehl aus:
+- Um einen Wählplan zu löschen, führen Sie Folgendes aus:
     
   ```
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Remove-CsTenantDialPlan](https://technet.microsoft.com/library/mt775020.aspx).
+    Andere Beispiele und Parametern finden Sie unter [Remove-CsTenantDialPlan](https://technet.microsoft.com/library/mt775020.aspx).
     
-- Um die Einstellungen des gültigen Wählplans anzuzeigen, führen Sie folgenden Befehl aus:
+- Um die Einstellungen des Wählplans effektiven angezeigt wird, führen Sie Folgendes aus:
     
   ```
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Get-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775022.aspx).
+    Andere Beispiele und Parametern finden Sie unter [Get-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775022.aspx).
     
-- Um die gültigen Einstellungen eines Wählplans zu testen, führen Sie folgenden Befehl aus:
+- Um den effektiven Einstellungen von einem Wählplan zu testen, führen Sie Folgendes aus:
     
   ```
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255551234 -Identity 1849827b-a810-40a8-8f77-e94250d4680b_US_TenantDialPlanRedmond
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Test-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775025.aspx).
+    Andere Beispiele und Parametern finden Sie unter [Test-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775025.aspx).
     
-### <a name="using-a-powershell-script"></a>Verwenden eines PowerShell-Skripts
+### <a name="using-a-powershell-script"></a>Mithilfe eines PowerShell-Skripts
 
-Führen Sie das folgende Skript aus, um eine Normalisierungsregel zu löschen, die einem Mandantenwählplan zugeordnet ist, ohne zuerst den Mandantenwählplan löschen zu müssen:
+Führen Sie diese Option, um eine Normalisierungsregel zu löschen, die ein Mandant zugeordnet ist Wählplan ohne den Mandanten Wählplan zuerst zu löschen:
 ```
 $b1=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
@@ -141,12 +141,12 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
 $b2=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$b2}
 ```
-Führen Sie das folgende Skript aus, um die folgende Normalisierungsregel zu dem vorhandenen Mandantenwählplan „RedmondDialPlan" hinzuzufügen.
+Führen Sie diese Option, damit die folgenden Normalisierungsregel mit dem vorhandenen Mandanten Wählplan mit dem Namen RedmondDialPlan hinzufügen.
 ```
 $nr1=New-CsVoiceNormalizationRule -Parent Global -Description 'Organization extension dialing' -Pattern '^(\\d{3})$' -Translation '+14255551$1' -Name NR1 -IsInternalExtension $false -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 ```
-Führen Sie das folgende Skript aus, um die folgende Normalisierungsregel aus dem vorhandenen Wählplan „RedmondDialPlan" zu entfernen.
+Führen Sie diese Option, damit die folgenden Normalisierungsregel aus dem vorhandenen Mandanten Wählplan mit dem Namen RedmondDialPlan entfernen möchten.
 ```
 $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
@@ -172,7 +172,7 @@ $nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[Number 1]
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
-Führen Sie das folgende Skript aus, um alle Benutzer zu suchen, denen der Mandantenwählplan „RedmondDialPlan" gewährt wurde.
+Führen Sie diese Option, damit alle Benutzer zu suchen, die sich die RedmondDialPlan erteilt wurden Mandanten Wählplan.
   
 ```
 Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
@@ -183,7 +183,7 @@ Führen Sie diese Option, damit die Parameter "PolicyName" für alle Benutzer zu
 Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
 ```
 
-Führen Sie die folgenden Skripts aus, um den vorhandenen lokalen Wählplan „OPDP1" als Mandantenwählplan für Ihre Organisation hinzuzufügen. Sie müssen zuerst Speichern der lokalen Wähleinstellungen eine XML-Datei, und verwenden Sie es zum Erstellen der neuen Mandanten-Wählplans.
+Führen Sie diese zum Hinzufügen, dass die vorhandenen lokalen Wähleinstellungen namens OPDP1 als einen Mandanten Wählplan für Ihre Organisation. Sie müssen zuerst Speichern der lokalen Wähleinstellungen eine XML-Datei, und verwenden Sie es zum Erstellen der neuen Mandanten-Wählplans.
   
 Führen Sie diese Option, damit die Wähleinstellungen: lokal in der XML-Datei zu speichern.
   
@@ -193,7 +193,7 @@ $DPFileName = "dialplan.xml"
 Get-CsDialplan $DPName | Export-Clixml $DPFileName
 ```
 
-Führen Sie das folgende Skript aus, um den neuen Mandantenwählplan zu erstellen.
+Führen Sie diese Option, damit den neue Mandanten Wählplan zu erstellen.
   
 ```
 $DPFileName = "dialplan.xml"
@@ -207,7 +207,7 @@ $NormRules += $nr2
 }
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
-## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
+## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie weitere Informationen zu Windows Powershell wissen?
 
 - Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     

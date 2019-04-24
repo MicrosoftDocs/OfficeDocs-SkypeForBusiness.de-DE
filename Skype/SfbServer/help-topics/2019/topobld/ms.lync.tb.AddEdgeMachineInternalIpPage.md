@@ -14,11 +14,11 @@ ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie diese Seite, um die interne IP-Adresse und den internen vollqualifizierten Domänennamen (FQDN) für den Edge-Server anzugeben.
 ms.openlocfilehash: 94a74fd434f1fe9ae62925ddc7ee76f1114f46fb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885655"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202180"
 ---
 # <a name="add-edge-machine-internal-ip"></a>Hinzufügen der internen IP-Adresse zum Edgecomputer
 

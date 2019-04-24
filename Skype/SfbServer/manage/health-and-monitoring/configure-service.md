@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 description: 'Zusammenfassung: Informationen Sie zu den Mobilitätsdienst in Skype für Business Server.'
 ms.openlocfilehash: 3e3f0df7550a64236335108453f0c35d902a1713
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876408"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197492"
 ---
 # <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>Konfigurieren von Mobility Service für hohe Leistung in Skype für Business Server
  

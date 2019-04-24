@@ -14,11 +14,11 @@ ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um die Definition der Bereitstellung weitere einfache URLs hinzuzufügen, geben Sie die URL der neuen einfache URL.
 ms.openlocfilehash: 393f5b39ea19a156f814a4c3dc5b0a13aab35fce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898345"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201977"
 ---
 # <a name="add-simple-url"></a>Hinzufügen einfacher URLs
  

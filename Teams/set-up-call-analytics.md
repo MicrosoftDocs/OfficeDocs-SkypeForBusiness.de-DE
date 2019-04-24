@@ -22,11 +22,11 @@ ms.custom:
 - Reporting
 description: Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems.
 ms.openlocfilehash: ebd5ec0ea60a59e50c3ce7137f518d9a596074a5
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204818"
 ---
 # <a name="set-up-call-analytics"></a>Einrichten von Anrufanalyse
 
@@ -92,7 +92,7 @@ Wenn Sie eine TSV- oder CSV-Datei von Grund auf neu erstellen, lesen Sie [Dateif
 ## <a name="related-topics"></a>Verwandte Themen
 <a name="BKMK_UploadFiles"> </a>
 
-[Verwenden Sie Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Anrufanalyse- und Anrufqualitäts-Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 

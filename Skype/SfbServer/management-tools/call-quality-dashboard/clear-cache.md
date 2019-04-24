@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 08648b16-7a64-41d8-9577-5000a20fce46
 description: 'Zusammenfassung: Informationen Sie zu den Cache löschen-Vorgang, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
 ms.openlocfilehash: c2371a7f99eb37e8e01be919bf6c31b0c9a452cb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889238"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32195551"
 ---
 # <a name="clear-cache"></a>Leeren des Caches
  

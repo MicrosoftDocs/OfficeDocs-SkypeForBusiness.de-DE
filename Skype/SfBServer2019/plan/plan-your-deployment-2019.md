@@ -16,19 +16,19 @@ ms.custom: ''
 ms.assetid: ''
 description: 'Zusammenfassung: Lernen Sie diese Links zu Informationen zum Entwickeln von konzeptionelle, logische und physische Entwürfe zum Konfigurieren von Skype für Business Server 2019 Features, Servern und Topologien.'
 ms.openlocfilehash: 89d4dade1bf166cfd3f3e5156f4281acbdb8ff98
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32195677"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Planen Ihrer Skype für Business Server 2019 Bereitstellung
  
 **Zusammenfassung:** Verwenden Sie diese Links zu Informationen zum Entwickeln von konzeptionelle, logische und physische Entwürfe zum Konfigurieren von Skype für Business Server 2019 Features, Servern und Topologien.
   
-Skype für Business Server bietet Sofortnachrichten (IM), Anwesenheitsinformationen, Konferenzen, Video und telefonielösungen, die Anforderungen an die Zusammenarbeit auf Unternehmensebene unterstützt werden können. Dieses Thema enthält Links zu Informationen zur Planung für eine erfolgreiche Skype für Business Server-Bereitstellung. 
+Skype for Business Server bietet Lösungen für Chatnachrichten, Anwesenheitsstatus, Konferenzen, Videos und Telefonie, die die Anforderungen an die Zusammenarbeit auf Unternehmensebene erfüllen. Dieses Thema enthält Links zu Informationen zur Planung für eine erfolgreiche Skype für Business Server-Bereitstellung. 
   
-Die Artikel werden von den Autoren fortlaufend aktualisiert, wenn neue Informationen und Benutzerfeedback eingehen. Überprüfen Sie diese Seite daher regelmäßig auf Aktualisierungen.
+Die Artikel werden von den Autoren regelmäßig aktualisiert, wenn neue Informationen vorliegen oder Benutzer Feedback geben. Überprüfen Sie diese Seite daher regelmäßig auf Aktualisierungen.
 ## <a name="visual-resources-about-how-to-plan-for-skype-for-business-server"></a>Visual-Ressourcen zur Planung für Skype für Business Server
 
 Zeigen Sie die folgenden Ressourcen Informationen dazu, wie Sie Ihre Skype für Business Server-Bereitstellung planen.
@@ -52,12 +52,12 @@ Die folgenden Artikel zur Planung für Skype für Business Server sind online ve
 |**[Planen von Konferenzen in Skype for Business Server](../../SfbServer/plan-your-deployment/conferencing/conferencing.md)** <br/><br/> Was sind die Live Meeting-Anforderungen für Ihre Organisation? Read about web conferencing, A/V conferencing, and dial-in conferencing features and requirements.   |**[Planen der Sicherheit in Skype für Business Server](../../SfbServer/plan-your-deployment/security/security.md)** <br/><br/>Hier finden Sie Ressourcen zu Benutzerauthentifizierung, Server-zu-Server-Authentifizierung und Anwendungsauthentifizierung, damit Sie besser verstehen und Planen der Authentifizierung in Skype für Business Server.   |
 |**[Planen von hybridkonnektivität](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)**  <br/><br/>Haben Sie Benutzer, die auf lokale Skype für Business Server und Skype für Business Online verwaltet werden? If so, read about how you can set up a hybrid deployment that synchronizes both on-premises and online users across a single domain.   
    
-## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Zusätzliche Ressourcen zur Planung von Skype für Business Server
+## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Weitere Ressourcen zur Bereitstellungsplanung für Skype for Business Server
 
-Die folgenden Ressourcen zur Planung für Skype für Business Server sind von anderen Fachleuten zur Verfügung. 
+Die folgenden Ressourcen zur Bereitstellungsplanung für Skype for Business Server sind von anderen Fachbereichsexperten erhältlich. 
   
 |&nbsp;&nbsp;&nbsp;|Inhalt|Beschreibung|
 |:--- |:--- |:--- |
-|![Symbol für DMC](../media/paragraph_writing.png)| [Skype für Business Server für IT-Experten](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Besuchen Sie docs.microsoft.com und Resource Center für Access-Videos, Communitywebsites, Dokumentation, Downloads und mehr.    |
-|![Symbol für Entwicklerinhalt](../media/developer.png)|[Skype-Entwickler-Plattform](https://go.microsoft.com/fwlink/?LinkId=619775)   | Hier finden Sie Entwicklerressourcen für Skype für Business Server, einschließlich Codebeispielen, Schulungen und SDKs.    |
-|![Symbol für News, Blogs usw.](../media/blog_site.png) | <UL><LI>[Änderungsmanagement und Akzeptanz](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Office-Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Office 365: technischer Blog](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype-Teamblog](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |Halten Sie sich mit Neuigkeiten aus der Teams, die erstellt und dem Dokument Skype für Business Server an.    |
+|![Symbol für DMC](../media/paragraph_writing.png)| [Skype for Business Server für IT-Experten](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Besuchen Sie docs.microsoft.com und Resource Center für Access-Videos, Communitywebsites, Dokumentation, Downloads und mehr.    |
+|![Symbol für Entwicklerinhalt](../media/developer.png)|[Skype-Entwicklerplattform](https://go.microsoft.com/fwlink/?LinkId=619775)   | Rufen Sie Entwicklerressourcen für Skype for Business Server ab, darunter Codebeispiele, Schulungen und SDKs.    |
+|![Symbol für News, Blogs usw.](../media/blog_site.png) | <UL><LI>[Change Management und Übernahme](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Office-Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Office 365: technischer Blog](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype-Teamblog](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |Bleiben Sie im Hinblick auf die Informationen von den Teams, die Skype for Business Server entwickeln und die zugehörige Dokumentation erstellen, immer auf dem neuesten Stand.    |

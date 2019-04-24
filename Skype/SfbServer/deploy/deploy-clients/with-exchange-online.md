@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Lesen Sie dieses Thema bietet Informationen zum Bereitstellen von Microsoft-Teams Chatrooms mit Exchange Online.
-ms.openlocfilehash: 09a9cf6ed01ea4b523e6f790d30a586e92b5c4f5
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 4bff1fb6adce254608aa9286ec080cf6677c1a48
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214828"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Bereitstellen von Microsoft-Teams, Räume mit Exchange Online
 
@@ -67,19 +67,12 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. Zum Anwenden einiger Kontoeinstellungen müssen Sie eine Verbindung mit Azure AD herstellen. Sie können dieses Cmdlet ausführen, um die Verbindung herzustellen.
 
-  ``` PowerShell
- Connect-MsolService -Credential $cred
-  ```
-<!--   ``` Powershell
-   Connect-AzureAD -Credential $cred
-   ``` -->
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>Hinzufügen einer E-Mail-Adresse für Ihr lokales Domänenkonto
 
-1. In **Active Directory-Benutzer und-Computer AD** -Tool mit der rechten Maustaste auf den Ordner oder die Organisationseinheit, dass Ihre Microsoft Teams Räume-Konten erstellt werden, klicken Sie auf **neu**, und klicken Sie dann auf **Benutzer**.
-2. Geben Sie den Anzeigenamen aus dem vorherigen Cmdlet in das Feld **Vollständiger Name** und den Alias in das Feld **Benutzeranmeldename** ein. Klicken Sie auf **Weiter**.
+1. In **Active Directory-Benutzer und-Computer AD** -Tool mit der rechten Maustaste auf den Container oder Organisationseinheit, dass Ihre Microsoft Teams Räume-Konten erstellt werden, klicken Sie auf **neu**, und klicken Sie dann auf **Benutzer**.
+2. Geben Sie den Anzeigenamen (-Identity) aus dem vorherigen Cmdlet (Set-Mailbox oder New-Mailbox) in das Feld **Vollständiger Name** und der Alias in das Feld **Benutzeranmeldename** ein. Klicken Sie auf **Weiter**.
 3. Geben Sie das Kennwort für dieses Konto ein. Sie müssen das Kennwort zur Bestätigung erneut eingeben. Stellen Sie sicher, dass als einzige Option das Kontrollkästchen **Kennwort läuft nie ab** aktiviert ist.
 
     > [!NOTE]
@@ -90,9 +83,18 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 ### <a name="assign-an-office-365-license"></a>Zuweisen einer Office 365-Lizenz
 
-1. Das Benutzerkonto muss eine gültige Office 365-Lizenz, um sicherzustellen, dass Exchange und Skype für Business Server funktioniert haben. Wenn Sie die Lizenz haben, müssen Sie einen Verwendungsspeicherort Ihres Benutzerkontos zuweisen – diese Einstellung bestimmt, was Lizenz-SKUs für Ihr Konto zur Verfügung stehen.
-2. Im nächsten Schritt verwenden.`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> zum Abrufen einer Liste der verfügbaren SKUs für Office 365-Mandanten.
-3. Nachdem Sie sich die SKUs anbieten, können Sie hinzufügen, eine Lizenz mit der`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> Cmdlet. In diesem Fall entspricht „$strLicense“ dem angezeigten SKU-Code (zum Beispiel „contoso:STANDARDPACK“). 
+1. Schließen Sie zuerst Azure AD einige kontoeinstellungen anwenden. Sie können dieses Cmdlet ausführen, um die Verbindung herzustellen.
+
+  ``` PowerShell
+ Connect-MsolService -Credential $cred
+  ```
+<!--   ``` Powershell
+   Connect-AzureAD -Credential $cred
+   ``` -->
+
+2. Das Benutzerkonto muss eine gültige Office 365-Lizenz, um sicherzustellen, dass Exchange und Skype für Business Server funktioniert haben. Wenn Sie die Lizenz haben, müssen Sie einen Verwendungsspeicherort Ihres Benutzerkontos zuweisen – diese Einstellung bestimmt, was Lizenz-SKUs für Ihr Konto zur Verfügung stehen. Die Zuordnung stellen Sie in einem der folgenden Schritt.
+3. Im nächsten Schritt verwenden.`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> zum Abrufen einer Liste der verfügbaren SKUs für Office 365-Mandanten.
+4. Nachdem Sie sich die SKUs anbieten, können Sie hinzufügen, eine Lizenz mit der`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> Cmdlet. In diesem Fall entspricht „$strLicense“ dem angezeigten SKU-Code (zum Beispiel „contoso:STANDARDPACK“). 
 
   ```
     Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
@@ -148,4 +150,4 @@ Für die Validierung sollten Sie alle Skype für Business-Client verwenden Sie d
   
 [Konfigurieren einer Microsoft-Teams Räume-Konsole](console.md)
   
-[Verwalten von Microsoft-Teams, Räume](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Microsoft Teams Rooms verwalten](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

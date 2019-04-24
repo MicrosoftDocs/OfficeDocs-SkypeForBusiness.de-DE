@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 'Sie können die Eigenschaften der Mediation Server in diesem Dialogfeld bearbeiten. Auf der linken Seite ist eine Reihe von Quicklinks zu gelangen Sie zur Einstellungen für allgemeine Einstellungen, die Einstellungen für den nächsten Hop und Einstellungen für PSTN-Gateway. In jedem Abschnitt sind die folgenden Einstellungen:'
 ms.openlocfilehash: a5af8e844c82d1af194e0c59fde67725c019ec99
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892427"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200088"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Allgemeine Einstellungen für den Vermittlungsserver für Lync Server 2010 – Erweiterung
 

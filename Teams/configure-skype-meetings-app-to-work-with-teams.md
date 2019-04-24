@@ -15,11 +15,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8071b248219d2e69465ef19e8dc966e87de58754
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891476"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198352"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams
 ===================================================
@@ -28,7 +28,7 @@ Nach der Aktualisierung eines Benutzers auf der Microsoft-Teams, können Adminis
 
 Um die Skype für Besprechungen App als die bevorzugte app anzugeben:
 
-1. Melden Sie sich bei der Microsoft-Teams-Verwaltungskonsole.
+1. Melden Sie sich beim Admin Center für Microsoft Teams an.
 2. Wählen Sie im linken Bereich, klicken Sie unter **Einstellungen für die gesamte Org** **Teams zu aktualisieren**.
 3. Die Teams aktualisieren Sie Seite unter **App-Einstellungen**, wählen Sie **Skype Besprechungen App** aus der Dropdownliste **Bevorzugter app für Benutzer Skype für Business Besprechungen beitreten** .
 

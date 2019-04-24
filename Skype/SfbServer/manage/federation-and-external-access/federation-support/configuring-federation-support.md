@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Wenn Sie Skype für Unternehmen in Ihrer Organisation bereitstellen, können Sie für Business Online-Kunden einen Verbund mit der eine oder mehrere Skype-Domänen konfigurieren. '
 ms.openlocfilehash: 70eda58c5d01b09c9f3e00ef8f3ac0391a90ed07
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899722"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199870"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Konfigurieren von verbundunterstützung für einen Skype für Business Online-Kunden in Skype für Business Server 
 

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
 description: 'Zusammenfassung: Verwalten Sie Quality of Experience (QoE) in Skype für Business Server.'
 ms.openlocfilehash: 679365b1b139f690519673706c5e270e415c42c6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197709"
 ---
 # <a name="quality-of-experience-qoe-in-skype-for-business-server"></a>Quality of Experience (QoE) in Skype für Business Server
  

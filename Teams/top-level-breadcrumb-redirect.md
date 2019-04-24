@@ -1,12 +1,13 @@
 ---
 redirect_url: https://go.microsoft.com/fwlink/?linkid=858815
-redirect_document_id: True
+redirect_document_id: true
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.openlocfilehash: e3f3963c647443347cff860bc9673239babd23f7
-ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
-ms.translationtype: HT
+ms.openlocfilehash: 4792676a427d1aed841363758ca22bc72094671b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222003"
 ---

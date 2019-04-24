@@ -14,11 +14,11 @@ ms.assetid: c6a280cb-1428-40b6-b761-cb649b9ff7df
 ROBOTS: NOINDEX, NOFOLLOW
 description: Weitere Informationen zur Verwendung von Bereitstellungsassistenten Skype für Business Server installieren finden Sie unter Installieren von Skype Business Server.
 ms.openlocfilehash: e8482ac4a0c271a62c63eb9a9829faa7b2f577ba
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875292"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216067"
 ---
 # <a name="deployment-wizard-windows-update"></a>Bereitstellungs-Assistent: Windows Update
  

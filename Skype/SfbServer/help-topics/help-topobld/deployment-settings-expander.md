@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 'Sie können die Eigenschaften für eine vorhandene Bereitstellung mit den folgenden Abschnitten bearbeiten:'
 ms.openlocfilehash: d9a42dffe3782a84b90b8cecbbc2af2835871732
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226850"
 ---
 # <a name="deployment-settings-expander"></a>Bereitstellungseinstellungen – Erweiterung
 

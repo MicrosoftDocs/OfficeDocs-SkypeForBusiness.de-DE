@@ -14,11 +14,11 @@ ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie konfigurieren erweiterte Optionen für die Platzierung von Datenbank und Protokolldateien auf dem SQL Server. Die verfügbaren Optionen sind:'
 ms.openlocfilehash: 4834a3b12b668f407b92770f8850646509fc6914
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201885"
 ---
 # <a name="install-database-options-page"></a>Seite "Datenbank installieren" – Optionen
 

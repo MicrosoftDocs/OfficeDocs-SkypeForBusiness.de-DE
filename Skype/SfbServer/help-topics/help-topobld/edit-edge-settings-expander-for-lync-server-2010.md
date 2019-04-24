@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Bearbeiten Sie die Einstellungen für den Edge-Server oder Edge-Pool, indem Sie die folgenden Eigenschaften konfigurieren:'
 ms.openlocfilehash: a4ad88aa6ff565ac7c1ebb5134d476d34625418f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203130"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Bearbeiten der Edgeeinstellungen für Lync Server 2010 – Erweiterung
  

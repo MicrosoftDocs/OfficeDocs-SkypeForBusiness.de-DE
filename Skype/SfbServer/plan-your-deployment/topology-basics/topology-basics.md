@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Zusammenfassung: Wählen Sie Ihre Topologie für Skype für Business Server. Informationen Sie zu serverausführung für Skype für Business Server.'
 ms.openlocfilehash: 566d044defd69dd9ae79bc964c9a587332649b42
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881618"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205972"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Topologiegrundlagen Skype für Business Server
 

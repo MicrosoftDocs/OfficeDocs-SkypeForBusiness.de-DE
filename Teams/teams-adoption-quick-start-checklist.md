@@ -18,11 +18,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f19d78de9b9227dcbc42073b177fffd9596e5ffb
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464012"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225048"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Prüfliste für den Schnellstart der Microsoft Teams-Einführung
 
@@ -34,21 +34,21 @@ ms.locfileid: "30464012"
 
 ## <a name="phase-1---start"></a>Phase 1: Start
 
-- [Grundlegendes zu Teams und Kanäle](teams-adoption-understand-teams-and-channels.md)
-- [Erstellen Sie Ihre erste teams](teams-adoption-your-first-teams.md)
+- [Grundlagen von Teams und Kanälen](teams-adoption-understand-teams-and-channels.md)
+- [Erstellen Ihrer ersten Teams](teams-adoption-your-first-teams.md)
 - [Sind Sie bereit für Teams?](teams-adoption-assess-readiness.md)
 - [Besprechen mit Projektbeteiligten](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [Identifizieren von frühe Übernahmen](teams-adoption-assess-readiness.md#identify-early-adopters)
 
-## <a name="phase-2---experiment"></a>Phase 2: Experiments
+## <a name="phase-2---experiment"></a>Phase 2: Experimentieren
 
-- [Ihr Programm Champions erstellen](teams-adoption-create-champions-program.md)
+- [Erstellen Ihres Expertenprogramms](teams-adoption-create-champions-program.md)
 - [Führen Sie die Steuerung Schnellstart](teams-adoption-governance-quick-start.md)
 - [Definieren der Verwendungsszenarien](teams-adoption-define-usage-scenarios.md)
 - [Interview Projektbeteiligten](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
 - [Ordnen Sie zu und Priorisieren Sie Geschäftsszenarien](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
-- [Integrierte frühe Übernahmen und Feedback sammeln](teams-adoption-onboard-early-adopters.md)
-- [Integrierte Unterstützung](teams-adoption-onboard-support.md)
+- [Onboarding von Early Adopters und Sammeln von Feedback](teams-adoption-onboard-early-adopters.md)
+- [Onboardingsupport](teams-adoption-onboard-support.md)
 
 ## <a name="phase-3---scale"></a>Phase 3: Skalierung
 
@@ -57,8 +57,8 @@ ms.locfileid: "30464012"
 - [Beteiligten beteiligen](teams-adoption-define-outcomes.md#engage-stakeholders)
 - [Erweitern Sie Ihr Team für die Implementierung](teams-adoption-define-outcomes.md#expand-your-implementation-team)
 - [Erweitern Sie Ihre Informationsverwaltungsrichtlinien Unternehmensleitung und Informationen](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
-- [Optimieren der Leistung von Feedback und Berichte](teams-adoption-optimize-feedback-and-reporting.md)
-- [Laufwerk zur Förderung des Bekanntheitsgrads und Schulungen zu implementieren](teams-adoption-drive-awareness.md)
+- [Optimieren von Feedback und Berichterstellung](teams-adoption-optimize-feedback-and-reporting.md)
+- [Fördern des Bewusstseins und Implementieren der Schulung](teams-adoption-drive-awareness.md)
 - [Planen der Dienst Reviews (engl.)](teams-adoption-schedule-service-health-reviews.md)
 
 

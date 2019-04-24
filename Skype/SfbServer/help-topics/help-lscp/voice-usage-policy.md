@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: cf6a2441-d8ad-4e45-8049-8d83f1fb5f28
 description: Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter Verwalten von Skype Business Server 2015.
 ms.openlocfilehash: bd302f835c35ca716c80ec1430e0b06aaa8e7b39
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200344"
 ---
 # <a name="voice-usage-policy"></a>VoIP-Verwendungsrichtlinie
  

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
 description: 'Zusammenfassung: Erfahren Sie mehr über die Konferenz Diagnosebericht in Skype für Business Server verwendet.'
 ms.openlocfilehash: eb7fde75050b6d97172986aef6429cdc19216f59
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197618"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Diagnosebericht Konferenz in Skype für Business Server
  

@@ -14,11 +14,11 @@ ms.assetid: 3ed3bdde-c3b5-4fe9-a96b-37099cbd6234
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die Basis-URL ist die Webdienstidentität der URL ohne https://. Wenn die vollständige URL für die Webdienste des Pools ist beispielsweise https://pool01.contoso.net, die base-URL ist pool01.contoso.net.
 ms.openlocfilehash: 8da69fe55100f5704c3a96a7d2286148f1a4d73c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890269"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202215"
 ---
 # <a name="add-director-web-service"></a>Hinzufügen eines Director-Webdiensts
  

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einen Audioanruf. In der Regel muss ein Anruf zwei Datensätze, einen für Anrufer und einen für des angerufenen.
 ms.openlocfilehash: 307406446d71adf462cdc8a0345aa823129a8f99
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895055"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212320"
 ---
 # <a name="audioclientevent-table"></a>AudioClientEvent-Tabelle
  

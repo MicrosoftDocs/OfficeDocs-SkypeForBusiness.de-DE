@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: Zusätzlich zu den standard Audiokonferenzen pro-Benutzer-Lizenz können Organisationen, die über die Microsoft-Volumenlizenzierung auch ein Bezahlung pro Minute Angebot Audio-Konferenzfunktionen für ihre Organisation zu aktivieren.
-ms.openlocfilehash: 72083c7c312382b5288293cbe1223594f3053455
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 6de73aea08602ae27e0b5964154e155d10454dc5
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569718"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198729"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audiokonferenz mit Minutenabrechnung
 
@@ -51,21 +51,35 @@ Während das Audiokonferenz pro Benutzer Lizenz Angebot Einwahl Nutzung und eini
 - Ausgehende Anrufe an externe Telefonnummern aus innerhalb einer Besprechung Ihrer Organisation.
     
 > [!NOTE]
-> Sie finden die ein- und ausgehender Verbindung Sätze, diese Arten von Anrufen durch die Überprüfung im **finden Sie unter Überstundensätze, wo Sie im Abschnitt aufrufen möchten** in [Audiokonferenzen](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates)zugeordnet ist.
+> Sie finden die ein- und ausgehender Verbindung Sätze, diese Arten von Anrufen durch die Überprüfung im **finden Sie unter Überstundensätze, wo Sie im Abschnitt aufrufen möchten** in [Audiokonferenzen](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)zugeordnet ist.
   
 Bezahlung pro Minute in Ihrer Organisation [Communications haben](what-are-communications-credits.md) mit einer Lizenz zugewiesen, jedem Benutzer in der Reihenfolge für Audiokonferenzen funktioniert aktiviert werden muss. Wenn Sie weitere Details möchten, finden Sie unter [Einrichten von Communications haben für Ihre Organisation](set-up-communications-credits-for-your-organization.md) und/oder [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 Um Audiokonferenzen Lohn-per-Minute für Benutzer in Ihrer Organisation zu aktivieren, finden Sie unter [Testen oder erwerben Audiokonferenzen in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
+
+## <a name="why-is-it-best-for-you"></a>Warum ist es am besten für Sie?
+
+- Bezahlung pro Minute wird nur für einzelne pro Minute für jeden Anruf eingehend oder ausgehend, die von jedem Teilnehmer während einer geplanten Besprechung (schwanken für Gebühren oder gebührenfreier Anruf und durch Destination) statt Skype für Business oder Teams Anwendung in einer mobilen getätigte berechnet werden Gerät oder PC.
+
+- Die Möglichkeit, Kosten zu verwalten, da Administratoren steuern können, um die Besprechungen der Organisator die Arten von DFÜ-Outs (International und National), die ausgeführt werden können verhindern, dass. Finden Sie unter [ausgehende aufrufende einschränkungsrichtlinien für Audiokonferenzen und Benutzer PSTN-Anrufe](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies)
+
+- Wenn Sie Lizenzen für Audiokonferenz mit Minutenabrechnung haben, müssen Sie nicht jedem Benutzer für die Nutzung der Audiokonferenz separate Lizenzen für Guthaben für Kommunikationen zuweisen (Sie müssen diese möglicherweise noch für andere Dienste zuweisen).
+
+- Steuern und überwachen Bezahlung pro Minute für Ferngespräche mithilfe von Communications haben.
+
+- Mehr Flexibilität bei der Preisgestaltung für Kunden, die alle Benutzer im Abonnement nicht benötigen. 
+
+- Aktivieren von Audiokonferenzen Lohn-pro-minütigen sowie ein Monatliches Abonnement E5 oder eines eigenständigen Audiokonferenzen Abonnement, beide Dienste werden weiterhin auf die gleiche Weise funktionieren. Änderungen müssen keine Auswirkung auf die Vorgänge des Audiokonferenzen oder Communications haben.
   
 ## <a name="want-to-find-out-more-about-pricing"></a>Weitere Informationen zu Preisen finden möchten?
 
  **Suchen Sie nach Preisen?** Finden Sie unter [Vorgehensweise finden Sie unter Preise und Add-On-Lizenzen erwerben](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how) oder eine der folgenden:
   
-- [Preise für Audiokonferenzen](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
+- [Preise für Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     
-- [Preise für Telefonsystem](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+- [Preise für Telefonsystem](https://products.office.com/skype-for-business/phone-system#Requirements)
     
-- [Preise für Anrufpläne](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
+- [Preise für Anrufpläne](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
 ## <a name="related-topics"></a>Verwandte Themen
   

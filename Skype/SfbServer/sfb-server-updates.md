@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Hier können Sie Updates für Skype for Business Server 2015 und Lync 2013 an einer zentralen Stelle suchen und verwalten. Unter den Links auf dieser Seite finden Sie weitere Informationen zu Updates, die Sie dann herunterladen können.
 ms.openlocfilehash: 7aa5a6735a0a3f9fd3544a5f0980f47b4af74213
-ms.sourcegitcommit: 2a34c9955d2cf54085dee527ea493ce991ef2e10
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30340419"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199582"
 ---
 # <a name="skype-for-business-server-updates"></a>Updates für Skype for Business Server
 
@@ -76,8 +76,8 @@ Die neuesten Skype Business Online und Office 365-Updates finden Sie in der [Mic
 | Lync Server 2013 Kumulatives Update 5 |[KB 2937305](https://support.microsoft.com/kb/2937305)|August 2014 |
 |Kumulatives Update für Lync Server 2013 4 |[KB 2905040](https://support.microsoft.com/kb/2905040)|Januar 2014 |
 |Lync Server 2013 Kumulatives Update 3 |[KB 881682](https://support.microsoft.com/kb/881682)|Oktober 2013 |
-|Lync Server 2013, kumulatives Update 2 |[KB 2835432](https://support.microsoft.com/kb/2835432)|Juli 2013 |
-|Lync Server 2013, kumulatives Update 1 |[KB 2781550](https://support.microsoft.com/kb/2781550)|Februar 2013 |
+|Lync Server 2013 Kumulatives Update 2 |[KB 2835432](https://support.microsoft.com/kb/2835432)|Juli 2013 |
+|Lync Server 2013 Kumulatives Update 1 |[KB 2781550](https://support.microsoft.com/kb/2781550)|Februar 2013 |
 ||||
 
 ### <a name="lync-server-2013-dev-tools"></a>Entwicklertools für Lync Server 2013

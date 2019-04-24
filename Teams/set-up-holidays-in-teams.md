@@ -19,11 +19,11 @@ localization_priority: Normal
 f1keywords: None
 description: Informationen Sie zum Einrichten von Feiertagen in der Microsoft-Teams, und schließen Sie sie an die automatische Telefonzentrale.
 ms.openlocfilehash: afec7fc3f1bbe47c907b823711db3b8b8ef3aded
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914578"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204776"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Einrichten von Feiertagen in Microsoft Teams
 

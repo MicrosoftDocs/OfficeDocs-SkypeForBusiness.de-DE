@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 description: 'Zusammenfassung: Lesen Sie diesen Abschnitt beim Planen der Integration von Skype für Business Server mit Exchange 2013.'
 ms.openlocfilehash: fd408466034646938d002c609a263e71077e5b94
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882656"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214131"
 ---
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Plan für den einheitlichen Kontaktspeicher in Skype for Business Server 2015
  

@@ -14,11 +14,11 @@ ms.assetid: a0d497d9-01ef-4b34-80dc-517622f9b260
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: 052e778ff7ba92a7d524c94e61e9addaac6b4283
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899046"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215297"
 ---
 # <a name="associate-a-subnet"></a>Zuordnen eines Subnetzes
 

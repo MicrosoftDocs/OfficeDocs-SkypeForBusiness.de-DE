@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Zusammenfassung: Erfahren Sie, wie die Protokollierung Centralized Logging Service (CLS) in Skype für Business Server 2015 verwenden.'
 ms.openlocfilehash: 5b2a2f7e447215d291aa763982acae1a6e64b8a1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897928"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217738"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger für Skype for Business Server 2015
  

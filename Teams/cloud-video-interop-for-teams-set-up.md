@@ -15,11 +15,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b171b3fb5e73561ea5aea54e6e4f25bfabe6b0dc
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993621"
+ms.locfileid: "32198861"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Einrichten von Cloud-Video-Interoperabilität für Microsoft Teams
 

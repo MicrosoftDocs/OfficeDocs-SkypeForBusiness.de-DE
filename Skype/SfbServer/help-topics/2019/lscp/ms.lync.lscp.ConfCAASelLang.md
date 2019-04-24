@@ -14,11 +14,11 @@ ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wählen Sie die Sprachen aus, die für Ihre Zugriffsnummer für Einwahlkonferenzen verwendet werden sollen. Ausführliche Informationen finden Sie unter Create or Modify a Dial-in Conferencing Access Number.
 ms.openlocfilehash: d1c2cfba13d80fa665b2994f308ec43328be9782
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880165"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216193"
 ---
 # <a name="select-languages"></a>Auswählen von Sprachen
 

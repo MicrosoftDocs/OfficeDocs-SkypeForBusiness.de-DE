@@ -23,11 +23,11 @@ ms.custom:
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
 ms.openlocfilehash: 2e9845a9b9ebb294d0d7af1af87fae3165244889
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218056"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Datensammlungsverfahren im Zusammenhang mit Skype for Business und Microsoft Teams
 
@@ -45,7 +45,7 @@ Einige Nutzungsdaten werden automatisch gesammelt, andere Daten können hingegen
 
 Erhebung von Daten werden ausschließlich zum Bereitstellen, unterstützen und verbessern Skype für Unternehmen erworben. Microsoft-Teams und Skype für Unternehmen Online. Sie enthalten Umgebungsinformationen wie beispielsweise Gerät und Betriebssystemversion sowie regionale Einstellungen und Spracheinstellungen. Sie umfassen auch Zähler für erfolgreiche und fehlgeschlagene Anmeldeversuche. Hier sehen Sie einige konkrete Beispiele für statistische Daten zu Benutzern, die gesammelt werden:
 
-|**Datentyp**|**Beispiel**|**Notizen**|
+|**Datentyp**|**Beispiel**|**Hinweise**|
 |:-----|:-----|:-----|
 |AppName  <br/> |iPhoneSkype  <br/> ||
 |DeviceModel  <br/> |iPhone  <br/> ||
@@ -90,7 +90,7 @@ Diese Richtlinie ist standardmäßig auf „False" festgelegt, das heißt, die T
 
 Zu den Fehlerberichtsdaten zählen Informationen über Leistung und Zuverlässigkeit, Gerätekonfiguration, Netzwerk-Verbindungsqualität, Fehlercodes, Fehlerprotokolle und Ausnahmen. Hier sehen Sie einige konkrete Beispiele für Fehlerberichtsdaten, die gesammelt werden:
 
-|**Datentyp**|**Beispiel**|**Notizen**|
+|**Datentyp**|**Beispiel**|**Hinweise**|
 |:-----|:-----|:-----|
 |Nachrichtenrichtung  <br/> |Eingehend  <br/> ||
 |Unterhaltungsstatus  <br/> |Inaktiv  <br/> ||

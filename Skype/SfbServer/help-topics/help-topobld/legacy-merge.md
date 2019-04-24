@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 description: Der externe FQDN Webkonferenzen ermöglicht externe Benutzern lokale-Besprechungen teilnehmen. Geben Sie den vollqualifizierten Domänennamen (FQDN) der Web Conferencing externen Schnittstelle der Edgeserver der Vorversion.
 ms.openlocfilehash: a6bb1ee83496e98f6097905fdf24c62d20d657ae
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897178"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200137"
 ---
 # <a name="legacy-merge"></a>Legacyzusammenführung
 

@@ -14,11 +14,11 @@ ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die öffentliche IP-Adresse ist die IP-Adresse, die von der Netzwerkadressübersetzung (NAT) verwendet wird. Die IP-Adresse muss öffentlich routingfähig sein. Dies ist erforderlich, da Sie die externe IP-Adresse für diese Kante ausgewählt haben, den Pool von NAT-Option auf der Seite Select Features dieses Assistenten übersetzt wird.
 ms.openlocfilehash: b8bd7db50c860b7d4215da8a45d3a8087e036714
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876464"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220948"
 ---
 # <a name="add-edge-server-nat-ip"></a>Hinzufügen der NAT-IP-Adresse des Edgeservers
 

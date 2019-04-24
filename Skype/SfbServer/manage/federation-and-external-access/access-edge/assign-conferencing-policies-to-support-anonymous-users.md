@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Sie steuern, wer anonyme Benutzer einladen kann durch Konfigurieren einer konferenzrichtlinie so, dass anonyme Benutzer unterstützen und diese konferenzrichtlinie auf bestimmte Benutzer anwenden.
 ms.openlocfilehash: 62ff84b19fadbeaf0f26fa3e5869026254d28d1f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197723"
 ---
 # <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Zuweisen von konferenzrichtlinien zur Unterstützung anonymer Benutzer in Skype für Business Server 
 

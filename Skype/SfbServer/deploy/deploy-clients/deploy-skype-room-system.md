@@ -12,11 +12,11 @@ ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
 ms.collection: M365-voice
 description: Lesen Sie dazu, wie Sie sollten Sie Skype Raum System, einer Besprechung bereitstellen Raum-Lösung mit integrierter Hardware und Software, die Skype für Business-Besprechungen teilnehmen optimiert ist.
 ms.openlocfilehash: 26ce5f6e50d26b408a8bce5d167e4e7b6046e514
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012567"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212726"
 ---
 # <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>Planen der Bereitstellung für Skype Raum System in Skype für Unternehmen
  
@@ -80,7 +80,7 @@ In der folgenden Tabelle angegeben Skype Raum System Client Supportability mit V
 |**Exchange**|**Lokal**|**Online**|**Hybrid**|
 |:-----|:-----|:-----|:-----|
 |Exchange 2010  <br/> |Ja (nur einzelne Gesamtstruktur)  <br/> |n/v  <br/> |-  <br/> |
-|Exchange 2013  <br/> |Ja (Mehrfach-Gesamtstruktur-Unterstützung verfügbar für Exchange 2013 CU6 und höhere Versionen)  <br/> |Ja  <br/> |Ja   <br/> |
-|Exchange 2016  <br/> |Ja (mit mehreren Gesamtstrukturen Unterstützung verfügbar)  <br/> |Ja   <br/> |Ja  <br/> |
+|Exchange 2013  <br/> |Ja (Mehrfach-Gesamtstruktur-Unterstützung verfügbar für Exchange 2013 CU6 und höhere Versionen)  <br/> |Ja  <br/> |Ja  <br/> |
+|Exchange 2016  <br/> |Ja (mit mehreren Gesamtstrukturen Unterstützung verfügbar)  <br/> |Ja  <br/> |Ja  <br/> |
    
 

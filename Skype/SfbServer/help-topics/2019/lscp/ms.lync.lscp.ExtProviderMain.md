@@ -14,11 +14,11 @@ ms.assetid: 0e875ac6-8afb-45bc-bcaa-3c7451125fae
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: dc06cabaeddd5bf9f64eae4d26761656ef8bf9dc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882488"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215605"
 ---
 # <a name="sip-federated-providers"></a>SIP-Partnerverbundanbieter
 

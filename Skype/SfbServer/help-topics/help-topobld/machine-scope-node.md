@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und die IP-Adresskonfiguration dieses Servers. Folgende Möglichkeiten stehen zur Verfügung:'
 ms.openlocfilehash: de64b226e283121f4f5898848f2a4f7cb2f1b81d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200109"
 ---
 # <a name="machine-scope-node"></a>Computer – Bereichsknoten
  

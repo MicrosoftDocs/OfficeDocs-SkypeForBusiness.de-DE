@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 'Zusammenfassung: Informationen Sie zum Erstellen einer neuen Auflistung der Trunk-Konfigurationseinstellungen mithilfe der Skype für Business Server-Systemsteuerung.'
 ms.openlocfilehash: 5f3fd6b704a99be13ab71153352b174f769a28cc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877685"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222702"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Erstellen einer neuen Auflistung von Trunk-Konfigurationseinstellungen in Skype für Business Server 
 
@@ -51,11 +51,11 @@ Beim Erstellen von SIP-trunkkonfigurationseinstellungen Skype Business Server-Sy
 |Weiterleitung von P-Asserted-Identity-Daten aktivieren  <br/> |ForwardPAI  <br/> |Gibt an, ob der PAI-Header (P-Asserted-Identity) zusammen mit dem Anruf weitergeleitet wird. Der PAI-Header bietet eine Möglichkeit, die Identität des Anrufers zu überprüfen.  <br/> |
 |Failovertimer für Ausgangsrouting aktivieren  <br/> |EnableFastFailoverTimer  <br/> |Gibt an, ob ausgehende Anrufe, die vom Gateway nicht innerhalb von 10 Sekunden beantwortet werden, an den nächsten verfügbaren Trunk weitergeleitet werden. Wenn keine weiteren Trunks verfügbar sind, wird der Anruf automatisch beendet. In einer Organisation mit langsamen Netzwerk- und Gatewayreaktionen könnte dies dazu führen, dass Anrufe unnötigerweise beendet werden.  <br/> |
 |Zugeordnete PSTN-Verwendungen  <br/> |PSTNUsages  <br/> |Dem Trunk zugewiesene Auflistung von PSTN-Verwendungen.  <br/> |
-|Übersetzte Nummer zum Testen  <br/> |n/v  <br/> |Eine Telefonnummer, die für Ad-hoc-Tests der Trunkkonfigurationseinstellungen verwendet werden kann.  <br/> |
+|Übersetzte Nummer zum Testen  <br/> |Nicht zutreffend  <br/> |Eine Telefonnummer, die für Ad-hoc-Tests der Trunkkonfigurationseinstellungen verwendet werden kann.  <br/> |
 |Zugehörige Übersetzungsregeln  <br/> |OutboundTranslationRulesList  <br/> |Sammlung an Regeln für die Telefonnummernübersetzung für Anrufe, die per Ausgangsrouting verarbeitet werden (Anrufe, die an Ziele in Nebenstellenanlagen oder im Telefonfestnetz weitergeleitet werden).  <br/> |
 |Übersetzungsregeln für die gewählte Nummer  <br/> |OutboundCallingNumberTranslationRulesList  <br/> |Dem Trunk zugewiesene Auflistung von ausgehenden Übersetzungsregeln für Telefonnummern.  <br/> |
-|Testtelefonnummer  <br/> |n/v  <br/> |Eine Telefonnummer, die für Ad-hoc-Tests der Übersetzungsregeln verwendet werden kann.  <br/> |
-|Anrufende Nummer  <br/> |n/v  <br/> |Gibt an, dass die zu testende Telefonnummer die Telefonnummer des Anrufers ist.  <br/> |
+|Testtelefonnummer  <br/> |Nicht zutreffend  <br/> |Eine Telefonnummer, die für Ad-hoc-Tests der Übersetzungsregeln verwendet werden kann.  <br/> |
+|Anrufende Nummer  <br/> |Nicht zutreffend  <br/> |Gibt an, dass die zu testende Telefonnummer die Telefonnummer des Anrufers ist.  <br/> |
 |Angerufene Nummer  <br/> |-  <br/> |Gibt an, dass die zu testende Telefonnummer die Telefonnummer der Person ist, die angerufen wird.  <br/> |
    
 > [!NOTE]

@@ -14,11 +14,11 @@ ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: cab2f22f110d312edb86ca4ebb542a958ad1d37f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874964"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32195486"
 ---
 # <a name="users-view-or-configure-archiving-policy"></a>Benutzer: Anzeigen oder Konfigurieren von Archivierungsrichtlinien
 

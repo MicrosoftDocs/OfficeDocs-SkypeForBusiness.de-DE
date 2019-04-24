@@ -14,11 +14,11 @@ ms.assetid: fb8e30aa-6b3c-4c8f-b22f-02db9e5fb8c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Auf der Seite Benutzer verschieben können Sie einen Zielpool auswählen, in den der ausgewählte Benutzer verschoben wird.
 ms.openlocfilehash: 1dbac7af993cb4f95dbd6c161af55e7121e06719
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898959"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214954"
 ---
 # <a name="move-user"></a>Verschieben von Benutzern
 

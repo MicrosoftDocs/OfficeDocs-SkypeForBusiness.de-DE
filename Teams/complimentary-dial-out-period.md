@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Kunden können den Office 365-Anrufplan und die Office 365-Audiokonferenz gemäß den Nutzungsbedingungen und der Volumenlizenzvereinbarung mit Skype for Business Online PSTN-Dienste verwenden.
-ms.openlocfilehash: 4255df94166416a7743a1d9715b465164cdaf627
-ms.sourcegitcommit: 2731231f7e1cb518ce34c81bd00e619c3a1972e3
+ms.openlocfilehash: 2e71c5bc4172ea73f361f97a6c7796b9ab28f310
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "31875021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198363"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Audiokonferenz – Zeitraum für kostenlose ausgehende Anrufe
 
@@ -41,7 +41,7 @@ Beginning 1 Dezember 2019, endet die kostenlose Dial-Out-Funktion. Weitere Infor
 
 ### <a name="complimentary-dial-out-period-details"></a>Kostenloses Dial Period Details
 
-Für Kunden, die über unsere Audiokonferenzen für Office 365-Dienst ist Microsoft einen weiteren kostenlosen Vorteil im Zusammenhang mit anwählen von Besprechungen von Benutzern, die eine Office 365-Audiokonferenzen Abonnementlizenz über Juni 2019 zugewiesen organisiert bereit. In diesem Zeitraum kostenlosen ermöglicht Microsoft autorisierten Teilnehmer oder Besprechungsorganisatoren gemäß Definition in Besprechungsanfragen Richtlinieneinstellungen Dial-Out-von innerhalb der Besprechung nicht Premium Telefonnummern in den unten aufgeführten 44 "Zone A" Länder Anrufe. Dieses Nutzens gilt für die Audiokonferenz Monatliches Abonnement-Lizenzen und Audiokonferenzen Bezahlung pro Minute Lizenzen nicht erweitert.
+Für Kunden, die über unsere Audiokonferenzen für Office 365-Dienst ist Microsoft einen weiteren kostenlosen Vorteil im Zusammenhang mit anwählen von Besprechungen von Benutzern, die eine Office 365-Audiokonferenzen Abonnementlizenz über November zugewiesen organisiert bereit. 2019. In diesem Zeitraum kostenlosen ermöglicht Microsoft autorisierten Teilnehmer oder Besprechungsorganisatoren gemäß Definition in Besprechungsanfragen Richtlinieneinstellungen Dial-Out-von innerhalb der Besprechung nicht Premium Telefonnummern in den unten aufgeführten 44 "Zone A" Länder Anrufe. Dieses Nutzens gilt für die Audiokonferenz Monatliches Abonnement-Lizenzen und Audiokonferenzen Bezahlung pro Minute Lizenzen nicht erweitert.
 
 Darüber hinaus ist eine 900 Minute Cap Grenze während der kostenlosen Client-Zeitraum als solche vorhanden:
 

@@ -14,11 +14,11 @@ ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 ROBOTS: NOINDEX, NOFOLLOW
 description: Den Add-in-Seite im Abschnitt beständigen Chat können beständigen Chat Rooms URLs zugeordnet. Diese URLs werden im Client im Chatroom des Erweiterungsbereichs für Unterhaltungen angezeigt. Ein Administrator muss der Liste der registrierten Add-Ins weitere Add-Ins hinzufügen und Verwalter und Ersteller von Chatrooms müssen die Räume mit einem der registrierten Add-Ins verknüpfen, bevor Benutzer dieses Upgrade in ihrem Client sehen können.
 ms.openlocfilehash: f5cdc444a5cca1a79d16042fc356c02c9ef77342
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879955"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215311"
 ---
 # <a name="persistent-chat-add-in"></a>Add-In für beständigen Chat
 

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Enterprise-VoIP Grundlagen in Skype für Business Server planen, einschließlich Websites, Regionen, Netzwerkverbindungen zwischen Standorten und Nutzung Sprachdatenverkehr schätzen.
 ms.openlocfilehash: 281dfefedb05cd60e1d050d708bacae4eec2baa2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206894"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planen Sie für Enterprise-VoIP in Skype für Business Server
  

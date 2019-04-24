@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 description: Wählen Sie einen Director, Director-Pool, Front-End-Server oder Front-End-Serverpool aus der Liste aus, um den nächsten Hoppool anzugeben oder zu bearbeiten, den der Edgeserver für die Kommunikation mit der internen Infrastruktur verwenden soll. Nur Directors oder -Front-End-Servern, die im Topologie-Generator konfiguriert wurden, die in der Liste angezeigt werden.
 ms.openlocfilehash: c5a5aae6818e662e5e4f47d26d73b4260a1494b7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878063"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203144"
 ---
 # <a name="edge-next-hop-settings-expander"></a>Einstellungen unter „Nächster Hop“ für Edge – Erweiterung
 

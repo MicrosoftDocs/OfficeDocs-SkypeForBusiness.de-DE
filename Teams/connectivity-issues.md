@@ -15,11 +15,11 @@ description: Behandeln Sie Konnektivitätsprobleme mit dem Microsoft Teams-Clien
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d208671415e44ca5ec83313d0d8af666534f2b20
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872702"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194678"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Behandeln von Konnektivitätsproblemen mit dem Microsoft Teams-Client
 ==============================================================

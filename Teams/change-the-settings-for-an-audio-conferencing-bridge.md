@@ -23,11 +23,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Hier finden Sie die Schritte, die Sie Einstellungen für eine Konferenzbrücke ändern, mit der Aufforderung Anrufer und Namen und Pins für Besprechungsorganisatoren sammeln, wenn sie nicht Skype für apps Business oder Microsoft-Teams verwenden, müssen. '
 ms.openlocfilehash: 2f3f08254409086ee99b3c5f60d243f893fff4e6
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633233"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198558"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Ändern der Einstellungen für eine Audiokonferenzbrücke
 
@@ -134,6 +134,6 @@ Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automat
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Einrichten von Audiokonferenzen für Microsoft-Teams](set-up-audio-conferencing-in-teams.md)
+[Einrichten von Audiokonferenzen für Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 [Einrichten von Audiokonferenzen für Skype für Business Online](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

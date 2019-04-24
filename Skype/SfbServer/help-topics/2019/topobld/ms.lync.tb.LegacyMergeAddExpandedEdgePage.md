@@ -14,11 +14,11 @@ ms.assetid: 324349df-ff11-40b5-93cf-4504e18b8985
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype für Business Server unterstützt das Zusammenführen von einer Vorversion Office Communications Server 2007 R2 nicht erweiterten Edge-Server-Konfiguration. Der erweiterte Edgeserver muss zunächst in einen konsolidierten Edgeserver umgewandelt werden, ehe die Zusammenführung der Edgeserverinformationen erfolgen kann.
 ms.openlocfilehash: 7acf24ebba1a9626e20d2c36f48c3f3ae62241e1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898831"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201828"
 ---
 # <a name="legacy-merge-add-expanded-edge"></a>Legacyzusammenführung – Hinzufügen einer erweiterten Edgekomponente
  

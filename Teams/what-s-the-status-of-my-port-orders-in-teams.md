@@ -1,5 +1,5 @@
 ---
-title: Was ist der Status der eigene Port Aufträge in Teams?
+title: Wie lautet der Status meiner Portierungsaufträge in Teams?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,16 +18,16 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Informationen Sie zum Abrufen des Status der Aufträge Port, und lernen die verschiedenen Aktionen, die Sie ergreifen können. '
-ms.openlocfilehash: bf1fc2d6fc58ce2586e768392aac0d6e91c5aaf3
-ms.sourcegitcommit: a37abb5c433012d501ede319fba60e0ae7474fce
+ms.openlocfilehash: d33b44c589a2dce5c27271622b01f06056919903
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31407753"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211671"
 ---
-# <a name="whats-the-status-of-my-port-orders-in-teams"></a>Was ist der Status der eigene Port Aufträge in Teams?
+# <a name="whats-the-status-of-my-port-orders-in-teams"></a>Wie lautet der Status meiner Portierungsaufträge in Teams?
 
-Sie können den Status Ihrer Bestellung Port sehen, indem Sie auf der **Microsoft-Teams, Administrationscenter** > **Legacy-Portal** > **VoIP** > **Port-Aufträge**. Jeder Auftragsstatus Port wird in der Spalte **Status** aufgeführt werden. Wenn Sie Hilfe, [Kontakt Unterstützung für Business-Produkte – Admin Hilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)benötigen.
+Sie können den Status Ihrer Bestellung Port sehen, indem Sie auf der **Microsoft-Teams, Administrationscenter** > **Legacy-Portal** > **VoIP** > **Port-Aufträge**. Jeder Auftragsstatus Port wird in der Spalte **Status** aufgeführt werden. Wenn Sie Hilfe, [Kontaktieren des Supports für Business-Produkte – Admin Hilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)benötigen.
 
 Die folgende Tabelle enthält die Port Status als auch Aktionen, die Sie ergreifen können, falls erforderlich.
 
@@ -37,14 +37,14 @@ Die folgende Tabelle enthält die Port Status als auch Aktionen, die Sie ergreif
 |**Wenden Sie sich an Netzbetreiber** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Die Reihenfolge empfangen und von Microsoft genehmigt wurde, und wir arbeiten mit der riskieren Netzbetreiber darauf genehmigt zuzugreifen.  <br/> |
 |**Übertragung genehmigt** <br/> |Ja  <br/> |Reihenfolge Commitment(FOC) fest  <br/> |Ja  <br/> |Nein  <br/> |Die Reihenfolge von der riskieren Netzbetreiber angenommen wurde, und das Datum FOC festgelegt wurde.  <br/> |
 |**Übertragen von ausstehenden** <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Die Übertragung ist weniger als 24 Stunden "Abwesend" anzeigen, damit die Reihenfolge nicht mehr bearbeitet oder abgebrochen werden kann.  <br/> |
-|**Fehler** <br/> |Nein  <br/> |Ja  <br/> |Ja   <br/> |Ja (zu diesem Zeitpunkt kann nicht gelöscht werden die Reihenfolge Port ein Fehler aufgetreten ist. Die Port Reihenfolge neu erstellt werden soll, oder Sie müssen zur [Unterstützung von Kontakt für Business-Produkte – Admin Hilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).  <br/> |Der riskieren Netzbetreiber hat die Reihenfolge abgelehnt.  <br/> |
+|**Fehler** <br/> |Nein  <br/> |Ja  <br/> |Ja  <br/> |Ja (zu diesem Zeitpunkt kann nicht gelöscht werden die Reihenfolge Port ein Fehler aufgetreten ist. Die Port Reihenfolge neu erstellt werden soll, oder Sie müssen zum [Kontaktieren des Supports für Business-Produkte - Admin-Hilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).  <br/> |Der riskieren Netzbetreiber hat die Reihenfolge abgelehnt.  <br/> |
 |**Abgeschlossen** <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Die Ziffern wurden erfolgreich übertragen.  <br/> |
 |**abgebrochen** <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Der Administrator hat den Auftrag abgebrochen.  <br/> |
    
  **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
  
 > [!NOTE]
-> Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+> Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 
 
 ## <a name="related-topics"></a>Verwandte Themen

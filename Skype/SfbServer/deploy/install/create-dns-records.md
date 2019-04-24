@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 'Zusammenfassung: Informationen Sie zum Konfigurieren von DNS und DNS-Einträge für eine Installation von Skype für Business Server erstellen. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
 ms.openlocfilehash: 35e8aecea74cc74cda6ea086a1765642885a091e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890683"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210718"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Erstellen von DNS-Einträgen für Skype für Business Server
  

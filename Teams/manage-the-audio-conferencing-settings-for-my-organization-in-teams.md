@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Hier finden Sie Informationen zu den Schritten, mit denen Sie in Microsoft Teams einem Benutzer eine Lizenz für Dial-in-Konferenzen und eine Konferenzkennung zuweisen, sowie zu vielen anderen Einstellungen für Dial-in-Konferenzen. '
 ms.openlocfilehash: 201da13370852b6506fe7aa32f695d973bcc637a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463892"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202765"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Verwalten der Audiokonferenz-Einstellungen für Ihre Organisation in Microsoft Teams.
 
@@ -83,9 +83,9 @@ Weitere Informationen finden Sie in der [PowerShell-Referenz für Microsoft Team
 
 3. In der **Konferenz-ID zurücksetzen?** Fenster, klicken Sie auf **Zurücksetzen**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
 
-Siehe [Einrichten einer Konferenz-ID für einen Benutzer](reset-a-conference-id-for-a-user-in-teams.md).
+See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md).
   
-## <a name="reset-a-conference-organizers-pin"></a>Zurücksetzen der PIN eines Organisators einer Konferenz
+## <a name="reset-a-conference-organizers-pin"></a>Reset a conference organizer's PIN
 
 Jedem Meeting, das ein Benutzer plant wird eine eindeutige Konferenz-ID zugewiesen Zwar eine Konferenz-ID wird automatisch erstellt und einem Benutzer zugewiesen werden, kann es jedoch Zeiten, wenn ein Benutzer nicht für diese verwenden möchten und es eine bestimmte Anzahl festgelegt werden soll, oder Ihre Benutzer können nicht merken oder verloren haben ihre Konferenz-ID. 
 
@@ -99,7 +99,7 @@ Benutzer erhalten eine E-Mail mit ihrer PIN, wenn sie für Audiokonferenzen akti
   
 Finden Sie unter [der Audiokonferenz PIN zurücksetzen](reset-the-audio-conferencing-pin-in-teams.md).
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden einer E-Mail mit den Informationen zur Audiokonferenz an einen Benutzer
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden Sie eine e-Mail mit Audiokonferenz Informationen zu einem Benutzer
 
 ![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
 
@@ -129,7 +129,7 @@ Finden Sie unter [Einrichten des Telefons, Zahlen auf enthalten lädt](set-the-p
   
 ## <a name="choose-audio-conferencing-bridge-settings"></a>Auswählen von Audiokonferenzen Brücke
 
-**Festlegen des Besprechungsverhaltens, wenn Anrufer an einer Besprechung teilnehmen**
+**Die besprechungsumgebung festgelegt, wenn der Anrufer an einer Besprechung teilnehmen**
 
 ![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
 
@@ -177,7 +177,7 @@ Siehe [Ändern der Einstellungen für eine Audiokonferenzbrücke](change-the-set
     
     Damit wird eine E-Mail gesendet, die nur die Konferenz-ID und die Konferenztelefonnummer enthält, nicht aber die PIN.
 
-Siehe [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
+See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
     
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Finden Sie unter, und legen Sie die primären (Standard) und die sekundären Sprachen (alternative) auf eine audiokonferenzbrücke
 
@@ -202,7 +202,7 @@ Siehe [Festlegen der automatischen Telefonzentrale Sprachen für Audio-Konferenz
 
 2. Wählen Sie eine Telefonnummer aus der Liste aus, und klicken Sie auf **Bearbeiten**. Hier können Sie:
     
-   - Zeigen Sie die Telefonnummern an, die von Office 365 zur Verwendung für Audiokonferenzen festgelegt werden. 
+   - Zeigen Sie die Telefonnummern, die vom Office 365 festgelegt werden, für die Audiokonferenz verwendet werden soll. 
     
    - Schauen Sie den Speicherort und die primäre Sprache, die von der automatischen Telefonzentrale Audiokonferenzen verwendet werden.
 

@@ -14,11 +14,11 @@ ms.assetid: 1e868ae2-57d9-449f-85be-6133c0cbd4f6
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator sind online unter Erstellen eines Pools gegenüber in Skype für Business Server beschrieben.
 ms.openlocfilehash: 38a30bfe3e52cc5df8255a303271b70f1c9b4169
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890199"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220832"
 ---
 # <a name="add-vis-fqdn"></a>Hinzufügen eines VIS-FQDN
  

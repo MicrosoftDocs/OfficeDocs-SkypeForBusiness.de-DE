@@ -15,15 +15,14 @@ MS.collection:
 description: Beispiele zum Festlegen von Richtlinien in Teams, um zu steuern, wer live Ereignisse in Ihrer Organisation und Features enthalten kann mithilfe von PowerShell stehen in der Ereignisse, die sie erstellen
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23cf75c8e764920a2d77c3bbe6c0cb3711c22f04
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 8858b8572a06aede2fa1de98ce9cfc14ed1745bd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459628"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204570"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Verwenden von PowerShell zum Festlegen von Richtlinien für Live-Ereignisse in Microsoft Teams
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Die folgenden Windows PowerShell-Cmdlets können Sie festlegen, und weisen Sie Richtlinieneinstellungen für live Ereignisse in Teams: 
 - [Get-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
@@ -140,6 +139,6 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 ```
 
 ### <a name="related-topics"></a>Verwandte Themen
-- [Einrichten von für Teams live Ereignisse](set-up-for-teams-live-events.md)
+- [Einrichten von Teams-Liveereignissen](set-up-for-teams-live-events.md)
 
 

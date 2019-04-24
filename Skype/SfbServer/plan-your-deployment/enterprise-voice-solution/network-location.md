@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: Entscheidungen zur Planung der Netzwerkkomponenten, mit denen Sie Anrufer Speicherorte für E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP zugeordnet werden.
 ms.openlocfilehash: 4cab36efdf0f4bcfbf3834e9c077558610655e3a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882306"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206578"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>Definieren der Netzwerkelemente zum Ermitteln des Standorts in Skype für Business Server
  

@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Aktivieren und Konfigurieren von Zugriff externer Benutzer auf das Steuerelement, ob mit internen Skype für Benutzer von Business Server unterstützte externe Benutzer zusammenarbeiten können.
 ms.openlocfilehash: c48914ca6dc7faf03fea1a3877bd2e349e39e290
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887858"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197597"
 ---
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>Verwalten von partnerverbünden und externen Zugriff auf Skype für Business Server
 

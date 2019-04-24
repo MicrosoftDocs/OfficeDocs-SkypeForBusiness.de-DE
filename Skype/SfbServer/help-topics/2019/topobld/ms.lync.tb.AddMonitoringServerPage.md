@@ -14,11 +14,11 @@ ms.assetid: 365f5b3a-ad1b-4145-bd5c-296c9a0aa482
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie um einen Monitoring Server in Ihrer Topologieentwurf zu integrieren, müssen Sie den vollqualifizierten Domänennamen (FQDN) des Servers angeben, auf denen Sie den Monitoring Server bereitstellen möchten. Vor dem Veröffentlichen einer Topologie mit dem Monitoring Server und Skype für Business Server auf dem Server installieren, sollten Sie alle erforderlichen Komponenten für die Bereitstellung von monitoring abschließen. Ausführliche Informationen zu diesen Voraussetzungen finden Sie unter Deploying Monitoring in der Bereitstellungsdokumentation.
 ms.openlocfilehash: 1bb8cfe2f0e3619c124ababecca5c3c1e2935510
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877412"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220874"
 ---
 # <a name="add-monitoring-server"></a>Hinzufügen des Monitoring Servers
 

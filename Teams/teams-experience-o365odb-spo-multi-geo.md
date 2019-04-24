@@ -15,11 +15,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e90e4a3c1ae2886a01802a805da3464cea3d8b50
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649260"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204499"
 ---
 <a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Teams-Umgebung in einer Office 365 OneDrive und SharePoint Online Multi-Geo-fähigen Mandanteneinheit
 ===========================================

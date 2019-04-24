@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 description: 'Verwenden Sie Archivierungsrichtlinien, um die Archivierung der internen und externen Kommunikation in Ihrer Bereitstellung für Benutzer, die auf Skype für Business Server verwaltet werden. Zu den Archivierungsrichtlinien gehören die globale Richtlinie und optional eine oder mehrere Richtlinien für Standorte und Benutzer:'
 ms.openlocfilehash: 76dcc63ed6c08c0a8d11c79547b8a11f6b1e4b39
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234838"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Archivierungsrichtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen Archivierungsrichtlinie
  

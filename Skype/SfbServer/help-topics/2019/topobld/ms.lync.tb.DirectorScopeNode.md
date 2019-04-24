@@ -14,11 +14,11 @@ ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und den zugeordneten Dateispeicher für diesen Director-Pool. Folgende Möglichkeiten stehen zur Verfügung:'
 ms.openlocfilehash: 8413d5e9c1382bb14a12571d3cab645d033dee68
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220537"
 ---
 # <a name="director-scope-node"></a>Director – Bereichsknoten
  

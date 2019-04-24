@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: Zum Vorbereiten der Active Directory-Domänendienste-Gesamtstruktur müssen Sie erfolgreich das Schema erweitern (Siehe im Thema Running Schema Preparation), und stellen Sie sicher, dass das Schema repliziert wurde.
 ms.openlocfilehash: f9ee99484b498b83a4ad55b0d3a2c2592453abae
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897956"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201279"
 ---
 # <a name="prepare-current-forest"></a>Vorbereiten der aktuellen Gesamtstruktur
 

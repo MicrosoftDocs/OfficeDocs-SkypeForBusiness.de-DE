@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: 2ca5ad983f49e15a4e20ff1d175cab2a545849ef
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897233"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200956"
 ---
 # <a name="associate-a-subnet-add-new-or-edit-existing"></a>Zuordnen eines Subnetzes: Hinzufügen einer neuen oder Bearbeiten einer vorhandenen Zuordnung eines Subnetzes
 

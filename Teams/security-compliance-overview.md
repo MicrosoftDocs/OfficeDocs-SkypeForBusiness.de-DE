@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 492055c80b844ba4a7aa0091da767214c55dc31a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884055"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203071"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Übersicht über Sicherheit und Compliance in Microsoft Teams
 ======================================================
@@ -95,15 +95,15 @@ In der folgenden Abbildung zeigt die Aufnahme Ablauf des Teams Besprechungen und
 Die Funktionen für den Schutz von Informationen hängen von den Office 365-Abonnements und den zugehörigen eigenständigen Lizenzen ab.
 
 
-| Funktion für den Schutz von Informationen | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
+| Funktion für den Schutz von Informationen | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
-|              Archiv              |               -                |              -              |            -             |             Ja              |           Ja             |
-|        In-Situ-eDiscovery        |               -                |              -              |            -             |             Ja              |           Ja             |
+|              Archiv              |               -                |              -              |            -             |             Ja             |           Ja            |
+|        In-Situ-eDiscovery        |               -                |              -              |            -             |             Ja             |           Ja            |
 |        Advanced eDiscovery        |               -                |              -              |            -             |              -              |           Ja            |
-|            Gesetzliche Aufbewahrungspflicht             |               -                |              -              |            -             |             Ja              |           Ja             |
-|     Compliancesuche in Inhalten     |               -                |             Ja              |           Ja             |             Ja              |           Ja            |
-|      Überwachung und Berichterstellung       |              Ja               |             Ja              |           Ja             |             Ja              |           Ja             |
-|       Bedingte Zugriff\*        |              Ja                |             Ja              |           Ja             |             Ja              |           Ja            |
+|            Gesetzliche Aufbewahrungspflicht             |               -                |              -              |            -             |             Ja             |           Ja            |
+|     Compliancesuche in Inhalten     |               -                |             Ja             |           Ja            |             Ja             |           Ja            |
+|      Überwachung und Berichterstellung       |              Ja               |             Ja             |           Ja            |             Ja             |           Ja            |
+|       Bedingte Zugriff\*        |              Ja               |             Ja             |           Ja            |             Ja             |           Ja            |
 
 > [!NOTE]
 > \*Für bedingten Zugriff sind zusätzliche Lizenzen erforderlich.

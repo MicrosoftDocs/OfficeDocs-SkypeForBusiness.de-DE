@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 6625494d-1b63-4d99-a589-c8c69c4addba
 description: 'Das Cmdlet „Get-CcSiteLogDirectory“ zeigt das aktuelle Verzeichnis an, in dem die Protokolle auf Standortebene für Skype for Business Cloud Connector Edition gespeichert werden. '
 ms.openlocfilehash: c4354920ac25d076e550c5eda3a641eef0c8b900
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199076"
 ---
 # <a name="get-ccsitelogdirectory"></a>Get-CcSiteLogDirectory
  

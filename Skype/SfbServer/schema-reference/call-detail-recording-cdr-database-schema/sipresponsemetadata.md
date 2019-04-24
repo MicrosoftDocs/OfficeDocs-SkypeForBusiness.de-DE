@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: cf723737-4a75-4352-829b-f4954aa59716
 description: Die SIPResponseMetaDataTable enthält eine Liste der SIP-Antwortcodes und der Klassifizierung und Definition der einzelnen Codes. Diese Codes werden als Antwort für Ereignisse, die SIP-Geräte generiert und SIP-kommunikationssitzungen; der Antwortcode 403 wird beispielsweise generiert, wenn ein SIP-Gerät eine Anforderung sendet, aber der Server die Anforderung annehmen ablehnt.
 ms.openlocfilehash: 7b60ffff90434c341fcf15fb75ddc93ac9f26201
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212796"
 ---
 # <a name="sipresponsemetadata-table"></a>SIPResponseMetaData-Tabelle
  

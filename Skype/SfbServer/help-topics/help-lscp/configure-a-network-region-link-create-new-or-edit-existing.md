@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: 561b557061b6ae52a4f2c84fc1459279c1bb37ce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234735"
 ---
 # <a name="configure-a-network-region-link-create-new-or-edit-existing"></a>Konfigurieren einer Netzwerkregionenverbindung: Erstellen einer neuen oder Bearbeiten einer vorhandenen Netzwerkregionenverbindung
 

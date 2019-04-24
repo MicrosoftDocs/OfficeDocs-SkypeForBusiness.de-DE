@@ -14,11 +14,11 @@ ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 ROBOTS: NOINDEX, NOFOLLOW
 description: Bei der Anrufsteuerung handelt es sich um ein Netzwerk aus Regionen, Standorten und Subnetzen, mit dem Sie basierend auf der verfügbaren Bandbreite Einschränkungen für Audio- und Videoübertragungen festlegen können. Nach der Konfiguration des Netzwerks für die Anrufsteuerung müssen Sie die Anrufsteuerung aktivieren, um die Bandbreiteneinschränkungen zu erzwingen.
 ms.openlocfilehash: 9453b29fd8ce52444c265e926663b400b4736c5b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895230"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201664"
 ---
 # <a name="call-admission-control-settings-expander"></a>Einstellungen der Anrufsteuerung – Erweiterung
  

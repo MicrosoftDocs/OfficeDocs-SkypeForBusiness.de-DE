@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: Informieren Sie sich über das Feature beschäftigt Optionen in Skype für Business Server.
 ms.openlocfilehash: 41e34dbb4eaf4a264ba1cec3756cc53c78992611
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897977"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207076"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Planen der Beschäftigt-Optionen für Skype for Business Server
  

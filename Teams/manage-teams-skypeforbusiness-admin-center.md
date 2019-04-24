@@ -20,11 +20,11 @@ appliesto:
 - Microsoft Teams
 - Skype for Business Online
 ms.openlocfilehash: 9f1adb47709d3e053bb2349d8a3e548bedc58d9d
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493692"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199567"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams
 ======================================================
@@ -53,27 +53,27 @@ Die folgende Tabelle zeigt die Abschnitte der Erfahrung Teams, die migriert wurd
 |Benutzerdefinierter Cloudspeicher     |Google-Laufwerk        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandanten         |
 |Benutzerdefinierter Cloudspeicher     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandanten         |
 |Einstellungen nach Benutzer-/Lizenztyp     |Aktivieren Sie oder deaktivieren Sie den Microsoft-Teams für alle Benutzer          |Veraltete<sup>1</sup>        |         |
-|Teams und Kanäle     |         |Umleitung zur Azure Active Directory-Gruppenmanagement (identisch mit Kenntnissen).              |Benutzer         |
-|Teams und Kanäle     |         |Umleitung zur Verwaltung von AAD (identisch mit Kenntnissen).             |Benutzer          |
+|Teams und Kanäle     |         |Umleitung zur Azure Active Directory-Gruppenmanagement (identisch mit Kenntnissen).              |User         |
+|Teams und Kanäle     |         |Umleitung zur Verwaltung von AAD (identisch mit Kenntnissen).             |User          |
 |Apps|Standardmäßiges Aktivieren von neuen externen Apps|Org geltende app-Einstellungen|Mandanten|
 |Apps|Externe apps zulassen|Org geltende app-Einstellungen|Mandanten|
-|Apps|Zulassen von externen App-<sup>2</sup> sideloading|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Benutzer|
-|Apps|Standard-apps<sup>3</sup>|TeamsAppPermissionPolicy|Benutzer|
-|Apps|Externe apps<sup>3</sup>|TeamsAppPermissionPolicy|Benutzer|
-|Anrufe und Besprechungen     |„Allow scheduling for private meetings“ (Planen von privaten Besprechungen zulassen)         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
-|Anrufe und Besprechungen     |Ad-hoc-Kanal Meetup zulassen         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
-|Anrufe und Besprechungen     |„Allow scheduling for channel meetings“ (Planen von Kanalbesprechungen zulassen)         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
-|Anrufe und Besprechungen     |Zulassen von Videos in Besprechungen         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
-|Anrufe und Besprechungen     |Zulassen Sie Bildschirmfreigabe an Besprechungen         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
-|Anrufe und Besprechungen     |Private Anrufe zulassen         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Benutzer          |
-|Messaging     |Aktivieren Sie Giphy, damit Benutzer Unterhaltungen GIF-Dateien hinzufügen können         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
-|Messaging     |Bewerten         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
-|Messaging     |Aktivieren von Memes, die Benutzer Unterhaltungen hinzufügen und bearbeiten können         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
-|Messaging     |Aktivieren Sie Aufkleber, die Benutzer Unterhaltungen hinzufügen und bearbeiten können         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
-|Messaging     |Zulassen Sie Websitebesitzer für alle Nachrichten löschen         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
-|Messaging     |Zulassen, dass Benutzer ihre eigenen Nachrichten bearbeiten         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
-|Messaging     |Zulassen, dass Benutzer ihre eigenen Nachrichten löschen         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
-|Messaging     |Ermöglicht es Benutzern, privat chat         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
+|Apps|Zulassen von externen App-<sup>2</sup> sideloading|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|User|
+|Apps|Standard-apps<sup>3</sup>|TeamsAppPermissionPolicy|User|
+|Apps|Externe apps<sup>3</sup>|TeamsAppPermissionPolicy|User|
+|Anrufe und Besprechungen     |„Allow scheduling for private meetings“ (Planen von privaten Besprechungen zulassen)         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |User          |
+|Anrufe und Besprechungen     |Ad-hoc-Kanal Meetup zulassen         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |User          |
+|Anrufe und Besprechungen     |„Allow scheduling for channel meetings“ (Planen von Kanalbesprechungen zulassen)         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |User          |
+|Anrufe und Besprechungen     |Zulassen von Videos in Besprechungen         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |User          |
+|Anrufe und Besprechungen     |Zulassen Sie Bildschirmfreigabe an Besprechungen         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |User          |
+|Anrufe und Besprechungen     |Private Anrufe zulassen         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |User          |
+|Messaging     |Aktivieren Sie Giphy, damit Benutzer Unterhaltungen GIF-Dateien hinzufügen können         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
+|Messaging     |Bewerten         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
+|Messaging     |Aktivieren von Memes, die Benutzer Unterhaltungen hinzufügen und bearbeiten können         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
+|Messaging     |Aktivieren Sie Aufkleber, die Benutzer Unterhaltungen hinzufügen und bearbeiten können         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
+|Messaging     |Zulassen Sie Websitebesitzer für alle Nachrichten löschen         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
+|Messaging     |Zulassen, dass Benutzer ihre eigenen Nachrichten bearbeiten         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
+|Messaging     |Zulassen, dass Benutzer ihre eigenen Nachrichten löschen         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
+|Messaging     |Ermöglicht es Benutzern, privat chat         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
 
 <sup>1</sup> Gast veraltet. Aktivieren/Deaktivieren von Gast können jetzt in der Verwaltungskonsole von Microsoft-Teams verwaltet werden. Aktivieren/Deaktivieren von Unternehmen, Edu Student, Teams und Edu Fakultät bald unterstützt. Dies sollte durch Zuweisen von Lizenzen im Office 365 Administrationscenter verwaltet werden. Finden Sie unter [Verwalten des Benutzerzugriffs auf Microsoft-Teams](user-access.md).
 <br><br>
@@ -93,7 +93,7 @@ Sie können weiterhin Ändern der Einstellungen in der Office 365-Verwaltungskon
 
 Die folgende Tabelle zeigt, wo Sie Features während der Migration verwalten können.
 
-|Funktion  |Microsoft-Teams, Administrationscenter                      |Skype für Business Administrationscenter (Legacy)  |Office 365 Administrationscenter  |
+|Feature  |Microsoft-Teams, Administrationscenter                      |Skype für Business Administrationscenter (Legacy)  |Office 365 Administrationscenter  |
 |---------|:---------:|:---------:|:---------:|
 |Richtlinien für Messaging, Besprechungen und Ereignisse Live-Teams     |     X    |         |         |
 |Upgrade Richtlinie Teams     |    X     |         |         |
@@ -103,7 +103,7 @@ Die folgende Tabelle zeigt, wo Sie Features während der Migration verwalten kö
 |Zugriff durch externe Einstellungen     |    X    |      |       |
 |Die Verwaltung von    |         |         |    X     |    
 |Audiokonferenzen     |    X     |    X     |         |
-|Anrufpläne     |         |    X     |         |
+|Aufrufen von Plänen     |         |    X     |         |
 |Telefonsystem    |         |     X    |         |
 |Telefon Nummer management     |         |   X      |         |
 |Lizenzierung für Cloud VoIP-Funktionen     |         |         |    X     |

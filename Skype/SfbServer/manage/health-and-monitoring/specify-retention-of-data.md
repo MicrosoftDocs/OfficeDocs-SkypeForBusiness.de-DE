@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: 'Zusammenfassung: Erfahren Sie, wie die Aufzeichnung von kommunikationsdatensätzen (KDS) für Skype für Business Server verwalten.'
 ms.openlocfilehash: 72fbb679a260462086930fc0457b5c748447cc29
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878745"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197688"
 ---
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Angeben der Beibehaltungsdauer für KDS-Daten in Skype für Business Server
  

@@ -14,11 +14,11 @@ ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Im Topologie-Generator, können Sie die Einstellungen für externe Ports für die interne und externe Webdienste verwendete ändern. Darüber hinaus und wenn die Domain Name System (DNS) zum Lastenausgleich bereitgestellt werden, können Topologie-Generator so konfigurieren Sie den vollqualifizierten Domänennamen (FQDN) des Pools, der in die physischen IP-Adressen aller Server in diesem Pool aufgelöst wird.
 ms.openlocfilehash: 75d73a81ec649c97149fd03125887116c947144c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889175"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201459"
 ---
 # <a name="web-services-settings-expander"></a>Einstellungen für Webdienste – Erweiterung
  

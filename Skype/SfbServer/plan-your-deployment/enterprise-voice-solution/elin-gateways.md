@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Entscheidungen zur Planung einer der Standortdatenbank Informationen oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mit ELIN-Gateways in Skype für Business Server Enterprise-VoIP.
 ms.openlocfilehash: 858493089c6c0e274a45616ea4b93a3fdf69e010
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206936"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Verwalten von Speicherorten für ELIN-Gateways in Skype für Business Server
 

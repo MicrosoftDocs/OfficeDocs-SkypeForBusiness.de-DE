@@ -19,14 +19,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informationen Sie zu Add-on-Lizenzen, Funktionen und Informationen zum Erwerben von Office 365 Enterprise E1 und E3 Pläne. '
-ms.openlocfilehash: 853cc90b8c0e6a0a5fd42a104ae9c972437995d7
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: fc3dfc987a36f458f0480fbec03d340f730d51e3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541424"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204515"
 ---
-# <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1 und E3
+# <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1- und E3
 
 Wenn Sie den [Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software) oder [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software) Plan bereits erworben haben, sind hier Add-on-Lizenzen erwerben, um weitere Features von Microsoft-Teams erhalten sollen Ihnen.
 
@@ -35,7 +35,7 @@ Wenn Sie den [Office 365 Enterprise E1](https://products.office.com/en-us/busine
 |Audiokonferenzen <br/> <br/> |Kaufen Sie das **Add-on Audiokonferenzen**. <br/>Kaufen Sie 1 Audiokonferenzen-Lizenz für jeden Benutzer, der das Planen oder eine Konferenz einwählen. Attendees do not need licenses.<br/> Wenn Sie die Lizenz kaufen, wird Microsoft Ihr Audiokonferenzanbieter. |
 |Gebührenfreie Nummern für DFÜ-Zugriff auf Ihre Besprechungen und die Möglichkeit anwählen aus einer Besprechung auf jemanden hinzufügen, indem eine Telefonnummer in der ganzen Welt<br/> | Kaufen Sie [Communications haben](../add-funds-and-manage-communications-credits.md).|
 |Telefonsystem <br/> |<ol><li>Kaufen Sie Office 365-Telefonsystem Add-Ons. </li><li>Kaufen Sie einen [Plan aufrufen](../calling-plans-for-office-365.md) für Office 365.</li></ul>Oder verwenden Sie den [Telefondienst Ihres bestehenden Anbieters](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|Voicemail für Telefonsystem<br/> |Kaufen Sie für E1 Pläne für Exchange Online – Plan 2 ein. <br/>Sie können auch zu einer im Lieferumfang von Exchange Online Plan 2 enthaltenen Office Suite wechseln, zum Beispiel zu Office 365 E3. |
+|Cloudvoicemail<br/> |Kaufen Sie für E1 Pläne für Exchange Online – Plan 2 ein. <br/>Sie können auch zu einer im Lieferumfang von Exchange Online Plan 2 enthaltenen Office Suite wechseln, zum Beispiel zu Office 365 E3. |
 |Anrufpläne<br/> |<ol><li>Kaufen Sie das Telefonsystem-Add-On.</li><li>Kaufen Sie einen [Aufruf von planen](../calling-plans-for-office-365.md): Sie können nur erwerben, nachdem Sie das **Telefonsystem** Add-on kaufen.</li></ol> <br/> |
    
   

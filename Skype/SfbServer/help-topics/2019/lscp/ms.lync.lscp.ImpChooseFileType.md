@@ -14,11 +14,11 @@ ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie das Dialogfeld auswählen von Dateityperweiterungen dateityperweiterungen aus, den Sie blockieren oder Zulassen von (zum zulassen) durch (auf Block) aktivieren oder deaktivieren möchten geben Sie die Kontrollkästchen neben den Erweiterungen unter Datei Extensions. Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und Anzeigen aller Dateitypen für die Kategorie. Wenn Sie alle dateityperweiterungen für eine Kategorie auswählen möchten, wählen Sie den Namen der Kategorie.
 ms.openlocfilehash: 17ded977e4b5d4dc217ca8d2743d1e5ac369c342
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215570"
 ---
 # <a name="select-file-type-extensions"></a>Auswählen von Dateityperweiterungen
  

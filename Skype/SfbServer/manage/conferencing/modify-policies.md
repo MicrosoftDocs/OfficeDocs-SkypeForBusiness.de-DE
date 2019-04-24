@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
 description: 'Zusammenfassung: Erfahren Sie, wie konferenzrichtlinien in Skype für Business Server ändern.'
 ms.openlocfilehash: 36b6cb92ddb1a6628186198906da87c5dec29532
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197793"
 ---
 # <a name="modify-conferencing-policies-in-skype-for-business-server"></a>Ändern von konferenzrichtlinien in Skype für Business Server
  

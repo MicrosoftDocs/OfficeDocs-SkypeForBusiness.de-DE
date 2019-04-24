@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Erstellen Sie oder ändern Sie einer Warteschleife für Reaktionsgruppen in Skype für Business Server Enterprise-VoIP.
 ms.openlocfilehash: d564a40f8e650042fe23ff1db6262c6d1c5b93a1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223212"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Erstellen oder Ändern einer Warteschleife in Skype für Unternehmen
  

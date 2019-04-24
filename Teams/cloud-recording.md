@@ -14,11 +14,11 @@ description: Praktische Anleitungen für die Bereitstellung von Cloud-VoIP-Funkt
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 93ab7201d96fe337cbdc1c0bbf89f9eab3006d91
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463092"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198433"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 

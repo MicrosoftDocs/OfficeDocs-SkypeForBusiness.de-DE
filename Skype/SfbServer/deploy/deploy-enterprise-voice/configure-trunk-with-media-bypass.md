@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Zusammenfassung: Konfigurieren eines Trunks mit medienumgehung für Skype für Business Server aktiviert. Dadurch können Sie die Anzahl der Vermittlungsserver minimieren, vorausgesetzt, Ihr SIP-Trunk-Anbieter unterstützt dies.'
 ms.openlocfilehash: e63ec28f863f93eed03eb4a1d2955c90434cc6ce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892688"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223606"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Konfigurieren eines Trunks mit medienumgehung in Skype für Business Server
 

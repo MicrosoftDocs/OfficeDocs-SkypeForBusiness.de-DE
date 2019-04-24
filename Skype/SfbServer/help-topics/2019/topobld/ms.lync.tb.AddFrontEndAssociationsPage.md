@@ -14,11 +14,11 @@ ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Zum Aktivieren der Unterstützung für bestimmte Funktionen, für die andere Server bereitgestellt werden müssen, können Sie die Serverrollen nun dem Front-End-Pool zuordnen. Sie können Serverrollen auch zu einem späteren Zeitpunkt dem Front-End-Pool zuordnen. Die folgenden Serverrollen können einem Front-End-Pool zugeordnet werden:'
 ms.openlocfilehash: 112c9c4d843e7b51ff52ccbb79eec0cd9df1bc40
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882376"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202072"
 ---
 # <a name="add-front-end-associations"></a>Hinzufügen von Front-End-Zuordnungen
 

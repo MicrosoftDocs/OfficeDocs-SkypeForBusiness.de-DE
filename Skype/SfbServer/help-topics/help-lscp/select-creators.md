@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: Erstellen und Verwalten von Chatrooms für beständigen Chat ist wesentlich einfacher mit die richtige Verwendung von Kategorien. Ein Persistent Chat Administrator kann das Definieren von AllowedMembers und Creators für jede Kategorie, und kann auch definieren, die Standardeinstellungen für die Chatroom und Verhaltensweisen, die auf alle in der Kategorie erstellten Chatrooms angewendet werden. Persistente Chat-Administratoren erstellen und Verwalten von Kategorien mithilfe von Skype für Business Server-Systemsteuerung oder Windows PowerShell-Cmdlets.
 ms.openlocfilehash: 85c9a2be4e2afcd28823bc656f18c733594b44b7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200597"
 ---
 # <a name="select-creators"></a>Auswählen von Erstellern
 

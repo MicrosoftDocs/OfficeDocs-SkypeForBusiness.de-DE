@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: SIP-trunkkonfigurationseinstellungen definieren die Beziehung und Funktionen zwischen einem Vermittlungsserver und das Gateway public switched Telephone Network, (PSTN), eine öffentliche IP-PBX (Branch Exchange) oder eine Session Border Controller (SBC) des Dienstanbieters.
 ms.openlocfilehash: 6ba97fa4650b8d62be625256ff4d3b9a3bb7cc68
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892165"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32195493"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>Anzeigen von Trunk-Konfigurationsinformationen in Skype für Business Server
 

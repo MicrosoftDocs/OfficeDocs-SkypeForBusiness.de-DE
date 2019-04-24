@@ -14,11 +14,11 @@ ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: 24f37f1ba3324a5b379fb2a12bd3dce1282b686c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215626"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>XMPP-Verbundpartner: Erstellen eines neuen oder Bearbeiten eines vorhandenen XMPP-Verbundpartners
 

@@ -14,11 +14,11 @@ ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 ROBOTS: NOINDEX, NOFOLLOW
 description: Der zentrale Verwaltungsserver kann aus einem definierten Front-End-Pool in einen anderen verschoben werden. Wählen Sie zum Ändern des Speicherorts des zentralen Verwaltungsservers den Front-End-Pool in der Dropdownliste unter Front-End-Server, auf dem der zentrale Verwaltungsserver installiert werden soll. Ein Front-End-Server kann ein Front-End-Pool der Enterprise Edition oder ein Front-End-Server der Standard Edition sein.
 ms.openlocfilehash: ab3178fb2ed2a25ad0909d9252a636082dfb1e47
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897084"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220579"
 ---
 # <a name="cms-settings-expander"></a>CMS-Einstellungen – Erweiterung
  

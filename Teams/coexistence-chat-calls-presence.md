@@ -15,11 +15,11 @@ appliesto:
 - Microsoft Teams
 description: Dieses Dokument beschreibt das Verhalten der Chat, Anrufrouting und Anwesenheit zwischen Benutzern, Teams und Skype für Unternehmen, die im Mandanten und Verbundpartner, basierend auf zugewiesenen TeamsUpgrade Modi. Sie umfasst routing Optimierungen, Anwesenheit Verhalten sowie die Änderung TeamsUpgrade Standardmodus aus *Legacy* *Inseln* und die bevorstehende Stilllegung der *Vorversion*.
 ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517216"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198784"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 

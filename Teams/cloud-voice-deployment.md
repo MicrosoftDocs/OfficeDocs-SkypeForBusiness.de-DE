@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 953c971c39bde9d112619fcaee145008c378f1a3
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: d4089e0e9ff9ce0ecbff63e55a43d2dc9f2ca7d1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568440"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194757"
 ---
 # <a name="cloud-voice-deployment"></a>Cloud Voice-Bereitstellung
 
@@ -48,7 +48,7 @@ Telefonsystem ist eine Office 365-Funktion, die die Möglichkeit zum Verwalten v
 
 Aufrufen von Plänen ist ein Add-On-Dienst für das Telefonsystem-Feature, über Teams und Skype für Business Online übermittelt. Aufrufen von Plänen erfordert, dass der betreffende Benutzer in Skype für Business Online Arbeit in Microsoft-Teams verwaltet werden. Aufrufen von Plänen bieten die Personen in Ihrem Unternehmen mit einer primären Rufnummer, und ermöglicht ihnen das tätigen und Entgegennehmen von Anrufen außerhalb Ihrer Organisation über das Telefonfestnetz.
 
-Lesen Sie weitere Informationen finden Sie [hier ist das Ergebnis in das Telefonsystem in Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) und [Was sind in Office 365-Pläne aufrufen?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
+Lesen Sie weitere Informationen finden Sie [Hier erhalten Sie in das Telefonsystem in Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) und [Telefonsystem und plant aufrufen](calling-plan-landing-page.md)
 
 
 ## <a name="phone-system-direct-routing-direct-routing"></a>Phone System direkte ("Direktes Routing Routing")

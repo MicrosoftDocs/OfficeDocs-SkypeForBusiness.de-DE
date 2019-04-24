@@ -20,11 +20,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Hier finden Sie die Schritte zum Zurücksetzen der Konferenzkennung eines Benutzers in Microsoft Teams sowie Links zu Tools, mit denen Sie Besprechungen aktualisieren und migrieren können. '
 ms.openlocfilehash: f5926d838d61d38eb5b8e9f840cd9d7a4694253f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542847"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206586"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Zurücksetzen einer Konferenzkennung für einen Benutzer in Microsoft Teams
 
@@ -75,4 +75,4 @@ Weitere Informationen zu Windows PowerShell finden Sie in der [PowerShell-Refere
     
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Die Audiokonferenz PIN zurücksetzen](reset-the-audio-conferencing-pin-in-teams.md)
+[Zurücksetzen der Audiokonferenz-PIN](reset-the-audio-conferencing-pin-in-teams.md)

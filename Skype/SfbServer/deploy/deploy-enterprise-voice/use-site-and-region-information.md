@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: Konfigurieren der medienumgehung nur für bestimmte Standorte und Regionen in Skype für Business Server Enterprise-VoIP verwendet werden.
 ms.openlocfilehash: 93cc6bea9a4f130bd4b2c0e455b979b477888eeb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892737"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222569"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Konfigurieren von globalen Einstellungen für die medienumgehung in Skype für Business Server der Standorte und Regionen verwenden
  

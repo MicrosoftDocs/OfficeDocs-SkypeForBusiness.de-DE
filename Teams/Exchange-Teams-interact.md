@@ -15,11 +15,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: bdb998587eefd0eb15477b26799d487e041df220
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31516799"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32180368"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams 
 =========================================
@@ -40,9 +40,9 @@ Die folgende Tabelle enthält Informationen für Benutzer, für die Exchange Onl
 | Benutzerpostfach ist gehostet in: | eDiscovery| Rechtliche&nbsp;halten | Speicherung| Teams und der DDE-Kanal-mgmt |Besprechungen erstellen und anzeigen| Benutzerprofilbild bearbeiten | Die Anrufliste... | Verwalten von Kontakten | Zugriff auf Outlook-Kontakte | Voicemail |Connectors hinzufügen und konfigurieren|Registerkarten hinzufügen und konfigurieren|Bots hinzufügen und konfigurieren| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Ja, <sup>2</sup>|Ja, <sup>2</sup>|Ja |Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja |Ja|
-|**Exchange Online Dedicated vNext**|Ja, <sup>2</sup>|Ja, <sup>2</sup>|Ja |Ja |Ja|Ja|Ja |Ja|Ja|Ja|Ja |Ja |Ja |
-|**Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)|Ja, <sup>2</sup>|Ja, <sup>2, 3</sup>|Ja <sup>4|Ja|Nein|Nein|Ja|Ja |Nein|Ja <sup>5|Ja |Ja |Ja|
-|**Exchange lokal** (Synchronisierung in Azure AD erforderlich)|Ja, <sup>2</sup>| Ja, <sup>2, 3</sup> |Ja <sup>4|Ja|Ja (Exchange 2016 CU3 oder höher)|Ja (Exchange 2016 CU3 oder höher)|Ja |Ja |Nein|Ja <sup>5|Ja |Ja |Ja |
+|**Exchange Online Dedicated vNext**|Ja, <sup>2</sup>|Ja, <sup>2</sup>|Ja |Ja |Ja|Ja|Ja |Ja|Ja|Ja|Ja |Ja |Ja|
+|**Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)|Ja, <sup>2</sup>|Ja, <sup>2, 3</sup>|Ja <sup>4|Ja|Nein|Nein|Ja|Ja|Nein|Ja <sup>5|Ja |Ja |Ja|
+|**Exchange lokal** (Synchronisierung in Azure AD erforderlich)|Ja, <sup>2</sup>| Ja, <sup>2, 3</sup> |Ja <sup>4|Ja|Ja (Exchange 2016 CU3 oder höher)|Ja (Exchange 2016 CU3 oder höher)|Ja |Ja|Nein|Ja <sup>5|Ja |Ja |Ja|
 
 <sup>1</sup> exchange 2016 CU3 und oben unterstützt  
 eDiscovery- <sup>2</sup> und rechtlichen Aufbewahrungspflicht für Konformität auf Channel Nachrichten wird für alle Hostingoptionen unterstützt.  

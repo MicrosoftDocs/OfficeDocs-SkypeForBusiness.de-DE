@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: a15b69e0-d3d1-4648-af25-1c0f25e5da8e
 description: Sie müssen eine Dateifreigabe angeben, die als Dateispeicher für Directors verwendet werden soll. Sie können als Dateispeicher eine vorhandene Dateifreigabe oder eine neue Dateifreigabe auswählen, indem Sie den vollqualifizierten Domänennamen (FQDN) des Dateiservers, auf dem sich die Dateifreigabe befindet, und einen Ordnernamen für die neue Dateifreigabe angeben.
 ms.openlocfilehash: be0b13eb91ac5379632ba4e2e2903827525fc832
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894810"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32247296"
 ---
 # <a name="add-director-file-store"></a>Hinzufügen des Director-Dateispeichers
 

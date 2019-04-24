@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Lesen Sie dieses Thema bietet Informationen zum Microsoft-Teams Chatrooms mit Skype für Business Server bereitstellen.
 ms.openlocfilehash: e5ba372a5990f7c63827f1f8b0426e67ae48b620
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012476"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207874"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Bereitstellen von Microsoft-Teams, Räume mit Skype für Business Server
   
@@ -126,4 +126,4 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
   
 [Konfigurieren einer Microsoft-Teams Räume-Konsole](console.md)
   
-[Verwalten von Microsoft-Teams, Räume](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Microsoft Teams Rooms verwalten](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

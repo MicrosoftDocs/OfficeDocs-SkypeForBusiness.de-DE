@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
 description: Um eine Bereitstellung der Vorversion mit Skype für Business Server 2015 zusammenführen, klicken Sie auf Weiter.
 ms.openlocfilehash: 76de2bdfe42e36c4ef4a3557ed29320dc3284606
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200158"
 ---
 # <a name="legacy-merge-start"></a>Legacyzusammenführung – Start
  

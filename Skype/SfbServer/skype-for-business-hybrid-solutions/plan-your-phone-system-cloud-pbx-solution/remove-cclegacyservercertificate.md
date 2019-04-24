@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
 description: Das Cmdlet „Remove-CcLegacyServerCertificate“ entfernt ältere Serverzertifikate aus dem zentralen Verwaltungsspeicher, vom Vermittlungsserver und vom Edgeserver, nachdem Sie das Cmdlet „Renew-CcCACertificate“ oder „Renew CcServerCertificate“ ausgeführt haben.
 ms.openlocfilehash: 5f148aa083b646565adf0158f34fb15314296170
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250891"
 ---
 # <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  
@@ -60,7 +60,7 @@ Keine. Das Cmdlet „Remove-CcLegacyServerCertificate“ akzeptiert keine Pipeli
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine 
+Keine
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>

@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 'Hier erfahren Sie, häufige Ursachen für Skype für Business Online Anmelde-Fehler und Arbeit über diese Problembehandlung. '
 ms.openlocfilehash: 369dc9347903335227641b1afebb1fd199d64541
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886995"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32195501"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Problembehandlung bei Skype für Business Online Anmeldefehlern für Administratoren
 
@@ -143,7 +143,7 @@ Gehen Sie folgendermaßen vor, um ein Drittanbieter-SSL-Zertifikat auf dem Serve
 
 Dieses Verfahren ist eine mögliche Lösung für die Fehlermeldung **Problem Erwerb ein persönliches Zertifikat für die Anmeldung erforderlich**.
 
-Um mögliche Zertifikat oder Anmeldeinformationen Probleme zu vermeiden, müssen Sie zuerst erneuern Sie das Zertifikat des Benutzers in der Windows-Zertifikatverwaltung. Gehen Sie hierzu folgendermaßen vor:
+Um mögliche Zertifikat oder Anmeldeinformationen Probleme zu vermeiden, müssen Sie zuerst erneuern Sie das Zertifikat des Benutzers in der Windows-Zertifikatverwaltung. Führen Sie hierzu folgende Schritte aus:
 
 1. Öffnen Sie Windows-Zertifikatverwaltung. Zu diesem Zweck klicken Sie auf **Start**, klicken Sie auf **Ausführen**, geben Sie **certmgr.msc ein**, und klicken Sie dann auf **OK**.
 
@@ -153,7 +153,7 @@ Um mögliche Zertifikat oder Anmeldeinformationen Probleme zu vermeiden, müssen
 
 4. Maustaste auf das Zertifikat, und klicken Sie dann auf **Löschen**.
 
-Wenn der Benutzer Windows 7 ausgeführt wird, entfernen Sie ihre gespeicherten Anmeldeinformationen im nächsten Schritt im Windows-Anmeldeinformations-Manager. Gehen Sie hierzu folgendermaßen vor:
+Wenn der Benutzer Windows 7 ausgeführt wird, entfernen Sie ihre gespeicherten Anmeldeinformationen im nächsten Schritt im Windows-Anmeldeinformations-Manager. Führen Sie hierzu folgende Schritte aus:
 
 1. Klicken Sie auf **Start**, klicken Sie auf **Systemsteuerung**, und klicken Sie dann auf **Anmeldeinformations-Manager**.
 
@@ -205,7 +205,7 @@ Wenn Sie immer noch keine des Benutzers-Anmeldung Probleme zu beheben sind, übe
 ## <a name="collect-more-information-and-seek-additional-help"></a>Weitere Informationen zu sammeln und seek zusätzliche Hilfe
 <a name="collect-more-information"> </a>
 
-Wenn Sie die oben genannten Anweisungen befolgt haben und Ihre Registrierungsprobleme weiterhin können nicht aufgelöst werden, müssen Sie zusätzliche Informationen sammeln und Kontaktieren des technischen Supports. Gehen Sie hierzu folgendermaßen vor:
+Wenn Sie die oben genannten Anweisungen befolgt haben und Ihre Registrierungsprobleme weiterhin können nicht aufgelöst werden, müssen Sie zusätzliche Informationen sammeln und Kontaktieren des technischen Supports. Führen Sie hierzu folgende Schritte aus:
 
 1. Die Protokolldateien und Protokolldetails Windows-Ereignis von dem Computer des Benutzers abrufen. Schrittweise Anweisungen finden Sie unter der Endbenutzer Hilfethema [Fehlerprotokolle in Lync aktivieren](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c).
 

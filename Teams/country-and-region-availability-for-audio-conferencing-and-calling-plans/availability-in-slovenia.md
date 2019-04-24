@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Slowenien verfügbar.
 ms.openlocfilehash: 9df77cb0f8274468f645f1215df59ef17b3a0258
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541157"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222011"
 ---
 # <a name="availability-in-slovenia"></a>Verfügbarkeit in Slowenien
 

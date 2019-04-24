@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: Fortschrittsbericht basieren auf Daten, die vom Client in der Datenbank nach Abschluss eines Anrufs oder einer Sitzung hochgeladen werden. Fortschrittsberichte geschrieben werden nur für anrufen und Sitzungen, die Skype für Business Server 2015 bestimmt um zu Diagnosezwecken hilfreich sein können.
 ms.openlocfilehash: 6d638411f39956664c977e87785a1269ee788a5f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212866"
 ---
 # <a name="progressreport-table"></a>ProgressReport-Tabelle
  

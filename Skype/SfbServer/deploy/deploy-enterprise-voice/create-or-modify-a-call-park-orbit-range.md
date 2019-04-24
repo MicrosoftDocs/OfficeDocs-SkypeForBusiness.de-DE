@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Erstellen Sie oder ändern Sie einer Parken Bereich orbittabelle in Skype für Business Server Enterprise-VoIP.
 ms.openlocfilehash: 23de2c42ff7b7e8bf3c020eaf3bb5050524b87d3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896120"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212530"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Erstellen Sie oder ändern Sie einen orbitbereich zum Parken von Anrufen in Skype für Unternehmen
 

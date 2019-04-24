@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: cebda194-7be3-42d6-b6f0-c86f8b0f200a
 description: Die MonitoredRegionLink-Tabelle ist eine Tabelle. Jeder Datensatz steht für eine Verbindung zwischen zwei Länder/Regionen.
 ms.openlocfilehash: 0df5cd8abe957ed952bdf656a67e1d423cc57f33
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884414"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212460"
 ---
 # <a name="monitoredregionlink-table"></a>MonitoredRegionLink-Tabelle
  

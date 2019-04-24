@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: add4b7ece81fd2c4184453b03c889a27982c830b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 086edb4f7c949154dae49cb6a371a1d9d11bc43a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460116"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204461"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Bereitstellen von Microsoft Teams für Surface Hub
 ======================================
@@ -78,7 +78,7 @@ Die Pakete befinden sich auf dieser [Downloadseite](https://1drv.ms/f/s!ArcnbnRE
 
 ### <a name="option-2-configure-via-mdm-such-as-intune"></a>Option 2: Konfigurieren über MDM z. B. Intune 
 
-Verwenden Sie die folgenden Schritte, um die Standardanwendungsrichtlinie für Anrufe und Besprechungen über Intune zu konfigurieren. Außerdem finden Sie weitere Informationen im Blogbeitrag [Bereitstellen der Microsoft Teams für Surface Hub-App mit Intune](https://blogs.technet.microsoft.com/y0av/2018/07/16/97/).
+Verwenden Sie die folgenden Schritte, um die Standardanwendungsrichtlinie für Anrufe und Besprechungen über Intune zu konfigurieren. Außerdem finden Sie weitere Informationen im Blogbeitrag [Bereitstellen der Microsoft Teams für Surface Hub-App mit Intune](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/).
 
 |Einstellung   |Wert    |Beschreibung    |
 |----------|---------|---------|

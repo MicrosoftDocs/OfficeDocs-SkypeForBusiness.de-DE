@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Die Ergebnisse einer Suchabfrage können Sie Benutzer für Skype für Business Server konfigurieren. Sie können anhand des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontonamens (Security Accounts Manager), der SIP-Adresse oder des Anschluss-URI (Uniform Resource Identifier) nach Benutzern suchen. Ferner können Sie Benutzer über die Lync Server-Systemsteuerung oder das Snap-In „Active Directory-Benutzer und -Computer“ suchen.
 ms.openlocfilehash: 5d94c468edeb8c982d901f1c396bfd49c8c88fb6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896484"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200828"
 ---
 # <a name="control-panel---updated-user-search"></a>Systemsteuerung – aktualisiert: Benutzersuche
 

@@ -14,11 +14,11 @@ ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie müssen einen vollqualifizierten Domänennamen (FQDN) für den Dienst Zugriffs-Edgeservers angeben. Wenn Sie nicht die Verwendung einer einzelnen FQDN ausgewählt haben &amp; IP-Adressenoption wählen Sie auf der Seite features, geben Sie auch einen vollqualifizierten Domänennamen für den Webkonferenz-edgedienst und A / V-edgedienst.
 ms.openlocfilehash: 07591bf9e98f74d9092e34e34b62b8cb2bdcf525
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873562"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202166"
 ---
 # <a name="add-edge-server-fqdn"></a>Hinzufügen des Edgeserver-FQDN
  

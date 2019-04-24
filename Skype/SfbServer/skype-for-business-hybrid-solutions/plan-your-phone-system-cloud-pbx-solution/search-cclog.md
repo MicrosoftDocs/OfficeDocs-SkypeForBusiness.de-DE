@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: Das Cmdlet „Search-CcLog“ durchsucht die Listen für ein- und ausgehende Anrufe im Protokollverzeichnis der Skype for Business Cloud Connector Edition-Appliance.
 ms.openlocfilehash: e11e82ba105ed58efa6892165a19c6a4c4de0429
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892765"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250893"
 ---
 # <a name="search-cclog"></a>Search-CcLog
  
@@ -67,7 +67,7 @@ Keine. Das Cmdlet „Search-CcLog“ akzeptiert keine Pipelineeingaben.
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine 
+Keine
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>

@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42ec1ce60a206fa0a67f40c08db4658c0c53e543
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
-ms.translationtype: HT
+ms.openlocfilehash: ae1f3149ca915e2fd5a9ddf59fdb0bfad2be2ca2
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30641192"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235563"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 ======================================
@@ -37,7 +37,7 @@ Bei Gastzugriff handelt es sich um eine der meistgewünschten Funktionen. So kö
 
 Gastzugriff ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb der Organisation zusammenzuarbeiten, indem ihnen Zugriff auf vorhandene Teams und Kanäle auf einem oder mehreren Ihrer Mandanten gewährt wird. Alle Benutzer, die über ein E-Mail-Konto für Geschäftsbenutzer oder Heimanwender (z. B. Outlook, Gmail usw.) verfügen, können als Gäste in Microsoft Teams teilnehmen und erhalten Vollzugriff auf Chats, Besprechungen und Dateien des Teams.
 
-Gastzugriff ist in allen Office 365 Business Premium-, Office 365 Enterprise- und Office 365 Education-Abonnements ohne zusätzliche Lizenzanforderungen enthalten. Sie können bis zu 5 Gäste pro lizenziertem Benutzer auf Ihrem Mandanten unterstützen. Weitere Informationen zu Lizenzierung finden Sie unter [Lizenzierungsanleitung zur Azure Active Directory B2B-Zusammenarbeit](https://docs.microsoft.com/de-DE/azure/active-directory/b2b/licensing-guidance). 
+Gastzugriff ist in allen Office 365 Business Premium-, Office 365 Enterprise- und Office 365 Education-Abonnements ohne zusätzliche Lizenzanforderungen enthalten. Sie können bis zu 5 Gäste pro lizenziertem Benutzer auf Ihrem Mandanten unterstützen. Weitere Informationen zu Lizenzierung finden Sie unter [Lizenzierungsanleitung zur Azure Active Directory B2B-Zusammenarbeit](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance). 
 
 Der Gastzugriff ist eine Einstellung auf Mandantenebene in Microsoft Teams, die standardmäßig deaktiviert ist. Gastzugriff unterliegt Azure AD- und Office 365-Dienstbegrenzungen.
 
@@ -60,7 +60,7 @@ Teams basiert auf Office 365-Gruppen und bietet neue Möglichkeiten, auf freige
 
 ## <a name="more-information"></a>Weitere Informationen
     
-[Supportressourcen für Microsoft Teams](support-resources.md)  
+[Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
 
   [Gastzugriff in Office 365-Gruppen](https://support.office.com/en-us/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   

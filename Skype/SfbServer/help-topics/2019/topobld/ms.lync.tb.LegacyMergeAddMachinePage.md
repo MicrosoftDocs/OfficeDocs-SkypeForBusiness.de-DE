@@ -14,11 +14,11 @@ ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Geben Sie zum Bestimmen der Computer, die den Edgeserverpool bilden sollen, den vollqualifizierten Domänennamen mindestens eines Computers an, der zum konsolidierten Legacy-Edgepool mit Lastenausgleich gehört.
 ms.openlocfilehash: 321dccd39bb4a50d873f3dba0831f296932050e3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201744"
 ---
 # <a name="legacy-merge-add-machine"></a>Legacyzusammenführung – Hinzufügen eines Computers
  

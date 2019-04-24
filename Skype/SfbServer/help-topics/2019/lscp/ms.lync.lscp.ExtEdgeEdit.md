@@ -14,11 +14,11 @@ ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: 5782b73d8a535ba1f8769fd9bae479f04fe003eb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215759"
 ---
 # <a name="access-edge-configuration-edit"></a>Konfiguration für Zugriffsedge: Bearbeiten
 

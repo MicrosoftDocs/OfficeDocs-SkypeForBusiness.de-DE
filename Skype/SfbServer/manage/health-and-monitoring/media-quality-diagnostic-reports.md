@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
 description: 'Zusammenfassung: Lernen Sie die Medienqualitäts-Diagnoseberichte in Skype für Business Server.'
 ms.openlocfilehash: a7861d60e9108dcf599c5cecee9a678248715e44
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197534"
 ---
 # <a name="media-quality-diagnostic-reports-in-skype-for-business-server"></a>Medienqualitäts-Diagnoseberichte in Skype für Business Server
  

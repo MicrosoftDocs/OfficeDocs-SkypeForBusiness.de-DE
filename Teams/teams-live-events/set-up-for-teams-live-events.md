@@ -17,11 +17,11 @@ f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 957db93e2eb8cba5b2b35388b00ed4d38b21d6ca
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747678"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204606"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichten von Live-Ereignissen in Microsoft Teams
 
@@ -54,7 +54,7 @@ Live Ereignisse, die den Richtlinien verwendet werden, um zu steuern, wer in Ihr
 
     ![Screenshot der live Ereignisse Richtlinieneinstellungen] (../media/teams-live-events-policies.png "Screenshot der live Ereignisse Richtlinieneinstellungen in der Verwaltungskonsole von Microsoft-Teams") 
 
-|Einstellung  |Description (Beschreibung)  |
+|Einstellung  |Beschreibung  |
 |---------|---------|
 |**Name**     |Dies ist der Name der Richtlinie, die auf der Seite live Ereignisse Richtlinien angezeigt wird. Es kann nicht länger als 64 Zeichen sein oder über keine Sonderzeichen.          |
 |**Beschreibung**    |Verwenden Sie diese Option, um eine benutzerfreundliche Beschreibung für die Richtlinie hinzufügen.         |

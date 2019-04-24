@@ -14,11 +14,11 @@ ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: 828a8bf4f7ac0f248148b951f5545d45c56478b8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893293"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215941"
 ---
 # <a name="xmpp-federated-partners"></a>XMPP-Verbundpartner
 

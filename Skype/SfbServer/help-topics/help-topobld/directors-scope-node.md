@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 description: 'Unter dem Knoten Director-Pools werden die Director-Pools in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
 ms.openlocfilehash: c3625bc35e57616783bdea7801c1b56e9715edae
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877496"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200236"
 ---
 # <a name="directors-scope-node"></a>Director – Bereichsknoten
  

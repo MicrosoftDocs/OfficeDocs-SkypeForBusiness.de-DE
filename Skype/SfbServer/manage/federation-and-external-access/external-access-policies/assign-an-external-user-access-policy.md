@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Wenn ein Benutzer für Skype für Business Server aktiviert wurde, können Sie die SIP-Verbund, Remotebenutzerzugriff und öffentlichen Instant messaging-Diensten in der Skype Business Server-Systemsteuerung durch Anwenden geeigneten Richtlinien auf bestimmte Benutzer konfigurieren.
 ms.openlocfilehash: f07a407fee6f32f4cd4207c93ca19341e409ea78
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881500"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197632"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Zuweisen einer Richtlinie für den externen Benutzerzugriff zu einer Skype für Geschäftsbenutzer aktiviert
 

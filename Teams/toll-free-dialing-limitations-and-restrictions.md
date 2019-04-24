@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region, die gebührenfreie Nummer.
-ms.openlocfilehash: 854b471cff9affeb6c051a1a7d8993aeb27f7f6d
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 3fe9985d6f87672927bd0f6dfe24783455948111
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649396"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204445"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Einschränkungen für das Wählen von gebührenfreien Telefonnummern
 
@@ -39,8 +39,9 @@ Wenn Sie bereit sind, wählen Sie ein Land oder Region:
 
 > [!div class="op_single_selector"]    
 > - [Argentinien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
-> - [Australia]toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
+> - [Australien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 > - [Belarus (Weißrussland)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
+> - [Belgien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 > - [Belize](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
 > - [Bosnien und Herzegowina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
 > - [Brasilien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md)

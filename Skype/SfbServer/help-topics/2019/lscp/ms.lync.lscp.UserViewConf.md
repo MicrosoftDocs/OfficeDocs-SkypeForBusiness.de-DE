@@ -14,11 +14,11 @@ ms.assetid: 112c77cf-3625-4a97-a1a4-be6f3234cd53
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: deb4ae47647c222fc0267154a7bff2e64b5f7475
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32195510"
 ---
 # <a name="users-view-or-configure-conferencing-policy"></a>Benutzer: Anzeigen oder Konfigurieren von Konferenzrichtlinien
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 description: Auf der Seite Alternative Zertifikatvorlage angeben können Sie eine Zertifikatvorlage bestimmen, die sich von der standardmäßig verwendeten Webserver-Zertifikatvorlage unterscheidet. Aktivieren Sie das Kontrollkästchen Alternative Zertifikatvorlage für ausgewählte Zertifizierungsstelle verwenden und geben Sie in das Textfeld Zertifikatvorlagenname den Namen der alternativen Zertifikatvorlage ein. Sie müssen den Namen der Vorlage entsprechend der Definition der Zertifizierungsstelle verwenden. Klicken Sie auf Zurück, um zur vorherigen Seite zurückzukehren. Klicken Sie auf Abbrechen, um den Zertifikatsanforderungsprozess zu beenden.
 ms.openlocfilehash: 18b5e54ef99a4c26e32aa1e6b826f69ca2db0555
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878238"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235092"
 ---
 # <a name="certificate-request-specify-termplate"></a>Zertifikatsanforderung (mit Angabe der Vorlage)
  

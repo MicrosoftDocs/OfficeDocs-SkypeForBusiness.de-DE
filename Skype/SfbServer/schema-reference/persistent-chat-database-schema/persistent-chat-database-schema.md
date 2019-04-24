@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: In diesem Artikel wird das Schema der Datenbank für beständigen Chat in Skype für Business Server.
 ms.openlocfilehash: 37b22077157def7ea25a5cf70b23a0272a58956e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874051"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212691"
 ---
 # <a name="persistent-chat-database-schema"></a>Datenbankschema für beständigen Chat
  

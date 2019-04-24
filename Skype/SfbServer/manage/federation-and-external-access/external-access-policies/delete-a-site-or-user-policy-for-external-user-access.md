@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Sie können eine beliebige Standort- oder Benutzerrichtlinie löschen, die in der Skype für Business Server-Systemsteuerung auf der Seite Richtlinie für den externen Zugriff aufgeführt ist.
 ms.openlocfilehash: 24d26e8668d04f1c11a3039b4b524d25e209e619
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889804"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197744"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>Löschen einer Standort- oder Benutzerrichtlinie für den externen Benutzerzugriff
 

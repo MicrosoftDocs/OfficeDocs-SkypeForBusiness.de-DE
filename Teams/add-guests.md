@@ -15,11 +15,11 @@ description: Hier lernen Sie die verfügbaren Tools kennen, mit denen Administra
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 27f1f344313111561c9f1c3a5e57dc1bd0ae20cb
-ms.sourcegitcommit: 7ca70e8a2108462afd505258b455169ead30f33f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31041902"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202872"
 ---
 <a name="add-a-guest-to-a-team"></a>Hinzufügen eines Gasts zu einem Team
 =====================
@@ -41,7 +41,7 @@ Gast-Benutzer aus, die Sie bereits über Azure Active Directory B2B, Office 365 
 
 In Azure Active Directory oder im Office 365 Security &amp; Compliance Center können Sie das Hinzufügen von Gastbenutzern nachverfolgen. Das Hinzufügen eines Gasts in /+/Microsoft_Teams/+/ wird als Azure AD-Gruppenverwaltungsaktivität „Mitglied zur Gruppe hinzugefügt“ überwacht und protokolliert. Nähere Einzelheiten finden Sie unter [Überwachung eines B2B-Zusammenarbeitsbenutzers und Berichterstellung](https://go.microsoft.com/fwlink/p/?linkid=858884) und [Durchsuchen des Überwachungsprotokolls im Office 365 Security &amp; Compliance Center](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
-## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff im Vergleich zum externen Zugriff (Verbund)
+## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff und externer Zugriff (Partnerverbund) im Vergleich
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 

@@ -14,11 +14,11 @@ ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wählen Sie alle Funktionen, die Sie für den Front-End-Pool aktivieren möchten. Zumindest müssen Sie bereitstellen, Sofortnachrichten (IM), die ist standardmäßig aktiviert und kann nicht deaktiviert werden. Außerdem haben die Möglichkeit, über die Bereitstellung von anderen Features wie Enterprise-VoIP-Konferenzen und anrufsteuerung (CAC). Einige Features sind abhängig von Ihrer Topologie.
 ms.openlocfilehash: 1657c85a4ee7361f7f1d2853ef14f60553eabd70
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879511"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202082"
 ---
 # <a name="add-front-end-features"></a>Hinzufügen von Front-End-Funktionen
 

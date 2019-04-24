@@ -14,11 +14,11 @@ ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Führen Sie folgende Schritte aus, um die Eigenschaften für einen Server in einem Pool von Edge-Servern zu bearbeiten:'
 ms.openlocfilehash: 5755e03c0d760ef61b8cd4322131316c1d80a4c3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201892"
 ---
 # <a name="edge-machine-settings-expander"></a>Edgecomputereinstellungen – Erweiterung
  

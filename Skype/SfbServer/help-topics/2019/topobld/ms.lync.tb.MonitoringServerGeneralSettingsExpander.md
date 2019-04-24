@@ -14,11 +14,11 @@ ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Im Topologie-Generator können Sie die Eigenschaften für einen einzelnen Monitoring Server bearbeiten, indem Sie in der Konsolenstruktur mit der rechten Maustaste auf den Monitoring Server klicken und dann auf der Symbolleiste auf Aktion klicken oder indem Sie im Bereich „Aktionen“ auf eine Aufgabe und anschließend auf Eigenschaften bearbeiten klicken und dann die folgenden Optionen ändern:'
 ms.openlocfilehash: 4dfdc81b92ca1c0ebf1b8fd0cf3e2541f702697c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879399"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235368"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Allgemeine Einstellungen des Monitoring Servers – Erweiterung
  

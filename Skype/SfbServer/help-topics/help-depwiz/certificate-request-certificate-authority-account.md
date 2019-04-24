@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 description: Um eine Anfrage zu senden, erfordern das Zertifizierungsstelle (CA) Anmeldeinformationen als derjenigen, die für den Benutzer, die Sie derzeit als angemeldet sind. Um eine Anforderung als anderer Benutzer zu ermöglichen, wählen Sie die Kontrollkästchen geben Sie alternativen Anmeldeinformationen für die Zertifizierungsstelle, und geben Sie den Benutzernamen oder Domäne\Benutzername für einen Benutzer, der das Zertifikat anfordern kann. Geben Sie in das Textfeld Kennwort das Kennwort für den Benutzer, den Sie angegeben haben. Den Benutzernamen und das Kennwort werden dann als Teil der zertifikatanforderung ab, jedoch nicht in die tatsächliche zertifikatanforderung an einer Onlinezertifizierungsstelle gesendet.
 ms.openlocfilehash: 4580b402198da6d11355675d862387e6fdeb80a4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875742"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201436"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>Zertifikatanforderung (Zertifizierungsstellenkonto)
  

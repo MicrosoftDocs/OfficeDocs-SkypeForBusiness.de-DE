@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 363da62c378a60cb85a9544339dbf7ccd699b7c0
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: e62dd8a19e2207f6b40864cab19a3fda48d184fe
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517079"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204656"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -39,9 +39,9 @@ Die verfügbare Funktionalität in Teams hängt die Benutzermodus Koexistenz von
 
 |Eine effektive Benutzermodus|Erleben Sie die Teams-Client|
 |---|---|
-|Skype für Business-Modus|Anruf- und Chat<sup>1</sup> sind deaktiviert.|
+|Skype für Business-Modus|Anruf- und Chat sind deaktiviert.|
 |SfBWithTeamsCollabAndMeetings|Besprechung planen, ist verfügbar|
-|SfBWithTeamsCollab oder SfBOnly<sup>2</sup>|Besprechung planen ist nicht verfügbar|
+|SfBWithTeamsCollab oder SfBOnly<sup>1</sup>|Besprechung planen ist nicht verfügbar|
 |||
 
 Die folgenden Screenshots sehen Sie den Unterschied zwischen TeamsOnly oder Inseln-Modus und alle anderen Modi. Beachten Sie, dass die Symbole Chat und Aufrufen von TeamsOnly oder Inseln-Modus (links Screenshot), aber nicht mit den anderen Modi (rechts Screenshot) zur Verfügung stehen:
@@ -50,10 +50,8 @@ Die folgenden Screenshots sehen Sie den Unterschied zwischen TeamsOnly oder Inse
 
 
  
-**Hinweise:**
-<sup>1</sup> Meeting Chat weiterhin verfügbar ist.
-
-<sup>2</sup> für den Moment SfBwithTeamsCollab und SfBOnly Verhalten sich, aber die Absicht für SfBOnly Modus auch deaktivieren, Kanäle und Dateien Funktonalität Teams; Es ist derzeit keine Einstellung, die mit dieser Funktionalität in Teams deaktiviert werden kann.
+**Hinweis:**
+<sup>1</sup> für den Moment SfBwithTeamsCollab und SfBOnly Verhalten identisch, aber die Absicht für SfBOnly Modus auch deaktivieren, Kanäle und Dateien Funktonalität Teams; Es ist derzeit keine Einstellung, die mit dieser Funktionalität in Teams deaktiviert werden kann.
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>Auswirkung von Modus auf anderen Einstellungen für die Informationsverwaltungsrichtlinie
@@ -75,7 +73,7 @@ Administratoren müssen *nicht* mit diesen Richtlinien explizit festlegen, wenn 
 |SfBWithTeamsCollab oder SfBOnly|Deaktiviert|Deaktiviert|Deaktiviert|Deaktiviert|
 ||||||
 
-In naher Zukunft der `Grant-CsTeamsUpgradePolicy` Cmdlet überprüfen Sie die Konfiguration der entsprechenden Einstellungen in TeamsMessagingPolicy, TeamsCallingPolicy und TeamsMeetingPolicy zu bestimmen, ob diese Einstellungen durch TeamsUpgradePolicy ersetzt werden soll, und wenn dies der Fall ist, wird ein Meldung wird in PowerShell bereitgestellt.  Wie bereits erwähnt, ist nicht mehr erforderlich, diese anderen Richtlinieneinstellungen festzulegen. Es folgt ein Beispiel für welche die PowerShell-Warnung aussieht:
+Beim Verwenden von PowerShell, die `Grant-CsTeamsUpgradePolicy` Cmdlet überprüft die Konfiguration der entsprechenden Einstellungen in TeamsMessagingPolicy, TeamsCallingPolicy und TeamsMeetingPolicy, um festzustellen, ob diese Einstellungen durch TeamsUpgradePolicy ersetzt werden würde und ein Meldung wird in PowerShell bereitgestellt.  Wie bereits erwähnt, ist nicht mehr erforderlich, diese anderen Richtlinieneinstellungen festzulegen. Es folgt ein Beispiel für welche die PowerShell-Warnung aussieht:
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 

@@ -1,5 +1,5 @@
 ---
-title: Audio Conferencing Abonnement "Anwahl" / "Anruf an mich unter" profitieren
+title: Vorteil „Ausgehende Anrufe/Rückruf unter“ von Audiokonferenzen-Abonnement
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Licensing
 description: 'Kunden wurden eine kostenlose Dial-Out-Funktion bereitgestellt, die auf 30 November 2019 beendet wird.  Beginning 1 Dezember 2019, enthält jedes Abonnement Audiokonferenzen 60 Minuten pro Benutzer pro Monat auf die Zone A Länder wie in diesem Dokument beschrieben. '
 ms.openlocfilehash: 890441987eb0f08d67afe8a7f231c9a534c59a7f
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31809428"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198616"
 ---
-# <a name="audio-conferencing-subscription-dial-outcall-me-at-benefit"></a>Audio Conferencing Abonnement "Anwahl" / "Anruf an mich unter" profitieren
+# <a name="audio-conferencing-subscription-dial-outcall-me-at-benefit"></a>Vorteil „Ausgehende Anrufe/Rückruf unter“ von Audiokonferenzen-Abonnement
 
 ## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft-Teams und Skype für Business FESTNETZ-Audiokonferenzen
 

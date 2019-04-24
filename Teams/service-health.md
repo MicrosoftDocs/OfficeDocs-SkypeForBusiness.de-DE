@@ -15,11 +15,11 @@ description: Sie sollten überprüfen, ob der Teams-Dienst und andere Office 36
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3e4365d253148377fc61cd9bdb6300f7c76df298
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879948"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202558"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Überprüfen der Dienstintegrität für Microsoft Teams
 ===========================================

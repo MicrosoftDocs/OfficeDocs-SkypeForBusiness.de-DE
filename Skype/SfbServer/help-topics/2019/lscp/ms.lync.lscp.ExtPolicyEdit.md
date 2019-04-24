@@ -14,11 +14,11 @@ ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: 8b91054bd0fd976ff3cde8448ac061cc2b33ba15
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881737"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215668"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>Richtlinie für den externen Zugriff: Erstellen einer neuen oder Bearbeiten einer vorhandenen Richtlinie für den externen Zugriff
 

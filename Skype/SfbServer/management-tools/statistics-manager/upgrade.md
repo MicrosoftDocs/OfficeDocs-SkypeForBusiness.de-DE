@@ -12,17 +12,17 @@ ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Statistiken Manager für Skype für Business Server zu aktualisieren.'
 ms.openlocfilehash: 8ff7eeb9c0abbd0482248f9b69db4013edda6495
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198454"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Aktualisieren von Statistics Manager für Skype for Business Server
  
 **Zusammenfassung:** Gelesen Sie in diesem Thema erfahren, wie ein Upgrade Statistiken Manager für Skype für Business Server.
   
-In diesem Thema wird beschrieben, wie zum Aktualisieren einer vorhandenen Installation von Statistiken Manager für Skype für Business Server – ein leistungsfähiges Tool, das Sie zum Anzeigen von Skype für Business Server Integrität und Leistung von Daten in Echtzeit ermöglicht. Sie können Leistungsdaten auf Hunderten von Servern kurzen Abständen Abfragen und sofort Anzeigen der Ergebnisse auf der Website Statistiken-Managers. 
+In diesem Thema wird beschrieben, wie zum Aktualisieren einer vorhandenen Installation von Statistiken Manager für Skype für Business Server – ein leistungsfähiges Tool, das Sie zum Anzeigen von Skype für Business Server Integrität und Leistung von Daten in Echtzeit ermöglicht. Sie können Leistungsdaten von Hunderten von Servern innerhalb von Sekunden abfragen und die Ergebnisse unmittelbar auf der Statistics Manager-Website anzeigen. 
   
 Weitere Informationen zu Statistiken Manager und die neuen Features in Version 2.0 finden Sie unter [für Statistiken Manager für Skype für Business Server planen](plan.md) und [Bereitstellen von Statistiken Manager für Skype für Business Server](deploy.md).
   

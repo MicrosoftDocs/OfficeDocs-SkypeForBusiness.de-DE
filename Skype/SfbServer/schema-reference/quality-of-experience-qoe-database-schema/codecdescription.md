@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 3598acb8-7ea6-4748-8417-149c971c32a2
 description: CodecDescription-Tabelle ordnet eindeutige Codec-IDs dem entsprechenden Codec zu. Codecs dienen zum Codieren digitale Signale für die Übertragung und Übertragung, und klicken Sie dann zum Decodieren Signale für die Wiedergabe. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
 ms.openlocfilehash: efda27afe9312c25add8be0f74364384aed53b3e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896498"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212270"
 ---
 # <a name="codecdescription-table"></a>CodecDescription-Tabelle
  

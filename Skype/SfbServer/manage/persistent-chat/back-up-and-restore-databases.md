@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: 'Zusammenfassung: Informationen Sie zum Sichern und Wiederherstellen von Datenbanken in Skype Persistent Chat Server for Business Server 2015.'
 ms.openlocfilehash: a07321c7e9167e830a7af472e9022b669a45c3e7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886423"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222087"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>Sichern und Wiederherstellen von Datenbanken für beständigen Chat in Skype for Business Server 2015
  

@@ -13,11 +13,11 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: In diesem Artikel werden die Anforderungen für die Unterstützung von Microsoft-Teams Chatrooms zusammengefasst.
 ms.openlocfilehash: aff26f2f69b134569b8792df79c2afa4e4a18318
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012994"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214505"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft-Teams Chatrooms Anforderungen
 
@@ -106,7 +106,7 @@ Microsoft-Teams Chatrooms können anderen Raum Größen über Zubehör je nach A
 - Bis zu zwei 1080p zeigt mit HDMI Verbindungen. HDMI-Kabel entsprechender Länge.
 
     > [!NOTE]
-    > Ein Consumer TV als Front Raum Anzeige Anforderungen für den Support/HDMI das Consumer Electronics Steuerelement (CEC)-Feature aktivieren, damit er automatisch an eine aktive Bildquelle aus dem Standbymodus wechseln kann. Dieses Feature wird auf alle TV-Geräte nicht unterstützt. 
+    > Ein Consumer-TV, der als eine Anzeige vorne im Raum verwendet wird, muss das Feature „Consumer Electronics Control (CEC)“ von HDMI unterstützen/aktivieren, sodass ein automatischer Wechsel zu einer aktiven Videoquelle aus dem Standbymodus möglich ist. Dieses Feature wird nicht auf allen TVs unterstützt. 
 
 > [!NOTE]
 > Microsoft-Teams Chatrooms wird Tastatur nicht verwendet werden. Der Administrator sollte verwenden Sie bei Bedarf die Bildschirmtastatur. USB-Tastatur oder Maus ist erforderlich, wenn das Gerät Microsoft Teams Chatrooms imaging. 
@@ -151,6 +151,6 @@ Darüber hinaus möchten Sie höchstwahrscheinlich eine Kopie der [SkypeRoomProv
 
 [Konfigurieren einer Microsoft-Teams Räume-Konsole](../../deploy/deploy-clients/console.md)
 
-[Verwalten von Microsoft-Teams, Räume](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Microsoft Teams Rooms verwalten](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Lizenzierung des Skype for Business-Add-Ons](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

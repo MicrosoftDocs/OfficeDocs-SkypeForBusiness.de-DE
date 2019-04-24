@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: 'Zusammenfassung: Planen Sie für Ihre Skype für Business Server Edge-Umgebung. Mit diesem Thema werden Sie in die Edge-Konzepte eingeführt und es hilft Ihnen bei der Organisation von unseren ausführlicheren Themenbereichen.'
 ms.openlocfilehash: e2154abd7e263b92011ca198ddaa1b90f8bd38c7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881653"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207139"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Planen von Edge-Server-Bereitstellungen in Skype für Business Server
  

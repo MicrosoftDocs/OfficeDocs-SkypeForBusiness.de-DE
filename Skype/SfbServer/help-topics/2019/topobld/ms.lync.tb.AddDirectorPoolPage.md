@@ -14,11 +14,11 @@ ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um den FQDN des Director-Pools zu definieren, wählen Sie einen Pool mit mehreren Computern, der aus zwei oder mehr Directors in einem Pool mit Lastenausgleich bestehen wird oder einen Pool mit einem Computer aus. Sie müssen auch den vollqualifizierten Domänennamen (FQDN) eingeben, der zum Verbinden mit den Director-Pool oder den einzelnen Director-FQDN verwendet werden. Für einen Pool von Computern Director würde dies den Eintrag Domain Name System (DNS) für die virtuelle IP-Adresse des ein Hardwaregerät zum Lastenausgleich oder den freigegebenen DNS-Eintrag für DNS-Lastenausgleich sein.
 ms.openlocfilehash: f659b45fd758d07b9cf96b59b57654bb8cf2fd28
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202208"
 ---
 # <a name="add-director-pool"></a>Hinzufügen des Director-Pools
  

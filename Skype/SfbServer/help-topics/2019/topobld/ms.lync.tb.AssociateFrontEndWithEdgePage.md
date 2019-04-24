@@ -14,11 +14,11 @@ ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 ROBOTS: NOINDEX, NOFOLLOW
 description: Jedem Front-End-Pool kann nur ein Edgeserver bzw. Edgepool zugeordnet werden. Wenn Sie für einen Standort den Zugriff externer Benutzer aktivieren, können Sie Unterstützung für Remotebenutzer bereitstellen. Sie können auch Unterstützung für Partnerbenutzer, z. B. für Benutzer öffentlicher Instant Messaging-Dienste wie Windows Live sowie für anonyme Benutzer aktivieren.
 ms.openlocfilehash: c1af7071f8db9d924f33326f5d88a17311897423
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876676"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220705"
 ---
 # <a name="associate-front-end-with-edge"></a>Zuordnen des Front-Ends zur Edgekomponente
 

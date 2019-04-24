@@ -1,5 +1,5 @@
 ---
-title: GOV, EDU und gemeinnützige Organisationen
+title: Behörden, Bildungseinrichtungen und gemeinnützige Organisationen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,13 @@ ms.custom:
 - LIL_Placement
 description: 'Informationen über Add-On-Lizenzen und Features für Pläne für GOV, EDU und gemeinnützige Organisationen. '
 ms.openlocfilehash: e1c19e7db6f4167fa0992101c7070dc4661665b0
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226051"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU und gemeinnützige Organisationen
+# <a name="gov-edu-and-non-profit-organizations"></a>Behörden, Bildungseinrichtungen und gemeinnützige Organisationen
 
 Most Skype for Business features are available to .gov, .edu, and nonprofit organizations. See the following table for details.
 

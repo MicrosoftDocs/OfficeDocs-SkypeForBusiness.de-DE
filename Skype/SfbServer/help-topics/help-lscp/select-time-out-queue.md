@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 description: Verwenden Sie das Auswählen einer im Dialogfeld timeoutwarteschleife auswählen eine Warteschleife aus, werden Anrufe weitergeleitet, bei Erreichen des Timeouts.
 ms.openlocfilehash: e8ed73e7d6988fcff48946785c0cfd2317f337c2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886536"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200513"
 ---
 # <a name="select-time-out-queue"></a>Auswählen einer Timeoutwarteschleife
  

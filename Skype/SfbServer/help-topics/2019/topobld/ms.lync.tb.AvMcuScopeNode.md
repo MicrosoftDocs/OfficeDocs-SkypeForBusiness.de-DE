@@ -14,11 +14,11 @@ ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) des Pools und diesem A/V-Konferenzpool zugeordnete Front-End-Pools. Folgende Möglichkeiten stehen zur Verfügung:'
 ms.openlocfilehash: 6ae9471e7b6321e92bd141b90e49941f9f2d6cc1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201850"
 ---
 # <a name="av-mcu-scope-node"></a>AV MCU – Bereichsknoten
  

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: 'Zusammenfassung: Erfahren Sie, wie Aufzeichnung von Kommunikationsdatensätzen (KDS) in Skype für Business Server verwenden.'
 ms.openlocfilehash: edf3f719ed3d859ff6d7a6c4fcebbf22356277d5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197471"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>Ansicht KDS-Konfigurationsinformationen in Skype für Business Server
  

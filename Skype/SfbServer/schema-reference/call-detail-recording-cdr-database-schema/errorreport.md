@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: ErrorReport-Tabelle speichert Informationen zu aufgetretenen Fehlern. Jeder Datensatz ist ein Fehler auftreten. Die Fehler werden erfasst entweder von der CDR-Agent auf dem Front-End-Server oder vom Client gesendet.
 ms.openlocfilehash: 99dcdc7aa78b20f555f94614ba94c80103b56211
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899271"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213130"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>ErrorReport-Tabelle in Skype für Business Server 2015
  

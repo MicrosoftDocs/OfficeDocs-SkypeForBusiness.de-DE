@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 description: Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
 ms.openlocfilehash: bbafd82e985cb3aabec99e73d2d13f7068a7c59d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374349"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227854"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Wie erstelle ich ein Supportticket für die Adressvalidierung?
 

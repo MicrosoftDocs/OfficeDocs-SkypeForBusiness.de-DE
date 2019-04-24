@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: Das Cmdlet „Register-CcAppliance“ registriert Appliance-Informationen für einen PSTN-Standort in einer Onlinemandantenkonfiguration. Sie müssen eine Appliance registrieren, bevor diese bereitgestellt und mit dem Skype for Business Cloud Connector Edition-Verwaltungsdienst verwaltet werden kann.
 ms.openlocfilehash: e753f92c84b880da6aac060b65726bda5f9ba1ae
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892273"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250885"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
@@ -99,7 +99,7 @@ Keine. Das Cmdlet „Register-CcAppliance“ akzeptiert keine Pipelineeingaben.
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine 
+Keine
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>

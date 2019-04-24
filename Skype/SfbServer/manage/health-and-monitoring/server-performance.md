@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 description: 'Zusammenfassung: Informationen Sie zu vom Server Performance Report in Skype für Business Server.'
 ms.openlocfilehash: d66bdef25435c245e005eff6618e0294fb93da4e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878217"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198084"
 ---
 # <a name="server-performance-report-in-skype-for-business-server"></a>Server Performance Report in Skype für Business Server
  

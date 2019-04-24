@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 description: 'Erfahren Sie, was Telefonsystem für Sie möglich ist. '
 ms.openlocfilehash: a4ac90d24863ecaf56ca471d412474bf81653a50
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914620"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211726"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Was ist das Telefonsystem in Office 365?
 

@@ -19,11 +19,11 @@ ms.custom:
 hideEdit: true
 description: Wie bei einem IP-Relay-Konto für Kanada sigh.
 ms.openlocfilehash: ce63d4fb99d44584d2628c9b5e891e4931814b12
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862827"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194228"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>IP-Relay in Kanada - Registrieren
 
@@ -31,12 +31,12 @@ Um ein IP-Relay-Konto für Kanada einrichten möchten, führen Sie die Informati
 
 |||
 |:-----|:-----|
-|Name der ersten und letzten:||
+|Erste & Nachname:||
 |Domänenname für Office 365-Mandanten: <br/>(Beispiel: Contoso.com)||
 |Rufnummer für Office 365-Benutzer: <br/>Beispiel: + 1 XXX XXX XXXX) ||
 |Kennwort (8 und 16 Zeichen): ||
 |Wahrscheinlich physische Adresse <br/>Zeitpunkt der Notfall:||
-|Hausnummer & Name:||
+|Zahl & Straßenname:||
 |Des Apartmentthreading / Suite:||
 |Ort:||
 |Bundesland / Status:||

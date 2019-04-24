@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e72b4b4fdfdbe6d31ca3543d23b67cb515568e4f
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194539"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementieren von Quality of Service (QoS) in Microsoft-Teams
 
@@ -47,7 +47,7 @@ In den meisten Fällen werden im Netzwerk herstellen einer Verbindung mit Ihrem 
 
 ## <a name="verify-your-network-is-ready"></a>Stellen Sie sicher, dass Ihr Netzwerk bereit ist.
 
-Wenn Sie eine QoS-Implementierung in Betracht ziehen, sollten Sie bereits Standarddateispeicherort Bandbreite und andere [netzwerkanforderungen](prepare-network.md)ermittelt haben. Bandbreitenberechnungen für Microsoft Teams sind komplex. Zu Ihrer Unterstützung wurde ein Rechner erstellt. Um den Rechner zuzugreifen, wechseln Sie zur [Netzwerk Planner](https://aka.ms/bwcalc/) in MyAdvisor.
+Wenn Sie eine QoS-Implementierung in Betracht ziehen, sollten Sie bereits Standarddateispeicherort Bandbreite und andere [netzwerkanforderungen](prepare-network.md)ermittelt haben. Bandbreite Berechnungen für Microsoft-Teams sind komplex und dabei zu unterstützen, um ein Rechner erstellt wurde. Um den Rechner zuzugreifen, wechseln Sie zur [Netzwerk Planner](https://aka.ms/bwcalc/) in MyAdvisor.
   
   Überlastung über ein Netzwerk wird Medienqualität erheblich beeinträchtigen. Fehlender Bandbreite führt zu Leistungseinbußen und benutzerfreundlich. Zunehmender Teams Annahme und Nutzung Verwendung von Berichterstattung, [rufen Sie Analyse, und rufen Sie Qualitätsdashboard](difference-between-call-analytics-and-call-quality-dashboard.md) Probleme zu identifizieren, und stellen Sie mithilfe von QoS und selektive Bandbreite Ergänzungen Adjustments.
 

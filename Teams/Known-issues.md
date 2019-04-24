@@ -16,11 +16,11 @@ description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Clie
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e3dc7e1797c1e5c1551abad40cf6598f11e01ada
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026103"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225952"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
