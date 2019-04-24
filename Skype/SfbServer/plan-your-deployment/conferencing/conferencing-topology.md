@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Zusammenfassung: Lesen Sie dieses Thema aus, um Informationen zum Planen Ihrer Topologie Conferencing in Skype für Business Server.'
 ms.openlocfilehash: e6269986bd5c011f43b5f6374053441e3aca54ec
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893605"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214474"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planen von Skype für Business Server Ihrer konferenztopologie
  

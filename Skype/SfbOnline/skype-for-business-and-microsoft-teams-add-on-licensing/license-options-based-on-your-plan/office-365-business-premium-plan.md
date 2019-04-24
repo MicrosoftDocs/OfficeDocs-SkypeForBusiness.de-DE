@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 Business Premium '
+title: 'Office 365 Business Premium '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,13 @@ ms.custom:
 - LIL_Placement
 description: 'Informationen Sie zu Add-on-Lizenzen, Funktionen und Informationen zum Erwerben von Office 365 Business Premium-Plänen. '
 ms.openlocfilehash: 272039c0a7cf0f568efd523f94c42348cba743fd
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238934"
 ---
-# <a name="office-365-business-premium"></a>Office 365 Business Premium
+# <a name="office-365-business-premium"></a>Office 365 Business Premium
 
 Wenn Sie [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium) verwenden, können Sie über Skype for Business andere Personen in Ihrem Unternehmen anrufen, die in Ihr Abonnement eingeschlossen sind. Wenn Ihr Unternehmen beispielsweise zehn Mitarbeiter hat, können Sie einander über Skype for Business anrufen und sich Chatnachrichten schicken.
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ca91a0b4-98c0-49f6-af9d-7d0f8ac75f1a
 description: Die DeviceDriver-Tabelle ist eine Tabelle. Jeder Datensatz steht für ein Treiber vom entweder ein Aufnahmegerät verwendet oder darstellungsgerät.
 ms.openlocfilehash: e985c594f0c1ad21bc95d266f908ed77a46ff76a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212256"
 ---
 # <a name="devicedriver-table"></a>DeviceDriver-Tabelle
  

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 8207af80-41fa-4bec-9523-b0332e8231d9
 description: Die FrontEnd-Tabelle ist nur zur internen Verwendung. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
 ms.openlocfilehash: 8dc2287574b132fe2ca3f3ec041dbf169cf4e3b6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880413"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213060"
 ---
 # <a name="frontend-table-in-skype-for-business-server-2015"></a>FrontEnd-Tabelle in Skype für Business Server 2015
  

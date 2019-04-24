@@ -1,5 +1,6 @@
 ---
-title: Aktivieren von Benutzern für Enterprise-VoIP online und Telefonsystem in Office 365-Voicemail
+title: Aktivieren von Benutzern für Enterprise-VoIP und für Telefonsystem in Office 365 Voicemail
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,14 +17,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Erfahren Sie, wie in Office 365-VoIP-Dienste für Ihre Skype für Unternehmensbenutzer Telefonsystem aktivieren.
-ms.openlocfilehash: 9f11e52a3992e484643cfea06d0720d12e3f0e77
-ms.sourcegitcommit: 7ca7f5cd38742b6a1967bd792113348dfe689850
+ms.openlocfilehash: f7ba1c4e259d68ab423ec2bde8aee3604035d125
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30657468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234254"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Aktivieren von Benutzern für Enterprise-VoIP online und Telefonsystem in Office 365-Voicemail
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Aktivieren von Benutzern für Enterprise-VoIP und für Telefonsystem in Office 365 Voicemail
  
 Erfahren Sie, wie in Office 365-VoIP-Dienste für Ihre Skype für Unternehmensbenutzer Telefonsystem aktivieren.
   
