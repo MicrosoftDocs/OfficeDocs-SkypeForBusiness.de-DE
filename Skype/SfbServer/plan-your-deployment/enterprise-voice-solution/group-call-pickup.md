@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: Planung für Gruppe aufrufen Pickup-in Skype für Business Server Enterprise-VoIP, können die Benutzer Annahme von Anrufen, die ursprünglich für andere Benutzer vorgesehen.
 ms.openlocfilehash: ce00ebcacfe8703bcec6418ea620b3d4fe525a68
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892871"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206859"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Planen der Gruppe Anruf Pickup-in Skype for Business
  

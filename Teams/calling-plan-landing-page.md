@@ -16,13 +16,13 @@ description: Aufrufen von Plan Zielseite
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 412797a52e82c03937670e895fea7b42a3ce7b4a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460756"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211983"
 ---
-# <a name="phone-system-with-calling-plans"></a>Telefonsystem mit Anrufplänen 
+# <a name="phone-system-with-calling-plans"></a>Telefonsystem mit dem Aufrufen der Pläne 
 
 Sie haben das [Erste Schritte](get-started-with-teams-quick-start.md)abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleicht haben Sie [Besprechungen & Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)bereitgestellt. Sie können nun Cloud VoIP Arbeitslasten hinzufügen, und Sie haben entschieden, Microsoft Telefonsystem mit Aufrufen planen Verbindung zu im Public Switched Telephone Network, (PSTN) zu verwenden. 
 
@@ -69,7 +69,7 @@ Mit Aufrufen in Office 365-Pläne () jedem Benutzer in Ihrer Organisation muss e
 |Wie detailliert soll ich die Notfall-Adresse und den Ort Informationen werden? |Weitere Informationen finden Sie unter [Was notfallstandorten, Adressen und Anrufrouting sind?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
 
 
-### <a name="calling-identity"></a>Anrufer-ID
+### <a name="calling-identity"></a>Aufrufen von Identität
 
 Alle ausgehenden Anrufe verwenden standardmäßig die zugewiesene Telefonnummer als aufrufende Identität (Anrufer-ID). Der Empfänger des Anrufs kann den Anrufer schnell identifizieren und entscheiden, ob er den Anruf annehmen oder ablehnen möchte.
 

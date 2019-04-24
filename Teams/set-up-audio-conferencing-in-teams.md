@@ -1,5 +1,5 @@
 ---
-title: Einrichten von Audiokonferenzen für Microsoft-Teams
+title: Einrichten von Audiokonferenzen für Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - LIL_Placement
 description: 'Informationen Sie zum Einrichten von einwählen oder Audiokonferenz für die Personen in Ihrem Unternehmen, die ein Telefon zum Teilnehmen an Telefonkonferenzen verwenden müssen. '
 ms.openlocfilehash: 7ff24dd2b29eabbad46759471b69c3619e4e7b24
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204880"
 ---
-# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Einrichten von Audiokonferenzen für Microsoft-Teams
+# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Einrichten von Audiokonferenzen für Microsoft Teams
 
 Manchmal müssen Personen in Ihrer Organisation ein Telefon nutzen, um sich in eine Besprechung einzuwählen. Microsoft-Teams, enthält das Feature Audiokonferenzen nur in dieser Situation! Personen können Teams Besprechungen mit einem Telefon ein, anstatt die Teams app auf einem mobilen Gerät oder PC anrufen. 
   

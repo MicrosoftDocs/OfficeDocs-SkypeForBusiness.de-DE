@@ -14,11 +14,11 @@ ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 ROBOTS: NOINDEX, NOFOLLOW
 description: Mithilfe dieser Seite können auswählen, welche Front-End-Pools und Standard Edition-Server diesen edgepool für A / V-Datenverkehr nutzen.
 ms.openlocfilehash: 79dfc08253f105b123a73c83bdf51d0ea0584bc0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879286"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202159"
 ---
 # <a name="add-edge-server-associations"></a>Hinzufügen von Edgeserverzuordnungen
  

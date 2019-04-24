@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Zusammenfassung: Informationen Sie zu den Systemanforderungen für Edge-Server in Skype für Business Server.'
 ms.openlocfilehash: 34114833b516f49fb36742cbde9361e1bb1d3be3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879926"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207125"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Edge-Server-System Requirements in Skype für Business Server
  
@@ -210,7 +210,7 @@ Hier sind die Anforderungen Hardwaregeräts zum Lastenausgleich für den Directo
 
 Sie definieren Port-Überwachung Ihrer Hardwaregeräte zum Lastenausgleich, um zu bestimmen, wann bestimmte Dienste nicht mehr verfügbar ist, aufgrund von Hardware-oder Communications sind. Angenommen, wenn der Front-End-Server-Dienst (RTCSRV) beendet wurde, da der Front-End-Server oder Front-End-Pool fällt aus, sollte die Überwachung des Hardwaregeräts zum Lastenausgleich ebenfalls beendet-Datenverkehr an die Webdienste empfangen. Sie sollten die HLB-Portüberwachung implementieren, um Folgendes für die externe Schnittstelle Ihres HLBs zu überwachen:
   
-|**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Notizen**|
+|**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Hinweise**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<Pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-End  <br/> 5061  <br/> |Keine  <br/> |HTTPS  <br/> |
 |\<Pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-End  <br/> 5061  <br/> |Keine  <br/> |HTTP  <br/> |

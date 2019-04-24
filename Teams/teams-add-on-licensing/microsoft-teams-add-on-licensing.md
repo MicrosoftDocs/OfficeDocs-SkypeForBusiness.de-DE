@@ -20,11 +20,11 @@ ms.custom:
 - LIL_Placement
 description: Informationen zu den Add-on-Lizenzen, was Sie features erhalten mit jeder Lizenz, wie sie für Ihr Produkt kaufen und wie Sie mit Ihren vorhandenen Netzbetreiber mit ihnen. Erhalten Sie Informationen über Preise und Plan Details für Office 365 Kommunikation haben, und plant aufrufen.
 ms.openlocfilehash: 497881fc073297df36f0b26280e51694c69babcf
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013066"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204562"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Lizenzierung für Microsoft Teams-Add-On
 
@@ -55,7 +55,7 @@ Je nach dem Planen Sie bereits haben, können Sie zusätzliche Lizenzen für die
 |**Gebührenfreie Nummern zur Einwahl in Konferenzen und die Möglichkeit, aus einer Konferenz heraus weltweite Anrufe zu tätigen, um so andere Personen hinzuzufügen** <br/> |Wenn Sie Audiokonferenzen hinzugefügt haben, sollten Sie [Guthaben für Kommunikationen einrichten](../set-up-communications-credits-for-your-organization.md). <br/> |
 |**Telefonsystem** <br/> |Eine PBX ist eine Unternehmenstelefonanlage. Telefonsystem in Office 365 ist ein gehosteter Telefondienst. Das Telefonsystem bietet Ihnen herkömmliche und innovative PBX-Funktionen ohne die komplizierte und teure Ausrüstung. [Hier ist das Ergebnis in das Telefonsystem in Office 365](../here-s-what-you-get-with-phone-system.md).  <br/> Wenn Sie dafür, wie viel es Kosten suchen, finden Sie unter [Telefonsystem](https://products.office.com/microsoft-teams/voice-calling).  <br/> |
 |**Anrufpläne** <br/> |Anrufe an andere Benutzer Teams sind kostenlos, aber sollen die Benutzer werden sollen, rufen Sie alle Rufnummern außerhalb Ihres Unternehmens erhalten eine [Aufrufen planen](../calling-plans-for-office-365.md). Es gibt nationale Anrufpläne und nationale und international Anrufpläne bei Office 365.  <br/> Wenn Sie dafür, wie viel es Kosten suchen, finden Sie unter [Aufrufen Preise planen](https://products.office.com/en-us/microsoft-teams/voice-calling).  <br/> |
-|**Microsoft-Teams, Räume** <br/> |Dies ist keine Add-On, sondern eine Funktion, die Video, Audio und Inhaltsfreigabe für Konferenzräume bereitstellt. Finden Sie unter [Microsoft-Teams, Räume](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |
+|**Microsoft Teams-Räume** <br/> |Dies ist keine Add-On, sondern eine Funktion, die Video, Audio und Inhaltsfreigabe für Konferenzräume bereitstellt. Finden Sie unter [Microsoft-Teams, Räume](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |
 
 Sie möchten mit jemandem über die vielfältigen Add-On-Optionen sprechen? [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
@@ -68,7 +68,7 @@ Die verfügbaren Add-on-Lizenzierungsoptionen hängt von Ihrer Office 365-Plan a
 - [Office 365 Enterprise E1 oder E3](office-365-enterprise-e1-e3.md)
 - [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5 (ohne Audiokonferenz)](office-365-enterprise-e5-without-audio-conferencing.md)
-- [Microsoft-Teams, Räume](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Microsoft Teams-Räume](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 - [Behörden, Bildungseinrichtungen und gemeinnützige Organisationen](gov-edu-and-nonprofit-organizations.md)
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Wie Sie Preise finden und Add-On-Lizenzen kaufen können
@@ -95,7 +95,7 @@ Eine ausführliche Dokumentation für die Planung Ihrer bereitstellungs, einschl
 
 - [Einrichten von Teams](../microsoft-teams.md)
     
-- [Einrichten von Voicemail von Cloud - Admin-Hilfe](../set-up-phone-system-voicemail.md)
+- [Einrichten von Cloudvoicemail – Admin-Hilfe](../set-up-phone-system-voicemail.md)
     
 - [Für Office 365-Pläne aufrufen](../calling-plans-for-office-365.md) und [Einrichten von Aufrufen-Pläne](../set-up-calling-plans.md)
     

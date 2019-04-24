@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
 description: Jeder Datensatz in dieser Tabelle enthält Anrufdetails zu eine Kombination aus einem Benutzer beitreten oder verlassen und Conferencing Server. Wenn ein Benutzer eine Konferenz beigetreten, die Webkonferenzen und a/v-Elemente enthält ist, beispielsweise für diesen Benutzer Web Conferencing Join würde ein Datensatz erstellt werden, und für den Benutzer a/v-Konferenzen teilnehmen würde einem anderen Datensatz erstellt werden.
 ms.openlocfilehash: 7a31564ed770c956baa0ef7e968d0fba1dc3fd7d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212980"
 ---
 # <a name="mcujoinsandleaves-table-in-skype-for-business-server-2015"></a>McuJoinsAndLeaves-Tabelle in Skype für Business Server 2015
  

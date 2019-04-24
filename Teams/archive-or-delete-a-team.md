@@ -1,5 +1,5 @@
 ---
-title: Archivieren Sie oder löschen Sie ein Team in Microsoft-Teams
+title: Archivieren oder Löschen eines Teams in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -18,13 +18,13 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5eaa26a3092c0612b006c28bb7ab543313a55dfe
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959450"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211068"
 ---
-<a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivieren Sie oder löschen Sie ein Team in Microsoft-Teams
+<a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivieren oder Löschen eines Teams in Microsoft Teams
 ===========================================
 
 Im Laufe der Zeit möglicherweise ein Team in Microsoft-Teams erstellt aus Verwendung fallen oder möglicherweise möchten Sie archivieren oder löschen ein Team am Ende eines Projekts. Wenn Sie ein Microsoft-Teams, Administrator sind, führen Sie die Schritte in diesem Artikel zum Archivieren oder Löschen eines Teams, das nicht mehr benötigt wird. Wenn Sie ein Team archivieren, alle Aktivitäten für dieses Team nicht mehr, aber Sie weiterhin hinzufügen oder Entfernen von Mitgliedern und Rollen aktualisieren können und Sie können weiterhin alle Team-Aktivitäten in Kanäle, Dateien und Chats anzeigen. Wenn Sie ein Team löschen, wird auch Team-Aktivität im zugeordneten Kanäle, Dateien und Chats gelöscht. 

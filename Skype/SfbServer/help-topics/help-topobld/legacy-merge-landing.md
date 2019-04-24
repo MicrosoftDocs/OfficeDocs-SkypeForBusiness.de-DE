@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 6dd2227a-1fbd-4133-b27f-227b0fe47805
 description: Die Seite Edgesetup angeben können Sie die Informationen der Vorgängerversion Edge-Server konfigurieren. Klicken Sie auf Hinzufügen, um die legacy Edge-Server-Version der Office Communications Server-Bereitstellung angeben. Wenn Sie Edgeserver nicht in der vorgängerumgebung haben, klicken Sie auf Weiter, um fortzufahren.
 ms.openlocfilehash: c1beb418c536b60cfab7631d9f058d4781f27d8c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892350"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200194"
 ---
 # <a name="legacy-merge-landing"></a>Legacyzusammenführung – Zielseite
  

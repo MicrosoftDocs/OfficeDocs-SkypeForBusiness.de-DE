@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Um die Skype für Business Server 2015 Stress and Performance-Tool auszuführen, müssen Sie Benutzer, Kontakte und Benutzerprofile verwalten können konfigurieren das Tool zum Ausführen, und überprüfen Sie die Ausgabe oder Ergebnisse, die von dem Tool erstellt werden.
 ms.openlocfilehash: 7ce25ec13af020734e0784392e457f96399a2398
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884842"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198667"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Verwenden die Skype für Business Server 2015 Stress and Performance-Tool
  

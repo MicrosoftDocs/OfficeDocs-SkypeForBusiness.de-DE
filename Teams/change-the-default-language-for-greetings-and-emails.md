@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 description: 'Hier erfahren Sie, wie Sie Skype for Business so einrichten, dass für die standardmäßige Voicemail-Ansage Ihrer Organisation eine andere Sprache verwendet wird. '
 ms.openlocfilehash: 6de73212df6be8a1f0d52cff8065536442085783
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664859"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198479"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Ändern der Standardsprache für Ansagen und E-Mails
 
@@ -63,7 +63,7 @@ Wenn Sie [globaler Office 365-Administrator](https://support.office.com/article
     
 ## <a name="related-articles-for-the-admin"></a>Verwandte Artikel für Administratoren
 
-- [Telefonsystem und Aufrufen von Plänen](calling-plan-landing-page.md)
+- [Telefonsystem und Anrufpläne](calling-plan-landing-page.md)
     
 - [Einrichten von Anrufplänen](set-up-calling-plans.md)
     

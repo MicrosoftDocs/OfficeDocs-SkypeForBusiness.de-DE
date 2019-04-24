@@ -14,11 +14,11 @@ ms.assetid: 0429444b-97cc-41a1-94e0-3e2e5fdfa9ca
 ROBOTS: NOINDEX, NOFOLLOW
 description: Geben Sie unter externe IPv4, die externe IP-Adresse, der an den Zugriffs-edgedienst, Webkonferenz-edgedienst und A / V-edgedienst.
 ms.openlocfilehash: 7b155c98cd4f216c444f5604e383794dd43adb61
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875397"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202201"
 ---
 # <a name="add-edge-machine-external-ipv4"></a>Hinzufügen der externen IPv4-Adresse des Edgecomputers
  

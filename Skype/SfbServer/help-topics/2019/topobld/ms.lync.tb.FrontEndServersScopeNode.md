@@ -14,11 +14,11 @@ ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Der Enterprise Edition-Front-End-Pools Knoten enthält die Front-End-Pools an diesem Standort und die Knoten Standard Edition-Front-End-Server führt die Standard Edition-Servern an diesem Standort. Folgende Möglichkeiten stehen zur Verfügung:'
 ms.openlocfilehash: f4e02da68560537040855413618396b916a88b32
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897350"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201779"
 ---
 # <a name="front-end-servers-scope-node"></a>Front-End-Server – Bereichsknoten
  

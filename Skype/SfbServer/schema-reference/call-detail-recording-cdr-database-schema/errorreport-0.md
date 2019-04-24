@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: ErrorReport-Ansicht speichert Informationen über Fehler gemeldet. Jeder Datensatz ist ein Fehler auftreten. Die Fehler werden erfasst entweder von der CDR-Agent auf dem Front-End-Server oder vom Client gesendet. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
 ms.openlocfilehash: 8d72ad73b5894e73b7d95b1b11bc10dffcabc5f7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874179"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213123"
 ---
 # <a name="errorreport-view"></a>ErrorReport-Ansicht
  

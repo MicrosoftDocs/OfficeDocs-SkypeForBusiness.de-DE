@@ -14,11 +14,11 @@ ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Eine Standard Edition-Server-Bereitstellung installiert automatisch die erforderlichen Microsoft SQL Server Express-Datenbanksoftware und SQL Server-Datenbank. Aus diesem Grund können alle Optionen sind vorausgefüllt, und Sie Änderungen auf die Standardkonfiguration.
 ms.openlocfilehash: 5424325431867d6e7c2d1991f4a3152c89ac5ca1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873555"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202054"
 ---
 # <a name="add-front-end-sql-server-store"></a>Hinzufügen des SQL Server-Speichers des Front-Ends
 

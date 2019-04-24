@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 'Zusammenfassung: Erfahren Sie, wie der tastenzuordnung von Dual-Tone Multi-Frequency (MFV) Befehle in Skype für Business Server verwalten.'
 ms.openlocfilehash: 33ab031e6032b6246dd637bc55c9ec6b600f0c82
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198011"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Verwalten der tastenzuordnung für DTMF-Befehle in Skype für Business Server
  

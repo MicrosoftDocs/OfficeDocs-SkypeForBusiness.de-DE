@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 description: Verwenden Sie auswählen ein Dialogfeld Warteschleife für Überlauf auswählen eine Warteschleife aus, werden Anrufe weitergeleitet, wenn eine reaktionsgruppenwarteschleife voll ist.
 ms.openlocfilehash: d86a11efbfa775f38737eeee3704866e43cbc15d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879567"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200534"
 ---
 # <a name="select-overflow-queue"></a>Auswählen der Überlaufwarteschleife
  

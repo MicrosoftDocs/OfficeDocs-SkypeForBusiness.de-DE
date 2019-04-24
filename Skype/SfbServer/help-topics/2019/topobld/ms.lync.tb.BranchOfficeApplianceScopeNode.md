@@ -14,11 +14,11 @@ ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN), Pools und Server und Resiliency Informationen über diese Survivable Branch Appliance zugeordnet. Folgende Möglichkeiten stehen zur Verfügung:'
 ms.openlocfilehash: 0fe014df84d371c3c1cd1cd0d1be76d81dd64122
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895237"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201864"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Filialanwendung  – Bereichsknoten
  

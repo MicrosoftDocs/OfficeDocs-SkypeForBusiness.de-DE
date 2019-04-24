@@ -14,11 +14,11 @@ ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie den Director-Pool Monitoring Server eingeschlossen werden soll, wählen Sie Überwachung (CDR- und QoE-Metriken).
 ms.openlocfilehash: c61ec5703758e05845dbb1f56f25793d6867c850
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886240"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202366"
 ---
 # <a name="add-director-features"></a>Hinzufügen von Director-Funktionen
 

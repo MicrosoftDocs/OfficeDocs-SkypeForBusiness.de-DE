@@ -22,13 +22,13 @@ ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie eingerichtet Telefonsystem für Cloud Anruf Warteschlangen, Ihnen eine Organisationseinheit Begrüßung Musik in der Warteschleife, und Umleiten von Anrufen Agents in Verteilerlisten und Sicherheitsgruppen aufrufen zu erteilen. You can also set the maximum queue size, time out, and call handling options.
 ms.openlocfilehash: da178761658460812bc1d0330f3540be43c3e6e6
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199289"
 ---
-# <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloud-Anruf-Warteschlange
+# <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloudanrufwarteschleife
 
 Cloud Anruf Warteschlangen enthalten Ansage, die verwendet werden, wenn jemand anruft eine angegebene Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und die Möglichkeit, suchen Sie für den nächsten verfügbaren Anruf-Agent den Anruf beim Menschen Anruf behandeln Anhören von Musik in der Warteschleife. Sie können einzelne oder mehrere Anruf Warteschlangen für Ihre Organisation erstellen.
   

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: Skype für Business Server verwendet TLS und MTLS zum Verschlüsseln von Sofortnachrichten. Für den gesamten Server-zu-Server-Datenverkehr ist MTLS erforderlich, unabhängig davon, ob der Datenverkehr auf das interne Netzwerk begrenzt ist oder die Netzwerkgrenze überschreitet. Wenn ist das Verbinden von Skype für Business Server mit 3. Partei IPPBX Systemen oder SIP-Trunks TLS optional, wird jedoch dringend empfohlen, zwischen dem Vermittlungsserver und dem Mediengateway. Wenn TLS auf dieser Verbindung konfiguriert ist, ist MTLS erforderlich. Aus diesem Grund muss das Gateway mit einem Zertifikat von einer Zertifizierungsstelle konfiguriert werden, die der Vermittlungsserver vertrauenswürdig ist.
 ms.openlocfilehash: e4a58cf10d268dedadb34556206e1c7227d4fdf5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213620"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Verschlüsselung für Skype für Business Server
  

@@ -14,11 +14,11 @@ ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie klicken Sie auf Pool für beständigen Chat im Topologie-Generator, um die folgenden Schritte aus:'
 ms.openlocfilehash: 930d144c31dfcd83326ca9c9aa13ee386a950d6c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894223"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201657"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Erstellen von Servern für beständigen Chat – Bereichsknoten
 

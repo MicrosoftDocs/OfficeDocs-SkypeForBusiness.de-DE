@@ -14,11 +14,11 @@ appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
 ms.openlocfilehash: c5e9015bb13dd21ff503ac5767cce5b9704eef03
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205663"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Praktische Anleitungen für Audiokonferenzen in Microsoft Teams
 ============================================================
@@ -549,4 +549,4 @@ Wertschöpfung
 <br>
 ## <a name="see-also"></a>Siehe auch
 
-[Einrichten von Audiokonferenzen für Microsoft-Teams](set-up-audio-conferencing-in-teams.md)
+[Einrichten von Audiokonferenzen für Microsoft Teams](set-up-audio-conferencing-in-teams.md)
