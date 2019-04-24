@@ -14,14 +14,14 @@ ms.assetid: 68c2046d-c988-4411-bd8b-b3096b4f4f3e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Weitere Informationen zur Verwendung von Bereitstellungsassistenten Skype für Business Server installieren finden Sie unter Installieren von Skype Business Server.
 ms.openlocfilehash: bd221c090a739d276a554f4dc2ae1fc576c7c373
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874465"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216410"
 ---
-# <a name="deployment-wizard-request-a-certificate"></a><span data-ttu-id="f0b49-103">Bereitstellungs-Assistent: Anfordern eines Zertifikats</span><span class="sxs-lookup"><span data-stu-id="f0b49-103">Deployment Wizard: Request a Certificate</span></span>
+# <a name="deployment-wizard-request-a-certificate"></a><span data-ttu-id="1dcbf-103">Bereitstellungs-Assistent: Anfordern eines Zertifikats</span><span class="sxs-lookup"><span data-stu-id="1dcbf-103">Deployment Wizard: Request a Certificate</span></span>
  
-<span data-ttu-id="f0b49-104">Weitere Informationen zur Verwendung von Bereitstellungsassistenten Skype für Business Server installieren finden Sie unter [Skype für Business Server installieren](../../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="f0b49-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="1dcbf-104">Weitere Informationen zur Verwendung von Bereitstellungsassistenten Skype für Business Server installieren finden Sie unter [Skype für Business Server installieren](../../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="1dcbf-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

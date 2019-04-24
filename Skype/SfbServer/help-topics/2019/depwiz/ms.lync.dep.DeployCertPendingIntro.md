@@ -14,14 +14,14 @@ ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
 ROBOTS: NOINDEX, NOFOLLOW
 description: Klicken Sie auf Weiter, um eine online ausstehende Anforderung, d. h., eine Anforderung zu verarbeiten, die noch an Ihre online Zertifizierungsstelle ausgestellt wurde, aber auf erfordern eine manuelle Genehmigungsvorgang, vom Administrator festgelegt ist.
 ms.openlocfilehash: c8882eb2f93dd210b5888ad55bc5d85a6abedc12
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877248"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216515"
 ---
-# <a name="pending-certificate-intro"></a><span data-ttu-id="63a19-103">Ausstehendes Zertifikat (Einführung)</span><span class="sxs-lookup"><span data-stu-id="63a19-103">Pending Certificate (Intro)</span></span>
+# <a name="pending-certificate-intro"></a><span data-ttu-id="a1dc0-103">Ausstehendes Zertifikat (Einführung)</span><span class="sxs-lookup"><span data-stu-id="a1dc0-103">Pending Certificate (Intro)</span></span>
  
-<span data-ttu-id="63a19-104">Eine online ausstehende Anforderung, d. h., eine Anforderung verarbeitet, die noch an Ihre online Zertifizierungsstelle ausgestellt wurde, jedoch wird vom Administrator festgelegt, erfordern einen manuellen Genehmigungsprozess, klicken Sie auf **Weiter**.</span><span class="sxs-lookup"><span data-stu-id="63a19-104">To process a pending online certificate request, that is, a request that has been issued to your online certification authority but is administratively set to require a manual approval process, click **Next**.</span></span>
+<span data-ttu-id="a1dc0-104">Eine online ausstehende Anforderung, d. h., eine Anforderung verarbeitet, die noch an Ihre online Zertifizierungsstelle ausgestellt wurde, jedoch wird vom Administrator festgelegt, erfordern einen manuellen Genehmigungsprozess, klicken Sie auf **Weiter**.</span><span class="sxs-lookup"><span data-stu-id="a1dc0-104">To process a pending online certificate request, that is, a request that has been issued to your online certification authority but is administratively set to require a manual approval process, click **Next**.</span></span>
   
 

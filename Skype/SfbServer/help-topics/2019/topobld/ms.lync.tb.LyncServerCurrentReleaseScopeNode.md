@@ -14,14 +14,14 @@ ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie können im Lync Server 2013-Knoten des Topologie-Generator neue Serverrollen erstellen, indem Sie mit der rechten Maustaste auf Lync Server 2013, wählen Sie neu und dann die zu erstellende Serverrolle auswählen.
 ms.openlocfilehash: aa53e7a373a95e8f264a64aaac82bbcab47b0dcc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235420"
 ---
-# <a name="skype-for-business-server-create-new-expander"></a><span data-ttu-id="e0775-103">Skype für Business Server erstellen neue – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="e0775-103">Skype for Business Server Create New Expander</span></span>
+# <a name="skype-for-business-server-create-new-expander"></a><span data-ttu-id="71f7d-103">Skype für Business Server erstellen neue – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="71f7d-103">Skype for Business Server Create New Expander</span></span>
  
-<span data-ttu-id="e0775-104">Sie können im Topologie-Generator neue Serverrollen erstellen, mit der rechten Maustaste **Skype für Business Server** **neu**auswählen und die zu erstellende Serverrolle auswählen.</span><span class="sxs-lookup"><span data-stu-id="e0775-104">You can create new server roles in the Topology Builder by right-clicking **Skype for Business Server**, selecting **New**, and selecting the server role to create.</span></span>
+<span data-ttu-id="71f7d-104">Sie können im Topologie-Generator neue Serverrollen erstellen, mit der rechten Maustaste **Skype für Business Server** **neu**auswählen und die zu erstellende Serverrolle auswählen.</span><span class="sxs-lookup"><span data-stu-id="71f7d-104">You can create new server roles in the Topology Builder by right-clicking **Skype for Business Server**, selecting **New**, and selecting the server role to create.</span></span>
   
 

@@ -14,18 +14,18 @@ ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie das Dialogfeld Trunk auswählen, um einen vorhandenen Trunk zu suchen, den Sie verwenden können.
 ms.openlocfilehash: 54f1b5d3ac63ee2d8570e12f0fe2107e335c81c3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889259"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221194"
 ---
-# <a name="select-trunk"></a><span data-ttu-id="41478-103">Auswählen eines Trunks</span><span class="sxs-lookup"><span data-stu-id="41478-103">Select Trunk</span></span>
+# <a name="select-trunk"></a><span data-ttu-id="c899d-103">Auswählen eines Trunks</span><span class="sxs-lookup"><span data-stu-id="c899d-103">Select Trunk</span></span>
  
-<span data-ttu-id="41478-104">Verwenden Sie das Dialogfeld **Trunk auswählen** , um einen vorhandenen Trunk zu suchen, den Sie verwenden können.</span><span class="sxs-lookup"><span data-stu-id="41478-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
+<span data-ttu-id="c899d-104">Verwenden Sie das Dialogfeld **Trunk auswählen** , um einen vorhandenen Trunk zu suchen, den Sie verwenden können.</span><span class="sxs-lookup"><span data-stu-id="c899d-104">Use the **Select Trunk** dialog box to find an existing trunk that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="41478-105">Zum Abrufen aller verfügbaren Trunks keine Geben Sie nichts in das Suchfeld, und klicken Sie dann auf das Suchsymbol.</span><span class="sxs-lookup"><span data-stu-id="41478-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
+> <span data-ttu-id="c899d-105">Zum Abrufen aller verfügbaren Trunks keine Geben Sie nichts in das Suchfeld, und klicken Sie dann auf das Suchsymbol.</span><span class="sxs-lookup"><span data-stu-id="c899d-105">To retrieve all available trunks, do not type anything in the search box, and then click the search icon.</span></span> 
   
  
   

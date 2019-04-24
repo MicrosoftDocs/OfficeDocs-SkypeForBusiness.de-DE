@@ -14,17 +14,17 @@ ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: a0e2c82be2f2c11953fc2a98b4fd518a8d72acf4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894635"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215325"
 ---
-# <a name="configure-a-network-site-create-new-or-edit-existing"></a><span data-ttu-id="54158-104">Konfigurieren eines Netzwerkstandorts: Erstellen eines neuen oder Bearbeiten eines vorhandenen Netzwerkstandorts</span><span class="sxs-lookup"><span data-stu-id="54158-104">Configure a Network Site: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-site-create-new-or-edit-existing"></a><span data-ttu-id="7098f-104">Konfigurieren eines Netzwerkstandorts: Erstellen eines neuen oder Bearbeiten eines vorhandenen Netzwerkstandorts</span><span class="sxs-lookup"><span data-stu-id="7098f-104">Configure a Network Site: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="54158-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="54158-105">What do you want to do?</span></span> <span data-ttu-id="54158-106">Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="54158-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="7098f-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="7098f-105">What do you want to do?</span></span> <span data-ttu-id="7098f-106">Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="7098f-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="54158-107">Konfigurieren von Netzwerkstandorten</span><span class="sxs-lookup"><span data-stu-id="54158-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
+- [<span data-ttu-id="7098f-107">Konfigurieren von Netzwerkstandorten</span><span class="sxs-lookup"><span data-stu-id="7098f-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
 
 
 

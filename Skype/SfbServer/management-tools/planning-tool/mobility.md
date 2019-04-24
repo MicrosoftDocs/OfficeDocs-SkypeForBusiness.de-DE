@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: Das Mobilitätsfeature in Skype für Business Server 2015 unterstützt Skype für Business-Funktionen auf mobilen Geräten.
 ms.openlocfilehash: 24152e0b3da1d1bdfcfe033b9d14ea5cd8f90321
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882411"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217544"
 ---
-# <a name="mobility-planning-tool"></a><span data-ttu-id="3bab5-103">Mobility (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="3bab5-103">Mobility (Planning Tool)</span></span>
+# <a name="mobility-planning-tool"></a><span data-ttu-id="7b73a-103">Mobility (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="7b73a-103">Mobility (Planning Tool)</span></span>
  
-<span data-ttu-id="3bab5-104">Das Mobilitätsfeature in Skype für Business Server 2015 unterstützt Skype für Business-Funktionen auf mobilen Geräten.</span><span class="sxs-lookup"><span data-stu-id="3bab5-104">The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices.</span></span>
+<span data-ttu-id="7b73a-104">Das Mobilitätsfeature in Skype für Business Server 2015 unterstützt Skype für Business-Funktionen auf mobilen Geräten.</span><span class="sxs-lookup"><span data-stu-id="7b73a-104">The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices.</span></span>
   
-<span data-ttu-id="3bab5-105">Mobilitätsfunktionen ist dieselbe wie in Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3bab5-105">Mobility functionality is the same as in Lync Server 2013.</span></span> <span data-ttu-id="3bab5-106">Weitere Informationen zur Vorbereitung Ihrer Umgebung Mobilität finden Sie unter [Planen für die Mobilität für Skype für Business Server](../../plan-your-deployment/mobility.md).</span><span class="sxs-lookup"><span data-stu-id="3bab5-106">For more details about preparing your environment for mobility, see [Plan for Mobility for Skype for Business Server](../../plan-your-deployment/mobility.md).</span></span>
+<span data-ttu-id="7b73a-105">Mobilitätsfunktionen ist dieselbe wie in Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7b73a-105">Mobility functionality is the same as in Lync Server 2013.</span></span> <span data-ttu-id="7b73a-106">Weitere Informationen zur Vorbereitung Ihrer Umgebung Mobilität finden Sie unter [Planen für die Mobilität für Skype für Business Server](../../plan-your-deployment/mobility.md).</span><span class="sxs-lookup"><span data-stu-id="7b73a-106">For more details about preparing your environment for mobility, see [Plan for Mobility for Skype for Business Server](../../plan-your-deployment/mobility.md).</span></span>

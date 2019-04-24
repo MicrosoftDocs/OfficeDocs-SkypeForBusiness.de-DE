@@ -3,23 +3,23 @@ title: Help-LSCP
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
+ms.date: 1/1/1900
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d90fce21-d7ff-4a9a-bc20-68021a37dca4
-ROBOTS: NOINDEX, NOFOLLOW
 description: Control Panel Themen
 ms.openlocfilehash: 54047a0115fb8b53a06052a45069dceb520a285a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886917"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216095"
 ---
-# <a name="help-lscp"></a><span data-ttu-id="f57cd-103">Help-LSCP</span><span class="sxs-lookup"><span data-stu-id="f57cd-103">Help-LSCP</span></span>
+# <a name="help-lscp"></a><span data-ttu-id="1d9f5-103">Help-LSCP</span><span class="sxs-lookup"><span data-stu-id="1d9f5-103">Help-LSCP</span></span>
  
-<span data-ttu-id="f57cd-104">Die Themen unter diesem Knoten bieten Sie Hilfe für die Skype Business Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="f57cd-104">The topics in this node provide help for the Skype for Business Server Control Panel.</span></span>
+<span data-ttu-id="1d9f5-104">Die Themen unter diesem Knoten bieten Sie Hilfe für die Skype Business Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="1d9f5-104">The topics in this node provide help for the Skype for Business Server Control Panel.</span></span>
   
 
 
