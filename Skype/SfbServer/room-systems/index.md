@@ -1,6 +1,6 @@
 ---
-title: 'Microsoft-Teams, Räume'
-ms.reviewer: null
+title: Microsoft Teams-Räume
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,9 +12,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Die relevanten planungsüberlegungen für die Bereitstellung von Microsoft-Teams Räumen und das Bereitstellen und Verwalten des Systems.
+ms.openlocfilehash: 078554d7d480507f7966abe844ce9aa8eef8c851
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206197"
 ---
-
-<h2>Microsoft-Teams, Räume</h2>
+<h2>Microsoft Teams-Räume</h2>
 <ul class="panelContent cardsW cols cols2">
     <li>
         <div class="cardSize">

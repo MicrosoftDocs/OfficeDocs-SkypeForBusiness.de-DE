@@ -14,20 +14,20 @@ ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW
 description: Diese Dokumentation ist vorläufig und kann geändert werden. Leere Themen sind als Platzhalter enthalten.
 ms.openlocfilehash: d64e64ad5caed89d2249e8da1cd8125a52316bb5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875404"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201700"
 ---
-# <a name="office-communications-server-scope-node"></a><span data-ttu-id="33155-104">Office Communications Server – Bereichsknoten</span><span class="sxs-lookup"><span data-stu-id="33155-104">Office Communications Server Scope Node</span></span>
+# <a name="office-communications-server-scope-node"></a><span data-ttu-id="37ca3-104">Office Communications Server – Bereichsknoten</span><span class="sxs-lookup"><span data-stu-id="37ca3-104">Office Communications Server Scope Node</span></span>
 
-<span data-ttu-id="33155-105">Diese Dokumentation ist vorläufig und kann geändert werden.</span><span class="sxs-lookup"><span data-stu-id="33155-105">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="33155-106">Leere Themen sind als Platzhalter enthalten.</span><span class="sxs-lookup"><span data-stu-id="33155-106">Blank topics are included as placeholders.</span></span>
+<span data-ttu-id="37ca3-105">Diese Dokumentation ist vorläufig und kann geändert werden.</span><span class="sxs-lookup"><span data-stu-id="37ca3-105">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="37ca3-106">Leere Themen sind als Platzhalter enthalten.</span><span class="sxs-lookup"><span data-stu-id="37ca3-106">Blank topics are included as placeholders.</span></span>
 
-<span data-ttu-id="33155-107">Sie klicken Sie auf **Office Communications Server 2007 R2** , um die Abschnitte unter dem Knoten zu erweitern, oder Sie rechts auf **Topologieoptionen** Zugriff auf oder auf **diese Hilfeseite** zuzugreifen.</span><span class="sxs-lookup"><span data-stu-id="33155-107">You click **Office Communications Server 2007 R2** to expand the sections under the node, or you right click to access **Topology** options, or to access this **Help** page.</span></span>
+<span data-ttu-id="37ca3-107">Sie klicken Sie auf **Office Communications Server 2007 R2** , um die Abschnitte unter dem Knoten zu erweitern, oder Sie rechts auf **Topologieoptionen** Zugriff auf oder auf **diese Hilfeseite** zuzugreifen.</span><span class="sxs-lookup"><span data-stu-id="37ca3-107">You click **Office Communications Server 2007 R2** to expand the sections under the node, or you right click to access **Topology** options, or to access this **Help** page.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="33155-108">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="33155-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="37ca3-108">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="37ca3-108">See also</span></span>
 
-[<span data-ttu-id="33155-109">Zusammenführen Sie mithilfe des Seriendruck-Assistenten des Topologie-Generator</span><span class="sxs-lookup"><span data-stu-id="33155-109">Merge Using Topology Builder Merge Wizard</span></span>](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
+[<span data-ttu-id="37ca3-109">Zusammenführen Sie mithilfe des Seriendruck-Assistenten des Topologie-Generator</span><span class="sxs-lookup"><span data-stu-id="37ca3-109">Merge Using Topology Builder Merge Wizard</span></span>](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
 
-[<span data-ttu-id="33155-110">Überprüfen von Topologieinformationen</span><span class="sxs-lookup"><span data-stu-id="33155-110">Verify Topology Information</span></span>](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)
+[<span data-ttu-id="37ca3-110">Überprüfen von Topologieinformationen</span><span class="sxs-lookup"><span data-stu-id="37ca3-110">Verify Topology Information</span></span>](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)
