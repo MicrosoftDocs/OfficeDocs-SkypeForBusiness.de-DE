@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04bee65e6d2c21b6e2857d44a50bae497b251d5b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3fe995522f1557ed18c8edc0713f3c219b626dcb
+ms.sourcegitcommit: fc18ad4fdc737f6208a2fbf9c98a680c47c0f582
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463956"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "32453515"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Tools und Workshops: Planen, Bereitstellen und Einführen von Microsoft Teams
 
@@ -48,6 +48,6 @@ Laden Sie diese Planungstools herunter, die Sie beim Planen, Bereitstellen und E
 
 [Bereitschaft von IT-Administratoren für Teams](ITAdmin-readiness.md)
 
-[Beziehen von Tools zur Unterstützung eines Rollouts von Teams](rollout-tools.md)
+[Tools für die Annahme](adopt-tools-and-downloads.md)
 
 
