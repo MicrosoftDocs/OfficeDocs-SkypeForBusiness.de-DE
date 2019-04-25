@@ -14,14 +14,14 @@ ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um eine Bereitstellung der Vorversion mit Skype für Business Server zusammenführen, klicken Sie auf Weiter.
 ms.openlocfilehash: c920ede0266136f7a16393b3383264794a2c50b6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235465"
 ---
-# <a name="legacy-merge-start"></a><span data-ttu-id="80ca7-103">Legacyzusammenführung – Start</span><span class="sxs-lookup"><span data-stu-id="80ca7-103">Legacy Merge Start</span></span>
+# <a name="legacy-merge-start"></a><span data-ttu-id="d7238-103">Legacyzusammenführung – Start</span><span class="sxs-lookup"><span data-stu-id="d7238-103">Legacy Merge Start</span></span>
  
-<span data-ttu-id="80ca7-104">Zum Zusammenführen einer bereitstellungs der Vorversionen mit Skype für Business Server beginnen, klicken Sie auf **Weiter**.</span><span class="sxs-lookup"><span data-stu-id="80ca7-104">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> 
+<span data-ttu-id="d7238-104">Zum Zusammenführen einer bereitstellungs der Vorversionen mit Skype für Business Server beginnen, klicken Sie auf **Weiter**.</span><span class="sxs-lookup"><span data-stu-id="d7238-104">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> 
   
 

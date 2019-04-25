@@ -1,5 +1,5 @@
 ---
-title: Erweitern Sie Microsoft-Teams innerhalb Ihrer Organisation
+title: Erweitern von Microsoft Teams in Ihrer Organisation
 description: Verwenden Sie diese Ressourcen, um die optimale Nutzung von Teams innerhalb Ihrer Organisation abzurufen.
 layout: LandingPage
 ms.topic: landing-page
@@ -13,13 +13,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1772131042c80ca34991e44352ebf501527ac337
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246178"
 ---
-# <a name="expand-microsoft-teams-across-your-organization"></a>Erweitern Sie Microsoft-Teams innerhalb Ihrer Organisation
+# <a name="expand-microsoft-teams-across-your-organization"></a>Erweitern von Microsoft Teams in Ihrer Organisation
 
 <br>
 <ul class="panelContent cardsFTitle">

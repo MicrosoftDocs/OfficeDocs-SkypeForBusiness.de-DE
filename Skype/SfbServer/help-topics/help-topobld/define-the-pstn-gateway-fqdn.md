@@ -14,18 +14,18 @@ localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: Geben Sie den vollqualifizierten Domänennamen (FQDN) des öffentlichen Telefonnetz (Network, PSTN)-Gateways, die Ihrer Enterprise-VoIP-Komponenten mit einem PSTN oder private Branch Exchange, (Nebenstellenanlage PBX) verbunden wird.
 ms.openlocfilehash: 586b59185187379b2f93bb0e7a67383b892153d7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226957"
 ---
-# <a name="define-the-pstn-gateway-fqdn"></a><span data-ttu-id="4dd23-103">Definieren des FQDN des PSTN-Gateways</span><span class="sxs-lookup"><span data-stu-id="4dd23-103">Define the PSTN Gateway FQDN</span></span>
+# <a name="define-the-pstn-gateway-fqdn"></a><span data-ttu-id="3325d-103">Definieren des FQDN des PSTN-Gateways</span><span class="sxs-lookup"><span data-stu-id="3325d-103">Define the PSTN Gateway FQDN</span></span>
 
-<span data-ttu-id="4dd23-104">Geben Sie den vollqualifizierten Domänennamen (FQDN) des öffentlichen Telefonnetz (Network, PSTN)-Gateways, die Ihrer Enterprise-VoIP-Komponenten mit einem PSTN oder private Branch Exchange, (Nebenstellenanlage PBX) verbunden wird.</span><span class="sxs-lookup"><span data-stu-id="4dd23-104">You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX).</span></span>
+<span data-ttu-id="3325d-104">Geben Sie den vollqualifizierten Domänennamen (FQDN) des öffentlichen Telefonnetz (Network, PSTN)-Gateways, die Ihrer Enterprise-VoIP-Komponenten mit einem PSTN oder private Branch Exchange, (Nebenstellenanlage PBX) verbunden wird.</span><span class="sxs-lookup"><span data-stu-id="3325d-104">You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX).</span></span>
 
-<span data-ttu-id="4dd23-105">Weitere Informationen hierzu finden Sie unter [PSTN Connectivity Components in Skype für Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span><span class="sxs-lookup"><span data-stu-id="4dd23-105">For details, see [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span></span>
+<span data-ttu-id="3325d-105">Weitere Informationen hierzu finden Sie unter [PSTN Connectivity Components in Skype für Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span><span class="sxs-lookup"><span data-stu-id="3325d-105">For details, see [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="4dd23-106">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="4dd23-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3325d-106">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="3325d-106">See also</span></span>
 
-[<span data-ttu-id="4dd23-107">Bereitstellungsoptionen für PSTN-Gateway</span><span class="sxs-lookup"><span data-stu-id="4dd23-107">PSTN Gateway Deployment Options</span></span>](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[<span data-ttu-id="3325d-107">Bereitstellungsoptionen für PSTN-Gateway</span><span class="sxs-lookup"><span data-stu-id="3325d-107">PSTN Gateway Deployment Options</span></span>](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)

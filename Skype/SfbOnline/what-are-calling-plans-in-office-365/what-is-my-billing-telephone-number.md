@@ -1,5 +1,5 @@
 ---
-title: Wie lautet meine Telefonnummer für Abrechnung?
+title: Was ist mein Abrechnung Telefonnummer?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,30 +22,30 @@ ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, was Ihre Skype für geschäftliche Telefonnummer Abrechnung ist, und wechseln um zu Schritt-für-Schritt-Anleitung zum Übertragen von einer Zahl zu erhalten.
 ms.openlocfilehash: b0eb2d3b2a4740759b2ea13eb5cddb1691392a48
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958261"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229615"
 ---
-# <a name="what-is-my-billing-telephone-number"></a><span data-ttu-id="a63e2-103">Wie lautet meine Telefonnummer für Abrechnung?</span><span class="sxs-lookup"><span data-stu-id="a63e2-103">What is my billing telephone number?</span></span>
+# <a name="what-is-my-billing-telephone-number"></a><span data-ttu-id="c6e90-103">Was ist mein Abrechnung Telefonnummer?</span><span class="sxs-lookup"><span data-stu-id="c6e90-103">What is my billing telephone number?</span></span>
 
-<span data-ttu-id="a63e2-104">Die Art der Rechnungslegung Telefonnummer (BTN) ist die Haupttelefonnummer des, die auf Ihrer Abrechnung einbezogen und Fern-oder Ihrem Dienstanbieter oder Netzbetreiber ist.</span><span class="sxs-lookup"><span data-stu-id="a63e2-104">The billing telephone number (BTN) is the main phone number that is included on your bill and billed by your service provider or carrier.</span></span> <span data-ttu-id="a63e2-105">Wenn Sie eine Rufnummer aus einem Konto, die nur eine Telefonnummer verfügt übertragen, müssen Sie diese Rufnummer in platzieren.</span><span class="sxs-lookup"><span data-stu-id="a63e2-105">If you are transferring a phone number from an account that has only one phone number, you will need to put this phone number in.</span></span> <span data-ttu-id="a63e2-106">Wenn Sie Telefonnummern über ein Konto, die mehr als eine hat übertragen, können Sie sehen Sie sich Ihre Rechnung oder wenden Sie sich an Ihrem Dienstanbieter oder Netzbetreiber, um zu ermitteln, was die Art der Rechnungslegung Telefonnummer für Ihr Konto ist.</span><span class="sxs-lookup"><span data-stu-id="a63e2-106">If you are transferring phone numbers from an account that has more than one, you can look at your bill or contact your service provider or carrier to determine what the billing telephone number is for your account.</span></span>
+<span data-ttu-id="c6e90-104">Die Art der Rechnungslegung Telefonnummer (BTN) ist die Haupttelefonnummer des, die auf Ihrer Abrechnung einbezogen und Fern-oder Ihrem Dienstanbieter oder Netzbetreiber ist.</span><span class="sxs-lookup"><span data-stu-id="c6e90-104">The billing telephone number (BTN) is the main phone number that is included on your bill and billed by your service provider or carrier.</span></span> <span data-ttu-id="c6e90-105">Wenn Sie eine Rufnummer aus einem Konto, die nur eine Telefonnummer verfügt übertragen, müssen Sie diese Rufnummer in platzieren.</span><span class="sxs-lookup"><span data-stu-id="c6e90-105">If you are transferring a phone number from an account that has only one phone number, you will need to put this phone number in.</span></span> <span data-ttu-id="c6e90-106">Wenn Sie Telefonnummern über ein Konto, die mehr als eine hat übertragen, können Sie sehen Sie sich Ihre Rechnung oder wenden Sie sich an Ihrem Dienstanbieter oder Netzbetreiber, um zu ermitteln, was die Art der Rechnungslegung Telefonnummer für Ihr Konto ist.</span><span class="sxs-lookup"><span data-stu-id="c6e90-106">If you are transferring phone numbers from an account that has more than one, you can look at your bill or contact your service provider or carrier to determine what the billing telephone number is for your account.</span></span>
   
- <span data-ttu-id="a63e2-107">**Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span><span class="sxs-lookup"><span data-stu-id="a63e2-107">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span></span>
+ <span data-ttu-id="c6e90-107">**Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span><span class="sxs-lookup"><span data-stu-id="c6e90-107">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a63e2-108">Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="a63e2-108">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="c6e90-108">Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="c6e90-108">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="a63e2-109">Verwandte Themen</span><span class="sxs-lookup"><span data-stu-id="a63e2-109">Related topics</span></span>
-[<span data-ttu-id="a63e2-110">Allgemeine Fragen zum Übertragen von Telefonnummern</span><span class="sxs-lookup"><span data-stu-id="a63e2-110">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="c6e90-109">Verwandte Themen</span><span class="sxs-lookup"><span data-stu-id="c6e90-109">Related topics</span></span>
+[<span data-ttu-id="c6e90-110">Allgemeine Fragen zum Übertragen von Telefonnummern</span><span class="sxs-lookup"><span data-stu-id="c6e90-110">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="a63e2-111">Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden</span><span class="sxs-lookup"><span data-stu-id="a63e2-111">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="c6e90-111">Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden</span><span class="sxs-lookup"><span data-stu-id="c6e90-111">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="a63e2-112">Nutzungsbedingungen für Notrufe</span><span class="sxs-lookup"><span data-stu-id="a63e2-112">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="c6e90-112">Nutzungsbedingungen für Notrufe</span><span class="sxs-lookup"><span data-stu-id="c6e90-112">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="a63e2-113">[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="a63e2-113">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="c6e90-113">[Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="c6e90-113">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
