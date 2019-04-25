@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in Spanien für Skype for Business Online und Microsoft Teams.
 ms.openlocfilehash: 0e6e586b6f4369a38f52856b5297ca144e72407a
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245513"
 ---
 # <a name="phone-number-management-for-spain"></a>Telefonnummernverwaltung für Spanien
 

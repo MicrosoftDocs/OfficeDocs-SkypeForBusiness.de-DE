@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 239996abd87c52905758d6bff5ddeb6bf7805e89
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 06f3371233b4ff16be8d55813e1621c3b08566d9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32247103"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Planen von Microsoft 365 Government - DoD-Bereitstellungen
 
@@ -73,7 +73,7 @@ Es wird empfohlen, dass Sie Ihre [Einstellungen Verwaltungs- und Sicherheitsfunk
 
 Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, gibt es einige Unterschiede zwischen Teams Microsoft 365 für Behörden - Verteidigungsministeriums oder Teams in den Enterprise-Plänen. Finden Sie in der folgenden Tabelle sehen Sie, welche Features verfügbar sind.
 
-|                             | Funktion                     | DoD       |
+|                             | Feature                     | DoD       |
 |-----------------------------|-----------------------------|----------------|
 | Base | Anmeldung | Verfügbar |
 | | Anwesenheit | Verfügbar |
@@ -100,7 +100,7 @@ Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, gibt es einige
 | | Cloud-Aufzeichnung | Klicken Sie auf der Regierung Bestand |
 | | Besprechungsnotizen | Verfügbar |
 | | Übertragen von Besprechungen | Klicken Sie auf der Regierung Bestand |
-| | Verbundpartner Besprechungen | Verfügbar |
+| | Innerhalb der Cloud Federated (DoD-DoD) Besprechungen | Verfügbar |
 | | Offenlegen Hub-Unterstützung | Klicken Sie auf der Regierung Bestand |
 | Anrufe | Kontakte | Verfügbar |
 | | Verlauf | Verfügbar |
@@ -126,7 +126,7 @@ Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, gibt es einige
 | | Organisation automatische Telefonzentrale | Klicken Sie auf der Regierung Bestand |
 | | Wenden Sie Skype Consumer - Teams | Nicht verfügbar |
 | Dateien | aktuell | Verfügbar |
-| | Microsoft Teams | Verfügbar |
+| | Microsoft Teams | Verfügbar |
 | abspeichern | App-Store | Nicht verfügbar |
 | Suche | Nachrichten | Verfügbar |
 | | Kontakte | Verfügbar |

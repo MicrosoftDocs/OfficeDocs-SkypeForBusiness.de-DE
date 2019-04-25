@@ -1,5 +1,5 @@
 ---
-title: Erste Schritte mit Teams Vorlagen im Einzelhandel
+title: Erste Schritte mit Microsoft Teams-Vorlagen im Einzelhandel
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,13 +19,13 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e463061dca0633480124bbe91fb2e8e6f9f926f6
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245746"
 ---
-# <a name="get-started-with-teams-templates-in-retail"></a>Erste Schritte mit Teams Vorlagen im Einzelhandel 
+# <a name="get-started-with-teams-templates-in-retail"></a>Erste Schritte mit Microsoft Teams-Vorlagen im Einzelhandel 
 
 Teams Vorlagen können Sie schnell und einfach Teams durch die Bereitstellung von Einstellungen, Kanäle und vorinstallierte apps einer vordefinierten Vorlage erstellen.
 

@@ -1,5 +1,5 @@
 ---
-title: Erste Schritte mit Microsoft Teams-Vorlagen
+title: Erste Schritte mit Teams-Vorlagen
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,13 +19,13 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b620f163f1dc071bde8a0ed43bf7fe546a9bc04a
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013637"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245593"
 ---
-# <a name="get-started-with-teams-templates"></a>Erste Schritte mit Microsoft Teams-Vorlagen 
+# <a name="get-started-with-teams-templates"></a>Erste Schritte mit Teams-Vorlagen 
 
 Teams Vorlagen werden vor dem Definitionen von ein Team Struktur entwickelt, um eine geschäftlicher Bedarf oder ein Projekt erstellt. Vorlagen für Teams können schnell und erstellen umfassender Zusammenarbeit Leerzeichen mit Kanäle für verschiedene Themen und Vorinstallieren von apps in unternehmenswichtige Inhalte und Dienste abrufen. Teams Vorlagen bieten eine vordefinierte Teamstruktur, die Sie auf einfache Weise konsistent Teams innerhalb Ihrer Organisation helfen. 
 

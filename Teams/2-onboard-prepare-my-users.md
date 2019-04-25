@@ -1,7 +1,7 @@
 ---
 title: Vorbereiten der Benutzer für Microsoft Teams
 author: dearbeen
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2231b8d9d80507be863d1aef64e8aa0d91cddeec
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569271"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241709"
 ---
 # <a name="prepare-my-users"></a>Vorbereiten der Benutzer
 
@@ -153,5 +153,5 @@ Nachdem Sie verstehen, die Ihre Benutzer sind und wie diese tatsächlich in der 
 
 <table>
 <tr><th>Kommunikation</th><th>Schulung</th><th>Support</th></tr>
-<tr><td><ul><li>E-Mail-&mdash;personalisieren unsere <a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">VoIP e-Mail-Vorlagen</a></li><li>Poster und digitaler Signatur </li><li>Starten Sie Ereignisse</li><li>Abteilungsleitern</li><li>Pioniere</li><li>Teams und Kanäle</li><li>Gamification</li></ul></td><td><ul><li>Artikel und Videos von Microsoft:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Wechseln Sie zu Teams von Skype für Unternehmen</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">Video Schulung von Teams</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">Besprechungen und Telefonkonferenzen</a></li></li></ul><li>Interne Unterstützung (Hilfe)</li><li>Schulung von internen Teams</li><li>Schulung des Partner-Teams</li></ul></td><td><ul><li>Internen helpdesk</li><li>Ausgelagertes Helpdesk</li><li>Selbsthilfe (Intranetwebsite)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">Online-Hilfe und-Vorgehensweisen</a></li><li>Floor-Walkers und champions</li><li>Feedbackschleife&mdash;finden Sie unter dem <a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">Beispiel Benutzer Feedback Umfragen</a></li></td></tr>
+<tr><td><ul><li>E-Mail-&mdash;personalisieren unsere <a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">VoIP e-Mail-Vorlagen</a></li><li>Poster und digitaler Signatur </li><li>Starten Sie Ereignisse</li><li>Abteilungsleitern</li><li>Pioniere</li><li>Teams und Kanäle</li><li>Gamification</li></ul></td><td><ul><li>Artikel und Videos von Microsoft:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Umstieg von Skype for Business auf Teams</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">Video Schulung von Teams</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">Besprechungen und Anrufe</a></li></li></ul><li>Interne Unterstützung (Hilfe)</li><li>Schulung von internen Teams</li><li>Schulung des Partner-Teams</li></ul></td><td><ul><li>Internen helpdesk</li><li>Ausgelagertes Helpdesk</li><li>Selbsthilfe (Intranetwebsite)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">Online-Hilfe und-Vorgehensweisen</a></li><li>Floor-Walkers und champions</li><li>Feedbackschleife&mdash;finden Sie unter dem <a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">Beispiel Benutzer Feedback Umfragen</a></li></td></tr>
 </table>

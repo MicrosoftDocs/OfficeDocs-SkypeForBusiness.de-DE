@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: de8041bb9557ec224c2ab2b3a5fa4f92de1280cf
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236730"
 ---
 ![Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase] (media/upgrade-banner-deployment.png "Phasen der Upgrade Reise, wobei der Schwerpunkt auf der Bereitstellung und Implementierungsphase")
 
@@ -33,7 +33,7 @@ Dieser Artikel ist Teil der Bereitstellung und Implementierung Phasen des Ihrer 
 - [Die Umgebung vorbereitet](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Ihre Organisation vorbereitet](https://aka.ms/SkypeToTeams-UserReadiness)
 
-# <a name="conduct-a-user-pilot"></a>Durchführen einer Pilotphase Benutzer
+# <a name="conduct-a-user-pilot"></a>Durchführen eines Benutzerpilotprojekts
 
 Durch die Bereitstellung von neue Technologien Geschäftswert wie Kosten zu sparen, Security Compliance, Mitarbeiterzufriedenheit und Betriebseffizienz realisieren lassen, aber es kann auch die Produktivität und organisatorische Infrastruktur (Ihrer Benutzer beeinflussen Ihr Netzwerk). Vor der Aktivierung der neuen Technologie in Ihrer Organisation, Durchführen eines Pilotprojekts formelle Benutzer. So, wie Sie einen kleinen Patch der Farbe an einer Wand vor den gesamten Raum painting zeichnen würden, würde testen eine umfassende Einführung in kleinerem Maßstab durch das Abhalten einer Pilotphase technische überprüft und zur benutzerbereitschaft, identifizieren und Probleme zu mindern, und eine erfolgreiche sicherzustellen Implementierung der gesamten Organisation.
 
@@ -55,7 +55,7 @@ Kleine starten, und fügen Sie Ihrem Piloten entsprechend –, ob durch Hinzufü
 
 ## <a name="2-select-your-pilot-participants-and-test-scenarios"></a>2. Wählen Sie die Teilnehmer an der Pilotphase und Testszenarien
 
-Eine der wichtigsten Aufgaben bei der Planung eines Pilotprojekts ist die gründliche Auswahl der Teilnehmer. Beachten Sie, dass Teams ist für die Zusammenarbeit optimiert sein, weshalb Sie sicher, dass Teilnehmer an der Pilotphase nicht allein basierend auf Rollen oder Rollen, aber auch basierend auf dem Projekt und die Arbeit Cross-Teams. Eine hervorragende ist der Beteiligten und Abteilungsleitern für tatsächliche Projekte aufgefordert, den Sie in Teams überprüfen können. Ein Beispiel für ein Projekt rollenbasierte möglicherweise Teams mit Ihrer Organisation sales verwenden, um sicherzustellen, dass das Feld Vertriebsmitarbeiter auf einfache Weise die Ressourcen zugreifen können, die Sie benötigen und Freigeben von Insights für andere Mitglieder dar. Ein Beispiel für projektbasierte Arbeit möglicherweise ein Produkt Einführung Ereignis mit der Marketing, Schulungen, Public Relations und Teams Planung von Ereignissen koordinieren. Günstigsten Szenarios, die Sie ausgewählt haben, sollte der Pilotphase an wichtige Personen in erweitern IT, Schulung und den Helpdesk, damit Sie die Lösung bei gleichzeitiger Optimierung vollständig Ressourcen für Projektmanagement sorgfältig überprüfen können.
+Eine der wichtigsten Aufgaben der pilot Planung ist durchdachte Teilnehmer Auswahl. Beachten Sie, dass Teams ist für die Zusammenarbeit optimiert sein, weshalb Sie sicher, dass Teilnehmer an der Pilotphase nicht allein basierend auf Rollen oder Rollen, aber auch basierend auf dem Projekt und die Arbeit Cross-Teams. Eine hervorragende ist der Beteiligten und Abteilungsleitern für tatsächliche Projekte aufgefordert, den Sie in Teams überprüfen können. Ein Beispiel für ein Projekt rollenbasierte möglicherweise Teams mit Ihrer Organisation sales verwenden, um sicherzustellen, dass das Feld Vertriebsmitarbeiter auf einfache Weise die Ressourcen zugreifen können, die Sie benötigen und Freigeben von Insights für andere Mitglieder dar. Ein Beispiel für projektbasierte Arbeit möglicherweise ein Produkt Einführung Ereignis mit der Marketing, Schulungen, Public Relations und Teams Planung von Ereignissen koordinieren. Günstigsten Szenarios, die Sie ausgewählt haben, sollte der Pilotphase an wichtige Personen in erweitern IT, Schulung und den Helpdesk, damit Sie die Lösung bei gleichzeitiger Optimierung vollständig Ressourcen für Projektmanagement sorgfältig überprüfen können.
 
 > [!Tip]
 > Wenn Sie Ihren Teams bei der Auswahl evaluieren Gruppe Teilnehmer, unbedingt am häufigsten anwesenden Benutzer von Skype für Unternehmen. Wenden Sie sich diese Benutzer zu verstehen, wie sie Skype für Unternehmen heute verwenden, und erstellen Sie einen Testplan, um sicherzustellen, dass Teams ihren aktuellen Anforderungen entsprechen können.
@@ -87,7 +87,7 @@ Die folgenden Tipps helfen, den Erfolg des Pilotprojekts sicherzustellen:
 
 ### <a name="suggested-timeline"></a>Vorgeschlagene Zeitachse
 
-Hier ist ein vorgeschlagener Zeitplan für ein 30-tägiges Pilotprojekt:
+Hier ist eine vorgeschlagene Zeitachse für eine 30-Tage-Piloten:
 
 - Eine Woche vor der Pilotphase Kickoff: erste Kommunikation an Pilotbenutzern senden.
 - Tag 1: Senden Sie Kickoff Kommunikation an Pilotbenutzer.

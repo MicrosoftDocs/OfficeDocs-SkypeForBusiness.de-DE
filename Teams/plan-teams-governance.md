@@ -1,7 +1,7 @@
 ---
 title: Planen der Governance in Microsoft Teams – Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: reference
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 072fc92184841be318e84e7891a204d1b7576215
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959521"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246170"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Governance in Teams.
 
@@ -117,7 +117,7 @@ Teams bietet detaillierte Funktionen zur Kontrolle messaging, Besprechung, aufru
 
 Eine detaillierte Liste aller Einstellungen, einschließlich technische Anleitungen für Implementierungsmethode für Ihre Organisation finden Sie unter den folgenden Artikeln:
 
--   [Verwalten von Einstellungen für Ihre Organisation Microsoft-Teams](enable-features-office-365.md)
+-   [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md)
 -   [Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 -   [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md)
 

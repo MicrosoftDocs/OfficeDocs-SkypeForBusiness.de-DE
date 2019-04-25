@@ -23,11 +23,11 @@ ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
 ms.openlocfilehash: a8660693fefdca2ecfdfe327927e89431d0fe5db
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914570"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245529"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Das Telefonsystem in Office 365 bietet Ihnen Folgendes
 
@@ -44,7 +44,7 @@ Mithilfe von Telefonsystem erhalten Ihre Skype für Unternehmensbenutzer die fol
 |||
 |:-----|:-----|
 |**Telefonsystem in Office 365-Funktion** <br/> |**Beschreibung** <br/> |
-|[Was sind automatische Telefonzentralen Cloud?](what-are-phone-system-auto-attendants.md) <br/> |Cloud-Telefonzentralen können verwendet werden, erstellen Sie ein Menüsystem für Ihre Organisation, mit der, externen und internen Anrufer über ein Menüsystem platzieren, und durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in Ihrer Organisation verschieben.  <br/> |
+|[Was sind automatische Cloudtelefonzentralen?](what-are-phone-system-auto-attendants.md) <br/> |Cloud-Telefonzentralen können verwendet werden, erstellen Sie ein Menüsystem für Ihre Organisation, mit der, externen und internen Anrufer über ein Menüsystem platzieren, und durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in Ihrer Organisation verschieben.  <br/> |
 |Anruf beantworten/starten (nach Name und Nummer)  <br/> |Beantworten Sie eingehende Anrufe mit einer Touchbewegung, und tätigen Sie ausgehende Anrufe entweder durch Wählen der vollständigen Nummer oder durch Klicken auf einen Namen in Skype for Business oder Outlook.  <br/> |
 |[Festlegen von Anrufweiterleitungsoptionen in Skype for Business](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Tätigen oder beantworten Sie Anrufe im Namen eines Ihrer Manager. Wenn Anrufe für eine andere Person beantwortet oder getätigt werden, werden alle Teilnehmer durch Benachrichtigungen darüber informiert.  <br/> |
 |[Anrufweiterleitung und gleichzeitiges Anrufen](https://support.office.com/article/967d9aaf-3fed-448b-ab96-40bbc9a11a20) <br/> |Mit diesen Funktionen können Sie Weiterleitungsregeln einrichten, damit Sie von überall aus angerufen werden können und Ihre Anrufe an Kollegen oder an Ihre Voicemail weiterleiten können.  <br/> |
@@ -52,7 +52,7 @@ Mithilfe von Telefonsystem erhalten Ihre Skype für Unternehmensbenutzer die fol
 |Anruf halten/wiederaufnehmen  <br/> | Verwenden Sie diese Option, wenn mehrere Anrufe zur gleichen Zeit getätigt werden. Wenn Sie den nächsten eingehenden Anruf beantworten oder einen ausgehenden Anruf tätigen, wird Ihr aktueller Anruf automatisch gehalten. <br/> |
 |[Durchstellen eines Skype for Business-Anrufs](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |Stellt Anrufe an andere Personen durch. Oder, wenn Sie müssen so verlassen Ihrem Büro, Ihre Unterhaltung fortsetzen möchten, können Sie die Anrufe von Ihrem PC oder IP-Telefon auf Ihr Mobiltelefon oder Tablet übertragen.  <br/> |
 |Anrufer-ID  <br/> |Bei Anrufen von Personen innerhalb Ihres Unternehmens wird eine detaillierte Anrufer-ID mit Informationen aus Ihrem Unternehmensverzeichnis angezeigt. Es wird nicht nur die Telefonnummer angezeigt, sondern auch ein Bild und die Position.  <br/> |
-|[Erstellen einer Cloud-Anruf-Warteschlange](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Cloud Anruf Warteschlangen enthalten Ansage, die verwendet werden, wenn jemand anruft eine angegebene Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und die Möglichkeit, suchen Sie für den nächsten verfügbaren Anruf-Agent den Anruf beim Menschen Anruf behandeln Anhören von Musik in der Warteschleife.  <br/> |
+|[Erstellen einer Cloudanrufwarteschleife](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Cloud Anruf Warteschlangen enthalten Ansage, die verwendet werden, wenn jemand anruft eine angegebene Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und die Möglichkeit, suchen Sie für den nächsten verfügbaren Anruf-Agent den Anruf beim Menschen Anruf behandeln Anhören von Musik in der Warteschleife.  <br/> |
 |[Ich möchte Statusänderungen mitgeteilt bekommen](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | Mit dieser Funktion können Sie Personen markieren, die derzeit nicht erreichbar sind, und mit der Sie benachrichtigt werden, wenn sich ihr Anwesenheitsstatus ändert und sie Telefonanrufe entgegennehmen können. <br/> |
 |Für PC, Mac und Mobile Clients  <br/> | Dadurch werden Anruffunktionen auf Geräten, Tablets und Mobiltelefone, PCs und IP-Tischtelefonen. <br/> |
 |Gerätewechsel  <br/> |Ermöglicht Ihnen die Wiedergabe Ihres Anrufs oder Ihrer Besprechung auf einem anderen Gerät.  <br/> |

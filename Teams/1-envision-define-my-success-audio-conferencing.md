@@ -1,7 +1,7 @@
 ---
-title: Definieren von Erfolg Audiokonferenzen - Microsoft-Teams
+title: Definieren von Erfolg in Audiokonferenzen – Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
@@ -14,11 +14,11 @@ appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
 ms.openlocfilehash: 7c294b3ac75b92f7c6e2384f34497bc620478d29
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243778"
 ---
 # <a name="define-my-success"></a>Definieren der Erfolgskriterien
 

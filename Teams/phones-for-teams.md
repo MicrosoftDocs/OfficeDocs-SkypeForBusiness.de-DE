@@ -17,11 +17,11 @@ ms.collection:
 localization_priority: Normal
 description: Dieser Artikel behandelt die Liste der Telefone, die für Microsoft-Teams, und die Features, die in die Zertifizierung für Microsoft-Teams, Telefone unterstützt zertifiziert wurden.
 ms.openlocfilehash: a5ac86ee1eb5e6ae87c25f9a2151efb092635323
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246638"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefone für Microsoft Teams
 
@@ -38,26 +38,26 @@ Eine allgemeine Reihe von Features, die in zertifizierten IP-Telefone Teams unte
 |Funktionen |Telefon (persönliche Modus) |Raum-Konferenztelefon (gemeinsamer Modus)|
 |---------|---------|---------|
 |**Authentifizierung** | |  |
-|Anmelden mit Benutzeranmeldeinformationen |  Ja  | Ja |
+|Anmelden mit Benutzeranmeldeinformationen |  Ja  | Ja|
 |Melden Sie sich mit PC/Smartphone  | Ja  |Ja|
-|Moderne Authentifizierung | Ja  |Ja  |
+|Moderne Authentifizierung | Ja  |Ja |
 |Telefon Sperren/Sperre aufheben | Ja |Nein |
 |**Anrufe** |  |  |
-|Eingehend/ausgehend P2P-Aufrufe | Ja   |Ja  |
-|Anruf Steuerelemente über die Benutzeroberfläche (stumm schalten, halten/fortsetzen, Weiterleitung, Anruf beenden)| Ja   |Ja  |
-|PSTN-Anrufe| Ja   |Ja  |
+|Eingehend/ausgehend P2P-Aufrufe | Ja   |Ja |
+|Anruf Steuerelemente über die Benutzeroberfläche (stumm schalten, halten/fortsetzen, Weiterleitung, Anruf beenden)| Ja   |Ja |
+|PSTN-Anrufe| Ja   |Ja |
 |Visuelle Mailbox | Ja | Nein |
-|911-Unterstützung  | Ja   |Ja  |
+|911-Unterstützung  | Ja   |Ja |
 |**Kalender und Anwesenheit**|   | |
-|Zugriff auf den Kalender und Besprechungsdetails|Ja  |Ja |
-|Integration von Anwesenheitsfunktionen |Ja|Ja |
-|Integration von Exchange-Kalender |Ja |Ja |
-|Integration von Kontaktbildern  |Ja |Ja |
-|Unternehmensverzeichnis Zugriff | Ja |Ja |
+|Zugriff auf den Kalender und Besprechungsdetails|Ja  |Ja|
+|Integration von Anwesenheitsfunktionen |Ja|Ja|
+|Integration von Exchange-Kalender |Ja |Ja|
+|Integration von Kontaktbildern  |Ja |Ja|
+|Unternehmensverzeichnis Zugriff | Ja |Ja|
 |**Besprechungen**|   ||
-|Per Mausklick Join für Besprechungen  | Ja   |Ja  |
-|Skype für Business-Besprechungen teilnehmen | Ja   | Ja |
-|Besprechung die anrufsteuerungen (Stummschalten/stummschaltung aufheben halten/fortsetzen, Auflegen, Teilnehmer hinzufügen/entfernen)|Ja |Ja |
+|Per Mausklick Join für Besprechungen  | Ja   |Ja |
+|Skype für Business-Besprechungen teilnehmen | Ja   | Ja|
+|Besprechung die anrufsteuerungen (Stummschalten/stummschaltung aufheben halten/fortsetzen, Auflegen, Teilnehmer hinzufügen/entfernen)|Ja |Ja|
 |Besprechungsdetails|Ja|Nein|
 
 Wir arbeiten ständig Features, mit denen Benutzer-Erlebnis auf Telefonen ihren Teams hinzuzufügen. Die folgenden Screenshots veranschaulichen einige der Kommunikationskanäle, die wir heute unterstützt werden.

@@ -1,7 +1,7 @@
 ---
 title: Treffen von Entscheidungen für den Audio-Konferenzdienst – Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 12/28/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 9b6bd854de7af09ebea6b66a6393beb751f11770
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569998"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241540"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -161,9 +161,9 @@ Wenn Sie vorhandene Konferenz Bridge Telefonnummern an den Audio-Konferenzdienst
 
 Lesen Sie mehr über die Konferenz Bridge Rufnummern finden Sie in den folgenden Artikeln:
 
--   [Einrichten von Audiokonferenzen für Microsoft-Teams](set-up-audio-conferencing-in-teams.md)
+-   [Einrichten von Audiokonferenzen für Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
--   [Telefonnummern für Audiokonferenzen](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+-   [Telefonnummern für Audiokonferenz](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
 
 -   [Abrufen von Diensttelefonnummern](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 

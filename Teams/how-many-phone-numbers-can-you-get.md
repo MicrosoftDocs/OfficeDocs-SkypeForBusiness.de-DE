@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: Wenn Sie Telefonnummern für Ihre Organisation reservieren möchten, kann die Anzahl der reservierten Telefonnummern die Anzahl der zugewiesenen Lizenzen übersteigen. Dies richtet sich jedoch nach der Art der Telefonnummern und der Art der Lizenzen, die Sie gekauft haben und die Ihnen zugewiesen wurden. Sie können klicken Sie auf verschiedene Arten von Rufnummern für plant Aufrufen verwendet, um Informationen zu den verschiedenen Rufnummern finden Sie heraus, die in Skype für Business Online verwendet werden.
 ms.openlocfilehash: d2eba9d9d12610ed93b1da3e322c297fd93424d6
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640954"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245521"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Wie viele Telefonnummern können Sie bekommen?
 

@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b3aab01d03b3239918c48bfb250df00208f76a7f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891139"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246290"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Planen von Microsoft 365 Government - GCC hohe Bereitstellungen
 
@@ -73,7 +73,7 @@ Es wird empfohlen, dass Sie Ihre [Einstellungen Verwaltungs- und Sicherheitsfunk
 
 Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, gibt es einige Unterschiede zwischen Teams Microsoft 365 für Behörden - GCC hohe und Teams in den Enterprise-Plänen. Finden Sie in der folgenden Tabelle sehen Sie, welche Features verfügbar sind.
 
-|                             | Funktion                     | GCC hoch       |
+|                             | Feature                     | GCC hoch       |
 |-----------------------------|-----------------------------|----------------|
 | Base | Anmeldung | Verfügbar |
 | | Anwesenheit | Verfügbar |
@@ -127,7 +127,7 @@ Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, gibt es einige
 | | Organisation automatische Telefonzentrale | Klicken Sie auf der Regierung Bestand |
 | | Wenden Sie Skype Consumer - Teams | Nicht verfügbar |
 | Dateien | aktuell | Verfügbar |
-| | Microsoft Teams | Verfügbar |
+| | Microsoft Teams | Verfügbar |
 | abspeichern | App-Store | Nicht verfügbar |
 | Suche | Nachrichten | Verfügbar |
 | | Kontakte | Verfügbar |

@@ -1,7 +1,7 @@
 ---
 title: Häufig gestellte Fragen zur Microsoft Education-Governance für IT-Spezialisten – Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: article
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5058347677b1c5baef6f01fefb1f8eca3ac4384
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e2be87b8d48970c9f33a4a49ae9970bee6fb3da3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461180"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246162"
 ---
-# <a name="microsoft-education-governance-faq-for-admins"></a>Microsoft Education Governance – häufig gestellte Fragen für Administratoren
+# <a name="microsoft-education-governance-faq-for-admins"></a>Häufig gestellte Fragen zur Microsoft Education-Governance für Administratoren
 
 > [!Tip]
 > Sehen Sie sich die folgenden Sitzung Informationen zu weiteren Informationen zur Verwaltung in Microsoft-Teams: [Steuerung und Verwaltung Lebenszyklus im Microsoft-Teams](https://aka.ms/teams-governance)
@@ -113,7 +113,7 @@ Die [Microsoft Graph-API (Beta)](https://developer.microsoft.com/graph/docs/api-
 
 Ja. Sie können Richtlinien zur Steuerung bestimmte messaging, Besprechung, aufrufen, und live-Ereignis-Features, die, denen Ihre Benutzer Zugriff haben. Sie können mit Einstellungen für Mandanten geltende können die gleichen Einstellungen gelten für alle oder Richtlinien auf Benutzerebene anwenden, wenn erforderlich. 
 
-Weitere Informationen zu Richtlinien für Teams finden Sie unter [Microsoft-Teams, Verwalten von Features in Office 365-Organisation](enable-features-office-365.md).
+Weitere Informationen zu Richtlinien für Teams finden Sie unter [Microsoft-Teams, Verwalten von Einstellungen für Ihre Organisation](enable-features-office-365.md).
  
 ## <a name="can-i-control-what-external-parties-my-faculty-and-students-collaborate-with"></a>Kann ich welche externen Parteien steuern Meine Fakultät und Schüler mit zusammenarbeiten?
 

@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 041bd5db6f0579a21dbdff15136e91a70e5a8d21
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236421"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
@@ -56,19 +56,19 @@ In der folgenden Tabelle zeigt die verfügbaren Features aufrufende und Besprech
 
 | Aufrufen von Features | Gast | E1 und E3 Benutzer | E5 und EV-Benutzer |
 | --------------- | ----- | -------------- | -------------- |
-| VOIP-Anrufe | Ja | Ja  | Ja  |
-| Gruppe aufrufen | Ja | Ja  | Ja  |
-| Die anrufsteuerungen Core unterstützt (halten, stumm schalten, Video on/off Bildschirmfreigabe) | Ja | Ja  | Ja  |
-| Ziel übertragen | Ja | Ja  | Ja  |
-| Können einen Anruf weiterleiten | Ja | Ja  | Ja  |
-| Konsultieren vor dem durchstellen können | Ja | Ja  | Ja  |
-| Können andere Benutzer zu einem Anruf über VOIP hinzufügen | Ja | Ja  | Ja  |
+| VOIP-Anrufe | Ja | Ja | Ja |
+| Gruppe aufrufen | Ja | Ja | Ja |
+| Die anrufsteuerungen Core unterstützt (halten, stumm schalten, Video on/off Bildschirmfreigabe) | Ja | Ja | Ja |
+| Ziel übertragen | Ja | Ja | Ja |
+| Können einen Anruf weiterleiten | Ja | Ja | Ja |
+| Konsultieren vor dem durchstellen können | Ja | Ja | Ja |
+| Können andere Benutzer zu einem Anruf über VOIP hinzufügen | Ja | Ja | Ja |
 | Können Benutzer nach Telefonnummer einen Anruf hinzufügen | Nein | Nein | Ja |
-| Forward-Ziel | Nein | Ja | Ja  |
-| Rufen Sie die Gruppe Ziel | Nein | Ja | Ja  |
-| Nicht beantwortete Ziel | Nein | Ja | Ja  |
-| Kann das Ziel einer federated Aufrufs | Nein | Ja | Ja  |
-| Können Verbundbenutzer anrufen | Nein | Ja | Ja  |
+| Forward-Ziel | Nein | Ja | Ja |
+| Rufen Sie die Gruppe Ziel | Nein | Ja | Ja |
+| Nicht beantwortete Ziel | Nein | Ja | Ja |
+| Kann das Ziel einer federated Aufrufs | Nein | Ja | Ja |
+| Können Verbundbenutzer anrufen | Nein | Ja | Ja |
 | Können sofort ihre Anrufe weiterleiten. | Nein | Nein | Ja |
 | Ihre Anrufe können gleichzeitig bei Anrufen. | Nein | Nein | Ja |
 | Kann ihre nicht entgegengenommene Anrufe weitergeleitet werden. | Nein | Nein | Ja |
@@ -88,26 +88,26 @@ In der folgenden Tabelle zeigt die verfügbaren Features aufrufende und Besprech
 > [!NOTE]
 > Office 365-Administratoren steuern die für Gäste verfügbaren Funktionen. 
  
-## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff im Vergleich zum externen Zugriff (Verbund)
+## <a name="guest-access-vs-external-access-federation"></a>Gastzugriff und externer Zugriff (Partnerverbund) im Vergleich
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
  
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
   
 Q. Haben Gäste als Teammitglieder dieselben Funktionen zur Verfügung?<br>
-A. Nein. Weitere Informationen zu welche Gastsystem oder nicht tun kann finden Sie auf [Gast-Funktionen in Teams](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
+A. Nummer Weitere Informationen zu welche Gastsystem oder nicht tun kann finden Sie auf [Gast-Funktionen in Teams](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
 
 Q. Wie viele Gäste können von mir eingeladene?<br>
 A. Sie können bis zu 5 Gäste pro lizenzierten Benutzer hinzufügen.
 
 Q. Haben Gäste Zugriff auf OneDrive für Unternehmen?<br>
-A. Nein.
+A. Nummer
 
 Q. Führen Sie Gäste auf SharePoint-Dateien können zugreifen?<br>
 A. Ja.
 
 Q. Suchen von Gäste innerhalb von Dateien?<br>
-A. Nein.
+A. Nummer
 
 Q. Werden Gäste können Dateien angefügt?<br>
 A. Ja, Gastsystem kann Dateien in diesen beiden Methoden zum Anfügen: • Wählen Sie im linken Bereich Dateien aus, und navigieren Sie zum Speicherort Datei.

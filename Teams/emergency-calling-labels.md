@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 description: Sie können diese Etiketten gewendet Notfall bei Aufrufen plant in Office 365 herunterladen.
 ms.openlocfilehash: 2b88bfe984aed655a78f69a580fdd1d510f3d8e1
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542000"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244437"
 ---
 # <a name="emergency-calling-labels"></a>Notrufdienste Etiketten
 
@@ -35,6 +35,6 @@ Dies sind Notfall aufrufen (911) Haftungsausschluss Etiketten oder Aufkleber fü
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Verschiedene Arten von Telefonnummern für Anrufpläne](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)

@@ -15,11 +15,11 @@ description: Hier erhalten Sie einen kurzen Überblick darüber, wie ein Gast ei
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d8bc9eabb467479b0b33793ace9fc0b97d179f93
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "30640714"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235547"
 ---
 <a name="how-a-guest-joins-a-team"></a>Beitritt eines Gasts zu einem Team
 ========================

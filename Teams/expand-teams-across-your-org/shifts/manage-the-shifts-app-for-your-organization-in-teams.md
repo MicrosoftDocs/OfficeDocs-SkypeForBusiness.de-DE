@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b1ef7ee44b1d6318b85461b5d6b9d4173cc8552
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 9927da9aea89eeb4d5b1b71eac2818c5deb52925
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245934"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
 
@@ -58,8 +58,6 @@ Schichten ist standardmäßig für alle Teams Benutzer in Ihrer Organisation akt
     ![Screenshot des Abschnitts Standard-Apps] (../../media/firstline-worker-enable-disable-shifts.png "Screenshot des Abschnitts Standard-Apps in der Microsoft-365-Verwaltungskonsole mit der Liste der apps, einschließlich app-Schichten")
 
 ### <a name="use-the-firstline-worker-app-setup-policy-to-pin-shifts-to-teams"></a>Verwenden Sie die Firstline Worker app Setup-Richtlinie auf Pin Schichten Teams
-
-> [!INCLUDE [Preview customer token](../../includes/preview-feature.md)]
 
 Richtlinien für die App Setup können Sie Teams zum Hervorheben von apps, die für Benutzer in Ihrer Organisation am wichtigsten sind anpassen. Die apps in einer Richtlinie festgelegt werden auf der app-Leiste angeheftete&mdash;der Leiste rechts auf dem Desktopclient Teams und am unteren Rand der mobilen Clients Teams&mdash;, in dem Benutzer können schnell und einfach darauf zugreifen. 
  

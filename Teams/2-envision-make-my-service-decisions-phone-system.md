@@ -1,7 +1,7 @@
 ---
 title: Treffen von Entscheidungen für das Telefonsystem mit Anrufplänen – Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 98a66e0335daf0e74c96d0a2dad18f89bd1f4c5f
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242417"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -154,9 +154,9 @@ Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden
 > |Emily Braun      |Online      |Ja |Aktiviert |Aktiviert |
 > |Lidia Holloway   |Online      |Ja |Aktiviert |Deaktiviert |
 > |Louis Lahr       |Lokal |Ja |Aktiviert |Aktiviert |
-> |Marcel Beauchamp |Lokal |Ja |Deaktiviert |n/v |
-> |Rachelle Cormier |Online      |Ja |Deaktiviert |n/v |
-> |Isabell Potvin   |Lokal |Ja |Deaktiviert |n/v |
+> |Marcel Beauchamp |Lokal |Ja |Deaktiviert |Nicht zutreffend |
+> |Rachelle Cormier |Online      |Ja |Deaktiviert |Nicht zutreffend |
+> |Isabell Potvin   |Lokal |Ja |Deaktiviert |Nicht zutreffend |
 
 <!--ENDOFSECTION-->
 

@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 description: 'Hier erfahren Sie, welche Sprachen Sie in Skype for Business für die Standardnachrichten des Systems festlegen können. '
 ms.openlocfilehash: eb16bc3e8826cb38727258db64ac061bf969479f
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569487"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245238"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Sprachen für Voicemail-Ansagen und -nachrichten
 
@@ -37,14 +37,14 @@ Um die Sprache zu ändern, die Skype for Business für System-Voicemail-Ansagen 
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Sprache** <br/> |**Land/Region** <br/> |**Sprachcode** <br/> |**Für Benutzer in E-Mails sichtbar?** <br/> |**Verfügbar bei Anrufen des Benutzers?** <br/> |**Transkription verfügbar?** <br/> |
-|Arabisch <br/> |Ägypten  <br/> |Ar-EG  <br/> |Ja  <br/> |Ja  <br/> |Ja   <br/> |
+|Arabisch <br/> |Ägypten  <br/> |Ar-EG  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Katalanisch  <br/> |Katalanisch  <br/> |ca-ES  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Chinesisch (vereinfacht)  <br/> |China  <br/> |zh-hans  <br/> |Ja   <br/> |Ja  <br/> |Ja   <br/> |
+|Chinesisch (vereinfacht)  <br/> |China  <br/> |zh-hans  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Chinesisch (Hongkong SAR)  <br/> |China  <br/> |zh-hk  <br/> |Ja, verwendet wird aber Chinesisch (traditionell) (zh-hant).  <br/> | Ja <br/> |Ja, verwendet wird aber Chinesisch (traditionell) (zh-hant).  <br/> |
 |Chinesisch (traditionell)  <br/> |Taiwan  <br/> |zh-hant  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Kroatisch<br/> |Kroatien  <br/> |hr-HR  <br/> |Ja  <br/> |Ja  <br/> |Ja   <br/> |
-|Tschechisch <br/> |Tschechische Republik  <br/> |cs-CZ  <br/> |Ja   <br/> |Ja  <br/> |Ja   <br/> |
-|Dänisch  <br/> |Dänemark  <br/> |da-DK  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
+|Kroatisch<br/> |Kroatien  <br/> |hr-HR  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
+|Tschechisch <br/> |Tschechische Republik  <br/> |cs-CZ  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
+|Dänisch  <br/> |Dänemark  <br/> |da-DK  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |Niederländisch  <br/> |Niederlande  <br/> |nl-NL  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |Englisch  <br/> |Australien  <br/> |en-AU  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |Ja  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |
 |Englisch  <br/> |Kanada  <br/> |en-CA  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |Ja  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |
@@ -53,28 +53,28 @@ Um die Sprache zu ändern, die Skype for Business für System-Voicemail-Ansagen 
 |Englisch  <br/> |Vereinigte Staaten  <br/> |en-US  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Finnisch  <br/> |Finnland  <br/> |fi-Fl  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |Französisch  <br/> |Kanada  <br/> |fr-CA  <br/> |Ja, verwendet wird aber Französisch (Frankreich) (fr-FR).  <br/> |Ja  <br/> |Ja, verwendet wird aber Französisch (Frankreich) (fr-FR).  <br/> |
-|Französisch  <br/> |Frankreich  <br/> |fr-FR  <br/> |Ja  <br/> |Ja  <br/> |Ja   <br/> |
-|Deutsch  <br/> |Deutschland  <br/> |de-DE  <br/> |Ja  <br/> |Ja  <br/> |Ja   <br/> |
-|Griechisch <br/> |Griechenland  <br/> |el-GR  <br/> |Ja  <br/> |Ja  <br/> |Ja   <br/> |
-|Ungarisch <br/> |Ungarn  <br/> |hu-HU  <br/> |Ja  <br/> |Ja  <br/> |Ja   <br/> |
-|Indonesisch <br/> |Indonesien  <br/> |id-ID  <br/> |Ja   <br/> |Ja  <br/> |Ja  <br/> |
+|Französisch  <br/> |Frankreich  <br/> |fr-FR  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
+|Deutsch  <br/> |Deutschland  <br/> |de-DE  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
+|Griechisch <br/> |Griechenland  <br/> |el-GR  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
+|Ungarisch <br/> |Ungarn  <br/> |hu-HU  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
+|Indonesisch <br/> |Indonesien  <br/> |id-ID  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Italienisch  <br/> |Italien  <br/> |it-IT  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Japanisch  <br/> |Japan  <br/> |ja-JP  <br/> |Ja  <br/> |Ja  <br/> |Ja   <br/> |
+|Japanisch  <br/> |Japan  <br/> |ja-JP  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Koreanisch  <br/> |Koreanisch  <br/> |ko-KR  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |Norwegisch (Bokmal)  <br/> |Norwegen  <br/> |nb-NO  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
 |Polnisch  <br/> |Polen  <br/> |pl-PL  <br/> |Ja  <br/> | Ja <br/> |Nein  <br/> |
-|Portugiesisch  <br/> |Brasilien  <br/> |pt-BR  <br/> |Ja, verwendet wird aber Portugiesisch (Portugal) (pt-PT).  <br/> |Ja   <br/> |Ja   <br/> |
-|Portugiesisch  <br/> |Portugal  <br/> |pt-PT  <br/> |Ja   <br/> |Ja   <br/> |Ja, verwendet wird aber Portugiesisch (Brasilien) (pt-BR).  <br/> |
-|Rumänisch<br/> |Rumänien  <br/> |ro-RO  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
-|Russisch  <br/> |Russland  <br/> |ru-RU  <br/> |Ja   <br/> |Ja   <br/> |Nein  <br/> |
-|Slowakisch <br/> |Slowakei  <br/> |sk-SK  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
-|Slowenisch <br/> |Slowenien  <br/> |sl-SI  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
-|Spanisch  <br/> |Spanien  <br/> |es-ES  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
+|Portugiesisch  <br/> |Brasilien  <br/> |pt-BR  <br/> |Ja, verwendet wird aber Portugiesisch (Portugal) (pt-PT).  <br/> |Ja   <br/> |Ja  <br/> |
+|Portugiesisch  <br/> |Portugal  <br/> |pt-PT  <br/> |Ja   <br/> |Ja  <br/> |Ja, verwendet wird aber Portugiesisch (Brasilien) (pt-BR).  <br/> |
+|Rumänisch<br/> |Rumänien  <br/> |ro-RO  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Russisch  <br/> |Russland  <br/> |ru-RU  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
+|Slowakisch <br/> |Slowakei  <br/> |sk-SK  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Slowenisch <br/> |Slowenien  <br/> |sl-SI  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Spanisch  <br/> |Spanien  <br/> |es-ES  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |Spanisch  <br/> |Mexiko  <br/> |es-MX  <br/> |Ja, verwendet wird aber Spanisch (Spanien) (es-ES).  <br/> |Ja  <br/> |Ja, verwendet wird aber Spanisch (Spanien) (es-ES).  <br/> |
-|Schwedisch  <br/> |Schweden  <br/> |sv-SE  <br/> |Ja  <br/> |Ja   <br/> |Nein  <br/> |
-|Thai <br/> |Thailand  <br/> |th-TH  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
-|Türkisch  <br/> |Türkei  <br/> |tr-TR  <br/> |Ja   <br/> |Ja   <br/> |Nein  <br/> |
-|Vietnamesisch <br/> |Vietnam  <br/> |vi-VN  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
+|Schwedisch  <br/> |Schweden  <br/> |sv-SE  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
+|Thai <br/> |Thailand  <br/> |th-TH  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Türkisch  <br/> |Türkei  <br/> |tr-TR  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
+|Vietnamesisch <br/> |Vietnam  <br/> |vi-VN  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

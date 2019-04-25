@@ -22,13 +22,13 @@ f1keywords:
 - ms.lync.lac.VASAMissingGeoCodes
 ms.custom:
 - Calling Plans
-description: Je nach Land bzw. Region gelten unterschiedliche Anweisungen für das Beziehen von Telefonnummern für Benutzer in Skype for Business Online und Microsoft Teams. Folgen Sie unten dem Link für Ihr Land bzw. Ihre Region, um die benötigten Informationen anzuzeigen.
+description: Each country or region has different instructions for getting phone numbers for users in Skype for Business Online and Microsoft Teams. Follow the link to your country or region below to get the information you need.
 ms.openlocfilehash: dd4bb74172736ae3b82bef00a4b4b11c7285ee1f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245278"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Verwalten von Telefonnummern für Ihre Organisation
 Es gibt drei Möglichkeiten, um Benutzer- und Servicenummern (kostenpflichtig und gebührenfrei) für Ihre Organisation zu erhalten.
@@ -37,7 +37,7 @@ Es gibt drei Möglichkeiten, um Benutzer- und Servicenummern (kostenpflichtig un
 - Übertragen oder „portieren“ Sie Ihre bestehenden Nummern zu uns.
 
 > [!IMPORTANT]
-> In **Belgien, Irland, Deutschland und den Niederlanden**können nicht erhalten Sie neue Telefon Telefonnummern mit der **Skype für Business Administrationscenter**; Sie müssen Sie herunterladen und Ausfüllen eines Formulars. Für neue Telefonnummern in Australien siehe [Telstra Voice Services](https://aka.ms/TelstraVoicePlan).
+> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out a form. For new phone numbers in Australia, see [Telstra Voice Services](https://aka.ms/TelstraVoicePlan).
 
 ***
 Wenn Sie wissen, welche Art von Formularen Sie suchen, verwenden Sie die Dropdown-Liste, um das Land/die Region auszuwählen, wo Sie Nummern erhalten möchten.
@@ -53,7 +53,7 @@ Wenn Sie wissen, welche Art von Formularen Sie suchen, verwenden Sie die Dropdow
 > - [Niederlande](phone-number-management-for-the-netherlands.md)
 > - [Spanien](phone-number-management-for-spain.md)
 > - [Vereinigtes Königreich](phone-number-management-for-the-u-k.md)
-> - [USA (Puerto Rico)](phone-number-management-for-the-u-s.md)
+> - [US (Puerto Rico)](phone-number-management-for-the-u-s.md)
 
 ***
 ## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>Hier finden Sie weitere Informationen zu diesen Formularen zur Anforderung von Telefonnummern
@@ -62,23 +62,23 @@ Jedes Land oder jede Region hat unterschiedliche Vorschriften, verschiedene Arte
 
 In einigen Fällen (je nach Ihrem Land/Region) nicht möglich neue Benutzer (Abonnent) oder Dienst abrufen (gebührenpflichtige oder gebührenfreie) Zahlen über die **Skype für Business Administrationscenter**, oder Sie möglicherweise bestimmte Telefonnummern oder Ortskennzahlen.
 
-Wenn ja, müssen Sie das richtige PDF-Formular (je nach Land/Region und Art der Nummern) herunterladen und an uns zurücksenden. Unsere Servicedesk dauert es dort und informiert Sie darüber, über den Fortschritt oder Ihrer Reihenfolge.
+If so, you will need to download the correct PDF form (per country/region and the type of numbers) and send it back to us. Our service desk will take it from there and will let you know about the progress or your order.
 
 ### <a name="letters-of-authorization-loas-for-transferring-numbers"></a>Schriftliche Vollmachten (Letters of Authorization / LOAs) für die Übertragung von Telefonnummern
-Wenn Sie Telefonnummern übertragen müssen, laden Sie eine **Schriftliche Vollmacht (Letter of Authorization / LOA)** herunter, die uns gestattet, im Falle eines Konflikts die Übertragung der bestehenden Nummer(n) von einem anderen Dienstanbieter in Ihrem Namen zu erwirken. Verwenden Sie eine solche Vollmacht (LOA) wenn Sie:
+If you need to transfer phone numbers, you'll to download a **Letter of Authorization (LOA)**, which gives us permission to request, on your behalf, transferring the existing number(s) from a different service provider in case of a dispute. Use an LOA if you have:
 - Über Benutzernummern verfügen, die Sie bereits von einem anderen Anbieter bezogen haben.
 - Kostenpflichtige Servicenummern für Audiokonferenzbrücken, automatische Telefonzentralen oder Anrufwarteschleifen einsetzen.
 - Gebührenfreie Servicenummern haben.
 - Mehr als 999 Benutzer-Telefonnummern benötigen, die Sie aber nicht im Skype for Business Admin Center erhalten können, indem Sie den **Assistenten zur Portierung lokaler Telefonnummern** verwenden.
 
 ## <a name="if-you-still-need-help-and-arent-sure-what-to-do"></a>Wenn Sie weitere Hilfe benötigen und sich nicht sicher sind, was Sie tun sollen ...
-Wenn Sie weitere Hilfe benötigen, teilen Sie uns bitte mit, wie wir Ihnen helfen können. Bitte geben Sie in Ihrer Anfrage folgende Informationen an: Ihre Organisations-ID, Domains, welche Arten von Nummern Sie benötigen, wie viele Nummern Sie wünschen, die verantwortliche Person für das Konto und andere wichtige Details zu Ihrem Problem.
+If you still need help, please let us know how we can help you. In your Help request, include details such as your organization ID, domains, what types of numbers you need help with, how many numbers you want, authorizing person on the account and other important details about your issue.
 - Für Hilfe bei Telefonnummern innerhalb der USA: [Anfrage senden](mailto:ptn@microsoft.com).
 - Hilfe zu Telefonnummern außerhalb der USA: [Anfrage senden](mailto:ptneu@microsoft.com).
 
 #### <a name="additional-resources"></a>Zusätzliche Ressourcen:
-- Wenn Sie wissen möchten, ob Anrufpläne in Ihrem Land bzw. Ihrer Region verfügbar sind, lesen Sie [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-- Hilfe bei der Auswahl der benötigten Art von Telefonnummer finden Sie unter [Verschiedene Arten von Telefonnummern für Anrufpläne](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
+- Um herauszufinden, ob aufrufen Pläne verfügbar in Ihrem Land oder Region sind, finden Sie unter [Ländern und Region Verfügbarkeit für Audiokonferenzen und plant aufrufen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+- Mit denen Sie den Typ der Telefonnummer auswählen, die Sie benötigen, lesen Sie [verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 - Um mehr darüber zu erfahren, wie Sie Benutzer-Telefonnummern im Admin Center beziehen können, lesen Sie [Erhalten von Telefonnummern für Ihre Benutzer](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
 - Um Hilfe beim Einrichten von Rufnummern für Ihr Unternehmen, [Kontaktieren des Supports für Business-Produkte – Admin Hilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)zu erhalten.
   

@@ -1,7 +1,7 @@
 ---
 title: Betriebshandbuch für Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 04/12/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 45de98935cdba03697c84172ba7a0c081b0811da
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959236"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241820"
 ---
 # <a name="operate-my-service"></a>Verwenden des Diensts
 

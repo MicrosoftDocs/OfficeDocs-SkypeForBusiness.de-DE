@@ -13,11 +13,11 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d5033c7479a8b457a18395a9e8a8fae4740ba06a
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026197"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245699"
 ---
 # <a name="teams-for-healthcare"></a>Teams für das Gesundheitswesen
 
@@ -35,7 +35,7 @@ Teams bietet pflegekräften und medizinisches auf sichere Weise zu kommunizieren
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Erste Schritte mit Teams für Unternehmen aus dem Gesundheitswesen</h3>
+                        <h3>Erste Schritte mit Teams für Organisationen im Gesundheitswesen</h3>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ Teams bietet pflegekräften und medizinisches auf sichere Weise zu kommunizieren
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Erste Schritte mit Secure Messaging für Unternehmen aus dem Gesundheitswesen</h3>
+                        <h3>Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen</h3>
                     </div>
                 </div>
             </div>

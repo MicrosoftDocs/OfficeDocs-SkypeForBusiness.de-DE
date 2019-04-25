@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: Hier erfahren Sie, was Sie benötigen und wie Besprechungsorganisatoren mithilfe von Microsoft Teams andere Personen anrufen können.
 ms.openlocfilehash: 37f44eb96a33307b12eef485e2fdabf985ab8562
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543272"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236088"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Anrufen aus einer Microsoft Teams-Besprechung, sodass andere Personen teilnehmen können
 
@@ -56,7 +56,7 @@ Dial-out is only available to some countries/regions. Vollständige Liste finden
 
 Wenn Sie Anweisungen wie können die Benutzer in einer Besprechung Teams einwählen suchen, finden Sie unter [Telefonnummern für Audiokonferenzen in Microsoft-Teams](phone-numbers-for-audio-conferencing-in-teams.md).
 
-## <a name="want-to-know-more-about-audio-conferencing"></a>Möchten Sie mehr über Audiokonferenzen erfahren?
+## <a name="want-to-know-more-about-audio-conferencing"></a>Möchten Sie weitere Informationen zu Audiokonferenzen wissen?
 
 [Testen oder Erwerben von Audiokonferenzen in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     

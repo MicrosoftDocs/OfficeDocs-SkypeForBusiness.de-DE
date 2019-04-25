@@ -1,9 +1,9 @@
 ---
 title: Vorbereiten der Bereitstellung des Microsoft Teams-Cloud Voice-Diensts
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
-ms.date: 09/11/2018
+ms.date: 03/18/2019
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ede6bb8d63a53ccd636bb9881d60e521492afb8
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 886fb0d851112fbb76ca20aeb6b4c1b35e736757
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568456"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241370"
 ---
 # <a name="prepare-my-service"></a>Vorbereiten des Diensts
 
@@ -114,7 +114,7 @@ Weitere Informationen finden Sie unter:
 
 - [Technische Planung für Audiokonferenzen](audio-conferencing.md#technical-planning-for-audio-conferencing)
 
-- [Einrichten von Audiokonferenzen für Microsoft-Teams](set-up-audio-conferencing-in-teams.md)
+- [Einrichten von Audiokonferenzen für Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 - [Technische Telefonsystem mit dem Aufrufen der Pläne planen](calling-plan-landing-page.md)
 
