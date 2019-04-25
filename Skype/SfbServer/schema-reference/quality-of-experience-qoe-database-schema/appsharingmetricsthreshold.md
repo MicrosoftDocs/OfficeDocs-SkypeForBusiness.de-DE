@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 description: Die Tabelle "appsharingmetricsthreshold" enthält optimale und zulässige Werte für Quality of Experience-Metriken, die mit der Anwendungsfreigabe verwendet. Diese Schwellenwerte werden verwendet, um festzustellen, ob die Anwendungsfreigabe Erfahrung als schlecht klassifiziert werden sollen.
 ms.openlocfilehash: bddad99803ab6683985b0f44ed5df509b84344f3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212327"
 ---
 # <a name="appsharingmetricsthreshold-table"></a>Tabelle "appsharingmetricsthreshold"
  

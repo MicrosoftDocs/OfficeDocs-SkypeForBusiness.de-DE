@@ -14,11 +14,11 @@ ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Im Topologie-Generator können Sie Aufgaben im Zusammenhang mit einem einzelnen Server unter Überwachung Maustaste auf dem Server mit der Überwachung in der Konsolenstruktur ausführen, klicken Sie auf Aktion in der Symbolleiste oder durch Klicken auf eine Aufgabe im Bereich Aktionen und dann auf eine der die folgenden Optionen für den Server mit der Überwachung:'
 ms.openlocfilehash: 2f156b660dc60a16c67ac9bdf54e8114ce17a0ed
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882383"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235354"
 ---
 # <a name="monitoring-scope-node"></a>Überwachung – Bereichsknoten
  

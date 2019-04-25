@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'Hier erhalten Sie einen kurzen Überblick über das Übertragen von Telefonnummern eines Dienstanbieters an Skype for Business. '
 ms.openlocfilehash: 9ef870abbab8760a09db667a481d7f3f53708423
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958361"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229807"
 ---
 # <a name="port-order-overview"></a>Übersicht über Portierungsaufträge
 

@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in den Niederlanden für Skype for Business Online und Microsoft Teams.
 ms.openlocfilehash: 78170170a9a15b8991ff2d7b538d0daecca01f46
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542927"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245230"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Telefonnummernverwaltung für die Niederlande
 

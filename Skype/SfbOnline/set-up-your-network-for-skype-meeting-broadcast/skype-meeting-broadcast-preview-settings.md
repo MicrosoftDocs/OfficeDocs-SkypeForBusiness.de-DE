@@ -21,17 +21,17 @@ ms.custom:
 - SMB
 description: Die Skype für Business Customer Preview Programm bietet Sie früher Zugriff auf neue Produkte und Features. Es kann Ihre Organisation eine Vorschau auf was kommt, testen Sie die neuen Features in Ihrer Umgebung, und geben Sie Feedback, bevor wir Produktbuilds der Öffentlichkeit freigeben, abrufen. Wenn um Sie mehr zu erfahren, finden Sie unter Skype Business Vorschau.
 ms.openlocfilehash: 1f563292e2e5927cf037e5d2a9b24405d0a336a2
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865027"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226144"
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Skype Besprechung übertragen Preview-Einstellungen
 
 Die Skype für Business Customer Preview Programm bietet Sie früher Zugriff auf neue Produkte und Features. Es kann Ihre Organisation eine Vorschau auf was kommt, testen Sie die neuen Features in Ihrer Umgebung, und geben Sie Feedback, bevor wir Produktbuilds der Öffentlichkeit freigeben, abrufen. Um mehr zu erfahren, finden Sie unter [Skype für Business Preview](https://www.skypepreview.com/).
 
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   
 [Einrichten von Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)

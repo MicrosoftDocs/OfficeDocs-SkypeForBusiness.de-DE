@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: 'Zusammenfassung: Erfahren Sie, wie Manuelles Löschen von Datensätzen KDS und die QoE-Datenbank von Skype für Business Server verwendet wird.'
 ms.openlocfilehash: 55582d28541e798e8ab1c488fb6eeed266bd29b9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879833"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225469"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Manuelles Löschen der KDS- und Quality of Experience-Datenbanken in Skype für Business Server
  

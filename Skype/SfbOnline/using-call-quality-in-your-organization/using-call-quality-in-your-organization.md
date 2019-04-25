@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Anrufqualität in Ihrer Organisation
+title: Verwenden der Anrufqualität in Ihrer Organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 description: Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems.
 ms.openlocfilehash: 5ba24a8c4d8f74a2a43f28f3f42280a1be40f814
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227288"
 ---
-# <a name="using-call-quality-in-your-organization"></a>Verwenden von Anrufqualität in Ihrer Organisation
+# <a name="using-call-quality-in-your-organization"></a>Verwenden der Anrufqualität in Ihrer Organisation
 
 

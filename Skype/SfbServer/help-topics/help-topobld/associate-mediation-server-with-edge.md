@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 'Geben Sie zum Definieren eines Vermittlungsservers Einstellungen, die der Vermittlungsserver mit einem Front-End-Server und mit einem Edge-Server oder Pool zuzuordnen. Gehen Sie wie folgt vor, um mit einem Edge-Server oder Pool für Edge-Server Mediation Server oder Pool zuzuordnen:'
 ms.openlocfilehash: dce7037d865d072c2b7897932b54c03b861c3908
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877377"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227382"
 ---
 # <a name="associate-mediation-server-with-edge"></a>Zuordnen des Vermittlungsservers zur Edgekomponente
  

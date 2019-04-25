@@ -1,5 +1,5 @@
 ---
-title: Wie muss ich die Telefonnummern eingeben?
+title: Wie sollte ich die angezeigten Rufnummern eingeben?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,13 @@ ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Telefonnummern einrichten, wenn Sie diese zu Skype für Unternehmen port. '
 ms.openlocfilehash: 62f9fb98378bfa7802013399d3d9b005047e663d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374087"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229877"
 ---
-# <a name="how-should-i-enter-the-phone-numbers"></a>Wie muss ich die Telefonnummern eingeben?
+# <a name="how-should-i-enter-the-phone-numbers"></a>Wie sollte ich die angezeigten Rufnummern eingeben?
 
 Wenn Sie Rufnummern portieren, müssen Sie diese im richtigen Format eingeben. 
   
@@ -42,7 +42,7 @@ Wenn Sie Rufnummern portieren, müssen Sie diese im richtigen Format eingeben.
     
   - Für eine Nummer 11: **1\*() (\*&amp;42&amp;\*() (\*&amp;55550649** wird auf **+14255550649**korrigiert werden.
     
-  - Alle Tags werden ignoriert, wenn 10 oder 11 Ziffern vorhanden sind. Beispielsweise ** \<Div > 4255551234\</div >** **+ 14255551234**werden.
+  - Alle Tags werden ignoriert, wenn 10 oder 11 Ziffern vorhanden sind. Beispielsweise ** \<Div> 4255551234\</div>** **+ 14255551234**werden.
     
   - "-", Leerzeichen und Klammern werden ignoriert. Beispiel:
     

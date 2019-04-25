@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Vor Beginn entwerfen und planen Ihre Skype für Business Server 2015 Infrastruktur mithilfe der Skype für Business Server 2015-Planungstool, Sie müssen zuerst installieren das Planungstool. Das Planungstool muss nicht bereitgestellt werden, auf einer Arbeitsstation oder einem Server, der Teil der Domäne oder der Infrastruktur, in der Sie Skype für Business Server 2015 installieren möchten. Die Planungstool gehörenden Infodatei enthält wichtige Informationen zur Installation und Verwendung des Tools. Einige Informationen aus dieser Datei werden zur Verdeutlichung im Folgenden noch einmal aufgeführt.
 ms.openlocfilehash: 616cec026dfc5890cffc3975ea421d98ec13e412
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884132"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217299"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Installieren des Planungstools in Skype for Business Server 2015
 

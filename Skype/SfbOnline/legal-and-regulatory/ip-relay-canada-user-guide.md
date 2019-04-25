@@ -19,11 +19,11 @@ ms.custom:
 hideEdit: true
 description: Wie Sie ein IP-Relay-Konto für Kanada verwenden.
 ms.openlocfilehash: b5f6d268db302b4b0446c5f692bb7e27daa60b17
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863031"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224192"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>IP Relay in Kanada - Benutzerhandbuch
 

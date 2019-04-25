@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Falls Ihre Bereitstellung der Vorversion einen Archivierungsserver oder einen Monitoring Server nach der Migration zu Skype für Business Server 2019 enthalten, können dieser Server aus der vorgängerumgebung entfernt werden, sofern alle Benutzer aus den verbleibenden Pools Vorversion entfernt wurden. Sie können in eine beliebige Abfolge der Archivierungsserver oder Monitoring Server entfernen. Die wichtigste Anforderung ist, dass alle Benutzer aus den verbleibenden Pools Vorversion entfernt wurden.
 ms.openlocfilehash: 5a3a691c8f2e8a4ad3610ccf1ea947ce23b74111
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231423"
 ---
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>Entfernen von Archivierungsservern und Monitoring Servern der Vorversion
 

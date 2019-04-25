@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: b3b71e3080c1eb14733a2b7ccd6d6a903ec11975
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694689"
----
 > [!NOTE]
 > Microsoft-Teams, wird in regelmäßigen Abständen weiterentwickelt – neue Features und Funktionen werden häufig hinzugefügt. Überwachen Sie die folgenden Ressourcen auf dem neuesten Stand bleiben:
 > - Führen Sie im [Blog des Teams](https://aka.ms/teamsblog).

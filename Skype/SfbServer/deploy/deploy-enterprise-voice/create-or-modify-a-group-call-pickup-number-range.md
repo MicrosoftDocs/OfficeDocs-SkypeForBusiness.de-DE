@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Erstellen oder Ändern eines Gruppe anrufen Pickup-Nummernbereichs in Skype für Business Server Enterprise-VoIP.
 ms.openlocfilehash: 0032d46507c6cb91629b94662ec67bf9c67b7cc4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885610"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223219"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Erstellen oder Ändern eines Gruppe anrufen Pickup-Nummernbereichs in Skype für Unternehmen
 

@@ -1,5 +1,5 @@
 ---
-title: Lenkungsausschuß für Microsoft-Teams, Cloud-VoIP-Bereitstellung
+title: Lenkungsausschuss für Microsoft Teams-Cloud Voice-Bereitstellung
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 010d4e2b7a9f64ca57e38b185b013d92b4d7c1ca
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464284"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235376"
 ---
 # <a name="steering-committee"></a>Lenkungsausschuss
 
@@ -71,7 +71,7 @@ Jeder Lenkungsausschuss benötigt starken führende und klar definierten Rollen 
 | Business Decision Maker(s) | Vertreter für das Projekt, stellen Sie sicher, dass die Richtung die Vision der Organisation ausgerichtet bleibt | | |
 | Architekt | Sicherstellen Sie, dass die Technologie Entscheidungen erreichbar sind und vereinbart auf Geschäftsergebnisse ausrichten. | | |
 | Core Projektteams | Einzelheiten Sie über eine bestimmte Komponente, entweder technischen oder technischen (beispielsweise Annahme und Änderungsmanagement) | | |
-| Qualitätspionier | Zusammenstellen von Qualitätsmetriken verantwortlich sein. | | |
+| Qualität Champion | Zusammenstellen von Qualitätsmetriken verantwortlich sein. | | |
 | Programm/Projektmanager | Übernehmen Sie die Verantwortung für die Präsentation und Auflistung von Feedback zur Integration in das Projekt. | | |
 | Partner-Kundenteam | Geben Sie Feedback aus der Partner Sicht breitere im Hinblick auf andere Aktivitäten Partner. | | |
 | Partner-Projektteams | Geben Sie Feedback aus der Partner Sicht zu im Zusammenhang mit der Bereitstellung des Projekts | | |

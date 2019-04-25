@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Zusammenfassung: Erstellen Sie oder ändern Sie der VoIP-Richtlinien und konfigurieren Sie PSTN-verwendungsdatensätzen mithilfe der Skype für Business Server-Systemsteuerung.'
 ms.openlocfilehash: 9a7847e918be71b88a7ba32c986c18f7659905ee
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875574"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222519"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen
 

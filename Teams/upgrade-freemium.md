@@ -17,13 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-- Skype for Business Online
-ms.openlocfilehash: d8365792ead4422786d8e54c2541ff42d79f35b6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3f97e3a22122b08c9b554d0c1a395a8d714d92e1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464316"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227619"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Aktualisieren der kostenlosen Version von Microsoft Teams auf die Office 365-Abonnementversion
 ======================================================
@@ -95,4 +94,5 @@ Nach Abschluss des Upgrades finden Sie unter [Erste Schritte mit Microsoft-Teams
 - Weitere Informationen zu Teams Versionen und deren Möglichkeiten finden Sie unter [Pläne Teams verglichen werden soll](https://products.office.com/microsoft-teams/free).
 - Weitere Informationen zum Upgrade auf die Vollversion von Teams finden Sie unter [Upgrade von Teams können Teams](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
 - Zusätzliche Administratoraufgaben im Zusammenhang mit aktualisieren Benutzer, einschließlich des Hinzufügens von Benutzerlizenzen finden Sie unter Benutzernamen ändern und Zuweisen von temporären Kennwörter [für Administratoren Aktualisieren von Teams, die in ein kostenpflichtiges Abonnement frei](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52).
+- Informationen zum Verwalten von Teams, die in Ihrer Organisation frei finden Sie unter [verwalten die kostenlose Version von Microsoft-Teams](manage-freemium.md).
 

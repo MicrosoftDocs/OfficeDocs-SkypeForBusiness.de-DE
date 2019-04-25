@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 description: Die Seite Befehle ausführen zeigt den Status der Befehle, die das ausstehende Zertifikat abrufen. Wenn der Vorgang abgeschlossen ist, ist die Protokolldatei ausstehende Zertifikate abrufen verfügbar. Klicken Sie auf Protokoll anzeigen, um die Verarbeitung und Abschlussstatus Aufgabe überprüfen. Klicken Sie auf Weiter, um fortzufahren.
 ms.openlocfilehash: a2b02c547d8af99bb5c60338e3d8d05622ae3f85
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235058"
 ---
 # <a name="pending-certificate-invoke"></a>Ausstehendes Zertifikat (Aufruf)
  

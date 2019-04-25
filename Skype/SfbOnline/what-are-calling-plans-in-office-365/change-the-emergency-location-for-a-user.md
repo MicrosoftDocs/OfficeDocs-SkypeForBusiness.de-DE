@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Sie den Notfallort für Ihre Benutzer ändern können. Mit einer unbegrenzten Anzahl von Standorten können Sie Notfallorte ändern, wenn Mitarbeiter Stockwerke oder Gebäude wechseln. '
 ms.openlocfilehash: 9e583cf7882b5a269378dd69dbda37311ad08e28
-ms.sourcegitcommit: c40ebb4095fae861295c01af0a518375f32988e1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31744280"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233208"
 ---
 # <a name="assign-or-change-the-emergency-location-for-a-user"></a>Zuweisen oder Ändern des Notfallstandorts für einen Benutzer
 

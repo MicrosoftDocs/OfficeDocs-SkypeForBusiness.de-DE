@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: Senden von Ihren Benutzern eine e-Mail mit ihren Audiokonferenzinformationen in Skype für Business Online.
 ms.openlocfilehash: 80cfbd88b8c933e2b1e66d6348deff111a45f8e3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373617"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229321"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Senden einer e-Mails an einen Benutzer mit ihren Audiokonferenzen Informationen in Skype für Business Online
 
@@ -73,7 +73,7 @@ Es folgt ein Beispiel der e-Mail, die gesendet wird:
     
   - Wenn Sie manuell des Benutzers Audiokonferenzen PIN zurücksetzen.
     
-  - Wenn Sie die Konferenz-PIN des Benutzers manuell zurücksetzen.
+  - Wenn Sie die Konferenz-ID des Benutzers manuell zurücksetzen.
     
   - Wenn eine **Audiokonferenz** Lizenz daraus entfernt wird.
     
@@ -121,6 +121,6 @@ Es folgt ein Beispiel der e-Mail, die gesendet wird:
     > [!NOTE]
     > Mithilfe des Windows PowerShell-Moduls für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, bei der eine Verbindung mit Skype for Business Online hergestellt wird. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
   
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 
 [Testen oder Erwerben von Audiokonferenzen in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

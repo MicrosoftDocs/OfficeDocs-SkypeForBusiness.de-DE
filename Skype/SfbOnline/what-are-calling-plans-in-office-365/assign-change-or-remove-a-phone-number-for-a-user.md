@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in.
+description: Erfahren Sie, wie Sie Ihren Skype for Business-Benutzern eine berufliche Telefonnummer zuweisen oder sie ändern oder entfernen können, damit Unternehmen und Kunden von außerhalb anrufen können.
 ms.openlocfilehash: 0e354956d1077b2f81de7b889d8085f05db038c4
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047748"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235692"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer
 
@@ -73,7 +73,7 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
 6. Wählen Sie auf der Seite **Nummer zuweisen** in der Dropdown-Liste **Zuzuweisende Nummer auswählen** die Telefonnummer für den Benutzer aus.
     
     > [!TIP]
-    > Wenn Sie alle aufgeführten Telefonnummern nicht angezeigt wird, müssen Sie zunächst zum [Abrufen von Telefonnummern für Ihre Benutzer](getting-phone-numbers-for-your-users.md) . Alternativ können Sie, wenn Sie die Seite **Skype for Business Admin Center** > **VoIP** > **Telefonnummern** verwenden, auf **Hinzufügen** und dann auf **Neue Nutzernummern** klicken. 
+    > Wenn Sie alle aufgeführten Telefonnummern nicht angezeigt wird, müssen Sie zunächst zum [Abrufen von Telefonnummern für Ihre Benutzer](getting-phone-numbers-for-your-users.md) . Or, if you use the **Skype for Business admin center** > **Voice** > **Phone numbers** page, click **Add**, and then click **New user numbers**. 
   
 7. Um die zugeordnete Notfalladresse zuzuweisen oder zu ändern, wählen Sie unter **Auswählen des gültigen Notfallorts** den Standort aus der Liste aus. Wenn viele Standorte definiert sind, können Sie alternativ den Namen der Stadt in das Suchfeld eingeben und auf **Suchen** klicken.
     

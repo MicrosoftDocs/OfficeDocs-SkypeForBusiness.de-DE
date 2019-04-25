@@ -21,11 +21,11 @@ ms.custom:
 - Setup
 description: 'Skype-besprechungseinladungen mit Grafik Logos, Hilfe und rechtliche URLs und Fußzeilentext anpassen. '
 ms.openlocfilehash: 3d01d23172d7c187d09930c644390bdbf7a273b2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897334"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237890"
 ---
 # <a name="customize-meeting-invitations"></a>Anpassen von Besprechungseinladungen
 

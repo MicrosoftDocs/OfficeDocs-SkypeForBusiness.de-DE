@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Informationen Sie zu den Faktoren berücksichtigen vor dem Einrichten von live Ereignisse in der Microsoft-Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c249c6e63b8342b524b54afc2a6d30be3e92b25
-ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
+ms.openlocfilehash: 427a0dc26ef3c5b9901ddbe9cefe1288c905ccbb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30771766"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223376"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan für Live-Ereignisse in Microsoft Teams
 
@@ -44,7 +44,7 @@ Der Benutzer benötigt:
 - Video Freigabe in Teams Besprechungen aktiviert (*der TeamsMeetingPolicy - AllowIPVideo Parameter = True*).
 - Bildschirmfreigabe in Teams Besprechungen aktiviert (*der TeamsMeetingPolicy ScreenSharingMode - Parameter EntireScreen =*).
 - Live Ereignis Planung in Teams aktiviert (*der TeamsMeetingBroadcastPolicy AllowBroadcastScheduling - Parameter = True*).
-- Berechtigungen zum Erstellen von live Ereignisse in Microsoft Stream (für [externe Encoder Produktion](#production)).
+- Berechtigungen zum Erstellen von live Ereignisse in Microsoft Stream (für externe Encoder Produktion).
 
 > [!IMPORTANT]
 > Office 365 Gäste, Verbund- und anonyme Benutzer können nicht als Hersteller oder Referenten in Teams live Ereignisse eingeladen werden. Office 365 Gast und Verbundbenutzer können nur live Ereignisse anonym sehen Sie sich. 
@@ -75,13 +75,13 @@ In der folgenden Tabelle werden wichtige Funktionen und Features in live Ereigni
 |Hersteller-Client für Windows |& #x 2714; (Skype für Unternehmen) |& #x 2714; (Teams) |& #x 2714; (Stream-Objekt einbetten Teams über Stream) |
 |Hersteller-Client auf einem Mac |X  | & #x 2714; (Teams) |& #x 2714; (Stream-Objekt einbetten Teams über Stream) |
 |Teilnehmeranzahl in Producer-Benutzeroberfläche |X  |& #x 2714; (Teams) |& #x 2714; (Stream-Objekt einbetten Teams über Stream) |
-|Ermöglicht es mehrere Referenten |& #x 2714; (Skype für Unternehmen) |& #x 2714; (Teams) |n/v  |
-|Ein Referent während der Besprechung einladen |& #x 2714; (Skype für Unternehmen) |X |n/v |
-|Referent beitreten auf Webservern und Mobile |& #x 2714; (Skype für Unternehmen)  |X |n/v |
-|Verbundpartner & Gast Referenten/Teilnehmer |& #x 2714; (Skype für Unternehmen)  | (bald verfügbar) |n/v |
-|Referenten – PSTN-Zugang |X |& #x 2714; (Teams) |n/v |
-|Ein Bildschirm angezeigt |X |& #x 2714; (Teams) |n/v |
-|Präsentieren Sie eine PowerPoint (PPT-Freigabe) |& #x 2714; |X (per Bildschirmfreigabe gemindert) |n/v |
+|Ermöglicht es mehrere Referenten |& #x 2714; (Skype für Unternehmen) |& #x 2714; (Teams) |Nicht zutreffend  |
+|Ein Referent während der Besprechung einladen |& #x 2714; (Skype für Unternehmen) |X |Nicht zutreffend |
+|Referent beitreten auf Webservern und Mobile |& #x 2714; (Skype für Unternehmen)  |X |Nicht zutreffend |
+|Verbundpartner & Gast Referenten/Teilnehmer |& #x 2714; (Skype für Unternehmen)  | (bald verfügbar) |Nicht zutreffend |
+|Referenten – PSTN-Zugang |X |& #x 2714; (Teams) |Nicht zutreffend |
+|Ein Bildschirm angezeigt |X |& #x 2714; (Teams) |Nicht zutreffend |
+|Präsentieren Sie eine PowerPoint (PPT-Freigabe) |& #x 2714; |X (per Bildschirmfreigabe gemindert) |Nicht zutreffend |
 |Cloud-basierten besprechungsaufzeichnung |& #x 2714; |& #x 2714; |& #x 2714; |
 |Automatische veröffentlichen Aufzeichnung in Microsoft Stream-Objekt |X |X |& #x 2714; |
 |Echtzeit Beschriftungen und Übersetzung |& #x 2714; |& #x 2714; (bald verfügbar) |X |

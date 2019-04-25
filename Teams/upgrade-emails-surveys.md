@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4832be7a89bbfc337fc481e213c67f69b179935e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460252"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227583"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Beispiel-e-Mails und Umfragen für grundlegende Upgrade-Kommunikation
 
@@ -200,7 +200,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Geben Sie an, wie geübt Sie befinden sich in die folgenden Aktivitäten ausführen Teams und befinden sich eine oder mehrere Aktivitäten, denen Sie weitere Informationen zu finden möchten.
 
-| &nbsp; | Sehr geübt | Etwas geübt | Überhaupt nicht geübt | Möchten Sie mehr erfahren | n/v | Nicht sicher/nicht vertraut | | | | |
+| &nbsp; | Sehr geübt | Etwas geübt | Überhaupt nicht geübt | Möchten Sie mehr erfahren | Nicht zutreffend | Nicht sicher/nicht vertraut | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Verwenden von Teams für Sofortnachrichten/chatten mit anderen Personen | | | | | | | | | | |
 | Verwenden des Teams für onlinebesprechungen | | | | | | | | | | |
@@ -222,7 +222,7 @@ Geben Sie an, wie geübt Sie befinden sich in die folgenden Aktivitäten ausfüh
 
 **Wie wahrscheinlich ist es Sie Microsoft-Teams an einen Freund/Kollegen empfehlen? (0 = überhaupt nicht wahrscheinlich... 10 = sehr wahrscheinlich)**
 
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 

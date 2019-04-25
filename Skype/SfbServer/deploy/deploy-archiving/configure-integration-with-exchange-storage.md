@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie die Integration mit Exchange-Speicher in Skype für Business Server konfigurieren.'
 ms.openlocfilehash: b60924d351114a088910795ec0eb43aa1ed7972f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891874"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229446"
 ---
 # <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Konfigurieren der Integration mit Exchange-Speicher für Skype für Business Server
  

@@ -14,11 +14,11 @@ ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: 6ec36413e6e766618ab7b48e0fd8a674a4652cfa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882009"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221553"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>Wähleinstellungen: Erstellen eines neuen oder Bearbeiten eines vorhandenen Satzes mit Wähleinstellungen
 

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Vor der Außerbetriebnahme eines Pools müssen Sie das folgende Verfahren für jedes Konferenzverzeichnis im vorversionspool ausführen.
 ms.openlocfilehash: 32ebe22c54585a206c90888238d96e41fce30a58
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895719"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231602"
 ---
 # <a name="move-conference-directories"></a>Verschieben von Konferenzverzeichnissen
 

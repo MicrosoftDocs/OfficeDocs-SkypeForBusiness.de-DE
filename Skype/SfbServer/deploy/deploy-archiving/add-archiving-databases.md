@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Hinzufügen von Archivierungsdatenbanken zu Ihrer Skype für Business Server-Bereitstellung.'
 ms.openlocfilehash: 083b6329cdf27331ba861b96a74f94e2ae5aa912
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229460"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Hinzufügen von Archivierungsdatenbanken zu einer vorhandenen Bereitstellung in Skype für Business Server
  

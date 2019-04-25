@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Zusammenfassung: Vorbereiten Sie und implementieren Sie in Ihren Umgebungen deaktivieren TLS 1.0 und 1.1.'
 ms.openlocfilehash: dc835a68e47f9fac6036724d92ad336ead795e50
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012933"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214773"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Deaktivieren Sie TLS 1.0/1.1 in Skype für Business Server 2015
 
@@ -66,7 +66,7 @@ Microsoft hat ein Whitepaper über TLS verfügbaren [hier](https://cloudblogs.mi
 #### <a name="devices"></a>Geräte
 
 - Lync-Chatroom-System (auch bekannt als SRSv1)
-- Microsoft-Teams, Räume
+- Microsoft Teams-Räume
 - Surface Hub
 - 2015 basieren Survivable Branch Appliance (SBA) oder Survivable Branch Server (SBS)
 

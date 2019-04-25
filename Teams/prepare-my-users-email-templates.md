@@ -1,5 +1,5 @@
 ---
-title: Benutzer Annahme e-Mail-Vorlagen für Microsoft-Teams oder Skype für Business Einführungen
+title: E-Mail-Vorlagen zur Benutzerakzeptanz für Microsoft Teams-oder Skype for Business-Rollouts
 author: dearbeen
 ms.author: MyAdvisor
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 97bda9bb33e3a87d75ed039fca4a2d042147f0d6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461444"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235951"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Vereinfachen Sie Ihr neues online Telefonsystem – Akzeptanz
 

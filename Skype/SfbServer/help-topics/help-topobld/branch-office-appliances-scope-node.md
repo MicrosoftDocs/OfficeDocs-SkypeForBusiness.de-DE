@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 description: 'Der Knoten Survivable Branch Appliances sind die Survivable Branch Appliances an diesem Standort Branch aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
 ms.openlocfilehash: 980c2a26787dd1e7f34f3c002771c211aded1f4a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897517"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226978"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Filialanwendungen – Bereichsknoten
  

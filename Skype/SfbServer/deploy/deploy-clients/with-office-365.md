@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lesen Sie dieses Thema bietet Informationen zum Bereitstellen von Microsoft-Teams Chatrooms mit Office 365.
 ms.openlocfilehash: 5ef6c4ea8b76a34b19da6a74d82badf8000e007c
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012940"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214842"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Bereitstellen von Microsoft-Teams, Räume mit Office 365
 
@@ -258,6 +258,6 @@ Für die Validierung sollten Sie möglicherweise Skype für Business-Client verw
 
 [Konfigurieren einer Microsoft-Teams Räume-Konsole](console.md)
 
-[Verwalten von Microsoft-Teams, Räume](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Microsoft Teams Rooms verwalten](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Lizenzierung von Microsoft-Teams, Räume](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)

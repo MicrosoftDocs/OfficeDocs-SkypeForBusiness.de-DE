@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Der Front-End-Server kann nicht als eigenständiger Computer vorhanden sein. Sie müssen als Front-End-Pool definiert werden, auch wenn Sie nur ein einzigen Computer im Pool vorhanden ist.
 ms.openlocfilehash: f026570f0dff377ba7ca0c28975a685e236a9e13
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874738"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231430"
 ---
 # <a name="remove-a-front-end-server-from-a-pool"></a>Entfernen eines Front-End-Servers aus einem Pool
 

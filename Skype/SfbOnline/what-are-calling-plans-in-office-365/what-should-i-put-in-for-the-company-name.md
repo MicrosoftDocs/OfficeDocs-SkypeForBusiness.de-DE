@@ -1,5 +1,5 @@
 ---
-title: Was muss ich als Firmenname eingeben?
+title: Was sollte ich für den Namen des Unternehmens tragen Sie?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 'Was für das Unternehmen in Skype für Unternehmen eingefügt, und wo Sie ihn finden können. '
 ms.openlocfilehash: 49b26c5fce7cd11ad5cb2cbdf15f32144198898f
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958331"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229595"
 ---
-# <a name="what-should-i-put-in-for-the-company-name"></a>Was muss ich als Firmenname eingeben?
+# <a name="what-should-i-put-in-for-the-company-name"></a>Was sollte ich für den Namen des Unternehmens tragen Sie?
 
 Dies ist der Name Ihrer Firma oder Organisation. Der Name des Unternehmens ist auf 25 Zeichen beschränkt, einschließlich Leerzeichen. Der Name des Unternehmens wird nicht für die Verarbeitung der Anforderung Port Reihenfolge verwendet. Hiermit wird im Falle eines Rechtsstreits oder wenn etwas falsch ist, wenn die angezeigten Rufnummern sind über übertragen wird. Wenn Sie den gesamten Namen des Unternehmens in das Feld passt, nicht verzögert oder Port Auftrag abbrechen.
   

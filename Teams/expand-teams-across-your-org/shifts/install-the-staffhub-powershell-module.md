@@ -1,5 +1,5 @@
 ---
-title: Installieren Sie das Modul StaffHub PowerShell
+title: Installieren des StaffHub PowerShell-Moduls
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: fe419348d966d9ddfc5c16eee29d9a5005cd6db8
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31555133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245916"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Installieren des Microsoft StaffHub PowerShell-Moduls
 

@@ -14,11 +14,11 @@ ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie das Dialogfeld Enterprise-VoIP-Benutzer auswählen, um Benutzer zu suchen, die für Enterprise Voice aktiviert sind. Geben Sie in das Suchfeld die SIP-Adresse oder Anzeigename des Benutzers, den Sie suchen möchten, und klicken Sie dann auf Suchen. Um einen Benutzer auszuwählen, klicken Sie auf die Benutzer in der Liste mit den Suchergebnissen aus, und klicken Sie dann auf OK. Wenn Sie den Benutzer, den Sie benötigen nicht finden können, kann der Benutzer nicht für Enterprise Voice aktiviert.
 ms.openlocfilehash: a801a35fd02bca06179c70c38b285d412aee0428
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878098"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221588"
 ---
 # <a name="select-enterprise-voice-users"></a>Auswählen von Enterprise-VoIP-Benutzern
  

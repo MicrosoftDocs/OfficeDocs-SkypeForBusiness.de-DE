@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: ''
 description: Lesen Sie dieses Thema Weitere Informationen zu Exchange Konfigurieren von Konten für Microsoft-Teams Chatrooms und Skype für Unternehmen.
 ms.openlocfilehash: 7606f31dde96236111b4a44919427245fa32215d
-ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31828951"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214884"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Konfigurieren von Konten für Microsoft-Teams Räume
  

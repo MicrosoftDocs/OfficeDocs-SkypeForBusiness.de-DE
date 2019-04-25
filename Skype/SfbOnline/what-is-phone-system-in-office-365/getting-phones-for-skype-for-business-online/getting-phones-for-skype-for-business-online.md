@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
 ms.openlocfilehash: e79c942923e9a9d4d0df0bc18172eb10caff57bc
-ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30952397"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229525"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Kauf von Telefonen für Skype for Business Online
 
@@ -90,24 +90,24 @@ Eine vollständige Aufstellung der Gerätefeatures und -funktionen finden Sie in
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Funktion** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
-|Anmelden mit Benutzeranmeldeinformationen  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Nein  <br/> |
-|Anmelden über PC (Kopplung), nur Windows  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
-|Anmelden über Webanmeldung  <br/>  <br/> **Hinweis:** Überprüfen Sie die unterstützbarkeitsmatrix im Bereitstellungshandbuch.           |Ja   <br/> |Ja   <br/> |Ja   <br/> |Nein  <br/> |
-|Teilnehmen an einer Besprechung mit Einfachklick  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
-|Wählen durch Klicken (Kopplung)  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
-|Besprechungssteuerelemente  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
-|Visuelle Mailbox  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
-|Telefonsperre  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
-|Geräteupdate  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
+|Anmelden mit Benutzeranmeldeinformationen  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
+|Anmelden über PC (Kopplung), nur Windows  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Anmelden über Webanmeldung  <br/>  <br/> **Hinweis:** Überprüfen Sie die unterstützbarkeitsmatrix im Bereitstellungshandbuch.           |Ja   <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
+|Teilnehmen an einer Besprechung mit Einfachklick  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Wählen durch Klicken (Kopplung)  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Besprechungssteuerelemente  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Visuelle Mailbox  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Telefonsperre  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Geräteupdate  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |In-Band-Bereitstellung  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
-|QoE  <br/> |Ja  <br/> |Ja   <br/> |Ja   <br/> |Nein  <br/> |
-|Protokoll-Upload  <br/> <br/> **Hinweis:** Derzeit werden nur die Microsoft-Support-Team alle Protokolle hochgeladen; Kundenzugriffs auf Gesprächsnotizen sind noch nicht verfügbar.           |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
-|Moderne Authentifizierung  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Nein  <br/> |
+|QoE  <br/> |Ja  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
+|Protokoll-Upload  <br/> <br/> **Hinweis:** Derzeit werden nur die Microsoft-Support-Team alle Protokolle hochgeladen; Kundenzugriffs auf Gesprächsnotizen sind noch nicht verfügbar.           |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Moderne Authentifizierung  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
 |Mehrere Notrufnummern  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Ja  <br/> |
-|Integration von Exchange-Kalendern*  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> <br/> **Hinweis:** Erfordert tethering PC           |
-|Integration von Anwesenheitsfunktionen  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |
+|Integration von Exchange-Kalendern*  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> <br/> **Hinweis:** Erfordert tethering PC           |
+|Integration von Anwesenheitsfunktionen  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |Unternehmensverzeichnis  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
-|Delegierung  <br/> |Ja  <br/> |Ja   <br/> |Ja   <br/> |Nein  <br/> |
+|Delegierung  <br/> |Ja  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
 |Integration von Kontaktbildern  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |
 ||||||
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Der Office Web Apps-Server stellt Dienste wie ein Referent zur Verfügung, der ein Dokument zur Verwendung in einer Besprechung hochlädt, jedoch weitere Funktionen ermöglicht, die in den vorherigen Versionen nicht verfügbar waren.
 ms.openlocfilehash: 925a27d4b1ddffd40038f71b5cc9d7a3404efba3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897559"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227389"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Zuordnen des Front-Ends zum Office Web Apps-Server – Seite
 

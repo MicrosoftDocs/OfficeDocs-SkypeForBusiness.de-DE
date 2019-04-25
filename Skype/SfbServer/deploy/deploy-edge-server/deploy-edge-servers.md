@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Zusammenfassung: Informationen Sie zum Bereitstellen von Edge-Servern in Ihrer Skype für Business Server-Umgebung.'
 ms.openlocfilehash: e8e3251380c996ca4fea65fd286ef9e2a9d75575
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885617"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223810"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Stellen Sie Edgeserver in Skype für Business Server
  

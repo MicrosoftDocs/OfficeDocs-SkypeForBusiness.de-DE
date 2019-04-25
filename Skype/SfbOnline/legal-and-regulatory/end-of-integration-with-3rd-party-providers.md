@@ -20,11 +20,11 @@ ms.custom:
 hideEdit: true
 description: Auf 1 April 2020, wird das Ende des Lebenszyklus Programm für die Integration von Skype für Unternehmen mit Drittanbieter-Audiokonferenzen schließt (3. Partei ACP).
 ms.openlocfilehash: 4846875a8fb288683e896454a33e9213eec3a2ac
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934673"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223863"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Ende der Lebensdauer Programm für die Integration von Skype für Unternehmen mit Drittanbieter-Audiokonferenzen 
 
@@ -72,7 +72,7 @@ Organisationen, die für die Migration zu Microsoft-Audiokonferenzen und Abschli
 
 Migrieren zu Microsoft-Audiokonferenzen ist einfach, und es kann nur wenigen Schritten nach dem Erwerb von Lizenzen für den Dienst ausgeführt werden. Informationen dazu, wie Sie die Migration zu Microsoft-Audiokonferenzen finden Sie unter:
 
-- [Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+- [Testen oder Erwerben von Audiokonferenzen in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
  
 **Zusammenfassung:**
 

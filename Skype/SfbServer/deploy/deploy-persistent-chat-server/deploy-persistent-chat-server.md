@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 8373c93b-92a7-4932-bc1f-00fc08955426
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Skype für Business Server 2015 Persistent Chat Server bereitstellen.'
 ms.openlocfilehash: 85f77445acca86d8de14178e8c3baa61eb193783
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878655"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225386"
 ---
 # <a name="deploy-persistent-chat-server-in-skype-for-business-server-2015"></a>Bereitstellung des Servers für beständigen Chat in Skype for Business Server 2015
  

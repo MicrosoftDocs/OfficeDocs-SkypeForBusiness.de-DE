@@ -20,11 +20,11 @@ ms.custom:
 - Reporting
 description: 'Erfahren Sie, wie die Skype für organisierte Konferenz Tätigkeit Bericht abgerufen und das interpretieren und passen Sie es. '
 ms.openlocfilehash: 7f70da0423257df4a02207aaaa1888b279404706
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454006"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245503"
 ---
 # <a name="conference-organizer-activity-report"></a>Bericht „Aktivitäten zum Organisieren von Konferenzen“
 
@@ -78,7 +78,7 @@ Jedes Diagramm verfügt über eine (horizontale) „X"- und eine (vertikale) „
 Die X-Achse bezeichnet in beiden Diagrammen den ausgewählten Zeitraum für diesen bestimmten Bericht. 
 ***
 ![Anzahl 7](../images/sfbcallout7.png)<br/>
-Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie auf ein Element in der Legende klicken. Beispielsweise im Diagramm **Aktivität** klicken Sie oder tippen Sie auf **Sofortnachrichten**, **Audio/Video**, **Anwendungsfreigabe**, **Web**, **Dial-in/Out - 3rd Party**und **Anwahl/Microsoft** um nur die Informationen im Zusammenhang mit jeweils finden Sie unter. Durch das Ändern dieser Auswahl ändern sich die Informationen in der Rastertabelle nicht.
+Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Beispielsweise im Diagramm **Aktivität** klicken Sie oder tippen Sie auf **Sofortnachrichten**, **Audio/Video**, **Anwendungsfreigabe**, **Web**, **Dial-in/Out - 3rd Party**und **Anwahl/Microsoft** um nur die Informationen im Zusammenhang mit jeweils finden Sie unter. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert.
 ***
 ![Zahl 8](../images/sfbcallout8.png)<br/>Die Tabelle zeigt Sie eine Aufschlüsselung der organisierte Konferenz Aktivitäten pro Benutzer. Zeigt alle Benutzer, die Skype für Unternehmen und Konferenzen, die sie organisiert zugewiesen haben. Sie können zusätzliche Spalten zur Tabelle hinzufügen. 
 * **Benutzername** ist der Name des Benutzers. 

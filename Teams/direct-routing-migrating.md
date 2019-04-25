@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: Hier erfahren Sie, was für die Migration zu direkten Routing von einer Skype für Business Online und Teams Konfiguration Perspektive erforderlich ist.
-ms.openlocfilehash: 46533a17ced1bfaf808bcc5b17e4dd8f2e73ef51
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 995883bd6f62607cd156f82e2c86255bab182303
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887645"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298644"
 ---
 # <a name="migrate-to-direct-routing"></a>Migration zu direktem Routing
 
@@ -40,13 +41,13 @@ Die folgende Tabelle zeigt Endstatus für einen Benutzer für den ausgewählten 
 |---|---|---|---|---|
 |Client|Skype für Geschäftskunden und Teams |Skype for Business |Skype for Business |Microsoft Teams|
 |Lizenzen|Skype-Business Online</br>Planen von 2</br></br>MCOProfessional oder MCOSTANDARD)</br></br></br>Telefonsystem (MCOEV)</br></br></br>Anrufpläne</br>Teams|Skype Business Online-Plan 2 (MCOProfessional oder MCOSTANDARD)</br></br></br>Telefonsystem (MCOEV)|Skype Business Online-Plan 2 (MCOProfessional oder MCOSTANDARD)</br></br></br>Telefonsystem (MCOEV)|Skype Business Online-Plan 2 (MCOProfessional oder MCOSTANDARD</br></br></br>Telefonsystem (MCOEV)</br></br>Teams|
-OnPremLineURI |n/v|Die Telefonnummer synchronisiert werden muss, aus der lokalen AD. |Die Telefonnummer kann entweder im lokalen Active Directory oder im Azure Active Directory verwaltet werden.|Die Telefonnummer kann entweder im lokalen Active Directory oder im Azure Active Directory verwaltet werden. Wenn die Organisation der lokale Skype für Unternehmen verfügt, muss die Nummer aus der lokalen Active Directory synchronisiert werden.|
+OnPremLineURI |Nicht zutreffend|Die Telefonnummer synchronisiert werden muss, aus der lokalen AD. |Die Telefonnummer kann entweder im lokalen Active Directory oder im Azure Active Directory verwaltet werden.|Die Telefonnummer kann entweder im lokalen Active Directory oder im Azure Active Directory verwaltet werden. Wenn die Organisation der lokale Skype für Unternehmen verfügt, muss die Nummer aus der lokalen Active Directory synchronisiert werden.|
 |"Lineuri"|Aufrufen von PSTN-Telefonnummer|Legen Sie automatisch aus dem OnPremLineURI-parameter|Legen Sie automatisch aus dem OnPremLineURI-parameter|Legen Sie automatisch aus dem OnPremLineURI-parameter|
 |EnterpriseVoiceEnabled|True|True|True|True|
 |HostedVoiceMail |True|True|True|True|
 |"Voicepolicy" sein|BusinessVoice|HybridVoice|HybridVoice|HybridVoice|
 |"Hostedvoicemailpolicy" |BusinessVoice|BusinessVoice|BusinessVoice|BusinessVoice|
-|VoiceRoutingPolicy|Hat den Wert|Hat den Wert|Hat den Wert|n/v|
+|VoiceRoutingPolicy|Hat den Wert|Hat den Wert|Hat den Wert|Nicht zutreffend|
 |OnlineVoiceRoutingPolicy|$Null|$Null|$Null|Hat den Wert|
 |TeamsUpgradePolicy<sup>1</sup>|TeamsOnly, SfBOnly oder Inseln|$Null|$Null|Inseln oder TeamsOnly|
 |TeamsInterPolicy<sup>2</sup></br>CallingDefaultClient – lesen Sie bitte den Hinweis unten.|Teams oder SfB |SfB|SfB|Teams|

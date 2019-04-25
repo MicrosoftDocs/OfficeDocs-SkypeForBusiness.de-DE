@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, wie Notdienste (911) von herkömmlichen Telefondienste unterscheiden und wie Sie einen Anruf zu tätigen. '
 ms.openlocfilehash: 8b67f1ef79d3c0782caa5316e88e5a1549e00b2e
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244455"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Nutzungsbedingungen für Notrufe
 

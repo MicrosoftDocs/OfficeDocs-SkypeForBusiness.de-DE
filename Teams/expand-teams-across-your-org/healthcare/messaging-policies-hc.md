@@ -1,5 +1,5 @@
 ---
-title: Erste Schritte mit Secure Messaging für Unternehmen aus dem Gesundheitswesen
+title: Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,15 +12,15 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Erste Schritte mit Secure Messaging für Unternehmen aus dem Gesundheitswesen
-ms.openlocfilehash: 58e19cd5f8e39e05b2b2178bcf4062260546e509
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+description: Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
+ms.openlocfilehash: 2de10ef2d36dce991e6f1cd122a624e17ff7a918
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013774"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298684"
 ---
-# <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Erste Schritte mit Secure Messaging für Unternehmen aus dem Gesundheitswesen
+# <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
 
 Messaging-Richtlinien dienen zum Steuern, welche Chat und Channel messaging-Funktionen für Benutzer in Microsoft-Teams verfügbar sind und sind Bestandteil der gesamten Bereitstellung von Secure Messaging für das Gesundheitswesen wie Krankenhäuser, Clinics oder Arzt des Büros, wobei eine Nachricht aufgenommene und dem in kurzer Zeit eine Aktion ausgeführt ist wichtig, wie wichtige Nachrichten beim Lesen sind bekannt ist.
 
@@ -36,6 +36,8 @@ Um die vorhandenen Messaging-Standardrichtlinie für Ihre Organisation zu bearbe
 
 Die folgenden Einstellungen sind besonders interessant für aus dem Gesundheitswesen Applikationen und sollten beim Entwerfen einer benutzerdefinierten Richtlinie an im Feld aus dem Gesundheitswesen verwendet berücksichtigt werden:
 
+## <a name="read-reciepts"></a>Zugangslisten lesen
+
 - ![Nummer eins](../../media/sfbcallout1.png) **lesebestätigungen** lesebestätigungen ermöglicht es dem Absender einer Nachricht Chat wissen, wann die Nachricht vom Empfänger gelesen wurde. Verwenden Sie diese Einstellung an, ob Lese-Empfangsbestätigungen gesteuert, für alle Benutzer aktiviert oder deaktiviert für jeden Benutzer. Die Nachricht gelesen, dass Empfangsbestätigungen in Unternehmen aus dem Gesundheitswesen eine wichtige Rolle spielen, da sie nicht eindeutig zu gibt an, ob eine Nachricht gelesen wurde entfernt.
 
   Wählen Sie aus dem Gesundheitswesen Anwendungsmöglichkeiten **Benutzer gesteuert** oder **für alle Benutzer aktiviert**. Beachten Sie, dass bei Verwendung die Einstellung **für alle Benutzer aktiviert** die einzige Möglichkeit zum Festlegen der Einnahmen für den gesamten Mandanten ist haben nur eine messaging-Richtlinie für den gesamten Mandanten (die Standardrichtlinie mit dem Namen "Global (Org geltende Standard)") oder alle messaging haben Richtlinien im Mandanten verwendet die gleichen Einstellungen für Einnahmen.
@@ -46,6 +48,8 @@ Die folgenden Einstellungen sind besonders interessant für aus dem Gesundheitsw
  *Verwendungsbeispiel ohne lesebestätigungen:* Jakob Roth, ein Patient hohem Risiko wird an das Krankenhaus zugelassen.Sofia Krause handelt es sich um eine im Rahmen der Kommunikation zwischen disziplinarische Team (IDT) von medizinischen Mitarbeiter, einschließlich von anderen Experten arbeiten Pflegekraft als primärer Vorsicht Koordinator für diesen Patienten zugewiesen ist.  Sofia sendet-e-Mails und anderen Sofortnachrichten an eine Gruppe Pflegepersonal und Ärzten, die eine Vielzahl von messaging-Clients und apps verwenden und häufig abgerufen, keine Antwort oder die Angabe, ob eine Nachricht von Teammitgliedern gelesen wurde. Aufgrund von komplizierte Kommunikationsprozesse Jakob Medikament unzufriedenen wird und seine Nacht wurde erweitert.
 
   *Beispiel für die Verwendung mit lesebestätigungen:* Jakob Roth, ein Patient hohem Risiko wird an das Krankenhaus zugelassen.Sofia Krause handelt es sich um eine im Rahmen der Kommunikation zwischen disziplinarische Team (IDT) von medizinischen Mitarbeiter, einschließlich von anderen Experten arbeiten Pflegekraft als primärer Vorsicht Koordinator für diesen Patienten zugewiesen ist.  Sofia startet einen Gruppenchat mit einem Satz von Ärzten und andere Pflegepersonal, arbeiten mit den Patienten bei koordiniert und startet eine Notfall Ursachenanalyse.Die Pflegepersonal und Ärzten kommunizieren und zusammenarbeiten über den Patienten bei Plan über den gesamten Prozess Koordinierung Vorsicht.  Wichtige und dringende Nachrichten werden über 1:1 und Group Chat Unterhaltungen gesendet. Sofia verwendet die lesebestätigungen Funktionalität feststellen, wenn Nachrichten gesendet Anfordern von Unterstützung übermittelt und durch das gezielte Ärzten oder Pflegepersonal gelesen werden. Jakob Patienten Ergebnisse sind in der Nähe optimale, und er wechselt home schneller, da seine Vorsicht Team reibungslos kommuniziert.
+
+## <a name="priority-notifications"></a>Priorität Benachrichtigungen
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -58,4 +62,4 @@ Die folgenden Einstellungen sind besonders interessant für aus dem Gesundheitsw
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Verwalten von Messaging-Richtlinien in Teams](../../messaging-policies-in-teams.md)
-- [Erste Schritte mit Teams für Unternehmen aus dem Gesundheitswesen](teams-in-hc.md)
+- [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](teams-in-hc.md)

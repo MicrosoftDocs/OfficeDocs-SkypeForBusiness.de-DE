@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c36855f4283e9cb57ef2ce0f916899232222777f
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241628"
 ---
 # <a name="plan-my-users-experience"></a>Planen von meiner Benutzer-Erlebnis
 

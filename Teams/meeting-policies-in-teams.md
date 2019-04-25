@@ -3,7 +3,7 @@ title: Verwalten von Besprechungsrichtlinien
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 03/22/2019
+ms.date: 04/18/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Informationen zum Verwalten von Richtlinieneinstellungen in Teams meeting.
-ms.openlocfilehash: a31f663a7714a0a5af09e6fddd9436e710582fa1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 01d4ec8265c069d5fdbd6d8bb64ab89ec991956a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517200"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231814"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -84,9 +84,9 @@ Wenn Sie eine vorhandene Richtlinie auf der Seite **Besprechungsrichtlinien** au
 
 <a name="bkgeneral"> </a>
 ### <a name="general"></a>Allgemein
-   - **Sofortbesprechungen zulassen** Aktivieren Sie dies ansetzt, kann die Funktion "Jetzt besprechen" für Benutzer verfügbar sein, die an Besprechungen teilnehmen.
+   - **Jetzt in Kanälen erfüllen zulassen** Aktivieren Sie dies ansetzt, kann die Funktion "Jetzt besprechen" für Benutzer verfügbar sein, die an Besprechungen teilnehmen.
    - **Zulassen des Outlook-add-ins** Aktivieren Sie dies können Benutzer, die die Richtlinie zugewiesen haben Outlook-add-in zur Verfügung, wenn sie Besprechungen planen.
-   - **DDE-Kanal zulassen Besprechung planen.** Aktivieren Sie dies können Channel-Besprechung planen.
+   - **Zulassen Channel Besprechung planen** Aktivieren Sie dies können Channel-Besprechung planen.
    - **Planen von privaten Besprechungen zulassen** Aktivieren Sie dies ermöglicht Benutzern, die private Konferenzen planen einer Besprechung teilnehmen.
 
 <a name="bkaudioandvideo"> </a>
@@ -110,8 +110,13 @@ Wenn Sie eine vorhandene Richtlinie auf der Seite **Besprechungsrichtlinien** au
 <a name="bkparticipantsandguests"> </a>
 
 ### <a name="participants--guests"></a>Teilnehmer & Gäste
-   - **Zulassen von Personen, die sich einwählen, um eine Besprechung zu starten.** Sie können auf Aktivieren oder deaktivieren, wenn Sie Besucher authentifiziert wurde noch nicht, da sie gewählt haben, in über das Telefon an eine Besprechung starten möchten.
-   - **Automatisch Personen zulassen** Bestimmt, welche Arten von Teilnehmern automatisch werden von diesem Benutzer organisierte Besprechungen hinzugefügt werden. Legen Sie den "Jede Person in einer Organisation" Besprechungen platzieren Sie alle externen Benutzer in der Lobby, aber alle Benutzer im Unternehmen Teilnahme an der Besprechung sofort zulassen möchten. Legen Sie dies auf "Jeder", wenn Sie standardmäßig anonyme Benutzer zulassen möchten. Legen Sie den "Jede Person in Ihrer Organisation und Partnerorganisationen" Besprechungen Verbundbenutzer wie Ihres Unternehmens Benutzer teilnehmen, aber setzen Sie alle externen Benutzer in einer Wartebereich zulassen möchten.
+   - **Zulassen von Personen, die sich einwählen, um eine Besprechung zu starten.** Sie können auf Aktivieren oder deaktivieren, wenn Sie Personen zu ermöglichen, die authentifiziert wurde noch nicht, da sie gewählte in über das Telefon an eine Besprechung starten möchten.
+   - **Automatisch Personen zulassen** Bestimmt, welche Arten von Teilnehmern automatisch werden von diesem Benutzer organisierte Besprechungen hinzugefügt werden. Legen Sie dies für **alle Benutzer in Ihrer Organisation** , Besprechungen, platzieren Sie alle externen Benutzer in der Lobby, aber alle Benutzer im Unternehmen Teilnahme an der Besprechung sofort zulassen möchten. Legen Sie dies auf **jeder fest** , wenn Sie standardmäßig anonyme Benutzer zulassen möchten. Legen Sie den **jede Person in Ihrer Organisation und Partnerorganisationen** Besprechungen Verbundbenutzer wie Ihres Unternehmens Benutzer teilnehmen, aber setzen Sie alle externen Benutzer in einer Wartebereich zulassen möchten.
+   - **Einwahl Benutzern erlauben, umgehen den Wartebereich** Sie können auf Aktivieren oder deaktivieren, wenn Sie Personen zu ermöglichen, die gewählte in über das Telefon zu umgehen den Wartebereich und an der Besprechung teilnehmen möchten.
+   - **Zulassen von Organisatoren Wartebereich Einstellungen außer Kraft gesetzt** Aktivieren Sie diese Einstellung, um ermöglichen Besprechungsorganisatoren ignorieren Sie die Lobby Einstellungen Benutzer zu Besprechungen zuzulassen.
+   - **Jetzt im privaten Besprechungen erfüllen zulassen** Aktivieren Sie diese Einstellung um Besprechungsteilnehmer privat per Chat erfüllen vor Beginn die Besprechung zu ermöglichen. 
+   - **Aktivieren Sie live Beschriftungen** Aktivieren Sie diese Einstellung, um die Beschriftungen in unterstützten Sprachen während einer Besprechung anzeigen. 
+   - **Chat an Besprechungen zulassen** Aktivieren Sie diese Einstellung, um Chats während einer Besprechung zu erlauben. Dies ist hilfreich, wenn Benutzer Fragen haben oder einen Hyperlink oder eine Notiz während einer Diskussion einfügen möchten, aber nicht, um die Unterhaltung zu unterbrechen möchten.
 
 [Vollständigen Artikel](meeting-policies-in-teams.md)
 

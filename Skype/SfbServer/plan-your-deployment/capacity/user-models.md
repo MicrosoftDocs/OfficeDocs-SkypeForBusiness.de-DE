@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
 description: Die hier beschriebenen Benutzermodelle bilden die Grundlage für die kapazitätsplanung Zahlenangaben und Empfehlungen in Capacity beschriebenen Skype Business Server für die Verwendung des Objektmodells für Benutzer planen.
 ms.openlocfilehash: 2e636b41187c862ea866b97ea99f6b0275657557
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897493"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32228438"
 ---
 # <a name="user-models-in-skype-for-business-server"></a>Benutzermodelle in Skype für Business Server
  

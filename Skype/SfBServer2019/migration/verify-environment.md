@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Müssen Sie vor der Bereitstellung von Skype für Business Server 2019 zusammen, um sicherzustellen, dass legacy-Diensten konfiguriert und gestartet wurden. Es ist wichtig, identifizieren wichtige Dienste und Features, die in der vorgängerumgebung vor der Bereitstellung einer Skype für Business Server 2019 pilotpool vorhanden sind. Vor der Bereitstellung von Microsoft Skype für Business Server 2019 XMPP zusammen mit einer Vorversion XMPP-Bereitstellung, müssen Sie überprüfen, ob der Vorversion XMPP-Dienste gestartet und konfiguriert wurden, und Bestimmen der Verbundpartner die Vorversion XMPP-Konfiguration ist Sie unterstützen.
 ms.openlocfilehash: 0f9812efe966d72eba1eeead9d74780f2ba16661
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235114"
 ---
 # <a name="verify-the-legacy-environment"></a>Überprüfen der Vorversionen Umgebung
 

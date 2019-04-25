@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: 'Zum Bearbeiten der Eigenschaften für einen A / V-Konferenzserver-Pool, die Sie bereits definiert haben, gehen Sie folgendermaßen vor:'
 ms.openlocfilehash: 98ddc2a0907a9971e5bbfc1e72b6aad356960763
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875306"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227375"
 ---
 # <a name="av-mcu-settings-expander"></a>Einstellungen der A/V MCU – Erweiterung
  

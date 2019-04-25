@@ -15,11 +15,11 @@ description: Hier erfahren Sie, wie Sie die gesetzliche Aufbewahrungspflicht fü
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: eec053649cedfa3e29738dd1679d88b43ee54770
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461604"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233046"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams
 ==================================================
@@ -30,7 +30,7 @@ Um die gesetzliche Aufbewahrung für einen Benutzer oder ein Team festzulegen, n
 > Beim Aufbewahren von Daten eines Benutzers werden nicht automatisch die Daten einer Gruppe aufbewahrt (oder umgekehrt).
 
 > [!IMPORTANT]
-> Wenn die Daten eines Benutzers oder einer Gruppe aufbewahrt werden, werden alle Nachrichtenkopien beibehalten. Beispiel: Clay hat eine Nachricht in einem Kanal gepostet und die Nachricht dann verändert. In einem Aufbewahrungsszenario werden beide Kopien der Nachricht beibehalten. Ohne die gesetzliche Aufbewahrungspflicht wird nur die aktuelle Nachricht beibehalten.
+> Wenn ein Benutzer oder eine Gruppe in der Warteschleife platziert wird, werden alle Nachrichtenkopien beibehalten. Beispiel: Clay hat eine Nachricht in einem Kanal gepostet und die Nachricht dann verändert. In einem Aufbewahrungsszenario werden beide Kopien der Nachricht beibehalten. Ohne die gesetzliche Aufbewahrungspflicht wird nur die aktuelle Nachricht beibehalten.
 
 
 

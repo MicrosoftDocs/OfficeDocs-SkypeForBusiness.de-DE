@@ -10,18 +10,19 @@ ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
+f1keywords: ms.teamsadmincenter.assignments.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8704f1d3cae6bb6e0f8d26befb2a21d71d5460cf
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: f44f5d5ad76da0385fa63203d61da3a82923047d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245722"
 ---
 # <a name="teams-for-education"></a>Microsoft Teams Education
 
-Mit den Teams kann Ihre Schule oder Institution collaborative Schulungsräume erstellen, verbinden in professional Learning Communitys und Kommunikation mit Mitarbeitern der Schule. Verwenden Sie die Admin-Ressourcen Hier können Sie die erfolgreiche Bereitstellung, einführen und Verwalten von Teams in Ihrer Institution.  
+Mit den Teams können Lehrer Fakultät collaborative Schulungsräume erstellen, verbinden in Communitys professional Lern- und kommunizieren mit Schüler und Lehrer. Verwenden Sie die Admin-Ressourcen Hier können Sie die erfolgreiche Bereitstellung, einführen und Teams in Ihrer Schule oder Institution verwalten. 
 
 <ul class="panelContent cardsFTitle">
     <li>

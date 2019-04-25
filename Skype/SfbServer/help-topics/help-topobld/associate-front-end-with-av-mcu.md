@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
 description: A / V-Konferenzen in Echtzeit Audio- und Videokommunikation Ihre Benutzer können (d. h., wenn sie die entsprechenden Clientgeräte wie Headsets für Audiokonferenzen und Webcams für Videokonferenzen verfügen). Wenn Ihre Bereitstellung, Konferenzen unterstützt und Sie, Webkonferenzen und A aktivieren / V-Konferenzen, möglich, A / V-Konferenzserver mit dem Front-End-Server), bereitstellen oder Sie können eine oder mehrere eigenständige A / V-Konferenzserver (A / V-konferenzpool) . Wenn Sie die Option zum Bereitstellen eines eigenständigen A / V-Konferenzservers müssen definieren Sie sie im Topologie-Generator.
 ms.openlocfilehash: 62b6dfc54fcbdd839fce9b317d0256845f3c2c08
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887323"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227460"
 ---
 # <a name="associate-front-end-with-av-mcu"></a>Zuordnen des Front-Ends zur A/V MCU
  

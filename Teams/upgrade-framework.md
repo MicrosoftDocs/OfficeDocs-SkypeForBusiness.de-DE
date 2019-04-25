@@ -7,7 +7,7 @@ ms.date: 12/18/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Verwenden Sie ein bewährt Framework, um Ihrer Organisation Upgrade Weg von Skype für Unternehmen Teams
+description: Verwenden Sie ein bewährtes Erfolgs-Framework bei Ihrem Umstieg von Skype for Business zu Teams in Ihrer Organisation.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: cf114075b4c35b19beeab9a4c28a1ade97330300
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649276"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227653"
 ---
 # <a name="about-the-upgrade-framework"></a>Info zum Upgrade-Framework
 

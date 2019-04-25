@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: c62bc3e5-3f34-46cf-91a5-85f84d8f455e
 description: Die Seite Befehle ausführen enthält Details zum Entfernen des Zertifikats an. Überprüfen Sie die zusammenfassende Informationen über das Zertifikat entfernen. Achten Sie darauf, dass die Protokolldatei Zertifikat entfernen in der Dropdown-Liste angezeigt wird, und klicken Sie dann auf Protokoll anzeigen, um die Details des Endes Zertifikat überprüfen. Wenn Sie die Überprüfung der Zusammenfassung und die Protokolldatei abgeschlossen haben, klicken Sie auf Fertig stellen.
 ms.openlocfilehash: beba0856e1ece3e639f2153022047e639e1c0fcc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891454"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234954"
 ---
 # <a name="remove-certificate-invoke"></a>Entfernen von Zertifikaten (Aufruf)
  

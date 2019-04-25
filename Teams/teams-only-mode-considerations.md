@@ -18,11 +18,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: dd0bf20219b8d213c354f5fc239ae3924a0d21c0
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649388"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226639"
 ---
 # <a name="teams-only-mode-considerations"></a>Überlegungen zum Teams Only-Modus
 
@@ -53,7 +53,7 @@ Tausende von Kunden, die Microsoft-Teams erfolgreich aktualisiert haben, werden 
 
 **Benutzerspezifische Aspekte**: Einige Benutzerszenarien werden derzeit noch entwickelt und Administratoren beschließen, das Upgrade von bestimmten Benutzern beim Upgrade von anderen Benutzern in der Organisation vorübergehend zu verschieben. Wir arbeiten an reagieren auf diese Szenarien; Überwachen Sie die Website [Wegweiser für Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) für Ansagen.
 
-| Szenario | Notizen |
+| Szenario | Hinweise |
 |----------|-------|
 |Die primäre Arbeit Gerät des Benutzers ist eine Mac und dem Benutzer muss die Verfügbarkeit von Kollegen in Outlook finden Sie unter. | Outlook-Anwesenheitsinformationen in Teams ist noch nicht vollständig für Mac-Geräte unterstützt. |
 | Benutzer wird regelmäßig Besprechungen mit Kunden oder externe Partner in unterschiedlichen Regionen internationale durchführen. | Externe Teilnehmer, dessen Mandant befindet sich in einem anderen Geo-Speicherort, nicht Sofortnachrichten finden Sie unter chatten klicken Sie in einer Besprechung **federated** . Teilnehmer können weiterhin als anonyme Benutzer die Besprechung teilnehmen. |

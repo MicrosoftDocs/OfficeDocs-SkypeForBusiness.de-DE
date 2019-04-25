@@ -1,5 +1,5 @@
 ---
-title: Benutzer Feedback Umfragen in Microsoft-Teams oder Skype für Unternehmen
+title: Umfragen zum Benutzerfeedback in Microsoft Teams oder Skype for Business
 author: dearbeen
 ms.author: MyAdvisor
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 74594c81d86bf19b80cf40ad8292517705e7e690
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463876"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235887"
 ---
 # <a name="user-feedback-surveys"></a>Benutzer Feedback Umfragen 
 
@@ -57,13 +57,13 @@ Wenn Sie **Stimme nicht zu** oder aus einem der oben genannten Aussagen **gar ni
 
 Teams, die Sie verwenden sollten wie wahrscheinlich ist es als ein Telefon an Freunde oder Kollegen? (0 = überhaupt nicht wahrscheinlich... 10 = sehr wahrscheinlich)
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
 Wie wahrscheinlich ist es Sie Telefongerät Freunde oder Kollegen empfehlen? (0 = überhaupt nicht wahrscheinlich... 10 = sehr wahrscheinlich)  
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 

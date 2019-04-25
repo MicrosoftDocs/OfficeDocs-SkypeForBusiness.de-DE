@@ -19,16 +19,17 @@ search.appverid: MET150
 description: Informationen Sie zu Richtlinien für die app Setup in Microsoft-Teams und Nutzung zum Anpassen von Teams für Benutzer in Ihrer Organisation Pin apps.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 7e4eaf604c075f8ab95cd40ec7588515c428360c
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.openlocfilehash: b38a381e95855380e017050441885474934cbe8f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227246"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!NOTE]
+> Wenn Sie die gesamte Org app Berechtigung Richtlinie, **Interaktion mit benutzerdefinierten apps zulassen**aktiviert möglicherweise Richtlinien für die app Setup noch in der Verwaltungskonsole von Microsoft-Teams, nicht angezeigt. Es ist derzeit eingeführt werden und werden bald in Ihrer Organisation zur Verfügung stehen.
 
 Als Administrator können Sie Richtlinien für die app-Setup zum Anpassen von Microsoft-Teams, um apps zu markieren, die am besten für Ihre Benutzer wichtig sind. Sie wählen den apps zum Anheften und Festlegen der Reihenfolge, die sie angezeigt werden. Richtlinien für die App Setup können Sie apps, die Benutzer in Ihrer Organisation auch von Drittanbietern oder von Entwicklern in Ihrer Organisation erstellt müssen, präsentieren. Sie können auch Richtlinien für die app-Setup zum Verwalten von Features wie integrierter angezeigt werden.
 
@@ -40,12 +41,12 @@ Apps sind an die app-Leiste angeheftet. Dies ist die Leiste rechts auf dem Deskt
 
 Sie können Richtlinien für die app Setup in der Verwaltungskonsole von Microsoft-Teams verwalten. Verwenden Sie die globale Richtlinie (Org geltende Standard) oder benutzerdefinierte Richtlinien erstellen, und Benutzern zuweisen. Benutzer in Ihrer Organisation erhalten automatisch die globale Richtlinie, es sei denn, Sie erstellen, und weisen Sie eine benutzerdefinierte Richtlinie an.
 
-Sie können die Einstellungen zum Einschließen von apps, die Sie möchten in der globalen Richtlinie bearbeiten. Wenn Sie Teams für verschiedene Gruppen von Benutzern in Ihrer Organisation anpassen möchten, erstellen und eine oder mehrere benutzerdefinierte Richtlinien zuweisen.
+Sie können die Einstellungen zum Einschließen von apps, die Sie möchten in der globalen Richtlinie bearbeiten. Wenn Sie Teams für verschiedene Gruppen von Benutzern in Ihrer Organisation anpassen möchten, erstellen und eine oder mehrere benutzerdefinierte Richtlinien zuweisen. Wenn ein Benutzer eine benutzerdefinierte Richtlinie zugewiesen ist, gilt diese Richtlinie für den Benutzer. Wenn ein Benutzer eine benutzerdefinierte Richtlinie zugewiesen wird nicht, gilt die globale Richtlinie für den Benutzer.
 
 ![App-Setup-policies.png](media/app-setup-policies.png)
 
 > [!NOTE]
-> Wenn ein Benutzer eine benutzerdefinierte Richtlinie zugewiesen ist, gilt diese Richtlinie für den Benutzer. Wenn ein Benutzer eine benutzerdefinierte Richtlinie zugewiesen wird nicht, gilt die globale Richtlinie für den Benutzer.
+> Wenn Sie Teams für Bildungseinrichtungen verfügen, ist es wichtig zu wissen, dass die app Zuordnungen standardmäßig in der globalen Richtlinie fixiert ist, auch wenn derzeit nicht angezeigt, dass es in der globalen Richtlinie aufgeführt. Es wird die vierte app in der Liste der angeheftete apps auf Teams Clients sein.
 
 ## <a name="create-a-custom-app-setup-policy"></a>Erstellen Sie eine benutzerdefinierte Anwendung Setup-Richtlinie
 

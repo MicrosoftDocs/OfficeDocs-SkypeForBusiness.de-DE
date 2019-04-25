@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 description: Führen Sie zur Vorbereitung des Schemas für Active Directory Domain Services im Schema vorbereiten Schritt in der Skype für Business Server-Bereitstellungs-Assistenten auf. Klicken Sie auf Ausführen, um mit der Schemavorbereitung zu beginnen. Der Schritt Schema vorbereiten liest Definitionsdateien bereitgestellte Schema in das Verzeichnis/Program Files/Microsoft Lync Server 2013/Bereitstellung/Setup auf dem System, das den Bereitstellungs-Assistenten ausgeführt wird. Diese Dateien sind auch verfügbar, auf dem Installationsmedium im Verzeichnis Support-Schema. Der Schritt „Schema vorbereiten“ dient zum Erweitern des Schemas und zum Melden des Prozessstatus. Ferner wird in diesem Schritt der Abschluss des Prozesses gemeldet. Auf dem Zusammenfassungsbildschirm können Sie die Protokolle des Prozesses überprüfen. Vergewissern Sie sich mithilfe der Protokolle, dass die Vorbereitung erfolgreich abgeschlossen wurde.
 ms.openlocfilehash: 8565a3474b309820714949b5aa6f4544c72a23bd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891008"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234947"
 ---
 # <a name="prepare-schema"></a>Vorbereiten des Schemas
  

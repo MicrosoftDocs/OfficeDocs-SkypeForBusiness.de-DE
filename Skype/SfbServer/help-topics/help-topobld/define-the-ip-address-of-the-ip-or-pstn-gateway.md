@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 description: Sie definieren die IPv4 oder IPv6-Adressen für das Gateway IP-Adresse oder Telefonnummer switched Telephone Network, (PSTN), indem Sie entweder aktivieren IPv4 oder IPv6 aktivieren auswählen. Sie können auswählen, dass entweder alle konfigurierten IP-Adressen oder Verwendung von Grenzwert ausgewählten IP-Adressen verwenden.
 ms.openlocfilehash: 4def45565685b819fa587e61e1c7588a3664d225
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894824"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226964"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Definieren der IP-Adresse des IP- oder PSTN-Gateways
 

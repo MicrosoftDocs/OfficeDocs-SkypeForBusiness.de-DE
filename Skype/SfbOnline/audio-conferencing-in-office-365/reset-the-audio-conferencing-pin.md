@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, was Sie Drehbezugspunkten wissen sollten und wie diese in Skype für Business Online zurückzusetzen. '
 ms.openlocfilehash: 257f59f59d4fc86c91aa5496fe3db42573269065
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882138"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229251"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Zurücksetzen der Audiokonferenz PIN in Skype für Business Online
 
@@ -102,6 +102,6 @@ Ein Benutzer kann eine PIN zurücksetzen, mithilfe der Option **PIN zurücksetze
     > [!NOTE]
     > Mithilfe des Windows PowerShell-Moduls für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, bei der eine Verbindung mit Skype for Business Online hergestellt wird. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
   
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 
 [Zurücksetzen einer Konferenzkennung für einen Benutzer](reset-a-conference-id-for-a-user.md)

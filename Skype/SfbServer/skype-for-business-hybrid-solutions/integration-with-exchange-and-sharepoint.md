@@ -19,11 +19,11 @@ ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Zusammenfassung: Informationen Sie zu Skype für die Integration mit Exchange und SharePoint Business Server 2015.'
 ms.openlocfilehash: 91291f960636b8fd0c41519ff65830b98b631e8c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879962"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227936"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integration mit Exchange und SharePoint
 
@@ -38,7 +38,7 @@ In den folgenden Tabellen aufgelistet, die in einer hybridbereitstellung bei Mic
  **Skype für Business Server lokal und Exchange lokal**
 
 
-|**Funktion**|**Notizen**|
+|**Funktion**|**Hinweise**|
 |:-----|:-----|
 |Chat/Anwesenheit in Outlook  <br/> |Weitere Informationen finden Sie unter [Sofortnachrichten und Anwesenheit](https://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx).  <br/> |
 |Planen von und Teilnehmen an Onlinebesprechungen über Outlook  <br/> |Weitere Informationen finden Sie unter [Skype für Business Server 2015 mit Exchange Server zu integrieren](../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
@@ -58,7 +58,7 @@ In den folgenden Tabellen aufgelistet, die in einer hybridbereitstellung bei Mic
  **Skype für Business Server lokal und Exchange Online**
 
 
-|**Funktion**|**Notizen**|
+|**Funktion**|**Hinweise**|
 |:-----|:-----|
 |Chat/Anwesenheit in Outlook  <br/> |Weitere Informationen finden Sie unter [Konfigurieren der Integration zwischen lokalen Skype für Business Server 2015 und Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
 |Planen von und Teilnehmen an Onlinebesprechungen über Outlook  <br/> ||
@@ -78,7 +78,7 @@ In den folgenden Tabellen aufgelistet, die in einer hybridbereitstellung bei Mic
  **Skype für Business Online und Exchange lokal**
 
 
-|**Funktion**|**Notizen**|
+|**Funktion**|**Hinweise**|
 |:-----|:-----|
 |Anwesenheit in Outlook  <br/> ||
 |Antworten per Chat, Festnetzanruf, Skype-Anruf oder Videoanruf aus einer Outlook-E-Mail heraus  <br/> ||
@@ -95,7 +95,7 @@ In den folgenden Tabellen aufgelistet, die in einer hybridbereitstellung bei Mic
  **Skype für Unternehmen Online und Exchange Online**
 
 
-|**Funktion**|**Notizen**|
+|**Funktion**|**Hinweise**|
 |:-----|:-----|
 |Chat/Anwesenheit in Outlook  <br/> ||
 |Planen von und Teilnehmen an Onlinebesprechungen über Outlook  <br/> ||

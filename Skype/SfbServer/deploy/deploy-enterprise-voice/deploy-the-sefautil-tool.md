@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Bereitstellen von dem Tool SEFAUtil in Skype für Business Server ein.
 ms.openlocfilehash: 64319438604e30ab7187885eb82daf554d176917
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223084"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Das Tool SEFAUtil in Skype für Unternehmen bereitstellen
  

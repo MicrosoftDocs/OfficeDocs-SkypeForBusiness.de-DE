@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: d61fddc1-98d4-4577-a371-33f9e221288c
 description: Vor Beginn die Migration eine vollständige Sicherung durchführen und Dokumentieren Sie das bestehende System, einschließlich einer Bestandsaufnahme der Benutzerkonten, die in jedem Pool verwaltet werden, damit Sie ein Rollback können zurück, wenn es erforderlich ist. Mehrere Tools und Programme stehen für das Sichern und Wiederherstellen von Daten, Einstellungen und Systemen.
 ms.openlocfilehash: da85acf6709d4d5cdb35cabc5eedb97f55c2967a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238758"
 ---
 # <a name="back-up-systems-and-data"></a>Sichern von Systemen und Daten
 

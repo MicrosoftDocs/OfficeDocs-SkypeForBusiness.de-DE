@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
 ms.openlocfilehash: cabe1396a8cea69e3fd2028120f3ec16ee773453
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886847"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234802"
 ---
 # <a name="call-detail-recording-create-new-or-edit-existing"></a>Aufzeichnung von Kommunikationsdatensätzen: Erstellen einer neuen oder Bearbeiten einer vorhandenen Aufzeichnung von Kommunikationsdatensätzen
  

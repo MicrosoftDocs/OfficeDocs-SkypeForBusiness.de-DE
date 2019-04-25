@@ -1,5 +1,5 @@
 ---
-title: Office 365 Enterprise E5 (ohne Audiokonferenzen)
+title: Office 365 Enterprise E5 (ohne Audiokonferenz)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,13 @@ ms.custom:
 - LIL_Placement
 description: 'Informationen Sie zu Add-on-Lizenzen, Funktionen und Informationen zum Erwerben von Office 365 Enterprise (ohne Audiokonferenzen) Pläne. '
 ms.openlocfilehash: c669384dacfe354c0bdaf2622874d9df4d13cdc3
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948169"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238346"
 ---
-# <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 Enterprise E5 (ohne Audiokonferenzen)
+# <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 Enterprise E5 (ohne Audiokonferenz)
 
 Wenn Sie den Office 365 Enterprise E5 (ohne Audiokonferenzen) Plan bereits erworben haben, erhalten hier Sie die Skype für Business Add-on Lizenzen benötigten kaufen, um mehr Features zur Verfügung.
 

@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen und Aktualisieren von Daten für Speicherorte
+title: Hinzufügen und Aktualisieren von Standortdaten
 author: tonysmit
 ms.author: lolaj
 manager: serdars
@@ -19,13 +19,13 @@ f1keywords: ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a84b022c7b5553a15ff8862a175ba5f856cdd149
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222317"
 ---
-<a name="adding-and-updating-locations-data"></a>Hinzufügen und Aktualisieren von Daten für Speicherorte
+<a name="adding-and-updating-locations-data"></a>Hinzufügen und Aktualisieren von Standortdaten
 ============================
 
 Speicherorte sind in Ihrer Organisation verwendet, um die physischen Standorten des Büros, Gebäude oder Organisationseinheit Websites anzugeben. Die Seite Speicherorte gibt Administratoren die Möglichkeit, eine Textdatei (CSV oder TSV) bereitstellen, enthält eine Liste der physischen Standorten und deren zugeordneten Netzwerksubnetzen. Diese Datei wird von Analytics aufrufen, und rufen Sie Qualitätsdashboard verwendet, Berichte zu erstellen. Wenn Kunden, deren Zuordnung Subnetz hochladen, enthalten die Berichte diese Dienste die Standortnamen auch erleichtern die Berichte zu verstehen und für Korrigieren von potenzielle Probleme beim verwenden.

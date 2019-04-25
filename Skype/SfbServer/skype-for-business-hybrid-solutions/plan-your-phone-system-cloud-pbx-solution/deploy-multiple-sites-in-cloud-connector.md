@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Informationen Sie zu mehreren PSTN-Websites in der Cloud Connector Edition bereitstellen.
 ms.openlocfilehash: 194eaf0b68489b37a5ab1fc2d5d501177edd0b35
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895951"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227901"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Bereitstellen mehrerer Standorte in Cloud Connector
  

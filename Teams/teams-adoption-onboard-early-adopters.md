@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 415726bbc78fbc98b5e3eefa3cb1455f3ddee483
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0225f439f8a8ffef245e94f5536251fb2ad43e94
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462132"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227049"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Onboarding von Early Adopters und Sammeln von Feedback für Microsoft Teams
 
@@ -39,7 +39,7 @@ Führen Sie die folgenden Schritte aus, mit diesen frühen Übernahmen:
 
 Verwenden Sie die Komponenten von Office 365 zum Sammeln von Feedback für Ihr Projekt.
   
-![Entscheidungspunktsymbol](media/teams-adoption-decision-icon.png) Entscheidung: Wenn Ihre Organisation bereits eine Investition in einem Yammer-Netzwerk verfügt, können Sie es als Feedback Forum für Ihr early Firmenwerts-Programm verwenden. Wenn dies nicht der Fall ist, und Ihr early Firmenwerts Programm verfügt über weniger als 2500 Elemente, erstellen Sie ein Team in Teams Erfassung des Feedbacks und Schulen.
+![Entscheidungspunktsymbol](media/teams-adoption-decision-icon.png) Entscheidung: Wenn Ihre Organisation bereits eine Investition in einem Yammer-Netzwerk verfügt, können Sie es als Feedback Forum für Ihr early Firmenwerts-Programm verwenden. Wenn dies nicht der Fall ist, und Ihr early Firmenwerts Programm verfügt über weniger als 5000 Elemente, erstellen Sie ein Team in Teams Erfassung des Feedbacks und Schulen.
   
 > [!Note]
 > In einigen Unternehmen werden die Kanäle für frühe Firmenwerts Feedback in die Zusammenarbeit Champions Programmierteam kombiniert. Dies ist ein guter Ansatz, da viele frühe Übernahmen möglicherweise Champions in Zukunft, und es wird eine stärkere Community erstellen. 

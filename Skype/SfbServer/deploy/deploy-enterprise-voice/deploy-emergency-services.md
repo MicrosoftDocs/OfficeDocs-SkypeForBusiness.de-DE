@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 description: Bereitstellen von E9-1-1 in Skype für Business Server Enterprise-VoIP. Dazu gehören die Voraussetzungen sowie die Prüfliste für den Bereitstellungsprozess.
 ms.openlocfilehash: b24bdfdd40787c8be57b541f3a163e3c21f3012a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888647"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223127"
 ---
 # <a name="deploy-emergency-services-in-skype-for-business-server"></a>Notdienste in Skype für Business Server bereitstellen
  

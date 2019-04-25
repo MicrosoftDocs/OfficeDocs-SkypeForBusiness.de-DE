@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
 ms.openlocfilehash: e8cc303c503d52a9424c400617c7a982aec99d1f
-ms.sourcegitcommit: a37abb5c433012d501ede319fba60e0ae7474fce
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31397048"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229575"
 ---
 # <a name="whats-the-status-of-my-port-orders"></a>Wie ist der Status meiner Portierungsanträge?
 
@@ -39,7 +39,7 @@ Die folgende Tabelle enthält die Port Status als auch Aktionen, die Sie ergreif
 |**Wenden Sie sich an Netzbetreiber** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Die Reihenfolge empfangen und von Microsoft genehmigt wurde, und wir arbeiten mit der riskieren Netzbetreiber darauf genehmigt zuzugreifen.  <br/> |
 |**Übertragung genehmigt** <br/> |Ja  <br/> |Reihenfolge Commitment(FOC) fest  <br/> |Ja  <br/> |Nein  <br/> |Die Reihenfolge von der riskieren Netzbetreiber angenommen wurde, und das Datum FOC festgelegt wurde.  <br/> |
 |**Übertragen von ausstehenden** <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Die Übertragung ist weniger als 24 Stunden "Abwesend" anzeigen, damit die Reihenfolge nicht mehr bearbeitet oder abgebrochen werden kann.  <br/> |
-|**Fehler** <br/> |Nein  <br/> |Ja  <br/> |Ja   <br/> |Ja (zu diesem Zeitpunkt kann nicht gelöscht werden die Reihenfolge Port ein Fehler aufgetreten ist. Die Port Reihenfolge neu erstellt werden soll, oder Sie müssen zur [Unterstützung von Kontakt für Business-Produkte – Admin Hilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).  <br/> |Der riskieren Netzbetreiber hat die Reihenfolge abgelehnt.  <br/> |
+|**Fehler** <br/> |Nein  <br/> |Ja  <br/> |Ja  <br/> |Ja (zu diesem Zeitpunkt kann nicht gelöscht werden die Reihenfolge Port ein Fehler aufgetreten ist. Die Port Reihenfolge neu erstellt werden soll, oder Sie müssen zur [Unterstützung von Kontakt für Business-Produkte – Admin Hilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).  <br/> |Der riskieren Netzbetreiber hat die Reihenfolge abgelehnt.  <br/> |
 |**Abgeschlossen** <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Die Ziffern wurden erfolgreich übertragen.  <br/> |
 |**abgebrochen** <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Der Administrator hat den Auftrag abgebrochen.  <br/> |
    

@@ -21,11 +21,11 @@ ms.custom:
 - Setup
 description: 'Finden Sie unter Where Zuweisen einer gültigen Dienstplan für einen Benutzer nach einer Skype für Business Online Dienstplan gültige Fehler nicht zur Verfügung. '
 ms.openlocfilehash: a6e42e26b9a0257005d735b0e5cda13af6f11b67
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888020"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237193"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>Skype für Business Online Dienstplan des Benutzers ist nicht zulässig
 

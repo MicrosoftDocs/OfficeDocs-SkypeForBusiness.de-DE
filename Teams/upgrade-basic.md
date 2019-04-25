@@ -19,11 +19,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b9c95e8eea5081be4b26732914cff7618b415021
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959386"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227575"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -113,7 +113,7 @@ Bereitstellen der umfangreichen Hinweis an Ihre Benutzer erhält Zeit sie mit de
 
 **Ressourcen:**
 
-- [Verwalten von Einstellungen für Ihre Organisation Microsoft-Teams](enable-features-office-365.md)
+- [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md)
 - [Beispiel-e-Mail: Ankündigung aus, wenn Benutzer über Skype für Unternehmen](upgrade-emails-surveys.md#step-4-email)
 
 [Zurück zum Seitenanfang](#about-upgrade-basic)

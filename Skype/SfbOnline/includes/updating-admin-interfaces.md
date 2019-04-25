@@ -1,1 +1,1 @@
-Die Verwaltung von Funktionen in Skype for Business Online wird ständig aktualisiert. Daher können sich die Schritte hier etwas unterscheiden.
+Wir aktualisieren die Verwaltung der Funktionen in Skype for Business Online häufig. Daher können sich die hier beschriebenen Schritte etwas von denen in Skype for Business Online unterscheiden.

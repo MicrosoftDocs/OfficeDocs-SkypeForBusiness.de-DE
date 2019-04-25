@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Eine allgemein akzeptierte bewährte Methode für Migrationen ist, erstellen mehrere Testbenutzer und deren Verwendung zur Durchführung von Systemtests. Nachdem Sie erfolgreich verschoben und diese Konten getestet haben, sollten Sie eine Gruppe von pilotproduktionsbenutzern identifizieren und dazugehörigen Konten verschieben und Validierungstests durchführen. Wenn Sie Standardkontingente Ergebnisse zu erhalten, können Sie die restlichen Benutzer in die neue Bereitstellung verschieben.
 ms.openlocfilehash: beb5df367ba97db5f654eba01fa6790d0e806ab3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894571"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231364"
 ---
 # <a name="user-migration"></a>Benutzermigration
 

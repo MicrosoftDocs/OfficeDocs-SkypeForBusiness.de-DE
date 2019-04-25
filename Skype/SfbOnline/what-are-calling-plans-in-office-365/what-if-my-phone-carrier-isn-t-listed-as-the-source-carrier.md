@@ -1,5 +1,5 @@
 ---
-title: Was ist, wenn mein Telefonbetreiber nicht als Quellbetreiber aufgeführt ist?
+title: Was geschieht, wenn mein Mobilfunkbetreibers als der Quelle Netzbetreiber nicht aufgeführt ist?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, wie Sie vorgehen, wenn Ihr Netzbetreiber nicht in Skype für Unternehmen aufgeführt ist. '
 ms.openlocfilehash: 638d222231ca0f092684ebde2fab74cc034af70c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229652"
 ---
-# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Was ist, wenn mein Telefonbetreiber nicht als Quellbetreiber aufgeführt ist?
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Was geschieht, wenn mein Mobilfunkbetreibers als der Quelle Netzbetreiber nicht aufgeführt ist?
 
 Es ist etwas verwirrend, wenn Sie sehen, dass der Name der Ihr Netzbetreiber nicht aufgeführt ist. Wenn der Dienstanbieter oder Netzbetreiber, unterscheidet, sind wahrscheinlich in den meisten Fällen, dass die Telefonnummern, denen Sie über übertragen werden von einem anderen Dienstanbieter oder Netzbetreiber gehören. Wenn der Dienstanbieter oder Netzbetreiber, die aufgeführt wird vom aktuellen Dienstanbieter abweichen konnte, da vom aktuellen-Dienstanbieter möglicherweise mit einem Drittanbieter-Dienstanbieter arbeiten Zeiten können vorhanden sein. 
   

@@ -1,5 +1,5 @@
 ---
-title: Teams für virtualisierte Desktopinfrastruktur
+title: Teams für Virtualized Desktop Infrastructure
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,13 +16,13 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c351e0cefc5e4de4ff74a175af4dee064bf96f3f
-ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "31869830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223424"
 ---
-# <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams für virtualisierte Desktopinfrastruktur
+# <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams für Virtualized Desktop Infrastructure
 
 Dieser Artikel beschreibt die Anforderungen und Einschränkungen für die Verwendung von Microsoft-Teams in einer virtualisierten Umgebung.
 

@@ -14,11 +14,11 @@ ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um die Installation zu beginnen und zum Aktualisieren einer vorhandenen bereitstellungs von Skype für Business Server, klicken Sie auf Installieren oder Aktualisieren von Skype für Business Server. Die Schritte in diesem Abschnitt werden bestimmte Komponenten auf einen bestimmten Server-Role, basierend auf dem Dokument Topologie-Generator installieren. Bevor Sie dieser Serie von Schritten beginnen, müssen Sie die Bereitstellung im Topologie-Generator definieren. Sie müssen an dem Computer, den Sie bereitstellen, als lokaler Administrator und Mitglied der Gruppe „Domänen-Admins“ der Domäne angemeldet sein, in der sich der Server befindet. Vor Ausführung dieses Schritts muss der Computer der Domäne beitreten.
 ms.openlocfilehash: 2f452b521302ac8cb743a79ebba4b30cad8c6595
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216165"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>Installieren oder Aktualisieren von Skype for Business Server
 

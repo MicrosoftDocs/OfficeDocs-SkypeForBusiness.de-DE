@@ -3,7 +3,7 @@ title: Aktivieren und Verwenden des Dashboards für Anrufqualität
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney, gageames
+ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. '
-ms.openlocfilehash: 38332fdcf8cb2f5e1f26d45b67d85dc17610a42d
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: bfbca275afb6da9dbe0f809906e6053f87e960e8
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026237"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298668"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Einschalten und Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online
 
@@ -73,7 +73,21 @@ Bevor Sie mit der Verwendung des AQD beginnen können, müssen Sie es für Ihre 
      ![CQD Login](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
 Nach der Anmeldung einmal aktiviert ist, beginnt die CQD sammeln und Verarbeitung von Daten.
+
+![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
+ 
+1. Melden Sie sich bei Office 365-Organisation mit Microsoft-Teams-Admin-Dienstkonto, und wählen Sie dann die **Admin** -Kachel, um das Administrationscenter zu öffnen.
+    
+2. Wählen Sie im linken Bereich unter **Admin centers**, **Microsoft-Teams,** das Microsoft-Teams, Administrationscenter zu öffnen.
+    
+3. Wählen Sie in der Verwaltungskonsole von Microsoft-Teams im linken Bereich **Qualitätsdashboard aufrufen** .
+    
   
+4. Klicken Sie auf der Seite, die geöffnet wird, melden Sie sich mit Ihrer globalen Administratorkonto oder Microsoft Teams Dienstadministrator Konto, und geben Sie die Anmeldeinformationen für das Konto, wenn Sie aufgefordert werden.
+    
+     ![CQD Login](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+  
+Nach der Anmeldung einmal aktiviert ist, beginnt die CQD sammeln und Verarbeitung von Daten.  
 > [!NOTE]
 > Es kann einige Stunden dauern, bis genügend Daten verarbeitet worden sind, um in den Berichten aussagekräftige Ergebnisse anzuzeigen. 
   
@@ -85,17 +99,18 @@ CQD-Zusammenfassungsberichte bieten eine Reihe von Funktionen, die für detailli
 |**Funktion**|**Zusammenfassungsberichte**|**Detaillierte Berichte**|
 |:-----|:-----|:-----|
 |Anwendungsfreigabemetrik  <br/> |Nein  <br/> |Ja  <br/> |
-|Unterstützung von Kunden-Gebäudeinformationen  <br/> |Ja   <br/> |Ja   <br/> |
+|Unterstützung von Kunden-Gebäudeinformationen  <br/> |Ja  <br/> |Ja  <br/> |
+|Support für Kunden Endpunkt Informationen  <br/> |Nur in cqd.teams.microsoft.com  <br/> |Nur in cqd.teams.microsoft.com  <br/> |
 |Drilldown-Analyse-Support  <br/> |Nein  <br/> |Ja  <br/> |
 |Medienzuverlässigkeitsmetriken  <br/> |Nein  <br/> |Ja  <br/> |
-|Sofort einsatzbereite Berichte  <br/> |Ja   <br/> |Ja   <br/> |
-|Übersichtsberichte  <br/> |Ja   <br/> |Ja   <br/> |
+|Sofort einsatzbereite Berichte  <br/> |Ja  <br/> |Ja  <br/> |
+|Übersichtsberichte  <br/> |Ja  <br/> |Ja  <br/> |
 |Berichtssatz pro Nutzer  <br/> |Nein  <br/> |Ja  <br/> |
 |Anpassung des Berichtssatzes (Hinzufügen, Löschen, Ändern von Berichten)  <br/> |Nein  <br/> |Ja  <br/> |
 |Videobasierte Bildschirmfreigabe-Metriken  <br/> |Nein  <br/> |Ja  <br/> |
 |Videometriken  <br/> |Nein  <br/> |Ja  <br/> |
 |Verfügbare Datenmenge  <br/> |Letzte 6 Monate  <br/> |Letzte 6 Monate  <br/> |
-|Microsoft Teams-Daten  <br/> |Ja  <br/> |Ja   <br/> |
+|Microsoft Teams-Daten  <br/> |Ja  <br/> |Ja  <br/> |
    
 ### <a name="out-of-the-box-reports"></a>Sofort einsatzbereite Berichte
 
@@ -174,20 +189,22 @@ In den Zusammenfassungsberichten und erweiterten Standortberichten können Sie m
   
 In ausführliche Berichte können Sie die Dimension **Teams ist** zum Filtern der Daten zu Microsoft-Teams oder Skype für Business Online-Daten als Teil der Definition des Berichts.
   
-## <a name="upload-building-information"></a>Informationen zum Erstellen von hochladen
-<a name="BKMKBuildingInformationUpload"></a>
+## <a name="upload-tenant-data-information"></a>Mandantendaten Informationen uploaden
+<a name="BKMKTenantDataInformationUpload"></a>
 
-Das Dashboard für AQD-Zusammenfassungsberichte enthält die Seite **Upload von Mandantendaten**, auf die Sie zugreifen können, indem Sie rechts oben im Einstellungsmenü die Option **Upload von Mandantendaten** auswählen. Diese Seite wird von Administratoren zum Hochladen ihrer eigenen Informationen verwendet, wie z. B. Zuordnung von IP-Adressen und geografischen Informationen, Zuordnung der einzelnen Funkzugriffspunkte und ihrer MAC-Adressen usw.
+Das Dashboard CQD Zusammenfassung Berichte enthält eine Seite **Mandanten Daten hochladen** , durch Auswahl der **Mandant Hochladen von Daten** im Einstellungsmenü in der oberen rechten Ecke zugegriffen. Diese Seite ist für Administratoren zum Hochladen von ihren eigenen Informationen, wie Zuordnung von IP-Adresse und geografische Informationen, zuordnen jeder drahtlosen Zugriffspunkt und die MAC-Adresse, die Zuordnung des Endpunkts auf stellen/Modell/Endpunkttyp usw. verwendet.
   
 ![CQD Dashboard](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
-1. Verwenden Sie das Dropdownmenü auf der Seite **Upload von Mandantendaten**, um einen Datendateityp für den Upload auszuwählen. Der Dateidatentyp bezeichnet den Inhalt der Datei (z. B. bezieht sich „Gebäude" auf die Zuordnung von IP-Adressen und Gebäuden sowie auf andere geografische Informationen). Derzeit unterstützen wir nur den Datentyp „Gebäude". Weitere Datentypen werden in den nächsten Versionen hinzugefügt.
+1. Verwenden Sie auf der Seite **Mandanten Hochladen von Daten** im Dropdown-Menü, um einen Datentyp für die Datei zum Hochladen auswählen. Der Datentyp der Datei gibt den Inhalt der Datei (beispielsweise "Building" verweist auf die Zuordnung der IP-Adresse und building sowie andere geografische Informationen, "Endpunkt" verweist auf die Zuordnung von Endpunktname an Stellen/Modell/Endpunkttyp... Informationen). Derzeit unterstützt hochladen "Erstellen" und "Endpunkt" Datentypen für cqd.teams.microsoft.com (Preview Freigabefenster und nicht offiziell verfügbar noch), cqd.lync.com unterstützt nur das Hochladen Datentyp "Building". Einige weitere Datentypen werden den nachfolgenden Versionen hinzugefügt.
     
 2. Klicken Sie nach Auswahl des Dateidatentyps auf **Durchsuchen**, um eine Datendatei auszuwählen.
     
    - Bei der Datendatei muss es sich um eine TSV-Datei (Datei mit tabulatorgetrennten Werten) oder eine CSV-Datei (Datei mit durch Trennzeichen getrennten Werten) handeln. Wenn Sie eine CSV-Datei verwenden, wird jedes Feld, das ein Komma enthält müssen von Anführungszeichen umgeben sein oder Komma entfernt haben. Beispiel: Wenn Ihr Gebäudename NY,NY lautet, muss er in der CSV-Datei als „NY,NY" eingegeben werden.
     
    - Die Datendatei darf maximal 50 MB groß sein.
+
+   - Datei in cqd.teams.microsoft.com hochgeladen wurde erweitert, Zeile Grenze von 1.000.000, um die Leistung von Abfragen zu beschleunigen. Wir können diese Grenze auf cqd.lync.com sowie vorsehen.
     
    - Bei jeder Datendatei muss jede Spalte in der Datei einem vordefinierten Datentyp entsprechen, der später in diesem Thema besprochen wird.
     
@@ -205,10 +222,11 @@ Das Dashboard für AQD-Zusammenfassungsberichte enthält die Seite **Upload von 
     
      ![CQD My Uploads table](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
   
-### <a name="tenant-data-file-format-and-building-data-file-structure"></a>Dateiformat der Mandantendaten und Dateistruktur der Gebäudedaten
+### <a name="tenant-data-file-format-and-structure"></a>Mandanten-Dateiformat und Struktur
 <a name="BKMKTenantDataFile"> </a>
 
-Das Format der Datei, die Sie hochladen, muss folgende Bedingungen erfüllen, um die Validierungsprüfung vor dem Hochladen zu bestehen.
+### <a name="building-data-file"></a>Erstellen von-Datendatei
+CQD verwendet zum Erstellen von Datendatei vom ersten abgeleitet Subnetz Spalte erweiterbare Netzwerk + NetworkRange Spalte, und klicken Sie dann auf zu verknüpfende Subnetz-Spalte auf den Anruf Datensatz erste Subnet/Second Subnetz Spalte zum Erstellen von/Stadt/Land/Region anzeigen... Informationen. Das Format der Datei, die Sie hochladen, muss folgende Bedingungen erfüllen, um die Validierungsprüfung vor dem Hochladen zu bestehen.
   
 - Bei der Datei muss es sich um eine TSV-Datei (die Spalten in den einzelnen Zeilen werden durch Tabstopps getrennt) oder um eine CSV-Datei (alle Spalten werden durch Trennzeichen getrennt) handeln.
     
@@ -239,7 +257,35 @@ Das Format der Datei, die Sie hochladen, muss folgende Bedingungen erfüllen, um
    
 > [!IMPORTANT]
 > Der Netzwerkbereich kann zur Darstellung eines Supernetzes (einer Kombination aus mehreren Subnetzen mit einem einzelnen Routing-Präfix) verwendet werden. Alle neuen Gebäude-Uploads werden auf sich überlappende Bereiche hin untersucht. Wenn Sie zuvor eine Gebäudedatei hochgeladen haben, sollten Sie die aktuelle Datei herunterladen und erneut hochladen, um mögliche Überlappungen zu identifizieren und das Problem vor dem erneuten Hochladen zu beheben. Alle Überlappungen in zuvor hochgeladenen Dateien können zu falschen Zuordnungen von Subnetzen zu Gebäuden in den Berichten führen. Bestimmte VPN-Implementierungen meldet nicht genau die Subnetzinformationen. Es wird empfohlen, beim Hinzufügen eines VPN-Subnetzes zur Gebäudedatei anstelle eines Eintrags für das Subnetz separate Einträge für jede Adresse im VPN-Subnetz als separates 32 Bit-Netzwerk hinzuzufügen. Jede Zeile kann die gleichen Gebäudemetadaten enthalten. Ein Beispiel: Anstelle einer Zeile für 172.16.18.0/24 sollten Sie 256 Zeilen verwenden - eine Zeile für jede Adresse zwischen 172.16.18.0/32 und 172.16.18.255/32 (einschließlich). 
-  
+
+### <a name="endpoint-data-file"></a>Endpunkt-Datendatei
+CQD verwendet die Endpunkt-Datendatei durch Verknüpfen der Spalte endPointName angibt mit den Anruf Datensatz ersten Endpunkt Name/Second Client Endpunkt Clientname Spalte stellen/Modell/Endpunkttyp Informationen anzeigen. Das Format der Datei, die Sie hochladen, muss folgende Bedingungen erfüllen, um die Validierungsprüfung vor dem Hochladen zu bestehen.
+
+- Bei der Datei muss es sich um eine TSV-Datei (die Spalten in den einzelnen Zeilen werden durch Tabstopps getrennt) oder um eine CSV-Datei (alle Spalten werden durch Trennzeichen getrennt) handeln.
+
+- Der Inhalt der Datendatei umfasst keine Tabellenüberschriften. Das bedeutet, dass die erste Zeile der Datendatei realen Daten, Header nicht wie "endPointName"angibt, sein sollte usw..
+
+- Für jede Spalte des Datentyps kann nur Zeichenfolge sein, und es sollte nicht mehr als 64 Zeichen, das ist maximal zulässige Länge.
+
+- Für jede Spalte die Daten können leer sein (aber dennoch durch eine entsprechende Trennzeichen (d. h., Registerkarte oder Komma) getrennt werden müssen. Dadurch wird dem Feld eine leere Zeichenfolge zugewiesen.
+
+- 7 Spalten für jede Zeile vorhanden sein muss, und die Spalten in der angegebenen Reihenfolge aus, in der folgenden Tabelle werden müssen.
+
+- EndPointName angibt muss anders eindeutig sein, Upload aufgrund doppelte Zeile fehl, da falsche beitreten Dadurch wird.
+
+-  EndpointLabel1, EndpointLabel2, EndpointLable3 Benutzer anpassbare Etiketten sind, kann es sich um eine leere Zeichenfolge oder Wert Benutzer bevorzugen wie "IT-Abteilung vorgesehen 2018 Laptop", "Asset Tag 5678"... usw.
+
+|**Spaltenname**|**Datentyp**|**Beispiel**|
+|:-----|:-----|:-----|
+|EndPointName angibt  <br/> |Zeichenfolge  <br/> |1409W3534  <br/> |
+|EndpointMake  <br/> |Zeichenfolge  <br/> |Fabrikam Inc.  <br/> |
+|EndpointModel  <br/> |Zeichenfolge  <br/> |Fabrikam-Modell 123  <br/> |
+|EndpointType   <br/> |Zeichenfolge  <br/> |Laptop  <br/> |
+|EndpointLabel1  <br/> |Zeichenfolge  <br/> |IT festgelegte 2018 Laptop  <br/> |
+|EndpointLabel2  <br/> |Zeichenfolge  <br/> |Asset Tag 5678  <br/> |
+|EndpointLabel3  <br/> |Zeichenfolge  <br/> |Kauf 2018   <br/> |
+
+
 ## <a name="selecting-media-type-in-detailed-reports"></a>Auswählen eines Medientyps in detaillierten Berichten
 <a name="BKMKMediaType"></a>
 

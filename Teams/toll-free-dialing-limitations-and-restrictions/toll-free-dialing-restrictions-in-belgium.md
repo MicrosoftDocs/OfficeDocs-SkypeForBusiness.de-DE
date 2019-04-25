@@ -1,5 +1,5 @@
 ---
-title: Gebührenfreie Rufnummer einwählen Einschränkungen in Belgien
+title: Einschränkungen für gebührenfreie Telefonnummern in Belgien
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,13 +23,13 @@ ms.custom:
 - Calling Plans
 description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region So wählen Sie die gebührenfreie Telefonnummer.
 ms.openlocfilehash: 28a34ac1ab9fb0c671088635185b5a8a0fb8c1a4
-ms.sourcegitcommit: a37abb5c433012d501ede319fba60e0ae7474fce
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31407752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223448"
 ---
-# <a name="toll-free-dialing-restrictions-in-belgium"></a>Gebührenfreie Rufnummer einwählen Einschränkungen in Belgien
+# <a name="toll-free-dialing-restrictions-in-belgium"></a>Einschränkungen für gebührenfreie Telefonnummern in Belgien
 
 [Suchen Sie nach einem anderen Land oder Region](../toll-free-dialing-limitations-and-restrictions.md), oder erfahren Sie mehr über die gebührenfreie Nummer Grenzen und Einschränkungen.
 

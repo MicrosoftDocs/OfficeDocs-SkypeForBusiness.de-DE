@@ -1,5 +1,5 @@
 ---
-title: Warum ist für die Aktivierung einer Telefonnummer angegeben, dass die Daten aktualisiert werden?
+title: Warum ist die Nummer Aktivierung als aktualisieren aufgeführt?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
 ms.openlocfilehash: dc1bf738f301dfc800b0e0e4975322fae6a1568e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227824"
 ---
-# <a name="why-is-number-activation-listed-as-updating"></a>Warum ist für die Aktivierung einer Telefonnummer angegeben, dass die Daten aktualisiert werden?
+# <a name="why-is-number-activation-listed-as-updating"></a>Warum ist die Nummer Aktivierung als aktualisieren aufgeführt?
 
 Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Wenn aus irgendeinem Grund eine Telefonnummer ist nicht aktiviert und wird als **Aktualisieren** aufgrund von Adresse Validierung aufgeführt, müssen Sie zum Erstellen und Übermitteln einer Anforderung. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
   

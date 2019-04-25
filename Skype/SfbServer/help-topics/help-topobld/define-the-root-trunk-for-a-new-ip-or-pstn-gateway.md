@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 'Sie definieren den stammtrunk für die IP-Adresse oder das Telefonfestnetz (PSTN), indem Sie Folgendes konfigurieren:'
 ms.openlocfilehash: 68eddb8a0e19970cc430b25ad876d6cc2a8c04e1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882912"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226859"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Definieren des Stammtrunks für eine neue IP-Adresse oder ein neues PSTN-Gateway
 

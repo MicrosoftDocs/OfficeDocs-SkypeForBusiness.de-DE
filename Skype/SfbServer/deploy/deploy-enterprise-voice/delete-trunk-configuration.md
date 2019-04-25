@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Auflistung von trunkkonfigurationseinstellungen mithilfe der Skype für Business Server-Systemsteuerung zu löschen.'
 ms.openlocfilehash: da86cbaf45afa47de580c02ab74e3b0b9bb344bf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890550"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223155"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Löschen einer vorhandenen Auflistung von SIP-Trunk-Konfigurationseinstellungen in Skype für Business Server
  

@@ -14,11 +14,11 @@ ms.assetid: 963e6693-26bc-439f-b76d-04389e6ebbf9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator sind online unter Erstellen eines Pools gegenüber in Skype für Business Server beschrieben.
 ms.openlocfilehash: 93521e524e300c6ebae26a990a8f6857c961e3d0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235178"
 ---
 # <a name="video-interop-servers---scope-the-node"></a>Video-Interoperabilität-Server – Festlegen des Knotenbereichs
  

@@ -1,5 +1,5 @@
 ---
-title: Onboarding Prüfliste für die Konfiguration von Netzwerkfunktionen für Microsoft-Teams
+title: Onboardingcheckliste für das Konfigurieren von Netzwerken für Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 188a4d162f31805484d3b491d32976662f4ddfd5
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461028"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225571"
 ---
 # <a name="configure-networking"></a>Netzwerk konfigurieren
 
@@ -35,5 +35,5 @@ ms.locfileid: "30461028"
 | 7  | Konfigurieren von Proxyservern | Konfigurieren Sie Ihre Umgebung so, dass der Proxyserver umgangen werden, und Sie können Benutzer mithilfe von UDP, für die am besten Audio- und Videoqualität direkt in Office 365 verbinden. Wenn Real-Time Media erzwungen wird, um einen Proxy-Server zu durchlaufen, wird der medienstapel in Teams gezwungen, zu einem Fehler beim wieder auf TCP, die sich negativ auf die Qualität beeinflusst. <br/><br/>Ziehen Sie die höchste Qualität Benutzer wünschen UDP immer über TCP vor. | | [Planung für Dienstverwaltung und Qualität](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) |
 | 8  | Konfigurieren von Split-Tunnel VPN | Es wird empfohlen, dass Sie einen alternativen Pfad für Teams Datenverkehr, die das VPN angeben, bekannt als *Split-Tunnel VPN*umgeht. Split-tunneling bedeutet, dass Datenverkehr für Office 365 VPN durchlaufen werden nicht direkt in Office 365 wechselt. Diese Änderung wirkt sich positiv auf die Qualität aus, bietet aber auch den sekundären Vorteil, dass die Last für die VPN-Geräte und das Netzwerk der Organisation reduziert wird. | | Um ein VPN Split-Tunnel zu implementieren, finden Sie in den VPN-Anbieter Einzelheiten zur Konfiguration. |
 | 9  | Konfigurieren von paketpriorisierung mithilfe von QoS | QoS sollte alle Segmente eines verwalteten Netzwerks implementiert werden. Auch wenn ein Netzwerk ausreichend für Bandbreite bereitgestellt wurde, bietet Dienstqualität Risikominderung im Falle Netzwerkereignisse unvorhergesehene. Wenn QoS implementiert wird, wird Sprachdatenverkehr, damit diese Ereignisse unvorhergesehene Qualität beeinträchtigen nicht priorisiert. | | [Planung für Dienstverwaltung und Qualität](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) <br/><br/>[Quality of Service in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams) |
-|  10 | Wi-Fi-Netzwerken für die Qualität und Leistung zu optimieren | Verschiedene Faktoren kommen ins Spiel, wenn Sie Ihr Wi-Fi-Netzwerk optimieren: <ul><li>Implementieren von QoS oder Wi-Fi Multimedia (WMM), um sicherzustellen, Mediendatenverkehr über Wi-Fi-Netzwerke wird priorisiert.</li><li>Planen und Optimieren von Wi-Fi-Bereichen und Access zeigen Platzierung. Der Bereich mit 2,4 GHz bietet möglicherweise eine angemessene Leistung, je nach Zugriffspunkte platziert.</li></ul> Wenden Sie sich an den Hersteller Ihres Wi-Fi für spezifische Leitfäden. | | [WLAN-Empfehlungen für Endpunkte](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#wi-fi-recommendations-for-endpoints) |
+| 10 | Wi-Fi-Netzwerken für die Qualität und Leistung zu optimieren | Verschiedene Faktoren kommen ins Spiel, wenn Sie Ihr Wi-Fi-Netzwerk optimieren: <ul><li>Implementieren von QoS oder Wi-Fi Multimedia (WMM), um sicherzustellen, Mediendatenverkehr über Wi-Fi-Netzwerke wird priorisiert.</li><li>Planen und Optimieren von Wi-Fi-Bereichen und Access zeigen Platzierung. Der Bereich mit 2,4 GHz bietet möglicherweise eine angemessene Leistung, je nach Zugriffspunkte platziert.</li></ul> Wenden Sie sich an den Hersteller Ihres Wi-Fi für spezifische Leitfäden. | | [WLAN-Empfehlungen für Endpunkte](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#wi-fi-recommendations-for-endpoints) |
 | 11 | Überprüfen der Netzwerkkonnektivität mit dem Netzwerk Assessment-Tool | Verwenden Sie das Tool zur Bewertung der Netzwerk für Skype für Unternehmen und Teams zum Testen der Konnektivität für alle IP-Adressen und Ports in Skype für Business Online und Teams Anrufe und Besprechungen verwendet. Laden Sie das Tool, und Usage.docx Informationen dazu, wie Sie mit dem Tool und interpretiert werden die Testergebnisse finden Sie unter. Es wird empfohlen, dass Sie das Tool von einem Client PC an jedem Standort ausführen, Teams verwendet wird. | | [Skype für Unternehmen und Tool zur Bewertung der Teams Netzwerk](https://go.microsoft.com/fwlink/?linkid=855799) |

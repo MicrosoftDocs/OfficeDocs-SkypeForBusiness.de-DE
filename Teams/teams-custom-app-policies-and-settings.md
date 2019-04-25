@@ -18,11 +18,11 @@ localization_priority: Normal
 search.appverid: MET150
 description: Informationen Sie zum Verwalten von benutzerdefinierten app-Richtlinien und Einstellungen steuern, wer in Ihrer Organisation benutzerdefinierte apps im Microsoft-Teams hochladen können.
 ms.openlocfilehash: 3cbd517cdfe8066eebff0164457c8e2e3aa37a5d
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224626"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Microsoft Teams
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44a215c96c85c6681ba4dcfda82e7193a48b95c9
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 8f9f992b31dcdade2d5ba0dd85757ce99980fb80
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649412"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233011"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 
@@ -438,7 +438,7 @@ Auch wenn Sie die vorherige Anleitung durchgeführt haben, können Benutzer in I
 
 4. **Besuchen Sie die Microsoft-Teams, Community:** Der [Microsoft-Teams, Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) bietet dedizierte Leerzeichen für Teams. Der Community Teams bietet eine Diskussionsliste, Blogbeiträge und Teams zentraler Ankündigungen. Sie können eine Frage oder vorherige Diskussionen für Lösungen auf Ihr Problem suchen.
 
-5. **Support von Microsoft:** Microsoft-Support erhalten Sie bei Problemen mit Teams online oder per Telefon. Informationen finden Sie unter [Unterstützung für Microsoft-Teams, Kontakt](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). Für Premier Kunden Anforderungen initiiert werden können, durch Befolgen der Anleitung zur Unterstützung [Kontaktieren des Supports bei Microsoft-Teams (Premier Kunden)](https://support.microsoft.com/premier/contacts).
+5. **Support von Microsoft:** Microsoft-Support erhalten Sie bei Problemen mit Teams online oder per Telefon. Informationen finden Sie unter [Kontakt für Business-Produkte zu unterstützen](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). Für Premier Kunden Anforderungen initiiert werden können, durch Befolgen der Anleitung zur Unterstützung [Kontaktieren des Supports bei Microsoft-Teams (Premier Kunden)](https://support.microsoft.com/premier/contacts).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Täglich/wöchentlich/monatlich/bedarfsorientierte Aufgaben
 
@@ -477,7 +477,7 @@ Nachdem der Dienst Microsoft-Teams bereitgestellt wurde, müssen Sie mehrere Akt
 ### <a name="service-administration"></a>Verwalten des Diensts
 
 Der Dienst Teams hat mehrere Einstellungen, die gesamte Mandanten konfiguriert werden können.
-Änderungen an den Einstellungen für Mandanten betreffen alle Benutzer, die für Teams aktiviert wurden. Eine ausführliche Übersicht über diese Einstellungen finden Sie unter [Microsoft-Teams, Verwalten von Features in Office 365-Organisation](enable-features-office-365.md).
+Änderungen an den Einstellungen für Mandanten betreffen alle Benutzer, die für Teams aktiviert wurden. Eine ausführliche Übersicht über diese Einstellungen finden Sie unter [Microsoft-Teams, Verwalten von Einstellungen für Ihre Organisation](enable-features-office-365.md).
 
 ### <a name="user-administration"></a>Verwalten des
 
