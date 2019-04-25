@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: 202b25903a3e48b0a2a2f32853f061eb8ca73cc8
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: e2b09d4aef25569e1112983b5f62bf2ba3758387
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569942"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298572"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -44,7 +45,7 @@ Microsoft bietet auch all-in-Cloud-VoIP-Lösungen, wie etwa aufrufen planen.  Je
 - Ihre Organisation erfordert Verbindung zu analogen Geräten von Drittanbietern Callcentern und So weiter. 
 - Ihre Organisation hat einen vorhandenen Vertrag mit einem PSTN-Betreibers.
 
-Direktes Routing unterstützt auch Benutzer, die zusätzliche Lizenz für die Microsoft aufrufen planen müssen. Weitere Informationen finden Sie unter [Aufrufen in Office 365-Pläne](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) und [Lizenzierung sowie zu weiteren Anforderungen](#licensing-and-other-requirements). 
+Direktes Routing unterstützt auch Benutzer, die zusätzliche Lizenz für die Microsoft aufrufen planen müssen. Weitere Informationen finden Sie unter [Telefonsystem und Pläne aufrufen](calling-plan-landing-page.md). 
 
 Mit direktem Routing Wenn Benutzer an einer geplanten Konferenz teilnehmen wird die Einwahlnummer vom Microsoft-Audiokonferenzen-Dienst bereitgestellt die entsprechenden Lizenzen erforderlich sind.  Beim wählen, platziert der Dienst Microsoft Audiokonferenzen den Anruf mithilfe der aufrufende Onlinefunktionen, der entsprechenden Lizenzen erforderlich sind. (Beachten Sie, dass die Telefonverbindung über direkte Weiterleitung nicht weitergeleitet wird.) Weitere Informationen finden Sie unter [Besprechungen mit Teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  
@@ -85,7 +86,7 @@ Firewall-IP-Adressen und Ports für die Microsoft-Teams |Weitere Informationen f
 Benutzer von direkten Routing müssen die folgenden Lizenzen im Office 365 zugewiesen: 
 
 - Microsoft Telefonsystem 
-- Microsoft Teams 
+- Microsoft Teams 
 - Microsoft-Audiokonferenzen 
 
 Die Lizenz Audiokonferenzen ist erforderlich für das Hinzufügen von externer Teilnehmern auf geplante Besprechungen von Ihnen Telefonverbindung oder durch die Einwahlnummer bereitstellen. 

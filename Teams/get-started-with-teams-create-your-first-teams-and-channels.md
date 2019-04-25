@@ -3,7 +3,7 @@ title: Erstellen Ihrer ersten Teams und Kanäle in Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/06/2018
+ms.date: 03/22/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3870482a3c9d0322952c09815dc91aa0aebfd9ad
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ca0cbc4e79e43eca70b46970196f30b91bbf43f4
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465228"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246327"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Erstellen Ihrer ersten Teams und Kanäle in Microsoft Teams
 
@@ -49,16 +49,16 @@ Hier sehen Sie einen Vorschlag für die Struktur des Teams.
 | Support | Wenn etwas nicht wie erwartet funktioniert, verwenden Sie diesen Kanal, um Hilfe anzufordern. ||
 
 ## <a name="get-your-first-teams-up-and-running"></a>Vorbereiten und Starten Ihrer ersten Teams
-Als Administrator können Sie Teams und Kanäle im Teams-Client oder dem Microsoft Teams Admin Center erstellen und verwalten. Sie können Teams als öffentlich oder privat erstellen. Sie können darüber hinaus ein organisationsweites Team erstellen. Jede Person in Ihrer Organisation, die Teams verwendet, kann einem öffentlichen Team beitreten. In privaten Teams verwalten Teambesitzer die Teammitgliedschaft. Bei einem organisationsweiten Team wird jeder Benutzer in Ihrer Organisation automatisch hinzugefügt. 
+Als Administrator können Sie Teams und Kanäle im Teams-Client oder dem Microsoft Teams Admin Center erstellen und verwalten. Sie können Teams als öffentlich oder privat erstellen. Sie können darüber hinaus ein [organisationsweites](create-an-org-wide-team.md) Team erstellen. Jede Person in Ihrer Organisation, die Teams verwendet, kann einem öffentlichen Team beitreten. In privaten Teams verwalten Teambesitzer die Teammitgliedschaft. Bei einem organisationsweiten Team wird jeder Benutzer in Ihrer Organisation automatisch hinzugefügt. 
 
 Für den Einstieg empfehlen wir Ihnen, private Teams zu erstellen und einen weiteren Besitzer hinzuzufügen, um die Teameinstellungen und die Mitgliedschaft zu verwalten. 
 
 > [!NOTE]
 > In den folgenden Schritten verwenden wir den Teams-Desktopclient, um Teams und Kanäle zu erstellen. Bedenken Sie, dass Sie diese Aufgaben als Administrator auch im Microsoft Teams Admin Center ausführen können.
 
-### <a name="create-a-team"></a>Erstellen eines Teams
+### <a name="create-a-team"></a>Team erstellen
 
-Klicken Sie auf der linken Seite von Teams auf **Teams**, und klicken Sie dann unten in der Teamliste auf **Einem Team beitreten oder ein Team erstellen**. Klicken Sie auf der Registerkarte **Team erstellen** auf **Team erstellen**.
+Klicken Sie auf der linken Seite von Teams auf **Teams**, und klicken Sie dann unten in der Teamliste auf **Einem Team beitreten oder ein Team erstellen**. Klicken Sie anschließend auf **Neues Team erstellen**.
 
 Laden Sie nach dem Erstellen des Teams Personen zum Beitritt ein. Sie können einzelne Benutzer, Gruppen und sogar gesamte Kontaktgruppen (vormals als “Verteilerlisten” bezeichnet) hinzufügen. 
 
@@ -68,7 +68,7 @@ Laden Sie nach dem Erstellen des Teams Personen zum Beitritt ein. Sie können ei
 Suchen Sie das von Ihnen erstellte Team, und klicken Sie auf **Weitere Optionen ˙˙˙** > **Team verwalten**. Navigieren Sie anschließend zur Registerkarte **Mitglieder**. Suchen Sie die Personen, die Sie als Teambesitzer einsetzen möchten. Klicken Sie unter **Rolle** auf **Besitzer**.
 
 ### <a name="create-a-channel-in-a-team"></a>Erstellen eines Kanals in einem Team
-Suchen Sie das von Ihnen erstellte Team, klicken Sie auf **Weitere Optionen ˙˙˙** > **Kanal hinzufügen**. Alternativ können Sie auf **Team verwalten** klicken und auf der Registerkarte **Kanäle** einen Kanal hinzufügen. 
+Suchen Sie das von Ihnen erstellte Team, und klicken Sie auf **Weitere Optionen...** > **Kanal hinzufügen**. Alternativ können Sie auf **Team verwalten** klicken und auf der Registerkarte **Kanäle** einen Kanal hinzufügen. 
 
 ![Hinzufügen eines Kanals zu einem Team](media/get-started-with-teams-add-channel.png "Screenshot der Option “Kanal hinzufügen”, der Option “Team verwalten” und anderer Optionen, die nach dem Klicken auf “Weitere Optionen” in einem Team verfügbar sind") 
 

@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Informationen Sie zu Richtlinien für Messaging und wie sie Chat in Teams messaging steuern verwendet werden können.
-ms.openlocfilehash: 20c1354f168b5476733c95b49d3344364b8a6008
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.openlocfilehash: f0dd52dac1bd2563a0ef5c500714ab63eeadf84d
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959458"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298453"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Messaging-Richtlinien in Teams
 
@@ -86,7 +86,7 @@ Verwenden Sie die folgenden Einstellungen zum Ändern der globalen Richtlinie me
 - **Zulassen von URL-Vorschau** Verwenden Sie diese Einstellung, um die automatische URL Anzeigen der Vorschau aktiviert oder deaktiviert in Nachrichten zu aktivieren.
 - **Übersetzen von Nachrichten durch Benutzer zulassen** Aktivieren Sie diese Einstellung Benutzer Teams Nachrichten automatisch in die Sprache, die durch ihre persönliche Sprachoptionen für Office 365 angegebenen übersetzen können.
 - **Zulassen von fesselnden Leser für die Anzeige von Nachrichten** Aktivieren dieser Einstellung können Benutzer anzeigen von Nachrichten in Microsoft fesselnden Reader. Fesselnden Reader ist ein Learning-Tool, das eine Vollbild-Lesemodus wünschen, um die Lesbarkeit des Texts erhöhen bereitstellt.
-- **Benutzer können Benachrichtigungen Priorität senden** Wenn Sie diese aktivieren, können Benutzer die Priorität der Nachricht angeben.
+- **Benutzer können Benachrichtigungen Priorität senden** Wenn Sie diese aktivieren, können Benutzer eine Nachricht senden, die die Priorität Benachrichtigungen verwendet. Priorität Benachrichtigungen wiederholt benachrichtigen Sie Benutzer für einen Zeitraum von 20 Minuten oder bis Nachrichten aufgenommen werden, und Lesen Sie durch den Empfänger maximieren die Wahrscheinlichkeit, dass die Nachricht aufgenommene und dem in kurzer Zeit eine Aktion ausgeführt wird.
 - **Erstellung von VoIP-Nachricht** 
     - **Zulässige in Chats und Kanäle** Dies bedeutet, dass Benutzer Sprachnachrichten in Chats und Kanäle lassen können.
     - **Zulässige in nur chats** Dies bedeutet, dass Benutzer Sprachnachrichten in Chats, jedoch nicht in den Kanälen lassen können.
