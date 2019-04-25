@@ -12,16 +12,16 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60c0d5bfb1eae3705fe9a1936985a086629026f6
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: ddf825a1d0fac734f9418c6f7a0b7933de322424
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013169"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245730"
 ---
 # <a name="teams-for-retail"></a>Teams für den Einzelhandel
 
-Verwenden Sie die Admin-Ressourcen hier verwalten und die meisten der des Teams für Einzelhandel und Mitarbeiter abrufen.
+Verwenden Sie die Admin-Ressourcen hier verwalten und Teams für Mitarbeiter und Einzelhandel optimal.
 
 <ul class="panelContent cardsFTitle">
     <li>
