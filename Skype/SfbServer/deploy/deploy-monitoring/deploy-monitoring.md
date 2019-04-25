@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Zusammenfassung: Erfahren Sie, wie Überwachung in Skype für Business Server bereitstellen.'
 ms.openlocfilehash: 147d20c7a6b85ef294711602748ee474b4e9abd3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225511"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Bereitstellen Sie Überwachung in Skype für Business Server
 

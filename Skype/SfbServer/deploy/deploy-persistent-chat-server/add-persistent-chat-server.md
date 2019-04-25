@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Ihre Skype für Business Server 2015 Topologie Persistent Chat Server hinzufügen.'
 ms.openlocfilehash: 16c886e13ff56d0aa059ec676d152d332d0023db
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225788"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Hinzufügen von Persistent Chat Server zu Ihrer Skype für Business Server 2015 Topologie
  

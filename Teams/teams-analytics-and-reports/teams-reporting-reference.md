@@ -18,11 +18,11 @@ description: Lernen Sie die Teams-Berichte, die in der Verwaltungskonsole von Mi
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c674f9256d30e4b4a4f5a6f8e336e7d03f551df0
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541504"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225016"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams – Analyse und Berichterstellung
 
@@ -43,9 +43,9 @@ Wir sind die Teams reporting Erfahrung und Hinzufügen von Features und Funktion
 
 |Bericht  |Was wird gemessen? |
 |---------|---------|
-|[Bericht zur Verwendung der Teams](teams-usage-report.md)  |  Aktive Benutzer<br/>Aktive Benutzer in Teams und Kanäle<br/>Aktiven Kanäle<br/>Nachrichten<br/>Des Teams für den Datenschutz<br/>Gäste in einem team   |
-|[Bericht über Benutzeraktivität Teams](user-activity-report.md)  |  1:1-Anrufe, die, denen ein Benutzer teilgenommen<br/>Nachrichten pro Benutzer in einem Chat Team bereitgestellt<br/>Ein Benutzer von Nachrichten in einem privaten Chat ermöglichen<br/>Datum der letzten Aktivität eines Benutzers     |
-|[Bericht zur Verwendung der Teams Gerät](device-usage-report.md)   |  Windows-Benutzer:<br/>Mac-Benutzer<br/>iOS-Benutzer<br/>Android-Telefon-Benutzer     |
+|[Teams-Nutzungsbericht](teams-usage-report.md)  |  Aktive Benutzer<br/>Aktive Benutzer in Teams und Kanäle<br/>Aktiven Kanäle<br/>Nachrichten<br/>Des Teams für den Datenschutz<br/>Gäste in einem team   |
+|[Teams-Benutzeraktivitätsbericht](user-activity-report.md)  |  1:1-Anrufe, die, denen ein Benutzer teilgenommen<br/>Nachrichten pro Benutzer in einem Chat Team bereitgestellt<br/>Ein Benutzer von Nachrichten in einem privaten Chat ermöglichen<br/>Datum der letzten Aktivität eines Benutzers     |
+|[Teams-Gerätenutzungsbericht](device-usage-report.md)   |  Windows-Benutzer:<br/>Mac-Benutzer<br/>iOS-Benutzer<br/>Android-Telefon-Benutzer     |
 
 > [!NOTE]
 > Die Berichte Teams anzeigen Daten für aktive Benutzer und aktiven Teams. Wenn ein Benutzer in Ihrer Organisation in Teams während der Datumsbereich nicht aktiv, die Sie für einen Bericht angegeben, ist beispielsweise nicht Daten für diesen Benutzer dieses Berichts enthalten.

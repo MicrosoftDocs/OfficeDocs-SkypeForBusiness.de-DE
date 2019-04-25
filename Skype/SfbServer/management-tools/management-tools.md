@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
 description: 'Zusammenfassung: Lernen Sie die Service-Verwaltungstools in Skype für Business Server 2015.'
 ms.openlocfilehash: 0d3a4ec86fd1110fbbb75da399db990f1694e5cd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875250"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217620"
 ---
 # <a name="skype-for-business-server-2015-management-tools"></a>Skype for Business Server 2015-Verwaltungstools
  
@@ -27,7 +27,7 @@ Skype für Business Server 2015 Kommunikationssoftware (ehemals Lync Server) bie
   
 ## <a name="skype-for-business-server-2015-tools"></a>Skype for Business Server 2015-Tools
 
-||**Content**|**Beschreibung**|
+||**Inhalt**|**Beschreibung**|
 |:-----|:-----|:-----|
 ||[Microsoft-Aufruf Qualität Methodik Scorecard, v1. 5](https://go.microsoft.com/fwlink/p/?LinkId=615208) (ZIP-Download) <br/> [CQM Poster für Skype für Unternehmen](https://go.microsoft.com/fwlink/p/?LinkID=617898) <br/> [CQM Poster für Lync 2013](https://go.microsoft.com/fwlink/p/?LinkId=391841) <br/> |Eine aktualisierte Version von der Microsoft aufrufen Qualität Methodik (CQM) Scorecard für Lync Server und Skype für Business Server 2015. Mit der CQM-Scorecard können Sie die Call Quality Methodology implementieren, ein holistisches Verfahren zur systematischen Definition und Aufrechterhaltung der Anrufqualität auf Grundlage der im Netzwerk-Leitfaden dargestellten Methoden. CQM teilt eine Lync / Skype für Business-Implementierung in zehn separate Bereiche auswirken, die Qualität, Ziele und eines Plans zur Anwendungswartung für jeden definieren. CQM ist ein Framework zur Anrufqualität Lösung – Sie ändern oder erweitern, die bestimmten Bedingungen in Ihrem Netzwerk beheben können  <br/> Details des Posters CQM helfen Ihnen bei CQM lernen, die aufrufen Qualität Methodik für Lync und für Unternehmen, das Sie finden und auszuschließen unterstützt Skype gibt beeinflussen Anruf Qualität und benutzerfreundlichkeit für Lync / Skype für Business Implementierungen, die Enterprise-VoIP umfassen Funktionen.  <br/>**Hinweis:** Diese Tools werden nicht für Skype für Business Server 2019 aktualisiert werden. |
 |![Dashboardsymbol](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Anrufqualitäts-Dashboard](https://go.microsoft.com/fwlink/p/?LinkId=534842) <br/> |Das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) ist ein Webportal zum schnellen Erstellen und Organisieren von Berichten auf Grundlage von QoE-Daten (Quality of Experience) aus Ihrer Skype for Business- oder Lync-Umgebung. Das CQD stellt einen SSAS-Cube bereit, um die Daten in der QoEMetrics-Datenbank zusammenzufassen. Dadurch erhalten Benutzer die Möglichkeit, Berichte zu erstellen und zu ändern und die Aktualisierungen der Berichte in Echtzeit anzuzeigen. Außerdem stellt CQD Web-APIs zur Verfügung, die Benutzern programmgesteuerten Zugriff auf die Cubedaten bieten, um diese in benutzerdefinierten Dashboards zu verwenden.  <br/> |

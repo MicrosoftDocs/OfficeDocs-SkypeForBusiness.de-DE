@@ -20,11 +20,11 @@ ms.custom:
 - Optimization
 description: In diesem Artikel werden die wichtigsten Grundsätze zum Anruffluss für Skype for Business Online und ExpressRoute mit detaillierten Beispielen für Anrufflüsse erläutert, um Sie bei einer adäquaten Planung zu unterstützen.
 ms.openlocfilehash: 2406badc671fec8ede36039ebf230115a5920e97
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213023"
 ---
 # <a name="call-flow-using-expressroute"></a>Anruffluss mit ExpressRoute
 
@@ -208,7 +208,7 @@ Die Verwendungsszenarien für Skype for Business Online umfassen Benutzer, die o
 > [!NOTE]
 > ExpressRoute wird auf dem Medienpfad von einem Benutzer im Unternehmensnetz zu einem Online-Edgeserver verwendet. ExpressRoute wird jedoch nicht verwendet, wenn der Edgeserver für die lokale Bereitstellung eines anderen Kunden verwendet wird.
 
-### <a name="call-flows-for-skype-for-business-hybrid"></a>Anrufflüsse bei Skype for Business Hybrid
+### <a name="call-flows-for-skype-for-business-hybrid"></a>Anrufflüssen für Skype für hybride Business
 
 Hybridanrufflüsse kommen zum Tragen, wenn Sie eine Skype for Business-Bereitstellung haben, bei der mindestens einige Benutzer lokal verwaltet werden. Die Anrufflüsse in diesem Abschnitt umfassen sowohl lokale Konferenzen als auch Peer-zu-Peer- oder PSTN-Anrufe mit mindestens einem lokal verwalteten Benutzer.
 
@@ -221,7 +221,7 @@ Hybridanrufflüsse kommen zum Tragen, wenn Sie eine Skype for Business-Bereitste
 |Teilnahme an einer Telefonkonferenz durch einen Benutzer im Kundennetzwerk (von Online-Benutzer geplante Konferenz)  <br/> |Lokaler Benutzer auf Ihrem Netzwerk und Konferenzserver in der Office 365-Cloud.  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Online-Benutzer in Ihrem Netzwerk, der an einer online gehosteten Konferenz teilnimmt](call-flow-using-expressroute.md#bk_Figure3) <br/> |Serverressourcen für die Telefonkonferenz werden durch den Besprechungsorganisator definiert. In diesem Fall wurde die Konferenz durch einen Onlinebenutzer geplant. Die Ressourcen befinden sich also in der Office 365-Cloud.  <br/> |
 |PSTN-Anruf  <br/> |Lokaler Benutzer in Ihrem Netzwerk und lokalen Skype for Business-Rechenzentrum.  <br/> |Lokal  <br/> |Lokal  <br/> |[PSTN-Anruf mit Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6) <br/> |Vergleichbares Szenario für die Verwendung von Cloud Connector Edition, außer dass der Benutzer lokal beheimatet ist, sodass die Signalisierung in Ihrem Netzwerk verbleibt.  <br/> |
 
-### <a name="call-flows-for-skype-for-business-with-cloud-connector"></a>Anrufflüsse für Skype for Business mit Cloud Connector
+### <a name="call-flows-for-skype-for-business-with-cloud-connector"></a>Anrufflüssen für Skype für Unternehmen mit Cloud-Connector
 
 Benutzer, die sich mit Cloud Connector Edition verbinden, sind alle online beheimatet. Dies bedeutet, dass die Konferenzen online sind und dass die Signalisierung den gleichen Mustern folgt wie für Online-Benutzer. Für Szenarien außer PSTN-Anrufen ist der Anruffluss genau so, wie oben für Skype for Business Online beschrieben.
 
@@ -231,7 +231,7 @@ Benutzer, die sich mit Cloud Connector Edition verbinden, sind alle online behei
 |PSTN-Anruf  <br/> |Online-Benutzer in Ihrem Netzwerk, der Cloud Connector Edition nutzt.  <br/> |lokal  <br/> |lokal  <br/> |[PSTN-Anruf mit Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |PSTN-Anruf  <br/> |Online-Benutzer im Internet, der Cloud Connector Edition nutzt.  <br/> |Internet  <br/> |Internet  <br/> |Kombination aus [lokalen Edge-Server mit Office 365 gehostete Konferenzen](call-flow-using-expressroute.md#bk_Figure5) und [PSTN Anrufen über Skype für Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6).  <br/> |Internetbenutzer verbinden sich über den Edgeserver, der in Cloud Connector enthalten ist, und Cloud Connector verbindet sich mit dem Festnetz.  <br/> |
 
-## <a name="related-topics"></a>See Also
+## <a name="related-topics"></a>Verwandte Themen
 
 [ExpressRoute-Dokumentation](https://go.microsoft.com/fwlink/?LinkId=690285)
 

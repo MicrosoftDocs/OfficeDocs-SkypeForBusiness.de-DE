@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
 description: 'Zusammenfassung: Hier erfahren Sie, wo Sie Informationen zu SQL Server Reporting Services von Skype für Business Server verwendet wird.'
 ms.openlocfilehash: b83d0d1a7bcf820571a8aaf01b2f0fff54d48203
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893139"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225462"
 ---
 # <a name="install-sql-server-reporting-services-in-skype-for-business-server"></a>Installieren von SQL Server Reporting Services in Skype für Business Server 
  

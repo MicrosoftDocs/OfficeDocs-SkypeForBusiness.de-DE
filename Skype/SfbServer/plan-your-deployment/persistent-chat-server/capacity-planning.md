@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu lernen Capacity planning for Persistent Chat Server in Skype für Business Server 2015.'
 ms.openlocfilehash: 08c360b26efd04c34ca1833b0c0022394f8c4ac2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898331"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213774"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015
  

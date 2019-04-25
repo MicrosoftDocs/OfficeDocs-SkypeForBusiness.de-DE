@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 'Zum Bearbeiten der Eigenschaften für Edge-Server-Computer als einen einzigen Edge-Server oder als Mitgliedscomputer in einem edgepool, konfigurieren Sie Servername und IP-Adresse Konfigurationseinstellungen:'
 ms.openlocfilehash: f0125ba8d9c7ff181aff0a29f69a5077b1ad0818
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225363"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Edgecomputereinstellungen für Lync Server 2010 – Erweiterung
  

@@ -20,17 +20,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
+description: " Erfahren Sie mehr über das Hinzufügen, Ändern oder entfernen  eines von Skype for Business im Telefonfestnetz (Public Switched Telephone Networks; PSTN) für Ihre Organisation verwendeten Notfallstandorts. "
 ms.openlocfilehash: 39d3d530c4bfc3729e7711333bb804055d97378f
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048956"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225779"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation
 
-Je nach Anzahl der physischen Standorte in Ihrer Organisation können Sie Notfallstandorte für Gebäude, Stockwerke und Büros erstellen, um mehr als eine spezifische Notfalladresse zu erstellen. Weitere Informationen finden Sie unter [Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) 
+Depending on the number of physical locations in your organization, you can create emergency locations for buildings, floors, and offices to create a more specific emergency address. See [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for more information. 
   
 Informationen zum Aufrufen von planen möchten und wie viel Kosten finden Sie [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
