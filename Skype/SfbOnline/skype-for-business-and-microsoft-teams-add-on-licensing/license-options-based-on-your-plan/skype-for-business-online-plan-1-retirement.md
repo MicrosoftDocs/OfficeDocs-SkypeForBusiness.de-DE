@@ -1,5 +1,5 @@
 ---
-title: 'Skype Alter Business Online – Plan 1 '
+title: 'Ausmusterung von Skype for Business Online Plan 1 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,13 @@ ms.custom:
 - Licensing
 description: Die Skype für Business Online – Plan 1 wurde zurückgezogen wurden. Wenn Sie ein gültiges Abonnement von Skype für Business Online – Plan 1 haben, werden nicht diese Änderung Sie jedoch sofort beeinflussen. Wenn Sie bereit sind, verschieben in einen neuen Plan – jetzt oder bei der Erneuerung – Sie müssen drei Optionen zur Verfügung.
 ms.openlocfilehash: d8468fa2d070e98cb19a1f41fff6884ac7c3517e
-ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "24968605"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32248713"
 ---
-# <a name="skype-for-business-online-plan-1-retirement"></a>Skype Alter Business Online – Plan 1 
+# <a name="skype-for-business-online-plan-1-retirement"></a>Ausmusterung von Skype for Business Online Plan 1 
 
 Die Skype für Business Online – Plan 1 wurde zurückgezogen wurden. Wenn Sie ein gültiges Abonnement von Skype für Business Online – Plan 1 haben, werden nicht diese Änderung Sie jedoch sofort beeinflussen. Als ein globaler Office 365-Administrator Sie per e-Mail erhalten und finden Sie unter Beiträge in der Mitte der Nachricht (Teil von Office 365 Administrationscenter) mit Informationen darüber, wann Aktionen ausführen müssen. In der Zwischenzeit können Sie auch weiterhin mithilfe Ihrer vorhandenen Skype für Business Online – Plan 1 Lizenzen.
 

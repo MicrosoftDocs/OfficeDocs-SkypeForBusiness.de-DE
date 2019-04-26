@@ -1,5 +1,5 @@
 ---
-title: Bericht „Aktivität“
+title: Bericht über Benutzeraktivität
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,13 @@ ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
 ms.openlocfilehash: 3d78d2e155c5364baf9c2650466022a27cc4ed9b
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241986"
 ---
-# <a name="activity-report"></a>Bericht „Aktivität“
+# <a name="activity-report"></a>Bericht über Benutzeraktivität
 
 Im neuen Office 365-Dashboard **Berichte** wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Beispielsweise können Sie mit dem Bericht **Skype for Business-Aktivität** feststellen, in welchem Umfang Ihre Benutzer Peer-zu-Peer verwenden sowie Konferenzsitzungen organisieren und daran teilnehmen. 
 

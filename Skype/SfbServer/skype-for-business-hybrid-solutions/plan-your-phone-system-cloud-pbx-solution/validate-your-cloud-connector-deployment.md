@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
 description: Nachdem Sie die Schritte zum Bereitstellen und Konfigurieren von Skype für Business Cloud Connector Edition abgeschlossen haben, stellen Sie sicher, dass Sie tätigen und Entgegennehmen von anrufen können.
 ms.openlocfilehash: 7ea8e686c578941c2009465fc43ed6ae004dbb88
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875376"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240774"
 ---
 # <a name="validate-your-cloud-connector-deployment"></a>Validate your Cloud Connector deployment
  

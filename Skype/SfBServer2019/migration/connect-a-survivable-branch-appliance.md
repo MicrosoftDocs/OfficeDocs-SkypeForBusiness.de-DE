@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Jeder Survivable Branch Appliance (SBA) ist einem Front-End-Pool die dient als sicherungsregistrierung für die SBA zugeordnet. Wenn der Front-End Pool zu Skype für Business Server 2019, die SBA migriert wurde während der Pool aktualisiert wird, sobald der Pool zu Skype für Business Server 2019 migriert wurde, aus dem Front-End-Pool getrennt werden müssen, kann die SBA mit der aktualisierten Front-E erneut verknüpft werden. Nd-Pool. Dies umfasst die SBA aus der Vorversion Topologie im Topologie-Generator löschen und dann die Skype für Business Server 2019 Topologie die SBA hinzuzufügen. Benutzer, die sich in der Legacy-SBA zuerst in einen anderen Front-End-Pool verschoben werden muss vor dem Entfernen der SBA aus der Topologie. Nachdem die Skype für Business Server 2019 Topologie die SBA hinzugefügt wird, können diese Benutzer dann wieder auf die SBA verschoben werden. Diese Schritte werden im folgenden zusammengefasst:'
 ms.openlocfilehash: e4917b20e9e680627e92935dcb10ebf06c2e3d2d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887484"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238654"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Verbinden einer Survivable Branch Appliance
 

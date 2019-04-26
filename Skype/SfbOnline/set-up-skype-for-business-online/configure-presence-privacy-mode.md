@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: 'Informationen Sie zum Einrichten von datenschutzmodus für Ihre Benutzer, damit sie besser steuern können, wie Personen ihrer Verfügbarkeit anzeigen. '
 ms.openlocfilehash: e51c4b6a545b59dc6eed713a1518f44f1cd25443
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874223"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237416"
 ---
 # <a name="configure-presence-privacy-mode"></a>Konfigurieren des vertraulichen Anwesenheitsmodus
 

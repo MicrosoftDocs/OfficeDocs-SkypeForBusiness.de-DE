@@ -19,11 +19,11 @@ ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Hier erhalten Sie Informationen zu Skype for Business Cloud Connector Edition, einem als Paket zusammengesetzten Satz von virtuellen Maschinen (VMs), die eine lokale PSTN-Anbindung mit dem Telefonsystem in Office 365 (Cloud-PBX) implementieren.
 ms.openlocfilehash: 21a37b40b0069df9043c69814e40853ced16ce7e
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934756"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242097"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planen für die Skype for Business Cloud Connector-Edition
 
@@ -453,7 +453,7 @@ In der INI-Datei Wenn Sie den Vollqualifizierten Domänennamen für Gateways aus
 Zunächst müssen Sie folgende allgemeine Bereitstellungsparameter festlegen:
 
 
-|**Element**|**Beschreibung**|**Notizen**|
+|**Element**|**Beschreibung**|**Hinweise**|
 |:-----|:-----|:-----|
 |SIP-Domänen  <br/> |SIP-URI des von Benutzern von Unternehmen verwendet. Geben Sie alle SIP-Domänen an, die von dieser Bereitstellung bedient werden sollen. Sie können mehrere SIP-Domänen eintragen.  <br/> ||
 |Anzahl der PSTN-Standorte  <br/> |Anzahl der PSTN-Standorte, die Sie bereitstellen möchten.  <br/> ||

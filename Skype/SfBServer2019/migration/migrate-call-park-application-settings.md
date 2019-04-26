@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Die Migration von der Anwendung einschließlich der Bereitstellung der Skype für Business Server 2019 Pool mit eine beliebige benutzerdefinierte Musik in der Warteschleife-Dateien, die in der Vorversion Installation hochgeladen wurden parken, zum Wiederherstellen der Einstellungen auf Poolebene Service und alle Parken Neuzuweisen umkreist die Skype für Business Server 2019 Pool. Wenn benutzerdefinierte Musik halten Dateien im Pool konfiguriert wurden, müssen diese Dateien in die neue Skype für Business Server 2019 Pool kopiert werden. Darüber hinaus wird empfohlen, dass Sie alle Parken sichern Musik halten-Dateien an ein anderes Ziel angepasst beibehalten eine separate Sicherungskopie der angepassten Musik halten Dateien, die hochgeladen wurden für das Parken. Die angepassten Musik halten-Dateien für die Anwendung zum Parken von Anrufen werden in den Dateispeicher des Pools gespeichert. Um die Audiodateien aus einem Pool-Dateispeicher in einen Skype für Business Server 2019 Dateispeicher kopieren möchten, verwenden Sie den Befehl Xcopy mit den folgenden Parametern:'
 ms.openlocfilehash: 3d9c2904d66ac5d35bdd94631ec23c67288a5c3a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887623"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238373"
 ---
 # <a name="migrate-call-park-application-settings"></a>Migrieren von Einstellungen für die Anwendung zum Parken von Anrufen
 

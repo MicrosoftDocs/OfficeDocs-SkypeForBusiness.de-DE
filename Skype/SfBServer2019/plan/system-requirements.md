@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: ''
 description: 'Zusammenfassung: Vorbereiten Sie Ihrer Skype Business Server 2019 Servern Infrastruktur und die Domäne mit den in diesem Thema. Hardware, OS, Datenbanken, Software, alle die Systemanforderungen und Empfehlungen, zusammen mit Zertifikat DNS, Dateifreigabe und Active Directory-Informationen sind hier zur Sicherstellung einer erfolgreichen Installation und Bereitstellung Ihrer Serverfarm.'
 ms.openlocfilehash: 86ef54a5a269a47fb1e2b8dff04808bf85b5b296
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242005"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Systemanforderungen für Skype für Business Server 2019
  

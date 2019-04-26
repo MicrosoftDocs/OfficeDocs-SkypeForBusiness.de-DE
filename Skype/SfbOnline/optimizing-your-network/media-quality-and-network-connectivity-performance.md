@@ -20,11 +20,11 @@ ms.custom:
 - Optimization
 description: In diesem Thema werden die Netzwerk-Performance-Anforderungen für Skype für Business Online Services definiert und wie Sie auswählen können, mit dem Internet oder dem ExpressRoute für die Konnektivität zwischen dem Netzwerk und Skype Business Online Grundlage Ihrer Bewertung des Netzwerks Konnektivität. Wenn Sie zum Bereitstellen von Azure ExpressRoute dedizierte Konnektivität zu Office 365 entschieden haben, enthält dieses Dokument auch Anleitungen zum Planen Ihrer ExpressRoute Verbindungen in verschiedenen Skype für Business Online Bereitstellungsszenarien.
 ms.openlocfilehash: 00d77bc72cbfd99d496bf458e008cce3da7970c3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533233"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236923"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online
 
@@ -126,13 +126,13 @@ Für eine optimale Skype für Business Medienqualität sind die folgenden Netzwe
   
 |||
 |:-----|:-----|
-|**Metrik** <br/> |**Target ** <br/> |
-|Latenz (ein Weg)  <br/> |< 50 ms  <br/> |
-|Latenz (RTT oder Roundtripzeit)  <br/> |< 100 ms  <br/> |
-|Burstverlust von Paketen  <br/> |< 10 % in einem Intervall von 200 ms  <br/> |
-|Paketverlust  <br/> |< 1% in einem Intervall von 15 s  <br/> |
-|Jitter zwischen der Ankunftszeit von Paketen  <br/> |< 30 ms in einem Intervall von 15 s  <br/> |
-|Neuanordnung von Paketen  <br/> |< 0,05 % Pakete in falscher Reihenfolge  <br/> |
+|**Metrik** <br/> |** Target** <br/> |
+|Wartezeit (unidirektional)  <br/> |< 50 ms  <br/> |
+|Wartezeit (Zeit oder Roundtripzeit)  <br/> |< 100 ms  <br/> |
+|Bursts von Paketverlusten  <br/> |<10 % Intervall 200 ms  <br/> |
+|Paketverlust  <br/> |<1 % während alle 15 s Intervall  <br/> |
+|Die Kommunikation zwischen hinzukommen Jitter Paket  <br/> |<30ms während alle 15 s Intervall  <br/> |
+|Paket neu anordnen  <br/> |<0.05% außerhalb der Reihenfolge Pakete  <br/> |
    
  **Andere leistungsanforderungen Ziel:**
   
@@ -152,13 +152,13 @@ Im folgenden werden die Leistungsziele Netzwerk oder Schwellenwerte, die für di
   
 |||
 |:-----|:-----|
-|**Metrik** <br/> |**Target ** <br/> |
-|Latenz (ein Weg)  <br/> |< 30 ms  <br/> |
-|Wartezeit (Zeit)  <br/> |< 60 ms  <br/> |
-|Burstverlust von Paketen  <br/> |< 1% in einem Intervall von 200 ms  <br/> |
-|Paketverlust  <br/> |< 0,1% in einem Intervall von 15 s  <br/> |
-|Jitter zwischen der Ankunftszeit von Paketen  <br/> |< 15 ms in einem Intervall von 15 s  <br/> |
-|Neuanordnung von Paketen  <br/> |< 0,01% Pakete in falscher Reihenfolge  <br/> |
+|**Metrik** <br/> |** Target** <br/> |
+|Wartezeit (unidirektional)  <br/> |< 30ms  <br/> |
+|Wartezeit (Zeit)  <br/> |< 60ms  <br/> |
+|Bursts von Paketverlusten  <br/> |<1 % Intervall 200 ms  <br/> |
+|Paketverlust  <br/> |<0.1% während alle 15 s Intervall  <br/> |
+|Die Kommunikation zwischen hinzukommen Jitter Paket  <br/> |<15ms während alle 15 s Intervall  <br/> |
+|Paket neu anordnen  <br/> |<0.01% außerhalb der Reihenfolge Pakete  <br/> |
    
  **Andere leistungsanforderungen Ziel:**
   

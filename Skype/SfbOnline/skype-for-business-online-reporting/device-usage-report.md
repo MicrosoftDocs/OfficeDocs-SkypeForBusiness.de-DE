@@ -20,11 +20,11 @@ ms.custom:
 - Reporting
 description: Im neuen Office 365-Dashboard Berichte wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Angenommen, Sie können die Skype für Business Gerät Verwendungsbericht verwenden, um die Geräte, einschließlich Windows-Betriebssystemen finden Sie unter und mobile Geräten, denen die Skype für Geschäfts-app installiert und es für Instant Messaging und Besprechungen verwenden. Checken Sie Aktivitätsberichte im Office 365 Administrationscenter, um mehr zu erfahren.
 ms.openlocfilehash: 343d5db93ebf3ea104bc74cd5f8d17d349653fa6
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241976"
 ---
 # <a name="device-usage-report"></a>Bericht „Gerätenutzung“
 
@@ -66,7 +66,7 @@ Sie können eine Ansicht in die Geräte zu erhalten, die der Skype verfolgen die
 ***
 ![Nummer 4](../images/sfbcallout4.png)<br/>Verwenden Sie die interaktive Diagrammdaten auf das Balkendiagramm **Verteilung** um zu verstehen, Verwendung, um die Anzahl der Benutzer mit eindeutigen Geräten in Ihrer Organisation finden Sie unter. Die Gesamtzahl der **Windows**, **Windows Phone**, **Android-Telefon**, **iPhone**und **iPad** -Benutzer wird mit einem Gerät verwendet wird angezeigt. 
 ***
-![Nummer 5](../images/sfbcallout5.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie auf ein Element in der Legende klicken. Beispielsweise im Diagramm **Benutzer** klicken Sie, oder tippen Sie auf **Windows**, **Windows Phone**, **Android-Telefon**, **iPhone**oder **iPad** , um herauszufinden, nur die Informationen im Zusammenhang mit jedem Befehl die EINGABETASTE. Durch das Ändern dieser Auswahl ändern sich die Informationen in der Rastertabelle nicht. 
+![Nummer 5](../images/sfbcallout5.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Beispielsweise im Diagramm **Benutzer** klicken Sie, oder tippen Sie auf **Windows**, **Windows Phone**, **Android-Telefon**, **iPhone**oder **iPad** , um herauszufinden, nur die Informationen im Zusammenhang mit jedem Befehl die EINGABETASTE. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert. 
 ***
 ![Nummer 6](../images/sfbcallout6.png)<br/>Jedes Diagramm verfügt über eine (horizontale) „X"- und eine (vertikale) „Y"-Achse.
 *    Im Diagramm **Benutzer** ist die y-Achse die Gesamtzahl der Benutzer verbunden mit einem Gerät, das die Skype für Geschäfts-app installiert hat.

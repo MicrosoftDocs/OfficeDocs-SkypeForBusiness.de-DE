@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Eine der ersten Schritte für die Migration zu Skype für Business Server 2019 erforderlich ist einen pilot Pool bereitstellen. Der pilot Pool ist, in dem Sie Ihre Bereitstellung der Vorversion Koexistenz von Skype für Business Server 2019 testen. Die Koexistenz stellt einen temporären Zustand, der dauert, bis Sie alle Benutzer und Pools zu Skype für Business Server 2019 verschoben haben.
 ms.openlocfilehash: 26f391a485c991aa3575498b98b181f1b5ac761c
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026049"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238535"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>Skype für Business Server 2019 pilot Pool bereitstellen
 

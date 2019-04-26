@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Migrieren von Einwahlnummern Zahlen zu Skype für Business Server 2019 erforderlich sind, mit dem Cmdlet Move-CsApplicationEndpoint die Kontaktobjekte zu migrieren. Während der Vorversion installieren und Skype für Business Server 2019 Koexistenz Zeitraum Verhalten sich Einwahlnummern Zahlen, die Sie in Skype für Business Server 2019 erstellt haben ähnlich wie DFÜ-Zugriff Zahlen, die Sie in der Vorversion installieren, erstellen Sie wie beschrieben in diesem Abschnitt.
 ms.openlocfilehash: 7f7aef113018a27e70b88e166d365195c07dce9c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239583"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>Migrieren von Zugriffsnummern für die Einwahl
 

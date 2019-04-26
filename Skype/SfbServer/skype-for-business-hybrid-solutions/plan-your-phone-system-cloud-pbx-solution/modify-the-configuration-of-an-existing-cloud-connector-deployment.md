@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Führen Sie die Schritte in diesem Thema, um die Konfiguration von einer vorhandenen Skype für Business Cloud Connector Edition 1.4.1 oder höher Bereitstellung zu ändern.
 ms.openlocfilehash: abe7d9be6ec0ae48ff8cbac09475c6a41bf2a49f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893055"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237609"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modify the configuration of an existing Cloud Connector deployment
  
@@ -360,7 +360,7 @@ Wenn Sie das externe edgezertifikat auf Ihre Cloud-Connector Appliances ersetzen
   
 1. Tragen Sie mithilfe des Cmdlets EINGABETASTE CcUpdate der Appliance im Wartungsmodus befindet.
     
-2. Führen Sie den folgenden Befehl aus:   
+2. Führen Sie den folgenden Befehl aus: 
     
    ```
    Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import

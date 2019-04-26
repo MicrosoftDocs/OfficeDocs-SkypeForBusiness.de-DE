@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: In diesem Artikel wird erläutert, wie eingerichtet und Problembehandlung bei Skype für Business Online Delegierung. Dieser Artikel enthält eine Anleitung für Setup Empfehlungen, bewährte Methoden und Schritte zur Problembehandlung.
 ms.openlocfilehash: 450aee07691a007b976aafffc05d34c3e7ef85f2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887835"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237297"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Einrichten von und Problembehandlung bei Skype for Business Online-Delegierung
 
@@ -64,14 +64,14 @@ Einrichten und erste Delegierung ordnungsgemäß funktioniert, hängt Sie die fo
 
 **Lizenzierung Enterprise E3-Szenario**
 
-|**Lizenz**|**Clients**|**Notizen**|
+|**Lizenz**|**Clients**|**Hinweise**|
 |:-----|:-----|:-----|
 |Enterprise E3  <br/> |Lync 2013 (Skype für Business 2015) mit Outlook 2013 oder Outlook 2016 verwendet  <br/> Skype für Outlook 2013 oder Outlook 2016 verwendete Business 2016  <br/> |Skype für Business Basic-Client unterstützt keine Delegierung.  <br/> Für Macintosh-Clients können Sie Anrufe jedoch nicht in Besprechungen delegieren.  <br/> |
 |Enterprise-E3 mit Office 365-Telefonsystem + Office 365 xCalling Plan  <br/> |Lync 2013 (Skype für Business 2015) mit Outlook 2013 oder Outlook 2016 verwendet  <br/> Skype für Outlook 2013 oder Outlook 2016 verwendete Business 2016  <br/> Lync für Mac 2011  <br/> |Skype für Business Basic-Client unterstützt keine Delegierung.  <br/> Für Macintosh-Clients können Sie Anrufe jedoch nicht in Besprechungen delegieren.  <br/> |
    
 **Lizenzierung E5 Enterprise-Szenario**
 
-|**Lizenz**|**Clients**|**Notizen**|
+|**Lizenz**|**Clients**|**Hinweise**|
 |:-----|:-----|:-----|
 |Enterprise-E5  <br/> |Lync 2013 (Skype für Business 2015) mit Outlook 2013 oder Outlook 2016.  <br/> Skype für Outlook 2013 oder Outlook 2016 verwendete Business 2016  <br/> |Skype für Business Basic-Client unterstützt keine Delegierung.  <br/> Für Macintosh-Clients können Sie Anrufe jedoch nicht in Besprechungen delegieren.  <br/> |
 |Enterprise-E5 plus Office 365 aufrufen Plan  <br/> |Skype für Unternehmen für Mac 2016  <br/> Lync 2013 (Skype für Business 2015) mit Outlook 2013 oder Outlook 2016 verwendet  <br/> Skype für Outlook 2013 oder Outlook 2016 verwendete Business 2016  <br/> Lync für Mac 2011  <br/> |Skype für Business Basic-Client unterstützt keine Delegierung.  <br/> Für Macintosh-Clients können Sie Anrufe jedoch nicht in Besprechungen delegieren.  <br/> |

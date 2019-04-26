@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Wenn Sie einen neuen vertrauenswürdigen Anwendungsserver erstellen, müssen Sie in einer gemischten Umgebung mit den nächsten hoppool einen Skype für Business Server 2019 Pool werden festlegen. In einer gemischten Umgebung werden sowohl Pool der Vorgängerversion der Skype für Business Server 2019 Pool in der Dropdownliste aus. Auswählen der Pool den Vorgängerversion wird nicht unterstützt.
 ms.openlocfilehash: 79f4de527008d2d9bf295fcb82eee433d04a1691
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238682"
 ---
 # <a name="configure-trusted-application-servers"></a>Konfigurieren von vertrauenswürdigen Anwendungsservern
 

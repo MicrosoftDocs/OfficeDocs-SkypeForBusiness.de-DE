@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Wenn Sie einen Skype für Business Server 2019 Pool zu erstellen, verwenden Sie den zentralen Verwaltungsspeicher, die der Vorversion Installation zugeordnet ist. Beim Starten von Topology Builder bei der ersten Verwendung sowie weiterer Sitzungen bearbeiten, werden Sie aufgefordert, den Topologie-Generator zum Laden des aktuellen Dokuments Konfiguration gewünschten Speicherort. Da Sie bereits eine Topologie definiert haben und den zentralen Verwaltungsspeicher hergestellt haben, sollten Sie auswählen, können Sie eine Topologie aus einer vorhandenen Bereitstellung herunterladen. Topologie-Generator liest die Datenbank und die aktuelle Definition abrufen.
 ms.openlocfilehash: 35c0d7163d58c17db16678ba14fd8c7b6b400c9f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896758"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238471"
 ---
 # <a name="download-topology-from-existing-deployment"></a>Herunterladen der Topologie aus einer vorhandenen Bereitstellung
 

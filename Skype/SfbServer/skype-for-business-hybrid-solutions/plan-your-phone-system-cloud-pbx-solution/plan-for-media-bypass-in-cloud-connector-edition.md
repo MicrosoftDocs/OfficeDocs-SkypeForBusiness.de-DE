@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Lesen Sie dieses Thema um Planungsaspekte für die Implementierung der medienumgehung mit Cloud Connector Edition, Version 2.0 und höher zu überprüfen. Informationen zum Bereitstellen von Medien zu umgehen Sie, finden Sie unter Deploy Medien in der Cloud Connector Edition umgehen.
 ms.openlocfilehash: 6ddaec00925d5eea7d7c82d89f0324958c87abb9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238826"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planen der Medienumgehung in Cloud Connector Edition
  
