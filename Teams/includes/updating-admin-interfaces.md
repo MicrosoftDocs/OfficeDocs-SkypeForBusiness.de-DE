@@ -1,1 +1,1 @@
-Wir sind häufig aktualisieren, wie Sie Features, damit der folgenden Schritte möglicherweise ein wenig anders, was finden Sie unter verwalten können.
+Wir aktualisieren die Verwaltung der Funktionen häufig. Daher können sich die hier beschriebenen Schritte etwas von dem, was Sie sehen, unterscheiden.

@@ -3,10 +3,10 @@ title: Verwalten des Angebots für einen Test der kommerziellen Cloud von Micros
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 12/10/2018
+ms.date: 04/23/2019
 ms.topic: reference
 audience: Admin
-ms.reviewer: annikaelias
+ms.reviewer: marubins
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
@@ -16,17 +16,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5633250ce07d0baed78ab98220ea39e76cd691ff
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.openlocfilehash: baad7614cbcb622017de7629fa62799be330dc88
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959418"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222435"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Verwalten des Angebots für einen Test der kommerziellen Cloud von Microsoft Teams
 =======================================================
 
 Microsoft Teams ist ein hervorragendes Tool für die Zusammenarbeit in Ihrem Unternehmen. Microsoft Teams ermöglicht Einzelpersonen und Teams Diskussionen, Innovationen und den Austausch von Ideen, und dabei von der Leistungsfähigkeit von Office 365 zu profitieren. Die Testversion der kommerziellen Cloud von Microsoft Teams bietet bestehenden Office 365-Benutzern in Ihrer Organisation, die nicht für Microsoft Teams lizenziert sind, die Möglichkeit, eine einjährige Testversion des Produkts zu starten. Administratoren können dieses Feature für Benutzer in ihrer Organisation aktivieren oder deaktivieren.
+
+> [!IMPORTANT]
+> Die Testversion der kommerziellen Cloud von Microsoft Teams wurde um zusätzliche Servicepläne für erweiterte Teams-Funktionen erweitert. Sie gehört nun wird nun dem Abrechnungsadministrator der Organisation und wird von diesem gesteuert. Dies macht es einfacher, die Testversion zu verwalten und Konformität mit allen anderen Microsoft 365-Angeboten zu gewährleisten. Vorhandene Benutzer der kommerziellen Cloudangebote von Teams werden zum neuen Plan migriert.
 
 ## <a name="whats-in-the-offer"></a>Was ist im Angebot enthalten?
 
@@ -34,13 +37,16 @@ Die Servicepläne in diesem Angebot umfassen Folgendes:
 
 - Exchange Foundation
 - Microsoft Flow für Office 365 Plan 1
+- Formulare
 - Microsoft Planner
 - Microsoft Teams (Teams1, Teams IW)
 - Office Online
 - PowerApps für Office 365 Plan 1
 - SharePoint Online-Kiosk
+- Stream
 - Sway
-- Yammer Enterprise
+- Whiteboard
+- Yammer Enterprise 
 
 Die Testversion gewährt ein 1-Jahres-Testabonnement für Ihre gesamte Organisation. Die Testversion umfasst 500.000 Lizenzen. Jeder zugewiesenen Lizenz werden im Rahmen der Testversion 2 GB SharePoint Onlinespeicher zur Verfügung gestellt. 
 
@@ -52,11 +58,7 @@ Benutzer, die keine Office 365-Lizenz besitzen, können das Angebot für einen T
 
 ## <a name="who-is-not-eligible"></a>Wer ist nicht berechtigt?
 
-Ihre Organisation ist in folgenden Fällen nicht berechtigt, die Testversion in Anspruch zu nehmen: 
-
-- Sie sind ein Syndication-Partner.
-- Sie sind ein Einzelhändlerpartner.
-- Sie sind eine Behörde oder Bildungseinrichtung.
+Ihre Organisation ist nicht für die Testversion berechtigt, wenn Sie ein Syndication-Partnerkunde oder ein GCC-, GCC High-, DoD- oder EDU-Kunde sind.
 
 Wenn Ihre Organisation nicht berechtigt ist, das Angebot für einen Test der kommerziellen Cloud von Microsoft Teams in Anspruch zu nehmen, wird die Option **Benutzer Test-Apps und -dienste installieren lassen** nicht angezeigt.
 
@@ -70,7 +72,7 @@ Alle Testversionen innerhalb Ihrer Organisation haben das gleiche Start- und End
 
 ## <a name="manage-the-trial"></a>Verwalten der Testversion
 
-Administratoren können die Lizenzen der registrierten Benutzer verwalten. 
+Testlizenzen werden genauso wie bei allen anderen Abonnements von einem Administrator zugewiesen. Weitere Informationen finden Sie unter [Zuweisen von Lizenzen zu Benutzern in Office 365 Business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). 
 
 Darüber hinaus können Administratoren die Option für Endbenutzer deaktivieren, Test-Apps und -dienste in der Organisation in Anspruch zu nehmen. Derzeit ist die in diesem Artikel beschriebene Testversion die einzige in dieser Kategorie, aber die Angaben können in Zukunft auch für andere ähnliche Programme gelten. 
 
@@ -120,7 +122,7 @@ So deaktivieren Sie die Testlizenz:
     ![Screenshot der Einstellung "Microsoft Teams-Testlizenz" auf im Bereich "Produktlizenzen"](media/iW-trial-enable-4.png)
     
 >[!Note]
->Der Umschalter "Microsoft Teams-Testversion" wird angezeigt, sobald der erste Benutzer in der Organisation sich für die Testversion registriert.
+>Der Umschalter „Microsoft Teams-Testversion“ wird angezeigt, sobald der erste Benutzer in der Organisation sich für die Testversion registriert.
 
 ### <a name="manage-teams-for-users-who-have-the-trial-license"></a>Verwalten von Microsoft Teams für Benutzer, die über die Testlizenz verfügen
 
@@ -137,3 +139,6 @@ Um Benutzer mit Testlizenz zu upgraden, gehen Sie wie folgt vor:
 3. Weisen Sie die neu erworbene Lizenz zu.
 
 Weitere Informationen finden Sie unter [Office 365-Lizenzen für Microsoft Teams](Office-365-licensing.md).
+
+> [!NOTE]
+> Wenn die Testversion abläuft und kein unmittelbares Upgrade auf ein Abonnement mit Teams für einen Benutzer erfolgt, werden die Benutzerdaten nicht entfernt. Der Benutzer bleibt weiterhin in Azure Active Directory und alle Daten innerhalb von Teams werden beibehalten. Sobald dem Benutzer eine neue Lizenz zugewiesen ist, die Teams-Funktionen aktiviert, sind die Inhalte weiterhin vorhanden. 
