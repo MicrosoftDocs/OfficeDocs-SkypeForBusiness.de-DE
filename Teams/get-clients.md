@@ -3,7 +3,7 @@ title: Beziehen von Clients für Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/05/2018
+ms.date: 04/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43344ac9ea00c15bcb4fb7518d727ccc9cff92de
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
-ms.translationtype: HT
+ms.openlocfilehash: 378abc8f49e15a0ef8cb4084ef7968fd8b3ed327
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934715"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304725"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 ===========================
@@ -31,7 +31,9 @@ ms.locfileid: "30934715"
 Microsoft Teams-Clients sind für Desktop (Windows und Mac), Web und mobile Betriebssysteme (Android und iOS) verfügbar. Alle diese Clients erfordern eine aktive Internetverbindung. Ein Offlinemodus wird nicht unterstützt.
 
 > [!NOTE]
-> Ab dem 29. November 2018 können Sie die Microsoft Teams for Windows 10 S-App (Vorschau), die im Microsoft Store verfügbar ist, nicht mehr verwenden. Es wird empfohlen, dass Sie nach dem 29. November eine der in diesem Artikel beschriebenen Teams-Apps verwenden.
+> Ab dem 29. November 2018 können Sie die Microsoft Teams for Windows 10 S-App (Vorschau), die im Microsoft Store verfügbar ist, nicht mehr verwenden. Stattdessen können Sie jetzt herunterladen und installieren den Desktopclient Teams auf Geräte, auf denen Windows 10 S-Modus. Wenn den Desktopclient herunterladen möchten, wechseln Sie zur [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754). MSI-Builds von den Teams Desktopclient sind noch nicht verfügbar für Geräte, auf denen Windows 10 S-Modus.
+>
+> Weitere Informationen zum Windows 10 S Modus finden Sie unter [Einführung in Windows 10 im S-Modus](https://www.microsoft.com/windows/s-mode). 
 
 <a name="desktop-client"></a>Desktopclient
 --------------
@@ -45,7 +47,7 @@ Die Desktopclients bieten Unterstützung für Echtzeitkommunikation (Audio, Vide
 
 Desktopclients können unter [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) von Endbenutzern direkt heruntergeladen und installiert werden, sofern sie über die entsprechenden lokalen Berechtigungen verfügen (Administratorrechte sind zum Installieren des Teams-Clients auf einem PC nicht erforderlich, auf einem Mac jedoch sind sie erforderlich).
 
-IT-Administratoren können ihre bevorzugte Methode für die Verteilung der Installationsdateien an die Computer in ihrer Organisation auswählen, beispielsweise System Center Configuration Manager (Windows) oder Jamf Pro (macOS). Informationen dazu, wie Sie das MSI-Paket für die Verteilung von Windows erhalten, finden Sie unter [Installieren von Microsoft Teams mithilfe eines MSI-Pakets](msi-deployment.md).
+IT-Administratoren können ihre bevorzugte Methode für die Verteilung der Installationsdateien an die Computer in ihrer Organisation auswählen, beispielsweise System Center Configuration Manager (Windows) oder Jamf Pro (macOS). Informationen dazu, wie Sie das MSI-Paket für die Verteilung von Windows erhalten, finden Sie unter [Installieren von Microsoft Teams mithilfe eines MSI-Pakets](msi-deployment.md).  
 
 > [!NOTE]
 > Die Verteilung des Clients über diese Mechanismen ist nur für die anfängliche Installation von Microsoft Team-Clients gedacht, nicht für zukünftige Updates.
@@ -133,7 +135,7 @@ Mobile Apps werden nur über den jeweiligen App Store für ihre mobile Plattform
 <a name="client-update-management"></a>Verwaltung von Clientupdates
 ------------------------
 
-Clients werden zurzeit automatisch vom Microsoft Teams-Dienst aktualisiert, ohne dass der Eingriff eines IT-Administrators erforderlich ist. Wenn ein Update verfügbar ist, lädt der Client das Update automatisch herunter, und wenn sich die App seit einiger Zeit im Leerlauf befindet, wird der Updateprozess gestartet.
+Clients werden derzeit automatisch vom Microsoft-Teams, Dienst mit keine IT-Administrator erforderlichem Benutzereingriff aktualisiert. Wenn ein Update verfügbar ist, wird der Client automatisch Update herunterladen, und wenn die app für eine bestimmte Zeitspanne im Leerlauf überging hat, wird der Aktualisierungsprozess beginnen.
 
 <a name="client-side-configurations"></a>Clientseitige Konfigurationen
 ---------------------------

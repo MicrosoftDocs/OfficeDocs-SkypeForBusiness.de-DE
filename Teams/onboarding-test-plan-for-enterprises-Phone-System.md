@@ -1,7 +1,7 @@
 ---
 title: Enterprise-Testplan für Telefonsysteme mit Anrufplänen in Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff0b806a3738046abc5dc9f9193518e9e0998539
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2cb95414940cbea6eb47945e43d96eb35f4de8bd
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236933"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304493"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Definieren Sie und Dokumentieren Sie Ihr Telefonsystem mit Aufrufen plant in Plan zum Testen von Teams für Unternehmen 
 ============================================================================================

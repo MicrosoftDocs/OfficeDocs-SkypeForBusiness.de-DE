@@ -1,12 +1,12 @@
 ---
 title: Schnellstarthandbuch – Konfigurieren von Anrufplänen in Microsoft Teams
 author: arachmanGitHub
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: MyAdvisor, lolaj
+ms.reviewer: Rowille, lolaj
 search.appverid: MET150
 description: Schnellstarthandbuch für das Konfigurieren von Anrufplänen in Microsoft Teams
 localization_priority: Normal
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 980bb0ad6602cc25df5743f1932fbc76092e7842
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3f6c719d17938986ff6568b73864bc131667e4e7
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194891"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304437"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Schnellstarthandbuch: Konfigurieren von Anrufplänen in Microsoft Teams
 ==============================================================

@@ -1,7 +1,7 @@
 ---
 title: Planen der Funktionen für die Benutzer in Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c36855f4283e9cb57ef2ce0f916899232222777f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: abef4c9e1096396d7844002ebda38a32876b403b
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32241628"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304365"
 ---
 # <a name="plan-my-users-experience"></a>Planen von meiner Benutzer-Erlebnis
 

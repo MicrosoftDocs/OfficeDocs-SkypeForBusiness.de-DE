@@ -15,12 +15,12 @@ description: Aufgaben und Aktivitäten für Teams Servicemanagement, einschließ
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45de98935cdba03697c84172ba7a0c081b0811da
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 340c61ab7013da769bdf422f2d2c43a767c5de03
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32241820"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304453"
 ---
 # <a name="operate-my-service"></a>Verwenden des Diensts
 

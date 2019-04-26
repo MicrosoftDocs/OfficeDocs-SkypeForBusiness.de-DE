@@ -1,7 +1,7 @@
 ---
 title: Treffen von Entscheidungen für das Telefonsystem mit direktem Routing – Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 07/09/2018
 ms.topic: conceptual
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aca4fc24cb39fd1dc607825a73b9f3751992de3d
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 8a2371c72f24b19b9e3c4fe836a59cbc800ad1c4
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569766"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304717"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -87,28 +87,28 @@ Telefonsystem bewirkt, dass alle Benutzer in Ihrer Organisation eine eindeutige 
 
 ## <a name="voicemail"></a>Voicemail
 
-Telefon System Voicemail, unterstützt von Azure Voicemail-Dienste unterstützt Voicemail bandbreitenbeschränkungen zu nur Exchange-Postfächern und Drittanbieter-e-Mail-Systemen nicht unterstützt.
+Cloud-Voicemail, unterstützt von Azure Voicemail-Dienste unterstützt Voicemail bandbreitenbeschränkungen zu nur Exchange-Postfächern und Drittanbieter-e-Mail-Systemen nicht unterstützt.
 
-Voicemail für Telefonsysteme umfasst Voicemailtranskription. Diese Funktion ist standardmäßig für alle Benutzer in Ihrer Organisation aktiviert. Ihre geschäftsanforderungen erfordern möglicherweise, Voicemail Lautschrift für bestimmte Benutzer oder alle Benutzer in der gesamten Organisation zu deaktivieren. Wenn Ihre Organisation aktiviert Voicemail Lautschrift behalten, müssen Sie auch bedenken, ob Voicemail Lautschrift Gotteslästerung Maskierung muss aktiviert sein. Einzelheiten finden Sie unter [Festlegen von Voicemail Richtlinien in Ihrer Organisation](set-up-phone-system-voicemail.md) .
+Cloud-Voicemail enthält Voicemail Lautschrift, die standardmäßig für alle Benutzer in Ihrer Organisation aktiviert ist. Ihre geschäftsanforderungen erfordern möglicherweise, Voicemail Lautschrift für bestimmte Benutzer oder alle Benutzer in der gesamten Organisation zu deaktivieren. Wenn Ihre Organisation aktiviert Voicemail Lautschrift behalten, müssen Sie auch bedenken, ob Voicemail Lautschrift Gotteslästerung Maskierung muss aktiviert sein. Einzelheiten finden Sie unter [Festlegen von Voicemail Richtlinien in Ihrer Organisation](set-up-phone-system-voicemail.md) .
 
-Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden Sie unter [Einrichten von Voicemail Telefonsystem](set-up-phone-system-voicemail.md).
+Weitere Informationen zu Voicemail in einer Implementierung Telefonsystem finden Sie unter [Einrichten von Voicemail Cloud](set-up-phone-system-voicemail.md).
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Sie Telefonsystem Voicemail Ihrer Implementierung direkten Routing aktivieren.<li>Entscheiden Sie, ob Sie aktivieren oder Lautschrift Voicemail und Voicemail Lautschrift Gotteslästerung Maskierung in der gesamten Organisation oder für bestimmte Benutzer deaktivieren benötigen.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie gegebenenfalls die Entscheidungspunkte zur Unterstützung der Telefonsystem Voicemail.<li>Wenn Sie aktivieren oder Deaktivieren von Voicemail, dokumentieren Sie Lautschrift Voicemail und Voicemail Lautschrift Gotteslästerung Maskierung nur für bestimmte Benutzer dieser Liste von Benutzern.</ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Sie Cloud Voicemail Ihrer Implementierung direkten Routing aktivieren.<li>Entscheiden Sie, ob Sie aktivieren oder Lautschrift Voicemail und Voicemail Lautschrift Gotteslästerung Maskierung in der gesamten Organisation oder für bestimmte Benutzer deaktivieren benötigen.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie gegebenenfalls die Entscheidungspunkte zur Unterstützung der Cloud Voicemail.<li>Wenn Sie aktivieren oder Deaktivieren von Voicemail, dokumentieren Sie Lautschrift Voicemail und Voicemail Lautschrift Gotteslästerung Maskierung nur für bestimmte Benutzer dieser Liste von Benutzern.</ul>|
 
 > [!TIP]
-> Telefon System Voicemail Details für die Implementierung plant aufrufen können wie in der folgenden Tabelle dokumentiert werden.
+> Cloud-Voicemail-Details für die Implementierung plant aufrufen können wie in der folgenden Tabelle dokumentiert werden.
 > 
 > | **Benutzer**         | **Exchange-Postfach** | **Aktivieren Sie Voicemail?** | **Voicemail Lautschrift** | **Voicemail Lautschrift Gotteslästerung-Maskierung** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|
 > | Emily Braun      | Online               | Ja                   | Aktiviert                     | Aktiviert                                       |
 > | Lidia Holloway   | Online               | Ja                   | Aktiviert                     | Deaktiviert                                      |
 > | Louis Lahr       | Lokal          | Ja                   | Aktiviert                     | Aktiviert                                       |
-> | Marcel Beauchamp | Lokal          | Ja                   | Deaktiviert                    | n/v                                           |
-> | Rachelle Cormier | Online               | Ja                   | Deaktiviert                    | n/v                                           |
-> | Isabell Potvin   | Lokal          | Ja                   | Deaktiviert                    | n/v                                           |
+> | Marcel Beauchamp | Lokal          | Ja                   | Deaktiviert                    | Nicht zutreffend                                           |
+> | Rachelle Cormier | Online               | Ja                   | Deaktiviert                    | Nicht zutreffend                                           |
+> | Isabell Potvin   | Lokal          | Ja                   | Deaktiviert                    | Nicht zutreffend                                           |
 > 
 > [!NOTE]
 > Teams und Voicemail, müssen Ihre Benutzer Exchange-Postfächer vorhanden sein. Einzelheiten finden Sie unter [wie Exchange- und Microsoft-Produktteams interagieren](exchange-teams-interact.md) .
@@ -121,7 +121,7 @@ Wenn Ihre Organisation direkten Routing verwenden, müssen Sie die erforderliche
 
 -   Microsoft Telefonsystem
 
--   Microsoft Teams
+-   Microsoft Teams
 
 -   Audiokonferenzen
 
