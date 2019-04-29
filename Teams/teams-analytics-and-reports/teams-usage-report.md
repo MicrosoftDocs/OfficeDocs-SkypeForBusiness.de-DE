@@ -17,11 +17,11 @@ description: Erfahren Sie, wie Sie den Microsoft Teams-Nutzungsbericht im Micros
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8915b544dd2f1b2e07eaac94ef17abbee93a8caa
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298726"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402555"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams – Nutzungsbericht
 

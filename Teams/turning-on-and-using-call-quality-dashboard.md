@@ -24,11 +24,11 @@ ms.custom:
 - Reporting
 description: 'See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. '
 ms.openlocfilehash: bfbca275afb6da9dbe0f809906e6053f87e960e8
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298668"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401798"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Einschalten und Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online
 

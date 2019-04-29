@@ -17,11 +17,11 @@ f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Informationen Sie zu Richtlinien für Messaging und wie sie Chat in Teams messaging steuern verwendet werden können.
 ms.openlocfilehash: f0dd52dac1bd2563a0ef5c500714ab63eeadf84d
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298453"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401420"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Messaging-Richtlinien in Teams
 

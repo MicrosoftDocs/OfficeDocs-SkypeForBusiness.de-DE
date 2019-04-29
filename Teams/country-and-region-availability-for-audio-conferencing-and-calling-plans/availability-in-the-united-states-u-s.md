@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die USA verfügbar.
-ms.openlocfilehash: 7974ce4ecd20793b3523a14f501247568d2962bc
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: fff28a277df0513728463a1415ed3acedbf08910
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541960"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402547"
 ---
 # <a name="availability-in-the-united-states-us"></a>Verfügbarkeit in den Vereinigten Staaten (USA)
 
@@ -63,6 +63,8 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 | Minuten für den Aufruf von Plänen zur Verfügung.              | Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen (Verfügbarkeit ist begrenzt)</li><li>240 minute nationalen aufrufen planen (Verfügbarkeit ist begrenzt)</li></li><li>3000 minute nationalen aufrufen planen </li></li><li>Nationalen und internationalen aufrufen planen: 3000 Minuten nationalen OR - 600 Minuten internationaler (je nachdem, was zuerst im Kalendermonat erreicht wird)</li></li> |
 | Stellen Sie ausgehende Anrufe bei Nummern Premium können? <br/> | Zu diesem Zeitpunkt unterstützt nicht. <br/>                                                                                                                                                                                                                                                                                               |
 | Sind ausgehende Anrufe möglich?  <br/>                | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/>                                                                                                                                                                                                                      |
+> [!Note]
+> Anrufe an Kanada werden als Gespräche behandelt.
 
 >[!Note] 
 > Vereinigte Staaten nationalen aufrufen enthält Anrufe an alle 50 USA und Puerto Rico. Benutzer, die durch die Lizenz Usage Speicherort der USA und/oder Puerto Rico zugewiesen freigeben selben Pool von Minuten.

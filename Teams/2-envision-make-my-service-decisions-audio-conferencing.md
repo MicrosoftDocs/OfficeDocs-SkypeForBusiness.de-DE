@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3867f7f2f9dd2f093b71ced40b0c07b6c5395041
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304797"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400905"
 ---
 # <a name="make-my-service-decisions"></a>Meine Service treffe
 
@@ -163,7 +163,7 @@ Lesen Sie mehr über die Konferenz Bridge Rufnummern finden Sie in den folgenden
 
 -   [Einrichten von Audiokonferenzen für Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
--   [Telefonnummern für Audiokonferenz](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+-   [Telefonnummern für Audiokonferenzen](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
 
 -   [Abrufen von Diensttelefonnummern](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 

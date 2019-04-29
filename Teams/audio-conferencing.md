@@ -14,11 +14,11 @@ appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
 ms.openlocfilehash: 8f7ef70bb7589facaec4cb131c3667464a658fbb
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304805"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401057"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Praktische Anleitungen für Audiokonferenzen in Microsoft Teams
 ============================================================

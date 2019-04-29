@@ -1,5 +1,5 @@
 ---
-title: Übersicht über PowerShell für Microsoft Teams
+title: Teams PowerShell (Übersicht)
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -13,14 +13,14 @@ ms.collection:
 description: Erfahren Sie, die PowerShell-Steuerelemente verwenden Sie zum Verwalten von Microsoft-Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e85261b133d8f1562bcca7d79f83eb21e345be2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a56783a4958038710440fc899081abfdd24f1dec
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204469"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401630"
 ---
-# <a name="teams-powershell-overview"></a>Übersicht über PowerShell für Microsoft Teams
+# <a name="teams-powershell-overview"></a>Teams PowerShell (Übersicht)
 
 Microsoft-Teams, verfügt über einen umfassenden Satz von Tools für IT-Administratoren zur Verwaltung des Produkts über die Microsoft-Teams, Administrationscenter, PowerShell Steuerelemente und Diagramm-APIs. In diesem Handbuch wird erläutert, wie wir unsere PowerShell-Cmdlets für IT-Administratoren verwenden, strukturieren und enthält Verweise auf Weitere Dokumentation. Beachten Sie, dass unterschiedliche Teams Administratorrollen auf anderen Cmdlets zugreifen. Weitere Informationen finden Sie unter [Verwendung von Microsoft-Teams Administratorrollen zum Verwalten von Teams](using-admin-roles.md).
 
@@ -43,6 +43,37 @@ Die Cmdlets für das Erstellen und Verwalten von Teams sind im [Microsoft-Teams 
 Teams sind gesichert nach Office 365-Gruppen, also wenn Sie ein Team erstellen, erstellen Sie eine Gruppe. Es gibt eine Gruppe von Cmdlets für den Betrieb auf das Team Core und die zugehörigen Einstellungen bereitgestellt (``new-team``, ``get-team``, ``set-team``), Verwalten von Benutzern Team (``add-teamuser``, ``remove-teamuser``), sowie von Cmdlets für die Verwaltung der Kanäle des Teams (``new-teamchannel``, ``remove-teamchannel``). Alle diese Cmdlets als Endbenutzer ausgeführt werden können, aber sie nur auf den Teams, die Sie besitzen oder ein Mitglied arbeiten. Wenn Sie ein globaler Administrator oder Teams Service-Administrator sind, werden Sie auf alle Teams in Ihrer Organisation agieren sein.
 
 > Die in den Microsoft-Teams PowerShell-Modul-Cmdlets verwendet **GroupId** ist identisch mit der **Identity** -Eigenschaft zurückgegebene ``Get-UnifiedGroup`` in der Exchange PowerShell-Modul.
+
+### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>Unterschiede zwischen Preview und Microsoft-Teams, die allgemein verfügbare PowerShell-Modul
+
+Wenn wir unsere allgemein verfügbare Version von unseren PowerShell-Modul freigegeben, wurden einige Cmdlets im Modul Beta-only beibehalten, wie in der folgenden Tabelle beschrieben.
+
+| Cmdlet | Verfügbar in der Vorschau | Verfügbar in 1.0 |
+|------- | -------------------- | ------------------------------ |
+| Hinzufügen von TeamUser | Ja | Ja |
+| Verbinden MicrosoftTeams | Ja | Ja |
+| Trennen Sie MicrosoftTeams | Ja | Ja |
+| Get-Team | Ja | Ja |
+| Get-TeamChannel | Ja | Ja |
+| Get-TeamFunSettings | Bevor Sie nur Version 1.0 | Nein |
+| Get-TeamGuestSettings | Bevor Sie nur Version 1.0 | Nein |
+| Get-TeamHelp | Ja | Ja |
+| Get-TeamMemberSettings | Bevor Sie nur Version 1.0 | Nein |
+| Get-TeamMessagingSettings | Bevor Sie nur Version 1.0 | Nein |
+| Get-TeamUser | Ja | Ja |
+| Neues Team | Ja | Ja |
+| Neue TeamChannel | Ja | Ja |
+| Remove-Team | Ja | Ja |
+| Remove-TeamChannel | Ja | Ja |
+| Remove-TeamUser | Ja | Ja |
+| Set-Team | Ja | Ja |
+| Set-TeamChannel | Ja | Ja |
+| Set-TeamFunSettings | Bevor Sie nur Version 1.0 | Nein |
+| Set-TeamGuestSettings | Bevor Sie nur Version 1.0 | Nein |
+| Set-TeamMemberSettings | Bevor Sie nur Version 1.0 | Nein |
+| Set-TeamMessagingSettings | Bevor Sie nur Version 1.0 | Nein |
+| Set-TeamPicture | Ja | Nein, geplant |
+
 
 ## <a name="managing-policies-via-powershell"></a>Verwalten von Richtlinien über die PowerShell
 
