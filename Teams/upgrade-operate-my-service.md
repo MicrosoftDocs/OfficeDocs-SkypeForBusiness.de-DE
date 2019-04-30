@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f9f992b31dcdade2d5ba0dd85757ce99980fb80
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a3418de96bc08de90ce09faaba1b5d7ed9b959ec
+ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233011"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470594"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
 
@@ -240,7 +240,7 @@ Nachdem der Pilotphase begonnen hat, ist es wichtig, einen regulären Trittfrequ
 
 Wenn Verwendung nicht, was Sie erwartet, möglicherweise aufgrund eines Problems Bereitstellung oder der Anpassungsplan ist nicht ordnungsgemäß ausgeführt werden, oder ein anderer Problem wird. Je nach den tatsächlichen Grund hinter der geringen Verwendung muss mit den zugehörigen Teams, die bei der Verwendung Hindernisse unterstützen Dienstadministrator zusammenarbeiten.
 
-### <a name="measuring-usage-with-the-office-365-admin-center"></a>Messen der Verwendung mit Office 365 Administrationscenter
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>Messen der Verwendung mit Microsoft 365 Administrationscenter
 
 Verwendungsdaten von Teams ist im Dashboard Reporting verfügbar. Verwendungsdaten Teams können in drei verschiedene Berichte gefunden werden. Der erste Bericht bietet eine Ansicht produktübergreifende wie Benutzer kommunizieren und zusammenarbeiten, indem Sie die verschiedenen Dienste in Office 365 verwenden. In diesem Bericht kann, finden Sie hier: [Office 365 aktive Benutzer Bericht](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
@@ -281,9 +281,9 @@ Ermitteln Sie zunächst, ob dies eine Annahme oder technischen Problem ist. Begi
 
 ### <a name="references"></a>Referenzen
 
-[Informationen zum Office 365 Administrationscenter](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[Informationen zum Microsoft 365 Administrationscenter](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[Berichte in der Microsoft-365-Verwaltungskonsole](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 

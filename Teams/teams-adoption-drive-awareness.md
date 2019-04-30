@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60e6d6b02719bf1055b5f8e9faa3c31febdf0bcb
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 0f0337fb71e766b96f7648c15b46d665d846e1fb
+ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647553"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470669"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Fördern des Bewusstseins und Implementieren der Schulung für Microsoft Teams
 
@@ -65,6 +65,6 @@ Als mit Communications und Annahme Kampagne, sollten Sie zum Identifizieren Ihre
 
 Freigeben der Einblicke in die, die Sie aus Ihrer Kanäle Feedback mit der Hashtag #TeamsStories für den einfachen Abruf zu erhalten. Machen Sie jeden Monat mit #TeamsStories in Ihrem Intranet auf Mitarbeiter aufmerksam, die die Veränderungen annehmen, um die Produktivität und Zusammenarbeit in Ihrer Umgebung zu verbessern. Auch teilen Sie können mit uns in unserer gesteuerter Annahme-Forum auf der Microsoft-Community Technical. Diese Beispiele in der Praxis in Ihrem eigenen Unternehmen die Freigabe ist äußerst nützlich, um die Realität anhaltend Änderung über einen Zeitraum mit Ihrer Benutzer-Community.
 
-[Erfahren Sie mehr über die Microsoft-Teams Verwendungsberichte im Office 365 Administrationscenter.](teams-activity-reports.md)
+[Erfahren Sie mehr über die Microsoft-Teams Verwendungsberichte in der Microsoft-365-Verwaltungskonsole.](teams-activity-reports.md)
 
 ![Nächste Schritte Symbol](media/teams-adoption-next-icon.png) weiter: [Zeitplan Dienststatus prüft](teams-adoption-schedule-service-health-reviews.md)

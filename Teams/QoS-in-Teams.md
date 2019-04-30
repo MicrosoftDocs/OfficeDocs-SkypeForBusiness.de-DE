@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f1df731f7ff21d246f9b92e028fe3e7ae367509
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: bc8f7cf66d13f78b685505d41e9e5b1342931923
+ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400939"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470645"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementieren von Quality of Service (QoS) in Microsoft-Teams
 
@@ -160,7 +160,7 @@ Informationen zum Konfigurieren von Firewallports wechseln Sie zu [Office 365-UR
 
 ## <a name="managing-source-ports-in-the-teams-admin-center"></a>Verwalten von Quellports in der Verwaltungskonsole Teams
 
-In Teams, sollte QoS-Quellports, die von den verschiedenen Arbeitslasten aktiv sein verwaltet und gegebenenfalls angepasst. In Bezug auf die Tabelle in [Portbereiche und DSCP Auswahlmöglichkeiten](#port-ranges-and-dscp-markings)Sie die Portbereiche veränderbaren sind, aber die DSCP-Auswahlmöglichkeiten sind nicht konfigurierbar. Nachdem Sie diese Einstellungen implementiert haben, können Sie feststellen, dass mehr oder weniger Ports für einen bestimmten Medientyp benötigt werden. [Analytics aufrufen, und rufen Sie Qualitätsdashboard](difference-between-call-analytics-and-call-quality-dashboard.md) sollte bei der Entscheidung Portbereiche anpassen, nachdem Teams implementiert wurde, sowie in regelmäßigen Abständen Änderung muss verwendet werden.
+In Teams, sollte QoS-Quellports, die von den verschiedenen Arbeitslasten aktiv sein verwaltet und gegebenenfalls angepasst. In Bezug auf die Tabelle in [Choose anfänglichen Portbereiche für jeden Medientyp](#choose-initial-port-ranges-for-each-media-type), die Portbereiche veränderbaren sind, aber die DSCP-Auswahlmöglichkeiten sind nicht konfigurierbar. Nachdem Sie diese Einstellungen implementiert haben, können Sie feststellen, dass mehr oder weniger Ports für einen bestimmten Medientyp benötigt werden. [Analytics aufrufen, und rufen Sie Qualitätsdashboard](difference-between-call-analytics-and-call-quality-dashboard.md) sollte bei der Entscheidung Portbereiche anpassen, nachdem Teams implementiert wurde, sowie in regelmäßigen Abständen Änderung muss verwendet werden.
 
 > [!NOTE]
 > Wenn Sie QoS basierend auf Quelle Portbereiche und DSCP Auswahlmöglichkeiten für Skype für Business Online bereits konfiguriert haben, gilt die gleiche Konfiguration für Teams und keine weiteren Client oder netzwerkänderungen auf die Zuordnung ist erforderlich, festgelegt, wenn Sie auf [Bereiche festgelegt werden Teams Admin Center verwendet](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) übereinstimmen, was für Skype für Business Online konfiguriert wurde.
