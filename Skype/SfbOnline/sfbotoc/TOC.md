@@ -232,7 +232,8 @@
 ### [Einrichten des Telefonsystems in Ihrer Organisation](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Was sind automatische Cloudtelefonzentralen?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Einrichten einer automatischen Cloudtelefonzentrale](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Beispiel für Kleinunternehmen – Einrichten einer automatischen Telefonzentrale](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
+#### [Beispiel für Kleinunternehmen – Einrichten einer automatischen Telefonzentrale](../what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)  
+#### [Beispiel für Kleinunternehmen – Einrichten einer Anrufwarteschleife](../what-is-phone-system-in-office-365/tutorial-cq.yml?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Erstellen einer Cloudanrufwarteschleife](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 
