@@ -16,12 +16,12 @@ MS.collection:
 description: Erfahren Sie, wie mit der Teams User Activity Report im Microsoft-Teams, Administrationscenter finden Sie unter wie Teams von Benutzern in Ihrer Organisation verwendet wird.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5ad6021f03b200e1f3216238a81cc3b691171fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dcb4511463a8866448739cafb1661c55481718b2
+ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225034"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33495864"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams – Benutzeraktivitätsbericht
 
@@ -46,7 +46,7 @@ Teams User Activity Report bietet Ihnen einen Einblick in die Arten von Aktivit�
 |**4**   |Sie können filtern, was im Diagramm angezeigt wird, indem Sie in der Legende auf ein Element klicken. Klicken Sie beispielsweise **1:1-anrufen**, **DDE-Kanal-Nachrichten**oder **Nachrichten Chat** , um nur die Informationen im Zusammenhang mit jeweils finden Sie unter. Ändern die Auswahl ändert nicht die Informationen in der Tabelle. |
 |**5**   |Die Tabelle enthält eine Aufschlüsselung der Auslastung durch Benutzer.   <ul><li>**Anzeigename** ist der Anzeigename des Benutzers. Sie können den Anzeigenamen So wechseln zur Seite des Benutzers in der Verwaltungskonsole von Microsoft-Teams klicken.</li><li>**1:1-anrufen** ist die Anzahl der 1:1-Anrufe, die der Benutzer teilgenommen während des angegebenen Zeitraums.</li><li>**DDE-Kanal-Nachrichten** ist die Anzahl der eindeutigen Nachrichten, die der Benutzer gebucht in einem Chat Team während des angegebenen Zeitraums.</li> <li>**Chatnachrichten** ist die Anzahl der eindeutigen Nachrichten, die der Benutzer in einem privaten Chat während des angegebenen Zeitraums veröffentlicht.</li>  <li>**Letzte Aktivität** ist das Datum der letzten (UTC), das der Benutzer in einer Aktivität Teams verwendet wurde.</li> </ul>Um in der Tabelle die gewünschten Informationen anzuzeigen, stellen Sie sicher, dass Sie der Tabelle die entsprechenden Spalten hinzufügen.
 |**6**   |Wählen Sie **Spalten bearbeiten** aus, um Spalten zur Tabelle hinzuzufügen oder daraus zu entfernen. |
-|**7**   |Wählen Sie **˙˙˙** und dann **Diagramm drucken** aus, um das Diagramm zu drucken. |
+|**7**   |Sie können den Bericht in eine CSV-Datei für die offline-Analyse exportieren. Klicken Sie auf **nach Excel exportieren**, und klicken Sie dann auf die Registerkarte **Downloads** **herunterladen** , um den Bericht herunterzuladen, sobald es vorliegt.<br>![Screenshot der Registerkarte Downloads exportiert herunterladen-Berichte anzeigen](../media/teams-reports-export-to-csv.png)||
 
 ## <a name="related-topics"></a>Verwandte Themen
 - [Teams – Analyse und Berichterstellung](teams-reporting-reference.md)

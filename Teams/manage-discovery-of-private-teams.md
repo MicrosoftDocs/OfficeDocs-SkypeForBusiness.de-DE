@@ -17,14 +17,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie gesteuert wird, ob private Teams durch Microsoft-Teams, Benutzer über Vorschläge in die Team-Katalog und die Suchergebnisse ermittelt werden können.
-ms.openlocfilehash: 70d5b81bba719a9e6cc6a51d38d58fd309e07a3b
-ms.sourcegitcommit: 9329d740a2060f9c055c5c0c03107a9268c0df5b
+ms.openlocfilehash: 3609a592c3c940e9f7cbec6ca5c58fd072322c46
+ms.sourcegitcommit: 0bb55cad74b15fc821ae916799aa8c0cb13dd31d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/24/2019
-ms.locfileid: "33262758"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33497953"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Verwalten der Suche von privaten Teams in Microsoft-Teams
+
+> [!INCLUDE [preview feature](includes/preview-feature.md)] 
 
 Administratoren und Team Besitzer können gesteuert wird, ob private Teams von Benutzern in Ihrer Organisation Microsoft-Teams, der ermittelt werden können. Wenn eine private Team sichtbar ist, wird in den Suchergebnissen und in Vorschläge im Katalog Team zusammen mit öffentlichen Teams in Teams enthalten ist. Dies erleichtert Benutzern suchen, und suchen Sie nach der privaten Teams, die sie teilnehmen möchten. Benutzer können auf einem privaten Team stoßen, das Teambesitzer einer genehmigen oder verweigern kann anfordern.
 
@@ -62,7 +64,7 @@ Wechseln Sie in Teams, an das Team der private, klicken Sie auf **Weitere Option
 
 ![Discovery-Einstellung für vorhandene private teams](media/private-team-discovery-existing-team.png)
 
-### <a name="using-powershell"></a>Verwenden von PowerShell
+### <a name="using-powershell-coming-soon"></a>Verwenden von PowerShell (bald verfügbar)
 
 Verwenden Sie das Cmdlet " **Set-Team** " zu deaktivieren oder aktivieren auf der Discovery-Einstellung für eine vorhandene private Team. Es folgt ein Beispiel dafür, wie Sie ein Team auffindbar sind:
 
