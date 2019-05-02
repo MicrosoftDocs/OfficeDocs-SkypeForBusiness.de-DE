@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8694abbec22e577983889bdf6cdc3d6038d3c80
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5ad250e133ebe3d9a203a1439f04a8f1f3cc41d9
+ms.sourcegitcommit: ceba3ec2d5618fceaa57e18f7ca6858e8d5d5ee5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245606"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33509684"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Erste Schritte mit Microsoft Teams
 
@@ -44,7 +44,15 @@ Wenn Sie in einem kleinen Unternehmen arbeiten, können Sie möglicherweise die 
 
 ## <a name="before-you-get-started"></a>Bevor Sie beginnen
 
+Bevor Sie beginnen, sollten Sie den Rollout Ihres Teams planen, indem Sie die folgenden Punkte prüfen:
+
+- [Überprüfen der Bereitschaft Ihrer Umgebung für Teams](environment-readiness.md)
+- [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
+- [Informationen zu den Vorteilen der Installation von Desktop-, Web- und mobilen Clients erhalten](get-clients.md)
+
 Achten Sie darauf, dass Sie für alle Benutzer über Teams-Lizenzen verfügen. Lesen Sie [Teams-Pläne vergleichen](https://products.office.com/microsoft-teams/free) und [Office 365-Lizenzierung für Teams](office-365-licensing.md). 
+
+
 
 ## <a name="next-steps"></a>Nächste Schritte
 Wechseln Sie zu [Erstellen Sie Ihre ersten Teams und Kanäle](get-started-with-teams-create-your-first-teams-and-channels.md)
