@@ -41,6 +41,7 @@
 ### [Verwenden integrierter und benutzerdefinierter Registerkarten](built-in-custom-tabs.md)
 ### [Office 365 und benutzerdefinierte Connectors](Office-365-custom-connectors.md)
 ### [Veröffentlichen von Apps im App-Katalog eines Teams-Mandanten](tenant-apps-catalog-teams.md)
+### [App-Zertifizierung](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -605,8 +606,11 @@
 ### [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### [Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
+#### [Benutzeroberflächenspezifikation DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+#### [Benutzeroberflächenspezifikation STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
 
-## [Teams für Bildungseinrichtungen](expand-teams-across-your-org/teams-for-education-landing-page.md)
+## [Teams für Bildung](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Schnellstart – Administratoren von Microsoft Teams Education](teams-quick-start-edu.yml)
 ### [Aufgaben in Teams für Bildungseinrichtungen](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams-Ressourcen für Administratoren in Bildungseinrichtungen](resources-teams-edu.md)
