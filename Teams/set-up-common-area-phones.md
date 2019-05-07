@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Hier erfahren Sie, wie Sie Telefone in öffentlichen Bereichen für Lobbys, Empfangsbereichen und Konferenzräume einrichten '
-ms.openlocfilehash: 74806d3dfc66c27c144d6c3a4e1ddd5c6c7e7c60
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9e68d5bc4ef0355e80e1fe6359385c10a339c0fe
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204863"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632377"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Einrichten der Lizenz für Telefone für gemeinsame Bereiche für Microsoft Teams
 
@@ -38,7 +38,7 @@ Zunächst müssen Sie lediglich sind Purchase eine Lizenz Common Area Phone (CAP
 
 ## <a name="step-1---buy-the-licenses"></a>Schritt 1 - Lizenzen kaufen
 
-1. Wechseln Sie in das Office 365 Administrationscenter zu **Abrechnung** > **Dienste erwerben** und erweitern Sie dann **andere Pläne**.
+1. Wechseln Sie in der Microsoft-365-Verwaltungskonsole zu **Abrechnung** > **Dienste erwerben** und erweitern Sie dann **andere Pläne**.
 
     ![Screenshot, der zeigt der Kachel "Common Area Phone"](media/set-up-common-area-phone-image1.png)
 
@@ -55,7 +55,7 @@ Weitere Informationen zu Lizenzen finden Sie unter [Microsoft-Teams, Add-On-Lize
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Schritt 2 - Ein neues Benutzerkonto für das Telefon erstellen und die Lizenzen zuweisen
 
-1. Wechseln Sie in das Office 365 Administrationscenter zu **Benutzern** > **aktive Benutzer** > **Hinzufügen eines Benutzers**.
+1. Wechseln Sie in der Microsoft-365-Verwaltungskonsole zu **Benutzern** > **aktive Benutzer** > **Hinzufügen eines Benutzers**.
 
 2. Geben Sie einen Benutzernamen wie "Main" für den ersten Namen und "Empfang" für den zweiten Namen.
 

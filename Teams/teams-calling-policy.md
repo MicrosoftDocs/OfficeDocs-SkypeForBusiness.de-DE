@@ -3,7 +3,7 @@ title: Anrufrichtlinien in Microsoft Teams
 author: LolaJacobsen
 ms.author: tonysmit
 manager: serdars
-ms.date: 04/15/2019
+ms.date: 05/06/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
@@ -17,15 +17,15 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e56f0c89859b940a82e76f8de35ff524a757ec9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 007bea10d8e452a2198c869ab545592b29c591c1
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225000"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632369"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Anrufrichtlinien in Microsoft Teams
-==========================================
+===================================
 
 In Microsoft-Teams Richtlinien-Steuerelements aufrufen, denen der Aufruf und Features für die anrufweiterleitung für Benutzer verfügbar sind. Aufrufen von Standortrichtlinien wird bestimmt, ob ein Benutzer private aufgerufen werden kann, verwenden Sie die anrufweiterleitung oder Gleichzeitiges Klingeln an andere Benutzer oder externe Telefonnummern, Weiterleitung von Anrufen an Voicemail, senden Anrufe an Gruppen aufrufen Delegierung für eingehende und ausgehende Anrufe, und so weiter. Eine globale Standardrichtlinie wird automatisch erstellt, aber Administratoren können auch benutzerdefinierte aufrufende Richtlinien zuweisen.
 
@@ -97,5 +97,8 @@ Durch Festlegen auf **auf** Anrufe über das Telefonfestnetz sendet und Gebühre
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>Beschäftigt auf beschäftigt steht während eines Anrufs
 
-Beschäftigt auf beschäftigt (beschäftigt Optionen)) ist, dass eine neue Einstellung in Teams aufrufende Richtlinien, die Sie Konfigurieren eingehender Anrufe können behandelt werden, wenn ein Benutzer bereits in einem Anruf oder einer Konferenz oder einen Anruf hat in der Warteschleife platziert. Neue oder eingehende Anrufe können mit einer Besetztzeichen abgelehnt werden. Sie können auf einer Ebene Mandanten oder auf der Benutzerebene beschäftigt Optionen aktivieren. Unabhängig davon, wie ihre beschäftigt Optionen konfiguriert werden sind Benutzer in einen Anruf oder Konferenz oder die durch einen Anruf in der Warteschleife nicht verhindert neue anrufen oder Konferenzen initiieren. Diese Einstellung ist standardmäßig deaktiviert.
+Beschäftigt auf beschäftigt (beschäftigt Optionen)) ist, dass eine neue Einstellung in Teams aufrufende Richtlinien, die Sie konfigurieren, wie eingehende Anrufe können behandelt werden, wenn ein Benutzer bereits in einem Anruf oder einer Konferenz oder einen Anruf hat in der Warteschleife platziert. Neue oder eingehende Anrufe können mit einer Besetztzeichen abgelehnt werden. Sie können beschäftigt Optionen auf der Ebene der Mandanten oder auf Benutzerebene aktivieren. Unabhängig davon, wie ihre beschäftigt Optionen konfiguriert werden sind Benutzer in einen Anruf oder Konferenz oder die durch einen Anruf in der Warteschleife nicht verhindert neue anrufen oder Konferenzen initiieren. Diese Einstellung ist standardmäßig deaktiviert.
 
+## <a name="see-also"></a>Siehe auch
+
+[Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)

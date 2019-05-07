@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e85d6e44c37b1b7a56b2b525d28fdbeab266d4b8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0252a138fd34e26d6fd2f1237a2fdbfd9b5f5410
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211325"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632266"
 ---
 # <a name="quality-of-experience-review-guide"></a>Handbuch für die Überprüfung der QoE (Quality of Experience)
 
@@ -74,7 +74,7 @@ Stellen Sie bevor Sie dieses Handbuch verwenden sicher, dass Sie die richtige Ma
 
 Alternativ können Sie ein Office 365-Benutzerkonto den Zugriff auf Berichtsfunktionen nur folgende Rolle zuweisen.
 
--   **Leser von Berichten:** Können die [Berichte](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) im Office 365 Administrationscenter, alle Berichte aus dem [Office 365 Annahme Inhaltspaket](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)und CQD Berichte anzeigen.
+-   **Leser von Berichten:** Können die [Berichte](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) im Office 365 Administrationscenter, alle Berichte aus dem [Microsoft 365 Annahme Inhaltspaket](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)und CQD Berichte anzeigen.
 
 ## <a name="what-is-quality"></a>Was ist die Qualität?
 
@@ -823,9 +823,9 @@ _Tabelle 6: Diagnostic Benachrichtigungen_
 
 ### <a name="message-center"></a>Nachrichtencenter
 
-Der Nachrichtenstatus informiert Sie über neue Updates, Features oder Probleme. Message Center ist in Office 365 Administrationscenter Dienstadministratoren verfügbar. Jede Post bietet eine allgemeine Übersicht über wie das Update, Funktion oder Problem wirkt sich auf die Benutzer, und enthält Links zu ausführlichen Informationen.
+Der Nachrichtenstatus informiert Sie über neue Updates, Features oder Probleme. Message Center ist in der Microsoft-365-Verwaltungskonsole Dienstadministratoren verfügbar. Jede Post bietet eine allgemeine Übersicht über wie das Update, Funktion oder Problem wirkt sich auf die Benutzer, und enthält Links zu ausführlichen Informationen.
 
-Wechseln Sie zum Öffnen der Nachrichtenstatus in Office 365 Administrationscenter zu **Integrität** > **Nachrichtencenter**, oder wählen Sie die Nachricht Center Karte auf der **Startseite** Dashboard. Das Dashboard zeigt die letzten drei Nachrichten, die veröffentlicht wurden und Links zu der vollständigen Nachricht Center-Seite.
+Wechseln Sie zum Öffnen der Nachrichtenstatus in Microsoft 365 Administrationscenter zu **Integrität** > **Nachrichtencenter**, oder wählen Sie die Nachricht Center Karte auf der **Startseite** Dashboard. Das Dashboard zeigt die letzten drei Nachrichten, die veröffentlicht wurden und Links zu der vollständigen Nachricht Center-Seite.
  
 
 ![Die Nachricht Center Karte zeigt die letzten drei Nachrichten, die veröffentlicht wurden](media/qerguide-image-messagecentercard.png)

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 48283d2c8ecaf121457197bf09ffb70afc59803b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e759fe9981728c97914c271dba69bfca6aebdd2b
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204715"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632250"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
@@ -58,7 +58,7 @@ Weitere Informationen finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](te
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie im linken Navigationsbereich des Office 365 Administrationscenter zur **Abrechnung** > **Abonnements** > **Abonnements hinzufügen**.
+2. Wechseln Sie im linken Navigationsbereich von Microsoft 365 Administrationscenter zur **Abrechnung** > **Abonnements** > **Abonnements hinzufügen**.
 
 3. Erweitern Sie **Add-on-Abonnements**, und wählen Sie dann auf **Communications haben** > **Jetzt kaufen**.
     
@@ -91,7 +91,7 @@ Wenn Sie Communications haben einrichten, müssen Sie untersuchen Anruf Verwendu
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Navigieren Sie in der linken Navigationsleiste des Office 365 Admin Center zu **Benutzer** > **Aktive Benutzer**, und wählen Sie die entsprechenden Benutzer aus der Liste aus.
+2. Wechseln Sie im linken Navigationsbereich von Microsoft 365 Administrationscenter, **Benutzern** > **aktive Benutzer**, und wählen Sie dann mindestens ein Benutzer aus der Liste aus.
     
 3. Klicken Sie im Aktionsbereich unter **Produktlizenzen** auf **Bearbeiten**.
     
@@ -110,7 +110,7 @@ Die Pläne und Preise finden Sie unter den folgenden Links:
     
 - [Telefonsystempläne](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Sie können sich die Informationen auch ansehen, indem Sie sich [beim Office 365 Admin Center anmelden](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu **Abrechnung** > **Abonnements** > **Abonnements hinzufügen** navigieren.
+Sie können auch Informationen nach der [Anmeldung an der Microsoft-365-Verwaltungskonsole](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) anzeigen und zur **Abrechnung** > **Abonnements** > **Abonnements hinzufügen**.
   
 Eine Tabelle mit der Lizenz oder Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

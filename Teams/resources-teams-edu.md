@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5737d7d93a3ae9c28bed70d18e726ac68c43a8ef
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 65b8a2e29a2de9a659ba81650efa738449e7b2ac
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206662"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632242"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen
 ==============================================
@@ -48,7 +48,7 @@ Erstellen von benutzerdefinierten e-Mail-Nachrichten, Poster und Handzettel mit 
 ## <a name="call-to-action"></a>Handlungsaufforderung
 
 - Sehen Sie sich unsere praktische [Interaktive Microsoft Teams-Demo](https://teamsdemo.office.com/) an (5 Minuten).
-- Aktivieren Sie Microsoft Teams im [Office 365 Admin Center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (melden Sie sich als Office 365-Administrator an).
+- Aktivieren der Microsoft-Teams, in der [Microsoft-365-Verwaltungskonsole](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (Melden Sie sich als ein Office 365-Administrator)
 - Laden Sie Microsoft Teams-Clients herunter: [Laden Sie sich Microsoft Teams auf alle Ihre Geräte](https://teams.microsoft.com/downloads).
 - Lesen Sie weitere Informationen zu Office 365 für Bildungseinrichtungen im [Ausbildung-Hilfecenter](https://support.office.com/education).
 

@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Teams für Organisationen im Gesundheitswesen
-ms.openlocfilehash: 4ba465c69477f3e9ff6d541ddeb55dc41100b7ec
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7f68a21e835edb3b5ebcd8ff794f4fd3d0716bee
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245890"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632292"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
@@ -29,14 +29,59 @@ Microsoft-Teams, bietet eine Reihe von Features für Krankenhäuser und andere U
 - Elektronische Gesundheitswesen Datensatz (EHR)-integration
 - Firstline Worker-integration
 
-## <a name="care-coordination"></a>Vorsicht Koordinierung
+## <a name="care-coordination---microsoft-teams-patients-app"></a>Vorsicht Koordinierung - Microsoft-Teams Patienten-app
 
-Vorsicht Koordinierung ist eine der wichtigsten Säulen für unsere Investitionen in Microsoft-Teams im Gesundheitswesen. Die Lösung hier aus dem Gesundheitswesen Teams einen sicheren Hub Vorsicht über mehrere Patienten koordinieren. Es Health elektronische Datensätze (EHR) Systeme integriert und ermöglicht interessieren Anbieter zur Behandlung in Kommunikation in Echtzeit innerhalb Teams sichere Plattform. Teams können Organisationen Probleme wie folgt:
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-- Geringe Effizienz in Hand und Nachteile und wichtige Kommunikation innerhalb der kontinuierliche Vorsicht
-- Silo Informationen, die erstellt Verwaltungsaufwand im System im Gesundheitswesen
+Microsoft-Teams, verfügt nun über eine Vorsicht Koordinierung Lösung speziell für Unternehmen aus dem Gesundheitswesen erfüllen, deren Ziel der Bereitstellung der besten Behandlung helfen. Zugrunde der Vorsicht Koordinierung Lösung, die Microsoft-Teams Patienten-app ist eine erste Partei-Registerkarte-app, die mit electronic Health aufzeichnen (EHR)-Systemen mithilfe einer Schnittstelle Fast Gesundheitswesen Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)), wertvolle aufzurufen integriert medizinische Informationen in Microsoft-Teams.  
+
+Die Pflege Koordinierung-Lösung kann Schnittstelle mit führenden unabhängigen Softwarehersteller (ISVs), die die app Patienten mit Ihrer EHR-Systemen, die mit vorhandenen Daten Gesundheitswesen wie HL7v2 und FHIR verbinden können. Microsoft Partner mit den folgenden Branchenführer elektronische Health aufzeichnen Integration von Teams herstellen:
+
+- Datica (über das Angebot [CMI](https://datica.com/compliant-managed-integration/) )
+- An Cloverleaf (über die [An FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
+- Redox (über die [R ^ FHIR Server](https://www.redoxengine.com/fhir/))
+- Dapasoft (durch [Klicken auf FHIR Corolar](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/))
+
+Ein EHR-Integration und Interop-Partner, die zur Implementierung von Microsoft-Teams für eine Organisation aus dem Gesundheitswesen Anbieter versuchen muss der Patienten app eine sichere und authentifizierte Verbindung mit der Anbieter im Gesundheitswesen Organisation EHR Systemen bereitstellen. Auf diese Weise können den unidirektionales (schreibgeschützt) Ablauf des relevanten Patientendaten in der Patienten-App. Die app Patienten versteht das Format FHIR, damit der Partner auch für die gesammelten Daten aus verschiedenen anderen Formaten wie HL7v2 usw. in FHIR DSTU2 oder STU3 transformiert zuständig ist.
+
+<br>
+
+![EHR-integration](../../media/ehr-1.png)
+
+<br>
+
+Die Patienten-app in Health elektronische Datensätze (EHR) Systeme integriert und ermöglicht interessieren Anbieter zur Behandlung in Kommunikation in Echtzeit innerhalb Teams sichere Plattform. Die Patienten-app ist die erste wichtigsten Investitionen in der Vorsicht Koordinierung Bereich, der Ziel ist es, die folgenden Probleme zu beheben:
+
+- Geringe Effizienz in Hand und Nachteile und wichtige Kommunikation über die Patienten Erfahrung
+- Silo Informationen, die administrative entlasten erstellt
 - Unzufriedenheit zwischen Kliniker mit komplexen und fragmentierte Zusammenarbeitstools
-- Ineffiziente und persönlicher Koordination Experten, die viel klinischer Zeit und Kosten verbraucht werden können
+- Ineffiziente persönlicher Vorsicht Koordinierung, die zu viel teurer klinischer Zeit brennen
+
+Microsoft-Teams können Ärzten, Kliniker, Pflegepersonal und andere Mitarbeiter, effizient durch Zusammenarbeit:
+
+- Wird in einem einzelnen virtualisierten Team, die in Office-Dokumenten zusammenarbeitet funktioniert
+- Mit dem permanente Gespräche über verschiedene Patienten, die Ihre Aufmerksamkeit
+- Verwenden von Kanälen mit Registerkarten als eine Möglichkeit, ihre Arbeit, mit dem zusätzliche Hilfe von Registerkarten Struktur an die Informationsquellen angeheftet werden können
+- Verwenden von DDE-Kanal Besprechungen mit der Leistungsstärke von Teams Audio, Video, Bildschirmfreigabe, Aufzeichnung und Lautschrift Features zum Verwalten von täglicher Besprechungen
+- Verwenden der Patienten-app, die eine Liste der Patienten mit hohem Risiko curate, die überwacht werden müssen, und deren neuesten Informationen aus dem System EHR abruft. Die Patienten app selbst hinzugefügt Microsoft-Teams, die folgenden Features:
+
+    - Möglichkeit zum Erstellen von mehreren Patienten werden in einem einzigen Kanal aufgelistet.
+    - Möglichkeit zum Anzeigen und Sortieren von Informationen zu Patienten über konfigurierbare Spalten angezeigt.
+    - Die Möglichkeit, die app über eine Teamvorlage automatisch bereitstellen.
+    - Klicken Sie auf die Teams App für iOS und Android für mobile erste aus dem Gesundheitswesen Mitarbeiter als auch Microsoft-Teams, Web- und Desktop Client verfügbar.
+    - Unterstützung für FHIR DSTU2 und STU3 Versionen über die Analyse eines Konformitätserklärung.
+    - Überwachungsprotokolle für alle anzeigen, und suchen Sie Aktionen für die Benutzeroberfläche, PHI pro HIPAA-Richtlinien schützen.
+
+Die app Patienten basiert auf Teams bei der erweiterungsplattform und nutzt die Registerkarten Framework Patient Multimediainhalte innerhalb eines Kanals angezeigt. Weitere Informationen zu anderen apps Teams und der Plattform selbst finden Sie unter [Apps für Microsoft-Teams](/microsoftteams/platform/concepts/apps/apps-overview).  
+
+> [!NOTE]
+> Die Patienten-app in privaten Vorschau und die FHIR-Schnittstelle in Beta. Veröffentlichte Versionen voraussichtlich nicht abwärts kompatibel sein.
+
+![Screenshot der Patienten-app](../../media/ehr-2.png)
+
+Einzelheiten finden Sie unter [Integration von elektronischen Gesundheitswesen Datensätze in Microsoft-Teams,](patients-app.md) Implementierung.
+
+## <a name="templates"></a>Vorlagen
 
 Neue Vorlagen zum Erstellen von Teams wurden entwickelt, um eine Einstellung für die Krankenhaus gilt, und mehrere bald erwartet. Dies vereinfacht die Teams erstellen, mit denen aus dem Gesundheitswesen Mitarbeiter koordinieren Vorsicht für Patienten in verschiedenen Abteilungen oder Patientenbett einsetzen. Finden Sie unter [Erste Schritte mit Vorlagen für Unternehmen aus dem Gesundheitswesen Teams](healthcare-templates.md). Teams können für interne Abteilungen wie Kardiologische oder Vorsicht Patientenbett einsetzen gestartet werden, und weitere Vorlagen, die bei der Entwicklung sind.
 

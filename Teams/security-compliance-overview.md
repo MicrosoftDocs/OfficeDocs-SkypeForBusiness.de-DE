@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 492055c80b844ba4a7aa0091da767214c55dc31a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 85678529f25e46b7c75c08976d86870fc4566694
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203071"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632314"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Übersicht über Sicherheit und Compliance in Microsoft Teams
 ======================================================
@@ -114,7 +114,7 @@ Die Funktionen für den Schutz von Informationen hängen von den Office 365-Abo
 |![Entscheidungspunktsymbol](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Entscheidungspunkt         |Verfügt Ihre Organisation über die erforderlichen Lizenzen, um die geschäftlichen Compliance- und Sicherheitsanforderungen zu erfüllen?         |
 |![Symbol für „Nächste Schritte“](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Nächste Schritte         |Überprüfen Ihrer Organisation aktuellen Lizenzierung, und vergewissern Sie sich, dass alle Unternehmen für die Einhaltung von Vorschriften und Sicherheit erfüllt.         |
 
-Vor dem Aktivieren dieser Features, stellen Sie sicher, dass Sie Zugriff auf die Sicherheit & Compliance Center im Office 365 Administrationscenter haben. Mandantenadministratoren verfügen standardmäßig über Zugriff.
+Vor dem Aktivieren dieser Features, stellen Sie sicher, dass Sie Zugriff auf die Sicherheit & Compliance Center im Microsoft 365 Administrationscenter haben. Mandantenadministratoren verfügen standardmäßig über Zugriff.
 
 Content-Suche und eDiscovery erfordern keine Aktivierung von Steuerelementen in der & Security Compliance Center.
 
@@ -132,7 +132,7 @@ Finden Sie weitere Informationen in Kanada Daten vor-Ort-Teams Varun Sagars Blog
 
 Finden Sie weitere Informationen zu den Start des Australien und Japan Data Service für Teams Varun Sagars Blogbeitrag, [Microsoft Teams startet Australien und Japan Daten vor-Ort ](https://go.microsoft.com/fwlink/?linkid=867773). 
 
-Um herauszufinden, welcher Bereich für Ihre Mandanten Daten enthält, gehen Sie zum [Office 365 Administrationscenter](https://portal.office.com/adminportal/home) > **Einstellungen** > **Profil des Unternehmens**. Scrollen Sie nach unten zu **Data location** (Datenspeicherort). 
+Um herauszufinden, welcher Bereich für Ihre Mandanten Daten enthält, gehen Sie zum [Microsoft 365 Administrationscenter](https://portal.office.com/adminportal/home) > **Einstellungen** > **Profil des Unternehmens**. Scrollen Sie nach unten zu **Data location** (Datenspeicherort). 
 
 ![Screenshot der Speicherort Datentabelle, einschließlich Teams, in der Office 365-Verwaltungskonsole.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

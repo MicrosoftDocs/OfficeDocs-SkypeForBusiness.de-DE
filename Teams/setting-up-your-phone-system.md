@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Informationen Sie zum Einrichten von Telefonsystem (Cloud, PBX) für Ihre Organisation. '
-ms.openlocfilehash: 7a180817fb4a3885748a5ca80c494ef1b69143a4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d37771863ae2146567e338fa7ee2395e452561d5
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205541"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632258"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Einrichten des Telefonsystems in Ihrer Organisation
 
@@ -58,9 +58,9 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
  
 ![SFB-Logo-30x30.png](media/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
-1. Sign in to Office 365 with your work or school account.
+1. Melden Sie sich mit Ihrem Konto arbeiten oder Schule Microsoft 365 an.
 
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+2. Wechseln Sie zu der **Microsoft-365-Verwaltungskonsole** > **Skype für Unternehmen**.
     
 3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **Telefonnummern**, klicken Sie auf **neue Nummer hinzufügen** ![Schaltfläche hinzufügen](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), und klicken Sie dann auf **neue Rufnummern, die Benutzer**.
     
@@ -85,9 +85,9 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 ![SFB-Logo-30x30.png](media/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
 
 
-1. Sign in to Office 365 with your work or school account.
+1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
-2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
+2. Wechseln Sie zu der **Microsoft-365-Verwaltungskonsole** > **Skype für Unternehmen**.
 
 3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **Telefonnummern** > **Hinzufügen neue Nummer**, und klicken Sie dann auf **neue Dienst Nummern**.
 
@@ -232,11 +232,11 @@ Um eine neue automatische Telefonzentrale in der Skype für Business Administrat
 
 Once you have your service numbers from **Step 4 above**, you need to assign them to each type of service that you want. For example, if you want a dedicated service phone number (toll or toll-free), you will need to assign the number to the conferencing bridge.
 
-- Für Audiokonferenzen: Sie können einer Konferenzbrücke eine dedizierte Nummer zuweisen, indem Sie zu **Office 365 Admin Center** > **Admin Center** > **Skype for Business** > **Audiokonferenzen** gehen. Dort klicken Sie auf die Konferenzbrücke oder sehen Sie [Ändern der gebührenpflichtigen oder gebührenfreien Nummern auf Ihrer Audiokonferenzbrücke](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+- Für Audiokonferenzen, können Sie eine dedizierte Zahl zu einer Konferenzbrücke zuweisen, indem Sie **Microsoft 365 Administrationscenter**und sollte > **Admin zentriert** > **Skype für Unternehmen** > **Audiokonferenzen** und klicken Sie auf der Konferenzbrücke oder durch [Ändern der gebührenpflichtige oder gebührenfreie Nummern für die Audiokonferenz Brücke](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)sehen.
 
-- Für automatische Telefonzentralen: Sie können einer automatischen Telefonzentrale eine eigene Nummer zuweisen, indem Sie zu **Office 365 Admin Center** > **Admin Center** > **Skype for Business** > **Anrufweiterleitung** > **Automatische Telefonzentralen** gehen. Dort klicken Sie auf die automatische Telefonzentrale. Auf der Seite **Allgemein** wird die bereits vorhandene Servicenummer im Dropdown-Menü **Telefonnummer** aufgelistet. Weitere Informationen hierzu finden Sie unter [Einrichten von einer Cloud-Telefonzentrale](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
+- Für automatische Telefonzentralen, können Sie eine dedizierte Zahl an eine automatische Telefonzentrale zuweisen, indem Sie **Microsoft 365 Administrationscenter**und sollte > **Admin zentriert** > **Skype für Unternehmen** > **Anrufweiterleitung** > **automatische Telefonzentralen **und klicken Sie auf die automatische Telefonzentrale. Auf der Seite **Allgemein** wird die bereits vorhandene Servicenummer im Dropdown-Menü **Telefonnummer** aufgelistet. Weitere Informationen hierzu finden Sie unter [Einrichten von einer Cloud-Telefonzentrale](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
 
-- Für Warteschleifen: Sie können einer Warteschleife eine eigene Nummer zuweisen, indem Sie zu **Office 365 Admin Center** > **Admin Center** > **Skype for Business** > **Anrufweiterleitung** > **Warteschleifen** gehen. Dort klicken Sie auf die Warteschleife. Auf der Seite **Allgemein** wird die bereits vorhandene Servicenummer im Dropdown-Menü **Telefonnummer** aufgelistet. Weitere Informationen hierzu finden Sie unter [Erstellen einer Cloud-Anruf-Warteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- Für Warteschlangen aufrufen, können Sie eine dedizierte Zahl in eine Warteschleife Anruf zuweisen, indem **Microsoft 365 Administrationscenter**und sollte > **Admin zentriert** > **Skype für Unternehmen** > **Anrufrouting** > **rufen Sie Warteschlangen** , und klicken Sie auf in der Warteschlange Anruf. Auf der Seite **Allgemein** wird die bereits vorhandene Servicenummer im Dropdown-Menü **Telefonnummer** aufgelistet. Weitere Informationen hierzu finden Sie unter [Erstellen einer Cloud-Anruf-Warteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 **Ausführliche Informationen zum Bezug neuer Servicerufnummern und zur Portierung bestehender Servicerufnummern finden Sie unter [Servicerufnummern beziehen](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).**
 
@@ -249,7 +249,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 ### <a name="to-set-up-communications-credits"></a>So richten Sie Communications haben ein
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Melden Sie sich mit Ihrem Konto arbeiten oder Schule Microsoft 365 an.
 
 2. Navigieren Sie in der linken Navigationsleiste des Office 365 Admin Center zu **Abrechnung** > **Abonnements** > **Add-Ons** > **Add-Ons kaufen**. Wählen Sie dann **Guthaben für Kommunikationen** > **Jetzt kaufen** aus.
 
@@ -265,7 +265,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
-2. Navigieren Sie in der linken Navigationsleiste des Office 365 Admin Center zu **Benutzer** > **Aktive Benutzer**, und wählen Sie die entsprechenden Benutzer aus der Liste aus.
+2. Wechseln Sie im linken Navigationsbereich von Microsoft 365 Administrationscenter, **Benutzern** > **aktive Benutzer**, und wählen Sie dann mindestens ein Benutzer aus der Liste aus.
 
 3. Klicken Sie im Aktionsbereich unter **Produktlizenzen** auf **Bearbeiten**.
 

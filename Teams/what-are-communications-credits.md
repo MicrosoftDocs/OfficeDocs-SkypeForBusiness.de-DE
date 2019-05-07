@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 8fa06f22d1fb31f592f520ba3b1d17c8fcaf0ccb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d4bf99cc42fa415eb5e46962afe1769f1a439696
+ms.sourcegitcommit: d1b14268efe334aa93a6889f25fcfe46e07d5daa
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211769"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33584315"
 ---
 # <a name="what-are-communications-credits"></a>Was ist Guthaben für Kommunikationen?
 
@@ -59,20 +59,20 @@ Wenn Sie sich fragen, welche Kosten für die Anrufpläne anfallen, finden Sie In
 Für die Verwendung von gebührenfreien Telefonnummern in Skype for Business ist Guthaben für Kommunikationen erforderlich, da diese Anrufe nach Minuten abgerechnet werden. Außerdem empfehlen wir, Guthaben für Kommunikationen für Benutzer von Anrufplänen und Audiokonferenzen einzurichten, die in der Lage sein sollen, **beliebige PSTN-Ziele** anzurufen. Viele Länder und Regionen sind enthalten, aber einige Ziele sind möglicherweise in Ihren Abonnements für Anrufpläne oder Audiokonferenzen nicht enthalten. Wenn Sie nicht Guthaben für Kommunikationen einrichten oder Ihren Benutzern eine Lizenz zuweisen und dann alle Minuten für Ihre Organisation aufgebraucht sind (abhängig von Ihrem Anrufplan, Ihrem Audiokonferenzplan oder von dem Land bzw. der Region), können diese Benutzer keine allgemeinen Anrufe tätigen und nicht aus Online-Audiokonferenzbesprechungen anrufen.
   
 > [!NOTE]
-> Sie müssen Guthaben für Kommunikationen einrichten und dann unter **Office 365 Admin Center** > **Benutzer** > **Aktive Benutzer** jedem Benutzer eine Lizenz für Guthaben für Kommunikationen zuweisen. 
+> Sie richten Sie Communications haben müssen, und weisen Sie eine Communications haben-Lizenz für jeden Benutzer in der **Microsoft-365-Verwaltungskonsole** > **Benutzer** > **Aktive Benutzer**. 
   
 Es wird empfohlen, dass Sie der PSTN-Dienst Verwendungsoptionen sorgfältig, um die beste Setup für Communications haben zu verstehen. Sie können weitere Informationen zu PSTN-Services Beitrag [Telefonsystem und plant aufrufen](calling-plan-landing-page.md) und [Audiokonferenzen häufig gestellte Fragen](Audio-Conferencing-common-questions.md)finden Sie unter.
   
 Sie können die verbrauchsbasierte Abrechnung mit einer **einmaligen Einzahlung** des vorausbezahlten Saldos **ODER** mit einem Betrag für **automatisches Aufladen** ( **empfohlen** ) und einem Mindestsaldo einrichten, der einen Kauf für diesen Aufladungsbetrag auslöst. Anfänglich sollten Sie Beträge für das automatische Aufladen einrichten, mit denen Sie die tatsächliche Nutzung überwachen können und die richtigen Grenzwerte für das automatische Aufladen finden, die Ihren Anforderungen und Ihrem Nutzungsverhalten entsprechen. Überwachen Sie das Guthaben für Kommunikationen im Lauf der Zeit, und passen Sie dann den Mindestsaldo und die Aufladungsbeträge nach Bedarf an die Anforderungen Ihrer Organisation an.
   
 > [!NOTE]
-> Sie können sich die Pläne und Preise ansehen, indem Sie sich [beim Office 365 Admin Center anmelden](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu **Abrechnung** > **Abonnements** > **Abonnements hinzufügen** navigieren. 
+> Sie können sehen, die Pläne und Preise nach der [Anmeldung an Microsoft 365 Administrationscenter](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und **Abrechnung**und sollte > **Abonnements** > **Abonnements hinzufügen**. 
   
-In the **Office 365 admin center** > **Billing** > **Subscriptions**, you can add credit manually at any time. You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. If you choose to fund your Communications Credits balance with a one-time amount and then the balance falls to zero, the additional calling scenarios above will no longer work, including toll-free phone numbers. As such, it's recommended that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). You will be sent an email when recharge transactions succeed, recharge transactions fail (such as an expired credit card), and or your Communications Credits balance reaches 0 (zero).
+In der **Microsoft-365-Verwaltungskonsole** > **Abrechnung** > **Abonnements**, Sie können Credit manuell hinzufügen zu einem beliebigen Zeitpunkt. You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. If you choose to fund your Communications Credits balance with a one-time amount and then the balance falls to zero, the additional calling scenarios above will no longer work, including toll-free phone numbers. As such, it's recommended that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). You will be sent an email when recharge transactions succeed, recharge transactions fail (such as an expired credit card), and or your Communications Credits balance reaches 0 (zero).
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
-In jeder Organisation sind unterschiedliche Nutzungsmuster für das Anrufplanvolumen und unterschiedliche Tarife zu berücksichtigen. Diese Nutzungsdaten müssen Sie bei Ihrem aktuellen Dienstanbieter erfragen. Organisationen, die bereits Skype for Business als Dienstanbieter verwenden, können die Nutzungsdaten unter **Office 365 Admin Center** > **Berichte** oder **Skype for Business Admin Center** > **Berichte** > **PSTN-Nutzungsdetails** abrufen.
+In jeder Organisation sind unterschiedliche Nutzungsmuster für das Anrufplanvolumen und unterschiedliche Tarife zu berücksichtigen. Diese Nutzungsdaten müssen Sie bei Ihrem aktuellen Dienstanbieter erfragen. Für Organisationen, die Verwendung von Skype für Unternehmen bereits als ihren Dienstanbieter, können Sie Verwendungsdaten abrufen, indem Sie entweder **Microsoft 365 Administrationscenter**Überprüfung > **Berichte** oder **Skype für Business Administrationscenter** > **Berichte **  >  **PSTN-Verwendungsdetails**.
   
 Wenn Sie Guthaben für Kommunikationen einrichten, müssen Sie die Anrufnutzung für Ihre Organisation prüfen, um die Beträge zu bestimmen, die Sie aufladen müssen. Informationen zur Anrufnutzung finden Sie im Bericht **PSTN-Nutzungsdetails**. Sie können die Anrufdatensätze aus diesem Bericht nach Excel exportieren und benutzerdefinierte Berichte erstellen.
   
@@ -92,7 +92,7 @@ Die Pläne und Preise finden Sie unter den folgenden Links:
     
 - [Telefonsystem](https://go.microsoft.com/fwlink/?linkid=799763 )
     
-Sie können sich die Preisinformationen auch ansehen, indem Sie sich [beim Office 365 Admin Center anmelden](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu **Abrechnung** > **Abonnements** > **Abonnements hinzufügen** navigieren.
+Außerdem können Sie Informationen zur Preisgestaltung nach der [Anmeldung an Microsoft 365 Administrationscenter](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und **Abrechnung**und sollte suchen > **Abonnements** > **Abonnements hinzufügen**.
   
 Eine Tabelle mit der Lizenz oder Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

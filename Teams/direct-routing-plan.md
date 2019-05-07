@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lesen Sie die Informationen in diesem Thema erfahren, wie Microsoft Phone System direkten Routing Microsoft Telefonsystem einer unterstützten, Kunden bereitgestellten Session Border Controller (SBC) herstellen können.
-ms.openlocfilehash: e2b09d4aef25569e1112983b5f62bf2ba3758387
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 3ed03225105e7c265687d6659cb98d162da85f91
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402462"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632210"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -207,6 +207,7 @@ In der folgenden Tabelle sind die Beziehungen zwischen primären, sekundären un
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Mediendatenverkehr: Port Bereiche
+Beachten Sie die folgenden Anforderungen gelten, wenn Sie zum Bereitstellen von direkten Routing ohne Medienumgehung Ant. Firewallanforderungen für die Medienumgehung finden Sie in [Planen für die Medienumgehung mit direktem Routing](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)
 
 Media-Datenverkehr fließt zu und von einem separaten Dienst in der Microsoft-Cloud. Die IP-Adressbereich für Mediendatenverkehr:
 - 52.112.0.0 /14 (IP-Adressen von 52.112.0.1 bis 52.115.255.254).
