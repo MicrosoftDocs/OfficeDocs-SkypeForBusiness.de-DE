@@ -14,12 +14,12 @@ description: Hier erfahren Sie, wie live Ereignisse Benutzer Video- und große o
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c2564cc3da4f9df551ee9c9e5155a4cb81e4a37
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 01dfa91c13625e1f1f18fdce5840cf6ba2baeb79
+ms.sourcegitcommit: 47e5f6a0440f646d67bc3ca7c232df9558f78040
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204692"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33641493"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Live-Ereignisse in Microsoft Teams?
 
@@ -36,6 +36,9 @@ Ersetzen Sie Teams live Ereignisse gelten die nächste Version von Skype Besprec
 Also lasst uns loslegen. Betrachten Sie zuerst das folgende Diagramm, das zeigt, beteiligten Komponenten auf hohe Ebene in Microsoft 365 live Ereignisse und wie sie verbunden sind. 
 
 ![Diagramm der wichtige Komponenten der live Ereignisse, Planung, Produktion, Stream Microsoft-Plattform, certified eCDN Drittanbieter - Anbieter] (../media/teams-live-events.png  "Diagramm der wichtige Komponenten der live Ereignisse, Planung, Produktion, Stream Microsoft-Plattform, certified eCDN Drittanbieter - Anbieter")
+
+### <a name="event-group-roles"></a>Ereignis Gruppe Rollen
+Live Ereignisse in Teams können mehrere Rollen (Organisator, Producer, Referenten und Teilnehmer) erfolgreich übertragen und in einem Ereignis teilnehmen. Weitere Informationen finden Sie unter [Ereignis Gruppe Rollen](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
 
 ## <a name="key-components"></a>Wichtige Komponenten
 Sie können aus dem obigen Bild sehen, sind vier wichtige Komponenten, die mit live Ereignisse in Teams verwendet werden.
