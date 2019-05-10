@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80ae1944a2208393a38032bd6a988e807f803938
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 0273a9b6c308d8d53fdb640bac6787568398c5be
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827661"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865098"
 ---
 <a name="teams-guest-access-checklist"></a>Teams Gast Access Prüfliste
 ==========================================
@@ -123,7 +123,7 @@ Stellen Sie sicher, dass Benutzer Gäste hinzufügen können. Hier ist wie:
 
 ## <a name="-step-5-verify-sharing-setting-in-sharepoint"></a>□ Schritt 5: Überprüfen Sie die Freigabe Einstellung in SharePoint
 
-1. Melden Sie sich beim Office 365 Admin Center an.
+1. Melden Sie sich bei Microsoft 365 Administrationscenter an.
 2. Klicken Sie auf **Administrationscenter**, und wählen Sie dann **SharePoint**aus.
 3. Wählen Sie in der SharePoint-Verwaltungskonsole **Freigabe**.
 4. Stellen Sie sicher, dass die Option für **nicht zulassen Freigabe außerhalb Ihrer Organisation** *nicht* ausgewählt ist.

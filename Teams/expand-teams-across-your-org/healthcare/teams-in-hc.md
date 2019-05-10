@@ -13,27 +13,28 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Teams für Organisationen im Gesundheitswesen
-ms.openlocfilehash: b2e7019183da06484b533fe66fd092c588c65e3f
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: 0a169a61471e2c0c74024012b777fbf0bf2dc0cb
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835441"
+ms.locfileid: "33865030"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
 Microsoft-Teams, bietet eine Reihe von Features für Krankenhäuser und andere Unternehmen aus dem Gesundheitswesen hilfreich. Teams Features sind in der Entwicklung mit Krankenhäuser zu unterstützen:
 
-- Vorsicht Koordinierung
+- Vorsicht Koordinierung und Zusammenarbeit
 - Sichere Nachrichten
-- Elektronische Gesundheitswesen Datensatz (EHR)-integration
-- Firstline Worker-integration
+- Telehealth
+
+über elektronische Gesundheitswesen Datensatz (EHR)-Integration und Firstline Worker Systemintegration sowie anderen grundlegenden Funktionen von Microsoft-Teams, wie Besprechungen/Anruf- und messaging. 
 
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>Vorsicht Koordinierung - Microsoft-Teams Patienten-app
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft-Teams, verfügt nun über eine Vorsicht Koordinierung Lösung speziell für Unternehmen aus dem Gesundheitswesen erfüllen, deren Ziel der Bereitstellung der besten Behandlung helfen. Zugrunde der Vorsicht Koordinierung Lösung, die Microsoft-Teams Patienten-app ist eine erste Partei-Registerkarte-app, die mit electronic Health aufzeichnen (EHR)-Systemen mithilfe einer Schnittstelle Fast Gesundheitswesen Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)), wertvolle aufzurufen integriert medizinische Informationen in Microsoft-Teams.  
+Microsoft-Teams, verfügt nun über eine Vorsicht Koordinierung Lösung speziell für Unternehmen aus dem Gesundheitswesen erfüllen, deren Ziel der Bereitstellung der besten Behandlung helfen. Zugrunde der Vorsicht Koordinierung Lösung, die Microsoft-Teams Patienten-app ist eine erste Partei-Registerkarte-app, die mit electronic Health aufzeichnen (EHR)-Systemen mithilfe einer Schnittstelle Fast Gesundheitswesen Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)), wertvolle aufzurufen integriert medizinische Informationen in Microsoft-Teams im Kontext klinischer Zusammenarbeit und Kommunikation aktivieren.  
 
 Die Pflege Koordinierung-Lösung kann Schnittstelle mit führenden unabhängigen Softwarehersteller (ISVs), die die app Patienten mit Ihrer EHR-Systemen, die mit vorhandenen Daten Gesundheitswesen wie HL7v2 und FHIR verbinden können. Microsoft Partner mit den folgenden Branchenführer elektronische Health aufzeichnen Integration von Teams herstellen:
 

@@ -14,17 +14,17 @@ search.appverid: MET150
 description: Verwenden Sie PowerShell, um den Gastzugriff auf Teams in Microsoft Teams zuzulassen oder zu blockieren.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ca05e48d28986a944debe150d5dbf25129ca73c
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 0efb3a8054008d179b9d2e7e674b3482fe62a32c
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827669"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865090"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Verwenden von PowerShell zum Steuern des Gastzugriffs auf ein Team
 ================================================
 
-Zusätzlich zur Verwendung des Office 365 Admin Center und des Azure Active Directory-Portals können Sie Windows PowerShell verwenden, um den Gastzugriff zu steuern. Mit PowerShell können Sie folgende Aktionen durchführen:
+Windows PowerShell können Sie zusätzlich zur Verwendung der Microsoft-365-Verwaltungskonsole und Azure Active Directory-Portal, um Gastzugriff zu steuern. Mit PowerShell können Sie folgende Aktionen durchführen:
   
 - Zulassen und Blockieren von Gastzugriff auf alle Teams in Office 365-Gruppen
     

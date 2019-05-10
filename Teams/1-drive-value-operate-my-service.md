@@ -15,12 +15,12 @@ description: Aufgaben und Aktivitäten für Teams Servicemanagement, einschließ
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 340c61ab7013da769bdf422f2d2c43a767c5de03
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 73cc1fca7f4b917266d855162545b93673c459a9
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401049"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868744"
 ---
 # <a name="operate-my-service"></a>Verwenden des Diensts
 
@@ -238,7 +238,7 @@ Nachdem der Pilotphase begonnen hat, ist es wichtig, einen regulären Trittfrequ
 
 Wenn Verwendung nicht, was Sie erwartet, möglicherweise aufgrund eines Problems Bereitstellung oder der Anpassungsplan ist nicht ordnungsgemäß ausgeführt werden, oder ein anderer Problem wird. Je nach den tatsächlichen Grund hinter der geringen Verwendung muss mit den zugehörigen Teams, die bei der Verwendung Hindernisse unterstützen Dienstadministrator zusammenarbeiten.
 
-### <a name="measuring-usage-with-the-office-365-admin-center"></a>Messen der Verwendung mit Office 365 Administrationscenter
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>Messen der Verwendung mit Microsoft 365 Administrationscenter
 
 Verwendungsdaten von Teams ist im Dashboard Reporting verfügbar. Verwendungsdaten Teams können in drei verschiedene Berichte gefunden werden. Der erste Bericht bietet eine Ansicht produktübergreifende wie Benutzer kommunizieren und zusammenarbeiten, indem Sie die verschiedenen Dienste in Office 365 verwenden. In diesem Bericht kann, finden Sie hier: [Office 365 aktive Benutzer Bericht](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
@@ -279,9 +279,9 @@ Ermitteln Sie zunächst, ob dies eine Annahme oder technischen Problem ist. Begi
 
 ### <a name="references"></a>Referenzen 
 
-[Informationen zum Office 365 Administrationscenter](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[Informationen zum Microsoft 365 Administrationscenter](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[Berichte in der Microsoft-365-Verwaltungskonsole](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 
