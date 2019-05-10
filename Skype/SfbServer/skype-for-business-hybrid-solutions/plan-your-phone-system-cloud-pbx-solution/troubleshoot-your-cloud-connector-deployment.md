@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Problembehandlung bei der Cloud Connector Edition-Bereitstellung.
-ms.openlocfilehash: a80d6977ff565d5d06f2487e5fb3ab8293b5e000
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b9ade46f46898d22bab862c3044e045de441b007
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32240750"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864918"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Problembehandlung bei Ihrer Cloud Connector-Bereitstellung
  
@@ -204,7 +204,11 @@ Es folgen Lösungen zu häufig auftretenden Problemen:
     **Wenn Zertifikate von Zertifizierungsstellen sind beschädigt, und es nur ein einziges Gerät in der Website ist** ausführen die folgenden Schritte:
     
 1. Führen Sie das Cmdlet „Enter-CcUpdate“ aus, um Dienste auszugleichen und die Appliance in den Wartungsmodus zu versetzen.
-    
+   
+   ```
+   Enter-CcUpdate
+   ```
+   
 2. Führen Sie die folgenden Cmdlets aus, um die Zertifizierungsstellenzertifikate und alle internen Serverzertifikate zurückzusetzen und neu zu erstellen:
     
     Cloud-Connector-Versionen vor 2.0:
@@ -222,20 +226,37 @@ Es folgen Lösungen zu häufig auftretenden Problemen:
     Update-CcServerCertificate 
     Remove-CcLegacyServerCertificate 
     ```
+    
+3. Wenn TLS zwischen dem Gateway und dem Vermittlungsserver verwendet wird, führen Sie das Cmdlet Export-CcRootCertificate aus der Anwendung, und installieren Sie das exportierte Zertifikat auf PSTN-Gateways. Sie können auch erforderlich, das Zertifikat auf Ihrem Gateway erneut ausstellen.
 
-3. Führen Sie das Exit-CcUpdate-Cmdlet, um Dienste starten und Beenden im Wartungsmodus befindet.
-    
-4. Führen Sie das Cmdlet „Export-CcRootCertificate“ für die lokale Datei in der Appliance aus. Kopieren Sie dann das exportierte Zertifikat, und installieren Sie es in Ihren PSTN-Gateways. 
-    
+   ```
+   Export-CcRootCertificate
+   ```
+
+4. Führen Sie das Exit-CcUpdate-Cmdlet, um Dienste starten und Beenden im Wartungsmodus befindet.
+
+   ```
+   Exit-CcUpdate
+   ```
+
+
     Führen Sie folgende Schritte für jede Anwendung in der Website, **Wenn Zertifikate von Zertifizierungsstellen sind beschädigt, und es mehrere Einheiten auf der Website gibt** .
     
     Microsoft empfiehlt, dass Sie diese Schritte nicht spitzenauslastung Zeiten ausführen.
     
-   - Führen Sie auf der ersten Appliance das Cmdlet Remove-CcCertificationAuthorityFile zum Bereinigen von der Zertifizierungsstelle Sichern von Dateien in die \<SiteRoot\> Directory.
+1. Führen Sie auf der ersten Appliance das Cmdlet Remove-CcCertificationAuthorityFile zum Bereinigen von der Zertifizierungsstelle Sichern von Dateien in die \<SiteRoot\> Directory.
+
+     ```
+     Remove-CcCertificationAuthorityFile
+     ```
     
-   - Führen Sie das Cmdlet EINGABETASTE CcUpdate abzuleiten Dienste, und platzieren Sie jede Anwendung im Wartungsmodus aus.
+2. Führen Sie das Cmdlet EINGABETASTE CcUpdate abzuleiten Dienste, und platzieren Sie jede Anwendung im Wartungsmodus aus.
+
+     ```
+     Enter-CcUpdate
+     ```
     
-   - Führen Sie die folgenden Cmdlets aus, um die Zertifizierungsstellenzertifikate und alle internen Serverzertifikate zurückzusetzen und neu zu erstellen:
+3. Führen Sie auf der ersten Appliance die folgenden Cmdlets zum Zurücksetzen und erstellen neue Zertifikate von Zertifizierungsstellen und alle internen Serverzertifikate aus:
     
      Cloud-Connector-Versionen vor 2.0:
     
@@ -253,15 +274,32 @@ Es folgen Lösungen zu häufig auftretenden Problemen:
      Remove-CcLegacyServerCertificate 
      ```
 
-   - Führen Sie auf der ersten Appliance So sichern Sie die Zertifizierungsstellen-Dateien in das folgende Cmdlet der \<SiteRoot\> Ordner. Auf allen anderen Einheiten am gleichen Standort später mit dem Cmdlet Reset-CcCACertificate nutzen die Sicherungsdateien der Zertifizierungsstelle automatisch und Appliances verwendet das-Stammzertifikat.
+4. Führen Sie auf der ersten Appliance So sichern Sie die Zertifizierungsstellen-Dateien in das folgende Cmdlet der \<SiteRoot\> Ordner.
     
      ```
      Backup-CcCertificationAuthority
      ```
+   
+5. Klicken Sie auf alle anderen Appliance am gleichen Standort führen Sie die folgenden Befehle an die Zertifizierungsstelle Sicherungsdateien nutzen, damit die Einheiten alle das gleiche Stammzertifikat verwenden, und klicken Sie dann neue Zertifikate anfordern. 
+   
+     ```
+     Reset-CcCACertificate
+     Update-CcServerCertificate
+     Remove-CcLegacyServerCertificate 
+     ```
+     
+6. Wenn TLS zwischen dem Gateway und dem Vermittlungsserver verwendet wird, führen Sie das Cmdlet Export-CcRootCertificate aus jeder Anwendung auf der Website, und installieren Sie das exportierte Zertifikat auf PSTN-Gateways. Sie können auch erforderlich, das Zertifikat auf Ihrem Gateway erneut ausstellen.
+  
+     ```
+     Export-CcRootCertificate
+     ```
+     
+7. Führen Sie das Exit-CcUpdate-Cmdlet, um Dienste starten und Beenden im Wartungsmodus befindet. 
 
-   - Führen Sie das Exit-CcUpdate-Cmdlet, um Dienste starten und Beenden im Wartungsmodus befindet. 
+     ```
+     Exit-CcUpdate
+     ```
     
-   - Wenn TLS zwischen dem Gateway und dem Vermittlungsserver verwendet wird, führen Sie das Cmdlet Export-CcRootCertificate aus jeder Anwendung auf der Website, und installieren Sie das exportierte Zertifikat auf PSTN-Gateways. 
     
 - **Problem: Erhalten Sie die folgende Fehlermeldung angezeigt, in der Cloud Connector Management Service-Protokoll, "C:\Programme\Microsoft Files\Skype für Business Cloud Connector Edition\ManagementService\CceManagementService.log": Fehler CceService: 0: Unerwartete Ausnahme beim Statusberichte zu online: System.Management.Automation.CmdletInvocationException: Fehler bei der Anmeldung für den Benutzer \<globaler Administrator\>. Erstellen Sie ein neues Credential-Objekt, und stellen Sie sicher, dass Sie den richtigen Benutzernamen und das Kennwort verwendet haben. ---\>**
     

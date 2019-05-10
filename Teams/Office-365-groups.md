@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77c8125425bf7aaaf6f619edc9463b17967e4133
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1a5e881d1c1d6631cd4b0660f5237aad088f9d1d
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180264"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868712"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365-Gruppen und Microsoft-Teams
 =====================================
@@ -50,6 +50,6 @@ Beim Erstellen eines Teams für die Back-End-erstellen Sie eine Office 365-Grupp
 <a name="group-membership"></a>Gruppenmitgliedschaft:
 ----------------
 
-Gruppenfunktionen und Funktionen für Ihre Benutzer hängen davon ab, wobei Sie Gruppenmitgliedschaft aus Laufwerk. Wenn Sie ein Mitglied eines Teams entfernen, werden diese beispielsweise aus der Office 365 Gruppe ebenfalls entfernt. Entfernen aus der Gruppe entfernt das Team sofort und Kanäle auf dem Client Teams. Wenn Sie eine Person aus einer Gruppe mithilfe der Office 365-Verwaltungskonsole entfernen möchten, sie nicht mehr Zugriff auf andere gemeinsame Aspekte wie SharePoint Online-Dokumentbibliothek verfügen Yammer Gruppe oder freigegebenen OneNote. Jedoch haben sie Zugriff auf das Team gruppenchatfunktion weiterhin ungefähr 2 Stunden.
+Gruppenfunktionen und Funktionen für Ihre Benutzer hängen davon ab, wobei Sie Gruppenmitgliedschaft aus Laufwerk. Wenn Sie ein Mitglied eines Teams entfernen, werden diese beispielsweise aus der Office 365 Gruppe ebenfalls entfernt. Entfernen aus der Gruppe entfernt das Team sofort und Kanäle auf dem Client Teams. Wenn Sie eine Person aus einer Gruppe mithilfe der Microsoft-365-Verwaltungskonsole entfernen möchten, nicht mehr zugreifen die andere gemeinsame Aspekte wie SharePoint Online-Dokumentbibliothek kann wird Yammer Gruppe oder freigegebenen OneNote. Jedoch haben sie Zugriff auf das Team gruppenchatfunktion weiterhin ungefähr 2 Stunden.
 
-Als bewährte Methode für die Verwaltung von Teams Mitglieder hinzufügen und Entfernen von Mitgliedern aus der Client Teams, um sicherzustellen, dass die richtigen cascading Steuerung des Zugriffs auf anderen Applikationen abhängigen Cloud angewendet wird. Vermeiden Sie darüber hinaus einen getrennten Erfahrung verlassen Personen mit den Eindruck, dass sie über Zugriff auf die Ressourcen verfügen gewohnte (bis nächste Sync Zyklus hinzugefügt oder Zugriff auf eine bestimmte Komponente des Diensts entzogen). Wenn Sie hinzufügen oder Entfernen von Teammitgliedern außerhalb des Teams-Clients (mithilfe von Office 365 Administrationscenter, Azure AD oder Exchange Online PowerShell), dauert bis zu zwei Stunden bei Änderungen in Teams übernommen werden.
+Als bewährte Methode für die Verwaltung von Teams Mitglieder hinzufügen und Entfernen von Mitgliedern aus der Client Teams, um sicherzustellen, dass die richtigen cascading Steuerung des Zugriffs auf anderen Applikationen abhängigen Cloud angewendet wird. Vermeiden Sie darüber hinaus einen getrennten Erfahrung verlassen Personen mit den Eindruck, dass sie über Zugriff auf die Ressourcen verfügen gewohnte (bis nächste Sync Zyklus hinzugefügt oder Zugriff auf eine bestimmte Komponente des Diensts entzogen). Wenn Sie hinzufügen oder Entfernen von Teammitgliedern außerhalb des Teams-Clients (mithilfe von Microsoft 365 Administrationscenter, Azure AD oder Exchange Online PowerShell), dauert bis zu zwei Stunden bei Änderungen in Teams übernommen werden.

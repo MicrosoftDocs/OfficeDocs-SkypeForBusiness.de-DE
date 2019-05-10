@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 007bea10d8e452a2198c869ab545592b29c591c1
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: c35c2455c3164f04dd9fdbbb210e20809a719bc6
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632369"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835327"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Anrufrichtlinien in Microsoft Teams
 ===================================
@@ -85,11 +85,16 @@ Diese Einstellung aktiviert eingehende Anrufe an die Voicemail gesendet werden. 
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Zum Aufrufen von Gruppen können eingehende Anrufe weitergeleitet werden 
 
+> [!Include [feature preview](includes/preview-feature.md)]
+
 Diese Einstellung steuert, ob eingehende Anrufe an eine anrufgruppe weitergeleitet werden können.
 
 ### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>Erlaubt die Delegierung für eingehende und ausgehende Anrufe
 
+> [!Include [feature preview](includes/preview-feature.md)]
+
 Diese Einstellung aktiviert eingehende Anrufe an die Stellvertretungen, Stellvertretungen zu ausgehenden Anrufe im Namen der Benutzer, für den sie Berechtigungen delegiert wurden, zulassen weitergeleitet werden. Weitere Informationen finden Sie unter [Freigeben einer Telefonleitung mit einem Delegaten](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
+
 
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Verhindern, dass Gebühren umgehen und senden Sie Anrufe über das Telefonfestnetz 
 

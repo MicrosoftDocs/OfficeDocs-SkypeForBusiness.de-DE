@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 016831a9c3d5cac6c331d6112adbc2738ec8382b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: aca7dcf2607fd90bfea15ef324034be96770a822
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236131"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835015"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams
 ==========================================================
@@ -48,6 +48,6 @@ In den folgenden Artikeln sind eine ausgezeichnete Quelle für Bereitschaft und 
 
 -   [Mehr Möglichkeiten mit Gruppen in Outlook](https://support.office.com/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
 
--   [Hinzufügen oder Entfernen von Mitgliedern aus Office 365-Gruppen im Office 365 Admin Center](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
+-   [Hinzufügen oder Entfernen von Mitgliedern aus Office 365-Gruppen mit dem Microsoft 365 Administrationscenter](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
 -   [Wiederherstellen einer gelöschten Office 365-Gruppe](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)

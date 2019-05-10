@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Hier erfahren Sie, für welche Länder und Regionen Dial-in-Konferenztelefonnummern verfügbar sind und wie diese automatisch zugewiesen werden.
-ms.openlocfilehash: 3997d6e6337f88d84a39239100c4a973280ddc02
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3fdd94a8ff0bf867f71a1e02c5ae84cf17bac0d8
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246282"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835083"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Telefonnummern für Audiokonferenzen in Microsoft Teams
 
@@ -36,7 +36,7 @@ Wenn Sie **Audiokonferenzen** für Microsoft Teams einrichten, werden Ihrer Orga
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Verfügbarkeit von Audiokonferenzen und Preise
 
-Eine vollständige Liste aller Länder/Regionen und Städte, in denen Audiokonferenzen verfügbar sind, finden Sie unter [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Informationen zu den Preisen finden Sie unter [Preise für Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Eine vollständige Liste aller Länder/Regionen und Städte, in denen Audiokonferenzen verfügbar sind, finden Sie unter [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Informationen zu den Preisen finden Sie unter [Preise für Audiokonferenzen](https://go.microsoft.com/fwlink/?linkid=799762).
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Dial-in-Telefonnummern in einer Besprechungseinladung
 
@@ -60,7 +60,7 @@ Freigegebene Audiokonferenz-Telefonnummern werden Organisationen automatisch zug
 Eine Liste der Länder/Regionen, in denen Organisationen automatisch Telefonnummern zugewiesen werden, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
     
 > [!NOTE]
-> Das Land bzw. die Region, in dem bzw. in der sich Ihre Organisation befindet, finden Sie nach der Anmeldung beim **Office 365 Admin Center** unter **Organisationsprofil**. 
+> Der Land oder Region Speicherort Ihrer Organisation kann durch Anmelden bei der **Microsoft-365-Verwaltungskonsole** und in einem unter **Organisationsprofil**gefunden werden. 
   
 > [!CAUTION]
 > Aufgrund der eingeschränkten Verfügbarkeit von gebührenpflichtigen Telefonnummern in Venezuela, Indonesien und den Vereinigten Arabischen Emiraten wird Organisationen aus diesen Ländern/Regionen nicht automatisch eine gebührenpflichtige Audiokonferenz-Telefonnummer zugewiesen. Gebührenfreie Telefonnummern für diese Standorte stehen je nach verfügbarem Bestand zur Verfügung. 

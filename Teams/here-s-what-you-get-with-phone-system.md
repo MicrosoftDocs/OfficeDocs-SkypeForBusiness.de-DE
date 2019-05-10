@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: a8660693fefdca2ecfdfe327927e89431d0fe5db
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6827f750f9e4161cc5747015bad2ce832497fcb9
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245529"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868672"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Das Telefonsystem in Office 365 bietet Ihnen Folgendes
 
@@ -66,6 +66,7 @@ Mithilfe von Telefonsystem erhalten Ihre Skype für Unternehmensbenutzer die fol
 |[Festlegen von Anrufweiterleitungsoptionen in Skype for Business](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Sendet Ihre Anrufe entweder sofort oder nach einem bestimmten Zeitraum an Ihr Team.  <br/> |
 |[Tätigen und Annehmen eines Videoanrufs mit Skype for Business](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Sie können den Namen und den Videostream des Sprechers in einem kleinen unverankerten Fenster sehen, sodass Sie immer in der Lage sind, auf eine Frage zu antworten. <br/> |
 |[Prüfen von Skype for Business-Voicemail und -Optionen](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Hier wird die Funktionsweise von Cloud-Voicemail: Wenn ein Benutzer eine Voicemail empfängt, wird Sie mit ihrem Postfach als eine e-Mail-Nachricht mit der Voicemailnachricht als Anlage übermittelt. Der Nutzer kann die Nachrichten auch über seinen Skype-zertifizierten Telefonapparat, über alle Skype for Business-Anwendungen oder über Lync for Mac 2011 abhören.  <br/> Cloud-Voicemail enthält persönliche Begrüßung, Anzeige für wartende Nachrichten und Antworten durch Anruf an. Ihre Voicemails können alle in Postfächern gespeichert und über Skype for Business auf Ihrem PC, Ihrem Mobilgerät und Ihrem IP-Telefon abgehört werden.  <br/> |
+|Musik in der Warteschleife | Verfügbar im Juni 2019; Telefonsystem spielt Standard Musik vom Dienst definiert wird, wenn ein externer Anruf aus im Public Switched Telephone Network, (PSTN) in der Warteschleife platziert wird.  Dieses Feature funktioniert für 1: 1-zu-PSTN-Teams Anrufe neben Anrufe an eine Warteschleife Anruf. Dieses Feature bietet halten Benachrichtigung Parität mit anderen Plattformen zu ermöglichen. (Alle anderen Plattformen erhalten einen visuellen Hinweis, wenn ein Benutzer gehalten wird, aber der PSTN-Anrufer es keine Möglichkeit zu erkennen gab.)  Klicken Sie auf erste Version ist dieses Feature nicht vom Administrator konfigurierbar.| 
    
 ## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>Planen und das Telefonsystem in Office 365 einrichten
 <a name="bkmk_setup"> </a>

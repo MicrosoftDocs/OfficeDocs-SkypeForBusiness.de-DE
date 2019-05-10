@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen von Microsoft-Teams, Räume mit Office 365
+title: Bereitstellen von Microsoft Teams-Räumen mit Office 365
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lesen Sie dieses Thema bietet Informationen zum Bereitstellen von Microsoft-Teams Chatrooms mit Office 365.
-ms.openlocfilehash: 16d0fad14bd52a13fa6735ec0b786cb15f3ce8c1
-ms.sourcegitcommit: 728507d34031d01f663d9b551cd4794867244854
+ms.openlocfilehash: 05b6bc05200bd6664fc597b937d2a45fba1c9e2b
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "33467534"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835255"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Bereitstellen von Microsoft-Teams, Räume mit Office 365
+# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Bereitstellen von Microsoft Teams-Räumen mit Office 365
 
 Lesen Sie dieses Thema bietet Informationen zum Bereitstellen von Microsoft-Teams Chatrooms mit Office 365, auf dem Microsoft-Teams oder Skype für Unternehmen und Exchange online sind.
 
@@ -108,8 +108,12 @@ Ausführliche Informationen zum Skype für Business Online-Pläne finden Sie unt
 
    Informationen zur Syntax und Parametern finden Sie unter [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Verbinden mit MS-Online-PowerShell zu Active Directory-Einstellungen durch Ausführen der `Connect-MsolService -Credential $cred` Powershell-Cmdlet.   Ausführliche Informationen zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). <!-- or [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) for the new module -->  
-    1. Wenn Sie nicht das Kennwort an, die ablaufen soll, verwenden Sie die folgende Syntax:
+4. Verbinden mit MS-Online-PowerShell zu Active Directory-Einstellungen durch Ausführen der `Connect-MsolService -Credential $cred` Powershell-Cmdlet.   Ausführliche Informationen zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+
+   > [!NOTE]
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) wird nicht unterstützt. 
+
+5. Wenn Sie nicht das Kennwort an, die ablaufen soll, verwenden Sie die folgende Syntax:
 
     ``` PowerShell
     Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true

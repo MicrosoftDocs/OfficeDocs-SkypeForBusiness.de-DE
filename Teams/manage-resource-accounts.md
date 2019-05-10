@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Erfahren Sie mehr über das Verwalten von Ressourcenkonten in Microsoft-Teams
-ms.openlocfilehash: a5b03c8bca7bcc8e012331afe9835a8de6cfe99a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dea4a154e25c719ddabc572ba26ddb7d25c43d71
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203297"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835418"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
@@ -44,7 +44,7 @@ Erste Schritte beim es ist wichtig, sollten Sie einige Dinge bedenken:
 - Sie müssen nur die Ressourcenkonten mit einer Telefonnummer, die ihnen zugewiesenen lizenzieren. In einer geschachtelten automatische Telefonzentrale oder ein Anruf Warteschlange müssen nicht Sie den Rest der automatischen Telefonzentralen lizenzieren, oder rufen Sie Warteschlangen aus, wenn keine ihnen zugeordnete Telefonnummern vorhanden sind
 
 > [!NOTE] 
-> Direkte Routing Service Zahlen für die automatische Telefonzentrale und Warteschlangen Anruf wird gegenwärtig nur für Microsoft-Teams, Benutzer und Agents unterstützt.
+> Direkte Routing Service Zahlen für die automatische Telefonzentrale und Anruf Warteschlangen werden für Benutzer von Microsoft-Teams und Agents nur unterstützt.
 
 > [!NOTE] 
 > Microsoft arbeitet eine entsprechende Lizenzierungsmodell für Anwendungen wie Cloud automatische Telefonzentrale und den Anruf-Warteschlangen für an jetzt Sie das Benutzerlizenzierung Objektmodell verwenden müssen.
@@ -77,7 +77,7 @@ So erstellen Sie eine neue Ressource Konto klicken Sie auf **+ Neues Konto**. Im
 
 Im nächsten Schritt müssen Sie das Ressourcenkonto eine Lizenz gilt gemäß [Zuweisen von Lizenzen für Benutzer in Office 365 für Unternehmen](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)
 
-![Zahlenformatvorlage 3](media/sfbcallout3.png) , nachdem Sie das Ressourcenkonto erstellt haben und die Lizenz zugewiesen haben, klicken Sie auf **Zuweisen/Zuweisung entfernen** das Ressourcenkonto eine Telefonnummer zuweisen oder zuweisen die Ressource berücksichtigt werden an eine automatische Telefonzentrale oder aufrufen Warteschlange, die bereits vorhanden ist. Wenn die Warteschlange Anruf oder automatische Telefonzentrale weiterhin erstellt werden soll, können Sie das Ressourcenkonto verknüpfen, während Sie es erstellen. Klicken Sie auf **Speichern** , wenn Sie fertig sind.
+![Zahlenformatvorlage 3](media/sfbcallout3.png) , nachdem Sie das Ressourcenkonto erstellt haben und die Lizenz zugewiesen, klicken Sie auf **Zuweisen/Zuweisung entfernen** , um das Ressourcenkonto eine aufrufen planen Servicenummer zuzuweisen, oder weisen Sie dem Ressourcenkonto an eine automatische Telefonzentrale oder ein Anruf-Warteschlange, die bereits vorhanden ist. Zuweisen einer direkten Bankleitzahl ist möglich, nur mithilfe von Cmdlets. Wenn die Warteschlange Anruf oder automatische Telefonzentrale weiterhin erstellt werden soll, können Sie das Ressourcenkonto verknüpfen, während Sie es erstellen. Klicken Sie auf **Speichern** , wenn Sie fertig sind.
 
 ![Ressourcenkonto zuweisen](media/r-a-assign.png)
 
@@ -106,7 +106,7 @@ Die Anwendung IDs, dass Sie beim Erstellen der Anwendung Listeninstanzen werden 
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
 ```
 
-2. Sie werden nicht das Ressourcenkonto verwenden, bis Sie eine Lizenz darauf anwenden können. Dafür, wie ein Konto im Office 365 Administrationscenter eine Lizenz zuweisen, finden Sie unter [Zuweisen von Lizenzen für Benutzer in Office 365 für Unternehmen] (https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user sowie [Skype für Business Lizenzen zuweisen](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) .
+2. Sie werden nicht das Ressourcenkonto verwenden, bis Sie eine Lizenz darauf anwenden können. Informationen zum Anwenden einer Lizenzvertrags auf ein Konto im Office 365 Administrationscenter finden Sie unter [Zuweisen von Lizenzen für Benutzer in Office 365 für Unternehmen](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user) sowie [Skype für Business Lizenzen zuweisen](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
 3. (Optional) Nachdem die richtige Lizenz auf das Ressourcenkonto angewendet wird können Sie eine Telefonnummer ein, das Ressourcenkonto festlegen, wie unten dargestellt. Nicht alle Resource Konten erfordern eine Telefonnummer ein. Die Telefon Zuweisung schlägt fehl, wenn Sie eine Lizenz nicht auf das Ressourcenkonto angewendet haben.
 
@@ -130,6 +130,17 @@ Navigieren Sie zum Verwalten von Einstellungen der Ressource-Konto im Microsoft-
 - Das Konto zugewiesene Telefonnummer
 
 Klicken Sie abschließend auf **Speichern**.
+
+## <a name="delete-a-resource-account"></a>Löschen eines Ressourcenkontos
+
+Stellen Sie sicher, dass Sie die Telefonnummer von der Ressourcenkonto vor dem Löschen, um zu vermeiden, die Servicenummer Ihres hängen ausstehenden Modus Zuordnung aufzuheben. Sie können mit dem folgenden Cmdlet ausführen: 
+
+``` Powershell
+Set-csonlinevoiceapplicationinstance -identity <Resource Account oid> -TelephoneNumber $null
+```
+                
+Nachdem Sie dies tun, können Sie das Ressourcenkonto über das O365-Admin-Portal unter Registerkarte Benutzer löschen.
+
 
 ## <a name="related-information"></a>Verwandte Informationen
 

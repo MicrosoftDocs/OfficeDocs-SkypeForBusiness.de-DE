@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Teams für Organisationen im Gesundheitswesen
-ms.openlocfilehash: 7f68a21e835edb3b5ebcd8ff794f4fd3d0716bee
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: b2e7019183da06484b533fe66fd092c588c65e3f
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632292"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835441"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
@@ -91,10 +91,13 @@ Secure messaging unterstützt die Zusammenarbeit innerhalb der pflegekräften, e
 
 - Den Absender einer Nachricht kann eine spezielle Priorität für ihre Nachricht festlegen, sodass der Empfänger wiederholt informiert wird, bis sie die Nachricht gelesen.
 - Den Absender einer Nachricht kann eine lesebestätigung anfordern, damit sie benachrichtigt werden, wenn eine Meldung Ihnen gesendeten mithilfe der Empfänger der Nachricht gelesen wurde.
+- 
 
 Diese Features ermöglichen zusammen, schneller Aufmerksamkeit auf dringende Nachrichten und vertrauen, dass die Nachricht empfangen und gelesen wurde. Neue pflegekräften Verwendung dieser Features können für einzelne pro Patient erstellt werden. Diese Features sind richtlinienbasierte und Personen oder Teams gesamte zugewiesen werden können.
 
 Weitere Informationen finden Sie unter [Erste Schritte mit Secure Messaging Richtlinien für das Gesundheitswesen](messaging-policies-hc.md) .
+
+Auch die Möglichkeit, anderen Mandanten ermöglicht eine bessere Kommunikation zwischen Mandanten Kommunikation vom Unternehmen aus dem Gesundheitswesen, Verbund, um secure messaging ist. (siehe [Verwalten externen Zugriff (Verbund) im Microsoft-Teams](../../manage-external-access.md)).
 
 ## <a name="firstline-worker-integration"></a>Firstline Worker-integration
 

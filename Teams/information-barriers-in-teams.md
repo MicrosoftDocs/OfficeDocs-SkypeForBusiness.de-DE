@@ -12,12 +12,12 @@ ms.reviewer: vikramju
 description: Informationen Sie zu Informationen Barrieren und deren Auswirkungen auf Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a529784ba9968835ce5fb9d8e8648022e46beda5
-ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
+ms.openlocfilehash: 71c547ac13f63c9357dfb6e8a0cbe34d748646d3
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33506750"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827788"
 ---
 # <a name="information-barriers-in-microsoft-teams-preview"></a>Informationen Barrieren in Microsoft-Teams – Vorschau
 
@@ -77,7 +77,7 @@ Es ist eine vorhandene Chat oder andere Kommunikation zwischen Benutzern, und ei
 
 ## <a name="required-licenses-and-permissions"></a>Erforderlichen Lizenzen und Berechtigungen
 
-Die Informationen Grenze Features ist derzeit in privaten Vorschau. Wenn diese Features im Allgemeinen verfügbar sind, können sie wie in Abonnements, aufgenommen werden:
+Derzeit sind die Informationen Grenze Features in öffentlichen Vorschau. Wenn diese Features im Allgemeinen verfügbar sind, können sie wie in Abonnements, aufgenommen werden:
 
 - Microsoft 365 E5
 - Office 365 E5

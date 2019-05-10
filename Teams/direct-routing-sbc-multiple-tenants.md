@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Informationen Sie zum Konfigurieren einer Session Border Controller (SBC), um mehrere Mandanten zu verarbeiten.
-ms.openlocfilehash: 5338046724cc3768929b41dceb060aec1cee0bd6
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 83173a1972906629d7213d80e1290d789e021a87
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401488"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868656"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -103,7 +103,7 @@ Um die Base und Unterdomänen zu konfigurieren, führen Sie die unten beschriebe
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>Stellen Sie sicher, dass Sie den Mandanten Netzbetreiber erforderlichen Berechtigungen verfügen
 
-Sie können nur neue Domänen hinzufügen, wenn Sie Office 365 Admin Center als ein globaler Administrator angemeldet. 
+Sie können nur neue Domänen hinzufügen, wenn Sie der Microsoft-365-Verwaltungskonsole als globaler Administrator angemeldet. 
 
 Um Ihnen die Rolle zu überprüfen, melden Sie sich der Microsoft-365-Verwaltungskonsole (https://portal.office.com), fahren Sie mit der **Benutzer** > **Aktive Benutzer**, und stellen Sie sicher, dass Sie eine globalen Administratorrolle verfügen. 
 
@@ -144,7 +144,7 @@ Sie müssen eine eindeutige Unterdomänennamen für jeden Kunden zu erstellen. I
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>Stellen Sie sicher, dass Sie den Mandanten Kunden erforderlichen Berechtigungen verfügen
 
-Sie können nur neue Domänen hinzufügen, wenn Sie Office 365 Admin Center als ein globaler Administrator angemeldet. 
+Sie können nur neue Domänen hinzufügen, wenn Sie der Microsoft-365-Verwaltungskonsole als globaler Administrator angemeldet. 
 
 Um Ihnen die Rolle zu überprüfen, melden Sie sich der Microsoft-365-Verwaltungskonsole (https://portal.office.com), fahren Sie mit der **Benutzer** > **Aktive Benutzer**, und stellen Sie sicher, dass Sie eine globalen Administratorrolle verfügen. 
 

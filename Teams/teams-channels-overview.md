@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 415f4d94cf64de76ed3d7b4a7243d419d092999c
-ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
-ms.translationtype: HT
+ms.openlocfilehash: 039838172bf155d5c050fbb59fd4cc260fdbb4c3
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31043365"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864897"
 ---
 > [!NOTE]
 > Lesen Sie die folgenden Informationen, um einen besseren Überblick über Chat, Teams, Kanäle und Apps in Teams zu erlangen. Gehen Sie anschließend zu [Bereitstellen von Chat, Teams, Kanälen und Apps in Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md), um eine Liste von Entscheidungen durchzugehen, die wichtig für Ihre Implementierung von Teams sind.
@@ -41,11 +41,11 @@ Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst org
     
     Teams sollen Gruppen von Personen zusammenbringen, die eng zusammenarbeiten, um ihre Produktivität zu verbessern. Möglich sind dynamische Teams für projektbasierte Aufgaben (zum Beispiel Einführung eines Produkts oder Einrichtung eines gemeinsamen digitalen Arbeitsraums). Eine weitere Möglichkeit sind ständige Teams, die die interne Struktur Ihrer Organisation widerspiegeln (z. B. Abteilungen und Bürostandorte). Unterhaltungen, Dateien und Notizen in Teamkanälen sind nur für Mitglieder des Teams sichtbar.
 
--   **Kanäle** sind spezielle Abschnitte innerhalb eines Teams, mit denen Unterhaltungen nach bestimmten Themen, Projekten, Fachrichtungen oder anderen für Ihr Team wichtigen Aspekten organisiert werden.
+-   **Kanäle** sind spezielle Abschnitte innerhalb eines Teams, mit denen Unterhaltungen nach bestimmten Themen, Projekten, Fachrichtungen oder anderen für Ihr Team wichtigen Aspekten organisiert werden. Dateien, die freigegeben werden in einem Kanal (auf der Registerkarte Dateien) werden in SharePoint gespeichert. Weitere Informationen finden lesen Sie, [wie SharePoint Online und OneDrive für Unternehmen mit Teams interagieren](SharePoint-OneDrive-interact.md).
 
-    -   In Teamkanälen können alle Teammitglieder offene Unterhaltungen führen. Private Chats sind nur für die am Chat beteiligten Personen sichtbar.
+    -   Team Kanäle sind Orte, in denen jeder im Team Unterhaltungen offen über kann. Private Chats sind nur für die Personen im Chat sichtbar (und Dateien, die Sie in einem Chat freigeben in OneDrive für Unternehmen gespeichert sind). 
 
-    -   Die Vorteile von Kanälen werden am deutlichsten, wenn Sie sie mit Apps erweitern, die Registerkarten, Connectors und Bots enthalten und damit den Nutzen für die Teammitglieder steigern.
+    -   Die Vorteile von Kanälen werden am deutlichsten, wenn Sie sie mit Apps erweitern, die Registerkarten, Connectors und Bots enthalten und damit den Nutzen für die Teammitglieder steigern. Finden Sie weitere Informationen finden Sie unter [Apps, Bots, & Connectors in Teams](deploy-apps-microsoft-teams-landing-page.md).
 
 Sehen Sie sich dieses kurze Video an und erfahren Sie mehr über bewährte Methoden zum Erstellen von Teams und Kanälen.
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ca4249c88ce5793cd04eb2e2cc1ed3035915975
-ms.sourcegitcommit: 790ca37e2b12e4c8adcc526b1695017161749f51
+ms.openlocfilehash: 74a9b23479f5357c0014ef5ef88b3f5da03ace7f
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33526856"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865051"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Verschieben Sie Ihren Teams bei Microsoft StaffHub in Schichten in der Microsoft-Teams
 
@@ -45,7 +45,15 @@ Teams sind Benutzerdetails Zeitplaninformationen und Chat und Dateidaten gewechs
 
 Jedes Team StaffHub benötigt eine entsprechende Office 365-Gruppe. Wenn ein Team StaffHub ein mit ihm verbundenes Office 365-Gruppe vorhanden ist, wird eine automatisch für Sie zur Unterstützung des Übergangs erstellt. In Anbetracht der unterschiedlichen in Teams und der Gruppe Namenskonflikt zwischen Teams und StaffHub, sehen Sie möglicherweise einen anderen Teamnamen in Teams.
 
-Wie Sie Teams aus StaffHub Teams Übergang, Benutzer haben Zugriff auf ihre Zeitpläne nicht mehr in StaffHub und zu Schichten in Teams weitergeleitet werden. Es wird empfohlen, dass Sie diese Änderung in Ihrer Organisation, um Unterbrechung zu minimieren und fordern Sie die Benutzer zu übernehmen und Erforschen von Teams kommunizieren.
+Wie Sie Teams aus StaffHub Teams Übergang, Benutzer haben Zugriff auf ihre Zeitpläne nicht mehr in StaffHub und zu Schichten in Teams weitergeleitet werden. Es wird empfohlen, dass Sie diese Änderung in Ihrer Organisation, um Unterbrechung zu minimieren und fordern Sie die Benutzer zu übernehmen und Erforschen von Teams kommunizieren. Wenn Sie Azure AD Premium verfügen, können Sie zum Abrufen einer Liste von Benutzern in Ihrer Organisation, die über diese Änderung wissen sollten StaffHub [Führen Sie einen Bericht](run-report-to-show-staffhub-usage.md) .  
+
+Es gibt keine Rollbackoption, nachdem Sie ein Team StaffHub Teams verschoben.
+
+### <a name="user-experience-when-you-move-a-team"></a>Wenn Sie ein Team verschieben Benutzererlebnis
+
+Es ist die minimale Ausfallzeit (weniger als eine Sekunde, wenn überhaupt) für Benutzer, wenn ihr Team von StaffHub zu Schichten in Teams gewechselt wird. Benutzer können weiterhin mit StaffHub erst nach Abschluss der Wechsel zu Teams. Wenn die Verschiebung abgeschlossen ist, sehen Teammitglieder eine Nachricht an diese darüber informieren, dass sie über die Verwendung Schichten in Teams auf seinen Zeitplan Team zugreifen müssen. Es folgt ein Beispiel der Nachricht, die Benutzer sehen.
+
+![Beispiel für die Meldung, die Benutzern in StaffHub angezeigt, nachdem das Team StaffHub Teams verschoben wird.] (../../media/move-staffhub-teams-to-shifts-in-teams-message-to-users.png "Beispiel für die Meldung, die Benutzer sehen in StaffHub nach das Team StaffHub Teams verschoben wird")
 
 ## <a name="prepare"></a>Zubereiten
 

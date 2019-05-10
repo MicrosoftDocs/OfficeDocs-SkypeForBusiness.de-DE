@@ -20,18 +20,18 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, was Adressvalidierung ist, warum sie wichtig ist und was sie mit Notfalladressen und -diensten zu tun hat. '
-ms.openlocfilehash: 4ae8ab25f83eb97929706881f7f757ee3541284d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 85a24cff6f73bc6caaabab6a0efb436105de3a55
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229635"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864996"
 ---
 # <a name="what-is-address-validation"></a>Was ist Adressvalidierung?
 
 Wenn Sie Anrufpläne in Office 365 einrichten, müssen Sie jedem Benutzer eine Telefonnummer und eine Notfalladresse zuweisen.
   
-Durch die Validierung einer Postanschrift oder Adresse wird sichergestellt, dass die Adresse korrekt ist und außerdem richtig formatiert ist. Es ist möglich, dass eine teilweise korrekte Notfalladresse, wie z. B. ein falsch geschriebener Name einer Stadt, bei der Validierung anerkannt wird. Die Validierung bestimmt anhand aller Teile der jeweiligen Adresse, ob genug Informationen enthalten sind, um den Anruf an die entsprechende Notdienstzentrale weiterzuleiten. Wenn dies der Fall ist, wird sie als validiert zurückgegeben und kann dann einer Telefonnummer zugewiesen werden.
+Durch die Validierung einer Postanschrift oder Adresse wird sichergestellt, dass die Adresse korrekt ist und außerdem richtig formatiert ist. Es ist möglich, dass eine teilweise richtige Notfall Adresse, beispielsweise einen Tippfehler Namen der Stadt ein, weiterhin Validierung kann. Die Validierung bestimmt anhand aller Teile der jeweiligen Adresse, ob genug Informationen enthalten sind, um den Anruf an die entsprechende Notdienstzentrale weiterzuleiten. Wenn dies der Fall ist, wird sie als validiert zurückgegeben und kann dann einer Telefonnummer zugewiesen werden.
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

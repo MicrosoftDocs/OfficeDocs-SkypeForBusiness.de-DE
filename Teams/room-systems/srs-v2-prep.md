@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: In diesem Artikel wird erläutert, die Infrastruktur vorbereitenden Schritte für die Bereitstellung von Microsoft-Teams Chatrooms.
-ms.openlocfilehash: 4c46618da43b12b53b6b6e4ba99f7ddb408bc4da
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b1830ba68b61c322b6eeef95f29b1e72d2b93303
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362818"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865014"
 ---
 # <a name="prepare-your-environment"></a>Vorbereiten der Umgebung
 
@@ -27,7 +27,7 @@ Dieser Abschnitt enthält eine Übersicht über die erforderlichen Schritte zur 
     
 2. Stellen Sie sicher, dass eine funktionierende Netzwerk-/Internetverbindung vorhanden ist, die für das Gerät verwendet werden kann. 
     
-   - Es muss eine IP-Adresse mithilfe von DHCP empfangen (Hinweis: Microsoft-Teams Chatrooms kann nicht mit einer statischen IP-Adresse beim ersten Start Unit konfiguriert werden)
+   - Es muss eine IP-Adresse über DHCP erhalten können. (Microsoft Teams Chatrooms kann nicht mit einer statischen IP-Adresse beim ersten Start Unit konfiguriert werden, aber später statische IP-Adresse für das Gerät konfiguriert werden auf dem Gerät oder auf den Upstream-Switch oder Router.)
     
    - Sie benötigen diese Ports (zusätzlich zum Öffnen der normalen Ports für Medien) zu öffnen:
     
@@ -57,7 +57,7 @@ Um ordnungsgemäß ausgeführt wird, muss das Gerät Microsoft Teams Räume auf 
 - Zugriff auf Ihre Active Directory- oder Azure Active Directory-Instanz (Azure AD) sowie auf Ihre Server mit Microsoft Exchange und Skype for Business Server
 - Zugriff auf einen Server, der über DHCP eine IP-Adresse bereitstellen kann. Microsoft-Teams Chatrooms kann nicht mit einer statischen IP-Adresse konfiguriert werden.
 - Zugriff auf die HTTP-Ports 80 und 443
-- TCP und UDP-Ports konfiguriert als in for beschrieben, [Ports und Protokolle-Anforderungen für Server](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) am Standort Skype für Business Implementierungen oder [Office 365-URLs und IP-Adressbereiche](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) für Microsoft-Teams oder Skype für Business online Implementierungen.
+- TCP und UDP-Ports konfiguriert als in for beschrieben, [Ports und Protokolle-Anforderungen für Server](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) am Standort Skype für Implementierungen Business Server oder [Office 365-URLs und IP-Adressbereiche](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) für Microsoft-Teams oder Skype für Business online Implementierungen.
 
 > [!IMPORTANT]
 > Verwenden Sie unbedingt eine 1-GBit/s-Kabelnetzwerkverbindung, um sicherzustellen, dass die benötigte Bandbreite verfügbar ist.

@@ -17,12 +17,12 @@ appliesto:
 f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: Erfahren Sie, wie Ihr Logo, Haftungsausschluss und andere Informationen in Ihrer besprechungseinladungen enthalten.
-ms.openlocfilehash: ab42ddbc427ec344b8e4cf0f85e11f1426a5c6c4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cb6c535011e6ef1f6f7fe8fcd141646a34827e67
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236046"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868832"
 ---
 # <a name="customize-meeting-invitations-in-microsoft-teams"></a>Anpassen von Besprechungseinladungen in Microsoft Teams
 
@@ -39,7 +39,7 @@ Als Administrator können Sie sicherstellen, dass alle Microsoft-Teams, besprech
 ## <a name="customize-your-meeting-invitations"></a>Anpassen der besprechungseinladungen
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
-2. Wählen Sie das Office 365 Administrationscenter **Admin zentriert** > **Teams & Skype**.
+2. Wählen Sie im Microsoft 365 Administrationscenter **Admin zentriert** > **Teams & Skype**.
 3. Wählen Sie in der Verwaltungskonsole von Microsoft-Teams, **Besprechungen** > **besprechungseinstellungen**.
 4. Führen Sie folgende Schritte:
     - **Logo-URL** - Geben Sie die URL ein, in dem Ihr Logo gespeichert ist. Denken Sie daran, dass es in JPG oder PNG-Format sein muss!

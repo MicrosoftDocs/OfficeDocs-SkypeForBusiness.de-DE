@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Zusammenfassung: Lesen Sie diesen Abschnitt beim Planen der Integration von Skype für Business Server mit Exchange 2013 oder 2016.'
-ms.openlocfilehash: 951b31e36290bda0d6bd171c4a7df8f6aa4ff337
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 30898b8a5a8495ac34527d6feb688d4a1acb4d49
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213943"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835425"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planen der Integration von Exchange Unified Messaging in Skype for Business
 
@@ -28,7 +28,7 @@ Skype für Business Server unterstützt die Integration mit Exchange Unified Mes
 In Microsoft Exchange Server 2013 und 2016 führt Exchange UM als Dienst auf einem Exchange-Postfachserver. Für Skype für Business Server Enterprise-VoIP-Bereitstellungen kombiniert Unified Messaging Voicemessaging und e-Mail-messaging in einer einzelnen Informationsspeicher, den Benutzer über ein Telefon (Outlook Voice Access) oder einem Computer zugreifen können. Unified Messaging und Skype für Business Server arbeiten zusammen, um Benutzern von Enterprise-VoIP-Anrufbeantwortung, Outlook Voice Access und automatische Telefonzentrale bereitzustellen.
 
 > [!NOTE]
-> Exchange UM bleibt verfügbar in Skype für Business Server 2019 beim Exchange 2013 oder Exchange 2016 Skype für Unternehmen 2019 integrieren. Aufgrund von Änderungen im-Unterstützung in Exchange 2019 wird aufgehoben wird Cloud Voicemail und Cloud-Telefonzentrale Features emphasised Exchange UM-Integration.  Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) und [Skype für Business Server und Exchange Server-Migration planen](../../../sfbhybrid/hybrid/plan-um-migration.md) .
+> Exchange UM bleibt verfügbar in Skype für Business Server 2019 beim Exchange 2013 oder Exchange 2016 Skype für Unternehmen 2019 integrieren. Aufgrund von Änderungen im-Unterstützung in Exchange 2019 wird jede Bedeutung wird Cloud Voicemail und Cloud-Telefonzentrale Features Exchange UM-Integration.  Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) und [Skype für Business Server und Exchange Server-Migration planen](../../../sfbhybrid/hybrid/plan-um-migration.md) .
 
 
 Für diese Features in einer lokalen Exchange UM-Bereitstellung unterstützt werden müssen Sie eine der folgenden ausführen:

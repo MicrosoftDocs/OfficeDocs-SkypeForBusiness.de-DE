@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Enthält Informationen zu Cloud-Telefonzentralen und deren Verwendung.
-ms.openlocfilehash: 99310e44fbab43e16d0816acdb8a85815863b286
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4ab2ffd0803df57db437e2597db9a95b44d9be75
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211693"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865148"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Was sind automatische Cloudtelefonzentralen?
 
@@ -60,7 +60,7 @@ Die folgenden Punkte sind bei Ihrem Einstieg in die Verwendung von automatischen
 - Sie müssen nur die Ressourcenkonten mit einer Telefonnummer, die ihnen zugewiesenen lizenzieren. In einer geschachtelten automatische Telefonzentrale oder ein Anruf die Warteschlange müssen Sie nicht den Rest der automatischen Telefonzentralen lizenzieren, oder rufen Sie Warteschlangen aus, wenn keine ihnen zugeordnete Telefonnummern vorhanden sind. 
 
 > [!NOTE]
-> Direkte Routing Service Zahlen für die automatische Telefonzentrale und Anruf Warteschlangen werden gegenwärtig nur für Microsoft-Teams, Benutzer und Agents unterstützt.
+> Direkte Routing Service Zahlen für die automatische Telefonzentrale und Anruf Warteschlangen werden für Microsoft-Teams, Benutzer und nur Agents unterstützt.
 
 > [!NOTE]
 > Microsoft arbeitet eine entsprechende Lizenzierungsmodell für Anwendungen wie Cloud automatische Telefonzentrale und den Anruf-Warteschlangen für an jetzt Sie das Benutzerlizenzierung Objektmodell verwenden müssen.

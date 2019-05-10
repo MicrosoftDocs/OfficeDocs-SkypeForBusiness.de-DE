@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Zusammenfassung: In diesem Thema erfahren Sie, wie Sie Statistics Manager für Skype for Business Server bereitstellen können.'
-ms.openlocfilehash: 901720f87cf1c0bf78f558ed0d031bd41377799a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: HT
+ms.openlocfilehash: c70bb596914142fb03e87ccd7e2f1df606aac31f
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898258"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864904"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Bereitstellen von Statistics Manager für Skype for Business Server
  
@@ -118,7 +118,7 @@ Um die Installation zu validieren, gehen Sie wie folgt vor:
     
    - Wenn die Seite für die Integritätsprüfung angezeigt wird, war die Listener-Installation erfolgreich.
     
-   - Wenn der KnownServersCount-Wert 1 oder höher ist, ist die Verbindung mit Redis hergestellt.
+   - Wenn die KnownServerCount 1 oder höher ist, wird die Verbindung mit Redis hergestellt.
     
    - Nachdem Sie einige Minuten abgewartet haben und nachdem mindestens ein Agent installiert wurde, überprüfen Sie, ob sich der Leistungsindikator erhöht.
     

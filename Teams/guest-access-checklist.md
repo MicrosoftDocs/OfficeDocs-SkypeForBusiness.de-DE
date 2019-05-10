@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68beeba403f6a64e194594d5bd40b985c8051dc6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 80ae1944a2208393a38032bd6a988e807f803938
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237548"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827661"
 ---
 <a name="teams-guest-access-checklist"></a>Teams Gast Access Prüfliste
 ==========================================
@@ -59,7 +59,7 @@ Einige Dinge bedenken:
 
 ## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□ Schritt 1: Konfigurieren von Einstellungen in Azure AD-B2B
 
-1. Melden Sie sich bei https://portal.azure.com.
+1. Melden Sie sich beihttps://portal.azure.com
 2. Klicken Sie im linken Bereich auf **Azure Active Directory** .
 3. Klicken Sie unter **Verwalten**auf **benutzereinstellungen**.
 4. Klicken Sie unter **externe Benutzer**klicken Sie auf **Einstellungen für externe verwalten für die Zusammenarbeit**.

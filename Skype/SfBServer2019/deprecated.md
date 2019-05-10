@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Diese Features wurden aus Skype für Business Server 2019 entfernt.'
-ms.openlocfilehash: bd7519e66632c005d81ff9fc110684f6c4854c41
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0dd7edda344ec41cc37e5013d18755c29d16c9a9
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198971"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835174"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Was ist aus Skype für Business Server 2019 veraltet
 
 Informationen Sie zu den Features und Funktionen, die in Skype für Business Server 2019 veraltet sind. Informationen zu neuen Features in Skype für Business Server 2019 finden Sie unter [Was ist in Skype für Business Server 2019](whats-new.md).
 
-Einige Aufhebung der emphasised Features sind für die Kompatibilität mit früheren Produktversionen in Skype für Business Server 2019 enthalten.
+Einige Bedeutung Features sind für die Kompatibilität mit früheren Produktversionen in Skype für Business Server 2019 enthalten.
 
 ## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Veraltete Features in Skype für Business Server 2019 
 

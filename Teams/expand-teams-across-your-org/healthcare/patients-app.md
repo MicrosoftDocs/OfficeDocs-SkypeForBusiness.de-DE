@@ -13,20 +13,22 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Integration von Microsoft-Teams Patienten app EHR
-ms.openlocfilehash: 25eb1b4ee09eec8395db2ac821d19624a508c937
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: f157061666dc72a8420b9b9331387b42d6918cea
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33643113"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865038"
 ---
-# <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Integrieren von elektronische Datensätze aus dem Gesundheitswesen in Microsoft-Teams
+# <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)] 
+
+Zur Teilnahme an der privaten Preview finden Sie unter [registrieren in der privaten Vorschau](#enroll-in-the-private-preview).
 
 Dieser Artikel richtet eine allgemeine Gesundheitswesen interessiert FHIR APIs auf der Basis eines Systems medizinische Informationen zu Microsoft-Teams, Herstellen einer Verbindung mithilfe von IT-Entwickler. Auf diese Weise Vorsicht Koordinierung Szenarien können, die die Anforderungen einer Organisation aus dem Gesundheitswesen entsprechen.
 
-In diesem Artikel Dokumente FHIR Schnittstellenspezifikationen für die Microsoft-Teams Patienten-app und Grundlegendes zu, die für das Einrichten eines Servers FHIR und Herstellen einer Verbindung mit der Patienten-app in der Entwicklung Environment\tenant erforderlich ist. Sie müssen auch machen Sie sich vertraut mit der Dokumentation für den FHIR-Server, den Sie ausgewählt haben, den muss eine der unterstützten Optionen:
+Verknüpfte Artikeln wird dokumentiert, FHIR Schnittstellenspezifikationen für die Microsoft-Teams Patienten-app, und in den folgenden Abschnitten wird erläutert, was für das Einrichten eines Servers FHIR und Herstellen einer Verbindung mit der Patienten-app in Ihrer Entwicklungsumgebung oder des Mandanten erforderlich ist. Sie müssen auch machen Sie sich vertraut mit der Dokumentation für den FHIR-Server, den Sie ausgewählt haben, den muss eine der unterstützten Optionen:
 - Datica (über das Angebot [CMI](https://datica.com/compliant-managed-integration/) )
 - An Cloverleaf (über die [An FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
 - Redox (über die [R ^ FHIR Server](https://www.redoxengine.com/fhir/))
@@ -73,12 +75,13 @@ Dienst-Authentifizierungen sollte über OAuth 2.0 [Clientanmeldeinformationen Fl
 
 Eine Anforderung für ein Zugriffstoken umfasst die folgenden Parameter:
 
-    POST /token HTTP/1.1
-    Host: authorization-server.com
+* * *
 
-    grant-type=client_credentials
-    &client_id=xxxxxxxxxx
-    &client_secret=xxxxxxxxxx
+    POST-/token HTTP/1.1 Host: Autorisierung server.com
+
+    GRANT-Type = Client_credentials &client_id = Xxxxxxxxxx &client_secret = Xxxxxxxxxx
+
+* * *
 
 Die Partnerservice bietet Client_id und Client_secret für Patienten-app, die über ein Auth Registrierung Portal aufseiten des Partners verwaltet. Die Partner-Webdienst stellt den Endpunkt Anforderung Zugriffstoken mit einem Client Anmeldeinformationen Flow bereit. Eine erfolgreiche Antwort muss der Parameter Token_type, Access_token und Expires_in enthalten.
 
@@ -115,8 +118,8 @@ Der Authentifizierung und Routing Workflow sieht folgendermaßen aus:
 
 Bestimmte Aufrufe und wird von der app Patienten Felder sind in den folgenden Artikeln dokumentiert. Wählen Sie die Schnittstelle für Ihre FHIR Server/FHIR APIs gelten.
 
-- [DSTU2 Interface-Spezifikation](dstu2-interface.md)
-- [STU3 Interface-Spezifikation](stu3-interface.md)
+- [Benutzeroberflächenspezifikation DSTU2](dstu2-interface.md)
+- [Benutzeroberflächenspezifikation STU3](stu3-interface.md)
 
 ## <a name="performance-and-reliability"></a>Leistung und Zuverlässigkeit
 
@@ -135,12 +138,12 @@ Sie können auch die HSPC öffnen EHR sandkastenumgebung zum Erstellen einer ein
 Nachdem Sie die open-Source Server FHIR erstellt haben, ist es wirklich einfach die Patienten app innerhalb Ihres Mandanten herstellen einer Verbindung mithilfe der unten aufgeführten Schritte:
 
 1. [So erreichen Sie uns](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20private%20preview) , mit den folgenden anfänglichen Angaben:  
-    - Ihr Name 
-    - Ihre Position 
+    - Ihr Name
+    - Ihre Position
     - Der Firma oder Organisation, die Sie darstellen
-    - Warum Sie die Patienten-app für die Integration von EHR interessiert sind. 
+    - Warum Sie die Patienten-app für die Integration von EHR interessiert sind
 
-    Wir erhalten Sie so bald wie möglich mit weiteren Fragen und führen Sie durch einen Prozess zum Abrufen von Setup für die private Vorschau.
+    Wir erhalten Sie so bald wie möglich mit weiteren Fragen und führen Sie durch einen Prozess für die private Vorschau zu erhalten.
 
 2. Stellen Sie sicher, Sideloading benutzerdefinierten apps in den Mandanten werden soll, auf dem die Patienten app testen aktiviert ist. Näheres [App Berechtigungsrichtlinien](../../admin-settings.md) erfahren, wie dies im Teams Admin Center für Ihre oder der Mandant des Kunden einschalten.
 

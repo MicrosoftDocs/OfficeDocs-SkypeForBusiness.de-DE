@@ -1,5 +1,5 @@
 ---
-title: Microsoft-Teams Chatrooms Lizenzen
+title: Lizenzen für Microsoft Teams-Räume
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,22 +21,23 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informationen Sie zu Features, die in Microsoft-Teams Chatrooms verfügbar sind. '
-ms.openlocfilehash: c25234fa6a5a83e71398fa9138a6a84e65c2d883
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: cef845197d8b76dfc6248f1976f08879680ace5f
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362813"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865022"
 ---
-# <a name="microsoft-teams-rooms-licenses"></a>Microsoft-Teams Chatrooms Lizenzen
+# <a name="microsoft-teams-rooms-licenses"></a>Lizenzen für Microsoft Teams-Räume
 <a name="bkmk_srs"> </a>
 
 Die folgende Tabelle enthält, die Lizenzierung abhängigen Features, die in den Microsoft-Teams und was Sie Lizenzen verfügbar sind zum Abrufen dieser kaufen müssen.
   
 > [!NOTE]
 > Der Raum, der eingerichtet wird, muss ein Benutzerobjekt sein, und ihm müssen diese Lizenzen zugewiesen sein.
+> Die neue Besprechungsraum Lizenz ist jetzt verfügbar in Office 365.
 
-|Microsoft-Teams Räume-Szenario |Sie haben zurzeit Office 365 Premium, Office 365 ProPlus0 oder Skype für Business eigenständiger Plan 2.  <br/> Sie müssen folgende Lizenz erwerben:  |Sie haben derzeit einen Enterprise-basierten Plan.  <br/> Sie müssen folgende Lizenz erwerben: |Sie haben Skype for Business Server 2015 (lokal oder hybrid). <br/> Sie müssen folgende Lizenz erwerben:|
+|Microsoft-Teams Räume-Szenario |Sie haben zurzeit Office 365 Premium, Office 365 ProPlus oder Skype für Business eigenständiger Plan 2.  <br/> Sie müssen folgende Lizenz erwerben:  |Sie haben derzeit einen Enterprise-basierten Plan.  <br/> Sie müssen folgende Lizenz erwerben: |Sie haben Skype for Business Server 2015 (lokal oder hybrid). <br/> Sie müssen folgende Lizenz erwerben:|
 |:-----|:-----|:-----|:-----|
 |Teilnehmen an einer geplanten Besprechung.  |Skype for Business Standalone-Plan 1 |E1, 3, 4 oder 5  |Skype for Business Server Standard CAL  |
 |Initiieren einer Ad-hoc-Besprechung. |Skype for Business Standalone-Plan 2 |E1, 3, 4 oder 5 |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|

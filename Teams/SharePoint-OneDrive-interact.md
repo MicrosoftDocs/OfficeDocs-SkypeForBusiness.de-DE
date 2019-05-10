@@ -3,7 +3,7 @@ title: Interaktion von SharePoint Online und OneDrive for Business mit Microsoft
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/12/2018
+ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -15,15 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 169008f7af8f52be60c7f15d7a4613f77ed161df
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f790a01050811ee46526fe37a4d6c14f107491b5
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226459"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827740"
 ---
-<a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams
-=============================================================================
+# <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams
 
 > [!Tip]
 > Sehen Sie sich die folgenden Sitzung um zu erfahren, wie Teams interagiert mit Azure Active Directory (AAD), Gruppen von Office 365, Exchange, SharePoint und OneDrive für Unternehmen: [Grundlagen der Microsoft-Teams](https://aka.ms/teams-foundations)
@@ -37,7 +36,7 @@ Wenn Benutzer sind nicht zugewiesen und mit SharePoint Online-Lizenzen aktiviert
 Beim Speichern der Dateien in der SharePoint Online-Dokumentbibliothek und OneDrive for Business werden alle auf der Mandantenebene konfigurierten Complianceregeln eingehalten. 
 
 > [!NOTE]
-> Integration in lokale Sharepoint-wird für Microsoft-Teams, zu diesem Zeitpunkt nicht unterstützt.
+> Integration in lokale SharePoint-wird für Microsoft-Teams, zu diesem Zeitpunkt nicht unterstützt.
 
 Im Folgenden finden Sie ein Beispiel für die Beziehungen zwischen Team, Kanal und Dokumentbibliothek.
 
@@ -58,8 +57,29 @@ Für jeden Benutzer wird der OneDrive-Ordner **Microsoft Teams-Chatdateien** zum
 
 ![Diagramm des OneDrive-Ordners „Microsoft Teams-Chatdateien“ für die Chats der einzelnen Benutzer](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
-<a name="more-information"></a>Weitere Informationen
-----------------
+## <a name="channel-files-tab"></a>Registerkarte Channel-Dateien
+
+> [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-section.md)]
+
+Die Registerkarte **Dateien** in Teams ähnelt die SharePoint-Dokumente-Ansicht. Klicken Sie auf der Registerkarte **Dateien** können Benutzer:
+
+- Finden Sie unter Weitere Optionen im Dateimenü **neu** .
+- Synchronisieren von Dateien auf ihrem lokalen Laufwerk.
+- Klicken Sie im Menü **Alle Dokumente** aus **Listenansicht** **Compact** Liste zur **Kacheln** Ansicht wechseln.
+- Identifizieren Sie die Dateien, die Aufmerksamkeit erfordern oder Schadsoftware.
+- Sofort zu überprüfen, ob eine Datei schreibgeschützt oder checked out.
+- Auschecken und Einchecken von Dateien.
+- Heften Sie an, lösen Sie, und ändern Sie die Sortierreihenfolge der Dateien.
+- Bestimmen Sie, welche Dateien Metadaten benötigt
+- Wählen Sie viele weitere Filteroptionen.
+- Gruppe Dateien auf Basis von Spaltenüberschriften.
+- Spalteneinstellungen (nach links oder rechts, ausblenden) und Spaltenbreite zu ändern.
+
+## <a name="default-link-type-setting"></a>Standard-Verknüpfungstyp festlegen
+
+SharePoint- und OneDrive haben eine administratoreinstellung zur Angabe der Standard-Verknüpfungstyp für Links, die für eine Datei erstellt werden. Teams ist, derselbe Ansatz entscheiden, durch die Wiederverwendung von den Einstellungen, die der Administrator für SharePoint und OneDrive festgelegt. Weitere Informationen zu diesem Ansatz werden in [der Standard-Verknüpfungstyp Aktion für Benutzer Links für die Freigabe ändern](https://docs.microsoft.com/sharepoint/change-default-sharing-link)beschrieben. 
+
+## <a name="more-information"></a>Weitere Informationen
 
 Weitere Informationen zur Funktionsweise von SharePoint mit den Teams, finden Sie unter [SharePoint und Teams: ein starkes Team](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
 

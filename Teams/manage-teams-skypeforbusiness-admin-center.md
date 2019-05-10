@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Weitere Informationen zum Verwalten von Mandanten geltende und von Einstellungen für Teams während des Übergangs von den Teams Erfahrung in der Office 365-Verwaltungskonsole zur neuen Microsoft-Teams-Verwaltungskonsole.
+description: Weitere Informationen zum Verwalten von Mandanten geltende und von Einstellungen für Teams während des Übergangs von den Teams Erfahrung in der Microsoft-365-Verwaltungskonsole zur neuen Microsoft-Teams-Verwaltungskonsole.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -19,12 +19,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 9f1adb47709d3e053bb2349d8a3e548bedc58d9d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a89910c96a428b45d13b99725081d47d1cd7e245
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199567"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827796"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams
 ======================================================
@@ -42,7 +42,7 @@ Die neue Oberfläche von Admin Center wird Ihnen ein einheitliches Benutzererleb
 
 Die folgende Tabelle zeigt die Abschnitte der Erfahrung Teams, die migriert wurden, und zeigt die Beziehung zwischen der aktuellen Einstellungen und Richtlinien in das neue Administratorportal.
 
-|Abschnitt Teams in Office 365 Administrationscenter  |Name der Einstellung (Mandanten Level)  |Microsoft-Teams, Admin Center-Richtlinie   |Stufe: Mandanten oder Benutzer   |
+|Abschnitt des Teams im Microsoft 365 Administrationscenter  |Name der Einstellung (Mandanten Level)  |Microsoft-Teams, Admin Center-Richtlinie   |Stufe: Mandanten oder Benutzer   |
 |---------|---------|---------|---------|
 |Allgemein     |Organisatorische Chat im persönlichen Profil anzeigen        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Mandanten       |
 |Allgemein     |Verwenden Sie Skype für Unternehmen für Empfänger, die nicht über Teams verfügen         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandanten         |
@@ -75,7 +75,7 @@ Die folgende Tabelle zeigt die Abschnitte der Erfahrung Teams, die migriert wurd
 |Messaging     |Zulassen, dass Benutzer ihre eigenen Nachrichten löschen         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
 |Messaging     |Ermöglicht es Benutzern, privat chat         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
 
-<sup>1</sup> Gast veraltet. Aktivieren/Deaktivieren von Gast können jetzt in der Verwaltungskonsole von Microsoft-Teams verwaltet werden. Aktivieren/Deaktivieren von Unternehmen, Edu Student, Teams und Edu Fakultät bald unterstützt. Dies sollte durch Zuweisen von Lizenzen im Office 365 Administrationscenter verwaltet werden. Finden Sie unter [Verwalten des Benutzerzugriffs auf Microsoft-Teams](user-access.md).
+<sup>1</sup> Gast veraltet. Aktivieren/Deaktivieren von Gast können jetzt in der Verwaltungskonsole von Microsoft-Teams verwaltet werden. Aktivieren/Deaktivieren von Unternehmen, Edu Student, Teams und Edu Fakultät bald unterstützt. Dies sollte durch Zuweisen von Lizenzen im Microsoft 365 Administrationscenter verwaltet werden. Finden Sie unter [Verwalten des Benutzerzugriffs auf Microsoft-Teams](user-access.md).
 <br><br>
 <sup>2</sup> Sideloading ist wie folgt aufgeteilt:
 
@@ -85,15 +85,15 @@ Die folgende Tabelle zeigt die Abschnitte der Erfahrung Teams, die migriert wurd
 <sup>3</sup> Standard-apps und externe apps können aktiviert und deaktiviert werden auf Benutzerebene in TeamsAppPermissionPolicy. Darüber hinaus können apps Ebene der Mandant Org geltende app-Einstellungen blockiert werden, die alle Benutzer und Einstellungen auf Mandantenebene überschrieben wird. 
 
 > [!NOTE]
-> Sie können weiterhin das Gruppen-Dashboard im Office 365 Administrationscenter für die Konfiguration im Zusammenhang mit der Teams und Kanäle verwenden. Einstellungen für Apps bleibt im Bereich Teams von Office 365 Administrationscenter und migriert werden weiter unten. 
+> Sie können weiterhin das Gruppen-Dashboard in der Microsoft-365-Verwaltungskonsole für die Konfiguration im Zusammenhang mit der Teams und Kanäle verwenden. Einstellungen für Apps bleibt im Bereich Teams von Microsoft 365 Administrationscenter und migriert werden weiter unten. 
 
 ## <a name="manage-settings-during-the-migration"></a>Verwalten von Einstellungen für während der migration
 
-Sie können weiterhin Ändern der Einstellungen in der Office 365-Verwaltungskonsole und der Skype für Business Administrationscenter bis Migration eines Bereichs für Ihre Mandanten abgeschlossen ist. 
+Sie können weiterhin Ändern der Einstellungen in der Microsoft-365-Verwaltungskonsole und der Skype für Business Administrationscenter bis Migration eines Bereichs für Ihre Mandanten abgeschlossen ist. 
 
 Die folgende Tabelle zeigt, wo Sie Features während der Migration verwalten können.
 
-|Feature  |Microsoft-Teams, Administrationscenter                      |Skype für Business Administrationscenter (Legacy)  |Office 365 Administrationscenter  |
+|Feature  |Microsoft-Teams, Administrationscenter                      |Skype für Business Administrationscenter (Legacy)  |Microsoft-365-Verwaltungskonsole  |
 |---------|:---------:|:---------:|:---------:|
 |Richtlinien für Messaging, Besprechungen und Ereignisse Live-Teams     |     X    |         |         |
 |Upgrade Richtlinie Teams     |    X     |         |         |

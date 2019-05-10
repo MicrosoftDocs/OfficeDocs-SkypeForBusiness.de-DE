@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Diese Features sind neu in Skype für Business Server 2019.'
-ms.openlocfilehash: 770cfa8934f40e8ab847b7d77a60f18250c64842
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 68b6a2c3e3115df58c44603817e2adfc0c83f67c
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239576"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835239"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>Was ist in Skype für Business Server 2019
 
@@ -29,7 +29,7 @@ Die folgenden: neuen Features in Skype für Business Server 2019
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>Unified messaging-Dienste: Cloud-Voicemail
 
-Exchange UM bleibt verfügbar in Skype für Business Server 2019 beim Exchange 2013 oder Exchange 2016 Skype für Unternehmen 2019 integrieren. Aufgrund von Änderungen im-Unterstützung in Exchange 2019 wird aufgehoben wird Cloud Voicemail und Cloud-Telefonzentrale Features emphasised Exchange UM-Integration.  
+Exchange UM bleibt verfügbar in Skype für Business Server 2019 beim Exchange 2013 oder Exchange 2016 Skype für Unternehmen 2019 integrieren. Aufgrund von Änderungen im-Unterstützung in Exchange 2019 wird jede Bedeutung wird Cloud Voicemail und Cloud-Telefonzentrale Features Exchange UM-Integration.  
 
 Cloud-Voicemail aktiviert alle Ihre Skype für Business 2019 Users& #x 2014; ob sie in der lokalen oder Online& #x 2014; Zugriff auf dem gleichen Voicemail-Dienst in der Microsoft-Cloud verwaltet werden. Cloud-Voicemail bietet die folgenden Vorteile für die lokalen und online-Benutzer:
 

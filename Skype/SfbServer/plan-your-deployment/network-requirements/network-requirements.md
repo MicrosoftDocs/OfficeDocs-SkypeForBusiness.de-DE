@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Zusammenfassung: Prüfen der Überlegungen zum Netzwerk-Komponente unter vor der Implementierung von Skype für Business Server.'
-ms.openlocfilehash: 338a2d273fbba2bd006c5ed5acdd878338333b8a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 631de0031a027ab8364f987f20b7e10e3f2e47f0
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206261"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33834973"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -128,6 +128,9 @@ Aufgrund der Vielzahl an verschiedenen Faktoren, wie z. B. Codecverwendung, Auf
 |SILK-Breitband  <br/> |Peer-to-Peer  <br/> |26.0  <br/> |42.0  <br/> |54.0  <br/> |80.0  <br/> |
 |SILK-Breitband  <br/> |Peer-to-Peer  <br/> |20.0  <br/> |36.0  <br/> |48.0  <br/> |68.0  <br/> |
 |SEIDENBLUMEN Breitband/Schmalband  <br/> |Peer-to-Peer  <br/> |13.0  <br/> |29.0  <br/> |41.0  <br/> |54.0  <br/> |
+
+> [!NOTE]
+> PSTN-Anrufe aus dem Skype für Business-Client verwenden in der Regel die Codecs g. 711, die hohe Bandbreite erforderlich sind. Wenn genügend Bandbreite ist nicht verfügbar für diesen Codec, Anrufe können Fehler auftreten, mit einem Fehler, die in der medienprotokolle die folgenden ähnelt: **mindestens einen Codec aktiviert sein muss, hr: c0042004**. Medienprotokolle (.blog-Dateien) verschlüsselt werden und nur von Microsoft Support-Mitarbeiter decodiert werden können.
 
 Die Bandbreitenangaben in dieser Tabelle basieren auf einer Paketierung mit 20 ms (50 Pakete pro Sekunde), für Siren und G.722, einschließlich SRTP-Overhead (Secure Real-Time Transport Protocol) aus Konferenzszenarien und setzen voraus, dass der Stream zu 100% aktiv ist. Die Vorwärtsfehlerkorrektur (Forward Error Correction, FEC) wird dynamisch eingesetzt, um bei einem Paketverlust in der Verbindung die Qualität des Audiostreams zu erhalten.
 
