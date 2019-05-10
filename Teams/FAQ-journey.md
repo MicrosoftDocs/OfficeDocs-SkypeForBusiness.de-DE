@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 069c7f067ee1d408ad92cb980d81b807bce0d880
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 19aa57453227edf366ea663b4d9fee01c6d8ed12
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180588"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868696"
 ---
 # <a name="faq---upgrading-from-skype-for-business-to-microsoft-teams"></a>Häufig gestellten Fragen: Upgrade von Skype for Business auf Microsoft Teams
 
@@ -202,7 +202,7 @@ Ein Upgrade für Skype Room Systems v1 (auch als Lync Room Systems bekannt) wir
 
 ### <a name="whats-planned-for-new-management-experiences"></a>Welche neuen Verwaltungsfunktionen sind geplant?
 
-Microsoft hat für IT-Spezialisten das [Admin Center für Microsoft Teams](https://admin.teams.microsoft.com/) im Office 365 Admin Center eingeführt. Wie die Skype for Business-Verwaltungskonsole wird dieses neue Portal ein zentraler Ort für die Verwaltung von neuen Funktionen sein. Die für das erste Quartal 2018 geplante erste Veröffentlichung des Portals dient der Unterstützung der Verwaltung über ein unternehmensgerechtes Richtlinienmodell für Kunden, die nur Microsoft Teams nutzen, und ersetzt die vorhandene Verwaltungsschnittstelle für Microsoft Teams. Mit diesem Portal können wir benutzerdefinierte Richtlinien für Anwesenheit, Chats, Apps, Besprechungen und VoIP erstellen und diese Richtlinien Microsoft Teams-Benutzern zuweisen.
+Microsoft hat für IT-Spezialisten das [Admin Center für Microsoft Teams](https://admin.teams.microsoft.com/) im Microsoft 365 Admin Center eingeführt. Wie die Skype for Business-Verwaltungskonsole wird dieses neue Portal ein zentraler Ort für die Verwaltung von neuen Funktionen sein. Die für das erste Quartal 2018 geplante erste Veröffentlichung des Portals dient der Unterstützung der Verwaltung über ein unternehmensgerechtes Richtlinienmodell für Kunden, die nur Microsoft Teams nutzen, und ersetzt die vorhandene Verwaltungsschnittstelle für Microsoft Teams. Mit diesem Portal können wir benutzerdefinierte Richtlinien für Anwesenheit, Chats, Apps, Besprechungen und VoIP erstellen und diese Richtlinien Microsoft Teams-Benutzern zuweisen.
 
 ## <a name="device-compatibility"></a>Gerätekompatibilität
 

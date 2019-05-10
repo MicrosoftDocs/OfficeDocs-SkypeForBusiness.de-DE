@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e53ed44f4377d90ae0d43b8c8971f651d940b839
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.openlocfilehash: 0447e006bfb276858d2fcdf02524bb1d2f0f1227
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298479"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865180"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Überwachen von Nutzung und Feedback in Microsoft Teams
 Es ist wichtig zu wissen, wie Benutzer Microsoft Teams verwenden und welche Erfahrungen sie dabei machen. Mithilfe von Nutzungsberichten können Sie Nutzungsmuster besser verstehen. In Kombination mit Feedback von Benutzern gelangen Sie so zu Einsichten, die Sie Ihrer weiteren Bereitstellung zugrunde legen und zur Priorisierung von Schulungs- und Kommunikationsinitiativen verwenden können.
@@ -51,10 +51,10 @@ Um diese Berichte anzuzeigen, müssen Sie ein globaler Administrator in Office 3
 
 Weitere Informationen finden Sie unter [Teams-Analysen und -Berichte](teams-analytics-and-reports/teams-reporting-reference.md). 
 
-### <a name="teams-activity-reports-office-365-admin-center"></a>Teams-Aktivitätsberichte (Office 365 Admin Center)
-Sie können die Aktivitäten in Microsoft Teams außerdem in Berichten anzeigen, die im Office 365 Admin Center verfügbar sind. Diese Berichte sind Teil der Office 365-Berichte im Office 365 Admin Center und bieten Informationen über Benutzeraktivitäten und Gerätenutzung. 
+### <a name="teams-activity-reports-microsoft-365-admin-center"></a>Teams-Aktivitätsberichte (Microsoft 365 Admin Center)
+Sie können die Aktivitäten in Microsoft Teams außerdem in Berichten anzeigen, die im Microsoft 365 Admin Center verfügbar sind. Diese Berichte sind Teil der Office 365-Berichte im Microsoft 365 Admin Center und bieten Informationen über Benutzeraktivitäten und Gerätenutzung. 
 
-Um diese Berichte anzuzeigen, wechseln Sie zum Office 365 Admin Center, und klicken Sie auf **Berichte** > **Verwendung**. Klicken Sie unter **Bericht auswählen** auf **Microsoft Teams**. Wählen Sie hier den gewünschten Bericht aus.
+Um diese Berichte anzuzeigen, wechseln Sie zum Microsoft 365 Admin Center, und klicken Sie auf **Berichte** > **Verwendung**. Klicken Sie unter **Bericht auswählen** auf **Microsoft Teams**. Wählen Sie hier den gewünschten Bericht aus.
 
 Weitere Informationen finden Sie unter [Verwenden von Aktivitätsberichten für Microsoft Teams](teams-activity-reports.md).
 

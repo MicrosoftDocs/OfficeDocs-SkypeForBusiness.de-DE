@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baad7614cbcb622017de7629fa62799be330dc88
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 75bb17e70cc1e7da4081064074a0862bb93122fc
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402515"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865172"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Verwalten des Angebots für einen Test der kommerziellen Cloud von Microsoft Teams
 =======================================================
@@ -52,7 +52,7 @@ Die Testversion gewährt ein 1-Jahres-Testabonnement für Ihre gesamte Organisat
 
 ## <a name="who-is-eligible"></a>Wer ist berechtigt?
 
-Benutzern muss (im Office 365 Admin Center) die Möglichkeit bereitgestellt werden, sich für Apps und Testversionen zu registrieren. Weitere Informationen finden Sie weiter unten in diesem Artikel unter [Verwalten der Testversion](#manage-the-trial). 
+Benutzern muss (im Microsoft 365 Admin Center) die Möglichkeit bereitgestellt werden, sich für Apps und Testversionen zu registrieren. Weitere Informationen finden Sie weiter unten in diesem Artikel unter [Verwalten der Testversion](#manage-the-trial). 
 
 Benutzer, die keine Office 365-Lizenz besitzen, können das Angebot für einen Test der kommerziellen Cloud von Microsoft Teams in Anspruch nehmen. Wenn ein Benutzer beispielsweise Office 365 Business verwendet (das Microsoft Teams nicht beinhaltet), ist er berechtigt, die Testversion in Anspruch zu nehmen.
 
