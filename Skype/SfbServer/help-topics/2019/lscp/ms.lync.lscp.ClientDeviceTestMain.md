@@ -1,8 +1,8 @@
 ---
 title: Testgerät
 ms.reviewer: ''
-ms.author: SerdarS
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,52 +13,52 @@ localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie können der Seite Testgerät ein Gerät hinzufügen und mit diesem Gerät anschließend die Funktionalität neuer Updates überprüfen, bevor die Updates auf Produktionsgeräten bereitgestellt werden. Sie können ein Gerät global (innerhalb Ihrer gesamten Umgebung) oder innerhalb eines einzelnen Standorts testen. Sie identifizieren ein Testgerät über seine MAC-Adresse (Media Access Control) oder Seriennummer. Wenn Sie ein Gerät hinzufügen, wird sie in der Liste auf der Seite Testgerät der Skype Business Server-Systemsteuerung.
-ms.openlocfilehash: 86c8320615ac4d194c33e455283a7b56fd5fb825
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f1b865186298869c726a15612cc10f59d1c8d633
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215892"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891901"
 ---
-# <a name="test-device"></a><span data-ttu-id="dcd4f-106">Testgerät</span><span class="sxs-lookup"><span data-stu-id="dcd4f-106">Test Device</span></span>
+# <a name="test-device"></a><span data-ttu-id="63918-106">Testgerät</span><span class="sxs-lookup"><span data-stu-id="63918-106">Test Device</span></span>
 
-<span data-ttu-id="dcd4f-107">Sie können der Seite **Testgerät** ein Gerät hinzufügen und mit diesem Gerät anschließend die Funktionalität neuer Updates überprüfen, bevor die Updates auf Produktionsgeräten bereitgestellt werden.</span><span class="sxs-lookup"><span data-stu-id="dcd4f-107">You can add a test device to the **Test Device** page and then use this device to verify the functionality of new updates before deploying the updates to production devices.</span></span> <span data-ttu-id="dcd4f-108">Sie können ein Gerät global (innerhalb Ihrer gesamten Umgebung) oder innerhalb eines einzelnen Standorts testen.</span><span class="sxs-lookup"><span data-stu-id="dcd4f-108">You can test a device globally (throughout your entire environment) or within a single site.</span></span> <span data-ttu-id="dcd4f-109">Sie identifizieren ein Testgerät über seine MAC-Adresse (Media Access Control) oder Seriennummer.</span><span class="sxs-lookup"><span data-stu-id="dcd4f-109">You identify a test device by its Media Access Control (MAC) address or serial number.</span></span> <span data-ttu-id="dcd4f-110">Wenn Sie ein Gerät hinzufügen, wird sie in der Liste auf der Seite **Testgerät** der Skype Business Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="dcd4f-110">When you add a device, it appears in the list on the **Test Device** page of the Skype for Business Server Control Panel.</span></span>
+<span data-ttu-id="63918-107">Sie können der Seite **Testgerät** ein Gerät hinzufügen und mit diesem Gerät anschließend die Funktionalität neuer Updates überprüfen, bevor die Updates auf Produktionsgeräten bereitgestellt werden.</span><span class="sxs-lookup"><span data-stu-id="63918-107">You can add a test device to the **Test Device** page and then use this device to verify the functionality of new updates before deploying the updates to production devices.</span></span> <span data-ttu-id="63918-108">Sie können ein Gerät global (innerhalb Ihrer gesamten Umgebung) oder innerhalb eines einzelnen Standorts testen.</span><span class="sxs-lookup"><span data-stu-id="63918-108">You can test a device globally (throughout your entire environment) or within a single site.</span></span> <span data-ttu-id="63918-109">Sie identifizieren ein Testgerät über seine MAC-Adresse (Media Access Control) oder Seriennummer.</span><span class="sxs-lookup"><span data-stu-id="63918-109">You identify a test device by its Media Access Control (MAC) address or serial number.</span></span> <span data-ttu-id="63918-110">Wenn Sie ein Gerät hinzufügen, wird sie in der Liste auf der Seite **Testgerät** der Skype Business Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="63918-110">When you add a device, it appears in the list on the **Test Device** page of the Skype for Business Server Control Panel.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="dcd4f-111">Mögliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="dcd4f-111">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="63918-111">Mögliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="63918-111">Tasks you can perform</span></span>
 
-<span data-ttu-id="dcd4f-112">Klicken Sie auf der Seite **Testgerät** können Sie die folgenden Aufgaben ausführen:</span><span class="sxs-lookup"><span data-stu-id="dcd4f-112">You can perform the following tasks on the **Test Device** page:</span></span>
+<span data-ttu-id="63918-112">Klicken Sie auf der Seite **Testgerät** können Sie die folgenden Aufgaben ausführen:</span><span class="sxs-lookup"><span data-stu-id="63918-112">You can perform the following tasks on the **Test Device** page:</span></span>
 
-- <span data-ttu-id="dcd4f-113">Hinzufügen eines neuen Geräts global oder für einen bestimmten Standort.</span><span class="sxs-lookup"><span data-stu-id="dcd4f-113">Add a test device globally or for a particular site.</span></span>
+- <span data-ttu-id="63918-113">Hinzufügen eines neuen Geräts global oder für einen bestimmten Standort.</span><span class="sxs-lookup"><span data-stu-id="63918-113">Add a test device globally or for a particular site.</span></span>
 
-- <span data-ttu-id="dcd4f-114">Ändern der Optionen für ein vorhandenes Testgerät.</span><span class="sxs-lookup"><span data-stu-id="dcd4f-114">Modify the options for an existing test device.</span></span>
+- <span data-ttu-id="63918-114">Ändern der Optionen für ein vorhandenes Testgerät.</span><span class="sxs-lookup"><span data-stu-id="63918-114">Modify the options for an existing test device.</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="dcd4f-115">Referenz zur Benutzeroberfläche</span><span class="sxs-lookup"><span data-stu-id="dcd4f-115">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="63918-115">Referenz zur Benutzeroberfläche</span><span class="sxs-lookup"><span data-stu-id="63918-115">UI Reference</span></span>
 
-<span data-ttu-id="dcd4f-116">In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.</span><span class="sxs-lookup"><span data-stu-id="dcd4f-116">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
+<span data-ttu-id="63918-116">In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.</span><span class="sxs-lookup"><span data-stu-id="63918-116">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
 
-- <span data-ttu-id="dcd4f-117">**Neue** Sie können ein neues Testgerät mit dem folgenden Bereich hinzufügen:</span><span class="sxs-lookup"><span data-stu-id="dcd4f-117">**New** You can add a new test device with the following scope:</span></span>
+- <span data-ttu-id="63918-117">**Neue** Sie können ein neues Testgerät mit dem folgenden Bereich hinzufügen:</span><span class="sxs-lookup"><span data-stu-id="63918-117">**New** You can add a new test device with the following scope:</span></span>
 
-  - <span data-ttu-id="dcd4f-118">Global</span><span class="sxs-lookup"><span data-stu-id="dcd4f-118">Global</span></span>
+  - <span data-ttu-id="63918-118">Global</span><span class="sxs-lookup"><span data-stu-id="63918-118">Global</span></span>
 
-  - <span data-ttu-id="dcd4f-119">Standort</span><span class="sxs-lookup"><span data-stu-id="dcd4f-119">Site</span></span>
+  - <span data-ttu-id="63918-119">Standort</span><span class="sxs-lookup"><span data-stu-id="63918-119">Site</span></span>
 
-- <span data-ttu-id="dcd4f-120">**Bearbeiten** Sie können die Optionen in der Liste ein Testgerät ändern.</span><span class="sxs-lookup"><span data-stu-id="dcd4f-120">**Edit** You can change the options of a test device in the list.</span></span> <span data-ttu-id="dcd4f-121">Mit dieser Option haben Sie folgende Möglichkeiten:</span><span class="sxs-lookup"><span data-stu-id="dcd4f-121">Using this option, you can do the following:</span></span>
+- <span data-ttu-id="63918-120">**Bearbeiten** Sie können die Optionen in der Liste ein Testgerät ändern.</span><span class="sxs-lookup"><span data-stu-id="63918-120">**Edit** You can change the options of a test device in the list.</span></span> <span data-ttu-id="63918-121">Mit dieser Option haben Sie folgende Möglichkeiten:</span><span class="sxs-lookup"><span data-stu-id="63918-121">Using this option, you can do the following:</span></span>
 
-  - <span data-ttu-id="dcd4f-122">**Details anzeigen** Diese Option öffnet ein Dialogfeld, in dem Sie die Optionen für ein Testgerät ändern können.</span><span class="sxs-lookup"><span data-stu-id="dcd4f-122">**Show details** This option opens a dialog box in which you can change the options for a test device.</span></span>
+  - <span data-ttu-id="63918-122">**Details anzeigen** Diese Option öffnet ein Dialogfeld, in dem Sie die Optionen für ein Testgerät ändern können.</span><span class="sxs-lookup"><span data-stu-id="63918-122">**Show details** This option opens a dialog box in which you can change the options for a test device.</span></span>
 
-  - <span data-ttu-id="dcd4f-123">**Wählen Sie alle** Diese Option werden alle Testgeräte der Liste ausgewählt.</span><span class="sxs-lookup"><span data-stu-id="dcd4f-123">**Select All** This option selects all test devices in the list.</span></span>
+  - <span data-ttu-id="63918-123">**Wählen Sie alle** Diese Option werden alle Testgeräte der Liste ausgewählt.</span><span class="sxs-lookup"><span data-stu-id="63918-123">**Select All** This option selects all test devices in the list.</span></span>
 
-  - <span data-ttu-id="dcd4f-124">**Löschen** Diese Option werden alle ausgewählten Testgeräte gelöscht.</span><span class="sxs-lookup"><span data-stu-id="dcd4f-124">**Delete** This option deletes all selected test devices.</span></span>
+  - <span data-ttu-id="63918-124">**Löschen** Diese Option werden alle ausgewählten Testgeräte gelöscht.</span><span class="sxs-lookup"><span data-stu-id="63918-124">**Delete** This option deletes all selected test devices.</span></span>
 
-- <span data-ttu-id="dcd4f-125">**Aktualisieren** Sie können den Status der Optionen aller Testgeräte zu überprüfen, um eine Liste mit den Testgeräten aktualisieren.</span><span class="sxs-lookup"><span data-stu-id="dcd4f-125">**Refresh** You can refresh the test device list to verify the status of the options of all test devices.</span></span>
+- <span data-ttu-id="63918-125">**Aktualisieren** Sie können den Status der Optionen aller Testgeräte zu überprüfen, um eine Liste mit den Testgeräten aktualisieren.</span><span class="sxs-lookup"><span data-stu-id="63918-125">**Refresh** You can refresh the test device list to verify the status of the options of all test devices.</span></span>
 
-<span data-ttu-id="dcd4f-126">Ausführliche Informationen zu Testgeräten finden Sie unter [Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="dcd4f-126">For details about testing devices, see [Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) in the Operations documentation.</span></span>
-## <a name="see-also"></a><span data-ttu-id="dcd4f-127">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="dcd4f-127">See also</span></span>
+<span data-ttu-id="63918-126">Ausführliche Informationen zu Testgeräten finden Sie unter [Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="63918-126">For details about testing devices, see [Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) in the Operations documentation.</span></span>
+## <a name="see-also"></a><span data-ttu-id="63918-127">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="63918-127">See also</span></span>
 
-[<span data-ttu-id="dcd4f-128">Testgerät: Erstellen eines neuen oder Bearbeiten eines vorhandenen Testgeräts</span><span class="sxs-lookup"><span data-stu-id="dcd4f-128">Test Device: Create New or Edit Existing</span></span>](ms.lync.lscp.ClientDeviceTestEdit.md)
+[<span data-ttu-id="63918-128">Testgerät: Erstellen eines neuen oder Bearbeiten eines vorhandenen Testgeräts</span><span class="sxs-lookup"><span data-stu-id="63918-128">Test Device: Create New or Edit Existing</span></span>](ms.lync.lscp.ClientDeviceTestEdit.md)
 
-[<span data-ttu-id="dcd4f-129">New-CsTestDevice</span><span class="sxs-lookup"><span data-stu-id="dcd4f-129">New-CsTestDevice</span></span>](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
+[<span data-ttu-id="63918-129">New-CsTestDevice</span><span class="sxs-lookup"><span data-stu-id="63918-129">New-CsTestDevice</span></span>](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
 
-[<span data-ttu-id="dcd4f-130">Set-CsTestDevice</span><span class="sxs-lookup"><span data-stu-id="dcd4f-130">Set-CsTestDevice</span></span>](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
+[<span data-ttu-id="63918-130">Set-CsTestDevice</span><span class="sxs-lookup"><span data-stu-id="63918-130">Set-CsTestDevice</span></span>](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
 
-[<span data-ttu-id="dcd4f-131">Anzeigen von Softwareupdates für Geräte in Ihrer Organisation</span><span class="sxs-lookup"><span data-stu-id="dcd4f-131">View Software Updates for Devices in Your Organization</span></span>](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
+[<span data-ttu-id="63918-131">Anzeigen von Softwareupdates für Geräte in Ihrer Organisation</span><span class="sxs-lookup"><span data-stu-id="63918-131">View Software Updates for Devices in Your Organization</span></span>](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)

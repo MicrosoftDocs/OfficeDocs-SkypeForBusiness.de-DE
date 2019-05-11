@@ -1,8 +1,8 @@
 ---
 title: Externe Zugriffsrichtlinie Erstellen einer neuen oder Bearbeiten einer vorhandenen
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,23 +13,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 153029913deff88d098f7bac4bbc6b2f6ec08cc5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d5569737cb8edeabcb628ec8e6adc43234507375
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200716"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901515"
 ---
-# <a name="external-access-policy-create-new-or-edit-existing"></a><span data-ttu-id="ae996-104">Richtlinie für den externen Zugriff: Erstellen einer neuen oder Bearbeiten einer vorhandenen Richtlinie für den externen Zugriff</span><span class="sxs-lookup"><span data-stu-id="ae996-104">External Access Policy: Create New or Edit Existing</span></span>
+# <a name="external-access-policy-create-new-or-edit-existing"></a><span data-ttu-id="5ccb7-104">Richtlinie für den externen Zugriff: Erstellen einer neuen oder Bearbeiten einer vorhandenen Richtlinie für den externen Zugriff</span><span class="sxs-lookup"><span data-stu-id="5ccb7-104">External Access Policy: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="ae996-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="ae996-105">What do you want to do?</span></span> <span data-ttu-id="ae996-106">Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="ae996-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="5ccb7-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="5ccb7-105">What do you want to do?</span></span> <span data-ttu-id="5ccb7-106">Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="5ccb7-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="ae996-107">Reset or Delete External User Access Policies</span><span class="sxs-lookup"><span data-stu-id="ae996-107">Reset or Delete External User Access Policies</span></span>](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
+- [<span data-ttu-id="5ccb7-107">Reset or Delete External User Access Policies</span><span class="sxs-lookup"><span data-stu-id="5ccb7-107">Reset or Delete External User Access Policies</span></span>](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
 
-- [<span data-ttu-id="ae996-108">Configure Policies to Control Federated User Access</span><span class="sxs-lookup"><span data-stu-id="ae996-108">Configure Policies to Control Federated User Access</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="5ccb7-108">Configure Policies to Control Federated User Access</span><span class="sxs-lookup"><span data-stu-id="5ccb7-108">Configure Policies to Control Federated User Access</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [<span data-ttu-id="ae996-109">Manage Remote User Access</span><span class="sxs-lookup"><span data-stu-id="ae996-109">Manage Remote User Access</span></span>](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
+- [<span data-ttu-id="5ccb7-109">Manage Remote User Access</span><span class="sxs-lookup"><span data-stu-id="5ccb7-109">Manage Remote User Access</span></span>](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
 
-- [<span data-ttu-id="ae996-110">Configure Policies to Control Access by Users of IM Service Providers</span><span class="sxs-lookup"><span data-stu-id="ae996-110">Configure Policies to Control Access by Users of IM Service Providers</span></span>](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
+- [<span data-ttu-id="5ccb7-110">Configure Policies to Control Access by Users of IM Service Providers</span><span class="sxs-lookup"><span data-stu-id="5ccb7-110">Configure Policies to Control Access by Users of IM Service Providers</span></span>](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
 
 
