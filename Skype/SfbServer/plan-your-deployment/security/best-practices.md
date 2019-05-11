@@ -1,8 +1,8 @@
 ---
 title: Bewährte Methoden für die Hauptinfrastruktur in Skype für Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: Sie haben wahrscheinlich bereits Schritte unternommen, um Fehlertoleranz in Ihrem System zu entwerfen, und Verfahren wie das Sicherstellen von Hardwareredundanz, Schutzmaßnahmen gegen Stromausfälle, Routineinstallation von Sicherheitsupdates und Antivirenmaßnahmen sowie Monitoring Server-Aktivitäten verwendet. Diese Methoden profitieren nicht nur Ihre Skype für Business Server-Infrastruktur, sondern auch das gesamte Netzwerk. Wenn Sie diese Verfahren nicht umgesetzt haben, wird empfohlen, dass Sie dies tun, vor der Bereitstellung von Skype für Business Server.
-ms.openlocfilehash: 86d18e1d9d34b5f65f4cb938e13a9829af1646bb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 66725331c84e3f2d24e496489e0db8ef9866d0e8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213627"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896354"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Bewährte Methoden für die Hauptinfrastruktur in Skype für Business Server
  

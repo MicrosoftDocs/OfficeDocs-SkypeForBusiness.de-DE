@@ -1,8 +1,8 @@
 ---
 title: Liste der KDS-Ansichten
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 7/15/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: Ansichten bieten eine einfache Möglichkeit zum Zugriff auf Informationen zu den gängigsten Szenarien für die Rückgabe von Daten aus der CDR-Datenbank verwendet. Es wird empfohlen, zum Erstellen von benutzerdefinierten Berichten anstelle der tatsächlichen CDR Datenbanktabellen Ansichten zu verwenden; Dies liegt daran Datenbankansichten zum Aufrechterhalten der Abwärtskompatibilität Kompatibilität mit zukünftigen Versionen mehr wahrscheinlich eine Rolle spielen.
-ms.openlocfilehash: 7767a80069201e5ec07ea68d4bdef3a6a5977e4d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 87ca2199e3dc6524f49629ade023c734d7077de6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213008"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930223"
 ---
 # <a name="list-of-cdr-views"></a>Liste der KDS-Ansichten
  

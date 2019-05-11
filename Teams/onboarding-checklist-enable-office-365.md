@@ -1,7 +1,7 @@
 ---
 title: Onboardingcheckliste für das Aktivieren des Office 365-Diensts für Microsoft Teams
-author: rmw2890
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62f5b3180a0153aa0600d4d80b90fe6c681af43e
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 6f60fa24df90b23583f4ee682c6a9a1ce818794a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400648"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33898811"
 ---
 # <a name="enable-office-365"></a>Aktivieren von Office 365
  
