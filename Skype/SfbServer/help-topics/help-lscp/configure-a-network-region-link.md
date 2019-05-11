@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren einer Netzwerkregionenverbindung
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 5391f96b49f0c3fe29da44781d5f51633de9d128
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 499b498fa4c7d0388aa62cfe4db74efafdf9b1c0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234721"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929076"
 ---
 # <a name="configure-a-network-region-link"></a>Konfigurieren einer Netzwerkregionenverbindung
 

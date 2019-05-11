@@ -1,8 +1,8 @@
 ---
 title: (Optional) Überprüfen der Bereitstellung in Skype für Unternehmen zum Parken von Anrufen
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 description: Überprüfen der bereitstellungs von zum Parken von Anrufen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 514c82590d56a2de16ca31cc892032afe5e7a34c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: da53d351acef3eb2fc7fcc1b59e24a83d0cb2495
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225632"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894668"
 ---
 # <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>(Optional) Überprüfen der Bereitstellung in Skype für Unternehmen zum Parken von Anrufen
  

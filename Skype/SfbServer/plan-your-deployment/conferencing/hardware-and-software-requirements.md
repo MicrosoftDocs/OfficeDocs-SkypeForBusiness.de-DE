@@ -1,8 +1,8 @@
 ---
 title: Hardware und Software-Anforderungen für Konferenzen in Skype für Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu Hardware und Software-Anforderungen für Konferenzen in Skype für Business Server erhalten.'
-ms.openlocfilehash: 3385395eb34e69fadcdce4ba4bf529a347a2979c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 26917b3360f5e561d6484efda9b9cae76df15065
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214390"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897982"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Hardware und Software-Anforderungen für Konferenzen in Skype für Business Server
 

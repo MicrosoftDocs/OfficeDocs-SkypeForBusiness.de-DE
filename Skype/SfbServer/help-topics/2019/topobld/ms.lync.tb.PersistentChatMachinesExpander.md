@@ -1,8 +1,8 @@
 ---
 title: Computer für beständigen Chat - Erweiterung
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 ROBOTS: NOINDEX, NOFOLLOW
 description: Aktivieren oder Deaktivieren einer bereitgestellten Persistent Chat-Server oder Persistent Chat Server Pool mithilfe der Server oder Pools im Computer Zustand Einstellungen aufgeführt. Wählen Sie einen Server oder Pool in der Liste aus, und klicken Sie auf die aktive Stellen-Schaltfläche, um einen Server oder Pool als aktiv festlegen.
-ms.openlocfilehash: dd061a643b5187222956e8b344da6c3a027bb2dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 42031a5d515afaeb878d60b1a2891b70ad9276e3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201643"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885669"
 ---
 # <a name="persistent-chat-machines-expander"></a>Computer für beständigen Chat - Erweiterung
 

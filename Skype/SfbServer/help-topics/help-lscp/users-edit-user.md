@@ -1,8 +1,8 @@
 ---
 title: Benutzer bearbeiten-Benutzer
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 18b9d5f6ccae5216888fd8c9be541790c13ce70f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 303b26856e033831b8c711d9e41755f7595044da
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200429"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912396"
 ---
 # <a name="users-edit-user"></a>Benutzer: Bearbeiten von Benutzern
 

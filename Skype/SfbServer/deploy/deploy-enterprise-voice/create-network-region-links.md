@@ -1,8 +1,8 @@
 ---
 title: Erstellen von netzwerkregionenverbindungen in Skype für Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: Erstellen oder Ändern von netzwerkregionenverbindungen, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden.
-ms.openlocfilehash: 729b20010390bf0a8865adce96a398d362009552
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c3b0f24ffdeea1724c89951ffc88516aea4dffb5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223360"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892958"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>Erstellen von netzwerkregionenverbindungen in Skype für Business Server
  

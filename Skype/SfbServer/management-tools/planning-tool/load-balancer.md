@@ -1,8 +1,8 @@
 ---
 title: Load Balancer (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/8/2016
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: 'Wenn Sie Front-End-Pools, Director-Pools oder edgeserverpools haben, müssen Sie für den Lastenausgleich für diese Pools bereitstellen. Beim Lastenausgleich wird der Datenverkehr auf die Server in einem Pool verteilt. Ausführliche Informationen finden Sie unter:'
-ms.openlocfilehash: d185e7f45106ace873fbf31917f1c91f551d7c3e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 65e150952bd7ab147cc90b1b53aab49b140e8c3d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217537"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915073"
 ---
 # <a name="load-balancer-planning-tool"></a>Load Balancer (Planning Tool)
  
