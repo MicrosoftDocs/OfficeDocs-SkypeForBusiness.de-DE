@@ -1,8 +1,8 @@
 ---
 title: Übersetzungsregeln in Skype für Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: Erfahren Sie mehr über Übersetzungsregeln, und wählen Sie die Normalisierung von Zeichenfolgen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 5b609701779a80645061036fd04e4a46427261b3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e81136e4217e4c9210d115fafae11a58855c5ae3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206459"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913300"
 ---
 # <a name="translation-rules-in-skype-for-business-server"></a>Übersetzungsregeln in Skype für Business Server
 

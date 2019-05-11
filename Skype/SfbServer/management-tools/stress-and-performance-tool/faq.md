@@ -1,9 +1,10 @@
 ---
 title: Häufig gestellte Fragen zu den Skype für Business Server 2015 Stress and Performance-Tool
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.date: 11/11/2015
+manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: 'Skype für Business 2015 Stress and Performance-Tool: häufig gestellte Fragen (FAQ), nützlich für Sie herausfinden, welche Toolkonfigurationen unterstützt werden und Problembehandlung bei Tool zur Klärung Verhalten hin, die bei der Ausführung der Stress and Performance-Tools angezeigt werden .'
-ms.openlocfilehash: f71ff02d1bcb6bb858aa4e00144e55bf43c4cbd5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 604644d5aecb12f94304d1c7ce271c68208e1964
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236123"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906746"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Häufig gestellte Fragen zu den Skype für Business Server 2015 Stress and Performance-Tool
  

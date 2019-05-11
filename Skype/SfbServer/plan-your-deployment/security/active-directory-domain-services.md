@@ -1,8 +1,8 @@
 ---
 title: Active Directory-Domänendienste für Skype für Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Active Directory-Domänendienste fungiert als Verzeichnisdienst für Windows Server 2003, Windows Server 2008, Windows Server 2012 und Windows Server 2012 R2-Netzwerke. Active Directory-Domänendienste dient auch als Grundlage für die die Skype Sicherheitsinfrastruktur Business Server erstellt wird. Der Zweck dieses Abschnitts wird beschrieben, wie Skype für Business Server Active Directory Domain Services verwendet, um eine vertrauenswürdige Umgebung für Sofortnachrichten, Konferenzen, Medien und VoIP zu erstellen. Ausführliche Informationen zum Vorbereiten der Umgebung für Active Directory Domain Services finden Sie unter Installieren von Skype Business Server in der Bereitstellungsdokumentation. Ausführliche Informationen zur Rolle der Active Directory-Domänendienste in Windows Server-Netzwerken finden Sie unter Dokumentation für die Version des Betriebssystems, die Sie verwenden.
-ms.openlocfilehash: 1664f3b354078c79429b20e7654b363ce9fccb7f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ba37ffb806951a6726478b5404c7ff756a9f9522
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213662"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888079"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Active Directory-Domänendienste für Skype für Business Server
  

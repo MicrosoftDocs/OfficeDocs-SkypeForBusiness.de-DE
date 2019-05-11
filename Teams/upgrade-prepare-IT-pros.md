@@ -1,7 +1,7 @@
 ---
 title: Schulung für Microsoft-Teams | IT-Support Admin Probleme
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3524e28df5e24fa32655e694def1400db45c5953
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a0334b13b79348203666c81e597af7b6f00a6190
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203932"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906848"
 ---
 ![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft")
 

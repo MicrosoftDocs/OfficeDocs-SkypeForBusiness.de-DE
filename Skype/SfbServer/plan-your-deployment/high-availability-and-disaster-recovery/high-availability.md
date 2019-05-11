@@ -1,8 +1,8 @@
 ---
 title: Hohe Verfügbarkeit und Verwaltung von Front-End-Pools
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Informationen Sie zu Front-End-Pool-Verwaltung in Skype für Business Server, einschließlich der Verwaltung von Pools, Quorum Verlust und speziellen Schritte für Pools mit nur zwei Front-End-Servern.
-ms.openlocfilehash: 43c8e3fffb010bf268f94970b5cca25ecee7cd58
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bab9d4b40132665719a1e9d019b8f34e2d96622d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214075"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910228"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Hohe Verfügbarkeit und Verwaltung von Front-End-Pools
  

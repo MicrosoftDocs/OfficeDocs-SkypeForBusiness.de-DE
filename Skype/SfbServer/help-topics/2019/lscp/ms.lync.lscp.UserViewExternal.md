@@ -1,8 +1,8 @@
 ---
 title: Benutzer anzeigen oder Konfigurieren der Richtlinie für den externen Zugriff
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: a13a13f19243ad6d5335173185dbb457385c675b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 65247a09fe1e13ef38a9101cb4ac6ad013c675b4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879742"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890746"
 ---
 # <a name="users-view-or-configure-external-access-policy"></a>Benutzer: Anzeigen oder Konfigurieren von Richtlinien für den externen Zugriff
 

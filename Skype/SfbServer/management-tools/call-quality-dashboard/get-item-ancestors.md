@@ -1,8 +1,8 @@
 ---
 title: Abrufen von übergeordneten Elementen
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: 'Zusammenfassung: Informationen Sie zum Vorgang Element Vorgänger erhalten möchten, der Teil der Element-Dienst ist. Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 7afeecb81d1933b0a308b174e49f6d8ff45a93dd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 22672146ec9ab071041c85c31a466d766ffe31b9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873112"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930637"
 ---
 # <a name="get-item-ancestors"></a>Abrufen von übergeordneten Elementen
  

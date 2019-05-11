@@ -1,8 +1,8 @@
 ---
 title: Parken von Anrufen
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie ein Anruf geparkt wurde, wird er übertragen in eine temporäre Zahl ist, in dem der Anruf gehalten, bis jemand ruft sie ab, oder das Zeitlimit überschritten. Sie müssen eine Tabelle mit den Bereichen von Durchwahlnummern konfigurieren, die Sie für Geparkte Anrufe reservieren. Dabei muss es sich um virtuelle Durchwahlnummern handeln (also Nummern, denen kein Benutzer oder Telefon zugeordnet ist). Jeder Pool, der die Anwendung zum Parken ausgeführt wird kann eine oder mehrere Bereiche von Erweiterungen verfügen. Diese Bereiche müssen innerhalb der Bereitstellung eindeutig sein.
-ms.openlocfilehash: f23ec10607c8cd1f6ec15dca3f9e3b99666abf1a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f5ca06e9df54a78294c25557f47b69516f378832
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221581"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890648"
 ---
 # <a name="call-park"></a>Parken von Anrufen
 

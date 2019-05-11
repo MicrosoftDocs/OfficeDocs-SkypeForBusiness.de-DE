@@ -1,8 +1,8 @@
 ---
 title: Archivierungsserver – Bereichsknoten
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 description: Im Topologie-Generator können Sie auf einen einzelnen Archivierungsserver bezogene Aufgaben ausführen, indem Sie entweder in der Konsolenstruktur mit der rechten Maustaste auf Archivierungsserver klicken und anschließend auf der Symbolleiste auf Aktion klicken oder im Bereich „Aktionen“ auf eine Aufgabe und anschließend auf die folgende Archivierungsserveroption klicken.
-ms.openlocfilehash: 60f79b174f992718488a7eacb2d578dc05bf472f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 116b1695dbc97ad81b3840ff43e7ed930d5b269f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227467"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885632"
 ---
 # <a name="archiving-servers-scope-node"></a>Archivierungsserver – Bereichsknoten
  

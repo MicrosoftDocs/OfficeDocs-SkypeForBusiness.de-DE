@@ -1,8 +1,8 @@
 ---
 title: Besprechungskonfiguration
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/24/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 description: Besprechungskonfigurationseinstellungen definieren Sie den Typ der Konferenzen (auch Calledmeetings), dass Benutzer erstellen können, und steuern, wie (oder ob) anonyme Benutzer und einwahlkonferenzbenutzer diesen Konferenzen teilnehmen können. Diese Einstellungen gelten nur für geplante Besprechungen. Sie gelten nicht für Ad-hoc-Besprechungen, die durch Klicken auf die Option Sofortbesprechung erstellt werden.
-ms.openlocfilehash: 32bbb6861271623e0a4126d98e36c28542ddfc8d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5381394d106c19091e6f8c29582358b60aa36912
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220319"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911016"
 ---
 # <a name="meeting-configuration"></a>Besprechungskonfiguration
 

@@ -1,8 +1,8 @@
 ---
 title: Ohne Commit VoIP-Konfiguration Einstellungen überprüfen
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie das Dialogfeld VoIP-Konfigurationseinstellungen ohne Commit, um alle Änderungen zu überprüfen, die Sie vorgenommen haben. Blättern Sie durch das Dialogfeld auf alle nicht übernommene Änderungen überprüfen, oder klicken Sie auf die Pfeile zum Erweitern oder reduzieren die verschiedenen Abschnitte. Wenn Sie fertig sind, klicken Sie auf Schließen. Nachdem Sie das Dialogfeld schließen, können Sie Ihre Änderungen zu ändern oder diese übernehmen.
-ms.openlocfilehash: 9fbaaff594bd432fcd36e74878ecac40be0e33ce
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d59edc1ea64c1a2db114ae6c7cc1521afdcf8392
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221208"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890361"
 ---
 # <a name="uncommitted-voice-configuration-settings-review"></a>VoIP-Konfigurationseinstellungen ohne Commit: Anzeigen
  

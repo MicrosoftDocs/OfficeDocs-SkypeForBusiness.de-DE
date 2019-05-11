@@ -1,8 +1,8 @@
 ---
 title: Auswählen von Übersetzungsregeln für die wählende Nummer
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/24/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 description: 'Im Dialogfeld Übersetzungsregeln für die wählende Nummer auswählen werden die Übersetzungsregeln angezeigt, die für die Bereitstellung konfiguriert sind. Ausführliche Informationen zu Übersetzungsregeln finden Sie in den folgenden Themen:'
-ms.openlocfilehash: 4a9ac4b6c48f6d4faf30b9527c2e536fb0532caf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f8d78976878d41dca559de31e2964ea8c54c88d3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200548"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924668"
 ---
 # <a name="select-calling-number-rules-translation"></a>Auswählen von Übersetzungsregeln für die wählende Nummer
 

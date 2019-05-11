@@ -1,8 +1,8 @@
 ---
 title: Abrufen eines Benutzers
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
 description: 'Zusammenfassung: Informationen Sie zum Vorgang Benutzer abrufen, der Teil der Benutzerdienst ist. Der Benutzer-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 2d3c5febe30af2ea4d41d94aec026c25e27f21b9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: da07290582c6ccd0ca4f8f331d22e1b51e124a6a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235723"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930665"
 ---
 # <a name="get-user"></a>Abrufen eines Benutzers
  

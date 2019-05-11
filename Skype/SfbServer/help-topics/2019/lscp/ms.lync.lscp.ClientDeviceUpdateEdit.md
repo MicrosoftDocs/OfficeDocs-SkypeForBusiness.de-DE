@@ -1,8 +1,8 @@
 ---
 title: Gerät Protokoll Konfiguration bearbeiten
 ms.reviewer: ''
-ms.author: SerdarS
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie können auf der Seite Protokolleinstellungen bearbeiten eine geräteprotokollkonfiguration hinzufügen, die bestimmt, die maximale Cachegröße, die maximale Größe der Protokolldatei oder die Zeitdauer, die eine Protokolldatei gespeichert wird, bevor es gelöscht wird. Sie können diese Einstellungen entsprechend den Anforderungen der Organisation ändern.
-ms.openlocfilehash: ac8e30dced9c5383ab88068d27a6a44444312da1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a17f10a93fa3743db32dbfa9271dd2f4477ac595
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215871"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891887"
 ---
 # <a name="device-log-configuration-edit"></a>Geräteprotokollkonfiguration: Bearbeiten
  

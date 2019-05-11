@@ -1,7 +1,7 @@
 ---
 title: Planen für Skype for Business in VDI-Umgebungen
-author: jambirk
-ms.author: jambirk
+author: lanachin
+ms.author: v-lanac
 ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: In diesem Thema werden Planungsaspekte für die Verwendung von Skype für Unternehmen beim Herstellen einer Verbindung mit einem virtuellen Remotedesktop.
-ms.openlocfilehash: 0d24426ea661e5a2d445e4fd7ef90d6a41518692
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ac4a0d214edf33c6966b7fcd8fa2ce33114dc505
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207251"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886445"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planen für Skype for Business in VDI-Umgebungen
  

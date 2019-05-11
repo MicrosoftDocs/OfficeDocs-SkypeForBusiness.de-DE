@@ -1,8 +1,8 @@
 ---
 title: Server Performance Report in Skype für Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 description: 'Zusammenfassung: Informationen Sie zu vom Server Performance Report in Skype für Business Server.'
-ms.openlocfilehash: d66bdef25435c245e005eff6618e0294fb93da4e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a326af691d461d64f0dcbc1fe4f6451db9b34cdd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198084"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33887223"
 ---
 # <a name="server-performance-report-in-skype-for-business-server"></a>Server Performance Report in Skype für Business Server
  

@@ -1,8 +1,8 @@
 ---
 title: Einstellungen für Lync Server-Standort – Erweiterung
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 description: 'Führen Sie folgende Schritte aus, um die Eigenschaften einer vorhandenen Website zu bearbeiten:'
-ms.openlocfilehash: 0c6caf08060a94836d0c14169e550634c26e7dc9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0dd7729cf9d458a2aa1c1a6b786f37a4ba41c4ee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200123"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888877"
 ---
 # <a name="lync-server-site-settings-expander"></a>Einstellungen für Lync Server-Standort – Erweiterung
 

@@ -1,7 +1,7 @@
 ---
 title: Planen der Skype für Business 2015 Clientumgebung für Ihre Benutzer
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Zusammenfassung: Erfahren Sie mehr über das neue Skype für Unternehmen und die Schritte können zum Vorbereiten Ihrer Umgebung und Ihre Benutzer für das Update, ob Sie für Business Online, Skype für Business Server 2019, Skype für Lync Server 2013 Business Server 2015 Skype verwenden oder Lync Server 2010.'
-ms.openlocfilehash: 351582e7a7619541d5401acfb46854f61c9e052d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9b6f7bbe5fdeecc8a017b973e7b77912819da789
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207258"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886473"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planen der Skype für Business 2015 Clientumgebung für Ihre Benutzer
  

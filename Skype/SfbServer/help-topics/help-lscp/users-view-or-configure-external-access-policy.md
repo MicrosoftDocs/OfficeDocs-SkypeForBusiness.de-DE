@@ -1,8 +1,8 @@
 ---
 title: Benutzer anzeigen oder Konfigurieren der Richtlinie für den externen Zugriff
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 862ab5d30c21f4e05a59a0de9d27db324839ba53
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fcc7565fc7ba10249ce6180ffa3d96998db8cfbf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200372"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924367"
 ---
 # <a name="users-view-or-configure-external-access-policy"></a>Benutzer: Anzeigen oder Konfigurieren von Richtlinien für den externen Zugriff
 

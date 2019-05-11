@@ -1,7 +1,7 @@
 ---
 title: Gastzugriff in Microsoft Teams
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/25/2018
 ms.topic: conceptual
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae1f3149ca915e2fd5a9ddf59fdb0bfad2be2ca2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f6d77c44cb7d7d5ba5dd5fd3448b118c60c0d908
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235563"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919024"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 ======================================

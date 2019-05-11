@@ -1,8 +1,8 @@
 ---
 title: Bereitstellung-Assistenten für Windows Update
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6a280cb-1428-40b6-b761-cb649b9ff7df
 description: Weitere Informationen zur Verwendung von Bereitstellungs-Assistenten zum Installieren von Skype für Business Server 2015 finden Sie unter Business Server 2015 Skype installieren.
-ms.openlocfilehash: a5956afa1038ffff90e2adecf236f6d1fc5704be
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2fcdb9f1cacb384011ecc036965391050c40ff23
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235079"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921090"
 ---
 # <a name="deployment-wizard-windows-update"></a>Bereitstellungs-Assistent: Windows Update
  

@@ -1,20 +1,21 @@
 ---
 title: Plan für moderne Authentifizierung in Skype for Business
 ms.reviewer: ''
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: v-lanac
+author: lanachin
 ms.audience: ITPro
 ms.topic: conceptual
+manager: serdars
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
 description: Themen zur Planung für die Authentifizierung und Autorisierung für Skype für Business Server, einschließlich der Integration in andere Produkte
-ms.openlocfilehash: 662eb90758bb22a9ef65492d9c9c1a99af778f23
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1a7f20fe10a757001fb3eb819371b81f24d6901e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214117"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33907157"
 ---
 # <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>Besprechen, Authentifizierung und Autorisierung in Skype für Unternehmen
 

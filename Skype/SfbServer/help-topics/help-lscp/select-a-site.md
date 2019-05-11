@@ -1,8 +1,8 @@
 ---
 title: Auswählen eines Standorts
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/24/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: Im Dialogfeld Standort auswählen suchen Sie nach den in Ihrer Umgebung verfügbaren Standorten. Klicken Sie auf einen Standort in der Liste und anschließend auf OK, um einen vorhandenen Standort zu verwenden.
-ms.openlocfilehash: e9e82749d761a8a947ab6206f341d6508f3d8d80
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ab2f0e62a38652aae6c35922416d634eb96c9598
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200590"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924346"
 ---
 # <a name="select-a-site"></a>Auswählen eines Standorts
 

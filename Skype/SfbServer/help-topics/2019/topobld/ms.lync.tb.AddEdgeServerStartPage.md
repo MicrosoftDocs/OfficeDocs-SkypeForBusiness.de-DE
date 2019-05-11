@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen der Edgeserverunterstützung
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie können die Unterstützung für den Zugriff externer Benutzer bei der Bereitstellung Ihrer anfänglichen Topologie oder zu einem späteren Zeitpunkt hinzufügen. Ausführliche Informationen zum Hinzufügen von Edgeservern zu einer vorhandenen Topologie finden Sie in der Edgeserver-Bereitstellungsdokumentation unter Define Your Edge Topology.
-ms.openlocfilehash: 78aab30b5fc0f1fefe2b42a5f1d04affcdb73244
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ad12fa4ec2907f8cd9a7e847c30edbcb76f80036
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202131"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889031"
 ---
 # <a name="add-edge-server-support"></a>Hinzufügen der Edgeserverunterstützung
 

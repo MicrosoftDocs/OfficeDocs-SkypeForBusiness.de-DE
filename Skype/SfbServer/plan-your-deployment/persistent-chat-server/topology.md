@@ -1,8 +1,8 @@
 ---
 title: Topologieplanung für den Server für beständigen Chat
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 5/17/2016
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um über Persistent Chat-Server-Komponenten und Topologien in Skype für Business Server 2015 zu erfahren.'
-ms.openlocfilehash: 6d385477256150e35b305c996dccbab7ab22f4ba
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d004557da9a47a8d5de544af18e74eb7eecc01b0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213726"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33926065"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>Topologieplanung für den Server für beständigen Chat
  

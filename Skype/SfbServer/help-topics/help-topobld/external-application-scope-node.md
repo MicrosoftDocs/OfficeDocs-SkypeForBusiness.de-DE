@@ -1,8 +1,8 @@
 ---
 title: Externe Anwendung – Bereichsknoten
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) des Pools, Replikationseinstellungen und den nächsten Hoppool für diesen vertrauenswürdigen Anwendungspool. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: d1ae8f5f6bfb4d6d517c9889d730b98f7f5d2322
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8b85cfc7b05f04197867aaceec276d2e6a469abb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194000"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910270"
 ---
 # <a name="external-application-scope-node"></a>Externe Anwendung – Bereichsknoten
  

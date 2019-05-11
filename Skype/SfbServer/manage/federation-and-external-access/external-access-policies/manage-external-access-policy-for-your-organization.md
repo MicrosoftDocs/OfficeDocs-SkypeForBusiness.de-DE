@@ -5,20 +5,20 @@ ms:assetid: 5571811e-34c8-443a-b94c-1ab5d4275581
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520995(v=OCS.15)
 ms:contentKeyID: 48184160
 mtps_version: v=OCS.15
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Nach dem eine oder mehrere Edgeserver bereitstellen, müssen Sie die Typen von externen Zugriff aktivieren, die für Ihre Organisation unterstützt werden.
-ms.openlocfilehash: bdc1a87476849a6e8383d5561af6e1b3af477869
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6e9721e8b5ec09aedbc76c4d0e547af0f7befbb5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199884"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33923188"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>Verwalten von Richtlinien für den externen Zugriff für Ihre Organisation
 

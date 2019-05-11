@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen des SQL Server-Sicherungsspeichers für den beständigen Chat
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie konfigurieren die SQL Server-Speicher, die Sicherungsdatenbanken für den beständigen Chat-Server oder Persistent Chat Server Pool bereitgestellt werden.
-ms.openlocfilehash: e5556018a69e87a462f7f06f09e69f9312f1dde2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0b25dfe7b74c0a949082546d910db48a49d90a18
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202012"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886859"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>Hinzufügen des SQL Server-Sicherungsspeichers für den beständigen Chat
 

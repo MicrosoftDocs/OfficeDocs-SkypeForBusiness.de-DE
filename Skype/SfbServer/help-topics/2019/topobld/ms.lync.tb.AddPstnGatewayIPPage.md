@@ -1,8 +1,8 @@
 ---
 title: Definieren der IP-Adresse des IP- oder PSTN-Gateways
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie definieren die IPv4 oder IPv6-Adressen für das Gateway IP-Adresse oder Telefonnummer switched Telephone Network, (PSTN), indem Sie entweder aktivieren IPv4 oder IPv6 aktivieren auswählen. Sie können auswählen, dass entweder alle konfigurierten IP-Adressen oder Verwendung von Grenzwert ausgewählten IP-Adressen verwenden.
-ms.openlocfilehash: 9323db1915388dda5c2fff2da85845fea86a2262
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4668ba0438eb312d6a42f917323fdbfc7131dea6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201984"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912339"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Definieren der IP-Adresse des IP- oder PSTN-Gateways
 

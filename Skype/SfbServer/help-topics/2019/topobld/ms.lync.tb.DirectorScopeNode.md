@@ -1,8 +1,8 @@
 ---
 title: Director – Bereichsknoten
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und den zugeordneten Dateispeicher für diesen Director-Pool. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 8413d5e9c1382bb14a12571d3cab645d033dee68
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 79b013c1d03c1168fabb46ce891b2bf791b98d91
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220537"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915944"
 ---
 # <a name="director-scope-node"></a>Director – Bereichsknoten
  

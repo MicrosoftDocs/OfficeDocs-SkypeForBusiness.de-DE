@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen der internen IP-Adresse des Edgeservers
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 description: Die interne IP-Adresse ist die IP-Adresse der internen Schnittstelle des Edgeservers.
-ms.openlocfilehash: 479dfe1f13287a98f340cac05a61ecbb39fa7c8a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: b911d9f621f05d351fa41c799556e81986bf17e8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888277"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886346"
 ---
 # <a name="add-edge-server-internal-ip"></a>Hinzufügen der internen IP-Adresse des Edgeservers
 
