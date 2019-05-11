@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 6827f750f9e4161cc5747015bad2ce832497fcb9
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 325d25bf8019a1e58c62867d3e558769ddc64da8
+ms.sourcegitcommit: a46dad8dfc685534d81bb011f3c099c6f59ce2e0
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868672"
+ms.locfileid: "33882901"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Das Telefonsystem in Office 365 bietet Ihnen Folgendes
 
@@ -61,7 +61,6 @@ Mithilfe von Telefonsystem erhalten Ihre Skype für Unternehmensbenutzer die fol
 |Enterprise-Kalender-Anrufrouting  <br/> |Enterprise-Kalender-Anrufrouting können Sie Ihre Exchange-Kalender Geschäftszeiten verwenden, aktivieren oder deaktivieren die anrufweiterleitung und Gleichzeitiges Klingeln in Skype für Unternehmen.  <br/> |
 |Integrierte Wähltastatur  <br/> | Wählen Sie nach Name oder Nummer an einer beliebigen Stelle in der Suchleiste und auf der Wähltastatur, und erhöhen Sie damit die Schnelligkeit beim Tätigen von ausgehenden Anrufen. <br/> |
 |[Verwenden des Festnetztelefons für Skype for Business-Anrufe](https://support.office.com/article/6a316c11-a05e-460c-b969-32ff0ad848e6) <br/> |Wenn Ihr Telefonapparat zu Skype für Business Online mit den Anmeldeinformationen Ihres Office 365 registriert konfiguriert ist, können Sie Personen in Ihrer Organisation mit Ihrem Telefon mit den Audiodaten der für den Anruf über das Telefon anrufen.  <br/>  |
-|Musik in der Warteschleife  <br/> |Spielt Musik ab, wenn Sie einen Anruf in der Warteschleife halten, sodass Ihre Anrufer wissen, dass Sie anwesend sind und der Anruf nicht versehentlich unterbrochen wurde.  <br/> |
 |Skype und Verbundpartner aufrufen  <br/> |Sie können Suchen Sie nach jeder im Skype-Verzeichnis, und klicken Sie dann sicher verbinden, Kommunikation und Zusammenarbeit mit diesen.  <br/> |
 |[Festlegen von Anrufweiterleitungsoptionen in Skype for Business](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Sendet Ihre Anrufe entweder sofort oder nach einem bestimmten Zeitraum an Ihr Team.  <br/> |
 |[Tätigen und Annehmen eines Videoanrufs mit Skype for Business](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Sie können den Namen und den Videostream des Sprechers in einem kleinen unverankerten Fenster sehen, sodass Sie immer in der Lage sind, auf eine Frage zu antworten. <br/> |
