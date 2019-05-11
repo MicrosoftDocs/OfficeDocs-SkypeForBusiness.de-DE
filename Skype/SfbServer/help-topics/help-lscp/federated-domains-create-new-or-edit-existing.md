@@ -1,8 +1,8 @@
 ---
 title: Partnerdomänen Erstellen einer neuen oder Bearbeiten einer vorhandenen
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,19 +13,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: fb858569f3f5891151dc0e473974d1ba6f9c1627
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 29f95b5c4ef166e383165f1799e1316c8fb912d9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200779"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920264"
 ---
-# <a name="federated-domains-create-new-or-edit-existing"></a><span data-ttu-id="2f81d-104">Partnerdomänen: Erstellen einer neuen oder Bearbeiten einer vorhandenen Partnerdomäne</span><span class="sxs-lookup"><span data-stu-id="2f81d-104">Federated Domains: Create New or Edit Existing</span></span>
+# <a name="federated-domains-create-new-or-edit-existing"></a><span data-ttu-id="4bab6-104">Partnerdomänen: Erstellen einer neuen oder Bearbeiten einer vorhandenen Partnerdomäne</span><span class="sxs-lookup"><span data-stu-id="4bab6-104">Federated Domains: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="2f81d-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="2f81d-105">What do you want to do?</span></span> <span data-ttu-id="2f81d-106">Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="2f81d-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="4bab6-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="4bab6-105">What do you want to do?</span></span> <span data-ttu-id="4bab6-106">Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="4bab6-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="2f81d-107">Configure Access for Federated Partners</span><span class="sxs-lookup"><span data-stu-id="2f81d-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="4bab6-107">Configure Access for Federated Partners</span><span class="sxs-lookup"><span data-stu-id="4bab6-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [<span data-ttu-id="2f81d-108">Monitor and Control Federated Partner Access</span><span class="sxs-lookup"><span data-stu-id="2f81d-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
+- [<span data-ttu-id="4bab6-108">Monitor and Control Federated Partner Access</span><span class="sxs-lookup"><span data-stu-id="4bab6-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
 
 

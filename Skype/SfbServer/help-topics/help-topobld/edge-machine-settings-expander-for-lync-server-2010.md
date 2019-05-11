@@ -1,8 +1,8 @@
 ---
 title: Edgecomputereinstellungen für Lync Server 2010 – Erweiterung
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,39 +13,39 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 'Zum Bearbeiten der Eigenschaften für Edge-Server-Computer als einen einzigen Edge-Server oder als Mitgliedscomputer in einem edgepool, konfigurieren Sie Servername und IP-Adresse Konfigurationseinstellungen:'
-ms.openlocfilehash: f0125ba8d9c7ff181aff0a29f69a5077b1ad0818
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ad8b763b2509d558a8de96e4fcda880934995e9e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225363"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915283"
 ---
-# <a name="edge-machine-settings-expander-for-lync-server-2010"></a><span data-ttu-id="71969-103">Edgecomputereinstellungen für Lync Server 2010 – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="71969-103">Edge Machine Settings Expander for Lync Server 2010</span></span>
+# <a name="edge-machine-settings-expander-for-lync-server-2010"></a><span data-ttu-id="639d3-103">Edgecomputereinstellungen für Lync Server 2010 – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="639d3-103">Edge Machine Settings Expander for Lync Server 2010</span></span>
  
-<span data-ttu-id="71969-104">Zum Bearbeiten der Eigenschaften für Edge-Server-Computer als einen einzigen Edge-Server oder als Mitgliedscomputer in einem edgepool, konfigurieren Sie **Servername und IP-Adresskonfiguration** Einstellungen:</span><span class="sxs-lookup"><span data-stu-id="71969-104">To edit the properties for Edge Server computers as an single Edge Server or as member computers in an Edge pool, you configure **Server name and IP address configuration** settings:</span></span>
+<span data-ttu-id="639d3-104">Zum Bearbeiten der Eigenschaften für Edge-Server-Computer als einen einzigen Edge-Server oder als Mitgliedscomputer in einem edgepool, konfigurieren Sie **Servername und IP-Adresskonfiguration** Einstellungen:</span><span class="sxs-lookup"><span data-stu-id="639d3-104">To edit the properties for Edge Server computers as an single Edge Server or as member computers in an Edge pool, you configure **Server name and IP address configuration** settings:</span></span>
   
-- <span data-ttu-id="71969-105">**Interner Name oder FQDN**: Geben Sie den Namen des Computers ein, wie er im Domain Name System (DNS) verwiesen wird.</span><span class="sxs-lookup"><span data-stu-id="71969-105">**Internal name or FQDN**: Type the name of the computer as it is referenced in the domain name system (DNS).</span></span> 
+- <span data-ttu-id="639d3-105">**Interner Name oder FQDN**: Geben Sie den Namen des Computers ein, wie er im Domain Name System (DNS) verwiesen wird.</span><span class="sxs-lookup"><span data-stu-id="639d3-105">**Internal name or FQDN**: Type the name of the computer as it is referenced in the domain name system (DNS).</span></span> 
     
-- <span data-ttu-id="71969-106">**Interne IPv4-Adresse**: Geben Sie die IPv4-Adresse der internen Netzwerkkarte (NIC) für diesen Computer ein.</span><span class="sxs-lookup"><span data-stu-id="71969-106">**Internal IPv4 address**: Type the IPv4 address of the internal network interface card (NIC) for this computer.</span></span>
+- <span data-ttu-id="639d3-106">**Interne IPv4-Adresse**: Geben Sie die IPv4-Adresse der internen Netzwerkkarte (NIC) für diesen Computer ein.</span><span class="sxs-lookup"><span data-stu-id="639d3-106">**Internal IPv4 address**: Type the IPv4 address of the internal network interface card (NIC) for this computer.</span></span>
     
-- <span data-ttu-id="71969-107">Sie konfigurieren die **Zugriffs-edgedienst** - **externe IPv4-Adresse** , die diesem Computer zugeordnet</span><span class="sxs-lookup"><span data-stu-id="71969-107">You configure the **Access Edge service** **External IPv4 address** associated with this computer</span></span>
+- <span data-ttu-id="639d3-107">Sie konfigurieren die **Zugriffs-edgedienst** - **externe IPv4-Adresse** , die diesem Computer zugeordnet</span><span class="sxs-lookup"><span data-stu-id="639d3-107">You configure the **Access Edge service** **External IPv4 address** associated with this computer</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="71969-108">Wenn Sie eine einzelne IP-Adresse für die Konfiguration der Edge-Server verwenden ausgewählt haben, werden Sie nur die externe IPv4-Adresse für den Zugriffs-Edgeservers Dienst bearbeiten sein.</span><span class="sxs-lookup"><span data-stu-id="71969-108">If you selected to use a single IP address for the Edge Server configuration, you will only be able to edit the external IPv4 address for the Access Edge service.</span></span> <span data-ttu-id="71969-109">Der Edge-Dienste nutzen die gleiche IPv4-Adresse als Zugriffs-edgediensts.</span><span class="sxs-lookup"><span data-stu-id="71969-109">The other Edge services will share the same IPv4 address as the Access Edge service.</span></span> 
+    > <span data-ttu-id="639d3-108">Wenn Sie eine einzelne IP-Adresse für die Konfiguration der Edge-Server verwenden ausgewählt haben, werden Sie nur die externe IPv4-Adresse für den Zugriffs-Edgeservers Dienst bearbeiten sein.</span><span class="sxs-lookup"><span data-stu-id="639d3-108">If you selected to use a single IP address for the Edge Server configuration, you will only be able to edit the external IPv4 address for the Access Edge service.</span></span> <span data-ttu-id="639d3-109">Der Edge-Dienste nutzen die gleiche IPv4-Adresse als Zugriffs-edgediensts.</span><span class="sxs-lookup"><span data-stu-id="639d3-109">The other Edge services will share the same IPv4 address as the Access Edge service.</span></span> 
   
-- <span data-ttu-id="71969-110">Konfigurieren Sie die **-Webkonferenzdienst** - **externe IPv4-Adresse** , die diesem Computer zugeordnet Falls zur Bearbeitung verfügbar</span><span class="sxs-lookup"><span data-stu-id="71969-110">If available to edit, you configure the **Web Conferencing service** **External IPv4 address** associated with this computer</span></span>
+- <span data-ttu-id="639d3-110">Konfigurieren Sie die **-Webkonferenzdienst** - **externe IPv4-Adresse** , die diesem Computer zugeordnet Falls zur Bearbeitung verfügbar</span><span class="sxs-lookup"><span data-stu-id="639d3-110">If available to edit, you configure the **Web Conferencing service** **External IPv4 address** associated with this computer</span></span>
     
-- <span data-ttu-id="71969-111">Wenn zur Bearbeitung verfügbar, Sie konfigurieren die **A / V-edgedienst** **externe IPv4-Adresse** , die diesem Computer zugeordnet</span><span class="sxs-lookup"><span data-stu-id="71969-111">If available to edit, you configure the **A/V Edge service** **External IPv4 address** associated with this computer</span></span>
+- <span data-ttu-id="639d3-111">Wenn zur Bearbeitung verfügbar, Sie konfigurieren die **A / V-edgedienst** **externe IPv4-Adresse** , die diesem Computer zugeordnet</span><span class="sxs-lookup"><span data-stu-id="639d3-111">If available to edit, you configure the **A/V Edge service** **External IPv4 address** associated with this computer</span></span>
     
-- <span data-ttu-id="71969-112">Falls zur Bearbeitung verfügbar, konfigurieren Sie die **NAT-aktivierte öffentliche IPv4-Adresse** , die diesem Computer zugeordnet.</span><span class="sxs-lookup"><span data-stu-id="71969-112">If available to edit, you configure the **NAT-enabled public IPv4 address** associated with this computer.</span></span>
+- <span data-ttu-id="639d3-112">Falls zur Bearbeitung verfügbar, konfigurieren Sie die **NAT-aktivierte öffentliche IPv4-Adresse** , die diesem Computer zugeordnet.</span><span class="sxs-lookup"><span data-stu-id="639d3-112">If available to edit, you configure the **NAT-enabled public IPv4 address** associated with this computer.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="71969-113">Die Konfigurationseigenschaft für **NAT-aktivierte öffentliche IPv4-Adresse** stehen nur zur Verfügung, bearbeiten, wenn Sie ausgewählt haben, geben Sie die Netzwerkadressübersetzung (NAT) für den A / V-edgedienst</span><span class="sxs-lookup"><span data-stu-id="71969-113">The configuration property for **NAT-enabled public IPv4 address** will only be available to edit if you chose to provide network address translation (NAT) for the A/V Edge service</span></span>
+    > <span data-ttu-id="639d3-113">Die Konfigurationseigenschaft für **NAT-aktivierte öffentliche IPv4-Adresse** stehen nur zur Verfügung, bearbeiten, wenn Sie ausgewählt haben, geben Sie die Netzwerkadressübersetzung (NAT) für den A / V-edgedienst</span><span class="sxs-lookup"><span data-stu-id="639d3-113">The configuration property for **NAT-enabled public IPv4 address** will only be available to edit if you chose to provide network address translation (NAT) for the A/V Edge service</span></span>
   
-  <span data-ttu-id="71969-114">**OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.</span><span class="sxs-lookup"><span data-stu-id="71969-114">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="639d3-114">**OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.</span><span class="sxs-lookup"><span data-stu-id="639d3-114">**OK** Accepts and commits changes to the dialog.</span></span>
   
-  <span data-ttu-id="71969-115">**Abbrechen**: Mit dieser Option werden die Änderungen verworfen und das Dialogfeld wird geschlossen.</span><span class="sxs-lookup"><span data-stu-id="71969-115">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="639d3-115">**Abbrechen**: Mit dieser Option werden die Änderungen verworfen und das Dialogfeld wird geschlossen.</span><span class="sxs-lookup"><span data-stu-id="639d3-115">**Cancel** Discards changes and closes the dialog.</span></span>
   
-  <span data-ttu-id="71969-116">**Hilfe**: Mit dieser Option zeigen Sie diese Hilfeseite an.</span><span class="sxs-lookup"><span data-stu-id="71969-116">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="639d3-116">**Hilfe**: Mit dieser Option zeigen Sie diese Hilfeseite an.</span><span class="sxs-lookup"><span data-stu-id="639d3-116">**Help** Displays this help screen.</span></span>
   
 

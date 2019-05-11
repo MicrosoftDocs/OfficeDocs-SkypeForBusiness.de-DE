@@ -1,8 +1,8 @@
 ---
 title: Clientversionsrichtlinie
 ms.reviewer: ''
-ms.author: SerdarS
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,51 +13,51 @@ localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie können die Version von Clients angeben, die in Ihrer Umgebung unterstützt werden. Wenn zwei Clients unterschiedlicher Versionen interagieren, können die für einen der Clients verfügbaren Funktionen durch die Funktionen des anderen Clients eingeschränkt werden.
-ms.openlocfilehash: d63966c988ebe6041012764767faf9ff459273ef
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c017abec4c71573ba468b2a3fab1c9844e7fe63b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216060"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891852"
 ---
-# <a name="client-version-policy"></a><span data-ttu-id="a9663-104">Clientversionsrichtlinie</span><span class="sxs-lookup"><span data-stu-id="a9663-104">Client Version Policy</span></span>
+# <a name="client-version-policy"></a><span data-ttu-id="21be4-104">Clientversionsrichtlinie</span><span class="sxs-lookup"><span data-stu-id="21be4-104">Client Version Policy</span></span>
 
-<span data-ttu-id="a9663-105">Sie können die Version von Clients angeben, die in Ihrer Umgebung unterstützt werden.</span><span class="sxs-lookup"><span data-stu-id="a9663-105">You can specify the version of clients that are supported in your environment.</span></span> <span data-ttu-id="a9663-106">Wenn zwei Clients unterschiedlicher Versionen interagieren, können die für einen der Clients verfügbaren Funktionen durch die Funktionen des anderen Clients eingeschränkt werden.</span><span class="sxs-lookup"><span data-stu-id="a9663-106">When two clients that are running different versions interact, the features that are available to either client can be limited by the capabilities of the other client.</span></span> <span data-ttu-id="a9663-107">Die größte Nutzung der Features in Skype für Business Server und zur Verbesserung der benutzerfreundlichkeit können den clientversionsfilter Sie um die Clientversionen, die verwendet werden in Ihrer Umgebung zu beschränken.</span><span class="sxs-lookup"><span data-stu-id="a9663-107">To make the greatest use of features included in Skype for Business Server and to improve the overall user experience, you can use the client version filter to restrict the client versions that are used in your environment.</span></span> <span data-ttu-id="a9663-108">Mit dem Clientversionsfilter können Sie außerdem die Kosten senken, die aufgrund der Unterstützung mehrerer Clientversionen anfallen.</span><span class="sxs-lookup"><span data-stu-id="a9663-108">By using the client version filter, you can also help reduce costs associated with supporting multiple client versions.</span></span>
+<span data-ttu-id="21be4-105">Sie können die Version von Clients angeben, die in Ihrer Umgebung unterstützt werden.</span><span class="sxs-lookup"><span data-stu-id="21be4-105">You can specify the version of clients that are supported in your environment.</span></span> <span data-ttu-id="21be4-106">Wenn zwei Clients unterschiedlicher Versionen interagieren, können die für einen der Clients verfügbaren Funktionen durch die Funktionen des anderen Clients eingeschränkt werden.</span><span class="sxs-lookup"><span data-stu-id="21be4-106">When two clients that are running different versions interact, the features that are available to either client can be limited by the capabilities of the other client.</span></span> <span data-ttu-id="21be4-107">Die größte Nutzung der Features in Skype für Business Server und zur Verbesserung der benutzerfreundlichkeit können den clientversionsfilter Sie um die Clientversionen, die verwendet werden in Ihrer Umgebung zu beschränken.</span><span class="sxs-lookup"><span data-stu-id="21be4-107">To make the greatest use of features included in Skype for Business Server and to improve the overall user experience, you can use the client version filter to restrict the client versions that are used in your environment.</span></span> <span data-ttu-id="21be4-108">Mit dem Clientversionsfilter können Sie außerdem die Kosten senken, die aufgrund der Unterstützung mehrerer Clientversionen anfallen.</span><span class="sxs-lookup"><span data-stu-id="21be4-108">By using the client version filter, you can also help reduce costs associated with supporting multiple client versions.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="a9663-109">Mögliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="a9663-109">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="21be4-109">Mögliche Aufgaben</span><span class="sxs-lookup"><span data-stu-id="21be4-109">Tasks you can perform</span></span>
 
-<span data-ttu-id="a9663-110">Auf der Seite **Clientversionsrichtlinie** können Sie die folgenden Aufgaben ausführen:</span><span class="sxs-lookup"><span data-stu-id="a9663-110">You can perform the following tasks on the **Client Version Policy** page:</span></span>
+<span data-ttu-id="21be4-110">Auf der Seite **Clientversionsrichtlinie** können Sie die folgenden Aufgaben ausführen:</span><span class="sxs-lookup"><span data-stu-id="21be4-110">You can perform the following tasks on the **Client Version Policy** page:</span></span>
 
-- <span data-ttu-id="a9663-111">Bearbeiten Sie die Standardeinstellung ( **Global**) clientversionsrichtlinie.</span><span class="sxs-lookup"><span data-stu-id="a9663-111">Edit the default ( **Global**) client version policy.</span></span>
+- <span data-ttu-id="21be4-111">Bearbeiten Sie die Standardeinstellung ( **Global**) clientversionsrichtlinie.</span><span class="sxs-lookup"><span data-stu-id="21be4-111">Edit the default ( **Global**) client version policy.</span></span>
 
-- <span data-ttu-id="a9663-112">Erstellen von Clientversionsrichtlinien für einen bestimmten Standort oder Pool</span><span class="sxs-lookup"><span data-stu-id="a9663-112">Create client version policies for a particular site or pool.</span></span>
+- <span data-ttu-id="21be4-112">Erstellen von Clientversionsrichtlinien für einen bestimmten Standort oder Pool</span><span class="sxs-lookup"><span data-stu-id="21be4-112">Create client version policies for a particular site or pool.</span></span>
 
-- <span data-ttu-id="a9663-113">Erstellen von Clientversionsrichtlinien, die einzelnen Benutzern zugewiesen werden können</span><span class="sxs-lookup"><span data-stu-id="a9663-113">Create client version policies that can be assigned to individual users.</span></span>
+- <span data-ttu-id="21be4-113">Erstellen von Clientversionsrichtlinien, die einzelnen Benutzern zugewiesen werden können</span><span class="sxs-lookup"><span data-stu-id="21be4-113">Create client version policies that can be assigned to individual users.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a9663-114">Da anonyme Benutzer keinem Benutzer, Standort oder Dienst zugeordnet sind, unterliegen anonyme Benutzer ausschließlich globalen Richtlinien.</span><span class="sxs-lookup"><span data-stu-id="a9663-114">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span>
+> <span data-ttu-id="21be4-114">Da anonyme Benutzer keinem Benutzer, Standort oder Dienst zugeordnet sind, unterliegen anonyme Benutzer ausschließlich globalen Richtlinien.</span><span class="sxs-lookup"><span data-stu-id="21be4-114">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="a9663-115">Referenz zur Benutzeroberfläche</span><span class="sxs-lookup"><span data-stu-id="a9663-115">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="21be4-115">Referenz zur Benutzeroberfläche</span><span class="sxs-lookup"><span data-stu-id="21be4-115">UI Reference</span></span>
 
-<span data-ttu-id="a9663-116">In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.</span><span class="sxs-lookup"><span data-stu-id="a9663-116">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
+<span data-ttu-id="21be4-116">In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.</span><span class="sxs-lookup"><span data-stu-id="21be4-116">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
 
-- <span data-ttu-id="a9663-117">**Neue** Sie können eine oder mehrere der folgenden clientversionsrichtlinien erstellen:</span><span class="sxs-lookup"><span data-stu-id="a9663-117">**New** You can create one or more of each of the following client version policies:</span></span>
+- <span data-ttu-id="21be4-117">**Neue** Sie können eine oder mehrere der folgenden clientversionsrichtlinien erstellen:</span><span class="sxs-lookup"><span data-stu-id="21be4-117">**New** You can create one or more of each of the following client version policies:</span></span>
 
-  - <span data-ttu-id="a9663-118">Standortrichtlinie</span><span class="sxs-lookup"><span data-stu-id="a9663-118">Site policy</span></span>
+  - <span data-ttu-id="21be4-118">Standortrichtlinie</span><span class="sxs-lookup"><span data-stu-id="21be4-118">Site policy</span></span>
 
-  - <span data-ttu-id="a9663-119">Poolrichtlinie</span><span class="sxs-lookup"><span data-stu-id="a9663-119">Pool policy</span></span>
+  - <span data-ttu-id="21be4-119">Poolrichtlinie</span><span class="sxs-lookup"><span data-stu-id="21be4-119">Pool policy</span></span>
 
-  - <span data-ttu-id="a9663-120">Benutzerrichtlinie</span><span class="sxs-lookup"><span data-stu-id="a9663-120">User policy</span></span>
+  - <span data-ttu-id="21be4-120">Benutzerrichtlinie</span><span class="sxs-lookup"><span data-stu-id="21be4-120">User policy</span></span>
 
-- <span data-ttu-id="a9663-121">**Bearbeiten** Sie können die Optionen aller clientversionsrichtlinien ändern.</span><span class="sxs-lookup"><span data-stu-id="a9663-121">**Edit** You can change the options of any of the client version policies.</span></span> <span data-ttu-id="a9663-122">Mit dieser Option haben Sie folgende Möglichkeiten:</span><span class="sxs-lookup"><span data-stu-id="a9663-122">Using this option, you can do the following:</span></span>
+- <span data-ttu-id="21be4-121">**Bearbeiten** Sie können die Optionen aller clientversionsrichtlinien ändern.</span><span class="sxs-lookup"><span data-stu-id="21be4-121">**Edit** You can change the options of any of the client version policies.</span></span> <span data-ttu-id="21be4-122">Mit dieser Option haben Sie folgende Möglichkeiten:</span><span class="sxs-lookup"><span data-stu-id="21be4-122">Using this option, you can do the following:</span></span>
 
-  - <span data-ttu-id="a9663-123">**Details anzeigen** Diese Option öffnet ein Dialogfeld, in dem Sie die Optionen für eine clientversionsrichtlinie ändern können.</span><span class="sxs-lookup"><span data-stu-id="a9663-123">**Show details** This option opens a dialog box in which you can change the options for a client version policy.</span></span>
+  - <span data-ttu-id="21be4-123">**Details anzeigen** Diese Option öffnet ein Dialogfeld, in dem Sie die Optionen für eine clientversionsrichtlinie ändern können.</span><span class="sxs-lookup"><span data-stu-id="21be4-123">**Show details** This option opens a dialog box in which you can change the options for a client version policy.</span></span>
 
-  - <span data-ttu-id="a9663-124">**Wählen Sie alle** Diese Option werden alle clientversionsrichtlinien der Liste ausgewählt.</span><span class="sxs-lookup"><span data-stu-id="a9663-124">**Select All** This option selects all client version policies in the list.</span></span>
+  - <span data-ttu-id="21be4-124">**Wählen Sie alle** Diese Option werden alle clientversionsrichtlinien der Liste ausgewählt.</span><span class="sxs-lookup"><span data-stu-id="21be4-124">**Select All** This option selects all client version policies in the list.</span></span>
 
-  - <span data-ttu-id="a9663-125">**Löschen** Diese Option werden alle ausgewählten clientversionsrichtlinien gelöscht.</span><span class="sxs-lookup"><span data-stu-id="a9663-125">**Delete** This option deletes all selected client version policies.</span></span>
+  - <span data-ttu-id="21be4-125">**Löschen** Diese Option werden alle ausgewählten clientversionsrichtlinien gelöscht.</span><span class="sxs-lookup"><span data-stu-id="21be4-125">**Delete** This option deletes all selected client version policies.</span></span>
 
-- <span data-ttu-id="a9663-126">**Aktualisieren** Sie können die Liste Client Version Richtlinie zum Überprüfen des Status der Optionen aller clientversionsrichtlinien aktualisieren.</span><span class="sxs-lookup"><span data-stu-id="a9663-126">**Refresh** You can refresh the client version policy list to verify the status of the options of all client version policies.</span></span>
+- <span data-ttu-id="21be4-126">**Aktualisieren** Sie können die Liste Client Version Richtlinie zum Überprüfen des Status der Optionen aller clientversionsrichtlinien aktualisieren.</span><span class="sxs-lookup"><span data-stu-id="21be4-126">**Refresh** You can refresh the client version policy list to verify the status of the options of all client version policies.</span></span>
 
-<span data-ttu-id="a9663-127">Ausführliche Informationen zur Interoperabilität zwischen Clients und Clientversionen finden Sie unter [Client Interoperability](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="a9663-127">For details about interoperability among clients and client versions, see [Client Interoperability](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in the Planning documentation.</span></span> <span data-ttu-id="a9663-128">Ausführliche Informationen zur Verwendung von Clientversionsrichtlinien finden Sie in der Betriebsdokumentation unter [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx).</span><span class="sxs-lookup"><span data-stu-id="a9663-128">For details about working with client version policies, see [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="21be4-127">Ausführliche Informationen zur Interoperabilität zwischen Clients und Clientversionen finden Sie unter [Client Interoperability](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="21be4-127">For details about interoperability among clients and client versions, see [Client Interoperability](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in the Planning documentation.</span></span> <span data-ttu-id="21be4-128">Ausführliche Informationen zur Verwendung von Clientversionsrichtlinien finden Sie in der Betriebsdokumentation unter [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx).</span><span class="sxs-lookup"><span data-stu-id="21be4-128">For details about working with client version policies, see [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) in the Operations documentation.</span></span>
 

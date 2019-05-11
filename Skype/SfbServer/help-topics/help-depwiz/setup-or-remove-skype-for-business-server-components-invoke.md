@@ -1,8 +1,8 @@
 ---
 title: Einrichten und Entfernen von Komponenten von Skype for Business Server (Aufruf)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
 description: Die Befehle ausführen zeigt eine ausgeführte Übersicht über die Aufgaben, die ausgeführt werden, um die Serverrolle bereitzustellen. Nach Abschluss der Aufgaben – bereitstellen und aktivieren oder deaktivieren und deinstallieren Sie eine Zusammenfassung wird angezeigt. Darüber hinaus können Sie in der Dropdown-Liste Sie Protokolldateien auswählen, die erstellt werden, wenn die Befehle ausgeführt werden. Verwenden Sie die Dropdown-Liste die Protokolldatei aus, der Sie anzeigen möchten, und klicken Sie auf Protokoll anzeigen.
-ms.openlocfilehash: f3ed50ef769756497be356b60409db86b4481676
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f97ae5694541fe9a0a57c8e65e2496adef0f192f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201286"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916077"
 ---
-# <a name="setup-or-remove-skype-for-business-server-components-invoke"></a><span data-ttu-id="31353-106">Einrichten und Entfernen von Komponenten von Skype for Business Server (Aufruf)</span><span class="sxs-lookup"><span data-stu-id="31353-106">Setup or Remove Skype for Business Server Components (Invoke)</span></span>
+# <a name="setup-or-remove-skype-for-business-server-components-invoke"></a><span data-ttu-id="09092-106">Einrichten und Entfernen von Komponenten von Skype for Business Server (Aufruf)</span><span class="sxs-lookup"><span data-stu-id="09092-106">Setup or Remove Skype for Business Server Components (Invoke)</span></span>
  
-<span data-ttu-id="31353-107">Die **Befehle ausführen** zeigt eine ausgeführte Übersicht über die Aufgaben, die ausgeführt werden, um die Serverrolle bereitzustellen.</span><span class="sxs-lookup"><span data-stu-id="31353-107">The **Execute Commands** displays a running summary of the tasks that are run to deploy the server role.</span></span> <span data-ttu-id="31353-108">Nach Abschluss der Aufgaben – bereitstellen und aktivieren oder deaktivieren und deinstallieren Sie eine Zusammenfassung wird angezeigt.</span><span class="sxs-lookup"><span data-stu-id="31353-108">After the tasks are completed—deploy and activate, or deactivate and uninstall-a summary is displayed.</span></span> <span data-ttu-id="31353-109">Darüber hinaus können Sie in der Dropdown-Liste Sie Protokolldateien auswählen, die erstellt werden, wenn die Befehle ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="31353-109">Additionally, in the drop-down list, you can select any of the log files that are created when the commands are run.</span></span> <span data-ttu-id="31353-110">Verwenden Sie die Dropdown-Liste die Protokolldatei aus, der Sie anzeigen möchten, und klicken Sie auf **Protokoll anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="31353-110">Use the drop-down list to select the log file that you want to view, and click **View Log**.</span></span>
+<span data-ttu-id="09092-107">Die **Befehle ausführen** zeigt eine ausgeführte Übersicht über die Aufgaben, die ausgeführt werden, um die Serverrolle bereitzustellen.</span><span class="sxs-lookup"><span data-stu-id="09092-107">The **Execute Commands** displays a running summary of the tasks that are run to deploy the server role.</span></span> <span data-ttu-id="09092-108">Nach Abschluss der Aufgaben – bereitstellen und aktivieren oder deaktivieren und deinstallieren Sie eine Zusammenfassung wird angezeigt.</span><span class="sxs-lookup"><span data-stu-id="09092-108">After the tasks are completed—deploy and activate, or deactivate and uninstall-a summary is displayed.</span></span> <span data-ttu-id="09092-109">Darüber hinaus können Sie in der Dropdown-Liste Sie Protokolldateien auswählen, die erstellt werden, wenn die Befehle ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="09092-109">Additionally, in the drop-down list, you can select any of the log files that are created when the commands are run.</span></span> <span data-ttu-id="09092-110">Verwenden Sie die Dropdown-Liste die Protokolldatei aus, der Sie anzeigen möchten, und klicken Sie auf **Protokoll anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="09092-110">Use the drop-down list to select the log file that you want to view, and click **View Log**.</span></span>
   
-<span data-ttu-id="31353-111">Sobald Sie fertig sind so überprüfen Sie die Zusammenfassung und-Protokolldateien, klicken Sie auf **Fertig stellen**.</span><span class="sxs-lookup"><span data-stu-id="31353-111">After you are done reviewing the summary and log files, click **Finish**.</span></span>
+<span data-ttu-id="09092-111">Sobald Sie fertig sind so überprüfen Sie die Zusammenfassung und-Protokolldateien, klicken Sie auf **Fertig stellen**.</span><span class="sxs-lookup"><span data-stu-id="09092-111">After you are done reviewing the summary and log files, click **Finish**.</span></span>
   
 
