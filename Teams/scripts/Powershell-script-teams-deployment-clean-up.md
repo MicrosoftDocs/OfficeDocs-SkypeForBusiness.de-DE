@@ -1,8 +1,8 @@
 ---
 title: PowerShell-Skriptbeispiel – Unterstützung beim Bereinigen von Microsoft Teams-Bereitstellungen
 ms.reviewer: ''
-author: Lester-Hewett
-ms.author: lehewe
+author: kenwith
+ms.author: kenwith
 manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
@@ -12,20 +12,20 @@ MS.collection:
 - M365-collaboration
 description: Mit diesem PowerShell-Skript können Sie Microsoft Teams auf bestimmten Computern oder für bestimmte Benutzer bereinigen.
 localization_priority: Normal
-ms.openlocfilehash: a047326a1598ea497318b77ce27c09c6807f25dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cd19bb3b0d26069d339b61b5d4bf059fef724407
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201679"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920612"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="c36bd-103">PowerShell-Skriptbeispiel – Bereinigen von Microsoft Teams-Bereitstellungen</span><span class="sxs-lookup"><span data-stu-id="c36bd-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
+<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="e3f6a-103">PowerShell-Skriptbeispiel – Bereinigen von Microsoft Teams-Bereitstellungen</span><span class="sxs-lookup"><span data-stu-id="e3f6a-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
 -------------------------------------------------------------------------
 
-<span data-ttu-id="c36bd-104">Dieses PowerShell-Skript kann zum Bereinigen von Microsoft Teams auf bestimmten Computern oder für bestimmte Benutzer genutzt werden.</span><span class="sxs-lookup"><span data-stu-id="c36bd-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="c36bd-105">Es sollte für alle Benutzer auf dem jeweiligen Computer ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="c36bd-105">It should be executed for every user on a targeted machine.</span></span> 
+<span data-ttu-id="e3f6a-104">Dieses PowerShell-Skript kann zum Bereinigen von Microsoft Teams auf bestimmten Computern oder für bestimmte Benutzer genutzt werden.</span><span class="sxs-lookup"><span data-stu-id="e3f6a-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="e3f6a-105">Es sollte für alle Benutzer auf dem jeweiligen Computer ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="e3f6a-105">It should be executed for every user on a targeted machine.</span></span> 
 
 
-## <a name="sample-script"></a><span data-ttu-id="c36bd-106">Beispielskript</span><span class="sxs-lookup"><span data-stu-id="c36bd-106">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="e3f6a-106">Beispielskript</span><span class="sxs-lookup"><span data-stu-id="e3f6a-106">Sample script</span></span>
 
 ````powershell
 <#
