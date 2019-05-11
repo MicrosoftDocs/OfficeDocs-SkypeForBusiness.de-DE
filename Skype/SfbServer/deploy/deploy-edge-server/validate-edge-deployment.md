@@ -1,9 +1,10 @@
 ---
 title: Überprüfen Sie Ihre edgebereitstellung in Skype für Business Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.audience: ITPro
+manager: serdars
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: 'Zusammenfassung: Erfahren Sie, wie stellen Sie sicher, dass Ihre Bereitstellung von Edge-Server oder Edge-Server-Pool in Skype für Business Server funktionsfähig ist.'
-ms.openlocfilehash: 63c4cb1af599da191d0e0f4b95cfdaa775a64ba4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e429b69a1c3470905027b35006de85d5a5711e31
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223789"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893189"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Überprüfen Sie Ihre edgebereitstellung in Skype für Business Server
  

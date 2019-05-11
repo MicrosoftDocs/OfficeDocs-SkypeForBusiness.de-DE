@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren eines Netzwerkstandorts
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 9d65238a-d255-4b13-abe8-e4301b44c21c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 84ce1e7019d676c45db2fe00e09eb1e40923891b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 39c5548844e795388f09d6091e4d410b232dd044
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215276"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891152"
 ---
 # <a name="configure-a-network-site"></a>Konfigurieren eines Netzwerkstandorts
 

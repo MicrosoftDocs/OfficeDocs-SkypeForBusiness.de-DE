@@ -1,8 +1,8 @@
 ---
 title: Auswählen abgelehnter Mitglieder
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 ROBOTS: NOINDEX, NOFOLLOW
 description: A Persistent Chat Administrator können erstellen und Verwalten von Kategorien für Chatrooms. Als Teil des erstellen und Verwalten von Kategorien für Chatrooms kann ein Persistent Chat Administrator Prinzipale (Active Directory Domain Services Gruppen/Container/Benutzer) zu konfigurieren, die Zugriff auf Member/Ersteller von einer bestimmten Kategorie Chatrooms sein. A Persistent Chat Administrator können auch DeniedMembers zu einer Kategorie hinzufügen, und diese werden zur Liste zugelassenen explizite Ausschlüsse. DeniedMembers außer Kraft setzen, was in AllowedMembers ist.
-ms.openlocfilehash: b5bafd8f1ffe021852804250a84a743169fe8fb7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4041fc49325cf64560a07fc8d317e5560be9daaf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215101"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890970"
 ---
 # <a name="select-denied-members"></a>Auswählen abgelehnter Mitglieder
 

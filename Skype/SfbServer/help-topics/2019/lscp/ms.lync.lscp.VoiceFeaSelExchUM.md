@@ -1,8 +1,8 @@
 ---
 title: Auswählen einer automatischen Exchange UM-Telefonzentrale
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie das Dialogfeld Wählen Sie Exchange UM-Telefonzentrale, um eine automatische Telefonzentrale von Exchange UM auszuwählen, die eingehende Anrufe für einen Bereich nicht zugewiesener Nummern behandelt werden sollen.
-ms.openlocfilehash: 6b037c907a2bd2d78a9f246e9cbc64dab2c5d8b8
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: 747a2ab0ed7975d93354335196984d75a0553f93
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835306"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890655"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Auswählen einer automatischen Exchange UM-Telefonzentrale
 

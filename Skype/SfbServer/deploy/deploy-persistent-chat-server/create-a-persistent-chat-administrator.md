@@ -1,8 +1,8 @@
 ---
 title: Erstellen eines Administrators für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/28/2016
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie eine Administratorrolle für Persistent Chat Server zum Aktivieren von anfängliche Konfiguration und Verwaltung von Persistent Chat-Dienste in Skype für Business Server 2015 zu erstellen.'
-ms.openlocfilehash: fb8a222f65f6fe579d3600df15a53bb84f65de66
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d483517afcb5d02667d431259f8a2e76804cc32b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225342"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894472"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>Erstellen eines Administrators für beständigen Chat in Skype for Business Server 2015
  

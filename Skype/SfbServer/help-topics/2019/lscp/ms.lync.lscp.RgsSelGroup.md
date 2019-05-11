@@ -1,8 +1,8 @@
 ---
 title: Auswählen von Gruppen
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: Reaktionsgruppenwarteschleifen halten Aufrufe von reaktionsgruppen, bis ein Agent den Anruf annimmt. Warteschlangen haben Agentengruppen zugewiesen. Beim Erstellen oder einer Warteschlange bearbeiten, verwenden Sie das Dialogfeld Gruppen auswählen, wählen Sie eine oder mehrere agentgruppen an die Warteschlange zugewiesen werden soll.
-ms.openlocfilehash: 1ea3d43241d5cdac2ebcc860333ab326d45fd274
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ea948bd0c31477d20c2c6fbb68902e087bcd9826
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215185"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891299"
 ---
 # <a name="select-groups"></a>Auswählen von Gruppen
 

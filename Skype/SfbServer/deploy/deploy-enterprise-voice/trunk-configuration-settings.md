@@ -1,8 +1,8 @@
 ---
 title: Erstellen einer neuen Auflistung von Trunk-Konfigurationseinstellungen in Skype für Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 'Zusammenfassung: Informationen Sie zum Erstellen einer neuen Auflistung der Trunk-Konfigurationseinstellungen mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: 5f3fd6b704a99be13ab71153352b174f769a28cc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3fa1d8f994a306563ba56435aaa5d8ae3edb285b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222702"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892286"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Erstellen einer neuen Auflistung von Trunk-Konfigurationseinstellungen in Skype für Business Server 
 

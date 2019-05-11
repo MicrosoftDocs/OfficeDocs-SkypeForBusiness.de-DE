@@ -1,8 +1,8 @@
 ---
 title: Front-End-Server – Bereichsknoten
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten enthält die Konfigurationsinformationen für diesen Front-End-Pool oder Standard Edition-Server. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 509f5c71b9eeff12edd5c183fcdef19de3d3b767
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 21550750b80a9c7e20e94ffef060f905616be7f5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220473"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919766"
 ---
 # <a name="front-end-server-scope-node"></a>Front-End-Server – Bereichsknoten
  

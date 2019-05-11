@@ -1,8 +1,8 @@
 ---
 title: Auswählen eines Standorts
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 ROBOTS: NOINDEX, NOFOLLOW
 description: Im Dialogfeld Standort auswählen suchen Sie nach den in Ihrer Umgebung verfügbaren Standorten. Klicken Sie auf einen Standort in der Liste und anschließend auf OK, um einen vorhandenen Standort zu verwenden.
-ms.openlocfilehash: 930f6bb29e0fb175383cc868ccdfd4ae5ce98b33
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 457e2f146f6d0abf76c39f3acf68382b5d0d6271
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215052"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891082"
 ---
 # <a name="select-a-site"></a>Auswählen eines Standorts
 

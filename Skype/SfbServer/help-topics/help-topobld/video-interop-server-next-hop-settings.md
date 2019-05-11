@@ -1,8 +1,8 @@
 ---
 title: Einstellungen für den nächsten Hop des Video-Interoperabilität-Servers
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5a161404-b294-47fa-ad62-0e12bffcd8e4
 description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator werden in einem Pool gegenüber in Skype erstellen für Business Server 2015 online beschrieben.
-ms.openlocfilehash: 4fca7fef3ad8bb048a06e253fb2a794d5e6d765e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ed02983b3a53b0cf9efe7fe23ae7838108d29223
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219022"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903327"
 ---
 # <a name="video-interop-server-next-hop-settings"></a>Einstellungen für den nächsten Hop des Video-Interoperabilität-Servers
  

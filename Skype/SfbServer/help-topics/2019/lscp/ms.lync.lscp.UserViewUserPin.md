@@ -1,8 +1,8 @@
 ---
 title: Benutzer anzeigen oder Konfigurieren der PIN-Richtlinie
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4a68227c-f559-442f-955b-5c4ccc06b7f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 441c05f21ebd18e60e90e6e1a97ffa98fa733d92
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b9e5482bc22510f52093ccb1a450a3ed0695e4b0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221532"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890753"
 ---
 # <a name="users-view-or-configure-pin-policy"></a>Benutzer: Anzeigen oder Konfigurieren von PIN-Richtlinien
  

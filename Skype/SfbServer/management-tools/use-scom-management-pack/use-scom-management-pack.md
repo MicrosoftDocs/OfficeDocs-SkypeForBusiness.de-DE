@@ -1,8 +1,8 @@
 ---
 title: Verwalten von Skype for Business Server 2015 mithilfe von SCOM Management Packs
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/13/2018
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Zusammenfassung: Informationen Sie zum Konfigurieren Ihrer Skype Business Server 2015 Infrastruktur für System Center Operations Manager entwickelt.'
-ms.openlocfilehash: 578982e25757bd9f3c38ae96bdf36928f448f373
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 8550256a00cbb279922e4b06b7cf3234cbb3baec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881120"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33904188"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Verwalten von Skype for Business Server 2015 mithilfe von SCOM Management Packs
  

@@ -1,8 +1,8 @@
 ---
 title: Überwachen, Starten und Beenden der Dienste für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/28/2016
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6b28595-f702-4ecf-8115-e4104b87da89
 description: 'Zusammenfassung: Informationen Sie zum Starten, beenden und die Dienste beständigen Chat in Skype für Business Server 2015 überwachen.'
-ms.openlocfilehash: ee817dc5ed76ca5981ab0429da82f74ee5327583
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 4303d4cfc950ca7c57b7f16b31bc66e1ae711397
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890234"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910354"
 ---
 # <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>Überwachen, Starten und Beenden der Dienste für beständigen Chat in Skype for Business Server 2015
  

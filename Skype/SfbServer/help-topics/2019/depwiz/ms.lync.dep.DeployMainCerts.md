@@ -1,8 +1,8 @@
 ---
 title: Anfordern, Installieren oder Zuweisen von Zertifikaten
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'In Schritt 3: Anfordern, Installieren und Zuweisen von Zertifikaten wird beim Klicken auf Ausführen der Zertifikat-Assistent gestartet. Die Zertifikate, die mit dem Assistenten konfiguriert sind basieren auf die Definition der Skype für Business Server-Topologie, die konfiguriert und in den zentralen Verwaltungsspeicher von Topology Builder veröffentlicht wird. Damit der Zertifikat-Assistent für eine Onlinezertifizierungsstelle in Ihrer Organisation erfolgreich ausgeführt werden kann, müssen Sie am Computer als Mitglied der lokalen Gruppe „Administratoren“ angemeldet sein. Ferner müssen Sie ein authentifizierter Domänenbenutzer in der Domäne des Computers und der Zertifizierungsstelle sein. Klicken Sie im Assistenten bietet die Möglichkeit, alternativen Anmeldeinformationen für den Zugriff eines Unternehmens-CA anzugeben.'
-ms.openlocfilehash: c281855a786a7f497b39515711bd8af36b3a62b2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 46e5deebb4bcdaa7cfb55b07d46cee89d2af9c25
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216179"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893651"
 ---
 # <a name="request-install-or-assign-certificates"></a>Anfordern, Installieren oder Zuweisen von Zertifikaten
  

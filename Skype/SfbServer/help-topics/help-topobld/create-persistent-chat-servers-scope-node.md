@@ -1,8 +1,8 @@
 ---
 title: Erstellen von Servern für beständigen Chat – Bereichsknoten
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 'Sie klicken Sie auf Pool für beständigen Chat im Topologie-Generator, um die folgenden Schritte aus:'
-ms.openlocfilehash: 76027854078ca7ab90422943964fb920f8e85fd9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 67b3c0108daf3ee3b8357ff1c1309f57a0f8e2e2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226913"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903572"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Erstellen von Servern für beständigen Chat – Bereichsknoten
  

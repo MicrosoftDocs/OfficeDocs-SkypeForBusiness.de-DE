@@ -1,8 +1,8 @@
 ---
 title: MCUs-Tabelle in Skype für Business Server 2015
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 271b7963-8fd8-4d92-a701-1a62aaf895ee
 description: Die Mcus-Tabelle ist eine Tabelle. Jeder Datensatz speichert Informationen über ein Live Meeting-Dienst. Dazu zählen die Sofortnachrichten-Konferenzdienst und der Telefonie-Konferenzdienst (die als Prozesse auf Front-End-Servern ausgeführt werden), und die-Webkonferenzdienst und A / V-Konferenzdienst.
-ms.openlocfilehash: e051af3a77d4f9b8231c122c596a3b6915f6f3e1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6b5df793008fcf7586d62cab77a1b362848374ac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212973"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930672"
 ---
 # <a name="mcus-table-in-skype-for-business-server-2015"></a>MCUs-Tabelle in Skype für Business Server 2015
  

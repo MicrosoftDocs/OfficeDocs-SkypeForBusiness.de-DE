@@ -1,8 +1,8 @@
 ---
 title: Sicherheitseinstellungen für Webdienste
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4ea30583-e5bd-4498-9bd8-38604c61e658
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 4158a0aa4317a2d8b73e545bb303046eca858e96
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 79a7b409c86596ff3e8826b7e19b87799d0afb4f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215108"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890991"
 ---
 # <a name="web-service-security-settings"></a>Sicherheitseinstellungen für Webdienste
 

@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren Sie die Aufzeichnung von kommunikationsdatensätzen und Quality of Experience Settings in Skype für Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: 'Zusammenfassung: Informationen Sie zum Konfigurieren von KDS und QoE in Skype für Business Server.'
-ms.openlocfilehash: 846411692bc114678e34754f73fc00cd9be8d9d4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: babc2ebe7901c19048624194b38e4cfa143e8f02
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225476"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894654"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>Konfigurieren Sie die Aufzeichnung von kommunikationsdatensätzen und Quality of Experience Settings in Skype für Business Server
  

@@ -1,8 +1,8 @@
 ---
 title: Bewerten von Meine Anruf in Skype für Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 'Zusammenfassung: Informationen Sie zum Feature Rate Meine Aufrufen in Skype für Business Server.'
-ms.openlocfilehash: 61aaff26c5786cd8574b7277ed600da75c3679ce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 6b704562d3cfe70b00bc36aff46e509529f9beae
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886303"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897618"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Bewerten von Meine Anruf in Skype für Business Server
 

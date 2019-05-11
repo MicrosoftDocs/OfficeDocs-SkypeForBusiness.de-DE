@@ -1,19 +1,20 @@
 ---
 title: Verwalten von Disaster Recovery, hohe Verfügbarkeit und Sicherungsdienst
 ms.reviewer: ''
-author: heidip
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Informationen Sie zu Verfahren für Disaster Recovery-Vorgänge und für die Verwaltung des Sicherungsdienstes, der die Daten in einem Front-End-Pools synchronisiert.
-ms.openlocfilehash: 103e0aa274e40fd997981bd6de595ceca089b710
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9215dba11b388b3ffbd3e5c0f3de4ccf1cb85c7d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199826"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903130"
 ---
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Verwalten von Skype für Business Server-Wiederherstellung, hohe Verfügbarkeit und Sicherungsdienst
 

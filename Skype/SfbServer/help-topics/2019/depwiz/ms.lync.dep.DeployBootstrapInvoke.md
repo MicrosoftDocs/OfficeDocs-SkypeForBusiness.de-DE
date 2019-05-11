@@ -1,8 +1,8 @@
 ---
 title: Einrichten und Entfernen von Komponenten von Skype for Business Server (Aufruf)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die Befehle ausführen zeigt eine ausgeführte Übersicht über die Aufgaben, die ausgeführt werden, um die Serverrolle bereitzustellen. Nach Abschluss der Aufgaben – bereitstellen und aktivieren oder deaktivieren und deinstallieren Sie eine Zusammenfassung wird angezeigt. Darüber hinaus können Sie in der Dropdown-Liste Sie Protokolldateien auswählen, die erstellt werden, wenn die Befehle ausgeführt werden. Verwenden Sie die Dropdown-Liste die Protokolldatei aus, der Sie anzeigen möchten, und klicken Sie auf Protokoll anzeigen.
-ms.openlocfilehash: 7cf9ba48be5cfe311dfd3c38046d8730942064a5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2c6511ae2dea873f37419509dcd50c5efef62f4b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216557"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894069"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>Einrichten und Entfernen von Komponenten von Skype for Business Server (Aufruf)
  

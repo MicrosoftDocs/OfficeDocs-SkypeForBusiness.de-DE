@@ -1,8 +1,8 @@
 ---
 title: Veröffentlichen der Topologie – Nächster Schritt
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Nach Abschluss der Veröffentlichung der Topologie wird die Seite Veröffentlichen-Assistent abgeschlossen angezeigt.
-ms.openlocfilehash: db236d0f30d68c9706430b72d44a514a876848af
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ec19762450156ab0ded3c4dabeed9eb4a77cfb8a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201622"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919858"
 ---
 # <a name="publish-topology-next-step"></a>Veröffentlichen der Topologie – Nächster Schritt
 

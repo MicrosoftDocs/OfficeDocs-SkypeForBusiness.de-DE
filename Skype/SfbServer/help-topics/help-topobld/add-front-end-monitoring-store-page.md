@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen des Front-End-Überwachungsspeichers – Seite
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 description: 'Sie definieren der Monitoring SQL Server-Speicher, indem Sie die folgenden Eigenschaften konfigurieren:'
-ms.openlocfilehash: e68383ba75c89460ba599aa083e01db1151fdd2f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: d2af2ea26c15ec30e706eb67262745b977a8881c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893953"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33904174"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>Hinzufügen des Front-End-Überwachungsspeichers – Seite
  

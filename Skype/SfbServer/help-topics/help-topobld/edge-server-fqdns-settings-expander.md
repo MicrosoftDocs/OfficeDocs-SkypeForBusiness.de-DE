@@ -1,8 +1,8 @@
 ---
 title: Einstellungen für Edgeserver-FQDNs – Erweiterung
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 description: Um Externe Einstellungen für die Edgeserver zu bearbeiten oder anzugeben, müssen Sie zunächst festlegen, ob für den SIP-Zugriff (Session Initiation Protocol), den Edge-Webkonferenzdienst und den Edge-Audio/Video-Dienst separate IP-Adressen verwendet werden sollen.
-ms.openlocfilehash: bb2872ada60da7edb6905692deb5a893fe3e5427
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9e09362c8af93421fb91dbf43e4d9fe7a7cb6637
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203137"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33926880"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>Einstellungen für Edgeserver-FQDNs – Erweiterung
 

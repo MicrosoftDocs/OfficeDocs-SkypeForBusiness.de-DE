@@ -1,8 +1,8 @@
 ---
 title: Aufrufdetailbericht in Skype für Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: 'Zusammenfassung: Informationen Sie zu den Call Detail Report in Skype für Business Server verwendet wird.'
-ms.openlocfilehash: a0b0836099e1181a25b95bf7adbbe603ef7d5e5f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1dd32baa8efdf932232e71b42a0c0ffdd1d840ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197583"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902790"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>Aufrufdetailbericht in Skype für Business Server
  
