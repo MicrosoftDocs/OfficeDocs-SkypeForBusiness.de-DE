@@ -1,8 +1,8 @@
 ---
 title: Bereitstellen von Funktionen für die anrufverwaltung in Skype für Unternehmen
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: Bereitstellen von Funktionen für die anrufverwaltung in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 6c7a87502c5690d8e39c9e62c8e398381d2504b3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d19ad207b416f2a09abd88282047b79ddd2a1dc4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223134"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892748"
 ---
 # <a name="deploy-call-management-features-in-skype-for-business"></a>Bereitstellen von Funktionen für die anrufverwaltung in Skype für Unternehmen
  

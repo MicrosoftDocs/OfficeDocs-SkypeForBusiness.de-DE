@@ -1,8 +1,8 @@
 ---
 title: Ausstehendes Zertifikat (Rückgabe)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 description: Die Seite Zertifikat anfordern Onlinestatus gibt den aktuellen Status des Zertifikats zurück. Wenn das Zertifikat in eine ausstehende Genehmigung Zustand mit der Zertifizierungsstellen-Administrator ist –, ist, wenn dies nicht der Fall noch genehmigt wurde – den Status wird angeben, dass das Zertifikat weiterhin verarbeitet wird.
-ms.openlocfilehash: 468a8686c80d8605df5c4b3fde58b54c2eced7f7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5f0da8e15f5d55d298822b8a2fcd7f0d25f20b45
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201230"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920971"
 ---
 # <a name="pending-certificate-returned"></a>Ausstehendes Zertifikat (Rückgabe)
  

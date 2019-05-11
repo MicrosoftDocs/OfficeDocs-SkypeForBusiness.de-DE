@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen von Front-End-Server-Kollokationen
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Für eine Enterprise Edition-Bereitstellung der A / V-Konferenzdienst auf den Front-End-Pool verbunden ist. Sie können auch den Vermittlungsserver auf den Front-End-Pool verbinden, oder Sie können es als eigenständiger Server bereitstellen. Der A / V-Konferenzdienst ist immer verbunden, wenn die Konferenz aktiviert ist.
-ms.openlocfilehash: a9f0f46cbd93681b068ef7d87e269c5ff4024385
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a24cc4114efed4db6249e4cc8c8ce28abd2a42d3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235505"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897737"
 ---
 # <a name="add-front-end-server-collocations"></a>Hinzufügen von Front-End-Server-Kollokationen
 

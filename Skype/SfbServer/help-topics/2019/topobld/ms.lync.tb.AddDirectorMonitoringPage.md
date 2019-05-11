@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen der Director-Überwachung
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie können den von SQL Server-Überwachungsspeicher definieren, indem Sie die folgenden Eigenschaften konfigurieren:'
-ms.openlocfilehash: 4ba52c49cc9d851df9d6fa53220cf81d70967e75
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 649cb13ed4675bab98d9f001fb734136e21e93dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202310"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889150"
 ---
 # <a name="add-director-monitoring"></a>Hinzufügen der Director-Überwachung
  

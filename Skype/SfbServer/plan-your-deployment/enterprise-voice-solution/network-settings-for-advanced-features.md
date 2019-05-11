@@ -1,8 +1,8 @@
 ---
 title: Netzwerkeinstellungen für den erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Erfahren Sie mehr über Netzwerkregionen, Netzwerkstandorte und IP-Subnetze. Alle diese müssen konfiguriert werden, um Plan bereitstellen für in Skype für Unternehmen, Plan für die medienumgehung anrufsteuerung in Skype für Business Server), oder Plan für Notdienste in Skype für Business Server in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: a37cf9aea2ef400a61a0b457e1973b05d079ec74
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 979f90beb012bb0ff05077f7236dfdf39a74a69c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206557"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913680"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Netzwerkeinstellungen für den erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server
 

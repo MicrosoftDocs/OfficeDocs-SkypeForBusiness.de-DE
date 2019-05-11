@@ -1,8 +1,8 @@
 ---
 title: Zugriffsnummer für Einwahlkonferenz
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1b2c8676-b132-4ba0-a242-a1edf30a3d44
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 54abf6b437d749d87a1d5d63bcb037c29de56dce
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a653e6ff4edcf32ed988dc0b13032bfb278bc69e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234597"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913349"
 ---
 # <a name="dial-in-access-number"></a>Zugriffsnummer für Einwahlkonferenz
 

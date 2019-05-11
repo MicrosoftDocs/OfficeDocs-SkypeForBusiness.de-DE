@@ -1,8 +1,8 @@
 ---
 title: Verwalten der Archivierung in Skype für Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
 description: 'Zusammenfassung: Informationen Sie zum Verwalten der Archivierung für Skype für Business Server.'
-ms.openlocfilehash: 19d8d7eb6a2cd92bb4132d5dfe7703995b1056b9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 28d69bbdb46a2046f5d6b1898dced73d5e286a6f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875236"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920647"
 ---
 # <a name="manage-archiving-in-skype-for-business-server"></a>Verwalten der Archivierung in Skype für Business Server
 

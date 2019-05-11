@@ -1,8 +1,8 @@
 ---
 title: Zuordnen des Front-Ends zur A/V MCU
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
 description: A / V-Konferenzen in Echtzeit Audio- und Videokommunikation Ihre Benutzer können (d. h., wenn sie die entsprechenden Clientgeräte wie Headsets für Audiokonferenzen und Webcams für Videokonferenzen verfügen). Wenn Ihre Bereitstellung, Konferenzen unterstützt und Sie, Webkonferenzen und A aktivieren / V-Konferenzen, möglich, A / V-Konferenzserver mit dem Front-End-Server), bereitstellen oder Sie können eine oder mehrere eigenständige A / V-Konferenzserver (A / V-konferenzpool) . Wenn Sie die Option zum Bereitstellen eines eigenständigen A / V-Konferenzservers müssen definieren Sie sie im Topologie-Generator.
-ms.openlocfilehash: 62b6dfc54fcbdd839fce9b317d0256845f3c2c08
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 542634946f86adfe6839ea1eb37037cb920e337d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227460"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925004"
 ---
 # <a name="associate-front-end-with-av-mcu"></a>Zuordnen des Front-Ends zur A/V MCU
  

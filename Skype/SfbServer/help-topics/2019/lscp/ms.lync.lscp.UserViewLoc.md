@@ -1,8 +1,8 @@
 ---
 title: Benutzer anzeigen oder Konfigurieren von Ortungsrichtlinien
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 2efae753fee00cc570f0fd89b920c3ce988cd49e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 12d39b7cf4ff060b89a61efda7ea0ff385e54c43
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221634"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890837"
 ---
 # <a name="users-view-or-configure-location-policy"></a>Benutzer: Anzeigen oder Konfigurieren von Ortungsrichtlinien
 

@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen eines SQL Server-Speichers für den Monitoring Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Monitoring Server erfordert eine unterstützte 64-Bit-Edition von SQL Server-Datenbanksoftware, um die Überwachungsdaten zu speichern. Sie können wählen Sie zuvor definierte SQL Server-Datenbank für die Überwachung verwendet werden, oder definieren eine neue SQL Server-Datenbank durch angeben einen vollqualifizierten Domänennamen (FQDN) des Servers, auf dem SQL Server-Datenbank werden sollen, zusätzlich zu der Instanz von SQL gespeichert Server, die Sie für die neue SQL Server-Datenbank verwenden möchten (das sein können, die Standardinstanz oder eine benannte Instanz, die Sie angeben).
-ms.openlocfilehash: f0efdf2662567f786a035d30236d11c14ccc8efe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4ecbdac4b78c4a377d3de17a136e031ee7503582
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202033"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888786"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>Hinzufügen eines SQL Server-Speichers für den Monitoring Server
 

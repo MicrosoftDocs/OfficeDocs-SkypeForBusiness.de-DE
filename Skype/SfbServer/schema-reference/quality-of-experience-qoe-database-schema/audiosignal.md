@@ -1,8 +1,8 @@
 ---
 title: AudioSignal-Tabelle
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: Jeder Datensatz steht Audiosignal Metriken für einen Endpunkt. In der Regel jeden Anruf hat zwei Datensätze, einer für Anrufer ist und eine für angerufenen ist.
-ms.openlocfilehash: 7a064f13b6f34f61dcfb72169a4b1620cd81b01f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 676a66cda3c87f5e16c956d23624b28af4b4357f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212313"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920250"
 ---
 # <a name="audiosignal-table"></a>AudioSignal-Tabelle
  

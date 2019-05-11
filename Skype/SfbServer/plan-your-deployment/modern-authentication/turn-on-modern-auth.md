@@ -1,8 +1,8 @@
 ---
 title: Planen von Authentifizierungsmethoden Legacy intern und extern in Ihr Netzwerk deaktivieren
 ms.reviewer: ''
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: In diesem Artikel Gliederungen-Cmdlets, mit denen Administratoren mehr Kontrolle über Authentifizierungsmethoden erhalten verwendet innerhalb und außerhalb, eines Unternehmens. Administratoren können Authentifizierungsmethoden auf Aktivieren oder deaktivieren Sie intern oder extern mit ihrem Netzwerk.
-ms.openlocfilehash: 08f8b850fbde99f85f804494eab79a9a3531d009
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ab50913b2a8a784193f30b124f9a212da29fa5bf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213900"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929203"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planen der Legacy-Authentifizierungsmethoden intern und extern in Ihr Netzwerk zu deaktivieren.
 
