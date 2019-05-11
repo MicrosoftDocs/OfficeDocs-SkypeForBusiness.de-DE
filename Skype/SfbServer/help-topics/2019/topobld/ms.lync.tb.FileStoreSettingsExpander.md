@@ -1,8 +1,8 @@
 ---
 title: Dateispeichereinstellungen – Erweiterung
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 ROBOTS: NOINDEX, NOFOLLOW
 description: So bearbeiten Sie die Eigenschaften der definierten Dateispeicher
-ms.openlocfilehash: bee25e8550cd61ca14c1c898dc8810aa8d759fb5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6fc4159db05ee60c9caccd6e5077c83d8fc75457
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201814"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886852"
 ---
-# <a name="file-store-settings-expander"></a><span data-ttu-id="3a858-103">Dateispeichereinstellungen – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="3a858-103">File Store Settings Expander</span></span>
+# <a name="file-store-settings-expander"></a><span data-ttu-id="0270d-103">Dateispeichereinstellungen – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="0270d-103">File Store Settings Expander</span></span>
  
-<span data-ttu-id="3a858-104">So bearbeiten Sie die Eigenschaften der definierten Dateispeicher</span><span class="sxs-lookup"><span data-stu-id="3a858-104">To edit the properties of the defined file stores:</span></span>
+<span data-ttu-id="0270d-104">So bearbeiten Sie die Eigenschaften der definierten Dateispeicher</span><span class="sxs-lookup"><span data-stu-id="0270d-104">To edit the properties of the defined file stores:</span></span>
   
-<span data-ttu-id="3a858-105">Für den Namen der Datei freizugeben, können Sie den Namen des neuen Freigabe definieren.</span><span class="sxs-lookup"><span data-stu-id="3a858-105">For the File Share name, you can define the name of a new share.</span></span> <span data-ttu-id="3a858-106">Sie müssen dann die Freigabe auf dem Server erstellen, mit dem Namen in der Eigenschaft Dateiserver voll qualifizierte Domäne Name (FQDN).</span><span class="sxs-lookup"><span data-stu-id="3a858-106">You must then create the share on the server that is named in the File Server fully qualified domain name (FQDN) property.</span></span>
+<span data-ttu-id="0270d-105">Für den Namen der Datei freizugeben, können Sie den Namen des neuen Freigabe definieren.</span><span class="sxs-lookup"><span data-stu-id="0270d-105">For the File Share name, you can define the name of a new share.</span></span> <span data-ttu-id="0270d-106">Sie müssen dann die Freigabe auf dem Server erstellen, mit dem Namen in der Eigenschaft Dateiserver voll qualifizierte Domäne Name (FQDN).</span><span class="sxs-lookup"><span data-stu-id="0270d-106">You must then create the share on the server that is named in the File Server fully qualified domain name (FQDN) property.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="3a858-107">Sie können den FQDN des Servers, die in der Dateiserver-FQDN-Eigenschaft angegeben wird, nicht ändern.</span><span class="sxs-lookup"><span data-stu-id="3a858-107">You cannot change the FQDN of the server that is specified in the File Server FQDN property.</span></span> <span data-ttu-id="3a858-108">Wenn die Datei Store Dateifreigabe auf einem anderen Server platziert werden müssen, erstellen Sie einen neuen Eintrag der Datei speichern.</span><span class="sxs-lookup"><span data-stu-id="3a858-108">If you need to place the file store file share on a different server, you create a new file store entry.</span></span> 
+> <span data-ttu-id="0270d-107">Sie können den FQDN des Servers, die in der Dateiserver-FQDN-Eigenschaft angegeben wird, nicht ändern.</span><span class="sxs-lookup"><span data-stu-id="0270d-107">You cannot change the FQDN of the server that is specified in the File Server FQDN property.</span></span> <span data-ttu-id="0270d-108">Wenn die Datei Store Dateifreigabe auf einem anderen Server platziert werden müssen, erstellen Sie einen neuen Eintrag der Datei speichern.</span><span class="sxs-lookup"><span data-stu-id="0270d-108">If you need to place the file store file share on a different server, you create a new file store entry.</span></span> 
   
 
