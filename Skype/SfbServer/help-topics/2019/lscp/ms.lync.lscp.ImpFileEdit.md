@@ -1,8 +1,8 @@
 ---
 title: Dateifilter Erstellen einer neuen oder Bearbeiten einer vorhandenen
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 3aa77423a2b17aaaf0dd506f14703c9722c7c68d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3bae78eac2dad0a9b58d15b86d20518bd3fa82a1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215542"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891250"
 ---
 # <a name="file-filter-create-new-or-edit-existing"></a>Dateifilter: Erstellen eines neuen oder Bearbeiten eines vorhandenen Dateifilters
 

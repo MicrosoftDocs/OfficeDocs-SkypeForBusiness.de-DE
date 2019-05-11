@@ -1,8 +1,8 @@
 ---
 title: Erweiterung der Porteinstellungen für den Video-Interoperabilität-Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 416ba609-5a32-4c60-b346-ef3119932c91
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die erforderlichen Schritte zum Definieren einer neuen gegenüber oder Video Gateways im Topologie-Generator sind online unter Erstellen eines Pools gegenüber in Skype für Business Server beschrieben.
-ms.openlocfilehash: 755285f475361529f89d1c7eed3bce16f5aad88d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d5e5633dce27ed0408f4b7483aae0a4b9cd84128
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235171"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921153"
 ---
 # <a name="video-interop-server-port-settings-expander"></a>Erweiterung der Porteinstellungen für den Video-Interoperabilität-Server
  

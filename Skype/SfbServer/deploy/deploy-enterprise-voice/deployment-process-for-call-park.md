@@ -1,8 +1,8 @@
 ---
 title: Bereitstellungsprozess für das Parken von Anrufen in Skype für Unternehmen
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 description: Bereitstellungsprozess und Schritte für das Parken von Anrufen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 470a8a2f918a69324a747fe667692c8ab36ee542
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b30f569ca44d4051638103e9a5d13280113916bb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223099"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892608"
 ---
 # <a name="deployment-process-for-call-park-in-skype-for-business"></a>Bereitstellungsprozess für das Parken von Anrufen in Skype für Unternehmen
  

@@ -1,7 +1,7 @@
 ---
 title: Skype für die Business-Kompatibilität mit Office-apps
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Verstehen Sie, wie Sie Skype für Business-Features in Outlook und anderen Office-Anwendung zugreifen können.
-ms.openlocfilehash: c5636b5c7e41b480a9c8aa5532a22523c3554a54
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f8f6f31e6b77b50178bf80210606ca5b92ea4e05
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207475"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33923855"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype für die Business-Kompatibilität mit Office-apps
  
