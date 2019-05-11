@@ -1,8 +1,8 @@
 ---
 title: Branch Sites (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 description: Ausführliche Informationen zu Zweigstellenstandorte finden Sie unter Planen für die VoIP-Ausfallsicherheit.
-ms.openlocfilehash: 46ce05f9cdb287f20fc19bee5f05f00a23f3bf23
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 05b44674a86ec5d11d4942e2c1b331fb29474705
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219844"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888135"
 ---
-# <a name="branch-sites-planning-tool"></a><span data-ttu-id="c8534-103">Branch Sites (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="c8534-103">Branch Sites (Planning Tool)</span></span>
+# <a name="branch-sites-planning-tool"></a><span data-ttu-id="87cc2-103">Branch Sites (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="87cc2-103">Branch Sites (Planning Tool)</span></span>
 
-<span data-ttu-id="c8534-104">Ausführliche Informationen zu Zweigstellenstandorte finden Sie unter [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span><span class="sxs-lookup"><span data-stu-id="c8534-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span></span>
+<span data-ttu-id="87cc2-104">Ausführliche Informationen zu Zweigstellenstandorte finden Sie unter [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span><span class="sxs-lookup"><span data-stu-id="87cc2-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span></span>
 
 

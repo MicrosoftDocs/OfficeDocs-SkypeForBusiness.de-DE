@@ -1,8 +1,8 @@
 ---
 title: Neuerstellen unter Lync Server 2013 – Erweiterung
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie können im Lync Server 2013-Knoten des Topologie-Generator neue Serverrollen erstellen, indem Sie mit der rechten Maustaste auf Lync Server 2013, wählen Sie neu und dann die zu erstellende Serverrolle auswählen.
-ms.openlocfilehash: aa53e7a373a95e8f264a64aaac82bbcab47b0dcc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b0f272ec7393302e54818053ca0e53270b8c1cf3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235420"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885610"
 ---
-# <a name="skype-for-business-server-create-new-expander"></a><span data-ttu-id="71f7d-103">Skype für Business Server erstellen neue – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="71f7d-103">Skype for Business Server Create New Expander</span></span>
+# <a name="skype-for-business-server-create-new-expander"></a><span data-ttu-id="2451d-103">Skype für Business Server erstellen neue – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="2451d-103">Skype for Business Server Create New Expander</span></span>
  
-<span data-ttu-id="71f7d-104">Sie können im Topologie-Generator neue Serverrollen erstellen, mit der rechten Maustaste **Skype für Business Server** **neu**auswählen und die zu erstellende Serverrolle auswählen.</span><span class="sxs-lookup"><span data-stu-id="71f7d-104">You can create new server roles in the Topology Builder by right-clicking **Skype for Business Server**, selecting **New**, and selecting the server role to create.</span></span>
+<span data-ttu-id="2451d-104">Sie können im Topologie-Generator neue Serverrollen erstellen, mit der rechten Maustaste **Skype für Business Server** **neu**auswählen und die zu erstellende Serverrolle auswählen.</span><span class="sxs-lookup"><span data-stu-id="2451d-104">You can create new server roles in the Topology Builder by right-clicking **Skype for Business Server**, selecting **New**, and selecting the server role to create.</span></span>
   
 

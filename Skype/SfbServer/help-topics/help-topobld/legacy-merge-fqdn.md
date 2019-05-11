@@ -1,8 +1,8 @@
 ---
 title: Legacyzusammenführung – FQDN
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 description: Der interne FQDN des Zugriffs-Edge-Pool wird für eine Vielzahl von Szenarien verwendet, auf dem internen Benutzer mit externen Benutzern für Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten kommunizieren. Wenn Sie einen Lastenausgleich Edge-Server in der Vorversion Umgebung bereitgestellt wurde, geben Sie den vollqualifizierten Domänennamen (FQDN) des internen Lastenausgleichssystems an.
-ms.openlocfilehash: 38febd8b6d37d186706dc6d4ce43df5a9585c475
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 83a85a31049b936bbc52f51e10855938aa049249
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200187"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888569"
 ---
-# <a name="legacy-merge-fqdn"></a><span data-ttu-id="67379-104">Legacyzusammenführung – FQDN</span><span class="sxs-lookup"><span data-stu-id="67379-104">Legacy Merge FQDN</span></span>
+# <a name="legacy-merge-fqdn"></a><span data-ttu-id="e6fec-104">Legacyzusammenführung – FQDN</span><span class="sxs-lookup"><span data-stu-id="e6fec-104">Legacy Merge FQDN</span></span>
  
-<span data-ttu-id="67379-105">Den **internen FQDN des Zugriffs-Edge-Pool** wird für eine Vielzahl von Szenarien verwendet, auf dem internen Benutzer mit externen Benutzern für Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten kommunizieren.</span><span class="sxs-lookup"><span data-stu-id="67379-105">The **Access Edge Pool internal FQDN** is used for a variety of scenarios where internal users communicate with external users for federation, remote user access, and public IM connectivity.</span></span> <span data-ttu-id="67379-106">Wenn Sie einen Lastenausgleich Edge-Server in der Vorversion Umgebung bereitgestellt wurde, geben Sie den vollqualifizierten Domänennamen (FQDN) des internen Lastenausgleichssystems an.</span><span class="sxs-lookup"><span data-stu-id="67379-106">If a load-balanced Edge Server was deployed in your legacy environment, enter the fully qualified domain name (FQDN) of the internal load balancer.</span></span>
+<span data-ttu-id="e6fec-105">Den **internen FQDN des Zugriffs-Edge-Pool** wird für eine Vielzahl von Szenarien verwendet, auf dem internen Benutzer mit externen Benutzern für Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten kommunizieren.</span><span class="sxs-lookup"><span data-stu-id="e6fec-105">The **Access Edge Pool internal FQDN** is used for a variety of scenarios where internal users communicate with external users for federation, remote user access, and public IM connectivity.</span></span> <span data-ttu-id="e6fec-106">Wenn Sie einen Lastenausgleich Edge-Server in der Vorversion Umgebung bereitgestellt wurde, geben Sie den vollqualifizierten Domänennamen (FQDN) des internen Lastenausgleichssystems an.</span><span class="sxs-lookup"><span data-stu-id="e6fec-106">If a load-balanced Edge Server was deployed in your legacy environment, enter the fully qualified domain name (FQDN) of the internal load balancer.</span></span>
   
-<span data-ttu-id="67379-107">Der Wert **Access-interne SIP-Port** **5061** ist der Standardport für SIP (TCP = Transmission Control Protocol) für die Kommunikation mit Clients, legacy-Front-End-Pools und Server.</span><span class="sxs-lookup"><span data-stu-id="67379-107">The **Internal SIP access port** value of **5061** is the default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools and servers.</span></span> <span data-ttu-id="67379-108">Wenn der Standardwert nicht verwendet wurde, Aktualisieren der **Access-interne SIP-Port:** Wert.</span><span class="sxs-lookup"><span data-stu-id="67379-108">If the default value was not used, update the **Internal SIP access port:** value.</span></span>
+<span data-ttu-id="e6fec-107">Der Wert **Access-interne SIP-Port** **5061** ist der Standardport für SIP (TCP = Transmission Control Protocol) für die Kommunikation mit Clients, legacy-Front-End-Pools und Server.</span><span class="sxs-lookup"><span data-stu-id="e6fec-107">The **Internal SIP access port** value of **5061** is the default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools and servers.</span></span> <span data-ttu-id="e6fec-108">Wenn der Standardwert nicht verwendet wurde, Aktualisieren der **Access-interne SIP-Port:** Wert.</span><span class="sxs-lookup"><span data-stu-id="e6fec-108">If the default value was not used, update the **Internal SIP access port:** value.</span></span>
   
 

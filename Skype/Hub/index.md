@@ -4,14 +4,15 @@ hide_bc: true
 title: Skype for Business
 ms.reviewer: ''
 ms.author: kenwith
+manager: serdars
 author: kenwith
 description: Skype for Business
-ms.openlocfilehash: a08b6ecdaf09ade237332e08a23ddbfeb9c5eb64
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 140d0f361883ca40f4b394eedd03b3ef23fa4b19
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32195015"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33905694"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -109,7 +110,7 @@ ms.locfileid: "32195015"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft Teams</h3>
+                                                    <h3>Microsoft Teams</h3>
                                                     <p>Holen Sie sich die Planung, das Vorgehen und den Leitfaden, die Sie für die erfolgreiche Einführung von Microsoft Teams benötigen.</p>
                                                 </div>
                                             </div>
