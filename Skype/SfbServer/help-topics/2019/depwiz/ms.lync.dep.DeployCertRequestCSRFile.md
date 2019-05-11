@@ -1,8 +1,8 @@
 ---
 title: Zertifikatanforderung (Signieranforderung für das Zertifikat)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um eine offlineanforderung zu erstellen, müssen Sie zuerst Certificate signing Request (CSR) erstellen. Geben Sie den Pfad und Dateiname für die CSR in das Textfeld Dateiname ein. Sie können klicken Sie auf Durchsuchen, um einen Speicherort für die CSR erstellen auszuwählen. Klicken Sie auf Weiter, um fortzufahren.
-ms.openlocfilehash: 8987d40b4494d70cd588cb7bfc6804918c590df0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 053b8577eccf86c1f0c8278f0bf3f89bee0860f7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216361"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893784"
 ---
-# <a name="certificate-request-certificate-signing-request"></a><span data-ttu-id="2eb16-106">Zertifikatanforderung (Signieranforderung für das Zertifikat)</span><span class="sxs-lookup"><span data-stu-id="2eb16-106">Certificate Request (Certificate Signing Request)</span></span>
+# <a name="certificate-request-certificate-signing-request"></a><span data-ttu-id="ab457-106">Zertifikatanforderung (Signieranforderung für das Zertifikat)</span><span class="sxs-lookup"><span data-stu-id="ab457-106">Certificate Request (Certificate Signing Request)</span></span>
  
-<span data-ttu-id="2eb16-107">Um eine offlineanforderung zu erstellen, müssen Sie zuerst Certificate signing Request (CSR) erstellen.</span><span class="sxs-lookup"><span data-stu-id="2eb16-107">To create an offline request, you must first create a certificate signing request (CSR).</span></span> <span data-ttu-id="2eb16-108">Geben Sie den Pfad und Dateiname für die CSR in das Textfeld **Dateiname** ein.</span><span class="sxs-lookup"><span data-stu-id="2eb16-108">Type the path and file name for the CSR in the **File Name** text box.</span></span> <span data-ttu-id="2eb16-109">Klicken Sie auf **Durchsuchen** , um einen Speicherort zum Erstellen der CSR auszuwählen.</span><span class="sxs-lookup"><span data-stu-id="2eb16-109">You can click **Browse** to choose a location to create the CSR.</span></span> <span data-ttu-id="2eb16-110">Klicken Sie auf **Weiter**, um fortzufahren.</span><span class="sxs-lookup"><span data-stu-id="2eb16-110">Click **Next** to continue.</span></span>
+<span data-ttu-id="ab457-107">Um eine offlineanforderung zu erstellen, müssen Sie zuerst Certificate signing Request (CSR) erstellen.</span><span class="sxs-lookup"><span data-stu-id="ab457-107">To create an offline request, you must first create a certificate signing request (CSR).</span></span> <span data-ttu-id="ab457-108">Geben Sie den Pfad und Dateiname für die CSR in das Textfeld **Dateiname** ein.</span><span class="sxs-lookup"><span data-stu-id="ab457-108">Type the path and file name for the CSR in the **File Name** text box.</span></span> <span data-ttu-id="ab457-109">Klicken Sie auf **Durchsuchen** , um einen Speicherort zum Erstellen der CSR auszuwählen.</span><span class="sxs-lookup"><span data-stu-id="ab457-109">You can click **Browse** to choose a location to create the CSR.</span></span> <span data-ttu-id="ab457-110">Klicken Sie auf **Weiter**, um fortzufahren.</span><span class="sxs-lookup"><span data-stu-id="ab457-110">Click **Next** to continue.</span></span>
   
-<span data-ttu-id="2eb16-111">Klicken Sie auf **zurück** zum vorherigen Bildschirm zurückkehren.</span><span class="sxs-lookup"><span data-stu-id="2eb16-111">Click **Back** to go back to the previous screen.</span></span> <span data-ttu-id="2eb16-112">Klicken Sie auf **Abbrechen** , um das Beenden, ohne Änderungen vorzunehmen, mit dem System.</span><span class="sxs-lookup"><span data-stu-id="2eb16-112">Click **Cancel** to exit without making changes to the system.</span></span>
+<span data-ttu-id="ab457-111">Klicken Sie auf **zurück** zum vorherigen Bildschirm zurückkehren.</span><span class="sxs-lookup"><span data-stu-id="ab457-111">Click **Back** to go back to the previous screen.</span></span> <span data-ttu-id="ab457-112">Klicken Sie auf **Abbrechen** , um das Beenden, ohne Änderungen vorzunehmen, mit dem System.</span><span class="sxs-lookup"><span data-stu-id="ab457-112">Click **Cancel** to exit without making changes to the system.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="2eb16-113">Die in diesem Schritt erstellten Datei ist an Ihre öffentliche Zertifizierungsstelle (CA), an die interne offline Zertifizierungsstelle gesendet oder an den Administrator der Zertifizierungsstelle für die Verarbeitung übermittelt werden.</span><span class="sxs-lookup"><span data-stu-id="2eb16-113">The file that is created in this step is sent to your public certification authority (CA), to your internal offline CA, or submitted to your CA administrator for processing.</span></span> <span data-ttu-id="2eb16-114">Beachten Sie den Speicherort und den Namen, damit Sie abrufen und die CSR an die Zertifizierungsstelle übermitteln können.</span><span class="sxs-lookup"><span data-stu-id="2eb16-114">Note the file location and name so that you can retrieve it and submit the CSR to the CA.</span></span> <span data-ttu-id="2eb16-115">Der Standardspeicherort ist das Verzeichnis Dokumente der Person, die den Zertifikat-Assistenten ausführen.</span><span class="sxs-lookup"><span data-stu-id="2eb16-115">The default location is the Documents directory of the person running the Certificate Wizard.</span></span> 
+> <span data-ttu-id="ab457-113">Die in diesem Schritt erstellten Datei ist an Ihre öffentliche Zertifizierungsstelle (CA), an die interne offline Zertifizierungsstelle gesendet oder an den Administrator der Zertifizierungsstelle für die Verarbeitung übermittelt werden.</span><span class="sxs-lookup"><span data-stu-id="ab457-113">The file that is created in this step is sent to your public certification authority (CA), to your internal offline CA, or submitted to your CA administrator for processing.</span></span> <span data-ttu-id="ab457-114">Beachten Sie den Speicherort und den Namen, damit Sie abrufen und die CSR an die Zertifizierungsstelle übermitteln können.</span><span class="sxs-lookup"><span data-stu-id="ab457-114">Note the file location and name so that you can retrieve it and submit the CSR to the CA.</span></span> <span data-ttu-id="ab457-115">Der Standardspeicherort ist das Verzeichnis Dokumente der Person, die den Zertifikat-Assistenten ausführen.</span><span class="sxs-lookup"><span data-stu-id="ab457-115">The default location is the Documents directory of the person running the Certificate Wizard.</span></span> 
   
 

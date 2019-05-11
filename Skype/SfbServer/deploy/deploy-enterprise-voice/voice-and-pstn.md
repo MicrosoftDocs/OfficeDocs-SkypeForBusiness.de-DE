@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren von VoIP-Richtlinien, PSTN-verwendungsdatensätzen und VoIP-Routen in Skype für Unternehmen
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,38 +14,38 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 description: 'Zusammenfassung: Informationen Sie zum Konfigurieren von VoIP-Richtlinien, PSTN-verwendungsdatensätzen und VoIP-Routen in Skype für Business Server.'
-ms.openlocfilehash: 37cc90e76a4ebf93ebd1ab1d61595b7fb8f6db38
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 491d70a8bdec9017169a7937f52bb5403e94335f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222533"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892230"
 ---
-# <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a><span data-ttu-id="4bc16-103">Konfigurieren von VoIP-Richtlinien, PSTN-verwendungsdatensätzen und VoIP-Routen in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="4bc16-103">Configure voice policies, PSTN usage records, and voice routes in Skype for Business</span></span>
+# <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a><span data-ttu-id="3f10c-103">Konfigurieren von VoIP-Richtlinien, PSTN-verwendungsdatensätzen und VoIP-Routen in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="3f10c-103">Configure voice policies, PSTN usage records, and voice routes in Skype for Business</span></span>
  
-<span data-ttu-id="4bc16-104">**Zusammenfassung:** Informationen Sie zum Konfigurieren von VoIP-Richtlinien, PSTN-verwendungsdatensätzen und VoIP-Routen in Skype für Business Server.</span><span class="sxs-lookup"><span data-stu-id="4bc16-104">**Summary:** Learn how to configure voice policies, PSTN usage records, and voice routes in Skype for Business Server.</span></span>
+<span data-ttu-id="3f10c-104">**Zusammenfassung:** Informationen Sie zum Konfigurieren von VoIP-Richtlinien, PSTN-verwendungsdatensätzen und VoIP-Routen in Skype für Business Server.</span><span class="sxs-lookup"><span data-stu-id="3f10c-104">**Summary:** Learn how to configure voice policies, PSTN usage records, and voice routes in Skype for Business Server.</span></span>
   
-<span data-ttu-id="4bc16-p101">VoIP-Richtlinien, PSTN-Verwendungsdatensätze und VoIP-Routen stehen in enger Beziehung zueinander. Zur Konfiguration von VoIP-Richtlinien wird eine Reihe von Anruffunktionen ausgewählt. Anschließend wird die Richtlinie einem Satz von PSTN-Verwendungsdatensätzen zugewiesen, in denen die Rechte für die Benutzer oder Gruppen festgelegt sind, denen die VoIP-Richtlinie zugewiesen wird. Auch VoIP-Routen werden PSTN-Verwendungsdatensätze zugewiesen, um Routen und die für ihre Verwendung autorisierten Benutzer einander zuzuordnen. Benutzer können also nur Anrufe über Routen tätigen, für die sie passende PSTN-Verwendungsdatensätze besitzen.</span><span class="sxs-lookup"><span data-stu-id="4bc16-p101">Voice policies, PSTN usage records, and voice routes are integrally related. You configure voice policies by selecting a set of calling features and then assigning the policy a set of PSTN usage records, which specify what rights are authorized for the users or groups who are assigned the voice policy. Voice routes are also assigned PSTN usage records, which serve to match routes with the users who are authorized to use them. That is, users can only place calls that use the routes for which they have a matching PSTN usage record.</span></span>
+<span data-ttu-id="3f10c-p101">VoIP-Richtlinien, PSTN-Verwendungsdatensätze und VoIP-Routen stehen in enger Beziehung zueinander. Zur Konfiguration von VoIP-Richtlinien wird eine Reihe von Anruffunktionen ausgewählt. Anschließend wird die Richtlinie einem Satz von PSTN-Verwendungsdatensätzen zugewiesen, in denen die Rechte für die Benutzer oder Gruppen festgelegt sind, denen die VoIP-Richtlinie zugewiesen wird. Auch VoIP-Routen werden PSTN-Verwendungsdatensätze zugewiesen, um Routen und die für ihre Verwendung autorisierten Benutzer einander zuzuordnen. Benutzer können also nur Anrufe über Routen tätigen, für die sie passende PSTN-Verwendungsdatensätze besitzen.</span><span class="sxs-lookup"><span data-stu-id="3f10c-p101">Voice policies, PSTN usage records, and voice routes are integrally related. You configure voice policies by selecting a set of calling features and then assigning the policy a set of PSTN usage records, which specify what rights are authorized for the users or groups who are assigned the voice policy. Voice routes are also assigned PSTN usage records, which serve to match routes with the users who are authorized to use them. That is, users can only place calls that use the routes for which they have a matching PSTN usage record.</span></span>
   
-<span data-ttu-id="4bc16-109">Der empfohlene Workflow für eine neue Enterprise-VoIP-Bereitstellung besteht darin, zunächst eine VoIP-Richtlinie mit den geeigneten PSTN-Verwendungsdatensätzen zu konfigurieren und anschließend den einzelnen PSTN-Verwendungsdatensätzen die entsprechenden Routen zuzuordnen.</span><span class="sxs-lookup"><span data-stu-id="4bc16-109">The recommended workflow for a new Enterprise Voice deployment is to start by configuring a voice policy that includes the appropriate PSTN usage records, and then associate the appropriate routes to each PSTN usage record.</span></span> 
+<span data-ttu-id="3f10c-109">Der empfohlene Workflow für eine neue Enterprise-VoIP-Bereitstellung besteht darin, zunächst eine VoIP-Richtlinie mit den geeigneten PSTN-Verwendungsdatensätzen zu konfigurieren und anschließend den einzelnen PSTN-Verwendungsdatensätzen die entsprechenden Routen zuzuordnen.</span><span class="sxs-lookup"><span data-stu-id="3f10c-109">The recommended workflow for a new Enterprise Voice deployment is to start by configuring a voice policy that includes the appropriate PSTN usage records, and then associate the appropriate routes to each PSTN usage record.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="4bc16-110">Sie können auch VoIP-Richtlinien *Benutzerebene* erstellen und diese für einzelne Benutzer oder Gruppen zuweisen.</span><span class="sxs-lookup"><span data-stu-id="4bc16-110">You can also create voice policies with  *user*  scope and assign them to individual users or groups.</span></span>
+> <span data-ttu-id="3f10c-110">Sie können auch VoIP-Richtlinien *Benutzerebene* erstellen und diese für einzelne Benutzer oder Gruppen zuweisen.</span><span class="sxs-lookup"><span data-stu-id="3f10c-110">You can also create voice policies with  *user*  scope and assign them to individual users or groups.</span></span>
   
-<span data-ttu-id="4bc16-111">Die einzelnen Schritte zur Durchführung dieser Aufgaben finden Sie in den Verfahren in diesem Abschnitt.</span><span class="sxs-lookup"><span data-stu-id="4bc16-111">For the detailed steps to perform each of these tasks, see the procedures in this section.</span></span>
+<span data-ttu-id="3f10c-111">Die einzelnen Schritte zur Durchführung dieser Aufgaben finden Sie in den Verfahren in diesem Abschnitt.</span><span class="sxs-lookup"><span data-stu-id="3f10c-111">For the detailed steps to perform each of these tasks, see the procedures in this section.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="4bc16-112">Inhalt dieses Abschnitts</span><span class="sxs-lookup"><span data-stu-id="4bc16-112">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3f10c-112">Inhalt dieses Abschnitts</span><span class="sxs-lookup"><span data-stu-id="3f10c-112">In this section</span></span>
 
-- [<span data-ttu-id="4bc16-113">Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="4bc16-113">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](voice-policy-and-pstn-usage-records.md)
+- [<span data-ttu-id="3f10c-113">Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="3f10c-113">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](voice-policy-and-pstn-usage-records.md)
     
-- [<span data-ttu-id="4bc16-114">Konfigurieren des Wechsels der Voicemail in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="4bc16-114">Configure voice mail escape in Skype for Business</span></span>](configure-voice-mail-escape.md)
+- [<span data-ttu-id="3f10c-114">Konfigurieren des Wechsels der Voicemail in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="3f10c-114">Configure voice mail escape in Skype for Business</span></span>](configure-voice-mail-escape.md)
     
-- [<span data-ttu-id="4bc16-115">Anzeigen von PSTN-Verwendungseinträge in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="4bc16-115">View PSTN usage records in Skype for Business</span></span>](view-pstn-usage-records.md)
+- [<span data-ttu-id="3f10c-115">Anzeigen von PSTN-Verwendungseinträge in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="3f10c-115">View PSTN usage records in Skype for Business</span></span>](view-pstn-usage-records.md)
     
-- [<span data-ttu-id="4bc16-116">Erstellen oder Ändern einer VoIP-Route in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="4bc16-116">Create or modify a voice route in Skype for Business</span></span>](create-or-modify-a-voice-route.md)
+- [<span data-ttu-id="3f10c-116">Erstellen oder Ändern einer VoIP-Route in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="3f10c-116">Create or modify a voice route in Skype for Business</span></span>](create-or-modify-a-voice-route.md)
     
-- [<span data-ttu-id="4bc16-117">Exportieren oder Importieren einer VoIP-routenkonfigurationsdatei in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="4bc16-117">Export or import a voice route configuration file in Skype for Business</span></span>](voice-route-configuration-import-export.md)
+- [<span data-ttu-id="3f10c-117">Exportieren oder Importieren einer VoIP-routenkonfigurationsdatei in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="3f10c-117">Export or import a voice route configuration file in Skype for Business</span></span>](voice-route-configuration-import-export.md)
     
-- [<span data-ttu-id="4bc16-118">Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="4bc16-118">Publish pending changes to the voice routing configuration in Skype for Business</span></span>](voice-route-config-changes.md)
+- [<span data-ttu-id="3f10c-118">Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="3f10c-118">Publish pending changes to the voice routing configuration in Skype for Business</span></span>](voice-route-config-changes.md)
     
 

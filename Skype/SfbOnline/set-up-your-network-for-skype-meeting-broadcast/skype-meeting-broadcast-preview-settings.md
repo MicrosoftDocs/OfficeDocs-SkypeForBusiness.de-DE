@@ -1,6 +1,6 @@
 ---
 title: Skype Besprechung übertragen Preview-Einstellungen
-mms.author: tonysmit
+ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: micchan
@@ -20,21 +20,21 @@ f1keywords:
 ms.custom:
 - SMB
 description: Die Skype für Business Customer Preview Programm bietet Sie früher Zugriff auf neue Produkte und Features. Es kann Ihre Organisation eine Vorschau auf was kommt, testen Sie die neuen Features in Ihrer Umgebung, und geben Sie Feedback, bevor wir Produktbuilds der Öffentlichkeit freigeben, abrufen. Wenn um Sie mehr zu erfahren, finden Sie unter Skype Business Vorschau.
-ms.openlocfilehash: 1f563292e2e5927cf037e5d2a9b24405d0a336a2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0769d33885e3782a4e716797ef0c8995047f9659
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226144"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906569"
 ---
-# <a name="skype-meeting-broadcast-preview-settings"></a><span data-ttu-id="ee9ac-105">Skype Besprechung übertragen Preview-Einstellungen</span><span class="sxs-lookup"><span data-stu-id="ee9ac-105">Skype Meeting Broadcast Preview settings</span></span>
+# <a name="skype-meeting-broadcast-preview-settings"></a><span data-ttu-id="86743-105">Skype Besprechung übertragen Preview-Einstellungen</span><span class="sxs-lookup"><span data-stu-id="86743-105">Skype Meeting Broadcast Preview settings</span></span>
 
-<span data-ttu-id="ee9ac-106">Die Skype für Business Customer Preview Programm bietet Sie früher Zugriff auf neue Produkte und Features.</span><span class="sxs-lookup"><span data-stu-id="ee9ac-106">The Skype for Business customer preview program provides you early access to new products and features.</span></span> <span data-ttu-id="ee9ac-107">Es kann Ihre Organisation eine Vorschau auf was kommt, testen Sie die neuen Features in Ihrer Umgebung, und geben Sie Feedback, bevor wir Produktbuilds der Öffentlichkeit freigeben, abrufen.</span><span class="sxs-lookup"><span data-stu-id="ee9ac-107">It enables your organization to get a sneak peek at what's coming, test out the new features in your own environment, and give feedback before we release product builds to the general public.</span></span> <span data-ttu-id="ee9ac-108">Um mehr zu erfahren, finden Sie unter [Skype für Business Preview](https://www.skypepreview.com/).</span><span class="sxs-lookup"><span data-stu-id="ee9ac-108">To find out more, see [Skype for Business preview](https://www.skypepreview.com/).</span></span>
+<span data-ttu-id="86743-106">Die Skype für Business Customer Preview Programm bietet Sie früher Zugriff auf neue Produkte und Features.</span><span class="sxs-lookup"><span data-stu-id="86743-106">The Skype for Business customer preview program provides you early access to new products and features.</span></span> <span data-ttu-id="86743-107">Es kann Ihre Organisation eine Vorschau auf was kommt, testen Sie die neuen Features in Ihrer Umgebung, und geben Sie Feedback, bevor wir Produktbuilds der Öffentlichkeit freigeben, abrufen.</span><span class="sxs-lookup"><span data-stu-id="86743-107">It enables your organization to get a sneak peek at what's coming, test out the new features in your own environment, and give feedback before we release product builds to the general public.</span></span> <span data-ttu-id="86743-108">Um mehr zu erfahren, finden Sie unter [Skype für Business Preview](https://www.skypepreview.com/).</span><span class="sxs-lookup"><span data-stu-id="86743-108">To find out more, see [Skype for Business preview](https://www.skypepreview.com/).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="ee9ac-109">Verwandte Themen</span><span class="sxs-lookup"><span data-stu-id="ee9ac-109">Related topics</span></span>
-[<span data-ttu-id="ee9ac-110">Einführung in Windows PowerShell und Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="ee9ac-110">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
+## <a name="related-topics"></a><span data-ttu-id="86743-109">Verwandte Themen</span><span class="sxs-lookup"><span data-stu-id="86743-109">Related topics</span></span>
+[<span data-ttu-id="86743-110">Einführung in Windows PowerShell und Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="86743-110">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
   
-[<span data-ttu-id="ee9ac-111">Einrichten von Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="ee9ac-111">Set up Skype for Business Online</span></span>](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+[<span data-ttu-id="86743-111">Einrichten von Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="86743-111">Set up Skype for Business Online</span></span>](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
   
  

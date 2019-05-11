@@ -1,8 +1,8 @@
 ---
 title: Exportieren oder Importieren einer VoIP-routenkonfigurationsdatei in Skype für Unternehmen
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,50 +14,50 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 description: 'Zusammenfassung: Informationen Sie zum Exportieren oder importieren eine Konfigurationsdatei VoIP routing in Skype für Business Server mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: 8f0d8f4e221cbe23ac37c4126a9d26aac46e6d53
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f179b72bf960e9d0f571d1b489fcf05dd39a3363
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222472"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892202"
 ---
-# <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a><span data-ttu-id="2f9b7-103">Exportieren oder Importieren einer VoIP-routenkonfigurationsdatei in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="2f9b7-103">Export or import a voice route configuration file in Skype for Business</span></span>
+# <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a><span data-ttu-id="f9cf9-103">Exportieren oder Importieren einer VoIP-routenkonfigurationsdatei in Skype für Unternehmen</span><span class="sxs-lookup"><span data-stu-id="f9cf9-103">Export or import a voice route configuration file in Skype for Business</span></span>
  
-<span data-ttu-id="2f9b7-104">**Zusammenfassung:** Informationen Sie zum Exportieren oder importieren eine Konfigurationsdatei VoIP routing in Skype für Business Server mithilfe der Skype für Business Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-104">**Summary:** Learn how to export or import a voice routing configuration file in Skype for Business Server by using the Skype for Business Server Control Panel.</span></span>
+<span data-ttu-id="f9cf9-104">**Zusammenfassung:** Informationen Sie zum Exportieren oder importieren eine Konfigurationsdatei VoIP routing in Skype für Business Server mithilfe der Skype für Business Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-104">**Summary:** Learn how to export or import a voice routing configuration file in Skype for Business Server by using the Skype for Business Server Control Panel.</span></span>
   
-<span data-ttu-id="2f9b7-105">Wenn Sie Ihre VoIP-Routingkonfiguration speichern möchten, ohne sie zu veröffentlichen, führen Sie die folgenden Schritte aus, um eine Momentaufnahme Ihrer VoIP-Routingkonfiguration zu speichern und abzurufen.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-105">If you want to save your voice routing configuration without publishing it, follow these steps to save and retrieve a snapshot of your voice routing configuration.</span></span> 
+<span data-ttu-id="f9cf9-105">Wenn Sie Ihre VoIP-Routingkonfiguration speichern möchten, ohne sie zu veröffentlichen, führen Sie die folgenden Schritte aus, um eine Momentaufnahme Ihrer VoIP-Routingkonfiguration zu speichern und abzurufen.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-105">If you want to save your voice routing configuration without publishing it, follow these steps to save and retrieve a snapshot of your voice routing configuration.</span></span> 
   
-<span data-ttu-id="2f9b7-106">Wenn Sie eine VoIP-routing Konfigurationsdatei (.vcfg) importieren, aber die VoIP-Routingkonfiguration auf dem Server in der Zwischenzeit Änderungen vorgenommen wurden, werden die Seiten in der Gruppe **VoIP-Routing** in Skype Business Server-Systemsteuerung anzugeben, dass es VoIP-routing ohne Commit geändert wurden.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-106">When you import a voice routing configuration file (.vcfg), but changes have been made to the voice routing configuration on the server in the meantime, the pages in the **Voice Routing** group in Skype for Business Server Control Panel will indicate that there are uncommitted changes to voice routing.</span></span> <span data-ttu-id="2f9b7-107">Diese noch nicht übernommenen Änderungen stellen die Unterschiede zwischen den zwei Konfigurationen dar, die einer Zusammenführung bedürfen.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-107">Those uncommitted changes are the differences between the two configurations that require reconciliation.</span></span>
+<span data-ttu-id="f9cf9-106">Wenn Sie eine VoIP-routing Konfigurationsdatei (.vcfg) importieren, aber die VoIP-Routingkonfiguration auf dem Server in der Zwischenzeit Änderungen vorgenommen wurden, werden die Seiten in der Gruppe **VoIP-Routing** in Skype Business Server-Systemsteuerung anzugeben, dass es VoIP-routing ohne Commit geändert wurden.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-106">When you import a voice routing configuration file (.vcfg), but changes have been made to the voice routing configuration on the server in the meantime, the pages in the **Voice Routing** group in Skype for Business Server Control Panel will indicate that there are uncommitted changes to voice routing.</span></span> <span data-ttu-id="f9cf9-107">Diese noch nicht übernommenen Änderungen stellen die Unterschiede zwischen den zwei Konfigurationen dar, die einer Zusammenführung bedürfen.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-107">Those uncommitted changes are the differences between the two configurations that require reconciliation.</span></span>
   
-<span data-ttu-id="2f9b7-108">Wenn Sie an den Einstellungen auf eine beliebige Seite innerhalb der Gruppe ohne Commit Änderungen vorgenommen haben, werden die Änderungen in der exportierten VoIP-Konfigurationsdatei (.vcfg) gespeichert.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-108">If you have made any uncommitted changes to the settings on any page within the group, the changes are saved in the exported voice configuration file (.vcfg).</span></span> <span data-ttu-id="2f9b7-109">So können Sie VoIP-routing konfigurationsänderungen während mehrerer Sitzungen vor dem Veröffentlichen der Änderungen vornehmen.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-109">This enables you to make voice routing configuration changes during multiple sessions before you publish the changes.</span></span> 
+<span data-ttu-id="f9cf9-108">Wenn Sie an den Einstellungen auf eine beliebige Seite innerhalb der Gruppe ohne Commit Änderungen vorgenommen haben, werden die Änderungen in der exportierten VoIP-Konfigurationsdatei (.vcfg) gespeichert.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-108">If you have made any uncommitted changes to the settings on any page within the group, the changes are saved in the exported voice configuration file (.vcfg).</span></span> <span data-ttu-id="f9cf9-109">So können Sie VoIP-routing konfigurationsänderungen während mehrerer Sitzungen vor dem Veröffentlichen der Änderungen vornehmen.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-109">This enables you to make voice routing configuration changes during multiple sessions before you publish the changes.</span></span> 
   
-### <a name="to-export-a-voice-routing-configuration"></a><span data-ttu-id="2f9b7-110">So exportieren Sie eine VoIP-Routingkonfiguration</span><span class="sxs-lookup"><span data-stu-id="2f9b7-110">To export a voice routing configuration</span></span>
+### <a name="to-export-a-voice-routing-configuration"></a><span data-ttu-id="f9cf9-110">So exportieren Sie eine VoIP-Routingkonfiguration</span><span class="sxs-lookup"><span data-stu-id="f9cf9-110">To export a voice routing configuration</span></span>
 
-1. <span data-ttu-id="2f9b7-111">Melden Sie sich als Mitglied der Gruppe RTCUniversalServerAdmins oder als Benutzer mit der Administratorrolle **CsVoiceAdministrator**, **CsServerAdministrator** oder **CsAdministrator** beim Computer an.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-111">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the **CsVoiceAdministrator**, **CsServerAdministrator**, or **CsAdministrator** administrative role.</span></span>
+1. <span data-ttu-id="f9cf9-111">Melden Sie sich als Mitglied der Gruppe RTCUniversalServerAdmins oder als Benutzer mit der Administratorrolle **CsVoiceAdministrator**, **CsServerAdministrator** oder **CsAdministrator** beim Computer an.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-111">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the **CsVoiceAdministrator**, **CsServerAdministrator**, or **CsAdministrator** administrative role.</span></span>
     
-2. <span data-ttu-id="2f9b7-112">Öffnen von Skype Business Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-112">Open Skype for Business Server Control Panel.</span></span>
+2. <span data-ttu-id="f9cf9-112">Öffnen von Skype Business Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-112">Open Skype for Business Server Control Panel.</span></span>
     
-3. <span data-ttu-id="2f9b7-113">Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing**.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-113">In the left navigation bar, click **Voice Routing**.</span></span>
+3. <span data-ttu-id="f9cf9-113">Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing**.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-113">In the left navigation bar, click **Voice Routing**.</span></span>
     
-4. <span data-ttu-id="2f9b7-114">Klicken Sie im Menü **Aktionen** auf **Konfiguration exportieren**.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-114">On the **Actions** menu, click **Export configuration**.</span></span>
+4. <span data-ttu-id="f9cf9-114">Klicken Sie im Menü **Aktionen** auf **Konfiguration exportieren**.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-114">On the **Actions** menu, click **Export configuration**.</span></span>
     
-5. <span data-ttu-id="2f9b7-115">Geben Sie einen Speicherort und Dateinamen an und klicken Sie auf **Speichern**.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-115">Specify a location and file name, and then click **Save**.</span></span>
+5. <span data-ttu-id="f9cf9-115">Geben Sie einen Speicherort und Dateinamen an und klicken Sie auf **Speichern**.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-115">Specify a location and file name, and then click **Save**.</span></span>
     
-### <a name="to-import-a-voice-routing-configuration"></a><span data-ttu-id="2f9b7-116">So importieren Sie eine VoIP-Routingkonfiguration</span><span class="sxs-lookup"><span data-stu-id="2f9b7-116">To import a voice routing configuration</span></span>
+### <a name="to-import-a-voice-routing-configuration"></a><span data-ttu-id="f9cf9-116">So importieren Sie eine VoIP-Routingkonfiguration</span><span class="sxs-lookup"><span data-stu-id="f9cf9-116">To import a voice routing configuration</span></span>
 
-1. <span data-ttu-id="2f9b7-117">Melden Sie sich als Mitglied der Gruppe „RTCUniversalServerAdmins“ oder als Benutzer mit der Administratorrolle **CsVoiceAdministrator**, **CsServerAdministrator** oder **CsAdministrator** beim Computer an.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-117">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the **CsVoiceAdministrator**, **CsServerAdministrator**, or **CsAdministrator** administrative role.</span></span>
+1. <span data-ttu-id="f9cf9-117">Melden Sie sich als Mitglied der Gruppe „RTCUniversalServerAdmins“ oder als Benutzer mit der Administratorrolle **CsVoiceAdministrator**, **CsServerAdministrator** oder **CsAdministrator** beim Computer an.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-117">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the **CsVoiceAdministrator**, **CsServerAdministrator**, or **CsAdministrator** administrative role.</span></span>
     
-2. <span data-ttu-id="2f9b7-118">Öffnen von Skype Business Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-118">Open Skype for Business Server Control Panel.</span></span>
+2. <span data-ttu-id="f9cf9-118">Öffnen von Skype Business Server-Systemsteuerung.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-118">Open Skype for Business Server Control Panel.</span></span>
     
-3. <span data-ttu-id="2f9b7-119">Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing**.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-119">In the left navigation bar, click **Voice Routing**.</span></span>
+3. <span data-ttu-id="f9cf9-119">Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing**.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-119">In the left navigation bar, click **Voice Routing**.</span></span>
     
-4. <span data-ttu-id="2f9b7-120">Klicken Sie im Menü **Aktionen** auf **Konfiguration importieren**.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-120">On the **Actions** menu, click **Import configuration**.</span></span>
+4. <span data-ttu-id="f9cf9-120">Klicken Sie im Menü **Aktionen** auf **Konfiguration importieren**.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-120">On the **Actions** menu, click **Import configuration**.</span></span>
     
-5. <span data-ttu-id="2f9b7-121">Suchen Sie nach der Konfigurationsdatei, die Sie importieren möchten, und klicken Sie dann auf **Öffnen**.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-121">Find the configuration file you want to import and then click **Open**.</span></span>
+5. <span data-ttu-id="f9cf9-121">Suchen Sie nach der Konfigurationsdatei, die Sie importieren möchten, und klicken Sie dann auf **Öffnen**.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-121">Find the configuration file you want to import and then click **Open**.</span></span>
     
-6. <span data-ttu-id="2f9b7-122">Klicken Sie auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-122">Click **Commit**, and then click **Commit all**.</span></span>
+6. <span data-ttu-id="f9cf9-122">Klicken Sie auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-122">Click **Commit**, and then click **Commit all**.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="2f9b7-123">Jedes Mal, wenn Sie eine VoIP-Konfigurationsdatei importieren, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-123">Whenever you import a voice configuration file, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="2f9b7-124">Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md) in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="2f9b7-124">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
+    > <span data-ttu-id="f9cf9-123">Jedes Mal, wenn Sie eine VoIP-Konfigurationsdatei importieren, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-123">Whenever you import a voice configuration file, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="f9cf9-124">Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md) in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="f9cf9-124">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
   
 

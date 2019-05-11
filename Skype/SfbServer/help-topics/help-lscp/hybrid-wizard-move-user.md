@@ -1,8 +1,8 @@
 ---
 title: Hybrid-Assistenten für Benutzer verschieben
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/10/2015
 ms.audience: ITPro
@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be38b89c-3e8e-4d40-af49-fb650785d9a3
 description: Verwenden Sie den Assistenten zum Verschieben von Benutzern zum Verschieben von Benutzerkonten in einer lokalen Pool in Skype für Business Online verwaltet werden verwaltet. Weitere Informationen finden Sie unter Use the Hybrid Manageability wizard.
-ms.openlocfilehash: 95e35c579ee431bbd2e9c966d7cbd0f3107d5c75
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fc5fd4992c50789063558667f95ebf9042951fd2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200739"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910904"
 ---
-# <a name="hybrid-wizard-move-user"></a><span data-ttu-id="b48d9-104">Hybrid-Assistent: Verschieben von Benutzern</span><span class="sxs-lookup"><span data-stu-id="b48d9-104">Hybrid wizard: Move User</span></span>
+# <a name="hybrid-wizard-move-user"></a><span data-ttu-id="f224e-104">Hybrid-Assistent: Verschieben von Benutzern</span><span class="sxs-lookup"><span data-stu-id="f224e-104">Hybrid wizard: Move User</span></span>
 
-<span data-ttu-id="b48d9-105">Verwenden Sie den Assistenten zum Verschieben von Benutzern zum Verschieben von Benutzerkonten in einer lokalen Pool in Skype für Business Online verwaltet werden verwaltet.</span><span class="sxs-lookup"><span data-stu-id="b48d9-105">Use the Move Users wizard to move user accounts homed on an on-premises pool to be homed on Skype for Business Online.</span></span> <span data-ttu-id="b48d9-106">Weitere Informationen finden Sie unter [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="b48d9-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
+<span data-ttu-id="f224e-105">Verwenden Sie den Assistenten zum Verschieben von Benutzern zum Verschieben von Benutzerkonten in einer lokalen Pool in Skype für Business Online verwaltet werden verwaltet.</span><span class="sxs-lookup"><span data-stu-id="f224e-105">Use the Move Users wizard to move user accounts homed on an on-premises pool to be homed on Skype for Business Online.</span></span> <span data-ttu-id="f224e-106">Weitere Informationen finden Sie unter [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="f224e-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
 
 
