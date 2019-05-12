@@ -1,20 +1,20 @@
 ---
 title: Verwalten der anrufsteuerung für Standorte
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Netzwerkstandorte sind die Büros oder Speicherorte innerhalb jeder netzwerkregion der anrufsteuerung (CAC), E9-1-1 und Media Bypass Bereitstellungen aufrufen.
-ms.openlocfilehash: 53140cf03110991f2c757e5d52e30a6c7db1d7de
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b7d554f6c85a40c084571813c88cc1d08661fa42
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199224"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913405"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Verwalten der Anrufsteuerung für Standorte in Skype for Business Server
 

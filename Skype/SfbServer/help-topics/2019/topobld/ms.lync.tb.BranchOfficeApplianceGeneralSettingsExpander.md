@@ -1,8 +1,8 @@
 ---
 title: Allgemeine Einstellungen für Filialanwendungen – Erweiterung
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Zum Bearbeiten der Einstellungen für eine vorhandene Survivable Branch Appliance oder einen Survivable Branch Server werden in den folgenden Abschnitten bearbeitet:'
-ms.openlocfilehash: 6d0b1bd829a347ae1a9c5c7d3f807bfab323fe4f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e541bf633950d1622a2f71c7b6a9f05f06315a0d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220586"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915958"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Allgemeine Einstellungen für Filialanwendungen – Erweiterung
 

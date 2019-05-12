@@ -5,20 +5,20 @@ ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398725(v=OCS.15)
 ms:contentKeyID: 48184825
 mtps_version: v=OCS.15
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Konfigurieren Sie einen oder mehrere externe Benutzer Zugriffsrichtlinien zur Steuerung können, ob Remotebenutzer mit internen Skype für Business Server-Benutzer zusammenarbeiten können. Steuern des Zugriffs durch Remotebenutzer können Sie Richtlinien auf globaler, Standort- und Benutzerebene konfigurieren.
-ms.openlocfilehash: f6d316f022e671bc7f7e70ebbe2a801b0b3e312c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3355ee979bdf0e5be954aea69f365084271223fd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199891"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920453"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>Konfigurieren von Richtlinien zur Steuerung des Zugriffs durch Remotebenutzer in Skype für Business Server
 
