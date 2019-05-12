@@ -1,8 +1,8 @@
 ---
 title: Allgemeine Einstellungen der A/V MCU – Erweiterung
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Zum Bearbeiten der Eigenschaften für einen A / V-Konferenzserver pool, die Sie bereits definiert haben, können Sie die folgenden Aktionen ausführen:'
-ms.openlocfilehash: fca06e88124a9e29428a407e5cadd73571cd00cf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3183f9f51a9537dfeb19a84a817ec9d391f02a3a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220670"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915768"
 ---
 # <a name="av-mcu-general-settings-expander"></a>Allgemeine Einstellungen der A/V MCU – Erweiterung
  

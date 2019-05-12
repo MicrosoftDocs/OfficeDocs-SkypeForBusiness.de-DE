@@ -1,7 +1,7 @@
 ---
 title: Planen für Clients und Geräte
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/20/2018
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Zusammenfassung: Überprüfen Sie die unterstützten Clients und Apps für Skype for Business.'
-ms.openlocfilehash: 4d8230969a7fa5383f72d504e426638d09ee998b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 66a9392e9662ef0c2853bf946badb553a68cc10a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207496"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33923862"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planen für Clients und Geräte
 

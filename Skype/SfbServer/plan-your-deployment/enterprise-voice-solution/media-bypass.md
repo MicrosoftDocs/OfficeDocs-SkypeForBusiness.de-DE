@@ -1,8 +1,8 @@
 ---
 title: Planen der medienumgehung in Skype für Unternehmen
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Umgehen der Entscheidungen zur Planung für Medien in Skype für Business Server Enterprise-VoIP. Hierzu gehört die Interoperationalität mit Anrufsteuerung (CAC, call admission control).
-ms.openlocfilehash: 26cf20fcd7b8378d99da21be46bd6ca219b82196
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 11631fb92d8e1763bb4e7d090caf54385527c984
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206992"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924157"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planen der medienumgehung in Skype für Unternehmen
 

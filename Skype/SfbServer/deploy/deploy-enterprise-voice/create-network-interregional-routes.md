@@ -1,8 +1,8 @@
 ---
 title: Erstellen Sie Netzwerk regionenübergreifende Routen in Skype für Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: Erstellen Sie oder ändern Sie regionenübergreifende Netzwerkrouten, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden.
-ms.openlocfilehash: 5b792a9d1471e8925a44bcc5c0a1026e79aa0a0c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b12f2f7d413be0031fd914157af4e9541095fd7f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223537"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892972"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Erstellen Sie Netzwerk regionenübergreifende Routen in Skype für Business Server
  

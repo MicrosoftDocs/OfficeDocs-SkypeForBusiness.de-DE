@@ -1,8 +1,8 @@
 ---
 title: Vorbereiten eines einzelnen Standard Edition-Servers (Aufruf)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 description: Klicken Sie auf der Seite Befehle ausführen können die Aufgaben von SQL Server Express installieren und Konfigurieren von um als dem zentralen Verwaltungsspeicher fungieren im Aufgabenbereich angezeigt werden. Standardmäßig wird eine Instanz einer SQL Server-basierten ist RTC-Datenbank erstellt. Firewall-Regeln werden auch erstellt, um eingehende und ausgehende Zugriff für Server und Clients zur Kommunikation mit der Datenbank und eine Instanz zulässig. Nachdem der Vorgang abgeschlossen ist, können Sie die Protokolldatei aus der Dropdown-Liste auswählen. Die Protokolldatei heißt Bootstrap lokalen Computer. Klicken Sie nachdem Sie die Protokolldatei ausgewählt haben auf Protokoll anzeigen. Überprüfen Sie die Protokolldatei für alle Fehler und Warnungen. Wenn Sie zum Fortfahren bereit sind, klicken Sie auf Fertig stellen. Wenn Sie nicht bereits getan haben, sollten Sie jetzt Ihre Topologie mit Topology Builder definieren.
-ms.openlocfilehash: 665075799794d94328e0a5a3d9e1f9c603813ed7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fad1a7e4ab611ccf8ee152bf24c1eb1898d9cd51
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234968"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910721"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>Vorbereiten eines einzelnen Standard Edition-Servers (Aufruf)
  

@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren der Integration mit Office Web Apps Server in Skype für Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Konfigurieren der Integration von Office Web Apps Server und Skype für Business Server, für PowerPoint-Präsentationen für Webkonferenzen aktivieren.'
-ms.openlocfilehash: 69cdbd50387f2e3267a0fc2acb38e47260970578
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 96920a5de9ac30e8fa0705a9fc596eb416dedc5d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223824"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893322"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Konfigurieren der Integration mit Office Web Apps Server in Skype für Business Server
  

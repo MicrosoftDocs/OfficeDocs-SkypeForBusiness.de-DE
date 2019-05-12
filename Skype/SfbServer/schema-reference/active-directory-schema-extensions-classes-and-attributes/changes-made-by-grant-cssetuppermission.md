@@ -1,8 +1,8 @@
 ---
 title: Änderungen, die durch Grant-CsSetupPermission in Skype für Business Server
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5801f48-14e3-4fdd-8f14-d52e7af07a57
 description: Wenn Setup delegieren möchten, können Sie Berechtigungen gewähren der universellen Gruppe "RTCUniversalServerAdmins" für einen bestimmten Active Directory-Organisationseinheit (OU), aktivieren Mitglied der Gruppe RTCUniversalServerAdmins ist in dieser Organisationseinheit So installieren Sie Skype für Business Server in der angegebene Domäne ohne Mitglieder der Gruppe Domänen-Admins an.
-ms.openlocfilehash: 3976cb22a947e9a9590989895cf688465c8f5ef0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4b7e5eadb2083384b82eae6f6fba46d29f7b158a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213389"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33907094"
 ---
 # <a name="changes-made-by-grant-cssetuppermission-in-skype-for-business-server"></a>Änderungen, die durch Grant-CsSetupPermission in Skype für Business Server
  

@@ -1,8 +1,8 @@
 ---
 title: Planen der Anruf über den Arbeitsplatz in Skype für Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Planen von Anrufen über Arbeitsplatz in Skype für Business Server, ermöglicht die Integration zwischen Skype für Unternehmen und Ihre Telefonanlage, damit Benutzer ihre Nebenstellentelefone über steuern Skype für Unternehmen verwenden können.
-ms.openlocfilehash: 3a2452f732d55f305d91cee9cd2b940f7bb3c88e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 248a6111d03539d23d4262762caa5c0a5b213460
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207244"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33909113"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Planen der Anruf über den Arbeitsplatz in Skype für Business Server
  
