@@ -1,8 +1,8 @@
 ---
 title: Einstellungen unter "Nächster Hop" für externe Anwendung – Erweiterung
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be7857e4-9a75-4de5-91b0-bcb241930a0c
 description: Sie können die vertrauenswürdige Anwendung Serverpool nächsten Hopservers angeben, indem Sie den definierten Enterprise Edition-Front-End-Pool oder Standard Edition-Front-End-Server aus der Dropdown-Liste auswählen. Ein Director oder Director-Pool ist keine gültige Auswahl für nächsten Hop eine vertrauenswürdige Anwendung-Server und wird nicht in der Liste angezeigt werden. Klicken Sie auf OK, um das akzeptieren und Ihre Änderungen zu speichern. Klicken Sie auf Abbrechen, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
-ms.openlocfilehash: 123549d18de526a266a03937bb5f0a3c15ae4d17
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 293de8f0b40d226a73cc8a9687626eadc017469f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194021"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910382"
 ---
-# <a name="external-application-next-hop-settings-expander"></a><span data-ttu-id="d2f7b-106">Einstellungen unter "Nächster Hop" für externe Anwendung – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="d2f7b-106">External Application Next Hop Settings Expander</span></span>
+# <a name="external-application-next-hop-settings-expander"></a><span data-ttu-id="9f2ae-106">Einstellungen unter "Nächster Hop" für externe Anwendung – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="9f2ae-106">External Application Next Hop Settings Expander</span></span>
  
-<span data-ttu-id="d2f7b-107">Sie können die vertrauenswürdige Anwendung Serverpool nächsten Hopservers angeben, indem Sie den definierten Enterprise Edition-Front-End-Pool oder Standard Edition-Front-End-Server aus der Dropdown-Liste auswählen.</span><span class="sxs-lookup"><span data-stu-id="d2f7b-107">You can specify the Trusted Application server pool's next hop server by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="d2f7b-108">Ein Director oder Director-Pool ist keine gültige Auswahl für nächsten Hop eine vertrauenswürdige Anwendung-Server und wird nicht in der Liste angezeigt werden.</span><span class="sxs-lookup"><span data-stu-id="d2f7b-108">A Director or Director pool is not a valid selection for a Trusted Application server next hop, and it will not appear in the list.</span></span> <span data-ttu-id="d2f7b-109">Klicken Sie auf **OK** , um zu akzeptieren und Ihre Änderungen zu speichern.</span><span class="sxs-lookup"><span data-stu-id="d2f7b-109">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="d2f7b-110">Klicken Sie auf **Abbrechen**, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.</span><span class="sxs-lookup"><span data-stu-id="d2f7b-110">Click **Cancel** to discard your changes and exit the properties page.</span></span>
+<span data-ttu-id="9f2ae-107">Sie können die vertrauenswürdige Anwendung Serverpool nächsten Hopservers angeben, indem Sie den definierten Enterprise Edition-Front-End-Pool oder Standard Edition-Front-End-Server aus der Dropdown-Liste auswählen.</span><span class="sxs-lookup"><span data-stu-id="9f2ae-107">You can specify the Trusted Application server pool's next hop server by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="9f2ae-108">Ein Director oder Director-Pool ist keine gültige Auswahl für nächsten Hop eine vertrauenswürdige Anwendung-Server und wird nicht in der Liste angezeigt werden.</span><span class="sxs-lookup"><span data-stu-id="9f2ae-108">A Director or Director pool is not a valid selection for a Trusted Application server next hop, and it will not appear in the list.</span></span> <span data-ttu-id="9f2ae-109">Klicken Sie auf **OK** , um zu akzeptieren und Ihre Änderungen zu speichern.</span><span class="sxs-lookup"><span data-stu-id="9f2ae-109">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="9f2ae-110">Klicken Sie auf **Abbrechen**, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.</span><span class="sxs-lookup"><span data-stu-id="9f2ae-110">Click **Cancel** to discard your changes and exit the properties page.</span></span>
   
 
