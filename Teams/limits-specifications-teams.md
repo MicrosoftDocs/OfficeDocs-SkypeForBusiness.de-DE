@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a151ca7e35f6b512064bc1554b754e9aefdef358
-ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
-ms.translationtype: HT
+ms.openlocfilehash: 514348d0f861ae2bda4d146de4851f788b703444
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31043357"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993864"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 =============================================
@@ -86,6 +86,9 @@ Die Chat-Funktion von Microsoft Teams funktioniert in einem Microsoft Exchange-B
 &dagger; Wenn die Nachricht diesen Grenzwert überschreitet, wird eine Vorschaunachricht generiert und der Benutzer wird gebeten, die Original-E-Mail aus dem bereitgestellten Link anzuzeigen/herunterzuladen.
 
 &Dagger; Wenn die Anzahl der Anlagen oder Bilder diesen Grenzwert überschreitet, wird die Nachricht nicht verarbeitet und eine NDR-E-Mail mit einer Benachrichtigung über den Fehler zurück an den Absender gesendet.
+
+> [!NOTE]
+> Die Nachrichtengröße, Dateianlagen und Inline Bilder Grenzwerte sind die gleichen über alle Office 365-Lizenzen.
 
 Weitere Informationen finden Sie unter [Exchange Online-Grenzwerte](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 

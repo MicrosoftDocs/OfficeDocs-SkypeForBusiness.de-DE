@@ -3,7 +3,7 @@ title: Informationen Barrieren in Microsoft-Teams – Vorschau
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/30/2019
+ms.date: 05/14/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,12 +12,12 @@ ms.reviewer: vikramju
 description: Informationen Sie zu Informationen Barrieren und deren Auswirkungen auf Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71c547ac13f63c9357dfb6e8a0cbe34d748646d3
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 5cf9891e44df3e656255da90dc495d8f0bda8c72
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827788"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993921"
 ---
 # <a name="information-barriers-in-microsoft-teams-preview"></a>Informationen Barrieren in Microsoft-Teams – Vorschau
 
@@ -27,7 +27,8 @@ Informationen Hindernisse werden Richtlinien, die ein Administrator konfiguriere
 
 > [!NOTE]
 > - Informationen Grenze Gruppen können nicht konstant erstellt werden.
-> - Verwenden zum Hinzufügen von Benutzern Bots wird für Version 1 nicht unterstützt.
+> - Verwenden zum Hinzufügen von Benutzern Bots wird in der Version 1 nicht unterstützt.
+> - Hürden mit Version 1 schließt keine Unterstützung für SharePoint und OneDrive für Unternehmen ein. Wir arbeiten zum Aktivieren des Features in SharePoint und kommuniziert, sobald sie verfügbar ist.
 
 Informationsrichtlinien Grenze verhindert, dass auch Lookups und Erkennung. Das heißt, wenn Sie versuchen, mit einer anderen Person kommunizieren nicht dem eine Verbindung hergestellt werden soll, werden Sie der Benutzer in der Personenauswahl nicht gefunden.
 

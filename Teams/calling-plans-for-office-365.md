@@ -25,12 +25,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 697a822b70a93fc14b6bf0309167e4fc4c6e6a34
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3b534a67002d4da54d6d9058577fdc7b32cf6ad2
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245033"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993702"
 ---
 # <a name="calling-plans-for-office-365"></a>Anrufpläne für Office 365
 
@@ -45,31 +45,31 @@ Hier sind die Pläne aufrufen-Optionen aus:
 Monatliche Minuten verfügbar für jede Organisation und jedes Land/Region befinden sich [hier](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 > [!IMPORTANT]
-> Land/Region basiert auf den Speicherort des die Lizenz des Benutzers in der **Office 365 Administrationscenter** > **aktive Benutzer** und **nicht** die Art der Rechnungslegung Adresse aufgeführt, unter dem **Profil des Unternehmens** im **Office 365 Administrationscenter **.   
+> Land/Region basiert auf den Speicherort des die Lizenz des Benutzers in der **Microsoft-365-Verwaltungskonsole** > **aktive Benutzer** und **nicht** die Art der Rechnungslegung Adresse aufgeführt, unter dem **Profil des Unternehmens** in der **Microsoft 365-Administrator Center**.   
 ![Lizenz-Standort des Benutzers](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 Ausführliche Informationen zu Einschränkungen und rechtliche Hinweise finden Sie unter [Audiokonferenzen kostenlosen Dial-Out - Zeitraum](complimentary-dial-out-period.md).
   
 ## <a name="how-to-buy-a-calling-plan"></a>Informationen zum Erwerben von Aufrufen planen
 
-1. <strong>Müssen Sie zuerst erwerben eine ** Telefonsystem</strong> Add-On-Lizenz<strong>. Zu tun, [Melden Sie sich bei Office 365 Administrationscenter](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) , und wählen ** Abrechnung</strong> > **Dienste erwerben** > **Add-on Abonnements** > **Jetzt kaufen**.
+1. <strong>Müssen Sie zuerst erwerben eine ** Telefonsystem</strong> Add-On-Lizenz<strong>. Zu tun, [Melden Sie sich bei Microsoft 365 Administrationscenter](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) , und wählen ** Abrechnung</strong> > **Dienste erwerben** > **Add-on Abonnements** > **Jetzt kaufen**.
     
     ![Wenn Sie Ihre Cloud-PBX-Lizenzen kaufen, sehen Sie eine Option, um eine Stimme aufrufen Plan kaufen.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > Je nach Ihrer planen müssen Sie möglicherweise weitere Add-ons kaufen, bevor Sie Telefonsystem Lizenzen erwerben können. Weitere Informationen finden Sie finden Sie unter "Lizenzoptionen basierend auf Ihrem Plan" in [Microsoft-Teams, Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-2. Nachdem Sie Telefonsystem Lizenzen erwerben möchten, können Sie nach der Anmeldung an der **Office 365 Administrationscenter**kaufen aufrufen planen, wählen **Abrechnung** > **Dienste erwerben** > **Add-on-Abonnements**, und klicken Sie dann auf **Jetzt kaufen**. Sie sehen die es plant aufrufen.
+2. Nachdem Sie Telefonsystem Lizenzen erwerben möchten, können Sie nach der Anmeldung an der **Microsoft 365 Administrationscenter**kaufen aufrufen planen, **Abrechnung**wählen Sie > **Dienste erwerben** > **Add-on-Abonnements**und dann auf **Jetzt kaufen **. Sie sehen die es plant aufrufen.
     
     ![Nachdem Sie eine Cloud-PBX-Lizenz erwerben, können Sie VoIP aufrufen Pläne kaufen.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-Sie können kaufen und verschiedene Pläne Aufrufen von anderen Benutzern zuweisen, je nach den Anforderungen Ihrer Organisation. Nachdem Sie aufrufen planen Sie müssen ausgewählt haben, fahren Sie mit Auschecken. Weisen Sie einen Plan jedem Benutzer in Office 365 Administrationscenter. Informationen hierzu finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md).
+Sie können kaufen und verschiedene Pläne Aufrufen von anderen Benutzern zuweisen, je nach den Anforderungen Ihrer Organisation. Nachdem Sie aufrufen planen Sie müssen ausgewählt haben, fahren Sie mit Auschecken. Weisen Sie einen Plan jedem Benutzer in der Microsoft-365-Verwaltungskonsole. Informationen hierzu finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md).
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>Haben Sie einen Dienstanbieter, der lokalen PSTN-Anbindung für hybridbenutzer bereitstellt?
 
 In diesem Fall müssen Sie nicht aufrufen planen kaufen. Office 365 Enterprise E5 enthält das Add-on **Telefonsystem** , damit Sie zum Auschecken wechseln können.
   
-Klicken Sie dann, Benutzern im Office 365 Administrationscenter die Enterprise E5 oder **Telefonsystem** Add-on-Lizenzen zuweisen. Informationen hierzu finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md).
+Klicken Sie dann, Benutzern in der Microsoft-365-Verwaltungskonsole die Enterprise E5 oder **Telefonsystem** Add-on-Lizenzen zuweisen. Informationen hierzu finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md).
   
 ## <a name="pricing-information"></a>Preisinformationen
 

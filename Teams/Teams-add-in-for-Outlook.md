@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbe0b72c03d8e85deff538924c17dac8f0d3773c
-ms.sourcegitcommit: daf65bf09ca57554da744602d2551db53caedde5
-ms.translationtype: HT
+ms.openlocfilehash: 624e6a72daae12d0e40b351cea6039fbe5eb432b
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "30512989"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33994135"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -40,7 +40,7 @@ Das Microsoft Teams-Besprechungs-Add-In wird für Benutzer, auf deren Windows-PC
 Wenn Benutzer das Microsoft Teams-Besprechungs-Add-In nicht sehen, weisen Sie sie an, Outlook und Microsoft Teams zu schließen, den Microsoft Teams-Client neu zu starten, sich bei Microsoft Teams anzumelden und den Outlook-Client zu starten (in dieser Reihenfolge).
 
 > [!NOTE]
-> Das Microsoft Teams-Besprechungs-Add-In für Outlook ist für Mac-Benutzer zurzeit nicht verfügbar.
+> Die Schaltfläche Teams Besprechung in Outlook für Mac wird in der Outlook für Mac-Menüband angezeigt, wenn Outlook Produktions-Build 16.20 und höher ausgeführt wird.
 
 ## <a name="authentication-requirements"></a>Authentifizierungsanforderungen
 

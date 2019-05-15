@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Mithilfe dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Australien für Skype für Business Online und Microsoft-Teams.
-ms.openlocfilehash: b576aa51d3fa5d773b054b8fe8eeb44db3d2b520
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 23a1b5a3a672685d7e9cb78a5fcb69892f82ab42
+ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245537"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34036652"
 ---
 # <a name="phone-number-management-for-australia"></a>Telefonnummernverwaltung für Australien
 In Australien sind wir mit Telstra für den Erwerb und die Bereitstellung von Anrufplänen eine Partnerschaft eingegangen. Telstra verkauft Anrufpläne und bietet die Unterstützung für die Telefonnumernverwaltung für Benutzer- und Servicenummern für automatische Telefonzentralen und Anruf-Warteschleifen. Allerdings werden Servicenummern und Lizenzen für Audiokonferenzen weiterhin von Office 365 verkauft und verwaltet.
@@ -44,7 +44,7 @@ Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organ
 |Abrufen von Telefonnummern in Office 365 für Benutzer, automatischen Telefonzentralen und Anruf Warteschlangen übertragen.  <br/> |Bitte wenden Sie sich an [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan) um Telefonnummern zu übertragen. Telstra fügt diese Nummern dan Ihrer Organisation hinzu.  <br/> |
 |Abrufen von Telefonnummern in Office 365 für die Verwendung mit Audiokonferenz übertragen.  |[Bitte kontaktieren Sie uns](mailto:ptnapac@microsoft.com) |
 |Änderung für Notfall-Rufnummern, die Benutzern zugewiesen sind, die eine Rufnummer aus einem Anrufplan haben. |Wenden Sie sich an [Telstra-Anrufw für Office 365](https://aka.ms/TelstraVoicePlan), um Notfall-Rufnummern zu ändern. Telstra kann diese Informationen für Sie aktualisieren.|
-|Ändern Sie eine Rufnummer des Benutzers in einer Service-Nummer. |Diese Art von Dienst wird in Australien nicht unterstützt.
+|Ändern Sie eine Rufnummer des Benutzers in einer Service-Nummer. |Bei Verwendung der Telstra Aufrufen für Office 365 unterstützt.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

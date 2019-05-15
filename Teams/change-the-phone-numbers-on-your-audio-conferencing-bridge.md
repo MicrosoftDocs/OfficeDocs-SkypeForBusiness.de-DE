@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Wenn Sie Lizenzen für Audiokonferenzen erwerben, hostet Microsoft Ihre Audiokonferenzbrücke für Ihre Organisation. Die Audiokonferenzbrücke gibt Einwahlnummern von verschiedenen Standorten aus, damit die Besprechungsorganisatoren und die Teilnehmer über ein Telefon an Skype for Business- oder Microsoft Teams-Besprechungen teilnehmen können.
-ms.openlocfilehash: bc26fc64f4b95c1a469908251781c4951c7d0a84
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a37e7d00123dee76b512bb9a20874301e84a8406
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211800"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33995159"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke
 
@@ -43,7 +43,7 @@ Neben die Telefonnummern, die Konferenzbrücke bereits zugewiesen, Sie können [
 
 1. Melden Sie sich bei Office 365 mit Ihrem Geschäftskonto an.
 
-2. Wechseln Sie zu **Office 365 Administrationscenter** > **Admin zentriert** > **Teams & Skype** > **Legacy-Portal** > **VoIP** > **Rufnummern**.
+2. Navigieren Sie zum **Microsoft 365 Administrationscenter** > **Admin zentriert** > **Teams & Skype** > **Legacy-Portal** > **VoIP** > **Rufnummern**.
 
 3. Wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie im Aktionsbereich auf **Zuweisen**.
 
@@ -57,7 +57,7 @@ Nur eine Service gebührenpflichtige Nummer kann als die Standardnummer für Ihr
 
 1. Melden Sie sich bei Office 365 mit Ihrem Geschäftskonto an.
 
-2. Wechseln Sie zu **Office 365 Administrationscenter** > **Admin zentriert** > **Teams & Skype** > **Besprechungen** > **Konferenz Brücken**.
+2. Navigieren Sie zum **Microsoft 365 Administrationscenter** > **Admin zentriert** > **Teams & Skype** > **Besprechungen** > **Konferenz Brücken**.
 
 3. Markieren Sie den Dienst die gebührenpflichtige Telefonnummer, den Sie als Standard konfigurieren möchten.
 
@@ -69,7 +69,7 @@ Die Standard-Telefonnummern eines Benutzers sind invites diejenigen aus, die auf
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
-2. Wechseln Sie zu der **Office 365 Administrationscenter** > **Admin zentriert** > **Teams & Skype** > **Legacy-Portal** > **Audiokonferenzen** > **Benutzer**, und wählen Sie die Benutzer in der Liste.
+2. Wechseln Sie zu der **Microsoft-365-Verwaltungskonsole** > **Admin zentriert** > **Teams & Skype** > **Legacy-Portal** > **Audiokonferenzen** > **Benutzer**, und wählen Sie die Benutzer in der Liste.
 
 3. Klicken Sie im Aktionsbereich auf **Bearbeiten**.
 
@@ -133,11 +133,11 @@ Weitere Informationen zu Meeting Migration Service finden Sie unter [Einrichten 
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
-2. Wechseln Sie zu der **Office 365 Administrationscenter** > **Admin zentriert** > **Teams & Skype** > **Legacy-Portal** > **VoIP** > **Rufnummern**.
+2. Wechseln Sie zu der **Microsoft-365-Verwaltungskonsole** > **Admin zentriert** > **Teams & Skype** > **Legacy-Portal** > **VoIP** > **Rufnummern**.
 
-3. Wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie im Aktionsbereich auf **Zuweisung aufheben**.
+3. Ist die Telefonnummer eine gebührenfreie Telefonnummer, wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie im Bereich Aktion aus, klicken Sie auf **Zuweisung entfernen**. Wenn die Rufnummer ein gebührenpflichtige Nummer ist, wenden Sie sich an den [Support von Microsoft](https://go.microsoft.com/fwlink/?linkid=2091806) , um die Rufnummer nicht zugewiesen haben.
 
-4. Klicken Sie im Bestätigungsfenster auf **Ja**.
+4. Wenn die Telefonnummer eine gebührenfreie Fre Zahl ist, klicken Sie auf **Ja** klicken Sie im Bestätigungsfenster zur.
 
    > [!IMPORTANT]
    > Nachdem die Zuweisung einer Telefonnummer zu einer Audiokonferenzbrücke aufgehoben wurde, ist die Telefonnummer nicht mehr für die Teilnahme der Benutzer an neuen oder bestehenden Besprechungen verfügbar.
@@ -216,7 +216,7 @@ Um Zeit sparen, indem Sie diesen Prozess automatisieren, können Sie das [Set-Cs
   ```
 
     > [!NOTE]
-    > Der oben verwendete Standort muss mit den im Office 365 Admin Center festgelegten Kontaktinformationen der jeweiligen Benutzer übereinstimmen.
+    > Der Speicherort, der über Anforderungen verwendet wird, die Kontaktinformationen der Benutzer entspricht, die in der Microsoft-365-Verwaltungskonsole festgelegt ist.
 
 ## <a name="troubleshooting"></a>Problembehandlung
 
@@ -244,7 +244,7 @@ Mit Windows PowerShell können Sie Benutzer und deren Berechtigungen verwalten. 
 
   - [Warum Sie Office 365 PowerShell verwenden müssen](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-Windows PowerShell verfügt im Vergleich zur ausschließlichen Verwendung des Office 365 Admin Centers über viele Vorteile in puncto Geschwindigkeit, Einfachheit und Produktivität, beispielsweise wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
+Windows PowerShell hat viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität über nur mit dem Microsoft 365 Administrationscenter wie wenn Sie ändert sich die Einstellung für viele Benutzer gleichzeitig durchführen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
 
   - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
