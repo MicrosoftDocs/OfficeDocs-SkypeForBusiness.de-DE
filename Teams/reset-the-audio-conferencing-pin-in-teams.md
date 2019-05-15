@@ -1,6 +1,6 @@
 ---
 title: Zurücksetzen der Audiokonferenz-PIN in Microsoft Teams
-mms.author: tonysmit
+ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erhalten Sie Informationen zu PINs und zum Zurücksetzen von PINs in Microsoft Teams. '
-ms.openlocfilehash: 7fe1ae3487caf9433b8f41753f6af9584a7d7f4d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 56ea27ddf535f7ce23d5a25415b0a5921cfb2d6e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206594"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912303"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Zurücksetzen der Audiokonferenz-PIN in Microsoft Teams
 

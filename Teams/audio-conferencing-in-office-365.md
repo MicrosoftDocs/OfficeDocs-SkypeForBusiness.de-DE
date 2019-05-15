@@ -21,12 +21,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 24a85ab6fced284fc264db5bcc394769e4a0bfca
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7213b3b8a8155e8b23b8f710d241af4425a8dbe4
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198594"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970300"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audiokonferenzen in Office 365
 Audiokonferenzen in Office 365 ermöglicht dem Benutzer zu Besprechungen aus Telefone aufrufen. Audiokonferenzen kann bis zu 250 Telefon Teilnehmer.
@@ -75,7 +75,7 @@ Weitere Informationen finden Sie unter [Telefonnummern für Audiokonferenzen in 
 Freigegebene Audiokonferenz-Telefonnummern werden Organisationen automatisch zugewiesen, wenn sie für Audiokonferenzen aktiviert sind. Bei der Zuweisung der Telefonnummern wird eine Telefonnummer als Standardtelefonnummer der Konferenzbrücke zugewiesen. Die als Standardtelefonnummer der Brücke zugewiesene Telefonnummer stammt aus dem Land/der Region der Organisation.
   
 > [!NOTE]
-> Der Land oder Region Speicherort Ihrer Organisation kann durch Anmelden bei der **Office 365 Administrationscenter** , und suchen Sie unter **Organisationsprofil**gefunden werden. 
+> Der Land oder Region Speicherort Ihrer Organisation kann durch Anmelden bei der **Microsoft-365-Verwaltungskonsole** und in einem unter **Organisationsprofil**gefunden werden. 
   
 > [!CAUTION]
 > Aufgrund der begrenzten Verfügbarkeit gebührenpflichtige Telefonnummer des in Venezuela, Indonesien und Vereinigte Arabische Emirate (Vereinigte Arabische Emirate) keine Organisationen aus diesen Ländern/Regionen eine Audiokonferenz gebührenpflichtige Nummer automatisch zugewiesen. Gebührenfreie Telefonnummern für diese Standorte stehen je nach verfügbarem Bestand zur Verfügung. 

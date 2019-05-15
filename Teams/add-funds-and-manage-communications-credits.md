@@ -29,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Erfahren Sie, wie Bezahlung für Kommunikation haben (PSTN Verbrauch) Skype für BusinessServices und finden Sie unter Pläne, die Benutzer mit Zugriff auf das System kontinuierliche Telefon zu halten. '
-ms.openlocfilehash: 0305e432534188f0dd8276fb29c9c764cc26bfeb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: aceb1fab6cfffeaca174c156b1f54ffd9bcd09bb
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231806"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970284"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Hinzufügen von Geld und Verwalten von Guthaben für Kommunikationen
 
@@ -76,7 +76,7 @@ Die Pläne und Preise finden Sie unter den folgenden Links:
     
 - [Telefonsystem Pläne](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Sie können sich die Informationen auch ansehen, indem Sie sich [beim Office 365 Admin Center anmelden](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu **Abrechnung** > **Abonnements** > **Abonnements hinzufügen** navigieren.
+Sie können auch Informationen nach der [Anmeldung an der Microsoft-365-Verwaltungskonsole](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) anzeigen und zur **Abrechnung** > **Abonnements** > **Abonnements hinzufügen**.
   
 Eine Tabelle mit der Lizenz oder Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

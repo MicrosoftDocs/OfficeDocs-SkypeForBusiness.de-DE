@@ -3,7 +3,7 @@ title: Aktualisierungsvorgang Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/08/2019
+ms.date: 05/13/2019
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -14,16 +14,16 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie der Teams Desktopclient aktualisiert wird.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04b7d1e66905e7859139605b90b3093a48e8afbd
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 08381341903d21deb42ca83b3769c49f67d18b14
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33829096"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970276"
 ---
 # <a name="teams-update-process"></a>Aktualisierungsvorgang Teams
 
-Die Teams Web App wird wöchentlich aktualisiert.
+Die Teams Web app wird wöchentlich aktualisiert.
 
 Teams Desktopclient Updates sind zwei Wochen nach strengen internen Tests und Validierung über unsere Technologie Annahme Program (TAP) zur Verfügung. Dies erfolgt in der Regel an einem Dienstag. Wenn ein wichtiges Update erforderlich ist, werden Teams dieser Zeitplan zu umgehen und das Update freigeben, sobald sie verfügbar ist.
 

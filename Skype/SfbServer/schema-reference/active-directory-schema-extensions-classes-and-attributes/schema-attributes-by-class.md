@@ -1,8 +1,8 @@
 ---
 title: Schemaattribute nach Klasse in Skype für Business Server
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: Dieser Abschnitt enthält die Schemaattribute, die in jedem Skype für Business Server-Klasse und die Klassen, die in anderen Klassen enthalten sein können enthalten sein können. Eine Liste aller Klassen und ihre Beschreibungen finden Sie unter Schemaklassen und Beschreibungen in Skype für Business Server. Eine Liste aller Attribute und ihre Beschreibungen finden Sie unter Schemaattribute und Beschreibungen in Skype für Business Server.
-ms.openlocfilehash: a2dc6ee09730c1245a3242f88ad25ad07f9b582a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1560e7100fb3fe48f0ef1aa03bd55d65a8894b37
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213368"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924934"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Schemaattribute nach Klasse in Skype für Business Server
  

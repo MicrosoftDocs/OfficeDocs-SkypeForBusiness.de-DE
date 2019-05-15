@@ -1,24 +1,24 @@
 ---
 title: Praktische Anleitungen für Audiokonferenzen in Microsoft Teams
-author: arachmanGitHub
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: Rowille, lolaj
+ms.reviewer: rowille, crowe
 description: Praktische Anleitungen für die Planung, Bereitstellung und Verwaltung von Audiokonferenzen in Microsoft Teams mithilfe eines Frameworks, das die Phasen „Konzeptionierung“ (Planung), „Onboarding“ (Bereitstellung) und „Wertschöpfung“ (Einsatz) vorsieht
 localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 8f7ef70bb7589facaec4cb131c3667464a658fbb
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 860abd5c1e7e725d2f2bd8217edc0bb5ea92b734
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401057"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925434"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Praktische Anleitungen für Audiokonferenzen in Microsoft Teams
 ============================================================

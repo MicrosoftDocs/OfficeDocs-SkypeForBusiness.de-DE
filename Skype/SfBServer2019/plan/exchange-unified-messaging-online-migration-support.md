@@ -1,7 +1,7 @@
 ---
 title: Migrationsunterstützung für Exchange Unified Messaging Online
 ms.author: heidip
-author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: waseemh, dstrome, balinger
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft ist den Exchange Unified Messaging (ExchUMO) Onlinedienst vom Februar 2020 abschließen. In diesem Artikel werden zusammengefasst, was betroffen Kunden kennen und tun, um für ihre Business Continuity planen sollten.
-ms.openlocfilehash: 703c51f3d42c9eea12964230693e602428454754
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e7bb1f7f73406f6585cac7b95f98b57c48d9ab40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244462"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911403"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online  
 

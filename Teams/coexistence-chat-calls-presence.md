@@ -1,7 +1,7 @@
 ---
 title: Koexistenz mit Skype for Business
-author: jambirk
-ms.author: francoid
+author: kenwith
+ms.author: kenwith
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -14,12 +14,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 description: Dieses Dokument beschreibt das Verhalten der Chat, Anrufrouting und Anwesenheit zwischen Benutzern, Teams und Skype für Unternehmen, die im Mandanten und Verbundpartner, basierend auf zugewiesenen TeamsUpgrade Modi. Sie umfasst routing Optimierungen, Anwesenheit Verhalten sowie die Änderung TeamsUpgrade Standardmodus aus *Legacy* *Inseln* und die bevorstehende Stilllegung der *Vorversion*.
-ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3c88bd93805e6c2a33eb2f5c03ee04d4e7d55535
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198784"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929105"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 

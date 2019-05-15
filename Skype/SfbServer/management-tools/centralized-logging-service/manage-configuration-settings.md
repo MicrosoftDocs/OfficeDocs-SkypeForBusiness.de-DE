@@ -1,8 +1,8 @@
 ---
 title: Verwalten von Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 8/17/2015
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Zusammenfassung: Informationen Sie zum Abrufen, aktualisieren und Erstellen von Konfigurationseinstellungen für den Dienst für die zentralisierte Protokollierung in Skype für Business Server 2015.'
-ms.openlocfilehash: 1aab363f88b7639e2eb61f9101864bac20cc0aa0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e3a800b515e8413b1e9138e6edef91d4c66494bf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217513"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914982"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Verwalten von Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015
 
