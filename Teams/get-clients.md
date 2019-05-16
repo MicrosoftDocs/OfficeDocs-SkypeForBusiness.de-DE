@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 378abc8f49e15a0ef8cb4084ef7968fd8b3ed327
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b4c18bdd39e7978258c90bd4c757eb3e2e86a3b3
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402105"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082665"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 ===========================
@@ -41,7 +41,7 @@ Microsoft Teams-Clients sind für Desktop (Windows und Mac), Web und mobile Betr
 > [!Tip]
 > Schauen Sie sich die folgende Sitzung mit Informationen zu den Vorteilen des Windows-Desktopclient sowie zum Planen und Bereitstellen der Lösung an: [Windows-Desktopclient für Teams](https://aka.ms/teams-clients)
 
-Der Microsoft Teams-Desktopclient ist eine eigenständige Anwendung und derzeit nicht Teil von Office 365 ProPlus. Teams ist für die 32-Bit- und 64-Bit-Versionen von Windows (7+) und für macOS (10.10+) verfügbar. Unter Windows erfordert Teams .NET Framework 4.5 oder höher. Das Installationsprogramm für Teams bietet die Installation an, wenn Sie nicht darüber verfügen. 
+Der Microsoft-Teams Desktopclient ist eine eigenständige Anwendung und steht auch [in Office 365 ProPlus](https://docs.microsoft.com/en-us/deployoffice/teams-install). Teams ist für die 32-Bit- und 64-Bit-Versionen von Windows (7+) und für macOS (10.10+) verfügbar. Unter Windows erfordert Teams .NET Framework 4.5 oder höher. Das Installationsprogramm für Teams bietet die Installation an, wenn Sie nicht darüber verfügen. 
 
 Die Desktopclients bieten Unterstützung für Echtzeitkommunikation (Audio, Video und Inhaltsfreigabe) für Teambesprechungen, Gruppenanrufe und private Einzelanrufe.
 

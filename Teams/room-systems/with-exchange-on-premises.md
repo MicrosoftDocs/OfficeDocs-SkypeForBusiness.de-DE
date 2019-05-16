@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen von Microsoft-Teams Chatrooms mit Exchange lokal
+title: Bereitstellen von Microsoft Teams-Raum mit Exchange vor Ort
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,14 +12,14 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: Lesen Sie dieses Thema bietet Informationen zum Bereitstellen von Microsoft-Teams Chatrooms in einer hybridumgebung mit Exchange lokal.
-ms.openlocfilehash: 1c1dd5ad49cedb2aee41b036f71bbc6b840aed96
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7ab9a582e26db15159677343d9edddd6bd9c45f9
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916211"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082722"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Bereitstellen von Microsoft-Teams Chatrooms mit Exchange lokal
+# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange vor Ort
 
 Lesen Sie dieses Thema bietet Informationen zum Bereitstellen von Microsoft-Teams Chatrooms in einer hybridumgebung mit Exchange auf lokale und Microsoft-Teams oder Skype für Business Online.
   
@@ -62,7 +62,7 @@ Wenn Sie Microsoft-Teams Chatrooms mit Exchange lokal bereitgestellt werden, wer
     > [!NOTE]
     > Auswählen von **Kennwort läuft nie ab** ist eine Voraussetzung für Skype für Business Server auf Microsoft Teams Chatrooms. Möglicherweise verhindern Ihre Domänenregeln nicht ablaufende Kennwörter. In diesem Fall müssen Sie eine Ausnahme für jedes Microsoft Teams Chatrooms Gerät Konto erstellen.
   
-4. Führen Sie nach der Erstellung des Kontos eine Verzeichnissynchronisierung aus. Wenn es abgeschlossen ist, wechseln Sie zu der Benutzerseite in Ihrer Office 365 Administrationscenter, und stellen Sie sicher, dass das Konto in den vorherigen Schritten erstellten online zu zusammengeführt wurde.
+4. Führen Sie nach der Erstellung des Kontos eine Verzeichnissynchronisierung aus. Wenn es abgeschlossen ist, wechseln Sie zu der Benutzerseite in Ihrer Microsoft 365 Administrationscenter, und stellen Sie sicher, dass das Konto in den vorherigen Schritten erstellten online zu zusammengeführt wurde.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Aktivieren des Remotepostfachs und Festlegen von Eigenschaften
 

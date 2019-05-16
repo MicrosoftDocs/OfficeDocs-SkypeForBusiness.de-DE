@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Informationen Sie zu Analytics aufrufen und Qualitätsdashboard aufrufen und verwenden sie zur Überwachung und Problembehandlung Anrufqualität.
-ms.openlocfilehash: 410b8a55fb2e0860f9b888ffc7ec26513a2d91fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6165a4473e8770e20a595e368402ff1cf5bfe6e0
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902675"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082738"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Anrufanalyse- und Anrufqualitäts-Dashboard
 
@@ -82,6 +82,7 @@ Mit der Hilfe CQDs Location-Enhanced Berichte können aggregierte Anrufqualität
 Nicht-Administratoren, wie etwa Helpdesk-Agents auf Wunsch können zum Aufrufen Dashboard für die Qualität, verwenden Sie diese Benutzer die Rolle **Teams Communications Supporttechniker**, **Teams Communications Supportspezialisten**oder **Leser von Berichten** zuweisen. Benutzer mit den folgenden Rollen können aufrufen Qualitätsdashboard zugreifen:
 
 - Globaler Administrator
+- Globaler Leser
 - Skype für Business-Administratoren
 - Teams-Dienstadministrator
 - Teams-Kommunikationsadministrator
