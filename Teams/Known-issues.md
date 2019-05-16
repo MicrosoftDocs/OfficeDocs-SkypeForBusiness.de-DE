@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1be129edfbac1bff1120785596eb3fe8bcc8bb2f
-ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
+ms.openlocfilehash: 0f52ffd975d671b71f098cb15c6dd7c8661c082d
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970191"
+ms.locfileid: "33994153"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -55,7 +55,8 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|[Bedingter Zugriff](https://docs.microsoft.com/de-DE/azure/active-directory/conditional-access/overview) funktioniert möglicherweise nicht, wenn Sie die Registerkarte "Website" in der Desktop-App verwenden.<br/> |Wenn eine Website, wie z. B. ein Intranetportal, über Richtlinien für bedingten Zugriff verfügt (etwa Browser- oder IP-Adressbeschränkungen), kann es sein, dass diese Website in der Desktop-App nicht als Registerkarte innerhalb von Teams angezeigt wird. <br/> |Verwenden Sie anstatt der Desktop-App Teams in einem Browser.  <br/> |1.7.18  <br/> |
+|
+  [Bedingter Zugriff](https://docs.microsoft.com/de-DE/azure/active-directory/conditional-access/overview) funktioniert möglicherweise nicht, wenn Sie die Registerkarte "Website" in der Desktop-App verwenden.<br/> |Wenn eine Website, wie z. B. ein Intranetportal, über Richtlinien für bedingten Zugriff verfügt (etwa Browser- oder IP-Adressbeschränkungen), kann es sein, dass diese Website in der Desktop-App nicht als Registerkarte innerhalb von Teams angezeigt wird. <br/> |Verwenden Sie anstatt der Desktop-App Teams in einem Browser.  <br/> |1.7.18  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
@@ -266,6 +267,10 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |:-----|:-----|:-----|:-----|
 |Suchfunktion in der SharePoint-Listenregisterkarte  <br/> |Wenn Sie versuchen, eine Datei über die Suchfunktion der SharePoint-Listenregisterkarte zu öffnen, wird die Eingabeaufforderung "Sie benötigen eine neue App, um diese Info zu öffnen" ausgelöst, und die Datei wird nicht geöffnet. <br/> |Öffnen Sie die Datei direkt aus der Liste statt über die Suchleiste. <br/> |11.2.2019  <br/> |
 
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Fehler beim Herunterladen der Datei <br/> |Wenn Sie den Microsoft Teams-Desktopclient verwenden und versuchen, eine Datei herunterzuladen, deren Dateipfad ein Apostroph enthält, wird ein Fehler "Die Datei wurde nicht herunterladen" ausgelöst. <br/> |Laden Sie die Datei über den Webclient oder SharePoint Online herunter. <br/> |10.5.2019  <br/> |
+
 ## <a name="teams"></a>Teams
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
@@ -303,3 +308,7 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Benutzer erhält keine Willkommens-E-Mail, wenn er durch den Administrator hinzugefügt wird.  <br/> |Wenn Sie ein Mitglied mit PowerShell oder über das Teams Admin Center zu einem Team hinzufügen, erhalten Sie keine Willkommens-E-Mail von Microsoft Teams.  <br/> |Wenn Sie ein Mitglied direkt über die Teams-Benutzeroberfläche hinzufügen, wird eine E-Mail gesendet. Derzeit gibt es keine Problemumgehung beim Durchführen dieser Aufgabe durch den Administrator.  <br/> |12.2.19  <br/> |
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
+|Dateien können nach dem Bearbeiten nicht verschoben, gelöscht oder umbenannt werden  <br/> |Nachdem eine Datei in MS Teams bearbeitet wurde, kann sie nicht mehr sofort verschoben, umbenannt oder gelöscht werden. <br/> |Dies ist derzeit ein bekanntes Problem, und die Problemumgehung besteht darin, einige Zeit zu warten, bevor administrativ Änderungen vorgenommen werden.  <br/> |03/12119  <br/> |
