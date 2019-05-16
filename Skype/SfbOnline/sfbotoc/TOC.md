@@ -260,7 +260,6 @@
 ### [Was ist Guthaben für Kommunikationen?](/microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Einrichten von Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-### [Administratorschulung für Skype for Business Online](../set-up-skype-for-business-online/skypeacademy-training.md)
 ### [Zulassen, dass Benutzer externe Skype for Business-Benutzer kontaktieren](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 ### [Konfigurieren der Anwesenheitsinformationen in Skype for Business Online](../set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md)
 ### [Konfigurieren des vertraulichen Anwesenheitsmodus](../set-up-skype-for-business-online/configure-presence-privacy-mode.md)
