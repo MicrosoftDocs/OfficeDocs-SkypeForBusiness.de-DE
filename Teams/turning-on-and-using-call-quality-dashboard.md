@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. '
-ms.openlocfilehash: 51e49d786f421777116e5c1d28ff8fcb7a11bcc4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 44e51b8bcc72798b1c4b40a41383826de1a74291
+ms.sourcegitcommit: ee05fe02fe68b5bd6ee38dd4a3ad69da3d37c492
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920461"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34106292"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Einschalten und Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online
 
@@ -36,8 +36,6 @@ Hier erfahren Sie, wie Sie Ihre Office 365-Organisation konfigurieren können, u
   
 Mit dem Anrufqualitäts-Dashboard (AQD) für Microsoft Teams und Skype for Business Online erhalten Sie einen Einblick in die Qualität von Anrufen, die mit Microsoft Teams- und Skype for Business-Diensten getätigt wurden. In diesem Thema werden die Schritte beschrieben, die Sie ausführen müssen, um die Datenerfassung zu starten.
   
-> [!NOTE]
-> Die detaillierten CQD-Berichte sind derzeit als technische Vorschau für alle Kunden verfügbar. 
   
 ## <a name="latest-changes-and-updates"></a>Aktuelle Änderungen und Updates
 
@@ -57,23 +55,6 @@ Finden Sie in diesem Artikel finden Sie eine Liste von [Dimensionen und Measures
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Aktivieren von Zusammenfassungsberichten des Microsoft-Anrufqualitäts-Dashboards (AQD)
 
 Bevor Sie mit der Verwendung des AQD beginnen können, müssen Sie es für Ihre Office 365-Organisation aktivieren.
- 
-![SFB-Logo-30x30.png](media/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
- 
-1. Melden Sie sich mit einem Administratorkonto bei Ihrer Office 365-Organisation an, und wählen Sie dann die Kachel **Admin** aus, um das Admin Center zu öffnen.
-    
-2. Wählen Sie im linken Bereich unter **Admin Center** die Option **Skype for Business** aus, um das Skype for Business Admin Center zu öffnen.
-    
-3. Wählen Sie im linken Bereich des Skype for Business Admin Center die Option **Tools** aus, und wählen Sie dann **Qualitätsdashboard für Anrufe mit Skype for Business Online** aus.
-    
-     ![Skype for Business tools](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
-  
-4. Klicken Sie auf der Seite, die geöffnet wird, melden Sie sich mit Ihrem globale Administratorkonto ein, und geben Sie die Anmeldeinformationen für das Konto, wenn Sie aufgefordert werden.
-    
-     ![CQD Login](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
-  
-Nach der Anmeldung einmal aktiviert ist, beginnt die CQD sammeln und Verarbeitung von Daten.
-
 ![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
  
 1. Melden Sie sich bei Office 365-Organisation mit Microsoft-Teams-Admin-Dienstkonto, und wählen Sie dann die **Admin** -Kachel, um das Administrationscenter zu öffnen.
@@ -90,6 +71,24 @@ Nach der Anmeldung einmal aktiviert ist, beginnt die CQD sammeln und Verarbeitun
 Nach der Anmeldung einmal aktiviert ist, beginnt die CQD sammeln und Verarbeitung von Daten.  
 > [!NOTE]
 > Es kann einige Stunden dauern, bis genügend Daten verarbeitet worden sind, um in den Berichten aussagekräftige Ergebnisse anzuzeigen. 
+
+![SFB-Logo-30x30.png](media/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+ 
+1. Melden Sie sich mit einem Administratorkonto bei Ihrer Office 365-Organisation an, und wählen Sie dann die Kachel **Admin** aus, um das Admin Center zu öffnen.
+    
+2. Wählen Sie im linken Bereich unter **Admin Center** die Option **Skype for Business** aus, um das Skype for Business Admin Center zu öffnen.
+    
+3. Wählen Sie im linken Bereich des Skype for Business Admin Center die Option **Tools** aus, und wählen Sie dann **Qualitätsdashboard für Anrufe mit Skype for Business Online** aus.
+    
+     ![Skype for Business tools](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
+  
+4. Klicken Sie auf der Seite, die geöffnet wird, melden Sie sich mit Ihrem globale Administratorkonto ein, und geben Sie die Anmeldeinformationen für das Konto, wenn Sie aufgefordert werden.
+    
+     ![CQD Login](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+  
+Nach der Anmeldung einmal aktiviert ist, beginnt die CQD sammeln und Verarbeitung von Daten.
+
+
   
 ## <a name="features-of-the-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Features des Anrufqualität Dashboard für Microsoft-Teams und Skype für Unternehmen Online 
 <a name="BKMKFeaturesOfTheCQD"> </a>

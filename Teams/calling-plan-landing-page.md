@@ -15,14 +15,14 @@ search.appverid: MET150
 description: Aufrufen von Plan Zielseite
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 412797a52e82c03937670e895fea7b42a3ce7b4a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d85546df76b7699986d28152ff08003612df8331
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211983"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108755"
 ---
-# <a name="phone-system-with-calling-plans"></a>Telefonsystem mit dem Aufrufen der Pläne 
+# <a name="which-calling-plan-is-right-for-you"></a>Welche aufrufen planen ist das richtige für Sie? 
 
 Sie haben das [Erste Schritte](get-started-with-teams-quick-start.md)abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleicht haben Sie [Besprechungen & Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)bereitgestellt. Sie können nun Cloud VoIP Arbeitslasten hinzufügen, und Sie haben entschieden, Microsoft Telefonsystem mit Aufrufen planen Verbindung zu im Public Switched Telephone Network, (PSTN) zu verwenden. 
 
@@ -34,7 +34,7 @@ Dieser Artikel beschreibt Core Bereitstellung Entscheidungen für das Aufrufen v
 Die folgenden Artikel enthalten weitere Informationen zur Bereitstellung und Verwendung von Microsoft plant aufrufen:
 
 - [Telefonsystem in Office 365](what-is-phone-system-in-office-365.md)
-- [Aufrufpläne für Office 365](calling-plans-for-office-365.md)
+- [Anrufpläne für Office 365](calling-plans-for-office-365.md)
 - [Einrichten von Anrufplänen](set-up-calling-plans.md)
 
 

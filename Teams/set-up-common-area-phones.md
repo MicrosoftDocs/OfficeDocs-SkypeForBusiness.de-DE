@@ -21,14 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Hier erfahren Sie, wie Sie Telefone in öffentlichen Bereichen für Lobbys, Empfangsbereichen und Konferenzräume einrichten '
-ms.openlocfilehash: 9e68d5bc4ef0355e80e1fe6359385c10a339c0fe
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: 66f84cb1ce768cc86a7c31a6ac345f0fcc135726
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632377"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108747"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Einrichten der Lizenz für Telefone für gemeinsame Bereiche für Microsoft Teams
+> [!NOTE]
+> Telefone in öffentlichen Bereichen unterstützt Voicemail nicht.
 
 Ein Telefon im öffentlichen Bereich wird in der Regel platziert, in einen Bereich wie eine Lobby oder einem anderen Bereich, der So rufen an viele Personen zur Verfügung steht. beispielsweise ein Empfang Bereich, Wartebereich oder Konferenz Telefon. Telefone in öffentlichen Bereichen Geräte, sondern als Benutzer eingerichtet sind, und in einem Netzwerk automatisch anmelden können.
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Informationen Sie zu Business Server, einschließlich des AlwaysOn Availability Groups, AlwaysOn-Failoverclusterinstanzen, datenbankspiegelung und SQL-Failover-Clusterunterstützung in Skype unterstützten Optionen für die hohe Verfügbarkeit der Back-End-Server.
-ms.openlocfilehash: d40ceb237ff52434074de29363704fdb1de5b78c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c200596ac43099d92b7fd37e850a524cf92a24ce
+ms.sourcegitcommit: ee05fe02fe68b5bd6ee38dd4a3ad69da3d37c492
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916558"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34106299"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Back-End-Server hohe Verfügbarkeit in Skype für Business Server
  
@@ -42,6 +42,8 @@ Wenn Sie hohen Verfügbarkeit von Back-End-Server auf einem Front-End-Pool, die 
 
 Skype für Business Server unterstützt Spiegelung mit der folgenden Datenbanksoftware:
   
+- SQLServer 2017, Enterprise Edition und Standard Edition
+
 - SQLServer 2016, Enterprise Edition und Standard Edition
 
 - SQLServer 2014, Enterprise Edition und Standard Edition
@@ -100,9 +102,29 @@ Wenn sowohl der Prinzipalserver als auch der Spiegel-Back-End-Server ausfallen o
   
 ## <a name="alwayson-availability-groups-and-alwayson-failover-cluster-instances"></a>AlwaysOn-Verfügbarkeitsgruppen und AlwaysOn-Failoverclusterinstanzen
 
-AlwaysOn Availability Groups und AlwaysOn-Failoverclusterinstanzen werden nur in SQL Server 2014 Enterprise Edition und SQL Server 2012 Enterprise Edition unterstützt. Skype für Business Server unterstützt AlwaysOn Availability Groups nur als aktiv/passiv, nicht aktiv/aktiv. 
+Skype für Business Server unterstützt AlwaysOn Availability Groups nur als aktiv/passiv, nicht aktiv/aktiv. 
   
 Um AlwaysOn Availability Groups oder AlwaysOn-Failoverclusterinstanzen verwenden möchten, verwenden Sie zuerst SQL Server einrichten und Konfigurieren der Lösung für hohe Verfügbarkeit. Topologie-Generator können dann diesen mit einem Front-End-Pool zuordnen.
+
+Skype für Business Server unterstützt AlwaysOn mit der folgenden Datenbanksoftware:
+
+- SQL Server 2017 Enterprise Edition
+
+- SQL Server 2017 Standard Edition mit Einschränkungen, siehe Hinweis unten
+
+- SQL Server 2016 Enterprise Edition
+
+- SQL Server 2016 Standard Edition mit Einschränkungen, siehe Hinweis unten
+
+- SQL Server 2014 Enterprise Edition
+    
+- SQL Server 2012 SP2 und CU2 Enterprise Edition
+
+> [!NOTE]
+> SQL Server 2017 und SQL Server 2016 sind die einzigen Versionen von Skype für Business Server 2019 unterstützt.
+
+> [!NOTE]
+> Immer auf Availability Groups ist in SQL 2016 und 2017 Standard Edition **nicht** unterstützt, aber Sie können immer auf Failoverclusterinstanzen verwenden. Finden Sie unter [Editionen und unterstützten Features von SQL Server 2016](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) um mehr zu erfahren.
   
 > [!IMPORTANT]
 > Instanznamen für mehrere Instanzen von AlwaysOn Availability Group müssen identisch sein. 
