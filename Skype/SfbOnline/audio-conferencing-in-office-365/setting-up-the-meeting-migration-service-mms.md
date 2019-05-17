@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Meeting-Migration Service (MMS) ist ein Dienst, der im Hintergrund ausgeführt, und Skype für Geschäfts- und Microsoft-Teams, Besprechungen für Benutzer automatisch aktualisiert. MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
-ms.openlocfilehash: 9a133cb2a91e50ad21b263009f8f2c64cd3d8ccb
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: da1b21b65794354a023632e785c463b494cc38f5
+ms.sourcegitcommit: ee05fe02fe68b5bd6ee38dd4a3ad69da3d37c492
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835119"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34106174"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Verwenden die Migration Besprechungsdienst (MMS)
 
@@ -83,7 +83,7 @@ In diesem Abschnitt wird beschrieben, was geschieht, wenn MMS in jeder der folge
 
 Dies ist die am häufigsten verwendeten Szenario, in dem MMS hilft einen fließender Übergang für Ihre Benutzer zu erstellen. Ohne Besprechung Migration funktioniert vorhandene Besprechungen, die von einem Benutzer in Skype für Business Server lokal organisiert nicht mehr, nachdem der Benutzer online verschoben wird. Wenn Sie daher die lokalen-Verwaltungstools verwenden (entweder `Move-CsUser` oder der Admin-Systemsteuerung) zum Verschieben eines Benutzers in die Cloud vorhandene Besprechungen werden automatisch verschoben in die Cloud wie folgt:
 
-- Wenn die `MoveToTeams` wechseln `Move-CsUser` angegeben ist, Besprechungen direkt zu Teams migriert werden, und des Benutzers im TeamsOnly Modus. Diese Option erfordert Skype für Business Server mit CU8 oder höher. Diese Benutzer können weiterhin alle Skype für Business Besprechung teilnehmen, den, die Sie zu, eingeladen werden möglicherweise über die Skype für Business-Client oder die Skype-Meeting-App.
+- Wenn die `MoveToTeams` wechseln `Move-CsUser` angegeben ist, Besprechungen direkt zu Teams migriert werden, und des Benutzers im TeamsOnly Modus. Diese Option erfordert Skype für Business Server 2015 mit CU8 oder höher. Diese Benutzer können weiterhin alle Skype für Business Besprechung teilnehmen, den, die Sie zu, eingeladen werden möglicherweise über die Skype für Business-Client oder die Skype-Meeting-App.
 - Andernfalls werden Besprechungen zu Skype für Business Online migriert.
 
 In beiden Fällen Wenn der Benutzer eine Audiokonferenz-Lizenz zugewiesen wurde, bevor Sie in der Cloud verschoben werden Besprechungen mit Zugriffsnummer für Einwahl Koordinaten erstellt werden. Wenn eines Benutzers lokal in der Cloud verschieben und Sie für diesen Benutzer an der Audiokonferenz verwenden möchten, wird empfohlen, dass Sie zuerst die Audiokonferenz zuweisen, bevor der Benutzer verschieben, sodass nur 1 Besprechung Migration ausgelöst wird.
