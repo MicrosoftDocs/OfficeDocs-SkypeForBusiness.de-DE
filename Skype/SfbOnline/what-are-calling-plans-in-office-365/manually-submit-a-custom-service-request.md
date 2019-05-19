@@ -21,21 +21,21 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: 7c44e6be750e4793083a0fa931874db2e6b09b80
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 73978d5cc01d2cde7739b6653fcd6c75e83950ec
+ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229857"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158973"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>Manuelles Übermitteln einer benutzerdefinierten Serviceanfrage
 
-Wenn Sie Service Nummern für einwahlkonferenzen Brücken, automatischen Telefonzentralen oder andere Zahlen Service verfügen, gebührenfreie Telefonnummer Zahlen oder haben mehr als 999 (Abonnent) Telefonnummern, die Sie benötigen zum Übertragen von Skype für Unternehmen, Sie müssen so [Verwalten an. Zahlen für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
+Wenn Sie über Servicenummern für Einwahlkonferenzen, automatische Telefonzentralen oder andere Dienstnummern, gebührenfreie Telefonnummern oder über mehr als 999-Nutzer (Teilnehmer) Telefonnummern verfügen, die Sie an Skype for Business übertragen müssen, müssen Sie das [Telefon verwalten. Zahlen für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
 
-In einigen Ländern/Regionen müssen Sie auch eine benutzerdefinierte Serviceanfrage manuell zu senden, wenn Sie Telefonnummern, erhalten Version Nummern oder Adressen ändern möchten. Zum Anzeigen der für jedes Land/Region erforderlich sind, oder erfahren mehr über Anzahl portieren, finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
+In einigen Ländern/Regionen müssen Sie auch manuell eine benutzerdefinierte Serviceanfrage einreichen, wenn Sie Telefonnummern erhalten oder die Nummern freigeben oder Adressen ändern möchten. Informationen dazu, was für jedes Land/jede Region erforderlich ist, oder weitere Informationen zur Nummernportierung finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
 
 
-## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a>Wenn Sie benötigen zum Erstellen und übermitteln eine Service-Anforderung führen Sie folgende Schritte aus:
+## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a>Führen Sie die folgenden Schritte aus, wenn Sie eine Serviceanfrage erstellen und übermitteln müssen:
 
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Führen Sie für Organisationen mit maximal 150 Benutzern die folgenden Schritte aus:
 1. Wählen Sie im **Office 365 Admin Center** die Option **Need help?** (Benötigen Sie Hilfe?) aus.
@@ -44,7 +44,7 @@ In einigen Ländern/Regionen müssen Sie auch eine benutzerdefinierte Serviceanf
     - **Let us call you (Recommended)** (Anruf von uns (empfohlen)): Bestätigen Sie Ihre Kontaktnummer, und klicken Sie dann auf **Call me** (Rückruf). Im Bereich **Need help?** (Benötigen Sie Hilfe?) sehen Sie, wie lange es voraussichtlich dauert, bis Sie zurückgerufen werden.
     - **Email us** (E-Mail an uns): Bestätigen Sie Ihre E-Mail-Adresse, und wählen Sie dann **Senden** aus. Im Bereich **Need help?** (Benötigen Sie Hilfe?) sehen Sie, wie lange es dauert, bis Sie eine Antwort erhalten.
 
-### <a name="for-organizations-with-more-than-150-users-follow-these-steps-to-create-a-service-request"></a>Folgendermaßen Sie für Organisationen mit mehr als 150 Benutzer vor, um eine Serviceanfrage zu erstellen:
+### <a name="for-organizations-with-more-than-150-users-follow-these-steps-to-create-a-service-request"></a>Für Organisationen mit mehr als 150 Benutzern führen Sie die folgenden Schritte aus, um eine Serviceanfrage zu erstellen:
 
 1. Melden Sie sich mit Ihrem Geschäfts-, Schul- oder Unikonto als Administrator bei Office 365 an.
     
@@ -100,11 +100,11 @@ In einigen Ländern/Regionen müssen Sie auch eine benutzerdefinierte Serviceanf
 > [!TIP]
 > Die Referenznummer wird im Office 365 Admin Center auf der Seite **Serviceanfragen** angezeigt.
   
-## <a name="what-else-should-you-know-about-number-porting"></a>Was sollten Sie über die Zahl Portieren wissen?
+## <a name="what-else-should-you-know-about-number-porting"></a>Was sollten Sie sonst noch über die Nummernportierung wissen?
 
-- Verwenden Sie die Pläne aufrufen, müssen Sie erwerben und Ihren Benutzern Lizenzen zuweisen. [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Wenn Sie Anrufpläne verwenden möchten, müssen Sie Ihren Benutzern Lizenzen kaufen und zuweisen. [Skype for Business-und Microsoft Teams-Add-on-Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
-- Sie müssen die neue Telefonnummern, die Sie für jeden Ihrer Benutzer zuweisen. [Zuweisen, ändern oder entfernen Sie eine Rufnummer für einen Benutzer](assign-change-or-remove-a-phone-number-for-a-user.md).
+- Sie müssen den einzelnen Benutzern die neuen Telefonnummern zuweisen, die Sie besitzen. [Zuweisen, ändern oder Entfernen einer Telefonnummer für einen Benutzer](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

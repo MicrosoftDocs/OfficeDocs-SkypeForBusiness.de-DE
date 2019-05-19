@@ -1,13 +1,13 @@
 ---
 title: Enterprise-Testplan für Telefonsysteme mit Anrufplänen in Microsoft Teams
-author: rmw2890
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Überprüfen, ob die Erwartungen hinsichtlich Ihrer Organisation erfüllt sind, über das Telefonsystem in Teams Features, Funktionen und Verwendbarkeit testen.
+description: Überprüfen Sie, ob die Erwartungen Ihrer Organisation erfüllt sind, indem Sie das Telefon System in den Funktionen, Funktionen und der Benutzerfreundlichkeit von Teams testen.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,840 +15,840 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cb95414940cbea6eb47945e43d96eb35f4de8bd
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 1534c1b327e7fda146894430ca750f01c53e8fa4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401016"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33898754"
 ---
-<a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Definieren Sie und Dokumentieren Sie Ihr Telefonsystem mit Aufrufen plant in Plan zum Testen von Teams für Unternehmen 
+<a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Definieren und dokumentieren Ihres Telefonsystems mit Anrufplänen in Teams Testplan für Unternehmen 
 ============================================================================================
 
-Nachdem Sie Ihr Telefonsystem mit Aufrufen von Plänen in Teams geschäftlichen Erfolg und technische Pläne als Teil der Phase Ermitteln übergeordneter Faktoren dokumentiert und definiert haben, wird im nächste Schritt überprüfen, dass über die Erwartungen und die Anforderungen Ihres Unternehmens erfüllt sind Features, Funktionen und Verwendbarkeit. Sie sollten diese Validierungsschritt führen Sie vor der Bereitstellung einer pilot oder final-bereitstellungs in Ihrer produktionsumgebung.
+Nachdem Sie Ihr Telefon System mit Anrufplänen in den Plänen für Geschäftserfolg und technische Implementierung von Teams im Rahmen der enVision-Phase definiert und dokumentiert haben, besteht der nächste Schritt darin, zu überprüfen, ob die Erwartungen und Anforderungen Ihrer Organisation erfüllt werden. Feature, Funktionalität und Benutzerfreundlichkeit. Sie sollten diesen Validierungsschritt durchführen, bevor Sie eine Pilot-oder endgültige Bereitstellung in Ihrer Produktionsumgebung bereitstellen.
 
-Sie können Business Erfolg planen nutzen, die Sie während der Phase der Ermitteln übergeordneter Faktoren dienen als Grundlage für die Bestimmung der Aktivitäten, erwartet, die Funktionalität der Testfälle und allgemeine Bereich während der Testphase ausgewertet werden definiert haben.
+Sie können den Geschäftserfolgs Plan, den Sie während der enVision-Phase definiert haben, als Grundlage für die Ermittlung der Aktivitäten, Erwartungen, Funktions-/Funktionstest Fälle und des Gesamtumfangs nutzen, der während der Testphase ausgewertet werden soll.
 
-<a name="identify-testing-support-stakeholders"></a>Bestimmen der beteiligten Personen testing support
+<a name="identify-testing-support-stakeholders"></a>Ermitteln der Beteiligten des Test Supports
 -------------------------------------
 
-Sie bei der Vorbereitung für die Auswertung Telefonsystem Funktionen aufrufen plant, erstellen Sie eine testing Matrix der unterstützten beteiligten zum Identifizieren der Rollen, die zur Unterstützung der Testphase erforderlich sind.
+Wenn Sie sich vorbereiten, das Telefon System mit den Funktionen für Anrufpläne zu evaluieren, erstellen Sie eine Stakeholder-Matrix für Test Support, um die zur Unterstützung der Testphase erforderlichen Rollen zu identifizieren.
 
 > [!TIP]
-> Wie Sie die Tests Matrix der beteiligten Teams auffüllen, wird möglicherweise angezeigt, dass einige Rollen identisch mit den während der Phase der Ermitteln übergeordneter Faktoren, wobei jedoch rollenbeschreibung schräg sind zu testen. Sie müssen möglicherweise zusätzliche Rollen, je nach den Anforderungen Ihrer Testszenarios eindeutigen identifizieren.
+> Wenn Sie die Stakeholder-Matrix für Team testing-Unterstützung füllen, sehen Sie möglicherweise, dass einige Rollen mit denen in der enVision-Phase identisch sind, jedoch mit Rollenbeschreibungen, die in Richtung testing geneigt sind. Je nach den eindeutigen Anforderungen Ihrer Testszenarien müssen Sie möglicherweise zusätzliche Rollen ermitteln.
 
-#### <a name="teams-testing-support-stakeholder-matrix"></a>Testen der Matrix der beteiligten Teams
+#### <a name="teams-testing-support-stakeholder-matrix"></a>Team Prüfung unterstützt Stakeholder-Matrix
 
 > [!TIP]
 > 
-> Im folgenden ist ein Beispiel einer testing Support beteiligten Vorlage, die Sie verwenden können, um die Beteiligten zu dokumentieren Sie zur Unterstützung der Testphase erfordern.
+> Nachfolgend finden Sie ein Beispiel für eine Stakeholder-Vorlage für Test Support, mit der Sie dokumentieren können, welche Stakeholder Sie zur Unterstützung der Testphase benötigen.
 
-| Rolle                          | Rollenbeschreibung                                                                                                                                                                          | Zugeordneten Ressource, Kontaktinformationen und Ort |
+| Rolle                          | Rollenbeschreibung                                                                                                                                                                          | Zugeordnete Ressource, Kontaktinformationen und Standort |
 |-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
-| Executive Sponsor(s) testen  | <ul><li>Stellen Sie sicher, dass Teams Features unternehmensanforderungen erfüllen; die executive Sponsor sind wichtige Geschäftsergebnisse und priorisiert Groß-/Kleinschreibung Nutzungsszenarien fließend.</li><li>Dienen Sie als ultimate Zertifizierungsstelle, und davon ausgehen Sie Accountability, für Teams Feature Ziele zu testen.</li><li>Hilfe von Tests führen eskaliert Probleme zu beheben.</li><li>Sponsor Kommunikation innerhalb des Unternehmens zum Testen der Ziele.</li><li>Wichtige strategische Entscheidung zuständig sein.</li><li>Zur Sicherstellung der Verfügbarkeit von erforderlichen Ressourcen und Budget für die Unterstützung von Testverfahren zuständig sein.</li><li>Laufwerk zur Förderung des Bekanntheitsgrads und Unterstützung für die Tests Kampagne mit anderen der Verantwortlichen.</li><li>Dienen Sie als der testing Sponsor während der Auswertungsphase Test.</li></ul>                                                 | TBD                                                  |
-| Lenkungsausschuss Mitglieder    | <ul><li>Verwalten von Interesse, sowie Anleitungen für die allgemeine Richtung des das Telefonsystem mit der Bereitstellung des Plans aufrufen.<li>Kennsätzen strategischen Erkenntnisse über gesteuerter Führungsriege in der gesamten Organisation unterstützen.</li></ul>                                                                        | TBD                                                  |
-| Projektleiter                  |<ul><li> Verwalten Sie, und führen Sie das Projektteam.</li><li>Partner und Teams an das Projekt anderweitig zu koordinieren.</li><li>Verantwortlich für das Erstellen und Verwalten von Project-Pläne wichtige Quartale erfüllen.</li><li>Beheben Sie funktionsübergreifenden Probleme.</li><li>Stellen Sie regelmäßige Updates für Project Sponsor.</li><li>Integrieren Sie wichtige Benutzer wünschen Befunde in Testergebnissen in der gesamten Benutzer Anpassungsplan identifiziert.</li><li>Führen Sie monatliche Geschäfts- und betriebsbereit Reviews (engl.), Beitrag zu vierteljährlich Business Reviews (engl.).</li></ul>                                                                                                                                                         | TBD                                                  |
-| Leiter/Architekt für Zusammenarbeit  | <ul><li>Werden Sie verantwortlich für die Ausführung auf der Strategie für die Zusammenarbeit durch die Unternehmensführung definiert.</li><li>Analysieren und Auswählen von Produkten für die Zusammenarbeit für das Unternehmen, die Unternehmensziele.</li><li>Für den Entwurf für den Betrieb von Produkten für die Zusammenarbeit zuständig sein.</li><li>Definieren Sie die Modelle Betrieb und Support.</li><li>Beitrag zu monatlich oder vierteljährlich Business Reviews (engl.).</li></ul>                                                                                                 | TBD                                                  |
-| Projektmanager               | <ul><li>Entwickeln Sie und verwalten Sie den Projektplan.</li><li>Verwalten Sie Projektlieferumfang in einer Reihe mit dem Projektplan und Ihrem Budget.</li><li>Aufzeichnen und Projektprobleme, einschließlich der Benutzerberechtigungen verwalten.</li><li>Durchführen Sie wöchentliche kurze Anrufe.</li><li>Verbindung mit und beinhalten Updates für Project executive Sponsor.</li><li>Arbeiten mit internen ändern, Verwaltung und Kommunikation Teams so aktualisieren Sie die Änderung Ansatz und Kommunikation Verwaltungspläne je nach Bedarf.</li></ul>                                                                                                                                                   | TBD                                                  |
-| Netzwerkleiter                  | <ul><li>Enthalten Sie Eingabe während der Phase der Ermittlung Netzwerkdesign.</li><li>Bei der Planung während Ermitteln übergeordneter Faktoren Phase Workshops teilnehmen.</li><li>Koordinieren Sie die Arbeit der networking-Team während der Ausführung des Projekts.</li></ul>                                                                                                                               | TBD                                                  |
-| Leiter der Sicherheit                 | <ul><li>Mitteilen Sie, Sicherheitsentwurf und Prozesse während der Phase der Suche.</li><li>Bei der Planung während Ermitteln übergeordneter Faktoren Phase Workshops teilnehmen.</li><li>Koordinieren Sie die Arbeit vom Security Team während der Ausführung des Projekts.</li></ul>                                                                                                                | TBD                                                  |
-| Telefonieleiter                | <ul><li>Enthalten Sie Eingabe während der Phase der Ermittlung Telefonie Design.</li><li>Bei der Planung während Ermitteln übergeordneter Faktoren Phase Workshops teilnehmen.</li><li>Koordinieren Sie die Arbeit des Teams Telefonie während der Ausführung des Projekts.</li></ul>                                                                                                                           | TBD                                                  |
-| Desktopleiter                  | <ul><li>Mitteilen Sie, Clients und des Aktualisierungsvorgangs während der Phase der Suche.</li><li>Bei der Planung während Ermitteln übergeordneter Faktoren Phase Workshops teilnehmen.</li><li>Koordinieren Sie die Arbeit des Teams desktop während der Ausführung des Projekts.</li></ul>                                                                                                              | TBD                                                  |
-| Vertreter der Betriebseinheiten | <ul><li>Beitrag zu benutzerbasierte Annahme Handbücher und Materialien (engl.).</li><li>Beitrag zu, und überprüfen Sie, Geschäftsfälle verwenden.</li></ul>                                                                                                                                   | TBD                                                  |
-| IT-Administratoren                     | <ul><li>Unterstützung bei der Planung von Test und Ausführung (diese Rolle ist für IT-Experten).                                                                                                                       | TBD                                                  |
-| Leiter des Kundendiensts                 | <ul><li>Werden Sie alle für den Betrieb von das Telefonsystem mit Dienst aufrufen Plans zuständig.</li><li>Fungieren Sie als Besitzer der das Telefonsystem mit Dienst plant aufrufen.</li></ul>                                                                                                               | TBD                                                  |
-| Test Lead-Manager             | <ul><li>Definieren des Testplans, einschließlich Aktivitäten, Abhängigkeiten, Umgebung, Ziele, Strategie, Durchführung der Migration erforderlich (Umwelt- und human) und den Zeitplan für die Unterstützung der Testphase erforderlich.</li><li>Bereitstellung und Bereitschaft für Test Plan Abhängigkeiten zu koordinieren.</li><li>Mit der rechten Priorität für Fehler Lösung ausrichten.</li><li>Dienen Sie als Eskalationspfad auf testing Probleme, die auftreten.</li><li>Kommunizieren Sie und Berichten Sie Test Planstatus mit internen Teams und der festgelegten Beteiligten.</li><li>Dokumentieren Sie und präsentieren Sie der abschließenden Testergebnisse.</li></ul> | TBD                                                  |
-| Telefonsystem mit dem Aufrufen der Pläne Tester     | <ul><li>Überprüfen Sie den Testplan zu verstehen, testing Anforderungen, Ziele, Zeitplan, Problembehebung und Testfälle ausgeführt werden.</li><li>Überprüfen und Entwickeln von Testfällen für das Telefonsystem aufrufen plant Annahme und Funktionalität Vorschriften unterstützen.</li><li>Führen Sie Testfälle und Testergebnisse Dokument.</li><li>Fehler beim auftreten und sie an der Test Lead für die Priorisierung und Auflösung eskalieren des Dokuments.</li><li>Testen Sie Regressionen um Fehler zu schließen, nachdem defekt Lösung bestätigt wurde.</li></ul>                                                                | TBD                                                  |
-| Netzwerk-Tester                | <ul><li>Überprüfen Sie den Testplan zu verstehen, testing Anforderungen, Ziele, Zeitplan, Problembehebung und Testfälle ausgeführt werden.</li><li>Überprüfen Sie Testfälle Bereitschaft Annahme und Leistung netzwerkanforderungen unterstützen.</li><li>Führen Sie Tests im Zusammenhang mit der Bereitschaft des Netzwerks, einschließlich Netzwerkkonnektivität und Leistung Überprüfung, QoS-Validierung und Überprüfung der Split-Tunnel-Konfiguration.</li><li>Führen Sie mithilfe von Netzwerk-Planner über MyAdvisor Bandbreite Validierung Websites im Bereich.</li><li>Bereitschaft des Netzwerks Testergebnisse des Dokuments.</li><li>Fehler beim auftreten und sie an der Test Lead für die Priorisierung und Auflösung eskalieren des Dokuments.</li><li>Testen Sie Regressionen um Fehler zu schließen, nachdem defekt Lösung bestätigt wurde.</li></ul>                                                                | TBD                                                  |
-| Sicherheitstester               | <ul><li>Überprüfen Sie den Testplan zu verstehen, testing Anforderungen, Ziele, Zeitplan, Problembehebung und Testfälle ausgeführt werden.</li><li>Überprüfen und Testfälle unterstützende Annahme sicherheitsanforderungen entwickeln.</li><li>Führen Sie Tests im Zusammenhang mit Sicherheit Annahme für Testfälle.</li><li>Dokument Sicherheit Akzeptanztests Ergebnisse.</li><li>Fehler beim auftreten und sie an der Test Lead für die Priorisierung und Auflösung eskalieren des Dokuments.</li><li>Testen Sie Regressionen um Fehler zu schließen, nachdem defekt Lösung bestätigt wurde.</li></ul>                                                                | TBD                                                  |
-| Telefonie Tester              | <ul><li>Überprüfen Sie den Testplan zu verstehen, testing Anforderungen, Ziele, Zeitplan, Problembehebung und Testfälle ausgeführt werden.</li><li>Überprüfen Sie Testfälle Zahl Portieren Annahme und Funktionalität dienstanforderungen unterstützen.</li><li>Führen Sie Tests im Zusammenhang mit der Nummer portieren, einschließlich Service Zahl Port zu Office 365-service.</li><li>Führen Sie Testfälle und Dokument Testfallergebnisse.</li><li>Fehler beim auftreten und sie an der Test Lead für die Priorisierung und Auflösung eskalieren des Dokuments.</li><li>Testen Sie Regressionen um Fehler zu schließen, nachdem defekt Lösung bestätigt wurde.</li></ul>                                                                | TBD                                                  |
-| Telefonsystem per plant Admin-Test | <ul><li>Überprüfen Sie den Testplan zu verstehen, testing Anforderungen, Ziele, Zeitplan, Problembehebung und Testfälle ausgeführt werden.</li><li>Überprüfen und Entwickeln von Testfällen für das Telefonsystem aufrufen plant Administration Annahme und Funktionalität Vorschriften unterstützen.</li> <li>Führen Sie Testfälle und Dokument Testfallergebnisse.</li><li>Fehler beim auftreten und sie an der Test Lead für die Priorisierung und Auflösung eskalieren des Dokuments.</li><li>Testen Sie Regressionen um Fehler zu schließen, nachdem defekt Lösung bestätigt wurde.</li></ul>                                                                | TBD                                                  |
+| Testing Executive Sponsor (s)  | <ul><li>Sicherstellen, dass die Teamfunktionen die geschäftlichen Anforderungen erfüllen die Executive-Sponsoren sind an wichtigen geschäftlichen Ergebnissen und priorisierter Anwendungsfall Szenarien fließend.</li><li>Als ultimative Autorität fungieren und die Verantwortung für die Test Ziele von Teams übernehmen.</li><li>Helfen Sie bei der Lösung von Problemen, die vom Testleiter eskaliert werden.</li><li>Sponsern Sie die Kommunikation innerhalb des Unternehmens, um Ziele zu testen.</li><li>Für wichtige strategische Entscheidungen verantwortlich sein.</li><li>Sie müssen dafür sorgen, dass die verfügbaren Ressourcen und das Budget für die Unterstützung von Testaktivitäten zur Verfügung stehen.</li><li>Sensibilisierung und Buy-in für die Testkampagne mit anderen wichtigen Stakeholdern</li><li>Während der Test Evaluierungsphase als Testsponsor fungieren.</li></ul>                                                 | TBD                                                  |
+| Mitglieder des Lenkungsausschusses    | <ul><li>Halten Sie Interesse an und geben Sie Anleitungen für die Gesamtrichtung des Telefonsystems bei der Bereitstellung von Anrufplänen.<li>Unterstützen Sie bei der Evangelisierung strategischer Einblicke, indem Sie das Buy-in in der gesamten Organisation steuern.</li></ul>                                                                        | TBD                                                  |
+| Projektleiter                  |<ul><li> Verwalten und leiten des Projektteams</li><li>Koordinieren von Partnern und Arbeitsteams, die am Projekt beteiligt sind</li><li>Sie müssen für die Erstellung und Verwaltung von Projektplänen verantwortlich sein, um quartalsweise Ergebnisse zu erreichen.</li><li>Lösen Sie funktionsübergreifende Probleme.</li><li>Bereitstellen von regelmäßigen Updates für Projektsponsoren</li><li>Integrieren Sie die in Testergebnissen identifizierten Kenntnisse der Benutzererfahrung in den allgemeinen Plan zur Benutzereinführung.</li><li>Führen Sie monatliche Geschäfts-und operative Bewertungen durch, und tragen Sie zu Quartals Überprüfungen bei.</li></ul>                                                                                                                                                         | TBD                                                  |
+| Leiter/Architekt für Zusammenarbeit  | <ul><li>Verantwortlich für die Ausführung der von Unternehmensleitern definierten Zusammenarbeitsstrategie.</li><li>Analysieren und Auswählen von Zusammenarbeits Produkten für das Unternehmen, das Unternehmensziele erfüllt.</li><li>Für den Entwurf der Vorgänge für Collaboration-Produkte verantwortlich sein.</li><li>Definieren Sie die Betriebs-und Support Modelle.</li><li>Beiträge zu monatlichen und Quartals Überprüfungen für Unternehmen.</li></ul>                                                                                                 | TBD                                                  |
+| Projektmanager               | <ul><li>Entwickeln und Verwalten des Projektplans</li><li>Verwalten Sie Projektergebnisse entsprechend dem Projektplan und dem Budget.</li><li>Aufzeichnen und Verwalten von Projektproblemen, einschließlich Eskalationen</li><li>Führen Sie wöchentliche aufstehende Anrufe durch.</li><li>Sie können mit den Project Executive-Sponsoren Kontakt aufnehmen und Updates für Sie bereitstellen.</li><li>Arbeiten Sie mit internen Change Management-und Kommunikationsteams zusammen, um den Änderungs Verwaltungsansatz und die Kommunikationspläne nach Bedarf zu aktualisieren.</li></ul>                                                                                                                                                   | TBD                                                  |
+| Netzwerkleiter                  | <ul><li>Bereitstellen von Eingaben für das Netzwerk Design während der Erkennungsphase</li><li>Teilnehmen an der Planung in Workshops zur Envisions Phase.</li><li>Koordinieren der Arbeit des Netzwerkteams während der Projektausführung</li></ul>                                                                                                                               | TBD                                                  |
+| Leiter der Sicherheit                 | <ul><li>Bereitstellen von Eingaben in Sicherheitsdesign und-Prozesse während der Erkennungsphase</li><li>Teilnehmen an der Planung in Workshops zur Envisions Phase.</li><li>Koordinieren der Arbeit des Sicherheitsteams während der Projektausführung</li></ul>                                                                                                                | TBD                                                  |
+| Telefonieleiter                | <ul><li>Bereitstellen von Eingaben für das Telefonie-Design während der Erkennungsphase.</li><li>Teilnehmen an der Planung in Workshops zur Envisions Phase.</li><li>Koordinieren der Arbeit des Telefonie-Teams während der Projektdurchführung</li></ul>                                                                                                                           | TBD                                                  |
+| Desktopleiter                  | <ul><li>Bereitstellen von Eingaben für Clients und des Aktualisierungsprozesses während der Erkennungsphase</li><li>Teilnehmen an der Planung in Workshops zur Envisions Phase.</li><li>Koordinieren der Arbeit des Desktop Teams während der Projektausführung</li></ul>                                                                                                              | TBD                                                  |
+| Vertreter der Betriebseinheiten | <ul><li>Tragen Sie zu benutzerbasierten Einführungsleitfäden und Materialien bei.</li><li>Tragen Sie dazu bei, und überprüfen Sie Geschäfts Anwendungsfälle.</li></ul>                                                                                                                                   | TBD                                                  |
+| IT-Administratoren                     | <ul><li>Unterstützen Sie die Testplanung und-Ausführung (diese Rolle richtet sich an IT-Experten).                                                                                                                       | TBD                                                  |
+| Leiter des Kundendiensts                 | <ul><li>Seien Sie für den Betrieb des Telefonsystems mit Anrufplan-Service verantwortlich.</li><li>Als Besitzer des Telefonsystems mit Anruf Plan Service fungieren.</li></ul>                                                                                                               | TBD                                                  |
+| Test Leiter/-Manager             | <ul><li>Definieren Sie den Testplan, einschließlich Aktivitäten, Abhängigkeiten, Umgebung, Ziele, Strategie, Resourcing (Umwelt und menschlich) sowie die Zeitachse, die für die Unterstützung der Testphase erforderlich ist.</li><li>Koordinieren der Zustellung und Bereitschaft für Test Plan Abhängigkeiten</li><li>Richten Sie die richtige Priorität für die Fehlerauflösung aus.</li><li>Dient als Eskalationspfad für alle auftretenden Test Probleme.</li><li>Kommunizieren und melden des Test Plan Status mit internen Teams und benannten Stakeholdern</li><li>Dokumentieren und präsentieren der endgültigen Testergebnisse</li></ul> | TBD                                                  |
+| Telefon System mit Anruf Plan Tester     | <ul><li>Überprüfen Sie den Testplan, um die Testanforderungen, Ziele, Zeitachse, Problembehebung und Testfälle zu verstehen, die ausgeführt werden sollen.</li><li>Überprüfen und entwickeln Sie Test Cases, die das Telefon System mit Akzeptanz-und Funktionsanforderungen für Anrufpläne unterstützen.</li><li>Führen Sie Testfälle aus, und dokumentieren Sie Testergebnisse.</li><li>Dokumentieren Sie Fehler, während diese auftreten, und Eskalieren Sie Sie zur Priorisierung und Lösung an den Test Leiter.</li><li>Testen Sie Regressionen, um Fehler zu schließen, nachdem die Fehlerauflösung bestätigt wurde.</li></ul>                                                                | TBD                                                  |
+| Netzwerk Tester                | <ul><li>Überprüfen Sie den Testplan, um die Testanforderungen, Ziele, Zeitachse, Problembehebung und Testfälle zu verstehen, die ausgeführt werden sollen.</li><li>Überprüfen Sie Testfälle, die die Akzeptanz von Netzwerk Bereitschaft und die Leistungsanforderungen unterstützen.</li><li>Führen Sie Tests im Zusammenhang mit der Netzwerk Bereitschaft durch, einschließlich Netzwerkkonnektivität und Leistungsüberprüfung, QoS-Validierung und Überprüfung des Split-Tunnel-Konfiguration.</li><li>Vollständige Bandbreiten Überprüfung für Websites im Umfang mithilfe von Network Planner über myadvisor.</li><li>Ergebnisse der Netzwerk Bereitschafts Tests für Dokumente.</li><li>Dokumentieren Sie Fehler, während diese auftreten, und Eskalieren Sie Sie zur Priorisierung und Lösung an den Test Leiter.</li><li>Testen Sie Regressionen, um Fehler zu schließen, nachdem die Fehlerauflösung bestätigt wurde.</li></ul>                                                                | TBD                                                  |
+| Sicherheits Tester               | <ul><li>Überprüfen Sie den Testplan, um die Testanforderungen, Ziele, Zeitachse, Problembehebung und Testfälle zu verstehen, die ausgeführt werden sollen.</li><li>Überprüfen und entwickeln Sie Testfälle, die die Anforderungen an die Sicherheits Akzeptanz unterstützen.</li><li>Führen Sie Tests im Zusammenhang mit der Sicherheits Akzeptanz für Testfälle aus.</li><li>Ergebnisse der Dokumentsicherheit Akzeptanztests.</li><li>Dokumentieren Sie Fehler, während diese auftreten, und Eskalieren Sie Sie zur Priorisierung und Lösung an den Test Leiter.</li><li>Testen Sie Regressionen, um Fehler zu schließen, nachdem die Fehlerauflösung bestätigt wurde.</li></ul>                                                                | TBD                                                  |
+| Telefon Tester              | <ul><li>Überprüfen Sie den Testplan, um die Testanforderungen, Ziele, Zeitachse, Problembehebung und Testfälle zu verstehen, die ausgeführt werden sollen.</li><li>Überprüfen Sie die Test Cases, die die Akzeptanz und Funktionalität der Dienstnummern Portierung unterstützen.</li><li>Führen Sie Tests in Bezug auf die Portierung von Dienstnummern aus, einschließlich Port für Dienstnummern zu Office 365.</li><li>Führen Sie Testfälle aus, und dokumentieren Sie Testfallergebnisse.</li><li>Dokumentieren Sie Fehler, während diese auftreten, und Eskalieren Sie Sie zur Priorisierung und Lösung an den Test Leiter.</li><li>Testen Sie Regressionen, um Fehler zu schließen, nachdem die Fehlerauflösung bestätigt wurde.</li></ul>                                                                | TBD                                                  |
+| Telefon System mit Anruf Plan-Administrator Test | <ul><li>Überprüfen Sie den Testplan, um die Testanforderungen, Ziele, Zeitachse, Problembehebung und Testfälle zu verstehen, die ausgeführt werden sollen.</li><li>Überprüfen und entwickeln Sie Test Cases, die das Telefon System unterstützen und die Anforderungen für die Verwaltung der Anrufpläne erfüllen.</li> <li>Führen Sie Testfälle aus, und dokumentieren Sie Testfallergebnisse.</li><li>Dokumentieren Sie Fehler, während diese auftreten, und Eskalieren Sie Sie zur Priorisierung und Lösung an den Test Leiter.</li><li>Testen Sie Regressionen, um Fehler zu schließen, nachdem die Fehlerauflösung bestätigt wurde.</li></ul>                                                                | TBD                                                  |
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche testing Support- und Beteiligten Rollen, Sie benötigen für die Tests Telefonsystem mit Features in der Umgebung plant aufrufen.</li><li>Entscheiden Sie, welche Ressourcen, die Sie für die testen Support- und Beteiligten Rollen zuweisen müssen, den Sie angegeben haben.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Die Testen in der Tests unterstützen beteiligten Matrix erforderlichen Support- und Beteiligten Rollen des Dokuments.</li><li>Dokumentieren Sie Kontaktinformationen sowie Details zum Besprechungsort für jede Ressource, die Sie in den Tests beteiligten Matrix der unterstützten anbieten.
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche Test Support-und Stakeholder-Rollen Sie für das Testen von Telefonsystemen mit Anruf Planfunktionen in Ihrer Umgebung benötigen.</li><li>Entscheiden Sie, welche Ressourcen Sie für die von Ihnen identifizierten Test Support-und Stakeholder-Rollen zuweisen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Rollen für Test Support und Stakeholder, die für die Stakeholder-Matrix des Test Supports erforderlich sind.</li><li>Dokumentieren Sie Kontaktinformationen und Standortdetails für jede Ressource, die Sie in der Stakeholder-Matrix des Test Supports auflisten.
 </table>
 
 
-<a name="define-phone-system-with-calling-plans-feature-requirements"></a>Definieren von Telefonsystem mit Aufrufen plant Feature Anforderungen 
+<a name="define-phone-system-with-calling-plans-feature-requirements"></a>Telefon System mit Anforderungen für Anrufpläne definieren 
 ------------------------------------------------------------
 
-Als Teil des Telefonsystem mit Aufrufen plant Feature Anforderungen für Benutzer im Gültigkeitsbereich definieren finden Sie unter [Telefonsystem mit plant aufrufen](calling-plan-landing-page.md).
-Im nächsten Schritt bewerten Sie die neueste Teams öffentliche Roadmap, um zu bestimmen:
+Im Rahmen des Definierens von Telefonsystemen mit Anruf Plan-Funktionsanforderungen für Benutzer im Umfang finden Sie unter [Telefonsystem mit Anrufplänen](calling-plan-landing-page.md).
+Bewerten Sie als nächstes die aktuelle Roadmap für öffentliche Teams, um Folgendes zu ermitteln:
 
--   Welche Telefonsystem mit Aufrufen plant Features, die Sie für Benutzer im Gültigkeitsbereich bereitstellen können.
+-   Das Telefon System mit den Funktionen für Anrufpläne, die Sie für Benutzer im Bereich bereitstellen.
 
--   Erwartete Benutzer Telefonsystem mit Aufrufen plant Funktionalität Anforderungen für den angegebenen Ihrer aktuellen Skype für Business, Exchange und SharePoint-Bereitstellung im Querformat.
+-   Erwartetes Nutzer-Telefon System mit Funktionsanforderungen für Anrufpläne, vorausgesetzt, Ihre aktuelle Skype for Business-, Exchange-und SharePoint-Bereitstellungs Landschaft.
 
--   Erfüllen Sie Ihre Benutzer, Funktionen und bereichsanforderungen in die Zeitachse Ihrer Bereitstellung, ob Sie bestätigen können, dass die neuesten öffentlichen Roadmap Telefonsystem mit Aufrufen plant Features beschrieben
-
-> [!TIP]
-> Die neueste Teams-Roadmap für die Identifizierung von Telefonsystem mit Aufrufen plant Features im Bereich für die Bereitstellung Sie unter finden <https://aka.ms/O365Roadmap>.
-
-Nun, da das Telefonsystem mit Persona plant aufrufen und Features definiert wurden, werden die nächsten Kriterien für die Auswertung der Interoperabilität Erfahrung mit Teams. Weitere Informationen über die Interoperabilität-Erfahrung zusammen mit verfügbaren Konfigurationsoptionen finden Sie unter [Microsoft-Teams und Skype für die Business-Interoperabilität](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability).
-
-#### <a name="phone-system-with-calling-plans-feature-definition"></a>Telefonsystem mit Featuredefinition plant aufrufen
+-   Ob Sie bestätigen können, dass das Telefon System mit den in der neuesten öffentlichen Roadmap beschriebenen Funktionen für Anrufpläne Ihre Benutzer-, Funktionalitäts-und Bereichsanforderungen in der Zeitachse Ihrer Bereitstellung erfüllt
 
 > [!TIP]
-> Es folgt ein Beispiel für eine Telefonsystem aufrufen plant Definition Vorlage, die Sie verwenden können, um dokumentieren das Telefonsystem mit Aufrufen plant Verwaltungs- und Benutzer Gruppenfunktionen ausgewertet werden soll.
+> Die aktuelle Roadmap für Teams zur Identifizierung von Telefonsystemen mit Anruf Planfunktionen im Bereich für Ihre Bereitstellung finden <https://aka.ms/O365Roadmap>Sie unter.
+
+Nachdem nun das Telefon System mit den Funktionen "Anrufpläne" und "Features" definiert wurde, werden die Interoperabilitäts Erfahrungen mit Teams als nächstes bewertet. Weitere Informationen zur Interoperabilitäts Erfahrung sowie zu den verfügbaren Konfigurationsoptionen finden Sie unter [Interoperabilität von Microsoft Teams und Skype for Business](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability).
+
+#### <a name="phone-system-with-calling-plans-feature-definition"></a>Telefon System mit Funktionsdefinition für Anrufpläne
+
+> [!TIP]
+> Nachfolgend finden Sie ein Beispiel für eine Telefonanlage mit einer Definitions Vorlage für Anrufpläne, die Sie verwenden können, um das Telefonsystem mit Anruf Planverwaltung und benutzergruppenfeatures zu dokumentieren, die ausgewertet werden sollen.
 
 
-| Höchste Ansprüche   | Besprechungen    | Plattformen und Geräte   | Für IT-Experten  | Zusätzliche Unternehmensgruppe, standortspezifische  | Anforderungen erfüllt neueste Teams-roadmap |
+| Unternehmensklasse   | Kollaborative Besprechungen    | Plattform und Geräte   | IT-Experten  | Zusätzliche Unternehmensgruppe, Website spezifisch  | Anforderungen der neuesten Teams-Roadmap |
 |-------------------------------------------|----------------------------|------------------|------------------------|-------------------|-------------------|
-| <ul><li>Telefonsystem Anruffunktionen:<ul><li>Blind Übertragung</li><li>Blockieren von Anrufen</li><li>Die Anrufweiterleitung</li><li>Anrufer-ID Maskierung</li><li>E911-Unterstützung</li><li>Erweiterung Wählvorgang</li><li>Anruf halten</li><li>Mit mehreren Anrufbehandlung</li><li>Gleichzeitiges Klingeln</li><li>Azure-Voicemail</li></ul></li><li>Unterstützung von Aufrufen von Plänen</li></ul> |<ul><li>Skype für Business-an-Aufruf von Teams</li></ul> |<ul><li> Windows, Mac Teams Client Besprechungen bieten Unterstützung</li><li>Browser Teams Besprechungen Clientfunktion Unterstützung für:<ul><li>Chrome</li><li>Microsoft Edge</li></ul></li><li>iOS und Android Teams Clientfunktion Besprechungen unterstützen</li><li>TTY-support</li></ul> | <ul><li>Rufen Sie diagnoseportal Qualität</li><li>Mandanten-Wählplan</li><li>Mandanten Anrufer-ID-Richtlinien</li><li>Aktivieren der Anrufqualität Analytics (CQD)</li></ul> | <ul><li>Überprüfen von Teams meeting-Features basierend auf unternehmenseigenen Laptop-Bild</li><li>Unterstützung für bestimmte Sprachen</li><li>GPO-Einstellungen für einen bestimmten Benutzerszenario oder bestimmte Website angewendet</li></ul> | Ja  |
+| <ul><li>Telefon System-Anruffunktionen:<ul><li>Blind Übertragung</li><li>Anruf Blockierung</li><li>Anrufweiterleitung</li><li>Rufnummernanzeige-Maskierung</li><li>E911-Support</li><li>Durchwahl Wahl</li><li>Anruf halten</li><li>Multi-Call-Behandlung</li><li>Simultaner Ring</li><li>Azure Voicemail</li></ul></li><li>Unterstützung des Anruf Plans</li></ul> |<ul><li>Anrufe zwischen Skype for Business-to-Teams</li></ul> |<ul><li> Unterstützung für Windows-, Mac Teams-Client Besprechungen</li><li>Browser Teams-Client Besprechungen unterstützen die folgenden Funktionen:<ul><li>Chrome</li><li>Microsoft Edge</li></ul></li><li>Support für IOS-und Android-Teams-Client Besprechungen</li><li>TTY-Unterstützung</li></ul> | <ul><li>Diagnose Portal für Anrufqualität</li><li>Mandanten Wähl Plan</li><li>Richtlinien für Mandanten Anrufer-ID</li><li>Aktivieren der Anruf Qualitätsanalyse (CQD)</li></ul> | <ul><li>Überprüfen von Teams-besprechungsfeatures basierend auf einem Firmen-Laptop Bild</li><li>Spezifische Sprachunterstützung</li><li>Für ein bestimmtes Benutzerszenario oder eine bestimmte Website angewendete GPO-Einstellungen</li></ul> | Ja  |
 
 
 
 
-#### <a name="phone-system-with-calling-plans-user-functionality-definition"></a>Telefonsystem mit Aufrufen plant Benutzer Funktionalität definition
+#### <a name="phone-system-with-calling-plans-user-functionality-definition"></a>Telefon System mit Anrufplänen Benutzer Funktionalitäts Definition
 
 > [!TIP]
-> Im folgenden ein Beispiel für eine Vorlage für Funktionen, die Sie verwenden können, um die Benutzeroberfläche erforderlich zu dokumentieren basieren auf das Telefonsystem mit den Funktionen aufrufen plant ausgewertet werden soll.
+> Nachfolgend finden Sie ein Beispiel für eine Benutzer Funktionsvorlage, die Sie verwenden können, um die Benutzeroberfläche zu dokumentieren, die basierend auf dem Telefon System erforderlich ist, damit die zu prüfenden Funktionen für Anrufpläne ausgewertet werden.
 
 
-| Exchange-Erfahrung                          | SharePoint-Umgebung                            | Teams Interoperabilität Richtlinie Erfahrung |
+| Exchange-Benutzeroberfläche                          | SharePoint-Benutzeroberfläche                            | Teams-Interoperabilitätsrichtlinien Erfahrung |
 |----------------------------------------------|--------------------------------------------------|------------------------------------------|
-| <ul><li>Erstellen von Teams (Office-Gruppe Erstellung aktiviert)</li><li>An Teams teilnehmen</li><li>Kanäle erstellen</li><li>Besprechungen erstellen und anzeigen</li><li>Benutzerprofilbild bearbeiten</li><li>Connectors hinzufügen und konfigurieren</li><li>Registerkarten hinzufügen und konfigurieren</li><li>Bots hinzufügen und konfigurieren</li></ul> | <ul><li>Speichern und Freigeben von Dateien in Teams Unterhaltungen</li><li>Speichern und freigeben und Dateien in privaten Chats (basierend auf OneDrive)</li></ul> | <ul><li>ChatDefaultClient: Default</li><li>CallingDefaultClient: Default</li></ul>      |
+| <ul><li>Erstellen von Teams (aktivierte Office-Gruppenerstellung)</li><li>An Teams teilnehmen</li><li>Kanäle erstellen</li><li>Besprechungen erstellen und anzeigen</li><li>Benutzerprofilbild bearbeiten</li><li>Connectors hinzufügen und konfigurieren</li><li>Registerkarten hinzufügen und konfigurieren</li><li>Bots hinzufügen und konfigurieren</li></ul> | <ul><li>Speichern und Freigeben von Dateien in Teams-Unterhaltungen</li><li>Speichern und Freigeben von Dateien in privaten Chats (basierend auf OneDrive)</li></ul> | <ul><li>ChatDefaultClient: Standard</li><li>CallingDefaultClient: Standard</li></ul>      |
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li> Entscheiden Sie, welche Telefonsystem mit Aufrufen plant Kategorie Features, die Sie in Ihrer Umgebung bereitstellen können.</li><li>Identifizieren Sie Ihre Benutzer Telefonsystem mit Aufrufen plant Funktionalität Anforderungen angegebenen Ihrer aktuellen Skype für Business, Exchange und SharePoint-Bereitstellung im Querformat.</li><li>Entscheiden Sie, welche Teams Interoperabilität wünschen Sie bereitstellen müssen.</li><li>Überprüfen Sie die neuesten öffentliche Roadmap für Teams und entscheiden Sie, ob der aktuelle arbeitsauslastungsfunktionen Ihrer Bereitstellung Zeitachse erfüllen.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokument das Telefonsystem mit Aufrufen plant Kategorie Features zur Unterstützung von Ihr Telefonsystem mit Aufrufen plant Bereitstellung erforderlich.</li><li>Dokumentieren Sie Benutzer Telefonsystem mit Funktionen aufrufen plant und Interoperabilität-Anforderungen erhält Ihre aktuellen Skype für Business, Exchange und SharePoint-Bereitstellung im Querformat.</li><li>Dokumentieren Sie, ob die neueste öffentliche Roadmap von Teams, Telefonsystem Funktionen aufrufen plant darstellt, die geschäftlichen Anforderungen und Timing-Anforderungen Ihrer Bereitstellung erfüllt.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li> Entscheiden Sie, welches Telefon System mit den Kategorien Funktionen für Anrufpläne in Ihrer Umgebung bereitgestellt werden soll.</li><li>Ermitteln Sie Ihr Benutzer Telefon System mit den Funktionsanforderungen für Anrufpläne, wenn Sie Ihre aktuelle Skype for Business-, Exchange-und SharePoint-Bereitstellungs Landschaft verwenden.</li><li>Entscheiden Sie, welche Teams Interoperabilitäts Erfahrung bereitgestellt werden soll.</li><li>Überprüfen Sie die aktuelle Roadmap für öffentliche Teams, und entscheiden Sie, ob die aktuellen Arbeits Auslastungs Funktionen Ihrer Bereitstellungs Zeitachse entsprechen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie das Telefonsystem mit den Kategorien Funktionen für Anrufpläne, die zur Unterstützung Ihres Telefonsystems mit der Bereitstellung von Anrufplänen erforderlich sind.</li><li>Dokumenten-Nutzer Telefon System mit Anruf Planfunktionen und Interoperabilitätsanforderungen in Bezug auf Ihre aktuelle Skype for Business-, Exchange-und SharePoint-Bereitstellungs Landschaft.</li><li>Dokumentieren Sie, ob die aktuelle Public-Roadmap für Teams, die das Telefon System mit Anruf Planfunktionen darstellt, die geschäftlichen Anforderungen und die Zeitvorgaben Ihrer Bereitstellung erfüllt.</li></ul></td></tr>
 </table>
 
-<a name="define-and-document-your-phone-system-with-calling-plans-test-plan"></a>Definieren Sie und Dokumentieren Sie Ihr Telefonsystem Testplan plant aufrufen
+<a name="define-and-document-your-phone-system-with-calling-plans-test-plan"></a>Definieren und dokumentieren Ihres Telefonsystems mit dem Testplan für Anrufpläne
 ------------------------------------------------------------------
 
-Nachdem Sie das Telefonsystem mit Aufrufen plant Features im Bereich definiert haben, besteht der nächste Schritt den Testplan erstellen. Auf allgemeiner Ebene umfasst der Plan zum Testen der allgemeine Teststrategie und Methoden, mit denen Sie die Überprüfung von Feature in der Testprozesse unterstützt werden.
+Nachdem Sie das Telefon System mit den Funktionen für Anrufpläne im Bereich definiert haben, besteht der nächste Schritt darin, den Testplan zu erstellen. Der Testplan umfasst auf hoher Ebene die Gesamttest Strategie und-Methodik, mit der die Funktionsüberprüfung im Testprozess unterstützt wird.
 
-Auf allgemeiner Ebene sollte der Testplan umfassen:
+Auf hoher Ebene sollte der Testplan Folgendes umfassen:
 
--   **Bereich testen:** Enthält eine Zusammenfassung der Schwerpunkte (Ziele, Szenarien und Ziele) ausgewertet werden soll, im Rahmen der Testphase
+-   **Testbereich:** Fasst die Schwerpunkte (Ziele, Szenarien und Zielsetzungen) zusammen, die als Teil der Testphase ausgewertet werden sollen.
 
--   **Testfälle:** Der Satz von Testfällen für Telefonsystem mit Aufrufen plant-im Bereich Features überprüft werden soll
+-   **Test Cases:** Die Gruppe von Testfälle, die für das Telefon System überprüft werden sollen, mit Features für Anrufpläne im Bereich
 
--   **Testressourcen:** Eine Matrix von Ressourcen zur Unterstützung von Tests aus einer Sicht Umwelt, technische und Personal erforderlich
+-   **Testressourcen:** Eine Matrix der Ressourcen, die zur Unterstützung des Testversuchs aus einer umwelttechnischen, technischen und personellen Sicht erforderlich sind
 
--   **– Handbuch zu Tests Zeitplan (Zeitskala):** Darstellt, wenn der Test beginnt, wenn Sie für das Ende die Testphase erwarten und wie lange es wahrscheinlich letzten ist
+-   **Testzeitplan (Zeitachse):** Stellt dar, wann die Tests beginnen, wie lange Sie wahrscheinlich dauern wird, und wann die Testphase beendet werden soll.
 
--   **Verfolgung, berichterstellung und Korrektur:** Richtlinien für wie Probleme mit testen gemeldet werden sollen, nachverfolgt und selektiert
+-   **Fehlerberichterstattung und-Behebung:** Richtlinien für das melden, nachverfolgen und untersuchen von Problemen mit Tests
 
--   **Verfolgung Ursachenanalyse und Ausweitung:** Gliederung für einen Fehler Ausweitung wie und wann gestartet werden sollen
+-   **Fehler Triage und-Eskalation:** Übersicht darüber, wie und wann eine Fehler Eskalation initiiert werden soll
 
--   **Beenden und Aussetzung Kriterien testen:** Gliederung Kriterien zur Einhaltung der entweder Abnahme zum Beenden der Testphase oder Anhalten des Tests bis mit Prioritätsstufe defekte aufgelöst werden
+-   **Testen von Exit-und Suspensions Kriterien:** Leitfaden zur Gliederung von Kriterien für die Erreichung einer Abmeldung, um die Testphase zu beenden oder das Testen zu unterbrechen, bis priorisierte Fehler behoben wurden
 
--   **Testen Lieferumfang:** Zusammenfassung der Ergebnisse entwickelt und zur Unterstützung der Abnahme Annahme und Beenden der Tests übermittelt werden
-
-> [!TIP]
->   Eine-Tests ist möglicherweise bereits in Ihrer Organisation vorhanden, aber die folgenden Anleitung widerspiegelt bewährte Methoden, die eingebunden oder separat für Teams Testfeatures in Ihrer Umgebung genutzt werden können.
-
-In die Abschnitten, die Sie folgen finden weitere vorgeschriebenen Anleitungen, die in bestimmten Entscheidungen und Vorlagen und Themen wie Ihre testing Planung berücksichtigen unterstützen.
-
-### <a name="define-and-document-testing-scope"></a>Definieren Sie und Dokumentieren Sie Testumfang
-
-Während der Arbeit um Testplan zu entwickeln, müssen Sie definieren Testumfang voraus, Hervorheben der Arbeitslast und die Liste der Features, die Sie eine Auswertung erstellen möchten.
-
-Der Bereich für die Auswertung ordnungsgemäß Telefonsystem in der Regel mit Aufrufen plant Features umfasst:
-
--   Telefonsystem mit Aufrufen plant Website Bereitschaft
-
--   Telefonsystem mit Aufrufen plant Benutzererlebnis
-
--   Telefonsystem mit Aufrufen plant administration
-
-#### <a name="phone-system-with-calling-plans-testing-scope"></a>Telefonsystem mit Aufrufen plant Bereich testen
+-   **Test Ergebnisse:** Zusammenfassung der Ergebnisse, die entwickelt und bereitgestellt werden, um die Abmelde Akzeptanz zu unterstützen und den Testvorgang zu beenden
 
 > [!TIP]
->   Es folgt ein Beispiel Test Bereich Vorlage, die Sie verwenden können, um dokumentieren das Telefonsystem mit Aufrufen plant Verwaltungs- und Benutzer Gruppenfunktionen ausgewertet werden soll.
+>   Möglicherweise ist in Ihrer Organisation bereits eine Testmethodik vorhanden, doch in der folgenden Anleitung sind bewährte Methoden aufgeführt, die für das Testen von Teams-Features in Ihrer Umgebung separat integriert oder separat genutzt werden können.
 
-| Telefonsystem mit Aufrufen plant Website Bereitschaft                                                                                                                                                                                    | Telefonsystem mit Aufrufen plant Benutzererlebnis                                                                                                                                                                                         | Telefonsystem mit Erfahrung in der Verwaltung plant aufrufen                                                                           |
+In den folgenden Abschnitten finden Sie weitere vorgeschriebene Anleitungen, die Ihnen bei bestimmten Entscheidungen helfen, sowie Vorlagen und Themen, die Sie bei der Fertigstellung Ihres Test Plans beachten sollten.
+
+### <a name="define-and-document-testing-scope"></a>Definieren und Dokumentieren des Testbereichs
+
+Während Sie an der Entwicklung Ihres Testplans arbeiten, müssen Sie den Testbereich im Vordergrund definieren, um die Arbeitsauslastung und die Liste der Features hervorzuheben, die Sie auswerten.
+
+Der Bereich für die ordnungsgemäße Auswertung des Telefonsystems mit Funktionen für Anrufpläne umfasst in der Regel:
+
+-   Telefon System mit Website Bereitschaft für Anrufpläne
+
+-   Telefon System mit Anrufplänen Benutzererfahrung
+
+-   Telefon System mit Anruf Planverwaltung
+
+#### <a name="phone-system-with-calling-plans-testing-scope"></a>Telefon System mit Testbereich für Anrufpläne
+
+> [!TIP]
+>   Nachfolgend finden Sie ein Beispiel für eine Testbereichs Vorlage, die Sie verwenden können, um das Telefon System mit Anruf Plan Verwaltungen und benutzergruppenfeatures zu dokumentieren, die ausgewertet werden sollen.
+
+| Telefon System mit Website Bereitschaft für Anrufpläne                                                                                                                                                                                    | Telefon System mit Anrufplänen Benutzererfahrung                                                                                                                                                                                         | Telefon System mit Verwaltungserfahrung bei Anrufplänen                                                                           |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| <ul><li>Der Netzwerkbandbreite Planner planning (über MyAdvisor)<li></li>Netzwerk-Konnektivität und die Leistung Validierung (über die Skype für Tool zur Bewertung der Business-Netzwerk)<li></li>Die Qualität der Überprüfung Service (QoS)<li></li>Remotezugriff Split-Tunnel Validierung</li></ul>|<ul><li>PBX-features<li></li>Telefonnetz (nationalen und internationalen)<li></li> Tätigen und Empfangen von PSTN-Anrufe<li></li>Azure-Voicemail<li></li>E911<li></li>Mandanten-Wählplan<li></li>Mandanten Anrufer-ID-Maskierung <li></li>Erweiterte remoteanrufsteuerungsfunktionen (beispielsweise die anrufweiterleitung, Gleichzeitiges Klingeln)</li></ul> |<ul><li>Lizenzierung der Zuordnung</li><li>Teilnehmernummer Portieren zu Office 365</li><li>Telefonsystem mit reporting plant aufrufen</li><li>Die Anrufqualität reporting (CQD)</li></ul> |
+| <ul><li>Netzwerk Planner-Bandbreitenplanung (über myadvisor)<li></li>Netzwerkkonnektivität und Leistungsüberprüfung (über das Skype for Business-Netzwerk Bewertungstool)<li></li>QoS-Validierung (Quality of Service)<li></li>Remote Zugriff-Split-Tunnel-Validierung</li></ul>|<ul><li>PBX-Funktionen<li></li>PSTN-Anrufe (Inlands-und Auslandsgespräche)<li></li> Platzieren und empfangen von PSTN-anrufen<li></li>Azure Voicemail<li></li>E911<li></li>Mandanten Wähl Plan<li></li>Mandanten-ID-Maskierung <li></li>Erweiterte Funktionen zur Anrufsteuerung (beispielsweise Anrufweiterleitung, gleichzeitiges Klingeln)</li></ul> |<ul><li>Lizenzierungs Aufgabe</li><li>Portierung von Abonnenten Nummern auf Office 365</li><li>Telefon System mit Berichterstattung über Anrufpläne</li><li>Bericht zur Anrufqualität (CQD)</li></ul> |
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie das Telefonsystem mit Aufrufen plant testen Bereich durch das Identifizieren von Features durch den Fokusbereich ausgewertet werden soll.</li><li>Entscheiden Sie zusätzliche Ziele und Zielsetzungen für die Auswertung.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie das Telefonsystem mit Aufrufen plant Features nach den Fokusbereich ausgewertet werden soll.</li><li>Zusätzliche Ziele und Zielsetzungen für die Auswertung des Dokuments.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie sich für das Telefon System mit dem Testbereich für Anrufpläne, indem Sie die Features identifizieren, die vom Fokusbereich ausgewertet werden sollen.</li><li>Entscheiden Sie sich für weitere Ziele und Zielsetzungen für die Bewertung.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie das Telefon System mit den Funktionen für Anrufpläne, die nach Fokusbereich ausgewertet werden sollen.</li><li>Dokumentieren Sie weitere Ziele und Ziele für die Bewertung.</li></ul></td></tr>
 </table>
 
-### <a name="define-and-document-phone-system-with-calling-plans-test-cases"></a>Definieren Sie und Dokumentieren Sie Telefonsystem plant Aufrufen von Testfällen
+### <a name="define-and-document-phone-system-with-calling-plans-test-cases"></a>Definieren und Dokumentieren von Telefonsystemen mit Testfällen für Anrufpläne
 
-Nachdem Sie das Telefonsystem mit Funktionen aufrufen plant, Clientbereitstellung und Side-by-Side-Szenarien mit Skype für Unternehmen (falls zutreffend) definiert haben, besteht der nächste Schritt erforderlich für die Auswertung Telefonsystem plant Aufrufen von Features in Testfälle zu formulieren Umfang. Auf allgemeiner Ebene Testfälle in der Regel werden nach den Fokusbereich gruppiert und umfassen:
+Nachdem Sie das Telefonsystem mit Funktionen für Anrufpläne, Clientbereitstellung und parallele Szenarien mit Skype for Business (falls zutreffend) definiert haben, besteht der nächste Schritt darin, die Testfälle zu formulieren, die erforderlich sind, um das Telefonsystem mit Anruf Planfunktionen in zu bewerten. Bereich. Auf einer hohen Ebene sind Testfälle in der Regel nach Fokusbereich gruppiert und umfassen:
 
--   **Testfall Titel:** Auswerten von Fokusbereich des Features für den Test mit den (beispielsweise Telefonsystem mit plant aufrufen)
+-   **Test Case-Titel:** Fokusbereich der Funktion, die vom Test ausgewertet wird (beispielsweise Telefon System mit Anrufplänen)
 
--   **Testfall Beschreibung:** Zusammenfassung der Ziele des Tests Gliederung features ausgewertet wird
+-   **Test Fallbeschreibung:** Zusammenfassung der Ziele der Testfeatures, die ausgewertet werden
 
--   **Testfall Anweisungen:** Schritte für den Testfall ausgeführten richtig ausgeführt
+-   **Test Case-Anweisungen:** Schritte zum ordnungsgemäßen Ausführen des Testfalls, der ausgeführt wird
 
--   **Umgebung erforderlich (Voraussetzungen):** Setupanweisungen erforderlich, um die ordnungsgemäße Ausführung des Tests
+-   **Umgebung erforderlich (Voraussetzungen):** Setup Anweisungen, die für eine ordnungsgemäße Ausführung des Tests erforderlich sind
 
--   **Ressource erforderlich:** Personelle Ressourcen für die ordnungsgemäße Auswertung und Ausführung des Tests erforderlichen
+-   **Benötigte Ressource:** Für die ordnungsgemäße Bewertung und Durchführung des Tests erforderliche Personalressourcen
 
 -   **Erwartete Ergebnisse:** Das Ergebnis, das Sie erwarten, nachdem der Test erfolgreich abgeschlossen wurde
 
 > [!NOTE]
->   Da die Ansatz und die Detailebene für das Erstellen von Testfall erforderlichen innerhalb Ihrer Organisation unterschiedlich sein können, ist es ratsam, einen Ansatz zu befolgen, der für einen angemessenen Detailebene ermöglicht noch ausgeglichen Gründlichkeit mit Möglichkeit, der zur Unterstützung von allgemeinen testen Verwaltbarkeit.
+>   Da der Ansatz und die Detailebene, die für die Erstellung von Testfällen erforderlich sind, in Ihrer Organisation unterschiedlich sein können, empfiehlt es sich, einem Ansatz zu folgen, der ein angemessenes Maß an Details zulässt, doch die Gründlichkeit mit der Praktikabilität in Einklang zu bringen, um die Gesamtprüfung zu unterstützen. Verwaltbarkeit.
 
 > [!TIP]
->   Zur Erleichterung der Testfall Erstellung als Ausgangspunkt finden Sie in der Liste der Phone System Benutzer Anleitungen verfügbar unter [Teams Besprechungen und Telefonkonferenzen](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
+>   Wenn Sie die Erstellung von Testfällen als Ausgangspunkt unterstützen möchten, lesen Sie die Liste der Benutzerleitfaden für Telefonsysteme, die in den [Teams-Besprechungen und-anrufen](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)zur Verfügung stehen.
 
-#### <a name="phone-system-with-calling-plans-test-case"></a>Telefonsystem Testfall plant aufrufen
+#### <a name="phone-system-with-calling-plans-test-case"></a>Telefon System mit Test Case für Anrufpläne
 
 > [!TIP]
->   Im folgenden finden Sie ein Beispiel Testfall-Vorlage, die Sie verwenden können, um dokumentieren das Telefonsystem mit Aufrufen plant Verwaltungs- und Benutzer Gruppenfunktionen ausgewertet werden soll.
+>   Nachfolgend finden Sie ein Beispiel für eine Testfall-Vorlage, mit der Sie das Telefon System mit den Anrufplänen verwalten und die zu prüfenden benutzergruppenfeatures dokumentieren können.
 
-Telefonsystem mit dem Aufrufen der Pläne Validierung
+Telefon System mit Überprüfung der Anrufpläne
 
-| Testfall-ID | Testfall Titel               | Testfall Beschreibung                                                  | Umgebung für die Ausführung des Testfalls erforderlich                                               | Für die Ausführung des Testfalls erforderlichen Schritte                                                                                                                                                          | Testen der Ressource benötigt              |
+| Test Case-ID | Test Case-Titel               | Test Fallbeschreibung                                                  | Umgebung, die für die Test Fall Ausführung erforderlich ist                                               | Erforderliche Schritte für die Test Case-Ausführung                                                                                                                                                          | Erforderliche Testressource              |
 |--------------|-------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| 1            | Tätigen eines ausgehenden Anrufs PSTN | Stellen Sie sicher, dass Sie einen externen Anruf auf eine Zahl 10 Ziffern einfügen können. |<ul><li>Teams-Client installiert.</li><li>Benutzer mit den folgenden Office 365-Lizenzen zugewiesen aktiviert:<ul><li>Office Enterprise E5 mit Telefonsystem, Microsoft-Teams und nationalen und internationalen Aufruf von Plänen</li><li>Office Enterprise E3 mit Telefonsystem, Microsoft-Teams und nationalen und internationalen Aufruf von Plänen</li></ul></li></ul> | <ol><li>Melden Sie sich an den Client Teams.</li><li>Wählen Sie das Wähltastenfeld, und geben Sie eine Nummer 10 Ziffern zu wählende.</li><li>Stellen Sie sicher, dass die Zahl Einwahl ordnungsgemäß normalisiert und externe PSTN-Anruf wird eingerichtet.</li></ol>    | Telefonsystem mit dem Aufrufen der Pläne Tester |
+| 1            | Einfügen eines ausgehenden PSTN-Anrufs | Stellen Sie sicher, dass Sie einen externen Sprachanruf an eine 10-stellige Nummer durch stellen können. |<ul><li>Der Client für Teams ist installiert.</li><li>Der Benutzer ist aktiviert, wenn die folgenden Office 365-Lizenzen zugewiesen sind:<ul><li>Office Enterprise E5 mit Telefon System, Microsoft Teams und nationalen und internationalen Anrufplänen</li><li>Office Enterprise E3 mit Telefon System, Microsoft Teams und nationalen und internationalen Anrufplänen</li></ul></li></ul> | <ol><li>Anmelden beim Team-Client.</li><li>Wählen Sie die Wähltastatur aus, und geben Sie eine 10-stellige Nummer ein, die Sie wählen möchten.</li><li>Stellen Sie sicher, dass die Rufnummernanzeige ordnungsgemäß normalisiert wurde und der externe PSTN-Anruf eingerichtet ist.</li></ol>    | Telefon System mit Anruf Plan Tester |
 
 
 > [!TIP]
->   Überprüfen Sie zusätzliche Anleitung bei der Erleichterung der allgemeine Plan Erstellung für die Auswertung Telefonsystem mit Features in Ihrer Organisation plant aufrufen und einzelne Testfall [Phone System Test Plan](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) von [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/)bereitgestellt.
+>   Weitere Anleitungen zur Vereinfachung des individuellen Testfalls und zur allgemeinen Planerstellung für die Bewertung des Telefonsystems mit Funktionen für Anrufpläne in Ihrer Organisation finden Sie unter dem Testplan für [Telefonsysteme](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) , der von myadvisor bereitgestellt wird. [](https://myadvisor.fasttrack.microsoft.com/)
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden, welche Telefonsystem mit Aufrufen plant Verwaltung und Features der ausgewertet werden.</li><li>Entscheiden Sie, welche testumgebung zur Ausführung des Testfalls Unterstützung erforderlich ist.</li><li>Entscheiden Sie, die bei der Evaluierung Testfall erforderlichen Schritte.</li><li>Entscheiden Sie, die für die ordnungsgemäße Ausführung des Tests erforderlichen Ressourcen.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Testfälle ausgewertet werden soll, basierend auf der bereitgestellten Testfall-Vorlage.</li><li>Enthalten Sie die abgeschlossene Vorlage als Teil des gesamten Testplans.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welches Telefon System mit Anruf Planverwaltung und Benutzer Features ausgewertet werden soll.</li><li>Entscheiden Sie, welche Testumgebung zur Unterstützung der Test Case-Ausführung erforderlich ist.</li><li>Entscheiden Sie, welche Schritte für die Test fallauswertung erforderlich sind.</li><li>Entscheiden Sie, welche Ressourcen für die ordnungsgemäße Ausführung des Tests erforderlich sind.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Test Cases, die ausgewertet werden sollen, basierend auf der bereitgestellten Test Fall Vorlage.</li><li>Schließen Sie die fertige Vorlage als Teil des gesamten Testplans ein.</li></ul></td></tr>
 </table>
 
 
-### <a name="define-and-document-testing-resources"></a>Definieren Sie und Dokumentieren Sie Testressourcen
+### <a name="define-and-document-testing-resources"></a>Definieren und Dokumentieren von Testressourcen
 
-Zur Unterstützung der Testphase ist es wichtig, dass Sie entwickeln ein Ressourcenplans mit ausführlichen Informationen zu den Personen, Unterstützung und Technologie Ressourcen, die Sie benötigen, werden. Einen wichtigen Bestandteil der allgemeine Plan zum Testen von möglicherweise die Ressource Plan können, die Sie bestimmen, dass Abhängigkeiten, die möglicherweise vorhanden ist, und erhalten Sie einen allgemeinen Überblick der Ressource, die Sie unterstützen, müssen.
+Um die Testphase zu unterstützen, ist es wichtig, dass Sie einen Ressourcenplan entwickeln, in dem die erforderlichen Personen-, Support-und Technologieressourcen erläutert werden. Als wichtige Komponente des Gesamt Testplans hilft Ihnen der Ressourcenplan dabei, eventuell vorhandene Abhängigkeiten zu ermitteln, und vermittelt Ihnen einen allgemeinen Überblick über die Ressourcen, die Sie möglicherweise benötigen.
 
-Auf allgemeiner Ebene bestehen diese Ressourcen in der Regel aus:
+Auf einem hohen Niveau bestehen diese Ressourcen in der Regel aus:
 
--   **Personen**: beteiligten
+-   **Personen**: Stakeholder
 
--   **Technologie**: Mandanten, Lizenzierung, Geräte
+-   **Technologie**: Mandant, Lizenzierung, Geräte
 
--   **Unterstützt**: Schulung (Karten, Videos), Unterstützung der Verwaltung mit definierten Eskalationspfad
+-   **Support**: Schulung (Karten, Videos), Verwaltungsunterstützung mit definiertem Eskalationspfad
 
-#### <a name="testing-resource-requirements"></a>Testen des Ressourcenbedarfs
+#### <a name="testing-resource-requirements"></a>Testen der Ressourcenanforderungen
 
 > [!TIP]
->   Es folgt ein Beispiel testing Ressource Anforderung Vorlage, die Sie verwenden können, um die verschiedenen Arten von Ressourcen zur Unterstützung Ihrer Testphase erforderlich zu dokumentieren.
+>   Nachfolgend finden Sie ein Beispiel für das Testen von Ressourcen Anforderungsvorlagen, mit denen Sie die verschiedenen Arten von Ressourcen dokumentieren können, die zur Unterstützung Ihrer Testphase erforderlich sind.
 
 
-| Ressourcentyp | Erforderlichen Ressourcen                                           | Beschreibung der Ressource |
+| Ressourcentyp | Erforderliche Ressourcen                                           | Ressourcenbeschreibung |
 |---------------|--------------------------------------------------------------|----------------------|
-| Kontakte        | Beteiligten Test Lead Tester                               | TBD                  |
-| Technologie    | Zugriff auf Office 365 mit die folgenden Dienste aktiviert:<ul><li>Lizenzierung der Office 365-E5 zugewiesen</li><li>Aufrufen von nationalen und internationalen Plan zugewiesen</li></ul>    | TBD                  |
-| Support       | Testen der Administrator Unterstützung Testleiter Supporttechniker Test | TBD                  |
+| Kontakte        | Testleiter testen                               | TBD                  |
+| Technologie    | Zugriff auf Office 365, wobei die folgenden Dienste aktiviert sind:<ul><li>Office 365 E5-Lizenzierung zugewiesen</li><li>Zugeordneter Plan für Inlands-und Auslandsanrufe</li></ul>    | TBD                  |
+| Support       | Test Supporttechniker testen | TBD                  |
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie Ressourcentypen (Personen, Technologie und Unterstützung), die Sie zur Unterstützung der Testphase benötigen.</li><li>Entscheiden Sie, die bestimmten Ressourcen erforderlich für die Ressourcentypen, den, die Sie angegeben haben.</li><li>Entscheiden Sie, ob die Details zum Beschreiben der Arten von Ressourcen, die Sie benötigen weitere bereitgestellt werden sollen.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Ressourcentypen (Personen, Technologie und Unterstützung), die Sie zur Unterstützung der Testphase benötigen.</li><li>Dokumentieren Sie die entsprechenden Ressourcen für die Ressourcentypen, die Sie identifiziert erforderlich.</li><li>Wenn Sie sich, dass es erforderlich ist entscheiden, dokumentieren Sie alle Weitere Einzelheiten zu den Arten von Ressourcen, die Sie die Testphase unterstützen müssen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie über die Ressourcentypen (Personen, Technologie und Support), die Sie zur Unterstützung der Testphase benötigen.</li><li>Entscheiden Sie, welche Ressourcen für die angegebenen Ressourcentypen erforderlich sind.</li><li>Entscheiden Sie, ob Sie weitere Einzelheiten angeben sollten, um die Ressourcentypen zu beschreiben, die Sie benötigen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Ressourcentypen (Personen, Technologie und Support), die Sie zur Unterstützung der Testphase benötigen.</li><li>Dokumentieren Sie die spezifischen Ressourcen, die für die von Ihnen identifizierten Ressourcentypen erforderlich sind.</li><li>Wenn Sie sich entscheiden, dass dies erforderlich ist, dokumentieren Sie alle weiteren Details zu den Ressourcentypen, die Sie zur Unterstützung der Testphase benötigen.</li></ul></td></tr>
 </table>
 
 
-### <a name="define-and-document-a-testing-timeline"></a>Definieren Sie und Dokumentieren Sie eine testing Zeitachse
+### <a name="define-and-document-a-testing-timeline"></a>Definieren und dokumentieren einer Test Zeitachse
 
-Erstellen Sie im Rahmen der Test Plan Definition eine Zeitskala an, die den Zeitplan für die wann voraussichtlich auf Testaktivitäten abzuschließen und zu allgemeinen Meilensteine erzielen erläutert.
+Erstellen Sie im Rahmen der Testplan-Definition eine Zeitachse, in der der Zeitplan für die Ausführung von Testaktivitäten und das erreichen von Meilensteinen auf höherer Ebene erläutert wird.
 
-Auf allgemeiner Ebene besteht in der Regel aus:
+Auf einem hohen Niveau besteht dies in der Regel aus:
 
--   **Aufgabe:** Allgemeine Aktivität ausgeführt werden
+-   **Aufgabe:** Aktivitäten auf höherer Ebene, die ausgeführt werden sollen
 
--   **Meilenstein:** Allgemeine Ziel oder Fortschritt, der beendet wurde
+-   **Meilenstein:** Ziel auf oberster Ebene oder abgeschlossener Status
 
--   **Ressource erforderlich:** Testen von Ressourcen zur Unterstützung der Bereitstellung von den Meilenstein oder den angegebenen Vorgang erforderlich
+-   **Benötigte Ressource:** Testen der Ressourcen, die zur Unterstützung der Zustellung des Meilensteins oder der Aufgabe erforderlich sind
 
--   **Startdatum:** Das Datum, an dem die Aktivität, Meilenstein oder Aufgabe auf gestartet wurde
+-   **Anfangstermin:** Das Datum, an dem die Aktivität, der Meilenstein oder die Aufgabe initiiert wurde
 
--   **Fertigstellungstermin:** Das Datum der Aktivität, den Meilenstein oder die Aufgabe abgeschlossen wird erwartet
+-   **Fertigstellungsdatum:** Das Datum, an dem die Aktivität, der Meilenstein oder die Aufgabe ausgeführt werden soll
 
--   **Besitzer:** Zugeordneten Ressource, dafür verantwortlich ist, sicherzustellen, dass die Aktivität, den Meilenstein oder die Aufgabe, auf, die gemäß der Fertigstellungstermin abgeschlossen ist
+-   **Besitzer:** Zugeordnete Ressource, die dafür verantwortlich ist, dass die Aktivität, der Meilenstein oder die Aufgabe nach dem Fertigstellungstermin rechtzeitig abgeschlossen wird
 
--   **Schätzung:** Anzahl der Stunden, dass die zugeordneten Ressourcen es erwarteten dauert, stellen Sie sicher, dass die Aktivität, Meilenstein oder Vorgang termingerecht abgeschlossen ist
+-   **Einschätzung:** Die Anzahl der Stunden, die für die zugeordneten Ressourcen erwartet werden, um sicherzustellen, dass die Aktivität, der Meilenstein oder die Aufgabe rechtzeitig abgeschlossen wird
 
-#### <a name="testing-scheduling-and-timeline-requirements"></a>Testen der Planung und Zeitachsen-Anforderungen
+#### <a name="testing-scheduling-and-timeline-requirements"></a>Voraussetzungen für Testplanung und Zeitachse
 
 > [!TIP]
->   Es folgt ein Beispiel für eine Vorlage testing Zeitplan Anforderung, die Sie verwenden können, um die erwarteten Datumsangaben für zu dokumentieren, wenn bestimmte Testaktivitäten abgeschlossen werden oder Meilensteine durch bereitgestellt werden.
+>   Nachfolgend finden Sie ein Beispiel für eine Anforderungs Vorlage für Test Zeitachsen, mit der Sie die voraussichtlichen Daten für den Abschluss bestimmter Testaktivitäten oder von Meilensteinen dokumentieren können.
 
-| Aufgabe                                                 | Meilenstein       | Startdatum                                                             | Abschlussdatum | Besitzer | Zugeordneten Ressourcen | Schätzung |
+| Aufgabe                                                 | Meilenstein       | Anfangstermin                                                             | Fertigstellungsdatum | Besitzer | Zugewiesene Ressourcen | Schätzung |
 |------------------------------------------------------|-----------------|------------------------------------------------------------------------|-----------------|-------|--------------------|------------|
-| Testbericht                                          | TBD             | TBD                                                                    | TBD             | TBD   | TBD                | TBD Stunden  |
-| Ausführung des Testfalls: Telefonsystem mit dem Aufrufen der Pläne | TBD             | TBD                                                                    | TBD             | TBD   | TBD                | TBD Stunden  |
-| Ausführung des Testfalls: Bereitschaft des Netzwerks               | TBD             | TBD                                                                    | TBD             | TBD   | TBD                | TBD Stunden  |
+| Test Bericht                                          | TBD             | TBD                                                                    | TBD             | TBD   | TBD                | Stunden festzulegen  |
+| Test Case-Ausführung: Telefon System mit Anrufplänen | TBD             | TBD                                                                    | TBD             | TBD   | TBD                | Stunden festzulegen  |
+| Test Case-Ausführung: Netzwerk Bereitschaft               | TBD             | TBD                                                                    | TBD             | TBD   | TBD                | Stunden festzulegen  |
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie Zeitachse Aktivität und Meilenstein Aufgaben, bei denen Sie überwachen möchten.</li><li>Entscheiden Sie, welche Ressourcen Sie benötigen zuweisen.</li><li>Entscheiden Sie das Datum, an das Sie erwarten, die ausgeführt werden.</li><li>Identifizieren Sie die Übermittlung Besitzer.</li><li>Entscheiden Sie, wie lange es dauert, führen Sie die Aktivität, den Meilenstein oder die Aufgabe.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie Ihre testing Zeitachse mithilfe der Vorlage bereitgestellt und umfassen:<ul><li>Timeline-Aktivität, Meilenstein und Aufgaben, die überwacht werden müssen.</li><li>Ressourcen, die zugewiesen werden müssen.</li><li>Voraussichtliche Abschlussdatum.</li><li>Übermittlung Besitzer.</li><li>Für die Durchführung der Aktivität, den Meilenstein oder die Aufgabe erforderliche Zeit.</li></ul></li><li>Enthalten Sie die abgeschlossene Vorlage als Teil des gesamten Testplans.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche Zeitachsen Aktivitäten, Meilensteine und Aufgaben Sie nachvollziehen müssen.</li><li>Entscheiden Sie, welche Ressourcen Sie zuweisen müssen.</li><li>Entscheiden Sie, welches Datum Sie erwarten.</li><li>Identifizieren des Zustellungs Besitzers</li><li>Entscheiden Sie, wie viel Zeit für die Ausführung der Aktivität, des Meilensteins oder der Aufgabe beansprucht werden soll.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie Ihre Test Zeitachse mit der bereitgestellten Vorlage, und fügen Sie Folgendes hinzu:<ul><li>Zeitachsen Aktivität, Meilenstein und Aufgaben, die nachverfolgt werden müssen.</li><li>Ressourcen, die zugewiesen werden müssen.</li><li>Voraussichtlicher Fertigstellungstermin.</li><li>Zustellungs Besitzer.</li><li>Die Zeit, die zum Abschließen der Aktivität, des Meilensteins oder der Aufgabe erforderlich ist.</li></ul></li><li>Schließen Sie die fertige Vorlage als Teil des gesamten Testplans ein.</li></ul></td></tr>
 </table>
 
 
-### <a name="define-and-document-test-defect-report-criteria"></a>Definieren Sie und Dokumentieren Sie der Test defekt Berichtskriterien
+### <a name="define-and-document-test-defect-report-criteria"></a>Definieren und Dokumentieren von Kriterien für Testfehler Berichte
 
-Wie Testfälle in einer bestimmten Phase oder einem Stream ausgeführt werden, können Probleme auftreten, in dem das Ergebnis der ausgeführten Testfall wird nicht erwartet.
+Da Testfälle innerhalb einer bestimmten Phase oder eines Datenstroms ausgeführt werden, können Probleme auftreten, wenn das Ergebnis des ausgeführten Testfalls nicht das ist, was Sie erwartet haben.
 
-Beim Auftreten dieser Arten von Ergebnissen, sollten sie in einem Bericht und-Wartung Plan für Fehler erfasst werden, die an den angegebenen Test Lead für überprüfen, reporting und Fehler Lösung ausgeweitet.
+Wenn diese Arten von Ergebnissen auftreten, sollten Sie in einem Fehlerbericht und Behebungs Plan erfasst werden, der zur Überprüfung, Berichterstellung und Fehlerauflösung an den angegebenen Testleiter weitergeleitet wird.
 
-In der Regel enthält ein Fehler Bericht und-Wartung Plan Folgendes:
+In der Regel umfasst ein Fehlerbericht und ein Sanierungsplan Folgendes:
 
--   **Verfolgung-ID:** Die Nummer, das Problem zugewiesen ist
+-   **Fehler-ID:** Die dem Problem zugewiesene Nummer
 
--   **Betroffene Testfall-ID**: die Nummer des Testfalls die zum Zeitpunkt der Fehler identifiziert wurde auszuwertende wurde
+-   **Test Case-ID beeinträchtigt**: die Nummer, die dem Testfall zugewiesen wurde, der zum Zeitpunkt der Fehlerermittlung ausgewertet wurde.
 
--   **Verfolgung Beschreibung:** Zusammenfassung des Problems
+-   **Fehlerbeschreibung:** Zusammenfassung des Problems
 
--   **Umgebung/Schritte zum Reproduzieren:** Zusammenfassung der testing Umgebungssetup zusammen mit dem genauen Schritte erforderlich, um das Problem zu reproduzieren
+-   **Zu reproduzierende Umgebung/Schritte:** Zusammenfassung des Setups der Testumgebung zusammen mit den genauen Schritten, die erforderlich sind, um das Problem zu reproduzieren
 
--   **Fehler Schweregrad**: die Auswirkung des Problems, angefangen verhindert, dass der Testfall seiner Annahme mit minimalem Risiko genehmigt werden. Einige Beispiele möglicherweise:
+-   **Fehlerschweregrad**: die Auswirkungen des Problems, von der Annahme, dass der Test Case nicht genehmigt wird, mit minimalem Risiko akzeptiert zu werden. Einige Beispiele können Folgendes enthalten:
 
--   **Niedrig:** Das Problem wirkt sich nur geringfügig und wird nicht verhindern, dass der Testfall Annahme erreichen, wenn das Problem später aufgelöst werden kann.
+-   **Gering:** Das Problem hat kaum Auswirkungen und verhindert nicht, dass der Testfall akzeptiert wird, wenn das Problem später behoben werden kann.
 
--   **Mittel:** Das Problem erhebliche Auswirkungen hat, aber Sie werden nicht verhindern, dass der Testfall Annahme erreichen, wenn das Problem behoben werden, bevor die Testphase abgeschlossen ist.
+-   **Mittel:** Das Problem hat erhebliche Auswirkungen, wird jedoch nicht verhindern, dass der Testfall akzeptiert wird, wenn das Problem gelöst werden kann, bevor die Testphase abgeschlossen ist.
 
--   **Hohe:** -das Problem hat wichtige Auswirkung auf den Testfall. Das Problem muss behoben werden, bevor der Testfall akzeptiert werden kann.
+-   **Höchstwert:** – das Problem hat eine kritische Auswirkung auf den Testfall. Das Problem muss aufgelöst werden, bevor der Testfall akzeptiert werden kann.
 
--   **Status:** Wurde das Problem behoben wurde, ist es geöffnet ist, oder noch in der Untersuchung
+-   **Status:** Wurde das Problem gelöst, ist es geöffnet oder wird noch untersucht
 
--   **Übermittelt von:** Der Tester das Problem gemeldet
+-   **Eingereicht von:** Der Tester, der das Problem gemeldet hat
 
--   **Besitzer zugewiesen:** Die Ressource aus, die zur Lösung dieses Problems zuständig ist, Testteam zugeordnet.
+-   **Zugewiesener Besitzer:** Die Ressource, die dem Test Team zugewiesen ist, das für die Lösung des Problems verantwortlich ist
 
--   **Ergänzende Details:** Dazu gehören kann – anderem – mithilfe der clientseitigen Protokolle, Screenshots oder Video des Problems.
+-   **Unterstützende Details:** Dies kann – aber nicht nur – auf clientseitige Protokolle, Screenshots oder Videos des Problems zählen.
 
-Wie Tester im Testplan beschriebenen Testfälle ausführen, sollten sie unbedingt für die Durchführung ein defekt Bericht und-Wartung Plans für Probleme, die auftreten.
-Dadurch werden potenzielle Auswirkungen hervorheben, die beeinträchtigen oder sogar Anhalten der Bewertung Testvorgang konnte.
+Wenn Tester die in Ihrem Testplan skizzierten Testfälle ausführen, sollten Sie sicherstellen, dass Sie einen Fehlerbericht und einen Sanierungsplan für alle auftretenden Probleme durchführen.
+Dadurch werden potenzielle Auswirkungen aufgezeigt, die das Testen des Evaluierungsprozesses behindern oder sogar verhindern könnten.
 
-#### <a name="testing-defect-report-and-remediation-plan"></a>Planen von Tests Fehlerbericht und-Wartung
+#### <a name="testing-defect-report-and-remediation-plan"></a>Testfehler Bericht und Sanierungsplan
 
 > [!TIP]
->   Es folgt ein Beispiel-Fehlerbericht und Planen der Wartung Vorlage, die Sie zum dokumentprobleme während der Testphase verwenden können.
+>   Nachfolgend finden Sie ein Beispiel für eine Vorlage für Fehlerberichte und korrekturpläne, die Sie zum Dokumentieren von Problemen verwenden können, die während der Testphase entdeckt wurden.
 
-| Fehler-ID                                | Betroffene Testfall-ID | Beschreibung des Fehlers                                                                                 | Umgebung /steps zu reproduzieren                                                                                                | Schweregrad | Status | Übermittelten | Zugewiesene Besitzer | Unterstützung von Details (Protokolle, Screenshots usw.) |
+| Fehler-ID                                | Test Case-ID beeinträchtigt | Fehlerbeschreibung                                                                                 | Zu reproduzierender Umgebungs/Steps                                                                                                | Schweregrad | Status | Eingereicht von | Zugewiesener Besitzer | Unterstützende Details (Protokolle, Screenshots usw.) |
 |------------------------------------------|-----------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|----------|--------|--------------|----------------|---------------------------------------------------|
-| 1                                        | 1                     | Wenn der Benutzer eine vierstellige Erweiterung eingibt, schlägt fehl, versucht, einen ausgehenden Anruf, setzen Sie der Anruf. | Klicken Sie im Client Teams aktivieren Sie das Wähltastenfeld, geben Sie eine vierstellige-Erweiterung, und wählen Sie das Telefonsymbol so versuchen Sie, den Anruf zu tätigen. | Mittel   | Geschlossen | Louis Lahr   | Lisa grau      | Teams mithilfe der clientseitigen Protokoll<br/> Screenshot der Teams-client     |
+| 1                                        | 1                     | Wenn der Benutzer eine vierstellige Durchwahl eingibt und versucht, einen ausgehenden Anruf zu tätigen, schlägt der Anruf fehl. | Wählen Sie im Team-Client die Wähltastatur aus, geben Sie eine vierstellige Durchwahl ein, und wählen Sie das Telefonsymbol aus, um den Anruf zu tätigen. | Mittel   | Geschlossen | Louis Lahr   | Lisa Gray      | Clientseitige Teams-Protokoll<br/> Screenshot des Teams-Clients     |
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie Sie zur Unterstützung der Testaktivitäten ordnen defekt Kriterien Schweregrade.</li><li>Entscheiden Sie, welche Kriterien, die Sie dokumentieren werden, treten Probleme während der Tests reporting testing defekt.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren des testen Fehlers reporting Kriterien, die in der bereitgestellten Vorlage erforderlich.</li><li>Enthalten Sie die abgeschlossene Vorlage als Teil des gesamten Testplans.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche Fehlerkriterien Schweregrade zugewiesen werden, um den Prüfungsaufwand zu unterstützen.</li><li>Entscheiden Sie, welche Prüfkriterien für die Fehlerberichterstattung Sie dokumentieren, wenn während der Tests Probleme auftreten.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Kriterien für die Prüfung der Fehlerberichterstattung, die in der Vorlage bereitgestellt werden.</li><li>Schließen Sie die fertige Vorlage als Teil des gesamten Testplans ein.</li></ul></td></tr>
 </table>
 
 
-### <a name="define-and-document-exit-and-suspension-criteria"></a>Definieren Sie und Dokumentieren Sie beenden und Aussetzung Kriterien
+### <a name="define-and-document-exit-and-suspension-criteria"></a>Definieren und Dokumentieren von Exit-und Suspensions Kriterien
 
-Im Rahmen der gesamten Test Plan ausführen müssen Sie Kriterien an, um den Punkt angeben, an dem Sie Testverfahren im Vergleich zu Anforderungen unterbrechen soll, die erfüllt sein müssen, damit Abnahme abrufen und Beenden der Testphase, definieren.
+Im Rahmen des gesamten Test Plan Ausführungsprozesses müssen Sie Kriterien definieren, um den Punkt anzugeben, an dem Sie die Testaktivitäten und die Anforderungen, die für die Abmeldung und Beendigung der Testphase erfüllt sein müssen, auszusetzen.
 
-#### <a name="test-plan-exit-and-suspension-criteria"></a>Test Plan beenden und Aussetzung Kriterien
+#### <a name="test-plan-exit-and-suspension-criteria"></a>Test Plan-Exit-und Suspensions Kriterien
 
 > [!TIP]
->   Im folgenden ist ein Beispiel für beenden und Aussetzung Kriterien-Vorlage, die Sie in Ihrem Dokument Kriterien Testplan verwenden können Abnahme zu erzielen, Testphase beenden oder unterbrechen Testaktivitäten erforderlich.
+>   Nachfolgend finden Sie ein Beispiel für eine Vorlage für Exit-und Suspensions Kriterien, die Sie in Ihrem Testplan verwenden können, um Kriterien zu dokumentieren, die erforderlich sind, um die Abmeldung zu erreichen, die Testphase zu beenden oder Testaktivitäten auszusetzen.
 
-| Testen der abschlusskriterien                            | Testen der Aussetzung Kriterien                      |
+| Testen von Exit-Kriterien                            | Testen von Aussetzungs Kriterien                      |
 |--------------------------------------------------|--------------------------------------------------|
-|<ul><li>Alle Testfälle muss eine Pass-Rate der TBD % erzielen.</li><li>Alle Testfälle muss vollständig ausgeführt wurden</li><li>Aus allen Testfällen ausgewertet müssen alle hoher Schweregrad Mängel geschlossen werden</li></ul> | <ul><li>Alle Testfälle muss eine TBD % Fehlerrate erzielen.</li><li>Alle Fehler, die als hoher Schweregrad müssen behoben werden, bevor Tests fortgesetzt werden kann.</li></ul> |
+|<ul><li>Alle Testfälle müssen eine Durchlauf Rate von%% erreichen.</li><li>Alle Testfälle müssen vollständig ausgeführt worden sein.</li><li>In allen bewerteten Testfällen müssen alle Fehler mit dem höchsten Schweregrad geschlossen werden.</li></ul> | <ul><li>Alle Testfälle müssen eine% ige Fehlerrate erreichen.</li><li>Alle als "schwerwiegend" gekennzeichneten Fehler müssen aufgelöst werden, bevor der Test fortgesetzt werden kann.</li></ul> |
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Treffen einer Entscheidung bezüglich Aussetzung Kriterien, die erfüllt sein müssen, wenn Probleme mit testen identifiziert werden.</li><li>Treffen einer Entscheidung bezüglich abschlusskriterien die Genehmigung durch testing Akzeptanz und Unterstützung die Testphase erst, nachdem alle Tests beenden erfüllt sein müssen, dass Aktivitäten abgeschlossen sind.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie testing beenden und Aussetzung Kriterien in den Test- und Exit-Vorlagen zur Verfügung gestellt.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche Aussetzungs Kriterien erfüllt sein müssen, wenn Probleme mit der Prüfung identifiziert werden.</li><li>Entscheiden Sie sich für Exit-Kriterien, die erfüllt sein müssen, um die Abnahme der Prüfung zu erhalten und die Testphase zu beenden, nachdem alle Testaktivitäten abgeschlossen sind.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die für die Test-und Exit-Vorlagen erforderlichen Test-Exit-und Suspension-Kriterien.</li></ul></td></tr>
 </table>
 
 
-### <a name="define-and-document-the-defect-escalation-process"></a>Definieren und Dokumentieren des Fehler Ausweitung-Prozess
+### <a name="define-and-document-the-defect-escalation-process"></a>Definieren und Dokumentieren des Fehler Eskalationsprozesses
 
-Im Verlauf der Test Plan Ausführung können Sie ermitteln ein Problem oder identifizieren einen Fehler, der Weiterleitung zu den rechten Ressource benötigt für die Umsetzung und bestimmen die erforderliche Auflösung zu testen, um den Vorgang fortzusetzen.
+Während der Ausführung des Test Plans können Sie möglicherweise ein Problem entdecken oder einen Fehler ermitteln, bei dem eine Eskalation der richtigen Ressource für das fahren und ermitteln der erforderlichen Auflösung erforderlich ist, damit Tests fortgesetzt werden können.
 
-Fehler mit dem entsprechenden Schweregrad und Priorität identifiziert werden, erstellen Sie eine Matrix Ausweitung und Ursachenanalyse Prozess für die Zuordnung, bei eine Ausweitung ausgelöst wird und wie, wann und, die der Fehler für die zugewiesen werden weitere überprüfen Überprüfen und Auflösung.
+Da Fehler mit dem entsprechenden Schweregrad und der zugewiesenen Priorität identifiziert werden, erstellen Sie eine Eskalations Matrix und eine Triage-Überprüfungsprozess für die Zuordnung, wenn eine Eskalation ausgelöst wird und wie, wann und wem der Fehler zur weiteren Überprüfung zugeordnet wird, und Auflösung.
 
-In der Regel enthält ein Fehler Bericht und-Wartung Plan Folgendes:
+In der Regel umfasst ein Fehlerbericht und ein Sanierungsplan Folgendes:
 
--   **Verfolgung-ID:** Die Nummer, die Ihnen für das Problem zugewiesen haben
+-   **Fehler-ID:** Die Nummer, die Sie dem Problem zugewiesen haben.
 
--   **Verfolgung Beschreibung:** Zusammenfassung des Problems
+-   **Fehlerbeschreibung:** Zusammenfassung des Problems
 
--   **Priorität Assessment Verfolgung:** Die Ebene der Priorität einen Fehler für die Auflösung basierend auf geschäftlichen und defekt Schweregrad. Einige Beispiele:
+-   **Beurteilung der Fehler Priorität:** Die Prioritätsstufe, die einem Fehler für die Auflösung auf der Grundlage der geschäftlichen Auswirkungen und des Fehlerschwere Grads zugewiesen wurde. Einige Beispiele könnten Folgendes umfassen:
 
--   **Niedrig:** Das Problem hat geringe Auswirkung auf verhindert, dass der Testphase Abnahme erreichen, wenn das Problem später aufgelöst werden kann.
+-   **Gering:** Das Problem hat kaum Auswirkungen darauf, dass die Testphase nicht abgemeldet wird, wenn das Problem später behoben werden kann.
 
--   **Mittel:** Das Problem hat beträchtliche Auswirkung auf verhindert, dass der Testphase Abnahme erreichen, wenn das Problem nicht aufgelöst werden kann.
+-   **Mittel:** Das Problem hat erhebliche Auswirkungen darauf, dass die Testphase nicht abgemeldet wird, wenn das Problem nicht behoben werden kann.
 
--   **Hohe:** Das Problem wirkt sich wichtige auf verhindert, dass der Testphase Abnahme erreichen, wenn das Problem nicht aufgelöst werden kann.
+-   **Höchst:** Das Problem hat kritische Auswirkungen darauf, dass die Testphase nicht abgemeldet wird, wenn das Problem nicht behoben werden kann.
 
--   **Zugewiesene defekt Besitzer:** Die Ressource aus, die zur Lösung dieses Problems zuständig ist, Testteam zugeordnet.
+-   **Zugeordneter Fehler Besitzer:** Die Ressource, die dem Test Team zugewiesen ist, das für die Lösung des Problems verantwortlich ist
 
--   **Defekt Ausweitung Punkt zugewiesen:** Die Ressource zugewiesen, die auf Punkt für eskalieren das Problem in der Organisation (falls erforderlich) für die Lösung gesteuert wird. basierend auf Fehler Schweregrad
+-   **Zugewiesene Fehler Eskalationspunkt:** Die zugeordnete Ressource, die für die Eskalation des Problems in der Organisation (falls erforderlich) für die Fahr Auflösung steht. basierend auf dem Fehlerschweregrad
 
--   **Verfolgung Status:** Wurde das Problem behoben wurde, ist es geöffnet ist, oder noch in der Untersuchung
+-   **Fehlerstatus:** Wurde das Problem gelöst, ist es geöffnet oder wird noch untersucht
 
--   **Lösung nach Datum erforderlich:** Das Datum, die durch das Problem behoben werden muss
+-   **Erforderliche Auflösung nach Datum:** Das Datum, an dem das Problem aufgelöst werden muss
 
--   **Statusdatum:** Das Datum den letzten Zeitstatus spiegeln wurde als Ergebnis einer defekt Ursachenanalyse Überprüfung aktualisiert.
+-   **Status Datum:** Das Datum, das den letzten Zeitstatus widerspiegelt, wurde als Ergebnis einer Fehler Triage-Überprüfung aktualisiert.
 
-#### <a name="test-plan-defect-escalation"></a>Test Plan defekt Ausweitung
+#### <a name="test-plan-defect-escalation"></a>Fehler Eskalation des Test Plans
 
 > [!TIP]
->   Es folgt ein Beispiel für einen Fehler Ausweitung Vorlage, die Sie Teil des Testplans verwenden können, um die Ausweitung-Prozess für die Priorisierung und Beheben von Fehlern testing erforderliche zu dokumentieren.
+>   Nachfolgend finden Sie ein Beispiel für eine Fehler Eskalations Vorlage, die Sie in einem Teil Ihres Testplans verwenden können, um den Eskalationsprozess zu dokumentieren, der für die Priorisierung und Behebung von Test Fehlern erforderlich ist.
 
-| Fehler-ID                                | Beschreibung des Fehlers                                                                                 | Fehler Priorität Bewertung                                           | Zugewiesene defekt Besitzer | Zugewiesene defekt Ausweitung Punkt | Fehler Ausweitung-Methode                                          | Fehler-status | Erforderliche Auflösung nach Datum | Statusdatum |
+| Fehler-ID                                | Fehlerbeschreibung                                                                                 | Bewertung der Fehler Priorität                                           | Zugeordneter Fehler Besitzer | Zugewiesene Fehler Eskalationspunkt | Fehler Eskalations Methode                                          | Fehlerstatus | Erforderliche Auflösung nach Datum | Status Datum |
 |------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-----------------------|----------------------------------|-------------------------------------------------------------------|---------------|-----------------------------|-------------|
-| 1                                        | Wenn der Benutzer eine vierstellige Erweiterung eingibt, schlägt fehl, versucht, einen ausgehenden Anruf, setzen Sie der Anruf. | Mittel                                                               | Lisa grau             | Louis Lahr                       | Wöchentliche Ursachenanalyse überprüfen hoher Priorität e-Mails an betroffene beteiligten | Öffnen          | ASAP                        | 1/12/2018   |
+| 1                                        | Wenn der Benutzer eine vierstellige Durchwahl eingibt und versucht, einen ausgehenden Anruf zu tätigen, schlägt der Anruf fehl. | Mittel                                                               | Lisa Gray             | Louis Lahr                       | Wöchentliche Triage Überprüfen der e-Mail mit hoher Priorität an betroffene Stakeholder | Öffnen          | SFWM                        | 1/12/2018   |
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden, und der Fehler Prioritäten zur Unterstützung von Testplan vereinbaren.</li><li>Entscheiden Sie den Ausweitung Punkt für jeden Bereich Fehler.</li><li>Entscheiden Sie, die Fehler Eskalation und Ursachenanalyse Plan, denen Sie folgen, basierend auf Priorität.</li><li>Entscheiden Sie, die Fehler reporting und selektieren Sie Kommunikationsplans für Eskalation.</li><li>Entscheiden Sie der Fehler Ursachenanalyse Besprechung Trittfrequenz.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Prioritäten vereinbart auf Fehler.</li><li>Den Ausweitung Punkt für jeden möglichen Fokusbereich des Dokuments.</li><li>Dokumentieren Sie den Fehler Eskalation und Ursachenanalyse Plan vereinbart auf Kriterien erfüllen.</li><li>Dokumentieren Sie Ihre reporting Richtlinien defekt.</li><li>Planen der Reihe von defekt Ursachenanalyse Besprechungen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie sich für die Fehler Prioritäten, um Ihren Testplan zu unterstützen.</li><li>Entscheiden Sie den Eskalationspunkt für jeden Fehlerbereich.</li><li>Entscheiden Sie, ob der Fehler Eskalations-und Triage-Plan basierend auf der Priorität befolgt werden soll.</li><li>Entscheiden Sie sich für die Fehlerberichterstattung und den Plan zur Triage für die Eskalation.</li><li>Entscheiden Sie sich für den Fehler Triage Überprüfen des Besprechungs Rhythmus.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren der vereinbarten Fehler Prioritäten</li><li>Dokumentieren Sie den Eskalationspunkt für jeden potenziellen Fokusbereich.</li><li>Dokumentieren Sie den Plan für Fehler Eskalation und-Triage auf der Grundlage vereinbarter Kriterien.</li><li>Dokumentieren Sie Ihre Fehlerberichterstattungsrichtlinien.</li><li>Planen Sie die Serie der Fehler Triage-Besprechungen.</li></ul></td></tr>
 </table>
 
 
-### <a name="define-and-document-testing-deliverables"></a>Definieren Sie und Dokumentieren Sie testing Lieferumfang
+### <a name="define-and-document-testing-deliverables"></a>Definieren und Dokumentieren der Testergebnisse
 
-Die letzte Komponente bei der Erstellung eines Testplans ist, die Ergebnisse im Hinblick auf bestimmte Lieferumfang zu identifizieren, die der allgemeine Plan zum Testen von zustellt.
+Die letzte und letzte Komponente beim Erstellen eines Testplans besteht darin, die Ergebnisse im Hinblick auf bestimmte Ergebnisse zu identifizieren, die der Gesamt Testplan übermitteln wird.
 
-Auf allgemeiner Ebene diese in der Regel umfassen, aber nicht beschränkt auf:
+Auf einem hohen Niveau gehören diese in der Regel zu den folgenden:
 
--   Plan zum Testen von
+-   Testplan
 
--   Testfälle
+-   Test Cases
 
--   Fehler-Berichte
+-   Fehlerberichte
 
--   Ergebnisse der Zusammenfassung
+-   Zusammenfassung der Test Ergebnisse
 
--   Testen der Akzeptanz und Freigabe
+-   Testen der Akzeptanz und Abmeldung
 
-#### <a name="test-plan-deliverables"></a>Test Plan Lieferumfang
+#### <a name="test-plan-deliverables"></a>Ergebnisse des Test Plans
 
 > [!TIP]
->   Es folgt ein Beispiel für einen Test Plan Lieferumfang Matrix, die Sie verwenden können, um den Lieferumfang erstellt werden, sowie zur Prüfung, Genehmigung und Abnahme erforderlichen Ressourcen zu dokumentieren.
+>   Nachfolgend finden Sie ein Beispiel für eine Testplan-Matrix, die Sie verwenden können, um die zu erstellenden Lieferbestandteile zusammen mit Ressourcen zu dokumentieren, die für die Überprüfung, Genehmigung und Freigabe erforderlich sind.
 
-| Plan zum Testen des Lieferumfangs                    | Test Plan Lieferumfang format | Test Plan Lieferumfang Besitzer                                                                                                      | Test Plan Lieferumfang reviewer | Test Plan Lieferumfang genehmigende Person | Test Plan Lieferumfang Abnahme Datum |
+| Testplan-Lieferung                    | Testplan-Lieferumfang Format | Testplan-Lieferbestandteil-Besitzer                                                                                                      | Testplan-Lieferbestandteil-Bearbeiter | Test Plan Lieferung Genehmiger | Testplan-Liefertermin für die Abmeldung |
 |------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------------------------------------|--------------------------------|--------------------------------|-------------------------------------|
-| Plan zum Testen von                                | Word                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
-| Fehler-Management-Berichte                | Word                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
+| Testplan                                | Word                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
+| Fehler Verwaltungsberichte                | Word                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
 | Testen von Statusberichten                   | Word                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
-| Ergebnisse der Zusammenfassung                     | Word PPTX                    | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
+| Zusammenfassung der Test Ergebnisse                     | Word-PPTX                    | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche Lieferumfang erstellt und als Ausgabe aus jeder Testphase erfasst werden sollen. Für jede Lieferumfang, entscheiden Sie sich für die:<ul><li>Format</li><li>Besitzer</li><li>Prüfer</li><li>Eine genehmigende Person</li></ul></li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Test Plan Lieferumfang Erstellung und Bereitstellung Matrix des Dokuments.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche Lieferbestandteile in den einzelnen Testphasen als Ausgabe erstellt und erfasst werden sollen. Entscheiden Sie für jede Lieferung:<ul><li>Format</li><li>Besitzer</li><li>Prüfer</li><li>Genehmiger</li></ul></li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren einer Test Plan Bereitstellungs Matrix für die Erstellung und Zustellung</li></ul></td></tr>
 </table>
 
 
-<a name="evaluate-network-readiness"></a>Bewerten der Bereitschaft des Netzwerks
+<a name="evaluate-network-readiness"></a>Auswerten der Netzwerk Bereitschaft
 ----------------------------
 
-Als kritisch Element Unterstützung Ihrer Bereitstellung Teams ist die Bereitschaft des Netzwerks wichtiger Bestandteil der testen, um sicherzustellen, dass das Netzwerk ordnungsgemäß für die Unterstützung von Teams Communications optimiert ist. Um sicherzustellen, dass Ihr Netzwerk für die Websites im Bereich bereit ist, umfassen Sie die Schwerpunkte in Ihrer gesamten Teststrategie unten aufgeführten:
+Als wichtiges Element zur Unterstützung der Bereitstellung von Teams ist die Netzwerk Bereitschaft ein entscheidender Bestandteil des Tests, um sicherzustellen, dass das Netzwerk für die Unterstützung von Teams-Kommunikation richtig optimiert ist. Wenn Sie sicherstellen möchten, dass Ihr Netzwerk für die Websites im Umfang bereit ist, schließen Sie die nachstehend aufgeführten Fokusbereiche in Ihre allgemeine Teststrategie ein:
 
--   Bandbreitenschätzung und Planung mit Netzwerk Planner (über MyAdvisor)
+-   Bandbreiten Abschätzung und-Planung mit Network Planner (über myadvisor)
 
--   Qualität der Überprüfung der Service (QoS)-Konfiguration
+-   QoS-Konfigurationsüberprüfung (Quality of Service)
 
--   Überprüfen Sie Netzwerkkonnektivität und Leistung über Datenverkehr simulation
+-   Netzwerkkonnektivität und Leistungsüberprüfung durch Verkehrssimulation
 
--   Validierung Split-tunneling
+-   Überprüfung für Split-Tunneling
 
-### <a name="execute-network-planner-through-myadvisor-for-sites-and-personas-in-scope"></a>Führen Sie für Websites und Rollen im Bereich Netzwerk Planner (über MyAdvisor)
+### <a name="execute-network-planner-through-myadvisor-for-sites-and-personas-in-scope"></a>Ausführen von Network Planner (über myadvisor) für Websites und Personas im Bereich
 
-Vor der Einführung in die Kommunikation in Echtzeit-Dienste wie Teams in Ihrer Umgebung, ist es wichtig, um sicherzustellen, dass das Netzwerk ordnungsgemäß optimiert und aus einer Azure ExpressRoute (falls zutreffend), Internet und WAN-Bandbreite Perspektive angepasst wurde.
+Vor der Einführung von Echt Zeit Kommunikationsdiensten wie Teams in Ihrer Umgebung ist es wichtig, sicherzustellen, dass das Netzwerk ordnungsgemäß optimiert und von einem Azure Express Route (falls zutreffend), Internet und WAN-Bandbreiten Perspektive angepasst wurde.
 
-Bei der Bestimmung des Bandbreite und Ebene der Netzwerk-Optimierung für Websites im Bereich Unterstützung Ihrer Bereitstellung erforderlich sind, führen Sie das Tool [Netzwerk Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner/Help?sectionName=DashboardHelp) (über MyAdvisor) zum Überprüfen des Netzwerks Ihrer Organisation benötigt. Weitere Anleitungen zum Ermitteln der netzwerkanforderungen für Teams über das Netzwerk Planner, finden Sie unter MyAdvisor: Planner Netzwerk.
+Wenn Sie bei der Ermittlung der Bandbreite und des Grads der Netzwerkoptimierung unterstützen möchten, die für Websites im Umfang erforderlich ist, die Ihre Bereitstellung unterstützen, füllen Sie das [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner/Help?sectionName=DashboardHelp) -Tool (über myadvisor) aus, um die Netzwerk Bereitschaft Ihrer Organisation zu überprüfen. Weitere Informationen dazu, wie Sie Netzwerkanforderungen für Teams über den Netzwerk Planner ermitteln können, finden Sie unter myadvisor: Network Planner.
 
 > [!TIP]
->   Weitere Informationen zu den **Empfehlungen** -Registerkarte Beispiele zum Konfigurieren und die Ergebnisse interpretieren finden Sie unter Network Planner [Recommendations Overview](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner/Help?sectionName=RecommendationHelp).
+>   Weitere Informationen zur Registerkarte **Empfehlungen** sowie Beispiele für das Konfigurieren und Interpretieren der Ergebnisse finden Sie unter [Übersicht über](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner/Help?sectionName=RecommendationHelp)die Netzwerk Planner-Empfehlungen.
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche Netzwerkstandorten für die Bereitstellung von Teams im Bereich Dienste sind.</li><li>Entscheiden Sie die Rollen für Teams Modalitäten im Bereich erforderlich.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Führen Sie die Netzwerk-Planner (über MyAdvisor) für die Liste der Websites, die im Gültigkeitsbereich befinden.</li><li>Dokumentüberprüfung Netzwerk Planner führt der bereitgestellten Test Plan Ergebnisse Vorlage.</li><li>Überprüfen Sie, ob die ExpressRoute (falls zutreffend), Internet und WAN-Bandbreite, die für Websites in Bereich berechnet wurde Ausrichtung Bandbreitenwerte, die derzeit zugeordnet sind.</li><li>Führen Sie für Websites, die nicht über eine ausreichende Bandbreite verfügen die Ausweitung und-Wartung Pläne und Bandbreitenprobleme zu beheben.</li><li>Richten Sie ein Netzwerk-Lösung für Websites im Bereich zur Auslastung der Bandbreite überwachen und QoS für ExpressRoute (falls zutreffend), Internet und WAN-Segmenten monitoring.</li><li>Planen einer Besprechung Lenkungsausschuss Netzwerk Planner Ergebnisse zu überprüfen.</li><li>Präsentieren Sie Bandbreite, die Planung der Ergebnisse des Verwaltungshaushaltsplans, Bereiche zu identifizieren, die Behebung erforderlich machen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche Netzwerk Websites im Bereich für die Bereitstellung von Teams-Diensten sind.</li><li>Entscheiden Sie, welche Personen für die Modalitäten für Teams im Bereich erforderlich sind.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Vervollständigen Sie den Netzwerk Planner (über myadvisor) für die Liste der Websites, die sich im Bereich befinden.</li><li>Dokumentieren von Netzwerk Planner-Validierungsergebnissen in der Vorlage Testplan-Ergebnisse bereitgestellt.</li><li>Überprüfen Sie, ob die Express Route (falls zutreffend), Internet und WAN-Bandbreite, die für Websites im Bereich berechnet wurde, an Bandbreiten Werten ausgerichtet sind, die derzeit zugewiesen sind.</li><li>Führen Sie für Websites, die nicht über eine ausreichende Bandbreite verfügen, Eskalations-und Sanierungspläne aus, um Bandbreitenprobleme zu beheben.</li><li>Einrichten einer Netzwerküberwachungslösung für Websites im Bereich zum Überwachen der Bandbreitennutzung und QoS für Express Route (falls zutreffend), Internet und WAN-Segmente.</li><li>Planen einer Sitzung des Lenkungsausschusses zur Überprüfung der Ergebnisse des Netzwerk Planers</li><li>Präsentieren Sie dem Lenkungsausschuss die Ergebnisse der Bandbreitenplanung, um alle Bereiche zu identifizieren, die Behebung erfordern.</li></ul></td></tr>
 </table>
 
 
-<a name="evaluate-qos-configuration-for-sites-in-scope"></a>Bewerten der QoS-Konfiguration für Websites im Bereich
+<a name="evaluate-qos-configuration-for-sites-in-scope"></a>Auswerten der QoS-Konfiguration für Websites im Bereich
 ---------------------------------------------
 
-Im Rahmen der Auswertung Bereitschaft des Netzwerks für die Unterstützung von Teams Real-Time Communications, es ist gleichermaßen wichtig, um sicherzustellen, dass das Netzwerk ordnungsgemäß konfiguriert und aus Sicht der QoS optimiert wurde.
+Im Rahmen der Überprüfung der Netzwerk Bereitschaft zur Unterstützung der Echtzeitkommunikation von Teams ist es ebenso wichtig, sicherzustellen, dass das Netzwerk ordnungsgemäß konfiguriert und aus einer QoS-Perspektive optimiert wurde.
 
-Zusätzliche Anleitung zum Konfigurieren, bereitstellen und Überprüfen von QoS-Netzwerks für Teams mithilfe von Gruppenrichtlinien finden Sie unter [Aktivieren von QoS für Teams](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams).
+Weitere Anleitungen zum Konfigurieren, bereitstellen und Überprüfen der QoS-Netzwerk Bereitschaft für Teams mithilfe von Gruppenrichtlinien finden Sie unter [Aktivieren von QoS für Teams](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams).
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Legen Sie die QoS-Konfiguration implementiert werden.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Konfigurieren von QoS.</li><li>QoS-Überprüfung ausführen, wie von über die "Überprüfen über GPO" beschriebenen Schritte beschrieben und "Überprüfen über Nachricht Analyzer" Abschnitte oben.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche QoS-Konfiguration implementiert werden soll.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Konfigurieren von QoS</li><li>Führen Sie eine QoS-Validierung aus, wie Sie in den Abschnitten über die Abschnitte "überprüfen über GPO" und "überprüfen per Nachrichten Analyse" beschrieben sind.</li></ul></td></tr>
 </table>
 
 
-### <a name="document-qos-configuration-validation-test-results"></a>Dokumentieren Sie QoS-Konfiguration Validierung Testergebnisse
+### <a name="document-qos-configuration-validation-test-results"></a>Dokument QoS-Konfigurations Prüfungsergebnisse
 
-Nach Abschluss QoS Validierungstests mithilfe von Gruppenrichtlinien für Websites in Bereich erstellen Sie einen Bericht, der während der letzten Lenkungsausschuss Überprüfung durchzuführen Testergebnisse zusammengefasst.
+Nachdem Sie die QoS-Gültigkeitsprüfung mithilfe von Gruppenrichtlinien für Websites im Bereich abgeschlossen haben, erstellen Sie einen Bericht, der die Testergebnisse zusammenfasst, die während der letzten Überprüfung des Lenkungsausschusses zu präsentieren sind.
 
-#### <a name="site-a-qos-configuration-validation-testing-summary-report"></a>A: Website QoS-Konfiguration Validierungstests Zusammenfassungsbericht
+#### <a name="site-a-qos-configuration-validation-testing-summary-report"></a>Website A: Zusammenfassungsbericht zur QoS-Konfigurationsprüfung
 
 > [!TIP]
->   Es folgt ein Beispiel testen Zusammenfassungsbericht-Vorlage, die Sie während der nächsten Besprechung Lenkungsausschuss überprüfen können, wenn Sie in der Pilotphase zur integrierten Telefonsystem mit Aufrufen plant Services entscheiden.
+>   Nachfolgend finden Sie eine Beispielvorlage für den Test Zusammenfassungsbericht, die Sie während der nächsten Sitzung des Lenkungsausschusses überprüfen können, wenn Sie entscheiden, wann das Telefon System mit den Anruf Plan Diensten in der Pilot Phase eingebunden werden soll.
 
 
-**Überprüfung der QoS-Konfiguration über GPO und Nachricht Analyzer**
+**QoS-Konfigurationsüberprüfung über GPO und Nachrichten Analyse**
 
-**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Fehler
+**Zusammenfassung**der&nbsp;&nbsp;&nbsp;Ergebnisse: & # 9744; &nbsp; &nbsp; Übergeben&nbsp; Sie & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Nicht
 
 <table>
-<tr><th colspan="2">Testen der highlights </th></tr>
+<tr><th colspan="2">Test Highlights </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Testen der Schwachstellen  </th></tr><br/><tr><td><strong>Problem</strong>: TBD</td><td><strong>Remediation:</strong> TBD</td></tr>
-<tr><th colspan="2">Identifiziert Popupblockern </td></tr>
-<tr><td><strong>Blockierenden Person</strong>: TBD</td><td><strong>Remediation</strong>: TBD</td></tr>
+<tr><th colspan="2">Testen von Lowlights  </th></tr><br/><tr><td><strong>Problem</strong>: festgelegt</td><td><strong>Behebung:</strong> TBD</td></tr>
+<tr><th colspan="2">Identifizierte Blocker </td></tr>
+<tr><td><strong>Blocker</strong>: festgelegt</td><td><strong>Behebung</strong>: festgelegt</td></tr>
 </table>
 
 
 > [!TIP]
-> Um weitere Erörterung während der letzten Lenkungsausschuss Überprüfung zu erleichtern, können Sie die aktualisierte [Testergebnisse Matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) von [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) zu dokumentieren und markieren Sie weitere Bereiche, die Wartung erfordern.
+> Um weitere Diskussionen während der letzten Überprüfung des Lenkungsausschusses zu ermöglichen, können Sie die aktualisierte [Test Ergebnismatrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) von myadvisor verwenden, um weitere Bereiche zu dokumentieren und hervorzuheben, für die eine Korrektur erforderlich ist. [](https://myadvisor.fasttrack.microsoft.com/)
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Bewerten der Testergebnisse QoS, um sicherzustellen, dass in Echtzeit Mediendatenverkehr ordnungsgemäß wird Teams markiert und priorisiert.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokument QoS Testergebnisse in der Test Plan Ergebnis Vorlage zur Verfügung gestellt.</li><li>Ausweitung und-Wartung Pläne und Probleme zu beheben, wobei QoS möglicherweise nicht ordnungsgemäß konfiguriert oder ist nicht zur Unterstützung von Teams Mediendatenverkehr arbeiten wie erwartet, ausgeführt werden.</li></ul></td></tr><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Vorhanden Zusammenfassung Testergebnissen Lenkungsausschusses, Bereiche zu identifizieren, die Behebung erforderlich machen.</li>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Bewerten Sie die QoS-Testergebnisse, um sicherzustellen, dass der Echt Zeit Mediendatenverkehr von Teams ordnungsgemäß markiert und priorisiert wird.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die QoS-Testergebnisse in der Vorlage Test Plan Ergebnis.</li><li>Führen Sie Eskalations-und Sanierungspläne aus, um Probleme zu beheben, bei denen QoS möglicherweise nicht ordnungsgemäß konfiguriert ist oder nicht wie erwartet funktioniert, um den Mediendatenverkehr von Teams zu unterstützen</li></ul></td></tr><li>Planen Sie eine Sitzung des Lenkungsausschusses, um die Ergebnisse der Test Zusammenfassung zu überprüfen.</li><li>Präsentieren Sie dem Lenkungsausschuss Test Zusammenfassungsergebnisse, um alle Bereiche zu identifizieren, für die eine Sanierung erforderlich ist.</li>
 </table>
 
 
-<a name="execute-split-tunnel-enablement-validation"></a>Split-Tunnel-Aktivierung-Überprüfung ausführen
+<a name="execute-split-tunnel-enablement-validation"></a>Ausführen der Validierung von Split-Tunnel-Aktivierung
 ------------------------------------------
 
-Es ist üblich für Unternehmen heute eine einen oder mehrere Lösungen für die Bereitstellung von Remotezugriff, ein virtuelles privates Netzwerk oder VPN. Diese Lösungen ermöglichen die Konnektivität mit internen Line-of-Business-Ressourcen und Anwendungen, sicher und zuverlässig.
+Für Unternehmen ist es heute üblich, eine oder mehrere Lösungen für die Bereitstellung von Remotezugriff zu haben, beispielsweise ein virtuelles privates Netzwerk oder ein VPN. Diese Lösungen ermöglichen eine sichere und zuverlässige Konnektivität mit internen Unternehmensressourcen und-Anwendungen.
 
-Obwohl RAS-Lösungen sehr gut für den Zugriff auf einige Anwendungen erhält, wenn es darum geht, tunneling in Echtzeit Mediendatenverkehr Teams arbeiten können, bewirken diese Lösungen häufig ein kleiner als optimale Benutzererlebnis für alle Teilnehmer an einer Audio Teams Konferenzen oder aufrufende Szenario.
+Obwohl Remote Access-Lösungen sehr gut für den Zugriff auf einige Anwendungen geeignet sind, wenn es um Tunneling-Teams in Echtzeit-Mediendatenverkehr geht, führen diese Lösungen häufig zu einer weniger optimalen Benutzererfahrung für alle Teilnehmer in einem Teams-Audio. Konferenz-oder Anruf Szenario
 
-Um sicherzustellen, dass Teams Mediendatenverkehr *nicht* durchsuchenden RAS-Lösungen in der Umgebung ist, wird eine Split-Tunnel-Konfiguration erforderlich sein.
+Um sicherzustellen, dass der Mediendatenverkehr von Teams *keine* Remotezugriffslösungen in Ihrer Umgebung durchläuft, ist eine Split-Tunnel-Konfiguration erforderlich.
 
-Weitere Anleitungen zum Konfigurieren und Überprüfen der Bereitschaft des Netzwerks der Split-Tunnel Konfiguration für Teams finden Sie unter Bereitschaft des [Netzwerks](https://docs.microsoft.com/MicrosoftTeams/prepare-network) .
+Weitere Anleitungen zum Konfigurieren und Überprüfen der Netzwerk Bereitschaft von Split-Tunnel-Konfigurationen für Teams finden Sie unter [Netzwerk](https://docs.microsoft.com/MicrosoftTeams/prepare-network) Bereitschaft.
 
 > [!NOTE]
->   Aufgrund des Volumens der RAS-Lösungen im Marketplace zur Verfügung dieses Dokument nicht herstellerspezifischen Details bereitstellen, RAS-Lösungen sollte nur allgemeine Richtlinien zur was konfiguriert werden.
+>   Aufgrund der großen Anzahl von Remotezugriffslösungen, die auf dem Marktplatz zur Verfügung stehen, können in diesem Dokument keine herstellerspezifischen Details bereitgestellt werden, sondern nur allgemeine Richtlinien für das, was für Remotezugriffslösungen konfiguriert werden sollte.
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, die Split-Tunnel Konfiguration zu implementieren.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Split-Tunnel Konfiguration zu implementieren.</li><li>Testen und Überprüfen der Konfiguration des Split-Tunnel.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, ob die Split-Tunnel-Konfiguration implementiert werden soll.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Implementieren Sie die Split-Tunnel-Konfiguration.</li><li>Testen und überprüfen Sie die Split-Tunnel-Konfiguration.</li></ul></td></tr>
 </table>
 
 
-### <a name="document-split-tunnel-configuration-validation-test-results"></a>Dokument Split-Tunnel Konfiguration Validierung Testergebnisse
+### <a name="document-split-tunnel-configuration-validation-test-results"></a>Testergebnisse für Dokument Split-Tunnel-Konfigurationsüberprüfung
 
-Nach Abschluss Split-Tunnel Testkonfiguration für Websites in Bereich erstellen Sie einen Bericht, der Testergebnisse zusammengefasst und bei der nächsten Lenkungsausschuss Überprüfung.
+Nachdem Sie das Testen der Split-Tunnel-Konfiguration für Websites im Bereich abgeschlossen haben, erstellen Sie einen Bericht, der die Testergebnisse zusammenfasst und während der nächsten Überprüfung des Lenkungsausschusses präsentiert.
 
-#### <a name="site-a-split-tunnel-configuration-validation-testing-summary-report"></a>A: Website Split-Tunnel Konfiguration Validierungstests Zusammenfassungsbericht
+#### <a name="site-a-split-tunnel-configuration-validation-testing-summary-report"></a>Website A: Zusammenfassungsbericht zur Überprüfung der geteilten Tunnelkonfiguration
 
 > [!TIP]
->   Es folgt ein Beispiel testen Zusammenfassungsbericht-Vorlage, die Sie während der nächsten Besprechung Lenkungsausschuss überprüfen können, wenn Sie in der Pilotphase zur integrierten Telefonsystem mit Aufrufen plant Services entscheiden.
+>   Nachfolgend finden Sie eine Beispielvorlage für den Test Zusammenfassungsbericht, die Sie während der nächsten Sitzung des Lenkungsausschusses überprüfen können, wenn Sie entscheiden, wann das Telefon System mit den Anruf Plan Diensten in der Pilot Phase eingebunden werden soll.
 
 **Überprüfung der Split-Tunnel-Konfiguration**
 
-**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Fehler
+**Zusammenfassung**der&nbsp;&nbsp;&nbsp;Ergebnisse: & # 9744; &nbsp; &nbsp; Übergeben&nbsp; Sie & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Nicht
 
 <table>
-<tr><th colspan="2">Testen der highlights </th></tr>
+<tr><th colspan="2">Test Highlights </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Testen der Schwachstellen  </th></tr><br/><tr><td><strong>Problem</strong>: TBD</td><td><strong>Remediation:</strong> TBD</td></tr>
-<tr><th colspan="2">Identifiziert Popupblockern </td></tr>
-<tr><td><strong>Blockierenden Person</strong>: TBD</td><td><strong>Remediation</strong>: TBD</td></tr>
+<tr><th colspan="2">Testen von Lowlights  </th></tr><br/><tr><td><strong>Problem</strong>: festgelegt</td><td><strong>Behebung:</strong> TBD</td></tr>
+<tr><th colspan="2">Identifizierte Blocker </td></tr>
+<tr><td><strong>Blocker</strong>: festgelegt</td><td><strong>Behebung</strong>: festgelegt</td></tr>
 </table>
 
 
 > [!TIP]
-> Um weitere Erörterung während der letzten Lenkungsausschuss Überprüfung zu erleichtern, können Sie die aktualisierte [Testergebnisse Matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) von [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) zu dokumentieren und markieren Sie weitere Bereiche, die Wartung erfordern.
+> Um weitere Diskussionen während der letzten Überprüfung des Lenkungsausschusses zu ermöglichen, können Sie die aktualisierte [Test Ergebnismatrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) von myadvisor verwenden, um weitere Bereiche zu dokumentieren und hervorzuheben, für die eine Korrektur erforderlich ist. [](https://myadvisor.fasttrack.microsoft.com/)
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Bewerten der Testergebnisse Split-Tunnel, um sicherzustellen, dass Teams in Echtzeit-Datenverkehr vom RAS-Lösung ausgeschlossen wird.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Split-Tunnel Connectivity Testergebnisse in der bereitgestellten Test Plan Ergebnis Vorlage des Dokuments.</li><li>Führen Sie Eskalation und-Wartung Pläne und Probleme zu beheben, auf dem ordnungsgemäßes routing existiert nicht für die Unterstützung von Teams Medien in einer geteilten Tunnel-Konfiguration.</li><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Vorhanden Zusammenfassung Testergebnissen Lenkungsausschusses, Bereiche zu identifizieren, die Behebung erforderlich machen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Bewerten Sie die Ergebnisse des Split-Tunnel-Tests, um sicherzustellen, dass der Echtzeitverkehr von Teams aus der RAS-Lösung ausgeschlossen wird.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Testergebnisse des Dokuments Split-Tunnel-Konnektivität in der Test Plan Ergebnis-Vorlage bereitgestellt.</li><li>Führen Sie Eskalations-und Sanierungspläne aus, um Probleme zu beheben, bei denen ein geeignetes Routing für die Unterstützung von Teams-Medien innerhalb einer Split-Tunnel-Konfiguration nicht möglich ist.</li><li>Planen Sie eine Sitzung des Lenkungsausschusses, um die Ergebnisse der Test Zusammenfassung zu überprüfen.</li><li>Präsentieren Sie dem Lenkungsausschuss Test Zusammenfassungsergebnisse, um alle Bereiche zu identifizieren, für die eine Sanierung erforderlich ist.</li></ul></td></tr>
 </table>
 
 
-<a name="execute-network-connectivity-and-performance-validation-by-using-the-network-assessment-tool-from-microsoft"></a>Führen Sie Netzwerk und die Leistung Validierung mithilfe des Tools zur Bewertung Netzwerk von Microsoft
+<a name="execute-network-connectivity-and-performance-validation-by-using-the-network-assessment-tool-from-microsoft"></a>Ausführen von Netzwerkkonnektivität und Leistungsüberprüfung mithilfe des Tools für die Netzwerkbewertung von Microsoft
 -----------------------------------------------------------------------------------------------------------
 
-Das Netzwerk-Assessment-Tool von Microsoft führt Datenverkehr Simulation und Konnektivität Tests durch streaming simulierten audiopakete, für einen vordefinierten Zeitraum und die Anzahl von Iterationen, auf die nächste Edge-Website, die Konnektivität mit dem Dienst Teams bereitstellt. Ein Ziel dieses Tests ist für Netzwerk Leistungsmetriken für Paketverlust, Jitter, die Roundtrip-Wartezeit und Paket neu anordnen Prozent für jeden Anruf simulierten ausgewertet werden soll. Darüber hinaus der Test überprüft, dass ordnungsgemäße Konnektivität zwischen internen zulässig ist und edge-Netzwerkelementen zu alle Edge eingehende Punkte, die Verbindung mit Teams Dienste unterstützen.
+Das Netzwerk Bewertungstool von Microsoft führt Datenverkehrs Simulationen und Verbindungstests durch, indem simulierte Audiopakete für einen vordefinierten Zeitraum und die Anzahl der Iterationen an die nächstgelegene Edge-Website weitergeleitet werden, die eine Verbindung mit dem Teams-Dienst bereitstellt. Ein Ziel dieses Tests ist das Auswerten von Netzwerk Leistungsmetriken für Paketverluste, Jitter, Roundtrip-Latenz und den Prozentsatz der Paket Neuanordnung für jeden simulierten Anruf. Darüber hinaus überprüft der Test, ob die richtige Konnektivität zwischen internen und Edge-Netzwerkelementen für alle Edge-Ingress-Punkte zulässig ist, die die Konnektivität zu den Teams-Diensten unterstützen.
 
-Zusätzliche Hinweise zum Bestätigen und Auswerten von Teams Bereitschaft des Netzwerks für festgelegte Websites im Gültigkeitsbereich finden Sie unter Bereitschaft des [Netzwerks](https://docs.microsoft.com/MicrosoftTeams/prepare-network) .
+Weitere Informationen dazu, wie Sie die Netzwerk Bereitschaft von Teams für bestimmte Websites im Umfang bestätigen und bewerten können, finden Sie unter [Netzwerk](https://docs.microsoft.com/MicrosoftTeams/prepare-network) Bereitschaft.
 
 > [!TIP]
->   Zum Ausführen von Netzwerk-Bereitschaft Analyse und Bereitschaft für Websites im Bereich bestimmen Sie ein potenziellen Kunden für jeden Standort, die mit Ihrer Netzwerk Bereitschaft Evaluation sind hilfreich sein kann.
+>   Um die Netzwerkbereitschaftsanalyse und die Bereitschaft für Websites im Bereich abzuschließen, weisen Sie einen Lead für jede Website zu, die bei der Evaluierung Ihrer Netzwerk Bereitschaft behilflich sein kann.
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie dem Netzwerk Assessment and Connectivity testing Profil für Websites in Bereich.</li><li>Entscheiden Sie Netzwerk Assessment Datei konfigurationsanforderungen für Websites im Bereich.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Konfigurieren Sie im Bereich Assessment Konfiguration Datei netzwerkanforderungen für die Websites.</li><li>Führen Sie im Bereich Netzwerk Leistung und Konnektivität Überprüfung für Websites.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie sich für das Netzwerk Beurteilungs-und Verbindungstest Profil für Websites im Bereich.</li><li>Entscheiden Sie sich für die Konfigurationsdatei Anforderungen für die Netzwerkbewertung für Websites im Bereich.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Konfigurieren Sie die Konfigurationsdatei Anforderungen für die Netzwerkbewertung für Websites im Bereich.</li><li>Führen Sie Netzwerkleistung und Verbindungsüberprüfung für Websites im Bereich aus.</li></ul></td></tr>
 </table>
 
 
 
-### <a name="document-network-connectivity-and-performance-validation-test-results"></a>Dokument-Netzwerk und die Leistung Validierung Testergebnisse
+### <a name="document-network-connectivity-and-performance-validation-test-results"></a>Testergebnisse für die Dokument Netzwerkkonnektivität und Leistungsüberprüfung
 
-Nachdem Sie alle Netzwerkkonnektivität und Testen der Leistung für die Websites im Bereich abgeschlossen haben, Erstellen eines Berichts, das Testergebnisse zusammengefasst und bei der nächsten Lenkungsausschuss Überprüfung.
+Nachdem Sie alle Netzwerk Konnektivitäts-und Leistungstests für die Websites im Bereich abgeschlossen haben, erstellen Sie einen Bericht, der die Testergebnisse zusammenfasst und während der nächsten Überprüfung des Lenkungsausschusses präsentiert.
 
-#### <a name="site-a-network-connectivity-and-performance-summary-report"></a>A: Netzwerk und die Leistung Websiteübersichtsbericht
+#### <a name="site-a-network-connectivity-and-performance-summary-report"></a>Website A: Bericht zu Netzwerkkonnektivität und Leistungszusammenfassung
 
 > [!TIP]
-> Im folgenden ist eine Beispiel-Netzwerk und die Leistung Zusammenfassung Vorlage, die Sie bei der nächsten Lenkungsausschuss Überprüfung verwenden können, bei der Entscheidung sind allgemeine Bereitschaft des Netzwerks für Websites im Bereich.
+> Nachfolgend finden Sie ein Beispiel für eine Netzwerkkonnektivität und eine Leistungs Zusammenfassungs Vorlage, die Sie während der nächsten Überprüfung des Lenkungsausschusses verwenden können, wenn Sie die Gesamtnetzwerk Bereitschaft für Websites im Bereich ermitteln.
 
-**Standort: Seattle [inneren verkabelt] Client für Office 365-Ergebnisse**
+**Ort: Seattle [in Wired] Client zu Office 365 Ergebnisse**
 
-**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Fehler 
+**Zusammenfassung**der&nbsp;&nbsp;&nbsp;Ergebnisse: & # 9744; &nbsp; &nbsp; Übergeben&nbsp; Sie & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Nicht 
 
 
 
-| Metrik                                                        |  Target                                                                                                            | Weekday: Geschäftszeiten 9:30 Uhr bis 11:00                                                                                                                                                                                                                                                                                                 | Weekday: Geschäftszeiten 14:30 Uhr bis 4:30 Uhr | Weekday: nach Stunden 10:30 Uhr auf 12:30 Uhr ausgeführt. | Wochenende: nach Stunden 9:30 Uhr um 11:30 Uhr ausgeführt. | Wochenende: nach Stunden 14:30 Uhr bis 4:30 Uhr |
+| Metrik                                                        |  Target                                                                                                            | Wochentag: Bürozeiten 9:30 Uhr bis 11:00 Uhr                                                                                                                                                                                                                                                                                                 | Wochentag: Office Hours 2:30 pm to 4:30 pm | Wochentag: nach Stunden 10:30 Uhr bis 12:30 Uhr | Wochenende: nach Stunden 9:30 Uhr bis 11:30 Uhr | Wochenende: nach Stunden 2:30 Uhr bis 4:30 Uhr |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------|------------------------------------------|-----------------------------------------
-| Wartezeit (unidirektional)                                             | \<50 ms                                                                                                           | 40 ms                                                                                                                                                                                                                                                                                                                                     | 38 ms                                    | 41 ms                                     | 35 ms                                    | 36 ms                                   |
-| Wartezeit (Roundtripzeit oder Zeit)                             | \<100 ms                                                                                                          | 81 ms                                                                                                                                                                                                                                                                                                                                     | 77 ms                                    | 80 ms                                     | 72 ms                                    | 70 ms                                   |
-| Bursts von Paketverlusten                                             | \<10 % Intervall 200 ms                                                                                  | 3%                                                                                                                                                                                                                                                                                                                                        | 2 %                                       | 2 %                                        | 0.2 %                                     | 0,1 %                                    |
-| Paketverlust                                                   | \<1 % Intervall 15 s                                                                                   | 0,4 %                                                                                                                                                                                                                                                                                                                                      | 0,3 %                                     | 0,3 %                                      | 0,1 %                                     | 0%                                      |
-| Die Kommunikation zwischen hinzukommen Jitter Paket                                   | \<während ein Intervall von 15 s 30 ms                                                                                | 12 ms                                                                                                                                                                                                                                                                                                                                     | 11 ms                                    | 13 ms                                     | 5 ms                                     | 5 ms                                    |
-| Paket neu anordnen                                                | \<0,05 % außerhalb der Reihenfolge Pakete                                                                                      | 0 %                                                                                                                                                                                                                                                                                                                                        | 0 %                                       | 0 %                                        | 0 %                                       | 0 %                                      |
+| Latenz (eine Möglichkeit)                                             | \<50 ms                                                                                                           | 40 ms                                                                                                                                                                                                                                                                                                                                     | 38 MS                                    | 41 MS                                     | 35 MS                                    | 36 MS                                   |
+| Latenz (Roundtrip-Zeit oder RTT)                             | \<100 MS                                                                                                          | 81 MS                                                                                                                                                                                                                                                                                                                                     | 77 MS                                    | 80 ms                                     | 72 MS                                    | 70 MS                                   |
+| Burst-Paketverlust                                             | \<10% während eines beliebigen 200-MS-Intervalls                                                                                  | 3%                                                                                                                                                                                                                                                                                                                                        | 2                                       | 2                                        | 0,2%                                     | 0,1%                                    |
+| Paketverlust                                                   | \<1% während eines 15-Sekunden-Intervalls                                                                                   | 0,4%                                                                                                                                                                                                                                                                                                                                      | 0,3%                                     | 0,3%                                      | 0,1%                                     | 0%                                      |
+| Paket Inter-arrival Jitter                                   | \<30 ms während eines 15-Sekunden-Intervalls                                                                                | 12 ms                                                                                                                                                                                                                                                                                                                                     | 11 ms                                    | 13 ms                                     | 5 ms                                     | 5 ms                                    |
+| Paket Reihenfolge                                                | \<0,05% Pakete außerhalb der Reihenfolge                                                                                      | 0 %                                                                                                                                                                                                                                                                                                                                        | 0 %                                       | 0 %                                        | 0 %                                       | 0 %                                      |
 
 
 
 <table>
-<tr><th colspan="2">Testen der highlights </th></tr>
+<tr><th colspan="2">Test Highlights </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Testen der Schwachstellen  </th></tr> 
-<tr><td><strong>Problem</strong>: hoher Wartezeit</td><td><strong>Remediation:</strong> Untersuchen Sie die Paket-routing, und implementieren Sie die optimale Route.</td></tr>
-<tr><td><strong>Problem</strong>: Roundtripzeit Isn& #39; die Latenz Doppelklicken t</td><td><strong>Remediation:</strong> Überprüfen Sie eine mögliche Firewall oder dem Router Konfigurationsproblem. Untersuchen Sie Datenverkehr Pfade.</td></tr>
-<tr><td><strong>Problem</strong>: hohe Paketverluste </td><td><strong>Remediation:</strong> Überprüfen Sie, ob über das Netzwerk Planner genügend Bandbreite zugewiesen wurde. </td></tr>
-<tr><td><strong>Problem</strong>: hohe Jitter </td><td> <strong>Remediation:</strong> Überprüfen Sie, ob die richtigen differentiated Services Code Point (DSCP)-Werte verwendet werden. </td></tr>
-<tr><td><strong>Problem</strong>: hohe Paketverluste </td><td><strong>Remediation:</strong> Untersuchen von Paketverlusten. </td></tr>
-<tr><td><strong>Problem</strong>: hohe Paket neu anordnen </td><td><strong>Remediation:</strong> Untersuchen Sie Router Berichterstellungsdienst und Bandbreite. </td></tr>
-<tr><th colspan="2">Identifiziert Popupblockern </td></tr>
-<tr><td><strong>Blockierenden Person</strong>: TBD</td><td><strong>Remediation</strong>: TBD</td></tr>
+<tr><th colspan="2">Testen von Lowlights  </th></tr> 
+<tr><td><strong>Problem</strong>: große Latenz</td><td><strong>Behebung:</strong> Untersuchen Sie die Paketweiterleitung, und implementieren Sie die ideale Route.</td></tr>
+<tr><td><strong>Problem</strong>: Roundtrip-Zeit isn& # 39; t doppelte Wartezeit</td><td><strong>Behebung:</strong> Untersuchen Sie eine mögliche Firewall oder Router-Konfigurationsproblem. Untersuchen von Verkehrswegen</td></tr>
+<tr><td><strong>Problem</strong>: großer Paketverlust </td><td><strong>Behebung:</strong> Überprüfen Sie im Netzwerk Planner, ob genügend Bandbreite zugeteilt wurde. </td></tr>
+<tr><td><strong>Problem</strong>: starker Jitter </td><td> <strong>Behebung:</strong> Überprüfen Sie, ob die richtigen DSCP-Werte (differenzierte Services Code Point) verwendet werden. </td></tr>
+<tr><td><strong>Problem</strong>: großer Paketverlust </td><td><strong>Behebung:</strong> Untersuchen Sie den Paketverlust. </td></tr>
+<tr><td><strong>Problem</strong>: höhere Paket Reihenfolge </td><td><strong>Behebung:</strong> Untersuchen Sie die Router-Warteschlange und die Bandbreite. </td></tr>
+<tr><th colspan="2">Identifizierte Blocker </td></tr>
+<tr><td><strong>Blocker</strong>: festgelegt</td><td><strong>Behebung</strong>: festgelegt</td></tr>
 </table>
 
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Bewerten der Netzwerk-Bewertung und Konnektivität testen Ergebnisse, um sicherzustellen, dass Sie die in <a href="https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance" data-raw-source="[Media quality and network connectivity performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)">der Leistung für die Qualität und Netzwerk Konnektivität Medien</a> für die Edge-Segment und den Client Segmente beschriebenen Anforderungen erfüllen.</li><li>Haben Sie Netzwerkfunktionen zur Unterstützung von Real-Time Media für alle Websites in Bereich ausgewertet?</li><li> Wenn Ihr Netzwerk ordnungsgemäß bewertet wurde noch nicht oder wissen Sie, dass in Echtzeit Medien wird nicht unterstützt, wird Video deaktivieren und Bildschirmfreigabe-Funktionen zur Reduzierung von Netzwerk auswirken und Verbessern der benutzerfreundlichkeit von Teams für Benutzer?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Leistung des Netzwerks und Konnektivität Testergebnisse des Dokuments.</li><li>Ausweitung und-Wartung Pläne und Behandeln von Problemen mit Websites, in dem es steht nicht genügend Bandbreite oder Leistung und Konnektivität netzwerkanforderungen erfüllt werden nicht, ausgeführt.</li><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Vorhanden Zusammenfassung Testergebnissen Lenkungsausschusses, Bereiche zu identifizieren, die Behebung erforderlich machen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Bewerten Sie die Ergebnisse der Netzwerkbewertung und-Konnektivität, um sicherzustellen, dass Sie die Anforderungen unter <a href="https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance" data-raw-source="[Media quality and network connectivity performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)">Medienqualität und Netzwerkkonnektivität</a> für die Segmente Edge-Segment und Client erfüllen.</li><li>Haben Sie Netzwerkfunktionen zur Unterstützung von Echt Zeit Medien für alle Websites im Umfang ausgewertet?</li><li> Wenn Ihr Netzwerk nicht richtig bewertet wurde oder Sie wissen, dass es keine Echt Zeit Medien unterstützt, können Sie die Video-und Bildschirmfreigabe Funktionen deaktivieren, um die Auswirkungen auf das Netzwerk zu verringern und die Team Erfahrung für Benutzer zu verbessern?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren von Netzwerkleistung und Verbindungstest Ergebnissen</li><li>Führen Sie Eskalations-und Sanierungspläne aus, um Probleme mit Websites zu beheben, bei denen nicht genügend Bandbreite vorhanden ist, oder die Anforderungen an die Netzwerkleistung und Konnektivität nicht erfüllt werden.</li><li>Planen Sie eine Sitzung des Lenkungsausschusses, um die Ergebnisse der Test Zusammenfassung zu überprüfen.</li><li>Präsentieren Sie dem Lenkungsausschuss Test Zusammenfassungsergebnisse, um alle Bereiche zu identifizieren, für die eine Sanierung erforderlich ist.</li></ul></td></tr>
 </table>
 
 
-<a name="execute-subscriber-number-port-validation"></a>Führen Sie den Teilnehmerzugriff Port Prüfung
+<a name="execute-subscriber-number-port-validation"></a>Portüberprüfung für Abonnenten Nummern ausführen
 -----------------------------------------
 
-Wenn Sie zum Übertragen von Zahlen im Rahmen der Bereitstellung von eingehenden und ausgehenden aufrufende Funktionen in Telefonsystem mit Aufrufen plant Services unterstützt von Teams benötigen, sollten Sie einen partiellen Port für eine Zahl Service durchführen. Dies hilft Ihnen die erwartete sowie Anforderungen und angemessene Zeitachse zu überprüfen, wie Sie die Vorbereitung der bereitstellungs von Telefonsystem mit Aufrufen plant Services in Ihrer produktionsumgebung abgeschlossen.
+Wenn Sie im Rahmen der Bereitstellung von Rufnummern für eingehende und ausgehende Anrufe im Telefon System mit Anruf Plan Diensten, die von Teams unterstützt werden, übertragen müssen, sollten Sie einen teilweisen Port für eine Dienstnummer ausführen. Auf diese Weise können Sie die Erwartungen, Anforderungen und die angemessene Zeitachse überprüfen, wenn Sie mit der Vorbereitung Ihrer Bereitstellung des Telefonsystems mit Anruf Plan Diensten in Ihrer Produktionsumgebung fertig sind.
 
-Um eine partielle Port eine Teilnehmernummer aus Ihrer aktuellen PSTN-Dienstanbieter Teams abgeschlossen haben, durchlaufen Sie die unten beschriebenen Schritte aus.
+Führen Sie die nachstehenden Schritte aus, um eine Teil Portierung einer Teilnehmernummer von Ihrem aktuellen PSTN-Dienstanbieter zu Teams abzuschließen.
 
 #### <a name="step-1"></a>Schritt 1
 
-Identifizieren Sie die Test-Nummer, die an den port zu Office 365 als Zahl (Teilnehmernummer) zugeordnet werden Benutzer, die über das Telefonsystem mit Aufrufen plant Service in Teams gewartet werden soll.
+Ermitteln Sie die Testnummer, die Sie an Office 365 portieren möchten, als eine übertragbare Benutzernummer (Teilnehmernummer), die über das Telefon System mit Anruf Plan Service in Teams gewartet werden soll.
 
 > [!IMPORTANT]
->Bei der Planung Ihrer Nummern Portieren Test werden Sie die neuesten Richtlinien für Nummern Portieren Anforderungen in [Anzahl Port häufig gestellte Fragen](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)zu überprüfen.
+>Achten Sie bei der Planung Ihres Nummern Portierungs Tests darauf, dass Sie die neuesten Richtlinien für die Nummern Portierungs Anforderungen in den [häufig gestellten Fragen](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)zu Number Port überprüfen.
 
 #### <a name="step-2"></a>Schritt 2
 
-Identifizieren Sie und Dokumentieren Sie alle Kontoinformationen (einschließlich des Namens, der für das jeweilige Konto verwendet) für die aktuelle Netzbetreiber der Testzahl, die Sie benötigen Portieren werden.
-In der Regel finden Sie die Informationen in der neuesten Bill oder Rechnung müssen vom aktuellen Dienstanbieter.
+Identifizieren und dokumentieren Sie alle Kontoinformationen (einschließlich des für das jeweilige Konto verwendeten namens) für den aktuellen Netzbetreiber der Testnummer, die Sie portieren werden.
+In der Regel können Sie die benötigten Informationen in der letzten Rechnung oder Rechnung Ihres aktuellen Dienstanbieters finden.
 
 > [!TIP]
->   Sie können portieren oder Übertragung von Telefonnummern in allen derzeit Länder/Regionen unterstützt; möglicherweise die Möglichkeit, die Sie eine Port Reihenfolge Anforderung übermitteln, je nach Land/Region unterscheiden sich jedoch, in dem die Telefonnummern aus Quelle werden. Die aktuelle Liste der derzeit unterstützte Länder/Regionen finden Sie unter [Ländern und Region Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+>   Sie können Telefonnummern in allen derzeit unterstützten Ländern/Regionen portieren oder übertragen; die Art und Weise, wie Sie eine Portierungs Auftragsanforderung übermitteln, kann je nach Land/Region unterschiedlich sein, aus dem die Telefonnummern stammen. Die aktuelle Liste der derzeit unterstützten Länder/Regionen finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 > 
->   Weitere Informationen zum Übertragen von Telefonnummern an Telefonsystem mit Aufrufen plant – zusammen mit potenziellen Einschränkungen – finden Sie unter [Weiterleiten von Telefonnummern zu Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) und [gebührenfreie kostenlose einwählen Einschränkungen in Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.).
+>   Weitere Informationen zum Übertragen von Telefonnummern in das Telefon System mit Anrufplänen sowie potenzielle Einschränkungen finden Sie unter [übertragen von Telefonnummern an Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) und [gebührenfreie Wähleinschränkungen in Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.).
 
 #### <a name="step-3"></a>Schritt 3
 
-Herunterladen Sie und erstellen Sie einen Buchstaben der Autorisierung (Geladene) für Ihr Land/Region, die als Zahl Portieren Typ auf "Service Anzahl" basiert.
+Laden Sie einen Letter of Authorization (LoA) für Ihr Land/Ihre Region, der auf "Service Number" basiert, als Nummernportierung herunter.
 
 >[!NOTE]
->   Da Geladene Formate nach Land, Region oder Datentyp Zahl unterscheiden können (, ist im Vergleich zu nicht geografische geografische oder Benutzer im Vergleich zu Dienst oder gebührenfreie Nummer), stellen Sie sicher, dass Sie die richtige Geladene Dokumentvorlage für den bestimmten Szenarios Typ verwenden. Finden Sie weitere Informationen zur Auswahl der Geladene [Buchstaben der Autorisierung (Geladene) herunterladen](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/download-a-letter-of-authorization-loa) , oder rufen Sie direkt die [Downloadseite](https://www.microsoft.com/download/details.aspx?id=49167).
+>   Da sich die Formate für Loa nach Land, Region oder Zahlentyp unterscheiden können (geografischer Vergleich, nicht geografischer oder Nutzerzahl versus Dienst oder gebührenfreie Nummer), stellen Sie sicher, dass Sie die richtige Loa-Vorlage für Ihren bestimmten szenariotyp verwenden. Weitere Informationen zum Auswählen des Loa oder direkt zur [Download Seite](https://www.microsoft.com/download/details.aspx?id=49167)finden Sie unter [Herunterladen eines Genehmigungsschreibens (LoA)](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/download-a-letter-of-authorization-loa) .
 
 >[!NOTE]
-> **Nur USA**<br/>
->   Da wir eine Service-Nummer für diesen Test nur Portieren sind, müssen Sie die entsprechenden Felder in das Geladene wie folgt aus:
+> **Nur Vereinigte Staaten**<br/>
+>   Da wir nur eine Dienstnummer für diesen Test portieren, stellen Sie sicher, dass Sie die entsprechenden Felder in der Loa auswählen, wie unten dargestellt:
 
-![Wie viele Rufnummern sollen Sie übertragen werden? Antwort: Ich bin nur übertragen einiger Meine Zahlen aus der aktuellen meines.] (media/onboarding-test-plan-image1.png "Wie viele Rufnummern sollen Sie übertragen werden? Antwort: Ich bin nur übertragen einiger Meine Zahlen aus der aktuellen meines.")
+![Wie viele Telefonnummern werden übertragen? Antwort: Ich übertrage nur einige meiner Nummern von meinem derzeitigen Netzbetreiber.] (media/onboarding-test-plan-image1.png "Wie viele Telefonnummern werden übertragen? Antwort: Ich übertrage nur einige meiner Nummern von meinem derzeitigen Netzbetreiber.")
 
-![Welche Art von Rufnummern sollen Sie übertragen werden? Antwort: Ich bin VoIP-Dienst Rufnummern wie für automatische Telefonzentralen oder Konferenzbrücken übertragen.] (media/onboarding-test-plan-image2.png "Welche Art von Rufnummern sollen Sie übertragen werden? Antwort: Ich bin VoIP-Dienst Rufnummern wie für automatische Telefonzentralen oder Konferenzbrücken übertragen.")
+![Welche Art von Telefonnummern werden Sie übertragen? Antwort: Ich übertrage Telefonnummern für Sprachdienste wie für automatische Telefonzentralen oder Konferenz Brücken.] (media/onboarding-test-plan-image2.png "Welche Art von Telefonnummern werden Sie übertragen? Antwort: Ich übertrage Telefonnummern für Sprachdienste wie für automatische Telefonzentralen oder Konferenz Brücken.")
 
 >[!IMPORTANT]
->   Wenn Sie Rufnummern manuell mithilfe eines Geladene port, stellen Sie sicher, dass Sie den korrekten Typ der Telefonnummer auswählen. Sie müssen für jede zur Übertragung vorgesehene Art von Telefonnummer einen separaten Portierungsauftrag einreichen.<br/><br/>
->   Da wir die Anzahl Portieren Prozess mithilfe einer dieselbe Art der Rechnungslegung Telefonnummer (BTN) zugeordneten Telefonnummer testen möchten, müssen Sie sicherstellen, dass die Art der Rechnungslegung Telefonnummer ist *nicht* enthalten, mit der bestimmte Telefonnummer übertragen wird.
+>   Wenn Sie Telefonnummern manuell mithilfe eines Loa portieren, stellen Sie sicher, dass Sie die richtige Art von Telefonnummer auswählen. Sie müssen für jede zur Übertragung vorgesehene Art von Telefonnummer einen separaten Portierungsauftrag einreichen.<br/><br/>
+>   Da wir den Nummern Portierungsprozess mithilfe einer Telefonnummer testen möchten, die mit der gleichen Abrechnungs Telefonnummer (BTN) verbunden ist, müssen Sie sicherstellen, dass die Abrechnungs Telefonnummer *nicht* in der angegebenen Telefonnummer enthalten ist, die portiert werden soll.
 
 #### <a name="step-4"></a>Schritt 4
 
-Wechseln zur Registerkarte **Unterstützung** dem Mandanten-Verwaltungsportal erstellen und Übermitteln einer Anforderung. Fügen Sie der abgeschlossenen Geladene Datei so planen Sie die Telefonnummer für die Migration Ihrer aktuellen Dienstanbieter zugeordnet. Die Service-Anforderung-Methode für die Größe Ihres Mandanten am besten geeigneten finden Sie unter [einer benutzerdefinierten Anforderung manuell zu senden](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request).
+Wechseln Sie im Mandanten-Admin-Portal zur Registerkarte **Support** , und erstellen und senden Sie eine Serviceanfrage. Fügen Sie die fertige Loa-Datei an, um die Telefonnummer zu planen, die Ihrem aktuellen Dienstanbieter für die Migration zugeordnet ist. Informationen zum Auswählen der Dienst Anforderungsmethode, die für Ihre Mandanten Größe am besten geeignet ist, finden Sie unter Manuelles über [Mitteln einer benutzerdefinierten Serviceanfrage](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request).
 
-Nachdem die Support-Anforderung empfangen wurde, wird Microsoft Support nachverfolgung basierend auf der Kommunikationsmethode ausgewählt haben und empfehlen Ihnen der Status und weitere Schritte für Nummern Portieren Vorgang wird beendet.
+Nachdem die Support-Anfrage eingegangen ist, wird der Microsoft-Support nach der von Ihnen ausgewählten Kommunikationsmethode nachverfolgen und Sie über den Status und die nächsten Schritte zum Abschließen des Nummern Portierungs Prozesses informieren.
 
 #### <a name="step-5"></a>Schritt 5
 
-Nachdem die Anzahl als müssen über übertragen wurde, als eine neue Teilnehmernummer in Office 365 bestätigt wurde, weisen Sie die Anzahl das Telefonsystem mit Dienst aufrufen plant durch das Aufrufen der Mandanten-Verwaltungsportal \> **Skype für Business Admin Center** \> ** VoIP**. Klicken Sie auf der Registerkarte **Rufnummern** weisen Sie die neue Servicenummer das Telefonsystem mit Dienst plant aufrufen.
+Nachdem die Nummer bestätigt wurde, dass Sie als neue Rufnummer in Office 365 portiert wurde, weisen Sie die Nummer dem Telefon System mit Anruf Plandienst zu, indem Sie zum mandantenadministrator-Portal \> **Skype for Business Admin Center** \> **wechseln. Sprachausgabe**. Weisen Sie auf der Registerkarte **Telefonnummern** die neue Dienstnummer dem Telefon System mit Anruf Plandienst zu.
 
 > [!TIP]
->   Obwohl diese Aufgabe eine neue Servicenummer Telefonsystem mit Aufrufen plant, zum Zeitpunkt der Erstellung dieses Dokuments zugewiesen wird, wird die Verwaltung für diese Aufgabe abgeschlossen, mithilfe der Skype für Business Administrationscenter.
+>   Obwohl diese Aufgabe dem Telefon System eine neue Dienstnummer mit Anrufplänen zuweist, wird zum Zeitpunkt der Erstellung dieses Artikels die Verwaltung für diese Aufgabe mithilfe des Skype for Business admin Centers abgeschlossen.
 
 #### <a name="step-6"></a>Schritt 6
 
-Nun, dass Sie die Port aus Teilnehmernummer zugewiesen haben, melden Sie sich an einen Client Teams, wie der Benutzer und wählen Sie eine externe Nummer 10 Ziffern über das PSTN ein. Nachdem Sie den Anruf zu tätigen, vergewissern Sie sich, dass der Anruf verbunden wurde und dass die angezeigten Anrufer-ID die Teilnehmernummer entspricht, die Sie übertragen.
+Nachdem Sie die portierte Teilnehmernummer zugewiesen haben, müssen Sie sich als Benutzer bei einem Team-Client anmelden und über das PSTN eine externe 10-stellige Nummer wählen. Nachdem Sie den Anruf tätigen, stellen Sie sicher, dass der Anruf verbunden wurde und dass die angezeigte Rufnummernanzeige mit der von Ihnen portierten Abonnentennummer übereinstimmt.
 
 #### <a name="step-7"></a>Schritt 7
 
-Eine externe PSTN-Nummer einen Anruf an die Rufnummer des Teilnehmers, dass Sie in Office 365 übertragen, und stellen Sie sicher, dass den Anruf empfangen hat eingehenden und über die Teams Client verbunden ist.
+Führen Sie von einer externen PSTN-Nummer einen Anruf an die Abonnentennummer, die Sie nach Office 365 portiert haben, und überprüfen Sie, ob der Anruf eingehende und über den Team-Client verbundene Anrufe empfangen wird.
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche nationalen Abonnenten Nummern, die Sie nach Land/Region auf Port, benötigen.</li><li>Entscheiden Sie, welche Geladene Vorlage, die Sie verwenden möchten.</li><li>Bestimmen, ob Ihre aktuellen Netzbetreiber (riskieren Netzbetreiber) Phone Number Fragmentierung zulässt (d. h., Partial-Port Orders erlaubt).</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Sammeln Sie die erforderliche Informationen und Vorbereiten Sie die Koordinations.</li><li>Herunterladen Sie, und schließen Sie die Geladene Vorlagen, die Sie benötigen.</li><li>Fordern Sie ein Abonnenten Zahl portieren.</li><li>Führen Sie Test Validierung Port aus Zahlen, indem Sie das Telefonsystem mit Aufrufen plant Service für DFÜ-Zugriff zuweisen, und vergewissern Sie sich, dass sie funktionieren, wie in Schritt 6 und 7 weiter oben in diesem Abschnitt beschrieben.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche inländischen Teilnehmer Nummern Sie nach Land/Region portieren müssen.</li><li>Entscheiden Sie, welche Loa-Vorlage Sie verwenden möchten.</li><li>Ermitteln Sie, ob Ihr derzeitiger Netzbetreiber (Unternehmens-Carrier) die Fragmentierung von Telefonnummern zulässt (also teilweise Port Bestellungen zulässt).</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Sammeln Sie die erforderlichen Informationen, und bereiten Sie die LOAs vor.</li><li>Laden Sie die benötigten Loa-Vorlagen herunter, und füllen Sie Sie aus.</li><li>Übermitteln Sie eine Portierungs Anfrage für eine Teilnehmernummer.</li><li>Führen Sie die Testüberprüfung für portierte Nummern durch, indem Sie diese dem Telefon System mit dem Anruf Plandienst für Einwahlzugriff zuweisen und bestätigen, dass Sie funktionieren, wie in den Schritten 6 und 7 weiter oben in diesem Abschnitt beschrieben.</li></ul></td></tr>
 </table>
 
 
-### <a name="document-service-number-porting-test-results"></a>Dokumentieren Sie Testergebnisse Portieren Service-Nummer
+### <a name="document-service-number-porting-test-results"></a>Portieren von Testergebnissen für die Dokumentdienst Nummer
 
-Nachdem Sie alle Abonnenten Zahl Tests abgeschlossen haben, erstellen Sie einen Bericht, der eine Zusammenfassung Testergebnisse während der nächsten Lenkungsausschuß Überprüfung durchzuführen.
+Nachdem Sie alle Teilnehmer Nummern Tests abgeschlossen haben, erstellen Sie einen Bericht, der die Testergebnisse zusammenfasst, die während der nächsten Überprüfung des Lenkungsausschusses zu präsentieren sind.
 
-#### <a name="site-a-number-porting-test-summary-report"></a>A: Nummer Test Zusammenfassungsbericht Portieren
+#### <a name="site-a-number-porting-test-summary-report"></a>Bericht "Website A: Nummern Portierungs Test"
 
 > [!TIP]
->   Es folgt ein Beispiel Test Berichtsvorlage summary, mit denen Sie zur Überprüfung während der nächsten Besprechung Lenkungsausschuss Wenn Sie in der Pilotphase zur integrierten Telefonsystem mit Aufrufen plant Services entscheiden.
+>   Nachfolgend finden Sie eine Beispielvorlage für Test Zusammenfassungsberichte, die Sie während der nächsten Sitzung des Lenkungsausschusses zur Überprüfung verwenden können, wenn Sie entscheiden, wann das Telefon System mit Anruf Plan Diensten in der Pilot Phase integriert werden soll.
 
-**Portieren Service-Nummer**
+**Dienstnummern Portierung**
 
-**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Fehler 
+**Zusammenfassung**der&nbsp;&nbsp;&nbsp;Ergebnisse: & # 9744; &nbsp; &nbsp; Übergeben&nbsp; Sie & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Nicht 
 
 <table>
-<tr><th colspan="2">Testen der highlights </th></tr>
+<tr><th colspan="2">Test Highlights </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Testen der Schwachstellen  </th></tr><br/><tr><td><strong>Problem</strong>: TBD</td><td><strong>Remediation:</strong> TBD</td></tr>
-<tr><th colspan="2">Identifiziert Popupblockern </td></tr>
-<tr><td><strong>Blockierenden Person</strong>: TBD</td><td><strong>Remediation</strong>: TBD</td></tr>
+<tr><th colspan="2">Testen von Lowlights  </th></tr><br/><tr><td><strong>Problem</strong>: festgelegt</td><td><strong>Behebung:</strong> TBD</td></tr>
+<tr><th colspan="2">Identifizierte Blocker </td></tr>
+<tr><td><strong>Blocker</strong>: festgelegt</td><td><strong>Behebung</strong>: festgelegt</td></tr>
 </table>
 
 
 > [!TIP]
->   Um weitere Erörterung während der letzten Lenkungsausschuss Überprüfung zu erleichtern, können Sie die aktualisierte [Testergebnisse Matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) bereitgestellt von [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) zu dokumentieren und markieren Sie zusätzliche Test Bereiche, die Behebung erforderlich machen.
+>   Zur Erleichterung weiterer Diskussionen während der letzten Überprüfung des Lenkungsausschusses können Sie die aktualisierte [Testergebnis Matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) verwenden, [](https://myadvisor.fasttrack.microsoft.com/) die von myadvisor zur Verfügung gestellt wird, um weitere Testbereiche zu dokumentieren und hervorzuheben, die eine Korrektur erfordern.
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Überprüfen Sie, ob Abonnenten Zahlen übermittelt für die Migration erfolgreich in das Telefonsystem mit Aufrufen plant Dienst übertragen wurden.</li><li>Überprüfen Sie, ob Sie das Telefonsystem mit Dienst aufrufen plant übertragen Service Number zuweisen konnten.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Die Nummer Ihres Portieren Testergebnisse des Dokuments.</li><li>Führen Sie die Ausweitung und-Wartung Pläne und zu beheben, mit denen, die Sie die Nummer Portieren Prozess vertraut, sofern vorhanden.</li><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Stellen Sie die Zusammenfassung Testergebnisse des Verwaltungshaushaltsplans, Bereiche zu identifizieren, die Behebung erforderlich machen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Überprüfen Sie, ob die für die Migration übermittelten Abonnenten Nummern erfolgreich mit dem Anruf Plandienst auf das Telefon System portiert wurden.</li><li>Überprüfen Sie, ob Sie dem Telefon System die portierte Dienstnummer mit Anruf Plandienst zuweisen konnten.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie Ihre Nummer, um die Testergebnisse zu portieren.</li><li>Führen Sie Eskalations-und Sanierungspläne aus, um Probleme zu beheben, die Sie mit dem Nummern Portierungsprozess (falls vorhanden) hatten.</li><li>Planen Sie eine Sitzung des Lenkungsausschusses, um die Ergebnisse der Test Zusammenfassung zu überprüfen.</li><li>Präsentieren Sie die Test Zusammenfassungsergebnisse dem Lenkungsausschuss, um alle Bereiche zu identifizieren, die eine Sanierung erfordern.</li></ul></td></tr>
 </table>
 
 
-<a name="execute-your-test-plan-for-phone-system-with-calling-plans"></a>Testplan für Telefonsystem mit Aufrufen plant ausführen
+<a name="execute-your-test-plan-for-phone-system-with-calling-plans"></a>Ausführen Ihres Testplans für das Telefon System mit Anrufplänen
 ----------------------------------------------------------
 
-Nun, da Sie Testplan definiert haben, im nächsten Schritt wird die Testfälle durchlaufen, Konzentration auf die Auswertung der Telefonsystem mit Aufrufen plant Verwaltungs- und Benutzer erleben Sie die Funktionen im Bereich. Vor dem Testen tatsächlich begonnen hat, stellen Sie sicher, dass die unten aufgeführten testing erforderlichen Komponenten vorhanden sind.
+Nachdem Sie Ihren Testplan definiert haben, besteht der nächste Schritt darin, die Testfälle zu durchlaufen, wobei der Schwerpunkt auf der Bewertung des Telefonsystems mit der Verwaltung von Anrufplänen und den Features der Benutzeroberfläche im Bereich liegt. Überprüfen Sie vor dem eigentlichen testen, ob die unten aufgeführten testvoraussetzungen vorhanden sind.
 
-### <a name="phone-system-with-calling-plans-testing-prerequisites"></a>Telefonsystem mit Aufrufen plant testen erforderliche Komponenten
+### <a name="phone-system-with-calling-plans-testing-prerequisites"></a>Telefon System mit Voraussetzungen für das Testen von Anrufplänen
 
--   Anwendungsbeispiele wurden für das Telefonsystem mit Dienst aufrufen plant definiert.
+-   Für das Telefon System wurden Unternehmens-Anwendungsfälle mit Anruf Plan Service definiert.
 
--   Der verantwortlichen wurden identifiziert.
+-   Wichtige Stakeholder wurden identifiziert.
 
--   Die Lizenzierung für Telefonsystem mit Services aufrufen Pläne erforderlich ist und für die Gruppe von Benutzern im Bereich zugewiesen wurde.
+-   Die für das Telefon System erforderliche Lizenzierung mit Anruf Plan Diensten steht zur Verfügung und wurde der Gruppe der Benutzer im Bereich zugewiesen.
 
--   Die Liste der Organisationseinheit Websites und Benutzergruppen in den Bereich ermittelt wurden.
+-   Die Liste der Organisations Websites und Benutzergruppen im Bereich wurde identifiziert.
 
--   [Communications haben](what-are-communications-credits.md) (falls erforderlich) Ihrer Organisation eingerichtet wurden.
+-   [Guthaben](what-are-communications-credits.md) für Kommunikationen (falls erforderlich) wurden für Ihre Organisation eingerichtet.
 
--   Telefonsystem mit Einstellungen aufrufen plant identifiziert und konfiguriert wurden.
+-   Telefon System mit Einstellungen für Anrufpläne wurden identifiziert und konfiguriert.
 
--   Mandanten-Wählplan Einstellungen, die mit Aufrufen plant Telefonsystem unterstützen identifiziert, konfiguriert und für die Gruppe von Benutzern im Bereich angewendet wurde.
+-   Einstellungen für den Mandanten Wähl Plan, die das Telefon System mit Anrufplänen unterstützen, wurden für die Gruppe der Benutzer im Bereich identifiziert, konfiguriert und angewendet.
 
--   Telefonsystem mit Richtlinien plant aufrufen identifiziert und für die Gruppe von Benutzern im Bereich konfiguriert wurden.
+-   Das Telefon System mit den Richtlinien für Anrufpläne wurde für die Gruppe der Benutzer im Bereich identifiziert und konfiguriert.
 
--   Telefonsystem mit Aufrufen plant, Compliance-Bestimmungen identifiziert und für die Gruppe von Benutzern im Bereich konfiguriert wurden.
+-   Telefon System mit Anrufplänen Compliance-Anforderungen wurden für die Gruppe der Benutzer im Bereich identifiziert und konfiguriert.
 
-### <a name="document-phone-system-with-calling-plans-test-case-passfail-status"></a>Dokument Telefonsystem mit Aufrufen plant Testfall bestanden wurden oder status
+### <a name="document-phone-system-with-calling-plans-test-case-passfail-status"></a>Dokument-Telefon System mit Anrufplänen Test Case Pass/Fail-Status
 
-Testfälle für die administrative Teams und Benutzer System Telefonfunktionen im Bereich ausgewertet werden, verfolgen Sie die Ergebnisse der einzelnen Testfälle gemäß Durchlauf/Partial/Fail-Status, zusammen mit der zugewiesenen ID für die Fehler, für den Fall, dass unvorhergesehene Probleme auftreten.
+Wenn Testfälle für die Features für die Verwaltungs-und Benutzer Telefonsystem Funktionen in Scope ausgewertet werden, überwachen Sie die Ergebnisse jedes Testfalls, um den Status "Pass/Partial/Fail" zusammen mit der zugewiesenen ID des Fehlers anzuzeigen, falls unvorhergesehene Probleme auftreten.
 
-#### <a name="phone-system-with-calling-plans-test-case-status"></a>Telefonsystem mit Aufrufen plant Testfallstatus
+#### <a name="phone-system-with-calling-plans-test-case-status"></a>Telefon System mit Anrufplänen Test Case-Status
 
 > [!TIP]
->   Es folgt eine Testfall Status Beispielvorlage, mit denen Sie können Testergebnisse Dokument zur Überprüfung während der nächsten Besprechung Lenkungsausschuss Wenn Sie in der Pilotphase zur integrierten Telefonsystem mit Aufrufen plant Services entscheiden.
+>   Nachfolgend finden Sie eine Beispiel-Testfallstatus Vorlage, mit der Sie Testergebnisse zur Überprüfung während der nächsten Sitzung des Lenkungsausschusses dokumentieren können, wenn Sie entscheiden, wann das Telefon System mit Anruf Plan Diensten in der Pilot Phase verwendet werden soll.
 
-| Telefonsystem mit dem Aufrufen der Pläne          |                              |                                                                                            |                           |                                                                            |
+| Telefon System mit Anrufplänen          |                              |                                                                                            |                           |                                                                            |
 |------------------------------------------|------------------------------|--------------------------------------------------------------------------------------------|---------------------------|----------------------------------------------------------------------------|
-| Testfall-ID                             | Testfall Titel              | Testfall Beschreibung                                                                      | Ergebnisse des Testfalls Zusammenfassung | Zugewiesene Fehler-ID (falls zutreffend)                                         |
-| 1                                        | Das ausgehende PSTN-Anrufe tätigen. | Tätigen eines ausgehenden Anrufs durch Wählen einer Rufnummer für nationalen 10 Ziffern.                              |    & #9744; bestehen<br/>& #9744; Teilweise<br/> & #9744; Fehler                   | Wenn ein Benutzer eine vierstellige Zahl eingibt, schlägt fehl, der Anruf an das Telefonfestnetz platziert. |
+| Test Case-ID                             | Test Case-Titel              | Test Fallbeschreibung                                                                      | Zusammenfassung des Test Fall Ergebnisses | Zugewiesene Fehler-ID (falls zutreffend)                                         |
+| 1                                        | Ausgehende PSTN-Anrufe. | Einen ausgehenden Anruf tätigen, indem Sie eine inländische 10-stellige Nummer wählen.                              |    &#9744; Übergeben<br/>&#9744; Teilweise<br/> &#9744; Nicht                   | Wenn ein Benutzer eine vierstellige Zahl eingibt, schlägt der für das PSTN festgelegte Anruf fehl. |
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Evaluieren Sie allgemeine Testfall bestanden wurden oder Status nach Standort für Telefonsystem mit Aufrufen plant Features im Bereich.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Testfall Statusergebnisse für alle Testfälle im Bereich abgeschlossen wurde.</li><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Darstellen Sie Ergebnisse des Testfalls Status des Verwaltungshaushaltsplans alle Bereiche identifiziert, die erfordern Remediation.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Auswerten des Status "Test Case Pass/Fehler" auf hoher Ebene nach Standort für Telefon System mit Funktionen für Anrufpläne im Umfang.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die Ergebnisse des Testfallstatus für alle im Bereich abgeschlossenen Testfälle.</li><li>Planen Sie eine Sitzung des Lenkungsausschusses, um die Ergebnisse der Test Zusammenfassung zu überprüfen.</li><li>Präsentieren Sie dem Lenkungsausschuss Test Case-Status Ergebnisse, um alle Bereiche zu identifizieren, für die eine Sanierung erforderlich ist.</li></ul></td></tr>
 </table>
 
 
-### <a name="document-phone-system-with-calling-plans-testing-result-summary"></a>Dokument Telefonsystem mit Aufrufen plant Ergebnis Zusammenfassung testen
+### <a name="document-phone-system-with-calling-plans-testing-result-summary"></a>Dokument-Telefon System mit Testergebnis Zusammenfassung für Anrufpläne
 
-Nachdem alle Testfälle Telefonsystem mit Aufrufen plant Features im Bereich Unterstützung von Website abgeschlossen Sie wurden, dokumentieren Sie die Ergebnisse während einer Besprechung Lenkungsausschuss zu überprüfen, wenn Sie mit plant Aufrufen von Webdiensten in der Pilotphase Telefonsystem aktiviert entscheiden Phase.
+Nachdem alle Test Cases, die das Telefonsystem mit den Funktionen für Anrufpläne im Bereich unterstützen, von der Website ausgefüllt wurden, dokumentieren Sie die Ergebnisse während einer Sitzung des Lenkungsausschusses, wenn Sie entscheiden, wann das Telefonsystem mit Anruf Plan Diensten im Pilot Modus aktiviert werden soll. Phase.
 
-#### <a name="site-a-phone-system-with-calling-plans-test-case-summary-report"></a>A: Website Phone System aufrufen plant Testfall zusammenfassenden Bericht über:
+#### <a name="site-a-phone-system-with-calling-plans-test-case-summary-report"></a>Website A: Telefon System mit einem Anruf Plan Test Fall Zusammenfassungsbericht:
 
 > [!TIP]
->   Es folgt ein Beispiel Test Berichtsvorlage summary, die Sie während der nächsten Besprechung Lenkungsausschuss überprüfen können, wenn Sie in der Pilotphase zur integrierten Telefonsystem mit Aufrufen plant Services entscheiden.
+>   Nachfolgend finden Sie eine Beispielvorlage für Test Zusammenfassungsberichte, die Sie während der nächsten Sitzung des Lenkungsausschusses überprüfen können, wenn Sie entscheiden, wann das Telefon System mit Anruf Plan Diensten in der Pilot Phase integriert werden soll.
 
 
-**Teams Telefonsystem mit dem Aufrufen der Pläne**
+**Teams-Telefon System mit Anrufplänen**
 
-**Zusammenfassung**:&nbsp;&nbsp;&nbsp;& #9744; Übergeben Sie&nbsp; &nbsp; &nbsp; & #9744; Teilweise&nbsp; &nbsp; &nbsp; & #9744; Fehler 
+**Zusammenfassung**der&nbsp;&nbsp;&nbsp;Ergebnisse: & # 9744; &nbsp; &nbsp; Übergeben&nbsp; Sie & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Nicht 
 
 <table>
-<tr><th colspan="2">Testen der highlights </th></tr>
+<tr><th colspan="2">Test Highlights </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Testen der Schwachstellen  </th></tr><br/><tr><td><strong>Problem</strong>: TBD</td><td><strong>Remediation:</strong> TBD</td></tr>
-<tr><th colspan="2">Identifiziert Popupblockern </td></tr>
-<tr><td><strong>Blockierenden Person</strong>: TBD</td><td><strong>Remediation</strong>: TBD</td></tr>
+<tr><th colspan="2">Testen von Lowlights  </th></tr><br/><tr><td><strong>Problem</strong>: festgelegt</td><td><strong>Behebung:</strong> TBD</td></tr>
+<tr><th colspan="2">Identifizierte Blocker </td></tr>
+<tr><td><strong>Blocker</strong>: festgelegt</td><td><strong>Behebung</strong>: festgelegt</td></tr>
 </table>
 
 
 > [!TIP]
->   Um weitere Erörterung während der letzten Lenkungsausschuss Überprüfung zu erleichtern, können Sie die aktualisierte [Testergebnisse Matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) von [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) bereitgestellten zu dokumentieren und markieren Sie weitere Bereiche, die Remediation erfordern.
+>   Um weitere Diskussionen während der letzten Überprüfung des Lenkungsausschusses zu erleichtern, können Sie die aktualisierte [Test Ergebnismatrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) verwenden, die von myadvisor zur Verfügung gestellt wird, um zusätzliche Bereiche zu dokumentieren und hervorzuheben, für die eine Korrektur erforderlich ist. [](https://myadvisor.fasttrack.microsoft.com/)
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Bewerten der allgemeine Zusammenfassung-Testergebnisse nach Standort für Telefonsystem mit Aufrufen plant Features im Bereich.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie Testfall Zusammenfassungsbericht, nachdem alle Ergebnisse des Testfalls abgeschlossen wurden.</li><li>Planen einer Besprechung Lenkungsausschuss Zusammenfassung Testergebnisse überprüfen.</li><li>Vorhanden Zusammenfassung Testergebnissen Lenkungsausschusses, Bereiche zu identifizieren, die Behebung erforderlich machen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Auswerten von Zusammenfassungs Ergebnissen für Testergebnisse nach Standort für Telefon System mit Funktionen für Anrufpläne im Umfang.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie den Test Fall Zusammenfassungsbericht, nachdem alle Testfallergebnisse abgeschlossen wurden.</li><li>Planen Sie eine Sitzung des Lenkungsausschusses, um die Ergebnisse der Test Zusammenfassung zu überprüfen.</li><li>Präsentieren Sie dem Lenkungsausschuss Test Zusammenfassungsergebnisse, um alle Bereiche zu identifizieren, für die eine Sanierung erforderlich ist.</li></ul></td></tr>
 </table>
 
 
 
-<a name="present-and-report-phone-system-with-calling-plans-test-findings"></a>Präsentieren und Bericht Telefonsystem mit Testergebnisse plant aufrufen
+<a name="present-and-report-phone-system-with-calling-plans-test-findings"></a>Präsentieren und melden von Telefonsystemen mit Anrufplänen Testergebnisse
 ----------------------------------------------------------------
 
-Nachdem alle Testaktivitäten abgeschlossen wurden und Mängel mit niedrig wirkt sich behoben wurden, Planen einer Besprechung endgültigen ist abgeschlossen, mit festgelegten testing Beteiligten. In der Besprechung zu beheben:
+Nachdem alle Testaktivitäten abgeschlossen sind und etwaige Fehler mit einer Auswirkung von "gering" behoben wurden, planen Sie eine abschließende Besprechung mit den festgelegten Test beteiligten. In der Besprechung:
 
--   Status überprüfen
+-   Status Zusammenfassung
 
--   Hervorheben/Schwachstellen
+-   Hervorhebungs-Lowlights
 
 -   Gelernte Lektionen
 
--   Allgemeine Empfehlung – fahren Sie mit der Pilotphase oder neu auswerten Testergebnisse?
+-   Allgemeine Empfehlung: fahren Sie mit der Pilot Phase fort, oder überprüfen Sie die Testergebnisse erneut.
 
--   Matrix Testergebnisse (diese sollte vollständig in einem Anhang dokumentiert werden)
+-   Test Matrix Ergebnisse (diese sollten vollständig in einem Anhang dokumentiert sein)
 
-#### <a name="test-plan-deliverables"></a>Test Plan Lieferumfang:
+#### <a name="test-plan-deliverables"></a>Ergebnisse des Test Plans:
 
 > [!TIP]
->   Es folgt ein Beispiel für einen Plan zum Testen des Lieferumfangs Vorlage, die Sie verwenden können, um die Kriterien zu dokumentieren erforderlich, um Abnahme zu erzielen und Beenden der Testphase oder angehalten werden soll, bis alle identifizierte Problemen vollständig aufgelöster sind testen.
+>   Nachfolgend finden Sie ein Beispiel für eine Vorlage für den Testplan, die Sie verwenden können, um die Kriterien zu dokumentieren, die erforderlich sind, um die Abmeldung zu erreichen und die Testphase zu beenden, oder das Testen auszusetzen, bis alle identifizierten Probleme vollständig aufgelöst sind.
 
-| Status überprüfen               | Highlights/Schwachstellen | Gelernte Lektionen | Schließen die Empfehlung |
+| Status Zusammenfassung               | Highlights/Lowlights | Gelernte Lektionen | Schluss Empfehlung |
 |------------------------------|----------------------|-----------------|------------------------|
-| <ul><li>Testfall Durchlauf Satz von TBD %</li><li>Alle Tests übergeben</li></ul> | TBD                  | TBD             | Fahren Sie mit der Pilotphase       |
+| <ul><li>Test Case-Durchlauf Rate von "%"</li><li>Alle Tests wurden erfolgreich durchgeführt</li></ul> | TBD                  | TBD             | Weiter zu Pilot       |
 
--   Alle Tests übergeben
+-   Alle Tests wurden erfolgreich durchgeführt
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie den Zusammenfassung Teststatus.</li><li>Testen von Highlights und Schwachstellen zu identifizieren.</li><li>Gelernte Lektionen zu identifizieren.</li><li>Entscheiden Sie, welche Remediation Aktionen bleiben, falls vorhanden.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokument Zusammenfassung Testergebnisse enthalten:<ul><li>Status überprüfen</li><li>Highlights/Schwachstellen</li><li>Gelernte Lektionen</li></ul></li><li>Planen einer Besprechung endgültigen Lenkungsausschuss Testergebnisse überprüfen.</li><li>Vorhanden Zusammenfassung Testergebnisse während einer Lenkungsausschuss überprüfen endgültigen Genehmigung für das Beenden der Testphase abrufen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie sich für die Statuszusammenfassung des Tests.</li><li>Ermitteln von Test Highlights und Lowlights</li><li>Ermitteln der gelernten Lektionen</li><li>Entscheiden Sie, welche Behebungsaktionen ggf. verbleiben.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokument Test Zusammenfassungsergebnisse enthalten:<ul><li>Status Zusammenfassung</li><li>Highlights/Lowlights</li><li>Gelernte Lektionen</li></ul></li><li>Planen Sie eine endgültige Sitzung des Lenkungsausschusses, um die Testergebnisse zu überprüfen.</li><li>Präsentieren Sie Test Zusammenfassungsergebnisse während einer Überprüfung des Lenkungsausschusses, um eine endgültige Abmeldung für das Beenden der Testphase zu erhalten.</li></ul></td></tr>
 </table>

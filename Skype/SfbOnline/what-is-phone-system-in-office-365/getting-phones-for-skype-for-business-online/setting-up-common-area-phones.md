@@ -18,13 +18,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Hier erfahren Sie die Schritte zur Bereitstellung, um die richtige Firmware erhalten möchten, aktualisieren sie bei Bedarf, Zuweisen von Lizenzen und Konfigurieren von Einstellungen für Telefone in öffentlichen Bereichen.
-ms.openlocfilehash: b92cef4234823c53faf6193d2e9e90fe3e5b60f0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Informieren Sie sich über die Bereitstellungsschritte, um die richtige Firmware zu erhalten, Sie bei Bedarf zu aktualisieren, Lizenzen zuzuweisen und Einstellungen für Telefone im öffentlichen Bereich zu konfigurieren.
+ms.openlocfilehash: 0e673bc0a236cbf12aa305c3fc658dffe039c0e3
+ms.sourcegitcommit: a6d34297fd4e91e873372513b270f34e15cb8003
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231155"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34162582"
 ---
 # <a name="set-up-common-area-phones"></a>Einrichten von Telefonen für gemeinsame Bereiche
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -36,10 +36,10 @@ Zunächst müssen Sie bestätigen, dass Folgendes zutrifft:
 - Sie haben eine Lizenz für Telefone für gemeinsame Bereiche und einen Anrufplan gekauft.
 - Sie haben nach zugelassenen Telefonen gesucht und sie gekauft (siehe die Liste [hier](deploying-skype-for-business-online-phones.md)).
 - Update the firmware on your phones (See supported firmware [in this topic](getting-phones-for-skype-for-business-online.md)).  You can check the firmware on you phone by doing this:
-  - **Telefone Polycom VVX**: Rufen Sie die **Einstellungsseite** > **Status** > **Plattform** > **Anwendung** > **Main**.
-  - **Yealink Telefone**: Wechseln Sie auf **Status** auf dem Bildschirm Telefon.
-  - **AudioCodes Telefone**: Gehen Sie zum **Menü** > **Gerätestatus** > **Firmwareversion** auf der Startseite.
-  - **Lync Phone Edition (LPE) Telefone**: Gehen Sie zum **Menü** > **Systeminformationen** aus dem Startbildschirm.
+  - **Polycom VVX-Telefone**: Wechseln Sie zu **Einstellungen** > **Status** > **Plattform** > -**App** > **Main**.
+  - **Yealink-Telefone**: Wechseln Sie auf dem Hauptbildschirm des Telefons auf **Status** .
+  - **AudioCodes-Telefone**: Wechseln Sie auf dem Startbildschirm zu **Menü** > **Device Status** > **Firmware-Version** .
+  - **Lync Phone Edition (LPE)-Telefone**: Wechseln Sie im Startbildschirm zu **Menü** > **System Informationen** .
 
     Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default.
 
@@ -58,7 +58,7 @@ Sie müssen diese Schritte befolgen:
 > [!Note]
 > You don't need a Phone System license. It's included with the **Common Area Phone** license.
 
-Weitere Informationen zu Lizenzen finden Sie unter [Skype für Geschäfts- und Microsoft-Teams, Add-On-Lizenzierung](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Weitere Informationen zu Lizenzen finden Sie unter [Skype for Business-und Microsoft Teams-Add-on-Lizenzierung](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Schritt 2 - Ein neues Benutzerkonto für das Telefon erstellen und die Lizenzen zuweisen
 1. Gehen Sie im Office 365 Admin Center zu **Benutzer** > **Aktive Benutzer** > **Benutzer hinzufügen**.
@@ -83,7 +83,7 @@ Weitere Informationen finden Sie unter [Benutzer hinzufügen](https://support.of
 
 ![sfb-logo-30x30.png](../../images/sfb-logo-30x30.png) Dem Benutzer mit dem **Skype for Business Admin Center** eine Telefonnummer zuweisen
 
-1. In der Office 365 Admin Center > **Admin zentriert** > **Skype für Unternehmen**.
+1. Im Office 365 Admin Center > **Admin** > Centers**für Skype for Business**.
 2. In dem **Skype for Business Admin Center** >  **Sprache** > **Telefonnummern**.
 3. Wählen Sie eine Nummer aus der Liste der Telefonnummern aus und klicken Sie auf **Zuweisen**.
 4. Geben Sie auf der Seite **Zuweisen** im Feld **Sprachbenutzer** den Namen des Benutzers ein, der für das Telefon verwendet wird, und wählen Sie den Benutzer im Feld **Sprachbenutzer auswählen** aus.
@@ -95,9 +95,9 @@ Weitere Informationen finden Sie unter [Benutzer hinzufügen](https://support.of
    > [!Note]
    > Benutzer werden nur angezeigt, wenn sie eine **Telefonsystem**-Lizenz beantragt haben. Wenn Sie dies gerade erst getan haben, dann kann es etwas dauern, bis der Benutzer in der Liste erscheint.
 
-Weitere Informationen finden Sie unter [Erhalten von Telefonnummern für Ihre Benutzer](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md).
+Weitere Informationen finden Sie unter [Erhalten von Telefonnummern für Ihre Benutzer](/microsoftteams/getting-phone-numbers-for-your-users).
 
-Sie können auch Ihre Telefonnummer, die Sie bei einem anderen Anbieter haben "*portieren*" oder an Office 365 übertragen. Angezeigt wird, [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
+Sie können auch Ihre Telefonnummer, die Sie bei einem anderen Anbieter haben "*portieren*" oder an Office 365 übertragen. Weitere Informationen finden Sie unter [übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
 
 ### <a name="step-4---setting-up-your-phone"></a>Schritt 4 - Einrichten des Telefons
 
@@ -115,7 +115,7 @@ Das oder die Telefone, die Sie besitzen, müssen den Modus **Telefone für gemei
 - Nachdem der CAP-Modus aktiviert wurde, richten Sie das Telefon über die Anzeige des Telefons ein. Die Anzeige sollte **CaAP ist aktiviert** anzeigen. Gehen Sie wie folgt vor:
 
     1. Klicken Sie auf **Einstellungen speichern.**
-    2. Klicken Sie auf **Erweitert**.
+    2. Wählen Sie **erweitert**aus.
     3. Geben Sie das Kennwort ein.
     4. Wählen Sie unter **Verwaltungseinstellungen** **Einstellungen für Telefone für gemeinsame Bereiche**.
     5. Aktivieren Sie **CAP** und **CAP Admin-Modus**.
@@ -137,7 +137,7 @@ Das oder die Telefone, die Sie besitzen, müssen den Modus **Telefone für gemei
 
 
 > [!NOTE]
-> Die CAP-Bereitstellungsseite gibt an, dass sie das Passwort des CAP-Kontos auf ein zufälliges Passwort zurücksetzt. Beachten Sie, dass das Konto, auf das sich die CAP bezieht, das Azure Active Directory (AAD)-Konto ist. Wenn Sie das Konto nur in AAD angelegt haben, ist der Prozess einfach. Wenn Sie eine lokale Active Directory AAD synchronisiert wurden, und Sie ein Drittanbieter-IDP oder AD FS verwenden, schlägt fehl, CAP-Bereitstellung. In diesem Fall müssen Sie ein Office 365/Azure nur Active Directory-Konto (beispielsweise ein Konto mit der Domäne **"onmicrosoft.com"** ) verwenden CAP Bereitstellung arbeiten.
+> Die CAP-Bereitstellungsseite gibt an, dass sie das Passwort des CAP-Kontos auf ein zufälliges Passwort zurücksetzt. Beachten Sie, dass das Konto, auf das sich die CAP bezieht, das Azure Active Directory (AAD)-Konto ist. Wenn Sie das Konto nur in AAD angelegt haben, ist der Prozess einfach. Wenn Sie ein lokales Active Directory mit Aad synchronisiert haben und Sie eine Drittanbieter-oder ADFS verwenden, schlägt die Bereitstellung von Cap fehl. In diesem Fall müssen Sie nur ein Office 365/Azure Active Directory-Konto verwenden (beispielsweise ein Konto mit **onmicrosoft.com** -Domäne), damit die Bereitstellung von Cap funktioniert.
 
 
 ### <a name="related-topics"></a>Verwandte Themen
