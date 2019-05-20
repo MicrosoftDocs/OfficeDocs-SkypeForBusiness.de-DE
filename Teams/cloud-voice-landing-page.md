@@ -12,143 +12,143 @@ ms.collection:
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
-description: Zielseite für die Bereitstellung von Cloud-VoIP in Teams
+description: Startseite zum Bereitstellen von Cloud-VoIP in Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47c534eba93c6f5af21a75fa20b5015fac00c674
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 99c4f9d32dbdd914803c1b58f77ce472248c325d
+ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198371"
+ms.lasthandoff: 05/19/2019
+ms.locfileid: "34185324"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Cloud Voice in Microsoft Teams
 
-Sie haben [Erste Schritte](get-started-with-teams-quick-start.md) abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleicht haben Sie [Besprechungen & Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)bereitgestellt. Sie können nun Cloud Voice-Funktionen für Ihre Benutzer hinzufügen. 
+Sie haben [Erste Schritte](get-started-with-teams-quick-start.md) abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleichthaben Sie [Besprechungen & Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)bereitgestellt. Nun können Sie Ihren Benutzern Cloud-Sprachfunktionen hinzufügen. 
 
-Cloud-VoIP bietet Funktionen für (Private Branch Exchange, PBX) und Optionen für die Verbindung zu im Public Switched Telephone Network, (PSTN).
+Cloud Voice bietet Funktionen für Private Branch Exchange (PBX) und Optionen zum Herstellen einer Verbindung mit dem öffentlich geschalteten Telefonnetz (PSTN).
 
-In diesem Artikel Unterstützung bei der Entscheidung, ob Sie die Cloud VoIP Standardeinstellungen, basierend auf Ihrer Organisation Profil und geschäftlichen Anforderungen, und klicken Sie dann Sie über jede Änderung geführt ändern müssen. Wir haben die Einstellungen in zwei Gruppen, beginnend mit der Kerngruppe von [Änderungen, die Sie eher Stellen sind](#core-deployment-decisions)aufgeteilt. Die zweite Gruppe umfasst die [zusätzlichen Einstellungen](#additional-deployment-decisions), deren Konfiguration, abhängig von den Bedürfnissen Ihrer Organisation, sinnvoll sein kann.
+Dieser Artikel hilft Ihnen bei der Entscheidung, ob Sie die Standardeinstellungen für die Cloud-VoIP basierend auf den Profil-und Geschäftsanforderungen Ihrer Organisation ändern müssen, und führt Sie durch die einzelnen Änderungen. Wir haben die Einstellungen in zwei Gruppen aufgeteilt, beginnend mit dem Haupt Satz von [Änderungen, die Sie wahrscheinlicher vornehmen werden](#core-deployment-decisions). Die zweite Gruppe umfasst die [zusätzlichen Einstellungen](#additional-deployment-decisions), deren Konfiguration, abhängig von den Bedürfnissen Ihrer Organisation, sinnvoll sein kann.
 
-Es wird empfohlen, dass alle Organisationen über den Core Entscheidungen arbeiten, und Sie, wenn Ihre Organisation zusätzliche Anforderungen umfasst das folgenden Material überprüfen.
+Wir empfehlen, dass alle Organisationen die grundlegenden Entscheidungen treffen, und wenn Ihre Organisation zusätzliche Anforderungen hat, überprüfen Sie das folgende Material.
 
 
 
-## <a name="learn-more-about-cloud-voice"></a>Erfahren Sie mehr über Cloud-VoIP
+## <a name="learn-more-about-cloud-voice"></a>Weitere Informationen zu Cloud-VoIP
 
-Die folgenden Artikel enthalten weitere Informationen zum Bereitstellen und Verwenden von Cloud-VoIP-Funktionen in Teams:
+In den folgenden Artikeln finden Sie weitere Informationen zur Bereitstellung und Verwendung von Cloud-Sprachfeatures in Teams:
 
 - [Telefonsystem in Office 365](what-is-phone-system-in-office-365.md)
-- [Telefonsystem mit dem Aufrufen der Pläne](calling-plan-landing-page.md)
+- [Telefon System mit Anrufplänen](calling-plan-landing-page.md)
 - [Direktes Routing für Telefonsysteme](direct-routing-landing-page.md)
 - [Cloud Voice-Bereitstellung](cloud-voice-deployment.md)
 - [Microsoft-Telefonielösungen](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
-- Die folgenden Sitzung Weitere Informationen zum Telefonsystem Video: [Einführung in das Telefonsystem in Microsoft-Teams](https://aka.ms/teams-phone-system)
+- Schauen Sie sich die folgende Sitzung an, um mehr über das Telefonsystem zu erfahren: [Einführung in das Telefonsystem in Microsoft Teams](https://aka.ms/teams-phone-system)
 
 
 ## <a name="core-deployment-decisions"></a>Zentrale Entscheidungen bei der Bereitstellung
 
 Dies sind die Einstellungen, deren Änderung in den meisten Organisationen sinnvoll ist (wenn die Standardeinstellungen von Teams sich nicht für die Organisation eignen).
 
-## <a name="phone-system-office-365"></a>Telefonsystem (Office 365)
+## <a name="phone-system-office-365"></a>Telefon System (Office 365)
 
-Telefonsystem ist Microsoft Technologie zum Aktivieren der Remote Call Control und Funktionen in der Office 365-Cloud (Private Branch Exchange, PBX). Telefonsystem können Sie das bestehende System (Private Branch Exchange, PBX) durch eine Reihe von Features von Office 365 direkt bereitgestellt und eng integriert in das Unternehmen produktivitätserfahrung der Cloud zu ersetzen.
+Telefon System ist die Microsoft-Technologie für die Aktivierung der Anrufsteuerung und der Funktionen für Private Branch Exchange (PBX) in der Office 365-Cloud. Mit dem Telefonsystem können Sie Ihr vorhandenes Private Branch Exchange (PBX)-System durch eine Reihe von Features ersetzen, die direkt von Office 365 bereitgestellt werden und eng in die Cloud-Produktivitäts Erfahrung des Unternehmens integriert sind.
 
 
 |Frage|Aktion |
 |:------------|:-------|
-|In welche Standorte oder Büros implementieren ich Telefonsystem? |Weitere Informationen zu Telefonsystem finden Sie unter [Was ist Telefonsystem in Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
+|An welchen Speicherorten oder Büros wird das Telefon System implementiert? |Weitere Informationen zum Telefonsystem finden Sie unter [Was ist Telefonsystem in Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
 |||
 
-## <a name="connection-to-the-public-switched-telephone-network-pstn"></a>Verbindung mit der Public Switched Telephone Telefonnetz (PSTN)
+## <a name="connection-to-the-public-switched-telephone-network-pstn"></a>Verbindung mit dem öffentlich geschalteten Telefonnetz (PSTN)
 
-Um das Telefonsystem zu im Public Switched Telephone Network, (PSTN) anschließen, damit die Benutzer auf der ganzen Welt Telefonanrufe tätigen können, müssen Sie basierte auf Ihrer geschäftlicher Bedarf Optionen.  Stellen Sie sich Folgendes:
+Wenn Sie das Telefon System mit dem öffentlichen Telefonnetz (PSTN) verbinden möchten, damit Benutzer überall in der Welt Telefonanrufe tätigen können, haben Sie Optionen, die auf Ihren geschäftlichen Anforderungen basieren.  Stellen Sie sich folgende Fragen:
 
 
 |Frage|Aktion |
 | :------------|:-------|
-| Führen Sie ich möchte Microsoft aufrufen planen als meines Telefonie verwenden? | Weitere Informationen finden Sie unter [Telefonsystem mit plant aufrufen](calling-plan-landing-page.md).|
-| Benötige ich meinen eigenen Telefonie Netzbetreiber verwenden? | Weitere Informationen finden Sie unter [Telefonsystem mit direktem Routing](direct-routing-landing-page.md).
+| Möchte ich den Microsoft-Anrufplan als meinen Telefonnetzbetreiber verwenden? | Weitere Informationen finden Sie unter [Telefon System mit Anrufplänen](calling-plan-landing-page.md).|
+| Muss ich meinen eigenen Telefonnetzbetreiber verwenden? | Weitere Informationen finden Sie unter [Telefon System mit direktem Routing](direct-routing-landing-page.md).
 |||
 
 
 ## <a name="additional-deployment-decisions"></a>Zusätzliche Bereitstellungsentscheidungen
 
-Sie möchten die Einstellungen für den folgenden ändern basierend auf Ihrer Organisation Anforderungen und Konfiguration:
+Basierend auf den Anforderungen und der Konfiguration Ihrer Organisation können Sie die Einstellungen für Folgendes ändern:
 
 - Voicemail
-- Aufrufen von Identität
-- Telefonnummern von Microsoft.
+- Identität des Anrufs
+- Telefonnummern von Microsoft
 - Wählpläne
 - Anrufwarteschleifen
 - Automatische Telefonzentralen
 
 ### <a name="voicemail"></a>Voicemail
 
-Cloud-Voicemail, unterstützt von Azure Voicemail-Dienste unterstützt Voicemail bandbreitenbeschränkungen zu nur Exchange-Postfächern und Drittanbieter-e-Mail-Systemen nicht unterstützt. Cloud-Voicemail enthält Voicemail Lautschrift, die standardmäßig für alle Benutzer in Ihrer Organisation aktiviert ist. Ihre geschäftsanforderungen erfordern möglicherweise, Voicemail Lautschrift für bestimmte Benutzer oder alle Benutzer in der gesamten Organisation zu deaktivieren.
+Cloud Voicemail, powered by Azure Voicemail Services, unterstützt Voicemail-Einzahlungen nur für Exchange-Postfächer und unterstützt keine e-Mail-Systeme von Drittanbietern. Cloud Voicemail umfasst Voicemail-Transkription, die standardmäßig für alle Benutzer in Ihrer Organisation aktiviert ist. Für Ihre geschäftlichen Anforderungen müssen Sie möglicherweise die Voicemail-Transkription für bestimmte Benutzer oder alle in der Organisation deaktivieren.
 
 |Frage|Aktion |
 |:------------|:-------|
-| Möchte ich Cloud Voicemail aktivieren? | Voicemail-Setup-Verfahren finden Sie unter [Einrichten von Voicemail Cloud](set-up-phone-system-voicemail.md).
-| Möchte ich Voicemail Lautschrift für einige oder alle Benutzer aktivieren? | Um Voicemail Lautschrift deaktivieren, finden Sie unter [Festlegen von Voicemail Richtlinien in Ihrer Organisation](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
+| Möchte ich Cloud Voicemail aktivieren? | Anweisungen zum Einrichten von Voicemail finden Sie unter [Einrichten von Cloud-Voicemail](set-up-phone-system-voicemail.md).
+| Soll die Sprachübertragung für einige oder alle meine Benutzer aktiviert werden? | Informationen zum Deaktivieren der Voicemail-Transkription finden Sie unter [Festlegen von Voicemail-Richtlinien in Ihrer Organisation](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
 |||
 
-### <a name="calling-identity"></a>Aufrufen von Identität
+### <a name="calling-identity"></a>Identität des Anrufs
 
-Alle ausgehenden Anrufe verwenden standardmäßig die zugewiesene Telefonnummer als aufrufende Identität (Anrufer-ID). Der Empfänger des Anrufs kann den Anrufer schnell identifizieren und entscheiden, ob er den Anruf annehmen oder ablehnen möchte.
+Standardmäßig verwenden alle ausgehenden Anrufe die zugewiesene Telefonnummer als Anruf Identität (Rufnummernanzeige). Der Empfänger des Anrufs kann den Anrufer schnell identifizieren und entscheiden, ob er den Anruf annehmen oder ablehnen möchte.
 
 |Frage|Aktion |
 |:------------|:-------|
-|Soll so aktivieren oder Deaktivieren der Anrufer-ID werden? | Ändern oder die Anrufer-ID zu blockieren, finden Sie unter [Legen Sie die Anrufer-ID für einen Benutzer](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user). |
+|Soll die Rufnummernanzeige maskiert oder deaktiviert werden? | Informationen zum Ändern oder Blockieren der Rufnummernanzeige finden Sie unter [Festlegen der Anrufer-ID für einen Benutzer](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user). |
 |||
 
-### <a name="phone-numbers-from-microsoft"></a>Telefonnummern von Microsoft.
+### <a name="phone-numbers-from-microsoft"></a>Telefonnummern von Microsoft
 
-Microsoft verfügt über zwei Arten von Telefonnummern zur Verfügung: *Abonnenten* (Benutzer) Zahlen, die Benutzer in Ihrer Organisation zugewiesen werden können, und *Service* Zahlen als gebührenpflichtige oder gebührenfreie Service Numbers höheren gleichzeitige angerufen werden verfügbar Kapazität als Abonnenten Zahlen und Diensten wie etwa Audiokonferenzen, automatischen Telefonzentralen oder rufen Sie Warteschlangen zugewiesen werden können.
+Microsoft hat zwei Arten von Telefonnummern zur Verfügung: *Teilnehmer* (Benutzer) Nummern, die Benutzern in Ihrer Organisation zugewiesen werden können, und *Dienst* Nummern, die als gebührenpflichtige und gebührenfreie Servicenummern zur Verfügung stehen, die einen höheren gleichzeitigen Anruf haben Kapazität als Abonnenten Nummern und können Diensten wie Audiokonferenzen, automatischen Telefonzentralen oder Anrufwarteschlangen zugewiesen werden.
 
 |Frage|Aktion |
 | :------------|:-------|
-| Welche Benutzerstandorte benötigen Sie neue Telefonnummern von Microsoft? | Informationen zum Abrufen von Telefonnummern finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) und [Abrufen von Telefonnummern für Ihre Benutzer](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users). 
-| Der Typ der Telefonnummer (Abonnenten oder Dienst) benötige ich? | Zur einfacheren wählen Sie den Typ der Telefonnummer, die Sie benötigen, finden Sie unter [verschiedenen Arten von Telefonnummern für den Aufruf von plant verwendet](different-kinds-of-phone-numbers-used-for-calling-plans.md).
-Wie kann ich vorhandene Rufnummern Port zu Office 365?|Weitere Informationen finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
+| Welche Benutzer Standorte benötigen neue Telefonnummern von Microsoft? | Informationen zum Abrufen von Telefonnummern finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) und [Abrufen von Telefonnummern für Ihre Benutzer](getting-phone-numbers-for-your-users.md). 
+| Welche Art von Telefonnummer (Abonnent oder Dienst) benötige ich? | Wenn Sie die Art der benötigten Telefonnummer ermitteln möchten, finden Sie unter [verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet](different-kinds-of-phone-numbers-used-for-calling-plans.md)werden.
+Wie kann ich vorhandene Telefonnummern nach Office 365 portieren?|Weitere Informationen finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
 |||
 
 ### <a name="dial-plans"></a>Wählpläne
 
-Ein Wählplan in das Telefonsystem Feature von Office 365 ist, dass eine Reihe von Normalisierungsregeln, die Übersetzen von Telefonnummern in ein anderes Format (normalerweise e. 164-Format) für Anrufberechtigungen und Anrufrouting gewählt.
+Ein Wählplan in der Telefon System Funktion von Office 365 ist eine Reihe von Normalisierungsregeln, die gewählte Telefonnummern in ein alternatives Format (normalerweise E. 164-Format) für die Anruf Autorisierung und das Anrufrouting übersetzen.
 
 Weitere Informationen zu Wählplänen finden Sie unter [Was sind Wählpläne?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans).
 
 |Frage|Aktion |
 |:------------|:-------|
-| Benötigt meine Organisation einen angepassten Wählplan? | Um zu bestimmen, wenn Sie einen benutzerdefinierten Wählplan benötigen, finden Sie unter [Planen Mandanten Wählpläne](what-are-dial-plans.md#planning-for-tenant-dial-plans)|
-Welche Benutzer benötigen einen angepassten Wählplan und welcher Mandantenwählplan sollte jedem Benutzer zugewiesen werden? | Zum Hinzufügen von Benutzern zu einem benutzerdefinierten Wählplan in PowerShell finden Sie unter [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md). |
+| Benötigt meine Organisation einen angepassten Wählplan? | Informationen zum ermitteln, ob Sie einen benutzerdefinierten Wählplan benötigen, finden Sie unter [Planen von Mandanten Wählplänen](what-are-dial-plans.md#planning-for-tenant-dial-plans)|
+Welche Benutzer benötigen einen angepassten Wählplan und welcher Mandantenwählplan sollte jedem Benutzer zugewiesen werden? | Informationen zum Hinzufügen von Benutzern zu einem benutzerdefinierten Wählplan in PowerShell finden Sie unter [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md). |
 |||
 
 ### <a name="call-queues"></a>Anrufwarteschleifen
 
-Cloud Anruf Warteschlangen enthalten Ansage, die verwendet werden, wenn jemand anruft eine angegebene Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und die Möglichkeit, suchen Sie für den nächsten verfügbaren Anruf-Agent den Anruf beim Menschen Anruf behandeln Anhören von Musik in der Warteschleife. Sie können einzelne oder mehrere Anruf Warteschlangen für Ihre Organisation erstellen. 
+Zu den Cloud-Anrufwarteschlangen gehören Begrüßungen, die verwendet werden, wenn sich jemand an eine Telefonnummer für Ihre Organisation anmeldet, die Möglichkeit, die Anrufe automatisch zu halten, und die Möglichkeit, nach dem nächsten verfügbaren Anruf Agenten zu suchen, um den Anruf zu führen, während die Anrufteilnehmer Musik hören in Wartestellung. Sie können eine oder mehrere Anrufwarteschlangen für Ihre Organisation erstellen. 
 
 
 |Frage|Aktion |
 |:------------|:-------|
-| Ruft meiner Organisation Warteschlangen auf müssen? | Weitere Informationen finden Sie unter [erstellen eine Cloud-Anruf-Warteschlange](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) und [Einrichten von Ihrem Telefonsystem](setting-up-your-phone-system.md). |
+| Benötigt meine Organisation Anrufwarteschlangen? | Weitere Informationen finden Sie unter [Erstellen einer Cloud-Anrufwarteschlange](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) und [Einrichten Ihres Telefonsystems](setting-up-your-phone-system.md). |
 
 ### <a name="auto-attendants"></a>Automatische Telefonzentralen
 
-Cloud-Telefonzentralen können verwendet werden, erstellen Sie ein Menüsystem für Ihre Organisation, mit der, externen und internen Anrufer über ein Menüsystem platzieren, und durchstellen von Anrufen an Unternehmen Benutzer oder Abteilungen in Ihrer Organisation verschieben.
+Automatische Cloud-Telefonzentralen können zum Erstellen eines Menüsystems für Ihre Organisation verwendet werden, mit dem externe und interne Anrufer über ein Menü System navigieren können, um Anrufe an Unternehmensbenutzer oder Abteilungen in Ihrer Organisation zu suchen und dort zu platzieren oder zu übertragen.
 
 |Frage|Aktion |
 |:------------|:-------|
-| Werden meine Organisation für automatische Telefonzentralen benötigt? | Weitere Informationen finden Sie unter [Was sind Cloud-Telefonzentralen](what-are-phone-system-auto-attendants.md) und [Richten Sie eine Cloud-Telefonzentrale](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). |
+| Benötigt meine Organisation automatische Telefonzentralen? | Weitere Informationen finden Sie unter [Was sind automatische Cloud-Telefonzentralen](what-are-phone-system-auto-attendants.md) und [Einrichten einer automatischen Cloud-Telefonzentrale](create-a-phone-system-auto-attendant.md). |
 
 ### <a name="devices"></a>Geräte
 
-Weitere Informationen zu den unterstützten Geräten finden Sie unter den folgenden:
+Weitere Informationen zu unterstützten Geräten finden Sie unter den folgenden Themen:
 
 - [Verwalten Ihrer Geräte in Microsoft Teams](device-management.md)
 - [IP-Telefone](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [USB-Audio- und -Videogeräte](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [Intelligente Communications für Geräte](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
+- [Intelligente Kommunikation für Geräte](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 

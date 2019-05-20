@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
-description: Beschreibt Cloud-Telefonzentralen und Aufrufen von Warteschlangen, und erläutert, wie Sie diese Aufrufe in Teams beantworten können.
+description: Beschreibt automatische Cloud-Telefonzentralen und Anrufwarteschlangen und erläutert, wie Sie diese Anrufe in Teams annehmen können.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,54 +15,54 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: beb4b043798ba5348da1d460f49ff93e6aff55e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a78ed7e0bb40d83f7b46d4d4a008f964180c32d0
+ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33900930"
+ms.lasthandoff: 05/19/2019
+ms.locfileid: "34185295"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Direktes Beantworten von Anrufen aus der automatischen Telefonzentrale und der Anrufwarteschleife aus Teams
 ===========================================================
 
-Teams Benutzer können empfangen und Anrufe von Cloud-Telefonzentralen und Warteschlangen direkt von ihrem Client Teams Anruf beantworten. Für Benutzer von Teams die automatische Telefonzentrale-Funktion ist jetzt erhältlich, und die Anruf-Warteschlange-Funktion ist in der Vorschau. 
+Benutzer von Teams können Anrufe von automatischen Cloud-Telefonzentralen empfangen und annehmen sowie Warteschlangen direkt von Ihrem Team-Client aus anrufen. Für Benutzer von Teams ist das Feature für die automatische Telefonzentrale jetzt in der Regel verfügbar, und die Anruf Warteschlangenfunktion befindet sich in der Vorschau. 
 
-## <a name="what-are-auto-attendants-and-call-queues"></a>Was sind automatische um-Telefonzentralen und Warteschlangen aufrufen?
+## <a name="what-are-auto-attendants-and-call-queues"></a>Was sind automatische Telefonzentralen und Anrufwarteschlangen?
 
-Cloud-Telefonzentralen bieten eine Reihe von Ansagen oder einer Audiodatei, die anstelle einer human Operator Anrufer hören, wenn sie zu einer Organisation anrufen. Bei einer automatischen Telefonzentrale können die Anrufer durch das Menüsystem navigieren, Anrufe einleiten oder Benutzer suchen, indem sie eine Wähltastatur eines Telefons (MFV) oder Spracheingaben mit Spracherkennung verwenden.
+Automatische Cloud-Telefonzentralen bieten eine Reihe von Sprachansagen oder eine Audiodatei, die Anrufer hören, anstatt einen menschlichen Operator zu hören, wenn Sie sich in eine Organisation einwählen. Bei einer automatischen Telefonzentrale können die Anrufer durch das Menüsystem navigieren, Anrufe einleiten oder Benutzer suchen, indem sie eine Wähltastatur eines Telefons (MFV) oder Spracheingaben mit Spracherkennung verwenden.
 
-Cloud Anruf Warteschlangen enthalten Ansage, die verwendet werden, wenn jemand anruft eine angegebene Rufnummer für Ihre Organisation die Möglichkeit, die Anrufe automatisch gehalten wird und die Möglichkeit, suchen Sie für den nächsten verfügbaren Anruf-Agent den Anruf beim Menschen Anruf behandeln Anhören von Musik in der Warteschleife. Sie können einzelne oder mehrere Anruf Warteschlangen für Ihre Organisation erstellen.
+Zu den Cloud-Anrufwarteschlangen gehören Begrüßungen, die verwendet werden, wenn sich jemand an eine Telefonnummer für Ihre Organisation anmeldet, die Möglichkeit, die Anrufe automatisch zu halten, und die Möglichkeit, nach dem nächsten verfügbaren Anruf Agenten zu suchen, um den Anruf zu führen, während die Anrufteilnehmer Musik hören in Wartestellung. Sie können eine oder mehrere Anrufwarteschlangen für Ihre Organisation erstellen.
 
-## <a name="handling-an-auto-attendant-or-call-queue-call"></a>Behandeln von einem Anruf automatische Telefonzentrale oder ein Anruf Warteschlange
+## <a name="handling-an-auto-attendant-or-call-queue-call"></a>Behandeln einer automatischen Telefonzentrale oder eines Anruf Warteschlangen Anrufs
 
-Benutzer können eingehende Anrufe von einer automatischen Telefonzentrale oder ein Anruf Warteschlange unterscheiden, bevor sie den Anruf annehmen. Jeden Anruf wird zusammen mit den Namen und/oder die Nummer des Anrufers Informationen, die der Anrufer versucht hat, zu erreichen, den Benutzern ermöglicht, eines besseren Kontexts zum Umgang mit des Anrufers enthalten.
+Benutzer können eingehende Anrufe von einer automatischen Telefonzentrale oder Anrufwarteschlange unterscheiden, bevor Sie den Anruf annehmen. Zusammen mit dem Namen und/oder der Nummer des Anrufers enthält jeder Anrufinformationen darüber, wer der Anrufer zu erreichen versucht hat, sodass die Benutzer einen besseren Kontext für die Adressierung des Anrufers erhalten.
 
-Die folgende Abbildung zeigt, wie ein Anruf von eine automatische Telefonzentrale oder ein Anruf Warteschlange, die einem Benutzer angezeigt wird.
+Die folgende Abbildung zeigt, wie ein eingehender Anruf von einer automatischen Telefonzentrale oder einer Anrufwarteschlange für einen Benutzer angezeigt wird.
 
 ![Benachrichtigung über eingehende Anrufe](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-Nachdem ein automatische Telefonzentrale oder ein Anruf-Warteschlange Anruf entgegengenommen wurde, kann der Benutzer den Anruf wie alle anderen Anruf & #x 2014 verarbeiten; Sie können hinzufügen oder einer Konferenz in einem anderen Benutzer oder den Anruf an eine andere Person weiterleiten. Darüber hinaus werden basierend auf der Konfiguration des Benutzers Auto attendant Anrufe weitergeleitet werden.
+Sobald eine automatische Telefonzentrale oder ein Anruf Warteschlangen Anruf beantwortet wurde, kann der Benutzer den Anruf wie jeden anderen Anruf & # x2014; Sie können einen anderen Benutzer hinzufügen oder eine Konferenz durchführen oder den Anruf an eine andere Person übertragen. Darüber hinaus werden Anrufe an die automatische Telefonzentrale basierend auf der Konfiguration des Benutzers weitergeleitet.
 
 > [!NOTE] 
-> Anruf Warteschlange Anrufe werden nicht weitergeleitet, je nach Konfiguration des Benutzers. Dadurch wird sichergestellt, Anrufer verbleiben in der Warteschlange, bis ein Agent den Anruf entgegennehmen kann, und der Aufrufer ist nicht unerwartet weitergeleitet.
+> Anruf Warteschlangen Anrufe werden nicht basierend auf der Konfiguration des Benutzers weitergeleitet. Dadurch wird sichergestellt, dass Anrufer in der Warteschlange verbleiben, bis ein Agent den Anruf annehmen kann und der Anrufer nicht unerwartet weitergeleitet wird.
 
-## <a name="supported-clients"></a>Unterstützte clients
+## <a name="supported-clients"></a>Unterstützte Clients
 
-Unterstützung für die automatische Telefonzentrale und Anruf Warteschlange Anrufe ist in die folgenden Clients verfügbar:
+Unterstützung für automatische Telefonzentrale und Anruf Warteschlangen Anrufe steht in den folgenden Clients zur Verfügung:
 
 -   Microsoft Teams Windows-Client (32- und 64-Bit-Versionen)
 -   Microsoft Teams Mac-Client
--   Microsoft-Teams, iPhone-app
--   Microsoft-Teams, Android-app
+-   Microsoft Teams-iPhone-App
+-   Microsoft Teams Android-App
 
-## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Konfigurieren der Auto Attendant, und rufen Warteschlange-Unterstützung für Microsoft-Teams
+## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Konfigurieren der automatischen Telefonzentrale und der Unterstützung der Anrufwarteschlange für Microsoft Teams
 
-Um-Telefonzentrale erhalten, und rufen Sie Warteschlange Anrufe für Microsoft-Teams, müssen Sie Ihre Interoperabilität Richtlinie konfigurieren und Aktualisieren der Richtlinie. Überprüfen Sie die [Migration und Interoperabilität für Organisationen mit Teams zusammen mit Skype für Unternehmen](migration-interop-guidance-for-teams-with-skype.md). Wenn Sie keinen automatischen Telefonzentrale und/oder Anruf Warteschlange konfiguriert und dazu möchten, finden Sie unter [Einrichten einer Cloud-Telefonzentrale](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant) und [Erstellen einer Cloud-Anruf-Warteschlange](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+Wenn Sie die automatische Telefonzentrale und die Anruf Warteschlangen Anrufe in Microsoft Teams empfangen möchten, müssen Sie Ihre Interoperabilitätsrichtlinie und die Upgrade-Richtlinie konfigurieren. Bitte überprüfen Sie [Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden](migration-interop-guidance-for-teams-with-skype.md). Wenn Sie keine automatische Telefonzentrale und/oder keine Anrufwarteschlange konfiguriert haben und dies tun möchten, lesen Sie [Einrichten einer automatischen Cloud-Telefonzentrale](create-a-phone-system-auto-attendant.md) und [Erstellen einer Cloud-Anrufwarteschlange](create-a-phone-system-call-queue.md).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
--   [Was ist Telefonsystem in Office 365](what-is-phone-system-in-office-365.md)
--   [Erstellen einer Cloudanrufwarteschleife](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [Was ist das Telefon System in Office 365?](what-is-phone-system-in-office-365.md)
+-   [Erstellen einer Cloudanrufwarteschleife](create-a-phone-system-call-queue.md)
 -   [Was sind automatische Cloudtelefonzentralen?](what-are-phone-system-auto-attendants.md)
--   [Einrichten einer automatischen Cloudtelefonzentrale](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [Einrichten einer automatischen Cloudtelefonzentrale](create-a-phone-system-auto-attendant.md)
 
