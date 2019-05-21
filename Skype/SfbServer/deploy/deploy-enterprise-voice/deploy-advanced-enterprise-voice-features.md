@@ -1,10 +1,10 @@
 ---
-title: Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server
+title: Bereitstellen von erweiterten Enterprise-VoIP-Features in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,34 +13,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
-description: Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server.
-ms.openlocfilehash: e4240fba99aaff0e1eaec046a9e0c6e30922d42d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Bereitstellen von erweiterten Enterprise-VoIP-Features in Skype for Business Server.
+ms.openlocfilehash: 5afc6a2bbf44afbc87ee5ec389f3db1cdc3200f7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892769"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280453"
 ---
-# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server
+# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Bereitstellen von erweiterten Enterprise-VoIP-Features in Skype for Business Server
  
-Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in Skype für Business Server.
+Bereitstellen von erweiterten Enterprise-VoIP-Features in Skype for Business Server.
   
 Nachdem Sie die grundlegende Enterprise-VoIP-Funktionalität für Ihre Organisation konfiguriert haben, können Sie optional eine oder mehrere erweiterte Enterprise-VoIP-Funktionen bereitstellen. Verwenden Sie hierzu die Verfahren in diesem Abschnitt. 
   
-- [Planen der medienumgehung in Skype für Unternehmen](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+- [Planen der medienumgehung in Skype for Business](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     
-- [Plan für die anrufsteuerung in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+- [Planen der Anrufsteuerung in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
     
-- [Planen für Notdienste in Skype Business Server](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
+- [Planen von Notfalldiensten in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
     
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [Bereitstellen von netzwerkregionen, Standorten und Subnetzen in Skype für Unternehmen](deploy-network.md)
+- [Bereitstellen von netzwerkregionen,-Websites und-Subnetzen in Skype for Business](deploy-network.md)
     
-- [Die medienumgehung in Skype für Business Server bereitstellen](deploy-media-bypass.md)
+- [Bereitstellen der medienumgehung in Skype for Business Server](deploy-media-bypass.md)
     
-- [Bereitstellen Sie die anrufsteuerung in Skype für Business Server](deploy-call-admission-control.md)
+- [Bereitstellen der Anrufsteuerung in Skype for Business Server](deploy-call-admission-control.md)
     
-- [Notdienste in Skype für Business Server bereitstellen](deploy-emergency-services.md)
+- [Bereitstellen von Notfalldiensten in Skype for Business Server](deploy-emergency-services.md)
     
 

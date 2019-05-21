@@ -1,27 +1,27 @@
 ---
-title: PSTN-Konferenz Zusammenfassungsbericht in Skype für Business Server
+title: Bericht zur PSTN-Konferenz Zusammenfassung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
-description: 'Zusammenfassung: Erfahren Sie mehr über das PSTN-Konferenz Zusammenfassungsbericht in Skype für Business Server.'
-ms.openlocfilehash: 29395fe2cbaf8bf82d89c7d1fae50542c5917e39
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Bericht zur PSTN-Konferenz Zusammenfassung in Skype for Business Server.'
+ms.openlocfilehash: 8b8b108243e257c414e9d6bb101e69fc9701d82e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925208"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279984"
 ---
-# <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>PSTN-Konferenz Zusammenfassungsbericht in Skype für Business Server
+# <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Bericht zur PSTN-Konferenz Zusammenfassung in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu PSTN-Konferenz Zusammenfassungsbericht in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den Bericht zur PSTN-Konferenz Zusammenfassung in Skype for Business Server.
   
-In Skype für Business Server ist eine PSTN-Konferenz eine Konferenz in der mindestens ein Teilnehmer den Audioteil Einwählen in eine mit einem Telefon PSTN (public switched Telephone Network). (Ein PSTN-Telefon "Festnetz" ist ein Mobiltelefon oder einem anderen Telefon das Verwenden von Voice over IP-keine vornimmt.) Obwohl als PSTN-Konferenzen in die Überwachungsberichte bezeichnet, werden diese Konferenzen möglicherweise mehr häufig als einwahlkonferenzen bezeichnet.
+In Skype for Business Server ist eine PSTN-Konferenz eine Konferenz, bei der sich mindestens ein Teilnehmer über ein PSTN-Telefon (Public Switched Telephone Network) in den Audioteil einwählt. (Bei einem PSTN-Telefon handelt es sich um ein Festnetztelefon, ein Mobiltelefon oder ein anderes Telefon, das keine VoIP-Nutzung durchführt.) Obwohl Sie in den Überwachungsberichten als PSTN-Konferenzen bezeichnet werden, werden diese Konferenzen vielleicht häufiger als Einwahlkonferenzen bezeichnet.
   
 Der „Zusammenfassende Bericht über PSTN-Konferenzen“ liefert Informationen zu allen in Ihrer Organisation durchgeführten PSTN-Konferenzen (das sind alle Konferenzen mit mindestens einem Einwahlbenutzer). Der Bericht enthält Informationen zur Gesamtanzahl der PSTN-Konferenzen, der Gesamtanzahl der Teilnehmer an diesen Konferenzen und vielleicht als wichtigste Information, die Gesamtanzahl der Einwahlbenutzer (Metrik der PSTN-Teilnehmer insgesamt).
   
@@ -31,9 +31,9 @@ Auf der Startseite „Überwachungsberichte“ können Sie auf den „Zusammenfa
   
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>Optimale Nutzung des „Zusammenfassenden Berichts über PSTN-Konferenzen“
 
-Um den Prozentsatz Ihrer Konferenzen bestimmen, die Einwahlbenutzer enthalten, vergleichen Sie den Wert der Metrik insgesamt PSTN-Konferenzen mit der Konferenzen insgesamt Metrik im [Conference Summary Report in Skype für Business Server](conference-summary-report.md)gefunden.
+Um den Prozentsatz aller ihrer Konferenzen zu ermitteln, die Einwahlbenutzer einbeziehen, vergleichen Sie den Wert der Gesamt Metrik für PSTN-Konferenzen mit der Gesamtzahl der Konferenzen, die im [Bericht "Konferenz Zusammenfassung" in Skype for Business Server](conference-summary-report.md)zu finden ist.
   
-Wenn Sie nicht, wie viele PSTN-Konferenzen angezeigt erwartungsgemäß Sie haben möglicherweise angezeigt wird, behalten Sie im Hinterkopf, von denen die Möglichkeit zum Organisieren von einer Konferenz, die Zugriffsnummer für Einwahl-Benutzern ermöglicht, die einem Benutzer zugewiesen wurde die konferenzrichtlinie abhängig: ob sehr wenige Benutzer dürfen PS halten Sie sind anscheinend noch nicht sehr wenige PSTN-Konferenzen finden Sie unter würde TN-Konferenzen. Sie können schnell überprüfen, welche der konferenzrichtlinien (sofern vorhanden) Benutzer PSTN-Konferenzen planen, indem Sie den folgenden Befehl aus innerhalb der Skype für Business Server-Verwaltungsshell ausführen können:
+Wenn Sie nicht so viele PSTN-Konferenzen sehen, wie Sie vielleicht erwartet hätten, sollten Sie Bedenken, dass die Möglichkeit zum Organisieren einer Konferenz, die Einwahlbenutzer ermöglicht, von der konferenzrichtlinie abhängt, die einem Benutzer zugewiesen wurde: Wenn nur wenige ihrer Benutzer PS halten dürfen TN-Konferenzen sehen Sie offensichtlich nur sehr wenige PSTN-Konferenzen. Sie können schnell überprüfen, welche ihrer Konferenzrichtlinien (sofern vorhanden) es Benutzern ermöglichen, PSTN-Konferenzen zu planen, indem Sie den folgenden Befehl in der Skype for Business Server-Verwaltungsshell ausführen:
   
 ```
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing

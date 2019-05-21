@@ -5,39 +5,39 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
-description: 'Zusammenfassung: Konfigurieren von SharePoint Server, um die Suche nach Daten, die von Exchange Server und Skype für Business Server archiviert.'
-ms.openlocfilehash: f6bf82348744ea5c3d650c348634dddd7628ad74
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Konfigurieren Sie SharePoint Server für die Suche nach Daten, die von Exchange Server und Skype for Business Server archiviert werden.'
+ms.openlocfilehash: 2fb4b601e594ca48105afcf2e0c75107b2c6bceb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894267"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278077"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Konfigurieren von SharePoint Server für die Suche nach archivierten Skype for Business-Daten
  
-**Zusammenfassung:** Konfigurieren von SharePoint Server, um die Suche nach Daten, die von Exchange Server 2016 oder Exchange Server 2013 und Skype für Business Server archiviert.
+**Zusammenfassung:** Konfigurieren Sie SharePoint Server für die Suche nach Daten, die von Exchange Server 2016 oder Exchange Server 2013 und Skype for Business Server archiviert werden.
   
-Einer der wichtigsten Vorteile zum Speichern von instant messaging und webkonferenzaufzeichnungen in Exchange Server und nicht Skype für Business Server ist, dass das Speichern von Daten in den gleichen Speicherort Administratoren ein einzelnes Tool zum Suchen nach archivierten Exchange-Daten verwenden können und/oder archivierten Skype für Business Server-Daten. Da alle, die die Daten in der gleichen gespeichert werden (Exchange) platzieren kann jedem Tool, das für Exchange Archivdaten suchen kann auch für archivierte Skype für Business Server-Daten suchen.
+Einer der Hauptvorteile für das Speichern von Instant Messaging-und Webkonferenz Protokollen in Exchange Server anstelle von Skype for Business Server besteht darin, dass Administratoren mithilfe eines einzigen Tools nach archivierten Exchange-Daten suchen können. und/oder archivierte Skype for Business Server-Daten. Da alle Daten an derselben Stelle (Exchange) gespeichert sind, können alle Tools, die nach archivierten Exchange-Daten suchen können, auch nach archivierten Skype for Business Server-Daten suchen.
   
-Ein Tool, das die Suche nach archivierten Daten erleichtert ist Microsoft SharePoint Server 2013. Wenn Sie SharePoint verwenden, um nach Skype für Business Server-Daten suchen möchten, müssen Sie zuerst alle Schritte zum Konfigurieren der Exchange-Archivierung in Skype für Business Server ausführen. Nach der Exchange-Server und Skype für Business Server erfolgreich integriert wurden, müssen Sie die Exchange [Web Services Managed API](https://go.microsoft.com/fwlink/p/?LinkId=258305) klicken Sie dann auf dem SharePoint-Server installieren. Die heruntergeladene Datei (EWSManagedAPI.msi) kann in einem beliebigen Ordner auf Ihrem SharePoint-Server gespeichert werden.
+Ein Tool, mit dem Sie nach archivierten Daten einfach suchen können, ist Microsoft SharePoint Server 2013. Wenn Sie SharePoint für die Suche nach Skype for Business Server-Daten verwenden möchten, müssen Sie zunächst alle Schritte ausführen, die bei der Konfiguration der Exchange-Archivierung in Skype for Business Server erforderlich sind. Nachdem Exchange Server und Skype for Business Server erfolgreich integriert wurden, müssen Sie die [verwaltete API](https://go.microsoft.com/fwlink/p/?LinkId=258305) für Exchange-Webdienste auf dem SharePoint-Server installieren. Die heruntergeladene Datei (EWSManagedAPI.msi) kann in einem beliebigen Ordner auf Ihrem SharePoint-Server gespeichert werden.
   
 Wenn die Datei vollständig heruntergeladen ist, führen Sie auf dem SharePoint-Server folgendes Verfahren aus:
   
 1. Öffnen Sie ein Befehlsfenster. Klicken Sie dazu auf **Start**, **Alle Programme** und **Zubehör**, klicken Sie mit der rechten Maustaste auf **Eingabeaufforderung** und klicken Sie dann auf **Als Administrator ausführen**.
     
-2. Verwenden Sie im Befehlsfenster den Befehl cd, um das aktuelle Verzeichnis in den Ordner zu ändern, in dem die Datei „EWSManagedAPI.msi“ gespeichert wurde. Angenommen, wenn Sie die Datei, um C:\Downloads gespeichert haben Geben Sie im Befehlsfenster den folgenden Befehl ein und drücken Sie die EINGABETASTE:
+2. Verwenden Sie im Befehlsfenster den Befehl cd, um das aktuelle Verzeichnis in den Ordner zu ändern, in dem die Datei „EWSManagedAPI.msi“ gespeichert wurde. Wenn Sie beispielsweise die Datei auf C:\Downloads gespeichert haben, geben Sie den folgenden Befehl im Befehlsfenster ein, und drücken Sie dann die EINGABETASTE:
     
    ```
    cd C:\Downloads
    ```
 
-3. Zum Installieren der API geben Sie den folgenden Befehl ein, und drücken Sie die EINGABETASTE:
+3. Zum Installieren der API geben Sie den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE:
     
    ```
    msiexec /I EwsManagedApi.msi addlocal="ExchangeWebServicesApi_Feature,ExchangeWebServicesApi_Gac"
@@ -49,7 +49,7 @@ Wenn die Datei vollständig heruntergeladen ist, führen Sie auf dem SharePoint-
    iisreset
    ```
 
-Nach der Installation von Exchange-Webdienste müssen Sie dann auf Server-zu-Server-Authentifizierung zwischen SharePoint Server und Exchange Server konfigurieren. Zu diesem Zweck zuerst öffnen Sie die SharePoint-Verwaltungsshell und führen Sie die folgende Reihe von Befehlen:
+Nachdem Exchange-Webdienste installiert wurden, müssen Sie die Server-zu-Server-Authentifizierung zwischen SharePoint Server und Exchange Server konfigurieren. Öffnen Sie dazu zunächst die SharePoint-Verwaltungsshell, und führen Sie die folgenden Befehlssätze aus:
   
 ```
 New-SPTrustedSecurityTokenIssuer -Name "Exchange" -MetadataEndPoint "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
@@ -61,9 +61,9 @@ $service.Update()
 ```
 
 > [!NOTE]
-> Achten Sie darauf, den URI für Ihren AutoErmittlungsdienst zu verwenden. Verwenden Sie nicht den Beispiel-URI https://autodiscover.litwareinc.com/autodiscover/metadata/json/1. 
+> Achten Sie darauf, den URI für Ihren AutoErmittlungsdienst zu verwenden. Verwenden Sie den Beispiel-URI https://autodiscover.litwareinc.com/autodiscover/metadata/json/1nicht. 
   
-Nachdem Sie den tokenherausgeber erstellt und den Sicherheitstokendienst konfiguriert haben, führen Sie diese Befehle, wie sichergestellt werden kann, ersetzen die URL der SharePoint-Website für die Beispiel-URLhttp://atl-sharepoint-001:
+Nachdem Sie den Token-Aussteller erstellt und den Tokendienst konfiguriert haben, führen Sie diese Befehle aus, und stellen Sie sicher, dass Sie die URL Ihrer SharePoint-Website für die Beispiel-URL ersetzen.http://atl-sharepoint-001:
   
 ```
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
@@ -72,27 +72,27 @@ $site = Get-SPSite  "https://atl-sharepoint-001"
 Set-SPAppPrincipalPermission -AppPrincipal $app -Site $site.RootWeb -Scope "SiteSubscription" -Right "FullControl" -EnableAppOnlyPolicy
 ```
 
-Konfigurieren der Server-zu-Server-Authentifizierung für Exchange Server, öffnen Sie die Exchange-Verwaltungsshell, und führen Sie einen Befehl wie den folgenden (unter der Annahme, dass Exchange auf Laufwerk C: installiert wurde, und das alles den Standardordnerpfad verwendet):
+Wenn Sie die Server-zu-Server-Authentifizierung für Exchange Server konfigurieren möchten, öffnen Sie die Exchange-Verwaltungsshell, und führen Sie einen ähnlichen Befehl aus (vorausgesetzt, Exchange wurde auf Laufwerk C: installiert und verwendet den Standardordnerpfad):
   
 ```
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-sharepoint-001/_layouts/15/metadata/json/1' -ApplicationType SharePoint"
 ```
 
-Nach der Konfiguration der partneranwendung wird empfohlen, dass Sie beenden und neu (Internet Information Services, IIS) auf allen Exchange-Postfach und Client Access-Servern starten. Mit einem Befehl wie den folgenden, der den Dienst auf dem Computer Atl-Exchange-001 neu gestartet wird, können Sie IIS neu starten:
+Nachdem Sie die Partneranwendung konfiguriert haben, empfiehlt es sich, Internet Informationsdienste (IIS) auf allen Exchange-Post Fach-und Clientzugriffsservern zu beenden und neu zu starten. Sie können IIS neu starten, indem Sie einen ähnlichen Befehl verwenden, mit dem der Dienst auf dem Computer "ATL-Exchange-001" neu gestartet wird:
   
 ```
 iisreset atl-exchange-001
 ```
 
-Dieser Befehl kann aus in der Exchange-Verwaltungsshell oder aus einem beliebigen anderen Befehlsfenster ausgeführt werden.
+Dieser Befehl kann in der Exchange-Verwaltungsshell oder in einem anderen Befehlsfenster ausgeführt werden.
   
-Führen Sie dann einen Befehl ähnlich dem folgenden, die dem angegebenen Benutzer (in diesem Beispiel "Kenmyer") das Recht, Ermittlung in Exchange bietet:
+Führen Sie als nächstes einen Befehl aus, der dem folgenden ähnelt, wodurch der angegebene Benutzer (in diesem Beispiel kenmyer) das Recht hat, eine Ermittlung in Exchange durchzuführen:
   
 ```
 Add-RoleGroupMember "Discovery Management" -Member "kenmyer"
 ```
 
-Nachdem zwischen Exchange und SharePoint Server-zu-Server-Authentifizierung hergestellt wurde, besteht der nächste Schritt zum Erstellen einer eDiscovery-Website in SharePoint. Kann durch Ausführen von Befehlen etwa wie folgt aus der SharePoint-Verwaltungsshell erfolgen:
+Nachdem die Server-zu-Server-Authentifizierung zwischen Exchange und SharePoint hergestellt wurde, besteht der nächste Schritt darin, eine eDiscovery-Website in SharePoint zu erstellen. Dies kann durch Ausführen von Befehlen ähnlich wie in der SharePoint-Verwaltungsshell erfolgen:
   
 ```
 $template = Get-SPWebTemplate | Where-Object {$_.Title -eq "eDiscovery Center"}
@@ -102,19 +102,19 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
 > [!NOTE]
 > „eDiscovery“ steht für „electronic Discovery“ (elektronische Ermittlung) und bezeichnet in der Regel das Durchsuchen von elektronischen Archiven nach Elementen, die in einem Gerichtsverfahren als Beweismittel zulässig sind. 
   
-Wenn die neue Website bereit ist, besteht der nächste Schritt so konfigurieren Sie Exchange Server um dementsprechend Quelle für SharePoint zu fungieren. Sie können hierzu auf der Seite SharePoint-Zentraladministration die folgenden Schritte ausführen:
+Wenn die neue Website fertig ist, besteht der nächste Schritt darin, Exchange Server so zu konfigurieren, dass Sie als ergebnisquelle für SharePoint fungiert. Sie können dies tun, indem Sie auf der Seite SharePoint-zentral Administration die folgenden Schritte ausführen:
   
 1. Klicken Sie auf der Seite „Zentraladministration“ auf **Dienstanwendungen verwalten** und dann auf **Suchdienstanwendung**.
     
 2. Klicken Sie auf der Seite „Suchdienstanwendung: Suchverwaltung“ auf **Ergebnisquellen** und dann auf **Neue Ergebnisquelle**.
     
-3. Geben Sie im Bereich **Neue Ergebnisquelle** im Feld **Name** einen Namen für die neue Ergebnisquelle ein (z. B. **Microsoft Exchange**). Wählen Sie **Exchange** als die ergebnisquelle **Protokoll**, und geben Sie die Web Services Quell-URL für Ihre Exchange-Server im Feld **Exchange Quell-URL** . Die Quell-URL sollte in etwa wie folgt aussehen:
+3. Geben Sie im Bereich **Neue Ergebnisquelle** im Feld **Name** einen Namen für die neue Ergebnisquelle ein (z. B. **Microsoft Exchange**). Wählen Sie **Exchange** als Ergebnis Quell **Protokoll**aus, und geben Sie dann im Feld **Exchange-Quell-URL** die URL des Webdienste-Quellcodes für Ihren Exchange-Server ein. Die Quell-URL sollte in etwa wie folgt aussehen:
     
     https://atl-exchange-001.litwareinc.com/ews/exchange.asmx
     
 4. Stellen Sie sicher, dass **AutoErmittlung verwenden** nicht ausgewählt ist, und klicken Sie auf **OK**.
     
-Schließlich erstellen Sie eine neue eDiscovery-Fall und eine neue eDiscovery festlegen, indem Sie die folgende Schritte aus, von der Ermittlung der SharePoint-Website (z. B. ausfüllenhttps://atl-sharepoint-001/sites/discovery):
+Erstellen Sie schließlich einen neuen eDiscovery-Fall und einen neuen eDiscovery-Satz, indem Sie das folgende Verfahren auf der SharePoint-Ermittlungs Website ausführen (beispielsweisehttps://atl-sharepoint-001/sites/discovery):
   
 1. Klicken Sie auf der Seite **Websiteinhalte** auf Neuen Fall erstellen.
     
@@ -126,14 +126,14 @@ Schließlich erstellen Sie eine neue eDiscovery-Fall und eine neue eDiscovery fe
     
 4. Wenn die Seite „eDiscovery-Satz“ angezeigt wird, klicken Sie unter **Identifizieren und beibehalten: eDiscovery-Sätze** auf **Neues Element**.
     
-5. Geben Sie auf der Seite „Neu: eDiscovery-Satz“ im Feld **Name für eDiscovery-Satz** den E-Mail-Alias des Benutzers ein. Geben Sie **eDiscovery Lync\\*** im **Filter** ein, und klicken Sie dann auf **Hinzufügen &amp; Quellen verwalten**.
+5. Geben Sie auf der Seite „Neu: eDiscovery-Satz“ im Feld **Name für eDiscovery-Satz** den E-Mail-Alias des Benutzers ein. Geben Sie **eDiscovery\\lync*** in das Feld **Filter** ein, und klicken Sie dann auf **Verwalten von Quellen hinzufügen &amp; **.
     
-6. Auf der hinzufügen &amp; Quellen verwalten Seite, geben Sie in das erste Textfeld unter **Postfächer**e-Mail-Alias des Benutzers ein. Klicken Sie neben dem Textfeld auf das Symbol „Postfach überprüfen“, um sicherzustellen, dass SharePoint eine Verbindung mit dem angegebenen Postfach herstellen kann.
+6. Geben Sie auf &amp; der Seite Manage sources hinzufügen den e-Mail-Alias des Benutzers im ersten Textfeld unter **Postfächer**ein. Klicken Sie neben dem Textfeld auf das Symbol „Postfach überprüfen“, um sicherzustellen, dass SharePoint eine Verbindung mit dem angegebenen Postfach herstellen kann.
     
 7. Klicken Sie anschließend auf **OK**.
     
 8. Klicken Sie auf der Seite „eDiscovery-Satz“ auf **Speichern**, um den neuen eDiscovery-Satz zu speichern.
     
-An dieser Stelle können Sie das angegebene Postfach (Kenmyer) durchsuchen und/oder aktivieren In-Place-Haltebereiche genauso wie bei anderen SharePoint Inhalte oder ergebnisquellen Quellen dies.
+An diesem Punkt können Sie das angegebene Postfach (kenmyer) durchsuchen und/oder in-situ-Speicher auf die gleiche Weise aktivieren wie für andere SharePoint-Inhalte oder-Ergebnisquellen.
   
 

@@ -1,35 +1,35 @@
 ---
-title: Verwenden das Monitoring-Dashboard in Skype für Business Server
+title: Verwenden des Überwachungs Dashboards in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
-description: 'Zusammenfassung: Informationen Sie zu dem Monitoring-Dashboard in Skype für Business Server.'
-ms.openlocfilehash: 9e670ef971b6be9988167f82f21e855cbc8083a4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über das Überwachungs Dashboard in Skype for Business Server.'
+ms.openlocfilehash: 0ca85bff7cfcad7f3b64a4b0f5b92a22299e5719
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902855"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279928"
 ---
-# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Verwenden das Monitoring-Dashboard in Skype für Business Server
+# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Verwenden des Überwachungs Dashboards in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu dem Monitoring-Dashboard in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über das Dashboard für die Überwachung in Skype for Business Server.
   
-Das Monitoring-Dashboard ermöglicht Administratoren einen schnellen Überblick über ihre Skype für die Verwendung von Business Server-System Integritäts- und System. Im Dashboard wird eine Zusammenfassung wichtiger Systemmetriken für folgende Werte angezeigt:
+Das Überwachungs Dashboard bietet Administratoren einen schnellen Überblick über den Systemstatus und die Systemnutzung von Skype for Business Server. Im Dashboard wird eine Zusammenfassung wichtiger Systemmetriken für folgende Werte angezeigt:
   
-- Gesamtwerte für den aktuellen Tag. Beachten Sie, dass die für den aktuellen Tag angezeigten Werte Daten repräsentieren, die von Mitternacht bis zum aktuellen Zeitpunkt aufgezeichnet wurden (basierend auf der Ortszeit des Berichtsservers). Dies bedeutet, dass Sie in der Regel Daten für einen Teil des Tages und nicht für einen Zeitraum von 24 Stunden sehen. Beispielsweise ist der Ortszeit des Servers 8:00 Uhr, finden Sie unter Sie acht Stunden im Wert von Daten, da es acht Stunden zwischen Mitternacht und die aktuelle Uhrzeit 8:00 Uhr werden.
+- Gesamtwerte für den aktuellen Tag. Beachten Sie, dass die für den aktuellen Tag angezeigten Werte Daten repräsentieren, die von Mitternacht bis zum aktuellen Zeitpunkt aufgezeichnet wurden (basierend auf der Ortszeit des Berichtsservers). Dies bedeutet, dass Sie in der Regel Daten für einen Teil des Tages und nicht für einen Zeitraum von 24 Stunden sehen. Wenn beispielsweise die lokale Zeit des Servers 8:00 Uhr beträgt, werden die Daten im Wert von acht Stunden angezeigt, da zwischen Mitternacht und der aktuellen Uhrzeit von 8:00 Uhr acht Stunden vorhanden sind.
     
 - Gesamtwerte für die Woche sowie Trendgesamtwerte für die letzten sechs Wochen.
     
 - Gesamtwerte für den Monat sowie Trendgesamtwerte für die letzten sechs Monate (nur für die Systemauslastung).
     
-Beachten Sie, dass Sie das Cmdlet ["Get-csreportingconfiguration"](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) verwenden können, um die URL für den Zugriff auf Skype für Business Server-Überwachungsberichte verwendet zurückzugeben:
+Beachten Sie, dass Sie das Cmdlet " [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) " verwenden können, um die URL zurückzugeben, die für den Zugriff auf Skype for Business Server-Überwachungsberichte verwendet wird:
   
 ```
 Get-CsReportingConfiguration
@@ -155,7 +155,7 @@ Wie bereits erwähnt, werden standardmäßig Gesamtwerte für die aktuelle Woche
 Mit den Werten in den Spalten **Diese Woche**, **Dieser Monat** oder **Heute** sind jeweils ausführlichere Informationen verknüpft. Bedenken Sie, dass der Spaltenname und die darin angezeigten Werte oft voneinander abweichen, je nachdem, welche Metrik Sie auswählen und ob Sie die wöchentliche Ansicht oder die monatliche Ansicht ausgewählt haben. Wenn Sie z. B. auf die angezeigten Gesamtwerte für die Metrik **Eindeutige Benutzeranmeldungen** klicken, wird der **Bericht über Benutzerregistrierung** für den angegebenen Zeitraum angezeigt. Durch Klicken auf **Dashboard** können Sie jederzeit wieder zum Monitoring-Dashboard wechseln.
   
 > [!TIP]
-> Sie können auch die Monitoring Server Reports-Homepage zugreifen, indem Sie auf den Link **Berichte** in der oberen rechten Ecke des Dashboards.
+> Sie können auch auf die Startseite der Monitoring Server-Berichte zugreifen, indem Sie in der oberen rechten Ecke des Dashboards auf den Link **Berichte** klicken.
   
 In der Spalte **Trend** wird ein einfaches Liniendiagramm mit den Gesamtwerten für die letzten sechs Wochen (oder in Abhängigkeit von der Metrik und dem Zeitintervall für die letzten sechs Tage oder die letzten sechs Monate) angezeigt. Diese einfachen Liniendiagramme enthalten einen unbeschrifteten Datenpunkt für jeden Zeitraum (z. B. einen unbeschrifteten Datenpunkt für jede der letzten sechs Wochen). Sie können jedoch tatsächliche Werte für diese Diagramme abrufen, indem Sie mit dem Mauszeiger über das Diagramm fahren. Es wird daraufhin eine QuickInfo mit den maximalen und minimalen Werten im Diagramm angezeigt.
   
@@ -177,7 +177,7 @@ Im Monitoring-Dashboard gibt es eine Reihe von Möglichkeiten zum Exportieren de
     
 - Word
     
-Zum Exportieren der aktuellen Dashboardansicht (und der zugehörigen Werte), klicken Sie auf die gewünschte Exportoption. Skype für Business Server generiert einen Bericht im angegebenen Format, und geben Sie die Option diesen Bericht öffnen oder speichern. Beachten Sie, dass standardmäßig Skype für Business Server des Berichts **Monitoring-Dashboard titles** , und ihn in den Ordner Downloads speichert. Wenn Sie den Bericht anders benennen oder in einem anderen Ordner speichern möchten, klicken Sie auf den Pfeil neben der Schaltfläche **Speichern** und klicken Sie dann auf **Speichern unter**. Wenn Sie den Namen **Monitoring-Dashboard** übernehmen und den Bericht im Ordner „Downloads“ speichern möchten, können Sie einfach auf die Schaltfläche **Speichern** klicken.
+Zum Exportieren der aktuellen Dashboardansicht (und der zugehörigen Werte), klicken Sie auf die gewünschte Exportoption. Skype for Business Server generiert einen Bericht im angegebenen Format und gibt Ihnen dann die Möglichkeit, diesen Bericht zu öffnen oder zu speichern. Beachten Sie, dass Skype for Business Server standardmäßig das Dashboard für die Berichts **Überwachung** ausgibt und es in Ihrem Ordner "Downloads" speichert. Wenn Sie den Bericht anders benennen oder in einem anderen Ordner speichern möchten, klicken Sie auf den Pfeil neben der Schaltfläche **Speichern** und klicken Sie dann auf **Speichern unter**. Wenn Sie den Namen **Monitoring-Dashboard** übernehmen und den Bericht im Ordner „Downloads“ speichern möchten, können Sie einfach auf die Schaltfläche **Speichern** klicken.
   
 Beim Exportieren von Dashboarddaten wird möglicherweise ein **Sicherheitshinweis** angezeigt, dass Ihre aktuellen Einstellungen das Herunterladen dieser Datei nicht zulassen. Führen Sie in diesem Fall die folgenden Aktionen aus:
   
@@ -185,7 +185,7 @@ Beim Exportieren von Dashboarddaten wird möglicherweise ein **Sicherheitshinwei
     
 - Klicken Sie im Dialogfeld **Internetoptionen** auf der Registerkarte **Sicherheit** auf **Vertrauenswürdige Sites** und dann auf **Sites**.
     
-- Klicken Sie im Dialogfeld **Vertrauenswürdige Sites** auf **Hinzufügen** , um die Skype für Business Server hinzufügen, Skype für Business Server-Berichte, die Auflistungen der vertrauenswürdigen Websites ausgeführt wird.
+- Klicken Sie im Dialogfeld **vertrauenswürdige Websites** auf **Hinzufügen** , um den Skype for Business-Server, auf dem Skype for Business Server-Berichte ausgeführt werden, den Sammlungen vertrauenswürdiger Websites hinzuzufügen.
     
 - Klicken Sie auf **Schließen** und dann auf **OK**.
     

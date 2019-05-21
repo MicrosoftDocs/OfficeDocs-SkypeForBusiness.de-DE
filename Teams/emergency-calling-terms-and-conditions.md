@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,13 +21,13 @@ ROBOTS: NOINEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Hier erfahren Sie, wie Notdienste (911) von herkömmlichen Telefondienste unterscheiden und wie Sie einen Anruf zu tätigen. '
-ms.openlocfilehash: 8b67f1ef79d3c0782caa5316e88e5a1549e00b2e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Erfahren Sie, wie Notrufdienste (911) von herkömmlichen Telefondiensten abweichen und wie Sie einen Anruf führen. '
+ms.openlocfilehash: 64e500246138fc7f0ed8d2d1a6c4869b6e3b679e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244455"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279033"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Nutzungsbedingungen für Notrufe
 
@@ -35,7 +35,7 @@ ms.locfileid: "32244455"
 
 Anrufe bei Notdiensten funktionieren mit Anrufplänen in Office 365 anders als bei herkömmlichen Telefondiensten. Es ist wichtig, dass Sie diese Unterschiede verstehen und sie allen Benutzern mit Anrufplänen in Office 365 vermitteln. Sie erklären sich einverstanden und stimmen zu, dass Sie die Unterschiede in Bezug auf Anrufe bei Notdiensten gelesen und verstanden haben und alle Benutzer mit Anrufplänen in Office 365 darauf hinweisen.
   
-Die Unterschiede in unseren Emergency Services Funktionen aufrufen lauten wie folgt: (i) Skype für Unternehmen und Teams wissen möglicherweise nicht den tatsächlichen Speicherort der Anrufer eine Emergency Services Anruf den Anruf an die falsche Emergency weitergeleitet führen kann Callcenter Services und/oder Notdienste an den falschen Speicherort gesendet wird. (Ii) Wenn das Gerät des Benutzers ohne Strom, einen Stromausfall auftritt ist oder, aus irgendeinem Grund kann nicht der Zugriff auf das Internet, kann nicht der Benutzer Emergency Services über plant Aufrufen in Office 365 tätigen Sie einen Anruf; und (Iii), obwohl Aufrufen in Office 365-Pläne an einer beliebigen Stelle in der ganzen Welt, in denen eine Internet-Verbindung verwendet werden kann verfügbar ist, Benutzer sollten tätigen eines Anrufs Emergency Services von einem Speicherort außerhalb von home Land/Region nicht zu, da der Anruf wahrscheinlich nicht an weitergeleitet werden die entsprechenden Callcenter in diesem Land/Region.
+Zu den Unterschieden bei den Notruffunktionen gehören die folgenden: (i) Skype for Business und Teams wissen möglicherweise nicht, ob ein Anrufer einen Notruf durchführt, was dazu führen kann, dass der Anruf an den falschen Notfall weitergeleitet wird. Services Call Center und/oder Notfalldienste werden an den falschen Ort versandt; (II) Wenn das Gerät des Benutzers keinen Strom hat, einen Stromausfall hat oder aus irgendeinem Grund nicht anderweitig auf das Internet zugreifen kann, kann der Benutzer keinen Notruf über Anrufpläne in Office 365 tätigen; und (III) Obwohl Anrufpläne in Office 365 überall in der Welt verwendet werden können, in denen eine Internet Verbindung verfügbar ist, sollten Benutzer keinen Notruf an einem Standort außerhalb ihres Heimatlandes/der Region tätigen, da der Anruf wahrscheinlich nicht an das entsprechende Callcenter in diesem Land/dieser Region.
   
 ## <a name="related-topics"></a>Verwandte Themen
 [Allgemeine Fragen zum Übertragen von Telefonnummern](transferring-phone-numbers-common-questions.md)
@@ -44,7 +44,7 @@ Die Unterschiede in unseren Emergency Services Funktionen aufrufen lauten wie fo
 
 [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Notruf aufrufen Haftungsausschluss Beschriftung](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Disclaimer-Label für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  
