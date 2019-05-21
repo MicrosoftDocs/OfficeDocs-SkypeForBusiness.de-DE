@@ -1,55 +1,55 @@
 ---
-title: Neuigkeiten in Skype für Business Server 2019 | Funktionen
+title: Neuerungen in Skype for Business Server 2019 | Funktionen
 ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Zusammenfassung: Diese Features sind neu in Skype für Business Server 2019.'
-ms.openlocfilehash: 68b6a2c3e3115df58c44603817e2adfc0c83f67c
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+description: 'Zusammenfassung: diese Funktionen sind neu in Skype for Business Server 2019.'
+ms.openlocfilehash: 4ede00188c8928e0fa3d89857b6d5bfdb0a44ade
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835239"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283899"
 ---
-# <a name="whats-in-skype-for-business-server-2019"></a><span data-ttu-id="0a79b-103">Was ist in Skype für Business Server 2019</span><span class="sxs-lookup"><span data-stu-id="0a79b-103">What's in Skype for Business Server 2019</span></span>
+# <a name="whats-in-skype-for-business-server-2019"></a><span data-ttu-id="19324-103">Was ist in Skype for Business Server 2019</span><span class="sxs-lookup"><span data-stu-id="19324-103">What's in Skype for Business Server 2019</span></span>
 
-<span data-ttu-id="0a79b-104">**Zusammenfassung:** Lesen Sie dieses Thema, um Informationen zu neuen Features in Skype für Business Server 2019 erhalten.</span><span class="sxs-lookup"><span data-stu-id="0a79b-104">**Summary:** Read this topic to learn about new features in Skype for Business Server 2019.</span></span>  
+<span data-ttu-id="19324-104">**Zusammenfassung:** In diesem Thema finden Sie Informationen zu den neuen Funktionen in Skype for Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="19324-104">**Summary:** Read this topic to learn about new features in Skype for Business Server 2019.</span></span>  
 
-<span data-ttu-id="0a79b-105">Die folgenden: neuen Features in Skype für Business Server 2019</span><span class="sxs-lookup"><span data-stu-id="0a79b-105">New features in Skype for Business Server 2019 include the following:</span></span>
+<span data-ttu-id="19324-105">Zu den neuen Funktionen in Skype for Business Server 2019 gehören die folgenden:</span><span class="sxs-lookup"><span data-stu-id="19324-105">New features in Skype for Business Server 2019 include the following:</span></span>
   
-- <span data-ttu-id="0a79b-106">Cloudvoicemail</span><span class="sxs-lookup"><span data-stu-id="0a79b-106">Cloud Voicemail</span></span>  
-- <span data-ttu-id="0a79b-107">Anrufdatenconnector</span><span class="sxs-lookup"><span data-stu-id="0a79b-107">Call Data Connector</span></span>
-- <span data-ttu-id="0a79b-108">Side-by-Side-migration</span><span class="sxs-lookup"><span data-stu-id="0a79b-108">Side-by-side migration</span></span>
+- <span data-ttu-id="19324-106">Cloudvoicemail</span><span class="sxs-lookup"><span data-stu-id="19324-106">Cloud Voicemail</span></span>  
+- <span data-ttu-id="19324-107">Anrufdatenconnector</span><span class="sxs-lookup"><span data-stu-id="19324-107">Call Data Connector</span></span>
+- <span data-ttu-id="19324-108">Parallele Migration</span><span class="sxs-lookup"><span data-stu-id="19324-108">Side-by-side migration</span></span>
 
-## <a name="unified-messaging-services-cloud-voicemail"></a><span data-ttu-id="0a79b-109">Unified messaging-Dienste: Cloud-Voicemail</span><span class="sxs-lookup"><span data-stu-id="0a79b-109">Unified messaging services: Cloud Voicemail</span></span>
+## <a name="unified-messaging-services-cloud-voicemail"></a><span data-ttu-id="19324-109">Unified Messaging-Dienste: Cloud Voicemail</span><span class="sxs-lookup"><span data-stu-id="19324-109">Unified messaging services: Cloud Voicemail</span></span>
 
-<span data-ttu-id="0a79b-110">Exchange UM bleibt verfügbar in Skype für Business Server 2019 beim Exchange 2013 oder Exchange 2016 Skype für Unternehmen 2019 integrieren.</span><span class="sxs-lookup"><span data-stu-id="0a79b-110">Exchange UM remains available in Skype for Business Server 2019 when you integrate Skype for Business 2019 with Exchange 2013 or Exchange 2016.</span></span> <span data-ttu-id="0a79b-111">Aufgrund von Änderungen im-Unterstützung in Exchange 2019 wird jede Bedeutung wird Cloud Voicemail und Cloud-Telefonzentrale Features Exchange UM-Integration.</span><span class="sxs-lookup"><span data-stu-id="0a79b-111">Due to changes in support in Exchange 2019, Exchange UM integration is being de-emphasized in favor of Cloud Voicemail and Cloud Auto Attendant features.</span></span>  
+<span data-ttu-id="19324-110">Exchange um bleibt in Skype for Business Server 2019 verfügbar, wenn Sie Skype for Business 2019 mit Exchange 2013 oder Exchange 2016 integrieren.</span><span class="sxs-lookup"><span data-stu-id="19324-110">Exchange UM remains available in Skype for Business Server 2019 when you integrate Skype for Business 2019 with Exchange 2013 or Exchange 2016.</span></span> <span data-ttu-id="19324-111">Aufgrund von Änderungen an der Unterstützung in Exchange 2019 wird die Exchange um-Integration zu Gunsten der Features Cloud Voicemail und Cloud-automatische Telefonzentrale de-hervorgehoben.</span><span class="sxs-lookup"><span data-stu-id="19324-111">Due to changes in support in Exchange 2019, Exchange UM integration is being de-emphasized in favor of Cloud Voicemail and Cloud Auto Attendant features.</span></span>  
 
-<span data-ttu-id="0a79b-112">Cloud-Voicemail aktiviert alle Ihre Skype für Business 2019 Users& #x 2014; ob sie in der lokalen oder Online& #x 2014; Zugriff auf dem gleichen Voicemail-Dienst in der Microsoft-Cloud verwaltet werden.</span><span class="sxs-lookup"><span data-stu-id="0a79b-112">Cloud Voicemail enables all your Skype for Business 2019 users&#x2014;whether they are homed on premises or online&#x2014;to have access to the same voicemail service in the Microsoft Cloud.</span></span> <span data-ttu-id="0a79b-113">Cloud-Voicemail bietet die folgenden Vorteile für die lokalen und online-Benutzer:</span><span class="sxs-lookup"><span data-stu-id="0a79b-113">Cloud Voicemail provides the following benefits for both your on-premises and online users:</span></span>
+<span data-ttu-id="19324-112">Cloud Voicemail ermöglicht alle Ihre Skype for Business 2019 users& # x2014; unabhängig davon, ob Sie lokal oder online& # x2014 sind, um in der Microsoft-Cloud Zugriff auf denselben Voicemaildienst zu haben.</span><span class="sxs-lookup"><span data-stu-id="19324-112">Cloud Voicemail enables all your Skype for Business 2019 users&#x2014;whether they are homed on premises or online&#x2014;to have access to the same voicemail service in the Microsoft Cloud.</span></span> <span data-ttu-id="19324-113">Cloud Voicemail bietet die folgenden Vorteile für Ihre lokalen und Online Benutzer:</span><span class="sxs-lookup"><span data-stu-id="19324-113">Cloud Voicemail provides the following benefits for both your on-premises and online users:</span></span>
 
-- <span data-ttu-id="0a79b-114">Zugriff auf Voicemail in ihrer Exchange-Postfach mithilfe der Skype für Business Online, Teams oder Outlook-clients</span><span class="sxs-lookup"><span data-stu-id="0a79b-114">Access to voicemail in their Exchange mailbox by using the Skype for Business Online, Teams, or Outlook clients</span></span>
-- <span data-ttu-id="0a79b-115">Die Möglichkeit, verwenden das webbasierte Portal Verwalten ihrer Voicemail-Optionen</span><span class="sxs-lookup"><span data-stu-id="0a79b-115">Ability to use the web-based portal to manage their voicemail options</span></span>
+- <span data-ttu-id="19324-114">Zugriff auf Voicemail in Ihrem Exchange-Postfach mithilfe der Skype for Business Online-, Teams-oder Outlook-Clients</span><span class="sxs-lookup"><span data-stu-id="19324-114">Access to voicemail in their Exchange mailbox by using the Skype for Business Online, Teams, or Outlook clients</span></span>
+- <span data-ttu-id="19324-115">Möglichkeit zur Verwendung des webbasierten Portals zum Verwalten der Voicemail-Optionen</span><span class="sxs-lookup"><span data-stu-id="19324-115">Ability to use the web-based portal to manage their voicemail options</span></span>
 
-<span data-ttu-id="0a79b-116">Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../sfbhybrid/hybrid/plan-cloud-voicemail.md) und [Skype für Business Server und Exchange Server-Migration planen](../sfbhybrid/hybrid/plan-um-migration.md) .</span><span class="sxs-lookup"><span data-stu-id="0a79b-116">See [Plan Cloud Voicemail service](../sfbhybrid/hybrid/plan-cloud-voicemail.md) and [Plan for Skype for Business Server and Exchange Server migration](../sfbhybrid/hybrid/plan-um-migration.md) for more information.</span></span>
+<span data-ttu-id="19324-116">Weitere Informationen finden Sie unter [Planen des Cloud Voicemail-Diensts](../sfbhybrid/hybrid/plan-cloud-voicemail.md) und [Planen der Skype for Business Server-und Exchange Server-Migration](../sfbhybrid/hybrid/plan-um-migration.md) .</span><span class="sxs-lookup"><span data-stu-id="19324-116">See [Plan Cloud Voicemail service](../sfbhybrid/hybrid/plan-cloud-voicemail.md) and [Plan for Skype for Business Server and Exchange Server migration](../sfbhybrid/hybrid/plan-um-migration.md) for more information.</span></span>
   
-## <a name="call-monitoring-call-data-connector"></a><span data-ttu-id="0a79b-117">Rufen Sie monitoring: Anruf Data Connector</span><span class="sxs-lookup"><span data-stu-id="0a79b-117">Call monitoring: Call Data Connector</span></span>
+## <a name="call-monitoring-call-data-connector"></a><span data-ttu-id="19324-117">Anrufüberwachung: Anrufdaten-Konnektor</span><span class="sxs-lookup"><span data-stu-id="19324-117">Call monitoring: Call Data Connector</span></span>
 
-<span data-ttu-id="0a79b-118">Anruf Data Connector vereinfacht die Anruf-Überwachung in einer hybridumgebung, da Sie nicht mehr benötigen, um verschiedene Sätze von lokalen und online-Tools verwenden, um alle Ihre Benutzer die Anrufqualität zu überwachen.</span><span class="sxs-lookup"><span data-stu-id="0a79b-118">Call Data Connector greatly simplifies call monitoring in a hybrid environment because you no longer need to use different sets of on-premises and online tools to monitor all of your users call quality.</span></span>  <span data-ttu-id="0a79b-119">Ob Ihre Benutzer lokal verwaltete oder online sind, können Sie die Anrufqualität für die gesamte Organisation online anzeigen.</span><span class="sxs-lookup"><span data-stu-id="0a79b-119">Whether your users are homed on premises or online, you can choose to view call quality for your entire organization online.</span></span>
+<span data-ttu-id="19324-118">Der Anruf Datenkonnektor vereinfacht die Anrufüberwachung in einer Hybridumgebung erheblich, da Sie keine unterschiedlichen lokalen und Online Tools mehr verwenden müssen, um die Anrufqualität Ihrer Benutzer zu überwachen.</span><span class="sxs-lookup"><span data-stu-id="19324-118">Call Data Connector greatly simplifies call monitoring in a hybrid environment because you no longer need to use different sets of on-premises and online tools to monitor all of your users call quality.</span></span>  <span data-ttu-id="19324-119">Unabhängig davon, ob Ihre Benutzer lokal oder online sind, können Sie festlegen, dass die Anrufqualität für Ihre gesamte Organisation online angezeigt werden soll.</span><span class="sxs-lookup"><span data-stu-id="19324-119">Whether your users are homed on premises or online, you can choose to view call quality for your entire organization online.</span></span>
 
-<span data-ttu-id="0a79b-120">Mit Data Connector aufrufen, können Sie die folgenden Aufgaben ausführen, mithilfe einer einzelnen Toolset:</span><span class="sxs-lookup"><span data-stu-id="0a79b-120">With Call Data Connector, you can perform the following tasks by using a single toolset:</span></span>
+<span data-ttu-id="19324-120">Mit Call Data Connector können Sie die folgenden Aufgaben mithilfe eines einzelnen Toolsets ausführen:</span><span class="sxs-lookup"><span data-stu-id="19324-120">With Call Data Connector, you can perform the following tasks by using a single toolset:</span></span>
 
-- <span data-ttu-id="0a79b-121">Überwachen Sie Ihre Benutzer wünschen über Microsoft-Teams, Skype für Business Online und Skype für Business Server.</span><span class="sxs-lookup"><span data-stu-id="0a79b-121">Monitor your user experience across Microsoft Teams, Skype for Business Online, and Skype for Business Server.</span></span>
-- <span data-ttu-id="0a79b-122">Zeigen Sie an und beheben Sie Probleme in Ihrem Netzwerk</span><span class="sxs-lookup"><span data-stu-id="0a79b-122">View and troubleshoot problems across your network</span></span>
-- <span data-ttu-id="0a79b-123">Zuweisen von Helpdesk und Administrator Rollen für aufrufen, Analyse, sodass Mitarbeiter anzeigen und beheben Verantwortungsbereich Helpdesk Webinhalte.</span><span class="sxs-lookup"><span data-stu-id="0a79b-123">Assign helpdesk and administrator roles for Call Analytics, so that you can empower helpdesk workers to view and troubleshoot their areas of responsibility.</span></span>
+- <span data-ttu-id="19324-121">Überwachen Sie Ihre Benutzererfahrung in Microsoft Teams, Skype for Business Online und Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="19324-121">Monitor your user experience across Microsoft Teams, Skype for Business Online, and Skype for Business Server.</span></span>
+- <span data-ttu-id="19324-122">Anzeigen und Beheben von Problemen in Ihrem Netzwerk</span><span class="sxs-lookup"><span data-stu-id="19324-122">View and troubleshoot problems across your network</span></span>
+- <span data-ttu-id="19324-123">Weisen Sie Helpdesk-und Administratorrollen für die anrufanalyse zu, damit Sie Helpdesk-Mitarbeitern die Möglichkeit geben können, ihre Zuständigkeitsbereiche anzuzeigen und zu beheben.</span><span class="sxs-lookup"><span data-stu-id="19324-123">Assign helpdesk and administrator roles for Call Analytics, so that you can empower helpdesk workers to view and troubleshoot their areas of responsibility.</span></span>
 
-<span data-ttu-id="0a79b-124">Weitere Informationen finden Sie unter [Planen der Call Data Connector](../sfbhybrid/hybrid/plan-call-data-connector.md) .</span><span class="sxs-lookup"><span data-stu-id="0a79b-124">See [Plan Call Data Connector](../sfbhybrid/hybrid/plan-call-data-connector.md) for more information.</span></span>
+<span data-ttu-id="19324-124">Weitere Informationen finden Sie unter [Planen von Anrufdaten](../sfbhybrid/hybrid/plan-call-data-connector.md) -Konnektoren.</span><span class="sxs-lookup"><span data-stu-id="19324-124">See [Plan Call Data Connector](../sfbhybrid/hybrid/plan-call-data-connector.md) for more information.</span></span>
 
-### <a name="see-also"></a><span data-ttu-id="0a79b-125">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="0a79b-125">See also</span></span>
+### <a name="see-also"></a><span data-ttu-id="19324-125">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="19324-125">See also</span></span>
 
-[<span data-ttu-id="0a79b-126">Was ist aus Skype für Business Server 2019 veraltet</span><span class="sxs-lookup"><span data-stu-id="0a79b-126">What's deprecated from Skype for Business Server 2019</span></span>](deprecated.md)
+[<span data-ttu-id="19324-126">Was ist in Skype for Business Server 2019 veraltet?</span><span class="sxs-lookup"><span data-stu-id="19324-126">What's deprecated from Skype for Business Server 2019</span></span>](deprecated.md)

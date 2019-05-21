@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PstnGatewaySettingsExpander
@@ -13,23 +13,23 @@ localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ändern Sie die folgenden Felder, um die Einstellungen für ein PSTN-Gateway (Public Switched Telephone Network) zu bearbeiten oder zu ändern:'
-ms.openlocfilehash: 1965251b3748de6a4d1366173561c8dec88bddce
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 80e3f6b0f6e0afa4b28b384cfe9a64ac8bbd6ebc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919851"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302182"
 ---
-# <a name="pstn-gateway-settings-expander"></a><span data-ttu-id="971ac-103">PSTN-Gatewayeinstellungen – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="971ac-103">PSTN Gateway Settings Expander</span></span>
+# <a name="pstn-gateway-settings-expander"></a><span data-ttu-id="e3f75-103">PSTN-Gatewayeinstellungen – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="e3f75-103">PSTN Gateway Settings Expander</span></span>
  
-<span data-ttu-id="971ac-104">Ändern Sie die folgenden Felder, um die Einstellungen für ein PSTN-Gateway (Public Switched Telephone Network) zu bearbeiten oder zu ändern:</span><span class="sxs-lookup"><span data-stu-id="971ac-104">To edit or modify the settings for a public switched telephone network (PSTN) gateway, modify the following fields:</span></span>
+<span data-ttu-id="e3f75-104">Ändern Sie die folgenden Felder, um die Einstellungen für ein PSTN-Gateway (Public Switched Telephone Network) zu bearbeiten oder zu ändern:</span><span class="sxs-lookup"><span data-stu-id="e3f75-104">To edit or modify the settings for a public switched telephone network (PSTN) gateway, modify the following fields:</span></span>
   
-<span data-ttu-id="971ac-105">Der FQDN oder die IP-Adresse des Gateways ist ein erforderlicher Eintrag, der festlegt, ob der vollqualifizierte Domänenname (FQDN)\*\*\*\* des PSTN-Gateways über einen DNS-A-Eintrag (Host), einen statischen HOSTS-Dateieintrag oder die IP-Adresse des PSTN-Gateways definiert ist.</span><span class="sxs-lookup"><span data-stu-id="971ac-105">Gateway FQDN or IP Address is a required entry and defines wither the **Fully qualified domain name (FQDN)** of the PSTN gateway as defined by a Domain Name System (DNS) host (A) record, a static HOSTS file entry, or by the IP address of the PSTN gateway.</span></span>
+<span data-ttu-id="e3f75-105">Der FQDN oder die IP-Adresse des Gateways ist ein erforderlicher Eintrag, der festlegt, ob der vollqualifizierte Domänenname (FQDN)\*\*\*\* des PSTN-Gateways über einen DNS-A-Eintrag (Host), einen statischen HOSTS-Dateieintrag oder die IP-Adresse des PSTN-Gateways definiert ist.</span><span class="sxs-lookup"><span data-stu-id="e3f75-105">Gateway FQDN or IP Address is a required entry and defines wither the **Fully qualified domain name (FQDN)** of the PSTN gateway as defined by a Domain Name System (DNS) host (A) record, a static HOSTS file entry, or by the IP address of the PSTN gateway.</span></span>
   
-<span data-ttu-id="971ac-p101">Beim SIP-Transportprotokoll kann es sich um das Transmission Control Protocol (TCP) oder Transport Layer Security (TLS) handeln. Als Standardeinstellung ist TLS festgelegt. In der Dokumentation des Gatewayherstellers finden Sie die von Ihrem Gateway unterstützten Protokolle. Als Standardeinstellung ist TLS festgelegt, und wenn das Gateway TLS unterstützt, ist dies die Option mit höherer Sicherheit.</span><span class="sxs-lookup"><span data-stu-id="971ac-p101">The SIP Transport Protocol can either be Transmission Control Protocol (TCP) or Transport Layer Security (TLS). TLS is the default. Refer to the gateway vendor documentation for what you gateway supports. The default is TLS, and should be considered the more secure selection, if the gateway supports TLS.</span></span>
+<span data-ttu-id="e3f75-p101">Beim SIP-Transportprotokoll kann es sich um das Transmission Control Protocol (TCP) oder Transport Layer Security (TLS) handeln. Als Standardeinstellung ist TLS festgelegt. In der Dokumentation des Gatewayherstellers finden Sie die von Ihrem Gateway unterstützten Protokolle. Als Standardeinstellung ist TLS festgelegt, und wenn das Gateway TLS unterstützt, ist dies die Option mit höherer Sicherheit.</span><span class="sxs-lookup"><span data-stu-id="e3f75-p101">The SIP Transport Protocol can either be Transmission Control Protocol (TCP) or Transport Layer Security (TLS). TLS is the default. Refer to the gateway vendor documentation for what you gateway supports. The default is TLS, and should be considered the more secure selection, if the gateway supports TLS.</span></span>
   
-<span data-ttu-id="971ac-110">Wählen Sie aus, ob für das Gateway IPv4 und IPv6 aktiviert werden soll.</span><span class="sxs-lookup"><span data-stu-id="971ac-110">Select whether to enable IPv4 and IPv6 for the gateway.</span></span>
+<span data-ttu-id="e3f75-110">Wählen Sie aus, ob für das Gateway IPv4 und IPv6 aktiviert werden soll.</span><span class="sxs-lookup"><span data-stu-id="e3f75-110">Select whether to enable IPv4 and IPv6 for the gateway.</span></span>
   
-<span data-ttu-id="971ac-111">Die **alternative IP-Adresse für Medien** ist eine Definition für den Vermittlungsserver für den bereitgestellte PSTN-Gateway eine andere IP-Adresse für Mediendatenverkehr als die standardmäßig konfigurierten IP-Adresse verfügt, die in der Regel für SIP-Datenverkehr vorgesehen ist.</span><span class="sxs-lookup"><span data-stu-id="971ac-111">The **Alternate media IP address** is a definition for the Mediation Server for which the deployed PSTN gateway has a different IP address for media traffic than the default configured IP address, which is typically dedicated for SIP traffic.</span></span> <span data-ttu-id="971ac-112">Wenn Sie diesen Parameter definieren, unterstützt das PSTN-Gateway eine unterschiedliche unterstützt einen anderen Netzwerkschnittstelle oder den Pfad für Medien.</span><span class="sxs-lookup"><span data-stu-id="971ac-112">If you define this parameter, then the PSTN gateway supports a different supports a different network interface or path for media.</span></span> <span data-ttu-id="971ac-113">Wenn diese Adresse leer ist, wird das PSTN-Gateway nicht alternativen Pfad für Medien unterstützt.</span><span class="sxs-lookup"><span data-stu-id="971ac-113">If this address is left blank, then the PSTN gateway does not support the alternate path for media.</span></span>
+<span data-ttu-id="e3f75-111">Die **IP-Adresse des alternativen Mediums** ist eine Definition für den Vermittlungs Server, für den das bereitgestellte PSTN-Gateway eine andere IP-Adresse für den Medien Verkehr hat als die standardmäßig konfigurierte IP-Adresse, die normalerweise für den SIP-Datenverkehr reserviert ist.</span><span class="sxs-lookup"><span data-stu-id="e3f75-111">The **Alternate media IP address** is a definition for the Mediation Server for which the deployed PSTN gateway has a different IP address for media traffic than the default configured IP address, which is typically dedicated for SIP traffic.</span></span> <span data-ttu-id="e3f75-112">Wenn Sie diesen Parameter definieren, unterstützt das PSTN-Gateway eine andere unterstützt eine andere Netzwerkschnittstelle oder einen anderen Pfad für Medien.</span><span class="sxs-lookup"><span data-stu-id="e3f75-112">If you define this parameter, then the PSTN gateway supports a different supports a different network interface or path for media.</span></span> <span data-ttu-id="e3f75-113">Wenn diese Adresse leer bleibt, unterstützt das PSTN-Gateway nicht den alternativen Pfad für Medien.</span><span class="sxs-lookup"><span data-stu-id="e3f75-113">If this address is left blank, then the PSTN gateway does not support the alternate path for media.</span></span>
   
 
