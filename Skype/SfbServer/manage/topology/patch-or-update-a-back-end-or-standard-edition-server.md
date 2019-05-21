@@ -1,83 +1,83 @@
 ---
-title: Patchen Sie oder aktualisieren Sie einen Back-End-Server oder Standard Edition-Server in Skype für Business Server
+title: Patchen oder Aktualisieren eines Back-End-Servers oder Standard Edition-Servers in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
-description: 'Zusammenfassung: Erfahren Sie, wie Sie ein Update oder Patch auf eine Back-End-Server in Skype für Business Server installieren.'
-ms.openlocfilehash: d00f740ef328abe7a58a61d831c4fcd0eae93fc8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie ein Update oder Patch auf einem Back-End-Server in Skype for Business Server installieren.'
+ms.openlocfilehash: b8a0280577147e37c52ab11aa3061541bae27610
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911994"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275122"
 ---
-# <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a><span data-ttu-id="6397e-103">Patchen Sie oder aktualisieren Sie einen Back-End-Server oder Standard Edition-Server in Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="6397e-103">Patch or update a Back End Server or Standard Edition server in Skype for Business Server</span></span>
+# <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a><span data-ttu-id="86bbc-103">Patchen oder Aktualisieren eines Back-End-Servers oder Standard Edition-Servers in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="86bbc-103">Patch or update a Back End Server or Standard Edition server in Skype for Business Server</span></span>
  
-<span data-ttu-id="6397e-104">**Zusammenfassung:** Hier erfahren Sie, wie Sie ein Update oder Patch auf eine Back-End-Server in Skype für Business Server installieren.</span><span class="sxs-lookup"><span data-stu-id="6397e-104">**Summary:** Learn how to install an update or patch on a Back End Server in Skype for Business Server.</span></span>
+<span data-ttu-id="86bbc-104">**Zusammenfassung:** Hier erfahren Sie, wie Sie ein Update oder Patch auf einem Back-End-Server in Skype for Business Server installieren.</span><span class="sxs-lookup"><span data-stu-id="86bbc-104">**Summary:** Learn how to install an update or patch on a Back End Server in Skype for Business Server.</span></span>
   
-<span data-ttu-id="6397e-105">In diesem Thema wird erläutert, wie Sie ein Update auf einen Enterprise Edition Back-End-Server oder Standard Edition-Server installieren.</span><span class="sxs-lookup"><span data-stu-id="6397e-105">This topic explains how to install an update on an Enterprise Edition Back End Server or a Standard Edition server.</span></span>
+<span data-ttu-id="86bbc-105">In diesem Thema wird erläutert, wie Sie ein Update auf einem Enterprise Edition-Back-End-Server oder einem Standard Edition-Server installieren.</span><span class="sxs-lookup"><span data-stu-id="86bbc-105">This topic explains how to install an update on an Enterprise Edition Back End Server or a Standard Edition server.</span></span>
   
-<span data-ttu-id="6397e-106">Wenn eine Back-End-Server nach unten für mindestens 30 Minuten ist während der Aktualisierung werden, können Benutzer dann in ausfallsicherheitsmodus gehen.</span><span class="sxs-lookup"><span data-stu-id="6397e-106">If a Back End Server is down for at least 30 minutes while you are upgrading it, users may then go into resiliency mode.</span></span> <span data-ttu-id="6397e-107">Wenn die Aktualisierung abgeschlossen ist und die Back-End-Server erneut mit den Front-End-Servern im Pool verbunden ist, werden Benutzer an voller Funktionsumfang zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="6397e-107">When the upgrade is finished and the Back End Servers has again connected with the Front End Servers in the pool, users are returned to full functionality.</span></span> <span data-ttu-id="6397e-108">Wenn das Upgrade weniger als 30 Minuten dauert, sind die Benutzer davon nicht betroffen.</span><span class="sxs-lookup"><span data-stu-id="6397e-108">If the upgrade takes less than 30 minutes, users will not be affected.</span></span>
+<span data-ttu-id="86bbc-106">Wenn ein Back-End-Server während eines Upgrades für mindestens 30 Minuten nicht mehr zur Verfügung steht, können Benutzer dann in den Widerstands Modus wechseln.</span><span class="sxs-lookup"><span data-stu-id="86bbc-106">If a Back End Server is down for at least 30 minutes while you are upgrading it, users may then go into resiliency mode.</span></span> <span data-ttu-id="86bbc-107">Wenn die Aktualisierung abgeschlossen ist und die Back-End-Server wieder mit den Front-End-Servern im Pool verbunden sind, werden die Benutzer an die vollständige Funktionalität zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="86bbc-107">When the upgrade is finished and the Back End Servers has again connected with the Front End Servers in the pool, users are returned to full functionality.</span></span> <span data-ttu-id="86bbc-108">Wenn das Upgrade weniger als 30 Minuten dauert, sind die Benutzer davon nicht betroffen.</span><span class="sxs-lookup"><span data-stu-id="86bbc-108">If the upgrade takes less than 30 minutes, users will not be affected.</span></span>
   
-### <a name="to-update-a-back-end-server-or-standard-edition-server"></a><span data-ttu-id="6397e-109">Back-End-Server oder Standard Edition-Server aktualisieren</span><span class="sxs-lookup"><span data-stu-id="6397e-109">To update a back end server or Standard Edition server</span></span>
+### <a name="to-update-a-back-end-server-or-standard-edition-server"></a><span data-ttu-id="86bbc-109">Back-End-Server oder Standard Edition-Server aktualisieren</span><span class="sxs-lookup"><span data-stu-id="86bbc-109">To update a back end server or Standard Edition server</span></span>
 
-1. <span data-ttu-id="6397e-110">Melden Sie sich am Server, für den Sie das Upgrade vornehmen, als Mitglied der Rolle CsAdministrator an.</span><span class="sxs-lookup"><span data-stu-id="6397e-110">Log on to the server you are upgrading as a member of the CsAdministrator role.</span></span>
+1. <span data-ttu-id="86bbc-110">Melden Sie sich am Server, für den Sie das Upgrade vornehmen, als Mitglied der Rolle CsAdministrator an.</span><span class="sxs-lookup"><span data-stu-id="86bbc-110">Log on to the server you are upgrading as a member of the CsAdministrator role.</span></span>
     
-2. <span data-ttu-id="6397e-111">Laden Sie das Update herunter und extrahieren Sie es auf die lokale Festplatte.</span><span class="sxs-lookup"><span data-stu-id="6397e-111">Download the update and extract it to the local hard disk.</span></span>
+2. <span data-ttu-id="86bbc-111">Laden Sie das Update herunter und extrahieren Sie es auf die lokale Festplatte.</span><span class="sxs-lookup"><span data-stu-id="86bbc-111">Download the update and extract it to the local hard disk.</span></span>
     
-3. <span data-ttu-id="6397e-112">Starten Sie die Skype für Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype für Unternehmen**und klicken Sie dann auf **Skype für Business Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="6397e-112">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business**, and then click **Skype for Business Server Management Shell**..</span></span>
+3. <span data-ttu-id="86bbc-112">Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype for**Business, und klicken Sie dann auf **Skype for Business Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="86bbc-112">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business**, and then click **Skype for Business Server Management Shell**..</span></span>
     
-4. <span data-ttu-id="6397e-113">Skype für Business Server-Dienste zu beenden.</span><span class="sxs-lookup"><span data-stu-id="6397e-113">Stop Skype for Business Server services.</span></span> <span data-ttu-id="6397e-114">Geben Sie in der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="6397e-114">At the command line, type:</span></span>
+4. <span data-ttu-id="86bbc-113">Beenden Sie die Skype for Business Server-Dienste.</span><span class="sxs-lookup"><span data-stu-id="86bbc-113">Stop Skype for Business Server services.</span></span> <span data-ttu-id="86bbc-114">Geben Sie in der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="86bbc-114">At the command line, type:</span></span>
     
     ```
     Stop-CsWindowsService
     ```
 
-5. <span data-ttu-id="6397e-115">Beenden Sie den WWW-Dienst (World Wide Web).</span><span class="sxs-lookup"><span data-stu-id="6397e-115">Stop the World Wide Web service.</span></span> <span data-ttu-id="6397e-116">Geben Sie in der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="6397e-116">At the command line, type:</span></span>
+5. <span data-ttu-id="86bbc-115">Beenden Sie den WWW-Dienst (World Wide Web).</span><span class="sxs-lookup"><span data-stu-id="86bbc-115">Stop the World Wide Web service.</span></span> <span data-ttu-id="86bbc-116">Geben Sie in der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="86bbc-116">At the command line, type:</span></span>
     
     ```
     net stop w3svc
    ```
 
-6. <span data-ttu-id="6397e-117">Schließen Sie alle Skype für Windows Business Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="6397e-117">Close all Skype for Business Server Management Shell windows.</span></span>
+6. <span data-ttu-id="86bbc-117">Schließen Sie alle Skype for Business Server-Verwaltungsshell-Fenster.</span><span class="sxs-lookup"><span data-stu-id="86bbc-117">Close all Skype for Business Server Management Shell windows.</span></span>
     
-7. <span data-ttu-id="6397e-118">Installieren Sie das Update.</span><span class="sxs-lookup"><span data-stu-id="6397e-118">Install the update.</span></span>
+7. <span data-ttu-id="86bbc-118">Installieren Sie das Update.</span><span class="sxs-lookup"><span data-stu-id="86bbc-118">Install the update.</span></span>
     
-8. <span data-ttu-id="6397e-119">Starten Sie die Skype für Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype für Unternehmen**und klicken Sie dann auf **Skype für Business Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="6397e-119">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business**, and then click **Skype for Business Server Management Shell**.</span></span>
+8. <span data-ttu-id="86bbc-119">Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype for**Business, und klicken Sie dann auf **Skype for Business Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="86bbc-119">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-9. <span data-ttu-id="6397e-120">Skype für Business Server-Dienste erneut aus, um die globalen Assemblycache (GAC) – d Assemblys catch zu beenden.</span><span class="sxs-lookup"><span data-stu-id="6397e-120">Stop Skype for Business Server services again to catch Global Assembly Cache (GAC) -d assemblies.</span></span> <span data-ttu-id="6397e-121">Geben Sie in der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="6397e-121">At the command line, type:</span></span>
+9. <span data-ttu-id="86bbc-120">Beenden Sie die Skype for Business Server-Dienste erneut, um globale Assemblycache-d-Assemblys zu erfassen.</span><span class="sxs-lookup"><span data-stu-id="86bbc-120">Stop Skype for Business Server services again to catch Global Assembly Cache (GAC) -d assemblies.</span></span> <span data-ttu-id="86bbc-121">Geben Sie in der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="86bbc-121">At the command line, type:</span></span>
     
     ```
     Stop-CsWindowsService
     ```
 
-10. <span data-ttu-id="6397e-p105">Starten Sie den WWW-Dienst neu. Geben Sie in der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="6397e-p105">Restart the World Wide Web service. At the command line, type:</span></span>
+10. <span data-ttu-id="86bbc-p105">Starten Sie den WWW-Dienst neu. Geben Sie in der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="86bbc-p105">Restart the World Wide Web service. At the command line, type:</span></span>
     
     ```
     net start w3svc
     ```
 
-11. <span data-ttu-id="6397e-124">Übernehmen Sie die vorgenommenen Änderungen für die SQL Server-Datenbanken, indem Sie einen der folgenden Schritte ausführen:</span><span class="sxs-lookup"><span data-stu-id="6397e-124">Apply the changes made to the SQL Server databases by doing one of the following:</span></span>
+11. <span data-ttu-id="86bbc-124">Übernehmen Sie die vorgenommenen Änderungen für die SQL Server-Datenbanken, indem Sie einen der folgenden Schritte ausführen:</span><span class="sxs-lookup"><span data-stu-id="86bbc-124">Apply the changes made to the SQL Server databases by doing one of the following:</span></span>
     
-    - <span data-ttu-id="6397e-125">Wenn hierbei handelt es sich um einen Enterprise Edition Back-End-Server und keine verbundenen Datenbanken auf diesem Server, wie die Archivierung oder Überwachung Datenbanken vorhanden sind, geben Sie Folgendes an der Befehlszeile ein:</span><span class="sxs-lookup"><span data-stu-id="6397e-125">If this is an Enterprise Edition Back End Server and there are no collocated databases on this server, such as Archiving or Monitoring databases, then type the following at a command line:</span></span>
+    - <span data-ttu-id="86bbc-125">Wenn dies ein Enterprise Edition-Back-End-Server ist und auf diesem Server keine zusammengefassten Datenbanken wie Archivierungs-oder Überwachungsdatenbanken vorhanden sind, geben Sie Folgendes an einer Befehlszeile ein:</span><span class="sxs-lookup"><span data-stu-id="86bbc-125">If this is an Enterprise Edition Back End Server and there are no collocated databases on this server, such as Archiving or Monitoring databases, then type the following at a command line:</span></span>
     
     ```
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
     ```
 
-    - <span data-ttu-id="6397e-126">Wenn hierbei handelt es sich um einen Enterprise Edition Back-End-Server und auf diesem Server gemeinsam ausgeführte Datenbanken vorhanden sind, geben Sie Folgendes an der Befehlszeile ein:</span><span class="sxs-lookup"><span data-stu-id="6397e-126">If this is an Enterprise Edition Back End Server and there are collocated databases on this server, then type the following at a command line:</span></span>
+    - <span data-ttu-id="86bbc-126">Wenn es sich um einen Enterprise Edition-Back-End-Server handelt und auf diesem Server zusammengefasste Datenbanken vorhanden sind, geben Sie Folgendes an einer Befehlszeile ein:</span><span class="sxs-lookup"><span data-stu-id="86bbc-126">If this is an Enterprise Edition Back End Server and there are collocated databases on this server, then type the following at a command line:</span></span>
     
     ```
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     ```
 
-    - <span data-ttu-id="6397e-127">Ist dies ein Standard Edition-Server, geben Sie Folgendes an der Befehlszeile ein:</span><span class="sxs-lookup"><span data-stu-id="6397e-127">If this is an Standard Edition server, type the following at a command line:</span></span>
+    - <span data-ttu-id="86bbc-127">Wenn es sich um einen Standard Edition-Server handelt, geben Sie Folgendes an einer Befehlszeile ein:</span><span class="sxs-lookup"><span data-stu-id="86bbc-127">If this is an Standard Edition server, type the following at a command line:</span></span>
     
     ```
     Install-CsDatabase -Update -LocalDatabases
