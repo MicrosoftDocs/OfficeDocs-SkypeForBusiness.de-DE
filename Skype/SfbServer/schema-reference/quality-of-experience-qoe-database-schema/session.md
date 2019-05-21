@@ -5,45 +5,45 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
-description: Jeder Datensatz steht für eine Sitzung der audio oder audio und video umfasst. Sie enthält allgemeine Informationen zu der Sitzung. Eine Sitzung wird als eine Audio- oder Videodatei Session Initiation Protocol (SIP) Dialogfeld zwischen zwei Endpunkte definiert.
-ms.openlocfilehash: 8aff8bb8be8366fe2e81e4d649d62562e899aab9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Jeder Eintrag stellt eine Sitzung dar, die Audio-oder Audio-und Videodaten beinhaltet. Sie enthält allgemeine Informationen zur Sitzung. Eine Sitzung ist als SIP-Dialog (Audio-oder Video Session Initiation Protocol) zwischen zwei Endpunkten definiert.
+ms.openlocfilehash: e0cd6a4523b09d8bcb7f74d6c796b46bf99ece8e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897155"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294670"
 ---
 # <a name="session-table"></a>Session-Tabelle
  
-Jeder Datensatz steht für eine Sitzung der audio oder audio und video umfasst. Sie enthält allgemeine Informationen zu der Sitzung. Eine Sitzung wird als eine Audio- oder Videodatei Session Initiation Protocol (SIP) Dialogfeld zwischen zwei Endpunkte definiert.
+Jeder Eintrag stellt eine Sitzung dar, die Audio-oder Audio-und Videodaten beinhaltet. Sie enthält allgemeine Informationen zur Sitzung. Eine Sitzung ist als SIP-Dialog (Audio-oder Video Session Initiation Protocol) zwischen zwei Endpunkten definiert.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Der [Dialog Table](dialog.md)referenziert.  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Der [Dialog Table](dialog.md)referenziert.  <br/> |
-|**ConferenceKey** <br/> |int  <br/> |Ausländisch  <br/> |Konferenz-Taste. Verweis von der [Konferenz-Tabelle](conference.md).  <br/> |
-|**CorrelationKey** <br/> |int  <br/> |Ausländisch  <br/> |Korrelations-Taste. Verweis von der [SessionCorrelation-Tabelle](sessioncorrelation.md).  <br/> |
-|**DialogCategory** <br/> |bit  <br/> | <br/> |Dialogfeld Kategorie. 0 ist Skype für Business Server Mediation Server Abschnitts. 1: Vermittlungsserver zum PSTN-Gateway-Abschnitt.  <br/> |
-|**MediationServerBypassFlag** <br/> |bit  <br/> ||Flag gibt an, ob der Anruf oder nicht umgangen wurde.  <br/> |
-|**MediaBypassWarningFlag** <br/> |int  <br/> ||Dieses Feld gibt, falls vorhanden, warum ein Anruf nicht umgangen wurde, auch wenn die Umgehung IDs übereinstimmen. Für Skype für Business Server wird nur ein Wert definiert.  <br/> 0 x 0001 – unbekannte umgehungs-ID für Standardnetzwerkadapter.  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Wird in der [Dialog Feld Tabelle](dialog.md)referenziert.  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Wird in der [Dialog Feld Tabelle](dialog.md)referenziert.  <br/> |
+|**ConferenceKey** <br/> |int  <br/> |Fremd  <br/> |Konferenz Taste. Wird aus der [Konferenz Tabelle](conference.md)referenziert.  <br/> |
+|**CorrelationKey** <br/> |int  <br/> |Fremd  <br/> |Korrelationsschlüssel Wird in der [SessionCorrelation-Tabelle](sessioncorrelation.md)referenziert.  <br/> |
+|**DialogCategory** <br/> |bit  <br/> | <br/> |Dialog Feld Kategorie; 0 ist Skype for Business Server to Mediation Server Leg; 1 ist Vermittlungs Server für das PSTN-Gateway-Bein.  <br/> |
+|**MediationServerBypassFlag** <br/> |bit  <br/> ||Flag, das angibt, ob der Anruf umgangen wurde oder nicht.  <br/> |
+|**MediaBypassWarningFlag** <br/> |int  <br/> ||Dieses Feld, falls vorhanden, gibt an, warum ein Anruf nicht umgangen wurde, auch wenn die Bypass-IDs übereinstimmten. Für Skype for Business Server ist nur ein Wert definiert.  <br/> 0x0001-unbekannte Bypass-ID für den standardmäßigen Netzwerkadapter.  <br/> |
 |**StartTime** <br/> |datetime  <br/> | <br/> |Startzeit des Anrufs.  <br/> |
-|**EndTime** <br/> |datetime  <br/> | <br/> |Die Endzeit des Anrufs.  <br/> |
-|**CallerPool** <br/> |int  <br/> |Ausländisch  <br/> |Der Pool des Anrufers. Verweis von der [Pool-Tabelle](pool.md).  <br/> |
-|**CalleePool** <br/> |int  <br/> |Ausländisch  <br/> |Der Pool, der den Empfänger des Anrufs. Verweis von der [Pool-Tabelle](pool.md).  <br/> |
-|**CalleePAI** <br/> |int  <br/> |Ausländisch  <br/> |SIP-URI in der SIP p-asserted-Identity (PAI) des empfangenden Endpunkts. Verweis von der [Tabelle "Benutzer"](user-0.md).  <br/> |
-|**CallerURI** <br/> |int  <br/> |Ausländisch  <br/> |URI des Anrufers. Verweis von der [Tabelle "Benutzer"](user-0.md).  <br/> |
-|**CallerEndpoint** <br/> |int  <br/> |Ausländisch  <br/> |Endpunkt des Anrufers. Verweis von der [Endpoint-Tabelle](endpoint.md).  <br/> |
-|**CallerUserAgent** <br/> |bit  <br/> |Ausländisch  <br/> |Benutzer-Agent des Anrufers. Verweis von der [UserAgent-Tabelle](useragent.md).  <br/> |
+|**EndTime** <br/> |datetime  <br/> | <br/> |Endzeit des Anrufs.  <br/> |
+|**CallerPool** <br/> |int  <br/> |Fremd  <br/> |Der Pool des Anrufers. Wird aus der [Pool Tabelle](pool.md)referenziert.  <br/> |
+|**CalleePool** <br/> |int  <br/> |Fremd  <br/> |Der Pool des anrufempfängers. Wird aus der [Pool Tabelle](pool.md)referenziert.  <br/> |
+|**CalleePAI** <br/> |int  <br/> |Fremd  <br/> |SIP-URI in der SIP p-asserted Identity (Pai) des empfangenden Endpunkts. Wird in der [Tabelle user](user-0.md)referenziert.  <br/> |
+|**CallerURI** <br/> |int  <br/> |Fremd  <br/> |URI des Anrufers. Wird in der [Tabelle user](user-0.md)referenziert.  <br/> |
+|**CallerEndpoint** <br/> |int  <br/> |Fremd  <br/> |Endpunkt des Anrufers. Wird aus der [Endpunkt Tabelle](endpoint.md)referenziert.  <br/> |
+|**CallerUserAgent** <br/> |bit  <br/> |Fremd  <br/> |Benutzer-Agent des Anrufers. Referenziert aus der [userAgent-Tabelle](useragent.md).  <br/> |
 |**CallPriority** <br/> |smallint  <br/> ||Die Priorität dieses Anrufs.  <br/> |
-|**ClassifiedPoorCall** <br/> |bit  <br/> ||Diese Spalte ist veraltet und wird nicht in Skype für Business Server verwendet. Stattdessen wird diese Informationen auf einen Media-Zeile Basiswerte gemeldet. Finden Sie weitere Informationen der [MediaLine-Tabelle](medialine-0.md) . <br/> |
-|**CallerPAI** <br/> |int  <br/> |Ausländisch  <br/> |P-Asserted-Identity des Benutzers, der den Anruf ausgeführt hat. P-Asserted-Identity (PAI) wird verwendet, um auszudrücken true Identität des Benutzers, der den Anruf ausgeführt hat.  <br/> |
-|**CalleeEndpoint** <br/> |int  <br/> |Ausländisch  <br/> |Endpunkt, der den Anruf empfangen hat.  <br/> |
-|**CalleeUserAgent** <br/> |int  <br/> |Ausländisch  <br/> |Benutzer-Agent beschäftigt durch den Benutzer, der den Anruf empfangen hat. Benutzer-Agents darstellen Endpunkt Clientgeräts.  <br/> |
-|**CalleeUri** <br/> |int  <br/> |Ausländisch  <br/> |SIP-URI des Benutzers, der den Anruf empfangen hat.  <br/> |
+|**ClassifiedPoorCall** <br/> |bit  <br/> ||Diese Spalte wurde als veraltet markiert und nicht in Skype for Business Server verwendet. Stattdessen werden diese Informationen auf Basis einer einzelnen medienzeile gemeldet. Weitere Informationen finden Sie in der [Tabelle medialinie](medialine-0.md) . <br/> |
+|**CallerPAI** <br/> |int  <br/> |Fremd  <br/> |P-bestätigt – Identität des Benutzers, der den Anruf getätigt hat. Die P-Asserted-Identity (Pai) wird verwendet, um die wahre Identität des Benutzers zu vermitteln, der den Anruf getätigt hat.  <br/> |
+|**CalleeEndpoint** <br/> |int  <br/> |Fremd  <br/> |Endpunkt, der den Anruf empfangen hat.  <br/> |
+|**CalleeUserAgent** <br/> |int  <br/> |Fremd  <br/> |Benutzer-Agent des Benutzers, der den Anruf erhalten hat. Benutzer-Agents stellen das Clientendpunkt Gerät dar.  <br/> |
+|**CalleeUri** <br/> |int  <br/> |Fremd  <br/> |SIP-URI des Benutzers, der den Anruf erhalten hat.  <br/> |
    
 

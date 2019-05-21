@@ -10,7 +10,7 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -18,18 +18,18 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informationen über Add-On-Lizenzen und Features für Pläne für GOV, EDU und gemeinnützige Organisationen. '
-ms.openlocfilehash: 3aa8cfc2f08f31f78aa830fb4c44a513a160e5c5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1e9fc8f4cc7d658285e3e871700caa651736acfd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204507"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298587"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>Behörden, Bildungseinrichtungen und gemeinnützige Organisationen
 
-Die meisten Teams Features sind für uns Behörden, Schulung und gemeinnützige Organisationen verfügbar. Finden Sie weitere Informationen in der folgenden Tabelle aus.
+Die meisten Teams-Features stehen für US-Behörden, Bildungseinrichtungen und gemeinnützige Organisationen zur Verfügung. Weitere Informationen finden Sie in der folgenden Tabelle.
 
-|**Teams-Funktion**|**GOV (GCC) zur Verfügung**|**GOV (nicht GCC) zur Verfügung**|**EDU zur Verfügung**|**Verfügbar für gemeinnützige Organisationen**|
+|**Feature "Teams"**|**Verfügbar für gov (gcc)**|**Verfügbar für gov (nicht-gcc)**|**Verfügbar für edu**|**Verfügbar für gemeinnützige Organisationen**|
 |:-----|:-----|:-----|:-----|:-----|
 |Audiokonferenzen  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Office 365-Telefonsystem  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |

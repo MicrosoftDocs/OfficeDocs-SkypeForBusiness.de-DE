@@ -10,27 +10,27 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Informationen Sie zu Add-on-Lizenzen, Funktionen und Informationen zum Erwerben von Office 365 Enterprise E5 Pläne. '
-ms.openlocfilehash: 58e481bce72596bd7e731b73e78cad11bfff6c30
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Erfahren Sie mehr über Add-on-Lizenzen, Features und Anleitungen zum Kauf von Office 365 Enterprise E5-Plänen. '
+ms.openlocfilehash: 35052942774645ff5795ab688876cfbd30c80259
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204578"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298494"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 
-Der [Office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software) Plan enthält die meisten Funktionen von Microsoft-Teams. There are just a few additional options.
+Der [Office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software) -Plan umfasst die meisten Features von Microsoft Teams. There are just a few additional options.
   
-|Zum Hinzufügen dieser Funktion ...|Hier wird die erforderlich ist |
+|Zum Hinzufügen dieser Funktion ...|Sie müssen Folgendes tun |
 |:------------------|:--------------------------|
 |Audiokonferenzen sind enthalten. <br/> |Wenn Sie die Lizenz kaufen, wird Microsoft Ihr Audiokonferenzanbieter.<br/> |
-|Gebührenfreie Nummern für DFÜ-Zugriff auf Ihre Besprechungen und die Möglichkeit anwählen aus einer Besprechung an eine Person hinzufügen, indem Sie eine Telefonnummer in der ganzen Welt aufrufen.<br/> | Kaufen Sie [Communications haben](../set-up-communications-credits-for-your-organization.md).|
-|Telefonsystem und Voicemail sind enthalten. <br/> |Kaufen Sie einen [Plan aufrufen](../calling-plans-for-office-365.md) für Office 365. <br/>  Oder verwenden Sie den [Telefondienst Ihres bestehenden Anbieters](microsoft-teams-add-on-licensing.md#bkmk_existing). |
+|Gebührenfreie Nummern für Einwahlzugriff auf Ihre Besprechungen und die Möglichkeit, aus einer Besprechung heraus zu wählen, um jemanden hinzuzufügen, indem Sie eine beliebige Telefonnummer in der Welt anrufen.<br/> | [Guthaben](../set-up-communications-credits-for-your-organization.md)für Kommunikationen kaufen.|
+|Telefonsystem und Voicemail sind enthalten. <br/> |Kaufen Sie [](../calling-plans-for-office-365.md) einen Anrufplan für Office 365. <br/>  Oder verwenden Sie den [Telefondienst Ihres bestehenden Anbieters](microsoft-teams-add-on-licensing.md#bkmk_existing). |

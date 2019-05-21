@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,26 +21,26 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: e79c942923e9a9d4d0df0bc18172eb10caff57bc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f3a042a200f821f6e5836eb3fc6b062a88e2da35
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229525"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297998"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Kauf von Telefonen für Skype for Business Online
 
 Skype for Business Online qualifiziert und unterstützt Festnetztelefone für Benutzer, die lieber auf herkömmliche Weise als über die Skype for Business-App telefonieren möchten. In diesem Thema werden die Telefone und Firmwareversionen behandelt, die für die Verwendung in Skype for Business Online unterstützt werden. Außerdem finden Sie weitere Informationen, die Sie beim Einrichten von Telefonen in Ihrer Organisation unterstützen sollen.
   
-Um die neuesten Updates und die meisten aktuelle Informationen über die unterstützten Geräte erhalten möchten, finden Sie unter der [Skype für Geschäftsdatenkatalog-Gerät](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
+Wenn Sie die neuesten Updates und die aktuellsten Informationen zu unterstützten Geräten erhalten möchten, lesen Sie den [Skype for Business-Gerätekatalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
 ## <a name="supported-phones"></a>Unterstützte Telefone
 
-Skype für Business Online-Benutzern Sie können mehrere Modelle innerhalb der *Zertifiziert für Skype für Telefone in Business* auswählen und Telefone mit Lync Phone Edition (LPE) aufgeführten unter der Skype für Business Online Kategorie in der [Skype für Business-Gerät Katalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
+Für Skype for Business Online-Benutzer können Sie aus verschiedenen Modellen in den Skype ** for Business-zertifizierten Skype for Business-Telefonen und-Smartphones wählen, auf denen lync Phone Edition (LPE) unter der Skype for Business Online-Kategorie im [Skype for Business-Gerät aufgeführt ist. Katalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog)aus.
   
 Microsoft arbeitet in enger Partnerschaft mit Polycom, Yealink und AudioCodes zusammen, um über das Partner IP Phone Program (PIP) für das Telefonsystem in Office 365 und Skype for Business Server eine breite Palette von Geräten zu entwickeln und zu zertifizieren.
   
-Bei der neue Telefonen für Skype für Unternehmen Bestellung, ist es wichtig, zum Erwerben von Telefonen mit der *rechten Produkt-ID*. Durch diese Produkt-IDs ist sichergestellt, dass Sie Telefone erhalten, in denen die qualifizierte Version von Skype for Business Online bereits installiert ist.
+Bei der Bestellung neuer Telefone für Skype for Business ist es wichtig, Telefone mit der *richtigen Produkt-ID*zu kaufen. Durch diese Produkt-IDs ist sichergestellt, dass Sie Telefone erhalten, in denen die qualifizierte Version von Skype for Business Online bereits installiert ist.
   
 |||
 |:-----|:-----|
@@ -51,16 +51,16 @@ Bei der neue Telefonen für Skype für Unternehmen Bestellung, ist es wichtig, z
    
 Weitere Details zu Polycom-Telefonen finden Sie unter [Audiolösungen für Microsoft](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
   
-Weitere Informationen zu Yealink Telefone finden Sie unter [Skype für Business IP-Telefone](http://www.yealink.com/products_list_10.html#filter2).
+Weitere Informationen zu Yealink-Telefonen finden Sie unter [Skype for Business-IP-Telefone](http://www.yealink.com/products_list_10.html#filter2).
   
 Weitere Details zu AudioCodes-Telefonen finden Sie unter [IP-Telefone für Skype for Business](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
 > [!NOTE]
-> Lync Phone Edition wird mit Skype für Business Online, aber nicht mit Microsoft-Teams, unterstützt. Mainstream-Support für die Plattform LPE beendet vom April/10/2014 mit erweiterten Support bis April/11/2023 zurück an den Produktsupportlebenszyklus von Lync Server 2013 ausgerichtet. Finden Sie für den Lebenszyklus LPE Einzelheiten in der [Microsoft Product Lifecycle](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) . LPE CAP Modelle werden mit Skype für Business Online nicht unterstützt.
+> Lync Phone Edition wird von Skype for Business Online, aber nicht von Microsoft Teams unterstützt. Die Mainstream-Unterstützung für die lpe-Plattform endete bis April/10/2014, mit erweitertem Support bis April/11/2023, um den Produktsupport-Lebenszyklus von lync Server 2013 auszurichten. Weitere Informationen zum lpe-Lebenszyklus finden Sie unter [Microsoft Product Lifecycle](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) . LPE Cap-Modelle werden nicht von Skype for Business Online unterstützt.
 >
-> Weiter unten in diesem Jahr, wird Office 365 eine beliebige Version von TLS, die älter sind als 1.2 nicht unterstützt. Seit das zugrunde liegenden Betriebssystem des LPE TLS 1.2 nicht unterstützt, wird LPE nicht unterstützt werden, um mehr zu Office 365 herzustellen. Weitere Informationen finden Sie unter [Preparing für die obligatorische Verwendung von TLS 1.2 in Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) .
+> Später in diesem Jahr unterstützt Office 365 keine Version von TLS, die älter als 1,2 ist. Da das zugrunde liegende Betriebssystem von lpe TLS 1,2 nicht unterstützt, wird lpe nicht mehr für die Verbindung mit Office 365 unterstützt. Weitere Informationen finden Sie unter [Vorbereiten der obligatorischen Verwendung von TLS 1,2 in Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) .
   
-## <a name="supported-firmware"></a>Unterstützte firmware
+## <a name="supported-firmware"></a>Unterstützte Firmware
 
 Für unterstützte Telefone ist die folgende Mindestsoftwareversion erforderlich, damit sie mit dem Telefonsystem in Office 365 funktionieren:
   
@@ -68,22 +68,22 @@ Für unterstützte Telefone ist die folgende Mindestsoftwareversion erforderlich
 |:-----|:-----|:-----|
 |**Telefontyp** <br/> |**Mindestfirmwareversion** <br/> |**Veröffentlichungsdatum** <br/> |
 |Optimiert (Lync Phone Edition)  <br/> |4.0.7577.4463  <br/> |Mai 2015  <br/> |
-|Zertifizierte Polycom VVX-Serie  <br/> |5.4.0A  <br/> |Dezember 2015  <br/> |
-|Yealink  <br/> |X.8.1.52  <br/> |Februar 2017  <br/> |
+|Zertifizierte Polycom VVX-Serie  <br/> |5.4.0  <br/> |Dezember 2015  <br/> |
+|Yealink  <br/> |X. 8.1.52  <br/> |Februar 2017  <br/> |
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |Dezember 2016  <br/> |
 
-Weitere Informationen zu aktuellen certified-Firmware-Versionen finden Sie unter [Skype für Business IP-Telefone](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones#conference-phones).
+Weitere Informationen zu aktuellen zertifizierten Firmware-Versionen finden Sie unter [Skype for Business-IP-Telefone](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones#conference-phones).
 
 > [!NOTE]
 > Telefone mit Lync Phone Edition (LPE), die Sie für die lokale Bereitstellung eingerichtet haben, müssen auf die Mindestversion oder höher der notwendigen Firmware aktualisiert werden, bevor die entsprechenden Benutzer zu Skype for Business Online transferiert werden. Wenn Sie Ihre Benutzer von lokal auf Skype for Business Online transferieren, bevor Sie die Firmware auf den Telefonen aktualisieren, können diese Telefone nicht mit Skype for Business Online verbunden werden. 
   
-## <a name="required-licenses"></a>Erforderlichen Lizenzen
+## <a name="required-licenses"></a>Erforderliche Lizenzen
 
 Für Skype for Business Online benötigen Sie neben den Benutzerlizenzen keine weiteren Microsoft-Lizenzen. Weitere Informationen zu den erforderlichen Benutzerlizenzen finden Sie unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 Für Open SIP-Firmware und Skype for Business-zertifizierte Firmware können unterschiedliche Lizenzierungsmodelle der Hersteller gelten. Wenn Sie ein zertifiziertes Modell mit Open SIP-Firmware einem anderen Zweck zuführen, müssen Sie die Firmware-Lizenzanforderungen des Herstellers überprüfen.
   
-## <a name="skype-for-business-online-connected-phones-feature-set"></a>Skype für Business Online verbunden Featuregruppe Telefone
+## <a name="skype-for-business-online-connected-phones-feature-set"></a>Skype for Business Online-Funktionsgruppe "verbundene Telefone"
 
 Eine vollständige Aufstellung der Gerätefeatures und -funktionen finden Sie in den Benutzerhandbüchern der Hersteller.
   
@@ -92,7 +92,7 @@ Eine vollständige Aufstellung der Gerätefeatures und -funktionen finden Sie in
 |**Funktion** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
 |Anmelden mit Benutzeranmeldeinformationen  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
 |Anmelden über PC (Kopplung), nur Windows  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
-|Anmelden über Webanmeldung  <br/>  <br/> **Hinweis:** Überprüfen Sie die unterstützbarkeitsmatrix im Bereitstellungshandbuch.           |Ja   <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
+|Anmelden über Webanmeldung  <br/>  <br/> **Hinweis:** Überprüfen Sie die Unterstützungsmatrix im Bereitstellungshandbuch.           |Ja   <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
 |Teilnehmen an einer Besprechung mit Einfachklick  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |Wählen durch Klicken (Kopplung)  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |Besprechungssteuerelemente  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
@@ -101,10 +101,10 @@ Eine vollständige Aufstellung der Gerätefeatures und -funktionen finden Sie in
 |Geräteupdate  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |In-Band-Bereitstellung  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |QoE  <br/> |Ja  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
-|Protokoll-Upload  <br/> <br/> **Hinweis:** Derzeit werden nur die Microsoft-Support-Team alle Protokolle hochgeladen; Kundenzugriffs auf Gesprächsnotizen sind noch nicht verfügbar.           |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Protokoll-Upload  <br/> <br/> **Hinweis:** Derzeit werden alle Protokolle nur an das Microsoft-Support Team hochgeladen. der Kunden Zugriff auf Telefonprotokolle steht noch nicht zur Verfügung.           |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |Moderne Authentifizierung  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
 |Mehrere Notrufnummern  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Ja  <br/> |
-|Integration von Exchange-Kalendern*  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> <br/> **Hinweis:** Erfordert tethering PC           |
+|Integration von Exchange-Kalendern*  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> <br/> **Hinweis:** Erfordert PC-Anbindehaltung           |
 |Integration von Anwesenheitsfunktionen  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |Unternehmensverzeichnis  <br/> |Ja   <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |Delegierung  <br/> |Ja  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
@@ -113,7 +113,7 @@ Eine vollständige Aufstellung der Gerätefeatures und -funktionen finden Sie in
 
      
 > [!NOTE]
-> CX 600 oder alle anderen Aries Telefone unterstützen keine mehrstufige Authentifizierung (mehrstufiger Authentifizierung das). Wenn Sie mehrstufiger Authentifizierung das erzwingen, können diese Geräte nicht anmelden. Diese Geräte müssen nur Organisations-ID für Authetication verwenden.
+> CX 600 oder andere Aries-Telefone unterstützen keine Multifactor-Authentifizierung (MFA). Wenn Sie MFA erzwingen, können diese Geräte nicht angemeldet werden. Diese Geräte müssen nur die org-ID für Authetication verwenden.
  
 ## <a name="what-else-should-you-know"></a>Was sollten Sie noch wissen?
 Schrittweise Anweisungen finden Sie unter [Bereitstellen von Telefonen für Skype for Business Online](deploying-skype-for-business-online-phones.md).

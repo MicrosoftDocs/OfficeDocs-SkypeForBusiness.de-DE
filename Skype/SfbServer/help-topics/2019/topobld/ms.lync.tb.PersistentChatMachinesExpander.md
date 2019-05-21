@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PersistentChatMachinesExpander
@@ -12,15 +12,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 ROBOTS: NOINDEX, NOFOLLOW
-description: Aktivieren oder Deaktivieren einer bereitgestellten Persistent Chat-Server oder Persistent Chat Server Pool mithilfe der Server oder Pools im Computer Zustand Einstellungen aufgeführt. Wählen Sie einen Server oder Pool in der Liste aus, und klicken Sie auf die aktive Stellen-Schaltfläche, um einen Server oder Pool als aktiv festlegen.
-ms.openlocfilehash: 42031a5d515afaeb878d60b1a2891b70ad9276e3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Sie aktivieren oder deaktivieren einen bereitgestellten beständigen Chat Server oder einen beständigen Chat Serverpool mithilfe der Server oder Pools, die unter Einstellungen für den Computerstatus aufgelistet sind. Wählen Sie einen Server oder Pool in der Liste aus, und klicken Sie auf die Schaltfläche "aktiv machen", um einen Server oder Pool als aktiv einzurichten.
+ms.openlocfilehash: b5562ec4290f00abcd5253e415a520997dddcacb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885669"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303249"
 ---
 # <a name="persistent-chat-machines-expander"></a>Computer für beständigen Chat - Erweiterung
 
 > [!NOTE] 
-> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [upgrade Skype für Unternehmen, die Microsoft-Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl migrieren Benutzer, die diese Funktionalität für Teams oder weiterhin Skype für Business Server 2015 verwenden.
+> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Upgrade von Skype for Business zu Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer, die diese Funktion benötigen, an Teams migrieren oder die Verwendung von Skype for Business Server 2015 fortsetzen.

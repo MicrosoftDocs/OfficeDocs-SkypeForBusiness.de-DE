@@ -10,27 +10,27 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Informationen Sie zu Add-on-Lizenzen, Funktionen und Informationen zum Erwerben von Office 365 Enterprise (ohne Audiokonferenzen) Pläne. '
-ms.openlocfilehash: 02d2888578cd53783bcd794769638d595453d1f1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Erfahren Sie mehr über Add-on-Lizenzen, Features und Anleitungen zum Kauf von Office 365 Enterprise-Plänen (ohne Audiokonferenz). '
+ms.openlocfilehash: a44196fadc043fa0d82ae2fcecad0ed9659b9d01
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227567"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298471"
 ---
 # <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 Enterprise E5 (ohne Audiokonferenz)
 
-Wenn Sie den Office 365 Enterprise E5 (ohne Audiokonferenzen) Plan bereits erworben haben, sind hier die Microsoft-Teams, Add-on-Lizenzen benötigten kaufen, um mehr Features zur Verfügung.
+Wenn Sie bereits den Plan Office 365 Enterprise E5 (ohne Audiokonferenz) gekauft haben, finden Sie hier die Add-on-Lizenzen für Microsoft Teams, die Sie kaufen müssen, um weitere Funktionen zu erhalten.
 
-|Zum Hinzufügen dieser Funktion ...|Hier wird die erforderlich ist |
+|Zum Hinzufügen dieser Funktion ...|Sie müssen Folgendes tun |
 |:------------------|:--------------------------|
-|Audiokonferenzen <br/> | Führen Sie die folgenden Schritte aus, um dieses Add-On zu erhalten: <ol><li>Wenn Sie bereits einen E5 Plan gekauft haben, aber die Audiokonferenz-Funktion ist nicht in Ihrem Land oder Region verfügbar, müssen Sie einen Drittanbieter-Audiokonferenzen verwenden. Suchen Sie unter [Microsoft PinPoint](https://go.microsoft.com/fwlink/?LinkId=797530) einen Drittanbieter für Audiokonferenzen.  <br/>Überprüfen Sie diesen Artikel, um festzustellen, ob in Ihrem Land oder Region Audiokonferenzen verfügbar ist: [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) </li><li/>Wenn sie verfügbar ist, verwenden Sie die [Pläne-Schaltfläche wechseln](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a) zum Office 365 Enterprise E5 Plan verschieben, die Audiokonferenz enthält. Dort erhalten Sie noch mehr Funktionen. </li></ol> |
-|Das Telefonsystem-Add-On ist enthalten. <br/> | Kaufen Sie einen [Plan aufrufen](../calling-plans-for-office-365.md) für Office 365. <br/>  Oder verwenden Sie den [Telefondienst Ihres bestehenden Anbieters](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|Cloud-Voicemail ist enthalten! <br/> |Sie müssen keine weiteren Schritte ausführen.  <br/> |
+|Audiokonferenzen <br/> | Führen Sie die folgenden Schritte aus, um dieses Add-On zu erhalten: <ol><li>Wenn Sie bereits einen E5-Plan gekauft haben, das Feature Audiokonferenz aber in Ihrem Land oder Ihrer Region nicht verfügbar ist, müssen Sie einen Drittanbieter für Audiokonferenzen verwenden. Suchen Sie unter [Microsoft PinPoint](https://go.microsoft.com/fwlink/?LinkId=797530) einen Drittanbieter für Audiokonferenzen.  <br/>Lesen Sie diesen Artikel, um festzustellen, ob Audiokonferenzen in Ihrem Land oder Ihrer Region verfügbar sind: [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) </li><li/>Falls verfügbar, verwenden Sie die [Schaltfläche Pläne wechseln](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a) , um zum Office 365 Enterprise E5-Plan zu wechseln, der Audiokonferenzen umfasst. Dort erhalten Sie noch mehr Funktionen. </li></ol> |
+|Das Telefonsystem-Add-On ist enthalten. <br/> | Kaufen Sie [](../calling-plans-for-office-365.md) einen Anrufplan für Office 365. <br/>  Oder verwenden Sie den [Telefondienst Ihres bestehenden Anbieters](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
+|Cloud Voicemail ist im Lieferumfang enthalten! <br/> |Sie müssen nichts anderes tun.  <br/> |

@@ -1,42 +1,42 @@
 ---
-title: Ändern Sie die Archivierung Datenbankoptionen in Skype für Business Server
+title: Ändern der Optionen für die Archivierungsdatenbank in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
-description: 'Zusammenfassung: Erfahren Sie, wie Datenbank Archivierungsoptionen für Skype für Business Server ändern.'
-ms.openlocfilehash: b2ffa1cfd9686be941cca2a1ffdc2684006dde50
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Optionen für die Archivierungsdatenbank für Skype for Business Server ändern.'
+ms.openlocfilehash: 56aa29ef185176ce3b080572723c566455731dc4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884977"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299986"
 ---
-# <a name="change-archiving-database-options-in-skype-for-business-server"></a>Ändern Sie die Archivierung Datenbankoptionen in Skype für Business Server
+# <a name="change-archiving-database-options-in-skype-for-business-server"></a>Ändern der Optionen für die Archivierungsdatenbank in Skype for Business Server
 
-**Zusammenfassung:** Erfahren Sie, wie Datenbank Archivierungsoptionen für Skype für Business Server ändern.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie die Archivierungsdaten Bank Optionen für Skype for Business Server ändern.
   
-Wenn Sie die Archivierung mithilfe von SQL Server-Speicher als Archivierungsspeicher für beliebige Benutzer bereitstellen, können Sie die folgenden Datenbank Speicher Änderungen vornehmen:
+Wenn Sie die Archivierung mithilfe des SQL Server-Speichers zum Archivieren von Speicher für Ihre Benutzer bereitstellen, können Sie die folgenden Datenbankspeicher Änderungen vornehmen:
   
-- Verwenden Sie eine andere SQL Server-Datenbank als Archivierungsspeicher. Dazu gehören die primäre Archivierungsdatenbank und jede Datenbank, die Sie für die SQL Server-Spiegelung verwenden.
+- Verwenden Sie eine andere SQL Server-Datenbank zum Archivieren von Speicher. Dazu gehören die primäre Archivierungsdatenbank und jede Datenbank, die Sie für die SQL Server-Spiegelung verwenden.
     
-- Wechseln Sie zu Microsoft Exchange-Integration, um Archivierungsdaten und-Dateien auf Exchange-Servern zu speichern. Wenn alle Benutzer auf Ihren Exchange-Servern verwaltet werden, und Sie Microsoft Exchange-Speicher für alle Benutzer in Ihrer Bereitstellung verwenden möchten, sollten Sie die SQL Server-Speicher-Datenbanken aus der Topologie entfernen. 
+- Wechseln Sie zur Microsoft Exchange-Integration, um Archivierungsdaten und-Dateien auf Exchange-Servern zu speichern. Wenn sich alle Ihre Benutzer auf Ihren Exchange-Servern befinden und Sie Microsoft Exchange-Speicher für alle Benutzer in Ihrer Bereitstellung verwenden möchten, sollten Sie die SQL Server-Speicher Datenbanken aus Ihrer Topologie entfernen. 
     
-Um eine der folgenden Änderungen vornehmen, müssen Sie führen Topologie-Generator, nehmen Sie die Änderungen, und veröffentlichen die Topologie dann erneut. **Archivierung von SQL Server-Speicher** oder **Aktivieren Sie SQL Server-speicherspiegelung** Informationen nicht Geben Sie an, es sei denn, Sie Skype für Unternehmensbenutzer verfügen, die nicht auf Exchange-Servern verwaltet werden.
+Wenn Sie eine dieser Änderungen vornehmen möchten, müssen Sie den Topologie-Generator ausführen, die Änderungen vornehmen und die Topologie dann erneut veröffentlichen. Geben Sie keinen **Archivierungs-SQL Server-Speicher** an, oder aktivieren Sie die Spiegelungsinformationen für **SQL Server Store** , es sei denn, Sie verfügen über Skype for Business-Benutzer, die nicht auf Exchange-Servern gehostet werden
   
 ## <a name="change-archiving-database-options"></a>Ändern von Optionen für Archivierungsdatenbanken
 
-1. Auf einem Computer, der Skype für Business Server ausgeführt wird, oder auf dem die Skype für Business Server-Verwaltungstools installiert sind, melden Sie sich mit einem Konto, das Mitglied der lokalen Benutzergruppe (oder ein Konto mit gleichwertigen Benutzerrechten) ist.
+1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird, oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Gruppe "Benutzer" (oder einem Konto mit entsprechenden Benutzerrechten) ist.
     
     > [!NOTE]
-    > Sie können eine Topologie mit einem Konto, das Mitglied der lokalen Benutzergruppe ist definieren, aber um eine Topologie veröffentlichen, die erforderlich ist, eine Komponente zur Topologie hinzugefügt werden, müssen Sie ein Konto, das Mitglied der Gruppe **Domänen-Admins** und die **RTCUniversalSer ist verwenden VerAdmins** Gruppe und, verfügt über Vollzugriff-Berechtigungen (d. h., lesen, schreiben und ändern) für die Dateifreigabe, die Sie für die Skype für Business Server-Dateispeicher verwenden werden (d. h., sodass Topologie-Generator erforderlichen discretionary Access Control konfigurieren können Zugriffssteuerungslisten (DACL) oder einem Konto mit gleichwertigen Berechtigungen.
+    > Sie können eine Topologie mithilfe eines Kontos definieren, das ein Mitglied der lokalen Benutzergruppe ist, aber zum Veröffentlichen einer Topologie, die zum Hinzufügen einer Komponente zur Topologie erforderlich ist, müssen Sie ein Konto verwenden, das Mitglied der Gruppe der **Domänenadministratoren** und der RTCUniversalSer ist. ** verAdmins** -Gruppe, die über Vollzugriffsberechtigungen (also lesen, schreiben und ändern) für die Dateifreigabe verfügt, die Sie für den Skype for Business Server-Dateispeicher verwenden (Dies bedeutet, dass der Topologie-Generator die erforderliche Discretionary Access-Steuerung konfigurieren kann. Listen (DACLs) oder ein Konto mit entsprechenden Rechten.
   
-2. Starten Sie Topologie-Generator.
+2. Starten Sie den Topologie-Generator.
     
 3. Navigieren Sie in der Konsolenstruktur zum Front-End-Pool, in dem Sie die Archivierung bereitgestellt haben und klicken Sie dann auf den Namen des Front-End-Pools, in dem Sie die Datenbankoptionen ändern möchten.
     
@@ -56,49 +56,49 @@ Um eine der folgenden Änderungen vornehmen, müssen Sie führen Topologie-Gener
     
      - Zum Verwenden eines vorhandenen SQL Server-Speichers klicken Sie im Dropdown-Listenfeld auf den Namen des SQL Server-Speichers, den Sie verwenden möchten.
     
-     - Klicken Sie zum Angeben eines neuen SQL Server-Speichers, klicken Sie auf **neu**, und führen Sie dann im Dialogfeld **Neuen SQL Server-Speicher definieren** die folgenden:
+     - Wenn Sie einen neuen SQL Server-Speicher angeben möchten, klicken Sie auf **neu**, und führen Sie dann im Dialogfeld **neuen SQL Server-Speicher definieren** die folgenden Aktionen aus:
     
-       - Geben Sie in **SQL Server-FQDN**: den FQDN des Servers, auf dem Sie den neuen SQL Server-Speicher erstellen möchten.
+       - Geben Sie im **SQL Server-FQDN**den FQDN des Servers an, auf dem Sie den neuen SQL Server-Speicher erstellen möchten.
     
        - Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie verwenden möchten.
     
-       - Wenn die angegebene Instanz von SQL Server in einer spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz in einer spiegelverbindung ist** , und in **spiegelportnummer**Geben Sie die Portnummer an.
+       - Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in** der Spiegelungs Beziehung, und geben Sie dann in Spiegelungs- **Portnummer**die Portnummer an.
     
    - Wenn Sie einen SQL Server-Speicher zur Spiegelung hinzufügen oder für die SQL Server-Speicherspiegelung zu einem anderen vorhandenen SQL Server-Speicher wechseln möchten, wählen Sie **SQL Server-Speicherspiegelung aktivieren** aus und gehen Sie dann wie folgt vor:
     
-     - Klicken Sie auf den Namen des SQL Server-Speichers, den Sie für die Spiegelung verwenden möchten, um eines vorhandenen SQL Server-Speichers zur Spiegelung klicken Sie im Dropdown-Listenfeld **-speicherspiegel für Archivierung SQL Server** verwenden.
+     - Wenn Sie einen vorhandenen SQL Server-Speicher für die Spiegelung verwenden möchten, klicken Sie im Dropdown-Listenfeld **SQL Server Store Mirror-Archivierung** auf den Namen des SQL Server-Speichers, den Sie für die Spiegelung verwenden möchten.
     
-     - Um eine neue SQL Server-Speicher für Spiegelung anzugeben, klicken Sie auf **neu**, und führen Sie dann im Dialogfeld **Neuen SQL Server-Speicher definieren** einen der folgenden:
+     - Wenn Sie einen neuen SQL Server-Speicher für die Spiegelung angeben möchten, klicken Sie auf **neu**, und führen Sie dann im Dialogfeld **neuen SQL Server-Speicher definieren** eine der folgenden Aktionen aus:
     
-       a. Geben Sie in **SQL Server-FQDN**: den FQDN des SQL-Servers, auf dem Sie den neuen SQL Server-Speicher erstellen möchten.
+       a. Geben Sie im **SQL Server-FQDN**den FQDN des SQL Server an, auf dem Sie den neuen SQL Server-Speicher erstellen möchten.
     
        b. Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie verwenden möchten.
     
-       c. Wenn die angegebene Instanz von SQL Server in einer spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz in einer spiegelverbindung ist** , und in **spiegelportnummer**Geben Sie die Portnummer an.
+       c. Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in** der Spiegelungs Beziehung, und geben Sie dann in Spiegelungs- **Portnummer**die Portnummer an.
     
-   - Wenn Sie SQL Server-Spiegelung aktivieren und hinzufügen oder Ändern einer SQL Server-spiegelungszeugen (eine dritte, separate SQL Server-Instanz, die die Integrität der primären SQL Server und den Spiegelserver Serverinstanzen erkennt) möchten, wählen Sie die **mithilfe von SQL Server-spiegelungszeugen zu Aktivierung des automatischen Failovers** Kontrollkästchen, und führen Sie dann eine der folgenden:
+   - Wenn Sie die SQL Server-Spiegelung aktivieren und einen SQL Server-Spiegelungs Zeugen (eine dritte, separate SQL Server-Instanz, die den Zustand des primären SQL Server-Servers und der Spiegelungs Instanzen erkennen kann) hinzufügen oder ändern möchten, wählen Sie den **SQL Server-Spiegelungs Zeugen verwenden aus, um Aktivieren** Sie das Kontrollkästchen Automatisches Failover, und führen Sie dann eine der folgenden Aktionen aus:
     
-      a. Geben Sie in **SQL Server-FQDN**: den FQDN des Servers, auf dem Sie die neue SQL Server-spiegelungszeugen erstellen möchten.
+      a. Geben Sie im **SQL Server-FQDN**den FQDN des Servers an, auf dem Sie den neuen SQL Server-Spiegelungs Zeugen erstellen möchten.
     
       b. Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz** und geben Sie die Instanz an, die Sie für den Spiegelungszeugen verwenden möchten.
     
-      c. Wenn die angegebene Instanz von SQL Server in einer spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz in einer spiegelverbindung ist** , und in **spiegelportnummer**Geben Sie die Portnummer an.
+      c. Wenn sich die angegebene SQL Server-Instanz in einer Spiegelungs Beziehung befindet, aktivieren Sie das Kontrollkästchen **diese SQL-Instanz befindet sich in** der Spiegelungs Beziehung, und geben Sie dann in Spiegelungs- **Portnummer**die Portnummer an.
     
-   - Zum Wechseln zur Integration von Microsoft Exchange zum Speichern von Archivierungsdaten und-Dateien auf Exchange-Servern (wenn alle Benutzer in Ihrer Bereitstellung auf Ihren Exchange-Servern verwaltet werden), löschen Sie alle Informationen für Archivierungsdatenbanken.
+   - Wenn Sie zur Microsoft Exchange-Integration wechseln möchten, um Archivierungsdaten und-Dateien auf Exchange-Servern zu speichern (wenn alle Benutzer in Ihrer Bereitstellung auf Ihren Exchange-Servern verwaltet werden), löschen Sie alle Informationen für das Archivieren von Datenbanken.
     
      > [!IMPORTANT]
-     > Wenn Sie Skype für Unternehmensbenutzer, die nicht auf Exchange-Servern verwaltet werden verfügen, löschen Sie die SQL Server-Speicherinformationen nicht. 
+     > Wenn Sie über Skype for Business-Benutzer verfügen, die nicht auf Exchange-Servern gehostet werden, löschen Sie die SQL Server-Informationsspeicherinformationen nicht. 
   
 8. Klicken Sie zum Speichern der Konfiguration auf **OK**.
     
     > [!IMPORTANT]
-    > Im Topologie-Generator vorgenommenen Änderungen werden nicht wirksam, bis Sie die neue Topologie veröffentlichen. Weitere Informationen hierzu finden Sie unter [Hinzufügen von Archivierungsdatenbanken zu einer vorhandenen Bereitstellung in Skype für Business Server](../../deploy/deploy-archiving/add-archiving-databases.md). 
+    > Die Änderungen, die Sie im Topologie-Generator vornehmen, werden erst wirksam, nachdem Sie die neue Topologie veröffentlicht haben. Ausführliche Informationen finden Sie unter [Hinzufügen von Archivierungsdatenbanken zu einer vorhandenen Bereitstellung in Skype for Business Server](../../deploy/deploy-archiving/add-archiving-databases.md). 
   
 ## <a name="change-the-location-of-the-archiving-database-by-using-windows-powershell"></a>Ändern des Speicherorts der Archivierungsdatenbank mithilfe von Windows PowerShell
 
 In den meisten Fällen müssen Sie den Speicherort der Archivierungsdatenbank, der angegeben wird, wenn Sie den Archivierungsserver installieren, nicht ändern. Sollte jedoch ein Hardwareausfall oder ein anderes Problem auftreten, können Sie den Archivierungsserver mit dem Cmdlet **Set-CsArchivingServer** auf eine neue Datenbank verweisen lassen.
   
-Das folgende Beispiel ändert den Speicherort der für die ArchivingServer:atl die Archivierungsdatenbank-Cs-001.contoso.com Archivierungsserver. In diesem Beispiel befindet sich die neue Datenbank unter „ArchivingDatabase:atl-sql-001.contoso.com“:
+Im folgenden Beispiel wird der Speicherort der Archivierungsdatenbank für den ArchivingServer: ATL-CS-001.contoso.com-Archivierungs Server geändert. In diesem Beispiel befindet sich die neue Datenbank unter „ArchivingDatabase:atl-sql-001.contoso.com“:
   
 ```
 Set-CsArchivingServer -Identity "ArchivingServer:atl-cs-001.contoso.com" -ArchivingDatabase "ArchivingDatabase:atl-sql-001.contoso.com"

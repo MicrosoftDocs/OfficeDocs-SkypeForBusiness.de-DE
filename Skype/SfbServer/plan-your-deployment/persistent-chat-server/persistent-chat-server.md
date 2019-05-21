@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 8/17/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
-description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Business Server 2015 für Persistent Chat Server in Skype planen.'
-ms.openlocfilehash: b3ca8125a69a94da3e0c707456d695c31eaf8c47
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie in Skype for Business Server 2015 den Server für beständigen Chat planen.'
+ms.openlocfilehash: 7916fa041e5180cd7e4d4bba2349565c22f8fdcb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910805"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297092"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planen für den Server für beständigen Chat in Skype for Business Server 2015
  
-**Zusammenfassung:** Lesen Sie in diesem Thema erfahren, wie Business Server 2015 für Persistent Chat Server in Skype planen.
+**Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie den Server für beständigen Chat in Skype for Business Server 2015 planen.
   
-Persistent Chat-Server ist eine optionale Rolle, die mehrere Benutzer in Ihrer Organisation kann an Chatroom-Unterhaltungen, die über einen Zeitraum beibehalten teilnehmen. Obwohl sich die Benutzer während einer Chatsitzung in Echtzeit unterhalten können, bleibt der Inhalt jeder Sitzung – einschließlich Text, Links und Dateien – erhalten, sodass Benutzer alle Inhalte der Sitzung jederzeit aufrufen und durchsuchen können.
+Der beständige Chat Server ist eine optionale Rolle, mit der mehrere Benutzer in Ihrer Organisation an Chatroom-Unterhaltungen teilnehmen können, die im Laufe der Zeit fortbestehen. Obwohl sich die Benutzer während einer Chatsitzung in Echtzeit unterhalten können, bleibt der Inhalt jeder Sitzung – einschließlich Text, Links und Dateien – erhalten, sodass Benutzer alle Inhalte der Sitzung jederzeit aufrufen und durchsuchen können.
   
-Persistent Chat-Server kann die Kommunikation innerhalb Ihrer Organisation durch verbessern:
+Der Server für beständigen Chat kann Ihnen helfen, die Kommunikation innerhalb Ihrer Organisation zu verbessern:
   
 - Ausweitung des Informationsbewusstseins und der Beteiligung innerhalb der Organisation
     
@@ -37,23 +37,23 @@ Persistent Chat-Server kann die Kommunikation innerhalb Ihrer Organisation durch
 - Einhaltung rechtlicher Vorschriften durch die optionale Bereitstellung des Kompatibilitätsdienstes für den beständigen Chat
 
 > [!NOTE] 
-> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
+> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Reise von Skype for Business zu Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen. 
     
 ## <a name="persistent-chat-server-high-level-architecture"></a>Allgemeine Architektur der permanenten Chatserver
 
-Das folgende Diagramm zeigt eine grundlegende Übersicht über die Architektur von Persistent Chat Server. 
+Das folgende Diagramm zeigt eine allgemeine Übersicht über die Server Architektur des beständigen Chats. 
   
 ![Allgemeine Architektur der permanenten Chatserver](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
   
-Der beständige Chat besteht aus einer Front-End-Serverrolle, mit der die Dienste des beständigen Chats bereitgestellt werden, und einer Back-End-SQL-Datenbankkomponente. Die Front-End- und die Back-End-Komponente sind in einem dezidierten Pool für den beständigen Chat enthalten. Jeder Computer, der Persistent Chat Server gehostet wird, benötigen Zugriff auf eine vorhandene Skype für Business Server 2015 Topologie. In diesem Diagramm Sie Skype für Business Server-Pool A für die Weiterleitung von Nachrichten an diese abhängig ist ein Persistent Chat Server Pool (A), vorhanden ist.
+Der beständige Chat besteht aus einer Front-End-Serverrolle, mit der die Dienste des beständigen Chats bereitgestellt werden, und einer Back-End-SQL-Datenbankkomponente. Die Front-End- und die Back-End-Komponente sind in einem dezidierten Pool für den beständigen Chat enthalten. Jeder Computer, auf dem ein beständiger Chat Server gehostet wird, muss auf eine vorhandene Skype for Business Server 2015-Topologie zugreifen können. In diesem Diagramm gibt es einen Serverpool für beständigen Chat (a), der von Skype for Business Serverpool a für das Weiterleiten von Nachrichten abhängig ist.
   
-Sie können eine oder mehrere Persistent Chat Server-Pools, jeweils mit bis zu vier aktiven Persistent Chatserver unterstützt bis zu 80 K gleichzeitige Benutzer bereitstellen.
+Sie können einen oder mehrere beständige Chat Server Pools mit bis zu vier aktiven beständigen Chatservern bereitstellen, die bis zu 80K gleichzeitige Benutzer unterstützen.
   
-Skype für Business Server 2015 kommuniziert mit dem Persistent Chat-Dienst mithilfe von Session Initiation Protocol (SIP) für die Registrierung und das erweiterbare Chat Kommunikation über SIP-Protokoll (XCCOS) für Chat. 
+Skype for Business Server 2015 kommuniziert mit dem beständigen Chat Dienst unter Verwendung des Session Initiation Protocol (SIP) für die Registrierung und der erweiterbaren Chat-Kommunikation über SIP-Protokoll (XCCOS) für Chats. 
   
 ## <a name="persistent-chat-services"></a>Dienste für beständigen Chat
 
-Das folgende Diagramm zeigt die Persistent Chat Server-Front-End-Dienste, und wie diese Dienste mit den Komponenten der Back-End-Datenbank zu kommunizieren. Zu den Front-End-Komponenten gehören die Dienste für den beständigen Chat sowie der Kompatibilitätsdienst. Zu den Back-End-Komponenten gehören der Speicher für beständigen Chat und der Kompatibilitätsspeicher für beständigen Chat.
+Das folgende Diagramm zeigt die Front-End-Dienste des beständigen Chat Servers und wie diese Dienste mit den Komponenten der Back-End-Datenbank kommunizieren. Zu den Front-End-Komponenten gehören die Dienste für den beständigen Chat sowie der Kompatibilitätsdienst. Zu den Back-End-Komponenten gehören der Speicher für beständigen Chat und der Kompatibilitätsspeicher für beständigen Chat.
   
 ![Allgemeine Dienste der permanenten Chatserver](../../media/bcdbadbe-e868-4a46-8a73-36562648fdf7.png)
   
@@ -69,15 +69,15 @@ Der auch Channeldienst genannte Chatdienst ist der Kerndienst, der für den Serv
     
 - Implementierung der Logik für Kanalverwaltung, Chatroomeinladungen, Suche und Benachrichtigungen über neue Inhalte
     
-Der Persistent Chat-Dienst speichert und greift auf den Chatroom Content und andere Systemmetadaten (Autorisierungsregeln usw.) speichern, indem Sie den beständigen Chat. Der Dienst speichert Dateien, die in Chatrooms in den Dateispeicher für beständigen Chat hochgeladen werden.
+Der beständige Chatdienst speichert und greift auf Chatroom-Inhalte und andere Systemmetadaten (Autorisierungsregeln usw.) mithilfe des beständigen Chat Speichers zu. Der Dienst speichert Dateien, die in Chatrooms im persistenten Chat-Dateispeicher hochgeladen werden.
   
 ### <a name="compliance-service"></a>Kompatibilitätsdienst
 
-Wenn es in Ihrer Organisation Vorschriften gibt, nach denen Aktivitäten des beständigen Chats zu archivieren sind, können Sie den optionalen Kompatibilitätsdienst für beständigen Chat bereitstellen. Der Kompatibilitätsdienst steuert die Archivierung von Chatinhalten und -ereignissen wie das Betreten und Verlassen von Räumen im Dateispeicher für beständigen Chat. Die Einhaltung von Bestimmungen wird auf jedem Persistent Chat Server in einem Pool beständigen Chat installiert. 
+Wenn es in Ihrer Organisation Vorschriften gibt, nach denen Aktivitäten des beständigen Chats zu archivieren sind, können Sie den optionalen Kompatibilitätsdienst für beständigen Chat bereitstellen. Der Kompatibilitätsdienst steuert die Archivierung von Chatinhalten und -ereignissen wie das Betreten und Verlassen von Räumen im Dateispeicher für beständigen Chat. Der Kompatibilitätsdienst wird auf jedem beständigen Chat Server in einem beständigen Chat-Pool installiert. 
   
 ### <a name="web-services"></a>Webdienste
 
-Die Persistent Chat-Webdienste führen Sie auf der Skype für Business Front-End-Server. Die Webdienste hängen von Internetinformationsdiensten (IIS) ab und sind als Webkomponenten implementiert:
+Die beständigen Chat-Webdienste werden auf den Skype for Business-Front-End-Servern ausgeführt. Die Webdienste hängen von Internetinformationsdiensten (IIS) ab und sind als Webkomponenten implementiert:
   
 - Webdienste des beständigen Chats zum Hochladen und Herunterladen von Dateien steuern das Posten und Abrufen von Dateien aus Chatrooms.
     
@@ -85,9 +85,9 @@ Die Persistent Chat-Webdienste führen Sie auf der Skype für Business Front-End
     
 ## <a name="defining-requirements-for-your-organization"></a>Festlegen von Anforderungen für Ihre Organisation
 
-Wenn Sie beschließen, Persistent Chat Server bereitstellen, müssen Sie die geschäftlichen Anforderungen Ihrer Organisation bestimmen und dann die Topologie, Infrastruktur und technische Anforderungen zur Unterstützung Ihrer geschäftlichen Anforderungen zu definieren. Zur Optimierung Ihrer Bereitstellung benötigen Sie die folgenden Fragen beantworten:
+Wenn Sie sich entscheiden, den Server für beständigen Chat bereitzustellen, müssen Sie die geschäftlichen Anforderungen Ihrer Organisation ermitteln und dann die Topologie, Infrastruktur und technischen Anforderungen definieren, um Ihre geschäftlichen Anforderungen zu unterstützen. Zur Optimierung Ihrer Bereitstellung müssen Sie die folgenden Fragen beantworten:
   
-- Führen Sie eine Migration von einer früheren Version von Gruppenchat-Server oder einer früheren Version von Persistent Chat Server, oder Sie Persistent Chat Server zum ersten Mal bereitstellen?
+- Migrieren Sie von einer früheren Version des Gruppen-Chat Servers oder einer früheren Version des beständigen Chat Servers, oder stellen Sie zum ersten Mal einen beständigen Chat Server bereit?
     
 - Wer kann den Server für beständigen Chat verwenden? Sie legen Richtlinien für den beständigen Chat fest, um den Benutzerzugriff auf globaler Ebene, Standortebene oder Benutzerebene zu regeln.
     
@@ -97,23 +97,23 @@ Wenn Sie beschließen, Persistent Chat Server bereitstellen, müssen Sie die ges
     
 - Wie soll kontrolliert werden, wer Räume erstellen kann? Sie können Ersteller definieren, die Chatrooms erstellen können. Ersteller können für die laufende Verwaltung der Räume andere Mitglieder als Chatroommanager bestimmen.
     
-- Wie möchten Sie Räume zu erstellen? Persistent Chat Server bietet eine webbasierte Feature für das Erstellen und Verwalten von Chatrooms. Dies kann von der Skype für Business-Client gestartet werden. Sie können auch eine Lösung Kunden zu definieren, die Ihrer geschäftlichen Anforderungen und Workflows implementiert und Persistent Chat Server stellt Benutzern für Ihre benutzerdefinierte Lösung konfiguriert.
+- Wie möchten Sie Räume erstellen? Der Server für beständigen Chat bietet ein webbasiertes Feature zum Erstellen und Verwalten von Räumen. Dies kann über den Skype for Business-Client gestartet werden. Sie können eine Kundenlösung definieren, die Ihre geschäftlichen Anforderungen und Workflows implementiert, und den beständigen Chat Server so konfigurieren, dass Benutzer auf Ihre benutzerdefinierte Lösung verweisen.
     
 - Welche Arten von Add-Ins möchten Sie bereitstellen? Add-Ins erweitern die Möglichkeiten in Räumen, indem sie den Erweiterbarkeitsbereich im Skype for Business-Client nutzen, um relevanten Kontext für den Raum bereitzustellen. Sie können die allgemeinen Add-Ins auswählen, die Ihnen (beispielsweise im Hinblick auf Ihre Unternehmenswebsite oder Dokumente für die interne Zusammenarbeit) am hilfreichsten erscheinen. Chatroom-Manager können bei Bedarf eines der registrierten Add-Ins auswählen und ihren Räumen zuordnen. 
     
-- Welche Vorkehrungen wurden bezüglich der Anforderungen an hohe Verfügbarkeit sowie der Notfallwiederherstellung getroffen? Persistent Chat-Server unterstützt SQL Server-Spiegelung und SQL Server-clustering für hohe Verfügbarkeit. Für die Disaster Recovery unterstützt Persistent Chat Server bis zu 8 Server (4 aktiv und 4 Standby) in einem Pool gestreckte mit SQL Server-Protokollversand. 
+- Welche Vorkehrungen wurden bezüglich der Anforderungen an hohe Verfügbarkeit sowie der Notfallwiederherstellung getroffen? Der beständige Chat Server unterstützt die SQL Server-Spiegelung und SQL Server-Clustering für eine höhere Verfügbarkeit. Bei der Disaster Recovery unterstützt der beständige Chat Server bis zu 8 Server (4 Active und 4 Standby) in einem gedehnten Pool mit SQL Server-Protokollversand. 
     
-- Bestehen gesetzliche Vorschriften? Wenn Ihr Unternehmen in einem Land oder Region ist, in denen Daten innerhalb des Landes gehalten werden müssen, müssen Sie mehrere Persistent Chat Server-Pools, jede lokale für eine bestimmte Region bereitstellen. Raum-, Kategorie, oder -add-ins umfassen nicht Pools – es nur einen Persistent Chat Server Pool gehört. 
+- Bestehen gesetzliche Vorschriften? Wenn sich Ihr Unternehmen in einem Land oder einer Region befindet, in dem Daten im Land aufbewahrt werden müssen, müssen Sie möglicherweise mehrere beständige Chat Server Pools bereitstellen, die jeweils lokal in einer bestimmten geografischen Umgebung gespeichert sind. In einem Raum, einer Kategorie oder einem Add-in sind keine Pools zu finden--es gehört nur einem beständigen Chat Server Pool. 
     
     > [!NOTE]
-    > Mit mehreren Persistent Chat Server-Pools ist Ihnen nicht die weitere Skalierung (nur 80.000 gleichzeitige Benutzer können weiterhin über alle Persistent Chat Server-Pools müssen). Der Hauptgrund für die Unterstützung mehrerer Persistent Chat Server-Pools ist zur Unterstützung von behördlicher Bedenken. 
+    > Wenn Sie über mehrere Server Pools für beständigen Chat verfügen, können Sie nicht mehr skalieren (Sie können immer noch nur 80.000 gleichzeitige Benutzer in allen beständigen Chat-Server Pools haben). Der Hauptgrund für die Unterstützung mehrerer beständiger Chat Server Pools ist die Unterstützung behördlicher Bedenken. 
   
 ## <a name="for-more-information"></a>Weitere Informationen
 
 Weitere Informationen über das Installieren und Konfigurieren des Servers für beständigen Chat finden Sie in den folgenden Themen:
   
-- Ausführliche Informationen zum Bereitstellen von Persistent Chat Server finden Sie unter [Bereitstellen von Persistent Chat Server in Skype für Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
+- Ausführliche Informationen zum Bereitstellen von beständigen Chatservern finden Sie unter [Bereitstellen eines beständigen Chat Servers in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
     
-- Ausführliche Informationen zum Konfigurieren von Einstellungen für die Persistent Chat Server-Bereitstellung finden Sie unter [Verwalten von Persistent Chat Server in Skype für Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
+- Informationen zum Konfigurieren von Einstellungen für die Bereitstellung von beständigen Chatservern finden Sie unter [Verwalten des beständigen Chat Servers in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
     
 

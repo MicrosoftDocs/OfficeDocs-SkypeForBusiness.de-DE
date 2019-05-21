@@ -5,50 +5,50 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
-description: TblPrincipalType enthält Prinzipaltypen zur Kategorisierung in der TblPrincipal-Tabelle.
-ms.openlocfilehash: 804997c0cb25dff6566d21a26626550982d0075f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblPrincipalType enthält Prinzipaltypen, um zu kategorisieren, was in der tblPrincipal-Tabelle enthalten ist.
+ms.openlocfilehash: 473b718a8a863432a71ff04d709bef4c0ac1327f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924458"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295244"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
-TblPrincipalType enthält Prinzipaltypen zur Kategorisierung in der TblPrincipal-Tabelle.
+tblPrincipalType enthält Prinzipaltypen, um zu kategorisieren, was in der tblPrincipal-Tabelle enthalten ist.
   
 **Spalten**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|ptypeID  <br/> |Smallint, nicht null  <br/> |Prinzipaltyp-ID  <br/> |
-|ptypeDesc  <br/> |Nvarchar (256), nicht null  <br/> |Beschreibung des Typs.  <br/> |
-|ptypeIsSystemUser  <br/> |Bit, nicht null  <br/> |True, wenn der Typ den Prinzipalen entspricht, die zu internen Zwecken verwendet werden.  <br/> |
-|ptypeIsUser  <br/> |Bit, nicht null  <br/> |True, wenn der Typ einen Benutzertyp handelt.  <br/> |
+|ptypeID  <br/> |smallint, nicht NULL  <br/> |Prinzipaltyp-ID.  <br/> |
+|ptypeDesc  <br/> |nvarchar (256); nicht NULL  <br/> |Beschreibung des Typs.  <br/> |
+|ptypeIsSystemUser  <br/> |Bit, nicht NULL  <br/> |"True", wenn der Typ den Prinzipalen entspricht, die für interne Zwecke verwendet werden.  <br/> |
+|ptypeIsUser  <br/> |Bit, nicht NULL  <br/> |"True", wenn es sich bei dem Typ um einen Benutzertyp handelt.  <br/> |
    
 **Schlüssel**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
-|ptypeID  <br/> |Primärschlüssel.  <br/> |
+|ptypeID  <br/> |Primärschlüssel  <br/> |
    
-**Prinzipalwerte**
+**Prinzipal Werte**
 
 |**ID**|**Rolle**|**Beschreibung**|**Benutzer**|
 |:-----|:-----|:-----|:-----|
-|1  <br/> |Beliebig  <br/> |Generische Principal mit kein bekannter Typ. In der TblPrincipal-Tabelle verwendet nicht.  <br/> ||
-|2  <br/> |AnyUser  <br/> |Generische Prinzipal vom Benutzertyp. In der TblPrincipal-Tabelle verwendet nicht.  <br/> |Ja  <br/> |
-|3  <br/> |AnyGroup  <br/> |Generische Prinzipal semantische-Gruppe. In der TblPrincipal-Tabelle verwendet nicht.  <br/> ||
-|4  <br/> |SystemUser  <br/> |Intern von Persistent Chat Server verwendeter Prinzipal.  <br/> ||
-|5  <br/> |User  <br/> |Regelmäßiger Benutzer.  <br/> |Ja  <br/> |
+|1  <br/> |Beliebig  <br/> |Generischer Prinzipal ohne bekannten Typ. Wird in der tblPrincipal-Tabelle nicht verwendet.  <br/> ||
+|2  <br/> |AnyUser  <br/> |Generisches Prinzipal des Benutzertyps. Wird in der tblPrincipal-Tabelle nicht verwendet.  <br/> |Ja  <br/> |
+|3  <br/> |AnyGroup  <br/> |Generischer Prinzipal mit Gruppen Semantik Wird in der tblPrincipal-Tabelle nicht verwendet.  <br/> ||
+|4  <br/> |Multiswitch  <br/> |Prinzipal, der intern vom beständigen Chat Server verwendet wird.  <br/> ||
+|5  <br/> |User  <br/> |Normaler Benutzer.  <br/> |Ja  <br/> |
 |8  <br/> |DC  <br/> |Active Directory-Domänendienste-Domänencontroller.  <br/> ||
 |9  <br/> |Gruppe  <br/> |Active Directory-Sicherheitsgruppe.  <br/> ||
-|10  <br/> |Ordner  <br/> |Active Directory-Container oder Organisationseinheit.  <br/> ||
+|10  <br/> |Ordner  <br/> |Active Directory-Container oder-Organisationseinheit.  <br/> ||
    
 ## <a name="see-also"></a>Siehe auch
 

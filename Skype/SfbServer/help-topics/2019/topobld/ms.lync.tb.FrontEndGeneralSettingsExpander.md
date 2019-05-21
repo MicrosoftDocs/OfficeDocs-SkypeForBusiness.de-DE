@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.FrontEndGeneralSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Zum Bearbeiten der Einstellungen eines vorhandenen Front-End-Pools oder Standard Edition-Servers stehen die folgenden Abschnitte zur Verfügung:'
-ms.openlocfilehash: 5d44dae722107a2c30ede24c66f5b341b9a05754
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f8b9ac5a2291ae579dbc2a43e884132da325020
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919780"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299354"
 ---
 # <a name="front-end-general-settings-expander"></a>Allgemeine Front-End-Einstellungen – Erweiterung
 
@@ -48,7 +48,7 @@ Die folgenden allgemeinen Einstellungen können konfiguriert werden:
 
   - **Konferenz**: Schließt Audio-, Video- und Anwendungsfreigabe ein. Nach Auswahl dieser Option können Sie Einwahlkonferenzen (PSTN) auswählen. Im Unterabschnitt zu „Vermittlungsservereinstellungen“ weiter unten in diesem Abschnitt können Sie ein PSTN-Gateway angeben und definieren.
 
-  - **Enterprise-VoIP**. Interne Voice aktiviert over IP-Anrufe an qualifizierte Telefone und Geräte und Skype für Business Clients. Um externer Anruf Funktionen zu aktivieren, müssen Sie einen Vermittlungsserver enthalten. Weitere Informationen hierzu finden Sie unter "Vermittlungsserver" weiter unten in diesem Thema.
+  - **Enterprise-VoIP** Ermöglicht interne VoIP-Anrufe an qualifizierte Handapparate und Geräte sowie an Skype for Business-Clients. Um externe Anruffunktionen zu aktivieren, müssen Sie einen Vermittlungs Server einbeziehen. Ausführliche Informationen finden Sie weiter unten in diesem Thema unter "Vermittlungs Server".
 
 - Bearbeiten Sie in **Zuordnungen** Folgendes bzw. geben Sie Folgendes an:
 
@@ -101,7 +101,7 @@ Zum Bearbeiten oder Angeben weiterer Einstellungen für Webdienste für den Fron
 Geben Sie in **Interne Webdienste** Folgendes an:
 
 > [!CAUTION]
-> Wenn Sie mehrere Front-End-Pool oder Front-End-Server verfügen, muss die externe Webdienste FQDN eindeutig sein. Wenn Sie die externen Webdienste-FQDN des Front-End-Server als **"pool01.contoso.com"** definieren, können nicht Sie beispielsweise **"pool01.contoso.com"** für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Director-Server bereitstellen, den externen FQDN der Webdienste für alle Director definiert oder Director-Pool muss von einem beliebigen anderen Director oder Director eindeutig sein wie gut ab dem Front-End-pool-Pool oder Front-End-Server. Wenn Sie die internen Webdienste durch einen selbst definierten FQDN außer Kraft setzen möchten, jede FQDN muss eindeutig sein von anderen Front-End-Pool, Directors oder Director Pool.
+> Wenn Sie über mehr als einen Front-End-Pool oder Front-End-Server verfügen, muss der FQDN für externe Webdienste eindeutig sein. Wenn Sie beispielsweise den FQDN eines externen Webdiensts eines Front-End-Servers als **pool01.contoso.com**definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie Directors auch bereitstellen, müssen die für Director-oder Director-Pools definierten externen Webdienst-FQDN für jeden anderen Director-oder Director-Pool sowie für jeden Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie sich entscheiden, die internen Webdienste mit einem selbst definierten FQDN zu überschreiben, muss jeder FQDN von jedem anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
 
 - Wenn Sie **Vollqualifizierten Domänennamen außer Kraft setzen** auswählen, können Sie einen anderen FQDN für die Identität **Interne Webdienste** im Pool angeben. Standardmäßig ist die Einstellung der aktuelle Poolname entsprechend der Definition für den Front-End-Pool.
 
@@ -111,7 +111,7 @@ Geben Sie unter **Externe Webdienste** Folgendes an:
 
 - Den vollqualifizierten Domänennamen der externen Webdienste. Der hier angegebene FQDN wird meist von den externen Verbindungsanforderungen bestimmt, z. B. dem Reverseproxy.
 
-- Für die Bereitstellung erforderliche Überwachungsports und veröffentlichte Ports für HTTP und HTTPS. Die Standardeinstellungen der Port 8080 für HTTP und Port 4443 für HTTPS werden zunächst definiert. Sie können diese Einstellungen für die Überwachungsports basierend auf den Anforderungen für den Reverseproxy und das externe Netzwerk ändern. Die veröffentlichten Ports werden festgelegt auf Standardwert von Port 80 für HTTP und Port 443 für HTTPS. Diese Werte bestimmen, welche Ports für eingehende Anforderungen der Pool überwacht wird. In der Regel müssen diese nicht geändert werden, es sei denn, es ein Konflikt von Anforderungen in Bezug auf den Pool besteht. Interne und externe veröffentlichten Ports unter Verwendung der gleichen Portwerte werden erwartet. Dies ist kein Konflikt.
+- Für die Bereitstellung erforderliche Überwachungsports und veröffentlichte Ports für HTTP und HTTPS. Die Standardeinstellungen von Port 8080 für http und Port 4443 für HTTPS werden zunächst definiert. Sie können diese Einstellungen für die Überwachungsports basierend auf den Anforderungen für den Reverseproxy und das externe Netzwerk ändern. Die veröffentlichten Ports sind auf Standard Port 80 für http und Port 443 für HTTPS eingestellt. Diese Werte legen fest, welche Ports vom Pool auf eingehende Anforderungen überwacht werden. In der Regel müssen diese nicht geändert werden, es sei denn, es liegt ein Konflikt zwischen den Portanforderungen im Pool vor. Interne und externe veröffentlichte Ports, die dieselben Portwerte verwenden, werden erwartet. Dies ist kein Konflikt.
 
 ### <a name="mediation-server"></a>Vermittlungsserver
 
@@ -135,7 +135,7 @@ Für einen Standard Edition-Server können Sie allgemeine Einstellungen sowie Ei
 
 Die folgenden allgemeinen Einstellungen können konfiguriert werden:
 
-- **FQDN**. Beachten Sie, dass der vollqualifizierte Domänenname nicht geändert werden kann. Sie müssen entfernen und definieren den Standard Edition-Server, um den FQDN mit ihm verbundenes ändern.
+- **FQDN**. Beachten Sie, dass der FQDN nicht geändert werden kann. Sie müssen den Standard Edition-Server entfernen und neu definieren, um den ihm zugeordneten FQDN zu ändern.
 
 - Wählen Sie **Alle konfigurierten IP-Adressen verwenden** oder **Dienstnutzung auf die ausgewählten IP-Adressen beschränken**. Wenn Sie den Dienst auf festgelegte IP-Adressen begrenzen möchten, müssen Sie die primäre IP-Adresse festlegen, die der Server für die gesamte Kommunikation mit Ausnahme des Telefonfestnetzes verwenden soll. Für die Verwendung mit dem Telefonfestnetz wird eine gesonderte IP-Adresse bestimmt. Sie können auch **IPv6 aktivieren** wählen, um IPv6 für diesen Server zu aktivieren.
 
@@ -145,7 +145,7 @@ Die folgenden allgemeinen Einstellungen können konfiguriert werden:
 
   - **Konferenz**. Schließt Audio-, Video- und Anwendungsfreigabe ein. Nach Auswahl dieser Option können Sie **Einwahlkonferenzen (PSTN)** auswählen. Ein PSTN-Gateway kann später in den Einstellungen des Vermittlungsservers angegeben und definiert werden.
 
-  - **Enterprise-VoIP**. Interne Voice aktiviert over IP-Anrufe an qualifizierte Telefone und Geräte und Skype für Business Clients. Um externer Anruf Funktionen zu aktivieren, müssen Sie einen Vermittlungsserver enthalten. Weitere Informationen hierzu finden Sie unter "Vermittlungsserver" weiter unten in diesem Thema.
+  - **Enterprise-VoIP** Ermöglicht interne VoIP-Anrufe an qualifizierte Handapparate und Geräte sowie an Skype for Business-Clients. Um externe Anruffunktionen zu aktivieren, müssen Sie einen Vermittlungs Server einbeziehen. Ausführliche Informationen finden Sie weiter unten in diesem Thema unter "Vermittlungs Server".
 
 - In **Zuordnungen** können Sie Folgendes bearbeiten oder angeben:
 

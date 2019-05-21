@@ -5,157 +5,157 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
-description: AudioStreamDetail-Ansicht werden Informationen zu jedem Audiostream in der Datenbank gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 770ccad50a6f48aa41e4ba2f105d1fc0d4879d87
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: In der AudioStreamDetail-Ansicht werden Informationen zu jedem Audiostream in der Datenbank gespeichert. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
+ms.openlocfilehash: 16f97fc367b171ceb0ddc5b5c0024bd88c7b5268
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920054"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295055"
 ---
 # <a name="audiostreamdetail-view"></a>AudioStreamDetail-Ansicht
  
-AudioStreamDetail-Ansicht werden Informationen zu jedem Audiostream in der Datenbank gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
+In der AudioStreamDetail-Ansicht werden Informationen zu jedem Audiostream in der Datenbank gespeichert. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|SessionTime  <br/> |datetime  <br/> |Verweis von der [MediaLine-Tabelle](medialine-0.md).  <br/> |
-|SessionSeq  <br/> |int  <br/> |Verweis von der [MediaLine-Tabelle](medialine-0.md).  <br/> |
-|StreamId  <br/> |int  <br/> |Eindeutige ID innerhalb einer medienzeile.  <br/> |
+|SessionTime  <br/> |datetime  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
+|SessionSeq  <br/> |int  <br/> |In der medialinie- [Tabelle](medialine-0.md)referenziert.  <br/> |
+|Datenstrom-Nr  <br/> |int  <br/> |Eindeutige ID innerhalb einer medienzeile  <br/> |
 |StartTime  <br/> |datetime  <br/> |Startzeit der Sitzung.  <br/> |
-|EndTime  <br/> |datetime  <br/> |Die Endzeit der Sitzung.  <br/> |
-|DialogCategory  <br/> |bit  <br/> |Dialogfeld Kategorie: 0 ist die Skype für Business Server Mediation Server Abschnitts; 1 wird vom Vermittlungsserver zum PSTN-Gateway-Abschnitt.  <br/> |
-|MediationServerBypassFlag  <br/> |bit  <br/> |Flag gibt an, ob der Anruf oder nicht umgangen wurde.  <br/> |
-|MediaBypassWarningFlag  <br/> |int  <br/> |Falls vorhanden, gibt an, warum ein Anruf nicht umgangen wurde, auch wenn die Umgehung IDs übereinstimmen. Es wird nur ein Wert definiert:  <br/> 0 x 0001 – unbekannte umgehungs-ID für Standardnetzwerkadapter.  <br/> |
-|CallPriority  <br/> |int  <br/> |Priorität des Anrufs.  <br/> |
-|CallerPool  <br/> |nvarchar(256)  <br/> |Anrufer-Pool FQDN.  <br/> |
-|CalleePool  <br/> |nvarchar(256)  <br/> |FQDN des angerufenenpools.  <br/> |
-|Anrufer  <br/> |nvarchar(450)  <br/> |URI des Anrufers.  <br/> |
-|Callee  <br/> |nvarchar(450)  <br/> |URI des angerufenen.  <br/> |
-|CallerUserAgent  <br/> |nvarchar(256)  <br/> |Benutzeragentzeichenfolge des Anrufers.  <br/> |
-|CallerUserAgentType  <br/> |smallint  <br/> |Typ des Benutzer-Agent des Anrufers. [UserAgent-Tabelle](useragent.md) Details finden Sie. <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar(64)  <br/> |Kategorie des Benutzer-Agent des Anrufers. [UserAgentDef-Tabelle (QoE)](useragentdef-qoe.md) ausführliche Informationen finden Sie. <br/> |
-|CalleeUserAgent  <br/> |nvarchar(256)  <br/> |Benutzeragentzeichenfolge des angerufenen.  <br/> |
-|CalleeUserAgentType  <br/> |smallint  <br/> |Typ des Benutzer-Agent des angerufenen. Siehe [UserAgent-Tabelle](useragent.md) Informationen. <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar(64)  <br/> |Kategorie des Benutzer-Agent des angerufenen. Siehe die [UserAgentDef-Tabelle (QoE)](useragentdef-qoe.md) Informationen. <br/> |
-|CallerEndpoint  <br/> |nvarchar(256)  <br/> |Endpunktname des angerufenen.  <br/> |
-|CalleeEndpoint  <br/> |nvarchar(256)  <br/> |Endpunktname des angerufenen.  <br/> |
-|CallerOS  <br/> |nvarchar(128)  <br/> |Betriebssystem (OS) des Endpunkts des Anrufers.  <br/> |
-|CalleeOS  <br/> |nvarchar(128)  <br/> |Betriebssystem (OS) des Endpunkts des angerufenen.  <br/> |
-|CallerCPUName  <br/> |nvarchar(128)  <br/> |Prozessorname des Endpunkts des Anrufers.  <br/> |
-|CalleeCPUName  <br/> |nvarchar(128)  <br/> |Prozessorname des Endpunkts des angerufenen.  <br/> |
-|CallerCPUNumberOfCores  <br/> |smallint  <br/> |Anzahl der Prozessorkerne des Endpunkts des Anrufers.  <br/> |
-|CalleeCPUNumberOfCores  <br/> |smallint  <br/> |Anzahl der Prozessorkerne des Endpunkts des angerufenen.  <br/> |
-|CallerCPUProcessorSpeed  <br/> |int  <br/> |Prozessorgeschwindigkeit des Endpunkts des Anrufers.  <br/> |
-|CalleeCPUProcessorSpeed  <br/> |int  <br/> |Prozessorgeschwindigkeit des Endpunkts des angerufenen.  <br/> |
-|CallerVirtualizationFlag  <br/> |tinyint  <br/> |Gibt an, ob der Anrufer System in einer virtualisierten Umgebung ausgeführt wird. Finden Sie weitere Informationen der [Endpoint-Tabelle](endpoint.md) . <br/> |
-|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |Gibt an, ob des angerufenen System in einer virtualisierten Umgebung ausgeführt wird. Finden Sie weitere Informationen der [Endpoint-Tabelle](endpoint.md) . <br/> |
-|CorrelationKey  <br/> ||Korrelations-Taste. Verweis von der [SessionCorrelation-Tabelle](sessioncorrelation.md).  <br/> |
-|ConnectivityIce  <br/> |tinyint  <br/> |Informationen zu den Medienpfad wie direkte oder weitergeleitet. Finden Sie weitere Informationen der [MediaLine-Tabelle](medialine-0.md) . <br/> |
-|CallerIceWarningFlags  <br/> |int  <br/> |Informationen zum Vorgang, Interactive Connectivity Establishment (ICE) beschriebenen in Bits Flags für den Anrufer. Weitere Informationen hierzu finden Sie in der Qualität der Experience Monitoring Server-Protokoll-Spezifikation.  <br/> |
-|CalleeIceWarningFlags  <br/> |int  <br/> |Informationen zum Vorgang, Interactive Connectivity Establishment (ICE) beschriebenen in Bits Flags für des angerufenen. Weitere Informationen hierzu finden Sie in der Qualität der Experience Monitoring Server-Protokoll-Spezifikation.  <br/> |
+|EndTime  <br/> |datetime  <br/> |Endzeit der Sitzung.  <br/> |
+|DialogCategory  <br/> |bit  <br/> |Dialog Feld Kategorie: 0 ist der Skype for Business Server für Mediation Server Leg; 1 ist der Vermittlungs Server für das PSTN-Gateway-Bein.  <br/> |
+|MediationServerBypassFlag  <br/> |bit  <br/> |Flag, das angibt, ob der Anruf umgangen wurde oder nicht.  <br/> |
+|MediaBypassWarningFlag  <br/> |int  <br/> |Wenn vorhanden, gibt an, warum ein Anruf nicht umgangen wurde, auch wenn die Bypass-IDs zugeordnet wurden. Es wird nur ein Wert definiert:  <br/> 0x0001-unbekannte Bypass-ID für den standardmäßigen Netzwerkadapter.  <br/> |
+|CallPriority  <br/> |int  <br/> |Die Priorität des Anrufs.  <br/> |
+|CallerPool  <br/> |nvarchar(256)  <br/> |FQDN des anrufenden Pools.  <br/> |
+|CalleePool  <br/> |nvarchar(256)  <br/> |FQDN des aufgerufenen Pools.  <br/> |
+|Anrufer  <br/> |nvarchar (450)  <br/> |URI des Anrufers.  <br/> |
+|Callee  <br/> |nvarchar (450)  <br/> |URI des aufgerufenen.  <br/> |
+|CallerUserAgent  <br/> |nvarchar(256)  <br/> |Benutzer-Agent-Zeichenfolge des Anrufers.  <br/> |
+|CallerUserAgentType  <br/> |smallint  <br/> |Der Typ des Benutzer-Agents des Anrufers. Weitere Informationen finden Sie in der [userAgent-Tabelle](useragent.md) . <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar (64)  <br/> |Kategorie des Benutzer-Agents des Anrufers. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle (QoE)](useragentdef-qoe.md) . <br/> |
+|CalleeUserAgent  <br/> |nvarchar(256)  <br/> |Benutzer-Agent-Zeichenfolge des Benutzers.  <br/> |
+|CalleeUserAgentType  <br/> |smallint  <br/> |Der Typ des Benutzer-Agents des anrufempfängers. Informationen finden Sie in der [userAgent-Tabelle](useragent.md) . <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |Kategorie des Benutzer-Agents des berufenen Informationen finden Sie in der [UserAgentDef-Tabelle (QoE)](useragentdef-qoe.md) . <br/> |
+|CallerEndpoint  <br/> |nvarchar(256)  <br/> |Der Endpunktname des Anrufers.  <br/> |
+|CalleeEndpoint  <br/> |nvarchar(256)  <br/> |Endpunktname des angerufenen  <br/> |
+|Anrufer  <br/> |nvarchar (128)  <br/> |Betriebssystem (OS) des Endpunkts des Anrufers.  <br/> |
+|CalleeOS  <br/> |nvarchar (128)  <br/> |Betriebssystem (OS) des Endpunkts des aufgerufenen.  <br/> |
+|CallerCPUName  <br/> |nvarchar (128)  <br/> |Der CPU-Name des Endpunkts des Anrufers.  <br/> |
+|CalleeCPUName  <br/> |nvarchar (128)  <br/> |Der CPU-Name des Endpunkts des aufgerufenen.  <br/> |
+|CallerCPUNumberOfCores  <br/> |smallint  <br/> |Die Anzahl der CPU-Kerne im Endpunkt des Anrufers.  <br/> |
+|CalleeCPUNumberOfCores  <br/> |smallint  <br/> |Die Anzahl der CPU-Kerne im Endpunkt des aufgerufenen.  <br/> |
+|CallerCPUProcessorSpeed  <br/> |int  <br/> |CPU-Prozessorgeschwindigkeit des Endpunkts des Anrufers.  <br/> |
+|CalleeCPUProcessorSpeed  <br/> |int  <br/> |CPU-Prozessorgeschwindigkeit des Endpunkts des aufgerufenen.  <br/> |
+|CallerVirtualizationFlag  <br/> |tinyint  <br/> |Gibt an, ob das System des Anrufers in einer virtualisierten Umgebung ausgeführt wird. Weitere Informationen finden Sie in der [Endpunkt Tabelle](endpoint.md) . <br/> |
+|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |Gibt an, ob das System des aufgerufenen in einer virtualisierten Umgebung ausgeführt wird. Weitere Informationen finden Sie in der [Endpunkt Tabelle](endpoint.md) . <br/> |
+|CorrelationKey  <br/> ||Korrelationsschlüssel Wird in der [SessionCorrelation-Tabelle](sessioncorrelation.md)referenziert.  <br/> |
+|ConnectivityIce  <br/> |tinyint  <br/> |Informationen zum Medienpfad, beispielsweise direkt oder weitergeleitet. Weitere Informationen finden Sie in der [Tabelle medialinie](medialine-0.md) . <br/> |
+|CallerIceWarningFlags  <br/> |int  <br/> |Informationen zum Prozess der interaktiven Verbindungseinrichtung (ICE), der unter Bits-Flags für den Aufrufer beschrieben wird. Ausführliche Informationen finden Sie in der Quality of Experience Monitoring Server Protocol-Spezifikation.  <br/> |
+|CalleeIceWarningFlags  <br/> |int  <br/> |Informationen zum Prozess der interaktiven Verbindungseinrichtung (ICE), der in den Bits-Flags für den aufgerufenen beschrieben wird. Ausführliche Informationen finden Sie in der Quality of Experience Monitoring Server Protocol-Spezifikation.  <br/> |
 |Transport  <br/> |tinyint  <br/> |Transporttyp: 0 ist UDP, 1 ist TCP.  <br/> |
-|CallerIPAddr  <br/> |var(50)  <br/> |IP-Adresse des Anrufers. Dies kann eine IPv4- oder eine IPv6-Adresse sein.  <br/> |
-|CallerPort  <br/> |int  <br/> |Vom Anrufer verwendeter Port.  <br/> |
-|CallerInside  <br/> |bit  <br/> |Gibt an, ob der Anrufer innerhalb des intervallnetzwerks befindet: 1 bedeutet, dass Anrufer sich innerhalb des Unternehmensnetzwerks befindet, 0 bedeutet, dass der Anrufer außerhalb des Netzwerks.  <br/> |
-|CalleeIPAddr  <br/> |var(50)  <br/> |IP-Adresse des angerufenen. Dies kann eine IPv4- oder eine IPv6-Adresse sein.  <br/> |
-|CalleePort  <br/> |int  <br/> |Vom angerufenen verwendeter Port.  <br/> |
-|CalleeInside  <br/> |bit  <br/> |Gibt an, ob die aufgerufene innerhalb des intervallnetzwerks befindet: 1 bedeutet, dass angerufenen ist innerhalb des Unternehmensnetzwerks, 0 bedeutet, dass der aufgerufene außerhalb des Netzwerks.  <br/> |
-|CallerUserSite  <br/> |nvarchar(128)  <br/> |Name der Website des Anrufers.  <br/> |
-|CallerRegion  <br/> |nvarchar(128)  <br/> |Name des Lands/der Region der Website des Anrufers.  <br/> |
-|CalleeUserSite  <br/> |nvarchar(128)  <br/> |Name der Website des angerufenen.  <br/> |
-|CalleeRegion  <br/> |nvarchar(128)  <br/> |Name des Lands/der Region der Website des angerufenen.  <br/> |
-|CallerRelayIPAddr  <br/> |var(50)  <br/> |IP-Adresse des A / V-edgedienst vom Anrufer verwendeten. [IPAddress-Tabelle](ipaddress.md) Weitere Informationen finden Sie. <br/> |
-|CallerRelayPort  <br/> |int  <br/> |Port verwendet, auf dem A / V-edgedienst vom Anrufer verwendeten.  <br/> |
-|CalleeRelayIPAddr  <br/> |var(50)  <br/> |Key der IP-Adresse des A / V-edgedienst vom angerufenen verwendeten. [IPAddress-Tabelle](ipaddress.md) Weitere Informationen finden Sie. <br/> |
-|CalleeRelayPort  <br/> |int  <br/> |Port verwendet, auf dem A / V-edgedienst vom angerufenen verwendeten.  <br/> |
-|CallerCaptureDev  <br/> |varchar(256)-Wert  <br/> |Name des Aufnahmegeräts des Anrufers.  <br/> |
-|CallerRenderDev  <br/> |varchar(256)-Wert  <br/> |Name des darstellungsgeräts des Anrufers.  <br/> |
-|CallerCaptureDevDriver  <br/> |varchar(256)-Wert  <br/> |Name des Anrufers Gerät Treiber.  <br/> |
-|CallerRenderDriver  <br/> |varchar(256)-Wert  <br/> |Treibername des darstellungsgeräts des Anrufers.  <br/> |
-|CalleeCaptureDev  <br/> |varchar(256)-Wert  <br/> |Name des Aufnahmegeräts des angerufenen.  <br/> |
-|CalleeRenderDev  <br/> |varchar(256)-Wert  <br/> |Name des darstellungsgeräts des angerufenen.  <br/> |
-|CalleeCaptureDevDriver  <br/> |varchar(256)-Wert  <br/> |Name des angerufenen Gerät Treiber.  <br/> |
-|CalleeRenderDevDriver  <br/> |varchar(256)-Wert  <br/> |Treibername des darstellungsgeräts des angerufenen.  <br/> |
-|CallerNetworkConnectionType  <br/> |tinyint  <br/> |Typ der Netzwerkverbindung des Anrufers: 0 ist verkabelt, 1 ist kabellos.  <br/> |
-|CallerVPN  <br/> |bit  <br/> |Gibt an, ob der Anrufer über ein virtuelles privates Netzwerk verbunden: 1 = virtuelles privates Netzwerk (VPN), 0 = nicht-VPN.  <br/> |
-|CallerLinkSpeed  <br/> |decimal(18,0)  <br/> |Netzwerkübertragungsrate für den Endpunkt des Anrufers in Bit/s.  <br/> |
-|CalleeNetworkConnectionType  <br/> |tinyint  <br/> |Typ der Netzwerkverbindung des angerufenen: 0 ist verkabelt, 1 ist kabellos.  <br/> |
-|CalleeVPN  <br/> |bit  <br/> |Gibt an, ob der Anrufer über ein virtuelles privates Netzwerk verbunden: 1 = virtuelles privates Netzwerk (VPN), 0 = nicht-VPN.  <br/> |
-|CalleeLinkSpeed  <br/> |decimal(18,0)  <br/> |Netzwerkübertragungsrate für den Endpunkt des angerufenen in Bit/s.  <br/> |
-|ConversationalMOS  <br/> |decimal(3,2)  <br/> |Schmalband-Gesprächs-MOS der audiositzungen (basierend auf beiden Audiostreams).  <br/> |
-|AppliedBandwidthLimit  <br/> |int  <br/> |Tatsächliche Bandbreite in den angegebenen senden Seite Stream angegebenen verschiedene Einstellungen für die Informationsverwaltungsrichtlinie (aktivieren, API, SDP, Policy Server usw.) angewendet. Dies ist nicht für die effektive Bandbreite verwechselt werden, da ein niedriger Bandbreite basierend auf die Schätzung für das Bandbreite kann. Dies ist im Wesentlichen die maximale Bandbreite, die der Stream senden läuft Grenzwerte, die auf die Schätzung für das Bandbreite durchführen können  <br/> |
-|JitterInterArrival  <br/> |int  <br/> |Durchschnittlicher netzwerkjitter aus Statistik (Real Time Control Protocol, RTCP).  <br/> |
-|JitterInterArrivalMax  <br/> |int  <br/> |Maximaler netzwerkjitter während des Anrufs.  <br/> |
-|PacketLossRate  <br/> |decimal(5,4)  <br/> |Durchschnittliche paketverlustrate während des Anrufs.  <br/> |
-|PacketLossRateMax  <br/> |decimal(5,4)  <br/> |Maximale paketverlustrate während des Anrufs.  <br/> |
-|BurstDensity  <br/> |decimal(9,4)  <br/> |Durchschnittliche Dichte an Paketverlusten bei Bursts von Verlusten während des Anrufs.  <br/> |
-|BurstDuration  <br/> |int  <br/> |Durchschnittliche Dauer an Paketverlusten bei Bursts von Verlusten während des Anrufs.  <br/> |
-|BurstGapDensity  <br/> |decimal(9,4)  <br/> |Durchschnittliche Dichte an Paketverlusten bei Lücken zwischen Bursts von Paketverlusten.  <br/> |
-|BurstGapDuration  <br/> |int  <br/> |Durchschnittliche Dauer der Lücken zwischen Bursts von Paketverlusten.  <br/> |
-|PacketUtilization  <br/> |int  <br/> |Paketwert für den Audiostream.  <br/> |
-|BandwidthEst  <br/> |int  <br/> |Bandbreitenschätzwerte für den Audiostream.  <br/> |
-|DegradationAvg  <br/> |decimal(3,2)  <br/> |Netzwerk-MOS-Beeinträchtigung für den gesamten Anruf. Werte sind 0,0, 5.0 ist. Diese Metrik zeigt die Dauer, dass die Netzwerk-MOS aufgrund von Jitter und Paketverlust reduziert wurde. Für eine akzeptable Qualität sollte es weniger als 0,5.  <br/> |
-|DegradationMax  <br/> |decimal(3,2)  <br/> |Maximale Netzwerk-MOS-Beeinträchtigung während des Anrufs.  <br/> |
-|DegradationJitterAvg  <br/> |decimal(3,2)  <br/> |Netzwerk-MOS-Beeinträchtigung aufgrund von Jitter.  <br/> |
-|DegradationPacketLossAvg  <br/> |decimal(3,2)  <br/> |Netzwerk-MOS-Beeinträchtigung aufgrund von Paketverlust.  <br/> |
-|PayloadDescription  <br/> |int  <br/> |Für den Anruf wird aus der [PayloadDescription-Tabelle](payloaddescription.md)verwendete Audiocodec.  <br/> |
-|AudioSampleRate  <br/> |int  <br/> |Samplingrate für den Audiostream.  <br/> |
-|CallerSendSignalLevel  <br/> |int  <br/> |Nach dem analoge erhalten Sie die Kontrolle Audiosignal-Ebene für die Audiodaten gesendet, der Anrufer. Die Einheit dieser Metrik ist dBmo. Für eine akzeptable Qualität sollte mindestens 30 dBmo sein. Diese Metrik wird nicht gemeldet, vom A / V-Konferenzserver oder IP-Telefone.  <br/> |
-|CallerRecvSignalLevel  <br/> |int  <br/> |Audiosignal-Ebene für die Audiodaten der Anrufer empfangen. Die Einheit dieser Metrik ist dBmo. Für eine akzeptable Qualität sollte mindestens 30 dBmo sein. Diese Metrik wird nicht gemeldet, vom A / V-Konferenzserver oder IP-Telefone.  <br/> |
-|CallerSendNoiseLevel  <br/> |int  <br/> |Nach dem analoge erhalten Sie die Kontrolle audio Rauschen für Audio den Anrufer gesendet. Die Einheit dieser Metrik ist dBmo. Akzeptable Qualität sollten sie weniger als 35 dBmo sein. Diese Metrik wird nicht gemeldet, vom A / V-Konferenzserver oder IP-Telefone.  <br/> |
-|CallerRecvNoiseLevel  <br/> |int  <br/> |Nach dem analoge erhalten Sie die Kontrolle audio Rauschen für Audio der Anrufer empfangen. Die Einheit dieser Metrik ist dBmo. Akzeptable Qualität sollten sie weniger als 35 dBmo sein. Diese Metrik wird nicht gemeldet, vom A / V-Konferenzserver oder IP-Telefone.  <br/> |
-|CallerEchoReturn  <br/> |int  <br/> |Echo zurückgeben Verlust Erweiterung für Anrufer. Die Einheit dieser Metrik ist dB. Niedrigere Werte darstellen weniger Echo. Diese Metrik wird nicht gemeldet, vom A / V-Konferenzserver oder IP-Telefone.  <br/> |
-|CallerSpeakerGlitchRate  <br/> |int  <br/> |Durchschnittliche Probleme pro fünf Minuten des Anrufers Audiosignalen rendern. Für die Qualität sollte dies weniger als eine pro fünf Minuten lang sein. Nicht berichtet von A / V-Konferenzserver, Vermittlungsserver oder IP-Telefone.  <br/> |
-|CallerMicGlitchRate  <br/> |int  <br/> |Durchschnittliche Probleme pro fünf Minuten für Mikrofon des Anrufers erfassen. Für guter Qualität sollte dies weniger als einer pro fünf Minuten lang sein. Nicht berichtet von A / V-Konferenzserver, Vermittlungsserver oder IP-Telefone.  <br/> |
-|CallerTimestampDriftRateMic  <br/> |decimal(9,2)  <br/> |Des Anrufers Uhr driftrate Mikrofons, relativ zum CPU-Takt.  <br/> |
-|CallerTimestampDriftRateSpk  <br/> |decimal(9,2)  <br/> |Des Anrufers Uhr driftrate Lautsprechers, relativ zum CPU-Takt.  <br/> |
-|CallerTimestampErrorMicMs  <br/> |decimal(9,2)  <br/> |Durchschnittliche Mikrofon Capture Stream Zeitstempel Fehler in Millisekunden, in den letzten 20 Sekunden des Anrufs.  <br/> |
-|CallerTimestampErrorSpkMs  <br/> |decimal(9,2)  <br/> |Mittelwert der Lautsprecher des Anrufers Rendern Stream Zeitstempel Fehler in Millisekunden, in den letzten 20 Sekunden des Anrufs.  <br/> |
-|CallerVsEntryCauses  <br/> |smallint  <br/> |VoIP-Switch ist eine Halbduplexmodus reduzierte Unterbrechung Möglichkeit. Finden Sie weitere Informationen der [MediaLine-Tabelle](medialine-0.md) . <br/> |
-|CallerEchoEventCauses  <br/> |tinyint  <br/> |Ursachen für echoereignis für den Anrufer. Finden Sie weitere Informationen der [MediaLine-Tabelle](medialine-0.md) . <br/> |
-|CallerEchoPercentMicIn  <br/> |decimal(5,2)  <br/> |Prozentsatz der Zeit, wenn in der Aufrufer Mikrofon Capture Stream Echo erkannt wird. Wenn Kopfhörer verwendet wird, sollte der Wert niedriger sein.  <br/> |
-|CallerEchoPercentSend  <br/> |decimal(5,2)  <br/> |Prozentsatz der Zeit, wenn Echo, in dem Anrufer erkannt wird, des Stream-Objekt gesendet. Hohe Echo Prozentsatz im senden Datenströme Angabe des Echo Speicherverlusten.  <br/> |
-|CallerRxAGCSignalLevel  <br/> |int  <br/> |Empfangene Audiosignals auf dem Vermittlungsserver vom Gateway für das Audio des Anrufers; Dies gilt nur für den Vermittlungsserver. Die Einheit dieser Metrik ist dBoV. Für guter Qualität sollte des Gültigkeitsbereichs-18 dBoV -30 sein.  <br/> |
-|CallerRxAGCNoiseLevel  <br/> |int  <br/> |Empfangene Audiosignals auf dem Vermittlungsserver vom Gateway für den Anrufer Audiosignal des. Dies gilt nur für den Vermittlungsserver. Die Einheit dieser Metrik ist dBoV. Für guter Qualität sollte der zulässigen Bereich weniger als-50 dBoV sein.  <br/> |
-|CallerRxAGCGain  <br/> |int  <br/> |Eingebauter Verstärker (AGC) auf der vermittlungsserverseite angewendet auf das Audio des Anrufers.  <br/> |
-|CallerInitialSignalLevelRMS  <br/> |float  <br/> |Quadratischer Mittelwert (RMS) des eingehenden Signals an den Anrufer in den ersten 30 Sekunden des Anrufs.  <br/> |
-|CalleeSendSignalLevel  <br/> |int  <br/> |Stellt die nach der Analog zu erhalten Audiosignal Steuerungsebene für das Audio des angerufenen gesendet. Die Einheit dieser Metrik ist dBmo. Für eine akzeptable Qualität sollte mindestens 30 dBmo sein. Diese Metrik wird nicht gemeldet, vom A / V-Konferenzserver oder IP-Telefone.  <br/> |
-|CalleeRecvSignalLevel  <br/> |int  <br/> |Audiosignal-Ebene für Audio des angerufenen empfangen. Die Einheit dieser Metrik ist dBmo. Für eine akzeptable Qualität sollte mindestens 30 dBmo sein. Diese Metrik wird nicht gemeldet, vom A / V-Konferenzserver oder IP-Telefone.  <br/> |
-|CalleeSendNoiseLevel  <br/> |int  <br/> |Nach dem analoge erhalten Sie die Kontrolle audio Rauschen für Audio des angerufenen gesendet. Die Einheit dieser Metrik ist dBmo. Akzeptable Qualität sollten sie weniger als 35 dBmo sein. Diese Metrik wird nicht gemeldet, vom A / V-Konferenzserver oder IP-Telefone.  <br/> |
-|CalleeRecvNoiseLevel  <br/> |int  <br/> |Nach dem analoge erhalten Sie die Kontrolle audio Rauschen für Audio des angerufenen empfangen. Die Einheit dieser Metrik ist dBmo. Akzeptable Qualität sollten sie weniger als 35 dBmo sein. Diese Metrik wird nicht gemeldet, vom A / V-Konferenzserver oder IP-Telefone.  <br/> |
-|CalleeEchoReturn  <br/> |int  <br/> |Echo zurückgeben Verlust für Verbesserung des angerufenen. Die Einheit dieser Metrik ist dB. Niedrigere Werte darstellen weniger Echo. Diese Metrik wird nicht gemeldet, vom A / V-Konferenzserver oder IP-Telefone.  <br/> |
-|CalleeSpeakerGlitchRate  <br/> |int  <br/> |Durchschnittliche Probleme pro fünf Minuten des angerufenen Audiosignalen rendern. Für die Qualität sollte dies weniger als eine pro fünf Minuten lang sein. Nicht berichtet von A / V-Konferenzserver, Vermittlungsserver oder IP-Telefone.  <br/> |
-|CalleeMicGlitchRate  <br/> |int  <br/> |Durchschnittliche Probleme pro fünf Minuten für Mikrofon des angerufenen erfassen. Für guter Qualität sollte dies weniger als einer pro fünf Minuten lang sein. Nicht berichtet von A / V-Konferenzserver, Vermittlungsserver oder IP-Telefone.  <br/> |
-|CalleeTimestampDriftRateMic  <br/> |decimal(9,2)  <br/> |Angerufenen Uhr driftrate Mikrofons, relativ zum CPU-Takt.  <br/> |
-|CalleeTimestampDriftRateSpk  <br/> |decimal(9,2)  <br/> |Angerufenen Uhr driftrate Lautsprechers, relativ zum CPU-Takt.  <br/> |
-|CalleeTimestampErrorMicMs  <br/> |decimal(9,2)  <br/> |Durchschnittliche Mikrofon Capture Stream Zeitstempel Fehler in Millisekunden, in den letzten 20 Sekunden des Anrufs.  <br/> |
-|CalleeTimestampErrorSpkMs  <br/> |decimal(9,2)  <br/> |Mittelwert der Lautsprecher des angerufenen Rendern Stream Zeitstempel Fehler in Millisekunden, in den letzten 20 Sekunden des Anrufs.  <br/> |
-|CalleeVsEntryCauses  <br/> |smallint  <br/> |VoIP-Switch ist eine Halbduplexmodus reduzierte Unterbrechung Möglichkeit. Finden Sie weitere Informationen der [MediaLine-Tabelle](medialine-0.md) . <br/> |
-|CalleeEchoEventCauses  <br/> |tinyint  <br/> |Ursachen für echoereignis für des angerufenen. Finden Sie weitere Informationen der [MediaLine-Tabelle](medialine-0.md) . <br/> |
-|CalleeEchoPercentMicIn  <br/> |decimal(5,2)  <br/> |Prozentsatz der Zeit, wenn Echo in des angerufenen Mikrofon Capture Stream erkannt wird. Wenn Kopfhörer verwendet wird, sollte der Wert niedriger sein.  <br/> |
-|CalleeEchoPercentSend  <br/> |decimal(5,2)  <br/> |Prozentsatz der Zeit, wenn Echo in angerufenen erkannt wird, der Stream gesendet. Hohe Echo Prozentsatz im senden Datenströme Angabe des Echo Speicherverlusten.  <br/> |
-|CalleeRxAGCSignalLevel  <br/> |int  <br/> |Empfangene Audiosignals auf dem Vermittlungsserver vom Gateway für das Audio des angerufenen; Dies gilt nur für den Vermittlungsserver. Die Einheit dieser Metrik ist dBoV. Für guter Qualität des Gültigkeitsbereichs [-30,-18] werden sollte dBoV.  <br/> |
-|CalleeRxAGCNoiseLevel  <br/> |int  <br/> |Empfangene Audiosignals auf dem Vermittlungsserver vom Gateway für die aufgerufenen Audiosignal des. Dies gilt nur für den Vermittlungsserver. Die Einheit dieser Metrik ist dBoV. Für guter Qualität sollte der zulässigen Bereich weniger als-50 dBoV sein.  <br/> |
-|CalleeRxAGCGain  <br/> |int  <br/> |Eingebauter Verstärker (AGC) auf der vermittlungsserverseite angewendet auf das Audio des angerufenen.  <br/> |
-|CalleeInitialSignalLevelRMS  <br/> |float  <br/> |Quadratischer Mittelwert (RMS) des eingehenden Signals an den angerufenen in den ersten 30 Sekunden des Anrufs.  <br/> |
-|RatioConcealedSamplesAvg  <br/> |decimal(5,2)  <br/> |Durchschnittliches Verhältnis zwischen ausgeblendeten Samples, generiert durch audioreparatur, und standardsamples.  <br/> |
-|RatioStretchedSamplesAvg  <br/> |decimal(5,2)  <br/> |Durchschnittliches Verhältnis zwischen gestreckten Samples, generiert durch audioreparatur, und standardsamples.  <br/> |
-|RatioCompressedSamplesAvg  <br/> |decimal(5,2)  <br/> |Durchschnittliches Verhältnis zwischen komprimierten Samples, generiert durch audioreparatur, und standardsamples.  <br/> |
-|RoundTrip  <br/> |int  <br/> |Roundtripzeit aus RTCP-Statistik.  <br/> |
-|RoundTripMax  <br/> |int  <br/> |Maximale Roundtripzeit für den Audiostream.  <br/> |
-|OverallAvgNetworkMOS  <br/> |decimal(3,2)  <br/> |Durchschnittliche Breitband-Netzwerk-MOS für den Anruf. Dieser Metrik hängt davon ab, die Paketverluste, Jitter und verwendeten Codecs. Werte sind 1.0 auf 5.0 ist.  <br/> |
-|OverallMinNetworkMOS  <br/> |decimal(3,2)  <br/> |Minimaler Breitband-Netzwerk-MOS für den Anruf.  <br/> |
-|SendListenMOS  <br/> |decimal(3,2)  <br/> |Durchschnittlicher vorhergesagter Breitband-Hör-MOS für gesendete Audios, einschließlich sprachpegel, Rauschen und aufnahmegerätmerkmale.  <br/> |
-|SendListenMOSMin  <br/> |decimal(3,2)  <br/> |Minimaler SendListenMOS für den Anruf.  <br/> |
-|RecvListenMOS  <br/> |decimal(3,2)  <br/> |Durchschnittlicher vorhergesagter Breitband-Hör-MOS für Audio empfangen aus dem Netzwerk, einschließlich sprachpegel, Rauschen, Codec, netzwerkbedingungen und aufnahmegerätmerkmale.  <br/> |
-|RecvListenMOSMin  <br/> |decimal(3,2)  <br/> |Minimaler RecvListenMOS für den Anruf.  <br/> |
-|AudioFECUsed  <br/> |bit  <br/> |Gibt an, ob audio-FEC für den Anruf verwendet wurde.  <br/> |
-|SenderIsCallerPAI  <br/> |bit  <br/> |Gibt die Richtung der p-asserted-identify-Information; 1 bedeutet, dass die streamrichtung vom Anrufer zum angerufenen verläuft; 0 bedeutet, dass die streamrichtung vom angerufenen zum Anrufer verläuft.  <br/> |
+|CallerIPAddr  <br/> |var (50)  <br/> |Die IP-Adresse des Anrufers. Hierbei kann es sich entweder um eine IPv4-oder eine IPv6-Adresse handeln.  <br/> |
+|CallerPort  <br/> |int  <br/> |Der vom Aufrufer verwendete Port.  <br/> |
+|CallerInside  <br/> |bit  <br/> |Gibt an, ob sich der Aufrufer innerhalb des Intervall Netzwerks befindet: 1 bedeutet, dass der Anrufer sich innerhalb des Unternehmensnetzwerks befindet, 0 bedeutet, dass sich der Anrufer außerhalb des Netzwerks befindet.  <br/> |
+|CalleeIPAddr  <br/> |var (50)  <br/> |Die IP-Adresse des aufgerufenen. Hierbei kann es sich entweder um eine IPv4-oder eine IPv6-Adresse handeln.  <br/> |
+|CalleePort  <br/> |int  <br/> |Port, der vom aufgerufenen verwendet wird.  <br/> |
+|CalleeInside  <br/> |bit  <br/> |Gibt an, ob sich der aufgerufene innerhalb des Intervall Netzwerks befindet: 1 bedeutet, dass der Anrufer sich innerhalb des Unternehmensnetzwerks befindet, 0 bedeutet, dass der Anrufer sich außerhalb des Netzwerks befindet.  <br/> |
+|CallerUserSite  <br/> |nvarchar (128)  <br/> |Der Name der Website des Anrufers.  <br/> |
+|CallerRegion  <br/> |nvarchar (128)  <br/> |Name des Landes/der Region der Website des Anrufers.  <br/> |
+|CalleeUserSite  <br/> |nvarchar (128)  <br/> |Name der Website des aufgerufenen.  <br/> |
+|CalleeRegion  <br/> |nvarchar (128)  <br/> |Name des Landes/der Region der Website des berufenen.  <br/> |
+|CallerRelayIPAddr  <br/> |var (50)  <br/> |Die IP-Adresse des A/V-Edgedienst, der vom Aufrufer verwendet wird. Weitere Informationen finden Sie in der [Tabelle IPAddress](ipaddress.md) . <br/> |
+|CallerRelayPort  <br/> |int  <br/> |Der Port des A/V-Edgedienst, der vom Aufrufer verwendet wird.  <br/> |
+|CalleeRelayIPAddr  <br/> |var (50)  <br/> |Der IP-Adressen Schlüssel des A/V-Edgedienst, der vom aufgerufenen verwendet wird. Weitere Informationen finden Sie in der [Tabelle IPAddress](ipaddress.md) . <br/> |
+|CalleeRelayPort  <br/> |int  <br/> |Port, der für den A/V-Edgedienst verwendet wird, der vom aufgerufenen verwendet wird.  <br/> |
+|CallerCaptureDev  <br/> |varchar (256)  <br/> |Name des Aufnahmegeräts des Anrufers.  <br/> |
+|CallerRenderDev  <br/> |varchar (256)  <br/> |Name des Render-Geräts des Anrufers.  <br/> |
+|CallerCaptureDevDriver  <br/> |varchar (256)  <br/> |Name des Aufnahmegeräte Treibers des Anrufers.  <br/> |
+|CallerRenderDriver  <br/> |varchar (256)  <br/> |Name des Render-Gerätetreibers des Anrufers.  <br/> |
+|CalleeCaptureDev  <br/> |varchar (256)  <br/> |Der Name des Erfassungsgeräts des Anrufers.  <br/> |
+|CalleeRenderDev  <br/> |varchar (256)  <br/> |Name des Render-Geräts.  <br/> |
+|CalleeCaptureDevDriver  <br/> |varchar (256)  <br/> |Der Name des Capture-Gerätetreibers des anrufempfängers.  <br/> |
+|CalleeRenderDevDriver  <br/> |varchar (256)  <br/> |Der Name des Render-Gerätetreibers des Benutzers.  <br/> |
+|CallerNetworkConnectionType  <br/> |tinyint  <br/> |Netzwerkverbindungstyp des Anrufers: 0 ist verkabelt, 1 ist drahtlos.  <br/> |
+|CallerVPN  <br/> |bit  <br/> |Gibt an, ob der Anrufer über ein virtuelles privates Netzwerk verbunden ist: 1 ist ein VPN (virtuelles privates Netzwerk), 0 ist kein VPN.  <br/> |
+|CallerLinkSpeed  <br/> |Decimal (18; 0)  <br/> |Netzwerkverbindungsgeschwindigkeit für den Endpunkt des Anrufers in BPS.  <br/> |
+|CalleeNetworkConnectionType  <br/> |tinyint  <br/> |Netzwerkverbindungstyp des anrufempfängers: 0 ist verkabelt, 1 ist drahtlos.  <br/> |
+|CalleeVPN  <br/> |bit  <br/> |Gibt an, ob der Anrufer über ein virtuelles privates Netzwerk verbunden ist: 1 ist ein VPN (virtuelles privates Netzwerk), 0 ist kein VPN.  <br/> |
+|CalleeLinkSpeed  <br/> |Decimal (18; 0)  <br/> |Netzwerkverbindungsgeschwindigkeit für den Endpunkt des aufgerufenen in BPS.  <br/> |
+|ConversationalMOS  <br/> |Dezimal (3; 2)  <br/> |Schmalband-Konversations-Mos der audiositzungen (basierend auf beiden Audiostreams).  <br/> |
+|AppliedBandwidthLimit  <br/> |int  <br/> |Tatsächliche Bandbreite, die auf den angegebenen Send-Seitenstrom angewendet wurde, wenn verschiedene Richtlinieneinstellungen angegeben wurden (Turn, API, SDP, Richtlinien Server usw.). Dies sollte nicht mit der effektiven Bandbreite verwechselt werden, da auf der Grundlage der Bandbreitenschätzung eine geringere effektive Bandbreite vorhanden sein kann. Dies ist im Grunde die maximale Bandbreite, die der sendedatenstrom sperren kann, wenn die Bandbreite geschätzt wird.  <br/> |
+|JitterInterArrival  <br/> |int  <br/> |Durchschnittlicher Netzwerk-Jitter aus RTCP-Statistiken (Real Time Control Protocol).  <br/> |
+|JitterInterArrivalMax  <br/> |int  <br/> |Maximaler Netzwerk Jitter während des Anrufs.  <br/> |
+|PacketLossRate  <br/> |Dezimal (5; 4)  <br/> |Durchschnittliche Paketverlustrate während des Anrufs.  <br/> |
+|PacketLossRateMax  <br/> |Dezimal (5; 4)  <br/> |Maximaler Paketverlust während des Anrufs.  <br/> |
+|BurstDensity  <br/> |Dezimal (9; 4)  <br/> |Durchschnittliche Dichte des Paketverlusts während des Ausbruchs von Verlusten während des Anrufs.  <br/> |
+|BurstDuration  <br/> |int  <br/> |Durchschnittliche Dauer des Paketverlusts während des Ausbruchs von Verlusten während des Anrufs.  <br/> |
+|BurstGapDensity  <br/> |Dezimal (9; 4)  <br/> |Durchschnittliche Dichte des Paketverlusts bei Lücken zwischen Bursts des Paketverlusts.  <br/> |
+|BurstGapDuration  <br/> |int  <br/> |Durchschnittliche Dauer von Lücken zwischen Bursts des Paketverlusts.  <br/> |
+|PacketUtilization  <br/> |int  <br/> |Die Anzahl der Pakete für den Audiostream.  <br/> |
+|Bandbreite  <br/> |int  <br/> |Bandbreiten Schätzungen für den Audiostream.  <br/> |
+|DegradationAvg  <br/> |Dezimal (3; 2)  <br/> |Netzwerk-Mos-Verschlechterung für den gesamten Anruf. Der Bereich ist 0,0 bis 5,0. Diese Metrik zeigt die Menge, die das Netzwerk Mos aufgrund von Jitter und Paketverlust reduziert wurde. Für akzeptable Qualität sollte es weniger als 0,5.  <br/> |
+|DegradationMax  <br/> |Dezimal (3; 2)  <br/> |Maximaler Netzwerk-Mos-Abbau während des Anrufs.  <br/> |
+|DegradationJitterAvg  <br/> |Dezimal (3; 2)  <br/> |Netzwerk-Mos-Beeinträchtigung durch Jitter.  <br/> |
+|DegradationPacketLossAvg  <br/> |Dezimal (3; 2)  <br/> |Netzwerk-Mos-Beeinträchtigung durch Paketverlust.  <br/> |
+|PayloadDescription  <br/> |int  <br/> |Der für den Anruf verwendete Audiocodec, auf den in der [PayloadDescription-Tabelle](payloaddescription.md)verwiesen wird.  <br/> |
+|AudioSampleRate  <br/> |int  <br/> |Abtastrate für den Audiostream.  <br/> |
+|CallerSendSignalLevel  <br/> |int  <br/> |Analoger Gain-Regler für Audio-Signalpegel für das Audiosignal, das der Anrufer gesendet hat. Die Einheit für diese Metrik lautet dBmo. Für akzeptable Qualität sollte es mindestens 30 dBmo. Diese Metrik wird vom A/V-Konferenz Server oder von IP-Telefonen nicht gemeldet.  <br/> |
+|CallerRecvSignalLevel  <br/> |int  <br/> |Audio-Signalpegel für das Audiosignal, das der Anrufer empfangen hat. Die Einheit für diese Metrik lautet dBmo. Für akzeptable Qualität sollte es mindestens 30 dBmo. Diese Metrik wird vom A/V-Konferenz Server oder von IP-Telefonen nicht gemeldet.  <br/> |
+|CallerSendNoiseLevel  <br/> |int  <br/> |Nach analoger Gain-Regler Audio-Rauschpegel für das Audiosignal, das der Anrufer gesendet hat. Die Einheit für diese Metrik lautet dBmo. Für akzeptable Qualität sollte es weniger als 35 dBmo. Diese Metrik wird vom A/V-Konferenz Server oder von IP-Telefonen nicht gemeldet.  <br/> |
+|CallerRecvNoiseLevel  <br/> |int  <br/> |Nach analoger Gain-Regler Audio-Rauschpegel für das Audiosignal, das der Anrufer empfangen hat. Die Einheit für diese Metrik lautet dBmo. Für akzeptable Qualität sollte es weniger als 35 dBmo. Diese Metrik wird vom A/V-Konferenz Server oder von IP-Telefonen nicht gemeldet.  <br/> |
+|CallerEchoReturn  <br/> |int  <br/> |Verbesserung der Echo-Rückerstattung für den Anrufer. Die Einheit für diese Metrik ist DB. Niedrigere Werte stellen weniger Echo dar. Diese Metrik wird vom A/V-Konferenz Server oder von IP-Telefonen nicht gemeldet.  <br/> |
+|CallerSpeakerGlitchRate  <br/> |int  <br/> |Durchschnittliche Störimpulse pro fünf Minuten für die Lautsprecher-Wiedergabe des Anrufers. Für eine gute Qualität sollte dies weniger als eins pro fünf Minuten sein. Nicht von A/V-Konferenzservern, Vermittlungsservern oder IP-Telefonen gemeldet.  <br/> |
+|CallerMicGlitchRate  <br/> |int  <br/> |Durchschnittliche Störimpulse pro fünf Minuten für die Mikrofonaufnahme des Anrufers. Für eine gute Qualität sollte dies weniger als eine pro fünf Minuten sein. Nicht von A/V-Konferenzservern, Vermittlungsservern oder IP-Telefonen gemeldet.  <br/> |
+|CallerTimestampDriftRateMic  <br/> |Dezimal (9; 2)  <br/> |Clock-Drift Rate des Anrufers im Verhältnis zur CPU-Uhr.  <br/> |
+|CallerTimestampDriftRateSpk  <br/> |Dezimal (9; 2)  <br/> |Clock-Drift Rate des Anrufers für das Lautsprecher Gerät relativ zur CPU-Uhr.  <br/> |
+|CallerTimestampErrorMicMs  <br/> |Dezimal (9; 2)  <br/> |Durchschnittlicher Zeitstempel des Mikrofon-Datenstroms in Millisekunden in den letzten 20 Sekunden des Anrufs.  <br/> |
+|CallerTimestampErrorSpkMs  <br/> |Dezimal (9; 2)  <br/> |Der Durchschnitt des Sprechers des Sprechers Render-Datenstrom Zeitstempel-Fehler in Millisekunden in den letzten 20 Sekunden des Anrufs.  <br/> |
+|CallerVsEntryCauses  <br/> |smallint  <br/> |Voice-Switch ist ein Halbduplex-Modus mit verminderter Unterbrechungs Fähigkeit. Weitere Informationen finden Sie in der [Tabelle medialinie](medialine-0.md) . <br/> |
+|CallerEchoEventCauses  <br/> |tinyint  <br/> |Ursachen für ein Echo Ereignis für den Aufrufer. Weitere Informationen finden Sie in der [Tabelle medialinie](medialine-0.md) . <br/> |
+|CallerEchoPercentMicIn  <br/> |Dezimal (5; 2)  <br/> |Prozentsatz der Zeit, zu der ECHO im Mikrofonaufnahme Datenstrom des Anrufers erkannt wird. Wenn Headset verwendet wird, sollte der Wert gering sein.  <br/> |
+|CallerEchoPercentSend  <br/> |Dezimal (5; 2)  <br/> |Prozentsatz der Zeit, zu der ECHO im gesendeten Datenstrom des Anrufers erkannt wird. Ein großer Prozentsatz des Echos in Send-Streams zeigt einen Hinweis auf Echo Verluste.  <br/> |
+|CallerRxAGCSignalLevel  <br/> |int  <br/> |Empfangene Signalstufe auf dem Vermittlungs Server vom Gateway für das Audiosignal des Anrufers; Dies gilt nur für den Vermittlungs Server. Die Einheit dieser Metrik ist dBoV. Für eine gute Qualität sollte der zulässige Bereich-30 bis-18 dBoV sein.  <br/> |
+|CallerRxAGCNoiseLevel  <br/> |int  <br/> |Empfangene Signalstufe auf dem Vermittlungs Server vom Gateway für das Audiosignal des Anrufers. Dies gilt nur für den Vermittlungs Server. Die Einheit dieser Metrik ist dBoV. Für eine gute Qualität sollte der zulässige Bereich kleiner als-50 dBoV sein.  <br/> |
+|CallerRxAGCGain  <br/> |int  <br/> |Automatische Gain-Steuerung (AGC) auf der Mediation Server-Seite, die auf das Audiosignal des Anrufers angewendet wurde.  <br/> |
+|CallerInitialSignalLevelRMS  <br/> |float  <br/> |Root Mean Square (RMS) des eingehenden Signals an den Anrufer für bis zu den ersten 30 Sekunden des Anrufs.  <br/> |
+|CalleeSendSignalLevel  <br/> |int  <br/> |Stellt die analogen Gain-Regler-Audiosignale für das Audiosignal dar, das der Anrufer gesendet hat. Die Einheit für diese Metrik lautet dBmo. Für akzeptable Qualität sollte es mindestens 30 dBmo. Diese Metrik wird vom A/V-Konferenz Server oder von IP-Telefonen nicht gemeldet.  <br/> |
+|CalleeRecvSignalLevel  <br/> |int  <br/> |Audiosignal Pegel für das Audiosignal, das der Anrufer empfangen hat. Die Einheit für diese Metrik lautet dBmo. Für akzeptable Qualität sollte es mindestens 30 dBmo. Diese Metrik wird vom A/V-Konferenz Server oder von IP-Telefonen nicht gemeldet.  <br/> |
+|CalleeSendNoiseLevel  <br/> |int  <br/> |Post-Analog-Gain-Regler Audio-Rauschpegel für das Audiosignal, das der Anrufer gesendet hat. Die Einheit für diese Metrik lautet dBmo. Für akzeptable Qualität sollte es weniger als 35 dBmo. Diese Metrik wird vom A/V-Konferenz Server oder von IP-Telefonen nicht gemeldet.  <br/> |
+|CalleeRecvNoiseLevel  <br/> |int  <br/> |Analoger Gain-Regler Audio-Rauschpegel für das Audiosignal, das der Anrufer empfangen hat. Die Einheit für diese Metrik lautet dBmo. Für akzeptable Qualität sollte es weniger als 35 dBmo. Diese Metrik wird vom A/V-Konferenz Server oder von IP-Telefonen nicht gemeldet.  <br/> |
+|CalleeEchoReturn  <br/> |int  <br/> |Verbesserung der Echo-Rückerstattung für den aufgerufenen. Die Einheit für diese Metrik ist DB. Niedrigere Werte stellen weniger Echo dar. Diese Metrik wird vom A/V-Konferenz Server oder von IP-Telefonen nicht gemeldet.  <br/> |
+|CalleeSpeakerGlitchRate  <br/> |int  <br/> |Durchschnittliche Störgeräusche pro fünf Minuten für die Lautsprecher-Darstellung des anrufenden. Für eine gute Qualität sollte dies weniger als eins pro fünf Minuten sein. Nicht von A/V-Konferenzservern, Vermittlungsservern oder IP-Telefonen gemeldet.  <br/> |
+|CalleeMicGlitchRate  <br/> |int  <br/> |Durchschnittliche Störimpulse pro fünf Minuten für die Mikrofonaufnahme des Anrufers. Für eine gute Qualität sollte dies weniger als eine pro fünf Minuten sein. Nicht von A/V-Konferenzservern, Vermittlungsservern oder IP-Telefonen gemeldet.  <br/> |
+|CalleeTimestampDriftRateMic  <br/> |Dezimal (9; 2)  <br/> |Abdriftrate des Mikrofon Geräts des Anrufers, relativ zu CPU-Takt.  <br/> |
+|CalleeTimestampDriftRateSpk  <br/> |Dezimal (9; 2)  <br/> |Clock-Drift Rate des Anrufers für das Lautsprecher Gerät relativ zur CPU-Uhr.  <br/> |
+|CalleeTimestampErrorMicMs  <br/> |Dezimal (9; 2)  <br/> |Durchschnittlicher Zeitstempel des Mikrofon-Datenstroms in Millisekunden in den letzten 20 Sekunden des Anrufs.  <br/> |
+|CalleeTimestampErrorSpkMs  <br/> |Dezimal (9; 2)  <br/> |Der Durchschnitt des Sprechers des Speaker-Render-Datenstrom Zeitstempels in Millisekunden in den letzten 20 Sekunden des Anrufs.  <br/> |
+|CalleeVsEntryCauses  <br/> |smallint  <br/> |Voice-Switch ist ein Halbduplex-Modus mit verminderter Unterbrechungs Fähigkeit. Weitere Informationen finden Sie in der [Tabelle medialinie](medialine-0.md) . <br/> |
+|CalleeEchoEventCauses  <br/> |tinyint  <br/> |Ursachen für ein Echo Ereignis für den aufgerufenen. Weitere Informationen finden Sie in der [Tabelle medialinie](medialine-0.md) . <br/> |
+|CalleeEchoPercentMicIn  <br/> |Dezimal (5; 2)  <br/> |Prozentsatz der Zeit, zu der ECHO im Mikrofonaufnahme Datenstrom des berufenen erkannt wird. Wenn Headset verwendet wird, sollte der Wert gering sein.  <br/> |
+|CalleeEchoPercentSend  <br/> |Dezimal (5; 2)  <br/> |Der Prozentsatz der Zeit, zu der ECHO im gesendeten Datenstrom des aufgerufenen erkannt wird. Ein großer Prozentsatz des Echos in Send-Streams zeigt einen Hinweis auf Echo Verluste.  <br/> |
+|CalleeRxAGCSignalLevel  <br/> |int  <br/> |Empfangene Signalstufe auf dem Vermittlungs Server vom Gateway für das Audio des berufenen; Dies gilt nur für den Vermittlungs Server. Die Einheit dieser Metrik ist dBoV. Für eine gute Qualität sollte der zulässige Bereich [-30 bis-18] dBoV sein.  <br/> |
+|CalleeRxAGCNoiseLevel  <br/> |int  <br/> |Empfangene Signalstufe auf dem Vermittlungs Server vom Gateway für das Audio des berufenen. Dies gilt nur für den Vermittlungs Server. Die Einheit dieser Metrik ist dBoV. Für eine gute Qualität sollte der zulässige Bereich kleiner als-50 dBoV sein.  <br/> |
+|CalleeRxAGCGain  <br/> |int  <br/> |Automatische Gain-Steuerung (AGC) auf der Mediation Server-Seite, die auf die Audiofunktion des berufenen angewendet wurde.  <br/> |
+|CalleeInitialSignalLevelRMS  <br/> |float  <br/> |Root Mean Square (RMS) des eingehenden Signals an den Anrufer für bis zu den ersten 30 Sekunden des Anrufs.  <br/> |
+|RatioConcealedSamplesAvg  <br/> |Dezimal (5; 2)  <br/> |Durchschnittliches Verhältnis der verborgenen Samples, die von der audioheilung an typische Samples generiert wurden.  <br/> |
+|RatioStretchedSamplesAvg  <br/> |Dezimal (5; 2)  <br/> |Durchschnittliches Verhältnis von gedehnten Samples, die von der audioheilung zu typischen Samples generiert wurden.  <br/> |
+|RatioCompressedSamplesAvg  <br/> |Dezimal (5; 2)  <br/> |Durchschnittliches Verhältnis von komprimierten Samples, die von der audioheilung zu typischen Samples generiert wurden.  <br/> |
+|RoundTrip  <br/> |int  <br/> |Roundtrip-Zeit von RTCP-Statistiken  <br/> |
+|RoundTripMax  <br/> |int  <br/> |Maximale Roundtrip-Zeit für den Audiostream.  <br/> |
+|OverallAvgNetworkMOS  <br/> |Dezimal (3; 2)  <br/> |Durchschnittliche Breitband-Netzwerk-Mos für den Anruf. Diese Metrik hängt vom verwendeten Paketverlust, Jitter und Codec ab. Der Bereich ist 1,0 bis 5,0.  <br/> |
+|OverallMinNetworkMOS  <br/> |Dezimal (3; 2)  <br/> |Minimale Breitband-Netzwerk-Mos für den Anruf.  <br/> |
+|SendListenMOS  <br/> |Dezimal (3; 2)  <br/> |Durchschnittliche vorhergesagte Breitband-Abhör-Mos-Bewertung für gesendete Audiodaten, einschließlich Sprachniveau, Geräuschpegel und Aufnahmegeräte Eigenschaften.  <br/> |
+|SendListenMOSMin  <br/> |Dezimal (3; 2)  <br/> |Minimale SendListenMOS für den Anruf.  <br/> |
+|RecvListenMOS  <br/> |Dezimal (3; 2)  <br/> |Durchschnittlicher prognostizierter breitbandiger Abhör-Mos-Score für vom Netzwerk empfangene Audiosignale, einschließlich Sprachpegel, Geräuschpegel, Codec, Netzwerkbedingungen und Merkmale des Aufnahmegeräts.  <br/> |
+|RecvListenMOSMin  <br/> |Dezimal (3; 2)  <br/> |Minimale RecvListenMOS für den Anruf.  <br/> |
+|AudioFECUsed  <br/> |bit  <br/> |Gibt an, ob Audio FEC für den Anruf verwendet wurde.  <br/> |
+|SenderIsCallerPAI  <br/> |bit  <br/> |Gibt die Richtung der p-Assert-identifizier Informationen an; 1 bedeutet, dass die Datenstrom Richtung vom Anrufer an den aufgerufenen erfolgt; 0 bedeutet, dass die Datenstrom Richtung vom aufgerufenen zum Aufrufer ist.  <br/> |
    
 

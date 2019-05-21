@@ -1,10 +1,10 @@
 ---
-title: Installieren der Dateien für den Vermittlungsserver in Skype für Business Server
+title: Installieren der Dateien für den Vermittlungsserver in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,34 +13,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
-description: 'Zusammenfassung: Informationen Sie zum Installieren der Dateien für den Vermittlungsserver in Skype für Business Server.'
-ms.openlocfilehash: 0f4428007f3506f0e3193d390441bf83301a47a6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Dateien für den Vermittlungsserver in Skype for Business Server installieren.'
+ms.openlocfilehash: 8ecd5b20f7f3dfac625851c94f313a50fa71af29
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892328"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299443"
 ---
-# <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>Installieren der Dateien für den Vermittlungsserver in Skype für Business Server
+# <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>Installieren der Dateien für den Vermittlungsserver in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zum Installieren der Dateien für den Vermittlungsserver in Skype für Business Server.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie die Dateien für den Vermittlungsserver in Skype for Business Server installieren.
   
 Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie mindestens als lokaler Administrator beim Server angemeldet sein und ein Domänenbenutzerkonto verwenden, das mindestens Mitglied der Gruppe „RTCUniversalReadOnlyAdmins“ ist.
   
-Verwenden Sie die Schritte in diesem Thema ausführen Skype für Business Server-Bereitstellungs-Assistenten zum Installieren der Dateien für den Vermittlungsserver auf einem Computer, die Sie in einen Pool Mediation Server hinzugefügt haben, nachdem Sie der Topologie-Generator zum Definieren und veröffentlichen den Pool verwendet haben. Bei der Installation von Dateien Mediation Server auch installieren und Zuweisen des Zertifikats von jedem Computer in einem Pool Mediation Server erforderlich. 
+Führen Sie die Schritte in diesem Thema aus, um den Assistenten für die Bereitstellung von Skype for Business Server auszuführen, um die Dateien für den Vermittlungsserver auf einem Computer zu installieren, den Sie einem vermittlungsserverpool hinzugefügt haben, nachdem Sie den Pool mithilfe des Topologie-Generators definiert und veröffentlicht haben. Wenn Sie den Mediationsserver für Dateien installieren, können Sie auch das für jeden Computer in einem vermittlungsserverpool erforderliche Zertifikat installieren und zuweisen. 
   
 > [!NOTE]
-> In diesem Thema wird davon ausgegangen, dass Sie bereits einen eigenständigen vermittlungsserverpool in Ihrer Topologie veröffentlicht und definiert, wie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server](deploy-a-mediation-server.md)beschrieben. 
+> In diesem Thema wird davon ausgegangen, dass Sie bereits einen eigenständigen vermittlungsserverpool in Ihrer Topologie definiert und veröffentlicht haben, wie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server](deploy-a-mediation-server.md)beschrieben. 
   
 ### <a name="to-install-the-files-for-a-stand-alone-mediation-server-pool"></a>So installieren Sie die Dateien für einen eigenständigen Vermittlungsserverpool
 
-1. Dem Installationsmedium mit der rechten Maustaste _ \<-Installationsmedium\> _ **\Setup\amd64\Setup.exe**, und klicken Sie dann auf **als Administrator ausführen**.
+1. Klicken Sie auf dem Installationsmedium mit der rechten Maustaste auf _ \<Installationsmedien\> _ **\Setup\amd64\Setup.exe**, und klicken Sie dann auf **als Administrator ausführen**.
     
 2. Klicken Sie auf der Seite **Installationsspeicherort** auf **OK**.
     
 3. Klicken Sie auf der Seite **Endbenutzer-Lizenzvertrag** auf **Ich stimme zu** und klicken Sie anschließend auf **OK**. (Dieser Schritt ist erforderlich, um fortfahren zu können.)
     
-4. Klicken Sie auf der Seite **Skype für Business Server-Bereitstellungs-Assistenten** auf **installieren oder aktualisieren Skype für Business Server-System**.
+4. Klicken Sie auf der Seite des **Skype for Business Server** -Bereitstellungs-Assistenten auf **Skype for Business Server System installieren oder aktualisieren**.
     
 5. Klicken Sie neben **Schritt 1: Lokalen Konfigurationsspeicher installieren** auf **Ausführen** und folgen Sie den Anweisungen auf dem Bildschirm.
     
@@ -48,7 +48,7 @@ Verwenden Sie die Schritte in diesem Thema ausführen Skype für Business Server
     
 7. Wenn der Taskstatus auf der Seite **Befehle ausführen** als **Abgeschlossen** angezeigt wird, klicken Sie auf **Fertig stellen**.
     
-8. Neben **Schritt2: Einrichten oder Entfernen von Skype für Business Server-Komponenten**, klicken Sie auf **Ausführen**, und klicken Sie dann auf **Weiter**.
+8. Klicken Sie neben **Schritt 2: Einrichten oder Entfernen von Skype for Business Server-Komponenten**auf **Ausführen**, und klicken Sie dann auf **weiter**.
     
 9. Wenn der Taskstatus auf der Seite **Befehle ausführen** als **Abgeschlossen** angezeigt wird, klicken Sie auf **Fertig stellen**.
     
@@ -58,7 +58,7 @@ Verwenden Sie die Schritte in diesem Thema ausführen Skype für Business Server
     
 12. Wenn **Schritt 4** erfolgreich abgeschlossen wurde, starten Sie den Server neu und melden Sie sich als Mitglied der Gruppe „Domänen-Admins“ an.
     
-13. Auf dem Computer, auf dem Sie Skype Business Server-Systemsteuerung ausführen, vergewissern Sie sich auf der Seite **Topologie** von Skype Business Server-Systemsteuerung, die der Status des Vermittlungsservers als ein grünes Häkchen angezeigt werden. Wenn ein rotes X angezeigt wird, wählen Sie den Vermittlungsserver aus. Klicken Sie im Menü **Aktion** auf **Alle Dienste starten**. 
+13. Überprüfen Sie auf dem Computer, auf dem Sie die Skype for Business Server-Systemsteuerung ausführen, auf der Seite **Topologie** des Skype for Business Server Control Panels, dass der Dienststatus des Vermittlungsservers als grünes Häkchen angezeigt wird. Wenn ein rotes X angezeigt wird, wählen Sie den Vermittlungsserver aus. Klicken Sie im Menü **Aktion** auf **Alle Dienste starten**. 
     
-Wenn Sie mehrere Computer auf den Pool Mediation Server hinzugefügt haben, führen Sie die Schritte aus, in diesem Verfahren auf allen anderen Computern im Pool Vermittlungsserver. Wenn Sie keine Dateien für den Vermittlungsserver für alle anderen Computern installieren müssen, führen Sie die Verfahren in [Configure-Trunks in Skype für Business Server](configure-trunks.md) konfigurieren Sie Einstellungen für die trunkverbindung zwischen diesen Mediation Server-Pool (oder alle Vermittlungsserver Server an einem Standort) und seinen Peer.
+Wenn Sie dem vermittlungsserverpool mehr als einen Computer hinzugefügt haben, führen Sie die Schritte in diesem Verfahren auf allen anderen Computern im vermittlungsserverpool aus. Wenn Sie keine Dateien für den Vermittlungsserver für andere Computer installieren müssen, führen Sie die Verfahren unter [Konfigurieren von Trunks in Skype for Business Server](configure-trunks.md) aus, um die Einstellungen für die trunk-Verbindung zwischen diesem vermittlungsserverpool zu konfigurieren (oder aller Mediation Server an einer Website) und deren Peer.
 

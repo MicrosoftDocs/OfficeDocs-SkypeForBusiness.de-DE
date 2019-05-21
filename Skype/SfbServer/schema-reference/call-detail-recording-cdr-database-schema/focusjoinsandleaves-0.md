@@ -5,41 +5,41 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
-description: FocusJoinsAndLeaves-Ansicht speichert Informationen zu Join und lassen Sie Informationen für eine Konferenz. Jede Konferenz wird in dieser Ansicht durch einen Datensatz geschrieben, wenn ein Benutzer verknüpft und die Konferenz verlässt dargestellt. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 3565a9bfbcfd735e4ba6b16facd8e0c88abd4a13
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: In der FocusJoinsAndLeaves-Ansicht werden Informationen zu Join-und Leave-Informationen für eine Konferenz gespeichert. Jede Konferenz wird in dieser Ansicht durch einen Datensatz dargestellt, der jedes Mal geschrieben wird, wenn ein Benutzer eine Konferenz anschließt und verlässt. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
+ms.openlocfilehash: f739ae390b636913d96b49dd516d2618c72515e6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901180"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296217"
 ---
 # <a name="focusjoinsandleaves-view"></a>FocusJoinsAndLeaves-Ansicht
  
-FocusJoinsAndLeaves-Ansicht speichert Informationen zu Join und lassen Sie Informationen für eine Konferenz. Jede Konferenz wird in dieser Ansicht durch einen Datensatz geschrieben, wenn ein Benutzer verknüpft und die Konferenz verlässt dargestellt. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
+In der FocusJoinsAndLeaves-Ansicht werden Informationen zu Join-und Leave-Informationen für eine Konferenz gespeichert. Jede Konferenz wird in dieser Ansicht durch einen Datensatz dargestellt, der jedes Mal geschrieben wird, wenn ein Benutzer eine Konferenz anschließt und verlässt. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Zeitpunkt des Konferenz-Instanz. Zusammen mit SessionIdSeq verwendet zur eindeutigen Identifizierung eine Konferenz-Instanz. [Conferences-Tabelle in Skype für Business Server 2015](conferences.md) Weitere Informationen finden Sie. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |ID-Nummer zum Identifizieren der Konferenz-Instanz. In Verbindung mit SessionIdTime verwendet, um eine Instanz der Konferenz eindeutig zu identifizieren. [Conferences-Tabelle in Skype für Business Server 2015](conferences.md) Weitere Informationen finden Sie. <br/> |
-|**UserUri** <br/> |nvarchar(450)  <br/> |Der URI des Benutzers, dessen Konferenz beitreten/verlassen erfasst wurden.  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |Typ der URI des Benutzers, dessen Konferenz beitreten/verlassen erfasst wurden. Finden Sie weitere Informationen der [UriTypes-Tabelle](uritypes.md) . <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Mandant des Benutzers, dessen Konferenz beitreten/verlassen erfasst wurden. Finden Sie weitere Informationen der [Tenants-Tabelle](tenants.md) . <br/> |
-|**UserEndpointId** <br/> |uniqueidentifier  <br/> |Eindeutiger Bezeichner des Benutzers, dessen Konferenz beitreten/verlassen erfasst wurden.  <br/> |
-|**UserClientVersion** <br/> |nvarchar(256)  <br/> |Version des Client des Benutzers, dessen Konferenz beitreten/verlassen erfasst wurden.  <br/> |
-|**UserClientType** <br/> |int  <br/> |Client des Benutzers, dessen Konferenz beitreten/verlassen erfasst wurden. Einzelheiten finden Sie unter [UserAgentDef-Tabelle](useragentdef.md) . <br/> |
-|**UserClientCategory** <br/> |nvarchar(64)  <br/> |Name der Kategorie des Clients des Benutzers, dessen Konferenz beitreten/verlassen erfasst wurden.  <br/> |
+|**SessionID** <br/> |datetime  <br/> |Uhrzeit der Konferenz Instanz. Wird in Verbindung mit SessionIdSeq verwendet, um eine Konferenz Instanz eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle "Konferenzen" in Skype for Business Server 2015](conferences.md) . <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Die ID-Nummer zum Identifizieren der Konferenz Instanz. Wird in Verbindung mit SessionID-Mal verwendet, um eine Konferenz Instanz eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle "Konferenzen" in Skype for Business Server 2015](conferences.md) . <br/> |
+|**UserUri** <br/> |nvarchar (450)  <br/> |Der URI des Benutzers, dessen Konferenz beitreten/Leave-Informationen erfasst wurden.  <br/> |
+|**UserUriType** <br/> |nvarchar(256)  <br/> |Der Typ des URIs des Benutzers, dessen Konferenz beitreten/Leave-Informationen erfasst wurden. Weitere Informationen finden Sie in der [UriTypes-Tabelle](uritypes.md) . <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Der Mandant des Benutzers, dessen Konferenz beitreten/Leave-Informationen erfasst wurde. Weitere Informationen finden Sie in der [Tabelle Mandanten](tenants.md) . <br/> |
+|**UserEndpointId** <br/> |uniqueidentifier  <br/> |Eindeutiger Bezeichner des Benutzers, dessen Konferenz beitreten/Leave-Informationen erfasst wurden.  <br/> |
+|**UserClientVersion** <br/> |nvarchar(256)  <br/> |Die Version des Clients, die von dem Benutzer verwendet wurde, dessen Konferenz beitreten/Leave-Informationen erfasst wurden.  <br/> |
+|**UserClientType** <br/> |int  <br/> |Der Client, der von dem Benutzer verwendet wird, dessen Konferenz beitreten/Leave-Informationen erfasst wurde. Weitere Informationen finden Sie unter [UserAgentDef-Tabelle](useragentdef.md) . <br/> |
+|**UserClientCategory** <br/> |nvarchar (64)  <br/> |Name der Kategorie des Clients, die von dem Benutzer verwendet wird, dessen Konferenz teilnehmen/-Abwesenheitsinformationen erfasst wurden.  <br/> |
 |**FocusUserInstance** <br/> |int  <br/> ||
-|**IsuserInternal** <br/> |bit  <br/> |Bitwert, der angibt, ob der Benutzer ein interner Benutzer oder nicht ist.  <br/> |
-|**DialogSessionIdTime** <br/> |datetime  <br/> |Zeitpunkt der sitzungsanforderung. Zusammen mit SessionIdSeq verwendet zur eindeutigen Identifizierung eine Sitzung. Finden Sie unter der [Dialogs-Tabelle in Skype für Business Server 2015](dialogs.md) Weitere Informationen. <br/> |
-|**DialogSessionIdSeq** <br/> |int  <br/> |Wenn ein Benutzer auf mehreren Computern oder Geräten gleichzeitig angemeldet ist, wird UserInstance verwendet, um die Benutzer/Geräte-Kombination eindeutig zu identifizieren.  <br/> |
-|**Dialog-ID** <br/> |varchar(775)  <br/> |SIP-Dialog-ID der Sitzung. Das Format lautet: Dialogfeld; aus Tag; zu Tag.  <br/> |
-|**UserJoinTime** <br/> |datetime  <br/> |Die Zeit, der Benutzer an der Konferenz Teil.  <br/> |
-|**UserLeaveTime** <br/> |datetime  <br/> |Die Zeit, die der Benutzer die Konferenz verlassen.  <br/> |
-|**UserRole** <br/> |nvarchar(256)  <br/> |Rolle des Benutzers bei der Konferenz, wie etwa Referent oder Teilnehmer.  <br/> |
+|**IsuserInternal** <br/> |bit  <br/> |Bit, das darstellt, ob der Benutzer ein interner Benutzer ist oder nicht.  <br/> |
+|**DialogSessionIdTime** <br/> |datetime  <br/> |Uhrzeit der Sitzungsanforderung. Wird in Verbindung mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle Dialogfelder in Skype for Business Server 2015](dialogs.md) . <br/> |
+|**DialogSessionIdSeq** <br/> |int  <br/> |Wenn ein Benutzer gleichzeitig an mehreren Computern oder Geräten angemeldet ist, wird UserInstance verwendet, um die Kombination aus Benutzer und Gerät eindeutig zu identifizieren.  <br/> |
+|**Dialogfeld-Nr** <br/> |varchar (775)  <br/> |SIP-Dialogfeld-ID der Sitzung. Das Format lautet: Dialogfeld; from-Tag; to-Tag.  <br/> |
+|**UserJoinTime** <br/> |datetime  <br/> |Uhrzeit, zu der der Benutzer der Konferenz beigetreten ist.  <br/> |
+|**UserLeaveTime** <br/> |datetime  <br/> |Der Zeitpunkt, zu dem der Benutzer die Konferenz verlassen hat.  <br/> |
+|**UserRole** <br/> |nvarchar(256)  <br/> |Rolle des Benutzers in der Konferenz, beispielsweise Referent oder Teilnehmer.  <br/> |
    
 

@@ -1,28 +1,28 @@
 ---
-title: Benutzerfreundlichkeit während des Ausfalls eines Pools in Skype für Business Server
+title: Benutzerfreundlichkeit während eines Pool Fehlers in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
-description: Erfahren Sie, was Benutzer fest, wenn ein Front-End-Pool ein Failover oder wieder während der notfallwiederherstellung in Skype für Business Server fällt aus.
-ms.openlocfilehash: de272ec6bc45a005a56c3e16385f7bcc292c8a1a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Informieren Sie sich, welche Benutzer beim Failover eines Front-End-Pools oder bei einer Wiederherstellung des notfalls in Skype for Business Server auftreten.
+ms.openlocfilehash: cc8ea8c51bebcffdbf0873f2f1a355cd648b6df0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903047"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297232"
 ---
-# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Benutzerfreundlichkeit während des Ausfalls eines Pools in Skype für Business Server
+# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Benutzerfreundlichkeit während eines Pool Fehlers in Skype for Business Server
  
-Erfahren Sie, was Benutzer fest, wenn ein Front-End-Pool ein Failover oder wieder während der notfallwiederherstellung in Skype für Business Server fällt aus.
+Informieren Sie sich, welche Benutzer beim Failover eines Front-End-Pools oder bei einer Wiederherstellung des notfalls in Skype for Business Server auftreten.
   
-Wenn für einen Pool ein Failover vorgenommen wurde, werden alle Benutzer im betroffenen Pool gezwungen, sich abzumelden und sich beim Sicherungspool anzumelden. Für einen kurzen Zeitraum befinden sich die Benutzer, die sich am Sicherungspool anmelden, möglicherweise im Ausfallsicherheitsmodus. Im Ausfallsicherheitsmodus ist können Benutzer nicht auf Aufgaben, bei denen eine beständige Änderung auf Skype für Business Server führen würde beispielsweise das Hinzufügen eines Kontakts. Nachdem das Failover abgeschlossen wurde, können alle Benutzer alle Dienste vom Sicherungspool beziehen.
+Wenn für einen Pool ein Failover vorgenommen wurde, werden alle Benutzer im betroffenen Pool gezwungen, sich abzumelden und sich beim Sicherungspool anzumelden. Für einen kurzen Zeitraum befinden sich die Benutzer, die sich am Sicherungspool anmelden, möglicherweise im Ausfallsicherheitsmodus. Im Resilienz-Modus können Benutzer keine Aufgaben ausführen, die zu einer dauerhaften Änderung auf Skype for Business Server führen, wie etwa das Hinzufügen eines Kontakts. Nachdem das Failover abgeschlossen wurde, können alle Benutzer alle Dienste vom Sicherungspool beziehen.
   
 Sämtliche Anrufe, Besprechungen oder Gespräche, über die ein Benutzer verfügt, während ein Pool ausfällt, werden unterbrochen, und der Benutzer muss diese Sitzungen wiederherstellen, um nach dem Failover fortzufahren.
   
