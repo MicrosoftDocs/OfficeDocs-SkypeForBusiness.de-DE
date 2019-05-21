@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -19,28 +19,28 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
-description: Finden Sie unter welche Probleme mit Sonderzeichen im Namen von Richtlinien und was Sie tun können sind, um es zu beheben.
-ms.openlocfilehash: 12d89c4956b2d076f7279506ccf32737d18d50e0
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+description: Sehen Sie sich die Probleme mit Sonderzeichen in den Namen der Richtlinien an, und was Sie tun können, um Sie zu beheben.
+ms.openlocfilehash: 03858de420cf77f8a8088f86c8c5feae5828c21a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632234"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298602"
 ---
-# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a><span data-ttu-id="a1956-103">Welche Beschränkungen gelten für Sonderzeichen in den Microsoft Teams-Richtlinien?</span><span class="sxs-lookup"><span data-stu-id="a1956-103">What are the special character restrictions in Teams policies?</span></span>
+# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a><span data-ttu-id="a84ea-103">Welche Beschränkungen gelten für Sonderzeichen in den Microsoft Teams-Richtlinien?</span><span class="sxs-lookup"><span data-stu-id="a84ea-103">What are the special character restrictions in Teams policies?</span></span>
 
-<span data-ttu-id="a1956-104">**Sie können nicht erstellt oder Richtlinien bearbeiten (für messaging, Besprechungen, usw.), die ein Sonderzeichen den Namen in der Microsoft-Teams, Administrator haben, zentriert**.</span><span class="sxs-lookup"><span data-stu-id="a1956-104">**You can't create or edit policies (for messaging, meetings, etc.) that have a special character in the name in the Microsoft Teams admin center**.</span></span> 
+<span data-ttu-id="a84ea-104">**Sie können keine Richtlinien (für Nachrichten, Besprechungen usw.) erstellen oder bearbeiten, die im Namen des Microsoft Teams admin Centers ein Sonderzeichen enthalten**.</span><span class="sxs-lookup"><span data-stu-id="a84ea-104">**You can't create or edit policies (for messaging, meetings, etc.) that have a special character in the name in the Microsoft Teams admin center**.</span></span> 
 
-<span data-ttu-id="a1956-105">Wenn ein Richtlinienname Sonderzeichen enthält, werden Sie bei der Verwaltung diese Richtlinien in der Verwaltungskonsole von Microsoft-Teams, eingeschränkt werden.</span><span class="sxs-lookup"><span data-stu-id="a1956-105">If a policy name contains special characters, you will be limited in managing these policies in the Microsoft Teams admin center.</span></span> <span data-ttu-id="a1956-106">**Daher wird dringend empfohlen, Richtliniennamen keine Sonderzeichen enthalten**.</span><span class="sxs-lookup"><span data-stu-id="a1956-106">**As such, we strongly recommend that policy names don't include special characters**.</span></span> 
+<span data-ttu-id="a84ea-105">Wenn ein Richtlinienname Sonderzeichen enthält, sind Sie im Microsoft Teams Admin Center auf die Verwaltung dieser Richtlinien limitiert.</span><span class="sxs-lookup"><span data-stu-id="a84ea-105">If a policy name contains special characters, you will be limited in managing these policies in the Microsoft Teams admin center.</span></span> <span data-ttu-id="a84ea-106">Daher **wird nachdrücklich empfohlen, dass Richtliniennamen keine Sonderzeichen enthalten**.</span><span class="sxs-lookup"><span data-stu-id="a84ea-106">**As such, we strongly recommend that policy names don't include special characters**.</span></span> 
 
-<span data-ttu-id="a1956-107">Richtliniennamen, die von PowerShell für Besprechungen und messaging in Teams können Sonderzeichen wie haben erstellt wurden @, #, $.</span><span class="sxs-lookup"><span data-stu-id="a1956-107">Policy names that have been created using PowerShell for meetings and messaging in Teams can have special characters such as @,#,$.</span></span> <span data-ttu-id="a1956-108">Jedoch, wenn Sie die Richtlinie in der Verwaltungskonsole von Microsoft-Teams ändern möchte, Sie kann nicht zu werden.</span><span class="sxs-lookup"><span data-stu-id="a1956-108">However, if you are wanting to make changes to the policy in the Microsoft Teams admin center,you won't be able to.</span></span> 
+<span data-ttu-id="a84ea-107">Richtliniennamen, die mit PowerShell für Besprechungen und Nachrichten in Teams erstellt wurden, können Sonderzeichen wie @, #, $ aufweisen.</span><span class="sxs-lookup"><span data-stu-id="a84ea-107">Policy names that have been created using PowerShell for meetings and messaging in Teams can have special characters such as @,#,$.</span></span> <span data-ttu-id="a84ea-108">Wenn Sie jedoch Änderungen an der Richtlinie im Microsoft Teams Admin Center vornehmen möchten, ist dies nicht möglich.</span><span class="sxs-lookup"><span data-stu-id="a84ea-108">However, if you are wanting to make changes to the policy in the Microsoft Teams admin center,you won't be able to.</span></span> 
 
-<span data-ttu-id="a1956-109">Wenn Sie eine Richtlinie mit Sonderzeichen haben, müssen Sie entweder die Richtlinie mithilfe von Windows PowerShell (unbegrenzt) bearbeiten oder erstellen Sie eine neue Richtlinie in der Microsoft-Teams-Verwaltungskonsole mit denselben Einstellungen wie die alte Richtlinie und die gleiche Gruppe von Benutzern zuweisen.</span><span class="sxs-lookup"><span data-stu-id="a1956-109">If you have a policy with special characters, you will need to either edit the policy using Windows PowerShell (forever) or create a new policy in the Microsoft Teams admin center with the same settings as the old policy and assign it to the same group of users.</span></span>
+<span data-ttu-id="a84ea-109">Wenn Sie über eine Richtlinie mit Sonderzeichen verfügen, müssen Sie entweder die Richtlinie mit Windows PowerShell (für immer) bearbeiten oder eine neue Richtlinie im Microsoft Teams Admin Center mit den gleichen Einstellungen wie die alte Richtlinie erstellen und der gleichen Benutzergruppe zuweisen.</span><span class="sxs-lookup"><span data-stu-id="a84ea-109">If you have a policy with special characters, you will need to either edit the policy using Windows PowerShell (forever) or create a new policy in the Microsoft Teams admin center with the same settings as the old policy and assign it to the same group of users.</span></span>
 
-## <a name="to-remove-special-characters"></a><span data-ttu-id="a1956-110">So entfernen Sonderzeichen</span><span class="sxs-lookup"><span data-stu-id="a1956-110">To remove special characters</span></span>
+## <a name="to-remove-special-characters"></a><span data-ttu-id="a84ea-110">So entfernen Sie Sonderzeichen</span><span class="sxs-lookup"><span data-stu-id="a84ea-110">To remove special characters</span></span>
 
-<span data-ttu-id="a1956-111">**Schritt 1: Stellen Sie eine Remoteverbindung mit PowerShell.** 
- [Einrichten des Computers für Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , falls Sie noch nicht getan haben.</span><span class="sxs-lookup"><span data-stu-id="a1956-111">**Step 1 - Make a remote connection with PowerShell.**
+<span data-ttu-id="a84ea-111">**Schritt 1: Erstellen einer Remoteverbindung mit PowerShell** 
+ [Richten Sie Ihren Computer für Windows PowerShell ein](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , wenn Sie dies noch nicht getan haben.</span><span class="sxs-lookup"><span data-stu-id="a84ea-111">**Step 1 - Make a remote connection with PowerShell.**
 [Set up your computer for Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) if you haven't yet.</span></span>
 ```
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
@@ -50,61 +50,61 @@ ms.locfileid: "33632234"
 ```
 
 
-<span data-ttu-id="a1956-112">**Schritt 2 – die Einstellungen für die alte Richtlinie erhalten möchten, und erfassen Sie die Ausgabe.**</span><span class="sxs-lookup"><span data-stu-id="a1956-112">**Step 2 - Get the settings for the old policy and capture the output.**</span></span>
+<span data-ttu-id="a84ea-112">**Schritt 2: Abrufen der Einstellungen für die alte Richtlinie und Aufzeichnen der Ausgabe.**</span><span class="sxs-lookup"><span data-stu-id="a84ea-112">**Step 2 - Get the settings for the old policy and capture the output.**</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a1956-113">In diesem Beispiel wird für eine [Messaging](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) -Richtlinie.</span><span class="sxs-lookup"><span data-stu-id="a1956-113">This example is for a [Messaging](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) policy.</span></span>  <span data-ttu-id="a1956-114">Die Schritte wäre für andere Richtlinientypen identisch, aber Sie müssen das richtige-Cmdlet verwenden.</span><span class="sxs-lookup"><span data-stu-id="a1956-114">The steps would be the same for other policy types but you must use the correct cmdlet.</span></span> 
+> <span data-ttu-id="a84ea-113">In diesem Beispiel handelt es sich um eine [Messaging](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) Richtlinie.</span><span class="sxs-lookup"><span data-stu-id="a84ea-113">This example is for a [Messaging](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) policy.</span></span>  <span data-ttu-id="a84ea-114">Die Schritte wären für andere Richtlinientypen identisch, aber Sie müssen das richtige Cmdlet verwenden.</span><span class="sxs-lookup"><span data-stu-id="a84ea-114">The steps would be the same for other policy types but you must use the correct cmdlet.</span></span> 
 
   ```
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
   ```
 
 
-<span data-ttu-id="a1956-115">**Schritt 3: Erstellen einer neuen Richtlinie.**</span><span class="sxs-lookup"><span data-stu-id="a1956-115">**Step 3 - Create a new policy.**</span></span>
+<span data-ttu-id="a84ea-115">**Schritt 3 – Erstellen einer neuen Richtlinie**</span><span class="sxs-lookup"><span data-stu-id="a84ea-115">**Step 3 - Create a new policy.**</span></span>
 
-<span data-ttu-id="a1956-116">Sie können entweder die neue Richtlinie mit der gleichen Einstellung erstellen, mithilfe der Microsoft-Teams, Administrationscenter oder PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a1956-116">You can either create the new policy with the same setting by using the Microsoft Teams admin center or PowerShell.</span></span>
+<span data-ttu-id="a84ea-116">Sie können entweder die neue Richtlinie mit der gleichen Einstellung erstellen, indem Sie das Microsoft Teams Admin Center oder PowerShell verwenden.</span><span class="sxs-lookup"><span data-stu-id="a84ea-116">You can either create the new policy with the same setting by using the Microsoft Teams admin center or PowerShell.</span></span>
 
-<span data-ttu-id="a1956-117">Mit dieser wird eine neue Richtlinie für Sie erstellen, aber Sie müssen die richtigen Einstellungen hinzufügen, indem Sie [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) anzeigen, und klicken Sie dann ausführen:</span><span class="sxs-lookup"><span data-stu-id="a1956-117">Running this will create a new policy for you but you will need to add the correct settings by seeing [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) and then running it:</span></span>
+<span data-ttu-id="a84ea-117">Wenn Sie dies ausführen, wird eine neue Richtlinie für Sie erstellt, aber Sie müssen die richtigen Einstellungen hinzufügen, indem Sie [CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) anzeigen und dann ausführen:</span><span class="sxs-lookup"><span data-stu-id="a84ea-117">Running this will create a new policy for you but you will need to add the correct settings by seeing [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) and then running it:</span></span>
 
   ```
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
  ```
-<span data-ttu-id="a1956-118">**Schritt 4: Zuweisen der Richtlinie.**</span><span class="sxs-lookup"><span data-stu-id="a1956-118">**Step 4 - Assign the policy.**</span></span>
+<span data-ttu-id="a84ea-118">**Schritt 4: Zuweisen der Richtlinie**</span><span class="sxs-lookup"><span data-stu-id="a84ea-118">**Step 4 - Assign the policy.**</span></span>
  ```
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-<span data-ttu-id="a1956-119">Finden Sie unter [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) für Weitere Informationen zu diesem Cmdlet.</span><span class="sxs-lookup"><span data-stu-id="a1956-119">See, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) for more information on this cmdlet.</span></span>
+<span data-ttu-id="a84ea-119">Weitere Informationen zu diesem Cmdlet finden Sie unter [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) .</span><span class="sxs-lookup"><span data-stu-id="a84ea-119">See, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) for more information on this cmdlet.</span></span>
 
-<span data-ttu-id="a1956-120">**Schritt 5: Löschen Sie die alte Richtlinie.**</span><span class="sxs-lookup"><span data-stu-id="a1956-120">**Step 5 - Delete the old policy.**</span></span>
+<span data-ttu-id="a84ea-120">**Schritt 5: Löschen der alten Richtlinie**</span><span class="sxs-lookup"><span data-stu-id="a84ea-120">**Step 5 - Delete the old policy.**</span></span>
 
-<span data-ttu-id="a1956-121">Dadurch wird die alte Richtlinie mit Sonderzeichen gelöscht.</span><span class="sxs-lookup"><span data-stu-id="a1956-121">This will delete the old policy with the special characters.</span></span>
+<span data-ttu-id="a84ea-121">Dadurch wird die alte Richtlinie mit den Sonderzeichen gelöscht.</span><span class="sxs-lookup"><span data-stu-id="a84ea-121">This will delete the old policy with the special characters.</span></span>
   ```
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-<span data-ttu-id="a1956-122">Finden Sie unter [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) für Weitere Informationen zu diesem Cmdlet.</span><span class="sxs-lookup"><span data-stu-id="a1956-122">See, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) for more information on this cmdlet.</span></span>
+<span data-ttu-id="a84ea-122">Weitere Informationen zu diesem Cmdlet finden Sie unter [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) .</span><span class="sxs-lookup"><span data-stu-id="a84ea-122">See, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) for more information on this cmdlet.</span></span>
 
-<span data-ttu-id="a1956-123">Wenn dieser Befehl erfolgreich ist wird, sind Sie fertig.</span><span class="sxs-lookup"><span data-stu-id="a1956-123">If this command succeeds, you're done.</span></span> <span data-ttu-id="a1956-124">Wenn Sie der oben aufgeführten Befehl einen Fehler zurückgibt, ist es, da die alte Richtlinie Benutzern zugewiesen ist, Sie ausführen, um alle zugewiesenen Benutzer aus der Richtlinie zu entfernen müssen:</span><span class="sxs-lookup"><span data-stu-id="a1956-124">If the above command returns an error, it is because the old policy is assigned to users so you need to run to remove all assigned users from the policy:</span></span>
+<span data-ttu-id="a84ea-123">Wenn dieser Befehl erfolgreich ausgeführt wird, sind Sie fertig.</span><span class="sxs-lookup"><span data-stu-id="a84ea-123">If this command succeeds, you're done.</span></span> <span data-ttu-id="a84ea-124">Wenn der obige Befehl einen Fehler zurückgibt, liegt dies daran, dass die alte Richtlinie Benutzern zugewiesen ist, damit Sie alle zugewiesenen Benutzer aus der Richtlinie entfernen müssen:</span><span class="sxs-lookup"><span data-stu-id="a84ea-124">If the above command returns an error, it is because the old policy is assigned to users so you need to run to remove all assigned users from the policy:</span></span>
 
 ```
 Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
-### <a name="want-to-know-how-to-manage-with-windows-powershell"></a><span data-ttu-id="a1956-125">Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?</span><span class="sxs-lookup"><span data-stu-id="a1956-125">Want to know how to manage with Windows PowerShell?</span></span>
+### <a name="want-to-know-how-to-manage-with-windows-powershell"></a><span data-ttu-id="a84ea-125">Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?</span><span class="sxs-lookup"><span data-stu-id="a84ea-125">Want to know how to manage with Windows PowerShell?</span></span>
 
-<span data-ttu-id="a1956-p105">Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="a1956-p105">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+<span data-ttu-id="a84ea-p105">Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="a84ea-p105">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="a1956-129">Warum müssen Sie Office 365 PowerShell verwenden?</span><span class="sxs-lookup"><span data-stu-id="a1956-129">Why you need to use Office 365 PowerShell?</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="a84ea-129">Warum müssen Sie Office 365 PowerShell verwenden?</span><span class="sxs-lookup"><span data-stu-id="a84ea-129">Why you need to use Office 365 PowerShell?</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [<span data-ttu-id="a1956-130">Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="a1956-130">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="a84ea-130">Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="a84ea-130">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- <span data-ttu-id="a1956-131">Windows PowerShell hat viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität über nur über das Microsoft 365 Administrationscenter, beispielsweise wenn Sie Einstellungen Änderungen für viele Benutzer gleichzeitig durchführen.</span><span class="sxs-lookup"><span data-stu-id="a1956-131">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as when you are making settings changes for many users at one time.</span></span> <span data-ttu-id="a1956-132">Learn about these advantages in the following topics:</span><span class="sxs-lookup"><span data-stu-id="a1956-132">Learn about these advantages in the following topics:</span></span>
+- <span data-ttu-id="a84ea-131">Windows PowerShell bietet zahlreiche Vorteile bei der Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Änderungen an den Einstellungen vornehmen.</span><span class="sxs-lookup"><span data-stu-id="a84ea-131">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as when you are making settings changes for many users at one time.</span></span> <span data-ttu-id="a84ea-132">Learn about these advantages in the following topics:</span><span class="sxs-lookup"><span data-stu-id="a84ea-132">Learn about these advantages in the following topics:</span></span>
     
-  - [<span data-ttu-id="a1956-133">Einführung in Windows PowerShell und Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="a1956-133">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [<span data-ttu-id="a84ea-133">Einführung in Windows PowerShell und Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="a84ea-133">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-    [<span data-ttu-id="a1956-134">Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="a1956-134">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
+    [<span data-ttu-id="a84ea-134">Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="a84ea-134">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [<span data-ttu-id="a1956-135">Verwenden von Windows PowerShell zum Ausführen häufiger Skype for Business Online-Verwaltungsaufgaben</span><span class="sxs-lookup"><span data-stu-id="a1956-135">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [<span data-ttu-id="a84ea-135">Verwenden von Windows PowerShell zum Ausführen häufiger Skype for Business Online-Verwaltungsaufgaben</span><span class="sxs-lookup"><span data-stu-id="a84ea-135">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > <span data-ttu-id="a1956-136">Das Windows PowerShell-Modul für Skype für Business Online können Sie eine remote Windows PowerShell-Sitzung zu erstellen, die mit Skype für Business Online und Microsoft-Teams, eine Verbindung herstellt.</span><span class="sxs-lookup"><span data-stu-id="a1956-136">The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online and Microsoft Teams.</span></span> <span data-ttu-id="a1956-137">Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.</span><span class="sxs-lookup"><span data-stu-id="a1956-137">This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)</span></span>
+    > <span data-ttu-id="a84ea-136">Mit dem Windows PowerShell-Modul für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, die eine Verbindung mit Skype for Business Online und Microsoft Teams herstellt.</span><span class="sxs-lookup"><span data-stu-id="a84ea-136">The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online and Microsoft Teams.</span></span> <span data-ttu-id="a84ea-137">Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.</span><span class="sxs-lookup"><span data-stu-id="a84ea-137">This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)</span></span>
   
 
