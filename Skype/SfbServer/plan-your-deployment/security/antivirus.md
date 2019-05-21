@@ -1,42 +1,42 @@
 ---
-title: Virenscan Ausschlüsse für Skype für Business Server
+title: Ausschlüsse für Antivirus-Scans für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
-description: Übersicht über Antivirusscanner Interoperation mit Skype für Business Server.
-ms.openlocfilehash: 13b6b7af9003a24f0932eb1c61cef8e11326adf1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Übersicht über die Interoperabilität des Antivirus-Scanners mit Skype for Business Server.
+ms.openlocfilehash: 9ec13b31328744bb154c9eb5e09dff7665c4b540
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888100"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296973"
 ---
-# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Virenscan Ausschlüsse für Skype für Business Server
+# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Ausschlüsse für Antivirus-Scans für Skype for Business Server
 
-Übersicht über Antivirusscanner Interoperation mit Skype für Business Server.
+Übersicht über die Interoperabilität des Antivirus-Scanners mit Skype for Business Server.
 
-Dieser Artikel enthält Empfehlungen, die dazu beitragen können ein Administrator die Ursache des potenzielle instabil auf einem Computer, auf dem eine unterstützte Version von Microsoft Windows ausgeführt wird, wenn sie mithilfe von Antivirensoftware in einer Active Directory-Domäne verwendet wird Umgebung oder in einer verwalteten geschäftsumgebung.
+Dieser Artikel enthält Empfehlungen, die einem Administrator helfen können, die Ursache einer potenziellen Instabilität auf einem Computer zu ermitteln, auf dem eine unterstützte Version von Microsoft Windows ausgeführt wird, wenn diese mit Antivirensoftware in einer Active Directory-Domäne verwendet wird. Umgebung oder in einer verwalteten Unternehmensumgebung.
 
-Es wird empfohlen, dass Sie diese Verfahren zum Auswerten von einem System vorübergehend anwenden. Wenn die Systemleistung oder Stabilität durch die Empfehlungen deutlich verbessert, die in diesem Artikel vorgenommen werden, Hersteller Ihrer Antivirensoftware Anweisungen oder eine aktualisierte Version der Software.
+Wir empfehlen, diese Verfahren vorübergehend zur Auswertung eines Systems anzuwenden. Wenn sich die Leistung oder Stabilität Ihres Systems durch die Empfehlungen in diesem Artikel verbessert hat, wenden Sie sich an den Hersteller Ihrer Antivirensoftware, um Anweisungen oder eine aktualisierte Version der Antivirensoftware zu erhalten.
 
-Dieser Artikel enthält Informationen, die zeigt, wie untere Sicherheitseinstellungen Hilfe oder Sicherheitsfeatures auf einem Computer vorübergehend zu deaktivieren. Sie können diese Änderungen zu verstehen, die Art der eines bestimmten Problems vornehmen. Bevor Sie diese Änderungen vornehmen, wird empfohlen, dass Sie bewerten die Risiken, die diese Lösung in Ihrer speziellen Umgebung implementieren zugeordnet sind. Wenn Sie diese Lösung implementieren, führen Sie entsprechenden Maßnahmen zum Schutz von dem Computer für die Dateien, die nicht mehr von Antivirensoftware gescannt werden.
+Dieser Artikel enthält Informationen, die zeigen, wie Sie die Sicherheitseinstellungen verringern oder wie Sie Sicherheitsfunktionen vorübergehend auf einem Computer deaktivieren können. Sie können diese Änderungen vornehmen, um die Art eines bestimmten Problems zu verstehen. Bevor Sie diese Änderungen vornehmen, empfehlen wir, dass Sie die Risiken bewerten, die mit der Implementierung dieser Problemumgehung in ihrer jeweiligen Umgebung verbunden sind. Wenn Sie diese Problemumgehung implementieren, führen Sie alle geeigneten zusätzlichen Schritte aus, um den Computer für die Dateien zu schützen, die von Ihrer Antivirensoftware nicht mehr gescannt werden.
 
-Um sicherzustellen, dass die Antivirusscanner nicht mit dem Betrieb des Skype für Business Server beeinträchtigt, müssen Sie bestimmte Prozesse und Verzeichnisse ausschließen, für jeden Skype für Business Server-Server oder Serverrolle auf dem Sie einen Antivirenscanner ausgeführt. Die folgenden Prozesse und Verzeichnisse sollten ausgeschlossen werden:
+Um sicherzustellen, dass der Virenscanner den Betrieb von Skype for Business Server nicht stört, müssen Sie bestimmte Prozesse und Verzeichnisse für jeden Skype for Business Server-Server oder jede Serverrolle ausschließen, auf der Sie einen Antivirus-Scanner ausführen. Die folgenden Prozesse und Verzeichnisse sollten ausgeschlossen werden:
 
 > [!NOTE]
-> Unten aufgeführten sind Ordner und Datei die Standardspeicherorte für Skype für Business Server. Falls Sie andere Speicherorte als die Standardspeicherorte verwendet haben, schließen Sie statt der hier aufgeführten Standardspeicherorte die Speicherorte aus, die Sie für Ihre Organisation angegeben haben.
+> Die nachstehend aufgeführten Ordner-und Dateispeicherorte sind die Standardspeicherorte für Skype for Business Server. Falls Sie andere Speicherorte als die Standardspeicherorte verwendet haben, schließen Sie statt der hier aufgeführten Standardspeicherorte die Speicherorte aus, die Sie für Ihre Organisation angegeben haben.
 
 > [!IMPORTANT]
 > Beachten Sie, dass einige Virenschutzprogramme für ihre Ausschlussliste anstelle von relativen möglicherweise absolute Pfade benötigen.
 
-- Skype für Business Server-Prozesse:
+- Skype for Business Server-Prozesse:
 
   - ABServer.exe
 
@@ -60,7 +60,7 @@ Um sicherzustellen, dass die Antivirusscanner nicht mit dem Betrieb des Skype f�
 
   - IMMCUSvc.exe
   
-  - LyncBackupService.exe
+  - LyncBackupService. exe
 
   - LysSvc.exe
 
@@ -130,7 +130,7 @@ Um sicherzustellen, dass die Antivirusscanner nicht mit dem Betrieb des Skype f�
   - %systemroot%\Microsoft.NET\assembly\GAC_MSIL
 
     > [!NOTE]
-    > Beachten Sie, dass diese Pfade für Business Server-Version für Skype spezifisch sind.
+    > Beachten Sie, dass diese Pfade speziell für die Skype for Business Server-Version sind.
 
   - %programfiles%\Skype for Business Server 2015
 
@@ -146,6 +146,6 @@ Um sicherzustellen, dass die Antivirusscanner nicht mit dem Betrieb des Skype f�
 
   - SQL Server-Daten und -Protokolldateien, u. a. für die Back-End-Datenbank, den Benutzer-, Archivierungs-, Überwachungs- und den Anwendungsspeicher. Datenbank- und Protokolldateien können im Topologie-Generator angegeben werden. Ausführliche Informationen zu den Daten- und Protokolldateien für jede Datenbank, einschließlich Standardnamen, finden Sie unter [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) in der Bereitstellungsdokumentation.
 
-  - SQL Server Daten- und Protokolldateien-Dateien, einschließlich derer, für die Front-End-Datenbank, Skype für Business Store und RtcDatabase Store. Sie sind normalerweise unter % localdrive%\CSData.
+  - SQL Server-Daten-und-Protokolldateien, einschließlich derer für die Front-End-Datenbank, den Skype for Business-Store und den RtcDatabase-Store. Sie befinden sich normalerweise unter%LocalDrive%\CSData.
 
 

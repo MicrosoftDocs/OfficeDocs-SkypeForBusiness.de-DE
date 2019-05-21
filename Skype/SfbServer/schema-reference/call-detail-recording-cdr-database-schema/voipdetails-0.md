@@ -5,35 +5,35 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 7/15/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
-description: Jeder Datensatz steht für einen Aufruf von zwei Teilnehmern in der mindestens ein Benutzer einen VoIP-Benutzer ist.
-ms.openlocfilehash: e29cfe19ec8c478215c8dd011a8479de5e18c18c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Jeder Datensatz steht für 1 2-Party-Anrufe, bei denen mindestens ein Nutzer ein VoIP-Nutzer ist.
+ms.openlocfilehash: 7f0be2fb2f14e34cbe989d5912db1f66d3d65d18
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929959"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295678"
 ---
 # <a name="voipdetails-table"></a>VoipDetails-Tabelle
  
-Jeder Datensatz steht für einen Aufruf von zwei Teilnehmern in der mindestens ein Benutzer einen VoIP-Benutzer ist.
+Jeder Datensatz steht für 1 2-Party-Anrufe, bei denen mindestens ein Nutzer ein VoIP-Nutzer ist.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Primary  <br/> |Zeitpunkt der sitzungsanforderung. Zusammen mit **SessionIdSeq** verwendet zur eindeutigen Identifizierung eine Sitzung. Finden Sie unter der [Dialogs-Tabelle in Skype für Business Server 2015](dialogs.md) Weitere Informationen. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primary  <br/> |ID-Nummer, um die Sitzung zu identifizieren. In Verbindung mit **SessionIdTime** verwendet, um eine Sitzung eindeutig zu identifizieren. Finden Sie unter der [Dialogs-Tabelle in Skype für Business Server 2015](dialogs.md) Weitere Informationen. <br/> |
-|**FromNumberId** <br/> |int  <br/> |Ausländisch  <br/> |**PhoneId** des Anrufers. Finden Sie weitere Informationen der [Phones-Tabelle](phones.md) . Wenn nicht NULL und **FromGatewayId** ist nicht NULL, wurde der Anrufer eine PSTN-Benutzer. <br/> |
-|**ConnectedNumberId** <br/> |int  <br/> |Ausländisch  <br/> |**PhoneId** , der den Empfänger des Anrufs. Finden Sie weitere Informationen der [Phones-Tabelle](phones.md) . Wenn nicht NULL und **ToGatewayId** ist nicht NULL, wurde der Empfänger des Anrufs eine PSTN-Benutzer. <br/> |
-|**FromMediationServerId** <br/> |int  <br/> |Ausländisch  <br/> |Der Vermittlungsserver den Anruf stammt. Finden Sie weitere Informationen den [MediationServers-Tabelle](mediationservers.md) . <br/> |
-|**ToMediationServerId** <br/> |int  <br/> |Ausländisch  <br/> |Der Vermittlungsserver aufgerufen wird, sollte. Finden Sie weitere Informationen den [MediationServers-Tabelle](mediationservers.md) . <br/> |
-|**FromGatewayId** <br/> |int  <br/> |Ausländisch  <br/> |Gateway der Anruf stammt. [Gateways-Tabelle in Skype für Business Server 2015](gateways.md) Weitere Informationen finden Sie. <br/> |
-|**ToGatewayId** <br/> |int  <br/> |Ausländisch  <br/> |Gateway der Anruf wird zu übertragen. [Gateways-Tabelle in Skype für Business Server 2015](gateways.md) Weitere Informationen finden Sie. <br/> |
-|**DisconnectedbyURIId** <br/> |int  <br/> |Ausländisch  <br/> |Der URI des Benutzers, der den Anruf getrennt, wenn der Benutzer einen URI verfügt. Finden Sie in der [Tabelle Benutzer](users.md) Weitere Informationen. <br/> |
-|**DisconnectedbyPhoneId** <br/> |int  <br/> |Ausländisch  <br/> |ID des Telefons, die der Anruf beendet wurde von einem Telefon getrennt. Finden Sie weitere Informationen der [Phones-Tabelle](phones.md) . <br/> |
-|**ZuletztGeändertUm** <br/> |DateTime  <br/> ||Für die interne Verwendung durch den Überwachungsdienst.  <br/> Dieses Feld wurde in Skype für Business Server 2015 eingeführt.  <br/> |
+|**SessionID** <br/> |datetime  <br/> |Primary  <br/> |Uhrzeit der Sitzungsanforderung. Wird in Verbindung mit **SessionIdSeq** verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle Dialogfelder in Skype for Business Server 2015](dialogs.md) . <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primary  <br/> |Die ID-Nummer, um die Sitzung zu identifizieren. Wird in Verbindung mit **SessionID** -Mal verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle Dialogfelder in Skype for Business Server 2015](dialogs.md) . <br/> |
+|**FromNumberId** <br/> |int  <br/> |Fremd  <br/> |**Telefonnummer** des Anrufers. Weitere Informationen finden Sie in der [Tabelle Telefone](phones.md) . Wenn nicht NULL und **FromGatewayId** nicht NULL ist, war der Aufrufer ein PSTN-Benutzer. <br/> |
+|**ConnectedNumberId** <br/> |int  <br/> |Fremd  <br/> |**Telefonnummer** des anrufempfängers. Weitere Informationen finden Sie in der [Tabelle Telefone](phones.md) . Wenn nicht NULL und **togateway** -Nr NULL ist, war der Anrufempfänger ein PSTN-Benutzer. <br/> |
+|**FromMediationServerId** <br/> |int  <br/> |Fremd  <br/> |Der Vermittlungs Server, aus dem der Anruf kommt. Weitere Informationen finden Sie in der [MediationServers-Tabelle](mediationservers.md) . <br/> |
+|**ToMediationServerId** <br/> |int  <br/> |Fremd  <br/> |Der Vermittlungs Server wird aufgerufen. Weitere Informationen finden Sie in der [MediationServers-Tabelle](mediationservers.md) . <br/> |
+|**FromGatewayId** <br/> |int  <br/> |Fremd  <br/> |Gateway, aus dem der Anruf kommt. Weitere Informationen finden Sie [in der Tabelle Gateways in Skype for Business Server 2015](gateways.md) . <br/> |
+|**Togatewayservernummer** <br/> |int  <br/> |Fremd  <br/> |Gateway, an das der Anruf geht. Weitere Informationen finden Sie [in der Tabelle Gateways in Skype for Business Server 2015](gateways.md) . <br/> |
+|**DisconnectedbyURIId** <br/> |int  <br/> |Fremd  <br/> |Der URI des Benutzers, der den Anruf getrennt hat, wenn der Benutzer über einen URI verfügt. Weitere Informationen finden Sie in der [Tabelle "Benutzer](users.md) ". <br/> |
+|**DisconnectedbyPhoneId** <br/> |int  <br/> |Fremd  <br/> |Die ID des Telefons, das den Anruf getrennt hat, wurde von einem Telefon getrennt. Weitere Informationen finden Sie in der [Tabelle Telefone](phones.md) . <br/> |
+|**LastModifiedTime** <br/> |DateTime  <br/> ||Für die interne Verwendung durch den Überwachungsdienst.  <br/> Dieses Feld wurde in Skype for Business Server 2015 eingeführt.  <br/> |
    
 

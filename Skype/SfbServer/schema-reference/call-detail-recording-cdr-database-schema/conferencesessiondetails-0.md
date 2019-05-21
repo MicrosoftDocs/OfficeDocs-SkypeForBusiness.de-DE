@@ -1,61 +1,61 @@
 ---
-title: ConferenceSessionDetails-Tabelle in Skype für Business Server 2015
+title: ConferenceSessionDetails-Tabelle in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 7/15/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
-description: Jeder Datensatz steht für eine konferenzsitzung, der die Sitzung mit Konferenzzustandsobjekt oder die Sitzung mit einem spezifischen Konferenzserver werden konnte.
-ms.openlocfilehash: 4b64745ef191e3ab7fcffc91bcc6588c5826fa8c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Jeder Datensatz stellt eine Konferenzsitzung dar, bei der es sich entweder um die Sitzung mit dem Fokus oder um die Sitzung mit einem bestimmten Konferenzserver handeln kann.
+ms.openlocfilehash: 40216d159c9d52dcf8c22f7fe7b915255ed0f741
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901202"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296441"
 ---
-# <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>ConferenceSessionDetails-Tabelle in Skype für Business Server 2015
+# <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>ConferenceSessionDetails-Tabelle in Skype for Business Server 2015
  
-Jeder Datensatz steht für eine konferenzsitzung, der die Sitzung mit Konferenzzustandsobjekt oder die Sitzung mit einem spezifischen Konferenzserver werden konnte.
+Jeder Datensatz stellt eine Konferenzsitzung dar, bei der es sich entweder um die Sitzung mit dem Fokus oder um die Sitzung mit einem bestimmten Konferenzserver handeln kann.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |DateTime  <br/> |Primär, Fremd  <br/> |Zeitpunkt der sitzungsanforderung; zusammen mit **SessionIdSeq** verwendet zur eindeutigen Identifizierung eine konferenzsitzung. Finden Sie unter der [Dialogs-Tabelle in Skype für Business Server 2015](dialogs.md) Weitere Informationen. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primär, Fremd  <br/> |ID-Nummer, um die Sitzung zu identifizieren. In Verbindung mit **SessionIdTime** verwendet, um eine konferenzsitzung eindeutig zu identifizieren. Finden Sie unter der [Dialogs-Tabelle in Skype für Business Server 2015](dialogs.md) Weitere Informationen. * <br/> |
-|**ConferenceUriId** <br/> |int  <br/> |Ausländisch  <br/> |Konferenz-URI für den Fokus im Zusammenhang mit dieser Sitzung. [ConferenceUris-Tabelle in Skype für Business Server 2015](conferenceuris.md) Weitere Informationen finden Sie. Dieser URI ist ein Konferenzzustandsobjekten basierenden Konferenz-URI. <br/> |
-|**ConfInstance** <br/> |uniqueIdentifier  <br/> ||Bezeichner, der zwischen Instanzen von sich wiederholenden Konferenzen unterscheidet. Jede Instanz der wiederkehrende Konferenz hat die gleichen ConferenceURI jedoch ein anderer Wert ConfInstance.  <br/> Dieses Feld wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**McuConferenceUriId** <br/> |int  <br/> |Ausländisch  <br/> |Conferencing Server Konferenz URI im Zusammenhang mit dieser Sitzung. [ConferenceUris-Tabelle in Skype für Business Server 2015](conferenceuris.md) Weitere Informationen finden Sie. Dieser URI ist die Conferencing Server-basierten Konferenz-URI. Für den Fokus konferenzsitzungen wird diese Spalte null sein. <br/> |
-|**Benutzer-ID** <br/> |int  <br/> |Ausländisch  <br/> |Die ID eines Benutzers in der Sitzung. Finden Sie in der [Tabelle Benutzer](users.md) Weitere Informationen. <br/> |
-|**UserEndpointId** <br/> |uniqueidentifier  <br/> ||Eine GUID zum Identifizieren der Instanz des Endpunkts. Beispielsweise wenn ein Benutzer auf verschiedenen Computern mit demselben Konto anmeldet, wird dann jedes Computers eine anderen Endpunkt-ID aufweisen.  <br/> |
-|**OnBehalfOfId** <br/> |int  <br/> |Ausländisch  <br/> |Gibt die ID des Benutzers, die der Anrufer in Namen ist. Finden Sie in der [Tabelle Benutzer](users.md) Weitere Informationen. <br/> |
-|**ReferredById** <br/> |int  <br/> |Ausländisch  <br/> |ID des Benutzers, die der Anruf verweist. Finden Sie in der [Tabelle Benutzer](users.md) Weitere Informationen. <br/> |
-|**UserClientVersionId** <br/> |int  <br/> |Ausländisch  <br/> |Clientversion des Benutzers Konferenz. [ClientVersions-Tabelle in Skype für Business Server 2015](clientversions.md) Weitere Informationen finden Sie. <br/> |
-|**ConfClientVersionId** <br/> |int  <br/> |Ausländisch  <br/> |Clientversion vom Konferenzserver verwendet werden. [ClientVersions-Tabelle in Skype für Business Server 2015](clientversions.md) Weitere Informationen finden Sie. <br/> |
-|**ReplaceDialogIdTime** <br/> |datetime  <br/> |Ausländisch  <br/> |ID-Nummer im Dialogfeld bestimmt, die durch die aktuelle Sitzung ausgetauscht wurde. Finden Sie unter der [Dialogs-Tabelle in Skype für Business Server 2015](dialogs.md) Weitere Informationen. <br/> |
-|**ReplaceDialogIdSeq** <br/> |int  <br/> |Ausländisch  <br/> |ID-Nummer, um die Sitzung zu identifizieren. In Verbindung mit **ReplacesDialogIdTime** verwendet, um eine Sitzung eindeutig zu identifizieren, die von dieser Sitzung ersetzt wird. Finden Sie unter der [Dialogs-Tabelle in Skype für Business Server 2015](dialogs.md) Weitere Informationen. <br/> |
-|**IsStartedByConfServer** <br/> |bit  <br/> ||Gibt an, ob die Sitzung gestartet, durch die Conferencing Server hat.  <br/> |
+|**SessionID** <br/> |DateTime  <br/> |Primär, fremd  <br/> |Uhrzeit der Sitzungsanforderung; wird in Verbindung mit **SessionIdSeq** verwendet, um eine Konferenzsitzung eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle Dialogfelder in Skype for Business Server 2015](dialogs.md) . <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primär, fremd  <br/> |Die ID-Nummer, um die Sitzung zu identifizieren. Wird in Verbindung mit **SessionID** -Mal verwendet, um eine Konferenzsitzung eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle Dialogfelder in Skype for Business Server 2015](dialogs.md) . * <br/> |
+|**ConferenceUriId** <br/> |int  <br/> |Fremd  <br/> |Fokus Konferenz-URI, der sich auf diese Sitzung bezieht. Weitere Informationen finden Sie [in der Tabelle ConferenceUris in Skype for Business Server 2015](conferenceuris.md) . Dieser URI ist ein Fokus basierter Konferenz-URI. <br/> |
+|**ConfInstance** <br/> |uniqueIdentifier  <br/> ||Bezeichner, der zwischen Instanzen von wiederkehrenden Konferenzen unterscheidet. Jede wiederkehrende Konferenz Instanz hat dieselbe ConferenceURI, aber einen anderen ConfInstance-Wert.  <br/> Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
+|**McuConferenceUriId** <br/> |int  <br/> |Fremd  <br/> |Konferenzserver-Konferenz-URI, der sich auf diese Sitzung bezieht. Weitere Informationen finden Sie [in der Tabelle ConferenceUris in Skype for Business Server 2015](conferenceuris.md) . Dieser URI ist der Konferenz-serverbasierte Konferenz-URI. Für Konferenzsitzungen mit Fokus ist diese Spalte NULL. <br/> |
+|**UserID** <br/> |int  <br/> |Fremd  <br/> |Die ID eines Benutzers in der Konferenzsitzung. Weitere Informationen finden Sie in der [Tabelle "Benutzer](users.md) ". <br/> |
+|**UserEndpointId** <br/> |uniqueidentifier  <br/> ||Eine GUID zum Identifizieren der Instanz des Endpunkts. Wenn sich ein Benutzer beispielsweise an verschiedenen Computern mit demselben Konto anmeldet, verfügt jeder Computer über eine andere Endpunkt-ID.  <br/> |
+|**OnBehalfOfId** <br/> |int  <br/> |Fremd  <br/> |Gibt die ID des Benutzers an, der der Anrufer im Auftrag ist. Weitere Informationen finden Sie in der [Tabelle "Benutzer](users.md) ". <br/> |
+|**ReferredById** <br/> |int  <br/> |Fremd  <br/> |Die ID des Benutzers, auf den der Anruf verweist. Weitere Informationen finden Sie in der [Tabelle "Benutzer](users.md) ". <br/> |
+|**UserClientVersionId** <br/> |int  <br/> |Fremd  <br/> |Vom Konferenzbenutzer verwendete Client Version. Weitere Informationen finden Sie [in der Tabelle ClientVersions in Skype for Business Server 2015](clientversions.md) . <br/> |
+|**ConfClientVersionId** <br/> |int  <br/> |Fremd  <br/> |Client Version, die vom Konferenzserver verwendet wird. Weitere Informationen finden Sie [in der Tabelle ClientVersions in Skype for Business Server 2015](clientversions.md) . <br/> |
+|**ReplaceDialogIdTime** <br/> |datetime  <br/> |Fremd  <br/> |Die ID-Nummer, die das Dialogfeld identifiziert, das durch die aktuelle Sitzung ersetzt wurde. Weitere Informationen finden Sie [in der Tabelle Dialogfelder in Skype for Business Server 2015](dialogs.md) . <br/> |
+|**ReplaceDialogIdSeq** <br/> |int  <br/> |Fremd  <br/> |Die ID-Nummer, um die Sitzung zu identifizieren. Wird in Verbindung mit **ReplacesDialogIdTime** verwendet, um eine Sitzung, die durch diese Sitzung ersetzt wird, eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle Dialogfelder in Skype for Business Server 2015](dialogs.md) . <br/> |
+|**IsStartedByConfServer** <br/> |bit  <br/> ||Gibt an, ob die Sitzung vom Konferenz Server gestartet wurde.  <br/> |
 |**IsEndedByConfServer** <br/> |bit  <br/> ||Gibt an, ob die Sitzung vom Konferenzserver beendet wurde.  <br/> |
-|**IsUserInternal** <br/> |bit  <br/> ||Gibt an, ob Benutzer von innerhalb oder nicht angemeldet ist.  <br/> |
-|**ResponseCode** <br/> |int  <br/> ||Session Initiation Protocol (SIP) Antwortcode auf die sitzungseinladung. In diesem Feld wird in der Regel durch aus der ersten INVITE-Nachricht in der Sitzung generierte Daten aufgefüllt. Wenn keine INVITE-Nachricht vorhanden ist, wird das Feld mit Datum und Uhrzeit der ersten relevanten SIP-Nachricht (BYE, Abbrechen, Nachricht oder INFO) aufgefüllt.  <br/> |
-|**DiagnosticId** <br/> |int  <br/> ||Diagnose-ID vom SIP-Header.  <br/> |
-|**ServerId** <br/> |int  <br/> |Ausländisch  <br/> |ID des Front-End-Servers für diese Sitzung verwendet. Finden Sie weitere Informationen der [Server-Tabelle](servers.md) . <br/> |
-|**PoolId** <br/> |int  <br/> |Ausländisch  <br/> |ID des Pools, in der die Sitzung erfasst wurde. Finden Sie weitere Informationen der [Pools-Tabelle](pools.md) . <br/> |
-|**MediationServerId** <br/> |int  <br/> |Ausländisch  <br/> |Der Vermittlungsserver den Anruf verwendet. Finden Sie weitere Informationen den [MediationServers-Tabelle](mediationservers.md) . <br/> |
-|**GatewayId** <br/> |int  <br/> |Ausländisch  <br/> |Das Gateway der Anruf wird verwendet. [Gateways-Tabelle in Skype für Business Server 2015](gateways.md) Weitere Informationen finden Sie. <br/> |
-|**EdgeServerId** <br/> |int  <br/> |Ausländisch  <br/> |Der Edge-Server den Anruf verwendet. [EdgeServers-Tabelle in Skype für Business Server 2015](edgeservers.md) Weitere Informationen finden Sie. <br/> |
-|**ContentTypeId** <br/> |int  <br/> |Ausländisch  <br/> |Inhaltstyp in der Sitzung verwendet. Finden Sie in der [ContentTypes-Tabelle in Skype für Business Server 2015](contenttypes.md) Weitere Informationen. <br/> |
-|**InviteTime** <br/> |datetime  <br/> ||Der Zeitpunkt der ersten INVITE-Anforderung. In diesem Feld wird in der Regel durch aus der ersten INVITE-Nachricht in der Sitzung generierte Daten aufgefüllt. Wenn keine INVITE-Nachricht vorhanden ist, wird das Feld mit Datum und Uhrzeit der ersten relevanten SIP-Nachricht (BYE, Abbrechen, Nachricht oder INFO) aufgefüllt.  <br/> |
-|**ResponseTime** <br/> |datetime  <br/> ||Zeitpunkt der ersten SIP-Antwort. In diesem Feld wird in der Regel durch aus der ersten INVITE-Nachricht in der Sitzung generierte Daten aufgefüllt. Wenn keine INVITE-Nachricht vorhanden ist, wird das Feld mit Datum und Uhrzeit der ersten relevanten SIP-Nachricht (BYE, Abbrechen, Nachricht oder INFO) aufgefüllt.  <br/> |
-|**SessionEndTime** <br/> |datetime  <br/> ||Der Zeitpunkt, wenn die Sitzung beendet wird.  <br/> |
-|**UriTypeId** <br/> |tinyint  <br/> |Ausländisch  <br/> |Enthält den Wert des MCU-URI-Typ aus der [UriTypes-Tabelle](uritypes.md). Dieses Feld wird zur Verbesserung der Leistung von Abfragen verwendet.  <br/> Dieses Feld wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**UserFlag** <br/> |smallint  <br/> || Ein bit festlegen gibt an, dass die Attribute. Die folgenden Attributdefinitionen werden aufgeführt: <br/>  Mit Desktoptelefon - 1 integriert <br/> |
-|**CallFlag** <br/> |smallint  <br/> || Ein bit festlegen gibt an, dass der Anruf Attribute. Die folgenden Attributdefinitionen werden aufgeführt: <br/>  Wiederholungsversuch der Sitzung - 1 <br/> |
-|**ZuletztGeändertUm** <br/> |DateTime  <br/> ||Für die interne Verwendung durch den Überwachungsdienst.  <br/> Dieses Feld wurde in Skype für Business Server 2015 eingeführt.  <br/> |
+|**IsUserInternal** <br/> |bit  <br/> ||Ob der Benutzer intern angemeldet ist oder nicht.  <br/> |
+|**Response Code** <br/> |int  <br/> ||SIP-Antwortcode (Session Initiation Protocol) für die Sitzungseinladung Dieses Feld wird in der Regel von Daten ausgefüllt, die aus der anfänglichen Einladungsnachricht in der Sitzung generiert wurden. Wenn keine Einladungsnachricht vorhanden ist, wird das Feld mit dem Datum und der Uhrzeit der ersten relevanten SIP-Nachricht gefüllt (Bye, Cancel, Nachricht oder info).  <br/> |
+|**Diagnose-Nr** <br/> |int  <br/> ||Vom SIP-Header erfasste Diagnose-ID.  <br/> |
+|**ServerID** <br/> |int  <br/> |Fremd  <br/> |Die ID des für diese Sitzung verwendeten Front-End-Servers. Weitere Informationen finden Sie in der [Tabelle Server](servers.md) . <br/> |
+|**Pool-Nr** <br/> |int  <br/> |Fremd  <br/> |Die ID des Pools, in dem die Sitzung erfasst wurde. Weitere Informationen finden Sie in der [Tabelle Pools](pools.md) . <br/> |
+|**MediationServerId** <br/> |int  <br/> |Fremd  <br/> |Der Vermittlungs Server, den der Anruf verwendet. Weitere Informationen finden Sie in der [MediationServers-Tabelle](mediationservers.md) . <br/> |
+|**Gatewayserver** <br/> |int  <br/> |Fremd  <br/> |Das Gateway, das der Anruf verwendet. Weitere Informationen finden Sie [in der Tabelle Gateways in Skype for Business Server 2015](gateways.md) . <br/> |
+|**EdgeServerId** <br/> |int  <br/> |Fremd  <br/> |Der Edge-Server, den der Anruf verwendet. Weitere Informationen finden Sie [in der Tabelle EdgeServers in Skype for Business Server 2015](edgeservers.md) . <br/> |
+|**ContentTypeID** <br/> |int  <br/> |Fremd  <br/> |Inhaltstyp, der in der Sitzung verwendet wird. Weitere Informationen finden Sie in der Tabelle "ContentTypes" [in Skype for Business Server 2015](contenttypes.md) . <br/> |
+|**Einladen** <br/> |datetime  <br/> ||Der Zeitpunkt der ersten INVITE-Anforderung. Dieses Feld wird in der Regel von Daten ausgefüllt, die aus der anfänglichen Einladungsnachricht in der Sitzung generiert wurden. Wenn keine Einladungsnachricht vorhanden ist, wird das Feld mit dem Datum und der Uhrzeit der ersten relevanten SIP-Nachricht gefüllt (Bye, Cancel, Nachricht oder info).  <br/> |
+|**Webantworten** <br/> |datetime  <br/> ||Zeitpunkt der ersten SIP-Antwort. Dieses Feld wird in der Regel von Daten ausgefüllt, die aus der anfänglichen Einladungsnachricht in der Sitzung generiert wurden. Wenn keine Einladungsnachricht vorhanden ist, wird das Feld mit dem Datum und der Uhrzeit der ersten relevanten SIP-Nachricht gefüllt (Bye, Cancel, Nachricht oder info).  <br/> |
+|**SessionEndTime** <br/> |datetime  <br/> ||Der Zeitpunkt, zu dem die Sitzung beendet wird.  <br/> |
+|**UriTypeId** <br/> |tinyint  <br/> |Fremd  <br/> |Enthält den Wert des MCU-URI-Typs aus der [UriTypes-Tabelle](uritypes.md). Dieses Feld wird verwendet, um die Abfrageleistung zu verbessern.  <br/> Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
+|**UserFlag** <br/> |smallint  <br/> || Ein Bit-Satz, der die Benutzerattribute angibt. Die folgenden Attributdefinitionen werden aufgelistet: <br/>  Integriert mit dem Desktop-Telefon-1 <br/> |
+|**CallFlag** <br/> |smallint  <br/> || Ein Bit-Satz, der die anrufattribute angibt. Die folgenden Attributdefinitionen werden aufgelistet: <br/>  Wiederholte Sitzung – 1 <br/> |
+|**LastModifiedTime** <br/> |DateTime  <br/> ||Für die interne Verwendung durch den Überwachungsdienst.  <br/> Dieses Feld wurde in Skype for Business Server 2015 eingeführt.  <br/> |
    
-\*Für die meisten Sitzungen müssen SessionIdSeq den Wert 1. Wenn mehrerer Sitzungen zur selben Zeit gestartet werden, werden die SessionIdSeq für einen 1, für eine andere 2, und so weiter.
+\*Bei den meisten Sitzungen erhält SessionIdSeq den Wert 1. Wenn mehrere Sitzungen genau zur gleichen Zeit beginnen, ist der SessionIdSeq für einen 1, für einen anderen wird 2 usw.
   
 

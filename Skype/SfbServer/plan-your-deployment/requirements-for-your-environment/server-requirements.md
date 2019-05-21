@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/15/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Zusammenfassung: Bereiten Sie Ihre Server von Skype for Business Server 2015 mit diesem Thema vor. Mithilfe von Hardware, Betriebssystem, Datenbank, Software und den Systemvoraussetzungen und -empfehlungen können Sie eine erfolgreiche Installation und Bereitstellung Ihrer Server-Farm garantieren.'
-ms.openlocfilehash: 364542308540e26022bc4e46eba62dcf8e4831c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: af739cd01fcb2071ad271d7932483d1bf37e2bf0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929378"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296819"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Serveranforderungen für Skype for Business Server 2015
  
 **Zusammenfassung:** Bereiten Sie Ihre Server von Skype for Business Server 2015 mit diesem Thema vor. Mithilfe von Hardware, Betriebssystem, Datenbank, Software und den Systemvoraussetzungen und -empfehlungen können Sie eine erfolgreiche Installation und Bereitstellung Ihrer Server-Farm garantieren.
 
-Wenn der gesuchte für umgebungsanforderungen, wie Active Directory, DNS oder Zertifikate, können Sie die [umgebungsanforderungen für Skype für Business Server 2015](environmental-requirements.md) Doc Auschecken.
+Wenn Sie nach Umweltanforderungen suchen, wie Active Directory, DNS oder Zertifikate, können Sie die [Umweltanforderungen für Skype for Business Server 2015](environmental-requirements.md) doc ausprobieren.
   
 Erwartungsgemäß sind vor dem Beginn der Bereitstellung von Skype for Business Server 2015 einige Vorkehrungen zu treffen. Dieser Artikel führt Sie durch die Planung der folgenden Aspekte:
   
@@ -68,7 +68,7 @@ Nachdem Sie die Hardware eingerichtet haben, müssen Sie Betriebssysteme install
   
 |||
 |:-----|:-----|
-|Windows Server 2016 (Skype für Business kumulativen Update 5 oder höher erforderlich. Weitere Informationen zur Überprüfung [KB4015888](https://support.microsoft.com/en-gb/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))  <br/> ||
+|Windows Server 2016 (Sie benötigen das kumulative Update für Skype for Business 5 oder höher. Weitere Informationen finden Sie auf [KB4015888](https://support.microsoft.com/en-gb/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))  <br/> ||
 |Windows Server 2012 R2 Datacenter mit allen erforderlichen Updates  <br/> |Windows Server 2012 R2 Standard mit allen erforderlichen Updates  <br/> |
 |Windows Server 2012 Datacenter mit allen erforderlichen Updates  <br/> |Windows Server 2012 Standard mit erforderlichen Updates  <br/> |
    
@@ -94,35 +94,35 @@ Skype for Business Server 2015 Enterprise Edition ist etwas komplizierter. Die 
   
 |||||
 |:-----|:-----|:-----|:-----|:-----|
-|Microsoft SQL Server 2017 Enterprise (64-Bit-Edition), und wir empfehlen mit dem neuesten Servicepack. <br/> |Microsoft SQL Server 2016 Enterprise (64-Bit-Edition) mit Service Pack 1 oder höher, und Sie müssen mit Skype für Business kumulative Update 7 oder höher ([Skype für Business kumulative Update herunterladen](https://support.microsoft.com/en-us/help/3061064)) ausführen.  <br/> |Microsoft SQL Server 2014 Enterprise (64-Bit-Edition) mit dem kumulativen Update 6 oder höher ([kumulatives Update 6 herunterladen](https://support.microsoft.com/en-us/kb/3031047/))  <br/> |Microsoft SQL Server 2012 Enterprise (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.  <br/> |
-|Microsoft SQL Server 2017 Standard (64-Bit-Edition), und es wird empfohlen wird mit dem neuesten Servicepack ausgeführt. <br/> |Microsoft SQL Server 2016 Standard (64-Bit-Edition) mit Service Pack 1 oder höher, und Sie müssen mit Skype für Business kumulative Update 7 oder höher ([Skype für Business kumulative Update herunterladen](https://support.microsoft.com/en-us/help/3061064)) ausführen.  <br/> |Microsoft SQL Server 2014 Standard (64-Bit-Edition) mit dem kumulativen Update 6 oder höher ([kumulatives Update 6 herunterladen](https://support.microsoft.com/en-us/kb/3031047/))  <br/> |Microsoft SQL Server 2012 Standard (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.  <br/> |
+|Microsoft SQL Server 2017 Enterprise (64-Bit-Edition), und wir empfehlen, mit dem neuesten Service Pack zu starten. <br/> |Microsoft SQL Server 2016 Enterprise (64-Bit Edition) mit Service Pack 1 oder höher, und Sie müssen mit Skype for Business Kumulatives Update 7 oder höher ([Download von Skype for Business-Kumulatives Update](https://support.microsoft.com/en-us/help/3061064)) ausführen.  <br/> |Microsoft SQL Server 2014 Enterprise (64-Bit-Edition) mit dem kumulativen Update 6 oder höher ([kumulatives Update 6 herunterladen](https://support.microsoft.com/en-us/kb/3031047/))  <br/> |Microsoft SQL Server 2012 Enterprise (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.  <br/> |
+|Microsoft SQL Server 2017 Standard (64-Bit-Edition), und wir empfehlen, mit dem neuesten Service Pack zu starten. <br/> |Microsoft SQL Server 2016 Standard (64-Bit-Edition) mit Service Pack 1 oder höher, und Sie müssen mit Skype for Business Kumulatives Update 7 oder höher ([Download von Skype for Business-Kumulatives Update](https://support.microsoft.com/en-us/help/3061064)) ausführen.  <br/> |Microsoft SQL Server 2014 Standard (64-Bit-Edition) mit dem kumulativen Update 6 oder höher ([kumulatives Update 6 herunterladen](https://support.microsoft.com/en-us/kb/3031047/))  <br/> |Microsoft SQL Server 2012 Standard (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.  <br/> |
    
 Wenn die von Ihnen gewünschte SQL Server-Edition nicht aufgeführt wird, können Sie sie nicht verwenden.
   
 > [!NOTE]
-> Sie nun auch müssen Sie SQL Server Reporting Services für den Monitoring Server-Role zu installieren.
+> Außerdem müssen Sie SQL Server Reporting Services für die Monitoring Server-Rolle installieren.
 
 ### <a name="microsoft-exchange-storage"></a>Microsoft Exchange-Speicher
-Meeting content files, such as PowerPoint presentations, are archived as attachments. Wenn Sie Skype für Geschäftsdaten für Archivierung mit Exchange Kompatibilitätsdaten speichern möchten, müssen Sie Exchange für Ihre Exchange-Bereitstellung verwenden und stellen Sie sicher, dass die maximale Speichergröße Speicherung von der Besprechung Inhaltsdateien unterstützt. Sie müssen vor dem Bereitstellen und Aktivieren der Archivierung die Option Microsoft Exchange-Integration mit Exchange bereitstellen. 
+Meeting content files, such as PowerPoint presentations, are archived as attachments. Wenn Sie Skype for Business-Archivdaten mit Exchange-Konformitätsdaten speichern möchten, müssen Sie Exchange für Ihre Exchange-Bereitstellung verwenden und sicherstellen, dass die maximale Speichergröße die Speicherung der Besprechungsinhalts Dateien unterstützt. Sie müssen Exchange vor der Bereitstellung und Aktivierung der Archivierung mithilfe der Microsoft Exchange-Integrations Option bereitstellen. 
     
     If you choose to use Exchange storage, you do not need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who are not homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
   
 ## <a name="hardware-and-software-requirements-for-archiving-in-skype-for-business-server-2015"></a>Hardware- und Softwareanforderungen für die Archivierung in Skype for Business Server 2015
   
-Archivierung ist keine Serverrolle definierten, Sie müssen nicht auf einen separaten Server für die Archivierung zu installieren. Unified Datenerfassungs-Agenten werden installiert und automatisch auf jedem Enterprise Edition-Front-End-Pool und jedem Standard Edition-Server aktiviert. Sie müssen Ihre Archivierungstopologie mithilfe des Topologie-Generators aktivieren und veröffentlichen.
+Archivierung ist keine definierte Serverrolle, Sie müssen keinen separaten Server für die Archivierung installieren. Unified Data Collection-Agents werden in jedem Enterprise Edition-Front-End-Pool und jedem Standard Edition-Server automatisch installiert und aktiviert. Sie müssen Ihre Archivierungstopologie mithilfe des Topologie-Generators aktivieren und veröffentlichen.
     
-Archivierung werden die Skype für Business Server-Dateispeicher für die temporäre Speicherung von Dateien, sodass keine separate dateispeicherung für die Archivierung eingerichtet werden mit Besprechungsinhalten verwendet.
+Bei der Archivierung wird der Skype for Business Server-Dateispeicher zur temporären Speicherung von Besprechungsinhalts Dateien verwendet, sodass Sie keinen separaten Dateispeicher für die Archivierung einrichten.
     
 Microsoft Message Queuing ist nicht erforderlich.
     
-Die Infrastruktur für Archivierungsspeicher muss eingerichtet werden. Dazu gehört das entweder Exchange auswählen oder Archivierungsspeicher mithilfe von SQL Server.   Skype für Business-Archivierung infrastrukturanforderungen sind die gleichen wie bei der Bereitstellung von Skype für Business Server. Weitere Informationen hierzu finden Sie unter [Anforderungen für Ihre Skype für Business-Umgebung](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). 
+Die Infrastruktur für Archivierungsspeicher muss eingerichtet werden. Dazu gehört das Auswählen von Exchange oder Archivierungsspeicher mithilfe von SQL Server.   Die Anforderungen der Skype for Business Server-Archivierungsinfrastruktur sind identisch mit der Bereitstellung von Skype for Business Server. Einzelheiten hierzu finden Sie unter [Anforderungen für Ihre Skype for Business-Umgebung](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). 
   
 > [!NOTE]
-> Zur Unterstützung von Benutzern, die nicht auf Exchange-Servern verwaltet werden, oder wenn Sie nicht die Option Microsoft Exchange-Integration verwenden möchten, müssen Sie Archivierungsspeicher mit einer 64-Bit-SQL Server-Datenbank bereitstellen. 
+> Wenn Sie Benutzer unterstützen möchten, die nicht auf Exchange-Servern gehostet werden, oder wenn Sie die Microsoft Exchange-Integrations Option nicht verwenden möchten, müssen Sie den Archivierungsspeicher mithilfe einer 64-Bit SQL Server-Datenbank bereitstellen. 
     
-Sie müssen die SQL Server-Plattformen vor der Bereitstellung und Aktivieren der Archivierung einrichten. Wenn das Konto, das zum Veröffentlichen der Topologie verwendet werden soll, mit den erforderlichen Administratorrechten und -berechtigungen ausgestattet ist, können Sie die Archivierungsdatenbank (LcsLog) beim Veröffentlichen der Topologie erstellen. Sie können die Datenbank auch später erstellen, z. B. im Rahmen des Installationsverfahrens. Ausführliche Informationen zu SQL Server finden Sie unter der [SQL Server-Dokumentation](https://go.microsoft.com/fwlink/p/?linkID=129045).
+Sie müssen die SQL Server-Plattformen einrichten, bevor Sie die Archivierung bereitstellen und aktivieren können. Wenn das Konto, das zum Veröffentlichen der Topologie verwendet werden soll, mit den erforderlichen Administratorrechten und -berechtigungen ausgestattet ist, können Sie die Archivierungsdatenbank (LcsLog) beim Veröffentlichen der Topologie erstellen. Sie können die Datenbank auch später erstellen, z. B. im Rahmen des Installationsverfahrens. Details zu SQL Server finden Sie in der [SQL Server-Dokumentation](https://go.microsoft.com/fwlink/p/?linkID=129045).
     
-Die Auslastung im Zuge der Archivierung kann erheblich steigen. Aus diesem Grund sollten Sie sicherstellen, dass Speicherplatz für Front-End-Servern geeignet ist, auf dem die Archivierung aktiviert ist.
+Die Auslastung im Zuge der Archivierung kann erheblich steigen. Daher sollten Sie sicherstellen, dass der Speicherplatz für Front-End-Server, auf denen die Archivierung aktiviert ist, ausreichend ist.
 
 ### <a name="sql-mirroring-sql-clustering-and-sql-always-on"></a>SQL-Spiegelung, SQL-Clustering und SQL AlwaysOn
 
@@ -134,9 +134,9 @@ Für das Failoverclustering können Sie Folgendes verwenden:
   
 Zwei Knoten:
   
-- Microsoft SQL Server 2017 Standard (64-Bit-Edition), und es wird empfohlen wird mit dem neuesten Servicepack ausgeführt.
+- Microsoft SQL Server 2017 Standard (64-Bit-Edition), und wir empfehlen, mit dem neuesten Service Pack zu starten.
 
-- Microsoft SQL Server 2016 Standard (64-Bit-Edition) mit Service Pack 1 oder höher. Es wird empfohlen, mit dem neuesten Servicepack.
+- Microsoft SQL Server 2016 Standard (64-Bit-Edition) mit Service Pack 1 oder höher Wir empfehlen, mit dem neuesten Service Pack zu starten.
 
 - Microsoft SQL Server 2014 Standard (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.
     
@@ -144,9 +144,9 @@ Zwei Knoten:
 
 Sechzehn Knoten:
 
-- Microsoft SQL Server 2017 Enterprise (64-Bit-Edition), und wir empfehlen mit dem neuesten Servicepack.
+- Microsoft SQL Server 2017 Enterprise (64-Bit-Edition), und wir empfehlen, mit dem neuesten Service Pack zu starten.
 
-- Microsoft SQL Server 2016 Enterprise (64-Bit-Edition) mit Service Pack 1 oder höher. Es wird empfohlen, mit dem neuesten Servicepack.
+- Microsoft SQL Server 2016 Enterprise (64-Bit Edition) mit Service Pack 1 oder höher Wir empfehlen, mit dem neuesten Service Pack zu starten.
   
 - Microsoft SQL Server 2014 Enterprise (64-Bit-Edition), dazu empfehlen wir das neueste Service Pack.
     
@@ -158,10 +158,10 @@ Sechzehn Knoten:
 Falls Sie mehr über die SQL-Spiegelung lesen möchten, bieten wir Ihnen ein Thema zur hohen Verfügbarkeit bei Back-End-Servern in Skype for Business Server 2015 an. Unter „Konfigurieren von SQL Server-Clustering für Skype for Business Server 2015“ finden Sie die Schritte zum Vorbereiten von Clustering. Außerdem gibt es weitere Links zum Thema Failoverclustering für SQL, und zwar für [2014](https://technet.microsoft.com/en-us/library/hh231721.aspx), [2012](https://technet.microsoft.com/en-us/library/hh231721%28v=sql.110%29.aspx) und [2008](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
   
 > [!NOTE]
-> Neue ist für die Version 2015 Unterstützung für SQL immer auf. Weitere Informationen dazu finden Sie im Thema [Hohe Verfügbarkeit von Back-End-Servern in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
+> Neu in der 2015-Version ist die Unterstützung von SQL Always on. Weitere Informationen dazu finden Sie im Thema [Hohe Verfügbarkeit von Back-End-Servern in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
 
 > [!NOTE]
-> SQL-Spiegelung wird steht in Skype für Business Server 2015 jedoch nicht mehr in unterstützt Skype für Business Server 2019. Die AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instanzen (FCI) und SQL clustering Failovermethoden werden bevorzugt mit Skype für Business Server 2019.  
+> Die SQL-Spiegelung ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. Die AlwaysOn-Verfügbarkeitsgruppen, AlwaysOn-Failover-Cluster Instanzen (FCI) und SQL-Failover-Clustering-Methoden werden in Skype for Business Server 2019 bevorzugt.  
 
 ## <a name="software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment"></a>Software, die vor einer Skype for Business Server 2015-Bereitstellung installiert werden muss
 <a name="Software"> </a>

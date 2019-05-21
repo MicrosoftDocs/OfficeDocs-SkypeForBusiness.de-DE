@@ -8,85 +8,85 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Erfahren Sie, wie das Verwalten und Konfigurieren von SIP-Domänen, denen Sie einen Verbund mit konfigurieren können,
-ms.openlocfilehash: aa793c5380c4baaa18876bfa2e2891a8260670dd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Hier erfahren Sie, wie Sie SIP-Domänen verwalten und konfigurieren, mit denen Sie eine Föderation führen können.
+ms.openlocfilehash: 1a2f76f7f465401bae04b4defa2e0a1f5300ab0f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903173"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303970"
 ---
-# <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>Verwalten von Domänen für Ihre Organisation in Skype für Business Server SIP-Verbund
+# <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>Verwalten von SIP-Verbunddomänen für Ihre Organisation in Skype for Business Server
 
 
-Zum Verwalten und Konfigurieren von SIP-Domänen, denen Sie einen Verbund mit konfigurieren können, können Sie Folgendes ein:
+Zum Verwalten und Konfigurieren von SIP-Domänen, mit denen Sie eine Föderation führen können, können Sie die folgenden Aktionen ausführen:
 
-  - Erstellen Sie oder bearbeiten Sie eine Liste zulässiger Domänen Partnerdomänen SIP-Verbund.
+  - Erstellen oder bearbeiten Sie eine Liste der zulässigen Domänen der SIP-Partnerdomänen.
 
-  - Erstellen Sie oder bearbeiten Sie eine Liste blockierter Domänen der Domänen für SIP-Verbund.
+  - Erstellen oder Bearbeiten einer Liste blockierter Domänen mit SIP-Verbunddomänen
 
-## <a name="configure-support-for-allowed-external-domains-in-skype-for-business-server"></a>Konfigurieren der Unterstützung für zulässige externe Domänen in Skype für Business Server
+## <a name="configure-support-for-allowed-external-domains-in-skype-for-business-server"></a>Konfigurieren der Unterstützung für zugelassene externe Domänen in Skype for Business Server
 
-Wenn Sie die Unterstützung für Verbundpartner konfiguriert haben, können Sie verwalten, welche speziellen Domänen mit Ihrer Organisation eine Partnerschaft eingehen können. Konfigurieren Sie bestimmte externe Domänen als zulässigen Partnerdomänen. Fügen Sie hierzu jede Domäne zur Liste der zugelassenen Domänen. Auch wenn Partner-Ermittlung für Ihre Organisation aktiviert ist, wird dies ist die Domäne eines verbundpartners eingerichtet, das Kommunikation mit mehr als 1.000 Benutzer müssen möglicherweise oder senden müssen möglicherweise mehr als 20 Nachrichten pro Sekunde. Wenn Partner Discovery für Ihre Organisation nicht aktiviert ist, können nur Benutzer von externen Domänen, die Sie der Liste der zugelassenen Domänen hinzufügen Sofortnachrichten und Konferenzen mit Benutzern in Ihrer Organisation teilnehmen. Wenn Sie zum Einschränken des Zugriffs für eine verbunddomäne an einen bestimmten Server unter dem der Dienst Zugriffs-Edgeserver des verbundpartners möchten, können Sie den Domänennamen des Servers mit der Zugriffs-edgedienst für jede Domäne in der Liste der zugelassenen Domänen angeben.
+Wenn Sie die Unterstützung für Federated-Partner konfiguriert haben, können Sie verwalten, welche bestimmten Domänen mit Ihrer Organisation verbunden werden können. Sie konfigurieren eine oder mehrere bestimmte externe Domänen als zugelassene Verbunddomänen. Fügen Sie dazu jede Domäne zur Liste der zulässigen Domänen hinzu. Auch wenn die Partner Ermittlung für Ihre Organisation aktiviert ist, gehen Sie wie folgt vor, wenn es sich bei der Domäne um einen Verbundpartner handelt, der möglicherweise mit mehr als 1.000 ihrer Benutzer kommunizieren muss, oder wenn Sie möglicherweise mehr als 20 Nachrichten pro Sekunde senden müssen. Wenn die Partner Ermittlung für Ihre Organisation nicht aktiviert ist, können nur Benutzer externer Domänen, die Sie der Liste zugelassene Domänen hinzufügen, an Chats und Konferenzen mit Benutzern in Ihrer Organisation teilnehmen. Wenn Sie den Zugriff auf eine Verbunddomäne auf einen bestimmten Server einschränken möchten, auf dem der Access-Edgedienst des Verbundpartners ausgeführt wird, können Sie den Domänennamen des Servers angeben, auf dem der Access Edge-Dienst für jede Domäne in der Liste der zulässigen Domänen ausgeführt wird.
 
 > [!NOTE]  
-> Dieses Verfahren beschreibt das Konfigurieren der Unterstützung für bestimmte Domänen, aber auch Implementierung der Unterstützung für Verbundbenutzer erfordert, dass Sie Unterstützung für Verbundbenutzer für Ihre Organisation zu aktivieren und konfigurieren und Anwenden von Richtlinien auf Steuerung, welche Benutzer können Zusammenarbeit mit Verbundbenutzer. Ausführliche Informationen zum Aktivieren der Unterstützung für Verbundbenutzer finden Sie unter [Aktivieren oder Deaktivieren des Zugriffs durch Remotebenutzer](../access-edge/enable-or-disable-remote-user-access.md). Ausführliche Informationen zum Konfigurieren von Richtlinien zur Steuerung der Verbund finden Sie unter [Konfigurieren von Richtlinien zur Steuerung federated User Access](../external-access-policies/configure-policies-to-control-federated-user-access.md).
+> In diesem Verfahren wird beschrieben, wie Sie die Unterstützung für bestimmte Domänen konfigurieren, aber die Implementierung der Unterstützung für verbundene Benutzer erfordert auch, dass Sie die Unterstützung für verbundene Benutzer für Ihre Organisation aktivieren und Richtlinien konfigurieren und anwenden, um zu steuern, welche Benutzer Zusammenarbeit mit Verbundbenutzern. Details zum Aktivieren der Unterstützung für Verbundbenutzer finden Sie unter [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs](../access-edge/enable-or-disable-remote-user-access.md). Details zum Konfigurieren von Richtlinien für die Steuerung der Föderation finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Zugriffs von Verbundbenutzern](../external-access-policies/configure-policies-to-control-federated-user-access.md).
 
-### <a name="to-add-an-external-domain-to-the-list-of-allowed-domains"></a>So fügen Sie eine externe Domäne zur Liste der zugelassenen Domänen hinzu
+### <a name="to-add-an-external-domain-to-the-list-of-allowed-domains"></a>So fügen Sie eine externe Domäne zur Liste der zulässigen Domänen hinzu
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
-3.  Klicken Sie in der linken Navigationsleiste auf **Zugriff durch externe Benutzer**und klicken Sie dann auf **Partnerdomänen**.
-4.  Klicken Sie auf der Seite **Partnerdomänen** klicken Sie auf **neu**, und klicken Sie dann auf **zulässige Domäne**.
-5.  **Neue Partnerdomänen**folgendermaßen Sie vor:
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
+3.  Klicken Sie in der linken Navigationsleiste auf **externer Benutzer Zugriff**, und klicken Sie dann auf **Föderationsdomänen**.
+4.  Klicken Sie auf der Seite **Federated Domains** auf **neu**und dann auf **zugelassene Domäne**.
+5.  Führen Sie in **neuen Föderationsdomänen**die folgenden Aktionen aus:
     
-      - Geben Sie im **Domänenname (oder FQDN)** den Namen der verbundpartnerdomäne ein.       
+      - Geben Sie in **Domänenname (oder FQDN)** den Namen der Föderationspartner-Domäne ein.       
 
         > [!NOTE]  
-        > Dieser Name muss eindeutig sein und kann nicht als zulässige Domäne für diesen Server mit dem Zugriffs-Edgeservers-Dienst bereits vorhanden. Der Name darf die Länge von 256 Zeichen nicht überschreiten.<BR><br>Die Suche auf dem Domänennamen Verbundpartner führt eine Übereinstimmung Suffix. Beispielsweise wenn Sie **"contoso.com"** eingeben, wird die Suche auch die Domäne **it.contoso.com**zurückgeben.<BR><br>Eine verbundpartnerdomäne kann nicht gleichzeitig blockiert und zulässig. Skype für Business Server verhindert, dass dies geschieht, damit Sie keine synchronisieren Sie die Liste.
+        > Dieser Name muss eindeutig sein und kann nicht bereits als zulässige Domäne für diesen Server mit dem Access Edge-Dienst vorhanden sein. Der Name darf nicht mehr als 256 Zeichen lang sein.<BR><br>Bei der Suche nach dem Domänennamen des Partner Partners wird eine Übereinstimmung mit dem Suffix ausgeführt. Wenn Sie beispielsweise **contoso.com**eingeben, gibt die Suche auch die Domäne **IT.contoso.com**zurück.<BR><br>Eine Föderationspartner-Domäne kann nicht gleichzeitig blockiert und zugelassen werden. Skype for Business Server verhindert, dass dies geschieht, damit Sie Ihre Listen nicht synchronisieren müssen.
     
-      - Geben Sie den FQDN des der Partnerdomäne Server Zugriffs-edgedienst ausgeführt, wenn zum Einschränken des Zugriffs für diese verbunddomäne für Benutzer von einem bestimmten Server in **Zugriffs-edgedienst (FQDN)** den Zugriffs-edgedienst ausgeführt werden soll.    
-      - Wenn Sie zusätzliche Informationen bereitstellen möchten, geben Sie im Feld **Kommentar**Informationen, die Sie anderen Systemadministratoren über diese Konfiguration mitteilen möchten.
+      - Wenn Sie den Zugriff auf Diese Verbunddomäne auf Benutzer eines bestimmten Servers einschränken möchten, auf dem der Access Edge-Dienst ausgeführt wird, geben Sie in **Access Edge Service (FQDN)** den FQDN des Servers der Verbunddomäne ein, auf dem der Access Edge-Dienst ausgeführt wird.    
+      - Wenn Sie zusätzliche Informationen angeben möchten, geben Sie in **Kommentar**Informationen ein, die Sie für andere Systemadministratoren über diese Konfiguration freigeben möchten.
 
 6.  Klicken Sie auf **Commit ausführen**.
-7.  Wiederholen Sie die Schritte 4 bis 6 für jede verbundpartnerdomäne, die Sie zulassen möchten.
+7.  Wiederholen Sie die Schritte 4 bis 6 für jede Federated-Partner-Domäne, die Sie zulassen möchten.
 
-Um Verbundbenutzer Zugriff zu ermöglichen, müssen Sie auch die Unterstützung des Zugriffs durch Partnerbenutzer in Ihrer Organisation aktivieren. Weitere Informationen hierzu finden Sie unter [Aktivieren oder Deaktivieren des Zugriffs durch Remotebenutzer](../access-edge/enable-or-disable-remote-user-access.md).
+Zum Aktivieren des Zugriffs auf den Verbundbenutzer müssen Sie auch die Unterstützung für den Verbundbenutzer Zugriff in Ihrer Organisation aktivieren. Ausführliche Informationen finden Sie unter [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs](../access-edge/enable-or-disable-remote-user-access.md).
 
-Darüber hinaus müssen Sie konfigurieren und anwenden die Richtlinie auf Benutzer, die für die Zusammenarbeit mit Verbundbenutzer enthalten sein sollen. Weitere Informationen hierzu finden Sie unter [Konfigurieren von Richtlinien zur Steuerung federated User Access](../external-access-policies/configure-policies-to-control-federated-user-access.md).
+Darüber hinaus müssen Sie die Richtlinie für Benutzer konfigurieren und anwenden, die in der Lage sein sollen, mit Verbundbenutzern zusammenzuarbeiten. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Zugriffs von Verbundbenutzern](../external-access-policies/configure-policies-to-control-federated-user-access.md).
 
-## <a name="configure-support-for-blocked-external-domains-in-skype-for-business-server"></a>Konfigurieren der Unterstützung für blockierte externe Domänen in Skype für Business Server 
+## <a name="configure-support-for-blocked-external-domains-in-skype-for-business-server"></a>Konfigurieren der Unterstützung für blockierte externe Domänen in Skype for Business Server 
 
-Wenn Sie Unterstützung für Verbundpartner konfiguriert haben, können Sie verwalten, welche Domänen mit Ihrer Organisation eine Föderation blockiert werden. Die Liste der blockierten Domänen fungiert als einer Sperrliste (Auflistung der expliziten Einträge, die nicht zulässig) und gelten in partnerverbunddomänen, wenn Sie diese Option aktiviert haben. Weitere Informationen hierzu finden Sie unter [Aktivieren oder Deaktivieren der Ermittlung von Verbundpartnern](../access-edge/enable-or-disable-discovery-of-federation-partners.md).
+Wenn Sie die Unterstützung für Federated-Partner konfiguriert haben, können Sie verwalten, welche Domänen von der Föderation mit Ihrer Organisation blockiert werden. Die Liste der blockierten Domänen fungiert als Sperrliste (Auflistung expliziter Einträge, die nicht zulässig sind) und wird in der Föderationsdomänen Erkennung angewendet, wenn diese Option aktiviert ist. Ausführliche Informationen finden Sie unter [Aktivieren oder Deaktivieren der Ermittlung von Verbundpartnern](../access-edge/enable-or-disable-discovery-of-federation-partners.md).
 
-Blockieren Sie einen oder mehrere externe Domänen aus eine Verbindung mit Ihrer Organisation. Zu diesem Zweck fügen Sie die Domäne der Liste blockierter Domänen hinzu.
+Blockieren Sie eine oder mehrere externe Domänen, um eine Verbindung mit Ihrer Organisation herzustellen. Fügen Sie dazu die Domäne zur Liste der blockierten Domänen hinzu.
 
 
 ### <a name="to-add-an-external-domain-to-the-list-of-blocked-domains"></a>So fügen Sie eine externe Domäne zur Liste der blockierten Domänen hinzu
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
-3.  Klicken Sie in der linken Navigationsleiste auf **Zugriff durch externe Benutzer**.
-4.  Klicken Sie auf **Partnerdomänen**, klicken Sie auf **neu**, und klicken Sie dann auf **Blockierte Domäne**.
-5.  **Neue Partnerdomänen**folgendermaßen Sie vor:
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
+3.  Klicken Sie in der linken Navigationsleiste auf **externer Benutzer Zugriff**.
+4.  Klicken Sie auf **Verbunddomänen**, dann auf **neu**und dann auf **Blockierte Domäne**.
+5.  Führen Sie in **neuen Föderationsdomänen**die folgenden Aktionen aus:
     
-      - Geben Sie im **Domänenname (oder FQDN)** den Namen der verbundpartnerdomäne, die Sie blockieren möchten.
+      - Geben Sie in **Domänenname (oder FQDN)** den Namen der Partnerdomäne ein, die Sie blockieren möchten.
 
         > [!NOTE]  
-        > Der Name darf die Länge von 256 Zeichen nicht überschreiten.<BR><br>Die Suche auf dem Domänennamen Verbundpartner führt eine Übereinstimmung Suffix. Beispielsweise wenn Sie **"contoso.com"** eingeben, wird die Suche auch die Domäne **it.contoso.com**zurückgeben.<BR><br>Eine verbundpartnerdomäne kann nicht gleichzeitig blockiert und zulässig. Skype für Business Server verhindert, dass dies geschieht, damit Sie keine synchronisieren Sie die Liste.
+        > Der Name darf nicht mehr als 256 Zeichen lang sein.<BR><br>Bei der Suche nach dem Domänennamen des Partner Partners wird eine Übereinstimmung mit dem Suffix ausgeführt. Wenn Sie beispielsweise **contoso.com**eingeben, gibt die Suche auch die Domäne **IT.contoso.com**zurück.<BR><br>Eine Föderationspartner-Domäne kann nicht gleichzeitig blockiert und zugelassen werden. Skype for Business Server verhindert, dass dies geschieht, damit Sie Ihre Listen nicht synchronisieren müssen.
    
-      - (Optional) Geben Sie im Feld **Kommentar**Informationen, die Sie anderen Systemadministratoren über diese Konfiguration mitteilen möchten.
+      - Optional Geben Sie in **Kommentar**Informationen ein, die Sie für andere Systemadministratoren über diese Konfiguration freigeben möchten.
 
 6.  Klicken Sie auf **Commit ausführen**.
-7.  Wiederholen Sie die Schritte 4 bis 6 für jeden Verbundpartner, den Sie blockieren möchten.
+7.  Wiederholen Sie die Schritte 4 bis 6 für jeden Föderationspartner, den Sie blockieren möchten.
 
-Um Verbundbenutzer Zugriff zu ermöglichen, müssen Sie auch die Unterstützung des Zugriffs durch Partnerbenutzer in Ihrer Organisation aktivieren. Weitere Informationen hierzu finden Sie unter [Aktivieren oder Deaktivieren des Zugriffs durch Remotebenutzer](../access-edge/enable-or-disable-remote-user-access.md).
+Zum Aktivieren des Zugriffs auf den Verbundbenutzer müssen Sie auch die Unterstützung für den Verbundbenutzer Zugriff in Ihrer Organisation aktivieren. Ausführliche Informationen finden Sie unter [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs](../access-edge/enable-or-disable-remote-user-access.md).
 
-Darüber hinaus müssen Sie konfigurieren und anwenden die Richtlinie auf Benutzer, die für die Zusammenarbeit mit Verbundbenutzer enthalten sein sollen. Weitere Informationen hierzu finden Sie unter [Konfigurieren von Richtlinien zur Steuerung federated User Access](../external-access-policies/configure-policies-to-control-federated-user-access.md).
+Darüber hinaus müssen Sie die Richtlinie für Benutzer konfigurieren und anwenden, die in der Lage sein sollen, mit Verbundbenutzern zusammenzuarbeiten. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Zugriffs von Verbundbenutzern](../external-access-policies/configure-policies-to-control-federated-user-access.md).
 
 
 ## <a name="see-also"></a>Siehe auch

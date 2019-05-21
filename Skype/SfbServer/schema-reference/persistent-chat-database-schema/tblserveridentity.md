@@ -5,35 +5,35 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5411c9bc-b0b3-41fc-8b7e-fa71cccd770b
-description: TblServerIdentity enthält die aktiven Chatserver im Pool Persistent Chat Server.
-ms.openlocfilehash: d780c2153b2e7f9f1ed5aad20217228e44f29504
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblServerIdentity enthält die aktiven Chat Server im persistent Chat Serverpool.
+ms.openlocfilehash: b35960bd1deef5470724f580bce2375b2e034cb9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924808"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295188"
 ---
 # <a name="tblserveridentity"></a>tblServerIdentity
  
-TblServerIdentity enthält die aktiven Chatserver im Pool Persistent Chat Server.
+tblServerIdentity enthält die aktiven Chat Server im persistent Chat Serverpool.
   
 **Spalten**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|serverID  <br/> |Int, nicht null  <br/> |Server-ID Die Instanz-ID entspricht aus dem zentralen Verwaltungsspeicher.  <br/> |
-|serverAddress  <br/> |Nvarchar (256), nicht null  <br/> |Serveradresse mit der Windows Communication Foundation-Adresse.  <br/> |
-|serverLastPingTime  <br/> |datetime  <br/> |Der letzte Zeitpunkt, die den Kanalserver aktualisiert diese Zeile zum Nachweis übergeben, die er ausgeführt wird.  <br/> |
+|ServerID  <br/> |int, nicht NULL  <br/> |Server-ID. Entspricht der Instanz-ID des zentralen Verwaltungsspeichers.  <br/> |
+|ServerAddress  <br/> |nvarchar (256); nicht NULL  <br/> |Server Adresse unter Verwendung der Windows Communication Foundation-Adresse.  <br/> |
+|serverLastPingTime  <br/> |datetime  <br/> |Der letzte Zeitpunkt, zu dem der Kanal Server diese Zeile aktualisiert hat, um zu beweisen, dass er ausgeführt wird.  <br/> |
    
 **Schlüssel**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
-|serverID  <br/> |Primärschlüssel.  <br/> |
+|ServerID  <br/> |Primärschlüssel  <br/> |
    
 

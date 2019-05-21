@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.SelectDeniedMembers
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
-description: A Persistent Chat Administrator können erstellen und Verwalten von Kategorien für Chatrooms. Als Teil des erstellen und Verwalten von Kategorien für Chatrooms kann ein Persistent Chat Administrator Prinzipale (Active Directory Domain Services Gruppen/Container/Benutzer) zu konfigurieren, die Zugriff auf Member/Ersteller von einer bestimmten Kategorie Chatrooms sein. A Persistent Chat Administrator können auch DeniedMembers zu einer Kategorie hinzufügen, und diese werden zur Liste zugelassenen explizite Ausschlüsse. DeniedMembers außer Kraft setzen, was in AllowedMembers ist.
-ms.openlocfilehash: 7f87177d02a639ae32f3841298466b455ed5d538
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Ein beständiger Chat-Administrator kann Chatroom-Kategorien erstellen und verwalten. Im Rahmen des Erstellens und Verwaltens von Chatroom-Kategorien kann ein beständiger Chat-Administrator Prinzipale (Active Directory-Domänendienste-Gruppen/Container/Benutzer) konfigurieren, die Zugriff auf Mitglieder/Ersteller von Chatrooms einer bestimmten Kategorie haben. Ein beständiger Chat-Administrator kann auch DeniedMembers zu einer Kategorie hinzufügen, und diese werden explizite Ausschlüsse auf die Liste der zulässigen Listen. DeniedMembers außer Kraft setzen, was in AllowedMembers.
+ms.openlocfilehash: bbf54bfb05a2c3a54c9515d77ae6fb93b22a62ec
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929553"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294081"
 ---
 # <a name="select-denied-members"></a>Auswählen abgelehnter Mitglieder
 
-A Persistent Chat Administrator können erstellen und Verwalten von Kategorien für Chatrooms. Als Teil des erstellen und Verwalten von Kategorien für Chatrooms kann ein Persistent Chat Administrator Prinzipale (Active Directory Domain Services Gruppen/Container/Benutzer) zu konfigurieren, die Zugriff auf Member/Ersteller von einer bestimmten Kategorie Chatrooms sein. A Persistent Chat Administrator können auch DeniedMembers zu einer Kategorie hinzufügen, und diese werden zur Liste zugelassenen explizite Ausschlüsse. DeniedMembers außer Kraft setzen, was in AllowedMembers ist.
+Ein beständiger Chat-Administrator kann Chatroom-Kategorien erstellen und verwalten. Im Rahmen des Erstellens und Verwaltens von Chatroom-Kategorien kann ein beständiger Chat-Administrator Prinzipale (Active Directory-Domänendienste-Gruppen/Container/Benutzer) konfigurieren, die Zugriff auf Mitglieder/Ersteller von Chatrooms einer bestimmten Kategorie haben. Ein beständiger Chat-Administrator kann auch DeniedMembers zu einer Kategorie hinzufügen, und diese werden explizite Ausschlüsse auf die Liste der zulässigen Listen. DeniedMembers außer Kraft setzen, was in AllowedMembers.
 
 ## <a name="tasks-that-you-can-perform"></a>Mögliche Aufgaben
 
@@ -32,14 +32,14 @@ Auf der Seite **Abgelehnte Mitglieder auswählen** können Sie die folgenden Auf
 
 - [New Persistent Chat Server Features](https://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
 
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+Details zu den verschiedenen Verfahren, die Sie mit der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype for Business Server 2015](../../manage/manage.md).
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>So konfigurieren Sie Kategorien für Chatrooms
 
-**Die Mitgliedschaft**in den Abschnitt **abgelehnten Mitglieder** hinzufügen oder Entfernen von Benutzern und anderen Active Directory-Prinzipale wird diesen Raum Mitgliedern zugeordnet sind.
+Fügen Sie in der **Mitgliedschaft**im Abschnitt **Abgelehnte Mitglieder** Benutzer und andere Active Directory-Prinzipale hinzu, die Mitgliedern zugeordnet sind, die aus dem Chatroom verweigert werden.
 
 
-Ausführliche Informationen zur Persistent Chat Server-Features und Funktionen finden Sie unter [Overview of Persistent Chat Server](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Persistent Chat Server-Konfigurationen finden Sie unter [Configuring Persistent Chat Server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in der Dokumentation zur Bereitstellung und [Verwaltung von Lync Server 2013, Persistent Chat Server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in der Betriebsdokumentation.
+Ausführliche Informationen zu den Features und Funktionen des beständigen Chat Servers finden Sie unter Übersicht über den Server für beständigen [Chat](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in der Planungsdokumentation. Details zum Arbeiten mit beständigen Chat Serverkonfigurationen finden Sie unter Konfigurieren des beständigen [Chat Servers](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in der Bereitstellungsdokumentation und [Verwalten von lync Server 2013, beständiger Chat Server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in der Betriebsdokumentation.
 
 ## <a name="see-also"></a>Siehe auch
 

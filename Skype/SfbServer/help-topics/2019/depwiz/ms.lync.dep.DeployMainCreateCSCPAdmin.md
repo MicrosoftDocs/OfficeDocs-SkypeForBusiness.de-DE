@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployMainCreateCSCPAdmin
@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Um Zugriff auf die Skype für Business Server gewähren möchten, führen Sie folgende Schritte aus:'
-ms.openlocfilehash: 5251a70cc76157731d96032a2e6631e795b64cf0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Gehen Sie wie folgt vor, um den Zugriff auf den Skype for Business-Server zu gewähren:'
+ms.openlocfilehash: 6a605f77c5f2b04804506592ab61c7988d68acfc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893686"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298169"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Erstellen von Administratoren für die Skype for Business Server-Systemsteuerung
  
-Um Zugriff auf die Skype für Business Server gewähren möchten, führen Sie folgende Schritte aus:
+Gehen Sie wie folgt vor, um den Zugriff auf den Skype for Business-Server zu gewähren:
   
 1. Melden Sie sich als Mitglied der Gruppe „Domänen-Admins“ oder „RTCUniversalServerAdmins“ an.
     
@@ -35,11 +35,11 @@ Um Zugriff auf die Skype für Business Server gewähren möchten, führen Sie fo
 5. Überprüfen Sie auf der Registerkarte „Mitglieder“, ob die ausgewählten Benutzer bzw. Gruppen vorhanden sind. Klicken Sie auf **OK**.
     
 > [!TIP]
-> Die Skype Business Server-Systemsteuerung ist ein rollenbasierten. Die Mitgliedschaft in der Gruppe csadministrator hinzu ermöglicht einem Benutzer, der Skype für Business Server-Systemsteuerung Vollzugriff auf alle verfügbaren Konfigurationsfunktionen verwendet wird. Es sind weitere Rollen verfügbar, die für spezifische Funktionen konzipiert sind. Benutzer müssen nicht für Skype für Business Server aktiviert sein, damit die Mitglieder der Verwaltungsgruppen vorgenommen werden. 
+> Das Skype for Business Server Control Panel ist ein rollenbasiertes Zugriffs Steuerungstool. Die Mitgliedschaft in der CsAdministrator-Gruppe gibt Benutzern, die das Skype for Business Server Control Panel verwenden, Vollzugriff für alle verfügbaren Konfigurationsfunktionen. Es sind weitere Rollen verfügbar, die für spezifische Funktionen konzipiert sind. Benutzer müssen für Skype for Business Server nicht aktiviert sein, damit Sie Mitglieder der Verwaltungsgruppen werden können. 
   
-Andere Rollen umfassen:
+Weitere Rollen sind:
   
-- **CsArchiving:** Mitglieder dieser Gruppe können alle Archivierungsfunktionen wie konfigurieren und Verwalten der Archivierungsserver-Rolle ausführen.
+- **CsArchiving:** Mitglieder dieser Gruppe können alle Archivierungsfunktionen wie das Konfigurieren und Verwalten der Archivierungs Server Rolle ausführen.
     
 - **CsHelpDesk:** Mitglieder dieser Gruppe können die Konfiguration und Bereitstellung einschließlich Benutzereigenschaften und Richtlinien anzeigen. Mitglieder können zudem bestimmte Problembehandlungsaufgaben ausführen.
     
@@ -47,14 +47,14 @@ Andere Rollen umfassen:
     
 - **CsResponseGroupAdministrator:** Mitglieder können den Reaktionsgruppendienst verwalten und konfigurieren.
     
-- **CsServerAdministrator:** Mitglieder können verwalten, überwachen und beheben alle Server mit Skype für Business Server.
+- **CsServerAdministrator:** Mitglieder können alle Server mit Skype for Business Server verwalten, überwachen und beheben.
     
 - **CsUserAdministrator:** Mitglieder können Benutzer verwalten, aktivieren und deaktivieren sowie vorhandene Richtlinien Benutzern zuweisen.
     
-- **CsViewOnlyAdministrator:** Mitglieder können die Bereitstellung und Konfiguration der Serverinformationen anzeigen. Diese Mitgliedschaft ermöglicht Mitglied, um die Integrität der von den Servern mit Skype für Business Server zu überwachen.
+- **CsViewOnlyAdministrator:** Mitglieder können die Bereitstellung und Konfiguration der Server Informationen anzeigen. Diese Mitgliedschaft ermöglicht einem Mitglied, die Integrität der Server zu überwachen, auf denen Skype for Business Server ausgeführt wird.
     
-- **"Csvoiceadministrator":** Mitglieder können erstellen, konfigurieren und Verwalten von VoIP-bezogene Einstellungen in Skype für Business Server.
+- **CsVoiceAdministrator:** Mitglieder können sprachbezogene Einstellungen in Skype for Business Server erstellen, konfigurieren und verwalten.
     
-Um die Aufrechterhaltung von Sicherheit und Integrität der rollenbasierten-Steuerelement, Hinzufügen von Benutzern zu Gruppen, die definieren, welche Rolle der Benutzer bei der Verwaltung der der Skype für Business Server-Bereitstellung ausführt.
+Um die Integrität von Sicherheit und rollenbasierter Zugriffssteuerung zu erhalten, fügen Sie Benutzer zu den Gruppen hinzu, die definieren, welche Rolle der Benutzer bei der Verwaltung der Skype for Business Server-Bereitstellung übernimmt.
   
 

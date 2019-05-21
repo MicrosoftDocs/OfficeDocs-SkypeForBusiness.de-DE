@@ -1,32 +1,32 @@
 ---
-title: User-Ansicht
+title: Benutzeransicht
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
-description: Die Ansicht des Benutzers speichert Informationen zu Benutzer wurden beteiligt anrufen und Sitzungen, die Datensätze in der Datenbank verfügen. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: f4e255f2de8dd087308ee46c64ef301cc0e9d390
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Die Benutzeransicht speichert Informationen zu Benutzern, die an anrufen oder Sitzungen beteiligt waren, die Datensätze in der Datenbank aufweisen. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
+ms.openlocfilehash: 2fe0ba4748a776a8f17065a3c5db21d34bd6340d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930078"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295741"
 ---
-# <a name="user-view"></a>User-Ansicht
+# <a name="user-view"></a>Benutzeransicht
  
-Die Ansicht des Benutzers speichert Informationen zu Benutzer wurden beteiligt anrufen und Sitzungen, die Datensätze in der Datenbank verfügen. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
+Die Benutzeransicht speichert Informationen zu Benutzern, die an anrufen oder Sitzungen beteiligt waren, die Datensätze in der Datenbank aufweisen. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|Benutzer-ID  <br/> |int  <br/> |Eindeutige Zahl, die diesen Benutzer identifiziert.  <br/> |
-|UserUri  <br/> |nvarchar(450)  <br/> |Der URI des Benutzers.  <br/> |
-|TenantKey  <br/> |uniqueidentifier  <br/> |Mandant des Benutzers. Finden Sie weitere Informationen der [Tenants-Tabelle](tenants.md) . <br/> |
-|UriType  <br/> |nvarchar(256)  <br/> |Typ des Benutzer-URI. Finden Sie weitere Informationen der [UriTypes-Tabelle](uritypes.md) . <br/> |
+|UserID  <br/> |int  <br/> |Eindeutige Nummer, die diesen Benutzer kennzeichnet.  <br/> |
+|UserUri  <br/> |nvarchar (450)  <br/> |Der URI des Benutzers.  <br/> |
+|TenantKey  <br/> |uniqueidentifier  <br/> |Mandant des Benutzers. Weitere Informationen finden Sie in der [Tabelle Mandanten](tenants.md) . <br/> |
+|UriType  <br/> |nvarchar(256)  <br/> |Der Typ des Benutzer-URIs. Weitere Informationen finden Sie in der [UriTypes-Tabelle](uritypes.md) . <br/> |
    
 

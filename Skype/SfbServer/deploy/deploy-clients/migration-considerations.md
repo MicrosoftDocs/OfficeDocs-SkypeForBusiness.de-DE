@@ -3,60 +3,60 @@ title: Überlegungen zur Skype Room System-Migration
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
-description: Lesen Sie dieses Thema, um Informationen über die Bereitstellung von Skype Raum System in einer Umgebung, in denen mehrere Versionen von Skype Business Server und Lync Server.
-ms.openlocfilehash: f5e33c36b0c6a58d83f22e5c18f4de34ffb9d648
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Lesen Sie dieses Thema, um mehr über die Bereitstellung von Skype Room System in einer Umgebung zu erfahren, in der mehrere Versionen von Skype for Business Server und lync Server enthalten sind.
+ms.openlocfilehash: 35dd7cff34134791ebaf62bf4d0fcd1cf3b83a4c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895216"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293522"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Überlegungen zur Skype Room System-Migration
  
-Lesen Sie dieses Thema, um Informationen über die Bereitstellung von Skype Raum System in einer Umgebung, in denen mehrere Versionen von Skype Business Server und Lync Server.
+Lesen Sie dieses Thema, um mehr über die Bereitstellung von Skype Room System in einer Umgebung zu erfahren, in der mehrere Versionen von Skype for Business Server und lync Server enthalten sind.
   
 ## <a name="migration-considerations"></a>Überlegungen zur Migration
 
-In diesem Abschnitt erfahren Sie, wenn Sie Skype Raum System in einer Umgebung mit mehreren Pools bereitstellen, die verschiedene Versionen von Skype für Business Server oder Lync Server enthält. 
+Dieser Abschnitt enthält Anleitungen für die Bereitstellung von Skype Room System in einer Multi-Pool-Umgebung, die unterschiedliche Versionen von Skype for Business Server oder lync Server umfasst. 
   
-Die Benutzerreplikationskomponente (User Replicator; UR) in Lync Server erhält Benutzerobjekte aus Active Directory und legt sie in der Back-End-SQL-Serverdatenbank in Lync Server ab. Nur der BENUTZERREPLIKATIONSDIENST in Lync Server 2013 kennt Skype Raum Systemobjekte. Die UR in früheren Versionen von Lync Server und Office Communications Server erkennt nicht die Active Directory-Attribute zur Bezeichnung von LRS-Objekten, und nimmt sie dementsprechend auch nicht wahr. 
+Die Benutzerreplikationskomponente (User Replicator; UR) in Lync Server erhält Benutzerobjekte aus Active Directory und legt sie in der Back-End-SQL-Serverdatenbank in Lync Server ab. Nur die ur in lync Server 2013 ist sich der Skype Room-System Objekte bewusst. Die UR in früheren Versionen von Lync Server und Office Communications Server erkennt nicht die Active Directory-Attribute zur Bezeichnung von LRS-Objekten, und nimmt sie dementsprechend auch nicht wahr. 
   
-Wenn ein Skype Raum Systemkonto zur Anmeldung bei Lync versucht, und führt basierend auf SRV-Eintrag oder DNS-A-Eintrag Nachschlagen AutoErmittlung, und zeigen Sie diese Konten zu einer früheren Version von Lync Server oder Office Communications Server, erhält LRS eine 404 nicht gefunden-Antwort vom  Pool der Vorgängerversion. Pool der Vorgängerversion möglich zur Umleitung von Skype Raum System an die Lync Server 2013 home-Pool nicht. 
+Wenn ein Skype Room-System Konto versucht, sich bei lync anzumelden und die automatische Ermittlung basierend auf SRV-Eintrag oder DNS ausführt, wird ein Eintrag nachschlagen, und wenn diese Konten auf eine frühere Version von lync Server oder Office Communications Server verweisen, erhält LRS eine Antwort vom 404 nicht gefunden.  der Legacy Pool. Der Legacy Pool kann das Skype Room-System nicht in seinen lync Server 2013-Home-Pool umleiten. 
   
 Sie können diesem Problem mit folgenden Optionen begegnen: 
   
 - Verweisen Sie Ihren AutoErmittlung-SRV-Eintrag (_sipinternaltls._tcp.contoso.com) auf den Lync Server 2013-Pool.
     
-- Ist die erste Option nicht möglich, müssen Sie manuell konfigurieren LRS und geben Sie die Lync Server 2013-Pool-Adresse durch Konfigurieren sie direkt in die Konsolenanwendung Skype Raum System. 
+- Wenn die erste Option nicht möglich ist, müssen Sie LRS manuell konfigurieren und die lync Server 2013-Pool Adresse bereitstellen, indem Sie Sie direkt in der Skype Room System Console-Anwendung konfigurieren. 
     
-- Skype Raum System außerhalb des Unternehmensnetzwerks bereitgestellt wird, und einen Lync-Edge-Server bereitgestellt und zeigen Sie auf einem vorversionspool oder Director konfiguriert wurde, ein sekundärer Standort Edge-Server ist erforderlich, der auf dem Lync Server 2013-Pool verweist. Finden Sie in der Dokumentation zur Bereitstellung von Edge-Server für Weitere Informationen zum Bereitstellen einer sekundären Edge-Server. 
+- Wenn das Skype Room-System außerhalb des Unternehmensnetzwerks bereitgestellt wird und ein lync-Edgeserver bereitgestellt und so konfiguriert wurde, dass er auf einen Legacy Pool oder Director verweist, ist eine sekundäre Edgeserver-Website erforderlich, die auf den lync Server 2013-Pool verweist. Weitere Informationen zum Bereitstellen eines sekundären Edgeserver finden Sie in der Dokumentation zur Edge Server-Bereitstellung. 
     
-## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Skype-Raum Systeminteroperabilität mit einem Lync Server 2010-Pool
+## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Interoperabilität von Skype Room-Systemen mit einem lync Server 2010-Pool
 
-Während der Migration Wenn ein Benutzer, der auf einem Lync Server 2010-Pool verwaltet wird eine Besprechung plant und das Systemkonto Raum Skype lädt der Client Skype Raum System eingeschränkte Funktionalität auf haben während die Besprechung teilnehmen. 
+Wenn ein Benutzer, der sich in einem lync Server 2010-Pool befindet, eine Besprechung plant und das Skype Room System-Konto einlädt, hat der Skype Room-System Client während der Migration nur begrenzte Funktionen, während er an der Besprechung teilnimmt. 
   
-Wenn der Client Skype Raum System eine geplante Telefonkonferenz teilnimmt, die durch organisiert wurden, hat ein Benutzer auf Lync Server 2010, verwaltet, Skype Raum System weist die folgenden in der Besprechung Nachteile: 
+Wenn der Skype Room-System Client zu einem geplanten Konferenzanruf wechselt, der von einem Benutzer organisiert wurde, der sich in lync Server 2010 befindet, gelten für Skype Room System die folgenden Einschränkungen: 
   
-- Skype Raum System kann nicht Videogalerie mit Mehrfachansicht angezeigt werden.
+- Skype Room System kann den Multi-View-Video Katalog nicht anzeigen.
     
-- Es kann nicht auf Teilnehmer video Sperre anwenden, wenn der Client Skype Raum System der Referent ist.
+- Wenn es sich bei dem Skype Room-System Client um den Referenten handelt, kann er keine Video Sperre für Teilnehmer anwenden.
     
-- Skype Raum System kann nicht 1080p Auflösung (eingehend oder ausgehend), angezeigt werden, selbst wenn die konferenzrichtlinie für Lync Server 2013 es, aufgrund der folgenden ermöglicht: 
+- Skype Room System kann keine 1080p-Videoauflösung (eingehend oder ausgehend) anzeigen, selbst wenn die lync Server 2013-konferenzrichtlinie dies zulässt, und zwar aufgrund der folgenden Schritte: 
     
-  - Lync Server 2010 unterstützt keine 1080p-Lösung.
+  - Lync Server 2010 unterstützt keine 1080p-Auflösung.
     
-  - Skype Raum System wird immer durch der Organisator konferenzrichtlinie für videoauflösung begrenzt. Aus diesem Grund, auch wenn der Lync 2010-Pool 720p Lösung unterstützt, werden Skype Raum System nicht 720p-Auflösung nutzen, solange des Organisators Richtlinie nicht unterstützt. 
+  - Das Skype-Raum System ist immer durch die Konferenzrichtlinien des Organisators für die Videoauflösung limitiert. Auch wenn der lync 2010-Pool eine 720p-Auflösung unterstützt, kann Skype Room System die 720p-Auflösung nicht nutzen, solange die Richtlinien von Organizer dies nicht unterstützen. 
     
 - Lync 2013-Clients erkennen das Vorhandensein von LRS im Besprechungsraum und schalten sich selbst stumm, um Rückkopplungen im physischen Besprechungsraum zu vermeiden. Dieses Feature funktioniert nicht in Besprechungen, die auf Lync Server 2010 gehostet werden.
     
 - Für die Leistungsfähigkeit von Desktopfreigaben für auf Lync Server 2010 gehosteten Besprechungen gelten Einschränkungen.
     
-- Benutzer möglich nicht, private (eingeschränkte) an Besprechungen teilzunehmen, die gehostet werden für Lync 2010 mit Skype Raum System.
+- Benutzer können nicht an privaten (eingeschränkten) Besprechungen teilnehmen, die in lync 2010 mit Skype Room System gehostet werden.
     
 

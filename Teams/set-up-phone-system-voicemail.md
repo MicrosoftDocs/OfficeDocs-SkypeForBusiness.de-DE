@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,61 +20,61 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Informationen Sie zum Einrichten von Voicemail Cloud für Ihre Benutzer. '
-ms.openlocfilehash: 827c52bf526ba84e4f571102354a096e2dc8e2f4
-ms.sourcegitcommit: a46dad8dfc685534d81bb011f3c099c6f59ce2e0
+description: 'Hier erfahren Sie, wie Sie Cloud Voicemail für Ihre Benutzer einrichten. '
+ms.openlocfilehash: bff4de7ed77ae7168e6daacf258e73dbc17a736a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33882869"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298671"
 ---
 # <a name="set-up-cloud-voicemail"></a>Einrichten von Cloudvoicemail
 
-Dieser Artikel ist für die [Office 365-Admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) , möchte das Cloud-Voicemail-Feature für alle Benutzer im Unternehmen eingerichtet.
+Dieser Artikel richtet sich an den [Office 365-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) , der die Cloud-Voicemail-Funktion für alle Personen im Unternehmen einrichten möchte.
 
 > [!NOTE]
-> Cloud Voicemail unterstützt Voicemailnachrichten Hinterlegung nur in einem Exchange-Postfach und Drittanbieter-e-Mail-Systemen nicht unterstützt. 
+> Cloud Voicemail unterstützt das Hinterlegen von Voicemail-Nachrichten nur in einem Exchange-Postfach und unterstützt keine e-Mail-Systeme von Drittanbietern. 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>Nur-Cloud-Umgebungen: Einrichten von Cloud-Voicemail
+## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>Cloud-only-Umgebungen: Einrichten von Cloud-Voicemail
 
-Cloud-Voicemail wird für Skype für Benutzer Online Business und plant aufrufen einrichten und für Benutzer bereitgestellt werden, nachdem Sie ihnen eine Lizenz **Telefonsystem** und eine Telefonnummer zuweisen.
+Bei Skype for Business Online-und Anruf Plan Benutzern wird Cloud Voicemail automatisch für Benutzer eingerichtet und bereitgestellt, nachdem Sie Ihnen eine **Telefon System** Lizenz und eine Telefonnummer zugewiesen haben.
   
-1. Wenn die Telefonsystemfunktion nicht in Ihrem Plan enthalten ist, müssen Sie möglicherweise Lizenzen für das **Telefonsystem**-Add-On kaufen. Sie müssen möglicherweise auch eine Exchange Online-Lizenz kaufen. Finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+1. Wenn die Telefonsystemfunktion nicht in Ihrem Plan enthalten ist, müssen Sie möglicherweise Lizenzen für das **Telefonsystem**-Add-On kaufen. Sie müssen möglicherweise auch eine Exchange Online-Lizenz kaufen. Weitere Informationen finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-2. [Zuweisen oder Entfernen von Lizenzen für Office 365 für Unternehmen](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), die [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md)und die Exchange Online Lizenzen an die Personen in Ihrem Unternehmen. Anschließend können sie Voicemailnachrichten empfangen.
+2. [Zuweisen oder Entfernen von Lizenzen für Office 365 for Business](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md)und Exchange Online-Lizenzen für die Personen in Ihrem Unternehmen. Anschließend können sie Voicemailnachrichten empfangen.
     
 3. Seit März 2017 ist die Unterstützung für Voicemailtranskription standardmäßig für alle Organisationen und Benutzer aktiviert. Sie können die Transkription für Ihre Organisation mithilfe von Windows PowerShell deaktivieren, indem Sie die folgenden Schritte ausführen.
 
 ## <a name="phone-system-with-on-premises-environments"></a>Telefonsystem in lokalen Umgebungen
 
-Die folgenden Informationen sind zum Konfigurieren von Cloud-Voicemail lokale aufrufen planen Umgebungen entwickelt.
+Die folgenden Informationen bezieht sich auf die Konfiguration von Cloud Voicemail für die Arbeit mit lokalen Anruf Plan Umgebungen.
   
-1. Wenn die Telefonsystemfunktion nicht in Ihrem Plan enthalten ist, müssen Sie möglicherweise Lizenzen für das **Telefonsystem**-Add-On kaufen. Sie müssen auch eine Exchange Online-Lizenz kaufen. Finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+1. Wenn die Telefonsystemfunktion nicht in Ihrem Plan enthalten ist, müssen Sie möglicherweise Lizenzen für das **Telefonsystem**-Add-On kaufen. Sie müssen auch eine Exchange Online-Lizenz kaufen. Weitere Informationen finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-2. [Zuweisen oder Entfernen von Lizenzen für Office 365 für Unternehmen](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), die [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md)und die Exchange Online Lizenzen an die Personen in Ihrem Unternehmen.
+2. [Zuweisen oder Entfernen von Lizenzen für Office 365 for Business](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md)und Exchange Online-Lizenzen für die Personen in Ihrem Unternehmen.
     
-3. Führen Sie die Anweisungen übereinstimmenden lokale öffentliche Telefonnetz für Ihre Benutzer bereitgestellte Lösung. Befolgen Sie die Anweisungen im Abschnitt über das [Konfigurieren von Skype für Business Cloud Connector Edition Handbuch](https://technet.microsoft.com/library/mt605228.aspx) **Aktivieren von Benutzern für Telefonsystem Sprach- und Voicemail-Dienste** , für die Cloud Connector Edition. Führen Sie für PSTN durch den Aufruf von Skype für Business Server [Aktivieren Sie die Benutzer für Enterprise-VoIP lokal](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises). Führen Sie für Teams direkten Routing im Abschnitt **Enterprise-VoIP aktivieren und konfigurieren Sie die Telefonnummer und Voicemail** [direkte](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail)Routing konfigurieren.
+3. Befolgen Sie die Anweisungen für die lokale PSTN-Anruf Lösung, die für Ihre Benutzer bereitgestellt wird. Befolgen Sie für Cloud Connector Edition die Anweisungen im Abschnitt **Benutzer für Telefon System-sprach-und Voicemail-Dienste aktivieren** des [Skype for Business Cloud Connector Edition-](https://technet.microsoft.com/library/mt605228.aspx)Handbuchs. Für PSTN-Anrufe mit Skype for Business Server, folgen Sie [Aktivieren der Benutzer für Enterprise-VoIP lokal](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises). Wenn Sie das direkte Routing von Teams ausführen möchten, folgen Sie dem Abschnitt konfigurieren **der Telefonnummer und Aktivieren von Enterprise-VoIP und Voicemail** unter [Konfigurieren des direkten Routings](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail).
 
 4. Seit März 2017 ist die Unterstützung für Voicemailtranskription standardmäßig für alle Organisationen und Benutzer aktiviert. Sie können die Transkription für Ihre Organisation mithilfe von Windows PowerShell deaktivieren, indem Sie die folgenden Schritte ausführen.
 
-5. Voicemailnachrichten werden mit Exchange-Postfach der Benutzer über SMTP über Exchange Online Protection weitergeleitet übermittelt. Werden Sie um die erfolgreiche Übermittlung dieser Nachrichten zu aktivieren, sicher, dass die Exchange-Connectors zwischen Exchange-Servern und Exchange Online Protection korrekt konfiguriert sind. [Verwendung Connectors zu E-Mail-Fluss zu konfigurieren](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
+5. Voicemail-Nachrichten werden an das Exchange-Postfach der Benutzer über einen SMTP-Router über den Exchange Online-Schutz übermittelt. Um eine erfolgreiche Zustellung dieser Nachrichten zu ermöglichen, stellen Sie sicher, dass Exchange-Connectors zwischen Ihren Exchange-Servern und dem Exchange Online-Schutz ordnungsgemäß konfiguriert sind. [Verwenden Sie Connectors zum Konfigurieren des Nachrichtenflusses](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 
-6. Verbindung zwischen Office 365 und Exchange Server-Postfachs über Exchange-Webdienste ist erforderlich, um Voicemail-Features wie beispielsweise anpassen Ansagen und visual Voicemail in Skype für Business-Clients zu aktivieren. Um diese Konnektivität zu aktivieren müssen Sie konfigurieren die neue Exchange-Oauth-Authentifizierungsprotokoll beschreiben in [Konfigurieren der OAuth-Authentifizierung zwischen Exchange- und Exchange Online-Organisationen](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) 
+6. Um Voicemail-Features wie das Anpassen von Begrüßungen und visuelle Voicemail in Skype for Business-Clients zu aktivieren, ist die Konnektivität von Office 365 mit dem Exchange Server-Postfach über Exchange-Webdienste erforderlich. Um diese Verbindung zu aktivieren, müssen Sie das neue Exchange OAuth-Authentifizierungsprotokoll konfigurieren, das unter [Konfigurieren der OAuth-Authentifizierung zwischen Exchange und Exchange Online-Organisationen](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) beschrieben wird. 
 
 > [!NOTE]
-> Die Exchange-Hybrid-Assistenten ausführen von Exchange 2013 CU5 oder höher wird automatisch die Anforderungen in die Schritte 5 und 6 behandelt. 
+> Der Exchange-Hybrid-Assistent, der von Exchange 2013 CU5 oder höher ausgeführt wird, übernimmt die Anforderungen in den Schritten 5 und 6 automatisch. 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Einrichten von Voicemailrichtlinien in Ihrer Organisation
 
 > [!WARNING]
-> Für Skype für Geschäftskunden möglicherweise die Deaktivieren von Voicemail über ein Microsoft-Teams, Richtlinie Aufrufen den Voicemail-Dienst für Ihre Skype für Unternehmensbenutzer auch deaktivieren.
+> Bei Skype for Business-Kunden kann das Deaktivieren von Voicemail über eine Microsoft Teams-Anrufrichtlinie auch den Voicemaildienst für Ihre Skype for Business-Benutzer deaktivieren.
 
 Voicemail-Transkription ist standardmäßig aktiviert und die Profanitäts-Maskierung während der Transkription ist standardmäßig für alle Organisationen und Benutzer deaktiviert. Sie können sie jedoch mithilfe der Cmdlets [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) und [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) steuern.
 
 > [!IMPORTANT]
-> Sie können eine neue Richtlinieninstanz für Umsetzung und Lautschrift Gotteslästerung maskieren mit dem Cmdlet **New-CsOnlineVoiceMailPolicy** erstellen, und eine vorhandene Richtlinieninstanz mithilfe des Cmdlets **Remove-CsOnlineVoiceMailPolicy** kann nicht entfernt werden .
+> Sie können keine neue Richtlinieninstanz für die Maskierung von Transkriptions-und Transkriptions Obszönitäten mithilfe des Cmdlets **New-CsOnlineVoiceMailPolicy** erstellen, und Sie können eine vorhandene Richtlinieninstanz nicht mithilfe des Cmdlets **Remove-CsOnlineVoiceMailPolicy** entfernen. .
 
-Sie können die Transkriptionseinstellungen für Ihre Benutzer mit Voicemailrichtlinien verwalten. Um alle verfügbaren Voicemail-Richtlinieninstanzen angezeigt wird, können Sie das Cmdlet [Get-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) verwenden.
+Sie können die Transkriptionseinstellungen für Ihre Benutzer mit Voicemailrichtlinien verwalten. Um alle verfügbaren Voicemail-Richtlinieninstanzen anzuzeigen, können Sie das Cmdlet [Get-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) verwenden.
 
  **PS C:\\> Get-CsOnlineVoicemailPolicy**
   
@@ -90,7 +90,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 
 ### <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>Aktivieren der Profanitäts-Maskierung während der Transkription für Ihre Organisation
 
-Profanität-Maskierung während der Transkription ist standardmäßig für Ihre Organisation deaktiviert. Falls es eine Geschäftsanforderung ist, diese zu aktivieren, können Sie die Profanitäts-Maskierung während der Transkription mithilfe von [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) aktivieren. Zu diesem Zweck führen Sie Folgendes aus:
+Profanität-Maskierung während der Transkription ist standardmäßig für Ihre Organisation deaktiviert. Falls es eine Geschäftsanforderung ist, diese zu aktivieren, können Sie die Profanitäts-Maskierung während der Transkription mithilfe von [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) aktivieren. Führen Sie dazu die folgenden Aktionen aus:
 
 ```
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
@@ -98,7 +98,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 ### <a name="turning-off-transcription-for-a-user"></a>Aufzeichnung für einen Benutzer deaktivieren
 
-Benutzerrichtlinien werden vor den Standardeinstellungen für die Organisation ausgewertet. Wenn Voicemail Lautschrift für alle Benutzer aktiviert ist, können Sie beispielsweise eine Richtlinie Lautschrift für einen bestimmten Benutzer zu deaktivieren, indem Sie mit dem Cmdlet [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx) zuweisen.
+Benutzerrichtlinien werden vor den Standardeinstellungen für die Organisation ausgewertet. Wenn beispielsweise die Voicemail-Transkription für alle Benutzer aktiviert ist, können Sie mithilfe des Cmdlets [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx) eine Richtlinie zum Deaktivieren der Transkription für einen bestimmten Benutzer zuweisen.
 
 Führen Sie zum Deaktivieren eines einzelnen Benutzers den folgenden Dienst aus:
 

@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
-description: UriTypes-Tabelle sind die unterschiedlichen URI (Uniform Resource Identifier) Typen in Skype für Business Server 2015 überwacht.
-ms.openlocfilehash: 72704715ff5e5fd3a354b75b0aa6baff45ecea54
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Die UriTypes-Tabelle enthält die verschiedenen URI-Typen (Uniform Resource Identifier), die in Skype for Business Server 2015 überwacht werden.
+ms.openlocfilehash: 5ad8e1d0432aff3278f897fbe82d3759ad3c95e1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930269"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295748"
 ---
 # <a name="uritypes-table"></a>UriTypes-Tabelle
  
-UriTypes-Tabelle sind die unterschiedlichen URI (Uniform Resource Identifier) Typen in Skype für Business Server 2015 überwacht.
+Die UriTypes-Tabelle enthält die verschiedenen URI-Typen (Uniform Resource Identifier), die in Skype for Business Server 2015 überwacht werden.
 
-Wenn der CDR-DB erstellt wird, werden zwei Datensätze zur Darstellung von PhoneUri und UserUri erstellt, und Einträge erstellt, die dynamisch UriTypeId zugeordnet sind. 
+Wenn die CDR-DB erstellt wird, werden zwei Datensätze erstellt, die PhoneUri und UserUri darstellen, und Datensätze, die danach erstellt wurden, werden dynamisch UriTypeId zugeordnet. 
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**UriTypeId** <br/> |tinyint  <br/> |Primary  <br/> |Eindeutiger Bezeichner, einem URI-Typ zugewiesen sind.  <br/> Mögliche Werte - zwischen 0 und 255 |
-|**UriType** <br/> |nvarchar(256)  <br/> || Eine Beschreibung der verschiedenen URI. Die folgenden Werte sind zugeordnete: <br/>  1 – Telefon-Uri <br/>  0 - Benutzer-Uri <br/> <br/>  Andere mögliche Typen sind: <br/>conf:applicationsharing <br/> conf:audio-video<br/> conf:Chat<br/>    conf:focus<br/>   MRAS<br/>
+|**UriTypeId** <br/> |tinyint  <br/> |Primary  <br/> |Eindeutiger Bezeichner, der einem URI-Typ zugewiesen ist.  <br/> Mögliche Werte: 0 bis 255 |
+|**UriType** <br/> |nvarchar(256)  <br/> || Beschreibungen der verschiedenen URI-Typen. Die folgenden Werte sind bereits zugewiesen: <br/>  1-Phone-URI <br/>  0-Benutzer-URI <br/> <br/>  Weitere mögliche Typen sind: <br/>conf:applicationsharing <br/> conf:audio-video<br/> conf: Chat<br/>    conf:focus<br/>   MRAS<br/>

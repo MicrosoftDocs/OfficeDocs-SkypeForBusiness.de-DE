@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 2/15/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,32 +16,32 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
-description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie eine VoIP-Richtlinie für Benutzer mit Telefonsystem im Office 365 mit lokalen PSTN-Anbindung zuweisen.'
-ms.openlocfilehash: 489e4988d21d7d22f4bcfe0756c4f0d462a1906e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie eine VoIP-Richtlinie für Benutzer zuweisen, die das Telefon System in Office 365 mit einer lokalen PSTN-Verbindung verwenden.'
+ms.openlocfilehash: 0d310378b77c09b427836f0d9bceb60a14982071
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234453"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294432"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Zuweisen einer VoIP-Routingrichtlinie
  
-**Zusammenfassung:** Lesen Sie in diesem Thema erfahren, wie eine VoIP-Richtlinie für Benutzer mit Telefonsystem im Office 365 mit lokalen PSTN-Anbindung zuweisen. 
+**Zusammenfassung:** Lesen Sie dieses Thema, um zu erfahren, wie Sie eine VoIP-Richtlinie für Benutzer zuweisen, die das Telefon System in Office 365 mit lokalen PSTN-Verbindungen verwenden. 
   
-Sobald ein Benutzer auf Skype für Business Online und lokalen PSTN-Anbindung Telefonsystem in Office 365 mit ist, werden zwei VoIP-Richtlinien angewendet werden. Eine ist eine lokale VoIP-Routingrichtlinie, die Sie lokal zuweisen möchten. Diese Richtlinie kann global oder benutzerspezifische und definiert, welche PSTN-verwendungsdatensätzen dem Benutzer zugeordnet sind. In diesem Thema wird erläutert, wie die Richtlinie zugewiesen wird.
+Sobald sich ein Benutzer in Skype for Business Online befindet und die Telefonanlage in Office 365 mit lokalen PSTN-Konnektivität verwendet, gelten zwei VoIP-Richtlinien für Sie. Eine ist eine lokale VoIP-Routing Richtlinie, die Sie lokal zuweisen können. Diese Richtlinie kann global oder benutzerspezifisch sein und definiert, welche PSTN-Verwendungsdaten Sätze dem Benutzer zugeordnet sind. In diesem Thema wird erläutert, wie die Richtlinie zugewiesen wird.
   
-Die VoIP-Richtlinie definiert, welche Anruffunktionen für den Benutzer verfügbar sind. Diese VoIP-Richtlinie wird von Microsoft definiert und ist für alle Telefonsystem in Office 365 mit lokalen PSTN Connectivity Benutzer identisch. Es wird automatisch Telefonsystem in Office 365-Benutzer zugewiesen.
+Die andere VoIP-Richtlinie definiert, welche Anruffeatures für den Benutzer verfügbar sind. Diese VoIP-Richtlinie wird von Microsoft definiert und ist für das gesamte Telefon System in Office 365 mit lokalen PSTN-Konnektivitäts-Benutzern identisch. Sie wird automatisch dem Telefon System in Office 365-Benutzern zugewiesen.
   
-||**Lokale Benutzer**|**Telefonsystem in Office 365 mit lokalen PSTN Connectivity-Benutzer**|
+||**Lokale Benutzer**|**Telefon System in Office 365 mit lokalem PSTN-Konnektivitäts-Benutzer**|
 |:-----|:-----|:-----|
-|Anruffunktionen definiert in  <br/> |VoIP-Richtlinie  <br/> |Vordefiniert sind VoIP-Richtlinie, die automatisch zugeordnet werden, wenn der Benutzer für Telefonsystem in Office 365 lizenziert ist.  <br/> |
+|Anruffunktionen definiert in  <br/> |VoIP-Richtlinie  <br/> |Vordefinierte VoIP-Richtlinie, die automatisch zugewiesen wird, wenn der Benutzer für das Telefon System in Office 365 lizenziert ist.  <br/> |
 |PSTN-Verwendungsdatensätze in Verbindung mit  <br/> |VoIP-Richtlinie  <br/> |VoIP-Routingrichtlinie, wird zugeordnet, während der Benutzer noch lokal verwaltet wird.  <br/> |
    
-Sie führen die folgenden Schritte aus, die mit der lokalen Bereitstellung während der Benutzer noch in der lokalen Bereitstellung verwaltet wird.
+Mit der lokalen Bereitstellung führen Sie die folgenden Schritte aus, während der Benutzer weiterhin in der lokalen Bereitstellung verwaltet wird.
   
 ## <a name="using-a-global-voice-routing-policy"></a>Verwenden einer globalen VoIP-Richtlinie
 
-Bevor Sie eine globale VoIP-Routingrichtlinie für Ihr Telefonsystem in Office 365 mit lokalen PSTN Connectivity Benutzer verwenden, müssen Sie PSTN-Verwendungseinträge für die Richtlinie hinzufügen.
+Bevor Sie eine globale VoIP-Routing Richtlinie für Ihr Telefon System in Office 365 mit lokalen PSTN-Konnektivitäts-Benutzern verwenden, müssen Sie der Richtlinie PSTN-Verwendungsdaten Sätze hinzufügen.
   
 ### <a name="to-assign-pstn-usage-records-to-the-global-voice-routing-policy"></a>So werden der globalen VoIP-Routingrichtlinie PSTN-Verwendungsdatensätze zugeordnet
 
@@ -49,7 +49,7 @@ Bevor Sie eine globale VoIP-Routingrichtlinie für Ihr Telefonsystem in Office 3
     
 2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
     
-3. Fügen Sie die PSTN-verwendungsdatensätzen der Richtlinie:
+3. Fügen Sie der Richtlinie die PSTN-Verwendungseinträge hinzu:
     
    ```
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
@@ -107,6 +107,6 @@ Unabhängig davon, ob Sie eine globale oder eine benutzerorientierte VoIP-Routin
 
 In diesem Beispiel wird der Benutzer mit dem Anzeigenamen „Bob Kelly“ einer zuvor erstellten VoIP-Richtlinie mit dem Namen „HybridVoice“ zugewiesen.
   
-Weitere Informationen zur VoIP-Routingrichtlinien zurückgegeben, finden Sie unter [Erstellen oder ändern eine VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), ["New-csvoiceroutingpolicy"](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)und [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).
+Weitere Informationen zu VoIP-Routing Richtlinien finden Sie unter [erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)und [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).
   
 

@@ -1,42 +1,42 @@
 ---
-title: Migration zu Skype für Business Server 2019
+title: Migration zu Skype for Business Server 2019
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: In den Themen in diesem Abschnitt begleiten Sie bei der Migration zu Skype für Business Server 2019.
-ms.openlocfilehash: 32babd6fedd5defc756f73bbf001716c7c0b8a72
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Die Themen in diesem Abschnitt führen Sie durch den Prozess der Migration zu Skype for Business Server 2019.
+ms.openlocfilehash: bd1513e5ca2a33449f982394e4abc15b9616393b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231609"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298148"
 ---
-# <a name="migration-to-skype-for-business-server-2019"></a>Migration zu Skype für Business Server 2019
+# <a name="migration-to-skype-for-business-server-2019"></a>Migration zu Skype for Business Server 2019
 
-In den Themen in diesem Abschnitt begleiten Sie bei der Migration zu Skype für Business Server 2019. Dieser Artikel behandelt Migrieren von Lync Server 2013 oder Skype für Business Server 2015 zu Skype für Business Server 2019.
+Die Themen in diesem Abschnitt führen Sie durch den Prozess der Migration zu Skype for Business Server 2019. Dieser Artikel behandelt die Migration von lync Server 2013 oder Skype for Business Server 2015 zu Skype for Business Server 2019.
 
 > [!IMPORTANT]
-> Im gesamten Inhalt verwenden wir den Begriff *legacy* auf der Vorgängerversion Lync Server 2013 oder Skype für Business Server 2015 verweisen möchten, die Sie zu Skype für Business Server 2019 migrieren.
+> Im gesamten Inhalt verwenden wir den Begriff *Legacy* , um auf den Legacy-lync Server 2013 oder Skype for Business Server 2015 zu verweisen, den Sie zu Skype for Business Server 2019 migrieren.
   
 > [!IMPORTANT]
-> Dieses Handbuch beschreibt die Schritte im Allgemeinen erforderlich, um die einzelnen Phasen der Migration zu erreichen. Es werden nicht alle möglichen legacy Bereitstellungstopologie oder jede mögliche Migrationsszenario behandelt. Aus diesem Grund möglicherweise nicht müssen Sie jeden Schritt beschrieben ausführen, oder Sie müssen zusätzliche Schritte, abhängig von Ihrer Bereitstellung ausführen. Dieses Handbuch enthält auch Beispiele Überprüfungsschritte. Diese Schritte werden bereitgestellt, um Ihnen zu verdeutlichen, was Sie benötigen, um sicherzustellen, dass die, die jeder Phase als Bearbeitung über die Migration erfolgreich abgeschlossen wird gesucht. Passen Sie diese Schritte für Ihre spezifische Migrationsprozess. 
+> In diesem Leitfaden werden die Schritte beschrieben, die in der Regel für die einzelnen Migrationsphasen erforderlich sind. Sie bezieht sich nicht auf jede mögliche Legacy Bereitstellungstopologie oder alle möglichen Migrationsszenarien. Daher müssen Sie möglicherweise nicht alle beschriebenen Schritte ausführen, oder Sie müssen abhängig von Ihrer Bereitstellung möglicherweise zusätzliche Schritte ausführen. Dieses Handbuch enthält auch Beispiele für Überprüfungsschritte. Diese Überprüfungsschritte werden bereitgestellt, um Ihnen zu verdeutlichen, was Sie suchen müssen, um sicherzustellen, dass jede Phase erfolgreich abgeschlossen wird, während Sie Ihre Migration fortführen. Passen Sie diese Überprüfungsschritte an den jeweiligen Migrationsprozess an. 
   
-Dieses Handbuch enthält Informationen, die speziell für Ihre vorhandene Bereitstellung aktualisieren. Es wird nicht zum Ändern Ihrer vorhandenen Topologie erläutert. Die Implementierung der neuen Features behandelt in diesem Handbuch nicht. Wenn Sie eine detaillierte Vorgehensweise detailliert beschrieben sind, weist Sie dieses Handbuch zum Artikel oder Artikel-Abschnitt. 
+Dieses Handbuch enthält Informationen, die speziell für das Upgrade Ihrer vorhandenen Bereitstellung gelten. Es wird nicht erläutert, wie Sie Ihre vorhandene Topologie ändern. In diesem Leitfaden wird die Implementierung neuer Features nicht behandelt. Wenn eine detaillierte Prozedur an anderer Stelle dokumentiert wird, werden Sie in diesem Leitfaden zum Artikel-oder Artikel Abschnitt weitergeleitet. 
   
-In diesem Artikel werden Begriffe definiert, wie in der folgenden Liste angegeben.
+In diesem Artikel werden die in der folgenden Liste angegebenen Ausdrücke definiert.
   
-**Migration:** Verschieben der produktionsbereitstellung von Lync Server 2013 oder Skype für Business Server 2015 zu Skype für Business Server 2019.
+**Migration:** Verschieben der Produktionsbereitstellung von lync Server 2013 oder Skype for Business Server 2015 auf Skype for Business Server 2019.
     
-**Koexistenz:** Die temporäre Umgebung, die während der Migration vorhanden ist, wenn einige Funktionen zu Skype für Business Server 2019 und andere Funktionen migriert wurde, ist weiterhin auf einer früheren Version.
+**Koexistenz:** Die temporäre Umgebung, die während der Migration vorhanden ist, wenn einige Funktionen in Skype for Business Server 2019 migriert wurden und andere Funktionen weiterhin auf einer früheren Version verbleiben.
     
-**Interoperabilität:** Die Fähigkeit Ihrer Bereitstellung während der Phase der Koexistenz erfolgreich ausgeführt werden.
+**Interoperabilität:** Die Möglichkeit, dass Ihre Bereitstellung während des Zeitraums der Koexistenz erfolgreich ausgeführt werden kann.
 
-**legacy:** Das System schrittargumente, migrieren Sie die Lync Server 2013 oder Skype für Business Server 2015 ist.
+**Legacy:** Das System, von dem Sie die Migration fortführen, also entweder lync Server 2013 oder Skype for Business Server 2015.
     
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
@@ -48,7 +48,7 @@ In diesem Artikel werden Begriffe definiert, wie in der folgenden Liste angegebe
     
 - [Phase 3: Bereitstellen des Pilotpools](phase-3-deploy-pilot-pool.md)
     
-- [Phase 4: Verschieben von Testbenutzern in den pilotpool](phase-4-move-test-users-to-the-pilot-pool.md)
+- [Phase 4: Verschieben von Testbenutzern in den Pilot Pool](phase-4-move-test-users-to-the-pilot-pool.md)
     
 - [Phase 5: Hinzufügen von Edgeservern zum Pilotpool](phase-5-add-edge-server-to-pilot-pool.md)
     

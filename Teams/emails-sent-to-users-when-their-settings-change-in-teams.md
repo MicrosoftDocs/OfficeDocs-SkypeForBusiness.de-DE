@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie, welche Informationen automatisch per E-Mail an Benutzer gesendet werden, wenn sich ihre Dial-in-Konferenzeinstellungen in Microsoft Teams ändern. '
-ms.openlocfilehash: 67e4945095b9ed7e69632741e04b4ac384741feb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9d05fed1210e1060800f51b5ff8aed211e5bae66
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245110"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298906"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen in Microsoft Teams ändern
 
@@ -35,7 +35,7 @@ Standardmäßig gibt es vier Arten von E-Mails, die an die für Audiokonferenzen
 
 - **Den Benutzern wird eine Lizenz für Audiokonferenzen zugewiesen, oder Sie ändern den Audiokonferenzanbieter in Microsoft.**
 
-     Diese E-Mail enthält die Konferenzkennung, die standardmäßige Konferenztelefonnummer für die Besprechungen, die Audiokonferenz-PIN für den Benutzer sowie Anweisungen und den Link zum Besprechungsaktualisierungstool für Skype for Business Online, das zum Aktualisieren vorhandener Besprechungen für den Benutzer verwendet wird. Finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md) oder [Microsoft als Anbieter von Audiokonferenzen zuweisen](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
+     Diese E-Mail enthält die Konferenzkennung, die standardmäßige Konferenztelefonnummer für die Besprechungen, die Audiokonferenz-PIN für den Benutzer sowie Anweisungen und den Link zum Besprechungsaktualisierungstool für Skype for Business Online, das zum Aktualisieren vorhandener Besprechungen für den Benutzer verwendet wird. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md) oder [Zuweisen von Microsoft als Anbieter](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)von Audiokonferenzen.
 
     > [!NOTE]
     > Wenn Ihre Organisation für dynamische Konferenzkennungen aktiviert wurde, weisen alle von einem Benutzer geplanten Besprechungen eindeutige Konferenzkennungen auf. Sie können [dynamische Audiokonferenzkennungen in Ihrer Organisation](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user) einrichten. 
@@ -44,7 +44,7 @@ Standardmäßig gibt es vier Arten von E-Mails, die an die für Audiokonferenzen
 
      ![Bestätigung der Skype for Business-Lizenz](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    Weitere Informationen zu Lizenzierung finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 - **Die Konferenzkennung oder die standardmäßige Konferenztelefonnummer eines Benutzers wird geändert.**
 
@@ -77,7 +77,7 @@ Standardmäßig gibt es vier Arten von E-Mails, die an die für Audiokonferenzen
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Vornehmen von Änderungen an den gesendeten E-Mails
 
-Sie können die e-Mail-Nachricht ändern, die automatisch an Benutzer gesendet wird. In der Standardeinstellung der Absender der e-Mail werden von Office 365, aber Sie können den Anzeigenamen von Windows PowerShell ändern. Weitere Informationen finden Sie in der [PowerShell-Referenz für Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Sie können Änderungen an der e-Mail vornehmen, die automatisch an Benutzer gesendet wird. Standardmäßig wird der Absender der e-Mails von Office 365, aber Sie können den Anzeigenamen mithilfe von Windows PowerShell ändern. Weitere Informationen finden Sie in der [PowerShell-Referenz für Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Wie gehen Sie vor, wenn keine E-Mails an die Benutzer gesendet werden sollen?
 
@@ -85,7 +85,7 @@ Wenn Sie das Senden von E-Mails an die Benutzer deaktivieren, werden auch dann k
 
 Standardmäßig werden E-Mails an die Benutzer gesendet. Wenn Sie nicht möchten, dass die Benutzer E-Mails für Audiokonferenzen erhalten, können Sie Microsoft Teams oder Windows PowerShell verwenden. 
 
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
+![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center**
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ImpChooseFileType
@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
-description: Verwenden Sie das Dialogfeld auswählen von Dateityperweiterungen dateityperweiterungen aus, den Sie blockieren oder Zulassen von (zum zulassen) durch (auf Block) aktivieren oder deaktivieren möchten geben Sie die Kontrollkästchen neben den Erweiterungen unter Datei Extensions. Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und Anzeigen aller Dateitypen für die Kategorie. Wenn Sie alle dateityperweiterungen für eine Kategorie auswählen möchten, wählen Sie den Namen der Kategorie.
-ms.openlocfilehash: 80f70530496bed374b8122a6580af0c70013c22e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Verwenden Sie das Dialogfeld Dateityperweiterungen auswählen, um die Dateityperweiterungen auszuwählen, die Sie blockieren oder zulassen möchten, indem Sie die Kontrollkästchen neben den Erweiterungen unter Dateityperweiterungen aktivieren (blockieren) oder deaktivieren (zulassen). Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und alle Dateitypen Erweiterungen für diese Kategorie anzuzeigen. Wenn Sie alle Dateitypen Erweiterungen für eine Kategorie auswählen möchten, wählen Sie den Kategorienamen aus.
+ms.openlocfilehash: f332e32fa957cbc1736110bfe5faec7ce2a6cd8c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891453"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292920"
 ---
 # <a name="select-file-type-extensions"></a>Auswählen von Dateityperweiterungen
  
-Verwenden Sie das Dialogfeld **Auswählen von Dateityperweiterungen** dateityperweiterungen aus, den Sie blockieren oder Zulassen von (zum zulassen) durch (auf Block) aktivieren oder deaktivieren möchten die Kontrollkästchen neben den Erweiterungen unter **dateityperweiterungen**. Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und Anzeigen aller Dateitypen für die Kategorie. Wenn Sie alle dateityperweiterungen für eine Kategorie auswählen möchten, wählen Sie den Namen der Kategorie. 
+Verwenden Sie das Dialogfeld **Dateityperweiterungen auswählen** , um die Dateityperweiterungen auszuwählen, die Sie blockieren oder zulassen möchten, indem Sie die Kontrollkästchen neben den Erweiterungen unter **Dateityperweiterungen**aktivieren (blockieren) oder deaktivieren (zulassen). Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und alle Dateitypen Erweiterungen für diese Kategorie anzuzeigen. Wenn Sie alle Dateitypen Erweiterungen für eine Kategorie auswählen möchten, wählen Sie den Kategorienamen aus. 
   
-Wenn Sie nicht wird, dass die Erweiterung für einen Dateityp, der zu markierenden in **Erweiterungen für Dateitypen**aufgeführt angezeigt, geben Sie die Erweiterung im Textfeld unter **neue Dateierweiterungen zur Liste hinzufügen**, und klicken Sie dann auf **Hinzufügen**. 
+Wenn die Erweiterung für einen Dateityp, den Sie in den **Dateityperweiterungen**aufgelistet auswählen möchten, nicht angezeigt wird, geben Sie die Erweiterung in das Textfeld unter **neue Dateierweiterungen zur Liste hinzufügen**ein, und klicken Sie dann auf **Hinzufügen**. 
   
-Nachdem Sie alle gewünschten dateityperweiterungen zur Liste **ausgewählte dateityperweiterungen** hinzugefügt haben, klicken Sie auf **OK**.
+Nachdem Sie alle gewünschten Dateityperweiterungen zur Liste **ausgewählte Dateityperweiterungen** hinzugefügt haben, klicken Sie auf **OK**.
   
  
   

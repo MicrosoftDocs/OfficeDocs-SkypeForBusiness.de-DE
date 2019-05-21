@@ -5,47 +5,47 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
-description: "\"TblEnumValue\" ist eine hardkodierte Tabelle mit den Werten Visibility und Behavior der Attribute, die in der Node-Tabelle verwendet werden."
-ms.openlocfilehash: 00ee5a7a7538fa620e438ead5e986f859ef25a6c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblEnumValue ist eine hart codierte Tabelle, die die Sichtbarkeits-und Verhaltens Werte der Attribute enthält, die in der Knoten Tabelle verwendet werden.
+ms.openlocfilehash: bf1ddf75fc7b7fd78c85f47626b465a4d74e5ca2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929868"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295426"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
-"TblEnumValue" ist eine hardkodierte Tabelle mit den Werten Visibility und Behavior der Attribute, die in der Node-Tabelle verwendet werden.
+tblEnumValue ist eine hart codierte Tabelle, die die Sichtbarkeits-und Verhaltens Werte der Attribute enthält, die in der Knoten Tabelle verwendet werden.
   
 **Spalten**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|valueID  <br/> |Smallint, nicht null  <br/> |ID des Werts.  <br/> |
-|attributeID  <br/> |Smallint, nicht null  <br/> |ID des Attributs.  <br/> |
-|attributeValue  <br/> |Nvarchar (256), nicht null  <br/> |Name des Werts.  <br/> |
+|Werttyp  <br/> |smallint, nicht NULL  <br/> |Die ID des Werts.  <br/> |
+|AttributeID  <br/> |smallint, nicht NULL  <br/> |Die ID des Attributs.  <br/> |
+|AttributeValue  <br/> |nvarchar (256); nicht NULL  <br/> |Der Name des Werts.  <br/> |
    
 **Schlüssel**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
-|valueID  <br/> |Primärschlüssel.  <br/> |
-|attributeID  <br/> |Fremdschlüssel mit Abfrage der Tabelle "tblenumattribute.AttributeID".  <br/> |
+|Werttyp  <br/> |Primärschlüssel  <br/> |
+|AttributeID  <br/> |Fremdschlüssel mit Lookup in der tblEnumAttribute. AttributeCollection-Tabelle.  <br/> |
    
 **Tabellenwerte**
 
-|**valueID**|**attributeID**|**attributeValue**|
+|**Werttyp**|**AttributeID**|**AttributeValue**|
 |:-----|:-----|:-----|
 |2  <br/> |1  <br/> |privat  <br/> |
-|3  <br/> |1  <br/> |Umfang  <br/> |
-|4  <br/> |2  <br/> |normale  <br/> |
+|3  <br/> |1  <br/> |Bereich  <br/> |
+|4  <br/> |2  <br/> |normal  <br/> |
 |5  <br/> |2  <br/> |Auditorium  <br/> |
-|6  <br/> |1  <br/> |Öffnen Sie  <br/> |
+|6  <br/> |1  <br/> |Öffnen  <br/> |
    
 ## <a name="see-also"></a>Siehe auch
 

@@ -1,31 +1,31 @@
 ---
-title: Locations-Tabelle in Skype für Business Server 2015
+title: Tabelle "Speicherorte" in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 78dc1b14-5394-4f8e-89d3-4ba593272a04
-description: Jeder Datensatz steht für einen Verweis auf den Speicherort in ein Notruf, wie ein Anruf E9-1-1.
-ms.openlocfilehash: 389aa56dfaf6d8b732692909ff3375a992b504b6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Jeder Datensatz steht in einem Notruf wie ein E9-1-1-Anruf für einen standortbezug.
+ms.openlocfilehash: 28054419187b8f23348396f52ec147b06eee2136
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930241"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296119"
 ---
-# <a name="locations-table-in-skype-for-business-server-2015"></a>Locations-Tabelle in Skype für Business Server 2015
+# <a name="locations-table-in-skype-for-business-server-2015"></a>Tabelle "Speicherorte" in Skype for Business Server 2015
  
-Jeder Datensatz steht für einen Verweis auf den Speicherort in ein Notruf, wie ein Anruf E9-1-1.
+Jeder Datensatz steht in einem Notruf wie ein E9-1-1-Anruf für einen standortbezug.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Primär, Fremd  <br/> |Zeitpunkt der sitzungsanforderung. Zusammen mit **SessionIdSeq** verwendet zur eindeutigen Identifizierung eine Sitzung. Finden Sie unter der [Dialogs-Tabelle in Skype für Business Server 2015](dialogs.md) Weitere Informationen. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primär, Fremd  <br/> |ID-Nummer, um die Sitzung zu identifizieren. In Verbindung mit **SessionIdTime** verwendet, um eine Sitzung eindeutig zu identifizieren. Finden Sie unter der [Dialogs-Tabelle in Skype für Business Server 2015](dialogs.md) Weitere Informationen. <br/> |
-|**Standort** <br/> |nvarchar(max)  <br/> ||Standort des Notrufs.  <br/> |
+|**SessionID** <br/> |datetime  <br/> |Primär, fremd  <br/> |Uhrzeit der Sitzungsanforderung. Wird in Verbindung mit **SessionIdSeq** verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle Dialogfelder in Skype for Business Server 2015](dialogs.md) . <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primär, fremd  <br/> |Die ID-Nummer, um die Sitzung zu identifizieren. Wird in Verbindung mit **SessionID** -Mal verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle Dialogfelder in Skype for Business Server 2015](dialogs.md) . <br/> |
+|**Standort** <br/> |nvarchar (max)  <br/> ||Ort des Notrufs.  <br/> |
    
 

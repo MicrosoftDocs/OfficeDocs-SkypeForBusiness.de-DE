@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.MachineSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und die IP-Adresskonfiguration dieses Servers. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 19a4f5460860ea81d9392972f944d5c1c80ce202
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bdf4c72035c53a0a09b7f104b8b04010661f9e2a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885560"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299237"
 ---
 # <a name="server-settings-expander"></a>Servereinstellungen – Erweiterung
  

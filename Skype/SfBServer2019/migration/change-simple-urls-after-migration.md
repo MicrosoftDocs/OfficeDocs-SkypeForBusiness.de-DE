@@ -4,47 +4,47 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Skype für Business Server unterstützt einfache URLs.
-ms.openlocfilehash: 02f4cc729a50459a8125e216265b935d557007c6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Skype for Business Server unterstützt einfache URLs.
+ms.openlocfilehash: 786e3f5d7ed273c0f3c2ccc39ef1b539714de61b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238751"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298326"
 ---
 # <a name="change-simple-urls-after-migration"></a>Ändern einfacher URLs nach der Migration
 
-Skype für Business Server unterstützt drei einfache URLs:
+Skype for Business Server unterstützt drei einfache URLs:
   
-- **Erfüllen** wird als Basis-URL für alle Konferenzen in der Website oder Ihrer Organisation verwendet. Mit den einfachen URLs sind Links zu Besprechungen teilnehmen, die einfach zu verstehen und leicht zu kommunizieren und zu verteilen. 
+- **Meet** wird als Basis-URL für alle Konferenzen auf der Website oder Organisation verwendet. Mit der einfachen URL für Besprechungen sind Links zu Besprechungen einfach zu verstehen und einfach zu kommunizieren und zu verteilen. 
     
-- **Zugriffsnummer für Einwahl** ermöglicht den Zugriff auf die Webseite mit Einwahl Einstellungen. Die Zugriffsnummer für Einwahl einfache URL ist in allen besprechungseinladungen enthalten, damit Benutzer, die in die Besprechung einwählen möchten die erforderlichen Telefonnummer und PIN-Informationen zugreifen können. 
+- **Einwahl** ermöglicht den Zugriff auf die Webseite für Einwahlkonferenzeinstellungen. Die Einwahl einfache URL ist in allen Besprechungseinladungen enthalten, damit Benutzer, die sich in die Besprechung einwählen möchten, auf die erforderlichen Telefonnummern und PIN-Informationen zugreifen können. 
     
-- **Admin** ermöglicht schnellen Zugriff auf die Skype Business Server-Systemsteuerung. Die einfache Admin-URL dient der internen Verwendung in Ihrer Organisation. 
+- Der **Administrator** ermöglicht den schnellen Zugriff auf das Skype for Business Server-Control Panel. Die einfache Admin-URL dient der internen Verwendung in Ihrer Organisation. 
     
-Nach der Migration zu Skype für Business Server, müssen Ihnen bekannt sein wie die Änderung Ihrer DNS-Einträgen und Zertifikaten für einfache URLs auswirkt. Wenn derzeit in der Topologie der Vorgängerversion Skype für Business Server Director bleibt, sind keine Änderungen an der einfachen URLs erforderlich. Wenn die Skype für Business Server Director nach der Migration aus der Topologie entfernt wird, müssen die einfache URL-DNS-Einträge aktualisiert werden, um eines der Skype für Business Server-Pools zu verweisen. Wenn Sie einen einfachen URL-Name ändern, müssen Sie Enable-CsComputer auf jedem Director und Front-End-Server, um die Änderung zu registrieren ausführen.
+Nach der Migration zu Skype for Business Server müssen Sie wissen, wie sich die Änderung auf Ihre DNS-Einträge und Zertifikate für einfache URLs auswirkt. Wenn der Legacy-Manager von Skype for Business Server in der Topologie weiterhin verwendet wird, sind keine Änderungen an ihren einfachen URLs erforderlich. Wenn der Skype for Business Server-Director nach der Migration aus der Topologie entfernt wird, müssen die einfachen URL-DNS-Einträge aktualisiert werden, sodass Sie auf einen der Skype for Business Server-Pools verweisen. Wenn Sie jedoch einen einfachen URL-Namen ändern, müssen Sie Enable-CsComputer auf jedem Director und Front-End-Server ausführen, um die Änderung zu registrieren.
 
-## <a name="to-update-the-meet-simple-url"></a>So aktualisieren Sie die einfache Meet-URL
+## <a name="to-update-the-meet-simple-url"></a>So aktualisieren Sie die einfache URL für Besprechungen
 
-1. Klicken Sie im Topologie-Generator mit der rechten Maustaste im obersten Knotens **Skype für Business Server**, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den obersten Knoten **von Skype for Business Server**, und klicken Sie dann auf **Eigenschaften bearbeiten**.
     
-2. Wählen Sie die **Einfache URLs** im linken Bereich, klicken Sie dann unter **Besprechung URLs:** wählen Sie die URL erfüllen, und klicken Sie dann auf **URL bearbeiten**.
+2. Wählen Sie im linken Bereich und dann unter Besprechungs- **URLs** **einfache URLs** aus: Wählen Sie die URL erfüllen aus, und klicken Sie dann auf **URL bearbeiten**.
     
-3. Aktualisieren Sie die URL auf den gewünschten Wert ein, und klicken Sie dann auf **OK** , um die bearbeitete URL zu speichern. 
+3. Aktualisieren Sie die URL auf den gewünschten Wert, und klicken Sie dann auf **OK** , um die bearbeitete URL zu speichern. 
     
-## <a name="to-update-the-admin-simple-url"></a>So aktualisieren Sie die einfache Admin-URL
+## <a name="to-update-the-admin-simple-url"></a>So aktualisieren Sie die einfache Administrator-URL
 
-1. Klicken Sie im Topologie-Generator mit der rechten Maustaste im obersten Knotens **Skype für Business Server**, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den obersten Knoten **von Skype for Business Server**, und klicken Sie dann auf **Eigenschaften bearbeiten**.
     
-2. Wählen Sie im linken Bereich, klicken Sie dann unten im Feld **URL für administrativen Zugriff** **Einfache URLs** aus, geben Sie die einfache URL für administrativen Zugriff auf die Skype Business Server-Systemsteuerung aus, und klicken Sie dann auf **OK**.
+2. Wählen Sie im linken Bereich **einfache URLs** aus, und geben Sie dann unter **Administratorzugriff-URL** die einfache URL ein, die Sie für den administrativen Zugriff auf die Skype for Business Server-Systemsteuerung benötigen, und klicken Sie dann auf **OK**.
     
    > [!TIP]
-   > Es wird empfohlen, die einfachstmögliche URL als Verwaltungs-URL zu verwenden. Die einfachste Option ist https://admin. <em> \<Domäne\></em>. 
+   > Es wird empfohlen, die einfachstmögliche URL als Verwaltungs-URL zu verwenden. Die einfachste Option ist https://admin. <em> \<Domäne\></em>aus. 
   
 ## <a name="see-also"></a>Siehe auch
 
-[DNS-Anforderungen für einfache URLs in Skype für Business Server](../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md)
+[DNS-Anforderungen für einfache URLs in Skype for Business Server](../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md)

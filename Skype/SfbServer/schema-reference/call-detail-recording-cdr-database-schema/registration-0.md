@@ -1,54 +1,54 @@
 ---
-title: Registration-Ansicht
+title: Registrierungs Ansicht
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
-description: Registration-Ansicht werden Informationen zur benutzerregistrierung gespeichert. Diese Ansicht wurde in Lync Server 2013 eingeführt.
-ms.openlocfilehash: 820e99296b93743d13709e5296ed1c317079be3b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: In der Registrierungs Ansicht werden Informationen zur Benutzerregistrierung gespeichert. Diese Ansicht wurde in lync Server 2013 eingeführt.
+ms.openlocfilehash: 6202e40e6385fd243f55badd25dbe196452c890a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930658"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295867"
 ---
-# <a name="registration-view"></a>Registration-Ansicht
+# <a name="registration-view"></a>Registrierungs Ansicht
  
-Registration-Ansicht werden Informationen zur benutzerregistrierung gespeichert. Diese Ansicht wurde in Lync Server 2013 eingeführt.
+In der Registrierungs Ansicht werden Informationen zur Benutzerregistrierung gespeichert. Diese Ansicht wurde in lync Server 2013 eingeführt.
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Zeitpunkt der sitzungsanforderung. Zusammen mit SessionIdSeq verwendet zur eindeutigen Identifizierung eine Sitzung. Finden Sie unter der [Dialogs-Tabelle in Skype für Business Server 2015](dialogs.md) Weitere Informationen. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |ID-Nummer, um die Sitzung zu identifizieren. In Verbindung mit SessionIdTime verwendet, um eine Sitzung eindeutig zu identifizieren. Finden Sie unter der [Dialogs-Tabelle in Skype für Business Server 2015](dialogs.md) Weitere Informationen. <br/> |
-|**RegisterTime** <br/> |datetime  <br/> |Die Zeit in der Registrierung aufgetreten ist.  <br/> |
-|**UserUri** <br/> |nvarchar(450)  <br/> |Der URI der registrierten Benutzer.  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |Typ der URI der registrierten Benutzer. Finden Sie weitere Informationen der [UriTypes-Tabelle](uritypes.md) . <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Mandant des Benutzers registriert. Finden Sie weitere Informationen der [Tenants-Tabelle](tenants.md) . <br/> |
-|**EndpointId** <br/> |uniqueidentifier  <br/> |Eindeutiger Bezeichner des Endpunkts des Benutzers registriert sind.  <br/> |
-|**EndpointEra** <br/> |uniqueidentifier  <br/> |Eindeutiger Bezeichner zum unterscheiden von Registrierungen, die denselben Benutzer und denselben Endpunkt betreffen.  <br/> |
-|**DeRegisterType** <br/> |datetime  <br/> |Zeitpunkt, an dem die Registrierung aufgehoben wurde.  <br/> |
-|**DeRegisterReason** <br/> |nvarchar(256)  <br/> |Grund für die Aufhebung der Registrierung.  <br/> |
-|**ClientVersion** <br/> |nvarchar(256)  <br/> |Version des Client des Benutzers registriert.  <br/> |
-|**Clienttyp** <br/> |int  <br/> |Client des Benutzers registriert. Finden Sie weitere Details der [UserAgentDef-Tabelle](useragentdef.md) . <br/> |
-|**ClientCategory** <br/> |nvarchar(64)  <br/> |Kategorie des Clients des Benutzers registriert.  <br/> |
-|**IP-Adresse** <br/> |nvarchar(256)  <br/> |IP-Adresse der Benutzer registriert sind. Dies kann eine IPv4 oder IPv6-Adresse sein.  <br/> |
-|**Dialog-ID** <br/> |varstring(775)  <br/> |SIP-Dialog-ID. Das Format der ist:  <br/> Dialogfeld; aus Tag; -tag  <br/> |
-|**ResponseCode** <br/> |int  <br/> |SIP-Antwortcode auf die sitzungseinladung. In diesem Feld wird in der Regel durch aus der ersten INVITE-Nachricht in der Sitzung generierte Daten aufgefüllt. Wenn keine INVITE-Nachricht vorhanden ist, wird das Feld mit Datum und Uhrzeit der ersten relevanten SIP-Nachricht (BYE, Abbrechen, Nachricht oder INFO) aufgefüllt.  <br/> |
-|**DiagnosticId** <br/> |int  <br/> |Diagnose-ID vom SIP-Header.  <br/> |
-|**Registrierungsstelle** <br/> |nvarchar(256)  <br/> |FQDN der Registrierung.  <br/> |
-|**Pool** <br/> |nvarchar(256)  <br/> |Vollqualifizierter Domänenname des Pools, der die Daten für die Sitzung erfasst hat.  <br/> |
-|**EdgeServer** <br/> |nvarchar(256)  <br/> |FQDN des Edge-Servers, von der registrierten Benutzer.  <br/> |
-|**IsInternal** <br/> |bit  <br/> |Gibt an, ob der Benutzer aus dem internen Netzwerk angemeldet.  <br/> |
-|**IsUserServiceAvailable** <br/> |bit  <br/> |Gibt an, ob der Benutzerdienst zum Zeitpunkt der Registrierung verfügbar war.  <br/> |
-|**IsPrimaryRegistrar** <br/> |bit  <br/> |Gibt an, ob die Registrierung mit der primären Registrierung durchgeführt wurde.  <br/> |
-|**DeviceMacAddress** <br/> |bigint  <br/> |MAC-Adresse des registrierten Geräts.  <br/> |
-|**Einträge DeviceManufacturer** <br/> |nvarchar(256)  <br/> |Hersteller des Geräts registriert. [Manufacturers-Tabelle in Skype für Business Server 2015](manufacturers.md) Weitere Informationen finden Sie. <br/> |
-|**DeviceHardwareVersion** <br/> |nvarchar(256)  <br/> |Hardwareversion des Geräts registriert. [HardwareVersions-Tabelle in Skype für Business Server 2015](hardwareversions.md) Weitere Informationen finden Sie. <br/> |
+|**SessionID** <br/> |datetime  <br/> |Uhrzeit der Sitzungsanforderung. Wird in Verbindung mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle Dialogfelder in Skype for Business Server 2015](dialogs.md) . <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Die ID-Nummer, um die Sitzung zu identifizieren. Wird in Verbindung mit SessionID-Mal verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle Dialogfelder in Skype for Business Server 2015](dialogs.md) . <br/> |
+|**Registrierung** <br/> |datetime  <br/> |Zeitpunkt, zu dem die Registrierung erfolgte.  <br/> |
+|**UserUri** <br/> |nvarchar (450)  <br/> |URI des registrierten Benutzers.  <br/> |
+|**UserUriType** <br/> |nvarchar(256)  <br/> |Der Typ des URIs des registrierten Benutzers. Weitere Informationen finden Sie in der [UriTypes-Tabelle](uritypes.md) . <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Der Mandant des registrierten Benutzers. Weitere Informationen finden Sie in der [Tabelle Mandanten](tenants.md) . <br/> |
+|**EndpointId** <br/> |uniqueidentifier  <br/> |Eindeutiger Bezeichner des Endpunkts des Benutzers, bei dem registriert ist.  <br/> |
+|**EndpointEra** <br/> |uniqueidentifier  <br/> |Eindeutiger Bezeichner, der zur Unterscheidung von Registrierungen verwendet wird, die denselben Benutzer und denselben Endpunkt einbeziehen.  <br/> |
+|**DeRegisterType** <br/> |datetime  <br/> |Zeitpunkt, zu dem die Registrierung erfolgte.  <br/> |
+|**DeRegisterReason** <br/> |nvarchar(256)  <br/> |Grund für die Deregistrierung.  <br/> |
+|**ClientVersion** <br/> |nvarchar(256)  <br/> |Die Version des Clients, die von dem registrierten Benutzer verwendet wurde.  <br/> |
+|**Clienttyp** <br/> |int  <br/> |Der Client, der von dem registrierten Benutzer verwendet wird. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle](useragentdef.md) . <br/> |
+|**ClientCategory** <br/> |nvarchar (64)  <br/> |Die Kategorie des Clients, der von dem registrierten Benutzer verwendet wird.  <br/> |
+|**IPAddress** <br/> |nvarchar(256)  <br/> |Die IP-Adresse, bei der der Benutzer registriert ist. Dies kann eine IPv4-oder IPv6-Adresse sein.  <br/> |
+|**Dialogfeld-Nr** <br/> |varstring (775)  <br/> |SIP-Dialogfeld-ID. Das Format des is:  <br/> Dialogfeld; from-Tag; to-Tag  <br/> |
+|**Response Code** <br/> |int  <br/> |SIP-Antwortcode für die Sitzungseinladung Dieses Feld wird in der Regel von Daten ausgefüllt, die aus der anfänglichen Einladungsnachricht in der Sitzung generiert wurden. Wenn keine Einladungsnachricht vorhanden ist, wird das Feld mit dem Datum und der Uhrzeit der ersten relevanten SIP-Nachricht gefüllt (Bye, Cancel, Nachricht oder info).  <br/> |
+|**Diagnose-Nr** <br/> |int  <br/> |Vom SIP-Header erfasste Diagnose-ID.  <br/> |
+|**Registrierungsstelle** <br/> |nvarchar(256)  <br/> |FQDN der Registrierungsstelle.  <br/> |
+|**Pool** <br/> |nvarchar(256)  <br/> |Der FQDN des Pools, in dem die Daten für die Sitzung erfasst wurden.  <br/> |
+|**EdgeServer** <br/> |nvarchar(256)  <br/> |Der FQDN des Edge-Servers, der von dem registrierten Benutzer verwendet wird.  <br/> |
+|**"IsInternal** <br/> |bit  <br/> |Gibt an, ob sich der Benutzer vom internen Netzwerk anmeldet.  <br/> |
+|**IsUserServiceAvailable** <br/> |bit  <br/> |Gibt an, ob die UserService zur Registrierungszeit verfügbar war.  <br/> |
+|**IsPrimaryRegistrar** <br/> |bit  <br/> |Gibt an, ob die Registrierung bei der primären Registrierungsstelle erfolgte.  <br/> |
+|**DeviceMacAddress** <br/> |bigint  <br/> |Mac-Adresse des registrierten Geräts.  <br/> |
+|**DeviceManufacturer** <br/> |nvarchar(256)  <br/> |Hersteller des registrierten Geräts. Weitere Informationen finden Sie [in der Tabelle "Hersteller" in Skype for Business Server 2015](manufacturers.md) . <br/> |
+|**DeviceHardwareVersion** <br/> |nvarchar(256)  <br/> |Hardware Version des registrierten Geräts. Weitere Informationen finden Sie [in der Tabelle HardwareVersions in Skype for Business Server 2015](hardwareversions.md) . <br/> |
    
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientCVSettingMain
@@ -12,46 +12,46 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
-description: Zusätzlich zur Angabe der Version des Clients, die Sie in Ihrer Umgebung unterstützen möchten, können Sie eine Standardaktion für Clients angeben, die noch keine Versionsrichtlinie definiert haben. So können Sie einschränken, welche Clientversionen in Ihrer Umgebung verwendet werden, das Sie zum Steuern der Kosten aufgrund der Unterstützung mehrerer Clientversionen hilfreich sein können.
-ms.openlocfilehash: d35872df068c651f4f9540e806e81cc57bd61e0d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Neben der Angabe der Version der Clients, die Sie in Ihrer Umgebung unterstützen möchten, können Sie auch eine Standardaktion für Clients angeben, für die noch keine Versionsrichtlinie definiert ist. Auf diese Weise können Sie einschränken, welche Clientversionen in Ihrer Umgebung verwendet werden, was Ihnen helfen kann, die Kosten zu kontrollieren, die mit der Unterstützung mehrerer Clientversionen verbunden sind.
+ms.openlocfilehash: 8234d1463c207361f3336a695fea1110a598e2c2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891929"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300493"
 ---
 # <a name="client-version-configuration"></a>Clientversionskonfiguration
 
-Zusätzlich zur Angabe der Version des Clients, die Sie in Ihrer Umgebung unterstützen möchten, können Sie eine Standardaktion für Clients angeben, die noch keine Versionsrichtlinie definiert haben. So können Sie einschränken, welche Clientversionen in Ihrer Umgebung verwendet werden, das Sie zum Steuern der Kosten aufgrund der Unterstützung mehrerer Clientversionen hilfreich sein können.
+Neben der Angabe der Version der Clients, die Sie in Ihrer Umgebung unterstützen möchten, können Sie auch eine Standardaktion für Clients angeben, für die noch keine Versionsrichtlinie definiert ist. Auf diese Weise können Sie einschränken, welche Clientversionen in Ihrer Umgebung verwendet werden, was Ihnen helfen kann, die Kosten zu kontrollieren, die mit der Unterstützung mehrerer Clientversionen verbunden sind.
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
-Klicken Sie auf der Seite **Clientversionskonfiguration** können Sie die folgenden Aufgaben ausführen:
+Auf der Seite **Client Version Configuration** können Sie die folgenden Aufgaben ausführen:
 
-- Bearbeiten Sie der Standardwert ( **Global**) clientversionskonfiguration.
+- Bearbeiten Sie die Standardkonfiguration für Clientversionen ( **Global**).
 
-- Erstellen Sie clientversionskonfiguration für einen bestimmten Standort.
+- Erstellen Sie die Client Versions Konfiguration für eine bestimmte Website.
 
-- Aktivieren Sie und deaktivieren Sie vorhandener clientversionskonfigurationen.
+- Aktivieren und Deaktivieren vorhandener Client Versions Konfigurationen
 
 > [!NOTE]
-> Da anonyme Benutzer keinem Standort zugeordnet sind, unterliegen anonyme Benutzer ausschließlich globalen Richtlinien.
+> Da anonyme Benutzer keiner Website zugeordnet sind, sind anonyme Benutzer nur von Richtlinien auf globaler Ebene betroffen.
 
 ## <a name="ui-reference"></a>Referenz zur Benutzeroberfläche
 
 In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.
 
-- **Neue** Sie können eine clientversionskonfiguration für einen bestimmten Standort erstellen.
+- **Neu** Sie können eine Client Versions Konfiguration für eine bestimmte Website erstellen.
 
-- **Bearbeiten** Sie können die Optionen aller clientversionsrichtlinien ändern. Mit dieser Option haben Sie folgende Möglichkeiten:
+- **Bearbeiten** von Sie können die Optionen für eine der clientversionsrichtlinien ändern. Mit dieser Option haben Sie folgende Möglichkeiten:
 
-  - **Details anzeigen** Diese Option öffnet ein Dialogfeld, in dem Sie die Optionen für eine clientversionskonfiguration ändern können.
+  - **Details anzeigen** Mit dieser Option wird ein Dialogfeld geöffnet, in dem Sie die Optionen für eine Client Versions Konfiguration ändern können.
 
-  - **Wählen Sie alle** Diese Option werden alle clientversionskonfigurationen der Liste ausgewählt.
+  - **Alle auswählen** Mit dieser Option werden alle Client Versions Konfigurationen in der Liste ausgewählt.
 
-  - **Löschen** Diese Option werden alle ausgewählten clientversionskonfigurationen gelöscht.
+  - **Löschen** Mit dieser Option werden alle ausgewählten Client Versions Konfigurationen gelöscht.
 
-- **Aktualisieren** Sie können die Liste der Client-Version-Konfiguration zum Überprüfen des Status der Optionen aller clientversionskonfigurationen aktualisieren.
+- **Aktualisieren** Sie können die Konfigurationsliste der Client Version aktualisieren, um den Status der Optionen für alle Client Versions Konfigurationen zu überprüfen.
 
-Ausführliche Informationen zur Interoperabilität zwischen Clients und Clientversionen finden Sie unter [Client Interoperability](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Clientversionskonfigurationen finden Sie in der Betriebsdokumentation unter [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx).
+Details zur Interoperabilität zwischen Clients und Clientversionen finden Sie unter [Client Interoperabilität](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Clientversionskonfigurationen finden Sie in der Betriebsdokumentation unter [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx).
 

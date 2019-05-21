@@ -5,41 +5,41 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
-description: McuJoinsAndLeaves-Ansicht speichert Informationen zu Benutzer teilnehmen, und lassen Sie Informationen für eine Konferenzserver. Jeder Datensatz in dieser Ansicht enthält Anrufdetails zu eine Kombination aus einem Benutzer beitreten oder verlassen und Conferencing Server. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 756f9656e31f180ac6b724c8c31c6a7226cada08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Die McuJoinsAndLeaves-Ansicht speichert Informationen zu Benutzern, die an einem Konferenzserver teilnehmen und Informationen hinterlassen. Jeder Datensatz in dieser Ansicht enthält Anrufdetails zu einer Kombination aus einem Benutzer-Join oder Leave-und Konferenzserver. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
+ms.openlocfilehash: 9d5617449e5b12c13d855c1a93b39490e2177f0e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930234"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296077"
 ---
 # <a name="mcujoinsandleaves-view"></a>McuJoinsAndLeaves-Ansicht
  
-McuJoinsAndLeaves-Ansicht speichert Informationen zu Benutzer teilnehmen, und lassen Sie Informationen für eine Konferenzserver. Jeder Datensatz in dieser Ansicht enthält Anrufdetails zu eine Kombination aus einem Benutzer beitreten oder verlassen und Conferencing Server. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
+Die McuJoinsAndLeaves-Ansicht speichert Informationen zu Benutzern, die an einem Konferenzserver teilnehmen und Informationen hinterlassen. Jeder Datensatz in dieser Ansicht enthält Anrufdetails zu einer Kombination aus einem Benutzer-Join oder Leave-und Konferenzserver. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Zeitpunkt des Konferenz-Instanz. Zusammen mit SessionIdSeq verwendet zur eindeutigen Identifizierung eine Konferenz-Instanz. [Conferences-Tabelle in Skype für Business Server 2015](conferences.md) Weitere Informationen finden Sie. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |ID-Nummer zum Identifizieren der Konferenz-Instanz. In Verbindung mit SessionIdTime verwendet, um eine Instanz der Konferenz eindeutig zu identifizieren. [Conferences-Tabelle in Skype für Business Server 2015](conferences.md) Weitere Informationen finden Sie. <br/> |
-|**McuUri** <br/> |nvarchar(256)  <br/> |Der URI des Konferenzservers, die der Benutzer verbunden.  <br/> |
-|**McuUriType** <br/> |nvarchar(256)  <br/> |Der URI des Konferenzservers, die der Benutzer verbunden. Finden Sie weitere Informationen der [UriTypes-Tabelle](uritypes.md) . <br/> |
-|**UserUri** <br/> |nvarchar(450)  <br/> |Der URI des Benutzers, dessen Serverinformationen beitreten/verlassen einer Konferenz erfasst wurde.  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |Der Typ der URI des Benutzers, dessen Serverinformationen beitreten/verlassen einer Konferenz erfasst wurde. Finden Sie weitere Informationen der [UriTypes-Tabelle](uritypes.md) . <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Der Mandant des Benutzers, dessen Serverinformationen beitreten/verlassen einer Konferenz erfasst wurde. Finden Sie weitere Informationen der [Tenants-Tabelle](tenants.md) . <br/> |
-|**UserClientVersion** <br/> |nvarchar(256)  <br/> |Die Version des Client des Benutzers, dessen Serverinformationen beitreten/verlassen einer Konferenz erfasst wurde.  <br/> |
-|**UserClientType** <br/> |int  <br/> |Der Client des Benutzers, dessen Serverinformationen beitreten/verlassen einer Konferenz erfasst wurde. Finden Sie weitere Details der [UserAgentDef-Tabelle](useragentdef.md) . <br/> |
-|**UserClientCategory** <br/> |nvarchar(64)  <br/> |Der Name der Kategorie des Clients des Benutzers, dessen Serverinformationen beitreten/verlassen einer Konferenz erfasst wurde.  <br/> |
-|**McuUserInstance** <br/> |int  <br/> |Die Benutzer/Geräte-Kombination für Benutzer, die gleichzeitig auf mehreren Geräten angemeldet identifiziert eindeutig.  <br/> |
-|**IsUserFromPstn** <br/> |bit  <br/> |Bitwert, der angibt, ob der Benutzer ein interner Benutzer oder nicht ist.  <br/> |
-|**DialogSessionIdTime** <br/> |datetime  <br/> |Zeitpunkt der sitzungsanforderung. Zusammen mit SessionIdSeq verwendet zur eindeutigen Identifizierung eine Sitzung. Finden Sie unter der [Dialogs-Tabelle in Skype für Business Server 2015](dialogs.md) Weitere Informationen. <br/> |
-|**DialogSessionIdSeq** <br/> |int  <br/> |ID-Nummer, um die Sitzung zu identifizieren. In Verbindung mit SessionIdTime verwendet, um eine Sitzung eindeutig zu identifizieren. Finden Sie unter der [Dialogs-Tabelle in Skype für Business Server 2015](dialogs.md) Weitere Informationen. <br/> |
-|**Dialog-ID** <br/> |varchar(775)  <br/> |SIP-Dialog-ID der Sitzung. Das Format lautet: Dialogfeld; aus Tag; zu Tag.  <br/> |
-|**UserJoinTime** <br/> |datetime  <br/> |Zeitpunkt der Benutzer dem Konferenzserver beigetreten ist.  <br/> |
-|**UserLeaveTime** <br/> |datetime  <br/> |Zeitpunkt, zu des Benutzers den Konferenzserver verlassen.  <br/> |
+|**SessionID** <br/> |datetime  <br/> |Uhrzeit der Konferenz Instanz. Wird in Verbindung mit SessionIdSeq verwendet, um eine Konferenz Instanz eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle "Konferenzen" in Skype for Business Server 2015](conferences.md) . <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Die ID-Nummer zum Identifizieren der Konferenz Instanz. Wird in Verbindung mit SessionID-Mal verwendet, um eine Konferenz Instanz eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle "Konferenzen" in Skype for Business Server 2015](conferences.md) . <br/> |
+|**McuUri** <br/> |nvarchar(256)  <br/> |Der URI des Konferenzservers, mit dem der Benutzer eine Verbindung hergestellt hat.  <br/> |
+|**McuUriType** <br/> |nvarchar(256)  <br/> |Der URI des Konferenzservers, mit dem der Benutzer eine Verbindung hergestellt hat. Weitere Informationen finden Sie in der [UriTypes-Tabelle](uritypes.md) . <br/> |
+|**UserUri** <br/> |nvarchar (450)  <br/> |Der URI des Benutzers, dessen Konferenzserver teilnehmen/Leave-Informationen erfasst wurde.  <br/> |
+|**UserUriType** <br/> |nvarchar(256)  <br/> |Der Typ des URIs des Benutzers, dessen Konferenzserver teilnehmen/Leave-Informationen erfasst wurde. Weitere Informationen finden Sie in der [UriTypes-Tabelle](uritypes.md) . <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Der Mandant des Benutzers, dessen Konferenzserver teilnehmen/Leave-Informationen erfasst wurde. Weitere Informationen finden Sie in der [Tabelle Mandanten](tenants.md) . <br/> |
+|**UserClientVersion** <br/> |nvarchar(256)  <br/> |Die Version des Clients, die von dem Benutzer verwendet wird, dessen Konferenzserver-Informationen aufgenommen wurden.  <br/> |
+|**UserClientType** <br/> |int  <br/> |Der Client, der von dem Benutzer verwendet wird, dessen Konferenzserver an-und Abgangs Informationen erfasst wurde. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle](useragentdef.md) . <br/> |
+|**UserClientCategory** <br/> |nvarchar (64)  <br/> |Der Name der Kategorie des Clients, die von dem Benutzer verwendet wird, dessen Konferenzserver-Informationen aufgenommen wurden.  <br/> |
+|**McuUserInstance** <br/> |int  <br/> |Kennzeichnet die Kombination von Benutzern/Geräten für Benutzer, die gleichzeitig an mehreren Geräten angemeldet sind.  <br/> |
+|**IsUserFromPstn** <br/> |bit  <br/> |Bit, das darstellt, ob der Benutzer ein interner Benutzer ist oder nicht.  <br/> |
+|**DialogSessionIdTime** <br/> |datetime  <br/> |Uhrzeit der Sitzungsanforderung. Wird in Verbindung mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle Dialogfelder in Skype for Business Server 2015](dialogs.md) . <br/> |
+|**DialogSessionIdSeq** <br/> |int  <br/> |Die ID-Nummer, um die Sitzung zu identifizieren. Wird in Verbindung mit SessionID-Mal verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle Dialogfelder in Skype for Business Server 2015](dialogs.md) . <br/> |
+|**Dialogfeld-Nr** <br/> |varchar (775)  <br/> |SIP-Dialogfeld-ID der Sitzung. Das Format lautet: Dialogfeld; from-Tag; to-Tag.  <br/> |
+|**UserJoinTime** <br/> |datetime  <br/> |Zeitpunkt, zu dem der Benutzer dem Konferenzserver beigetreten ist.  <br/> |
+|**UserLeaveTime** <br/> |datetime  <br/> |Zeitpunkt, zu dem der Benutzer den Konferenzserver verlassen hat.  <br/> |
    
 

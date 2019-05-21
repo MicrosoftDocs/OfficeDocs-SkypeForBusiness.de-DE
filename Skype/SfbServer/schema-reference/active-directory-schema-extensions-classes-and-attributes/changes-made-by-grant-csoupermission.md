@@ -1,99 +1,99 @@
 ---
-title: Änderungen, die durch Grant-CsOUPermission in Skype für Business Server
+title: Von Grant-CsOUPermission in Skype for Business Server vorgenommene Änderungen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
-description: Wenn für die Verwaltung der Business Server Skype delegieren möchten, können Sie angegebenen Organisationseinheiten (OUs) Berechtigungen hinzufügen, damit Mitglieder der Gruppe RTC universellen Gruppen von der Gesamtstruktur erstellt die OUs zugreifen können, ohne dass Sie Mitglied der Gruppe Domänen-Admins.
-ms.openlocfilehash: 7861770572b722c6c4af7d0bea0cf2a7671ba297
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Wenn Sie die Skype for Business Server-Verwaltung delegieren möchten, können Sie den angegebenen Organisationseinheiten Berechtigungen hinzufügen, sodass Mitglieder der von der Gesamtstrukturvorbereitung erstellten RTC universelle Gruppen auf die OUs zugreifen können, ohne Mitglieder der Gruppe der Domänenadministratoren zu sein.
+ms.openlocfilehash: 48c5921cabf2b1bc8100f796d3e3b7f6a247ff0c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33907112"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296693"
 ---
-# <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Änderungen, die durch Grant-CsOUPermission in Skype für Business Server
+# <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Von Grant-CsOUPermission in Skype for Business Server vorgenommene Änderungen
  
-Wenn für die Verwaltung der Business Server Skype delegieren möchten, können Sie angegebenen Organisationseinheiten (OUs) Berechtigungen hinzufügen, damit Mitglieder der Gruppe RTC universellen Gruppen von der Gesamtstruktur erstellt die OUs zugreifen können, ohne dass Sie Mitglied der Gruppe Domänen-Admins. 
+Wenn Sie die Skype for Business Server-Verwaltung delegieren möchten, können Sie den angegebenen Organisationseinheiten Berechtigungen hinzufügen, sodass Mitglieder der von der Gesamtstrukturvorbereitung erstellten RTC universelle Gruppen auf die OUs zugreifen können, ohne Mitglieder der Gruppe der Domänenadministratoren zu sein. 
   
-Das Cmdlet **Grant-CsOuPermission** gewährt Berechtigungen für Objekte in der angegebenen Organisationseinheit wie in den folgenden Tabellen angegeben.
+Das Cmdlet **Grant-CsOuPermission** gewährt den Objekten in der angegebenen OU Berechtigungen, wie in den folgenden Tabellen angegeben.
   
-## <a name="granting-permission-for-user-objects"></a>Erteilen von Berechtigungen für User-Objekte
+## <a name="granting-permission-for-user-objects"></a>Erteilen der Berechtigung für Benutzerobjekte
 
-Wenn Sie das **Grant-CsOuPermission** -Cmdlet für User-Objekte in einer Organisationseinheit ausführen, werden Gruppen Berechtigungen wie in der folgenden Tabelle dargestellt erteilt.
+Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Benutzerobjekte in einer OU ausführen, werden Gruppen Berechtigungen gewährt, wie in der folgenden Tabelle dargestellt.
   
-**Für User-Objekte erteilte Berechtigungen**
+**Für Benutzerobjekte gewährte Berechtigungen**
 
-|**Gruppe**|**Berechtigung**|**Gilt für**|
+|**Gruppe**|**Berechtigungs**|**Gilt für**|
 |:-----|:-----|:-----|
-|RTCHSUniversalServices  <br/> |Verzeichnisänderungen  <br/> |Nur dieses Objekt  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |Inhalt auflisten  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
-|"RTCuniversalUserReadOnlyGroup"  <br/> |Inhalt auflisten  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
-|"RTCuniversalUserReadOnlyGroup"  <br/> |RTCUserSearchPropertySet lesen  <br/> RTCUserProvisioningPropertySet lesen  <br/> RTCPropertySet lesen  <br/> Öffentliche Informationen lesen  <br/> Allgemeine Informationen lesen  <br/> Benutzer Kontoeinschränkungen lesen  <br/> |Untergeordnete User-Objekte  <br/> |
-|RTCUniversalUserAdmins  <br/> |Schreiben von RTCUserSearchPropertySet  <br/> Schreiben Sie "msexchucvoicemailsettings"  <br/> Schreiben von RTCUserProvisioningPropertySet  <br/> Schreiben von RTCPropertySet  <br/> ProxyAddresses schreiben  <br/> |Untergeordnete User-Objekte  <br/> |
+|RTCHSUniversalServices  <br/> |Replizieren von Verzeichnisänderungen  <br/> |Nur dieses Objekt  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |Listeninhalt  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
+|RTCUniversalUserReadOnlyGroup hinzugefügt  <br/> |Listeninhalt  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
+|RTCUniversalUserReadOnlyGroup hinzugefügt  <br/> |Lesen von RTCUserSearchPropertySet  <br/> Lesen von RTCUserProvisioningPropertySet  <br/> Lesen von RTCPropertySet  <br/> Lesen öffentlicher Informationen  <br/> Allgemeine Informationen lesen  <br/> Lesen von Benutzerkonto Einschränkungen  <br/> |Nachfolger Benutzerobjekte  <br/> |
+|RTCUniversalUserAdmins  <br/> |Schreiben von RTCUserSearchPropertySet  <br/> Schreiben von msExchUCVoiceMailSettings  <br/> Schreiben von RTCUserProvisioningPropertySet  <br/> Schreiben von RTCPropertySet  <br/> Schreiben von proxyAddresses  <br/> |Nachfolger Benutzerobjekte  <br/> |
    
-## <a name="granting-permission-for-computer-objects"></a>Erteilen von Berechtigungen für Computerobjekte
+## <a name="granting-permission-for-computer-objects"></a>Erteilen der Berechtigung für Computer Objekte
 
-Wenn Sie das **Grant-CsOuPermission** -Cmdlet für Computer-Objekte in einer Organisationseinheit ausführen, werden Gruppen Berechtigungen wie in der folgenden Tabelle dargestellt erteilt.
+Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Computer Objekte in einer OU ausführen, werden Gruppen Berechtigungen gewährt, wie in der folgenden Tabelle dargestellt.
   
-**Für Computer-Objekte erteilte Berechtigungen**
+**Für Computer Objekte gewährte Berechtigungen**
 
-|**Gruppe**|**Berechtigung**|**Gilt für**|
+|**Gruppe**|**Berechtigungs**|**Gilt für**|
 |:-----|:-----|:-----|
-|RTCHSUniversalServices  <br/> |Verzeichnisänderungen  <br/> |Nur dieses Objekt  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |Inhalt auflisten  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
-|"RTCuniversalUserReadOnlyGroup"  <br/> |Inhalt auflisten  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
-|"RTCuniversalUserReadOnlyGroup"  <br/> |Öffentliche Informationen lesen  <br/> Lesen Sie überprüft-DNS-Host-Name  <br/> |Untergeordnete Computer-Objekte  <br/> |
-|RTCUniversalUserAdmins  <br/> |Öffentliche Informationen lesen  <br/> Lesen Sie überprüft-DNS-Host-Name  <br/> |Untergeordnete Computer-Objekte  <br/> |
+|RTCHSUniversalServices  <br/> |Replizieren von Verzeichnisänderungen  <br/> |Nur dieses Objekt  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |Listeninhalt  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
+|RTCUniversalUserReadOnlyGroup hinzugefügt  <br/> |Listeninhalt  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
+|RTCUniversalUserReadOnlyGroup hinzugefügt  <br/> |Lesen öffentlicher Informationen  <br/> Read validiert-DNS-Host-Name  <br/> |Nachfolger Computer Objekte  <br/> |
+|RTCUniversalUserAdmins  <br/> |Lesen öffentlicher Informationen  <br/> Read validiert-DNS-Host-Name  <br/> |Nachfolger Computer Objekte  <br/> |
    
-## <a name="granting-permission-for-contact-or-appcontact-objects"></a>Erteilen von Berechtigungen für Contact oder AppContact-Objekte
+## <a name="granting-permission-for-contact-or-appcontact-objects"></a>Erteilen der Berechtigung für Kontakt-oder AppContact-Objekte
 
-Wenn Sie das **Grant-CsOuPermission** -Cmdlet für Contact- oder AppContact-Objekte in einer Organisationseinheit ausführen, werden Gruppen Berechtigungen erteilt, wie in der folgenden Tabelle dargestellt.
+Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Contact-Objekte oder AppContact-Objekte in einer OU ausführen, werden Gruppen Berechtigungen gewährt, wie in der folgenden Tabelle dargestellt.
   
-**Für Contact- oder AppContact-Objekte erteilte Berechtigungen**
+**Für Contact-oder AppContact-Objekte gewährte Berechtigungen**
 
-|**Gruppe**|**Berechtigung**|**Gilt für**|
+|**Gruppe**|**Berechtigungs**|**Gilt für**|
 |:-----|:-----|:-----|
-|RTCHSUniversalServices  <br/> |Verzeichnisänderungen  <br/> |Nur dieses Objekt  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |Inhalt auflisten  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
-|"RTCuniversalUserReadOnlyGroup"  <br/> |Inhalt auflisten  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
-|"RTCuniversalUserReadOnlyGroup"  <br/> |RTCUserSearchPropertySet lesen  <br/> RTCUserProvisioningPropertySet lesen  <br/> RTCPropertySet lesen  <br/> Öffentliche Informationen lesen  <br/> Allgemeine Informationen lesen  <br/> Lesen Sie persönliche Informationen  <br/> Benutzer Kontoeinschränkungen lesen  <br/> |Untergeordnete Contact-Objekte  <br/> |
-|RTCUniversalUserAdmins  <br/> |Schreiben von RTCUserSearchPropertySet  <br/> "Otheripphone" schreiben  <br/> DisplayName schreiben  <br/> Schreiben Sie Beschreibung  <br/> TelephoneNumber schreiben  <br/> Schreiben Sie "msexchucvoicemailsettings"  <br/> Schreiben von RTCUserProvisioningPropertySet  <br/> Schreiben von RTCPropertySet  <br/> ProxyAddresses schreiben  <br/> |Untergeordnete Contact-Objekte  <br/> |
+|RTCHSUniversalServices  <br/> |Replizieren von Verzeichnisänderungen  <br/> |Nur dieses Objekt  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |Listeninhalt  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
+|RTCUniversalUserReadOnlyGroup hinzugefügt  <br/> |Listeninhalt  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
+|RTCUniversalUserReadOnlyGroup hinzugefügt  <br/> |Lesen von RTCUserSearchPropertySet  <br/> Lesen von RTCUserProvisioningPropertySet  <br/> Lesen von RTCPropertySet  <br/> Lesen öffentlicher Informationen  <br/> Allgemeine Informationen lesen  <br/> Lesen persönlicher Informationen  <br/> Lesen von Benutzerkonto Einschränkungen  <br/> |Nachfolger-Kontaktobjekte  <br/> |
+|RTCUniversalUserAdmins  <br/> |Schreiben von RTCUserSearchPropertySet  <br/> Schreiben von otherIpPhone  <br/> Schreiben von DisplayName  <br/> Beschreibung schreiben  <br/> Schreiben von telephoneNumber  <br/> Schreiben von msExchUCVoiceMailSettings  <br/> Schreiben von RTCUserProvisioningPropertySet  <br/> Schreiben von RTCPropertySet  <br/> Schreiben von proxyAddresses  <br/> |Nachfolger-Kontaktobjekte  <br/> |
    
-## <a name="granting-permission-for-device-objects"></a>Erteilen von Berechtigungen für Device-Objekte
+## <a name="granting-permission-for-device-objects"></a>Erteilen der Berechtigung für Geräteobjekte
 
-Wenn Sie das **Grant-CsOuPermission** -Cmdlet für Device-Objekte in einer Organisationseinheit ausführen, werden Gruppen Berechtigungen wie in der folgenden Tabelle dargestellt erteilt.
+Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Geräteobjekte in einer OU ausführen, werden Gruppen Berechtigungen gewährt, wie in der folgenden Tabelle dargestellt.
   
-**Für Device-Objekte erteilte Berechtigungen**
+**Für Geräteobjekte gewährte Berechtigungen**
 
-|**Gruppe**|**Berechtigung**|**Gilt für**|
+|**Gruppe**|**Berechtigungs**|**Gilt für**|
 |:-----|:-----|:-----|
-|RTCHSUniversalServices  <br/> |Verzeichnisänderungen  <br/> |Nur dieses Objekt  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |Inhalt auflisten  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
-|"RTCuniversalUserReadOnlyGroup"  <br/> |Inhalt auflisten  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
-|"RTCuniversalUserReadOnlyGroup"  <br/> |RTCUserSearchPropertySet lesen  <br/> RTCUserProvisioningPropertySet lesen  <br/> RTCPropertySet lesen  <br/> Öffentliche Informationen lesen  <br/> Lesen Sie persönliche Informationen  <br/> Allgemeine Informationen lesen  <br/> Benutzer Kontoeinschränkungen lesen  <br/> |Untergeordnete Contact-Objekte  <br/> |
-|RTCUniversalUserAdmins  <br/> |Untergeordnetes Objekt erstellen  <br/> Untergeordnetes Objekt löschen  <br/> Struktur löschen  <br/> |Kontakt  <br/> |
-|RTCUniversalUserAdmins  <br/> |DisplayName schreiben  <br/> Schreiben Sie Beschreibung  <br/> TelephoneNumber schreiben  <br/> |Untergeordnete User-Objekte  <br/> |
-|RTCUniversalUserAdmins  <br/> |Schreiben von RTCUserSearchPropertySet  <br/> "Otheripphone" schreiben  <br/> DisplayName schreiben  <br/> Schreiben Sie Beschreibung  <br/> TelephoneNumber schreiben  <br/> Schreiben Sie "msexchucvoicemailsettings"  <br/> Schreiben von RTCUserProvisioningPropertySet  <br/> Schreiben von RTCPropertySet  <br/> ProxyAddresses schreiben  <br/> |Untergeordnete Contact-Objekte  <br/> |
+|RTCHSUniversalServices  <br/> |Replizieren von Verzeichnisänderungen  <br/> |Nur dieses Objekt  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |Listeninhalt  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
+|RTCUniversalUserReadOnlyGroup hinzugefügt  <br/> |Listeninhalt  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
+|RTCUniversalUserReadOnlyGroup hinzugefügt  <br/> |Lesen von RTCUserSearchPropertySet  <br/> Lesen von RTCUserProvisioningPropertySet  <br/> Lesen von RTCPropertySet  <br/> Lesen öffentlicher Informationen  <br/> Lesen persönlicher Informationen  <br/> Allgemeine Informationen lesen  <br/> Lesen von Benutzerkonto Einschränkungen  <br/> |Nachfolger-Kontaktobjekte  <br/> |
+|RTCUniversalUserAdmins  <br/> |Erstellen eines untergeordneten Elements  <br/> Untergeordnetes Element löschen  <br/> Struktur löschen  <br/> |Kontakt  <br/> |
+|RTCUniversalUserAdmins  <br/> |Schreiben von DisplayName  <br/> Beschreibung schreiben  <br/> Schreiben von telephoneNumber  <br/> |Nachfolger Benutzerobjekte  <br/> |
+|RTCUniversalUserAdmins  <br/> |Schreiben von RTCUserSearchPropertySet  <br/> Schreiben von otherIpPhone  <br/> Schreiben von DisplayName  <br/> Beschreibung schreiben  <br/> Schreiben von telephoneNumber  <br/> Schreiben von msExchUCVoiceMailSettings  <br/> Schreiben von RTCUserProvisioningPropertySet  <br/> Schreiben von RTCPropertySet  <br/> Schreiben von proxyAddresses  <br/> |Nachfolger-Kontaktobjekte  <br/> |
    
-## <a name="granting-permission-for-inetorgperson-objects"></a>Erteilen von Berechtigungen für InetOrgPerson-Objekte
+## <a name="granting-permission-for-inetorgperson-objects"></a>Erteilen der Berechtigung für InetOrgPerson-Objekte
 
-Wenn Sie das **Grant-CsOuPermission** -Cmdlet für InetOrgPerson-Objekte in einer Organisationseinheit ausführen, werden Gruppen Berechtigungen wie in der folgenden Tabelle dargestellt erteilt.
+Wenn Sie das **Grant-CsOuPermission-** Cmdlet für InetOrgPerson-Objekte in einer OU ausführen, werden Gruppen Berechtigungen gewährt, wie in der folgenden Tabelle dargestellt.
   
-**Für InetOrgPerson-Objekte erteilte Berechtigungen**
+**Für InetOrgPerson-Objekte gewährte Berechtigungen**
 
-|**Gruppe**|**Berechtigung**|**Gilt für**|
+|**Gruppe**|**Berechtigungs**|**Gilt für**|
 |:-----|:-----|:-----|
-|RTCHSUniversalServices  <br/> |Verzeichnisänderungen  <br/> |Nur dieses Objekt  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |Inhalt auflisten  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
-|"RTCuniversalUserReadOnlyGroup"  <br/> |Inhalt auflisten  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
-|"RTCuniversalUserReadOnlyGroup"  <br/> |RTCUserSearchPropertySet lesen  <br/> RTCUserProvisioningPropertySet lesen  <br/> RTCPropertySet lesen  <br/> Lesen Sie persönliche Informationen  <br/> Öffentliche Informationen lesen  <br/> Allgemeine Informationen lesen  <br/> Benutzer Kontoeinschränkungen lesen  <br/> |Untergeordnete InetOrgPerson-Objekte  <br/> |
-|RTCUniversalUserAdmins  <br/> |Schreiben von RTCUserSearchPropertySet  <br/> Schreiben von RTCUserProvisioningPropertySet  <br/> Schreiben von RTCPropertySet  <br/> ProxyAddresses schreiben  <br/> |Untergeordnete InetOrgPerson-Objekte  <br/> |
+|RTCHSUniversalServices  <br/> |Replizieren von Verzeichnisänderungen  <br/> |Nur dieses Objekt  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |Listeninhalt  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
+|RTCUniversalUserReadOnlyGroup hinzugefügt  <br/> |Listeninhalt  <br/> Alle Eigenschaften lesen  <br/> Leseberechtigungen  <br/> |Nur dieses Objekt  <br/> |
+|RTCUniversalUserReadOnlyGroup hinzugefügt  <br/> |Lesen von RTCUserSearchPropertySet  <br/> Lesen von RTCUserProvisioningPropertySet  <br/> Lesen von RTCPropertySet  <br/> Lesen persönlicher Informationen  <br/> Lesen öffentlicher Informationen  <br/> Allgemeine Informationen lesen  <br/> Lesen von Benutzerkonto Einschränkungen  <br/> |Nachgeordnete InetOrgPerson-Objekte  <br/> |
+|RTCUniversalUserAdmins  <br/> |Schreiben von RTCUserSearchPropertySet  <br/> Schreiben von RTCUserProvisioningPropertySet  <br/> Schreiben von RTCPropertySet  <br/> Schreiben von proxyAddresses  <br/> |Nachgeordnete InetOrgPerson-Objekte  <br/> |
    
 

@@ -4,31 +4,31 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
-description: Informationen Sie zu Front-End-Pool-Verwaltung in Skype für Business Server, einschließlich der Verwaltung von Pools, Quorum Verlust und speziellen Schritte für Pools mit nur zwei Front-End-Servern.
-ms.openlocfilehash: bab9d4b40132665719a1e9d019b8f34e2d96622d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Erfahren Sie mehr über die Verwaltung von Front-End-Pools in Skype for Business Server, einschließlich Verwalten von Pools, Quorum Verlust und speziellen Schritten für Pools mit nur zwei Front-End-Servern.
+ms.openlocfilehash: debc0700a142789f542e4b4357da4427ce74c050
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910228"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297470"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Hohe Verfügbarkeit und Verwaltung von Front-End-Pools
  
-Informationen Sie zu Front-End-Pool-Verwaltung in Skype für Business Server, einschließlich der Verwaltung von Pools, Quorum Verlust und speziellen Schritte für Pools mit nur zwei Front-End-Servern.
+Erfahren Sie mehr über die Verwaltung von Front-End-Pools in Skype for Business Server, einschließlich Verwalten von Pools, Quorum Verlust und speziellen Schritten für Pools mit nur zwei Front-End-Servern.
   
-In Skype für Business Server verwendet die Architektur von Front-End-Pools ein Modell verteilter Systeme mit jeder Benutzer Daten auf bis zu drei Front-End-Servern im Pool gespeichert. Es wird empfohlen, dass alle Enterprise Edition-Front-End-Pools mindestens drei Front-End-Server enthalten. 
+In Skype for Business Server verwendet die Architektur der Front-End-Pools ein Modell mit verteilten Systemen, wobei die Daten jedes Benutzers auf bis zu drei Front-End-Servern im Pool aufbewahrt werden. Wir empfehlen, dass alle Ihre Enterprise Edition-Front-End-Pools mindestens drei Front-End-Server enthalten. 
   
 ## <a name="planning-for-the-management-of-front-end-pools"></a>Planen der Verwaltung von Front-End-Pools
 
- Skype für Business Server verwendet ein basierend auf Windows Fabric verteilter Systeme-Modell. In diesem Modell werden wichtige Daten für jeden Benutzer und Konferenz auf drei Front-End-Servern in einem Front-End-Pool gespeichert. Diese drei Server Speichern von einem bestimmten Satz von Daten sind Calledreplicas.
+ Für Skype for Business Server wird ein Modell für verteilte Systeme verwendet, das auf Windows-Fabric basiert. In diesem Modell werden wichtige Daten für jeden Benutzer und jede Konferenz auf drei Front-End-Servern in einem Front-End-Pool gespeichert. Diese drei Server, die einen bestimmten Satz von Daten speichern, sind calledreplicas.
   
-Mit dem verteilten Objektmodell für Front-End-Pools muss eine bestimmte Anzahl von Servern des Pools für den Pool-Funktion ausgeführt werden. Es gibt zwei Verlust Modi für einen Pool.
+Mit dem verteilten Modell für Front-End-Pools müssen eine bestimmte Anzahl von Servern eines Pools ausgeführt werden, damit der Pool funktioniert. Für einen Pool gibt es zwei Verlust Modi.
   
 - Quorumverlust auf Routinggruppenebene, wenn nicht genügend Replikatserver für eine bestimmte Routinggruppe vorhanden sind. Bei einer Routinggruppe handelt es sich um eine Gruppe von Benutzern, die im Pool verwaltet werden. Jede Routinggruppe verfügt über drei Replikate im Pool: ein primäres und zwei sekundäre Replikate.
     
@@ -52,16 +52,16 @@ Wenn Sie einen neuen Front-End-Pool zum ersten Mal starten, ist es wichtig, dass
 |11  <br/> |9  <br/> |
 |12  <br/> |10  <br/> |
    
-Bei jedem nachfolgenden Start des Pools sollten 85 % der Server gestartet werden (wie in der vorstehenden Tabelle gezeigt). Wenn diese Anzahl der Server kann nicht gestartet werden (jedoch nicht genügend Server gestartet werden können, so, dass Sie sich nicht auf Poolebene Quorum Verlust befinden), können Sie die `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` -Cmdlet zum Aktivieren des Pools aus diesem routing Group Ebene Quorum Verlust wiederherzustellen und Fortschritte. Weitere Informationen dazu, wie Sie dieses Cmdlet verwenden, finden Sie unter <link Reset-CsPoolRegistrarState>.
+Bei jedem nachfolgenden Start des Pools sollten 85 % der Server gestartet werden (wie in der vorstehenden Tabelle gezeigt). Wenn diese Anzahl von Servern nicht gestartet werden kann (aber genügend Server gestartet werden können, damit Sie nicht auf einem Quorum Verlust auf Poolebene sind), können Sie `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` das Cmdlet verwenden, um den Pool zu aktivieren, um den Quorum Verlust auf Routinggruppen Ebene wiederherzustellen und Fortschritte zu erzielen. Weitere Informationen zur Verwendung dieses Cmdlets finden Sie unter <link Reset-CsPoolRegistrarState>.
   
 > [!NOTE]
-> In Pools mit einer geraden Anzahl von Servern verwendet Skype for Business Server die primäre SQL-Datenbank als Zeuge. Wenn Sie in einem solchen Pool die primäre Datenbank herunterfahren, zur Spiegelkopie wechseln und ausreichend Front-End-Server herunterfahren, sodass (entsprechend der vorstehenden Tabelle) nicht genügend von ihnen aktiv sind, fällt der gesamte Pool aus. Weitere Informationen finden Sie unter [Datenbank-Spiegelungszeuge](https://go.microsoft.com/fwlink/?LinkId=393672). 
+> In Pools mit einer geraden Anzahl von Servern verwendet Skype for Business Server die primäre SQL-Datenbank als Zeuge. Wenn Sie in einem solchen Pool die primäre Datenbank herunterfahren, zur Spiegelkopie wechseln und ausreichend Front-End-Server herunterfahren, sodass (entsprechend der vorstehenden Tabelle) nicht genügend von ihnen aktiv sind, fällt der gesamte Pool aus. Weitere Informationen finden Sie unter [Daten Bank Spiegelungs Zeuge](https://go.microsoft.com/fwlink/?LinkId=393672). 
   
 #### <a name="pool-level-quorum-loss"></a>Quorumverlust auf Poolebene
 
-Für einen Front-End-Pool funktionsfähig es Poolebene Quorum Verlust nicht möglich. Unterschreitet die Anzahl der aktiven Server die in der folgenden Tabelle gezeigte Funktionsebene, halten die im Pool verbleibenden Server alle Skype for Business Server-Dienste an. Beachten Sie, dass die Zahlen in der folgenden Tabelle wird davon ausgegangen, dass die Back End-Server im Pool ausgeführt werden.
+Damit ein Front-End-Pool überhaupt funktioniert, kann er keinen Quorum Verlust auf Poolebene aufweisen. Unterschreitet die Anzahl der aktiven Server die in der folgenden Tabelle gezeigte Funktionsebene, halten die im Pool verbleibenden Server alle Skype for Business Server-Dienste an. Beachten Sie, dass die Zahlen in der folgenden Tabelle davon ausgehen, dass die Back-End-Server im Pool ausgeführt werden.
   
-|Gesamtanzahl der Front-End-Servern im pool  <br/> |Anzahl der Server, die aktiv sein müssen, damit der Pool funktioniert  <br/> |
+|Gesamtzahl der Front-End-Server im Pool  <br/> |Anzahl der Server, die aktiv sein müssen, damit der Pool funktioniert  <br/> |
 |:-----|:-----|
 |2  <br/> |1  <br/> |
 |3-4  <br/> |Beliebige 2  <br/> |
@@ -70,31 +70,31 @@ Für einen Front-End-Pool funktionsfähig es Poolebene Quorum Verlust nicht mög
 |8-9  <br/> |Beliebige 4 der ersten 7 Server  <br/> |
 |10-12  <br/> |Beliebige 5 der ersten 9 Server  <br/> |
    
-In der obigen Tabelle sind die "ersten Server" die Server die geschaltet wurden einrichten, wenn der Pool zum ersten Mal gestartet wurde zunächst, chronologisch. Um diese Server zu bestimmen, verwenden Sie die `Get-CsComputer` -Cmdlet mit den ` -PoolFqdn` Option. Dieses Cmdlet die Server in der Reihenfolge, die sie in der Topologie angezeigt werden, und es am oberen Rand der Liste sind die ersten Server.
+In der vorstehenden Tabelle sind die "ersten Server" die Server, die in chronologischer Reihenfolge beim ersten Start des Pools aufgeholt wurden. Um diese Server zu ermitteln, können Sie das `Get-CsComputer` Cmdlet mit der ` -PoolFqdn` Option verwenden. Dieses Cmdlet zeigt die Server in der Reihenfolge an, in der Sie in der Topologie angezeigt werden, und die oben in der Liste sind die ersten Server.
   
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>Zusätzliche Schritte, um zu bestimmen, dass Pools funktionsbereit sind
 
 Sie sollten auf eine Reihe anderer Faktoren achten, um sicherzustellen, dass Ihre Front-End-Pools funktionsbereit bleiben.
   
-- Wenn Sie Benutzer zum ersten Mal in den Pool verschieben, müssen Sie mindestens, dass drei der Front-End-Server ausgeführt werden.
+- Wenn Sie Benutzer zum ersten Mal in den Pool verschieben, stellen Sie sicher, dass mindestens drei der Front-End-Server ausgeführt werden.
     
-- Wenn Sie eine Paarbeziehung zwischen diesem Pool und einem anderen Pool zum Zweck der Notfallwiederherstellung konfigurieren, müssen Sie nach dem Erstellen dieser Beziehung sichergehen, dass in diesem Pool zu einem beliebigen Zeitpunkt drei Front-End-Server gleichzeitig ausgeführt werden, damit Daten korrekt mit dem Sicherungspool synchronisiert werden. Weitere Informationen zum Pool eine Kopplung und Disaster Recovery-Funktionen finden Sie unter [Planen für hohe Verfügbarkeit und notfallwiederherstellung in Skype für Business Server](high-availability-and-disaster-recovery.md). 
+- Wenn Sie eine Paarbeziehung zwischen diesem Pool und einem anderen Pool zum Zweck der Notfallwiederherstellung konfigurieren, müssen Sie nach dem Erstellen dieser Beziehung sichergehen, dass in diesem Pool zu einem beliebigen Zeitpunkt drei Front-End-Server gleichzeitig ausgeführt werden, damit Daten korrekt mit dem Sicherungspool synchronisiert werden. Weitere Informationen zu Pool-Kopplungs-und Disaster Recovery-Features finden Sie unter [Planen von Höchstverfügbarkeit und Disaster Recovery in Skype for Business Server](high-availability-and-disaster-recovery.md). 
     
 ## <a name="front-end-pool-with-two-front-end-servers"></a>Front-End-Pool mit zwei Front-End-Servern
 
-Wir empfehlen nicht Bereitstellen eines Front-End-Pools, das nur zwei Front-End-Server enthält. Ein derart kleiner Pool stellt keine robuste Lösung mit hoher Verfügbarkeit dar, wie dies bei einem größeren Pool der Fall ist, und benötigt besondere Aufmerksamkeit bei der Verwaltung. Darüber hinaus Wenn des Back End-Servers eines Pools zwei Servern ausgefallen, würde der gesamte Pool selbst wahrscheinlich bald auch ausfallen. Wenn Sie nur ein oder zwei Server mit Skype für Business Server bereitstellen möchten, wird empfohlen, dass Sie diese Funktionen als Standard Edition-Server bereitstellen.
+Wir empfehlen nicht die Bereitstellungeines Front-End-Pools, in dem nur zwei Front-End-Server enthalten sind. Ein derart kleiner Pool stellt keine robuste Lösung mit hoher Verfügbarkeit dar, wie dies bei einem größeren Pool der Fall ist, und benötigt besondere Aufmerksamkeit bei der Verwaltung. Wenn der Back-End-Server eines Pools mit zwei Servern ebenfalls abstürzte, würde der gesamte Pool selbst wahrscheinlich bald auch nach unten gehen. Wenn Sie nur einen oder zwei Server mit Skype for Business Server bereitstellen möchten, empfehlen wir, diese als Standard Edition-Server bereitzustellen.
   
-Wenn Sie jemals einen Pool mit zwei Front-End-Servern bereitstellen müssen, folgen Sie diesen Richtlinien:
+Wenn Sie jemals einen Pool mit zwei Front-End-Servern bereitstellen müssen, befolgen Sie diese Richtlinien:
   
-- Wenn eine der zwei Front-End-Server ausfällt, sollten Sie den fehlerhaften Server wieder verfügbar zu machen, sobald Sie können. Entsprechend sollten Sie, wenn Sie einen der beiden Server upgraden müssen, diesen Server so bald wie möglich nach Abschluss des Upgrades wieder online schalten.
+- Wenn einer der beiden Front-End-Server ausfällt, sollten Sie versuchen, den fehlerhaften Server so schnell wie möglich wieder aufzunehmen. Entsprechend sollten Sie, wenn Sie einen der beiden Server upgraden müssen, diesen Server so bald wie möglich nach Abschluss des Upgrades wieder online schalten.
     
 - Falls Sie aus irgendeinem Grund beide Server gleichzeitig herunterfahren müssen, führen Sie nach Beendigung der Downtime für den Pool folgende Schritte durch:
     
-  - Bewährt hat, beide Front-End-Server gleichzeitig neu zu starten. 
+  - Die bewährte Vorgehensweise besteht darin, beide Front-End-Server gleichzeitig neu zu starten. 
     
   - Ist dies nicht möglich, sollten Sie sie in der umgekehrten Reihenfolge wieder hochfahren, in der sie heruntergefahren wurden.
     
-  - Wenn Sie diese in dieser Reihenfolge können nicht wieder verfügbar zu machen, verwenden Sie das folgende Cmdlet vor dem Pool sichern:`Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery -PoolFQDN <FQDN>`
+  - Wenn Sie Sie nicht in dieser Reihenfolge sichern können, verwenden Sie das folgende Cmdlet, bevor Sie den Pool sichern:`Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery -PoolFQDN <FQDN>`
     
 ## <a name="front-end-pool-configuration-failures-and-changes"></a>Front-End-Pool-Konfiguration – Fehler und Änderungen
 
@@ -104,6 +104,6 @@ Immer dann, wenn Sie eine Konfigurationsänderung an einem Front-End-Pool vorneh
   
 - Nachdem die neue Topologie veröffentlicht wurde, müssen Sie jeden Front-End-Server im Pool neu starten. Starten Sie die Server einen nach dem anderen neu.
     
-- Wenn während der konfigurationsänderung der gesamte Pool nach unten durchgeführt wurde, führen Sie das folgende Cmdlet, nachdem die neue Topologie veröffentlicht wurde:`Reset-CsPoolRegistrarState -PoolFQDN <PoolFQDN> -ResetType ServiceReset`
+- Wenn der gesamte Pool während der Konfigurationsänderung inaktiv war, führen Sie nach der Veröffentlichung der neuen Topologie das folgende Cmdlet aus:`Reset-CsPoolRegistrarState -PoolFQDN <PoolFQDN> -ResetType ServiceReset`
     
 

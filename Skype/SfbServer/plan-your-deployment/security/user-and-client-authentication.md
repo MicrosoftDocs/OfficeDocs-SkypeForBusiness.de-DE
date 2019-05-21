@@ -1,38 +1,38 @@
 ---
-title: Benutzer- und Client für die Authentifizierung Skype Business Server
+title: Benutzer-und Clientauthentifizierung für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
-description: Ein vertrauenswürdiger ist Benutzer ein, dessen Anmeldeinformationen von einem vertrauenswürdigen Server in Skype für Business Server authentifiziert wurden. Dieser Server ist in der Regel ein Standard Edition-Server, Enterprise Edition-Front-End-Server und Director. Skype für Business Server nutzt Active Directory Domain Services als einzelnen, vertrauenswürdigen Back-End-Repository von Benutzeranmeldeinformationen.
-ms.openlocfilehash: 6d6a796f521ce79fe3c78c7becb48a495eafd473
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Ein vertrauenswürdiger Benutzer ist derjenige, dessen Anmeldeinformationen von einem vertrauenswürdigen Server in Skype for Business Server authentifiziert wurden. Dieser Server ist in der Regel ein Standard Edition-Server, Enterprise Edition-Front-End-Server oder Director. Skype for Business Server basiert auf Active Directory-Domänendiensten als einzelnes, vertrauenswürdiges Back-End-Repository für Benutzeranmeldeinformationen.
+ms.openlocfilehash: 35d1c6861ba8863e308939997fd802d4abcea404
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885461"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296868"
 ---
-# <a name="user-and-client-authentication-for-skype-for-business-server"></a>Benutzer- und Client für die Authentifizierung Skype Business Server
+# <a name="user-and-client-authentication-for-skype-for-business-server"></a>Benutzer-und Clientauthentifizierung für Skype for Business Server
  
-Ein vertrauenswürdiger ist Benutzer ein, dessen Anmeldeinformationen von einem vertrauenswürdigen Server in Skype für Business Server authentifiziert wurden. Dieser Server ist in der Regel ein Standard Edition-Server, Enterprise Edition-Front-End-Server und Director. Skype für Business Server nutzt Active Directory Domain Services als einzelnen, vertrauenswürdigen Back-End-Repository von Benutzeranmeldeinformationen.
+Ein vertrauenswürdiger Benutzer ist derjenige, dessen Anmeldeinformationen von einem vertrauenswürdigen Server in Skype for Business Server authentifiziert wurden. Dieser Server ist in der Regel ein Standard Edition-Server, Enterprise Edition-Front-End-Server oder Director. Skype for Business Server basiert auf Active Directory-Domänendiensten als einzelnes, vertrauenswürdiges Back-End-Repository für Benutzeranmeldeinformationen.
   
-Authentifizierung bedeutet die Bereitstellung von Benutzeranmeldeinformationen für einen vertrauenswürdigen Server. Skype für Business Server verwendet die folgenden Authentifizierungsprotokolle – abhängig vom Status und Standort des Benutzers.
+Authentifizierung bedeutet die Bereitstellung von Benutzeranmeldeinformationen für einen vertrauenswürdigen Server. Skype for Business Server verwendet die folgenden Authentifizierungsprotokolle, abhängig vom Status und Standort des Benutzers.
   
-- **MIT Kerberos Version 5 Security-Protokoll** für interne Benutzer mit Active Directory-Anmeldeinformationen. Kerberos erfordert Clients eine Verbindung mit Active Directory-Domänendienste, weshalb sie verwendet werden, für die Authentifizierung von Clients außerhalb der Unternehmensfirewall befindet.
+- Mit **Kerberos Version 5-Sicherheitsprotokoll** für interne Benutzer mit Active Directory-Anmeldeinformationen Für Kerberos ist eine Clientverbindung mit Active Directory-Domänendiensten erforderlich, weshalb Sie nicht für die Authentifizierung von Clients außerhalb der Unternehmensfirewall verwendet werden kann.
     
-- **NTLM-Protokoll** für Benutzer mit Active Directory-Anmeldeinformationen, die über ein Endgerät von außerhalb der Unternehmensfirewall eine Verbindung herstellen. Der Zugriffs-edgedienst übergibt Anfragen zur Anmeldung an einen Director, falls vorhanden, oder ein Front-End-Server für die Authentifizierung. Der Zugriffs-edgedienst selbst führt keine Authentifizierung.
+- **NTLM-Protokoll** für Benutzer mit Active Directory-Anmeldeinformationen, die von einem Endpunkt außerhalb der Unternehmensfirewall eine Verbindung herstellen. Der Access-Edgedienst übergibt Anmeldeanforderungen an einen Director, falls vorhanden, oder einen Front-End-Server zur Authentifizierung. Der Access-Edgedienst selbst führt keine Authentifizierung durch.
     
     > [!NOTE]
-    > Da der Angriffsschutz des NTLM-Protokolls schwächer ist als der von Kerberos, minimieren einige Organisationen die Nutzung von NTLM. Daher Zugriff auf Skype für Business Server unter Umständen zu internen eingeschränkt oder Clients über eine VPN- oder DirectAccess Verbindung verbunden. 
+    > Da der Angriffsschutz des NTLM-Protokolls schwächer ist als der von Kerberos, minimieren einige Organisationen die Nutzung von NTLM. Daher kann der Zugriff auf Skype for Business Server auf interne oder über eine VPN-oder DirectAccess-Verbindung angeschlossene Clients beschränkt sein. 
   
 - Das **Digestprotokoll** für sogenannte anonyme Benutzer. Anonyme Benutzer sind externe Benutzer, die nicht über anerkannte Active Directory-Anmeldeinformationen verfügen, aber zu einer lokalen Konferenz eingeladen wurden und einen gültigen Konferenzschlüssel besitzen. Die Digestauthentifizierung wird nicht für andere Clientinteraktionen verwendet.
     
-Skype für Business Server-Authentifizierung besteht aus zwei Phasen:
+Die Skype for Business Server-Authentifizierung besteht aus zwei Phasen:
   
 1. Zwischen dem Client und dem Server wird eine Sicherheitszuordnung eingerichtet.
     
@@ -44,11 +44,11 @@ Benutzer mit gültigen Anmeldeinformationen, die von einem Verbundpartner ausgeg
   
 Die Protokolle ICE und TURN verwenden ebenfalls die Digestherausforderung, wie im IETF TURN RFC beschrieben.
   
-Clientzertifikate stellen eine Alternative für Benutzer von Skype für Business Server authentifiziert werden. Anstelle der Angabe eines Benutzernamens und eines Kennworts haben die Benutzer ein Zertifikat und den privaten Schlüssel, der dem Zertifikat entspricht, das zum Auflösen einer kryptografischen Aufforderung benötigt wird. (Dieses Zertifikat benötigen eine Antragstellername oder alternativer Antragstellername, der identifiziert den Benutzer und muss einer Stammzertifizierungsstelle, die Servern mit Skype für Business Server als vertrauenswürdig einstufen, die innerhalb der Gültigkeitsdauer werden und nicht gesperrt.) Um authentifiziert werden, müssen Benutzer nur eine persönliche Identifikationsnummer (PIN) eingeben. Zertifikate sind besonders für Telefone, Mobiltelefone und andere Geräte, auf dem ist es schwierig, einen Benutzernamen und ein Kennwort einzugeben.
+Client Zertifikate bieten eine alternative Möglichkeit für Benutzer, von Skype for Business Server authentifiziert zu werden. Anstelle der Angabe eines Benutzernamens und eines Kennworts haben die Benutzer ein Zertifikat und den privaten Schlüssel, der dem Zertifikat entspricht, das zum Auflösen einer kryptografischen Aufforderung benötigt wird. (Dieses Zertifikat muss über einen Antragstellernamen oder einen alternativen Antragstellernamen verfügen, der den Benutzer identifiziert und von einer Stammzertifizierungsstelle ausgestellt werden muss, die von Servern mit Skype for Business Server vertraut ist, innerhalb des Gültigkeitszeitraums des Zertifikats liegt und nicht widerrufen wurde.) Damit die Benutzer authentifiziert werden können, müssen Sie nur eine persönliche Identifikationsnummer (PIN) eingeben. Zertifikate sind besonders nützlich für Telefone, Handys und andere Geräte, bei denen es schwierig ist, einen Benutzernamen und ein Kennwort einzugeben.
   
-### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Kryptografische Anforderungen aufgrund von ASP .NET 4.5 
+### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Kryptografische Anforderungen aufgrund von ASP .NET 4,5 
 
-Ab Skype für Business Server 2015 CU5 AES für ASP.NET 4.6 nicht unterstützt wird, und dadurch kann Skype Besprechungen App zu einem Fehler beim Starten. Wenn ein Client AES als Wert Schlüssel-Überprüfung Computer verwendet wird, Sie den Schlüsselwert Computer auf SHA-1 oder eine andere unterstützte Algorithmus auf Standortebene Skype Besprechungen App auf IIS zurückzusetzen müssen. Falls erforderlich, finden Sie unter [IIS 8.0 ASP.NET Configuration Management](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) Anweisungen.
+Ab Skype for Business Server 2015 CU5 wird AES für ASP.NET 4,6 nicht unterstützt, was dazu führen kann, dass die APP für Skype-Besprechungen nicht gestartet wird. Wenn ein Client AES als Computerschlüssel-Überprüfungs Wert verwendet, müssen Sie den Wert des Computerschlüssels auf SHA-1 oder einen anderen unterstützten Algorithmus auf der Websiteebene der Skype-Besprechungs-App auf IIS zurücksetzen. Falls erforderlich, finden Sie Anweisungen unter [IIS 8,0 ASP.net Configuration Management](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) .
   
 Weitere unterstützte Werte:
   
@@ -58,5 +58,5 @@ Weitere unterstützte Werte:
     
 - HMACSHA512
     
-  Die Werte AES, 3DES und MD5 sind nicht mehr zulässig, während sie in ASP.NET 4 noch zulässig waren. [Kryptografische Verbesserungen in ASP.NET 4.5 Pkt. 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) hat weitere Details.
+  Die Werte AES, 3DES und MD5 sind nicht mehr zulässig, während sie in ASP.NET 4 noch zulässig waren. Die [kryptografischen Verbesserungen in ASP.NET 4,5, PT. 2,](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) haben weitere Details.
   

@@ -1,94 +1,94 @@
 ---
-title: Änderungen, die durch die Vorbereitung der Gesamtstruktur in Skype für Business Server
+title: Änderungen, die von der Gesamtstrukturvorbereitung in Skype for Business Server vorgenommen wurden
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
-description: Dieser Abschnitt beschreibt die globalen Einstellungen und Objekte und der universellen Dienst- und Administrationsgruppen, die durch die gesamtstrukturvorbereitung erstellt werden.
-ms.openlocfilehash: de5171887d84e3d3d5d835d6bb59af24fcb5820d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: In diesem Abschnitt werden die globalen Einstellungen und Objekte sowie die Gruppen "Universeller Dienst" und "Verwaltung" beschrieben, die vom Gesamtstrukturvorbereitungsschritt erstellt werden.
+ms.openlocfilehash: ece4a9bd1db5f43b52a96265dee41ee3a0a30b22
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33907127"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296700"
 ---
-# <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Änderungen, die durch die Vorbereitung der Gesamtstruktur in Skype für Business Server
+# <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Änderungen, die von der Gesamtstrukturvorbereitung in Skype for Business Server vorgenommen wurden
 
-Dieser Abschnitt beschreibt die globalen Einstellungen und Objekte und der universellen Dienst- und Administrationsgruppen, die durch die gesamtstrukturvorbereitung erstellt werden.
+In diesem Abschnitt werden die globalen Einstellungen und Objekte sowie die Gruppen "Universeller Dienst" und "Verwaltung" beschrieben, die vom Gesamtstrukturvorbereitungsschritt erstellt werden.
 
-## <a name="active-directory-global-settings-and-objects"></a>Active Directory globale Einstellungen und Objekte
+## <a name="active-directory-global-settings-and-objects"></a>Globale Active Directory-Einstellungen und-Objekte
 
-Wenn Sie globale Einstellungen im Konfigurationscontainer speichern, (wie die Groß-/Kleinschreibung für alle neuen Skype für Business Server-Bereitstellungen ist), die Vorbereitung der Gesamtstruktur verwendet den vorhandenen Container Services und fügt ein Objekt **RTC Service** unter der Configuration\Services -Objekt. Unter dem Objekt RTC Service fügt die gesamtstrukturvorbereitung ein **Global Settings** -Objekt vom Typ MsRTCSIP-GlobalContainer hinzu. Das globalen Einstellungen-Objekt enthält alle Einstellungen, die für die Skype für Business Server-Bereitstellung gelten. Wenn Sie globale Einstellungen im Systemcontainer speichern, verwendet der Vorbereitung der Gesamtstruktur ein Microsoft-Container unter Systemcontainer der Stammdomäne und ein Objekt RTC Service unter dem System\Microsoft-Objekt.
+Wenn Sie globale Einstellungen im Konfigurationscontainer speichern (wie dies bei allen neuen Skype for Business Server-Bereitstellungen der Fall ist), verwendet die Gesamtstrukturvorbereitung den vorhandenen Dienste-Container und fügt unter dem Konfiguration\Dienste ein **RTC-Dienst** Objekt hinzu. Objekt. Unter dem RTC-Dienstobjekt fügt die Gesamtstrukturvorbereitung ein **globales Einstellungs** Objekt vom Typ Attribut msRTCSIP-Global Container hinzu. Das Global Settings-Objekt enthält alle Einstellungen, die für die Bereitstellung von Skype for Business Server gelten. Wenn Sie globale Einstellungen im Systemcontainer speichern, verwendet die Gesamtstrukturvorbereitung einen Microsoft-Container unter dem Stammdomänen System Container und ein RTC-Dienstobjekt unter dem System\Microsoft-Objekt.
 
-Vorbereitung der Gesamtstruktur fügt außerdem ein neues Objekt **MsRTCSIP-Domain** für die Stammdomäne, in der das Verfahren ausgeführt wird.
+Bei der Gesamtstrukturvorbereitung wird auch ein neues **Attribut msRTCSIP-Domänen** Objekt für die Stammdomäne hinzugefügt, in der die Prozedur ausgeführt wird.
 
-## <a name="active-directory-universal-service-and-administration-groups"></a>Active Directory universelle Dienst- und Verwaltungsgruppen
+## <a name="active-directory-universal-service-and-administration-groups"></a>Active Directory-universelle Dienst-und Verwaltungsgruppen
 
-Vorbereitung der Gesamtstruktur erstellt universelle Gruppen basierend auf den, die von Ihnen angegebenen Domäne und fügt Zugriffssteuerungseinträge (ACEs) für diese Gruppen hinzu. Dieser Schritt erstellt die universellen Gruppen in den benutzercontainern der Domäne, die Sie angeben.
+Bei der Gesamtstrukturvorbereitung werden universelle Gruppen basierend auf der von Ihnen angegebenen Domäne erstellt und für diese Gruppen Zugriffssteuerungseinträge (ACEs) hinzugefügt. In diesem Schritt werden die universellen Gruppen in den Benutzer Containern der Domäne erstellt, die Sie angeben.
 
-Universelle Gruppen können Administratoren zugreifen und diese globale Einstellungen und Dienste verwalten. Vorbereitung der Gesamtstruktur fügt die folgenden Arten von universellen Gruppen:
+Universelle Gruppen ermöglichen Administratoren den Zugriff auf und die Verwaltung globaler Einstellungen und Dienste. Bei der Gesamtstrukturvorbereitung werden die folgenden Typen von universellen Gruppen hinzugefügt:
 
-- **Administrative Gruppen** Diese Gruppen werden Administratorrollen für ein Skype für Business Server-Netzwerk definiert.
+- **Administrative Gruppen** Diese Gruppen definieren Administratorrollen für ein Skype for Business Server-Netzwerk.
 
-- **Infrastrukturgruppen** Diese Gruppen bieten die Zugriffsberechtigung für bestimmte Bereiche der Skype für Business Server-Infrastruktur. Sie fungieren als Komponenten der administrativen Gruppen. Sie sollten nicht diese Gruppen ändern oder Hinzufügen von Benutzern direkt an.
+- **Infrastrukturgruppen** Diese Gruppen bieten die Berechtigung für den Zugriff auf bestimmte Bereiche der Skype for Business Server-Infrastruktur. Sie funktionieren als Komponenten administrativer Gruppen. Sie sollten diese Gruppen nicht ändern oder Benutzer direkt hinzufügen.
 
-- **Dienstgruppen** Diese Gruppen sind Dienstkonten, die erforderlich sind, auf verschiedenen Skype für Business Server-Dienste zugreifen.
+- **Dienstgruppen** Diese Gruppen sind Dienstkonten, die für den Zugriff auf verschiedene Skype for Business Server-Dienste erforderlich sind.
 
 In der folgenden Tabelle werden die administrativen Gruppen beschrieben.
 
-**Administrative Gruppen, die während der Vorbereitung der Gesamtstruktur erstellt**
+**Während der Gesamtstrukturvorbereitung erstellte administrative Gruppen**
 
 |**Administrative Gruppe**|**Beschreibung**|
 |:-----|:-----|
-|RTCUniversalServerAdmins  <br/> |Ermöglicht Mitgliedern das Verwalten von Server und pooleinstellungen, darunter alle Serverrollen, globalen Einstellungen und Benutzer.  <br/> |
-|RTCUniversalUserAdmins  <br/> |Ermöglicht Mitgliedern das Verwalten von benutzereinstellungen und das Verschieben von Benutzern von einem Server oder Pool in einen anderen.  <br/> |
-|RTCUniversalReadOnlyAdmins  <br/> |Ermöglicht Mitgliedern das Lesen von Server-, Pool- und User Settings.  <br/> |
+|RTCUniversalServerAdmins  <br/> |Ermöglicht Mitgliedern das Verwalten von Server-und Pooleinstellungen, einschließlich aller Serverrollen, globalen Einstellungen und Benutzer.  <br/> |
+|RTCUniversalUserAdmins  <br/> |Ermöglicht Mitgliedern, Benutzereinstellungen zu verwalten und Benutzer von einem Server oder Pool in einen anderen zu verschieben.  <br/> |
+|RTCUniversalReadOnlyAdmins  <br/> |Ermöglicht Mitgliedern, Server-, Pool-und Benutzereinstellungen zu lesen.  <br/> |
 
 In der folgenden Tabelle werden die Infrastrukturgruppen beschrieben.
 
-**Infrastrukturgruppen, die während der Vorbereitung der Gesamtstruktur erstellt**
+**Während der Gesamtstrukturvorbereitung erstellte Infrastrukturgruppen**
 
 |**Infrastrukturgruppe**|**Beschreibung**|
 |:-----|:-----|
-|RTCUniversalGlobalWriteGroup  <br/> |Gewährt Schreibzugriff auf die globalen Einstellungsobjekte für Skype für Business Server.  <br/> |
-|"Rtcuniversalglobalreadonlygroup"  <br/> |Gewährt schreibgeschützten Zugriff auf die globalen Einstellungsobjekte für Skype für Business Server.  <br/> |
-|"RTCuniversalUserReadOnlyGroup"  <br/> |Gewährt schreibgeschützten Zugriff auf die Skype für Business Server-benutzereinstellungen.  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |Gewährt schreibgeschützten Zugriff auf die Skype für Business Server-Einstellungen. Diese Gruppe hat keinen Zugriff auf die Einstellungen auf Poolebene, sondern lediglich auf Einstellungen für einen einzelnen Server.  <br/> |
-|RTCUniversalSBATechnicians  <br/> |Gewährt schreibgeschützten Zugriff auf die Skype für die Business-Serverkonfiguration und werden während der Installation in der lokalen Administratorgruppe der survivable Branch Appliances eingefügt.  <br/> |
+|RTCUniversalGlobalWriteGroup  <br/> |Gewährt Schreibzugriff auf globale Einstellungsobjekte für Skype for Business Server.  <br/> |
+|RTCUniversalGlobalReadOnlyGroup  <br/> |Gewährt schreibgeschützten Zugriff auf globale Einstellungsobjekte für Skype for Business Server.  <br/> |
+|RTCUniversalUserReadOnlyGroup hinzugefügt  <br/> |Gewährt schreibgeschützten Zugriff auf die Benutzereinstellungen von Skype for Business Server.  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |Gewährt schreibgeschützten Zugriff auf Skype for Business Server-Einstellungen. Diese Gruppe hat keinen Zugriff auf Einstellungen auf Poolebene, sondern nur auf Einstellungen, die für einen einzelnen Server spezifisch sind.  <br/> |
+|RTCUniversalSBATechnicians  <br/> |Gewährt schreibgeschützten Zugriff auf die Konfiguration von Skype for Business Server und wird während der Installation in der lokalen Gruppe Administratoren der Überlebenden Branch-Appliances gespeichert.  <br/> |
 
 In der folgenden Tabelle werden die Dienstgruppen beschrieben.
 
-**Dienstgruppen, die während der Vorbereitung der Gesamtstruktur erstellt**
+**Während der Gesamtstrukturvorbereitung erstellte Dienstgruppen**
 
 |**Dienstgruppe**|**Beschreibung**|
 |:-----|:-----|
-|RTCHSUniversalServices  <br/> |Enthält Dienstkonten, die zum Ausführen von Front-End-Server und Standard Edition-Servern verwendet. Diese Gruppe ermöglicht Servern Lese-/Schreibzugriff auf Skype Business Server Globale Einstellungen und Active Directory-Benutzerobjekte.  <br/> |
-|RTCComponentUniversalServices  <br/> |Enthält Dienstkonten, die zur Ausführung / V-Konferenzserver, Webdienste, Mediation Server, Archivierungsserver und Monitoring Server.  <br/> |
-|RTCProxyUniversalServices  <br/> |Enthält Dienstkonten, die zum Ausführen von Skype für Business Server Edge-Server verwendet.  <br/> |
-|RTCUniversalConfigReplicator  <br/> |Enthält Server, die teilnehmen können Skype für die Replikation für Business Server Central Management-Speicher.  <br/> |
-|RTCSBAUniversalServices  <br/> |Gewährt schreibgeschützten Zugriff auf die Skype für Business Server-Einstellungen, ermöglicht aber auch die Konfiguration für die Installation einer survivable Branch Server- und survivable Branch Appliance-Bereitstellung.  <br/> |
+|RTCHSUniversalServices  <br/> |Enthält Dienstkonten, mit denen Front-End-Server und Standard Edition-Server ausgeführt werden. Diese Gruppe ermöglicht Servern Lese-und Schreibzugriff auf die globalen Einstellungen und Active Directory-Benutzerobjekte von Skype for Business Server.  <br/> |
+|RTCComponentUniversalServices  <br/> |Enthält Dienstkonten, die für die Ausführung von A/V-Konferenzservern, Webdiensten, Mediations Servern, Archivierungsservern und Überwachungs Servern verwendet werden.  <br/> |
+|RTCProxyUniversalServices  <br/> |Enthält Dienstkonten, die für die Ausführung von Skype for Business Server Edge-Servern verwendet werden.  <br/> |
+|RTCUniversalConfigReplicator  <br/> |Umfasst Server, die an der Replikation des zentralen Verwaltungsspeichers von Skype for Business Server teilnehmen können.  <br/> |
+|RTCSBAUniversalServices  <br/> |Gewährt schreibgeschützten Zugriff auf Skype for Business Server-Einstellungen, ermöglicht aber die Konfiguration für die Installation eines überlebensfähigen Branch-Servers und die Bereitstellung von Survivable Branch Appliances.  <br/> |
 
-Klicken Sie dann die Vorbereitung der Gesamtstruktur werden die entsprechenden Infrastrukturgruppen wie folgt Dienst- und Administrationsgruppen hinzugefügt:
+Die Gesamtstrukturvorbereitung fügt dann den entsprechenden Infrastrukturgruppen Dienst-und Verwaltungsgruppen wie folgt hinzu:
 
-- RTCUniversalServerAdmins wird RTCUniversalGlobalReadOnlyGroup, RTCUniversalGlobalWriteGroup, RTCUniversalServerReadOnlyGroup und RTCUniversalUserReadOnlyGroup hinzugefügt.
+- RTCUniversalServerAdmins wird zu RTCUniversalGlobalReadOnlyGroup, RTCUniversalGlobalWriteGroup, RTCUniversalServerReadOnlyGroup und RTCUniversalUserReadOnlyGroup hinzugefügt hinzugefügt.
 
-- RTCUniversalUserAdmins wird als Mitglied von RTCUniversalGlobalReadOnlyGroup, RTCUniversalServerReadOnlyGroup und RTCUniversalUserReadOnlyGroup hinzugefügt.
+- RTCUniversalUserAdmins wird als Mitglied von RTCUniversalGlobalReadOnlyGroup, RTCUniversalServerReadOnlyGroup und RTCUniversalUserReadOnlyGroup hinzugefügt hinzugefügt.
 
-- RTCHSUniversalServices, RTCComponentUniversalServices und RTCUniversalReadOnlyAdmins werden als Mitglieder von RTCUniversalGlobalReadOnlyGroup, RTCUniversalServerReadOnlyGroup und RTCUniversalUserReadOnlyGroup hinzugefügt.
+- RTCHSUniversalServices, RTCComponentUniversalServices und RTCUniversalReadOnlyAdmins werden als Mitglieder von RTCUniversalGlobalReadOnlyGroup, RTCUniversalServerReadOnlyGroup und RTCUniversalUserReadOnlyGroup hinzugefügt hinzugefügt.
 
-Vorbereitung der Gesamtstruktur wird auch die folgenden rollenbasierten Zugriffssteuerung (RBAC) Gruppen erstellt:
+Bei der Gesamtstrukturvorbereitung werden auch die folgenden rollenbasierten Zugriffssteuerungsgruppen erstellt:
 
-- "Csadministrator"
+- CSAdministrator
 
-- Rolle "csarchivingadministrator"
+- CSArchivingAdministrator
 
-- "Cshelpdesk"
+- CSHelpDesk
 
 - CSLocationAdministrator
 
@@ -96,41 +96,41 @@ Vorbereitung der Gesamtstruktur wird auch die folgenden rollenbasierten Zugriffs
 
 - CSServerAdministrator
 
-- "CsUserAdministrator"
+- CSUserAdministrator
 
 - CSViewOnlyAdministrator
 
-- "Csvoiceadministrator"
+- CSVoiceAdministrator
 
 - CsPersistentChatAdministator
 
 - CsResponseGroupManager
 
-Ausführliche Informationen zu RBAC-Rollen und die Aufgaben für die einzelnen zulässig finden Sie unter [Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) in der Planungsdokumentation.
+Details zu den Rollen und den jeweils zulässigen Aufgaben finden Sie unter [rollenbasierte Zugriffssteuerung](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) in der Planungsdokumentation.
 
-Vorbereitung der Gesamtstruktur werden sowohl private als auch öffentliche ACEs erstellt. Private ACEs erstellt auf den Container für globale Einstellungen von Skype für Business Server verwendet wird. Dieser Container wird nur von Skype für Business Server verwendet und befindet sich entweder im Konfigurationscontainer oder dem Systemcontainer in der Stammdomäne, je nachdem, wo Sie globale Einstellungen gespeichert werden. Nach der Vorbereitung der Gesamtstruktur erstellten öffentlichen ACEs sind in der folgenden Tabelle aufgeführt.
+Bei der Gesamtstrukturvorbereitung werden sowohl private als auch öffentliche ACEs erstellt. Sie erstellt private ACEs auf dem Container für globale Einstellungen, der von Skype for Business Server verwendet wird. Dieser Container wird nur von Skype for Business Server verwendet und befindet sich entweder im Konfigurationscontainer oder im System Container in der Stammdomäne, je nachdem, wo Sie die globalen Einstellungen speichern. Die von der Gesamtstrukturvorbereitung erstellten öffentlichen ACEs sind in der folgenden Tabelle aufgelistet.
 
-**Von der Gesamtstrukturvorbereitung erstellten öffentlichen ACEs**
+**Von der Gesamtstrukturvorbereitung erstellte öffentliche ACEs**
 
 
-| **Ass**                                                                 | **"Rtcuniversalglobalreadonlygroup"** |
+| **ACE**                                                                 | **RTCUniversalGlobalReadOnlyGroup** |
 |:------------------------------------------------------------------------|:------------------------------------|
-| Der Stammdomäne lesen (nicht vererbt) Systemcontainer**\\**\* <br/>        | X  <br/>                            |
-| DisplaySpecifiers-Container der Konfiguration lesen (nicht vererbt)  <br/> | X  <br/>                            |
+| Read Root Domain System Container (nicht geerbt)**\\**\* <br/>        | X  <br/>                            |
+| Lesen des DisplaySpecifiers-Containers der Konfiguration (nicht geerbt)  <br/> | X  <br/>                            |
 
 > [!NOTE]
-> <strong>\\</strong>* ACEs, die nicht vererbt werden, gewähren keinen Zugriff auf untergeordnete Objekte im betreffenden Container. ACEs, die vererbt werden, gewähren Zugriff auf untergeordnete Objekte im betreffenden Container.
+> <strong>\\</strong>* Nicht geerbte ACEs gewähren unter diesen Containern keinen Zugriff auf untergeordnete Objekte. ACEs, die geerbt werden, gewähren Zugriff auf untergeordnete Objekte unter diesen Containern.
 
-Auf den Konfigurationscontainer unter Konfigurationsnamenskontext führt der Vorbereitung der Gesamtstruktur die folgenden Aufgaben:
+Im Konfigurationscontainer führt die Gesamtstrukturvorbereitung unter dem Konfigurationsnamenskontext die folgenden Aufgaben aus:
 
-- Hinzufügen eines Eintrags **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** für die Seite **RTC Property** unter den Attributen AdminContextMenu und adminpropertypages der Sprache anzeigebezeichners für Benutzer, Kontakte und InetOrgPersons (z. B. CN = User-Display, CN = 409,CN = DisplaySpecifiers).
+- Fügt einen Eintrag **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** für die **RTC-Eigenschaften** Seite unter den Attributen adminContextMenu und adminPropertyPages des Sprachanzeige Bezeichners für Benutzer, Kontakte und inetOrgPerson hinzu (beispielsweise CN = Benutzeranzeige, CN = 409, CN = DisplaySpecifiers).
 
-- Fügt ein Objekt **RTCPropertySet** vom Typ **ControlAccessRight** unter **Extended-Rights** , das auf die Benutzer- und kontaktklassen angewendet.
+- Fügt unter **Erweiterte Rechte** , die für die Benutzer-und Kontaktklassen gelten, ein **RTCPropertySet** -Objekt vom Typ **controlAccessRight** hinzu.
 
-- Fügt ein Objekt **RTCUserSearchPropertySet** vom Typ **ControlAccessRight** unter **Extended-Rights** , das auf Benutzer-, Kontakt-, Organisationseinheit und DomainDNS-Klassen angewendet wird.
+- Fügt unter **Erweiterte Rechte** , die für Benutzer-, Kontakt-, ou-und domainDNS-Klassen gelten, ein **RTCUserSearchPropertySet** -Objekt vom Typ **controlAccessRight** hinzu.
 
-- **MsRTCSIP-PrimaryUserAddress** unter Attributs **ExtraColumns** der jede Sprache Organisationseinheit (OU) Anzeigebezeichner fügt (beispielsweise CN = OrganizationalUnit-Display, CN = 409,CN = DisplaySpecifiers) und die Werte der kopiert die dem Attribut **ExtraColumns** der Standardanzeige (z. B. CN = Default-Display, CN = 409,CN = DisplaySpecifiers).
+- Fügt **Attribut msRTCSIP-PrimaryUserAddress** unter dem **extraColumns** -Attribut des jeweiligen Anzeigebezeichners der sprach Organisationseinheit (z. b. CN = organizationalUnit-Display, CN = 409, CN = DisplaySpecifiers) hinzu und kopiert die Werte der **extraColumns** -Attribut der Standardanzeige (beispielsweise CN = default-Display, CN = 409, CN = DisplaySpecifiers).
 
-- Hinzufügt, dass **MsRTCSIP-PrimaryUserAddress**, **MsRTCSIP-PrimaryHomeServer**und **MsRTCSIP-UserEnabled** Filtern Attribute unter Attributs **AttributeDisplayNames** für jede Sprache Bezeichner für Benutzer, Kontakte angezeigt, und InetOrgPerson-Objekte (in Englisch z. B.: CN = User-Display, CN = 409,CN = DisplaySpecifiers).
+- Fügt **Attribut msRTCSIP-PrimaryUserAddress**-, **Attribut msRTCSIP-PrimaryHomeServer**-und **Attribut msRTCSIP-UserEnabled-** Filterattribute unter dem **attributeDisplayNames** -Attribut jedes Sprachanzeige Bezeichners für Benutzer, Kontakte, und InetOrgPerson-Objekte (beispielsweise in Englisch: CN = User-Display, CN = 409, CN = DisplaySpecifiers).
 
 

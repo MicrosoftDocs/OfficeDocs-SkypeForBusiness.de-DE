@@ -5,22 +5,22 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
-description: UserAgentDef-Tabelle ordnet Benutzer-Agent-IDs den beschreibenden Namen. Benutzer-Agents werden verwendet, um eine Verbindung mit Skype für Business Server Softwareclients.
-ms.openlocfilehash: 90c2ebba9de545331e9f4ed337cf4d7c07cc09dc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Die UserAgentDef-Tabelle ordnet die Bezeichner des Benutzer-Agents den beschreibenden Namen des Agents zu. Benutzer-Agents sind Software-Clients, die zum Herstellen einer Verbindung mit Skype for Business Server verwendet werden.
+ms.openlocfilehash: 1cb64834cf9a68536dab9a5f5f90cf1189dff7e9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33907010"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294558"
 ---
 # <a name="useragentdef-table-qoe"></a>UserAgentDef-Tabelle (QoE)
  
-UserAgentDef-Tabelle ordnet Benutzer-Agent-IDs den beschreibenden Namen. Benutzer-Agents werden verwendet, um eine Verbindung mit Skype für Business Server Softwareclients.
+Die UserAgentDef-Tabelle ordnet die Bezeichner des Benutzer-Agents den beschreibenden Namen des Agents zu. Benutzer-Agents sind Software-Clients, die zum Herstellen einer Verbindung mit Skype for Business Server verwendet werden.
   
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
@@ -33,20 +33,20 @@ UserAgentDef-Tabelle ordnet Benutzer-Agent-IDs den beschreibenden Namen. Benutze
 |64  <br/> |MM  <br/> |MM  <br/> |
 |64  <br/> |MC  <br/> |MM  <br/> |
 |128  <br/> |Vermittlung  <br/> |Vermittlung  <br/> |
-|256  <br/> |Conferencing_Announcement_Service_1.0  <br/> |CAS  <br/> |
-|512  <br/> |Conferencing_Attendant_1.0  <br/> |CAA  <br/> |
-|512  <br/> |Conference_Auto_Attendant_1.0  <br/> |CAA  <br/> |
+|256  <br/> |Conferencing_announcement_service_ 1.0  <br/> |CAS  <br/> |
+|512  <br/> |Conferencing_attendant_ 1.0  <br/> |CAA  <br/> |
+|512  <br/> |Conference_auto_attendant_ 1.0  <br/> |CAA  <br/> |
 |1024  <br/> |Response_Group_Service  <br/> |RGS  <br/> |
-|1032  <br/> |Call_Park_Service_1.0  <br/> |CPS  <br/> |
-|1040  <br/> |Response_Group_Service Announcement_Service  <br/> |ALS  <br/> |
-|2048  <br/> |Microsoft.Rtc.Applications.Ccs  <br/> |CCS  <br/> |
-|16386  <br/> |CoMo  <br/> |CoMo  <br/> |
+|1032  <br/> |Call_park_service_ 1.0  <br/> |CPS  <br/> |
+|1040  <br/> |Response_Group_Service Announcement_Service  <br/> |Als  <br/> |
+|2048  <br/> |Microsoft. RTC. Applications. CCS  <br/> |CCS  <br/> |
+|16386  <br/> |Como  <br/> |Como  <br/> |
 |16387  <br/> |CWA  <br/> |CWA  <br/> |
 |16388  <br/> |InboundRouting  <br/> |InboundRouting  <br/> |
 |16389  <br/> |ComoSvc  <br/> |ComoSvc  <br/> |
-|16393  <br/> |MSExchangeUM  <br/> |Unified Messaging-Routinganwendung  <br/> |
+|16393  <br/> |MSExchangeUM  <br/> |ExUM  <br/> |
 |16395  <br/> |ArchivingAgent  <br/> |ARCHAGENT  <br/> |
-|16396  <br/> |ST  <br/> |ST  <br/> |
+|16396  <br/> |St  <br/> |St  <br/> |
 |16397  <br/> |applicationsharing  <br/> |ASMCU  <br/> |
 |16398  <br/> |WPLync  <br/> |WPLync  <br/> |
 |16399  <br/> |iPhoneLync  <br/> |iPhoneLync  <br/> |
@@ -54,7 +54,7 @@ UserAgentDef-Tabelle ordnet Benutzer-Agent-IDs den beschreibenden Namen. Benutze
 |16401  <br/> |iPadLync  <br/> |iPadLync  <br/> |
 |16402  <br/> |NokiaLync  <br/> |NokiaLync  <br/> |
 |16403  <br/> |LyncImm  <br/> |LyncImm  <br/> |
-|16404  <br/> |PCS  <br/> |PCS  <br/> |
+|16404  <br/> |PCs  <br/> |PCs  <br/> |
 |16405  <br/> |LWA  <br/> |LWA  <br/> |
 |16406  <br/> |OWA  <br/> |OWA  <br/> |
 |16407  <br/> |AOC  <br/> |AOC  <br/> |

@@ -5,38 +5,38 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0a9102c4-47aa-40ea-8a0d-20e72ab09848
-description: "\"tbladcookie\" enthält die aktuellen Cookies Synchronisierung Lightweight Directory Access Protocol (LDAP)."
-ms.openlocfilehash: d990d02e73be9a4d6178037a314e36add448ad40
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblADCookie enthält die aktuellen LDAP-Synchronisierungs Cookies (Lightweight Directory Access Protocol).
+ms.openlocfilehash: d75b1dc90d36aa0535fdac62b9e1a7061694cc76
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929945"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295531"
 ---
 # <a name="tbladcookie"></a>tblADCookie
  
-"tbladcookie" enthält die aktuellen Cookies Synchronisierung Lightweight Directory Access Protocol (LDAP).
+tblADCookie enthält die aktuellen LDAP-Synchronisierungs Cookies (Lightweight Directory Access Protocol).
   
 **Spalten**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|prinGuid  <br/> |GUID, nicht null  <br/> |Prinzipal-GUID der überwachten Domäne.  <br/> |
-|prinDCHost  <br/> |Nvarchar (255)  <br/> |Vollqualifizierter Domänenname (FQDN) des aktuellen Domänencontrollers für Active Directory Domain Services Sync verwendet. Informative Wert hat.  <br/> |
-|adcContent  <br/> |Bild (binär)  <br/> |Active Directory-Synchronisierung Cookie.  <br/> |
-|lastUpdated  <br/> |datetime  <br/> |Zeitstempel mit Aktualisierungszeit der Zeile.  <br/> |
-|lockedUntil  <br/> |datetime  <br/> |Zeitpunkt, bis die Zeile für Änderungen gesperrt ist. Dies ist Bestandteil eines Software Sperre Mechanismus, das wird sichergestellt, dass nur eine Chat-Dienste zu einem Zeitpunkt der Active Directory-Synchronisierung wird.  <br/> |
+|prinGuid  <br/> |GUID, nicht NULL  <br/> |Prinzipal-GUID der zu überwachenden Domäne.  <br/> |
+|prinDCHost  <br/> |nvarchar (255)  <br/> |Vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des aktuellen Domänencontrollers, der für die Synchronisierung von Active Directory-Domänendiensten verwendet wird. Hat einen Informationswert.  <br/> |
+|adcContent  <br/> |Bild (binär)  <br/> |Active Directory-Synchronisierungs Cookie  <br/> |
+|lastUpdated  <br/> |datetime  <br/> |Zeitstempel mit der Zeilen Aktualisierungszeit.  <br/> |
+|lockedUntil  <br/> |datetime  <br/> |Zeit, bis die Zeile für Änderungen gesperrt ist. Dies ist Teil eines Software-Interlock-Mechanismus, der sicherstellt, dass nur einer der Chat Dienste die Active Directory-Synchronisierung gleichzeitig durchführt.  <br/> |
    
 **Schlüssel**
 
-|**Spalten**|**Beschreibung**|
+|**Spalte (n)**|**Beschreibung**|
 |:-----|:-----|
-|prinGuid  <br/> |Primärschlüssel.  <br/> |
-|prinGuid  <br/> |Fremdschlüssel mit Abfrage der Principal.prinGuid-Tabelle.  <br/> |
+|prinGuid  <br/> |Primärschlüssel  <br/> |
+|prinGuid  <br/> |Fremdschlüssel mit Lookup in der Principal. prinGuid-Tabelle.  <br/> |
    
 

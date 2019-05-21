@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,48 +21,48 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: e759fe9981728c97914c271dba69bfca6aebdd2b
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: 31a4314b1666810dbd9dbdee398efc8631eac02e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632250"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298734"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
-Sie müssen Kommunikations-Guthaben einrichten, wenn Sie gebührenfreie Nummern mit Skype for Business und Microsoft Teams verwenden möchten. Darüber hinaus wird empfohlen, dass Communications haben für Ihre aufrufen (National oder International) plant und Audiokonferenzen Benutzer eingerichtet werden, die in der Lage anwählen an **jeder Ziel**sein. Viele Länder/Regionen werden einbezogen, aber einige Ziele in Ihren Abonnements aufrufen planen oder Audiokonferenzen nicht einbezogen werden. Wenn Communications haben Abrechnung einrichten und weisen Sie eine Lizenz **Communications haben** Ihre Benutzer nicht ausgeführt, und Sie Minuten für Ihre Organisation (je nach Ihren Plan aufrufen oder Audiokonferenzen Plan in Ihrem Land/Region), die Benutzer nicht möglich, tätigen oder von Audiokonferenzen Besprechungen ausgehende Anrufe. Sie können weitere Informationen erhalten, einschließlich empfohlen Finanzierung Beträge, Beitrag [Was sind Communications haben?](what-are-communications-credits.md)
+Sie müssen Kommunikations-Guthaben einrichten, wenn Sie gebührenfreie Nummern mit Skype for Business und Microsoft Teams verwenden möchten. Wir empfehlen außerdem, Kommunikationsguthaben für Ihre Anrufpläne (in-und ausländische) sowie für Audiokonferenz-Benutzer einzurichten, die die Möglichkeit haben, sich an **ein beliebiges Ziel**anzuwählen. Viele Länder/Regionen sind enthalten, aber einige Zielorte sind möglicherweise nicht in Ihrem Anrufplan oder in Audio-Konferenz Abonnements enthalten. Wenn Sie Ihre Nutzer keine Kommunikations Gutschriften einrichten und ihren Benutzern eine Lizenz für **Kommunikationsguthaben** zuweisen und Ihnen Minuten für Ihre Organisation ausgehen (je nach Ihrem Anrufplan oder Ihrem audiokonferenzplan in Ihrem Land/Ihrer Region), werden diese Benutzer Sie können keine Anrufe tätigen oder aus Audiokonferenz-Besprechungen wählen. Weitere Informationen, einschließlich empfohlener Finanzierungsbeträge, finden Sie unter [Was sind Kommunikationsguthaben?](what-are-communications-credits.md)
   
 > [!NOTE]
 > Wenn Sie wissen möchten, welche Kosten anfallen, [finden Sie hier die Tarife](https://go.microsoft.com/fwlink/p/?LinkId=799523 ). 
   
 ## <a name="step-1-assign-an-audio-conferencing-and-calling-plan-license-to-your-users"></a>Schritt 1: Zuweisen einer Audiokonferenz- und Anrufplanlizenz für Ihre Benutzer
 
-Bei der Registrierung erhalten Sie je nach Land/Region eine bestimmte Anzahl Minuten. Sie können die Anzahl der Minuten Sie suchen nach Land oder Region erhalten sehen [hier](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Anrufe werden getrennt, sobald Sie diese Minuten aufgebraucht haben. Um dies zu verhindern, müssen Sie Guthaben für Kommunikationen einrichten.
+Bei der Registrierung erhalten Sie je nach Land/Region eine bestimmte Anzahl Minuten. [Hier](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)können Sie die Anzahl der Minuten sehen, die Sie für die Suche nach dem Land oder der Region erhalten. Anrufe werden getrennt, sobald Sie diese Minuten aufgebraucht haben. Um dies zu verhindern, müssen Sie Guthaben für Kommunikationen einrichten.
   
 Dazu **müssen Sie Ihren Benutzern eine Lizenz für Audiokonferenzen oder für Telefonsysteme zuweisen**.
   
-- Weisen Sie Ihren Benutzern eine Lizenz für **Audiokonferenzen** zu. Finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md).
+- Weisen Sie Ihren Benutzern eine Lizenz für **Audiokonferenzen** zu. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md).
     
-    Nachdem Sie diese Lizenz zugewiesen haben, müssen Sie Audiokonferenzen einrichten. Schrittweise Anweisungen finden Sie unter [Testen oder erwerben Audiokonferenzen in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
+    Nachdem Sie diese Lizenz zugewiesen haben, müssen Sie Audiokonferenzen einrichten. Schritt-für-Schritt-Anleitungen finden Sie unter [Testen oder kaufen von Audiokonferenzen in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Weisen Sie **Telefonsystem** und eine nationalen oder nationalen und internationalen aufrufen Planen der Lizenz für die Benutzer. Finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md).
+- Weisen Sie Ihren Benutzern eine **Telefonanlage** und eine Lizenz für Inlands-, Inlands-und Auslandsgespräche zu. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md).
     
     > [!NOTE]
-    > Obwohl es nicht für Communications haben erforderlich ist, müssen Sie auch eine **Nationalen aufrufen planen** oder einer **in- und International aufrufen planen** -Lizenz zuweisen.
+    > Obwohl es für Kommunikationsguthaben nicht erforderlich ist, müssen Sie auch einen **Plan für Inlandsanrufe** oder eine Lizenz für **Inlands-und Auslandsanrufe** zuweisen.
   
     Nach dem Zuweisen dieser Lizenzen müssen Sie Telefonnummern für Ihre Organisation abrufen und diese Nummern den Benutzern in der Organisation zuweisen. Eine schrittweise Anleitung finden Sie unter [Einrichten von Anrufplänen](set-up-calling-plans.md).
     
-Weitere Informationen finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Weitere Informationen finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) .
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Schritt 2: Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie im linken Navigationsbereich von Microsoft 365 Administrationscenter zur **Abrechnung** > **Abonnements** > **Abonnements hinzufügen**.
+2. Navigieren Sie in der linken Navigationsleiste des Microsoft 365 Admin Center zu **Abrechnungs** > **Abonnements** > **Hinzufügen von Abonnements**.
 
-3. Erweitern Sie **Add-on-Abonnements**, und wählen Sie dann auf **Communications haben** > **Jetzt kaufen**.
+3. Erweitern **Sie Add-on-Abonnements**, und wählen Sie dann **Guthaben** > für Kommunikationen**Jetzt kaufen**aus.
     
-4. Geben Sie Ihre Informationen auf der Seite **Communications haben** Abonnement, und klicken Sie dann auf **Weiter**:
+4. Geben Sie auf der Seite **Communications Credits** -Abonnement Ihre Informationen ein, und klicken Sie dann auf **weiter**:
     
    - **Guthaben hinzufügen**: Geben Sie den Betrag ein, den Sie Ihrem Konto hinzufügen möchten. Wenn Sie das automatische Aufladen nicht aktivieren, werden nach dem Aufbrauchen des Guthabens die Anruffunktionen, die über das Guthaben für Kommunikationen aktiviert werden, unterbrochen (z. B. eingehende gebührenfreie Dienste). Um zu vermeiden, dass Sie den Guthabensaldo für Kommunikationen jedes Mal auffüllen müssen, wenn er 0 (null) erreicht, empfehlen wir, die automatische Aufladefunktion zu aktivieren.
     
@@ -77,7 +77,7 @@ Weitere Informationen finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](te
       > [!NOTE]
      > Das Guthaben wird nur zu den von Microsoft veröffentlichten Tarifen auf Guthaben für Kommunikationen angewendet, wenn die Dienste genutzt werden. Wenn ein Guthaben nicht innerhalb von 12 Monaten ab dem Kaufdatum aufgebraucht wird, verfällt es. 
      > 
-     > Monatliche Abrechnung für Kommunikation haben nur angewendet, wenn der reservierte überschritten Fonds erfahren, wie überprüfen Sie die Nutzung von monatlichen, verwendet wurde, lesen Sie [Skype für Business PSTN-Verwendungsbericht](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
+     > Die monatliche Abrechnung für Kommunikationsguthaben wird nur angewendet, wenn der zugewiesene Fonds verwendet wurde, um zu erfahren, wie Sie Ihre monatliche Nutzung prüfen, lesen Sie den [Skype for Business-PSTN-Nutzungsbericht](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) .
     
 5. Geben Sie Ihre Zahlungsinformationen ein, und klicken Sie auf **Bestellung aufgeben**.
     >[!IMPORTANT]
@@ -85,17 +85,17 @@ Weitere Informationen finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](te
     
 Each organization will have a different usage of Calling Plan volume and rates to consider. You will need to get this type of usage data from your current service provider. Organizations already using Skype for Business Online already as their service provider can get usage data by reviewing it in the **Skype for Business admin center** > **Reports** > **PSTN usage details** report.
   
-Wenn Sie Communications haben einrichten, müssen Sie untersuchen Anruf Verwendung für Ihre Organisation die Beträge bestimmen, die Sie benötigen. Informationen zur Anrufnutzung finden Sie im Bericht **PSTN-Nutzungsdetails**. In diesem Bericht können Sie die anrufdatensätze nach Excel exportieren, wenn Sie die Daten speichern oder benutzerdefinierte Berichte erstellen müssen. Lesen Sie, um weitere Informationen zum Verwendung finden Sie unter [Skype für Business PSTN-Verwendungsbericht](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
+Wenn Sie Kommunikationsguthaben einrichten, müssen Sie die Anruf Nutzung für Ihre Organisation untersuchen, um die benötigten Beträge zu ermitteln. Informationen zur Anrufnutzung finden Sie im Bericht **PSTN-Nutzungsdetails**. In diesem Bericht können Sie die anrufdatensätze nach Excel exportieren, wenn Sie die Daten speichern oder benutzerdefinierte Berichte erstellen müssen. Wenn Sie wissen möchten, wie die Verwendung angezeigt wird, lesen Sie [Skype for Business-PSTN-Nutzungsbericht](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Schritt 3: Zuweisen einer Lizenz für Guthaben für Kommunikationen für Benutzer
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie im linken Navigationsbereich von Microsoft 365 Administrationscenter, **Benutzern** > **aktive Benutzer**, und wählen Sie dann mindestens ein Benutzer aus der Liste aus.
+2. Navigieren Sie in der linken Navigationsleiste des Microsoft 365 Admin Center zu **** > den**aktiven**Benutzern des Benutzers, und wählen Sie dann einen Benutzer oder Benutzer aus der Liste aus.
     
 3. Klicken Sie im Aktionsbereich unter **Produktlizenzen** auf **Bearbeiten**.
     
-4. Klicken Sie auf der Seite **Lizenzen** umschalten Sie **Communications haben** **auf** diese Lizenz zuweisen, und klicken Sie dann auf **Speichern**.
+4. Aktivieren Sie auf der Seite **Produktlizenzen** die Option **Kommunikationsguthaben** auf **ein** , um diese Lizenz zuzuweisen, und klicken Sie dann auf **Speichern**.
     
     > [!NOTE]
     > Selbst wenn Sie über Benutzer verfügen, denen eine **Enterprise E5** -Lizenz zugewiesen ist, wird diese Vorgehensweise dennoch empfohlen.
@@ -106,13 +106,13 @@ Die Pläne und Preise finden Sie unter den folgenden Links:
   
 - [Anrufpläne](https://go.microsoft.com/fwlink/?LinkId=799761 )
     
-- [Audiokonferenzen Pläne](https://go.microsoft.com/fwlink/?LinkId=799762 )
+- [Audio-Konferenz Pläne](https://go.microsoft.com/fwlink/?LinkId=799762 )
     
 - [Telefonsystempläne](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Sie können auch Informationen nach der [Anmeldung an der Microsoft-365-Verwaltungskonsole](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) anzeigen und zur **Abrechnung** > **Abonnements** > **Abonnements hinzufügen**.
+Sie können Informationen auch anzeigen, indem Sie sich beim [Microsoft 365 Admin Center anmelden](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu **Abrechnungs** > **Abonnements** > Abonnements**Hinzufügen**wechseln.
   
-Eine Tabelle mit der Lizenz oder Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Eine Tabelle mit den Lizenzen, die für die einzelnen Features benötigt werden, finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Verwandte Themen
 

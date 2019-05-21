@@ -1,10 +1,10 @@
 ---
-title: Benutzer Anzeigen der Mobilitätsrichtlinie
+title: Benutzer sehen mobilitätsrichtlinien
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.UserViewMobility
@@ -12,23 +12,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 ROBOTS: NOINDEX, NOFOLLOW
-description: Ansicht – Mobilitätsrichtlinie Dialogfeld zeigt die Eigenschaften der ausgewählten mobilitätsrichtlinie.
-ms.openlocfilehash: 8e816d12474614c863c2fba06dac2b287514a614
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Im Dialogfeld "Ansicht – Mobilitätsrichtlinie" werden die Eigenschaften der ausgewählten Mobilitätsrichtlinie angezeigt.
+ms.openlocfilehash: 7c95ed83adbb6dd852b075993690e1798170f094
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890788"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293792"
 ---
 # <a name="users-view-mobility-policy"></a>Benutzer: Anzeigen der Mobilitätsrichtlinie
 
-Das Dialogfeld **Ansicht – Mobilitätsrichtlinie** werden die Eigenschaften der ausgewählten mobilitätsrichtlinie angezeigt.
+Im Dialogfeld " **Ansicht – Mobilitätsrichtlinie** " werden die Eigenschaften der ausgewählten Mobilitätsrichtlinie angezeigt.
 
-Ausführliche Informationen zur Zuweisung von mobilitätsrichtlinien finden Sie unter [Zuweisen einer Richtlinie auf Benutzerebene Mobilität](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) und [Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).
+Details zum Zuweisen von mobilitätsrichtlinien finden Sie unter [Zuweisen einer benutzerbezogenen Mobilitätsrichtlinie](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) und [Konfigurieren von mobilitätsrichtlinien](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).
 
 ## <a name="see-also"></a>Siehe auch
 
-[Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[Planen der Mobilität](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 
 [Bereitstellen von Mobilität](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
 

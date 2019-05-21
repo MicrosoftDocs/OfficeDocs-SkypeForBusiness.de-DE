@@ -5,63 +5,63 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/23/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu lernen Capacity planning for Persistent Chat Server in Skype für Business Server 2015.'
-ms.openlocfilehash: 2ec69a5569eb73dba229a24528d811ab916de14c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zur Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015 zu erhalten.'
+ms.openlocfilehash: b303a0d6cd0e518ed1619d53f8fc7bc1b5101903
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906592"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297120"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015
  
-**Zusammenfassung:** Lesen Sie dieses Thema, um Informationen zur kapazitätsplanung für Persistent Chat Server in Skype für Business Server 2015.
+**Zusammenfassung:** In diesem Thema finden Sie Informationen zur Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015.
   
-Persistent Chat-Server können mehrere Benutzer, Real-Time Chat, die beibehalten werden, kann für zukünftige abrufen, und suchen Sie ausführen. Im Gegensatz zu gruppensofortnachrichten (IM), gespeichert ist im Postfach eines Benutzers Wenn aufgezeichnete konfiguriert ist, eine Persistent Chat Server-Sitzung mehr geöffnet bleibt und der Inhalt gespeichert ist, auf einem Server, zusammen mit der Nachrichten, Dateien, URLs und anderen Daten, die Teil der sind ein laufenden Unterhaltung.
+Der beständige Chat Server kann mehr Benutzer-Chats in Echtzeit durchführen, die für zukünftiges abrufen und suchen beibehalten werden können. Im Gegensatz zu Gruppen-Sofortnachrichten (im), die im Postfach eines Benutzers gespeichert werden, wenn der Konversations Verlauf konfiguriert ist, bleibt eine dauerhafte Chat Server Sitzung länger geöffnet, und der Inhalt wird auf einem Server zusammen mit den Nachrichten, Dateien, URLs und anderen Daten gespeichert, die Teil einer laufende Unterhaltungen.
   
-Planen der Kapazität ist ein wichtiger Teil der Vorbereitung zur Bereitstellung von Persistent Chat Server. Dieses Thema umfasst Tabellen zur Kapazitätsplanung, anhand derer Sie die beste Konfiguration für Ihre Bereitstellung ermitteln können. Es wird auch von Persistent Chat Server-Bereitstellungen am besten zu verwalten, die eine höhere Kapazität zu Spitzenzeiten erfordern beschrieben.
+Die Kapazitätsplanung ist ein wichtiger Bestandteil der Vorbereitung auf die Bereitstellung des beständigen Chat Servers. Dieses Thema umfasst Tabellen zur Kapazitätsplanung, anhand derer Sie die beste Konfiguration für Ihre Bereitstellung ermitteln können. Darüber hinaus wird beschrieben, wie Sie die Bereitstellung beständiger Chat Server am besten verwalten, die zu Höchstzeiten eine größere Kapazität erfordern.
   
 Bevor Sie diesen Abschnitt lesen, sollten Sie sich mit Topologien für beständigen Chat vertraut machen. Weitere Informationen finden Sie unter [Plan Persistent Chat Server topology](topology.md).
 
 > [!NOTE] 
-> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
+> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Reise von Skype for Business zu Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen. 
   
-## <a name="persistent-chat-server-capacity-planning"></a>Persistent Chat Server-kapazitätsplanung
+## <a name="persistent-chat-server-capacity-planning"></a>Kapazitätsplanung für beständigen Chat Server
 
-In den folgenden Tabellen können Sie mit der kapazitätsplanung für Persistent Chat Server durch modellieren, wie verschiedene Persistent Chat Server-Einstellungen Kapazität auswirken.
+Die folgenden Tabellen können Ihnen bei der Kapazitätsplanung für beständigen Chat Server helfen, indem Sie modellieren, wie sich die verschiedenen Einstellungen des beständigen Chat Servers auf die Kapazität
   
 - Kapazitätsplanung für die Anzahl von Benutzern
     
 - Kapazitätsplanung für den Chatroomzugriff
     
-- Planen der Kapazität für des chatroomzugriffs über eine Einladung
+- Kapazitäts Plan für Chatroom-Zugriff per Einladung
     
 - Kapazitätsplanung für die Leistung
     
-### <a name="plan-capacity-for-number-of-users-for-persistent-chat-server"></a>Planen der Kapazität für die Anzahl von Benutzern für Persistent Chat Server
+### <a name="plan-capacity-for-number-of-users-for-persistent-chat-server"></a>Kapazitäts Plan für die Anzahl der Benutzer für beständigen Chat Server
 
 Ermitteln Sie anhand der folgenden Beispieltabelle die Anzahl von Benutzern, die Sie unterstützen können.
   
-**Persistent Chat Server Pool maximalen Kapazität-Beispiel**
+**Beispiel für beständigen Chat Server Pool mit maximaler Kapazität**
 
 |||
 |:-----|:-----|
-|Aktive beständigen Chat Dienstinstanzen  <br/> |4  <br/> |
-|Persistent Chat-Dienstinstanzen  <br/> |8 (nur maximal 4 können aktiv sein; 4 müssen inaktiv sein)  <br/> |
+|Aktive persistent-Chat-Dienstinstanzen  <br/> |4  <br/> |
+|Dienstinstanzen für beständigen Chat  <br/> |8 (nur maximal 4 können aktiv sein; 4 müssen inaktiv sein)  <br/> |
 |Aktive verbundene Benutzer  <br/> |80,000  <br/> |
 |Gesamtzahl der bereitgestellten Benutzer  <br/> |150,000  <br/> |
 |Anzahl der Endpunkte  <br/> |120,000  <br/> |
    
-Im vorstehenden Beispiel, es ist geplant, die maximale Anzahl von Benutzern unterstützt, die Persistent Chat Server ermöglicht: vier Servern/Instanzen des Persistent Chat-Dienstes (können vier weitere passive Servern Persistent Chat Server für hohe Verfügbarkeit ausgeführt haben und Disaster Recovery) und 20.000 Benutzer pro Server, für insgesamt 80.000 aktive Benutzer unterstützt.
+Im vorangehenden Beispiel soll der Plan die maximale Anzahl von Benutzern unterstützen, die der beständige Chat Server zulässt: vier Server/Instanzen des beständigen Chat Diensts (können vier weitere passive Server mit beständigem Chat Server für hohe Verfügbarkeit und Disaster Recovery) und 20.000-Benutzer pro Server für insgesamt 80.000 aktive Benutzer.
   
 ### <a name="plan-capacity-for-chat-room-access"></a>Kapazitätsplanung für den Chatroomzugriff
 
-Die folgende Beispieltabelle helfen Ihnen bei der Planung für die Verwaltung des chatroomzugriffs in einem Pool Persistent Chat Server.
+Die folgende Beispieltabelle kann Ihnen bei der Planung der Verwaltung des Chatroom-Zugriffs in einem beständigen Chat Server Pool helfen.
   
 **Beispiel für die Verwaltung des Chatroomzugriffs**
 
@@ -87,7 +87,7 @@ Die folgende Beispieltabelle helfen Ihnen bei der Planung für die Verwaltung de
 |Benutzer- und benutzergruppenbasierte Managerentitäten für alle Chatroom-Managerlisten  <br/> |192,000  <br/> |6,400  <br/> |60  <br/> ||
 |Aktive Benutzer pro Chatroom  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
 |Chatrooms pro Benutzer  <br/> |12  <br/> |2  <br/> |2  <br/> |16  <br/> |
-|Benutzergruppen in der Mitgliederliste der einzelnen Chatrooms  <br/> |10  <br/> |10  <br/> |15  <br/> ||
+|Benutzergruppen in jeder Chatroom-Mitgliederliste  <br/> |10  <br/> |10  <br/> |15  <br/> ||
 |Von Benutzergruppen verwaltete Chatrooms  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
 |Benutzergruppenbasierte Mitgliedschaftsentitäten in allen Chatrooms  <br/> |155,200  <br/> |5173  <br/> |68  <br/> ||
 |Benutzerbasierte Mitgliedschaftsentitäten in allen Chatrooms  <br/> |465,600  <br/> |77,600  <br/> |72,000  <br/> ||
@@ -96,7 +96,7 @@ Die folgende Beispieltabelle helfen Ihnen bei der Planung für die Verwaltung de
 |Zugriffssteuerungseinträge  <br/> |704,160  <br/> |26,768  <br/> |160  <br/> |731,088  <br/> |
 |Maximale Anzahl von Zugriffssteuerungseinträgen  <br/> ||||2,000,000  <br/> |
    
-Im vorstehenden Beispiel bei der Bereitstellung der Persistent Chatserver entsprechend der empfohlenen Richtlinien können sie bis zu 80.000 aktive Benutzer über einen vier-Server-Pool mit aktiviertem kompatibilitätsdienst behandeln.
+Wenn Sie im vorangehenden Beispiel die beständigen Chat Server gemäß den empfohlenen Richtlinien bereitstellen, können Sie bis zu 80.000 aktive Benutzer in einem Pool mit vier Servern mit aktivierter Kompatibilität verarbeiten.
   
 In diesem Beispiel werden Chatrooms in kleine (30 aktive gleichzeitige Benutzer), mittelgroße (150 aktive Benutzer) und große Chatrooms (16.000 aktive Benutzer) unterteilt. Die unterstützte Anzahl von Chatrooms einer bestimmten Größe in der oben stehenden Tabelle wird anhand der Gesamtzahl der folgenden Elemente berechnet:
   
@@ -113,12 +113,12 @@ Die vorstehende Tabelle zur Kapazitätsplanung gibt für jeden Chatroom die Anza
   
 ### <a name="plan-capacity-for-managing-chat-room-access-by-invitation"></a>Kapazitätsplanung für die Verwaltung des Chatroomzugriffs über eine Einladung
 
-In der folgenden Tabelle Capacity planning können Sie um die Anzahl von Einladungen zu verstehen, die Persistent Chat Server erstellt und speichert in der Datenbank für beständigen Chat, wenn es zum Senden von Einladungen konfiguriert ist. Sie können mithilfe der Seite **Einstellungen für den Chatroomkategorie** in der Skype Business Server-Systemsteuerung oder mithilfe des Windows PowerShell-Cmdlets **"Set-cspersistentchatcategory"** Einladungen auf die Kategorie verwalten. Sie können Einladungen auf einen Chatroom (in einer Reihe, mit was die Kategorie ermöglicht) mithilfe der Seite **Chatroom-Verwaltung** aus der Skype für Business-Client gestartet oder mithilfe eines Windows PowerShell-Cmdlets **"Set-cspersistentchatroom"** verwalten.
+Sie können die folgende Tabelle zur Kapazitätsplanung verwenden, um zu verstehen, wie viele Einladungen der beständige Chat Server in der persistenten Chat Datenbank erstellt und speichert, wenn er zum Senden von Einladungen konfiguriert ist. Sie können Einladungen für die Kategorie verwalten, indem Sie auf der Seite **Chatroom-Kategorien Einstellungen** in der Skype for Business Server-Systemsteuerung oder mithilfe des Windows PowerShell **-Cmdlets festlegen-csPersistentChatCategory**. Sie können Einladungen in einem Chatroom (entsprechend der Kategorie) verwalten, indem Sie die Seite " **Raumverwaltung** " verwenden, die vom Skype for Business-Client gestartet wird, oder mithilfe eines Windows PowerShell-Cmdlets **-csPersistentChatRoom**.
   
 Für die Beispieldaten in der folgenden Tabelle wird davon ausgegangen, dass die **Einladungsoption** auf der Seite mit den **Chatroomeinstellungen** für 50 % aller Chatrooms auf **Ja** festgelegt ist.
   
 > [!IMPORTANT]
-> Wenn der berechnete Wert für die Anzahl von Einladungen, die der Server generiert, eine Million überschreitet, kann die Serverleistung signifikant beeinträchtigt werden. Um dieses Problem zu vermeiden, achten Sie darauf, dass Sie die Anzahl von Chatrooms minimieren, die zum Senden von Einladungen oder Beschränken der Anzahl der Benutzer, die Chatrooms beitreten können, die zum Senden von Einladungen konfiguriert wurden konfiguriert sind. 
+> Wenn der berechnete Wert für die Anzahl von Einladungen, die der Server generiert, eine Million überschreitet, kann die Serverleistung signifikant beeinträchtigt werden. Um dieses Problem zu vermeiden, stellen Sie sicher, dass Sie die Anzahl der Chatrooms minimieren, die zum Senden von Einladungen konfiguriert sind, oder die Anzahl der Benutzer einschränken, die an Chatrooms teilnehmen können, die zum Senden von Einladungen konfiguriert wurden. 
   
 **Beispiel für den Chatroomzugriff über eine Einladung**
 
@@ -128,7 +128,7 @@ Für die Beispieldaten in der folgenden Tabelle wird davon ausgegangen, dass die
 |Prozentsatz an Chatrooms mit Einladung  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
 |Für das Senden von Einladungen konfigurierte Chatrooms  <br/> |16,000  <br/> |533  <br/> |5  <br/> ||
 |Benutzer, die auf den Chatroom zugreifen können  <br/> |60  <br/> |225  <br/> |16,000  <br/> ||
-|Vom Persistent Chat Server generierte Einladungen  <br/> |960,000  <br/> |120,000  <br/> |80,000  <br/> |1,160,000  <br/> |
+|Vom beständigen Chat Server generierte Einladungen  <br/> |960,000  <br/> |120,000  <br/> |80,000  <br/> |1,160,000  <br/> |
 |Maximal zulässige Anzahl von Einladungen  <br/> ||||2,000,000  <br/> |
 |Modell 1: Start mit der erwarteten Anzahl an Nachrichten pro Chatroom und Tag  <br/> |||||
 |Chatrate pro Chatroom (pro Tag)  <br/> |50  <br/> |500  <br/> |100  <br/> |650  <br/> |
@@ -138,16 +138,16 @@ Für die Beispieldaten in der folgenden Tabelle wird davon ausgegangen, dass die
 |Chatrate pro Chatroom (pro Tag)  <br/> |38  <br/> |375  <br/> |800  <br/> |1,213  <br/> |
 |Chatrate (pro Sekunde) für alle Chatrooms  <br/> |41.67  <br/> |13.89  <br/> |0.28  <br/> |56  <br/> |
    
-### <a name="plan-capacity-for-persistent-chat-server-performance"></a>Planen der Kapazität für Persistent Chat Server-Leistung
+### <a name="plan-capacity-for-persistent-chat-server-performance"></a>Planen der Kapazität für die Leistung des beständigen Chat Servers
 
-In der folgenden Tabelle wird das Benutzermodell für Persistent Chat Server beschrieben. Dieses Modell bildet die Grundlage für die Kapazitätsplanungsanforderungen und stellt eine typische Organisation mit 80.000 gleichzeitigen Benutzern auf vier Servern dar.
+In der folgenden Tabelle wird das Benutzermodell für den beständigen Chat Server beschrieben. Dieses Modell bildet die Grundlage für die Kapazitätsplanungsanforderungen und stellt eine typische Organisation mit 80.000 gleichzeitigen Benutzern auf vier Servern dar.
   
-**Persistent Chat Server Performance Benutzermodell**
+**Benutzermodell für beständigen Chat Server**
 
 |||
 |:-----|:-----|
 |Anzahl der aktiven verbundenen Benutzer  <br/> |80,000  <br/> |
-|Anzahl der Persistent Chat Server-Dienstinstanzen  <br/> |4  <br/> |
+|Anzahl der Server Dienstinstanzen für beständigen Chat  <br/> |4  <br/> |
 |Umfang kleiner Chatrooms  <br/> |30 Benutzer  <br/> |
 |Umfang mittelgroßer Chatrooms  <br/> |150 Benutzer  <br/> |
 |Umfang großer Chatrooms  <br/> |16.000 Benutzer  <br/> |
@@ -168,7 +168,7 @@ In der folgenden Tabelle wird das Benutzermodell für Persistent Chat Server bes
 |Prozentsatz der Chatrooms, die für Einladungen konfiguriert sind  <br/> |50%  <br/> |
 |Prozentsatz der direkten Mitgliedschaften  <br/> |50%  <br/> |
 |Prozentsatz der Gruppenmitgliedschaften  <br/> |50%  <br/> |
-|Durchschnittliche Anzahl von zugehörigkeiten zu vorgängerobjekten in Active Directory-Domänendienste  <br/> |100 - 200  <br/> |
+|Durchschnittliche Anzahl von Vorgänger Verbindungen in Active Directory-Domänendiensten  <br/> |100 - 200  <br/> |
 |Anzahl abonnierter Kontakte pro Benutzer  <br/> |80  <br/> |
 |Durchschnittliche Anzahl von Endpunkten pro Benutzer  <br/> |1.5  <br/> |
 |Durchschnittliche Anzahl von sichtbaren Chatrooms pro Endpunkt  <br/> |1.5  <br/> |

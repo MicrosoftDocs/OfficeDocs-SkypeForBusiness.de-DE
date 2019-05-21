@@ -1,10 +1,10 @@
 ---
-title: Ändern von SIP-Trunk-Konfigurationseinstellungen in Skype für Business Server
+title: Ändern der SIP-Trunk-Konfigurationseinstellungen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
-description: 'Zusammenfassung: Erfahren Sie, wie SIP-Trunk-Konfigurationseinstellungen mithilfe der Skype für Business Server-Systemsteuerung ändern.'
-ms.openlocfilehash: 04a381d0e3bd935eeef860bdfb6866b232812189
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die SIP-Trunk-Konfigurationseinstellungen mithilfe der Skype for Business Server-Systemsteuerung ändern.'
+ms.openlocfilehash: 2ab461f94c5858558fad9b65f97fd1da672a0844
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892314"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297893"
 ---
-# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Ändern von SIP-Trunk-Konfigurationseinstellungen in Skype für Business Server
+# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Ändern der SIP-Trunk-Konfigurationseinstellungen in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie SIP-Trunk-Konfigurationseinstellungen mithilfe der Skype für Business Server-Systemsteuerung ändern.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie die SIP-Trunk-Konfigurationseinstellungen mithilfe der Skype for Business Server-Systemsteuerung ändern.
   
 SIP-Trunk-Konfigurationseinstellungen definieren die Beziehung und die Funktionen zwischen einem Vermittlungsserver und dem PSTN-Gateway (Public Switched Telephone Network, Festnetz), einer IP-Nebenstellenanlage (Public Branch Exchange, PBX) oder einem Session Border Controller (SBC) beim Dienstanbieter. Diese Einstellungen geben unter anderem Folgendes an:
   
@@ -33,16 +33,16 @@ SIP-Trunk-Konfigurationseinstellungen definieren die Beziehung und die Funktione
     
 - Ob SRTP-Verschlüsselung (Secure Real-Time Protocol) für jeden Trunk erforderlich ist.
     
-Wenn Sie Skype für Business Server installieren, wird eine globale Auflistung von SIP-trunkkonfigurationseinstellungen für Sie erstellt. Darüber hinaus können Administratoren benutzerdefinierte Auflistungen mit Einstellungen auf Standort- oder Dienstebene erstellen (nur für den PSTN-Gatewaydienst). Eine der folgenden Auflistungen können später mit entweder Skype für Business Server-Systemsteuerung oder Skype für Business Server-Verwaltungsshell geändert werden.
+Wenn Sie Skype for Business Server installieren, wird eine globale Sammlung von SIP-Trunk-Konfigurationseinstellungen für Sie erstellt. Darüber hinaus können Administratoren benutzerdefinierte Auflistungen mit Einstellungen auf Standort- oder Dienstebene erstellen (nur für den PSTN-Gatewaydienst). Eine dieser Sammlungen kann später entweder über die Skype for Business Server-Systemsteuerung oder über die Skype for Business Server-Verwaltungsshell geändert werden.
   
-Beim Ändern von SIP-Trunk-Konfigurationseinstellungen mithilfe der Skype für Business Server-Systemsteuerung sind die folgenden Optionen zur Verfügung.
+Wenn Sie die SIP-Trunk-Konfigurationseinstellungen mit der Skype for Business Server-Systemsteuerung ändern, stehen Ihnen die folgenden Optionen zur Verfügung.
   
 |**UI-Einstellung**|**PowerShell-Parameter**|**Beschreibung**|
 |:-----|:-----|:-----|
 |Name  <br/> |Identität  <br/> |Eindeutige ID für die Sammlung. Diese Eigenschaft ist schreibgeschützt. Sie können die Identität einer Sammlung von Trunkkonfigurationseinstellungen nicht ändern.  <br/> |
 |Beschreibung  <br/> |Beschreibung  <br/> |Bietet Administratoren eine Möglichkeit, zusätzliche Informationen zu den Einstellungen zu speichern (z. B. Zweck der Trunkkonfiguration).  <br/> |
 |Maximal unterstützte frühe Dialoge  <br/> |MaxEarlyDialogs  <br/> |Die maximale Anzahl von gegabelten Antworten, die ein PSTN-Gateway, eine IP-Nebenstellenanlage oder ein SBC (Session Border Controller) des Dienstanbieters auf an den Vermittlungsserver gesendete Einladungen empfangen kann.  <br/> |
-|Unterstützte Verschlüsselungsstufe  <br/> |SRTPMode  <br/> | Legt den Umfang der Unterstützung zum Schutz von Mediendatenverkehr zwischen dem Vermittlungsserver und dem PSTN-Gateway, der IP-Nebenstellenanlage oder dem SBC (Session Border Controller) des Dienstanbieters fest. Bei der Medienumgehung muss dieser Wert mit der Einstellung „EncryptionLevel“ in der Medienkonfiguration kompatibel sein. Medienkonfiguration wird mithilfe der Cmdlets [New-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmediaconfiguration?view=skype-ps) und [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps) festgelegt. <br/>  Zulässige Werte: <br/>  Erforderlich: Die SRTP-Verschlüsselung muss verwendet werden. <br/>  Optional: SRTP wird verwendet, wenn es vom Gateway unterstützt wird. <br/>  Nicht unterstützt: Die SRTP-Verschlüsselung wird nicht unterstützt und daher auch nicht verwendet. <br/>  „SRTPMode“ wird nur verwendet, wenn das Gateway zur Verwendung von TLS (Transport Layer Security) konfiguriert ist. Wenn das Gateway mit dem Transportprotokoll TCP (Transmission Control Protocol) konfiguriert ist, wird „SRTPMode“ intern auf „Nicht unterstützt“ festgelegt.<br/> |
+|Unterstützte Verschlüsselungsstufe  <br/> |SRTPMode  <br/> | Legt den Umfang der Unterstützung zum Schutz von Mediendatenverkehr zwischen dem Vermittlungsserver und dem PSTN-Gateway, der IP-Nebenstellenanlage oder dem SBC (Session Border Controller) des Dienstanbieters fest. Bei der Medienumgehung muss dieser Wert mit der Einstellung „EncryptionLevel“ in der Medienkonfiguration kompatibel sein. Die Medienkonfiguration wird mithilfe der Cmdlets [New-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmediaconfiguration?view=skype-ps) und [CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps) gesetzt. <br/>  Zulässige Werte: <br/>  Erforderlich: Die SRTP-Verschlüsselung muss verwendet werden. <br/>  Optional: SRTP wird verwendet, wenn es vom Gateway unterstützt wird. <br/>  Nicht unterstützt: Die SRTP-Verschlüsselung wird nicht unterstützt und daher auch nicht verwendet. <br/>  „SRTPMode“ wird nur verwendet, wenn das Gateway zur Verwendung von TLS (Transport Layer Security) konfiguriert ist. Wenn das Gateway mit dem Transportprotokoll TCP (Transmission Control Protocol) konfiguriert ist, wird „SRTPMode“ intern auf „Nicht unterstützt“ festgelegt.<br/> |
 |Support melden  <br/> |Enable3pccRefer  <br/> EnableReferSupport  <br/> |Mit der Einstellung **Senden der Weiterleitung an Gateway aktivieren** unterstützt der Trunk den Empfang von Weiterleitungsanforderungen vom Vermittlungsserver.  <br/> Mit der Einstellung **Weiterleitung mithilfe von Drittanbieteranrufsteuerung aktivieren** kann das 3pcc-Protokoll verwendet werden, damit weitergeleitete Anrufe den gehosteten Standort umgehen können. 3pcc ist auch unter dem Namen „Third Party Call Control“ bekannt und tritt auf, wenn ein Drittanbieter verwendet wird, um zwei Anrufer miteinander zu verbinden (z. B. wenn ein Anruf von Person A an Person B über eine Telefonzentrale durchgestellt wird).<br/> |
 |Medienumgehung aktivieren  <br/> |EnableBypass  <br/> |Gibt an, ob die Medienumgehung für diesen Trunk aktiviert ist. Die Medienumgehung kann nur aktiviert werden, wenn auch **Zentralisierte Medienverarbeitung** aktiviert ist.<br/> |
 |Zentralisierte Medienverarbeitung  <br/> |ConcentratedTopology  <br/> |Gibt an, ob ein bekannter Medienendpunkt vorhanden ist. (Ein Beispiel für einen bekannten Medienendpunkt ist ein PSTN-Gateway, bei dem der Medienendpunkt dieselbe IP-Adresse hat wie der Signaldatenverkehrendpunkt.)  <br/> |
@@ -59,11 +59,11 @@ Beim Ändern von SIP-Trunk-Konfigurationseinstellungen mithilfe der Skype für B
 |Angerufene Nummer  <br/> |-  <br/> |Gibt an, dass die zu testende Telefonnummer die Telefonnummer der Person ist, die angerufen wird.  <br/> |
    
 > [!NOTE]
-> Die Lync Server-CsTrunkConfiguration-Cmdlets unterstützt zusätzliche Eigenschaften, die in Lync Server-Systemsteuerung nicht angezeigt. Weitere Informationen finden Sie im Hilfethema zum [Set-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cstrunkconfiguration?view=skype-ps) -Cmdlet.
+> Die lync Server CsTrunkConfiguration-Cmdlets unterstützen zusätzliche Eigenschaften, die in der lync Server-Systemsteuerung nicht angezeigt werden. Weitere Informationen finden Sie im Hilfethema zum Cmdlet " [Satz-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cstrunkconfiguration?view=skype-ps) ".
   
-### <a name="to-modify-sip-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>So ändern Sie die SIP-Trunk-Konfigurationseinstellungen mithilfe von Skype Business Server-Systemsteuerung
+### <a name="to-modify-sip-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>So ändern Sie die SIP-Trunk-Konfigurationseinstellungen mithilfe der Skype for Business Server-Systemsteuerung
 
-1. Klicken Sie in Skype Business Server-Systemsteuerung auf **VoIP-Routing**, und klicken Sie dann auf **Trunkkonfiguration**.
+1. Klicken Sie in der Skype for Business Server-Systemsteuerung auf **VoIP-Routing**, und klicken Sie dann auf **trunk-Konfiguration**.
     
 2. Doppelklicken Sie auf der Registerkarte **Trunkkonfiguration** auf die Trunkkonfigurationseinstellungen, die Sie ändern möchten. Beachten Sie, dass Sie immer nur eine Einstellung bearbeiten können. Wenn Sie die gleichen Änderungen an mehreren Sammlungen vornehmen möchten, verwenden Sie Windows PowerShell.
     
@@ -73,6 +73,6 @@ Beim Ändern von SIP-Trunk-Konfigurationseinstellungen mithilfe der Skype für B
     
 5. Klicken Sie im Dialogfeld **VoIP-Konfigurationseinstellungen, für die kein Commit ausgeführt wurde** auf **OK**.
     
-6. Klicken Sie im Dialogfeld **Skype Business Server-Systemsteuerung** auf **OK**.
+6. Klicken Sie im Dialogfeld **Skype for Business Server Control Panel** auf **OK**.
     
 

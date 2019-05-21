@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,152 +20,152 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Die folgenden folgen häufig gestellte Fragen zur Übertragung von Rufnummern auf Skype für Unternehmen. Überprüfen Sie die Antworten, sollte Sie zum Erstellen einer Port Reihenfolge und übertragen Ihre Rufnummern bereit. Finden Sie unter Weiterleiten von Telefonnummern zu Office 365 Anweisungen.
-ms.openlocfilehash: 311eaa78920b3853947df5dd375c6471cab4d8aa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Im folgenden finden Sie häufig gestellte Fragen zum Übertragen von Telefonnummern an Skype for Business. Nachdem Sie die Antworten überprüft haben, sollten Sie bereit sein, eine Portierungs Reihenfolge zu erstellen und ihre Telefonnummern zu übertragen. Anweisungen hierzu finden Sie unter Übertragen von Telefonnummern zu Office 365.
+ms.openlocfilehash: 889a74a0648e7a7ae7f3e1b6e286fd368ff86d2c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204130"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293879"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Übertragen von Telefonnummern – häufig gestellte Fragen
 
-Die folgenden folgen häufig gestellte Fragen zur Übertragung von Rufnummern auf Skype für Unternehmen. Überprüfen Sie die Antworten, sollte Sie zum Erstellen einer Port Reihenfolge und übertragen Ihre Rufnummern bereit. Weitere Informationen finden Sie in der [Rufnummern zu Office 365 zu übertragen](transfer-phone-numbers-to-office-365.md) .
+Im folgenden finden Sie häufig gestellte Fragen zum Übertragen von Telefonnummern an Skype for Business. Nachdem Sie die Antworten überprüft haben, sollten Sie bereit sein, eine Portierungs Reihenfolge zu erstellen und ihre Telefonnummern zu übertragen. Anweisungen hierzu finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md) .
   
-## <a name="what-countriesregions-support-number-porting"></a>Welche Länder/Regionen Zahl Portieren unterstützt?
+## <a name="what-countriesregions-support-number-porting"></a>Welche Länder/Regionen unterstützen die Nummernportierung?
 
-Sie können portieren oder Übertragung von Telefonnummern in alle unterstützten Ländern oder Regionen, aber wie Sie eine Port Reihenfolge Anforderung einreichen Land oder Region, woher die Telefonnummern stammen, abhängig. Sie können eine Liste der Länder/Regionen sehen, die von [Ländern und Region Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)unterstützt werden. 
+Sie können Telefonnummern in allen unterstützten Ländern oder Regionen portieren oder übertragen, doch wie Sie eine Portierungs Auftragsanforderung einreichen, hängt von dem Land oder der Region ab, aus der die Telefonnummern stammen. Sie können eine Liste der Länder/Regionen sehen, die von Ländern und Regionen unterstützt werden [und für Audiokonferenz-und Anrufpläne verfügbar](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)sind. 
 
-Wenn Sie Phone Number Verwaltungsaufgaben wie übertragen von Zahlen (Portieren) durchführen oder beim Abrufen von Rufnummern, die nicht in der Skype für Business Administrationscenter verfügbar sind, finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Wenn Sie Telefonnummern Verwaltungsaufgaben erledigen, wie etwa das übertragen (portieren) von Nummern oder das Abrufen von Telefonnummern, die im Skype for Business Admin Center nicht zur Verfügung stehen, lesen Sie [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
   
-## <a name="what-numbers-can-be-transferred"></a>Was Zahlen übertragen werden kann?
+## <a name="what-numbers-can-be-transferred"></a>Welche Nummern können übertragen werden?
 
- **SIE KÖNNEN ÜBERTRAGEN:**
+ **Sie können Folgendes übertragen:**
   
-Im Allgemeinen können Sie eine beliebige Telefonnummer übertragen, die von einem unterstützten Anbieter, einschließlich ist:
+Im Allgemeinen können Sie eine beliebige Telefonnummer von einem unterstützten Anbieter übertragen, einschließlich:
   
-- Land Zeile Rufnummern.
+- Festnetz-Telefonnummern.
     
-- Telefonnummern für mobiles Gerät wie die für die Mobiltelefon und Tablets usw.
+- Telefonnummern für Mobiltelefone, beispielsweise für Handys und Tablets usw.
     
     > [!NOTE]
-    > Übertragen von Mobiltelefonnummern ist nur verfügbar in den USA und Puerto Rico. 
+    > Die Übertragung von Handynummern steht nur in den USA und Puerto Rico zur Verfügung. 
   
+- Gebührenpflichtige Telefonnummern.
+    
 - Gebührenfreie Telefonnummern.
     
-- Gebührenfreien Telefonnummern.
-    
     > [!NOTE]
-    > Universelle International gebührenfreien Nummer (UIFN) können nicht für uns übertragen werden. 
+    > Die universelle internationale gebührenfreie Nummer (UIFN) kann nicht an uns übertragen werden. 
   
-- Telefonnummern für Dienst wie die für die Konferenzbrücken, automatischen Telefonzentralen usw.
+- Telefonnummern für Dienstleistungen, wie Sie für Konferenz Brücken, automatische Telefonzentralen usw. verwendet werden.
     
-- Fax-und Telefonnummern, aber sie können nicht für das Senden von Faxen verwendet werden. Sie müssen ein Benutzer zugewiesen werden.
+- Fax-Nummern, können aber nicht zum Faxen verwendet werden. Sie müssen einem Nutzer zugewiesen werden.
     
-- VoIP-Telefonnummern von einem Anbieter Telefon wie Vonage oder RingCentral.
+- VoIP-Telefonnummern von einem Telefonanbieter wie Vonage oder RingCentral.
     
-- Skype für hybride Business Telefonnummern. Wenn Sie diese Nummern übertragen möchten, müssen Sie e-Mail senden, um uns <ptn@microsoft.com>.
+- Skype for Business-Hybrid-Telefonnummern. Wenn Sie diese Nummern übertragen möchten, müssen Sie eine e-Mail an uns senden <ptn@microsoft.com>.
     
-  **KANN NICHT ÜBERTRAGEN WERDEN:**
+  **Sie können nicht übertragen:**
   
 > [!NOTE]
-> Zu diesem Zeitpunkt können nicht Sie alle Telefonnummer oder Zahlen, die aus einem einschließlich Telefonnummern von einem VoIP-Telefon-Anbieter unterstützte Land/Region, werden nicht übertragen. Eine Liste der unterstützten Ländern/Regionen finden Sie unter [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> Zu diesem Zeitpunkt können Sie keine Telefonnummern oder Nummern übertragen, die nicht zu einem unterstützten Land/einer Region gehören, einschließlich Telefonnummern von einem VoIP-Telefonanbieter. Eine Liste der unterstützten Länder/Regionen finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) .
   
-- Telefonnummern Sie für datenverbindungen wie für DSL Zeilen oder Breitband internetverbindungen verwendet.
+- Telefonnummern, die für Datenverbindungen wie für DSL-Leitungen oder Breitband-Internet Verbindungen verwendet werden.
     
-- Telefonnummern Sie für den Fax-.
+- Telefonnummern, die dem Faxen gewidmet sind.
     
-    Wenn Sie vorhandene dedizierten Telefonnummern verfügen, die für das Senden von Faxen verwendet werden, übertragen *können* Sie diese Nummern über zu Skype für Unternehmen jedoch Ihrer Fax, die Dienste werden weiterhin wird nicht wie erwartet funktionieren. Faxen Dienste sind nicht verfügbar Skype für Geschäftskunden, auch wenn Sie Lizenzen für **Telefonsystem**, **Nationalen aufrufen planen** oder **International aufrufen planen**.
+    Wenn Sie über vorhandene dedizierte Telefonnummern verfügen, die für das Faxen verwendet werden, *können* Sie diese Nummern an Skype for Business übertragen, aber ihre Faxdienst funktionieren nicht wie erwartet. Für Skype for Business-Kunden stehen keine Faxnachrichten zur Verfügung, auch wenn Sie über Lizenzen für **Telefon System**, **Inlandsanruf Plan** oder **internationalen Anrufplan**verfügen.
     
-    Wenn Sie die zu Skype für geschäftliche Telefonnummer port, können Sie diese Telefonnummer für einen Benutzer in Ihrer Organisation statt für das Senden von Faxen zuweisen.
+    Wenn Sie die Telefonnummer in Skype for Business portieren, können Sie diese Telefonnummer einem Benutzer in Ihrer Organisation zuweisen, anstatt ihn zum Faxen zu verwenden.
     
 > [!NOTE]
-> Zu diesem Zeitpunkt in Großbritannien (Großbritannien) derzeit nicht unterstützt-geografische übertragende Großbritannien Zahlen freigegebenen Kosten Zahlen für die Vorwahlen 0843, einschließlich 0844, 0845, 0870, 0871, 0872. 
+> Zurzeit im Vereinigten Königreich (Großbritannien) unterstützen wir derzeit keine Übertragung von nicht-geografischen UK-Nummern, einschließlich Shared-Cost-Nummern für die Ortsvorwahl 0843, 0844, 0845, 0870, 0871, 0872. 
   
-## <a name="what-information-will-i-need-to-provide"></a>Welche Informationen müssen bereitstellen werden?
+## <a name="what-information-will-i-need-to-provide"></a>Welche Informationen muss ich angeben?
 
-Sie müssen alle Kontoinformationen für Ihren aktuellen Netzbetreiber haben. Die Informationen in der Reihenfolge Port zu platzieren, müssen vor allem in der neuesten Bill oder Rechnung gefunden wird vom aktuellen Dienstanbieter. Sie müssen wissen, deren Namen auf das Konto und natürlich welche Zahlen ist Port werden soll.
+Sie müssen über alle Kontoinformationen für Ihren derzeitigen Netzbetreiber verfügen. Die Informationen, die Sie in die Portierungs Reihenfolge aufnehmen müssen, finden Sie in der Regel auf der letzten Rechnung Ihres aktuellen Dienstanbieters. Darüber hinaus müssen Sie wissen, wessen Name auf dem Konto steht, und natürlich, welche Nummern Sie portieren möchten.
   
-## <a name="what-are-full-port-and-partial-port-transfers"></a>Was sind vollständig oder teilweise Ports übertragen?
+## <a name="what-are-full-port-and-partial-port-transfers"></a>Was sind Full-Port-und teilweise Port Übertragungen?
 
-Wenn Sie Telefonnummern zu Office 365 portieren, müssen Sie die Option alle Telefonnummern, oder einen Teil davon übertragen.
+Wenn Sie Telefonnummern nach Office 365 portieren, haben Sie die Möglichkeit, alle Ihre Nummern oder einige davon zu übertragen.
   
-- **Full-port** Dies ist, wenn Sie alle Telefonnummern aus Ihren aktuellen Dienstanbieter zu Skype für Business Online übertragen. Wenn für die Telefonnummern müssen Sie, dass übertragen Sie die Art der Rechnungslegung Telefonnummer zusammen mit allen anderen Rufnummern für Ihr Konto *muss enthalten* soll.
+- **Vollständiger Port** Dies ist der Fall, wenn Sie alle Ihre Nummern von Ihrem aktuellen Dienstanbieter in Skype for Business Online übertragen. Wenn Sie nach den Telefonnummern gefragt werden, die Sie übertragen möchten, müssen Sie die Abrechnungs Telefonnummer zusammen mit allen anderen Telefonnummern in Ihrem Konto *angeben* .
     
-    Nehmen wir beispielsweise an Ihre Abrechnung Telefonnummer *+1 425-555-1234* und Sie möchten alle 25 Rufnummern (*+1 425-555-1235 über 1259*) port. Wenn Sie die folgenden Schritten die Rufnummern übertragen ausführen, geben Sie: **+ 14255551234 +14255551259**.
+    Nehmen wir beispielsweise an, dass Ihre Abrechnungs Telefonnummer *+ 1 425-555-1234* ist und Sie alle Ihre 25 Telefonnummern (*+ 1 425-555-1235 bis 1259*) portieren möchten. Wenn Sie die nachstehenden Anweisungen zum Übertragen Ihrer Nummern befolgen, geben Sie Folgendes ein: **+ 14255551234-+ 14255551259**.
     
-- **Teilweise-port** Dies ist, wenn Sie nur einige der Rufnummern aus Ihren aktuellen Dienstanbieter zu Skype für Business Online übertragen. Wenn Sie einige der mit derselben Abrechnungstelefonnummer verbundenen Telefonnummern portieren möchten, ** *schließen Sie nicht* ** die Abrechnungstelefonnummer zusammen mit allen anderen Telefonnummern in Ihrem Konto ein.
+- **Teilweiser Port** Dies ist der Fall, wenn Sie nur einige ihrer Telefonnummern von Ihrem derzeitigen Dienstanbieter in Skype for Business Online übertragen. Wenn Sie einige der mit derselben Abrechnungstelefonnummer verbundenen Telefonnummern portieren möchten, ** *schließen Sie nicht* ** die Abrechnungstelefonnummer zusammen mit allen anderen Telefonnummern in Ihrem Konto ein.
     
-    Angenommen, beispielsweise Ihr Mobiltelefon (BTN) *+1 425-555-1234* ist und port nur 5 25 Rufnummern (*+1 425-555-1235 über 1259*) werden soll. Wenn Sie die folgenden Schritten die Rufnummern übertragen ausführen, geben Sie: **+1 425 555 1235-+ 1 425-555-1239**.
+    Nehmen wir beispielsweise an, dass Ihre Abrechnungs Telefonnummer (BTN) *+ 1 425-555-1234* ist und Sie nur fünf ihrer 25 Telefonnummern (*+ 1 425-555-1235 bis 1259*) portieren möchten. Wenn Sie die nachstehenden Anweisungen zum Übertragen Ihrer Nummern befolgen, geben Sie Folgendes ein: **+ 1 425 555 1235-+ 1 425 555 1239**.
     
-## <a name="can-i-submit-a-single-number-porting-request-for-all-of-my-numbers-at-one-time"></a>Kann ich eine einzelne Zahl Portieren Anforderung gleichzeitig für alle meine Telefonnummern übermitteln?
+## <a name="can-i-submit-a-single-number-porting-request-for-all-of-my-numbers-at-one-time"></a>Kann ich eine einzige Rufnummern Portierungs Anfrage für alle meine Nummern gleichzeitig einreichen?
 <a name="bkmk_type_1"> </a>
 
-Eine eindeutige Anforderung ist für jeden Netzbetreiber und Zahlentyp wird Port erforderlich.
+Für jeden Netzbetreiber und jede Art von Nummer, die portiert werden soll, ist eine eindeutige Anfrage erforderlich.
   
-Beispielsweise müssen Sie eine eindeutige Nummer Portieren Anforderung für jede der folgenden Typen von Zahlen zu übermitteln:
+Sie müssen beispielsweise eine eindeutige Nummer-Portierungs Anfrage für jeden der folgenden Nummerntypen einreichen:
   
-- Lokale gebührenfreie Nummern, auch bekannt als Abonnenten Zahlen oder geografische Zahlen
+- Lokale gebührenpflichtige Nummern, auch als Teilnehmer Nummern oder geografische Nummern bezeichnet
     
-- Gebührenfreie Nummern mit Ortskennzahlen z. B.: 800, 844, 855, 866, 877 und 888
+- Gebührenfreie Nummern mit Ortsvorwahl wie: 800, 844, 855, 866, 877 und 888
     
-- Mobiltelefonnummer
+- Handynummern
     
-- Service-Zahlen, die für Audiokonferenzen in Office 365 verwendet werden können.
+- Dienstnummern, die für Audiokonferenzen in Office 365 verwendet werden können.
     
-Nachfolgend finden Sie weitere Informationen zur Übermittlung von Zahl Portieren Anforderungen für jede der folgenden Typen von Zahlen:
+Hier finden Sie weitere Informationen zum Übermitteln von Nummern Portierungs Anfragen für jeden dieser Arten von Nummern:
   
-- **Wählen von Telefonnummern** , die von anderen Netzbetreibern bereitgestellt ist eine eindeutige Portieren Anforderung für Zahlen mit jedem Netzbetreiber erforderlich.
+- **Telefonnummern** , die von verschiedenen Netzbetreibern bereitgestellt werden, erfordern eine eindeutige Portierungs Anfrage für Nummern mit jedem Netzbetreiber.
     
-- **Gebührenfreie Nummern** mit Ortskennzahlen z. B.: 800, 844, 855, 866, 877 und 888 kann nicht in einer Zahl Portieren Anforderung durch andere Typen von Zahlen einbezogen werden. Um diese kostenlose gebührenfreie Nummern port, müssen Sie [manuell zu senden, eine benutzerdefinierte Serviceanfrage](/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request); Sie können nicht in der Skype für Business Administrationscenter abgesendet werden. Finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- **Gebührenfreie Nummern** mit Ortsvorwahl wie: 800, 844, 855, 866, 877 und 888 können nicht in eine Nummer-Portierungs Anfrage mit anderen Nummerntypen einbezogen werden. Um diese gebührenfreien Nummern Portieren zu können, müssen Sie [eine benutzerdefinierte Serviceanfrage manuell übermitteln](/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request). Sie können im Skype for Business Admin Center nicht übermittelt werden. Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
-    Es ist wichtig, die richtige Geladene für das Land ein, und geben der Telefonnummern, verwenden Sie Port möchten. Sie können die Geladene herunterladen, benötigen Sie [die Buchstaben der Autorisierung (Geladene), die Sie hier herunterladen](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+    Es ist wichtig, den korrekten Loa für das Land und die Art der Telefonnummern zu verwenden, die Sie portieren möchten. Sie können das Loa herunterladen, das Sie benötigen, [um den von Ihnen benötigten Letter of Authorization (LoA) herunterzuladen](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
-- **Mobiltelefonnummer** erfordern einen PIN-Code, um die Übertragung zu autorisieren. Aus diesem Grund müssen sie Nummern Portieren Anforderung getrennt.
+- Für **Handynummern** ist ein PIN-Code erforderlich, um die Übertragung zu autorisieren. Daher benötigen Sie eine separate Nummer-Portierungs Anfrage.
     
-- **Service-Nummer** Portieren Anforderungen von sich selbst übermittelt werden müssen. Sie können nicht mit anderen Arten von Zahlen abgesendet werden.
+- Die Portierungs Anforderungen für **Dienstnummern** müssen von Ihnen selbst übermittelt werden. Sie können nicht mit anderen Nummerntypen übermittelt werden.
     
-## <a name="how-long-does-it-take-to-port-numbers"></a>Wie lange dauert es Portnummern, bis?
+## <a name="how-long-does-it-take-to-port-numbers"></a>Wie lange dauert das Portieren von Nummern?
 <a name="bkmk_type_1"> </a>
 
-Nach Abschluss der Bestellung Port dauert es zwischen 7 14 Tage verarbeitet werden. Je nach Ihren Dienstanbieter kann es jedoch bis zu 30 Tage dauern. Nachdem die Telefonnummern über Port sind, erhalten Sie eine e-Mail-Nachricht von uns darüber informiert, dass Sie so rufen eine gute sind.
+Nachdem Sie die Portierungs Auftragsanforderung abgeschlossen haben, dauert es zwischen 7-14 Tage, um verarbeitet zu werden. Je nach Dienstanbieter kann es jedoch bis zu 30 Tage dauern. Nachdem die Telefonnummern übertragen wurden, erhalten Sie von uns eine e-Mail, in der Sie darüber informiert werden, dass Sie gut unterwegs sind.
   
-Sie können den Status Ihrer Bestellung Port überprüfen, durch das Aufrufen der Skype für Business Admin Center > **VoIP** > **Port-Aufträge**. Der Status wird im Fenster unter der Spalte **Status** angezeigt werden.
+Sie können den Status Ihrer Portierungs Reihenfolge überprüfen, indem Sie im Skype for Business Admin Center > **Voice** > **Port Orders**wählen. Der Status wird im Fenster unter der Spalte **Status** angezeigt.
   
-## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>Können Benutzer (Abonnent) Rufnummern in Service Zahlen werden konvertiert?
+## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>Können Benutzer (Teilnehmer-) Telefonnummern in Service-Nummern umgewandelt werden?
 <a name="bkmk_type_1"> </a>
 
-Ja, können sie. Sie müssen nur Übermitteln einer Anforderung, die Ihre Organisation Mandanten GUID enthält und die Telefonnummern, die konvertiert werden soll. Führen Sie dies Navigieren zu [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)finden Sie unter. 
+Ja, das ist möglich. Sie müssen lediglich eine Serviceanfrage einreichen, die die Mandanten-GUID Ihrer Organisation und die Telefonnummern enthält, die konvertiert werden sollen. Gehen Sie dazu wie folgt vor: [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
   
-## <a name="common-mistakes-to-watch-out-for"></a>Häufige Fehler achten sollten
+## <a name="common-mistakes-to-watch-out-for"></a>Häufige Fehler, auf die Sie achten sollten
 <a name="bkmk_type_1"> </a>
 
-Zahl Portieren ist einfach. Ihre Bestellung kann jedoch oben, fehlerhaft erhalten möchten, wenn ein Problem mit dem Telefon-Dienstanbieter vorliegt, die Reihenfolge unvollständig und fehlende Informationen ist oder Tippfehler vorhanden sind.
+Zahl Portierungen sind einfach. Ihre Bestellung kann jedoch unübersichtlich werden, wenn ein Problem mit dem Telefondienstanbieter vorliegt, die Bestellung unvollständig ist und Informationen fehlen oder Fehler auftreten.
   
-Hier sind die häufigsten Fehler, die wir Kunden treffen sie Zahlen port finden Sie unter. Speichern Sie selbst einen Aufruf an den Kundendienst, und für diese Fehler überprüfen.
+Hier sind die häufigsten Fehler, die Kunden beim Portieren von Nummern feststellen. Sparen Sie sich einen Anruf beim Kundendienst, und überprüfen Sie die Fehler.
   
-- Stellen Sie sicher, dass die Kontoinformationen, die Sie vorführen entspricht genau was Ihr Telefon Netzbetreiber auf Datensatz wurde. Nicht übereinstimmende Informationen sind die am häufigsten verwendeten Ursache für Fehler und Verzögerung für Ihre Bestellung Port. Stellen Sie sicher, dass Folgendes zutrifft:
+- Stellen Sie sicher, dass die Kontoinformationen, die Sie angeben, genau dem entsprechen, was Ihr Telefonnetzbetreiber im Protokoll hat. Nicht übereinstimmende Informationen sind die häufigste Ursache für Fehler und verzögern Ihre Portierungs Reihenfolge. Überprüfen Sie, ob Folgendes zutrifft:
     
-  - Autorisierten Namen ist richtig.
+  - Der autorisierte Name ist richtig.
     
-  - Adresse ist richtig.
+  - Die Adresse ist richtig.
     
-  - Account-Nummer ist korrekt.
+  - Die Kontonummer ist richtig.
     
-  - Abrechnung Telefon Nummer (BTN) ist richtig.
+  - Die Rechnungs Telefonnummer (BTN) ist richtig.
     
-- Stellen Sie sicher, dass es sind keine erweiterten remoteanrufsteuerungsfunktionen, beispielsweise aufrufen Sammelanschlüsse charakteristischen anrufen, die auf diese Telefonnummern aktiviert sind.
+- Stellen Sie sicher, dass keine erweiterten Anrufsteuerungsfunktionen vorhanden sind, beispielsweise Anruf Suche, Unterscheidungs Ring, die für diese Telefonnummern aktiviert sind.
     
-- Vergewissern Sie sich noch nicht platziert neue Serviceaufträge oder trennt die Verbindung mit Ihren aktuellen Dienstanbieter.
+- Stellen Sie sicher, dass Sie keine neuen Serviceaufträge oder Trennungen mit Ihrem aktuellen Dienstanbieter getätigt haben.
     
-- Stellen Sie sicher, dass alle Zahlen aus der gleichen Netzbetreiber und das gleiche Konto sind.
+- Stellen Sie sicher, dass alle Nummern vom selben Netzbetreiber und dem gleichen Konto sind.
     
-- Stellen Sie sicher, dass der Dienst aktiviert ist. Sperren des Kontos verhindert, dass die Änderung von Netzbetreibern auf das Konto aus. Der autorisierte Benutzer müssen zum Übermitteln einer Bestellung auf den aktuellen Netzbetreiber dem Einfrieren zu entfernen. Dieser Vorgang kann 1 bis 3 Wochen je nach der Netzbetreiber dauern.
+- Stellen Sie sicher, dass Ihr Dienst aktiv ist. Das Einfrieren des Kontos verhindert die Änderung von Netzbetreibern für das Konto. Der autorisierte Benutzer muss dem derzeitigen Netzbetreiber eine Bestellung übermitteln, um das Einfrieren zu entfernen. Dieser Vorgang kann je nach Anbieter 1-3 Wochen dauern.
     
-## <a name="can-you-transfer-or-port-out-numbers"></a>Können Sie weiterleiten oder port Zahlen?
+## <a name="can-you-transfer-or-port-out-numbers"></a>Können Sie Nummern übertragen oder portieren?
 <a name="bkmk_type_1"> </a>
 
-Für die Übertragung oder *Port out* Telefonnummern von Skype für Business Online zu einem anderen Telefon-Dienstanbieter oder Netzbetreiber, Sie müssen eine PIN einrichten. Nachdem Sie die PIN-Nummer festgelegt haben, müssen Sie es einschließen aus, wenn Sie eine Telefonnummer ein, port anzufordern. Informationen zum Einrichten der PIN-Nummer finden Sie unter [Festlegen Ihrer PIN-Nummer für die Übertragung von Zahlen mit einem neuen Dienstanbieter](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
+Um Telefonnummern ** von Skype for Business Online an einen anderen Telefondienstanbieter oder Netzbetreiber zu übertragen oder zu portieren, müssen Sie eine PIN einrichten. Nachdem Sie die PIN festgestellt haben, müssen Sie diese angeben, wenn Sie eine Telefonnummer portieren möchten. Informationen dazu, wie Sie Ihre PIN einrichten können, finden Sie unter [Einrichten der PIN für die Übertragung von Nummern an einen neuen Dienstanbieter](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

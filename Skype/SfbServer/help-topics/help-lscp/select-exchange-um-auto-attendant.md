@@ -5,27 +5,27 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceFeaSelExchUM
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
-description: Verwenden Sie das Dialogfeld Wählen Sie Exchange UM-Telefonzentrale, um eine automatische Telefonzentrale von Exchange UM auszuwählen, die eingehende Anrufe für einen Bereich nicht zugewiesener Nummern behandelt werden sollen.
-ms.openlocfilehash: 782005760b9817acccecb35e5d02bd19b9000f41
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Im Dialogfeld Exchange um automatische Telefonzentrale auswählen können Sie eine automatische Exchange UM-Telefonzentrale auswählen, die eingehende Anrufe an einen Bereich nicht zugewiesener Nummern abwickeln soll.
+ms.openlocfilehash: 6bb1b4a40d40041f2aea1960db4129baa2574a73
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924591"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294073"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Auswählen einer automatischen Exchange UM-Telefonzentrale
  
-Verwenden Sie das Dialogfeld **Wählen Sie Exchange UM-Telefonzentrale** , um eine automatische Telefonzentrale von Exchange UM auszuwählen, die eingehende Anrufe für einen Bereich nicht zugewiesener Nummern behandelt werden sollen.
+Im Dialogfeld **Exchange um automatische Telefonzentrale auswählen** können Sie eine automatische Exchange UM-Telefonzentrale auswählen, die eingehende Anrufe an einen Bereich nicht zugewiesener Nummern abwickeln soll.
   
-Geben Sie im Suchfeld Teile oder den vollständigen Namen des der Exchange UM-Telefonzentrale, die Sie verwenden möchten. Wenn alle verfügbaren Exchange UM-Telefonzentralen zurückgeben möchten, lassen Sie das Suchfeld leer, und klicken Sie auf das Suchsymbol.
+Geben Sie im Suchfeld den gesamten Namen der automatischen Exchange UM-Telefonzentrale ein, die Sie verwenden möchten. Wenn Sie alle verfügbaren automatischen Exchange um-Telefonzentralen zurückgeben möchten, lassen Sie das Suchfeld leer, und klicken Sie auf das Symbol suchen.
   
-Wählen Sie in der Liste der Exchange UM-Telefonzentralen von der Suche zurückgegebenen die automatische Telefonzentrale verwenden, um eingehende Anrufe für den Bereich nicht zugewiesener Nummern behandelt werden soll.
+Wählen Sie in der Liste der automatischen Exchange um-Telefonzentralen, die von der Suche zurückgegeben werden, die automatische Telefonzentrale aus, die Sie für die Behandlung eingehender Anrufe in den Bereich nicht zugewiesener Nummern verwenden möchten.
   
 

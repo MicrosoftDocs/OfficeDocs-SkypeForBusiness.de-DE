@@ -5,32 +5,32 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
-description: Jeder Datensatz steht für einen Medientyp in einer Peer-zu-Peer-Sitzung verwendet. Eine Sitzung würde durch mehrere Datensätze in der Tabelle dargestellt werden, wenn mehr als eine Medientyp verwendet wird.
-ms.openlocfilehash: 76441c350241415aacac150e1e5dec2638302075
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Jeder Datensatz steht für einen in einer Peer-to-Peer-Sitzung verwendeten Medientyp. Eine Sitzung wird von mehreren Datensätzen in der Tabelle dargestellt, wenn mehr als ein Medientyp verwendet wird.
+ms.openlocfilehash: 181a78a9fc3fabe8c166f4cdc8c452b5a16b016b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930644"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296007"
 ---
 # <a name="media-table"></a>Media-Tabelle
  
-Jeder Datensatz steht für einen Medientyp in einer Peer-zu-Peer-Sitzung verwendet. Eine Sitzung würde durch mehrere Datensätze in der Tabelle dargestellt werden, wenn mehr als eine Medientyp verwendet wird.
+Jeder Datensatz steht für einen in einer Peer-to-Peer-Sitzung verwendeten Medientyp. Eine Sitzung wird von mehreren Datensätzen in der Tabelle dargestellt, wenn mehr als ein Medientyp verwendet wird.
   
 > [!NOTE]
-> Media-Tabelle sollte nicht verwendet werden, um die Dauer Medien für eine Sitzung berechnen. Die folgende Tabelle enthält die Signalisierung Details der Austausch von Mediendaten in einer Sitzung. Austausch von Mediendaten erfolgt durch die INVITE-Anforderung und StartTime gibt die Zeit an, der die INVITE-Nachricht gesendet wurde. Die Zeit einladen bedeutet nicht unbedingt, dass das Medium Startzeit, da Media beginnt erst nach der Sessionee die Sitzung akzeptiert. Die EndTime bedeutet normalerweise die Endzeit der Sitzung. 
+> Die Medientabelle sollte nicht verwendet werden, um die Mediendauer einer Sitzung zu berechnen. Diese Tabelle enthält die Signalisierungs Details von Medienaustausch in einer Sitzung. Der Medienaustausch erfolgt über die Einladungs Anfrage, und Startzeit gibt an, wie lange die Einladung gesendet wurde. Die Einladungs Zeit bedeutet nicht unbedingt die Startzeit des Mediums, da Medien erst gestartet werden, nachdem der Sitzungs nehmer die Sitzung akzeptiert hat. Die EndTime bedeutet normalerweise die Endzeit dieser Sitzung. 
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Primär, Fremd  <br/> |Zeitpunkt der sitzungsanforderung. Zusammen mit **SessionIdSeq** verwendet zur eindeutigen Identifizierung eine Sitzung. Finden Sie unter der [Dialogs-Tabelle in Skype für Business Server 2015](dialogs.md) Weitere Informationen. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primär, Fremd  <br/> |ID-Nummer, um die Sitzung zu identifizieren. In Verbindung mit **SessionIdTime** verwendet, um eine Sitzung eindeutig zu identifizieren. Finden Sie unter der [Dialogs-Tabelle in Skype für Business Server 2015](dialogs.md) Weitere Informationen. <br/> |
-|**MediaId** <br/> |tinyint  <br/> |Primär, Fremd  <br/> |Eindeutige Zahl, die diesem Medientyp identifiziert. Finden Sie weitere Informationen die [MediaList-Tabelle](medialist.md) . <br/> |
-|**StartTime** <br/> |datetime  <br/> |Primary  <br/> |Hierbei handelt es sich um die Zeit, die eine Media-Anforderung gesendet wurde, nicht die tatsächlichen Medien zu starten. **StartTime** enthält die Dauer der Sitzung. <br/> |
+|**SessionID** <br/> |datetime  <br/> |Primär, fremd  <br/> |Uhrzeit der Sitzungsanforderung. Wird in Verbindung mit **SessionIdSeq** verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle Dialogfelder in Skype for Business Server 2015](dialogs.md) . <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primär, fremd  <br/> |Die ID-Nummer, um die Sitzung zu identifizieren. Wird in Verbindung mit **SessionID** -Mal verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle Dialogfelder in Skype for Business Server 2015](dialogs.md) . <br/> |
+|**MediaId** <br/> |tinyint  <br/> |Primär, fremd  <br/> |Eindeutige Nummer, die diesen Medientyp kennzeichnet. Weitere Informationen finden Sie in der [Tabelle medialist](medialist.md) . <br/> |
+|**StartTime** <br/> |datetime  <br/> |Primary  <br/> |Dies ist der Zeitpunkt, zu dem eine Medienanfrage gesendet wurde, nicht die Startzeit des realen Mediums. **Startzeit** umfasst die Rüstzeit für die Sitzung. <br/> |
 |**EndTime** <br/> |datetime  <br/> ||Dies ist die Endzeit der Sitzung.  <br/> |
    
 

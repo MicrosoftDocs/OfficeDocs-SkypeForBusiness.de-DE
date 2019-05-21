@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informationen über Add-On-Lizenzen und Features für Pläne für GOV, EDU und gemeinnützige Organisationen. '
-ms.openlocfilehash: e1c19e7db6f4167fa0992101c7070dc4661665b0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cc58055f2163372ff1385764751ba011075fd11d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226051"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301251"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>Behörden, Bildungseinrichtungen und gemeinnützige Organisationen
 

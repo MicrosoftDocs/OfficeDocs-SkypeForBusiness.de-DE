@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 layout: LandingPage
-ms.audience: ITPro
+audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: Die relevanten planungsüberlegungen für die Bereitstellung von Microsoft-Teams Räumen und das Bereitstellen und Verwalten des Systems.
-ms.openlocfilehash: 7a55b5ba8b682aed398daff1f373acba453110bc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Die relevanten Planungsüberlegungen zum Bereitstellen von Microsoft Teams-Räumen sowie zum Bereitstellen und Verwalten des Systems.
+ms.openlocfilehash: d7b663e67905aee3cf235034ef2ba82eeaa98c9b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916387"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306542"
 ---
 <h2>Microsoft Teams-Räume</h2>
 <ul class="panelContent cardsW cols cols2">
@@ -25,9 +25,9 @@ ms.locfileid: "33916387"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Transform Besprechung Leerzeichen von Bereichen kleine drängeln bis hin zu großen Konferenzräume mit einer umfassenden, gemeinsame Teams Erfahrung That& #39; s einfach zu verwenden, bereitstellen und verwalten. </p>
-                        <p>Starten von Besprechungen auf Zeit mit einem Tastendruck Join und dann sofort project zur Anzeige in der Raum und die Freigabe an Remoteteilnehmer übertragen. </p>
-                        <p>Wählen Sie die richtigen System und audio-video-Peripheriegeräte aus einem unserer Partner: Logitech, Crestron, Polycom, Lenovo und HP.</p>
+                        <p>Transformieren von Besprechungsräumen von kleinen drängenden Bereichen zu großen Konferenzräumen mit einer reichen, kollaborativen Teams erleben Sie that& # 39; s einfach zu verwenden, bereitzustellen und zu verwalten. </p>
+                        <p>Starten Sie Besprechungen rechtzeitig mit einer einzigen Berührung, und projizieren Sie Sie sofort auf das Display im Chatroom und teilen Sie Sie an Remote-Teilnehmer. </p>
+                        <p>Wählen Sie die richtigen System-und Audio-Video-Peripheriegeräte von einem unserer Partner: Yealink, Logitech, Crestron, Polycom, Lenovo und HP.</p>
                         <p></p>
                     </div>
                 </div>
@@ -106,9 +106,9 @@ ms.locfileid: "33916387"
 </ul>
 
 > [!NOTE]
-> Microsoft-Teams Chatrooms ist für die Verwendung mit Microsoft-Teams, Skype für Business Online, Skype für Business Server 2019 oder Skype für Business Server 2015 vorgesehen.  <br><br>Frühere Plattformen wie Lync Server 2013 sind nicht entwickelt Microsoft Teams Chatrooms erwartet.
+> Microsoft Teams Rooms ist für die Verwendung mit Microsoft Teams, Skype for Business Online, Skype for Business Server 2019 oder Skype for Business Server 2015 vorgesehen.  <br><br>Frühere Plattformen wie lync Server 2013 funktionieren nicht mit Microsoft Teams-Räumen.
 
-In diesen Artikeln sind für Personen, die mit der Planung, Bereitstellung und Verwaltung von diesen Geräten beauftragt und nicht für die Benutzer des Systems vorgesehen. Benutzer können mehr Interesse in der Microsoft-Teams Räume- [Onlinehilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+Diese Artikel sind für Personen vorgesehen, die mit der Planung, Bereitstellung und Verwaltung dieser Geräte beauftragt sind, und nicht für die Benutzer des Systems. Benutzer interessieren sich mehr für die Microsoft Teams rooms [Online-Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
 
 > [!NOTE]
-> [Skype-Chatroom-System](../room-systems/lrs-migration.md) (früher Lync Raum System) und Microsoft Teams Räume sind verschiedene Produkte mit verschiedenen Abhängigkeiten und Bereitstellungsverfahren.
+> [Skype-Raum System](../room-systems/lrs-migration.md) (ehemals lync Room System)-und Microsoft Teams-Räume sind unterschiedliche Produkte mit unterschiedlichen Abhängigkeiten und Bereitstellungsverfahren.

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddMachinePage
@@ -12,63 +12,63 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Zum Hinzufügen eines neuen Servers zu einem vorhandenen Pool von Servern, eine der folgenden pooltypen:'
-ms.openlocfilehash: 562dbc44641c5af72224dbcbb0df494b7c0346d9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'So fügen Sie einen neuen Server zu einem vorhandenen Pool von Servern hinzu, wobei es sich um einen der folgenden Pools handelt:'
+ms.openlocfilehash: 005c2e2e63668b7c17ee04d49de88811649fe914
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888914"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297737"
 ---
 # <a name="add-server"></a>Hinzufügen des Servers
  
-Zum Hinzufügen eines neuen Servers zu einem vorhandenen Pool von Servern, eine der folgenden pooltypen:
+So fügen Sie einen neuen Server zu einem vorhandenen Pool von Servern hinzu, wobei es sich um einen der folgenden Pools handelt:
   
 - Enterprise Edition-Front-End-Server
     
-- Director-server
+- Director-Server
     
 - Vermittlungsserver
     
-- A/v-Konferenzserver
+- Audio/Video Konferenz Server
     
 - Vertrauenswürdiger Anwendungsserver
     
-Jede der neuen Poolserver verfügt über verschiedene Anforderungen. Legen Sie in den folgenden Abschnitten die Server, auf dem Sie den vorhandenen Pool hinzufügen möchten, und geben Sie die Informationen für jeden Servertyp definierten angefordert. Sie bieten die angeforderte Informationen, um den neuen Poolserver definieren.
+Jeder der neuen Pool Server hat andere Anforderungen. Suchen Sie in den folgenden Abschnitten nach dem Typ des Servers, den Sie dem vorhandenen Pool hinzufügen, und geben Sie die angeforderten Informationen an, wie Sie für die einzelnen Servertypen definiert sind. Sie geben die angeforderten Informationen an, um den neuen Pool Server zu definieren.
   
  **Enterprise Edition-Front-End-Server**
   
-- Vollqualifizierter Domänenname (FQDN) des neuen Servers wie er im Domain Name System (DNS) definiert ist.
+- Vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des neuen Servers, wie er im DNS (Domain Name System) definiert ist.
     
-- Wählen Sie **Alle konfigurierte IP-Adressen verwenden**, was bedeutet, dass alle IP-Adressen auf dem Computer definierten verwendet werden kann. Alternativ können Sie **Service-Verwendung einschränken ausgewählten IP-Adressen** auswählen und geben Sie eine bestimmte Adresse auf dem neuen Server. IP-Adresse des ist die einzige IP-Adresse für gehostete Dienste reagieren soll.
+- Wählen Sie **alle konfigurierten IP-Adressen verwenden**aus, was bedeutet, dass jede auf dem Computer definierte IP-Adresse verwendet werden kann. Alternativ können Sie die Option **Dienst Verwendung auf ausgewählte IP-Adressen einschränken** auswählen und eine bestimmte Adresse auf dem neuen Server eingeben. Die eingegebene IP-Adresse ist die einzige IP-Adresse, die auf die gehosteten Dienste reagiert.
     
-- Definieren Sie eine **PSTN-IP-Adresse** aus, wenn Sie einen Vermittlungsserver auf dem Front-End-Server verbunden ist.
+- Definieren Sie eine **PSTN-IP-Adresse** , wenn sich ein Vermittlungsserver auf dem Front-End-Server befindet.
     
-- Wählen Sie **IPv6 aktivieren,** um IPv6 für diesen Server zu aktivieren.
+- Wählen Sie **IPv6 aktivieren** aus, um IPv6 für diesen Server zu aktivieren.
     
-  **Director-server**
+  **Director-Server**
   
-- DNS-der FQDN des neuen Servers gemäß Definition.
+- Der FQDN des neuen Servers, wie er in DNS definiert ist.
     
-- Wählen Sie **Alle konfigurierte IP-Adressen verwenden**, was bedeutet, dass alle IP-Adressen auf dem Computer definierten verwendet wird. Alternativ wählen Sie die **Verwendung von Grenzwert ausgewählten IP-Adressen** und geben Sie eine bestimmte IP-Adresse auf dem neuen Server. IP-Adresse des ist die einzige IP-Adresse für gehostete Dienste reagieren soll.
+- Wählen Sie **alle konfigurierten IP-Adressen verwenden**aus, was bedeutet, dass jede auf dem Computer definierte IP-Adresse verwendet wird. Sie können auch die Option **Dienstnutzung auf ausgewählte IP-Adressen einschränken** und eine bestimmte IP-Adresse auf dem neuen Server eingeben. Die eingegebene IP-Adresse ist die einzige IP-Adresse, die auf die gehosteten Dienste reagiert.
     
   **Vermittlungsserver**
   
-- DNS-der FQDN des neuen Servers gemäß Definition.
+- Der FQDN des neuen Servers, wie er in DNS definiert ist.
     
-- Wählen Sie **Alle konfigurierte IP-Adressen verwenden**, was bedeutet, dass alle IP-Adressen auf dem Computer definierten verwendet werden kann. Alternativ wählen Sie **Service-Verwendung einschränken ausgewählten IP-Adressen** und geben eine bestimmte IP-Adresse auf dem neuen Server als primäre IP-Adresse und ein Geben Sie eine IP-Adresse public switched Telephone Network, (PSTN) IP-Adresse. Die IP-Adressen eingegeben werden die einzige IP-Adresse der für die festgelegten Dienste reagieren soll.
+- Wählen Sie **alle konfigurierten IP-Adressen verwenden**aus, was bedeutet, dass jede auf dem Computer definierte IP-Adresse verwendet werden kann. Sie können auch die Option **Dienstnutzung auf ausgewählte IP-Adressen einschränken** und eine bestimmte IP-Adresse auf dem neuen Server als primäre IP-Adresse eingeben und eine IP-Adresse für die IP-Adresse des öffentlich geschalteten Telefonnetzwerks (PSTN) eingeben. Die eingegebenen IP-Adressen sind die einzige IP-Adresse, die auf die angegebenen Dienste reagiert.
     
     > [!NOTE]
-    > Für den Vermittlungsserver ist die IP-Adresse für die primäre IP-Adresse und die PSTN-IP-Adresse eingegeben standardmäßig identisch. Die IP-Adressen können separat definiert werden, wenn Sie auf der gleichen Netzwerkschnittstelle dedizierten Netzwerkschnittstellen oder separate IP-Adressen verwenden werden. Wenn Sie zwei Netzwerkschnittstellen, einen für die LAN-Verbindung und einen für die PSTN-Verbindung verfügen, müssen Sie unterschiedliche IP-Adressen zuweisen. 
+    > Für den Vermittlungs Server ist die IP-Adresse, die für die primäre IP-Adresse und die PSTN-IP-Adresse eingegeben wurde, standardmäßig identisch. Die IP-Adressen können separat definiert werden, wenn Sie dedizierte Netzwerkschnittstellen oder getrennte IP-Adressen auf derselben Netzwerkschnittstelle verwenden. Wenn Sie über zwei Netzwerkschnittstellen verfügen, eine für die lokale Netzwerkverbindung und eine für die PSTN-Verbindung, müssen Sie unterschiedliche IP-Adressen zuweisen. 
   
-  **A/v-Konferenzserver**
+  **Audio/Video Konferenz Server**
   
-- DNS-der FQDN des neuen Servers gemäß Definition.
+- Der FQDN des neuen Servers, wie er in DNS definiert ist.
     
-- Wählen Sie **Alle konfigurierte IP-Adressen verwenden**, was bedeutet, dass alle IP-Adressen auf dem Computer definierten verwendet werden kann. Alternativ können Sie **Service-Verwendung einschränken ausgewählten IP-Adressen** auswählen und geben Sie eine bestimmte Adresse auf dem neuen Server. IP-Adresse des ist die einzige IP-Adresse für gehostete Dienste reagieren soll.
+- Wählen Sie **alle konfigurierten IP-Adressen verwenden**aus, was bedeutet, dass jede auf dem Computer definierte IP-Adresse verwendet werden kann. Alternativ können Sie die Option **Dienst Verwendung auf ausgewählte IP-Adressen einschränken** auswählen und eine bestimmte Adresse auf dem neuen Server eingeben. Die eingegebene IP-Adresse ist die einzige IP-Adresse, die auf die gehosteten Dienste reagiert.
     
   **Vertrauenswürdiger Anwendungsserver**
   
-- DNS-der FQDN des neuen Servers gemäß Definition.
+- Der FQDN des neuen Servers, wie er in DNS definiert ist.
     
 

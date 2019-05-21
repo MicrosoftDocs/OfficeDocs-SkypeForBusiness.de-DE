@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie, wie Sie einem Benutzer in Microsoft Teams eine Konferenzkennung zuweisen und welche Parameter Sie für die Konferenzkennung verwenden sollten. '
-ms.openlocfilehash: 6d1db1836ef5681416907936a7fab8db0d5ffb7a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4e354f3f7c9f8b286647fc64b5c910b268c2a316
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205050"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305359"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Anzeigen und Zurücksetzen einer Konferenzkennung, die einem Benutzer zugewiesen ist, in Microsoft Teams
 
@@ -42,7 +42,7 @@ Eine E-Mail wird mit der Konferenz-ID und den Standard-Audiokonferenz-Telefonnum
 
 ### <a name="to-view-the-conference-id"></a>So zeigen Sie die Konferenzkennung an
 
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
+![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center**
 
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer in der Liste der verfügbaren Benutzer aus.
 
@@ -62,7 +62,7 @@ Weitere Informationen finden Sie in der [PowerShell-Referenz für Microsoft Team
 
 Sie können eine Konferenzkennung für einen Benutzer zurücksetzen, beispielsweise wenn der Benutzer sie vergessen hat.
   
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
+![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center**
 
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer in der Liste der verfügbaren Benutzer aus.
 

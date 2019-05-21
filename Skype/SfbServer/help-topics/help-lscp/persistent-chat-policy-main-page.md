@@ -5,34 +5,34 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.PersistentChatPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
-description: Die Seite Richtlinie für beständigen Chat, der Gruppe der beständigen Chat können Sie Richtlinien auf globaler Ebene sowie Pool, Standort oder Benutzer Ebene, einschließlich der Konfiguration der globale Richtlinie, und erstellen eine oder mehrere zusätzliche Benutzer- und Website Richtlinien für die Bereitstellung verwalten. Wenn ein Benutzer durch eine Richtlinie für Persistent Chat Server aktiviert ist, wird die Persistent Chat Server-Umgebung in ihrem Client angezeigt.
-ms.openlocfilehash: 562de77408fea4f23beabf8b8ef70a3a6fc1caf0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Sie können die Seite "beständiger Chat" der Gruppe "beständiger Chat" verwenden, um Richtlinien auf globaler, Pool-, Website-oder Benutzerebene zu verwalten, einschließlich der Konfiguration der globalen Standardrichtlinie und dem Erstellen einer oder mehrerer zusätzlicher Benutzer-und Website Richtlinien für Ihre Bereitstellung. Wenn ein Benutzer nach Richtlinie für beständigen Chat Server aktiviert ist, wird die Server Umgebung für beständigen Chat in seinem Client angezeigt.
+ms.openlocfilehash: ed4e8bbcb0856156148f459435b5cec857e9e223
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929192"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294172"
 ---
 # <a name="persistent-chat-policy-main-page"></a>Richtlinie für beständigen Chat – Hauptseite
  
-Sie können die Seite **Richtlinie für beständigen Chat** , der Gruppe der **Beständigen Chat** zum Verwalten von Richtlinien auf globaler Ebene sowie Pool, Standort oder Benutzer Ebene, einschließlich der Konfiguration der globale Richtlinie, und erstellen eine oder mehrere zusätzliche Benutzer- und Website Richtlinien für Ihre Einsatz. Wenn ein Benutzer durch eine Richtlinie für Persistent Chat Server aktiviert ist, wird die Persistent Chat Server-Umgebung in ihrem Client angezeigt.
+Sie können die Seite "beständiger **Chat** " der Gruppe "beständiger **Chat** " verwenden, um Richtlinien auf globaler, Pool-, Website-oder Benutzerebene zu verwalten, einschließlich der Konfiguration der globalen Standardrichtlinie und dem Erstellen einer oder mehrerer zusätzlicher Benutzer-und Website Richtlinien für Ihre Bereitstellungs. Wenn ein Benutzer nach Richtlinie für beständigen Chat Server aktiviert ist, wird die Server Umgebung für beständigen Chat in seinem Client angezeigt.
   
 > [!NOTE]
-> In der Topologie gelten die Standortrichtlinien für Persistent Chat Server Global, pro Pool des Benutzers oder pro Standort des Benutzers oder pro Benutzer. 
+> In der Topologie gelten Website Richtlinien für beständigen Chat Server global, pro Benutzerpool oder pro Benutzer Website oder pro Benutzer. 
   
-Die globale Richtlinie wird automatisch erstellt, wenn Sie Persistent Chat Server bereitstellen, und es kann so konfiguriert, aber nicht gelöscht werden. Da die globale Richtlinie für alle Benutzer gilt, muss es keinen pro Benutzer festgelegt werden soll.
+Die globale Richtlinie wird automatisch erstellt, wenn Sie den beständigen Chat Server bereitstellen, und Sie kann konfiguriert, aber nicht gelöscht werden. Da die globale Richtlinie für alle Benutzer gilt, muss Sie nicht pro Benutzer eingestellt werden.
   
-Sie können erstellen und konfigurieren mehrere Standort- und Benutzerrichtlinien, die Benutzer zusammen mit der globalen Richtlinie für Persistent Chat Server aktivieren. Pools und der Website Persistent Chat Server-Richtlinien außer Kraft setzen die globale Richtlinie ein Persistent Chat Server, jedoch nur für Benutzer dieser Website. Benutzerrichtlinien setzen sowohl die globale als auch die Pool- und Standortrichtlinien für diejenigen Benutzer außer Kraft, denen die Benutzerrichtlinie zugewiesen wird.
+Sie können mehrere Website-und Benutzerrichtlinien erstellen und konfigurieren, die zusammen mit der globalen Richtlinie Benutzern für beständigen Chat Server ermöglichen. Pool-und Website-Server Richtlinien für persistente Chats setzen die globale Richtlinie für beständigen Chats außer Kraft, allerdings nur für Benutzer dieser Website. Benutzerrichtlinien setzen sowohl die globale als auch die Pool- und Standortrichtlinien für diejenigen Benutzer außer Kraft, denen die Benutzerrichtlinie zugewiesen wird.
   
 > [!NOTE]
-> Zum Konfigurieren und Verwenden von Persistent Chat Server, müssen Sie zunächst mit dem Topologie-Generator Persistent Chat Server Support zur Topologie hinzugefügt werden, und die Topologie anschließend veröffentlichen. Weitere Informationen hierzu finden Sie unter [Persistent Chat Server hinzufügen, um Ihre Skype für Business Server 2015 Topologie](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md). 
+> Um den Server für beständigen Chat zu konfigurieren und zu verwenden, müssen Sie zuerst den Topologie-Generator verwenden, um der Topologie Unterstützung für beständigen Chat Server hinzuzufügen und dann die Topologie zu veröffentlichen. Ausführliche Informationen finden Sie unter [Hinzufügen von beständigem Chat Server zu Ihrer Skype for Business Server 2015-Topologie](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md). 
   
 ## <a name="tasks-that-you-can-perform"></a>Mögliche Aufgaben
 
@@ -42,9 +42,9 @@ Auf der Seite **Richtlinie für beständigen Chat** können Sie die folgenden Au
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle „CsPersistentChatAdministrator“, „CsAdministrator“ oder „CsUserAdministrator“ zugewiesen ist, auf einem beliebigen Computer in der internen Bereitstellung an.
     
-2. Im Menü **Start** wählen Sie die Skype für Business Server-Systemsteuerung oder öffnen Sie ein Browserfenster, und geben Sie die Admin-URL.
+2. Wählen Sie im **Startmenü** die Skype for Business Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein.
     
-3. Klicken Sie auf **Beständiger Chat**in Skype Business Server-Systemsteuerung und klicken Sie dann auf **Richtlinie für beständigen Chat**.
+3. Klicken Sie in der Skype for Business Server-Systemsteuerung auf beständigen **Chat**und dann auf **Richtlinie**für beständigen Chat.
     
 4. Klicken Sie in der Liste der Richtlinien auf **Global**, dann auf **Bearbeiten** und anschließend auf **Details anzeigen**.
     
@@ -52,21 +52,21 @@ Auf der Seite **Richtlinie für beständigen Chat** können Sie die folgenden Au
     
    - Geben Sie unter **Name** einen neuen Namen für die globale Richtlinie ein, wenn Sie den Standardwert „Global“ nicht verwenden möchten.
     
-   - Einzelheiten Sie im Feld **Beschreibung**über den was die Benutzerrichtlinie (beispielsweise globale Richtlinie für die _CentralSiteName_) ist.
+   - Geben Sie in **Beschreibung**Details zu den Richtlinien für Benutzer an (beispielsweise globale Richtlinie für _centralSiteName_).
     
-   - Oder um beständigen Chat für alle Standorte und Benutzer, die nicht explizit durch eine Standort- oder Benutzerrichtlinie gesteuert, aktivieren Sie oder deaktivieren Sie das Kontrollkästchen **Aktivieren beständigen Chat** .
+   - Zum Steuern des beständigen Chats für alle Websites und Benutzer, die nicht explizit über eine Website Richtlinie oder Benutzerrichtlinie gesteuert werden, aktivieren oder deaktivieren Sie das Kontrollkästchen beständigen **Chat aktivieren** .
     
 6. Klicken Sie auf **Commit ausführen**.
     
-## <a name="to-create-a-persistent-chat-policy-for-a-site"></a>Erstellen Sie eine Richtlinie für beständigen Chat für eine Website
+## <a name="to-create-a-persistent-chat-policy-for-a-site"></a>So erstellen Sie eine Richtlinie für beständigen Chat für eine Website
 
-Für jeden Standort, den Sie bereitgestellt haben, können Sie eine standortspezifische Richtlinie für beständigen Chat erstellen.
+Für jede Website, die Sie bereitgestellt haben, können Sie eine Website spezifische Richtlinie für beständigen Chat erstellen.
   
 Die Konfiguration in der Standortrichtlinie setzt die globale Richtlinie außer Kraft, jedoch nur für den durch die Standortrichtlinie abgedeckten Standort.
   
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle „CsPersistentChatAdministrator“, „CsAdministrator“ oder „CsUserAdministrator“ zugewiesen ist, auf einem beliebigen Computer in der internen Bereitstellung an.
     
-2. Im Menü **Start** wählen Sie die Skype für Business Server-Systemsteuerung oder öffnen Sie ein Browserfenster, und geben Sie die Admin-URL.
+2. Wählen Sie im **Startmenü** die Skype for Business Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein.
     
 3. Klicken Sie in der linken Navigationsleiste auf **Beständiger Chat** und dann auf **Richtlinie für beständigen Chat**.
     
@@ -84,15 +84,15 @@ Die Konfiguration in der Standortrichtlinie setzt die globale Richtlinie außer 
     
 7. Klicken Sie auf **Commit ausführen**.
     
-## <a name="to-create-a-user-policy-for-persistent-chat"></a>Erstellen Sie eine Benutzerrichtlinie für den beständigen Chat
+## <a name="to-create-a-user-policy-for-persistent-chat"></a>So erstellen Sie eine Benutzerrichtlinie für beständigen Chat
 
-In der Skype Business Server-Systemsteuerung definieren Sie Benutzerrichtlinien, die Benutzern unter **Benutzer**zugewiesen werden können.
+In der Skype for Business Server-Systemsteuerung definieren Sie Benutzerrichtlinien, die Benutzern in **Benutzern**zugewiesen werden können.
   
 Die Benutzerrichtlinie setzt die Richtlinien auf globaler und Standortebene außer Kraft. Dies gilt jedoch nur für die Benutzer, denen die Benutzerrichtlinie zugewiesen wird.
   
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle „CsPersistentChatAdministrator“, „CsAdministrator“ oder „CsUserAdministrator“ zugewiesen ist, auf einem beliebigen Computer in der internen Bereitstellung an.
     
-2. Im Menü **Start** wählen Sie die Skype für Business Server-Systemsteuerung oder öffnen Sie ein Browserfenster, und geben Sie die Admin-URL.
+2. Wählen Sie im **Startmenü** die Skype for Business Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein.
     
 3. Klicken Sie in der linken Navigationsleiste auf **Beständiger Chat** und dann auf **Richtlinie für beständigen Chat**.
     
@@ -102,30 +102,30 @@ Die Benutzerrichtlinie setzt die Richtlinien auf globaler und Standortebene auß
     
    - Geben Sie unter **Name** einen Namen für die neue Benutzerrichtlinie an.
     
-   - Einzelheiten Sie im Feld **Beschreibung**über den was die Benutzerrichtlinie (beispielsweise Richtlinie für beständigen Chat für bestimmte Benutzer) ist.
+   - Geben Sie in **Beschreibung**Details zu den Benutzerrichtlinien an (beispielsweise Richtlinien für beständigen Chat für bestimmten Benutzer).
     
-   - Klicken Sie zum beständigen Chat für alle Benutzer festlegen möchten, die nicht explizit über eine Benutzerrichtlinie gesteuert werden, aktivieren Sie oder deaktivieren Sie das Kontrollkästchen **Aktivieren beständigen Chat** .
+   - Zum Steuern des beständigen Chats für alle Benutzer, die nicht ausdrücklich über eine Benutzerrichtlinie gesteuert werden, aktivieren oder deaktivieren Sie das Kontrollkästchen beständigen **Chat aktivieren** .
     
 6. Klicken Sie auf **Commit ausführen**.
     
-## <a name="to-apply-a-persistent-chat-user-policy-to-a-user-account"></a>Anwenden eine Richtlinie für beständigen Chat Benutzer auf ein Benutzerkonto
+## <a name="to-apply-a-persistent-chat-user-policy-to-a-user-account"></a>So wenden Sie eine Benutzerrichtlinie für beständigen Chat auf ein Benutzerkonto an
 
-Wenn ein Benutzer für Skype für Unternehmen aktiviert wurde, können Sie geeignete Richtlinien auf bestimmte Benutzer zu aktivieren oder deaktivieren sie für Persistent Chat Server anwenden.
+Wenn ein Benutzer für Skype for Business aktiviert wurde, können Sie geeignete Richtlinien auf bestimmte Benutzer anwenden, um Sie für beständigen Chat Server zu aktivieren oder zu deaktivieren.
   
-Verwenden Sie das Verfahren in diesem Thema, um eine zuvor erstellte Benutzerrichtlinie für beständigen Chat auf einen oder mehrere Benutzerkonten oder Benutzergruppen anzuwenden.
+Verwenden Sie das in diesem Thema beschriebene Verfahren, um eine zuvor erstellte Benutzerrichtlinie für beständigen Chat auf ein oder mehrere Benutzerkonten oder Benutzergruppen anzuwenden.
   
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle „CsPersistentChatAdministrator“, „CsAdministrator“ oder „CsUserAdministrator“ zugewiesen ist, auf einem beliebigen Computer in der internen Bereitstellung an.
     
-2. Im Menü **Start** wählen Sie die Skype für Business Server-Systemsteuerung oder öffnen Sie ein Browserfenster, und geben Sie die Admin-URL.
+2. Wählen Sie im **Startmenü** die Skype for Business Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein.
     
 3. Klicken Sie in der linken Navigationsleiste auf **Benutzer** und suchen Sie anschließend nach dem Benutzerkonto, das Sie konfigurieren möchten.
     
 4. Klicken Sie in der Tabelle mit den Suchergebnissen auf das Benutzerkonto, klicken Sie auf **Bearbeiten** und dann auf **Details anzeigen**.
     
-5. Wählen Sie in **Lync Server-Benutzer bearbeiten** unter **Richtlinie für beständigen Chat**die Benutzerrichtlinie beständigen Chat, die Sie anwenden möchten.
+5. Wählen Sie in **lync Server-Benutzer bearbeiten** unter **Richtlinie**für beständigen Chat die Benutzerrichtlinie für beständigen Chat aus, die Sie anwenden möchten.
     
     > [!NOTE]
-    > Die ** \<automatische\> ** Einstellungen die Standardrichtlinie für eine effektive gelten. Diese Einstellungen werden vom Server automatisch übernommen.
+    > Die ** \<automatischen\> ** Einstellungen wenden die standardmäßige effektive Richtlinie an. Diese Einstellungen werden vom Server automatisch übernommen.
   
 6. Klicken Sie auf **Commit ausführen**.
     

@@ -5,21 +5,21 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0415f76-d125-4c15-861b-f5780ac1aef2
-description: MSMQProcessing-Tabelle ist nur zur internen Verwendung. Diese Tabelle wurde in Skype für Business Server 2015 eingeführt.
-ms.openlocfilehash: fe689fee375b1604aadca8ef05505c689a14004a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Die MSMQProcessing-Tabelle ist nur für die interne Verwendung vorgesehen. Diese Tabelle wurde in Skype for Business Server 2015 eingeführt.
+ms.openlocfilehash: e3a52e794fca90339cc22da1254d67018d9c6458
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930581"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295983"
 ---
 # <a name="msmqprocessing-table"></a>MSMQProcessing-Tabelle
  
-MSMQProcessing-Tabelle ist nur zur internen Verwendung. Diese Tabelle wurde in Skype für Business Server 2015 eingeführt.
+Die MSMQProcessing-Tabelle ist nur für die interne Verwendung vorgesehen. Diese Tabelle wurde in Skype for Business Server 2015 eingeführt.
   
 

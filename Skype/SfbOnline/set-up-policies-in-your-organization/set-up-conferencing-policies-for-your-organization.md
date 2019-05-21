@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Konferenzen sind ein wichtiger Bestandteil von Skype for Business Online: In Konferenzen können Gruppen von Benutzern gemeinsam online Folien und Videos anzeigen, Anwendungen freigeben, Dateien austauschen und anderweitig kommunizieren und zusammenarbeiten.'
-ms.openlocfilehash: 46e22191875709f13936db395563eb9f7326300f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 43c441e769622fcf5f292329c460c7c662619ee1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237470"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297708"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Einrichten von Konferenzrichtlinien für Ihre Organisation
 
@@ -70,7 +70,7 @@ Richtlinieneinstellungen können Sie bei der Erstellung einer Richtlinie konfigu
     Import-PSSession $session
    ```
 
-   Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Sie unter [Connect auf alle Office 365-Dienste in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder das [Einrichten des Computers für Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Wenn Sie weitere Informationen zum Starten von Windows PowerShell benötigen, lesen Sie [Herstellen einer Verbindung mit allen Office 365-Diensten in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Einrichten Ihres Computers für Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>Blockieren von Dateiübertragung und Desktopfreigabe in Besprechungen
 
@@ -79,14 +79,14 @@ Richtlinieneinstellungen können Sie bei der Erstellung einer Richtlinie konfigu
   > ```
   > New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
   > ```
-  > Weitere Informationen finden Sie im [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) -Cmdlet.
+  > Weitere Informationen finden Sie unter dem Cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
     
 - Um die erstellte neue Richtlinie allen Benutzern in der Organisation zuzuweisen, führen Sie Folgendes aus:
   > 
   > ```
   > Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
   > ```
-  > Weitere Informationen finden Sie im [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) -Cmdlet.
+  > Weitere Informationen finden Sie im Cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
     
   Wenn Sie bereits eine Richtlinie erstellt haben, können Sie mit dem [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx)-Cmdlet Änderungen an der vorhandenen Richtlinie vornehmen und dann mit dem [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx)-Cmdlet die Einstellungen auf die Benutzer anwenden.
   
@@ -97,16 +97,16 @@ Richtlinieneinstellungen können Sie bei der Erstellung einer Richtlinie konfigu
   > ```
   > New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
   > ```
-  > Weitere Informationen finden Sie im [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) -Cmdlet.
+  > Weitere Informationen finden Sie unter dem Cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
     
 - Um die erstellte neue Richtlinie Amos Marble zuzuweisen, führen Sie Folgendes aus:
   > 
   > ```
   >  Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
   > ```
-  > Weitere Informationen finden Sie im [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) -Cmdlet.
+  > Weitere Informationen finden Sie im Cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
     
-Wenn Sie bereits eine Richtlinie erstellt haben, können Sie verwenden Sie das [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) -Cmdlet, die vorhandene Richtlinie zu ändern, und klicken Sie dann mit dem [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) -Cmdlet verwenden, um die Einstellungen für die Benutzer gelten.
+Wenn Sie bereits eine Richtlinie erstellt haben, können Sie das Cmdlet " [festlegen-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) " verwenden, um Änderungen an der vorhandenen Richtlinie vorzunehmen, und verwenden Sie dann das Cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) , um die Einstellungen auf die Benutzer anzuwenden.
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>Blockieren der Aufzeichnung von Besprechungen durch anonyme Teilnehmer und der Speicherung von Besprechungsinhalten durch externe Benutzer
 
@@ -115,7 +115,7 @@ Wenn Sie bereits eine Richtlinie erstellt haben, können Sie verwenden Sie das [
   > ```
   > New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
   > ```
-  > Weitere Informationen finden Sie im [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) -Cmdlet.
+  > Weitere Informationen finden Sie unter dem Cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
     
 - Um die erstellte neue Richtlinie allen Benutzern in der Organisation zuzuweisen, führen Sie Folgendes aus:
     
@@ -124,13 +124,13 @@ Wenn Sie bereits eine Richtlinie erstellt haben, können Sie verwenden Sie das [
 >   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
 >   ```
 
-Weitere Informationen finden Sie im [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) -Cmdlet.
+Weitere Informationen finden Sie im Cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
     
 Wenn Sie bereits eine Richtlinie erstellt haben, können Sie mit dem [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx)-Cmdlet Änderungen an der vorhandenen Richtlinie vornehmen und dann mit dem [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx)-Cmdlet die Einstellungen auf die Benutzer anwenden.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online mit einem zentralen Verwaltungspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn mehrere Aufgaben ausgeführt werden müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -147,7 +147,7 @@ Wenn Sie bereits eine Richtlinie erstellt haben, können Sie mit dem [Set-CsConf
 ## <a name="related-topics"></a>Verwandte Themen
 [Erstellen von benutzerdefinierten externen Zugriffsrichtlinien](create-custom-external-access-policies.md)
 
-[Datenblöcke Point-Datei übertragen](block-point-to-point-file-transfers.md)
+[Blockieren von Punkt-zu-Punkt-Dateiübertragungen](block-point-to-point-file-transfers.md)
 
 [Einrichten von Clientrichtlinien für Ihre Organisation](set-up-client-policies-for-your-organization.md)
 

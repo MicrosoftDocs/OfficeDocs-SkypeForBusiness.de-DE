@@ -5,36 +5,36 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
-description: Fortschrittsbericht basieren auf Daten, die vom Client in der Datenbank nach Abschluss eines Anrufs oder einer Sitzung hochgeladen werden. Fortschrittsberichte geschrieben werden nur für anrufen und Sitzungen, die Skype für Business Server 2015 bestimmt um zu Diagnosezwecken hilfreich sein können.
-ms.openlocfilehash: 3ed5805b74a242003d8ce910fa5a01538789d626
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Statusberichte basieren auf Daten, die vom Client nach Abschluss eines Anrufs oder einer Sitzung an die Datenbank hochgeladen wurden. Fortschrittsberichte werden nur für Anrufe und Sitzungen geschrieben, die von Skype for Business Server 2015 für diagnostische Zwecke nützlich sein können.
+ms.openlocfilehash: 9022c7707e0d2f0a4346ed629bf51420c312b10a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930595"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295902"
 ---
 # <a name="progressreport-table"></a>ProgressReport-Tabelle
  
-Fortschrittsbericht basieren auf Daten, die vom Client in der Datenbank nach Abschluss eines Anrufs oder einer Sitzung hochgeladen werden. Fortschrittsberichte geschrieben werden nur für anrufen und Sitzungen, die Skype für Business Server 2015 bestimmt um zu Diagnosezwecken hilfreich sein können.
+Statusberichte basieren auf Daten, die vom Client nach Abschluss eines Anrufs oder einer Sitzung an die Datenbank hochgeladen wurden. Fortschrittsberichte werden nur für Anrufe und Sitzungen geschrieben, die von Skype for Business Server 2015 für diagnostische Zwecke nützlich sein können.
   
-Die Felder ErrorTime, ErrorReportSeq und ProgressReportSeq verweisen nicht notwendigerweise auf Fehler, sondern auf Nachrichten, die den Status von Anrufen oder Nachrichten angeben.
+Die Felder "Fehler", "ErrorReportSeq" und "ProgressReportSeq" beziehen sich nicht unbedingt auf Fehler, sondern auf Nachrichten, die den Status von anrufen oder Nachrichten angeben.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**"ErrorTime"** <br/> |datetime  <br/> |Primär, Fremd  <br/> |Datum und Uhrzeit des Fehlerberichts ausgeführt, die diese Fortschrittsbericht enthält. [ErrorReport-Tabelle in Skype für Business Server 2015](errorreport.md) Weitere Informationen finden Sie. <br/> |
-|**Fehler-ID** <br/> |int  <br/> |Primär, Fremd  <br/> |ID-Nummer, die in Verbindung mit "ErrorTime", "progressreportseq" verweisen, um einen Fortschrittsbericht eindeutig zu identifizieren. [ErrorReport-Tabelle in Skype für Business Server 2015](errorreport.md) Weitere Informationen finden Sie. <br/> |
-|**"Errorreportseq"** <br/> |int  <br/> |Primär, Fremd  <br/> |ID-Nummer, die den Fehlerbericht identifiziert. ErrorReporSeq wird in Verbindung mit ErrorTime verwendet, um einen Fehlerbericht eindeutig zu identifizieren. [ErrorReport-Tabelle in Skype für Business Server 2015](errorreport.md) Weitere Informationen finden Sie <br/> Dieses Feld wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**"Progressreportseq" verweisen** <br/> |int  <br/> |Primary  <br/> |ID-Nummer, um den Bericht zu identifizieren. In Verbindung mit "ErrorTime" und "errorreportseq" verwendet, um einen Fortschrittsbericht eindeutig zu identifizieren.  <br/> |
-|**MsDiagId** <br/> |int  <br/> ||Diagnose-ID des fortschrittberichts.  <br/> Dieses Feld wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**SourceId** <br/> |int  <br/> |Ausländisch  <br/> |Server, die den Fehlerbericht gesendet (wenn der Bericht von einer Serverkomponente gesendet wurde). Finden Sie weitere Informationen der [Server-Tabelle](servers.md) . Dieses Feld wurde in Microsoft Lync Server 2013 eingeführt. <br/> |
-|**ApplicationId** <br/> |int  <br/> ||Die Lync Server-Prozess, dem der Bericht zu ist. Siehe Tabelle Anwendung Weitere Informationen.  <br/> |
-|**Detail** <br/> |Bild  <br/> ||Einzelheiten über den Fortschrittsbericht, gespeichert im Binärformat, um Speicherplatz einzusparen. Diese Daten können mit der folgenden Syntax Textformat konvertiert werden:  <br/> CAST (Cast (Detail as varbinary(max)) as varchar(max))  <br/> |
-|**TelemetryId** <br/> |uniqueIdentifier  <br/> ||Eindeutige ID, die korreliert Uhrzeitinformationen für die verschiedenen Komponenten in einer Konferenz beteiligten teilnehmen.  <br/> Dieses Feld wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**SessionSetupTime** <br/> |int  <br/> ||Zeit (in Millisekunden) für eine bestimmte Komponente an einer Konferenz teilzunehmen.  <br/> Dieses Feld wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**Fehlerzeit** <br/> |datetime  <br/> |Primär, fremd  <br/> |Datum und Uhrzeit des Status Fehlerberichts, der diesen Statusbericht enthält. Weitere Informationen finden Sie [in der Tabelle errorreport in Skype for Business Server 2015](errorreport.md) . <br/> |
+|**ErrorID** <br/> |int  <br/> |Primär, fremd  <br/> |ID-Nummer, die in Verbindung mit Fehlerzeit verwendet wird, ProgressReportSeq, um einen Statusbericht eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle errorreport in Skype for Business Server 2015](errorreport.md) . <br/> |
+|**ErrorReportSeq** <br/> |int  <br/> |Primär, fremd  <br/> |Die ID-Nummer, die den Fehlerbericht identifiziert. ErrorReporSeq wird in Verbindung mit Fehlerzeit verwendet, um einen Fehlerbericht eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Tabelle errorreport in Skype for Business Server 2015](errorreport.md) . <br/> Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
+|**ProgressReportSeq** <br/> |int  <br/> |Primary  <br/> |Die ID-Nummer zur Identifizierung des Statusberichts. Wird in Verbindung mit Fehlerzeit und ErrorReportSeq verwendet, um einen Statusbericht eindeutig zu identifizieren.  <br/> |
+|**MsDiagId** <br/> |int  <br/> ||Diagnose-ID des Statusberichts  <br/> Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
+|**SourceID** <br/> |int  <br/> |Fremd  <br/> |Der Server, der den Fehlerbericht gesendet hat (wenn der Bericht von einer Serverkomponente gesendet wurde). Weitere Informationen finden Sie in der [Tabelle Server](servers.md) . Dieses Feld wurde in Microsoft lync Server 2013 eingeführt. <br/> |
+|**ApplicationId** <br/> |int  <br/> ||Der lync-Server Prozess, zu dem der Bericht gehört. Weitere Informationen finden Sie in der Anwendungstabelle.  <br/> |
+|**Detail** <br/> |Bild  <br/> ||Details des Statusberichts, die im Binärformat gespeichert werden, um Platz zu sparen. Diese Daten können mit dieser Syntax in das Text Format konvertiert werden:  <br/> Umwandlung (Umwandlung (Detail als varbinary (max)) als varchar (max))  <br/> |
+|**Telemetrie** <br/> |uniqueIdentifier  <br/> ||Eindeutiger Bezeichner, der die Verknüpfungszeit Informationen für die verschiedenen an einer Konferenz beteiligten Komponenten korreliert.  <br/> Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
+|**SessionSetupTime** <br/> |int  <br/> ||Zeit (in Millisekunden) für eine bestimmte Komponente, um an einer Konferenz teilzunehmen.  <br/> Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
    
 

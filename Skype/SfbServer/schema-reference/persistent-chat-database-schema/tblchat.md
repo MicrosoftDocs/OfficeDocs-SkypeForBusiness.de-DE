@@ -5,39 +5,39 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
-description: TblChat enthält alle Chatnachrichten.
-ms.openlocfilehash: 77aa6ec803803a0f38e02c01167d0bbc5f090080
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblChat enthält alle Chatnachrichten.
+ms.openlocfilehash: 15c7030fe14f62c5d32af54c0f5a6901da3f977b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929910"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295538"
 ---
 # <a name="tblchat"></a>tblChat
  
-TblChat enthält alle Chatnachrichten.
+tblChat enthält alle Chatnachrichten.
   
 **Spalten**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|channelId  <br/> |Int, nicht null  <br/> |Knoten-ID  <br/> |
-|chatId  <br/> |Bigint, nicht null  <br/> |Eindeutige fortlaufende Zahl (pro Knoten-ID), die die Reihenfolge der Chatrooms, generiert von der TblLastChatId-Tabelle definiert.  <br/> |
-|chatDate  <br/> |Bigint, nicht null  <br/> |Zeitstempel für die Chatnachricht.  <br/> |
-|Benutzer-ID  <br/> |Int, nicht null  <br/> |Prinzipal-ID des bereitstellers.  <br/> |
-|isAlert  <br/> |Bit, nicht null  <br/> |True, wenn die Nachricht eine Warnung an. False, wenn es nicht der Fall ist.  <br/> |
-|Inhalt  <br/> |Nvarchar (Max), nicht null  <br/> | Chatinhalte (die nur-Text-Version). Der Inhalt ist in der Regel im nur-Text mit den folgenden Ausnahmen: <br/>  Dateien werden als Ma-Filelink dargestellt: Links. <br/>  Links werden als HTML-Elemente dargestellt (obwohl des Inhaltstyps HTML angesehen werden kann). <br/>  Textabschnitte werden als ein "[STORY]..." codiert-Format. <br/> |
-|RTF  <br/> |varchar(max)  <br/> |Chatinhalte (die RTF-Version). Möglicherweise Null, wenn der Client es zur Verfügung steht.  <br/> |
+|Kanal-Nr  <br/> |int, nicht NULL  <br/> |Knoten-ID.  <br/> |
+|Chat-Funktion  <br/> |bigint, nicht NULL  <br/> |Eindeutige sequenzielle Nummer (pro Knoten-ID), die die von der tblLastChatId-Tabelle generierte Chatroom-Reihenfolge definiert.  <br/> |
+|chatDate  <br/> |bigint, nicht NULL  <br/> |Zeitstempel für die Chatnachricht.  <br/> |
+|UserID  <br/> |int, nicht NULL  <br/> |Prinzipal-ID des Plakats.  <br/> |
+|isalert  <br/> |Bit, nicht NULL  <br/> |"True", wenn es sich bei der Nachricht um eine Warnmeldung handelt. False, wenn dies nicht der Fall ist.  <br/> |
+|Inhalts  <br/> |nvarchar (max), nicht NULL  <br/> | Chat-Inhalt (die nur-Text-Version). Der Inhalt befindet sich normalerweise im nur-Text-Stil mit den folgenden Ausnahmen: <br/>  Dateien werden als MA-FileLink: Links dargestellt. <br/>  Links werden als HTML-Element dargestellt (auch wenn der Inhaltstyp nicht als HTML betrachtet werden kann). <br/>  Stories werden als "[Story]...."-ähnliches Format codiert. <br/> |
+|RTF  <br/> |varchar (max)  <br/> |Chat-Inhalt (die RTF-Version). Kann NULL sein, wenn der Client Sie nicht bereitstellt.  <br/> |
    
 **Schlüssel**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
-|\<ChannelID chatD\>  <br/> |Primärschlüssel.  <br/> |
+|\<Kanal-Nr, Chat\>  <br/> |Primärschlüssel  <br/> |
    
 

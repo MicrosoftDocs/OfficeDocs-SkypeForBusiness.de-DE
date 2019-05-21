@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.reviewer: qingy
-ms.audience: ITPro
+audience: ITPro
 ms.topic: reference
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Hier finden IT-Spezialisten Links zu den neuesten Updateinformationen für unbefristete Versionen der Clients Skype for Business 2016, Skype for Business 2015 und Lync 2013.
-ms.openlocfilehash: b7dadb5b302a1f8221d5fac05d28bfc2b696eb1d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2de8e4a1b27388e6951aa1fb3cf0380b6173fa45
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924437"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294564"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Letzte Updates für Skype for Business-Versionen, die Windows Installer (MSI) verwenden
 
@@ -44,7 +44,7 @@ Die Kompatibilität von Skype for Business mit Office 365 und der lokalen Umgeb
 |:---  |:---  |:---  |
 |Update für Skype for Business 2016 |[KB 4462234](https://support.microsoft.com/kb/4462234/) | April 2019|
 |Update für Skype for Business 2016 |[KB 4462190](https://support.microsoft.com/kb/4462190/) | März 2019|
-|Update für Skype for Business 2016 |[KB 4462114](https://support.microsoft.com/kb/4462114/) | Februar 2019|
+|Update für Skype for Business 2016 |[KB 4462114](https://support.microsoft.com/kb/4462114/) | 2019. Februar|
 |Update für Skype for Business 2016 |[KB 4461586](https://support.microsoft.com/kb/4461586/) | Januar 2019|
 |Update für Skype for Business 2016 |[KB 4461545](https://support.microsoft.com/kb/4461545/) | Dezember 2018|
 |Sicherheitsupdate für Skype for Business 2016 |[KB 4461473](https://support.microsoft.com/kb/4461473/) | November 2018|
@@ -193,24 +193,24 @@ Paketname|KB-Nummer|Veröffentlichungsdatum|
 |Update für Skype for Business 2015/Lync 2013|[KB 3054791](https://support.microsoft.com/kb/3054791) | Juni 2015 |
 |Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3039779](https://support.microsoft.com/kb/3039779) | Mai 2015 |
 |Update für Skype for Business 2015/Lync 2013 | [KB 2889923](http://support.microsoft.com/kb/2889923) <br> [KB 2889853](http://support.microsoft.com/kb/2889853) | April 2015  |
-|Update für Lync 2013 | [KB 2956174](http://support.microsoft.com/kb/2956174) | März 2015 |
-|Update für Lync 2013 | [KB 2920744](http://support.microsoft.com/kb/2920744) | Februar 2015 |
-|Update für Lync 2013 | [KB 2899507](http://support.microsoft.com/kb/2899507) | November 2014 |
-|Update für Lync 2013 | [KB 2889929](http://support.microsoft.com/kb/2889929) | Oktober 2014 |
-|Update für Lync 2013 | [KB 2889860](http://support.microsoft.com/kb/2889860) | September 2014 |
-|Update für Lync 2013 | [KB 2881083](http://support.microsoft.com/kb/2881083) | August 2014 |
-|Update für Lync 2013 | [KB 2881070](http://support.microsoft.com/kb/2881070) | August 2014 |
-|Sicherheitsupdates für Lync 2013 | [KB 2881013](http://support.microsoft.com/kb/2881013) | Juni 2014 |
-|Update für Lync 2013 | [KB 2850074](http://support.microsoft.com/kb/2850074) | Juni 2014 |
-|Update für Lync 2013 | [KB 2880980](http://support.microsoft.com/kb/2880980) | Mai 2014 |
-|Update für Lync 2013 | [KB 2880474](http://support.microsoft.com/kb/2880474) | April 2014  |
-|Update für Lync 2013 | [KB 2863908](http://support.microsoft.com/kb/2863908) | März 2014  |
-|Sicherheitsupdates für Lync 2013 | [KB 2850057](http://support.microsoft.com/kb/2850057) | September 2013  |
-|Update für Lync 2013 | [KB 2817630](http://support.microsoft.com/kb/2817630) | Dezember 2013  |
-|Update für Lync 2013 | [KB 2817465](http://support.microsoft.com/kb/2817465) | Juli 2013  |
-|Update für Lync 2013 | [KB 2768004](http://support.microsoft.com/kb/2768004) | Mai 2013  |
-|Update für Lync 2013 | [KB 2760556](http://support.microsoft.com/kb/2760556) | März 2013  |
-|Update für Lync 2013 | [KB 2812461](http://support.microsoft.com/kb/2812461) | Februar 2013  |
+|Update für lync 2013 | [KB 2956174](http://support.microsoft.com/kb/2956174) | März 2015 |
+|Update für lync 2013 | [KB 2920744](http://support.microsoft.com/kb/2920744) | Februar 2015 |
+|Update für lync 2013 | [KB 2899507](http://support.microsoft.com/kb/2899507) | November 2014 |
+|Update für lync 2013 | [KB 2889929](http://support.microsoft.com/kb/2889929) | Oktober 2014 |
+|Update für lync 2013 | [KB 2889860](http://support.microsoft.com/kb/2889860) | September 2014 |
+|Update für lync 2013 | [KB 2881083](http://support.microsoft.com/kb/2881083) | August 2014 |
+|Update für lync 2013 | [KB 2881070](http://support.microsoft.com/kb/2881070) | August 2014 |
+|Sicherheits Update für lync 2013 | [KB 2881013](http://support.microsoft.com/kb/2881013) | Juni 2014 |
+|Update für lync 2013 | [KB 2850074](http://support.microsoft.com/kb/2850074) | Juni 2014 |
+|Update für lync 2013 | [KB 2880980](http://support.microsoft.com/kb/2880980) | Mai 2014 |
+|Update für lync 2013 | [KB 2880474](http://support.microsoft.com/kb/2880474) | April 2014  |
+|Update für lync 2013 | [KB 2863908](http://support.microsoft.com/kb/2863908) | März 2014  |
+|Sicherheits Update für lync 2013 | [KB 2850057](http://support.microsoft.com/kb/2850057) | September 2013  |
+|Update für lync 2013 | [KB 2817630](http://support.microsoft.com/kb/2817630) | Dezember 2013  |
+|Update für lync 2013 | [KB 2817465](http://support.microsoft.com/kb/2817465) | Juli 2013  |
+|Update für lync 2013 | [KB 2768004](http://support.microsoft.com/kb/2768004) | Mai 2013  |
+|Update für lync 2013 | [KB 2760556](http://support.microsoft.com/kb/2760556) | März 2013  |
+|Update für lync 2013 | [KB 2812461](http://support.microsoft.com/kb/2812461) | Februar 2013  |
 
 ### <a name="lync-phone-edition-updates"></a>Updates für Lync Phone Edition
 
@@ -236,7 +236,7 @@ Paketname|Veröffentlichungsdatum|
 |[Lync Phone Edition für Polycom CX500, Polycom CX600 und Polycom CX3000](https://www.microsoft.com/download/en/details.aspx?id=23866) | April 2017 |
 |[Lync Phone Edition für Polycom CX700 und LG-Nortel IP Phone 8540](https://www.microsoft.com/download/en/details.aspx?id=21644) | Dezember 2015 |
 
-### <a name="lync-basic-2013-software"></a>Lync Basic 2013 Software
+### <a name="lync-basic-2013-software"></a>Lync Basic 2013-Software
 
 Paketname|Veröffentlichungsdatum|
 |:--- |:--- |:--- |

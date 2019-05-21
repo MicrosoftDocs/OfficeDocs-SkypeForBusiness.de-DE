@@ -1,33 +1,33 @@
 ---
-title: Erstellen von besprechungskonfigurationseinstellungen in Skype für Business Server
+title: Erstellen von Einstellungen für die besprechungskonfiguration in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: 'Zusammenfassung: Informationen zum Erstellen von besprechungskonfigurationseinstellungen in Skype für Business Server.'
-ms.openlocfilehash: ea75e133ab15f450a6316c9ee86ba2ded485f29a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Einstellungen für die besprechungskonfiguration in Skype for Business Server erstellen.'
+ms.openlocfilehash: 3d4f986b850b309d50967da9126b8b4eea08a166
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919416"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293844"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Erstellen von besprechungskonfigurationseinstellungen in Skype für Business Server
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Erstellen von Einstellungen für die besprechungskonfiguration in Skype for Business Server
  
-**Zusammenfassung:** Informationen zum Erstellen von besprechungskonfigurationseinstellungen in Skype für Business Server.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie in Skype for Business Server Besprechungs Konfigurationseinstellungen erstellen.
   
-Sie können erstellen besprechungskonfigurationseinstellungen mithilfe von Skype Business Server-Systemsteuerung oder mithilfe von Skype für Business Server-Verwaltungsshell.
+Sie können die Einstellungen für die besprechungskonfiguration über die Skype for Business Server-Systemsteuerung oder über die Skype for Business Server-Verwaltungsshell erstellen.
   
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Erstellen von besprechungskonfigurationseinstellungen mithilfe von Skype Business Server-Systemsteuerung
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Erstellen von Einstellungen für die besprechungskonfiguration mithilfe der Skype for Business Server-Systemsteuerung
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2.  Öffnen von Skype Business Server-Systemsteuerung.
+2.  Öffnen Sie die Skype for Business Server-Systemsteuerung.
     
 3. Klicken Sie in der linken Navigationsleiste auf **Konferenzen** und anschließend auf **Besprechungskonfiguration**.
     
@@ -51,7 +51,7 @@ Sie können erstellen besprechungskonfigurationseinstellungen mithilfe von Skype
     
 8. Wenn Sie verhindern möchten, dass anonyme (nicht authentifizierte) Benutzer automatisch zugelassen werden, deaktivieren Sie das Kontrollkästchen **Anonyme Benutzer standardmäßig zulassen**. In der Standardeinstellung werden anonyme Benutzer automatisch für Besprechungen zugelassen.
     
-9. Führen Sie die folgenden Schritte aus, um die Besprechungseinladung anzupassen, die an die Teilnehmer gesendet wird. Beachten Sie, dass für URLs und den benutzerdefinierten Fußzeilentext eine maximale Größe von 1 KB gilt. Wenn Sie, mit Ausnahme von **Hilfe-URL**, keinen Wert für die Anpassungen angeben, werden sie nicht in die Besprechung aufgenommen. Wenn Sie eine benutzerdefinierte Hilfe-URL nicht verwenden, wird die Standard-URL für die Hilfe für Skype für Unternehmen einladen angezeigt. 
+9. Führen Sie die folgenden Schritte aus, um die Besprechungseinladung anzupassen, die an die Teilnehmer gesendet wird. Beachten Sie, dass für URLs und den benutzerdefinierten Fußzeilentext eine maximale Größe von 1 KB gilt. Wenn Sie, mit Ausnahme von **Hilfe-URL**, keinen Wert für die Anpassungen angeben, werden sie nicht in die Besprechung aufgenommen. Wenn Sie keine benutzerdefinierte Hilfe-URL angeben, wird die Standardhilfe-URL für Skype for Business in der Einladung angezeigt. 
     
    - Zum Anpassen des Logos, das in der Besprechungseinladung angezeigt wird, geben Sie in **Logo-URL** den Speicherort des Logos ein. Das Logo muss ein GIF- oder JPG-Bild mit einer Größe von 188 x 30 Pixel sein. 
     
@@ -63,7 +63,7 @@ Sie können erstellen besprechungskonfigurationseinstellungen mithilfe von Skype
     
 10. Klicken Sie auf **Commit ausführen**.
     
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Erstellen von besprechungskonfigurationseinstellungen mithilfe von Skype für Business Server-Verwaltungsshell
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Erstellen von Einstellungen für die besprechungskonfiguration mithilfe der Skype for Business Server-Verwaltungsshell
 
 Verwenden Sie das **New-CsMeetingConfiguration**-Cmdlet, um Besprechungskonfigurationseinstellungen zu erstellen.
   
@@ -87,6 +87,6 @@ Mehrere Eigenschaftswerte können eingestellt werden, indem Sie mehrere Paramete
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-Weitere Informationen sowie eine vollständige Liste der Parameter finden Sie unter [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).
+Weitere Informationen, einschließlich einer vollständigen Liste der Parameter, finden Sie unter [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).
   
 

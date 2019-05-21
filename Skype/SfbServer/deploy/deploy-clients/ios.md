@@ -3,37 +3,37 @@ title: Installieren und Testen von Skype for Business für iOS
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
-description: 'Zusammenfassung: Informationen zum Installieren und Testen der Skype für Unternehmen für iOS-app.'
-ms.openlocfilehash: 395ca6f27b373aff981cebc79567a05e7ab72696
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Skype for Business für IOS-App installieren und testen.'
+ms.openlocfilehash: 6d2bb63e5005a4e4888017a1dc450db9eaa368ce
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895209"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293592"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>Install and test Skype for Business for iOS
  
-**Zusammenfassung:** Informationen zum Installieren und Testen der Skype für Unternehmen für iOS-app.
+**Zusammenfassung:** So installieren und testen Sie die Skype for Business für IOS-app.
   
-Die Skype für Unternehmen für iOS-app bringt Skype für Unternehmen Anwesenheitsinformationen, Sofortnachrichten (IM), und VoIP und Video Aufrufen von iOS-Geräte. Benutzer mit Lync 2013 erhalten je nach Benutzereinstellungen die aktualisierte App automatisch oder werden aufgefordert, sie manuell zu aktualisieren. Neue Benutzer können die App aus dem Apple App Store herunterladen. Die Skype für Unternehmen für iOS-app ist nur verfügbar, auf iOS-Versionen 8.0 oder höher.
+Die Skype for Business für IOS-App bietet Skype for Business-Anwesenheit, Sofortnachrichten (im) sowie Sprach-und Videoanrufe auf IOS-Geräten. Benutzer mit Lync 2013 erhalten je nach Benutzereinstellungen die aktualisierte App automatisch oder werden aufgefordert, sie manuell zu aktualisieren. Neue Benutzer können die App aus dem Apple App Store herunterladen. Die Skype for Business für IOS-App steht nur unter IOS-Versionen 8,0 und höher zur Verfügung.
   
-## <a name="installing-skype-for-business-for-ios"></a>Installieren von Skype für Unternehmen für iOS
+## <a name="installing-skype-for-business-for-ios"></a>Installieren von Skype for Business für IOS
 
-1. Vom Gerät iOS Tippen Sie auf **App-Store**, und suchen Sie nach **Skype für Unternehmen für iOS**.
+1. Tippen Sie auf Ihrem IOS-Gerät auf **App Store**, und suchen Sie nach **Skype for Business für IOS**.
     
-2. Tippen Sie auf **herunterladen** > **Öffnen**. 
+2. Tippen Sie auf**Open** **herunterladen** > . 
     
 3. Melden Sie sich bei der App an.
     
 ## <a name="verifying-mobile-client-installation"></a>Überprüfen der Installation des mobilen Clients
 
-Nachdem Sie sich erfolgreich angemeldet haben, verwenden Sie die folgenden Tests überprüfen, ob Ihre Skype für die Business-Installation auf dem Gerät iOS ordnungsgemäß ausgeführt wird. 
+Nachdem Sie sich erfolgreich angemeldet haben, verwenden Sie die folgenden Tests, um zu überprüfen, ob Ihre Skype for Business-Installation auf Ihrem IOS-Gerät ordnungsgemäß funktioniert. 
   
 ### <a name="search-for-a-contact-in-the-corporate-directory"></a>Suchen nach einem Kontakt im Unternehmensverzeichnis
 
@@ -49,7 +49,7 @@ Nachdem Sie sich erfolgreich angemeldet haben, verwenden Sie die folgenden Tests
     
 ### <a name="test-dial-out-conferencing"></a>Testen der Auswahlkonferenz
 
-1. Planen Sie einen Skype für Business Besprechung in Outlook. 
+1. Planen Sie in Outlook eine Skype for Business-Besprechung. 
     
 2. Öffnen Sie auf dem mobilen Gerät die Besprechungseinladung. 
     
@@ -59,14 +59,14 @@ Nachdem Sie sich erfolgreich angemeldet haben, verwenden Sie die folgenden Tests
     
 ### <a name="test-push-notifications"></a>Testen von Pushbenachrichtigungen
 
-1. Auf dem mobilen Gerät von Benutzer A melden sich bei Skype für Unternehmen mit dem Konto des Benutzers A. 
+1. Auf dem mobilen Gerät von Benutzer a können Sie sich mit dem Konto von Benutzer a bei Skype for Business anmelden. 
     
 2. Öffnen Sie eine andere Anwendung auf dem mobilen Gerät. 
     
-3. Auf einem anderen Client melden sich bei Skype für Unternehmen mit Benutzerkonto B. 
+3. Bei einem anderen Client können Sie sich mit dem Konto von Benutzer B bei Skype for Business anmelden. 
     
 4. Senden Sie eine Sofortnachricht von Benutzer B an Benutzer A. 
     
-5. Stellen Sie sicher, dass auf dem mobilen Gerät von Benutzer A eine Benachrichtigung über die Sofortnachricht angezeigt wird. 
+5. Überprüfen Sie, ob die Chat Benachrichtigung auf dem mobilen Gerät von Benutzer A angezeigt wird. 
     
 

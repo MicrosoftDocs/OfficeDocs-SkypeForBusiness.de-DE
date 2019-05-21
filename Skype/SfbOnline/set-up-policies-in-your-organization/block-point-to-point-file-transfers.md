@@ -10,45 +10,45 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: In Skype für Business Online haben Sie die Kontrolle über dateiübertragungen Point (P2P) als Teil des vorhandenen konferenzrichtlinieneinstellungen aufgeführt. Jedoch auf diese Weise können oder Blöcke Datei überträgt für Benutzer, unabhängig davon, ob sie Dateien an Benutzer, die innerhalb derselben Organisation sind oder an ein Verbundbenutzer aus einer anderen Organisation übertragen werden. Die folgenden Schritte ausführen, können Sie P2P dateiübertragungen mit verbundorganisationen oder Partnern blockieren.
-ms.openlocfilehash: 9b7d229c7f0ea0565dc3174286b4117984a2b606
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: In Skype for Business Online haben Sie die Möglichkeit, Punkt-zu-Punkt-Dateiübertragungen (P2P) als Teil der vorhandenen konferenzrichtlinieneinstellungen zu steuern. Auf diese Weise können jedoch Dateiübertragungen für Benutzer blockiert werden, unabhängig davon, ob Sie Dateien an einen Benutzer übertragen, der sich in derselben Organisation oder einem Verbundbenutzer aus einer anderen Organisation befindet. Führen Sie die folgenden Schritte aus, um P2P-Dateiübertragungen mit Verbundorganisationen oder-Partnern zu blockieren.
+ms.openlocfilehash: 8b45067cf0c717fdcda144fc44750b7cf3d0f7f7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237538"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297816"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Blockieren von Punkt-zu-Punkt-Dateiübertragungen
 
-In Skype für Business Online haben Sie die Kontrolle über dateiübertragungen Point (P2P) als Teil des vorhandenen konferenzrichtlinieneinstellungen aufgeführt. Jedoch auf diese Weise können oder Blöcke Datei überträgt für Benutzer, unabhängig davon, ob sie Dateien an Benutzer, die innerhalb derselben Organisation sind oder an ein Verbundbenutzer aus einer anderen Organisation übertragen werden. Die folgenden Schritte ausführen, können Sie P2P dateiübertragungen mit verbundorganisationen oder Partnern blockieren.
+In Skype for Business Online haben Sie die Möglichkeit, Punkt-zu-Punkt-Dateiübertragungen (P2P) als Teil der vorhandenen konferenzrichtlinieneinstellungen zu steuern. Auf diese Weise können jedoch Dateiübertragungen für Benutzer blockiert werden, unabhängig davon, ob Sie Dateien an einen Benutzer übertragen, der sich in derselben Organisation oder einem Verbundbenutzer aus einer anderen Organisation befindet. Führen Sie die folgenden Schritte aus, um P2P-Dateiübertragungen mit Verbundorganisationen oder-Partnern zu blockieren.
   
- Ein sehr häufiges Szenario ist, wenn Sie interne Benutzern, Dateiübertragung Verwendung P2P jedoch blockieren Dateiübertragung mit Verbundpartnern zulassen möchten. Für dieses Szenario müssen Sie ausführen:
+ Ein sehr häufiges Szenario ist, wenn Sie internen Benutzern die Verwendung der P2P-Dateiübertragung gestatten, aber die Dateiübertragung mit Verbundpartnern blockieren möchten. Für dieses Szenario müssten Sie Folgendes tun:
   
-- Zuweisen einer konferenzrichtlinie mit P2P-Dateiübertragung aktiviert (_EnableP2PFileTransfer_ auf _True_festgelegt) für Benutzer in Ihrer Organisation.
+- Weisen Sie den Benutzern in Ihrer Organisation eine konferenzrichtlinie mit aktivierter P2P-Dateiübertragung (_EnableP2PFileTransfer_ festgelegt auf " _true_") zu.
     
-- Erstellen einer globalen externen Kommunikation Benutzerrichtlinie blockieren externe P2P-dateiübertragungen (_EnableP2PFileTransfer_ Festlegung auf _"false"_), und weisen Sie es zu einem Benutzer in Ihrer Organisation festgelegt. 
+- Erstellen Sie eine globale Richtlinie für externe Benutzerkommunikation, um externe P2P-Dateiübertragungen zu blockieren (_EnableP2PFileTransfer_ auf " _false_" festgelegt), und weisen Sie Sie einem Benutzer in Ihrer Organisation zu. 
     
-Sie können erfahren Sie mehr über diese Einstellungen [hier](https://technet.microsoft.com/en-us/library/mt228132.aspx).
+Weitere Informationen zu diesen Einstellungen finden Sie [hier](https://technet.microsoft.com/en-us/library/mt228132.aspx).
   
-Wenn ein Verbundbenutzer außerhalb Ihrer Organisation versucht, eine Datei an einen Benutzer senden, in dem die Richtlinie angewendet wurde, erhalten sie einen **Transfer** -Fehler. Und wenn ein Benutzer versucht, eine Datei senden, erhalten sie eine Fehlermeldung **Dateiübertragung ist deaktiviert** .
+Wenn ein Verbundbenutzer außerhalb Ihrer Organisation versucht, eine Datei an einen Benutzer zu senden, auf den die Richtlinie angewendet wurde, wird der Fehler " **Übertragung fehlgeschlagen** " angezeigt. Und wenn ein Benutzer versucht, eine Datei zu senden, wird der Fehler " **Dateiübertragung ist deaktiviert** " angezeigt.
   
-Damit dies funktioniert, muss der Benutzer eine unterstützte Version von einer 2016 Klick-und-Los Skype-Geschäfts-app verwenden, die sie unterstützt. Die folgenden Mindestversion von Skype für Business 2016 Klick-und-Los-Client ist erforderlich:
+Damit dies funktioniert, muss der Benutzer eine unterstützte Version einer 2016-Klick-und-Los-Skype for Business-App verwenden, die ihn unterstützt. Die folgende Mindestversion von Skype for Business 2016 Klick-und-Los-Client ist erforderlich:
   
 |**Typ**|**Veröffentlichungsdatum**|**Version**|**Build**|
 |:-----|:-----|:-----|:-----|
-|Erste Version für aktuellen Kanal  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |Version 1611 (Build 7571.2006)  <br/> |
-|Aktueller Channel  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Version 1611 (Build 7571.2072)  <br/> |
-|Zurückgestellte DDE-Kanal  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |Version 1609 (Build 7369.2118)  <br/> |
+|First Release für aktuellen Kanal  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |Version 1611 (Build 7571,2006)  <br/> |
+|Aktueller Kanal  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Version 1611 (Build 7571,2072)  <br/> |
+|Verzögerter Kanal  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |Version 1609 (Build 7369,2118)  <br/> |
    
 > [!CAUTION]
-> Benutzer, die ältere Versionen von Skype für apps für Windows Business oder Macintosh-Clients verwenden weiterhin werden können Dateien übertragen. 
+> Benutzer, die ältere Versionen von Skype for Business-Windows-Apps oder Mac-Clients verwenden, können weiterhin Dateien übertragen. 
   
 ## <a name="verify-and-start-windows-powershell"></a>Überprüfen und Starten von Windows PowerShell
 
@@ -56,7 +56,7 @@ Damit dies funktioniert, muss der Benutzer eine unterstützte Version von einer 
     
 1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
     
-2. Überprüfen Sie die Version, indem Sie _Get-Host_ im **Windows PowerShell** -Fenster eingeben.
+2. Überprüfen Sie die Version, indem Sie im **Windows PowerShell** _-Fenster Get-Host_ eingeben.
     
 3. Wenn Sie nicht über Version 3.0 oder eine höhere Version verfügen, müssen Sie Updates für Windows PowerShell herunterladen und installieren. Informationen zum Herunterladen von Windows PowerShell und zum Aktualisieren auf Version 4.0 finden Sie unter [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845). Starten Sie Ihren Computer neu, wenn Sie dazu aufgefordert werden.
     
@@ -80,21 +80,21 @@ Damit dies funktioniert, muss der Benutzer eine unterstützte Version von einer 
     Import-PSSession $session
    ```
 
-   Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Sie unter [Connect auf alle Office 365-Dienste in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder das [Einrichten des Computers für Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Wenn Sie weitere Informationen zum Starten von Windows PowerShell benötigen, lesen Sie [Herstellen einer Verbindung mit allen Office 365-Diensten in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Einrichten Ihres Computers für Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
-## <a name="disable-p2p-file-transfers-for-your-organization"></a>Deaktivieren von dateiübertragungen für Ihre Organisation P2P
+## <a name="disable-p2p-file-transfers-for-your-organization"></a>Deaktivieren von P2P-Dateiübertragungen für Ihre Organisation
 
-_EnableP2PFileTransfer_ ist standardmäßig auf globale Richtlinie für die Organisation aktiviert. Wenn es erstellt wurde, wurden die Benutzer die _BposSAllModality_ Richtlinie zugewiesen.
+Standardmäßig ist _EnableP2PFileTransfer_ in der globalen Richtlinie der Organisation aktiviert. Bei der Erstellung wurden den Benutzern die _BposSAllModality_ -Richtlinie zugewiesen.
   
-Wenn P2P Übertragungen für innerhalb Ihrer Organisation jedoch blockieren externe dateiübertragungen an eine andere Organisation ermöglichen möchten, müssen Sie nur auf globaler Ebene zu ändern. Führen Sie dazu Folgendes aus:
+Um P2P-Übertragungen innerhalb Ihrer Organisation zu ermöglichen, aber externe Dateiübertragungen an eine andere Organisation zu blockieren, müssen Sie Sie nur auf globaler Ebene ändern. Führen Sie dazu die folgenden Schritte aus:
     
   ```
   Set-CsExternalUserCommunicationPolicy -EnableP2PFileTransfer $False
   ```
 
-## <a name="disable-p2p-file-transfers-for-a-user"></a>Deaktivieren von dateiübertragungen für einen Benutzer P2P
+## <a name="disable-p2p-file-transfers-for-a-user"></a>Deaktivieren von P2P-Dateiübertragungen für einen Benutzer
 
-Sie können dies zu einem Benutzer anwenden, indem eine neue Richtlinie erstellen und diesen Benutzer erteilen. Führen Sie dazu Folgendes aus: 
+Sie können dies auf einen Benutzer anwenden, indem Sie eine neue Richtlinie erstellen und diesem Benutzer erteilen. Führen Sie dazu die folgenden Schritte aus: 
 > 
 >   ```
 >   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
@@ -106,7 +106,7 @@ Sie können dies zu einem Benutzer anwenden, indem eine neue Richtlinie erstelle
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online mit einem zentralen Verwaltungspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn mehrere Aufgaben ausgeführt werden müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -125,7 +125,7 @@ Sie können dies zu einem Benutzer anwenden, indem eine neue Richtlinie erstelle
 
 [Einrichten von Clientrichtlinien für Ihre Organisation](set-up-client-policies-for-your-organization.md)
 
-[Einrichten von konferenzrichtlinien in Ihrer Organisation](set-up-conferencing-policies-for-your-organization.md)
+[Einrichten von Konferenzrichtlinien in Ihrer Organisation](set-up-conferencing-policies-for-your-organization.md)
 
   
  

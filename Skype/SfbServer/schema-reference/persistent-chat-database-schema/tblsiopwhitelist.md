@@ -5,35 +5,35 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05fc1df4-32eb-4d46-9d1c-e0b607091142
-description: TblSiopWhiteList ist die Liste der registrierten Add-Ins auf, die mit Knoten verknüpft werden können.
-ms.openlocfilehash: f3389f3d4a956e00180303c09bd3eb264d786b9b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblSiopWhiteList ist die Liste der registrierten Add-Ins, die Knoten zugeordnet werden können.
+ms.openlocfilehash: 3277ec3a2d4fe11000b2eda60fa2327547c77d2b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924773"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295174"
 ---
 # <a name="tblsiopwhitelist"></a>tblSiopWhiteList
  
-TblSiopWhiteList ist die Liste der registrierten Add-Ins auf, die mit Knoten verknüpft werden können.
+tblSiopWhiteList ist die Liste der registrierten Add-Ins, die Knoten zugeordnet werden können.
   
 **Spalten**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|siopID  <br/> |GUID, nicht null  <br/> |GUID des Add-Ins.  <br/> |
-|siopName  <br/> |Nvarchar (50), nicht null  <br/> |Anzeigename des Add-Ins.  <br/> |
-|siopUrl  <br/> |Nvarchar (255), nicht null  <br/> |URL des Add-Ins.  <br/> |
+|siopID  <br/> |GUID, nicht NULL  <br/> |GUID des Add-Ins.  <br/> |
+|siopName  <br/> |nvarchar (50); nicht NULL  <br/> |Anzeigename des Add-Ins.  <br/> |
+|siopUrl  <br/> |nvarchar (255); nicht NULL  <br/> |Die URL des Add-Ins.  <br/> |
    
 **Schlüssel**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
-|siopID  <br/> |Primärschlüssel.  <br/> |
+|siopID  <br/> |Primärschlüssel  <br/> |
    
 

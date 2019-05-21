@@ -1,82 +1,82 @@
 ---
-title: Planen Sie für hohe Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server in Skype Business Server 2015
+title: Planen von Höchstverfügbarkeit und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 5/17/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
-description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie für hohe Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server in Skype für Business Server 2015 planen.'
-ms.openlocfilehash: d2114faf7c4da205697a8bccd5a1ce299a627be5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie in Skype for Business Server 2015 die Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server planen.'
+ms.openlocfilehash: b9e509b987a9fe3b8d7755ce8d92f35c82b7d386
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924465"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297078"
 ---
-# <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planen Sie für hohe Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server in Skype Business Server 2015
+# <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planen von Höchstverfügbarkeit und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015
  
-**Zusammenfassung:** Lesen Sie in diesem Thema erfahren, wie für hohe Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server in Skype für Business Server 2015 planen.
+**Zusammenfassung:** Lesen Sie dieses Thema, um zu erfahren, wie Sie in Skype for Business Server 2015 die Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server planen.
   
-Hohe Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server erfordern zusätzliche Ressourcen über was in der Regel für vollständige Vorgang erforderlich ist. 
+Hochverfügbarkeit und Disaster Recovery für beständigen Chat Server erfordern zusätzliche Ressourcen, die über die normalerweise für den vollständigen Betrieb erforderlichen Ressourcen hinausgehen. 
   
 > [!NOTE]
 > Die Verwendung von SQL AlwaysOn-Verfügbarkeitsgruppen wird für Datenbanken des Servers für beständigen Chat nicht unterstützt. 
 
 > [!NOTE] 
-> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
+> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Reise von Skype for Business zu Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen. 
   
 ## <a name="resource-requirements"></a>Ressourcenanforderungen
 
-Vor dem Konfigurieren von Persistent Chat Server für hohe Verfügbarkeit und notfallwiederherstellung, stellen Sie sicher, dass Sie die folgenden zusätzlichen Ressourcen verfügen. 
+Bevor Sie den beständigen Chat Server für die Hochverfügbarkeits-und Disaster Recovery konfigurieren, stellen Sie sicher, dass Sie über die folgenden zusätzlichen Ressourcen verfügen. 
   
-- Eine dedizierte Datenbank-Instanz befindet sich im gleichen physischen Rechenzentrum in das sich die Startseite Front-End des Diensts Persistent Chat Server befindet. Diese Datenbank dient als SQL Server-Spiegel für die primäre Datenbank für beständigen Chat. Bestimmen Sie optional einen weiteren SQL Server als den spiegelungszeugen dienen, wenn Sie ein automatisches Failover auf die Spiegeldatenbank möchten.
+- Eine dedizierte Datenbankinstanz, die sich im gleichen physikalischen Rechenzentrum befindet, in dem sich das Home-Front-End des Server Diensts für beständigen Chat befindet. Diese Datenbank dient als SQL Server-Spiegelung für die primäre Datenbank für beständigen Chat. Optional können Sie einen zusätzlichen SQL-Server als Spiegelungs Zeuge festlegen, wenn Sie ein automatisches Failover zur Spiegeldatenbank durch stellen möchten.
     
-- Eine dedizierte Datenbankinstanz in dem anderen physischen Rechenzentrum. Diese Datenbank dient als SQL Server-Protokollversand sekundäre Datenbank für die Datenbank im primären Rechenzentrum.
+- Eine dedizierte Datenbankinstanz in dem anderen physischen Rechenzentrum. Diese Datenbank dient als SQL Server-Protokollversand-sekundäre Datenbank für die Datenbank im primären Rechenzentrum.
     
-- Eine dedizierte Datenbank-Instanz, die als SQL Server-Spiegel für die sekundäre Datenbank dient. Optional können festlegen Sie einen weiteren Server SQL Server als den spiegelungszeugen. Beide Instanzen müssen sich im selben physischen Rechenzentrum wie die sekundäre Datenbank befinden.
+- Eine dedizierte Datenbankinstanz, die als SQL Server-Spiegelung für die sekundäre Datenbank fungieren soll. Optional können Sie einen zusätzlichen SQL Server als Spiegelungs Zeuge auf dem Server angeben. Beide Instanzen müssen sich im selben physischen Rechenzentrum wie die sekundäre Datenbank befinden.
     
-- Wenn Persistent Chat Server-Kompatibilität aktiviert ist, sind eine zusätzliche Instanzen der drei dedizierte Datenbank erforderlich. Die Verteilung ist die gleichen, die zuvor beschriebene für die Datenbank für beständigen Chat. Es ist, zwar möglich für die Kompatibilitätsdatenbank derselben SQL Server-Instanz als Datenbank für beständigen Chat freigeben werden für eigenständige Instanzen für hohe Verfügbarkeit und Disaster Recovery empfohlen.
+- Wenn die Kompatibilität des beständigen Chat Servers aktiviert ist, sind zusätzliche drei dedizierte Datenbankinstanzen erforderlich. Ihre Verteilung ist mit denen identisch, die zuvor für die persistente Chat-Datenbank beschrieben wurden. Es ist zwar möglich, dass die Compliance-Datenbank dieselbe SQL Server-Instanz wie die persistent Chat-Datenbank hat, aber es werden eigenständige Instanzen für eine höhere Verfügbarkeit und Disaster Recovery empfohlen.
     
-- Eine Dateifreigabe muss erstellt und für die SQL Server-Protokollversand Transaktionsprotokolle festgelegt. Alle SQL Server in beiden Rechenzentren, die beständigen Chat Datenbanken ausführen, benötigen Lese-/Schreibzugriff auf diese Dateifreigabe. Diese Freigabe wird nicht als Teil einer FileStore-Rolle definiert.
+- Es muss eine Dateifreigabe erstellt und für die Transaktionsprotokolle des SQL Server-Protokollversands festgelegt werden. Alle SQL-Server in beiden Rechenzentren, in denen persistente Chat Datenbanken ausgeführt werden, müssen über Lese-/Schreibzugriff auf diese Dateifreigabe verfügen. Diese Freigabe wird nicht als Teil einer FileStore-Rolle definiert.
     
-- Eine Dateifreigabe auf dem sekundären Datenbankserver, die als Zielordner für die SQL Server-Transaktionsprotokolle dient, die von der Dateifreigabe des primären Servers kopiert werden.
+- Eine Dateifreigabe auf dem sekundären Datenbankserver, die als Zielordner für die SQL Server-Transaktionsprotokolle fungieren soll, die aus der Dateifreigabe des primären Servers kopiert werden.
     
 ## <a name="disaster-recovery-and-high-availability-solutions"></a>Lösungen für Notfallwiederherstellung und hohe Verfügbarkeit
 
-Skype für Business Server unterstützt mehrere Unterhaltungsmodi hohe Verfügbarkeit für die Back-End-Server, die einschließlich der datenbankspiegelung. Weitere Informationen finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
+Skype for Business Server unterstützt mehrere Modi mit höherer Verfügbarkeit für Ihre Back-End-Server, einschließlich der Datenbankspiegelung. Weitere Informationen finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
   
-Die Lösung für die notfallwiederherstellung für Persistent Chat Server in diesem Thema beschriebenen basiert auf einer ausgedehnten Persistent Chat Server Pool. Es ist keine Voraussetzung für eine ausgedehnte virtuelles LAN (VLAN). Durch Strecken einen Persistent Chat Server Pool, Sie einem Pool logisch in der Topologie konfigurieren, aber physisch platzieren Sie die Server im Pool in zwei verschiedenen Rechenzentren. Sie SQL Server-Spiegelung für die Datenbank auf die gleiche Weise konfigurieren und Bereitstellen der Datenbank und die Spiegelung im gleichen Rechenzentrum. Sie müssen eine Sicherungskopie der Datenbank im sekundären Rechenzentrum (mit einer optionalen Spiegelung zur Bereitstellung von hoher Verfügbarkeit während der notfallwiederherstellung) konfigurieren. Dies ist die Sicherungskopie der Datenbank während der notfallwiederherstellung für Failover verwendet. 
+Die in diesem Thema beschriebene Disaster Recovery-Lösung für beständigen Chat Server basiert auf einem gedehnten beständigen Chat Serverpool. Für ein gedehntes virtuelles lokales Netzwerk (VLAN) gibt es keine Voraussetzungen. Wenn Sie einen Server Pool für beständigen Chat Strecken, konfigurieren Sie einen Pool in der Topologie logisch, aber Sie platzieren die Server physisch in einem Pool in zwei unterschiedlichen Rechenzentren. Sie können die SQL Server-Spiegelung für die Datenbank auf die gleiche Weise konfigurieren und die Datenbank und die Spiegelung im gleichen Rechenzentrum bereitstellen. Sie müssen eine Sicherungsdatenbank im sekundären Rechenzentrum konfigurieren (mit einem optionalen Mirror, um eine höhere Verfügbarkeit während der Disaster Recovery zu gewährleisten). Hierbei handelt es sich um die Backup-Datenbank, die für ein Failover während der Disaster Recovery verwendet wird. 
   
-Ausführliche Informationen zum Konfigurieren von hoher Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server finden Sie unter [Configure hohe Verfügbarkeit und notfallwiederherstellung für Persistent Chat Server in Skype für Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md). 
+Ausführliche Informationen zum Konfigurieren von Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server finden Sie unter Konfigurieren von Hochverfügbarkeits [-und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md). 
   
-In den folgenden Abbildungen wird gezeigt, wie der Persistent Chat Server Pool in zwei pooltopologien konfiguriert werden kann:
+Die folgenden Abbildungen zeigen, wie der Server Pool für beständigen Chat in zwei unterschiedlichen gedehnten Pool Topologien konfiguriert werden kann:
   
-- Ausgedehnten Persistent Chat Server Pool Rechenzentren mit hoher Bandbreite/niedriger Latenz Geo gespeichert sind.
+- Gedehnter beständiger Chat Server Pool, wenn Rechenzentren mit hoher Bandbreite/geringer Latenz geographisch lokalisiert sind.
     
-- Ausgedehnten Persistent Chat Server Pool Rechenzentren mit geringer Bandbreite/hoher Wartezeit Geo gespeichert sind.
+- Gedehnter beständiger Chat Server Pool, wenn Rechenzentren mit niedriger Bandbreite/hoher Latenz geografischer Standort sind.
     
-Abbildung 1 zeigt einer gestreckten Persistent Chat Server Pool-Topologie, in dem Rechenzentren sind mit hoher Bandbreite/niedriger Latenz Geo befindet sich. Nehmen Sie für die logischen und physischen Topologien Folgendes an:
+Abbildung 1 zeigt eine gedehnte Server Pooltopologie mit beständigem Chat, in der Rechenzentren mit hoher Bandbreite/geringer Latenz geographisch lokalisiert sind. Gehen Sie für die logischen und physikalischen Topologien wie folgt vor:
   
 - Die logische Topologie beinhaltet die folgenden Komponenten:
     
   - Einen Pool für beständigen Chat über die Standorte 1 und 2 hinweg mit den Servern 1 bis einschließlich 8.
     
-  - Ein Front-End-Server-Pool, eine Datenbank für beständigen Chat, eine gespiegelte Datenbank, und klicken Sie optional eine Zeugen-Datenbank (nicht im Diagramm dargestellt), die physisch auf Standort 1. 
+  - Ein Front-End-Server Pool, eine persistente Chat Datenbank, eine gespiegelte Datenbank und optional eine Zeugen Datenbank (nicht in Diagramm dargestellt), die sich physisch auf Website 1 befindet. 
     
   - Einen zweiten Front-End-Server-Pool und eine Sicherungsdatenbank, die physisch auf Standort 2 liegen.
     
-- Die physische Topologie umfasst Websites 1 und 2 wie folgt:
+- Die physikalische Topologie besteht aus den Websites 1 und 2 wie folgt:
     
   - Einen Pool für beständigen Chat mit den Servern 1 bis einschließlich 4, zwei aktiv und zwei im Leerlauf, an Standort 1.
     
   - Einen Pool für beständigen Chat mit den Servern 5 bis einschließlich 8, zwei aktiv und zwei im Leerlauf, an Standort 2.
     
-  - Ein Front-End-Server-Pool, eine Datenbank für beständigen Chat, einer gespiegelten Datenbank und optional eine Zeugen Datenbank (nicht im Diagramm dargestellt) auf Website 1.
+  - Ein Front-End-Server Pool, eine persistente Chat Datenbank, eine gespiegelte Datenbank und optional eine Zeugen Datenbank (nicht in Diagramm dargestellt) auf Website 1.
     
   - Einen Front-End-Server-Pool und eine Sicherungsdatenbank, die das SQL-Protokollversandziel ist, auf Standort 2.
     
@@ -84,23 +84,23 @@ Abbildung 1 zeigt einer gestreckten Persistent Chat Server Pool-Topologie, in de
 
 ![Erweiterter Pool für beständigen Chat mit hoher Bandbreite/niedriger Latenz](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
   
-Abbildung 2 zeigt einer ausgedehnten Persistent Chat Server Pool-Topologie, wo Rechenzentren mit geringer Bandbreite/hoher Wartezeit Geo befindet sich befinden.
+Abbildung 2 zeigt eine gedehnte Server Pooltopologie mit beständigem Chat, in der Rechenzentren mit niedriger Bandbreite/hoher Latenz geografisch lokalisiert sind.
   
 - Die logische Topologie beinhaltet die folgenden Komponenten:
     
   - Einen Pool für beständigen Chat über die Standorte 1 und 2 hinweg mit den Servern 1 bis einschließlich 8.
     
-  - Ein Front-End-Server-Pool, eine Datenbank für beständigen Chat, eine gespiegelte Datenbank, und klicken Sie optional eine Zeugen-Datenbank (nicht im Diagramm dargestellt), die physisch auf Standort 1. 
+  - Ein Front-End-Server Pool, eine persistente Chat Datenbank, eine gespiegelte Datenbank und optional eine Zeugen Datenbank (nicht in Diagramm dargestellt), die sich physisch auf Website 1 befindet. 
     
   - Einen zweiten Front-End-Server-Pool und eine Sicherungsdatenbank, die physisch auf Standort 2 liegen.
     
-- Die physische Topologie umfasst Websites 1 und 2 wie folgt:
+- Die physikalische Topologie besteht aus den Websites 1 und 2 wie folgt:
     
   - Einen Pool für beständigen Chat mit den Servern 1 bis einschließlich 4, alle aktiv, an Standort 1.
     
   - Einen Pool für beständigen Chat mit den Servern 5 bis einschließlich 8, alle im Leerlauf, an Standort 2.
     
-  - Ein Front-End-Server-Pool, eine Datenbank für beständigen Chat, einer gespiegelten Datenbank und optional eine Zeugen Datenbank (nicht im Diagramm dargestellt) auf Website 1.
+  - Ein Front-End-Server Pool, eine persistente Chat Datenbank, eine gespiegelte Datenbank und optional eine Zeugen Datenbank (nicht in Diagramm dargestellt) auf Website 1.
     
   - Einen Front-End-Server-Pool und eine Sicherungsdatenbank, das SQL-Protokollversandziel ist, an Standort 2.
     

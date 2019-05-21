@@ -1,32 +1,32 @@
 ---
-title: Devices-Tabelle in Skype für Business Server 2015
+title: Tabelle "Geräte" in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 532e2280-4bbc-4a6c-93da-45d9f80a30a0
-description: Die Geräte-Tabelle ist eine Tabelle. Jeder Datensatz speichert Informationen zu einem Gerät (Telefonapparat).
-ms.openlocfilehash: efd0894a36e02948a3a8cd9f3465dcdbd30f3e2d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Die Tabelle Devices ist eine unterstützende Tabelle. Jeder Datensatz speichert Informationen zu einem Gerät (Tischtelefon).
+ms.openlocfilehash: 145637b6385677007efa47cd21b3f0ea7d7f88f2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901094"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296378"
 ---
-# <a name="devices-table-in-skype-for-business-server-2015"></a>Devices-Tabelle in Skype für Business Server 2015
+# <a name="devices-table-in-skype-for-business-server-2015"></a>Tabelle "Geräte" in Skype for Business Server 2015
  
-Die Geräte-Tabelle ist eine Tabelle. Jeder Datensatz speichert Informationen zu einem Gerät (Telefonapparat).
+Die Tabelle Devices ist eine unterstützende Tabelle. Jeder Datensatz speichert Informationen zu einem Gerät (Tischtelefon).
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**Geräte-ID** <br/> |int  <br/> |Primary  <br/> |Eindeutige Zahl, die diese Hardwareversion identifiziert.  <br/> |
-|**ManufacturerId** <br/> |int  <br/> |Ausländisch  <br/> |Hersteller des dieses Gerät. [Manufacturers-Tabelle in Skype für Business Server 2015](manufacturers.md) Weitere Informationen finden Sie. <br/> |
-|**HardwareVersionId** <br/> |int  <br/> |Ausländisch  <br/> |Hardwareversion dieses Geräts. [HardwareVersions-Tabelle in Skype für Business Server 2015](hardwareversions.md) Weitere Informationen finden Sie. <br/> |
-|**MacAddress** <br/> |bigint  <br/> ||MAC-Adresse  <br/> |
+|**DeviceID** <br/> |int  <br/> |Primary  <br/> |Eindeutige Nummer, die diese Hardware Version kennzeichnet.  <br/> |
+|**ManufacturerId** <br/> |int  <br/> |Fremd  <br/> |Hersteller des Geräts. Weitere Informationen finden Sie [in der Tabelle "Hersteller" in Skype for Business Server 2015](manufacturers.md) . <br/> |
+|**HardwareVersionId** <br/> |int  <br/> |Fremd  <br/> |Hardware Version dieses Geräts. Weitere Informationen finden Sie [in der Tabelle HardwareVersions in Skype for Business Server 2015](hardwareversions.md) . <br/> |
+|**MacAddress** <br/> |bigint  <br/> ||Mac-Adresse  <br/> |
    
 

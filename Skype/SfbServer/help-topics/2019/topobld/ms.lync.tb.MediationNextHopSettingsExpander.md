@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.MediationNextHopSettingsExpander
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 ROBOTS: NOINDEX, NOFOLLOW
-description: Sie geben Sie den vermittlungsserverpool oder Vermittlungsserver Nächster Hop, indem Sie den definierten Enterprise Edition-Front-End-Pool oder Standard Edition-Front-End-Server aus der Dropdown-Liste auswählen. Ein Director oder Director Pool ist keine gültige Auswahl für einen vermittlungsserverpool oder Vermittlungsserver Nächster Hop und nicht in der Liste angezeigt wird. Klicken Sie auf OK, um das akzeptieren und Ihre Änderungen zu speichern. Klicken Sie auf Abbrechen, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
-ms.openlocfilehash: c9f965b206fa8abe5340b13ebc47ee6aee4078d3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Sie geben den vermittlungsserverpool oder den Vermittlungsserver nächsten Hop an, indem Sie den definierten Enterprise Edition-Front-End-Pool oder den Standard Edition-Front-End-Server aus der Dropdownliste auswählen. Ein Director-oder Director-Pool ist keine gültige Auswahl für einen vermittlungsserverpool oder Vermittlungsserver nächster Hop und wird nicht in der Liste angezeigt. Klicken Sie auf OK, um die Änderungen zu übernehmen und zu speichern. Klicken Sie auf Abbrechen, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
+ms.openlocfilehash: 8784b996ce36fcf30a907dfd58278b0b2e66c7e0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885532"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299209"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>Einstellungen unter „Nächster Hop“ für Vermittlung – Erweiterung
  
-Sie geben Sie den vermittlungsserverpool oder Vermittlungsserver Nächster Hop, indem Sie den definierten Enterprise Edition-Front-End-Pool oder Standard Edition-Front-End-Server aus der Dropdown-Liste auswählen. Ein Director oder Director Pool ist keine gültige Auswahl für einen vermittlungsserverpool oder Vermittlungsserver Nächster Hop und nicht in der Liste angezeigt wird. Klicken Sie auf **OK** , um zu akzeptieren und Ihre Änderungen zu speichern. Klicken Sie auf **Abbrechen**, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
+Sie geben den vermittlungsserverpool oder den Vermittlungsserver nächsten Hop an, indem Sie den definierten Enterprise Edition-Front-End-Pool oder den Standard Edition-Front-End-Server aus der Dropdownliste auswählen. Ein Director-oder Director-Pool ist keine gültige Auswahl für einen vermittlungsserverpool oder Vermittlungsserver nächster Hop und wird nicht in der Liste angezeigt. Klicken Sie auf **OK** , um die Änderungen zu übernehmen und zu speichern. Klicken Sie auf **Abbrechen**, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
   
-Ausführliche Informationen zu den Einstellungen für den vermittlungsserverpool oder Vermittlungsserver finden Sie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype für Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) in der Bereitstellungsdokumentation.
+Details zu den Einstellungen für den vermittlungsserverpool oder Vermittlungsserver finden Sie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) in der Bereitstellungsdokumentation.
   
 

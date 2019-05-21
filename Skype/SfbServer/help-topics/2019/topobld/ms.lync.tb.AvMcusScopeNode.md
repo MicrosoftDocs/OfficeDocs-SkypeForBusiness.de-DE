@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AvMcusScopeNode
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Unterhalb des Knotens A/V-Konferenzpools werden die A/V-Konferenzpools in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 1d747ecff92bf4b3950e7db7ba1bc5f0ad97704a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9eb96806f676932d8bc553eefd35016a767b542a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915825"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294377"
 ---
 # <a name="av-mcus-scope-node"></a>A/V MCUs – Bereichsknoten
  

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,29 +13,29 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
-description: 'Zusammenfassung: Überprüfen der Faktoren für den IP-Adresse unter vor der Implementierung von Skype für Business Server.'
-ms.openlocfilehash: 3fb4c1eabd766026bdf2455b214f7849afe879ba
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Überprüfen Sie die folgenden IP-Adresstypen, bevor Sie Skype for Business Server implementieren.'
+ms.openlocfilehash: 21e6254255766874872a342a2316dc8cddd5f9d2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33923784"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297050"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Konfigurieren von IP-Adresstypen in Skype for Business
 
-**Zusammenfassung:** Überprüfen Sie vor der Implementierung von Skype für Business Server unter Faktoren für die IP-Adresse.
+**Zusammenfassung:** Überprüfen Sie die folgenden IP-Adresstypen, bevor Sie Skype for Business Server implementieren.
 
-Sie stellen IP-Adresstypen mithilfe des Topologie-Einstellungen, die Sie im Topologie-Generator konfigurieren bereit. In diesem Abschnitt wird beschrieben, wie IP-Adresstypen auf Front-End-Servern und Vermittlungsservern Edge-Server bereitstellen.
+Sie stellen IP-Adresstypen mithilfe von topologieeinstellungen bereit, die Sie im Topologie-Generator konfiguriert haben. In diesem Abschnitt wird beschrieben, wie IP-Adresstypen auf Front-End-Servern, Vermittlungsservern und Edgeserver bereitgestellt werden.
 
 ## <a name="deploy-ip-address-types-on-a-front-end-server"></a>Bereitstellen von IP-Adresstypen auf einem Front-End-Server
 
-Führen Sie Topologie-Generator verwenden, die Schritte in das folgende Verfahren zum Bereitstellen von IP-Adresstypen auf einem Front-End-Server.
+Führen Sie mithilfe des Topologie-Generators die Schritte im folgenden Verfahren aus, um IP-Adresstypen auf einem Front-End-Server bereitzustellen.
 
 ### <a name="to-deploy-ip-address-types-on-a-front-end-server"></a>So stellen Sie IP-Adressentypen auf einem Front-End-Server bereit
 
 1. Klicken Sie unter **Enterprise Edition-Front-End-Pools** mit der rechten Maustaste auf den Server in einem Pool und wählen Sie anschließend **Eigenschaften bearbeiten**. (Sie können auch den Server auswählen und dann im Menü **Aktion** auf **Eigenschaften bearbeiten** klicken.)
 
-2. Wählen Sie im Dialogfeld **Eigenschaften bearbeiten** den IP-Adressentyp, den Sie konfigurieren möchten. Wählen Sie für eine Konfiguration dualen **Aktivieren IPv4** und **IPv6 aktivieren**.
+2. Wählen Sie im Dialogfeld **Eigenschaften bearbeiten** den IP-Adressentyp, den Sie konfigurieren möchten. Wählen Sie für eine Dual-Stack-Konfiguration die Option **IPv4 aktivieren** und **IPv6 aktivieren**aus.
 
    **Dialogfeld „Eigenschaften bearbeiten“ für den Front-End-Server-Pool**
 
@@ -51,15 +51,15 @@ Führen Sie Topologie-Generator verwenden, die Schritte in das folgende Verfahre
    - **PSTN-IP-Adresse**. Geben Sie eine PSTN-IP-Adresse an, wenn auf dem Front-End-Server ein Vermittlungsserver angeordnet wird. Diese Adresse muss mit dem Format des ausgewählten Adressentyps übereinstimmen.
 
 > [!NOTE]
-> Die Installation von zusätzlichen Netzwerkschnittstellenkarten (NICs) zur Unterstützung von der Konfiguration der PSTN-IP-Adresse (oder einem anderen Grund) auf Front-End-Servern wird nicht unterstützt. Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype für Business Server finden Sie unter [Server Hardware Platforms für Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+> Die Installation zusätzlicher Netzwerkschnittstellenkarten (NICs) zur Unterstützung der Konfiguration der PSTN-IP-Adresse (oder aus anderen Gründen) auf Front-End-Servern wird nicht unterstützt. Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype for Business Server finden Sie unter [Server-Hardwareplattformen für lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>Bereitstellen von IP-Adresstypen auf einem Vermittlungsserver
 
-Führen Sie Topologie-Generator verwenden, die Schritte in das folgende Verfahren zum Bereitstellen von IP-Adresstypen auf einem Vermittlungsserver.
+Führen Sie mithilfe des Topologie-Generators die Schritte im folgenden Verfahren aus, um IP-Adresstypen auf einem Vermittlungs Server bereitzustellen.
 
 ### <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>So stellen Sie IP-Adresstypen auf einem Vermittlungsserver bereit
 
-- Klicken Sie im Topologie-Generator unter **vermittlungspools**mit der rechten Maustaste des Servers in einem Pool, und wählen Sie dann auf **Eigenschaften bearbeiten**. (Sie können auch den Server auswählen und dann im Menü **Aktion** auf **Eigenschaften bearbeiten** klicken.)
+- Klicken Sie im Topologie-Generator unter **Vermittlungs Pools**mit der rechten Maustaste auf den Server in einem Pool, und wählen Sie dann **Eigenschaften bearbeiten**aus. (Sie können auch den Server auswählen und dann im Menü **Aktion** auf **Eigenschaften bearbeiten** klicken.)
 
 - Wählen Sie im Dialogfeld **Eigenschaften bearbeiten** den IP-Adressentyp, den Sie konfigurieren möchten. Wählen Sie für eine Dualstapel-Konfiguration wie in der folgenden Abbildung zu sehen **IPv4 aktivieren** und **IPv6 aktivieren**.
 
@@ -76,21 +76,21 @@ Führen Sie Topologie-Generator verwenden, die Schritte in das folgende Verfahre
 
   - **PSTN-IP-Adresse**. Geben Sie eine PSTN-IP-Adresse an, wenn auf dem Front-End-Server ein Vermittlungsserver angeordnet wird. Diese Adresse muss mit dem Format des ausgewählten Adressentyps übereinstimmen.
 > [!IMPORTANT]
-> Wir unterstützen nur zwei Netzwerkkarten auf *dedizierten* Vermittlungsserver. Wenn die Rolle Mediation Sserver auf den Front-End verbunden ist, werden zwei Netzwerkkarten nicht unterstützt. 
+> Wir unterstützen nur zwei Netzwerkkarten ** auf dedizierten Vermittlungsservern. Wenn die Rolle der Mediations-sServer auf der Vorderseite liegt, werden keine dualen Netzwerkkarten unterstützt. 
 
 > [!NOTE]
-> - Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype für Business Server 2015 finden Sie unter [Hardware für Skype für Business Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
-> - Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype für Business Server 2019 finden Sie unter [Hardware für Skype für Business Server 2019](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
+> - Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype for Business Server 2015 finden Sie unter [Hardware für Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
+> - Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype for Business Server 2019 finden Sie unter [Hardware für Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
 
 
 
 ## <a name="deploy-ip-address-types-on-an-edge-server"></a>Bereitstellen von IP-Adresstypen auf einem Edgeserver
 
-Führen Sie Topologie-Generator verwenden, die folgenden Schritte aus:
+Führen Sie mithilfe des Topologie-Generators die folgenden Schritte aus:
 
 ### <a name="to-deploy-ip-address-types-on-an-edge-server"></a>So stellen Sie IP-Adresstypen auf dem Edgeserver bereit
 
-1. Im Topologie-Generator unter **edgepools**mit der rechten Maustaste des Servers in einem Pool, und wählen Sie dann auf **Eigenschaften bearbeiten**. (Sie können auch den Server auswählen und dann im Menü **Aktion** auf **Eigenschaften bearbeiten** klicken.)
+1. Klicken Sie im Topologie-Generator unter **Edge-Pools**mit der rechten Maustaste auf den Server in einem Pool, und wählen Sie dann **Eigenschaften bearbeiten**aus. (Sie können auch den Server auswählen und dann im Menü **Aktion** auf **Eigenschaften bearbeiten** klicken.)
 
 2. Wählen Sie im Fenster **Eigenschaften bearbeiten** die IP-Adresskonfiguration, die Sie unterstützen möchten.
 

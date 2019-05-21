@@ -5,95 +5,95 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 5/17/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um über Persistent Chat-Server-Komponenten und Topologien in Skype für Business Server 2015 zu erfahren.'
-ms.openlocfilehash: d004557da9a47a8d5de544af18e74eb7eecc01b0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zu beständigen Chat Server Komponenten und-Topologien in Skype for Business Server 2015 zu erhalten.'
+ms.openlocfilehash: edbc0184efe19e662c9ce8933b47c32f7e6fdd1a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926065"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297085"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>Topologieplanung für den Server für beständigen Chat
  
-**Zusammenfassung:** Lesen Sie dieses Thema Weitere Informationen zu Persistent Chat-Server-Komponenten und Topologien in Skype für Business Server 2015.
+**Zusammenfassung:** Lesen Sie dieses Thema, um Informationen zu beständigen Chat Server Komponenten und-Topologien in Skype for Business Server 2015 zu erhalten.
   
-Persistent Chat Server unterstützt Konfigurationen mit einem einzelnen Server oder mehreren Servern. Sie können Persistent Chat Server auf entweder einen Skype für Business Server 2015 Enterprise Edition oder Standard Edition-Server installieren. 
+Der beständige Chat Server unterstützt Konfigurationen mit einem oder mehreren Servern. Sie können den Server für beständigen Chat entweder auf einem Skype for Business Server 2015 Enterprise Edition-oder Standard Edition-Server installieren. 
 
 > [!NOTE] 
-> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
+> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Reise von Skype for Business zu Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen. 
   
-## <a name="persistent-chat-server-components"></a>Persistent Chat-Server-Komponenten
+## <a name="persistent-chat-server-components"></a>Server Komponenten für beständigen Chat
 
 Der permanente Chatserver besteht aus folgenden Komponenten:
   
-- Mindestens ein Computer Persistent Chat Server ausgeführt wird und die folgenden Dienste bereitstellt:
+- Auf einem oder mehreren Computern, auf denen der beständige Chat Server ausgeführt wird und die folgenden Dienste bereitstellen:
     
-  - Persistent Chat-Dienst
+  - Beständiger Chat Dienst
     
   - Kompatibilitätsdienst, der eingeschaltet wird, wenn Kompatibilität aktiviert ist
     
-- Einem oder mehreren Servern (mehr als eine wenn Spiegelung verwendet wird) mit SQL Server-Back-End-Datenbank zum Hosten der Inhaltsdatenbank für beständigen Chat, in dem chatroominhalte, Räume und Kategorien gespeichert.
+- Einen oder mehrere Server (mehr als eine, wenn Spiegelung verwendet wird), die die SQL Server-Back-End-Datenbank zum Hosten der Inhaltsdatenbank für beständigen Chat ausführt, in der Chatroom-Inhalte,-Räume und-Kategorien gespeichert sind.
     
     > [!NOTE]
-    > Back-End-Datenbank werden chatverlaufsdaten, einschließlich Informationen zu Kategorien und beständigen Chatrooms, die erstellt werden gespeichert. 
+    > Die Back-End-Datenbank speichert Chatverlaufs Daten, einschließlich Informationen zu Kategorien und beständigen Chatrooms, die erstellt werden. 
   
-- Wenn Kompatibilität aktiviert ist, werden einem oder mehreren Servern (mehr als eine wenn Spiegelung verwendet wird) mit SQL Server-Back-End-Datenbank zum Hosten der Persistent Chat Kompatibilitätsdatenbank Konformitätsereignisse und Chat, in dem für die Einhaltung von Bestimmungen des Inhalts gespeichert.
+- Wenn Compliance aktiviert ist, wird ein oder mehrere Server (mehr als eine bei Verwendung der Spiegelung) ausgeführt, wobei die SQL Server-Back-End-Datenbank zum Hosten der beständigen Chat-Kompatibilitätsdatenbank ausgeführt wird, in der Compliance-Ereignisse und Chat Inhalte zum Zwecke der Compliance gespeichert werden.
     
-Ausführliche Informationen zu Hardware und Software für Persistent Chat Server finden Sie unter [Anforderungen für Skype für Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) und [Hardware und Software-Anforderungen für Persistent Chat Server in Skype für Business Server 2015](hardware-and-software-requirements.md). 
+Details zu den Hardware-und Softwareanforderungen für den Server für beständigen Chat finden Sie unter [Server Anforderungen für Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) und [Hardware-und Softwareanforderungen für den Server für beständigen Chat in Skype for Business Server 2015](hardware-and-software-requirements.md). 
   
-## <a name="persistent-chat-server-topologies"></a>Persistent Chat-Server-Topologien
+## <a name="persistent-chat-server-topologies"></a>Server-Topologien für beständigen Chat
 
-Sie können die Persistent Chat Server in einem einzelnen Server oder mehreren Servern Pools und mit Single- oder Pool mit mehreren Topologie bereitstellen. Persistent Chat-Server unterstützt die folgenden Topologien:
+Sie können den Server für beständigen Chat in Pools mit einem oder mehreren Servern und mit einer Topologie mit einem Pool oder mehreren Pools bereitstellen. Der beständige Chat Server unterstützt die folgenden Topologien:
   
 -  Standard Edition-Server mit auf dem Front-End-Server bereitgestelltem Server für beständigen Chat
     
--  Standard Edition-Server mit Persistent Chat Server auf einem separaten server
+-  Standard Edition-Server mit beständigem Chat Server auf einem separaten Server
     
--  Enterprise Edition-Server mit einem einzigen Persistent Chat Server auf einem separaten server
+-  Enterprise Edition-Server mit einem einzelnen beständigen Chat Server auf einem separaten Server
     
--  Enterprise Edition-Server mit mehr als eine Persistent Chat Server auf separaten Servern
+-  Enterprise Edition-Server mit mehr als einem beständigen Chat Server auf separaten Servern
     
-Obwohl Sie Persistent Chat Server auf einem Standard Edition-Server bereitstellen können, beachten Sie, dass die Leistung und Skalierung betroffen sind, und hoher Verfügbarkeit ist keine Option. Aus diesem Grund wird empfohlen, dass Sie auf einem Standard Edition-Server in erster Linie zum Nachweis des Konzept und Evaluierungszwecke beständigen Chat bereitstellen. 
+Zwar können Sie den Server für beständigen Chat auf einem Standard Edition-Server bereitstellen, doch beachten Sie, dass Leistung und Skalierung davon betroffen sind und eine Hochverfügbarkeit nicht möglich ist. Daher empfiehlt es sich, den beständigen Chat auf einem Standard Edition-Server in erster Linie zum Nachweis von Konzept-und Evaluierungszwecken bereitzustellen. 
   
-Skype für Business Server 2015 unterstützt eine Vielzahl von zusammenstellungsszenarien, bietet Ihnen die Flexibilität, die zum Speichern der Hardwarekosten durch Ausführen von mehreren Komponenten auf einem Server (Wenn Sie eine kleine Organisation verwenden), oder einzelne Komponenten auf verschiedenen Servern (auszuführen Wenn Sie eine größere Organisation haben benötigt, Skalierbarkeit und Leistung). Die skalierbarkeitsfaktoren sollten Sie berücksichtigen, bevor Sie sich entscheiden, ob Komponenten zu verbinden. Zusammenstellungsszenarien unterscheiden sich für Skype für Business Server 2015 Enterprise Edition und Standard Edition-Server. 
+Skype for Business Server 2015 unterstützt eine Vielzahl von Szenarien für die Zusammenstellung, die Ihnen die Flexibilität bieten, Hardwarekosten zu sparen, indem Sie mehrere Komponenten auf einem Server ausführen (wenn Sie über eine kleine Organisation verfügen) oder einzelne Komponenten auf unterschiedlichen Servern ausführen ( Wenn Sie über eine größere Organisation verfügen, die Skalierbarkeit und Leistung benötigt). Sie sollten Skalierbarkeits Faktoren berücksichtigen, bevor Sie entscheiden, ob Sie Komponenten collocate. Für Skype for Business Server 2015 Enterprise Edition-und Standard Edition-Server unterscheiden sich die Szenarien für die Zusammenfassung. 
   
-In den folgenden Abschnitten werden die Topologien im Detail beschrieben und Kollokationsszenarien sowie Optionen für die Back-End-Datenbankserver erläutert. Ausführliche Informationen zum Verbinden aller Serverrollen und Datenbanken finden Sie unter [Grundlagen der Topologie Skype für Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
+In den folgenden Abschnitten werden die Topologien im Detail beschrieben und Kollokationsszenarien sowie Optionen für die Back-End-Datenbankserver erläutert. Ausführliche Informationen zur Anordnung aller Serverrollen und Datenbanken finden Sie unter [Topologie-Grundlagen für Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
   
 ### <a name="standard-edition-server-with-persistent-chat-server-collocated-on-the-front-end-server"></a>Standard Edition-Server mit auf dem Front-End-Server bereitgestelltem Server für beständigen Chat
 
-Mit Standard Edition können Sie den beständigen Chat auf dem Front-End-Server verbinden. Dies ist die einfachste und grundlegenden Konfiguration. Sie müssen sicherstellen, dass die vorhandenen Front-End-Server ausreichende Kapazität im Hinblick auf die physischen Ressourcen verfügt: CPU, Arbeitsspeicher, Speicherplatz und So weiter.
+Mit der Standard Edition können Sie den beständigen Chat auf dem Front-End-Server collocate. Dies ist die einfachste und grundlegendste Konfiguration. Sie müssen sicherstellen, dass der vorhandene Front-End-Server über genügend Kapazität in Bezug auf physische Ressourcen verfügt: CPU, Arbeitsspeicher, Festplattenspeicher usw.
   
-Darüber hinaus können Sie die Persistent Chat Server-Back-End-Server und die Persistent Chat Kompatibilitätsdatenbank verbinden (sofern aktiviert) auf dem lokalen SQL Server Express-Back-End-Server. Sie können auch einen separaten Server mit SQL Server mit einer dedizierten Instanz verwenden. 
+Darüber hinaus können Sie den collocate-Back-End-Server und die beständige Chat-Kompatibilitätsdatenbank (sofern aktiviert) auf dem lokalen SQL Server Express-Back-End-Server ablegen. Sie können auch einen separaten Server mit SQL Server mit einer dedizierten Instanz verwenden. 
   
 > [!IMPORTANT]
-> Wenn Sie keine weitere Servern in einer Persistent Chat Server Pool Hinzufügen der ersten Persistent Chat Server mit einem Standard Edition-Front-End-Server verbunden ist. Es wird empfohlen, dass Sie den ersten Server als eigenständige Instanz installieren, damit Sie später weitere Server hinzufügen können bei Bedarf. 
+> Sie können einem beständigen Chat Serverpool keine weiteren Server hinzufügen, wenn der erste beständige Chat Server mit einem Standard Edition-Front-End-Server ausgestattet ist. Es wird empfohlen, dass Sie den ersten Server als eigenständige Instanz installieren, damit Sie bei Bedarf später weitere Server hinzufügen können. 
   
 ### <a name="standard-edition-server-with-persistent-chat-server-installed-on-a-separate-server"></a>Standard Edition-Server mit auf einem separaten Server installiertem Server für beständigen Chat
 
 Bei der Standard Edition können Sie Server für beständigen Chat als eine eigenständige Instanz installieren und später bei Bedarf weitere Server hinzufügen.   
   
-Sie können die Persistent Chat Server-Back-End-Server und die Persistent Chat Kompatibilitätsdatenbank verbinden (sofern aktiviert) auf dem lokalen SQL Server Express-Back-End-Server. Sie können auch einen separaten Server mit SQL Server mit einer dedizierten Instanz verwenden. 
+Sie können den collocate-Back-End-Server des beständigen Chat Servers und die Datenbank für beständigen Chat (sofern aktiviert) auf dem lokalen SQL Server Express-Back-End-Server übernehmen. Sie können auch einen separaten Server mit SQL Server mit einer dedizierten Instanz verwenden. 
   
 ### <a name="enterprise-edition-server-with-a-single-persistent-chat-server"></a>Enterprise Edition-Server mit einem einzelnen Server für beständigen Chat
 
-Mit Enterprise Edition müssen Sie den Server für beständigen Chat auf einem separaten Computer installieren. Das heißt, Sie können den Server für beständigen Chat nicht auf dem Enterprise Edition-Front-End-Server ausführen. Diese Bereitstellung erfordert einen separaten Server, der Persistent Chat Server und die Einhaltung von Bestimmungen (sofern aktiviert) ausgeführt werden.
+Mit Enterprise Edition müssen Sie den Server für beständigen Chat auf einem separaten Computer installieren. Das heißt, Sie können den Server für beständigen Chat nicht auf dem Enterprise Edition-Front-End-Server ausführen. Diese Bereitstellung erfordert einen separaten Server, auf dem der beständige Chat Server ausgeführt wird, und der Kompatibilitätsdienst (sofern aktiviert).
   
-Sie können, jedoch SQL Server-Datenbank für Persistent Chat Server in der Back-End-Datenbank von einem Enterprise Edition-Front-End-Pool verbinden.
+Sie können jedoch die SQL Server-Datenbank für beständigen Chat Server in der Back-End-Datenbank eines Enterprise Edition-Front-End-Pools collocate.
   
 > [!NOTE]
 > Wenn Sie SQL AlwaysOn-Verfügbarkeitsgruppen für hohe Verfügbarkeit und Notfallwiederherstellung verwenden möchten, beachten Sie, dass dies für Datenbanken des Servers für beständigen Chat nicht unterstützt wird. 
   
-Wenn Sie die Datenbank für beständigen Chat mit der Back-End-Datenbank zusammenstellen, Sie können entweder eine einzelne Instanz von SQL Server für einige oder alle Datenbanken verwenden, oder Sie können für jede Datenbank eine separate Instanz von SQL Server verwenden.
+Wenn Sie die Datenbank für beständigen Chat mit der Back-End-Datenbank collocate, können Sie entweder eine einzelne Instanz von SQL Server für eine oder alle Datenbanken verwenden, oder Sie können für jede Datenbank eine separate Instanz von SQL Server verwenden.
   
 > [!IMPORTANT]
-> Der Hostserver für die Datenbank für beständigen Chat kann andere Datenbanken hosten. Jedoch, wenn Sie die Verbindung mit anderen Datenbanken Datenbank für beständigen Chat berücksichtigen, beachten Sie, dass, wenn Sie die Nachrichten von mehr als ein paar Benutzern speichern, der Speicherplatz von Datenbank für beständigen Chat sehr groß können benötigt. Aus diesem Grund empfohlen nicht Verbindung Datenbank für beständigen Chat mit der Back-End-Datenbank. 
+> Der Server, auf dem die persistente Chat-Datenbank gehostet wird, kann andere Datenbanken hosten. Wenn Sie jedoch die persistente Chat-Datenbank mit anderen Datenbanken abstimmen, sollten Sie beachten, dass der von der persistenten Chat Datenbank benötigte Speicherplatz sehr groß werden kann, wenn Sie die Nachrichten von mehr als wenigen Benutzern speichern. Aus diesem Grund empfehlen wir, die Datenbank für persistente Chats nicht mit der Back-End-Datenbank abstimmen. 
   
-Die folgende Abbildung zeigt alle Komponenten einer Topologie für einen einzelnen Persistent Chat Server mit aktiviertem kompatibilitätsdienst (optional).
+Die folgende Abbildung zeigt alle Komponenten einer Topologie für einen einzelnen beständigen Chat Server mit aktivierter Kompatibilität (optional).
   
 **Topologie mit einem einzelnen Server**
 
@@ -101,16 +101,16 @@ Die folgende Abbildung zeigt alle Komponenten einer Topologie für einen einzeln
   
 ### <a name="enterprise-edition-server-with-multiple-persistent-chat-servers"></a>Enterprise Edition-Server mit mehreren Servern für beständigen Chat
 
-Mit Enterprise Edition können Sie eine Topologie mit mehreren Servern für höhere Kapazität und Zuverlässigkeit bereitstellen. Eine Topologie mit mehreren Servern ist eine Einzelservertopologie identisch, außer dass mehrere Server Persistent Chat Server gehostet, und höher skalieren können. Die Topologie mit mehreren Servern kann bis zu vier aktive Computern Persistent Chat Server enthalten (hohe Verfügbarkeit und Disaster Recovery-Konfigurationen können bis zu acht, nämlich, aber nur vier sind aktiv sind und die übrigen vier Standbymodus). Jeder Server kann bis zu 20.000 gleichzeitige Benutzer, für insgesamt 80.000 gleichzeitige Benutzer mit einer Persistent Chat Server Pool mit 4 Server verbunden unterstützen. Mehrere Computer mit Persistent Chat Server sollte in derselben Active Directory-Domänendienste Domäne als Skype für Business Server und die Einhaltung von Bestimmungen befinden.
+Mit Enterprise Edition können Sie eine Topologie mit mehreren Servern bereitstellen, um mehr Kapazität und Zuverlässigkeit zu erreichen. Eine Topologie mit mehreren Servern entspricht der Topologie mit einem Server, mit der Ausnahme, dass mehrere Server den persistenten Chat Server hosten und höher skalieren können. Die Topologie mit mehreren Servern kann bis zu vier aktive Computer umfassen, auf denen der beständige Chat Server ausgeführt wird (für hoch Verfügbarkeits-und Disaster Recovery-Konfigurationen sind bis zu acht möglich, aber nur vier können aktiv sein und die restlichen vier im Standbymodus). Jeder Server kann bis zu 20.000 gleichzeitige Benutzer unterstützen, für insgesamt 80.000 gleichzeitige Benutzer, die mit einem beständigen Chat Serverpool mit 4 Servern verbunden sind. Mehrere Computer, auf denen der beständige Chat Server ausgeführt wird, sollten sich in derselben Active Directory-Domänendienst Domäne wie Skype for Business Server und dem Kompatibilitätsdienst befinden.
   
-Die folgende Abbildung zeigt alle Komponenten einer MultiServer-Topologie mit mehreren Computern Persistent Chat-Server, der optionale kompatibilitätsdienst und eine separate Kompatibilitätsdatenbank ausgeführt.
+Die folgende Abbildung zeigt alle Komponenten einer Topologie mit mehreren Servern mit mehreren Computern, auf denen der beständige Chat Server, der optionale Kompatibilitätsdienst und eine separate Kompatibilitätsdatenbank ausgeführt werden.
   
 **Topologie mit mehreren Servern**
 
 ![Server für beständigen Chat – Topologie mit mehreren Servern](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
   
-Topologien mit mehreren Servern ermöglichen es, Serverfunktionen zu einem Pool zusammenzufassen. In einem Serverpool der Persistent Chat-Dienste kommunizieren und Daten austauschen. Beispielsweise steht der Chatverlauf, die ursprünglich in einem Persistent Chat-Dienst veröffentlicht wurde keinen Persistent Chat-Dienst im System. Eine Datei, die über einen beständigen Chat Dienst hochgeladen wird, kann von jedem Persistent Chat-Dienst zugegriffen werden. Benutzer verschiedene Persistent Chat Server-Front-End-Server hergestellt werden können und miteinander kommunizieren können. Die standardmäßigen Port von TCP 8011 verbindet einen Server mit einem Serverpool und wird von den Diensten beständigen Chat Kommunikation untereinander oder administrativen Zwecken verwendet.
+Topologien mit mehreren Servern ermöglichen es, Serverfunktionen zu einem Pool zusammenzufassen. In einem Serverpool kommunizieren die beständigen Chat Dienste und geben Daten frei. So kann beispielsweise der Chatverlauf, der ursprünglich in einem beständigen Chatdienst gepostet wurde, von jedem beständigen Chatdienst im System zur Verfügung gestellt werden. Auf eine Datei, die über einen beständigen Chatdienst hochgeladen wird, kann von jedem beständigen Chatdienst zugegriffen werden. Benutzer können mit unterschiedlichen Front-End-Servern für beständigen Chat Server verbunden werden und können miteinander kommunizieren. Der Standardport von TCP 8011 verbindet einen Server mit einem Serverpool und wird von den beständigen Chat Diensten für die Kommunikation zwischen sich selbst oder für administrative Zwecke verwendet.
   
-Beispielsweise wird in einer vier Servern Persistent Chat Server-Bereitstellung, wobei 80.000 Benutzern gleichzeitig bei beständigen Chat angemeldet sein können, die Last gleichmäßig unter 20.000 Benutzer pro Server verteilt. Wenn ein Server ausfällt, verlieren die Benutzer, die mit dem Server verbunden sind deren Zugriff auf Persistent Chat Server. Die getrennten Benutzer werden automatisch an die übrigen Server übergeben, bis der ausgefallene Server wieder verfügbar ist. 
+In einer persistent Chat Server-Bereitstellung mit vier Servern, bei der 80.000-Benutzer gleichzeitig beim beständigen Chat angemeldet werden können, wird die Auslastung gleichmäßig bei 20.000-Benutzern pro Server verteilt. Wenn ein Server nicht mehr zur Verfügung steht, verlieren die Benutzer, die mit diesem Server verbunden sind, den Zugriff auf den beständigen Chat Server. Die getrennten Benutzer werden automatisch an die übrigen Server übergeben, bis der ausgefallene Server wieder verfügbar ist. 
   
 

@@ -5,38 +5,38 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
-description: TblPrincipalInvites enthält Einladungen für alle bereitgestellten Benutzer aller Knoten Auto-INVITE aktiviert ist.
-ms.openlocfilehash: 5008158dcb1c62c766162595d9bffe1875d56514
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblPrincipalInvites enthält Einladungen für alle bereitgestellten Benutzer für alle Knoten, bei denen die automatische Einladung aktiviert ist.
+ms.openlocfilehash: 21344cfc34ce046a1dffdf7cd3ee9557da20a7ef
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924423"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295293"
 ---
 # <a name="tblprincipalinvites"></a>tblPrincipalInvites
  
-TblPrincipalInvites enthält Einladungen für alle bereitgestellten Benutzer aller Knoten Auto-INVITE aktiviert ist.
+tblPrincipalInvites enthält Einladungen für alle bereitgestellten Benutzer für alle Knoten, bei denen die automatische Einladung aktiviert ist.
   
 **Spalten**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|prinID  <br/> |Int, nicht null  <br/> |Prinzipal-ID.  <br/> |
-|invID  <br/> |Int, nicht null  <br/> |Eindeutige fortlaufende Zahl (pro Prinzipal-ID) generiert von der TblLastInviteId-Tabelle.  <br/> |
-|nodeID  <br/> |Int, nicht null  <br/> |Knoten-ID (nur Chatroom).  <br/> |
-|createdOn  <br/> |DateTime, nicht null  <br/> |Zeitpunkt der Erstellung.  <br/> |
+|prinID  <br/> |int, nicht NULL  <br/> |Prinzipal-ID.  <br/> |
+|invID  <br/> |int, nicht NULL  <br/> |Eindeutige sequenzielle Zahl (pro Prinzipal-ID), die aus der tblLastInviteId-Tabelle generiert wurde.  <br/> |
+|nodeID  <br/> |int, nicht NULL  <br/> |Knoten-ID (nur Chatroom).  <br/> |
+|createdOn  <br/> |DateTime, nicht NULL  <br/> |Zeitpunkt der Erstellung.  <br/> |
    
 **Schlüssel**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
-|\<PrinID nodeID\>  <br/> |Primärschlüssel.  <br/> |
-|prinID  <br/> |Fremdschlüssel mit Abfrage der tblPrincipal.prinID-Tabelle.  <br/> |
-|nodeID  <br/> |Fremdschlüssel mit Abfrage der tblNode.nodeID-Tabelle.  <br/> |
+|\<prinID, Knoten-Nr.\>  <br/> |Primärschlüssel  <br/> |
+|prinID  <br/> |Fremdschlüssel mit Lookup in der tblPrincipal. prinID-Tabelle.  <br/> |
+|nodeID  <br/> |Fremdschlüssel mit Lookup in der tblNode. Node-Tabelle  <br/> |
    
 

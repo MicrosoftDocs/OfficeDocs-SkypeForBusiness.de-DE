@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Erfahren Sie, wie Sie eine Notfalladresse und Notrufnummer für alle Ihre Benutzer einrichten, die mit dem Public Switched Telephone Network, (PSTN) arbeiten.
-ms.openlocfilehash: 4778009ddcd004f37c5ed0f0566d64dae6648997
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 884dd4051ef15cb29d6ab125989edf990980f722
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233252"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299534"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Zuweisen oder Ändern einer Notfalladresse für einen Benutzer
 
-Wenn Sie in Office 365 Anrufpläne einrichten, müssen Sie jeder Telefonnummer oder jedem Benutzer eine Notfalladresse zuweisen. In europäischen Ländern ist die Notfalladresse der Telefonnummer zugeordnet, wenn Sie sie über Office 365 abrufen oder eine Telefonnummer an Office 365 übertragen. In den USA ist die Notfalladresse der Telefonnummer zugeordnet, sobald Sie einem Benutzer zugewiesen wird. Die Notfalladresse kann geändert werden, wenn der Benutzer, dem sie zugewiesen wurde, an einen neuen Speicherort verschoben wird. Weitere Informationen zur Notfall-Adressen und Speicherorte, finden Sie unter [Was notfallstandorten, Adressen und Anrufrouting sind?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
+Wenn Sie in Office 365 Anrufpläne einrichten, müssen Sie jeder Telefonnummer oder jedem Benutzer eine Notfalladresse zuweisen. In europäischen Ländern ist die Notfalladresse der Telefonnummer zugeordnet, wenn Sie sie über Office 365 abrufen oder eine Telefonnummer an Office 365 übertragen. In den USA ist die Notfalladresse der Telefonnummer zugeordnet, sobald Sie einem Benutzer zugewiesen wird. Die Notfalladresse kann geändert werden, wenn der Benutzer, dem sie zugewiesen wurde, an einen neuen Speicherort verschoben wird. Weitere Informationen zu Notfalladressen und-Standorten finden Sie unter [Was sind Notfall Standorte, Adressen und Anrufweiterleitung?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
   
 Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was diese kosten, lesen Sie [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
@@ -38,25 +38,25 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zu der **Microsoft-Teams, Administrationscenter** > **Legacy-Portal**.
+2. Wechseln Sie zum **Microsoft Teams Admin Center** > **Legacy-Portal**.
     
-3. Klicken Sie im linken Navigationsbereich Gehe zu **VoIP**und dann auf **VoIP-Benutzer**.
+3. Navigieren Sie in der linken Navigationsleiste zu **VoIP**, und klicken Sie dann auf **VoIP-Benutzer**.
     
     > [!IMPORTANT]
-    > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
+    > Damit Sie in der linken Navigationsleiste des Skype for Business admin Centers die Option **Stimme** sehen können, müssen Sie zunächst mindestens eine **Enterprise E5-Lizenz**, eine Lizenz für ein **Telefon System** -Add-on oder eine Lizenz für das Add-on **Audio Conferencing** kaufen.
     
 4. Suchen Sie auf der Seite **VoIP-Benutzer** nach dem Benutzer, dessen Notfalladresse Sie ändern möchten und wählen Sie ihn aus.
     
 5. Klicken Sie im Bereich „Aktion" unter **Notfallstandort** auf **Ändern**.
     
     > [!IMPORTANT]
-    > Sie können nur eine bereits überprüfte Notfalladresse ändern. Um eine Notfall-Adresse zu ändern, die noch nicht validiert wurde, löschen Sie ihn, und erstellen Sie eine andere Adresse Notfall. 
+    > Sie können nur eine bereits überprüfte Notfalladresse ändern. Wenn Sie eine Notfalladresse ändern möchten, die nicht überprüft wurde, löschen Sie Sie, und erstellen Sie eine weitere Notfalladresse. 
   
 6. Klicken Sie auf der Seite **Nummer zuweisen** auf **Standort ändern**.
     
-7. Geben Sie unter **Notfall Adresse zu ändern**den Namen der Stadt ein, und klicken Sie auf **Suchen**.
+7. Geben Sie unter **Notfalladresse ändern in**den Namen des Orts ein, und klicken Sie auf **Suchen**.
     
-8. Wählen Sie die Notfall Adresse aus der Dropdownliste Adresse aus, und klicken Sie dann auf **Speichern**. 
+8. Wählen Sie die Notfalladresse in der Dropdownliste Adresse aus, und klicken Sie auf **Speichern**. 
     
 ## <a name="related-topics"></a>Verwandte Themen
 ## <a name="related-topics"></a>Verwandte Themen

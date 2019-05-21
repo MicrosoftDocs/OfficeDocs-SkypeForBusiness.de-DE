@@ -5,36 +5,36 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b50c3f4a-bab6-4cb9-b40e-016cf1a9c607
-description: "\"TblActivePeers\" enthält die aktuellen Peer-zu-Peer-Verbindungen zwischen Chat-Dienste."
-ms.openlocfilehash: 7d7f995b878d6e47878636bee6f9c16ac142352e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblActivePeers enthält die aktuellen Peer-to-Peer-Verbindungen zwischen Chat Diensten.
+ms.openlocfilehash: f45a04019cafc2304baf825b5000e96ca7a6cead
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929875"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295545"
 ---
 # <a name="tblactivepeers"></a>tblActivePeers
  
-"TblActivePeers" enthält die aktuellen Peer-zu-Peer-Verbindungen zwischen Chat-Dienste.
+tblActivePeers enthält die aktuellen Peer-to-Peer-Verbindungen zwischen Chat Diensten.
   
 **Spalten**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|aplServerID  <br/> |Int, nicht null  <br/> |ID des Servers, der den Eintrag bereitgestellt hat.  <br/> |
-|aplPeerID  <br/> |Int, nicht null  <br/> |ID des Peers, die mit der bereitstellende Server verbunden ist.  <br/> |
+|aplServerID  <br/> |int, nicht NULL  <br/> |Die ID des Servers, der den Eintrag gepostet hat.  <br/> |
+|aplPeerID  <br/> |int, nicht NULL  <br/> |Die ID des Peers, mit dem der Buchungsserver verbunden ist.  <br/> |
    
 **Schlüssel**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
-|\<AplServerID aplPeerID\>  <br/> |Primärschlüssel.  <br/> |
-|aplServerID  <br/> |Fremdschlüssel mit Abfrage der Tabelle "tblserveridentity.ServerID".  <br/> |
-|aplPeerID  <br/> |Fremdschlüssel mit Abfrage der Tabelle "tblserveridentity.ServerID".  <br/> |
+|\<aplServerID, aplPeerID\>  <br/> |Primärschlüssel  <br/> |
+|aplServerID  <br/> |Fremdschlüssel mit Lookup in der tblServerIdentity. Server-Tabelle.  <br/> |
+|aplPeerID  <br/> |Fremdschlüssel mit Lookup in der tblServerIdentity. Server-Tabelle.  <br/> |
    
 

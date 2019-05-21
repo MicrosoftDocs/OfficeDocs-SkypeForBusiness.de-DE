@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,24 +20,24 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Erfahren Sie, wie Sie Skype for Business-Lizenzen für Telefonsysteme, Audiokonferenzen, Anrufpläne und Kommunikationsguthaben zuweisen. '
-ms.openlocfilehash: e81c4c4d2fc11202ac114912ca309d93b00f2062
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 96f2805a031ab122dce0fc354da4a4e60dbded32
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226120"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301268"
 ---
 # <a name="assign-skype-for-business-licenses"></a>Zuweisen von Skype for Business-Lizenzen.
 
 This article gives you tips about assigning licenses to your users for features like Audio Conferencing, Phone System, and Calling Plans. It also provides scripts for assigning licenses in bulk.
 
 > [!IMPORTANT]
-> Informationen finden Sie unter [Skype für Business Add-on Lizenzierung](skype-for-business-and-microsoft-teams-add-on-licensing.md) welche Lizenzen, die Sie kaufen möchten und **Informationen zum erwerben** sie - je nach Ihrer Office 365 planen - damit Benutzer Audiokonferenzen, gebührenfreie Nummern und Telefonnummern außerhalb anrufen erhalten Ihr Unternehmen.
+> Unter [Skype for Business-Add-on-Lizenzierung](skype-for-business-and-microsoft-teams-add-on-licensing.md) finden Sie Informationen dazu, welche Lizenzen Sie kaufen müssen, und wie Sie Sie **erwerben** – je nach Ihrem Office 365-Plan –, damit Benutzer Audiokonferenzen, gebührenfreie Nummern und die Möglichkeit zum Anrufen von Telefonnummern außerhalb erhalten. Ihr Unternehmen.
 
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>Telefonsystem und Anrufpläne: Tipps und Skripts für das Zuweisen von Lizenzen
 
-Was müssen Sie wissen, bevor Sie Audiokonferenzen, Telefonsystem und Planen der Aufruf von Lizenzen zuweisen
+Was Sie wissen müssen, bevor Sie Audiokonferenz-, Telefon System-und Anruf Plan Lizenzen zuweisen
 
 - **Sie verwenden eine lokale PSTN-Anbindung für Hybridbenutzer?** In diesem Fall müssen Sie nur eine **Telefonsystemlizenz** zuweisen. Weisen Sie **KEINEN** Anrufplan zu.
 
@@ -185,7 +185,7 @@ foreach ($user in $users)
 
 ### <a name="what-you-need-to-know-before-assigning-communications-credits-licenses"></a>Wichtige Informationen vor dem Zuweisen von Guthaben für Kommunikationen
 
-- **Enterprise-E5 Kunden**:, auch wenn Ihre Benutzer Enterprise E5 Lizenzen zugewiesen sind, empfohlen, dass die **Kommunikation haben** Lizenzen zugewiesen.
+- **Enterprise E5-Kunden**: selbst wenn ihren Benutzern Enterprise E5-Lizenzen zugewiesen sind, empfehlen wir Ihnen weiterhin, Ihnen **Kommunikationsguthaben** -Lizenzen zuzuweisen.
     
 - **Next steps**: After you assign these licenses, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
     
@@ -193,7 +193,7 @@ foreach ($user in $users)
 
 The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 
-### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>Zuweisen von Lizenzen in einer Sammeloperation Communications haben
+### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>Zuweisen von Lizenzen für Kommunikations Kredite in loser Schüttung
 
 Take a look at the sample script for assigning **Audio Conferencing** licenses. Update it with the info for assigning **Communications Credits** licenses.
 

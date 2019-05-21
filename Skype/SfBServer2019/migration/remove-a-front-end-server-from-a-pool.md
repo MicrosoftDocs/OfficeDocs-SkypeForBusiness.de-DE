@@ -4,30 +4,30 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Der Front-End-Server kann nicht als eigenständiger Computer vorhanden sein. Sie müssen als Front-End-Pool definiert werden, auch wenn Sie nur ein einzigen Computer im Pool vorhanden ist.
-ms.openlocfilehash: f026570f0dff377ba7ca0c28975a685e236a9e13
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Der Front-End-Server kann nicht als eigenständiger Computer vorhanden sein. Es muss als Front-End-Pool definiert werden, auch wenn es nur einen einzelnen Computer im Pool gibt.
+ms.openlocfilehash: 5c1cd06e4cbe5cd6cecd8484e9c7874fb5ba590e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231430"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301139"
 ---
 # <a name="remove-a-front-end-server-from-a-pool"></a>Entfernen eines Front-End-Servers aus einem Pool
 
-Der Front-End-Server kann nicht als eigenständiger Computer vorhanden sein. Sie müssen als Front-End-Pool definiert werden, auch wenn Sie nur ein einzigen Computer im Pool vorhanden ist.
+Der Front-End-Server kann nicht als eigenständiger Computer vorhanden sein. Es muss als Front-End-Pool definiert werden, auch wenn es nur einen einzelnen Computer im Pool gibt.
   
-In diesem Thema führt Sie durch den Vorgang des Entfernens von einem einzelnen Front-End-Server von einem vorhandenen Front-End-Pool. Wenn der Front-End-Server der letzte Server im Pool ist oder wenn Sie den Pool vollständig entfernen möchten, finden Sie unter [Entfernen eines Front-End-Pool oder Standard Edition-Server](remove-front-end-pool-or-standard-edition-server.md). Es besteht keine Notwendigkeit der einzelnen Front-End-Server zu entfernen, bevor Sie den Front-End-Pool entfernen. Wenn Sie den Pool zu entfernen, entfernen Sie jedem Front-End-Server.
+Dieses Thema führt Sie durch den Vorgang zum Entfernen eines einzelnen Front-End-Servers aus einem vorhandenen Front-End-Pool. Wenn der Front-End-Server der letzte Server im Pool ist oder wenn Sie den Pool vollständig entfernen, lesen Sie [Entfernen des Front-End-Pools oder des Standard Edition-Servers](remove-front-end-pool-or-standard-edition-server.md). Es ist nicht erforderlich, die einzelnen Front-End-Server zu entfernen, bevor Sie den Front-End-Pool entfernen. Wenn Sie den Pool entfernen, entfernen Sie jeden Front-End-Server.
   
-### <a name="to-remove-a-front-end-server-from-a-pool"></a>So entfernen einen Front-End-Server aus einem pool
+### <a name="to-remove-a-front-end-server-from-a-pool"></a>So entfernen Sie einen Front-End-Server aus einem Pool
 
-1. Öffnen Sie auf der Skype für Business Server 2019 Front-End-Server Topologie-Generator.
+1. Öffnen Sie auf dem Skype for Business Server 2019-Front-End-Server den Topologie-Generator.
     
-2. Navigieren Sie zu der Knoten legacy installieren.
+2. Navigieren Sie zum Legacy Installations Knoten.
     
-3. Erweitern Sie **Enterprise Edition-Front-End-Pools**, erweitern Sie den Front-End-Pool mit dem Front-End-Server, den Sie entfernen rechten Maustaste auf den Front-End-Server, die Sie entfernen möchten, und klicken Sie dann auf **Löschen**möchten.
+3. Erweitern Sie **Enterprise Edition-Front-End-Pools**, erweitern Sie den Front-End-Pool mit dem zu entfernenden Front-End-Server, klicken Sie mit der rechten Maustaste auf den Front-End-Server, den Sie entfernen möchten, und klicken Sie dann auf **Löschen**.
     
 

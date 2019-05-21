@@ -1,47 +1,47 @@
 ---
-title: Planen von instant messaging und Anwesenheit in Skype for Business Server
+title: Planen von Sofortnachrichten und Anwesenheitsinformationen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
-description: 'Zusammenfassung: Erfahren Sie, wie Sofortnachrichten und Anwesenheit in Skype für Business Server planen.'
-ms.openlocfilehash: f29464b9eaf725deb41c41cb9255a8b2f6737792
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Sofortnachrichten und Anwesenheitsinformationen in Skype for Business Server planen.'
+ms.openlocfilehash: 29026a0b4ef7cce55f155f024efc9ccc84457906
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33907164"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297379"
 ---
-# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planen von instant messaging und Anwesenheit in Skype for Business Server
+# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planen von Sofortnachrichten und Anwesenheitsinformationen in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie Sofortnachrichten und Anwesenheit in Skype für Business Server planen.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie Instant Messaging und Anwesenheit in Skype for Business Server planen.
   
-Planen von instant messaging und Anwesenheit in Skype für Business Server. Weitere Informationen zu bestimmten Bereitstellungsoptionen wie aktivieren oder deaktivieren Offline Instant Messaging (IM), finden Sie unter [Deploy instant messaging und Anwesenheit in Skype für Business Server](../deploy/im-and-presence/im-and-presence.md).
+Planen Sie Sofortnachrichten und Anwesenheitsinformationen in Skype for Business Server. Informationen zu bestimmten Bereitstellungsoptionen, wie das Aktivieren oder Deaktivieren von Instant Messaging (im), finden Sie unter [Bereitstellen von Instant Messaging und Anwesenheit in Skype for Business Server](../deploy/im-and-presence/im-and-presence.md).
   
-## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planen von instant messaging und Anwesenheit in Skype for Business Server
+## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planen von Sofortnachrichten und Anwesenheitsinformationen in Skype for Business Server
 
-Front-End-Server core Skype Business Server-Funktionen, beispielsweise Sofortnachrichten (IM) und Anwesenheit und sind in jeder Skype für Business Server-Bereitstellung enthalten sind. Es gibt zwei Editionen: Skype für Business Server Enterprise Edition, in erster Linie für größere Organisationen entwickelt wurde, und Skype für Business Server Standard Edition, die in erster Linie für kleinere Unternehmen entwickelt wurde, eine kleinere wollen, Hardwareinvestitionen und erfordern keine vollständige Hochverfügbarkeits-Optionen. Beide Editionen unterstützen alle Skype für Business Server Arbeitslasten, einschließlich Sofortnachrichten, Anwesenheitsinformationen, Konferenzen und Enterprise-VoIP.
+Front-End-Server bieten die Kernfunktionen von Skype for Business Server wie Chats (Sofortnachrichten) und Anwesenheitsinformationen und sind in jeder Skype for Business Server-Bereitstellung enthalten. Es stehen zwei Versionen zur Verfügung: Skype for Business Server Enterprise Edition, das in erster Linie für größere Organisationen konzipiert ist, und Skype for Business Server Standard Edition, das in erster Linie für kleinere Organisationen konzipiert ist, die eine kleinere Hardwareinvestition und erfordert keine vollständigen Optionen für die Hochverfügbarkeit. Beide Editionen unterstützen alle Skype for Business Server-Arbeitsauslastungen, einschließlich Chat, Anwesenheit, Konferenz und Enterprise-VoIP.
   
 Mit der Chatfunktion können Benutzer auf ihren Computern in Echtzeit über textbasierte Nachrichten miteinander kommunizieren. Es werden sowohl Chatsitzungen mit zwei Teilnehmern als auch Sitzungen mit mehreren Teilnehmern unterstützt. Ein Teilnehmer an einer Chatsitzung mit zwei Teilnehmern kann der Unterhaltung jederzeit einen dritten Teilnehmer hinzufügen. Wenn dies geschieht, ändert sich das Unterhaltungsfenster, um Konferenzfunktionen zu unterstützen.
   
-Die Anwesenheitsfunktion liefert Nutzern Informationen zum Status anderer Nutzer im Netzwerk. Anwesenheitsstatus eines Benutzers enthält Informationen, mit denen andere Benutzer entscheiden können, ob sie versuchen sollen, den Benutzer zu kontaktieren und ob instant messaging, Telefon oder e-Mail verwenden. Anwesenheit fördert instant Kommunikation, wenn möglich, aber es enthält auch Informationen dazu, ob ein Benutzer in einer Besprechung oder nicht im Büro, was bedeutet, dass keine Sofortnachrichten Kommunikation möglich ist. Dieser Anwesenheitsstatus wird als ein Anwesenheitssymbol in Skype für Unternehmen und andere Anwesenheit unterstützende Anwendungen, einschließlich Microsoft Outlook messaging und Client für die Zusammenarbeit, Microsoft SharePoint-Technologien, und Microsoft Office angezeigt. Das Anwesenheitssymbol stellt die aktuelle Verfügbarkeit und Bereitschaft zur Kommunikation des Benutzers. 
+Die Anwesenheitsfunktion liefert Nutzern Informationen zum Status anderer Nutzer im Netzwerk. Der Anwesenheitsstatus eines Benutzers bietet Informationen, um anderen zu helfen, zu entscheiden, ob er versuchen soll, den Benutzer zu kontaktieren, und ob er Sofortnachrichten, Telefone oder e-Mails verwenden soll. Anwesenheitsinformationen unterstützt die sofortige Kommunikation, wenn möglich, bietet aber auch Informationen darüber, ob sich ein Benutzer in einer Besprechung oder außerhalb des Büros befindet, was darauf hinweist, dass eine sofortige Kommunikation nicht möglich ist. Dieser Anwesenheitsstatus wird in Skype for Business und anderen Anwendungen mit Anwesenheitserkennung als Anwesenheitssymbol angezeigt, einschließlich des Microsoft Outlook-Messaging-und-Zusammenarbeits Clients, Microsoft SharePoint-Technologien und Microsoft Office. Das Anwesenheitssymbol steht für die aktuelle Verfügbarkeit und Kommunikationsbereitschaft des Benutzers. 
   
 ### <a name="technical-requirements"></a>Technische Anforderungen
 
-Chat und Anwesenheit werden in der Enterprise Edition immer auf Front-End-Pools und auf Standard Edition-Servern ausgeführt. Informationen zu unterstützten Hardware, Betriebssysteme und Datenbank-Software finden Sie unter [Gateways zertifiziert](../../SfbPartnerCertification/certification/infra-gateways.md), [Anforderungen für Ihre Skype für Business 2015 Umgebung](requirements-for-your-environment/requirements-for-your-environment.md)und [infrastrukturanforderungen für Skype für Business Server 2019 ](../../SfBServer2019/plan/system-requirements.md).
+Chat und Anwesenheit werden in der Enterprise Edition immer auf Front-End-Pools und auf Standard Edition-Servern ausgeführt. Informationen zu unterstützten Hardware, Betriebssystemen und Datenbanksoftware finden Sie unter [zertifizierte Gateways](../../SfbPartnerCertification/certification/infra-gateways.md), [Anforderungen für Ihre Skype for Business 2015-Umgebung](requirements-for-your-environment/requirements-for-your-environment.md)und [Infrastrukturanforderungen für Skype for Business Server 2019 ](../../SfBServer2019/plan/system-requirements.md).
   
 ### <a name="enabling-communication-with-external-users"></a>Aktivieren der Kommunikation mit externen Benutzern
 
-Sie können die Vorteile der Investition in Skype für Business Server erheblich erhöhen, indem es den Benutzern die Kommunikation mit externen Benutzern ermöglichen. Bei externen Benutzern sind unter anderem folgende Kategorien möglich:
+Sie können die Vorteile Ihrer Investition in Skype for Business Server erheblich steigern, indem Sie Ihren Benutzern die Kommunikation mit externen Benutzern ermöglichen. Bei externen Benutzern sind unter anderem folgende Kategorien möglich:
   
-- Remotebenutzer: die organisationseigenen Benutzer, wenn außerhalb der Organisationsfirewalls arbeiten und Laptops oder andere Skype für Business Server-Geräte verwenden.
+- Remote Benutzer: die eigenen Benutzer Ihrer Organisation, wenn Sie außerhalb Ihrer Firewalls arbeiten und ihre Laptops oder andere Skype for Business Server-Geräte verwenden.
     
-- Verbundene Benutzer: Benutzer von Unternehmen mit denen Sie arbeiten, die auch Skype für Business Server ausführen. Damit Ihre Benutzer problemlos Kontakt zu diesen Benutzern aufnehmen können, erstellen Sie Partnerverbundbeziehungen mit diesen Unternehmen. 
+- Federated-Benutzer: Benutzer von Unternehmen, mit denen Sie zusammenarbeiten, die auch Skype for Business Server ausführen. Damit Ihre Benutzer problemlos Kontakt zu diesen Benutzern aufnehmen können, erstellen Sie Partnerverbundbeziehungen mit diesen Unternehmen. 
     
 - Skype-Benutzer: Skype for Business-Benutzer können mehrere hundert Millionen Benutzer auf Skype mit Chat, VoIP und Video erreichen.
     
@@ -49,27 +49,27 @@ Sie können die Vorteile der Investition in Skype für Business Server erheblich
 > AOL, Yahoo und Google Talk werden nicht mehr unterstützt. 
   
 > [!NOTE]
-> Um einige oder alle der folgenden Szenarien zu aktivieren, müssen Sie die Bereitstellung eines Edgeservers, mit denen die sichere Kommunikation zwischen Ihrer Skype für Business Server-Bereitstellung und externen Benutzern zu ermöglichen. Remotebenutzer und Benutzern am Partnerorganisationen Ihrer Organisation können finden Sie unter die Anwesenheitsinformationen des anderen und über Sofortnachrichten kommunizieren können. 
+> Wenn Sie ein oder alle dieser Szenarien aktivieren möchten, müssen Sie einen Edgeserver bereitstellen, um die sichere Kommunikation zwischen Ihrer Skype for Business Server-Bereitstellung und externen Benutzern zu ermöglichen. Die Remotebenutzer und Benutzer Ihrer Organisation in Verbundorganisationen können sich gegenseitig die Anwesenheitsinformationen anzeigen und über Chatnachrichten kommunizieren. 
   
 > [!NOTE]
 > Extensible Messaging and Presence Protocol (XMPP) wird nur für Zertifizierungsszenarien auf der Unified Capabilities Collaboration Platform (UCCP) Joint Interoperability Test Command (JITC) unterstützt. 
   
 ### <a name="archiving-im-content"></a>Archivieren von Chatinhalten
 
-Skype für Business Server bietet Features, die Sie verwenden können, wenn Ihre Organisation Vorschriften einhalten muss. Mithilfe der Archivierung können Sie Chatinhalte für alle Benutzer in Ihrer Organisation oder nur für bestimmte Benutzer archivieren. Weitere Informationen hierzu finden Sie unter [Planen für die Archivierung in Skype für Business Server](archiving/archiving.md). 
+Skype for Business Server bietet Funktionen, die Sie verwenden können, wenn Ihre Organisation Konformitätsrichtlinien beachten muss. Mithilfe der Archivierung können Sie Chatinhalte für alle Benutzer in Ihrer Organisation oder nur für bestimmte Benutzer archivieren. Ausführliche Informationen finden Sie unter [Planen der Archivierung in Skype for Business Server](archiving/archiving.md). 
   
-Wenn Sie auch Microsoft Exchange Server 2013 bereitgestellt haben, können Sie integrieren die Archivierung von Exchange-Daten mit der Archivierung von Skype für Business Server-Daten und ein einzelnes Tool verwenden, um beide Arten von archivierten Daten zu suchen. Weitere Informationen finden Sie unter [Konfigurieren von Skype für Business Server auf Exchange Server-Archivierung verwendet](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
+Wenn Sie auch Microsoft Exchange Server 2013 bereitgestellt haben, können Sie die Archivierung von Exchange-Daten mit der Archivierung von Skype for Business Server-Daten integrieren und ein einzelnes Tool verwenden, um beide Arten von archivierten Daten zu durchsuchen. Weitere Informationen finden Sie unter [Konfigurieren von Skype for Business Server für die Verwendung der Exchange Server-Archivierung](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
   
 ### <a name="topologies-and-components"></a>Topologien und Komponenten
 
 Für Chat und Anwesenheit sind nur diese Komponenten erforderlich:
   
-- Front-End-Webservern Ihrer Organisation (bekannt als Pool) oder einem Standard Edition-Server. Chat und Anwesenheitsfunktionen sind auf diesen Servern immer aktiviert. Weitere Informationen zu Front-End-Pool-Topologien und Management finden Sie unter [Front-End-Pool hohe Verfügbarkeit und Management](high-availability-and-disaster-recovery/high-availability.md).
+- Die Front-End-Server Ihrer Organisation (als Pool bezeichnet) oder ein Standard Edition-Server. Chat und Anwesenheitsfunktionen sind auf diesen Servern immer aktiviert. Weitere Informationen zu Front-End-Pool Topologien und-Verwaltung finden Sie unter [Verfügbarkeit und Verwaltung von Front-End-Pools](high-availability-and-disaster-recovery/high-availability.md).
     
 - Ein Lastenausgleich, wenn Sie einen Enterprise Edition-Front-End-Pool haben.
     
 ### <a name="supported-collocation"></a>Unterstützte Kollokation
 
-Kollokation bedeutet, dass ein einzelner Server oder eine Gruppe von Servern mit mehreren installierten Rollen vorhanden ist. Ausführliche Informationen zum Verbinden finden Sie unter [Grundlagen der Topologie Skype für Business Server](topology-basics/topology-basics.md). 
+Kollokation bedeutet, dass ein einzelner Server oder eine Gruppe von Servern mit mehreren installierten Rollen vorhanden ist. Einzelheiten zur über Einsicht finden Sie unter [Topologie-Grundlagen für Skype for Business Server](topology-basics/topology-basics.md). 
   
 

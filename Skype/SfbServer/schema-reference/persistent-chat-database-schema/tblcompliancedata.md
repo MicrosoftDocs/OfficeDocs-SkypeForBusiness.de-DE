@@ -5,41 +5,41 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
-description: "\"tblcompliancedata\" enthält die genehmigungsereignisse, die nicht vom kompatibilitätsadapter noch verarbeitet wurden."
-ms.openlocfilehash: 88319da90c1f3e03b6ca3e441259972f51d0bcf9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblComplianceData enthält die Konformitätsereignisse, die noch nicht vom Kompatibilitätsadapter verarbeitet wurden.
+ms.openlocfilehash: b505b3e05fb2aebba98804f5b7ad6a1d4d2da53e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929931"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295510"
 ---
 # <a name="tblcompliancedata"></a>tblComplianceData
  
-"tblcompliancedata" enthält die genehmigungsereignisse, die nicht vom kompatibilitätsadapter noch verarbeitet wurden.
+tblComplianceData enthält die Konformitätsereignisse, die noch nicht vom Kompatibilitätsadapter verarbeitet wurden.
   
 **Spalten**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|cmplEventID  <br/> |Bigint, nicht null  <br/> |Ereignis-ID  <br/> |
-|entryDate  <br/> |Smalldatetime, nicht null  <br/> |Zeitpunkt des Einfügevorgangs (möglicherweise weit in der Zukunft für CmplType = 9, da der Eintrag in diesem Fall nur ein Platzhalter ist).  <br/> |
-|"cmpltype"  <br/> |Int, nicht null  <br/> | Der Typ des kompatibilitätsereignisses: <br/>  1: chat <br/>  2: Backchat <br/>  3: Dateidownload <br/>  4: Dateiupload <br/>  9: vorläufige Dateiübertragung <br/>  10: chatlöschung (mit Ersatz) <br/>  11: chatbereinigung <br/> |
-|cmplTime  <br/> |Bigint, nicht null  <br/> |Zeitstempel für das Ereignis.  <br/> |
-|cmplChannelUri  <br/> |Nvarchar (255), nicht null  <br/> |Kanal Uniform Resource Identifier (URI).  <br/> |
-|cmplChatID  <br/> |bigint  <br/> |Chat-ID (entsprechend der Tabelle "tblchat.chatid").  <br/> |
-|cmplUserID  <br/> |Int, nicht null  <br/> |Prinzipal-ID des bereitstellers (entsprechend der tblPrincipal.prinID-Tabelle).  <br/> |
-|cmplUserUri  <br/> |Nvarchar (255), nicht null  <br/> |Der URI des Benutzers.  <br/> |
-|cmplMessage  <br/> |Nvarchar (Max.)  <br/> |Nachricht (Codierung abhängig "cmpltype").  <br/> |
+|cmplEventID  <br/> |bigint, nicht NULL  <br/> |Ereignis-ID.  <br/> |
+|entryDate  <br/> |smalldatetime, nicht NULL  <br/> |Zeitpunkt der Einfügung (kann für cmplType = 9 weit in der Zukunft liegen, da der Eintrag nur ein Platzhalter in diesem Fall ist).  <br/> |
+|cmplType  <br/> |int, nicht NULL  <br/> | Art des Konformitäts Ereignisses: <br/>  1: Chat <br/>  2: Backchat <br/>  3: Herunterladen von Dateien <br/>  4: Hochladen von Dateien <br/>  9: provisorische Dateiübertragung <br/>  10: Löschen des Chats (mit Replace) <br/>  11: Chat-Bereinigung <br/> |
+|cmplTime  <br/> |bigint, nicht NULL  <br/> |Zeitstempel für das Ereignis.  <br/> |
+|cmplChannelUri  <br/> |nvarchar (255); nicht NULL  <br/> |Kanal Uniform Resource Identifier (URI).  <br/> |
+|cmplChatID  <br/> |bigint  <br/> |Chat-ID (entsprechend der tblChat. Chat-Tabelle).  <br/> |
+|cmplUserID  <br/> |int, nicht NULL  <br/> |Prinzipal-ID des Plakats (entsprechend der tblPrincipal. prinID-Tabelle).  <br/> |
+|cmplUserUri  <br/> |nvarchar (255); nicht NULL  <br/> |Benutzer-URI.  <br/> |
+|cmplMessage  <br/> |nvarchar (max)  <br/> |Nachricht (Codierung hängt von cmplType ab).  <br/> |
    
 **Schlüssel**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
-|cmplEventID  <br/> |Primärschlüssel.  <br/> |
+|cmplEventID  <br/> |Primärschlüssel  <br/> |
    
 

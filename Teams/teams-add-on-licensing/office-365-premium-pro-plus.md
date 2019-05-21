@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 ProPlus  '
+title: 'Office 365 ProPlus '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,33 +10,33 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: Informationen Sie zu Add-on-Lizenzen, Funktionen und Informationen zum Erwerben von für Office 365 ProPlus.
-ms.openlocfilehash: 5d7c21d5736db08146d25909ab307c39a903e98d
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Erfahren Sie mehr über Add-on-Lizenzen, Features und Anleitungen zum Kauf von Office 365 ProPlus.
+ms.openlocfilehash: 35a1ab4f466c194c3afa64d7e3cf789049cf3b30
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541392"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298516"
 ---
-# <a name="office-365-proplus"></a>Office 365 ProPlus 
+# <a name="office-365-proplus"></a>Office 365 ProPlus
 
-Wenn Sie den [Office 365 ProPlus](https://products.office.com/en/business/office-365-proplus-business-software) Plan bereits erworben haben, sind hier die Add-on-Lizenzen benötigten kaufen, um mehr Teams Features zur Verfügung.
+Wenn Sie den [Office 365 ProPlus](https://products.office.com/en/business/office-365-proplus-business-software) -Plan bereits gekauft haben, finden Sie hier die Add-on-Lizenzen, die Sie erwerben müssen, um weitere Teamfunktionen zu erhalten.
 
 > [!IMPORTANT]
-> Obwohl Audiokonferenzen Telefonsystem und plant aufrufen erworben werden können, um VoIP Anruffunktionen aktivieren, wird empfohlen, dass Sie einen Plan Enterprise E5 um festzustellen, ob es kosteneffektiver ist ausgewertet werden soll.
+> Obwohl Audiokonferenz-, Telefon System-und Anrufpläne zum Aktivieren von Sprachanruf Funktionen erworben werden können, empfehlen wir, dass Sie einen Enterprise E5-Plan auswerten, um festzustellen, ob diese kostengünstiger sind.
 
 
-|Zum Hinzufügen dieser Funktion ... |Hier wird die erforderlich ist |
+|Zum Hinzufügen dieser Funktion ... |Sie müssen Folgendes tun |
 |:---------------------------|:--------------------------------|
-|Audiokonferenzen <br/> |Kaufen Sie das Add-on Audiokonferenzen. <br/>Kaufen Sie 1 Audiokonferenzen-Lizenz für jeden Benutzer, der das Planen oder eine Konferenz einwählen. Attendees do not need licenses. <br/>Wenn Sie die Lizenz kaufen, wird Microsoft Ihr Audiokonferenzanbieter. |
-|Gebührenfreie Nummern für DFÜ-Zugriff auf Konferenzen und die Möglichkeit von einer Konferenz anwählen einer Person hinzufügen, indem Sie eine Telefonnummer in der ganzen Welt aufrufen <br/> |Kaufen Sie [Communications haben](../set-up-communications-credits-for-your-organization.md).|
-|Telefonsystem <br/> |<ol><li>[Wechseln zu einem anderen Office 365 Business-Plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Wenn Sie Office 365 ProPlus verfügen, empfehlen wir Aktualisieren des Plans ein Plan Enterprise E5 abzurufenden Cloud VoIP-Funktionen. Beim Upgrade zu einem Enterprise E1- oder E3-Plan sehen Sie die Option zum Kauf des Telefonsystem-Add-ons. <br/></li><li>Kaufen Sie das Telefonsystem-Add-On. <br/></li><li>Kaufen Sie einen [Plan aufrufen](../calling-plans-for-office-365.md) für Office 365. <br/>Oder verwenden Sie den [Telefondienst Ihres bestehenden Anbieters](microsoft-teams-add-on-licensing.md#bkmk_existing).</li></ol>  <br/> |
-|Einen Aufruf von Plan kaufen <br/> |<ol><li>[Wechseln zu einem anderen Office 365 Business-Plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). <br/></li><li>Kaufen Sie das Telefonsystem-Add-On.</li><li>Kaufen Sie einen [Plan aufrufen](../calling-plans-for-office-365.md).<br/> Sie können dies nur kaufen, nachdem Sie das Telefonsystem Add-on kaufen. <br/> |
+|Audiokonferenzen <br/> |Kaufen Sie das Add-on Audio Conferencing. <br/>Kaufen Sie eine Audiokonferenz-Lizenz für jede Person, die eine Einwahl Besprechung planen oder hosten soll. Attendees do not need licenses. <br/>Wenn Sie die Lizenz kaufen, wird Microsoft Ihr Audiokonferenzanbieter. |
+|Gebührenfreie Nummern für Einwahlzugriff auf Ihre Konferenzen und die Möglichkeit, aus einer Konferenz heraus zu wählen, um jemanden hinzuzufügen, indem Sie eine beliebige Telefonnummer in der Welt anrufen <br/> |[Guthaben](../set-up-communications-credits-for-your-organization.md)für Kommunikationen kaufen.|
+|Telefonsystem <br/> |<ol><li>[Wechseln zu einem anderen Office 365 Business-Plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Wenn Sie über Office 365 ProPlus verfügen, empfehlen wir, Ihren Plan auf einen Enterprise E5-Plan zu aktualisieren, um Cloud-Sprachfeatures zu erhalten. Beim Upgrade zu einem Enterprise E1- oder E3-Plan sehen Sie die Option zum Kauf des Telefonsystem-Add-ons. <br/></li><li>Kaufen Sie das Telefonsystem-Add-On. <br/></li><li>Kaufen Sie [](../calling-plans-for-office-365.md) einen Anrufplan für Office 365. <br/>Oder verwenden Sie den [Telefondienst Ihres bestehenden Anbieters](microsoft-teams-add-on-licensing.md#bkmk_existing).</li></ol>  <br/> |
+|Kaufen eines Anruf Plans <br/> |<ol><li>[Wechseln zu einem anderen Office 365 Business-Plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). <br/></li><li>Kaufen Sie das Telefonsystem-Add-On.</li><li>Kaufen Sie [](../calling-plans-for-office-365.md)einen Anrufplan.<br/> Sie können diesen Kauf nur kaufen, nachdem Sie das Telefon System-Add-on gekauft haben. <br/> |
    

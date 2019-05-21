@@ -5,36 +5,36 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b129b54-a7a8-42a6-9279-0e08410c06ec
-description: "\"Skippedaffiliations\" enthält die zugehörigkeiten, die (gewöhnlich aufgrund von Active Directory-Domänendienste-Zugriffsfehlern) nicht gelesen werden konnten."
-ms.openlocfilehash: 85fe836e75409a0a6aae22583358f9f88dc8d4e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblSkippedAffiliations enthält die Zuordnungen, die nicht gelesen werden konnten (in der Regel aufgrund von Zugriffsfehlern in Active Directory-Domänendiensten).
+ms.openlocfilehash: 481bf92a4014bf2af8e1c4794d1793f2c93e7c36
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924941"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295153"
 ---
 # <a name="tblskippedaffiliations"></a>tblSkippedAffiliations
  
-"Skippedaffiliations" enthält die zugehörigkeiten, die (gewöhnlich aufgrund von Active Directory-Domänendienste-Zugriffsfehlern) nicht gelesen werden konnten.
+tblSkippedAffiliations enthält die Zuordnungen, die nicht gelesen werden konnten (in der Regel aufgrund von Zugriffsfehlern in Active Directory-Domänendiensten).
   
 **Spalten**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|prinID  <br/> |Int, nicht null  <br/> |Prinzipal-ID.  <br/> |
-|affDescription  <br/> |Nvarchar (256), nicht null  <br/> |Eine Zeichenfolge, die die Zuordnung identifiziert.  <br/> Das Format lautet: Guid: _{0}_ Uri: _{1}_>-Id:_{2}_ <br/> |
-|updatedBy  <br/> |Int, nicht null  <br/> |ID des Prinzipals, der diese Zeile aktualisiert. Es ist immer 1 (Systembenutzer), da Active Directory-Synchronisierung die einzige Quelle für diese Einträge ist.  <br/> |
+|prinID  <br/> |int, nicht NULL  <br/> |Prinzipal-ID.  <br/> |
+|affDescription  <br/> |nvarchar (256); nicht NULL  <br/> |Eine Zeichenfolge, die die Zuordnung kennzeichnet.  <br/> Das Format lautet: GUID: _{0}_ URI: _{1}_>-ID:_{2}_ <br/> |
+|updatedBy  <br/> |int, nicht NULL  <br/> |Die ID des Prinzipals, der diese Zeile aktualisiert hat. Es ist immer 1 (Systembenutzer), da die Active Directory-Synchronisierung die einzige Quelle für diese Einträge ist.  <br/> |
    
 **Schlüssel**
 
-|**Spalten**|**Beschreibung**|
+|**Spalte (n)**|**Beschreibung**|
 |:-----|:-----|
-|\<PrinID affDescription\>  <br/> |Primärschlüssel.  <br/> |
-|prinID  <br/> |Fremdschlüssel mit Abfrage der tblPrincipal.prinID-Tabelle.  <br/> |
+|\<prinID, affDescription\>  <br/> |Primärschlüssel  <br/> |
+|prinID  <br/> |Fremdschlüssel mit Lookup in der tblPrincipal. prinID-Tabelle.  <br/> |
    
 
