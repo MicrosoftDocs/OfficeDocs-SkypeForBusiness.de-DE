@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertList
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 description: Wenn Sie ein Zertifikat zuweisen möchten, wählen Sie im lokalen Zertifikatspeicher ein Zertifikat aus. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.
-ms.openlocfilehash: 7e9f76434de049f4d54f3022302b33a72c21037e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f85493c630ee7a024b8a1d6b1814a76f3e903535
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911247"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302983"
 ---
 # <a name="certificate-list"></a>Zertifikatliste
  

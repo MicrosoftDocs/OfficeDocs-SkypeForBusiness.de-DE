@@ -1,25 +1,25 @@
 ---
-title: Peer-zu-Peer-Sitzungsbericht in Skype für Business Server
+title: Bericht "Peer-to-Peer-Sitzungsdetails" in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-description: 'Zusammenfassung: Informationen Sie zu den Detailbericht über Peer-zu-Peer-Sitzungen in Skype für Business Server.'
-ms.openlocfilehash: 77b5a80c2280d5242e4efcc0dc696c6720da4f64
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Bericht Peer-to-Peer-Sitzungsdetails in Skype for Business Server.'
+ms.openlocfilehash: 768609c68e37eebf46c350009638b960066f9456
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925229"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279879"
 ---
-# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Peer-zu-Peer-Sitzungsbericht in Skype für Business Server
+# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Bericht "Peer-to-Peer-Sitzungsdetails" in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Detailbericht über Peer-zu-Peer-Sitzungen in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den Bericht Peer-to-Peer-Sitzungsdetails in Skype for Business Server.
   
 Der Detailbericht über Peer-to-Peer-Sitzungen gibt detaillierte Informationen über eine Peer-to-Peer-Sitzung zurück. Wenn Sie beispielsweise eine Sofortnachrichtensitzung auswählen, gibt der Bericht Ihnen die Anzahl an Nachrichten an, die jeweils von den beiden an der Sitzung beteiligten Benutzern gesendet wurden.
   
@@ -35,7 +35,7 @@ Sie können über die folgenden Berichte (die alle über die Startseite für Üb
     
 - Fehlerlistenbericht 
     
-Von innerhalb der Peer-zu-Peer-Sitzungsbericht möglich den [Diagnosebericht in Skype für Business Server](diagnostic-report.md) durch Klicken auf die Metrik Diagnosebericht (Details). Sie können zudem auf den Bericht über häufigste Fehler zugreifen, indem Sie auf eine der folgenden beiden Metriken klicken:
+Innerhalb des Berichts Peer-to-Peer-Sitzungsdetails können Sie auf den [Diagnosebericht in Skype for Business Server](diagnostic-report.md) zugreifen, indem Sie auf die Metrik für den Diagnosebericht (Details) klicken. Sie können zudem auf den Bericht über häufigste Fehler zugreifen, indem Sie auf eine der folgenden beiden Metriken klicken:
   
 - Reaktion
     

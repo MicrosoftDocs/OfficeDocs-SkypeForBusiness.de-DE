@@ -1,31 +1,31 @@
 ---
-title: Zusammenfassungsbericht Konferenz in Skype für Business Server
+title: Bericht zur Konferenz Zusammenfassung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
-description: 'Zusammenfassung: Erfahren Sie mehr über die Konferenz Zusammenfassungsbericht in Skype für Business Server.'
-ms.openlocfilehash: 8e584b8ca8a7ca08fe0de23d21d4a5608c1f828c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Bericht zur Konferenz Zusammenfassung in Skype for Business Server.'
+ms.openlocfilehash: 7bc3c1c33f50d53b0243060cd84b823e0734afb9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926655"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305877"
 ---
-# <a name="conference-summary-report-in-skype-for-business-server"></a>Zusammenfassungsbericht Konferenz in Skype für Business Server
+# <a name="conference-summary-report-in-skype-for-business-server"></a>Bericht zur Konferenz Zusammenfassung in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den zusammenfassenden Konferenzbericht in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den Bericht zur Konferenz Zusammenfassung in Skype for Business Server.
   
-Der „Zusammenfassende Konferenzbericht“ gibt Ihnen einen Überblick über Ihre Onlinekonferenzsitzungen. Eine Konferenz umfasst mehr als 2 Benutzer in der Regel und erfordert die Verwendung von Live Meeting-Dienste. Demgegenüber erstellt eine Peer-zu-Peer-Sitzung in der Regel nur 2 Benutzer umfasst und erfordert die Verwendung von Skype für Konferenzdienste Business Server nicht. Peer-zu-Peer-Aktivitäten sind für die [Peer-zu-Peer-Aktivität Zusammenfassung Bericht in Skype für Business Server](peer-to-peer-activity-summary-report.md)gemeldet.
+Der „Zusammenfassende Konferenzbericht“ gibt Ihnen einen Überblick über Ihre Onlinekonferenzsitzungen. Eine Konferenz umfasst in der Regel mehr als 2 Benutzer und erfordert die Verwendung von Konferenzdiensten. Im Vergleich dazu umfasst eine Peer-to-Peer-Sitzung in der Regel nur zwei Benutzer und erfordert keine Verwendung von Skype for Business Server-Konferenzdiensten. Peer-zu-Peer-Aktivitäten werden über den [Bericht Peer-to-Peer-Aktivitätszusammenfassung in Skype for Business Server](peer-to-peer-activity-summary-report.md)gemeldet.
   
-Im Conference Summary Report nicht nur erfahren Sie, wie vielen Konferenzen während eines bestimmten Zeitraums (stündlich, täglich, wöchentlich, monatlich) abgehaltenen sondern weist Sie auch die Gesamtzahl der Personen, die Teil in diese Konferenzen haben und die Gesamtzahl der eindeutige Konferenz Organisatoren.
+Der Konferenz Zusammenfassungsbericht zeigt Ihnen nicht nur, wie viele Konferenzen während eines bestimmten Zeitraums abgehalten wurden (stündlich, täglich, wöchentlich, monatlich), sondern zeigt Ihnen auch die Gesamtzahl der Personen an, die an diesen Konferenzen teilgenommen haben, und die Gesamtzahl der einmaligen Konferenz Organisatoren.
   
-Der Organisator einer "unique" ist jeder Benutzer, die mindestens eine Konferenz ansetzt. Wenn zum Beispiel Pilar Ackerman eine Konferenz plant, zählt sie als ein eindeutiger Organisator. Wenn Ken Myer 148 Konferenzen plant, zählt auch er als ein eindeutiger Organisator. So sind in der folgenden Tabelle acht geplante Konferenzen aufgeführt, jedoch nur drei eindeutige Organisatoren (Ken Myer, Pilar Ackerman und David Ahs).
+Ein "einzigartiger" Organisator ist jeder, der mindestens eine Konferenz plant. Wenn zum Beispiel Pilar Ackerman eine Konferenz plant, zählt sie als ein eindeutiger Organisator. Wenn Ken Myer 148 Konferenzen plant, zählt auch er als ein eindeutiger Organisator. So sind in der folgenden Tabelle acht geplante Konferenzen aufgeführt, jedoch nur drei eindeutige Organisatoren (Ken Myer, Pilar Ackerman und David Ahs).
   
 |**Konferenzorganisator**|**Konferenzdatum**|
 |:-----|:-----|
@@ -50,7 +50,7 @@ Auf den zusammenfassenden Konferenzbericht können Sie über die Startseite für
     
 ## <a name="making-the-best-use-of-the-conference-summary-report"></a>Optimale Nutzung des „Zusammenfassenden Konferenzberichts“
 
-Gesamtwerte für den Großteil der Auswertungskriterien auf im Conference Summary Report können am unteren Rand des Berichts gefunden werden. Führen Sie einen Bildlauf nach unten zu finden Sie unter Werte wie die Gesamtzahl der Konferenzen, die während des angegebenen Zeitraums gehalten und die Gesamtzahl der Personen, die an diese Konferenzen teilgenommen haben. Eine Metrik, die nicht am unteren Rand des Berichts summiert wird ist eindeutige konferenzorganisatoren insgesamt. Warum funktioniert sie nicht? Hier ist ein Grund. Angenommen Sie, einem Monat im Wert von Daten angezeigt werden. Am Tag 1 mussten Sie 34 eindeutige konferenzorganisatoren; am Tag 2 mussten Sie 27 eindeutige konferenzorganisatoren. Bedeutet das, dass Sie für diese zwei Tage 61 eindeutige konferenzorganisatoren kommuniziert? Nicht unbedingt. Nachdem alle möglicherweise alle 27 Personen, die Konferenzen am Tag 2 organisiert unter anderem 34, die Konferenzen am Tag 1 organisiert hat. Beispielsweise in diesem einfachen Bericht, beachten Sie, dass Ken Myer "und" Pilar Ackerman Konferenzen beide auf 7/7/2015 geplant und auf 7/2/2015:
+Die Gesamtwerte für die meisten der im Konferenz Zusammenfassungsbericht verwendeten Metriken finden Sie unten im Bericht. Scrollen Sie nach unten, um Werte wie die Gesamtzahl der Konferenzen, die während des angegebenen Zeitraums abgehalten wurden, und die Gesamtzahl der Personen anzuzeigen, die an diesen Konferenzen teilgenommen haben. Eine Metrik, die am Ende des Berichts nicht summiert wird, ist die Gesamtzahl der eindeutigen Konferenzorganisatoren. Warum funktioniert sie nicht? Hier ist ein Grund. Angenommen, Sie suchen nach einem Monat im Wert von Daten. Am 1. Tag hatten Sie 34 einzigartige Konferenzorganisatoren; am Tag 2 hatten Sie 27 einzigartige Konferenzorganisatoren. Bedeutet dies, dass Sie für diese zwei Tage 61 eindeutige Konferenzorganisatoren hatten? Nicht unbedingt. Schließlich könnten alle 27 Personen, die am Tag 2 Konferenzen organisiert haben, zu den 34-Personen gehören, die am Tag 1 Konferenzen organisiert haben. In diesem einfachen Bericht können Sie beispielsweise feststellen, dass Ken Myers und Pilar Ackerman sowohl auf 7/7/2015 als auch auf 7/2/2015 Konferenzen geplant haben:
   
 |**Konferenzorganisator**|**Konferenzdatum**|
 |:-----|:-----|
@@ -92,7 +92,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Zusammenfassend
 |**Teilnehmer insgesamt** <br/> |Nein  <br/> |Die Gesamtzahl der Personen, die an den Konferenzen teilnahmen. Wenn Sie auf dieses Element klicken, wird der Konferenzaktivitätsbericht für die ausgewählte Zeitspanne eingeblendet.  <br/> |
 |**Durchschnittliche Teilnehmeranzahl pro Konferenz** <br/> |Nein  <br/> |Die durchschnittliche Anzahl der Personen, die an einer Konferenz teilnahmen. Errechnet sich durch Dividieren der Gesamtzahl der Konferenzen durch die Gesamtzahl der Teilnehmer.  <br/> |
 |**A/V-Konferenzen insgesamt** <br/> |Nein  <br/> |Die Gesamtzahl der Konferenzen mit Audio oder Video.  <br/> |
-|**Gesamtdauer der A/V-Konferenzen in Minuten** <br/> |Nein  <br/> |Die Gesamtzahl der Minuten, die für Konferenzen mit Audio bzw. aufgewendet wurden.  <br/> Der gesamte A / V-Konferenz Minuten Metrik werden alle audiovisuelle Konferenz Typen, einschließlich zusammengefasst: A / V-Konferenzen Sofortnachrichtenkonferenzen; Anwendungsfreigabe Konferenzen; Datenkonferenzen; und PSTN-Konferenzen.  <br/> |
+|**Gesamtdauer der A/V-Konferenzen in Minuten** <br/> |Nein  <br/> |Die Gesamtzahl der Minuten, die für Konferenzen mit Audio bzw. aufgewendet wurden.  <br/> Die Metrik "Gesamt a/v-Konferenz Minuten" fasst alle audiovisuellen Konferenztypen zusammen, einschließlich: a/v-Konferenzen; Chat Konferenzen; App-Freigabe Konferenzen; Datenkonferenzen; und PSTN-Konferenzen.  <br/> |
 |**Gesamtdauer (in Minuten), die Teilnehmer in der A/V-Konferenz verbleiben** <br/> |Nein  <br/> |Die Gesamtzahl der Minuten, die Teilnehmer in Konferenzen mit Audio bzw. Video verbrachten. Beispiel: Angenommen, ein Benutzer verbringt 5 Minuten in einer A/V-Konferenz und ein zweiter Benutzer verbringt 3 Minuten in der gleichen Konferenz. Dies ergibt eine Gesamtdauer von 5 + 3 = 8 Minuten.  <br/> |
 |**Durchschnittliche Dauer der A/V-Konferenzen in Minuten** <br/> |Nein  <br/> |Die durchschnittliche Anzahl der Minuten pro A/V-Konferenz.  <br/> |
 |**Eindeutige Konferenzorganisatoren insgesamt** <br/> |Nein  <br/> |Die Gesamtzahl der Benutzer, die mindestens eine Konferenz organisiert haben. Benutzer, die mehr als eine Konferenz organisiert haben, zählen als ein eindeutiger Organisator, genauso wie Benutzer, die nur eine einzige Konferenz organisiert haben.  <br/> |

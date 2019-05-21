@@ -1,55 +1,55 @@
 ---
-title: Neuigkeiten in Skype für Business Server 2019 | Funktionen
+title: Neuerungen in Skype for Business Server 2019 | Funktionen
 ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Zusammenfassung: Diese Features sind neu in Skype für Business Server 2019.'
-ms.openlocfilehash: 68b6a2c3e3115df58c44603817e2adfc0c83f67c
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+description: 'Zusammenfassung: diese Funktionen sind neu in Skype for Business Server 2019.'
+ms.openlocfilehash: 4ede00188c8928e0fa3d89857b6d5bfdb0a44ade
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835239"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283899"
 ---
-# <a name="whats-in-skype-for-business-server-2019"></a>Was ist in Skype für Business Server 2019
+# <a name="whats-in-skype-for-business-server-2019"></a>Was ist in Skype for Business Server 2019
 
-**Zusammenfassung:** Lesen Sie dieses Thema, um Informationen zu neuen Features in Skype für Business Server 2019 erhalten.  
+**Zusammenfassung:** In diesem Thema finden Sie Informationen zu den neuen Funktionen in Skype for Business Server 2019.  
 
-Die folgenden: neuen Features in Skype für Business Server 2019
+Zu den neuen Funktionen in Skype for Business Server 2019 gehören die folgenden:
   
 - Cloudvoicemail  
 - Anrufdatenconnector
-- Side-by-Side-migration
+- Parallele Migration
 
-## <a name="unified-messaging-services-cloud-voicemail"></a>Unified messaging-Dienste: Cloud-Voicemail
+## <a name="unified-messaging-services-cloud-voicemail"></a>Unified Messaging-Dienste: Cloud Voicemail
 
-Exchange UM bleibt verfügbar in Skype für Business Server 2019 beim Exchange 2013 oder Exchange 2016 Skype für Unternehmen 2019 integrieren. Aufgrund von Änderungen im-Unterstützung in Exchange 2019 wird jede Bedeutung wird Cloud Voicemail und Cloud-Telefonzentrale Features Exchange UM-Integration.  
+Exchange um bleibt in Skype for Business Server 2019 verfügbar, wenn Sie Skype for Business 2019 mit Exchange 2013 oder Exchange 2016 integrieren. Aufgrund von Änderungen an der Unterstützung in Exchange 2019 wird die Exchange um-Integration zu Gunsten der Features Cloud Voicemail und Cloud-automatische Telefonzentrale de-hervorgehoben.  
 
-Cloud-Voicemail aktiviert alle Ihre Skype für Business 2019 Users& #x 2014; ob sie in der lokalen oder Online& #x 2014; Zugriff auf dem gleichen Voicemail-Dienst in der Microsoft-Cloud verwaltet werden. Cloud-Voicemail bietet die folgenden Vorteile für die lokalen und online-Benutzer:
+Cloud Voicemail ermöglicht alle Ihre Skype for Business 2019 users& # x2014; unabhängig davon, ob Sie lokal oder online& # x2014 sind, um in der Microsoft-Cloud Zugriff auf denselben Voicemaildienst zu haben. Cloud Voicemail bietet die folgenden Vorteile für Ihre lokalen und Online Benutzer:
 
-- Zugriff auf Voicemail in ihrer Exchange-Postfach mithilfe der Skype für Business Online, Teams oder Outlook-clients
-- Die Möglichkeit, verwenden das webbasierte Portal Verwalten ihrer Voicemail-Optionen
+- Zugriff auf Voicemail in Ihrem Exchange-Postfach mithilfe der Skype for Business Online-, Teams-oder Outlook-Clients
+- Möglichkeit zur Verwendung des webbasierten Portals zum Verwalten der Voicemail-Optionen
 
-Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../sfbhybrid/hybrid/plan-cloud-voicemail.md) und [Skype für Business Server und Exchange Server-Migration planen](../sfbhybrid/hybrid/plan-um-migration.md) .
+Weitere Informationen finden Sie unter [Planen des Cloud Voicemail-Diensts](../sfbhybrid/hybrid/plan-cloud-voicemail.md) und [Planen der Skype for Business Server-und Exchange Server-Migration](../sfbhybrid/hybrid/plan-um-migration.md) .
   
-## <a name="call-monitoring-call-data-connector"></a>Rufen Sie monitoring: Anruf Data Connector
+## <a name="call-monitoring-call-data-connector"></a>Anrufüberwachung: Anrufdaten-Konnektor
 
-Anruf Data Connector vereinfacht die Anruf-Überwachung in einer hybridumgebung, da Sie nicht mehr benötigen, um verschiedene Sätze von lokalen und online-Tools verwenden, um alle Ihre Benutzer die Anrufqualität zu überwachen.  Ob Ihre Benutzer lokal verwaltete oder online sind, können Sie die Anrufqualität für die gesamte Organisation online anzeigen.
+Der Anruf Datenkonnektor vereinfacht die Anrufüberwachung in einer Hybridumgebung erheblich, da Sie keine unterschiedlichen lokalen und Online Tools mehr verwenden müssen, um die Anrufqualität Ihrer Benutzer zu überwachen.  Unabhängig davon, ob Ihre Benutzer lokal oder online sind, können Sie festlegen, dass die Anrufqualität für Ihre gesamte Organisation online angezeigt werden soll.
 
-Mit Data Connector aufrufen, können Sie die folgenden Aufgaben ausführen, mithilfe einer einzelnen Toolset:
+Mit Call Data Connector können Sie die folgenden Aufgaben mithilfe eines einzelnen Toolsets ausführen:
 
-- Überwachen Sie Ihre Benutzer wünschen über Microsoft-Teams, Skype für Business Online und Skype für Business Server.
-- Zeigen Sie an und beheben Sie Probleme in Ihrem Netzwerk
-- Zuweisen von Helpdesk und Administrator Rollen für aufrufen, Analyse, sodass Mitarbeiter anzeigen und beheben Verantwortungsbereich Helpdesk Webinhalte.
+- Überwachen Sie Ihre Benutzererfahrung in Microsoft Teams, Skype for Business Online und Skype for Business Server.
+- Anzeigen und Beheben von Problemen in Ihrem Netzwerk
+- Weisen Sie Helpdesk-und Administratorrollen für die anrufanalyse zu, damit Sie Helpdesk-Mitarbeitern die Möglichkeit geben können, ihre Zuständigkeitsbereiche anzuzeigen und zu beheben.
 
-Weitere Informationen finden Sie unter [Planen der Call Data Connector](../sfbhybrid/hybrid/plan-call-data-connector.md) .
+Weitere Informationen finden Sie unter [Planen von Anrufdaten](../sfbhybrid/hybrid/plan-call-data-connector.md) -Konnektoren.
 
 ### <a name="see-also"></a>Siehe auch
 
-[Was ist aus Skype für Business Server 2019 veraltet](deprecated.md)
+[Was ist in Skype for Business Server 2019 veraltet?](deprecated.md)

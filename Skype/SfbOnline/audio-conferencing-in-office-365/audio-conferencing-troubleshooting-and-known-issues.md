@@ -12,38 +12,38 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Rufen Sie eine Liste bekannter Probleme bei Verwendung von Microsoft als Anbieternamens einwahlkonferenz, Status und umgangen. '
-ms.openlocfilehash: 997cc5007df35b307cb714b891bc60764bd4a645
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Rufen Sie eine Liste bekannter Probleme ab, wenn Sie Microsoft als Einwahlkonferenz Anbieter, Status und einige Problemumgehungen verwenden. '
+ms.openlocfilehash: 9b70cfcdeeb80be43cd0ecc99ca7eced71bb9319
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229184"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289583"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Problembehandlung und bekannte Probleme bei Audiokonferenzen
 
- **Dieser Artikel ist für Skype für Unternehmensbenutzer, die mit Microsoft als Anbieter von Audiokonferenzen. Es gilt nicht für Kunden, die einen Drittanbieter-Audiokonferenzen (ACP) verwenden.**
+ **Dieser Artikel befasst sich mit Skype for Business-Benutzern, die Microsoft als Anbieter von Audiokonferenzen verwenden. Dies gilt nicht für Kunden, die einen Drittanbieter für Audiokonferenzen (ACP) verwenden.**
   
 ## <a name="troubleshooting-and-known-issues"></a>Problembehandlung und bekannte Probleme
 
 Bei Audiokonferenzen mit Microsoft als Audiokonferenzanbieter sind aktuelle Probleme bekannt, die nachverfolgt, aktiv untersucht und potentiell gelöst werden, wenn die Funktion in zukünftigen Versionen von Office 365 aktualisiert wird.
   
-In dieser Übung verwenden Sie dies als einen Verweis bei der Problembehandlung potenzielle Probleme mit dem Einrichten von Audiokonferenzen abrufen und für die Verwendung von Skype für Unternehmen in Ihrer Organisation Personen arbeiten.
+Verwenden Sie diese Option im Moment als Referenz, wenn Sie mögliche Probleme beim Einrichten und Arbeiten von Audiokonferenzen für Personen, die Skype for Business in Ihrer Organisation verwenden, beheben möchten.
 
 |**Problem**|**Verhalten/Symptome**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Benachrichtigungen bei Zu- oder Abgang sind zu Beginn einer Besprechung aktiviert, werden aber kurz darauf deaktiviert.  <br/> |Die Benachrichtigungen bei Zu- oder Abgang sind für Besprechungen, an denen Teilnehmer sowohl über Skype for Business-Apps als auch per Einwahl teilnehmen, standardmäßig deaktiviert. Sie können die Ankündigungen in den **Skype-Besprechungsoptionen** in der Skype for Business-App aktivieren. Bei einer Besprechung, an der alle Teilnehmer durch Einwahl teilnehmen, sind die Benachrichtigungen bei Zu- oder Abgang standardmäßig aktiviert, da den Teilnehmern keine Teilnehmerliste zur Verfügung steht. Wenn eine Besprechung ausschließlich mit Teilnehmern begonnen hat, die durch Einwahl teilnehmen, werden die Benachrichtigungen bei Zu- oder Abgang aktiviert. Wenn jedoch ein Teilnehmer über eine Skype for Business-App teilnimmt, werden die Benachrichtigungen deaktiviert. Deaktivierte Benachrichtigungen können mithilfe der **Skype-Besprechungsoptionen** in der Skype for Business-App wieder aktiviert werden. <br/> |Keine Problemumgehung  <br/> |30.8.2017  <br/> |
-|Wenn ein Benutzer durch Zuweisen einer E5-Lizenz erstmals bereitgestellt wird und das Postfach nicht aktiviert ist, wird die Begrüßungs-E-Mail für Audiokonferenzen möglicherweise nicht zugestellt.  <br/> |In diesem Fall können Sie die Informationen zur Audiokonferenz jederzeit mit der Option **Audio conferencing** (Audiokonferenz) im Skype for Business Admin Center oder mit PowerShell erneut an den Benutzer senden. Finden Sie unter [Aktivieren oder deaktivieren Sie e-Mails senden, wenn Audiokonferenzen Einstellungen ändern](enable-or-disable-sending-emails-when-their-settings-change.md).  <br/> **Hinweis:** Um dem Benutzer die Audiokonferenz PIN erneut zu senden, muss die PIN zurückgesetzt werden. Dies kann auch mithilfe von **Audiokonferenzen** in der Skype für Business-Verwaltungskonsole oder mithilfe von PowerShell erfolgen.          |Keine Problemumgehung  <br/> |30.8.2017  <br/> |
+|Wenn ein Benutzer durch Zuweisen einer E5-Lizenz erstmals bereitgestellt wird und das Postfach nicht aktiviert ist, wird die Begrüßungs-E-Mail für Audiokonferenzen möglicherweise nicht zugestellt.  <br/> |In diesem Fall können Sie die Informationen zur Audiokonferenz jederzeit mit der Option **Audio conferencing** (Audiokonferenz) im Skype for Business Admin Center oder mit PowerShell erneut an den Benutzer senden. Weitere Informationen finden Sie unter [Aktivieren oder deaktivieren](enable-or-disable-sending-emails-when-their-settings-change.md)des Sendens von e-Mails, wenn audiokonferenzeinstellungen geändert werden.  <br/> **Hinweis:** Um die PIN für die Audiokonferenz an den Benutzer erneut zu senden, muss die PIN zurückgesetzt werden. Dies kann auch mithilfe von Audiokonferenzen **** im Skype for Business Admin Center oder mithilfe von PowerShell erfolgen.          |Keine Problemumgehung  <br/> |30.8.2017  <br/> |
 |Es kann bis zu 24 Stunden dauern, bis Audiokonferenzanrufe in den Nutzungsberichten angezeigt werden.  <br/> |Für diesen Bereich sind in zukünftigen Dienstupdates Verbesserungen geplant.  <br/> |Keine Problemumgehung  <br/> |30.8.2017  <br/> |
 |Wenn sich ein Anrufer in eine Konferenzbrücke einwählt, nachdem die Besprechung von einem Skype for Business-Benutzer gesperrt wurde, wird in derSkype for Business-App keine Benachrichtigung dazu angezeigt, dass der Benutzer im Wartebereich wartet.  <br/> |Dies ist zurzeit entwurfsbedingt, wir werden jedoch Ihr Feedback hinsichtlich der Unterstützung dieser Funktion in zukünftigen Dienstupdates berücksichtigen.  <br/> |Keine Problemumgehung  <br/> |30.8.2017  <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder Erwerben von Audiokonferenzen in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

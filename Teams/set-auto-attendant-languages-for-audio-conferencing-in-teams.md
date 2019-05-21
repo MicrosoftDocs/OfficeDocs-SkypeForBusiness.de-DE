@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Hier erfahren Sie, wie Sie die Sprachen für die automatische Telefonzentrale für Audiokonferenzen für eine Audiokonferenz-Telefonnummer in Microsoft Teams auswählen.
-ms.openlocfilehash: ce0462dd1e855402aee424a5f677e37efba1a7e3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 67a542743c05c8042626d0bb0b52830e07305827
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204888"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305298"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Festlegen der Sprachen für die automatische Telefonzentrale für Audiokonferenzen in Microsoft Teams
 
@@ -35,23 +35,23 @@ Die automatische Telefonzentrale für Audiokonferenzen für Microsoft Teams kann
 Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen aus. Die automatische Telefonzentrale verwendet zuerst die von Ihnen festgelegte primäre Sprache und dann die sekundären Sprachen in der Reihenfolge der Auswahl. 
   
 > [!NOTE]
->  Sie können nur die Sprachen von Audiokonferenzen Zahlen ändern, die der Kategorie dedizierten sind. Die Sprachen Shared Audiokonferenzen Zahl können nicht geändert werden.
+>  Sie können nur die Sprachen der Audiokonferenz-Nummern ändern, die der dedizierten Kategorie entsprechen. Die Sprachen der freigegebenen Audiokonferenz-Nummer können nicht geändert werden.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Legen Sie die Sprachen für die automatische Telefonzentrale fest
 
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
+![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center**
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken).
 
-2. Wählen Sie eine **dedizierte** Audiokonferenzen Rufnummer aus der Liste aus, und klicken Sie am oberen Rand der Seite aus, klicken Sie auf **Bearbeiten**. Es ist nur möglich, die Sprachen von dedizierten Audiokonferenzen Zahlen ändern. Die Option **Bearbeiten** wird nur angezeigt, wenn eine dedizierte Audiokonferenzen Anzahl ausgewählt wird.
+2. Wählen Sie **** in der Liste eine dedizierte Audiokonferenz-Telefonnummer aus, und klicken Sie oben auf der Seite auf **Bearbeiten**. Es ist nur möglich, die Sprachen für dedizierte Audiokonferenz-Nummern zu ändern. Die Option " **Bearbeiten** " wird nur angezeigt, wenn eine dedizierte Audiokonferenz-Nummer ausgewählt ist.
 
-3. Wählen Sie im Bereich auf der rechten Seite die gewünschten Standardsprache und alle alternativen Sprachen. 
+3. Wählen Sie im Bereich auf der rechten Seite die gewünschte Standardsprache und alle alternativen Sprachen aus. 
  
     > [!NOTE]
-    > Der standardmäßige und alternative Sprachen, die unterstützt werden, sind aufgeführt. Die Reihenfolge, in der Sie sie in den Listen auswählen, wird die Reihenfolge der Sprachen zu den Anrufern präsentiert werden. 
+    > Die Standard-und alternativen Sprachen, die unterstützt werden, werden aufgelistet. Die Reihenfolge, in der Sie Sie in den Listen auswählen, ist die Reihenfolge der für die Anrufer vorgestellten Sprachen. 
 
 4. Klicken Sie auf **Speichern**.
 
@@ -66,7 +66,7 @@ Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen aus. Die a
     
 ## <a name="want-to-use-windows-powershell"></a>Wollen Sie Windows PowerShell verwenden?
 
-Finden Sie im [Microsoft-Teams PowerShell Verweis](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) für Weitere Informationen.
+Weitere Informationen finden Sie in der [Microsoft Teams PowerShell-Referenz](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
   
 ## <a name="related-topics"></a>Verwandte Themen
 

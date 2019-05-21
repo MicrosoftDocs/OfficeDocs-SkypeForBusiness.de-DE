@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.reviewer: PhillipGarding
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Dieser Artikel beschreibt die für den Skype for Business für Mac-Client verfügbaren Clienteinstellungen und Standardwerte sowie deren Bearbeitung außerhalb der App.
-ms.openlocfilehash: ac398ec928ac4f00b107a2fb9bff1dda8e65cd68
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fa9b809c742a87a7f522ed211406e2b97cbcfe6d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893490"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282517"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Anpassen der Mac-Clienterfahrung in Skype for Business
  
@@ -23,18 +23,18 @@ Dieser Artikel beschreibt die für den Skype for Business für Mac-Client verfü
   
 ## <a name="skype-for-business-on-mac-client-preference-settings"></a>Einstellungen für Skype for Business für Mac-Client
 
-Bestimmte Features und Verhaltensweisen, die Skype für Unternehmen auf Mac-Clients zur Verfügung stehen, werden über Voreinstellungen auf dem Client festgelegt. Die Skype für Mac Vorlieben Unternehmen befinden sich in einer Datei auf Macs, der die Skype für befindet sich unter folgendem Pfad Business-Client installiert ist: 
+Bestimmte Features und Verhaltensweisen, die Skype for Business für Mac-Clients zur Verfügung stehen, werden von den Einstellungen auf dem Client bestimmt. Die Einstellungen für Skype for Business für Mac finden Sie in einer Datei auf Macs, auf der der Skype for Business-Client installiert ist, der sich unter dem folgenden Pfad befindet: 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
-Wenn diese Einstellungen festlegen möchten, erhalten Sie auf einer terminal ein auf dem Client-Mac und als benötigt, geben Sie Standardeinstellungen Write com.microsoft.SkypeForBusiness wichtige Befehle mithilfe der Einstellungsschlüssel in der folgenden Tabelle beschrieben.
+Um diese Einstellungen festzulegen, wechseln Sie auf dem Mac des Clients zu einer Terminal Eingabeaufforderung, und geben Sie bei Bedarf in Standardeinstellungen den Befehl com. Microsoft. SkypeForBusiness-Schlüssel mithilfe der in der folgenden Tabelle beschriebenen Präferenz Tasten ein.
   
 **Client-Einstellungsschlüssel**
 
 
 | Schlüssel | Typ | Wert | Beschreibung |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDiscoveryURLs    |Bool    |0 = manuelle Serverkonfiguration  <br/> 1 = automatische Servererkennung (Standardwert)    |Geben Sie an, wie Skype für Unternehmen Transportprotokoll und Server, die während der Anmeldung verwendet identifiziert. Wenn Sie diese Richtlinieneinstellung aktivieren, müssen Sie **internalAutoDiscoveryURL** und **externalAutoDiscoveryURL** angeben.   |
+|AutoDetectAutoDiscoveryURLs    |Bool    |0 = manuelle Serverkonfiguration  <br/> 1 = automatische Servererkennung (Standardwert)    |Geben Sie an, wie Skype for Business den Transport und den Server identifiziert, die Sie bei der Anmeldung verwenden möchten. Wenn Sie diese Richtlinieneinstellung aktivieren, müssen Sie **internalAutoDiscoveryURL** und **externalAutoDiscoveryURL** angeben.   |
 |internalAutoDiscoveryURL    |Zeichenfolge    |Vollständige URL zur automatischen Erkennung    |Interne URL zur automatischen Erkennung    |
 |externalAutoDiscoveryURL    |Zeichenfolge    |Vollständige URL zur automatischen Erkennung    |Externe URL zur automatischen Erkennung    |
 |httpProxyDomain    |Zeichenfolge    ||HTTP-Proxy-Domäne    |
@@ -43,19 +43,19 @@ Wenn diese Einstellungen festlegen möchten, erhalten Sie auf einer terminal ein
 |trustedDomainList    |Array    ||Liste mit vertrauenswürdigen Domänen für HTTP-Umleitungen.    |
 |autoAcceptTimeout    |Number    |300 (Standardwert)    |Automatisch akzeptiertes Timeout für Benutzer mit serverseitigem Konversationsverlauf.    |
 |warnWhenUnknownLocationForE911    |Bool    |0 = Deaktiviert  <br/> 1 = Aktiviert    |Warnt den Benutzer beim Wählen einer Notrufnummer von einem unbekannten Standort aus.    |
-|sipAddress    |Zeichenfolge    ||Die SIP-Adresse (e) verwendet, um Skype für Unternehmen anmelden.    |
-|userName    |String    ||Der UPN (UserName) verwendet, um Skype für Unternehmen anmelden.    |
-|userNameInAdvancedOnly    |Bool    |0 = das Feld Benutzername auf das Hauptfenster im Anmeldebildschirm und im Dialogfeld Erweiterte Eigenschaften anzeigen  <br/> 1 = zeigt das Feld Benutzername nur in das Dialogfeld Erweiterte Eigenschaften (Standard)    |Geben Sie an, wo das Feld Benutzername bei der Anmeldung angezeigt wird.    |
+|sipAddress    |Zeichenfolge    ||Die SIP-Adresse (e-Mail), die für die Anmeldung bei Skype for Business verwendet wird.    |
+|userName    |String    ||Der UPN (Benutzername), der für die Anmeldung bei Skype for Business verwendet wird.    |
+|userNameInAdvancedOnly    |Bool    |0 = Anzeige des Felds "Benutzer Name" auf dem hauptanmeldebildschirm und im Dialogfeld "Erweiterte Eigenschaften"  <br/> 1 = Anzeige des Felds "Benutzer Name" nur im Dialogfeld "Erweiterte Eigenschaften" (Standard)    |Geben Sie an, wo das Feld Benutzer Name während der Anmeldung angezeigt werden soll.    |
    
 ### <a name="usage-examples"></a>Nutzungsbeispiele
 
-Zum Hinzufügen einer einzelnen Domäne (Contoso.com) in die Liste der vertrauenswürdigen Domäne verwenden Sie die Taste TrustedDomainList wie dargestellt:
+Wenn Sie der Liste der vertrauenswürdigen Domänen eine einzelne Domäne (contoso.com) hinzufügen möchten, verwenden Sie den trustedDomainList-Schlüssel wie in der Abbildung dargestellt:
   
-Standardwerte schreiben com.microsoft.SkypeForBusiness TrustedDomainList-Array-"Contoso.com" hinzufügen
+defaults Write com. Microsoft. SkypeForBusiness trustedDomainList-Array-Add "contoso.com"
   
 Um mehrere Domänen zur Liste der vertrauenswürdigen Domänen hinzuzufügen, verwenden Sie den trustedDomainList-Schlüssel (siehe unten):
   
-Standardwerte schreiben com.microsoft.SkypeForBusiness TrustedDomainList-Array-"sfb.com" "abc.com" "test.org" hinzufügen
+defaults Write com. Microsoft. SkypeForBusiness trustedDomainList-Array-Add "SFB.com" "ABC.com" "Test.org"
   
 ### <a name="sample-unedited-settings"></a>Nicht bearbeitete Beispieleinstellungen
 

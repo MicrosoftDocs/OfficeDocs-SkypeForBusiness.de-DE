@@ -1,45 +1,45 @@
 ---
-title: Konfigurieren von CUCM für die Interoperation mit Skype für Business Server
+title: Konfigurieren von CUCM für die Zusammenarbeit mit Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
-description: 'Zusammenfassung: Konfigurieren Sie CUCM Skype für Business Server entwickelt.'
-ms.openlocfilehash: 58896a635b389ca18506ca775ae4fb7715caf0ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Konfigurieren von CUCM für die Zusammenarbeit mit Skype for Business Server.'
+ms.openlocfilehash: b0087e54b91b8c11bfcaba0c1eb732183db252bd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894570"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302793"
 ---
-# <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Konfigurieren von CUCM für die Interoperation mit Skype für Business Server
+# <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Konfigurieren von CUCM für die Zusammenarbeit mit Skype for Business Server
  
-**Zusammenfassung:** Konfigurieren von CUCM Skype für Business Server entwickelt.
+**Zusammenfassung:** Konfigurieren von CUCM für die Zusammenarbeit mit Skype for Business Server.
   
 > [!CAUTION]
-> Diese Funktion wird getestet, mit Cisco Unified Communications Manager (CallManager oder CUCM) Version 10.5 Trunks von setup über TCP. Vergewissern Sie sich, dass die CUCM-Umgebung diese Kriterien erfüllt, bevor Sie fortfahren. 
+> Diese Funktion wird mit Cisco Unified Communications Manager (CallManager oder CUCM) Version 10,5 unter Verwendung von Trunks-Setup über TCP getestet. Vergewissern Sie sich, dass die CUCM-Umgebung diese Kriterien erfüllt, bevor Sie fortfahren. 
   
-Die hier beschriebenen Einstellungen Präsentationsstil nur als Beispiele wie CUCM konfiguriert werden kann einen VIS. entwickelt Andere Einstellungen und/oder Verwendungsmöglichkeiten von alternativen CUCM-Funktionen können auch zum Erzielen des gleichen Ergebnisses herangezogen werden. Es werden keine Empfehlungen hinsichtlich der optimalen Konfiguration für ein bestimmtes Szenario gegeben.
+Die hier beschriebenen Einstellungen sind nur als Beispiele dafür gedacht, wie CUCM für die Arbeit mit einem VIS konfiguriert werden kann. Andere Einstellungen und/oder Verwendungsmöglichkeiten von alternativen CUCM-Funktionen können auch zum Erzielen des gleichen Ergebnisses herangezogen werden. Es werden keine Empfehlungen hinsichtlich der optimalen Konfiguration für ein bestimmtes Szenario gegeben.
   
 Mehrere CUCM-Einstellungen müssen für die Interoperabilität mit dem VIS bestätigt oder geändert werden. Führen Sie die folgenden Schritte aus, um sicherzustellen, dass Sie keine erforderlichen Einstellungen übersehen.
   
 ### <a name="configure-the-cucm"></a>Konfigurieren von CUCM
 
-1. Melden Sie sich an CUCM, und navigieren Sie zu Cisco Unified CM Administration-\>Call Routing -\>Klasse der Steuerelement -\>Partition.
+1. Melden Sie sich bei CUCM an, und navigieren Sie zu Cisco\>Unified cm Administration\>– Anrufweiterleitung –\>Klasse der Steuerung – Partition.
     
 2. Geben Sie auf dem Bildschirm „Partition Configuration“ (Partitionskonfiguration) den Namen der Partition sowie eine Beschreibung ein und klicken Sie auf **Add New** (Neu hinzufügen).
     
-3. Navigieren Sie zu Cisco Unified CM Administration-\>Call Routing -\>Klasse von Steuerelement -\>Suche Speicherplatz aufrufen.
+3. Navigieren Sie zu Cisco Unified cm Administration\>– Anrufweiterleitung\>– Klasse des Steuer\>Elements – aufrufen des Suchbereichs.
     
 4. Geben Sie auf dem Bildschirm „Calling Search Space Configuration“ (Konfiguration des Anrufsuchbereichs) den Namen des Anrufsuchbereichs und unter „Selected Partitions“ (Ausgewählte Partitionen) den Namen der soeben erstellten Partition ein. Klicken Sie abschließend auf **Save** (Speichern).
     
-5. Navigieren Sie zu Cisco Unified CM Administration-\>System -\>Security -\>SIP-Trunk Security-Profil.
+5. Navigieren Sie zu Cisco Unified cm Administration\>-System\>-Security\>-SIP Trunk Security Profile.
     
 6. Legen Sie auf dem Bildschirm „SIP Trunk Security Profile Configuration“ (Konfiguration des SIP-Trunk-Sicherheitsprofils) die Informationen des SIP-Trunk-Sicherheitsprofils wie im Folgenden angegeben fest. Klicken Sie dann auf **Add New** (Neu hinzufügen).
     
@@ -51,7 +51,7 @@ Mehrere CUCM-Einstellungen müssen für die Interoperabilität mit dem VIS best�
    |Outgoing Transport Type (Typ des ausgehenden Transportprotokolls)  <br/> |TCP  <br/> |
    |Incoming Port (Eingehender Port)  <br/> |5060  <br/> |
    
-7. Navigieren Sie zu Cisco Unified CM Administration -\>Gerät -\>Gerät Einstellungen -\>SIP-Profil.
+7. Navigieren Sie zu Cisco Unified cm Administration\>-Device\>-Device Settings\>-SIP-Profil.
     
 8. Geben Sie auf dem Bildschirm „SIP Profile Configuration“ (Konfiguration des SIP-Profils) die Informationen des SIP-Profils wie im Folgenden angegeben ein. 
     
@@ -60,21 +60,21 @@ Mehrere CUCM-Einstellungen müssen für die Interoperabilität mit dem VIS best�
    |Name  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    |Description (Beschreibung)  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    
-9. Führen Sie auf der gleichen Seite einen Bildlauf nach unten zum Abschnitt SDP-Profilinformationen. Die Option **SDP Session-level Bandwidth Modifier for Early Offer and Re-invites** (SDP-Bandbreitenänderung auf Sitzungsebene für Early Offer und Neueinladungen) ist standardmäßig auf „TIAS and AS“ (TIAS und AS) eingestellt. Ändern Sie diese Option auf „TIAS only“ (Nur TIAS). Wenn Sie die Standardeinstellung dieser Option lassen, wird die Bandbreite Modifiziererinformationen in der SIP-Nachricht von Skype für Business Server nicht verstehen. TIAS steht für „Transport Independent Application Specific“ (transportunabhängig anwendungsspezifisch) und AS für „Application Specific“ (anwendungsspezifisch). Diese SIP-Optionen sind in RFC3890 festgelegt.
+9. Scrollen Sie auf demselben Bildschirm nach unten zum Abschnitt SDP-Profilinformationen. Die Option **SDP Session-level Bandwidth Modifier for Early Offer and Re-invites** (SDP-Bandbreitenänderung auf Sitzungsebene für Early Offer und Neueinladungen) ist standardmäßig auf „TIAS and AS“ (TIAS und AS) eingestellt. Ändern Sie diese Option auf „TIAS only“ (Nur TIAS). Wenn Sie diese Option bei der Standardeinstellung beließen, wird Skype for Business Server die Informationen zur Bandbreiten Modifizierung in der SIP-Nachricht nicht verstehen. TIAS steht für „Transport Independent Application Specific“ (transportunabhängig anwendungsspezifisch) und AS für „Application Specific“ (anwendungsspezifisch). Diese SIP-Optionen sind in RFC3890 festgelegt.
     
-10. Klicken Sie auf der gleichen Seite einen Bildlauf weiter. Wählen Sie unter der SIP-Profil-Trunk-Workflowkonfiguration **Frühe bieten Unterstützung für Audio- und Videoanrufe** , und legen Sie diese auf die Option **obligatorisch (Einfügen MTP, falls erforderlich)** . Dadurch CUCM zum Einrichten eines ausgehenden Anrufs SIP mit Early anbieten. Ein neues Feature in CUCM 8,5 und darüber hinaus ist, dass es ausgehenden Anruf Setup mit Early bieten ohne Media Beendigung Point (MTP) unterstützt.
+10. Scrollen Sie auf demselben Bildschirm weiter nach unten. Wählen Sie unter der trunk-spezifischen Konfiguration des SIP-Profils **Early offer Support für Sprach-und Videoanrufe** aus, und legen Sie die Option auf die obligatorische Option **(Insert MTP falls erforderlich)** fest. Dadurch wird es CUCM möglich, einen ausgehenden SIP-Anruf mit einem frühen Angebot einzurichten. Ein neues Feature in CUCM 8,5 und darüber hinaus ist die Unterstützung der Einrichtung für ausgehende Anrufe mit einem frühen Angebot, ohne dass ein Media Termination Point (MTP) erforderlich ist.
     
 11. Überprüfen Sie im Abschnitt „SIP Options ping“ (SIP-Optionen-Ping), ob das Kontrollkästchen neben „Enable OPTIONS Ping to monitor destination status for Trunks with Service Type 'None (Default)'“ (Optionen-Ping zur Überwachung des Zielstatus für Trunks mit Diensttyp 'Keiner' aktivieren (Standard)) aktiviert ist.
     
 12. Nachdem Sie die Eingabe beendet haben, klicken Sie auf **Add New** (Neu hinzufügen).
     
-13. Navigieren Sie zu Cisco Unified CM Administration -\>Gerät -\>Trunk. 
+13. Navigieren Sie zu Cisco Unified cm Administration\>-Device\>-trunk. 
     
 14. Stellen Sie das Geräteprotokoll auf „SIP“ ein und klicken Sie auf **Next** (Weiter).
     
 15. Wählen Sie unter „Device Information“ (Geräteinformationen) den Namen und die Beschreibung des Geräts aus (z. B. „SfBVideoInterop_SIPTrunk“) und legen Sie für „Media Resource Group List“ (Liste der Medienressourcengruppe) eine MRGL fest, die die richtigen Medienressourcen enthält. 
     
-16. Scrollen Sie noch weiter nach unten. Media Beendigung Point (MTP) ist nicht für Videokonferenzen erforderlich, wenn nicht deaktiviert ist, deaktivieren Sie es. Überprüfen Sie die Option zum **Ausführen auf allen aktiven Unified CM-Knoten**. Beachten Sie, dass Sie alle CUCM Knoten der Skype für Business Server-Konfiguration hinzufügen sollten.
+16. Scrollen Sie noch weiter nach unten. Media Termination Point (MTP) ist für Video Anrufe nicht erforderlich, wenn Sie nicht bereits deaktiviert sind, deaktivieren Sie Sie. Aktivieren Sie die Option zum **Ausführen auf allen aktiven Unified cm-Knoten**. Beachten Sie bitte, dass Sie alle CUCM-Knoten zur Konfiguration von Skype for Business Server hinzufügen sollten.
     
 17. Scrollen Sie nach unten. Legen Sie die Optionen für „Inbound Calls“ (Eingehende Anrufe) und „Connected Party Settings“ (Einstellungen des verbundenen Teilnehmers) wie im Folgenden angegeben fest.
     
@@ -84,7 +84,7 @@ Mehrere CUCM-Einstellungen müssen für die Interoperabilität mit dem VIS best�
     |AAR Calling Search Space (AAR-Anrufsuchbereich)  <br/> |CSS_SfBVideoInterop  <br/> |
     |Connected Party Transformation CSS (Transformations-CSS des verbundenen Teilnehmers)  <br/> |CSS_SfBVideoInterop  <br/> |
    
-18. Scrollen Sie noch weiter nach unten. Geben Sie unter im Abschnitt Ziel für SIP-Informationen der SIP-Trunk-Konfiguration die gegenüber Pool-FQDN oder die IP-Adresse des einzelnen gegenüber Servern im Pool (mehrere Einträge hinzufügen). Geben Sie unter „Destination Port“ (Zielport) den Port an, den VIS für Verbindungen von CUCM überwachen soll (Standardwert ist 6001). Geben Sie wie dargestellt auch das vorher erstellte SIP-Trunk-Sicherheitsprofil und SIP-Profil an.
+18. Scrollen Sie noch weiter nach unten. Geben Sie im Abschnitt SIP-Informationsziel der SIP-Trunk-Konfiguration den FQDN des VIS-Pools oder die IP-Adresse einzelner VIS-Server im Pool an (mehrere Einträge hinzufügen). Geben Sie unter „Destination Port“ (Zielport) den Port an, den VIS für Verbindungen von CUCM überwachen soll (Standardwert ist 6001). Geben Sie wie dargestellt auch das vorher erstellte SIP-Trunk-Sicherheitsprofil und SIP-Profil an.
     
     |**Parameter**|**Empfohlene Einstellung**|
     |:-----|:-----|
@@ -95,50 +95,50 @@ Mehrere CUCM-Einstellungen müssen für die Interoperabilität mit dem VIS best�
     |SIP Profile (SIP-Profil)  <br/> |SfBVideoInterop_SIPProfile  <br/> |
     |DTMF Signaling Method (DTMF-Signalmethode)  <br/> |RFC 2833  <br/> |
    
-19.  Scrollen Sie noch weiter nach unten. Legen Sie die Aufzeichnungsinformationen gemäß den für Ihr System geeigneten Einstellungen fest. Lassen Sie es auf **None**festgelegt werden. 
+19.  Scrollen Sie noch weiter nach unten. Legen Sie die Aufzeichnungsinformationen gemäß den für Ihr System geeigneten Einstellungen fest. Es ist in Ordnung, es auf " **keine**" zu setzen. 
     
 20. Nachdem Sie die Eingabe beendet haben, klicken Sie auf **Add New** (Neu hinzufügen).
     
-21. Navigieren Sie zu Cisco Unified CM Administration-\>Call Routing -\>Route/Sammelanschlüsse-\>Routenmuster.
+21. Navigieren Sie zu Cisco Unified cm Administration\>– Anrufweiterleitung\>– Route/Route\>-Muster.
     
-22. Geben Sie im Bildschirm Routenkonfiguration Muster der unten angezeigten Muster-Definition-Parameter aus. Führen Sie einen Bildlauf nach unten zum Abschnitt Partei Transformationen aufgerufen und legen Sie die Maske wie dargestellt, und klicken Sie dann auf **Neu hinzufügen** nach Abschluss des.
+22. Geben Sie im Bildschirm Routenmuster-Konfiguration die unten gezeigten Muster Definitions Parameter ein. Scrollen Sie nach unten zum Abschnitt benannte Partei Umwandlungen, und legen Sie die Maske wie gezeigt fest, und klicken Sie dann auf **Neu hinzufügen** , wenn Sie fertig sind.
     
     |**Parameter**|**Empfohlene Einstellung**|
     |:-----|:-----|
     |Routenmuster  <br/> |7779999  <br/> |
-    |Route Partition  <br/> |SfBVideoInterop_RoutePartition  <br/> |
+    |Route-Partition  <br/> |SfBVideoInterop_RoutePartition  <br/> |
     |Beschreibung  <br/> |Partition für SfBVideoInterop  <br/> |
-    |Liste der Gateway-Route  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
-    |Aufgerufen von Teilnehmern Transform Maske  <br/> |+14257779999  <br/> |
+    |Gateway/Routenliste  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
+    |Benannte Partei-Transformations Maske  <br/> |+ 14257779999  <br/> |
    
-23. Navigieren Sie zu Cisco Unified CM Administration-\>Call Routing -\>Routen SIP-Muster.
+23. Navigieren Sie zu Cisco Unified cm Administration\>– Anrufweiterleitung\>– SIP-Routenmuster.
     
-24. Legen Sie im Bildschirm SIP-Muster Routenkonfiguration die Optionen Musterdefinition wie dargestellt, und klicken Sie auf **Neu hinzufügen**.
+24. Legen Sie im Bildschirm SIP-Routenmuster Konfiguration die Muster Definitions Optionen wie gezeigt fest, und klicken Sie auf **Neu hinzufügen**.
     
     |**Parameter**|**Empfohlene Einstellung**|
     |:-----|:-----|
-    | Muster Verwendung <br/> |Domäne-Routing  <br/> |
-    |IPv4-Muster  <br/> |Contoso.com (leer lassen, wenn IPv6 verwenden)  <br/> |
-    |IPv6-Muster  <br/> |Contoso.com (leer lassen, wenn IPv4 verwenden)  <br/> |
-    |Beschreibung  <br/> |SIPRoute Muster mediarv  <br/> |
-    |Route Partition  <br/> |SfBVideoInterop_RoutePartition  <br/> |
-    |Liste der SIP-Trunk-Route  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
-    |Das Kontrollkästchen Block Muster  <br/> |Lassen Sie deaktiviert  <br/> |
+    | Muster Verwendung <br/> |Domänen Routing  <br/> |
+    |IPv4-Muster  <br/> |contoso.com (bei Verwendung von IPv6 leer lassen)  <br/> |
+    |IPv6-Muster  <br/> |contoso.com (bei Verwendung von IPv4 leer lassen)  <br/> |
+    |Beschreibung  <br/> |SIPRoute-Muster zu mediarv  <br/> |
+    |Route-Partition  <br/> |SfBVideoInterop_RoutePartition  <br/> |
+    |SIP Trunk/Route-Liste  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
+    |Kontrollkästchen ' Block Muster '  <br/> |deaktiviert bleiben  <br/> |
    
-25. Wenn Sie die Audio- oder Videodatei Bitraten von den Standardeinstellungen geändert haben, müssen Sie diese auf die Standardwerte zurück. Um die Bitrate für Audio-/Videoanrufen festzulegen, navigieren Sie zu Cisco Unified CM Administration -\>System -\>Region Informationen -\>Region. Die Standardwerte sind als Referenz unten aufgeführt:
+25. Wenn Sie die Audio-oder Video-Bitraten von den Standardeinstellungen geändert haben, müssen Sie Sie auf die Standardeinstellungen zurücksetzen. Wenn Sie die Bitrate für Audio-und Video Anrufe einstellen möchten, navigieren Sie zu Cisco Unified\>cm Administration\>-System-\>Region Information-Region. Nachfolgend werden die Standardwerte als Referenz angezeigt:
     
     |**Parameter**|**Empfohlene Einstellung**|
     |:-----|:-----|
     |Region  <br/> |Standard  <br/> |
-    |Liste der bevorzugten Audiocodec  <br/> |Standardeinstellungen des Systems  <br/> |
-    |Maximale Bitrate für Audio  <br/> |64 Kbit/s (g. 722, g. 711)  <br/> |
-    |Maximale Bitrate für Videoanrufe  <br/> |200000 Kbit/s  <br/> |
-    |Maximale Bitrate  <br/> |2000000000 Kbit/s  <br/> |
+    |Audiocodec-Einstellungsliste  <br/> |System Standard  <br/> |
+    |Maximale Audiobitrate  <br/> |64 Kbit/s (g. 722, g. 711)  <br/> |
+    |Maximale Sitzungs-Bitrate für Video Anrufe  <br/> |200000 Kbit/s  <br/> |
+    |Maximale Sitzungs-Bitrate  <br/> |2 Milliarden Kbit/s  <br/> |
    
-An dieser Stelle wird das video CUCM-Gateway konfiguriert die VIS. entwickelt Entsprechende Konfiguration müssen für jeden VTC ausgeführt werden, die Sie integrieren möchten.
+An diesem Punkt ist das CUCM-Video Gateway so konfiguriert, dass es mit dem VIS funktioniert. Die entsprechende Konfiguration muss auf jeder VTC erfolgen, die Sie integrieren möchten.
 > [!NOTE]
-> Um ausfallsicherheit zu verbessern, sollten Sie dieses Gateway CUCM entwickelt einen zweiten Interop Videoserver oder gegenüber Pool zu konfigurieren. Weitere Informationen finden Sie unter [Resiliency Mechanismen](../../plan-your-deployment/video-interop-server.md#resiliency) .
+> Um die Widerstandsfähigkeit zu verbessern, sollten Sie dieses CUCM-Gateway für den Einsatz mit einem zweiten Video-Interop-Server oder VIS-Pool konfigurieren. Weitere Informationen finden Sie unter [Resilienz-Mechanismen](../../plan-your-deployment/video-interop-server.md#resiliency) .
   
 ## <a name="see-also"></a>Siehe auch
 
-[Konfigurieren einer VTC für die Interoperation mit Skype für Business Server](configure-a-vtc-for-interoperation.md)
+[Konfigurieren eines VTC für die Interoperabilität mit Skype for Business Server](configure-a-vtc-for-interoperation.md)

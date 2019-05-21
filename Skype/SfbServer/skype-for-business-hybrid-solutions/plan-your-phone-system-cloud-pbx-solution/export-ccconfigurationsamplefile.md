@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
 description: Das Cmdlet „Export-CcConfigurationSampleFile“ exportiert eine Beispielkonfigurationsdatei (INI-Datei) für Skype for Business Cloud Connector Edition in das Appliance-Verzeichnis einer Cloud Connector-Appliance. Sie können die Datei für Ihre Bereitstellung ändern und umbenennen.
-ms.openlocfilehash: 3154ff3492899de244c3033e4e35345132d04f20
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 440253bc6b9c4e980a6f7ac4aae0c82ebad05660
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233988"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287380"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
@@ -37,7 +37,7 @@ Keine
 
 ### <a name="example-1"></a>Beispiel 1
 
-Im folgenden Beispiel wird lädt Beispielkonfigurationsdatei aus der Microsoft-Website und schreibt sie in das Verzeichnis Appliance der Cloud Connector Appliance:
+Im folgenden Beispiel wird eine Beispielkonfigurationsdatei von der Microsoft-Website heruntergeladen und in das Appliance-Verzeichnis der Cloud Connector-Appliance geschrieben:
   
 ```
 Export-CcConfigurationSampleFile
@@ -46,9 +46,9 @@ Export-CcConfigurationSampleFile
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Die aktuelle Version von Cloud-Connector müssen Sie mehrere Parameter in der INI-Datei bereitstellen; beispielsweise Parameter wie die IP-Adressen von virtuellen Computern für Komponenten von Cloud-Connector, Komponentennamen, Gateway-Parameter und So weiter.
+Für die aktuelle Version von Cloud Connector müssen Sie mehrere Parameter in der INI-Datei angeben. beispielsweise Parameter wie die IP-Adressen virtueller Computer für die Cloud-Connector-Komponenten, Komponentennamen, Gatewayparameter usw.
   
-Dieses Cmdlet, wenn auf dem Hostcomputer von Cloud-Connector ausführen lädt eine INI-Beispieldatei mit Beispielen für die Konfiguration aus der Microsoft-Website. Das Cmdlet schreibt die Datei in das Verzeichnis Appliance der Appliance Cloud-Connector. Das Appliance-Verzeichnis wird mit dem Cmdlet „Set-CcApplianceDirectory cmdlet“ angegeben.
+Wenn dieses Cmdlet auf dem Hostcomputer von Cloud Connector ausgeführt wird, wird eine Beispiel-ini-Datei mit Konfigurationsbeispielen von der Microsoft-Website heruntergeladen. Das Cmdlet schreibt die Datei in das Appliance-Verzeichnis der Cloud Connector-Appliance. Das Appliance-Verzeichnis wird mit dem Cmdlet „Set-CcApplianceDirectory cmdlet“ angegeben.
   
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>

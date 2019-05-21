@@ -1,31 +1,31 @@
 ---
-title: Aktivieren Sie oder deaktivieren Sie der Archivierung in Skype für Business Server
+title: Aktivieren oder Deaktivieren der Archivierung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
-description: 'Zusammenfassung: Informationen Sie zum Aktivieren oder Deaktivieren der Archivierung in Skype für Business Server.'
-ms.openlocfilehash: 27cb7aab08c6a85f21e058848963bb42de6e1635
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Archivierung in Skype for Business Server aktivieren oder deaktivieren.'
+ms.openlocfilehash: 0e4ef4dde27ffa5856f2b73b69ffbadc24399c59
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885031"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286144"
 ---
-# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Aktivieren Sie oder deaktivieren Sie der Archivierung in Skype für Business Server
+# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Aktivieren oder Deaktivieren der Archivierung in Skype for Business Server
 
-**Zusammenfassung:** Informationen Sie zum Aktivieren oder Deaktivieren der Archivierung in Skype für Business Server.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie die Archivierung in Skype for Business Server aktivieren oder deaktivieren.
   
 ## <a name="enable-or-disable-archiving-by-using-the-control-panel"></a>Aktivieren oder Deaktivieren der Archivierung mithilfe der Systemsteuerung
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle „CsArchivingAdministrator“ oder „CsAdministrator“ zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an. 
     
-2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
     
 3. Klicken Sie auf der linken Navigationsleiste auf **Überwachung und Archivierung** und anschließend auf **Archivierungskonfiguration**.
     

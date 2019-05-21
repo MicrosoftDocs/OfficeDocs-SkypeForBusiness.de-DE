@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Benutzerkonten mithilfe der Online-Connector
+title: Verwalten von Benutzerkonten mit dem Online-Connector
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,14 +18,14 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Use the Get-CsOnlineUser cmdlet in Windows PowerShell to get information about your organization's Skype for Business Online users.
-ms.openlocfilehash: 4c2e7e581146c179f3171f38e82eff219871a90a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5be51ac39f4a5bd07788a3341114d72a8556cc1a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32224388"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284680"
 ---
-# <a name="manage-user-accounts-using-the-online-connector"></a>Verwalten von Benutzerkonten mithilfe der Online-Connector
+# <a name="manage-user-accounts-using-the-online-connector"></a>Verwalten von Benutzerkonten mit dem Online-Connector
 
 ## <a name="manage-user-accounts"></a>Verwalten von Benutzerkonten
 
@@ -115,6 +115,6 @@ Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
 ## <a name="related-topics"></a>Verwandte Themen
-[Einrichten des Computers für Skype für das Business online Management mithilfe von Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Einrichten Ihres Computers für die Skype for Business Online-Verwaltung mithilfe von Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
 

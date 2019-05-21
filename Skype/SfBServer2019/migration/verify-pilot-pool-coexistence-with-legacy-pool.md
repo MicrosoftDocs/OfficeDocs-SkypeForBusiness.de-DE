@@ -4,68 +4,68 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Prozess zum Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversion.
-ms.openlocfilehash: ed3809bdde3109bdbd341c42eed0dc1d8cecd11f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Prozess zur Überprüfung der Koexistenz von pilotpools mit Legacy Pool
+ms.openlocfilehash: dd2edd2e6ecef26b22ba9bf5c093c631866110ff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231343"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280653"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversion
 
  **In diesem Artikel**
   
-[Stellen Sie sicher, dass Skype für Business Server 2019-Dienste gestartet wurden](#sectionSection0)
+[Überprüfen, ob Skype for Business Server 2019-Dienste gestartet wurden](#sectionSection0)
   
-[Öffnen Sie die Skype für Business Server 2019-Systemsteuerung](#sectionSection1)
+[Öffnen der Systemsteuerung von Skype for Business Server 2019](#sectionSection1)
   
-[Versuchen Sie nicht, öffnen Sie die Topologie in der Vorversion Topologie-Generator](#sectionSection2)
+[Versuchen Sie nicht, die Topologie im Legacy Topology Builder zu öffnen.](#sectionSection2)
   
-Nachdem Sie den pilotpool bereitgestellt haben, müssen Sie die Koexistenz der beiden Pools zu überprüfen, indem Sie mithilfe der Verwaltungstools die Poolinformationen anzeigen. Für die Skype für Business Server 2019 Pools und legacypools müssen Sie die Skype für Business Server 2019-Systemsteuerung und Topologie-Generator-Tools verwenden. 
+Nachdem Sie den Pilot Pool bereitgestellt haben, müssen Sie die Koexistenz der beiden Pools überprüfen, indem Sie die Verwaltungstools verwenden, um die Poolinformationen anzuzeigen. Für die Skype for Business Server 2019-Pools und Legacy-Pools müssen Sie die Skype for Business Server 2019 Control Panel-und Topology Builder-Tools verwenden. 
   
-## <a name="verify-that-skype-for-business-server-2019-services-have-started"></a>Stellen Sie sicher, dass Skype für Business Server 2019-Dienste gestartet wurden
+## <a name="verify-that-skype-for-business-server-2019-services-have-started"></a>Überprüfen, ob Skype for Business Server 2019-Dienste gestartet wurden
 <a name="sectionSection0"> </a>
 
-1. Navigieren Sie aus der Skype für Business Server 2019 Front-End-Server zum Applet verwaltungstools\dienste.
+1. Navigieren Sie im Skype for Business Server 2019-Front-End-Server zum Administrator Tools\Services-Applet.
     
-2. Stellen Sie sicher, dass die folgenden Dienste auf dem Front-End-Server ausgeführt werden:
+2. Überprüfen Sie, ob die folgenden Dienste auf dem Front-End-Server ausgeführt werden:
 
-    - Zentralisierte Protokollierungs-Dienst-Agenten
+    - Zentralisierter Protokollierungsdienst-Agent
     - Anwendungsfreigabe
-    - Dienst zum Testen der Audioqualität
-    - A/v-Konferenzen
+    - Audiotestdienst
+    - Audio/Video Konferenzen
     - Parken von Anrufen
     - Konferenzankündigung
     - Konferenzzentrale
-    - Front-End-
-    - Instant Messaging-Konferenzen
+    - Front-End
+    - Chat Konferenzen
     - Vermittlungs-
-    - Replikat Replikations-Agent
+    - Replica Replicator-Agent
     - Reaktionsgruppe
     - Webkonferenzen
-    - Übersetzen von XMPP-Gateway
+    - XMPP-Übersetzungs Gateway
 
   
-## <a name="open-the-skype-for-business-server-2019-control-panel"></a>Öffnen Sie die Skype für Business Server 2019-Systemsteuerung
+## <a name="open-the-skype-for-business-server-2019-control-panel"></a>Öffnen der Systemsteuerung von Skype for Business Server 2019
 <a name="sectionSection1"> </a>
 
-Öffnen Sie von den Front-End-Server in Ihrer Skype für Business Server 2019 Bereitstellung der Skype Business Server 2019-Systemsteuerung zu, und wählen Sie Pool den Vorgängerversion. Wiederholen Sie das Schritte aus, um die Skype für Business Server 2019 Pool zu öffnen.
+Öffnen Sie auf dem Front-End-Server in Ihrer Skype for Business Server 2019-Bereitstellung die Systemsteuerung von Skype for Business Server 2019, und wählen Sie den Legacy Pool aus. Wiederholen Sie den Vorgang zum Öffnen des Skype for Business Server 2019-Pools.
   
 > [!IMPORTANT]
-> In Skype für Business Server 2019 müssen Sie Silverlight auf Silverlight, Version 5, bevor Sie die Skype Business Server-Systemsteuerung verwenden upgraden. 
+> Bei Skype for Business Server 2019 müssen Sie Silverlight auf Silverlight Version 5 aktualisieren, bevor Sie die Skype for Business Server-Systemsteuerung verwenden. 
   
-Diese Topologie enthält nun Legacy und Skype für Business Server 2019 Serverrollen. 
+Diese Topologie umfasst jetzt Legacy-und Skype for Business Server 2019-Serverrollen. 
 
   
-## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>Versuchen Sie nicht, öffnen Sie die Topologie in der Vorversion Topologie-Generator
+## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>Versuchen Sie nicht, die Topologie im Legacy Topology Builder zu öffnen.
 <a name="sectionSection2"> </a>
 
-Wenn Sie versuchen, die Topologie mithilfe des legacy-Topologie-Generators öffnen, treten Sie die unten angegebene Fehlermeldung. Die Topologie kann nur mithilfe der Skype für Business Server 2019 Topologie-Generator angezeigt werden. Zum Erstellen von Pools für Skype für Business Server 2019 und der Vorversion installieren, muss der Skype für Business Server 2019 Topologie-Generator verwendet werden.
+Wenn Sie versuchen, die Topologie mithilfe des Legacy Topology Builder zu öffnen, wird der folgende Fehler angezeigt. Die Topologie kann nur mit dem Skype for Business Server 2019-Topologie-Generator angezeigt werden. Der Skype for Business Server 2019-Topologie-Generator muss verwendet werden, um Pools für Skype for Business Server 2019 und die Legacy Installation zu erstellen.
 
   
 

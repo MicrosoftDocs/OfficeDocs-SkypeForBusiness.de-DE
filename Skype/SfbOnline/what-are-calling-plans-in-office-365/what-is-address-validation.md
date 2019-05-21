@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,18 +20,18 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, was Adressvalidierung ist, warum sie wichtig ist und was sie mit Notfalladressen und -diensten zu tun hat. '
-ms.openlocfilehash: 85a24cff6f73bc6caaabab6a0efb436105de3a55
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: 8ff704a5702023990b33fe56d840e588c942b2fd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33864996"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302560"
 ---
 # <a name="what-is-address-validation"></a>Was ist Adressvalidierung?
 
 Wenn Sie Anrufpläne in Office 365 einrichten, müssen Sie jedem Benutzer eine Telefonnummer und eine Notfalladresse zuweisen.
   
-Durch die Validierung einer Postanschrift oder Adresse wird sichergestellt, dass die Adresse korrekt ist und außerdem richtig formatiert ist. Es ist möglich, dass eine teilweise richtige Notfall Adresse, beispielsweise einen Tippfehler Namen der Stadt ein, weiterhin Validierung kann. Die Validierung bestimmt anhand aller Teile der jeweiligen Adresse, ob genug Informationen enthalten sind, um den Anruf an die entsprechende Notdienstzentrale weiterzuleiten. Wenn dies der Fall ist, wird sie als validiert zurückgegeben und kann dann einer Telefonnummer zugewiesen werden.
+Durch die Validierung einer Postanschrift oder Adresse wird sichergestellt, dass die Adresse korrekt ist und außerdem richtig formatiert ist. Es ist möglich, dass eine teilweise korrekte Notfalladresse, beispielsweise ein falsch eingegebener Name des Orts, weiterhin die Validierung durchlaufen kann. Die Validierung bestimmt anhand aller Teile der jeweiligen Adresse, ob genug Informationen enthalten sind, um den Anruf an die entsprechende Notdienstzentrale weiterzuleiten. Wenn dies der Fall ist, wird sie als validiert zurückgegeben und kann dann einer Telefonnummer zugewiesen werden.
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

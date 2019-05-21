@@ -11,44 +11,44 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
-description: Die Skype für Business Online – Plan 1 wurde zurückgezogen wurden. Wenn Sie ein gültiges Abonnement von Skype für Business Online – Plan 1 haben, werden nicht diese Änderung Sie jedoch sofort beeinflussen. Wenn Sie bereit sind, verschieben in einen neuen Plan – jetzt oder bei der Erneuerung – Sie müssen drei Optionen zur Verfügung.
-ms.openlocfilehash: d8468fa2d070e98cb19a1f41fff6884ac7c3517e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Der Skype for Business Online-Plan 1 wurde eingestellt. Wenn Sie jedoch über ein aktuelles Abonnement für Skype for Business Online Plan 1 verfügen, hat diese Änderung keine Auswirkungen auf Sie sofort. Wenn Sie bereit sind, zu einem neuen Plan zu wechseln – entweder jetzt oder während der Verlängerung –, haben Sie drei Optionen.
+ms.openlocfilehash: 92b8cc0b01c14cf254dd90fdd96d06b80dfd5345
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32248713"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290291"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Ausmusterung von Skype for Business Online Plan 1 
 
-Die Skype für Business Online – Plan 1 wurde zurückgezogen wurden. Wenn Sie ein gültiges Abonnement von Skype für Business Online – Plan 1 haben, werden nicht diese Änderung Sie jedoch sofort beeinflussen. Als ein globaler Office 365-Administrator Sie per e-Mail erhalten und finden Sie unter Beiträge in der Mitte der Nachricht (Teil von Office 365 Administrationscenter) mit Informationen darüber, wann Aktionen ausführen müssen. In der Zwischenzeit können Sie auch weiterhin mithilfe Ihrer vorhandenen Skype für Business Online – Plan 1 Lizenzen.
+Der Skype for Business Online-Plan 1 wurde eingestellt. Wenn Sie jedoch über ein aktuelles Abonnement für Skype for Business Online Plan 1 verfügen, hat diese Änderung keine Auswirkungen auf Sie sofort. Als globaler Office 365-Administrator erhalten Sie e-Mail-Updates und sehen Beiträge im Nachrichtencenter (Teil des Office 365 admin Centers) mit Informationen dazu, wann Sie Maßnahmen ergreifen müssen. In der Zwischenzeit können Sie Ihre vorhandenen Skype for Business Online-Plan 1-Lizenzen weiterhin verwenden.
 
-Wenn Sie bereit sind, verschieben in einen neuen Plan – jetzt oder bei der Erneuerung – Sie haben die Möglichkeit, wechseln Sie zu Office 365 F1 oder einer anderen Office 365-Plan Ihrer Wahl.
+Wenn Sie bereit sind, zu einem neuen Plan zu wechseln – entweder jetzt oder während der Verlängerung –, haben Sie die Möglichkeit, zu Office 365 F1 oder einem anderen Office 365-Plan Ihrer Wahl zu wechseln.
 
-Sie können die gleiche Funktionalität verwalten, die Sie bei Skype für Business Online – Plan 1 beim Nutzen der Vorteile der neuen Features und Funktionen von Office 365 mussten. Viele Optionen Plan verfügbare alle Features, die Lieferumfang Skype für Business Online – Plan 1, als auch Instant Messaging und Anwesenheit, Peer-zu-Peer-Audio und Video over IP und die Möglichkeit, die als authentifizierter Benutzer an Besprechungen teilnehmen.
-
-
-## <a name="switching-to-office-365-f1"></a>Wechsel zu Office 365-F1
-
-Diese Option ist ideal, wenn Sie zusätzliche Funktionen nutzen, die Office 365 F1 zu bieten hat möchten. Weitere Informationen und Preise Info erhalten möchten, finden Sie unter [Office 365 F1](https://products.office.com/en-us/business/office-365-f1).
+Sie können die gleiche Funktionalität wie in Skype for Business Online Plan 1 beibehalten, während Sie die neuen Funktionen und Funktionen von Office 365 nutzen. Viele der verfügbaren Planoptionen umfassen alle Features, die im Lieferumfang von Skype for Business Online Plan 1 enthalten sind, sowie Chats und Anwesenheitsinformationen, Peer-to-Peer-Audio-und-Videoübertragung über IP sowie die Möglichkeit, an Besprechungen als authentifizierter Benutzer teilzunehmen.
 
 
-### <a name="how-to-switch"></a>Informationen zum Wechseln 
+## <a name="switching-to-office-365-f1"></a>Wechseln zu Office 365 F1
 
-Sie können Office wechseln 365 jetzt F1 oder warten, bis es die Zeit bis zum Erneuern und aktualisieren bei der Erneuerung ist. In beiden Fällen Sie arbeiten mit Ihren Account Manager oder Partner zum wechseln, es sei denn, Sie Ihr Abonnement direkt bei Microsoft erworben haben dem Sie case kann wechseln Sie zu Office 365 F1 selbst im Office 365 Administrationscenter.
+Diese Option ist ideal, wenn Sie die zusätzlichen Funktionen nutzen möchten, die Office 365 F1 zu bieten hat. Weitere Informationen und Preisinformationen finden Sie unter [Office 365 F1](https://products.office.com/en-us/business/office-365-f1).
+
+
+### <a name="how-to-switch"></a>So wechseln Sie 
+
+Sie können jetzt zu Office 365 F1 wechseln oder warten, bis es Zeit ist, während des Erneuerungsprozesses zu verlängern und zu aktualisieren. In beiden Fällen arbeiten Sie mit Ihrem Konto Vertreter oder-Partner zusammen, um den Wechsel zu tätigen, es sei denn, Sie haben Ihr Abonnement direkt von Microsoft erworben, in diesem Fall können Sie im Office 365 Admin Center selbst zu Office 365 F1 wechseln.
 
 
 ## <a name="switching-to-another-office-365-offer"></a>Wechseln zu einem anderen Office 365-Angebot
 
-Die Features, die Ihre Benutzer in Skype für Business Online – Plan 1 genießen stehen in viele unserer Office 365-Suites, entweder über Microsoft-Teams oder Skype für Business Online, je nach dem der Dienst Sie derzeit arbeiten. 
+Die Funktionen, die Ihre Benutzer in Skype for Business Online Plan 1 genießen können, sind in vielen unserer Office 365-Suiten verfügbar, entweder über Microsoft Teams oder Skype for Business Online, je nachdem, welchen Dienst Sie gerade nutzen. 
 
-### <a name="how-to-switch"></a>Informationen zum Wechseln 
+### <a name="how-to-switch"></a>So wechseln Sie 
 
-Wenn Ihr Abonnement erneuern und Skype für Business Online – Plan 1 nicht mehr verfügbar ist, werden Sie wechseln zu einem anderen Office 365-Plan als Teil der Erneuerung sein. Wenn Sie nicht warten, bis der Erneuerung möchten, können Sie auswählen, um jetzt zu wechseln. In beiden Fällen Sie arbeiten an Ihren Ansprechpartner oder Partner stellen Sie die Option oder – wenn Sie Skype für Business Online – Plan 1 von Microsoft erworben direkt, online haben – Selbsthilfe in der Verwaltungskonsole.
+Wenn Sie Ihr Abonnement verlängern möchten und Skype for Business Online Plan 1 Ihnen nicht mehr zur Verfügung steht, können Sie im Rahmen des Erneuerungsprozesses zu einem anderen Office 365-Plan wechseln. Wenn Sie nicht bis zur Verlängerung warten möchten, können Sie die Option Jetzt wechseln auswählen. In beiden Fällen arbeiten Sie mit Ihrem Konto Vertreter oder-Partner zusammen, um den Wechsel zu tätigen, oder – wenn Sie Skype for Business Online Plan 1 von Microsoft direkt online gekauft haben – im Admin Center.

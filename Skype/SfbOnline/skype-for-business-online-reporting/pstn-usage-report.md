@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,29 +18,29 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Im neuen Bereich Berichte im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht PSTN-Verwendungsdetails in Skype for Business die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
-ms.openlocfilehash: 2a0db39852169cbb4c1dacab178d2f5b3b96dc7e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e1753915753c110a615edb108b2ff98efe237aa6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239871"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287723"
 ---
 # <a name="pstn-usage-report"></a>Bericht „PSTN-Verbrauch“
 
 Im neuen Bereich **Berichte** im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht **PSTN-Verwendungsdetails in Skype for Business** die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
   
-Checken Sie der [Übersicht über die Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) für weitere Berichte, die verfügbar sind.
+Weitere verfügbare Berichte finden Sie in der [Übersicht über Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) .
   
-In diesem Bericht, zusammen mit den anderen Skype für Business-Berichte, erhalten Sie Details auf Aktivität, einschließlich aufrufen Verwendung in Ihrer Organisation. Diese Angaben sind sehr hilfreich, wenn Sie untersuchen, für Ihre Organisation und für das Einrichten von [Communications haben](/microsoftteams/what-are-communications-credits) planen und Durchführen von anderen Business Entscheidungen
+Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten Informationen zu Aktivitäten, einschließlich der Anruf Nutzung in Ihrer Organisation. Diese Informationen sind sehr hilfreich, wenn Sie untersuchen, planen und andere geschäftliche Entscheidungen für Ihre Organisation treffen und [Kommunikationsguthaben](/microsoftteams/what-are-communications-credits) einrichten.
   
 > [!NOTE]
 > Sie können sich alle Skype for Business-Berichte ansehen, wenn Sie sich als Administrator beim Office 365 Admin Center anmelden. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Abrufen des Berichts zu den PSTN-Verbrauchsdetails in Skype for Business
 
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
 
-- Wechseln Sie zu **Office 365 Administrationscenter** > **Admin zentriert** > **Skype für Business Administrationscenter** > **Berichte** > **PSTN-Verwendungsdetails**.
+- Wechseln Sie zu **Office 365 Admin Center** > **Admin** > Centers**Skype for Business Admin Center** > **meldet** > **Informationen zur PSTN-Nutzung**.
     
     > [!NOTE]
     > Je nach vorhandenem Office 365-Abonnement werden möglicherweise nicht alle Produkte und Berichte angezeigt, die in diesem Artikel besprochen werden. 
@@ -74,13 +74,13 @@ Der Bericht sieht wie folgt aus:
      *    **conf_out** (Ein ausgehender Anruf von der Audiokonferenzbrücke, normalerweise um eine PSTN-Nummer zur Konferenz hinzuzufügen)
 
      **Unified Communication Applications (UCAP)** 
-     *    **ucap_in** (eine eingehende PSTN-Anruf an die UC-Anwendung wie automatische Telefonzentrale oder ein Anruf Warteschlange) 
-     *    **ucap_out** (eine ausgehende PSTN-Anruf aus der UC-Anwendung wie automatische Telefonzentrale oder ein Anruf Warteschlange)
-     *    **Hinweis:** Anrufe, die aus der UC-Anwendung an einen Benutzer übertragen wurden, wie eine automatische Telefonzentrale oder ein Anruf Warteschlange nicht in den Nutzungsbericht PSTN, da diese erscheint anrufabschnitte Audioanrufe für Peer-zu-Peer (P2P) sind. Wählen Sie Zugriff auf die P2P-Anrufe in die Skype für Business Admin Center unter "Tools > Skype für Anruf BA" und zum Suchen nach Benutzername oder SIP-Adresse den Aufruf von Datum/Uhrzeit Korrelieren und/oder Ursprung CLID (Aufrufen von Zeile-ID). 
+     *    **ucap_in** (ein eingehender PSTN-Anruf an die UC-Anwendung, beispielsweise eine automatische Telefonzentrale oder eine Anrufwarteschlange) 
+     *    **ucap_out** (ein ausgehender PSTN-Anruf von der UC-Anwendung, beispielsweise eine automatische Telefonzentrale oder eine Anrufwarteschlange)
+     *    **Hinweis:** Anrufe, die von der UC-Anwendung an einen Benutzer übertragen wurden, beispielsweise eine automatische Telefonzentrale oder eine Anrufwarteschlange, werden im PSTN-Nutzungsbericht nicht angezeigt, da diese Anruf Beine Peer-to-Peer-Audioanrufe (P2P) sind. Sie können im Skype for Business Admin Center unter "Tools > Skype for Business Call Analytics" auf die P2P-Anrufe zugreifen und nach Benutzer Name oder SIP-Adresse suchen, die den Anruf nach Datum/Uhrzeit und/oder Ursprungs gestensteuerunghttp://Office.Microsoft.com/de-de/fx102821959.aspx (Rufnummernanzeige) korreliert. 
 *     
      **Inland/International** gibt an, ob der getätigte Anruf basierend auf dem Standort des Benutzers ein Inlandsanruf (innerhalb eines Lands bzw. einer Region) oder ein Auslandsanruf (außerhalb eines Lands bzw. einer Region) war.    
 *    **Gewähltes Ziel** ist der Name des gewählten Lands bzw. der gewählten Region, beispielsweise Frankreich, Deutschland oder Vereinigte Staaten (USA).    
-*    **Zahl** ist der Typ der Telefonnummer, die Telefonnummer des Benutzers ein Dienst oder eine gebührenfreie Telefonnummer stammt.  
+*    **Nummerntyp** ist der Typ der Telefonnummer, die von der Telefonnummer eines Benutzers, einem Dienst oder einer gebührenfreien Nummer ist.  
 *    **Startzeit (UTC)** ist die Uhrzeit, zu der der Anruf gestartet bzw. getätigt wurde.    
 *    **Dauer** gibt an, wie lange der Anruf verbunden war.  
 *    **ConfID** (Konferenzkennung) ist die Konferenzkennung der Audiokonferenz. 
@@ -90,21 +90,21 @@ Der Bericht sieht wie folgt aus:
      *    **MCOPSTNPP**: Guthaben für Kommunikationen <br/> **MCOPSTN1**: Plan für Inlandsanrufe (US-Plan mit 3.000 Min./EU-Plan mit 1.200 Min.) 
      *    **MCOPSTN2**: Plan für Auslandsanrufe 
      *    **MCOPSTN5**: Plan für Inlandsanrufe (Anrufplan mit 120 Min.) 
-     *    **MCOPSTN6** - nationalen aufrufen Plan (240 min aufrufende Plan) Hinweis: eingeschränkter Verfügbarkeit
+     *    **MCOPSTN6** -Domestic Calling Plan (240 min Calling Plan) Hinweis: beschränkte Verfügbarkeit
      *    **MCOMEETADD**: Audiokonferenz
      *    **MCOMEETACPEA**: Audiokonferenz mit Minutenabrechnung
 > [!NOTE]
-> Wenn Sie möchten, führen Sie einen Bericht mit nur Bezahlung pro Minute Anrufe, die nicht in den Aufruf von oder Live Meeting-Abonnement enthalten sind, können filtern Sie den Bericht mit der Funktion "MCOPSTNPP". Dadurch wird eine Aufschlüsselung der gesamte Bezahlung pro Minute Anrufe bieten.  Bezahlung pro Minute Audiokonferenzen filtern Sie nach "MCOMEETACPEA" anstelle von "MCOPSTNPP".  
+> Wenn Sie einen Bericht ausführen möchten, um nur Minuten Anrufe einzuschließen, die nicht in Ihrem Anruf-oder Konferenz Abonnement enthalten sind, Filtern Sie den Bericht mit der Funktion "MCOPSTNPP". Auf diese Weise erhalten Sie eine Aufstellungs Möglichkeit für alle Pay-per-Minute-Anrufe.  Für Pay-per-Minute-Audiokonferenzen Filtern Sie nach "MCOMEETACPEA" anstelle von "MCOPSTNPP".  
 ***
 > [!NOTE]
-> Sie können auch "keine Daten" in einigen Feldern finden Sie unter. "Keine Daten" bedeutet, dass das Feld nicht auf den Anruftyp oder Funktion angewendet ist. 
+> Möglicherweise werden in einigen Feldern auch "keine Daten" angezeigt. "Keine Daten" bedeutet, dass das Feld nicht auf die Art oder Funktion des Anrufs anwendbar ist. 
 ***
 > [!NOTE]
-> Wenn Sie einen Telstra aufrufenden Plan haben, nicht sehen Sie eine call Detail Records, in der PSTN-Verwendungsbericht. Wenden Sie sich an Telstra für Ihre Bedürfnisse reporting. 
+> Wenn Sie über einen Telstra-Anrufplan verfügen, werden in dem Bericht zur PSTN-Nutzung keine Anruf Detaildatensätze angezeigt. Bitte wenden Sie sich an Telstra für Ihre Berichterstattung. 
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
  ***
-![Nummer 3](../images/sfbcallout3.png)<br/>Sie können auch den Bericht exportieren der Daten auf einer Registerkarte getrennt Excel-Datei durch Klicken oder tippen auf die Schaltfläche **nach Excel exportieren** . <br/><br/> Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. 
+![Nummer 3](../images/sfbcallout3.png)<br/>Sie können die Berichtsdaten auch in eine durch tabstoppgetrennte Excel-Datei exportieren, indem Sie auf die Schaltfläche **nach Excel exportieren** klicken oder tippen. <br/><br/> Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. 
     > [!Note] 
     > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
 
@@ -120,11 +120,11 @@ Der Bericht sieht wie folgt aus:
     
 - [Skype for Business - Bericht über Peer-zu Peer-Aktivitäten](peer-to-peer-activity-report.md) : Sie können sehen, in welchem Umfang die Benutzer Chat, Audio/Video, Anwendungsfreigabe sowie Dateiübertragung verwenden.
     
-- [Skype für Unternehmensbenutzer blockiert Bericht](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation, die vom PSTN-Anrufe tätigen blockiert wurden, finden Sie unter.
+- [Bericht "Skype for Business-Benutzer blockiert](users-blocked-report.md) " Sie können die Benutzer in Ihrer Organisation sehen, die für das tätigen von PSTN-anrufen gesperrt wurden.
 
-- [Skype für Business PSTN Minute Pools Bericht](pstn-minute-pools-report.md) sehen Sie die Anzahl der Minuten, die während des aktuellen Monats innerhalb Ihrer Organisation verbraucht.
+- [Skype for Business-PSTN-Minuten Pools-Bericht](pstn-minute-pools-report.md) Sie können die Anzahl der Minuten anzeigen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
 
-- [Skype für Business Sitzung Detailbericht](session-details-report.md) Sie können die Details zu einzelnen Benutzers Anruf Erfahrungen sehen.
+- [Bericht "Skype for Business-Sitzungsdetails](session-details-report.md) " Details zu den Anruf Erfahrungen einzelner Nutzer werden angezeigt.
     
 ## <a name="related-topics"></a>Verwandte Themen
 [Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

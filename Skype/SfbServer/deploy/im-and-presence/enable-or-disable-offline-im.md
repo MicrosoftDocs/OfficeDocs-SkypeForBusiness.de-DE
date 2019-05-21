@@ -1,36 +1,36 @@
 ---
-title: Aktivieren Sie oder deaktivieren Sie Offline Sofortnachrichten (IM) in Skype für Business Server
+title: Aktivieren oder Deaktivieren von Instant Messaging (im) für Offline-Chats in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
-description: Informationen Sie zum Aktivieren oder deaktivieren Offline Instant Messaging (IM) in Skype für Business Server.
-ms.openlocfilehash: fe3ce34fed4890c494fc987a4fc82ad5faf62764
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Erfahren Sie, wie Sie offline-Sofortnachrichten (im) in Skype for Business Server aktivieren oder deaktivieren können.
+ms.openlocfilehash: 77078b6092dc1d23dde1315c505c5baf26798b86
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894416"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289707"
 ---
-# <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>Aktivieren Sie oder deaktivieren Sie Offline Sofortnachrichten (IM) in Skype für Business Server
+# <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>Aktivieren oder Deaktivieren von Instant Messaging (im) für Offline-Chats in Skype for Business Server
  
-Informationen Sie zum Aktivieren oder deaktivieren Offline Instant Messaging (IM) in Skype für Business Server.
+Erfahren Sie, wie Sie offline-Sofortnachrichten (im) in Skype for Business Server aktivieren oder deaktivieren können.
   
-## <a name="enable-offline-instant-messaging-im-in-skype-for-business-server"></a>Aktivieren von Offline Sofortnachrichten (IM) in Skype für Business Server
+## <a name="enable-offline-instant-messaging-im-in-skype-for-business-server"></a>Offline-Sofortnachrichten (im) in Skype for Business Server aktivieren
 
-Offline-Sofortnachrichten ist ein Client Side-Feature in Skype für Business-Client integriert (2016 C2R build 16.0.6701.1000 oder höher), die Exchange-Webdienste (EWS) zum Senden von Nachrichten aus der Skype für Business-Client mit Exchange-Postfach eines Benutzers nutzt. Offline-Sofortnachrichten verwendet Exchange-Webdienste (EWS) Offline Nachrichten an das Postfach des Empfängers aus der Skype für Business-Client zu senden. EWS müssen die Skype für Business-Client für Offline-Nachrichten gesendet werden zur Verfügung stehen. Weitere Informationen zum Planen von instant messaging und Anwesenheit, finden Sie unter [Planen von instant messaging und Anwesenheit in Skype für Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).
+Offline-Chat ist eine clientseitige Funktion, die in den Skype for Business-Client (2016 C2R Build 16.0.6701.1000 oder höher) integriert ist und Exchange-Webdienste (EWS) nutzt, um Nachrichten aus dem Skype for Business-Client an das Exchange-Postfach eines Benutzers zu senden. Offline-Chat verwendet Exchange-Webdienste (EWS) zum Senden von Offline Nachrichten aus dem Skype for Business-Client an das Postfach des Empfängers. EWS muss für den Skype for Business-Client verfügbar sein, damit Offline-Nachrichten gesendet werden können. Weitere Informationen zur Planung von Sofortnachrichten und Anwesenheitsinformationen finden Sie unter [Planen von Sofortnachrichten und Anwesenheit in Skype for Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).
   
 > [!NOTE]
-> Wenn das Postfach des Benutzers in Exchange lokal gehostet wird, ist die Skype für Business-Client (2016 C2R build 16.0.6920.1000) erforderlich 
+> Wenn das Postfach des Benutzers in Exchange lokal gehostet wird, ist der Skype for Business-Client (2016 C2R Build 16.0.6920.1000) erforderlich. 
   
-### <a name="to-enable-or-disable-offline-im-in-skype-for-business-server"></a>So aktivieren oder deaktivieren Offline Sofortnachrichten in Skype für Business Server
+### <a name="to-enable-or-disable-offline-im-in-skype-for-business-server"></a>So aktivieren oder deaktivieren Sie die Offline-Chatfunktion in Skype for Business Server
 
-1. Öffnen Sie die Skype für Business Server-Verwaltungsshell.
+1. Öffnen Sie die Skype for Business Server-Verwaltungsshell.
     
 2. Führen Sie den folgenden Befehl aus, um Offline-Sofortnachrichten zu aktivieren.
     
@@ -39,9 +39,9 @@ Offline-Sofortnachrichten ist ein Client Side-Feature in Skype für Business-Cli
    ```
 
     > [!NOTE]
-    > In Skype für Business Server 2015 CU3 ist die Option EnableOfflineIM standardmäßig auf $True gesetzt. Wenn Sie die Möglichkeit deaktivieren möchten, legen Sie den Wert auf „$False“ fest. 
+    > In Skype for Business Server 2015 CU3 ist die Option EnableOfflineIM standardmäßig auf $true eingestellt. Wenn Sie die Möglichkeit deaktivieren möchten, legen Sie den Wert auf „$False“ fest. 
   
-3. Führen Sie den folgenden Befehl aus, um zu bestätigen, dass die Möglichkeit zum Speichern von Offline Instant Messaging gesetzt ist.
+3. Führen Sie den folgenden Befehl aus, um zu bestätigen, dass die Möglichkeit zum Speichern von Offline Chats festgesetzt ist.
     
    ```
    Get-CsImConfiguration
@@ -51,18 +51,18 @@ Offline-Sofortnachrichten ist ein Client Side-Feature in Skype für Business-Cli
 
 Offline-Sofortnachrichten sind nicht für Absender verfügbar, für die eine Clientrichtlinie das automatische Speichern von Offlinenachrichten im Ordner „Aufgezeichnete Unterhaltungen“ deaktiviert („EnableIMAutoArchiving = $false“). Es gibt keine Methode, mit der Sie überprüfen können, ob der Empfänger Offlinenachrichten empfangen kann.
   
-Für Offline innerhalb derselben Organisation gesendeten Nachrichten werden sie als e-Mail-Nachricht mit der Nachrichtenklasse des Sofortnachrichten empfangen. Note.MissedConversation und wird in Outlook **Entgangene Unterhaltung** Ordner als auch Unterhaltungen, die in der Registerkarte Verlauf zuletzt Liste-Unterhaltung in Skype für Business Clients bearbeitet wird, hängt enthalten sein.
+Für Offline-Nachrichten, die innerhalb derselben Organisation gesendet werden, werden Sie als e-Mail-Nachricht mit der Nachrichtenklasse Chat empfangen. Hinweis. MissedConversation und wird im Outlook-Ordner **** "verpasste Unterhaltungen" sowie im Konversationsprotokoll enthalten sein, das in den Reitern "letzte Liste/Konversations Verlauf" in Skype for Business-Clients aufgenommen wird.
   
 
  Offlinenachrichten, die von einer Partnerorganisation gesendet werden, werden als E-Mail-Nachricht ohne „IM.Note.MissedConversation“ empfangen. Sie werden nicht in den Ordnern für verpasste Unterhaltungen oder aufgezeichnete Unterhaltungen gespeichert.  
   
 ## <a name="troubleshooting"></a>Problembehandlung
 
-Es wird ein Timer zwei Minuten aus, wenn eine offline-Nachricht an gesendet wird, wenn es aufgenommene und verarbeitet wurde. Wenn offline Nachrichten nicht verarbeitet werden können, werden sie in das folgende Verzeichnis angezeigt: 
+Es gibt einen zweiminütigen Timer ab dem Zeitpunkt, zu dem eine Offline Nachricht gesendet wird, wenn Sie abgeholt und verarbeitet wird. Wenn Offline-Nachrichten nicht verarbeitet werden können, werden Sie im folgenden Verzeichnis angezeigt: 
   
   <pre>  %localappdata%\microsoft\office\16.0\lync\SipUserAddress\History Spooler   </pre>
 
-Die primäre Skype für Business ETL-Protokoll enthält Informationen zur Verarbeitung von Offline-Nachricht und Ihre besten Untersuchung/bei der Problembehandlung. 
+Das primäre ETL-Protokoll von Skype for Business enthält Informationen zur Offline-Nachrichtenverarbeitung und ist die beste Quelle für die Untersuchung/Fehlerbehebung. 
   
 > [!NOTE]
 > Es wurde ein Problem gemeldet, bei dem Offlinenachrichten nicht gewendet wurden und der Ordner „Entwürfe“ sich mit Nachrichten füllte. Das Problem trat bei Postfächern in der lokalen Exchange-Version auf. Seit dem 14.06.2016 ist das Problem in allen C2R-Kanälen behoben.   

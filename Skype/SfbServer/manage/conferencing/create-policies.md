@@ -1,33 +1,33 @@
 ---
-title: Erstellen von konferenzrichtlinien in Skype für Business Server
+title: Erstellen von Konferenzrichtlinien in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: 'Zusammenfassung: Informationen Sie zum Erstellen von konferenzrichtlinien in Skype für Business Server.'
-ms.openlocfilehash: 58a7cb21c9c44241723ffef42a0806d46fab87f5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie in Skype for Business Server Konferenzrichtlinien erstellen.'
+ms.openlocfilehash: 323a50ab779e772ca6149dc4c151f9d42d55df66
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919542"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304012"
 ---
-# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Erstellen von konferenzrichtlinien in Skype für Business Server
+# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Erstellen von Konferenzrichtlinien in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zum Erstellen von konferenzrichtlinien in Skype für Business Server.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie in Skype for Business Server Konferenzrichtlinien erstellen.
   
-Sie können konferenzrichtlinien mithilfe der Skype Business Server-Systemsteuerung oder mithilfe von Skype für Business Server-Verwaltungsshell erstellen.
+Sie können Konferenzrichtlinien mithilfe der Skype for Business Server-Systemsteuerung oder mithilfe der Skype for Business Server-Verwaltungsshell erstellen.
   
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Erstellen von konferenzrichtlinien mithilfe von Skype Business Server-Systemsteuerung
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Erstellen von Konferenzrichtlinien mithilfe der Skype for Business Server-Systemsteuerung
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2. Öffnen von Skype Business Server-Systemsteuerung.
+2. Öffnen Sie die Skype for Business Server-Systemsteuerung.
     
 3. Klicken Sie auf der linken Navigationsleiste auf **Konferenzen** und anschließend auf **Konferenzrichtlinie**.
     
@@ -44,7 +44,7 @@ Sie können konferenzrichtlinien mithilfe der Skype Business Server-Systemsteuer
     
 6. Geben Sie bei **Richtlinie für Organisatoren** unter **Maximale Besprechungsgröße** die Höchstzahl an Benutzern ein, die für eine Besprechung zugelassen werden sollen. Der maximale Besprechungsumfang ist standardmäßig auf 250 festgelegt.
     
-7. Um Benutzer daran zu hindern, anonyme Benutzer zu Besprechungen einzuladen, deaktivieren Sie das Kontrollkästchen **Teilnehmer dürfen anonyme Benutzer einladen**. Anonyme Benutzer sind Benutzer, die keine Anmeldeinformationen in Ihrer Organisation Active Directory Domain Services, und wer, daher, nicht authentifiziert werden. In der Standardeinstellung können Benutzer anonyme Benutzer zu Besprechungen einladen.
+7. Um Benutzer daran zu hindern, anonyme Benutzer zu Besprechungen einzuladen, deaktivieren Sie das Kontrollkästchen **Teilnehmer dürfen anonyme Benutzer einladen**. Anonyme Benutzer sind Benutzer, die keine Anmeldeinformationen in den Active Directory-Domänendiensten Ihrer Organisation haben und daher nicht authentifiziert sind. In der Standardeinstellung können Benutzer anonyme Benutzer zu Besprechungen einladen.
     
 8. Führen Sie im Abschnitt **Aufzeichnung** eine der folgenden Aktionen aus:
     
@@ -114,16 +114,16 @@ Sie können konferenzrichtlinien mithilfe der Skype Business Server-Systemsteuer
     
 21. Klicken Sie auf **Commit ausführen**.
     
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Erstellen von konferenzrichtlinien mithilfe von Skype für Business Server-Verwaltungsshell
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Erstellen von Konferenzrichtlinien mithilfe der Skype for Business Server-Verwaltungsshell
 
 Verwenden Sie das Cmdlet **New-CsConferencingPolicy**, um Konferenzrichtlinien zu erstellen.
   
-Das folgende Beispiel erstellt eine neue konferenzrichtlinie mit der Identität "salesconferencingpolicy" zu. Diese Richtlinie verwendet alle Standardwerte für eine Konferenzrichtlinie mit einer Ausnahme: MaxMeetingSize. In diesem Beispiel wird die maximale Besprechungsgröße statt auf den Standardwert 250 auf 50 festgelegt:
+Im folgenden Beispiel wird eine neue konferenzrichtlinie mit dem Identitäts SalesConferencingPolicy erstellt. Diese Richtlinie verwendet alle Standardwerte für eine Konferenzrichtlinie mit einer Ausnahme: MaxMeetingSize. In diesem Beispiel wird die maximale Besprechungsgröße statt auf den Standardwert 250 auf 50 festgelegt:
   
 ```
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-Weitere Informationen sowie eine Beschreibung für die vollständige Syntax und eine Liste der Parameter finden Sie unter [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
+Weitere Informationen, einschließlich einer vollständigen Syntax Beschreibung und einer Liste von Parametern, finden Sie unter [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
   
 

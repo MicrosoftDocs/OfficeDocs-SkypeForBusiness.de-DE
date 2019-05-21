@@ -1,5 +1,5 @@
 ---
-title: Warum verwenden kann nicht ich die Skype für Business Online Administrationscenter sofort?
+title: Warum kann ich das Skype for Business Online Admin Center gerade nicht verwenden?
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,51 +19,51 @@ f1keywords:
 - ms.lync.lac.TenantInMigration
 ms.custom:
 - Setup
-description: 'Hier erfahren Sie, was Sie können und nicht in Skype für Business-Verwaltungskonsole und andere Features verwenden, wenn Ihren Dienst auf einem anderen Microsoft-Rechenzentrum migriert wird. '
-ms.openlocfilehash: 57ffa6e37c18de8e87e5af00750eef276649f4f5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Erfahren Sie, was Sie in Skype for Business Admin Center und anderen Features nutzen können, wenn Ihr Dienst zu einem anderen Microsoft-Rechenzentrum migriert wird. '
+ms.openlocfilehash: 006caf6542abfeeb38e9563b6866fb119c47b88f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226317"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284877"
 ---
-# <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Warum verwenden kann nicht ich die Skype für Business Online Administrationscenter sofort?
+# <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Warum kann ich das Skype for Business Online Admin Center gerade nicht verwenden?
 
-Wir wissen, dass es frustrierend ist, wenn Sie, Ihre Arbeit vermitteln ist nicht möglich, also wir wird erläutert, was geschieht hier wird und warum sich warten werden. 
+Wir wissen, dass es frustrierend ist, wenn Sie Ihre Arbeit nicht erledigen können, und deshalb werden wir Ihnen erläutern, was hier passiert und warum es das warten Wert ist. 
   
-Zunächst wird die Erklärung hier:
+Zunächst folgt die technische Erläuterung:
   
-Wir sind Ihre Skype für Business Online-Dienst (d. h., Ihren Benutzern und organisatorische Settings) in einer anderen Microsoft-Rechenzentrum migrieren, die Sie näher ist. Verbessern des Diensts dadurch und Wartezeit reduzieren. 
+Wir migrieren Ihren Skype for Business Online-Dienst (also Ihre Benutzer und organisatorischen Einstellungen) zu einem anderen Microsoft-Rechenzentrum, das Ihnen näher steht. Dadurch wird der Service verbessert und die Latenz verkürzt. 
   
-Weitere technische Details finden Sie unter [während und nach der Daten verschoben]( https://go.microsoft.com/fwlink/?LinkId=526418).
+Weitere technische Details finden Sie unter [während und nach dem Verschieben von Daten]( https://go.microsoft.com/fwlink/?LinkId=526418).
   
-## <a name="ok-so-what-does-that-mean"></a>OK, also was bedeutet das?
+## <a name="ok-so-what-does-that-mean"></a>OK, was bedeutet das?
 
-Zunächst ein paar Begriffe aufgegliedert.
+Als erstes brechen wir einige Begriffe auf.
   
-- **Rechenzentrum** Dies ist die physischen Standort, auf dem die Informationen aus der Office 365-Organisation, wie Ihre Dateien und e-Mail-Nachrichten gespeichert ist. Wenn Sie befasst was Office 365 Rechenzentren werden möchten, sehen Sie sich[in diesem Artikel](https://www.microsoft.com/online/legal/v2/?docid=25).
+- **Rechenzentrum** Dies ist der physikalische Standort, an dem die Informationen aus Ihrer Office 365-Organisation gespeichert werden, beispielsweise Ihre Dateien und e-Mail-Nachrichten. Wenn Sie sich wirklich mit den Office 365-Rechenzentren ausgraben möchten, lesen Sie[diesen Artikel](https://www.microsoft.com/online/legal/v2/?docid=25).
     
-- **Migrieren** Dies ist ziemlich identisch mit dem "verschieben". In diesem Fall bedeutet dies, dass wir Ihre Skype Business Online-Benutzern und Einstellungen für von einem Datencenter an eine andere verschoben wird, die Sie zur Verbesserung des Diensts näher ist.
+- **Migrieren** von Das ist ziemlich ähnlich wie "verschieben". In diesem Fall bedeutet dies, dass wir Ihre Skype for Business Online-Benutzer und-Einstellungen von einem Rechenzentrum in ein anderes verschieben, das Ihnen näher steht, um Ihren Service zu verbessern.
     
-- **Wartezeit** Dies ist die Menge der Zeit, die Sie für den Zugriff auf das Office 365 Administrationscenter stellen eine Einstellungen ändern, und speichern Sie diese Änderungen.
+- **Latenz** Dies ist die Zeitdauer, die Sie für den Zugriff auf das Office 365 Admin Center benötigt, um die Einstellungen zu ändern und diese Änderungen zu speichern.
     
-- **Korrelations-ID** Möglicherweise haben Sie gesehen, dass dies in der Nachricht aufgeführt, die Sie soeben stammt. Diese Informationen werden von Microsoft-Supporttechniker verwendet, können Sie einen Fehler beheben. Wenn Sie Microsoft-Supportmitarbeiter kontaktieren, können Sie nach der Korrelations-ID. gefragt werden
+- **Korrelations-ID** Möglicherweise haben Sie dies in der Nachricht angezeigt, von der Sie gerade gekommen sind. Diese Informationen werden von Microsoft-Supportmitarbeitern verwendet, um Ihnen bei der Behebung eines Fehlers zu helfen. Wenn Sie sich an den Microsoft-Support wenden, werden Sie möglicherweise nach der Korrelations-ID gefragt.
     
-Damit Was ist in allen bedeutet, dass wir gerade alle Ihre Skype für Business Online-Benutzer verschieben und webdiensteinstellungen an einen anderen Speicherort, der Ihnen näher ist. Je näher der besser. Die gute Nachricht ist, dass nach kurzer Zeit Ihrer Skype für Business Onlinedienst verbessert wird.
+Das bedeutet also, dass wir gerade dabei sind, alle Ihre Skype for Business Online-Benutzer und-Diensteinstellungen an einen anderen Ort zu verschieben, der Ihnen näher steht. Je näher, desto besser. Die gute Nachricht ist, dass Ihr Skype for Business Online-Service nach dieser kurzen Zeitspanne verbessert wird.
   
-![Service-Migration in Office 365](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
+![Dienst Migration in Office 365](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
   
-## <a name="what-skype-for-business-online-features-will-still-work"></a>Was Skype für Business Online-Funktionen weiterhin funktionsfähig sind?
+## <a name="what-skype-for-business-online-features-will-still-work"></a>Welche Funktionen von Skype for Business Online funktionieren weiterhin?
 
-Obwohl Sie die Skype für Business Online Administrationscenter zugreifen können, werden nicht, wird während der Migration die folgenden Skype für Business Online-Features funktionieren:
+Auch wenn Sie nicht in der Lage sind, auf das Skype for Business Online Admin Center zuzugreifen, funktionieren die folgenden Skype for Business Online-Features während der Migration weiterhin:
   
-- Onlinebesprechungen
+- Online Besprechungen
     
 - Anwesenheitsinformationen
     
-## <a name="can-i-get-other-work-done"></a>Erhalte ich andere Arbeit?
+## <a name="can-i-get-other-work-done"></a>Kann ich andere Aufgaben erledigen?
 
-Sicher. Während wir Ihre Skype für Business Onlinedienst migrieren, können Sie weiterhin die anderen Admin Center in Office 365 (beispielsweise die Office 365 und Exchange Admin Center). Jedoch wird nicht zusammen mit der Skype für Business Online Administrationscenter, Sie während der Migration der Skype für Business Online Remote-PowerShell-Cmdlets verwenden können. 
+Sicher. Während der Migration Ihres Skype for Business Online-Diensts können Sie weiterhin die anderen Admin Center in Office 365 verwenden (beispielsweise die Office 365-und Exchange Admin Center). Zusammen mit dem Skype for Business Online Admin Center können Sie die Skype for Business Online-Remote-PowerShell-Cmdlets während der Migration nicht mehr verwenden. 
   
 ## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)

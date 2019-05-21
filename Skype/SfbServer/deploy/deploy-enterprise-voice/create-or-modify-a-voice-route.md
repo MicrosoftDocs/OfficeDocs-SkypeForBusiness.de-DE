@@ -1,10 +1,10 @@
 ---
-title: Erstellen oder Ändern einer VoIP-Route in Skype für Unternehmen
+title: Erstellen oder Ändern einer VoIP-Route in Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
-description: 'Zusammenfassung: Informationen Sie zum Erstellen oder Ändern einer VoIP-Route in Skype für Business Server mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: 1057d1f167b8a664919c293504381d9f7a6381a3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie eine VoIP-Route in Skype for Business Server mithilfe des Skype for Business Server-Control Panels erstellen oder ändern.'
+ms.openlocfilehash: f79e672b45f68e09391489da55023dceb3b0dd93
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892909"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286211"
 ---
-# <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Erstellen oder Ändern einer VoIP-Route in Skype für Unternehmen
+# <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Erstellen oder Ändern einer VoIP-Route in Skype for Business
  
-**Zusammenfassung:** Informationen Sie zum Erstellen oder Ändern einer VoIP-Route in Skype für Business Server mithilfe der Skype für Business Server-Systemsteuerung.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie eine VoIP-Route in Skype for Business Server mithilfe der Skype for Business Server-Systemsteuerung erstellen oder ändern.
   
-### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>Erstellen Sie eine VoIP-Route mithilfe der Skype für Business Server-Systemsteuerung
+### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>So erstellen Sie eine VoIP-Route mithilfe der Skype for Business Server-Systemsteuerung
 
 1. Melden Sie sich als Mitglied der Gruppe RTCUniversalServerAdmins oder als Benutzer mit der Administratorrolle **CsVoiceAdministrator**, **CsServerAdministrator** oder **CsAdministrator** beim Computer an.
     
-2. Öffnen von Skype Business Server-Systemsteuerung.
+2. Öffnen Sie die Skype for Business Server-Systemsteuerung.
     
 3. Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing**.
     
@@ -45,36 +45,36 @@ ms.locfileid: "33892909"
     
    - Geben Sie bei Verwendung des Tools **Zu suchendes Muster erstellen** zum Generieren eines regulären Ausdrucks die erforderlichen Werte wie nachfolgend beschrieben ein. Sie können zwei Arten von Mustervergleich angeben:
     
-   - **Anfangsziffern für Nummern, die Sie zulassen möchten**: Geben Sie die gewünschten Präfixwerte für diese Route ein (einschließlich eines vorangestellten +, sofern erforderlich). Geben Sie zum Beispiel +425, und klicken Sie dann auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Präfixwert, den Sie in der Route einschließen möchten.
+   - **Anfangsziffern für Nummern, die Sie zulassen möchten**: Geben Sie die gewünschten Präfixwerte für diese Route ein (einschließlich eines vorangestellten +, sofern erforderlich). Geben Sie beispielsweise + 425 ein, und klicken Sie dann auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Präfixwert, den Sie in der Route einschließen möchten.
     
-   - **Ausnahmen**: Wenn Sie eine oder mehrere Ausnahmen für einen Präfixwert angeben möchten, markieren Sie das Präfix, und klicken Sie auf **Ausnahmen**. Geben Sie einen oder mehrere Werte für die Übereinstimmung, die Sie Patterns *Not* möchten dies Weiterleitung an die aufzunehmen. Beispielsweise um Zahlen, beginnend mit +425237 aus der Route enthalten sein sollen, geben Sie einen Wert von + 425237 im Feld **Ausnahmen** , und klicken Sie dann auf **OK**.
+   - **Ausnahmen**: Wenn Sie eine oder mehrere Ausnahmen für einen Präfixwert angeben möchten, markieren Sie das Präfix, und klicken Sie auf **Ausnahmen**. Geben Sie einen oder mehrere Werte für die übereinstimmenden Muster ein, die nicht für diese Route *geeignet* sein sollen. Wenn Sie beispielsweise Zahlen, die mit + 425237 beginnen, von der Route ausschließen möchten, geben Sie im Feld **Ausnahmen** den Wert + 425237 ein, und klicken Sie dann auf **OK**.
     
-   - Wenn Sie das Muster für den Vergleich manuell definieren möchten, klicken Sie im Tool **Muster für Vergleich erstellen** auf **Bearbeiten** und geben dann einen regulären .NET Framework-Ausdruck ein, um das Muster für den Vergleich von Zieltelefonnummern anzugeben, auf die die Route angewendet wird. Ausführliche Informationen zum Schreiben von regulärer Ausdrücken finden Sie unter ["reguläre Ausdrücke von .NET Framework"](https://go.microsoft.com/fwlink/p/?linkId=140927). 
+   - Wenn Sie das Muster für den Vergleich manuell definieren möchten, klicken Sie im Tool **Muster für Vergleich erstellen** auf **Bearbeiten** und geben dann einen regulären .NET Framework-Ausdruck ein, um das Muster für den Vergleich von Zieltelefonnummern anzugeben, auf die die Route angewendet wird. Ausführliche Informationen zum Schreiben regulärer Ausdrücke finden Sie unter ["reguläre Ausdrücke von .NET Framework"](https://go.microsoft.com/fwlink/p/?linkId=140927). 
     
-9. Wählen Sie die Option **Anrufer-ID unterdrücken**, wenn Sie nicht möchten, dass dem Anrufempfänger bei ausgehenden Anrufen die Telefon-ID angezeigt wird. Wenn Sie diese Option auswählen, müssen Sie eine **Alternative Anrufer-ID** angeben, die in der Aufgabenliste des Empfängers Anrufer ID Anzeige angezeigt wird.
+9. Wählen Sie die Option **Anrufer-ID unterdrücken**, wenn Sie nicht möchten, dass dem Anrufempfänger bei ausgehenden Anrufen die Telefon-ID angezeigt wird. Wenn Sie diese Option auswählen, müssen Sie eine **Alternative Rufnummern** Anzeige angeben, die auf der Anzeige der Rufnummernanzeige des Empfängers angezeigt wird.
     
 10. Klicken Sie auf **Hinzufügen**, um der VoIP-Route einen oder mehrere Trunks zuzuordnen und wählen Sie aus der Liste einen Trunk aus.
     
 11. Wenn Sie der VoIP-Route eine oder mehrere PSTN-Verwendungen zuordnen möchten, klicken Sie auf **Auswählen** und wählen Sie einen Eintrag aus der Liste der PSTN-Verwendungseinträge aus, die für Ihre Enterprise-VoIP-Bereitstellung definiert wurden.
     
     > [!NOTE]
-    > Zum Anzeigen der Eigenschaften aller verfügbaren PSTN-verwendungsdatensätzen finden Sie unter [View PSTN-Verwendungseinträge in Skype für Unternehmen](view-pstn-usage-records.md). > zum Erstellen oder Bearbeiten von PSTN-verwendungsdatensätzen finden Sie unter [Erstellen oder ändern eine VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Business](voice-policy-and-pstn-usage-records.md)
+    > Informationen zum Anzeigen der Eigenschaften der einzelnen verfügbaren PSTN-Nutzungsdatensätze finden Sie unter [Anzeigen von PSTN-Nutzungsdaten Sätzen in Skype for Business](view-pstn-usage-records.md). > Informationen zum Erstellen oder Bearbeiten von PSTN-Nutzungsdaten Sätzen finden Sie unter [erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business](voice-policy-and-pstn-usage-records.md) .
   
-12. Ordnen Sie die PSTN-Verwendungseinträge zur Erzielung optimaler Leistung an. Um einen Datensatz Position in der Liste zu ändern, markieren Sie den Namen des Datensatzes, und klicken Sie auf den Pfeil nach oben oder nach-unten Sie-Pfeil.
+12. Ordnen Sie die PSTN-Verwendungseinträge zur Erzielung optimaler Leistung an. Um die Position eines Datensatzes in der Liste zu ändern, markieren Sie den Namen des Datensatzes, und klicken Sie auf den nach oben oder nach unten weisenden Pfeil.
     
     > [!NOTE]
-    > Im Gegensatz zu einer VoIP-Richtlinie, bei der die Reihenfolge der PSTN-Verwendungseinträge eine wichtige Rolle spielt, ist die Reihenfolge der PSTN-Verwendungseinträge in einer VoIP-Route unerheblich. Dennoch wird empfohlen, die Liste nach Verwendungshäufigkeit zu strukturieren. Beispiel: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Skype für Business Server durchläuft die Liste von oben nach unten.) 
+    > Im Gegensatz zu einer VoIP-Richtlinie, bei der die Reihenfolge der PSTN-Verwendungseinträge eine wichtige Rolle spielt, ist die Reihenfolge der PSTN-Verwendungseinträge in einer VoIP-Route unerheblich. Dennoch wird empfohlen, die Liste nach Verwendungshäufigkeit zu strukturieren. Beispiel: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Skype for Business Server durchläuft die Liste von oben nach unten.) 
   
 13. (Optional) Geben Sie im Feld **Geben Sie eine übersetzte Nummer für den Test ein** einen Wert ein und klicken Sie auf **Los**. Die Testergebnisse werden unterhalb des Felds angezeigt.
     
 14. Klicken Sie auf **OK**, um die VoIP-Route zu speichern.
     
     > [!IMPORTANT]
-    > Jedes Mal, wenn Sie eine VoIP-Route erstellen, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md). 
+    > Jedes Mal, wenn Sie eine VoIP-Route erstellen, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter [veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in Skype for Business](voice-route-config-changes.md). 
   
 ### <a name="to-modify-a-voice-route"></a>So ändern Sie eine VoIP-Route
 
-1. Öffnen von Skype Business Server-Systemsteuerung.
+1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
     
 2. Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing** und klicken Sie dann auf **Route**.
     
@@ -94,23 +94,23 @@ ms.locfileid: "33892909"
     
    - **Anfangsziffern für Nummern, die Sie zulassen möchten**: Geben Sie die gewünschten Präfixwerte für diese Route ein (einschließlich eines vorangestellten +, sofern erforderlich). Geben Sie beispielsweise +425 ein und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Präfixwert, den Sie in der Route einschließen möchten.
     
-   - **Ausnahmen**: Wenn Sie eine oder mehrere Ausnahmen für einen Präfixwert angeben möchten, markieren Sie das Präfix, und klicken Sie auf **Ausnahmen**. Geben Sie einen oder mehrere Werte für die Übereinstimmung, die Sie Patterns *Not* möchten dies Weiterleitung an die aufzunehmen. Beispielsweise um Zahlen, beginnend mit +425237 aus der Route enthalten sein sollen, geben Sie einen Wert von + 425237 im Feld **Ausnahmen** , und klicken Sie dann auf **OK**.
+   - **Ausnahmen**: Wenn Sie eine oder mehrere Ausnahmen für einen Präfixwert angeben möchten, markieren Sie das Präfix, und klicken Sie auf **Ausnahmen**. Geben Sie einen oder mehrere Werte für die übereinstimmenden Muster ein, die nicht für diese Route *geeignet* sein sollen. Wenn Sie beispielsweise Zahlen, die mit + 425237 beginnen, von der Route ausschließen möchten, geben Sie im Feld **Ausnahmen** den Wert + 425237 ein, und klicken Sie dann auf **OK**.
     
-   - Um das Vergleichsmuster manuell zu definieren, klicken Sie auf **Bearbeiten** , in dem Tool **erstellen ein Muster an** , und geben Sie in einem regulären .NET Framework-Ausdruck, um das Vergleichsmuster für Zielrufnummern anzugeben, dem die Route angewendet wird. Ausführliche Informationen zum Schreiben von regulärer Ausdrücken finden Sie unter ["reguläre Ausdrücke von .NET Framework"](https://go.microsoft.com/fwlink/p/?linkId=140927). 
+   - Wenn Sie das Übereinstimmungsmuster manuell definieren möchten, klicken Sie in dem Tool **Muster zum Anpassen erstellen** auf **Bearbeiten** , und geben Sie dann einen regulären .NET Framework-Ausdruck ein, um das Übereinstimmungsmuster für die Zielrufnummern anzugeben, auf die die Route angewendet wird. Ausführliche Informationen zum Schreiben regulärer Ausdrücke finden Sie unter ["reguläre Ausdrücke von .NET Framework"](https://go.microsoft.com/fwlink/p/?linkId=140927). 
     
-7. Wählen Sie die Option **Anrufer-ID unterdrücken**, wenn Sie nicht möchten, dass dem Anrufempfänger bei ausgehenden Anrufen die Telefon-ID angezeigt wird. Wenn Sie diese Option auswählen, müssen Sie eine **Alternative Anrufer-ID** angeben, die in der Aufgabenliste des Empfängers Anrufer ID Anzeige angezeigt wird.
+7. Wählen Sie die Option **Anrufer-ID unterdrücken**, wenn Sie nicht möchten, dass dem Anrufempfänger bei ausgehenden Anrufen die Telefon-ID angezeigt wird. Wenn Sie diese Option auswählen, müssen Sie eine **Alternative Rufnummern** Anzeige angeben, die auf der Anzeige der Rufnummernanzeige des Empfängers angezeigt wird.
     
 8. Klicken Sie auf **Hinzufügen**, um der VoIP-Route einen oder mehrere PSTN-Trunks (Public Switched Telephone Network Telefonfestnetz) zuzuordnen und wählen Sie aus der Liste einen Trunk aus.
     
-9. Um die VoIP-Route einen oder mehrere PSTN-Verwendungen zuzuordnen, klicken Sie auf **auswählen** , und wählen Sie einen Eintrag aus der Liste der PSTN-verwendungsdatensätzen, die für die Enterprise-VoIP-Bereitstellung definiert wurden.
+9. Klicken Sie auf **auswählen** , und wählen Sie einen Eintrag aus der Liste der PSTN-Nutzungsdatensätze aus, die für Ihre Enterprise-VoIP-Bereitstellung definiert wurden, um eine oder mehrere PSTN-Nutzungen der VoIP-Route zuzuordnen.
     
     > [!NOTE]
-    > Zum Anzeigen der Eigenschaften aller verfügbaren PSTN-verwendungsdatensätzen finden Sie unter [View PSTN-Verwendungseinträge in Skype für Unternehmen](view-pstn-usage-records.md). > zum Erstellen oder Bearbeiten von PSTN-verwendungsdatensätzen finden Sie unter [Erstellen oder ändern eine VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Business](voice-policy-and-pstn-usage-records.md). 
+    > Informationen zum Anzeigen der Eigenschaften der einzelnen verfügbaren PSTN-Nutzungsdatensätze finden Sie unter [Anzeigen von PSTN-Nutzungsdaten Sätzen in Skype for Business](view-pstn-usage-records.md). > Informationen zum Erstellen oder Bearbeiten von PSTN-Nutzungsdaten Sätzen finden Sie unter [erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business](voice-policy-and-pstn-usage-records.md). 
   
-10. Ordnen Sie die PSTN-Verwendungseinträge zur Erzielung optimaler Leistung an. Um einen Datensatz Position in der Liste zu ändern, markieren Sie den Namen des Datensatzes, und klicken Sie auf den Pfeil nach oben oder nach-unten Sie-Pfeil.
+10. Ordnen Sie die PSTN-Verwendungseinträge zur Erzielung optimaler Leistung an. Um die Position eines Datensatzes in der Liste zu ändern, markieren Sie den Namen des Datensatzes, und klicken Sie auf den nach oben oder nach unten weisenden Pfeil.
     
     > [!NOTE]
-    > Im Gegensatz zu einer VoIP-Richtlinie, in die Reihenfolge, in welche, die PSTN-Verwendungseinträge aufgelisteten, wichtig ist, wirkt sich die Reihenfolge der PSTN-verwendungsdatensätzen in eine VoIP-Route. Wird jedoch empfohlen, dass Sie die Liste beispielsweise nach der Häufigkeit der Verwendung, organisieren: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Skype für Business Server durchläuft die Liste von oben nach unten.) 
+    > Im Gegensatz zu einer VoIP-Richtlinie, in der die Reihenfolge, in der die Einträge für PSTN-Nutzung aufgelistet sind, wichtig ist, ist die Reihenfolge der PSTN-Nutzungsdatensätze in einer VoIP-Route bedeutungslos. Es wird jedoch empfohlen, die Liste nach Häufigkeit der Verwendung zu organisieren, beispielsweise: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Skype for Business Server durchläuft die Liste von oben nach unten.) 
   
 11. (Optional) Geben Sie im Feld **Geben Sie eine übersetzte Nummer für den Test ein** einen Wert ein und klicken Sie auf **Los**. Die Testergebnisse werden unterhalb des Felds angezeigt.
     
@@ -119,13 +119,13 @@ ms.locfileid: "33892909"
 13. Klicken Sie auf der Seite **Route** auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**. 
     
     > [!NOTE]
-    > Bei jeder Erstellung oder Änderung einer VoIP-Route müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md) in der Betriebsdokumentation.
+    > Bei jeder Erstellung oder Änderung einer VoIP-Route müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter [veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in Skype for Business](voice-route-config-changes.md) in der Betriebsdokumentation.
   
 ## <a name="see-also"></a>Siehe auch
 
-[Anzeigen von PSTN-Verwendungseinträge in Skype für Unternehmen](view-pstn-usage-records.md)
+[Anzeigen von PSTN-Nutzungsdaten Sätzen in Skype for Business](view-pstn-usage-records.md)
   
-[Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen](voice-policy-and-pstn-usage-records.md)
+[Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business](voice-policy-and-pstn-usage-records.md)
   
-[Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md)
+[Veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in Skype for Business](voice-route-config-changes.md)
 

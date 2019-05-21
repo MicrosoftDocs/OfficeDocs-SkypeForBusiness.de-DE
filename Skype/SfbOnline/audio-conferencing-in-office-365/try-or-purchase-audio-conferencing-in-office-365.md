@@ -1,5 +1,5 @@
 ---
-title: Versuchen Sie es oder Audiokonferenzen in Office 365 für Skype für Business Online erwerben
+title: Testen oder kaufen von Audiokonferenzen in Office 365 für Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -21,14 +21,14 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich über das Testen oder erwerben von Lizenzen für Audiokonferenz (PSTN-Konferenz) für Office 365 zum Einrichten von Telefonkonferenzen, in die Personen sich einwählen können. '
-ms.openlocfilehash: deb26d47c2b291e83c3ed32e4175bf7a82035c67
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e59c895ed60c53b3199648a0acb142037b936c75
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203327"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302760"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Versuchen Sie es oder Audiokonferenzen in Office 365 für Skype für Business Online erwerben
+# <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Testen oder kaufen von Audiokonferenzen in Office 365 für Skype for Business Online
 
 > [!Note]
 > Informationen zu Audiokonferenzen in Microsoft-Teams finden Sie unter [Testen oder erwerben Audiokonferenzen in Office 365 für Skype für Microsoft-Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams).
@@ -40,9 +40,9 @@ You only need to set up audio conferencing for people who plan to schedule or le
 
 Infos über die Preisgestaltung finden Sie unter [Preise für Audiokonferenz](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
 
-## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Schritt 1: Erwerben und Audiokonferenzen Lizenzen zuweisen
+## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Schritt 1: erwerben und Zuweisen von Lizenzen für Audiokonferenzen
 
-Sie müssen ein [zu Office 365-Administratorrollen](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) zum Ausführen dieser Schritte können.
+Sie müssen über die [Office 365-Administratorrollen](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) verfügen, um diese Schritte ausführen zu können.
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>Erwerben und Zuweisen von Benutzerlizenzen für Audiokonferenz:
 
@@ -90,7 +90,7 @@ Die folgenden Schritte sind **optional**, aber viele Administratoren führen die
 
 3. [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing.md) that the Audio Conferencing auto attendant uses to greet a caller when they dial in to an audio conferencing phone number. This step only applies if you're using Microsoft as your audio conferencing provider.
 
-4. [Legen Sie die PIN für Audiokonferenzen Besprechungen](set-the-pin-length-for-audio-conferencing-meetings.md).
+4. [Die Länge der PIN für Audiokonferenz-Besprechungen festzulegen](set-the-pin-length-for-audio-conferencing-meetings.md).
 
 
 > [!NOTE]

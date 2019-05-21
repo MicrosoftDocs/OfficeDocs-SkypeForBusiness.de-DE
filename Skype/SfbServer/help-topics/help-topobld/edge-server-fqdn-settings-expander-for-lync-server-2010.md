@@ -5,39 +5,39 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeFqdnsSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
-description: 'Um die Eigenschaften unter externe Einstellungen zu definieren, konfigurieren Sie Folgendes:'
-ms.openlocfilehash: 32ce06451d0cfe6aae5288ff4e6fdf32b7279724
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Konfigurieren Sie die folgenden Optionen, um die Eigenschaften unter externe Einstellungen zu definieren:'
+ms.openlocfilehash: 6b833e89a8e1288af9a203dd5f44201c253ff2f9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926831"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282597"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Edgeserver-FQDN-Einstellungen für Lync Server 2010 – Erweiterung
  
-Um die Eigenschaften unter **externe Einstellungen**zu definieren, konfigurieren Sie Folgendes:
+Konfigurieren Sie die folgenden Optionen, um die Eigenschaften unter **externe Einstellungen**zu definieren:
   
-Wählen Sie aus der **Enable separaten FQDN und IP-Adressen für Webkonferenzen und A / V** das Kontrollkästchen, wenn Sie unterschiedliche Pool-FQDN und IP-definieren möchten Adressen für Webkonferenzen und Audio/Video.
+Aktivieren Sie das Kontrollkästchen **separaten FQDN und IP-Adresse für Webkonferenzen und A/V aktivieren** , wenn Sie einen eindeutigen Pool-FQDN und IP-Adressen für Webkonferenzen und Audio/Video definieren möchten.
   
 > [!NOTE]
-> Wenn Sie das Kontrollkästchen für separaten FQDN und IP-Adressen nicht zu aktivieren auswählen, müssen Sie unterschiedliche Ports für jede der drei Dienste von der Edge-Server angeben. Der einzige vollqualifizierten Domänennamen zu konfigurieren ist der vollqualifizierte Domänenname der Zugriffs-edgedienst zugeordnet. 
+> Wenn Sie das Kontrollkästchen für getrennte FQDN-und IP-Adressen nicht aktivieren möchten, müssen Sie für jeden der drei Dienste, die vom Edgeserver bereitgestellt werden, unterschiedliche Ports angeben. Der einzige vollqualifizierte Domänenname, der konfiguriert werden soll, ist der FQDN, der dem Access Edge-Dienst zugeordnet ist. 
   
-Wählen Sie aus der **A / V-edgedienst ist für NAT aktiviert** das Kontrollkästchen, wenn Sie möchten, dass den A / V-edgedienst, ein Netzwerk verwenden Adresse Netzwerkadressübersetzung (NAT) IP-Adresse und Konfiguration.
+Aktivieren Sie das Kontrollkästchen **a/v-Edgedienst ist NAT-fähig** , wenn der a/v-Edgedienst eine IP-Adresse und-Konfiguration für Netzwerkadressübersetzung (Network Address Translation, NAT) verwenden soll.
   
-Für die aktivierten edgedienste Geben Sie einen **Pool-FQDN** und unter **Ports** einen port
+Für die aktivierten Edge-Dienste geben Sie einen **Pool-FQDN** und einen Port unter **Ports** ein.
   
-- Definieren Sie den Pool-FQDN des **Zugriffs-edgedienst** und einen Port, der den Dienst eindeutig identifiziert wird.
+- Definieren Sie den FQDN des **Access Edge-Service** Pools und einen Port, der den Dienst eindeutig identifiziert.
     
-- Definieren Sie den Pool-FQDN des **Webkonferenz-edgedienst** (wenn aktivieren, trennen Sie FQDN und IP-Adresse für Webkonferenzen und A / V nicht ausgewählt ist) und einen Port, die den Dienst eindeutig identifiziert wird.
+- Definieren Sie den FQDN des **Web Conferencing Edge-Service** Pools (wenn separater FQDN und IP-Adresse für Webkonferenzen aktiviert sind und a/V nicht ausgewählt ist) und einen Port, der den Dienst eindeutig identifiziert.
     
-- Definieren der **A / V-edgedienst** Pool-FQDN (wenn aktivieren, trennen Sie FQDN und IP-Adresse für Webkonferenzen und A / V nicht ausgewählt ist) und einen Port, die den Dienst eindeutig identifiziert wird.
+- Definieren Sie den FQDN des **A/v-Edge-Service** Pools (wenn separater FQDN und IP-Adresse für Webkonferenzen aktiviert sind und a/v nicht ausgewählt ist) und einen Port, der den Dienst eindeutig identifiziert.
     
   **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
   

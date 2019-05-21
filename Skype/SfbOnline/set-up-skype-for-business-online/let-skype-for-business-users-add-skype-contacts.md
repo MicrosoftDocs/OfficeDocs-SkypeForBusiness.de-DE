@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,20 +19,20 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: 212393154cb2b730ce18f5be9b03495e747e207c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a3470e627bf8a3512df65604aa99351fc9f6551b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238032"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285274"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen
 
 Mit Skype for Business können Ihre Benutzer nach beliebigen Benutzern von Skype - der kostenlosen App - suchen und Chatnachrichten mit ihnen austauschen. In diesem Artikel wird erläutert, was Sie tun müssen, damit die Benutzer Skype-Kontakte hinzufügen können. 
   
-Sie benötigen [Administratorberechtigungen](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) in Office 365 dazu.
+Sie benötigen [Administratorberechtigungen](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) in Office 365, um dies zu tun.
 
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
   
 1. Melden Sie sich mit Ihrem Office 365-Administratorkonto bei [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) an.
     
@@ -40,7 +40,7 @@ Sie benötigen [Administratorberechtigungen](https://support.office.com/en-us/ar
     
     ![Choose the Skype for Business admin center.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   
-3. Wählen Sie in der **Skype für Business Administrationscenter**, **Organisation** > **externe Kommunikation**. 
+3. Wählen Sie im **Skype for Business Admin Center**die Option **Organisation** > **External Communications**aus. 
     
 4. Standardmäßig können Ihre Benutzer mit allen anderen Personen weltweit kommunizieren, die Skype for Business verwenden (vorausgesetzt, Ihre Firewall ist so konfiguriert, dass sie dies zulässt). 
     
@@ -54,7 +54,7 @@ Sie benötigen [Administratorberechtigungen](https://support.office.com/en-us/ar
     
 6.  Wenn Sie die Windows-Firewall verwenden, öffnet Skype for Business die erforderlichen Ports automatisch.
     
-    Wenn Ihre Organisation eine andere Lösung verwendet, um zu verhindern, dass die Computer in Ihrem Netzwerk verbinden mit dem Internet, stellen Sie sicher, dass Clientcomputer alle die [IP-Adressen und URLs](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) für Skype-Konnektivität und Skype-Verzeichnissuche zugreifen zu können. Dafür kann es erforderlich sein, sie der Liste für zugelassene ausgehende Verbindungen in Ihrer Firewall oder Proxy-Infrastrukturkonfiguration hinzuzufügen.
+    Wenn Ihre Organisation eine andere Lösung verwendet, um die Internet Verbindung von Computern in Ihrem Netzwerk zu beschränken, stellen Sie sicher, dass Clientcomputer auf alle [IP-Adressen und URLs](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) für Skype-Konnektivität und die Skype-Verzeichnissuche zugreifen können. Dafür kann es erforderlich sein, sie der Liste für zugelassene ausgehende Verbindungen in Ihrer Firewall oder Proxy-Infrastrukturkonfiguration hinzuzufügen.
     
 7. **WARTEN SIE MIT DEM TEST BIS ZU 24 STUNDEN**. Bei jeder Änderung der Einstellungen für externe Kommunikation kann es bis zu 24 Stunden dauern, bis die Änderungen in allen Rechenzentren übernommen wurden.
     
@@ -72,7 +72,7 @@ Um Ihr Setup zu testen, benötigen Sie einen Kontakt in Skype, der sich nicht hi
   
 3. Suchen Sie in Skype for Business nach Ihrem Kontakt in Skype, und senden Sie eine Chatanfrage. 
     
-    Wenn Sie die Nachricht, die aufgrund der Unternehmensrichtlinie gesendet werden konnte erhalten, müssen Sie die [Firewalleinstellungen](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)überprüfen. 
+    Wenn Sie die Meldung erhalten, dass Sie aufgrund einer Unternehmensrichtlinie nicht gesendet werden konnte, müssen Sie Ihre [Firewalleinstellungen](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)überprüfen. 
     
 4. Eine weitere Möglichkeit, zu testen, ob die Firewall das Problem darstellt: Gehen Sie zu einem Ort mit WLAN, der sich nicht hinter Ihrer Firewall befindet (zum Beispiel in ein Café), und senden Sie mit Skype for Business eine Chatanfrage an Ihren Skype-Kontakt. 
     
@@ -84,15 +84,15 @@ Um Ihr Setup zu testen, benötigen Sie einen Kontakt in Skype, der sich nicht hi
 
 - **Skype for Businessfür Mac** ist es nicht möglich, nach Skype-Kontakten zu suchen und mit ihnen zu kommunizieren.
     
-- Wenn Verzeichnissuche aktiviert ist, können Sie suchen und Skype und Skype für Unternehmensbenutzer suchen. Wenn aus irgendeinem Grund Sie sie durch Durchsuchen des Verzeichnisses finden können, können Sie senden Sie ihnen eine Kontaktanfrage und klicken Sie dann sie haben bei Skype anmelden und akzeptieren, können Sie Sofortnachrichten mit ihnen. 
+- Wenn die Verzeichnissuche aktiviert ist, können Sie nach Skype-und Skype for Business-Benutzern suchen und diese finden. Wenn Sie Sie aus irgendeinem Grund nicht finden können, indem Sie das Verzeichnis durchsuchen, können Sie Ihnen eine Kontakt Anfrage senden und diese dann bei Skype anmelden und akzeptieren, damit Sie mit Ihnen chatten können. 
     
 - Chat-Nachrichtenverbindungen mit anderen Chat-Dienstanbietern wie Google oder Facebook sind nicht möglich. Sie können Skype for Business nicht zum Senden von Mobiltelefon-Textnachrichten verwenden.
 
-- Es ist nicht möglich, Aufzeichnen von Audio- und Videoanrufe zwischen einem Kontakt Skype und Skype für Business Contact.
+- Es ist nicht möglich, Audio-oder Videoanrufe zwischen einem Skype-Kontakt und einem Skype for Business-Kontakt aufzuzeichnen.
     
 ## <a name="what-features-are-available-when-adding-skype-contacts"></a>Welche Funktionen sind beim Hinzufügen von Skype-Kontakten verfügbar?
 
-Skype-Kontakte, die mit ihren Microsoft-Konto (früher Windows Live ID) signiert finde einige, jedoch nicht alle Features, wenn sie mit Ihrer Skype für Unternehmensbenutzer kommunizieren.
+Skype-Kontakte, die sich mit Ihrem Microsoft-Konto (vormals Windows Live ID) angemeldet haben, können einige, aber nicht alle Funktionen erhalten, wenn Sie mit Ihren Skype for Business-Benutzern sprechen.
   
 |**Für Skype-Kontakte verfügbar**|**Für Skype-Kontakte nicht verfügbar**|
 |:-----|:-----|

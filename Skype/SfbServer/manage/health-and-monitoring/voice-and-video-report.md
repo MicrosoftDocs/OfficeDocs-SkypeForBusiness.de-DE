@@ -1,35 +1,35 @@
 ---
-title: Peer-zu-Peer- und-videoaktivität in Skype für Business Server
+title: Peer-to-Peer-sprach-und Video Berichte in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
-description: 'Zusammenfassung: Erfahren Sie mehr über die Peer-zu-Peer-- und-videoaktivität in Skype für Business Server.'
-ms.openlocfilehash: 74ab2f5056c66bbd819834a573a307bd8cf82773
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Peer-to-Peer-sprach-und Video Bericht in Skype for Business Server.'
+ms.openlocfilehash: 8ba665886e91371373358f98f69fa15b8d62a9dd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898038"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279634"
 ---
-# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Peer-zu-Peer- und-videoaktivität in Skype für Business Server
+# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Peer-to-Peer-sprach-und Video Berichte in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Peer-zu-Peer-- und-videoaktivität in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den Peer-to-Peer-sprach-und Video Bericht in Skype for Business Server.
   
 Der Bericht über Peer-to-Peer-Sprach- und -Videoaktivität bietet eine detaillierte Aufstellung der Sprach- und -Videoanrufe für einen bestimmten Zeitraum (z. B. Anrufe pro Stunde oder Anrufe pro Tag). Darüber hinaus können Sie mit diesem Bericht alle getätigten Sprach- und Videoanrufe oder aber nur die erfolgreichen bzw. fehlgeschlagenen Anrufe anzeigen. In diesem Bericht werden die Anrufinformationen in den folgenden Kategorien angezeigt:
   
 - Anrufe pro Pool
     
-- Anrufe pro Anruftyp (beispielsweise Skype für Unternehmen Skype für Business Anruf im Vergleich zu einer Skype für Business Anruf an eine Person auf das PSTN-Netzwerk)
+- Anrufe pro Anruftyp (beispielsweise ein Skype for Business für Skype for Business-Anruf im Vergleich zu einem Skype for Business-Anruf an eine Person im PSTN-Netzwerk)
     
 - Anrufe pro Zugriffstyp (beim internen Netzwerk angemeldete Benutzer bzw. beim externen Netzwerk angemeldete Benutzer)
     
-- Anrufe pro Vermittlungsserver
+- Anrufe pro Vermittlungs Server
     
 ## <a name="to-access-the-peer-to-peer-voice-and-video-report"></a>So greifen Sie auf den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität zu
 
@@ -70,7 +70,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über P
 
 |**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
-|**Pool** <br/> |Nein  <br/> |Name des Registrar-Pools oder Edgeservers für den Anruf verwendet.  <br/> |
+|**Pool** <br/> |Nein  <br/> |Name des registrierungspools oder des Edge-Servers, der für den Anruf verwendet wird.  <br/> |
 |**Datum/Uhrzeit** <br/> |Nein  <br/> |Zeitpunkt (Datum und Uhrzeit), zu dem der Anruf stattfand.  <br/> |
 |**Gesamt** <br/> |Nein  <br/> |Gesamtzahl der Sitzungen bzw. Gesamtzahl der Nachrichten.  <br/> |
    
@@ -100,13 +100,13 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über P
    
 ## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>Metriken für den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität nach Vermittlungsserver
 
-Die folgende Tabelle enthält die Informationen in der Peer-zu-Peer- und-videoaktivität für jeden Vermittlungsserver bereitgestellt.
+In der folgenden Tabelle sind die Informationen aufgeführt, die im Peer-to-Peer-sprach-und Video Bericht für jeden Vermittlungs Server bereitgestellt werden.
   
 **Metriken für den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität nach Vermittlungsserver**
 
 |**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
-|**Vermittlungsserver** <br/> |Nein  <br/> |Name des Vermittlungsservers.  <br/> |
+|**Vermittlungsserver** <br/> |Nein  <br/> |Der Name des Vermittlungsservers.  <br/> |
 |**Datum/Uhrzeit** <br/> |Nein  <br/> |Zeitpunkt (Datum und Uhrzeit), zu dem der Anruf stattfand.  <br/> |
 |**Gesamt** <br/> |Nein  <br/> |Gesamtzahl der Sitzungen bzw. Gesamtzahl der Nachrichten.  <br/> |
    

@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 2/15/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
-description: Informationen Sie zum Konfigurieren der Integration mit Cloud mit Ihrem Office 365-Mandanten.
-ms.openlocfilehash: 52b66d7870f8416b1dda1a3b5f34f8f028f65557
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Erfahren Sie, wie Sie die Integration von Cloud Connectors in Ihren Office 365-Mandanten konfigurieren.
+ms.openlocfilehash: 1742fbadec95eb72e46fb6cc46f006e1baeaf8f1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234272"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287615"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configure Cloud Connector integration with your Office 365 tenant
  
-Informationen Sie zum Konfigurieren der Integration mit Cloud mit Ihrem Office 365-Mandanten.
+Erfahren Sie, wie Sie die Integration von Cloud Connectors in Ihren Office 365-Mandanten konfigurieren.
   
 Führen Sie nach Abschluss der Installation der Skype for Business-Cloud Connector-Edition die Schritte in diesem Abschnitt durch, um Ihre Bereitstellung zu konfigurieren und diese mit Ihrem Office 365-Mandanten zu verbinden.
   
 ## <a name="configure-firewall-settings"></a>Konfigurieren von Firewall-Einstellungen
 
-Konfigurieren Sie die Firewalleinstellungen für die internen und externen Firewalleinstellungen für Sie Umkreisnetzwerk um die erforderlichen Ports zu öffnen, wie beschrieben unter [Ports und Protokolle](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports) in [Skype für Business Cloud Connector Edition planen](plan-skype-for-business-cloud-connector-edition.md).
+Konfigurieren Sie die Firewalleinstellungen für Ihre internen und externen Firewalleinstellungen für Ihr Umkreisnetzwerk, um die erforderlichen Ports zu öffnen, wie in [Ports und Protokollen](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports) in [Plan für Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md)beschrieben.
   
 ## <a name="set-up-public-switched-telephone-network-pstn-gateways"></a>Einrichten von PSTN-(Festnetz-)Gateways
 
@@ -43,7 +43,7 @@ Wenn Sie TLS zwischen Vermittlungsservern und Gateways verwenden, müssen Sie di
     
 3. Importieren Sie das Zertifikat der Stammzertifizierungsstelle für das für Ihr Gateway auf dem Vermittlungsserver ausgegebene Zertifikat. Wenn Sie ein SSL-Zertifikat für das Gateway abrufen müssen, können Sie dafür den Zertifizierungsstellen-Dienst verwenden, der auf dem Cloud Connector Active Directory-Computer ausgeführt wird. Gehen Sie dazu folgendermaßen vor:
     
-   - Ändern Sie die vorhandene Webservervorlage zum Aktivieren von authentifizierten Benutzern die Registrierung, oder erstellen Sie eine neue Webserver-Vorlage, um andere Eigenschaften konfigurieren und Aktivieren von authentifizierten Benutzern die Registrierung. Weitere Informationen finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/en-us/library/cc730705.aspx).
+   - Ändern Sie die vorhandene Webservervorlage, um authentifizierten Benutzern die Registrierung zu ermöglichen, oder erstellen Sie eine neue Webservervorlage, um andere Eigenschaften zu konfigurieren und authentifizierte Benutzer für die Registrierung zu aktivieren. Ausführliche Anweisungen finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/en-us/library/cc730705.aspx).
     
    - Fordern Sie ein Zertifikat mit dem Zertifikat-Snap-In an, indem Sie die aktivierte Webservervorlage auswählen. Vergewissern Sie sich, dass Sie als Antragsteller den allgemeinen Namen und den DNS-Namen als alternativen Namen mit dem FQDN des Gateways hinzufügen, und prüfen Sie, dass für „Privater Schlüssel“ unter den Schlüsseloptionen die Option „Privaten Schlüssel exportierbar machen“ ausgewählt ist. 
     
@@ -51,11 +51,11 @@ Wenn Sie TLS zwischen Vermittlungsservern und Gateways verwenden, müssen Sie di
     
 ## <a name="update-the-domain-for-your-tenant"></a>Aktualisieren der Domäne für Ihren Mandanten
 
-Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihrer Domäne in Office 365 abgeschlossen und die Möglichkeit haben, DNS-Datensätze hinzuzufügen. Weitere Informationen dazu, wie Sie Ihre Domäne in Office 365 einrichten finden Sie unter [Hinzufügen einer Domäne zu Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
+Stellen Sie sicher, dass Sie die Schritte zum Aktualisieren Ihrer Domäne in Office 365 abgeschlossen und die Möglichkeit haben, DNS-Datensätze hinzuzufügen. Weitere Informationen zum Einrichten Ihrer Domäne in Office 365 finden Sie unter [Hinzufügen einer Domäne zu Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>Hinzufügen von DNS-Datensätzen in Office 365 für Ihre Edges
 
-Fügen Sie Ihrem Office 365-Mandanten die folgenden DNS-Datensätze hinzu. Informationen dazu, wie Sie Ihre Office 365-Mandanten DNS-Datensätze hinzufügen finden Sie unter [Hinzufügen oder Bearbeiten benutzerdefinierter DNS-Einträgen in Office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
+Fügen Sie Ihrem Office 365-Mandanten die folgenden DNS-Datensätze hinzu. Informationen zum Hinzufügen von DNS-Einträgen zu Ihrem Office 365-Mandanten finden Sie unter [Hinzufügen oder Bearbeiten von benutzerdefinierten DNS-Einträgen in Office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
   
 1. Fügen Sie einen DNS-A-Eintrag für Zugriffs-Edges hinzu.
     
@@ -65,9 +65,9 @@ Fügen Sie Ihrem Office 365-Mandanten die folgenden DNS-Datensätze hinzu. Infor
   
 ## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-office-365"></a>Einrichten von Hybrid-Anbindung zwischen Cloud Connector Edition und Office 365
 
-Führen Sie das folgende Cmdlet in einer remote-PowerShell-Sitzung, um hybridkonnektivität zwischen Ihrer Skype für Business Cloud Connector Edition-Bereitstellung und Ihres Office 365-Mandanten zu konfigurieren. Gewusst wie: Einrichten einer PowerShell-Remotesitzung finden Sie unter: [Einrichten des Computers für Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
+Führen Sie das folgende Cmdlet in einer Remote-PowerShell-Sitzung aus, um die hybridverbindung zwischen der Bereitstellung von Skype for Business Cloud Connector Edition und Ihrem Office 365-Mandanten zu konfigurieren. Informationen zum Einrichten einer Remote-PowerShell-Sitzung finden Sie unter: [Einrichten Ihres Computers für Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
   
-Das Cmdlet legt den externen FQDN für Zugriffs-Edges fest. In der ersten der Befehle die \<externer FQDN der Access Edge\> sollte demjenigen, der für die SIP-Zugriffs-Edgeservers-Rolle sein. In der Standardeinstellung sollte dies ap.\<Domänennamen\>.
+Das Cmdlet legt den externen FQDN für Zugriffs-Edges fest. Im ersten der Befehle sollte der \<FQDN für den externen Access-\> Edge-Domänennamen für die SIP Access-Edge-Rolle vorhanden sein. Standardmäßig sollte dies AP.\<Domain-Name\>sein.
   
 ```
 Set-CsTenantHybridConfiguration -PeerDestination <External Access Edge FQDN> -UseOnPremDialPlan $false
@@ -75,7 +75,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 ```
 
 > [!NOTE]
-> Den externen Zugriff Edge-FQDN verwendet für Peer-Ziel sollte auf eine PSTN-Website festgelegt werden, die nur als Fallback verwendet werden für den Fall, dass ein Benutzer eine PSTN-Website zugewiesen ist nicht. Weitere Informationen finden Sie unter [Bereitstellen einer einzelnen Website in der Cloud Connector](deploy-a-single-site-in-cloud-connector.md) und [mehrere Standorte in der Cloud Connector bereitstellen](deploy-multiple-sites-in-cloud-connector.md). 
+> Der für das Peer Ziel verwendete FQDN des externen Zugriffs-Edge sollte auf eine PSTN-Website festgelegt werden, die nur dann als Fallback verwendet wird, wenn ein Benutzer nicht einer PSTN-Website zugewiesen ist. Weitere Informationen finden Sie unter [Bereitstelleneiner einzelnen Website in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) und [Bereitstellen mehrerer Websites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
 ## <a name="set-up-pstn-gateways"></a>Einrichten von PSTN-Gateways
 
@@ -89,7 +89,7 @@ Wenn Sie TLS zwischen Vermittlungsservern und Gateways verwenden, müssen Sie di
     
 3. Importieren Sie das Zertifikat der Stammzertifizierungsstelle für das für Ihr Gateway auf dem Vermittlungsserver ausgegebene Zertifikat. Wenn Sie ein SSL-Zertifikat für das Gateway abrufen müssen, können Sie dafür den Zertifizierungsstellen-Dienst verwenden, der auf dem Cloud Connector Active Directory-Computer ausgeführt wird. Gehen Sie dazu folgendermaßen vor:
     
-   - Ändern Sie die vorhandene Webserver-Vorlage, damit sich authentifizierte Benutzer registrieren können, oder erstellen Sie eine neue Webserver-Vorlage, um andere Eigenschaften zu konfigurieren und um authentifizierten Benutzern die Registrierung zu ermöglichen. Weitere Informationen finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/library/cc730705.aspx).
+   - Ändern Sie die vorhandene Webserver-Vorlage, damit sich authentifizierte Benutzer registrieren können, oder erstellen Sie eine neue Webserver-Vorlage, um andere Eigenschaften zu konfigurieren und um authentifizierten Benutzern die Registrierung zu ermöglichen. Ausführliche Anweisungen finden Sie unter [Zertifikatvorlagen](https://technet.microsoft.com/library/cc730705.aspx).
     
    - Fordern Sie ein Zertifikat mit dem Zertifikat-Snap-In an, indem Sie die aktivierte Webservervorlage auswählen. Vergewissern Sie sich, dass Sie als Antragsteller den allgemeinen Namen und den DNS-Namen als alternativen Namen mit dem FQDN des Gateways hinzufügen, und prüfen Sie, dass für „Privater Schlüssel“ unter den Schlüsseloptionen die Option „Privaten Schlüssel exportierbar machen“ ausgewählt ist. 
     
@@ -99,13 +99,13 @@ Wenn Sie TLS zwischen Vermittlungsservern und Gateways verwenden, müssen Sie di
     
 ## <a name="set-up-your-users-in-office-365"></a>Einrichten Ihrer Benutzer in Office 365
 
-Melden Sie sich bei Office 365 Admin-Portal, die Benutzer, die für VoIP online Services aktiviert, und weisen Sie eine Lizenz für E5 oder Telefonsystem in Office 365 Add-on der Lizenz E3 diese Benutzer hinzufügen. Informationen zum Hinzufügen von Benutzern finden Sie unter [Hinzufügen von Benutzern zu Office 365 für Unternehmen](https://support.office.com/en-US/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Melden Sie sich beim Office 365-Administratorportal an, fügen Sie die Benutzer hinzu, die für Online-Sprachdienste aktiviert werden, und weisen Sie diesen Benutzern eine E5-Lizenz oder ein Telefon System in Office 365-Add-on zur E3-Lizenz zu. Informationen zum Hinzufügen von Benutzern finden Sie unter [Hinzufügen von Benutzern zu Office 365 for Business](https://support.office.com/en-US/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
   
-## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>Aktivieren von Benutzern für Telefonsystem in Office 365 Sprach- und Voicemail-Dienste
+## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>Aktivieren von Benutzern für das Telefon System in Office 365-sprach-und Voicemail-Diensten
 
-Aktivieren Sie nach dem Hinzufügen Ihrer Benutzer zu Office 365, deren Konten für Telefonsystem in Office 365-VoIP-Dienste, einschließlich Voicemail. Um diese Funktionen zu aktivieren, müssen Sie sich bei Ihrem Office 365-Mandanten mit einem Konto anmelden, bei dem es sich um eine globale Office 365-Administratorrolle handelt, und in der Lage sein, das PowerShell-Modul remote auszuführen. Gewusst wie: Einrichten einer PowerShell-Remotesitzung finden Sie unter: [Einrichten des Computers für Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)
+Nachdem Sie Ihre Benutzer zu Office 365 hinzugefügt haben, aktivieren Sie Ihre Konten für das Telefon System in den Office 365-Sprachdiensten, einschließlich Voicemail. Um diese Funktionen zu aktivieren, müssen Sie sich bei Ihrem Office 365-Mandanten mit einem Konto anmelden, bei dem es sich um eine globale Office 365-Administratorrolle handelt, und in der Lage sein, das PowerShell-Modul remote auszuführen. Informationen zum Einrichten einer Remote-PowerShell-Sitzung finden Sie unter: [Einrichten Ihres Computers für Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)
   
-- Ihre Benutzer zuweisen der Richtlinie und Konfigurieren des Benutzers geschäftliche Telefonnummer des VoIP, die Sie mit dem Wert des Parameters **Identity** angeben:
+- Weisen Sie die Richtlinie Ihrem Benutzer zu, und konfigurieren Sie die geschäftliche Telefonnummer des Benutzers, die Sie mit dem Wert des Parameters **Identity** angeben:
     
   ```
   Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI <tel:+phonenumber>
@@ -138,11 +138,11 @@ Um internationale Anrufe auf einer Pro-Benutzer-Basis zu deaktivieren, führen S
 Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $user
 ```
 
-Um reaktivieren internationale für jeden Benutzer einzeln aufrufen, nachdem er deaktiviert wurde, führen Sie die gleichen Cmdlet aus, aber ändern Sie den Wert für den **Parameter "PolicyName"** auf *InternationalCallsAllowed* .
+Wenn Sie die internationale Anruffunktion nach der Deaktivierung pro Benutzer wieder aktivieren möchten, führen Sie dasselbe Cmdlet aus, aber ändern Sie den **** Wert für PolicyName in *InternationalCallsAllowed* .
   
 ## <a name="assign-users-to-pstn-sites"></a>Zuweisen von Benutzern zu PSTN-Standorten
 
-Verwenden Sie die Remote-PowerShell für Mandanten, um Benutzern einen Standort zuzuweisen, auch wenn Sie nur einen einzelnen Standort bereitgestellt haben. Gewusst wie: Einrichten einer PowerShell-Remotesitzung finden Sie unter: [Einrichten des Computers für Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
+Verwenden Sie die Remote-PowerShell für Mandanten, um Benutzern einen Standort zuzuweisen, auch wenn Sie nur einen einzelnen Standort bereitgestellt haben. Informationen zum Einrichten einer Remote-PowerShell-Sitzung finden Sie unter: [Einrichten Ihres Computers für Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
   
 ```
 # Set the site to users
@@ -161,24 +161,24 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
 ## <a name="configure-online-hybrid-mediation-server-settings"></a>Konfigurieren von Einstellungen für einen hybriden Onlinevermittlungsserver
 <a name="BKMK_ConfigureMediationServer"> </a>
 
-Wenn ein P2P-Aufruf für eine PSTN-Konferenz eskaliert wird, sendet die Skype für Business Online Konferenzserver Einladungen zum Vermittlungsserver Cloud-Connector. Um sicherzustellen, dass diese Einladung erfolgreich von Office 365 weitergeleitet werden können, müssen Sie eine Einstellung in der online-Mandanten für jeden Vermittlungsserver von Cloud-Connector wie folgt konfigurieren: 
+Wenn ein P2P-Anruf an eine PSTN-Konferenz weitergeleitet wird, sendet der Skype for Business Online-Konferenzserver eine Einladung an den Cloud Connector-Vermittlungsserver. Um sicherzustellen, dass Office 365 diese Einladung erfolgreich weiterleiten kann, müssen Sie eine Einstellung in Ihrem Online Mandanten für jeden Cloud Connector-Vermittlungs Server wie folgt konfigurieren: 
   
-1. Erstellen Sie im Office 365-Verwaltungsportal einen Benutzer. Verwenden Sie Benutzernamen gewünschten, z. B. "MediationServer1."
+1. Erstellen Sie im Office 365-Verwaltungsportal einen Benutzer. Verwenden Sie einen beliebigen Benutzernamen, beispielsweise "MediationServer1".
     
-    Verwenden Sie die standardmäßige SIP-Domäne der Cloud-Verbindung (die erste SIP-Domäne in der INI-Datei) als Domäne des Benutzers ein.
+    Verwenden Sie die standardmäßige SIP-Domäne von Cloud Connector (der ersten SIP-Domäne in der INI-Datei) als Benutzerdomäne.
     
-    Beachten Sie, dass die Lizenz-Zuordnung ist nur für die Weitergabe Benutzer in der Skype für Business online Directory erforderlich. Zuweisen einer Office 365 (beispielsweise E5) für das Konto erstellen lizenziert, bis zu einer Stunde, damit die Änderungen weitergegeben, überprüfen die Benutzerkonten hat wurde ordnungsgemäß bereitgestellt, der Skype für Business online Directory ausgeführt wird, in der folgenden Cmdlets zulassen und dann Entfernen der Dieses Konto-Lizenz.
+    Bitte beachten Sie, dass die Lizenzzuweisung nur für die Verbreitung des Nutzers in das Skype for Business Online-Verzeichnis erforderlich ist. Weisen Sie dem von Ihnen erstellten Konto eine Office 365-Lizenz (wie E5) zu, damit die Änderungen bis zu einer Stunde lang übertragen werden können, überprüfen Sie, ob die Benutzerkonten ordnungsgemäß für das Skype for Business Online-Verzeichnis bereitgestellt wurden, indem Sie folgendes Cmdlet ausführen, und entfernen Sie dann die Lizenz von diesem Konto.
     ```
    Gets-CsOnlineUser -Identity <UserPrincipalName>
    ```
     
-2. Starten Sie eine mit Mandanten Azure AD remote PowerShell-Sitzung mit den globalen oder Benutzeranmeldeinformationen Admin, und führen Sie dann in das folgende Cmdlet die Abteilung für das Benutzerkonto Azure AD festgelegt konfigurierten Schritt 1 "HybridMediationServer":
+2. Starten Sie eine Tenant Azure AD-Remote-PowerShell-Sitzung mit ihren globalen oder Benutzer-Administratoranmeldeinformationen, und führen Sie dann das folgende Cmdlet aus, um die Abteilung für das Azure AD-Benutzerkonto festzulegen, das in Schritt 1 auf "HybridMediationServer" konfiguriert ist:
 
    ```
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
-3. Starten Sie einen Mandanten Skype für Business remote PowerShell-Sitzung mithilfe Ihrer Skype für Business Mandanten-Admin-Anmeldeinformationen, und führen Sie dann das folgende Cmdlet für diesen Benutzer dem Vermittlungsserver und Edge-Server-FQDN festzulegen berücksichtigt, ersetzen \<DisplayName\> mit dem Anzeigenamen für das Konto des Benutzers, die Sie in Schritt 1 erstellt haben:
+3. Starten Sie eine Mandanten-Remote-PowerShell-Sitzung unter Verwendung Ihrer Skype for Business-Administratoranmeldeinformationen, und führen Sie dann das folgende Cmdlet aus, um den Vermittlungsserver und den FQDN \<des\> Edge-Servers auf dieses Benutzerkonto festzulegen und dabei DisplayName zu ersetzen. mit dem Anzeigenamen des Benutzers für das Konto, das Sie in Schritt 1 erstellt haben:
     
    ```
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
@@ -186,9 +186,9 @@ Wenn ein P2P-Aufruf für eine PSTN-Konferenz eskaliert wird, sendet die Skype f�
 
     Verwenden Sie für „Identity“ den Anzeigenamen des Office 365-Benutzerkontos, das Sie für diesen Vermittlungsserver erstellt haben.
     
-    Verwenden Sie für *MediationServerFQDN* den internen FQDN für einen Vermittlungsserver definiert ist.
+    Verwenden Sie für *MediationServerFQDN* den internen FQDN, der für Ihren Vermittlungs Server definiert ist.
     
-    Verwenden Sie für *EdgeServerExternalFQDN* den externen FQDN für Edge-Server-Zugriffsproxy definiert ist. Wenn mehrere Cloud Connector PSTN-Standorte vorhanden sind, wählen Sie den Edgeserver-Zugriffsproxy-FQDN aus, der dem Standort zugewiesen ist, an dem sich der Vermittlungsserver befindet.
+    Verwenden Sie für *EdgeServerExternalFQDN* den externen FQDN, der für den Edge-Server-Zugriffs Proxy definiert ist. Wenn mehrere Cloud Connector PSTN-Standorte vorhanden sind, wählen Sie den Edgeserver-Zugriffsproxy-FQDN aus, der dem Standort zugewiesen ist, an dem sich der Vermittlungsserver befindet.
     
 4. 	Wenn mehrere Cloud Connector-Vermittlungsserver (mehrere Standorte, HA) vorhanden sind, wiederholen Sie die vorherigen Schritte für jeden einzelnen Server.
     

@@ -11,7 +11,7 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Senden Sie E-Mails mit Audiokonferenzinformationen an Ihre Benutzer in Microsoft Teams.
-ms.openlocfilehash: 445e783fde44b3067c1bc595fa93c623404e40db
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7bc73e6663d206bdf65cfb21a3462d364a8c0fd7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205063"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305317"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer in Microsoft Teams
 
@@ -45,30 +45,30 @@ Hier ist ein Beispiel für die gesendete E-Mail:
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden das Microsoft-Teams, Administrationscenter
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Teams-Logo-30x30. png](media/teams-logo-30x30.png) Verwenden des Microsoft Teams admin Centers
 
-1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
+1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
-2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
+2. Klicken Sie oben auf der Seite auf **Bearbeiten**.
 
-3. Klicken Sie unter **Audiokonferenzen**auf **Konferenz Informationen in e-Mail-Nachricht senden**.
+3. Klicken **** Sie unter Audiokonferenz auf **Konferenz Informationen in einer e-Mail senden**.
 
 
 ## <a name="what-else-should-you-know-about-this-email"></a>Was sollten Sie sonst über diese E-Mails wissen?
 
-- Es gibt mehrere e-Mails, die gesendet werden, um Benutzer in Ihrer Organisation, nachdem sie aktiviert sind für Audiokonferenzen:
+- Es gibt mehrere e-Mail-Nachrichten, die an Benutzer in Ihrer Organisation gesendet werden, nachdem Sie für Audiokonferenzen aktiviert wurden:
     
-  - Wenn Ihnen eine **Audiokonferenz** -Lizenz zugewiesen wird.
+  - Wenn Ihnen eine **Audiokonferenz-** Lizenz zugewiesen wurde.
     
-  - Wenn Sie manuell des Benutzers Audiokonferenzen PIN zurücksetzen.
+  - Wenn Sie die Audiokonferenz-PIN des Benutzers manuell zurücksetzen.
     
   - Wenn Sie die Konferenz-ID des Benutzers manuell zurücksetzen.
     
-  - Wenn eine **Audiokonferenz** Lizenz daraus entfernt wird.
+  - Wenn eine **Audiokonferenz-** Lizenz von Ihnen entfernt wird.
     
-  - Wenn der Anbieter von Audiokonferenzen für einen Benutzer von Microsoft auf einen anderen Anbieter oder **None**geändert wird.
+  - Wenn der Anbieter für Audiokonferenzen für einen Benutzer von Microsoft zu einem anderen Anbieter oder **keiner**geändert wird.
     
-  - Wenn der Anbieter von Audiokonferenzen für einen Benutzer an Microsoft geändert wird.
+  - Wenn der Audiokonferenz-Anbieter für einen Benutzer in Microsoft geändert wird.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 

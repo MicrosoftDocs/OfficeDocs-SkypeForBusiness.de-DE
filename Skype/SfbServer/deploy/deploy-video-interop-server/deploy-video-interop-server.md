@@ -1,45 +1,45 @@
 ---
-title: Bereitstellen eines Video Interop-Servers in Skype für Business Server
+title: Bereitstellen des Video-Interop-Servers in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bb7d2abd-d033-4d7d-b588-6d9228c3eccf
-description: 'Zusammenfassung: Stellen Sie die Serverrolle gegenüber in Skype für Business Server bereit.'
-ms.openlocfilehash: 0576596d40def9470e46984c525a9add4423d1f7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Bereitstellen der VIS-Serverrolle in Skype for Business Server.'
+ms.openlocfilehash: c6ee0e52a4ac84622fee9ba281a64d1094c38c4c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894563"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302735"
 ---
-# <a name="deploy-video-interop-server-in-skype-for-business-server"></a>Bereitstellen eines Video Interop-Servers in Skype für Business Server
+# <a name="deploy-video-interop-server-in-skype-for-business-server"></a>Bereitstellen des Video-Interop-Servers in Skype for Business Server
  
-**Zusammenfassung:** Stellen Sie die Serverrolle gegenüber in Skype für Business Server bereit.
+**Zusammenfassung:** Bereitstellen der VIS-Serverrolle in Skype for Business Server.
   
-Skype für Business Server kann jetzt direkt in Cisco Telekonferenzen Systeme (VTCs) wie die Cisco C60 oder Cisco MX300 integriert. Dies erfordert eine neue Serverrolle Namens die Video Interop Server (Zoll) und die ordnungsgemäße Konfiguration der gegenüber und Geräte wird die Interaktion mit die Einführung. Ein VTC wird mit einer vorhandenen Cisco-Infrastruktur wie beispielsweise Cisco Unified Communication Manager (CUCM) registriert und ein Video-SIP-Trunk wird zwischen CUCM und dem VIS-Pool verwendet.
+Skype for Business Server kann jetzt direkt in Cisco Teleconferencing Systems (VTCs) wie Cisco C60 oder Cisco MX300 integriert werden. Dies erfordert die Einführung einer neuen Serverrolle, die als Video-Interop-Server (VIS) bezeichnet wird, und die richtige Konfiguration sowohl des VIS als auch des Geräts, mit dem es interagieren soll. Ein VTC wird mit einer vorhandenen Cisco-Infrastruktur wie beispielsweise Cisco Unified Communication Manager (CUCM) registriert und ein Video-SIP-Trunk wird zwischen CUCM und dem VIS-Pool verwendet.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
 Die Konfiguration der Interoperabilität zwischen einem VIS-Server oder -Pool und VTC-Systemen erfordert die Durchführung der folgenden fünf Verfahren: 
   
-- [Erstellen eines Pools gegenüber in Skype für Business Server](create-a-vis-pool.md)
+- [Erstellen eines VIS-Pools in Skype for Business Server](create-a-vis-pool.md)
     
-- [Bereitstellen der Serverrolle gegenüber in Skype für Business Server](deploy-the-vis-server-role.md)
+- [Bereitstellen der VIS-Serverrolle in Skype for Business Server](deploy-the-vis-server-role.md)
     
-- [Konfigurieren der Interop-Videoserver in Skype für Business Server](configure-the-vis.md)
+- [Konfigurieren des Video-Interop-Servers in Skype for Business Server](configure-the-vis.md)
     
-- [Konfigurieren von CUCM für die Interoperation mit Skype für Business Server](configure-cucm-for-interoperation.md)
+- [Konfigurieren von CUCM für die Zusammenarbeit mit Skype for Business Server](configure-cucm-for-interoperation.md)
     
-- [Konfigurieren einer VTC für die Interoperation mit Skype für Business Server](configure-a-vtc-for-interoperation.md)
+- [Konfigurieren eines VTC für die Interoperabilität mit Skype for Business Server](configure-a-vtc-for-interoperation.md)
     
 ## <a name="related-sections"></a>Verwandte Abschnitte
 
-[Planen der Interop-Videoserver in Skype für Business Server](../../plan-your-deployment/video-interop-server.md)
+[Planen des Video-Interop-Servers in Skype for Business Server](../../plan-your-deployment/video-interop-server.md)
   
 

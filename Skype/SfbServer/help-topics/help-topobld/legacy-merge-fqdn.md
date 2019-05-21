@@ -5,25 +5,25 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.LegacyMergeFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
-description: Der interne FQDN des Zugriffs-Edge-Pool wird für eine Vielzahl von Szenarien verwendet, auf dem internen Benutzer mit externen Benutzern für Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten kommunizieren. Wenn Sie einen Lastenausgleich Edge-Server in der Vorversion Umgebung bereitgestellt wurde, geben Sie den vollqualifizierten Domänennamen (FQDN) des internen Lastenausgleichssystems an.
-ms.openlocfilehash: 83a85a31049b936bbc52f51e10855938aa049249
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Der interne FQDN des Access-Edge-Pools wird für eine Vielzahl von Szenarien verwendet, in denen interne Benutzer mit externen Benutzern für Föderation, Remotebenutzerzugriff und öffentliche Chat Verbindungen kommunizieren. Wenn ein Edge-Server mit Lastenausgleich in ihrer Legacyumgebung bereitgestellt wurde, geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des internen Lastenausgleichsmoduls ein.
+ms.openlocfilehash: ca7026ea00262483ec4ea239e18b812ac4dbffd3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888569"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284221"
 ---
 # <a name="legacy-merge-fqdn"></a>Legacyzusammenführung – FQDN
  
-Den **internen FQDN des Zugriffs-Edge-Pool** wird für eine Vielzahl von Szenarien verwendet, auf dem internen Benutzer mit externen Benutzern für Verbund, Remotebenutzerzugriff und öffentlichen Instant Messaging-Diensten kommunizieren. Wenn Sie einen Lastenausgleich Edge-Server in der Vorversion Umgebung bereitgestellt wurde, geben Sie den vollqualifizierten Domänennamen (FQDN) des internen Lastenausgleichssystems an.
+Der **interne FQDN des Access-Edge-Pools** wird für eine Vielzahl von Szenarien verwendet, in denen interne Benutzer mit externen Benutzern für Föderation, Remotebenutzerzugriff und öffentliche Chat Verbindungen kommunizieren. Wenn ein Edge-Server mit Lastenausgleich in ihrer Legacyumgebung bereitgestellt wurde, geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des internen Lastenausgleichsmoduls ein.
   
-Der Wert **Access-interne SIP-Port** **5061** ist der Standardport für SIP (TCP = Transmission Control Protocol) für die Kommunikation mit Clients, legacy-Front-End-Pools und Server. Wenn der Standardwert nicht verwendet wurde, Aktualisieren der **Access-interne SIP-Port:** Wert.
+Der **interne SIP-Zugriffs Port** Wert von **5061** ist der standardmäßige TCP-SIP-Port (Transmission Control Protocol) für die Kommunikation mit Clients, Legacy-Front-End-Pools und-Servern. Wenn der Standardwert nicht verwendet wurde, aktualisieren Sie den **internen SIP-Zugriffsanschluss:** Wert.
   
 

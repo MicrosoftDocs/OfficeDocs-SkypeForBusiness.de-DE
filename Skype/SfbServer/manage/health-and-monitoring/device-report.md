@@ -1,27 +1,27 @@
 ---
-title: Device Report in Skype für Business Server
+title: Gerätebericht in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
-description: 'Zusammenfassung: Informationen Sie zu den Device Report in Skype für Business Server.'
-ms.openlocfilehash: 27b67c75184a7c56e72c0d2ee5953f90e161f20d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den gerätebericht in Skype for Business Server.'
+ms.openlocfilehash: 2c92faaca47ef78aca403fe436562029f5fde551
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926648"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303870"
 ---
-# <a name="device-report-in-skype-for-business-server"></a>Device Report in Skype für Business Server
+# <a name="device-report-in-skype-for-business-server"></a>Gerätebericht in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Device Report in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den gerätebericht in Skype for Business Server.
   
-Der Gerätebericht wäre mit „Mikrofon- und Lautsprecherbericht“ treffender betitelt, denn er ruft anrufbezogene Metriken ab (z. B. Prozentsatz der Anrufe schlechter Qualität, Echo und Sprachumschaltzeit) und gruppiert sie nach den im Anruf verwendeten Mikrofonen und Lautsprechern. Wenn Sie die IP-Telefone (häufig auch als "Geräte" bezeichnet) interessiert sind, verwenden Sie stattdessen die [IP-Telefonbestand in Skype für Business Server](ip-phone-inventory-report.md) .
+Der Gerätebericht wäre mit „Mikrofon- und Lautsprecherbericht“ treffender betitelt, denn er ruft anrufbezogene Metriken ab (z. B. Prozentsatz der Anrufe schlechter Qualität, Echo und Sprachumschaltzeit) und gruppiert sie nach den im Anruf verwendeten Mikrofonen und Lautsprechern. Wenn Sie an IP-Telefonen (auch gemeinhin als "Geräte" bezeichnet) interessiert sind, verwenden Sie stattdessen den [Bericht IP Phone Inventory in Skype for Business Server](ip-phone-inventory-report.md) .
   
 Der Gerätebericht ist für Administratoren von großem Nutzen, wenn herausgefunden werden soll, ob bei einem bestimmten Gerätetyp mehr Anrufe schlechter Qualität auftreten als bei anderen Typen. Das kann wiederum Kaufentscheidungen beeinflussen, wenn neue Geräte angeschafft oder vorhandene ausgetauscht werden müssen.
   
@@ -52,13 +52,13 @@ Wenn Sie lieber die Gesamtsumme für ein bestimmtes Gerät angezeigt bekommen m�
    
 ## <a name="accessing-the-device-report"></a>Öffnen des Geräteberichts
 
-Auf den Gerätebericht greifen Sie über die Startseite für Überwachungsberichte zu. Jedoch, wenn Sie den [Call Detail Report in Skype für Business Server](call-detail-report.md) anzeigen können Sie nach unten zu den Device Report für ein bestimmtes Gerät anzeigen, indem Sie auf eine der folgenden Metriken:
+Auf den Gerätebericht greifen Sie über die Startseite für Überwachungsberichte zu. Wenn Sie jedoch den [Anruf Detail Bericht in Skype for Business Server](call-detail-report.md) anzeigen, können Sie einen Drilldown zum gerätebericht für ein bestimmtes Gerät durchführen, indem Sie auf eine der folgenden Metriken klicken:
   
 - Aufnahmegerät
     
 - Darstellungsgerät
     
-Vom Gerätebericht können Sie den [Call List Report in Skype für Business Server](call-list-report-0.md) Drilldown, indem Sie auf eine der folgenden Metriken:
+Im gerätebericht können Sie einen Drilldown zum [Anruflistenbericht in Skype for Business Server](call-list-report-0.md) durchführen, indem Sie auf eine der folgenden Metriken klicken:
   
 - Anruflautstärke
     
@@ -105,7 +105,7 @@ Im Hinblick auf Gerätenamen ist der Gerätebericht besonders detailliert. Beisp
 - Aastra 6725ip-Mikrofon (USB-Audiogerät)-V0
     
 > [!NOTE]
-> Behalten Sie im Hinterkopf, dass Capture Gerätenamen nicht dieselbe sein können, wenn Sie lokalisierte Versionen von Skype für Business Server ausgeführt werden. Ein Gerät namens Aastra 6725ip-Mikrofon (Aastra 6725ip)-V0 hat wahrscheinlich auf Französisch oder Spanisch eine andere Bezeichnung. 
+> Beachten Sie, dass die Namen von Aufnahmegeräten möglicherweise nicht identisch sind, wenn Sie lokalisierte Versionen von Skype for Business Server ausführen. Ein Gerät namens Aastra 6725ip-Mikrofon (Aastra 6725ip)-V0 hat wahrscheinlich auf Französisch oder Spanisch eine andere Bezeichnung. 
   
 Diese Detailgenauigkeit ist häufig sehr nützlich. In manchen Situationen möchten Sie aber vielleicht nur wissen, von wie vielen Anrufen ein beliebiges Aastra-Mikrofon, unabhängig von der Modellnummer, verwendet wird. Dazu können Sie die Geräteberichtsdaten nach Microsoft Excel exportieren und dann in einer CSV-Datei (Comma-Separated Values, Datei mit durch Trennzeichen getrennten Werten) speichern (z. B. C:\Data\Gerätebericht.csv). Anschließend können Sie mithilfe von Befehlen wie den folgenden die CSV-Datei in Windows PowerShell importieren und die Gesamtzahl der Anrufe ausgeben, die mit einem Aastra-Aufnahmegerät getätigt wurden:
   
@@ -130,13 +130,13 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Geräteberich
 |:-----|:-----|
 |**Von** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 07.07.2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 03.07.2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
 |**Bis** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 07.07.2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 03.07.2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Ursache für die Sprachumschaltung** <br/> |Der Grund, weshalb der Halbduplex-Modus für einen Anruf verwendet werden musste, um Echo zu verhindern. Im Halbduplex-Modus ist die Kommunikation jeweils nur in eine Richtung möglich, ähnlich wie bei Funksprechgeräten, bei denen auch abwechselnd gesprochen wird. Wählen Sie eine der folgenden Optionen aus:  <br/> [All] Keine Ungültiger Zeitstempel Echo DNLP (dynamic nonlinear Processor) geringe Komplexität ungültige Geräte Zustand Echo nach AEC (acoustic Echo Cancellation, echounterdrückung) |
-|**Ursache für Echo** <br/> |Der Grund, weshalb bei einem Anruf Echo über dem akzeptablen Niveau festgestellt wurde. (In der Telekommunikation handelt es sich bei Echo um eine Schallreflexion; dasselbe Phänomen tritt auf, wenn Sie in einen Brunnen rufen). Wählen Sie eine der folgenden Optionen aus:  <br/> [All] Keine Ungültiger Zeitstempel nach AEC (acoustic Echo Cancellation, echounterdrückung) ANLP (adaptive nonlinear Processor) DNLP (dynamic nonlinear Processor) Mikrofon, Clipping echo |
-|**Anruftyp** <br/> |Gibt an, welcher Typ von Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> [All] Clientanruf PSTN-Anruf Telefonkonferenz |
-|**Zugriffstyp** <br/> |Gibt an, ob der Client am internen oder am externen Netzwerk angemeldet wurde, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> [All] Interne externe |
-|**Netzwerktyp** <br/> |Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus:  <br/> [All] Verkabelten Wireless |
-|**VPN** <br/> |Gibt an, ob ein externer Client eine VPN-Verbindung (Virtual Private Network) verwendete, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> [All] VPN-nicht-VPN |
-|**Gerätetyp** <br/> |Gibt den Typ des Geräts an. Wählen Sie eine der folgenden Optionen aus:  <br/> Erfassen Sie Gerät Render Gerät Capture/Render-Gerätepaar |
+|**Ursache für die Sprachumschaltung** <br/> |Der Grund, weshalb der Halbduplex-Modus für einen Anruf verwendet werden musste, um Echo zu verhindern. Im Halbduplex-Modus ist die Kommunikation jeweils nur in eine Richtung möglich, ähnlich wie bei Funksprechgeräten, bei denen auch abwechselnd gesprochen wird. Wählen Sie eine der folgenden Optionen aus:  <br/> Alle Kein fehlerhafter Zeitstempel Echo DNLP (dynamischer nichtlinearer Prozessor) niedrige Komplexität fehlerhafter Gerätezustand nach AEC-Echo (akustische Echounterdrückung) |
+|**Ursache für Echo** <br/> |Der Grund, weshalb bei einem Anruf Echo über dem akzeptablen Niveau festgestellt wurde. (In der Telekommunikation handelt es sich bei Echo um eine Schallreflexion; dasselbe Phänomen tritt auf, wenn Sie in einen Brunnen rufen). Wählen Sie eine der folgenden Optionen aus:  <br/> Alle Kein fehlerhafter Timestamp-Post-AEC-Echo (akustische Echounterdrückung) ANLP (adaptiver nichtlinearer Prozessor) DNLP (dynamischer nichtlinearer Prozessor) Mikrofon Ausschnitt |
+|**Anruftyp** <br/> |Gibt an, welcher Typ von Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> Alle Client Anruf PSTN-Anruf-Konferenzanruf |
+|**Zugriffstyp** <br/> |Gibt an, ob der Client am internen oder am externen Netzwerk angemeldet wurde, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> Alle Intern extern |
+|**Netzwerktyp** <br/> |Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus:  <br/> Alle Kabelgebundenes WLAN |
+|**VPN** <br/> |Gibt an, ob ein externer Client eine VPN-Verbindung (Virtual Private Network) verwendete, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> Alle VPN-nicht-VPN |
+|**Gerätetyp** <br/> |Gibt den Typ des Geräts an. Wählen Sie eine der folgenden Optionen aus:  <br/> Capture Device Capture/Render Device Pair |
 |**Gerätename** <br/> |Der Name des Aufnahme- oder Darstellungsgeräts. Sie können den vollständigen Gerätenamen oder einen Teil davon eingeben. Geben Sie beispielsweise wie folgt den vollständigen Gerätenamen ein, um nach dem Gerät „Mikrofon (Microsoft LifeCam VX-1000)“ zu suchen:  <br/> Mikrofon (Microsoft LifeCam VX-1000)  <br/> Sie können aber auch nur einen Teil des Namens eingeben. Beispiel:  <br/> LifeCam  <br/> Beachten Sie, dass mit dem vorherigen Filter alle Geräte zurückgegeben werden, welche die Zeichenfolge „LifeCam“ im Namen enthalten.  <br/> |
    
 ## <a name="metrics"></a>Metriken

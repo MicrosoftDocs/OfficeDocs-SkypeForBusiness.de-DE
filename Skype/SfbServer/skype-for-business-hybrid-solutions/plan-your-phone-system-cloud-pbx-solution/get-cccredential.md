@@ -5,24 +5,24 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 8/8/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: 'Das Cmdlet „Get-CcCredential“ gibt die Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung zurück. '
-ms.openlocfilehash: 651190f31ad44e0bb2375bbf4a70951c2011e1a7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 87dd3934767a4be7afb57889fd0641e8507fba13
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233995"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287335"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
 Das Cmdlet „Get-CcCredential“ gibt die Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung zurück.  
   
-Mit der Version 2.0 und höher, auch können den DisplayPassword - Parameter Sie die Kennwörter für TenantAdmin, DomainAdmin "und VMAdmin anzeigen.
+Mit Version 2,0 und höher können Sie auch den-DisplayPassword-Parameter verwenden, um die Kennwörter für TenantAdmin, DomainAdmin und VMAdmin anzuzeigen.
   
 ```
 Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin | ExternalCert | TenantAdmin}]
@@ -62,7 +62,7 @@ Write-Host $text
 
 |**Parameter**|**Erforderlich**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|
-|  AccountType <br/> |Erforderlich  <br/> | System.String <br/> | Für „AccountType“ sind die folgenden Werte möglich: <br/>  VmAdmin: den lokalen Administrator eines Cloud-Connector virtuellen Computern. <br/>  „DomainAdmin“: Der Domänenadministrator einer Domäne für Cloud Connector-VMs. <br/>  „SafeModeAdmin“: Der „SafeModeAdmin“ eines Domänencontrollers für Cloud Connector-VMs <br/>  „ExternalCert“: Das Konto eines externen Zertifikats, das auf dem Edgeserver installiert ist <br/>  „TenantAdmin“: Der Administrator des Office 365-Mandanten <br/> |
+|  AccountType <br/> |Erforderlich  <br/> | System.String <br/> | Für „AccountType“ sind die folgenden Werte möglich: <br/>  VmAdmin: der lokale Administrator der virtuellen Cloud Connector-Computer. <br/>  „DomainAdmin“: Der Domänenadministrator einer Domäne für Cloud Connector-VMs. <br/>  „SafeModeAdmin“: Der „SafeModeAdmin“ eines Domänencontrollers für Cloud Connector-VMs <br/>  „ExternalCert“: Das Konto eines externen Zertifikats, das auf dem Edgeserver installiert ist <br/>  „TenantAdmin“: Der Administrator des Office 365-Mandanten <br/> |
    
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>

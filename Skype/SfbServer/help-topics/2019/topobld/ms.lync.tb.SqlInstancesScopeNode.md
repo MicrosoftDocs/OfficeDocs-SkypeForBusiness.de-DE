@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.SqlInstancesScopeNode
@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Die SQL-Speicher Knotenlisten der SQL Server-Datenbanken in Ihrer Topologie. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: c2701ab64d5d83c92d05babdb8aee075ce5a0af6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Der SQL Stores-Knoten listet die SQL Server-Datenbanken in Ihrer Topologie auf. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: 5ebb14c537b131e9ccd672a8a6663999042d62f3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920307"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303060"
 ---
 # <a name="sql-instances-scope-node"></a>SQL-Instanzen – Bereichsknoten
  
-Der Knoten **SQL-Speicher** Listet die SQL Server-Datenbanken in Ihrer Topologie. Folgende Möglichkeiten stehen zur Verfügung:
+Der **SQL Stores** -Knoten listet die SQL Server-Datenbanken in Ihrer Topologie auf. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Neuer SQL-Speicher**. Startet den Assistenten **Neuen SQL-Speicher definieren** , die Sie verwenden, um eine neue SQL Server-Datenbank zur Topologie hinzugefügt werden.
+- **Neuer SQL-Speicher**. Startet den Assistenten zum **Definieren eines neuen SQL Stores** , mit dem Sie der Topologie eine neue SQL Server-Datenbank hinzufügen.
     
-Zusätzlich zu den SQL Server-Datenbank-Optionen können Sie die folgenden allgemeinen Aufgaben ausführen:
+Zusätzlich zu den SQL Server-Datenbankoptionen können Sie die folgenden allgemeinen Aufgaben ausführen:
   
 - **Topologie**: Über diese Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten vorheriger Versionen zusammenführen oder die Bereitstellung entfernen.
     

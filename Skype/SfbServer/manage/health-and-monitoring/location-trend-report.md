@@ -1,25 +1,25 @@
 ---
-title: Standort-Trendbericht in Skype für Business Server
+title: Standort Trend Bericht in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
-description: 'Zusammenfassung: Erfahren Sie mehr über die Standort-Trendbericht in Skype für Business Server.'
-ms.openlocfilehash: 0eeaeb27ea18932db2005a24ec202d05ea996c8b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Standort Trend Bericht in Skype for Business Server.'
+ms.openlocfilehash: e27dc4c42bebedc65d4af26eb1d25cb75d4b672f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911875"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280075"
 ---
-# <a name="location-trend-report-in-skype-for-business-server"></a>Standort-Trendbericht in Skype für Business Server
+# <a name="location-trend-report-in-skype-for-business-server"></a>Standort Trend Bericht in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu Standort-Trendbericht in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den Standort Trend Bericht in Skype for Business Server.
   
 Der Standort-Trendbericht enthält Angaben über den Verlauf der Anrufqualität für Netzwerkstandorte.
   

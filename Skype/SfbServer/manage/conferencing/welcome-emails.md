@@ -1,29 +1,29 @@
 ---
-title: Willkommen e-Mails an Zugriffsnummer für Einwahl senden Benutzer in Skype für Business Server
+title: Senden von Willkommens-e-Mails an Einwahlbenutzer in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
-description: 'Zusammenfassung: Informationen Sie zum Einladen von Benutzern zu einwahlkonferenzen in Skype für Business Server.'
-ms.openlocfilehash: 4cf05349e7539a4bd5d1551a19a59f839feb41f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Benutzer für Einwahlkonferenzen in Skype for Business Server willkommen heißen.'
+ms.openlocfilehash: db2e8bd84fa6a03bad845a87f7fb3c1532ae7ec2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924913"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280306"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Willkommen e-Mails an Zugriffsnummer für Einwahl senden Benutzer in Skype für Business Server
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Senden von Willkommens-e-Mails an Einwahlbenutzer in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zum Einladen von Benutzern zu einwahlkonferenzen in Skype für Business Server.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie Benutzer für Einwahlkonferenzen in Skype for Business Server willkommen heißen.
   
 Nach dem Konfigurieren von Einwahlkonferenzen und dem Testen der ordnungsgemäßen Funktionsweise sollten Sie persönliche Identifikationsnummern (PINs) für Ihre Benutzer einrichten und die Benutzer über die Verfügbarkeit dieser Funktion informieren. Sie sollten den Benutzern die anfängliche PIN und den Link zur Webseite mit den Einwahlkonferenzeinstellungen bereitstellen. 
   
-In der Regel verwenden Sie das Cmdlet " **Set-CsClientPin** ", um PINs zurückzusetzen, aber Sie können das Verfahren in diesem Thema verwenden, wenn Sie eine einführende Willkommen e-Mail mit der PIN-Informationen senden möchten. Wenn Sie keine E-Mail senden möchten, können Sie stattdessen das Cmdlet **Set-CsClientPin** verwenden.
+In der Regel verwenden Sie das Cmdlet " **Satz-CsClientPin** ", um Pins zurückzusetzen, doch Sie können das Verfahren in diesem Thema verwenden, wenn Sie eine einführende Willkommens-e-Mail mit den PIN-Informationen senden möchten. Wenn Sie keine E-Mail senden möchten, können Sie stattdessen das Cmdlet **Set-CsClientPin** verwenden.
   
 Sie können mithilfe des Skripts **Set-CsPinSendCAWelcomeMail** eine PIN für einen einzelnen Benutzer einrichten und diesem Benutzer eine Begrüßungs-E-Mail senden. Mit diesem Skript wird eine bereits eingerichtete PIN standardmäßig nicht zurückgesetzt, Sie können das Zurücksetzen der PIN jedoch mithilfe des Parameters Force erzwingen. Die E-Mail-Nachricht wird über SMTP (Simple Mail Transfer Protocol) gesendet.
   
@@ -52,9 +52,9 @@ Sie können ein Skript erstellen, mit dem das **Set-CsPinSendCAWelcomeMail**-Skr
    [-Credential <SMTP server credentials used to send email with the specified From address>]
    ```
 
-**SmtpServer** Standardmäßig wird das Skript den Wert der Variable reservierte Umgebung **$PSEmailServer** für diesen Parameter verwendet. Wenn die Variable **$PSEmailServer** nicht gesetzt ist, müssen Sie diesen Parameter angeben.
+**SmtpServer** Standardmäßig verwendet das Skript den Wert der reservierten Umgebungsvariablen **$PSEmailServer** für diesen Parameter. Wenn die Variable **$PSEmailServer** nicht gesetzt ist, müssen Sie diesen Parameter angeben.
     
-**Anmeldeinformationen** Standardmäßig wird das Skript die Anmeldeinformationen des aktuellen Benutzers verwendet. Wenn der aktuelle Benutzer nicht zum Senden von E-Mails im Namen der angegebenen Absenderadresse berechtigt ist, müssen Sie diesen Parameter angeben. Als allgemeine Regel gilt: Wenn Sie nicht Ihre E-Mail-Adresse als Absenderadresse verwenden, geben Sie diesen Parameter an.
+**Anmeldeinformationen** Standardmäßig verwendet das Skript die Anmeldeinformationen des aktuellen Benutzers. Wenn der aktuelle Benutzer nicht zum Senden von E-Mails im Namen der angegebenen Absenderadresse berechtigt ist, müssen Sie diesen Parameter angeben. Als allgemeine Regel gilt: Wenn Sie nicht Ihre E-Mail-Adresse als Absenderadresse verwenden, geben Sie diesen Parameter an.
     
 Im folgenden Beispiel wird eine neue PIN erstellt und anschließend eine Begrüßungs-E-Mail von Marco an Bob gesendet. Hierbei wird der E-Mail-Text der Standardvorlage verwendet und die E-Mail-Nachricht wird im HTML-Format erstellt. Die standardmäßige Betreffzeile lautet „Willkommen bei der Funktion für Einwahlkonferenzen“.
   

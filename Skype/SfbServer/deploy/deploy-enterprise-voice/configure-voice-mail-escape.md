@@ -1,10 +1,10 @@
 ---
-title: Konfigurieren des Wechsels der Voicemail in Skype für Unternehmen
+title: Konfigurieren der Voicemail-escapefunktion in Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
-description: 'Zusammenfassung: Erfahren Sie, wie mithilfe der Skype für Business Server-Verwaltungsshell des Wechsels der Voicemail in Skype für Business Server konfigurieren.'
-ms.openlocfilehash: 29d8f03a23ba562cdb6636cd2aa7f3166e17404c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Escape-Voicemail in Skype for Business Server mithilfe der Skype for Business Server-Verwaltungsshell konfigurieren.'
+ms.openlocfilehash: 89c449f538fee2f5230cb66a664317cada723220
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893042"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289083"
 ---
-# <a name="configure-voice-mail-escape-in-skype-for-business"></a>Konfigurieren des Wechsels der Voicemail in Skype für Unternehmen
+# <a name="configure-voice-mail-escape-in-skype-for-business"></a>Konfigurieren der Voicemail-escapefunktion in Skype for Business
 
-**Zusammenfassung:** Hier erfahren Sie, wie Sie mithilfe der Skype für Business Server-Verwaltungsshell des Wechsels der Voicemail in Skype für Business Server konfigurieren.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie die Escape-Voicemail in Skype for Business Server mithilfe der Skype for Business Server-Verwaltungsshell konfigurieren.
 
-Wenn ein Benutzer Gleichzeitiges Klingeln an ein Mobiltelefon konfiguriert, wird ein Anrufer in der Regel an den Benutzer Persönliche Voicemail weitergeleitet werden, wenn das Mobiltelefon deaktiviert, nicht genügend Batterie oder außerhalb des gültigen Bereichs aktiviert ist. Mit Skype für Business Server können Benutzer Ihre geschäftliche Anrufe an ihre corporate Voicemail-System weitergeleitet wurden. Ein Zeitgebers konfiguriert werden kann, insbesondere wenn von der Netzbetreiber Voicemail innerhalb des Bereichs definierte Zeit der Anruf entgegengenommen wurde, wird Skype für Business Server aus der Netzbetreiber Voicemail-Systems (und persönliche Voicemail des Benutzers), während des Benutzers getrennt verbleibenden Endpunkte in der corporate System weiter angeboten werden soll. Auf diese Weise ist der Anrufer automatisch an den Benutzer im Unternehmen Voicemail weitergeleitet.
+Wenn ein Benutzer das gleichzeitige Klingeln auf einem Mobiltelefon konfiguriert, wird ein Anrufer in der Regel an die persönliche Voicemail des Benutzers weitergeleitet, wenn das Mobiltelefon ausgeschaltet ist, der Akku nicht mehr zur verweilen oder außerhalb des gültigen Bereichs liegt. Mit Skype for Business Server können die Benutzer entscheiden, dass unternehmensbezogene Anrufe an das Voicemailsystem Ihres Unternehmens weitergeleitet werden. Insbesondere kann ein Zeitgeber konfiguriert werden, und wenn der Anruf von der Voicemail des Netzbetreibers innerhalb des definierten Zeitraums beantwortet wird, trennt sich Skype for Business Server vom Voicemailsystem des Netzbetreibers (und der persönlichen Voicemail des Benutzers), während die verbleibende Endpunkte im Unternehmenssystem Klingeln weiterhin. Auf diese Weise wird der Anrufer automatisch an die Firmen-Voicemail des Benutzers weitergeleitet.
 
-Diese Konfiguration erfolgt mithilfe der Skype für Business Server-Verwaltungsshell-Cmdlet **Set-CsVoicePolicy**auf Ebene der VoIP-Richtlinie mit den folgenden Parametern.
+Diese Konfiguration wird mit dem Cmdlet "Skype for Business Server-Verwaltungsshell", " **Satz-CsVoicePolicy**", auf der VoIP-Richtlinienebene mit den folgenden Parametern ausgeführt.
 
 ### <a name="to-configure-voice-mail-escape"></a>So konfigurieren Sie Voicemail Escape
 

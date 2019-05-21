@@ -1,5 +1,5 @@
 ---
-title: Autorisierte Personen auf das Konto
+title: Autorisierte Person für das Konto
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,22 +20,22 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoAuthorizingPerson
 ms.custom:
 - Calling Plans
-description: Hier erfahren Sie, warum Sie autorisierte Personen hinzufügen, die Änderungen an das Konto vornehmen können, wenn Sie den Assistenten für neue lokale Anzahl Port Reihenfolge verwenden müssen.
-ms.openlocfilehash: 0220e999a2454cd4fb80fadd19678e9108e4707b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Erfahren Sie, warum Sie eine autorisierte Person hinzufügen müssen, die Änderungen am Konto vornehmen kann, wenn Sie den Assistenten für neue lokale Nummern Port Reihenfolge verwenden.
+ms.openlocfilehash: 58348e1220d0534f2c8ec282c65496d71707a35c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233235"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303861"
 ---
-# <a name="authorized-person-on-the-account"></a>Autorisierte Personen auf das Konto
+# <a name="authorized-person-on-the-account"></a>Autorisierte Person für das Konto
 
-Im Assistenten **Neue lokale Anzahl Port Reihenfolge** Geben Sie den Namen der Person, die berechtigt ist, das Konto, mit dem Dienstanbieter oder der Netzbetreiber zu ändern. Der Name wird nicht verwendet, um die Reihenfolge Port verarbeiten, aber im Falle eines Rechtsstreits verwendet wird oder wenn etwas falsch ist bei Zahlen werden übertragen. Diese Person werden verantwortlich für die Buchstaben der Autorisierung (Geladene) für einen Auftrag Port.
+Im Assistenten für **neue lokale Nummern Port Aufträge** müssen Sie den Namen der Person eingeben, die für die Änderung des Kontos beim Dienstanbieter oder Netzbetreiber autorisiert ist. Der Name wird nicht verwendet, um die Portierungs Reihenfolge zu verarbeiten, wird aber im Fall einer Streitigkeit verwendet, oder wenn etwas falsch ist, wenn Nummern portiert werden. Diese Person ist für den Genehmigungsbescheid (Letter of Authorization, Loa) für einen Portierungs Auftrag verantwortlich.
   
 > [!NOTE]
-> Der vollständige Name, dass nicht, da das Feld maximal 15 Zeichen (einschließlich Leerzeichen) ist, wird nicht verzögert oder Port Auftrag abbrechen. 
+> Wenn Sie nicht den vollständigen Namen haben, da das Feld auf 15 Zeichen (einschließlich Leerzeichen) limitiert ist, wird die Portierungs Reihenfolge nicht verzögert oder abgebrochen. 
   
- **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ **Eine vollständige Schritt-für-Schritt-Anleitung finden Sie unter [übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

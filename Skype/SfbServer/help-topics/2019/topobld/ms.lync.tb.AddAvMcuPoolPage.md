@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddAvMcuPoolPage
@@ -12,22 +12,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
-description: Alle Enterprise Edition-Front-End-Server von einem zentralen Standort, die nicht über einen verbundenen verfügen A / V-Konferenzdienst können das gleiche eigenständige A / V-konferenzpool. Für jede A / V-konferenzpool, geben Sie einen vollqualifizierten Domänennamen (FQDN) für den Pool und gibt an, ob es nur einen einzelnen A hat / V-Konferenzserver oder mehrere, Lastenausgleich und A / V-Konferenzserver.
-ms.openlocfilehash: dd2dd53ae2d3b66da88d39567b4d20e0960633e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Alle Enterprise Edition-Front-End-Server eines zentralen Standorts, die keinen a/v-Konferenzdienst haben, können denselben eigenständigen a/v-Konferenz Pool verwenden. Für jeden a/v-Konferenz Pool müssen Sie einen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für den Pool angeben und angeben, ob nur ein einzelner a/v-Konferenzserver oder mehrere Server mit Lastenausgleich für a/v-Konferenzen vorhanden sein sollen.
+ms.openlocfilehash: dfd1fd056e015ed4d6ed1344384efa485e65f318
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889321"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304056"
 ---
 # <a name="add-av-mcu-pool"></a>Hinzufügen des A/V-MCU-Pools
  
-Alle Enterprise Edition-Front-End-Server von einem zentralen Standort, die nicht über einen verbundenen verfügen A / V-Konferenzdienst können das gleiche eigenständige A / V-konferenzpool. Für jede A / V-konferenzpool, geben Sie einen vollqualifizierten Domänennamen (FQDN) für den Pool und gibt an, ob es nur einen einzelnen A hat / V-Konferenzserver oder mehrere, Lastenausgleich und A / V-Konferenzserver.
+Alle Enterprise Edition-Front-End-Server eines zentralen Standorts, die keinen a/v-Konferenzdienst haben, können denselben eigenständigen a/v-Konferenz Pool verwenden. Für jeden a/v-Konferenz Pool müssen Sie einen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für den Pool angeben und angeben, ob nur ein einzelner a/v-Konferenzserver oder mehrere Server mit Lastenausgleich für a/v-Konferenzen vorhanden sein sollen.
   
 > [!IMPORTANT]
-> Sie können keinen einzelnen Server Pool in einen Pool von mehreren Servern konvertieren. Wenn Sie später entscheiden, dass Ihre Organisation einen Pool von mehreren Servern benötigt, müssen Sie den Pool einem einzelnen Server zu löschen, und fügen Sie MultiServer-Pool. 
+> Sie können einen Pool mit einem einzelnen Server nicht in einen Pool mit mehreren Servern konvertieren. Wenn Sie später entscheiden, dass Ihre Organisation einen Pool mit mehreren Servern benötigt, müssen Sie den Pool mit einem Server löschen und dann den Pool mit mehreren Servern hinzufügen. 
   
 > [!TIP]
-> Wenn Sie planen, implementieren einen A / V-konferenzpool wählen Sie **Pool mit mehreren Computern**in der Zukunft aus. Wenngleich ein Pool per Definition mindestens zwei Computer mit Lastenausgleich umfasst, können Sie einen Pool mit einem einzigen Computer sowie einen Pool-FQDN für diesen einzelnen Computer erstellen. Wenn Sie später weitere Computer zum Pool hinzufügen möchten, müssen Sie den Topologie-Generator erneut aus, um das neue Mitglied Pool definieren, die neue Topologie veröffentlichen und richten Sie dann den neuen A / V-konferenzpool Member über die Skype für Business Server-Bereitstellungs-Assistenten. A / V-Konferenzserver-Pools, dass sie nicht zum Erstellen eines Pools Lastenausgleich laden müssen eindeutig sind. A / V-konferenzpools Lastenausgleich intern und zusätzlichen Hardware ist nicht erforderlich. 
+> Wenn Sie beabsichtigen, in Zukunft einen A/V-Konferenz Pool zu implementieren, wählen Sie den **Pool für mehrere Computer**aus. Wenngleich ein Pool per Definition mindestens zwei Computer mit Lastenausgleich umfasst, können Sie einen Pool mit einem einzigen Computer sowie einen Pool-FQDN für diesen einzelnen Computer erstellen. Wenn Sie bereit sind, dem Pool später weitere Computer hinzuzufügen, müssen Sie den Topologie-Generator erneut definieren, um das neue Poolmitglied zu definieren, die neue Topologie zu veröffentlichen und dann das neue A/V-Konferenz Poolmitglied über den Skype for Business Server-Bereitstellungs-Assistenten einzurichten. A/V-Konferenz Server Pools sind einzigartig, da Sie keine Lastenausgleichsfunktionen zum Erstellen eines Pools benötigen. A/V-Konferenz Pools laden den Lastenausgleich intern und benötigen keine zusätzliche Hardware. 
   
 

@@ -1,10 +1,10 @@
 ---
-title: Konfigurieren einer Microsoft-Teams Räume-Konsole
+title: Konfigurieren einer Microsoft Teams rooms-Konsole
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: Travis-Snoozy
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,91 +13,91 @@ ms.collection:
 - M365-voice
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: In diesem Artikel wird beschrieben, wie die Microsoft-Teams Räume-Konsole und zugehörigen Peripheriegeräte einrichten.
-ms.openlocfilehash: 644006b3fe5a26af6c32830902ec138f953464c8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: In diesem Artikel wird beschrieben, wie Sie die Microsoft Teams rooms-Konsole und Ihre Peripheriegeräte einrichten.
+ms.openlocfilehash: c2513bbd86e2754c2e1008195ca1cc050a118882
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916566"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306534"
 ---
-# <a name="configure-a-microsoft-teams-rooms-console"></a>Konfigurieren einer Microsoft-Teams Räume-Konsole
+# <a name="configure-a-microsoft-teams-rooms-console"></a>Konfigurieren einer Microsoft Teams rooms-Konsole
 
-In diesem Artikel wird beschrieben, wie die Microsoft-Teams Räume-Konsole und zugehörigen Peripheriegeräte einrichten.
+In diesem Artikel wird beschrieben, wie Sie die Microsoft Teams rooms-Konsole und Ihre Peripheriegeräte einrichten.
   
-Sie sollten nur diese Schritte ausführen, wenn die erforderlichen Microsoft-Teams oder Skype für Geschäfts- und Exchange-Konten bereits erstellt und getestet werden, wie unter [Bereitstellen von Microsoft Teams Chatrooms](room-systems-v2.md). Sie benötigen die Hardware und Software, die in [Microsoft Teams Chatrooms Anforderungen](requirements.md)beschrieben. Dieses Thema enthält die folgenden Abschnitte:
+Führen Sie diese Schritte nur aus, wenn die erforderlichen Microsoft Teams oder Skype for Business-und Exchange-Konten bereits erstellt und getestet wurden, wie unter [Bereitstellen von Microsoft Teams-Räumen](room-systems-v2.md)beschrieben. Sie benötigen die in den [Microsoft Teams](requirements.md)-Chatrooms beschriebene Hardware und Software. Dieses Thema enthält die folgenden Abschnitte:
   
 - [Vorbereiten der Installationsmedien](console.md#Prep_Media)
-- [Installieren Sie das Zertifikat einen privates in der Konsole](console.md#Certs)
-- [Installieren Sie Windows 10 und die Microsoft-Teams Chatrooms Konsole-app](console.md#Reimage)
-- [Anfängliche Einrichten der Konsole](console.md#Initial)
-- [Prüfliste für die Bereitstellung von Microsoft-Teams Räume](console.md#Checklist)
+- [Installieren eines privaten Zertifizierungsstellenzertifikats auf der Konsole](console.md#Certs)
+- [Installieren von Windows 10 und der Microsoft Teams rooms-Konsolen-App](console.md#Reimage)
+- [Anfängliche Einrichtung der Konsole](console.md#Initial)
+- [Checkliste für Microsoft Teams rooms-Bereitstellung](console.md#Checklist)
 
 > [!NOTE]
-> Microsoft-Teams Chatrooms funktioniert in einer ordnungsgemäß konfigurierten Microsoft-Teams oder Skype für geschäftsumgebung nur, in dem die Gerät Konten wie unter [Bereitstellen von Microsoft Teams Chatrooms](room-systems-v2.md)ordnungsgemäß eingerichtet wurden.
+> Microsoft Teams-Räume funktionieren nur in einer ordnungsgemäß konfigurierten Microsoft Teams-oder Skype for Business-Umgebung, in der die Geräte Konten ordnungsgemäß eingerichtet sind, wie unter [Bereitstellen von Microsoft Teams-Räumen](room-systems-v2.md)beschrieben wird.
   
 ## <a name="prepare-the-installation-media"></a>Vorbereiten der Installationsmedien
 <a name="Prep_Media"> </a>
 
-Installieren der Microsoft-Teams Chatrooms Konsole-app erfordert ein USB-Speichergerät mit mindestens 32GB Kapazität. Es sollte keine anderen Dateien auf dem Gerät vorhanden sein. alle vorhandenen Dateien auf den USB-Speicher geht verloren.
+Zum Installieren der Microsoft Teams rooms Console-APP ist ein USB-Speichergerät mit mindestens 32 GB Kapazität erforderlich. Auf dem Gerät sollten keine weiteren Dateien vorhanden sein. alle vorhandenen Dateien auf dem USB-Speicher gehen verloren.
   
 > [!NOTE]
-> Fehler bei die Microsoft-Teams Chatrooms Installationsmedien entsprechend diese Anweisungen wahrscheinlich in unerwartetes Verhalten zu erstellen.
+> Fehler beim Erstellen von Microsoft Teams rooms-Installationsmedien entsprechend diesen Anweisungen führen wahrscheinlich zu unerwartetem Verhalten.
 
 > [!NOTE]
-> Der nachfolgend beschriebenen Vorgang ist für das Erstellen Installationsmedium Bild neue Microsoft-Teams Chatrooms Geräte. Vorhandene Geräte aktualisieren standardmäßig automatisch aus Windows Update und den Windows Store.
+> Nachfolgend wird beschrieben, wie Sie Installationsmedien für die Erstellung von neuen Microsoft Teams rooms-Geräten erstellen. Vorhandene Geräte werden standardmäßig automatisch von Windows Update und dem Windows Store aktualisiert.
   
-1. Laden Sie das [Skript CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
+1. Laden Sie das [CreateSrsMedia. ps1-Skript](https://go.microsoft.com/fwlink/?linkid=867842)herunter.
 2. Führen Sie das Skript „CreateSrsMedia.ps1“ an einer Eingabeaufforderung mit erhöhten Rechten auf einem Windows 10-Computer aus.
-3. Führen Sie das Skript-Anweisungen, um eine Microsoft-Teams Chatrooms USB-Installationsdiskette erstellen.
+3. Befolgen Sie die Anweisungen des Skripts, um eine USB-Setupdiskette für Microsoft Teams Rooms zu erstellen.
 
 
 > [!TIP]
-> Jedes Mal das Skript CreateSrsMedia.ps1 gestartet wird, wird die Bildschirmausgabe den Namen einer Protokolldatei oder Aufzeichnung für die Sitzung enthalten. Wenn Probleme beim Ausführen des Skripts vorhanden sind, stellen Sie sicher, dass eine Kopie dieses Protokoll verfügbar beim Anfordern von Unterstützung. 
+> Jedes Mal, wenn das CreateSrsMedia. ps1-Skript gestartet wird, enthält die Bildschirmausgabe den Namen einer Protokolldatei oder eines Protokoll Protokolls für die Sitzung. Wenn Probleme beim Ausführen des Skripts auftreten, stellen Sie sicher, dass eine Kopie dieser Aufzeichnung zur Verfügung steht, wenn Sie den Support anfordern. 
 
-Das Skript CreateSrsMedia.ps1 automatisiert die folgenden Aufgaben:
+Das CreateSrsMedia. ps1-Skript automatisiert die folgenden Aufgaben:
 
-1. Laden Sie den neueste Version MSI-Installer für Microsoft-Teams Chatrooms.
-2. Bestimmen des Builds von Windows, die der Benutzer eingeben muss. Die am häufigsten kürzlich veröffentlichten Versionen möglicherweise oder möglicherweise nicht getestet und für die Verwendung mit Microsoft-Teams Chatrooms Geräte unterstützt werden.
-3. Laden Sie die erforderliche unterstützende Komponenten.
-4. Die erforderlichen Komponenten auf dem Installationsmedium zusammenstellen.
+1. Laden Sie das neueste MSI-Installationsprogramm für Microsoft Teams-Räume herunter.
+2. Ermitteln des Windows-Builds, den der Benutzer bereitstellen muss Die zuletzt veröffentlichten Versionen können oder werden möglicherweise nicht getestet und für die Verwendung mit Microsoft Teams rooms-Geräten unterstützt.
+3. Erforderliche unterstützende Komponenten herunterladen.
+4. Montieren Sie die erforderlichen Komponenten auf dem Installationsmedium.
 
-Eine bestimmte Version von Windows 10 ist erforderlich, und dieser Version ist nur verfügbar für Volume licensing-Kunden.  Sie können eine Kopie aus dem [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/)abrufen.
+Eine bestimmte Version von Windows 10 ist erforderlich, und diese Version steht nur für Volumenlizenzkunden zur Verfügung.  Sie können eine Kopie vom [Volumen Lizenzierungs-Service Center](https://www.microsoft.com/Licensing/servicecenter/)erhalten.
 
-Nach Abschluss den USB-Datenträger auf Ihrem Computer zu entfernen, und fahren Sie [Windows 10 installieren und die Microsoft-Teams Räume console app](console.md#Reimage)fort.
+Wenn Sie den Vorgang beenden, entfernen Sie den USB-Datenträger von Ihrem Computer, und fahren Sie mit [der Installation von Windows 10 und der Konsolen-App Microsoft Teams rooms](console.md#Reimage)fort.
 
     
-## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>Installieren Sie Windows 10 und die Microsoft-Teams Chatrooms Konsole-app
+## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>Installieren von Windows 10 und der Microsoft Teams rooms-Konsolen-App
 <a name="Reimage"> </a>
 
-Nun müssen Sie die Setup-Medien anwenden, die Sie erstellt haben. Das Zielgerät wird als Appliance ausgeführt, und der Standard-Benutzer werden nur die Microsoft-Teams Chatrooms Konsole app ausgeführt festgelegt werden.
+Sie müssen nun das von Ihnen erstellte Setup-Medium übernehmen. Das Zielgerät wird als Appliance ausgeführt, und der Standardbenutzer wird so eingestellt, dass nur die Microsoft Teams rooms Console-app ausgeführt wird.
 
-1. Wenn das Zielgerät in ein (z. B. eine Surface Pro) Andocken installiert wird, trennen sie die Dockingstation.
+1. Wenn das Zielgerät in einem Dock (z.b. Surface pro) installiert wird, trennen Sie es vom Dock.
 
-2. Stellen Sie sicher, dass das Gerät nicht mit dem Netzwerk verbunden ist.
+2. Stellen Sie sicher, dass das Zielgerät nicht mit dem Netzwerk verbunden ist.
 
-3. Stellen Sie sicher, dass das Gerät mit Strom verbunden ist.
+3. Stellen Sie sicher, dass das Zielgerät mit dem Stromnetz verbunden ist.
 
-4. Schließen Sie den USB-Setup-Speicher an das Zielgerät.
+4. Schließen Sie die USB-Setupdiskette an das Zielgerät an.
 
-5. Starten Sie die Installationsdiskette USB. Weitere Informationen finden Sie in den Anweisungen des Herstellers. Wenn Ihr Zielgerät Surface Pro ist, gehen Sie folgendermaßen vor, der USB-Installationsdatenträger zu starten:
+5. Starten Sie die USB-Setupdiskette. Weitere Informationen finden Sie in den Anweisungen des Herstellers. Wenn es sich bei Ihrem Zielgerät um einen Surface pro handelt, führen Sie die folgenden Schritte aus, um die USB-Setupdiskette zu starten:
 
-    a. Halten Sie weiterhin die Lautstärke (-) gedrückt halten.
+    a. Drücken Sie die Taste, und fahren Sie fort, um die Lautstärketaste (-) zu halten.
 
-    b. Drücken und halten.
+    b. Drücken Sie die Power-Taste, und lassen Sie sie los.
 
     c. Wenn Windows Setup gestartet wurde, lassen Sie die Leiser-Taste (-) los.
 
-8. Das System wird heruntergefahren, sobald die Installation abgeschlossen ist.
+8. Sobald die Installation abgeschlossen ist, wird das System beendet.
     
-Nachdem das System heruntergefahren hat, ist es sicher, entfernen Sie die Installationsdiskette USB. Zu diesem Zeitpunkt können Sie seine andocken (bei Verwendung von einem Produkt Andocken-basierte) das Zielgerät versehen, fügen Sie die Peripheriegeräte für Ihre Besprechungsraum erforderlich ist und mit dem Netzwerk verbunden. Weitere Informationen finden Sie in den Anweisungen des Herstellers.
+Nachdem das System heruntergefahren wurde, ist es sicher, die USB-Setupdiskette zu entfernen. An dieser Stelle können Sie das Zielgerät in der Docking-Station platzieren (wenn Sie ein Dock-basiertes Produkt verwenden), die für den Besprechungsraum benötigten Peripheriegeräte anschließen und eine Verbindung mit dem Netzwerk herstellen. Weitere Informationen finden Sie in den Anweisungen des Herstellers.
   
 ### <a name="selecting-a-language"></a>Auswählen einer Sprache 
 
-In Erstellers aktualisieren müssen, verwenden Sie das Skript ApplyCurrentRegionAndLanguage.ps1 in Szenarien, in dem impliziten Sprachauswahl den Benutzer mit dem tatsächlichen Anwendungssprache bietet keine werden sollen (z. B. möchten sie die Konsole-app in Französisch, angezeigt, aber Es ist in Englisch stattfindende).
+Im Update des Erstellers müssen Sie das ApplyCurrentRegionAndLanguage. ps1-Skript in Szenarien verwenden, in denen der Benutzer mit der impliziten Sprachauswahl nicht über die tatsächliche Anwendungssprache verfügt, die er verwenden soll (beispielsweise, dass die Konsolen-App auf Französisch bereitgestellt werden soll, aber Es kommt in Englisch vor.)
   
 > [!NOTE]
-> Die folgenden Anweisungen funktionieren nur für Konsolen mithilfe des Erstellers Windows Update erstellt. Legacy-Market/Systeme, die nicht eingerichtet wurde, die neue Bereitstellungssystem Medien mit werden nicht verwenden Sie diese Anweisungen, jedoch sollten auch nicht leiden unter das anfängliche Problem, das diese manuelle Eingriffe erfordert (Jahrestag Edition können Sie auswählen, Ihre App Sprache explizit als Teil des Setups).
+> Die folgenden Anweisungen funktionieren nur für Konsolen, die mit dem Update von Windows Creator erstellt wurden. Legacy/in-Market-Systeme, die nicht mithilfe von Medien mit dem neuen Bereitstellungssystem eingerichtet wurden, können diese Anweisungen nicht verwenden, sollten aber auch nicht unter dem anfänglichen Problem leiden, das diesen manuellen Eingriff erfordert (Anniversary Edition ermöglicht Ihnen, Ihr App-Sprache explizit als Teil des Setups).
   
 ### <a name="to-apply-your-desired-language"></a>So wenden Sie die gewünschte Sprache an
 
@@ -107,15 +107,15 @@ In Erstellers aktualisieren müssen, verwenden Sie das Skript ApplyCurrentRegion
     
 3. Wählen Sie das Zahnradsymbol aus, um die App **Einstellungen** zu starten.
     
-4. Wählen Sie **Zeit &amp; Sprache**.
+4. Wählen **Sie &amp; Uhrzeit Sprache**aus.
     
-5. Wählen Sie **Region &amp; Sprache**.
+5. Wählen **Sie &amp; Regions Sprache**aus.
     
 6. Wählen Sie **Sprache hinzufügen** aus.
     
 7. Wählen Sie die Sprache aus, die Sie hinzufügen möchten.
     
-8. Wählen Sie die Sprache, die Sie soeben hinzugefügt, um der Liste "Sprachen haben".
+8. Wählen Sie die Sprache aus, die Sie soeben in der Liste "Sprachen" hinzugefügt haben.
     
 9. Wählen Sie **Als Standard** aus.
     
@@ -134,21 +134,21 @@ In Erstellers aktualisieren müssen, verwenden Sie das Skript ApplyCurrentRegion
     
 13. Starten Sie das System neu.
     
-Die gewünschte Sprache ist jetzt auf der Microsoft-Teams Chatrooms Konsole angewendet.
-## <a name="initial-set-up-of-the-console"></a>Anfängliche Einrichten der Konsole
+Die gewünschte Sprache wird nun auf die Microsoft Teams rooms-Konsole angewendet.
+## <a name="initial-set-up-of-the-console"></a>Anfängliche Einrichtung der Konsole
 <a name="Initial"> </a>
 
-Nach der Installation von Windows gehen die Microsoft-Teams Chatrooms Konsole app in seiner ursprünglichen Setup-Prozess beim nächsten Starten, oder wenn die Option/Reboot ausgewählt wurde.
+Nach der Installation von Windows geht die Konsolen-App Microsoft Teams Rooms in den ersten Setup Prozess über, wenn Sie als nächstes gestartet wird oder wenn die/Reboot-Option ausgewählt wurde.
   
-1. Der Benutzerkonto Bildschirm wird angezeigt. Geben Sie die Skype-Anmeldeadresse ein (im Format user@domain) des Raums Kontos, das mit der Konsole verwendet werden.
+1. Der Bildschirm Benutzerkonto wird angezeigt. Geben Sie die Skype-Anmeldeadresse (im Format User @ Domain) des für die Konsole zu verwendenden Raum Kontos ein.
     
 2. Geben Sie das Kennwort für das Raumkonto ein, und geben Sie es zur Bestätigung nochmals ein.
     
-3. Legen Sie unter "Konfigurieren der Domäne" den FQDN für die Skype für Business Server fest. Wenn die Skype für Business-SIP-Domäne aus der Exchange-Domäne des Benutzers ist, geben Sie die Exchange-Domäne in dieses Feld ein.
+3. Legen Sie unter "Domäne konfigurieren" den FQDN für den Skype for Business-Server ein. Wenn sich die Skype for Business-SIP-Domäne von der Exchange-Domäne des Benutzers unterscheidet, geben Sie die Exchange-Domäne in dieses Feld ein.
     
 4. Klicken Sie auf **Weiter**.
     
-5. Wählen Sie die angegebenen Geräte auf dem Bildschirm Features, und klicken Sie auf **Weiter**. Standardmäßig ist „Automatische Bildschirmfreigabe“ auf „Ein“ und „Besprechungsnamen ausblenden“ auf „Aus“ festgelegt. Die folgenden Geräte können ausgewählt werden:
+5. Wählen Sie auf dem Bildschirm Funktionen die angezeigten Geräte aus, und klicken Sie auf **weiter**. Standardmäßig ist „Automatische Bildschirmfreigabe“ auf „Ein“ und „Besprechungsnamen ausblenden“ auf „Aus“ festgelegt. Die folgenden Geräte können ausgewählt werden:
     
    - Mikrofon für Konferenzen: Das Standardmikrofon für diesen Konferenzraum
     
@@ -160,28 +160,28 @@ Nach der Installation von Windows gehen die Microsoft-Teams Chatrooms Konsole ap
     
 6. Klicken Sie auf **Fertig stellen**.
     
-Die Microsoft-Teams Chatrooms Konsole app Anmelden bei Skype für Business Server mit den oben eingegebenen Anmeldeinformationen sollten sofort gestartet werden soll, und beginnen soll auch den Kalender mit Exchange diese dieselben Anmeldeinformationen verwenden wird synchronisiert. Ausführliche Informationen zum Verwenden der Verwaltungskonsole app finden Sie in der [Hilfe von Microsoft Teams Chatrooms](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+Die Microsoft Teams rooms Console-app sollte sich sofort mit der Anmeldung bei Skype for Business Server mit den oben eingegebenen Anmeldeinformationen beginnen und auch mit der Synchronisierung Ihres Kalenders mit Exchange mit denselben Anmeldeinformationen beginnen. Einzelheiten zur Verwendung der Konsolen-App finden Sie in der [Hilfe zu Microsoft Teams rooms](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
-> Microsoft-Teams Chatrooms erfordert das Vorhandensein von zertifizierten Konsole Hardware. Selbst ein Bild ordnungsgemäß erstellte, enthält die Microsoft-Teams Chatrooms Konsole app startet nicht nach der Erstinstallation Verfahren, wenn die Konsole Hardware erkannt wird. Für Surface Pro-basierte Lösungen muss die Surface Pro für die zugehörige Andocken Hardware, übergeben dieses Kontrollkästchen verbunden sein.
+> Microsoft Teams rooms beruht auf dem vorhanden sein zertifizierter Konsolen Hardware. Selbst ein korrekt erstelltes Bild, das die Microsoft Teams rooms-Konsolen-app enthält, wird nicht über den anfänglichen Setupvorgang gestartet, es sei denn, die Konsolen Hardware wird erkannt. Bei Surface pro-basierten Lösungen muss Surface pro mit der dazugehörigen Dock-Hardware verbunden sein, um diese Prüfung durchführen zu können.
   
 > [!NOTE]
-> Möglicherweise benötigen einige Benutzer nicht-englischen eine physische Tastatur während des Setups mit der Konsole verbunden, Symbole auf der Bildschirmtastatur nicht unterstützt werden.
+> Einige Benutzer, die nicht in der englischen Sprache sind, benötigen möglicherweise während der Ersteinrichtung eine physische Tastatur, die mit der Konsole verbunden ist, falls Symbole auf der Bildschirmtastatur nicht unterstützt werden.
   
-### <a name="install-a-private-ca-certificate-on-the-console"></a>Installieren Sie das Zertifikat einen privates in der Konsole
+### <a name="install-a-private-ca-certificate-on-the-console"></a>Installieren eines privaten Zertifizierungsstellenzertifikats auf der Konsole
 <a name="Certs"> </a>
 
-Die Microsoft-Teams Chatrooms Konsole muss, die von den Servern, die Verbindung mit verwendet Zertifikate zu vertrauen. Für Office 365 geschieht dies automatisch, da diese Server öffentliche Zertifizierungsstellen verwenden, denen Windows 10 automatisch vertraut. In dem Fall, in dem die Zertifizierungsstelle privat, ist, für die Instanz einer lokalen Bereitstellung mit Active Directory und die Windows-Zertifizierungsstelle können Sie das Zertifikat auf der Microsoft-Teams Räume-Konsole in eine Reihe von Methoden hinzufügen:
+Die Microsoft Teams rooms-Konsole muss den Zertifikaten vertrauen, die von den Servern verwendet werden, mit denen Sie eine Verbindung herstellt. Für Office 365 geschieht dies automatisch, da diese Server öffentliche Zertifizierungsstellen verwenden, denen Windows 10 automatisch vertraut. In einem Fall, in dem die Zertifizierungsstelle privat ist, beispielsweise eine lokale Bereitstellung mit Active Directory und die Windows-Zertifizierungsstelle, können Sie das Zertifikat auf verschiedene Arten zur Konsole Microsoft Teams rooms hinzufügen:
   
-- Sie können die Konsole Active Directory teilnehmen und, die werden automatisch hinzugefügt, die erforderlichen Zertifikate erhält der Zertifizierungsstelle auf Active Directory (normale Bereitstellungsoption) veröffentlicht wird.
+- Sie können die Konsole an Active Directory anschließen und automatisch die erforderlichen Zertifikate hinzufügen, wenn die Zertifizierungsstelle in Active Directory veröffentlicht wird (normale Bereitstellungsoption).
     
-- Sie können das Zertifikat nach der Imageerstellung manuell installieren. Bevor Sie dies tun, müssen Sie die [Initial Einrichten der Konsole](console.md#Initial)durchführen.
+- Sie können das Zertifikat nach der Imageerstellung manuell installieren. Bevor Sie dies tun, müssen Sie [die erste Einrichtung der Konsole](console.md#Initial)abschließen.
     
 ### <a name="to-manually-install-the-certificate"></a>So installieren Sie das Zertifikat manuell 
 
 1. Laden Sie das Zertifizierungsstellenzertifikat auf Ihren Computer herunter, und speichern Sie es unter „C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer“.
     
-2. Platzieren Sie die Konsole im Admin-Modus (siehe [Admin-Modus und Gerät Management](room-systems-v2-operations.md#AdminMode)).
+2. Setzen Sie die Konsole in den Administratormodus (siehe [Administratormodus und Geräteverwaltung](room-systems-v2-operations.md#AdminMode)).
     
 3. Führen Sie den folgenden Befehl aus:
     
@@ -189,14 +189,14 @@ Die Microsoft-Teams Chatrooms Konsole muss, die von den Servern, die Verbindung 
    certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
    ```
 
-### <a name="join-an-active-directory-domain-optional"></a>Teilnehmen an einer Active Directory-Domäne (Optional)
+### <a name="join-an-active-directory-domain-optional"></a>Teilnehmen an einer Active Directory-Domäne (optional)
 <a name="Certs"> </a>
 
-Sie können Microsoft Teams Chatrooms Konsolen an Ihre Domäne beitreten. Microsoft-Teams Chatrooms Konsolen sollte in einer separaten Organisationseinheit aus Ihrem PC Arbeitsstationen platziert werden, da viele Arbeitsstation Richtlinien nicht kompatibel mit Microsoft-Teams Räumen sind. Ein allgemeines Beispiel sind Erzwingung Kennwortrichtlinien, die Microsoft-Teams Chatrooms verhindern automatisch gestartet. Informationen über die Verwaltung der Gruppenrichtlinienergebnisse finden Sie unter [Verwalten von Microsoft Teams Räumen](room-systems-v2-operations.md).
+Sie können an Microsoft Teams rooms-Konsolen an Ihre Domäne teilnehmen. Microsoft Teams rooms-Konsolen sollten in einer separaten ou von Ihren PC-Workstations installiert werden, da viele Arbeitsstations Richtlinien nicht mit Microsoft Teams-Räumen kompatibel sind. Ein allgemeines Beispiel sind Kenn Wort Erzwingungsrichtlinien, die verhindern, dass Microsoft Teams-Räume automatisch gestartet werden. Informationen zur Verwaltung von GPO-Einstellungen finden Sie unter Verwalten von [Microsoft Teams-Räumen](room-systems-v2-operations.md).
   
-### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>Microsoft-Teams Chatrooms einer Domäne beitreten
+### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>So nehmen Sie an einer Domäne an Microsoft Teams-Chatrooms Teil
 
-1. Melden Sie sich bei der Konsole aus der Administrator beifügen (siehe [Admin-Modus und Gerät Management](room-systems-v2-operations.md#AdminMode)).
+1. Registrieren Sie sich über das Administratorkonto bei der Konsole (siehe [Administratormodus und Geräteverwaltung](room-systems-v2-operations.md#AdminMode)).
     
 2. Starten Sie eine PowerShell-Eingabeaufforderung mit erhöhten Rechten.
     
@@ -206,18 +206,18 @@ Sie können Microsoft Teams Chatrooms Konsolen an Ihre Domäne beitreten. Micros
    Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
    ```
 
-Wenn Ihre vollqualifizierten Domänennamen redmond.corp.microsoft.com und Sie möchten die Microsoft-Teams Chatrooms Konsolen in einer Organisationseinheit "Microsoft-Teams Rooms" sein, die ein untergeordnetes Element des einer OU "Ressourcen" ist, kann beispielsweise der Befehl werden:
+Wenn Ihre vollqualifizierte Domäne beispielsweise Redmond.Corp.Microsoft.com ist und Sie möchten, dass sich Ihre Microsoft Teams rooms-Konsolen in einer OU "Microsoft Teams Rooms" befinden, die ein untergeordnetes Element einer "Resources"-ou ist, lautet der Befehl wie folgt:
   
 ```
 Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_Rooms,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
 ```
 
- Wenn Sie den Computer umbenennen, wenn sie einer Domäne beitreten möchten, verwenden Sie das NewName - Flag gefolgt von der neue Name des Computers.
+ Wenn Sie den Computer umbenennen möchten, wenn Sie ihn einer Domäne hinzugefügt haben, verwenden Sie das-Name-Flag, gefolgt vom neuen Namen des Computers.
   
-## <a name="microsoft-teams-rooms-deployment-checklist"></a>Prüfliste für die Bereitstellung von Microsoft-Teams Räume
+## <a name="microsoft-teams-rooms-deployment-checklist"></a>Checkliste für Microsoft Teams rooms-Bereitstellung
 <a name="Checklist"> </a>
 
-Verwenden Sie die folgende Checkliste, während eine endgültige Überprüfung, dass die Konsole und alle zugehörigen Peripheriegeräte konfiguriert sind:
+Verwenden Sie die folgende Checkliste, während Sie eine abschließende Überprüfung durchführen, dass die Konsole und alle zugehörigen Peripheriegeräte vollständig konfiguriert sind:
   
 **Anwendungseinstellungen**
 
@@ -226,14 +226,14 @@ Verwenden Sie die folgende Checkliste, während eine endgültige Überprüfung, 
 |☐  <br/> |Der Name des Raumkontos und die Telefonnummer (wenn PSTN unterstützt wird) werden rechts oben auf dem Konsolenbildschirm richtig angezeigt.  <br/> |
 |☐  <br/> |Der Windows-Computername ist richtig festgelegt (hilfreich für die Remoteverwaltung).  <br/> |
 |☐  <br/> |Das Kennwort für das Administratorkonto wurde festgelegt und bestätigt.  <br/> |
-|☐  <br/> |Alle Firmwareupdates wurden angewendet  <br/> |
+|☐  <br/> |Alle Firmware-Updates wurden angewendet  <br/> |
    
-**A/v-Peripheriegeräte**
+**Audio/Video-Peripheriegeräte**
 
 |||
 |:-----|:-----|
 |☐  <br/> |Die Firmwareversion des Kameraperipheriegeräts ist richtig (wenn zutreffend).  <br/> |
-|☐  <br/> |Kamera funktionale und optimal positioniert  <br/> |
+|☐  <br/> |Kamera funktionell und optimal positioniert  <br/> |
 |☐  <br/> |Die Einstellungen für das Standardwiedergabegerät und das Standardkommunikationsgerät für die Wiedergabe sind auf das gewünschte Audioperipheriegerät festgelegt.  <br/> |
 |☐  <br/> |Die Einstellungen für das Standardkommunikationsgerät für Aufnahmen sind auf das gewünschte Audioperipheriegerät festgelegt.  <br/> |
 |☐  <br/> |Die Firmwareversion des Audioperipheriegeräts ist richtig (wenn zutreffend).  <br/> |
@@ -253,10 +253,10 @@ Verwenden Sie die folgende Checkliste, während eine endgültige Überprüfung, 
 ## <a name="see-also"></a>Siehe auch
 <a name="Checklist"> </a>
 
-[Planen der Microsoft-Teams, Räume](skype-room-systems-v2-0.md)
+[Planen von Microsoft Teams-Räumen](skype-room-systems-v2-0.md)
   
-[Bereitstellen von Microsoft-Teams, Räume](room-systems-v2.md)
+[Bereitstellen von Microsoft Teams-Räumen](room-systems-v2.md)
   
-[Konfigurieren einer Microsoft-Teams Räume-Konsole](console.md)
+[Konfigurieren einer Microsoft Teams rooms-Konsole](console.md)
   
 [Microsoft Teams Rooms verwalten](skype-room-systems-v2.md)

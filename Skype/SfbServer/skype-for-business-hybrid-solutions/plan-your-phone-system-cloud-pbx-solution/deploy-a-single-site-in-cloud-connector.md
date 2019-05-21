@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 9/25/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,19 +13,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
-description: Informationen Sie zu eine einzelne PSTN-Website in der Cloud Connector Edition bereitstellen.
-ms.openlocfilehash: 667637fdf7dd42df64c4fdf9aca6b20931da188d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Informationen zum Bereitstelleneiner einzelnen PSTN-Website in Cloud Connector Edition.
+ms.openlocfilehash: 10d9e5f286b00af8791097707dc0345e100e55d5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227929"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287363"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Deploy a single site in Cloud Connector
  
-Informationen Sie zu eine einzelne PSTN-Website in der Cloud Connector Edition bereitstellen.
+Informationen zum Bereitstelleneiner einzelnen PSTN-Website in Cloud Connector Edition.
   
-Sie können mit oder ohne Unterstützung von hoher Verfügbarkeit (HA) Skype für Business Cloud Connector Edition bereitstellen. Wenn Sie hohe Verfügbarkeit aktivieren möchten, müssen Sie mindestens zwei Appliances an einem Standort bereitstellen. Sie können auch eine vorhandene Appliance nach der Bereitstellung konvertieren, um hohe Verfügbarkeit zu unterstützen.
+Sie können die Skype for Business Cloud Connector Edition mit oder ohne Support für hohe Verfügbarkeit (ha) bereitstellen. Wenn Sie hohe Verfügbarkeit aktivieren möchten, müssen Sie mindestens zwei Appliances an einem Standort bereitstellen. Sie können auch eine vorhandene Appliance nach der Bereitstellung konvertieren, um hohe Verfügbarkeit zu unterstützen.
   
 ## <a name="deploy-the-first-skype-for-business-cloud-connector-edition-appliance"></a>Bereitstellen der ersten Skype for Business Cloud Connector Edition-Appliance
 
@@ -37,9 +37,9 @@ Register-CcAppliance
 
 Befolgen Sie die Anweisungen zum Angeben des Namens und des Kennworts des Administratorkontos für den Mandanten. Verwenden Sie das Konto, das Sie für die Onlineverwaltung von Cloud Connector erstellt haben. Geben Sie außerdem gemäß den Anweisungen das Kennwort des externen Zertifikats, das Administratorkennwort für den abgesicherten Modus, das Kennwort des Domänenadministrators und das Kennwort des VM-Administrators an.  
   
-In Version 1.4.2 und früher auch befolgen Sie die Anweisungen, die externe Zertifikatkennwort, Administratorkennwort abgesicherten Modus, Admin Domänenkennwort und VM Administratorkennwort bereitzustellen. 
+Befolgen Sie in Version 1.4.2 und älteren Versionen auch die Anweisungen zum Bereitstellen des externen Zertifikats Kennworts, des Sicherheitsmodus-Administratorkennworts, des Domänenadministrator Kennworts und des VM-Administratorkennworts. 
   
-In Version 2.0 und höher, auch führen Sie die Anweisungen, um die externe Zertifikatkennwort, CceService Kennwort und Kennwort CABackupFile bieten.
+Befolgen Sie in Version 2,0 und höher die Anweisungen zum Bereitstellen des externen Zertifikats Kennworts, des CceService-Kennworts und des CABackupFile-Kennworts.
   
 Um die Installation zu starten, öffnen Sie eine PowerShell-Konsole als Administrator, und führen Sie das folgende Cmdlet aus:
   
@@ -49,9 +49,9 @@ Install-CcAppliance
 
 ## <a name="add-an-appliance-to-an-existing-site"></a>Hinzufügen einer Appliance zu einer vorhandenen Site
 
-Sie können eine vorhandene Website Cloud Connector zur Unterstützung der HA durch Hinzufügen von zusätzlichen Einheiten für die Website erweitern. 
+Sie können eine vorhandene Cloud Connector-Website zur Unterstützung von ha erweitern, indem Sie der Website weitere Appliances hinzufügen. 
   
-1. Führen Sie die Schritten zur Vorbereitung Ihrer Appliance Cloud Connector, wie beschrieben unter [Vorbereiten der Appliance Cloud-Connector](prepare-your-cloud-connector-appliance.md)ein. Beachten Sie, dass einige Schritte nur für die erste Appliance in der Bereitstellung erforderlich sind. Vergewissern Sie sich, dass das Standortverzeichnis vorhanden ist und dass es richtig für die Unterstützung von hoher Verfügbarkeit konfiguriert ist.
+1. Führen Sie die Schritte zum Vorbereiten Ihrer Cloud Connector-Appliance wie in [Vorbereiten der Cloud Connector-Appliance](prepare-your-cloud-connector-appliance.md)beschrieben aus. Beachten Sie, dass einige Schritte nur für die erste Appliance in der Bereitstellung erforderlich sind. Vergewissern Sie sich, dass das Standortverzeichnis vorhanden ist und dass es richtig für die Unterstützung von hoher Verfügbarkeit konfiguriert ist.
     
 2. Führen Sie das folgende Cmdlet nur auf dem neu hinzugefügten Hostserver aus, um die Topologieinformationen in der Konfiguration Ihres Office 365-Mandanten zu aktualisieren. Wenn Sie mehrere Appliances gleichzeitig hinzufügen möchten, führen Sie das Cmdlet nacheinander auf jedem der neu hinzugefügten Hostserver aus:
     
@@ -72,7 +72,7 @@ Sie können eine vorhandene Website Cloud Connector zur Unterstützung der HA du
    ```
 
 > [!NOTE]
-> Wenn das Standortverzeichnis auf einen lokalen Ordnerpfad festgelegt ist, müssen Sie eine Dateifreigabe für diesen Ordner definieren und für das Standortverzeichnis in der neuen Appliance einen UNC-Pfad verwenden. Sie können für das Standortverzeichnis der ersten Appliance den lokalen Pfad beibehalten oder es so ändern, dass der UNC-Pfad für die Freigabe des gleichen Ordners verwendet wird. Wenn sich der Speicherort für das freigegebene Standortverzeichnis ändert, müssen alle bereits installierten Appliances deinstalliert und dann erneut installiert werden. > wichtig: das Kennwort für das Konto CceService und das CABackupFile Konto muss auf allen Einheiten, die innerhalb der Website bereitgestellt, damit die Appliances die Site Directory Freigabe als auch die verschlüsselte Zertifizierungsstelle Sicherungsdatei im Websiteverzeichnis zugreifen können. 
+> Wenn das Standortverzeichnis auf einen lokalen Ordnerpfad festgelegt ist, müssen Sie eine Dateifreigabe für diesen Ordner definieren und für das Standortverzeichnis in der neuen Appliance einen UNC-Pfad verwenden. Sie können für das Standortverzeichnis der ersten Appliance den lokalen Pfad beibehalten oder es so ändern, dass der UNC-Pfad für die Freigabe des gleichen Ordners verwendet wird. Wenn sich der Speicherort für das freigegebene Standortverzeichnis ändert, müssen alle bereits installierten Appliances deinstalliert und dann erneut installiert werden. > wichtig: das Kennwort für das CceService-Konto und das CABackupFile-Konto müssen auf allen innerhalb der Website bereitgestellten Appliances identisch sein, damit die Appliances auf die Websiteverzeichnis Freigabe und die Sicherungsdatei der verschlüsselten ca im Websiteverzeichnis zugreifen können. 
   
 ## <a name="remove-an-appliance-from-an-existing-site"></a>Entfernen einer Appliance aus einer vorhandenen Site
 

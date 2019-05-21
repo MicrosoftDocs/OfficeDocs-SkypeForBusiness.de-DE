@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/2/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
-description: Nachdem Sie die Schritte zum Bereitstellen und Konfigurieren von Skype für Business Cloud Connector Edition abgeschlossen haben, stellen Sie sicher, dass Sie tätigen und Entgegennehmen von anrufen können.
-ms.openlocfilehash: 7ea8e686c578941c2009465fc43ed6ae004dbb88
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Nachdem Sie die Schritte zum Bereitstellen und Konfigurieren von Skype for Business Cloud Connector Edition abgeschlossen haben, vergewissern Sie sich, dass Sie Anrufe tätigen und empfangen können.
+ms.openlocfilehash: 9c8cc28249b6a9b1d98ff51352abbdd4888882bf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32240774"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286620"
 ---
 # <a name="validate-your-cloud-connector-deployment"></a>Validate your Cloud Connector deployment
  
-Nachdem Sie die Schritte zum Bereitstellen und Konfigurieren von Skype für Business Cloud Connector Edition abgeschlossen haben, stellen Sie sicher, dass Sie tätigen und Entgegennehmen von anrufen können.
+Nachdem Sie die Schritte zum Bereitstellen und Konfigurieren von Skype for Business Cloud Connector Edition abgeschlossen haben, vergewissern Sie sich, dass Sie Anrufe tätigen und empfangen können.
   
 ## <a name="validate-the-deployment"></a>Überprüfen der Bereitstellung
 

@@ -1,42 +1,42 @@
 ---
-title: Verwalten von Disaster Recovery, hohe Verfügbarkeit und Sicherungsdienst
+title: Verwalten von Disaster Recovery, Hochverfügbarkeits-und Sicherungsdiensten
 ms.reviewer: ''
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Informationen Sie zu Verfahren für Disaster Recovery-Vorgänge und für die Verwaltung des Sicherungsdienstes, der die Daten in einem Front-End-Pools synchronisiert.
-ms.openlocfilehash: 9215dba11b388b3ffbd3e5c0f3de4ccf1cb85c7d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Informieren Sie sich über Verfahren für Disaster Recovery-Vorgänge sowie zum Verwalten des Sicherungsdiensts, der die Daten in gekoppelten Front-End-Pools synchronisiert.
+ms.openlocfilehash: 9664a7d9d48ca084232e2a0473a15d29d970cea6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903130"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303898"
 ---
-# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Verwalten von Skype für Business Server-Wiederherstellung, hohe Verfügbarkeit und Sicherungsdienst
+# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Verwalten von Skype for Business Server Disaster Recovery, Hochverfügbarkeits-und Backup-Service
 
-Dieser Abschnitt enthält Verfahren für Disaster Recovery-Vorgänge und für die Verwaltung des Sicherungsdienstes, der die Daten in einem Front-End-Pools synchronisiert.
+Dieser Abschnitt enthält Verfahren für Wiederherstellungsvorgänge in Notfällen sowie für die Verwaltung des Sicherungsdiensts, der die Daten in gekoppelten Front-End-Pools synchronisiert.
 
-Verfahren für die notfallwiederherstellung, Failover und Failback und sind manuelle. Wenn ein Notfall vorhanden ist, muss der Administrator die FailoverVerfahren manuell aufrufen. Das gilt auch für Failback nach der Pool repariert wird.
+Disaster Recovery-Verfahren, sowohl Failover als auch Failback, sind manuell. Wenn ein Notfall vorliegt, muss der Administrator die Failoververfahren manuell aufrufen. Das gleiche gilt für das Failback, nachdem der Pool repariert wurde.
 
-Die Notfallwiederherstellungsverfahren in diesem Abschnitt wird Folgendes vorausgesetzt:
+Bei den Disaster Recovery-Verfahren in diesem Abschnitt wird Folgendes vorausgesetzt:
 
-  - Sie haben eine Bereitstellung mit gekoppelten Front-End-Pools an verschiedenen Standorten befinden, wie unter [Planen für hohe Verfügbarkeit und notfallwiederherstellung](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)beschrieben. Den Sicherungsdienst wurde auf diese synchronisiert bleiben diese gekoppelten Pools ausgeführt.
+  - Sie verfügen über eine Bereitstellung mit gepaarten Front-End-Pools, die sich an verschiedenen Standorten befinden, wie unter [Planen von Höchstverfügbarkeit und Disaster Recovery](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)beschrieben. Der Sicherungsdienst wurde in diesen gekoppelten Pools ausgeführt, um sie synchron zu halten.
 
-  - Wenn Sie der zentralen Verwaltungsspeicher auf entweder Pool gehostet wird, ist es auf beide der gekoppelten Pools, mit einem dieser hosting aktive Masterseite Pools und das Standby-hosting Pool installiert und ausgeführt.
+  - Wenn der zentrale Verwaltungsspeicher in einem der Pools gehostet wird, wird er in beiden Pools installiert und ausgeführt, wobei einer dieser Pools den aktiven Master und den anderen Pool hostet, in dem sich der Standby-Modus befindet.
 
 > [!IMPORTANT]
-> In den folgenden Verfahren der Parameter *"poolfqdn"* verweist auf den FQDN des Pools, die vom Disaster betroffen ist, werden nicht auf der Pool, die Benutzer betroffen aus umgeleitet wird. Für den gleichen Satz von betroffenen Benutzer verweist es auf den gleichen Pool in Failover und Failback-Cmdlets (d. h., den Pool, die der Benutzer vor dem Failover zuerst verwaltet).<BR><br>Nehmen wir beispielsweise an einen Fall, in dem alle Benutzer in einem Pool P1 wurden mit dem Sicherungspool P2 Failover verwaltet. Wenn der Administrator möchte so verschieben Sie alle Benutzer, die aktuell verarbeitet vom P2 bis von P1 bedient werden, muss der Administrator die folgenden Schritte ausführen: 
+> In den folgenden Verfahren bezieht sich der *PoolFQDN* -Parameter auf den FQDN des Pools, der von einem Notfall betroffen ist, nicht auf den Pool, von dem betroffene Benutzer umgeleitet werden. Für denselben Satz betroffener Benutzer verweist er sowohl in Failover-als auch in Failback-Cmdlets auf denselben Pool (also auf den Pool, der zuerst die Benutzer vor dem Failover verwaltet hat).<BR><br>Angenommen, ein Fall, in dem alle Benutzer, die sich in einem Pool P1 befanden, auf den Sicherungspool P2 umgestellt wurden. Wenn der Administrator alle Benutzer verschieben möchte, die von P2 aktuell gewartet werden, um von P1 gewartet zu werden, muss der Administrator die folgenden Schritte ausführen: 
 > <OL>
 > <LI>
-> <P>Zurücksetzen der Benutzer verwaltet ursprünglich auf P1 aus P2 zu P1 Fail mit dem Failback-Cmdlet. In diesem Fall ist der *PoolFQDN* des P1 FQDN.</P>
+> <P>Führen Sie mithilfe des Failback-Cmdlets alle Benutzer, die sich ursprünglich auf P1 benetzten, von P2 zu P1 zurück. In diesem Fall ist der *PoolFQDN* P1's-FQDN.</P>
 > <LI>
-> <P>Ausführen eines Failovers alle Benutzer ursprünglich auf P2 bis P1 verwaltet mithilfe des Failover-Cmdlet. In diesem Fall ist der PoolFQDN P2 FQDN.</P>
+> <P>Über das Failover-Cmdlet können alle Benutzer, die sich ursprünglich auf P2 mit P1 befanden, einen Failover durchführen. In diesem Fall ist der PoolFQDN P2-FQDN.</P>
 > <LI>
-> <P>Wenn der Administrator später Failback dieser P2-Benutzer zurück zu P2 möchte, ist der PoolFQDN P2 FQDN.</P></LI></OL><br>Beachten Sie diesen Schritt 1 weiter oben ausgeführt werden muss, bevor Sie Schritt 2, um die Integrität der Pool zu erhalten. Schritt 2-Cmdlet schlägt fehl, wenn Sie versuchen, Schritt 2, bevor Sie Schritt 1.
+> <P>Wenn der Administrator später diese P2-Benutzer wieder in P2 zurücksetzen möchte, ist der PoolFQDN P2-FQDN.</P></LI></OL><br>Beachten Sie, dass Schritt 1 oben vor Schritt 2 ausgeführt werden muss, um die Pool Integrität beizubehalten. Wenn Sie Schritt 2 vor Schritt 1 versuchen, tritt das Cmdlet "Schritt 2" nicht auf.
 
 
 ## <a name="see-also"></a>Siehe auch

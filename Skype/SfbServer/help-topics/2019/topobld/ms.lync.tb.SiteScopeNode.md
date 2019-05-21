@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.SiteScopeNode
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten enthält einen der für Ihre Topologie definierten Standorte. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: ef8c18c70a3e3f3996877e44922704bb564a4ee7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d0ba0d30c32f436cf6b6d9f5a85118bbb9580019
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911819"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303095"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>Lync Server-Standort – Bereichsknoten
  

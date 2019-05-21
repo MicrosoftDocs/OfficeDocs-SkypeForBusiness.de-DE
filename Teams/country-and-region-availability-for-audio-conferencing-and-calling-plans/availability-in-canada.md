@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: In Kanada sind die folgenden Office 365-Dienste für Skype for Business und Microsoft Teams verfügbar.
-ms.openlocfilehash: 6b90ae826c24bf3af3d05ba0f65a3208b54cee1c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 485a491acbce57b5ef1503f7d14ba60804fb43a6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32248201"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283170"
 ---
 # <a name="availability-in-canada"></a>Verfügbarkeit in Kanada
 
@@ -60,12 +60,12 @@ In Kanada sind die folgenden Office 365-Dienste für Skype for Business und Mic
 | **Funktion**                                        | **Details**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sind Anrufpläne zum Kauf verfügbar?  <br/>    | Ja  <br/>                                                                                                                                                                                                                                                                  |
-| Minuten für den Aufruf von Plänen zur Verfügung.               | Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen </li><li>240 minute nationalen aufrufen planen</li></li><li>3000 minute nationalen aufrufen planen</li></li><li>Nationalen und internationalen aufrufen planen: 3000 Minuten nationalen OR - 600 Minuten internationaler (je nachdem, was zuerst im Kalendermonat erreicht wird)</li>|
-| Stellen Sie ausgehende Anrufe bei Nummern Premium können?  <br/> | Zu diesem Zeitpunkt unterstützt nicht.<br/>                                                                                                                                                                                                                                            |
+| Für Anrufpläne verfügbare Minuten.               | Es stehen vier Planoptionen pro Kalendermonat zur Verfügung: <ul><li>120 Minutentarif für Inlandsanrufe </li><li>240 Minutentarif für Inlandsanrufe</li></li><li>3000 Minutentarif für Inlandsanrufe</li></li><li>Plan für Inlands-und Auslandsgespräche: 3000 Minuten der Inlands-oder-600-Minuten für Auslandsanrufe (je nachdem, welche im Kalendermonat zuerst erreicht wird)</li>|
+| Können Sie ausgehende Anrufe an Premium-Nummern tätigen?  <br/> | Zu diesem Zeitpunkt nicht unterstützt.<br/>                                                                                                                                                                                                                                            |
 | Sind ausgehende Anrufe möglich?  <br/>                 | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/>                                                                                                                                                                  |
 
 > [!Note]
-> Aufrufe der USA werden als Gespräche behandelt.
+> Anrufe in die USA werden als Inlandsanrufe behandelt.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
@@ -78,7 +78,7 @@ In Kanada sind die folgenden Office 365-Dienste für Skype for Business und Mic
  Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
 
 > [!Note] 
-> Wenn ein Aufruf von planen (nationalen oder nationalen und internationalen) Wählt Benutzer in den USA eine Telefonnummer in Kanada als nationalen Anruf behandelt wird. Dies ist auch der Fall, wenn ein Benutzer in Kanada eine US-Nummer anrufen wird.
+> Wenn ein Anrufplan (nationaler oder nationaler und internationaler) Nutzer in den USA eine Telefonnummer in Kanada wählt, wird er als Inlandsanruf behandelt. Dies ist auch der Fall, wenn ein Benutzer in Kanada einen Anruf an eine US-Nummer durchführen wird.
 
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

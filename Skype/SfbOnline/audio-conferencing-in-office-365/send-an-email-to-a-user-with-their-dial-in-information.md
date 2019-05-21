@@ -1,5 +1,5 @@
 ---
-title: Senden Sie eine e-Mail an einen Benutzer mit ihren Audiokonferenzen in Skype für Business Online
+title: Senden einer e-Mail an einen Benutzer mit ihren Audiokonferenzen in Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,82 +12,82 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Senden von Ihren Benutzern eine e-Mail mit ihren Audiokonferenzinformationen in Skype für Business Online.
-ms.openlocfilehash: 80cfbd88b8c933e2b1e66d6348deff111a45f8e3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Senden Sie Ihren Benutzern eine e-Mail mit ihren Audiokonferenzinformationen in Skype for Business Online.
+ms.openlocfilehash: 14c8bc3eb246cf4ab6ffa0d823ec53fbdc78d189
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229321"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302097"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Senden einer e-Mails an einen Benutzer mit ihren Audiokonferenzen Informationen in Skype für Business Online
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Senden einer e-Mail-Nachricht an einen Benutzer mit den zugehörigen Informationen zu Audiokonferenzen in Skype for Business Online
 
 > [!Note]
-> Informationen zum Senden von Informationen von Audiokonferenzen für Benutzer in Microsoft-Teams finden Sie unter [senden eine e-Mail an einen Benutzer mit ihren Audiokonferenzen Informationen in Microsoft Teasms](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams).
+> Informationen zum Senden von Audio-Konferenz Informationen an Benutzer in Microsoft Teams finden Sie unter [Senden einer e-Mail an einen Benutzer mit den Audiokonferenzinformationen in Microsoft Teasms](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams).
 
-Manchmal Skype für Unternehmensbenutzer benötigen Sie möglicherweise dies ihre Informationen Audiokonferenzen veranlassen. Sie können diese Schritte durchführen, indem Sie mithilfe der **Skype für Business Administrationscenter** und unter den Eigenschaften für einen Benutzer auf **Konferenz Informationen per e-Mail senden** . Wenn Sie diese e-Mail senden, enthält sie alle Audiokonferenzinformationen, einschließlich:
+Manchmal müssen Skype for Business-Benutzer Sie möglicherweise an Ihre Audiokonferenz-Informationen senden. Dazu können Sie das **Skype for Business Admin Center** verwenden und unter den Eigenschaften für einen Benutzer auf **Konferenz Informationen per e-Mail senden** klicken. Wenn Sie diese e-Mail senden, enthält Sie alle Audio-Konferenz Informationen, einschließlich:
   
 - Die Konferenztelefon- oder Einwahltelefonnummer für den Benutzer.
     
 - Die Konferenz-ID des Benutzers.
     
    
-Es folgt ein Beispiel der e-Mail, die gesendet wird:
+Hier ist ein Beispiel für die gesendete e-Mail:
   
 ![E-Mail zu einer Dial-In-Konferenz](../images/audio-conferencing-info.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden Sie eine e-Mail mit Audiokonferenzinformationen an einen Benutzer
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden einer e-Mail mit Audio-Konferenz Informationen an einen Benutzer
 
-1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
+1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
-2. Klicken Sie am oberen Rand der Seite auf **Bearbeiten**.
+2. Klicken Sie oben auf der Seite auf **Bearbeiten**.
 
-3. Klicken Sie unter **Audiokonferenzen**auf **Konferenz Informationen in e-Mail-Nachricht senden**.
+3. Klicken **** Sie unter Audiokonferenz auf **Konferenz Informationen in einer e-Mail senden**.
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zu der **Office 365 Administrationscenter** > **Skype für Unternehmen**, und klicken Sie im linken Navigationsbereich auf **Audiokonferenzen**.
+2. Wechseln Sie zum **Office 365 Admin Center** > **Skype for Business**, und klicken Sie in der linken Navigations **** Leiste auf Audiokonferenzen.
     
 3. Klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus.
     
 4. Klicken Sie im Bereich „Aktion" auf **Konferenzinformationen per E-Mail senden**.
     
 > [!TIP]
-> Sie können e-Mail auch für den Benutzer mit den Einstellungen Audiokonferenzen senden, indem die Eigenschaften des Benutzers bearbeiten und dann auf **Audiokonferenzen** > **Konferenz Informationen per e-Mail senden**. 
+> Sie können auch eine e-Mail mit den Einstellungen für die Audiokonferenz an den Benutzer senden, indem Sie die Eigenschaften des **** > Benutzers bearbeiten und dann auf Audiokonferenzen**per e-Mail Konferenz Informationen senden**klicken. 
 
 ## <a name="what-else-should-you-know-about-this-email"></a>Was sollten Sie sonst über diese E-Mails wissen?
 
-- Es gibt mehrere e-Mails, die gesendet werden, um Benutzer in Ihrer Organisation, nachdem sie aktiviert sind für Audiokonferenzen:
+- Es gibt mehrere e-Mail-Nachrichten, die an Benutzer in Ihrer Organisation gesendet werden, nachdem Sie für Audiokonferenzen aktiviert wurden:
     
-  - Wenn Ihnen eine **Audiokonferenz** -Lizenz zugewiesen wird.
+  - Wenn Ihnen eine **Audiokonferenz-** Lizenz zugewiesen wurde.
     
-  - Wenn Sie manuell des Benutzers Audiokonferenzen PIN zurücksetzen.
+  - Wenn Sie die Audiokonferenz-PIN des Benutzers manuell zurücksetzen.
     
   - Wenn Sie die Konferenz-ID des Benutzers manuell zurücksetzen.
     
-  - Wenn eine **Audiokonferenz** Lizenz daraus entfernt wird.
+  - Wenn eine **Audiokonferenz-** Lizenz von Ihnen entfernt wird.
     
-  - Wenn der Anbieter von Audiokonferenzen für einen Benutzer von Microsoft auf einen anderen Anbieter oder **None**geändert wird.
+  - Wenn der Anbieter für Audiokonferenzen für einen Benutzer von Microsoft zu einem anderen Anbieter oder **keiner**geändert wird.
     
-  - Wenn der Anbieter von Audiokonferenzen für einen Benutzer an Microsoft geändert wird.
+  - Wenn der Audiokonferenz-Anbieter für einen Benutzer in Microsoft geändert wird.
     
-- Standardmäßig der Absender der e-Mail-Nachrichten werden von Office 365, aber Sie können die e-Mail-Adresse ändern und den Anzeigenamen mithilfe von Windows PowerShell und das Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=708983) . Um die e-Mail-Adresse ändern, die die e-Mail an Benutzer senden, müssen Sie folgende Aktionen ausführen:
+- Standardmäßig wird der Absender der e-Mails von Office 365, aber Sie können die e-Mail-Adresse und den Anzeigenamen mithilfe von Windows PowerShell und dem Cmdlet " [Satz-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=708983) " ändern. Wenn Sie Änderungen an der e-Mail-Adresse vornehmen möchten, die die e-Mail an Benutzer sendet, müssen Sie Folgendes tun:
     
-  - Geben Sie die e-Mail-Adresse in der SendEmailFromAddress-Parameter.
+  - Geben Sie die e-Mail-Adresse im SendEmailFromAddress-Parameter ein.
     
   - Legen Sie den Parameter SendEmailOverride auf Truefest.
     
-  - Geben Sie den e-Mail-Anzeigenamen im SendEmailFromDisplayName-Parameter.
+  - Geben Sie im SendEmailFromDisplayName-Parameter den e-Mail-Anzeigenamen ein.
     
      `Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"`
     
@@ -98,7 +98,7 @@ Es folgt ein Beispiel der e-Mail, die gesendet wird:
 
 - Um Zeit zu sparen bzw. den Vorgang zu automatisieren, können Sie das Cmdlet [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) nutzen.
     
-    Um eine e-Mail an den Benutzer mit ihren Audiokonferenzinformationen senden möchten, führen Sie folgenden Befehl:
+    Führen Sie die folgenden Schritte aus, um dem Benutzer eine e-Mail mit den zugehörigen Audiokonferenz Informationen zu senden:
     
   ```
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
@@ -123,4 +123,4 @@ Es folgt ein Beispiel der e-Mail, die gesendet wird:
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder Erwerben von Audiokonferenzen in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 layout: LandingPage
 ms.date: 1/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
-description: 'Zusammenfassung: Erkunden Sie diese Links, um Informationen zum Implementieren von Skype für Business Server 2015.'
-ms.openlocfilehash: 38faabfeb22fde3762bbbc606252dfe116ea0417
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: untersuchen Sie diese Links, um zu erfahren, wie Sie Skype for Business Server 2015 implementieren.'
+ms.openlocfilehash: 33512dab400d207842d7d548ac217c8d00d923b4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902229"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286810"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype for Business Server 2015
 
-Skype für Unternehmen ist eine Kommunikation und Zusammenarbeit Plattform, die eine Clientumgebung inspiriert von Skype mit Unternehmensklasse Sicherheit, Kompatibilität und Kontrolle zusammenführt. Skype für Unternehmen bietet Features einschließlich Anwesenheitsinformationen, Sofortnachrichten, VoIP und Videoanrufe und onlinebesprechungen. 
+Skype for Business ist eine Kommunikations-und Zusammenarbeitsplattform, die eine von Skype inspirierte Kundenerfahrung mit Sicherheit, Compliance und Kontrolle auf Unternehmensniveau vereint. Skype for Business bietet Funktionen wie Anwesenheits-, Chat-, sprach-und Videoanrufe sowie Onlinebesprechungen. 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -54,7 +54,7 @@ Skype für Unternehmen ist eine Kommunikation und Zusammenarbeit Plattform, die 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Hybridlösungen</h3>
+                        <h3>Hybrid Lösungen</h3>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@ Skype für Unternehmen ist eine Kommunikation und Zusammenarbeit Plattform, die 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Laden Sie von der Skype für Business-Evaluierungscenter</h3>
+                        <h3>Herunterladen aus dem Skype for Business-Evaluierungs Center</h3>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@ Skype für Unternehmen ist eine Kommunikation und Zusammenarbeit Plattform, die 
 
 ---
 
-<h2>Ausgewählte Artikel</h2>
+<h2>Empfohlene Artikel</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -186,7 +186,7 @@ Skype für Unternehmen ist eine Kommunikation und Zusammenarbeit Plattform, die 
                     <div class="cardText">
                         <h3>Skype-Livekonferenzen</h3>
                         <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">Was ist es?</a></p>
-                        <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">Konfigurieren der lokalen bereitstellungs für Skype Besprechung übertragen</a>
+                        <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">Konfigurieren der lokalen Bereitstellung für Skype-Live Konferenz</a>
                     </div>
                 </div>
             </div>
@@ -197,8 +197,8 @@ Skype für Unternehmen ist eine Kommunikation und Zusammenarbeit Plattform, die 
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Hybridlösungen</h3>
-                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Planen von hybridkonnektivität</a></p>
+                        <h3>Hybrid Lösungen</h3>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Planen der Hybrid Konnektivität</a></p>
                                        </div>
                 </div>
             </div>
@@ -210,9 +210,9 @@ Skype für Unternehmen ist eine Kommunikation und Zusammenarbeit Plattform, die 
                 <div class="card">
                     <div class="cardText">
                         <h3>Weitere Ressourcen</h3>
-                        <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">Skype für Business Bereitschaft Datenreihe</a></p>
-                        <p><a href="/SkypeForBusiness/skype-for-business-server-2019">Skype für Business Server 2019-Dokumentation</a></p>
-                        <p><a href="/lyncserver/microsoft-lync-server-2013">Dokumentation zur Lync Server 2013</a></p>
+                        <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">Skype for Business Readiness-Serie</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-server-2019">Skype for Business Server 2019-Dokumentation</a></p>
+                        <p><a href="/lyncserver/microsoft-lync-server-2013">Lync Server 2013-Dokumentation</a></p>
                     </div>
                 </div>
             </div>

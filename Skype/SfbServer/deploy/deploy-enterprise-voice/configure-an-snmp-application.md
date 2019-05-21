@@ -1,10 +1,10 @@
 ---
-title: Konfigurieren einer SNMP-Anwendung in Skype für Business Server
+title: Konfigurieren einer SNMP-Anwendung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,24 +13,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
-description: Konfigurieren Sie eine SNMP-Anwendung zur Arbeit mit E9-1-1 in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 7903163d6cf1cd78d7689557f4906966c2c67a2c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Konfigurieren einer SNMP-Anwendung für die Arbeit mit E9-1-1 in Skype for Business Server Enterprise-VoIP
+ms.openlocfilehash: 575c982dae20ed085e49690edfbb141786390516
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893084"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303418"
 ---
-# <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Konfigurieren einer SNMP-Anwendung in Skype für Business Server
+# <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Konfigurieren einer SNMP-Anwendung in Skype for Business Server
  
-Konfigurieren Sie eine SNMP-Anwendung zur Arbeit mit E9-1-1 in Skype für Business Server Enterprise-VoIP. 
+Konfigurieren einer SNMP-Anwendung für die Arbeit mit E9-1-1 in Skype for Business Server Enterprise-VoIP 
   
-Skype für Business Server umfasst eine standardmäßige webdienstschnittselle, die Sie mit dem Dienst Standortinformationen für Simple Network Management Protocol (SNMP) Clientanwendungen zu hergestellt, die Abgleich von MAC-Adressen mit Port- und Switchinformationen verwenden können. 
+Skype for Business Server enthält eine standardmäßige Webdienstschnittstelle, mit der Sie den standortinformationsdienst mit SNMP-Anwendungen (Simple Network Management Protocol) verbinden können, die Mac-Adressen mit Port-und Switch-Informationen entsprechen. 
   
-Wenn eine SNMP-Anwendung installiert ist und der Standortinformationen Dienst nicht in der Standortdatenbank Übereinstimmung gefunden, fragt der standortinformationsdienst die Anwendung automatisch mithilfe der MAC-Adresse vom Client. Der Standortinformationen-Dienst verwendet klicken Sie dann die Port- und Switch-Informationen von der SNMP-Anwendung zurückgegeben, um der Standortdatenbank erneut abzufragen.
+Wenn eine SNMP-Anwendung installiert ist und der standortinformationsdienst keine Übereinstimmung in der Standortdatenbank findet, fragt der standortinformationsdienst die Anwendung automatisch mit der vom Client angegebenen MAC-Adresse ab. Der standortinformationsdienst verwendet dann die von der SNMP-Anwendung zurückgegebenen Port-und Switch-Informationen, um die Standortdatenbank erneut abzufragen.
   
 > [!NOTE]
-> MAC-Adressen sind nicht auf Computern unter Windows 8 verfügbar. 
+> Mac-Adressen stehen auf Computern unter Windows 8 nicht zur Verfügung. 
   
 ### <a name="to-configure-the-snmp-application-url"></a>So konfigurieren Sie die URL für die SNMP-Anwendung
 
@@ -44,5 +44,5 @@ Wenn eine SNMP-Anwendung installiert ist und der Standortinformationen Dienst ni
 
 ## <a name="see-also"></a>Siehe auch
 
-["Set-cswebserviceconfiguration"](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
+[Satz-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 

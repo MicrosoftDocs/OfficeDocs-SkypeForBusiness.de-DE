@@ -1,27 +1,27 @@
 ---
-title: Verwenden von Setup-Befehlszeilenoptionen mit Skype für Business-clients
+title: Verwenden von Setup-Befehlszeilenoptionen für Skype for Business-Clients
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
-description: 'Zusammenfassung: Erfahren Sie mehr über Setup.exe Befehlszeile Vorgänge während des Setups von Office.'
-ms.openlocfilehash: 924ecab4a53c6ec591416661bc98078e8e48381c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über die Befehlszeilenfunktionen von Setup. exe in Office Setup.'
+ms.openlocfilehash: 2eee24f9ae79ed2f73e23c68883f2552902fb672
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895061"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306482"
 ---
-# <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>Verwenden von Setup-Befehlszeilenoptionen mit Skype für Business-clients
+# <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>Verwenden von Setup-Befehlszeilenoptionen für Skype for Business-Clients
  
-**Zusammenfassung:** Informationen Sie zu Setup.exe Befehlszeile Vorgänge während des Setups von Office.
+**Zusammenfassung:** Informieren Sie sich über die Befehlszeilenfunktionen von Setup. exe in Office-Setup.
   
-Die Befehlszeile von "Setup.exe" wird nur für wenige Vorgänge des Office-Setups verwendet. Verwenden Sie die Setup-Befehlszeilenoptionen, sondern in der Regel verwenden Office-Anpassungstool und der Datei Config.xml für Produkt-Setup und Anpassung Sie.
+Die Befehlszeile von "Setup.exe" wird nur für wenige Vorgänge des Office-Setups verwendet. Anstatt die Setup-Befehlszeilenoptionen zu verwenden, verwenden Sie in der Regel das Office-Anpassungs Tool und die Datei config. XML für die Produkteinrichtung und die Anpassung von Features.
   
 Die Befehlszeile der Office "Setup.exe" erkennt die in der folgenden Tabelle beschriebenen Befehlzeilenoptionen.
   
@@ -31,10 +31,10 @@ Die Befehlszeile der Office "Setup.exe" erkennt die in der folgenden Tabelle bes
 |:-----|:-----|
 |/admin  <br/> |Führt das Office-Anpassungstool aus, um eine Setupanpassungsdatei (.msp-Datei) zu erstellen.  <br/> |
 |/adminfile [Pfad]  <br/> |Wendet die angegebene Setupanpassungsdatei auf die Installation an. Sie können einen Pfad zu einer bestimmten Anpassungsdatei (.msp-Datei) oder zu dem Ordner angeben, in dem Sie Anpassungsdateien speichern.  <br/> |
-|/config [Pfad]  <br/> |Gibt die Datei Config.xml, die Setup während der Installation verwendet. Verwenden Sie die Option/config auf die Datei Config.xml angeben, die Sie für Skype für Business-Installationen, beispielsweise angepasst:`/config \\server\share\Skype15\Skype.WW\Config.xml` <br/> |
-|/modify Skype  <br/> |Wird mit einer geänderten config.xml-Datei verwendet, um Setup im Wartungsmodus auszuführen und Änderungen an einer vorhandenen Office-Installation durchzuführen. Angenommen, Sie können die / modify Option zum Hinzufügen oder Entfernen von Skype für Business-Features.  <br/> |
-|/repair Skype  <br/> |Führt Setup aus dem Computer des Benutzers, Skype für Unternehmen zu reparieren.  <br/> |
-|/uninstall Skype  <br/> |Führt Setup aus, um Skype für Unternehmen aus dem Computer des Benutzers zu entfernen.  <br/> |
+|/config [Pfad]  <br/> |Gibt die Datei config. XML an, die von Setup während der Installation verwendet wird. Verwenden Sie die Option/config, um die Datei config. XML anzugeben, die Sie für Skype for Business-Installationen angepasst haben, beispielsweise:`/config \\server\share\Skype15\Skype.WW\Config.xml` <br/> |
+|/modify Skype  <br/> |Wird mit einer geänderten config.xml-Datei verwendet, um Setup im Wartungsmodus auszuführen und Änderungen an einer vorhandenen Office-Installation durchzuführen. So können Sie beispielsweise die Option/MODIFY verwenden, um Skype for Business-Features hinzuzufügen oder zu entfernen.  <br/> |
+|/repair Skype  <br/> |Führt das Setup vom Computer des Benutzers aus, um Skype for Business zu reparieren.  <br/> |
+|/uninstall Skype  <br/> |Führt das Setup aus, um Skype for Business vom Computer des Benutzers zu entfernen.  <br/> |
    
 
 

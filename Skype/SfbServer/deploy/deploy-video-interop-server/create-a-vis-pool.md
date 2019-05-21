@@ -1,40 +1,40 @@
 ---
-title: Erstellen eines Pools gegenüber in Skype für Business Server
+title: Erstellen eines VIS-Pools in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
-description: 'Zusammenfassung: Erstellen Sie einen Video Interop-Serverpool in Skype für Business Server mithilfe des Topologie-Generator.'
-ms.openlocfilehash: f290da287dc4e45a35d5d088e331d2c2540585ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Erstellen eines Video-Interop-Server Pools in Skype for Business Server mithilfe des Topologie-Generators.'
+ms.openlocfilehash: 3e01659c4cef268a8748bd14c658eb5168b3ac97
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894712"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302728"
 ---
-# <a name="create-a-vis-pool-in-skype-for-business-server"></a>Erstellen eines Pools gegenüber in Skype für Business Server
+# <a name="create-a-vis-pool-in-skype-for-business-server"></a>Erstellen eines VIS-Pools in Skype for Business Server
  
-**Zusammenfassung:** Erstellen Sie einen Video Interop-Serverpool in Skype für Business Server mithilfe des Topologie-Generator.
+**Zusammenfassung:** Erstellen Sie einen Video-Interop-Serverpool in Skype for Business Server mithilfe des Topologie-Generators.
   
 ### <a name="create-a-vis-or-vis-pool-using-topology-builder"></a>Erstellen eines VIS oder VIS-Pools mithilfe des Topologie-Generators
 
-1. Öffnen Sie den Topologie-Generator auf dem Front-End-Server. Klicken Sie im linken Bereich des Topologie-Generator klicken Sie mit der rechten Maustaste auf **Video Interop-Server-Pools** , und wählen Sie **Neue Video Interop-Serverpool**. 
+1. Öffnen Sie den Topologie-Generator auf dem Front-End-Server. Klicken Sie im linken Bereich des Topologie-Generators mit der rechten Maustaste auf **Video-Interop-Server Pools** , und wählen Sie **neuer Video-Interop-Server Pool**aus. 
     
-2. Ein Assistenten zum **Erstellen einer neuen Video Interop-Serverpool** wird geöffnet. Geben Sie den Pool-FQDN für den neuen Video Interop-Server, und wählen Sie entweder **diesem Pool einen Server** oder **Pool verfügt über mehrere Server** basierend auf Ihrer Anforderung aus, drücken Sie dann auf **Weiter**.
+2. Dadurch wird ein Assistent zum **Erstellen eines neuen Video-Interop** -Serverpools geöffnet. Geben Sie den Pool-FQDN für den neuen Video-Interop-Server ein, und wählen Sie entweder **dieser Pool hat einen Server** oder **dieser Pool verfügt über mehrere Server** basierend auf Ihrer Anforderung und dann **weiter**.
     
-    Wenn Sie einen Video Interop-Serverpool, um hohe Verfügbarkeit bereitstellen möchten, wählen Sie **in diesem Pool verfügt über mehrere Server**. Bedenken Sie bei dieser Option Folgendes: 
+    Wenn Sie einen Video-Interop-Server Pool bereitstellen möchten, um eine höhere Verfügbarkeit zu gewährleisten, wählen Sie **dieser Pool hat mehrere Server**. Bedenken Sie bei dieser Option Folgendes: 
     
-    - Sie müssen die DNS-Lastenausgleich zur Unterstützung von Video Interop-Server-Pools bereitstellen. 
+    - Sie müssen DNS-Lastenausgleich bereitstellen, um Video-Interop-Server Pools zu unterstützen. 
     
-   - Geben Sie auf der nächsten Seite unter **Computer in diesem Pool definieren** im Textfeld den **Computer-FQDN** des jeweiligen Computers im Pool ein und klicken Sie dann auf **Hinzufügen**. Wiederholen Sie diesen Schritt, um einen weiteren Video Interop Server zum Pool hinzuzufügen. Wenn Sie alle Computer im Pool definiert haben, klicken Sie auf **Weiter**.
+   - Geben Sie auf der nächsten Seite unter **Computer in diesem Pool definieren** im Textfeld den **Computer-FQDN** des jeweiligen Computers im Pool ein und klicken Sie dann auf **Hinzufügen**. Wiederholen Sie diesen Schritt, um einen weiteren Video-Interop-Server zum Pool hinzuzufügen. Wenn Sie alle Computer im Pool definiert haben, klicken Sie auf **Weiter**.
     
-     Wenn Sie nur ein Video Interop-Server im Pool bereitstellen, da Sie keine hohe Verfügbarkeit erforderlich möchten, wählen Sie **in diesem Pool hat einen Server** aus, und klicken Sie auf **Weiter**.
+     Wenn Sie nur einen Video-Interop-Server im Pool bereitstellen möchten, weil Sie keine höhere Verfügbarkeit benötigen, wählen Sie **diesen Pool hat einen Server** aus, und drücken Sie dann auf **weiter**.
     
 3. Wählen Sie in der Dropdownliste den nächsten Hoppool/FE aus und klicken Sie auf **Weiter**.
     
@@ -42,7 +42,7 @@ ms.locfileid: "33894712"
     
 5. Legen Sie einen TCP- oder TLS-Port fest.
     
-    Wählen Sie den neu hinzugefügten Video Interop-Server aus der Topologie-Generator im linken, klicken Sie rechten Maustaste darauf, und wählen Sie **Eigenschaften bearbeiten**. Aktivieren oder aktualisieren Sie den TCP- oder TLS-Port entsprechend Ihrer Anforderung und wählen Sie **OK**. Obwohl standardmäßig TLS hinzugefügt wurde, wurde nur TCP vollständig mit Cisco Unified Communications Manager (CallManager oder CUCM) getestet.
+    Wählen Sie im linken Bereich von Topology Builder den neu hinzugefügten Video-Interop-Server aus, klicken Sie mit der rechten Maustaste darauf, und wählen Sie **Eigenschaften bearbeiten**aus. Aktivieren oder aktualisieren Sie den TCP- oder TLS-Port entsprechend Ihrer Anforderung und wählen Sie **OK**. Obwohl TLS standardmäßig hinzugefügt wird, wurde nur TCP mit Cisco Unified Communications Manager (CallManager oder CUCM) vollständig getestet.
     
 6. Wählen Sie ein Videogateway aus. Erweitern Sie hierfür „Freigegebene Komponenten“, klicken Sie mit der rechten Maustaste auf **Videogateways** und wählen Sie **Neues Videogateway**.
     
@@ -50,23 +50,23 @@ ms.locfileid: "33894712"
     
 8. Wählen Sie ggf. IPv4 oder IPv6 aus. Sie können alle konfigurierten IP-Adressen verwenden oder die Dienstnutzung auf die ausgewählten IP-Adressen beschränken.
     
-9. Wählen Sie den Überwachungsport des Videogateways aus. Wählen Sie das Transportprotokoll (TCP oder TLS), und verknüpfen Sie ihn mit einem Video Interop-Server, der für einen SIP-Trunk video eingerichtet ist. Das Transportprotokoll für das Videogateway sollte mit dem für den VIS konfigurierten Transportprotokoll übereinstimmen.
+9. Wählen Sie den Überwachungsport des Videogateways aus. Wählen Sie das Transport Protokoll (TCP oder TLS) aus, und ordnen Sie es einem Video-Interop-Server zu, der für einen Video-SIP-Trunk eingerichtet ist. Das Transportprotokoll für das Videogateway sollte mit dem für den VIS konfigurierten Transportprotokoll übereinstimmen.
     
-10. Ein entsprechender Video-SIP-Trunk wird nach Abschluss des obigen Schritts hinzugefügt. Klicken Sie mit der rechten Maustaste auf den Video-SIP-Trunk und wählen Sie den soeben hinzugefügten Trunk aus. Die video-SIP-Trunk-Name, Video Interop-Server-SIP-Transportprotokoll zugeordnet und kann alle Port geändert werden. 
-    
-    > [!NOTE]
-    >  Ein Video Interop-Server unterstützt 1: n-Trunks. Daher können mehrere Trunks die zugeordnet, mit einem einzelnen Server zur Video-Interop, wobei jeden Trunk auf einem anderen Video Gateway beendet werden hinzugefügt. Die Einschränkung ist einem bestimmten Gateway Video nur einen einzigen Trunk verfügt, die an die Skype für Business Server-Bereitstellung definiert werden kann.
-  
-11. Veröffentlichen Sie das Topologiedokument gemäß [Erstellen und veröffentlichen Sie die neue Topologie in Skype für Business Server 2015](../../deploy/install/create-and-publish-new-topology.md).
+10. Ein entsprechender Video-SIP-Trunk wird nach Abschluss des obigen Schritts hinzugefügt. Klicken Sie mit der rechten Maustaste auf den Video-SIP-Trunk und wählen Sie den soeben hinzugefügten Trunk aus. Der Name des Video-SIP-Trunks, der zugehörige Video-Interop-Server, das SIP-Transport Protokoll und der Port können alle geändert werden. 
     
     > [!NOTE]
-    > Um ausfallsicherheit zu verbessern, sollten Sie einen zweiten Interop Videoserver oder gegenüber Pool oder einem Front-End-Sicherungspool konfigurieren. Weitere Informationen finden Sie unter [Resiliency Mechanismen](../../plan-your-deployment/video-interop-server.md#resiliency) .
+    >  Ein Video-Interop-Server unterstützt 1: N Trunks. Daher können mehrere Trunks hinzugefügt werden, die einem einzelnen Video-Interop-Server zugeordnet sind, wobei jeder trunk auf einem anderen Video Gateway beendet wird. Die Einschränkung besteht darin, dass ein bestimmtes Video Gateway nur einen trunk enthält, der für die Bereitstellung von Skype for Business Server definiert werden kann.
   
-Alle Aufgaben des Topologie-Generators sollte jetzt abgeschlossen sein. Wechseln Sie zum Installieren der Software auf den neuen gegenüber oder die Server.
+11. Veröffentlichen Sie das Topologie-Dokument wie unter [Erstellen und Veröffentlichen einer neuen Topologie in Skype for Business Server 2015](../../deploy/install/create-and-publish-new-topology.md)beschrieben.
+    
+    > [!NOTE]
+    > Um die Widerstandsfähigkeit zu verbessern, können Sie einen zweiten Video-Interop-Server oder VIS-Pool oder einen Backup-Front-End-Pool konfigurieren. Weitere Informationen finden Sie unter [Resilienz-Mechanismen](../../plan-your-deployment/video-interop-server.md#resiliency) .
+  
+Alle mit dem Topologie-Generator ausgeführten Aufgaben sollten nun abgeschlossen sein. Fahren Sie mit der Installation der Software auf dem neuen VIS-Server oder-Server fort.
 ## <a name="see-also"></a>Siehe auch
 
-[Bereitstellen der Serverrolle gegenüber in Skype für Business Server](deploy-the-vis-server-role.md)
+[Bereitstellen der VIS-Serverrolle in Skype for Business Server](deploy-the-vis-server-role.md)
 
-[Planen der Interop-Videoserver in Skype für Business Server](../../plan-your-deployment/video-interop-server.md)
+[Planen des Video-Interop-Servers in Skype for Business Server](../../plan-your-deployment/video-interop-server.md)
   
 [Erstellen und Veröffentlichen einer neuen Topologie in Skype for Business Server 2015](../../deploy/install/create-and-publish-new-topology.md)

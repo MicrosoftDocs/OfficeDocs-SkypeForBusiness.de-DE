@@ -1,27 +1,27 @@
 ---
-title: Diagnosebericht Konferenz in Skype für Business Server
+title: Konferenz Diagnosebericht in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
-description: 'Zusammenfassung: Erfahren Sie mehr über die Konferenz Diagnosebericht in Skype für Business Server verwendet.'
-ms.openlocfilehash: b2cfd39ab3d6bdc6af8230bbed995e511719bf72
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Konferenz Diagnosebericht, der in Skype for Business Server verwendet wird.'
+ms.openlocfilehash: bfe84c50b3aaee53da1dc460f501e3c9a82528af
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926571"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289300"
 ---
-# <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Diagnosebericht Konferenz in Skype für Business Server
+# <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Konferenz Diagnosebericht in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Diagnosebericht Konferenz in Skype für Business Server verwendet wird.
+**Zusammenfassung:** Informieren Sie sich über den Konferenz Diagnosebericht, der in Skype for Business Server verwendet wird.
   
-Der Diagnosebericht über die Konferenz enthält Informationen über erfolgreich durchgeführte Konferenzsitzungen und Fehler bei Konferenzsitzungen. Beachten Sie, dass Skype für Business Server zwischen verschiedenen Arten des Fehlers unterschieden wird:
+Der Diagnosebericht über die Konferenz enthält Informationen über erfolgreich durchgeführte Konferenzsitzungen und Fehler bei Konferenzsitzungen. Beachten Sie, dass Skype for Business Server zwischen verschiedenen Arten von Fehlern unterscheidet:
   
 - **Erwarteter Fehler**. Ein erwarteter Fehler ist typischerweise ein rein technischer Fehler. Ein Beispiel: Angenommen, eine Person startet eine Konferenz, legt aber auf, bevor andere Personen der Konferenz beigetreten sind. Das ist technisch gesehen ein Fehler: Die Konferenz wurde initiiert, aber nicht abgeschlossen. Allerdings wäre das ein Fehler, den Sie durchaus erwarten würden. Bricht nämlich der Organisator die Konferenz ab, bevor andere Personen teilnehmen können, würden Sie die Konferenz nicht als abgeschlossen betrachten.
     
@@ -33,11 +33,11 @@ Beachten Sie, dass die Summe aus den Werten für Erfolge, erwartete Fehler und u
 |:-----|:-----|:-----|:-----|
 |2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
-Wenn Sie 2.024 + 469 + 16 addieren, ergibt das insgesamt 2.509 Sitzungen, aber in der Spalte „Sitzungen insgesamt“ wird 2.521 angezeigt. Die „fehlenden“ 12 Sitzungen sind Sitzungen, die vom System nicht als erfolgreich oder fehlerhaft kategorisiert werden konnten. Manchmal wird, die der Fall sein, wenn ein Drittanbieter-Produkt einen neuen diagnostic Code vorgestellt, der an den Monitoring Server nicht vertraut ist. In einer solchen Situation können Aufrufe, die mit diesem Produkt ausgeführt werden und für die dieser Diagnosecode gemeldet wird, nicht immer eindeutig als Erfolg, erwarteter Fehler oder unerwarteter Fehler kategorisiert werden.
+Wenn Sie 2.024 + 469 + 16 addieren, ergibt das insgesamt 2.509 Sitzungen, aber in der Spalte „Sitzungen insgesamt“ wird 2.521 angezeigt. Die „fehlenden“ 12 Sitzungen sind Sitzungen, die vom System nicht als erfolgreich oder fehlerhaft kategorisiert werden konnten. Dies ist manchmal der Fall, wenn ein Drittanbieterprodukt einen neuen Diagnosecode einführt, der für die Überwachung von Server unbekannt ist. In einer solchen Situation können Aufrufe, die mit diesem Produkt ausgeführt werden und für die dieser Diagnosecode gemeldet wird, nicht immer eindeutig als Erfolg, erwarteter Fehler oder unerwarteter Fehler kategorisiert werden.
   
 ## <a name="accessing-the-conference-diagnostic-report"></a>Öffnen des Diagnoseberichts über die Konferenz
 
-Auf den Diagnosebericht über die Konferenz greifen Sie über die Startseite für Überwachungsberichte zu. Sie können den [Bericht über Fehlerverteilung in Skype für Business Server](failure-distribution-report.md) zugreifen, indem Sie auf eine der folgenden Metriken:
+Auf den Diagnosebericht über die Konferenz greifen Sie über die Startseite für Überwachungsberichte zu. Sie können [in Skype for Business Server auf den Bericht zur Fehlerverteilung](failure-distribution-report.md) zugreifen, indem Sie auf eine der folgenden Metriken klicken:
   
 - Anzahl der unerwarteten Fehler
     
@@ -45,7 +45,7 @@ Auf den Diagnosebericht über die Konferenz greifen Sie über die Startseite fü
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>Optimales Nutzen des Diagnoseberichts über die Konferenz
 
-Der Diagnosebericht über die Konferenz enthält eine Reihe von Diagrammen. Jede der Spalten in einem Diagramm ist ein Hyperlink. Wenn Sie eine Spalte klicken, können Sie den [Bericht über Fehlerverteilung in Skype für Business Server](failure-distribution-report.md) für diesen Zeitraum und dieser Konferenztyp Drilldown.
+Der Diagnosebericht über die Konferenz enthält eine Reihe von Diagrammen. Jede der Spalten in einem Diagramm ist ein Hyperlink. Wenn Sie auf eine Spalte klicken, führen Sie einen Drilldown zum [Fehler Verteilungs Bericht in Skype for Business Server](failure-distribution-report.md) für diesen Zeitraum und diesen Konferenztyp durch.
   
 ## <a name="filters"></a>Filter
 

@@ -1,45 +1,45 @@
 ---
-title: Verwenden von Überwachungsberichten in Skype für Business Server
+title: Verwenden von Überwachungsberichten in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
-description: 'Zusammenfassung: Informationen Sie zu Überwachungsberichten in Skype für Business Server.'
-ms.openlocfilehash: 66190e88b4b806554d29cc132e29d6419c8f693b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Informationen zum Überwachen von Berichten in Skype for Business Server.'
+ms.openlocfilehash: ea984a27e2322b08357719e41892fa65892b550a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920276"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279886"
 ---
-# <a name="using-monitoring-reports-in-skype-for-business-server"></a>Verwenden von Überwachungsberichten in Skype für Business Server 
+# <a name="using-monitoring-reports-in-skype-for-business-server"></a>Verwenden von Überwachungsberichten in Skype for Business Server 
  
-**Zusammenfassung:** Informationen Sie zu Überwachungsberichten in Skype für Business Server.
+**Zusammenfassung:** Informationen zum Überwachen von Berichten in Skype for Business Server.
   
-Skype für Business Server enthält einen Satz Standardberichte, die von Microsoft SQL Server Reporting Services veröffentlicht werden. Diese Berichte, auf die über einen Webbrowser zugegriffen werden kann, liefern Informationen zu Nutzung, Anrufdiagnose und Medienqualität basierend auf den KDS- und QoE-Datensätzen in den KDS- und QoE-Datenbanken.
+Skype for Business Server enthält eine Reihe von Standardberichten, die vom Microsoft SQL Server Reporting Service veröffentlicht werden. Diese Berichte, auf die über einen Webbrowser zugegriffen werden kann, liefern Informationen zu Nutzung, Anrufdiagnose und Medienqualität basierend auf den KDS- und QoE-Datensätzen in den KDS- und QoE-Datenbanken.
   
-Um diese Berichte zu verwenden, müssen Sie Monitoring-Berichte auf einem Computer installieren, die eine Instanz von SQL Server ausgeführt wird.
+Um diese Berichte zu verwenden, müssen Sie Überwachungsberichte auf einem Computer installieren, auf dem eine Instanz von SQL Server ausgeführt wird.
   
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-- [Verwenden Sie das Monitoring-Dashboard in Skype für Business Server](monitoring-dashboard.md) Ermöglicht Administratoren einen schnellen Überblick über die Systemintegrität und systemauslastung.
+- [Verwenden des Überwachungs Dashboards in Skype for Business Server](monitoring-dashboard.md) Bietet Administratoren einen schnellen Überblick über den Systemstatus und die Systemnutzung.
     
-- [Systemauslastungsberichte in Skype für Business Server](system-usage-reports.md) Basierend auf von Skype für Business Server gesammelten KDS-Daten enthält.
+- [Berichte zur System Nutzung in Skype for Business Server](system-usage-reports.md) Bietet Informationen zur Systemnutzung basierend auf CdR-Daten, die von Skype for Business Server erfasst werden.
     
-- [Anrufdiagnoseberichte (pro Benutzer) in Skype für Business Server](call-diagnostic-reports-per-user.md) Pro Benutzer Informationen zu fehlgeschlagenen Peer-zu-Peer- und konferenzsitzungen.
+- [Anruf Diagnoseberichte (pro Benutzer) in Skype for Business Server](call-diagnostic-reports-per-user.md) Bietet benutzerspezifische Informationen zu fehlgeschlagenen Peer-to-Peer-und Konferenzsitzungen.
     
-- [Anrufdiagnoseberichte in Skype für Business Server](call-diagnostic-reports.md) Enthält zusammenfassende Informationen und Diagnosedaten für fehlerhafte Peer-zu-Peer- und konferenzsitzungen.
+- [Anruf Diagnoseberichte in Skype for Business Server](call-diagnostic-reports.md) Bietet Zusammenfassungsinformationen und Diagnosedaten für fehlerhafte Peer-to-Peer-und Konferenzsitzungen.
     
-- [Medienqualitäts-Diagnoseberichte in Skype für Business Server](media-quality-diagnostic-reports.md) Enthält Informationen zur Anrufqualität sowie Diagnose- und Problembehandlungsinformationen für fehlerhafte Anrufe.
+- [Diagnoseberichte für Medienqualität in Skype for Business Server](media-quality-diagnostic-reports.md) Bietet Informationen zur Anrufqualität sowie Informationen zur Diagnose und zur Problembehandlung bei fehlgeschlagenen anrufen.
     
 ## <a name="locating-records"></a>Suchen von Datensätzen
 
-Überwachungsberichte enthält nur eine begrenzte Anzahl von Datensätzen auf dem Bildschirm gleichzeitig. Die tatsächliche Anzahl von auf dem Bildschirm angezeigten Datensätze variiert je nach den Bericht. Um die Datensätze anzuzeigen, die derzeit nicht auf dem Bildschirm angezeigt werden können Sie das und rückwärtsblättern Standardsteuerelement (befindet sich auf der Symbolleiste des Berichts), mit denen Sie die Daten blättern können. Sie können außerdem schnell zu der ersten Seite oder der letzten Seite des Datasets wechseln.
+Bei Überwachungsberichten wird jeweils nur eine begrenzte Anzahl von Datensätzen auf dem Bildschirm angezeigt. Die tatsächliche Anzahl der auf einem Bildschirm angezeigten Datensätze variiert je nach Bericht. Wenn Sie die Datensätze anzeigen möchten, die derzeit nicht auf dem Bildschirm angezeigt werden, können Sie die standardmäßige vorwärts-und rückwärts Steuerung (auf der Symbolleiste der einzelnen Berichte) verwenden, die es Ihnen ermöglicht, die Daten zu durchlaufen. Sie können auch schnell zur ersten Seite oder zur letzten Seite des Datasets springen.
   
 Neben der Verwendung der Steuerelemente für die Rückwärts- bzw. Vorwärtsnavigation können Sie auch zu jeder beliebigen Seite im Dataset navigieren, indem Sie einfach in das Feld **Aktuelle Seite** die Seitennummer eingeben und dann die EINGABETASTE drücken.
   
@@ -47,7 +47,7 @@ Sie können aber nicht nur in den Daten blättern. Jeder Bericht bietet eine ein
   
 Wie bereits erwähnt, weisen die Monitoring Server-Berichte nur die grundlegendsten Suchfunktionen auf. Beispielsweise können Sie nicht angeben, in welchem Feld nach dem Wert gesucht werden soll. Der Suchmechanismus sucht automatisch in jedem Feld jedes Datensatzes nach Übereinstimmungen. Die Verwendung von Platzhaltern ist bei der Suche nicht möglich und bei allen Suchvorgängen wird nach Teilübereinstimmungen gesucht. Wenn Sie also nach „111“ suchen, wird nicht nur der Wert „111“ zurückgegeben, sondern auch die Werte „11100“, „811“, „3112“, „611A5B“  sowie alle anderen Felder, die den Wert „111“  irgendwo in diesem Feld aufweisen.
   
-Berichte sind so konfiguriert, dass ein Standardsatz von Datensätzen angezeigt wird. Beispielsweise enthält der Bericht über Benutzerregistrierung standardmäßig Benutzerregistrierungsaktivitäten der letzten Woche. Dies kann in manchen Fällen zu einem Bericht ohne Datensätze führen. In diesem Fall bedeutet dies, dass in der letzten Woche keine Benutzerregistrierungen stattgefunden haben. Wenn die Meldung "keine Ergebnisse entsprechen den Berichtsfilter" angezeigt wird, wiederholen Sie die Filterwerte (beispielsweise Ändern des Zeitraums zu des letzten Monats statt der letzten Woche) und führen Sie die Abfrage erneut aus. Ausführliche Informationen finden Sie unter „Filtern von Daten“ weiter unten in diesem Thema.
+Berichte sind so konfiguriert, dass ein Standardsatz von Datensätzen angezeigt wird. Beispielsweise enthält der Bericht über Benutzerregistrierung standardmäßig Benutzerregistrierungsaktivitäten der letzten Woche. Dies kann in manchen Fällen zu einem Bericht ohne Datensätze führen. In diesem Fall bedeutet dies, dass in der letzten Woche keine Benutzerregistrierungen stattgefunden haben. Wenn die Meldung "keine Ergebnisse entsprechen den Bericht filtern" angezeigt wird, versuchen Sie, die Filterwerte zu ändern (beispielsweise ändern Sie den Zeitraum in den letzten Monat statt in der letzten Woche), und führen Sie die Abfrage erneut aus. Ausführliche Informationen finden Sie unter „Filtern von Daten“ weiter unten in diesem Thema.
   
 ## <a name="filtering-data"></a>Filtern von Daten
 

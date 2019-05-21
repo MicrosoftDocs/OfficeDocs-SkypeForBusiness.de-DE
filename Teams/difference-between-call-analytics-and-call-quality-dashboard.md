@@ -12,7 +12,7 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,89 +20,89 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: Informationen Sie zu Analytics aufrufen und Qualitätsdashboard aufrufen und verwenden sie zur Überwachung und Problembehandlung Anrufqualität.
-ms.openlocfilehash: 6165a4473e8770e20a595e368402ff1cf5bfe6e0
-ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
+description: Erfahren Sie mehr über die anrufanalyse und das Anruf Qualitäts Dashboard, und wann Sie diese verwenden können, um Probleme mit der Anrufqualität zu überwachen und zu beheben.
+ms.openlocfilehash: bf16cd9a2cb23ebf22e08680132b5c5d7e5a94a8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34082738"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281878"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Anrufanalyse- und Anrufqualitäts-Dashboard
 
-Microsoft-Teams und Skype für Unternehmen bieten Ihnen zwei Möglichkeiten zur Überwachung und Problembehandlung Anrufqualität: Analytics aufrufen, und rufen Sie Quality Dashboard (CQD). In diesem Artikel werden beide Methoden beschrieben, und Sie erfahren, welche Sie jeweils verwenden sollten.
+Microsoft Teams und Skype for Business bieten Ihnen zwei Möglichkeiten, um Probleme mit der Anrufqualität zu überwachen und zu beheben: anrufanalyse und Anruf Qualitäts Dashboard (CQD). In diesem Artikel werden beide Methoden beschrieben, und Sie erfahren, welche Sie jeweils verwenden sollten.
 
-Die Anrufanalyse und das Anrufqualitätsdashboard werden parallel ausgeführt und können unabhängig voneinander oder zusammen verwendet werden. Angenommen Sie, ein Communications Supportspezialisten bestimmt, dass sie einen Anruf Problembehandlung Weitere Hilfe benötigen. Der Communications-Supportspezialisten übergibt den Anruf an einen Supportmitarbeiter Communications, wer hat Zugriff auf Weitere Informationen im Analytics rufen Sie die Kommunikation Specialist unterstützt. Infolgedessen kann der Supporttechniker Communications Netzwerktechniker auf ein Problem benachrichtigen. Die Netzwerktechniker kann CQD, um festzustellen, ob eine allgemeine Problem im Zusammenhang mit der Website die Mitwirkenden Ursache für Anruf Probleme sein konnte überprüfen.
+Die Anrufanalyse und das Anrufqualitätsdashboard werden parallel ausgeführt und können unabhängig voneinander oder zusammen verwendet werden. Angenommen, ein Spezialist für Kommunikations Support stellt fest, dass er weitere Hilfe bei der Behandlung eines Anruf Problems benötigt. Der Support-Spezialist für Kommunikation leitet den Anruf an einen Communications Support Engineer weiter, der Zugriff auf Weitere Informationen in der anrufanalyse hat als der Spezialist für Kommunikationsunterstützung. Der Communications Support Engineer kann einen Netzwerktechniker wiederum auf ein Problem hinweisen. Der Netzwerkingenieur kann CQD überprüfen, ob ein Problem mit der allgemeinen Website eine Ursache für Anruf Probleme sein könnte.
 
 ## <a name="whats-call-analytics-and-when-should-i-use-it"></a>Was ist die Anrufanalyse, und wann sollte ich sie verwenden?
 
-**Anruf Analytics ist jetzt in der [Microsoft-Teams, Administrationscenter](https://admin.teams.microsoft.com)verfügbar.** Um alle diese Informationen und Daten für einen Benutzer anzuzeigen, verwenden Sie die Registerkarte **Anrufverlauf** . Hierzu können Sie auf der Profilseite des Benutzers suchen, indem Sie entweder suchen für den Benutzer aus dem Dashboard, oder suchen den Benutzer von **Benutzern** im linken Navigationsbereich.
+**Die anrufanalyse steht jetzt im [Microsoft Teams Admin Center](https://admin.teams.microsoft.com)zur Verfügung.** Verwenden Sie die Registerkarte **Anrufverlauf** , um alle Anrufinformationen und Daten für einen Benutzer anzuzeigen. Sie können dies tun, indem Sie auf der Profilseite des Benutzers nach dem Benutzer im Dashboard suchen oder den Benutzer in der linken Navigationsleiste nach **Benutzern** suchen.
 
-Anruf Analytics zeigt detaillierte Informationen zu den Geräten, Netzwerke und im Zusammenhang mit der bestimmte Aufrufe und Besprechungen für jeden Benutzer in einem Microsoft-Teams oder Skype für Konto Business Connectivity. Warum diese Benutzer einen Anruf schlechter Qualität dieses Tag? Analytics anrufen verwenden, kann ein Office 365 Admin oder geschult Helpdesk-Agent des Geräts, Netzwerk, Konnektivität und anderen Faktoren im Zusammenhang mit seinen Anruf von Anruf Qualität und Verbindung Problemen in Microsoft-Teams und Skype für Business überprüfen.
+In der anrufanalyse werden detaillierte Informationen zu den Geräten, Netzwerken und Verbindungen zu den spezifischen anrufen und Besprechungen für jeden Benutzer in einem Microsoft Teams-oder Skype for Business-Konto angezeigt. Warum hat dieser Benutzer heute Nachmittag einen schlechten Anruf? Mithilfe der anrufanalyse kann ein Office 365-Administrator oder ein ausgebildeter Helpdesk-Agent das Gerät, das Netzwerk, die Konnektivität und andere Faktoren untersuchen, die sich auf seinen Anruf zur Behandlung von Anrufqualität und Verbindungsproblemen in Microsoft Teams und Skype for Business beziehen.
 
-Wenn Sie diese Informationen für einen Benutzer in der Microsoft-Teams-Verwaltungskonsole angezeigt wird, klicken Sie auf der Registerkarte **Anrufverlauf** für diesen Benutzer auf der Seite Benutzer Detail zeigt alle Anrufe und Besprechungen, dass der Benutzer in den letzten 30 Tagen teilgenommen hat.
+Wenn Sie diese Informationen für einen Benutzer im Microsoft Teams Admin Center anzeigen möchten, klicken Sie auf der Seite Benutzerdetail auf die Registerkarte **Anrufverlauf** für diesen Benutzer, und zeigt alle Anrufe und Besprechungen an, an denen der Benutzer während der letzten 30 Tage teilgenommen hat.
 
-![Rufen Sie Analytics Benutzerdaten.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
+![Rufen Sie Analytics-Benutzerdaten auf.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
-Wenn Sie weitere Informationen zu einer bestimmten Sitzung einschließlich detaillierte Medien und Netzwerke Statistiken erhalten möchten, klicken Sie auf eine Sitzung, um die Details anzuzeigen.
+Wenn Sie weitere Informationen zu einer bestimmten Sitzung einschließlich detaillierter Medien-und Netzwerkstatistiken erhalten möchten, klicken Sie auf eine Sitzung, um die Details anzuzeigen.
 
-![Rufen Sie Analytics Benutzersitzungsdaten.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
+![Anrufanalyse-Benutzersitzungsdaten.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
-Nicht-Administratoren, beispielsweise einen externen Anbieter, Helpdesk-Agents auf Wunsch können zum Aufrufen, Analyse, verwenden Sie Berechtigungen zuweisen, damit Analytics aufrufen können, dieser Zugriff jedoch nicht den Rest von der Microsoft-Teams-Verwaltungskonsole: 
+Wenn Sie nicht-Administratoren wie Helpdesk-Agents eines externen Anbieters die Verwendung von Anruf Analysen verwenden möchten, können Sie Berechtigungen zuweisen, damit Sie die anrufanalyse verwenden können, aber nicht auf das restliche Microsoft Teams Admin Center zugreifen können: 
   
-- **Helpdesk-Agents mit Communications unterstützen Specialist Berechtigungen**: Agents finden Sie unter eine begrenzte Auswahl von Daten und personenbezogene Informationen (PII) in Analytics aufrufen. Sie können Anrufe Problembehandlung, aber sie werden Probleme bei Besprechungen an einen Supporttechniker Communications übergeben.
+- **Helpdesk-Agents mit Berechtigungen für Communications Support Specialist**: Agents sehen eine begrenzte Anzahl von Daten und personenbezogene Informationen (PII) in der anrufanalyse. Sie können Probleme mit anrufen beheben, aber Sie werden Probleme mit Besprechungen an einen Kommunikations Supporttechniker weitergeben.
     
-- **Helpdesk-Agents mit Communications unterstützen Engineer Berechtigungen**: Agents finden Sie unter alle verfügbaren Daten in Analytics aufrufen und Problembehandlung bei Anrufen und Besprechungen. Sie haben Vollzugriff auf Anruflisten und Kundeninformationen.
+- **Helpdesk-Agents mit Berechtigungen für Communications Support Engineer**: Agents sehen alle verfügbaren Daten in der anrufanalyse und behandeln sowohl Anrufe als auch Besprechungen. Sie haben Vollzugriff auf Anruflisten und Kundeninformationen.
 
 > [!NOTE]
-> Die Rolle des Supports Specialist von Communications entspricht Rolle des Supports von Stufe 1 über das Portal Preview und die Kommunikation Support Engineer Rolle entspricht Rolle des Supports von Tier 2 über das Portal Preview.
+> Die Rolle "Kommunikations Unterstützungs Spezialist" entspricht der Support Rolle "Stufe 1" im Preview-Portal, und die Rolle des Kommunikations Support Ingenieurs entspricht der Support Rolle der Stufe 2 aus dem Preview-Portal.
 
-Weitere Informationen zu den Communications Supportspezialisten und Kommunikation unterstützen Engineer Rollen finden Sie [Administratorrollen zum Verwalten von Teams verwenden Microsoft-Teams](using-admin-roles.md).
+Weitere Informationen zu den Rollen für Communications Support Specialist und Communications Support Engineer finden Sie unter [Verwenden von Microsoft Teams-Administratorrollen zum Verwalten von Teams](using-admin-roles.md).
 
 > [!IMPORTANT]
-> Helpdesk-Agent-Berechtigungen und Hochladen der Netzwerk-Topologie sind im Microsoft-Teams, Administrationscenter verfügbar. Supportmitarbeitern Communications und Communications Supporttechniker können dieses Portal Analytics aufrufen und das Aufrufen Qualitätsdashboard zugreifen.
+> Helpdesk-Agent-Berechtigungen und Upload der Netzwerktopologie stehen im Microsoft Teams Admin Center zur Verfügung. Kommunikations Supportspezialisten und Kommunikations Supporttechniker können dieses Portal verwenden, um auf die anrufanalyse und das Dashboard für die Anrufqualität zuzugreifen.
     
-Details zum Einrichten der Anrufanalyse finden Sie unter [Einrichten der Anrufanalyse von Skype for Business](set-up-call-analytics.md). Weitere Informationen zur Funktionsweise von Helpdesk-Agents mit Analysen aufrufen können finden Sie unter [Verwendung aufrufen Analytics für die Problembehandlung bei schlechter Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md).
+Details zum Einrichten der Anrufanalyse finden Sie unter [Einrichten der Anrufanalyse von Skype for Business](set-up-call-analytics.md). Weitere Informationen dazu, wie Helpdesk-Agents mit der anrufanalyse arbeiten können, finden Sie unter [Verwenden von Anruf Analysen zur Behandlung schlechter Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md).
   
 ## <a name="whats-the-call-quality-dashboard-and-when-should-i-use-it"></a>Was ist das Anrufqualitätsdashboard, und wann sollte ich es verwenden?
   
-Analytics aufrufen soll helfen, Administratoren und Helpdesk-Agents Problembehandlung Anrufqualität für bestimmte Aufrufe-aufrufen Quality Dashboard (CQD) soll helfen, Teams Admins, Skype für Business-Admins und Netzwerktechniker Optimieren der Leistung von einem Netzwerk. CQD verschiebt den Fokus von bestimmten Benutzern und stattdessen untersucht aggregierte Informationen für eine ganze Teams oder Skype für Business-Organisation. Weitere Informationen finden Sie unter [Features des Dashboards Qualität Aufrufen für Teams und Skype für Business Online](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD).
+Während die anrufanalyse dazu dient, Administratoren und Helpdesk-Agents bei der Behandlung von Problemen mit der Anrufqualität bei bestimmten anrufen zu unterstützen, wurde das Anruf Qualitäts Dashboard (CQD) entwickelt, um Teams-Administratoren, Skype for Business-Administratoren und Netzwerk Ingenieuren zu helfen, ein Netzwerk zu optimieren. CQD verschiebt den Fokus von bestimmten Benutzern und sucht stattdessen aggregierte Informationen für ein gesamtes Team oder eine Skype for Business-Organisation. Weitere Informationen finden Sie unter [Features des Anruf Qualitäts Dashboards für Teams und Skype for Business Online](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD).
   
-Möglicherweise ist der Benutzer Anrufe schlechter Qualität Qualität aufgrund ein Problem mit der, die auch zahlreiche andere Benutzer auswirkt. Die Erfahrung einzelner Anruf nicht in CQD sichtbar ist, aber die allgemeine Qualität der Anrufe, die mithilfe von Microsoft-Teams oder Skype für Unternehmen werden erfasst. Durch das Anrufqualitätsdashboard können allgemeine Muster sichtbar werden, die Netzwerktechnikern fundierte Bewertungen der Anrufqualität ermöglichen. CQD bietet Berichte über die Anruf-Qualitätsmetriken, mit denen Sie Einblicke in insgesamt Qualität, Server-Client-Streams, Client-Client-Streams und Sprachqualität [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)aufrufen.
+Die schlechte Anrufqualität des Benutzers ist vielleicht auf ein Netzwerkproblem zurückzuführen, das auch viele andere Benutzer betrifft. Die individuelle Anruf Erfahrung wird in CQD nicht angezeigt, aber die Gesamtqualität der Anrufe, die über Microsoft Teams oder Skype for Business getätigt werden, wird erfasst. Durch das Anrufqualitätsdashboard können allgemeine Muster sichtbar werden, die Netzwerktechnikern fundierte Bewertungen der Anrufqualität ermöglichen. CQD stellt Berichte über Anruf Qualitäts Metriken bereit, mit denen Sie Einblicke in die allgemeine Anrufqualität, Server-Client-Streams, Client-Client-Streams und [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)für die Sprachqualität erhalten.
   
-![Screenshot des Anrufqualität Dashboard. Registerkarten dargestellt sind allgemeine Anrufqualität - Client, Client - Server-Client und VoIP Qualität Vereinbarung zum SERVICELEVEL.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
+![Screenshot des Dashboards für die Anrufqualität. Angezeigte Registerkarten sind die allgemeine Anrufqualität, Server-Client-, Client-Client-und Sprachqualität-SLA.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-Mit der Hilfe CQDs Location-Enhanced Berichte können aggregierte Anrufqualität und Zuverlässigkeit innerhalb des Benutzers zum Erstellen von bewertet werden, um festzustellen, ob das Problem zu einem einzelnen Benutzer isoliert wird oder wirkt sich auf einer größeren Benutzersegment.
+Mithilfe der Standort optimierten Berichte von CQD können aggregierte Anrufqualität und Zuverlässigkeit im Gebäude des Benutzers ermittelt werden, um festzustellen, ob das Problem für einen einzelnen Benutzer isoliert ist oder ein größeres Segment von Benutzern betrifft.
 
-![Screenshot des Anrufqualität Dashboard Speicherort mit erhöhter Berichte. Registerkarten dargestellt sind Übersicht, Gebäude - verkabelt, Gebäude - WiFi und Mobile (LZF). Ein Filter wird angewendet, um die Datenströme in einem bestimmten Gebäude anzuzeigen.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
+![Screenshot der Standort optimierten Berichte des Anruf Qualitäts Dashboards Angezeigte Reiter sind Übersicht, Gebäude-Wired, Gebäude-WLAN und Mobile (LTE). Es wird ein Filter angewendet, um die Datenströme in einem bestimmten Gebäude anzuzeigen.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
-> Um Gebäude oder Endpunkt-spezifische Ansichten in CQD zu aktivieren, müssen ein Administrator auf CQDs Mandanten Datenupload Seite [Informationen zum Erstellen von oder Endpunkt hochladen](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) . 
+> Damit Gebäude-oder Endpunkt spezifische Ansichten in CQD aktiviert werden können, muss ein Administrator [Gebäude-oder Endpunktinformationen](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) auf der CQD-Seite "Mandantendaten hochladen" hochladen. 
 
-Nicht-Administratoren, wie etwa Helpdesk-Agents auf Wunsch können zum Aufrufen Dashboard für die Qualität, verwenden Sie diese Benutzer die Rolle **Teams Communications Supporttechniker**, **Teams Communications Supportspezialisten**oder **Leser von Berichten** zuweisen. Benutzer mit den folgenden Rollen können aufrufen Qualitätsdashboard zugreifen:
+Wenn Sie nicht-Administratoren wie Helpdesk-Agents die Verwendung des Dashboards für die Anrufqualität verwenden möchten, können Sie diesen Benutzern den **Teams Communications Support Engineer**, **Team Communications Support Specialist**oder die Rolle " **berichtsleser** " zuweisen. Benutzer mit den folgenden Rollen können auf das Dashboard für die Anrufqualität zugreifen:
 
 - Globaler Administrator
 - Globaler Leser
-- Skype für Business-Administratoren
+- Skype for Business-Administrator
 - Teams-Dienstadministrator
 - Teams-Kommunikationsadministrator
 - Teams-Kommunikationssupporttechniker
-- Teams Communications-Supportspezialisten
-- Leser von Berichten
+- Teams Communications-Support Spezialist
+- Berichtsleser
 
 > [!NOTE]
-> Die Rollen Teams Communications Supporttechniker, Teams Communications Supportspezialisten und Berichte Reader keine Dateien auf CQDs Mandanten Datenupload Seite ändern oder CQD für einen Mandanten zu aktivieren.
+> Der Team Communications Support Engineer, Team Communications Support Specialist und die Rollen des Berichts Lesers können Dateien auf der CQD-Seite "Mandantendaten hochladen" nicht ändern oder CQD für einen Mandanten aktivieren.
 
 Weitere Informationen zu diesen Rollen finden Sie unter [Informationen zu Office 365-Administratorrollen](/office365/admin/add-users/about-admin-roles).
 
-Weitere Informationen zu CQD finden Sie unter [aktivieren, und rufen Sie Qualitätsdashboard für Microsoft-Teams und Skype für Business Online verwenden](turning-on-and-using-call-quality-dashboard.md) und [Dimensionen und Measures in Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online verfügbar](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Weitere Informationen zu CQD finden Sie unter [aktivieren und Verwenden des Anruf Qualitäts Dashboards für Microsoft Teams und Skype for Business Online](turning-on-and-using-call-quality-dashboard.md) sowie [Dimensionen und Measures, die im Anruf qualitätsdashboard für Microsoft Teams und Skype for Business Online zur Verfügung stehen](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Video: Übersicht über die Qualität aufrufen](https://aka.ms/teams-quality)
+[Video: Übersicht über die Anrufqualität](https://aka.ms/teams-quality)
 
 [Einrichten von Anrufanalyse](set-up-call-analytics.md)
 
 [Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Einschalten und Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online](turning-on-and-using-call-quality-dashboard.md)
+[Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online](turning-on-and-using-call-quality-dashboard.md)

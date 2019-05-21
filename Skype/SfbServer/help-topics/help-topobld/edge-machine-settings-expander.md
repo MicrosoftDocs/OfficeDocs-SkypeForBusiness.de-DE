@@ -5,44 +5,44 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeMachineSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
-description: 'Führen Sie folgende Schritte aus, um die Eigenschaften für einen Server in einem Pool von Edge-Servern zu bearbeiten:'
-ms.openlocfilehash: 997aaafdc4b2193f1f89e433a8c64e88699cecbe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Gehen Sie wie folgt vor, um die Eigenschaften für einen Server in einem Pool von Edge-Servern zu bearbeiten:'
+ms.openlocfilehash: 75be5becb255365922b25a16f8a6004d4b7030c5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915178"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302294"
 ---
 # <a name="edge-machine-settings-expander"></a>Edgecomputereinstellungen – Erweiterung
  
-Führen Sie folgende Schritte aus, um die Eigenschaften für einen Server in einem Pool von Edge-Servern zu bearbeiten:
+Gehen Sie wie folgt vor, um die Eigenschaften für einen Server in einem Pool von Edge-Servern zu bearbeiten:
   
-Der **interne Name oder FQDN** kann durch Bearbeiten der vollqualifizierte Domänenname (FQDN) geändert werden. Der FQDN muss der Domain Name System (DNS) Host (A)-Einträge und der Antragstellername des Zertifikats an den Server für die interne Schnittstelle des Edgeservers Netzwerk zugewiesen übereinstimmen. Der Wert der **internen IP-Adresse** definiert die IP-Adresse, die die Netzwerkschnittstelle zugewiesen ist, die als internes Netzwerk, relativ zu den Perimeter Network Entwurf definiert ist.
+Der **interne Name oder FQDN** kann geändert werden, indem Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) bearbeiten. Der FQDN muss mit dem Domänennamen-Host (A)-Eintrag (Domain Name System) und dem Antragstellernamen des Zertifikats übereinstimmen, das dem Server für die interne Edge-Netzwerkschnittstelle zugewiesen ist. Der Wert der **internen IP-Adresse** definiert die IP-Adresse, der die Netzwerkschnittstelle zugeordnet ist, die im Verhältnis zum Umkreisnetzwerk Entwurf als internes Netzwerk definiert ist.
   
-Die nächsten drei Abschnitte des Dialogfelds definieren Sie die IP-Adressen für die externe Konfiguration von dieser Edge-Server. Die Möglichkeit zum Ändern der IP-Adressen wird durch die Einstellung beeinflusst **Enable separaten FQDN und IP-Adressen für Webkonferenzen und A / V** auf die Einstellungen der Eigenschaften auf dem Edge-Server-pool-Ebene.
+In den nächsten drei Abschnitten des Dialogfelds werden die IP-Adressen für die externe Konfiguration dieses Edgeserver definiert. Die Möglichkeit zum Ändern der IP-Adressen ist von der Einstellung **Aktivieren des separaten FQDN und der IP-Adresse für Webkonferenzen und A/V** in den Eigenschafteneinstellungen auf der Poolebene des Edge-Servers betroffen.
   
 ## <a name="sip-access"></a>SIP-Zugriff
 
-Bearbeiten Sie die externe IP-Adresse, die auf die Netzwerkschnittstelle des Zugriffs durch Session Initiation Protocol (SIP) zugewiesen ist. Diese IP-Adresse kann entweder eine öffentliche IP-Adresse oder eine Adresse in der privaten IP-Adressbereich sein.
+Bearbeiten Sie die externe IP-Adresse, die der Netzwerkschnittstelle für den SIP-Zugriff (Session Initiation Protocol) zugewiesen ist. Bei dieser IP-Adresse kann es sich entweder um eine öffentliche IP-Adresse oder eine Adresse im privaten IP-Adressbereich handeln.
   
 > [!NOTE]
-> Wenn die Einstellung **Aktivieren separaten FQDN und IP-Adressen für Webkonferenzen und A / V** im Pool Einstellungsseite aktiviert ist, der nur die IP-Adresse für den SIP-Zugriff für die Bearbeitung zur Verfügung stehen.
+> Wenn die Einstellung **separater FQDN und IP-Adresse für Webkonferenzen und A/V** auf der Seite Pooleinstellungen aktivieren aktiviert ist, steht nur die IP-Adresse für den SIP-Zugriff zur Bearbeitung zur Verfügung.
   
 ## <a name="web-conferencing"></a>Webkonferenzen
 
-Bearbeiten Sie die externe IP-Adresse, die auf die Netzwerkschnittstelle für Webkonferenzen zugewiesen ist. Diese IP-Adresse kann es sich um eine öffentliche IP-Adresse oder eine Adresse in der privaten IP-Adressbereich sein.
+Bearbeiten Sie die externe IP-Adresse, die der Netzwerkschnittstelle für Webkonferenzen zugewiesen ist. Bei dieser IP-Adresse kann es sich entweder um eine öffentliche IP-Adresse oder eine Adresse im privaten IP-Adressbereich handeln.
   
-## <a name="audiovideo"></a>Audio-Video
+## <a name="audiovideo"></a>Audio/Video
 
-Bearbeiten Sie die externe IP-Adresse, die die Netzwerkschnittstelle für Audio/Video zugeordnet ist (A / V). Diese IP-Adresse kann es sich um eine öffentliche IP-Adresse oder eine Adresse in der privaten IP-Adressbereich sein.
+Bearbeiten Sie die externe IP-Adresse, die der Netzwerkschnittstelle für Audio/Video (A/V) zugewiesen ist. Bei dieser IP-Adresse kann es sich entweder um eine öffentliche IP-Adresse oder eine Adresse im privaten IP-Adressbereich handeln.
   
-Die Einstellung für **NAT-aktivierte öffentliche IP-Adresse verwendet,** lautet der öffentlichen Adresse wird von der externen Schnittstelle für die entweder die A / V Netzwerk-Schnittstelle oder der Edge-Server in der Regel. Wenn die Einstellung **Aktivieren separaten FQDN und IP-Adressen für Webkonferenzen und A / V** ist aktiviert, wird diese öffentliche IP-Adresse für alle drei externen Schnittstellen verwendet.
+Die Einstellung für die **verwendete NAT-aktivierte öffentliche IP-Adresse** ist die öffentliche Adresse, die von der externen Schnittstelle für die A/V-Netzwerkschnittstelle oder den Edgeserver im Allgemeinen verwendet wird. Wenn die Einstellung **separater FQDN und IP-Adresse für Webkonferenzen aktivieren und A/V** aktiviert ist, wird diese öffentliche IP-Adresse für alle drei externen Schnittstellen verwendet.
   
 

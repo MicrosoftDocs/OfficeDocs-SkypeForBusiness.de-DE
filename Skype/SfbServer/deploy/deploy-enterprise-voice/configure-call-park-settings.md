@@ -1,10 +1,10 @@
 ---
-title: Konfigurieren des Parkens von Anrufen Einstellungen in Skype für Unternehmen
+title: Konfigurieren von Einstellungen für den Anruf Park in Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,19 +13,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-description: Ändern des Parkens von Anrufen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 2f833e956f09213f1dfa3da440a6c6d9b17fa6b2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Ändern Sie die Einstellungen für den Anruf Park in Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: c456a519fc9f567bdef812adc533adaf03c4360a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893070"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303390"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business"></a>Konfigurieren des Parkens von Anrufen Einstellungen in Skype für Unternehmen
+# <a name="configure-call-park-settings-in-skype-for-business"></a>Konfigurieren von Einstellungen für den Anruf Park in Skype for Business
 
-Ändern des Parkens von Anrufen in Skype für Business Server Enterprise-VoIP.
+Ändern Sie die Einstellungen für den Anruf Park in Skype for Business Server Enterprise Voice.
 
-Wenn Sie nicht Parken Standardeinstellungen verwenden möchten, können Sie diese anpassen. Bei der Installation der Anwendung zum Parken werden globale Einstellungen standardmäßig konfiguriert. Sie können die globalen Einstellungen ändern und außerdem standortspezifische Einstellungen angeben. Verwenden Sie das Cmdlet **New-CsCpsConfiguration**, um neue standortspezifische Einstellungen zu erstellen. Verwenden Sie das Cmdlet **Set-CsCpsConfiguration**, um vorhandene Einstellungen zu ändern.
+Wenn Sie die Standardeinstellungen für den Anruf Park nicht verwenden möchten, können Sie diese anpassen. Wenn Sie die Anwendung zum Parken von Anrufen installieren, werden standardmäßig die globalen Einstellungen konfiguriert. Sie können die globalen Einstellungen ändern und außerdem standortspezifische Einstellungen angeben. Verwenden Sie das Cmdlet **New-CsCpsConfiguration**, um neue standortspezifische Einstellungen zu erstellen. Verwenden Sie das Cmdlet **Set-CsCpsConfiguration**, um vorhandene Einstellungen zu ändern.
 
 > [!NOTE]
 > Es wird empfohlen, mindestens die Option **OnTimeoutURI** zu konfigurieren, um ein Fallbackziel anzugeben, das bei Auftreten einer Zeitüberschreitung für geparkte Anrufe und bei erfolglosen Rückrufversuchen verwendet wird.
@@ -40,7 +40,7 @@ Verwenden Sie das Cmdlet **New-CsCpsConfiguration** oder das Cmdlet **Set-CsCpsC
 | **MaxCallPickupAttempts** <br/>      | Die Anzahl von Rückrufversuchen, die für einen geparkten Anruf bei dem Telefon erfolgt, an dem der Anruf entgegengenommen wurde, bevor der Anruf an den Fallback-URI (Uniform Resource Identifier) weitergeleitet wird, der für **OnTimeoutURI** angegeben ist. Der Standardwert ist 1.<br/>                                                                                                                         |
 | **OnTimeoutURI** <br/>               | Die SIP-Adresse des Benutzers oder der Reaktionsgruppe, an die ein nicht beantworteter geparkter Anruf geroutet wird, wenn **MaxCallPickupAttempts** überschritten wird. <br/> Bei diesem Wert muss es sich um einen SIP-URI handeln, der mit „sip:“ beginnt. Beispiel: sip:bob@contoso.com. In der Standardeinstellung ist keine Weiterleitungsadresse angegeben.<br/>                                                   |
 
-### <a name="to-configure-call-park-settings"></a>So konfigurieren Sie Einstellungen für das Parken von Anrufen
+### <a name="to-configure-call-park-settings"></a>So konfigurieren Sie die Einstellungen für den Anruf Park
 
 1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
 
@@ -51,7 +51,7 @@ Verwenden Sie das Cmdlet **New-CsCpsConfiguration** oder das Cmdlet **Set-CsCpsC
    ```
 
    > [!TIP]
-   > Verwenden Sie das Cmdlet **Get-CsSite**, um den Standort zu ermitteln. Weitere Informationen hierzu finden Sie unter Skype Dokumentation Business Server Management Shell.
+   > Verwenden Sie das Cmdlet **Get-CsSite**, um den Standort zu ermitteln. Ausführliche Informationen finden Sie unter Dokumentation zur Skype for Business Server-Verwaltungsshell.
 
     Beispiel:
 
@@ -63,8 +63,8 @@ Verwenden Sie das Cmdlet **New-CsCpsConfiguration** oder das Cmdlet **Set-CsCpsC
 
 [Anpassen der Wartemusik für das Parken von Anrufen in Skype for Business 2015](customize-call-park-music-on-hold.md)
 
-[New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
+[Neu – CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
 
-[Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
+[Satz-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
 
 [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)

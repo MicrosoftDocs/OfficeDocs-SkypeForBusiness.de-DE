@@ -4,136 +4,136 @@ ms.reviewer: ''
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: .
-ms.openlocfilehash: a51c17e1f7b58e901c943ad8e8e8b9312bad9f74
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2848261164ac568d3db4dd05160b7e50ec3981d3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903362"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303889"
 ---
-# <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Stets über, ansonsten einen Pool in Skype für Business Server 
+# <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Fehler beim Failover und Zurücksetzen eines Pools in Skype for Business Server 
 
-Gehen Sie folgendermaßen vor, wenn ein einzelner Front-End-Pool ist fehlgeschlagen und muss ein Failover oder den Pool, der ausgefallenen wieder online ist und Sie für reguläre Arbeitsstatus Ihrer Bereitstellung wiederherstellen müssen. Auch hier erfahren Sie, wie Sie ein Failover und Failback für den Edge-Pool für Skype für Business verbunden oder XMPP-Verbund verwendet, oder ändern Sie den Edge-Pool einen Front-End-Pool zugeordnet.
+Führen Sie die folgenden Verfahren aus, wenn ein einzelner Front-End-Pool fehlerhaft ist und ein Failover durchgeführt werden muss, oder wenn der Pool, in dem der Notfall aufgetreten ist, wieder online ist und Sie Ihre Bereitstellung auf normalen Arbeitsstatus wiederherstellen müssen. Sie erfahren außerdem, wie Sie den für Skype for Business Federation oder XMPP Federation verwendeten Edge-Pool für Failover und Failback zurücksetzen oder den Edge-Pool ändern, der einem Front-End-Pool zugeordnet ist.
 
-- [Ausführen eines Failovers eines Front-End-Pools](#fail-over-a-front-end-pool)
-- [Führen einen Sie Failback eines Pools](#fail-back-a-pool)
-- [Ein Failover des edgepools für Skype für den Verbund Business Server](#fail-over-the-edge-pool-used-for-skype-for-business-server-federation)
-- [Ein Failover des edgepools für XMPP-Verbund in Skype für Business Server](#fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server)
-- [Failover des edgepools für Skype für Business Server- oder XMPP-Verbund](#fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation)
-- [Ändern des Edge-Pools einen Front-End-Pool zugeordnet](#change-the-edge-pool-associated-with-a-front-end-pool)
+- [Failover eines Front-End-Pools](#fail-over-a-front-end-pool)
+- [Zurücksetzen eines Pools](#fail-back-a-pool)
+- [Failover des für den Skype for Business Server-Verbund verwendeten Edge-Pools](#fail-over-the-edge-pool-used-for-skype-for-business-server-federation)
+- [Failover des für die XMPP-Föderation verwendeten Edge-Pools in Skype for Business Server](#fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server)
+- [Zurücksetzen des Edge-Pools, der für Skype for Business Server Federation oder XMPP Federation verwendet wird](#fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation)
+- [Ändern des Edge-Pools, der einem Front-End-Pool zugeordnet ist](#change-the-edge-pool-associated-with-a-front-end-pool)
 
-## <a name="fail-over-a-front-end-pool"></a>Ausführen eines Failovers eines Front-End-Pools
+## <a name="fail-over-a-front-end-pool"></a>Failover eines Front-End-Pools
 
-In diesem Verfahren Datacenter1 enthält Pool1 und Pool1 ist fehlgeschlagen. Sie sind auf Pool2 befindet sich im Datacenter2 Failovervorgängen.
+In diesem Verfahren enthält Datacenter1 pool1, und pool1 ist fehlgeschlagen. Sie haben einen Failover zu Pool2 befindet sich in Datacenter2.
 
-Die meisten Aufgaben für den poolfailover umfasst Failover des zentralen Verwaltungsspeichers, wenn es erforderlich ist. Dies ist wichtig, da des zentralen Verwaltungsspeichers funktionsfähig sein muss, wenn die Benutzer des Pools ein Failover ausgeführt werden.
+Der größte Teil der Arbeit für das Pool-Failover umfasst einen Failover des zentralen Verwaltungsspeichers, falls dies erforderlich ist. Dies ist wichtig, da der zentrale Verwaltungsspeicher funktionsfähig sein muss, wenn die Benutzer des Pools fehlerhaft sind.
 
-Darüber hinaus muss bei ein Front-End-Pool Fehler auftreten, aber der Edge-Pool an diesem Standort weiterhin ausgeführt wird, wissen, ob der Edge-Pool den ausgefallenen Pool als nächsten hoppool verwendet wird. Wenn dies der Fall ist, müssen Sie einen anderen Front-End-Pool vor dem über den fehlerhaften Front-End-Pool verwenden, um den Edge-Pool ändern. Ändern Sie die Einstellung der nächste Hop, hängt davon ab, ob der Rand einen Pool am selben Standort befinden wie der Edge-Pool oder einem anderen Standort verwendet werden.
+Wenn ein Front-End-Pool fehlschlägt, der Edge-Pool an dieser Website jedoch weiterhin ausgeführt wird, müssen Sie wissen, ob der Edge-Pool den fehlerhaften Pool als nächsten Hop-Pool verwendet. Wenn dies der Fall ist, müssen Sie den Edge-Pool so ändern, dass ein anderer Front-End-Pool verwendet wird, bevor der fehlerhafte Front-End-Pool fehlschlägt. Wie Sie die Einstellung für den nächsten Hop ändern, hängt davon ab, ob der Edge-Pool am gleichen Standort wie der Edge-Pool oder auf einer anderen Website verwendet wird.
 
-**Festlegen ein Edge-Pools einen nächsten hoppool am selben Standort verwenden**
+**So stellen Sie einen Edge-Pool für die Verwendung eines Next Hop-Pools auf derselben Website ein**
 
-1.  Öffnen Sie den Topologie-Generator rechten Maustaste auf den Edge-Pool, der geändert werden soll, und klicken Sie auf **Eigenschaften bearbeiten**.
+1.  Öffnen Sie den Topologie-Generator, klicken Sie mit der rechten Maustaste auf den zu ändernden Edge-Pool, und klicken Sie auf **Eigenschaften bearbeiten**.
 
-2.  Klicken Sie auf **Nächster Hop**. Aus der **Nächster hoppool:** , wählen Sie den Pool der jetzt als den nächsten hoppool dienen soll.
+2.  Klicken Sie auf **Nächster Hop**. Wählen Sie in der Liste **Nächster Hop-Pool:** den Pool aus, der nun als nächster Hop-Pool fungieren soll.
 
 3.  Klicken Sie auf **OK**, und veröffentlichen Sie die Änderungen.
 
-**Festlegen ein Edge-Pools einen nächsten hoppool an einem anderen Standort verwenden**
+**So stellen Sie einen Edge-Pool für die Verwendung eines Next Hop-Pools an einer anderen Website ein**
 
-1.  Öffnen Sie einen Skype für Business Server-Verwaltungsshell-Fenster, und geben Sie das folgende Cmdlet:
+1.  Öffnen Sie ein Skype for Business Server-Verwaltungsshell-Fenster, und geben Sie das folgende Cmdlet ein:
     
         Set-CsEdgeServer -Identity EdgeServer:<Edge Server pool FQDN> -Registrar Registrar:<NextHopPoolFQDN>
 
-**Failover eines Pools im Notfall**
+**So führen Sie einen Failover eines Pools in einem Notfall durch**
 
-1.  Suchen Sie nach dem Pool den Host für den zentralen Verwaltungsserver ist, indem Sie das folgende Cmdlet auf einem Front-End-Server in Pool2 eingeben:
+1.  Ermitteln Sie, welcher Pool der Host für den zentralen Verwaltungsserver ist, indem Sie das folgende Cmdlet auf einem Front-End-Server in Pool2 eingeben:
     
         Invoke-CsManagementServerFailover -Whatif
     
-    Die Ergebnisse der dieses Cmdlet anzeigen, welcher Pool den zentralen Verwaltungsserver derzeit gehostet wird. Die restlichen Schritte dieses Verfahrens in diesem Pool wird CMS genannt\_Pool.
+    Die Ergebnisse dieses Cmdlets zeigen, in welchem Pool zurzeit der zentrale Verwaltungs Server gehostet wird. Im weiteren Verlauf dieses Verfahrens wird dieser Pool als "CMS\_-Pool" bezeichnet.
 
-2.  Topologie-Generator verwenden, um die Version von Skype für Business Server, auf dem zentralen Verwaltungsspeicher finden\_Pool. Wenn es Skype für Business Server ausgeführt wird, verwenden Sie das folgende Cmdlet, um den Sicherungspool Pool 1 suchen.
+2.  Verwenden Sie den Topologie-Generator, um die Version von Skype for Business Server zu\_finden, die im CMS-Pool ausgeführt wird. Wenn Skype for Business Server ausgeführt wird, verwenden Sie das folgende Cmdlet, um den Sicherungspool von Pool 1 zu finden.
     
         Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
     
-    Lassen Sie Sicherung\_Pool den Sicherungspool ausgeführt werden.
+    Lassen Sie\_den Backup-Pool zum Backup-Pool werden.
 
 3.  Überprüfen Sie den Status des zentralen Verwaltungsspeichers mit dem folgenden Cmdlet:
     
         Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
     
-    Dieses Cmdlet sollte angezeigt werden, dass sowohl "ActiveMasterFQDN" auch "activefiletransferagents" mit dem FQDN des CMS zeigen\_Pool. Wenn sie leer sind, den zentralen Verwaltungsserver ist nicht verfügbar, und Sie müssen Sie als ein Failover.
+    Dieses Cmdlet sollte anzeigen, dass sowohl ActiveMasterFQDN als auch ActiveFileTransferAgents auf den FQDN des CMS\_-Pools verweisen. Wenn Sie leer sind, steht der zentrale Verwaltungs Server nicht zur Verfügung, und Sie müssen einen Failover durchführen.
 
-4.  Wenn Sie der zentralen Verwaltungsspeicher nicht verfügbar ist oder des zentralen Verwaltungsspeichers auf Pool1 ausgeführt wurde (d. h., den Pool, der ein Fehler aufgetreten ist), müssen Sie den zentralen Verwaltungsserver vor dem Failover, über den Pool. Wenn Sie den zentralen Verwaltungsserver Failover, die in einem Pool mit Skype für Business Server gehostet wurde müssen, verwenden Sie das Cmdlet in Schritt 5 dieses Verfahrens. Wenn Sie nicht den zentralen Verwaltungsserver Failover müssen, fahren Sie mit Schritt 7 fortfahren.
+4.  Wenn der zentrale Verwaltungsspeicher nicht verfügbar ist oder wenn der zentrale Verwaltungsspeicher auf pool1 ausgeführt wurde (also der Pool, bei dem ein Fehler aufgetreten ist), müssen Sie vor dem Failover des Pools einen Failover für den zentralen Verwaltungs Server durchführen. Wenn Sie einen Failover für den zentralen Verwaltungs Server durchführen müssen, der in einem Pool mit Skype for Business Server gehostet wurde, verwenden Sie das Cmdlet in Schritt 5 dieses Verfahrens. Wenn Sie keinen Failover für den zentralen Verwaltungs Server benötigen, fahren Sie mit Schritt 7 dieses Verfahrens fort.
 
-5.  Gehen Sie wie folgt vor, um das Failover des zentralen Verwaltungsspeichers in einem Pool mit Skype für Business Server:
+5.  Gehen Sie wie folgt vor, um einen Failover des zentralen Verwaltungsspeichers in einem Pool mit Skype for Business Server auszuführen:
     
-      - Überprüfen Sie zunächst, welche Back End-Server in Sicherung\_Pool führt die Prinzipalinstanz des zentralen Verwaltungsspeichers, indem Sie Folgendes eingeben:
+      - Überprüfen Sie zunächst, welcher Back-End\_-Server im Sicherungs Pool die Prinzipalinstanz des zentralen Verwaltungsspeichers ausführt, indem Sie Folgendes eingeben:
         
             Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
     
-      - Wenn der primäre Back End-Server in Sicherung\_Pool ist der Prinzipal, Typ:
+      - Wenn der primäre Back-End-Server\_im Sicherungs Pool der Prinzipal ist, geben Sie Folgendes ein:
         
             Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
         
-        Wenn der Spiegel-Back-End-Server in Sicherung\_Pool ist der Prinzipal, Typ:
+        Wenn der Spiegelungs-Back-End\_-Server im Sicherungs Pool der Prinzipal ist, geben Sie Folgendes ein:
         
             Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
     
-      - Überprüfen Sie, dass das Failover des zentralen Verwaltungsservers abgeschlossen ist. Geben Sie Folgendes ein:
+      - Überprüfen Sie, ob der Failover des zentralen Verwaltungsservers abgeschlossen ist. Geben Sie Folgendes ein:
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        Überprüfen Sie, dass sowohl "ActiveMasterFQDN" auch "activefiletransferagents" auf die FQDN Sicherung zeigen\_Pool.
+        Überprüfen Sie, ob sowohl ActiveMasterFQDN als auch ActiveFileTransferAgents auf den FQDN des\_Sicherungs Pools verweisen.
     
       - Überprüfen Sie abschließend den Replikatstatus für alle Front-End-Server, indem Sie Folgendes eingeben:
         
             Get-CsManagementStoreReplicationStatus 
         
-        Überprüfen Sie, dass alle Replikate den Wert True haben.
+        Überprüfen Sie, ob alle Replikate den Wert true aufweisen.
         
         Fahren Sie mit Schritt 7 in diesem Verfahren fort.
 
-6.  Installieren Sie den zentralen Verwaltungsspeicher auf der Back-End Server des\_Pool.
+6.  Installieren Sie den zentralen Verwaltungsspeicher auf dem Back-End-\_Server des Sicherungs Pools.
     
-      - Führen Sie zuerst den folgenden Befehl aus:
+      - Führen Sie zunächst den folgenden Befehl aus:
         
         ``` 
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
-      - Führen den nächsten Befehl auf einem der Front-End-Server der Sicherung\_Pool verschieben des zentralen Verwaltungsspeichers erzwingen:
+      - Führen Sie den nächsten Befehl auf einem der Front-End-Server\_des Sicherungs Pools aus, um den Wechsel des zentralen Verwaltungsspeichers zu erzwingen:
         
             Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force 
     
-      - Überprüfen Sie die Verschiebung abgeschlossen ist:
+      - Überprüfen Sie, ob die Verschiebung abgeschlossen ist:
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        Überprüfen Sie, dass sowohl "ActiveMasterFQDN" auch "activefiletransferagents" auf die FQDN Sicherung zeigen\_Pool.
+        Überprüfen Sie, ob sowohl ActiveMasterFQDN als auch ActiveFileTransferAgents auf den FQDN des\_Sicherungs Pools verweisen.
     
       - Überprüfen Sie den Replikatstatus für alle Front-End-Server, indem Sie Folgendes eingeben:
         
             Get-CsManagementStoreReplicationStatus 
         
-        Überprüfen Sie, dass alle Replikate den Wert True haben.
+        Überprüfen Sie, ob alle Replikate den Wert true aufweisen.
     
-      - Installieren Sie den zentralen Verwaltungsserver-Dienst auf den Rest der Front-End-Server in Sicherung\_Pool. Zu diesem Zweck führen Sie den folgenden Befehl auf allen Front-End-Servern, mit Ausnahme des, mit dem Erzwingen der zentralen Speicher weiter oben in diesem Verfahren verschieben:
+      - Installieren Sie den zentralen Verwaltungs Server Dienst auf den restlichen Front-End-Servern im\_Sicherungs Pool. Führen Sie dazu den folgenden Befehl auf allen Front-End-Servern aus, mit Ausnahme derjenigen, die Sie beim Erzwingen des zentralen Verwaltungsspeichers weiter oben in diesem Verfahren verwendet haben:
         
             Bootstrapper /Setup 
 
-7.  Ausführen eines Failovers der Benutzer von Pool1 zu Pool2, indem Sie das folgende Cmdlet in einen Skype für Business Server-Verwaltungsshell-Fenster ausführen:
+7.  Führen Sie einen Failover der Benutzer von pool1 zu Pool2 durch, indem Sie das folgende Cmdlet in einem Skype for Business Server-Verwaltungsshell-Fenster ausführen:
     
         Invoke-CsPoolFailover -PoolFQDN <Pool1 FQDN> -DisasterMode -Verbose
     
-    Da die Schritte in den vorherigen Teilen dieses Verfahrens zum Überprüfen des Status des zentralen Speicher nicht universelle sind, ist weiterhin eine Möglichkeit, die dieses Cmdlet schlägt fehl, da es sich bei der zentralen Verwaltungsspeicher nicht noch vollständig Failover ausgeführt wird. In diesem Fall müssen Sie beheben des zentralen Verwaltungsspeichers basierend auf Fehlermeldungen, die Sie sehen, und führen Sie dieses Cmdlet erneut aus.
+    Da die Schritte, die in den vorherigen Abschnitten dieses Verfahrens zur Überprüfung des Status des zentralen Verwaltungsspeichers durchgeführt wurden, nicht universell sind, besteht weiterhin die Möglichkeit, dass dieses Cmdlet fehlschlägt, da der zentrale Verwaltungsspeicher noch nicht vollständig fehlerhaft ist. In diesem Fall müssen Sie den zentralen Verwaltungsspeicher basierend auf den angezeigten Fehlermeldungen korrigieren und dieses Cmdlet dann erneut ausführen.
     
-    Wenn Sie die folgende Fehlermeldung angezeigt wird, müssen Sie den Edge-Pool an diesem Standort für die Verwendung von eines anderen Pools als nächsten Hop vor dem über den Pool zu ändern. Weitere Informationen hierzu finden Sie die Verfahren am Anfang dieses Themas.
+    Wenn die folgende Fehlermeldung angezeigt wird, müssen Sie den Edge-Pool auf dieser Website ändern, um einen anderen Pool als nächsten Hop zu verwenden, bevor Sie einen Failover für den Pool durchführen. Ausführliche Informationen finden Sie in den Verfahren am Anfang dieses Themas.
     
         Invoke-CsPoolFailOver : This Front-end pool "pool1.contoso.com" is specified in
         topology as the next hop for the Edge server. Failing over this pool may cause External
@@ -142,125 +142,125 @@ Darüber hinaus muss bei ein Front-End-Pool Fehler auftreten, aber der Edge-Pool
         proceed.
 
 
-## <a name="fail-back-a-pool"></a>Führen einen Sie Failback eines Pools
+## <a name="fail-back-a-pool"></a>Zurücksetzen eines Pools
 
-Nachdem der Pool, der ausgefallenen wieder online ist (d. h., in diesem Beispiel Pool1), gehen Sie folgendermaßen vor Ihrer Bereitstellung in reguläre Arbeitsstatus wiederherstellen.
+Nachdem der Pool, der das Desaster erlebt hat, wieder online ist (also pool1 in diesem Beispiel), führen Sie die folgenden Schritte aus, um die Bereitstellung auf normalen Arbeitsstatus wiederherzustellen.
 
-Beachten Sie, dass der Failback-Prozess einige Zeit in.Zur Orientierung: Erwartungsgemäß dauert dies bei einem Pool mit 20.000 Benutzern bis zu 60 Minuten.
+Beachten Sie, dass der Failback-Vorgang mehrere Minuten in Anspruch nimmt.Zur Orientierung: Erwartungsgemäß dauert dies bei einem Pool mit 20.000 Benutzern bis zu 60 Minuten.
 
-Failback der Benutzer, die wurden die ursprünglich in Pool1 verwaltet und wurde Failover durchgeführt wurde Pool2 durch das folgende Cmdlet eingeben:
+Führen Sie einen Failback für die Benutzer durch, die sich ursprünglich in pool1 begeben haben, und Sie haben ein Failover auf Pool2 durchgeführt, indem Sie das folgende Cmdlet eingegeben haben:
     
     Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
 
-Es sind keine weiteren Schritte erforderlich. Wenn Sie über den zentralen Verwaltungsserver ausgefallen ist, können Sie es in Pool2 lassen.
+Es sind keine weiteren Schritte erforderlich. Wenn Sie einen Fehler über den zentralen Verwaltungs Server ausgeführt haben, können Sie ihn in Pool2 belassen.
 
-## <a name="fail-over-the-edge-pool-used-for-skype-for-business-server-federation"></a>Ein Failover des edgepools für Skype für den Verbund Business Server 
+## <a name="fail-over-the-edge-pool-used-for-skype-for-business-server-federation"></a>Failover des für den Skype for Business Server-Verbund verwendeten Edge-Pools 
 
-Wenn der Edge-Pool, in dem Sie Skype für Business Server den Verbund konfiguriert haben, ausfällt, müssen Sie den Verbund verwenden einen anderen edgepool für den Verbund für die Arbeit ändern.
+Wenn der Edge-Pool, in dem Sie die Skype for Business Server-Föderation konfiguriert haben, ausfällt, müssen Sie die Föderation so ändern, dass ein anderer Edge-Pool für den Verbund verwendet wird.
 
-1.  Öffnen Sie auf einem Front-End-Server-Topologie-Generator. Erweitern Sie **edgepools**, und klicken Sie dann die mit der rechten Maustaste die Edge-Server oder Edge-Server-Pool, der aktuell für den Verbund konfiguriert ist. Wählen Sie **Eigenschaften bearbeiten**.
+1.  Öffnen Sie auf einem Front-End-Server den Topologie-Generator. Erweitern Sie **Edge-Pools**, und klicken Sie dann mit der rechten Maustaste auf den Edge-Server oder den Edgeserver-Pool, der derzeit für den Verbund konfiguriert ist. Wählen Sie **Eigenschaften bearbeiten**aus.
 
-2.  **Bearbeiten von Eigenschaften** unter **Allgemein**deaktivieren Sie **aktivieren den Verbund für diesen edgepool (Port 5061)**. Klicken Sie auf **OK**.
+2.  Deaktivieren Sie in **Eigenschaften bearbeiten** unter **Allgemein** **die Option Föderation für diesen Edge-Pool aktivieren (Port 5061)**. Klicken Sie auf **OK**.
 
-3.  Erweitern Sie **edgepools**, und klicken Sie dann die mit der rechten Maustaste die Edge-Server oder Pool für Edge-Server, die Sie nun für den Verbund verwenden möchten. Wählen Sie **Eigenschaften bearbeiten**.
+3.  Erweitern Sie **Edge-Pools**, und klicken Sie dann mit der rechten Maustaste auf den Edge-Server oder den Edgeserver-Pool, den Sie jetzt für den Verbund verwenden möchten. Wählen Sie **Eigenschaften bearbeiten**aus.
 
-4.  **Eigenschaften bearbeiten** unter **Allgemein**die Option **Partnerverbund für diesen edgepool (Port 5061) aktivieren**. Klicken Sie auf **OK**.
+4.  Wählen Sie in **Eigenschaften bearbeiten** unter **Allgemein** **die Option Föderation für diesen Edge-Pool aktivieren (Port 5061)** aus. Klicken Sie auf **OK**.
 
-5.  Klicken Sie auf **Aktion**, wählen Sie **Topologie**aus, wählen Sie **Veröffentlichen**aus. **Veröffentlichen der Topologie**auf dazu aufgefordert werden, klicken Sie auf **Weiter**. Wenn die Veröffentlichung abgeschlossen ist, klicken Sie auf **Fertig stellen**.
+5.  Klicken Sie auf **Aktion**, wählen Sie **Topologie**aus, und wählen Sie **veröffentlichen**aus. Wenn Sie dazu aufgefordert werden, **die Topologie zu veröffentlichen**, klicken Sie auf **weiter**. Wenn der Veröffentlichungsvorgang abgeschlossen ist, klicken Sie auf **Fertig stellen**.
 
-6.  Öffnen Sie auf dem Edgeserver der Skype für Business Server-Bereitstellungs-Assistenten. Klicken Sie auf **installieren oder aktualisieren Skype für Business Server-System**, und klicken Sie dann auf **einrichten oder Entfernen von Skype für Business Server-Komponenten**. Klicken Sie auf **erneut ausführen**.
+6.  Öffnen Sie auf dem Edgeserver den Assistenten für die Bereitstellung von Skype for Business Server. Klicken Sie auf **Skype for Business Server-System installieren oder aktualisieren**, und klicken Sie dann auf **Setup oder Entfernen von Skype for Business Server-Komponenten**. Klicken Sie **erneut auf Ausführen**.
 
-7.  Klicken Sie auf **Weiter**. Im Fenster Zusammenfassung anzeigen die Aktionen, wie diese ausgeführt werden. Nachdem die Bereitstellung abgeschlossen ist, klicken Sie auf **Protokoll anzeigen** , um die verfügbaren Protokolldateien anzeigen. Klicken Sie auf **Fertig stellen** , um die Bereitstellung abzuschließen.
+7.  Klicken Sie auf **Weiter**. Auf dem Zusammenfassungsbildschirm werden die Aktionen während der Ausführung angezeigt. Nachdem die Bereitstellung abgeschlossen ist, klicken Sie auf **Protokoll anzeigen** , um die verfügbaren Protokolldateien anzuzeigen. Klicken Sie auf **Fertig stellen** , um die Bereitstellung abzuschließen.
     
-    Wenn die Website mit der ausgefallene edgepool Front-End-Server, der noch ausgeführt werden enthält, müssen Sie aktualisieren die Webkonferenzdienst und A / V-Konferenzdienst auf diesen Front-End-Pools verwenden ein Edge-Pools in einer site also weiterhin ausgeführt. 
+    Wenn die Website mit dem fehlerhaften Edge-Pool Front-End-Server enthält, die noch ausgeführt werden, müssen Sie den Webkonferenzdienst und den A/V-Konferenzdienst in diesen Front-End-Pools aktualisieren, um einen Edge-Pool in einer noch ausgeführten Remotewebsite zu verwenden. 
 
- ## <a name="fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server"></a>Ein Failover des edgepools für XMPP-Verbund in Skype für Business Server 
+ ## <a name="fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server"></a>Failover des für die XMPP-Föderation verwendeten Edge-Pools in Skype for Business Server 
 
-In Ihrer Organisation müssen Sie ein Edge-Pool als den Pool für XMPP-Verbund zu verwendenden vorhanden ist. Wenn dieser Pool ausfällt, müssen Sie ein Failover XMPP-Verbund auf einen anderen edgepool verwenden, bevor XMPP-Verbund erneut arbeiten kann.
+In Ihrer Organisation gibt es einen Edge-Pool, der als Pool für XMPP-Föderationen verwendet wird. Wenn dieser Pool ausfällt, müssen Sie die XMPP-Föderation nicht verwenden, um einen anderen Edge-Pool zu verwenden, bevor die XMPP-Föderation wieder funktionieren kann.
 
-Wenn Sie zuerst installieren von Edge-Pools und XMPP-Partnerverbund aktivieren, können Sie externe DNS-SRV-Einträge für alle Ihre Edge-Pools für XMPP-Verbund, statt nur einem Einrichten der Wiederherstellung vereinfachen. Jedem dieser SRV-Datensätze muss eine andere Priorität festgelegt werden. Alle XMPP-Verbund-Datenverkehr wird über den Pool mit der SRV-Eintrag mit der höchsten Priorität. 
+Wenn Sie Edge-Pools zum ersten Mal installieren und die XMPP-Föderation aktivieren, können Sie den Disaster Recovery-Prozess vereinfachen, indem Sie externe DNS-SRV-Einträge für alle Ihre Edge-Pools für XMPP Federation einrichten, und nicht nur eine. Jeder dieser SRV-Einträge muss einen anderen Prioritäts Satz aufweisen. Der gesamte XMPP-Verbunddatenverkehr durchläuft den Pool mit dem SRV-Eintrag mit der höchsten Priorität. 
 
-In der folgenden Prozedur EdgePool1 den Pool der XMPP-Verbund ursprünglich gehostet wird, und EdgePool2 ist der Pool, der XMPP-Verbund jetzt gehostet wird.
+In der folgenden Vorgehensweise ist EdgePool1 der Pool, in dem die XMPP-Föderation ursprünglich gehostet wurde, und EdgePool2 ist der Pool, der nun XMPP-Föderation hostet.
 
 
-### <a name="to-fail-over-the-edge-pool-used-for-xmpp-federation"></a>Failover des edgepools für XMPP-Verbund
+### <a name="to-fail-over-the-edge-pool-used-for-xmpp-federation"></a>So führen Sie einen Failover des für die XMPP-Föderation verwendeten Edge-Pools aus
 
-1.  Wenn Sie noch nicht bereitgestellt (außer derjenigen, die derzeit ausgefallen ist), einen anderen edgepool diesen Pool bereitstellen. 
+1.  Wenn Sie noch keinen anderen Edge-Pool bereitgestellt haben (außer dem, der zurzeit nicht vorhanden ist), stellen Sie diesen Pool bereit. 
 
-2.  Führen Sie auf jedem Edgeserver im neuen edgepool, der nun der XMPP-Verbund (EdgePool2) gehostet wird das folgende Cmdlet aus:
+2.  Führen Sie auf jedem Edgeserver des neuen Edge-Pools, in dem nun XMPP Federation (EdgePool2) gehostet wird, das folgende Cmdlet aus:
     
         Stop-CsWindowsService
 
-3.  Führen Sie die XMPP-partnerverbundroute auf EdgePool2 zu verweisen, das folgende Cmdlet aus:
+3.  Führen Sie das folgende Cmdlet aus, um die XMPP-Föderations Route auf EdgePool2 zu verweisen:
     
         Set-CsSite Site2 -XmppExternalFederationRoute EdgeServer2.contoso.com
     
-    In diesem Beispiel Site2 ist die Website mit der Edge-Pool, der nun die XMPP-partnerverbundroute gehostet wird, und EdgeServer2.contoso.com ist der FQDN eines Edgeservers in diesem Pool.
+    In diesem Beispiel ist site2 die Website, die den Edge-Pool enthält, auf dem nun die XMPP-Föderations Route gehostet wird, und EdgeServer2.contoso.com ist der FQDN eines Edgeserver in diesem Pool.
 
-4.  Ändern Sie auf dem externen DNS-Server den DNS-A-Eintrag für XMPP-Verbund auf EdgeServer2.contoso.com verweist.
+4.  Ändern Sie auf dem externen DNS-Server den DNS-A-Eintrag für XMPP-Föderation, um auf EdgeServer2.contoso.com zu verweisen.
 
-5.  Wenn Sie bereits einen DNS-SRV-Eintrag für XMPP-Verbund keinen der in der Edge-Pool dem XMPP-Verbund jetzt gehostet wird, aufgelöst wird, müssen Sie, wie im folgenden Beispiel hinzufügen. Dieser SRV-Eintrag muss einen Portwert 5269 haben.
+5.  Wenn Sie noch keinen DNS-SRV-Eintrag für die XMPP-Föderation haben, der in den Edge-Pool aufgelöst wird, der nun XMPP-Föderation hostet, müssen Sie ihn wie im folgenden Beispiel hinzufügen. Dieser SRV-Eintrag muss einen Portwert von 5269 aufweisen.
     
         _xmpp-server._tcp.contoso.com
 
-6.  Stellen Sie sicher, dass der Edge-Pool, der XMPP-Verbund jetzt gehostet wird Port 5269 open extern ist.
+6.  Überprüfen Sie, ob der Edge-Pool, auf dem nun der XMPP-Verbund gehostet wird, Port 5269 extern geöffnet hat.
 
-7.  Starten Sie die Dienste auf allen Edge-Servern in der Edge-Pool, der XMPP-Verbund jetzt gehostet wird:
+7.  Starten Sie die Dienste auf allen Edgeserver im Edge-Pool, die nun die XMPP-Föderation hosten:
     
         Start-CsWindowsService
 
 
-## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>Failover des edgepools für Skype für Business Server- oder XMPP-Verbund 
+## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>Zurücksetzen des Edge-Pools, der für Skype for Business Server Federation oder XMPP Federation verwendet wird 
 
-Nach einer fehlerhaften Kante Pool, mit dem Host Verbund gebracht worden wieder online, die mit diesem Verfahren können Sie ein Failback der Skype für partnerverbundroute Business Server und/oder die XMPP-partnerverbundroute, um diesen wiederhergestellten edgepool erneut zu verwenden.
+Nachdem ein ausgefallener Edge-Pool, der zum Hosten der Föderation verwendet wurde, wieder online geschaltet wurde, verwenden Sie dieses Verfahren zum Zurücksetzen der Skype for Business Server-Föderations Route und/oder der XMPP-Föderations Route, um diesen wiederhergestellten Edge-Pool erneut zu verwenden.
 
-1.  Starten Sie auf den Edge-Pool, der nun wieder verfügbar ist, die Edgedienste.
+1.  Starten Sie in dem jetzt wieder verfügbaren Edge-Pool die Edge-Dienste.
 
-2.  Wenn Sie ein Failback der Skype für partnerverbundroute Business Server um den wiederhergestellten Edgeserver zu verwenden möchten, führen Sie folgende Schritte aus:
+2.  Wenn Sie die Skype for Business Server-Föderations Route für die Verwendung des wiederhergestellten Edge-Servers zurücksetzen möchten, gehen Sie folgendermaßen vor:
     
-      - Öffnen Sie auf einem Front-End-Server-Topologie-Generator. Erweitern Sie die **Edge-Pools**, und klicken Sie mit der rechten Maustaste auf den Edgeserver oder Edge-Server-Pool, der aktuell für den Verbund konfiguriert ist. Wählen Sie **Eigenschaften bearbeiten**.
+      - Öffnen Sie auf einem Front-End-Server den Topologie-Generator. Erweitern Sie **Edge-Pools**, und klicken Sie dann mit der rechten Maustaste auf den Edgeserver oder den Edgeserver-Pool, der derzeit für den Verbund konfiguriert ist. Wählen Sie **Eigenschaften bearbeiten**aus.
     
-      - **Bearbeiten von Eigenschaften** unter **Allgemein**deaktivieren Sie **aktivieren den Verbund für diesen edgepool (Port 5061)**. Klicken Sie auf **OK**.
+      - Deaktivieren Sie in **Eigenschaften bearbeiten** unter **Allgemein** **die Option Föderation für diesen Edge-Pool aktivieren (Port 5061)**. Klicken Sie auf **OK**.
     
-      - Erweitern Sie die **Edge-Pools**, und klicken Sie mit der rechten Maustaste auf den ursprünglichen Edgeserver oder edgeserverpool, den Sie erneut für den Verbund verwenden möchten. Wählen Sie **Eigenschaften bearbeiten**.
+      - Erweitern Sie **Edge-Pools**, und klicken Sie dann mit der rechten Maustaste auf den ursprünglichen Edge-Server oder den Edgeserver-Pool, den Sie erneut für den Verbund verwenden möchten. Wählen Sie **Eigenschaften bearbeiten**aus.
     
-      - **Eigenschaften bearbeiten** unter **Allgemein**die Option **Partnerverbund für diesen edgepool (Port 5061) aktivieren**. Klicken Sie auf **OK**.
+      - Wählen Sie in **Eigenschaften bearbeiten** unter **Allgemein** **die Option Föderation für diesen Edge-Pool aktivieren (Port 5061)** aus. Klicken Sie auf **OK**.
     
-      - Klicken Sie auf **Aktion**, wählen Sie **Topologie**aus, wählen Sie **Veröffentlichen**aus. **Veröffentlichen der Topologie**auf dazu aufgefordert werden, klicken Sie auf **Weiter**. Wenn die Veröffentlichung abgeschlossen ist, klicken Sie auf **Fertig stellen**.
+      - Klicken Sie auf **Aktion**, wählen Sie **Topologie**aus, und wählen Sie **veröffentlichen**aus. Wenn Sie dazu aufgefordert werden, **die Topologie zu veröffentlichen**, klicken Sie auf **weiter**. Wenn der Veröffentlichungsvorgang abgeschlossen ist, klicken Sie auf **Fertig stellen**.
     
-      - Öffnen Sie auf dem Edgeserver der Skype für Business Server-Bereitstellungs-Assistenten. Klicken Sie auf **installieren oder aktualisieren Skype für Business Server-System**und dann auf **einrichten oder Entfernen von Skype für Business Server-Komponenten**. Klicken Sie auf **erneut ausführen**.
+      - Öffnen Sie auf dem Edgeserver den Assistenten für die Bereitstellung von Skype for Business Server. Klicken Sie auf **Skype for Business Server-System installieren oder aktualisieren**, und klicken Sie dann auf **Setup oder Entfernen von Skype for Business Server-Komponenten**. Klicken Sie **erneut auf Ausführen**.
     
-      - Klicken Sie auf **Weiter**. Im Fenster Zusammenfassung anzeigen die Aktionen, wie diese ausgeführt werden. Nachdem die Bereitstellung abgeschlossen ist, klicken Sie auf **Protokoll anzeigen** , um die verfügbaren Protokolldateien anzeigen. Klicken Sie auf **Fertig stellen** , um die Bereitstellung abzuschließen.
+      - Klicken Sie auf **Weiter**. Auf dem Zusammenfassungsbildschirm werden die Aktionen während der Ausführung angezeigt. Nachdem die Bereitstellung abgeschlossen ist, klicken Sie auf **Protokoll anzeigen** , um die verfügbaren Protokolldateien anzuzeigen. Klicken Sie auf **Fertig stellen** , um die Bereitstellung abzuschließen.
 
-3.  Wenn Sie das Failback für der XMPP-partnerverbundroute, um den wiederhergestellten Edgeserver zu verwenden möchten, führen Sie folgende Schritte aus:
+3.  Gehen Sie wie folgt vor, wenn Sie die XMPP-Föderations Route zur Verwendung des wiederhergestellten Edge-Servers zurücksetzen möchten:
     
-      - Führen Sie das folgende Cmdlet aus, um die XMPP-partnerverbundroute an den Edge-Pool verweisen, von dem nun der XMPP-Verbund (in diesem Beispiel EdgeServer1) gehostet wird:
+      - Führen Sie das folgende Cmdlet aus, um die XMPP-Föderations Route an den Edge-Pool zu verweisen, der nun XMPP-Föderation hostet (in diesem Beispiel EdgeServer1):
         
             Set-CsSite Site1 -XmppExternalFederationRoute EdgeServer1.contoso.com
         
-        In diesem Beispiel Site1 ist die Website mit der Edge-Pool, der nun die XMPP-partnerverbundroute gehostet wird, und EdgeServer1.contoso.com ist der FQDN eines Edgeservers in diesem Pool.
+        In diesem Beispiel ist site1 die Website, die den Edge-Pool enthält, auf dem nun die XMPP-Föderations Route gehostet wird, und EdgeServer1.contoso.com ist der FQDN eines Edgeserver in diesem Pool.
     
-      - Wenn Sie bereits einen DNS-SRV-Eintrag für XMPP-Verbund keinen der in der Edge-Pool dem XMPP-Verbund jetzt gehostet wird, aufgelöst wird, müssen Sie, wie im folgenden Beispiel hinzufügen. Dieser SRV-Eintrag muss einen Portwert 5269 haben.
+      - Wenn Sie noch keinen DNS-SRV-Eintrag für die XMPP-Föderation haben, der in den Edge-Pool aufgelöst wird, der nun XMPP-Föderation hostet, müssen Sie ihn wie im folgenden Beispiel hinzufügen. Dieser SRV-Eintrag muss einen Portwert von 5269 aufweisen.
         
             _xmpp-server._tcp.contoso.com
     
-      - Ändern Sie auf dem externen DNS-Server den DNS-A-Eintrag für XMPP-Verbund auf EdgeServer2.contoso.com verweist.
+      - Ändern Sie auf dem externen DNS-Server den DNS-A-Eintrag für XMPP-Föderation, um auf EdgeServer2.contoso.com zu verweisen.
     
-      - Stellen Sie sicher, dass der Edge-Pool, der XMPP-Verbund jetzt gehostet wird Port 5269 open extern ist.
+      - Überprüfen Sie, ob der Edge-Pool, auf dem nun der XMPP-Verbund gehostet wird, Port 5269 extern geöffnet hat.
 
-4.  Wenn der Front-End-Pools in die Website mit der Edge-Pool, die wiederhergestellt wurde nicht erfolgreich ausgeführt wird blieb, sollten Sie aktualisieren die Webkonferenzdienst und A / V-Konferenzdienst auf diesen Front-End-pools erneut verwenden die Edge-Pools in ihrer lokalen Website.
+4.  Wenn die Front-End-Pools weiterhin auf der Website mit dem fehlerhaften Edge-Pool ausgeführt wurden und wiederhergestellt wurden, sollten Sie den Webkonferenzdienst und den A/V-Konferenzdienst in diesen Front-End-Pools aktualisieren, um die Edge-Pools auf der lokalen Website erneut zu verwenden.
 
-5.  Wenn Sie der Front-End-Pool am selben Standort wie der ausgefallene edgepool ebenfalls ausgefallen ist, können Sie jetzt Invoke – CsPoolFailback Failback für den Front-End-Pool verwenden.
+5.  Wenn der Front-End-Pool am gleichen Standort wie der fehlerhafte Edge-Pool ebenfalls fehlgeschlagen ist, können Sie jetzt Invoke – CsPoolFailback verwenden, um den Front-End-Pool zurückzukehren.
 
 
-## <a name="change-the-edge-pool-associated-with-a-front-end-pool"></a>Ändern des Edge-Pools einen Front-End-Pool zugeordnet
+## <a name="change-the-edge-pool-associated-with-a-front-end-pool"></a>Ändern des Edge-Pools, der einem Front-End-Pool zugeordnet ist
 
-Wenn Sie ein edgepool ausfällt, jedoch der Front-End-Pool am selben Standort weiterhin ausgeführt wird, müssen Sie den Front-End-Pool einen edgepool an einem anderen Standort verwenden, bis der ausgefallene edgepool wiederhergestellt wird festgelegt.
+Wenn ein Edge-Pool ausfällt, der Front-End-Pool am gleichen Standort aber noch ausgeführt wird, müssen Sie den Front-End-Pool so einrichten, dass ein Edge-Pool an einer anderen Website verwendet wird, bis der fehlerhafte Edge-Pool wiederhergestellt wird.
 
-1.  Navigieren Sie im Topologie-Generator auf den Namen des Front-End-Pools, den Sie ändern möchten.
+1.  Navigieren Sie im Topologie-Generator zu dem Namen des Front-End-Pools, den Sie ändern müssen.
 
-2.  Mit der rechten Maustaste in des Pools, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+2.  Klicken Sie mit der rechten Maustaste auf den Pool, und klicken Sie dann auf **Eigenschaften bearbeiten**.
 
-3.  Verwenden Sie im Abschnitt **Zuordnungen** unter **Edgepool zuordnen (für Medienkomponenten)** das Dropdown-Feld den Edge-Pool wählen, dem Sie diese Front-End-Pool zuordnen möchten.
+3.  Verwenden Sie im Abschnitt **Zuordnungen** unter **Edge-Pool zuordnen (für Medienkomponenten)** das Dropdownfeld, um den Edge-Pool auszuwählen, dem Sie diesen Front-End-Pool zuordnen möchten.
 
 4.  Klicken Sie anschließend auf **OK**.

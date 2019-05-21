@@ -4,80 +4,80 @@ ms.reviewer: ''
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Sie können Skype für Business Server Management Shell-Befehle zum Konfigurieren und Überwachen des Sicherungsdienstes verwenden.
-ms.openlocfilehash: aa6a1aca7e753877c15f64c3736a09ad9e2ca066
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Sie können die Befehle für die Skype for Business Server-Verwaltungsshell verwenden, um den Sicherungsdienst zu konfigurieren und zu überwachen.
+ms.openlocfilehash: 2170f58fcc60a648788934048f3d0e6bbfac9c77
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903151"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303905"
 ---
-# <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>Konfigurieren und Überwachen des Sicherungsdienstes in Skype für Business Server
+# <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>Konfigurieren und Überwachen des Sicherungsdiensts in Skype for Business Server
 
-Sie können die folgenden Skype für Business Server Management Shell-Befehle konfigurieren und Überwachen des Sicherungsdienstes verwenden. Um in den Dateispeicher eines Front-End-Pools gespeicherten Konferenzinformationen wiederherzustellen, finden Sie unter [Wiederherstellen von konferenzinhalten mithilfe des Sicherungsdienstes](#restore-conference-contents-using-the-backup-service), unten.
+Sie können die folgenden Befehle der Skype for Business Server-Verwaltungsshell verwenden, um den Sicherungsdienst zu konfigurieren und zu überwachen. Informationen zum Wiederherstellen von Konferenz Informationen, die im Dateispeicher eines Front-End-Pools gespeichert sind, finden Sie weiter unten unter [Wiederherstellen von Konferenz Inhalten mithilfe des Sicherungsdiensts](#restore-conference-contents-using-the-backup-service).
 
 > [!NOTE]  
-> Die Gruppe "RTCUniversalServerAdmins" ist die einzige Gruppe, die Berechtigungen zum Ausführen von **Get-CsBackupServiceStatus** standardmäßig verfügt. Wenn Sie dieses Cmdlet verwenden, melden Sie sich als Mitglied dieser Gruppe. Oder Sie können Zugriff auf mit diesem Befehl zu anderen Gruppen (z. B. "csadministrator") gewähren, mit dem Cmdlet **"Set-csbackupserviceconfiguration"** .
+> Die Gruppe RTCUniversalServerAdmins ist die einzige Gruppe, die über die standardmäßige Berechtigung zum Ausführen von **Get-CsBackupServiceStatus** verfügt. Wenn Sie dieses Cmdlet verwenden möchten, melden Sie sich als Mitglied dieser Gruppe an. Oder Sie können anderen Gruppen (beispielsweise CSAdministrator) mithilfe des Cmdlets " **Satz-CsBackupServiceConfiguration** " Zugriff auf diesen Befehl gewähren.
 
-## <a name="to-see-the-backup-service-configuration"></a>Um die Konfiguration des Sicherungsdiensts finden Sie unter
+## <a name="to-see-the-backup-service-configuration"></a>So zeigen Sie die Konfiguration des Sicherungsdiensts an
 
 Führen Sie das folgende Cmdlet aus:
 
     Get-CsBackupServiceConfiguration
 
-Der Standard für SyncInterval sind zwei Minuten.
+Der Standardwert für SyncInterval beträgt zwei Minuten.
 
-## <a name="to-set-the-backup-service-sync-interval"></a>So legen Sie das Synchronisierungsintervall Sicherungsdienst fest
+## <a name="to-set-the-backup-service-sync-interval"></a>So stellen Sie das Synchronisierungsintervall für den Sicherungsdienst ein
 
 Führen Sie das folgende Cmdlet aus:
 
     Set-CsBackupServiceConfiguration -SyncInterval interval
 
-Folgendes wird beispielsweise das Intervall von drei Minuten.
+Im folgenden Beispiel wird das Intervall auf drei Minuten festgelegt.
 
     Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
 
 
 > [!IMPORTANT]  
-> Obwohl Sie dieses Cmdlet zum Ändern des Standard-Synchronisierungsintervall für den Sicherungsdienst verwenden können, sollten Sie nicht, damit es sei denn, dies unbedingt erforderlich ist, als die Synchronisierung Intervall großen Einfluss auf die Leistung Sicherungsdienst und die Recovery Point Objectives (RPO) hat.
+> Obwohl Sie mit diesem Cmdlet das Standard Synchronisierungsintervall für den Sicherungsdienst ändern können, sollten Sie dies nicht tun, es sei denn, dies ist unbedingt erforderlich, da das Synchronisierungsintervall große Auswirkungen auf die Leistung des Sicherungsdiensts und auf das Recovery Point-Ziel (RPO) hat.
 
-## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>Um den sicherungsdienststatus für einen bestimmten Pool zu erhalten
+## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>So rufen Sie den Sicherungsdienst Status für einen bestimmten Pool ab
 
 Führen Sie das folgende Cmdlet aus:
 
     Get-CsBackupServiceStatus -PoolFqdn <pool-FQDN>
 
 > [!NOTE]  
-> Der Synchronisierungsstatus des Sicherungsdienstes ist gleich dem Sicherungspool (P2) unidirectionally aus einem Pool (P1) definiert. Der Synchronisierungsstatus von P1 zu P2 kann andere als die von P2 zu P1 sein. Für P1 zu P2 ist Sicherungsdienst im Zustand "stetig", wenn alle Änderungen in P1 vollständig in das Synchronisierungsintervall über zu P2 repliziert werden. Es ist in "Endzustand" liegen keine weitere Änderungen, die von P1 zu P2 synchronisiert werden. Sowohl Zustand Geben Sie eine Momentaufnahme der des Sicherungsdienstes an, zu dem Zeitpunkt, die das Cmdlet ausgeführt wird. Es impliziert nicht, dass der zurückgegebene Status während bleibt unverändert anschließend. Insbesondere wird "Endzustand" weiterhin nur enthalten, wenn P1 keine Änderungen generiert, nachdem Sie das Cmdlet ausgeführt wird. Dies gilt im Fall von Failover P1 zu P2 nach P1 als Teil der Ausführungslogik **Invoke-CsPoolfailover** in den schreibgeschützten Modus befindet.
+> Der Synchronisierungsstatus des Sicherungsdiensts wird unidirektional von einem Pool (P1) zu seinem Sicherungspool (P2) definiert. Der Synchronisierungsstatus von P1 zu P2 kann von P2 zu P1 unterschiedlich sein. Bei P1 bis P2 befindet sich der Sicherungsdienst in einem "stabilen" Zustand, wenn alle Änderungen, die in P1 vorgenommen wurden, innerhalb des Synchronisierungsintervalls vollständig auf P2 repliziert werden. Es befindet sich im "endgültigen" Zustand, wenn keine weiteren Änderungen von P1 zu P2 synchronisiert werden. Beide Zustände deuten auf eine Momentaufnahme des Sicherungsdiensts zu dem Zeitpunkt hin, zu dem das Cmdlet ausgeführt wird. Das bedeutet nicht, dass der zurückgegebene Zustand unverändert bleibt. Insbesondere bleibt der Zustand "Final" weiterhin nur dann bestehen, wenn P1 nach der Ausführung des Cmdlets keine Änderungen generiert. Dies gilt im Fall eines Failovers von P1 auf P2, nachdem P1 als Teil der Ausführungslogik **Invoke-CsPoolfailover** in den schreibgeschützten Modus versetzt wurde.
 
-## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>Zum Abrufen von Informationen zur sicherungsbeziehung für einen bestimmten pool
+## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>So erhalten Sie Informationen zur Sicherungsbeziehung für einen bestimmten Pool
 
 Führen Sie das folgende Cmdlet aus:
 
     Get-CsPoolBackupRelationship -PoolFQDN <poolFQDN>
 
-## <a name="to-force-a-backup-service-sync"></a>So erzwingen Sie eine Synchronisierung
+## <a name="to-force-a-backup-service-sync"></a>So erzwingen Sie eine Synchronisierung des Sicherungsdiensts
 
 Führen Sie das folgende Cmdlet aus:
 
     Invoke-CsBackupServiceSync -PoolFqdn <poolFqdn> [-BackupModule  {All|PresenceFocus|DataConf|CMSMaster}]
 
-## <a name="restore-conference-contents-using-the-backup-service"></a>Wiederherstellen von konferenzinhalten mithilfe des Sicherungsdienstes 
+## <a name="restore-conference-contents-using-the-backup-service"></a>Wiederherstellen von Konferenz Inhalten mithilfe des Sicherungsdiensts 
 
-In gespeicherte Konferenzinformationen in den Dateispeicher eines Front-End-Pools nicht mehr verfügbar ist, können Sie diese Informationen müssen wiederherstellen, sodass Benutzer im Pool verwaltet behalten ihre Konferenzdaten. Wenn Sie der Front-End-Pool, der Konferenzdaten verloren wurde mit einer anderen Front-End-Pool verbunden ist, können Sie den Sicherungsdienst zum Wiederherstellen der Daten verwenden.
+Wenn die Konferenz Informationen, die im Dateispeicher eines Front-End-Pools gespeichert sind, nicht mehr zur Verfügung stehen, müssen Sie diese Informationen so wiederherstellen, dass Benutzer, die im Pool verwaltet werden, ihre Konferenzdaten beibehalten. Wenn der Front-End-Pool, in dem Konferenzdaten verloren gegangen sind, mit einem anderen Front-End-Pool gekoppelt ist, können Sie die Daten mithilfe des Sicherungsdiensts wiederherstellen.
 
-Sie müssen auch für diese Aufgabe ausführen, wenn ein gesamtes Pools ausgefallen ist und Sie haben die Benutzer zu einem Sicherungspool Failover. Wenn diese Benutzer auf ihre ursprünglichen Pool wieder Failover ausgeführt werden, müssen Sie dieses Verfahren zum Kopieren von ihren konferenzinhalten wieder auf ihre ursprünglichen Pool auch verwenden.
+Sie müssen diese Aufgabe auch ausführen, wenn ein gesamter Pool fehlgeschlagen ist und Sie die Benutzer nicht mit einem Sicherungspool durchführen müssen. Wenn diese Benutzer wieder in ihren ursprünglichen Pool zurückgekehrt sind, müssen Sie diese Vorgehensweise verwenden, um Ihre Konferenzinhalte wieder in ihren ursprünglichen Pool zu kopieren.
 
-Wird davon ausgegangen Sie, dass Pool1 Pool2 zugeordnet ist, und die Konferenzdaten in Pool1 verloren geht. Das folgende Cmdlet können zum Aufrufen des Sicherungsdienstes, um den Inhalt wiederherzustellen:
+Gehen Sie davon aus, dass pool1 mit Pool2 gekoppelt ist und die Konferenzdaten in pool1 verloren gehen. Sie können das folgende Cmdlet verwenden, um den Sicherungsdienst aufzurufen, um den Inhalt wiederherzustellen:
 
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-Wiederherstellen der Konferenz Inhalt kann je nach ihrer Größe einige Zeit dauern. Das folgende Cmdlet können Sie um den Prozessstatus zu überprüfen:
+Das Wiederherstellen der Konferenzinhalte kann je nach Größe einige Zeit in Anspruch nehmen. Sie können das folgende Cmdlet verwenden, um den Prozessstatus zu überprüfen:
 
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-Der Vorgang ist abgeschlossen, wenn dieses Cmdlet gibt einen Wert für die Konferenz zu verwendenden Datenmoduls datenkonferenzmodul zurück.
+Der Vorgang erfolgt, wenn dieses Cmdlet den Wert des Steady-State-Werts für das Datenkonferenz Modul zurückgibt.

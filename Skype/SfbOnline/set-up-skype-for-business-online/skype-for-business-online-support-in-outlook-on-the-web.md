@@ -10,26 +10,26 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: 'Outlook im Web (Outlook Web App) in Office 365 bietet einen grundlegenden Skype for Business-Webclient über die Navigationsleiste. Dieses grundlegende Client ist für Online-Benutzern, deren Admin eine Vanity-URL für ihre Office 365-Organisation konfiguriert noch nicht, verfügbar. Solange das Konto des Benutzers online ist und verfügt nicht über eine Vanity-URL, sehen sie, auch wenn ihre Organisation einige Benutzerkonten verfügt, die lokal sind weiterhin die Erfahrung. Benutzer, Benutzerkonten: lokal (gibt an, ob sie eine Vanity-URL oder nicht verfügen) oder von Microsoft verwaltet werden, sieht die Lync-Erfahrung in Outlook Web app.'
-ms.openlocfilehash: 0d98d2490510b54ec0aabd4fefb7ed4137b449b7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Outlook im Web (Outlook Web App) in Office 365 bietet einen grundlegenden Skype for Business-Webclient über die Navigationsleiste. Dieser Standard Client steht online Benutzern zur Verfügung, deren Administrator keine Vanity-URL für Ihre Office 365-Organisation konfiguriert hat. Solange das Konto des Benutzers Online ist und keine Vanity-URL hat, wird die Benutzeroberfläche weiterhin angezeigt, auch wenn Ihre Organisation über einige Benutzerkonten verfügt, die lokal gehostet werden. Benutzer, die über Benutzerkonten lokal verfügen (unabhängig davon, ob Sie über eine Vanity-URL verfügen oder nicht) oder von Microsoft verwaltet werden, sehen die lync-Benutzeroberfläche in Outlook Web App.
+ms.openlocfilehash: 3a985bd8ad0a04198501ca8d1ec780496c59f561
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237231"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285084"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Skype for Business Online-Support in Outlook im Web
 
-Outlook im Web (Outlook Web App) in Office 365 bietet einen grundlegenden Skype for Business-Webclient über die Navigationsleiste. Dieses grundlegende Client ist für Online-Benutzern, deren Admin eine Vanity-URL für ihre Office 365-Organisation konfiguriert noch nicht, verfügbar. Solange das Konto des Benutzers online ist und verfügt nicht über eine Vanity-URL, sehen sie, auch wenn ihre Organisation einige Benutzerkonten verfügt, die lokal sind weiterhin die Erfahrung. Benutzer, Benutzerkonten: lokal (gibt an, ob sie eine Vanity-URL oder nicht verfügen) oder von Microsoft verwaltet werden, sieht die Lync-Erfahrung in Outlook Web app.
+Outlook im Web (Outlook Web App) in Office 365 bietet einen grundlegenden Skype for Business-Webclient über die Navigationsleiste. Dieser Standard Client steht online Benutzern zur Verfügung, deren Administrator keine Vanity-URL für Ihre Office 365-Organisation konfiguriert hat. Solange das Konto des Benutzers Online ist und keine Vanity-URL hat, wird die Benutzeroberfläche weiterhin angezeigt, auch wenn Ihre Organisation über einige Benutzerkonten verfügt, die lokal gehostet werden. Benutzer, die über Benutzerkonten lokal verfügen (unabhängig davon, ob Sie über eine Vanity-URL verfügen oder nicht) oder von Microsoft verwaltet werden, sehen die lync-Benutzeroberfläche in Outlook Web App.
   
-In der folgenden Tabelle werden die verschiedenen Setups, die Sie möglicherweise und Webclients, der verwendet wird.
+In der folgenden Tabelle werden die verschiedenen Setups, die Sie möglicherweise haben, und der verwendete WebClient zusammengefasst.
   
 ||||
 |:-----|:-----|:-----|
@@ -40,8 +40,8 @@ In der folgenden Tabelle werden die verschiedenen Setups, die Sie möglicherweis
 |Hybrid, aber online verwaltet  <br/> |Ja  <br/> |Lync-Weberfahrung  <br/> |
 |Hybrid, aber lokal verwaltet  <br/> |Nein  <br/> |Lync-Weberfahrung  <br/> |
 |Hybrid, aber lokal verwaltet  <br/> |Ja  <br/> |Lync-Weberfahrung  <br/> |
-|Reine auf prem  <br/> |Nein  <br/> |Lync-Weberfahrung  <br/> |
-|Reine auf prem  <br/> |Ja  <br/> |Lync-Weberfahrung  <br/> |
+|Pur auf Prem  <br/> |Nein  <br/> |Lync-Weberfahrung  <br/> |
+|Pur auf Prem  <br/> |Ja  <br/> |Lync-Weberfahrung  <br/> |
    
 
 ## <a name="related-topics"></a>Verwandte Themen

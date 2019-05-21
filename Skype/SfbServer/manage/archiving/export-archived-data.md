@@ -1,29 +1,29 @@
 ---
-title: Exportieren von archivierten Daten in Skype für Business Server
+title: Exportieren von archivierten Daten in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
-description: 'Zusammenfassung: Informationen Sie zum Exportieren von archivierter Daten für Skype für Business Server.'
-ms.openlocfilehash: fd17fda9d36c5739d9d1cab7845921a442a4155d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie archivierte Daten für Skype for Business Server exportieren.'
+ms.openlocfilehash: 6914b4c32c22165b551bb56ece8d7b3b9c21fdbe
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884964"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286137"
 ---
-# <a name="export-archived-data-in-skype-for-business-server"></a>Exportieren von archivierten Daten in Skype für Business Server
+# <a name="export-archived-data-in-skype-for-business-server"></a>Exportieren von archivierten Daten in Skype for Business Server
 
-**Zusammenfassung:** Informationen Sie zum Exportieren von archivierter Daten für Skype für Business Server.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie archivierte Daten für Skype for Business Server exportieren.
   
 Die in Archivierungsdatenbanken archivierten Daten liegen nicht in durchsuchbarem oder lesbarem Format vor. Sie können jedoch mit dem Cmdlet **Export-CsArchivingData** Datensätze aus der Datenbank extrahieren und als EML (Outlook Electronic Mail)-Datei speichern..
   
-Daten werden archiviert, wenn Sie Microsoft Exchange-Integration aktivieren, in der Exchange-Speicher. Daten, die in Exchange archiviert sind durchsuchbar und sichtbar. Ausführliche Informationen zu den Zugriff auf Daten, die in Exchange archiviert werden, finden Sie in der Exchange-Dokumentation.
+Wenn Sie die Microsoft Exchange-Integration aktivieren, werden die Daten in Exchange-Stores archiviert. In Exchange archivierte Daten sind durchsuchbar und auffindbar. Details zum Zugriff auf Daten, die in Exchange archiviert werden, finden Sie in der Exchange-Dokumentation.
   
 ## <a name="exporting-archiving-data-by-using-windows-powershell-cmdlets"></a>Exportieren von Archivierungsdaten mithilfe von Windows PowerShell-Cmdlets
 
@@ -35,12 +35,12 @@ Mit diesem Befehl werden alle Archivierungsdaten exportiert, die seit dem 1. Jun
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 ```
 
-Mit dem folgenden Befehl werden Archivierungsdaten für einen einzelnen Benutzer exportiert: „kenmyer@contoso.com“. Dies erfolgt durch den Parameter "UserUri" gefolgt von SIP-Adresse des Benutzers einschließlich. Beispiel: 
+Mit dem folgenden Befehl werden Archivierungsdaten für einen einzelnen Benutzer exportiert: „kenmyer@contoso.com“. Dies erfolgt durch Einschließen des UserUri-Parameters, gefolgt von der SIP-Adresse des Benutzers. Beispiel: 
   
 ```
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@contoso.com"
 ```
 
-Weitere Informationen finden Sie im Hilfethema für das [Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/export-csarchivingdata?view=skype-ps) -Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/export-csarchivingdata?view=skype-ps) .
   
 

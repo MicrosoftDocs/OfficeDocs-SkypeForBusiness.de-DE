@@ -3,7 +3,7 @@ title: Konfigurieren der Medienumgehung mit direktem Routing
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service:
@@ -14,52 +14,52 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-description: Lesen Sie dieses Thema, um Informationen zum Konfigurieren der medienumgehung mit Phone System direktem Routing.
-ms.openlocfilehash: 459ebd80a175fbf2c213a016436a2bf130ae9982
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Lesen Sie dieses Thema, um zu erfahren, wie Sie die medienumgehung mit dem direkten Routing des Telefonsystems konfigurieren.
+ms.openlocfilehash: a9769e921ff493e67614cf903ca9206f6f50bac8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232695"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290453"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Konfigurieren der Medienumgehung mit direktem Routing
 
-Vor dem Konfigurieren von Medien mit direktem Routing zu umgehen, achten Sie darauf, dass Sie [Plan für Medien mit direktem Routing umgehen](direct-routing-plan-media-bypass.md)gelesen haben.
+Bevor Sie die medienumgehung mit Direct Routing konfigurieren, stellen Sie sicher, dass Sie [Plan für medienumgehung mit direktem Routing](direct-routing-plan-media-bypass.md)gelesen haben.
 
-Um die medienumgehung aktivieren, müssen die folgenden Bedingungen erfüllt sein:
+Um die medienumgehung zu aktivieren, müssen die folgenden Bedingungen erfüllt sein:
 
-1.  Stellen Sie sicher, dass Hersteller Ihres Session Border Controller (SBC) Wahl die medienumgehung unterstützt und bietet Anweisungen zum Konfigurieren auf die SBC umgehen. Finden Sie in der Zertifizierung-Seite, um Informationen und Anweisungen SBCs, welche Schriftarten Unterstützung von Medien zu umgehen.
+1.  Stellen Sie sicher, dass Ihr SBC-Anbieter (Session Border Controller) die medienumgehung unterstützt und Anweisungen zum Konfigurieren der Umgehungsfunktion für den SBC enthält. Informationen zu SBCS, welche die medienumgehung unterstützen, und Anweisungen finden Sie auf der Zertifizierungsseite.
 
-2.  Sie müssen die medienumgehung auf den Trunk mithilfe des folgenden Befehls aktivieren: **Set-CSOnlinePSTNGateway-Identity <sbc_FQDN> - MediaBypass $true**.
+2.  Sie müssen die medienumgehung auf dem Stamm mithilfe des folgenden Befehls aktivieren: **setzen-CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**.
 
-3.  Stellen Sie sicher, dass die erforderlichen Ports geöffnet sind. 
+3.  Stellen Sie sicher, dass die erforderlichen Anschlüsse geöffnet sind. 
 
 
-## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>Migrieren von nicht umgangen Trunks zur Umgehung aktivierten trunks
+## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>Migrieren von nicht gebypassten Trunks zu Bypass-fähigen Trunks
 
-Sie können alle Benutzer gleichzeitig wechseln oder Implementieren einer phasenweisen erreicht (empfohlen).
+Sie können alle Benutzer gleichzeitig wechseln, oder Sie können eine Phased approached (empfohlen) implementieren.
 
-- **Wechseln Sie alle Benutzer gleichzeitig.** Wenn alle erfüllt werden, können Sie die Bypass-Modus aktivieren. Allerdings werden alle produktionsbenutzern gleichzeitig gewechselt werden soll. Da einige Probleme zunächst möglicherweise beim Konfigurieren von Trunks und Ports treten, möglicherweise angenehmer Produktion betroffen sein. 
+- **Alle Benutzer gleichzeitig umschalten.** Wenn alle Bedingungen erfüllt sind, können Sie den Bypass-Modus aktivieren. Allerdings werden alle Ihre Produktionsbenutzer gleichzeitig gewechselt. Da bei der Konfiguration von Trunks und Ports möglicherweise einige Probleme auftreten, kann dies auf die Benutzeroberfläche der Produktionsumgebung zurückzuführen sein. 
 
-- **Phased Ansatz. (Empfohlen)**.  Erstellen Sie einen neuen Trunk für den gleichen SBC (mit einem anderen Port), testen sie das Formular, und ändern Sie die online VoIP-Routingrichtlinie für die Benutzer auf den neuen Trunk. 
+- **Phasen orientierter Ansatz (Empfohlen)**.  Erstellen Sie einen neuen trunk für denselben SBC (mit einem anderen Port), testen Sie ihn, und ändern Sie die Richtlinie für Online-VoIP-Routing, damit die Benutzer auf den neuen trunk verweisen können. 
 
-  Dies ist die empfohlene Vorgehensweise, da es für ein fließender Übergang und einheitliche benutzererfahrung ermöglicht. Bei diesem Ansatz müssen die Konfiguration der SBC, einer neuen FQDN-Namen und die Konfiguration der Firewall. Beachten Sie, dass Sie benötigen, um sicherzustellen, dass Ihr Zertifikat beide Trunks unterstützt. SAN müssen Sie zwei Namen (**sbc1.contoso.com** und **sbc2.contoso.com**) oder ein Platzhalterzertifikat.
+  Dies ist die empfohlene Vorgehensweise, da Sie einen reibungsloseren Übergang und eine unterbrechungsfreie Benutzererfahrung ermöglicht. Dieser Ansatz erfordert die Konfiguration des SBC, einen neuen FQDN-Namen und die Konfiguration der Firewall. Hinweis Sie müssen sicherstellen, dass Ihr Zertifikat beide Trunks unterstützt. In San benötigen Sie zwei Namen (**sbc1.contoso.com** und **sbc2.contoso.com**) oder ein Platzhalterzertifikat.
 
-![Migration von nicht umgangen Trunks zu Trunks Umgehung aktiviert)](media/direct-routing-media-bypass-8.png)
+![Migrieren von nicht gebypassten Trunks zu Bypass-fähigen Trunks](media/direct-routing-media-bypass-8.png)
 
-Anweisungen zum Konfigurieren der Trunks und Durchführen der Migration finden Sie unter der vom Hersteller Ihrer SBC-Dokumentation:
+Anweisungen zum Konfigurieren der Trunks und zur Durchführung der Migration finden Sie in der Dokumentation Ihres SBC-Anbieters:
 
 - AudioCodes
-- Bändchen
+- Multifunktionsleiste
 - TE-Systems (AnyNode)    
 
-Eine Liste der für das direkte Routing certified Session Border Controller (SBCs) finden Sie unter [Liste der Sitzung Broder Controller für die direkte Weiterleitung zertifiziert](direct-routing-border-controllers.md).
+Eine Liste der für die direkte Weiterleitung zertifizierten Session Border Controllers (SBCS) finden Sie in [der Liste der für das direkte Routing zertifizierten Session Broder-Controller](direct-routing-border-controllers.md).
 
 
 
 ## <a name="see-also"></a>Siehe auch
 
-[Planen Sie die medienumgehung mit direktem Routing](direct-routing-plan-media-bypass.md)
+[Planen der medienumgehung mit direktem Routing](direct-routing-plan-media-bypass.md)
 
 
 

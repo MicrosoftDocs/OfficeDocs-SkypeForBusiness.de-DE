@@ -1,10 +1,10 @@
 ---
-title: Bereitstellen Sie die anrufsteuerung in Skype für Business Server
+title: Bereitstellen der Anrufsteuerung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,34 +13,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
-description: Die anrufsteuerung (CAC)-Steuerelement eine Lösung ist, die bestimmt, ob eine in Echtzeit-Sitzung hergestellt werden kann basierend auf der verfügbaren Bandbreite, um zu verhindern, dass schlechten Qualität von Audio/Video für Benutzer auf überlastete Netzwerke.
-ms.openlocfilehash: 6ea527bc48f4a61bfe128eb935231200bb88b29f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Anrufannahme Steuerung (CAC) ist eine Lösung, die bestimmt, ob eine Echtzeitsitzung basierend auf der verfügbaren Bandbreite eingerichtet werden kann, um die schlechte Audio-und Videoqualität für Benutzer in überlasteten Netzwerken zu verhindern.
+ms.openlocfilehash: 7f7f8dee4e25061533564ce517f797281bef042e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892762"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280439"
 ---
-# <a name="deploy-call-admission-control-in-skype-for-business-server"></a>Bereitstellen Sie die anrufsteuerung in Skype für Business Server
+# <a name="deploy-call-admission-control-in-skype-for-business-server"></a>Bereitstellen der Anrufsteuerung in Skype for Business Server
  
-Die anrufsteuerung (CAC)-Steuerelement eine Lösung ist, die bestimmt, ob eine in Echtzeit-Sitzung hergestellt werden kann basierend auf der verfügbaren Bandbreite, um zu verhindern, dass schlechten Qualität von Audio/Video für Benutzer auf überlastete Netzwerke. Weitere Informationen finden Sie unter [Planen für die anrufsteuerung in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Anrufannahme Steuerung (CAC) ist eine Lösung, die bestimmt, ob eine Echtzeitsitzung basierend auf der verfügbaren Bandbreite eingerichtet werden kann, um die schlechte Audio-und Videoqualität für Benutzer in überlasteten Netzwerken zu verhindern. Weitere Informationen finden Sie unter [Planen der Anrufsteuerung in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 ### <a name="to-deploy-call-admission-control"></a>Bereitstellung der Anrufsteuerung
 
-1.  Sammeln Sie alle erforderlichen Informationen für die Enterprise-Netzwerktopologie gemäß [Beispiel: Sammeln von Anforderungen für die anrufsteuerung in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
+1.  Sammeln Sie alle erforderlichen Informationen für Ihre Unternehmensnetzwerk Topologie, wie in [Beispiel: Erfassen der Anforderungen für die Anrufsteuerung in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)beschrieben.
     
-2. Falls noch nicht geschehen, müssen Sie Netzwerkregionen und Standorten definieren und Subnetzen zu Netzwerkstandorten zuordnen. Weitere Informationen hierzu finden Sie unter [Bereitstellen von netzwerkregionen, Standorten und Subnetze in Skype für Unternehmen](deploy-network.md).
+2. Falls noch nicht geschehen, müssen Sie Netzwerkregionen und Standorten definieren und Subnetzen zu Netzwerkstandorten zuordnen. Ausführliche Informationen finden Sie unter [Bereitstellen von netzwerkregionen,-Websites und-Subnetzen in Skype for Business](deploy-network.md).
     
-3. Erstellen von Bandbreite Richtlinienprofilen, wie in [Erstellen von bandbreitenrichtlinienprofilen in Skype für Business Server](create-bandwidth-policy-profiles.md)
+3. Erstellen von Bandbreitenrichtlinien Profilen, wie in [Erstellen von Bandbreitenrichtlinien Profilen in Skype for Business Server](create-bandwidth-policy-profiles.md) beschrieben
     
-4. Erstellen Sie netzwerkregionenverbindungen, wie in [Erstellen von netzwerkregionenverbindungen in Skype für Business Server](create-network-region-links.md).
+4. Erstellen Sie Netzwerk Regions Verknüpfungen, wie unter [Erstellen von Netzwerk Regions Verknüpfungen in Skype for Business Server](create-network-region-links.md)beschrieben.
     
-5. Erstellen Sie Kommunikation zwischen netzwerkregionsrouten, wie in [Erstellen regionenübergreifende Netzwerkrouten in Skype für Business Server](create-network-interregional-routes.md).
+5. Erstellen Sie netzwerkübergreifende Routen, wie unter Erstellen von [Netzwerk interregionalen Routen in Skype for Business Server](create-network-interregional-routes.md)beschrieben.
     
-6. Erstellen von standortübergreifenden Netzwerkrichtlinien, wie in [Erstellen von standortübergreifenden Netzwerkrichtlinien in Skype für Business Server](create-network-intersite-policies.md).
+6. Erstellen Sie netzwerkübergreifende Richtlinien, wie unter Erstellen von Netzwerk-standortübergreifenden [Richtlinien in Skype for Business Server](create-network-intersite-policies.md)beschrieben.
     
-7. Aktivieren Sie die anrufsteuerung, wie in der [anrufsteuerung in Skype für Business Server aktivieren](enable-call-admission-control.md).
+7. Aktivieren Sie die Anrufsteuerung, wie unter [Aktivieren der Anrufsteuerung in Skype for Business Server](enable-call-admission-control.md)beschrieben.
     
-8. Prüfen Sie ein paar abschließende Einstellungen, um sicherzustellen, dass alles ordnungsgemäß eingerichtet ist. Weitere Informationen hierzu finden Sie unter [rufen Sie die Bereitstellung der anrufsteuerung: endgültige Checkliste für Skype für Business Server](final-checklist.md).
+8. Prüfen Sie ein paar abschließende Einstellungen, um sicherzustellen, dass alles ordnungsgemäß eingerichtet ist. Ausführliche Informationen finden Sie unter [Bereitstellung von Anrufsteuerung: endgültige Checkliste für Skype for Business Server](final-checklist.md).
     
 

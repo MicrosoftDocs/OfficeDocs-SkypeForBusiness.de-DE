@@ -12,7 +12,7 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,16 +22,16 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: 2e9845a9b9ebb294d0d7af1af87fae3165244889
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bea3a508b91c83b009636aa8ee48a2add996b3ea
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218056"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281863"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Datensammlungsverfahren im Zusammenhang mit Skype for Business und Microsoft Teams
 
-Skype für Business Server und Skype für Business Online, zusammen mit Skype für Geschäfts- und Microsoft-Teams, apps sammeln Daten, um Microsoft zu verstehen, wie diese Produkte genutzt werden und welche Arten von Fehlern, z. B. Anmeldefehlern, aufgetreten sind. Anhand dieser Informationen können wir Nutzungsmuster verstehen, neue Funktionen planen, eine Problembehandlung durchführen und Problembereiche korrigieren.
+Skype for Business Server und Skype for Business Online, zusammen mit Skype for Business-und Microsoft Teams-apps, sammeln Daten, damit Microsoft verstehen kann, wie diese Produkte verwendet werden, und welche Arten von Fehlern, wie etwa Anmeldefehlern, aufgetreten sind. Anhand dieser Informationen können wir Nutzungsmuster verstehen, neue Funktionen planen, eine Problembehandlung durchführen und Problembereiche korrigieren.
 
 Einige Nutzungsdaten werden automatisch gesammelt, andere Daten können hingegen nur gesammelt werden, wenn der Administrator und/oder Nutzer dies zulässt. Die Datensammlung unterteilt sich in diese drei Kategorien:
 
@@ -43,17 +43,17 @@ Einige Nutzungsdaten werden automatisch gesammelt, andere Daten können hingegen
 
 ## <a name="census-data"></a>Statistische Daten zum Nutzer
 
-Erhebung von Daten werden ausschließlich zum Bereitstellen, unterstützen und verbessern Skype für Unternehmen erworben. Microsoft-Teams und Skype für Unternehmen Online. Sie enthalten Umgebungsinformationen wie beispielsweise Gerät und Betriebssystemversion sowie regionale Einstellungen und Spracheinstellungen. Sie umfassen auch Zähler für erfolgreiche und fehlgeschlagene Anmeldeversuche. Hier sehen Sie einige konkrete Beispiele für statistische Daten zu Benutzern, die gesammelt werden:
+Census-Daten werden ausschließlich zur Bereitstellung, Unterstützung und Verbesserung von Skype for Business erworben. Microsoft Teams und Skype for Business Online. Sie enthalten Umgebungsinformationen wie beispielsweise Gerät und Betriebssystemversion sowie regionale Einstellungen und Spracheinstellungen. Sie umfassen auch Zähler für erfolgreiche und fehlgeschlagene Anmeldeversuche. Hier sehen Sie einige konkrete Beispiele für statistische Daten zu Benutzern, die gesammelt werden:
 
 |**Datentyp**|**Beispiel**|**Hinweise**|
 |:-----|:-----|:-----|
 |AppName  <br/> |iPhoneSkype  <br/> ||
 |DeviceModel  <br/> |iPhone  <br/> ||
 |Name des Betriebssystems  <br/> |iPhoneiOS  <br/> ||
-|Version des Betriebssystems  <br/> |8.3  <br/> ||
+|Version des Betriebssystems  <br/> |8,3  <br/> ||
 |UserLanguage  <br/> |DE-DE  <br/> ||
-|Benutzer-ID  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |Für die ID wird zweimal ein Hash-Algorithmus verwendet: einmal im Client und einmal im Telemetriedienst. Der Hash-Algorithmus stellt sicher, dass die ID nicht mit einem bestimmten Nutzer verknüpft werden kann.  <br/> |
-|Geräte-ID  <br/> |5E872200-F546-4CCD-8F23-AF5F507AA2DD  <br/> |Die Geräte-ID ist eine GUID, die nach dem Zufallsprinzip einmalig auf dem Gerät generiert und an den Telemetriedienst gesendet wird.  <br/> |
+|UserID  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |Für die ID wird zweimal ein Hash-Algorithmus verwendet: einmal im Client und einmal im Telemetriedienst. Der Hash-Algorithmus stellt sicher, dass die ID nicht mit einem bestimmten Nutzer verknüpft werden kann.  <br/> |
+|DeviceID  <br/> |5E872200-F546-4CCD-8F23-AF5F507AA2DD  <br/> |Die Geräte-ID ist eine GUID, die nach dem Zufallsprinzip einmalig auf dem Gerät generiert und an den Telemetriedienst gesendet wird.  <br/> |
 
 Die statistischen Daten enthalten KEINE Informationen, anhand derer Ihre Organisation oder Ihre Benutzer identifiziert werden können. Weitere Informationen finden Sie unter [Datenschutzbestimmungen für Skype for Business](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx).
 
@@ -72,11 +72,11 @@ Nutzungsdaten enthalten unter Umständen Informationen, anhand derer Ihr Unterne
 |Besprechung beigetreten (Versuche)  <br/> |5  <br/> ||
 |Besprechung beigetreten (erfolgreiche Versuche)  <br/> |4  <br/> ||
 |Anruf-/Besprechungs-Minuten  <br/> |30 Min.  <br/> ||
-|FederationPartner  <br/> |Microsoft.com (engl.)  <br/> |Dies ist der Name des Unternehmens, das in Office 365 registriert ist. Er wird in Klartext übertragen, also nicht verschleiert.  <br/> |
+|FederationPartner  <br/> |Microsoft.com  <br/> |Dies ist der Name des Unternehmens, das in Office 365 registriert ist. Er wird in Klartext übertragen, also nicht verschleiert.  <br/> |
 
 Die Nutzungsdaten enthalten KEINE Informationen, anhand derer Nutzer identifiziert werden können.
 
-Verwendungsdatenerfassung ist standardmäßig aktiviert, aber in der lokalen Administratoren deaktivieren können unter Verwendung der Gruppenrichtlinien DisableAutomaticSendTracing Einstellung auf Skype für Business Server. Das Deaktivieren dieser Einstellung wirkt sich auf alle Benutzer in der Organisation aus. Weitere Informationen finden Sie unter [Richtlinien für das clientbootstrapping konfigurieren](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) .
+Die Sammlung der Verwendungsdaten ist standardmäßig aktiviert, aber lokale Administratoren können Sie mithilfe der DisableAutomaticSendTracing-Gruppenrichtlinieneinstellung in Skype for Business Server deaktivieren. Das Deaktivieren dieser Einstellung wirkt sich auf alle Benutzer in der Organisation aus. Weitere Informationen finden Sie unter [Konfigurieren von clientbootstrapping-Richtlinien](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) .
 
 Benutzer können die Sammlung der Nutzungsdaten nicht aktivieren oder deaktivieren.
 
@@ -94,16 +94,16 @@ Zu den Fehlerberichtsdaten zählen Informationen über Leistung und Zuverlässig
 |:-----|:-----|:-----|
 |Nachrichtenrichtung  <br/> |Eingehend  <br/> ||
 |Unterhaltungsstatus  <br/> |Inaktiv  <br/> ||
-|Unterhaltungs-Thread-ID  <br/> |AdDO8hsJqilU93hQHC3OZaPR2saEA ==  <br/> ||
-|Benutzer-ID  <br/> |amosmarble <br/> |Die ID wird im Klartext übertragen, auf den der Telemetriedienst vor dem Speichern einen Hash-Algorithmus anwendet  <br/> |
+|Unterhaltungs-Thread-ID  <br/> |AdDO8hsJqilU93hQHC3OZaPR2saEA = =  <br/> ||
+|UserID  <br/> |amosmarble <br/> |Die ID wird im Klartext übertragen, auf den der Telemetriedienst vor dem Speichern einen Hash-Algorithmus anwendet  <br/> |
 
 Die Fehlerberichterstattungsdaten können außerdem personenbezogene Informationen enthalten, beispielsweise die IP-Adresse des Benutzers und den SIP-URI (Session Initiation Protocol Uniform Resource Identifier). Unter [Datenschutzbestimmungen für Skype for Business](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx) wird ausführlich erklärt, welche Daten gesammelt werden.
 
 Für die Fehlerberichterstattung müssen zwei Voraussetzungen erfüllt sein:
 
-- Die Einstellung DisableAutomaticSendTracing von Gruppenrichtlinien wird auf dem Server oder in der Mandanten-Verwaltungskonsole (Dies ist der Standardzustand) auf False festgelegt. Weitere Informationen finden Sie unter [Richtlinien für das clientbootstrapping konfigurieren](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) .
+- Die DisableAutomaticSendTracing-Gruppenrichtlinieneinstellung ist auf dem Server oder im Mandanten-Admin Center auf "false" festgelegt (Dies ist der Standardzustand). Weitere Informationen finden Sie unter [Konfigurieren von clientbootstrapping-Richtlinien](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) .
     
-- Endbenutzer einzeln bestätigen auf der Registerkarte Allgemein (klicken Sie auf das Zahnradsymbol ![Zahnradsymbol](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) , und klicken Sie dann im Dialogfeld **Optionen** wird geöffnet, wobei die Registerkarte **Allgemein** angezeigt) in die Skype für Business-Client.
+- Endbenutzer können sich auf der Registerkarte "Allgemein" einzeln einwählen ![(klicken](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) Sie auf das Zahnradsymbol, und dann wird das Dialogfeld " **Optionen** " mit der Registerkarte " **Allgemein** " angezeigt) im Skype for Business-Client.
     
  
 ![Skype for Business data collection checkbox in the Options > General dialog](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)

@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: 07cc390cdc4e65d0ce8f59c42c6eb57f4900e949
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e08eb29827996ff65e85de1afe7aabba1b02ac40
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237183"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285054"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Behandeln von Problemen mit Skype for Business
 
@@ -31,7 +31,7 @@ Manchmal funktioniert nicht alles wie erwartet. Hier finden Sie eine Liste von T
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Beheben von Administrator-Problemen in Skype for Business Online
 
-Sie erhalten Antworten für den Großteil Ihrer Skype für Business Online Fragen [für häufige Ursachen für Skype Business Online Fehler überprüfen](troubleshooting-sign-in-errors-for-admins.md#toc323194094). Dieser KB-Artikel enthält zudem viele Problembehandlungsressourcen und Fehlercodeverweise: [Problembehandlung bei Anmeldefehlern in Skype for Business Online](https://go.microsoft.com/fwlink/p/?LinkId=747952).
+Sie können Antworten auf die meisten Ihrer Skype for Business Online-Fragen erhalten, indem Sie [auf häufige Ursachen für Anmeldefehler in Skype for Business Online prüfen](troubleshooting-sign-in-errors-for-admins.md#toc323194094). Dieser KB-Artikel enthält zudem viele Problembehandlungsressourcen und Fehlercodeverweise: [Problembehandlung bei Anmeldefehlern in Skype for Business Online](https://go.microsoft.com/fwlink/p/?LinkId=747952).
 
 Informationen zu Problemen bei Einwahlkonferenzen finden Sie unter [Problembehandlung und bekannte Probleme bei Audiokonferenzen](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md).
 
@@ -65,7 +65,7 @@ Die meisten Probleme, die für Skype for Business Online-Benutzer auftreten, sin
 
 - [Hilfe zu Besprechungen mit Skype for Business](https://support.office.com/article/e0bc00a0-b01f-4f51-88fa-6f74abefa203)
 
-- [Skype für die Business-Schulung](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
+- [Skype for Business-Schulung](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
 
 - [Präsentieren von Programmen in Skype for Business](https://support.office.com/article/a5e6f4dc-06ac-4ccd-9a52-649b4f4a5306)
 
