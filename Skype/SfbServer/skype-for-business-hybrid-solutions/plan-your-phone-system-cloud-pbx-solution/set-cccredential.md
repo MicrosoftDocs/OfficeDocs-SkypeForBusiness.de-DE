@@ -5,65 +5,65 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 8/8/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: 'Das Cmdlet „Set-CcCredential“ legt die Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung fest. '
-ms.openlocfilehash: 547f0b87b006347a337a2c25222aecbd4f402669
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 59c058f8965bbc6fc011806f383c547c1e7b6cd1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876641"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286978"
 ---
-# <a name="set-cccredential"></a><span data-ttu-id="9dde3-103">Set-CcCredential</span><span class="sxs-lookup"><span data-stu-id="9dde3-103">Set-CcCredential</span></span>
+# <a name="set-cccredential"></a><span data-ttu-id="85691-103">Set-CcCredential</span><span class="sxs-lookup"><span data-stu-id="85691-103">Set-CcCredential</span></span>
  
-<span data-ttu-id="9dde3-104">Das Cmdlet „Set-CcCredential“ legt die Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung fest. </span><span class="sxs-lookup"><span data-stu-id="9dde3-104">The Set-CcCredential cmdlet sets the credential of the current Skype for Business Cloud Connector Edition deployment.</span></span> 
+<span data-ttu-id="85691-104">Das Cmdlet „Set-CcCredential“ legt die Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung fest. </span><span class="sxs-lookup"><span data-stu-id="85691-104">The Set-CcCredential cmdlet sets the credential of the current Skype for Business Cloud Connector Edition deployment.</span></span> 
   
-<span data-ttu-id="9dde3-105">Mit Cloud Connector, Version 2.0 und höher kann mit diesem Cmdlet auch die Kontoinformationen für die virtuellen Computer-Administrator und Domänenadministrator festlegen.</span><span class="sxs-lookup"><span data-stu-id="9dde3-105">With Cloud Connector version 2.0 and later, this cmdlet can also set the account information for the virtual machine administrator and for the domain administrator.</span></span>
+<span data-ttu-id="85691-105">Mit Cloud Connector, Version 2,0 und höher, kann dieses Cmdlet auch die Kontoinformationen für den Virtual Machine-Administrator und für den Domänenadministrator einrichten.</span><span class="sxs-lookup"><span data-stu-id="85691-105">With Cloud Connector version 2.0 and later, this cmdlet can also set the account information for the virtual machine administrator and for the domain administrator.</span></span>
   
 ```
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 ```
 
-## <a name="examples"></a><span data-ttu-id="9dde3-106">Beispiele</span><span class="sxs-lookup"><span data-stu-id="9dde3-106">Examples</span></span>
-<span data-ttu-id="9dde3-107"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="9dde3-107"></span></span>
+## <a name="examples"></a><span data-ttu-id="85691-106">Beispiele</span><span class="sxs-lookup"><span data-stu-id="85691-106">Examples</span></span>
+<span data-ttu-id="85691-107"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="85691-107"></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="9dde3-108">Beispiel 1</span><span class="sxs-lookup"><span data-stu-id="9dde3-108">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="85691-108">Beispiel 1</span><span class="sxs-lookup"><span data-stu-id="85691-108">Example 1</span></span>
 
-<span data-ttu-id="9dde3-109">Im folgenden Beispiel werden der Kontoname und das Kennwort für den Mandantenadministrator angegeben:</span><span class="sxs-lookup"><span data-stu-id="9dde3-109">The following example specifies the account name and password for the tenant administrator:</span></span>
+<span data-ttu-id="85691-109">Im folgenden Beispiel werden der Kontoname und das Kennwort für den Mandantenadministrator angegeben:</span><span class="sxs-lookup"><span data-stu-id="85691-109">The following example specifies the account name and password for the tenant administrator:</span></span>
   
 ```
 Set-CcCredential -AccountType "TenantAdmin"
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="9dde3-110">Detaillierte Beschreibung</span><span class="sxs-lookup"><span data-stu-id="9dde3-110">Detailed Description</span></span>
-<span data-ttu-id="9dde3-111"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="9dde3-111"></span></span>
+## <a name="detailed-description"></a><span data-ttu-id="85691-110">Detaillierte Beschreibung</span><span class="sxs-lookup"><span data-stu-id="85691-110">Detailed Description</span></span>
+<span data-ttu-id="85691-111"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="85691-111"></span></span>
 
-<span data-ttu-id="9dde3-112">Das Cmdlet „Set-CcCredential“ legt den Kontonamen und das Kennwort für den Mandantenadministrator fest.</span><span class="sxs-lookup"><span data-stu-id="9dde3-112">The Set-CcCredential cmdlet sets the account name and password for the tenant administrator.</span></span> <span data-ttu-id="9dde3-113">Für Versionen vor Version 2.0 muss dieser Administrator ein globaler Office 365-Administrator sein.</span><span class="sxs-lookup"><span data-stu-id="9dde3-113">For releases prior to 2.0, this administrator must be an Office 365 Global Administrator.</span></span> <span data-ttu-id="9dde3-114">Cloud-Connector wird dieses Konto verwendet, um Konfigurationsinformationen erhalten möchten, legen Sie die Konfiguration der Office 365-Mandanten Konfigurationsparameter und Aktualisierungsstatus Appliance.</span><span class="sxs-lookup"><span data-stu-id="9dde3-114">Cloud Connector uses this account to get configuration information, set configuration parameters, and update appliance status to the Office 365 tenant configuration.</span></span> <span data-ttu-id="9dde3-115">Mit Version 2.0 und höher, können Sie dieses Cmdlet zum Aktualisieren der Kennwörter für die Konten VmAdmin und DomainAdmin "verwenden.</span><span class="sxs-lookup"><span data-stu-id="9dde3-115">With release 2.0 and later, you can also use this cmdlet to update the passwords for the VmAdmin and DomainAdmin accounts.</span></span>
+<span data-ttu-id="85691-112">Das Cmdlet „Set-CcCredential“ legt den Kontonamen und das Kennwort für den Mandantenadministrator fest.</span><span class="sxs-lookup"><span data-stu-id="85691-112">The Set-CcCredential cmdlet sets the account name and password for the tenant administrator.</span></span> <span data-ttu-id="85691-113">Für Versionen vor Version 2.0 muss dieser Administrator ein globaler Office 365-Administrator sein.</span><span class="sxs-lookup"><span data-stu-id="85691-113">For releases prior to 2.0, this administrator must be an Office 365 Global Administrator.</span></span> <span data-ttu-id="85691-114">Cloud Connector verwendet dieses Konto, um Konfigurationsinformationen abzurufen, Konfigurationsparameter einzurichten und den Appliance-Status auf die Office 365-Mandanten Konfiguration zu aktualisieren.</span><span class="sxs-lookup"><span data-stu-id="85691-114">Cloud Connector uses this account to get configuration information, set configuration parameters, and update appliance status to the Office 365 tenant configuration.</span></span> <span data-ttu-id="85691-115">Mit Version 2,0 und höher können Sie auch dieses Cmdlet verwenden, um die Kennwörter für die VmAdmin-und DomainAdmin-Konten zu aktualisieren.</span><span class="sxs-lookup"><span data-stu-id="85691-115">With release 2.0 and later, you can also use this cmdlet to update the passwords for the VmAdmin and DomainAdmin accounts.</span></span>
   
-## <a name="parameters"></a><span data-ttu-id="9dde3-116">Parameter</span><span class="sxs-lookup"><span data-stu-id="9dde3-116">Parameters</span></span>
-<span data-ttu-id="9dde3-117"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="9dde3-117"></span></span>
+## <a name="parameters"></a><span data-ttu-id="85691-116">Parameter</span><span class="sxs-lookup"><span data-stu-id="85691-116">Parameters</span></span>
+<span data-ttu-id="85691-117"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="85691-117"></span></span>
 
-|<span data-ttu-id="9dde3-118">**Parameter**</span><span class="sxs-lookup"><span data-stu-id="9dde3-118">**Parameter**</span></span>|<span data-ttu-id="9dde3-119">**Erforderlich**</span><span class="sxs-lookup"><span data-stu-id="9dde3-119">**Required**</span></span>|<span data-ttu-id="9dde3-120">**Typ**</span><span class="sxs-lookup"><span data-stu-id="9dde3-120">**Type**</span></span>|<span data-ttu-id="9dde3-121">**Beschreibung**</span><span class="sxs-lookup"><span data-stu-id="9dde3-121">**Description**</span></span>|
+|<span data-ttu-id="85691-118">**Parameter**</span><span class="sxs-lookup"><span data-stu-id="85691-118">**Parameter**</span></span>|<span data-ttu-id="85691-119">**Erforderlich**</span><span class="sxs-lookup"><span data-stu-id="85691-119">**Required**</span></span>|<span data-ttu-id="85691-120">**Typ**</span><span class="sxs-lookup"><span data-stu-id="85691-120">**Type**</span></span>|<span data-ttu-id="85691-121">**Beschreibung**</span><span class="sxs-lookup"><span data-stu-id="85691-121">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="9dde3-122"> AccountType</span><span class="sxs-lookup"><span data-stu-id="9dde3-122">AccountType</span></span> <br/> | <span data-ttu-id="9dde3-123">Erforderlich</span><span class="sxs-lookup"><span data-stu-id="9dde3-123">Required</span></span> <br/> |<span data-ttu-id="9dde3-124">System.String</span><span class="sxs-lookup"><span data-stu-id="9dde3-124">System.String</span></span>  <br/> | <span data-ttu-id="9dde3-125"> Der Parameterwert muss „TenantAdmin“ „VmAdmin“ oder „DomainAdmin“ lauten.</span><span class="sxs-lookup"><span data-stu-id="9dde3-125">Parameter value must be "TenantAdmin", "VmAdmin", or "DomainAdmin".</span></span> <br/> |
+| <span data-ttu-id="85691-122"> AccountType</span><span class="sxs-lookup"><span data-stu-id="85691-122">AccountType</span></span> <br/> | <span data-ttu-id="85691-123">Erforderlich</span><span class="sxs-lookup"><span data-stu-id="85691-123">Required</span></span> <br/> |<span data-ttu-id="85691-124">System.String</span><span class="sxs-lookup"><span data-stu-id="85691-124">System.String</span></span>  <br/> | <span data-ttu-id="85691-125"> Der Parameterwert muss „TenantAdmin“ „VmAdmin“ oder „DomainAdmin“ lauten.</span><span class="sxs-lookup"><span data-stu-id="85691-125">Parameter value must be "TenantAdmin", "VmAdmin", or "DomainAdmin".</span></span> <br/> |
    
-## <a name="input-types"></a><span data-ttu-id="9dde3-126">Eingabetypen</span><span class="sxs-lookup"><span data-stu-id="9dde3-126">Input Types</span></span>
-<span data-ttu-id="9dde3-127"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="9dde3-127"></span></span>
+## <a name="input-types"></a><span data-ttu-id="85691-126">Eingabetypen</span><span class="sxs-lookup"><span data-stu-id="85691-126">Input Types</span></span>
+<span data-ttu-id="85691-127"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="85691-127"></span></span>
 
-<span data-ttu-id="9dde3-p102">Keine. Das Cmdlet „Set-CcCredential“ akzeptiert keine Pipelineeingaben.</span><span class="sxs-lookup"><span data-stu-id="9dde3-p102">None. The Set-CcCredential cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="85691-p102">Keine. Das Cmdlet „Set-CcCredential“ akzeptiert keine Pipelineeingaben.</span><span class="sxs-lookup"><span data-stu-id="85691-p102">None. The Set-CcCredential cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="9dde3-130">Rückgabetypen</span><span class="sxs-lookup"><span data-stu-id="9dde3-130">Return Types</span></span>
-<span data-ttu-id="9dde3-131"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="9dde3-131"></span></span>
+## <a name="return-types"></a><span data-ttu-id="85691-130">Rückgabetypen</span><span class="sxs-lookup"><span data-stu-id="85691-130">Return Types</span></span>
+<span data-ttu-id="85691-131"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="85691-131"></span></span>
 
-<span data-ttu-id="9dde3-132">Keine </span><span class="sxs-lookup"><span data-stu-id="9dde3-132">None</span></span>
+<span data-ttu-id="85691-132">Keine</span><span class="sxs-lookup"><span data-stu-id="85691-132">None</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="9dde3-133">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="9dde3-133">See also</span></span>
-<span data-ttu-id="9dde3-134"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="9dde3-134"></span></span>
+## <a name="see-also"></a><span data-ttu-id="85691-133">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="85691-133">See also</span></span>
+<span data-ttu-id="85691-134"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="85691-134"></span></span>
 
-[<span data-ttu-id="9dde3-135">Get-CcCredential</span><span class="sxs-lookup"><span data-stu-id="9dde3-135">Get-CcCredential</span></span>](get-cccredential.md)
+[<span data-ttu-id="85691-135">Get-CcCredential</span><span class="sxs-lookup"><span data-stu-id="85691-135">Get-CcCredential</span></span>](get-cccredential.md)
   
 
