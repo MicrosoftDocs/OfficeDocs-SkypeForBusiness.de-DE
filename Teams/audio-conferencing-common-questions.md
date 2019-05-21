@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,21 +21,21 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Im folgenden sind einige der oberen Fragen, die wir von unseren Kunden zu, die erhalten an der Audiokonferenz verwenden möchten.
-ms.openlocfilehash: e66b9d7abbed35cf73119b05d283aa0d408f3b8a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Im folgenden finden Sie einige der wichtigsten Fragen, die wir von unseren Kunden erhalten, die Audio-Conferencing verwenden möchten.
+ms.openlocfilehash: bb6f88e68ccec38d15f658dd5373273b1373d784
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198776"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283569"
 ---
 # <a name="audio-conferencing-common-questions"></a>Allgemeine Fragen zu Audiokonferenzen
 
-Im folgenden sind einige der oberen Fragen, die wir von unseren Kunden zu, die erhalten an der Audiokonferenz verwenden möchten. 
+Im folgenden finden Sie einige der wichtigsten Fragen, die wir von unseren Kunden erhalten, die Audio-Conferencing verwenden möchten. 
   
-## <a name="what-are-the-benefits-of-audio-conferencing"></a>Was sind die Vorteile der Audiokonferenz?
+## <a name="what-are-the-benefits-of-audio-conferencing"></a>Was sind die Vorteile von Audiokonferenzen?
 
-Aufrufen von Besprechungen in ist sehr nützlich, wenn Personen auf Reisen, beispielsweise sind und können nicht teilnehmen an einer Besprechung mit der Skype für Business oder Microsoft-Teams app auf ihren Laptop oder mobilen Geräten. Aber es gibt andere Szenarien, in denen die Verwendung eines Telefons für die Teilnahme an einer Skype für Geschäftskunden und Microsoft-Teams Besprechung eine bessere Lösung als mithilfe einer app auf einem Computer werden kann:
+Das Einwählen in Besprechungen ist sehr hilfreich, wenn beispielsweise Personen unterwegs sind, und Sie können mit der Skype for Business-oder Microsoft Teams-App auf ihren Laptops oder mobilen Geräten nicht an einer Besprechung teilnehmen. Es gibt aber auch andere Szenarien, in denen die Verwendung eines Telefons zur Teilnahme an einer Skype for Business-oder Microsoft Teams-Besprechung eine bessere Option als die Verwendung einer APP auf einem Computer sein kann:
   
 - Die Internetverbindung ist begrenzt.
     
@@ -43,111 +43,111 @@ Aufrufen von Besprechungen in ist sehr nützlich, wenn Personen auf Reisen, beis
     
 - Die Person hat erfolglos versucht, an einer Skype for Business-Besprechung teilzunehmen.
     
-- Die Anrufqualität ist besser, wenn diese sich einwählen.
+- Die Anrufqualität ist besser, wenn Sie sich einwählen.
     
 - Nutzer können mit Bluetooth-Geräten „freihändig" an einer Besprechung teilnehmen.
     
-- Personen suchen, dass es einfacher und bequemer für ihre Situation ist.
+- Die Leute finden es einfacher und bequemer für Ihre Situation.
     
-## <a name="who-can-attend-an-audio-conferencing-meeting-and-who-can-i-hear"></a>Wer können eine Audiokonferenz Besprechung teilnehmen? Und wer gehört?
+## <a name="who-can-attend-an-audio-conferencing-meeting-and-who-can-i-hear"></a>Wer kann an einer Audiokonferenz-Besprechung teilnehmen? Und wen kann ich hören?
 
-Berechtigten Personen die Zugriffsnummer für Einwahl Anzahl und Konferenz-ID kann einen Skype für Business oder Microsoft-Teams Besprechung teilnehmen, es sei denn, der Organisator der Besprechung die Besprechung gesperrt hat.
+Jeder, der über die Einwahlnummer und die Konferenz-ID verfügt, kann an einer Skype for Business-oder Microsoft Teams-Besprechung teilnehmen, es sei denn, der Besprechungsorganisator hat die Besprechung gesperrt.
   
-Ob Sie sich mit einem Telefon oder die Skype für Business oder Microsoft-Teams apps aufrufen, hören alle anderen dem Gespräch können, und sie können Sie hören. Der Organisator der Besprechung hat die Möglichkeit, "Besprechungsteilnehmer stumm schalten" Wenn sie nicht sie hören möchten. 
+Unabhängig davon, ob Sie über ein Telefon oder die Skype for Business-oder Microsoft Teams-apps anrufen, können Sie alle anderen Teilnehmer des Anrufs hören, und Sie können Sie hören. Der Besprechungsorganisator kann Besprechungsteilnehmer "stumm schalten", wenn Sie diese nicht hören möchten. 
   
-## <a name="can-i-add-a-toll-free-number-for-my-audio-conferencing-users"></a>Kann ich eine gebührenfreie Telefonnummer für meine Benutzer Audiokonferenzen hinzufügen?
+## <a name="can-i-add-a-toll-free-number-for-my-audio-conferencing-users"></a>Kann ich für meine Audiokonferenz-Nutzer eine gebührenfreie Nummer hinzufügen?
 
-Ja, sind gebührenfreien Telefonnummern (Service Zahlen) verfügbar, aber nur in einigen Ländern/Regionen. Eine Liste mit Zahlen, die verfügbar sind, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Ja, gebührenfreie Telefonnummern (Servicenummern) stehen nur in einigen Ländern/Regionen zur Verfügung. Eine Liste der verfügbaren Nummern finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 ## <a name="how-many-local-dial-in-numbers-are-currently-supported"></a>Wie viele lokale Einwahlnummern werden derzeit unterstützt?
 
-Es sind lokale Einwahlnummern, die Ihnen zugewiesen sind, wenn Sie die Lizenzen für Audiokonferenzen erwerben. Die Einwahlnummern werden in der besprechungseinladung enthalten sein. Diese Rufnummern sind nur für Ihre Organisation verfügbar. Das Telefon zu Ihrer Organisation zugewiesen und diese Nummer wird gemeinsam verwendet, durch die Benutzer innerhalb der Organisation, die für Audiokonferenzen aktiviert sind. Ja, Skype für Business oder Microsoft-Teams geplant von Benutzer A und B für einen anderen Benutzer erhalten sowohl die gleichen Einwahlnummer ist.
+Wenn Sie die Lizenzen für Audiokonferenzen erwerben, gibt es lokale Einwahlnummern, die Ihnen zugewiesen sind. Die Einwahlnummern werden in die Besprechungseinladung aufgenommen. Diese lokalen Nummern stehen nur für Ihre Organisation zur Verfügung. Das Telefon, das Ihrer Organisation zugewiesen ist, und diese Nummer werden von den Benutzern innerhalb dieser Organisation freigegeben, die für Audiokonferenzen aktiviert sind. So haben Skype for Business-oder Microsoft Teams-Besprechungen, die von Benutzer A und einem anderen Benutzer B geplant werden, beide dieselbe Einwahlnummer.
   
-Lokale Einwahlnummern, und auch in einigen Fällen internationale Einwahlnummern aus dem Land, in Ihrer Organisation befindet, wird aufgenommen werden auf die Besprechung einladen. Wenn ein Teilnehmer der Besprechung verwendet eine andere Rufnummer, die in der Einladung enthalten, ist es eine gemeinsame Telefonnummer ein.
+Lokale Einwahlnummern und in einigen Fällen auch internationale Einwahlnummern aus dem Land, in dem sich Ihre Organisation befindet, werden in die Besprechungseinladung aufgenommen. Wenn ein Besprechungsteilnehmer eine andere Nummer verwendet, die in der Einladung enthalten ist, handelt es sich um eine freigegebene Telefonnummer.
   
 ## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-office-365-support"></a>Wie viele internationale Einwahlnummern unterstützt Audiokonferenzen in Office 365?
 
-Eine aktuelle Liste der Länder/Regionen finden Sie unter [Telefonnummern für Audiokonferenzen in Microsoft-Teams,](phone-numbers-for-audio-conferencing-in-teams.md) oder [Rufnummern für Audiokonferenzen in Skype für Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
+Eine aktuelle Liste der Länder/Regionen finden Sie unter [Telefonnummern für Audiokonferenzen in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) oder [Telefonnummern für Audiokonferenzen in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
   
-## <a name="can-i-set-up-local-numbers-for-audio-conferencing-from-additional-cities-in-the-country"></a>Kann ich Ortsgespräche für Audiokonferenzen zusätzliche Städte des Landes einrichten?
+## <a name="can-i-set-up-local-numbers-for-audio-conferencing-from-additional-cities-in-the-country"></a>Kann ich Ortsnummern für Audiokonferenzen aus zusätzlichen Städten im Land einrichten?
 
-Telefonnummern für Audiokonferenzen sind nicht verfügbar in Ihrer Nähe oder die Anforderungen Ihrer Organisation nicht erfüllen, senden Sie uns Feedback an [SkypeFeedback-Foren](http://www.skypefeedback.com/forums/299910--preview/category/119971-pstn-conferencing).
+Wenn Telefonnummern für Audiokonferenzen in Ihrer Region nicht verfügbar sind oder nicht den Anforderungen Ihrer Organisation entsprechen, senden Sie uns Feedback in den [hinterlassen-Foren](http://www.skypefeedback.com/forums/299910--preview/category/119971-pstn-conferencing).
   
-## <a name="what-is-the-maximum-length-of-the-audio-conferencing-meetings"></a>Was ist die maximale Länge des Audiokonferenzen Besprechungen?
+## <a name="what-is-the-maximum-length-of-the-audio-conferencing-meetings"></a>Was ist die maximale Länge der Audiokonferenz-Besprechungen?
 
-Die maximale Dauer, hängt davon ab, die in der Besprechung und die Art der Authentifizierung, die sie an der Besprechung teilnehmen verwendet wird.
+Die maximale Zeitdauer hängt davon ab, wer sich in der Besprechung befindet und welche Art von Authentifizierung Sie für die Teilnahme an der Besprechung verwendet haben.
   
 |**Besprechungsteilnehmer**|**Endzeit der Besprechung**|
 |:-----|:-----|
-|Es sind Benutzer, die mit der Skype für Business oder Microsoft-Teams app beigetreten oder, die der Besprechung gewählt haben.  <br/> |Die Besprechung beendet wird, wenn es keine Änderungen der Teilnehmerliste nach 24 Stunden sind.  <br/> |
-|Alle Benutzer der Besprechung gewählt werden, aber eine Person hat eine PIN verwendet, um an einer Besprechung teilnehmen.  <br/> |Die Besprechung endet nach 24 Stunden.  <br/> |
-|Alle Benutzer der Besprechung gewählt werden, aber es war nicht jeder Benutzer, der eine PIN verwendet, um an einer Besprechung teilnehmen.  <br/> |Die Besprechung endet nach 4 Stunden.  <br/> |
+|Es gibt Benutzer, die mit der Skype for Business-oder Microsoft Teams-App verbunden sind oder sich in die Besprechung eingewählt haben.  <br/> |Die Besprechung endet, wenn nach 24 Stunden keine Änderungen an der Teilnehmerliste vorgenommen wurden.  <br/> |
+|Alle Benutzer sind in die Besprechung eingewählt, aber jemand hat eine PIN für die Teilnahme an der Besprechung verwendet.  <br/> |Die Besprechung endet nach 24 Stunden.  <br/> |
+|Alle Benutzer sind in die Besprechung eingewählt, aber niemand hat eine PIN für die Teilnahme an der Besprechung verwendet.  <br/> |Die Besprechung endet nach 4 Stunden.  <br/> |
    
-## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>Wie viele insgesamt Telefon Teilnehmer können an Besprechungen ist vorhanden?
+## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>Wie viele Telefonteilnehmer kann ich insgesamt in Besprechungen haben?
 
-Audiokonferenzen kann bis zu 250 Telefon Teilnehmer.
+Audiokonferenzen ermöglichen bis zu 250 Telefonteilnehmer.
   
-Um herauszufinden, über die meeting-Grenzwerte, finden Sie unter [Skype Business Online Beschränkungen](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits).
+Informationen zu den Grenzwerten für Besprechungen finden Sie unter [Skype for Business Online-Grenzwerte](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits).
   
-## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>Warum starten Benutzer empfangen von e-Mails mit ihren Audiokonferenzen Informationen?
+## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>Warum haben Benutzer e-Mails mit Ihren Audio-Konferenz Informationen empfangen?
 
-Wir haben ein neues Feature, mit das Sie die [Admin](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), kann zum Senden und Aktualisieren von Audiokonferenzen Informationen und PIN in e-Mail hinzugefügt. Erfahren Sie mehr über angezeigt wird, sowie zum deaktivieren, [Aktivieren oder Deaktivieren der sendenden-e-Mails Wenn Audiokonferenzen Einstellungen in Microsoft-Teams, ändern](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) oder [Aktivieren oder deaktivieren Sie e-Mails senden, wenn Audiokonferenzen Einstellungen in Skype für Unternehmen ändern Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
+Wir haben eine neue Funktion hinzugefügt, die es Ihnen, dem [Administrator](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), ermöglicht, Audiokonferenz Informationen zu senden und zu aktualisieren und per e-Mail zu anheften. Weitere Informationen dazu, wie Sie diese Funktion deaktivieren, finden Sie unter [Aktivieren oder Deaktivieren des Sendens von e-Mails, wenn sich die Einstellungen für Audiokonferenz in Microsoft Teams ändern](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) oder das [Senden von e-Mails aktivieren oder deaktivieren, wenn sich die Einstellungen für Audiokonferenz in Skype for Business ändern. Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
   
-## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>Kann Audiokonferenzen von den Benutzern werden verwendet, die Teil einer lokalen Bereitstellung von Skype für Business Server sind?
+## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>Können Audiokonferenzen von den Benutzern verwendet werden, die Teil einer lokalen Bereitstellung von Skype for Business Server sind?
 
-Wir sind nicht vorhanden. Sie können jedoch weiterhin Audiokonferenz verwenden, zusammen mit einem PSTN-Gateway für Ihre Benutzer am Standort in Skype für Business Server verfügbar ist. 
+Wir sind nicht ganz da. Sie können jedoch weiterhin Audiokonferenzen verwenden, die in Skype for Business Server zusammen mit einem PSTN-Gateway für Ihre lokalen Benutzer verfügbar sind. 
   
 ## <a name="can-a-user-get-a-personal-conference-id"></a>Kann ein Benutzer eine persönliche Konferenz-ID erhalten?
 
-Skype für Unternehmen und die Microsoft-Teams, nach dem Zufallsprinzip zugewiesen wird-Konferenz-IDs und nicht reservieren oder legen Sie eine statische Konferenz-ID, die nur sie verwenden können. 
+Skype for Business-und Microsoft Teams-Benutzer werden nach dem Zufallsprinzip Konferenz-IDs zugewiesen und können keine statische Konferenz-ID reservieren oder einrichten, die nur Sie verwenden können. 
   
-## <a name="can-i-use-audio-conferencing-with-skype-meeting-broadcast"></a>Kann ich mit Skype Besprechung übertragen Audiokonferenz verwenden?
+## <a name="can-i-use-audio-conferencing-with-skype-meeting-broadcast"></a>Kann ich Audiokonferenzen mit Skype-Live Konferenz nutzen?
 
-Unterstützung für Audiokonferenzen zur Teilnahme an einer Besprechung übertragen Skype-fähigen Benutzer derzeit nicht.
+Es gibt derzeit keine Unterstützung für Benutzer, die für Audiokonferenzen aktiviert sind, um an einer Skype-Live Konferenz teilzunehmen.
   
-## <a name="can-a-user-get-operator-assistance-during-a-meeting"></a>Kann ein Benutzer Vermittlung während einer Besprechung erhalten?
+## <a name="can-a-user-get-operator-assistance-during-a-meeting"></a>Kann ein Benutzer während einer Besprechung Unterstützung für den Bediener erhalten?
 
-Nein, kein Benutzer Vermittlung erhalten oder support durch Drücken von * 0 während der Besprechung. Wenn Probleme mit der Audiokonferenz vorhanden sind, kann ein Administrator für eine Organisation [Microsoft support für Office 365](https://support.office.com/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)wenden.
+Nein, ein Benutzer kann keine Unterstützung für den Operator oder Support erhalten, indem er während der Besprechung * 0 drückt. Wenn Probleme mit Audiokonferenzen auftreten, kann ein Administrator einer Organisation den Microsoft- [Support für Office 365](https://support.office.com/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)kontaktieren.
   
-## <a name="how-does-a-user-access-or-change-their-conference-id"></a>Wie wird der Zugriff eines Benutzers oder werden ihrer Konferenz-ID geändert?
+## <a name="how-does-a-user-access-or-change-their-conference-id"></a>Wie greift ein Benutzer auf seine Konferenz-ID zu oder ändert ihn?
 
-Eine Skype für Business oder Microsoft-Teams, Benutzer kann die Konferenz-ID suchen, die ihnen zugewiesen ist, durch das Planen einer Besprechung in Outlook und Outlook im Web. Darüber hinaus können Benutzer die Konferenz-ID in der e-Mail suchen, die Ihnen gesendet wird, nachdem sie eingerichtet werden.
+Skype for Business-oder Microsoft Teams-Benutzer können die Konferenz-ID finden, die Ihnen zugewiesen ist, indem Sie eine Besprechung in Outlook und Outlook im Web planen. Darüber hinaus können Benutzer die Konferenz-ID in der e-Mail finden, die nach der Einrichtung an Sie gesendet wird.
   
 > [!NOTE]
-> Benutzer nicht zurücksetzen ihrer Konferenz-ID. Die Konferenz-ID kann nur von Ihnen, die [Admin](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), für die Organisation zurückgesetzt werden. 
+> Benutzer können Ihre Konferenz-ID nicht zurücksetzen. Die Konferenz-ID kann nur von Ihnen, dem [Administrator](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), für die Organisation zurückgesetzt werden. 
   
-Wir eine Lösung arbeiten an, die den Benutzerzugriff lassen und Zurücksetzen eine Konferenz-ID ohne Hilfe eines Unternehmens Admin.
+Wir arbeiten an einer Lösung, die dem Benutzer den Zugriff auf und das Zurücksetzen einer Konferenz-ID ohne Hilfe des Administrators einer Organisation gestatten wird.
   
-## <a name="how-does-a-user-access-or-change-hisher-pin"></a>Wie wird von einem Benutzer den Zugriff oder seine PIN geändert werden?
+## <a name="how-does-a-user-access-or-change-hisher-pin"></a>Wie greift ein Benutzer auf seine PIN zu oder ändert ihn?
 
-Die Skype für Business oder Microsoft-Teams, Benutzer kann die PIN-Nummer in einer e-Mail suchen, die an sie gesendet wird, sobald eingerichtet sind.
+Der Skype for Business-oder Microsoft Teams-Benutzer kann die PIN in einer e-Mail finden, die Ihnen nach der Einrichtung zugesandt wird.
   
 > [!NOTE]
-> So setzen Sie ihre PIN zurück kann einen Skype für Business oder Microsoft-Teams, Benutzer nicht gelöst werden. Die PIN kann nur von Ihnen, den Administrator zurückgesetzt werden Wenn eine PIN zurückgesetzt wird, wird eine e-Mail an den Benutzer gesendet. 
+> Ein Skype for Business-oder Microsoft Teams-Benutzer kann seine PIN nicht zurücksetzen. Die PIN kann nur von Ihnen, dem Administrator, zurückgesetzt werden. Wenn eine PIN zurückgesetzt wird, wird eine e-Mail an den Benutzer gesendet. 
   
-Wir arbeiten an einer Lösung, die können des Benutzerzugriffs und eine PIN ohne Hilfe von Administrator einer Organisation zurücksetzen.
+Wir arbeiten an einer Lösung, die dem Benutzer den Zugriff auf und das Zurücksetzen einer PIN ohne Hilfe des Administrators einer Organisation gestatten wird.
   
-## <a name="what-in-meeting-dial-pad-commands-are-supported"></a>Welche Befehle Wähltastenfeld während der Besprechung werden unterstützt?
+## <a name="what-in-meeting-dial-pad-commands-are-supported"></a>Welche Wähltastatur Befehle werden in Besprechungen unterstützt?
 
-- * 6 (Stummschalten/stummschaltung aufheben selbst)
+- * 6 (selbst stumm schalten/Aufheben der Stummschaltung)
     
-- * 1 (spielt die Beschreibungen der Wähltastatur Befehle, die verfügbar sind) 
+- * 1 (Wiedergabe der Beschreibungen der verfügbaren Wähltastatur Befehle) 
     
-## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>Können Teilnehmer internationalen Rufnummern anwählen, wenn sie einen Skype für Business oder Microsoft-Teams Besprechung sind?
+## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>Können Teilnehmer zu internationalen Telefonnummern anrufen, wenn Sie sich in einer Skype for Business-oder Microsoft Teams-Besprechung befinden?
 
-Ja, können Teilnehmer International ausgehende Anrufe und andere Aufrufer in einen Skype für Business oder Microsoft-Teams Besprechung einladen. Finden Sie unter [Telefonverbindung aus einem Microsoft-Teams, damit andere Personen sie beitreten können](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) oder [Telefonverbindung aus einer Skype für Business Onlinebesprechung teilnehmen, damit andere Personen sie beitreten können](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
+Ja, Teilnehmer können sich International anwählen und andere Anrufer in eine Skype for Business-oder Microsoft Teams-Besprechung einladen. Weitere Informationen finden Sie unter [anrufen aus einer Microsoft Teams-Besprechung, damit andere Personen](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) an [einer Skype for Business Online-Besprechung teilnehmen oder sich von dort aus anrufen können, damit andere Personen daran teilnehmen können](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
   
-## <a name="how-does-a-skype-for-business-or-microsoft-teams-user-schedule-a-meeting-with-audio-conferencing-meeting-details"></a>Wie planen eine Skype für Business oder Microsoft-Teams, Benutzer eine Besprechung mit Audiokonferenz Besprechungsdetails?
+## <a name="how-does-a-skype-for-business-or-microsoft-teams-user-schedule-a-meeting-with-audio-conferencing-meeting-details"></a>Wie plant ein Skype for Business-oder Microsoft Teams-Benutzer eine Besprechung mit Besprechungsdetails für Audiokonferenz?
 
-Wenn ein Benutzer eine **Audiokonferenz** -Lizenz zugewiesen ist und der Benutzer eine neue Skype für Business oder Microsoft-Teams Besprechung in Outlook oder Outlook im Web erstellt, sind die Zugriffsnummer für Einwahl Telefonnummern und Konferenz-IDs der besprechungseinladung automatisch hinzugefügt.
+Wenn einem Benutzer eine Lizenz für **Audiokonferenzen** zugewiesen wird und der Benutzer eine neue Skype for Business-oder Microsoft Teams-Besprechung in Outlook oder Outlook im Web erstellt, werden die Einwahlnummern und Konferenz-IDs automatisch zur Besprechungseinladung hinzugefügt.
   
-## <a name="how-does-a-user-schedule-and-start-a-meeting-when-all-attendees-will-be-using-a-phone-to-dial-in"></a>Wie einen Zeitplan für den Benutzer und die starten eine Besprechung, wenn alle Teilnehmer ein Telefon verwenden sollen, Zugriffsnummer für Einwahl?
+## <a name="how-does-a-user-schedule-and-start-a-meeting-when-all-attendees-will-be-using-a-phone-to-dial-in"></a>Wie plant und startet ein Benutzer eine Besprechung, wenn sich alle Teilnehmer über ein Telefon einwählen?
 
-Planen einer Besprechung, die von allen Teilnehmern mit einem Telefon auf Zugriffsnummer für Einwahl zugeordnet werden soll unterscheidet sich nicht von einer regulären online-Besprechung planen. Es gibt jedoch zwei Methoden, um eine Besprechung starten, auf dem alle Teilnehmer ein Telefon mit Dial-in:
+Das Planen einer Besprechung, die von allen Teilnehmern mit einem Telefon zur Einwahl verbunden wird, unterscheidet sich nicht vom Planen einer regulären Onlinebesprechung. Es gibt jedoch zwei Möglichkeiten, eine Besprechung zu starten, bei der sich alle Teilnehmer mit einem Telefon einwählen:
 
-- **Option 1**: in der Standardeinstellung, wenn der Organisator der Besprechung und allen Teilnehmern teilnehmen an einer Besprechung mit einem Telefon sind Organisator der Besprechung muss zur Eingabe von seinem Audio Conferencing PIN zu starten. Anrufer erhalten gefragt, ob sie als der Organisator einer bestimmten Besprechung authentifizieren, wenn sie die Telefonnummer eine onlinebesprechung umwandeln möchten. Alle Teilnehmer, die an der Besprechung per Einwahl teilnehmen, bevor der Organisator gestartet in der Lobby eingefügt werden und Musik überwacht werden halten. Nachdem der Organisator er beginnt mit seinem Audio Conferencing PIN eingeben, werden alle Teilnehmer in der Lobby automatisch der Besprechung teilnehmen.
+- **Option #1**: Wenn der Besprechungsorganisator und alle Teilnehmer über ein Telefon an einer Besprechung teilnehmen, muss der Besprechungsorganisator die PIN für die Audiokonferenz eingeben, um ihn zu starten. Anrufer werden gefragt, ob Sie sich als Organisator einer bestimmten Besprechung authentifizieren möchten, wenn Sie die Telefonnummer einer Onlinebesprechung wählen. Alle Teilnehmer, die sich per Einwahl an der Besprechung beteiligen, bevor der Organisator beginnt, werden in der Lobby gespeichert und hören Musik in Wartestellung. Bei Skype for Business-Besprechungen werden alle Teilnehmer in der Lobby automatisch an der Besprechung teilnehmen, sobald der Organisator Sie durch Eingabe der Audiokonferenz-Pin gestartet hat. Bei Microsoft Teams-Besprechungen werden die Teilnehmer entsprechend dem Wert der Einstellung Personen automatisch zulassen in der Besprechungsrichtlinie des Organisators an der Besprechung teilnehmen.
 
-- **Option 2**: Wenn die Einstellung "Zulassen nicht authentifizierte Anrufer werden die ersten Personen in einer Besprechung" (standardmäßig deaktiviert) für den Organisator einer bestimmten aktiviert ist, werden alle von diesem Benutzer geplante Besprechungen gestartet werden, ohne den Organisator müssen seine Eingaben oder Ihr Audiokonferenzen PIN. Wenn diese Einstellung aktiviert ist, wird die Besprechung beginnen, sobald der erste Teilnehmer beigetreten ist es über eine Zugriffsnummer für Einwahl Telefonnummer ein, und er wird nicht in der Lobby. Weitere Informationen finden Sie unter [Einstellungen für einen Benutzer in Microsoft-Teams, Audiokonferenzen verwalten](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) oder [Audiokonferenzen Verwalten von Einstellungen für einen Benutzer in Skype für Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
+- **Option #2**: Wenn die Einstellung "nicht authentifizierte Anrufer als erste Personen in einer Besprechung zulassen" (standardmäßig deaktiviert) für einen bestimmten Organisator aktiviert ist, können alle von diesem Benutzer geplanten Besprechungen gestartet werden, ohne dass der Organisator seine oder Ihre Audiokonferenz-PIN. Wenn diese Einstellung aktiviert ist, wird die Besprechung gestartet, sobald der erste Teilnehmer Sie über eine Einwahl Telefonnummer anschließt und nicht in die Lobby gestellt wird. Weitere Informationen finden Sie unter [Verwalten von Einstellungen für Audiokonferenzen für einen Benutzer in Microsoft Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) oder Verwalten von audiokonferenzeinstellungen [für einen Benutzer in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
    
 ## <a name="related-topics"></a>Verwandte Themen
 

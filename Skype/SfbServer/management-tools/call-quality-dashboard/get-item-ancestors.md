@@ -4,48 +4,48 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
-description: 'Zusammenfassung: Informationen Sie zum Vorgang Element Vorgänger erhalten möchten, der Teil der Element-Dienst ist. Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 22672146ec9ab071041c85c31a466d766ffe31b9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang "Element Vorgänger abrufen", der Teil des Element Diensts ist. Der Element Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: 77fb5f46ada278bcb172a51620317182fe5d61b0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930637"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274730"
 ---
 # <a name="get-item-ancestors"></a>Abrufen von übergeordneten Elementen
  
-**Zusammenfassung:** Informationen Sie zum Vorgang Element Vorgänger erhalten möchten, der Teil der Element-Dienst ist. Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Vorgang "Element Vorgänger abrufen", der Teil des Element Diensts ist. Der Element Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.
   
-Der erste Artikel Vorgänger Vorgang ist Teil des Diensts Element in der Repository-API für die Qualitätsdashboard aufrufen.
+Der Vorgang Element Vorgänger abrufen ist Teil des Element Diensts in der Repository-API für das Anruf Qualitäts Dashboard.
   
 ## <a name="get-item-ancestors"></a>Abrufen von übergeordneten Elementen
 
-Get-Element Vorgänger gibt ein Vorgänger bestimmte Elemente aus dem Repository zurück.
+Get Item Ancestors gibt ein bestimmtes Element aus dem Repository zurück.
   
 
 |**Methode**|**Anforderungs-URI**|**HTTP-Version**|
 |:-----|:-----|:-----|
-|Erhalten  <br/> |https://\<Portal\>/QoERepositoryService/Repository/ItemAncestors / {ItemId}  <br/> |HTTP/1.1  <br/> |
+|Erhalten  <br/> |https://\<-\>Portal/QoERepositoryService/Repository/itemAncestors/{Itemid}  <br/> |HTTP/1.1  <br/> |
    
- **URI-Parameter** - None.
+ **URI-Parameter** -None.
   
- **Anfordern von Kopfzeilen** - keine zusätzlichen Header.
+ **Anforderungs Kopfzeilen** – keine zusätzlichen Überschriften.
   
- **Anforderungstextkörper** – None.
+ **Anforderungstext** – keine.
   
- **Antwort** - die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheader.
+ **Antwort** – die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheadern.
   
- **Statuscode** - eine erfolgreiche Ausführung Gibt Statuscode 200 (OK). Wenn einen angegebenen Benutzer-ID nicht gefunden wurde, wird der Statuscode 404 (nicht gefunden) zurückgegeben.
+ **Statuscode** – ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück. Wenn keine angegebene Benutzer-ID gefunden wird, wird der Statuscode 404 (nicht gefunden) zurückgegeben.
   
- **Antwortheader** - keine zusätzlichen Header.
+ **Antwortheader** – keine zusätzlichen Überschriften.
   
- **Antworttext** - ist im folgenden Beispiel Antwort Nutzlast in JSON.
+ **Antworttext** : Nachfolgend finden Sie eine Beispielantwort Nutzlast in JSON.
   
 ```
 [{
@@ -60,10 +60,10 @@ Get-Element Vorgänger gibt ein Vorgänger bestimmte Elemente aus dem Repository
 }]
 ```
 
- *Item1* - ID des Elements.
+ *Element1* -ID des Elements.
   
- *Item2* - Tiefe wird der Abstand zwischen dem Element. 0 ist der unmittelbar übergeordnet.
+ *Element2* -depth ist der Abstand vom Element. 0 ist das unmittelbar übergeordnete Element.
   
- *Item3* - Titel des Elements.
+ *Item3* -Titel des Elements.
   
 

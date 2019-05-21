@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,26 +18,26 @@ f1keywords:
 - ms.lync.lac.OrgMobileNotification
 ms.custom:
 - Setup
-description: Erfahren Sie, wie Mobiltelefon Benachrichtigungen aktivieren oder deaktivieren, damit die Benutzer die Benachrichtigungen über eingehende, Voicemail empfangen können und entgangene Sofortnachrichten.
-ms.openlocfilehash: 40d71ba5a3106e9ae33e5f39a504e1e413a58af1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Hier erfahren Sie, wie Sie Benachrichtigungen über Mobiltelefone aktivieren oder deaktivieren können, damit Ihre Benutzer Benachrichtigungen zu eingehenden, Voicemail-und verpassten Sofortnachrichten erhalten.
+ms.openlocfilehash: 46d1f6d0f28f9236a16a4818359b45909c216f0b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226397"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285024"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Aus- oder Einschalten von Mobiltelefonbenachrichtigungen
 
-Als das **[Zuweisen von Administratorrollen in Office 365 für Unternehmen](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** für Ihre Organisation können Sie auswählen, ob Ihre Skype für Unternehmensbenutzer erhalten Warnungen zu ein- und verpassten Sofortnachrichten, wenn sie sich auf ihre Mobiltelefone oder Tablets befinden.
+Als **[Zuweisen von Administratorrollen in Office 365 for Business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** für Ihre Organisation können Sie auswählen, ob Ihre Skype for Business-Benutzer Benachrichtigungen über eingehende und verpasste Sofortnachrichten erhalten, wenn Sie sich auf ihren Mobiltelefonen oder Tablets befinden.
   
 Auf Mobiltelefonen unter Android und Windows Phone werden Skype for Business-Benachrichtigungen in Echtzeit angezeigt. Bei Geräten mit Windows Phone, bei iPhone und iPad werden hingegen Pushbenachrichtigungen verwendet, um immer dann Benachrichtigungen anzuzeigen, wenn Sie Skype for Business auf dem Mobiltelefon oder Tablet-PC gerade nicht aktiv verwenden.
   
 ## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>So schalten Sie Pushbenachrichtigungen für alle Windows Phone- oder Apple-Geräte in Ihrer Organisation aus
 <a name="__top"> </a>
 
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
 
-1. Melden Sie sich bei Office 365.
+1. Anmelden bei Office 365
     
 2. Navigieren Sie zum **Office 365 Admin Center** > **Skype for Business**.
     

@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Hier erfahren Sie, wie Sie Skype for Business so einrichten, dass für die standardmäßige Voicemail-Ansage Ihrer Organisation eine andere Sprache verwendet wird. '
-ms.openlocfilehash: 78bb744fc00f81c18bd411d2a79367d2e4c9e216
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: f36ab76f0a83fc71f9d7ca668020dcd30f4808d6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33995167"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283456"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Ändern der Standardsprache für Ansagen und E-Mails
 
@@ -43,13 +43,13 @@ Wenn Sie [globaler Office 365-Administrator](https://support.office.com/article
   
 - **Möchten Sie Ihre ausgehende Voicemail-Nachricht aufzeichnen?** Lesen Sie [Überprüfen von Skype for Business-Voicemail und -Optionen](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
 
-- **Möchten Sie die Voicemail Prompt Sprache ändern?** Wechseln Sie zu [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) , und wählen Sie eine neue Sprache unter **Sprache Prompt**.
+- **Möchten Sie die Sprache für die Voicemail-Ansage ändern?** Wechseln Sie [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) zu, und wählen Sie unter **Ansage Sprache**eine neue Sprache aus.
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Ändern der Systemsprache für alle Benutzer in der Organisation
 
-1. Melden Sie sich mit Ihrer [Office 365 globaler Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) -Konto bei[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
+1. Registrieren Sie sich[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)bei Ihrem [globalen Office 365-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Konto. 
     
-2. Wählen Sie in der Microsoft-365-Verwaltungskonsole **Einstellungen** > **Profil des Unternehmens**. 
+2. Wählen Sie im Microsoft 365 Admin Center **Einstellungen** > **Organisationsprofil**aus. 
     
      ![Choose Settings and then choose Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
@@ -67,7 +67,7 @@ Wenn Sie [globaler Office 365-Administrator](https://support.office.com/article
     
 - [Einrichten von Anrufplänen](set-up-calling-plans.md)
     
-- [Planen der Telefonsystem in Office 365 mit lokalen PSTN-Konnektivität in Skype Business Server](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [Planen des Telefonsystems in Office 365 mit lokalem PSTN-Konnektivität in Skype for Business Server](https://go.microsoft.com/fwlink/?LinkId=717947)
     
 ## <a name="related-topics"></a>Verwandte Themen
 

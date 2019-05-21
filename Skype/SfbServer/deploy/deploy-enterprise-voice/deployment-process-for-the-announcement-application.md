@@ -1,10 +1,10 @@
 ---
-title: Bereitstellungsprozess für die ansageanwendung in Skype für Business Server
+title: Bereitstellungsprozess für die Ankündigungs Anwendung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,29 +13,29 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
-description: Bereitstellungsprozess und Schritte für die ansageanwendung in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 27e22c95e58ac84fa3f27aef8b2d18cb1b1226dc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Bereitstellungsprozess und Schritte zur Ankündigungs Anwendung in Skype for Business Server Enterprise-VoIP
+ms.openlocfilehash: 77d15c4ce749a97ec11ed5d5e083ccf6fa2aecfa
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892559"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275608"
 ---
-# <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Bereitstellungsprozess für die ansageanwendung in Skype für Business Server
+# <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Bereitstellungsprozess für die Ankündigungs Anwendung in Skype for Business Server
  
-Bereitstellungsprozess und Schritte für die ansageanwendung in Skype für Business Server Enterprise-VoIP.
+Bereitstellungsprozess und Schritte zur Ankündigungs Anwendung in Skype for Business Server Enterprise-VoIP
   
-Der ankündigungsanwendung ist eine Enterprise-VoIP-Funktion, mit der Benutzer konfigurieren, was geschieht, wenn Anrufe an nicht zugewiesene Durchwahlnummern (Durchwahlnummern, die für Ihre Organisation gültig sind, aber nicht an eine Person oder ein Telefon zugewiesen werden). Beispielsweise können Sie eine Nachricht wiedergegeben oder in ein anderes Ziel oder beides übertragen werden Anrufe bei nicht zugewiesenen Nummern konfigurieren.
+Bei der Ankündigungs Anwendung handelt es sich um ein Enterprise-VoIP-Feature, mit dem Sie konfigurieren können, was mit Anrufen zu nicht zugewiesenen Erweiterungen geschieht (Erweiterungen, die für Ihre Organisation gültig sind, aber keiner Person oder einem Telefon zugeordnet sind). So können Sie beispielsweise Anrufe an nicht zugewiesene Nummern konfigurieren, um eine Nachricht wiederzugeben oder an ein anderes Ziel oder beides übertragen zu werden.
   
-Der ankündigungsanwendung wird als Feature von Anwendung "Reaktionsgruppe" auf dem Front-End-Server oder Standard Edition-Server installiert, bei der Bereitstellung von Enterprise-VoIP. Sie müssen Ansagen konfigurieren, indem Sie Audiodateien hochladen oder die Text-zu-Sprache-Funktion und die Tabelle nicht zugewiesener Nummern konfigurieren.
+Die Ankündigungs Anwendung wird auf dem Front-End-Server oder Standard Edition-Server als Feature der reaktionsgruppenanwendung installiert, wenn Sie Enterprise-VoIP bereitstellen. Sie müssen Ansagen konfigurieren, indem Sie Audiodateien hochladen oder die Text-zu-Sprache-Funktion und die Tabelle nicht zugewiesener Nummern konfigurieren.
   
-Dieser Abschnitt enthält eine Übersicht über die Schritte zum Bereitstellen der ankündigungsanwendung. Sie müssen Enterprise-VoIP bereitstellen, vor dem Konfigurieren von Ansagen. Von der Anwendung Ankündigung erforderlichen Komponenten werden installiert und bei der Bereitstellung von Enterprise-VoIP aktiviert.
+Dieser Abschnitt enthält eine Übersicht über die Schritte, die beim Bereitstellen der Ankündigungs Anwendung erforderlich sind. Sie müssen Enterprise-VoIP bereitstellen, bevor Sie Ankündigungen konfigurieren. Die von der Ankündigungs Anwendung benötigten Komponenten werden bei der Bereitstellung von Enterprise-VoIP installiert und aktiviert.
   
 **Bereitstellungsprozess für Ansagen**
 
 |**Phase**|**Schritte**|**Rollen**|**Bereitstellungsdokumentation**|
 |:-----|:-----|:-----|:-----|
-|Konfigurieren von Ansageeinstellungen  <br/> | Erstellen Sie die Ansage durch Aufzeichnen und Hochladen von Audiodateien oder unter Verwendung der Text-zu-Sprache-Funktion (TTS) <br/>  Konfigurieren Sie die Bereiche nicht zugewiesener Nummern in der Tabelle nicht zugewiesener Nummern und ordnen Sie diese Bereiche der geeigneten Ansage zu. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> |[Erstellen oder Löschen einer Ankündigung in Skype für Business Server](create-an-announcement.md) <br/> [Erstellen Sie oder ändern Sie einen Bereichs nicht zugewiesenen Nummern in Skype für Business Server](create-or-modify-an-unassigned-number-range.md) <br/> |
-|Überprüfen Ihrer Bereitstellung von Ansagen  <br/> |Testen Sie die Wiedergabe von Ansagen, um zu überprüfen, ob Ihre Konfiguration das erwartete Verhalten aufweist.  <br/> |-  <br/> |[(Optional) Überprüfen der ansagebereitstellung in Skype für Unternehmen](optional-verify-announcement-deployment.md) <br/> |
+|Konfigurieren von Ansageeinstellungen  <br/> | Erstellen Sie die Ansage durch Aufzeichnen und Hochladen von Audiodateien oder unter Verwendung der Text-zu-Sprache-Funktion (TTS) <br/>  Konfigurieren Sie die Bereiche nicht zugewiesener Nummern in der Tabelle nicht zugewiesener Nummern und ordnen Sie diese Bereiche der geeigneten Ansage zu. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> |[Erstellen oder Löschen einer Ankündigung in Skype for Business Server](create-an-announcement.md) <br/> [Erstellen oder Ändern eines nicht zugewiesenen Nummernbereichs in Skype for Business Server](create-or-modify-an-unassigned-number-range.md) <br/> |
+|Überprüfen Ihrer Bereitstellung von Ansagen  <br/> |Testen Sie die Wiedergabe von Ansagen, um zu überprüfen, ob Ihre Konfiguration das erwartete Verhalten aufweist.  <br/> |-  <br/> |[Optional Überprüfen der Ankündigungs Bereitstellung in Skype for Business](optional-verify-announcement-deployment.md) <br/> |
    
 

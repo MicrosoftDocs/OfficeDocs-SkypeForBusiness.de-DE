@@ -1,10 +1,10 @@
 ---
-title: Schließen Sie das sicherheitsdesk in Skype für Business Server
+title: Einbeziehen des Security Desks in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
-description: Planen der sicherheitsdesk Ihrer Organisation in einer E9-1-1-Bereitstellung in Skype für Business Server Enterprise-VoIP eingeschlossen.
-ms.openlocfilehash: d52d5dcd1c7cfb0cbb9db16740734b0171b44449
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Planen Sie, wie Sie den Security Desk Ihrer Organisation in eine E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP einbeziehen möchten.
+ms.openlocfilehash: 7be3533879f36c897d148194345e1496945359b6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913470"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276454"
 ---
-# <a name="include-the-security-desk-in-skype-for-business-server"></a>Schließen Sie das sicherheitsdesk in Skype für Business Server
+# <a name="include-the-security-desk-in-skype-for-business-server"></a>Einbeziehen des Security Desks in Skype for Business Server
  
-Planen der sicherheitsdesk Ihrer Organisation in einer E9-1-1-Bereitstellung in Skype für Business Server Enterprise-VoIP eingeschlossen.
+Planen Sie, wie Sie den Security Desk Ihrer Organisation in eine E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP einbeziehen möchten.
   
 In Ihrem Unternehmen soll möglicherweise das Sicherheitsdesk in die Konfiguration für Notrufe eingebunden werden. Um entscheiden zu können, wie das Sicherheitsdesk in Ihre E9-1-1-Bereitstellung integriert werden kann, müssen Sie die folgenden Fragen beantworten.
   
 **Soll das Sicherheitsdesk benachrichtigt werden, wenn ein Notruf abgesetzt wird?**
   
-Sie können die Standortrichtlinie konfigurieren, sodass Skype für Business Server instant messaging (IM)-Benachrichtigungen an die Skype für Business SIP-Adressen des Sicherheitspersonals für eine oder mehrere sendet. Diese Warnungen enthalten die Namen sowie die Anzahl und Standort der Person, die den Notruf platzieren und Sicherheitspersonals Unterstützung bei der Notfallsituation erleichtern.
+Sie können die ortungsrichtlinie so konfigurieren, dass Skype for Business Server Sofortnachrichten (im) an die Skype for Business-SIP-Adressen von einem oder mehreren Sicherheitspersonal sendet. Diese Benachrichtigungen enthalten den Namen, die Nummer und den Standort der Person, die den Notruf durchführt, und erleichtert das Sicherheitspersonal bei der Unterstützung der Notfallsituation.
     
 **Möchten Sie für Notrufe eine Konferenzschaltung mit dem Sicherheitsdesk einrichten?**
   

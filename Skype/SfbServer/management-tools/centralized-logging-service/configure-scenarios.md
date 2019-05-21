@@ -5,30 +5,30 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
-description: 'Zusammenfassung: Informationen Sie zum Erstellen, ändern und Szenarien für die zentralisierte Protokollierungsdienst in Skype für Business Server 2015 zu entfernen.'
-ms.openlocfilehash: 59821fd0feeed8895d4c0a201b6fdd3f5b4e62e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Szenarien für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015 erstellen, ändern und entfernen.'
+ms.openlocfilehash: 89aa0c37dfb13f7614067b64e37ee9c9fb376331
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914975"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274436"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Konfigurieren von Szenarien für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015
  
-**Zusammenfassung:** Erfahren Sie, wie das Erstellen, ändern und Szenarien für die zentralisierte Protokollierungsdienst in Skype für Business Server 2015 zu entfernen.
+**Zusammenfassung:** Erfahren Sie, wie Sie Szenarien für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015 erstellen, ändern und entfernen können.
   
-Szenarien definieren des Bereichs (d. h., global, Standort, Pool oder Computer) und welche Anbieter in der zentralisierte Protokollierungsdienst verwenden. Mithilfe von Szenarien können Sie die Ablaufverfolgung für Dienstanbieter aktivieren oder deaktivieren (z. B. bezüglich S4, SIPStack, IM und Anwesenheit). Durch das Konfigurieren eines Szenarios können Sie alle Dienstanbieter für eine bestimmte logische Sammlung gruppieren, die sich mit einem bestimmten Problemzustand befassen. Wenn Sie feststellen, dass ein Szenario werden, um die Problembehandlung und Protokollierung Anforderungen erfüllen geändert muss, enthält die Skype für Business Server 2015-Tools zum Debuggen einer Windows PowerShell-Modul mit dem Namen ClsScenarioEdit.psm1, die eine Funktion NamedEdit-CsClsScenario enthält. Dieses Modul soll dazu dienen, die Eigenschaften des betreffenden Szenarios zu bearbeiten. Beispiele für die Funktionsweise des Moduls erhalten Sie in diesem Thema. Herunterladen Sie die Skype für Business Server 2015 [Debugtools](https://go.microsoft.com/fwlink/p/?LinkId=285257) bevor Sie fortfahren alle.
+Szenarien definieren den Bereich (Global, Site, Pool oder Computer) und welche Anbieter im zentralisierten Protokollierungsdienst zu verwenden sind. Mithilfe von Szenarien können Sie die Ablaufverfolgung für Dienstanbieter aktivieren oder deaktivieren (z. B. bezüglich S4, SIPStack, IM und Anwesenheit). Durch das Konfigurieren eines Szenarios können Sie alle Dienstanbieter für eine bestimmte logische Sammlung gruppieren, die sich mit einem bestimmten Problemzustand befassen. Wenn Sie feststellen, dass ein Szenario geändert werden muss, um die Anforderungen zur Problembehandlung und Protokollierung zu erfüllen, bietet Ihnen Skype for Business Server 2015 Debug Tools ein Windows PowerShell-Modul mit dem Namen "ClsScenarioEdit. psm1", das eine Funktion namedEdit-CsClsScenario enthält. Dieses Modul soll dazu dienen, die Eigenschaften des betreffenden Szenarios zu bearbeiten. Beispiele für die Funktionsweise des Moduls erhalten Sie in diesem Thema. Laden Sie die [Debug-Tools](https://go.microsoft.com/fwlink/p/?LinkId=285257) von Skype for Business Server 2015 herunter, bevor Sie fortfahren.
   
 > [!IMPORTANT]
-> Für eine angegebenen Bereich – globale Website, Pool oder Computer – Sie können bis zu zwei Szenarien zu einem bestimmten Zeitpunkt ausführen. Um zu ermitteln, welche Szenarien derzeit ausgeführt werden, verwenden Sie Windows PowerShell und [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps). Mithilfe von Windows PowerShell und [Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)können Sie dynamisch ändern, welche Szenarien ausgeführt werden. Sie können ändern, welche Szenarien ausgeführt werden, während eine protokollierungssitzung anpassen oder verfeinern, die Sie sammeln Daten und über welche Anbieter. 
+> Für einen bestimmten Bereich – Website, Global, Pool oder Computer – können Sie maximal zwei Szenarien zu einem bestimmten Zeitpunkt ausführen. Um zu ermitteln, welche Szenarien zurzeit ausgeführt werden, verwenden Sie Windows PowerShell und [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps). Mithilfe von Windows PowerShell und der [CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)können Sie dynamisch ändern, welche Szenarien ausgeführt werden. Sie können ändern, welche Szenarien während einer Protokollierungssitzung ausgeführt werden, um die Daten, die Sie sammeln, und von welchen Anbietern anzupassen oder zu verfeinern. 
   
-Um die Centralized Logging Service-Funktionen mit der Skype für Business Server-Verwaltungsshell ausführen, müssen Sie Mitglied der Administratorrolle CsAdministrator oder der Sicherheitsgruppen CsServerAdministrator rollenbasierten Zugriffssteuerung (RBAC) oder eine benutzerdefinierte RBAC-Rolle sein, enthält eine der beiden Gruppen. Zum Zurückgeben einer Liste von allen RBAC Befehl Rollen, die dieses Cmdlet, einschließlich Sie selbst erstellt haben alle benutzerdefinierten RBAC-Rollen zugewiesen wurde dem folgenden aus der Skype für Business Server-Verwaltungsshell oder der Windows PowerShell-Eingabeaufforderung:
+Wenn Sie die Funktionen für den zentralisierten Protokollierungsdienst mithilfe der Skype for Business Server-Verwaltungsshell ausführen möchten, müssen Sie Mitglied der CsAdministrator-oder CsServerAdministrator-Sicherheitsgruppe (Role-Based Access Control, RBAC) oder einer benutzerdefinierten RBAC-Rolle sein, die enthält eine dieser beiden Gruppen. Führen Sie den folgenden Befehl aus der Skype for Business Server-Verwaltungsshell oder der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde, einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben:
   
 ```
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -40,18 +40,18 @@ Beispiel:
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
-Nachfolgend wird beschrieben, wie Sie ein Szenario definieren, ein Szenario ändern, wie Sie abrufen, welche Szenarien ausgeführt werden, wie Sie ein Szenario entfernen und wie Sie die Inhalte eines Szenarios auf eine optimale Problembehandlung abstimmen können. Sie können die Skype für Business Server-Verwaltungsshell zum Ausstellen von Windows PowerShell-Befehle verwenden. Wenn Sie Windows PowerShell verwenden, können Sie neue Szenarien für die Verwendung in Ihrer protokollierungssitzungen definieren.
+Nachfolgend wird beschrieben, wie Sie ein Szenario definieren, ein Szenario ändern, wie Sie abrufen, welche Szenarien ausgeführt werden, wie Sie ein Szenario entfernen und wie Sie die Inhalte eines Szenarios auf eine optimale Problembehandlung abstimmen können. Sie können die Skype for Business Server-Verwaltungsshell zum Ausgeben von Windows PowerShell-Befehlen verwenden. Wenn Sie Windows PowerShell verwenden, können Sie neue Szenarien für die Verwendung in ihren Protokollierungssitzungen definieren.
   
-Wie in [Centralized Logging Service in Skype für Business 2015](centralized-logging-service.md)eingeführt, sind die Elemente eines Szenarios:
+Wie im [zentralisierten Protokollierungsdienst in Skype for Business 2015](centralized-logging-service.md)eingeführt, sind die Elemente eines Szenarios:
   
-- **Anbieter** Wenn Sie mit OCSLogger vertraut sind, sind Anbieter die Komponenten, die Sie angeben, dass OCSLogger feststellen, welche die Verfolgung Engine Protokolle erfassen sollten. Der Anbieter sind die gleichen Komponenten und in vielen Fällen haben, die denselben Namen wie die Komponenten in OCSLogger. Wenn Sie nicht mit OCSLogger vertraut sind, sind Anbieter für bestimmte Komponenten von Server-Rolle, dass der zentralisierte Protokollierungsdienst sammeln können Protokolle aus. Ausführliche Informationen zur Konfiguration der Anbieter finden Sie unter [Konfigurieren von Anbietern für Centralized Logging Service in Skype für Business Server 2015](configure-providers.md).
+- **Anbieter** Wenn Sie mit OCSLogger vertraut sind, sind Anbieter die Komponenten, die Sie angeben, um OCSLogger zu informieren, von welchem das Ablaufverfolgungsmodul Protokolle sammeln soll. Die Anbieter sind die gleichen Komponenten und haben in vielen Fällen denselben Namen wie die Komponenten in OCSLogger. Wenn Sie mit OCSLogger nicht vertraut sind, sind Anbieterserver rollenspezifische Komponenten, von denen der zentralisierte Protokollierungsdienst Protokolle sammeln kann. Details zur Konfiguration von Anbietern finden Sie unter [Konfigurieren von Anbietern für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015](configure-providers.md).
     
-- **Identität** Der Parameter-Identität festgelegt, den Bereich und den Namen des Szenarios. Beispielsweise konnte Sie einen Bereich von "global" festgelegt und das Szenario mit "LyssServiceScenario" identifizieren. Wenn Sie die beiden kombinieren, definieren Sie die Identität (z. B. "global/LyssServiceScenario").
+- **Identität** Die Parameter-Identity legt den Bereich und den Namen des Szenarios fest. So können Sie beispielsweise einen Bereich von "Global" festlegen und das Szenario mit "LyssServiceScenario" identifizieren. Wenn Sie die beiden kombinieren, definieren Sie die Identität (beispielsweise "Global/LyssServiceScenario").
     
-    Optional können Sie die - Name "und" – Parent-Parameter. Sie definieren den Parameter „Name“, um das Szenario eindeutig zu identifizieren. Wenn Sie „Name“ verwenden, müssen Sie auch „Parent“ verwenden, um das Szenario entweder einem globalen oder einem standortweiten Geltungsbereich hinzuzufügen. 
+    Optional können Sie die Parameter-Name und-Parent verwenden. Sie definieren den Parameter „Name“, um das Szenario eindeutig zu identifizieren. Wenn Sie „Name“ verwenden, müssen Sie auch „Parent“ verwenden, um das Szenario entweder einem globalen oder einem standortweiten Geltungsbereich hinzuzufügen. 
     
     > [!IMPORTANT]
-    > Wenn Sie den Namen "und" Parent-Parameter verwenden, können keine der **-Identität** Parameter.
+    > Wenn Sie den Parameter Name und Parent verwenden, können Sie den Parameter **-Identity** nicht verwenden.
   
 ### <a name="to-create-a-new-scenario-with-the-new-csclsscenario-cmdlet"></a>So erstellen Sie ein neues Szenario mit dem Cmdlet „New-CsClsScenario“
 
@@ -73,7 +73,7 @@ Wie in [Centralized Logging Service in Skype für Business 2015](centralized-log
    New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
    ```
 
-    Alternatives Format mithilfe von-Name "und" – Parent:
+    Das alternative Format using-Name und-Parent:
     
    ```
    New-CsClsScenario -Name "LyssServiceScenario" -Parent "site:Redmond" -Provider $LyssProvider
@@ -83,20 +83,20 @@ Wie in [Centralized Logging Service in Skype für Business 2015](centralized-log
 
 1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
     
-2. Für jeweils einen Geltungsbereich können Sie nur zwei Szenarien erstellen. Sie sind jedoch nicht auf eine feste Anzahl von Anbietern beschränkt. In diesem Beispiel wird davon ausgegangen, dass drei Anbieter erstellt wurden, die Sie allesamt dem Szenario zuweisen möchten, das Sie soeben erstellen. Die Variablennamen der Anbieter lauten „LyssProvider“, „ABServerProvider“ und „SIPStackProvider“. Um zu definieren, und weisen Sie mehreren Anbietern zu einem Szenario, geben Sie an einer Skype für Business Server-Verwaltungsshell oder mit Windows PowerShell-Eingabeaufforderung Folgendes ein:
+2. Für jeweils einen Geltungsbereich können Sie nur zwei Szenarien erstellen. Sie sind jedoch nicht auf eine feste Anzahl von Anbietern beschränkt. In diesem Beispiel wird davon ausgegangen, dass drei Anbieter erstellt wurden, die Sie allesamt dem Szenario zuweisen möchten, das Sie soeben erstellen. Die Variablennamen der Anbieter lauten „LyssProvider“, „ABServerProvider“ und „SIPStackProvider“. Wenn Sie einem Szenario mehrere Anbieter definieren und zuweisen möchten, geben Sie Folgendes in einer Skype for Business Server-Verwaltungsshell oder Windows PowerShell-Eingabeaufforderung ein:
     
    ```
    New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
    ```
 
     > [!NOTE]
-    > Wie in folgende Konvention für die Erstellung einer Hashtabelle von Werten mithilfe von Windows PowerShell bekannt ist `@{<variable>=<value1>, <value2>, <value>…}` Assplatting bekannt ist. Ausführliche Informationen zu Splatting in Windows PowerShell finden Sie unter [https://go.microsoft.com/fwlink/p/?LinkId=267760](https://go.microsoft.com/fwlink/p/?LinkId=267760). 
+    > Wie es in Windows PowerShell bekannt ist, ist die Konvention zum Erstellen einer Hashtabelle mit Werten `@{<variable>=<value1>, <value2>, <value>…}` , die assplatting verwendet, bekannt. Ausführliche Informationen zu splatting in Windows PowerShell finden Sie [https://go.microsoft.com/fwlink/p/?LinkId=267760](https://go.microsoft.com/fwlink/p/?LinkId=267760)unter. 
   
 ### <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a>So ändern Sie ein vorhandenes Szenario mithilfe des Cmdlets „Set-CsClsScenario“
 
 1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
     
-2. Es gilt eine Beschränkung auf zwei Szenarien pro Geltungsbereich. Sie können jederzeit ändern, welche Szenarien ausgeführt werden, auch wenn gerade eine Protokollerfassungssitzung läuft. Falls Sie die ausgeführten Szenarien neu definieren, verwendet die aktuelle Protokollierungssitzung ab diesem Zeitpunkt nicht mehr das entfernte Szenario, sondern stattdessen das neue Szenario. Die Protokollinformationen, die im Rahmen des entfernten Szenarios erfasst wurden, verbleiben jedoch in den erfassten Protokollen. Um ein neues Szenario zu definieren, gehen Sie folgendermaßen (, die das Hinzufügen eines bereits definierten-Anbieters mit dem Namen "S4Provider" vorausgesetzt wird):
+2. Es gilt eine Beschränkung auf zwei Szenarien pro Geltungsbereich. Sie können jederzeit ändern, welche Szenarien ausgeführt werden, auch wenn gerade eine Protokollerfassungssitzung läuft. Falls Sie die ausgeführten Szenarien neu definieren, verwendet die aktuelle Protokollierungssitzung ab diesem Zeitpunkt nicht mehr das entfernte Szenario, sondern stattdessen das neue Szenario. Die Protokollinformationen, die im Rahmen des entfernten Szenarios erfasst wurden, verbleiben jedoch in den erfassten Protokollen. Wenn Sie ein neues Szenario definieren möchten, gehen Sie folgendermaßen vor (vorausgesetzt, es wird ein bereits definierter Anbieter mit dem Namen "S4Provider" hinzugefügt):
     
    ```
    Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
@@ -148,16 +148,16 @@ Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario. Die bereit
 1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
     
     > [!IMPORTANT]
-    > Das Modul „ClsScenarioEdit.psm1“ wird als separater Webdownload zur Verfügung gestellt. Das Modul ist Bestandteil der Skype für Business Server 2015 Debugging Tools. Die Debugtools werden standardmäßig im Ordner „C:\Programme\Skype for Business Server 2015\Debugging Tools“ installiert. 
+    > Das Modul „ClsScenarioEdit.psm1“ wird als separater Webdownload zur Verfügung gestellt. Das Modul ist Teil der Debug-Tools für Skype for Business Server 2015. Die Debugtools werden standardmäßig im Ordner „C:\Programme\Skype for Business Server 2015\Debugging Tools“ installiert. 
   
-2. Geben Sie von der Windows PowerShell Folgendes ein:
+2. Geben Sie in der Windows PowerShell Folgendes ein:
     
    ```
    Import-Module "CDBurn\OCO\amd64\Support"
    ```
 
     > [!TIP]
-    > Laden des Moduls gibt Sie an der Windows PowerShell-Eingabeaufforderung zurück. Um zu bestätigen, dass das Modul geladen ist und Edit-CsClsScenario verfügbar ist, geben Sie ein `Get-Help Edit-CsClsScenario`. Daraufhin sollte die grundlegende Kurzfassung der Syntax für „EditCsClsScenario“ angezeigt werden. 
+    > Durch erfolgreiches Laden des Moduls kehren Sie zur Windows PowerShell-Eingabeaufforderung zurück. Um zu überprüfen, ob das Modul geladen wurde und dass Edit-CsClsScenario verfügbar `Get-Help Edit-CsClsScenario`ist, geben Sie. Daraufhin sollte die grundlegende Kurzfassung der Syntax für „EditCsClsScenario“ angezeigt werden. 
   
 3. Geben Sie zum Entladen des Moduls Folgendes ein:
     
@@ -166,20 +166,20 @@ Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario. Die bereit
    ```
 
     > [!TIP]
-    > Erfolgreiche Entladen des Moduls gibt Sie an der Windows PowerShell-Eingabeaufforderung. Um zu bestätigen, dass das Modul entladen wird, geben Sie ein `Get-Help Edit-CsClsScenario`. Windows PowerShell versucht, suchen die Hilfe für das Cmdlet und ein Fehler auftritt. 
+    > Durch erfolgreiches Entladen des Moduls kehren Sie zur Windows PowerShell-Eingabeaufforderung zurück. Um zu bestätigen, dass das Modul entladen wird, geben `Get-Help Edit-CsClsScenario`Sie. Windows PowerShell versucht, die Hilfe für das Cmdlet zu finden, und es wird ein Fehler ausgeführt. 
   
 ### <a name="to-remove-an-existing-provider-from-a-scenario-with-the-edit-clscontroller-module"></a>So entfernen Sie einen vorhandenen Anbieter mithilfe des Edit-ClsController-Moduls aus einem Szenario
 
 1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
     
-2. Geben Sie von der Windows PowerShell Folgendes ein:
+2. Geben Sie in der Windows PowerShell Folgendes ein:
     
    ```
    Import-Module "CDBurn\OCO\amd64\Support"
    ```
 
     > [!TIP]
-    > Laden des Moduls gibt Sie an der Windows PowerShell-Eingabeaufforderung zurück. Um zu bestätigen, dass das Modul geladen ist und Edit-CsClsScenario verfügbar ist, geben Sie ein `Get-Help Edit-CsClsScenario`. Daraufhin sollte die grundlegende Kurzfassung der Syntax für „EditCsClsScenario“ angezeigt werden. 
+    > Durch erfolgreiches Laden des Moduls kehren Sie zur Windows PowerShell-Eingabeaufforderung zurück. Um zu überprüfen, ob das Modul geladen wurde und dass Edit-CsClsScenario verfügbar `Get-Help Edit-CsClsScenario`ist, geben Sie. Daraufhin sollte die grundlegende Kurzfassung der Syntax für „EditCsClsScenario“ angezeigt werden. 
   
 3. Geben Sie Folgendes ein, um einen Anbieter aus dem Szenario „AlwaysOn“ zu entfernen:
     
@@ -199,7 +199,7 @@ Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario. Die bereit
    Edit-CsClsScenario AlwaysOn ChatServer -Remove
    ```
 
-   Die positionelle Platzieren der Parameterwerte bezieht sich nur auf - Szenario und -Anbieter. Alle anderen Parameter müssen explizit definiert werden.
+   Die Positions Platzierung der Parameterwerte gilt nur für Scenario und-Provider. Alle anderen Parameter müssen explizit definiert werden.
     
 ### <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a>So fügen Sie ein Szenario mit dem Modul „Edit-ClsController“ hinzu
 
@@ -217,7 +217,7 @@ Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario. Die bereit
    Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
    ```
 
-    Mögliche Typen für „-Loglevel“ sind „Fatal“, „Error“, „Warning“, „Info“, „Verbose“, „Debug“ oder „All“. -Flags kann eines der Flags, die der Anbieter unterstützt werden, beispielsweise TF_COMPONENT, TF_DIAG. -Flags können auch sein, der alle Wert
+    Mögliche Typen für „-Loglevel“ sind „Fatal“, „Error“, „Warning“, „Info“, „Verbose“, „Debug“ oder „All“. -Flags können beliebige der vom Anbieter unterstützten Flags sein, beispielsweise TF_COMPONENT, TF_DIAG. -Flags können auch vom Wert "alle" sein
     
    Das vorherige Beispiel kann auch mithilfe der Positionsfunktion des Cmdlets eingegeben werden. So würden Sie beispielsweise Folgendes eingeben, um „ChatServer“ zum Szenario „AlwaysOn“ hinzuzufügen:
     

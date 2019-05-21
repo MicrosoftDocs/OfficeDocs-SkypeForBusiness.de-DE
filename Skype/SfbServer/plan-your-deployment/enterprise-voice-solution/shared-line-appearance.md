@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/21/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,21 +14,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
-description: In diesem Thema erfahren, wie für freigegebene Zeile Darstellung (SLA) in Skype Business Server 2015 November 2015 geplant kumulative Update.
-ms.openlocfilehash: fa0d8923c234773e3b21ec43bca4c4d7aafde4df
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: In diesem Thema erfahren Sie, wie Sie in Skype for Business Server 2015, dem kumulativen Update vom November 2015, die gemeinsame Leitungsdarstellung (SLA) planen.
+ms.openlocfilehash: 966c9f32a27ba936e880bdb51690bcefed4ffbe4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913455"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276447"
 ---
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Planen der Funktion „Gemeinsame Leitungen“ in Skype for Business Server 2015
  
-In diesem Thema erfahren, wie für freigegebene Zeile Darstellung (SLA) in Skype Business Server 2015 November 2015 geplant kumulative Update. 
+In diesem Thema erfahren Sie, wie Sie in Skype for Business Server 2015, dem kumulativen Update vom November 2015, die gemeinsame Leitungsdarstellung (SLA) planen. 
   
-Darstellung einer freigegebenen Linie ist ein Feature in Skype für Unternehmen für die Verarbeitung mehrerer Anrufe an eine bestimmte Anzahl freigegebenen aufgerufen. SLA konfigurieren kann Enterprise Voice aktiviert Skype für Geschäftsbenutzer als freigegebene Zahl mit mehrere Zeilen auf mehrere Aufrufe reagieren. Die Anrufe werden nicht auf die freigegebenen Anzahl tatsächlich empfangen, sie werden stattdessen an Benutzer, die eine Stellvertretung für die freigegebenen Anzahl übernehmen weitergeleitet. Keines der Stellvertretungen kann Anruf auswählen, während Sie der Rest der Delegaten erhalten eine Benachrichtigung über ein Telefon zu, die den Anruf entnommen und welcher Zeile dementsprechend ausgelastet ist. Sowohl die Anzahl der Zeilen und an die Stellvertretungen können für eine freigegebene Zahl in SLA konfiguriert werden. Darüber hinaus erweiterte Optionen an, wie BusyOption (was in einer Situation geschieht, wenn alle Zeilen beschäftigt sind) und MissedCallOption (die Groß-/Kleinschreibung in welche die Stellvertretungen auswählen einen Aufruf keines), kann auch für eine freigegebene Anzahl konfiguriert werden.
+Die Darstellung der freigegebenen Zeile ist eine Funktion in Skype for Business für die Behandlung mehrerer Anrufe an eine bestimmte Nummer, die als freigegebene Nummer bezeichnet wird. SLA kann alle Enterprise-VoIP-aktivierten Skype for Business-Benutzer als freigegebene Nummer mit mehreren Zeilen konfigurieren, um auf mehrere Anrufe zu reagieren. Die Anrufe werden für die freigegebene Nummer nicht tatsächlich empfangen, sondern an Benutzer weitergeleitet, die als Stellvertretungen für die freigegebene Nummer fungieren. Jeder Delegierte kann den Anruf annehmen, während die restlichen Teilnehmer eine Benachrichtigung auf dem Telefon erhalten, wer den Anruf aufgenommen hat und welche Zeile damit ausgelastet ist. Die Anzahl der Zeilen und die Stellvertretungen können für eine freigegebene Nummer in SLA konfiguriert werden. Darüber hinaus können erweiterte Optionen wie BusyOption (was in einer Situation geschieht, wenn alle Zeilen ausgelastet sind) und MissedCallOption (der Fall, in dem keiner der Stellvertretungen einen Anruf annimmt) auch für eine freigegebene Nummer konfiguriert werden.
   
-SLA wird nur unter den folgenden Telefone unterstützt (es ist nicht für Skype für Business-Clients auf Computern, Mobiltelefone oder andere Geräte unterstützt): 
+SLA wird nur auf den folgenden Telefongeräten unterstützt (es wird nicht für Skype for Business-Clients auf Computern, Mobiltelefonen oder anderen Geräten unterstützt): 
   
 - Polycom VVX300 mit Firmwareupdate 5.4.1
     
@@ -38,7 +38,7 @@ SLA wird nur unter den folgenden Telefone unterstützt (es ist nicht für Skype 
     
 - Polycom VVX600 mit Firmwareupdate 5.4.1
     
-Vereinbarung zum SERVICELEVEL ist ein neues Feature in Skype für Business Server 2015 November Kumulatives Update. 
+SLA ist ein neues Feature in Skype for Business Server, 2015, Kumulatives Update vom November. 
   
 Informationen zum Bereitstellen von SLA finden Sie unter [Deploy Shared Line Appearance in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md).
   

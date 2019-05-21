@@ -12,31 +12,31 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Hier erfahren Sie, welche Informationen automatisch gesendet, Benutzern per e-Mail beim Ändern ihrer Einstellungen für einwahlkonferenzen in Skype für Business Online. '
-ms.openlocfilehash: 814414139c985de6571a7e48aeb0bff208aa9ce3
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+description: 'Informieren Sie sich, welche Informationen automatisch per e-Mail an Benutzer gesendet werden, wenn sich die Einstellungen für Einwahlkonferenzen in Skype for Business Online ändern. '
+ms.openlocfilehash: 7f16e4dfdb108111767f173295044ca4bdfc0475
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33865080"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275623"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>An Benutzer gesendete E-Mails, wenn ihre Einstellungen in Skype for Business Online geändert werden
 
 > [!Note]
 > Wenn Sie in Microsoft-Teams nach automatischen E-Mail-Informationen suchen, erhalten Sie weitere Informationen unter [Benutzer gesendete E-Mails, wenn ihre Einstellungen in Microsoft-Teams geändert werden](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams).
 
-E-Mails werden automatisch für Benutzer, die [für die Audiokonferenz aktiviert](set-up-audio-conferencing.md) werden gesendet mithilfe von Microsoft als Anbieter von Audiokonferenzen.
+E-Mail-Nachrichten werden automatisch an Benutzer gesendet, die [für Audiokonferenzen](set-up-audio-conferencing.md) mit Microsoft als Anbieter von Audiokonferenzen aktiviert sind.
   
 By default, there are four types of email that will be sent to your users who are enabled for Audio Conferencing. However, if you want to limit the number of emails sent to users, you can turn it off. Audio Conferencing in Office 365 will send email to your users' email when:
   
-- **Auf diese oder beim Ändern des Anbieters von Audiokonferenzen an Microsoft, wird eine Audiokonferenz-Lizenz zugewiesen.**
+- **Ihnen wird eine Lizenz für Audiokonferenzen zugewiesen, oder wenn Sie den Anbieter für Audiokonferenzen zu Microsoft ändern.**
     
      This email includes the conference ID, the default conference phone number for the meetings, the audio conferencing PIN for the user, and the instructions and link to use the Skype for Business Online Meeting Update Tool that is used to update existing meetings for the user. See [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) or [Assign Microsoft as the audio conferencing provider](assign-microsoft-as-the-audio-conferencing-provider.md).
     
@@ -47,7 +47,7 @@ By default, there are four types of email that will be sent to your users who ar
     
      ![Skype for Business Verify License](../images/audio-conferencing-user-enabled.png)
   
-    Sie können Skype erkunden für Business Lizenzierung von [Skype für Business Add-on Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)sehen.
+    Weitere Informationen zur Lizenzierung von Skype for Business finden Sie unter [Skype for Business-Add-on-Lizenzierung](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
 - **Sich die Konferenz-ID oder die Standardtelefonnummer eines Benutzers ändert.**
     
@@ -60,7 +60,7 @@ By default, there are four types of email that will be sent to your users who ar
     
      ![Die Informationen für Dial-In-Konferenzen wurden geändert.](../images/audio-conferencing-info-change.png)
   
-- **Die PIN eines Benutzers-Audiokonferenzen wird zurückgesetzt.**
+- **Die Audiokonferenz-PIN eines Benutzers wird zurückgesetzt.**
     
     This email contains the organizer's audio conferencing PIN, the existing conference ID, and default conference phone number for the user. See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).
     
@@ -71,7 +71,7 @@ By default, there are four types of email that will be sent to your users who ar
     
      ![Die PIN für die Dial-In-Konferenz wurde geändert.](../images/audio-conferencing-pin-has-changed.png)
   
-- **Lizenz des Benutzers entfernt wird oder wenn Audiokonferenzen ändert von Microsoft in anderen Anbieter oder keiner.**
+- **Die Lizenz eines Benutzers wird entfernt, oder der Audiokonferenz-Anbieter wechselt von Microsoft zu einem anderen Anbieter oder keiner.**
     
     This happens when the **Audio Conferencing** license is removed from a user or when changing the audio conferencing provider of a user from Microsoft to a third-party audio conferencing provider or when setting the provider to **None**. This email contains the instructions and information for the user to use the Skype for Business Online Meeting Update Tool to remove audio conferencing specific information, such as the default conference phone number or conference ID.
     
@@ -92,9 +92,9 @@ You can make changes to the email that is automatically sent to users including 
     
 - Den in der E-Mail angezeigten Namen in den Parameter  _SendEmailFromDisplayName_ eingeben.
     
-- Den Parameter _SendEmailOverride_ auf _True_festgelegt.
+- Setzen Sie den _SendEmailOverride_ -Parameter auf _true_.
     
-Sie können die Änderungen an der e-Mail an Benutzer, wie die e-Mail-Adresse, der von die e-Mail gesendet wird und den Anzeigenamen für die e-Mails, die durch Ausführen von vornehmen:
+Sie können Änderungen an der e-Mail vornehmen, die an Benutzer gesendet wird, beispielsweise die e-Mail-Adresse, von der die e-Mail gesendet wird, und den Anzeigenamen für die e-Mail, indem Sie Folgendes ausführen:
   
 ```
 Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble -SendEmailFromDisplayName "Amos Marble"
@@ -103,19 +103,19 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 > [!NOTE]
 >  If you want to change the email address information, you need to make sure that the inbound email policies of your environment allow emails that come from the custom specified from address. If you decide to override the *From* contact information, you should verify that the emails are correctly sent to users. You can do this by testing this with one user in your organization.
   
-Das Cmdlet " [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) " können Sie um andere Einstellungen für Ihre Organisation, einschließlich e-Mail zu verwalten.
+Sie können das Cmdlet " [Satz-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) " verwenden, um andere Einstellungen für Ihre Organisation, einschließlich e-Mail, zu verwalten.
   
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Wie gehen Sie vor, wenn Sie Benutzern keine E-Mails senden möchten?
 
 When you disable sending emails to users, email won't be sent even when a user gets assigned a license. In this case, the conference ID, default conferencing phone number, and, more importantly, their audio conferencing PIN won't be sent to the user. When this happens, you must tell the user by sending them a separate email or by calling them.
   
-In der Standardeinstellung e-Mails an Ihre Benutzer gesendet, aber wenn Sie zu empfangen von e-Mail für Audiokonferenzen verhindern möchten, können Sie die Skype Business-Verwaltungskonsole oder Windows PowerShell. 
+Standardmäßig werden e-Mails an Ihre Benutzer gesendet, aber wenn Sie verhindern möchten, dass Sie e-Mails für Audiokonferenzen empfangen, können Sie das Skype for Business Admin Center oder die Windows PowerShell verwenden. 
  
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png)  **mithilfe der Skype für Business Administrationscenter**
+![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png)  **mit dem Skype for Business Admin Center**
     
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
-2. Klicken Sie auf der Seite **Einstellungen für Microsoft-Brücke** de- **automatisch e-Mails an Benutzer senden, wenn Ändern ihrer Einstellungen für die Audiokonferenz**. 
+2. Aktivieren oder deaktivieren Sie auf der Seite **Einstellungen von Microsoft Bridge** **automatisch e-Mails an Benutzer senden, wenn sich Ihre audiokonferenzeinstellungen ändern**. 
     
 3. Klicken Sie auf **Speichern**. 
 
@@ -130,7 +130,7 @@ In der Standardeinstellung e-Mails an Ihre Benutzer gesendet, aber wenn Sie zu e
    Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $false
    ```
 
-Das Cmdlet " [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) " können Sie um andere Einstellungen für Ihre Organisation, einschließlich e-Mail zu verwalten.
+Sie können das Cmdlet " [Satz-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) " verwenden, um andere Einstellungen für Ihre Organisation, einschließlich e-Mail, zu verwalten.
   
 ## <a name="what-else-should-you-know-about-this-email"></a>Was sollten Sie sonst über diese E-Mails wissen?
 
@@ -144,7 +144,7 @@ Das Cmdlet " [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
-- Standardmäßig werden des Absenders der e-Mail von Office 365, aber Sie können die e-Mail-Adresse ändern und den Anzeigenamen von Windows PowerShell und das Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) .
+- Standardmäßig wird der Absender der e-Mails von Office 365, aber Sie können die e-Mail-Adresse und den Anzeigenamen mithilfe von Windows PowerShell und dem Cmdlet " [CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) " ändern.
     
 - Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     

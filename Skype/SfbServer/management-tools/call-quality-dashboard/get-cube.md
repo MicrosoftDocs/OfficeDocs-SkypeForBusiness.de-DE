@@ -4,51 +4,51 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
-description: 'Zusammenfassung: Informationen Sie zum Vorgang Cube abrufen, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 3d6d1ceecb330219bdc563ca126bb13c49d1902b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang zum Abrufen von Cubes, der Teil der Daten-API für das Dashboard für die Anrufqualität ist. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: 970187ce9f95700185ab09bd7aadf9045575b393
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886880"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274772"
 ---
 # <a name="get-cube"></a>Abrufen von Cubes
  
-**Zusammenfassung:** Informationen Sie zu den Cube abrufen-Vorgang, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Vorgang "Cube abrufen", der Teil der Daten-API für die Anrufqualität ist. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.
   
-Die erste Cube-Operation ist Teil der Daten-API für die Qualitätsdashboard aufrufen.
+Der Vorgang zum Abrufen von Cubes ist Teil der Daten-API für das Dashboard für die Anrufqualität.
   
 ## <a name="get-cube"></a>Abrufen von Cubes
 
-Get-Cube-Operation wird die Liste der verfügbaren Dimensionen und Maßeinheiten.
+Get Cube Operation gibt die Liste der verfügbaren Dimensionen und Maße zurück.
   
 
 |**Methode**|**Anforderungs-URI**|**HTTP-Version**|
 |:-----|:-----|:-----|
-|Erhalten  <br/> |https://\<Portal\>/QoEDataService/CubeStructure  <br/> |HTTP/1.1  <br/> |
+|Erhalten  <br/> |https://\<-\>Portal/QoEDataService/CubeStructure  <br/> |HTTP/1.1  <br/> |
    
- **URI-Parameter** - None.
+ **URI-Parameter** -None.
   
- **Anfordern von Kopfzeilen** - keine zusätzlichen Header.
+ **Anforderungs Kopfzeilen** – keine zusätzlichen Überschriften.
   
- **Anforderungstextkörper** – None.
+ **Anforderungstext** – keine.
   
- **Antwort** - die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheader.
+ **Antwort** – die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheadern.
   
- **Statuscode** - eine erfolgreiche Ausführung Gibt Statuscode 200 (OK).
+ **Statuscode** – ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
   
- **Antwortheader** - keine zusätzlichen Header.
+ **Antwortheader** – keine zusätzlichen Überschriften.
   
- **Antworttext** - ist im folgenden Beispiel Antwort Nutzlast in JSON.
+ **Antworttext** : Nachfolgend finden Sie eine Beispielantwort Nutzlast in JSON.
   
 > [!NOTE]
-> In diesem Beispiel werden die ersten zwei Elemente der einzelnen Gruppen der Cubeelemente nur angezeigt. 
+> In diesem Beispiel werden nur die ersten beiden Elemente der einzelnen Gruppen von Cube-Elementen angezeigt. 
   
 ```
 {
@@ -91,10 +91,10 @@ Get-Cube-Operation wird die Liste der verfügbaren Dimensionen und Maßeinheiten
 }
 ```
 
- *KPIs* - reserviert. Im Abschnitt Key Performance Indicators, der eine Anforderungsnutzlast ermöglicht ausführen Abfragevorgang für die KPIs, die im Cube definiert Werte zurückgeben. Keine KPIs vorhanden noch im QoE Cube.
+ *KPIs* – reserviert. Der KPI-Abschnitt einer Anforderungsnutzlast ermöglicht das Ausführen des Abfragevorgangs, um Werte für die im Cube definierten KPIs zurückzugeben. Im QoE-Cube sind noch keine KPIs vorhanden.
   
- *Dimensionen* - die Liste der Dimensionen, die in Filter und Dimensionen Abschnitten einer Anforderung Nutzlast für ausführen Abfragevorgang verwendet werden können. Um eine Dimension in einem Filterausdruck für verwenden, müssen Sie ein Dimensionselement angeben, die mit Dimensionselemente Get-Operation abgerufen werden können.
+ *Dimensionen* – die Liste der Dimensionen, die in den Abschnitten Filter und Dimensionen einer Anforderungsnutzlast für den Ausführungs Abfragevorgang verwendet werden können. Wenn Sie eine Dimension in einem Filterausdruck verwenden möchten, müssen Sie ein Dimensionselement angeben, das mithilfe von Get Dimension Member Operation abgerufen werden kann.
   
- *Maßeinheiten* – die Liste der Maßeinheiten, die im Abschnitt einer Anforderung Nutzlast Maßangaben für ausführen Abfragevorgang verwendet werden können.
+ *Maße* – die Liste der Messwerte, die im Abschnitt "Maße" einer Anforderungsnutzlast für die Ausführung des Abfragevorgangs verwendet werden können.
   
 

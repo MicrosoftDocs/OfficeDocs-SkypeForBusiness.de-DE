@@ -1,10 +1,10 @@
 ---
-title: Planen der ankündigungsanwendung in Skype für Unternehmen
+title: Planen der Ankündigungs Anwendung in Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,41 +13,41 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
-description: Planung für die ansageanwendung in Skype für Business Server Enterprise-VoIP, konfiguriert die auszuführende Aktion, mit dem Telefonanrufe an nicht zugewiesene Telefonnummern in Ihrer Organisation. Es konfiguriert, was mit nicht zugewiesenen Telefonnummern in Ihren Organisationen passiert und beinhaltet Audiodateianforderungen.
-ms.openlocfilehash: 0e0a020a1301e8b8369ffdecc2e9e67d74b5e7b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Planen der Ankündigungs Anwendung in Skype for Business Server Enterprise-VoIP, mit der festgelegt wird, was mit Telefon anrufen an nicht zugewiesene Telefonnummern in ihren Organisationen zu tun ist. Es konfiguriert, was mit nicht zugewiesenen Telefonnummern in Ihren Organisationen passiert und beinhaltet Audiodateianforderungen.
+ms.openlocfilehash: af7ce9fdcfa78daa875a4748eafac5020246b74b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33909358"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277132"
 ---
-# <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Planen der ankündigungsanwendung in Skype für Unternehmen
+# <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Planen der Ankündigungs Anwendung in Skype for Business
 
-Planung für die ansageanwendung in Skype für Business Server Enterprise-VoIP, konfiguriert die auszuführende Aktion, mit dem Telefonanrufe an nicht zugewiesene Telefonnummern in Ihrer Organisation. Es konfiguriert, was mit nicht zugewiesenen Telefonnummern in Ihren Organisationen passiert und beinhaltet Audiodateianforderungen.
+Planen der Ankündigungs Anwendung in Skype for Business Server Enterprise-VoIP, mit der festgelegt wird, was mit Telefon anrufen an nicht zugewiesene Telefonnummern in ihren Organisationen zu tun ist. Es konfiguriert, was mit nicht zugewiesenen Telefonnummern in Ihren Organisationen passiert und beinhaltet Audiodateianforderungen.
 
-Die Skype für Business Server ansageanwendung können Sie die Handhabung von Eingehende Telefonanrufe konfigurieren, wenn die gewählte Nummer für Ihre Organisation gültig ist, aber nicht für einen Benutzer oder ein Telefon zugewiesen wird. Sie können diese Anrufe an ein vorab festgelegtes Ziel (Rufnummer, SIP-URI oder Voicemail) übergeben oder eine Audioansage wiedergeben oder beides. Mithilfe der Ansageanwendung können Sie Situationen verhindern, in denen sich ein Anrufer verwählt und ein Besetztzeichen hört oder der SIP-Client eine Fehlermeldung erhält. Dieser Abschnitt bietet Informationen, die speziell für die ansageanwendung sind Planung
+Mit der Skype for Business Server-Ankündigungs Anwendung können Sie die Behandlung von eingehenden Telefon anrufen konfigurieren, wenn die gewählte Nummer für Ihre Organisation gültig ist, aber nicht einem Benutzer oder einem Telefon zugewiesen ist. Sie können diese Anrufe an ein vorab festgelegtes Ziel (Rufnummer, SIP-URI oder Voicemail) übergeben oder eine Audioansage wiedergeben oder beides. Mithilfe der Ansageanwendung können Sie Situationen verhindern, in denen sich ein Anrufer verwählt und ein Besetztzeichen hört oder der SIP-Client eine Fehlermeldung erhält. Dieser Abschnitt enthält Planungsinformationen, die für die Ankündigungs Anwendung spezifisch sind.
 
-Bei der Bereitstellung der ankündigungsanwendung müssen Sie einen Tabelle mit nicht zugewiesenen Nummern konfigurieren, der die Aktion ausgeführt werden, wenn jemand eine nicht zugewiesene Nummer anwählt bestimmt. Die Tabelle für nicht zugewiesene Nummern enthält Bereiche von Rufnummern, die für die Organisation gültig sind und gibt an, welche Anwendung Ankündigung jeweiligen Bereich behandelt. Wenn ein Anrufer eine Telefonnummer, die für Ihre Organisation gilt jedoch nicht für alle Benutzer zugewiesen ist wählt, Skype für die Zahl in der Tabelle nicht zugewiesener Nummern routing, Business Server nachschlägt identifiziert den Bereich liegt der Anzahl und leitet den Anruf an die Ansageanwendung für diesen Bereich angegeben. Der ankündigungsanwendung den Anruf annimmt und spielt eine audio-Nachricht (falls Sie dazu konfiguriert) und trennt den Anruf oder an ein vordefiniertes Ziel, wie beispielsweise an einen Operator überträgt. Skype für Business Server-Verwaltungsshell-Cmdlets können mehrere audio Nachrichten zu konfigurieren oder um Ziele zu übertragen.
+Wenn Sie die Ankündigungs Anwendung bereitstellen, müssen Sie eine Tabelle mit nicht zugewiesener Nummer konfigurieren, die bestimmt, welche Aktion ausgeführt werden soll, wenn eine andere Person eine nicht zugewiesene Nummer wählt. Die Tabelle "nicht zugewiesene Nummer" enthält Bereiche von Telefonnummern, die für die Organisation gültig sind, und gibt an, welche Ankündigungs Anwendung die einzelnen Bereiche verarbeitet. Wenn ein Anrufer eine Telefonnummer wählt, die für Ihre Organisation gültig ist, aber keiner Person zugewiesen ist, sucht Skype for Business Server die Nummer in der Routingtabelle nicht zugewiesene Nummer, gibt den Bereich an, in den die Nummer fällt, und leitet den Anruf an die Für diesen Bereich angegebene Ankündigungs Anwendung. Die Ankündigungs Anwendung beantwortet den Anruf und gibt eine Audionachricht wieder, wenn Sie Sie so konfiguriert haben, und trennt dann entweder den Anruf oder übergibt ihn an ein festgelegtes Ziel, beispielsweise an einen Operator. Sie können Cmdlets für die Skype for Business Server-Verwaltungsshell verwenden, um mehrere Audionachrichten zu konfigurieren oder Ziele zu übertragen.
 
 Wie Sie die Tabelle nicht zugewiesener Rufnummern konfigurieren, richtet sich danach, wie Sie sie verwenden möchten. Wenn Sie über bestimmte Nummern verfügen, die nicht mehr verwendet werden, und individuelle Nachrichten für jede dieser Nummern wiedergeben möchten, können Sie diese spezifischen Nummern in die Tabelle nicht zugewiesener Rufnummern eingeben. Wenn Sie beispielsweise die Nummer für Ihren Kundendienst ändern, können Sie die alte Rufnummer des Kundendiensts in die Tabelle eingeben und einer Ansage zuordnen, in der die neue Rufnummer bereitgestellt wird. Um eine allgemeine Nachricht für Anrufer wiederzugeben, die eine nicht zugewiesene Nummer wählen (z. B. für Mitarbeiter, die nicht mehr für Ihre Organisation tätig sind), können Sie Bereiche für alle gültigen Durchwahlnummern in Ihrer Organisation angeben. Die Tabelle nicht zugewiesener Rufnummern wird aufgerufen, sobald ein Anrufer eine Nummer wählt, die gegenwärtig nicht zugewiesen ist.
 
 ## <a name="deployment-and-requirements"></a>Bereitstellungen und Anforderungen
 
-Ankündigung der Anwendung wird automatisch mit der Anwendung "Reaktionsgruppe" installiert. Die Anwendungen Ankündigung und Reaktionsgruppe sind Standardkomponenten einer Enterprise-VoIP-Bereitstellung: bei der Bereitstellung von Enterprise-VoIP werden beide dieser Anwendungen automatisch bereitgestellt.
+Die Ankündigungs Anwendung wird automatisch mit der Antwortgruppen Anwendung installiert. Die Anwendungen für Ankündigungen und Reaktionsgruppen sind Standardkomponenten einer Enterprise-VoIP-Bereitstellung: Wenn Sie Enterprise-VoIP bereitstellen, werden diese beiden Anwendungen automatisch bereitgestellt.
 
 ### <a name="software-requirements"></a>Softwareanforderungen
 
-Alle Front-End-Server oder Standard Edition-Server, die die ankündigungsanwendung ausgeführt werden müssen die Windows Media Format-Laufzeitkomponente für Server mit Windows Server 2008 R2 oder Microsoft Media Foundation für Windows Server 2012-Server installiert haben oder Windows Server 2012 R2. Die Windows Media Format-Laufzeitkomponente ist für Windows Server 2008 R2 als Teil des Windows Desktop Experience installiert. Windows Media Format-Laufzeitkomponente oder Microsoft Media Foundation ist erforderlich für Windows Media Audio (WMA) Dateien, die der ankündigungsanwendung spielt für Ankündigungen und Musik.
+Auf allen Front-End-Servern oder Standard Edition-Servern, auf denen die Ankündigungs Anwendung ausgeführt wird, muss die Windows Media-Format Laufzeit für Server mit Windows Server 2008 R2 oder Microsoft Media Foundation für Server mit Windows Server 2012 oder Windows Server 2012 R2 Bei Windows Server 2008 R2 wird die Windows Media-Format Laufzeit als Teil der Windows-Desktop Oberfläche installiert. Windows Media Format Runtime oder Microsoft Media Foundation ist für Windows Media Audio-Dateien (WMA) erforderlich, die von der Ankündigungs Anwendung für Ankündigungen und Musik wiedergegeben werden.
 
 ### <a name="port-requirements"></a>Portanforderungen
 
-Die ankündigungsanwendung verwendet **Port 5071** für SIP-überwachungsanforderungen verwendet.
+Die Ankündigungs Anwendung verwendet **Port 5071** für SIP-Überwachungsanforderungen.
 
 > [!NOTE]
-> Dieser Port ist die Standardeinstellung, kann aber mit dem Cmdlet **Set-CsApplicationServer** geändert werden. Ausführliche Informationen zu diesem Cmdlet finden Sie unter der Skype Business Server-Verwaltungsshell-Dokumentation.
+> Dieser Port ist die Standardeinstellung, kann aber mit dem Cmdlet **Set-CsApplicationServer** geändert werden. Details zu diesem Cmdlet finden Sie in der Dokumentation zur Skype for Business Server-Verwaltungsshell.
 
 ### <a name="audio-file-requirements"></a>Anforderungen für Audiodateien
 
-Der ankündigungsanwendung unterstützt WAV-Dateiformat und Windows Media Audio (WMA) Dateiformat für Musik und Ankündigungen. Audiodateianforderungen für die ansageanwendung sind die gleichen wie für die Anwendung "Reaktionsgruppe". Ausführliche Informationen finden Sie unter [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+Die Ankündigungs Anwendung unterstützt das Wave-Dateiformat (WAV) und das Windows Media Audio-Dateiformat (WMA) für Musik und Ankündigungen. Die Anforderungen an die Audiodateien für die Ankündigungs Anwendung sind identisch mit der Antwortgruppen Anwendung. Ausführliche Informationen finden Sie unter [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 

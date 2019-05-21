@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea2f6b85dc4802f2caac4df5b69754d27e8fb9a6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4c009433696ac554114a2a06955b4f33beb6543f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33899017"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281617"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installieren von Microsoft Teams mithilfe eines MSI-Pakets
 =================================
@@ -39,14 +39,14 @@ Wenn Sie für die allgemeine Bereitstellung System Center Configuration Manager 
 
 ## <a name="how-the-microsoft-teams-msi-package-works"></a>Funktionsweise des MSI-Pakets für Microsoft Teams
 
-### <a name="pc-installation"></a>PC-installation
+### <a name="pc-installation"></a>PC-Installation
 
 > [!Note] 
 > Anleitungen zum Bereitstellen von Teams in einer virtuellen DesktopInfrastructure (VDI)-Umgebung finden Sie unter [VDI-Installation](#vdi-installation) .
 
-Das MSI-Paket für Microsoft Teams legt ein Installationsprogramm in „Programme“ ab. Wenn ein Benutzer ein neues Windows-Benutzerprofil anmeldet, das Installationsprogramm wird gestartet, und eine Kopie der Teams app im Anwendungsdaten-Ordner des Benutzers installiert werden. Wenn die Microsoft Teams-App bereits im Ordner „AppData“ des Benutzers installiert ist, überspringt das MSI-Installationsprogramm den Prozess für diesen Benutzer.
+Das MSI-Paket für Microsoft Teams legt ein Installationsprogramm in „Programme“ ab. Wenn sich ein Benutzer in einem neuen Windows-Benutzerprofil anmeldet, wird das Installationsprogramm gestartet, und eine Kopie der Teams-APP wird im AppData-Ordner des Benutzers installiert. Wenn die Microsoft Teams-App bereits im Ordner „AppData“ des Benutzers installiert ist, überspringt das MSI-Installationsprogramm den Prozess für diesen Benutzer.
 
-Sie sollten das MSI-Paket nicht zum Bereitstellen von Updates verwenden, da der Client automatisch aktualisiert wird, wenn er erkennt, dass über den Dienst eine neue Version verfügbar ist. Verwenden Sie zum erneuten Bereitstellen des neuesten Installationsprogramms das unten beschriebene Verfahren für die erneute Bereitstellung von MSI-Paketen.Wenn Sie eine ältere Version des MSI-Pakets bereitstellen, wird der Client automatisch aktualisiert, sofern dies für den Benutzer möglich ist. Wenn eine sehr alte Version bereitgestellt, ruft ab, lösen die MSI-Datei ein app-Update, bevor der Benutzer Teams nutzen kann. 
+Sie sollten das MSI-Paket nicht zum Bereitstellen von Updates verwenden, da der Client automatisch aktualisiert wird, wenn er erkennt, dass über den Dienst eine neue Version verfügbar ist. Verwenden Sie zum erneuten Bereitstellen des neuesten Installationsprogramms das unten beschriebene Verfahren für die erneute Bereitstellung von MSI-Paketen.Wenn Sie eine ältere Version des MSI-Pakets bereitstellen, wird der Client automatisch aktualisiert, sofern dies für den Benutzer möglich ist. Wenn eine sehr alte Version bereitgestellt wird, löst die MSI-App ein App-Update aus, bevor der Benutzer in der Lage ist, Teams zu verwenden. 
 
 > [!Important] 
 > Sie sollten die standardmäßigen Installationsspeicherorte nicht ändern, da dies den Aktualisierungsablauf behindern kann. Eine zu alte Version führt letztlich dazu, dass die Benutzer nicht auf den Dienst zugreifen können. 
@@ -57,28 +57,28 @@ Sie sollten das MSI-Paket nicht zum Bereitstellen von Updates verwenden, da der 
 - Windows 7 oder höher
 - 3 GB Speicherplatz auf dem Datenträger für jedes Benutzerprofil (empfohlen)
 
-### <a name="vdi-installation"></a>VDI-installation
+### <a name="vdi-installation"></a>VDI-Installation
 
-Hier ist der Prozess zum Bereitstellen von Teams-desktop-app. Vollständige Anleitung finden Sie unter [virtualisierten Desktop Infrastructure-Teams](teams-for-vdi.md).
+Hier ist der Vorgang zum Bereitstellen der Desktop-App für Teams. Umfassende Anleitungen finden Sie unter [Teams für virtualisierte Desktop Infrastruktur](teams-for-vdi.md).
 
-1. Herunterladen Sie Teams MSI-Paket mit einer der folgenden Links je nach der Umgebung. Wir empfehlen die 64-Bit-Version für eine VDI VM mit einem 64-Bit-Betriebssystem.
+1. Laden Sie das MSI-Paket für Teams mit einem der folgenden Links in Abhängigkeit von der Umgebung herunter. Wir empfehlen die 64-Bit-Version für eine VDI-VM mit einem 64-Bit-Betriebssystem.
 
-    - [32-Bit-version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
-    - [64-Bit-version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
+    - [32-Bit-Version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
+    - [64-Bit-Version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
 
-2. Führen Sie den folgenden Befehl zum Installieren der MSI-Datei für die VDI-VM (oder Abschließen der Aktualisierung).
+2. Führen Sie den folgenden Befehl aus, um die MSI-Datei auf der VDI-VM zu installieren (oder vollständig zu aktualisieren).
 
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
 
-    Dies installiert Teams Program Files. Zu diesem Zeitpunkt ist das goldene Bild Setup abgeschlossen.
+    Dadurch werden Teams in Programmdateien installiert. An diesem Punkt ist die Einrichtung des goldenen Bilds abgeschlossen.
 
-    Die nächste interaktive Sitzung beginnt Teams und fordert die Anmeldeinformationen. Beachten Sie, dass es nicht möglich, automatisch gestartet Teams bei der Installation von Teams auf VDI mithilfe der ALLUSER-Eigenschaft zu deaktivieren.
+    In der nächsten interaktiven Anmeldesitzung werden Teams gestartet, und es werden Anmeldeinformationen angefordert. Beachten Sie, dass es nicht möglich ist, den automatischen Start von Teams bei der Installation von Teams auf VDI mithilfe der ALLUSERS-Eigenschaft zu deaktivieren.
 
-3. Führen Sie den folgenden Befehl zum Deinstallieren der MSI-Datei aus der VDI VM (oder Vorbereiten der Aktualisierung).
+3. Führen Sie den folgenden Befehl aus, um die MSI-Datei von der VDI-VM zu deinstallieren (oder die Aktualisierung vorzubereiten).
 
         msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
 
-    Dies deinstalliert Teams aus Program Files.
+    Dadurch wird Microsoft Teams aus Programmdateien deinstalliert.
 
 ## <a name="clean-up-and-redeployment-procedure"></a>Verfahren für die Bereinigung und erneute Bereitstellung
 

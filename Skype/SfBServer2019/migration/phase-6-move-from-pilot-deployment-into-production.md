@@ -1,24 +1,24 @@
 ---
-title: Phase 6 Verschieben von der pilotbereitstellung zur produktionsbereitstellung
+title: Phase 6 – Wechsel von der Pilotbereitstellung in die Produktion
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie vor dem Verschieben der bereitstellungs von Skype für Business Server 2019 von einer pilotbereitstellung zu einer Bereitstellung auf Produktionsebene durchführen müssen.
-ms.openlocfilehash: 92e74af1881da85b84a7886965986c42d6e6d955
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Die Themen in diesem Abschnitt beschreiben die Aufgaben, die Sie ausführen müssen, bevor Sie Ihre Bereitstellung von Skype for Business Server 2019 von einer Pilotbereitstellung auf eine Bereitstellung auf Produktionsebene verschieben.
+ms.openlocfilehash: cc101ae93bbea9cf3fa7366bdf83676970ad450c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231525"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273889"
 ---
 # <a name="phase-6-move-from-pilot-deployment-into-production"></a>Phase 6: Migration von der Pilotbereitstellung zur Produktionsbereitstellung
 
-In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie vor dem Verschieben der bereitstellungs von Skype für Business Server 2019 von einer pilotbereitstellung zu einer Bereitstellung auf Produktionsebene durchführen müssen.
+Die Themen in diesem Abschnitt beschreiben die Aufgaben, die Sie ausführen müssen, bevor Sie Ihre Bereitstellung von Skype for Business Server 2019 von einer Pilotbereitstellung auf eine Bereitstellung auf Produktionsebene verschieben.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
@@ -28,6 +28,6 @@ In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie vor dem V
     
 - [Ändern einfacher URLs nach der Migration](change-simple-urls-after-migration.md)
     
-- [Verschieben der restlichen Benutzer zu Skype für Business Server 2019](move-remaining-users.md)
+- [Verschieben von verbleibenden Benutzern in Skype for Business Server 2019](move-remaining-users.md)
     
 

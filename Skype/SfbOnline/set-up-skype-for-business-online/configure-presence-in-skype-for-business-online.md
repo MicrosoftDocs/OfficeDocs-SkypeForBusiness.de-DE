@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,39 +19,39 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: 5c8d30106397d18957c7866d9b4961cfa1409f83
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a22606beacd03bfefda2b3080c2ee345ccfef2fa
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237746"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285324"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Konfigurieren der Anwesenheit in Skype for Business Online
 
-Standardmäßig kann jeder Benutzer, der mit einem der Personen in Ihrer Organisation mithilfe von Skype für Unternehmen kommunizieren können auch anzeigen, ob diese Person online ist. Skype für Unternehmen wird angezeigt, ob eine Person verfügbar online in einer Besprechung, offline oder ein anderes Symbol.
+Standardmäßig können alle Personen, die mit einem der Personen in Ihrer Organisation über Skype for Business kommunizieren können, auch sehen, ob diese Person online ist. Skype for Business zeigt, ob eine Person Online, in einer Besprechung, offline oder einem anderen Indikator verfügbar ist.
 
-![Ein Beispiel einer Person Onlinestatus in Skype für Unternehmen.](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
+![Ein Beispiel für den Onlinestatus einer Person in Skype for Business.](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
 
-Als **[Administrator](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** für alle Benutzer in Ihrem Unternehmen können Sie auswählen, für wen die Onlineanwesenheit in Skype für Unternehmen.
+Als **[Administrator](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** für alle in Ihrem Unternehmen können Sie auswählen, wer seinen Online-Status in Skype for Business sieht.
 
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
 
 1. Navigieren Sie zu **Office 365 Admin Center** > **Admin Center** > **Skype for Business**.
 
-2. Wählen Sie in der **Skype für Business Administrationscenter** **Organisation**ein.
+2. Wählen Sie im **Skype for Business Admin Center**die Option **Organisation**aus.
 
-3. Klicken Sie unter **datenschutzmodus für Anwesenheitsinformationen**wählen Sie eine der folgenden Einstellungen, und wählen Sie dann auf **Speichern**.
+3. Wählen Sie unter **Anwesenheitsdaten Schutzmodus**eine der folgenden Einstellungen aus, und wählen Sie dann **Speichern**aus.
 
-|**Einstellung**|**Wer kann den Anwesenheitsstatus eines Benutzers anzeigen**|
+|**Einstellung**|**Wer kann die Anwesenheit eines Benutzers anzeigen?**|
 |:-----|:-----|
-|**Anwesenheitsinformationen automatisch anzeigen** <br/> |Skype für Benutzer in Ihrem Unternehmen, die nicht mit einer Person **externen** oder **blockiert** Liste hinzugefügt wurde Business werden können online Anwesenheitsstatus einer Person sehen. <br/> |
-|**Anzeigen von Anwesenheitsinformationen nur für Kontakte eines Benutzers** <br/> |Jeder Benutzer in die Liste Kontakte eine Person, die sie nicht ihrer Liste **externe** oder **blockiert** hinzugefügt haben. <br/> Personen können die Standardeinstellungen in ihren Skype für Geschäfts-app: **Einstellungen** > **Tools** > **Optionen**. <br/> |
+|**Anwesenheitsinformationen automatisch anzeigen** <br/> |Alle Skype for Business-Benutzer in Ihrem Unternehmen, die keiner **externen** oder blockierten Liste einer **** Person hinzugefügt wurden, können die Onlineanwesenheit dieser Person sehen. <br/> |
+|**Anzeigen von Anwesenheitsinformationen nur für die Kontakte eines Benutzers** <br/> |Alle Personen in der Kontaktliste einer Person, die Sie Ihrer **externen** oder blockierten **** Liste nicht hinzugefügt haben. <br/> Einzelpersonen können ihre Standardeinstellungen in Ihrer Skype for Business-APP außer Kraft setzen: **Einstellungen** > **-Tools** > -**Optionen**. <br/> |
 
-Informationen dazu, was Ihre Benutzer in Skype für Unternehmen ändern können finden Sie in diesen Artikeln:
+Informationen dazu, was Ihre Benutzer in Skype for Business ändern können, finden Sie in den folgenden Artikeln:
 
-- [Steuern des Zugriffs auf Ihre Anwesenheitsinformationen in Skype für Unternehmen](https://support.office.com/en-us/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
+- [Steuern des Zugriffs auf ihre Anwesenheitsinformationen in Skype for Business](https://support.office.com/en-us/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
 
-- [Festlegen von Statusoptionen in Skype für Unternehmen](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
+- [Einrichten von Status Optionen in Skype for Business](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

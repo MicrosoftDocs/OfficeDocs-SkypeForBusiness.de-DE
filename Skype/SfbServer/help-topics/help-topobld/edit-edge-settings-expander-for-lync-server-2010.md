@@ -5,62 +5,62 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
-description: 'Bearbeiten Sie die Einstellungen für den Edge-Server oder Edge-Pool, indem Sie die folgenden Eigenschaften konfigurieren:'
-ms.openlocfilehash: 6dcd602742ffcc93bf3b323c89304daf5f301eeb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Sie bearbeiten die Einstellungen für den Edge-Server oder den Edge-Pool, indem Sie die folgenden Eigenschaften konfigurieren:'
+ms.openlocfilehash: 1b349d5640ea2debb4730ce262795616258b3475
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926817"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282524"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Bearbeiten der Edgeeinstellungen für Lync Server 2010 – Erweiterung
  
-Bearbeiten Sie die Einstellungen für den Edge-Server oder Edge-Pool, indem Sie die folgenden Eigenschaften konfigurieren: 
+Sie bearbeiten die Einstellungen für den Edge-Server oder den Edge-Pool, indem Sie die folgenden Eigenschaften konfigurieren: 
   
  **Allgemein**
   
-- **Interner FQDN des Pools**: der vollqualifizierten Domänennamen des internen Pool ist die Identität des Edge-Server oder Edge-Pools, wie im Domain Name System (DNS) Host (A oder AAAA für IPv6) Datensatz definiert.
+- **Interner Pool-FQDN**: der vollqualifizierte Domänenname des internen Pools ist die Identität des Edge-Servers oder des Edge-Pools, wie er im DNS-Host (Domain Name System)-Eintrag (A oder AAAA für IPv6) definiert ist.
     
-- Wählen Sie **aktivieren den Verbund für diesen edgepool (Port 5061)** aus, wenn Sie den Edgeserver oder edgepool für den Verbund mit anderen Session Initiation Protocol-Partnern aktivieren möchten.
-    
-    > [!IMPORTANT]
-    > Sie können nur auf einem Edge-Server oder Edge-Pool aktiv für den Verbund definieren. Die Konfiguration der zugehörige Screenshot dargestellt gibt an, dass bereits einen anderen Edgeserver oder Edge-Pool für den Verbund konfiguriert ist. Der externe DNS-SRV-Eintrag für den Verbund (_sipfederationtls.\< externe Domänennamen\>) verweist auf den Edgeserver oder edgepool für den Verbund. 
-  
-- Die **Interne Konfiguration Replikation Port (HTTPS)**, die standardmäßig auf TCP-Port 4443, ist der Port, der lokalen Kopie (d. h., lokal auf den Edge-Servern) Kopie des zentralen Verwaltungsspeichers über repliziert wird. Die lokale Kopie des zentralen Verwaltungsspeichers ist in die **RTCLOCAL** -Datenbank in SQL Server auf jedem Computer. Die Replikation ist unidirektional, initiiert aus den zentralen Verwaltungsserver (oder die Front-End-Server oder Front-End-Pool, der die Rolle des zentralen Verwaltungsservers beinhaltet) mit den Edgeservern und ein Port für die interne Schnittstelle ist.
-    
-  **Auswahl für nächsten hop**
-  
-- Wählen Sie den **nächsten hoppool**, für die Liste aus. Sie definieren Sie entweder einen Director, Director-Pool Front-End-Server oder Front-End-Pool dieser Rolle übernehmen. Der nächste hoppool ist der Server oder Serverpool, die eingehende SIP-Nachrichten vom Edge-Server akzeptieren oder interne Schnittstelle des Edgeservers Pool und Senden ausgehender SIP an die interne Schnittstelle des Edgeservers.
-    
-    > [!NOTE]
-    > Der Director ist eine optionale Rolle, und wenn Sie sich, keine Director-Server bereitstellen entscheiden, wird die Front-End-Server (einzelner Computer oder Pool) die Director-Rolle voraus. 
-  
-  **Einstellungen für externe**
-  
-In diesem Abschnitt der Eigenschaften können Sie Eigenschaften für die externen Einstellungen des Edge-Server oder Edge-Pools zu bearbeiten. Die folgenden Eigenschaften stehen zur Bearbeitung zur Verfügung:
-  
-- Wählen Sie aus der **Enable separaten FQDN und IP-Adressen für Webkonferenzen und A / V** das Kontrollkästchen, wenn Sie unterschiedliche IP-Adressen und vollqualifizierten Domänennamen zuweisen möchten den Namen für jeden Dienst Edge-Server.
-    
-    > [!NOTE]
-    > Wenn Sie das Kontrollkästchen nicht aktivieren möchten, müssen Sie für jeden Dienst Edge eigenen Port verwenden. Jeder edgedienst nutzen den FQDN für Zugriffs-edgediensts definiert und wird daher dieselbe IP-Adresse verwenden. Jeder edgedienst muss eindeutig identifiziert werden, indem eine unterschiedliche IP-Adresse und denselben Port oder der dieselbe IP-Adresse und eindeutige Portwerte. 
-  
-- Wählen Sie **A / V-edgedienst ist für NAT aktiviert** Wenn Sie A konfigurieren möchten a / V-edgedienst verwenden eine private Adresse oder andere Adresse, die hinter einem Gerät Network Address Translation (NAT) ausgeblendet ist.
-    
-- Um den **Zugriffs-edgedienst**zu bearbeiten, definieren Sie den **Pool-FQDN** für Zugriffs-edgediensts gemäß Definition im DNS vom Host (A und AAAA Wenn IPv6 verwendet wird) Datensätze und einen Port-Wert
-    
-- Um den **Webkonferenz-edgedienst**zu bearbeiten, definieren Sie einen **Pool-FQDN** für den Webkonferenz-edgedienst gemäß Definition im DNS vom Host (A und AAAA Wenn IPv6 verwendet wird) Datensätze und einen Port-Wert
-    
-- So bearbeiten Sie die **A / V-edgedienst**, definieren Sie einen **Pool-FQDN** für den A / V-edgedienst gemäß Definition im DNS vom Host (A und AAAA Wenn IPv6 verwendet wird) Datensätze und einen Port-Wert
+- Wählen Sie **Föderation für diesen Edge-Pool aktivieren (Port 5061)** aus, wenn Sie den Edgeserver oder den Edge-Pool für den Verbund mit anderen Sitzungs Initiierungs Protokoll Partnern aktivieren möchten.
     
     > [!IMPORTANT]
-    > Wenn Sie ausgewählt haben, haben die **Enable separaten FQDN und IP-Adressen für Webkonferenzen und A / V** das Kontrollkästchen nur der Zugriffs-edgedienst Pool-FQDN wird zur Bearbeitung verfügbar sein. Weisen Sie unterschiedliche Ports für jede der drei edgedienste.
+    > Sie können nur einen Edge-Server oder einen Edge-Pool für den Verbund aktiv definieren. Die in dem zugehörigen Screenshot angezeigte Konfiguration zeigt an, dass ein anderer Edgeserver oder Edge-Pool bereits für den Verbund konfiguriert ist. Der externe DNS-SRV-Eintrag für Federation (_sipfederationtls.\< _tcp. externer Domänenname\>) zeigt auf den Edgeserver oder den Edge-Pool für Federation. 
+  
+- Der **interne Konfigurations Replikations Port (HTTPS)** ist standardmäßig am TCP-Port 4443 der Port, auf dem die lokale (lokal für die Edgeserver) Kopie des zentralen Verwaltungsspeichers repliziert wurde. Die lokale Kopie des zentralen Verwaltungsspeichers befindet sich in der **RTCLOCAL** -Datenbank auf jedem Computer in SQL Server. Die Replikation erfolgt unidirektional, initiiert vom zentralen Verwaltungsserver (oder dem Front-End-Server oder Front-End-Pool, in dem sich die zentrale Verwaltungsserverrolle befindet) an die Edgeserver und ist ein interner Schnittstellenanschluss.
+    
+  **Nächster Hop-Auswahl**
+  
+- Wählen Sie für die Liste Ihren **nächsten Hop-Pool**aus. Sie definieren entweder einen Director-, Director-Pool, einen Front-End-Server oder einen Front-End-Pool, um diese Rolle zu übernehmen. Der Pool für den nächsten Hop ist der Server-oder Serverpool, der eingehende SIP-Nachrichten vom Edgeserver oder der internen Schnittstelle des Edge-Pools akzeptiert und ausgehende SIP an die interne Edge-Schnittstelle sendet.
+    
+    > [!NOTE]
+    > Der Director ist eine optionale Rolle, und wenn Sie sich entschließen, Directors bereitzustellen, übernimmt der Front-End-Server (einzelner Computer oder Pool) die Director-Rolle. 
+  
+  **Externe Einstellungen**
+  
+In diesem Abschnitt der Eigenschaften können Sie Eigenschaften für die externen Einstellungen des Edge-Servers oder des Edge-Pools bearbeiten. Die folgenden Eigenschaften stehen zur Bearbeitung zur Verfügung:
+  
+- Aktivieren Sie das Kontrollkästchen **separaten FQDN und IP-Adresse für Webkonferenzen und A/V aktivieren** , wenn Sie jedem Edge-Server-Dienst unterschiedliche IP-Adressen und vollständig qualifizierte Domänennamen zuweisen möchten.
+    
+    > [!NOTE]
+    > Wenn Sie das Kontrollkästchen nicht aktivieren, müssen Sie für jeden Edgedienst separate Ports verwenden. Jeder Edgedienst gibt den für den Access Edge-Dienst definierten FQDN frei und verwendet daher die gleiche IP-Adresse. Jeder Edgedienst muss entweder durch eine eindeutige IP-Adresse und denselben Port oder die gleiche IP-Adresse und eindeutige Portwerte eindeutig identifiziert werden. 
+  
+- Wählen Sie **a/v-Edgedienst ist NAT aktiviert** aus, wenn Sie den a/v-Edgedienst so konfigurieren möchten, dass er eine private Adresse oder eine andere Adresse verwendet, die hinter einem NAT-Gerät (Network Address Translation) verborgen bleibt.
+    
+- Um den **Access**-Edgedienst zu bearbeiten, definieren Sie den **Pool-FQDN** für den Access-Edgedienst entsprechend der Definition in DNS nach Host (A und AAAA, wenn IPv6 verwendet wird) und einem Portwert
+    
+- Zum Bearbeiten des **Webkonferenz-Edgedienst**definieren Sie einen **Pool-FQDN** für den Webkonferenz-Edgedienst, wie er in DNS nach Host (a und AAAA, wenn IPv6 verwendet wird), Datensätzen und einem Portwert definiert.
+    
+- Um den **a/v**-Edgedienst zu bearbeiten, definieren Sie einen **Pool-FQDN** für den a/v-Edgedienst, wie er in DNS von Host (A und AAAA, wenn IPv6 verwendet wird), Datensätzen und einem Portwert definiert.
+    
+    > [!IMPORTANT]
+    > Wenn Sie das Kontrollkästchen **separaten FQDN und IP-Adresse für Webkonferenzen und A/V aktivieren** aktiviert haben, steht nur der FQDN des Access-Edge-Service-Pools für die Bearbeitung zur Verfügung. Weisen Sie für jeden der drei Edge-Dienste verschiedene Ports zu.
   
   **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
   

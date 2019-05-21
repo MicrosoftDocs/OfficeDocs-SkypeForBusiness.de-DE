@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Dieses Thema enthält alle Länder/Regionen Benutzer ausgehende Anrufe an tätigen können, wenn sie einen Aufruf von Plan verfügen.
-ms.openlocfilehash: 70c0a0631f4f01ab87ef185b96b6c3fb00b14e6e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Dieses Thema enthält alle Länder/Regionen, in denen Benutzer ausgehende Anrufe tätigen können, wenn Sie über einen Anrufplan verfügen.
+ms.openlocfilehash: 3f6ff1f7bb3d9659ec9429b3eb48a8ae9968d636
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200251"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281901"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Benutzer können ausgehende Anrufe in diese Länder und Regionen vornehmen
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>Finden Sie unter welche Benutzer Länder/Regionen ausgehende aufgerufen werden können, wenn der Benutzer die Lizenz in- und International aufrufen planen verfügt
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>Sehen Sie, welche Länder/Regionen Benutzer ausgehende Anrufe tätigen können, wenn der Benutzer über die Lizenz für den Inlands-und Auslandstarif verfügt.
 
-|**A – D**| **E - H**|**ICH - L**|**M - O**|**P - S**|**T - Z**|
+|**A-D**| **E-H**|**I-L**|**M-O**|**P-s**|**T-Z**|
 ---|---|---|---|---|---|
 |Afghanistan|Ecuador |Island |Macau |Pakistan |Taiwan   |
 |Albanien|Ägypten |Indien |Mazedonien |Palau |Tadschikistan   |
@@ -63,7 +63,7 @@ ms.locfileid: "32200251"
 |Bhutan |Guinea |Luxemburg |Niederländische Antillen |Slowakei |Sambia  |
 |Bolivien |Guyana| |Neukaledonien |Slowenien |Simbabwe |
 |Bosnien und Herzegowina |Haiti ||Neuseeland |Südafrika | 
-|Botswana |Honduras ||Nicaragua |South Sudan |
+|Botswana |Honduras ||Nicaragua |Südsudan |
 |Brasilien |Hongkong ||Niger |Spanien | 
 |Bunei Darussalam |Ungarn ||Nigeria |Sri Lanka | 
 |Bulgarien |||Nördliche Marianen |Saint-Pierre und Miquelon |

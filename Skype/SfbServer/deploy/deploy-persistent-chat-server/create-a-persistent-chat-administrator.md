@@ -5,33 +5,33 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/28/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
-description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie eine Administratorrolle für Persistent Chat Server zum Aktivieren von anfängliche Konfiguration und Verwaltung von Persistent Chat-Dienste in Skype für Business Server 2015 zu erstellen.'
-ms.openlocfilehash: d483517afcb5d02667d431259f8a2e76804cc32b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie eine Server Administratorrolle für beständigen Chat erstellen, um die anfängliche Konfiguration und Verwaltung beständiger Chat Dienste in Skype for Business Server 2015 zu ermöglichen.'
+ms.openlocfilehash: 1b593f1de776f1896d43bab35a15af7b6bcf7245
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894472"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273882"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>Erstellen eines Administrators für beständigen Chat in Skype for Business Server 2015
  
-**Zusammenfassung:** Lesen Sie in diesem Thema erfahren, wie eine Administratorrolle für Persistent Chat Server zum Aktivieren von anfängliche Konfiguration und Verwaltung von Persistent Chat-Dienste in Skype für Business Server 2015 zu erstellen.
+**Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie eine Server Administratorrolle für beständigen Chat erstellen, um die anfängliche Konfiguration und Verwaltung beständiger Chat Dienste in Skype for Business Server 2015 zu ermöglichen.
   
-In Skype für Business Server müssen Benutzer, die bestimmte Aufgaben als Mitglieder von einer oder mehreren bestimmten Gruppen zugewiesen werden. Role-Based Access Control (RBAC) wird verwendet, um Berechtigungen gewähren, indem Sie die Zuweisung von Benutzern zu vordefinierten Skype für Business Server Administratorrollen. Diese Rollen entsprechen den allgemeinen Sicherheitsgruppen in den Active Directory-Domänendiensten. Mitglied der Sicherheitsgruppe Persistent Chat Administrator Rolle "cspersistentchatadministrator", werden die Cmdlets Persistent Chat Server Zugriff auf die Verwendung der Skype für Business Server-Verwaltungsshell oder die Skype für Unternehmen ausgeführt werden können Server-Systemsteuerung.
+In Skype for Business Server müssen Benutzer, die bestimmte Aufgaben ausführen, Mitgliedern einer oder mehrerer bestimmter Gruppen zugewiesen werden. Rollenbasierte Zugriffssteuerung wird verwendet, um Berechtigungen zu gewähren, indem Benutzer vordefinierten Skype for Business Server-Administratorrollen zugewiesen werden. Diese Rollen entsprechen den allgemeinen Sicherheitsgruppen in den Active Directory-Domänendiensten. Mitgliedern der Gruppe "beständiger Chat-Administrator", CsPersistentChatAdministrator, wird der Zugriff auf die Server-Cmdlets des beständigen Chats gewährt, die entweder über die Skype for Business Server-Verwaltungsshell oder über Skype for Business ausgeführt werden können. Server-Systemsteuerung.
   
 Bevor Sie den Server für beständigen Chat konfigurieren und verwalten, sollten Sie sicherstellen, dass die entsprechenden Rechte und Berechtigungen vorhanden sind und dass alle Benutzer, die als Administratoren für den beständigen Chat fungieren sollen, der Administrator-Sicherheitsgruppe für den beständigen Chat hinzugefügt werden.
   
 > [!NOTE] 
-> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden.
+> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Reise von Skype for Business zu Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen.
 
 ## <a name="create-a-persistent-chat-administrator"></a>Create a Persistent Chat administrator
 
-Führen Sie zum Hinzufügen eines Benutzers zur Persistent Chat Administrator-Sicherheitsgruppe Rolle "cspersistentchatadministrator", die folgenden Schritte aus:
+Führen Sie die folgenden Schritte aus, um einen Benutzer zur Administrator Sicherheitsgruppe für beständigen Chat hinzuzufügen: CsPersistentChatAdministrator
   
 1. Melden Sie sich über ein Konto mit Berechtigung zum Ändern der Mitgliedschaft einer Active Directory-Gruppe an dem Computer an, auf dem „Active Directory-Benutzer und -Computer“ installiert ist.
     

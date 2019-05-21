@@ -4,48 +4,48 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
-description: 'Zusammenfassung: Informationen Sie zum Vorgang untergeordnete Elemente abrufen, der Teil der Element-Dienst ist. Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 4d0e5c19a4bfb5d66db95738cab5b0c2eaf33985
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang "untergeordnete Elemente abrufen", der Teil des Element Diensts ist. Der Element Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: 7be427ed4ea90cd46c6f8cea4ffe3a97be98479b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930679"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274660"
 ---
 # <a name="get-sub-items"></a>Abrufen von untergeordneten Elementen
  
-**Zusammenfassung:** Informationen Sie zu den Vorgang untergeordnete Elemente abrufen, der Teil der Element-Dienst ist. Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den Vorgang "untergeordnete Elemente abrufen", der Teil des Element Diensts ist. Der Element Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.
   
-Der untergeordneten Elemente abrufen Vorgang ist Teil des Diensts Element in der Repository-API für die Qualitätsdashboard aufrufen.
+Der Vorgang "untergeordnete Elemente abrufen" ist Teil des Element Diensts in der Repository-API für das Dashboard für die Anrufqualität.
   
 ## <a name="get-sub-items"></a>Abrufen von untergeordneten Elementen
 
-Rufen Sie ein bestimmtes Element Unterelemente Unterelemente gibt.
+Abrufen untergeordneter Elemente gibt die untergeordneten Elemente eines bestimmten Elements zurück.
   
 
 |**Methode**|**Anforderungs-URI**|**HTTP-Version**|
 |:-----|:-----|:-----|
-|Erhalten  <br/> |https://\<Portal\>/QoERepositoryService/Repository/Element / {ItemId} / subitem  <br/> |HTTP/1.1  <br/> |
+|Erhalten  <br/> |https://\<-\>Portal/QoERepositoryService/Repository/Item/{Itemid}/SubItem  <br/> |HTTP/1.1  <br/> |
    
- **URI-Parameter** - None.
+ **URI-Parameter** -None.
   
- **Anfordern von Kopfzeilen** - keine zusätzlichen Header.
+ **Anforderungs Kopfzeilen** – keine zusätzlichen Überschriften.
   
- **Anforderungstextkörper** – None.
+ **Anforderungstext** – keine.
   
- **Antwort** - die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheader.
+ **Antwort** – die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheadern.
   
- **Statuscode** - eine erfolgreiche Ausführung Gibt Statuscode 200 (OK). Wenn einen angegebenen Benutzer-ID nicht gefunden wurde, wird der Statuscode 404 (nicht gefunden) zurückgegeben.
+ **Statuscode** – ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück. Wenn keine angegebene Benutzer-ID gefunden wird, wird der Statuscode 404 (nicht gefunden) zurückgegeben.
   
- **Antwortheader** - keine zusätzlichen Header.
+ **Antwortheader** – keine zusätzlichen Überschriften.
   
- **Antworttext** - ist im folgenden Beispiel Antwort Nutzlast in JSON.
+ **Antworttext** : Nachfolgend finden Sie eine Beispielantwort Nutzlast in JSON.
   
 > [!NOTE]
 > Ein Array von Item-Objekt wird zurückgegeben. 
@@ -63,15 +63,15 @@ Rufen Sie ein bestimmtes Element Unterelemente Unterelemente gibt.
 }]
 ```
 
-Item-Objekts zurückgegebenen Elemente Vorgang enthält nur die folgenden drei Felder. 
+Das vom Unterelement Vorgang zurückgegebene Element Objekt enthält nur die folgenden drei Felder. 
   
- *ItemId* - ID des Elements.
+ *ItemID* -ID des Elements.
   
- *UserId* - ID des Benutzers, der dieses Element gehört.
+ *UserID* -ID des Benutzers, der Besitzer dieses Elements ist.
   
- *Typ* – der Typ des Inhalts. Dieses Feld wird durch die Anwendung festgelegt.
+ *Type* – der Typ des Inhalts. Dieses Feld wird von den Anwendungen gesetzt.
   
 > [!NOTE]
->  `Content`und `subItems` Felder sind nicht enthalten, die als Antwort auf die über das Netzwerk übertragen Datenmenge zu reduzieren.
+>  `Content`und `subItems` Felder werden in der Antwort nicht berücksichtigt, um die Datenmenge zu verringern, die über das Netzwerk übertragen wird.
   
 

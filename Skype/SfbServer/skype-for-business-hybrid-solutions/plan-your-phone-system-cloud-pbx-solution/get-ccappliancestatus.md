@@ -5,24 +5,24 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ddd80580-59b2-46ba-a8d7-f31b20384ad1
-description: Das Cmdlet Get-CcApplianceStatus stellt Diagnoseinformationen für die Skype für Business Cloud Connector Edition Appliance bereit.
-ms.openlocfilehash: 2c5d261b1ea2282c9eb0d564a1d39638965d2948
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Das Cmdlet "Get-CcApplianceStatus" enthält Diagnoseinformationen für die Skype for Business Cloud Connector Edition-Appliance.
+ms.openlocfilehash: b728ae51fba1b8f448cc161f3ea3fe5b89297488
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233778"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287342"
 ---
 # <a name="get-ccappliancestatus"></a>Get-CcApplianceStatus
  
-Das Cmdlet Get-CcApplianceStatus stellt Diagnoseinformationen für die Skype für Business Cloud Connector Edition Appliance bereit.
+Das Cmdlet "Get-CcApplianceStatus" enthält Diagnoseinformationen für die Skype for Business Cloud Connector Edition-Appliance.
   
-Dieses Cmdlet gibt Skype für Business Cloud Connector Edition 2.1 betrifft.
+Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 2,1.
   
 ```
     Get-CcApplianceStatus 
@@ -30,7 +30,7 @@ Dieses Cmdlet gibt Skype für Business Cloud Connector Edition 2.1 betrifft.
 
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 
-Das Get-CcApplianceStatus-Cmdlet, wenn auf dem Hostcomputer Cloud Connector ausführen stellt Diagnoseinformationen für die Skype für Business Cloud Connector Appliance bereit.
+Das Cmdlet "Get-CcApplianceStatus", wenn es auf dem Cloud Connector-Hostcomputer ausgeführt wird, enthält Diagnoseinformationen für die Cloud Connector-Appliance von Skype for Business.
   
 ## <a name="parameters"></a>Parameter
 
@@ -38,10 +38,10 @@ Keine
   
 ## <a name="input-types"></a>Eingabetypen
 
-Keine. Das Cmdlet Get-CcApplianceStatus akzeptiert keine weitergeleitete Eingabe.
+Keine. Das Cmdlet "Get-CcApplianceStatus" akzeptiert keine Pipeline-Eingabe.
   
 ## <a name="return-types"></a>Rückgabetypen
 
-Der Befehl gibt den Status des Geräts zurück.
+Der Befehl gibt den Status der Appliance zurück.
   
 

@@ -1,33 +1,33 @@
 ---
-title: Ändern einer vorhandenen Archivierungsrichtlinie in Skype für Business Server
+title: Ändern einer vorhandenen Archivierungsrichtlinie in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: 'Zusammenfassung: Erfahren Sie, wie Benutzer Archivierungsrichtlinien für Skype für Business Server ändern.'
-ms.openlocfilehash: 7e8cc208802af324690ff61cad971023d3a20232
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Richtlinien für die Benutzer Archivierung für Skype for Business Server ändern.'
+ms.openlocfilehash: 4a3da0bfe403d1a00807865cd07762111b59b540
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885003"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282021"
 ---
-# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Ändern einer vorhandenen Archivierungsrichtlinie in Skype für Business Server
+# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Ändern einer vorhandenen Archivierungsrichtlinie in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie Benutzer Archivierungsrichtlinien für Skype für Business Server ändern.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie die Richtlinien für die Benutzer Archivierung für Skype for Business Server ändern.
   
-Wenn Sie zuerst Skype für Business Server bereitstellen, richten Sie die anfänglichen Archivierungsrichtlinien, die bestimmen, wie die Archivierung für die Benutzer in Ihrer Bereitstellung implementiert wird. In diesem Thema wird beschrieben, wie Richtlinien verwaltet und bearbeitet werden. 
+Bei der ersten Bereitstellung von Skype for Business Server richten Sie anfängliche Archivierungsrichtlinien ein, die bestimmen, wie die Archivierung für die Benutzer in Ihrer Bereitstellung implementiert wird. In diesem Thema wird beschrieben, wie Richtlinien verwaltet und bearbeitet werden. 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>Bearbeiten von Archivierungsrichtlinien über die Systemsteuerung
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle „CsArchivingAdministrator“ oder „CsAdministrator“ zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an. 
     
-2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
     
 3. Klicken Sie auf der linken Navigationsleiste auf **Überwachung und Archivierung** und anschließend auf **Archivierungsrichtlinie**.
     
@@ -48,7 +48,7 @@ Wenn Sie zuerst Skype für Business Server bereitstellen, richten Sie die anfän
 6. Klicken Sie auf **Commit ausführen**.
     
     > [!IMPORTANT]
-    > Die Einstellungen einer Benutzerrichtlinie gelten nur für bestimmte Benutzer und Benutzergruppen, auf die Sie die Richtlinie anwenden. Weitere Informationen hierzu finden Sie unter [Anwenden einer Archivierungsrichtlinie für Benutzer in Skype für Business Server](apply-a-policy-to-users.md). 
+    > Die Einstellungen einer Benutzerrichtlinie gelten nur für bestimmte Benutzer und Benutzergruppen, auf die Sie die Richtlinie anwenden. Ausführliche Informationen finden Sie unter [Anwenden einer Archivierungsrichtlinie auf Benutzer in Skype for Business Server](apply-a-policy-to-users.md). 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>Bearbeiten von Archivierungsrichtlinien mit Windows PowerShell
 
@@ -68,7 +68,7 @@ Setzen Sie den Wert des Parameters „ArchiveExternal“ auf „True ($True)“,
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
 ```
 
-Um die Archivierung sowohl interne und externe kommunikationssitzungen zu aktivieren, legen Sie den Wert der Parameter sowohl die ArchiveInternal und ArchiveExternal auf "true": 
+Um die Archivierung sowohl interner als auch externer Kommunikationssitzungen zu ermöglichen, setzen Sie den Wert für die ArchiveInternal-und ArchiveExternal-Parameter auf true: 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True

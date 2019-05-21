@@ -1,38 +1,38 @@
 ---
-title: Erstellen einer neuen Auflistung von Trunk-Konfigurationseinstellungen in Skype für Business Server
+title: Erstellen einer neuen Sammlung von trunk-Konfigurationseinstellungen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: SIP-trunkkonfigurationseinstellungen definieren die Beziehung und Funktionen zwischen einem Vermittlungsserver und das Gateway public switched Telephone Network, (PSTN), eine öffentliche IP-PBX (Branch Exchange) oder eine Session Border Controller (SBC) des Dienstanbieters.
-ms.openlocfilehash: 684acac1345c7b4125b2310569cd92e72db6a926
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: SIP Trunk-Konfigurationseinstellungen definieren die Beziehungen und Funktionen zwischen einem Vermittlungs Server und dem PSTN-Gateway (Public Switched Telephone Network), einer IP-Public Branch Exchange (PBX) oder einem Session Border Controller (SBC) beim Dienstanbieter.
+ms.openlocfilehash: 884116e8ac6cb5818c026123c652f439f44dc374
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896376"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275038"
 ---
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Erstellen einer neuen Auflistung von Trunk-Konfigurationseinstellungen in Skype für Business Server
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Erstellen einer neuen Sammlung von trunk-Konfigurationseinstellungen in Skype for Business Server
 
-SIP-trunkkonfigurationseinstellungen definieren die Beziehung und Funktionen zwischen einem Vermittlungsserver und das Gateway public switched Telephone Network, (PSTN), eine öffentliche IP-PBX (Branch Exchange) oder eine Session Border Controller (SBC) des Dienstanbieters. Diese Einstellungen geben unter anderem Folgendes an:
+SIP Trunk-Konfigurationseinstellungen definieren die Beziehungen und Funktionen zwischen einem Vermittlungs Server und dem PSTN-Gateway (Public Switched Telephone Network), einer IP-Public Branch Exchange (PBX) oder einem Session Border Controller (SBC) beim Dienstanbieter. Diese Einstellungen geben unter anderem Folgendes an:
 - Ob Medienumgehung für die Trunks aktiviert werden soll.
-- Die Bedingungen, unter denen Pakete Real-Time Transport Control Protocol (RTCP) gesendet werden.
-- Unabhängig davon, ob die Verschlüsselung secure Real-Time Transport Protocol (SRTP) für jeden Trunk erforderlich ist.
+- Die Bedingungen, unter denen RTCP-Pakete (Real-Time Transport Control Protocol) gesendet werden.
+- Ob die SRTP-Verschlüsselung (Secure Real-Time Protocol) für jeden trunk erforderlich ist.
 
-Wenn Sie Skype für Business Server installieren, wird eine globale Auflistung von SIP-trunkkonfigurationseinstellungen für Sie erstellt. Darüber hinaus können Administratoren benutzerdefinierte Auflistungen mit Einstellungen auf Standort- oder Dienstebene erstellen (nur für den PSTN-Gatewaydienst).
+Wenn Sie Skype for Business Server installieren, wird eine globale Sammlung von SIP-Trunk-Konfigurationseinstellungen für Sie erstellt. Darüber hinaus können Administratoren benutzerdefinierte Auflistungen mit Einstellungen auf Standort- oder Dienstebene erstellen (nur für den PSTN-Gatewaydienst).
 
-Beim Erstellen von SIP-Trunk Configuration Settings UsingSkype für Business Server-Systemsteuerung sind die folgenden Optionen zur Verfügung:
+Beim Erstellen von SIP-Trunk-Konfigurationseinstellungen nutzen für Business Server Control Panel stehen Ihnen die folgenden Optionen zur Verfügung:
 
 |Benutzeroberflächeneinstellung | PowerShell-Parameter | Beschreibung |
 |--|--|--|
 |Name|Identität|Eindeutige ID für die Sammlung. Diese Eigenschaft ist schreibgeschützt. Sie können die Identität einer Sammlung von Trunkkonfigurationseinstellungen nicht ändern.|
 |Beschreibung|Beschreibung|Bietet Administratoren eine Möglichkeit, zusätzliche Informationen zu den Einstellungen zu speichern (z. B. Zweck der Trunkkonfiguration).|
 |Maximal unterstützte frühe Dialoge|MaxEarlyDialogs|Die maximale Anzahl von gegabelten Antworten, die ein PSTN-Gateway, eine IP-Nebenstellenanlage oder ein SBC (Session Border Controller) des Dienstanbieters auf an den Vermittlungsserver gesendete Einladungen empfangen kann.|
-|Unterstützte Verschlüsselungsstufe|SRTPMode|Legt den Umfang der Unterstützung zum Schutz von Mediendatenverkehr zwischen dem Vermittlungsserver und dem PSTN-Gateway, der IP-Nebenstellenanlage oder dem SBC (Session Border Controller) des Dienstanbieters fest. Bei der Medienumgehung muss dieser Wert mit der Einstellung „EncryptionLevel“ in der Medienkonfiguration kompatibel sein. Medienkonfiguration wird mithilfe der Cmdlets [New-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration) und [Set-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration) festgelegt.<br/>Gültige Werte sind:<br/><br/>**Erforderlich**: SRTP-Verschlüsselung muss verwendet werden.<br/>**Optional**: SRTP wird verwendet, wenn es vom Gateway unterstützt.<br/>**Nicht unterstützt**: SRTP-Verschlüsselung wird nicht unterstützt und daher nicht verwendet werden.<br/><br/>„SRTPMode“ wird nur verwendet, wenn das Gateway zur Verwendung von TLS (Transport Layer Security) konfiguriert ist. Wenn das Gateway mit dem Transportprotokoll TCP (Transmission Control Protocol) konfiguriert ist, wird „SRTPMode“ intern auf „Nicht unterstützt“ festgelegt.|
+|Unterstützte Verschlüsselungsstufe|SRTPMode|Legt den Umfang der Unterstützung zum Schutz von Mediendatenverkehr zwischen dem Vermittlungsserver und dem PSTN-Gateway, der IP-Nebenstellenanlage oder dem SBC (Session Border Controller) des Dienstanbieters fest. Bei der Medienumgehung muss dieser Wert mit der Einstellung „EncryptionLevel“ in der Medienkonfiguration kompatibel sein. Die Medienkonfiguration wird mithilfe der Cmdlets [New-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration) und [CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration) gesetzt.<br/>Gültige Werte sind:<br/><br/>**Erforderlich**: SRTP-Verschlüsselung muss verwendet werden.<br/>**Optional**: srtp wird verwendet, wenn es vom Gateway unterstützt wird.<br/>**Nicht unterstützt**: die SRTP-Verschlüsselung wird nicht unterstützt und wird daher nicht verwendet.<br/><br/>„SRTPMode“ wird nur verwendet, wenn das Gateway zur Verwendung von TLS (Transport Layer Security) konfiguriert ist. Wenn das Gateway mit dem Transportprotokoll TCP (Transmission Control Protocol) konfiguriert ist, wird „SRTPMode“ intern auf „Nicht unterstützt“ festgelegt.|
 |Support melden|Enable3pccRefer<br/>EnableReferSupport|Mit der Einstellung **Senden der Weiterleitung an Gateway aktivieren** unterstützt der Trunk den Empfang von Weiterleitungsanforderungen vom Vermittlungsserver.<br/>Mit der Einstellung **Weiterleitung mithilfe von Drittanbieteranrufsteuerung aktivieren** kann das 3pcc-Protokoll verwendet werden, damit weitergeleitete Anrufe den gehosteten Standort umgehen können. 3pcc ist auch unter dem Namen „Third Party Call Control“ bekannt und tritt auf, wenn ein Drittanbieter verwendet wird, um zwei Anrufer miteinander zu verbinden (z. B. wenn ein Anruf von Person A an Person B über eine Telefonzentrale durchgestellt wird).|
 |Medienumgehung aktivieren|EnableBypass|Gibt an, ob die Medienumgehung für diesen Trunk aktiviert ist. Die Medienumgehung kann nur aktiviert werden, wenn auch **Zentralisierte Medienverarbeitung** aktiviert ist.|
 |Zentralisierte Medienverarbeitung|ConcentratedTopology|Gibt an, ob ein bekannter Medienendpunkt vorhanden ist. (Ein Beispiel für einen bekannten Medienendpunkt ist ein PSTN-Gateway, bei dem der Medienendpunkt dieselbe IP-Adresse hat wie der Signaldatenverkehrendpunkt.)|
@@ -50,14 +50,14 @@ Beim Erstellen von SIP-Trunk Configuration Settings UsingSkype für Business Ser
 ||||
 
 > [!Note]
-> Die Skype für Business Server CsTrunkConfiguration Cmdlets unterstützt zusätzliche Eigenschaften werden nicht in Skype Business Server-Systemsteuerung angezeigt. Weitere Informationen finden Sie im Hilfethema für das [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration) -Cmdlet. 
+> Die Skype for Business Server CsTrunkConfiguration-Cmdlets unterstützen zusätzliche Eigenschaften, die nicht in der Skype for Business Server-Systemsteuerung angezeigt werden. Weitere Informationen finden Sie im Hilfethema zum Cmdlet [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration) . 
 
-**Neuen Trunk-Konfigurationseinstellungen mithilfe von Skype Business Server-Systemsteuerung erstellen**
+**So erstellen Sie neue trunk-Konfigurationseinstellungen mithilfe der Skype for Business Server-Systemsteuerung**
 
-1. Klicken Sie in der Skype Business Server-Systemsteuerung klicken Sie auf **VoIP-Routing**, und klicken Sie dann auf **Trunkkonfiguration**.
+1. Klicken Sie im Skype for Business Server-Control Panel auf **VoIP-Routing**und dann auf trunk- **Konfiguration**.
 2. Klicken Sie auf der Registerkarte **Trunkkonfiguration** auf **Neu** und dann auf **Standorttrunk**, um die neuen Einstellungen für den Standortbereich zu erstellen, oder klicken Sie auf **Pooltrunk**, um die neuen Einstellungen für den Dienstbereich zu erstellen.
-3. Wählen Sie im **Dialogfeld Standort auswählen** oder im Dialogfeld **Wählen Sie einen Dienst** (das Dialogfeld richtet sich danach, ob Sie Standortebene oder Service-bezogenen Einstellungen erstellen) den Speicherort für die neue Konfigurationseinstellungen, und klicken Sie dann auf OK ** **. Wenn das Dialogfeld leer ist, bedeutet dies, dass es ist keine Stelle, an die neuen Einstellungen erstellen; Wenn das Dialogfeld **Standort auswählen** auf leer ist, bedeutet, dass beispielsweise, dass alle Ihre Websites haben bereits eine Auflistung von Trunk Configuration Websites zugewiesen, und jede Website (und jeden Dienst) können nur eine solche Auflistung hosten. In diesem Fall können Sie entweder die bestehende Auflistung zu löschen und erstellen eine neue Auflistung oder einfach ändern die vorhandene Auflistung.
+3. Wählen Sie im Dialogfeld **Website auswählen** oder **Dienst auswählen** (das angezeigte Dialogfeld hängt davon ab, ob Sie Websitebereichs-oder Dienstbereichs bezogene Einstellungen erstellen), wählen Sie den Speicherort für die neuen Konfigurationseinstellungen aus, und klicken Sie dann auf **OK. **. Wenn das Dialogfeld leer ist, bedeutet dies, dass kein Ort zum Erstellen der neuen Einstellungen vorhanden ist. Wenn beispielsweise das Dialogfeld **Website auswählen** leer ist, bedeutet dies, dass allen Websites bereits eine Sammlung von trunk-Konfigurations Websites zugewiesen wurde und jede Website (und jeder Dienst) nur eine dieser Sammlungen hosten kann. In diesem Fall können Sie entweder die vorhandene Sammlung löschen und eine neue Sammlung erstellen oder einfach die vorhandene Sammlung ändern.
 4. Nehmen Sie im Dialogfeld **Neue Trunkkonfiguration** die gewünschten Einstellungen vor und klicken Sie auf **OK**.
 5. Die Eigenschaft **State** für die Sammlung wird als **Commit nicht ausgeführt** angezeigt. Um die Änderungen zu übernehmen und die Sammlung zu löschen, klicken Sie auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**.
 6. Klicken Sie im Dialogfeld **VoIP-Konfigurationseinstellungen, für die kein Commit ausgeführt wurde** auf **OK**.
-7. Klicken Sie im Dialogfeld **Skype für die Business-Systemsteuerung** auf **OK**.
+7. Klicken Sie im Dialogfeld **Skype Control Panel für Unternehmen** auf **OK**.

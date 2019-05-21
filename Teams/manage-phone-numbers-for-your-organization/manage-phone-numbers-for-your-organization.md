@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -23,16 +23,16 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Each country or region has different instructions for getting phone numbers for users in Skype for Business Online and Microsoft Teams. Follow the link to your country or region below to get the information you need.
-ms.openlocfilehash: dd4bb74172736ae3b82bef00a4b4b11c7285ee1f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 087375b8874876fe5ed3f0bbf9f8799fc6f53c74
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245278"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278335"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Verwalten von Telefonnummern für Ihre Organisation
 Es gibt drei Möglichkeiten, um Benutzer- und Servicenummern (kostenpflichtig und gebührenfrei) für Ihre Organisation zu erhalten.
-- Rufen Sie Zahlen in der Skype für Business Administrationscenter.
+- Rufen Sie Nummern im Skype for Business Admin Center ab.
 - Verwenden Sie ein Anforderungsformular für neue Nummern, die nicht im Admin Center von Skype for Business aufgeführt sind.
 - Übertragen oder „portieren“ Sie Ihre bestehenden Nummern zu uns.
 
@@ -53,14 +53,14 @@ Wenn Sie wissen, welche Art von Formularen Sie suchen, verwenden Sie die Dropdow
 > - [Niederlande](phone-number-management-for-the-netherlands.md)
 > - [Spanien](phone-number-management-for-spain.md)
 > - [Vereinigtes Königreich](phone-number-management-for-the-u-k.md)
-> - [US (Puerto Rico)](phone-number-management-for-the-u-s.md)
+> - [USA (Puerto Rico)](phone-number-management-for-the-u-s.md)
 
 ***
 ## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>Hier finden Sie weitere Informationen zu diesen Formularen zur Anforderung von Telefonnummern
 ### <a name="request-forms-for-new-phone-numbers"></a>Anfordern von Formularen für neue Telefonnummern
 Jedes Land oder jede Region hat unterschiedliche Vorschriften, verschiedene Arten von Telefonnummern (geografisch/nicht geografisch und Servicenummern (kostenpflichtig/gebührenfrei) sowie Regeln und Bestimmungen für den Erhalt von Telefonnummern, damit diese in Skype for Business Online und Microsoft Teams verwendet werden können.
 
-In einigen Fällen (je nach Ihrem Land/Region) nicht möglich neue Benutzer (Abonnent) oder Dienst abrufen (gebührenpflichtige oder gebührenfreie) Zahlen über die **Skype für Business Administrationscenter**, oder Sie möglicherweise bestimmte Telefonnummern oder Ortskennzahlen.
+Manchmal (je nach Land/Region) können Sie mit dem **Skype for Business Admin Center**keine neuen Nutzer (Teilnehmer) oder Dienstleistungen (gebührenpflichtige oder gebührenfreie) Nummern erhalten, oder Sie benötigen bestimmte Telefonnummern oder Ortsvorwahl.
 
 If so, you will need to download the correct PDF form (per country/region and the type of numbers) and send it back to us. Our service desk will take it from there and will let you know about the progress or your order.
 
@@ -77,10 +77,10 @@ If you still need help, please let us know how we can help you. In your Help req
 - Hilfe zu Telefonnummern außerhalb der USA: [Anfrage senden](mailto:ptneu@microsoft.com).
 
 #### <a name="additional-resources"></a>Zusätzliche Ressourcen:
-- Um herauszufinden, ob aufrufen Pläne verfügbar in Ihrem Land oder Region sind, finden Sie unter [Ländern und Region Verfügbarkeit für Audiokonferenzen und plant aufrufen](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- Mit denen Sie den Typ der Telefonnummer auswählen, die Sie benötigen, lesen Sie [verschiedene Arten von Telefonnummern für den Aufruf von plant verwendet](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
-- Um mehr darüber zu erfahren, wie Sie Benutzer-Telefonnummern im Admin Center beziehen können, lesen Sie [Erhalten von Telefonnummern für Ihre Benutzer](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
-- Um Hilfe beim Einrichten von Rufnummern für Ihr Unternehmen, [Kontaktieren des Supports für Business-Produkte – Admin Hilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)zu erhalten.
+- Wenn Sie feststellen möchten, ob Anrufpläne in Ihrem Land oder Ihrer Region verfügbar sind, lesen Sie [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) .
+- Wenn Sie die Art der benötigten Telefonnummer wählen möchten, lesen Sie [verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet](../different-kinds-of-phone-numbers-used-for-calling-plans.md)werden.
+- Um mehr darüber zu erfahren, wie Sie Benutzer-Telefonnummern im Admin Center beziehen können, lesen Sie [Erhalten von Telefonnummern für Ihre Benutzer](/microsoftteams/getting-phone-numbers-for-your-users).
+- Wenn Sie Hilfe beim Einrichten von Telefonnummern für Ihre Organisation benötigen, [wenden Sie sich an den Support für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
     
 ## <a name="related-topics"></a>Verwandte Themen

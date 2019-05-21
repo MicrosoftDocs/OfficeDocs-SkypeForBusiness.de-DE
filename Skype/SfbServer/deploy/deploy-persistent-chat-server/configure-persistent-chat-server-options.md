@@ -5,52 +5,52 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/28/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
-description: 'Zusammenfassung: Informationen Sie zum Konfigurieren von Persistent Chat Server-Optionen auf globaler, Standort- oder Poolebene in Skype für Business Server 2015.'
-ms.openlocfilehash: fa2f5aec3a4061191927563437b36504cbb3a119
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Server Optionen für beständigen Chat auf globaler, Website-oder Poolebene in Skype for Business Server 2015 konfigurieren.'
+ms.openlocfilehash: 6305ba9a961248b24fe1a2fc28d5944efb6adeac
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894486"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273868"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Konfigurieren von Optionen des Servers für beständigen Chat in Skype for Business Server 2015
  
-**Zusammenfassung:** Informationen Sie zum Konfigurieren von Persistent Chat Server-Optionen auf globaler, Standort- oder Poolebene in Skype für Business Server 2015.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie die Server Optionen für beständigen Chat auf globaler, Website-oder Poolebene in Skype for Business Server 2015 konfigurieren.
   
-Sie können mehrere Optionen für Persistent Chat Server angeben, die global für alle Pools in einer Website oder auf einem bestimmten Pool innerhalb einer Website angewendet werden können. Für den beständigen Chat stehen folgende Serveroptionen zur Verfügung: 
+Sie können mehrere Optionen für beständigen Chat Server angeben, die Global angewendet werden können, auf alle Pools innerhalb einer Website oder auf einen bestimmten Pool innerhalb einer Website. Für den beständigen Chat stehen folgende Serveroptionen zur Verfügung: 
   
-- Standard-Chatverlauf. Die Anzahl der Chatnachrichten, die für jeden Chatroom auf erste Anfrage verfügbar sind. Die globale Standardeinstellung ist 30 Chatnachrichten. 
+- Standard-Chat-Protokoll. Die Anzahl von Chat-Nachrichten, die bei der ersten Anforderung für jeden Chatroom zur Verfügung stehen. Der globale Standardwert ist 30 Chatnachrichten. 
     
 - Maximale Dateigröße: Die maximale Größe einer Datei, die in einen Chatroom hochgeladen oder daraus heruntergeladen werden kann. Der globale Standardwert ist 20 MB.
     
-- Teilnehmerliste Updatelimit. Die maximale Anzahl von Teilnehmern in einem bestimmten Chatroom für den beständigen Chat Teilnehmerliste Updates senden. Die globale Standardeinstellung ist 75.
+- Grenzwert für Teilnehmer Aktualisierung. Die maximale Anzahl von Teilnehmern in einem bestimmten Chatroom, für die der beständige Chatdienst Plan Updates sendet. Der globale Standardwert ist 75.
     
-- Raum Management-URL. Die URL für die Verwaltung von benutzerdefinierten Chatrooms verwendet. Die Einstellung ermöglicht die Verwendung einer benutzerdefinierten Raum Management-Lösung. 
+- URL für die Raumverwaltung Die URL, die für die benutzerdefinierte Chat Raumverwaltung verwendet wird. Die Einstellung ermöglicht die Verwendung einer benutzerdefinierten Raum Verwaltungslösung. 
    
 > [!NOTE] 
-> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden.
+> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Reise von Skype for Business zu Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen.
  
-## <a name="configure-persistent-chat-server-global-options"></a>Konfigurieren Sie globale Optionen für Persistent Chat Server
+## <a name="configure-persistent-chat-server-global-options"></a>Globale Optionen für den beständigen Chat Server konfigurieren
 
-So konfigurieren Sie globale Optionen für Persistent Chat Server
+So konfigurieren Sie die globalen Optionen für beständigen Chat Server:
   
 1. Melden Sie sich mit einem Benutzerkonto, das über die Rolle „CsPersistentChatAdministrator“ oder „CsAdministrator-Rolle“ verfügt, bei einem Computer in Ihrer internen Bereitstellung an.
     
-2. Im Menü **Start** wählen Sie die Skype für Business Server-Systemsteuerung oder öffnen Sie ein Browserfenster, und geben Sie die Admin-URL.
+2. Wählen Sie im **Startmenü** die Skype for Business Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein.
     
 3. Klicken Sie in der linken Navigationsleiste auf **Beständiger Chat** und dann auf **Konfiguration für beständigen Chat**.
     
-4. Klicken Sie auf der Seite **Konfiguration für beständigen Chat** klicken Sie auf **neu,** und klicken Sie dann auf **Standortkonfiguration**.
+4. Klicken Sie auf der Seite **persistent Chat Configuration** auf **neu,** und klicken Sie dann auf **Websitekonfiguration**.
     
     > [!IMPORTANT]
-    > Wählen Sie diese Option, wenn die Konfiguration für alle Persistent Chat Server-Pools in der Website bereitgestellte angewendet werden soll. Klicken Sie auf **Poolkonfiguration** , wenn die Konfiguration auf einem bestimmten Persistent Chat Server Pool angewendet werden soll.
+    > Wählen Sie diese Option aus, wenn die Konfiguration auf alle beständigen Chat Server Pools angewendet werden soll, die auf der Website bereitgestellt werden. Klicken Sie auf **Poolkonfiguration** , wenn die Konfiguration auf einen bestimmten beständigen Chat Server Pool angewendet werden soll.
   
-5. Wählen Sie im **Dialogfeld Standort auswählen**der Website für die Konfiguration eines Persistent Chat Server konfiguriert werden soll.
+5. Wählen Sie unter **Website auswählen**die Website aus, die für die Websitekonfiguration des beständigen Chat Servers konfiguriert werden soll.
     
 6. Führen Sie unter **Neue Konfiguration für beständigen Chat** die folgenden Aktionen aus:
     
@@ -59,31 +59,31 @@ So konfigurieren Sie globale Optionen für Persistent Chat Server
    - Definieren Sie unter **Standardchatverlauf** die Anzahl von Chatnachrichten, die für jeden Chatroom bei der ersten Anforderung verarbeitet werden. Der Standardwert lautet 30. Dies ist der globale Standardwert und Administratoren können den Chatverlauf pro Kategorie deaktivieren.
     
      > [!IMPORTANT]
-     > Persistent Chat Server diese Nachrichten im Arbeitsspeicher zwischengespeichert wird, wenn Sie diese Zahl erhöhen, weitere Nachrichten zwischengespeichert werden. Sie können von der Suche immer zurückliegenden Inhalte zugreifen. Die Standardanzahl einfach bestimmt die maximale Anzahl von Nachrichten, die Sie anfänglich finden Sie unter beim Verbinden mit einem Chatroom. 
+     > Der beständige Chat Server speichert diese Nachrichten im Arbeitsspeicher, wenn Sie also diese Zahl erhöhen, werden weitere Nachrichten zwischengespeichert. Sie können jederzeit auf Verlaufs Inhalte zugreifen, indem Sie suchen. Die Standardnummer bestimmt einfach die maximale Anzahl von Nachrichten, die Sie beim Herstellen einer Verbindung mit einem Chatroom anfänglich sehen. 
   
    - Wählen Sie unter **Maximale Dateigröße (KB)** die maximale Dateigröße für jeden Chatverlauf aus. Der Standardwert lautet 20 MB (20.000 KB). Dies ist die maximale Größe einer Datei, die in einen Chatroom des Systems hochgeladen werden kann (Dateiuploads werden jeweils über die Einstellung **Kategorie** aktiviert).
     
-   - **Teilnehmer aktualisieren Grenzwert**wählen Sie den Grenzwert für Teilnehmer Updates. Persistent Chat-Server sendet Teilnehmerliste Informationen (, die in einem Chatroom verbunden ist) an alle Teilnehmer, bis die Anzahl der verbundenen Benutzer diese Nummer erreicht. Standardmäßig ist die Anzahl 75. Dieser Grenzwert gibt die maximale Anzahl von Teilnehmern in einem bestimmten Raum jenseits dessen Persistent Chat Server beendet das Senden von Updates der Teilnehmerliste einer verbundenen Clients zu, die im Raum vorhanden ist.
+   - Wählen Sie in der **Teilnehmer Aktualisierungs Grenze**das Limit für Teilnehmer Updates aus. Der beständige Chat Server sendet Dienstplan Informationen (die mit einem Chatroom verbunden sind) an alle Teilnehmer, bis die Anzahl der verbundenen Nutzer diese Nummer erreicht hat. Standardmäßig ist die Nummer 75. Dieser Grenzwert gibt die maximale Anzahl von Teilnehmern in einem bestimmten Raum an, über die der beständige Chat Server keine Dienstplan Updates mehr an verbundene Clients sendet, die im Chatroom anwesend sind.
     
-   - (Optional). Wählen Sie in **Raum Management URL**den Chatroom Management-URL ein. Dies ist die URL für die webbasierte benutzerdefinierte Raumverwaltung. Wenn Sie nicht mehr benötigen zum Verwalten von Chatrooms anpassen, verwenden Sie einfach die Standardeinstellung, lassen Sie diese Option leer. Nach dem Festlegen der URL wird diese sowohl als interne als auch als externe Raumverwaltungs-URL angewendet.
+   - (Optional) Wählen Sie in der **Raum Verwaltungs-URL**die URL für die Raumverwaltung aus. Dies ist die URL für die webbasierte benutzerdefinierte Raumverwaltung. Wenn Sie die Raumverwaltung nicht anpassen müssen und einfach die Standardeinstellung verwenden, lassen Sie diese Option leer. Nach dem Festlegen der URL wird diese sowohl als interne als auch als externe Raumverwaltungs-URL angewendet.
     
-     Wenn Sie Anpassen Ihrer Erstellung wie im Besprechungsraum und Ihren Workflow bestimmter geschäftlicher einschließen möchten, können Sie eine benutzerdefinierte Raum Management-Lösung mithilfe der Persistent Chat Server Software Development Kit (SDK) erstellen, es irgendwo hosten und die URL hier einfügen. Diese URL wird an den Client gesendet nach unten, wenn ein Benutzer versucht, anzeigen oder einen Chatroom erstellen, kann er an der benutzerdefinierten Raum Management-Lösung gerichtet ist.
+     Wenn Sie Ihre Raum Erstellungs Erfahrung anpassen und ihren spezifischen geschäftsworkflow einbeziehen möchten, können Sie eine benutzerdefinierte Raum Verwaltungslösung erstellen, indem Sie den beständigen Chat Server Software Development Kit (SDK) verwenden, ihn an einer beliebigen Stelle hosten und die URL hier platzieren. Diese URL wird an den Client gesendet, sodass ein Benutzer, der versucht, einen Raum anzuzeigen oder zu erstellen, an Ihre benutzerdefinierte Raum Verwaltungslösung weitergeleitet wird.
     
 7. Klicken Sie auf **Commit ausführen**.
     
-## <a name="configure-options-for-a-specific-persistent-chat-server-pool"></a>Konfigurieren von Optionen für einen bestimmten Pool Persistent Chat Server
+## <a name="configure-options-for-a-specific-persistent-chat-server-pool"></a>Konfigurieren von Optionen für einen bestimmten beständigen Chat Server Pool
 
-So konfigurieren Sie Optionen für einen bestimmten Persistent Chat Server Pool.
+So konfigurieren Sie Optionen für einen bestimmten beständigen Chat Server Pool.
   
 1. Melden Sie sich mit einem Benutzerkonto, das über die Rolle „CsPersistentChatAdministrator“ oder „CsAdministrator-Rolle“ verfügt, bei einem Computer in Ihrer internen Bereitstellung an.
     
-2. Im Menü **Start** wählen Sie die Skype für Business Server-Systemsteuerung oder öffnen Sie ein Browserfenster, und geben Sie die Admin-URL.
+2. Wählen Sie im **Startmenü** die Skype for Business Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein.
     
 3. Klicken Sie in der linken Navigationsleiste auf **Beständiger Chat** und dann auf **Konfiguration für beständigen Chat**.
     
 4. Klicken Sie auf der Seite **Konfiguration für beständigen Chat** auf **Neu** und dann auf **Poolkonfiguration**.
     
-5. Wählen Sie im, **Wählen Sie einen Dienst**den Dienst zugeordnet Persistent Chat Server Pool konfiguriert werden soll.
+5. Wählen Sie in **Dienst auswählen**den Dienst aus, der dem Server Pool für beständigen Chat zugeordnet ist und konfiguriert werden soll.
     
 6. Führen Sie unter **Neue Konfiguration für beständigen Chat** die folgenden Aktionen aus:
     
@@ -92,15 +92,15 @@ So konfigurieren Sie Optionen für einen bestimmten Persistent Chat Server Pool.
    - Definieren Sie unter **Standardchatverlauf** die Anzahl von Chatnachrichten, die für jeden Chatroom bei der ersten Anforderung verarbeitet werden. Der Standardwert lautet 30. Dies ist der globale Standardwert und Administratoren können den Chatverlauf pro Kategorie deaktivieren.
     
      > [!IMPORTANT]
-     > Persistent Chat Server diese Nachrichten im Arbeitsspeicher zwischengespeichert wird, wenn Sie diese Zahl erhöhen, weitere Nachrichten zwischengespeichert werden. Sie können von der Suche immer zurückliegenden Inhalte zugreifen. Die Standardanzahl einfach bestimmt die maximale Anzahl von Nachrichten, die Sie anfänglich finden Sie unter beim Verbinden mit einem Chatroom. 
+     > Der beständige Chat Server speichert diese Nachrichten im Arbeitsspeicher, wenn Sie also diese Zahl erhöhen, werden weitere Nachrichten zwischengespeichert. Sie können jederzeit auf Verlaufs Inhalte zugreifen, indem Sie suchen. Die Standardnummer bestimmt einfach die maximale Anzahl von Nachrichten, die Sie beim Herstellen einer Verbindung mit einem Chatroom anfänglich sehen. 
   
    - Wählen Sie unter **Maximale Dateigröße (KB)** die maximale Dateigröße für jeden Chatverlauf aus. Der Standardwert lautet 20 MB (20.000 KB). Dies ist die maximale Größe einer Datei, die in einen Chatroom des Systems hochgeladen werden kann (Dateiuploads werden jeweils über die Einstellung **Kategorie** aktiviert).
     
-   - **Teilnehmer aktualisieren Grenzwert**wählen Sie den Grenzwert für Teilnehmer Updates. Persistent Chat-Server sendet Teilnehmerliste Informationen (, die in einem Chatroom verbunden ist) an alle Teilnehmer, bis die Anzahl der verbundenen Benutzer diese Nummer erreicht. Standardmäßig ist die Anzahl 75. Dieser Grenzwert gibt die maximale Anzahl von Teilnehmern in einem bestimmten Raum jenseits dessen Persistent Chat Server beendet das Senden von Updates der Teilnehmerliste einer verbundenen Clients zu, die im Raum vorhanden ist.
+   - Wählen Sie in der **Teilnehmer Aktualisierungs Grenze**das Limit für Teilnehmer Updates aus. Der beständige Chat Server sendet Dienstplan Informationen (die mit einem Chatroom verbunden sind) an alle Teilnehmer, bis die Anzahl der verbundenen Nutzer diese Nummer erreicht hat. Standardmäßig ist die Nummer 75. Dieser Grenzwert gibt die maximale Anzahl von Teilnehmern in einem bestimmten Raum an, über die der beständige Chat Server keine Dienstplan Updates mehr an verbundene Clients sendet, die im Chatroom anwesend sind.
     
-   - Wählen Sie unter **Raumverwaltungs-URL** die Raumverwaltungs-URL aus. Dies ist die URL für die webbasierte Bereitstellung der Raumverwaltung. Wenn Sie nicht mehr benötigen zum Verwalten von Chatrooms anpassen, verwenden Sie einfach die Standardeinstellung, lassen Sie diese Option leer.
+   - Wählen Sie unter **Raumverwaltungs-URL** die Raumverwaltungs-URL aus. Dies ist die URL für die webbasierte Bereitstellung der Raumverwaltung. Wenn Sie die Raumverwaltung nicht anpassen müssen und einfach die Standardeinstellung verwenden, lassen Sie diese Option leer.
     
-     Wenn Sie Anpassen Ihrer Erstellung wie im Besprechungsraum und Ihren Workflow bestimmter geschäftlicher einschließen möchten, können Sie eine benutzerdefinierte Raum Management-Lösung mithilfe der Persistent Chat Server Software Development Kit (SDK) erstellen, es irgendwo hosten und die URL hier einfügen. Diese URL wird an den Client gesendet nach unten, wenn ein Benutzer versucht, einen Raum anzeigen/erstellen, kann er an der benutzerdefinierten Raum Management-Lösung gerichtet ist.
+     Wenn Sie Ihre Raum Erstellungs Erfahrung anpassen und ihren spezifischen geschäftsworkflow einbeziehen möchten, können Sie eine benutzerdefinierte Raum Verwaltungslösung erstellen, indem Sie den beständigen Chat Server Software Development Kit (SDK) verwenden, ihn an einer beliebigen Stelle hosten und die URL hier platzieren. Diese URL wird an den Client gesendet, damit ein Benutzer, der versucht, einen Raum anzuzeigen/zu erstellen, an Ihre benutzerdefinierte Raum Verwaltungslösung weitergeleitet wird.
     
 7. Klicken Sie auf **Commit ausführen**.
     

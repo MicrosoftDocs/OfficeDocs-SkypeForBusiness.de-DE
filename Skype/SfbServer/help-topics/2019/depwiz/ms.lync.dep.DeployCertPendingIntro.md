@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertPendingIntro
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
 ROBOTS: NOINDEX, NOFOLLOW
-description: Klicken Sie auf Weiter, um eine online ausstehende Anforderung, d. h., eine Anforderung zu verarbeiten, die noch an Ihre online Zertifizierungsstelle ausgestellt wurde, aber auf erfordern eine manuelle Genehmigungsvorgang, vom Administrator festgelegt ist.
-ms.openlocfilehash: 38a9f9f1da0336acbbf47a5dc8af29ba0acabffd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Klicken Sie auf Weiter, um eine ausstehende Online Zertifikatanforderung zu verarbeiten, also eine Anforderung, die für Ihre Onlinezertifizierungsstelle ausgestellt wurde, aber administrativ so festgesetzt ist, dass ein manueller Genehmigungsprozess erforderlich ist.
+ms.openlocfilehash: 5e31b8977b29233140969e1c6f632e5ea66a0741
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894082"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275430"
 ---
 # <a name="pending-certificate-intro"></a>Ausstehendes Zertifikat (Einführung)
  
-Eine online ausstehende Anforderung, d. h., eine Anforderung verarbeitet, die noch an Ihre online Zertifizierungsstelle ausgestellt wurde, jedoch wird vom Administrator festgelegt, erfordern einen manuellen Genehmigungsprozess, klicken Sie auf **Weiter**.
+Klicken Sie auf **weiter**, um eine ausstehende Online Zertifikatanforderung zu verarbeiten, also eine Anforderung, die für Ihre Onlinezertifizierungsstelle ausgestellt wurde, aber administrativ so festgesetzt ist, dass ein manueller Genehmigungsprozess erforderlich ist.
   
 

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die USA verfügbar.
-ms.openlocfilehash: fff28a277df0513728463a1415ed3acedbf08910
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Vereinigten Staaten verfügbar sind.
+ms.openlocfilehash: 4cb21a948fce9c419915a959eb92f73375fcded5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402547"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281939"
 ---
 # <a name="availability-in-the-united-states-us"></a>Verfügbarkeit in den Vereinigten Staaten (USA)
 
 [Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
 
-Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die USA verfügbar.
+Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Vereinigten Staaten verfügbar sind.
 
 ## <a name="audio-conferencing"></a>Audiokonferenz
 
 |**Funktion**|**Details**|
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für: <br/><ul><li> Chicago<li>Dallas<li>München<li>München</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für: <br/><ul><li> Chicago<li>Dallas<li>Los Angeles<li>New York City</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Verfügbar  <br/> |
 
 ## <a name="phone-system"></a>Telefonsystem
@@ -60,14 +60,14 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 | **Funktion**                                       | **Details**                                                                                                                                                                                                                                                                                                                     |
 |:--------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sind Anrufpläne zum Kauf verfügbar?  <br/>   | Ja  <br/>                                                                                                                                                                                                                                                                                                                      |
-| Minuten für den Aufruf von Plänen zur Verfügung.              | Es gibt vier Planoptionen pro Kalendermonat verfügbar: <ul><li>120 minute nationalen aufrufen planen (Verfügbarkeit ist begrenzt)</li><li>240 minute nationalen aufrufen planen (Verfügbarkeit ist begrenzt)</li></li><li>3000 minute nationalen aufrufen planen </li></li><li>Nationalen und internationalen aufrufen planen: 3000 Minuten nationalen OR - 600 Minuten internationaler (je nachdem, was zuerst im Kalendermonat erreicht wird)</li></li> |
-| Stellen Sie ausgehende Anrufe bei Nummern Premium können? <br/> | Zu diesem Zeitpunkt unterstützt nicht. <br/>                                                                                                                                                                                                                                                                                               |
+| Für Anrufpläne verfügbare Minuten.              | Es stehen vier Planoptionen pro Kalendermonat zur Verfügung: <ul><li>120 Minutentarif für Inlandsanrufe (Verfügbarkeit ist begrenzt)</li><li>240 Minutentarif für Inlandsanrufe (Verfügbarkeit ist begrenzt)</li></li><li>3000 Minutentarif für Inlandsanrufe </li></li><li>Plan für Inlands-und Auslandsgespräche: 3000 Minuten der Inlands-oder-600-Minuten für Auslandsanrufe (je nachdem, welche im Kalendermonat zuerst erreicht wird)</li></li> |
+| Können Sie ausgehende Anrufe an Premium-Nummern tätigen? <br/> | Zu diesem Zeitpunkt nicht unterstützt. <br/>                                                                                                                                                                                                                                                                                               |
 | Sind ausgehende Anrufe möglich?  <br/>                | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/>                                                                                                                                                                                                                      |
 > [!Note]
-> Anrufe an Kanada werden als Gespräche behandelt.
+> Anrufe nach Kanada werden als Inlandsgespräche behandelt.
 
 >[!Note] 
-> Vereinigte Staaten nationalen aufrufen enthält Anrufe an alle 50 USA und Puerto Rico. Benutzer, die durch die Lizenz Usage Speicherort der USA und/oder Puerto Rico zugewiesen freigeben selben Pool von Minuten.
+> In den Vereinigten Staaten sind Anrufe in alle 50 US-Bundesstaaten und nach Puerto Rico zu nennen. Benutzer, denen der Lizenz Verwendungsstandort von USA und/oder Puerto Rico zugewiesen ist, haben denselben Minuten Pool.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 

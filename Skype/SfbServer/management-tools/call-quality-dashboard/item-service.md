@@ -1,59 +1,59 @@
 ---
-title: Dienst für Anruf Qualitätsdashboard (CQD)
+title: Element Dienst für das Anruf Qualitäts Dashboard (CQD)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
-description: 'Zusammenfassung: Informationen Sie zu den Element-Dienst, der Teil der Repository-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: cbebdcfcac62eae375c13785b8d9866d055c2b50
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Element Dienst, der Teil der Repository-API für das Anruf Qualitäts Dashboard ist. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: 585ba97d9dedbfcbbd572069a792a121e6156afe
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897499"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274611"
 ---
-# <a name="item-service-for-call-quality-dashboard-cqd"></a>Dienst für Anruf Qualitätsdashboard (CQD)
+# <a name="item-service-for-call-quality-dashboard-cqd"></a>Element Dienst für das Anruf Qualitäts Dashboard (CQD)
  
-**Zusammenfassung:** Informationen Sie zu den Element-Dienst, der Teil der Repository-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Element Dienst, der Teil der Repository-API für das Anruf Qualitäts Dashboard ist. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.
   
-Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen.
+Der Element Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard.
   
 ## <a name="item-service"></a>Elementdienst
 
-Repository-API bietet eine einfache Content Management Service, bekannt als Element-Dienst, der zum Speichern von anwendungsdefinierte Inhalt für Benutzer verwendet werden kann. 
+Die Repository-API bietet einen einfachen Content Management-Dienst, den so genannten Element Dienst, der zum Speichern von anwendungsdefinierten Inhalten für Benutzer verwendet werden kann. 
   
-Den Inhalt des sind Besitz des Systembenutzers und von allen Benutzern mit Lesezugriff gemeinsam genutzt werden. Dedizierten Benutzer Inhalt Besitz regulären Benutzer und nur die Besitzer ändern oder löschen können, aber alle Benutzer weiterhin schreibgeschützten Zugriff auf die Dokumente haben.
+Der Systeminhalt ist Eigentum des Systembenutzers und wird von allen Benutzern mit schreibgeschütztem Zugriff freigegeben. Dedizierte Benutzer Inhalte gehören normalen Benutzern, und nur die Besitzer können Sie ändern oder löschen, doch alle Benutzer verfügen weiterhin über schreibgeschützten Zugriff.
   
 > [!NOTE]
-> Diese API-Dokumentation behandelt schreibgeschützten Vorgängen der Repository-API. 
+> Diese API-Dokumentation umfasst schreibgeschützte Vorgänge der Repository-API. 
   
-Rufen Sie Elemente in der Repositorydatenbank Qualitätsdashboard speichert Berichte und Abfragen. Ein Element kann optionale untergeordnete Elemente aufweisen, und Aufrufen Qualitätsdashboard organisiert Berichte und Abfragen in einer hierarchischen Struktur Unterelemente-Feature verwenden.
+Das Dashboard für die Anrufqualität speichert Berichte und Abfragen als Elemente in der Repository-Datenbank. Ein Element kann über optionale untergeordnete Elemente verfügen, und das Dashboard für die Anrufqualität organisiert Berichte und Abfragen in einer hierarchischen Struktur mithilfe von untergeordneten Elementen.
   
-Element Service umfasst die folgenden Konzepte:
+Der Element Dienst umfasst die folgenden Konzepte:
   
-- **Element** - das grundlegende Element des Repositorys. Jedes Element gehört genau einen Benutzer.
+- **Element** – das grundlegende Element des Repositorys. Jedes Element gehört genau einem Benutzer.
     
-- **Unterelement** - die grundlegende Organisationseinheit Funktionsweise des Repositorys. Element kann 0 (null) aufweisen, eine oder mehrere untergeordnete Elemente.
+- **Unterelement** – die grundlegenden organisatorischen Mechanismen des Repositorys. Das Element kann 0 (null), ein oder mehrere untergeordnete Elemente enthalten.
     
-- **Element Vorgänger** - die Liste der Elemente, die das oberste Element die Standardeinstellung Element des Benutzers, was zu einem bestimmten Element ab.
+- **Item Ancestors** -die Liste der Elemente, beginnend mit dem obersten Element, das das Standardelement des Benutzers ist und zu einem bestimmten Element führt.
     
-- **Elementinhalts** - die anwendungsspezifischen Inhalt in Elemente gespeichert. Anruf Qualitätsdashboard JSON Darstellungen von Berichten und Abfragen im Inhalt gespeichert.
+- **Elementinhalt** – der anwendungsspezifische Inhalt, der in Elementen gespeichert ist. Das Dashboard für die Anrufqualität speichert JSON-Darstellungen von Berichten und Abfragen in Inhalten.
     
-In der folgenden Tabelle sind die REST-Vorgänge enthalten.
+Die übrigen Vorgänge sind in der folgenden Tabelle enthalten.
   
 
 |**Vorgang**|**Beschreibung**|
 |:-----|:-----|
-|[Abrufen von Elementen](get-items.md) <br/> |Rufen Sie Elemente gibt alle Elemente im Repository.  <br/> |
-|[Abrufen eines Elements](get-item.md) <br/> |Möchten Sie gibt ein bestimmtes Element erhalten.  <br/> |
-|[Abrufen von untergeordneten Elementen](get-sub-items.md) <br/> |Rufen Sie ein bestimmtes Element Unterelemente Unterelemente gibt.  <br/> |
-|[Abrufen von übergeordneten Elementen](get-item-ancestors.md) <br/> |Get-Element Vorgänger gibt ein bestimmtes Element Vorgänger zurück.  <br/> |
-|[Aktualisieren von Elementen](update-item.md) <br/> |Aktualisieren Sie ein bestimmtes Element im Repository.  <br/> |
+|[Abrufen von Elementen](get-items.md) <br/> |Elemente abrufen gibt alle Elemente im Repository zurück.  <br/> |
+|[Abrufen eines Elements](get-item.md) <br/> |Element abrufen gibt ein bestimmtes Element zurück.  <br/> |
+|[Abrufen von untergeordneten Elementen](get-sub-items.md) <br/> |Abrufen untergeordneter Elemente gibt die untergeordneten Elemente eines bestimmten Elements zurück.  <br/> |
+|[Abrufen von übergeordneten Elementen](get-item-ancestors.md) <br/> |Get Item Ancestors gibt die Vorfahren eines bestimmten Elements zurück.  <br/> |
+|[Aktualisieren von Elementen](update-item.md) <br/> |Aktualisieren eines bestimmten Elements im Repository  <br/> |
    
 

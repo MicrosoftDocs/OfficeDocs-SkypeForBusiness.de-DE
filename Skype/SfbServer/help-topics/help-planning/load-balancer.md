@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/8/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.LoadBalancer
@@ -13,17 +13,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
-description: 'Wenn Sie Front-End-Pools, Director-Pools oder edgeserverpools haben, müssen Sie für den Lastenausgleich für diese Pools bereitstellen. Beim Lastenausgleich wird der Datenverkehr auf die Server in einem Pool verteilt. Ausführliche Informationen finden Sie unter:'
-ms.openlocfilehash: 65e150952bd7ab147cc90b1b53aab49b140e8c3d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Wenn Sie über Front-End-Pools, Director-Pools oder Edge-Server-Pools verfügen, müssen Sie den Lastenausgleich für diese Pools bereitstellen. Beim Lastenausgleich wird der Datenverkehr auf die Server in einem Pool verteilt. Ausführliche Informationen finden Sie unter:'
+ms.openlocfilehash: 1d348231ef31016c765a69739116a882fbdee650
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887216"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278277"
 ---
 # <a name="load-balancer-planning-tool"></a>Load Balancer (Planning Tool)
  
-Wenn Sie Front-End-Pools, Director-Pools oder edgeserverpools haben, müssen Sie für den Lastenausgleich für diese Pools bereitstellen. Beim Lastenausgleich wird der Datenverkehr auf die Server in einem Pool verteilt. Ausführliche Informationen finden Sie unter:
+Wenn Sie über Front-End-Pools, Director-Pools oder Edge-Server-Pools verfügen, müssen Sie den Lastenausgleich für diese Pools bereitstellen. Beim Lastenausgleich wird der Datenverkehr auf die Server in einem Pool verteilt. Ausführliche Informationen finden Sie unter:
   
 - [Anforderungen an den Lastenausgleich für Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md)
     

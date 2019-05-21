@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,40 +20,40 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Skype für Business Online verwendet die Typen der verschiedenen Telefon Nummer je nach den Zweck die Telefonnummer verwendet werden soll.
-ms.openlocfilehash: e2a05e44cfe064736d906ec83195e02f6026bf3d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Skype for Business Online verwendet verschiedene Telefonnummern Typen, je nach dem Zweck, für den Sie die Telefonnummer verwenden möchten.
+ms.openlocfilehash: 0f4feee439beff5821b18296cb0e9a76d65aa139
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199186"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281840"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden
 
-Skype für Business Online verwendet die Typen der verschiedenen Telefon Nummer je nach den Zweck die Telefonnummer verwendet werden soll. Skype für Business Online verwendet **Abonnenten** Zahlen, die Benutzer in Ihrer Organisation zugewiesen werden können, sowie **Service** Zahlen, die zu Diensten wie etwa Audiokonferenzen in Office 365, automatischen Telefonzentralen zugeordnet sind, oder rufen Sie Warteschlangen. Telefonnummern Service haben eine Zahlen als Abonnenten (oder Benutzer) *einer höheren gleichzeitigen anrufen* . Service-Telefonnummern sind verfügbar, jedoch werden Unterscheidung nach Land/Region und den Zahlentyp (gibt an, ob es eine gebührenpflichtige oder gebührenfreie Nummer ist). Zusätzliche oder anderen Typen der Nummer als diese Nummern in der Skype für Business-Verwaltungskonsole angezeigt werden sollen, können Sie eine Nummer Telefon-Anforderung an Microsoft Telefon Nummer Servicedesk stellen.
+Skype for Business Online verwendet verschiedene Telefonnummern Typen, je nach dem Zweck, für den Sie die Telefonnummer verwenden möchten. Skype for Business Online verwendet **Abonnenten** Nummern, die Benutzern in Ihrer Organisation zugewiesen werden können, und **Dienst** Nummern, die Diensten wie Audiokonferenzen in Office 365, automatischen Telefonzentralen oder Anrufwarteschlangen zugewiesen sind. Dienst Rufnummern besitzen eine *höhere Kapazität für gleichzeitige Anrufe* als Abonnenten-(oder Benutzer-) Nummern. Service-Telefonnummern stehen zur Verfügung, variieren aber je nach Land/Region und dem Typ der Nummer (ob es sich um eine gebührenpflichtige oder gebührenfreie Nummer handelt). Wenn Sie zusätzliche oder andere Nummerntypen als die im Skype for Business Admin Center gezeigten Nummern benötigen, können Sie eine Telefonnummer-Anfrage an den Microsoft-Telefonnummern Service Desk senden.
   
-- **Abonnenten Zahlen**
+- **Abonnenten Nummern**
     
-    Abonnenten Zahlen, die Benutzern zugewiesen sind, und es gibt zwei Arten:
+    Abonnenten Nummern werden Benutzern zugewiesen, und es gibt zwei Arten:
     
-  - **Geografische Zahlen** Geografische Zahlen verfügen über eine Beziehung zu einem geografischen Bereich und die am häufigsten verwendeten sind. Geografische Wählen von Telefonnummern in den meisten Fällen können beispielsweise nur in einer bestimmten Adresse, Ort, Bundesland, oder Region des Landes verwendet werden.
+  - **Geografische Nummern** Geographische Zahlen haben eine Beziehung zu einem geografischen Gebiet und sind am häufigsten. So können beispielsweise geographische Telefonnummern in den meisten Fällen nur innerhalb einer bestimmten Adresse, Stadt, Bundesland oder Region des Landes verwendet werden.
     
-  - **Nicht-geografische Zahlen** Nicht-geografische Zahlen sind national Zahlen, die eine Beziehung zu einem geografischen Bereich innerhalb einer Land/Region nicht aufweisen. Beispielsweise-geografische Zahlen häufig verfügen über dieselbe Kosten beim Aufruf von der Anzahl von einer beliebigen Stelle innerhalb des Landes/der Region. Außerdem verfügen einige Ländern wie Dänemark, nur nicht geografische Zahlen verfügbar.
+  - **Nicht** ortsgebundene Nummern Nicht ortsgebundene Nummern sind nationale Nummern, die keine Beziehung zu einem geographischen Gebiet innerhalb eines Landes/einer Region aufweisen. So haben beispielsweise nicht ortsgebundene Nummern oft die gleichen Kosten, wenn Sie die Nummer von überall aus dem Land/der Region anrufen. In einigen Ländern wie Dänemark sind aber nur nicht-geographische Nummern verfügbar.
     
-- **Dienst Zahlen** Service-Nummern in verschiedenen Nummern Typen verfügbar sind, und Verfügbarkeit ist nach Land/Region unterschiedlich.
+- **Dienstnummern** Dienstnummern sind in verschiedenen Nummerntypen verfügbar, und die Verfügbarkeit variiert je nach Land/Region.
     
   - **Gebührenpflichtige Service Nummern**
     
-    Gebührenpflichtige Service Nummern entstehen gebührenpflichtige Kosten für den Anrufer, und es gibt zwei Arten:
+    Für gebührenpflichtige Dienstnummern kann der Anrufer gebührenpflichtig sein, und es gibt zwei Arten:
     
-      - **Geografische Zahlen** Geografische Zahlen haben eine Beziehung zu einem geografischen Bereich. Geografische Wählen von Telefonnummern in den meisten Fällen können beispielsweise nur in einer bestimmten Adresse, Ort, Bundesland, oder Region des Landes verwendet werden.
+      - **Geografische Nummern** Geografische Nummern haben eine Beziehung zu einem geographischen Gebiet. So können beispielsweise geographische Telefonnummern in den meisten Fällen nur innerhalb einer bestimmten Adresse, Stadt, Bundesland oder Region des Landes verwendet werden.
         
-      - **Nicht-geografische Zahlen** Nicht-geografische Zahlen sind national Zahlen, die eine Beziehung zu einem geografischen Bereich innerhalb einer Land/Region nicht aufweisen. Beispielsweise-geografische Zahlen häufig verfügen über dieselbe Kosten beim Aufruf von der Anzahl von einer beliebigen Stelle innerhalb des Landes/der Region.
+      - **Nicht** ortsgebundene Nummern Nicht ortsgebundene Nummern sind nationale Nummern, die keine Beziehung zu einem geographischen Gebiet innerhalb eines Landes/einer Region aufweisen. So haben beispielsweise nicht ortsgebundene Nummern oft die gleichen Kosten, wenn Sie die Nummer von überall aus dem Land/der Region anrufen.
     
-  - **Dienst gebührenfreie Nummern** Diese Nummern Service nicht in der Regel die gebührenpflichtige Kosten an den Anrufer zu übernehmen. Skype für Business Online bietet nationale gebührenfreie Nummern über 60 Ländern/Regionen.
+  - **Gebührenfreie Service Nummern** Bei diesen Servicenummern fallen dem Anrufer üblicherweise keine Mautgebühren an. Skype for Business Online bietet nationale gebührenfreie Nummern in mehr als 60 Ländern/Regionen.
     
     > [!CAUTION]
-    > Einige Länder/Regionen mit Ursprung Zahl Typen, wie Anrufe von Mobiltelefonen, möglicherweise in einigen Fällen gebührenpflichtige Kosten an den Anrufer zu übernehmen. 
+    > Einige Länder/Regionen und Ursprungs Nummerntypen, wie Anrufe, die von Mobiltelefonen stammen, können dem Anrufer in einigen Fällen gebührenpflichtige Kosten verursachen. 
   
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

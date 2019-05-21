@@ -1,5 +1,5 @@
 ---
-title: Nehmen Sie Änderungen Skype Besprechung übertragen werden Einstellungen für die Organisation
+title: Vornehmen von Änderungen an den Einstellungen für die Skype-Live Konferenz für Ihre Organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,27 +18,27 @@ f1keywords:
 - ms.lync.lac.BroadcastMeetings
 ms.custom:
 - SMB
-description: Sie können aktivieren Skype Besprechung übertragen und nehmen Sie Änderungen Einstellungen und Richtlinien für Besprechungen.
-ms.openlocfilehash: 7145f246ff7b3b6edbcae84f2ca2f5bc381ea501
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Sie können Skype-Live Konferenz aktivieren und Änderungen an den Einstellungen und Richtlinien für diese Besprechungen vornehmen.
+ms.openlocfilehash: 98010683c12c9c8586768f78bd9c45d0231c3e8a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226274"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280793"
 ---
-# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Nehmen Sie Änderungen Skype Besprechung übertragen werden Einstellungen für die Organisation
+# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Vornehmen von Änderungen an den Einstellungen für die Skype-Live Konferenz für Ihre Organisation
 
-Sie können aktivieren Skype Besprechung übertragen und nehmen Sie Änderungen Einstellungen und Richtlinien für Besprechungen.
+Sie können Skype-Live Konferenz aktivieren und Änderungen an den Einstellungen und Richtlinien für diese Besprechungen vornehmen.
   
-- **Skype-Besprechung Übertragung aktivieren** Skype-Besprechung senden können. Nachdem Sie Skype Besprechung übertragen aktiviert haben, müssen Sie [Richten Sie Ihr Netzwerk für Skype Besprechung übertragen werden](set-up-your-network-for-skype-meeting-broadcast.md). Führen Sie diesen Schritt aus, wenn Sie Webinare und andere Konferenzen für Personen außerhalb Ihres Unternehmens durchführen möchten. 
+- **Skype-Live Konferenz aktivieren** Ermöglicht Skype-Live Konferenz. Nachdem Sie Skype-Live Konferenz aktiviert haben, müssen Sie [Ihr Netzwerk für Skype-Live Konferenz einrichten](set-up-your-network-for-skype-meeting-broadcast.md). Führen Sie diesen Schritt aus, wenn Sie Webinare und andere Konferenzen für Personen außerhalb Ihres Unternehmens durchführen möchten. 
     
-- **Aktivieren Sie Skype Besprechung übertragen Preview-Features für meine Organisation** Die Skype für Business Customer Programme bieten Sie frühen Zugriff auf neue Produkte und Features. Dies bietet Ihrer Organisation eine Vorschau auf was kommt und die Möglichkeit, die neuen Funktionen in Ihrer Umgebung testen und Feedback geben, bevor wir Produktbuilds der Öffentlichkeit freigeben.<br/>[Skype für die Business-Vorschau](https://www.skypepreview.com/)
+- **Aktivieren der Vorschau Features für Skype-Live Konferenzen für meine Organisation** Die Skype for Business-Kundenprogramme bieten Ihnen frühen Zugriff auf neue Produkte und Funktionen. Dadurch erhalten Sie von Ihrer Organisation einen kleinen Einblick in die bevorstehenden Funktionen und die Möglichkeit, die neuen Features in ihrer eigenen Umgebung zu testen und Feedback zu geben, bevor wir Produkt-Builds für die breite Öffentlichkeit freigeben.<br/>[Skype for Business-Vorschau](https://www.skypepreview.com/)
     
-- **Organisatoren anonyme Besprechungstermine zulassen** Auf diese Weise können die Organisatoren broadcast Ereignisse erstellen, die damit alle Benutzer außerhalb ihrer Organisation ohne eine Anforderung zur Anmeldung bei beitreten können.
+- **Zulassen, dass die Organisatoren anonyme Besprechungen planen** Auf diese Weise können Organisatoren Broadcast Ereignisse erstellen, mit denen Personen außerhalb Ihrer Organisation teilnehmen können, ohne dass Sie sich anmelden müssen.
     
-- **Zulassen broadcast Besprechungen aufgezeichnet werden sollen** Auf diese Weise können alle Besprechungen, die Sie vom Organisator oder Referent aufgezeichnet werden sollen.
+- **Aufzeichnen von Broadcast Besprechungen zulassen** Dadurch können Besprechungen, die vom Referenten oder Organisator aufgezeichnet werden müssen.
     
-- **Helpdesk-support-URL für Teilnehmer** Geben Sie eine Verknüpfung für broadcast Besprechungsteilnehmer verwenden, wenn sie eine Verbindung oder teilnehmen an einer Besprechung broadcast Hilfe benötigen.
+- **Helpdesk-Support-URL für Teilnehmer** Geben Sie einen Link für die Teilnehmer der Besprechungs Übertragung ein, wenn Sie Hilfe beim Verbinden oder teilnehmen an einer Broadcast Besprechung benötigen.
     
 ## <a name="related-topics"></a>Verwandte Themen
 
