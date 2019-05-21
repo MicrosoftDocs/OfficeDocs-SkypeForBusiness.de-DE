@@ -5,48 +5,48 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.UserNewContact
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
-description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: f4e2880b9457bd792a75b6e3f89c1a7f664d12b5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: 9b58d9909756f4adfa51ec21858d1fb380c6cf92
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912085"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292200"
 ---
-# <a name="users-new-contact-objects"></a><span data-ttu-id="60bae-104">Benutzer: Neue Kontaktobjekte</span><span class="sxs-lookup"><span data-stu-id="60bae-104">Users: New Contact Objects</span></span>
+# <a name="users-new-contact-objects"></a><span data-ttu-id="69a9e-104">Benutzer: Neue Kontaktobjekte</span><span class="sxs-lookup"><span data-stu-id="69a9e-104">Users: New Contact Objects</span></span>
 
-<span data-ttu-id="60bae-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="60bae-105">What do you want to do?</span></span> <span data-ttu-id="60bae-106">Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="60bae-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="69a9e-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="69a9e-105">What do you want to do?</span></span> <span data-ttu-id="69a9e-106">Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="69a9e-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="60bae-107">Enable or Disable Users for Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="60bae-107">Enable or Disable Users for Lync Server 2010</span></span>](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [<span data-ttu-id="69a9e-107">Enable or Disable Users for Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="69a9e-107">Enable or Disable Users for Lync Server 2010</span></span>](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
 
-- [<span data-ttu-id="60bae-108">Zuweisen einer Konferenzrichtlinie zum Ändern der standardmäßigen Besprechungseinstellungen für einen Benutzer</span><span class="sxs-lookup"><span data-stu-id="60bae-108">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [<span data-ttu-id="69a9e-108">Zuweisen einer konferenzrichtlinie zum Ändern der Standard Besprechungs Umgebung eines Benutzers</span><span class="sxs-lookup"><span data-stu-id="69a9e-108">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
 
-- [<span data-ttu-id="60bae-109">Angeben von einem Benutzer für die Anmeldung unterstützten Clientversionen</span><span class="sxs-lookup"><span data-stu-id="60bae-109">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+- [<span data-ttu-id="69a9e-109">Angeben von Client Versionen, die für die Anmeldung von einem Benutzer unterstützt werden</span><span class="sxs-lookup"><span data-stu-id="69a9e-109">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
 
-- [<span data-ttu-id="60bae-110">Zuweisen einer benutzerbasierten PIN-Richtlinie in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="60bae-110">Assign a per-user PIN policy in Skype for Business Server 2015</span></span>](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [<span data-ttu-id="69a9e-110">Zuweisen einer benutzerbasierten PIN-Richtlinie in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="69a9e-110">Assign a per-user PIN policy in Skype for Business Server 2015</span></span>](../../manage/authentication/assign-a-per-user-pin-policy.md)
 
-- [<span data-ttu-id="60bae-111">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span><span class="sxs-lookup"><span data-stu-id="60bae-111">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [<span data-ttu-id="69a9e-111">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span><span class="sxs-lookup"><span data-stu-id="69a9e-111">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [<span data-ttu-id="60bae-112">Konfigurieren der Archivierung der Benutzerkommunikation</span><span class="sxs-lookup"><span data-stu-id="60bae-112">Configure Archiving of a User's Communications</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [<span data-ttu-id="69a9e-112">Konfigurieren der Archivierung einer Benutzerkommunikation</span><span class="sxs-lookup"><span data-stu-id="69a9e-112">Configure Archiving of a User's Communications</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
-- [<span data-ttu-id="60bae-113">Zuweisen einer Ortungsrichtlinie zu einem Benutzer</span><span class="sxs-lookup"><span data-stu-id="60bae-113">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [<span data-ttu-id="69a9e-113">Zuweisen einer Standortrichtlinie zu einem Benutzer</span><span class="sxs-lookup"><span data-stu-id="69a9e-113">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
-- [<span data-ttu-id="60bae-114">Enable users for Enterprise Voice in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="60bae-114">Enable users for Enterprise Voice in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [<span data-ttu-id="69a9e-114">Enable users for Enterprise Voice in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="69a9e-114">Enable users for Enterprise Voice in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [<span data-ttu-id="60bae-115">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span><span class="sxs-lookup"><span data-stu-id="60bae-115">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [<span data-ttu-id="69a9e-115">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span><span class="sxs-lookup"><span data-stu-id="69a9e-115">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [<span data-ttu-id="60bae-116">Configure Telephony for Users</span><span class="sxs-lookup"><span data-stu-id="60bae-116">Configure Telephony for Users</span></span>](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [<span data-ttu-id="69a9e-116">Configure Telephony for Users</span><span class="sxs-lookup"><span data-stu-id="69a9e-116">Configure Telephony for Users</span></span>](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
-- [<span data-ttu-id="60bae-117">Zuweisen einer Richtlinie auf Benutzerebene Mobilität</span><span class="sxs-lookup"><span data-stu-id="60bae-117">Assign a Per-User Mobility Policy</span></span>](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
+- [<span data-ttu-id="69a9e-117">Zuweisen einer Mobilitätsrichtlinie für einzelne Benutzer</span><span class="sxs-lookup"><span data-stu-id="69a9e-117">Assign a Per-User Mobility Policy</span></span>](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
 
-- [<span data-ttu-id="60bae-118">Zuweisen einer Richtlinie für beständigen Chat pro Benutzer</span><span class="sxs-lookup"><span data-stu-id="60bae-118">Assign a Per-User Persistent Chat Policy</span></span>](https://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
+- [<span data-ttu-id="69a9e-118">Zuweisen einer beständigen Chat Richtlinie für einzelne Benutzer</span><span class="sxs-lookup"><span data-stu-id="69a9e-118">Assign a Per-User Persistent Chat Policy</span></span>](https://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
 
-<span data-ttu-id="60bae-119">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="60bae-119">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="69a9e-119">Details zu den verschiedenen Verfahren, die Sie mit der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="69a9e-119">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.FederationRouteSettingsExpander
@@ -12,27 +12,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
-description: Wenn eine Zuweisung der partnerverbundroute Route festlegen möchten, müssen Sie zuerst den Verbund aktiviert werden, auf dem Edge-Server oder Pool für Edge-Server verfügen. Wenn auf dem Edge-Server oder Pool nicht den Verbund aktiviert ist, werden die Federation Route Zuordnung Einstellungen für die Website nicht geändert.
-ms.openlocfilehash: 37b3dc26b12ba1ddba336f8847e16d47124a5cca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Zum Einrichten einer Standort Verbund-Routenzuordnung müssen Sie zuerst den Verbund auf dem Edgeserver oder Edgeserver-Pool aktivieren. Wenn der Verbund auf dem Edgeserver oder Pool nicht aktiviert ist, stehen die Zuordnungseinstellungen für die Verbund Route für die Website nicht zur Änderung zur Verfügung.
+ms.openlocfilehash: 6e68bc7cb2f5a9f04e208dc2f27ce7724aa7e793
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912022"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292724"
 ---
-# <a name="federation-route-settings-expander"></a><span data-ttu-id="dbe23-104">Einstellungen für die Partnerverbundroute – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="dbe23-104">Federation Route Settings Expander</span></span>
+# <a name="federation-route-settings-expander"></a><span data-ttu-id="cb1d0-104">Einstellungen für die Partnerverbundroute – Erweiterung</span><span class="sxs-lookup"><span data-stu-id="cb1d0-104">Federation Route Settings Expander</span></span>
  
-<span data-ttu-id="dbe23-105">Wenn eine Zuweisung der partnerverbundroute Route festlegen möchten, müssen Sie zuerst den Verbund aktiviert werden, auf dem Edge-Server oder Pool für Edge-Server verfügen.</span><span class="sxs-lookup"><span data-stu-id="dbe23-105">To set a site federation route assignment, you must first have federation enabled on the Edge Server or Edge Server pool.</span></span> <span data-ttu-id="dbe23-106">Wenn auf dem Edge-Server oder Pool nicht den Verbund aktiviert ist, werden die Federation Route Zuordnung Einstellungen für die Website nicht geändert.</span><span class="sxs-lookup"><span data-stu-id="dbe23-106">If federation is not enabled on the Edge Server or pool, the federation route assignment settings for the site will not be available for modification.</span></span>
+<span data-ttu-id="cb1d0-105">Zum Einrichten einer Standort Verbund-Routenzuordnung müssen Sie zuerst den Verbund auf dem Edgeserver oder Edgeserver-Pool aktivieren.</span><span class="sxs-lookup"><span data-stu-id="cb1d0-105">To set a site federation route assignment, you must first have federation enabled on the Edge Server or Edge Server pool.</span></span> <span data-ttu-id="cb1d0-106">Wenn der Verbund auf dem Edgeserver oder Pool nicht aktiviert ist, stehen die Zuordnungseinstellungen für die Verbund Route für die Website nicht zur Änderung zur Verfügung.</span><span class="sxs-lookup"><span data-stu-id="cb1d0-106">If federation is not enabled on the Edge Server or pool, the federation route assignment settings for the site will not be available for modification.</span></span>
 
-<span data-ttu-id="dbe23-107">Wenn die partnerverbundeinstellung für den Edge-Server oder Pool konfiguriert wurde, können Sie die folgenden Optionen konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="dbe23-107">If the federation setting at the Edge Server or pool has been configured, you can configure the following options:</span></span> 
+<span data-ttu-id="cb1d0-107">Wenn die Verbund Einstellung auf dem Edgeserver oder Pool konfiguriert wurde, können Sie die folgenden Optionen konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="cb1d0-107">If the federation setting at the Edge Server or pool has been configured, you can configure the following options:</span></span> 
   
-- <span data-ttu-id="dbe23-108">**Zulassen Federation Route Zuordnungen für alle Websites** Diese Einstellung wirkt sich auf alle Websites.</span><span class="sxs-lookup"><span data-stu-id="dbe23-108">**Allow federation route assignments to all sites** This setting will affect all sites.</span></span> <span data-ttu-id="dbe23-109">Stellen Sie sicher, dass die Einstellung, die Sie an diesem Standort konfigurieren für alle Websites geeignet ist.</span><span class="sxs-lookup"><span data-stu-id="dbe23-109">Be sure that the setting that you are configuring at this site is appropriate for all sites.</span></span>
+- <span data-ttu-id="cb1d0-108">**Zuordnungen von Verbund Routen zu allen Websites zulassen** Diese Einstellung wirkt sich auf alle Websites aus.</span><span class="sxs-lookup"><span data-stu-id="cb1d0-108">**Allow federation route assignments to all sites** This setting will affect all sites.</span></span> <span data-ttu-id="cb1d0-109">Stellen Sie sicher, dass die Einstellungen, die Sie auf dieser Website konfigurieren, für alle Websites geeignet sind.</span><span class="sxs-lookup"><span data-stu-id="cb1d0-109">Be sure that the setting that you are configuring at this site is appropriate for all sites.</span></span>
     
-- <span data-ttu-id="dbe23-110">**SIP-Partnerverbund aktivieren** Wählen Sie diese Option, um eine SIP-partnerverbundroute zu aktivieren, und wählen Sie dann einen Director- oder Edgepool als partnerverbundroute.</span><span class="sxs-lookup"><span data-stu-id="dbe23-110">**Enable SIP federation** Select this option to enable a SIP federation route, and then select a Director or Edge pool as the federation route.</span></span>
+- <span data-ttu-id="cb1d0-110">**SIP-Verbund aktivieren** Wählen Sie diese Option aus, um eine SIP-Föderations Route zu aktivieren, und wählen Sie dann einen Director oder einen Edge-Pool als Verbund Route aus.</span><span class="sxs-lookup"><span data-stu-id="cb1d0-110">**Enable SIP federation** Select this option to enable a SIP federation route, and then select a Director or Edge pool as the federation route.</span></span>
     
-- <span data-ttu-id="dbe23-111">**Aktivieren von XMPP-Verbund** Wählen Sie diese Option, um eine XMPP-partnerverbundroute zu aktivieren, und wählen Sie dann einen Director- oder Edgepool als partnerverbundroute.</span><span class="sxs-lookup"><span data-stu-id="dbe23-111">**Enable XMPP federation** Select this option to enable an XMPP federation route, and then select a Director or Edge pool as the federation route.</span></span>
+- <span data-ttu-id="cb1d0-111">**Aktivieren der XMPP-Föderation** Wählen Sie diese Option aus, um eine XMPP-Föderations Route zu aktivieren, und wählen Sie dann einen Director oder einen Edge-Pool als Verbund Route aus.</span><span class="sxs-lookup"><span data-stu-id="cb1d0-111">**Enable XMPP federation** Select this option to enable an XMPP federation route, and then select a Director or Edge pool as the federation route.</span></span>
 - 
   > [!NOTE]
-  > <span data-ttu-id="dbe23-112">XMPP-Gateways und -Proxys werden stehen in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype für Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="dbe23-112">XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="dbe23-113">Weitere Informationen finden Sie unter [Migrieren von XMPP-Verbund](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) .</span><span class="sxs-lookup"><span data-stu-id="dbe23-113">See [Migrating XMPP federation](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.</span></span>
+  > <span data-ttu-id="cb1d0-112">XMPP-Gateways und-Proxies sind in Skype for Business Server 2015 verfügbar, werden aber in Skype for Business Server 2019 nicht mehr unterstützt.</span><span class="sxs-lookup"><span data-stu-id="cb1d0-112">XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="cb1d0-113">Weitere Informationen finden Sie unter [Migrieren der XMPP-Föderation](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) .</span><span class="sxs-lookup"><span data-stu-id="cb1d0-113">See [Migrating XMPP federation](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.</span></span>
     
 

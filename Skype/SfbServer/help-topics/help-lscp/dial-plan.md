@@ -5,32 +5,32 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceDialPlanMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eeb31bd9-688e-4767-a47d-6fda1a55f094
-description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 63a600967de427e0d9dc5b6fb65ff732f8f993f5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: fb935f3266b62d0ee2090f7e40a18303a67b8188
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901501"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285862"
 ---
-# <a name="dial-plan"></a><span data-ttu-id="98ce3-104">Wählplan</span><span class="sxs-lookup"><span data-stu-id="98ce3-104">Dial Plan</span></span>
+# <a name="dial-plan"></a><span data-ttu-id="11496-104">Wählplan</span><span class="sxs-lookup"><span data-stu-id="11496-104">Dial Plan</span></span>
 
-<span data-ttu-id="98ce3-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="98ce3-105">What do you want to do?</span></span> <span data-ttu-id="98ce3-106">Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="98ce3-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="11496-105">Was möchten Sie tun?</span><span class="sxs-lookup"><span data-stu-id="11496-105">What do you want to do?</span></span> <span data-ttu-id="11496-106">Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.</span><span class="sxs-lookup"><span data-stu-id="11496-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="98ce3-107">Create or modify a dial plan in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="98ce3-107">Create or modify a dial plan in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [<span data-ttu-id="11496-107">Create or modify a dial plan in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="11496-107">Create or modify a dial plan in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/dial-plans.md)
 
-- [<span data-ttu-id="98ce3-108">Ändern von Wähleinstellungen</span><span class="sxs-lookup"><span data-stu-id="98ce3-108">Modify a Dial Plan</span></span>](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+- [<span data-ttu-id="11496-108">Ändern von Wählplänen</span><span class="sxs-lookup"><span data-stu-id="11496-108">Modify a Dial Plan</span></span>](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
 
-- [<span data-ttu-id="98ce3-109">Create or modify a normalization rule in Skype for Business 2015</span><span class="sxs-lookup"><span data-stu-id="98ce3-109">Create or modify a normalization rule in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [<span data-ttu-id="11496-109">Create or modify a normalization rule in Skype for Business 2015</span><span class="sxs-lookup"><span data-stu-id="11496-109">Create or modify a normalization rule in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [<span data-ttu-id="98ce3-110">Erstellen oder Ändern einer Normalisierungsregel manuell</span><span class="sxs-lookup"><span data-stu-id="98ce3-110">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [<span data-ttu-id="11496-110">Manuelles Erstellen oder Ändern einer Normalisierungsregel</span><span class="sxs-lookup"><span data-stu-id="11496-110">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 
-<span data-ttu-id="98ce3-111">Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="98ce3-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="11496-111">Details zu den verschiedenen Verfahren, die Sie mit der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype for Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="11496-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
