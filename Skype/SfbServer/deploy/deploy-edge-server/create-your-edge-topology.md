@@ -1,10 +1,10 @@
 ---
-title: Erstellen Sie eine Edge-Topologie für Skype für Business Server
+title: Erstellen Ihrer Edge-Topologie für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,23 +12,23 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
-description: 'Zusammenfassung: Informationen Sie zum Erstellen, veröffentlichen und Exportieren der Edge-Server-Topologie in Skype für Business Server.'
-ms.openlocfilehash: df6b663c05b27cc517ee6f5ea871197896f9caa2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Ihre Edgeserver-Topologie in Skype for Business Server erstellen, veröffentlichen und exportieren.'
+ms.openlocfilehash: c2df17d107845309242ef1df156f2da56fa2b883
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893273"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306958"
 ---
-# <a name="create-your-edge-topology-for-skype-for-business-server"></a>Erstellen Sie eine Edge-Topologie für Skype für Business Server
+# <a name="create-your-edge-topology-for-skype-for-business-server"></a>Erstellen Ihrer Edge-Topologie für Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zum Erstellen, veröffentlichen und Exportieren der Edge-Server-Topologie in Skype für Business Server.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie Ihre Edge-Server Topologie in Skype for Business Server erstellen, veröffentlichen und exportieren.
   
-Topologie-Generator ist das Tool müssen Sie zum Erstellen Ihrer Topologie Edge-Server verwenden, wie sie für jede Komponente Topologie für Skype für Business Server verwendet wird. Bevor Sie die folgenden Schritte, müssen Sie mindestens einen Front-End-Pool oder Standard Edition-Server eingerichtet haben.
+Der Topologie-Generator ist das Tool, das Sie zum Erstellen Ihrer Edgeserver-Topologie verwenden müssen, genauso wie Sie für eine beliebige Topologie-Komponente für Skype for Business Server verwendet wird. Bevor Sie die folgenden Schritte ausführen, müssen Sie mindestens einen Front-End-Pool oder einen Standard Edition-Server eingerichtet haben.
   
 In diesem Artikel werden die folgenden Themen behandelt:
   
-- Erstellen Sie die Edge-Server-Topologie
+- Erstellen der Edgeserver-Topologie
     
 - Veröffentlichen der Edgeservertopologie
     
@@ -41,35 +41,35 @@ In diesem Artikel werden die folgenden Themen behandelt:
     
 - Domänen-Admins
     
-## <a name="build-your-edge-server-topology"></a>Erstellen Sie die Edge-Server-Topologie
+## <a name="build-your-edge-server-topology"></a>Erstellen der Edgeserver-Topologie
 
-Der erste Bereitstellungsschritt erstellt Ihre Skype für Business Server Edge-Server-Topologie besteht aus eine der drei Optionen:
+Der erste Bereitstellungsschritt besteht darin, Ihre Skype for Business Server-Edgeserver-Topologie zu erstellen, die eine von drei Optionen umfasst:
   
 - Ein einzelner Edgeserver
     
-- Einen edgepool mit DNS-Lastenausgleich (einem oder mehreren Servern)
+- Edge-Pool für DNS-Lastenausgleich (mindestens ein Server)
     
-- Ein Hardwaregerät zum Lastenausgleich des Edge-Pool (einem oder mehreren Servern)
+- Ein Edge-Pool mit Hardwarelastenausgleich (ein oder mehrere Server)
     
 Wenn Sie sich über die benötigten Anforderungen nicht sicher sind, empfehlen wir Ihnen, die Planungsdokumentation durchzugehen, bevor Sie mit den nachfolgend beschriebenen Schritten fortfahren. Ansonsten kann es losgehen.
   
 ### <a name="defining-the-topology-for-a-single-edge-server"></a>Definieren der Topologie für einen einzelnen Edgeserver
 
-1. Melden Sie sich Ihre Skype für Business Server Standard Edition-Server oder einen Skype für Business Server-Front-End-Pool an.
+1. Melden Sie sich bei Ihrem Skype for Business Server Standard Edition-Server oder einem Skype for Business Server-Front-End-Pool an.
     
-2. Einmal vorhanden, öffnen Sie **Skype für Business Server-Topologie-Generator**.
+2. Öffnen Sie **den Skype for Business Server Topology Builder**.
     
-3. Erweitern Sie in der Konsolenstruktur den Standort, den Sie zum Bereitstellen der Edge-Server an.
+3. Erweitern Sie in der Konsolenstruktur die Website, auf der Sie den Edge-Server bereitstellen werden.
     
-4. Maustaste auf **edgepools**, und klicken Sie dann auf **Neuer edgepool**.
+4. Klicken Sie mit der rechten Maustaste auf **Edge-Pools**, und klicken Sie dann auf **neuer Edge-Pool**.
     
-5. Sie müssen auf dem Bildschirm des **neuen edgepool definieren** **Weiter** klicken.
+5. Klicken Sie auf dem Bildschirm **neuen Edge-Pool definieren** auf **weiter** .
     
-6. Geben Sie den internen vollqualifizierten Domänennamen (FQDN) an, die der Edge-Server verwenden, und wählen Sie **Pool mit einem Computer**, klicken Sie auf **nächste** nach Abschluss, auf dem Bildschirm **definieren den FQDN des Edge-Pools** .
+6. Geben Sie auf dem Bildschirm **Edge-Pool-FQDN definieren** den internen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) ein, den der Edgeserver verwenden soll, und wählen Sie **Einzelcomputer Pool**aus, und klicken Sie dann auf **weiter** , wenn Sie fertig sind.
     
 7. Auf dem Bildschirm **Funktionen auswählen** haben Sie die folgende Wahl:
     
-   - Sie möchten verwenden Sie dieselbe FQDN und IP-Adresse für Ihre SIP-Dienst, der Skype für Business Server-Webkonferenzdienst und des A / V-edgedienst. In diesem Fall müssen Sie wählen, **Verwenden Sie ein Kontrollkästchen einzelnen FQDN und IP-Adresse** (und beachten Sie dies für Schritt 9 weiter unten)
+   - Möglicherweise beabsichtigen Sie, den gleichen FQDN und die gleiche IP-Adresse für Ihren SIP-Zugriffsdienst, Ihren Skype for Business Server-Webkonferenzdienst und ihren A/V-Edgedienst zu verwenden. Wenn dies der Fall ist, müssen Sie das **Kontrollkästchen einen einzelnen FQDN und eine IP-Adresse verwenden** (und beachten Sie dies für Schritt 9 weiter unten).
     
    - Wenn der Partnerverbund aktiviert werden soll, wählen Sie das Kontrollkästchen **Partnerverbund für diesen Edgepool aktivieren (Port 5061)** aus.
     
@@ -83,55 +83,55 @@ Wenn Sie sich über die benötigten Anforderungen nicht sicher sind, empfehlen w
     
    - IPv6 für die externe Schnittstelle aktivieren
     
-   Dies sind mehr oder weniger selbsterklärend, ob Sie IPv4 oder IPv6-Adressen verwenden, und Sie diese Adressen auf Edge-Server, intern oder extern anwenden können (Sie müssen dies für Schritt 10 im Hinterkopf behalten). Sie haben auch die Möglichkeit, den Edge-Server oder den Edge-Pool konfigurieren eine Netzwerkadresse für Adresse Netzwerkadressübersetzung (NAT) für die externe IP-Adresse verwenden. Wählen Sie dafür das Kontrollkästchen **Die externe IP-Adresse dieses Edgepools wird von der NAT übersetzt** aus. Klicken Sie anschließend auf **Weiter**.
+   Diese sind ziemlich selbsterklärend, ganz gleich, ob Sie IPv4-oder IPv6-Adressen verwenden und diese Adressen intern oder extern auf dem Edgeserver anwenden (Sie müssen dies für Schritt 10 beachten). Sie haben auch die Möglichkeit, Ihren Edge-Server oder Ihren Edge-Pool so zu konfigurieren, dass eine NAT-Adresse (Network Address Translation) für die externe IP-Adresse verwendet wird. Wählen Sie dafür das Kontrollkästchen **Die externe IP-Adresse dieses Edgepools wird von der NAT übersetzt** aus. Klicken Sie anschließend auf **Weiter**.
     
 9. Die Auswahlmöglichkeiten auf dem Bildschirm der externen FQDNs hängen von der in Schritt 7 getroffenen Auswahl ab.
     
-   - Wenn Sie das Kontrollkästchen **Verwenden Sie eine einzelne FQDN und IP-Adresse** überprüft haben, müssen Sie Ihre einzelnen externen FQDN im Feld **SIP-Zugriff** eingeben. Klicken Sie dann müssen Sie unterschiedliche Portnummern für jeden edgedienst, um alle unabhängig voneinander herstellen dürfen eingeben. Wir empfehlen 5061 für den Edgedienst **SIP-Zugriff**, 444 für den Edgedienst **Webkonferenzen** und 443 für den Edgedienst **A/V**. Klicken Sie anschließend auf **Weiter**.
+   - Wenn Sie das Kontrollkästchen **einen einzelnen FQDN und eine IP-Adresse verwenden** aktiviert haben, müssen Sie den einzelnen externen FQDN im Feld **SIP-Zugriff** eingeben. Dann müssen Sie für jeden Edgedienst unterschiedliche Portnummern eingeben, damit diese alle unabhängig voneinander eine Verbindung herstellen können. Wir empfehlen 5061 für den Edgedienst **SIP-Zugriff**, 444 für den Edgedienst **Webkonferenzen** und 443 für den Edgedienst **A/V**. Klicken Sie anschließend auf **Weiter**.
     
-   - Wenn Sie das Kontrollkästchen **Verwenden Sie eine einzelne FQDN und IP-Adresse** nicht aktivieren, müssen Sie jetzt die drei externe FQDNs für den **SIP-Zugriffs** -edgedienst **Edge Webkonferenzdienst,** eingeben und die **A / V** -Edgedienst. Klicken Sie anschließend auf **Weiter**.
+   - Wenn Sie das Kontrollkästchen **nur FQDN und IP-Adresse verwenden** nicht aktiviert haben, müssen Sie nun die drei externen FQDNs für den SIP- **Zugriffs** -Edgedienst, den **Webkonferenz-** Edgedienst und den **a/V** -Edgedienst eingeben. Klicken Sie anschließend auf **Weiter**.
     
-10. Sie sind jetzt auf dem Bildschirm **die interne IP-Adresse definieren** . Hier geben Sie die IP-Adresse des Edgeservers in die Textfelder **interne IPv4-Adresse** und **interne IPv6-Adresse** je nach der Auswahl der Optionen, die Sie in Schritt 8 vorgenommen. Geben Sie das Kennwort für den privaten Schlüssel ein und klicken Sie auf **Weiter**, wenn Sie fertig sind.
+10. Sie befinden sich nun auf dem Bildschirm **interne IP-Adresse definieren** . Hier geben Sie die IP-Adresse Ihres Edge-Servers in den Textfeldern **interne IPv4-Adresse** und **interne IPv6-Adresse** ein, je nachdem, welche Optionen Sie in Schritt 8 zurückgegeben haben. Geben Sie das Kennwort für den privaten Schlüssel ein und klicken Sie auf **Weiter**, wenn Sie fertig sind.
     
 11. Auf dem Bildschirm **Externe IP-Adresse definieren** stehen Ihnen abhängig von den zuvor getroffen Entscheidungen ein paar Optionen zur Verfügung:
     
-    - Sie können einen einzelnen FQDN für alle Dienste verwenden. Wenn dies der Fall ist, geben Sie Ihre externen IPv4 oder IPv6-Adresse (je nachdem, was Sie verwenden) im Textfeld **SIP-Zugriff** , und klicken Sie dann auf **Weiter**.
+    - Möglicherweise verwenden Sie einen einzelnen FQDN für alle Dienste. Wenn dies der Fall ist, geben Sie Ihre externe IPv4-oder IPv6-Adresse (je nachdem, welche Sie verwenden) in das Textfeld **SIP Access** ein, und klicken Sie dann auf **weiter**.
     
-    - Wenn Sie drei separate FQDNs und IP-Adressen verwenden möchten, geben Sie die externen IPv4 und IPv6-Adressen für den Edgedienst SIP-Zugriff, für den Edgedienst Webkonferenzen und für den Edgedienst A/V ein. Wenn dies der Fall ist, geben Sie die externen IPv4 oder IPv6-Adressen für den **SIP-Zugriffs** -edgedienst **Edge Webkonferenzdienst,** und die **A / V** Edge-Dienst, und klicken Sie dann auf **Weiter**.
+    - Wenn Sie drei separate FQDNs und IP-Adressen verwenden möchten, geben Sie die externen IPv4 und IPv6-Adressen für den Edgedienst SIP-Zugriff, für den Edgedienst Webkonferenzen und für den Edgedienst A/V ein. Wenn dies der Fall ist, geben Sie Ihre externen IPv4-oder IPv6-Adressen für den **SIP Access** Edge-Dienst, den Webkonferenz **-** Edgedienst und den **A/V** -Edgedienst ein, und klicken Sie dann auf **weiter**.
     
     > [!NOTE]
     > Wenn Sie die Aktivierung und Zuweisung von IPv6-Adressen vorher nicht ausgewählt haben, wird dieses Dialogfeld nicht angezeigt. Das ist normal und Sie können mit dem nächsten Schritt fortfahren. 
   
-12. Wenn Sie wieder in Schritt 8 NAT verwendet haben, erhalten Sie jetzt einen Bildschirm mit einem Textfeld **öffentliche IP-Adresse** . Sie müssen die öffentliche IPv4- und/oder IPv6-Adresse Geben Sie, für den A festgelegt haben / V-Edgeserver von NAT übersetzt werden Klicken Sie dann auf **Weiter**.
+12. Wenn Sie sich für die Verwendung von NAT in Schritt 8 entschieden haben, erhalten Sie jetzt einen Bildschirm mit einem Textfeld für **öffentliche IP-Adressen** . Sie müssen die öffentliche IPv4-und/oder IPv6-Adresse eingeben, die Sie für den A/V-Edgedienst eingerichtet haben, um von NAT übersetzt zu werden. Klicken Sie dann auf **Weiter**.
     
-13. Beim nächsten Bildschirm handelt es sich um **Nächsten Hop definieren**. Wählen Sie im Feld **Nächster hoppool** den Namen des internen Pools, die möglicherweise einen Front-End-Pool oder einen eigenständigen Pool. Wenn Sie einen Director in Ihrer Umgebung haben, sollten Sie den Director auswählen. Klicken Sie dann auf **Weiter**.
+13. Beim nächsten Bildschirm handelt es sich um **Nächsten Hop definieren**. Wählen Sie im Feld **Nächster Hop-Pool** den Namen des internen Pools aus, bei dem es sich um einen Front-End-Pool oder einen eigenständigen Pool handeln kann. Wenn Sie einen Director in Ihrer Umgebung haben, sollten Sie den Director auswählen. Klicken Sie dann auf **Weiter**.
     
-14. Auf dem Bildschirm **Zuordnen von Front-End-Pools** müssen Sie einen oder mehrere interne Pools, einschließlich der Front-End-Pools und Standard Edition-Servern zuordnen zu diesem Edgeserver angeben. Wählen Sie nur die Namen der internen Pools mit diesem Edgeserver mit unterstützten externen Benutzern kommunizieren. Klicken Sie auf **Weiter**.
+14. Auf dem Bildschirm " **Front-End-Pools zuordnen** " müssen Sie einen oder mehrere interne Pools angeben, einschließlich der Front-End-Pools und der Standard Edition-Server, die diesem Edgeserver zugeordnet werden sollen. Wählen Sie einfach die Namen der internen Pools aus, mit denen dieser Edgeserver für die Kommunikation mit unterstützten externen Benutzern verwendet werden soll. Klicken Sie auf **Weiter**.
     
     > [!NOTE]
-    > Hier Bedenken liegt, wenn die interne Pools oder eigenständige Server bereits einen anderen Skype für Business Server Edge-Server verwenden, mehrere Zuordnungen haben kann. Wenn Sie Wählen einer internen Pool oder eigenständigen Server, der in diesem Fall ist, sehen Sie sich mit dem Hinweis zu den Edge-Server eine Warnung angezeigt, und Sie können entscheiden, ob Sie den Vorgang fortsetzen oder nicht. Wenn Sie nun mit diesem neuen Zuordnung wechseln, wird die Verbindung mit der Edge-Server beendet. 
+    > Dabei ist zu beachten, dass die internen Pools oder Standalone-Server bereits einen anderen Skype for Business Server-Edgeserver verwenden, aber nicht über mehrere Zuordnungen verfügen können. Wenn Sie einen internen Pool oder eigenständigen Server auswählen, der sich in dieser Situation befindet, wird eine Warnung angezeigt, die Sie über den anderen Edgeserver informiert, und Sie können entscheiden, ob Sie fortfahren möchten oder nicht. Wenn Sie diese neue Zuordnung fortführen, wird die Verbindung mit dem anderen Edgeserver beendet. 
   
 15. Klicken Sie auf dem nächsten Bildschirm auf **Fertig stellen**.
     
-16. Jetzt müssen Sie möglicherweise diese aktualisierte Technologie veröffentlichen, und befolgen die Anweisungen unter [Bereitstellen von Edgeservern in Skype für Business Server](deploy-edge-servers.md) bereitstellen auf den Edge-Server von hier aus.
+16. Jetzt können Sie diese aktualisierte Technologie veröffentlichen und die Anweisungen unter [Bereitstellen von Edgeserver in Skype for Business Server](deploy-edge-servers.md) für die Bereitstellung auf dem Edgeserver von hier aus befolgen.
     
-### <a name="defining-the-topology-for-a-dns-load-balanced-edge-server-pool"></a>Definieren der Topologie für einen DNS-Lastenausgleich mit Edge-Server-pool
+### <a name="defining-the-topology-for-a-dns-load-balanced-edge-server-pool"></a>Definieren der Topologie für einen DNS Load Balancing Edge-Server Pool
 
-1. Melden Sie sich Ihre Skype für Business Server Standard Edition-Server oder einen Skype für Business Server-Front-End-Server an.
+1. Melden Sie sich bei Ihrem Skype for Business Server Standard Edition-Server oder einem Skype for Business Server-Front-End-Server an.
     
-2. Einmal vorhanden, öffnen Sie **Skype für Business Server-Topologie-Generator**.
+2. Öffnen Sie **den Skype for Business Server Topology Builder**.
     
-3. Erweitern Sie in der Konsolenstruktur den Standort, den Sie zum Bereitstellen der Edge-Server an.
+3. Erweitern Sie in der Konsolenstruktur die Website, auf der Sie den Edge-Server bereitstellen werden.
     
-4. Maustaste auf **edgepools**, und klicken Sie dann auf **Neuer edgepool**.
+4. Klicken Sie mit der rechten Maustaste auf **Edge-Pools**, und klicken Sie dann auf **neuer Edge-Pool**.
     
-5. Sie müssen auf dem Bildschirm des **neuen edgepool definieren** **Weiter** klicken.
+5. Klicken Sie auf dem Bildschirm **neuen Edge-Pool definieren** auf **weiter** .
     
-6. Geben Sie den internen vollqualifizierten Domänennamen (FQDN) an, die der Edge-Pool verwenden, und wählen Sie **Pool mit mehreren Computern**, auf die **nächste** nach Abschluss, auf dem Bildschirm **definieren den FQDN des Edge-Pools** .
+6. Geben Sie auf dem Bildschirm **Edge-Pool-FQDN definieren** den internen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) ein, den der Edge-Pool verwenden soll, und wählen Sie **mehrere Computerpool**aus, und klicken Sie dann auf **weiter** , wenn Sie fertig sind
     
 7. Auf dem Bildschirm **Funktionen auswählen** haben Sie die folgende Wahl:
     
-    - Sie möchten verwenden Sie dieselbe FQDN und IP-Adresse für Ihre SIP-Dienst, der Skype für Business Server Webkonferenzdienst und des A / V-edgedienst. In diesem Fall müssen Sie wählen, **Verwenden Sie ein Kontrollkästchen einzelnen FQDN und IP-Adresse** (und beachten Sie dies für Schritt 9 weiter unten)
+    - Möglicherweise beabsichtigen Sie, den gleichen FQDN und die gleiche IP-Adresse für Ihren SIP-Zugriffsdienst, Ihren Skype for Business Server-Webkonferenzdienst und ihren A/V-Edgedienst zu verwenden. Wenn dies der Fall ist, müssen Sie das **Kontrollkästchen einen einzelnen FQDN und eine IP-Adresse verwenden** (und beachten Sie dies für Schritt 9 weiter unten).
     
     - Wenn der Partnerverbund aktiviert werden soll, wählen Sie das Kontrollkästchen **Partnerverbund für diesen Edgepool aktivieren (Port 5061)** aus.
     
@@ -145,61 +145,61 @@ Wenn Sie sich über die benötigten Anforderungen nicht sicher sind, empfehlen w
     
    - IPv6 für die externe Schnittstelle aktivieren
     
-     Dies sind mehr oder weniger selbsterklärend, ob Sie IPv4 oder IPv6-Adressen verwenden, und Sie diese Adressen auf Edge-Server, intern oder extern anwenden können (Sie müssen dies für Schritt 11 im Hinterkopf behalten). Sie haben auch die Möglichkeit, den Edge-Server oder den Edge-Pool konfigurieren eine Netzwerkadresse für Adresse Netzwerkadressübersetzung (NAT) für die externe IP-Adresse verwenden. Wählen Sie dafür das Kontrollkästchen **Die externe IP-Adresse dieses Edgepools wird von der NAT übersetzt** aus. Klicken Sie anschließend auf **Weiter**.
+     Diese sind ziemlich selbsterklärend, ganz gleich, ob Sie IPv4-oder IPv6-Adressen verwenden und diese Adressen intern oder extern auf dem Edgeserver anwenden (Sie müssen dies für Schritt 11 beachten). Sie haben auch die Möglichkeit, Ihren Edge-Server oder Ihren Edge-Pool so zu konfigurieren, dass eine NAT-Adresse (Network Address Translation) für die externe IP-Adresse verwendet wird. Wählen Sie dafür das Kontrollkästchen **Die externe IP-Adresse dieses Edgepools wird von der NAT übersetzt** aus. Klicken Sie anschließend auf **Weiter**.
     
 9. Die Auswahlmöglichkeiten auf dem Bildschirm der externen FQDNs hängen von der in Schritt 7 getroffenen Auswahl ab.
     
-   - Wenn Sie das Kontrollkästchen **Verwenden Sie eine einzelne FQDN und IP-Adresse** überprüft haben, müssen Sie Ihre einzelnen externen FQDN im Feld **SIP-Zugriff** eingeben. Klicken Sie dann müssen Sie unterschiedliche Portnummern für jeden edgedienst, um alle unabhängig voneinander herstellen dürfen eingeben. Wir empfehlen 5061 für den Edgedienst **SIP-Zugriff**, 444 für den Edgedienst **Webkonferenzen** und 443 für den Edgedienst **A/V**. Klicken Sie anschließend auf **Weiter**.
+   - Wenn Sie das Kontrollkästchen **einen einzelnen FQDN und eine IP-Adresse verwenden** aktiviert haben, müssen Sie den einzelnen externen FQDN im Feld **SIP-Zugriff** eingeben. Dann müssen Sie für jeden Edgedienst unterschiedliche Portnummern eingeben, damit diese alle unabhängig voneinander eine Verbindung herstellen können. Wir empfehlen 5061 für den Edgedienst **SIP-Zugriff**, 444 für den Edgedienst **Webkonferenzen** und 443 für den Edgedienst **A/V**. Klicken Sie anschließend auf **Weiter**.
     
-   - Wenn Sie das Kontrollkästchen **Verwenden Sie eine einzelne FQDN und IP-Adresse** nicht aktivieren, müssen Sie jetzt die drei externe FQDNs für den **SIP-Zugriffs** -edgedienst **Edge Webkonferenzdienst,** eingeben und die **A / V** -Edgedienst. Klicken Sie anschließend auf **Weiter**.
+   - Wenn Sie das Kontrollkästchen **nur FQDN und IP-Adresse verwenden** nicht aktiviert haben, müssen Sie nun die drei externen FQDNs für den SIP- **Zugriffs** -Edgedienst, den **Webkonferenz-** Edgedienst und den **a/V** -Edgedienst eingeben. Klicken Sie anschließend auf **Weiter**.
     
-10. Jetzt haben Sie den Bildschirm **Definieren der Computer in diesem Pool** erreicht. Klicken Sie auf die Schaltfläche **Hinzufügen**.
+10. Sie haben nun den Bildschirm " **Computer in diesem Pool definieren** " erreicht. Klicken Sie auf die Schaltfläche **Hinzufügen**.
     
-11. Sie sind jetzt auf dem Bildschirm **die interne IP-Adresse definieren** . Hier geben Sie die IP-Adresse des Edgeservers in die Textfelder **interne IPv4-Adresse** und **interne IPv6-Adresse** je nach der Auswahl der Optionen, die Sie in Schritt 8 vorgenommen. Geben Sie das Kennwort für den privaten Schlüssel ein und klicken Sie auf **Weiter**, wenn Sie fertig sind.
+11. Sie befinden sich nun auf dem Bildschirm **interne IP-Adresse definieren** . Hier geben Sie die IP-Adresse Ihres Edge-Servers in den Textfeldern **interne IPv4-Adresse** und **interne IPv6-Adresse** ein, je nachdem, welche Optionen Sie in Schritt 8 zurückgegeben haben. Geben Sie das Kennwort für den privaten Schlüssel ein und klicken Sie auf **Weiter**, wenn Sie fertig sind.
     
 12. Auf dem Bildschirm **Externe IP-Adresse definieren** stehen Ihnen abhängig von den zuvor getroffen Entscheidungen ein paar Optionen zur Verfügung:
     
-    - Sie können einen einzelnen FQDN für alle Dienste verwenden. Wenn dies der Fall ist, geben Sie Ihre externen IPv4 oder IPv6-Adresse (je nachdem, was Sie verwenden) im Textfeld **SIP-Zugriff** , und klicken Sie dann auf **Weiter**.
+    - Möglicherweise verwenden Sie einen einzelnen FQDN für alle Dienste. Wenn dies der Fall ist, geben Sie Ihre externe IPv4-oder IPv6-Adresse (je nachdem, welche Sie verwenden) in das Textfeld **SIP Access** ein, und klicken Sie dann auf **weiter**.
     
-    - Wenn Sie drei separate FQDNs und IP-Adressen verwenden möchten, geben Sie die externen IPv4 und IPv6-Adressen für den Edgedienst SIP-Zugriff, für den Edgedienst Webkonferenzen und für den Edgedienst A/V ein. Wenn dies der Fall ist, geben Sie die externen IPv4 oder IPv6-Adressen für den **SIP-Zugriffs** -edgedienst **Edge Webkonferenzdienst,** und die **A / V** Edge-Dienst, und klicken Sie dann auf **Weiter**.
+    - Wenn Sie drei separate FQDNs und IP-Adressen verwenden möchten, geben Sie die externen IPv4 und IPv6-Adressen für den Edgedienst SIP-Zugriff, für den Edgedienst Webkonferenzen und für den Edgedienst A/V ein. Wenn dies der Fall ist, geben Sie Ihre externen IPv4-oder IPv6-Adressen für den **SIP Access** Edge-Dienst, den Webkonferenz **-** Edgedienst und den **A/V** -Edgedienst ein, und klicken Sie dann auf **weiter**.
     
     > [!NOTE]
     > Wenn Sie die Aktivierung und Zuweisung von IPv6-Adressen vorher nicht ausgewählt haben, wird dieses Dialogfeld nicht angezeigt. Das ist normal und Sie können mit dem nächsten Schritt fortfahren. 
   
-13. Klicken Sie auf **Fertig stellen**. Der Edge-Server, den Sie gerade erstellt haben, sollte jetzt im Dialogfeld **Definieren der Computer in diesem Pool** eingetragen sein.
+13. Klicken Sie auf **Fertig stellen**. Der soeben erstellte Edge-Server sollte jetzt im Dialogfeld **Computer in diesem Pool definieren** aufgelistet werden.
     
-14. Weiterhin im Fenster **Definieren der Computer in diesem Pool** , klicken Sie erneut auf die Schaltfläche **Hinzufügen** , und wiederholen Sie die Schritte 11 bis 13, bis Sie alle Edge-Server hinzugefügt haben, haben in diesem Pool werden soll. Klicken Sie auf **Weiter**, wenn Sie damit fertig sind.
+14. Klicken Sie noch immer auf dem Bildschirm **Computer in diesem Pool definieren** auf die Schaltfläche **Hinzufügen** , und wiederholen Sie die Schritte 11 bis 13, bis Sie alle Edgeserver hinzugefügt haben, die Sie in diesem Pool haben möchten. Klicken Sie auf **Weiter**, wenn Sie damit fertig sind.
     
-15. Wenn Sie wieder in Schritt 8 NAT verwendet haben, erhalten Sie jetzt einen Bildschirm mit einem Textfeld **öffentliche IP-Adresse** . Sie müssen die öffentliche IPv4- und/oder IPv6-Adresse Geben Sie, für den A festgelegt haben / V-Edgeserver von NAT übersetzt werden Klicken Sie dann auf **Weiter**.
+15. Wenn Sie sich für die Verwendung von NAT in Schritt 8 entschieden haben, erhalten Sie jetzt einen Bildschirm mit einem Textfeld für **öffentliche IP-Adressen** . Sie müssen die öffentliche IPv4-und/oder IPv6-Adresse eingeben, die Sie für den A/V-Edgedienst eingerichtet haben, um von NAT übersetzt zu werden. Klicken Sie dann auf **Weiter**.
     
-16. Beim nächsten Bildschirm handelt es sich um **Nächsten Hop definieren**. Wählen Sie im Feld **Nächster hoppool** den Namen des internen Pools, die möglicherweise einen Front-End-Pool oder einen eigenständigen Pool. Wenn Sie einen Director in Ihrer Umgebung haben, sollten Sie den Director auswählen. Klicken Sie dann auf **Weiter**.
+16. Beim nächsten Bildschirm handelt es sich um **Nächsten Hop definieren**. Wählen Sie im Feld **Nächster Hop-Pool** den Namen des internen Pools aus, bei dem es sich um einen Front-End-Pool oder einen eigenständigen Pool handeln kann. Wenn Sie einen Director in Ihrer Umgebung haben, sollten Sie den Director auswählen. Klicken Sie dann auf **Weiter**.
     
-17. Auf dem Bildschirm **Zuordnen von Front-End-Pools** müssen Sie einen oder mehrere interne Pools, einschließlich der Front-End-Pools und Standard Edition-Pools zuordnen zu diesem Edgeserver angeben. Wählen Sie nur die Namen der internen Pools mit diesem Edgeserver mit unterstützten externen Benutzern kommunizieren. Klicken Sie auf **Weiter**.
+17. Auf dem Bildschirm " **Front-End-Pools zuordnen** " müssen Sie einen oder mehrere interne Pools angeben, einschließlich der Front-End-Pools und der Standard Edition-Pools, die mit diesem Edgeserver verknüpft werden sollen. Wählen Sie einfach die Namen der internen Pools aus, mit denen dieser Edgeserver für die Kommunikation mit unterstützten externen Benutzern verwendet werden soll. Klicken Sie auf **Weiter**.
     
     > [!NOTE]
-    > Hier Bedenken liegt, wenn die interne Pools oder eigenständige Server bereits einen anderen Skype für Business Server Edge-Server verwenden, mehrere Zuordnungen haben kann. Wenn Sie Wählen einer internen Pool oder eigenständigen Server, der in diesem Fall ist, sehen Sie sich mit dem Hinweis zu den Edge-Server eine Warnung angezeigt, und Sie können entscheiden, ob Sie den Vorgang fortsetzen oder nicht. Wenn Sie nun mit diesem neuen Zuordnung wechseln, wird die Verbindung mit der Edge-Server beendet. 
+    > Dabei ist zu beachten, dass die internen Pools oder Standalone-Server bereits einen anderen Skype for Business Server-Edgeserver verwenden, aber nicht über mehrere Zuordnungen verfügen können. Wenn Sie einen internen Pool oder eigenständigen Server auswählen, der sich in dieser Situation befindet, wird eine Warnung angezeigt, die Sie über den anderen Edgeserver informiert, und Sie können entscheiden, ob Sie fortfahren möchten oder nicht. Wenn Sie diese neue Zuordnung fortführen, wird die Verbindung mit dem anderen Edgeserver beendet. 
   
 18. Klicken Sie auf dem nächsten Bildschirm auf **Fertig stellen**.
     
-19. Jetzt müssen Sie möglicherweise diese aktualisierte Technologie veröffentlichen, und befolgen die Anweisungen unter [Bereitstellen von Edgeservern in Skype für Business Server](deploy-edge-servers.md) bereitstellen auf den Edge-Server von hier aus.
+19. Jetzt können Sie diese aktualisierte Technologie veröffentlichen und die Anweisungen unter [Bereitstellen von Edgeserver in Skype for Business Server](deploy-edge-servers.md) für die Bereitstellung auf dem Edgeserver von hier aus befolgen.
     
-### <a name="defining-the-topology-for-a-hardware-load-balanced-edge-server-pool"></a>Edge-Server-Pool Definieren der Topologie für ein Hardwaregerät zum Lastenausgleich
+### <a name="defining-the-topology-for-a-hardware-load-balanced-edge-server-pool"></a>Definieren der Topologie für einen Hardwarelastenausgleich-Edgeserver-Pool
 
-1. Melden Sie sich Ihre Skype für Business Server Standard Edition-Server oder einen Skype für Business Server-Front-End-Server an.
+1. Melden Sie sich bei Ihrem Skype for Business Server Standard Edition-Server oder einem Skype for Business Server-Front-End-Server an.
     
-2. Einmal vorhanden, öffnen Sie **Skype für Business Server-Topologie-Generator**.
+2. Öffnen Sie **den Skype for Business Server Topology Builder**.
     
-3. Erweitern Sie in der Konsolenstruktur den Standort, den Sie zum Bereitstellen der Edge-Server an.
+3. Erweitern Sie in der Konsolenstruktur die Website, auf der Sie den Edge-Server bereitstellen werden.
     
-4. Maustaste auf **edgepools**, und klicken Sie dann auf **Neuer edgepool**.
+4. Klicken Sie mit der rechten Maustaste auf **Edge-Pools**, und klicken Sie dann auf **neuer Edge-Pool**.
     
-5. Sie müssen auf dem Bildschirm des **neuen edgepool definieren** **Weiter** klicken.
+5. Klicken Sie auf dem Bildschirm **neuen Edge-Pool definieren** auf **weiter** .
     
-6. Geben Sie den internen vollqualifizierten Domänennamen (FQDN) an, die der Edge-Pool verwenden, und wählen Sie **Pool mit mehreren Computern**, auf die **nächste** nach Abschluss, auf dem Bildschirm **definieren den FQDN des Edge-Pools** .
+6. Geben Sie auf dem Bildschirm **Edge-Pool-FQDN definieren** den internen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) ein, den der Edge-Pool verwenden soll, und wählen Sie **mehrere Computerpool**aus, und klicken Sie dann auf **weiter** , wenn Sie fertig sind
     
 7. Auf dem Bildschirm **Funktionen auswählen** haben Sie die folgende Wahl:
     
-   - Sie möchten verwenden Sie dieselbe FQDN und IP-Adresse für Ihre SIP-Dienst, der Skype für Business Server Webkonferenzdienst und des A / V-edgedienst. In diesem Fall müssen Sie wählen, **Verwenden Sie ein Kontrollkästchen einzelnen FQDN und IP-Adresse** (und beachten Sie dies für Schritt 9 weiter unten)
+   - Möglicherweise beabsichtigen Sie, den gleichen FQDN und die gleiche IP-Adresse für Ihren SIP-Zugriffsdienst, Ihren Skype for Business Server-Webkonferenzdienst und ihren A/V-Edgedienst zu verwenden. Wenn dies der Fall ist, müssen Sie das **Kontrollkästchen einen einzelnen FQDN und eine IP-Adresse verwenden** (und beachten Sie dies für Schritt 9 weiter unten).
     
    - Wenn der Partnerverbund aktiviert werden soll, wählen Sie das Kontrollkästchen **Partnerverbund für diesen Edgepool aktivieren (Port 5061)** aus.
     
@@ -213,52 +213,52 @@ Wenn Sie sich über die benötigten Anforderungen nicht sicher sind, empfehlen w
     
    - IPv6 für die externe Schnittstelle aktivieren
     
-     Dies sind mehr oder weniger selbsterklärend, ob Sie IPv4 oder IPv6-Adressen verwenden, und Sie diese Adressen auf Edge-Server, intern oder extern anwenden können (Sie müssen dies für Schritt 11 im Hinterkopf behalten).
+     Diese sind ziemlich selbsterklärend, ganz gleich, ob Sie IPv4-oder IPv6-Adressen verwenden und diese Adressen intern oder extern auf dem Edgeserver anwenden (Sie müssen dies für Schritt 11 beachten).
     
      > [!NOTE]
-     > Im Gegensatz zu den anderen zwei Topologieoptionen, wenn Sie ein Hardwaregerät zum Lastenausgleich verwenden Wählen Sie **Darf nicht** die Option **wird die externe IP-Adresse des Edge-Pools von NAT übersetzt**. Dies wird **nicht unterstützt**.
+     > Im Gegensatz zu den beiden anderen Topologie-Optionen müssen Sie bei Verwendung eines Hardwarelastenausgleichs die Option die **externe IP-Adresse des Edge-Pools, die von NAT übersetzt wird**, **nicht** auswählen. Dies wird **nicht unterstützt**.
   
 9. Die Auswahlmöglichkeiten auf dem Bildschirm der externen FQDNs hängen von der in Schritt 7 getroffenen Auswahl ab.
     
-   - Wenn Sie das Kontrollkästchen **Verwenden Sie eine einzelne FQDN und IP-Adresse** überprüft haben, müssen Sie Ihre einzelnen externen FQDN im Feld **SIP-Zugriff** eingeben. Klicken Sie dann müssen Sie unterschiedliche Portnummern für jeden edgedienst, um alle unabhängig voneinander herstellen dürfen eingeben. Wir empfehlen 5061 für den Edgedienst **SIP-Zugriff**, 444 für den Edgedienst **Webkonferenzen** und 443 für den Edgedienst **A/V**. Klicken Sie anschließend auf **Weiter**.
+   - Wenn Sie das Kontrollkästchen **einen einzelnen FQDN und eine IP-Adresse verwenden** aktiviert haben, müssen Sie den einzelnen externen FQDN im Feld **SIP-Zugriff** eingeben. Dann müssen Sie für jeden Edgedienst unterschiedliche Portnummern eingeben, damit diese alle unabhängig voneinander eine Verbindung herstellen können. Wir empfehlen 5061 für den Edgedienst **SIP-Zugriff**, 444 für den Edgedienst **Webkonferenzen** und 443 für den Edgedienst **A/V**. Klicken Sie anschließend auf **Weiter**.
     
-   - Wenn Sie das Kontrollkästchen **Verwenden Sie eine einzelne FQDN und IP-Adresse** nicht aktivieren, müssen Sie jetzt die drei externe FQDNs für den **SIP-Zugriffs** -edgedienst **Edge Webkonferenzdienst,** eingeben und die **A / V** -Edgedienst. Klicken Sie anschließend auf **Weiter**.
+   - Wenn Sie das Kontrollkästchen **nur FQDN und IP-Adresse verwenden** nicht aktiviert haben, müssen Sie nun die drei externen FQDNs für den SIP- **Zugriffs** -Edgedienst, den **Webkonferenz-** Edgedienst und den **a/V** -Edgedienst eingeben. Klicken Sie anschließend auf **Weiter**.
     
-10. Jetzt haben Sie den Bildschirm **Definieren der Computer in diesem Pool** erreicht. Klicken Sie auf die Schaltfläche **Hinzufügen**.
+10. Sie haben nun den Bildschirm " **Computer in diesem Pool definieren** " erreicht. Klicken Sie auf die Schaltfläche **Hinzufügen**.
     
-11. Sie sind jetzt auf dem Bildschirm **die interne IP-Adresse definieren** . Hier geben Sie die IP-Adresse des Edgeservers in die Textfelder **interne IPv4-Adresse** und **interne IPv6-Adresse** je nach der Auswahl der Optionen, die Sie in Schritt 8 vorgenommen. Geben Sie das Kennwort für den privaten Schlüssel ein und klicken Sie auf **Weiter**, wenn Sie fertig sind.
+11. Sie befinden sich nun auf dem Bildschirm **interne IP-Adresse definieren** . Hier geben Sie die IP-Adresse Ihres Edge-Servers in den Textfeldern **interne IPv4-Adresse** und **interne IPv6-Adresse** ein, je nachdem, welche Optionen Sie in Schritt 8 zurückgegeben haben. Geben Sie das Kennwort für den privaten Schlüssel ein und klicken Sie auf **Weiter**, wenn Sie fertig sind.
     
 12. Auf dem Bildschirm **Externe IP-Adresse definieren** stehen Ihnen abhängig von den zuvor getroffen Entscheidungen ein paar Optionen zur Verfügung:
     
-    - Sie können einen einzelnen FQDN für alle Dienste verwenden. Wenn dies der Fall ist, geben Sie Ihre externen IPv4 oder IPv6-Adresse (je nachdem, was Sie verwenden) im Textfeld **SIP-Zugriff** , und klicken Sie dann auf **Weiter**.
+    - Möglicherweise verwenden Sie einen einzelnen FQDN für alle Dienste. Wenn dies der Fall ist, geben Sie Ihre externe IPv4-oder IPv6-Adresse (je nachdem, welche Sie verwenden) in das Textfeld **SIP Access** ein, und klicken Sie dann auf **weiter**.
     
-    - Wenn Sie drei separate FQDNs und IP-Adressen verwenden möchten, geben Sie die externen IPv4 und IPv6-Adressen für den Edgedienst SIP-Zugriff, für den Edgedienst Webkonferenzen und für den Edgedienst A/V ein. Wenn dies der Fall ist, geben Sie die externen IPv4 oder IPv6-Adressen für den **SIP-Zugriffs** -edgedienst **Edge Webkonferenzdienst,** und die **A / V** Edge-Dienst, und klicken Sie dann auf **Weiter**.
+    - Wenn Sie drei separate FQDNs und IP-Adressen verwenden möchten, geben Sie die externen IPv4 und IPv6-Adressen für den Edgedienst SIP-Zugriff, für den Edgedienst Webkonferenzen und für den Edgedienst A/V ein. Wenn dies der Fall ist, geben Sie Ihre externen IPv4-oder IPv6-Adressen für den **SIP Access** Edge-Dienst, den Webkonferenz **-** Edgedienst und den **A/V** -Edgedienst ein, und klicken Sie dann auf **weiter**.
     
     > [!NOTE]
     > Wenn Sie die Aktivierung und Zuweisung von IPv6-Adressen vorher nicht ausgewählt haben, wird dieses Dialogfeld nicht angezeigt. Das ist normal und Sie können mit dem nächsten Schritt fortfahren. 
   
-13. Klicken Sie auf **Fertig stellen**. Der Edge-Server, den Sie gerade erstellt haben, sollte jetzt im Dialogfeld **Definieren der Computer in diesem Pool** eingetragen sein.
+13. Klicken Sie auf **Fertig stellen**. Der soeben erstellte Edge-Server sollte jetzt im Dialogfeld **Computer in diesem Pool definieren** aufgelistet werden.
     
-14. Weiterhin im Fenster **Definieren der Computer in diesem Pool** , klicken Sie erneut auf die Schaltfläche **Hinzufügen** , und wiederholen Sie die Schritte 11 bis 13, bis Sie alle Edge-Server hinzugefügt haben, haben in diesem Pool werden soll. Klicken Sie auf **Weiter**, wenn Sie damit fertig sind.
+14. Klicken Sie noch immer auf dem Bildschirm **Computer in diesem Pool definieren** auf die Schaltfläche **Hinzufügen** , und wiederholen Sie die Schritte 11 bis 13, bis Sie alle Edgeserver hinzugefügt haben, die Sie in diesem Pool haben möchten. Klicken Sie auf **Weiter**, wenn Sie damit fertig sind.
     
-15. Beim nächsten Bildschirm handelt es sich um **Nächsten Hop definieren**. Wählen Sie im Feld **Nächster hoppool** den Namen des internen Pools, die möglicherweise einen Front-End-Pool oder einen eigenständigen Pool. Wenn Sie einen Director in Ihrer Umgebung haben, sollten Sie den Director auswählen. Klicken Sie dann auf **Weiter**.
+15. Beim nächsten Bildschirm handelt es sich um **Nächsten Hop definieren**. Wählen Sie im Feld **Nächster Hop-Pool** den Namen des internen Pools aus, bei dem es sich um einen Front-End-Pool oder einen eigenständigen Pool handeln kann. Wenn Sie einen Director in Ihrer Umgebung haben, sollten Sie den Director auswählen. Klicken Sie dann auf **Weiter**.
     
-16. Auf dem Bildschirm **Zuordnen von Front-End-Pools** müssen Sie einen oder mehrere interne Pools, einschließlich der Front-End-Pools und Standard Edition-Pools zuordnen zu diesem Edgeserver angeben. Wählen Sie nur die Namen der internen Pools mit diesem Edgeserver mit unterstützten externen Benutzern kommunizieren. Klicken Sie auf **Weiter**.
+16. Auf dem Bildschirm " **Front-End-Pools zuordnen** " müssen Sie einen oder mehrere interne Pools angeben, einschließlich der Front-End-Pools und der Standard Edition-Pools, die mit diesem Edgeserver verknüpft werden sollen. Wählen Sie einfach die Namen der internen Pools aus, mit denen dieser Edgeserver für die Kommunikation mit unterstützten externen Benutzern verwendet werden soll. Klicken Sie auf **Weiter**.
     
     > [!NOTE]
-    > Hier Bedenken liegt, wenn die interne Pools oder eigenständige Server bereits einen anderen Skype für Business Server Edge-Server verwenden, mehrere Zuordnungen haben kann. Wenn Sie Wählen einer internen Pool oder eigenständigen Server, der in diesem Fall ist, sehen Sie sich mit dem Hinweis zu den Edge-Server eine Warnung angezeigt, und Sie können entscheiden, ob Sie den Vorgang fortsetzen oder nicht. Wenn Sie nun mit diesem neuen Zuordnung wechseln, wird die Verbindung mit der Edge-Server beendet. 
+    > Dabei ist zu beachten, dass die internen Pools oder Standalone-Server bereits einen anderen Skype for Business Server-Edgeserver verwenden, aber nicht über mehrere Zuordnungen verfügen können. Wenn Sie einen internen Pool oder eigenständigen Server auswählen, der sich in dieser Situation befindet, wird eine Warnung angezeigt, die Sie über den anderen Edgeserver informiert, und Sie können entscheiden, ob Sie fortfahren möchten oder nicht. Wenn Sie diese neue Zuordnung fortführen, wird die Verbindung mit dem anderen Edgeserver beendet. 
   
 17. Klicken Sie auf dem nächsten Bildschirm auf **Fertig stellen**.
     
-18. Jetzt müssen Sie möglicherweise diese aktualisierte Technologie veröffentlichen, und befolgen die Anweisungen unter [Bereitstellen von Edgeservern in Skype für Business Server](deploy-edge-servers.md) bereitstellen auf den Edge-Server von hier aus.
+18. Jetzt können Sie diese aktualisierte Technologie veröffentlichen und die Anweisungen unter [Bereitstellen von Edgeserver in Skype for Business Server](deploy-edge-servers.md) für die Bereitstellung auf dem Edgeserver von hier aus befolgen.
     
 ## <a name="publish-your-edge-server-topology"></a>Veröffentlichen der Edgeservertopologie
 
-Nachdem Sie die oben beschriebenen Schritte abgeschlossen haben, ist es Zeit zu dieser neuen Topologie veröffentlichen, die auch Sie es in Ihrer Skype für Business Server-Edgeserver oder Edgepool exportieren können. Gehen Sie folgendermaßen vor:
+Nachdem Sie die obigen Schritte ausgeführt haben, ist es an der Zeit, diese neue Topologie zu veröffentlichen, mit der Sie Sie auch in Ihren Skype for Business Server-Edgeserver oder Edge-Pool exportieren können. Führen Sie die folgenden Schritte aus:
   
 1. Starten Sie den **Topologie-Generator** (wenn dieser nicht bereits aufgrund eines vorhergehenden Verfahrens geöffnet ist).
     
-2. Im **Topologie-Generator**in der Konsolenstruktur mit der rechten Maustaste **Skype für Business Server** , und klicken Sie dann auf **Skype für Business Server-Topologie-Generator**.
+2. Klicken Sie im **Topologie-Generator**in der Konsolenstruktur mit der rechten Maustaste auf **Skype for Business Server** , und klicken Sie dann auf **Skype for Business Server Topology Builder**.
     
 3. Klicken Sie auf der Seite **Willkommen** des Assistenten auf **Weiter**.
     
@@ -272,16 +272,16 @@ Nachdem Sie die oben beschriebenen Schritte abgeschlossen haben, ist es Zeit zu 
     
 ## <a name="export-your-edge-server-topology"></a>Exportieren der Edgeservertopologie
 
-Zur erfolgreichen Bereitstellung benötigt die Skype für Business Server-Bereitstellungsassistenten Zugriff auf die zentralen Speicherdaten. Dies ist für interne Server in Ihrer Domäne oder der Gesamtstruktur in der Regel recht einfach. Edge-Server sind außerhalb der Domäne, und es ist also erforderlich sind, um die topologiedatei manuell an Edge-Server in der Regel auf einem physischen Datenträgern zu exportieren. Dieser Export erfolgt über die PowerShell:
+Zur erfolgreichen Bereitstellung benötigt der Skype for Business Server-Bereitstellungs-Assistent Zugriff auf die Daten des zentralen Verwaltungsspeichers. Für interne Server in Ihrer Domäne oder Gesamtstruktur ist dies in der Regel unkompliziert. Edgeserver sind außerhalb der Domäne, und daher ist es notwendig, die topologiedatei manuell auf den Edgeserver-Speicherort zu exportieren, in der Regel auf einem physikalischen Medium. Dieser Export erfolgt über PowerShell:
   
-1. Starten Sie die **Skype für Business Server-Verwaltungsshell**.
+1. Starten Sie die **Skype for Business Server-Verwaltungsshell**.
     
-2. Führen Sie die folgenden in der **Skype für Business Server-Verwaltungsshell**aus:
+2. Führen Sie in der **Skype for Business Server-Verwaltungsshell**die folgenden Aktionen aus:
     
    ```
    Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
    ```
 
-3. Kopieren Sie die exportierte Datei auf externe Medien (beispielsweise ein USB-Laufwerk oder eine Netzwerkfreigabe, die Sie über die Edge-Server-Ort erreichen können).
+3. Kopieren Sie die exportierte Datei auf externe Medien (beispielsweise ein USB-Laufwerk oder eine Netzwerkfreigabe, die Sie vom Standort des Edge-Servers aus erreichen können).
     
 

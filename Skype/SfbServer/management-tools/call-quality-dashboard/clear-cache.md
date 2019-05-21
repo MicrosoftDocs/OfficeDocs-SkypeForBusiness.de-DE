@@ -4,47 +4,47 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 08648b16-7a64-41d8-9577-5000a20fce46
-description: 'Zusammenfassung: Informationen Sie zu den Cache löschen-Vorgang, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 918709d87545289e46c6bef49aafb0f1d37b2950
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang zum Löschen des Caches, der Teil der Daten-API für das Dashboard für die Anrufqualität ist. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: 38648e1a910f93a30bd6da8807321acad0330e62
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930805"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274835"
 ---
 # <a name="clear-cache"></a>Leeren des Caches
  
-**Zusammenfassung:** Informationen Sie zu den Cache löschen-Vorgang, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Vorgang zum Löschen des Caches, der Teil der Daten-API für das Dashboard für die Anrufqualität ist. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.
   
-Der Cache löschen-Vorgang ist Teil der Daten-API für die Qualitätsdashboard aufrufen.
+Der Vorgang zum Löschen des Caches ist Teil der Daten-API für das Dashboard für die Anrufqualität.
   
 ## <a name="clear-cache"></a>Leeren des Caches
 
-Löschvorgang Cache löscht den Cache auf dem Server für Abfragen und Daten. Dadurch wird den Cache zurückgesetzt, und wir erhalten neue Daten vom QoE-Cube später für neue Anfragen.
+Löschen des Cache Vorgangs löscht den Cache auf dem Server für Abfragen und Daten. Dadurch wird der Cache zurückgesetzt, und wir erhalten neue Daten aus dem QoE-Cube später für neue Anforderungen.
   
 
 |**Methode**|**Anforderungs-URI**|**HTTP-Version**|
 |:-----|:-----|:-----|
-|Bereitstellen  <br/> |https://\<Portal\>/QoEDataService/ClearCache  <br/> |HTTP/1.1  <br/> |
+|Bereitstellen  <br/> |https://\<-\>Portal/QoEDataService/ClearCache  <br/> |HTTP/1.1  <br/> |
    
- **URI-Parameter** - None.
+ **URI-Parameter** -None.
   
- **Anfordern von Kopfzeilen** - keine zusätzlichen Header.
+ **Anforderungs Kopfzeilen** – keine zusätzlichen Überschriften.
   
- **Anforderungstextkörper** – None.
+ **Anforderungstext** – keine.
   
- **Antwort** - die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheader.
+ **Antwort** – die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheadern.
   
- **Statuscode** - eine erfolgreiche Ausführung Gibt Statuscode 200 (OK).
+ **Statuscode** – ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
   
- **Antwortheader** - keine zusätzlichen Header.
+ **Antwortheader** – keine zusätzlichen Überschriften.
   
- **Antworttext** – None.
+ **Antworttext** – keine.
   
 

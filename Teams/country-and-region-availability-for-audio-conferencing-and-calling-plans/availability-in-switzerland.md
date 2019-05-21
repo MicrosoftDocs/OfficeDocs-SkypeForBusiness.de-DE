@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,22 +24,22 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die Schweiz verfügbar.
-ms.openlocfilehash: cda107fdd1b807d0df1f9f7c48548e4e14f9ecb5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Hier finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Schweiz verfügbar sind.
+ms.openlocfilehash: 1586b0c538b8fb8ee87343d2fda2f5535e3bb6c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221955"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282778"
 ---
 # <a name="availability-in-switzerland"></a>Verfügbarkeit in der Schweiz
 
 > [!NOTE]
-> Sie können **SERVICE** Zahlen in der Schweiz für die Verwendung mit Konferenzen, automatische Telefonzentrale, und rufen Warteschlangen, aber **Benutzeranzahl** kann nicht in der Schweiz abgerufen werden, wie die aufrufende Pläne nicht verfügbar sind.
+> Sie können in der Schweiz **Service** Nummern für Konferenzen, automatische Telefonzentrale und Anrufwarteschlangen abrufen, in der Schweiz können aber keine **Nutzer** Nummern abgerufen werden, da keine Anrufpläne verfügbar sind.
 
 [Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
 
-Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für die Schweiz verfügbar.
+Hier finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Schweiz verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenz
 

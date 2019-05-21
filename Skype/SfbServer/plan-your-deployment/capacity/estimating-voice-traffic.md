@@ -1,26 +1,26 @@
 ---
-title: Schätzen von VoIP-Nutzung und-Datenverkehr für Skype für Business Server
+title: Schätzen der sprach Nutzung und des Datenverkehrs für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
-description: Die folgenden Metrik können Sie die Schätzung des Benutzerdatenverkehrs an jedem Standort und die Anzahl der Ports, die zur Unterstützung dieser Datenverkehr erforderlich sind.
-ms.openlocfilehash: 711ba624baa19531f49b137458d692a0f60229bc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Sie können die folgende Metrik verwenden, um den Benutzerdatenverkehr an jeder Website und die Anzahl der Ports zu schätzen, die für die Unterstützung des Datenverkehrs erforderlich sind.
+ms.openlocfilehash: 09c3e638d25225376b95afd60bdd6d3c311c1f5a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910714"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277615"
 ---
-# <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a>Schätzen von VoIP-Nutzung und-Datenverkehr für Skype für Business Server
+# <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a>Schätzen der sprach Nutzung und des Datenverkehrs für Skype for Business Server
  
-Die folgenden Metrik können Sie die Schätzung des Benutzerdatenverkehrs an jedem Standort und die Anzahl der Ports, die zur Unterstützung dieser Datenverkehr erforderlich sind.
+Sie können die folgende Metrik verwenden, um den Benutzerdatenverkehr an jeder Website und die Anzahl der Ports zu schätzen, die für die Unterstützung des Datenverkehrs erforderlich sind.
   
 > Für **geringes Datenverkehrsaufkommen** (ein Festnetzanruf pro Benutzer und Stunde) gehen Sie von 15 Benutzern pro Anschluss aus.
 > 
@@ -28,7 +28,7 @@ Die folgenden Metrik können Sie die Schätzung des Benutzerdatenverkehrs an jed
 > 
 > Für **hohes Datenverkehrsaufkommen** (drei oder mehr Festnetzanrufe pro Benutzer und Stunde) gehen Sie von 5 Benutzern pro Anschluss aus.
     
-Die Anzahl von Ports bestimmt wiederum die Anzahl der Vermittlungsserver und Gateways, die ausgeführt werden müssen. Die Gateways public switched Telephone Network, (PSTN), dass die meisten Organisationen erwägen, Bereich Größe 2 Ports bis 960 Ports. (Es gibt sogar größere Gateways, aber diese werden hauptsächlich von Telefoniedienstanbieter verwendet.)
+Die Anzahl der Ports wiederum bestimmt die Anzahl der Vermittlungsserver und Gateways, die erforderlich sind. Die PSTN-Gateways (Public Switched Telephone Network), die in den meisten Organisationen für die Bereitstellung von Bereichsgröße von 2 Anschlüssen bis zu 960-Ports in Frage kämen. (Es gibt sogar größere Gateways, die aber hauptsächlich von Telefondienstanbietern verwendet werden.)
   
 Eine Organisation mit 10.000 Benutzern und mittlerem Datenverkehrsaufkommen würde z. B. 1000 Ports benötigen. Die Anzahl der erforderlichen Gateways entspricht der Gesamtzahl der erforderlichen Ports, die durch die Gesamtkapazität der Gateways bestimmt ist.
   

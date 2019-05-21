@@ -4,86 +4,86 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'Im Allgemeinen wird zusammen mit dem Rest der Topologie im Adressbuch migriert. Sie müssen jedoch möglicherweise einige Schritte nach der Migration ausführen, wenn Sie die folgenden in der Vorversion Umgebung angepasst:'
-ms.openlocfilehash: 728ae97270cd8451178c6ef962f05e0351118119
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Im Allgemeinen wird das Adressbuch zusammen mit der restlichen Topologie migriert. Möglicherweise müssen Sie jedoch einige Schritte nach der Migration durchführen, wenn Sie die folgenden Schritte in ihrer Legacyumgebung angepasst haben:'
+ms.openlocfilehash: 4263ae5bff60859cc9606a3683a3a03b0d2d4c35
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238424"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34307119"
 ---
 # <a name="migrate-address-book"></a>Migrieren des Adressbuchs
 
-Im Allgemeinen wird zusammen mit dem Rest der Topologie im Adressbuch migriert. Sie müssen jedoch möglicherweise einige Schritte nach der Migration ausführen, wenn Sie die folgenden in der Vorversion Umgebung angepasst: 
+Im Allgemeinen wird das Adressbuch zusammen mit der restlichen Topologie migriert. Möglicherweise müssen Sie jedoch einige Schritte nach der Migration durchführen, wenn Sie die folgenden Schritte in ihrer Legacyumgebung angepasst haben: 
 
-- Die Adressbuch-Normalisierungsregeln angepasst.
+- Benutzerdefinierte Adressbuch-Normalisierungsregeln.
 
-- Der Standardwert für den **UseNormalizationRules** -Parameter auf "false" geändert. 
+- Der Standardwert für den **UseNormalizationRules** -Parameter wurde auf "false" geändert. 
 
 
- **Beheben von Adressbuch-Normalisierungsregeln**
+ **Regeln für die Normalisierung des Adressbuchs**
 
-Wenn Sie in Ihrer Umgebung legacy-Adressbuch-Normalisierungsregeln angepasst haben, müssen Sie die benutzerdefinierten Regeln zum pilotpool migrieren. Wenn Ihnen nicht Adressbuch-Normalisierungsregeln konfiguriert, müssen Sie nichts für Adressbuchdienst migrieren. Die Standard-Normalisierungsregeln für Skype für Business Server 2019 stimmen die Regeln für die legacy-Installation. Führen Sie die weiter unten in diesem Abschnitt, um angepasste Normalisierungsregeln migrieren.
+Wenn Sie in ihrer Legacyumgebung Adressbuch-Normalisierungsregeln angepasst haben, müssen Sie die angepassten Regeln in Ihren Pilot Pool migrieren. Wenn Sie die Regeln für die Adressbuch Normalisierung nicht angepasst haben, müssen Sie für den Adressbuchdienst nichts migrieren. Die standardmäßigen Normalisierungsregeln für Skype for Business Server 2019 sind mit den Standardregeln für die Legacy Installation identisch. Führen Sie die Schritte weiter unten in diesem Abschnitt aus, um angepasste Normalisierungsregeln zu migrieren.
 
 > [!NOTE]
-> Wenn Ihre Organisation Remoteanrufsteuerung verwendet wird und Sie Normalisierungsregeln Adressbuch angepasst, müssen Sie das Verfahren in diesem Thema ausführen, bevor Sie Remoteanrufsteuerung verwenden können. Das Verfahren ist die Mitgliedschaft in der Gruppe RTCUniversalServerAdmins oder über vergleichbare Rechte erforderlich. 
+> Wenn in Ihrer Organisation die Remoteanrufsteuerung verwendet wird und Sie die Regeln für die Adressbuch Normalisierung angepasst haben, müssen Sie das in diesem Thema beschriebene Verfahren ausführen, bevor Sie die Remoteanrufsteuerung verwenden können. Für das Verfahren ist die Mitgliedschaft in der RTCUniversalServerAdmins-Gruppe oder entsprechende Rechte erforderlich. 
 
- **UseNormalizationRules "false" festgelegt**
+ **UseNormalizationRules auf "false" festgelegt**
 
-Wenn den Wert für **UseNormalizationRules** auf False festgelegt werden, sodass Benutzer Rufnummern verwenden können, wie sie in definiert sind, Active Directory Domain Services, ohne dass Skype für Business Server 2019 anwenden Normalisierungsregeln, müssen Sie die **festlegen UseNormalizationRules** und **IgnoreGenericRules** -Parameter auf "true". Führen Sie die weiter unten in diesem Abschnitt können Sie diesen Parameter auf True festgelegt. 
+Wenn Sie den Wert für **UseNormalizationRules** auf "false" festlegen, damit Benutzer Telefonnummern verwenden können, wie Sie in den Active Directory-Domänendiensten definiert sind, ohne dass Skype for Business Server 2019 die Normalisierungsregeln anwenden, müssen Sie die ** UseNormalizationRules** -und **IgnoreGenericRules** -Parameter auf true fest. Führen Sie die Schritte weiter unten in diesem Abschnitt aus, um diese Parameter auf "true" festzulegen. 
 
-## <a name="to-migrate-address-book-customized-normalization-rules"></a>Informationen zum Adressbuch migrieren Sie angepasste Normalisierungsregeln für
+## <a name="to-migrate-address-book-customized-normalization-rules"></a>So migrieren Sie Adressbuch angepasste Normalisierungsregeln
 
-1. Suchen Sie die Datei Company_Phone_Number_Normalization_Rules.txt im Stamm des freigegebenen adressbuchordners, und kopieren Sie sie in den Stamm des freigegebenen adressbuchordners in Ihrer Skype für Business Server 2019 pilot Pool.
+1. Suchen Sie die Datei "Company_Phone_Number_Normalization_Rules. txt" im Stammverzeichnis des freigegebenen Ordners "Adressbuch", und kopieren Sie Sie in den Stammordner des freigegebenen Adressbuch Ordners in Ihrem Skype for Business Server 2019-Pilot Pool.
 
     > [!NOTE]
-    > Die Beispiel-Adressbuch-Normalisierungsregeln wurden in Ihrem ABS Web Component Dateiverzeichnis installiert. Der Pfad ist **$installedDriveLetter: \Programme\Microsoft Skype für Business Server 2019\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt**. Diese Datei kann kopiert und als **Company_Phone_Number_Normalization_Rules.txt** in Address Book des freigegebenen Ordners Stammverzeichnis umbenannt werden. Beispielsweise in **$serverX**freigegebenen Adressbuch der Pfad werden ähnelt: ** \\$serverX \SkypeForBusiness-FileShare\2-WebServices-1\ABFiles**. 
+    > Das Beispiel für die Normalisierungsregeln für das Adressbuch wurde im Dateiverzeichnis der ABS-Webkomponente installiert. Der Pfad ist **$installedDriveLetter: \Programme\Microsoft Skype for Business Server 2019 \ Web Components\Address Adress Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules. txt**. Diese Datei kann als **Company_Phone_Number_Normalization_Rules. txt** in das Stammverzeichnis des freigegebenen Ordners des Adressbuchs kopiert und umbenannt werden. Beispielsweise ist das in **$serverX**freigegebene Adressbuch der Pfad ähnlich wie: ** \\$serverX \SkypeForBusiness-FileShare\2-Webservices-1\ABFiles**. 
 
-2. Verwenden Sie einen Text-Editor wie Editor ein, um die Datei Company_Phone_Number_Normalization_Rules.txt zu öffnen.
+2. Verwenden Sie einen Text-Editor wie Editor, um die Datei "Company_Phone_Number_Normalization_Rules. txt" zu öffnen.
 
-3. Bestimmte Arten von Einträgen funktioniert ordnungsgemäß in Skype für Business Server 2019 nicht. Suchen Sie in der Datei für die Arten von Einträgen in diesem Schritt beschriebene, bearbeiten Sie diese nach Bedarf, und Speichern der Änderungen an der freigegebenen adressbuchordners im pilotpool.
+3. Bestimmte Arten von Einträgen funktionieren in Skype for Business Server 2019 nicht ordnungsgemäß. Durchsuchen Sie die Datei nach den in diesem Schritt beschriebenen Arten von Einträgen, bearbeiten Sie Sie nach Bedarf, und speichern Sie die Änderungen im freigegebenen Ordner des Adressbuchs in Ihrem Pilot Pool.
 
-    Zeichenfolgen, die erforderliche Leerzeichen oder Satzzeichen Ursache Normalisierungsregeln ein Fehler auftritt, da diese Zeichen aus der Zeichenfolge entfernt werden, die Eingabe ist, die Normalisierungsregeln enthalten. Wenn Sie Zeichenfolgen, die erforderlichen Leerzeichen oder Satzzeichen enthalten verfügen, müssen Sie die Zeichenfolgen ändern. Beispielsweise würde die folgende Zeichenfolge die Normalisierungsregel fehlerfrei ausgeführt:
+    Zeichenfolgen, die erforderliche leer-oder Interpunktionszeichen enthalten, führen zu Normalisierungsregeln, da diese Zeichen aus der Zeichenfolge entfernt werden, die für die Normalisierungsregeln eingegeben wurde. Wenn Zeichenfolgen vorhanden sind, die die erforderlichen Leerzeichen oder Interpunktionszeichen enthalten, müssen Sie die Zeichenfolgen ändern. Die folgende Zeichenfolge würde beispielsweise dazu führen, dass die Normalisierungsregel fehlschlägt:
 
    ```
    \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
    ```
 
-    Mit der folgenden Zeichenfolge würde die Normalisierungsregel fehlerfrei ausgeführt nicht:
+    Die folgende Zeichenfolge würde nicht dazu führen, dass die Normalisierungsregel fehlschlägt:
 
    ```
    \s*\(?\s*\d\d\d\s*\)?\s*\-?\s*\d\d\d\s*\-?\s*\d\d\d\d
    ```
 
-## <a name="to-set-usenormalizationrules-and-ignoregenericrules-to-true"></a>UseNormalizationRules und IgnoreGenericRules auf "true" festlegen
+## <a name="to-set-usenormalizationrules-and-ignoregenericrules-to-true"></a>So setzen Sie UseNormalizationRules und IgnoreGenericRules auf "true"
 
-1. Starten Sie die Skype für Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft Skype für Business Server 2019**, und klicken Sie dann auf **Skype für Business Server-Verwaltungsshell**.
+1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft Skype for Business Server 2019**, und klicken Sie dann auf **Skype for Business Server-Verwaltungsshell**.
 
 2. Führen Sie einen der folgenden Schritte aus:
 
-   - Wenn Ihre Bereitstellung nur Skype für Business Server 2019 umfasst, führen Sie das folgende Cmdlet auf globaler Ebene die Werte für **UseNormalizationRules** und **IgnoreGenericRules** auf "true" zu ändern: 
+   - Wenn Ihre Bereitstellung nur Skype for Business Server 2019 umfasst, führen Sie das folgende Cmdlet auf globaler Ebene aus, um die Werte für **UseNormalizationRules** und **IgnoreGenericRules** auf "true" zu ändern: 
 
    ```
    Set-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
    ```
 
-   - Wenn Ihre Bereitstellung eine Kombination von Skype für Business Server 2019 und eine legacy-Installation umfasst, führen Sie das folgende Cmdlet aus, und weisen Sie es jedem Skype für Business Server 2019 Pool in der Topologie:
+   - Wenn Ihre Bereitstellung eine Kombination aus Skype for Business Server 2019 und einer Legacy Installation umfasst, führen Sie das folgende Cmdlet aus, und weisen Sie es jedem Skype for Business Server 2019-Pool in der Topologie zu:
 
    ```
    New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
    ```
 
-3. Warten Sie zentralen Speicher Replikation für alle Pools erfolgt.
+3. Warten Sie, bis die Replikation des zentralen Verwaltungsspeichers in allen Pools ausgeführt wird.
 
-4. Ändern Sie die rufnummernnormalisierung Regeldatei "Company_Phone_Number_Normalization_Rules.txt" für die Bereitstellung den Inhalt gelöscht. Die Datei befindet sich auf die Dateifreigabe jedes Skype für Business Server 2019 Pool. Wenn die Datei nicht vorhanden ist, klicken Sie dann erstellen Sie eine leere Datei mit dem Namen "Company_Phone_Number_Normalization_Rules.txt".
+4. Ändern Sie die Regeldatei für die Telefon Normalisierung, "Company_Phone_Number_Normalization_Rules. txt", für Ihre Bereitstellung, um den Inhalt zu löschen. Die Datei befindet sich auf der Dateifreigabe jedes Skype for Business Server 2019-Pools. Wenn die Datei nicht vorhanden ist, erstellen Sie eine leere Datei mit dem Namen "Company_Phone_Number_Normalization_Rules. txt".
 
-5. Warten Sie einige Minuten für alle Front-End-Pools die neuen Dateien gelesen.
+5. Warten Sie einige Minuten, bis alle Front-End-Pools die neuen Dateien gelesen haben.
 
-6. Führen Sie das folgende Cmdlet auf jede Skype für Business Server 2019 Pool in Ihrer Bereitstellung aus:
+6. Führen Sie das folgende Cmdlet für jeden Skype for Business Server 2019-Pool in Ihrer Bereitstellung aus:
 
    ```
    Update-CsAddressBook

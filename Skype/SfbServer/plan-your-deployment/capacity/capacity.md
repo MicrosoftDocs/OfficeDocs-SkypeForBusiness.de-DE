@@ -1,38 +1,38 @@
 ---
-title: Kapazitätsplanung für Skype für Business Server
+title: Kapazitätsplanung für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e557ed2c-9cb2-4c90-8fd1-96a814c47c19
-description: Die Themen in diesem Abschnitt können Sie verstehen, wie Sie zum Planen und Bereitstellen von Skype für Business Server, sodass ausreichend planen zu können, für die Anzahl der Benutzer in Ihrer Organisation und Plan für die Auslastung des Servers, die deren Aktivitäten generieren.
-ms.openlocfilehash: 6baf4f74ab2c4744c0fbbb776296092075897a92
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: In den Themen in diesem Abschnitt erfahren Sie, wie Sie Skype for Business Server planen und bereitstellen, damit Sie die Anzahl der Benutzer in Ihrer Organisation angemessen planen und die Serverauslastung planen können, die von ihren Aktivitäten generiert wird.
+ms.openlocfilehash: 121424e449ef6e960443b8ec56a1112181d3eb53
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924948"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277587"
 ---
-# <a name="capacity-planning-for-skype-for-business-server"></a>Kapazitätsplanung für Skype für Business Server
+# <a name="capacity-planning-for-skype-for-business-server"></a>Kapazitätsplanung für Skype for Business Server
  
-Die Themen in diesem Abschnitt können Sie verstehen, wie Sie zum Planen und Bereitstellen von Skype für Business Server, sodass ausreichend planen zu können, für die Anzahl der Benutzer in Ihrer Organisation und Plan für die Auslastung des Servers, die deren Aktivitäten generieren. 
+In den Themen in diesem Abschnitt erfahren Sie, wie Sie Skype for Business Server planen und bereitstellen, damit Sie die Anzahl der Benutzer in Ihrer Organisation angemessen planen und die Serverauslastung planen können, die von ihren Aktivitäten generiert wird. 
   
 > [!NOTE]
 > Alle Empfehlungen in diesem Abschnitt gehen davon aus, dass Sie das kumulative Update für Skype for Business vom November 2015 oder ein jüngeres Update auf Ihren Servern installiert haben. 
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [Verwendung des Objektmodells für Benutzer für Skype für Business Server zum Planen der Kapazität](user-model.md)
+- [Kapazitätsplanung Benutzermodell Verwendung für Skype for Business Server](user-model.md)
     
-- [Schätzen von VoIP-Nutzung und-Datenverkehr für Skype für Business Server](estimating-voice-traffic.md)
+- [Schätzen der sprach Nutzung und des Datenverkehrs für Skype for Business Server](estimating-voice-traffic.md)
     
-- [Bereitstellungsrichtlinien für den Vermittlungsserver in Skype für Business Server](mediation-server-deployment-guidelines.md)
+- [Bereitstellungsrichtlinien für den Vermittlungsserver in Skype for Business Server](mediation-server-deployment-guidelines.md)
     
-- [Benutzermodelle in Skype für Business Server](user-models.md)
+- [Benutzermodelle in Skype for Business Server](user-models.md)
     
 

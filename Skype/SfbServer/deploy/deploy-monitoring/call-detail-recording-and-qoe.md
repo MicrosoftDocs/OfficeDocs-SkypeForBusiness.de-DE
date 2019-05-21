@@ -1,44 +1,44 @@
 ---
-title: Konfigurieren Sie die Aufzeichnung von kommunikationsdatensätzen und Quality of Experience Settings in Skype für Business Server
+title: Konfigurieren der Aufzeichnung von Anrufdetails und Einstellungen für die Qualität der Benutzerfreundlichkeit in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
-description: 'Zusammenfassung: Informationen Sie zum Konfigurieren von KDS und QoE in Skype für Business Server.'
-ms.openlocfilehash: babc2ebe7901c19048624194b38e4cfa143e8f02
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie CDR und QoE in Skype for Business Server konfigurieren.'
+ms.openlocfilehash: 8a83e5920de60d664e76590d2b5b2a9f36b589ae
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894654"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306640"
 ---
-# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>Konfigurieren Sie die Aufzeichnung von kommunikationsdatensätzen und Quality of Experience Settings in Skype für Business Server
+# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>Konfigurieren der Aufzeichnung von Anrufdetails und Einstellungen für die Qualität der Benutzerfreundlichkeit in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zum Konfigurieren von KDS und QoE in Skype für Business Server.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie CDR und QoE in Skype for Business Server konfigurieren.
   
-Konfigurieren Sie KDS und QoE-Überwachung mithilfe von SQL Server Reporting Services-Berichte für Skype für Business Server.
+Konfigurieren Sie die CDR-und QoE-Überwachung mithilfe von SQL Server Reporting Services-Berichten für Skype for Business Server.
   
 ## <a name="configure-cdr-and-qoe"></a>Konfigurieren von KDS und QoE
 
-Nachdem Sie einen Front-End-Pool, richten Sie den Speicher für Überwachung, und klicken Sie dann installiert und konfiguriert SQL Server Reporting Services und Überwachungsberichte ein überwachungsspeichers zugeordnet haben können Sie Aufzeichnung von Kommunikationsdatensätzen (KDS) und Quality of Experience (QoE) verwalten. Überwachen mithilfe von Skype für Business Server-Verwaltungsshell. Skype für Business Server-Verwaltungsshell-Cmdlets können Sie aktivieren und deaktivieren KDS und QoE-Überwachung für einen bestimmten Standort oder für Ihre gesamte Skype für Business Server-Bereitstellung. können Sie mit einem so einfach wie dieser Befehl ausführen:
+Nachdem Sie einen Überwachungsspeicher mit einem Front-End-Pool verknüpft haben, Einrichten des überwachungsspeichers und anschließendes Installieren und Konfigurieren von SQL Server Reporting Services-und Überwachungsberichten können Sie die Anruf Detail Aufzeichnung (CDR) und die Quality of Experience (QoE) verwalten. Überwachung mithilfe der Skype for Business Server-Verwaltungsshell. Mit den Cmdlets für die Skype for Business Server-Verwaltungsshell können Sie die CDR-und/oder QoE-Überwachung für eine bestimmte Website oder für die gesamte Skype for Business Server-Bereitstellung aktivieren und deaktivieren. Dies kann mit einem einfachen Befehl erfolgen:
   
 ```
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 ```
 
-Wenn Sie Skype für Business Server installieren, installieren Sie auch eine vordefinierte Sammlung von globalen Konfigurationseinstellungen für KDS und QoE. In der folgenden Tabelle sind Standardwerte für einige gängige Einstellungen für die Aufzeichnung von Kommunikationsdatensätzen aufgeführt:
+Wenn Sie Skype for Business Server installieren, werden Sie auch eine vordefinierte Sammlung globaler Konfigurationseinstellungen für CDR und QoE installieren. In der folgenden Tabelle sind Standardwerte für einige gängige Einstellungen für die Aufzeichnung von Kommunikationsdatensätzen aufgeführt:
   
 |**Eigenschaft**|**Beschreibung**|**Standardwert**|
 |:-----|:-----|:-----|
 |EnableCDR  <br/> |Gibt an, ob KDS aktiviert ist. Bei „True“ werden alle KDS-Datensätze gesammelt und in die Überwachungsdatenbank geschrieben.  <br/> |True  <br/> |
 |EnablePurging  <br/> |Gibt an, ob KDS-Datensätze regelmäßig aus der Datenbank gelöscht werden. Bei Festlegung auf „True“ werden Einträge nach dem Zeitraum gelöscht, der in den Eigenschaften „KeepCallDetailForDays“ (KDS-Datensätze) und „KeepErrorReportForDays“ (KDS-Fehler) angegeben ist. Bei Festlegung des Parameters auf „False“ werden KDS-Einträge nie gelöscht.  <br/> |True  <br/> |
 |KeepCallDetailForDays  <br/> |Gibt die Anzahl von Tagen an, die KDS-Datensätze in der Datenbank gespeichert werden. Einträge, die älter sind als angegeben, werden automatisch gelöscht. Dies erfolgt jedoch nur, wenn der Löschvorgang aktiviert ist.  <br/> „KeepCallDetailForDays“ kann auf einen beliebigen ganzzahligen Wert zwischen 1 und 2562 Tage (ungefähr 7 Jahre) festgelegt werden.  <br/> |60 Tage  <br/> |
-|KeepErrorReportForDays  <br/> |Gibt die Anzahl von Tagen, für die Fehlerberichte CDR gehalten werden; Berichte, die älter sind als die angegebene Anzahl von Tagen werden automatisch gelöscht werden. KDS Fehlerberichte sind Diagnoseberichte von Clientanwendungen wie Skype für Business Server hochgeladen.  <br/> Sie können diese Eigenschaft auf einen beliebigen ganzzahligen Wert zwischen 1 und 2562 Tage (etwa 7 Jahre) festlegen.  <br/> |60 Tage  <br/> |
+|KeepErrorReportForDays  <br/> |Gibt an, wie viele Tage CdR-Fehlerberichte aufbewahrt werden. Alle Berichte, die älter als die angegebene Anzahl von Tagen sind, werden automatisch gelöscht. CdR-Fehlerberichte sind Diagnoseberichte, die von Clientanwendungen wie Skype for Business Server hochgeladen werden.  <br/> Sie können diese Eigenschaft auf einen beliebigen ganzzahligen Wert zwischen 1 und 2562 Tage (etwa 7 Jahre) festlegen.  <br/> |60 Tage  <br/> |
    
 Entsprechend werden in dieser Tabelle Standardwerte für ausgewählte QoE-Einstellungen aufgeführt:
   
@@ -48,13 +48,13 @@ Entsprechend werden in dieser Tabelle Standardwerte für ausgewählte QoE-Einste
 |EnablePurging  <br/> |Gibt an, ob QoE-Datensätze regelmäßig aus der Datenbank gelöscht werden oder nicht. Wenn dieser Parameter auf „True“ festgelegt ist, werden die Einträge nach der über die Eigenschaft „KeepQoEDataForDays“ angegebenen Zeitdauer gelöscht. Bei Festlegung des Parameters auf „False“ werden QoE-Datensätze nie gelöscht.  <br/> |True  <br/> |
 |KeepQoEDataForDays  <br/> |Gibt die Anzahl von Tagen an, die QoE-Datensätze in der Datenbank gespeichert werden. Einträge, die älter sind als angegeben, werden automatisch gelöscht. Dies erfolgt jedoch nur, wenn der Löschvorgang aktiviert ist.  <br/> „KeepCallDetailForDays“ kann auf einen beliebigen Ganzzahlwert zwischen einschließlich 1 und 2562 Tage gesetzt werden.  <br/> |60 Tage  <br/> |
    
-Wenn Sie diese globalen Einstellungen ändern müssen, können Sie dazu die Cmdlets „Set-CsCdrConfiguration“ und „Set-CsQoEConfiguration“ verwenden. Beispielsweise wird mit diesem Befehl (ausgeführt von innerhalb der Skype für Business Server-Verwaltungsshell) KDS-Überwachung auf globaler Ebene deaktiviert; erfolgt durch Festlegen der EnableCDR-Eigenschaft auf "false" ($False):
+Wenn Sie diese globalen Einstellungen ändern müssen, können Sie dazu die Cmdlets „Set-CsCdrConfiguration“ und „Set-CsQoEConfiguration“ verwenden. Mit diesem Befehl (der in der Skype for Business Server-Verwaltungsshell ausgeführt wird) wird beispielsweise die CDR-Überwachung im globalen Bereich deaktiviert. Dies erfolgt durch Festlegen der EnableCDR-Eigenschaft auf "false" ($false):
   
 ```
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $False
 ```
 
-Durch das Deaktivieren der Überwachung wird weder die Zuordnung des Überwachungsspeichers zum Front-End-Pool aufgehoben, noch wird die Back-End-Überwachungsdatenbank deinstalliert oder anderweitig geändert. Wenn Sie Skype für Business Server-Verwaltungsshell verwenden, um CDR oder QoE-Überwachung deaktivieren Sie wirklich brauchen ist vorübergehend Skype für Business Server aus sammeln und Überwachungsdaten Archivierung zu beenden. Wenn Sie in diesem Fall das Sammeln und Archivieren von KDS-Daten fortsetzen möchten, müssen Sie nur die Eigenschaft „EnableCDR“ wieder auf „True“ ($True) festlegen:
+Durch das Deaktivieren der Überwachung wird weder die Zuordnung des Überwachungsspeichers zum Front-End-Pool aufgehoben, noch wird die Back-End-Überwachungsdatenbank deinstalliert oder anderweitig geändert. Wenn Sie die Skype for Business Server-Verwaltungsshell verwenden, um die CDR-oder QoE-Überwachung zu deaktivieren, ist das alles, was Sie wirklich tun, dazu führen, dass Skype for Business Server vorübergehend die Erfassung und Archivierung von Überwachungsdaten verhindert. Wenn Sie in diesem Fall das Sammeln und Archivieren von KDS-Daten fortsetzen möchten, müssen Sie nur die Eigenschaft „EnableCDR“ wieder auf „True“ ($True) festlegen:
   
 ```
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
@@ -80,7 +80,7 @@ Neue QoE-Konfigurationseinstellungen auf Standortebene können mit einem Befehl 
 New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 15
 ```
 
-Weitere Informationen geben Sie die folgenden Befehle aus innerhalb der Skype für Business Server-Verwaltungsshell aus:
+Wenn Sie weitere Informationen wünschen, geben Sie in der Skype for Business Server-Verwaltungsshell die folgenden Befehle ein:
   
 ```
 Get-Help New-CsCdrConfiguration | more

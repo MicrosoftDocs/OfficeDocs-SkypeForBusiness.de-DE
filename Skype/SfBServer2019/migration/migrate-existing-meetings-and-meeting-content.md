@@ -4,28 +4,28 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'Wenn ein Benutzerkonto aus an einen Skype für Business Server 2019 Server verschoben wird, werden die folgende Informationen zusammen mit dem Benutzerkonto verschoben:'
-ms.openlocfilehash: bf10fa6b4ad4d555ce80dee5ec4e4a6584020ac7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Wenn ein Benutzerkonto von einem Skype for Business Server 2019-Server verschoben wird, werden die folgenden Informationen mit diesem Benutzerkonto verschoben:'
+ms.openlocfilehash: 4b5c7981374f3e2bf6dc2d87a0b21d972ddb14ae
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231658"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288600"
 ---
 # <a name="migrate-existing-meetings-and-meeting-content"></a>Migrieren vorhandener Besprechungen und Besprechungsinhalte
 
-Wenn ein Benutzerkonto in ein Skype für Business Server 2019 Server verschoben wird, werden die folgende Informationen zusammen mit dem Benutzerkonto verschoben:
+Wenn ein Benutzerkonto auf einen Skype for Business Server 2019-Server verschoben wird, werden die folgenden Informationen mit diesem Benutzerkonto verschoben:
   
-- **Vom Benutzer bereits geplante Besprechungen**. Dazu gehören die konferenzverzeichnisse und Konferenzdaten verschieben.
+- **Besprechungen, die der Benutzer bereits geplant**hat. Dazu gehören das Verschieben von Konferenz Verzeichnissen und Konferenzdaten.
     
-- **Persönliche Identifikationsnummer (PIN) des Benutzers**. Aktuelle PIN des Benutzers ist weiterhin solange gültig, bis sie abläuft oder der Benutzer eine neue PIN anfordert.
+- **Persönliche Identifikationsnummer (PIN) des Benutzers**. Die aktuelle PIN des Benutzers funktioniert weiterhin, bis er abläuft oder der Benutzer eine neue PIN anfordert.
     
-Die folgenden Benutzerkontoinformationen werden nicht auf dem neuen Server verschoben.
+Die folgenden Benutzerkontoinformationen werden nicht auf den neuen Server verschoben.
   
-- **Der Inhalt der Besprechung**. Zum Verschieben des Inhalts während einer Besprechung freigegeben wie PowerPoint, Whiteboard, Anlagen oder Umfrage-Daten den **MoveConferenceData -** Parameter als Teil der **Move-CsUser** -Cmdlet verwenden. 
+- **Besprechungsinhalt**. Verwenden Sie den Parameter **-MoveConferenceData** als Teil des Cmdlets **Move-CsUser** , um den während einer Besprechung freigegebenen Inhalt wie PowerPoint, Whiteboard, Anlagen oder Umfragedaten zu verschieben. 
     
 

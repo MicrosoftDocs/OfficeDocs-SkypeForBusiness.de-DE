@@ -3,7 +3,7 @@ title: Bereitstellen von Microsoft Teams-Raum mit Exchange vor Ort
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,109 +11,109 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
-description: Lesen Sie dieses Thema bietet Informationen zum Bereitstellen von Microsoft-Teams Chatrooms in einer hybridumgebung mit Exchange lokal.
-ms.openlocfilehash: 7ab9a582e26db15159677343d9edddd6bd9c45f9
-ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
+description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen in einer Hybridumgebung mit Exchange lokal.
+ms.openlocfilehash: 7e855ece643d3412047b4d01a9250b17f699ac98
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34082722"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288483"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange vor Ort
 
-Lesen Sie dieses Thema bietet Informationen zum Bereitstellen von Microsoft-Teams Chatrooms in einer hybridumgebung mit Exchange auf lokale und Microsoft-Teams oder Skype für Business Online.
+In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen in einer Hybridumgebung mit Exchange lokal und Microsoft Teams oder Skype for Business Online.
   
-Wenn Ihre Organisation eine Kombination von Diensten, mit einigen an lokalen und online gehostet gehostet hat, wird die Konfiguration abhängen, wo jeden Dienst gehostet wird. In diesem Thema werden die hybridbereitstellungen für Microsoft-Teams Chatrooms mit Exchange lokal gehostet. Da so viele verschiedene Variationen bei dieser Art von Bereitstellung vorhanden sind, ist nicht möglich, detaillierte Informationen für alle bereitzustellen. Der folgende Prozess wird für viele Konfigurationen verwendet werden. Wenn der Vorgang nicht für die Installation die richtige ist, wird empfohlen, dass Sie Windows PowerShell verwenden, um das gleiche Endergebnis zu erzielen, wie hier und für andere Bereitstellungsoptionen dokumentiert.
+Wenn Ihre Organisation über eine Kombination von Diensten verfügt, bei denen einige lokal gehostet werden und einige Online gehostet werden, hängt Ihre Konfiguration davon ab, wo die einzelnen Dienste gehostet werden. In diesem Thema werden hybridbereitstellungen für Microsoft Teams-Räume mit Exchange gehostet, die lokal gehostet werden. Da es so viele unterschiedliche Variationen bei dieser Art der Bereitstellung gibt, ist es nicht möglich, detaillierte Anweisungen für alle zu liefern. Das folgende Verfahren funktioniert für viele Konfigurationen. Wenn der Prozess für Ihr Setup nicht richtig ist, empfehlen wir, dass Sie Windows PowerShell verwenden, um dasselbe Endergebnis wie hier dokumentiert zu erzielen, und für andere Bereitstellungsoptionen.
 
-Microsoft bietet [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), eines Skripts, das neue Benutzerkonten erstellen oder vorhandene Ressourcenkonten, mit denen Sie damit können Sie diese in kompatibel Microsoft Teams Räume-Benutzerkonten aktivieren überprüfen helfen. Auf Wunsch können Sie die Schritte unten, um das Konfigurieren von Konten, mit Ihrem Microsoft-Teams Chatrooms Gerät.
+Microsoft bietet [SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105), ein Skript, mit dem Sie neue Benutzerkonten erstellen oder vorhandene Ressourcenkonten überprüfen können, damit Sie Sie zu kompatiblen Microsoft Teams rooms-Benutzerkonten machen können. Wenn Sie möchten, können Sie die folgenden Schritte ausführen, um die Konten zu konfigurieren, die von Ihrem Microsoft Teams rooms-Gerät verwendet werden.
   
 ## <a name="requirements"></a>Voraussetzungen
 
-Vor der Bereitstellung von Microsoft-Teams Chatrooms mit Exchange lokal, achten Sie darauf, dass Sie die Anforderungen erfüllt sind. Weitere Informationen finden Sie unter [Microsoft Teams Chatrooms Requirements](requirements.md).
+Stellen Sie sicher, dass Sie die Anforderungen erfüllt haben, bevor Sie Microsoft Teams-Räume mit Exchange lokal bereitstellen. Weitere Informationen finden Sie unter [Anforderungen für Microsoft Teams](requirements.md)-Chatrooms.
   
-Wenn Sie Microsoft-Teams Chatrooms mit Exchange lokal bereitgestellt werden, werden Sie Active Directory-Verwaltungstools verwenden, um eine e-Mail-Adresse für Ihr Konto der lokalen Domäne hinzufügen. Dieses Konto wird mit Office 365 synchronisiert werden. Sie müssen die folgenden Schritte ausführen:
+Wenn Sie Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwenden Sie die Active Directory-Verwaltungstools, um eine e-Mail-Adresse für Ihr lokales Domänenkonto hinzuzufügen. Dieses Konto wird mit Office 365 synchronisiert. Sie müssen die folgenden Schritte ausführen:
   
 - Erstellen Sie ein Konto, und synchronisieren Sie es mit Active Directory.
 
 - Aktivieren Sie das Remotepostfach, und legen Sie Eigenschaften fest.
 
-- Zuweisen einer Office 365-Lizenzvertrags.
+- Weisen Sie eine Office 365-Lizenz zu.
 
-- Aktivieren Sie das Gerät Konto mit Skype für Business Server. Für die Aktivierung des Gerätekontos muss Ihre Umgebung die folgenden Voraussetzungen erfüllen:
+- Aktivieren Sie das Geräte Konto in Skype for Business Server. Für die Aktivierung des Gerätekontos muss Ihre Umgebung die folgenden Voraussetzungen erfüllen:
 
-  - Sie müssen Ihre Office 365-Plan Skype für Business Online (Plan 2) oder höher sein. Der Plan muss die Konferenzfunktion unterstützen.
+  - Sie müssen Skype for Business Online (Plan 2) oder höher in Ihrem Office 365-Plan haben. Der Plan muss die Konferenzfunktion unterstützen.
   
-  - - Wenn Sie Enterprise-VoIP (PSTN-Telefonie) benötigen benötigen Telefoniedienstanbieter für Microsoft-Teams Chatrooms verwenden Sie Skype für Business Online (Plan 3).
+  - - Wenn Sie Enterprise-VoIP (PSTN-Telefonie) mit Telefoniedienst-Anbietern für Microsoft Teams-Räume benötigen, benötigen Sie Skype for Business Online (Plan 3).
   
-  - - Die Mandanten-Benutzer müssen Exchange-Postfächer haben.
+  - - Ihre Mandanten Benutzer müssen über Exchange-Postfächer verfügen.
   
-  - - Ihr Microsoft-Teams Chatrooms Konto erfordert einen Skype für Business Online (Plan 2) oder Skype für Business Online (Plan 3)-Lizenz, aber keine Exchange Online-Lizenz erforderlich.
+  - - Für Ihr Microsoft Teams rooms-Konto ist eine Lizenz für Skype for Business Online (Plan 2) oder Skype for Business Online (Plan 3) erforderlich, es ist jedoch keine Exchange Online-Lizenz erforderlich.
 
-- Weisen Sie Ihr Konto Microsoft Teams Chatrooms einen Skype für Business Server-Lizenz.
+- Weisen Sie Ihrem Microsoft Teams rooms-Konto eine Skype for Business Server-Lizenz zu.
 
 ### <a name="create-an-account-and-synchronize-with-active-directory"></a>Erstellen Sie ein Konto, und synchronisieren Sie es mit Active Directory.
 
-1. Klicken Sie im Tool **Active Directory-Benutzer und-Computer** mit der rechten Maustaste auf den Ordner oder die Organisationseinheit, dass Ihre Microsoft Teams Räume-Konten erstellt werden, klicken Sie auf **neu**, und klicken Sie dann auf **Benutzer**.
+1. Klicken Sie im Tool **Active Directory-Benutzer und-Computer** mit der rechten Maustaste auf den Ordner oder die Organisationseinheit, in dem Ihre Microsoft Teams-Chatrooms-Konten erstellt werden, klicken Sie auf **neu**, und klicken Sie dann auf **Benutzer**.
 
 2. Geben Sie den Anzeigenamen aus dem vorherigen Cmdlet in das Feld **Vollständiger Name** und den Alias in das Feld **Benutzeranmeldename** ein. Klicken Sie auf **Weiter**.
 
 3. Geben Sie das Kennwort für dieses Konto ein. Sie müssen das Kennwort zur Bestätigung erneut eingeben. Stellen Sie sicher, dass als einzige Option das Kontrollkästchen **Kennwort läuft nie ab** aktiviert ist.
 
     > [!NOTE]
-    > Auswählen von **Kennwort läuft nie ab** ist eine Voraussetzung für Skype für Business Server auf Microsoft Teams Chatrooms. Möglicherweise verhindern Ihre Domänenregeln nicht ablaufende Kennwörter. In diesem Fall müssen Sie eine Ausnahme für jedes Microsoft Teams Chatrooms Gerät Konto erstellen.
+    > Die Auswahl von " **Kennwort läuft nie ab** " ist eine Voraussetzung für Skype for Business Server in Microsoft Teams-Räumen. Möglicherweise verhindern Ihre Domänenregeln nicht ablaufende Kennwörter. Wenn dies der Fall ist, müssen Sie für jedes Microsoft Teams rooms-Geräte Konto eine Ausnahme erstellen.
   
-4. Führen Sie nach der Erstellung des Kontos eine Verzeichnissynchronisierung aus. Wenn es abgeschlossen ist, wechseln Sie zu der Benutzerseite in Ihrer Microsoft 365 Administrationscenter, und stellen Sie sicher, dass das Konto in den vorherigen Schritten erstellten online zu zusammengeführt wurde.
+4. Führen Sie nach der Erstellung des Kontos eine Verzeichnissynchronisierung aus. Wenn Sie fertig sind, wechseln Sie zur Seite "Benutzer" im Microsoft 365 Admin Center, und überprüfen Sie, ob das in den vorherigen Schritten erstellte Konto mit Online verbunden wurde.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Aktivieren des Remotepostfachs und Festlegen von Eigenschaften
 
-1. [Öffnen Sie die Exchange-Verwaltungsshell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) oder [eine Verbindung mit Exchange-Server mit remote-PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).
+1. [Öffnen Sie die Exchange-Verwaltungsshell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) , oder stellen [Sie mithilfe von Remote-PowerShell eine Verbindung mit Ihrem Exchange-Server her](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).
 
-2. Erstellen Sie ein Postfach für das Konto (postfachaktivierung das Konto) in Exchange PowerShell mithilfe des folgenden Befehls:
+2. Verschachteln Sie in Exchange PowerShell ein Postfach für das Konto (Postfach aktivieren Sie das Konto), indem Sie den folgenden Befehl ausführen:
 
    ``` Powershell
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
    ```
 
-   Informationen zur Syntax und Parametern finden Sie unter [Enable-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/enable-mailbox).
+   Ausführliche Informationen zu Syntax und Parametern finden Sie unter [aktivieren-Postfach](https://docs.microsoft.com/powershell/module/exchange/mailboxes/enable-mailbox).
 
-3. Konfigurieren Sie die folgenden Einstellungen in der Exchange PowerShell klicken Sie auf das Raumpostfach, um die Besprechung zu verbessern:
+3. Konfigurieren Sie in Exchange PowerShell die folgenden Einstellungen für das Raumpostfach, um die Besprechungs Erfahrung zu verbessern:
 
-   - AutomateProcessing: AutoAccept (Besprechungsorganisatoren empfangen die Raum Reservierung Entscheidung direkt und ohne Eingreifen: freien = akzeptieren; gebucht = ablehnen.)
+   - AutomateProcessing: AutoAccept (Besprechungsorganisatoren erhalten die Raum Reservierungs Entscheidung direkt ohne menschliche Intervention: kostenlos = akzeptieren; busy = ablehnen.)
 
-   - AddOrganizerToSubject: $false (Organisator der Besprechung wird nicht auf den Betreff der Besprechungsanfrage hinzugefügt.)
+   - AddOrganizerToSubject: $false (der Besprechungsorganisator wird dem Betreff der Besprechungsanfrage nicht hinzugefügt.)
 
-   - DeleteComments: $false (beibehalten im Textkörper Nachricht eingehender Besprechungsanfragen.)
+   - DeleteComments: $false (Text im Nachrichtentext der eingehenden Besprechungsanfragen behalten.)
 
-   - DeleteSubject: $false (Keep den Betreff der eingehenden Besprechungsanfragen).
+   - Dem DeleteSubject können: $false (Betreff der eingehenden Besprechungsanfragen beibehalten.)
 
-   - RemovePrivateProperty: $false (stellt sicher das Flag ' Privat ', die vom Organisator Besprechung in der ursprünglichen Besprechung gesendet wurde anfordern bleibt wie angegeben).
+   - RemovePrivateProperty: $false (stellt sicher, dass das private Flag, das vom Organisator der Besprechung in der ursprünglichen Besprechungsanfrage gesendet wurde, wie angegeben bleibt.)
 
-   - AddAdditionalResponse: $true (der Text, durch den Parameter AdditionalResponse angegeben wird auf Besprechungsanfragen hinzugefügt.)
+   - AddAdditionalResponse: $true (der durch den AdditionalResponse-Parameter angegebene Text wird Besprechungsanfragen hinzugefügt.)
 
-   - AdditionalResponse: "Dies ist eine Skype Besprechungsraum!" (Der zusätzliche Text, der auf die Besprechungsanfrage hinzugefügt.)
+   - AdditionalResponse: "Dies ist ein Skype-Besprechungsraum!" (Der zusätzliche Text, der der Besprechungsanfrage hinzugefügt werden soll.)
 
-   In diesem Beispiel wird konfiguriert diese Einstellungen für das Raumpostfach mit dem Namen Project-Rigel-01.
+   In diesem Beispiel werden diese Einstellungen für das Raumpostfach mit dem Namen Project-Rigel-01 konfiguriert.
 
    ``` PowerShell
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   Informationen zur Syntax und Parametern finden Sie unter [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
+   Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Satz-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
 ### <a name="assign-an-office-365-license"></a>Zuweisen einer Office 365-Lizenz
 
-1. Verbinden Sie mit Azure Active Directory. Ausführliche Informationen zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+1. Stellen Sie eine Verbindung mit Azure Active Directory her. Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) wird nicht unterstützt. 
+   > [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) wird nicht unterstützt. 
 
-2. Das Gerät Konto muss eine gültige Office 365-Lizenz verfügen, oder Exchange und Microsoft-Teams, funktionieren nicht. Wenn Sie die Lizenz haben, müssen Sie einen Verwendungsspeicherort mit Ihrem Konto Gerät zuweisen – diese Einstellung bestimmt, was Lizenz-SKUs für Ihr Konto zur Verfügung stehen. Sie können`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> Um eine Liste der verfügbaren SKUs abzurufen.
+2. Das Geräte Konto muss über eine gültige Office 365-Lizenz verfügen, oder Exchange und Microsoft Teams funktionieren nicht. Wenn Sie über die Lizenz verfügen, müssen Sie Ihrem Geräte Konto einen Verwendungsstandort zuweisen, um festzustellen, welche Lizenz-SKUs für Ihr Konto verfügbar sind. Sie können`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> , um eine Liste der verfügbaren SKUs abzurufen.
 
 <!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ``` -->
 
-3. Sie können im nächsten Schritt fügen Sie eine Lizenz using der`Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> Cmdlet. In diesem Fall entspricht „$strLicense“ dem angezeigten SKU-Code (zum Beispiel „contoso:STANDARDPACK“).
+3. Als nächstes können Sie eine Lizenz hinzufügen, indem Sie die`Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> Cmdlet. In diesem Fall entspricht „$strLicense“ dem angezeigten SKU-Code (zum Beispiel „contoso:STANDARDPACK“).
 
   ``` PowerShell
   Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
@@ -127,13 +127,13 @@ Wenn Sie Microsoft-Teams Chatrooms mit Exchange lokal bereitgestellt werden, wer
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```  -->
 
-   Weitere Informationen finden Sie unter [Zuweisen von Lizenzen, um die Benutzerkonten mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
+   Ausführliche Anweisungen finden Sie unter [Zuweisen von Lizenzen zu Benutzerkonten mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
-### <a name="enable-the-device-account"></a>Aktivieren Sie das Gerät-Konto
+### <a name="enable-the-device-account"></a>Aktivieren des Geräte Kontos
 
-Skype für Business Online PowerShell wird verwendet, um die Dienste für Microsoft-Teams und Skype für Business Online zu verwalten.
+Skype for Business Online PowerShell wird verwendet, um Dienste für Microsoft Teams und Skype for Business Online zu verwalten.
 
-1. Erstellen Sie eine Windows PowerShell-Remotesitzung von einem PC wie folgt:
+1. Erstellen Sie eine Windows PowerShell-Remotesitzung wie folgt von einem PC:
 
    ``` Powershell
    Import-Module SkypeOnlineConnector  
@@ -141,37 +141,37 @@ Skype für Business Online PowerShell wird verwendet, um die Dienste für Micros
    Import-PSSession $cssess -AllowClobber
    ```
 
-2. Um Ihr Konto Microsoft Teams Räume zu aktivieren, führen Sie diesen Befehl aus:
+2. Führen Sie den folgenden Befehl aus, um Ihr Microsoft Teams rooms-Konto zu aktivieren:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
-   Wenn Sie nicht genau wissen, welcher Wert für den Parameter RegistrarPool in Ihrer Umgebung verwendet wird, können Sie den Wert aus einen vorhandenen Benutzer mit diesem Befehl abrufen:
+   Wenn Sie nicht sicher sind, welchen Wert Sie für den RegistrarPool-Parameter in Ihrer Umgebung verwenden möchten, können Sie den Wert eines vorhandenen Benutzers mit diesem Befehl abrufen:
 
    ``` Powershell
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
-### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>Weisen Sie eine Lizenz mit Ihrem Microsoft-Teams Räume-Konto
+### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>Zuweisen einer Lizenz zu Ihrem Microsoft Teams rooms-Konto
 
-1. Melden Sie sich als mandantenadministrator an, öffnen Sie die administrativen Office 365-Portal, und klicken Sie auf die Admin-app.
+1. Melden Sie sich als mandantenadministrator an, öffnen Sie das Office 365-Verwaltungs Portal, und klicken Sie auf die Administrator-app.
 2. Klicken Sie auf **Benutzer und Gruppen** und dann auf **Benutzer hinzufügen, Kennwörter zurücksetzen und mehr**.
-3. Klicken Sie auf der Microsoft-Teams Räume-Konto, und klicken Sie dann auf das Stiftsymbol, um die Kontoinformationen zu bearbeiten.
+3. Klicken Sie auf das Microsoft Teams rooms-Konto, und klicken Sie dann auf das Stiftsymbol, um die Kontoinformationen zu bearbeiten.
 4. Klicken Sie auf **Lizenzen**.
-5. Wählen Sie in **Lizenzen zuweisen** abhängig von Ihren Anforderungen für Lizenzen und für Enterprise-VoIP entweder Skype for Business (Plan 2) oder Skype for Business (Plan 3) aus. Sie müssen eine Lizenz planen 3 verwenden, falls Sie Enterprise-VoIP auf Ihrem Microsoft-Teams Chatrooms verwenden möchten.
+5. Wählen Sie in **Lizenzen zuweisen** abhängig von Ihren Anforderungen für Lizenzen und für Enterprise-VoIP entweder Skype for Business (Plan 2) oder Skype for Business (Plan 3) aus. Sie müssen eine Plan 3-Lizenz verwenden, wenn Sie Enterprise-VoIP in Ihren Microsoft Teams-Räumen verwenden möchten.
 6. Klicken Sie auf **Speichern**.
 
-Für die Validierung sollten Sie alle Clients verwenden Sie dieses Konto anzumelden sein.
+Zur Überprüfung sollten Sie in der Lage sein, sich mit einem beliebigen Client bei diesem Konto anzumelden.
   
 ## <a name="see-also"></a>Siehe auch
 
-[Konfigurieren von Konten für Microsoft-Teams Räume](room-systems-v2-configure-accounts.md)
+[Konfigurieren von Konten für Microsoft Teams-Chatrooms](room-systems-v2-configure-accounts.md)
 
-[Planen der Microsoft-Teams, Räume](skype-room-systems-v2-0.md)
+[Planen von Microsoft Teams-Räumen](skype-room-systems-v2-0.md)
   
-[Bereitstellen von Microsoft-Teams, Räume](room-systems-v2.md)
+[Bereitstellen von Microsoft Teams-Räumen](room-systems-v2.md)
   
-[Konfigurieren einer Microsoft-Teams Räume-Konsole](console.md)
+[Konfigurieren einer Microsoft Teams rooms-Konsole](console.md)
   
 [Microsoft Teams Rooms verwalten](skype-room-systems-v2.md)

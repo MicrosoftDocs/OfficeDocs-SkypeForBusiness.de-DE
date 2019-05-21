@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Australien verfügbar.
-ms.openlocfilehash: 3035cd55a3fb255b143390bdd6d368d87f23ddbe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Australien verfügbar sind.
+ms.openlocfilehash: 0ced5fd869b54366b5b3214f76b9dee1f8f5782f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245000"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283354"
 ---
 # <a name="availability-in-australia"></a>Verfügbarkeit in Australien
 
 [Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
 
-Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Australien verfügbar.
+Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Australien verfügbar sind.
 
 ## <a name="audio-conferencing"></a>Audiokonferenz
 
@@ -57,17 +57,17 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 
 ## <a name="calling-plans"></a>Anrufpläne
 > [!IMPORTANT]
-> Nur verfügbar über Telstra für Australien-basierte Mandanten. Weitere Informationen finden Sie unter [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan).
+> Nur verfügbar über Telstra für in Australien ansässige Mandanten. Weitere Informationen finden Sie unter [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan).
 
 |**Funktion**|**Details**|
 |:-----|:-----|
-|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja, finden Sie unter [Telstra für Office 365 aufrufen](https://aka.ms/TelstraVoicePlan).  <br/> |
-|Verfügbare Minuten für Anrufpläne  <br/> |Finden Sie unter [Telstra für Office 365 aufrufen](https://aka.ms/TelstraVoicePlan). <br/> |
-|Sind ausgehende Anrufe möglich?  <br/> |Finden Sie unter [Telstra für Office 365 aufrufen](https://aka.ms/TelstraVoicePlan). <br/> |
+|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja, siehe [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan).  <br/> |
+|Verfügbare Minuten für Anrufpläne  <br/> |Siehe [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
+|Sind ausgehende Anrufe möglich?  <br/> |Siehe [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
 
 > [!IMPORTANT]
-> Australische Abonnenten löschen Zahlen (bereitgestellt von Telstra) wenden Sie sich Telstra direkt an.
-> Wenden Sie Telstra direkt, um Emergency Adressinformationen für Australien Abonnenten Zahlen (Telstra) zu aktualisieren.
+> Wenn Sie australische Abonnenten Nummern (von Telstra bereitgestellt) löschen möchten, wenden Sie sich bitte direkt an Telstra.
+> Um Notfall Adressinformationen für australische Teilnehmer Nummern (von Telstra bereitgestellt) zu aktualisieren, wenden Sie sich bitte direkt an Telstra.
 > Weitere Informationen finden Sie unter [Telstra-Anrufe für Office 365](https://aka.ms/TelstraVoicePlan).
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
@@ -78,7 +78,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 
-Wenn Sie gebührenpflichtige oder gebührenfreie Telefonnummern für automatische Telefonzentralen abrufen möchten, rufen Sie Warteschlangen oder Audiokonferenzen Service Zahlen, [wenden Sie sich uns an](mailto:ptnapac@microsoft.com).
+Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für automatische Telefonzentralen, Anrufwarteschlangen oder Audiokonferenz-Servicenummern erhalten möchten, [setzen Sie sich bitte mit uns in Verbindung](mailto:ptnapac@microsoft.com).
 
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

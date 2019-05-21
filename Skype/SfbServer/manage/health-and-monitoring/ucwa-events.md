@@ -1,27 +1,27 @@
 ---
-title: UCWA-Ereignisse in Skype für Business Server
+title: UCWA-Ereignisse in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-description: 'Zusammenfassung: Informationen Sie zu den Unified Communications-Web-API (UCWA) in Skype für Business Server.'
-ms.openlocfilehash: f675c16903301412c0c78981b0c17bb9bcc7b24b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über die Unified Communications Web API (UCWA) in Skype for Business Server.'
+ms.openlocfilehash: bbded70318190fb4fa68ab524a696183c97ff07d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897989"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279697"
 ---
-# <a name="ucwa-events-in-skype-for-business-server"></a>UCWA-Ereignisse in Skype für Business Server
+# <a name="ucwa-events-in-skype-for-business-server"></a>UCWA-Ereignisse in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Unified Communications-Web-API (UCWA) in Skype für Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über die Unified Communications Web API (UCWA) in Skype for Business Server.
   
-Skype für Business Server verwendet der Unified Communications Web API (UCWA) für eine Reihe von Zwecke, den Zugriff auf Microsoft Exchange für die Kontaktsuche zur Aktualisierung von Anwesenheitsinformationen für mobile Clients.
+Skype for Business Server verwendet die Unified Communications Web-API (UCWA) für eine Reihe von Zwecken, vom Zugriff auf Microsoft Exchange für Kontakt suchen bis zur Aktualisierung der Anwesenheitsinformationen für mobile Clients.
   
 UCWA zeichnet Einträge zum Betriebsverhalten als die Ereignistypen „Information“, „Warnung“ und „Fehler“ auf. In der folgenden Tabelle sind die Ereignisse beschrieben, die von den UCWA-Komponenten geschrieben werden können.
   
@@ -33,7 +33,7 @@ UCWA zeichnet Einträge zum Betriebsverhalten als die Ereignistypen „Informati
 |20004  <br/> |Fehler  <br/> |Kein Zugriff auf Exchange zum Abrufen des HD-Fotos  <br/> |Keine Verbindung mit Exchange verfügbar  <br/> Sicherstellen, dass eine Verbindung mit Exchange verfügbar ist  <br/> |
 |20005  <br/> |Information  <br/> |Wiederherstellung nach dem Fehler beim Zugriff auf Exchange zum Abrufen des HD-Fotos ausgeführt  <br/> |Nicht zutreffend  <br/> |
 |20006  <br/> |Fehler  <br/> |Kein Zugriff auf Exchange zum Suchen von Kontakten  <br/> |Keine Verbindung mit Exchange verfügbar  <br/> Sicherstellen, dass eine Verbindung mit Exchange verfügbar ist  <br/> |
-|Kategorie "20007"  <br/> |Information  <br/> |Wiederherstellung nach dem Fehler beim Suchen von Kontakten in Exchange ausgeführt  <br/> |Nicht zutreffend  <br/> |
+|20007  <br/> |Information  <br/> |Wiederherstellung nach dem Fehler beim Suchen von Kontakten in Exchange ausgeführt  <br/> |Nicht zutreffend  <br/> |
 |20008  <br/> |Warnung  <br/> |Versuchen, mehr Anwesenheitsabonnements pro Anwendung als zulässig abzuschließen  <br/> |Versuchen, mehr Anwesenheitsabonnements pro Anwendung als zulässig abzuschließen  <br/> Clients auf unnötige Abonnements überprüfen  <br/> |
 |20009  <br/> |Warnung  <br/> |Versuchen, mehr Anwesenheitsabonnements pro Batch als zulässig abzuschließen  <br/> |Versuchen, mehr Anwesenheitsabonnements pro Batch als zulässig abzuschließen  <br/> Clients auf unnötige Abonnements überprüfen  <br/> |
 |20010  <br/> |Fehler  <br/> |In-Band-Daten können nicht abgerufen werden  <br/> |In-Band-Daten können nicht abgerufen werden  <br/> Falls das Problem weiterhin besteht, wenden Sie sich an den Produktsupport.  <br/> |

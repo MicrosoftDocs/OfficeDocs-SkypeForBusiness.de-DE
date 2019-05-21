@@ -1,41 +1,41 @@
 ---
-title: Bericht über häufigste Fehler in Skype für Business Server
+title: Bericht "Top-Fehler" in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: 'Zusammenfassung: Informationen Sie zu Skype für Business Server Bericht über häufigste Fehler.'
-ms.openlocfilehash: 71a97c9d01e079f59df2658bb137b27794fcb1d7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Informationen zum Bericht "Top-Fehler" in Skype for Business Server.'
+ms.openlocfilehash: a1b3337a65e3193324b30f5d83f6858ef996111a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915381"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279718"
 ---
-# <a name="top-failures-report-in-skype-for-business-server"></a>Bericht über häufigste Fehler in Skype für Business Server
+# <a name="top-failures-report-in-skype-for-business-server"></a>Bericht "Top-Fehler" in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu Skype für Business Server Bericht über häufigste Fehler.
+**Zusammenfassung:** Informieren Sie sich über den Bericht "Top-Fehler" in Skype for Business Server.
   
 Der Bericht über häufigste Fehler bietet einen Überblick über die am häufigsten gemeldeten Fehler mit Trenddarstellung. Die Fehler basieren auf einer Kombination der folgenden zwei Metriken:
   
 - **Diagnose-ID**. Eindeutige ID (in der Form eines Headers vom Typ „ms-diagnostics“), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt.
     
-- **Antwortcode**. Antwortcodes werden in SIP-kommunikationssitzungen verwendet, um auf SIP-Anforderungen zu reagieren. Angenommen Sie, dass Ken INVITE-Anforderung an den Pilar Ackerman sendet (d. h., angenommen, Ken Myer "Pilar Ackerman" aufruft). Wenn Pilar annimmt, wird ihr Telefon Navigate wissen, dass Pilar beantwortet hat Ken Telefon Antwortcode 200 (OK), senden. Der Bericht über häufigste Fehler enthält nur Antwortcodes, die als Reaktion auf einen Aufruf des gesendet wurden. Skype für Business Server werden nicht alle im Verlauf eines Aufrufs ausgestellt Antwortcodes mitverfolgen.
+- **Antwortcode**. Antwortcodes werden in SIP-Kommunikationssitzungen verwendet, um auf SIP-Anforderungen zu reagieren. Angenommen, Ken sendet die INVITE-Anforderung an Pilar Ackerman (das heißt, Ken Myers ruft Pilar Ackerman an). Wenn Pilar antwortet, sendet Ihr Telefon den Antwortcode 200 (OK) und lässt Ken Telefon wissen, dass Pilar geantwortet hat. Der Bericht "Top-Fehler" enthält nur Antwortcodes, die als Antwort auf einen Anruf Fehler gesendet wurden. Skype for Business Server verfolgt nicht alle im Laufe eines Anrufs ausgestellten Antwortcodes.
     
 Informationen werden nicht nur für die Gesamtzahl an Sitzungen, in denen ein Fehler aufgetreten ist, gemeldet, sondern auch für die Gesamtzahl der Benutzer, die von den Fehlern betroffen waren.
   
 ## <a name="accessing-the-top-failures-report"></a>Zugriff auf den Bericht über häufigste Fehler
 
-Der Zugriff auf den Bericht über häufigste Fehler erfolgt von der Startseite für Überwachungsberichte aus. Durch Klicken auf die Metrik "gemeldet Sitzungen" gelangen Sie zu dem [Bericht über Fehlerverteilung in Skype für Business Server](failure-distribution-report.md).
+Der Zugriff auf den Bericht über häufigste Fehler erfolgt von der Startseite für Überwachungsberichte aus. Wenn Sie auf die Metrik der gemeldeten Sitzungen klicken, gelangen Sie zum [Fehler Verteilungs Bericht in Skype for Business Server](failure-distribution-report.md).
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>Beste Nutzung des Berichts häufigster Fehler
 
-Der Bericht über häufigste Fehler ist in einer Hinsicht ungewöhnlich: sie können bis zu 5 Diagnose-IDs gleichzeitig filtern. (In der Regel können Sie nur ein einzelnes Element - wie SIP-Adresse für einen Benutzer - jeweils filtern.) Um mehrere Diagnose-IDs zu filtern, geben Sie einfach jede-ID im Feld Diagnose-IDs, die IDs durch Kommas voneinander getrennt ein. (Wenn Sie möchten, können Sie ein Leerzeichen nach jedem Komma beibehalten.) Zum Beispiel:
+Der Bericht "Top-Fehler" ist in einem Zusammenhang ungewöhnlich: es ermöglicht Ihnen, auf bis zu 5 Diagnose-IDs gleichzeitig zu filtern. (In der Regel können Sie nur ein Element filtern, wie etwa eine SIP-Adresse des Benutzers.) Wenn Sie nach mehreren Diagnose-IDs filtern möchten, geben Sie einfach jede ID in das Feld Diagnose-IDs ein, und trennen Sie die IDs durch Kommas. (Wenn Sie möchten, können Sie nach jedem Komma ein Leerzeichen leer lassen.) Zum Beispiel:
   
 1011, 2412, 1033, 52116, 1008
   

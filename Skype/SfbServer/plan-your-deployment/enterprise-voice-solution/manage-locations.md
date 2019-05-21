@@ -1,10 +1,10 @@
 ---
-title: Verwalten von Speicherorten für SIP-Trunk-Dienstanbieter in Skype für Business Server
+title: Verwalten von Speicherorten für SIP Trunk-Dienstanbieter in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,30 +13,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
-description: Entscheidungen zur Planung einer der Standortdatenbank Informationen oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mit Anbietern von SIP-Trunking in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: b92d0d13797e50cf4b538b6bd96e304658a7585e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Entscheidungen, die für die Planung einer Standort Informationsdatenbank oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mit SIP-Trunking-Anbietern in Skype for Business Server Enterprise-VoIP erforderlich sind.
+ms.openlocfilehash: aafe35f4978ac18897d11aa55f229df501d555ed
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924171"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276726"
 ---
-# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Verwalten von Speicherorten für SIP-Trunk-Dienstanbieter in Skype für Business Server
+# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Verwalten von Speicherorten für SIP Trunk-Dienstanbieter in Skype for Business Server
 
-Entscheidungen zur Planung einer der Standortdatenbank Informationen oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mit Anbietern von SIP-Trunking in Skype für Business Server Enterprise-VoIP.
+Entscheidungen, die für die Planung einer Standort Informationsdatenbank oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mit SIP-Trunking-Anbietern in Skype for Business Server Enterprise-VoIP erforderlich sind.
 
-Zum Konfigurieren von Skype für Business Server, Clients in einem Netzwerk automatisch gesucht werden soll, müssen Sie entweder die Standortinformationen Dienstdatenbank mithilfe einer netzwerkwiremap Auffüllen und veröffentlichen Sie die Standorte oder link zu einer externen Datenbank, die bereits enthält die richtigen Zuordnungen. Im Rahmen dieses Vorgangs müssen Sie die Adressen der Standorte mit Ihrem E9-1-1-Dienstanbieter abgleichen. Ausführliche Informationen finden Sie unter [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) in der Bereitstellungsdokumentation.
+Um Skype for Business Server so zu konfigurieren, dass Clients in einem Netzwerk automatisch gefunden werden, müssen Sie entweder die Datenbank für den standortinformationsdienst mit einem Netzwerk-Wiremap auffüllen und die Speicherorte veröffentlichen oder eine Verknüpfung mit einer externen Datenbank erstellen, die bereits vorhanden ist. die richtigen Zuordnungen. Im Rahmen dieses Vorgangs müssen Sie die Adressen der Standorte mit Ihrem E9-1-1-Dienstanbieter abgleichen. Ausführliche Informationen finden Sie unter [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) in der Bereitstellungsdokumentation.
 
-Die Datenbank des Standortinformationsdiensts füllen Sie mit einem Emergency Response Location (ERL) auf, der aus der allgemeinen Adresse und der spezifischen Adresse innerhalb eines Gebäudes besteht. Standortinformationen Service Felds **Standort** , der die Position in einem Gebäude ist, hat die maximal 20 Zeichen (einschließlich Leerzeichen). In diesem Feld mit begrenzter Länge sollten Sie Folgendes angeben:
+Die Datenbank des Standortinformationsdiensts füllen Sie mit einem Emergency Response Location (ERL) auf, der aus der allgemeinen Adresse und der spezifischen Adresse innerhalb eines Gebäudes besteht. Das Feld standortinformationsdienst **Standort** , das die spezifische Position in einem Gebäude ist, hat eine maximale Länge von 20 Zeichen (einschließlich Leerzeichen). In diesem Feld mit begrenzter Länge sollten Sie Folgendes angeben:
 
 - Einen leicht verständlichen Namen für den Standort des Notfallanrufers, um sicherzustellen, dass Notrufempfänger den Standort unverzüglich auffinden, wenn sie an der durchgegebenen Adresse eintreffen. Dieser Standortname kann die Hausnummer, das Stockwerk, den Gebäudetrakt, die Zimmernummer usw. beinhalten. Vermeiden Sie Spitznamen, die nur Mitarbeiter kennen und die dazu führen könnten, dass sich Notrufempfänger zur falschen Adresse begeben.
 
-- Ein Location-Bezeichner, der Benutzer auf einfache Weise angezeigt, die ihre Skype für Business Client den richtigen Speicherort aufgenommene helfen. Die Skype für Business-Client automatisch verkettet und die erkannten **Speicherort** und den **Ort** Felder in der Kopfzeile angezeigt. Eine gute Vorgehensweise ist die Straße, der das Erstellen von jedem Standort-ID hinzufügen (z. B. "1. Floor <street number>"). Ohne die Straße konnte Gebäuden in der Stadt ein Speicherortbezeichner generischen wie "1. Floor" zuweisen.
+- Eine Standortkennung, die Benutzern hilft, einfach zu erkennen, dass Ihr Skype for Business-Client den richtigen Standort übernommen hat. Der Skype for Business-Client verkettet und zeigt die Felder " **Ort** " **** und "Ort" in der Kopfzeile automatisch an. Es empfiehlt sich, jeder Standortkennung die Straßenadresse des Gebäudes hinzuzufügen (beispielsweise "1st Floor <street number>"). Ohne die Straßenadresse kann eine generische Standortkennung wie "1. Etage" für alle Gebäude in der Stadt gelten.
 
-- Wenn die ungefähre erfolgt, da es von einem drahtlosen Zugriffspunkt bestimmt wird, können Sie das Wort **[in Ihrer Nähe]** (beispielsweise "in der Nähe 1. Floor 1234") hinzufügen.
+- Wenn der Standort Näherungswert ist, da er von einem Drahtloszugriffspunkt bestimmt wird, können Sie das Wort **[Near]** hinzufügen (beispielsweise "Near First Floor 1234").
 
 > [!NOTE]
-> Speicherorte der zentralen Datenbank hinzugefügt sind nicht an den Client verfügbar, bis sie über einen Skype für Business Server Management Shell-Befehl veröffentlicht und in den Pool Geschäften repliziert werden werden. Ausführliche Informationen finden Sie unter [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) in der Bereitstellungsdokumentation.
+> Speicherorte, die der zentralen Standortdatenbank hinzugefügt wurden, stehen dem Client erst zur Verfügung, wenn Sie über einen Skype for Business Server-Verwaltungsshell-Befehl veröffentlicht werden und in den lokalen Stores des Pools repliziert werden. Ausführliche Informationen finden Sie unter [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) in der Bereitstellungsdokumentation.
 
 In den folgenden Abschnitten erfahren Sie, was Sie beim Auffüllen und Verwalten der Standortdatenbank bedenken müssen.
 
@@ -50,9 +50,9 @@ Wo befinden sich die Daten und welche Schritte müssen Sie ausführen, um die Da
 
  **Verfügen Sie über eine Drittanbieterdatenbank, die bereits Standortzuordnungen enthält?**
 
-Sie können mithilfe der sekundären Standortinformationen Service-Option zum Herstellen einer Drittanbieter-Datenbank gruppieren und Verwalten von Speicherorten mithilfe einer offline-Plattform. Der Vorteil dieses Ansatzes ist, dass Sie Standorte nicht nur Netzwerk-IDs, sondern auch einem Benutzer zuordnen können. Dies bedeutet, dass der Dienst Standortinformationen mehrere Adressen, den sekundären standortinformationsdienst stammt, um einen Skype für Business Client zurückgegeben werden kann. Der Benutzer kann dann den am besten geeigneten Standort wählen.
+Mithilfe der Option sekundärer standortinformationsdienst zum Herstellen einer Verbindung mit einer Drittanbieter-Datenbank können Sie Speicherorte mithilfe einer Offline Plattform gruppieren und verwalten. Der Vorteil dieses Ansatzes ist, dass Sie Standorte nicht nur Netzwerk-IDs, sondern auch einem Benutzer zuordnen können. Das bedeutet, dass der standortinformationsdienst mehrere Adressen, die vom sekundären standortinformationsdienst stammen, an einen Skype for Business-Client zurückgeben kann. Der Benutzer kann dann den am besten geeigneten Standort wählen.
 
-Um mit dem Dienst Standortinformationen zu integrieren, muss die Drittanbieter-Datenbank führen Sie die Lync Server Speicherort Anforderung und Antwort-Schema. Weitere Informationen hierzu finden Sie unter ["[MS-E911WS]: Webdienst für E911 Unterstützung Protokollspezifikation"](https://go.microsoft.com/fwlink/p/?linkid=213819). Weitere Informationen zur Bereitstellung einer sekundären standortinformationsdienst finden Sie unter [Konfigurieren einer sekundären standortinformationsdienst in Skype für Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) in der Bereitstellungsdokumentation.
+Zur Integration in den standortinformationsdienst muss die Drittanbieterdatenbank dem Anforderungs-/Antwortschema des lync Server-Standorts folgen. Ausführliche Informationen finden Sie unter ["[MS-E911WS]: Webdienst für E911-Support Protokoll Spezifikation"](https://go.microsoft.com/fwlink/p/?linkid=213819). Details zum Bereitstellen eines sekundären Standort Informationsdiensts finden Sie unter [Konfigurieren eines sekundären Standort Informationsdiensts in Skype for Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) in der Bereitstellungsdokumentation.
 
 Ausführliche Informationen zum Auffüllen der Standortdatenbank finden Sie unter [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) in der Bereitstellungsdokumentation.
 
@@ -66,6 +66,6 @@ Eine Aktualisierung der Standortdatenbank kann in verschiedenen Situationen notw
 
  **Verwenden Sie eine SNMP-Anwendung zum Abgleich von Lync-Client-MAC-Adressen mit den Port- und Switchbezeichnern?**
 
-Wenn Sie eine SNMP-Anwendung verwenden, müssen Sie ein manuelles Verfahren ausarbeiten, um die Konsistenz der Switch- und Portinformationen zwischen der SNMP-Anwendung und der Standortdatenbank sicherzustellen. Wenn die SNMP-Anwendung einen Chassis-IP-Adresse oder Port-ID, die nicht in der Datenbank enthalten ist zurückgibt, werden der standortinformationsdienst nicht können einen Speicherort, an den Client zurückgegeben.
+Wenn Sie eine SNMP-Anwendung verwenden, müssen Sie ein manuelles Verfahren ausarbeiten, um die Konsistenz der Switch- und Portinformationen zwischen der SNMP-Anwendung und der Standortdatenbank sicherzustellen. Wenn die SNMP-Anwendung eine Chassis-IP-Adresse oder Port-ID zurückgibt, die nicht in der Datenbank enthalten ist, kann der standortinformationsdienst keinen Standort an den Client zurückgeben.
 
 

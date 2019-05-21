@@ -1,25 +1,25 @@
 ---
-title: Angeben der Beibehaltungsdauer für KDS-Daten in Skype für Business Server
+title: Angeben der Beibehaltung von CDR-Daten in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
-description: 'Zusammenfassung: Erfahren Sie, wie die Aufzeichnung von kommunikationsdatensätzen (KDS) für Skype für Business Server verwalten.'
-ms.openlocfilehash: 70fa015978b9b72d020fb52cf62ef749fabb4702
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Daten zur Anrufdetailaufzeichnung für Skype for Business Server verwalten.'
+ms.openlocfilehash: a775098a4c41bccca42fe1d95c5f1dbf0d22f2bd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898052"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279732"
 ---
-# <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Angeben der Beibehaltungsdauer für KDS-Daten in Skype für Business Server
+# <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Angeben der Beibehaltung von CDR-Daten in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie die Aufzeichnung von kommunikationsdatensätzen (KDS) für Skype für Business Server verwalten.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie Daten zur Anrufdetailaufzeichnung für Skype for Business Server verwalten.
   
 In der Standardeinstellung werden Daten zur Aufzeichnung von Kommunikationsdatensätzen (KDS) nach 60 Tagen gelöscht. Sie können die Einstellungen auf der Seite **Aufzeichnung von Kommunikationsdatensätzen** verwenden, um die Daten für einen längeren oder kürzeren Zeitraum zu speichern. Wenn Sie KDS deaktivieren, werden auch Daten gelöscht, die bei aktivierter KDS-Datenerfassung aufgezeichnet wurden.
   
@@ -30,9 +30,9 @@ Verwenden Sie die folgenden Verfahren, um Bereinigungseinstellungen für KDS-Dat
   
 ### <a name="to-specify-retention-of-cdr-data"></a>So geben Sie die Beibehaltungsdauer für KDS-Daten an
 
-1. Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist .
+1. Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder über entsprechende Benutzerrechte verfügt) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, bei jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben. .
     
-2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.  
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen.  
     
 3. Klicken Sie in der linken Navigationsleiste auf **Überwachung und Archivierung** und dann auf **Aufzeichnung von Kommunikationsdatensätzen**.
     
@@ -46,9 +46,9 @@ Verwenden Sie die folgenden Verfahren, um Bereinigungseinstellungen für KDS-Dat
     
 8. Klicken Sie auf **Commit**.
     
-## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>Angeben der Beibehaltungsdauer für KDS mithilfe von Windows PowerShell-cmdlets
+## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>Angeben der CDR-Aufbewahrung mithilfe von Windows PowerShell-Cmdlets
 
-Sie können KDS beibehaltungseinstellungen mithilfe von Windows PowerShell und das Set-CsCdrConfiguration-Cmdlet erstellen. Sie können dieses Cmdlet entweder von der Skype für Business Server-Verwaltungsshell oder aus einer Remotesitzung von Windows PowerShell ausführen. Weitere Informationen zur Verwendung von remote Windows PowerShell zum Skype für Business Server herstellen finden Sie im Blog-Artikel ["Quick Start: Verwalten von Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). Der Vorgang ist in Skype für Business Server identisch.
+Sie können CdR-Aufbewahrungseinstellungen mithilfe von Windows PowerShell und dem Cmdlet "Satz-CsCdrConfiguration" erstellen. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen. Details zur Verwendung der Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blog-Artikel ["schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). Der Vorgang ist in Skype for Business Server identisch.
   
 ### <a name="to-specify-cdr-retention-for-a-specific-location"></a>So geben Sie die Beibehaltungsdauer für KDS-Daten für einen bestimmten Standort an
 
@@ -66,8 +66,8 @@ Sie können KDS beibehaltungseinstellungen mithilfe von Windows PowerShell und d
   Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
   ```
 
-Weitere Informationen finden Sie im Hilfethema zum [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) -Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet " [Satz-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) ".
   
 ## <a name="see-also"></a>Siehe auch
 
-[Aufzeichnung von kommunikationsdatensätzen (KDS) in Skype für Business Server](call-detail-recording-cdr.md)
+[Anrufdetailaufzeichnung (CDR) in Skype for Business Server](call-detail-recording-cdr.md)

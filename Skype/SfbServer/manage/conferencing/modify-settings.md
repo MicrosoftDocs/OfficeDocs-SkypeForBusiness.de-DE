@@ -1,33 +1,33 @@
 ---
-title: Ändern von besprechungskonfigurationseinstellungen in Skype für Business Server
+title: Ändern der Einstellungen für die besprechungskonfiguration in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
-description: 'Zusammenfassung: Informationen zum Ändern von besprechungskonfigurationseinstellungen in Skype für Business Server.'
-ms.openlocfilehash: 0562758b16418ab79349a27d8eadb509a9f5f6ca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Einstellungen für die besprechungskonfiguration in Skype for Business Server ändern.'
+ms.openlocfilehash: 6e2566a5bc48e081c1912753586aef2213e1c727
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884996"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280397"
 ---
-# <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Ändern von besprechungskonfigurationseinstellungen in Skype für Business Server
+# <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Ändern der Einstellungen für die besprechungskonfiguration in Skype for Business Server
  
-**Zusammenfassung:** Informationen zum Ändern von besprechungskonfigurationseinstellungen in Skype für Business Server.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie die Konfigurationseinstellungen für Besprechungen in Skype for Business Server ändern.
   
-Sie können ändern besprechungskonfigurationseinstellungen mithilfe von Skype Business Server-Systemsteuerung oder mithilfe von Skype für Business Server-Verwaltungsshell.
+Sie können die Einstellungen für die besprechungskonfiguration über die Skype for Business Server-Systemsteuerung oder über die Skype for Business Server-Verwaltungsshell ändern.
   
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Ändern von besprechungskonfigurationseinstellungen mithilfe von Skype Business Server-Systemsteuerung
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Ändern der Einstellungen für die besprechungskonfiguration mithilfe der Skype for Business Server-Systemsteuerung
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2.  Öffnen von Skype Business Server-Systemsteuerung.
+2.  Öffnen Sie die Skype for Business Server-Systemsteuerung.
     
 3. Klicken Sie in der linken Navigationsleiste auf **Konferenzen** und anschließend auf **Besprechungskonfiguration**.
     
@@ -37,7 +37,7 @@ Sie können ändern besprechungskonfigurationseinstellungen mithilfe von Skype B
     
 6. Klicken Sie auf **Commit ausführen**.
     
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Ändern von besprechungskonfigurationseinstellungen mithilfe von Skype für Business Server-Verwaltungsshell
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Ändern der Einstellungen für die besprechungskonfiguration mithilfe der Skype for Business Server-Verwaltungsshell
 
 Verwenden Sie Das Cmdlet **Set-CsMeetingConfiguration**, um die Besprechungskonfigurationseinstellungen anzupassen.
   
@@ -47,6 +47,6 @@ Verwenden Sie Das Cmdlet **Set-CsMeetingConfiguration**, um die Besprechungskonf
 Set-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-Weitere Informationen sowie eine vollständige Liste der Parameter finden Sie unter [Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps).
+Weitere Informationen, einschließlich einer vollständigen Liste der Parameter, finden Sie unter [Satz-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps).
   
 

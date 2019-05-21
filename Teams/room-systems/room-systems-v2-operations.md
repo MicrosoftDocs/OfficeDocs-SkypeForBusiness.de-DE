@@ -1,57 +1,57 @@
 ---
-title: Microsoft-Teams Chatrooms Wartung und Betrieb
+title: Wartung und Betrieb von Microsoft Teams-Räumen
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/10/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 ms.collection: M365-voice
 localization_priority: Normal
-description: Lesen Sie in diesem Thema, um Informationen zur Verwaltung von der Microsoft-Teams Chatrooms, die nächste Generation von Skype Raum Systemen zu erfahren.
-ms.openlocfilehash: 384920dc64d16dd9a50d7eee6e8546ad9920044e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Lesen Sie dieses Thema, um mehr über die Verwaltung von Microsoft Teams rooms, der nächsten Generation von Skype Room-Systemen, zu erfahren.
+ms.openlocfilehash: b32ac786c7c039bd1eaab060e12b7141a8d8cf72
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916328"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288563"
 ---
-# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft-Teams Chatrooms Wartung und Betrieb 
+# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Wartung und Betrieb von Microsoft Teams-Räumen 
  
-Lesen Sie in diesem Thema, um Informationen zur Verwaltung von der Microsoft-Teams Chatrooms, die nächste Generation von Skype Raum Systemen zu erfahren.
+Lesen Sie dieses Thema, um mehr über die Verwaltung von Microsoft Teams rooms, der nächsten Generation von Skype Room-Systemen, zu erfahren.
   
-Microsoft-Teams Chatrooms ist Microsofts neueste konferenzlösung entwickelt, um Ihre Besprechungsraum in ein rich-collaborative Erlebnis umgewandelt. Benutzer werden die vertraute Microsoft-Teams, genießen oder Skype für Business-Schnittstelle und IT-Administratoren wird eine auf einfache Weise bereitgestellte und verwaltete Windows 10 Skype Besprechung app zu schätzen wissen. Microsoft-Teams Chatrooms ist darauf ausgelegt, vorhandene Ausrüstung, wie LCD-Bereiche zur Erleichterung der Installation auf die Microsoft-Teams oder Skype für Unternehmen in Ihrem Besprechungsraum bringen verwenden können.
+Microsoft Teams Rooms ist die neueste Konferenzlösung von Microsoft, die ihren Besprechungsraum in eine umfassende, kollaborative Umgebung verwandeln soll. Die Benutzer können Ihre vertrauten Microsoft Teams oder Skype for Business-Benutzeroberfläche nutzen, und IT-Administratoren schätzen eine einfach bereitgestellte und verwaltete Windows 10 Skype-Besprechungs-app. Microsoft Teams rooms wurde entwickelt, um vorhandene Geräte wie LCD-Panels zur Vereinfachung der Installation zu nutzen, um Microsoft Teams oder Skype for Business in ihren Besprechungsraum zu bringen.
   
-Zusätzliche Konfiguration ist Remoteverwaltung möglich mit Microsoft Azure Monitor gemäß [Planen Microsoft Teams Chatrooms Management mit Azure Monitor](azure-monitor-plan.md), [Microsoft-Teams-Chatrooms bereitstellen Management mit Azure Monitor](azure-monitor-deploy.md), [Verwalten Microsoft-Teams Chatrooms Geräte mit Azure Monitor](azure-monitor-deploy.md). Sie können auch [verwalten Microsoft Teams Chatrooms Konsole Einstellungen Remote mit einer XML-Konfigurationsdatei](xml-config-file.md), einschließlich eines Designs benutzerdefinierte anzeigen. 
+Mit zusätzlicher Konfiguration ist die Remoteverwaltung mithilfe von Microsoft Azure Monitor möglich, wie in [Plan Microsoft Teams rooms Management with Azure Monitor](azure-monitor-plan.md)beschrieben, [Bereitstellen von Microsoft Teams rooms Management mit Azure Monitor](azure-monitor-deploy.md), [Manage Microsoft Teams rooms-Geräte mit Azure Monitor](azure-monitor-deploy.md). Sie können die [Konsoleneinstellungen für Microsoft Teams rooms auch Remote mit einer XML-Konfigurationsdatei verwalten](xml-config-file.md), die das Anwenden eines benutzerdefinierten Anzeige Designs umfasst. 
   
-## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Erfassen von Protokollen auf Microsoft Teams Räume
+## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Sammeln von Protokollen in Microsoft Teams-Räumen
 <a name="Logs"> </a>
 
-Um die Protokolle gespeichert werden, müssen Sie das Protokoll Auflistung Skript aufrufen, das mit der Microsoft-Teams Chatrooms app verwendet werden soll. Starten Sie im Administratormodus eine Eingabeaufforderung mit erhöhten Rechten, und geben Sie den folgenden Befehl:
+Zum Sammeln von Protokollen müssen Sie das Protokoll Sammlungs Skript aufrufen, das mit der Microsoft Teams rooms-App ausgeliefert wird. Starten Sie im Administratormodus eine Eingabeaufforderung mit erhöhten Rechten, und geben Sie den folgenden Befehl ein:
   
 ```
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
 ```
 
-Die Protokolle werden als ZIP-Datei in c:\rigel ausgegeben werden.
+Die Protokolle werden in c:\rigel. als ZIP-Datei ausgegeben
   
 ## <a name="front-of-room-display-settings"></a>Anzeigeeinstellungen vorne im Raum
 <a name="Display"> </a>
 
-Konfigurieren Sie den Bildschirm vorne im Raum für den Modus „Erweitert“. Dadurch wird die Konsole sicherstellen, dass, die Benutzeroberfläche auf, die anzeigen nicht dupliziert werden, wenn Sie die Anzeige schalten.
+Konfigurieren Sie den Bildschirm vorne im Raum für den Modus „Erweitert“. Auf diese Weise wird sichergestellt, dass die Konsolen-Benutzeroberfläche nicht auf dieser Anzeige dupliziert wird, wenn Sie die Anzeige auf dem Bildschirm ausschalten.
   
 > [!NOTE]
 > Ein Consumer-TV, der als eine Anzeige vorne im Raum verwendet wird, muss das Feature „Consumer Electronics Control (CEC)“ von HDMI unterstützen/aktivieren, sodass ein automatischer Wechsel zu einer aktiven Videoquelle aus dem Standbymodus möglich ist. Dieses Feature wird nicht auf allen TVs unterstützt. 
   
-## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft-Teams, Räume zurücksetzen (Factory wiederherstellen)
+## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams rooms Reset (Factory Restore)
 <a name="Reset"> </a>
 
-Wenn Microsoft Teams Chatrooms auch nicht ausgeführt wird, möglicherweise ausführen Herstellerstandard zurücksetzen helfen. Dies ist möglich, in der app Einstellungen auf der Registerkarte **Wiederherstellen** unter **diesem PC zurücksetzen**, wählen Sie **Erste Schritte**, und klicken Sie dann **Alles entfernen**. Führen Sie die verbleibenden aufforderungen, um das Gerät zurückzusetzen.
+Wenn die Microsoft Teams-Räume nicht gut ausgeführt werden, kann es hilfreich sein, einen Factory-Reset durchzuführen. Dies kann in der Einstellungs-APP auf der Registerkarte " **Wiederherstellung** " erfolgen. Klicken Sie unter " **diesen PC zurücksetzen**" auf " **Erste Schritte**" und dann auf " **Alle entfernen**". Folgen Sie den restlichen Eingabeaufforderungen, um das Gerät zurückzusetzen.
   
 > [!NOTE]
-> Es ist ein bekanntes Problem, in dem die Microsoft-Teams Räume werden kann nicht mehr verwendet werden, wenn die Option **Meine Dateien - Apps entfernt und Einstellungen, beibehalten werden sollen, jedoch bleibt Ihre persönlichen Dateien** während des Aktivierungsvorgangs zurücksetzen ausgewählt ist. Führen Sie _nicht_ verwenden Sie diese Option.
+> Es gibt ein bekanntes Problem, bei dem die Microsoft Teams-Räume unbrauchbar werden können, wenn die Option **meine Dateien beibehalten-apps und Einstellungen entfernt, aber Ihre persönlichen Dateien beibehalten** aktiviert ist, während des Windows-Reset-Vorgangs. Verwenden Sie diese Option _nicht_ .
   
 ## <a name="supported-remote-options"></a>Unterstützte Remoteoptionen
 <a name="RemoteOptions"> </a>
@@ -61,30 +61,30 @@ In der folgenden Tabelle sind die möglichen Remotevorgänge und die Methoden zu
 
 |**Arbeitsgruppe **|**Nicht Mitglied einer Domäne**|**Mitglied einer Domäne**|
 |:-----|:-----|:-----|
-|Neustart  <br/> |Remotedesktop  <br/> Remote-Powershell  <br/> |Remotedesktop (Weitere Konfiguration erforderlich)  <br/> Remote-Powershell (Weitere Konfiguration erforderlich)  <br/> SCCM  <br/> |
+|Neustart  <br/> |Remotedesktop  <br/> Remote-Powershell  <br/> |Remote Desktop (erfordert weitere Konfiguration)  <br/> Remote-PowerShell (weitere Konfiguration erforderlich)  <br/> SCCM  <br/> |
 |Betriebssystemupdate  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |App-Update  <br/> |Windows Store  <br/> |Windows Store  <br/> SCCM  <br/> |
 |Skype-Kontokonfiguration  <br/> |Zurzeit nicht unterstützt  <br/> |Zurzeit nicht unterstützt  <br/> |
 |Zugriff auf Protokolle  <br/> |Zurzeit nicht unterstützt  <br/> |Zurzeit nicht unterstützt  <br/> |
    
-## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>Konfigurieren von Gruppenrichtlinien für Microsoft-Teams, Räume
+## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>Konfigurieren von Gruppenrichtlinien für Microsoft Teams-Chatrooms
 <a name="GroupPolicy"> </a>
 
-In diesem Abschnitt werden die Systemeinstellungen, von denen Microsoft Teams Chatrooms abhängt, ordnungsgemäß behandelt. Wenn Microsoft Teams Chatrooms mit einer Domäne verknüpft wird, stellen Sie sicher, dass Ihre Gruppenrichtlinien die Einstellungen in der folgenden Tabelle außer Kraft setzen nicht.
+Dieser Abschnitt behandelt die Systemeinstellungen, von denen Microsoft Teams-Räume abhängig sind, um ordnungsgemäß zu funktionieren. Wenn Sie Microsoft Teams-Räumen eine Domäne hinzugefügt haben, stellen Sie sicher, dass Ihre Gruppenrichtlinie die Einstellungen in der folgenden Tabelle nicht außer Kraft setzt.
   
 
 |**Einstellung**|**Ermöglicht**|
 |:-----|:-----|
-|HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon automatische Anmeldung = (REG_SZ) 1  <br/> |Microsoft-Teams Chatrooms starten aktiviert  <br/> |
-|Strom-Management -\> AC, deaktivieren Sie auf Bildschirm nach 10 Minuten  <br/> Strom-Management -\> auf AC, setzen Sie nie System in den Energiesparmodus  <br/> |Microsoft-Teams Chatrooms angefügte zeigt deaktivieren und Reaktivieren von automatisch aktiviert  <br/> |
+|HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Ermöglicht das Starten von Microsoft Teams-Räumen  <br/> |
+|Power Management-\> auf AC, schalten Sie den Bildschirm nach 10 Minuten aus.  <br/> Power Management-\> auf AC, niemals System in den Standbymodus versetzen  <br/> |Ermöglicht Microsoft Teams-Räumen, die angefügten anzeigen zu deaktivieren und automatisch zu aktivieren  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Oder entsprechende Möglichkeit zum Deaktivieren des Kennwortablaufs für das lokale Konto. Wird dies nicht ausgeführt, kann bei der Anmeldung des Skype-Kontos aufgrund eines abgelaufenen Kennworts ein Fehler auftreten. Beachten Sie, dass sich dies auf alle lokalen Konten auf dem Computer auswirkt, sodass bei Nichtfestlegung dieser Einstellung auch das Administratorkonto ablaufen kann.  <br/> |Ermöglicht die ständige Anmeldung des Skype-Kontos  <br/> |
    
-Übertragen von Dateien mithilfe von Gruppenrichtlinien wird unter [Konfigurieren einer Dateielement](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)erläutert.
+Das Übertragen von Dateien mithilfe von Gruppenrichtlinien wird unter [Konfigurieren eines Dateielements](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)erläutert.
   
 ## <a name="remote-management-using-powershell"></a>Remoteverwaltung mit PowerShell
 <a name="RemotePS"> </a>
 
-Sie können die folgenden Verwaltungsvorgänge Remote mithilfe von PowerShell ausführen (siehe Tabelle unten für Skriptbeispiele):
+Sie können die folgenden Verwaltungsvorgänge Remote mithilfe von PowerShell ausführen (in der folgenden Tabelle finden Sie Skriptbeispiele):
   
 - Abrufen von angeschlossenen Geräten
     
@@ -96,32 +96,32 @@ Sie können die folgenden Verwaltungsvorgänge Remote mithilfe von PowerShell au
     
 - Abrufen von Protokollen
     
-- Übertragen von Dateien (einer Domäne gehörenden Microsoft Teams Chatrooms erforderlich)
+- Übertragen von Dateien (erfordert einen Domänenbeitritt zu Microsoft Teams-Räumen)
     
 > [!NOTE]
-> Diese Funktion ist standardmäßig deaktiviert. Sie müssen zum Ausführen der folgenden Vorgänge remote-PowerShell für Ihre Umgebung auf dem System Microsoft Teams Räume zu aktivieren. Finden Sie in der Dokumentation auf **[Enable-psremoting sieht](https://technet.microsoft.com/library/hh849694.aspx)** für Informationen zur Verwendung von remote-PowerShell aktivieren.
+> Diese Funktion ist standardmäßig deaktiviert. Sie müssen die Remote-PowerShell für Ihre Umgebung im Microsoft Teams rooms-System aktivieren, um die folgenden Vorgänge auszuführen. Informationen zum Aktivieren von Remote-PowerShell finden Sie in der Dokumentation zu **[enable-PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** .
   
 Sie können Remote-PowerShell beispielsweise wie folgt aktivieren:
   
-1. Melden Sie sich als Administrator auf einem Gerät mit Microsoft-Teams Chatrooms.
+1. Anmelden als Administrator auf einem Microsoft Teams rooms-Gerät.
     
-2. Öffnen Sie eine PowerShell-Eingabeaufforderung mit erhöhten Rechten.
+2. Öffnen Sie eine erweiterte PowerShell-Eingabeaufforderung.
     
 3. Geben Sie den folgenden Befehl ein: Enable-PSRemoting -force
     
 So führen Sie einen Verwaltungsvorgang durch:
   
-1. Melden Sie sich an einem Computer mit den Anmeldeinformationen des Kontos, die Berechtigung zum Ausführen von PowerShell-Befehlen auf einem Gerät mit Microsoft-Teams Chatrooms.
+1. Melden Sie sich bei einem PC mit Kontoanmeldeinformationen an, die über die Berechtigung zum Ausführen von PowerShell-Befehlen auf einem Microsoft Teams rooms-Gerät verfügen.
     
 2. Öffnen Sie eine reguläre PowerShell-Eingabeaufforderung auf dem PC.
     
 3. Kopieren Sie den Befehlstext aus der folgenden Tabelle, und fügen Sie ihn an der Eingabeaufforderung ein.
     
-4. Ersetzen Sie `<Device fqdn>` Felder mit den Werten des FQDN für Ihre Umgebung geeignet.
+4. Ersetzen `<Device fqdn>` Sie Felder durch FQDN-Werte, die für Ihre Umgebung geeignet sind.
     
-5. Ersetzen Sie * \<Pfad\> * mit den Dateinamen und den lokalen Pfad der master SkypeSettings.xml-Konfigurationsdatei (oder Bild Design).
+5. Ersetzen * \<Sie\> Path* durch den Dateinamen und den lokalen Pfad der Master-SkypeSettings. XML-Konfigurationsdatei (oder des Design Bilds).
     
-Abzurufenden angeschlossene Geräte
+So erhalten Sie angefügte Geräte
   
 ```
 invoke-command {Write-Host "VIDEO DEVICES:" 
@@ -159,7 +159,7 @@ $session = new-pssession -ComputerName $targetDevice
 Copy-Item -Path $logFile.FullName -Destination .\ -FromSession $session; invoke-command {remove-item -force C:\Rigel\*.zip} -ComputerName $targetDevice
 ```
 
-Drücken Sie eine XML-Konfigurationsdatei (oder Grafik Design)
+Pushen einer XML-Konfigurationsdatei (oder Design Grafik)
   
 ```
 $movefile = "<path>";
@@ -170,17 +170,17 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>Softwareupdates
 <a name="SWupdate"> </a>
 
-Standardmäßig versucht Microsoft Teams Räume zum Verbinden mit den Windows Store zum Abrufen der neuesten Version von Microsoft-Teams Chatrooms Software, damit das Gerät regulären Internetzugriff erforderlich ist. Kontaktaufnahme mit Microsoft Support-Probleme, werden Sie sicher, dass das Gerät Microsoft Teams Chatrooms mit der neuesten Version der app geladen wird.
+Standardmäßig versucht Microsoft Teams rooms, eine Verbindung mit dem Windows Store herzustellen, um die neueste Version der Microsoft Teams Rooms-Software abzurufen, damit das Gerät normalen Internetzugriff benötigt. Bevor Sie sich mit Microsoft mit Supportproblemen in Verbindung setzen, stellen Sie sicher, dass das Gerät Microsoft Teams Rooms mit der neuesten Version der App geladen wurde.
   
-Standardmäßig Microsoft Teams Chatrooms stellt eine Verbindung mit Windows Update Betriebssystem abgerufen und USB-Peripheriegeräte Firmwareupdates und installiert diese außerhalb der Geschäftszeiten konfiguriert. Sie können Geschäftszeiten konfigurieren, indem Sie sich beim Administratorkonto anmelden und die Einstellungen-App ausführen.
+Standardmäßig stellt Microsoft Teams rooms eine Verbindung mit Windows Update her, um Betriebssystem-und USB-Peripheriegeräte-Firmware-Aktualisierungen abzurufen und außerhalb der konfigurierten Geschäftszeiten zu installieren. Sie können Geschäftszeiten konfigurieren, indem Sie sich beim Administratorkonto anmelden und die Einstellungen-App ausführen.
   
-Wenn Sie Updates manuell verwalten möchten, und nicht im normale Verfahren für eine [Microsoft Store for Business](https://businessstore.microsoft.com/store) zu [verteilen offline-apps](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)haben, können Sie die entsprechende APPX Datei und Abhängigkeiten in [Deployment Kit](https://go.microsoft.com/fwlink/?linkid=851168) (aus abrufen. die Anweisungen zum [Konfigurieren einer Microsoft-Teams Chatrooms Konsole](console.md)) mit SCCM verwendet werden kann. Die Deployment Kit-Version Positionen davor befindet hinter der Store-Version, damit es immer den neuesten Build möglicherweise nicht übereinstimmt.
+Wenn Sie Updates manuell verwalten möchten und dem normalen Verfahren für [Microsoft Store for Business](https://businessstore.microsoft.com/store) zum [Verteilen von Offline-Apps](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)nicht folgen können, können Sie die entsprechende APPX-Datei und-Abhängigkeiten aus dem [Deployment Kit](https://go.microsoft.com/fwlink/?linkid=851168) erwerben (von die Anweisungen zum [Konfigurieren einer Microsoft Teams rooms-Konsole](console.md)), die mit SCCM verwendet werden kann. Das Deployment Kit-Release hinkt hinter der Store-Version zurück, daher ist es möglicherweise nicht immer mit dem neuesten verfügbaren Build identisch.
   
-### <a name="to-update-using-powershell"></a>Aktualisieren von Powershell
+### <a name="to-update-using-powershell"></a>So aktualisieren Sie die Verwendung von PowerShell
 
-1. Extrahieren Sie das Paket aus der Installation die [MSI-Datei](https://go.microsoft.com/fwlink/?linkid=851168) zu einer Freigabe das Gerät, die zugreifen kann.
+1. Extrahieren Sie das Paket aus der [MSI](https://go.microsoft.com/fwlink/?linkid=851168) -Installationsdatei auf eine Freigabe, auf die das Gerät zugreifen kann.
     
-2. Führen Sie das folgende Skript für die Microsoft-Teams Chatrooms Geräte, ändern \<freigeben\> freigeben als Antwort auf das Gerät:
+2. Führen Sie das folgende Skript aus, das auf die Microsoft Teams \<rooms\> -Geräte ausgerichtet ist, und ändern Sie die Freigabe auf die Gerätefreigabe nach Bedarf:
     
 ```
 Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
@@ -189,65 +189,65 @@ Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rige
 ## <a name="admin-mode-and-device-management"></a>Administratormodus und Geräteverwaltung
 <a name="AdminMode"> </a>
 
-Einige Managementfunktionen, wie die manuelle Installation eines privaten Zertifizierungsstellenzertifikats erfordern das Vorhandensein des Surface Pro Geräts im Admin-Modus. 
+Einige Verwaltungsfunktionen, wie das manuelle Installieren eines privaten Zertifizierungsstellenzertifikats, erfordern das Platzieren des Surface pro-Geräts im Administratormodus. 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Wechsel in Administratormodus und zurück, wenn die Microsoft-Teams Chatrooms app ausgeführt wird
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Wechseln zum Administratormodus und zurück, wenn die Microsoft Teams rooms-app ausgeführt wird
 
-1. Alle laufenden Anrufe Auflegen, und klicken Sie auf der Startseite zurück.
+1. Beenden Sie alle laufenden Anrufe, und kehren Sie zum Startbildschirm zurück.
     
-2. Wählen Sie das Zahnradsymbol und rufen Sie das Menü (Optionen sind **Einstellungen**, **Eingabehilfen**und **Gerät neu starten** ).
+2. Wählen Sie das Zahnradsymbol aus, und öffnen Sie das Menü (Optionen sind **Einstellungen**, **Barrierefreiheit**und **Gerät neu starten** ).
     
 3. Wählen Sie **Einstellungen** aus.
     
 4. Geben Sie das Administratorkennwort ein. Der Setupbildschirm wird angezeigt.
     
     > [!NOTE]
-    > Wenn das Gerät in die Domäne eingebundener nicht ist, wird das lokale Administratorkonto (Benutzername "Admin") in der Standardeinstellung verwendet werden. Das Standard-Kennwort für dieses Konto ist 'Sfb', aber es wird empfohlen, dass Ihre Organisation dies für aus Sicherheitsgründen so bald wie möglich zu ändern. Wenn der Computer Mitglied einer Domäne ist, können Sie sich mit einem Domänenkonto entsprechend berechtigten anmelden. 
+    > Wenn das Gerät nicht mit der Domäne verbunden ist, wird standardmäßig das lokale Administratorkonto (Benutzername "Administrator") verwendet. Das Standardkennwort für dieses Konto ist "SFB", es wird jedoch empfohlen, dass Ihre Organisation dies aus Sicherheitsgründen so schnell wie möglich ändert. Wenn der Computer mit einer Domäne verbunden ist, können Sie sich mit einem entsprechend privilegierten Domänenkonto anmelden. 
   
-5. Wählen Sie **Windows-Einstellungen** in der linken Spalte aus.
+5. Wählen Sie in der linken Spalte **Windows-Einstellungen** aus.
     
 6. Wählen Sie **Zu Administratoranmeldung wechseln** aus.
     
 7. Geben Sie das Administratorkennwort ein. Daraufhin wird die App ordnungsgemäß abgemeldet, und Sie gelangen zum Windows-Anmeldebildschirm. 
     
-8. Melden Sie sich mit Ihren Administratoranmeldeinformationen beim Desktop an. Sie müssen die erforderlichen Berechtigungen zum Verwalten des Geräts.
+8. Melden Sie sich mit Ihren Administratoranmeldeinformationen beim Desktop an. Sie verfügen über die erforderlichen Berechtigungen zum Verwalten des Geräts.
     
 9. Führen Sie die notwendigen Administratoraufgaben aus.
     
 10. Melden Sie sich bei Ihrem Administratorkonto ab.
     
-11. Zurück zu Microsoft-Teams Räumen durch Auswählen des Benutzer Konto-Symbols auf der linken Seite des Bildschirms und anschließend **Skype**.
+11. Kehren Sie zu Microsoft Teams rooms zurück, indem Sie auf der linken Seite des Bildschirms das Symbol für das Benutzerkonto auswählen und dann **Skype**auswählen.
     
-    Wenn der Benutzer **Skype** nicht aufgeführt ist, möglicherweise müssen Sie wählen Sie **Benutzer** aus, und geben **. \skype** als den Benutzernamen und das anmelden.
+    Wenn der **Skype** -Nutzer nicht aufgeführt ist, müssen Sie möglicherweise einen **anderen Benutzer** auswählen und **.\skype** als Benutzernamen eingeben und sich anmelden.
     
-Die Konsole ist nun wieder in den normalen Betrieb-Modus. Das folgende Verfahren benötigen Sie eine Tastatur auf das Gerät anfügen, falls noch nicht angefügt wurde. 
+Die Konsole befindet sich nun wieder im normalen Betriebsmodus. Das folgende Verfahren setzt voraus, dass Sie eine Tastatur an das Gerät anfügen, wenn noch keines angefügt ist. 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Wechsel in Administratormodus und zurück, wenn die Anwendung Microsoft-Teams Räume zum Absturz
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Wechseln zum Administratormodus und zurück, wenn die Microsoft Teams rooms-App abstürzt
 
 1. Drücken Sie fünf Mal schnell hintereinander die WINDOWS-TASTE. Daraufhin gelangen Sie zum Windows-Anmeldebildschirm. 
     
 2. Melden Sie sich mit Ihren Administratoranmeldeinformationen beim Desktop an.
     
     > [!NOTE]
-    > Diese Methode nicht melden Sie sich den Skype-Benutzer oder die app ordnungsgemäß beendet, aber verwenden Sie es, wenn die app wurde nicht mehr reagiert und die andere Methode war nicht verfügbar. 
+    > Bei dieser Methode wird der Skype-Benutzer nicht abgemeldet oder die APP nicht ordnungsgemäß beendet, aber Sie würden ihn verwenden, wenn die APP nicht antwortete und die andere Methode nicht verfügbar war. 
   
 3. Führen Sie die notwendigen Administratoraufgaben aus.
     
-4. Starten Sie den Computer, wenn Sie fertig sind.
+4. Starten Sie den Computer neu, wenn Sie fertig sind.
     
-   Die Konsole wird neu gestartet, in den normalen Betrieb-Modus, die Microsoft-Teams Chatrooms app ausgeführt. Sie können die Tastatur entfernen, wenn es angefügt wurde, damit Sie dieses Verfahren ausführen können.
+   Die Konsole wird im normalen Betriebsmodus neu gestartet, wobei die Microsoft Teams rooms-app ausgeführt wird. Sie können die Tastatur entfernen, wenn Sie angefügt wurde, um dieses Verfahren ausführen zu können.
    ## <a name="troubleshooting-tips"></a>Tipps zur Problembehandlung
    <a name="TS"> </a>
 
-- Besprechungsanfragen möglicherweise nicht angezeigt, wenn über Domänengrenzen hinweg (beispielsweise zwischen zwei Unternehmen) gesendet. In solchen Fällen sollten die IT-Administratoren, ob externe Benutzer zum Planen einer Besprechung zugelassen entscheiden.
+- Besprechungseinladungen werden möglicherweise nicht angezeigt, wenn Sie über Domänengrenzen hinweg gesendet werden (beispielsweise zwischen zwei Unternehmen). In solchen Fällen sollten IT-Administratoren entscheiden, ob Sie externen Benutzern das Planen einer Besprechung gestatten möchten.
     
-- Microsoft-Teams Chatrooms unterstützt keine Exchange AutoDiscover leitet über Exchange 2010.
+- Microsoft Teams rooms unterstützt keine Exchange-Auto Ermittlungs Umleitungen über Exchange 2010.
     
-- Im Allgemeinen ist es ratsam für IT-Administratoren, die alle audioendpunkte deaktivieren, die er nicht verwenden möchten.
+- Im Allgemeinen empfiehlt es sich, dass IT-Administratoren alle audiopunkte deaktivieren, die Sie nicht verwenden möchten.
     
 - Falls ein Spiegelbild in der Raumvorschau angezeigt wird, kann der IT-Administrator dies korrigieren, indem die Stromversorgung der Kamera angestellt wird oder die Bildausrichtung mit der Fernsteuerung der Kamera gekippt wird.
     
-- Es ist bekannt, dass der Zugang zum Konsolentouchscreen verloren gehen kann. In solchen Fällen wird durch einen Neustart des Systems Microsoft Teams Chatrooms manchmal das Problem behoben.
+- Es ist bekannt, dass der Zugang zum Konsolentouchscreen verloren gehen kann. In diesem Fall wird das Problem manchmal durch einen Neustart des Microsoft Teams rooms-Systems behoben.
     
 - Beim Verbinden eines PCs mit der Konsole über verkabelte Erfassung kann ein Verlust der lokalen Audiodaten auftreten. Das Problem mit der Wiedergabe der lokalen Audiodaten kann in diesem Fall durch einen Neustart des PCs gelöst werden.
     

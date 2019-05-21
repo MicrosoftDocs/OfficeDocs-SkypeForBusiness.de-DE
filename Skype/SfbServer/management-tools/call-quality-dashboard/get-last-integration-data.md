@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
-description: 'Zusammenfassung: Informationen Sie zum Vorgang letzten Integrationsdaten abrufen, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 22a7382bfd861b3cade606cd087e17c007fb947b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang "letzte Integrationsdaten abrufen", der Teil der Daten-API für die Anruf Qualitätssteuerung ist. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: d110bdc1fe88a9fe7f77abe7f7b9ed47a3324eb0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930686"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274695"
 ---
 # <a name="get-last-integration-data"></a>Abrufen der letzten Integrationsdaten
  
-**Zusammenfassung:** Informationen Sie zu den letzten Integrationsdaten abrufen-Vorgang, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Vorgang "letzte Integrationsdaten abrufen", der Teil der Daten-API für die Anruf Qualitätssteuerung ist. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.
   
-Der letzte Integrationsdaten abrufen-Vorgang ist Teil der Daten-API für die Qualitätsdashboard aufrufen.
+Der Vorgang zum Abrufen der letzten Integrationsdaten ist Teil der Daten-API für das Dashboard für die Anrufqualität.
   
 ## <a name="get-last-integration-data"></a>Abrufen der letzten Integrationsdaten
 
-Rufen Sie zuletzt Integrationsdaten Vorgang gibt die Liste der letzten 5 Erfolg/Fehlschlag der Archivierung und Verarbeiten des Cubes.
+Abrufen des letzten Integrationsdaten Vorgangs gibt die Liste der letzten 5 Erfolge/Fehler bei der Archivierung und der Cube-Verarbeitung zurück.
   
-Dieses Feature ist standardmäßig deaktiviert und muss aktiviert werden, um die Daten-API konfigurieren.
+Dieses Feature ist standardmäßig deaktiviert und muss durch Konfigurieren der Daten-API aktiviert werden.
   
 
 |**Methode**|**Anforderungs-URI**|**HTTP-Version**|
 |:-----|:-----|:-----|
-|Erhalten  <br/> |https://\<Portal\>/QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
+|Erhalten  <br/> |https://\<-\>Portal/QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
    
- **URI-Parameter** - None.
+ **URI-Parameter** -None.
   
- **Anfordern von Kopfzeilen** - keine zusätzlichen Header.
+ **Anforderungs Kopfzeilen** – keine zusätzlichen Überschriften.
   
- **Anforderungstextkörper** – None.
+ **Anforderungstext** – keine.
   
- **Antwort** - die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheader.
+ **Antwort** – die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheadern.
   
- **Statuscode** - eine erfolgreiche Ausführung Gibt Statuscode 200 (OK).
+ **Statuscode** – ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
   
- **Antwortheader** - keine zusätzlichen Header.
+ **Antwortheader** – keine zusätzlichen Überschriften.
   
- **Antworttext** - ist im folgenden Beispiel Protokollierungsstatus.
+ **Antworttext** : unten befindet sich ein Beispiel für einen Protokollstatus.
   
 ```
 {

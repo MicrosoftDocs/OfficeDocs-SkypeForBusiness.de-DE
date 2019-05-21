@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 07/23/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: Suchen und Verwalten von Updates für Skype für Business Server oder Lync 2013. Verwenden Sie die Links, um weitere Informationen erhalten möchten, und klicken Sie dann die Updates herunterladen.
-ms.openlocfilehash: 4714446a4e9f123691668f9e916632f1b3270d26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Suchen und Verwalten von Updates für Skype for Business Server oder lync 2013 Verwenden Sie die Links, um weitere Informationen zu erhalten, und laden Sie dann die Updates herunter.
+ms.openlocfilehash: 8e0e7c2e42c6b778c219cb31dc3460ea8e220bb8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902257"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286796"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Skype for Business – Downloads and Updates
 
-_Skype für Business-Downloads und-Updates_ -Webseite, die zuvor auf Technet gehörten wurde zurückgezogen wurden. Der Inhalt wurde in Client- und Seiten neu organisiert. Führen Sie diese Links zu den Menschen, mit denen Inhalt:
+Die Website " _Skype for Business Downloads und Updates_ ", die sich einmal auf TechNet befand, wurde eingestellt. Der Inhalt wurde in Client-und Server Seiten neu organisiert. Folgen Sie diesen Links zu den benötigten Inhalten:
 
-- [Updates für Skype für Business-Clients](sfb-client-updates.md) , die in den Abschnitten enthält:
+- [Updates für Skype for Business-Clients](sfb-client-updates.md) , die die Abschnitte enthalten:
     - [Updates für den Skype for Business 2016-Client](sfb-client-updates.md#skype-for-business-2016-client-updates)
     - [Updates für den Skype for Business 2015-Client](sfb-client-updates.md#skype-for-business-2015-client-updates)
     - [Updates für den Client Skype for Business auf dem Mac](sfb-client-updates.md#skype-for-business-on-mac-client-updates)
@@ -35,7 +35,7 @@ _Skype für Business-Downloads und-Updates_ -Webseite, die zuvor auf Technet geh
         - [Updates für Lync 2010 Attendant](sfb-client-updates.md#lync-2010-attendant-updates)
         - [Updates für Lync 2010 Attendee](sfb-client-updates.md#lync-2010-attendee-updates)
 
-- [Skype für Business Server-Updates](sfb-server-updates.md) , die in den Abschnitten enthält:
+- [Skype for Business Server-Updates](sfb-server-updates.md) , die die Abschnitte enthalten:
     - [Updateverlauf für Skype for Business Server 2015](sfb-server-updates.md#skype-for-business-server-2015-update-history)
     - [Updateverlauf für Lync Server 2013](sfb-server-updates.md#lync-server-2013-update-history)
         - [Entwicklertools für Lync Server 2013](sfb-server-updates.md#lync-server-2013-dev-tools)

@@ -4,40 +4,40 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
-description: 'Zusammenfassung: Informationen Sie zum Vorgang Abfrage ausführen, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: a979ea7d8202365e939e075c2628ca4f3987fa63
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang zum Ausführen von Abfragen, der Teil der Daten-API für das Dashboard für die Anrufqualität ist. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: 0b4c44c93009e014579a53872de82297c1486573
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914955"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274562"
 ---
 # <a name="run-query"></a>Ausführen von Abfragen
 
-**Zusammenfassung:** Informationen Sie zu den Vorgang Abfrage ausführen, der Teil der Daten-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den Vorgang zum Ausführen von Abfragen, der Teil der Daten-API für die Anruf Qualitätssteuerung ist. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.
 
-Führen Sie beim Abfragevorgang ist Teil der Daten-API für die Qualitätsdashboard aufrufen.
+Der Vorgang "Abfrage ausführen" ist Teil der Daten-API für die Anruf Qualitätssteuerung.
 
 ## <a name="run-query"></a>Ausführen von Abfragen
 
-Führen Sie Abfrage Vorgang die Möglichkeit zum Ausführen einer Abfrage für den Cube basierend auf angegebenen Dimensionen, Maßeinheiten und Filter bietet und wieder zurückgeben Sie die Daten.
+Abfragevorgang ausführen bietet die Möglichkeit, eine Abfrage auf dem Cube basierend auf angegebenen Dimensionen, Maßen und Filtern auszuführen und die Daten zurückzugeben.
 
 
 |**Methode**|**Anforderungs-URI**|**HTTP-Version**|
 |:-----|:-----|:-----|
-|Bereitstellen  <br/> |https://\<Portal\>/QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
+|Bereitstellen  <br/> |https://\<-\>Portal/QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
 
- **URI-Parameter** - None.
+ **URI-Parameter** -None.
 
- **Anfordern von Kopfzeilen** - keine zusätzlichen Header.
+ **Anforderungs Kopfzeilen** – keine zusätzlichen Überschriften.
 
- **Anforderungstext** – hier ist ein Beispiel Anforderungsnutzlast in JSON. Sie enthält Dimensionen, Filter und Messung für eine Abfrage erforderlich.
+ **Anforderungstext** – hier finden Sie eine Beispiel Nutzlast für Anforderungen in JSON. Sie enthält Dimensionen, Filter und Maße, die für eine Abfrage erforderlich sind.
 
 ```
 {
@@ -72,21 +72,21 @@ Führen Sie Abfrage Vorgang die Möglichkeit zum Ausführen einer Abfrage für d
 }
 ```
 
- *Filter* - eine Liste von Filterausdrücken angewendet werden soll, beispielsweise, dass sich das resultierende DataSet nur die Teilmenge der Daten, die von Interesse sind.
+ *Filter* – eine Liste der Filterausdrücke, die angewendet werden sollen, sodass die resultierende Datenmenge nur die Teilmenge der Daten reflektiert, die von Interesse sind.
 
- *Dimensionen* - eine Liste der Dimensionen, die für das Aggregieren von Daten verwendet werden. Mindestens eine Dimension ist erforderlich, aber mehrere Dimensionen angegeben werden können, um zusätzliche untergeordnete Aggregations erhalten.
+ *Dimensionen* – eine Liste von Dimensionen, die für die Aggregation der Daten verwendet werden. Mindestens eine Dimension ist erforderlich, aber es können mehrere Dimensionen angegeben werden, um eine zusätzliche Ebene von unter Aggregationen zu erhalten.
 
- *Maßeinheiten* - eine Liste von Maßeinheiten, auch bekannt als Fakten, dass die gewünschten Metriken aggregiert werden auf die Dimensionen basieren, den Sie angegeben haben.
+ *Maße* – eine Liste von Maßen, die auch als "Facts" bezeichnet werden, die die gewünschten Metriken sind, die basierend auf den von Ihnen angegebenen Dimensionen aggregiert werden.
 
- *Trend* - zusätzliche Kontrolle Anweisungen zum Anpassen der Ergebnisdaten.
+ *Trend* – zusätzliche Steueranweisungen zum Anpassen der Ergebnisdaten.
 
- **Antwort** - die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheader.
+ **Antwort** – die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheadern.
 
- **Statuscode** - eine erfolgreiche Ausführung Gibt Statuscode 200 (OK).
+ **Statuscode** – ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
 
- **Antwortheader** - keine zusätzlichen Header.
+ **Antwortheader** – keine zusätzlichen Überschriften.
 
- **Antworttext** - ist im folgenden Beispiel Antwort Nutzlast in JSON. Er enthält eine Datentabelle, die die Daten enthält, enthält auch ein Metadaten, der Ausführung der Abfrage und unabhängig davon, ob die Daten aus dem Cache werden angezeigt.
+ **Antworttext** : Nachfolgend finden Sie eine Beispielantwort Nutzlast in JSON. Sie enthält eine Datentabelle, die die Daten enthält, außerdem enthält Sie eine Meta-Datei, die die Ausführungszeit der Abfrage zeigt und angibt, ob die Daten aus dem Cache abgerufen werden.
 
 ```
 {
@@ -121,8 +121,8 @@ Führen Sie Abfrage Vorgang die Möglichkeit zum Ausführen einer Abfrage für d
 }
 ```
 
- *Ausführungszeit* - die gesamte Zeit für den Server, die Daten zurückgeben. Dies kann oder darf sich nicht Cache beziehen.
+ *Ausführungszeit* : die Gesamtzeit, die der Server zum Zurückgeben der Daten benötigte. Hierbei kann es sich um einen Cache handelt.
 
- *Datenergebnis* – das Ergebnis der Abfrage. Es ist ein zweidimensionales Array, die alle Variationen der Dimensionen Mitglieder und jedes Element, enthält der Dimensionen Elementnamen als auch die aggregierten Werte aus den angegebenen enthält.
+ *Daten Ergebnis* – das Ergebnis der Abfrage. Es handelt sich dabei um ein zweidimensionales Array, das alle Permutationen der Dimensionen "Members" enthält, und jedes Element, das die Mitgliedernamen der Dimensionen sowie die aggregierten Werte der angegebenen Maße enthält.
 
- *Ergebnis ist aus Cache* - Diagnose. Gibt an, ob das Ergebnis aus dem Zwischenspeicher oder aus dem QoE-Cube stammt.
+ *Das Ergebnis ist aus dem Cache* -für Diagnosen. Gibt an, ob das Ergebnis aus dem Cache oder aus dem QoE-Cube kam.

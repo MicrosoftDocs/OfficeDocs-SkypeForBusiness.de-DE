@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -22,13 +22,13 @@ ms.custom:
 - Setup
 - Alchemy
 - LIL_Placement
-description: 'Informationen Sie zum Einrichten Ihrer Domäne, Benutzer Sofortnachrichten und Anwesenheitsinformationen für Ihre Organisation Skype für Unternehmen zu installieren. Außerdem finden Sie unter Audiokonferenzen Telefonsystem und plant aufrufen und Skype Besprechung Übertragung einrichten. '
-ms.openlocfilehash: 2a968fa0f5b89351c2a7a2726052b1418f0ac213
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Erfahren Sie, wie Sie Ihre Domäne, Benutzer, Chat-und Anwesenheitsinformationen für Ihre Organisation einrichten, um Skype for Business zu installieren. Sehen Sie sich auch an, wie Sie Audiokonferenz-, Telefon System-und Anrufpläne sowie Skype-Live Konferenz einrichten. '
+ms.openlocfilehash: fb31a2affa1507f043244fbe6f1988040cfec4ba
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237824"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285254"
 ---
 # <a name="set-up-skype-for-business-online"></a>Einrichten von Skype for Business Online
 
@@ -40,15 +40,15 @@ Sie benötigen Hilfe beim Einrichten von Skype im Rahmen Ihres Office 365-Abonne
 
 ## <a name="1-plan-for-skype-for-business"></a>1. Planen für Skype for Business
 
-Wenn Sie **[Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium)** oder **Business Essentials** verwenden, können Sie Skype for Business für Onlineanrufe an andere Personen in Ihrem Unternehmen verwenden, die in Ihr Abonnement eingeschlossen sind. Angenommen, wenn Ihr Unternehmen 10 Benutzern Sie vermutlich [Starten Skype für Unternehmen für Instant Messaging und onlinebesprechungen verwenden](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) können, und [Besprechungen mit Skype für Unternehmen](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) mit Skype für Unternehmen nach dem Ausführen der Schritte 2 bis 6 weiter unten. Und können Sie [Richten Sie einen Skype für Business Besprechung in Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) online Besprechungen zu!
+Wenn Sie **[Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium)** oder **Business Essentials** verwenden, können Sie Skype for Business für Onlineanrufe an andere Personen in Ihrem Unternehmen verwenden, die in Ihr Abonnement eingeschlossen sind. Wenn Ihr Unternehmen beispielsweise 10 Personen umfasst, können Sie mit der [Verwendung von Skype for Business für Chats und Onlinebesprechungen](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) und Besprechungen [mit Skype for Business](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) über Skype for Business beginnen, nachdem Sie die Schritte 2-6 unten ausgeführt haben. Und Sie können auch [eine Skype for Business-Besprechung in Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) für Onlinebesprechungen einrichten!
 
 Gehen Sie wie folgt vor, wenn Sie Skype for Business zum Tätigen und Annehmen von **Anrufen** von Personen *außerhalb*  Ihres Unternehmens verwenden möchten:
 
-- **Option 1. Verwenden Sie die kostenlose [Skype-App](https://www.skype.com/)**. Wenn Sie ein sehr kleines Unternehmen haben (zum Beispiel mit ein bis zwei Mitarbeitern), ist die Verwendung der Skype-App die bessere Lösung. Sie ist für Inlands- und Auslandsanrufe kostengünstiger. Sie können weiterhin halten Sie Telefonkonferenzen abhalten von Videokonferenzen und Freigeben des Desktops für Präsentationen. [Überprüfen Sie die Zahlungssätze und -optionen](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
+- **Option 1. Verwenden Sie die kostenlose [Skype-App](https://www.skype.com/)**. Wenn Sie ein sehr kleines Unternehmen haben (zum Beispiel mit ein bis zwei Mitarbeitern), ist die Verwendung der Skype-App die bessere Lösung. Sie ist für Inlands- und Auslandsanrufe kostengünstiger. Sie können weiterhin Konferenzgespräche führen, Videoanrufe tätigen und Ihren Desktop für Präsentationen freigeben. [Überprüfen Sie die Zahlungssätze und -optionen](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
 
-- **Option 2. Aktualisieren Sie Ihren Plan und das Telefonsystem und eines Plans Aufrufen für Office 365 kaufen**. Die einfachste Möglichkeit, um zu ermitteln, wie viel dies Kosten, und klicken Sie dann umsteigen, zur [Unterstützung von Kontakt für Business-Produkte – Admin Hilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) ist und sie alles für Sie tun.
+- **Option 2. Aktualisieren Sie Ihren Plan, und kaufen Sie das Telefon System und einen Anrufplan für Office 365**. Die einfachste Methode, um herauszufinden, wie viel dies kostet, und dann den Schalter zu setzen, besteht darin, den [Support für Business-Produkte zu kontaktieren – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) , damit Sie alles für Sie erledigen können.
 
-Weitere Informationen finden Sie finden Sie unter [Planen der Ihrer Installation von Office 365 für Unternehmen](https://support.office.com/article/eb926624-018b-4486-bf11-5fba6ee4d645#bkmk_skype).
+Weitere Informationen finden Sie unter [Planen des Setups von Office 365 for Business](https://support.office.com/article/eb926624-018b-4486-bf11-5fba6ee4d645#bkmk_skype).
 
 ## <a name="2-sign-in-to-office-365"></a>2. Anmelden bei Office 365
 <a name="bkmk_signin"> </a>
@@ -59,7 +59,7 @@ Skype for Business Online ist Bestandteil der Office 365-Suite von Diensten. Um 
 
     ![Beispiel für die Willkommens-E-Mail, die Sie erhalten haben, nachdem Sie sich bei Skype for Business Online angemeldet haben. Sie enthält Ihre Office 365-Benutzer-ID.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. Melden Sie sich bei Office 365 Administrationscenter, und geben Sie Ihre Office 365-Benutzer-ID und das Kennwort ein. Nach der Anmeldung wird das Office 365 Admin Center angezeigt.
+2. Melden Sie sich beim Office 365 Admin Center an, und geben Sie Ihre Office 365-Benutzer-ID und Ihr Kennwort ein. Nach der Anmeldung wird das Office 365 Admin Center angezeigt.
 
     ![Beispiel für das Office 365 Admin Center, wenn Sie über einen Skype for Business Online-Plan verfügen](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
 
@@ -68,11 +68,11 @@ Skype for Business Online ist Bestandteil der Office 365-Suite von Diensten. Um 
 
 Jetzt sind Sie bei Office 365 angemeldet und können Ihre Domäne und die Benutzer in Ihrer Organisation zur Verwendung von Skype for Business Online einrichten.
 
-1. [Hinzufügen einer Domäne und Benutzer zu Office 365](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611): Verwenden Sie den Setup-Assistenten von Office 365 zum Einrichten Ihrer benutzerdefinierten Domäne mit Office 365 (wie *"fourthcoffee.com"*). **Standardmäßig enthält der Setup-Assistenten von Office 365 Skype für Business Online einrichten und Ihre Skype für Business-Benutzer-IDs zu erstellen.** Wenn Sie den Assistenten bereits verwendet haben, können Sie Ihre Domäne für Office 365 einrichten, haben Sie diesen Schritt abgeschlossen.
+1. [Hinzufügen einer Domäne und von Benutzern zu Office 365](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611): Verwenden Sie den Office 365-Setup-Assistenten, um Ihre benutzerdefinierte Domäne (beispielsweise *fourthcoffee.com*) mit Office 365 einzurichten. **Standardmäßig umfasst der Office 365-Setup-Assistent das Einrichten von Skype for Business Online und das Erstellen Ihrer Skype for Business-Benutzer-IDs.** Wenn Sie den Assistenten bereits zum Einrichten Ihrer Domäne für Office 365 verwendet haben, haben Sie diesen Schritt abgeschlossen.
 
 2. [Domänen- und DNS-Verbindungen überprüfen](https://support.office.com/article/2b54e1b0-47a7-4018-a1e4-c2b924e7c5a0): Vergewissern Sie sich mit unserem Tool für die Problembehandlung bei Domänen, dass Ihre Domänen- und DNS-Einstellungen richtig sind. Wenn Sie dies jetzt erledigen, können Sie später Einrichtungsprobleme leichter erkennen, da Sie DNS-Einstellungen als Quelle zukünftiger Probleme ausschließen können.
 
-3. [URLs und IP-Adressbereiche von Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO): Die meisten Kleinunternehmen können diesen Schritt überspringen. **Wenn Ihr Zugriff auf das Internet jedoch durch eine Firewall oder einen Proxyserver eingeschränkt wird**, müssen Sie Regeln erstellen, die den Zugriff auf die Skype for Business Online-Endpunkte zulassen. Dieser fortgeschrittene Schritt wird am besten von einer Person ausgeführt, die sich mit dem Konfigurieren von Firewalls und Proxyservern auskennt. Wenn Sie dies noch nicht getan haben, sollten Sie Einstellen von einem [Microsoft-Partner](https://go.microsoft.com/fwlink/?linkid=391089) Skype für Unternehmen für Sie einrichten.
+3. [URLs und IP-Adressbereiche von Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO): Die meisten Kleinunternehmen können diesen Schritt überspringen. **Wenn Ihr Zugriff auf das Internet jedoch durch eine Firewall oder einen Proxyserver eingeschränkt wird**, müssen Sie Regeln erstellen, die den Zugriff auf die Skype for Business Online-Endpunkte zulassen. Dieser fortgeschrittene Schritt wird am besten von einer Person ausgeführt, die sich mit dem Konfigurieren von Firewalls und Proxyservern auskennt. Wenn Sie dies noch nicht getan haben, sollten Sie einen [Microsoft-Partner](https://go.microsoft.com/fwlink/?linkid=391089) einstellen, um Skype for Business für Sie einzurichten.
 
 ## <a name="4-set-up-im-and-presence-in-your-organization"></a>4. Einrichten von Sofortnachrichten und Anwesenheitsinformationen in Ihrer Organisation
 <a name="bkmk_IM"> </a>
@@ -106,11 +106,11 @@ Um Skype for Business auf Ihrem PC oder mobilen Gerät verwenden zu können, mü
 
 - [Installieren von Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb): Anweisungen zum Herunterladen der App aus dem Office 365-Portal und zum Installieren auf einem PC oder Mac.
 
-- [Bereitstellen der Skype für Business-Client in Office 365](deploy-the-skype-for-business-client-in-office-365.md): eine Anleitung für die Bereitstellung der app in einem großen Unternehmen.
+- [Bereitstellen des Skype for Business-Clients in Office 365](deploy-the-skype-for-business-client-in-office-365.md): Anweisungen zum Bereitstellen der app in einem Großunternehmen.
 
 - [Installieren von Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb): Herunterladen und Installieren von Skype for Business auf Android-Geräten, iOS-Geräten und Windows Phone-Geräten sowie Anmelden.
 
-- [Aktivieren oder Deaktivieren von Benachrichtigungen Mobiltelefon](turn-on-or-off-mobile-phone-notifications.md): Wenn Sie Skype für Unternehmen, die auf einem mobilen Gerät installiert ist können, Sie und andere Personen in Ihrem Unternehmen erhalten Warnungen zu ein- und verpassten Sofortnachrichten.
+- [Aktivieren oder Deaktivieren von Benachrichtigungen über Mobiltelefone](turn-on-or-off-mobile-phone-notifications.md): Wenn Sie Skype for Business auf einem mobilen Gerät installiert haben, können Sie und andere Personen in Ihrem Unternehmen Benachrichtigungen über eingehende und verpasste Sofortnachrichten erhalten.
 
 ## <a name="6-test-to-make-sure-everything-is-working"></a>6. Testen der Funktionen
 <a name="bkmk_test"> </a>
@@ -148,11 +148,11 @@ Hier ist eine Übersicht über die Schritte zum Einrichten von Skype-Livekonfere
 
 1. [Zuweisen oder Entfernen von Lizenzen für Office 365 Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc): Weisen Sie allen Personen, die Livekonferenzen **hosten** werden, Lizenzen für **Skype for Business Online** oder einen **Enterprise-Plan** zu.
 
-2. [Aktivieren von Skype-Besprechung übertragen](../set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md): dieses Feature nicht standardmäßig aktiviert. Wenn Sie sie aktivieren, können Ihre Benutzer Livekonferenzen mit anderen Personen in Ihrer Organisation hosten.
+2. [Skype-Live Konferenz aktivieren](../set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md): dieses Feature ist standardmäßig nicht aktiviert. Wenn Sie sie aktivieren, können Ihre Benutzer Livekonferenzen mit anderen Personen in Ihrer Organisation hosten.
 
-3. [Richten Sie Ihr Netzwerk für die Besprechung übertragen werden Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md): Wenn Sie Host Webinare und andere Übertragungen mit Teilnehmer außerhalb Ihrer Organisation möchten, müssen Sie Ihr Netzwerk konfiguriert haben.
+3. [Einrichten Ihres Netzwerks für Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)-Live Konferenz: Wenn Sie Webinare und andere Broadcasts mit Teilnehmern außerhalb Ihrer Organisation hosten möchten, müssen Sie Ihr Netzwerk konfigurieren.
 
-4. [Planen einer Besprechung Skype-Übertragung](https://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553) und haben eine [Verknüpfung einer Skype Besprechung Übertragung](https://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe): Stellen Sie sicher, dass broadcast Besprechungen arbeiten, indem Sie einen Skype Besprechung Broadcast unter Planen *https://portal.broadcast.skype.com* und dass eine Person versuchen, an der Besprechung teilzunehmen.
+4. [Planen einer Skype](https://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553) -Live Konferenz und [teilnehmen an einer Skype](https://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe)-Live Konferenz: Stellen Sie sicher, dass Broadcast-Besprechungen funktionieren *https://portal.broadcast.skype.com* , indem Sie eine Skype-Live Konferenz planen und dann versuchen, an der Besprechung teilzunehmen.
 
 ## <a name="learn-about-network-connectivity-requirements"></a>Erfahren Sie mehr über Anforderungen an die Netzwerkkonnektivität
 <a name="bkmk_more"> </a>
@@ -162,7 +162,7 @@ Die Qualität der End-to-End-Netzwerkkonnektivität hat großen Einfluss auf die
 ## <a name="all-done-setting-up-getting-started-using-skype-for-business"></a>Haben Sie die Einrichtung abgeschlossen? Erste Schritte mit Skype for Business
 <a name="bkmk_more"> </a>
 
-[Skype für Business-Training](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): sehen Sie sich diese Liste von Schulungsthemen, unterstützen Sie schneller Einstieg!
+[Skype for Business-Schulung](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): Schauen Sie sich diese Liste mit Schulungsthemen an, damit Sie schnell loslegen können!
 
 [Starten einer Skype for Business-Telefonkonferenz](https://support.office.com/article/8dc8ac52-91ac-4db9-8672-11551fdaf997)
 

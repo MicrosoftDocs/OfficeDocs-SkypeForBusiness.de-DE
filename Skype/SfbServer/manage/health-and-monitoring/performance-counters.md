@@ -1,34 +1,34 @@
 ---
-title: Leistungsindikatoren für Mobilität in Skype für Business Server
+title: Mobilitäts Leistungsindikatoren in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 'Zusammenfassung: Erfahren Sie mehr über die Leistungsindikatoren, die Sie zum Überwachen von Servern mit Unified Communications Web-API (UCWA) und die Skype für Business Server Mcx Mobility Service verwenden können.'
-ms.openlocfilehash: a529161b62cf47ad7666ace07cc2d030fc7922d2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über die Leistungsindikatoren, die Sie zum Überwachen von Servern mit der Unified Communications Web-API (UCWA) und dem Skype for Business Server MCX-Mobilitätsdienst verwenden können.'
+ms.openlocfilehash: 91ca77b9719dc6b76ea9bb054856abf82bb3ebd4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897639"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279907"
 ---
-# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Leistungsindikatoren für Mobilität in Skype für Business Server
+# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Mobilitäts Leistungsindikatoren in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Leistungsindikatoren, die Sie zum Überwachen von Servern mit Unified Communications Web-API (UCWA) und die Skype für Business Server Mcx Mobility Service verwenden können.
+**Zusammenfassung:** Erfahren Sie mehr über die Leistungsindikatoren, die Sie zum Überwachen von Servern mit der Unified Communications Web-API (UCWA) und dem Skype for Business Server MCX-Mobilitätsdienst verwenden können.
   
-In den folgenden Tabellen Listen die Namen und eine Beschreibung der Leistungsindikatoren, die Sie zum Überwachen von Servern mit Unified Communications Web-API (UCWA) und die Skype für Business Server Mcx Mobility Service verwenden können. 
+In den folgenden Tabellen sind die Namen und Beschreibungen der Leistungsindikatoren aufgeführt, die Sie zum Überwachen von Servern mit der Unified Communications Web-API (UCWA) und dem Skype for Business Server MCX-Mobilitätsdienst verwenden können. 
   
-Der Kategoriename für die Leistungsindikatoren in der Tabelle UCWA ist **LS:WEB - UCWA**.
+Der Kategorienname für die Indikatoren in der UCWA-Tabelle lautet **ls: Web-UCWA**.
   
 Der Kategoriename für die Leistungsindikatoren in der Mcx-Mobilitätsdiensttabelle ist **LS:WEB - Mobile Communication Service**.
 
 > [!NOTE]
-> Unterstützung für mobile Clients von Vorversionen MCX (Mobility Service) ist nicht mehr in Skype für Business Server 2019 verfügbar. Alle aktuellen Skype für mobile Clients Business Unified Communications Web API (UCWA) zur Unterstützung von Sofortnachrichten (IM), Anwesenheit und Kontakte bereits verwenden. Benutzer mit Clients von Vorversionen von MCX müssen an einen aktuellen Client aktualisieren.
+> MCX (Mobility Service)-Unterstützung für ältere Mobile Clients steht in Skype for Business Server 2019 nicht mehr zur Verfügung. Alle derzeitigen mobilen Skype for Business-Clients verwenden bereits Unified Communications Web API (UCWA) zur Unterstützung von Instant Messaging (im), Anwesenheitsinformationen und Kontakten. Benutzer mit Legacy-Clients, die MCX verwenden, müssen ein Upgrade auf einen aktuellen Client durchführen.
   
 ## <a name="performance-counters-for-ucwa"></a>Leistungsindikatoren für UCWA
 
@@ -60,7 +60,7 @@ Der Kategoriename für die Leistungsindikatoren in der Mcx-Mobilitätsdiensttabe
 |Anzahl von Fehlern beim Abruf von Fotos aus Active Directory  <br/> |Die Gesamtzahl der Fehler beim Abrufen von Fotos aus Active Directory.  <br/> |
 |Anzahl von Fehlern bei Kontaktsuche  <br/> |Die Gesamtzahl von Fehlern bei der Kontaktsuche in Exchange.  <br/> |
 |Anzahl von Deserialisierungsfehlern  <br/> |Die Gesamtzahl der Deserialisierungsfehler.  <br/> |
-|Anzahl der HD-Fotos Get-Fehler  <br/> |Die Gesamtzahl der Fehler beim Abrufen von HD-Fotos aus Exchange.  <br/> |
+|Anzahl der HD-fotofehler erhalten  <br/> |Die Gesamtzahl der Fehler beim Abrufen von HD-Fotos aus Exchange.  <br/> |
 |Über Maximum an Abonnements pro Anwendung  <br/> |Die Anzahl der Abonnementanforderungen über der maximal pro Anwendung erlaubten Anzahl.  <br/> |
 |Über Maximum an Abonnements pro Batch  <br/> |Die Anzahl der Abonnementanforderungen über der maximal pro Batch erlaubten Anzahl.  <br/> |
 |Fehler beim Abonnieren der Anwesenheit  <br/> |Die Anzahl der Fehler beim Abonnieren der Anwesenheit.  <br/> |
@@ -115,4 +115,4 @@ Der Kategoriename für die Leistungsindikatoren in der Mcx-Mobilitätsdiensttabe
 |Gesamtzahl der erfolgreichen ausgehenden Sprachanrufe  <br/> |Die Gesamtzahl der erfolgreichen ausgehenden Sprachanrufe.  <br/> |
    
 > [!NOTE]
-> Unterstützung für mobile Clients von Vorversionen MCX (Mobility Service) ist nicht mehr in Skype für Business Server 2019 verfügbar. Alle aktuellen Skype für mobile Clients Business Unified Communications Web API (UCWA) zur Unterstützung von Sofortnachrichten (IM), Anwesenheit und Kontakte bereits verwenden. Benutzer mit Clients von Vorversionen von MCX müssen an einen aktuellen Client aktualisieren.
+> MCX (Mobility Service)-Unterstützung für ältere Mobile Clients steht in Skype for Business Server 2019 nicht mehr zur Verfügung. Alle derzeitigen mobilen Skype for Business-Clients verwenden bereits Unified Communications Web API (UCWA) zur Unterstützung von Instant Messaging (im), Anwesenheitsinformationen und Kontakten. Benutzer mit Legacy-Clients, die MCX verwenden, müssen ein Upgrade auf einen aktuellen Client durchführen.

@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 1/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
-description: 'Zusammenfassung: Erfahren Sie, wie den Dienst Persistent Chat Server-Kompatibilität in Skype für Business Server 2015 zu konfigurieren.'
-ms.openlocfilehash: 07d1f69b6448dc215f97cffb96d5e86f1ab148be
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie den beständigen Chat Server-Kompatibilitätsdienst in Skype for Business Server 2015 konfigurieren.'
+ms.openlocfilehash: 81fcd9281efa0e897074ea154e9ae29a81aeb854
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910396"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279312"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Konfigurieren des Kompatibilitätsdienstes auf dem Server für beständigen Chat in Skype for Business Server 2015
 
-**Zusammenfassung:** Erfahren Sie, wie den Dienst Persistent Chat Server-Kompatibilität in Skype für Business Server 2015 zu konfigurieren.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie den beständigen Chat Server-Kompatibilitätsdienst in Skype for Business Server 2015 konfigurieren.
 
-Dank der Konformität des beständigen Chats können Administratoren ein Archiv von Nachrichten des beständigen Chats und von Aktivitäten führen. Die Einhaltung von Bestimmungen und archiviert Daten im Zusammenhang mit hergeschickt Persistent Chat Server, wenn ein Teilnehmer:
+Dank der Konformität des beständigen Chats können Administratoren ein Archiv von Nachrichten des beständigen Chats und von Aktivitäten führen. Der Kompatibilitätsdienst zeichnet Daten auf, die sich auf die einzelnen beständigen Chat Server-Unterhaltungen beziehen, einschließlich, wenn ein Teilnehmer:
 
-- Verknüpft einen Raum beständigen Chat
+- Beitritt zu einem beständigen Chatroom
 
 - Einen Chatroom verlässt
 
@@ -39,7 +39,7 @@ Dank der Konformität des beständigen Chats können Administratoren ein Archiv 
 Diese Informationen können bei Bedarf von der SQL-Konformitätsdatenbank abgerufen werden. 
 
 > [!NOTE]
-> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
+> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Reise von Skype for Business zu Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen. 
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Konfigurieren des Konformitätsdiensts mit Windows PowerShell
 
@@ -59,7 +59,7 @@ Sie können die folgenden Einstellungen konfigurieren:
 
 - AdapterType: Zum Konfigurieren des Adaptertyps. Ein Adapter ist ein Produkt eines Drittanbieters, das die Daten in der Konformitätsdatenbank in ein spezielles Format konvertiert. Das Standardformat ist XML.
 
-- OneChatRoomPerOutputFile - dieser Parameter können Sie angeben, dass trennen, die Sie Berichte für jeden Chatroom erstellt werden soll.
+- OneChatRoomPerOutputFile – mit diesem Parameter können Sie angeben, dass getrennte Berichte für jeden Chatroom erstellt werden sollen.
 
 - AddChatRoomDetails: Wenn dieser Parameter aktiviert ist, werden zu jedem Chatroom in der Datenbank zusätzliche Details aufgezeichnet. Da sich die Größe der Datenbank durch diese Einstellung erheblich erhöhen kann, ist der Parameter standardmäßig deaktiviert.
 
@@ -71,23 +71,23 @@ Sie können die folgenden Einstellungen konfigurieren:
 
 ## <a name="use-a-customized-compliance-adapter"></a>Verwenden eines benutzerdefinierten Konformitätsadapters
 
-Sie können schreiben ein benutzerdefiniertes Adapters statt des XmlAdapter, die mit Persistent Chat Server installiert ist. Hierzu müssen Sie eine .NET Framework-Assembly bereitstellen, die eine öffentliche Klasse enthält, die die **IComplianceAdapter**-Schnittstelle implementiert. Sie müssen diese Assembly im Installationsordner Persistent Chat Server der einzelnen Server in Ihrem Persistent Chat Server Pool platzieren. Jeder der Konformitätsserver kann Konformitätsdaten für Ihren Adapter bereitstellen, aber die Konformitätsserver stellen keine doppelten Konformitätsdaten für mehrere Instanzen des Adapters bereit.
+Sie können einen benutzerdefinierten Adapter schreiben, anstatt den XMLAdapter zu verwenden, der mit dem Server für beständigen Chat installiert ist. Hierzu müssen Sie eine .NET Framework-Assembly bereitstellen, die eine öffentliche Klasse enthält, die die **IComplianceAdapter**-Schnittstelle implementiert. Sie müssen diese Assembly im beständigen Chat Server-Installationsordner für jeden Server im beständigen Chat Serverpool platzieren. Jeder der Konformitätsserver kann Konformitätsdaten für Ihren Adapter bereitstellen, aber die Konformitätsserver stellen keine doppelten Konformitätsdaten für mehrere Instanzen des Adapters bereit.
 
-Die Schnittstelle ist in der Assembly Compliance.dll im Namespace definiert `Microsoft.Rtc.Internal.Chat.Server.Compliance`. Die Schnittstelle definiert zwei Methoden, die Ihr benutzerdefinierter Adapter implementieren muss.
+Die Schnittstelle ist in der Assembly Compliance. dll im Namespace `Microsoft.Rtc.Internal.Chat.Server.Compliance`definiert. Die Schnittstelle definiert zwei Methoden, die Ihr benutzerdefinierter Adapter implementieren muss.
 
-Der beständigen Chat Kompatibilitätsserver wird die folgende Methode aufrufen, wenn der Adapter zum ersten Mal geladen. Die `AdapterConfig` enthält den beständigen Chat Kompatibilitätskonfiguration, die für den kompatibilitätsadapter relevant sind:
+Der beständige Chat-Kompatibilitätsserver Ruft die folgende Methode auf, wenn der Adapter zuerst geladen wird. Die `AdapterConfig` für den Kompatibilitätsadapter relevante Kompatibilitäts Konfiguration für beständigen Chat enthält:
 
 ```
 void SetConfig(AdapterConfig config)
 ```
 
-Der Kompatibilität für Persistent Chat Server Ruft die folgende Methode in regelmäßigen Abständen als neue Daten übersetzt. Dieses Zeitintervall ist gleich der `RunInterval` wie in den beständigen Chat Kompatibilitätskonfiguration eingerichtet sind:
+Der beständige Chat-Kompatibilitätsserver Ruft die folgende Methode in regelmäßigen Intervallen auf, solange neue zu übersetzende Daten vorhanden sind. Dieses Zeitintervall entspricht dem `RunInterval` in der Kompatibilitäts Konfiguration für beständigen Chat angegebenen Satz:
 
 ```
 void Translate(ConversationCollection conversations)
 ```
 
-Die `ConversationCollection` enthält die unterhaltungsinformationen, die von dem Zeitpunkt der letzten erfasst wurde diese Methode wurde aufgerufen.
+Die `ConversationCollection` enthält die Konversations Informationen, die beim letzten Aufrufen dieser Methode erfasst wurden.
 
 ## <a name="customize-the-xslt-definition-file"></a>Anpassen der XSLT-Definitionsdatei
 
@@ -147,14 +147,14 @@ Jedes „Sender“-Element enthält fünf Attribute: „user name“, „ID“,
 |**Attribut**|**Beschreibung**|**Optional/erforderlich**|
 |:-----|:-----|:-----|
 |Username  <br/> |Der Name des Absenders.  <br/> |Optional  <br/> |
-|ID  <br/> |Eindeutige ID des Absenders  <br/> |Erforderlich  <br/> |
-|E-Mail  <br/> |E-Mail-Adresse des Absenders.  <br/> |Optional  <br/> |
+|ID  <br/> |Die eindeutige ID des Absenders.  <br/> |Erforderlich  <br/> |
+|E-Mail  <br/> |Die e-Mail-Adresse des Absenders.  <br/> |Optional  <br/> |
 |Intern  <br/> |Gibt an, ob es sich um einen internen Benutzer oder einen Verbundbenutzer handelt. Bei Festlegung des Werts auf „true“ (wahr) ist der Benutzer intern.  <br/> |Optional  <br/> |
-|Uri  <br/> |Die SIP-URI des Benutzers.  <br/> |Erforderlich  <br/> |
+|Uri  <br/> |Der SIP-URI des Benutzers.  <br/> |Erforderlich  <br/> |
 
-Die folgenden Beispiele zeigen den Nachrichtentypen, dass das Element Nachrichten enthalten kann. Sie enthält auch Beispiele für die Verwendung der einzelnen Elemente.
+Die folgenden Beispiele zeigen die Nachrichtentypen, die das Messages-Element enthalten kann. Sie enthält auch Beispiele für die Verwendung der einzelnen Elemente.
 
-Join - ein Benutzer einen Chatroom betritt.
+Teilnehmen – ein Benutzer tritt einem Chatroom bei.
 
 ```
 <Message type="JOIN" content="" id="0">
@@ -163,7 +163,7 @@ Join - ein Benutzer einen Chatroom betritt.
 </Message
 ```
 
-Teil – ein Benutzer einen Chatroom verlässt.
+Teil-ein Nutzer verlässt einen Chatroom.
 
 ```
 <Message type="PART" content="" id="0">
@@ -172,7 +172,7 @@ Teil – ein Benutzer einen Chatroom verlässt.
 </Message>
 ```
 
-Chat - e-Mail-Adresse des Absenders.
+Chat – die e-Mail-Adresse des Absenders.
 
 ```
 <Message type="CHAT" content="hello" id="1">
@@ -181,7 +181,7 @@ Chat - e-Mail-Adresse des Absenders.
 </Message>
 ```
 
-Backchat - fordert ein Benutzer Inhalte aus den Chatverlauf.
+Backchat – ein Benutzer fordert Inhalte aus dem Chat-Protokoll an.
 
 ```
 <Message type="BACKCHAT" content="backchatcontent" id="0">
@@ -190,7 +190,7 @@ Backchat - fordert ein Benutzer Inhalte aus den Chatverlauf.
 </Message>
 ```
 
-Dateien hochladen - ein Benutzer eine Datei hochlädt.
+Dateiupload: ein Benutzer lädt eine Datei hoch.
 
 ```
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
@@ -199,7 +199,7 @@ Dateien hochladen - ein Benutzer eine Datei hochlädt.
 </Message>
 ```
 
-Dateidownload – ein Benutzer eine Datei herunterlädt.
+Dateidownload – ein Benutzer lädt eine Datei herunter.
 
 ```
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
@@ -208,7 +208,7 @@ Dateidownload – ein Benutzer eine Datei herunterlädt.
 </Message>
 ```
 
-### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>Standardwert beständigen Chat XSD-Ausgabe und Beispiel-XSL-Transformation
+### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>Standardmäßige, persistente Chat Ausgabe-XSD und Beispiel-XSL-Transformation
 
 Das folgende Codebeispiel enthält die standardmäßige Ausgabe des Konformitätsservers.
 

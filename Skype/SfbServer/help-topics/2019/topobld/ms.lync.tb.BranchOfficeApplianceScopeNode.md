@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.BranchOfficeApplianceScopeNode
@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN), Pools und Server und Resiliency Informationen über diese Survivable Branch Appliance zugeordnet. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 95e736bb9c49fdddfa960ae08d32431348257f8c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN), zugeordnete Pools und Server sowie Stabilitäts Informationen zu dieser Survivable Branch Appliance. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: 0a3128a18fe663ecef040ef774c873c5e8bd1d07
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916007"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275899"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Filialanwendung  – Bereichsknoten
  
-Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN), Pools und Server und Resiliency Informationen über diese Survivable Branch Appliance zugeordnet. Folgende Möglichkeiten stehen zur Verfügung:
+Dieser Knoten zeigt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN), zugeordnete Pools und Server sowie Stabilitäts Informationen zu dieser Survivable Branch Appliance. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Bearbeiten der Eigenschaften**. Öffnet die Seite **Eigenschaften bearbeiten** für diese Survivable Branch Appliance, in dem Sie den FQDN (sofern nicht bereits der Veröffentlichung der Topologie) ändern können, die Zuordnungen und ausfallsicherheitseinstellungen.
+- **Bearbeiten von Eigenschaften** Öffnet die Seite **Eigenschaften bearbeiten** für diese Survivable Branch Appliance, in der Sie den FQDN (wenn die Topologie noch nicht veröffentlicht ist), die Zuordnungen und die Einstellungen für die Widerstandsfähigkeit ändern können.
     
 - **Löschen**: Dient zum Löschen des Servers aus der Topologie.
     

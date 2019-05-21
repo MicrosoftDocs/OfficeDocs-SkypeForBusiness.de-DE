@@ -1,10 +1,10 @@
 ---
-title: Erstellen oder Ändern einer übersetzungsregel für Rufnummernanzeige in Skype für Business Server
+title: Erstellen oder Ändern einer Übersetzungsregel für die Anrufer-ID-Präsentation in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,25 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
-description: 'Zusammenfassung: Informationen Sie zum Konfigurieren der Anrufer-ID mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: f8b870e855ee002b002cbe28756a95269559cea6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Rufnummernanzeige mithilfe des Skype for Business Server-Control Panels konfigurieren.'
+ms.openlocfilehash: a305d420171fa10253f387e1fcbcfa2a50d72753
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893105"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284655"
 ---
-# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Erstellen oder Ändern einer übersetzungsregel für Rufnummernanzeige in Skype für Business Server
+# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Erstellen oder Ändern einer Übersetzungsregel für die Anrufer-ID-Präsentation in Skype for Business Server
 
-**Zusammenfassung:** Informationen Sie zum Konfigurieren der Anrufer-ID mithilfe der Skype für Business Server-Systemsteuerung.
+**Zusammenfassung:** Erfahren Sie, wie Sie die Rufnummernanzeige mithilfe des Skype for Business Server-Control Panels konfigurieren.
 
-Mit Skype für Business Server Telefonnummer des angerufenen (d. h., die Telefonnummer genannt) aus dem e. 164-Format übersetzt werden kann, um die lokale Wählformat, die durch den _trunkpeer_ (d. h., die zugehörigen Gateway, private Branch Exchange (erforderlich ist PBX) oder SIP-Trunk). Dazu müssen Sie eine oder mehrere Übersetzungsregeln definieren, um den Anforderungs-URI vor dem Routen an den Trunkpeer zu übersetzen.
+Mit Skype for Business Server kann die Telefonnummer des angerufenen (also die Telefonnummer) aus dem E. 164-Format in das lokale Wählformat übersetzt werden, das vom _trunk-Peer_ (also dem zugehörigen Gateway, der privaten Niederlassungs Börse) benötigt wird ( PBX) oder SIP Trunk). Dazu müssen Sie eine oder mehrere Übersetzungsregeln definieren, um den Anforderungs-URI vor dem Routen an den Trunkpeer zu übersetzen.
 
-Skype für Business Server haben Sie auch die Möglichkeit, auch die Rufnummer des Anrufers (d. h., die Telefonnummer, die der Aufrufer den Aufruf ausführt) übersetzen aus dem e. 164-Format an das lokale Wählformat, das durch den trunkpeer erforderlich ist. So können Sie zum Beispiel eine Übersetzungsregel schreiben, die die Angabe „+44“ am Beginn einer Wählzeichenfolge entfernt und durch „0144“ ersetzt.
+Skype for Business Server bietet Ihnen auch die Möglichkeit, die Telefonnummer des Anrufers (also die Telefonnummer, von der der Anrufer anruft) vom E. 164-Format in das lokale Wählformat zu übersetzen, das vom trunk-Peer benötigt wird. So können Sie zum Beispiel eine Übersetzungsregel schreiben, die die Angabe „+44“ am Beginn einer Wählzeichenfolge entfernt und durch „0144“ ersetzt.
 
-### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>So konfigurieren Sie die Anrufer-ID mithilfe von Skype Business Server-Systemsteuerung
+### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>So konfigurieren Sie die Rufnummernanzeige mithilfe der Skype for Business Server-Systemsteuerung
 
-1. Öffnen von Skype Business Server-Systemsteuerung.
+1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
 
 2. Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing** und dann auf **Trunkkonfiguration**.
 
@@ -39,9 +39,9 @@ Skype für Business Server haben Sie auch die Möglichkeit, auch die Rufnummer d
 
 4. So konfigurieren Sie die Rufnummernanzeige:
 
-   - Um eine oder mehrere Regeln aus einer Liste mit allen Übersetzungsregeln in Ihrer Bereitstellung von Enterprise-VoIP verfügbar auszuwählen, klicken Sie auf **auswählen**. Klicken Sie in **Übersetzungsregeln für die wählende Nummer** auf die Regeln, die Sie dem Trunk zuordnen möchten, und klicken Sie dann auf **OK**.
+   - Wenn Sie eine oder mehrere Regeln aus einer Liste aller Übersetzungen auswählen möchten, die in Ihrer Enterprise-VoIP-Bereitstellung verfügbar sind, klicken Sie auf **auswählen**. Klicken Sie in **Übersetzungsregeln für die wählende Nummer** auf die Regeln, die Sie dem Trunk zuordnen möchten, und klicken Sie dann auf **OK**.
 
-   - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Ausführliche Informationen zum Definieren einer neuen Regel finden Sie unter [Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) in der Bereitstellungsdokumentation.
+   - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Details zum Definieren einer neuen Regel finden Sie unter [Definieren von Übersetzungsregeln](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) in der Bereitstellungsdokumentation.
 
    - Klicken Sie auf den Regelnamen und anschließend auf **Details anzeigen**, um eine Übersetzungsregel zu bearbeiten, die dem Trunk bereits zugeordnet ist. Ausführliche Informationen finden Sie unter [Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) in der Bereitstellungsdokumentation.
 

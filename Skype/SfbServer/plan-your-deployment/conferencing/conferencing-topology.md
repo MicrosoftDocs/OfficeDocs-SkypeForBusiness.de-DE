@@ -1,27 +1,27 @@
 ---
-title: Planen von Skype für Business Server Ihrer konferenztopologie
+title: Planen der Konferenz Topologie für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
-description: 'Zusammenfassung: Lesen Sie dieses Thema aus, um Informationen zum Planen Ihrer Topologie Conferencing in Skype für Business Server.'
-ms.openlocfilehash: bf54bca61631734a29ddd95ea8b16912f9bb5514
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um Informationen zum Planen Ihrer Konferenz Topologie in Skype for Business Server zu erhalten.'
+ms.openlocfilehash: 39067403513173e3fe26c5767042c62f549e0a7c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897954"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277398"
 ---
-# <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planen von Skype für Business Server Ihrer konferenztopologie
+# <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planen der Konferenz Topologie für Skype for Business Server
  
-**Zusammenfassung:** Lesen Sie dieses Thema aus, um Informationen zum Planen Ihrer Topologie Conferencing in Skype für Business Server.
+**Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie Ihre Konferenz Topologie in Skype for Business Server planen.
   
-In diesem Thema werden die topologiegrundlagen für Konferenzen in Skype für Business Server:
+In diesem Thema werden die Grundlagen der Topologie für Konferenzen in Skype for Business Server beschrieben:
   
 - Unterstützte Topologien
     
@@ -31,17 +31,17 @@ In diesem Thema werden die topologiegrundlagen für Konferenzen in Skype für Bu
     
 - Systemvoraussetzungen für große Besprechungen
     
-Weitere Informationen zu Hardware-und softwareanforderungen finden Sie unter [Hardware und Software-Anforderungen für Konferenzen in Skype für Business Server](hardware-and-software-requirements.md).
+Weitere Informationen zu den Hardware-und Softwareanforderungen finden Sie unter [Hardware-und Softwareanforderungen für Konferenzen in Skype for Business Server](hardware-and-software-requirements.md).
   
 ## <a name="supported-topologies"></a>Unterstützte Topologien
 
-In Skype für Business Server wird der Server mit Konferenzdienste immer mit den Front-End-Server oder Standard Edition-Servern kombiniert. Wenn Sie Skype für Business Server bereitstellen, werden automatisch Instant Messaging-Konferenzfunktionen bereitgestellt. Über den Topologie-Generator können Sie dann entscheiden, ob Sie Web-, A/V- und Einwahlkonferenzen bereitstellen möchten. Den Topologie-Generator können Sie außerdem nutzen, um die Konferenzfunktion zu einer vorhandenen Bereitstellung hinzuzufügen. Ausführliche Informationen zu topologiegrundlagen und Kollokation Szenarien finden Sie unter [Grundlagen der Topologie Skype für Business Server](../../plan-your-deployment/topology-basics/topology-basics.md).
+In Skype for Business Server ist der Server, auf dem Konferenzdienste ausgeführt werden, immer mit den Front-End-Servern oder Standard Edition-Servern verbunden. Bei der Bereitstellung von Skype for Business Server werden Sofortnachrichten-Konferenzfunktionen automatisch bereitgestellt. Über den Topologie-Generator können Sie dann entscheiden, ob Sie Web-, A/V- und Einwahlkonferenzen bereitstellen möchten. Den Topologie-Generator können Sie außerdem nutzen, um die Konferenzfunktion zu einer vorhandenen Bereitstellung hinzuzufügen. Ausführliche Informationen zu Topologie-Grundlagen und Zusammenarbeitsszenarien finden Sie unter [Topologie-Grundlagen für Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md).
   
 Sie können Konferenzfunktionen in folgenden Topologien und Konfigurationen bereitstellen:
   
-- Skype für Business Server Standard Edition
+- Skype for Business Server Standard Edition
     
-- Skype für Business Server Enterprise Edition
+- Skype for Business Server Enterprise Edition
     
 - Mit oder ohne Enterprise Voice
     
@@ -49,7 +49,7 @@ Sie können Konferenzfunktionen in folgenden Topologien und Konfigurationen bere
 
 Bei der Bereitstellung von Einwahlkonferenzen müssen Sie Folgendes berücksichtigen:
   
-- Einwahlkonferenzen erfordert einen Vermittlungsserver zu übersetzen Signale (und Medien in einigen Konfigurationen) zwischen Skype für Business Server und dem PSTN-Gateway und ein PSTN-Gateway Signale und Medien zwischen dem Vermittlungsserver und PSTN-Gateway übersetzen .
+- Für Einwahlkonferenzen ist ein Vermittlungs Server erforderlich, um Signalisierungen (und Medien in einigen Konfigurationen) zwischen Skype for Business Server und dem PSTN-Gateway zu übersetzen, und ein PSTN-Gateway, um Signalisierungs-und Medien Verbindungen zwischen dem Vermittlungsserver und dem PSTN-Gateway zu übersetzen. .
     
    Bevor Sie Einwahlkonferenzen konfigurieren können, müssen Sie entweder Enterprise Voice oder einen Vermittlungsserver und mindestens eine der folgenden Komponenten bereitstellen:
     
@@ -61,9 +61,9 @@ Bei der Bereitstellung von Einwahlkonferenzen müssen Sie Folgendes berücksicht
     
 - Sie können den Application Service, die Konferenzzentrale und die Konferenzankündigungsanwendung an einem zentralen Standort bereitstellen, aber nicht an einem Zweigstellenstandort.
     
-- Sie müssen einwahlkonferenzen in jedem Pool bereitstellen, auf dem Sie Skype für Business Server Konferenzen bereitstellen. Sie müssen nicht in jedem Pool Zugriffsnummern zuweisen, aber Sie müssen die Funktion für Einwahlkonferenzen in jedem Pool bereitstellen. Diese Anforderung unterstützt die Aufzeichnung Ihres Namens-Funktion, wenn ein Benutzer von einem Pool einen Skype für Business Server-Konferenz in einen anderen Pool Teilnahme an eine Zugriffsnummer aufruft. 
+- Sie müssen in jedem Pool, in dem Sie Skype for Business Server Conferencing bereitstellen, Einwahlkonferenzen bereitstellen. Sie müssen nicht in jedem Pool Zugriffsnummern zuweisen, aber Sie müssen die Funktion für Einwahlkonferenzen in jedem Pool bereitstellen. Diese Anforderung unterstützt das Feature "aufgezeichnete Namen", wenn ein Benutzer eine Zugriffsnummer aus einem Pool anruft, um an einer Skype for Business Server-Konferenz in einem anderen Pool teilzunehmen. 
     
-Weitere Informationen finden Sie unter [Planen von einwahlkonferenzen in Skype für Business Server](dial-in-conferencing.md).
+Weitere Informationen finden Sie unter [Planen von Einwahlkonferenzen in Skype for Business Server](dial-in-conferencing.md).
   
 ## <a name="web-conferencing-considerations"></a>Überlegungen hinsichtlich Webkonferenzen
 
@@ -74,23 +74,23 @@ Für die Webkonferenzfunktion sind folgende Komponenten erforderlich:
 - Integration in den Office Web App-/Office Online-Server. Dies ist für die Freigabe von PowerPoint-Dateien während einer Konferenz erforderlich.
     
 > [!NOTE]
-> Die neueste Iteration des Office Web Apps Server heißt Office Online-Server, die von Skype für Business Server unterstützt wird. Weitere Informationen finden Sie in der [Dokumentation zur Office Online-Server](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx). 
+> Die neueste Iteration von Office Web Apps Server heißt Office Online Server, das von Skype for Business Server unterstützt wird. Weitere Informationen finden Sie in der [Office Online Server-Dokumentation](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx). 
   
-Skype für Business Server bietet die folgenden Methoden zum Konfigurieren von Office Web Apps Server/Office Online Server. Abhängig von Ihren Anforderungen können Sie die folgenden Schritte ausführen:
+Skype for Business Server bietet die folgenden Möglichkeiten zum Konfigurieren von Office Web Apps Server/Office Online Server. Je nach Ihren Anforderungen können Sie:
   
-- **Installieren Sie beide Skype für Business Server und Office Web Apps Server/Office Online Server lokal hinter der Firewall Ihrer Organisation, und klicken Sie in der gleichen Netzwerkzone.** With this topology, external access to Office Web Apps Server/Office Online Server will be provided through your reverse proxy server. Idealerweise sollten Sie Office Web Apps Server/Office Online Server in der gleichen Netzwerkzone als Skype für Business Server installieren.
+- **Installieren Sie Skype for Business Server und Office Web Apps Server/Office Online Server lokal hinter der Firewall Ihrer Organisation und in derselben Netzwerkzone.** With this topology, external access to Office Web Apps Server/Office Online Server will be provided through your reverse proxy server. Im Idealfall sollten Sie Office Web Apps Server/Office Online Server in derselben Netzwerkzone wie Skype for Business Server installieren.
     
-    Externe Skype für Business-Clients kann Skype für Business Server und Office Web Apps Server/Office Online Server verbinden, mithilfe eines Reverseproxyservers, d. h. ein Server, der Anfragen aus dem Internet annimmt und an das interne Netzwerk weiterleitet. (Interne Clients führen Sie den Reverseproxyserver verwendet werden, da sie direkt mit Office Web Apps Server/Office Online Server verbinden können nicht erforderlich.) Diese Topologie funktioniert am besten, wenn Sie möchten eine dedizierte Office Web Apps Server/Office Online Server-Farm verwenden, die nur von Skype für Business Server verwendet wird.
+    Externe Skype for Business-Clients können eine Verbindung mit Skype for Business Server und Office Web Apps Server/Office Online Server herstellen, indem Sie einen Reverseproxy verwenden, bei dem es sich um einen Server handelt, der Anforderungen aus dem Internet annimmt und diese an das interne Netzwerk weiterleitet. (Interne Clients müssen den Reverse Proxy Server nicht verwenden, da Sie eine direkte Verbindung mit Office Web Apps Server/Office Online Server herstellen können.) Diese Topologie funktioniert am besten, wenn Sie eine dedizierte Office Web Apps-Server/Office Online-Serverfarm verwenden möchten, die nur von Skype for Business Server verwendet wird.
     
-- **Verwenden eines extern bereitgestellten Office Web Apps Server/Office Online Server an.** In dieser Topologie Skype für Business Server lokal bereitgestellt ist, und verwendet einen Office Web Apps Server/Office Online Server, die außerhalb der Skype für Netzwerkzone Business Server bereitgestellt wird. Dies kann vorkommen, wenn Office Web Apps Server/Office Online Server im Unternehmen anwendungsübergreifende freigegeben ist und in einem Netzwerk, dass Skype Business Server verwenden die externe Schnittstelle des Office Web Apps Server/Office Online Server bereitgestellt wird und umgekehrt.
+- **Verwenden Sie einen extern bereitgestellten Office Web Apps-Server/Office Online-Server.** In dieser Topologie wird Skype for Business Server lokal bereitgestellt und verwendet einen Office Web Apps-Server/Office Online-Server, der außerhalb der Skype for Business Server-Netzwerkzone bereitgestellt wird. Dies kann passieren, wenn Office Web Apps Server/Office Online Server für mehrere Anwendungen im Unternehmen freigegeben und in einem Netzwerk bereitgestellt wird, das Skype for Business Server zur Verwendung der externen Schnittstelle von Office Web Apps Server/Office Online Server benötigt. und umgekehrt.
     
-    Sie müssen nicht reverse-Proxyserver zu installieren. In diesem Fall werden alle Anfragen von Office Web Apps Server/Office Online Server an Skype für Business Server über den Edge-Server weitergeleitet. Internen und Ihre externe Skype für Business Clients Verbinden mit Office Web Apps Server/Office Online Server über die externe URL.
+    Sie müssen keinen Reverse-Proxy-Server installieren; Stattdessen werden alle Anforderungen vom Office Web Apps-Server/Office Online-Server an den Skype for Business-Server über Ihren Edgeserver weitergeleitet. Sowohl Ihre internen als auch Ihre externen Skype for Business-Clients stellen mithilfe der externen URL eine Verbindung mit Office Web Apps Server/Office Online Server her.
     
     Wenn der Office Web App-/Office Online-Server außerhalb Ihrer internen Firewall bereitgestellt ist, aktivieren Sie im Topologie-Generator die Option **Office Web App-/Office Online-Server ist in einem externen Netzwerk (d. h. Umkreis/Internet) bereitgestellt**.
     
-Weitere Informationen finden Sie unter [Konfigurieren der Integration mit Office Web Apps Server in Skype für Business Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
+Weitere Informationen finden Sie unter [Konfigurieren der Integration in Office Web Apps Server in Skype for Business Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
   
-Unabhängig von der ausgewählten Topologie ist es entscheidend, dass die korrekten Firewallports geöffnet sind. Sie müssen sicherstellen, dass DNS-Namen, IP-Adressen und Ports nicht durch Firewalls für Office Web Apps Server/Office Online Server, das System zum Lastenausgleich oder Skype für Business Server blockiert werden.
+Unabhängig von der ausgewählten Topologie ist es entscheidend, dass die korrekten Firewallports geöffnet sind. Sie müssen sicherstellen, dass DNS-Namen, IP-Adressen und Ports nicht von Firewalls auf dem Office Web Apps-Server/Office Online-Server, dem Lastenausgleichsmodul oder Skype for Business Server blockiert werden.
   
 > [!NOTE]
 > Eine weitere Option zum Bereitstellen von externem Zugriff auf den Office Web App-/Office Online-Server besteht darin, den Server im Umkreisnetzwerk bereitzustellen. Wenn Sie sich dafür entscheiden, denken Sie daran, dass für das Setup des Office Web App-/Office Online-Servers der Servercomputer ein Mitglied der Active Directory-Domäne sein muss. Es wird davon abgeraten, den Office Web App-/Office Online-Server im Umkreisnetzwerk zu installieren, es sei denn, Ihre Netzwerkrichtlinie lässt zu, dass Computer im Umkreisnetzwerk Active Directory-Domänenmitglieder sind. Stattdessen sollten Sie den Office Web Apps/Office Online-Server im internen Netzwerk installieren und externen Benutzern Zugriff über Ihren Reverseproxyserver ermöglichen.  
@@ -103,20 +103,20 @@ Bei einer einzigen großen Besprechung sind mindestens ein Front-End und ein Bac
 
 ![Topologie für eine große Besprechung](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
   
-Der Benutzer, die großen Besprechungen hostet, benötigen ihre Benutzer Konto verwaltet in Front-End-Pool. Jedoch empfohlen nicht, dass Sie anderen Benutzerkonten in diesem Pool hosten. Verwenden Sie es stattdessen nur für großen Besprechungen. Bewährt hat, erstellen Sie ein besonderes Benutzerkonto in diesem Pool nur für große Besprechungen Host verwendet werden. Da die große Besprechung-Einstellung für die Leistung optimiert ist, ihn als normaler Benutzer verwenden möglicherweise Probleme wie der fehlenden zur Förderung einer P2P-Sitzung zu einer Besprechung, wenn ein PSTN-Endpunkt beteiligt ist.
+Der Benutzer, der die umfangreichen Besprechungen hostet, muss sein Benutzerkonto im Front-End-Pool verwaltet haben. Es wird jedoch nicht empfohlen, andere Benutzerkonten in diesem Pool zu hosten. Verwenden Sie Sie stattdessen nur für die umfangreichen Besprechungen. Die bewährte Methode besteht darin, ein spezielles Benutzerkonto in diesem Pool zu erstellen, das nur zum Hosten großer Besprechungen verwendet wird. Da die große Besprechungs Einstellung für die Leistung optimiert ist, kann die Verwendung als normaler Benutzer Probleme haben, beispielsweise die Unfähigkeit, eine P2P-Sitzung zu einer Besprechung zu bewerben, wenn ein PSTN-Endpunkt involviert ist.
   
 Bei der Verwaltung eines Pools mit genau zwei Front-End-Servern sind spezielle Überlegungen erforderlich. Weitere Informationen finden Sie unter [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) und [Reference topologies for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/reference-topologies.md).
   
-Wenn Sie zusätzlich optional eine Sicherung zur Notfallwiederherstellung und ein Failover für den für große Besprechungen verwendeten Pool bereitstellen möchten, können Sie ihn auch gemeinsam mit einem ähnlich eingerichteten dedizierten Pool in einem anderen Rechenzentrum verwenden. Weitere Informationen hierzu finden Sie unter [Planen für hohe Verfügbarkeit und notfallwiederherstellung in Skype für Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Wenn Sie zusätzlich optional eine Sicherung zur Notfallwiederherstellung und ein Failover für den für große Besprechungen verwendeten Pool bereitstellen möchten, können Sie ihn auch gemeinsam mit einem ähnlich eingerichteten dedizierten Pool in einem anderen Rechenzentrum verwenden. Ausführliche Informationen finden Sie unter [Planen von Höchstverfügbarkeit und Disaster Recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 Zusätzliche Notizen zur Topologie:
   
-- Eine Dateifreigabe ist erforderlich, um Besprechungsinhalte zu speichern und um, wenn ein Archivierungsserver bereitgestellt und aktiviert wurde, die Archivierungsdateien zu speichern. Die Dateifreigabe kann dem Pool zugeordnet werden oder dieselbe Dateifreigabe sein, die von einem anderen Pool an diesem Standort verwendet wurde, an dem der Pool bereitgestellt wurde. Ausführliche Informationen zum Konfigurieren der Dateifreigabe finden Sie unter [Erstellen einer Dateifreigabe in Skype für Business Server 2015](../../deploy/install/create-a-file-share.md).
+- Eine Dateifreigabe ist erforderlich, um Besprechungsinhalte zu speichern und um, wenn ein Archivierungsserver bereitgestellt und aktiviert wurde, die Archivierungsdateien zu speichern. Die Dateifreigabe kann dem Pool zugeordnet werden oder dieselbe Dateifreigabe sein, die von einem anderen Pool an diesem Standort verwendet wurde, an dem der Pool bereitgestellt wurde. Details zum Konfigurieren der Dateifreigabe finden Sie unter [Erstellen einer Dateifreigabe in Skype for Business Server 2015](../../deploy/install/create-a-file-share.md).
     
-- Zur Aktivierung der PowerPoint-Präsentationsfunktion in großen Besprechungen ist ein Office Web App-/Office Online-Server erforderlich. Der Office Web App-/Office Online-Server kann einem großen Besprechungspool zugeordnet werden oder es kann auch derselbe Office Web App-/Office Online-Server sein, der von anderen Pools an diesem Standort verwendet wurde, an dem der dedizierte Pool bereitgestellt wurde. Weitere Informationen finden Sie unter [Konfigurieren der Integration mit Office Web Apps Server in Skype für Business Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
+- Zur Aktivierung der PowerPoint-Präsentationsfunktion in großen Besprechungen ist ein Office Web App-/Office Online-Server erforderlich. Der Office Web App-/Office Online-Server kann einem großen Besprechungspool zugeordnet werden oder es kann auch derselbe Office Web App-/Office Online-Server sein, der von anderen Pools an diesem Standort verwendet wurde, an dem der dedizierte Pool bereitgestellt wurde. Weitere Informationen finden Sie unter [Konfigurieren der Integration in Office Web Apps Server in Skype for Business Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
     
 - Bei einem Lastenausgleich für die Front-End-Server ist ein Hardwaregerät zum Lastenausgleich für den HTTP-Datenverkehr (z. B. beim Herunterladen von Besprechungsinhalten) erforderlich. DNS-Lastenausgleich wird für den SIP-Datenverkehr empfohlen. Ausführliche Informationen finden Sie unter [Load balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md). 
     
-- Wenn Sie Monitoring Server für den dedizierten großen besprechungspool verwenden möchten, sollten mit dem Monitoring Server und die Datenbank, die gemeinsam genutzt werden auf allen Front-End-Server-Pools in Ihrer Skype für Business Server-Bereitstellung. Weitere Informationen finden Sie unter [Planen der Überwachung in Skype für Business Server](../../plan-your-deployment/monitoring.md).
+- Wenn Sie den Monitoring Server für den dedizierten groß Besprechungs Pool verwenden möchten, empfehlen wir die Verwendung des Überwachungsservers und der zugehörigen Datenbank, die für alle Front-End-Server Pools in Ihrer Skype for Business Server-Bereitstellung freigegeben sind. Weitere Informationen finden Sie unter [Planen der Überwachung in Skype for Business Server](../../plan-your-deployment/monitoring.md).
     
 

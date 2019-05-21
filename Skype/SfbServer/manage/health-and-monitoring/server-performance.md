@@ -1,27 +1,27 @@
 ---
-title: Server Performance Report in Skype für Business Server
+title: Bericht zur Server Leistung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
-description: 'Zusammenfassung: Informationen Sie zu vom Server Performance Report in Skype für Business Server.'
-ms.openlocfilehash: a326af691d461d64f0dcbc1fe4f6451db9b34cdd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Bericht zur Server Leistung in Skype for Business Server.'
+ms.openlocfilehash: c2956910384c1e48fc9d38a9084bf1a4afe48539
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887223"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279788"
 ---
-# <a name="server-performance-report-in-skype-for-business-server"></a>Server Performance Report in Skype für Business Server
+# <a name="server-performance-report-in-skype-for-business-server"></a>Bericht zur Server Leistung in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu vom Server Performance Report in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den Bericht zur Server Leistung in Skype for Business Server.
   
-Server Performance Report enthält eine Liste der Skype für Business Server-Servern, die den höchsten Prozentsatz der Anrufe schlechter aufgetreten ist. Der Bericht führt die Server nach Servertyp auf und bietet separate Statistiken für folgende Typen:
+Der Serverleistungsbericht enthält eine Liste von Skype for Business Server-Servern, die den höchsten Prozentsatz schlechter Anrufe erlebt haben. Der Bericht führt die Server nach Servertyp auf und bietet separate Statistiken für folgende Typen:
   
 - Vermittlungsserver
     
@@ -37,11 +37,11 @@ Server Performance Report enthält eine Liste der Skype für Business Server-Ser
     
 - Anwendungsfreigabe (einschließlich Anwendungsfreigabemetriken für A/V-Konferenzserver und A/V-Edgeserver)
     
-Es ist wichtig zu beachten, dass die Rangfolge als relative Platzierung in diesem Bericht angezeigt. Wenn Ihr Server mit der schlechtesten Leistung z. B. einen Anruf schlechter Qualität unter 1.000 Anrufen hatte, dann ist das ein sehr akzeptabler Prozentsatz von 0,1 %. Wenn dieser Server jedoch der Server mit der schlechtesten Leistung ist (d. h., alle anderen Server haben einen Prozentsatz an Anrufen schlechter Qualität unter 0,1 %), dann wird der Server weiterhin im Bericht über Serverleistung aufgeführt.
+Beachten Sie, dass die Rangfolge in diesem Bericht als relative Rankings angegeben ist. Wenn Ihr Server mit der schlechtesten Leistung z. B. einen Anruf schlechter Qualität unter 1.000 Anrufen hatte, dann ist das ein sehr akzeptabler Prozentsatz von 0,1 %. Wenn dieser Server jedoch der Server mit der schlechtesten Leistung ist (d. h., alle anderen Server haben einen Prozentsatz an Anrufen schlechter Qualität unter 0,1 %), dann wird der Server weiterhin im Bericht über Serverleistung aufgeführt.
   
 ## <a name="accessing-the-server-performance-report"></a>Zugriff auf den Bericht über Serverleistung
 
-Der Zugriff auf den Bericht über Serverleistung erfolgt auf der Startseite für Überwachungsberichte. Sie können den [Call List Report in Skype für Business Server](call-list-report-0.md) Drilldown, indem Sie auf eine der folgenden Metriken:
+Der Zugriff auf den Bericht über Serverleistung erfolgt auf der Startseite für Überwachungsberichte. Sie können einen Drilldown zum [Bericht Anrufliste in Skype for Business Server](call-list-report-0.md) durchführen, indem Sie auf eine der folgenden Metriken klicken:
   
 - Anruflautstärke
     
@@ -67,11 +67,11 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über
 |:-----|:-----|
 |**Von** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 07.07.2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 03.07.2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
 |**Bis** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 07.07.2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 03.07.2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Servertyp** <br/> |Gibt den Typ des Servers an, über dessen Leistung ein Bericht erstellt werden soll. Wählen Sie eine der folgenden Optionen aus:  <br/> [All] Vermittlungsserver A / V-Konferenzserver A / V-Edgeserver |
-|**Top N** <br/> |Gibt die Anzahl der Server an (basierend auf dem Prozentsatz der Anrufe schlechter Qualität), die in den einzelnen Kategorien angezeigt werden sollen. Wenn Sie z.B. **5** auswählen, werden die fünf Server mit der schlechtesten Leistung angezeigt. Wählen Sie eine der folgenden Optionen aus:<br/> [All] 5-10 |
-|**Zugriffstyp** <br/> |Gibt an, ob der Client am internen oder am externen Netzwerk angemeldet wurde, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> [All] Interne externe |
-|**Netzwerktyp** <br/> |Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus:  <br/> [All] Verkabelten Wireless |
-|**VPN** <br/> |Gibt an, ob ein externer Client eine VPN-Verbindung (Virtual Private Network) verwendete, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> [All] VPN-nicht-VPN |
+|**Servertyp** <br/> |Gibt den Typ des Servers an, über dessen Leistung ein Bericht erstellt werden soll. Wählen Sie eine der folgenden Optionen aus:  <br/> Alle Vermittlungsserver a/v-Konferenzserver a/v-Edgeserver |
+|**Top N** <br/> |Gibt die Anzahl der Server an (basierend auf dem Prozentsatz der Anrufe schlechter Qualität), die in den einzelnen Kategorien angezeigt werden sollen. Wenn Sie z.B. **5** auswählen, werden die fünf Server mit der schlechtesten Leistung angezeigt. Wählen Sie eine der folgenden Optionen aus:<br/> [Alle] 5 10 |
+|**Zugriffstyp** <br/> |Gibt an, ob der Client am internen oder am externen Netzwerk angemeldet wurde, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> Alle Intern extern |
+|**Netzwerktyp** <br/> |Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus:  <br/> Alle Kabelgebundenes WLAN |
+|**VPN** <br/> |Gibt an, ob ein externer Client eine VPN-Verbindung (Virtual Private Network) verwendete, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> Alle VPN-nicht-VPN |
    
 ## <a name="metrics"></a>Metriken
 
@@ -85,7 +85,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über S
 |**Anruflautstärke** <br/> |Nein  <br/> |Gesamtzahl der ausgeführten Anrufe.  <br/> |
 |**Prozentsatz der Anrufe schlechter Qualität** <br/> |Nein  <br/> |Die Gesamtzahl der Anrufe, die als Anrufe schlechter Qualität klassifiziert werden. Dies sind Anrufe, bei denen für mindestens eine der gemessenen Metriken der zulässige Wert überschritten wurde (z. B. ein Anruf mit übermäßigem Jitter).  <br/> |
 |**Roundtrip (ms)** <br/> |Ja  <br/> |Die durchschnittliche Zeit (in Millisekunden), die ein RTP-Paket (Real-time Transport Protocol) benötigt, um zu einem anderen Endpunkt und wieder zurück zu gelangen. Eine Roundtripzeit von 100 ms oder weniger gilt als akzeptable Qualität.  <br/> Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routingkonfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.  <br/> |
-|**Beeinträchtigung (MOS)** <br/> |Ja  <br/> |Die durchschnittliche Beeinträchtigung der Qualität, die gemäß Mean Opinion Score (MOS) während eines Anrufs auftrat. Die Beeinträchtigungswerte liegen zwischen 0,0 (schlecht) und 5,0 (gut). Ein Wert von 0,5 oder weniger gilt als akzeptable Beeinträchtigung. Früher wurden Mean Opinion Scores berechnet, indem man Benutzer die Qualität eines Telefongesprächs auf einer Skala von 1 bis 5 bewerten ließ. In Skype für Business Server verwendet den Monitoring Server einen Satz von Algorithmen vorhergesagt wie Benutzer einen Anruf bewertet haben würde.  <br/> Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
+|**Beeinträchtigung (MOS)** <br/> |Ja  <br/> |Die durchschnittliche Beeinträchtigung der Qualität, die gemäß Mean Opinion Score (MOS) während eines Anrufs auftrat. Die Beeinträchtigungswerte liegen zwischen 0,0 (schlecht) und 5,0 (gut). Ein Wert von 0,5 oder weniger gilt als akzeptable Beeinträchtigung. Früher wurden Mean Opinion Scores berechnet, indem man Benutzer die Qualität eines Telefongesprächs auf einer Skala von 1 bis 5 bewerten ließ. In Skype for Business Server verwendet der Monitoring Server einen Satz von Algorithmen, um vorherzusagen, wie Nutzer einen Anruf bewertet hätten.  <br/> Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
 |**Paketverlust** <br/> |Ja  <br/> |Die durchschnittliche Rate an RTP-Paketverlusten (Real-Time Transport Protocol; ein Protokoll für die Übertragung von Audio und Video über das Internet). Zu Paketverlusten kommt es, wenn RTP-Pakete ihr Ziel nicht erreichen. Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
 |**Jitter (ms)** <br/> |Ja  <br/> |Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für das „Zittern“ der Übertragung während eines Anrufs.) Hohe Jitterwerte werden in der Regel durch Überlastung oder einen überlasteten Medienserver verursacht und führen zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
 |**Ausblendungsverhältnis der Reparatur** <br/> |Ja  <br/> |Das durchschnittliche Verhältnis zwischen ausgeblendeten Audiosamples und der Gesamtzahl der Samples. (Ausgeblendete Audiosamples sind ein Verfahren zum „Glätten“ der „holprigen“ Übertragung, die normalerweise von verworfenen Netzwerkpaketen verursacht wird.) Ein hoher Wert gibt an, dass wegen Paketverlusten oder Jitters Verlustausblendung in großem Umfang angewendet wurde und führt zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
@@ -105,7 +105,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über S
 |**Durchschnittliche Bitrate (KBit/s)** <br/> |Nein  <br/> |Durchschnittliche Video-Bitrate (in Kilobit pro Sekunde).  <br/> |
 |**Niedrige Bitrate %** <br/> |Nein  <br/> |Prozentsatz aller Anrufe, bei denen die Bitrate niedrig war.  <br/> |
 |**Verlust ausgehender Pakete** <br/> |Nein  <br/> |RTP-Paketverluste (Real-Time Transport Protocol; ein Protokoll für die Übertragung von Audio und Video über das Internet) für ausgehende Pakete. Zu Paketverlusten kommt es, wenn RTP-Pakete ihr Ziel nicht erreichen. Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
-|**Eingefrorene Frames %** <br/> |Nein  <br/> |Prozentsatz der "fixierten" Frames. In einem eingefrorenen Frame wird das Video nicht fortgesetzt, während der Audioteil des Anrufs weitergeht.  <br/> |
+|**Eingefrorene Frames %** <br/> |Nein  <br/> |Prozentsatz der "fixierten" Frames In einem eingefrorenen Frame wird das Video nicht fortgesetzt, während der Audioteil des Anrufs weitergeht.  <br/> |
 |**Durchschnittliche ausgehende Framerate** <br/> |Nein  <br/> |Durchschnittliche Framerate für ausgehende Übertragungen während des Anrufs.  <br/> |
 |**Durchschnittliche eingehende Framerate** <br/> |Nein  <br/> |Durchschnittliche Framerate für eingehende Übertragungen während des Anrufs.  <br/> |
 |**Niedrige eingehende Framerate %** <br/> |Nein  <br/> |Prozentsatz aller Anrufe, bei denen die Bitrate für eingehende Videodaten niedrig war.  <br/> |

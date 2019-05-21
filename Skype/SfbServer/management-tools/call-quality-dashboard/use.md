@@ -1,26 +1,26 @@
 ---
-title: Verwenden von Anrufqualität Dashboards für Skype für Business Server
+title: Verwenden des Anruf Qualitäts Dashboards für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: 'Zusammenfassung: Informationen Sie zur Verwendung des Qualität-Dashboards aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 91df986e985a9ccfafd17d3fc082e6786ad52657
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Informationen zur Verwendung des Dashboards für die Anrufqualität. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: b89f766cfcbfbc9fe2c700162f3c0b4e69a7e6bd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915010"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274555"
 ---
-# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Verwenden von Anrufqualität Dashboards für Skype für Business Server
+# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Verwenden des Anruf Qualitäts Dashboards für Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zur Verwendung des Qualität-Dashboards aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
+**Zusammenfassung:** Informationen zur Verwendung des Dashboards für die Anrufqualität. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.
   
 Mit CQD können IT-Profis Daten aggregieren, um die Bereiche in ihrer Umgebung zu ermitteln, in denen die Medienqualität beeinträchtigt ist. CQD ermöglicht den Vergleich von Statistiken für verschiedene Benutzergruppen und die Ermittlung von Trends und Mustern. Dabei liegt der Schwerpunkt nicht auf der Lösung individueller Probleme mit Anrufen, sondern auf der Erkennung von Problemen und Lösungen, die auf viele Benutzer in einer bestimmten Umgebung anwendbar sind.
   
@@ -34,33 +34,33 @@ Im Anrufqualitäts-Dashboard erwartet den Benutzer Folgendes:
   
 ![Verwenden von CQD](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
   
-1. Der Bereich"Zusammenfassung" ist, in dem Kontext für den "Bericht so einrichten," (rechts) gefunden werden kann. 
+1. Im Bereich "Zusammenfassung" finden Sie den Kontext für den "Bericht Satz" (rechts). 
     
-2. Bericht Ebene Eigenschaften festlegen (einschließlich Y-Achse Höhe), indem Sie auf "Bearbeiten" im Bereich Zusammenfassung festgelegt werden können.
+2. Eigenschaften der Berichtssatz Ebene (einschließlich Höhe der Y-Achse) können durch Klicken auf "Bearbeiten" im Zusammenfassungsbereich eingestellt werden.
     
 3. Die Breadcrumb-Navigation hilft Benutzern, ihren aktuellen Standort innerhalb der Berichtssatzhierarchie zu identifizieren.  
     
 4. Berichte mit Unterberichten werden in blau angezeigt. Wenn Sie auf den Link klicken, können Sie Detailinformationen zu den untergeordneten Berichten anzeigen.  
     
-Wenn Sie die Maus über die Balkendiagramme und Trendlinien bewegen, werden detaillierte Werte angezeigt. Zeigt der Bericht, den Fokus hat im Aktionsmenü: "Edit", "Kopieren", "Löschen" und "Download". 
+Wenn Sie die Maus über die Balkendiagramme und Trendlinien bewegen, werden detaillierte Werte angezeigt. In dem Bericht, der den Fokus hat, wird das Aktionsmenü angezeigt: "Bearbeiten", "Klonen", "Löschen" und "herunterladen". 
   
 ### <a name="default-reports"></a>Standardberichte
 
 Wenn ein Benutzer zum ersten Mal auf das Portal des Anrufqualitäts-Dashboards zugreift, werden automatisch einige Standardberichte erstellt. Diese Berichte werden manchmal als Systemberichte bezeichnet. Der Benutzer kann diese Berichte wahlweise ändern oder löschen. Im Allgemeinen erweitern Benutzer die Standardberichte, indem sie neben- und untergeordnete Berichte erstellen.  
   
-Auf der obersten Ebene zeigt "Audio Datenströme monatliche" Trendbericht über den monatlichen Trend für alle Audiostreams. Wenn die Maus über die Balken in einem Balkendiagramm wird eine ausführlichere Ansicht der Daten dargestellt durch das Balkendiagramm angezeigt. Durch Klicken auf den Titel des monatlichen Trendbericht für Audio-Streams wird mit dem Bericht "Verwaltet nicht verwalteten Audiostreams Vs" navigieren, an denen die Berichte zwischen verwaltete und nicht verwaltete Aufrufe aufgeteilt werden. Verwaltete Aufrufe werden Anrufe aus innerhalb der Unternehmensfirewall über eine drahtgebundene Verbindung. Nicht verwaltete Aufrufe umfassen Aufrufe von außerhalb der Unternehmensfirewall als auch für alle Anrufe über Wi-Fi.
+Auf der obersten Ebene zeigt der Bericht "Audio-Streams monatlich Trend" den monatlichen Trend für alle Audiostreams. Wenn Sie den Mauszeiger über die Balken in einem Balkendiagramm bewegen, wird eine detailliertere Ansicht der durch das Balkendiagramm dargestellten Daten angezeigt. Durch Klicken auf den Titel des monatlichen Trend Berichts für Audiostreams wird zum Bericht "verwalteter vs-nicht verwalteter Audiostreams" gewechselt, in dem die Berichte zwischen verwalteten und nicht verwalteten anrufen aufgeteilt werden. Verwaltete Anrufe sind Anrufe, die innerhalb der Unternehmensfirewall über kabelgebundene Verbindungen getätigt werden. Zu den nicht verwalteten anrufen gehören Anrufe, die von außerhalb der Unternehmensfirewall getätigt werden, sowie alle Anrufe, die über WLAN erfolgen.
   
-Der anderen Bericht der obersten Ebene heißt "Benutzer gemeldete Anrufqualität Bewertung Histogramm." Die Anrufqualitätsbewertungen sind die Zahlen, die Skype for Business-Benutzer am Ende eines Anrufes zur Qualitätsbewertung angeben. Das Bewertungsspektrum reicht von 1 bis 5, wobei 1 die schlechteste und 5 die beste Bewertung ist. Im Histogramm wird angezeigt, wie viele Audioanrufe innerhalb eines Monats mit welcher Zahl bewertet wurden. 
+Der andere Bericht auf oberster Ebene wird als "vom Benutzer gemeldete Anruf Qualitätsbewertung-Histogramm" bezeichnet. Die Anrufqualitätsbewertungen sind die Zahlen, die Skype for Business-Benutzer am Ende eines Anrufes zur Qualitätsbewertung angeben. Das Bewertungsspektrum reicht von 1 bis 5, wobei 1 die schlechteste und 5 die beste Bewertung ist. Im Histogramm wird angezeigt, wie viele Audioanrufe innerhalb eines Monats mit welcher Zahl bewertet wurden. 
   
 In der Regel werden die Berichte mit zusätzlichen Datenfiltern angezeigt, wenn Sie auf den Titel eines Berichts klicken. Bei den Systemberichten zeigt jeder Unterbericht eine Teilmenge der Daten an, die im übergeordneten Bericht verfügbar sind. So entsteht ein einfach aufgebautes Modell für die Problemlösung: Der Problembereich kann eingekreist werden, indem überprüft wird, zu welchem Unterbericht die problematischen Daten oder der problematische Trend gehört. Durch die Möglichkeit, neue Unterberichte zu erstellen, können Benutzer ihre eigenen Hypothesen bezüglich des Ursprungs bestimmter Datentrends überprüfen.
   
 ### <a name="creating-and-editing-reports"></a>Erstellen und Bearbeiten von Berichten
 
-Wenn Sie auf "Bearbeiten" im Aktionsmenü eines Berichts klicken, sehen Benutzer im Bericht-Editor. Jeder Bericht basiert auf einer Abfrage im Cube. Ein Bericht ist die visuelle Darstellung der Daten, die von der jeweiligen Abfrage zurückgegeben werden. Der Bericht-Editor ist eine Benutzerschnittstelle zum Bearbeiten dieser Abfragen sowie der Anzeigeoptionen des Berichts. Wenn ein Benutzer den Bericht-Editor öffnet, wird Folgendes angezeigt:
+Wenn Sie im Aktionsmenü eines Berichts auf "Bearbeiten" klicken, wird der Bericht-Editor angezeigt. Jeder Bericht basiert auf einer Abfrage im Cube. Ein Bericht ist die visuelle Darstellung der Daten, die von der jeweiligen Abfrage zurückgegeben werden. Der Bericht-Editor ist eine Benutzerschnittstelle zum Bearbeiten dieser Abfragen sowie der Anzeigeoptionen des Berichts. Wenn ein Benutzer den Bericht-Editor öffnet, wird Folgendes angezeigt:
   
 ![Verwenden von CQD](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
   
-1. Dimensionen, Kennzahlen und Filter werden im linken Bereich ausgewählt. Mauszeiger über einem vorhandenen Werte wird eine Schaltfläche "X" angezeigt, die der Wert entfernt werden kann. Durch Klicken auf die Schaltfläche "plus" neben einer Überschrift, öffnen Sie im Dialogfeld zum Hinzufügen eines neuen Dimension, Measure oder Filter. 
+1. Dimensionen, Kennzahlen und Filter werden im linken Bereich ausgewählt. Wenn Sie auf einen der vorhandenen Werte zeigen, wird die Schaltfläche "x" angezeigt, mit der der Wert entfernt werden kann. Wenn Sie auf die Schaltfläche "Plus" neben einer Überschrift klicken, wird das Dialogfeld zum Hinzufügen einer neuen Bemaßung, eines Measures oder eines Filters geöffnet. 
     
 2. Optionen für die Diagrammanpassung werden oben angezeigt.
     
@@ -74,7 +74,7 @@ Wenn StartDate.Month als Dimension hinzugefügt wird und die Daten als Trend in 
   
 ![Verwenden von CQD](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
   
-In der Reihenfolge für die Balkendiagramme und die Sparklines angezeigt werden muss das Kontrollkästchen "Anzeigen Sparklines" am oberen Rand des Bericht-Editors überprüft werden soll. Dadurch wird die Option Trend und nach Monat unten auf der letzten Dimension sein, die auch durch Klicken auf den Monat und mithilfe der nach-oben und nach unten weisenden Pfeil, um die StartDate.Month nach oben oder nach unten verschoben durchgeführt werden können. 
+Damit die Balkendiagramme und Sparklines angezeigt werden, muss das Kontrollkästchen "Sparklines anzeigen" oben im Berichts-Editor aktiviert sein. Damit wählen Sie die Option Trend aus, und verschieben Sie Monat nach unten, um die letzte Dimension zu sein, die Sie auch erreichen können, indem Sie auf Monat klicken und die aufwärts-und Abwärtspfeile verwenden, um das Startdatum zu verschieben. Monat nach oben oder unten. 
   
 ### <a name="settings"></a>Einstellungen
 
@@ -82,9 +82,9 @@ Das Menü „Einstellungen“ in der oberen rechten Ecke des Dashboards enthält
   
 ![Verwenden von CQD](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
   
-Ob zum Anzeigen von Beschreibungen und Zeitstempel bis zu einzelnen Benutzern werden, und diese Einstellungen wirken sich nur auf die einzelnen Version des Dashboards, nicht ändert nicht der Bericht festzulegen, oder welche anderen Benutzern angezeigt. Löschen des Caches führt dazu, dass alle Abfragen, um ihre Daten aus dem Cube neu zu laden, beim Wiederherstellen der Standardeinstellungen alle Berichte Benutzer erstellt oder geändert löscht und neu erstellt das System Bericht Set – was ein Benutzers angezeigt wird, wenn zum ersten Mal anmelden.
+Ob Beschreibungen und Zeitstempel angezeigt werden sollen, ist den einzelnen Benutzern überlassen, und diese Einstellungen wirken sich nur auf die Version des Dashboards des jeweiligen Benutzers aus, nicht auf den Bericht Satz oder auf die Anzeige anderer Benutzer. Durch das Löschen des Caches werden alle Abfragen dazu veranlasst, die Daten aus dem Cube erneut zu laden, während beim Wiederherstellen der Standardwerte alle vom Benutzer erstellten oder geänderten Berichte gelöscht und der Systemberichts Satz neu erstellt wird – was ein Benutzer beim erstmaligen Anmelden sehen würde.
   
-Der Benutzer-Dashboard-Link führt zu einer Seite, auf der Benutzer andere CQD-Benutzer sehen und ihre Berichte durchsuchen können. Wenn Sie einen Berichtsatz teilen möchten, kopieren Sie einfach den Link in der URL-Leiste und geben Sie ihn an einen anderen CQD-Benutzer frei. Dieser Link wird identisch sein, wie eine andere Benutzer auf der Seite Benutzer Dashboard-Verknüpfung, unter der Benutzername des Benutzers angezeigt werden.
+Der Benutzer-Dashboard-Link führt zu einer Seite, auf der Benutzer andere CQD-Benutzer sehen und ihre Berichte durchsuchen können. Wenn Sie einen Berichtsatz teilen möchten, kopieren Sie einfach den Link in der URL-Leiste und geben Sie ihn an einen anderen CQD-Benutzer frei. Dieser Link wird mit dem identisch sein, den andere Benutzer auf der Seite "Benutzer Dashboard-Link" unter dem Nutzernamen sehen würden.
   
 ### <a name="supplying-subnet-information"></a>Bereitstellen von Informationen zu Subnetzen
 
@@ -129,7 +129,7 @@ Das Schema für diese Tabellen sieht aus wie folgt:
 |BuildingKey  <br/> |int  <br/> |Ja  <br/> |Fremdschlüssel, sollte mit einem der Einträge in der Tabelle CqdBuilding übereinstimmen.  <br/> |
 |UpdatedDate  <br/> |datetime  <br/> |Nein  <br/> |Datum, an dem der Eintrag zuletzt aktualisiert wurde.  <br/> |
    
-Standardmäßig hat dieses nächsten Tabelle einen Eintrag (0, "Unbekannt").
+Standardmäßig enthält die nächste Tabelle einen Eintrag (0; "unbekannt").
   
 **CqdBuildingType**
 
@@ -138,7 +138,7 @@ Standardmäßig hat dieses nächsten Tabelle einen Eintrag (0, "Unbekannt").
 |BuildingTypeId  <br/> |int  <br/> |Nein  <br/> |Primärschlüssel für die Tabelle CqdBuildingType.  <br/> |
 |BuildingTypeDesc  <br/> |char(18)  <br/> |Nein  <br/> |Beschreibung des Gebäudetyps.  <br/> |
    
-Standardmäßig hat dieses nächsten Tabelle einen Eintrag (0, "Unknown", 0, null).
+Standardmäßig enthält die nächste Tabelle einen Eintrag (0; "unbekannt"; 0; null).
   
 **CqdBuildingOwnershipType**
 
@@ -149,7 +149,7 @@ Standardmäßig hat dieses nächsten Tabelle einen Eintrag (0, "Unknown", 0, nul
 |LeaseInd  <br/> |tinyint  <br/> |Ja  <br/> |Index, der sich auf eine andere Reihe in der Tabelle CqdBuildingOwnershipType bezieht und zum Identifizieren geleaster Gebäude dient.  <br/> |
 |Besitzer  <br/> |varchar(50)  <br/> |Ja  <br/> |Besitzer des Gebäudes.  <br/> |
    
-Standardmäßig hat dieses nächsten Tabelle einen Eintrag (0, "Unknown", 0, null).
+Standardmäßig enthält die nächste Tabelle einen Eintrag (0; "unbekannt"; 0; null).
   
 **CqdBssid**
 
@@ -167,7 +167,7 @@ Ein CQD-Stream kann von guter oder schlechter Qualität oder unqualifiziert sein
   
 - Ein Stream von schlechter Qualität ist jede Kombination der schlechten Anrufmetriken, die den Grenzwert überschreiten.
     
-- Wenn ein Stream in einen Anruf schlechter ist, sind beide Streams des Anrufs gekennzeichnete schlecht. In Konferenzen die einzelnen Teilnehmer wird als eindeutige Anruf gezählt und auf unabhängig von allen anderen gemeldet wird.
+- Wenn ein Datenstrom in einem Anruf schlecht ist, werden beide Streams des Anrufs als "schlecht" gekennzeichnet. In Konferenzen wird jeder Teilnehmer als einmaliger Anruf gewertet und unabhängig von allen anderen gemeldet.
     
 - Nicht klassifizierte Streams sind Streams ohne Qualitätsmetriken (d. h. synthetische Transaktionen, kurze Anrufe).
     
@@ -189,7 +189,7 @@ JPDR-Definition = Definition für Anrufe schlechter Qualität minus RatioConceal
   
 ## <a name="where-is-callercallee"></a>Wo befindet sich der Anrufer/Angerufene?
 
-CQD verwenden nicht Anrufer/angerufenen Felder. Diese wurden umbenannte "First" und "Sekunde", da die dazwischen liegenden Schritte zwischen dem Anrufer und des angerufenen.
+CQD verwendet keine Anrufer/anrufenden-Felder. Diese wurden in "First" und "Second" umbenannt, da zwischen dem Anrufer und dem angerufenen dazwischenliegende Schritte vorhanden sind.
   
  **Erster** Ist immer der Server-Endpunkt (z. B. AV-MCU; Vermittlungsserver) wenn ein Server am Stream beteiligt ist.
   
@@ -203,11 +203,11 @@ CQD verwenden nicht Anrufer/angerufenen Felder. Diese wurden umbenannte "First" 
 |2 (AVMCU)   <br/> |1 (mMediationServer)   <br/> |Endpunkt 2  <br/> |Endpunkt 1  <br/> |
 |4 (Skype for Business)  <br/> |4 (Skype for Business)   <br/> |Der Anrufer in MediaLine   <br/> |Der Angerufene in MMediaLine  <br/> |
    
-Falls beide Endpunkte denselben Typ aufweisen, legt CQD den Anrufer als Ersten fest, sodass der Angerufene zum Zweiten wird. [In diesem Blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx) Weitere Informationen finden Sie.
+Falls beide Endpunkte denselben Typ aufweisen, legt CQD den Anrufer als Ersten fest, sodass der Angerufene zum Zweiten wird. Weitere Informationen finden Sie in [diesem Blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx) .
   
 ## <a name="accounting-for-vpn"></a>VPN-Kontoerstellung
 
-Wenn VPN-Lösung genau VPN-Flag festlegen bekannt ist, können Sie alle festgelegt. Andernfalls können Sie eine der folgenden Methoden verwenden:
+Wenn VPN-Lösung bekannt ist, dass die VPN-Kennzeichnung genau eingestellt ist, sind Sie ganz eingestellt. Andernfalls können Sie eine der folgenden Methoden verwenden:
   
 - Erstellen Sie einen Netzwerktyp mit dem Namen VPN (empfehlenswert) und weisen Sie anschließend VPN-Subnetze mit diesem neuen VPN-Netzwerktyp zu.
     

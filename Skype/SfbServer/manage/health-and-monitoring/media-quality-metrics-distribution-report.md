@@ -1,25 +1,25 @@
 ---
-title: Die Medien zusammenfassenden Bericht über Medienqualität in Skype für Business Server
+title: Der Verteilungs Bericht zur Medien Qualitätsmetrik in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
-description: 'Zusammenfassung: Informationen Sie zu den Metriken Verteilung über Medienqualität in Skype für Business Server.'
-ms.openlocfilehash: 65fc10e1adaa32c2538f49d7c41fe6ee45a51c1b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Informationen zum Verteilungs Bericht zur Medien Qualitätsmetrik in Skype for Business Server.'
+ms.openlocfilehash: 0376f75ff94b1b189c15e53aa7259880da96554a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902271"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280040"
 ---
-# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Die Medien zusammenfassenden Bericht über Medienqualität in Skype für Business Server 
+# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Der Verteilungs Bericht zur Medien Qualitätsmetrik in Skype for Business Server 
  
-**Zusammenfassung:** Informationen Sie zu den Metriken Verteilung über Medienqualität in Skype für Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Verteilungs Bericht zur Medien Qualitätsmetrik in Skype for Business Server.
   
 Mit dem Bericht über die Metrikverteilung der Medienqualität wird ein Diagramm mit den Verteilungswerten für eine QoE-Metrik (Quality of Experience) wie z. B. Jitter oder Paketverlust angezeigt. Angenommen, Ihre Benutzer tätigen insgesamt 10 Telefonanrufe, für die die folgenden Roundtripzeiten gemeldet werden:
   

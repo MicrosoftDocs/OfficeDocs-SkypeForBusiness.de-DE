@@ -1,25 +1,25 @@
 ---
-title: Löschen einer Archivierungskonfiguration in Skype für Business Server
+title: Löschen einer Archivierungskonfiguration in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
-description: 'Zusammenfassung: Erfahren Sie, wie eine Archivierungskonfiguration in Skype für Business Server zu löschen.'
-ms.openlocfilehash: 3b6f79247a03beae4abc917d38a6844d67324082
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie eine Archivierungskonfiguration in Skype for Business Server löschen.'
+ms.openlocfilehash: e2a79949da21c9b3b8e94019375ea0e1f0887353
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884978"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286197"
 ---
-# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Löschen einer Archivierungskonfiguration in Skype für Business Server
+# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Löschen einer Archivierungskonfiguration in Skype for Business Server
 
-**Zusammenfassung:** Informationen Sie zum Löschen einer Archivierungskonfiguration in Skype für Business Server.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie eine Archivierungskonfiguration in Skype for Business Server löschen.
   
 Eine Standort- oder Benutzerkonfiguration kann gelöscht werden. Die globale Konfiguration kann jedoch nicht gelöscht werden. Wenn Sie die globale Konfiguration löschen, werden die Standardwerte automatisch wieder hergestellt.
   
@@ -29,7 +29,7 @@ So löschen Sie eine Archivierungskonfiguration mit der Systemsteuerung:
   
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle „CsArchivingAdministrator“ oder „CsAdministrator“ zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an. 
     
-2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
     
 3. Klicken Sie auf der linken Navigationsleiste auf **Überwachung und Archivierung** und anschließend auf **Archivierungskonfiguration**.
     
@@ -42,7 +42,7 @@ So löschen Sie eine Archivierungskonfiguration mit der Systemsteuerung:
     
 ## <a name="delete-an-archiving-configuration-by-using-windows-powershell"></a>Löschen einer Archivierungskonfiguration mit Windows PowerShell
 
-Sie können auch eine Archivierungskonfiguration löschen, mit dem Cmdlet **Remove-CsArchivingConfiguration** .
+Sie können eine Archivierungskonfiguration auch mithilfe des Cmdlets **Remove-CsArchivingConfiguration** löschen.
   
 Zum Beispiel werden mit dem folgenden Befehl die Einstellungen der Archivierungskonfiguration gelöscht, die auf den Standort „Redmond“ angewendet werden. Wenn eine auf Standortebene konfigurierte Richtlinie gelöscht wird, wird für Benutzer, für die zuvor die Standortrichtlinie galt, stattdessen automatisch die globale Archivierungsrichtlinie angewendet.
   
@@ -62,10 +62,10 @@ Mit dem nächsten Befehl werden alle Einstellungen der Archivierungskonfiguratio
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 ```
 
-Das Cmdlet **Remove-CsArchivingConfiguration** können auch die globalen Einstellungen auf die Standardwerte zurückgesetzt. Nehmen wir beispielsweise an, dass Sie die Archivierung auf globaler Ebene Sofortnachrichtensitzung aktiviert haben; Der folgende Befehl wird den Wert auf None, wird der Standardwert zurückgesetzt, der Archivierung auf globaler Ebene deaktiviert wird:
+Sie können auch das Cmdlet **Remove-CsArchivingConfiguration** verwenden, um die globalen Einstellungen auf Standardwerte zurückzusetzen. Angenommen, Sie haben die Chat-Sitzungs Archivierung auf globaler Ebene aktiviert. mit dem folgenden Befehl wird der Wert auf den Standardwert None zurückgesetzt, wodurch die Archivierung auf globaler Ebene deaktiviert wird:
   
 ```
 Remove-CsArchivingConfiguration -Identity global
 ```
 
-Weitere Informationen finden Sie im Hilfethema zum [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) -Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) .

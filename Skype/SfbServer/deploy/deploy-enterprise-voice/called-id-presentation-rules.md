@@ -1,10 +1,10 @@
 ---
-title: Erstellen oder Ändern einer übersetzungsregel für die gewählte ID Präsentation in Skype für Business Server
+title: Erstellen oder Ändern einer Übersetzungsregel für die benannte ID-Präsentation in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,43 +13,43 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
-description: 'Zusammenfassung: Erfahren Sie, wie Sie eine übersetzungsregel mit dem Erstellen einer Übersetzungsregel-Tool in Skype für Business Server definieren.'
-ms.openlocfilehash: a8a967e3c0f6d808e8e08fea0f08f5fb6bcfbeb0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie mithilfe des Tools zum Erstellen einer Übersetzungsregel in Skype for Business Server eine Übersetzungsregel definieren.'
+ms.openlocfilehash: 13e89fd836c971085a3a1fc40b7e60793e10eb68
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893119"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275871"
 ---
-# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Erstellen oder Ändern einer übersetzungsregel für die gewählte ID Präsentation in Skype für Business Server
+# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Erstellen oder Ändern einer Übersetzungsregel für die benannte ID-Präsentation in Skype for Business Server
 
-**Zusammenfassung:** Hier erfahren Sie, wie Sie eine übersetzungsregel mit dem Erstellen einer Übersetzungsregel-Tool in Skype für Business Server definieren.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie mithilfe des Tools zum Erstellen einer Übersetzungsregel in Skype for Business Server eine Übersetzungsregel definieren.
 
-Gehen Sie folgendermaßen vor, wenn Sie eine übersetzungsregel definieren durch Eingabe einer Gruppe von Werten in das Tool **eine Übersetzungsregel erstellen** und Aktivieren von Skype Business Server-Systemsteuerung auf den entsprechenden Vergleichsmuster und die übersetzungsregel zu generieren möchten. Alternativ können Sie manuell einen regulären Ausdruck erstellen, um das Vergleichsmuster und die Übersetzungsregel zu definieren. Ausführliche Informationen finden Sie unter [Create or Modify a Translation Rule Manually](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx).
+Führen Sie die folgenden Schritte aus, wenn Sie eine Übersetzungsregel definieren möchten, indem Sie eine Gruppe von Werten in das Tool zum **Erstellen einer Übersetzungsregel** eingeben und die Skype for Business Server-Systemsteuerung aktivieren, um das entsprechende Übereinstimmungsmuster und die Übersetzungsregel für Sie zu generieren. Alternativ können Sie manuell einen regulären Ausdruck erstellen, um das Vergleichsmuster und die Übersetzungsregel zu definieren. Ausführliche Informationen finden Sie unter [Create or Modify a Translation Rule Manually](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx).
 
 ### <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>So definieren Sie eine Regel mit dem Tool zum Erstellen einer Übersetzungsregel
 
-1. Öffnen von Skype Business Server-Systemsteuerung.
+1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
 
-2. Führen Sie zur Definition einer übersetzungsregel, führen Sie die Schritte in [Konfigurieren eines Trunks mit Medien in Skype für Business Server umgehen](configure-trunk-with-media-bypass.md) bis Schritt 10 oder [Konfigurieren eines Trunks ohne Medien in Skype für Business Server umgehen](configure-trunk-without-media-bypass.md) bis Schritt 9.
+2. Wenn Sie mit der Definition einer Übersetzungsregel beginnen möchten, führen Sie die Schritte unter [Konfigurieren eines Trunks mit medienumgehung in Skype for Business Server](configure-trunk-with-media-bypass.md) bis Schritt 10 aus, oder [Konfigurieren Sie einen trunk ohne medienumgehung in Skype for Business Server](configure-trunk-without-media-bypass.md) bis Schritt 9.
 
 3. Geben Sie unter **Name** auf der Seite **Neue Übersetzungsregel** oder **Übersetzungsregel bearbeiten** einen Namen ein, der das zu übersetzende Nummernmuster beschreibt.
 
-4. (Optional) Geben Sie unter **Beschreibung**eine Beschreibung der übersetzungsregel für Beispiel uns International Ferngespräche.
+4. Optional Geben Sie unter **Beschreibung**eine Beschreibung der Übersetzungsregel ein, beispielsweise US-Auslands Wahl für Ferngespräche.
 
 5. Geben Sie im Abschnitt **Übersetzungsregel erstellen** des Dialogfelds die folgenden Werte ein:
 
    - **Anfangsziffern**: (Optional) Geben Sie die Anfangsziffern der Nummern ein, die Sie mit dem Muster abgleichen möchten. Geben Sie beispielsweise + in dieses Feld ein, um Nummern im E.164-Format abzugleichen (diese beginnen mit +).
 
-   - **Länge**: Geben Sie die Anzahl von Ziffern im Vergleichsmuster ein und wählen Sie aus, ob mit dem Muster Nummern abgeglichen werden sollen, die exakt diese Länge, mindestens diese Länge oder eine beliebige Länge aufweisen. Geben Sie beispielsweise 11 und SelectAt in der Dropdown-Liste mit Zahlen übereinstimmen, die mindestens 11 Ziffern umfassen sind mindestens.
+   - **Länge**: Geben Sie die Anzahl von Ziffern im Vergleichsmuster ein und wählen Sie aus, ob mit dem Muster Nummern abgeglichen werden sollen, die exakt diese Länge, mindestens diese Länge oder eine beliebige Länge aufweisen. Geben Sie beispielsweise in der Dropdownliste den Wert 11 und mindestens in der Dropdownliste ein, um Zahlen mit einer Länge von mindestens 11 Ziffern zuzuordnen.
 
-   - **Zu entfernende Ziffern**: (Optional) Geben Sie die Anzahl von Anfangsziffern ein, die entfernt werden sollen. Geben Sie beispielsweise 1 entfernen, um die + vom Beginn der Zahl.
+   - **Zu entfernende Ziffern**: (Optional) Geben Sie die Anzahl von Anfangsziffern ein, die entfernt werden sollen. Geben Sie beispielsweise 1 ein, um den + vom Anfang der Zahl zu entfernen.
 
    - **Hinzuzufügende Ziffern**: (Optional) Geben Sie die Ziffern ein, die der übersetzten Nummer vorangestellt werden sollen. Geben Sie beispielsweise 011 ein, wenn bei Anwendung der Regel der übersetzten Nummer die Ziffernfolge 011 vorangestellt werden soll.
 
      Die in diesen Feldern eingegebenen Werte werden in den Feldern **Muster für Vergleich** und **Übersetzungsregel** widergespiegelt. Wenn Sie beispielsweise die vorstehend genannten Beispielwerte verwenden, lautet der reguläre Ausdruck im Feld **Muster für Vergleich** wie folgt:
 
-     ^\+(\d{9}\d+)$
+     ^\+(\d{9}\d +) $
 
      Das Feld **Übersetzungsregel** gibt ein Muster für das Format der übersetzten Nummern an. Dieses Muster besteht aus zwei Teilen:
 
@@ -68,17 +68,17 @@ Gehen Sie folgendermaßen vor, wenn Sie eine übersetzungsregel definieren durch
 8. Klicken Sie auf der Seite **Trunkkonfiguration** auf **Commit** und klicken Sie anschließend auf **Commit für alle Elemente ausführen**.
 
    > [!NOTE]
-   > Immer dann, wenn Sie eine Übersetzungsregel erstellen oder ändern, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md) in der Betriebsdokumentation.
+   > Immer dann, wenn Sie eine Übersetzungsregel erstellen oder ändern, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter [veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in Skype for Business](voice-route-config-changes.md) in der Betriebsdokumentation.
 
 ### <a name="to-define-a-translation-rule-manually"></a>So definieren Sie eine Übersetzungsregel manuell
 
-1. Öffnen von Skype Business Server-Systemsteuerung
+1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
 
-2. Führen Sie zur Definition einer übersetzungsregel, führen Sie die Schritte in [Konfigurieren eines Trunks mit Medien in Skype für Business Server umgehen](configure-trunk-with-media-bypass.md) bis Schritt 10 oder [Konfigurieren eines Trunks ohne Medien in Skype für Business Server umgehen](configure-trunk-without-media-bypass.md) bis Schritt 9.
+2. Wenn Sie mit der Definition einer Übersetzungsregel beginnen möchten, führen Sie die Schritte unter [Konfigurieren eines Trunks mit medienumgehung in Skype for Business Server](configure-trunk-with-media-bypass.md) bis Schritt 10 aus, oder [Konfigurieren Sie einen trunk ohne medienumgehung in Skype for Business Server](configure-trunk-without-media-bypass.md) bis Schritt 9.
 
 3. Geben Sie im Feld **Name** auf der Seite **Neue Übersetzungsregel** oder **Übersetzungsregel bearbeiten** einen Namen ein, der das zu übersetzende Nummernmuster beschreibt.
 
-4. (Optional) Geben Sie eine Beschreibung der übersetzungsregel, beispielsweise uns International Ferngespräche wählen im Feld **Beschreibung**.
+4. Optional Geben Sie in **Beschreibung**eine Beschreibung der Übersetzungsregel ein, beispielsweise US-Auslands Wahl für Ferngespräche.
 
 5. Klicken Sie im unteren Bereich des Abschnitts **Übersetzungsregel erstellen** auf **Bearbeiten**.
 
@@ -88,7 +88,7 @@ Gehen Sie folgendermaßen vor, wenn Sie eine übersetzungsregel definieren durch
 
    - Geben Sie unter **Übersetzungsregel** ein Muster für das Format der übersetzten Nummern an.
 
-     Beispiel: bei Eingabe ^\+(\d{9}\d+)$ in **dieses Muster abgleichen** and011$ 1 in **übersetzungsregel**, die Regel + 441235551010 in 011441235551010 übersetzt.
+     Wenn\+Sie beispielsweise ^ (\d{9}\d +) $ in **Übereinstimmung mit diesem Muster** and011 $1 in der **Übersetzungsregel**eingeben, wird die Regel + 441235551010 in 011441235551010 übersetzen.
 
 7. Klicken Sie auf **OK**, um die Übersetzungsregel zu speichern.
 
@@ -97,15 +97,15 @@ Gehen Sie folgendermaßen vor, wenn Sie eine übersetzungsregel definieren durch
 9. Klicken Sie auf der Seite **Trunkkonfiguration** auf **Commit** und klicken Sie anschließend auf **Commit für alle Elemente ausführen**.
 
     > [!NOTE]
-    > Immer dann, wenn Sie eine Übersetzungsregel erstellen oder ändern, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md) in der Betriebsdokumentation.
+    > Immer dann, wenn Sie eine Übersetzungsregel erstellen oder ändern, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter [veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in Skype for Business](voice-route-config-changes.md) in der Betriebsdokumentation.
 
 ## <a name="see-also"></a>Siehe auch
 
-[Konfigurieren eines Trunks mit medienumgehung in Skype für Business Server](configure-trunk-with-media-bypass.md)
+[Konfigurieren eines Trunks mit medienumgehung in Skype for Business Server](configure-trunk-with-media-bypass.md)
 
-[Konfigurieren eines Trunks ohne medienumgehung in Skype für Business Server](configure-trunk-without-media-bypass.md)
+[Konfigurieren eines Trunks ohne medienumgehung in Skype for Business Server](configure-trunk-without-media-bypass.md)
 
-[Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md)
+[Veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in Skype for Business](voice-route-config-changes.md)
 
-[Die medienumgehung in Skype für Business Server bereitstellen](deploy-media-bypass.md)
+[Bereitstellen der medienumgehung in Skype for Business Server](deploy-media-bypass.md)
 

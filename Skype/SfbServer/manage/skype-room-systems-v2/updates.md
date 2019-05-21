@@ -1,51 +1,51 @@
 ---
-title: Verwalten von Windows-Updates für Microsoft-Teams, Räume
+title: Verwalten von Windows-Updates für Microsoft Teams-Chatrooms
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 10/10/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: ''
-description: Verwalten von Windows-Updates für Microsoft-Teams, Räume
-ms.openlocfilehash: d9374fc00dcb5a19d2c15c91da18ce6c7d353033
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Verwalten von Windows-Updates für Microsoft Teams-Chatrooms
+ms.openlocfilehash: 7ea7197752b42db788b2f67b9ae1c80cdad80177
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910305"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279263"
 ---
 # <a name="manage-windows-updates"></a>Verwalten von Windows-Updates
 
-Microsoft Teams Räume auf Windows 10 Enterprise IoT oder Windows 10 Enterprise (VL) ausgeführt wird und die gleichen Windows-Updates und OS Builds als standard Desktop empfängt.
+Microsoft Teams rooms läuft unter Windows 10 Enterprise-oder Windows 10 Enterprise (VL) und empfängt dieselben Windows-Updates und Betriebssystem-Builds wie ein Standard-Desktop.
 
-Windows-Updates können in unterschiedliche Weise verwaltet werden:
+Windows-Updates können auf verschiedene Arten verwaltet werden:
 
-## <a name="hands-off-approach"></a>Automatische Ansatz 
-- Updates können direkt von Windows-Updates automatisch heruntergeladen und installiert außerhalb der Betriebszeiten ausgeführt werden. Ist keine Konfiguration dieser Änderung wird die Standardwerte zurückgesetzt.
-- Tag-Eins der Version werden automatisch nicht verzögert werden Updates installiert werden. 
-- Qualität Updates und Treiber werden automatisch heruntergeladen und installiert ersten Tag. 
-- Feature-Updates. Finden Sie zusätzliche Hinweise unten. 
+## <a name="hands-off-approach"></a>Hands-Off-Ansatz 
+- Updates können direkt von Windows-Updates automatisch heruntergeladen und außerhalb der Arbeitszeiten installiert werden. Wenn keine Änderung an der Konfiguration vorgenommen wird, handelt es sich um den Standardzustand.
+- Nicht verzögerte Updates installieren Day-One der Veröffentlichung automatisch. 
+- Qualitäts Updates und Treiber werden automatisch heruntergeladen und installiert. 
+- Funktions Updates. Weitere Informationen finden Sie weiter unten. 
 
-## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Windows-Updates für Unternehmen](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) (Gruppenrichtlinienobjekt oder Intune)   
-- Updates werden von WU oder Ihre WSUS jedoch mit konfigurierten Verzögerungen über die KB ursprüngliche Version Datum heruntergeladen. 
-- In Kombination mit mehreren Organisationseinheit oder gefiltert Richtlinien, dies ermöglicht die Erstellung von Bereitstellung "Klingeltöne", wobei Administratoren festlegen können, welche Geräte Qualität Updates installieren und die Schriftarten später installieren werden. Dies ermöglicht Zuverlässigkeit und Leistung auf eine Teilmenge von Systemen vor der Einführung der Updates über die gesamte Bereitstellung der Mehraufwand von Verwalten von Windows-Updates in SCCM beispielsweise testen.
-- WSUS und Windows-Updates für Business kann sein, dass [gleichzeitig konfiguriert](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) , falls bandbreitenverwaltung und das Windows-Updates für Business-Steuerelement gewünscht enthält.
-- Feature-Updates. Finden Sie zusätzliche Hinweise unten.
+## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Windows-Updates für Unternehmen](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) (GPO oder InTune)   
+- Updates werden von Wu oder Ihrem WSUS heruntergeladen, aber mit konfigurierten Verzögerungen nach dem ursprünglichen Veröffentlichungsdatum der KB. 
+- In Kombination mit mehreren ou-oder gefilterten Richtlinien kann dadurch die Bereitstellung von "Ringen" erstellt werden, in denen Administratoren angeben können, welche Geräte zuerst Qualitäts Updates installieren und welche später installiert werden. Auf diese Weise können Zuverlässigkeits-und Leistungstests für eine Teilmenge von Systemen durchgeführt werden, bevor Updates für die gesamte Bereitstellung ohne den Aufwand für die Verwaltung von Windows-Updates in SCCM bereitgestellt werden.
+- WSUS und Windows-Updates für Unternehmen können [gleichzeitig konfiguriert](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) werden, wenn Sie sowohl die Bandbreitenverwaltung als auch die Steuerung von Windows-Updates für Unternehmen wünschen.
+- Funktionsupdates. Weitere Informationen finden Sie weiter unten.
 
 ## <a name="wsussccmhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
-- Ähnlich wie bei Windows Update für Unternehmen, wobei jedoch die Option weitere der Zielgruppenadressierung bestimmte KB innerhalb jedes "Anrufen" oder die gesamte Bereitstellung. Jedes Update kann einzeln bereitgestellt und getestet werden, anstatt sich auf nur eine Verzögerung zu verlassen. 
-- Feature-Updates. Finden Sie zusätzliche Hinweise unten.
+- Ähnlich wie Windows Update für Unternehmen, aber mit der zusätzlichen Option zur Zielgruppenadressierung spezifischer KB-Daten in jedem "Ring" oder der gesamten Bereitstellung. Jedes Update kann einzeln bereitgestellt und getestet werden, anstatt sich nur auf eine Verzögerung zu verlassen. 
+- Funktionsupdates. Weitere Informationen finden Sie weiter unten.
 
 
-### <a name="feature-updates"></a>Feature-updates
+### <a name="feature-updates"></a>Funktionsupdates
 
-Im Gegensatz zu Qualität und nicht-Deferable Updates Windows 10 "Feature Updates" (Hauptversionen OS) werden nur nach Microsoft getestet und-Funktion mit Microsoft-Teams Räumen einer bestimmten Updates validiert installiert. Auch wenn es für die Semikolons jährlichen Channel (oder gezielte, wenn Sie Systeme, die auf diesen Kanal zu Testzwecken festgelegt haben) freigegeben oder auch manuell vom Versuche oder Konfigurationen abgelegt ist, können sie nicht die Installation, bis der Block auf unserer Seite entfernt wird.
+Im Gegensatz zu Qualitäts-und nicht verzögerten Updates werden die Windows 10-Feature-Updates (Major OS-Versionen) erst nach dem Microsoft-Test installiert, und es werden eine bestimmte Aktualisierungsfunktionalität mit Microsoft Teams-Räumen überprüft. Auch wenn Sie für den halbjährlichen Kanal freigegeben wird (oder gezielt, wenn Sie Systeme für Tests auf diesen Kanal festgesetzt haben) oder sogar manuell durch ihre eigenen Versuche oder Konfigurationen gedrückt werden, wird die Installation erst nach dem Entfernen des Blocks an unserem Ende zugelassen.
 
-Microsoft-Teams Raum "Out-of-Box", verwenden die automatische Ansatz, installieren Windows Update oder ein Gerät aufgrund eines Windows-Updates automatisch neu starten nicht. Systeme können jedoch ein Update herunterladen und warten Sie für den nächsten Neustart, ihn zu installieren. Wenn jemand sie manuell neu gestartet wird, sollte die Installation bei der automatischen nächtlicher Neustart erfolgen. Windows-Updates sollten transparente im Raum, die Benutzeroberfläche sollte niemals von Windows-Updates unterbrochen werden.
+Der Microsoft Teams-Raum "Out-of-Box" mit dem Ansatz "Hands Off" wird kein Windows-Update installiert oder ein Gerät wird aufgrund eines Windows-Updates automatisch neu gestartet. Systeme können jedoch ein Update herunterladen und auf den nächsten Neustart warten, um es zu installieren. Wenn jemand die Datei nicht manuell neu startet, sollte die Installation beim automatischen nächtlichen Neustart erfolgen. Windows-Updates sollten im Raum transparent sein, die Benutzeroberfläche sollte niemals von Windows-Updates unterbrochen werden.
 
-Wenn Sie die Option zum Beitreten zu einer Domäne, SCCM oder WSUS und Bitte achten Sie besonders auf Richtlinien oder Aktionen, die in das Gerät ein Update installieren, oder erzwingen einen Neustart während der Geschäftszeit auftreten können. Wenn Sie Systeme in Ihrer Bereitstellung, bei der Verwendung Neustarten oder Warnungen zu Windows-Updates über die Benutzeroberfläche verfügen, werden Sie in Ihrer Konfiguration suchen möchten.
+Wenn Sie sich für die Domänenmitgliedschaft entscheiden, verwenden Sie SCCM oder WSUS, und achten Sie besonders auf Richtlinien oder Aktionen, die dazu führen können, dass das Gerät ein Update installiert oder während der Geschäftszeiten einen Neustart erzwungen. Wenn während der Verwendung von Systemen in der Bereitstellung ein Neustart durchführen oder eine Warnung zu Windows-Updates über die Benutzeroberfläche vorhanden ist, sollten Sie sich mit Ihrer Konfiguration vertraut machen.

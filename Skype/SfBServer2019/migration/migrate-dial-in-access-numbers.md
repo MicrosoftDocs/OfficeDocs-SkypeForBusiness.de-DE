@@ -4,89 +4,89 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Migrieren von Einwahlnummern Zahlen zu Skype für Business Server 2019 erforderlich sind, mit dem Cmdlet Move-CsApplicationEndpoint die Kontaktobjekte zu migrieren. Während der Vorversion installieren und Skype für Business Server 2019 Koexistenz Zeitraum Verhalten sich Einwahlnummern Zahlen, die Sie in Skype für Business Server 2019 erstellt haben ähnlich wie DFÜ-Zugriff Zahlen, die Sie in der Vorversion installieren, erstellen Sie wie beschrieben in diesem Abschnitt.
-ms.openlocfilehash: 7f7aef113018a27e70b88e166d365195c07dce9c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Zum Migrieren der Kontaktobjekte muss das Cmdlet Move-CsApplicationEndpoint ausgeführt werden, um Einwahlnummern in Skype for Business Server 2019 zu migrieren. Während des Koexistenz Zeitraums für Legacy Installationen und Skype for Business Server 2019 Verhalten sich Einwahlnummern, die Sie in Skype for Business Server 2019 erstellt haben, ähnlich wie die Einwahl Zugriffsnummern, die Sie in der Legacy Installation erstellt haben, wie in diesem Beispiel beschrieben. Abschnitt.
+ms.openlocfilehash: 83cf8b75bcf9a8d4794ae0f95962f3627d8592c1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239583"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280812"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>Migrieren von Zugriffsnummern für die Einwahl
 
-Migrieren von Einwahlnummern Zahlen zu Skype für Business Server 2019 erforderlich sind, mit dem Cmdlet **Move-CsApplicationEndpoint** die Kontaktobjekte zu migrieren. Während der Vorversion installieren und Skype für Business Server 2019 Koexistenz Zeitraum Verhalten sich Einwahlnummern Zahlen, die Sie in Skype für Business Server 2019 erstellt haben ähnlich wie DFÜ-Zugriff Zahlen, die Sie in der Vorversion installieren, erstellen Sie wie beschrieben in diesem Abschnitt. 
+Zum Migrieren der Kontaktobjekte muss das Cmdlet **Move-CsApplicationEndpoint** ausgeführt werden, um Einwahlnummern in Skype for Business Server 2019 zu migrieren. Während des Koexistenz Zeitraums für Legacy Installationen und Skype for Business Server 2019 Verhalten sich Einwahlnummern, die Sie in Skype for Business Server 2019 erstellt haben, ähnlich wie die Einwahl Zugriffsnummern, die Sie in der Legacy Installation erstellt haben, wie in diesem Beispiel beschrieben. Abschnitt. 
 
-DFÜ-Zugriff Zahlen, die Sie in der Vorgängerversion erstellt haben, installieren Sie jedoch verschoben und Skype für Business Server 2019 oder erstellten in Skype für Business Server 2019 vor, während oder nach der Migration, weisen folgende Merkmale auf:
+Einwahl Zugriffsnummern, die Sie in der Legacy Installation erstellt, aber in Skype for Business Server 2019 verschoben haben oder die Sie in Skype for Business Server 2019 vor, während oder nach der Migration erstellt haben, weisen die folgenden Merkmale auf:
 
-- In Office Communications Server 2007 R2-besprechungseinladungen und die Seite mit der DFÜ-Zugriff nicht angezeigt.
+- Sie werden nicht auf Office Communications Server 2007 R2-Besprechungseinladungen und auf der Seite Einwahl Zugriffsnummer angezeigt.
 
-- Klicken Sie auf der Vorversion Install-besprechungseinladungen und auf die Seite mit der DFÜ-Zugriff angezeigt.
+- In den Legacy-Installations Einladungen für Besprechungen und auf der Seite Einwahl Zugriffsnummer angezeigt.
 
-- Für Business Server 2019-besprechungseinladungen und auf die Seite mit der DFÜ-Zugriff auf Skype angezeigt.
+- In den Skype for Business Server 2019-Besprechungseinladungen und auf der Seite "Einwahl Zugriffsnummer" angezeigt.
 
-- Nicht angezeigt oder im Verwaltungstool von Office Communications Server 2007 R2 geändert werden.
+- Kann im Office Communications Server 2007 R2-Verwaltungstool nicht angezeigt oder geändert werden.
 
-- Können angezeigt und in der Vorversion Install-Systemsteuerung und in der Vorversion Install-Verwaltungsshell geändert werden.
+- Kann in der Systemsteuerung für Legacy Installationen und in der Legacy-Installations Verwaltungsshell angezeigt und geändert werden.
 
-- Können angezeigt und in der Skype Business Server 2019-Systemsteuerung und Skype für Business Server 2019-Verwaltungsshell geändert werden.
+- Kann in der Skype for Business Server 2019-Systemsteuerung und in der Skype for Business Server 2019-Verwaltungsshell angezeigt und geändert werden.
 
-- Können innerhalb der Region neu sequenziert werden mithilfe des Cmdlets Set-CsDialinConferencingAccessNumber mit dem Parameter Priority.
+- Kann innerhalb des Bereichs mithilfe des Cmdlets "CsDialinConferencingAccessNumber" mit dem Priority-Parameter neu sequenziert werden.
 
-Sie müssen die Migration abgeschlossen Einwahl Zugriffsnummern, die auf der Vorgängerversion zeigen Pool installieren, bevor Sie den Vorversion Install-Pool außer Betrieb nehmen. Eingehende Anrufe an die Zugriffsnummern schlägt fehl, wenn Sie nicht über DFÜ-Zugriff der Migration wie im folgenden Verfahren beschrieben durchführen.
+Sie müssen die Migration von Einwahl Zugriffsnummern beenden, die auf den Legacy Installations Pool verweisen, bevor Sie den Legacy Installations Pool außer Betrieb setzen. Wenn Sie die Migration von Einwahlnummern wie im folgenden Verfahren beschrieben nicht abschließen, treten bei eingehenden Anrufen an die Zugriffsnummern keine Fehler auf.
 
 > [!IMPORTANT]
-> Sie müssen dieses Verfahren vor der Außerbetriebnahme der Vorversion Install Pools ausführen. 
+> Sie müssen dieses Verfahren vor der Außerbetriebnahme des Legacy Installations Pools ausführen. 
 
 > [!NOTE]
-> Es wird empfohlen, das Netzwerkauslastung möglichst gering ist, für den Fall, dass es eine kurzen Dienstausfall wird Einwahl Zugriffsnummern verschieben. 
+> Es wird empfohlen, Einwahlnummern zu verschieben, wenn die Netzwerkauslastung gering ist, falls es einen kurzen Zeitraum für einen Ausfall des Diensts gibt. 
 
-## <a name="to-identify-and-move-dial-in-access-numbers"></a>So identifizieren und Einwahl Zugriffsnummern verschieben
+## <a name="to-identify-and-move-dial-in-access-numbers"></a>So identifizieren und verschieben Sie Einwahl Zugriffsnummern
 
-1. Starten Sie die Skype für Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft Skype für Business Server 2019**, und klicken Sie dann auf **Skype für Business Server-Verwaltungsshell**.
+1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft Skype for Business Server 2019**, und klicken Sie dann auf **Skype for Business Server-Verwaltungsshell**.
 
-2. Um jede Zugriffsnummer für Einwahl-Zugriffsnummer in einen auf Skype für Business Server 2019 gehosteten Pool verschieben, über die Befehlszeile ausführen: 
+2. Um jede Einwahl-Zugriffsnummer in einen Pool zu verschieben, der in Skype for Business Server 2019 gehostet wird, führen Sie in der Befehlszeile Folgendes aus: 
 
    ```
    Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
    ```
 
-3. Öffnen von Skype Business Server-Systemsteuerung.
+3. Öffnen Sie die Skype for Business Server-Systemsteuerung.
 
 4. Klicken Sie in der linken Navigationsleiste auf **Konferenz**.
 
-5. Klicken Sie auf der Registerkarte **Zugriffsnummer für Einwahl** . 
+5. Klicken Sie auf die Registerkarte **Einwahlnummer** . 
 
-6. Stellen Sie sicher, dass keine Zugriffsnummer für Einwahl-Zugriffsnummern für den Pool der Vorgängerversion installieren zurückbleiben, aus dem Sie migrieren.
+6. Stellen Sie sicher, dass keine Einwahl Zugriffsnummern für den Legacy Installations Pool verbleiben, von dem aus Sie migrieren.
 
     > [!NOTE]
-    > Wenn alle Einwahl Zugriffsnummern auf die Skype für Business Server 2019 Pool zeigen, können Sie dann den Vorversion installieren Pool außer Betrieb nehmen. 
+    > Wenn alle Einwahl Zugriffsnummern auf den Skype for Business Server 2019-Pool verweisen, können Sie den Legacy-Installations Pool außer Betrieb nehmen. 
 
-## <a name="verify-the-dial-in-access-number-migration-using-skype-for-business-server-control-panel"></a>Überprüfen der DFÜ-Zugriff der Migrations mithilfe von Skype Business Server-Systemsteuerung
+## <a name="verify-the-dial-in-access-number-migration-using-skype-for-business-server-control-panel"></a>Überprüfen der Migration von Einwahl Zugriffsnummern mit der Skype for Business Server-Systemsteuerung
 
-1. Melden Sie sich von einem Benutzerkonto, dem die Rolle **"CsUserAdministrator** " oder **der csadministrator** zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an. 
+1. Melden Sie sich bei einem Benutzerkonto, das der **CsUserAdministrator** -Rolle oder der **CsAdministrator** -Rolle zugewiesen ist, bei jedem Computer in ihrer internen Bereitstellung an. 
 
-2. Öffnen von Skype Business Server-Systemsteuerung.
+2. Öffnen Sie die Skype for Business Server-Systemsteuerung.
 
 3. Klicken Sie in der linken Navigationsleiste auf **Konferenz**.
 
-4. Klicken Sie auf der Registerkarte **Zugriffsnummer für Einwahl** . 
+4. Klicken Sie auf die Registerkarte **Einwahlnummer** . 
 
-5. Stellen Sie sicher, dass alle Einwahlnummern Zahlen in der auf Skype für Business Server 2019 gehosteten Pool migriert werden.
+5. Überprüfen Sie, ob alle Einwahl Zugriffsnummern in den Pool migriert werden, der in Skype for Business Server 2019 gehostet wird.
 
-## <a name="verify-the-dial-in-access-number-migration-using-skype-for-business-server-management-shell"></a>Überprüfen der DFÜ-Zugriff der Migrations mithilfe von Skype für Business Server-Verwaltungsshell
+## <a name="verify-the-dial-in-access-number-migration-using-skype-for-business-server-management-shell"></a>Überprüfen der Migration von Einwahl Zugriffsnummern mit der Skype for Business Server-Verwaltungsshell
 
-1. Öffnen Sie Skype für Business Server-Verwaltungsshell.
+1. Öffnen Sie die Skype for Business Server-Verwaltungsshell.
 
-2. Um alle zurücksenden migriert die Zugriffsnummern für einwahlkonferenzen über die Befehlszeile ausführen:
+2. Um alle migrierten Zugriffsnummern für Einwahlkonferenzen zurückzugeben, führen Sie über die Befehlszeile Folgendes aus:
 
    ```
    Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
    ```
 
-3. Stellen Sie sicher, dass alle Einwahlnummern Zahlen in der auf Skype für Business Server 2019 gehosteten Pool migriert werden.
+3. Überprüfen Sie, ob alle Einwahl Zugriffsnummern in den Pool migriert werden, der in Skype for Business Server 2019 gehostet wird.
 
 

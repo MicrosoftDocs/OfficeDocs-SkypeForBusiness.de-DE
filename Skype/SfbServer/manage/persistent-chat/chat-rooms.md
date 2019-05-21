@@ -5,31 +5,31 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 1/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
-description: 'Zusammenfassung: Informationen Sie zum Verwalten von Chatrooms in Skype Persistent Chat Server for Business Server 2015.'
-ms.openlocfilehash: 01d3f53cc3b13d0cb3708d0a1f889a22511fd7fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie in Skype for Business Server 2015 Chatrooms für beständigen Chat Server verwalten.'
+ms.openlocfilehash: 91e8a2888a7c83e30f80160d8c2c1fbc2af542fc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910235"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279347"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten von Chatrooms im Server für beständigen Chat in Skype for Business Server 2015
  
-**Zusammenfassung:** Informationen Sie zum Verwalten von Chatrooms in Skype Persistent Chat Server for Business Server 2015.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie in Skype for Business Server 2015 Chatrooms für beständigen Chat Server verwalten.
   
-Das Erstellen und Verwalten von Chatrooms wird durch die ordnungsgemäße Verwendung von Kategorien wesentlich vereinfacht. Eine Kategorie definiert, die erstellen oder die Chatrooms beitreten können. Bevor Sie versuchen, Chatrooms zu verwalten, müssen Sie unbedingt [Persistent Chatkategorien, Chatrooms, und Benutzerrollen in Skype für Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) und [Verwalten von Kategorien in Persistent Chat Server in Skype für Business Server 2015](categories.md)vertraut zu machen.
+Das Erstellen und Verwalten von Chatrooms wird durch die ordnungsgemäße Verwendung von Kategorien wesentlich vereinfacht. Eine Kategorie definiert, wer die Chatrooms erstellen oder daran teilnehmen kann. Bevor Sie versuchen, Chatrooms zu verwalten, stellen Sie sicher, dass Sie in Skype for [Business Server 2015 beständige Chat-Kategorien, Chatrooms und Benutzerrollen](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) lesen und [Kategorien im beständigen Chat Server in Skype for Business Server 2015 verwalten](categories.md).
   
 > [!NOTE]
-> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
+> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Reise von Skype for Business zu Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen. 
 
-Sie können konfigurieren und Verwalten von Chatrooms mithilfe der Windows PowerShell-Befehlszeilenschnittstelle oder mithilfe der Skype für Business-Client, wenn Sie ein Mitglied des Chatrooms sind. In diesem Thema wird beschrieben, wie Sie Chatrooms mit der Befehlszeilenschnittstelle von Windows PowerShell verwalten. Zum Verwalten von Chatrooms mithilfe der Skype für Business-Client, finden Sie die Client-Hilfe. 
+Sie können Chatrooms konfigurieren und verwalten, indem Sie die Windows PowerShell-Befehlszeilenschnittstelle verwenden oder den Skype for Business-Client verwenden, wenn Sie Mitglied des Chatrooms sind. In diesem Thema wird beschrieben, wie Sie Chatrooms mit der Befehlszeilenschnittstelle von Windows PowerShell verwalten. Wenn Sie Chatrooms mit dem Skype for Business-Client verwalten möchten, lesen Sie die Hilfe für den Client. 
   
-Chatrooms kann eine der beiden folgenden Typen: Normal und Auditorium. In einem normalen Chatroom können alle Mitglieder Nachrichten posten und lesen. Ein Auditorium ist eine Art von Chatroom, in der nur Referenten Inhalte posten, aber alle Mitglieder diese Inhalte lesen können.
+Chatrooms können einen von zwei Typen aufweisen: normal und Auditorium. In einem normalen Chatroom können alle Mitglieder Nachrichten posten und lesen. Ein Auditorium ist eine Art von Chatroom, in der nur Referenten Inhalte posten, aber alle Mitglieder diese Inhalte lesen können.
   
 Es hängt von den jeweiligen Benutzerrollen ab, wer auf Chatrooms zugreifen und diese verwalten kann:
   
@@ -52,28 +52,28 @@ Mithilfe der folgenden Windows PowerShell-Cmdlets können Sie Chatrooms konfigur
 |:-----|:-----|
 |New-CsPersistentChatRoom  <br/> |Erstellen eines neuen Chatrooms  <br/> |
 |Set-CsPersistentChatRoom  <br/> |Zum Konfigurieren der Einstellungen für einen vorhandenen Chatroom sowie zum Zuweisen von Benutzern und Benutzergruppen zum Chatroom  <br/> |
-|Get-CsPersistentChatRoom  <br/> |Abrufen von Informationen über Räume  <br/> |
+|Get-CsPersistentChatRoom  <br/> |Abrufen von Informationen zu Räumen  <br/> |
 |Clear-CsPersistentChatRoom  <br/> |Löschen eines Chatrooms oder Löschen von Nachrichten in einem Chatroom  <br/> |
 |Remove-CsPersistentChatRoom  <br/> |Entfernen eines Chatrooms  <br/> |
 |Remove-CsPersistentChatMessage  <br/> |Entfernen von Nachrichten aus einem Chatroom  <br/> |
    
 Mit dem Cmdlet **New-CsPersistentChatRoom** und dem Cmdlet **Set-CsPersistentChatRoom** können Sie einen vorhandenen Chatroom konfigurieren und beispielsweise Benutzer hinzufügen. Sie können die folgenden Parameter für Chatrooms konfigurieren:
   
-- Disabled: Zum Deaktivieren bzw. Können Sie einen Chatroom aktivieren oder deaktivieren. 
+- Disabled: Zum Deaktivieren bzw. Ermöglicht es Ihnen, einen Chatroom zu deaktivieren oder zu aktivieren. 
     
-- Einladungen. Können Sie aktivieren oder Deaktivieren von chatroomeinladungen, die verwendet werden, um Benutzer zu benachrichtigen, wenn sie als Chatroom-Mitglieder hinzugefügt wurden. Die Standardeinstellung für Einladungen in erben, die verursacht den Chatroom treffen die Einstellung der Einladung auf die Kategorie, zu der es gehört konfiguriert ist. Konfigurieren von Einladungen ermöglicht Einstellung auf "false" auf der Ebene der Chatroom die Kategorie Einstellung außer Kraft gesetzt werden. 
+- Einladungen. Ermöglicht es Ihnen, Chatroom-Einladungen zu aktivieren oder zu deaktivieren, die verwendet werden, um Benutzer zu benachrichtigen, wenn Sie als Chatroom-Mitglieder hinzugefügt wurden. Die Standardeinstellung für Einladungen in Inherit, wodurch der Chatroom die für die Kategorie, zu der er gehört, konfigurierte Einladungs Einstellung übernommen hat. Wenn Sie die Einstellung "Einladungen" auf "false" auf der Ebene des Chatrooms konfigurieren, kann die Kategorie-Einstellung überschrieben werden. 
     
-- Datenschutz. Gibt an, ob ein Chatroom öffnen, schließen oder geheimen Schlüssel ist. Offene Chatrooms können durchsucht und von allen Benutzern zugegriffen werden. Geschlossene Räume können von jeder Person durchsucht werden, jedoch nur von Mitgliedern zugegriffen werden können. Geheimen Chatrooms können durchsucht und nur von Mitgliedern des Raums aufgerufen werden. Standardmäßig ist jeder neuen Raums anfänglich als geschlossen konfiguriert.
+- Privacy. Hiermit können Sie angeben, ob ein Chatroom geöffnet, geschlossen oder geheim ist. Offene Räume können von allen Personen durchsucht und aufgerufen werden. Geschlossene Räume können von jedem durchsucht werden, können aber nur von Mitgliedern aufgerufen werden. Geheime Räume können nur von Mitgliedern des Chatrooms durchsucht und aufgerufen werden. Standardmäßig ist jeder neue Raum zunächst als geschlossen konfiguriert.
     
-- Geben Sie ein. Gibt an, ob ein Chatroom einem normalen Raum, ist, der durch ein beliebiges Mitglied oder einem Auditorium, die nur von Referent übermittelten Nachrichten akzeptiert veröffentlichte Nachrichten akzeptiert.
+- Geben. Hiermit können Sie angeben, ob ein Chatroom ein normaler Raum ist, der von einem Mitglied gepostete Nachrichten akzeptiert, oder ein Auditorium, in dem Nachrichten akzeptiert werden, die nur von einem Referenten gepostet wurden.
     
 - Addin: Ermöglicht Ihnen, ein zuvor konfiguriertes Add-In mit einem Chatroom zu verknüpfen. Auf diese Weise können Mitglieder während der Nutzung des Chatrooms URL-Inhalte anzeigen.
     
-Zusätzlich zu den oben genannten Parametern kann mit dem Cmdlet **"Set-cspersistentchatroom"** Zuweisen von Benutzern für den Chatroom wie folgt:
+Zusätzlich zu den oben genannten Parametern können Sie mit dem Cmdlet " **Satz-CsPersistentChatRoom** " Benutzer dem Chatroom wie folgt zuweisen:
   
-- Elemente des Objekts. Die Mitgliedschaft für den Chatroom konfiguriert. Sie können hinzufügen oder Entfernen der betroffenen oder mehrere Mitglieder, die mit einem einzelnen Cmdlet durch die SIP-Adresse der Benutzer angeben. Damit Benutzer in einer Sammeloperation hinzugefügt werden können, können auch Active Directory-Organisationseinheiten oder Verteilergruppen angegeben werden.
+- Mitglieder. Konfiguriert die Mitgliedschaft für den Chatroom. Sie können die einzelnen oder mehrere Mitglieder mithilfe eines einzelnen Cmdlets hinzufügen oder entfernen, indem Sie die SIP-Adresse der Benutzer angeben. Damit Benutzer in Massen hinzugefügt werden können, können auch Active Directory-Organisationseinheiten oder-Verteilergruppen angegeben werden.
     
-- Manager. Hier können Sie den Chatroom Manager zuweisen. Manager müssen die Berechtigungen, um die Mitgliedschaft eines Chatrooms zusammen mit anderen Einstellungen zu definieren.
+- Manager. Ermöglicht es Ihnen, Manager dem Chatroom zuzuweisen. Manager haben die Berechtigung, die Mitgliedschaft in einem Chatroom zusammen mit anderen Einstellungen zu definieren.
     
 - Presenters: Ermöglicht Ihnen, einem Auditorium-Chatroom Referenten zuzuweisen. 
     
@@ -87,9 +87,9 @@ Mit dem Cmdlet **New-CsPersistentChatRoom** können Sie einen neuen Chatroom ers
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
 ```
 
-**Hinweis:** PersistentChatPoolFqdn ist nicht erforderlich, wenn eine der folgenden Bedingungen erfüllt ist: 
+**Hinweis:** PersistentChatPoolFqdn wird nicht benötigt, wenn eine der folgenden Bedingungen zutrifft: 
   
-- Nur ein Persistent Chat Server-Pool ist vorhanden.
+- Es gibt nur einen beständigen Chat Server Pool.
     
 - Sie stellen für die Kategorie einen Pool-FQDN bereit.
     
@@ -97,7 +97,7 @@ New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.
     
 ## <a name="configure-an-existing-room"></a>Konfigurieren eines vorhandenen Chatrooms
 
-Sie können eine vorhandene Raum konfigurieren, mit dem Cmdlet **"Set-cspersistentchatroom"** . Dem folgenden Befehl wird beispielsweise user1 als Member und Referent und user2 als Manager, der die TestCat Auditorium-Chatrooms:
+Sie können einen vorhandenen Chatroom mithilfe des Cmdlets " **CsPersistentChatRoom** " konfigurieren. Mit dem folgenden Befehl wird beispielsweise Benutzer1 als Mitglied und Referent und User2 als Manager des testCat Auditorium-Chatrooms zugewiesen:
   
 ```
 Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
@@ -119,13 +119,13 @@ Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAm
 
 ## <a name="disable-or-enable-a-room"></a>Deaktivieren oder Aktivieren eines Chatrooms
 
-Wenn das Thema eines beständigen Chatrooms nicht mehr relevant ist, können Sie den Chatroom Benutzern zur Verfügung durch deaktivieren. Wenn ein Chatroom deaktiviert wird, werden alle Mitglieder vom Chatroom getrennt. Nach der Deaktivierung eines Chatrooms können Benutzer dem Chatroom nicht wieder beitreten und er wird auch nicht bei der Suche nach Chatrooms gefunden.
+Wenn das Thema eines beständigen Chatrooms nicht mehr relevant ist, können Sie den Chatroom für Benutzer nicht mehr zur Verfügung stellen, indem Sie ihn deaktivieren. Wenn ein Chatroom deaktiviert wird, werden alle Mitglieder vom Chatroom getrennt. Nach der Deaktivierung eines Chatrooms können Benutzer dem Chatroom nicht wieder beitreten und er wird auch nicht bei der Suche nach Chatrooms gefunden.
   
-Wenn Sie den Chatroom Verlauf weiterhin auftritt, wird der Inhalt beibehalten, wenn Chatrooms deaktiviert ist. Allerdings werden diese Inhalte in Suchvorgängen nicht angezeigt, solange der Chatroom deaktiviert ist. Wenn Sie den Chatroom später wieder aktivieren, können Benutzer nach Nachrichten suchen, die vor der Deaktivierung des Chatrooms bereitgestellt wurden. Informationen zum Konfigurieren von chatroomverlauf finden Sie unter [Verwalten von Kategorien in Persistent Chat Server in Skype für Business Server 2015](categories.md). 
+Wenn der Verlauf des Chatrooms beibehalten wird, wird der Inhalt beibehalten, wenn der Chatroom deaktiviert ist. Allerdings werden diese Inhalte in Suchvorgängen nicht angezeigt, solange der Chatroom deaktiviert ist. Wenn Sie den Chatroom später wieder aktivieren, können Benutzer nach Nachrichten suchen, die vor der Deaktivierung des Chatrooms bereitgestellt wurden. Informationen zum Konfigurieren des Chatroom-Verlaufs finden Sie unter [Verwalten von Kategorien auf dem Server für beständigen Chat in Skype for Business Server 2015](categories.md). 
   
 Wenn ein Chatroom deaktiviert wurde, bleiben die zugehörigen Mitgliederlisten und sonstigen Einstellungen erhalten. Sie als Administrator können einen deaktivierten Chatroom wieder aktivieren und brauchen die Einstellungen dabei nicht manuell wiederherzustellen.
   
-Sie können einen Chatroom deaktivieren, indem Sie mithilfe des Cmdlets **"Set-cspersistentchatroom"** und den Parameter deaktiviert auf True festlegen:
+Sie können einen Chatroom deaktivieren, indem Sie das Cmdlet " **festlegen-CsPersistentChatRoom** " verwenden und den Parameter disabled auf true festlegen:
   
 ```
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $True
@@ -137,7 +137,7 @@ Zum Aktivieren eines Chatrooms legen Sie den Parameter „Disabled“ auf „Fal
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $False
 ```
 
-## <a name="get-information-about-rooms"></a>Abrufen von Informationen über Räume
+## <a name="get-information-about-rooms"></a>Abrufen von Informationen zu Räumen
 
 Mithilfe des Cmdlets **Get-CsPersistentChatRoom** können Sie Informationen für die in Ihrer Organisation konfigurierten und verwendeten Chatrooms abrufen.
   

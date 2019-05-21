@@ -1,55 +1,55 @@
 ---
-title: Benutzerdienst für CQD
+title: Benutzer Dienst für CQD
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
-description: 'Zusammenfassung: Erfahren Sie mehr über den Benutzer-Dienst, der Teil der Repository-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: 631ccfefe7a4503f325c288ef1bf27d4366869e4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Benutzer Dienst, der Teil der Repository-API für das Anruf Qualitäts Dashboard ist. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: 3ef76d26faa27034d3f092608b52676332b254a1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915080"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274520"
 ---
-# <a name="user-service-for-cqd"></a>Benutzerdienst für CQD
+# <a name="user-service-for-cqd"></a>Benutzer Dienst für CQD
  
-**Zusammenfassung:** Informationen Sie zu den Benutzer-Dienst, der Teil der Repository-API für die Qualitätsdashboard aufrufen, ist. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Benutzer Dienst, der Teil der Repository-API für das Anruf Qualitäts Dashboard ist. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.
   
-Der Benutzer-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen.
+Der Benutzer Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard.
   
 ## <a name="user-service"></a>Benutzerdienst
 
-Repository-API bietet eine vereinfachte Verwaltung Benutzermodell, in dem Benutzer, die Bereitstellung (Erstellen neuer Benutzerkonten) automatische und implizite ist. Wenn ein Benutzer eine Anforderung für Repository-API zum ersten Mal, erstellt das Repository einen neuen Benutzerdatensatz. 
+Die Repository-API bietet ein vereinfachtes Benutzer Verwaltungsmodell, bei dem die Benutzerbereitstellung (Erstellen neuer Benutzerkonten) automatisch und implizit erfolgt. Wenn ein Benutzer zum ersten Mal eine Anforderung an die Repository-API stellt, erstellt das Repository einen neuen Benutzerdatensatz. 
   
-Anruf, dass Qualitätsdashboard auch automatisch ein Benutzer erstellt dediziert Elemente für den neuen Benutzer. Der neue dedizierte Benutzerelemente sind vollständige Auslösung von Elementen des Systembenutzers. Auf diese Weise Benutzer mit ihren eigenen Kopien von Berichten und Abfragen, die sie anpassen sofort starten können beginnen. 
+Mit dem Dashboard für die Anrufqualität werden auch automatisch benutzerspezifische Elemente für den neuen Benutzer erstellt. Die neuen benutzerspezifischen Elemente sind vollständige Klone der Elemente des Systembenutzers. Auf diese Weise beginnen Benutzer mit eigenen Kopien von Berichten und Abfragen, dass Sie sofort mit dem Customizing beginnen können. 
   
 > [!NOTE]
-> Rufen Sie Qualitätsdashboard verwenden, können Benutzer ihre dedizierten Elemente zurückgesetzt jederzeit. 
+> Mithilfe des Dashboards für die Anrufqualität können Benutzer ihre dedizierten Elemente jederzeit zurücksetzen. 
   
  **Spezielle Benutzer-IDs**
   
-Repository-API enthält REST-API-URIs, die einen ganzzahligen Wert an einen bestimmten Benutzer erwartet. Beispiel: `https://<portal>/QoERepositoryService/repository/user/{userId}`. Hier sollte {Benutzer-ID} ersetzt werden, eine ganze Zahl wie 0, 1, usw..
+Die Repository-API enthält die RESTful-API-URIs, die einen ganzzahligen Wert zur Angabe eines bestimmten Benutzers erwartet. Beispiel: `https://<portal>/QoERepositoryService/repository/user/{userId}`. Hier sollte {UserID} durch einen ganzzahligen Wert wie 0, 1 usw. ersetzt werden.
   
-Darüber hinaus akzeptiert Repository API zwei spezielle Benutzer-IDs auf {Benutzer-ID} in URIs.
+Darüber hinaus akzeptiert die Repository-API zwei spezielle Benutzer-IDs bei {UserID} in URIs.
   
--  *Standard* - steht für den Benutzer, die mit der API interagiert. Dies ist die Anwendung den Zugriff auf Inhalt des aktuellen Benutzers ohne Verfolgen von der aktuelle Benutzer-ID-Wert. Beispiel: ` https://<portal>/QoERepositoryService/repository/user/default`.
+-  *Standard* – stellt den Benutzer dar, der gerade mit der API interagiert. Dies ermöglicht Anwendungen den Zugriff auf den Inhalt des aktuellen Benutzers, ohne den tatsächlichen Benutzer-ID-Wert zu verfolgen. Beispiel: ` https://<portal>/QoERepositoryService/repository/user/default`.
     
--  *System* - stellt den Systembenutzer dar. Dies ist die Anwendung auf dem des Systembenutzers Inhalt zugreifen, ohne den tatsächlichen Benutzer-ID-Wert. Beispiel: `https://<portal>/QoERepositoryService/repository/user/system`.
+-  *System* – stellt den Systembenutzer dar. Dies ermöglicht Anwendungen den Zugriff auf die Inhalte des Systembenutzers, ohne den tatsächlichen Benutzer-ID-Wert zu kennen. Beispiel: `https://<portal>/QoERepositoryService/repository/user/system`.
     
-Sofern nicht anders angegeben, kann die spezielle Benutzer-IDs am {Benutzer-ID} in URIs verwendet werden. 
+Sofern nicht anders angegeben, können die speziellen Benutzer-IDs bei {UserID} in URIs verwendet werden. 
   
-In der folgenden Tabelle sind die REST-Vorgänge enthalten.
+Die übrigen Vorgänge sind in der folgenden Tabelle enthalten.
   
 |**Vorgang**|**Beschreibung**|
 |:-----|:-----|
-|[Abrufen von Benutzern](get-users.md) <br/> |Gibt eine Liste der Benutzer im Repository.  <br/> |
+|[Abrufen von Benutzern](get-users.md) <br/> |Gibt eine Liste der Benutzer im Repository zurück.  <br/> |
 |[Abrufen eines Benutzers](get-user.md) <br/> |Gibt einen Benutzerdatensatz zurück.  <br/> |
    
 

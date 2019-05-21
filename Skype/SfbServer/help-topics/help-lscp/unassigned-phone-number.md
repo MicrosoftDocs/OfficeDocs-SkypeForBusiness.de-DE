@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceFeaVacantNumMain
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: Nicht zugewiesene Nummern sind Rufnummern, die für Ihre Organisation gültig sind, jedoch keinem Benutzer oder Telefon zugewiesen sind. In der Tabelle mit den nicht zugewiesenen Nummern ist angegeben, wie Anrufe bei nicht zugewiesenen Nummern behandelt werden sollen.
-ms.openlocfilehash: fc182388af06d75c6a9f7762127c74daf7cd4f0b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 88852088b4b664665750ef0e6167ba98b506a501
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929041"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34307196"
 ---
 # <a name="unassigned-phone-number"></a>Nicht zugewiesene Telefonnummer
 
@@ -47,18 +47,18 @@ Auf der Seite **Nicht zugewiesene Nummer** können Sie die folgenden Aufgaben au
 
 In der folgenden Liste werden die Befehle der Seite beschrieben.
 
-- **Neue** Startet einen neuen Bereichs nicht zugewiesenen Nummern an.
+- **Neu** Startet einen neuen nicht zugewiesenen Nummernbereich.
 
-- **Bearbeiten** Öffnet den ausgewählten nicht zugewiesenen Nummernbereich zur Bearbeitung, wählt alle nicht zugewiesenen Nummernbereiche in der Liste oder löscht den ausgewählten Bereich nicht zugewiesenen Nummern.
+- **Bearbeiten** von Öffnet den ausgewählten nicht zugewiesenen Nummernbereich für die Bearbeitung, wählt alle nicht zugewiesenen Nummernbereiche in der Liste aus oder löscht den ausgewählten nicht zugewiesenen Nummernbereich.
 
-- **Nach oben verschieben** Verschiebt den ausgewählten Bereichs nicht zugewiesenen Nummern oben in der Liste an, sodass Skype für Business Server früher ermittelt und wendet die angegebene Aktion vor dem Anwenden von Aktionen für andere Bereiche in der Liste angegeben.
+- Nach **oben** Verschiebt den ausgewählten nicht zugewiesenen Nummernbereich in der Liste nach oben, sodass er von Skype for Business Server früher gefunden wird, und wendet die angegebene Aktion an, bevor die für andere Bereiche in der Liste angegebenen Aktionen angewendet werden.
 
     > [!NOTE]
-    > Skype für Business Server sucht den Tabelle nicht zugewiesenen Nummern von oben nach unten und verwendet den ersten Bereich, der nicht zugewiesene Nummer entspricht. Wenn Sie z. B. über einen Bereich verfügen, auf den als letzte Aktion zurückgegriffen werden soll, platzieren Sie diesen Bereich ganz unten in der Liste.
+    > Skype for Business Server durchsucht die Tabelle nicht zugewiesene Nummern von oben nach unten und verwendet den ersten Bereich, der der nicht zugewiesenen Zahl entspricht. Wenn Sie z. B. über einen Bereich verfügen, auf den als letzte Aktion zurückgegriffen werden soll, platzieren Sie diesen Bereich ganz unten in der Liste.
 
-- **Nach unten verschieben** Verschiebt den ausgewählten Bereich nicht zugewiesenen Nummern in der Liste nach unten.
+- **Nach unten** Verschiebt den ausgewählten nicht zugewiesenen Nummernbereich in der Liste nach unten.
 
-- **Alle Commit** Speichert alle nicht zugewiesenen Nummernbereiche vorgenommenen Änderungen.
+- **Alle** übernehmen Speichert alle Änderungen, die Sie an nicht zugewiesenen Nummernbereichen vorgenommen haben.
 
     > [!IMPORTANT]
     > Mit diesem Befehl werden alle Änderungen gespeichert, die Sie auf der Seite **Neue nicht zugewiesene Nummer** und der Seite **Nicht zugewiesene Nummer bearbeiten** vorgenommen haben.
@@ -67,18 +67,18 @@ In der folgenden Liste werden die Befehle der Seite beschrieben.
 
 In der folgenden Liste werden die Felder der Seite beschrieben.
 
-- **Name** Der eindeutige Name, der den Bereich nicht zugewiesener Nummern.
+- **Name** Der eindeutige Name, der den nicht zugewiesenen Nummernbereich identifiziert.
 
-- **Zustand** Mit der Datenbank und die keinen wurden dargestellt, welche Nummernbereiche gespeichert.
+- **Bundesland** Zeigt, welche Nummernbereiche in der Datenbank gespeichert wurden und welche nicht.
 
-- **Anfangsbereich gibt** Die Anfangsnummer des Bereichs nicht zugewiesener Nummern.
+- **Start Bereich** Die Anfangszahl des nicht zugewiesenen Nummernbereichs.
 
-- **Endbereich** Die Endnummer des Bereichs nicht zugewiesener Nummern.
+- **Endbereich** Die letzte Nummer des nicht zugewiesenen Nummernbereichs.
 
-- **Ziel** Die Dienst-ID des Anwendungsdiensts, die die ankündigungsanwendung hostet, die eingehende Anrufe für diesen Bereich nicht zugewiesener Nummern behandelt werden sollen.
+- **Ziel** Die Dienst-ID des Anwendungsdiensts, der die Ankündigungs Anwendung hostet, die eingehende Anrufe an diesen Bereich nicht zugewiesener Nummern abwickeln soll.
 
-- **Ankündigung** Die Ankündigung, die für diesen Bereich nicht zugewiesener Nummern wiedergegeben werden.
+- **Ankündigung** Die Ansage, die für diesen Bereich nicht zugewiesener Nummern abgespielt wird.
 
-Ausführliche Informationen zur Ankündigung Features und Funktionen finden Sie unter [Planen für die ankündigungsanwendung in Skype für Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Bereichen nicht zugewiesener Nummern finden Sie in der Betriebsdokumentation unter [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx).
+Details zu Ankündigungs Features und-Funktionen finden Sie unter [Planen der Ankündigungs Anwendung in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Bereichen nicht zugewiesener Nummern finden Sie in der Betriebsdokumentation unter [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx).
 
 

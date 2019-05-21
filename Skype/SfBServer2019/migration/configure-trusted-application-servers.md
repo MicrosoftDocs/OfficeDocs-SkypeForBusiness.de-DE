@@ -4,41 +4,41 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Wenn Sie einen neuen vertrauenswürdigen Anwendungsserver erstellen, müssen Sie in einer gemischten Umgebung mit den nächsten hoppool einen Skype für Business Server 2019 Pool werden festlegen. In einer gemischten Umgebung werden sowohl Pool der Vorgängerversion der Skype für Business Server 2019 Pool in der Dropdownliste aus. Auswählen der Pool den Vorgängerversion wird nicht unterstützt.
-ms.openlocfilehash: 79f4de527008d2d9bf295fcb82eee433d04a1691
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Wenn Sie in einer gemischten Umgebung einen neuen vertrauenswürdigen Anwendungsserver erstellen, müssen Sie den Pool für den nächsten Hop als Skype for Business Server 2019-Pool einrichten. In einer gemischten Umgebung werden sowohl der Legacy Pool als auch der Skype for Business Server 2019-Pool in der Dropdownliste angezeigt. Das Auswählen des Legacy Pools wird nicht unterstützt.
+ms.openlocfilehash: b0dfb9ba1e4744ba3e0ea0c376f67a224e70376a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238682"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289599"
 ---
 # <a name="configure-trusted-application-servers"></a>Konfigurieren von vertrauenswürdigen Anwendungsservern
 
-Wenn Sie einen neuen vertrauenswürdigen Anwendungsserver erstellen, müssen Sie in einer gemischten Umgebung mit den nächsten hoppool einen Skype für Business Server 2019 Pool werden festlegen. In einer gemischten Umgebung werden sowohl Pool der Vorgängerversion der Skype für Business Server 2019 Pool in der Dropdown-Liste. Auswählen der Pool den Vorgängerversion wird nicht unterstützt.
+Wenn Sie in einer gemischten Umgebung einen neuen vertrauenswürdigen Anwendungsserver erstellen, müssen Sie den Pool für den nächsten Hop als Skype for Business Server 2019-Pool einrichten. In einer gemischten Umgebung werden sowohl der Legacy Pool als auch der Skype for Business Server 2019-Pool in der Dropdownliste angezeigt. Das Auswählen des Legacy Pools wird nicht unterstützt.
   
 > [!IMPORTANT]
-> Wenn Sie einen vertrauenswürdigen Anwendungsserver migrieren, sollten Sie auch die Version von UCMA aktualisieren, den, die Sie verwenden. Wenn Sie einen neuen vertrauenswürdigen Anwendungspool für Skype für Business Server 2019 erstellen, sollten Sie UCMA aktualisieren, um die Version, die in Skype für Business Server 2019 enthalten ist oder die neueste Version verfügbar. 
+> Wenn Sie einen vertrauenswürdigen Anwendungsserver migrieren, sollten Sie auch die von Ihnen verwendete Version von UCMA aktualisieren. Wenn Sie einen neuen vertrauenswürdigen Anwendungs Pool für Skype for Business Server 2019 erstellen, sollten Sie UCMA auf die Version aktualisieren, die im Lieferumfang von Skype for Business Server 2019 oder in der neuesten Version verfügbar ist. 
   
-### <a name="select-skype-for-business-server-2019-as-next-hop-when-creating-a-trusted-application-server"></a>Wählen Sie Skype für Business Server 2019 als nächsten Hop beim Erstellen eines vertrauenswürdigen Anwendungsservers
+### <a name="select-skype-for-business-server-2019-as-next-hop-when-creating-a-trusted-application-server"></a>Auswählen von Skype for Business Server 2019 als nächster Hop beim Erstellen eines vertrauenswürdigen Anwendungsservers
 
-1. Topologie-Generator zu öffnen.
+1. Öffnen Sie den Topologie-Generator.
     
-2. Klicken Sie im linken Bereich Maustaste auf **Vertrauenswürdige Anwendungsserver** , und klicken Sie auf **Neuer Pool für vertrauenswürdige Anwendung**.
+2. Klicken Sie im linken Bereich mit der rechten Maustaste auf **Vertrauenswürdige Anwendungsserver** , und klicken Sie auf **neuer vertrauenswürdiger Anwendungs Pool**.
     
-3. Geben Sie den **Pool-FQDN** des vertrauenswürdigen Anwendungspools, und wählen Sie aus, ob es Einzelserver oder mehreren Servern ist. 
+3. Geben Sie den **Pool-FQDN** des vertrauenswürdigen Anwendungspools ein, und wählen Sie aus, ob es sich um einen Einzelserver oder um mehrere Server handelt. 
     
 4. Klicken Sie auf **Weiter**.
     
-5. Wählen Sie auf der Seite **Wählen Sie den nächsten Hop** aus der Liste der Skype für Business Server 2019 Front-End-Pool ein. 
+5. Wählen Sie auf der Seite **Nächster Hop auswählen** in der Liste den Skype for Business Server 2019-Front-End-Pool aus. 
     
 6. Klicken Sie auf **Fertig stellen**.
     
-7. Wählen Sie den obersten Knoten **Skype für Business Server**aus, und wählen Sie im Menü **Aktion** **Veröffentlichen**.
+7. Wählen Sie den obersten Knoten **für Skype for Business Server**aus, und wählen Sie im Menü **Aktion** die Option **veröffentlichen**aus.
     
-    Stellen Sie sicher, dass der **Vertrauenswürdige Anwendungspool** erfolgreich erstellt wurde und dem richtigen Front-End-Pool zugeordnet ist. 
+    Überprüfen Sie, ob der **Vertrauenswürdige Anwendungspool** erfolgreich erstellt wurde und dem richtigen Front-End-Pool zugeordnet ist. 
     
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeploySSRSCredentials
@@ -12,23 +12,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Um die Anmeldeinformationen für den SQL Server Reporting Services (SSRS) zum Zugriff auf die Überwachungsdatenbank anzugeben, führen Sie folgende Schritte aus:'
-ms.openlocfilehash: bac3e7173a964160970eb9c6f7359e90dd244bd5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Gehen Sie wie folgt vor, um die Anmeldeinformationen für SQL Server Reporting Services (SSRS) für den Zugriff auf die Überwachungsdatenbank anzugeben:'
+ms.openlocfilehash: d2b3773b0593df6c68b7215c65e5e2f9d7eecef1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892062"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278014"
 ---
 # <a name="sql-server-reporting-services-credentials"></a>SQL Server Reporting Services (Anmeldeinformationen)
  
-Um die Anmeldeinformationen für den SQL Server Reporting Services (SSRS) zum Zugriff auf die Überwachungsdatenbank anzugeben, führen Sie folgende Schritte aus:
+Gehen Sie wie folgt vor, um die Anmeldeinformationen für SQL Server Reporting Services (SSRS) für den Zugriff auf die Überwachungsdatenbank anzugeben:
   
-Geben Sie auf der **Seite Anmeldeinformationen**die Benutzeranmeldeinformationen an, denen Sie verwenden, um die Überwachungsdatenbank (QoEMetrics und LcsCDR) zugreifen möchten. 
+Geben Sie auf der **Seite Anmeldeinformationen angeben**die Benutzeranmeldeinformationen an, die Sie für den Zugriff auf die Überwachungsdatenbank verwenden möchten (Datenbank QoEMetrics werden und LcsCDR). 
   
 > [!NOTE]
-> Weitere Informationen hierzu finden Sie unter "Angeben von Anmeldeinformationen und Verbindung Informationen für Bericht Daten Quellen (SSRS)" unter [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431). 
+> Ausführliche Informationen finden Sie unter "angeben von Anmeldeinformationen und Verbindungsinformationen für Berichtsdatenquellen (SSRS [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431))" unter. 
   
-Ausführliche Informationen zur Bereitstellung der Reporting Services-Berichte für den Server mit der Überwachung finden Sie unter [Monitoring Reports in Skype für Business Server installieren](../../../deploy/deploy-monitoring/install-monitoring-reports.md).
+Details zum Bereitstellen der Reporting Services-Berichte für den Server, auf dem die Überwachung ausgeführt wird, finden Sie unter [Installieren von Überwachungsberichten in Skype for Business Server](../../../deploy/deploy-monitoring/install-monitoring-reports.md).
   
 

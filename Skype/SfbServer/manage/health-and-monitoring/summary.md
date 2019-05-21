@@ -1,29 +1,29 @@
 ---
-title: Zusammenfassender Bericht über Medienqualität in Skype für Business Server
+title: Zusammenfassungsbericht für Medienqualität in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
-description: 'Zusammenfassung: Informationen Sie zu vom Media Quality Summary Report in Skype für Business Server.'
-ms.openlocfilehash: 3091b89d959552d54bc01a3adc62b8ee32efda92
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Informationen zum Zusammenfassungsbericht für Medienqualität in Skype for Business Server.'
+ms.openlocfilehash: 49c4aba8e5eb69c50282f4c9a1c77027f1a0210d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888170"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279753"
 ---
-# <a name="media-quality-summary-report-in-skype-for-business-server"></a>Zusammenfassender Bericht über Medienqualität in Skype für Business Server
+# <a name="media-quality-summary-report-in-skype-for-business-server"></a>Zusammenfassungsbericht für Medienqualität in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu vom Media Quality Summary Report in Skype für Business Server.
+**Zusammenfassung:** Informationen zum Zusammenfassungsbericht für Medienqualität in Skype for Business Server.
   
 Der „Zusammenfassende Bericht über Medienqualität“ ist möglicherweise die beste Option zum Analysieren der Anrufqualität in Ihrer Organisation: In diesem Bericht werden detailliert die QoE-Anrufmetriken (Quality of Experience, QoE) in den folgenden Kategorien aufgeführt:
   
-- UC-Peer-zu-Peer-Anrufe (beispielsweise einen Skype für Unternehmen Skype für Business Anruf)
+- UC-Peer-to-Peer-Anrufe (wie Skype for Business für Skype for Business-Anruf)
     
 - UC-Konferenzsitzungen
     
@@ -37,15 +37,15 @@ Der „Zusammenfassende Bericht über Medienqualität“ ist möglicherweise die
     
 - Andere Anruftypen
     
-Beim ersten Öffnen des Berichts wird eine Zusammenfassung zu den einzelnen Kategorien angezeigt. Ohne den Bericht können Sie jede Kategorie Unterkategorien wie Anrufe von Office Communicator 2007 R2 Skype für Unternehmen betrachten erweitern. Diese Unterkategorien können Sie anschließend erweitern, um Details zu jedem in diesen Unterkategorien getätigten Anruf anzuzeigen.
+Beim ersten Öffnen des Berichts wird eine Zusammenfassung zu den einzelnen Kategorien angezeigt. Ohne den Bericht zu verlassen, können Sie jede Kategorie erweitern, um Unterkategorien wie Anrufe von Office Communicator 2007 R2 zu Skype for Business zu sehen. Diese Unterkategorien können Sie anschließend erweitern, um Details zu jedem in diesen Unterkategorien getätigten Anruf anzuzeigen.
   
-In Skype für Business Server die Media Quality Summary Report weiter unterteilt die Daten in drei Anruftypen: Audioanrufe, Videoanrufe und Anwendungsfreigabe Anrufe. Für jeden Anruftyp gibt es im Bericht einen eigenen Bereich und eigenen benutzerdefinierten Satz von Anrufmetriken.
+In Skype for Business Server wird der Zusammenfassungsbericht für Medienqualität die Daten in drei Anruftypen weiter unterteilt: Audioanrufe, Videoanrufe und Anwendungsfreigabe Anrufe. Für jeden Anruftyp gibt es im Bericht einen eigenen Bereich und eigenen benutzerdefinierten Satz von Anrufmetriken.
   
 Im „Zusammenfassenden Bericht über Medienqualität“ können Sie Filter anwenden, mit denen Sie die Anrufqualität zwischen verkabelten und drahtlosen Anrufen, internen und externen Anrufen sowie VPN- und Nicht-VPN-Anrufen vergleichen können.
   
 ## <a name="accessing-the-media-quality-summary-report"></a>Zugreifen auf den „Zusammenfassenden Bericht über Medienqualität“
 
-Auf den „Zusammenfassenden Bericht über Medienqualität“ kann auf der Startseite „Überwachungsberichte“ zugegriffen werden. Sie können den [Call List Report in Skype für Business Server](call-list-report-0.md) Drilldown, indem Sie auf eine der folgenden Metriken:
+Auf den „Zusammenfassenden Bericht über Medienqualität“ kann auf der Startseite „Überwachungsberichte“ zugegriffen werden. Sie können einen Drilldown zum [Bericht Anrufliste in Skype for Business Server](call-list-report-0.md) durchführen, indem Sie auf eine der folgenden Metriken klicken:
   
 - Anruflautstärke
     
@@ -98,7 +98,7 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 |**Anruflautstärke (VPN-Anruf)** <br/> |Nein  <br/> |Die Gesamtzahl der Anrufe, für die eine VPN-Verbindung verwendet wurde.  <br/> |
 |**Anruflautstärke (externer Anruf)** <br/> |Nein  <br/> |Die Gesamtzahl der Anrufe, für die eine externe Verbindung verwendet wurde (d. h. eine Verbindung außerhalb des internen Netzwerks).  <br/> |
 |**Roundtrip (ms)** <br/> |Nein  <br/> |Die durchschnittliche Zeit (in Millisekunden), die ein RTP-Paket (Real-time Transport Protocol) benötigt, um zu einem anderen Endpunkt und wieder zurück zu gelangen. Eine Roundtripzeit von 100 ms oder weniger gilt als akzeptable Qualität.  <br/> Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routingkonfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.  <br/> |
-|**Beeinträchtigung (MOS)** <br/> |Nein  <br/> |Die durchschnittliche Beeinträchtigung der Qualität, die gemäß Mean Opinion Score (MOS) während eines Anrufs auftrat. Die Beeinträchtigungswerte liegen zwischen 0,0 (schlecht) und 5,0 (gut). Ein Wert von 0,5 oder weniger gilt als akzeptable Beeinträchtigung. Früher wurden Mean Opinion Scores berechnet, indem man Benutzer die Qualität eines Telefongesprächs auf einer Skala von 1 bis 5 bewerten ließ. In Skype für Business Server ein Satz von Algorithmen Vorhersagen wie Benutzer einen Anruf bewertet haben würde.  <br/> Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
+|**Beeinträchtigung (MOS)** <br/> |Nein  <br/> |Die durchschnittliche Beeinträchtigung der Qualität, die gemäß Mean Opinion Score (MOS) während eines Anrufs auftrat. Die Beeinträchtigungswerte liegen zwischen 0,0 (schlecht) und 5,0 (gut). Ein Wert von 0,5 oder weniger gilt als akzeptable Beeinträchtigung. Früher wurden Mean Opinion Scores berechnet, indem man Benutzer die Qualität eines Telefongesprächs auf einer Skala von 1 bis 5 bewerten ließ. In Skype for Business Server wird eine Reihe von Algorithmen Vorhersagen, wie Nutzer einen Anruf bewertet hätten.  <br/> Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
 |**Paketverlust** <br/> |Nein  <br/> |Die durchschnittliche Rate an RTP-Paketverlusten. Zu Paketverlusten kommt es, wenn RTP-Pakete (RTP ist ein Protokoll für die Übertragung von Audio und Video über das Internet) ihr Ziel nicht erreichen. Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
 |**Jitter (ms)** <br/> |Nein  <br/> |Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für das „Zittern“ der Übertragung während eines Anrufs.) Hohe Jitterwerte werden in der Regel durch Überlastung oder einen überlasteten Medienserver verursacht und führen zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
 |**Ausblendungsverhältnis der Reparatur** <br/> |Nein  <br/> |Das durchschnittliche Verhältnis zwischen ausgeblendeten Audiosamples und der Gesamtzahl der Samples. (Ausgeblendete Audiosamples sind ein Verfahren zum „Glätten“ der „holprigen“ Übertragung, die normalerweise von verworfenen Netzwerkpaketen verursacht wird.) Ein hoher Wert gibt an, dass wegen Paketverlusten oder Jitters Verlustausblendung in großem Umfang angewendet wurde und führt zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
@@ -118,7 +118,7 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 |**Durchschnittliche Bitrate (KBit/s)** <br/> |Nein  <br/> |Durchschnittliche Video-Bitrate (in Kilobit pro Sekunde).  <br/> |
 |**Niedrige Bitrate %** <br/> |Nein  <br/> |Prozentsatz aller Anrufe, bei denen die Bitrate niedrig war.  <br/> |
 |**Verlust ausgehender Pakete** <br/> |Nein  <br/> |RTP-Paketverluste (Real-Time Transport Protocol) bei ausgehenden Paketen. (Zu Paketverlusten kommt es, wenn RTP-Pakete (ein Protokoll für die Übertragung von Audio und Video über das Internet) ihr Ziel nicht erreichen.) Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
-|**Eingefrorene Frames %** <br/> |Nein  <br/> |Prozentsatz der "fixierten" Frames. In einem eingefrorenen Frame wird das Video nicht fortgesetzt, während der Audioteil des Anrufs weitergeht.  <br/> |
+|**Eingefrorene Frames %** <br/> |Nein  <br/> |Prozentsatz der "fixierten" Frames In einem eingefrorenen Frame wird das Video nicht fortgesetzt, während der Audioteil des Anrufs weitergeht.  <br/> |
 |**Durchschnittliche ausgehende Framerate** <br/> |Nein  <br/> |Durchschnittliche Framerate für ausgehende Übertragungen während des Anrufs.  <br/> |
 |**Durchschnittliche eingehende Framerate** <br/> |Nein  <br/> |Durchschnittliche Framerate für eingehende Übertragungen während des Anrufs.  <br/> |
 |**Niedrige eingehende Framerate %** <br/> |Nein  <br/> |Prozentsatz aller Anrufe, bei denen die Bitrate für eingehende Videodaten niedrig war.  <br/> |

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.OfficeCommunicationsServerScopeNode
@@ -13,21 +13,21 @@ localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW
 description: Diese Dokumentation ist vorläufig und kann geändert werden. Leere Themen sind als Platzhalter enthalten.
-ms.openlocfilehash: bab53d772733f633e4f66e9b32c10f62e15c1842
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 753a9a3a65d9aaf3815c126772a19d7bfeca8be6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885600"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289153"
 ---
 # <a name="office-communications-server-scope-node"></a>Office Communications Server – Bereichsknoten
 
 Diese Dokumentation ist vorläufig und kann geändert werden. Leere Themen sind als Platzhalter enthalten.
 
-Sie klicken Sie auf **Office Communications Server 2007 R2** , um die Abschnitte unter dem Knoten zu erweitern, oder Sie rechts auf **Topologieoptionen** Zugriff auf oder auf **diese Hilfeseite** zuzugreifen.
+Klicken Sie auf **Office Communications Server 2007 R2** , um die Abschnitte unter dem Knoten zu erweitern, oder klicken Sie mit der rechten Maustaste, um auf die **topologieeinstellungen** zuzugreifen, oder auf diese **Hilfe** Seite zuzugreifen.
 
 ## <a name="see-also"></a>Siehe auch
 
-[Zusammenführen Sie mithilfe des Seriendruck-Assistenten des Topologie-Generator](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
+[Zusammenführen mit dem Zusammenführungs-Assistenten für Topologie-Generator](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
 
 [Überprüfen von Topologieinformationen](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)

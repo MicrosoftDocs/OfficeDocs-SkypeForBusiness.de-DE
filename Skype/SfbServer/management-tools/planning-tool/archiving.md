@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.Archiving
@@ -13,18 +13,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
-description: Archivierung in Skype für Business Server bietet eine Möglichkeit zur Kommunikation zu archivieren, die über Skype für Business Server gesendet werden.
-ms.openlocfilehash: 517cb30574e5b20b302395d29b357593da50e39c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Die Archivierung in Skype for Business Server bietet eine Möglichkeit zum Archivieren von Kommunikationen, die über Skype for Business Server gesendet werden.
+ms.openlocfilehash: 928a900c9ded9ee831a371cee70dcc519f2660a8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914947"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274352"
 ---
 # <a name="archiving-planning-tool"></a>Archiving (Planning Tool)
  
-Archivierung in Skype für Business Server bietet eine Möglichkeit zur Kommunikation zu archivieren, die über Skype für Business Server gesendet werden.
+Die Archivierung in Skype for Business Server bietet eine Möglichkeit zum Archivieren von Kommunikationen, die über Skype for Business Server gesendet werden.
   
-Ausführliche Informationen zum Vorbereiten der Umgebung für den Archivierungsserver finden Sie unter [Planen für die Archivierung in Skype für Business Server 2015](../../plan-your-deployment/archiving/archiving.md).
+Details zum Vorbereiten Ihrer Umgebung für den Archivierungs Server finden Sie unter [Planen der Archivierung in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md).
   
 

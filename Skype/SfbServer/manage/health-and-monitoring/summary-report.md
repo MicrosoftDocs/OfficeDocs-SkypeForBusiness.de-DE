@@ -1,25 +1,25 @@
 ---
-title: Zusammenfassender anrufdiagnosebericht in Skype für Business Server
+title: Anruf Diagnose Zusammenfassungsbericht in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
-description: 'Zusammenfassung: Informationen Sie zu den zusammenfassenden Anrufdiagnosebericht in Skype für Business Server verwendet wird.'
-ms.openlocfilehash: 7c204649a5819b4f119c975e71c6ac52e487b933
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Bericht zur Anruf Diagnose Zusammenfassung, der in Skype for Business Server verwendet wird.'
+ms.openlocfilehash: baa34340214b1eb905777c977c0e9fa8ebaea788
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915297"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279740"
 ---
-# <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Zusammenfassender anrufdiagnosebericht in Skype für Business Server
+# <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Anruf Diagnose Zusammenfassungsbericht in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den zusammenfassenden Anrufdiagnosebericht in Skype für Business Server verwendet wird.
+**Zusammenfassung:** Informieren Sie sich über den Bericht zur Anruf Diagnose Zusammenfassung, der in Skype for Business Server verwendet wird.
   
 Der zusammenfassende Anrufdiagnosebericht bietet eine Gesamtübersicht zu fehlgeschlagenen Peer-to-Peer- und Konferenzsitzungen. Der Bericht zeigt die Gesamtfehlerrate für beide Sitzungstypen und detaillierte Fehlerinformationen nach Sitzungsmodalitätstyp:
   
@@ -35,7 +35,7 @@ Der zusammenfassende Anrufdiagnosebericht bietet eine Gesamtübersicht zu fehlge
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Zugriff auf den zusammenfassenden Anrufdiagnosebericht
 
-Der Zugriff auf den zusammenfassenden Anrufdiagnosebericht erfolgt auf der Startseite für Überwachungsberichte. Über den zusammenfassenden Anrufdiagnosebericht können Sie den [Bericht über Peer-zu-Peer-Aktivität Diagnosebericht in Skype für Business Server](peer-to-peer-activity-diagnostic-report.md) zugreifen, durch Klicken auf die Metrik "Fehler Rate" unter dem zusammenfassenden Bericht über Peer-zu-Peer-Sitzung Abschnitt des Berichts. Sie können auch die [Konferenz Diagnosebericht in Skype für Business Server](conference-diagnostic-report.md) zugreifen, indem Sie auf eine der folgenden Metriken Konferenz:
+Der Zugriff auf den zusammenfassenden Anrufdiagnosebericht erfolgt auf der Startseite für Überwachungsberichte. Im Bericht Anruf Diagnose Zusammenfassung können Sie auf den [Diagnosebericht Peer-to-Peer-Aktivität in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md) zugreifen, indem Sie im Abschnitt Peer-to-Peer-Sitzungszusammenfassung im Bericht auf die Fehlerrate-Metrik klicken. Sie können auch auf den [Konferenz Diagnosebericht in Skype for Business Server](conference-diagnostic-report.md) zugreifen, indem Sie auf eine der folgenden Konferenz Metriken klicken:
   
 - Sitzungsfehlerrate insgesamt
     
@@ -45,7 +45,7 @@ Der Zugriff auf den zusammenfassenden Anrufdiagnosebericht erfolgt auf der Start
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>Optimale Verwendung des zusammenfassenden Anrufdiagnoseberichts
 
-Die zusammenfassenden Anrufdiagnosebericht umfasst Diagramme, die für die verschiedenen Modalitäten in Skype für Business Server verwendeten Fehlerraten zu vergleichen. Die Spalten in dieser Diagramme sind tatsächlich Hotlink; Angenommen, wenn Sie die Instant messaging-Spalte für Peer-zu-Peer-Sitzungen klicken, Sie werden Detailinformationen eine Instanz des [Peer-zu-Peer-Aktivität Diagnosebericht in Skype für Business Server](peer-to-peer-activity-diagnostic-report.md), einen Bericht, der zusätzliche Details zu allen enthält die Instant messaging-Sitzungen in den zusammenfassenden Anrufdiagnosebericht enthalten.
+Der Bericht zur Anruf Diagnose Zusammenfassung enthält Diagramme, die Fehlerraten für die verschiedenen in Skype for Business Server verwendeten Modalitäten vergleichen. Die Spalten in diesen Diagrammen sind tatsächlich Hotlinks; Wenn Sie beispielsweise auf die Spalte "Instant Messaging" für Peer-to-Peer-Sitzungen klicken, führen Sie einen Drilldown zu einer Instanz des [Diagnoseberichts zur Peer-to-Peer-Aktivität in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)aus, einem Bericht, der zusätzliche Informationen zu allen Instant Messaging-Sitzungen, die im Zusammenfassungsbericht zur Anruf Diagnose enthalten sind.
   
 ## <a name="filters"></a>Filter
 
@@ -66,7 +66,7 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Zusammenfasse
 
 In der folgenden Tabelle werden die Metriken aufgelistet, die im Zusammenfassenden Anrufdiagnosebericht für Peer-to-Peer-Sitzungen (d. h. für Sitzungen mit nur zwei Teilnehmern) angegeben werden.
   
-**Metriken für Peer-zu-Peer-Sitzungen**
+**Metriken für Peer-to-Peer-Sitzungen**
 
 |**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|

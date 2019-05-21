@@ -10,67 +10,67 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: Die neue Skype für Bereich Business Admin Center Berichte zeigt Sie aufrufende und audio Conferencing Aktivität in Ihrer Organisation. Sie können in Berichte bieten mehr Granularität Aufschluss über die Aktivitäten der einzelnen Benutzer zur Verfügung, der Drilldown erfolgen soll. Die Skype für Business PSTN Minute Pools Bericht können Sie beispielsweise die Anzahl der Minuten, die während des aktuellen Monats innerhalb Ihrer Organisation verbraucht finden Sie unter.
-ms.openlocfilehash: 903ea97fa5cd187e49db89d0e4db32ad7b851a41
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Im Bereich "neue Skype for Business Admin Center-Berichte" werden die Aktivitäten zur Anruf-und Audiokonferenz in Ihrer Organisation angezeigt. Es ermöglicht Ihnen, in Berichte zu drillen, um Ihnen genauere Einblicke in die Aktivitäten der einzelnen Benutzer zu verschaffen. So können Sie beispielsweise den Bericht Skype for Business PSTN-Minuten Pools verwenden, um die Anzahl der Minuten anzuzeigen, die während des aktuellen Monats innerhalb Ihrer Organisation verbraucht werden.
+ms.openlocfilehash: 81622eff6954fb19b9b16e278a19ed70c6183b2e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239898"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287745"
 ---
 # <a name="pstn-minute-pools-report"></a>Bericht „PSTN-Minutenpools“
 
 >[!NOTE]
->Dieser Bericht ist nur für die Vorschau von Kunden zur Verfügung.
+>Dieser Bericht steht nur für eine Vorschau von Kunden zur Verfügung.
 
-Die neue Skype für Bereich Business Admin Center **Berichte** zeigt Sie aufrufende und audio Conferencing Aktivität in Ihrer Organisation. Sie können in Berichte bieten mehr Granularität Aufschluss über die Aktivitäten der einzelnen Benutzer zur Verfügung, der Drilldown erfolgen soll. Den Bericht **Skype für Minute Business PSTN-Pools** können Sie beispielsweise die Anzahl der Minuten, die während des aktuellen Monats innerhalb Ihrer Organisation verbraucht finden Sie unter.
+Im Bereich "neue Skype for Business Admin Center- **Berichte** " werden die Aktivitäten zur Anruf-und Audiokonferenz in Ihrer Organisation angezeigt. Es ermöglicht Ihnen, in Berichte zu drillen, um Ihnen genauere Einblicke in die Aktivitäten der einzelnen Benutzer zu verschaffen. So können Sie beispielsweise den Bericht **Skype for Business PSTN-Minuten Pools** verwenden, um die Anzahl der Minuten anzuzeigen, die während des aktuellen Monats innerhalb Ihrer Organisation verbraucht werden.
   
-Checken Sie der [Übersicht über die Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) für weitere Berichte, die verfügbar sind.
+Weitere verfügbare Berichte finden Sie in der [Übersicht über Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) .
   
-In diesem Bericht, zusammen mit den anderen Skype für Business-Berichte, erhalten Sie Details auf Aktivität innerhalb Ihrer Organisation. Diese Angaben sind sehr hilfreich beim Untersuchen von, zur Planung und andere treffen für Ihre Organisation und für das Einrichten von [Communications haben](/microsoftteams/what-are-communications-credits)
+Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten Informationen zu den Aktivitäten in Ihrer Organisation. Diese Informationen sind sehr hilfreich, wenn Sie untersuchen, planen und andere geschäftliche Entscheidungen für Ihre Organisation treffen und [Kommunikationsguthaben](/microsoftteams/what-are-communications-credits) einrichten.
   
 > [!NOTE]
 > Sie können sich alle Skype for Business-Berichte ansehen, wenn Sie sich als Administrator beim Office 365 Admin Center anmelden. 
   
-## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Wie Sie auf die Skype für Business PSTN Minute Pools Bericht abrufen
+## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>So erhalten Sie den Bericht "Skype for Business PSTN-Minuten Pools"
 
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
 
-- Wechseln Sie zu **Office 365 Administrationscenter** > **Admin zentriert** > **Skype für Business Administrationscenter** > **Berichte** > **Minute PSTN-Pools**.
+- Wechseln Sie zu **Office 365 Admin Center** > **Admin** > Center**Skype for Business Admin Center** > **meldet** > **PSTN-Minuten Pools**.
     
 > [!NOTE]
-> Je nach Office 365-Abonnements, die Ihnen, möglicherweise nicht Details hier gezeigte dieselben angezeigt werden. 
+> Je nach Ihrem Office 365-Abonnement sehen Sie möglicherweise nicht alle Details, die hier angezeigt werden. 
   
-## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>Interpretieren der Skype für Business PSTN Minute Pools Bericht
+## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>Interpretieren des Berichts "Skype for Business PSTN-Minuten Pools"
 
-Sie können eine Ansicht in Skype für Business Minute Pools des Benutzers abrufen, indem Sie betrachten jede der Spalten, die angezeigt werden.
+Sie können sich einen Überblick über die Skype for Business-Minuten Pools Ihrer Benutzer verschaffen, indem Sie sich die einzelnen angezeigten Spalten ansehen.
   
 Der Bericht sieht folgendermaßen aus:
   
 ## 
 
-![Skype für Business PSTN Minute pools Bericht](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
+![Skype for Business PSTN-Minuten Pools-Bericht](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
 ***
-![Nummer 1](../images/sfbcallout1.png)<br/>Die Tabelle zeigt Sie eine Aufschlüsselung der Minute Pools nach Lizenz (Funktion) und Speicherort der Verwendungsanalyse. 
-*    **Funktion** ist die Lizenz/Dienstplan für den Anruf verwendet. Die Lizenz-Dienst-Pläne, die in diesem Bericht angezeigt werden umfassen:
-     * MCOPSTN1 - nationalen aufrufen planen (3000-minütigen US/1200-minütigen EU-Pläne
-     * MCOPSTN2 - nationalen & International aufrufen planen aus der Sie einen nationalen Pool (3000-minütigen US/Kanada/PR, 1200-minütigen Ländern) und einem internationalen Pool (600 Minuten) angezeigt werden. Minute Cap erreicht ist, wenn die nationalen OR - International Cap innerhalb der Kalendermonat erreicht wird. 
-     * MCOPSTN5 - nationalen aufrufen Plan (aufrufende Plan 120 Minuten)
-     * MCOPSTN6 - nationalen aufrufen Plan (aufrufende Plan 240 Minuten)
+![Nummer 1](../images/sfbcallout1.png)<br/>Die Tabelle zeigt eine Aufschlüsselung der Minuten Pools nach Lizenz (Funktion) und Verwendungsstandort. 
+*    **Funktion** ist der für den Anruf verwendete Lizenz-/Service Plan. Die Lizenz-/Servicepläne, die in diesem Bericht möglicherweise angezeigt werden, sind unter anderem:
+     * MCOPSTN1-Domestic Calling Plan (3000-Minute US/1200-Minute EU-Pläne
+     * MCOPSTN2-Domestic & International Calling Plan, von dem Sie einen inländischen Pool (3000-Minuten-US/Kanada/PR, 1200-minütige europäische Länder) und ein internationales Schwimmbad (600-Minuten) sehen werden. Die Minuten Obergrenze wird erreicht, wenn innerhalb des Kalendermonats die nationale oder internationale Grenze erreicht wird. 
+     * MCOPSTN5-Domestic Calling Plan (120-Minute Calling Plan)
+     * MCOPSTN6-Domestic Calling Plan (240-Minute Calling Plan)
      * MCOMEETADD: Audiokonferenz
-*    **Beschreibung der Funktion** ist eine Beschreibung des Typs Lizenz für den Anruf verwendet.
-*    **Land Minute Pool** ist der Lizenz Usage-Speicherort den Benutzer, die den Minuten Pool gemeinsam nutzen. 
-*    **Minuten verwendet,** ist die Anzahl der Minuten pro Monat verwendet.
-*    **Gesamtzahl der Minuten** ist die Gesamtzahl der Minuten, die für den Monat zur Verfügung. 
-*    **Prozent verwendet** , ist der Prozentsatz der Minuten für den Monat verwendet. 
+*    **Beschreibung der Funktion** ist eine Beschreibung des für den Anruf verwendeten Lizenztyps.
+*    Der **Country-Minuten Pool** ist der Lizenz Verwendungsstandort der Benutzer, die den Minuten Pool teilen. 
+*    " **Verwendete Minuten** " ist die Anzahl der pro Monat verwendeten Minuten.
+*    **Gesamt** Anzahl der Minuten ist die Gesamtzahl der Minuten, die für den Monat zur Verfügung stehen. 
+*    **Verwendeter Prozent** Satz ist der Prozentsatz der für den Monat verwendeten Minuten. 
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns. 
 ***
@@ -88,9 +88,9 @@ Der Bericht sieht folgendermaßen aus:
     
 - [Skype for Business - Bericht über Peer-zu Peer-Aktivitäten](peer-to-peer-activity-report.md) : Sie können sehen, in welchem Umfang die Benutzer Chat, Audio/Video, Anwendungsfreigabe sowie Dateiübertragung verwenden.
     
-- [Skype für Unternehmensbenutzer blockiert Bericht](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation, die vom PSTN-Anrufe tätigen blockiert wurden, finden Sie unter.
+- [Bericht "Skype for Business-Benutzer blockiert](users-blocked-report.md) " Sie können die Benutzer in Ihrer Organisation sehen, die für das tätigen von PSTN-anrufen gesperrt wurden.
 
-- [Skype für Business Sitzung Detailbericht](session-details-report.md) Sie können die Details zu einzelnen Benutzers Anruf Erfahrungen sehen.
+- [Bericht "Skype for Business-Sitzungsdetails](session-details-report.md) " Details zu den Anruf Erfahrungen einzelner Nutzer werden angezeigt.
     
 ## <a name="related-topics"></a>Verwandte Themen
 [Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

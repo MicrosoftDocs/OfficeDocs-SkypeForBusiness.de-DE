@@ -1,25 +1,25 @@
 ---
-title: Server Trendbericht über Medienqualität in Skype für Business Server
+title: Trend Bericht zur Server Medienqualität in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
-description: 'Zusammenfassung: Erfahren Sie mehr über den Server Trendbericht über Medienqualität in Skype für Business Server.'
-ms.openlocfilehash: 0b488f9014fd6526599beed562425677f097c4b7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Trend Bericht zur Server Medienqualität in Skype for Business Server.'
+ms.openlocfilehash: 0ed819c40088c03ca1882ed035b416bf1427e840
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897730"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279830"
 ---
-# <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Server Trendbericht über Medienqualität in Skype für Business Server
+# <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Trend Bericht zur Server Medienqualität in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Server Trendbericht über Medienqualität in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den Trend Bericht zur Server Medienqualität in Skype for Business Server.
   
 Mit dem „Trendbericht über Medienqualität des Servers“ haben Sie die Möglichkeit, bis zu fünf Server anhand von Quality of Experience (QoE)-Metriken, wie beispielsweise Anrufvolumen, Prozentsatz der Anrufe schlechter Qualität, Paketverlust und Jitter grafisch zu vergleichen. So ist es einfacher, die leistungsschwachen, nicht voll ausgelasteten oder die überbeanspruchten Server zu identifizieren.
   
@@ -27,15 +27,15 @@ Mit dem „Trendbericht über Medienqualität des Servers“ haben Sie die Mögl
 
 Auf den „Trendbericht über Medienqualität des Servers“ kann über einen der folgenden Berichte zugegriffen werden:
   
-- [Server Performance Report in Skype für Business Server](server-performance.md) (durch Klicken auf die Trend-Metriken)
+- [Bericht zur Server Leistung in Skype for Business Server](server-performance.md) (durch Klicken auf die Trend Metrik)
     
-- [Aufrufdetailbericht in Skype für Business Server](call-detail-report.md) (durch Klicken auf den A / V-Edgeserver Metrik. Wenn der Anrufer oder angerufenen ein Server ist, können Sie auch die Qualität Trendbericht über Servers erreichen durch Klicken auf den Endpunktnamen.)
+- [Anruf Detail Bericht in Skype for Business Server](call-detail-report.md) (durch Klicken auf die A/V-Edgeserver-Metrik. Wenn es sich bei dem Anrufer oder angerufenen um einen Server handelt, können Sie auch den Bericht "Server Quality Media Trend" erreichen, indem Sie auf den Endpunktnamen klicken.)
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>Optimale Nutzung des „Trendberichts über Medienqualität des Servers“
 
-Wenn Sie die Trend-Metriken im [Bericht über Serverleistung in Skype für Business Server](server-performance.md) für einen bestimmten Server klicken, wird der Server Trendbericht über Medienqualität geöffnet. Sehen Sie jedoch nur eine leere Instanz dieses Berichts; Servers, den Sie auf dem Server Performance Report ausgewählt wird nicht auf dem Bildschirm angezeigt werden. Stattdessen müssen Sie diesem Server wählen Sie aus der Dropdownliste Server aus. Beachten Sie außerdem, dass die Dropdownliste Server aus eine Option alle auswählen enthält. Diese Option funktioniert nicht, wenn Sie mehr als 5 Server verfügen. der Server Trendbericht über Medienqualität können nur Daten für maximal 5 Servern zu einem Zeitpunkt angezeigt.
+Wenn Sie im [Berichtserver Leistung in Skype for Business Server](server-performance.md) für einen bestimmten Server auf die Trend Metrik klicken, wird der Trendbericht "Server Medienqualität" geöffnet. Es wird jedoch nur eine leere Instanz dieses Berichts angezeigt. der auf dem Serverleistungsbericht ausgewählte Server wird nicht auf dem Bildschirm angezeigt. Stattdessen müssen Sie diesen Server aus der Dropdownliste Server auswählen. Beachten Sie auch, dass die Dropdownliste "Server" eine Option "Alles auswählen" enthält. Diese Option funktioniert nicht, wenn Sie mehr als 5 Server haben; im Trend Bericht zur Server Medienqualität können nur Daten für maximal 5 Server gleichzeitig angezeigt werden.
   
-Für die Diagramme, die durch den Server Trendbericht über Medienqualität angezeigt die Punkte mit der Bezeichnung Volume aufrufen und Prozentsatz der Anrufe schlechter Hotlinks sind; durch Klicken auf einen Punkt im Diagramm wird eine Instanz des [Call List Report in Skype für Business Server](call-list-report-0.md) mit der Anrufe gesamt (oder schlechter Anrufe) für den angegebenen Zeitraum geöffnet.
+In den Diagrammen, die mit dem Trend Bericht "Server Medienqualität" angezeigt werden, sind die Punkte mit der Bezeichnung Anrufvolumen und schlechter Anruf Prozentsatz Hotlinks; Wenn Sie auf einen Punkt im Diagramm klicken, wird eine Instanz des [Anruflisten Berichts in Skype for Business Server](call-list-report-0.md) geöffnet, in dem die Gesamt Anrufe (oder schlechte Anrufe) für den angegebenen Zeitraum angezeigt werden.
   
 ## <a name="filters"></a>Filter
 
@@ -63,7 +63,7 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im „Trendbericht üb
 |**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Anruflautstärke** <br/> |Nein  <br/> |Die Gesamtzahl der Anrufe.  <br/> |
-|**Beeinträchtigung (MOS)** <br/> |Nein  <br/> |Durchschnittliche Länge der MOS (Mittelwert Option Score)-Beeinträchtigung während eines Anrufs auftraten. Beeinträchtigung Werte liegen zwischen niedrig 0,0 und hoher 5.0; ein Wert von 0,5 oder weniger stellt akzeptable Beeinträchtigung dar. Früher wurden Mean Opinion Scores berechnet, indem man Benutzer die Qualität eines Telefongesprächs auf einer Skala von 1 bis 5 bewerten ließ. Skype für Business Server verwendet eine Reihe von Algorithmen vorhergesagt wie Benutzer einen Anruf bewertet haben würde.  <br/> Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
+|**Beeinträchtigung (MOS)** <br/> |Nein  <br/> |Durchschnittliche Anzahl von MOS (Mean Option Score) Verschlechterung während eines Anrufs. Die Werte für die Verschlechterung können von einem Tiefstwert von 0,0 bis zu einem Höchstwert von 5,0 liegen. ein Wert von 0,5 oder einer kleineren stellt eine akzeptable Verschlechterung dar. Früher wurden Mean Opinion Scores berechnet, indem man Benutzer die Qualität eines Telefongesprächs auf einer Skala von 1 bis 5 bewerten ließ. Skype for Business Server verwendet eine Reihe von Algorithmen, um vorherzusagen, wie Nutzer einen Anruf bewertet hätten.  <br/> Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
 |**Prozentsatz der Anrufe schlechter Qualität** <br/> |Nein  <br/> |Die Gesamtzahl der Anrufe, die als Anrufe schlechter Qualität klassifiziert werden. Dies sind Anrufe, bei denen für mindestens eine der gemessenen Metriken der zulässige Wert überschritten wurde (z. B. ein Anruf mit übermäßigem Jitter).  <br/> |
 |**Roundtrip (ms)** <br/> |Nein  <br/> |Die durchschnittliche Zeit (in Millisekunden), die ein Real-Time Transport Protocol-Paket (RTP) benötigt, um zu einem Endpunkt und wieder zurück zu gelangen. Eine Roundtripzeit von 200 ms oder weniger gilt als akzeptable Qualität.  <br/> Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routingkonfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.  <br/> |
 |**Paketverlust** <br/> |Nein  <br/> |Die durchschnittliche Rate an RTP-Paketverlusten (Real-Time Transport-Protokoll; ein Protokoll für die Übertragung von Audio und Video über das Internet). Zu Paketverlusten kommt es, wenn RTP-Pakete ihr Ziel nicht erreichen. Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |

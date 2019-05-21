@@ -5,27 +5,27 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
-description: 'Zusammenfassung: Konfigurieren Sie Ihren primären Verwaltungsserver, Installieren von System Center Operations Manager und Importieren des Management Packs für Skype für Business Server 2015.'
-ms.openlocfilehash: 141a0e3470bcdad4a0fea3e67ae9a1dbdbf32bcd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Konfigurieren Sie Ihren primären Verwaltungsserver, installieren Sie System Center Operations Manager, und importieren Sie Management Packs für Skype for Business Server 2015.'
+ms.openlocfilehash: a89ee8ca7c7f5601d9219ef49643adc2ebf99883
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33904209"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277671"
 ---
 # <a name="configure-the-primary-management-server"></a>Konfigurieren des primären Verwaltungsservers
 
-**Zusammenfassung:** Konfigurieren Sie Ihren primären Verwaltungsserver, Installieren von System Center Operations Manager und Importieren des Management Packs für Skype für Business Server 2015.
+**Zusammenfassung:** Konfigurieren Sie Ihren primären Verwaltungsserver, installieren Sie System Center Operations Manager, und importieren Sie Management Packs für Skype for Business Server 2015.
 
-Um die neue Integritätsüberwachung in Skype für Business Server 2015 enthaltene Funktionen nutzen, müssen Sie zuerst einen Computer als Ihren primären Verwaltungsserver festlegen. Sie müssen die System Center Operations Manager 2012 SP1 oder R2 oder System Center Operations Manager 2007 R2 klicken Sie dann auf diesem Computer installieren. Darüber hinaus müssen Sie zuerst eine unterstützte Version von SQL Server dienen als Back-End-Datenbank Operations Manager installieren.
+Um die neuen Integritäts Überwachungsfunktionen in Skype for Business Server 2015 optimal nutzen zu können, müssen Sie zunächst einen Computer als primären Verwaltungs Server festlegen. Sie müssen dann System Center Operations Manager 2012 SP1 oder R2 oder System Center Operations Manager 2007 R2 auf diesem Computer installieren. Darüber hinaus müssen Sie zuerst eine unterstützte Version von SQL Server installieren, um als Operations Manager-Back-End-Datenbank zu funktionieren.
 
-Bei der Installation von System Center Operations Manager müssen Sie zum Installieren aller Komponenten des Produkts, einschließlich:
+Wenn Sie System Center Operations Manager installieren, müssen Sie alle Komponenten dieses Produkts installieren, einschließlich:
 
 - Betriebsdatenbank
 
@@ -33,7 +33,7 @@ Bei der Installation von System Center Operations Manager müssen Sie zum Instal
 
 - Konsole
 
-- Windows PowerShell-cmdlets
+- Windows PowerShell-Cmdlets
 
 - Webkonsole
 
@@ -42,7 +42,7 @@ Bei der Installation von System Center Operations Manager müssen Sie zum Instal
 - Data Warehouse
 
 > [!IMPORTANT]
-> "[Microsoft Report Viewer 2010 Redistributable Package](https://www.microsoft.com/en-us/download/details.aspx?id=6442)" muss vor dem Installieren von System Center Operations Manager 2012 installiert werden.
+> Bevor Sie System Center Operations Manager 2012 installieren, muss das "[Microsoft Report Viewer 2010 Redistributable Package](https://www.microsoft.com/en-us/download/details.aspx?id=6442)" installiert werden.
 
 Ausführliche Informationen zu diesen Produkten und ihrer Installation finden Sie unter folgenden Links:
 
@@ -50,18 +50,18 @@ Ausführliche Informationen zu diesen Produkten und ihrer Installation finden Si
 
 - [System Center Operations Manager 2007](https://technet.microsoft.com/en-us/library/bb735860.aspx)
 
-Behalten Sie im Hinterkopf können Sie nur eine Stammverwaltungsserver pro Skype für Business Server-Bereitstellung haben.
+Beachten Sie, dass pro Skype for Business Server-Bereitstellung nur ein Stammverwaltungsserver vorhanden sein kann.
 
 ## <a name="importing-the-skype-for-business-server-2015-management-packs"></a>Importieren der Skype for Business Server 2015 Management Packs
 
-Sie können die Funktionen von System Center Operations Manager durch Installieren von Management Packs erweitern – Software, die bestimmt, welche Elemente von System Center Operations Manager überwachen können, wie diese Elemente überwacht werden soll und wie Warnungen ausgelöst werden soll, und gemeldet. Skype für Business Server 2015 umfasst zwei System Center Operations Manager Management Packs, die die folgenden Funktionen bereitstellen:
+Sie können die Funktionen von System Center Operations Manager erweitern, indem Sie Management Packs installieren – Software, die festlegt, welche Elemente System Center Operations Manager überwachen kann, wie diese Elemente überwacht werden sollen und wie Benachrichtigungen ausgelöst werden sollen und berichtet. Skype for Business Server 2015 umfasst zwei System Center Operations Manager-Verwaltungspakete, die die folgenden Funktionen bieten:
 
-- **Die Komponente und User Management Pack** (Microsoft.LS.2015.Monitoring.ComponentAndUser.mp) verfolgt Skype für Business Server Probleme in den Ereignisprotokollen aufgezeichnet, durch die Leistungsindikatoren registriert oder in der kommunikationsdatensätze (KDS) oder die Datenbanken Quality of Experience (QoE) angemeldet. Für kritische Probleme können System Center Operations Manager konfiguriert werden, um Administratoren über e-Mail, Sofortnachricht oder SMS messaging sofort zu benachrichtigen. (SMS ist die Technologie, die verwendet wird, um Textnachrichten von einem Mobilgerät an ein anderes zu senden.)
+- **Das Komponenten-und Benutzer Verwaltungspaket** (Microsoft.ls.2015.Monitoring.ComponentAndUser.MP) verfolgt Skype for Business-Server Probleme, die in Ereignisprotokollen aufgezeichnet, von Leistungsindikatoren registriert oder in den Anruf Detaildatensätzen (CDRs) oder den QoE-Datenbanken (Quality of Experience) protokolliert wurden. Bei kritischen Problemen kann System Center Operations Manager so konfiguriert werden, dass Administratoren sofort per e-Mail, Sofortnachricht oder SMS benachrichtigt werden. (SMS ist die Technologie, die verwendet wird, um Textnachrichten von einem Mobilgerät an ein anderes zu senden.)
 
     > [!NOTE]
-    >  Ausführliche Informationen zum Konfigurieren von Operations Manager-Benachrichtigung finden Sie unter [Konfigurieren der Benachrichtigung](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
+    >  Details zum Konfigurieren der Operations Manager-Benachrichtigung finden Sie unter [Konfigurieren der Benachrichtigung](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
 
-- **Das aktive Monitoring Management Pack** (Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) Schlüssel proaktiv Tests Skype für Business Server-Komponenten, beispielsweise auf das System anmeldet, Sofortnachrichten austauschen oder tätigen von Anrufen bei einem Telefon befindet sich auf dem öffentlichen Telefonfestnetz (PSTN ). Diese Tests werden mithilfe der Skype for Business Server-Cmdlets für synthetische Transaktionen durchgeführt. Zum Beispiel wird das **Test-CsIM**-Cmdlet verwendet, um eine Sofortnachrichtenunterhaltung zwischen zwei Testbenutzern zu simulieren. Wenn bei dieser simulierten Nachrichtenunterhaltung ein Fehler auftritt, wird eine Benachrichtigung erzeugt.
+- **Das aktive Überwachungs Management Pack** (Microsoft.ls.2015.Monitoring.ActiveMonitoring.MP) testet die Schlüsselkomponenten von Skype for Business Server proaktiv, beispielsweise die Anmeldung beim System, den Austausch von Sofortnachrichten oder Anrufe an ein Telefon, das sich im öffentlichen Telefonnetz befindet (PSTN ). Diese Tests werden mithilfe der Skype for Business Server-Cmdlets für synthetische Transaktionen durchgeführt. Zum Beispiel wird das **Test-CsIM**-Cmdlet verwendet, um eine Sofortnachrichtenunterhaltung zwischen zwei Testbenutzern zu simulieren. Wenn bei dieser simulierten Nachrichtenunterhaltung ein Fehler auftritt, wird eine Benachrichtigung erzeugt.
 
 Das Importieren der Management Packs ist ein wichtiger Schritt. Wenn die Management Packs nicht importiert werden, können Sie Operations Manager nicht zum Überwachen von Skype for Business Server-Ereignissen verwenden und keine synthetischen Skype for Business Server-Transaktionen ausführen.
 
@@ -72,9 +72,9 @@ Das Component and User Management Pack wird nur zum Überwachen von Skype for Bu
 
 Zum Importieren der Management Packs können folgende Tools verwendet werden:
 
-- **System Center Operations Manager** Mit dieser Methode verwenden Sie die Operations Manager überwachen für Skype für Business Server hinzufügen.
+- **System Center Operations Manager** Mit dieser Methode verwenden Sie den Operations Manager, um die Überwachung für Skype for Business Server hinzuzufügen.
 
-- **Operations Manager-Shell** Sie können der Operations Manager-Shell verwenden, um direkt importieren oder um alle Probleme zu behandeln, die beim Importieren der Management Packs mithilfe von System Center Operations Manager-Konsole auftreten.
+- **Operations Manager-Shell** Sie können die Operations Manager-Shell verwenden, um direkt zu importieren oder Probleme zu beheben, die beim Importieren von Management Packs mithilfe der System Center Operations Manager-Konsole auftreten.
 
 ### <a name="importing-the-management-packs-by-using-system-center-operations-manager"></a>Importieren der Management Packs mit System Center Operations Manager
 
@@ -82,7 +82,7 @@ Zum Importieren der Management Packs können folgende Tools verwendet werden:
 
 2. Klicken Sie in System Center Operations Manager auf **Verwaltung**.
 
-3. Klicken Sie im Bereich Verwaltung Maustaste auf **Management Packs**, und klicken Sie dann auf **Management Packs importieren**.
+3. Klicken Sie im Verwaltungsbereich mit der rechten Maustaste auf **Management Packs**, und klicken Sie dann auf **Management Packs importieren**.
 
 4. Klicken Sie im Dialogfeld **Management Packs auswählen** auf **Hinzufügen** und anschließend auf **Von Datenträger hinzufügen**.
 

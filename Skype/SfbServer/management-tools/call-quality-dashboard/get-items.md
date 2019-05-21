@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
-description: 'Zusammenfassung: Informationen Sie zum Vorgang Elemente abrufen, der Teil der Element-Dienst ist. Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: fe8d4f9a64e0855c90ee9f2accb67424ac3edb9c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang zum Abrufen von Elementen, der Teil des Element Diensts ist. Der Element Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: a1e7e8525df77cd5aacafb6d41316a985fbe9694
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926122"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274702"
 ---
 # <a name="get-items"></a>Abrufen von Elementen
  
-**Zusammenfassung:** Informationen Sie zu den Vorgang Elemente abrufen, der Teil der Element-Dienst ist. Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Vorgang "Elemente abrufen", der Teil des Element Diensts ist. Der Element Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.
   
-Der Vorgang Elemente abrufen ist Teil des Diensts Element in der Repository-API für die Qualitätsdashboard aufrufen.
+Der Vorgang zum Abrufen von Elementen ist Teil des Element Diensts in der Repository-API für die Anruf Qualitätssteuerung.
   
 ## <a name="get-items"></a>Abrufen von Elementen
 
-Rufen Sie Elemente gibt alle Elemente im Repository.
+Elemente abrufen gibt alle Elemente im Repository zurück.
   
 |**Methode**|**Anforderungs-URI**|**HTTP-Version**|
 |:-----|:-----|:-----|
-|Erhalten  <br/> |https://\<Portal\>/QoERepositoryService/repository/item  <br/> |HTTP/1.1  <br/> |
+|Erhalten  <br/> |https://\<-\>Portal/QoERepositoryService/Repository/Item  <br/> |HTTP/1.1  <br/> |
    
- **URI-Parameter** - None.
+ **URI-Parameter** -None.
   
- **Anfordern von Kopfzeilen** - keine zusätzlichen Header.
+ **Anforderungs Kopfzeilen** – keine zusätzlichen Überschriften.
   
- **Anforderungstextkörper** – None.
+ **Anforderungstext** – keine.
   
- **Antwort** - die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheader.
+ **Antwort** – die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheadern.
   
- **Statuscode** - eine erfolgreiche Ausführung Gibt Statuscode 200 (OK).
+ **Statuscode** – ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
   
- **Antwortheader** - keine zusätzlichen Header.
+ **Antwortheader** – keine zusätzlichen Überschriften.
   
- **Antworttext** - ist im folgenden Beispiel Antwort Nutzlast in JSON.
+ **Antworttext** : Nachfolgend finden Sie eine Beispielantwort Nutzlast in JSON.
   
 > [!NOTE]
-> Ein Array von Elementobjekten wird zurückgegeben. Ausführliche Informationen zu Elementobjekt finden Sie unter Get-Element. 
+> Ein Array von Item-Objekten wird zurückgegeben. Details zu Item-Objekten finden Sie unter Abrufen von Elementen. 
   
 ```
 [{

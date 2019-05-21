@@ -8,76 +8,76 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Unterstützung für den Verbund erforderlich ist, um Benutzern zu ermöglichen, die über ein Konto mit einer vertrauenswürdigen Kunden oder Partner Organisation, einschließlich Partnerdomänen und Benutzer des öffentlichen instant messaging (IM)-Anbieter-Benutzer, die Sie Unterstützung für die Zusammenarbeit mit Benutzern in Ihrer Organisation.
-ms.openlocfilehash: d82833dcd4e477e2c332c01d3d4ba2fdca5123aa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Die Unterstützung für die Föderation ist erforderlich, damit Benutzer, die über ein Konto bei einem vertrauenswürdigen Kunden oder einer Partnerorganisation verfügen, einschließlich Partnerdomänen und Benutzer von öffentlichen Instant Messaging (im)-Anbieter Benutzern, die Sie unterstützen, die Zusammenarbeit mit Benutzern in Ihrem Organisation.
+ms.openlocfilehash: 86cc3e66b2e3252b6b25ff4bef09d3abeb4badf0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896418"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280243"
 ---
-# <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Aktivieren Sie oder deaktivieren Sie den Verbund und öffentliches Instant Messaging-Diensten in Skype für Business Server
+# <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Aktivieren oder Deaktivieren von Verbund-und öffentlichen Chat Verbindungen in Skype for Business Server
 
-Unterstützung für den Verbund erforderlich ist, um Benutzern zu ermöglichen, die über ein Konto mit einer vertrauenswürdigen Kunden oder Partner Organisation, einschließlich Partnerdomänen und Benutzer des öffentlichen instant messaging (IM)-Anbieter-Benutzer, die Sie Unterstützung für die Zusammenarbeit mit Benutzern in Ihrer Organisation. Verbund ist auch erforderlich, auf einen gehosteten Exchange-Dienstanbieter zu verwenden, um Voicemail für Enterprise-VoIP-Benutzer bereitzustellen, deren Postfächer über einen gehosteten Exchange-Dienst wie beispielsweise Microsoft Exchange Online verwaltet werden. Wenn Sie eine Vertrauensstellung mit dieser externen Domänen eingerichtet haben, können Sie Autorisieren von Benutzern in diesen Domänen den Zugriff auf Ihre Bereitstellung und Skype für Business Serverkommunikation teilnehmen. Diese Vertrauensstellung ein Verbund aufgerufen, und es wird kein Zusammenhang, oder in Abhängigkeit von einem Active Directory-Vertrauensstellung.
+Die Unterstützung für die Föderation ist erforderlich, damit Benutzer, die über ein Konto bei einem vertrauenswürdigen Kunden oder einer Partnerorganisation verfügen, einschließlich Partnerdomänen und Benutzer von öffentlichen Instant Messaging (im)-Anbieter Benutzern, die Sie unterstützen, die Zusammenarbeit mit Benutzern in Ihrem Organisation. Föderation muss auch einen gehosteten Exchange-Dienstanbieter verwenden, um Voicemail für Enterprise-VoIP-Benutzer bereitzustellen, deren Postfächer sich in einem gehosteten Exchange-Dienst wie Microsoft Exchange Online befinden. Wenn Sie eine Vertrauensstellung mit diesen externen Domänen eingerichtet haben, können Sie die Benutzer in diesen Domänen autorisieren, auf Ihre Bereitstellung zuzugreifen und an der Kommunikation zwischen Skype for Business Server teilzunehmen. Diese Vertrauensstellung wird als Föderation bezeichnet und ist nicht mit einer Active Directory-Vertrauensstellung verbunden oder abhängig davon.
 
-Um den Zugriff durch Benutzer von Partnerdomänen zu unterstützen, müssen Sie den Verbund aktivieren. Wenn Sie den Verbund für Ihre Organisation aktivieren, müssen Sie auch angeben, ob implementieren Sie die folgenden Optionen:
+Wenn Sie den Zugriff von Benutzern von Verbunddomänen unterstützen möchten, müssen Sie die Föderation aktivieren. Wenn Sie die Föderation für Ihre Organisation aktivieren, müssen Sie auch angeben, ob die folgenden Optionen implementiert werden sollen:
 
-  - **Aktivieren Sie Partner Domäne Discovery**   Wenn Sie diese Option aktivieren, verwendet Skype für Business Server Domain Name System (DNS) Datensätze versuchen ermitteln können nicht in der Liste zugelassener Domänen aufgeführt ermittelt automatisch Auswertung von eingehenden Datenverkehr von Domänen Verbund-Partner und eingeschränkt oder Blockierung dieser Datenverkehr basierend auf Vertrauensebene, Umfang des Datenverkehrs und administratoreinstellungen. Wenn Sie diese Option nicht auswählen, wird partnerbenutzerzugriff für Benutzer in den Domänen nur aktiviert, die Sie in der Liste der zugelassenen Domänen hinzufügen. Unabhängig davon, ob Sie diese Option auswählen, können Sie angeben, dass diese Person Domänen blockiert oder zulässig, einschließlich Einschränken des Zugriffs auf bestimmten Servern in der Partnerdomäne Zugriffs-edgedienst ausgeführt. Ausführliche Informationen zum Steuern des Zugriffs aus Partnerdomänen finden Sie unter [Konfigurieren der Unterstützung für zulässige externe Domänen](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
+  - **Aktivieren der Partnerdomänen Erkennung**   Wenn Sie diese Option aktivieren, verwendet Skype for Business Server DNS-Einträge (Domain Name System), um zu versuchen, Domänen zu finden, die nicht in der Liste der zulässigen Domänen aufgelistet sind, und die eingehenden Datenverkehr automatisch auswerten. Föderationspartner und begrenzen oder Blockieren des Datenverkehrs basierend auf der Vertrauensebene, dem Umfang des Datenverkehrs und den Administratoreinstellungen. Wenn Sie diese Option nicht auswählen, wird der Verbundbenutzer Zugriff nur für Benutzer in den Domänen aktiviert, die Sie in die Liste zugelassene Domänen aufnehmen. Unabhängig davon, ob Sie diese Option auswählen, können Sie angeben, dass einzelne Domänen blockiert oder zulässig sein sollen, einschließlich der Beschränkung des Zugriffs auf bestimmte Server, auf denen der Access-Edgedienst in der Verbunddomäne ausgeführt wird. Details zum Steuern des Zugriffs durch Verbunddomänen finden Sie unter [Konfigurieren der Unterstützung für zugelassene externe Domänen](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
 
-  - **Senden ein Archivierungshaftungsausschlusses an Verbundpartner**     Haftungsausschluss mitgeteilt wird an Verbundpartner, die Archivierung in Ihrer Bereitstellung vorhanden ist. Wenn Sie die Archivierung der externen Kommunikation mit verbundpartnerdomänen unterstützen, sollten Sie den Archivierungshaftungsausschluss für Partner zu warnen, wenn deren Nachrichten archiviert werden aktivieren.
+  - **Senden einer Verzichtserklärung zur Archivierung an Föderationspartner**     Haftungsausschluss Hinweis wird an verbundene Partner gesendet, die die Archivierung in Ihrer Bereitstellung durchgeführt haben. Wenn Sie die Archivierung externer Kommunikation mit Verbundpartner Domänen unterstützen, sollten Sie die Benachrichtigung über Archivierungs Verzicht aktivieren, um die Partner zu warnen, dass Ihre Nachrichten archiviert werden.
 
-Wenn Sie später vorübergehend oder endgültig des Zugriffs durch Benutzer von Partnerdomänen zu verhindern möchten, können Sie den Verbund für Ihre Organisation deaktivieren. Verwenden Sie das Verfahren in diesem Abschnitt zum Aktivieren oder Deaktivieren von partnerbenutzerzugriff für Ihre Organisation, einschließlich der Angabe der entsprechenden Verbund-Optionen für Ihre Organisation unterstützt werden müssen.
+Wenn Sie den Zugriff von Benutzern von Verbunddomänen später vorübergehend oder dauerhaft verhindern möchten, können Sie den Verbund für Ihre Organisation deaktivieren. Verwenden Sie das Verfahren in diesem Abschnitt, um den Zugriff auf den Verbundbenutzer für Ihre Organisation zu aktivieren oder zu deaktivieren, einschließlich der Angabe der entsprechenden Verbund Optionen, die für Ihre Organisation unterstützt werden sollen.
 
 > [!NOTE]  
-> Aktivierung des Verbunds für Ihre Organisation gibt nur an, dass Ihre Server mit Zugriffs-edgediensts unterstützen routing an Partnerdomänen. Benutzer in verbunddomänen können nicht in Sofortnachrichten oder Konferenzen in Ihrer Organisation teilnehmen, bis Sie auch mindestens eine Richtlinie zur Unterstützung der partnerbenutzerzugriff konfigurieren. Benutzer öffentlicher IM-Dienstanbieter können nicht in Sofortnachrichten oder Konferenzen in Ihrer Organisation teilnehmen, bis Sie mindestens eine Richtlinie zur Unterstützung der öffentlichen Instant Messaging-Diensten auch konfigurieren. Skype für Business Server kann erst verwenden, einen gehosteten Exchange-Dienst um Anrufbeantwortung, Outlook Voice Access (einschließlich Voicemail), bereitzustellen oder automatische Telefonzentrale für Benutzer, deren Postfächer, über einen gehosteten Exchange-Dienst konfigurieren Sie eine gehostete Voicemail e-Mail-Richtlinie, die Routinginformationen bereitstellt. Ausführliche Informationen zum Konfigurieren von Richtlinien für die Kommunikation mit Benutzern von Partnerdomänen in anderen Organisationen finden Sie unter [Verwalten von SIP-verbunddomänen für Ihre Organisation](../sip-domains/manage-sip-federated-domains-for-your-organization.md). Darüber hinaus, wenn Sie die Kommunikation mit Benutzern IM-Dienstanbieter unterstützen möchten, müssen Sie Richtlinien konfigurieren, um ihn unterstützen, und auch Konfigurieren der Unterstützung für die einzelnen-Dienstanbieter, die Sie unterstützen möchten. Weitere Informationen hierzu finden Sie unter [Verwalten von SIP-verbundanbietern für Ihre Organisation](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
+> Das Aktivieren des Föderations Unternehmens für Ihre Organisation gibt nur an, dass Ihre Server, auf denen der Access Edge-Dienst ausgeführt wird, Routing in Verbunddomänen unterstützen Benutzer in Verbunddomänen können erst dann an Chats oder Konferenzen in Ihrer Organisation teilnehmen, wenn Sie mindestens eine Richtlinie für die Unterstützung des Zugriffs von Verbundbenutzern konfiguriert haben. Benutzer von Anbietern öffentlicher Chat Dienste können erst dann an Chats oder Konferenzen in Ihrer Organisation teilnehmen, wenn Sie mindestens eine Richtlinie für die Unterstützung öffentlicher Chats konfiguriert haben. Skype for Business Server kann keinen gehosteten Exchange-Dienst zum Bereitstellen von Anrufbeantwortung, Outlook Voice Access (einschließlich Voicemail) oder automatischen Telefonzentralen Diensten für Benutzer verwenden, deren Postfächer sich in einem gehosteten Exchange-Dienst befinden, bis Sie eine gehostete Sprache konfigurieren. e-Mail-Richtlinie, die Routinginformationen bereitstellt. Details zum Konfigurieren von Richtlinien für die Kommunikation mit Benutzern von Verbunddomänen in anderen Organisationen finden Sie unter [Verwalten von SIP-Verbunddomänen für Ihre Organisation](../sip-domains/manage-sip-federated-domains-for-your-organization.md). Wenn Sie die Kommunikation mit Benutzern von Chat Dienstanbietern unterstützen möchten, müssen Sie außerdem Richtlinien für deren Unterstützung konfigurieren und auch die Unterstützung für die einzelnen Dienstanbieter konfigurieren, die Sie unterstützen möchten. Ausführliche Informationen finden Sie unter [Verwalten von SIP-Verbund Anbietern für Ihre Organisation](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
 
 
-## <a name="to-enable-or-disable-federated-user-access-for-your-organization"></a>So aktivieren oder Deaktivieren von partnerbenutzerzugriff für Ihre Organisation
+## <a name="to-enable-or-disable-federated-user-access-for-your-organization"></a>So aktivieren oder deaktivieren Sie den Verbundbenutzer Zugriff für Ihre Organisation
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Zugriff durch externe Benutzer**und klicken Sie dann auf **Konfiguration für Zugriffsedge**.
+3.  Klicken Sie in der linken Navigationsleiste auf **externer Benutzer Zugriff**, und klicken Sie dann auf **Access-Edge-Konfiguration**.
 
-4.  Klicken Sie auf der Seite **Konfiguration für Zugriffsedge** auf **Global**, klicken Sie auf **Bearbeiten**und klicken Sie dann auf **Details anzeigen**.
+4.  Klicken Sie auf der Seite **Access Edge Configuration** auf **Global**, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Details anzeigen**.
 
-5.  Führen Sie in der **Konfiguration für Zugriffsedge bearbeiten**eine der folgenden Aktionen aus:
+5.  Führen Sie in " **Access-Edge-Konfiguration bearbeiten**" eine der folgenden Aktionen aus:
     
-      - Um den partnerbenutzerzugriff für Ihre Organisation zu aktivieren, aktivieren Sie das Kontrollkästchen **Kommunikation mit Partnerbenutzern aktivieren** .
+      - Aktivieren Sie das Kontrollkästchen **Kommunikation mit Verbundbenutzern aktivieren** , um den Zugriff durch den Verbundbenutzer für Ihre Organisation zu aktivieren.
     
-      - Deaktivieren Sie das Kontrollkästchen **Kommunikation mit Partnerbenutzern aktivieren** , um den partnerbenutzerzugriff für Ihre Organisation zu deaktivieren.
+      - Wenn Sie den Verbundbenutzer Zugriff für Ihre Organisation deaktivieren möchten, deaktivieren Sie das Kontrollkästchen **Kommunikation mit verbundenen Benutzern aktivieren** .
 
-6.  Wenn Sie das Kontrollkästchen **Kommunikation mit Partnerbenutzern aktivieren** ausgewählt haben, führen Sie folgende Schritte aus:
+6.  Wenn Sie das Kontrollkästchen **Kommunikation mit Verbundbenutzern aktivieren** aktiviert haben, gehen Sie folgendermaßen vor:
     
-    1.  Wenn Sie die automatische Suche von Partnerdomänen zu unterstützen möchten, aktivieren Sie das Kontrollkästchen **Partner Domäne Discovery aktivieren** .
+    1.  Wenn Sie die automatische Ermittlung von Partnerdomänen unterstützen möchten, aktivieren Sie das Kontrollkästchen **Discovery-Partnerdomänen Erkennung aktivieren** .
     
-    2.  Wenn Ihre Organisation die Archivierung der externen Kommunikation unterstützt, aktivieren Sie das Kontrollkästchen **Archivierungshaftungsausschluss an Verbundpartner senden** .
+    2.  Wenn Ihre Organisation die Archivierung externer Kommunikation unterstützt, aktivieren Sie das Kontrollkästchen **Archivierungs Ausschluss an verbundene Partner senden** .
 
 7.  Klicken Sie auf **Commit ausführen**.
 
-Um Verbundbenutzer Zusammenarbeit mit Benutzern in Ihrer Skype für Business Server-Bereitstellung zu aktivieren, müssen Sie auch mindestens eine externe Zugriffsrichtlinie zur Unterstützung der partnerbenutzerzugriff konfigurieren. Weitere Informationen hierzu finden Sie unter [Konfigurieren von Richtlinien zur Steuerung federated User Access](../external-access-policies/configure-policies-to-control-federated-user-access.md). Zur Steuerung des Zugriffs für spezifische Partnerdomänen finden Sie unter [Konfigurieren der Unterstützung für zulässige externe Domänen](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
+Damit Föderationsbenutzer mit Benutzern in Ihrer Skype for Business Server-Bereitstellung zusammenarbeiten können, müssen Sie auch mindestens eine Richtlinie für den externen Zugriff konfigurieren, um den Verbundbenutzer Zugriff zu unterstützen. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Zugriffs von Verbundbenutzern](../external-access-policies/configure-policies-to-control-federated-user-access.md). Informationen zum Steuern des Zugriffs auf bestimmte Föderationsdomänen finden Sie unter [Konfigurieren der Unterstützung für zugelassene externe Domänen](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
 
 
-## <a name="enabling-or-disabling-federation-and-public-im-connectivity-by-using-windows-powershell-cmdlets"></a>Aktivieren oder Deaktivieren der Verbund und Verbindung mit öffentlichen Sofortnachrichtendiensten mithilfe von Windows PowerShell-cmdlets
+## <a name="enabling-or-disabling-federation-and-public-im-connectivity-by-using-windows-powershell-cmdlets"></a>Aktivieren oder Deaktivieren von Verbund-und öffentlichen Chat Verbindungen mithilfe von Windows PowerShell-Cmdlets
 
-Verbund und öffentliches Instant Messaging-Diensten können auch mithilfe von Windows PowerShell und das Set-CsAccessEdgeConfiguration-Cmdlet verwaltet werden. Dieses Cmdlet kann von der Skype für Business Server-Verwaltungsshell oder von einer remote Windows PowerShell-Sitzung ausgeführt werden. 
+Verbund-und öffentliche Chat Verbindungen können auch mithilfe von Windows PowerShell und dem Cmdlet "Satz-csaccessedgeconfiguration nicht angeben" verwaltet werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
-## <a name="to-enable-federation-and-public-im-connectivity"></a>So aktivieren Sie den Verbund und öffentliches Instant Messaging-Diensten
+## <a name="to-enable-federation-and-public-im-connectivity"></a>So aktivieren Sie Verbund-und öffentliche Chat Verbindungen
 
-  - Um den Verbund und Verbindung mit öffentlichen Sofortnachrichtendiensten zu aktivieren, legen Sie den Wert der Eigenschaft **AllowFederatedUsers** auf "true" ($True):
+  - Um Verbund-und öffentliche Chat Verbindungen zu aktivieren, setzen Sie den Wert der **AllowFederatedUsers** -Eigenschaft auf true ($true):
     
         Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 
 
-## <a name="to-disable-federation-and-public-im-connectivity"></a>So deaktivieren Sie den Verbund und öffentliches Instant Messaging-Diensten
+## <a name="to-disable-federation-and-public-im-connectivity"></a>So deaktivieren Sie die Verbindung zwischen Föderation und öffentlichen Chats
 
-  - Um den Verbund und Verbindung mit öffentlichen Sofortnachrichtendiensten zu deaktivieren, legen Sie den Wert der Eigenschaft **AllowFederatedUsers** auf "false" ($False):
+  - Zum Deaktivieren der Konnektivität für Verbund-und öffentliche Chats setzen Sie den Wert der **AllowFederatedUsers** -Eigenschaft auf false ($false):
     
         Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
 

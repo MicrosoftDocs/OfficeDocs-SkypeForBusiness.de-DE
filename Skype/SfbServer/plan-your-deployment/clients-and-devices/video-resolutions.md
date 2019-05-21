@@ -1,11 +1,11 @@
 ---
-title: Skype für Business Client Auflösung
+title: Videoauflösungen für Skype for Business-Clients
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/16/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,35 +13,35 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
-description: 'Zusammenfassung: Überprüfen der Clientanforderungen für video beim Planen von Skype für Business Server.'
-ms.openlocfilehash: ccd3d342aed39169b0eebd7c2a47b2c51fd6d601
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Überprüfen der Client Video Anforderungen bei der Planung für Skype for Business Server.'
+ms.openlocfilehash: 15fd424f7ad2e11d473e49e271c7fbf1db83b45c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886452"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277279"
 ---
-# <a name="skype-for-business-client-video-resolutions"></a>Skype für Business Client Auflösung
+# <a name="skype-for-business-client-video-resolutions"></a>Videoauflösungen für Skype for Business-Clients
  
-**Zusammenfassung:** Überprüfen der Clientanforderungen für video beim Planen von Skype für Business Server.
+**Zusammenfassung:** Überprüfen Sie die Client Video Anforderungen während der Planung für Skype for Business Server.
   
-Dieser Artikel beschreibt die Unterstützung der Videohardware für Skype für Business-Videoanrufe und beschreibt, wie zu erwartenden Videoqualität für verschiedene Computer, Tablet- und Konfigurationen des mobilen Geräts zu ermitteln. 
+In diesem Artikel wird die Videohardware Unterstützung für Skype for Business-Videoanrufe beschrieben und es wird beschrieben, wie Sie die erwartete Videoqualität für verschiedene Computer-, Tablet-und Mobile Gerätekonfigurationen ermitteln können. 
   
-IT-Experten werden diese Informationen bei der Bewertung der Eignung der Laptops bereits in Verwendung in ihrer Organisation oder für die Verwendung zu berücksichtigenden hilfreich. Sie können auch den [Lösungskatalog](https://partnersolutions.skypeforbusiness.com/solutionscatalog) Informationen über spezifische Geräte suchen.
+IT-Experten finden diese Informationen hilfreich bei der Beurteilung der Eignung von Laptops, die bereits in Ihrer Organisation verwendet werden, oder unter Berücksichtigung der Verwendung. Sie können auch den [Lösungskatalog](https://partnersolutions.skypeforbusiness.com/solutionscatalog) nach Informationen zu bestimmten Geräten durchsuchen.
   
-## <a name="windows-desktop-mac-and-tablet-video-requirements-and-capabilities"></a>Windows-Desktop, Mac und Tablet-video-Anforderungen und Funktionen
+## <a name="windows-desktop-mac-and-tablet-video-requirements-and-capabilities"></a>Windows-Desktop-, Mac-und Tablet-Video Anforderungen und-Funktionen
 
-Skype für Unternehmen verwendet Hardwarebeschleunigung für video codieren und Decodieren basierend auf dem Standard h. 264/MPEG-4 Teil 10 Erweiterte Videocodierung. Dadurch können Computer mit niedrigeren CPU-Takt Geschwindigkeit zum Codieren und Decodieren einer höheren Auflösung. Die Anforderungen an die Videohardware hängen von der Computerkonfiguration und der gewünschten Videoauflösung ab.
+Skype for Business verwendet die Hardwarebeschleunigung für die Videocodierung und-Decodierung basierend auf dem H. 264/MPEG-4 Part 10 Advanced Video Coding Standard. Auf diese Weise können Computer mit niedrigeren CPU-Taktgeschwindigkeiten Video mit höherer Auflösung codieren und decodieren. Die Anforderungen an die Videohardware hängen von der Computerkonfiguration und der gewünschten Videoauflösung ab.
   
-Außerdem finden Sie unter [Windows- und Mac-hardwareanforderungen](https://products.office.com/en-us/office-system-requirements).
+Sehen Sie sich auch die [Hardwareanforderungen für Windows und Mac an](https://products.office.com/en-us/office-system-requirements).
   
 ### <a name="video-hardware-requirements"></a>Anforderungen an die Videohardware
 
 |**Funktion**|**Anforderung**|
 |:-----|:-----|
-|Hardwarebeschleunigte H.264-Decodierung mit DirectX Video Acceleration (DXVA)  <br/> |• Grafikkarte muss DirectX 9.0 unterstützen und muss die Decodierung DXVA2_ModeH264_VLD_NoFGT-Modus und der DirectX 9-API verfügbar machen.  <br/> • Die aktuellste Grafikkartentreiber muss installiert sein.  <br/> |
-|Hardwarebeschleunigte H.264-Codierung: Chipsatzanforderungen  <br/> |Folgende hardwarebeschleunigte Videocodierungslösungen von Intel werden unterstützt:  <br/> • Zweiten und dritten Generation Intel HD Graphics 2000, 2500, 3000 und 4000 Chipsätze (oder höher) mit integrierter Hardware-videocodierung. Die Installation des Intel HD Graphics-Treibers 15.28.9.2884 oder des aktuellsten Treibers, der Folgendes enthält, ist erforderlich:  <br/> • Grafiktreiber 9.17.10.2884 oder der aktuellste Treiber  <br/> • Hardware Media Foundation (HMFT) Version 3.12.10.31 oder das neueste HMFT umwandeln  <br/> Folgende hardwarebeschleunigte Videocodierungslösungen von AMD werden unterstützt:  <br/> • AMD Video Codec Engine, verfügbar in mehreren separaten Grafikkarten und in integrierten beschleunigt Verarbeitungseinheiten der AMD-Serie eine schnellere Prozessoren. Der AMD Video Codec Engine-Treiber 9.12.0.0 oder höher muss installiert sein.  <br/> |
-|Hardwarebeschleunigte H.264-Codierung: Kameraanforderungen  <br/> |USB-Videokameras mit integrierter H.264-Hardwarecodierung entsprechend der USB Video Class (UVC-)Spezifikation Version 1.5.  <br/> **Hinweis:** Skype für Unternehmen unterstützt UVC 1,5 Kameras mit Windows 8 oder Windows 8.1, die Unterstützung für UVC 1,5 enthält. Da Windows 7 keine Unterstützung für UVC 1,5 einschließt, behandelt Skype für Unternehmen UVC 1,5 Kameras als regulären Kameras mit keine Hardware Codierung unterstützt. <br/> |
+|Hardwarebeschleunigte H.264-Decodierung mit DirectX Video Acceleration (DXVA)  <br/> |• Grafikkarte muss DirectX 9,0 unterstützen und muss den DXVA2_ModeH264_VLD_NoFGT-Decodierungs Modus und die DirectX 9-API verfügbar machen.  <br/> • Der neueste Grafikkartentreiber muss installiert sein.  <br/> |
+|Hardwarebeschleunigte H.264-Codierung: Chipsatzanforderungen  <br/> |Folgende hardwarebeschleunigte Videocodierungslösungen von Intel werden unterstützt:  <br/> • Intel HD graphics 2000, 2500, 3000 und 4000-Chipsätze der zweiten und dritten Generation (oder neueren Versionen) mit integrierten Hardware-Video-Encoder. Die Installation des Intel HD Graphics-Treibers 15.28.9.2884 oder des aktuellsten Treibers, der Folgendes enthält, ist erforderlich:  <br/> • Anzeige des Treibers 9.17.10.2884 oder des neuesten Treibers  <br/> • Hardware Media Foundation Transform (HMFT) Version 3.12.10.31 oder die neueste HMFT  <br/> Folgende hardwarebeschleunigte Videocodierungslösungen von AMD werden unterstützt:  <br/> • AMD Video-Codec-Engine, die in mehreren diskreten Grafikkarten und in integrierten beschleunigten Verarbeitungseinheiten von AMD A-Serie-beschleunigten Prozessoren verfügbar ist. Der AMD Video Codec Engine-Treiber 9.12.0.0 oder höher muss installiert sein.  <br/> |
+|Hardwarebeschleunigte H.264-Codierung: Kameraanforderungen  <br/> |USB-Videokameras mit integrierter H.264-Hardwarecodierung entsprechend der USB Video Class (UVC-)Spezifikation Version 1.5.  <br/> **Hinweis:** Skype for Business unterstützt UVC 1,5-Kameras mit Windows 8 oder Windows 8,1, einschließlich Unterstützung für UVC 1,5. Da Windows 7 keine Unterstützung für UVC 1,5 enthält, behandelt Skype for Business UVC 1,5-Kameras als normale Kameras ohne Unterstützung für Hardware-Codierung. <br/> |
    
 ### <a name="determining-h264-video-encoding-and-decoding-capabilities"></a>Ermitteln der Fähigkeiten zur H.264-Videocodierung und -decodierung
 
@@ -97,7 +97,7 @@ Die folgenden drei Tabellen erläutern die maximalen Codierungs- und Decodierung
    
 ## <a name="mobile-device-video-capabilities"></a>Videofunktionen für mobile Geräte
 
-In der folgenden Tabelle werden die maximale Auflösung verfügbar auf unterstützten mobilen Geräten beschrieben. Weitere Informationen zur Unterstützung von mobilen Geräten, [mobilen Client Featurevergleich für Skype für Unternehmen](mobile-feature-comparison.md).
+In der folgenden Tabelle werden die maximalen Videoauflösungen beschrieben, die auf unterstützten mobilen Geräten verfügbar sind. Weitere Informationen zur Unterstützung mobiler Geräte finden Sie unter [Vergleich der Features für mobile Clients in Skype for Business](mobile-feature-comparison.md).
   
 |**Funktion**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|

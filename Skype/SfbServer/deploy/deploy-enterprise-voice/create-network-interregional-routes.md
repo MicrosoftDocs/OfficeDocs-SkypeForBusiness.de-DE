@@ -1,10 +1,10 @@
 ---
-title: Erstellen Sie Netzwerk regionenübergreifende Routen in Skype für Business Server
+title: Erstellen interregionaler Netzwerkrouten in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
-description: Erstellen Sie oder ändern Sie regionenübergreifende Netzwerkrouten, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden.
-ms.openlocfilehash: b12f2f7d413be0031fd914157af4e9541095fd7f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Erstellen oder ändern Sie Netzwerk interregionale Routen, die von der Enterprise-VoIP-Zulassungs Steuerung in Skype for Business Server verwendet werden.
+ms.openlocfilehash: aec289143e2b6dd54e2b52cfc231239fe5d73b7a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892972"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286369"
 ---
-# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Erstellen Sie Netzwerk regionenübergreifende Routen in Skype für Business Server
+# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Erstellen interregionaler Netzwerkrouten in Skype for Business Server
  
-Erstellen Sie oder ändern Sie regionenübergreifende Netzwerkrouten, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden. 
+Erstellen oder ändern Sie Netzwerk interregionale Routen, die von der Enterprise-VoIP-Zulassungs Steuerung in Skype for Business Server verwendet werden. 
   
 Eine regionenübergreifende Netzwerkroute definiert die Route zwischen zwei Netzwerkregionen. Für jedes Netzwerkregionenpaar in Ihrer Anrufsteuerungsbereitstellung ist eine regionenübergreifende Netzwerkroute erforderlich. So kann jede Netzwerkregion innerhalb der Bereitstellung auf alle anderen Regionen zugreifen.
   
@@ -31,7 +31,7 @@ Während die Regionenverbindungen Bandbreiteneinschränkungen für Verbindungen 
   
 In der Beispieltopologie müssen für jedes der drei Regionenpaare regionenübergreifende Netzwerkrouten definiert werden: „North America/EMEA“, „EMEA/APAC“ und „North America/APAC“. 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>So erstellen Sie Netzwerk regionenübergreifende Netzwerkrouten mithilfe von Skype für Business Server-Verwaltungsshell
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>So erstellen Sie Netzwerk interregionale Routen mithilfe der Skype for Business Server-Verwaltungsshell
 
 1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
     
@@ -52,9 +52,9 @@ In der Beispieltopologie müssen für jedes der drei Regionenpaare regionenüber
     > [!NOTE]
     > Für die regionenübergreifende Netzwerkroute „North America/APAC“ werden zwei Netzwerkregionenverbindungen benötigt, da zwischen diesen beiden Regionen keine direkte Netzwerkregionenverbindung vorhanden ist. 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>So erstellen Sie Netzwerk regionenübergreifende Netzwerkrouten mithilfe von Skype Business Server-Systemsteuerung
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>So erstellen Sie Netzwerk interregionale Routen mithilfe der Skype for Business Server-Systemsteuerung
 
-1. Öffnen von Skype Business Server-Systemsteuerung.
+1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
     
 2. Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**.
     

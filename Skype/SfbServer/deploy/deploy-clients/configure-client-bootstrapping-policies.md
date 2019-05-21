@@ -4,44 +4,44 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
-description: 'Zusammenfassung: Informationen zum Verwalten von Gruppenrichtlinien.'
-ms.openlocfilehash: 050040ae6de828e20aadf75bc4d8accfa782fc7c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Verwalten von Gruppenrichtlinien'
+ms.openlocfilehash: 29e60ea772348ed5f483669cc1d17f8c13e96a02
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895370"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286537"
 ---
 # <a name="configure-client-bootstrapping-policies"></a>Konfigurieren von Richtlinien für das Client-Bootstrapping
  
-**Zusammenfassung:** Informationen zum Verwalten von Gruppenrichtlinien.
+**Zusammenfassung:** Verwalten von Gruppenrichtlinien
   
-Die Gruppenrichtlinien-Verwaltungskonsole (Group Policy Management Console, GPMC) und der Gruppenrichtlinienobjekt-Editor sind Tools zur Verwaltung von Gruppenrichtlinien. Mit dem Office Administrative Vorlagen für Gruppenrichtlinien enthalten sind, lync16.admx (ADMX) und ADML (ADML) Administrative Vorlagen, die die registrierungsbasierte Richtlinieneinstellungen für Skype für Unternehmen enthalten, die Sie für Gruppenrichtlinienobjekte in der Domäne konfigurieren. ADML-Dateien sind sprachspezifische Komplemente für ADMX-Dateien. Jede ADMX- und ADML-Datei enthält die Richtlinieneinstellungen für eine einzelne Office-Anwendung. Sie können aus dem Microsoft Download Center kostenlos [herunterladen Office 2016 Administrative Vorlagendateien (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=49030) .
+Die Gruppenrichtlinien-Verwaltungskonsole (Group Policy Management Console, GPMC) und der Gruppenrichtlinienobjekt-Editor sind Tools zur Verwaltung von Gruppenrichtlinien. In der administrativen Vorlage für Office-Gruppenrichtlinien sind lync16. ADMX-und ADML (ADML)-administrative Vorlagen enthalten, die die registrierungsbasierten Richtlinieneinstellungen für Skype for Business enthalten, die Sie für Gruppenrichtlinienobjekte in der Domäne konfigurieren. ADML-Dateien sind sprachspezifische Komplemente für ADMX-Dateien. Jede ADMX- und ADML-Datei enthält die Richtlinieneinstellungen für eine einzelne Office-Anwendung. Sie können [die Office 2016 administrative Template-Dateien (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=49030) kostenlos vom Microsoft Download Center herunterladen.
   
-Skype für Geschäftskunden stehen mehrere Client bootstrapping Policies, die Sie berücksichtigen sollten, bevor Benutzer auf den Server zum ersten Mal anmelden konfigurieren. Dazu gehören die Standardserver und der Sicherheitsmodus, die der Client bis zum Abschluss der Anmeldung verwenden soll. Sie können auch Gruppenrichtlinien verwenden, diese Einstellungen bei den Benutzern Computer Register herstellen, bevor sie anmelden und Empfangen von in-Band-bereitstellungseinstellungen vom Server beginnen. Die folgende Tabelle enthält die gruppenrichtlinieneinstellungen, die für Skype für Unternehmen verfügbar sind.
+Für Skype for Business-Clients gibt es mehrere Richtlinien für Client-Bootstrapping, die Sie konfigurieren sollten, bevor sich Benutzer zum ersten Mal beim Server anmelden. Dazu gehören die Standardserver und der Sicherheitsmodus, die der Client bis zum Abschluss der Anmeldung verwenden soll. Sie können Gruppenrichtlinien verwenden, um diese Einstellungen in den Computer Registern der Benutzer festzulegen, bevor Sie sich anmelden und die Einstellungen für die in-Band-Bereitstellung vom Server empfangen. In der folgenden Tabelle sind die Gruppenrichtlinieneinstellungen aufgeführt, die für Skype for Business zur Verfügung stehen.
   
-**Group Policy Settings for Skype für Unternehmen**
+**Gruppenrichtlinieneinstellungen für Skype for Business**
 
 |Gruppenrichtlinieneinstellung|Beschreibung|
 |:-----|:-----|
-|Server angeben(ConfigurationMode) angeben  <br/> | Gibt an, wie Skype für Unternehmen Transportprotokoll und Server, die während der Anmeldung verwendet identifiziert. In dieser Einstellung geben Sie Folgendes an: <br/>  ServerAddressExternal: Gibt den Servernamen oder die IP-Adresse an, der bzw. die von Clients und Verbundkontakten verwendet wird, um von außerhalb der Firewall eine Verbindung herzustellen. <br/>  ServerAddressInternal: Gibt an, den Servernamen oder die IP-Adresse verwendet, wenn Clients von innerhalb der Firewall des Unternehmens eine Verbindung herstellen. <br/>  Transport: Gibt entweder TCP (Transmission Control Protocol) oder TLS (Transport Layer Security) an. <br/> |
-|Zusätzliche unterstützte Serverversionen(configuredservercheckvalues)  <br/> |Gibt eine Liste mit Versionsnamen getrennt durch Semikolons ein, denen Skype für Business Server auf zusätzlich zu den Serverversionen, die standardmäßig unterstützt werden.  <br/> |
-|Automatisches Hochladen von Anmeldefehlerprotokollen deaktivieren (DisableAutomaticSendTracing)  <br/> |Automatisch hochgeladen anmeldefehlerprotokolle Skype für Business Server für die Analyse. Bei erfolgreichen Anmeldungen werden keine Protokolle automatisch hochgeladen. Wenn diese Richtlinie nicht konfiguriert ist, geschieht Folgendes:  <br/> Für Skype für Business Online-Benutzer: Anmeldung anmeldefehlerprotokolle werden automatisch hochgeladen. Für Skype für Unternehmen Benutzern lokale-: dem Benutzer vor dem Hochladen ein Bestätigungsdialogfeld angezeigt wird. Wenn diese Einstellung deaktiviert ist, werden Protokolle-Anmeldung automatisch die Skype für Business Server für Skype für Business lokal und Skype für Business Onlinebenutzer hochgeladen. Wenn diese Einstellung aktiviert ist, werden Anmeldeprotokolle niemals automatisch hochgeladen.  <br/> |
-|Deaktivieren von HTTP-fallback für SIP-Verbindung deaktivieren(disablehttpconnect)  <br/> |Verhindert, dass Skype für Business Server versucht, auf dem Server eine Verbindung über HTTP, wenn TLS oder TCP nicht verfügbar sind. In der Standardeinstellung Skype für Unternehmen zuerst versucht, auf dem Server eine Verbindung über TLS oder TCP und, wenn keiner dieser Transportmethoden erfolgreich ist, versucht Skype für Unternehmen eine Verbindung über HTTP. Verwenden Sie diese Richtlinie, um die fallback HTTP Verbindungsversuch zu deaktivieren.  <br/> |
-|Benötigen Sie Anmeldeinformationen (DisableNTCredentials)  <br/> |Bewirkt, dass den Benutzer Anmeldeinformationen für Skype für Business, anstatt automatisch Windows-Anmeldeinformationen während der Anmeldung an einem SIP-Server verwendet werden.  <br/> |
-|Deaktivieren von Server-versionsprüfung (DisableServerCheck)  <br/> |Wenn Sie diese Richtlinie auf 1 gesetzt, verhindert, dass Skype für Unternehmen überprüfen den Servernamen und die Version vor der Anmeldung. Standardmäßig ist Skype für Unternehmen diese Prüfungen vor dem anmelden.  <br/> |
-|Aktivieren der Verwendung von BITS zum Herunterladen von Adressbuchdienst-Dateien aktivieren(enablebitsforgaldownload)  <br/> |Skype für Unternehmen intelligente Hintergrundübertragungsdienst (Background Intelligent Transfer Service, BITS) verwenden, um die Dateien der Adressbuchdienste herunterladen können.  <br/> |
-|Konfigurieren von SIP-Sicherheitsmodus (EnableSIPHighSecurityMode)  <br/> |Skype für Unternehmen zum Senden und Empfangen von Sofortnachrichten sicherer ermöglicht. Diese Richtlinie hat keine Auswirkung auf Windows .NET- oder Microsoft Exchange Server-Dienste.  <br/> Wenn Sie diese Einstellung nicht konfigurieren, kann Skype für Unternehmen ein beliebiges Übertragungsprotokoll verwenden. Wenn TLS wird nicht verwendet, und wenn der Server Benutzer authentifiziert, Skype für Unternehmen muss jedoch verwenden NTLM oder Kerberos-Authentifizierung.  <br/> |
-|Globales Adressbuch downloaden Verzögerung (GalDownloadInitialDelay)  <br/> |Legt den Zeitraum bis zum Download der globalen Adressliste (GAL) fest. Der Standardwert beträgt 60 Minuten, d. h., der Server verzögert den Download der globalen Adressliste um einen zufälligen Zeitraum zwischen 0 und 60 Minuten.  <br/> |
-|Verhindern Sie, dass Benutzer Skype für Unternehmen (PreventRun)  <br/> |Verhindert, dass Benutzer Skype für Unternehmen ausgeführt werden. Sie können diese Einstellung unter Computerkonfiguration und Benutzerkonfiguration, aber die Einstellung unter Computerkonfiguration Vorrang.  <br/> |
-|Speicherung von Benutzerkennwörtern (SavePassword)  <br/> |Skype für Unternehmen zum Speichern von Kennwörtern ermöglicht.  <br/> |
-|Konfigurieren von SIP-Komprimierungsmodus (SipCompression)  <br/> |Gibt an, wann die SIP-Komprimierung aktiviert wird. Die SIP-Komprimierung wird standardmäßig auf Grundlage der Adaptergeschwindigkeit aktiviert. Beachten Sie, dass die Festlegung dieser Richtlinie die Anmeldezeit verlängern kann.  <br/> |
-|Liste der vertrauenswürdigen Domäne (TrustModelData)  <br/> |Listet die vertrauenswürdigen Domänen auf, die nicht mit dem Präfix der SIP-Domäne des Kunden übereinstimmen.  <br/> |
+|Server angeben (ConfigurationMode)  <br/> | Gibt an, wie Skype for Business den Transport und den Server identifiziert, die bei der Anmeldung zu verwenden sind. In dieser Einstellung geben Sie Folgendes an: <br/>  ServerAddressExternal: Gibt den Servernamen oder die IP-Adresse an, der bzw. die von Clients und Verbundkontakten verwendet wird, um von außerhalb der Firewall eine Verbindung herzustellen. <br/>  ServerAddressInternal: gibt den Servernamen oder die IP-Adresse an, die verwendet wird, wenn Clients innerhalb der Firewall der Organisation eine Verbindung herstellen. <br/>  Transport: Gibt entweder TCP (Transmission Control Protocol) oder TLS (Transport Layer Security) an. <br/> |
+|Unterstützte zusätzliche Server Versionen (ConfiguredServerCheckValues)  <br/> |Gibt eine Liste der Server Versionsnamen an, die durch Semikolons getrennt sind, bei denen sich Skype for Business Server zusätzlich zu den standardmäßig unterstützten Server Versionen anmeldet.  <br/> |
+|Automatisches Hochladen von Anmeldefehlerprotokollen deaktivieren (DisableAutomaticSendTracing)  <br/> |Automatisches Hochladen von Anmeldefehler Protokollen in Skype for Business Server zur Analyse. Bei erfolgreichen Anmeldungen werden keine Protokolle automatisch hochgeladen. Wenn diese Richtlinie nicht konfiguriert ist, geschieht Folgendes:  <br/> Für Skype for Business Online-Benutzer: Anmeldefehler Protokolle werden automatisch hochgeladen. Für Skype for Business-lokale Benutzer: dem Benutzer wird vor dem Hochladen ein Bestätigungsdialogfeld angezeigt. Wenn diese Einstellung deaktiviert ist, werden Anmelde Protokolle automatisch auf den Skype for Business-Server hochgeladen, sowohl für Skype for Business lokal als auch für Skype for Business Online-Benutzer. Wenn diese Einstellung aktiviert ist, werden Anmeldeprotokolle niemals automatisch hochgeladen.  <br/> |
+|Deaktivieren des http-Fallbacks für SIP-Verbindung (DisableHttpConnect)  <br/> |Verhindert, dass Skype for Business Server versucht, eine Verbindung mit dem Server über HTTP herzustellen, wenn TLS oder TCP nicht verfügbar sind. Standardmäßig versucht Skype for Business zunächst, mithilfe von TLS oder TCP eine Verbindung mit dem Server herzustellen, und wenn keine dieser Transportmethoden erfolgreich ist, versucht Skype for Business, eine Verbindung über HTTP herzustellen. Verwenden Sie diese Richtlinie, um den Fall Back http-Verbindungsversuch zu deaktivieren.  <br/> |
+|Anfordern von Anmeldeinformationen (DisableNTCredentials)  <br/> |Erfordert, dass der Benutzeranmeldeinformationen für Skype for Business bereitstellt, anstatt die Windows-Anmeldeinformationen bei der Anmeldung bei einem SIP-Server automatisch zu verwenden.  <br/> |
+|Deaktivieren der Server Versionsüberprüfung (DisableServerCheck)  <br/> |Wenn Sie diese Richtlinie auf 1 festlegen, wird verhindert, dass Skype for Business den Servernamen und die Version überprüft, bevor Sie sich anmelden. Standardmäßig führt Skype for Business diese Prüfungen durch, bevor Sie sich anmelden.  <br/> |
+|Aktivieren der Verwendung von Bits zum Herunterladen von Adressbuchdienst Dateien (EnableBitsForGalDownload)  <br/> |Ermöglicht Skype for Business die Verwendung von Bits (Background Intelligent Transfer Service) zum Herunterladen der Adressbuchdienste-Dateien.  <br/> |
+|Konfigurieren des SIP-Sicherheitsmodus (EnableSIPHighSecurityMode)  <br/> |Ermöglicht Skype for Business das sichere Senden und empfangen von Sofortnachrichten. Diese Richtlinie hat keine Auswirkung auf Windows .NET- oder Microsoft Exchange Server-Dienste.  <br/> Wenn Sie diese Richtlinieneinstellung nicht konfigurieren, kann Skype for Business beliebige Transporte verwenden. Wenn Sie aber nicht TLS verwenden und der Server Benutzer authentifiziert, muss Skype for Business entweder NTLM-oder Kerberos-Authentifizierung verwenden.  <br/> |
+|Download des globalen Adressbuchs Initial Delay (GalDownloadInitialDelay)  <br/> |Legt den Zeitraum bis zum Download der globalen Adressliste (GAL) fest. Der Standardwert beträgt 60 Minuten, d. h., der Server verzögert den Download der globalen Adressliste um einen zufälligen Zeitraum zwischen 0 und 60 Minuten.  <br/> |
+|Verhindern, dass Benutzer Skype for Business ausführen (PreventRun)  <br/> |Verhindert, dass Benutzer Skype for Business ausführen. Sie können diese Richtlinieneinstellung unter Computerkonfiguration und Benutzerkonfiguration konfigurieren, aber die Richtlinieneinstellung unter Computerkonfiguration hat Vorrang.  <br/> |
+|Speichern von Benutzerkennwörtern zulassen (SavePassword)  <br/> |Ermöglicht es Skype for Business, Kennwörter zu speichern.  <br/> |
+|Konfigurieren des SIP-Komprimierungsmodus (SipCompression)  <br/> |Gibt an, wann die SIP-Komprimierung aktiviert wird. Die SIP-Komprimierung wird standardmäßig auf Grundlage der Adaptergeschwindigkeit aktiviert. Beachten Sie, dass die Festlegung dieser Richtlinie die Anmeldezeit verlängern kann.  <br/> |
+|Liste der vertrauenswürdigen Domänen (TrustModelData)  <br/> |Listet die vertrauenswürdigen Domänen auf, die nicht mit dem Präfix der SIP-Domäne des Kunden übereinstimmen.  <br/> |
    
 Auf dem Server konfigurierte Richtlinien haben Vorrang vor Gruppenrichtlinieneinstellungen und Clientoptionen, die vom Benutzer konfiguriert wurden. In der folgenden Tabelle wird zusammengefasst, welche Einstellungen Vorrang haben, falls ein Konflikt auftritt.
   
@@ -49,12 +49,12 @@ Auf dem Server konfigurierte Richtlinien haben Vorrang vor Gruppenrichtlinienein
 
 |**Rangfolge**|**Ort oder Einstellungsmethode**|
 |:-----|:-----|
-|1  <br/> |Skype für Business Server in-Band-Bereitstellung  <br/> |
+|1  <br/> |Skype for Business Server-in-Band-Bereitstellung  <br/> |
 |2  <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |3  <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
-|4  <br/> |Das Dialogfeld "Optionen" in Skype für Unternehmen  <br/> |
+|4  <br/> |Dialogfeld ' Optionen ' in Skype for Business  <br/> |
    
-### <a name="to-define-group-policy-settings-by-using-the-skype-for-business-administrative-template-files"></a>So definieren Sie gruppenrichtlinieneinstellungen mithilfe der Skype für administrative Vorlagendateien für Business
+### <a name="to-define-group-policy-settings-by-using-the-skype-for-business-administrative-template-files"></a>So definieren Sie Gruppenrichtlinieneinstellungen mithilfe der administrativen Vorlagendateien von Skype for Business
 
 1. Erstellen Sie einen Ordner auf Stammebene, der alle sprachneutralen ADMX-Dateien enthalten soll. Erstellen Sie beispielsweise den Stammordner für den zentralen Speicher auf Ihrem Domänencontroller an folgendem Speicherort:
     

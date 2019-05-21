@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 ms.appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,20 +18,20 @@ ROBOTS: NOIDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Setup
-description: 'Diese Zusammenfassung von Skype für Business Unternehmens- und Einstellungen helfen Ihnen die Weitere Informationen zu öffentlichen Instant Messaging-Diensten, Besprechungsanfragen, Aufzeichnung Anrufe Besprechungen und vieles mehr.  '
-ms.openlocfilehash: df16f6893da94e456bc873a74c8e0a1639eda3db
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Diese Zusammenfassung der Skype for Business-Organisation und der Benutzereinstellungen kann Ihnen dabei helfen, mehr über öffentliche Chat Verbindungen, Besprechungseinladungen, Aufzeichnung von Anrufen und Besprechungen und vieles mehr zu erfahren.  '
+ms.openlocfilehash: b039a97aea20fb4914deb077bd4aa76dbf13c1b3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237248"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285094"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Zusammenfassung der Skype for Business Online-Einstellungen
 
-Die **Skype für Business Administrationscenter** umfasst Einstellungen für das gesamte Unternehmen und für einzelne Benutzer. 
+Das **Skype for Business Admin Center** enthält Einstellungen für die gesamte Organisation und für einzelne Benutzer. 
   
 > [!NOTE]
->  Je nach Ihrem Standort möglicherweise Sie nicht den Zugriff auf alle Funktionen von Skype für Business Online. Weitere Informationen hierzu finden Sie unter [Lizenz Einschränkungen für Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
+>  Je nach Standort haben Sie möglicherweise keinen Zugriff auf alle Funktionen von Skype for Business Online. Ausführliche Informationen finden Sie unter [Lizenzeinschränkungen für Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
   
 ## <a name="skype-for-business-online-organization-settings"></a>Skype for Business Online-Organisationseinstellungen
 <a name="__top"> </a>
@@ -52,7 +52,7 @@ Die **Skype für Business Administrationscenter** umfasst Einstellungen für das
 |Audio und Video  <br/> |Durchführen von Audio- und Videounterhaltungen mit Skype for Business Online  <br/> |Aktiviert  <br/> |[Administratoren: Skype for Business-Einstellungen für einzelne Benutzer konfigurieren](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Aufzeichnung  <br/> |Aufzeichnen von Anrufen und Besprechungen  <br/> |Aktiviert  <br/> |[Administratoren: Skype for Business-Einstellungen für einzelne Benutzer konfigurieren](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Ausgehende Verbindungen für anonyme Teilnehmer  <br/> |Zulassen, dass anonyme Skype for Business Online-Besprechungsteilnehmer die Verbindung herstellen, indem sie vom Audiokonferenzanbieter angerufen werden  <br/> |Aktiviert  <br/> |[Administratoren: Skype for Business-Einstellungen für einzelne Benutzer konfigurieren](configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|Nicht archivierte Funktionen deaktivieren  <br/> | Deaktiviert Features, die erfasst werden nicht, wenn die Organisation eines [Inhalt hinzufügen zu einer Groß-/Kleinschreibung und Ort Quellen auf halten Sie in das eDiscovery Center](https://go.microsoft.com/fwlink/?LinkId=529482) in der Exchange-Verwaltungskonsole eingerichtet wurden: <br/>  Dateiübertragung mittels Chat <br/>  Freigegebene OneNote-Seiten <br/>  PowerPoint-Anmerkungen <br/>  Aktivieren Sie diese Option, wenn Sie rechtlich zur Aufbewahrung elektronisch gespeicherter Informationen verpflichtet sind. <br/> |Deaktiviert  <br/> |[Administratoren: Skype for Business-Einstellungen für einzelne Benutzer konfigurieren](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|Nicht archivierte Funktionen deaktivieren  <br/> | Deaktiviert Features, die nicht erfasst werden, wenn die Organisation ein [Hinzufügen von Inhalten zu einem Fall eingerichtet hat und Quellen im eDiscovery Center](https://go.microsoft.com/fwlink/?LinkId=529482) im Exchange Admin Center in den Wartebereich setzen: <br/>  Dateiübertragung mittels Chat <br/>  Freigegebene OneNote-Seiten <br/>  PowerPoint-Anmerkungen <br/>  Aktivieren Sie diese Option, wenn Sie rechtlich zur Aufbewahrung elektronisch gespeicherter Informationen verpflichtet sind. <br/> |Deaktiviert  <br/> |[Administratoren: Skype for Business-Einstellungen für einzelne Benutzer konfigurieren](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)

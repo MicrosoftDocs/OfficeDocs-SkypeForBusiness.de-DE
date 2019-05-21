@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c2fda202-db2f-4122-b630-7df11a697c5f
 description: 'Das Cmdlet „Get-CcApplianceDirectory“ ruft das Arbeitsverzeichnis auf dem Hostserver von Skype for Business Cloud Connector Edition ab. In diesem Verzeichnis werden alle Bereitstellungsdateien gespeichert. '
-ms.openlocfilehash: bcd80018b2286865945638f66c13e4c5198346dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ada1b587b738d882f81557e61438d6642aa03fff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233974"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287391"
 ---
 # <a name="get-ccappliancedirectory"></a>Get-CcApplianceDirectory
  
@@ -37,7 +37,7 @@ Keine
 
 ### <a name="example-1"></a>Beispiel 1
 
-Im folgenden Beispiel wird den aktuellen Ordner, in dem Konfiguration und dem virtuellen Computer Dateien Cloud Connector Komponenten gespeichert sind:
+Das folgende Beispiel zeigt den aktuellen Ordner, in dem Konfigurations-und Virtual Machine-Dateien von Cloud Connector-Komponenten gespeichert werden:
   
 ```
 Get-CcApplianceDirectory
@@ -46,9 +46,9 @@ Get-CcApplianceDirectory
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Das Cmdlet Get-CcApplianceDirectory veranschaulicht, in dem alle Konfigurations-und virtuellen Computer, Protokolle und externe Zertifikate für die Cloud Connector Appliance gespeichert sind.
+Das Cmdlet "Get-CcApplianceDirectory" zeigt an, wo alle Konfigurations-und virtuellen Computer Dateien,-Protokolle und externen Zertifikate für die Cloud Connector-Appliance gespeichert sind.
   
-Jede Appliance Cloud Connector besteht aus vier Komponenten: Vermittlungsserver, zentralen Verwaltungsspeichers, Edge-Server und einem Domänencontroller. Der Standardordner ist C:\Users\%userprofile%\CloudConnector\ApplianceRoot. Sie können den Ordner mit dem Cmdlet „Set-CCApplianceDirectory“ ändern.
+Jede Cloud Connector-Appliance verfügt über vier Komponenten: Mediationsserver, zentraler Verwaltungsspeicher, Edgeserver und einen Domänen Controller. Der Standardordner lautet C:\Users\%USERPROFILE%\CloudConnector\ApplianceRoot. Sie können den Ordner mit dem Cmdlet „Set-CCApplianceDirectory“ ändern.
   
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>

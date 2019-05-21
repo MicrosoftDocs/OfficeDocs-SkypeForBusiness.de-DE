@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.FeatureOverview
@@ -13,19 +13,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype für Business Server-Planungstool
-ms.openlocfilehash: 1065b64bb440b93f8b935d7a6422829f5a58f751
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server-Planungs Tool
+ms.openlocfilehash: b43c2ffef0c2e85413cda1720ea62527fece1556
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889381"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288254"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
-Skype für Business Server-Planungstool
+Skype for Business Server-Planungs Tool
   
-Die Seite **Zentralen Standorten** mit dem Planungstool können Sie um die Skype für Business Server-Bereitstellung zu entwerfen. Sie können entweder eine zentralisierte oder eine verteilte Bereitstellung erstellen. Eine zentrale Bereitstellung verfügt nur über einen zentralen Standort, die alle Skype für Unternehmensbenutzer in Ihrer Organisation befinden. Bei einer verteilten Bereitstellung sind mehrere zentrale Standorte vorhanden. Wenn Sie Skype für Business Server an mehreren zentralen Standorten bereitstellen, können Sie die Anzahl der Benutzer bei jeder zentrale Standort im Planungstool eingeben.
+Sie können die Seite " **zentrale Websites** " des Planungstools verwenden, um die Bereitstellung von Skype for Business Server zu entwerfen. Sie können entweder eine zentralisierte oder eine verteilte Bereitstellung erstellen. Eine zentralisierte Bereitstellung hat nur einen zentralen Standort, in dem alle Skype for Business-Benutzer in Ihrer Organisation zu Hause sind. Bei einer verteilten Bereitstellung sind mehrere zentrale Standorte vorhanden. Wenn Sie Skype for Business Server an mehreren zentralen Standorten bereitstellen, geben Sie die Anzahl der Benutzer an jedem zentralen Standort im Planungs Tool ein.
   
 Um die Definition des zentralen Standorts fertigzustellen, müssen Sie zunächst folgende Informationen bereitstellen:
   
@@ -33,7 +33,7 @@ Um die Definition des zentralen Standorts fertigzustellen, müssen Sie zunächst
     
 - **Anzahl der Nutzer** Geben Sie die Anzahl der Nutzer ein, einschließlich der Nutzer an Zweigstellen, die an den zentralen Standort verschoben werden.
     
-- **Cloud Benutzer verwaltet** Geben Sie die Anzahl der Benutzer, die verwaltet werden am zentralen Standort aus Skype für Business Online.
+- In der Cloud vernetzte **Benutzer** Geben Sie in Skype for Business Online die Anzahl der Benutzer ein, die sich in der zentralen Website befinden.
     
 ## <a name="ui-elements"></a>UI-Elemente
 
@@ -45,7 +45,7 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
   
 - **Chat und Anwesenheit**
     
-    Der Chat ermöglicht Nutzern die Kommunikation in Echtzeit auf ihren Computern über textbasierte Nachrichten. Sowohl Chatsitzungen mit zwei Teilnehmern als auch Sitzungen mit mehreren Teilnehmern werden unterstützt. Die Anwesenheitsfunktion liefert Nutzern Informationen zum Status anderer Nutzer im Netzwerk. Anwesenheitsstatus eines Benutzers liefert Informationen, deren Hilfe andere Benutzer zu bestimmen, ob der Benutzer online ist und wie Sie am besten den Benutzer zu kontaktieren. Ein Nutzer, der sich in einer Besprechung befindet, wird beispielsweise am besten per E-Mail kontaktiert.
+    Der Chat ermöglicht Nutzern die Kommunikation in Echtzeit auf ihren Computern über textbasierte Nachrichten. Sowohl Chatsitzungen mit zwei Teilnehmern als auch Sitzungen mit mehreren Teilnehmern werden unterstützt. Die Anwesenheitsfunktion liefert Nutzern Informationen zum Status anderer Nutzer im Netzwerk. Der Anwesenheitsstatus eines Benutzers bietet Informationen, mit denen andere Personen ermitteln können, ob der Benutzer online ist, und wie Sie den Benutzer am besten kontaktieren können. Ein Nutzer, der sich in einer Besprechung befindet, wird beispielsweise am besten per E-Mail kontaktiert.
     
 - **Audio- und Videokonferenzen**
     
@@ -64,7 +64,7 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
     Mit dem beständigen Chat können sich mehrere Benutzer in Chatrooms an Unterhaltungen beteiligen, in denen sie Inhalte zu bestimmten Themen veröffentlichen und darauf zugreifen, einschließlich Text, Links und Dateien. Benutzer können zwar während einer Sitzung in Echtzeit kommunizieren, der Inhalt der einzelnen Sitzungen ist jedoch dauerhaft, was bedeutet, dass er auch nach Beendigung einer Sitzung weiterhin verfügbar ist.
 
     > [!NOTE] 
-    > Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [upgrade Skype für Unternehmen, die Microsoft-Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl migrieren Benutzer, die diese Funktionalität für Teams oder weiterhin Skype für Business Server 2015 verwenden.
+    > Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Upgrade von Skype for Business zu Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer, die diese Funktion benötigen, an Teams migrieren oder die Verwendung von Skype for Business Server 2015 fortsetzen.
     
 ### <a name="users"></a>Nutzer
 
@@ -80,18 +80,18 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
     
 - **Partnerverbund mit XMOO-basierten Dienstanbietern**
     
-    Skype für Business Server 2015 eingeführt einen voll integrierte XMPP-Proxy (auf dem Edge-Servern bereitgestellt) und einem XMPP-Gateway auf Front-End-Servern bereitgestellt. Können Sie hinzufügen und Konfigurieren des XMPP-Proxys bereitstellen und XMPP-Gateway ansetzt, kann Ihre Skype für Business Server-Benutzer Kontakte von XMPP-basierten Partnern für instant messaging (IM) und Anwesenheit hinzufügen.
+    In Skype for Business Server 2015 wurde ein vollständig integrierter XMPP-Proxy (auf den Edge-Servern bereitgestellt) und ein XMPP-Gateway auf Ihren Front-End-Servern eingeführt. Sie können das Hinzufügen und Konfigurieren des XMPP-Proxys und das XMPP-Gateway bereitstellen, damit Ihre Skype for Business Server-Benutzer Kontakte von XMPP-basierten Partnern für Chats und Anwesenheitsinformationen hinzufügen können.
     
 - **Mobilität**
     
-    Wenn Sie die Skype für Business Server Mobility Service bereitstellen, können Benutzer unterstützte Apple iOS, Android, Windows Phone oder mobilen Nokia-Geräten solche Aktivitäten als senden und Empfangen von Sofortnachrichten, Anzeigen von Kontakten und Anzeigen von Anwesenheitsinformationen ausführen verwenden.
+    Wenn Sie den Skype for Business Server-Mobilitätsdienst bereitstellen, können Benutzer unterstützte Apple IOS-, Android-, Windows Phone-oder Nokia Mobile-Geräte verwenden, um solche Aktivitäten wie das Senden und empfangen von Sofortnachrichten, das Anzeigen von Kontakten und das Anzeigen von Anwesenheitsfunktionen auszuführen.
     
 - **W15 Exchange-Postfach**
     
-    Skype für Business Server können Sie Voicemail-Nachrichten in Exchange Unified Messaging (UM) gespeichert haben. Diese Voicemailnachrichten werden dann als e-Mail-Nachrichten in die Posteingänge der Benutzer angezeigt.
+    Skype for Business Server ermöglicht Ihnen, Voicemail-Nachrichten in Exchange Unified Messaging (um) zu speichern. Diese Sprachnachrichten werden dann als e-Mail-Nachrichten in den Posteingängen Ihrer Benutzer angezeigt.
 
     > [!NOTE]
-    > Exchange Unified Messaging als zuvor bekannt ist nicht mehr verfügbar im Exchange 2019, jedoch können Sie weiterhin Telefonsystem aufzeichnen Voicemailnachrichten verwenden und lassen Sie die Aufzeichnung klicken Sie dann im Exchange-Postfach eines Benutzers. Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
+    > Exchange Unified Messaging, wie zuvor bekannt, steht in Exchange 2019 nicht mehr zur Verfügung, Sie können aber weiterhin Voicemail-Nachrichten mit dem Telefon System aufzeichnen und die Aufzeichnung dann im Exchange-Postfach eines Benutzers belassen. Weitere Informationen finden Sie unter [Planen des Cloud Voicemail-Diensts](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
     
 ### <a name="voice"></a>VoIP
 
@@ -99,14 +99,14 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
   
 - **Enterprise-VoIP**
     
-    Enterprise-VoIP ist Microsofts softwarebasiertes VoIP-Lösung. Enterprise-VoIP kann Benutzer Skype für Unternehmen verwenden, um einen Anruf von ihrem Computer zu tätigen.
+    Enterprise-VoIP ist die Software-VoIP-Lösung von Microsft. Enterprise-VoIP ermöglicht Benutzern die Verwendung von Skype for Business, um einen Telefonanruf von Ihrem Computer aus zu tätigen.
     
 - **Exchange Unified Messaging**
     
-    Exchange Unified Messaging (UM) kombiniert Voicemail und e-Mail in einer einzigen Messaginginfrastruktur. Skype für Business Server 2015 verwendet Exchange UM-Mailboxansage, Teilnehmerzugriff, anrufbenachrichtigungen und automatische Telefonzentrale bereitzustellen. Wenn Sie diese Dienste verwenden, müssen Sie Exchange UM und Skype für Business Server in einer freigegebenen Active Directory-Topologie zu integrieren.
+    Exchange Unified Messaging (um) kombiniert Voicemail und e-Mail-Nachrichten in einer einzelnen Messaging Infrastruktur. Skype for Business Server 2015 verwendet Exchange um, um die Anrufannahme, den Teilnehmerzugriff, die Anrufbenachrichtigung und die automatischen Telefonzentralendienste bereitzustellen. Wenn Sie diese Dienste verwenden, müssen Sie Exchange um-und Skype for Business Server in eine freigegebene Active Directory-Topologie integrieren.
 
     > [!NOTE]
-    > Exchange Unified Messaging als zuvor bekannt ist nicht mehr verfügbar im Exchange 2019, jedoch können Sie weiterhin Telefonsystem aufzeichnen Voicemailnachrichten verwenden und lassen Sie die Aufzeichnung klicken Sie dann im Exchange-Postfach eines Benutzers. Weitere Informationen finden Sie unter [Planen von Cloud-Voicemail-Dienst](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
+    > Exchange Unified Messaging, wie zuvor bekannt, steht in Exchange 2019 nicht mehr zur Verfügung, Sie können aber weiterhin Voicemail-Nachrichten mit dem Telefon System aufzeichnen und die Aufzeichnung dann im Exchange-Postfach eines Benutzers belassen. Weitere Informationen finden Sie unter [Planen des Cloud Voicemail-Diensts](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
     
 ### <a name="additional-deployment-options"></a>Weitere Bereitstellungsoptionen
 
@@ -118,11 +118,11 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
     
 - **Notfallwiederherstellung**
     
-    Disaster Recovery Maßnahmen können Sie Paar Front-End-Pools befindet sich in zwei Rechenzentren.
+    Durch Disaster Recovery-Maßnahmen können Sie Front-End-Pools in zwei Rechenzentren koppeln.
     
 - **Überwachen**
     
-    Mit der Überwachung werden Anrufdetaildatensätze zu Kommunikationssitzungen erfasst. Zudem werden Metriken aus Audio- und Videositzungen von den Teilnehmerendpunkten gesammelt. Monitoring Server bietet Nutzungsstatistiken, Trends und Media Quality Statistik.
+    Mit der Überwachung werden Anrufdetaildatensätze zu Kommunikationssitzungen erfasst. Zudem werden Metriken aus Audio- und Videositzungen von den Teilnehmerendpunkten gesammelt. Der Monitoring Server bietet Nutzungsstatistiken, Trends und Statistiken zur Medienqualität.
     
 - **Archiving**
     
@@ -130,7 +130,7 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
     
 - **Exchange-Archivierungsintegration**
     
-    Wenn Sie Benutzer, die sich auf Exchange befinden und ihren Postfächern zu Compliance-Archiv platzieren wurde haben, können Sie die Option zum Integrieren von Skype für Business Server-Speicher mit Exchange-Speicher auswählen.
+    Wenn Sie über Benutzer verfügen, die sich in Exchange befinden und deren Postfächer in der Warteschleife platziert wurden, können Sie die Option zum Integrieren von Skype for Business Server-Speicher mit Exchange-Speicher auswählen.
     
 - **IPv4**
     
@@ -142,7 +142,7 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
     
 - **Geräteaktualisierungswebdienst**
     
-    Der Geräteupdate-Webdienst bietet eine automatisierte Möglichkeit zur Aktualisierung von alle Geräten, beispielsweise Skype für Business für Windows Phone, die außerhalb Ihrer Organisation bereitgestellt werden.
+    Der Geräteupdate-Webdienst bietet eine automatisierte Möglichkeit, alle Geräte wie Skype for Business für Windows Phone zu aktualisieren, die außerhalb Ihrer Organisation bereitgestellt werden.
     
 ### <a name="server-applications"></a>Serveranwendungen
 
@@ -150,23 +150,23 @@ Die übrigen Element wurden mit den Antworten ausgefüllt, die Sie zu den Fragen
   
 - **Reaktionsgruppe**
     
-    Die Anwendung "Reaktionsgruppe" automatisch beantwortet und verteilt Anrufe an einen verfügbaren Helpdesk-Agent.
+    Die Antwortgruppen Anwendung beantwortet und verteilt Anrufe automatisch an einen verfügbaren Helpdesk-Agenten.
     
 - **Ankündigung**
     
-    Wenn Sie Enterprise-VoIP bereitstellen möchten, möchten Sie möglicherweise mehr konfigurieren wie Telefonanrufe behandelt werden, wenn die gewählte Nummer gültig, aber nicht in einen gemeinsamen Benutzerbereich zugeordnet ist. Administratoren können den Ankündigungsdienst so konfigurieren, dass diese Anrufe an ein vorab festgelegtes Ziel (Rufnummer, SIP-URI) übergeben werden, oder eine Audioansage wiedergegeben wird oder beides. Die Verwendung des Ankündigungsdiensts verhindert Situationen, in denen sich ein Anrufer verwählt und ein Besetztzeichen hört oder der SIP-Client eine Fehlermeldung empfängt. Die Ankündigungsdienstfunktion ist ein gängiges Feature bei Nebenstellenanlagen. 
+    Wenn Sie Enterprise-VoIP bereitstellen möchten, sollten Sie in der Lage sein, die Art und Weise zu konfigurieren, wie Telefonanrufe gehandhabt werden, wenn die gewählte Nummer gültig, aber keinem Benutzer-gemeinsamen Bereich zugewiesen ist. Administratoren können den Ankündigungsdienst so konfigurieren, dass diese Anrufe an ein vorab festgelegtes Ziel (Rufnummer, SIP-URI) übergeben werden, oder eine Audioansage wiedergegeben wird oder beides. Die Verwendung des Ankündigungsdiensts verhindert Situationen, in denen sich ein Anrufer verwählt und ein Besetztzeichen hört oder der SIP-Client eine Fehlermeldung empfängt. Die Ankündigungsdienstfunktion ist ein gängiges Feature bei Nebenstellenanlagen. 
     
 - **Parken von Anrufen**
     
-    Parken Anwendung ermöglicht ein Enterprise-VoIP-Benutzer einen Anruf platziert auf halten von einem Telefon, und klicken Sie dann den Anruf von einem anderen Telefon empfangen, ohne zu binden Ressourcen auf dem Telefon, das den Anruf empfangen hat. Anwendung zum Parken von Anrufen ist nützlich, wenn ein Benutzer benötigt, um einen Anruf weiterleiten, aber der jeweiligen Empfänger unbekannt ist. 
+    Die Anwendung "Anruf parken" ermöglicht es einem Enterprise-VoIP-Benutzer, einen Anruf von einem Telefon aus zu halten, und dann den Anruf von einem anderen Telefon zu empfangen, ohne Ressourcen auf dem Telefon zu binden, das den Anruf erhalten hat. Die Anwendung für den Parken von anrufen ist nützlich, wenn ein Benutzer einen Anruf übertragen muss, der Empfänger aber unbekannt ist. 
     
 - **Konferenztelefonzentrale**
     
-    Die Anwendung Konferenzzentrale bietet Funktionen für Audiokonferenzen, ohne den Dienst, der einen Drittanbieter-Audiokonferenzen Telefonbenutzer.
+    Die Conferencing Attendant-Anwendung bietet Audiokonferenzfunktionen für Telefonbenutzer ohne den Dienst eines Drittanbieters für Audiokonferenzen.
     
 - **Konferenzankündigung**
     
-    Konferenzankündigungsdienst, dass die Anwendung Töne erzeugt, die signalisieren, wenn Benutzer eingeben oder diese verlassen einer Konferenz als auch Benachrichtigungen zu Telefonbenutzer beim stumm geschaltet oder dies wieder aufgehoben wird.
+    Die APP für Konferenz Ankündigungen erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder belegen, sowie Benachrichtigungen an Telefonbenutzer, wenn Sie stumm geschaltet oder stumm geschaltet sind.
     
 - **Anrufsteuerung**
     

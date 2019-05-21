@@ -5,27 +5,27 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddExternalApplicationNextHopPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49c9e65a-ae2d-46fa-a6a2-fff47ed0f3de
-description: 'Wenn den nächsten Hop für den vertrauenswürdigen Anwendungsserver oder-Pool festlegen möchten, führen Sie folgende Schritte aus:'
-ms.openlocfilehash: b2ce8e52b5ab9c277b0a6ac36d7b227954ef5a7a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Gehen Sie wie folgt vor, um den nächsten Hop für den Trusted Applications-Server oder-Pool einzurichten:'
+ms.openlocfilehash: 886fc04c61adf1c48b1cdae6686babddde087c59
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897702"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275213"
 ---
 # <a name="add-nexthop-trusted-application-server"></a>Hinzufügen eines vertrauenswürdigen NextHop-Anwendungsservers
  
-Wenn den nächsten Hop für den vertrauenswürdigen Anwendungsserver oder-Pool festlegen möchten, führen Sie folgende Schritte aus:
+Gehen Sie wie folgt vor, um den nächsten Hop für den Trusted Applications-Server oder-Pool einzurichten:
   
-Wählen Sie in der Dropdownliste **Nächster Hop Pool** der Enterprise Edition-Pool oder Standard Edition-Front-End-Server, die Sie den vertrauenswürdige Anwendungspool als nächsten Hop verwenden möchten.
+Wählen Sie in der Dropdownliste **Nächster Hop-Pool** den Enterprise Edition-Pool oder den Standard Edition-Front-End-Server aus, den der vertrauenswürdige Anwendungspool als nächster Hop verwenden soll.
   
-Klicken Sie auf **Fertig stellen** , um die vertrauenswürdige Anwendung Pool Erstellung abzuschließen.
+Klicken Sie auf **Fertig stellen** , um die Erstellung des vertrauenswürdigen Anwendungspools abzuschließen.
   
 

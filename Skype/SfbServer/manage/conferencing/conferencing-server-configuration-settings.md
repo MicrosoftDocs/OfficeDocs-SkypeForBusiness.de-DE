@@ -1,35 +1,35 @@
 ---
-title: Verwalten von Server konferenzkonfigurationseinstellungen in Skype für Business Server
+title: Verwalten von Konferenzserver-Konfigurationseinstellungen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
-description: 'Zusammenfassung: Erfahren Sie, wie Server konferenzkonfigurationseinstellungen in Skype für Business Server verwalten.'
-ms.openlocfilehash: 5727fffa8651d16be010dd76584d51c447c34087
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Konfigurationseinstellungen für Konferenzserver in Skype for Business Server verwalten.'
+ms.openlocfilehash: 190cd78e3c81f98859c40fe386fae2c4fd934a8e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919549"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288999"
 ---
-# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Verwalten von Server konferenzkonfigurationseinstellungen in Skype für Business Server
+# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Verwalten von Konferenzserver-Konfigurationseinstellungen in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie Server konferenzkonfigurationseinstellungen in Skype für Business Server verwalten.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie die Konfigurationseinstellungen für Konferenzserver in Skype for Business Server verwalten.
   
-In diesem Themenbereich wird die Verwaltung der Einstellungen der Konferenzkonfiguration beschrieben. Weitere Informationen zum Planen und Bereitstellen von Konferenzen finden Sie unter [Planen von Konferenzen in Skype für Business Server](../../plan-your-deployment/conferencing/conferencing.md) und [Konferenzen in Skype für Business Server bereitstellen](../../deploy/deploy-conferencing/deploy-conferencing.md).
+In diesem Themenbereich wird die Verwaltung der Einstellungen der Konferenzkonfiguration beschrieben. Weitere Informationen zum Planen und Bereitstellen von Konferenzen finden Sie unter [Planen von Konferenzen in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) und [Bereitstellen von Konferenzen in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
-Konferenzkonfigurationseinstellungen bestimmen anderem als die maximal zulässige Größe für Besprechungsinhalte und Ausdrucke. maximal Bandbreite für die Anwendung Anwendungsfreigabe-Konferenzdienst Speichergrenzwerte und Zeitlimits; die URLs für die interne und externe heruntergeladen unterstützten Clients. Zeiger auf die internen und externen URLs, in dem Benutzer Konferenzen Ressourcen erhalten Sie Hilfe und können; und die verwendeten Ports für die Anwendungsfreigabe, Client-Audio, dateiübertragungen und Mediendatenverkehr. Diese Einstellungen ermöglichen es Ihnen, die eigentlichen Server selbst zu verwalten. Diese Einstellungen können mithilfe von Skype für Business Server-Verwaltungsshell festgelegt werden.
+Die Konfigurationseinstellungen für Konferenzen legen fest, wie groß die maximal zulässige Größe für Besprechungsinhalte und Handzettel sind. maximale Bandbreite für den Anwendungsfreigabe-Konferenzdienst; Speichergrenzwerte und Ablaufzeiten; die URLs für die internen und externen Downloads des unterstützten Clients; Zeiger auf interne und externe URLs, in denen Benutzer Konferenz Hilfen und-Ressourcen erhalten können; und die Ports, die für Anwendungsfreigabe, Client-Audio, Dateiübertragungen und Mediendatenverkehr verwendet werden. Diese Einstellungen ermöglichen es Ihnen, die eigentlichen Server selbst zu verwalten. Diese Einstellungen können mithilfe der Skype for Business Server-Verwaltungsshell eingestellt werden.
   
-Wenn Sie Skype für Business Server installieren, enthält das System eine einzelne Auflistung von Konferenzen Konfigurationseinstellungen (die globale Auflistung). Wenn Sie benutzerdefinierte Einstellungen für einen Standort oder Dienst erstellen müssen, können Sie mit dem Cmdlet **New-CsConferencingConfiguration** tun. Beachten Sie, dass die neue Einstellungen nur auf Standortebene Standort oder Dienst angewendet werden können. Sie können keine neue globale Auflistung von Konferenzen Konfigurationseinstellungen erstellen, aber Sie können die globale Auflistung mithilfe des Cmdlets **Set-CsConferencingConfiguration** ändern. Darüber hinaus kann keine Standort oder Dienst mehr als eine Auflistung von Einstellungen hosten. Wenn Sie versuchen zum Erstellen neuer Einstellungen für die Redmond-Website und die Redmond Website bereits enthält eine Auflistung von konferenzkonfigurationseinstellungen und dann den gewünschten Befehl schlägt fehl.
+Wenn Sie Skype for Business Server installieren, stellt Ihnen das System eine einzige Sammlung von Konferenz Konfigurationseinstellungen (der globalen Sammlung) zur Verfügung. Wenn Sie benutzerdefinierte Einstellungen für eine Website oder einen Dienst erstellen müssen, können Sie dies mit dem Cmdlet **New-CsConferencingConfiguration** . Beachten Sie, dass neue Einstellungen nur auf dem Website-oder Dienstbereich angewendet werden können. Es ist nicht möglich, eine neue globale Sammlung von Konferenz Konfigurationseinstellungen zu erstellen, Sie können jedoch die globale Sammlung mithilfe des Cmdlets " **Satz-CsConferencingConfiguration** " ändern. Darüber hinaus kann keine Website oder ein Dienst mehr als eine Sammlung von Einstellungen hosten. Wenn Sie versuchen, neue Einstellungen für die Website "Redmond" zu erstellen, und die Redmond-Website bereits eine Sammlung von Konferenz Konfigurationseinstellungen hostet, schlägt Ihr Befehl fehl.
   
-## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Verwalten der konferenzkonfigurationseinstellungen mithilfe von Skype für Business Server-Verwaltungsshell
+## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Verwalten von Konferenz Konfigurationseinstellungen mithilfe der Skype for Business Server-Verwaltungsshell
 
-Verwenden Sie zum Verwalten von konferenzkonfigurationseinstellungen mithilfe von Skype für Business Server-Verwaltungsshell die folgenden Cmdlets:
+Verwenden Sie die folgenden Cmdlets, um Konferenz Konfigurationseinstellungen mithilfe der Skype for Business Server-Verwaltungsshell zu verwalten:
   
 **Konferenzkonfigurationseinstellungen**
 

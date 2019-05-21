@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,57 +20,57 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
-description: 'Kunden wurden eine kostenlose Dial-Out-Funktion bereitgestellt, die auf 30 November 2019 beendet wird.  Beginning 1 Dezember 2019, enthält jedes Abonnement Audiokonferenzen 60 Minuten pro Benutzer pro Monat auf die Zone A Länder wie in diesem Dokument beschrieben. '
-ms.openlocfilehash: 890441987eb0f08d67afe8a7f231c9a534c59a7f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Kunden wurde eine ﻿kostenlose Dial-Out-Funktion zur Verfügung gestellt, die am 30. November 2019 endet.  Ab dem 1. Dezember 2019 bietet jedes Audiokonferenz-Abonnement 60 Minuten pro Benutzer und Monat zu einem der Zone A-Länder, wie in diesem Dokument beschrieben. '
+ms.openlocfilehash: 8c60a469684705b2a227711c5bfb22cd6baa9111
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198616"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283524"
 ---
-# <a name="audio-conferencing-subscription-dial-outcall-me-at-benefit"></a>Vorteil „Ausgehende Anrufe/Rückruf unter“ von Audiokonferenzen-Abonnement
+# <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Audiokonferenz-Abonnement "Dial-Out"/"rufen Sie mich an"-Minuten Vorteil
 
-## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft-Teams und Skype für Business FESTNETZ-Audiokonferenzen
+## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft Teams und Skype for Business PSTN-Audiokonferenzen
 
-Kunden wurden eine [kostenlose Dial-Out - Funktion](complimentary-dial-out-period.md) bereitgestellt, die auf 30 November 2019 beendet wird. Beginning 1 Dezember 2019, enthält jedes Abonnement Audiokonferenzen 60 Minuten pro Benutzer pro Monat auf die Zone A Länder wie in diesem Dokument beschrieben. Der Größe Ihres Mandanten Minute Pool Dial-Out-ist Lizenzen nicht erworben und entsprechend Lizenzen *zugewiesen* . Dieses Nutzens gilt für die Audiokonferenz *Monatliches Abonnement* Lizenzen und Audiokonferenzen Bezahlung pro Minute Lizenzen nicht erweitert. 
+Kunden wurde eine [﻿Kostenlose Dial-Out-Funktion](complimentary-dial-out-period.md) zur Verfügung gestellt, die am 30. November 2019 endet. Ab dem 1. Dezember 2019 bietet jedes Audiokonferenz-Abonnement 60 Minuten pro Benutzer pro Monat, die verwendet werden können, um in einem der Zone A-Länder, wie in diesem Dokument beschrieben, zu nicht-Premium-Nummern zu wählen. Die Größe Ihres Mandanten-Dial-Out-Minuten ** Pools basiert auf zugewiesenen Lizenzen und nicht auf erworbenen Lizenzen. Dieser Vorteil ist auf die *monatlichen Abonnement* Lizenzen für Audiokonferenzen anwendbar und gilt nicht für Pay-per-Minute-Lizenzen für Audio-Konferenzen. 
 
-## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Audio Conferencing "Aus einer Besprechung ausgehende Anrufe" & "Anruf an mich unter" details
+## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Audiokonferenzen "wählen Sie aus einer Besprechung" & "rufen Sie mich an" Details an.
 
-Für Kunden, die über unsere Audio-Konferenzdienst Möglichkeit Microsoft die anwählen von Besprechungen von Benutzern zugewiesen eine Audiokonferenz Abonnementlizenz organisiert. Länder, nicht im Feld "A" Land Zone Dial-Out-Aufrufe werden pro Minute mit Communications haben berechnet. Für Dial-Out-Anrufe, die pro Minute (Anrufe überschreiten den Mandanten Dial-Out-Minute Pool oder Anrufe an Ziele nicht in der Liste der Zone A Land) in Rechnung gestellt werden, die Anrufe und deren zugeordneten Änderungsraten das Ziel des Anrufs und nicht der Organisator Land basieren auf US-Bundesstaates, oder die Besprechungsteilnehmer den Dial-Out-Anruf initiieren. Beispielsweise wird ein Audiokonferenz Dial-Out-Anruf an eine Telefonnummer in Frankreich, die ein Zone A Land ist, dieselbe Rate pro Minute berechnet, wenn er von einem Besprechungsteilnehmer in den Vereinigten Staaten, Frankreich oder Simbabwe initiiert wurden. 
+Für Kunden, die unseren Audiokonferenzdienst annehmen, bietet Microsoft die Möglichkeit, aus Besprechungen zu wählen, die von Benutzern organisiert wurden, denen eine Audio Conferencing-Abonnementlizenz zugewiesen ist. Auswahl Anrufe in Länder, die nicht in der Länderliste "Zone A" enthalten sind, werden pro Minute über Kommunikationsguthaben abgerechnet. Für ausgehende Anrufe, die pro Minute abgerechnet werden (Anrufe, die über den Minuten Pool des Mandanten hinausgehen, oder Anrufe an Zielorte, die nicht in der Liste der Länder aufgeführt sind), basieren die Anrufe und die dazugehörigen Gebühren auf dem Ziel des Anrufs und nicht auf dem Land des Organisators Wohnsitz oder der Besprechungsteilnehmer, der den Auswähl Enden Anruf initiiert. So wird beispielsweise bei einem Audiokonferenz-Anruf an eine Telefonnummer in Frankreich, bei der es sich um eine Zone in einem Land handelt, der gleiche Minutentarif in Rechnung gestellt, wenn er von einem Besprechungsteilnehmer in den USA, Frankreich oder Simbabwe initiiert wurde. 
 
 
-|Speicherort der Besprechung Organisator Lizenz Verwendung |Gewählte Ziel |Kann ich meine Dial-Out-Minute Pool Minuten verwenden?|Benötige ich Communications haben?|
+|Standort der Lizenzverwendung für Besprechungsorganisatoren |Ziel gewählt |Kann ich meine Minuten für das Auswähl Minuten-Pool verwenden?|Benötige ich Kommunikationsguthaben?|
 |---------|---------|---------|---------|
-|Vereinigte Staaten |Vereinigte Staaten |Ja (Zone A Land) |Ja, *nach* den Mandanten Minute Pool verarbeiten         |
-|Vereinigte Staaten |Vereinigtes Königreich|Ja (Zone A Land) |  Ja, *nach* den Mandanten Minute Pool verarbeiten       |
-|Vereinigte Staaten     |Simbabwe|    Nein     |     Ja, für *Alle* Anrufe    |
-|Vereinigtes Königreich     |Vereinigtes Königreich|Ja (Zone A Land) |  Ja, *nach* den Mandanten Minute Pool verarbeiten       |
-|Großbritannien     |Vereinigte Staaten |Ja (Zone A Land) |  Ja, *nach* den Mandanten Minute Pool verarbeiten       |
-|Vereinigtes Königreich     |Simbabwe|    Nein     |   Ja, für *Alle* Anrufe      |
-|Simbabwe     |Simbabwe|    Nein     |    Ja, für *Alle* Anrufe     |
-|Simbabwe     |Vereinigte Staaten | Ja (Zone A Land) | Ja, *nach* den Mandanten Minute Pool verarbeiten        |
-|Simbabwe     |Vereinigtes Königreich | Ja (Zone A Land) | Ja, *nach* den Mandanten Minute Pool verarbeiten        |
-|Cookinseln     |Cookinseln |   Nein      |    Ja, für *Alle* Anrufe     |
-|Cookinseln     |Vereinigte Staaten  | Ja (Zone A Land) |  Ja, *nach* den Mandanten Minute Pool verarbeiten       |
-|Cookinseln     |Vereinigtes Königreich | Ja (Zone A Land) | Ja, *nach* den Mandanten Minute Pool verarbeiten        |
+|Vereinigte Staaten |Vereinigte Staaten |Ja (Zone a Land) |Ja *nach* dem Verzehr des Minuten Pools für den Mandanten         |
+|Vereinigte Staaten |Vereinigtes Königreich|Ja (Zone a Land) |  Ja *nach* dem Verzehr des Minuten Pools für den Mandanten       |
+|Vereinigte Staaten     |Simbabwe|    Nein     |     Ja bei *allen* anrufen    |
+|Vereinigtes Königreich     |Vereinigtes Königreich|Ja (Zone a Land) |  Ja *nach* dem Verzehr des Minuten Pools für den Mandanten       |
+|Großbritannien     |Vereinigte Staaten |Ja (Zone a Land) |  Ja *nach* dem Verzehr des Minuten Pools für den Mandanten       |
+|Vereinigtes Königreich     |Simbabwe|    Nein     |   Ja bei *allen* anrufen      |
+|Simbabwe     |Simbabwe|    Nein     |    Ja bei *allen* anrufen     |
+|Simbabwe     |Vereinigte Staaten | Ja (Zone a Land) | Ja *nach* dem Verzehr des Minuten Pools für den Mandanten        |
+|Simbabwe     |Vereinigtes Königreich | Ja (Zone a Land) | Ja *nach* dem Verzehr des Minuten Pools für den Mandanten        |
+|Cook-Inseln     |Cook-Inseln |   Nein      |    Ja bei *allen* anrufen     |
+|Cook-Inseln     |Vereinigte Staaten  | Ja (Zone a Land) |  Ja *nach* dem Verzehr des Minuten Pools für den Mandanten       |
+|Cook-Inseln     |Vereinigtes Königreich | Ja (Zone a Land) | Ja *nach* dem Verzehr des Minuten Pools für den Mandanten        |
 |    |         |         |         |
 
-## <a name="how-are-minute-pools-calculated"></a>Wie werden Minute Pools berechnet?
+## <a name="how-are-minute-pools-calculated"></a>Wie werden Minuten Pools berechnet?
 
-Betrachten Sie das folgende Beispiel. Ein Kunde 115 Audiokonferenzen Abonnementlizenzen erworben hat und 10 Benutzern in den Vereinigten Staaten, 100 Benutzer in Großbritannien und 5 Benutzer in Simbabwe, alle mit der Audiokonferenz Abonnementlizenzen zugewiesen wurde. Alle 115 Benutzer freigeben einen Pool von (115 Benutzer x 60 min = 6,900 Konferenzen Dial-Out-Minuten pro Kalendermonat), um ausgehende Anrufe an die Zone befindet sich ein Länder, *unabhängig* von der Organisator der Besprechung, bei denen lizenziert ist oder physisch zu platzieren. Beispielsweise wird Besprechungsorganisator Simbabwe Länder Zone A bis zu den Grenzwert Minute Pool anwählen können. 
+Sehen Sie sich das folgende Beispiel an: Ein Kunde hat 115-Lizenzen für Audio-Conferencing-Abonnements erworben und hat 10 Benutzer in den USA, 100-Benutzern in Großbritannien und 5 Benutzern in Simbabwe, die über eine Lizenz für Audio-Konferenz Abonnements verfügen. Alle 115-Benutzer geben einen Pool von (115 Benutzern x 60 min = 6.900 Konferenz-Auswahl Minuten pro Kalendermonat) frei, um ausgehende Anrufe an nicht-Premium-Nummern in einem der Länder der Zone zu tätigen, *unabhängig* davon, wo der Organisator der Besprechung lizenziert oder physisch befindet. So kann beispielsweise ein Organisator von Simbabwe-Besprechungen in einem der Zone a-Länder bis zur Minuten Grenze des Pools wählen. 
 
-- Alle Anrufe 6,900 Minuten pro Kalendermonat überschritten werden pro Minute verwenden Communications haben an unsere veröffentlichten Zinssätze Ziel berechnet. (Hinweis: der Kunde muss [Communications haben](what-are-communications-credits.md) einrichten und der Besprechungsorganisator Communications haben Lizenz zuweisen.)
-- Alle ausgehenden Anrufe an Ziele nicht in der Liste der Zone A Land werden pro Minute unsere veröffentlichten Zinssätze Ziel (vorausgesetzt, der Kunde hat Communications haben eingerichtet und die Kommunikation haben Lizenz zugewiesen Communications haben mit abgerechnet an den Besprechungsorganisator).
+- Alle Auswahl Anrufe, die über 6.900 Minuten pro Kalendermonat hinausgehen, werden pro Minute mit Kommunikationsguthaben zu unseren veröffentlichten Tarifen in Rechnung gestellt. (Hinweis: der Kunde muss [Kommunikationsguthaben](what-are-communications-credits.md) einrichten und dem Besprechungsorganisator die Lizenz für Kommunikations Kredite zuweisen.)
+- Alle Auswähl baren Anrufe an Zielorte, die nicht in der Zone aufgeführt sind, werden pro Minute mit Kommunikationsguthaben zu unseren veröffentlichten Tarifen in Rechnung gestellt (vorausgesetzt, der Kunde hat Kommunikationsguthaben eingerichtet und die Lizenz für Kommunikationsguthaben zugewiesen. an den Organisator der Besprechung).
 
-## <a name="how-can-i-monitor-minute-pool-usage"></a>Wie können die Minute Auslastung werden überwacht?
+## <a name="how-can-i-monitor-minute-pool-usage"></a>Wie kann ich die Nutzung des Minuten Pools überwachen?
 
-- Gegen den Dial-Out-Minute Pool in der "legacy" Skype für Business Admin Center können Sie die Nutzung überwachen. Navigieren Sie in der Microsoft-Teams Admin Center **Legacy**-Portal > **Berichte** > **PSTN Minute Pools**. Die Zone A Dial-Out-Minute ist Pool im Bericht als "Ausgehende Anrufe in Zone A Länder" gekennzeichnet
-- E-Mail-Benachrichtigungen werden an alle Mandantenadministratoren eines bestimmten Kunden versendet, wenn die Auslastung des Pools für den Mandanten Dial-Out-Minuten 80 % und 100 % erreicht hat.
+- Sie können die Nutzung im Skype for Business Admin Center im "Legacy"-Minuten-Pool überwachen. Navigieren Sie im Microsoft Teams Admin Center zu **Legacy-Portal** > **Berichte** > **PSTN-Minuten Pools**. Die Zone a Dial-Out Minute Pool wird im Bericht als "ausgehende Anrufe in Zone a countries" bezeichnet.
+- E-Mail-Benachrichtigungen werden an alle mandantenadministratoren eines bestimmten Kunden gesendet, wenn die Nutzung des Auswähl-Minuten Pools des Mandanten 80% und 100% erreicht hat.
 
-Weitere Informationen zu Kommunikation haben finden Sie unter [Communications haben](what-are-communications-credits.md).
+Weitere Informationen zu Kommunikationsguthaben finden Sie unter [Kommunikationsguthaben](what-are-communications-credits.md).
 
 
-|Eine Zone Länder/Regionen |
+|Zone A countries |
 |---------|
 |Australien      |
 |Österreich     |

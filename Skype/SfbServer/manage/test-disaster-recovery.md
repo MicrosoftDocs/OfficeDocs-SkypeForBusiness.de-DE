@@ -1,57 +1,57 @@
 ---
-title: Disaster Recovery-Tests in Skype für Business Server
+title: Disaster Recovery-Tests in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Führen Sie eine Wiederherstellung für eine Skype für Business Server-Pool zum Testen Ihrer dokumentierte Disaster Recovery-Prozess
-ms.openlocfilehash: 55398b95be1cf5cec2cafa3a91a36536df92200e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Durchführen einer Systemwiederherstellung für einen Skype for Business Server-Pool Server zum Testen des dokumentierten Disaster Recovery-Prozesses
+ms.openlocfilehash: d65f8bfa512a3954728e09d659b571335d32a379
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924815"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279214"
 ---
-# <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Disaster Recovery-Tests in Skype für Business Server
+# <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Disaster Recovery-Tests in Skype for Business Server
 
-Führen Sie eine Wiederherstellung für eine Skype für Business Server-Pool zum Testen Ihrer dokumentierte notfallwiederherstellungsprozess. Bei diesem Test simuliert einen vollständige Hardwarefehler für einen Server, und wird sichergestellt, dass die Ressourcen, Pläne und Daten für die Wiederherstellung verfügbar sind. Versuchen Sie, den Fokus des Tests jeden Monat drehen, sodass Ihrer Organisation den Ausfall einen anderen Server oder eine sonstige Codekomponente Geräte bei jedem überprüft. 
+Führen Sie eine Systemwiederherstellung für einen Skype for Business Server-Pool Server aus, um Ihren dokumentierten Disaster Recovery-Prozess zu testen. Mit diesem Test wird ein vollständiger Hardwarefehler für einen Server simuliert, und es wird sichergestellt, dass die Ressourcen, Pläne und Daten für die Wiederherstellung verfügbar sind. Versuchen Sie, den Fokus des Tests monatlich zu drehen, damit Ihre Organisation den Fehler eines anderen Servers oder eines anderen Geräts jedes Mal testet. 
 
 Beachten Sie, dass der Zeitplan, nach dem Organisationen Notfallwiederherstellungstests durchführen, unterschiedlich ist. Es ist sehr wichtig, dass Notfallwiederherstellungstests nicht ignoriert oder vernachlässigt werden. 
 
-Exportieren Sie Ihre Skype für Business Server-Topologie, Richtlinien und-Konfigurationseinstellungen in eine Datei. Unter anderem kann diese Datei nach einem Upgrade, einem Hardwareausfall oder einem anderen Problem, das zu Datenverlust geführt hat, zum Wiederherstellen dieser Informationen im zentralen Verwaltungsspeicher verwendet werden.
+Exportieren Sie Ihre Skype for Business Server-Topologie,-Richtlinien und-Konfigurationseinstellungen in eine Datei. Unter anderem kann diese Datei nach einem Upgrade, einem Hardwareausfall oder einem anderen Problem, das zu Datenverlust geführt hat, zum Wiederherstellen dieser Informationen im zentralen Verwaltungsspeicher verwendet werden.
 
-Importieren Sie Ihre Skype für Business Server-Topologie, Richtlinien und Konfigurationseinstellungen auf dem zentralen Verwaltungsspeicher oder auf dem lokalen Computer wie in den folgenden Befehlen gezeigt: 
+Importieren Sie Ihre Skype for Business Server-Topologie,-Richtlinien und-Konfigurationseinstellungen entweder in den zentralen Verwaltungsspeicher oder auf den lokalen Computer, wie in den folgenden Befehlen gezeigt: 
 
 `Import-CsConfiguration -ByteInput <Byte[]> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
 `Import-CsConfiguration -FileName <String> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]` 
 
-So sichern Sie Produktionsdaten
+So sichern Sie Produktionsdaten:
 
-- Sichern Sie die Datenbanken RTC und LCSLog mithilfe der standardmäßigen SQL Server backup-Vorgang, um die Datenbank auf eine Datei oder auf Band Sicherungsmedium dump.
+- Sichern Sie die RTC-und LCSLog-Datenbanken mithilfe des standardmäßigen SQL Server-Sicherungsprozesses, um die Datenbank auf ein Datei-oder Bandspeicher Abbildgerät zu übernehmen.
 - Verwenden Sie eine Sicherungsanwendung von einem Drittanbieter, um die Daten in einer Datei oder auf einem Band zu sichern.
 - Verwenden Sie das Cmdlet „Export-CsUserData“, um einen XML-Export der gesamten RTC-Datenbank zu erstellen.
-- Verwenden Sie die Datei System oder Drittanbieter-Sicherung um zu sichernden Daten meeting Inhalte und Kompatibilitätsdaten von Protokollen.
-- Verwenden Sie das Export-CsConfiguration-Befehlszeilentool zum Sichern von Skype für Business Server-Einstellungen.
+- Verwenden Sie das Dateisystem-Backup oder Drittanbieter-Backup, um Besprechungsinhalte und Kompatibilitäts Protokolle zu sichern.
+- Verwenden Sie das Befehlszeilentool "Exportieren-CsConfiguration", um die Einstellungen für Skype for Business Server zu sichern.
 
 Der erste Schritt in der Failoverprozedur besteht in einer erzwungenen Verschiebung von Benutzern aus dem Produktionspool in den Notfallwiederherstellungspool. Es handelt sich dabei um eine erzwungene Verschiebung, da der Produktionspool nicht verfügbar ist, um die Benutzerumsetzung zu akzeptieren.
 
-Die Skype für Business Server Verschiebens Benutzer ist praktisch eine Änderung für ein Attribut für das Konto Benutzerobjekt zusätzlich zu einem Datensatz Update auf der RTC-SQL-Datenbank. Diese Daten können wiederhergestellt werden aus der ursprünglichen backup Dump-Gerät aus der Produktion SQL Server mithilfe der standardmäßigen SQL Server Wiederherstellungsvorgang oder mithilfe eines Drittanbieters-Sicherung/Wiederherstellung Dienstprogramm.
+Der Skype for Business Server-Prozess "Move User" ist eine Änderung an einem Attribut für das Benutzerkontoobjekt sowie eine Datensatzaktualisierung in der RTC SQL-Datenbank. Diese Daten können vom ursprünglichen Backup-Dump-Gerät aus dem Produktions-SQL-Server mithilfe des standardmäßigen SQL Server-Wiederherstellungsprozesses oder mithilfe eines Sicherungs-/Wiederherstellungstools eines Drittanbieters wiederhergestellt werden.
 
-Nach der Wiederherstellung dieser Daten können wie gewohnt Benutzer effektiv Verbinden mit den Disaster Recovery-Pool, und betreiben. Um Benutzern die Verbindung zu dem Pool Disaster Recovery zu aktivieren, wird eine DNS-Datensatz Änderung erforderlich sein.
+Nach der Wiederherstellung dieser Daten können Benutzer eine Verbindung mit dem Disaster Recovery-Pool herstellen und wie gewohnt funktionieren. Damit Benutzer eine Verbindung mit dem Disaster Recovery-Pool herstellen können, ist eine Änderung des DNS-Eintrags erforderlich.
 
-Clients verwenden die automatische Konfiguration und der DNS-SRV-Einträge werden die Produktion Skype für Business Pool verweist:
+Der Produktions-Skype for Business-Pool wird von Clients, die die automatischen Konfigurations-und DNS-SRV-Einträge verwenden, referenziert:
 
-- SRV: _sip. \<Domain> /CNAME: SIP. \<Domain>
-- CNAME: SIP. \<Domain> /cvc-pool-1. \<Domain>
+- SRV: _sip. _tls. \<domain>/CNAME: SIP. \<domain>
+- CNAME: SIP. \<domain>/CVC-Pool-1. \<domain>
 
 Zur Vereinfachung des Failovers muss dieser CNAME-Eintrag so aktualisiert werden, dass er auf den DROCSPool-FQDN verweist:
 
-- CNAME: SIP.<domain> / DROCSPool. \<Domain>
-- SIP. \<Domain>
-- AV.\<Domain>
-- Webconf. \<Domain>
+- CNAME: SIP.<domain> /DROCSPool. \<domain>
+- SIP. \<domain>
+- AV.\<domain>
+- webconf. \<domain>

@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,19 +18,19 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 413610285a187fc85d7aa926a77f09cccbb15643
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8b3b912526a44fb10cb685dd6ab9b3dea8f8eac4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226014"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284924"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Das Vorab-Laden von Inhalten für Besprechungen mit Outlook ein- oder ausschalten
 
-Benutzer können Inhalte, Dateien oder Anlagen, die eine Einladung zur Besprechung Outlook an einen Skype für Business onlinebesprechung angefügt sind, Vorinstallation, aber Sie können sie aktivieren oder deaktivieren. Es ist standardmäßig für alle Organisationen eingeschaltet, Skype für die Business Online verwenden. Finden Sie unter Vorgehensweise [Teiler Anlagen für einen Skype für Business Besprechung](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
+Benutzer können Inhalte, Dateien oder Anlagen, die an eine Outlook-Besprechungseinladung angefügt sind, in eine Skype for Business Online-Besprechung laden, aber Sie können Sie aktivieren oder deaktivieren. Sie ist für alle Organisationen, die Skype for Business Online verwenden, standardmäßig aktiviert. Hier erfahren Sie, wie [Anlagen für eine Skype for Business-Besprechung geladen](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)werden.
   
 > [!NOTE]
-> Derzeit sind keine-Cmdlets für die Anzeige von online-Werte für _MaxContentStorageMB_ und _MaxUploadFileMB_oder Einstellung in Skype für Business Online verfügbar. Sie sind nur für Bereitstellungen vor Ort verfügbar. Es ist wichtig zu wissen, dass der Inhalt wird nicht für eine Besprechung hochgeladen werden, wenn angehängte Inhalt der _MaxUploadFileSizeMB_ überschreitet oder wenn die _MaxContentStorageMB_ erreicht ist.
+> Derzeit stehen in Skype for Business Online keine Cmdlets zum Festlegen oder Anzeigen von Online Werten für _MaxContentStorageMB_ und _MaxUploadFileMB_zur Verfügung. Sie sind nur für Bereitstellungen vor Ort verfügbar. Es ist wichtig zu wissen, dass Inhalte nicht in eine Besprechung hochgeladen werden, wenn die angefügten Inhalte die _MaxUploadFileSizeMB_ überschreiten oder wenn die _MaxContentStorageMB_ -Grenze erreicht ist.
   
 ## <a name="to-get-you-started"></a>Erste Schritte
 
@@ -66,14 +66,14 @@ $session = New-CsOnlineSession -Credential $credential
 Import-PSSession $session
 ```
 
-Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Sie unter [Connect auf alle Office 365-Dienste in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder das [Einrichten des Computers für Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Wenn Sie weitere Informationen zum Starten von Windows PowerShell benötigen, lesen Sie [Herstellen einer Verbindung mit allen Office 365-Diensten in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Einrichten Ihres Computers für Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="turning-it-on-or-off"></a>Aktivieren oder Deaktivieren dieser Funktion
 
-Die Fähigkeit zum Inhalt einer Outlook-Besprechungsanfrage zu Skype Business onlinebesprechungen mit angefügten Vorinstallation ist standardmäßig aktiviert, aber möglicherweise müssen Sie verhindern, dass Benutzer in Ihrer Organisation aus vorgezogene Laden Inhalt in einer Besprechung.
+Die Möglichkeit zum Laden von Inhalten, die an eine Outlook-Besprechungseinladung zu Skype for Business Online-Besprechungen angefügt sind, ist standardmäßig aktiviert, doch müssen Sie möglicherweise verhindern, dass Benutzer in Ihrer Organisation Inhalte in ihren Besprechungen Vorabladen.
   
 > [!IMPORTANT]
-> Diese Einstellung kann nur für die gesamte Organisation aktiviert oder deaktiviert, werden; Sie können nicht aktiviert oder deaktiviert für einen einzelnen Benutzer aktiviert. 
+> Diese Einstellung kann nur für Ihre gesamte Organisation aktiviert oder deaktiviert werden. Sie können die Funktion nicht für einen einzelnen Benutzer aktivieren oder deaktivieren. 
   
  **Um die Funktion zu deaktivieren, öffnen Sie Windows PowerShell und führen Sie die folgenden Schritte aus:**
   
@@ -89,7 +89,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online mit einem zentralen Verwaltungspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn mehrere Aufgaben ausgeführt werden müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

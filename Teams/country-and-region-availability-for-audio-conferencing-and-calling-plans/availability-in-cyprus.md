@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Zypern verfügbar.
-ms.openlocfilehash: 5998a834226d8e63eeed237342abdb7e52e6bfdd
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Zypern verfügbar sind.
+ms.openlocfilehash: 1703b4ba0b91cec9acc75a58b7e1d764b11236ca
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542335"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283058"
 ---
 # <a name="availability-in-cyprus"></a>Verfügbarkeit in Zypern
 
 [Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
 
-Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Zypern verfügbar.
+Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Zypern verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenz
 
@@ -44,7 +44,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li> Nikosia</ul> Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
-|Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Kommunikation haben  <br/> |
+|Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Kommunikationsguthaben  <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
 

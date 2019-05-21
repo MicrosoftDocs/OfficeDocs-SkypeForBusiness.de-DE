@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Argentinien verfügbar.
-ms.openlocfilehash: c87e8578597d9e185cec60f332af5ac758a3047c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Argentinien verfügbar sind.
+ms.openlocfilehash: 652fd1b734765243ac606507a08c23ce4e900294
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198425"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283346"
 ---
 # <a name="availability-in-argentina"></a>Verfügbarkeit in Argentinien
 
 [Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
 
-Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Argentinien verfügbar.
+Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Argentinien verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenz
 
@@ -44,7 +44,7 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li>Buenos Aires</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
-|Dial-out-Möglichkeit über die Rückruffunktion  <br/> | Erfordert Kommunikation haben <br/> |
+|Dial-out-Möglichkeit über die Rückruffunktion  <br/> | Erfordert Kommunikationsguthaben <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
 
@@ -63,15 +63,15 @@ Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-T
 |Verfügbare Minuten für Anrufpläne  <br/> |Nicht anwendbar  <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> |Nicht anwendbar  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste
+## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Nummern für Dienstleistungen
 
 |**Funktion**|**Details**|
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | <ul><li>Buenos Aires <li>Cordoba <li>La Plata <li>Mar Del Plata <li>Mendoza <br/>  <li>San Miguel de Tucuman <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
-|Stehen gebührenfreie Nummern?  <br/> |Ja  <br/> |
+|Sind gebührenfreie Nummern verfügbar?  <br/> |Ja  <br/> |
    
- Wenn Sie abrufen möchten gebührenpflichtige und gebührenfreie kostenlose Rufnummern für Audiokonferenzen, automatische um-Telefonzentralen und Aufrufen von Warteschlangen, finden Sie unter [Getting Service Rufnummern für Skype für Unternehmen und die Microsoft-Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+ Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschlangen erhalten möchten, lesen Sie [Abrufen von Service-Telefonnummern für Skype for Business und Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

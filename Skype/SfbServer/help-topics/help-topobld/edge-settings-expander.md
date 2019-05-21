@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeSettingsExpander
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Servern werden in den folgenden Abschnitten bearbeitet:'
-ms.openlocfilehash: 1659089ca2af8d683fded190a32736fa84cd1914
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 307a861814a8e05065c70299b5ef2a82c20c8c42
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926887"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282531"
 ---
 # <a name="edge-settings-expander"></a>Edgeeinstellungen – Erweiterung
 
@@ -36,7 +36,7 @@ Die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Server
 
 Vollqualifizierter Domänenname (Fully Qualified Domain Name, FQDN) des internen Pools für den Edgeserverpool. Bearbeiten Sie den FQDN des Pools, um diese Einstellung zu ändern.
 
-Aktivieren Sie das Kontrollkästchen **Partnerverbund für diesen edgepool (Port 5061) aktivieren** , wenn Sie einen Verbund mit einem Lync Server 2013, Microsoft Lync Server 2010 oder Microsoft Office Communications Server 2007 R2 vertrauenswürdigen Partner einrichten möchten.
+Aktivieren Sie das Kontrollkästchen **Föderation für diesen Edge-Pool aktivieren (Port 5061)** , wenn Sie einen Verbund mit einem vertrauenswürdigen Partner für lync Server 2013, Microsoft lync Server 2010 oder Microsoft Office Communications Server 2007 R2 einrichten möchten.
 
 Wählen Sie **XMPP-Partnerverbund für diesen Edgepool aktivieren** aus, um den XMPP-Partnerverbund zu aktivieren.
 
@@ -44,7 +44,7 @@ Geben Sie die Portnummer unter **Interner Port für die Konfigurationsreplikatio
 
 ## <a name="next-hop-selection-settings"></a>Einstellungen für nächsten Hop
 
-Wählen Sie einen Director, Director-Pool, Front-End-Server oder Front-End-Serverpool aus dem Dropdown-Listenfeld aus, um den nächsten Hoppool**** anzugeben oder zu bearbeiten, den der Edgeserver für die Kommunikation mit der internen Infrastruktur verwenden soll. Nur Directors oder -Front-Ends, die im Topologie-Generator konfiguriert wurden, wird für die Auswahl angezeigt.
+Wählen Sie einen Director, Director-Pool, Front-End-Server oder Front-End-Serverpool aus dem Dropdown-Listenfeld aus, um den nächsten Hoppool**** anzugeben oder zu bearbeiten, den der Edgeserver für die Kommunikation mit der internen Infrastruktur verwenden soll. Nur Directors oder Front Ends, die im Topologie-Generator konfiguriert wurden, werden zur Auswahl angezeigt.
 
 ## <a name="edge-server-configuration"></a>Edgeserver-Konfiguration
 

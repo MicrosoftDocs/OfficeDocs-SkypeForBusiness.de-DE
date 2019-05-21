@@ -1,52 +1,52 @@
 ---
-title: Skype für Business Server eine Server-zu-Server-Authentifizierungszertifikat zuweisen
+title: Zuweisen eines Server-zu-Server-Authentifizierungszertifikats zu Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
-description: 'Zusammenfassung: Weisen Sie ein Zertifikat für die Server-zu-Server-Authentifizierung für Skype für Business Server.'
-ms.openlocfilehash: 761234f821f5d95d53f7188a7197b28710d23893
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Zuweisen eines Server-zu-Server-Authentifizierungszertifikats für Skype for Business Server.'
+ms.openlocfilehash: 7198c103a771029ec93e589169fafb652f5d8842
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902755"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278349"
 ---
-# <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>Skype für Business Server eine Server-zu-Server-Authentifizierungszertifikat zuweisen
-**Zusammenfassung:** Weisen Sie ein Zertifikat für die Server-zu-Server-Authentifizierung für Skype für Business Server.
+# <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>Zuweisen eines Server-zu-Server-Authentifizierungszertifikats zu Skype for Business Server
+**Zusammenfassung:** Zuweisen eines Server-zu-Server-Authentifizierungszertifikats für Skype for Business Server.
   
-Um zu bestimmen, ob ein Server-zu-Server-Authentifizierungszertifikat bereits Skype für Business Server zugewiesen wurde, führen Sie den folgenden Befehl aus der Skype für Business Server-Verwaltungsshell:
+Wenn Sie feststellen möchten, ob einem Server-zu-Server-Authentifizierungszertifikat bereits Skype for Business Server zugewiesen wurde, führen Sie den folgenden Befehl aus der Skype for Business Server-Verwaltungsshell aus:
   
 ```
 Get-CsCertificate -Type OAuthTokenIssuer
 ```
 
-Wenn keine Zertifikatinformationen zurückgegeben wird, dass Sie ein Zertifikat Tokenherausgebers zuweisen müssen, bevor Sie die Server-zu-Server-Authentifizierung verwenden können. Als allgemeine Regel kann Skype für Business Server-Zertifikat als OAuthTokenIssuer-Zertifikat verwendet werden. Beispielsweise kann Ihre Skype für Standardzertifikat Business Server auch als "oauthtokenissuer"-Zertifikat verwendet werden. (OAUthTokenIssuer-Zertifikat kann auch eine beliebige Webserverzertifikat, die den Namen der SIP-Domäne in das Feld Betreff enthält sein.) Die zwei primären Anforderungen für das Zertifikat für die Server-zu-Server-Authentifizierung verwendet werden, diese: 1) dasselbe Zertifikat muss konfiguriert werden, als "oauthtokenissuer"-Zertifikat auf allen Ihren Front-End-Servern; und 2) das Zertifikat muss mindestens 2048 Bit.
+Wenn keine Zertifikatinformationen zurückgegeben werden, müssen Sie ein Token-Ausstellerzertifikat zuweisen, bevor Sie die Server-zu-Server-Authentifizierung verwenden können. In der Regel kann jedes Skype for Business Server-Zertifikat als Ihr OAuthTokenIssuer-Zertifikat verwendet werden. So kann beispielsweise das Standardzertifikat von Skype for Business Server auch als OAuthTokenIssuer-Zertifikat verwendet werden. (Das OAUthTokenIssuer-Zertifikat kann auch ein beliebiges Webserverzertifikat sein, das den Namen Ihrer SIP-Domäne im Feld Betreff enthält.) Die primären beiden Anforderungen für das für die Server-zu-Server-Authentifizierung verwendete Zertifikat sind: 1) dasselbe Zertifikat muss auf allen Front-End-Servern als OAuthTokenIssuer-Zertifikat konfiguriert sein. und 2) das Zertifikat muss mindestens 2048 Bits aufweisen.
   
-Wenn Sie über kein Zertifikat verfügen, das für die Server-zu-Server-Authentifizierung verwendet werden kann, können Sie ein neues Zertifikat beziehen, das neue Zertifikat importieren und anschließend für die Server-zu-Server-Authentifizierung verwenden. Nachdem Sie angefordert und das neue Zertifikat abgerufen haben können einen Windows PowerShell-Befehl ähnlich importieren und dieses Zertifikat zuweisen Sie und klicken Sie dann melden Sie sich eine von den Front-End-Servern und verwenden:
+Wenn Sie über kein Zertifikat verfügen, das für die Server-zu-Server-Authentifizierung verwendet werden kann, können Sie ein neues Zertifikat beziehen, das neue Zertifikat importieren und anschließend für die Server-zu-Server-Authentifizierung verwenden. Nachdem Sie das neue Zertifikat angefordert und erhalten haben, können Sie sich bei einem der Front-End-Server anmelden und einen Windows PowerShell-Befehl wie den folgenden verwenden, um das Zertifikat zu importieren und zuzuweisen:
   
 ```
 Import-CsCertificate -Identity global -Type OAuthTokenIssuer -Path C:\Certificates\ServerToServerAuth.pfx  -Password "P@ssw0rd"
 ```
 
-Im vorstehenden Befehl den Pfad stellt Parameter den vollständigen Pfad zu der Zertifikatsdatei an, und der Parameter Password darstellt, das Kennwort, das dem Zertifikat zugewiesen wurde. Dieses Verfahren sollte nur einmal ausgeführt werden: die Skype für Business Server-Replikationsdienst erstellt dann automatisch eine Reihe von geplanten Aufgaben, die zu entschlüsseln und das Zertifikat für die Front-End-Server bereitstellen.
+Im vorangehenden Befehl stellt der path-Parameter den vollständigen Pfad zur Zertifikatsdatei dar, und der Parameter Password steht für das Kennwort, das dem Zertifikat zugewiesen wurde. Diese Vorgehensweisesollte nur einmal ausgeführt werden: der Skype for Business Server-Replikationsdienst erstellt dann automatisch eine Reihe von geplanten Aufgaben, die das Zertifikat für alle Ihre Front-End-Server entschlüsseln und bereitstellen.
   
-Alternativ können Sie ein vorhandenes Zertifikat als das Zertifikat für die Server-zu-Server-Authentifizierung verwenden. (Wie bereits erwähnt, kann das Standardzertifikat als das Zertifikat für die Server-zu-Server-Authentifizierung verwendet werden.) Den folgenden zwei Windows PowerShell-Befehle das Standardzertifikat Thumbprint-Eigenschaft den Wert abzurufen, verwenden Sie diesen Wert zum Zertifikat des Server-zu-Server-Authentifizierungszertifikats machen:
+Alternativ können Sie ein vorhandenes Zertifikat als Server-zu-Server-Authentifizierungszertifikat verwenden. (Wie bereits erwähnt, kann das Standardzertifikat als Server-zu-Server-Authentifizierungszertifikat verwendet werden.) Das folgende Paar von Windows PowerShell-Befehlen Ruft den Wert der Eigenschaft "Fingerabdruck" des Standardzertifikats ab und verwendet diesen Wert, um das Standardzertifikat zum Server-zu-Server-Authentifizierungszertifikat zu machen:
   
 ```
 $x = (Get-CsCertificate -Type Default).Thumbprint
 Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x
 ```
 
-Im vorstehenden Befehl wird das abgerufene Zertifikat so konfiguriert, dass als globale Server-zu-Server-Authentifizierungszertifikat fungieren. Dies bedeutet, dass das Zertifikat auf repliziert, und von den Front-End-Servern verwendet werden. Erneut, sollte dieser Befehl nur einmal und nur in einem von den Front-End-Servern ausgeführt werden. Obwohl alle Front-End-Server das gleiche Zertifikat verwenden müssen, sollten Sie nicht das OAuthTokenIssuer-Zertifikat auf jedem Front-End-Server konfigurieren. Stattdessen einmal konfigurieren Sie des Zertifikats, dann können Sie die Skype für Business Server Replication Server müssen Sie sicherstellen, dass das Zertifikat auf jedem Server kopieren.
+Im vorhergehenden Befehl ist das abgerufene Zertifikat so konfiguriert, dass es als globales Server-zu-Server-Authentifizierungszertifikat dient. Das bedeutet, dass das Zertifikat an alle Ihre Front-End-Server repliziert und von diesen verwendet wird. Dieser Befehl sollte erneut nur einmal und nur auf einem der Front-End-Server ausgeführt werden. Obwohl alle Front-End-Server dasselbe Zertifikat verwenden müssen, sollten Sie das OAuthTokenIssuer-Zertifikat nicht auf jedem Front-End-Server konfigurieren. Konfigurieren Sie stattdessen das Zertifikat einmal, und lassen Sie den Skype for Business Server-Replikationsserver dafür sorgen, dass das Zertifikat auf jeden Server kopiert wird.
   
-Das Cmdlet "Set-CsCertificate" verwendet das Zertifikat fraglichen und sofort konfiguriert das Zertifikat als das aktuelle OAuthTokenIssuer-Zertifikat fungieren. (Skype für Business Server vermeidet eine Verbindung zwischen zwei Kopien eines Zertifikattyps: das aktuelle Zertifikat und die vorherige.) Wenn Sie das neue Zertifikat als "oauthtokenissuer"-Zertifikat fungieren sofort benötigen, sollten Sie das Set-CsCertificate-Cmdlet verwenden.
+Das Cmdlet "festlegen-CsCertificate" übernimmt das fragliche Zertifikat und konfiguriert dieses Zertifikat sofort so, dass es als Aktuelles OAuthTokenIssuer-Zertifikat fungiert. (Skype for Business Server speichert zwei Kopien eines Zertifikatstyps: das aktuelle Zertifikat und das vorherige Zertifikat.) Wenn Sie möchten, dass das neue Zertifikat sofort als OAuthTokenIssuer-Zertifikat fungiert, sollten Sie das Cmdlet "CsCertificate" verwenden.
   
 Mit dem Set-CsCertificate-Cmdlet können Sie auch ein neues Zertifikat „rollen“. Das „Rollen“ eines Zertifikats bedeutet einfach, dass Sie festlegen, dass ein neues Zertifikat ab einem bestimmten Zeitpunkt das aktuelle OAuthTokenIssuer-Zertifikat wird. Beispielsweise wird mit dem folgenden Befehl das Standardzertifikat abgerufen und dann dieses Zertifikat ab dem Mittwoch, 1. Juli 2015 als das aktuelle OAuthTokenIssuer-Zertifikat konfiguriert:
   
@@ -55,20 +55,20 @@ $x = (Get-CsCertificate -Type Default).Thumbprint
 Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x -EffectiveDate "7/1/2015" -Roll
 ```
 
-Am 1. Juli 2015 wird das neue Zertifikat als das aktuelle OAuthTokenIssuer-Zertifikat konfiguriert und das "alte" OAuthTokenIssuer-Zertifikat wird als Vorheriges Zertifikat konfiguriert werden.
+Am 1. Juli 2015 wird das neue Zertifikat als Aktuelles OAuthTokenIssuer-Zertifikat konfiguriert, und das "alte" OAuthTokenIssuer-Zertifikat wird als Vorheriges Zertifikat konfiguriert.
   
-Wenn Sie nicht, verwenden Sie Windows PowerShell möchten können Sie die MMC-Konsole Zertifikate auch zum Exportieren eines Zertifikats aus einem Front-End-Server, und klicken Sie dann auf alle anderen Front-End-Servern importieren dasselbe Zertifikat verwenden. Dabei müssen Sie unbedingt den privaten Schlüssel zusammen mit dem Zertifikat selbst exportieren.
+Wenn Sie Windows PowerShell nicht verwenden möchten, können Sie auch die MMC-Konsole Zertifikate verwenden, um ein Zertifikat von einem Front-End-Server zu exportieren und dieses Zertifikat dann auf allen anderen Front-End-Servern zu importieren. Dabei müssen Sie unbedingt den privaten Schlüssel zusammen mit dem Zertifikat selbst exportieren.
   
 > [!CAUTION]
-> In diesem Fall muss das Verfahren auf jedem Front-End-Server ausgeführt werden. Beim Exportieren und Importieren von Zertifikaten auf diese Weise Skype für Business Server nicht, dass das Zertifikat auf jedem Front-End-Server repliziert werden. 
+> In diesem Fall muss die Prozedur auf jedem Front-End-Server ausgeführt werden. Wenn Sie Zertifikate auf diese Weise exportieren und importieren, wird das Zertifikat von Skype for Business Server nicht auf jeden Front-End-Server repliziert. 
   
-Nach dem Importieren des Zertifikats an den Front-End-Servern kann das Zertifikat dann mithilfe der Skype für Business Server-Bereitstellungsassistenten anstelle von Windows PowerShell zugewiesen werden. Führen Sie zum Zuweisen eines Zertifikats mithilfe des Bereitstellungs-Assistenten die folgenden Schritte auf einem Computer aus, auf dem der Bereitstellungs-Assistent installiert wurde:
+Nachdem das Zertifikat auf alle Ihre Front-End-Server importiert wurde, kann dieses Zertifikat über den Skype for Business Server-Bereitstellungs-Assistenten anstelle von Windows PowerShell zugewiesen werden. Führen Sie zum Zuweisen eines Zertifikats mithilfe des Bereitstellungs-Assistenten die folgenden Schritte auf einem Computer aus, auf dem der Bereitstellungs-Assistent installiert wurde:
   
-1. Klicken Sie auf Start, klicken Sie auf alle Programme, klicken Sie auf **Skype für Business Server**und klicken Sie dann auf **Skype für Business Server-Bereitstellungs-Assistenten**.
+1. Klicken Sie auf Start, klicken Sie auf alle Programme, klicken Sie auf **Skype for Business Server**, und klicken Sie dann auf **Skype for Business Server**-Bereitstellungs-Assistent.
     
-2. Klicken Sie im Bereitstellungs-Assistenten auf **installieren oder aktualisieren Skype für Business Server-System**.
+2. Klicken Sie im Bereitstellungs-Assistenten auf **Skype for Business Server-System installieren oder aktualisieren**.
     
-3. Klicken Sie auf die Skype für Business Server-Seite, auf die Schaltfläche **Ausführen** unter der Überschrift **Schritt 3: Zertifikate anfordern, installieren oder zuweisen**. (Hinweis: Falls Sie auf diesem Computer bereits Zertifikate installiert haben, heißt die Schaltfläche nicht **Ausführen**, sondern **Erneut ausführen**.)
+3. Klicken Sie auf der Seite Skype for Business Server unter der Überschrift **Schritt 3: anfordern, installieren oder Zuweisen von Zertifikaten**auf die Schaltfläche **Ausführen** . (Hinweis: Falls Sie auf diesem Computer bereits Zertifikate installiert haben, heißt die Schaltfläche nicht **Ausführen**, sondern **Erneut ausführen**.)
     
 4. Wählen Sie im Zertifikat-Assistenten das Zertifikat **OAuthTokenIssuer** aus und klicken Sie auf **Zuweisen**.
     

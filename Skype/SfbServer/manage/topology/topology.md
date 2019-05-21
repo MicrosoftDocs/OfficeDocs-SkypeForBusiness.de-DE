@@ -1,31 +1,31 @@
 ---
-title: Verwalten Sie Ihrer Topologie in Skype für Business Server
+title: Verwalten Ihrer Topologie in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
-description: 'Zusammenfassung: Erfahren Sie mehr über die Schritte zur Verwaltung Ihrer Topologie in Skype für Business Server.'
-ms.openlocfilehash: 3d82a60590e7d54d397752567d16c6e6e9ee3cec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über die Schritte zum Verwalten Ihrer Topologie in Skype for Business Server.'
+ms.openlocfilehash: 402e8e725aeb92d7b80f87c9b9d1c6f7d66fc807
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911840"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275115"
 ---
-# <a name="manage-your-topology-in-skype-for-business-server"></a>Verwalten Sie Ihrer Topologie in Skype für Business Server 
+# <a name="manage-your-topology-in-skype-for-business-server"></a>Verwalten Ihrer Topologie in Skype for Business Server 
  
-**Zusammenfassung:** Informationen Sie zu den Schritten zur Verwaltung Ihrer Topologie in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über die Schritte zum Verwalten Ihrer Topologie in Skype for Business Server.
   
-Die folgenden Themen bieten schrittweise Anleitungen für Aufgaben im Zusammenhang mit der Verwaltung Ihrer Skype für Business Server-Topologie und die Front-End-Server.
+In den folgenden Themen finden Sie Schritt-für-Schritt-Anleitungen zu Aufgaben, die mit der Verwaltung Ihrer Skype for Business Server-Topologie und Ihrer Front-End-Server verbunden sind.
   
 - [Verwalten von Front-End-Servern](manage-front-end-servers.md)
     
-- [Verwalten von Datenbanken mit einer AlwaysOn-Verfügbarkeitsgruppe](manage-databases.md)
+- [Verwalten von Datenbanken mit einer AlwaysOn-verfügbarkeitsgruppe](manage-databases.md)
 
 - [Patchen oder Aktualisieren eines Back-End-Servers oder Standard Edition-Servers](patch-or-update-a-back-end-or-standard-edition-server.md)
     

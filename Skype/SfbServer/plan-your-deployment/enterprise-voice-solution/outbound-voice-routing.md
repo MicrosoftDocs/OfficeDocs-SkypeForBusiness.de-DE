@@ -1,10 +1,10 @@
 ---
-title: Planen der ausgehende VoIP-routing in Skype für Business Server
+title: Planen des ausgehenden VoIP-Routings in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
-description: Erfahren Sie mehr über ausgehende VoIP-routing in Skype für Business Server Enterprise-VoIP, einschließlich Aufruf für Routen, Wählpläne, Normalisierungsregeln, VoIP-Richtlinien, PSTN-verwendungsdatensätzen, und VoIP-Routen.
-ms.openlocfilehash: abcf601c40819c336416e8db5701bd7bb37219ce
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Erfahren Sie mehr über ausgehendes VoIP-Routing in Skype for Business Server Enterprise-VoIP, einschließlich Anrufweiterleitungseinstellungen, Wählpläne, Normalisierungsregeln, VoIP-Richtlinien, PSTN-Nutzungsdaten Sätzen und VoIP-Routen.
+ms.openlocfilehash: bb57d824d9d44886973f60b3061b2e86e949f071
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913687"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276582"
 ---
-# <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planen der ausgehende VoIP-routing in Skype für Business Server
+# <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planen des ausgehenden VoIP-Routings in Skype for Business Server
  
-Erfahren Sie mehr über ausgehende VoIP-routing in Skype für Business Server Enterprise-VoIP, einschließlich Aufruf für Routen, Wählpläne, Normalisierungsregeln, VoIP-Richtlinien, PSTN-verwendungsdatensätzen, und VoIP-Routen.
+Erfahren Sie mehr über ausgehendes VoIP-Routing in Skype for Business Server Enterprise-VoIP, einschließlich Anrufweiterleitungseinstellungen, Wählpläne, Normalisierungsregeln, VoIP-Richtlinien, PSTN-Nutzungsdaten Sätzen und VoIP-Routen.
   
-Routing ausgehender Anrufe gilt für Enterprise-VoIP-Anrufe, die für ein Gateway public switched Telephone Network (Telefonfestnetz PSTN), Trunk oder private Branch Exchange, (Nebenstellenanlage PBX) bestimmt sind. Wenn eine Skype für Business Benutzer einen Anruf tätigt, wird der Server normalisiert die Telefonnummer in das e. 164-Format, falls erforderlich und versucht, es zu einem SIP-URI zuzuordnen. Ermittelt der Server keine Übereinstimmung, wird die Routinglogik für ausgehende Anrufe basierend auf der bereitgestellten Wählzeichenfolge angewendet. Sie können diese Logik durch Konfigurieren der Servereinstellungen definieren, die in der folgenden Tabelle beschrieben sind.
+Das Routing für ausgehende Anrufe bezieht sich auf Enterprise-VoIP-Anrufe, die für ein öffentliches Switched Telephone Network (PSTN)-Gateway, trunk oder Private Branch Exchange (PBX) bestimmt sind. Wenn ein Skype for Business-Benutzer einen Anruf ablegt, normalisiert der Server die Telefonnummer bei Bedarf in das E. 164-Format und versucht, Sie mit einem SIP-URI zu vergleichen. Ermittelt der Server keine Übereinstimmung, wird die Routinglogik für ausgehende Anrufe basierend auf der bereitgestellten Wählzeichenfolge angewendet. Sie können diese Logik durch Konfigurieren der Servereinstellungen definieren, die in der folgenden Tabelle beschrieben sind.
   
-**Skype für Business Server ausgehenden Anrufen Routingeinstellungen**
+**Skype for Business Server-Routing Einstellungen für ausgehende Anrufe**
 
 |**Objekt**|**Beschreibung**|
 |:-----|:-----|
@@ -45,9 +45,9 @@ Normalisierungsregeln definieren das Routing von Rufnummern in unterschiedlichen
   
 ### <a name="dial-plan-scope"></a>Wählplanbereich
 
-Ein Wählplan Bereich bestimmt die Hierarchieebene, an der die Wähleinstellungen angewendet werden kann. In Skype für Business Server kann ein Benutzer einen bestimmten benutzerspezifischen Wählplan zugewiesen werden. Wenn ein benutzerwählplan nicht zugewiesen ist, wird der Front-End-Pool-Wählplan angewendet. Wenn kein Wählplan der Front-End-Pool vorhanden ist, wird die Wähleinstellungen Website angewendet. Wenn für den Benutzer keine bestimmten Wählpläne gelten, wird der globale Wählplan angewendet.
+Der Bereich eines Wählplans bestimmt die hierarchische Ebene, auf der die Wähleinstellungen angewendet werden können. In Skype for Business Server kann einem Benutzer ein bestimmter benutzerspezifischer Wählplan zugewiesen werden. Wenn kein Benutzer Wählplan zugewiesen ist, wird der Wählplan des Front-End-Pools angewendet. Wenn es keinen Wählplan für den Front-End-Pool gibt, wird der Standort Wähl Plan angewendet. Wenn für den Benutzer keine bestimmten Wählpläne gelten, wird der globale Wählplan angewendet.
   
-Clients erhalten Bereichsebenen über in-Band-bereitstellungseinstellungen, die bereitgestellt werden, wenn Benutzer Skype für Unternehmen anmelden. Als Administrator können Sie verwalten und Zuweisen von Bereichsebenen mithilfe von Skype Business Server-Systemsteuerung.
+Clients erhalten Wähl Plan-Bereichsebenen über in-Band-Bereitstellungseinstellungen, die bereitgestellt werden, wenn sich Benutzer bei Skype for Business anmelden. Als Administrator können Sie die Bereichsebenen für Wähleinstellungen mithilfe der Skype for Business Server-Systemsteuerung verwalten und zuweisen.
   
 > [!NOTE]
 > Der PSTN-Gateway-Wählplan auf Dienstebene wird auf eingehende Anrufe von einem bestimmten Gateway angewendet. 
@@ -60,7 +60,7 @@ Bereichsebenen für Wählpläne werden wie folgt definiert:
     
 - **Standortwählplan**: Dieser Wählplan kann für einen gesamten Standort erstellt werden – mit Ausnahme aller Benutzer, Gruppe oder Kontaktobjekte, denen ein Pool- oder Benutzerwählplan zugewiesen wurde. Zum Definieren eines Standortwählplans müssen Sie den Standort angeben, auf den der Wählplan angewendet werden soll.
     
-- **Globaler Wählplan**: Dies ist der mit dem Produkt installierte Standardwählplan. Sie können den globalen Wählplan bearbeiten, aber nicht löschen. Dieser Wählplan gilt für alle Enterprise-VoIP-Benutzer, Gruppen und Contact-Objekte in Ihrer Bereitstellung, es sei denn, Sie konfigurieren und ein Wählplans mit einem spezifischen Bereich zuweisen.
+- **Globaler Wählplan**: Dies ist der mit dem Produkt installierte Standardwählplan. Sie können den globalen Wählplan bearbeiten, aber nicht löschen. Diese Wähleinstellungen gelten für alle Enterprise-VoIP-Benutzer,-Gruppen und-Kontaktobjekte in Ihrer Bereitstellung, es sei denn, Sie konfigurieren und weisen einen Wählplan mit einem spezifischeren Bereich zu.
     
 ### <a name="planning-for-dial-plans"></a>Planen eines Wählplans
 
@@ -80,19 +80,19 @@ Führen Sie folgende Schritte aus, um einen Wählplan zu planen:
     
 - Entscheiden Sie, ob für einen einzelnen Standort mehrere Wählpläne erforderlich sind. 
     
-    Wenn Ihre Organisation einen einzigen Wählplan für mehrere Standorte verwaltet werden, müssen Sie zum Erstellen von separaten Wähleinstellungen für Enterprise-VoIP-Benutzer migrieren, die aus einer private Branch Exchange, (Nebenstellenanlage PBX) und ihren vorhandenen Erweiterungen beibehalten vorhanden sein muss.
+    Wenn in Ihrer Organisation ein einzelner Wählplan an mehreren Standorten verwaltet wird, müssen Sie möglicherweise dennoch einen separaten Wählplan für Enterprise-VoIP-Benutzer erstellen, die von einer PBX-Anlage (Private Branch Exchange) migrieren und deren vorhandene Erweiterungen beibehalten werden müssen.
     
-- Entscheiden Sie, ob Wählpläne auf Benutzerebene erforderlich sind. Beispielsweise gewählt, wenn Sie Benutzer an einem Zweigstellenstandort, die mit einem zentralen Standort registriert sind oder wenn Sie Benutzer, die auf einer Survivable Branch Appliance registriert sind, können Sie spezielle berücksichtigen Wählvorgang Szenarien für solche Benutzer pro Benutzer mit Pläne und Normalisierungsregeln . Ausführliche Informationen finden Sie unter [Plan for Enterprise Voice resiliency in Skype for Business Server](enterprise-voice-resiliency.md).
+- Entscheiden Sie, ob Wählpläne auf Benutzerebene erforderlich sind. Wenn Sie beispielsweise über Benutzer an einer Zweigstelle verfügen, die bei der zentralen Website registriert sind, oder wenn Sie über Benutzer verfügen, die auf einer überlebensfähigen Branch-Appliance registriert sind, können Sie spezielle Wähl Szenarien für diese Benutzer unter Verwendung von Wählplänen und Normalisierungsregeln für einzelne Benutzer in Frage stellen. . Ausführliche Informationen finden Sie unter [Plan for Enterprise Voice resiliency in Skype for Business Server](enterprise-voice-resiliency.md).
     
 - Ermitteln Sie den Bereich für den Wählplan (wie weiter oben in diesem Thema beschrieben).
     
-Um einen Wählplan zu erstellen, geben Sie Werte in den folgenden Feldern, je nach Bedarf mithilfe von Skype für Business Server-Systemsteuerung oder Skype für Business Server-Verwaltungsshell.
+Zum Erstellen eines Wählplans geben Sie bei Bedarf in den folgenden Feldern Werte an, indem Sie die Skype for Business Server-Systemsteuerung oder die Skype for Business Server-Verwaltungsshell verwenden.
   
 #### <a name="name-and-simple-name"></a>Name und einfacher Name
 
-Bei Benutzerwählplänen sollten Sie einen beschreibenden Namen für die Benutzer, Gruppen oder Kontaktobjekte angeben, denen der Wählplan zugewiesen wird. Für Standortwählpläne ist das Feld „Name“ bereits mit dem Namen des Standorts ausgefüllt und kann nicht geändert werden. Pool-Wählpläne, im Feld Name wird automatisch gefüllt, mit dem PSTN-Gateway oder Front-End-Pool vollständig qualifizierten Domänennamen (FQDN) und kann nicht geändert werden.
+Bei Benutzerwählplänen sollten Sie einen beschreibenden Namen für die Benutzer, Gruppen oder Kontaktobjekte angeben, denen der Wählplan zugewiesen wird. Für Standortwählpläne ist das Feld „Name“ bereits mit dem Namen des Standorts ausgefüllt und kann nicht geändert werden. Für Pool-Wählpläne ist das Feld "Name" bereits mit dem PSTN-Gateway oder dem Front-End-Pool (Fully Qualified Domain Name, FQDN) gefüllt und kann nicht geändert werden.
   
-Der Wählplan Einfacher Name ist bereits mit einer vom Namen des Wählplans abgeleiteten Zeichenfolge aufgefüllt. Das Feld „Einfacher Name“ kann bearbeitet werden, sodass Sie eine aussagekräftigere Benennungskonvention für Ihre Wählpläne festlegen können. TheSimple Name-Wert darf nicht leer und muss eindeutig sein. Es empfiehlt sich, ein Benennungsschema für Ihre gesamte Organisation zu entwickeln und dieses Schema konsequent für alle Standorte und Benutzer zu verwenden.
+Der Wählplan Einfacher Name ist bereits mit einer vom Namen des Wählplans abgeleiteten Zeichenfolge aufgefüllt. Das Feld „Einfacher Name“ kann bearbeitet werden, sodass Sie eine aussagekräftigere Benennungskonvention für Ihre Wählpläne festlegen können. Der TheSimple-Name-Wert darf nicht leer sein und muss eindeutig sein. Es empfiehlt sich, ein Benennungsschema für Ihre gesamte Organisation zu entwickeln und dieses Schema konsequent für alle Standorte und Benutzer zu verwenden.
   
 #### <a name="description"></a>Beschreibung
 
@@ -104,7 +104,7 @@ Wenn Sie Einwahlkonferenzen bereitstellen, müssen Sie eine Region angeben, um d
   
 #### <a name="external-access-prefix"></a>Vorwahl für externen Zugriff
 
-Sie können angeben, dass eine externe zugriffsvorwahl von bis zu vier Zeichen (#, \*, und 0-9) Wenn Benutzer auf einen oder mehrere zusätzliche führende Ziffern (z. B. 9), um eine externe Zeile können einwählen müssen.
+Sie können ein externes Zugriffs Präfix mit bis zu vier Zeichen (#, \*und 0-9) angeben, wenn Benutzer eine oder mehrere zusätzliche führende Ziffern (beispielsweise 9) wählen müssen, um eine externe Leitung zu erhalten.
   
 > [!NOTE]
 > Wenn Sie eine Vorwahl für den externen Zugriff eingeben, müssen Sie keine zusätzliche Normalisierungsregeln zur Unterstützung der Vorwahl erstellen. 
@@ -115,7 +115,7 @@ Normalisierungsregeln definieren das Routing von Rufnummern in unterschiedlichen
   
 Die Normalisierung der von Benutzern eingegebenen Rufnummern stellt ein konsistentes Format bereit, das folgende Aufgaben vereinfacht:
   
-- Zuordnen einer gewählten Rufnummer zum SIP-URI des gewünschten Empfängers an.
+- Eine gewählte Nummer an den SIP-URI des beabsichtigten Empfängers anpassen.
     
 - Anwenden von Wählautorisierungsregeln auf den Anrufer
     
@@ -133,9 +133,9 @@ In Normalisierungsregeln müssen möglicherweise die folgenden numerischen Felde
     
 #### <a name="creating-normalization-rules"></a>Erstellen von Normalisierungsregeln
 
-Normalisierungsregeln verwenden reguläre .NET Framework-Ausdrücke, um numerische Vergleichsmuster anzugeben, mit denen der Server zum Zweck der umgekehrten Nummernsuche Wählzeichenfolgen in das E.164-Format übersetzen kann. Sie erstellen Normalisierungsregeln im der Skype Business Server-Systemsteuerung, indem Sie die Ausdrücke manuell eingeben oder durch Eingabe von Ziffern und der Eingabelänge Wählzeichenfolgen zu vergleichende starten und Navigate die Skype Business Server-Systemsteuerung den entsprechenden regulären Ausdruck für Sie zu generieren. Unabhängig davon, welche Methode Sie anwenden, können Sie anschließend eine Testnummer eingeben, um zu überprüfen, ob die Normalisierungsregel wie erwartet funktioniert.
+Normalisierungsregeln verwenden reguläre .NET Framework-Ausdrücke, um numerische Vergleichsmuster anzugeben, mit denen der Server zum Zweck der umgekehrten Nummernsuche Wählzeichenfolgen in das E.164-Format übersetzen kann. Sie können Normalisierungsregeln im Skype for Business Server Control Panel erstellen, indem Sie entweder die Ausdrücke manuell eingeben, oder indem Sie die Anfangsziffern und die Länge der zu enthaltenden Wählzeichenfolgen eingeben und die Skype for Business Server-Systemsteuerung Generieren Sie den entsprechenden regulären Ausdruck für Sie. Unabhängig davon, welche Methode Sie anwenden, können Sie anschließend eine Testnummer eingeben, um zu überprüfen, ob die Normalisierungsregel wie erwartet funktioniert.
   
-Weitere Informationen zur Verwendung von regulärer .NET Framework-Ausdrücken finden Sie unter ["reguläre Ausdrücke von .NET Framework"](https://go.microsoft.com/fwlink/p/?linkId=140927).
+Ausführliche Informationen zur Verwendung von .NET Framework-regulären Ausdrücken finden Sie unter ["reguläre .NET Framework-Ausdrücke"](https://go.microsoft.com/fwlink/p/?linkId=140927).
   
 #### <a name="sample-normalization-rules"></a>Beispiele für Normalisierungsregeln
 <a name="BKMK_SampleNormalizationRules"> </a>
@@ -146,17 +146,17 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als regu
 
 |**Regelname**|**Beschreibung**|**Nummernmuster**|**Übersetzung**|**Beispiel**|
 |:-----|:-----|:-----|:-----|:-----|
-|4digitExtension  <br/> |Übersetzt vierstellige Durchwahlnummern  <br/> |^(\d{4})$  <br/> |+1425555$1  <br/> |0100 wird in +14255550100 übersetzt.  <br/> |
-|5digitExtension  <br/> |Übersetzt fünfstellige Durchwahlnummern  <br/> |^ 5(\d{4})$  <br/> |+1425555$1  <br/> |50100 wird in +14255550100 übersetzt.  <br/> |
-|7digitcallingRedmond  <br/> |Übersetzt siebenstellige Rufnummern in Rufnummern des Ortsnetzes von Redmond  <br/> |^(\d{7})$  <br/> |+1425$1  <br/> |5550100 wird in +14255550100 übersetzt  <br/> |
-|7digitcallingDallas  <br/> |Übersetzt siebenstellige Rufnummern in Rufnummern des Ortsnetzes von Dallas  <br/> |^(\d{7})$  <br/> |+1972$1  <br/> |5550100 wird in +19725550100 übersetzt  <br/> |
-|10digitcallingUS  <br/> |Übersetzt zehnstellige Rufnummern in US-Rufnummern  <br/> |^(\d{10})$  <br/> |+1$1  <br/> |2065550100 wird in +12065550100 übersetzt  <br/> |
-|LDCallingUS  <br/> |Übersetzt Rufnummern mit Vorwahlen für Ferngespräche in US-Rufnummern  <br/> |^ 1(\d{10})$  <br/> |+$1  <br/> |12145550100 wird in +2145550100 übersetzt  <br/> |
-|IntlCallingUS  <br/> |Übersetzt Rufnummern mit internationalen Vorwahlen in US-Rufnummern  <br/> |^ 011(\d\*)$  <br/> |+$1  <br/> |01191445550100 wird in +91445550100 übersetzt  <br/> |
+|4digitExtension  <br/> |Übersetzt vierstellige Durchwahlnummern  <br/> |^ (\d{4}) $  <br/> |+1425555$1  <br/> |0100 wird in +14255550100 übersetzt.  <br/> |
+|5digitExtension  <br/> |Übersetzt fünfstellige Durchwahlnummern  <br/> |^ 5 (\d{4}) $  <br/> |+1425555$1  <br/> |50100 wird in +14255550100 übersetzt.  <br/> |
+|7digitcallingRedmond  <br/> |Übersetzt siebenstellige Rufnummern in Rufnummern des Ortsnetzes von Redmond  <br/> |^ (\d{7}) $  <br/> |+1425$1  <br/> |5550100 wird in +14255550100 übersetzt  <br/> |
+|7digitcallingDallas  <br/> |Übersetzt siebenstellige Rufnummern in Rufnummern des Ortsnetzes von Dallas  <br/> |^ (\d{7}) $  <br/> |+1972$1  <br/> |5550100 wird in +19725550100 übersetzt  <br/> |
+|10digitcallingUS  <br/> |Übersetzt zehnstellige Rufnummern in US-Rufnummern  <br/> |^ (\d{10}) $  <br/> |+1$1  <br/> |2065550100 wird in +12065550100 übersetzt  <br/> |
+|LDCallingUS  <br/> |Übersetzt Rufnummern mit Vorwahlen für Ferngespräche in US-Rufnummern  <br/> |^ 1 (\d{10}) $  <br/> |+$1  <br/> |12145550100 wird in +2145550100 übersetzt  <br/> |
+|IntlCallingUS  <br/> |Übersetzt Rufnummern mit internationalen Vorwahlen in US-Rufnummern  <br/> |^ 011 (\d\*) $  <br/> |+$1  <br/> |01191445550100 wird in +91445550100 übersetzt  <br/> |
 |RedmondOperator  <br/> |Übersetzt 0 in die Vorwahl des Netzbetreibers von Redmond  <br/> |^0$  <br/> |+14255550100  <br/> |0 wird in +14255550100 übersetzt.  <br/> |
-|RedmondSitePrefix  <br/> |Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Vorwahl von Redmond (222)  <br/> |^ 6222(\d{4})$  <br/> |+1425555$1  <br/> |62220100 wird in +14255550100 übersetzt  <br/> |
-|NYSitePrefix  <br/> |Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Vorwahl von New York (333)  <br/> |^ 6333(\d{4})$  <br/> |+1202555$1  <br/> |63330100 wird in +12025550100 übersetzt  <br/> |
-|DallasSitePrefix  <br/> |Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Dallas-Vorwahl (444)  <br/> |^ 6444(\d{4})$  <br/> |+1972555$1  <br/> |64440100 wird in +19725550100 übersetzt  <br/> |
+|RedmondSitePrefix  <br/> |Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Vorwahl von Redmond (222)  <br/> |^ 6222 (\d{4}) $  <br/> |+1425555$1  <br/> |62220100 wird in +14255550100 übersetzt  <br/> |
+|NYSitePrefix  <br/> |Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Vorwahl von New York (333)  <br/> |^ 6333 (\d{4}) $  <br/> |+1202555$1  <br/> |63330100 wird in +12025550100 übersetzt  <br/> |
+|DallasSitePrefix  <br/> |Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Dallas-Vorwahl (444)  <br/> |^ 6444 (\d{4}) $  <br/> |+1972555$1  <br/> |64440100 wird in +19725550100 übersetzt  <br/> |
    
 Die folgende Tabelle veranschaulicht einen beispielhaften Wählplan für Redmond, Washington (USA), der auf den in der vorherigen Tabelle gezeigten Normalisierungsregeln basiert.
   
@@ -178,15 +178,15 @@ Die folgende Tabelle veranschaulicht einen beispielhaften Wählplan für Redmond
   
 ## <a name="voice-policies"></a>VoIP-Richtlinien
 
-Skype für Business Server VoIP-Richtlinien definieren die folgenden für jeden Benutzer, eine Website oder eine Organisation, die die Richtlinie zugewiesen wird:
+Skype for Business Server-VoIP-Richtlinien definieren für jeden Benutzer, jede Website oder jede Organisation, der die Richtlinie zugewiesen ist, die folgenden Punkte:
   
-- Eine Gruppe von Anruffunktionen, die aktiviert oder deaktiviert, um die Enterprise-VoIP-Funktionen für Benutzer verfügbar bestimmen werden können.
+- Eine Reihe von Anruffeatures, die aktiviert oder deaktiviert werden können, um die für Benutzer verfügbare Enterprise-VoIP-Funktionalität zu ermitteln.
     
 - Einer Gruppe von Telefonfestnetz-Verwendungseinträgen, die festlegen, welche Arten von Anrufen erlaubt sind. 
     
-Die folgenden Schritte helfen Ihnen beim Planen der VoIP-Richtlinien, die Sie für Ihre Bereitstellung von Enterprise-VoIP müssen:
+Mit den folgenden Schritten können Sie die VoIP-Richtlinien planen, die Sie für Ihre Enterprise-VoIP-Bereitstellung benötigen:
   
-- Legen Sie fest, wie die globale VoIP-Richtlinie (die Standard-VoIP-Richtlinie, die mit dem Produkt installiert wird) konfiguriert werden soll. Diese Richtlinie gilt für alle Enterprise-VoIP-Benutzer, die nicht explizit eine Richtlinie auf Standort- oder Benutzerebene zugewiesen sind.
+- Legen Sie fest, wie die globale VoIP-Richtlinie (die Standard-VoIP-Richtlinie, die mit dem Produkt installiert wird) konfiguriert werden soll. Diese Richtlinie gilt für alle Enterprise-VoIP-Benutzer, denen nicht explizit eine Richtlinie auf Website-oder Benutzerebene zugewiesen ist.
     
 - Bestimmen der ggf. erforderlichen VoIP-Richtlinien auf Standortebene.
     
@@ -198,16 +198,16 @@ Die folgenden Schritte helfen Ihnen beim Planen der VoIP-Richtlinien, die Sie f�
     
 ### <a name="voice-policy-scope"></a>Gültigkeitsbereich von VoIP-Richtlinien
 
-Der Gültigkeitsbereich von VoIP-Richtlinien bestimmt die Hierarchieebene, auf der die Richtlinie gelten soll. In Skype für Business Server, konfigurieren Sie VoIP-Richtlinien mit den folgenden Ebenen für den Bereich (aufgeführt, die von der genauesten bis hin zu den allgemeinen).
+Der Gültigkeitsbereich von VoIP-Richtlinien bestimmt die Hierarchieebene, auf der die Richtlinie gelten soll. In Skype for Business Server können Sie VoIP-Richtlinien mit den folgenden Bereichsebenen konfigurieren (von den spezifischsten zu den allgemeinsten aufgeführt).
   
 - Die **VoIP-Benutzerrichtlinie** kann einzelnen Benutzern, Gruppen oder Kontaktobjekten zugewiesen werden. Dies ist die niedrigste Richtlinienebene. VoIP-Benutzerrichtlinien können bereitgestellt werden, um Funktionen nur für bestimmte Benutzer oder Gruppen an einem Standort zu aktivieren. Sie können damit z. B. bei bestimmten Mitarbeitern Ferngespräche deaktivieren. Damit eine VoIP-Richtlinie zugewiesen werden kann, wird ein Kontaktobjekt wie ein Einzelbenutzer behandelt.
     
     > [!NOTE]
-    > Es wird empfohlen, dass Sie bereitstellen eine VoIP-Benutzerrichtlinie für Enterprise-VoIP Zweigstellenbenutzer, die mit der Bereitstellung der zentralen Standort registriert sind, oder Benutzer, die auf einer Survivable Branch Appliance registriert sind. 
+    > Wir empfehlen, dass Sie eine Benutzer VoIP-Richtlinie für Branch Site Enterprise-VoIP-Benutzer bereitstellen, die bei der zentralen Website Bereitstellung registriert sind, oder für Benutzer, die auf einer Survivable Branch-Appliance registriert sind. 
   
 - Eine **VoIP-Standortrichtlinie** gilt für einen gesamten Standort. Ausgenommen sind Benutzer, Gruppen oder Kontaktobjekte, denen eine Benutzerrichtlinie zugeordnet wurde. Zum Definieren einer VoIP-Standortrichtlinie müssen Sie den Standort angeben, für den die Richtlinie gelten soll. Wenn keine VoIP-Benutzerrichtlinie zugewiesen ist, wird die VoIP-Standortrichtlinie verwendet.
     
-- **Global VoIP-Richtlinie** ist der Standard-VoIP-Richtlinie, die mit dem Produkt installiert wird. Sie können die globale VoIP-Richtlinie, um den spezifischen Bedürfnissen des Unternehmens gerecht bearbeiten, aber Sie können nicht umbenennen oder löschen Sie ihn. Diese VoIP-Richtlinie gilt für alle Enterprise-VoIP-Benutzer, Gruppen und Kontaktobjekte in Ihrer Bereitstellung, es sei denn, Sie konfigurieren und eine VoIP-Richtlinie mit spezifischeren Bereich zuweisen. Wenn Sie diese Richtlinie vollständig deaktivieren möchten, müssen Sie unbedingt, dass alle Standorte und Benutzer benutzerdefinierte Richtlinien zugewiesen haben.
+- Bei der **globalen VoIP-Richtlinie** handelt es sich um die Standard VoIP-Richtlinie, die mit dem Produkt installiert wird. Sie können die globale VoIP-Richtlinie bearbeiten, um die spezifischen Anforderungen Ihrer Organisation zu erfüllen, Sie können Sie jedoch nicht umbenennen oder löschen. Diese VoIP-Richtlinie gilt für alle Enterprise-VoIP-Benutzer, Gruppen und Kontaktobjekte in Ihrer Bereitstellung, es sei denn, Sie konfigurieren und weisen eine VoIP-Richtlinie mit einem spezifischeren Bereich zu. Wenn Sie diese Richtlinie vollständig deaktivieren möchten, stellen Sie sicher, dass allen Websites und Benutzern benutzerdefinierte Richtlinien zugewiesen sind.
     
 ### <a name="call-features"></a>Anruffunktionen
 
@@ -229,11 +229,11 @@ Für jede Richtlinie können Sie die folgenden Anruffunktionen aktivieren oder d
     
 - **Außerkraftsetzung der Bandbreitenrichtlinie** ermöglicht Administratoren, Richtlinienentscheidungen im Rahmen der Anrufsteuerung für einen bestimmten Benutzer außer Kraft zu setzen. Diese Option ist standardmäßig deaktiviert.
     
-- **Böswilligen aufrufen Tracing** ermöglicht es Benutzern, Melden von missbräuchlichen anrufen mithilfe der Skype für Business-Client, und klicken Sie dann Kennzeichen solcher Anrufe in die kommunikationsdatensätze. Diese ist standardmäßig deaktiviert.
+- Durch eine **böswillige Anrufprotokollierung** können Benutzer böswillige Anrufe über den Skype for Business-Client melden und diese dann in den Anruf Detaildatensätzen kennzeichnen. Diese ist standardmäßig deaktiviert.
     
-- **Voicemail Escape** verhindert, dass Anrufe von wird unmittelbar auf dem System des Benutzers Mobiltelefon Voicemail weitergeleitet, wenn Gleichzeitiges Klingeln konfiguriert ist und das Telefon ist deaktiviert, nicht genügend Batterie oder außerhalb des gültigen Bereichs aktiviert, und basiert auf einen Wert Timer. Mit dieser Einstellung wird der Timer aktiviert und deaktiviert sowie der Wert des Timers eingestellt. Es kann nur mithilfe der Skype für Business Server-Verwaltungsshell konfiguriert werden. Diese ist standardmäßig deaktiviert.
+- Mit der **Voicemail-Escape** -Funktion wird verhindert, dass Anrufe sofort an das Voicemailsystem des Benutzers weitergeleitet werden, wenn gleichzeitiges Klingeln konfiguriert ist und das Telefon ausgeschaltet, außerhalb der Batterie oder außerhalb des gültigen Bereichs liegt und auf einem Timer-Wert basiert. Mit dieser Einstellung wird der Timer aktiviert und deaktiviert sowie der Wert des Timers eingestellt. Die Konfiguration kann nur über die Skype for Business Server-Verwaltungsshell erfolgen. Diese ist standardmäßig deaktiviert.
     
-- **Rufen Sie die anrufweiterleitung und gleichzeitige Klingeln PSTN-Verwendungen** können Administratoren die gleiche PSTN-Verwendung angeben, wie die VoIP-Richtlinie für die anrufweiterleitung und Gleichzeitiges Klingeln zu beschränken, die anrufweiterleitung und Gleichzeitiges Klingeln zu internen Skype für Geschäftsbenutzer nur, oder geben Sie eine benutzerdefinierte PSTN-Verwendung, die vom PSTN-Verwendung für die VoIP-Richtlinie unterscheidet. Standardmäßig wird für Anrufweiterleitung und gleichzeitiges Klingeln die gleiche PSTN-Verwendung verwendet wie bei der VoIP-Richtlinie.
+- **Anrufweiterleitung und gleichzeitiges anrufen PSTN** -Nutzungen ermöglicht es Administratoren, dieselbe PSTN-Nutzung wie die VoIP-Richtlinie für die Anrufweiterleitung und gleichzeitiges Klingeln festzulegen, die Anrufweiterleitung und gleichzeitiges Klingeln auf internes Skype zu beschränken. Nur Geschäftsbenutzer, oder geben Sie eine benutzerdefinierte PSTN-Verwendung an, die von der PSTN-Nutzung der VoIP-Richtlinie abweicht. Standardmäßig wird für Anrufweiterleitung und gleichzeitiges Klingeln die gleiche PSTN-Verwendung verwendet wie bei der VoIP-Richtlinie.
     
 ### <a name="pstn-usage-records"></a>PSTN-Verwendungseinträge
 
@@ -244,7 +244,7 @@ Jeder VoIP-Richtlinie muss mindestens ein PSTN-Verwendungseintrag zugeordnet sei
   
 ## <a name="pstn-usage-records"></a>PSTN-Verwendungseinträge
 
-Planen der PSTN-verwendungsdatensätzen besteht aus hauptsächlich die Anrufberechtigungen, die derzeit in Ihrer Organisation, die CEO temporäre Mitarbeiter, Berater und Zeitarbeiter geltenden sind aufgelistet. Dieses Verfahren bietet außerdem die Gelegenheit, vorhandene Anrufberechtigungen Gelegenheit und überarbeiten. Sie können PSTN-Verwendungseinträge für die Anrufberechtigungen, die für die erwarteten Enterprise-VoIP-Benutzer gelten nur erstellen, aber möglicherweise eine bessere langfristige Lösung zum Erstellen von PSTN-Verwendungseinträge für alle Anrufberechtigungen, unabhängig davon, ob einige derzeit nicht kann gelten Sie für die Gruppe von Benutzern für Enterprise Voice aktiviert werden soll. Wenn der Aufruf die Berechtigungen ändern oder neue Benutzer mit unterschiedlichen Anrufberechtigungen werden hinzugefügt, Sie haben bereits erstellt die erforderlichen PSTN-verwendungsdatensätzen.
+Die Planung von PSTN-Nutzungsdaten Sätzen besteht hauptsächlich darin, alle Anrufberechtigungen aufzulisten, die derzeit in Ihrer Organisation gelten, vom CEO bis hin zu Leiharbeitern, Beratern und Kontingenten Mitarbeitern. Dieser Prozess bietet auch die Möglichkeit, vorhandene Anrufberechtigungen erneut zu überprüfen und zu überarbeiten. Sie können PSTN-Verwendungsdaten Sätze nur für diese Anrufberechtigungen erstellen, die für Ihre erwarteten Enterprise-VoIP-Benutzer gelten, doch eine bessere Lösung für den langfristigen Bereich kann darin liegen, PSTN-Verwendungsdaten Sätze für alle Anrufberechtigungen zu erstellen, und zwar unabhängig davon, ob einige möglicherweise derzeit nicht wenden Sie sich an die Gruppe von Benutzern, die für Enterprise-VoIP aktiviert werden soll. Wenn sich die Anrufberechtigungen ändern oder neue Benutzer mit unterschiedlichen Anrufberechtigungen hinzugefügt werden, haben Sie bereits die erforderlichen PSTN-Nutzungsdatensätze erstellt.
   
 Im Folgenden sehen Sie eine typische PSTN-Verwendungstabelle.
   
@@ -268,7 +268,7 @@ PSTN-Verwendungseinträge alleine führen keine Aktionen aus. Um sie verwenden z
     
 ## <a name="voice-routes"></a>VoIP-Routen
 
-Anrufrouten wird angegeben, wie von Enterprise-VoIP-Benutzern getätigte ausgehende Anrufe von Skype für Business Server behandelt. Wenn ein Benutzer eine Rufnummer wählt, der Front-End-Server normalisiert die DFÜ-Zeichenfolge in das e. 164-Format bei Bedarf und versucht, einen SIP-URI zugeordnet. Wenn keine Zuordnung möglich ist, wendet der Server eine auf der Nummer basierende Routinglogik für ausgehende Anrufe an. Der letzte Schritt zum Definieren der Logik besteht darin, eine separate benannte Anrufroute für jeden Satz von Zielrufnummern zu erstellen, die in den einzelnen Wählplänen aufgeführt sind.
+Anrufrouten geben an, wie Skype for Business Server ausgehende Anrufe von Enterprise-VoIP-Benutzern abwickelt. Wenn ein Benutzer eine Nummer wählt, normalisiert der Front-End-Server die Wählzeichenfolge bei Bedarf in das E. 164-Format und versucht, Sie mit einem SIP-URI zu vergleichen. Wenn keine Zuordnung möglich ist, wendet der Server eine auf der Nummer basierende Routinglogik für ausgehende Anrufe an. Der letzte Schritt zum Definieren der Logik besteht darin, eine separate benannte Anrufroute für jeden Satz von Zielrufnummern zu erstellen, die in den einzelnen Wählplänen aufgeführt sind.
   
 Vor dem Definieren von Routen für ausgehende Anrufe sollten Sie die folgenden Schritte abschließen:
   
@@ -292,29 +292,29 @@ Für jede Route müssen Sie Folgendes angeben:
     
 - Die PSTN-Verwendungseinträge, über die Benutzer verfügen müssen, um Rufnummern anzurufen, die dem regulären Ausdruck für die Zielrufnummer entsprechen
     
-Sie können anrufrouten in die Skype Business Server-Systemsteuerung angeben. Diese Anruf Routen aufgefüllt, die Server Routingtabelle Skype für Business Server für das Anrufrouting verwendet, die für das PSTN gerichtet sind.
+In der Skype for Business Server-Systemsteuerung können Sie Anrufrouten angeben. Diese Anrufrouten füllen die Server Routingtabelle aus, die von Skype for Business Server für die Weiterleitung von Anrufen verwendet wird, die für das PSTN bestimmt sind.
   
 ### <a name="mn-trunk-support"></a>M:N-Trunkunterstützung
 
-Skype für Business Server bietet Flexibilität in wie Anrufe an das Telefonfestnetz weitergeleitet werden. Eine VoIP-Route gibt eine Reihe von Trunks an das Telefonfestnetz, die für einen bestimmten Anruf verwendet werden kann. Ein Trunk ordnet einen Vermittlungsserver und eine Portnummer ein PSTN-Gateway und listening Portnummer ein. Diese logische Zuordnung ermöglicht einen Vermittlungsserver haben mehrere Verbindungen mit dem gleichen Gateway und mehrere Gateways zugeordnet werden. Beim Definieren einer Route für Anrufe, geben Sie den Trunks dieser Route zugeordnet, aber keine angeben die Vermittlungsserver der Route zugeordnet sind. Verwenden Sie den Topologie-Generator, um Trunks definieren die Beziehungen zwischen Vermittlungsserver und PSTN-Gateways, IP-PBXs und Session Border Controller (SBCs) erstellen.
+Skype for Business Server bietet Flexibilität bei der Weiterleitung von Anrufen an das PSTN. Eine VoIP-Route gibt eine Reihe von Trunks für das PSTN an, die für einen bestimmten Sprachanruf verwendet werden können. Ein trunk ordnet einen Vermittlungs Server und eine Portnummer einem PSTN-Gateway und einer Abhör Portnummer zu. Diese logische Zuordnung ermöglicht es einem Vermittlungs Server, mehreren Gateways zugeordnet zu werden und über mehrere Verbindungen mit dem gleichen Gateway zu verfügen. Wenn Sie eine Anrufroute definieren, geben Sie die Trunks an, die dieser Route zugeordnet sind, aber Sie geben nicht an, welche Vermittlungsserver der Route zugeordnet sind. Wenn Sie Trunks erstellen möchten, indem Sie die Beziehungen zwischen Vermittlungsservern und PSTN-Gateways, IP-PBX-Anlagen und Session Border Controllers (SBCS) definieren, verwenden Sie den Topologie-Generator.
   
 ### <a name="least-cost-routing"></a>Kostenoptimierter Verbindungsaufbau
 
 Durch das Festlegen von Trunks, an die verschiedene Rufnummern weitergeleitet werden, können Sie die Routen bestimmen, die die geringsten Kosten verursachen, und sie entsprechend implementieren. Normalerweise wählen Sie Trunks aus, indem Sie den Trunk mit dem nächstgelegenen Gateway zum Standort der Zielrufnummer auswählen, um die Gebühren für Ferngespräche möglichst gering zu halten. Wenn Sie sich z. B. in New York befinden und eine Rufnummer in Rom wählen, leiten Sie den Anruf über das IP-Netzwerk an den Trunk mit dem Gateway in Ihrer Niederlassung in Rom weiter, sodass nur Gebühren für ein Ortsgespräch anfallen.
   
-Das folgende Beispiel zeigt eine Verwendungsmöglichkeit des kostenoptimierten Verbindungsaufbaus: Fabrikam beschließt, dass deutsche Benutzer Rufnummern in den USA über den US-Trunk wählen sollen. Fabrikam möchte auch das System so konfigurieren, dass alle Anrufe von US Skype für Business Server-Benutzer an Deutschland und angrenzenden Ländern/Regionen auf den Trunk mit dem Gateway in Deutschland beenden. Durch dieses Routing wird Geld gespart, da ein Anruf von Deutschland nach Österreich beispielsweise weniger kostspielig ist als ein Anruf aus den USA nach Österreich.
+Das folgende Beispiel zeigt eine Verwendungsmöglichkeit des kostenoptimierten Verbindungsaufbaus: Fabrikam beschließt, dass deutsche Benutzer Rufnummern in den USA über den US-Trunk wählen sollen. Fabrikam möchte das System auch so konfigurieren, dass alle Anrufe von US-Skype for Business Server-Benutzern nach Deutschland und benachbarte Länder/Regionen auf dem Stamm mit dem Gateway in Deutschland beendet werden. Durch dieses Routing wird Geld gespart, da ein Anruf von Deutschland nach Österreich beispielsweise weniger kostspielig ist als ein Anruf aus den USA nach Österreich.
   
 ### <a name="translating-outbound-dial-strings"></a>Übersetzen ausgehender Wählzeichenfolgen
 
-Skype für Business Server erfordert, dass alle Wählzeichenfolgen in das e. 164-Format für die inverssuche (RNL) normalisiert werden. Für Trunks mit Gateways oder private Nebenstellenanlagen (PBX), die Zahlen in den lokalen Wählvorgang übersetzt werden müssen, kann Skype für Business Server Sie erstellen eine oder mehrere Regeln, mit denen die gewählte Nummer (d. h. Anforderungs-URI) Änderung vor der Weiterleitung um den Trunk. Sie können beispielsweise eine Regel schreiben, mit der die Vorwahl +44 aus einer Wählzeichenfolge entfernt und durch 0144 ersetzt wird.
+Für Skype for Business Server müssen alle Wählzeichenfolgen im E. 164-Format normalisiert werden, um eine Reverse-Number-Lookup-Funktion (RNL) durchführen zu können. Für Trunks mit Gateways oder Private Branch Exchanges (PBX), die Zahlen erfordern, die in lokale Wähl Formate übersetzt werden, können Sie mit Skype for Business Server eine oder mehrere Regeln erstellen, die beim Manipulieren der angerufenen Nummer (also des Request-URIs) vor dem Routing helfen. in den Kofferraum. Sie können beispielsweise eine Regel schreiben, mit der die Vorwahl +44 aus einer Wählzeichenfolge entfernt und durch 0144 ersetzt wird.
   
-Mit Skype für Business Server ist es möglich, eine oder mehrere Regeln, mit denen in der Änderung der Rufnummer vor der Weiterleitung an den Trunk zu erstellen.
+Mit Skype for Business Server können Sie eine oder mehrere Regeln erstellen, die Ihnen helfen, die Rufnummer zu manipulieren, bevor Sie Sie an den trunk weiterleiten.
   
-Bei der Planung Ihrer Trunks, den Gateway: Port-Paare Mediation Server: Port-Paare zuzuordnen, es kann hilfreich sein, Gruppe Trunks mit ähnlichen lokalen Anforderungen einwählen und daher reduzieren Sie die Anzahl der erforderlichen Übersetzungsregeln und die Zeit, die benötigt wird, um sie zu schreiben.
+Bei der Planung Ihrer Trunks, die Gateway: Port-Paare mit Mediation Server verbinden: Port-Paare, kann es hilfreich sein, Trunks mit ähnlichen lokalen wählanforderungen zu gruppieren, und daher die Anzahl der erforderlichen Übersetzungsregeln und die Zeitdauer für den Schreibvorgang zu verringern.
   
 ### <a name="configuring-caller-id"></a>Konfigurieren der Anrufer-ID
 
-Skype für Business Server bietet die Möglichkeit zum Bearbeiten von Anrufer-ID für ausgehende Anrufe. Angenommen, wenn eine Organisation möchte maskieren Mitarbeiter Wählen bei Bedarf-Erweiterungen, und Ersetzen Sie sie mit der generischen im Unternehmen oder die Abteilung Nummer, Möglichkeiten ein Administrator, die mithilfe von Skype Business Server-Systemsteuerung zum Unterdrücken der Anrufer-ID, und Ersetzen Sie ihn mit einer angegebenen alternative Anrufer-ID Berücksichtigen Sie bei der Planung Ihrer Routinglogik an, welche Personen, Gruppen, Sie diese Option für sollten, Websites – vielleicht, sogar, für alle Mitarbeiter.
+Skype for Business Server bietet eine Möglichkeit, die Rufnummernanzeige für ausgehende Anrufe zu manipulieren. Wenn eine Organisation beispielsweise die Durchwahlnummern der Mitarbeiter maskieren und durch die generische Firmen-oder Abteilungsnummer ersetzen möchte, kann ein Administrator dies über die Skype for Business Server-Systemsteuerung tun, um die Rufnummernanzeige zu unterdrücken und zu ersetzen. mit einer angegebenen alternativen Rufnummernanzeige. Bei der Planung Ihrer Routinglogik sollten Sie Bedenken, für welche Einzelpersonen, Gruppen und Websites Sie diese Option benötigen – vielleicht sogar für alle Mitarbeiter.
   
 > [!NOTE]
 > Für Anrufe, die über das Telefonfestnetz (PSTN) umgeleitet werden, wird die allgemeine Anrufer-ID anstelle der ursprünglichen Anrufer-ID angezeigt. Dies kann dazu führen, dass „Nicht stören“- oder Privatsphäreneinstellungen umgangen werden, die der angerufene Teilnehmer möglicherweise konfiguriert hat. 
@@ -327,7 +327,7 @@ Beachten Sie bei der Erstellung von Routen für ausgehende Anrufe die folgenden 
     
 - Wenn die im Anforderungs-URI angegebene Domäne nicht für das Unternehmen unterstützt wird, verarbeitet die Ausgangsroutingkomponente auf dem Server den Anruf nicht.
     
-- Wenn ein Benutzer für Enterprise-VoIP nicht aktiviert ist, wendet der Server eine andere, geeignete Routinglogik an.
+- Wenn ein Benutzer nicht für Enterprise-VoIP aktiviert ist, wendet der Server gegebenenfalls eine andere Routinglogik an.
     
 - Wenn der Anruf an ein vollständig besetztes Gateway (bei dem alle Trunkleitungen belegt sind) geroutet wird, weist das Gateway den Anruf zurück und die Ausgangsroutingkomponente leitet ihn an die Route mit den zweitgeringsten Kosten um. Bedenken Sie dies sorgfältig, da ein Gateway, dessen Größe auf ein kleines Büro in Europa (im Beispiel: Zürich) ausgerichtet ist, möglicherweise einen umfangreichen nicht lokalen Datenverkehr für Auslandsgespräche mit der Schweiz übertragen muss. Wenn das Gateway nicht die richtige Größe für diesen zusätzlichen Datenverkehr aufweist, werden Anrufe aus den USA in die Schweiz möglicherweise über ein Gateway in Deutschland weitergeleitet, was höhere Telefongebühren bedeutet.
     

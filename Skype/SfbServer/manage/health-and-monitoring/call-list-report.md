@@ -1,27 +1,27 @@
 ---
-title: Reaktionsgruppe Anruflistenbericht in Skype für Business Server
+title: Bericht zur Antwortgruppen-Anrufliste in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
-description: 'Zusammenfassung: Erfahren Sie mehr über die Anwendung "Reaktionsgruppe" in Skype für Business Server.'
-ms.openlocfilehash: 1e2a44c73b0748bb7904b26aec952c5fca475520
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Informationen zur reaktionsgruppenanwendung in Skype for Business Server.'
+ms.openlocfilehash: 216f07a81beaa962bf091e815c797611f9e236ac
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902733"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289336"
 ---
-# <a name="response-group-call-list-report-in-skype-for-business-server"></a>Reaktionsgruppe Anruflistenbericht in Skype für Business Server
+# <a name="response-group-call-list-report-in-skype-for-business-server"></a>Bericht zur Antwortgruppen-Anrufliste in Skype for Business Server
 
-**Zusammenfassung:** Informationen Sie zu der Anwendung "Reaktionsgruppe" in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über die Anwendung Reaktionsgruppe in Skype for Business Server.
 
-Die Anwendung "Reaktionsgruppe" bietet eine Möglichkeit für Skype für Business Server beantworten und Route Telefonanrufe basierend auf die Nummer, die gewählt wurde und, optional, die Antworten des Anrufers zu einer Reihe von Fragen. Normalerweise werden Reaktionsgruppenanrufe nicht an eine Einzelperson, sondern an ein Personenteam weitergeleitet, das als Agentgruppe bezeichnet wird. Angenommen, wenn die Telefonnummer für Ihr Helpdesk angerufen werden, kann Skype für Business Server automatisch dieses Aufrufs an den ersten verfügbaren Helpdesk-Agent weiterleiten. Alternativ kann Skype für Business Server bitten Sie eine Reihe von Fragen ("drücken Sie 1, wenn Sie die Hardware Probleme auftreten. Wenn Sie Softwareprobleme haben, drücken Sie die 2. Drücken Sie 3 Wenn Netzwerkprobleme auftreten.") und klicken Sie dann den Anruf an die am besten geeignete Hilfe Desk Agent basierend auf die Antwort auf diese Fragen weiterleiten.
+Die Antwortgruppen Anwendung bietet eine Möglichkeit für Skype for Business Server, Telefonanrufe auf der Grundlage der Nummer, die gewählt wurde, und – optional – auf der Antwort des Anrufers auf eine Reihe von Fragen zu beantworten und weiterzuleiten. Normalerweise werden Reaktionsgruppenanrufe nicht an eine Einzelperson, sondern an ein Personenteam weitergeleitet, das als Agentgruppe bezeichnet wird. Wenn beispielsweise jemand die Telefonnummer Ihres Helpdesks anruft, kann Skype for Business Server diesen Anruf automatisch an den ersten verfügbaren Help Desk-Agenten weiterleiten. Alternativ kann Skype for Business Server eine Reihe von Fragen stellen ("drücken Sie 1, wenn Sie Hardwareprobleme haben. Wenn Sie Softwareprobleme haben, drücken Sie die 2. Drücken Sie 3, wenn Sie Netzwerkprobleme haben. ") und leiten Sie dann den Anruf an den am besten geeigneten Helpdesk-Agenten weiter, basierend auf der Antwort auf diese Fragen.
 
 Der Anruflistenbericht für Reaktionsgruppen stellt eine Sammlung von Anrufen dar, die über einen bestimmten Zeitraum und für einen bestimmten Anruftyp getätigt wurden. Im Reaktionsgruppen-Verwendungsbericht (der zuerst geöffnet werden muss, bevor Sie den Anruflistenbericht für Reaktionsgruppen öffnen können) werden die folgenden Anruftypen erkannt:
 
@@ -33,13 +33,13 @@ Der Anruflistenbericht für Reaktionsgruppen stellt eine Sammlung von Anrufen da
 
 - **Angenommene Anrufe**. Gesamtzahl der Anrufe, die tatsächlich von einem Reaktionsgruppenagent angenommen wurden.
 
-- **Prozentsatz abgebrochener Anrufe.** Prozentsatz der Anrufe, die von der Reaktionsgruppenanwendung empfangen, aber nicht von einem Agenten angenommen wurden. Dieser Wert wird berechnet, indem die angenommenen Anrufe von den empfangenen Anrufen abgezogen werden und dieser Wert dann durch die Anzahl der empfangenen Anrufe geteilt wird. Wenn Sie beispielsweise 10 Anrufe empfangen haben und 7 davon beantwortet wurden, ziehen Sie 7 von 10 ab, wonach 3 unbeantwortete Anrufe übrig bleiben. Dieser Wert wird dann durch 10 geteilt, woraus sich ein Prozentsatz von 30 % für abgebrochene Anrufe ergibt.
+- **Prozentsatz der verlassenen Anrufe.** Prozentsatz der Anrufe, die von der Reaktionsgruppenanwendung empfangen, aber nicht von einem Agenten angenommen wurden. Dieser Wert wird berechnet, indem die angenommenen Anrufe von den empfangenen Anrufen abgezogen werden und dieser Wert dann durch die Anzahl der empfangenen Anrufe geteilt wird. Wenn Sie beispielsweise 10 Anrufe empfangen haben und 7 davon beantwortet wurden, ziehen Sie 7 von 10 ab, wonach 3 unbeantwortete Anrufe übrig bleiben. Dieser Wert wird dann durch 10 geteilt, woraus sich ein Prozentsatz von 30 % für abgebrochene Anrufe ergibt.
 
 - **Durchgestellte Anrufe**. Gesamtzahl der Reaktionsgruppenanrufe, die aufgrund eines Timeouts oder Überlaufs der Warteschleife durchgestellt wurden.
 
 ## <a name="accessing-the-response-group-call-list-report"></a>Zugreifen auf den Anruflistenbericht für Reaktionsgruppen
 
-Response Group Call List Report kann nur zugegriffen werden, indem Sie auf eine der folgenden Metriken im [Response Group Usage Report in Skype für Business Server](response-group-usage-report.md)gefunden:
+Auf den Bericht "Anruflisten für die Reaktionsgruppe" kann nur zugegriffen werden, indem Sie auf eine der folgenden Metriken klicken, die im [Bericht zur Reaktionsgruppen Nutzung in Skype for Business Server](response-group-usage-report.md)zu finden sind:
 
 - Empfangene Anrufe
 
@@ -55,7 +55,7 @@ Response Group Call List Report kann nur zugegriffen werden, indem Sie auf eine 
 
 Mithilfe des Anruflistenberichts für Reaktionsgruppen können Sie die angezeigten Daten auf Anrufe mit einem bestimmten Reaktionsgruppenworkflow beschränken. Dazu müssen Sie im Feld „Workflow-URI“ den Workflow-URI (die SIP-Adresse des Workflows) eingeben. Bevor Sie dies tun können, muss das Feld „Workflow-URI“ tatsächlich angezeigt werden. Wenn Sie die Filteroptionen für den Anruflistenbericht für Reaktionsgruppen anzeigen möchten, klicken Sie im oberen linken Teil des Berichtsfensters auf die Schaltfläche „Parameter ein-/ausblenden“.
 
-Beachten Sie, dass im Anruflistenbericht für Reaktionsgruppen keine Informationen zum Antwortcode oder zur Diagnose-ID angezeigt werden, wenn Sie die Maus über eine dieser Metriken halten. Wenn Sie weitere Informationen benötigen, können Sie beachten Sie die Antwortcode und/oder Diagnose-ID, und klicken Sie dann für diese Werte im [Bericht über häufigste-Fehler in Skype für Business Server](top-failures-report.md)suchen.
+Beachten Sie, dass im Anruflistenbericht für Reaktionsgruppen keine Informationen zum Antwortcode oder zur Diagnose-ID angezeigt werden, wenn Sie die Maus über eine dieser Metriken halten. Wenn Sie weitere Informationen benötigen, notieren Sie sich möglicherweise den Antwortcode und/oder die Diagnose-ID, und suchen Sie dann im [Bericht "Top-Fehler" in Skype for Business Server](top-failures-report.md)nach diesen Werten.
 
 Bei einer Frage wie „Welcher Einzelworkflow hat die meisten Anrufe empfangen?“ können Sie die folgenden Aktionen ausführen:
 

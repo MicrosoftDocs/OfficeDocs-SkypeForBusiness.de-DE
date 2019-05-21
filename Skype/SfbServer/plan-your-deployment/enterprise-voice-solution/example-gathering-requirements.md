@@ -1,10 +1,10 @@
 ---
-title: Sammeln von Anforderungen für die anrufsteuerung in Skype für Business Server Beispiel
+title: Beispiel für das Sammeln von Anforderungen für die Anrufsteuerung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,31 +13,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
-description: Enthält ein ausführliches Beispiel für die anrufsteuerung in Skype Business Server Enterprise-VoIP, einschließlich Sammeln von Informationen zu Websites, Regionen und Bandbreite des Netzwerks planen.
-ms.openlocfilehash: c00c61377d3bbaca6539b2b3f3bd889ae723bd8e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Enthält ein detailliertes Beispiel für die Planung der Anrufsteuerung in Skype for Business Server Enterprise-VoIP, einschließlich des Sammelns von Informationen über die Websites, Regionen und die Bandbreite Ihres Netzwerks.
+ms.openlocfilehash: 73a1a75f8619877d2c9228f910aa747aee36a8e0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924402"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276880"
 ---
-# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Beispiel: Sammeln von Anforderungen für die anrufsteuerung in Skype für Business Server
+# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Beispiel: Erfassen der Anforderungen für die Anrufsteuerung in Skype for Business Server
 
-Enthält ein ausführliches Beispiel für die anrufsteuerung in Skype Business Server Enterprise-VoIP, einschließlich Sammeln von Informationen zu Websites, Regionen und Bandbreite des Netzwerks planen.
+Enthält ein detailliertes Beispiel für die Planung der Anrufsteuerung in Skype for Business Server Enterprise-VoIP, einschließlich des Sammelns von Informationen über die Websites, Regionen und die Bandbreite Ihres Netzwerks.
 
 Dieses Beispiel führt Sie Schritt für Schritt durch die Planung und Implementierung des Anrufsteuerungsdiensts (Call Admission Control, CAC). Bei diesem Verfahren werden die folgenden allgemeinen Aufgaben ausgeführt:
 
 1. Identifizieren aller Netzwerkhubs und Backbones (als Netzwerkregionen bezeichnet).
 
-2. Identifizieren der Skype für Business Server zentralen Standort, der die Anrufsteuerung für jede netzwerkregion verwaltet.
+2. Ermitteln Sie die Skype for Business Server-zentrale Website, die das CAC für jede netzwerkregion verwaltet.
 
 3. Identifizieren und Definieren der Netzwerkstandorte, die mit jeder Netzwerkregion verbunden sind.
 
-4. Für jede Netzwerkstandort, dessen Verbindung an das WAN Bandbreite eingeschränkt ist, werden beschrieben Sie die Bandbreitenkapazität der WAN-Verbindung und die Bandbreitengrenzwerte für die, die an den Netzwerkadministrator für Skype für Mediendatenverkehr Business Server, festgelegt hat ggf.. Standorte mit WAN-Verbindungen ohne Bandbreiteneinschränkung müssen nicht einbezogen werden.
+4. Beschreiben Sie für jede Netzwerk Website, deren Verbindung mit dem WAN von der Bandbreite abhängig ist, die Bandbreitenkapazität der WAN-Verbindung und die Bandbreitenbeschränkungen, die der Netzwerkadministrator für den Mediendatenverkehr von Skype for Business Server festgelegt hat, sofern zutreffend. Standorte mit WAN-Verbindungen ohne Bandbreiteneinschränkung müssen nicht einbezogen werden.
 
 5. Zuordnen der einzelnen Subnetze in Ihrem Netzwerk zu einem Netzwerkstandort.
 
-6. Zuordnen der Verbindungen zwischen den Netzwerkregionen. Beschreiben Sie für jede Verbindung seine Bandbreitenkapazität und Grenzwerte, die der Netzwerkadministrator Skype für Mediendatenverkehr Business Server platziert hat.
+6. Zuordnen der Verbindungen zwischen den Netzwerkregionen. Beschreiben Sie für jeden Link die Bandbreitenkapazität sowie alle Einschränkungen, die der Netzwerkadministrator für den Mediendatenverkehr von Skype for Business Server festgelegt hat.
 
 7. Definieren einer Route zwischen jedem Netzwerkregionenpaar.
 
@@ -51,20 +51,20 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
     Die hier vorgestellte Beispieltopologie umfasst drei Netzwerkregionen: Nordamerika, EMEA und APAC. Eine Netzwerkregion enthält verschiedene Netzwerkstandorte. Arbeiten Sie mit Ihrem Netzwerkadministrator zusammen, um die Netzwerkregionen für Ihr Unternehmen zu definieren.
 
-2. Jeder netzwerkregion zugehörigen zentralen Standort zu identifizieren. Ein zentraler Standort enthält mindestens einen Front-End-Server und ist die Skype für Business Server-Bereitstellung, für die Anrufsteuerung für den gesamten Mediendatenverkehr verwaltet, die über WAN-Verbindung die netzwerkregion übergibt.
+2. Identifizieren Sie die zugeordnete zentrale Website der einzelnen netzwerkregionen. Eine zentrale Website enthält mindestens einen Front-End-Server und ist die Skype for Business Server-Bereitstellung, die das CAC für alle Medienübertragungen verwaltet, die über die WAN-Verbindung der netzwerkregion geleitet werden.
 
    **Beispielunternehmensnetzwerk mit drei Netzwerkregionen**
 
-     ![Nettwerktopologiebeispiel mit 3 Netzwerkregionen](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
+     ![Beispiel für eine Netzwerktopologie mit 3 netzwerkregionen](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
-    > Ein MPLS-Netzwerk (Multiprotocol Label Switching) sollte als Netzwerkregion abgebildet werden, bei der jeder geografische Standort über einen entsprechenden Netzwerkstandort verfügt. Weitere Informationen hierzu finden Sie unter [Komponenten und Topologien für die anrufsteuerung in Skype für Unternehmen](components-and-topologies.md). 
+    > Ein MPLS-Netzwerk (Multiprotocol Label Switching) sollte als Netzwerkregion abgebildet werden, bei der jeder geografische Standort über einen entsprechenden Netzwerkstandort verfügt. Ausführliche Informationen finden Sie unter [Komponenten und Topologien für die Anrufsteuerung in Skype for Business](components-and-topologies.md). 
 
-    In der vorstehenden Beispiel-Netzwerktopologie sind drei netzwerkregionen, jeweils mit einer Skype für Business Server zentralen Standort, die CAC verwaltet. Der geeignete zentrale Standort für eine Netzwerkregion wird nach geografischer Nähe ausgewählt. Da innerhalb der Netzwerkregionen das Aufkommen an Mediendatenverkehr am höchsten ist, führt die Festlegung nach geografischer Nähe zu einer eigenständigen Konfiguration, die auch dann noch funktionsfähig ist, wenn andere zentrale Standorte ausfallen. 
+    In der vorhergehenden Beispiel-Netzwerktopologie gibt es drei netzwerkregionen mit jeweils einer Skype for Business Server Central-Website, die CAC verwaltet. Der geeignete zentrale Standort für eine Netzwerkregion wird nach geografischer Nähe ausgewählt. Da innerhalb der Netzwerkregionen das Aufkommen an Mediendatenverkehr am höchsten ist, führt die Festlegung nach geografischer Nähe zu einer eigenständigen Konfiguration, die auch dann noch funktionsfähig ist, wenn andere zentrale Standorte ausfallen. 
 
-    In diesem Beispiel wird eine Skype für die Business-Bereitstellung mit dem Namen "Chicago" am zentralen Standort für die Region North America an.
+    In diesem Beispiel ist eine Skype for Business-Bereitstellung mit dem Namen Chicago der zentrale Standort für die Region Nordamerika.
 
-    Alle Skype für Unternehmensbenutzer in Nordamerika werden auf Servern in der Bereitstellung Chicago verwaltet. Die folgende Tabelle zeigt die zentralen Standorte für alle drei Netzwerkregionen.
+    Alle Skype for Business-Benutzer in Nordamerika sind in der Chicago-Bereitstellung auf Servern verwaltet. Die folgende Tabelle zeigt die zentralen Standorte für alle drei Netzwerkregionen.
 
     **Netzwerkregionen und zugeordnete zentrale Standorte**
 
@@ -75,7 +75,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     |APAC  <br/> |Peking  <br/> |
 
     > [!NOTE]
-    > Abhängigkeit der Skype für Business Server-Topologie kann derselbe zentrale Standort mehreren netzwerkregionen zugeordnet werden. 
+    > Je nach Ihrer Skype for Business Server-Topologie kann derselbe zentrale Standort mehreren netzwerkregionen zugewiesen werden. 
 
 3. Identifizieren Sie für jede Netzwerkregion alle Netzwerkstandorte (Büros oder Zweigstellen), für deren WAN-Verbindungen keine Bandbreiteneinschränkungen gelten. Da diese Standorte keine Bandbreiteneinschränkungen aufweisen, müssen keine Richtlinien für die Anrufsteuerung auf sie angewendet werden.
 
@@ -84,7 +84,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
    **Netzwerkstandorte ohne Einschränkungen in Bezug auf die WAN-Bandbreite**
 
 
-   | **Netzwerkstandort** | **Netzwerkregion**   |
+   | **Netzwerk Website** | **Netzwerkregion**   |
    |:-----------------|:---------------------|
    | New York  <br/>  | Nordamerika  <br/> |
    | Chicago  <br/>   | Nordamerika  <br/> |
@@ -99,7 +99,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
    **Netzwerkstandorte mit Einschränkungen in Bezug auf die WAN-Bandbreite**
 
-   |**Netzwerkstandort**|**Netzwerkregion**|
+   |**Netzwerk Website**|**Netzwerkregion**|
    |:-----|:-----|
    |Albuquerque  <br/> |Nordamerika  <br/> |
    |Reno  <br/> |Nordamerika  <br/> |
@@ -107,22 +107,22 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
    **Anrufsteuerung in der Netzwerkregion „Nordamerika“ mit drei Netzwerkstandorten, die keine Bandbreiteneinschränkung aufweisen (Chicago, New York und Detroit), und drei Netzwerkstandorten mit eingeschränkter WAN-Bandbreite (Portland, Reno und Albuquerque)**
 
-     ![Beispiel: Netzwerkstandorte WAN-Bandbreite eingeschränkt](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
+     ![Beispiel für Netzwerk Websites, die durch WAN-Bandbreite beschränkt sind](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
 
 5. Ermitteln Sie für jede WAN-Verbindung mit eingeschränkter Bandbreite die folgenden Informationen:
 
-   - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten. Wenn eine neue audio Sitzung dieser Grenzwert überschritten werden verursacht, lässt Skype für Business Server nicht die Sitzung zu starten.
+   - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten. Wenn diese Höchstgrenze durch eine neue Audiositzung überschritten wird, ist es für Skype for Business Server nicht möglich, die Sitzung zu starten.
 
    - Die Bandbreiteneinschränkung, die Sie für jede einzelne Audiositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 175 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
 
-   - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Videositzungen festlegen möchten. Wenn eine neue Sitzung video dieser Grenzwert überschritten werden verursacht, lässt Skype für Business Server nicht die Sitzung zu starten.
+   - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Videositzungen festlegen möchten. Wenn eine neue Videositzung dazu führt, dass diese Grenze überschritten wird, lässt Skype for Business Server die Sitzung nicht starten.
 
    - Die Bandbreiteneinschränkung, die Sie für jede einzelne Videositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 700 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
 
      **Netzwerkstandorte mit Informationen zur WAN-Bandbreiteneinschränkung (Bandbreite in KBit/s)**
 
 
-     | **Netzwerkstandort**   | **Netzwerkregion**   | **Grenzwert für Bandbreite**      | **Grenzwert für Audio**   | **Grenzwert für Audiositzung** | **Grenzwert für Video**   | **Grenzwert für Videositzung** |
+     | **Netzwerk Website**   | **Netzwerkregion**   | **Grenzwert für Bandbreite**      | **Grenzwert für Audio**   | **Grenzwert für Audiositzung** | **Grenzwert für Video**   | **Grenzwert für Videositzung** |
      |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|
      | Albuquerque  <br/> | Nordamerika  <br/> | 5.000  <br/>      | 2.000  <br/>      | 175  <br/>              | 1.400  <br/>      | 700  <br/>              |
      | Reno  <br/>        | Nordamerika  <br/> | 10.000  <br/>     | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              |
@@ -148,7 +148,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
     **Ebene**: 2
 
-    **Beschreibung**: die Subnetze für die folgenden IP-Adressen: \<Liste der IP-Adressen\> ist entweder nicht konfiguriert oder die Subnetze sind keinem Netzwerkstandort zugeordnet. 
+    **Beschreibung**: die Subnetze für die folgenden IP- \<Adressen: die Liste\> der IP-Adressen ist entweder nicht konfiguriert, oder die Subnetze sind nicht mit einer Netzwerk Website verbunden. 
 
     **Ursache**: Die Subnetze für die zugehörigen IP-Adressen fehlen in den Netzwerkkonfigurationseinstellungen oder die Subnetze sind keinem Netzwerkstandort zugeordnet. 
 
@@ -163,7 +163,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
    **Netzwerkstandorte und zugeordnete Subnetze (Bandbreite in KBit/s)**
 
 
-   | **Netzwerkstandort**   | **Netzwerkregion**   | **Grenzwert für Bandbreite**      | **Grenzwert für Audio**   | **Grenzwert für Audiositzung** | **Grenzwert für Video**   | **Grenzwert für Videositzung** | **Subnetze**                                                            |
+   | **Netzwerk Website**   | **Netzwerkregion**   | **Grenzwert für Bandbreite**      | **Grenzwert für Audio**   | **Grenzwert für Audiositzung** | **Grenzwert für Video**   | **Grenzwert für Videositzung** | **Subnetze**                                                            |
    |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|:-----------------------------------------------------------------------|
    | Albuquerque  <br/> | Nordamerika  <br/> | 5.000  <br/>      | 2.000  <br/>      | 175  <br/>              | 1.400  <br/>      | 700  <br/>              | 172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24  <br/> |
    | Reno  <br/>        | Nordamerika  <br/> | 10.000  <br/>     | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              | 157.57.210.0/23, 172.28.151.128/25  <br/>                              |
@@ -173,19 +173,19 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
    | Detroit  <br/>     | Nordamerika  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | 172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23  <br/>                  |
 
 
-7. In Skype Business Server anrufsteuerung werden die Verbindungen zwischen netzwerkregionen regionenverbindungen bezeichnet. Ermitteln Sie für jede Regionenverbindung, ebenso wie für die Netzwerkstandorte, die folgenden Informationen:
+7. In der Skype for Business Server-Anrufsteuerung werden die Verbindungen zwischen netzwerkregionen als Regions Verknüpfungen bezeichnet. Ermitteln Sie für jede Regionenverbindung, ebenso wie für die Netzwerkstandorte, die folgenden Informationen:
 
-   - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten. Wenn eine neue audio Sitzung dieser Grenzwert überschritten werden verursacht, lässt Skype für Business Server nicht die Sitzung zu starten.
+   - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten. Wenn diese Höchstgrenze durch eine neue Audiositzung überschritten wird, ist es für Skype for Business Server nicht möglich, die Sitzung zu starten.
 
    - Die Bandbreiteneinschränkung, die Sie für jede einzelne Audiositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 175 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
 
-   - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Videositzungen festlegen möchten. Wenn eine neue Sitzung video dieser Grenzwert überschritten werden verursacht, lässt Skype für Business Server nicht die Sitzung zu starten.
+   - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Videositzungen festlegen möchten. Wenn eine neue Videositzung dazu führt, dass diese Grenze überschritten wird, lässt Skype for Business Server die Sitzung nicht starten.
 
    - Die Bandbreiteneinschränkung, die Sie für jede einzelne Videositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 700 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
 
    **Netzwerkregionenverbindungen mit zugehörigen Bandbreiteneinschränkungen**
 
-     ![Beispiel für Einschränkungen zwischen 3 Regionen](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
+     ![Beispiel für Einschränkungen zwischen drei Regionen](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
 
    **Bandbreiteninformationen zu Regionenverbindungen (Bandbreite in KBit/s)**
 
@@ -213,17 +213,17 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
 9. Ermitteln Sie für jedes Netzwerkstandortpaar, das durch eine einzelne Verbindung direkt miteinander verbunden wird (als standortübergreifende Verbindung bezeichnet), die folgenden Informationen:
 
-     - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten. Wenn eine neue audio Sitzung dieser Grenzwert überschritten werden verursacht, lässt Skype für Business Server nicht die Sitzung zu starten.
+     - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten. Wenn diese Höchstgrenze durch eine neue Audiositzung überschritten wird, ist es für Skype for Business Server nicht möglich, die Sitzung zu starten.
 
      - Die Bandbreiteneinschränkung, die Sie für jede einzelne Audiositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 175 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
 
-     - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Videositzungen festlegen möchten. Wenn eine neue Sitzung video dieser Grenzwert überschritten werden verursacht, lässt Skype für Business Server nicht die Sitzung zu starten.
+     - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Videositzungen festlegen möchten. Wenn eine neue Videositzung dazu führt, dass diese Grenze überschritten wird, lässt Skype for Business Server die Sitzung nicht starten.
 
      - Die Bandbreiteneinschränkung, die Sie für jede einzelne Videositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 700 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
 
    **Anrufsteuerung in der Netzwerkregion „Nordamerika“ mit Anzeige der Bandbreitenkapazitäten und -einschränkungen für die standortübergreifende Verbindung zwischen Reno und Albuquerque**
 
-     ![Netzwerk Einschränkungen in Bezug auf WAN-Bandbreite (Beispiel)](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
+     ![Netzwerk Websites, die durch das WAN-Bandbreite-Beispiel beschränkt sind](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
 
    **Bandbreiteninformationen für eine standortübergreifende Verbindung zwischen zwei Netzwerkstandorten (Bandbreite in KBit/s)**
 
@@ -233,9 +233,9 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
 ### <a name="next-steps"></a>Nächste Schritte
 
-Nachdem Sie die erforderliche Informationen zusammengetragen haben, können Sie die Bereitstellung der Anrufsteuerung entweder mit der Skype für Business Server-Verwaltungsshell oder Skype Business Server-Systemsteuerung ausführen.
+Nachdem Sie die erforderlichen Informationen gesammelt haben, können Sie die CAC-Bereitstellung entweder über die Skype for Business Server-Verwaltungsshell oder über die Skype for Business Server-Systemsteuerung durchführen.
 
 > [!NOTE]
-> Obwohl Sie die meisten Aufgaben der Netzwerk-Konfiguration mithilfe von Skype Business Server-Systemsteuerung ausführen können, müssen Sie aus um Subnetze und intersite Links erstellen Skype für Business Server-Verwaltungsshell verwenden. Details finden Sie unter [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps) und [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps). 
+> Obwohl Sie die meisten Netzwerk Konfigurationsaufgaben mithilfe der Skype for Business Server-Systemsteuerung ausführen können, müssen Sie die Skype for Business Server-Verwaltungsshell verwenden, um Subnetze und standortübergreifende Links zu erstellen. Details finden Sie unter [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps) und [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps). 
 
 

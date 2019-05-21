@@ -1,11 +1,11 @@
 ---
-title: Skype für die Business-Kompatibilität mit Office-apps
+title: Skype for Business-Kompatibilität mit Office-Apps
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,62 +13,62 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
-description: Verstehen Sie, wie Sie Skype für Business-Features in Outlook und anderen Office-Anwendung zugreifen können.
-ms.openlocfilehash: f8f6f31e6b77b50178bf80210606ca5b92ea4e05
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Grundlegendes zu den Möglichkeiten, wie Sie in Outlook und anderen Microsoft Office-Anwendungen auf Skype for Business-Funktionen zugreifen können.
+ms.openlocfilehash: c24c6b08e21db357d52b1cc130e53f23b6123ff6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33923855"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277433"
 ---
-# <a name="skype-for-business-compatibility-with-office-apps"></a>Skype für die Business-Kompatibilität mit Office-apps
+# <a name="skype-for-business-compatibility-with-office-apps"></a>Skype for Business-Kompatibilität mit Office-Apps
  
-Verstehen Sie, wie Sie Skype für Business-Features in Outlook und anderen Office-Anwendung zugreifen können.
+Grundlegendes zu den Möglichkeiten, wie Sie in Outlook und anderen Microsoft Office-Anwendungen auf Skype for Business-Funktionen zugreifen können.
   
-In diesem Thema wird die Kompatibilität von Skype für Unternehmen mit verschiedenen Versionen von Microsoft Office-Suites. 
+In diesem Thema wird die Kompatibilität von Skype for Business mit verschiedenen Versionen von Microsoft Office-Suites beschrieben. 
   
-## <a name="office-and-skype-for-business"></a>Office und Skype für Unternehmen
+## <a name="office-and-skype-for-business"></a>Office und Skype for Business
 
-Die folgende Tabelle beschreibt die Skype für Business-Features, die von den verschiedenen Versionen von Office unterstützt werden, nachdem Exchange bereitgestellt und gemäß [Integrieren Skype für Business Server mit Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)integriert ist.
+In der folgenden Tabelle werden die Skype for Business-Features beschrieben, die von verschiedenen Office-Versionen unterstützt werden, sobald Exchange bereitgestellt und integriert ist, wie unter [integrieren von Skype for Business Server mit Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)beschrieben.
   
-**Skype für Unternehmen und Microsoft Office-Kompatibilität**
+**Kompatibilität von Skype for Business und Microsoft Office**
 
-|**Funktion**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 und 2016**|**2016 von Office für Mac** & #x 2776; |
+|**Funktion**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 und 2016**|**Office 2016 für Mac** & # x2776; |
 |:-----|:-----|:-----|:-----|
 |**Outlook-Funktionen** ||||
 |Outlook-Besprechungseinladungen anpassen (Logo, Hilfe-URL, Haftungsausschluss, Fußzeilentext hinzufügen)  |Nein  |Ja    |Ja|
 |Besprechungsoption konfigurieren, um Teilnehmeraudio und -video standardmäßig stummzuschalten    |Nein    |Ja    |Nein    |
-|Einheitliche Kontaktspeicher für die Verwaltung von Kontaktlisten in Office und Skype für Unternehmen    |Nein    |Ja (erfordert Exchange 2013 oder höher)    |Ja    |
-|Profilbilder mit hoher Auflösung    |Nein    |Ja (erfordert Exchange 2013 oder höher)    |Ja    |
-|Anwesenheitsstatus in der Microsoft Outlook aus, an und Cc-Felder    |Ja     |Ja     |Ja    |
-|Antworten mit Sofortnachricht oder einem Anruf aus dem Menü für Verfügbarkeit    |Ja (von der Visitenkarte aus)    |Ja (von der Visitenkarte aus)    |Ja (von der Visitenkarte aus)    |
+|Einheitlicher Kontaktspeicher zum Verwalten von Kontaktlisten in Office und Skype for Business    |Nein    |Ja (erfordert Exchange 2013 oder höher)    |Ja    |
+|Profil Bilder mit hoher Auflösung    |Nein    |Ja (erfordert Exchange 2013 oder höher)    |Ja    |
+|Anwesenheitsstatus in den Feldern "Microsoft Outlook von", "an" und "CC"    |Ja     |Ja     |Ja    |
+|Mit Chat oder Anruf über das Verfügbarkeits Menü Antworten    |Ja (von der Visitenkarte aus)    |Ja (von der Visitenkarte aus)    |Ja (von der Visitenkarte aus)    |
 |Anwesenheitsstatus in einer Besprechungsanfrage auf der Registerkarte „Terminplanungs-Assistent“    |Ja     |Ja    |Nein    |
-|Antworten mit Sofortnachricht oder Anruf von der Symbolleiste oder dem Menüband in einer empfangenen e-Mail-Nachricht    |Ja     |Ja     |Ja    |
-|**Weitere Office-apps**   ||||
+|Antworten mit Chatnachrichten oder anrufen über die Symbolleiste oder das Menüband in einer empfangenen e-Mail-Nachricht    |Ja     |Ja     |Ja    |
+|**Andere Office-Apps**   ||||
 |Freigegebene OneNote-Notizen    |Nein    |Ja    |Nein    |
 |Integration des Setups in das Office-Setupprogramm    |Nein    |Ja    |Nein    |
-|PowerPoint-Präsentationsinhalt    |Ja    |Ja (VBSS auch verfügbar)    |Ja    |
+|PowerPoint-Präsentationsinhalt    |Ja    |Ja (schlechte VBSS auch verfügbar)    |Ja    |
 |Chat und Anwesenheitsinformationen in Microsoft Word- und Microsoft Excel-Dateien (Smarttags aktiviert)    |Nur Microsoft Word    |Nur Microsoft Word    |Nein    |
 |Chat und Anwesenheitsinformationen in Microsoft SharePoint-Websites (Outlook muss installiert sein.)    |Ja    |Ja    |Nein    |
    
-& #x 2776; – Setzt voraus installiert haben und derzeit einen Skype für Unternehmen auf Mac-Client oder die Lync 2011 für Mac-Client ausgeführt werden.
+&#x2776; -Geht davon aus, dass Sie einen Skype for Business für Mac-Client oder den lync 2011 für Mac-Client installiert haben und derzeit ausgeführt werden.
   
-## <a name="exchange-server-and-skype-for-business"></a>Exchange Server und Skype für Unternehmen
+## <a name="exchange-server-and-skype-for-business"></a>Exchange Server und Skype for Business
 
-Die folgende Tabelle beschreibt die Skype für die Business-Unterstützung für die verschiedenen Versionen von Exchange Server. Outlook muss installiert sein, auf dem Clientcomputer um Extended MAPI-Aufrufe zu verarbeiten, und einige Features erfordern die Verwendung des Exchange-Webdienste (EWS).
+In der folgenden Tabelle wird der Skype for Business-Support für verschiedene Versionen von Exchange Server beschrieben. Outlook muss auf dem Clientcomputer installiert sein, um erweiterte MAPI-Aufrufe behandeln zu können, und einige Features erfordern die Verwendung von Exchange-Webdiensten (EWS).
   
-**Skype für Unternehmen und Exchange Server-Kompatibilität**
+**Skype for Business und Exchange Server-Kompatibilität**
 
-|**Exchange Server-Version**|**Skype für die Business-Unterstützung**|
+|**Exchange Server-Version**|**Skype for Business-Support**|
 |:-----|:-----|
-|Exchange Server 2019 (Skype für Business Server 2019 nur) |Identisch mit der Exchange Server 2013-Unterstützung    |
+|Exchange Server 2019 (nur Skype for Business Server 2019) |Identisch mit der Exchange Server 2013-Unterstützung    |
 |Exchange Server 2016    |Identisch mit der Exchange Server 2013-Unterstützung  <br/> |
-|Exchange Server 2013  <br/> |Identisch mit Exchange Server 2010 unterstützt, durch die hinzugefügte  <br/>&bull;&nbsp;&nbsp;Einheitlicher Kontaktspeicher  <br/>&bull;&nbsp;&nbsp;Bilder mit hoher Auflösung  <br/>&bull;&nbsp;&nbsp;Integration der Archivierung  <br/> **Hinweis:** Weitere Informationen hierzu finden Sie unter [Skype für Business Server mit Exchange Server zu integrieren](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
-|Exchange Server 2010  <br/>(Skype für Business Server 2015 nur) |Die folgenden Funktionen stehen nur über EWS zur Verfügung:  <br/>&bull;&nbsp;&nbsp;Lesen oder Löschen von Elementen im Ordner "Unterhaltungsverlauf"  <br/>&bull;&nbsp;&nbsp;Lesen oder Löschen von voicemailelementen  <br/>&bull;&nbsp;&nbsp;Anzeigen erweiterter Frei-/Gebucht-Informationen und Besprechungsbetreff und-Ort  <br/>&bull;&nbsp;&nbsp;Exchange-kontaktsynchronisierung  <br/> Öffentliche Ordner sind in Exchange Server 2010 optional.  <br/> |
+|Exchange Server 2013  <br/> |Identisch mit Exchange Server 2010-Unterstützung mit dem Zusatz von  <br/>&bull;&nbsp;&nbsp;Einheitlicher Kontaktspeicher  <br/>&bull;&nbsp;&nbsp;Bilder mit hoher Auflösung  <br/>&bull;&nbsp;&nbsp;Archivierungs Integration  <br/> **Hinweis:** Ausführliche Informationen finden Sie unter [integrieren von Skype for Business Server mit Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
+|Exchange Server 2010  <br/>(Nur Skype for Business Server 2015) |Die folgenden Funktionen stehen nur über EWS zur Verfügung:  <br/>&bull;&nbsp;&nbsp;Lesen oder Löschen von Elementen im Ordner "Konversationsprotokoll"  <br/>&bull;&nbsp;&nbsp;Lesen oder Löschen von Voicemail-Elementen  <br/>&bull;&nbsp;&nbsp;Anzeigen von erweiterten Frei/Gebucht-Informationen sowie Betreff und Ort der Besprechung  <br/>&bull;&nbsp;&nbsp;Exchange-Kontaktsynchronisierung  <br/> Öffentliche Ordner sind in Exchange Server 2010 optional.  <br/> |
    
 ## <a name="see-also"></a>Siehe auch
  
-[Clientanforderungen für Windows und Software-support](windows-requirements.md)
+[Windows-Clientanforderungen und Software Support](windows-requirements.md)
   
-[Planen von Besprechungen-Clients (Web App und Besprechungen App)](meetings-clients.md)
+[Planen von Besprechungs Clients (app für Web App und Besprechungen)](meetings-clients.md)
 

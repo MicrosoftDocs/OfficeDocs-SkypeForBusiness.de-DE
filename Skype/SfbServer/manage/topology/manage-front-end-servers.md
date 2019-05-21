@@ -1,47 +1,47 @@
 ---
-title: Verwalten von Front-End-Servern im Skype für Business Server
+title: Verwalten von Front-End-Servern in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: 'Zusammenfassung: Informationen Sie zum Hinzufügen, entfernen, Patch, oder Front-End-Servern im Skype für Business Server aktualisieren.'
-ms.openlocfilehash: cac824de5747291a735ce36d624dad66fb32e10e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Front-End-Server in Skype for Business Server hinzufügen, entfernen, Patchen oder aktualisieren.'
+ms.openlocfilehash: 13af9198dfb83d14ad1d86885419fc9add29e07d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911798"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275157"
 ---
-# <a name="manage-front-end-servers-in-skype-for-business-server"></a>Verwalten von Front-End-Servern im Skype für Business Server
+# <a name="manage-front-end-servers-in-skype-for-business-server"></a>Verwalten von Front-End-Servern in Skype for Business Server
  
-In diesem Artikel wird erläutert, wie hinzufügen oder Entfernen von Front-End-Servern und Anwenden von upgrades oder patches für Front-End-Server.
+In diesem Artikel wird erläutert, wie Sie Front-End-Server hinzufügen oder entfernen und wie Sie Upgrades oder Patches auf Front-End-Server anwenden.
 
 ## <a name="add-or-remove-front-end-servers"></a>Hinzufügen oder Entfernen von Front-End-Servern
   
-Wenn Sie einen Front-End-Server zu einem Pool hinzufügen oder eines Front-End-Servers aus einem Pool entfernen, müssen Sie dann den Pool neu starten. 
+Wenn Sie einen Front-End-Server zu einem Pool hinzufügen oder einen Front-End-Server aus einem Pool entfernen, müssen Sie den Pool erneut starten. 
   
 > [!IMPORTANT]
 > Wenn Sie einen Server zum Pool in Ihrer Topologie hinzufügen oder daraus entfernen und dann die aktualisierte Topologie veröffentlichen, werden alle Server im Pool gleichzeitig gestartet. Während die Server neu gestartet werden, ist der Pool offline, wodurch der Dienst für die mit diesem Pool verbundenen Benutzer unterbrochen wird. Um Dienstunterbrechungen zu vermeiden, planen Sie die Veröffentlichung der Topologie mit dem neuen Server im Pool außerhalb der Geschäftszeiten. 
   
-Sie können das folgende Verfahren beim Hinzufügen oder Entfernen eines Front-End-Servers.
+Sie können das folgende Verfahren verwenden, wenn Sie einen Front-End-Server hinzufügen oder entfernen.
   
 > [!NOTE]
 > Wenn Sie neue Server zum Pool hinzufügen, aktualisieren Sie Ihre neuen Poolserver, sodass diese im Hinblick auf das kumulative Update auf demselben Stand sind wie die bereits bestehenden Server in dem Pool. 
   
-### <a name="to-add-or-remove-front-end-servers"></a>Zum Hinzufügen oder Entfernen von Front-End-Servern
+### <a name="to-add-or-remove-front-end-servers"></a>So können Sie Front-End-Server hinzufügen oder entfernen
 
-1. Wenn Sie alle Front-End-Server entfernen, beenden Sie zuerst neue Verbindungen mit diesen Servern. Dazu können Sie das folgende Cmdlet verwenden:
+1. Wenn Sie alle Front-End-Server entfernen, beenden Sie zunächst neue Verbindungen mit diesen Servern. Dazu können Sie das folgende Cmdlet verwenden:
     
    ```
    Stop-CsWindowsService -Graceful
    ```
 
-2. Öffnen Sie den Topologie-Generator und fügen Sie hinzu oder entfernen Sie die benötigten Server. 
+2. Öffnen Sie den Topologie-Generator, und fügen Sie die erforderlichen Server hinzu, oder entfernen Sie Sie. 
     
 3. Veröffentlichen Sie die Topologie.
     
@@ -49,9 +49,9 @@ Sie können das folgende Verfahren beim Hinzufügen oder Entfernen eines Front-E
     > Wenn Sie einen Server zum Pool in Ihrer Topologie hinzufügen oder daraus entfernen und dann die aktualisierte Topologie veröffentlichen, werden alle Server im Pool gleichzeitig gestartet. Während die Server neu gestartet werden, ist der Pool offline, wodurch der Dienst für die mit diesem Pool verbundenen Benutzer unterbrochen wird. Um Dienstunterbrechungen zu vermeiden, planen Sie die Veröffentlichung der Topologie mit dem neuen Server im Pool außerhalb der Geschäftszeiten. 
   
   > [!NOTE]
-> Auch, wenn Sie hinzufügen oder eines Servers zum Pool entfernen, Sie müssen führen Sie die Skype für Business Server-Bereitstellungs-Assistenten auf jedem Computer hinzugefügt oder entfernt, Weitere Informationen finden Sie unter [Installieren von Skype für Business Server auf Server in der Topologie](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+> Wenn Sie dem Pool einen Server hinzufügen oder daraus entfernen, müssen Sie auch den Skype for Business Server-Bereitstellungs-Assistenten auf jedem Computer ausführen, der hinzugefügt oder entfernt wurde, und weitere Informationen finden Sie unter [Installieren von Skype for Business Server auf Servern in der Topologie](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server) .
   
-4. Wenn Sie die Anzahl der Server im Front-End-Pool in einer der folgenden Methoden geändert haben, müssen Sie den Pool mit dann zurücksetzen, indem Sie das folgende Cmdlet eingeben: Reset-CsPoolRegistrarState - ResetType FullReset - PoolFqdn 
+4. Wenn Sie die Anzahl der Server im Front-End-Pool auf eine der folgenden Arten geändert haben, setzen Sie den Pool zurück, indem Sie folgendes Cmdlet eingeben: Reset-CsPoolRegistrarState-resettype FullReset-PoolFqdn 
     
    ```
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
@@ -73,7 +73,7 @@ Sie können das folgende Verfahren beim Hinzufügen oder Entfernen eines Front-E
 
 ## <a name="patch-or-update-front-end-servers"></a>Patchen oder Aktualisieren der Front-End-Server
 
-Wenn Sie die Server in einem Front-End-Pool patchen, gehen Sie also einen Server zu einem Zeitpunkt vor. 
+Wenn Sie die Server in einem Front-End-Pool Patchen, tun Sie dies jeweils auf einem Server. 
   
 ### <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a>So führen Sie ein Upgrade für die Front-End-Server in einem Pool durch
 
@@ -95,7 +95,7 @@ Wenn Sie die Server in einem Front-End-Pool patchen, gehen Sie also einen Server
    Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
    ```
 
-    Dieses Cmdlet verschiebt alle Dienste auf anderen Front-End-Servern im Pool, und wird von diesem Server offline geschaltet.
+    Mit diesem Cmdlet werden alle Dienste auf andere Front-End-Server im Pool verschoben, und der Server wird offline geschaltet.
     
 3. Wenden Sie das Upgrade oder Patch auf diesen Server an.
     

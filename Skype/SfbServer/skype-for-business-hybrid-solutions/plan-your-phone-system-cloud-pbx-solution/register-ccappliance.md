@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 7/18/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: Das Cmdlet „Register-CcAppliance“ registriert Appliance-Informationen für einen PSTN-Standort in einer Onlinemandantenkonfiguration. Sie müssen eine Appliance registrieren, bevor diese bereitgestellt und mit dem Skype for Business Cloud Connector Edition-Verwaltungsdienst verwaltet werden kann.
-ms.openlocfilehash: e753f92c84b880da6aac060b65726bda5f9ba1ae
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9e15d7b8227bf9ee657d197041056703505ca7c8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32250885"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287125"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
@@ -58,11 +58,11 @@ Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 
 Sie müssen den Namen und das Kennwort für das Administratorkonto des Mandanten angeben. Verwenden Sie das Konto, das Sie für die Onlineverwaltung von Cloud Connector erstellt haben. 
   
-In Version 1.4.2 und früher, befolgen Sie die Anweisungen, die externe Zertifikatkennwort, Administratorkennwort abgesicherten Modus, Admin Domänenkennwort und VM Administratorkennwort bereitzustellen. 
+Befolgen Sie in Version 1.4.2 und älteren Versionen die Anweisungen zum Bereitstellen des Kennworts für externes Zertifikat, des Administratorkennworts für den sicheren Modus, des Domänenadministrator Kennworts und des VM-Administratorkennworts. 
   
-In Version 2.0 und höher, befolgen Sie die Anweisungen, um die externe Zertifikatkennwort, CceService Kennwort und Kennwort CABackupFile bieten.
+Befolgen Sie in Version 2,0 und höher die Anweisungen zum Bereitstellen des externen Zertifikats Kennworts, des CceService-Kennworts und des CABackupFile-Kennworts.
   
-Am Ende der Registrierung starten Sie den Connector Cloud-Verwaltungsdienst und melden Sie sich an die Dienste als CceService Konto neu.
+Starten Sie nach Abschluss der Registrierung den Cloud Connector-Verwaltungsdienst neu, und melden Sie sich bei den Diensten als CceService-Konto an.
   
 „SiteName“ in Kombination mit dem externen Edgeserver-FQDN in der Datei „CloudConnector.ini“ gilt als PSTN-Standortidentität. Wenn weder „SiteName“ noch der externe Edgeserver-FQDN zum Registrieren eines Standorts verwendet wurde, wird in einer Onlinemandantenkonfiguration ein neuer Standort für diese Appliance erstellt. Wenn eine PSTN-Standortidentität gefunden wird, verwendet ein PSTN-Standort diese Identität, und die Appliance wird an diesem PSTN-Standort registriert.  
   

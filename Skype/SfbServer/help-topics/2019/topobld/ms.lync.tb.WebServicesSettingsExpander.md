@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.WebServicesSettingsExpander
@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
-description: Im Topologie-Generator, können Sie die Einstellungen für externe Ports für die interne und externe Webdienste verwendete ändern. Darüber hinaus und wenn die Domain Name System (DNS) zum Lastenausgleich bereitgestellt werden, können Topologie-Generator so konfigurieren Sie den vollqualifizierten Domänennamen (FQDN) des Pools, der in die physischen IP-Adressen aller Server in diesem Pool aufgelöst wird.
-ms.openlocfilehash: ac13b7ac1138f9ae5044935db803bcb910d5a4ca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: In Topology Builder können Sie die Porteinstellungen ändern, die für interne und externe Webdienste verwendet werden. Darüber hinaus können Sie mithilfe des Topologie-Generators den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools konfigurieren, der auf die physischen IP-Adressen aller Server in diesem Pool aufgelöst wird, wenn Sie einen DNS-Lastenausgleich (Domain Name System) bereitstellen.
+ms.openlocfilehash: d3902b4dc54e15dc132fae09404e1b053b046b5e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911289"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306923"
 ---
 # <a name="web-services-settings-expander"></a>Einstellungen für Webdienste – Erweiterung
  
-Im Topologie-Generator, können Sie die Einstellungen für externe Ports für die interne und externe Webdienste verwendete ändern. Darüber hinaus und wenn die Domain Name System (DNS) zum Lastenausgleich bereitgestellt werden, können Topologie-Generator so konfigurieren Sie den vollqualifizierten Domänennamen (FQDN) des Pools, der in die physischen IP-Adressen aller Server in diesem Pool aufgelöst wird.
+In Topology Builder können Sie die Porteinstellungen ändern, die für interne und externe Webdienste verwendet werden. Darüber hinaus können Sie mithilfe des Topologie-Generators den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools konfigurieren, der auf die physischen IP-Adressen aller Server in diesem Pool aufgelöst wird, wenn Sie einen DNS-Lastenausgleich (Domain Name System) bereitstellen.
   
 ### <a name="editing-web-services-settings"></a>Bearbeiten von Webdiensteinstellungen
 
@@ -31,9 +31,9 @@ Im Topologie-Generator, können Sie die Einstellungen für externe Ports für di
 2. Klicken Sie im Dialogfeld **Eigenschaften bearbeiten** auf die Registerkarte **Webdienste**.
     
     > [!CAUTION]
-    > Wenn Sie mehrere Front-End-Pool oder Front-End-Server verfügen, muss die externe Webdienste FQDN eindeutig sein. Wenn Sie die externen Webdienste-FQDN des Front-End-Server als **"pool01.contoso.com"** definieren, können nicht Sie beispielsweise **"pool01.contoso.com"** für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Director-Server bereitstellen, die externe Webdienste-FQDN für alle Director definierten oder Director-Pool muss aus einem anderen eindeutig sein Director oder Director-Pools sowie alle Front-End-Pool oder Front-End-Server Wenn Sie die internen Webdienste mit einem selbstdefinierten FQDN überschreiben möchten, muss jeder FQDN eines anderen Front-End-Pools, Director oder Director-Pool eindeutig sein.
+    > Wenn Sie über mehr als einen Front-End-Pool oder Front-End-Server verfügen, muss der FQDN für externe Webdienste eindeutig sein. Wenn Sie beispielsweise den FQDN eines externen Webdiensts eines Front-End-Servers als **pool01.contoso.com**definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie Directors auch bereitstellen, müssen die für Director-oder Director-Pools definierten externen Webdienst-FQDN für jeden anderen Director-oder Director-Pool sowie für jeden Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie sich entscheiden, die internen Webdienste mit einem selbst definierten FQDN zu überschreiben, muss jeder FQDN für jeden anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
   
-3. Wenn Sie die Eigenschaften eines Enterprise Edition-Pools bearbeiten, steht die Option **FQDN überschreiben** zur Verfügung. Diese Option darf nur ausgewählt werden, wenn Sie mit dem DNS-Lastenausgleich (Domain Name System) arbeiten. Wählen Sie bei Verwendung des DNS-Lastenausgleichs **FQDN überschreiben** aus, und geben Sie in das Textfeld den vollqualifizierten Domänennamen des Pools ein, der in die physischen IP-Adressen aller Server in diesem Pool aufgelöst wird. Wenn Sie nicht mit dem DNS-Lastenausgleich arbeiten und **FQDN überschreiben** deaktiviert lassen, kann der vollqualifizierte Domänenname der internen Webdienste nicht geändert werden. Die internen Webdienste FQDN ist die URL für Business Server eine Verbindung mit Skype von internen Benutzern verwendet.
+3. Wenn Sie die Eigenschaften eines Enterprise Edition-Pools bearbeiten, steht die Option **FQDN überschreiben** zur Verfügung. Diese Option darf nur ausgewählt werden, wenn Sie mit dem DNS-Lastenausgleich (Domain Name System) arbeiten. Wählen Sie bei Verwendung des DNS-Lastenausgleichs **FQDN überschreiben** aus, und geben Sie in das Textfeld den vollqualifizierten Domänennamen des Pools ein, der in die physischen IP-Adressen aller Server in diesem Pool aufgelöst wird. Wenn Sie nicht mit dem DNS-Lastenausgleich arbeiten und **FQDN überschreiben** deaktiviert lassen, kann der vollqualifizierte Domänenname der internen Webdienste nicht geändert werden. Der interne Webdienste-FQDN ist die URL, die von internen Benutzern zum Herstellen einer Verbindung mit Skype for Business Server verwendet wird.
     
 4. Geben Sie optional für **Überwachungsports** und **Veröffentlichte Ports** neue HTTP-, HTTPS- bzw. HTTP- und HTTPS-Werte ein. Überwachungsports werden von den Internetinformationsdiensten (IIS) zum Überwachen auf eingehenden SIP-Datenverkehr (Session Initiation Protocol) genutzt. Veröffentlichte Ports werden für ein Lastenausgleichsgerät oder einen Reverseproxyserver konfiguriert und dienen ebenfalls zum Überwachen auf eingehenden SIP-Datenverkehr. In der Standardeinstellung sind sowohl der HTTP-Überwachungsport als auch der veröffentlichte HTTP-Port auf den Wert 80 festgelegt. Die entsprechenden HTTPS-Ports sind auf 443 festgelegt. Der Standardwert für die beiden veröffentlichten HTTP-Ports ist 8080, die entsprechenden HTTPS-Ports sind auf 4443 festgelegt.
     

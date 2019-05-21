@@ -5,46 +5,46 @@ ms.author: v-lanac
 author: lanachin
 ms.date: 2/1/2018
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 'Zusammenfassung: Wie Sie das Kapazitätsrechnertool verwenden.'
-ms.openlocfilehash: bdf3437ab044b7081d1f9f0ccb5ffa41a41e1545
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 24e268c6ecc3cc48fbfb4405f1e5e6b008639944
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914933"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274457"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype for Business Server: Rechner zur Kapazitätsplanung
  
 **Zusammenfassung:** Wie Sie das Kapazitätsrechnertool verwenden.
 
 > [!NOTE]
-> Dieser Artikel verweist auf Skype für Business Server 2015 Downloads, aber dies gilt für:
-> - Skype für Business Server 2019.
-> - Skype für Business Server 2015.
+> Dieser Artikel bezieht sich auf Skype for Business Server 2015-Downloads, gilt aber für:
+> - Skype for Business Server 2019.
+> - Skype for Business Server 2015.
   
-Die [Skype für Business Server 2015 Kapazitätsrechner](https://www.microsoft.com/en-us/download/details.aspx?id=51196) und [Skype für Business Server 2019 Kapazitätsrechner](https://www.microsoft.com/en-us/download/details.aspx?id=57509) ergänzen die [Skype für Business Planungstool](https://www.microsoft.com/en-us/download/details.aspx?id=50357) und Ihre Bereitstellungsdokumentation ([Planen Ihrer Skype für Unternehmen Server 2015 Bereitstellung](../plan-your-deployment/plan-your-deployment.md) und [Planen Sie Ihre Skype für die Bereitstellung von Business Server 2019](../../SfBServer2019/plan/plan-your-deployment-2019.md) jeweils). Verwenden Sie den Rechner, nachdem Sie die Anleitung gelesen und mithilfe des Planungstools eine empfohlene Topologie erstellt haben.
+Der [Skype for Business Server 2015-Kapazitäts Rechner](https://www.microsoft.com/en-us/download/details.aspx?id=51196) und der [Skype for Business Server 2019-Kapazitäts Rechner](https://www.microsoft.com/en-us/download/details.aspx?id=57509) ergänzen das [Skype for Business-Planungs Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50357) und ihre Bereitstellungsdokumentation ([Plan für Ihr Skype for Business Server 2015](../plan-your-deployment/plan-your-deployment.md) -Bereitstellung und [Plan für Ihre Skype for Business Server 2019-Bereitstellung](../../SfBServer2019/plan/plan-your-deployment-2019.md) . Verwenden Sie den Rechner, nachdem Sie die Anleitung gelesen und mithilfe des Planungstools eine empfohlene Topologie erstellt haben.
   
-Die Skype für Business Server Kapazitätsrechner hilft bestimmen Sie die Anforderungen an die Server basierend auf der Anzahl von Benutzern und der Kommunikationstools, die Ihrer Organisation verwendet werden. Nachdem Sie Ihr Benutzerprofil und die Funktionen festgelegt haben, die Sie Ihren Nutzern zur Verfügung stellen möchten, verwenden Sie den Rechner zur Bestimmung der Anzahl von Servern, des Speicherumfangs und der Bandbreite, die erforderlich sein wird. Diese Version des Rechners bietet keine Anleitungen in Hinblick auf Datenträger-E/A-Anforderungen.
+Mit dem Skype for Business Server-Kapazitäts Rechner können Sie die Server Anforderungen anhand der Anzahl der Benutzer und der Kommunikationstools ermitteln, die in Ihrer Organisation verwendet werden. Nachdem Sie Ihr Benutzerprofil und die Funktionen festgelegt haben, die Sie Ihren Nutzern zur Verfügung stellen möchten, verwenden Sie den Rechner zur Bestimmung der Anzahl von Servern, des Speicherumfangs und der Bandbreite, die erforderlich sein wird. Diese Version des Rechners bietet keine Anleitungen in Hinblick auf Datenträger-E/A-Anforderungen.
   
 Den besten Nutzen erzielen Sie mit dem Rechner, wenn Sie genaue und ausführliche Informationen zu Ihrem speziellen Benutzerprofil haben. Beispielsweise können der Prozentsatz von VoIP-aktivierten Benutzern, der Durchschnitt der Anrufe pro Benutzer und Stunde, die Anrufdauer und der Prozentsatz von gleichzeitigen Benutzern in Konferenzen einen großen Unterschied hinsichtlich der Serveranforderungen ausmachen. Die Genauigkeit der Empfehlungen, die vom Rechner erstellt werden, hängt von der Genauigkeit der Informationen ab, die Sie bereitgestellt haben.
   
-Nachdem Sie das Planungstool und der Planung Kapazitätsrechner verwendet haben, sollten Sie simulieren Ihrer vorgeschlagenen und geplanten laden, um sicherzustellen, dass ausreichend Skype für Business Server bereitgestellt wird. Verwenden Sie zur Ausführung Belastungstests bei simulierten Auslastung der [Skype für Business Server Stress and Performance-Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50367) bei [Skype für Business Server Stress and Performance-Tool](https://technet.microsoft.com/en-us/library/mt631400.aspx)dokumentiert.
+Nachdem Sie das Planungs Tool und den Kapazitäts planungsrechner verwendet haben, sollten Sie die vorgeschlagene und geplante Auslastung simulieren, um sicherzustellen, dass Skype for Business Server angemessen bereitgestellt wird. Wenn Sie Stresstests unter einer simulierten Belastung durchführen möchten, verwenden Sie das [Skype for Business Server Stress and Performance Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50367) , das auf dem [Skype for Business Server Stress and Performance Tool](https://technet.microsoft.com/en-us/library/mt631400.aspx)dokumentiert ist.
   
 ## <a name="using-the-capacity-calculator"></a>Arbeiten mit dem Kapazitätsrechner
 
-Der Rechner ist eine Microsoft Excel-Kalkulationstabelle. Die Felder für Ihre Eingaben sind orangefarben gehalten. Standardwerte werden in den Zellen (für Skype für Business Server 2015 80.000 Benutzern in einem Pool mit zwölf Front-End-Servern, während Sie bei Skype für Business Server 2019, 106.000 Benutzer in einem Pool mit sechzehn Front-End-Servern) eingegeben, aber Sie sollten diese Werte ändern entsprechen Sie der Anforderungen Ihrer Organisation.
+Der Rechner ist eine Microsoft Excel-Kalkulationstabelle. Die Felder für Ihre Eingaben sind orangefarben gehalten. Standardwerte werden in die Zellen (für Skype for Business Server 2015, 80.000-Benutzer in einem Pool mit zwölf Front-End-Servern, während für Skype for Business Server 2019, 106.000-Benutzer in einem Pool mit sechzehn Front-End-Servern) eingegeben, aber Sie sollten diese Werte in den Anforderungen Ihrer Organisation entsprechen.
   
 Das Nutzungsmodell enthält die folgenden Abschnitte. Damit Sie Ihre Kapazitätsanforderungen berechnen können, geben Sie Daten gemäß der Beschreibung von oben nach unten zeilenweise ein: 
   
  **Chat und Anwesenheit (Instant Messaging/Presence, IM/P)**
   
-- Geben Sie unter **Anzahl der Nutzer** die Anzahl von Nutzern ein, die gleichzeitig angemeldet sein werden. Diese Anzahl entspricht meist 80 % der Gesamtzahl der bereitgestellten Nutzer. In den meisten Situationen werden 100 % der gleichzeitigen Nutzer für Chat und Anwesenheit aktiviert. Der Standardwert ist 80.000 für Skype für Business Server 2015 und 106.000 Benutzer für Skype für Business Server 2019.
+- Geben Sie unter **Anzahl der Nutzer** die Anzahl von Nutzern ein, die gleichzeitig angemeldet sein werden. Diese Anzahl entspricht meist 80 % der Gesamtzahl der bereitgestellten Nutzer. In den meisten Situationen werden 100 % der gleichzeitigen Nutzer für Chat und Anwesenheit aktiviert. Der Standardwert ist 80.000 für Skype for Business Server 2015 und 106.000-Benutzer für Skype for Business Server 2019.
     
 - **Durchschnittliche Anzahl von Kontakten in der Kontaktliste** gibt die Anzahl von Kontakten an, die zur Überprüfung Ihrer Systemanforderungen verwendet wird. Diese Anzahl ist festgelegt und sollte von Ihnen nicht geändert werden.
     
@@ -56,7 +56,7 @@ Das Nutzungsmodell enthält die folgenden Abschnitte. Damit Sie Ihre Kapazitäts
     
 - Geben Sie in **Prozentsatz der Anrufe, die Medienumgehung nutzen** den Prozentsatz der Anrufe ein, die von Ihren Nutzern getätigt, aber nicht über den Vermittlungsserver abgewickelt werden. Der Standardwert ist 65 %, könnte aber niedriger ausfallen, wenn Sie geografisch weit verteilt sind oder einen hohen Prozentsatz an Nutzern haben, die zu Hause arbeiten.
     
-- **Prozentsatz der VoIP-Benutzer beteiligt UC-PSTN-Anrufe**Geben Sie den Prozentsatz der Anrufe von Ihrer Organisation die UC-zu-PSTN-Anrufe sind. Der Standardwert ist 60 %.
+- Geben Sie in **Prozent der Sprachbenutzer, die an UC-PSTN-anrufen beteiligt**sind, den Prozentsatz der Anrufe Ihrer Organisation ein, bei denen es sich um UC-PSTN-Telefonanrufe handelt. Der Standardwert ist 60 %.
     
 - **In Prozentsatz der VoIP-Nutzer, die an UC-UC-Anrufen beteiligt sind** ist der Prozentsatz der Nutzer enthalten, die zwar für Enterprise-VoIP, aber nur für UC-UC-Anrufe aktiviert sind. Diese Anzahl wird auf Basis des Werts berechnet, den Sie in **Prozentsatz der VoIP-Nutzer, die an UC-PSTN-Anrufen beteiligt sind** eingegeben haben. 
     
@@ -74,15 +74,15 @@ Das Nutzungsmodell enthält die folgenden Abschnitte. Damit Sie Ihre Kapazitäts
     
   - Wenn 20 % Ihrer Konferenzen auch Multiview-Videoelemente umfassen, aktivieren Sie das Kontrollkästchen **Einschließlich Multiview**.
     
-  - Wenn 50 % der Konferenzen VoIP auch die Anwendungsfreigabe angegeben wird, aktivieren Sie das Kontrollkästchen **einschließlich Anwendungsfreigabe** .
+  - Wenn 50% Ihrer VoIP-Konferenzen auch die Anwendungsfreigabe einschließen, aktivieren Sie das Kontrollkästchen **Anwendungsfreigabe einbeziehen** .
     
   - Wenn 20 % Ihrer VoIP-Konferenzen Datenuploads umfassen, zum Beispiel Microsoft PowerPoint-Präsentationen, aktivieren Sie das Kontrollkästchen **Einschließlich Webkonferenzen**.
     
   **Mobilität**
   
-- **Prozentsatz der Benutzer für Mobilität aktiviert sind**Geben Sie den Prozentsatz der Benutzer die Verbindung mit Skype für Business Server mit mobilen Geräten aktiviert wird. Der Standardwert ist 40 %. 
+- Geben Sie in **Prozent der Benutzer, die für Mobilität aktiviert**sind, den Prozentsatz der Benutzer ein, die für die Verbindung mit Skype for Business Server mithilfe von mobilen Geräten aktiviert werden. Der Standardwert ist 40 %. 
     
-Wenn Sie alle erforderliche Informationen eingegeben haben, schätzt die kapazitätsrechner für Ihre Anforderungen an. Die gelben Zellen anzeigen berechneten Werte für CPU, Arbeitsspeicher und bandbreitenanforderungen basierend auf in Skype für Business Server Performance Übungseinheiten ausgeführten Tests. Nummern werden bereitgestellt als Richtlinie nicht jedes einzelne Variante getestet und validiert. Die folgenden Werte werden berechnet: 
+Wenn Sie alle erforderlichen Informationen eingegeben haben, schätzt der Kapazitäts Rechner Ihre Anforderungen. Die gelben Zellen zeigen berechnete Werte für CPU-, Arbeitsspeicher-und Bandbreitenanforderungen basierend auf Tests, die in Skype for Business Server Performance Labs ausgeführt werden. Die Zahlen werden als Richtlinie bereitgestellt, nicht jede einzelne Variation wird getestet und validiert. Die folgenden Werte werden berechnet: 
   
 - **Front-End-CPU:** Prozentsatz der CPU-Nutzung, wenn die gesamte Last von einem Front-End-Server verarbeitet wurde, der dieselben Spezifikationen hat wie der Server, der für die Tests verwendet wurde (siehe Beschreibung am Ende dieses Themas).
     
@@ -92,7 +92,7 @@ Wenn Sie alle erforderliche Informationen eingegeben haben, schätzt die kapazit
     
 In den grünen Zellen werden Empfehlungen für das Nutzungsmodell angezeigt, das Sie eingegeben haben. 
   
-- **Insgesamt Front-End-Server**: die Anzahl der physischen Servern erforderlich, basieren auf dedizierten Servern, die mit Skype für Business Server 2015 mit Dualprozessor, Hex-Core mit 2,260 Megazyklen oder Skype für Business Server 2019 mit Intel Xeon E5-2673 v3, dual Hex-Core-Prozessor.
+- **Gesamtzahl der Front-End-Server**: die Anzahl der erforderlichen physikalischen Server basiert auf dedizierten Servern, auf denen Skype for Business Server 2015 mit Dualprozessor, Hex-Core, 2.260 Megazyklen oder Skype for Business Server 2019 mit Intel Xeon E5-2673 v3, Dual Prozessor, Hex-Core.
     
     Es wird empfohlen, Hyperthreading zu aktivieren, denn damit lässt sich nachweislich die Leistung von Servern verbessern, die Audio/Video unterstützen.
     
@@ -112,7 +112,7 @@ Die Zeile neben „Gesamtzahl der Front-End-Server“ enthält zusätzlich weite
     
 ### <a name="adjusting-for-your-processors"></a>Anpassen an Ihre Prozessoren
 
-Alle, die die CPU-Auslastung Zahlen in der Kalkulationstabelle wird davon ausgegangen, dass jede Skype für Business Server 2015 Server Dualprozessor, Hex-Core mit 2,26 GHz, mindestens 32 GB Arbeitsspeicher und 8 oder mehr 10.000 u/min Festplatten mit mindestens 72 GB freier Speicherplatz. Für jede Skype für Business Server 2019 Server auf dem Datenträger, die CPU-Auslastung Zahlen in der Kalkulationstabelle wird davon ausgegangen, dass jeder Server verfügt über eine dual-Prozessor, Hex-Core mit Intel Xeon E5-2673 v3, mindestens 64 GB Speicher, und 8 oder mehr 10.000 u/min Festplatten mit mindestens 72 GB frei, s Geschwindigkeit.
+Bei allen CPU-Nutzungszahlen in der Kalkulationstabelle wird davon ausgegangen, dass jeder Skype for Business Server 2015-Server über einen Dualprozessor, einen Hex-Core mit 2,26 GHz, mindestens 32 GB Arbeitsspeicher sowie 8 oder mehr 10.000-rpm-Festplattenlaufwerke mit mindestens 72 GB freiem Speicherplatz verfügt. Für jeden Skype for Business Server 2019-Server wird davon ausgegangen, dass jeder Server über einen Dualprozessor, einen Hex-Core mit Intel Xeon E5-2673 v3, mindestens 64 GB Arbeitsspeicher und 8 oder mehr 10.000-rpm-Festplattenlaufwerke mit mindestens 72 GB freiem Datenträger verfügt. Tempo.
   
 Wenn Ihre Server andere Prozessoren haben, können Sie die Werte entsprechend Ihrer Hardware anpassen.
   

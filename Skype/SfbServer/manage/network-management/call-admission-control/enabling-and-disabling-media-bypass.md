@@ -4,77 +4,77 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Verwenden Sie die Verfahren in diesem Artikel zum Aktivieren oder deaktivieren die medienumgehung mithilfe der Skype für Business Server-Systemsteuerung.
-ms.openlocfilehash: 57d0c601775861d948c950db4b429aca4d988da7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Führen Sie die in diesem Artikel beschriebenen Verfahren aus, um die medienumgehung mithilfe des Skype for Business Server-Control Panels zu aktivieren oder zu deaktivieren.
+ms.openlocfilehash: acfa963e71f3c3b89d0e79648d00871b1ab44616
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888436"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279585"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Aktivieren und Deaktivieren der Medienumgehung in Skype for Business Server
 
-Verwenden Sie die Verfahren in diesem Artikel zum Aktivieren oder deaktivieren die medienumgehung mithilfe der Skype für Business Server-Systemsteuerung.
+Führen Sie die in diesem Artikel beschriebenen Verfahren aus, um die medienumgehung mithilfe des Skype for Business Server-Control Panels zu aktivieren oder zu deaktivieren.
 
-## <a name="enable-network-media-bypass"></a>Aktivieren der netzwerkmedienumgehung 
+## <a name="enable-network-media-bypass"></a>Aktivieren der Netzwerkmedien Umgehung 
 
-Einstellungen für die medienumgehung gelten global für einen Skype für Business Server-Bereitstellung. Die medienumgehung lässt Aufrufe Umgehung des Vermittlungsservers. Ausführliche Informationen zur Verwendung von Medien zu umgehen, finden Sie unter [Plan für Medien zu umgehen](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
+Medienumgehungseinstellungen gelten global für eine Skype for Business Server-Bereitstellung. Die medienumgehung ermöglicht Anrufe, den Vermittlungs Server zu umgehen. Ausführliche Informationen zur Verwendung der medienumgehung finden Sie unter [Planen der medienumgehung](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
 
-Sie können aktivieren und Konfigurieren der medienumgehung aus der Skype Business Server-Systemsteuerung.
+Sie können die medienumgehung über das Skype Control Panel für Unternehmens-Server aktivieren und konfigurieren.
 
 
-### <a name="to-enable-and-configure-media-bypass"></a>Zum Aktivieren und Konfigurieren der medienumgehung
+### <a name="to-enable-and-configure-media-bypass"></a>So aktivieren und konfigurieren Sie die medienumgehung
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Global**.
 
-4.  Klicken Sie auf der Seite **Global** auf die Konfiguration **Global** . Es ist immer nur eine Konfiguration, und es heißt immer Global.
+4.  Klicken Sie auf der Seite **Global** auf die **globale** Konfiguration. Es gibt immer nur eine Konfiguration, und Sie wird immer als "Global" bezeichnet.
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 
-6.  Klicken Sie auf der Seite **Globale Einstellungen bearbeiten** das Kontrollkästchen **medienumgehung aktivieren** .
+6.  Klicken Sie auf der Seite **globale Einstellungen bearbeiten** auf das Kontrollkästchen **medienumgehung aktivieren** .
 
 7.  Wählen Sie eine der folgenden Optionen aus:
     
-      - **Immer umgehen**   wählen Sie diese Option, um Medien versuchen für alle Anrufe zu umgehen. Diese Option wird nicht verfügbar, wenn die anrufsteuerung (CAC) aktiviert ist. Wenn CAC nicht aktiviert ist, wählen Sie diese Option in den folgenden Situationen:
+      - **Immer umgehen**   wählen Sie diese Option aus, um bei allen Anrufen medienumgehung zu versuchen. Diese Option steht nicht zur Verfügung, wenn die Anrufsteuerung (Call Admission Control, CAC) aktiviert ist. Wenn CAC nicht aktiviert ist, wählen Sie diese Option in den folgenden Fällen aus:
         
-          - Besteht keine Notwendigkeit zur bandbreitensteuerung.
+          - Die Bandbreitensteuerung ist nicht erforderlich.
         
-          - Es besteht keine Notwendigkeit abgestimmte Konfiguration, um zu bestimmen, wann Umgehung geschehen soll.
+          - Es besteht keine Notwendigkeit für eine fein abgestimmte Konfiguration, um festzustellen, wann eine Umgehung erfolgen soll.
         
-          - Es ist vollständige Konnektivität zwischen Gateways und Clients.
+          - Es besteht eine vollständige Konnektivität zwischen Gateways und Clients.
     
-      - **Verwenden Sie Standorte und Regionen**   wenn CAC aktiviert ist, diese Option ist standardmäßig aktiviert und kann nicht geändert werden. Wenn diese Option ausgewählt ist, werden netzwerkkonfigurationsstandorte und Regionen verwendet werden, um zu bestimmen, wann die medienumgehung möglich ist. Wenn Sie diese Option auswählen, können Sie auswählen, um Umgehung für Websites zu aktivieren, die nicht zugeordnet werden. Klicken Sie auf das Kontrollkästchen **Umgehung für nicht zugeordnete Standorte aktivieren** nur, wenn Sie verfügen über eine oder mehrere große Standorte derselben Region zugeordnet, die keine bandbreiteneinschränkungen (beispielsweise einem großen zentralen Standort) und Ihnen auch einige Zweigniederlassungen zugeordnet die derselben Region, die bandbreiteneinschränkungen aufweisen. Wenn Sie aktivieren für nicht zugeordnete Standorte umgehen, Konfiguration wird optimiert, da Sie nur die die Zweigniederlassungen zugeordnete Subnetze angeben, statt dass alle Subnetze angeben müssen alle Websites zugeordnet. Es wird empfohlen, dass Sie das Kontrollkästchen **Umgehung für nicht zugeordnete Standorte aktivieren** nicht auswählen, wenn die Anrufsteuerung aktiviert ist.
+      - **Verwenden von Websites und der Regions Konfiguration**   wenn CAC aktiviert ist, ist diese Option standardmäßig aktiviert und kann nicht geändert werden. Wenn diese Option ausgewählt ist, werden Netzwerk Konfigurations Websites und-Regionen verwendet, um zu ermitteln, wann eine medienumgehung möglich ist. Wenn Sie diese Option auswählen, können Sie die Umgehung für Websites aktivieren, die nicht zugeordnet sind. Aktivieren Sie das Kontrollkästchen **Umgehung für nicht zugeordnete Websites aktivieren** nur, wenn Sie über eine oder mehrere große Websites verfügen, die dem gleichen Bereich zugeordnet sind, die keine Bandbreiteneinschränkungen aufweisen (beispielsweise eine große zentrale Website), und auch einige Verzweigungs Websites zugeordnet sind, die dem dieselbe Region mit Bandbreiteneinschränkungen. Wenn Sie die Umgehung für nicht zugeordnete Websites aktivieren, wird die Konfiguration optimiert, da Sie nur die Subnetze angeben, die den Zweigstellen zugeordnet sind, anstatt alle Subnetze anzugeben, die allen Websites zugeordnet sind. Wir empfehlen, dass Sie das Kontrollkästchen **Bypass für nicht zugeordnete Websites aktivieren** nicht aktivieren, wenn CAC aktiviert ist.
 
-8.  Klicken Sie auf **Commit** , um die Änderungen zu speichern.
+8.  Klicken Sie auf **Commit** , um Ihre Änderungen zu speichern.
 
 
-## <a name="disable-network-media-bypass"></a>Deaktivieren der netzwerkmedienumgehung
+## <a name="disable-network-media-bypass"></a>Deaktivieren der Netzwerkmedien Umgehung
 
-Einstellungen für die medienumgehung gelten global für einen Skype für Business Server-Bereitstellung. Die medienumgehung lässt Aufrufe Umgehung des Vermittlungsservers. Ausführliche Informationen zur Verwendung von Medien zu umgehen, finden Sie unter [Plan für Medien zu umgehen](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). Sie können die medienumgehung über die Skype Business Server-Systemsteuerung deaktivieren. 
+Medienumgehungseinstellungen gelten global für eine Skype for Business Server-Bereitstellung. Die medienumgehung ermöglicht Anrufe, den Vermittlungs Server zu umgehen. Ausführliche Informationen zur Verwendung der medienumgehung finden Sie unter [Planen der medienumgehung](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). Sie können die medienumgehung über das Skype Control Panel für Unternehmen-Server deaktivieren. 
 
 
 ### <a name="to-disable-media-bypass"></a>So deaktivieren Sie die medienumgehung
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Global**.
 
-4.  Klicken Sie auf der Seite **Global** auf die Konfiguration **Global** . Es ist immer nur eine Konfiguration, und es heißt immer Global.
+4.  Klicken Sie auf der Seite **Global** auf die **globale** Konfiguration. Es gibt immer nur eine Konfiguration, und Sie wird immer als "Global" bezeichnet.
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 
-6.  Deaktivieren Sie auf der Seite **Globale Einstellungen bearbeiten** das Kontrollkästchen **medienumgehung aktivieren** .
+6.  Deaktivieren Sie auf der Seite **globale Einstellungen bearbeiten** das Kontrollkästchen **medienumgehung aktivieren** .
 
-7.  Klicken Sie auf **Commit** , um die Änderungen zu speichern.
+7.  Klicken Sie auf **Commit** , um Ihre Änderungen zu speichern.
 
   

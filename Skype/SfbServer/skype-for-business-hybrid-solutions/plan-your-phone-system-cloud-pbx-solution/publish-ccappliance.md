@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
 description: 'Das Cmdlet „Publish-CcAppliance“ ruft Informationen zur hohen Verfügbarkeit aus der Onlinemandantenkonfiguration ab und veröffentlicht sie in der Skype for Business Cloud Connector Edition-Appliance auf dem Hostserver. '
-ms.openlocfilehash: 119b5e816555eedf221d9db06be15e6a778936d4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 2fd17e2afdceabc8fbfb44a808b7e6c9ce6bd894
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879805"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287160"
 ---
 # <a name="publish-ccappliance"></a>Publish-CcAppliance
  
@@ -35,7 +35,7 @@ Keine
 
 ### <a name="example-1"></a>Beispiel 1
 
-Im folgenden Beispiel wird hohe Verfügbarkeit aus der online-Mandantenkonfiguration abgerufen und an die Cloud Connector Appliance auf dem Hostserver veröffentlicht wird:
+Im folgenden Beispiel werden Informationen zu einer höheren Verfügbarkeit aus der Konfiguration des Online Mandanten abgerufen und in der Cloud Connector-Appliance auf dem Hostserver veröffentlicht:
   
 ```
 Publish-CcAppliance

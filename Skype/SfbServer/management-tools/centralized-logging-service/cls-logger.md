@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/25/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
-description: 'Zusammenfassung: Erfahren Sie, wie die Protokollierung Centralized Logging Service (CLS) in Skype für Business Server 2015 verwenden.'
-ms.openlocfilehash: 9edaf9d8528e03577fa54bb02f876aac017a4146
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Protokollierung für zentralisierte Protokollierungsdienste (CLS) in Skype for Business Server 2015 verwenden.'
+ms.openlocfilehash: 496f30bdcedeb491bd5bfa211f08c04853b49bf8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915003"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274464"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger für Skype for Business Server 2015
  
-**Zusammenfassung:** Erfahren Sie, wie die Protokollierung Centralized Logging Service (CLS) in Skype für Business Server 2015 verwenden.
+**Zusammenfassung:** Erfahren Sie, wie Sie die Protokollierung für zentralisierte Protokollierungsdienste (CLS) in Skype for Business Server 2015 verwenden.
   
 CLS Logger ist ein Tool, das Sie bei der Verwaltung der durch den zentralisierten Protokollierungsdienst generierten Protokolle unterstützt.
   
@@ -37,7 +37,7 @@ Damit CLS Logger ordnungsgemäß verwendet werden kann, müssen folgende Vorauss
 
 Überprüfen Sie den Protokollierungsstatus mithilfe der folgenden Befehle:
   
-1. Wählen Sie auf der Registerkarte "Beenden/Starten Szenarien" eine Gruppierung von Pools und/oder Computern in der Strukturansicht Topologie.
+1. Wählen Sie auf der Registerkarte "Start/Stopp-Szenarien" eine Gruppierung von Pools und/oder Computern in der Topologie-Strukturansicht aus.
     
 2. Klicken Sie auf die Schaltfläche „Logging Status“ (Protokollierungsstatus).
     
@@ -47,7 +47,7 @@ Damit CLS Logger ordnungsgemäß verwendet werden kann, müssen folgende Vorauss
 
 So starten Sie ein vorhandenes Szenario
   
-1. Wählen Sie auf der Registerkarte "Beenden/Starten Szenarien" ein vorhandenes Szenario aus dem Dropdownmenü Szenarien.
+1. Wählen Sie auf der Registerkarte "Start/Stopp-Szenarien" im Dropdownmenü Szenarien ein vorhandenes Szenario aus.
     
 2. Wählen Sie eine Gruppe von Pools und/oder Computern in der Strukturansicht „Topology“ (Topologie) aus.
     
@@ -61,7 +61,7 @@ So starten Sie ein vorhandenes Szenario
 
 So beenden Sie ein vorhandenes Szenario
   
-1. Wählen Sie auf der Registerkarte "Beenden/Starten Szenarien" ein vorhandenes Szenario aus dem Dropdownmenü Szenarien.
+1. Wählen Sie auf der Registerkarte "Start/Stopp-Szenarien" im Dropdownmenü Szenarien ein vorhandenes Szenario aus.
     
 2. Wählen Sie eine Gruppe von Pools und/oder Computern in der Strukturansicht „Topology“ (Topologie) aus.
     
@@ -73,7 +73,7 @@ So beenden Sie ein vorhandenes Szenario
   
 ## <a name="search-for-logs"></a>Suchen Sie nach Protokollen
 
-Um nach Protokollen gesucht, wählen Sie die Registerkarte "Suche CLS Protokolle", und klicken Sie auf die Schaltfläche "Suche speichern" nach der angezeigten Felder ausfüllen, wie unten beschrieben:
+Wenn Sie nach Protokollen suchen möchten, wählen Sie den Reiter "CLS-Logs Durchsuchen" und klicken Sie auf die Schaltfläche "Protokolle Durchsuchen", nachdem Sie die angezeigten Felder wie unten beschrieben gefüllt haben:
   
 > **Log File Folder** (Protokolldateiordner): Der Ordner, in dem die Ergebnisse der Protokollsuche gespeichert werden (erforderlich)
 > 
@@ -111,7 +111,7 @@ Um nach Protokollen gesucht, wählen Sie die Registerkarte "Suche CLS Protokolle
   
 ## <a name="create-a-scenario"></a>Erstellen Sie ein Szenario
 
-1. Die Registerkarte **Szenarien bearbeiten** klicken auf die Schaltfläche **Szenario erstellen** .
+1. Klicken Sie auf der Registerkarte **Szenarien bearbeiten** auf die Schaltfläche **Szenario erstellen** .
     
     > [!NOTE]
     > Beim Erstellen eines neuen Szenarios wird die Konfiguration des aktuell ausgewählten Szenarios geklont. Wenn Sie vor Erstellen eines neuen Szenarios auf **Einstellungen löschen** klicken, beginnt das System ohne ausgewählte Komponenten und Flags.

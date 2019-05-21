@@ -1,39 +1,39 @@
 ---
-title: Zusammenfassungsbericht über Peer-zu-Peer-Aktivität in Skype für Business Server
+title: Bericht "Peer-to-Peer-Aktivitätszusammenfassung" in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
-description: 'Zusammenfassung: Informationen Sie zu den zusammenfassenden Bericht über Peer-zu-Peer-Aktivität in Skype für Business Server.'
-ms.openlocfilehash: 9b0ef6cdb430fcd6c1fdf278e31133b9ba22ef9f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Bericht Peer-to-Peer-Aktivitätszusammenfassung in Skype for Business Server.'
+ms.openlocfilehash: dd11e5d998c8aef779b98cc0a74ba83a4dc70d84
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925215"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279894"
 ---
-# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Zusammenfassungsbericht über Peer-zu-Peer-Aktivität in Skype für Business Server
+# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Bericht "Peer-to-Peer-Aktivitätszusammenfassung" in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den zusammenfassenden Bericht über Peer-zu-Peer-Aktivität in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den Bericht Peer-to-Peer-Aktivitätszusammenfassung in Skype for Business Server.
   
-Der zusammenfassende Bericht über Peer-to-Peer-Aktivität bietet eine Übersicht über Peer-to-Peer-Kommunikationssitzungen. Eine Peer-zu-Peer-Sitzung in der Regel nur zwei Benutzer umfasst, und erfordert die Verwendung von der Skype für Konferenzdienste Business Server nicht. Demgegenüber erstellt eine Konferenz in der Regel umfasst mehr als zwei Benutzern und erfordert die Verwendung von Skype für Konferenzdienste Business Server. Konferenzaktivität wird im zusammenfassenden Konferenzbericht gemeldet.
+Der zusammenfassende Bericht über Peer-to-Peer-Aktivität bietet eine Übersicht über Peer-to-Peer-Kommunikationssitzungen. Eine Peer-to-Peer-Sitzung umfasst in der Regel nur zwei Benutzer und erfordert keine Verwendung der Skype for Business Server-Konferenzdienste. Im Vergleich dazu umfasst eine Konferenz in der Regel mehr als zwei Benutzer und erfordert die Verwendung von Skype for Business Server-Konferenzdiensten. Konferenzaktivität wird im zusammenfassenden Konferenzbericht gemeldet.
   
 Der zusammenfassende Bericht über Peer-to-Peer-Aktivität hilft Ihnen bei der Beantwortung der folgenden Fragen:
   
 - Wie viele Peer-to-Peer-Chatnachrichten senden meine Benutzer an einem normalen Tag?
     
-- Sind meine Benutzer tatsächlich nutzen die Skype für Business Server-Anwendung-Freigabe und -Dateiübertragungsfunktionen?
+- Nutzt der Benutzer tatsächlich die Vorteile der Skype for Business Server-Anwendungsfreigabe und der Dateiübertragungsfunktionen?
     
 - Die Benutzer haben sich darüber beklagt, dass das Netzwerk zu bestimmten Tageszeiten langsam ist. Wie viele Minuten werden in diesen Zeiten für Peer-to-Peer-Audio-/Videositzungen aufgewendet?
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>Zugriff auf den zusammenfassenden Bericht über Peer-to-Peer-Aktivität
 
-Auf den zusammenfassenden Bericht über Peer-to-Peer-Aktivität greifen Sie über die Startseite für Überwachungsberichte zu. Öffnen Sie den [Bericht für Peer-zu-Peer-Sofortnachrichten in Skype für Business Server](im-report.md) , indem Sie auf eine der folgenden Metriken:
+Auf den zusammenfassenden Bericht über Peer-to-Peer-Aktivität greifen Sie über die Startseite für Überwachungsberichte zu. Sie öffnen den [Peer-zu-Peer-Chat Bericht in Skype for Business Server](im-report.md) , indem Sie auf eine der folgenden Metriken klicken:
   
 - Peer-to-Peer-Chatsitzungen insgesamt
     

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,19 +12,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
-description: Informieren Sie sich über das Feature beschäftigt Optionen in Skype für Business Server.
-ms.openlocfilehash: a95604c929cc2c73962f252584def364307dd425
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Informieren Sie sich über das Feature "beschäftigte Optionen" in Skype for Business Server.
+ms.openlocfilehash: 8e88b4bf3b92c7fea9bcf79822e2711ff3bee7de
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895545"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277104"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Planen der Beschäftigt-Optionen für Skype for Business Server
  
-Informieren Sie sich über das Feature beschäftigt Optionen in Skype für Business Server.
+Informieren Sie sich über das Feature "beschäftigte Optionen" in Skype for Business Server.
   
-Wird eine neue VoIP-Richtlinie eingeführt beschäftigt Optionen in der Juli 2016 kumulative Update, mit dem Sie zum Konfigurieren eingehender Anrufe verarbeitet werden, wenn ein Benutzer ist bereits in einem Anruf oder einer Konferenz oder ein Anruf in die Warteschleife gestellt. Neue oder eingehende Anrufe können mit einem Besetztzeichen abgelehnt oder an die Voicemail weitergeleitet werden. 
+"Busy Options" ist eine neue VoIP-Richtlinie, die im kumulativen Update vom Juli 2016 eingeführt wurde, mit dem Sie konfigurieren können, wie eingehende Anrufe gehandhabt werden, wenn sich ein Benutzer bereits in einem Anruf oder einer Konferenz befindet oder wenn ein Anruf in Wartestellung gesetzt wurde. Neue oder eingehende Anrufe können mit einem Busy-Signal zurückgewiesen oder an die Voicemail weitergeleitet werden. 
   
 Die Richtlinie für Beschäftigt-Optionen wird für Failover- und Notfallwiederherstellung in gepaarten Front-End-Pools und Survivable Branch Servers (SBS) unterstützt.
   
@@ -38,15 +38,15 @@ Wenn Beschäftigt-Optionen für die Organisation aktiviert wurden, können alle 
     
 - Voicemail wenn beschäftigt: Eingehende Anrufe werden an Voicemail weitergeleitet, wenn der Benutzer beschäftigt ist.
     
-Die Beschäftigt-Optionen stellen Failover-Möglichkeiten bereit. Wenn ein Problem auftritt, und Benutzer ein Failover auf einen anderen Front-End-Server oder in einen anderen Pool in Skype für Business Server, werden deren beschäftigt Optionen Einstellungen beibehalten.
+Die Beschäftigt-Optionen stellen Failover-Möglichkeiten bereit. Wenn ein Problem auftritt und Benutzer einen Failover zu einem anderen Front-End-Server oder zu einem anderen Pool in Skype for Business Server durchführen, bleiben die Einstellungen für die busy-Optionen erhalten.
   
 Unabhängig von der Konfiguration der Beschäftigt-Optionen haben Benutzer, die sich in einem Anruf oder einer Konferenz befinden bzw. einen Anruf halten, die Möglichkeit, neue Anrufe oder Konferenzen zu beginnen.   
   
-Nach der Konfiguration ist die Einstellung beschäftigt Optionen für Skype für Business Anruf Geräte und Clients des Benutzers aktiviert. Auf der Grundlage der festgelegten Beschäftigt-Optionen des Benutzers ertönt bei Ablehnung oder Senden an Voicemail des Anrufs kein Klingelton auf den Anrufgeräten – einschließlich Macintosh, Windows Desktop, Mobilclients oder IP-Telefonen –, bei denen der Benutzer angemeldet ist. 
+Nach der Konfiguration ist die Einstellung "busy Options" für alle Skype for Business-Anruf Geräte und-Clients des Benutzers gültig. Auf der Grundlage der festgelegten Beschäftigt-Optionen des Benutzers ertönt bei Ablehnung oder Senden an Voicemail des Anrufs kein Klingelton auf den Anrufgeräten – einschließlich Macintosh, Windows Desktop, Mobilclients oder IP-Telefonen –, bei denen der Benutzer angemeldet ist. 
   
-Die Benutzer sehen Benachrichtigungen über verpasste Anrufe auf ihren Skype für Business-Clients und Geräten, und Benutzer werden informiert per e-Mail sowie. Anrufer, dessen Aufruf aufgrund beschäftigt auf beschäftigt abgelehnt wurde, sieht eine Benachrichtigung in ihren Skype für Business-Client, die besagt, dass der Benutzer, den sie verwenden wollten, klicken Sie auf einen weiteren Anruf ausgelastet ist.
+Benutzern werden Benachrichtigungen über verpasste Anrufe auf Ihren Skype for Business-Clients und-Geräten angezeigt, und Sie werden ebenfalls per e-Mail benachrichtigt. Anrufern, deren Anruf wegen busy on Busy abgelehnt wurde, wird in Ihrem Skype for Business-Client eine Benachrichtigung angezeigt, die besagt, dass der Nutzer, den Sie erreichen wollten, bei einem anderen Anruf beschäftigt ist.
   
-Sie können das Feature beschäftigt Optionen mithilfe von Skype für Business-PowerShell-Cmdlets zu konfigurieren:
+Sie können das Feature "busy-Optionen" mithilfe von Skype for Business PowerShell-Cmdlets konfigurieren, um Folgendes zu tun:
   
 - VoIP-Richtlinie der Beschäftigt-Optionen für das Unternehmen aktivieren oder deaktivieren.
     
@@ -60,7 +60,7 @@ Sie können das Feature beschäftigt Optionen mithilfe von Skype für Business-P
     
 ## <a name="interoperability-with-voice-applications"></a>Interoperabilität mit VoIP-Anwendungen
 
-Ausgelastet Optionen bietet Interoperabilität mit den folgenden VoIP-Anwendungen in Skype für Unternehmen:
+Busy-Optionen bieten Interoperabilität mit den folgenden Sprachanwendungen in Skype for Business:
   
 - Reaktionsgruppen
     
@@ -74,7 +74,7 @@ Ausgelastet Optionen bietet Interoperabilität mit den folgenden VoIP-Anwendunge
     
 - Teamanruf
     
-  - Eingehende Anrufe für Benutzer, die für einen Teamanruf eingerichtet sind, werden priorisiert werden, um auf beschäftigt beschäftigt und Voicemail auf beschäftigt Einstellungen ignoriert.
+  - Eingehende Anrufe an Benutzer, die für einen Teamanruf eingerichtet sind, werden priorisiert, um busy für busy und Voicemail auf busy-Einstellungen zu ignorieren.
     
   - Die derzeitige Teamanruferfahrung bleibt unverändert, wenn Beschäftigt-Optionen für die Benutzer festgelegt sind.
     
@@ -82,7 +82,7 @@ Ausgelastet Optionen bietet Interoperabilität mit den folgenden VoIP-Anwendunge
     
 - Delegierung für Chef/Verwaltung  
     
-  - Eingehende Anrufe für Benutzer, die für eine Vorgesetztenverwaltung/Delegierung entweder als Vorgesetzten oder ein Administrator eingerichtet sind Prioritäten zugewiesen beschäftigt auf beschäftigt und Voicemail auf beschäftigt Einstellungen ignoriert.
+  - Eingehende Anrufe an Benutzer, die für eine Boss/Administrator-Delegierung entweder als Boss oder als Administrator eingerichtet sind, werden priorisiert, wenn busy und Voicemail auf busy-Einstellungen ignoriert werden.
     
   - Die derzeitige Erfahrung bei Delegierung für Chef/Verwaltung bleibt unverändert, wenn Beschäftigt-Optionen für die Administratoren oder Chefs festgelegt sind.
     
@@ -92,7 +92,7 @@ Ausgelastet Optionen bietet Interoperabilität mit den folgenden VoIP-Anwendunge
     
   - Festgelegte Beschäftigt-Optionen für Benutzerkonten, die mit der Funktion „Gemeinsame Leitungen“ eingerichtet sind, werden ignoriert.  
     
-  - Freigegebene Zeile Darstellung systemeigene beschäftigt auf beschäftigt und Voicemail zu stark ausgelastet Optionen werden stattdessen erfüllt.
+  - Die Darstellung der freigegebenen Zeile für "beschäftigt" und "Voicemail" auf "busy"-Optionen wird stattdessen berücksichtigt.
     
 - Anrufparkdienst  
     

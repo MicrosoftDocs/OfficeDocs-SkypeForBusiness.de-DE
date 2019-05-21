@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeploySchemaPrepIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
-description: Um den Vorgang zum Erweitern des Schemas für Skype für Business Server 2015 zu starten, starten Sie auf der Seite Schema vorbereiten. Klicken Sie auf Weiter, um die Schemavorbereitung fortzusetzen.
-ms.openlocfilehash: 67be60cabf989216ac699d4cec8243267e333843
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Um die Aufgabe zum Erweitern des Schemas für Skype for Business Server 2015 zu starten, beginnen Sie auf der Seite Schema vorbereiten. Klicken Sie auf Weiter, um die Schemavorbereitung fortzusetzen.
+ms.openlocfilehash: e30d51fbc57e1efaf6a060fba0f0a61a162b1797
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888289"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284906"
 ---
 # <a name="prepare-schema-intro"></a>Vorbereiten des Schemas (Einführung)
  
-Um den Vorgang zum Erweitern des Schemas für Skype für Business Server 2015 zu starten, starten Sie auf der Seite **Schema vorbereiten** . Klicken Sie auf **Weiter**, um die Schemavorbereitung fortzusetzen.
+Um die Aufgabe zum Erweitern des Schemas für Skype for Business Server 2015 zu starten, beginnen Sie auf der Seite **Schema vorbereiten** . Klicken Sie auf **Weiter**, um die Schemavorbereitung fortzusetzen.
   
 

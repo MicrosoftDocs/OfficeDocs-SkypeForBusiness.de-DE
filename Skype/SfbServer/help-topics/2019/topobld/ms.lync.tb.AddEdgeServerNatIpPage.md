@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddEdgeServerNatIpPage
@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 ROBOTS: NOINDEX, NOFOLLOW
-description: Die öffentliche IP-Adresse ist die IP-Adresse, die von der Netzwerkadressübersetzung (NAT) verwendet wird. Die IP-Adresse muss öffentlich routingfähig sein. Dies ist erforderlich, da Sie die externe IP-Adresse für diese Kante ausgewählt haben, den Pool von NAT-Option auf der Seite Select Features dieses Assistenten übersetzt wird.
-ms.openlocfilehash: 4f27af53c8075db48d0774ea67c389802ee56e24
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Die öffentliche IP-Adresse ist die IP-Adresse, die von NAT (Netzwerkadressübersetzung) verwendet wird. Die IP-Adresse muss öffentlich geroutet werden. Dies ist erforderlich, da Sie auf der Seite "Features auswählen" des Assistenten die Option "externe IP-Adresse dieses Edge-Pools wird durch NAT übersetzt" ausgewählt haben.
+ms.openlocfilehash: ee70d335c4c8819b7c8b9661315646c98816bd9c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889038"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278613"
 ---
 # <a name="add-edge-server-nat-ip"></a>Hinzufügen der NAT-IP-Adresse des Edgeservers
 
-Die öffentliche IP-Adresse ist die IP-Adresse, die von der Netzwerkadressübersetzung (NAT) verwendet wird. Die IP-Adresse muss öffentlich routingfähig sein. Dies ist erforderlich, da Sie **die externe IP-Adresse für diesen edgepool wird von NAT übersetzt** Option auf der Seite **Features auswählen** des Assistenten ausgewählt haben.
+Die öffentliche IP-Adresse ist die IP-Adresse, die von NAT (Netzwerkadressübersetzung) verwendet wird. Die IP-Adresse muss öffentlich geroutet werden. Dies ist erforderlich, da Sie auf der Seite **"Features auswählen** " des Assistenten die Option " **externe IP-Adresse dieses Edge-Pools wird durch NAT übersetzt** " ausgewählt haben.
 
 > [!NOTE]
-> Netzwerkadressübersetzung (NAT) ermöglicht es Clients oder Server in einem privaten Netzwerk (beispielsweise die 192.168.0.0 Bereich) über das öffentliche Internet-Netzwerke mit Systemen in remote-Netzwerken kommunizieren. NAT funktioniert, indem Sie eine einzelne öffentliche IP-Adresse für eine externe Schnittstelle verwenden und eine öffentliche IP-Adresse interne IP-Adressen zugeordnet. NAT-Zuordnung ordnet eine interne Adresse die externe öffentliche IP-Adresse zu. Das Remotesystem erhält nur die öffentliche Adresse der Quelle. Das Remotesystem reagiert auf die Datenquelle, und die Datenquelle bezieht sich auf die NAT-Zuordnung zu bestimmen, welche interne IP-Adresse, der die Antwort an zurückgegeben werden sollen.
+> Netzwerkadressübersetzung (Network Address Translation, NAT) ermöglicht Clients oder Servern in einem privaten Netzwerk (beispielsweise dem 192.168.0.0-Bereich), mit Systemen in Remotenetzwerken über die öffentlichen Internet Netzwerke zu kommunizieren. NAT funktioniert mithilfe einer einzelnen öffentlichen IP-Adresse auf einer externen Schnittstelle und dem zuordnen interner IP-Adressen zu einer öffentlichen IP-Adresse. Bei der NAT-Zuordnung wird der externen öffentlichen IP-Adresse eine interne Adresse zugeordnet. Das Remote System sieht nur die öffentliche Adresse der Quelle. Das Remote System reagiert auf die Quelle, und die Quelle verweist auf die NAT-Zuordnung, um zu ermitteln, an welche interne IP-Adresse die Antwort zurückgegeben werden soll.
 
 Sie können Unterstützung für den externen Benutzerzugriff beim Bereitstellen der anfänglichen Topologie oder zu einem späteren Zeitpunkt hinzufügen. Ausführliche Informationen zum Hinzufügen von Edgeservern zu einer vorhandenen Topologie finden Sie in der Edgeserver-Bereitstellungsdokumentation unter [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
 

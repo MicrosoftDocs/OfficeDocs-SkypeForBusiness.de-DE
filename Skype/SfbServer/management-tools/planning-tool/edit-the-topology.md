@@ -5,45 +5,45 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/5/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Nach Beantwortung der anfänglichen Fragen können Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) und die IP-Adressen der Website bearbeiten. Machen Sie hierzu auf der Seite Globale Topologie einen Doppelklick auf den Standort, den Sie bearbeiten möchten.
-ms.openlocfilehash: 9dcc8f2f69843de5d824ad3df614631ea0d50c20
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 91a7ad51c66d810255fcc3239d25298bd370501f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915059"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274289"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Edit the topology in Skype for Business Server 2015
 
 Nach Beantwortung der anfänglichen Fragen können Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) und die IP-Adressen der Website bearbeiten. Machen Sie hierzu auf der Seite **Globale Topologie** einen Doppelklick auf den Standort, den Sie bearbeiten möchten.
 
-Das Planungstool zeigt die Standorttopologie für den ausgewählten Standort. Im unteren Bereich der Seite für den Standort werden vier Registerkarten angezeigt:
+Das Planungs Tool zeigt die Standorttopologie für die ausgewählte Website an. Im unteren Bereich der Seite für den Standort werden vier Registerkarten angezeigt:
 
-![Planungstool – Standorttopologie](../../media/Planning_Tool_Site_Topology.png)
+![Standorttopologie des Planungstools](../../media/Planning_Tool_Site_Topology.png)
 
-- Standorttopologie - die aktuell angezeigte Seite mit einer optischen Übersicht der empfohlenen Topologie.
+- Website Topologie – die aktuell angezeigte Seite mit einer visuellen Übersicht über die Topologie, wie empfohlen.
 
-- Edge-Netzwerkdiagramm - Edge-Netzwerkdiagramm Seite ist, in dem der Designer die meisten Aufgaben im Planungstool wird. Das Diagramm zeigt die Netzwerkkonfiguration für einen empfohlenen Skype für Business Server 2015 Topologie, mit bearbeitbaren Einträge für IP-Adressen und FQDNs für Server, Pool, und sowohl Hardware und Domain Name System (DNS) Lastenausgleich.
+- Edge-Netzwerkdiagramm – auf der Seite "Edge-Netzwerkdiagramm" werden die meisten Arbeiten des Designers im Planungs Tool ausgeführt. Das Diagramm zeigt die Netzwerkkonfiguration einer empfohlenen Skype for Business Server 2015-Topologie mit bearbeitbaren Einträgen für IP-Adressen und FQDNs für Server, Pool sowie Hardware-und DNS-Lastenausgleichssysteme (Domain Name System) an.
 
-- Edgeverwaltungsbericht – der Edgeverwaltungsbericht insgesamt vier Berichte enthält:
+- Edge-Administrator Bericht – der Bericht Edge-Administrator enthält insgesamt vier Berichte:
 
-     ![Seite für Edge – Verwaltungsbericht](../../media/Planning_Tool_Summary_Report.png)
+     ![Seite "Edge-Administrator Bericht"](../../media/Planning_Tool_Summary_Report.png)
 
-  - Zusammenfassungsbericht - Bericht für allgemeine Einstellungen für die Edge-Netzwerkkonfiguration. Wenn Sie auf der Seite **Edge-Netzwerkdiagramm** die TCP-IP- und FQDN-Werte der Topologie in die der tatsächlichen Bereitstellung ändern, werden diese Adressen und Namen hier dargestellt. Andernfalls wird hier der Standardtext angezeigt.
+  - Zusammenfassungsbericht – ein allgemeiner Bericht über die Einstellungen für die Edge-Netzwerkkonfiguration. Wenn Sie auf der Seite **Edge-Netzwerkdiagramm** die TCP-IP- und FQDN-Werte der Topologie in die der tatsächlichen Bereitstellung ändern, werden diese Adressen und Namen hier dargestellt. Andernfalls wird hier der Standardtext angezeigt.
 
-  - Zertifikatbericht – der zertifikatbericht führt den Antragstellernamen und alternative Antragstellernamen für Zertifikate, die für die Topologie erforderlich sind.
+  - Zertifikat Bericht – im Zertifikat Bericht werden der Antragstellername und die alternativen Namen für die Zertifikate aufgelistet, die für die Topologie erforderlich sind.
 
-  - Firewallbericht - firewallbericht werden die notwendigen Informationen zum Konfigurieren von Firewalls Umkreisnetzwerk in der Infrastruktur aufgelistet. Diese umfassen die IP-Adressen (entweder die Standardwerte oder die bearbeiteten Werte), Serverrolle, Quell-IP und Port, Ziel-IP und Port, Transportprotokoll, Anwendungsprotokoll und relevante Hinweise.
+  - Firewallbericht – der firewallbericht enthält Informationen, die für die Konfiguration von Umkreisfirewalls in der Infrastruktur erforderlich sind. Diese umfassen die IP-Adressen (entweder die Standardwerte oder die bearbeiteten Werte), Serverrolle, Quell-IP und Port, Ziel-IP und Port, Transportprotokoll, Anwendungsprotokoll und relevante Hinweise.
 
-  - DNS-Bericht - DNS-Bericht listet relevanten Informationen für die DNS-Einträge, die Sie erstellen müssen. Hierzu zählen Eintragstyp, FQDN, IP-Adresse und Hinweise zum ordnungsgemäßen Betrieb.
+  - DNS-Bericht – im DNS-Bericht sind relevante Informationen zu den DNS-Einträgen aufgeführt, die Sie erstellen müssen. Hierzu zählen Eintragstyp, FQDN, IP-Adresse und Hinweise zum ordnungsgemäßen Betrieb.
 
-- Siteübersicht - der Siteübersicht liefert eine Übersicht über die Elemente, die Sie durch die anfänglichen Interview Fragen beantworten oder die Werte in den **Entwurf von Standorten**ausfüllen vorgenommen haben. Es werden auch Kapazitätsinformationen angezeigt.
+- Website Zusammenfassung: die Website Zusammenfassung zeigt eine Übersicht über die von Ihnen vorgenommenen Auswahlen, indem Sie entweder die ersten Fragen des Interviews beantwortet oder die Werte in **Design Websites**ausgefüllt haben. Es werden auch Kapazitätsinformationen angezeigt.
 
     > [!NOTE]
     > Die Informationen auf der Seite mit der Standortzusammenfassung sind auf den jeweiligen Entwurf zugeschnitten und enthält möglicherweise nicht alle Abschnitte oder Informationen, die hier besprochen werden.
@@ -51,11 +51,11 @@ Das Planungstool zeigt die Standorttopologie für den ausgewählten Standort. Im
 ## <a name="edit-the-network-configuration-diagram"></a>Bearbeiten des Netzwerkkonfigurationsdiagramms
 <a name="Edit_Network_diagram"> </a>
 
-Die meisten Aufgaben, die ein Designer in der Skype für Business Server 2015 Planungstool umfasst das definieren die Einträge für die IP-Adressen und den vollqualifizierten Domänennamen (FQDNs) für die Einträge im Netzplandiagramm. In den Berichten und andere Informationen in das Planungstool übertragenen Informationen, die auf dieser Seite eingegeben wird.
+Der größte Teil der Arbeit, die ein Designer im Planungs Tool von Skype for Business Server 2015 durchführt, besteht darin, die Einträge für die IP-Adressen und vollqualifizierten Domänennamen (FQDNs) für die Einträge im Netzplandiagramm zu definieren. Die Informationen, die auf dieser Seite eingegeben werden, werden in die Berichte und andere Informationen übernommen, die im Planungs Tool enthalten sind.
 
-![Planungstool – Netzwerk (Diagramm)](../../media/Planning_Tool_Network_Diagram.png)
+![Planungs Tool-Netzwerkdiagramm](../../media/Planning_Tool_Network_Diagram.png)
 
-Das Planungstool erstellt ein Netzwerkdiagramm mit Standardtext für IP-Adressen und FQDNs.
+Das Planungs Tool erstellt ein Netzwerkdiagramm mit Standardtext für IP-Adressen und FQDNs.
 
 So bearbeiten Sie das Netzwerkdiagramm und geben Werte ein
 
@@ -77,7 +77,7 @@ Eine nützliche Funktion des Planungstools ist die, dass ein Bereich von IP-Adre
 
 Nachdem Sie die Bearbeitung abgeschlossen haben, speichern Sie die Topologie, indem Sie folgende Schritte ausführen:
 
-Um das Planungstool Design zu speichern, klicken Sie auf **Datei**und dann auf **Topologie speichern** oder **Topologie speichern unter**. Falls ein Dialogfeld **Planungstool speichern unter** angezeigt wird, geben Sie in **Dateiname** einen Namen für die Datei ein und klicken Sie auf **Speichern**.
+Wenn Sie das Planungs Tool Design speichern möchten, klicken Sie auf **Datei**, und klicken Sie dann auf **Topologie speichern** oder **Topologie speichern**unter. Falls ein Dialogfeld **Planungstool speichern unter** angezeigt wird, geben Sie in **Dateiname** einen Namen für die Datei ein und klicken Sie auf **Speichern**.
 
 ## <a name="see-also"></a>Siehe auch
 <a name="Edit_Network_diagram"> </a>

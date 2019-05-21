@@ -1,54 +1,54 @@
 ---
-title: Verwalten von netzwerkregionsrouten
+title: Verwalten von Routen im Netzwerkbereich
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Eine netzwerkregionenroute definiert die Route zwischen zwei netzwerkregionen. Jedem netzwerkregionenpaar in der die Bereitstellung der anrufsteuerung erfordert eine netzwerkregionenroute.
-ms.openlocfilehash: 53b6383e08196fb22784f3fcd1e8d797c9b138de
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Eine Netzwerk Regions Route definiert die Route zwischen zwei netzwerkregionen. Für jedes Paar von netzwerkregionen in der Bereitstellung für die Anrufsteuerung ist eine Netzwerk Regions Route erforderlich.
+ms.openlocfilehash: 174fdd021655f3e338001582a1409107b266582e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888849"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279508"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Verwalten von Netzwerkregionsrouten in Skype for Business Server
 
-Eine *netzwerkregionenroute* definiert die Route zwischen zwei netzwerkregionen. Jedem netzwerkregionenpaar in der die Bereitstellung der anrufsteuerung erfordert eine netzwerkregionenroute. So kann jede Netzwerkregion innerhalb der Bereitstellung auf alle anderen Regionen zugreifen. Verwenden Sie die Verfahren in diesem Artilce zum Anzeigen, erstellen, ändern oder Löschen von netzwerkregionenrouten.
+Eine *Netzwerk Regions Route* definiert die Route zwischen zwei netzwerkregionen. Für jedes Paar von netzwerkregionen in der Bereitstellung für die Anrufsteuerung ist eine Netzwerk Regions Route erforderlich. So kann jede Netzwerkregion innerhalb der Bereitstellung auf alle anderen Regionen zugreifen. Verwenden Sie die Verfahren in diesem Artilce, um Netzwerkbereichs Routen anzuzeigen, zu erstellen, zu ändern oder zu löschen.
 
-## <a name="view-network-region-route-information"></a>Informationen zur Ansicht netzwerkregion route 
+## <a name="view-network-region-route-information"></a>Anzeigen von Routeninformationen zu netzwerkregionen 
 
-Jeder Region innerhalb einer Call Admission Control (, CAC) Konfiguration benötigen eine Möglichkeit zum Zugriff auf allen anderen Regionen. Während die regionenverbindungen bandbreiteneinschränkungen für Verbindungen zwischen Regionen festlegen und auch die physischen Links darstellen, bestimmt eine Route welche verknüpften Pfad, der die Verbindung von einer Region zur anderen nimmt wird. Verwenden Sie die folgenden Verfahren zum Anzeigen von vorhandenen netzwerkregionsrouten in Skype für Business Server-Systemsteuerung oder Skype für Business Server-Verwaltungsshell. 
+Jede Region innerhalb einer Anruf Steuerungskonfiguration muss über eine Möglichkeit verfügen, auf jede andere Region zuzugreifen. Während die Region Links die Bandbreiteneinschränkungen für die Verbindungen zwischen Regionen festlegen und auch die physischen Links darstellen, bestimmt eine Route, welchen verknüpften Pfad die Verbindung von einem Bereich zu einer anderen durchlaufen wird. Gehen Sie wie folgt vor, um vorhandene Netzwerkbereichs Routen in der Skype for Business Server-Systemsteuerung oder in der Skype for Business Server-Verwaltungsshell anzuzeigen. 
 
-### <a name="to-view-network-region-route-information-in-skype-for-business-server-control-panel"></a>Zum Anzeigen von Informationen zur netzwerkregion Route in Skype Business Server-Systemsteuerung
+### <a name="to-view-network-region-route-information-in-skype-for-business-server-control-panel"></a>So zeigen Sie netzwerkregion-Routeninformationen in der Skype for Business Server-Systemsteuerung an
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Regionenroute**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Regions Route**.
 
-4.  Klicken Sie auf der Seite **Regionenroute** auf die regionenroute, die Sie anzeigen möchten.
+4.  Klicken Sie auf der Seite **Route des Bereichs** auf die Route, die Sie anzeigen möchten.
 
 
     > [!NOTE]  
-    > Sie können nur jeweils eine regionsroute anzeigen.
+    > Sie können jeweils nur eine Regions Route anzeigen.
 
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 
 
-### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Informationen zu Netzwerkregionsrouten mithilfe von Windows PowerShell-Cmdlets
+### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Routeninformationen des Netzwerkbereichs mithilfe von Windows PowerShell-Cmdlets
 
-Informationen zur netzwerkregion Route kann mithilfe von Windows PowerShell und das Cmdlet Get-CsNetworkInterRegionRoute angezeigt werden. Dieses Cmdlet kann von der Skype für Business Server-Verwaltungsshell oder von einer remote Windows PowerShell-Sitzung ausgeführt werden. 
+Netzwerkregion-Routeninformationen können mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkInterRegionRoute angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
-### <a name="to-view-network-region-route-information"></a>So zeigen Sie Informationen zur netzwerkregion Route an
+### <a name="to-view-network-region-route-information"></a>So zeigen Sie netzwerkregion-Routeninformationen an
 
-  - Informationen zu allen netzwerkregionsrouten anzeigen möchten, geben Sie den folgenden Befehl in der Skype für Business Server-Verwaltungsshell, und drücken Sie die EINGABETASTE:
+  - Wenn Sie Informationen zu allen Routen des Netzwerkbereichs anzeigen möchten, geben Sie in der Skype for Business Server-Verwaltungsshell den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE:
     
         Get-CsNetworkInterRegionRoute
     
@@ -60,73 +60,73 @@ Informationen zur netzwerkregion Route kann mithilfe von Windows PowerShell und 
         NetworkRegionID1          : Pacific Northwest
         NetworkRegionID2          : Northeast
 
-Weitere Informationen finden Sie im Hilfethema für das Cmdlet [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute) .
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute) .
 
 
-## <a name="create-or-modify-network-region-routes"></a>Erstellen oder Ändern von netzwerkregionsrouten
+## <a name="create-or-modify-network-region-routes"></a>Erstellen oder Ändern von Netzwerkbereichs Routen
 
-Jeder Region innerhalb einer Call Admission Control (, CAC) Konfiguration benötigen eine Möglichkeit zum Zugriff auf allen anderen Regionen. Während die regionenverbindungen bandbreiteneinschränkungen für Verbindungen zwischen Regionen festlegen und auch die physischen Links darstellen, bestimmt eine Route welche verknüpften Pfad, der die Verbindung von einer Region zur anderen nimmt wird. Die Skype Business Server-Systemsteuerung können Sie netzwerkregionsrouten konfigurieren. Aus der Skype Business Server-Systemsteuerung können Sie erstellen, ändern oder löschen eine netzwerkregionenroute. Verwenden Sie dieses Thema zum Erstellen oder Ändern einer netzwerkregionenroute. 
+Jede Region innerhalb einer Anruf Steuerungskonfiguration muss über eine Möglichkeit verfügen, auf jede andere Region zuzugreifen. Während die Region Links die Bandbreiteneinschränkungen für die Verbindungen zwischen Regionen festlegen und auch die physischen Links darstellen, bestimmt eine Route, welchen verknüpften Pfad die Verbindung von einem Bereich zu einer anderen durchlaufen wird. Sie können die Skype for Business Server-Systemsteuerung verwenden, um Strecken des Netzwerkbereichs zu konfigurieren. Über die Skype for Business Server-Systemsteuerung können Sie eine Netzwerk Regions Route erstellen, ändern oder löschen. Verwenden Sie dieses Thema, um eine Netzwerk Regions Route zu erstellen oder zu ändern. 
 
-### <a name="to-create-a-network-region-route"></a>Erstellen Sie eine netzwerkregionenroute
+### <a name="to-create-a-network-region-route"></a>So erstellen Sie eine Netzwerk Regions Route
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Regionenroute**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Regions Route**.
 
-4.  Klicken Sie auf der Seite **Regionenroute** auf **neu**.
+4.  Klicken Sie auf der Seite **Region Route** auf **neu**.
 
-5.  Geben Sie in **neue Regionenroute**einen Wert in das Feld **Name** ein.
+5.  Geben **** Sie in das Feld Name einen Wert in das Feld **Name** ein.
    
     > [!NOTE]  
-    > Dieser Wert muss innerhalb Ihrer Skype für Business Server-Bereitstellung eindeutig sein.
+    > Dieser Wert muss innerhalb Ihrer Skype for Business Server-Bereitstellung eindeutig sein.
 
-6.  Aus der **netzwerkregion \#1** Dropdown-Listenfeld, wählen Sie eine der zwei Regionen aus, die über diese Route verbunden werden.
+6.  Wählen Sie in der Dropdownliste **netzwerkregion \#1** einen der beiden Regionen aus, die mit dieser Route verbunden werden sollen.
 
-7.  Aus der **netzwerkregion \#2** Dropdown-Liste, wählen Sie die anderen Region für diese Route. Diese Region muss die Region für die netzwerkregion ausgewählt anders \#1.
+7.  Wählen Sie in der Dropdownliste **netzwerkregion \#2** den anderen Bereich für diese Route aus. Diese Region muss sich von der für netzwerkregion \#1 ausgewählten Region unterscheiden.
 
-8.  Verwenden Sie das Listenfeld **netzwerkregionenverbindungen** , regionenverbindungen der Route hinzuzufügen. Klicken Sie auf die Schaltfläche **Hinzufügen** , um die Seite **Regionenverbindung** anzuzeigen. Klicken Sie auf einer regionenverbindung Route hinzufügen, und klicken Sie dann auf **OK**.
+8.  Verwenden Sie das Listenfeld **Netzwerk Gebiets Links** , um der Route Bereichs Links hinzuzufügen. Klicken Sie auf die Schaltfläche **Hinzufügen** , um die Seite **Regions Link** anzuzeigen. Klicken Sie auf einen Regions Link, der zu dieser Route hinzugefügt werden soll, und klicken Sie dann auf **OK**.
     
     > [!NOTE]  
-    > Weiterhin klicken Sie auf die Schaltfläche **Hinzufügen** , um weitere Verbindungen hinzuzufügen, oder wählen Sie einen Link, und klicken Sie auf **Entfernen** , um eine Verbindung zu entfernen.
+    > Klicken Sie weiter auf die Schaltfläche **Hinzufügen** , um weitere Links hinzuzufügen, oder wählen Sie einen Link aus, und klicken Sie auf **Entfernen** , um einen Link zu entfernen.
 
 9.  Klicken Sie auf **Commit ausführen**.
 
 
-### <a name="to-modify-a-network-region-route"></a>So ändern Sie eine netzwerkregionenroute
+### <a name="to-modify-a-network-region-route"></a>So ändern Sie eine Route des Netzwerkbereichs
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Regionenroute**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Regions Route**.
 
-4.  Klicken Sie auf der Seite **Regionenroute** auf die regionenroute, die Sie ändern möchten.
+4.  Klicken Sie auf der Seite **Region Route** auf die Route, die Sie ändern möchten.
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 
-6.  In **Regionenroute bearbeiten**können Sie über diese Route verbundenen Regionen und die der Route zugeordneten regionenverbindungen ändern.
+6.  In der **Route "Region bearbeiten**" können Sie die Regionen ändern, die mit dieser Route verbunden sind, und die der Route zugeordneten Regions Verknüpfungen.
 
 7.  Klicken Sie auf **Commit ausführen**.
 
 
-## <a name="delete-existing-network-region-routes"></a>Löschen von vorhandenen netzwerkregionsrouten
+## <a name="delete-existing-network-region-routes"></a>Löschen vorhandener Strecken des Netzwerkbereichs
 
-Jeder Region innerhalb einer Call Admission Control (, CAC) Konfiguration benötigen eine Möglichkeit zum Zugriff auf allen anderen Regionen. Während die regionenverbindungen bandbreiteneinschränkungen für Verbindungen zwischen Regionen festlegen und auch die physischen Links darstellen, bestimmt eine Route welche verknüpften Pfad, der die Verbindung von einer Region zur anderen nimmt wird. Die Skype Business Server-Systemsteuerung können Sie netzwerkregionsrouten konfigurieren. Aus der Skype Business Server-Systemsteuerung können Sie erstellen, ändern oder löschen eine netzwerkregionenroute. Verwenden Sie in diesem Thema, um vorhandene netzwerkregionsrouten zu löschen. 
+Jede Region innerhalb einer Anruf Steuerungskonfiguration muss über eine Möglichkeit verfügen, auf jede andere Region zuzugreifen. Während die Region Links die Bandbreiteneinschränkungen für die Verbindungen zwischen Regionen festlegen und auch die physischen Links darstellen, bestimmt eine Route, welchen verknüpften Pfad die Verbindung von einem Bereich zu einer anderen durchlaufen wird. Sie können die Skype for Business Server-Systemsteuerung verwenden, um Strecken des Netzwerkbereichs zu konfigurieren. Über die Skype for Business Server-Systemsteuerung können Sie eine Netzwerk Regions Route erstellen, ändern oder löschen. Verwenden Sie dieses Thema, um vorhandene Netzwerkbereichs Routen zu löschen. 
 
-### <a name="to-delete-a-network-region-route"></a>So löschen Sie eine netzwerkregionenroute
+### <a name="to-delete-a-network-region-route"></a>So löschen Sie eine Route des Netzwerkbereichs
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Regionenroute**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Regions Route**.
 
-4.  Klicken Sie auf der Seite **Regionenroute** auf die regionenroute, die Sie löschen möchten.
+4.  Klicken Sie auf der Seite **Region Route** auf die Route, die Sie löschen möchten.
 
     > [!NOTE]  
-    > Sie können mehrere regionenroute zu einem Zeitpunkt löschen. Zu diesem Zweck, drücken Sie STRG, und wählen Sie mehrere Routen zwischen Regionen aus, während Sie die STRG-Taste gedrückt halten. Oder, um alle Routen zwischen Regionen auszuwählen, klicken Sie auf **Alles markieren** im Menü **Bearbeiten** .
+    > Sie können mehr als eine Regions Route gleichzeitig löschen. Drücken Sie dazu STRG, und wählen Sie mehrere Bereichs Routen aus, während Sie die STRG-Taste gedrückt halten. Wenn Sie alle Regions Routen auswählen möchten, klicken Sie im Menü **Bearbeiten** auf **Alle auswählen** .
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Löschen**.
 

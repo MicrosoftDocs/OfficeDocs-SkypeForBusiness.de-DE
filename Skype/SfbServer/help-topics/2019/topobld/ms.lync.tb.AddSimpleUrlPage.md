@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddSimpleUrlPage
@@ -12,24 +12,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
-description: Um die Definition der Bereitstellung weitere einfache URLs hinzuzufügen, geben Sie die URL der neuen einfache URL.
-ms.openlocfilehash: 21261bf0704824e986df6211fc95b9a8bf004f9f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Wenn Sie der Definition der Bereitstellung weitere einfache URLs hinzufügen möchten, geben Sie die URL der neuen einfachen URL an.
+ms.openlocfilehash: b254768b7e8aea358b78c7fc263d8eacacea7814
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912190"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276244"
 ---
 # <a name="add-simple-url"></a>Hinzufügen einfacher URLs
  
-Um die Definition der Bereitstellung weitere einfache URLs hinzuzufügen, geben Sie die URL der neuen einfache URL. Das Format der URL lautet http:// _\<einfache URL-Typ\>.\< Domänenname\> _ oder _http://\<Domänennamen\>/\<einfache URL-Typ\>_, wobei der einfache URL-Typ eine der folgenden ist:
+Wenn Sie der Definition der Bereitstellung weitere einfache URLs hinzufügen möchten, geben Sie die URL der neuen einfachen URL an. Das Format der URL ist _http://\<einfacher URL-Typ\>.\< Domain Name\> _ oder _http://\<Domain Name\>/\<Simple URL Type\>_, wobei der einfache URL-Typ einer der folgenden ist:
   
-- Erfüllen
+- Treffen
     
-- Wählen Sie sich
+- Einwahl
     
 > [!IMPORTANT]
-> Sie können eine einwählen und einfache URL und eine einfache Meet-URL können Sie jederzeit aktiven haben. Hinzufügen einer neuen einfachen URL und leicht als aktive URL werden alle zukünftige Anforderungen an die neue, einfache URL verwenden festgelegt. Lassen Sie die inaktiven einfache URL zur Verarbeitung von Konferenzen und anderen Anforderungen, die vorgenommen wurden, die älter sind einfache URL aktiv war. 
+> Sie können ein Dial in einer einfachen URL und eine einfache URL zu einem beliebigen Zeitpunkt aktivieren. Durch das Hinzufügen einer neuen einfachen URL und das Erstellen der aktiven URL werden alle zukünftigen Anforderungen für die Verwendung der neuen einfachen URL eingestellt. Sie beurlauben die nicht aktive einfache URL für die Behandlung von Konferenzen und anderen Anforderungen, die durchgeführt wurden, als die ältere einfache URL aktiv war. 
   
 
 

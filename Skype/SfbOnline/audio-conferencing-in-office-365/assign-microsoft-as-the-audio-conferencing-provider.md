@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 0cbfe5fec234ab237bd0c6bf108cfaa968685f0f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e779b3f9aaf5c88bb64e1045f5743e4c4a238d50
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229404"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273727"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Zuweisen von Microsoft als Audiokonferenzanbieter
 
@@ -41,16 +41,16 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
 
 ### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Verwenden des Skype for Business Admin Center
 
-1. Wechseln Sie zu der **Microsoft-Teams, Administrationscenter** > **Legacy-Portal**.
+1. Wechseln Sie zum **Microsoft Teams Admin Center** > **Legacy-Portal**.
     
-2. Navigieren Sie in der **Skype für Business Administrationscenter**, im linken Navigationsbereich zu **Audiokonferenzen**.
+2. Wechseln Sie im **Skype for Business Admin Center**in der linken Navigationsleiste zu Audiokonferenzen. ****
     
 3. If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**. If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.
     
-4. Wählen Sie auf der Eigenschaftenseite für den Benutzer, klicken Sie unter **Anbietername** **Microsoft** in der Dropdown-Liste.
+4. Wählen Sie auf der Seite Eigenschaften für den Benutzer unter **Anbietername**den Eintrag **Microsoft** in der Dropdownliste aus.
     
     > [!NOTE]
-    > Da die Verwendung von Microsoft als Anbieter von Audiokonferenzen und mehrere Telefonnummern vorhanden sind, können Sie die Dropdownliste **Standard gebührenpflichtige Nummer** verwenden, um eine Standardnummer audio für den Benutzer auszuwählen.
+    > Da Sie Microsoft als Anbieter von Audiokonferenzen verwenden und mehrere Telefonnummern vorhanden sind, können Sie die standardmäßige Dropdownliste für die **gebührenpflichtige Rufnummer** verwenden, um eine Standard-audionummer für den Benutzer auszuwählen.
   
 5. Klicken Sie auf **Speichern**.
 
@@ -65,7 +65,7 @@ Um Zeit zu sparen oder den Vorgang zu automatisieren, können Sie mit dem folgen
 > Wenn Sie den Anbieter in **Microsoft** ändern, werden die Audiokonferenzinformationen für den Benutzer (Konferenzkennung, gebührenpflichtige und gebührenfreie Telefonnummern) ersetzt. Sie sollten diese Informationen speichern, bevor Sie den Anbieter ändern. 
 
   
-Um den Anbieter an Microsoft für eine kleine Anzahl von Benutzern zu ändern, können Sie das Cmdlet [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) verwenden.
+Wenn Sie den Anbieter für eine kleine Anzahl von Benutzern zu Microsoft ändern möchten, können Sie das Cmdlet [enable-csonlinedialinconferencinguser zeigt](https://technet.microsoft.com/en-us/library/mt243813.aspx) verwenden.
   
 
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>Verwenden eines Windows PowerShell-Skripts für eine große Anzahl von Benutzern
@@ -89,7 +89,7 @@ Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-**Beispiel 3:** In diesem Beispiel können dieses Skript Sie zum Ändern der Anbieter von Audiokonferenzen aus Intercall (oder einen anderen Anbieter) **Microsoft** für eine große Anzahl Benutzer in Ihrer Organisation.
+**Beispiel 3:** In diesem Beispiel können Sie mit diesem Skript den Audiokonferenz-Anbieter von InterCall (oder einem anderen Anbieter) zu **Microsoft** für eine große Anzahl von Benutzern in Ihrer Organisation ändern.
     
   ```
   Script.ps1 -ACPProviderName <Provider>

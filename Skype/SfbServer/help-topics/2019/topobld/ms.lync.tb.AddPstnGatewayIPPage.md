@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddPstnGatewayIPPage
@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
-description: Sie definieren die IPv4 oder IPv6-Adressen für das Gateway IP-Adresse oder Telefonnummer switched Telephone Network, (PSTN), indem Sie entweder aktivieren IPv4 oder IPv6 aktivieren auswählen. Sie können auswählen, dass entweder alle konfigurierten IP-Adressen oder Verwendung von Grenzwert ausgewählten IP-Adressen verwenden.
-ms.openlocfilehash: 4668ba0438eb312d6a42f917323fdbfc7131dea6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Sie definieren die IPv4-oder IPv6-Adressen für das IP-oder Phone Switched Telephone Network (PSTN)-Gateway, indem Sie entweder IPv4 aktivieren oder IPv6 aktivieren auswählen. Sie können entweder alle konfigurierten IP-Adressen verwenden oder die Dienstnutzung auf ausgewählte IP-Adressen einschränken.
+ms.openlocfilehash: 83df46859cb2b936feb2076f0928f7d8d0236e39
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912339"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276282"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Definieren der IP-Adresse des IP- oder PSTN-Gateways
 
-Sie definieren die IPv4 oder IPv6-Adressen für das Gateway IP-Adresse oder Telefonnummer switched Telephone Network, (PSTN), indem Sie **Aktivieren IPv4** oder **IPv6 aktivieren**auswählen. Sie können **Alle konfigurierte IP-Adressen verwenden** oder **Verwendung von Grenzwert ausgewählten IP-Adressen**auswählen.
+Sie definieren die IPv4-oder IPv6-Adressen für das IP-oder Phone Switched Telephone Network (PSTN)-Gateway, indem Sie entweder **IPv4 aktivieren** oder **IPv6 aktivieren**auswählen. Sie können entweder **alle konfigurierten IP-Adressen verwenden** oder **die Dienstnutzung auf ausgewählte IP-Adressen einschränken**.
 
-Wenn Sie **Alle konfigurierte IP-Adressen verwenden**auswählen, werden alle für das Gateway konfigurierte Adressen verwendet werden. Aktivieren Sie bei Bedarf die **Verwendung von Grenzwert zum ausgewählten IP-Adressen**, wodurch den Eintrag **PSTN-IP-Adresse** . Geben Sie die IPv4 oder IPv6-Adresse, die für dieses Gateway zugewiesen wurde.
+Wenn Sie **alle konfigurierten IP-Adressen verwenden**auswählen, werden alle auf dem Gateway konfigurierten Adressen verwendet. Optional können Sie die Option **Dienstnutzung auf ausgewählte IP-Adressen beschränken**, wodurch der Eintrag **PSTN-IP-Adresse** aktiviert wird. Geben Sie die IPv4-oder IPv6-Adresse ein, die diesem Gateway zugewiesen wurde.
 
 ## <a name="see-also"></a>Siehe auch
 
-[Zugriffsnummer für Einwahl für Webkonferenzen](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
+[Anforderungen für Einwahlkonferenzen](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)

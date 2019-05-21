@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: In Kolumbien sind die folgenden Office 365-Dienste für Skype for Business und Microsoft Teams verfügbar.
-ms.openlocfilehash: 0c376f7474f5ea1b38937ee1d2afd984e45ce5d7
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 103ce0e0bbcd1391e255df05045379786a2442eb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541496"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283130"
 ---
 # <a name="availability-in-colombia"></a>Verfügbarkeit in Kolumbien
 
@@ -44,7 +44,7 @@ In Kolumbien sind die folgenden Office 365-Dienste für Skype for Business und 
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li> Bogota</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
-|Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Kommunikation haben  <br/> |
+|Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Kommunikationsguthaben  <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
 

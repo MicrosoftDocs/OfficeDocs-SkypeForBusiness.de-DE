@@ -1,10 +1,10 @@
 ---
-title: Planen von Standortrichtlinien für Skype für Business Server
+title: Planen von Standortrichtlinien für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,28 +13,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
-description: Lesen Sie in diesem Thema erfahren, wie Business Server Enterprise-VoIP Standortrichtlinien für eine erweiterte Notfalldienste (E9-1-1)-Bereitstellung in Skype planen.
-ms.openlocfilehash: 7bb92559f79be7cb2f8c62f89620f4b93f76cb8f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: In diesem Thema erfahren Sie, wie Sie in Skype for Business Server Enterprise-VoIP Standortrichtlinien für eine erweiterte Notfalldienste (E9-1-1)-Bereitstellung planen.
+ms.openlocfilehash: 8f21a5a0f54fbeaca4c46ed51bf4dafe4c2a3dcb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924206"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276754"
 ---
-# <a name="plan-location-policies-for-skype-for-business-server"></a>Planen von Standortrichtlinien für Skype für Business Server
+# <a name="plan-location-policies-for-skype-for-business-server"></a>Planen von Standortrichtlinien für Skype for Business Server
  
-Lesen Sie in diesem Thema erfahren, wie Business Server Enterprise-VoIP Standortrichtlinien für eine erweiterte Notfalldienste (E9-1-1)-Bereitstellung in Skype planen. 
+In diesem Thema erfahren Sie, wie Sie in Skype for Business Server Enterprise-VoIP Standortrichtlinien für eine erweiterte Notfalldienste (E9-1-1)-Bereitstellung planen. 
   
 > [!NOTE]
-> Skype für Business Server unterstützt jetzt die Konfiguration von mehreren Notfall Zahlen für einen Client an. Wenn Sie mehrere Notfall Nummern konfigurieren möchten, müssen Sie die Informationen in [mehrere Notfall Zahlen in Skype für Business Server planen](multiple-emergency-numbers.md) und [Konfigurieren von mehreren Notfall Zahlen in Skype für Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)befolgen. 
+> Skype for Business Server unterstützt jetzt die Konfiguration mehrerer Notrufnummern für einen Client. Wenn Sie mehrere Notrufnummern konfigurieren möchten, müssen Sie die Informationen unter [Planen mehrerer Notrufnummern in Skype for Business Server](multiple-emergency-numbers.md) und [Konfigurieren mehrerer Notrufnummern in Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)befolgen. 
   
-Erstellen von ortungsrichtlinien mithilfe der Skype für die Business-Systemsteuerung oder mit dem [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) -Cmdlet. Weitere Informationen finden Sie unter [Erstellen von Standortrichtlinien in Skype für Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md).
+Sie erstellen Standortrichtlinien mithilfe des Skype Control Panels für Unternehmen oder mithilfe des Cmdlets [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) . Weitere Informationen finden Sie unter [Erstellen von Standortrichtlinien in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md).
   
 Jede Standortrichtlinie enthält die folgenden Informationen:
   
  **Erweiterte Notfalldienste aktivieren**
   
-Wenn dieser Wert aktiviert ist, wird der Client für erweiterte Notfalldienste (E9-1-1) aktiviert. Wenn ein Client registriert, versucht, einen Speicherort aus dem Dienst Standortinformationen zu erhalten und berücksichtigt die Standortinformationen als Teil eines Notrufs.
+Wenn dieser Wert aktiviert ist, ist der Client für erweiterte Notfalldienste (E9-1-1) aktiviert. Wenn ein Client registriert wird, versucht er, einen Standort vom standortinformationsdienst abzurufen, und die Standortinformationen werden als Teil eines Notrufs aufgenommen.
   
  **Standort**
   
@@ -53,25 +53,25 @@ Sie können die Einstellung **Standort** wie folgt konfigurieren, um das Clientv
   
  **Haftungsausschluss der erweiterten Notfalldienste**
   
-Diese Einstellung gibt den Haftungsausschluss an, der Benutzern angezeigt wird, wenn sie die Eingabeaufforderung für einen Standort verwerfen. In Skype für Business Server können Sie ortungsrichtlinie verwenden, um verschiedene Haftungsausschlüsse für unterschiedliche Gebietsschemas oder andere Gruppen von Benutzern festzulegen.
+Diese Einstellung gibt den Haftungsausschluss an, der Benutzern angezeigt wird, wenn sie die Eingabeaufforderung für einen Standort verwerfen. In Skype for Business Server können Sie mithilfe der ortungsrichtlinie unterschiedliche Haftungsausschlüsse für verschiedene Gebietsschemas oder verschiedene Gruppen von Benutzern festlegen.
   
  **Notruf-Wählzeichenfolge (Notfallnummer)**
   
-Diese Zeichenfolge Dial (weniger das führende Plus "+", aber einschließlich des Benutzers Dial Plan dazu Normalisierung) gibt an, dass ein Anruf ein Notruf ist. Die **Notrufwählzeichenfolge** veranlasst den Client, Standort- und Rückrufinformationen mit dem Anruf zu übermitteln.
+Diese Wählzeichenfolge (abzüglich des führenden "+", aber einschließlich einer Normalisierung, die vom Wählplan des Benutzers ausgeführt wird) bedeutet, dass ein Anruf ein Notruf ist. Die **Notrufwählzeichenfolge** veranlasst den Client, Standort- und Rückrufinformationen mit dem Anruf zu übermitteln.
   
 > [!NOTE]
-> Wenn Ihre Organisation ein Präfix für den externen Zeile nicht verwendet, müssen Sie keine entsprechende Dial Plan Normalisierungsregel erstellen, die ein "+" der 911 Zeichenfolge vor dem Senden des Anrufs an das Ausgangsrouting auf einem Server mit Skype für Business Server; hinzufügt "+" wird automatisch von der Skype für Business-Client als Ergebnis der Standortrichtlinie vorangestellt werden. Jedoch, wenn der Website ein Präfix für den externen Zugriff verwendet wird, müssen Sie eine Normalisierungsregel der betreffenden Dial Plan Richtlinie hinzuzufügen, die das Präfix für externen Zugriff entfernt und fügt die "+". Beispielsweise wenn Ihres Standorts für ein Präfix für externen Zugriff von 9 verwendet wird und ein Benutzer 9 911 anwählt um ein Notruf zu platzieren, der Client verwendet die Richtlinie Dial Plan dies normalisiert werden sollen, +911, bevor die gewählte Nummer durch die Routen im Standortprofil des Anrufers ausgewertet wird. 
+> Wenn in Ihrer Organisation kein Präfix für den Zugriff auf externe Leitungen verwendet wird, müssen Sie keine entsprechende Normalisierungsregel für Wählpläne erstellen, die der 911-Zeichenfolge vor dem Senden des Anrufs an ausgehendes Routing auf einem Server mit Skype for Business Server ein "+" hinzufügt. Das "+" wird dem Skype for Business-Client automatisch als Folge der ortungsrichtlinie vorangestellt. Wenn Ihre Website jedoch ein externes Zugriffs Präfix verwendet, müssen Sie der entsprechenden Wähl Plan Richtlinie eine Normalisierungsregel hinzufügen, die das Präfix für den externen Zugriff abstreift und das "+" hinzufügt. Wenn Ihr Standort beispielsweise ein Präfix für den externen Zugriff von 9 verwendet und ein Benutzer 9 911 anwählt, um einen Notruf zu tätigen, wird der Client seine Wähl Plan Richtlinie verwenden, um diese auf + 911 zu normalisieren, bevor die gewählte Nummer von den Routen im Standortprofil des Anrufers ausgewertet wird. 
   
  **Notruf-Wählzeichenfolgenmasken (Notfallnummermaske)**
   
-Eine durch Semikolons getrennte Liste mit Wählzeichenfolgen, die in die angegebene **Notrufwählzeichenfolge**übersetzt wird. Beispielsweise kann hinzuzufügenden 112, also die Anzahl der notrufunterstützung für die meisten Europa. Eine Website besucht Skype für Geschäftsbenutzer in Europa wissen möglicherweise nicht, dass 911 die Notrufnummer US ist, aber sie können 112 einwählen und erhalten dasselbe Ergebnis. Achten Sie wie ein "+" vor jeder Zahl nicht mit der Emergency Dial Zeichenfolge einschließen, und wenn Sie externe Zeile Zugriffscodes verwenden, darauf, dass in der Richtlinie des Benutzers Dial Plan an die Ziffer Zugriffscode entfernt Normalisierungsregeln vorhanden sind.
+Eine durch Semikolons getrennte Liste von Wählzeichenfolgen, die in die angegebene **Notruf Zeichenfolge**übersetzt werden. So können Sie beispielsweise 112 hinzufügen, die für den größten Teil Europas die Notrufnummer ist. Ein Besuch von Skype for Business-Benutzern aus Europa weiß möglicherweise nicht, dass 911 die US-Notfallnummer ist, aber Sie können 112 anrufen und dasselbe Ergebnis erzielen. Geben Sie wie bei der Notruf Zeichenfolge keine "+" vor jeder Zahl ein, und wenn Sie die Zugriffscodes für externe Leitungen verwenden, stellen Sie sicher, dass in der Wähl Plan Richtlinie des Benutzers Normalisierungsregeln vorhanden sind, um die Zugriffscode Ziffer abzustreifen.
   
  **PSTN-Verwendung**
   
 Der Name der PSTN-Verwendung mit den Routingpfaden, die bestimmen, an welchen SIP-Trunk bzw. an welches PSTN- oder ELIN-Gateway Notrufe weitergeleitet werden.
   
 > [!NOTE]
-> Eine ortungsrichtlinie kann nur jeweils einmal zugewiesen werden. In diesem PSTN-Verwendung überschreibt die PSTN-Verwendungen des Benutzers VoIP-Richtlinie zugewiesen, aber gilt nur für die Emergency DFÜ-Zeichenfolge oder auf eine der Emergency Dial Zeichenfolge Masken getätigte Anrufe. 
+> Einer Standortrichtlinie kann nur eine Verwendung zugewiesen werden. Diese PSTN-Nutzung überschreibt die PSTN-Nutzungen, die der VoIP-Richtlinie des Benutzers zugewiesen sind, gilt aber nur für Anrufe, die an die Notrufnummer oder an eine der Notruf-Zeichenfolgen Masken gestellt werden. 
   
  **Benachrichtigungs-URI**
   
@@ -87,6 +87,6 @@ Gibt an, ob bei der Zuschaltung des Konferenz-URI zum Notruf eine unidirektional
   
  **Standortaktualisierungsintervall**
   
-Gibt die Zeitdauer (in Stunden) zwischen Clientanforderungen für ein Location-Update aus dem Dienst Standortinformationen an. Dieser Wert kann auf einen beliebigen Wert zwischen 1 und 12 festgelegt werden. Der Standardwert lautet 4.
+Gibt die Zeitspanne (in Stunden) zwischen Clientanforderungen für ein Standort Update vom standortinformationsdienst an. Dieser Wert kann auf einen beliebigen Wert zwischen 1 und 12 festgelegt werden. Der Standardwert lautet 4.
   
 

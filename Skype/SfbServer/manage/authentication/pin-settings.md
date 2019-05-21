@@ -1,47 +1,47 @@
 ---
-title: Verwalten von PIN-Einstellungen in Skype für Business Server
+title: Verwalten von PIN-Einstellungen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
-description: 'Zusammenfassung: Verwalten von PIN-Einstellungen in Skype für Business Server.'
-ms.openlocfilehash: e7b3a4f7150ef077b1f419d72554e226f15c3d19
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Verwalten von PIN-Einstellungen in Skype for Business Server.'
+ms.openlocfilehash: 70a55c99ccb7f18820321af2ff31db7fbfd0818f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919584"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289812"
 ---
-# <a name="manage-pin-settings-in-skype-for-business-server"></a>Verwalten von PIN-Einstellungen in Skype für Business Server
+# <a name="manage-pin-settings-in-skype-for-business-server"></a>Verwalten von PIN-Einstellungen in Skype for Business Server
  
-**Zusammenfassung:** Verwalten von PIN-Einstellungen in Skype für Business Server.
+**Zusammenfassung:** Verwalten Sie die PIN-Einstellungen in Skype for Business Server.
   
-Verwenden Sie die Verfahren in den folgenden Abschnitten PINs in Skype für Business Server verwalten.
+Führen Sie die in den folgenden Abschnitten beschriebenen Verfahren aus, um Pins in Skype for Business Server zu verwalten.
   
-Sie können Skype Business Server PIN von Skype Business Server-Systemsteuerung oder Skype für Business Server-Verwaltungsshell Richtlinien verwalten. Wenden Sie zum Konfigurieren von PIN-Richtlinien für Ihre Organisation die folgenden Verfahren an.
+Sie können die PIN-Richtlinien für Skype for Business Server entweder über die Skype for Business Server-Systemsteuerung oder über die Skype for Business Server-Verwaltungsshell verwalten. Wenden Sie zum Konfigurieren von PIN-Richtlinien für Ihre Organisation die folgenden Verfahren an.
   
-- [Anzeigen von PIN-Richtlinieninformationen in Skype für Business Server](view-pin-policy-information.md)
+- [Anzeigen von PIN-Richtlinieninformationen in Skype for Business Server](view-pin-policy-information.md)
     
-- [Erstellen Sie eine neue PIN-Richtlinie in Skype für Business Server](create-a-new-pin-policy.md)
+- [Erstellen einer neuen PIN-Richtlinie in Skype for Business Server](create-a-new-pin-policy.md)
     
-- [Ändern einer vorhandenen PIN-Richtlinie in Skype für Business Server](modify-an-existing-pin-policy.md)
+- [Ändern einer vorhandenen PIN-Richtlinie in Skype for Business Server](modify-an-existing-pin-policy.md)
     
-- [Löschen Sie eine PIN-Richtlinie in Skype für Business Server](delete-a-pin-policy.md)
+- [Löschen einer PIN-Richtlinie in Skype for Business Server](delete-a-pin-policy.md)
     
-- [Weisen Sie eine benutzerbasierte PIN-Richtlinie in Skype für Business Server](assign-a-per-user-pin-policy.md)
+- [Zuweisen einer pro-Benutzer-PIN-Richtlinie in Skype for Business Server](assign-a-per-user-pin-policy.md)
     
-Verwenden Sie die folgenden Verfahren, um einwahlkonferenzen Pins der Benutzer festzulegen aus dem Abschnitt **Benutzer** Skype Business Server-Systemsteuerung zu verwalten.
+Führen Sie die folgenden Verfahren aus, um die Einwahlkonferenz-Pins der Benutzer über den Abschnitt **Benutzer** der Skype for Business Server-Systemsteuerung zu verwalten.
   
-- [Einrichten eines Benutzers einwahlkonferenzen PIN in Skype für Business Server](set-a-user-s-dial-in-conferencing-pin.md)
+- [Einrichten der PIN für Einwahlkonferenzen von Benutzern in Skype for Business Server](set-a-user-s-dial-in-conferencing-pin.md)
     
-- [Benutzer anzeigen PIN-Informationen in Skype Business Server](view-user-pin-information.md)
+- [Anzeigen von Benutzer-PIN-Informationen in Skype for Business Server](view-user-pin-information.md)
     
-- [Sperren oder Entsperren einer Benutzer-PIN in Skype für Business Server](lock-or-unlock-a-user-pin.md)
+- [Sperren oder Entsperren einer Benutzer-PIN in Skype for Business Server](lock-or-unlock-a-user-pin.md)
     
 

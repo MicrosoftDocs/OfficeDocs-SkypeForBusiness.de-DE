@@ -5,35 +5,35 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/28/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
-description: 'Zusammenfassung: Informationen Sie zum Sichern und Wiederherstellen von Datenbanken in Skype Persistent Chat Server for Business Server 2015.'
-ms.openlocfilehash: ae4f0241195eca115e5a579d55a34025e6c9da5c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie persistente Chat Server-Datenbanken in Skype for Business Server 2015 sichern und wiederherstellen.'
+ms.openlocfilehash: 07d904620bbc5925ec6457924af6ee1e48d98d55
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910361"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279361"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>Sichern und Wiederherstellen von Datenbanken für beständigen Chat in Skype for Business Server 2015
  
-**Zusammenfassung:** Informationen Sie zum Sichern und Wiederherstellen von Datenbanken in Skype Persistent Chat Server for Business Server 2015.
+**Zusammenfassung:** Erfahren Sie, wie Sie persistente Chat Server-Datenbanken in Skype for Business Server 2015 sichern und wiederherstellen.
   
-Persistent Chat-Server erfordert SQL Server-Datenbanksoftware Chatroom Daten, beispielsweise Verlauf und Inhalte, Konfiguration, benutzerbereitstellung und anderen relevanten Metadaten gespeichert. Darüber hinaus wird, wenn Ihre Organisation verfügt Vorschriften, die erfordern Persistent Chat-Aktivität archiviert werden sollen, und der optionale kompatibilitätsdienst aktiviert ist, SQL Server-Datenbanksoftware verwendet zum Speichern von Compliance-Daten, einschließlich chatinhalte und Ereignisse, wie z. B. Teilnehmen an, und lassen Chatrooms. Inhalt des Chatrooms wird in der Datenbank für beständigen Chat (Mgc) gespeichert. Die Konformitätsdaten werden in der Konformitätsdatenbank (mgccomp) gespeichert. Es handelt sich hierbei um unternehmenswichtige Daten, die regelmäßig gesichert werden sollten. 
+Der Server für beständigen Chat erfordert, dass die SQL Server-Datenbanksoftware chatroomdaten wie Verlauf und Inhalt, Konfiguration, Benutzerbereitstellung und andere relevante Metadaten speichert. Wenn Ihre Organisation zudem über Regelungen verfügt, die das Archivieren beständiger Chat Aktivitäten erfordern, und der optionale Kompatibilitätsdienst aktiviert ist, wird die SQL Server-Datenbanksoftware zum Speichern von Kompatibilitätsdaten verwendet, einschließlich Chat Inhalten und Ereignissen wie betreten und verlassen von Räumen. Chatroom-Inhalte werden in der persistent Chat-Datenbank (MGC) gespeichert. Die Konformitätsdaten werden in der Konformitätsdatenbank (mgccomp) gespeichert. Es handelt sich hierbei um unternehmenswichtige Daten, die regelmäßig gesichert werden sollten. 
   
 > [!NOTE]
-> Beständiger Chat wird steht in Skype für Business Server 2015 jedoch nicht mehr unterstützt in Skype Business Server 2019. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Weg von Skype für Unternehmen, die Microsoft-Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie Persistent Chat verwenden müssen, sind Ihrer Auswahl an Benutzer, die diese Funktionalität Teams migrieren oder weiterhin Skype für Business Server 2015 verwenden. 
+> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Reise von Skype for Business zu Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen. 
 
 ## <a name="back-up-the-databases"></a>Sichern von Datenbanken
 
-Es gibt zwei Methoden zum Sichern der Daten für beständigen Chat. 
+Es gibt zwei Möglichkeiten, persistente Chat-Daten zu sichern. 
   
 - Die SQL Server-Sicherung
     
-- Das **Export-CsPersistentChatData** -Cmdlet, das Daten für beständigen Chat als Datei exportiert
+- Das Cmdlet " **Export-CsPersistentChatData** ", das persistente Chat-Daten als Datei exportiert
     
 Die mithilfe der SQL Server-Sicherung erstellten Daten belegen sehr viel mehr – ca. 20 mal mehr – Speicherplatz als die Daten, die mit dem Cmdlet **Export-CsPersistentChatData** exportiert werden. Die SQL Server-Sicherung ist aber vermutlich das Verfahren, mit dem Sie vertraut sind.
   
@@ -59,7 +59,7 @@ Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName 
 
 ## <a name="restore-the-databases"></a>Wiederherstellen von Datenbanken
 
-Wie Sie Ihre Daten beständigen Chat wiederherstellen, hängt von der-Methode, mit der Sie eine Sicherungskopie erstellen. Wenn Sie SQL Server-Sicherungsverfahren verwendet haben, müssen Sie SQL Server-Wiederherstellungsverfahren verwenden. Wenn Sie das Cmdlet " **Export-CsPersistentChatData** " verwendet, um Daten für beständigen Chat zu sichern, müssen Sie das Cmdlet **Import-CsPersistentChatData** verwenden, um die Daten wiederherzustellen:
+Wie Sie Ihre beständigen Chat-Daten wiederherstellen, hängt von der Methode ab, die Sie zum Sichern verwendet haben. Wenn Sie SQL Server-Sicherungsverfahren verwendet haben, müssen Sie SQL Server-Wiederherstellungsverfahren verwenden. Wenn Sie das Cmdlet **Export-CsPersistentChatData** zum Sichern beständiger Chat-Daten verwendet haben, müssen Sie die Daten mithilfe des Cmdlets **Import-CsPersistentChatData** wiederherstellen:
   
 ```
 Import-CsPersistentChatData -FileName <String> <COMMON PARAMETERS>

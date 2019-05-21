@@ -1,96 +1,96 @@
 ---
-title: Verwalten der anrufsteuerung für Standorte
+title: Verwalten der Anrufsteuerung für Websites
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Netzwerkstandorte sind die Büros oder Speicherorte innerhalb jeder netzwerkregion der anrufsteuerung (CAC), E9-1-1 und Media Bypass Bereitstellungen aufrufen.
-ms.openlocfilehash: b7d554f6c85a40c084571813c88cc1d08661fa42
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Netzwerk Websites sind die Büros oder Standorte innerhalb der einzelnen netzwerkregionen der Anruf Zulassungs Steuerung (CAC), E9-1-1 und Media Bypass-Bereitstellungen.
+ms.openlocfilehash: a90781eae38d92d560dd1bf34db3b6918e8aeaf5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913405"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279543"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Verwalten der Anrufsteuerung für Standorte in Skype for Business Server
 
-Netzwerkstandorte sind die Büros oder Speicherorte innerhalb jeder netzwerkregion der anrufsteuerung (CAC), E9-1-1 und Media Bypass Bereitstellungen aufrufen. Verwenden Sie die Verfahren in diesem Artikel, um die anrufsteuerung bei den Netzwerkstandorten konfigurieren.
+Netzwerk Websites sind die Büros oder Standorte innerhalb der einzelnen netzwerkregionen der Anruf Zulassungs Steuerung (CAC), E9-1-1 und Media Bypass-Bereitstellungen. Verwenden Sie die in diesem Artikel beschriebenen Verfahren, um die Anrufsteuerung für Netzwerk Websites zu konfigurieren.
 
-## <a name="configure-network-site-links"></a>Konfigurieren von netzwerkstandortverknüpfungen
+## <a name="configure-network-site-links"></a>Konfigurieren von Netzwerkstandort Links
 
-Innerhalb einer Call Admission Control (, CAC) Konfiguration können Sie Netzwerk an standortübergreifende Richtlinien erstellen, die bandbreiteneinschränkungen zwischen Standorten definieren, die direkt verbunden sind. Wenn Netzwerkstandorten eine direkte Verknüpfung freigeben, können die Bandbreite für Audio- und videoverbindungen zwischen zwei Websites definiert werden. Sie können die Skype Business Server-Systemsteuerung Website Netzwerkrichtlinien konfigurieren, dazu können nur mithilfe der Skype-Cmdlets für Business Server-Verwaltungsshell. Sie können erstellen, ändern und entfernen eine netzwerkstandortverknüpfung (auch bekannt als eine standortübergreifende Netzwerkrichtlinie) aus der Skype für Business Server-Verwaltungsshell.
+Innerhalb einer Anruf Steuerungskonfiguration können Sie netzwerkübergreifende Richtlinien erstellen, die Bandbreiteneinschränkungen zwischen Websites definieren, die direkt verknüpft sind. Wenn Netzwerk Websites einen direkten Link verwenden, können Bandbreiteneinschränkungen für Audio-und Videoverbindungen zwischen diesen beiden Websites definiert werden. Sie können die Skype for Business Server-Systemsteuerung nicht zum Konfigurieren von Netzwerk Website Richtlinien verwenden, dies kann nur mithilfe von Cmdlets aus der Skype for Business Server-Verwaltungsshell erfolgen. Über die Skype for Business Server-Verwaltungsshell können Sie einen Link zur Netzwerk Website (auch bekannt als netzwerkübergreifende Website Richtlinie) erstellen, ändern und entfernen.
 
-### <a name="to-create-a-network-site-link"></a>Erstellen Sie eine netzwerkstandortverknüpfung
+### <a name="to-create-a-network-site-link"></a>So erstellen Sie einen Netzwerkstandort Link
 
-1.  Melden Sie sich bei dem Computer, auf dem Skype für Business Server-Verwaltungsshell, als Mitglied der Gruppe RTCUniversalServerAdmins oder mit den erforderlichen Benutzerrechten installiert ist, an.
+1.  Melden Sie sich bei dem Computer an, auf dem die Skype for Business Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist.
 
-2.  Starten Sie die Skype für Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype für Business Server**, und klicken Sie dann auf **Skype für Business Server-Verwaltungsshell**.
+2.  Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype for Business Server**, und klicken Sie dann auf **Skype for Business Server-Verwaltungsshell**.
 
-3.  Geben Sie über die Befehlszeile den folgenden Befehl ein, ersetzen die gültigen Werte für die Konfiguration aus:
+3.  Geben Sie an der Eingabeaufforderung den folgenden Befehl ein, und ersetzen Sie Werte, die für Ihre Konfiguration gültig sind:
     
         New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
     
-    Dieses Beispiel erstellt eine neue netzwerkstandortverknüpfung mit dem Namen Reno\_Portland, die bandbreiteneinschränkungen zwischen Reno und Portland Netzwerkstandorte festlegt. Netzwerkstandorte und das bandbreitenrichtlinienprofil müssen vor dem Ausführen dieses Befehls bereits vorhanden.
+    In diesem Beispiel wird eine neue netzwerkstandortverknüpfung namens\_Reno Portland erstellt, die Bandbreiteneinschränkungen zwischen den Netzwerkstandorten Reno und Portland festlegt. Die Netzwerk Websites und das bandbreitenrichtlinienprofil müssen bereits vorhanden sein, bevor Sie diesen Befehl ausführen.
 
-Ausführliche Beschreibung der Parameter finden Sie unter [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy). Um eine Liste der bandbreitenrichtlinienprofile abzurufen, die auf die netzwerkstandortverknüpfung angewendet werden können, rufen Sie das Cmdlet **Get-CsNetworkBandwidthPolicyProfile** . Weitere Informationen hierzu finden Sie unter [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile).
+Ausführliche Beschreibungen zu Parametern finden Sie unter [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy). Rufen Sie das Cmdlet **Get-CsNetworkBandwidthPolicyProfile** auf, um eine Liste der bandbreitenrichtlinienprofile abzurufen, die auf den Link Netzwerk Website angewendet werden können. Ausführliche Informationen finden Sie unter [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile).
 
-### <a name="to-modify-a-network-site-link"></a>So ändern Sie eine netzwerkstandortverknüpfung
+### <a name="to-modify-a-network-site-link"></a>So ändern Sie einen Link für eine Netzwerk Website
 
-1.  Melden Sie sich bei dem Computer, auf dem Skype für Business Server-Verwaltungsshell, als Mitglied der Gruppe RTCUniversalServerAdmins oder mit den erforderlichen Benutzerrechten installiert ist, an.
+1.  Melden Sie sich bei dem Computer an, auf dem die Skype for Business Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist.
 
-2.  Starten Sie die Skype für Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype für Business Server**, und klicken Sie dann auf **Skype für Business Server-Verwaltungsshell**.
+2.  Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype for Business Server**, und klicken Sie dann auf **Skype for Business Server-Verwaltungsshell**.
 
-3.  Verwenden Sie das Cmdlet **Set-CsNetworkInterSitePolicy** , um die Eigenschaften einer bestimmten netzwerkstandortverknüpfung ändern. Sie können einen (oder beide) ändern oder die verbundenen Websites, und Sie können das bandbreitenrichtlinienprofil, das dem Hyperlink zugeordnete ändern. Nachfolgend finden Sie ein Beispiel zum Ändern einer Website Verknüpfung mit dem Namen "Reno" mithilfe des bandbreitenrichtlinienprofil\_Portland:
+3.  Verwenden Sie das Cmdlet " **Satz-CsNetworkInterSitePolicy** ", um die Eigenschaften einer bestimmten netzwerkstandortverknüpfung zu ändern. Sie können entweder (oder beide) oder die verbundenen Websites ändern, und Sie können das dem Link zugeordnete bandbreitenrichtlinienprofil ändern. Nachfolgend finden Sie ein Beispiel für das Ändern des bandbreitenrichtlinienprofils einer Standort\_Verknüpfung mit dem Namen Reno Portland:
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
-Ausführliche Beschreibung der Parameter finden Sie unter [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy).
+Ausführliche Beschreibungen zu Parametern finden Sie unter [Satz-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy).
 
 
-### <a name="to-delete-a-network-site-link"></a>So löschen Sie eine netzwerkstandortverknüpfung
+### <a name="to-delete-a-network-site-link"></a>So löschen Sie einen Netzwerkstandort Link
 
-1.  Melden Sie sich bei dem Computer, auf dem Skype für Business Server-Verwaltungsshell, als Mitglied der Gruppe RTCUniversalServerAdmins oder mit den erforderlichen Benutzerrechten installiert ist, an.
+1.  Melden Sie sich bei dem Computer an, auf dem die Skype for Business Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist.
 
-2.  Starten Sie die Skype für Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype für Business Server**, und klicken Sie dann auf **Skype für Business Server-Verwaltungsshell**.
+2.  Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype for Business Server**, und klicken Sie dann auf **Skype for Business Server-Verwaltungsshell**.
 
-3.  Verwenden Sie das Cmdlet **Remove-CsNetworkInterSitePolicy** , um eine netzwerkstandortverknüpfung zu entfernen. Das folgende Beispiel löscht die Reno\_Portland netzwerkstandortverknüpfung:
+3.  Verwenden Sie das Cmdlet **Remove-CsNetworkInterSitePolicy** , um einen Netzwerkstandort Link zu entfernen. Im folgenden Beispiel wird der Link\_zur Portland-Netzwerk Website von Reno gelöscht:
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 
-Ausführliche Beschreibung der Parameter finden Sie unter [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy).
+Ausführliche Beschreibungen der Parameter finden Sie unter [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy).
 
 
-## <a name="view-network-site-information"></a>Anzeigen von Informationen zu Netzwerkstandorten
+## <a name="view-network-site-information"></a>Anzeigen von Netzwerk Website Informationen
 
-Netzwerkstandorte sind die Niederlassungen oder Standorte innerhalb jeder Region einer anrufsteuerung (CAC) oder Enhanced 9-1-1-Bereitstellung konfiguriert sind. Sie können Informationen zu Netzwerkstandorten in entweder die Skype für Business Server-Systemsteuerung oder die Skype für Business Server-Verwaltungsshell anzeigen. 
+Netzwerk Websites sind die Büros oder Standorte, die in den einzelnen Regionen einer Anrufannahme Steuerung oder erweiterten 9-1-1-Bereitstellung konfiguriert sind. Sie können Informationen zur Netzwerk Website entweder in der Skype for Business Server-Systemsteuerung oder in der Skype for Business Server-Verwaltungsshell anzeigen. 
 
-### <a name="to-view-network-site-information-in-skype-for-business-server-control-panel"></a>Zum Anzeigen von Informationen zu Netzwerkstandorten in Skype Business Server-Systemsteuerung
+### <a name="to-view-network-site-information-in-skype-for-business-server-control-panel"></a>So zeigen Sie Netzwerk Website Informationen in der Skype for Business Server-Systemsteuerung an
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Website**.
 
-4.  Klicken Sie auf der Seite **Website** auf der Website, die Sie anzeigen möchten.
+4.  Klicken Sie auf der Seite **Website** auf die Website, die Sie anzeigen möchten.
  
     > [!NOTE]  
-    > Sie können nur Informationen für einen Standort zu einem Zeitpunkt anzeigen.
+    > Sie können nur Informationen für eine Website gleichzeitig anzeigen.
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 
 
-### <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Informationen zu Netzwerkstandorten mithilfe von Windows PowerShell-cmdlets
+### <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Netzwerk Website Informationen mithilfe von Windows PowerShell-Cmdlets
 
-Sie können Informationen zu Netzwerkstandorten mithilfe von Windows PowerShell und das Cmdlet Get-CsNetworkSite anzeigen. Dieses Cmdlet kann von der Skype für Business Server-Verwaltungsshell oder von einer remote Windows PowerShell-Sitzung ausgeführt werden. 
+Sie können Netzwerk Website Informationen mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkSite anzeigen. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
-### <a name="to-view-network-site-information"></a>So zeigen Sie netzwerkstandortinformationen an
+### <a name="to-view-network-site-information"></a>So zeigen Sie Netzwerk Website Informationen an
 
-  - Anzeigen von Informationen zu allen Netzwerkstandorten, geben Sie den folgenden Befehl in der Skype für Business Server-Verwaltungsshell, und drücken Sie die EINGABETASTE:
+  - Wenn Sie Informationen zu allen Ihren Netzwerk Websites anzeigen möchten, geben Sie in der Skype for Business Server-Verwaltungsshell den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE:
     
         Get-CsNetworkSite
     
@@ -104,83 +104,83 @@ Sie können Informationen zu Netzwerkstandorten mithilfe von Windows PowerShell 
         BWPolicyProfileID :
         LocationPolicy    :
 
-Weitere Informationen finden Sie im Hilfethema für das Cmdlet [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite) .
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite) .
 
 
-## <a name="create-or-modify-network-sites"></a>Erstellen oder Ändern von Netzwerkstandorten 
+## <a name="create-or-modify-network-sites"></a>Erstellen oder Ändern von Netzwerk Websites 
 
-Netzwerkstandorte sind die Niederlassungen oder Standorte innerhalb jeder Region einer anrufsteuerung (CAC) oder Enhanced 9-1-1-Bereitstellung konfiguriert sind. Die Skype Business Server-Systemsteuerung können zum Konfigurieren von Websites und Regionen zuzuordnen. Beispielsweise könnte eine netzwerkregion für Nordamerika Netzwerke Websites wie "Chicago" und "Redmond" Vancouver zugeordnet werden. Ein Netzwerkstandort CAC muss für jede Website innerhalb einer Organisation erstellt werden, auch wenn diese Website keine Netzwerkbandbreite ist eingeschränkt wurde. Aus der Skype Business Server-Systemsteuerung können Sie erstellen, ändern und Löschen von Netzwerk-Sites. Verwenden Sie die folgenden Verfahren zum Erstellen oder Ändern eines Netzwerkstandorts. 
+Netzwerk Websites sind die Büros oder Standorte, die in den einzelnen Regionen einer Anrufannahme Steuerung oder erweiterten 9-1-1-Bereitstellung konfiguriert sind. Sie können die Skype for Business Server-Systemsteuerung verwenden, um Websites zu konfigurieren und Sie mit Regionen zu verknüpfen. Beispielsweise kann eine netzwerkregion für Nordamerika mit Netzwerken wie Chicago, Redmond und Vancouver verknüpft sein. Eine CAC-Netzwerk Website muss für jede Website innerhalb einer Organisation erstellt werden, selbst wenn diese Website keine Bandbreiteneinschränkungen aufweist. Über das Skype for Business Server Control Panel können Sie Netzwerk Websites erstellen, ändern und löschen. Gehen Sie wie folgt vor, um eine Netzwerk Website zu erstellen oder zu ändern. 
 
-### <a name="to-create-a-network-site"></a>So erstellen Sie einen Netzwerkstandort
+### <a name="to-create-a-network-site"></a>So erstellen Sie eine Netzwerk Website
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Website**.
 
 4.  Klicken Sie auf der Seite **Website** auf **neu**.
 
-5.  Geben Sie unter **Neue Website**einen Namen für diese Website in das Feld **Name** ein.
+5.  Geben Sie auf der **neuen Website**im Feld **Name** einen Namen für diese Website ein.
 
     > [!NOTE]  
-    > Standortnamen müssen innerhalb der Skype für Business Server-Bereitstellung eindeutig sein.
+    > Websitenamen müssen innerhalb der Skype for Business Server-Bereitstellung eindeutig sein.
 
-6.  Wählen Sie in der Dropdownliste **Region** eine netzwerkregion an diesem Standort zugeordnet.
+6.  Wählen Sie in der Dropdownliste **Region** einen Netzwerkbereich aus, der dieser Website zugeordnet werden soll.
 
-7.  (Optional) Wenn Sie die Netzwerkbandbreite ist eingeschränkt auf Audio- oder Videoinhalten Anrufe an diese Website platzieren möchten, wählen Sie das bandbreitenrichtlinienprofil mit den entsprechenden Einstellungen aus der Dropdownliste **bandbreitenrichtlinie** aus.
+7.  Optional Wenn Sie Bandbreiteneinschränkungen für Audio-oder Videoanrufe an diese Website vornehmen möchten, wählen Sie das bandbreitenrichtlinienprofil mit den entsprechenden Einstellungen in der Dropdownliste **bandbreitenrichtlinie** aus.
  
     > [!NOTE]  
-    > Sie können die Details zu den verfügbaren bandbreitenrichtlinienprofile anzeigen oder erstellen ein neues bandbreitenrichtlinienprofil auf der Seite **Richtlinie Profil** , der die Gruppe **Netzwerkkonfiguration** . Weitere Informationen hierzu finden Sie unter [Verwalten von Netzwerk-bandbreitenrichtlinienprofilen](managing-network-bandwidth-policy-profiles.md).
+    > Sie können die Details der verfügbaren bandbreitenrichtlinienprofile anzeigen oder ein neues bandbreitenrichtlinienprofil auf der Seite **Richtlinienprofil** der Gruppe **Netzwerkkonfiguration** erstellen. Ausführliche Informationen finden Sie unter [Verwalten von Netzwerkbandbreite-Richtlinienprofilen](managing-network-bandwidth-policy-profiles.md).
 
-8.  (Optional) Wenn Sie ortungseinstellungen für diese Website bereitstellen möchten, wählen Sie aus der Dropdownliste **ortungsrichtlinie** eine ortungsrichtlinie aus.
+8.  Optional Wenn Sie die Standorteinstellungen für diese Website angeben möchten, wählen Sie in der Dropdownliste **Standortrichtlinie** eine Standortrichtlinie aus.
 
     > [!NOTE]  
-    > Die Standortrichtlinie weist bestimmte erweiterte E9-1-1 (E9-1-1) und Client standorteinstellungen zu der Website. Sie können die Details zu den verfügbaren Standortrichtlinien anzeigen oder erstellen eine neue ortungsrichtlinie auf der Seite **Standortrichtlinie** die Gruppe **Netzwerkkonfiguration** . 
+    > Die Standortrichtlinie weist der Website bestimmte erweiterte 9-1-1-Einstellungen (E9-1-1) und Clientstandort Einstellungen zu. Sie können die Details der verfügbaren Standortrichtlinien anzeigen oder eine neue Standortrichtlinie erstellen, die sich auf der Seite " **Standortrichtlinie** " der Gruppe " **Netzwerkkonfiguration** " befindet. 
 
-9.  (Optional) Geben Sie einen Wert im Feld **Beschreibung** ein, um weitere Informationen zu dieser Website bereitzustellen, die durch den Namen allein vermittelt werden können.
+9.  Optional Geben Sie im Feld **Beschreibung** einen Wert ein, um weitere Informationen zu dieser Website bereitzustellen, die nicht allein durch den Namen ausgedrückt werden können.
 
 10. Klicken Sie auf **Commit ausführen**.
 
     > [!NOTE]  
-    > Sie verwenden die **Subnetze verknüpften** Tabelle nicht, wenn Sie einen neuen Netzwerkstandort erstellen. Sie Zuordnen eines Subnetzes zu einer Website, wenn Sie erstellen oder ändern das Subnetz. Weitere Informationen hierzu finden Sie unter [Verwalten von Netzwerksubnetzen](managing-network-subnets.md).
+    > Wenn Sie eine neue Netzwerk Website erstellen, verwenden Sie die Tabelle **zugeordnete** Subnetze nicht. Sie verknüpfen ein Subnetz mit einer Website, wenn Sie das Subnetz erstellen oder ändern. Ausführliche Informationen finden Sie unter [Verwalten von Netzwerk](managing-network-subnets.md)-Subnetzen.
 
-### <a name="to-modify-a-network-site"></a>So ändern Sie einen Netzwerkstandort
+### <a name="to-modify-a-network-site"></a>So ändern Sie eine Netzwerk Website
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Website**.
 
-4.  Klicken Sie auf der Seite **Website** auf der Website, die Sie ändern möchten.
+4.  Klicken Sie auf der Seite **Website** auf die Website, die Sie ändern möchten.
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 
-6.  Klicken Sie auf der Seite **Standort bearbeiten** können Sie die Beschreibung, Region, bandbreitenrichtlinienprofil und ortungsrichtlinie, die der Website zugeordnet ändern. Weitere Informationen hierzu finden Sie unter [So erstellen Sie einen Netzwerkstandort](#to-create-a-network-site) oben.
+6.  Auf der Seite " **Website bearbeiten** " können Sie die Beschreibung, die Region, das bandbreitenrichtlinienprofil und die der Website zugeordnete Standortrichtlinie ändern. Ausführliche Informationen finden Sie unter [So erstellen Sie eine Netzwerk Website](#to-create-a-network-site) oben.
 
 7.  Klicken Sie auf **Commit ausführen**.
 
-Die Tabelle **Zugeordnete Subnetze** auf dieser Seite können nicht geändert werden. Die Liste der zugeordnete Subnetze zu Referenzzwecken bereitgestellt, sodass welche Subnetze betroffen sind, wenn Sie die Einstellungen ändern bekannt sind.
+Auf dieser Seite können Sie die Tabelle **zugeordnete Subnets** nicht ändern. Die Liste der zugeordneten Subnetze wird als Referenz bereitgestellt, damit Sie wissen, welche Subnetze betroffen sind, wenn Sie die Websiteeinstellungen ändern.
 
 
-## <a name="delete-an-existing-network-site"></a>Löschen Sie einen vorhandenen Netzwerkstandort
+## <a name="delete-an-existing-network-site"></a>Löschen einer vorhandenen Netzwerk Website
 
-Netzwerkstandorte sind die Niederlassungen oder Standorte innerhalb jeder Region einer anrufsteuerung (CAC) oder Enhanced 9-1-1-Bereitstellung konfiguriert sind. Die Skype Business Server-Systemsteuerung können zum Konfigurieren von Websites und Regionen zuzuordnen. Beispielsweise könnte eine netzwerkregion für Nordamerika Netzwerke Websites wie "Chicago" und "Redmond" Vancouver zugeordnet werden. Ein Netzwerkstandort CAC muss für jede Website innerhalb einer Organisation erstellt werden, auch wenn diese Website keine Netzwerkbandbreite ist eingeschränkt wurde. Aus der Skype Business Server-Systemsteuerung können Sie erstellen, ändern und Löschen von Netzwerk-Sites. Verwenden Sie das folgende Verfahren, um einen vorhandenen Netzwerkstandort zu löschen. Ausführliche Informationen zum Erstellen oder Ändern von Netzwerkstandorten finden Sie unter [Verwalten der anrufsteuerung für Websites](managing-call-admission-control-for-sites.md).
+Netzwerk Websites sind die Büros oder Standorte, die in den einzelnen Regionen einer Anrufannahme Steuerung oder erweiterten 9-1-1-Bereitstellung konfiguriert sind. Sie können die Skype for Business Server-Systemsteuerung verwenden, um Websites zu konfigurieren und Sie mit Regionen zu verknüpfen. Beispielsweise kann eine netzwerkregion für Nordamerika mit Netzwerken wie Chicago, Redmond und Vancouver verknüpft sein. Eine CAC-Netzwerk Website muss für jede Website innerhalb einer Organisation erstellt werden, selbst wenn diese Website keine Bandbreiteneinschränkungen aufweist. Über das Skype for Business Server Control Panel können Sie Netzwerk Websites erstellen, ändern und löschen. Gehen Sie wie folgt vor, um eine vorhandene Netzwerk Website zu löschen. Details zum Erstellen oder Ändern von Netzwerk Websites finden Sie unter [Verwalten der Anrufsteuerung für Websites](managing-call-admission-control-for-sites.md).
 
 
-### <a name="to-delete-a-network-site"></a>So löschen Sie einen Netzwerkstandort
+### <a name="to-delete-a-network-site"></a>So löschen Sie eine Netzwerk Website
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Website**.
 
-4.  Klicken Sie auf der Seite **Website** auf der Website, die Sie löschen möchten.
+4.  Klicken Sie auf der Seite **Website** auf die Website, die Sie löschen möchten.
 
     > [!NOTE]  
-    > Sie können mehrere Websites zu einem Zeitpunkt löschen. Zu diesem Zweck STRG-Taste gedrückt, und wählen Sie mehrere Standorte während Sie die STRG-Taste gedrückt halten. Oder, um alle Websites auszuwählen, klicken Sie auf **Alles markieren** im Menü **Bearbeiten** .
+    > Sie können mehr als eine Website gleichzeitig löschen. Drücken Sie dazu STRG, und wählen Sie mehrere Websites aus, während Sie die STRG-Taste gedrückt halten. Wenn Sie alle Websites auswählen möchten, klicken Sie im Menü **Bearbeiten** auf **Alle auswählen** .
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Löschen**.
 
@@ -188,7 +188,7 @@ Netzwerkstandorte sind die Niederlassungen oder Standorte innerhalb jeder Region
     
 
     > [!WARNING]  
-    > Sie können einen Netzwerkstandort nicht entfernen, wenn sie ein Netzwerksubnetz zugeordnet ist. Erhalten Sie eine Fehlermeldung, wenn Sie versuchen, eine Website, die ein Subnetz zugeordnet zu entfernen. Um herauszufinden, ob eine Website Subnetze zugeordnet ist, klicken Sie auf der Website, und klicken Sie dann im Menü **Bearbeiten** auf **Details anzeigen** .
+    > Sie können eine Netzwerk Website nicht entfernen, wenn Sie einem Netzwerk-Subnetz zugeordnet ist. Wenn Sie versuchen, eine Website zu entfernen, die einem Subnetz zugeordnet ist, wird eine Fehlermeldung angezeigt. Wenn Sie feststellen möchten, ob eine Website mit Subnetzen verknüpft ist, klicken Sie auf die Website, und klicken Sie dann im Menü **Bearbeiten** auf **Details anzeigen** .
 
 
 ## <a name="see-also"></a>Siehe auch

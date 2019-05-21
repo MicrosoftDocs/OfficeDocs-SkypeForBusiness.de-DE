@@ -1,10 +1,10 @@
 ---
-title: Planen der anrufverwaltungsfunktionen in Skype für Unternehmen
+title: Planen der anrufverwaltungsfunktionen in Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,25 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
-description: Übersicht über unterstützte Anruf-Verwaltungsfunktionen in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: bc7e37034d61d9c5c6b8ab7a266382b8405fa6bf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Übersicht über unterstützte anrufverwaltungsfunktionen in Skype for Business Server Enterprise-VoIP
+ms.openlocfilehash: 9c1bdc73ea4656fa2e0d352988f61d6db428a80c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33909267"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277062"
 ---
-# <a name="plan-for-call-management-features-in-skype-for-business"></a>Planen der anrufverwaltungsfunktionen in Skype für Unternehmen
+# <a name="plan-for-call-management-features-in-skype-for-business"></a>Planen der anrufverwaltungsfunktionen in Skype for Business
 
-Übersicht über unterstützte Anruf-Verwaltungsfunktionen in Skype für Business Server Enterprise-VoIP.
+Übersicht über unterstützte anrufverwaltungsfunktionen in Skype for Business Server Enterprise-VoIP
 
-Enterprise-VoIP-Anruf, dass Verwaltungsfeatures eingehender Anrufe steuern die Weiterleitung und Beantwortung. Skype für Business Server bietet die folgenden Aufruf Management-Funktionen:
+Enterprise-VoIP-anrufverwaltungsfunktionen steuern, wie eingehende Anrufe weitergeleitet und beantwortet werden. Skype for Business Server bietet die folgenden anrufverwaltungsfunktionen:
 
-- **Parken von Anrufen**: ermöglicht es VoIP-Benutzern, Anrufe vorübergehend Parken und anschließend nehmen Sie am selben oder an einem anderen Telefon.
+- **Park anrufen**: ermöglicht es sprach Benutzern, einen Anruf vorübergehend zu parken und ihn dann vom gleichen oder einem anderen Telefon abzunehmen.
 
-- **Gruppe Pickup-**: VoIP-Benutzer, um Anrufe zu übernehmen, die für andere VoIP-Benutzer Klingeln sind, die zum Aufrufen der pickup-Gruppen zugewiesen sind.
+- **Gruppen Abholung**: ermöglicht es sprach Benutzern, Anrufe aufzunehmen, die für andere VoIP-Benutzer Klingeln, die für das Anrufen von Pickup-Gruppen zugewiesen sind.
 
-- **Reaktionsgruppe**: leitet eingehende Anrufe an eine Gruppe von Agents mithilfe von Sammelanschlüssen Gruppen oder interactive Voice Response (IVR) Fragen und Antworten.
+- **Reaktionsgruppe**: leitet eingehende Anrufe an Gruppen von Agents weiter, indem Sie Sammelanschlüsse oder Fragen und Antworten zu Interaktionen (Interactive Voice Response) verwenden.
 
 - **Ansage**: Gibt eine Nachricht für Anrufe wieder, die über eine nicht zugewiesene Nummer eingehen, leitet den Anruf weiter oder beides.
 

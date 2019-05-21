@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientCVPolicyRuleEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: Eine Clientversionsrichtlinie besteht aus einer Gruppe von Clientversionsregeln. Mit diesen Regeln werden die Aktionen definiert, die ausgeführt werden sollen, wenn Benutzer sich mit bestimmten Clients und Clientversionen anmelden möchten.
-ms.openlocfilehash: 2b78d665e608a9ac81baaaaee5812957a2eaf5e4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6fa3ca3f59756c8a6fedb9fd8f1f457ca3f2df40
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920380"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277930"
 ---
 # <a name="client-version-rule"></a>Clientversionsregel
 
@@ -36,13 +36,13 @@ Auf der Seite **Neue Clientversionskonfiguration erstellen** oder **Clientversio
 
 In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.
 
-- **Benutzer-agent** Sie können einen Clienttyp aus der Liste auswählen. In der folgenden Tabelle sind die Codes der Benutzer-Agents definiert.
+- **Benutzer-Agent** Sie können einen Clienttyp aus der Liste auswählen. In der folgenden Tabelle sind die Codes der Benutzer-Agents definiert.
 
 |**Clientname**|**Benutzer-Agent**|
 |:-----|:-----|
-|Lync 2013, Lync 2010, Officecommunicator  <br/> |OC  <br/> |
+|Lync 2013, lync 2010, Office Communicator  <br/> |OC  <br/> |
 |Lync Web App, Communicator Web Access  <br/> |CWA  <br/> |
-|Office Communicator Phone Lync Phone Edition  <br/> |OCPhone  <br/> |
+|Lync Phone Edition, Office Communicator Phone  <br/> |OCPhone  <br/> |
 |Communicator Phone Edition-Plattform  <br/> |CPE  <br/> |
 |Unified Communications-Plattform  <br/> |UCCP  <br/> |
 |Lync 2010-Teilnehmer  <br/> |AOC  <br/> |
@@ -57,17 +57,17 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 |Lync 2010 für Android  <br/> |AndroidLync  <br/> |
 |Mobilitätsdienst  <br/> |McxService  <br/> |
 
-- **Versionsnummer** Sie können die Versionsnummern für die folgenden Felder angeben oder Platzhalter verwenden, um die clientversionsnummer anzugeben.
+- **Versionsnummer** Sie können die Versionsnummern für die folgenden Felder angeben oder Platzhalter verwenden, um die Versionsnummer des Clients anzugeben.
 
-  - **Hauptversion** Gibt die Nummer, die der Hauptversion des Clients entspricht.
+  - **Hauptversion** Gibt die Nummer an, die der Hauptversion des Clients entspricht.
 
-  - **Nebenversion** Gibt die Nummer, die der Nebenversion des Clients entspricht.
+  - **Nebenversion** Gibt die Nummer an, die der Nebenversion des Clients entspricht.
 
-  - **Erstellen** Gibt die Buildnummer an, die der Haupt- und Nebenversion des Clients entspricht.
+  - **Erstellen** Gibt die Buildnummer an, die der Haupt-und Nebenversion des Clients entspricht.
 
-  - **Update** Gibt die Nummer, die der aktualisierten Version des Clients entspricht.
+  - **Update** Gibt die Nummer an, die der aktualisierten Version des Clients entspricht.
 
-- **Vergleichsvorgang** Sie können den Vergleichsvorgang für die Clientversion angeben, die Sie in den vorherigen Schritten angegeben. Die folgenden Vorgänge sind verfügbar:
+- **Vergleichsvorgang** Sie können den übereinstimmenden Vorgang für die Client Version angeben, die Sie in den vorherigen Schritten angegeben haben. Die folgenden Vorgänge sind verfügbar:
 
   - **Identisch mit**
 
@@ -81,20 +81,20 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 
   - **Älter als oder identisch mit**
 
-- **Aktion** Sie können angeben, dass die Aktion ausführen, wenn die Kriterien in den vorherigen Schritten erfüllt sind. Die folgenden Aktionen sind verfügbar:
+- **Aktion** Sie können die Aktion angeben, die ausgeführt werden soll, wenn die Kriterien in den vorherigen Schritten erfüllt sind. Die folgenden Aktionen sind verfügbar:
 
-  - **Zulassen** Ermöglicht dem Client anmelden.
+  - **Zulassen** Ermöglicht es dem Client, sich anzumelden.
 
-  - **Zulassen und Upgrade** Ermöglicht dem Client anmelden und Updates von Windows Server Update Service oder Microsoft Update zu erhalten. Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt ist.
+  - **Zulassen und aktualisieren** Ermöglicht es dem Client, sich anzumelden und Updates vom Windows Server Update-Dienst oder Microsoft Update zu erhalten. Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt ist.
 
     > [!NOTE]
-    > Wählen diese Aktion bewirkt, dass eine Benachrichtigung der Benutzer das nächste Mal Skype für Unternehmen anmelden angezeigt werden. Die Benachrichtigung weist darauf hin, dass ein Update verfügbar ist, selbst wenn etwaige Updates noch nicht in Windows Server Update Service oder Microsoft Update veröffentlicht wurden. Um Unklarheiten zu vermeiden, sollten Sie diese Aktion erst dann auswählen, wenn Updates verfügbar gemacht wurden.
+    > Wenn Sie diese Aktion auswählen, wird eine Benachrichtigung angezeigt, wenn sich die Benutzer das nächste Mal bei Skype for Business anmelden. Die Benachrichtigung weist darauf hin, dass ein Update verfügbar ist, selbst wenn etwaige Updates noch nicht in Windows Server Update Service oder Microsoft Update veröffentlicht wurden. Um Unklarheiten zu vermeiden, sollten Sie diese Aktion erst dann auswählen, wenn Updates verfügbar gemacht wurden.
 
-  - **Mit URL zulassen** Erlaubt die Anmeldung des Clients und zeigt eine Meldung an, wo Sie ein anderes Clientversion herunterladen. Sie geben die URL im Feld **URL** an.
+  - **Mit URL zulassen** Ermöglicht es dem Client, sich anzumelden und eine Meldung darüber anzuzeigen, wo eine andere Client Version heruntergeladen werden soll. Sie geben die URL im Feld **URL** an.
 
-  - **Blockieren** Verhindert die Anmeldung des Clients.
+  - **Blockieren** Verhindert, dass der Client sich anmeldet.
 
-  - **Blockieren und Upgrade** Verhindert die Clientanmeldung auf und ermöglicht den Client die Updates von Windows Server Update Service oder Microsoft Update zu erhalten. Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt ist.
+  - **Blockieren und aktualisieren** Verhindert, dass der Client sich anmeldet und dem Client ermöglicht, Updates vom Windows Server Update-Dienst oder Microsoft Update zu erhalten. Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt ist.
 
   - **Mit URL blockieren**   Verhindert die Anmeldung des Clients und zeigt eine Meldung an, wo eine andere Clientversion heruntergeladen werden kann. Sie geben die URL im Feld **URL** an.
 

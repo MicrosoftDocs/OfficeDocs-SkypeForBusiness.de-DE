@@ -1,9 +1,9 @@
 ---
-title: Bereitstellen von Microsoft-Teams, Räume mit Skype für Business Server
+title: Bereitstellen von Microsoft Teams-Chatrooms mit Skype for Business Server
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,22 +13,22 @@ ms.collection:
 - M365-voice
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: Lesen Sie dieses Thema bietet Informationen zum Microsoft-Teams Chatrooms mit Skype für Business Server bereitstellen.
-ms.openlocfilehash: f62006dc3f83d6f60c224f8e75ba4958ff0a7bfc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen mit Skype for Business Server.
+ms.openlocfilehash: a0e476738cb1ff68020b87624cbcdbabb220c248
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915797"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288444"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Bereitstellen von Microsoft-Teams, Räume mit Skype für Business Server
+# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Bereitstellen von Microsoft Teams-Chatrooms mit Skype for Business Server
   
-In diesem Thema wird erläutert, wie Sie ein Gerät-Konto für Microsoft-Teams Chatrooms hinzufügen, Sie mit eine einzelnen Gesamtstruktur, lokale Bereitstellung haben.
+In diesem Thema wird erläutert, wie Sie ein Geräte Konto für Microsoft Teams-Chatrooms hinzufügen, wenn Sie über eine einzelne Gesamtstruktur verfügen, die lokal bereitgestellt wird.
   
-Wenn Sie einer einzelnen Gesamtstruktur, lokalen Bereitstellung von Exchange 2013 SP1 oder höher und Skype für Business Server 2015 oder höher verfügen, können Sie bereitgestellte Windows PowerShell-Skripts verwenden, um Gerät Konten zu erstellen. Wenn Sie eine Bereitstellung mit mehreren Gesamtstrukturen verwenden, können Sie die entsprechenden-Cmdlets verwenden, die die gleichen Ergebnisse erzeugt. Diese Cmdlets werden in diesem Abschnitt beschrieben.
+Wenn Sie über eine einzelne Gesamtstruktur, eine lokale Bereitstellung mit Exchange 2013 SP1 oder höher und Skype for Business Server 2015 oder höher verfügen, können Sie die bereitgestellten Windows PowerShell-Skripts verwenden, um Geräte Konten zu erstellen. Wenn Sie eine Bereitstellung mit mehreren Gesamtstrukturen verwenden, können Sie entsprechende Cmdlets verwenden, die die gleichen Ergebnisse erzielen. Diese Cmdlets werden in diesem Abschnitt beschrieben.
 
   
-Bevor Sie Microsoft Teams Chatrooms bereitstellen beginnen, müssen Sie unbedingt, mit denen Sie die entsprechenden Berechtigungen für die zugehörigen Cmdlets ausführen.
+Bevor Sie mit der Bereitstellung von Microsoft Teams-Räumen beginnen, müssen Sie sicherstellen, dass Sie über die erforderlichen Berechtigungen zum Ausführen der zugehörigen Cmdlets verfügen.
   
 
    ``` Powershell
@@ -42,9 +42,9 @@ Bevor Sie Microsoft Teams Chatrooms bereitstellen beginnen, müssen Sie unbeding
    Import-PSSession $sessLync
    ```
 
-   Beachten Sie, dass $strExchangeServer den vollqualifizierten Domänennamen (FQDN) des Exchange-Servers, und $strLyncFQDN der FQDN des Ihrer Skype für Business Server-Bereitstellung ist.
+   Beachten Sie, dass $strExchangeServer der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) Ihres Exchange-Servers und $strLyncFQDN der FQDN Ihrer Skype for Business Server-Bereitstellung ist.
 
-2. Nach dem Einrichten einer Sitzung, werden Sie entweder ein neues Postfach erstellen und als eine RoomMailboxAccount zu aktivieren oder Ändern der Einstellungen für ein vorhandenes Raumpostfach. Dadurch wird das Konto zum Microsoft-Teams Chatrooms authentifizieren.
+2. Nach dem Einrichten einer Sitzung erstellen Sie entweder ein neues Postfach und aktivieren es als RoomMailboxAccount, oder Sie können die Einstellungen für ein vorhandenes Raumpostfach ändern. Dadurch kann sich das Konto bei Microsoft Teams-Räumen authentifizieren.
 
     Wenn Sie ein vorhandenes Ressourcenpostfach ändern:
 
@@ -53,14 +53,14 @@ Bevor Sie Microsoft Teams Chatrooms bereitstellen beginnen, müssen Sie unbeding
    -AsPlainText -Force)
    ```
 
-   Wenn Sie eine neue Ressourcenpostfach erstellen:
+   Wenn Sie ein neues Ressourcenpostfach erstellen:
 
    ``` Powershell
    New-Mailbox -UserPrincipalName PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. Sie können die verschiedenen Exchange-Eigenschaften auf das Gerät Konto zur Verbesserung der besprechungsumgebung für Personen festlegen. Im Abschnitt zu den Exchange-Eigenschaften sehen Sie, welche Eigenschaften Sie festlegen müssen.
+3. Sie können verschiedene Exchange-Eigenschaften für das Geräte Konto einrichten, um die Besprechungs Erfahrung für Personen zu verbessern. Im Abschnitt zu den Exchange-Eigenschaften sehen Sie, welche Eigenschaften Sie festlegen müssen.
 
    ``` Powershell
    Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
@@ -68,19 +68,19 @@ Bevor Sie Microsoft Teams Chatrooms bereitstellen beginnen, müssen Sie unbeding
    Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. Wenn Sie sich entscheiden, damit das Kennwort nicht abläuft, können Sie, die mit Windows PowerShell-Cmdlets zu festlegen. Weitere Informationen finden Sie unter „Kennwortverwaltung“.
+4. Wenn Sie sich entscheiden, dass das Kennwort nicht abläuft, können Sie dies auch mit Windows PowerShell-Cmdlets festlegen. Weitere Informationen finden Sie unter „Kennwortverwaltung“.
 
    ``` Powershell
    Set-AdUser $acctUpn -PasswordNeverExpires $true
    ```
 
-5. Aktivieren Sie das Konto in Active Directory, damit es zu Microsoft-Teams Räumen authentifiziert wird.
+5. Aktivieren Sie das Konto in Active Directory, damit es sich bei Microsoft Teams-Räumen authentifiziert.
 
    ``` Powershell
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. Aktivieren Sie das Gerät Konto mit Skype für Business Server, indem Ihre Microsoft Teams Chatrooms Active Directory-Kontos auf einen Skype für Business Server-Pool aktivieren:
+6. Aktivieren Sie das Geräte Konto in Skype for Business Server, indem Sie Ihr Microsoft Teams rooms Active Directory-Konto in einem Skype for Business Server-Pool aktivieren:
 
    ``` Powershell
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
@@ -89,7 +89,7 @@ Bevor Sie Microsoft Teams Chatrooms bereitstellen beginnen, müssen Sie unbeding
 
     Sie müssen die SIP-Adresse (Session Initiation-Protokoll) und den Domänencontroller für das Projekt verwenden.
 
-7. **Optional.** Sie können auch Microsoft Teams Chatrooms tätigen und annehmen von public switched Telephone Network, (PSTN) Telefonanrufe durch Aktivieren von Enterprise-VoIP für Ihr Konto. Enterprise-VoIP ist eine Voraussetzung für Microsoft-Teams Chatrooms nicht, wenn Sie PSTN-Einwahl-Funktionalität für den Client für Microsoft-Teams Chatrooms möchten, es gibt aber noch zum Aktivieren:
+7. **Optional.** Sie können auch Microsoft Teams-Chatrooms das tätigen und empfangen von PSTN-Telefon anrufen (Public Switched Telephone Network) ermöglichen, indem Sie Enterprise-VoIP für Ihr Konto aktivieren. Enterprise-VoIP ist keine Voraussetzung für Microsoft Teams-Chatrooms, aber wenn Sie die PSTN-Wählfunktion für den Microsoft Teams rooms-Client nutzen möchten, können Sie ihn so aktivieren:
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -100,7 +100,7 @@ Bevor Sie Microsoft Teams Chatrooms bereitstellen beginnen, müssen Sie unbeding
 
    Auch hier müssen Sie die bereitgestellten Beispiele für den Domänencontroller und die Telefonnummer durch Ihre eigenen Informationen ersetzen. Der Parameterwert „$true“ bleibt unverändert.
 
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Beispiel: Raum kontoeinrichtung in Exchange und Skype für Business Server lokal
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Beispiel: Einrichtung des Room-Kontos in Exchange und Skype for Business Server lokal
 
 ``` Powershell
 New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force)
@@ -118,12 +118,12 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 ## <a name="see-also"></a>Siehe auch
 
-[Konfigurieren von Konten für Microsoft-Teams Räume](room-systems-v2-configure-accounts.md)
+[Konfigurieren von Konten für Microsoft Teams-Chatrooms](room-systems-v2-configure-accounts.md)
 
-[Planen der Microsoft-Teams, Räume](skype-room-systems-v2-0.md)
+[Planen von Microsoft Teams-Räumen](skype-room-systems-v2-0.md)
   
-[Bereitstellen von Microsoft-Teams, Räume](room-systems-v2.md)
+[Bereitstellen von Microsoft Teams-Räumen](room-systems-v2.md)
   
-[Konfigurieren einer Microsoft-Teams Räume-Konsole](console.md)
+[Konfigurieren einer Microsoft Teams rooms-Konsole](console.md)
   
 [Microsoft Teams Rooms verwalten](skype-room-systems-v2.md)
