@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,35 +18,35 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Dieser Bericht bietet Ihnen mit den anderen Skype for Business-Berichten nähere Einzelheiten zur jeweiligen Aktivität, einschließlich der PSTN-Nutzung in der gesamten Organisation. '
-ms.openlocfilehash: 2cd12c19911df796ae33bd841e8fd15b987cf366
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b94245c3526011a10ddb417357bf2516968f7773
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239839"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299572"
 ---
 # <a name="users-blocked-report"></a>Bericht „Benutzer gesperrt“
 
-Im neuen Skype for Business-Dashboard **Berichte** wird eine Aktivitätsübersicht für die Skype for Business-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Beispielsweise können Sie den Bericht **Skype für Unternehmensbenutzer blockiert** verwenden, sehen die Benutzer in Ihrer Organisation, die vom PSTN-Anrufe tätigen blockiert wurden. Dieser Bericht bietet Ihnen mit den anderen Skype for Business-Berichten nähere Einzelheiten zur jeweiligen Aktivität, einschließlich der PSTN-Nutzung in der gesamten Organisation.
+Im neuen Skype for Business-Dashboard **Berichte** wird eine Aktivitätsübersicht für die Skype for Business-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. So können Sie beispielsweise den Bericht **Skype for Business-gesperrte Benutzer** verwenden, um die Benutzer in Ihrer Organisation anzuzeigen, die für das tätigen von PSTN-anrufen gesperrt wurden. Dieser Bericht bietet Ihnen mit den anderen Skype for Business-Berichten nähere Einzelheiten zur jeweiligen Aktivität, einschließlich der PSTN-Nutzung in der gesamten Organisation.
   
- Checken Sie der [Übersicht über die Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) für weitere Berichte, die verfügbar sind.
+ Weitere verfügbare Berichte finden Sie in der [Übersicht über Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) .
   
 > [!NOTE]
-> Sie können beim Anmelden als Administrator, um das Office 365 Administrationscenter alle der Skype für Business Berichte angezeigt. 
+> Sie können alle Skype for Business-Berichte sehen, wenn Sie sich als Administrator beim Office 365 Admin Center anmelden. 
   
-## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Wie abgerufen, der Skype für Unternehmensbenutzer blockiert Bericht
+## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>So erhalten Sie den Bericht "Skype for Business-gesperrte Benutzer"
 
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
 
-- Wechseln Sie zu **Office 365 Administrationscenter** > **Admin zentriert** > **Skype für Business Administrationscenter** > **Berichte** > **Benutzer blockiert**.
+- Wechseln Sie zu **Office 365 Admin Center** > **Admin** > Centers**Skype for Business Admin Center** > **meldet** > **Blockierte Benutzer**.
     
-## <a name="interpret-the-skype-for-business-users-blocked-report"></a>Interpretieren der Skype für Business Benutzer blockiert Bericht
+## <a name="interpret-the-skype-for-business-users-blocked-report"></a>Interpretieren des Berichts "Skype for Business-gesperrte Benutzer"
 
-Betrachten jede der Spalten angezeigt, um eine Ansicht in blockierte Benutzer zu erhalten.
+Sie können einen Überblick über blockierte Benutzer erhalten, indem Sie sich die einzelnen angezeigten Spalten ansehen.
   
 Der Bericht sieht folgendermaßen aus: 
   
-![Blockierte Benutzer Bericht](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
+![Bericht "Blockierte Benutzer"](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
 
 Die Tabelle zeigt eine Untergliederung aller Benutzer, die für das Tätigen von Anrufen gesperrt sind. Sie zeigt alle Benutzer an, denen Telefonsystem or Audiokonferenz zugewiesen ist. Sie können in der Tabelle Spalten hinzufügen bzw. entfernen.
 ***
@@ -74,15 +74,15 @@ Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier
     
 - [Bericht „Skype for Business - Aktivitäten zum Organisieren von Konferenzen"](conference-organizer-activity-report.md) : Sie können sehen, in welchem Umfang Ihre Benutzer Konferenzen organisieren, für die Chat, Audio/Video, Anwendungsfreigabe, Web, Ein-/Auswahl (Drittanbieter) und Ein-/Auswahl (Microsoft) verwendet werden.
     
-- [Skype für Teilnehmer Business-konferenzaktivitätsbericht](conference-participant-activity-report.md) Sie können sehen, wie viele Sofortnachrichten, Audio/Video, Anwendungsfreigabe, Web und Konferenzen/Dial-Out Konferenz sind beteiligt wird.
+- [Skype for Business-Konferenzteilnehmer-Aktivitätsbericht](conference-participant-activity-report.md) Sie können sehen, wie viele Chats, Audio/Video, Anwendungsfreigabe, Web-und Einwahlkonferenz Konferenzen teilnehmen.
     
 - [Skype for Business - Bericht über Peer-zu Peer-Aktivitäten](peer-to-peer-activity-report.md) : Sie können sehen, in welchem Umfang die Benutzer Chat, Audio/Video, Anwendungsfreigabe sowie Dateiübertragung verwenden.
     
 - [Bericht zum PSTN-Verbrauch in Skype for Business](pstn-usage-report.md) : Sie können die Anzahl der Minuten sehen, die für eingehende/ausgehende Anrufe aufgewendet wurden, sowie die Kosten für diese Anrufe.
 
-- [Skype für Business PSTN Minute Pools Bericht](pstn-minute-pools-report.md) sehen Sie die Anzahl der Minuten, die während des aktuellen Monats innerhalb Ihrer Organisation verbraucht.
+- [Skype for Business-PSTN-Minuten Pools-Bericht](pstn-minute-pools-report.md) Sie können die Anzahl der Minuten anzeigen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
 
-- [Skype für Business Sitzung Detailbericht](session-details-report.md) Sie können die Details zu einzelnen Benutzers Anruf Erfahrungen sehen.
+- [Bericht "Skype for Business-Sitzungsdetails](session-details-report.md) " Details zu den Anruf Erfahrungen einzelner Nutzer werden angezeigt.
    
 ## <a name="related-topics"></a>Verwandte Themen
 [Aktivitätsberichte im Office 365 Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

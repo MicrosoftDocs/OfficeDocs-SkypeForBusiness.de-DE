@@ -1,10 +1,10 @@
 ---
-title: Konfigurieren der Standortdatenbank in Skype für Business Server
+title: Konfigurieren der Standortdatenbank in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: Konfigurieren und Veröffentlichen der Standortdatenbank E9-1-1 in Skype für Business Server Enterprise-VoIP auffüllen.
-ms.openlocfilehash: e5f25cfcda35d4a78a369a2a5103f7bcd5b06a40
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Konfigurieren, füllen und veröffentlichen Sie die E9-1-1-Standortdatenbank in Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 82182a27c1459005d19c8a50d0a1babc83b178c9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893049"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301076"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server"></a>Konfigurieren der Standortdatenbank in Skype für Business Server
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>Konfigurieren der Standortdatenbank in Skype for Business Server
  
-Konfigurieren und Veröffentlichen der Standortdatenbank E9-1-1 in Skype für Business Server Enterprise-VoIP auffüllen. 
+Konfigurieren, füllen und veröffentlichen Sie die E9-1-1-Standortdatenbank in Skype for Business Server Enterprise Voice. 
   
 Sie müssen zunächst die Standortdatenbank konfigurieren, um Clients für die automatische Ermittlung ihres Standorts innerhalb eines Netzwerks zu aktivieren. 
   
 Führen Sie zur Konfiguration der Standortdatenbank die folgenden Aufgaben aus:
   
-- Füllen Sie die Datenbank mit einer Zuordnung von Netzwerkelementen zu Standorten auf. Wenn Sie eine Emergency Location Identification Anzahl ()-Gateway verwenden, müssen Sie die ELIN in der \<CompanyName\> dar.
+- Füllen Sie die Datenbank mit einer Zuordnung von Netzwerkelementen zu Standorten auf. Wenn Sie ein Elin-Gateway (Notfall Standort-Identifikationsnummer) verwenden, müssen Sie Elin in das \<Feld\> "CompanyName" einbeziehen.
     
     Wenn Sie die Standortdatenbank nicht auffüllen und die Eigenschaft **Standort erforderlich** in der Standortrichtlinie auf **Ja** oder **Haftungsausschluss** festgelegt ist, wird der Benutzer vom Client aufgefordert, den Standort manuell einzugeben.
     
@@ -47,10 +47,10 @@ Wenn Sie ein ELIN-Gateway (Emergency Location Identification Number) verwenden, 
   
 |**Netzwerkelement**|**Erforderliche Spalten**|
 |:-----|:-----|
-|**Drahtloser Zugriffspunkt** <br/> |\<BSSID\>,\<Beschreibung\>,\<Speicherort\>,\<CompanyName\>,\<Hausnummer\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<Zustand\>,\<PostalCode\>,\<Land\>  <br/> |
-|**Subnetz** <br/> |\<Subnetz\>,\<Beschreibung\>,\<Speicherort\>,\<CompanyName\>,\<Hausnummer\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<Zustand\>,\<PostalCode\>,\<Land\>  <br/> |
-|**Port** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Beschreibung\>,\<Speicherort\>,\<CompanyName\>,\<Hausnummer\>,\< HouseNumberSuffix\>,...  <br/> ... \<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<Zustand\>,\<PostalCode\>,\< Land\>  <br/> |
-|**Switch** <br/> |\<ChassisID\>,\<Beschreibung\>,\<Speicherort\>,\<CompanyName\>,\<Hausnummer\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<Zustand\>,\<PostalCode\>,\<Land\>  <br/> |
+|**Drahtloser Zugriffspunkt** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<Hausnummer\>,\<HouseNumberSuffix\>,\<\>,...  <br/> ... \<Straßennamen\>,\<"streetsuffix"\>,\<postdirectional\>,\<Ort\>,\<Bundes\>Land\<,\>PLZ\<, Land\>  <br/> |
+|**Subnetz** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<Hausnummer\>,\<HouseNumberSuffix\>,\<\>,...  <br/> ... \<Straßennamen\>,\<"streetsuffix"\>,\<postdirectional\>,\<Ort\>,\<Bundes\>Land\<,\>PLZ\<, Land\>  <br/> |
+|**Port** <br/> |\<\>Chassis-\<PortIDSubType\>,\<Port\>-Nr\<,\>Description\<,\>Location\<,\>CompanyName\<,\>Hausnummer\< , HouseNumberSuffix\>,...  <br/> ... \<Vorrichtungs\>-\<, Straßen\>Namen\<-\>,\<"streetsuffix"-,\>\<postdirectional-\>,\<Stadt\>\>\<-\< , Bundesland-, PLZ-, Land\>  <br/> |
+|**Switch** <br/> |\<\>Chassis-\<Nr\>,\<Description\>,\<Location\>,\<CompanyName\>,\<Hausnummer\>,\<HouseNumberSuffix,\>,...  <br/> ... \<Straßennamen\>,\<"streetsuffix"\>,\<postdirectional\>,\<Ort\>,\<Bundes\>Land\<,\>PLZ\<, Land\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>So fügen Sie der Standortdatenbank Netzwerkelemente hinzu
 
@@ -139,7 +139,7 @@ Wenn Sie ein ELIN-Gateway (Emergency Location Identification Number) verwenden, 
 
 Die neuen Standorte, die Sie der Standortdatenbank hinzugefügt haben, stehen dem Client erst nach der Veröffentlichung zur Verfügung.
   
-Wenn Sie ELIN-Gateways (Emergency Location Identification Number) verwenden, müssen Sie die ELINs auch in die ALI (Automatic Location Identification)-Datenbank Ihres PSTN-Betreibers hochladen. Ihr PSTN-Betreiber verlangt möglicherweise, dass Sie ein bestimmtes Format für die ELIN-Einträge verwenden. Weitere Informationen erhalten Sie von Ihrem PSTN-Betreiber. Können Sie die Datensätze aus der Datenbank exportieren und nach Bedarf zu formatieren.
+Wenn Sie ELIN-Gateways (Emergency Location Identification Number) verwenden, müssen Sie die ELINs auch in die ALI (Automatic Location Identification)-Datenbank Ihres PSTN-Betreibers hochladen. Ihr PSTN-Betreiber verlangt möglicherweise, dass Sie ein bestimmtes Format für die ELIN-Einträge verwenden. Weitere Informationen erhalten Sie von Ihrem PSTN-Betreiber. Sie können die Datensätze aus der Datenbank des Standort Informationsdiensts exportieren und diese nach Bedarf formatieren.
   
 ### <a name="to-publish-the-location-database"></a>So veröffentlichen Sie die Standortdatenbank
 

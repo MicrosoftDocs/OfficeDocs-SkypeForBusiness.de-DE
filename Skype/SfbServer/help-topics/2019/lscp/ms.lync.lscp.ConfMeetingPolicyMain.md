@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ConfMeetingPolicyMain
@@ -12,33 +12,33 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 ROBOTS: NOINDEX, NOFOLLOW
-description: Eine konferenzrichtlinie definiert die Features und Funktionen, die Benutzern während einer Konferenz (auch als Besprechung bezeichnet) zur Verfügung stehen.
-ms.openlocfilehash: 7abd7e4081222fcf741ed7666d8062ea561a3eba
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Konferenzrichtlinie definiert die Features und Funktionen, die Benutzer während einer Konferenz (auch als Besprechung bezeichnet) zur Verfügung stehen.
+ms.openlocfilehash: 1757af1665b3ee39bbc8a418c6372713e0af50ae
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891594"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300238"
 ---
 # <a name="conferencing-policy"></a>Konferenzrichtlinie
 
-Eine konferenzrichtlinie definiert die Features und Funktionen, die Benutzern während einer Konferenz (auch als Besprechung bezeichnet) zur Verfügung stehen.
+Konferenzrichtlinie definiert die Features und Funktionen, die Benutzer während einer Konferenz (auch als Besprechung bezeichnet) zur Verfügung stehen.
 
-Konferenzrichtlinien gehören die globale Richtlinie und optional eine oder mehrere Standort- und Benutzerrichtlinien:
+Zu den Konferenzrichtlinien gehören die globale Richtlinie und optional eine oder mehrere Website-und Benutzerrichtlinien:
 
-- **Globale Richtlinie:** Die globale Richtlinie wird standardmäßig erstellt. Sie können die globale Richtlinie bearbeiten, jedoch nicht löschen. Wenn Sie versuchen, die globale Richtlinie zu entfernen, werden alle Einstellungen auf die Standardwerte zurückgesetzt.
+- **Globale Richtlinie:** Standardmäßig wird die globale Richtlinie erstellt. Sie können die globale Richtlinie bearbeiten, jedoch nicht löschen. Wenn Sie versuchen, die globale Richtlinie zu entfernen, werden alle Einstellungen auf die Standardwerte zurückgesetzt.
 
-- **Websiterichtlinien (optional):** Sie können eine oder mehrere Website konferenzrichtlinien erstellen, von die jeder auf eine bestimmte Website angewendet wird. Standortrichtlinien setzen die globale Richtlinie außer Kraft.
+- **Website Richtlinien (optional):** Sie können eine oder mehrere Website Konferenzrichtlinien erstellen, die jeweils für eine bestimmte Website gelten. Standortrichtlinien setzen die globale Richtlinie außer Kraft.
 
-- **Richtlinien für Benutzer (optional):** Sie können eine oder mehrere Benutzer konferenzrichtlinien erstellen, von die jedes auf einen bestimmten Benutzer oder eine Gruppe von Benutzern angewendet wird. Benutzerrichtlinien setzen die globale Richtlinie und Standortrichtlinien außer Kraft.
+- **Benutzerrichtlinien (optional):** Sie können eine oder mehrere Benutzer Konferenzrichtlinien erstellen, die jeweils für einen bestimmten Benutzer oder eine Gruppe von Benutzern gelten. Benutzerrichtlinien setzen die globale Richtlinie und Standortrichtlinien außer Kraft.
 
-Die Seite **Konferenzrichtlinie** zeigt eine Liste aller konferenzrichtlinien, die für Ihre Organisation definiert sind.
+Auf der Seite **konferenzrichtlinie** wird eine Liste aller Konferenzrichtlinien angezeigt, die für Ihre Organisation definiert sind.
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
 Auf der Seite **Standortrichtlinie** können Sie die folgenden Aufgaben ausführen:
 
-- Erstellen einer neuen konferenzrichtlinie für Standorte oder Benutzer
+- Erstellen einer neuen Website konferenzrichtlinie oder Benutzer konferenzrichtlinie
 
 - Ändern der globalen Richtlinie oder einer vorhandenen Standort- oder Benutzerrichtlinie
 
@@ -48,32 +48,32 @@ Auf der Seite **Standortrichtlinie** können Sie die folgenden Aufgaben ausführ
 
 In der folgenden Liste werden die Befehle der Seite beschrieben.
 
-- **Neue** Startet einen neuen konferenzrichtlinie für Standorte oder Benutzer.
+- **Neu** Startet eine neue Website konferenzrichtlinie oder Benutzer konferenzrichtlinie.
 
-- **Bearbeiten** Öffnet die ausgewählte konferenzrichtlinie zur Bearbeitung, wählt alle konferenzrichtlinien in der Liste aus oder löscht die ausgewählte Standort- oder Benutzerrichtlinie.
+- **Bearbeiten** von Öffnet die ausgewählte konferenzrichtlinie, um Sie zu bearbeiten, wählt alle Konferenzrichtlinien in der Liste aus oder löscht die ausgewählte Website Richtlinie oder Benutzerrichtlinie.
 
     > [!NOTE]
     > Für die globale Richtlinie werden die Einstellungen mit **Löschen** auf die Standardwerte zurückgesetzt.
 
-- **Aktualisieren** Aktualisiert die Liste der konferenzrichtlinien.
+- **Aktualisieren** Aktualisiert die Liste der Konferenzrichtlinien.
 
 In der folgenden Liste werden die Felder der Seite beschrieben.
 
 - **Name** Identifiziert die konferenzrichtlinie.
 
-- **Bereich** Gibt den Bereich der konferenzrichtlinie: global, Standort oder Benutzer.
+- **Bereich** Gibt den Bereich der konferenzrichtlinie an: Global, Site oder User.
 
-- **Zusammenarbeit an Daten** Aktiviert, wenn der konferenzrichtlinie angegeben, dass die Datenzusammenarbeit in Konferenzen zulässig ist.
+- **Zusammenarbeit mit Daten** Überprüft, ob die konferenzrichtlinie angibt, dass Datenzusammenarbeit in Konferenzen zulässig ist.
 
-- **Anwendungsfreigabe** Aktiviert, wenn der konferenzrichtlinie angegeben, dass die Anwendungsfreigabe in Konferenzen zulässig ist.
+- **Anwendungsfreigabe** Überprüft, ob die konferenzrichtlinie angibt, dass die Anwendungsfreigabe in Konferenzen zulässig ist.
 
-- **Audio** Aktiviert, wenn der konferenzrichtlinie angegeben, dass sich, dass die audiodatenfunktion in Konferenzen zulässig ist.
+- **Audio** Überprüft, ob die konferenzrichtlinie angibt, dass Audio in Konferenzen zulässig ist.
 
-- **Video** Aktiviert, wenn der konferenzrichtlinie angegeben, dass das Video in Konferenzen zulässig ist.
+- **Video** Überprüft, ob die konferenzrichtlinie angibt, dass Video in Konferenzen zulässig ist.
 
-- **PSTN** Aktiviert, wenn der konferenzrichtlinie angegeben, dass PSTN-einwahlkonferenzen zulässig ist.
+- **PSTN** Überprüft, ob die konferenzrichtlinie angibt, dass PSTN-Einwahlkonferenzen zulässig sind.
 
-- **Aufzeichnen** Aktiviert, wenn der konferenzrichtlinie angegeben, dass die Aufzeichnung in Konferenzen zulässig ist.
+- **Aufzeichnung** Überprüft, ob die konferenzrichtlinie angibt, dass die Aufzeichnung in Konferenzen zulässig ist.
 
 Ausführliche Informationen zu den Konferenzfunktionen finden Sie in der Planungsdokumentation unter [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx). Ausführliche Informationen zur Verwendung von Konferenzrichtlinien finden Sie in der Betriebsdokumentation unter [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx).
 

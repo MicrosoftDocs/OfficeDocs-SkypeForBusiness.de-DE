@@ -5,58 +5,58 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.MonArchSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
-description: 'Verwenden Sie Archivierungskonfigurationen Steuerelement Archivierungsoptionen für Ihre Skype für Business Server-Bereitstellung, einschließlich aktivieren und deaktivieren die folgenden Optionen aus:'
-ms.openlocfilehash: ac03dd94a83a755c06e88b2abce27bde9625453a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Sie verwenden Archivierungs Konfigurationen, um Archivierungsoptionen für Ihre Skype for Business Server-Bereitstellung zu steuern, einschließlich der Aktivierung und Deaktivierung der folgenden Optionen:'
+ms.openlocfilehash: 8f3ed4289d68359cb8eb0d4cb0bfc3a303c53dd3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887139"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299848"
 ---
 # <a name="archiving-configuration"></a>Archivierungskonfiguration
  
-Verwenden Sie Archivierungskonfigurationen Steuerelement Archivierungsoptionen für Ihre Skype für Business Server-Bereitstellung, einschließlich aktivieren und deaktivieren die folgenden Optionen aus:
+Sie verwenden Archivierungs Konfigurationen, um Archivierungsoptionen für Ihre Skype for Business Server-Bereitstellung zu steuern, einschließlich der Aktivierung und Deaktivierung der folgenden Optionen:
   
 - Blockieren von Chat- und Konferenzsitzungen bei Archivierungsfehlern
     
-- Integration in Exchange 2013-Speicherung für Benutzer, die sich in Exchange 2013
+- Integration in Exchange 2013-Speicher für Benutzer, die in Exchange 2013 verwaltet werden
     
 - Bereinigen archivierter Daten
     
 Zu den Archivierungskonfigurationen gehören die globale Konfiguration und optional eine oder mehrere Archivierungskonfigurationen:
   
-- **Globale Konfiguration** Die globale Konfiguration wird standardmäßig in allen Skype für Business Server-Bereitstellungen erstellt. Sie können die globale Konfiguration bearbeiten, aber Sie können diese Archivierungskonfiguration nicht löschen. Wenn Sie versuchen, sie zu löschen, werden alle Optionen auf die Standardwerte zurückgesetzt.
+- **Globale Konfiguration** Die globale Konfiguration wird standardmäßig in allen Skype for Business Server-Bereitstellungen erstellt. Sie können die globale Konfiguration bearbeiten, aber Sie können diese Archivierungskonfiguration nicht löschen. Wenn Sie versuchen, sie zu löschen, werden alle Optionen auf die Standardwerte zurückgesetzt.
     
-- **Standortkonfiguration (optional)** Sie können eine oder mehrere Website Archivierungskonfigurationen angeben, von denen jedes Steuerelement Archivierungsoptionen für einen bestimmten Standort konfigurierbaren. Eine Standortkonfiguration setzt die globale Konfiguration außer Kraft, jedoch nur für die in den Archivierungsstandortkonfigurationen angegebenen Standorte. Sie können Standortkonfigurationen bearbeiten oder löschen.
+- **Websitekonfiguration (optional)** Sie können eine oder mehrere Website Archivierungs Konfigurationen angeben, die jeweils für die Steuerung der Archivierungsoptionen für eine bestimmte Website konfiguriert werden können. Eine Standortkonfiguration setzt die globale Konfiguration außer Kraft, jedoch nur für die in den Archivierungsstandortkonfigurationen angegebenen Standorte. Sie können Standortkonfigurationen bearbeiten oder löschen.
     
-- **Pool-Konfiguration (optional)** Sie können eine oder mehrere Pools Archivierungskonfiguration Steuerelement Archivierungsoptionen für einen bestimmten Pool angeben. Eine Poolkonfiguration setzt die globale Konfiguration und die Standortkonfiguration außer Kraft, jedoch nur für die in den Archivierungspoolkonfigurationen angegebenen Pools. Sie können Poolkonfigurationen bearbeiten oder löschen.
+- **Pool Konfiguration (optional)** Sie können eine oder mehrere Pool Archivierungskonfiguration angeben, um Archivierungsoptionen für einen bestimmten Pool zu steuern. Eine Poolkonfiguration setzt die globale Konfiguration und die Standortkonfiguration außer Kraft, jedoch nur für die in den Archivierungspoolkonfigurationen angegebenen Pools. Sie können Poolkonfigurationen bearbeiten oder löschen.
     
 > [!NOTE]
-> Archivierung Konfigurationen gelten für Benutzer, der in Skype für Business Server verwaltet und, wenn Sie Exchange, zum Speichern von archivierten Daten in Microsoft Exchange verwenden, für Benutzer, die sich in Exchange 2013 aber etwas unterschiedlich implementiert werden, für Benutzer in Exchange 2013 verwaltet. Im nächsten Abschnitt werden die Unterschiede beschrieben. 
+> Archivierungs Konfigurationen gelten für Benutzer, die sich in Skype for Business Server befinden, und, wenn Sie Exchange zum Speichern von Archivierungsdaten in Microsoft Exchange verwenden, für Benutzer, die auf Exchange 2013, aber für Benutzer, die in Exchange 2013 verwaltet werden, etwas anders implementiert sind. Die Unterschiede werden im nächsten Abschnitt beschrieben. 
   
 Auf der Seite **Archivierungskonfiguration** werden die einzelnen Archivierungsrichtlinien aufgeführt, die für die Bereitstellung konfiguriert sind. Außerdem werden der Richtlinienname und -bereich (Global, Standort oder Pool) sowie die für eine Archivierungskonfiguration aktivierten Archivierungsoptionen angezeigt. Auf der Seite **Archivierungskonfiguration** haben Sie die folgenden Möglichkeiten:
-- **Neue** Sie können eine oder mehrere der folgenden optionalen Archivierungskonfigurationen hinzufügen.
+- **Neu** Sie können eine oder mehrere der folgenden optionalen Archivierungs Konfigurationen hinzufügen.
     
   - Standortkonfiguration
     
   - Poolkonfiguration
     
-- **Bearbeiten** Sie können keines der Archivierungskonfiguration erst auf der Seite aufgeführten Optionen ändern. Mit dieser Option haben Sie folgende Möglichkeiten:
+- **Bearbeiten** von Sie können die Optionen für alle auf der Seite aufgelisteten Archivierungs Konfigurationen ändern. Mit dieser Option haben Sie folgende Möglichkeiten:
     
-  - **Details anzeigen** Diese Option öffnet ein Dialogfeld, in dem Sie die Archivierungsoptionen für den ausgewählten Archivierungskonfiguration ändern können. Sie können nur für jeweils eine Archivierungskonfiguration Details anzeigen.
+  - **Details anzeigen** Mit dieser Option wird ein Dialogfeld geöffnet, in dem Sie die Archivierungsoptionen für die ausgewählte Archivierungskonfiguration ändern können. Sie können nur für jeweils eine Archivierungskonfiguration Details anzeigen.
     
-  - **Wählen Sie alle** Diese Option werden alle Archivierungskonfigurationen der Liste ausgewählt.
+  - **Alle auswählen** Mit dieser Option werden alle Archivierungs Konfigurationen in der Liste ausgewählt.
     
-  - **Löschen** Diese Option werden alle ausgewählte Archivierungskonfigurationen gelöscht.
+  - **Löschen** Mit dieser Option werden alle ausgewählten Archivierungs Konfigurationen gelöscht.
     
-- **Aktion** Verwenden Sie diese Option, um schnell aktivieren oder Deaktivieren der Archivierung von Sofortnachrichtensitzungen oder webkonferenzsitzungen in einer Konfiguration auf der Seite, anstatt zur Bearbeitung der Konfigurations aufgeführt. Die unter **Aktion** verfügbaren Optionen richten sich danach, welche Option in der Archivierungskonfiguration momentan angegeben ist. Alle Optionen sind verfügbar, mit Ausnahme der Option, die für die Archivierungskonfiguration derzeit wirksam ist. Folgende Optionen sind vorhanden:
+- **Aktion** Sie können diese Option verwenden, um die Archivierung von Chatsitzungen oder Webkonferenz Sitzungen in einer beliebigen auf der Seite aufgeführten Konfiguration schnell zu aktivieren oder zu deaktivieren, anstatt die Konfiguration zu bearbeiten. Die unter **Aktion** verfügbaren Optionen richten sich danach, welche Option in der Archivierungskonfiguration momentan angegeben ist. Alle Optionen sind verfügbar, mit Ausnahme der Option, die für die Archivierungskonfiguration derzeit wirksam ist. Folgende Optionen sind vorhanden:
     
   - **Chatsitzungen archivieren**
     
@@ -64,7 +64,7 @@ Auf der Seite **Archivierungskonfiguration** werden die einzelnen Archivierungsr
     
   - **Archivierung deaktivieren**
     
-- **Aktualisieren** Sie können den Status der Optionen aller Archivierungskonfigurationen zu überprüfen, um die Seite **Archivierungskonfiguration** aktualisieren.
+- **Aktualisieren** Sie können die Seite **Archivierungskonfiguration** aktualisieren, um den Status der Optionen aller Archivierungs Konfigurationen zu überprüfen.
     
-Weitere Informationen über die Archivierungsfunktion und Funktionen, einschließlich Exchange-Integration finden Sie unter [Planen für die Archivierung in Skype für Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [Archivierung für Skype für Business Server 2015 bereitstellen](../../deploy/deploy-archiving/deploy-archiving.md)und verwalten [Archivierung in Skype für Business Server 2015](../../manage/archiving/archiving.md).
+Details zum Archivierungsfeature und zu den Funktionen, einschließlich der Exchange-Integration, finden Sie unter [Planen der Archivierung in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [Bereitstellen der Archivierung für Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)und [Verwalten der Archivierung in Skype für Business Server 2015](../../manage/archiving/archiving.md).
 

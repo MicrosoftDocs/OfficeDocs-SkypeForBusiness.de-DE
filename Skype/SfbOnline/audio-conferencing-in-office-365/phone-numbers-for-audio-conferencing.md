@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Erfahren Sie, welche Länder und Regionen Einwahlkonferenz-Nummern haben und wie diese automatisch zugeordnet werden.
-ms.openlocfilehash: 4ba3cea0b009ae91c2df1954cdee283397bf2037
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: daa2312350be038153db168517a1d0f5bd7023cf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229147"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299116"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Telefonnummern für Audiokonferenzen in Skype für Business Online
 
@@ -48,7 +48,7 @@ When a Skype for Business Online user schedules a meeting in Outlook or Outlook 
   
 Sie können weitere Einwahlnummern anzeigen, indem Sie in der Besprechungseinladung auf **Lokale Rufnummer suchen** klicken.
   
-## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Zugriffsnummer für Einwahl Rufnummern für eine audiokonferenzbrücke festlegen
+## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Auf einer Audiokonferenz-Brücke festgelegte Einwahl Telefonnummern
 
 Es gibt zwei Arten von Audiokonferenz-Telefonnummern, die Ihrer Konferenzbrücke zugewiesen sein können: **Freigegeben** und **Dediziert**. Beide Arten von Nummern können von allen Anrufern verwendet werden, um an Audiobesprechungen in Ihrer Organisation teilzunehmen.
   
@@ -63,7 +63,7 @@ Nur die Standardtelefonnummer für Audiokonferenzen, die einem Organisator zugew
 Freigegebene Audiokonferenz-Telefonnummern werden Organisationen automatisch zugewiesen, wenn sie für Audiokonferenzen aktiviert sind. Bei der Zuweisung der Telefonnummern wird eine Telefonnummer als Standardtelefonnummer der Konferenzbrücke zugewiesen. Die als Standardtelefonnummer der Brücke zugewiesene Telefonnummer stammt aus dem Land/der Region der Organisation.
   
 > [!NOTE]
-> Der Land oder Region Speicherort Ihrer Organisation kann durch Anmelden bei der **Office 365 Administrationscenter** , und suchen Sie unter **Organisationsprofil**gefunden werden. 
+> Das Land oder die Region, in dem sich Ihre Organisation befindet, kann gefunden werden, indem Sie sich beim **Office 365 Admin Center** anmelden und unter **Organisationsprofil**suchen. 
   
 > [!CAUTION]
 > Due to limited availability of toll phone numbers in Venezuela, Indonesia, and United Arab Emirates (UAE), organizations from these countries/regions won't have an Audio Conferencing toll number automatically assigned to them. Toll-free numbers from these locations are available depending on available inventory. 
@@ -74,18 +74,18 @@ Eine Liste der Länder/Regionen, in denen Organisationen automatisch Telefonnumm
   
 ## <a name="what-else-should-you-know"></a>Was sollten Sie noch wissen?
 
-- Die Liste der unterstützten Sprachen für Audiokonferenzen, finden Sie unter [Audiokonferenzen unterstützte Sprachen](/MicrosoftTeams/audio-conferencing-supported-languages).
+- Eine Liste der unterstützten Sprachen für Audiokonferenzen finden Sie unter [Unterstützte Sprachen](/MicrosoftTeams/audio-conferencing-supported-languages)für Audiokonferenzen.
     
-- Das Cmdlet [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) können Sie die dedizierte Rufnummern für Audiokonferenzen für Ihre Organisation finden Sie unter.
+- Sie können das Cmdlet [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) verwenden, um die dedizierten Telefonnummern für Audiokonferenzen für Ihre Organisation anzuzeigen.
     
 - Mit dem Cmdlet [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) können Sie die Sprachen anzeigen, die für eine fest zugeordnete Einwahltelefonnummer festgelegt werden können.
     
 - You can set up to four languages for each audio conferencing phone number - one primary and three secondary. And you can also set languages on a dedicated audio conferencing phone number.
     
-- Wenn die Zugriffsnummer für Einwahl-Rufnummer für einen Benutzer festlegen möchten, finden Sie unter [Festlegen von gewählte Nummern auf enthalten invites Telefonnummern](set-the-phone-numbers-included-on-invites.md).
+- Informationen zum Einrichten der Einwahl Telefonnummer für einen Benutzer finden Sie unter [Einrichten der Telefonnummern, die in Einladungen enthalten sind](set-the-phone-numbers-included-on-invites.md).
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder Erwerben von Audiokonferenzen in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

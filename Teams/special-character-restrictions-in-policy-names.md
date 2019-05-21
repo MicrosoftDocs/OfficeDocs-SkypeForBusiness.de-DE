@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -19,28 +19,28 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
-description: Finden Sie unter welche Probleme mit Sonderzeichen im Namen von Richtlinien und was Sie tun können sind, um es zu beheben.
-ms.openlocfilehash: 12d89c4956b2d076f7279506ccf32737d18d50e0
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+description: Sehen Sie sich die Probleme mit Sonderzeichen in den Namen der Richtlinien an, und was Sie tun können, um Sie zu beheben.
+ms.openlocfilehash: 03858de420cf77f8a8088f86c8c5feae5828c21a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632234"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298602"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Welche Beschränkungen gelten für Sonderzeichen in den Microsoft Teams-Richtlinien?
 
-**Sie können nicht erstellt oder Richtlinien bearbeiten (für messaging, Besprechungen, usw.), die ein Sonderzeichen den Namen in der Microsoft-Teams, Administrator haben, zentriert**. 
+**Sie können keine Richtlinien (für Nachrichten, Besprechungen usw.) erstellen oder bearbeiten, die im Namen des Microsoft Teams admin Centers ein Sonderzeichen enthalten**. 
 
-Wenn ein Richtlinienname Sonderzeichen enthält, werden Sie bei der Verwaltung diese Richtlinien in der Verwaltungskonsole von Microsoft-Teams, eingeschränkt werden. **Daher wird dringend empfohlen, Richtliniennamen keine Sonderzeichen enthalten**. 
+Wenn ein Richtlinienname Sonderzeichen enthält, sind Sie im Microsoft Teams Admin Center auf die Verwaltung dieser Richtlinien limitiert. Daher **wird nachdrücklich empfohlen, dass Richtliniennamen keine Sonderzeichen enthalten**. 
 
-Richtliniennamen, die von PowerShell für Besprechungen und messaging in Teams können Sonderzeichen wie haben erstellt wurden @, #, $. Jedoch, wenn Sie die Richtlinie in der Verwaltungskonsole von Microsoft-Teams ändern möchte, Sie kann nicht zu werden. 
+Richtliniennamen, die mit PowerShell für Besprechungen und Nachrichten in Teams erstellt wurden, können Sonderzeichen wie @, #, $ aufweisen. Wenn Sie jedoch Änderungen an der Richtlinie im Microsoft Teams Admin Center vornehmen möchten, ist dies nicht möglich. 
 
-Wenn Sie eine Richtlinie mit Sonderzeichen haben, müssen Sie entweder die Richtlinie mithilfe von Windows PowerShell (unbegrenzt) bearbeiten oder erstellen Sie eine neue Richtlinie in der Microsoft-Teams-Verwaltungskonsole mit denselben Einstellungen wie die alte Richtlinie und die gleiche Gruppe von Benutzern zuweisen.
+Wenn Sie über eine Richtlinie mit Sonderzeichen verfügen, müssen Sie entweder die Richtlinie mit Windows PowerShell (für immer) bearbeiten oder eine neue Richtlinie im Microsoft Teams Admin Center mit den gleichen Einstellungen wie die alte Richtlinie erstellen und der gleichen Benutzergruppe zuweisen.
 
-## <a name="to-remove-special-characters"></a>So entfernen Sonderzeichen
+## <a name="to-remove-special-characters"></a>So entfernen Sie Sonderzeichen
 
-**Schritt 1: Stellen Sie eine Remoteverbindung mit PowerShell.** 
- [Einrichten des Computers für Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , falls Sie noch nicht getan haben.
+**Schritt 1: Erstellen einer Remoteverbindung mit PowerShell** 
+ [Richten Sie Ihren Computer für Windows PowerShell ein](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , wenn Sie dies noch nicht getan haben.
 ```
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
@@ -49,40 +49,40 @@ Wenn Sie eine Richtlinie mit Sonderzeichen haben, müssen Sie entweder die Richt
 ```
 
 
-**Schritt 2 – die Einstellungen für die alte Richtlinie erhalten möchten, und erfassen Sie die Ausgabe.**
+**Schritt 2: Abrufen der Einstellungen für die alte Richtlinie und Aufzeichnen der Ausgabe.**
 
 > [!NOTE]
-> In diesem Beispiel wird für eine [Messaging](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) -Richtlinie.  Die Schritte wäre für andere Richtlinientypen identisch, aber Sie müssen das richtige-Cmdlet verwenden. 
+> In diesem Beispiel handelt es sich um eine [Messaging](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) Richtlinie.  Die Schritte wären für andere Richtlinientypen identisch, aber Sie müssen das richtige Cmdlet verwenden. 
 
   ```
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
   ```
 
 
-**Schritt 3: Erstellen einer neuen Richtlinie.**
+**Schritt 3 – Erstellen einer neuen Richtlinie**
 
-Sie können entweder die neue Richtlinie mit der gleichen Einstellung erstellen, mithilfe der Microsoft-Teams, Administrationscenter oder PowerShell.
+Sie können entweder die neue Richtlinie mit der gleichen Einstellung erstellen, indem Sie das Microsoft Teams Admin Center oder PowerShell verwenden.
 
-Mit dieser wird eine neue Richtlinie für Sie erstellen, aber Sie müssen die richtigen Einstellungen hinzufügen, indem Sie [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) anzeigen, und klicken Sie dann ausführen:
+Wenn Sie dies ausführen, wird eine neue Richtlinie für Sie erstellt, aber Sie müssen die richtigen Einstellungen hinzufügen, indem Sie [CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) anzeigen und dann ausführen:
 
   ```
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
  ```
-**Schritt 4: Zuweisen der Richtlinie.**
+**Schritt 4: Zuweisen der Richtlinie**
  ```
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-Finden Sie unter [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) für Weitere Informationen zu diesem Cmdlet.
+Weitere Informationen zu diesem Cmdlet finden Sie unter [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) .
 
-**Schritt 5: Löschen Sie die alte Richtlinie.**
+**Schritt 5: Löschen der alten Richtlinie**
 
-Dadurch wird die alte Richtlinie mit Sonderzeichen gelöscht.
+Dadurch wird die alte Richtlinie mit den Sonderzeichen gelöscht.
   ```
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-Finden Sie unter [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) für Weitere Informationen zu diesem Cmdlet.
+Weitere Informationen zu diesem Cmdlet finden Sie unter [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) .
 
-Wenn dieser Befehl erfolgreich ist wird, sind Sie fertig. Wenn Sie der oben aufgeführten Befehl einen Fehler zurückgibt, ist es, da die alte Richtlinie Benutzern zugewiesen ist, Sie ausführen, um alle zugewiesenen Benutzer aus der Richtlinie zu entfernen müssen:
+Wenn dieser Befehl erfolgreich ausgeführt wird, sind Sie fertig. Wenn der obige Befehl einen Fehler zurückgibt, liegt dies daran, dass die alte Richtlinie Benutzern zugewiesen ist, damit Sie alle zugewiesenen Benutzer aus der Richtlinie entfernen müssen:
 
 ```
 Grant-CsMessagingPolicy -Policy <old_policy_name> $null
@@ -95,7 +95,7 @@ Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funkt
     
   - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell hat viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität über nur über das Microsoft 365 Administrationscenter, beispielsweise wenn Sie Einstellungen Änderungen für viele Benutzer gleichzeitig durchführen. Learn about these advantages in the following topics:
+- Windows PowerShell bietet zahlreiche Vorteile bei der Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Änderungen an den Einstellungen vornehmen. Learn about these advantages in the following topics:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -104,6 +104,6 @@ Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funkt
   - [Verwenden von Windows PowerShell zum Ausführen häufiger Skype for Business Online-Verwaltungsaufgaben](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > Das Windows PowerShell-Modul für Skype für Business Online können Sie eine remote Windows PowerShell-Sitzung zu erstellen, die mit Skype für Business Online und Microsoft-Teams, eine Verbindung herstellt. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
+    > Mit dem Windows PowerShell-Modul für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, die eine Verbindung mit Skype for Business Online und Microsoft Teams herstellt. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
   
 

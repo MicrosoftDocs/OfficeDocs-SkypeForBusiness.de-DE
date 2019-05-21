@@ -11,61 +11,61 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Darstellung einer freigegebenen Linie ermöglicht dem Benutzer die Stellvertreter zum entgegennehmen oder in ihrem Auftrag Anrufe auswählen.
-ms.openlocfilehash: d16fe4b3241e814609999d8068ee47743bfca516
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Die Darstellung der freigegebenen Zeile ermöglicht es einem Benutzer, eine Stellvertretung zu wählen, um Anrufe in deren Auftrag zu beantworten oder zu behandeln.
+ms.openlocfilehash: 619e011e1af5a765bc86ca6bd68134dc5ab1e9fa
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204491"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298655"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Teamschaltung in Microsoft Teams
 
-Darstellung einer freigegebenen Linie ist Bestandteil der Delegierung-Feature, mit dem einen Benutzer wählen Sie ein Stellvertreter zum entgegennehmen oder in ihrem Auftrag Anrufe. Dieses Feature ist hilfreich, wenn ein Benutzer ein Verwaltungsmitarbeiter verfügt, die die Anrufe des Benutzers regelmäßig behandelt. Im Kontext von freigegebenen Zeile Darstellung, ist ein Manager einer Person, die eine Stellvertretung tätigen und Entgegennehmen von Anrufen in ihrem Auftrag autorisiert und Stellvertreter kann tätigen und Entgegennehmen von Anrufen im Auftrag einer anderen Person.
+Die Darstellung der freigegebenen Zeile ist Teil des Delegierungsfeatures, mit dem Benutzer eine Stellvertretung auswählen können, um Anrufe in Ihrem Auftrag zu beantworten oder zu behandeln. Dieses Feature ist hilfreich, wenn ein Benutzer über einen administrativen Assistenten verfügt, der regelmäßig die Anrufe des Benutzers abwickelt. Im Zusammenhang mit der Darstellung der freigegebenen Zeile ist ein Manager jemand, der eine Stellvertretung autorisiert, in seinem Namen Anrufe zu tätigen oder zu empfangen, und eine Stellvertretung kann Anrufe im Namen einer anderen Person tätigen und empfangen.
 
 > [!IMPORTANT]
-> Dieses Feature ist nur im Modus nur Teams Bereitstellung zur Verfügung. Weitere Informationen zu Bereitstellungsmethoden Teams finden Sie unter [Grundlegendes zu Microsoft-Teams und Skype für Interoperabilität und Koexistenz Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> Dieses Feature steht nur im Bereitstellungsmodus für Teams zur Verfügung. Weitere Informationen zu den Bereitstellungsmodi für Teams finden Sie Untergrund Legendes zu [Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität](teams-and-skypeforbusiness-coexistence-and-interoperability.md) .
 
 ## <a name="license-required"></a>Lizenz erforderlich
 
-Ein Benutzer muss ein Enterprise Voice-Benutzer werden eine Stellvertretung oder Delegierung einrichten und aktivieren für andere Benutzer Anrufe in ihrem Auftrag tätigen oder Entgegennehmen können.
+Ein Benutzer muss ein Enterprise-VoIP-Benutzer sein, um Stellvertretung zu sein oder eine Delegierung einzurichten und anderen Personen das tätigen oder empfangen von Anrufen in deren Auftrag zu ermöglichen.
 
-Sowohl Vorgesetzte als auch Stellvertreter müssen Enterprise-VoIP aktiviert sein. Die Erfahrung freigegebenen Zeile ist Teil der Delegierung und ist keine zusätzliche Lizenz erforderlich. Weitere Details zur am Lizenzierungsmodell finden Sie unter [Office 365-Lizenzierung für Microsoft-Teams](office-365-licensing.md).
+Für Manager und Stellvertretungen muss Enterprise-VoIP aktiviert sein. Die Erfahrung der freigegebenen Leitung ist Teil der Delegierung und erfordert keine zusätzliche Lizenz. Weitere Informationen zum Lizenzierungsmodell finden Sie unter [Office 365-Lizenzierung für Microsoft Teams](office-365-licensing.md).
 
-## <a name="configuring-delegation-and-shared-line-appearance"></a>Konfigurieren der Delegierung und Darstellung einer freigegebenen Linie
+## <a name="configuring-delegation-and-shared-line-appearance"></a>Konfigurieren der Darstellung von Delegierungs-und freigegebenen Leitungen
 
-Delegierung und Darstellung einer freigegebenen Linie sind benutzergesteuerten Features: Es sind keine Admin Einstellungen konfiguriert. Informationen zur Verwendung des Features finden Sie unter [Freigeben einer Telefonleitung mit einem Delegaten](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
+Die Darstellung der Delegierung und der freigegebenen Zeile sind benutzergesteuerte Features: Es sind keine Administratoreinstellungen zum Konfigurieren vorhanden. Informationen zum Verwenden des Features finden Sie unter [Freigeben einer Telefonleitung mit einer Stellvertretung](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-Administrator des Mandanten sollten Delegierung über die **TeamsCallingPolicy AllowDelegation** Einstellung für dieses Feature zu aktivieren.
+Der mandantenadministrator sollte die Delegierung über die **TeamsCallingPolicy-AllowDelegation** -Einstellung aktivieren, damit dieses Feature funktioniert.
 
-## <a name="shared-line-appearance-feature-availability"></a>Verfügbarkeit von Zeile Darstellung Shared
+## <a name="shared-line-appearance-feature-availability"></a>Verfügbarkeit von freigegebenen Leitungs Darstellungs Features
 
-Darstellung einer freigegebenen Linie wird derzeit von den folgenden apps und -Geräte unterstützt.
+Die Darstellung der freigegebenen Zeile wird derzeit von den folgenden apps und Geräten unterstützt.
 
-| Funktion | Teams Desktop | Teams Mac-App | Teams Web App (Edge) |Mobile-iOS/Android-App-Teams | Teams IP-Telefon |
+| Funktion | Teams-Desktop | Mac-app für Teams | Teams Web App (Edge) |Teams Mobile IOS/Android-App | IP-Telefon für Teams |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| Einrichten von Delegierung | Ja  | Ja  | Ja | Nein | Nein |
-| Ausgehende Anrufe im Auftrag eines anderen | Ja  | Ja  | Ja  | Ja  | Ja |
-| Eine Rufnummer im Auftrag eines anderen | Ja  | Ja  | Ja  | Ja  | Ja |
-| Rufen Sie einen Benutzer Teams im Auftrag eines anderen | Ja  | Ja  | Ja  | Ja  | Ja |
-| Finden Sie unter der Admin-Ansicht des freigegebenen Zeilen | Ja  | Ja  | Ja | Nein | Nein |
-| Finden Sie unter der Admin-Ansicht des Managers Anrufsaktivitäten | Ja  | Ja  | Ja | Nein | Nein |
-| Finden Sie unter der Manager – Übersicht über Delegaten | Ja  | Ja  | Ja | Nein | Nein |
-| Admin oder Manager halten oder Wiederaufnehmen | Ja  | Ja  | Ja | Nein | Nein |
+| Einrichten der Delegierung | Ja  | Ja  | Ja | Nein | Nein |
+| Empfangen von Anrufen im Namen einer anderen Person | Ja  | Ja  | Ja  | Ja  | Ja |
+| Anrufen einer Telefonnummer im Namen einer anderen Person | Ja  | Ja  | Ja  | Ja  | Ja |
+| Anrufen eines Teams-Benutzers im Namen einer anderen Person | Ja  | Ja  | Ja  | Ja  | Ja |
+| Anzeigen der Administrator Ansicht für freigegebene Zeilen | Ja  | Ja  | Ja | Nein | Nein |
+| Anzeigen der Administrator Ansicht der Anrufaktivitäten des Managers | Ja  | Ja  | Ja | Nein | Nein |
+| Anzeigen der Manageransicht von Stellvertretungen | Ja  | Ja  | Ja | Nein | Nein |
+| Administrator oder Manager kann halten oder fortsetzen | Ja  | Ja  | Ja | Nein | Nein |
 
 ## <a name="limitations"></a>Einschränkungen
 
-Manager können bis zu 25 Stellvertretungen hinzufügen, und bis zu 25 Manager eine Stellvertretung werden können. Es gibt keine Begrenzung der Anzahl der Delegierung Beziehungen, die in einem Mandanten erstellt werden können. 
+Manager können bis zu 25 Stellvertretungen hinzufügen, und Stellvertretungen können bis zu 25 Manager aufweisen. Die Anzahl der Delegierungs Beziehungen, die in einem Mandanten erstellt werden können, ist unbegrenzt. 
  
-Wenn die Person als auch der Stellvertreter nicht in den gleichen geografischen Standort befinden, ist es bis zu dem PSTN-Dienstanbieter zu Anrufer-ID an einem anderen geografischen Standort für einen Anruf delegierte (im Auftrag von) angezeigt wird. 
+Wenn sich der delegator und der Delegat nicht am gleichen geografischen Standort befinden, ist es Sache des PSTN-Anbieters, die Rufnummernanzeige von einem anderen geografischen Standort aus für einen Delegierten (im Auftrag von) Anruf zu ermöglichen. 
  
 ## <a name="more-information"></a>Weitere Informationen
 
-[Freigeben einer Telefonleitung für eine Stellvertretung](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
+[Freigeben einer Telefonleitung mit einer Stellvertretung](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)

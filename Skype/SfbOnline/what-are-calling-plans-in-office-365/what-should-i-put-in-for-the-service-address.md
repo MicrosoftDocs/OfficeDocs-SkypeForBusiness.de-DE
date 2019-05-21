@@ -1,5 +1,5 @@
 ---
-title: Was sollte ich für die Dienst-Adresse tragen Sie?
+title: Was muss ich für die Dienstadresse eingeben?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,19 +20,19 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoServiceAddress
 ms.custom:
 - Calling Plans
-description: 'Hier erfahren Sie, was Ihre Dienst-Adresse ist, wie es von der Adresse abweicht und es dort können Sie. '
-ms.openlocfilehash: dfdbb46dcbba6707ae746b004f5d97cdb20c5776
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Erfahren Sie, was Ihre Dienstadresse ist, wie Sie sich von Ihrer Rechnungsadresse unterscheidet und wo Sie Sie finden können. '
+ms.openlocfilehash: c476e388d531bd3737a871c23e90628a38047684
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227834"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290725"
 ---
-# <a name="what-should-i-put-in-for-the-service-address"></a>Was sollte ich für die Dienst-Adresse tragen Sie?
+# <a name="what-should-i-put-in-for-the-service-address"></a>Was muss ich für die Dienstadresse eingeben?
 
-Die Dienst-Adresse unterscheidet sich von der Art der Rechnungslegung oder Notfall-Adresse, die Sie mit Ihrem Telefon-Dienstanbieter oder Netzbetreiber registriert haben. Wenn Sie dies nicht kennen, können Sie wenden Sie Ihrem Dienstanbieter oder Netzbetreiber, um die Dienst-Adresse aufgeführtes Dokument Ihr Konto zu erhalten.
+Die Dienstadresse unterscheidet sich von der Rechnungs-oder Notfalladresse, die Sie bei Ihrem Telefondienstanbieter oder Netzbetreiber registriert haben. Wenn Sie dies nicht wissen, können Sie sich an Ihren Dienstanbieter oder Netzbetreiber wenden, um die in Ihrem Konto aufgeführte Dienstadresse zu ermitteln.
   
- **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ **Eine vollständige Schritt-für-Schritt-Anleitung finden Sie unter [übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

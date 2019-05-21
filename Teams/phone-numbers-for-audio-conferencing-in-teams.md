@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -22,16 +22,16 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Hier erfahren Sie, für welche Länder und Regionen Dial-in-Konferenztelefonnummern verfügbar sind und wie diese automatisch zugewiesen werden.
-ms.openlocfilehash: 3fdd94a8ff0bf867f71a1e02c5ae84cf17bac0d8
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: e5644ab613fec588a901691632d27ebf25e9e80a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835083"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299469"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Telefonnummern für Audiokonferenzen in Microsoft Teams
 
-Wenn Sie **Audiokonferenzen** für Microsoft Teams einrichten, werden Ihrer Organisation automatisch Dial-in-Telefonnummern zugewiesen. Auf das Telefon finden Sie unter von Zahlen, die Ihre audiokonferenzbrücke in der Verwaltungskonsole von Microsoft-Teams zugewiesen sind, wechseln Sie zu **Besprechungen** > **Konferenzbrücken**. Weitere Informationen finden Sie unter [finden Sie eine Liste von Audiokonferenzen Zahlen](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Wenn Sie **Audiokonferenzen** für Microsoft Teams einrichten, werden Ihrer Organisation automatisch Dial-in-Telefonnummern zugewiesen. Um die Telefonnummern anzuzeigen, die ihrer Audiokonferenz-Brücke zugewiesen sind, gehen Sie im Microsoft Teams Admin Center zu **Besprechungen** > **Konferenz Brücken**. Weitere Informationen [finden Sie unter Anzeigen einer Liste von Audiokonferenz-Nummern](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Verfügbarkeit von Audiokonferenzen und Preise
@@ -40,7 +40,7 @@ Eine vollständige Liste aller Länder/Regionen und Städte, in denen Audiokonfe
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Dial-in-Telefonnummern in einer Besprechungseinladung
 
-Wenn Microsoft Teams-Benutzer in Outlook oder Outlook Web App eine Besprechung planen, wird die für sie festgelegte standardmäßige Audiokonferenz-Telefonnummer in der Besprechungseinladung angegeben. Wenn Sie eine andere Standardnummer für einen oder mehrere Benutzer auswählen möchten, können Sie, die für **Benutzer**, den Benutzer auswählen, und Bearbeiten des Benutzers Audiokonferenzen Einstellungen ändern. Siehe [Festlegen der in Einladungen enthaltenen Telefonnummern](set-the-phone-numbers-included-on-invites-in-teams.md).
+Wenn Microsoft Teams-Benutzer in Outlook oder Outlook Web App eine Besprechung planen, wird die für sie festgelegte standardmäßige Audiokonferenz-Telefonnummer in der Besprechungseinladung angegeben. Wenn Sie eine andere Standardnummer für einen oder mehrere Benutzer auswählen möchten, können Sie dies ändern, indem Sie zu **Benutzer**wechseln, den Benutzer auswählen und die Einstellungen für die Audiokonferenz des Benutzers bearbeiten. Siehe [Festlegen der in Einladungen enthaltenen Telefonnummern](set-the-phone-numbers-included-on-invites-in-teams.md).
   
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Für eine Audiokonferenzbrücke festgelegte Dial-in-Telefonnummern
@@ -60,7 +60,7 @@ Freigegebene Audiokonferenz-Telefonnummern werden Organisationen automatisch zug
 Eine Liste der Länder/Regionen, in denen Organisationen automatisch Telefonnummern zugewiesen werden, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
     
 > [!NOTE]
-> Der Land oder Region Speicherort Ihrer Organisation kann durch Anmelden bei der **Microsoft-365-Verwaltungskonsole** und in einem unter **Organisationsprofil**gefunden werden. 
+> Das Land oder die Region, in dem sich Ihre Organisation befindet, kann gefunden werden, indem Sie sich beim **Microsoft 365 Admin Center** anmelden und unter **Organisationsprofil**suchen. 
   
 > [!CAUTION]
 > Aufgrund der eingeschränkten Verfügbarkeit von gebührenpflichtigen Telefonnummern in Venezuela, Indonesien und den Vereinigten Arabischen Emiraten wird Organisationen aus diesen Ländern/Regionen nicht automatisch eine gebührenpflichtige Audiokonferenz-Telefonnummer zugewiesen. Gebührenfreie Telefonnummern für diese Standorte stehen je nach verfügbarem Bestand zur Verfügung. 

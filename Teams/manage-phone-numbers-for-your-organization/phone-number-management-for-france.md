@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern in Frankreich für Skype for Business Online und Microsoft Teams.
-ms.openlocfilehash: e653b89a77e3d8cf699799d7a1076db86b3dc49b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1aa5dc8a993285a96474ac6f8836bd4a4f323b6e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231822"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298742"
 ---
 # <a name="phone-number-management-for-france"></a>Telefonnummernverwaltung für Frankreich
 
@@ -36,10 +36,10 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter, und senden Sie sie an uns.**|
 |:-----|:-----|
-|Erhalten Sie neue Benutzer und Service Rufnummern, die in der Skype für Business Administrationscenter nicht aufgelistet werden.   <br/> | Laden Sie das Formular zur <br/> [Neue Nummer Telefon-Anforderung für Frankreich (v.4.0)(fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.4.0)-(fr-fr).pdf?raw=true) <br/>[Neue Nummer Telefon-Anforderung für Frankreich (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.4.0)-(en-us).pdf?raw=true) <br/>   Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> 
-|Rufen Sie die Telefonnummern, die für uns übertragen.  <br/> |Laden Sie eines dieser Formulare herunter: <br/> [Schriftliche Vollmacht für Frankreich (Gratistelefonnummern) (v.2.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr-fr).pdf?raw=true) <br/> [Schriftliche Vollmacht für Frankreich (ortsgebundene Nummern) (v.2.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr-fr).pdf?raw=true) <br/>  <br/>  Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
-|Veröffentlichen/Aufheben der Veröffentlichung Telefonnummern im Telefonverzeichnis national.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
-|Ändern eines Benutzers Zahl in eine Zahl Service.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
+|Neue Telefonnummern für Benutzer und Dienstleistungen abrufen, die nicht im Skype for Business Admin Center aufgeführt sind.   <br/> | Laden Sie das Formular zur <br/> [Neue Telefonnummern Anfrage für Frankreich (v. 4.0) (fr-FR)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.4.0)-(fr-fr).pdf?raw=true) <br/>[Neue Telefonnummern Anfrage für Frankreich (v. 4.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.4.0)-(en-us).pdf?raw=true) <br/>   Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> 
+|Holen Sie sich Telefonnummern, die an uns übertragen werden.  <br/> |Laden Sie eines dieser Formulare herunter: <br/> [Schriftliche Vollmacht für Frankreich (Gratistelefonnummern) (v.2.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr-fr).pdf?raw=true) <br/> [Schriftliche Vollmacht für Frankreich (ortsgebundene Nummern) (v.2.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr-fr).pdf?raw=true) <br/>  <br/>  Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
+|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
+|Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
 
 ## <a name="related-topics"></a>Verwandte Themen
 

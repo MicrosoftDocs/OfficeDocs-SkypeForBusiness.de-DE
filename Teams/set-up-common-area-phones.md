@@ -13,89 +13,89 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Hier erfahren Sie, wie Sie Telefone in öffentlichen Bereichen für Lobbys, Empfangsbereichen und Konferenzräume einrichten '
-ms.openlocfilehash: 66f84cb1ce768cc86a7c31a6ac345f0fcc135726
-ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
+description: 'Informationen zum Einrichten von Telefonen im öffentlichen Bereich für Lobbies, Empfangsbereiche und Konferenzräume '
+ms.openlocfilehash: ea29fac8792c8c52112c34126f463cc3bde9873c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34108747"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298758"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Einrichten der Lizenz für Telefone für gemeinsame Bereiche für Microsoft Teams
 > [!NOTE]
-> Telefone in öffentlichen Bereichen unterstützt Voicemail nicht.
+> Telefone im öffentlichen Bereich unterstützen keine Voicemail.
 
-Ein Telefon im öffentlichen Bereich wird in der Regel platziert, in einen Bereich wie eine Lobby oder einem anderen Bereich, der So rufen an viele Personen zur Verfügung steht. beispielsweise ein Empfang Bereich, Wartebereich oder Konferenz Telefon. Telefone in öffentlichen Bereichen Geräte, sondern als Benutzer eingerichtet sind, und in einem Netzwerk automatisch anmelden können.
+Ein Telefon im öffentlichen Bereich befindet sich normalerweise in einem Bereich wie einer Lobby oder einem anderen Bereich, der für viele Personen zur Verfügung steht, um einen Anruf zu tätigen. beispielsweise einen Empfangsbereich, eine Lobby oder ein Konferenztelefon. Telefone im öffentlichen Bereich sind als Geräte und nicht als Benutzer eingerichtet und können sich automatisch bei einem Netzwerk anmelden.
 
-In den folgenden Schritten helfen wir Ihnen das Einrichten eines Kontos für Telefonsystem Telefone in öffentlichen Bereichen für Ihre Organisation bereitstellen. Für eine genauere Besprechungsraum wünschen, Audiokonferenzen, einschließlich die dedizierte Besprechungsraum Lizenz mit einer Besprechung Mitgliederlisten Raum Gerät. 
+In den nachstehenden Schritten unterstützen wir Sie beim Einrichten eines Kontos für das Telefon System für die Bereitstellung von Telefonen im allgemeinen Bereich für Ihre Organisation. Für eine vollständige Besprechungsraum-Erfahrung, einschließlich Audiokonferenzen, sollten Sie erwägen, die dedizierte Besprechungsraum-Lizenz mit einem Besprechungsraum Gerät zu erwerben. 
 
-Zunächst müssen Sie lediglich sind Purchase eine Lizenz Common Area Phone (CAP) und stellen Sie sicher, dass Sie ein zertifiziertes Telefon verfügen. Zum Suchen nach und erfahren mehr über zertifizierten Telefone, wechseln Sie zur [Microsoft-Teams, Geräte](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1). 
+Das erste, was Sie tun müssen, ist, eine Lizenz für das Common Area Phone (GAP) zu erwerben und sicherzustellen, dass Sie über ein zertifiziertes Telefon verfügen. Informationen zu zertifizierten Telefonen finden Sie unter [Microsoft Teams-Geräte](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1). 
 
 ## <a name="step-1---buy-the-licenses"></a>Schritt 1 - Lizenzen kaufen
 
-1. Wechseln Sie in der Microsoft-365-Verwaltungskonsole zu **Abrechnung** > **Dienste erwerben** und erweitern Sie dann **andere Pläne**.
+1. Wechseln Sie im Microsoft 365 Admin Center zu **Abrechnungs** > **Kauf Dienste** , und erweitern Sie dann **andere Pläne**.
 
-    ![Screenshot, der zeigt der Kachel "Common Area Phone"](media/set-up-common-area-phone-image1.png)
+    ![Screenshot der Telefon Kachel für den öffentlichen Bereich](media/set-up-common-area-phone-image1.png)
 
-2. Wählen Sie **Telefone in öffentlichen Bereichen** > **Jetzt kaufen**.
+2. Wählen Sie den **Bereich Telefon** > **Jetzt kaufen**.
 
-3. Klicken Sie auf der Seite **Auschecken** auf **Jetzt kaufen**.
+3. Klicken Sie auf der **Checkout** -Seite auf **Jetzt kaufen**.
 
-4. Erweitern Sie **Add-on-Abonnements** , und klicken Sie dann auf Kaufen aufrufen planen. Wählen Sie die **nationalen Plan aufrufen** oder **nationalen und internationalen aufrufen planen**.
+4. Erweitern Sie **Add-on-Abonnements** , und klicken Sie dann, um einen Anrufplan zu kaufen. Wählen Sie entweder den Plan für **Inlandsanrufe** oder den Tarif für **Inlands-und Auslandsgespräche**.
 
 > [!NOTE]
 > Sie benötigen für das Telefonsystem keine Lizenz. Sie ist in der Lizenz Telefon für gemeinsame Bereiche enthalten.
 
-Weitere Informationen zu Lizenzen finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Weitere Informationen zu Lizenzen finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Schritt 2 - Ein neues Benutzerkonto für das Telefon erstellen und die Lizenzen zuweisen
 
-1. Wechseln Sie in der Microsoft-365-Verwaltungskonsole zu **Benutzern** > **aktive Benutzer** > **Hinzufügen eines Benutzers**.
+1. Wechseln Sie im Microsoft 365 Admin Center zu **Benutzer** > , denen**aktive** > Benutzer**einen Benutzer hinzufügen**.
 
-2. Geben Sie einen Benutzernamen wie "Main" für den ersten Namen und "Empfang" für den zweiten Namen.
+2. Geben Sie einen Benutzernamen wie "Main" für den Vornamen und "Empfang" für den zweiten Namen ein.
 
-3. Geben Sie einen Anzeigenamen ein, wenn dies nicht der Fall einer standardbrowserformulare wie "Main Empfang".
+3. Geben Sie einen Anzeigenamen ein, wenn er nicht wie "Hauptempfang" automatisch generiert wird.
 
-4. Geben Sie einen Benutzernamen ein, wie "MainReception" oder "Mainlobby."
+4. Geben Sie einen Benutzernamen wie "MainReception" oder "Mainlobby" ein.
 
-5. Für Telefone in öffentlichen Bereichen möchten Sie möglicherweise manuell festlegen eines Kennworts oder über das gleiche Kennwort für alle Ihre Telefone in öffentlichen Bereichen. Darüber hinaus glauben Sie zum Deaktivieren des Kontrollkästchens **stellen diesen Benutzer ändern ihres Kennworts beim erstmaligen Anmelden** .
+5. Für Telefone im öffentlichen Bereich empfiehlt es sich, ein Kennwort manuell festzulegen oder das gleiche Kennwort für alle Telefone im öffentlichen Bereich zu haben. Darüber hinaus ist es möglich, dass Sie das Kontrollkästchen **diesen Benutzer zum Ändern des Kennworts bei der ersten Anmeldung** verwenden deaktivieren.
 
-6. Dem Benutzer die Lizenzen zuweisen. Klicken Sie auf der gleichen Seite auf **Produktlizenzen** erweitern. Aktivieren Sie das Telefon im öffentlichen Bereich, und wählen Sie entweder einen **Nationalen aufrufen planen** oder eine **in- und International aufrufen planen**. 
+6. Weisen Sie dem Benutzer die Lizenzen zu. Klicken Sie auf der gleichen Seite auf **Produktlizenzen** erweitern. Aktivieren Sie das Telefon für den öffentlichen Bereich, und wählen Sie entweder einen **Inlandsanruf Plan** oder einen **Plan für Inlands-und Auslandsanrufe**aus. 
 
-    ![Screenshot mit lizenzzuweisung](media/set-up-common-area-phone-image2.png)
+    ![Screenshot mit Lizenzzuweisung](media/set-up-common-area-phone-image2.png)
 
-Weitere Informationen finden Sie unter [Benutzer hinzufügen](https://docs.microsoft.com/office365/admin/add-users/add-users?redirectSourcePath=%252farticle%252f1970f7d6-03b5-442f-b385-5880b9c256ec&view=o365-worldwide).
+Weitere Informationen finden Sie unter [Hinzufügen eines Benutzers](https://docs.microsoft.com/office365/admin/add-users/add-users?redirectSourcePath=%252farticle%252f1970f7d6-03b5-442f-b385-5880b9c256ec&view=o365-worldwide).
 
 ## <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Schritt 3 - Eine Telefonnummer dem Benutzerkonto Telefon für gemeinsame Bereich zuweisen
 
-Verwenden Sie die Skype für Business Administrationscenter, eine Nummer, die dem Benutzer zuzuweisen.
+Verwenden Sie das Skype for Business Admin Center, um dem Benutzer eine Nummer zuzuweisen.
 
-1. Wählen Sie in der Microsoft-365-Verwaltungskonsole **Admin zentriert** > **Teams & Skype** > **Legacy-Portal**.
+1. Wählen Sie im Microsoft 365 Admin Center die Option **Admin Center** > **Teams & Skype** > **Legacy Portal**aus.
 
-2. Wählen Sie in der Skype für Business Administrationscenter, **Stimme** > **Rufnummern**.
+2. Wählen Sie im Skype for Business Admin Center die Option **Voice** > **Phone Numbers**aus.
 
 3.  Wählen Sie eine Nummer aus der Liste der Telefonnummern aus und klicken Sie auf **Zuweisen**.
 
-4. Geben Sie auf der Seite **zuweisen** im Feld Benutzername den VoIP den Namen des Benutzers, der das Telefon, und wählen Sie dann den Benutzer in der Dropdownliste **Wählen Sie einen VoIP-Benutzer** verwendet werden soll.
+4. Geben Sie auf der Seite **zuweisen** im Feld VoIP-Benutzer den Namen des Benutzers ein, der das Telefon verwenden soll, und wählen Sie dann den Benutzer in der Dropdownliste **Sprachbenutzer auswählen** aus.
 
-5. Hier müssen Sie eine Notfalladresse angeben. Wählen Sie aus der Dropdown-Liste **Suchen nach Stadt**, **Suchen nach Beschreibung**, oder **Suchen Sie nach Standort** , und geben Sie die Stadt, Beschreibung oder Speicherort in das Textfeld. Sobald Sie suchen, suchen Sie unter **Wählen Sie Notfall Adresse** für das richtige für Sie auswählen.
+5. Hier müssen Sie eine Notfalladresse angeben. Wählen Sie in der Dropdownliste **Suchen**nach Ort, nach **Beschreibung suchen**oder nach **Ort suchen** aus, und geben Sie dann den Ort, die Beschreibung oder den Ort in das Textfeld ein. Wenn Sie nach der Suche suchen, suchen Sie unter **Notfalladresse auswählen** , um das richtige für Sie auszuwählen.
 
 6. Klicken Sie auf **Speichern** und Ihr Benutzer sollte so aussehen:
 
-   ![Screenshot mit lizenzzuweisung](media/set-up-common-area-phone-image3.png)
+   ![Screenshot mit Lizenzzuweisung](media/set-up-common-area-phone-image3.png)
 
 > [!NOTE]
-> Benutzer werden nur angezeigt, wenn sie eine Telefonsystem Lizenz angewendet haben. Wenn Sie dies gerade erst getan haben, dann kann es etwas dauern, bis der Benutzer in der Liste erscheint.
+> Benutzer werden nur angezeigt, wenn Sie über eine Telefon System Lizenz verfügen. Wenn Sie dies gerade erst getan haben, dann kann es etwas dauern, bis der Benutzer in der Liste erscheint.
 
-Weitere Informationen finden Sie unter [Getting Rufnummern für Ihre Benutzer](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
+Weitere Informationen finden Sie unter [Abrufen von Telefonnummern für Ihre Benutzer](/microsoftteams/getting-phone-numbers-for-your-users).
 
-Sie können auch Ihre Telefonnummer schalten, indem Sie mit einem anderen Netzbetreiber und "Port" oder zu Office 365 übertragen. Finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
+Sie können auch Ihre Telefonnummer, die Sie mit einem anderen Netzbetreiber haben, übernehmen und "portieren" oder auf Office 365 übertragen. Weitere Informationen finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
 
 
