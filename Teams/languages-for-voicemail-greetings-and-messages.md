@@ -1,7 +1,7 @@
 ---
 title: Sprachen für Voicemail-Ansagen und -nachrichten
-author: CarolynRowe
-ms.author: crowe
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Hier erfahren Sie, welche Sprachen Sie in Skype for Business für die Standardnachrichten des Systems festlegen können. '
-ms.openlocfilehash: eb16bc3e8826cb38727258db64ac061bf969479f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ecd8d9f5b87b67b8ac57f0d0917ea315f264374d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245238"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299912"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Sprachen für Voicemail-Ansagen und -nachrichten
 
@@ -37,7 +37,7 @@ Um die Sprache zu ändern, die Skype for Business für System-Voicemail-Ansagen 
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Sprache** <br/> |**Land/Region** <br/> |**Sprachcode** <br/> |**Für Benutzer in E-Mails sichtbar?** <br/> |**Verfügbar bei Anrufen des Benutzers?** <br/> |**Transkription verfügbar?** <br/> |
-|Arabisch <br/> |Ägypten  <br/> |Ar-EG  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
+|Arabisch <br/> |Ägypten  <br/> |ar-EG  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Katalanisch  <br/> |Katalanisch  <br/> |ca-ES  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Chinesisch (vereinfacht)  <br/> |China  <br/> |zh-hans  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Chinesisch (Hongkong SAR)  <br/> |China  <br/> |zh-hk  <br/> |Ja, verwendet wird aber Chinesisch (traditionell) (zh-hant).  <br/> | Ja <br/> |Ja, verwendet wird aber Chinesisch (traditionell) (zh-hant).  <br/> |
@@ -68,7 +68,7 @@ Um die Sprache zu ändern, die Skype for Business für System-Voicemail-Ansagen 
 |Rumänisch<br/> |Rumänien  <br/> |ro-RO  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |Russisch  <br/> |Russland  <br/> |ru-RU  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
 |Slowakisch <br/> |Slowakei  <br/> |sk-SK  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
-|Slowenisch <br/> |Slowenien  <br/> |sl-SI  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Slowenisch <br/> |Slowenien  <br/> |SL-SI  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |Spanisch  <br/> |Spanien  <br/> |es-ES  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
 |Spanisch  <br/> |Mexiko  <br/> |es-MX  <br/> |Ja, verwendet wird aber Spanisch (Spanien) (es-ES).  <br/> |Ja  <br/> |Ja, verwendet wird aber Spanisch (Spanien) (es-ES).  <br/> |
 |Schwedisch  <br/> |Schweden  <br/> |sv-SE  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |

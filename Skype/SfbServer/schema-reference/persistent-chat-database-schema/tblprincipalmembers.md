@@ -5,35 +5,35 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9a3e24cf-6ef7-4b82-99fc-50ba41800b6f
-description: "\"tblprincipalmembers\" enthält prinzipalmitgliedschaften."
-ms.openlocfilehash: be66ee6124c7b0306583bcb10f7d78b777fcf10c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblPrincipalMembers enthält Prinzipal Mitgliedschaften.
+ms.openlocfilehash: 12c3bf86b7416665f0f2355af0bfc9f98e3c1f1a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33904160"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295286"
 ---
 # <a name="tblprincipalmembers"></a>tblPrincipalMembers
  
-"tblprincipalmembers" enthält prinzipalmitgliedschaften.
+tblPrincipalMembers enthält Prinzipal Mitgliedschaften.
   
 **Spalten**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|prinID  <br/> |Int, nicht null  <br/> |Prinzipal-ID.  <br/> |
-|memberADPath  <br/> |Nvarchar (384), nicht null  <br/> |Distinguished Name eines Elements. Ein Element hat keinen zu einem Prinzipal (in der TblPrincipal-Tabelle).  <br/> |
+|prinID  <br/> |int, nicht NULL  <br/> |Prinzipal-ID.  <br/> |
+|memberADPath  <br/> |nvarchar (384); nicht NULL  <br/> |Distinguished Name eines Members. Ein Mitglied muss kein Prinzipal sein (in der tblPrincipal-Tabelle).  <br/> |
    
 **Schlüssel**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
-|\<PrinID memberADPath\>  <br/> |Primärschlüssel.  <br/> |
-|prinID  <br/> |Fremdschlüssel mit Abfrage von tblprincipal.prinid.  <br/> |
+|\<prinID, memberADPath\>  <br/> |Primärschlüssel  <br/> |
+|prinID  <br/> |Fremdschlüssel mit Lookup in tblPrincipal. prinID.  <br/> |
    
 

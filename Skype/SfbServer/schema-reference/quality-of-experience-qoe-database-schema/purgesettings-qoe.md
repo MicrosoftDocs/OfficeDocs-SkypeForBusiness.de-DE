@@ -5,34 +5,34 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
-description: 'PurgeSettings-Tabelle enthält Informationen, die angibt, ob (und wann) veraltete Quality of Experience-Einträge werden automatisch aus der QoE-Datenbank gelöscht werden. Beachten Sie, dass Bereinigung-bezogene Informationen ebenfalls innerhalb der Skype für Business Server-Verwaltungsshell gewonnen werden kann mithilfe des folgenden Befehls:'
-ms.openlocfilehash: 2b78f066907d6d0763fab7faa9d378e51f3715fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Die PurgeSettings-Tabelle enthält Informationen, die angeben, ob (und wann) veraltete Quality of Experience-Datensätze automatisch aus der QoE-Datenbank gelöscht werden. Beachten Sie, dass Bereinigungs bezogene Informationen auch innerhalb der Skype for Business Server-Verwaltungsshell abgerufen werden können, indem Sie den folgenden Befehl ausführen:'
+ms.openlocfilehash: ec957a445c59020e8909beeb8cb3dcd12f662d68
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924787"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294775"
 ---
 # <a name="purgesettings-table-qoe"></a>PurgeSettings-Tabelle (QoE)
  
-PurgeSettings-Tabelle enthält Informationen, die angibt, ob (und wann) veraltete Quality of Experience-Einträge werden automatisch aus der QoE-Datenbank gelöscht werden. Beachten Sie, dass Bereinigung-bezogene Informationen ebenfalls innerhalb der Skype für Business Server-Verwaltungsshell gewonnen werden kann mithilfe des folgenden Befehls:
+Die PurgeSettings-Tabelle enthält Informationen, die angeben, ob (und wann) veraltete Quality of Experience-Datensätze automatisch aus der QoE-Datenbank gelöscht werden. Beachten Sie, dass Bereinigungs bezogene Informationen auch innerhalb der Skype for Business Server-Verwaltungsshell abgerufen werden können, indem Sie den folgenden Befehl ausführen:
   
 ```
 Get-CsQoEConfiguration
 ```
 
-Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
+Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ID** <br/> |int  <br/> |Primary  <br/> |Eindeutiger Bezeichner für die Auflistung von QoE-löscheinstellungen.  <br/> |
-|**EnablePurge** <br/> |bit  <br/> ||Bei Festlegung auf "true" (1) Microsoft Lync Server 2013 in regelmäßigen Abständen veraltete Einträge aus der QoE-Datenbank endgültig gelöscht werden. Bereinigung wird täglich um die durch die Einstellung der PurgeHour Tome stattfinden. Wenn es sich bei Festlegung auf False (0), klicken Sie dann Datensätze nicht automatisch aus der Datenbank gelöscht. Der Standardwert lautet „True“.  <br/> |
-|**KeepQoEDataForDays** <br/> |int  <br/> ||Gibt das Alter der QoE-Datensätze (in Tagen), die aus der Datenbank gelöscht werden: Wenn der Löschvorgang aktiviert ist, QoE-Datensätze, die älter sind als dieser Wert aus der Datenbank entfernt. Der Standardwert beträgt 60 Tage.  <br/> |
-|**PurgeHour** <br/> |int  <br/> ||Gibt die lokale Uhrzeit bei der Datenbank stattfinden soll. Die Uhrzeit wird im 24-Stunden-Format angegeben, wobei Mitternacht (12:00 AM) durch 0 und 11:00 PM durch 23 dargestellt wird. Beachten Sie, dass Sie nur die Stunde des Tages angeben können: ein Wert von 10 (das angibt, 10:00 Uhr) ist zulässig, aber der Wert 10:30 10.5 (das angibt, 10:30 Uhr) ist nicht zulässig. Der Standardwert ist 1 (1:00 Uhr). Gibt die lokale Uhrzeit bei der Datenbank stattfinden soll. Die Uhrzeit wird im 24-Stunden-Format angegeben, wobei Mitternacht (12:00 AM) durch 0 und 11:00 PM durch 23 dargestellt wird. Beachten Sie, dass Sie nur die Stunde des Tages angeben können: ein Wert von 10 (das angibt, 10:00 Uhr) ist zulässig, aber der Wert 10:30 10.5 (das angibt, 10:30 Uhr) ist nicht zulässig. Der Standardwert ist 1 (1:00 Uhr).  <br/> |
+|**ID** <br/> |int  <br/> |Primary  <br/> |Eindeutiger Bezeichner für die Sammlung von QoE-Bereinigungseinstellungen.  <br/> |
+|**EnablePurge** <br/> |bit  <br/> ||Bei Festlegung auf true (1) bereinigen Microsoft lync Server 2013 in regelmäßigen Abständen veraltete Datensätze aus der QoE-Datenbank. Das Bereinigen erfolgt täglich im Wälzer, der durch die Einstellung PurgeHour angegeben wird. Bei Festlegung auf "false" (0) werden Datensätze nicht automatisch aus der Datenbank bereinigt. Der Standardwert lautet „True“.  <br/> |
+|**KeepQoEDataForDays** <br/> |int  <br/> ||Gibt das Alter von QoE-Datensätzen (in Tagen) an, die aus der Datenbank gelöscht werden: Wenn die Bereinigung aktiviert ist, werden QoE-Datensätze, die älter als dieser Wert sind, aus der Datenbank entfernt. Der Standardwert ist 60 Tage.  <br/> |
+|**PurgeHour** <br/> |int  <br/> ||Gibt die lokale Tageszeit an, zu der eine Datenbankbereinigung durchgeführt wird. Die Uhrzeit wird im 24-Stunden-Format angegeben, wobei Mitternacht (12:00 AM) durch 0 und 11:00 PM durch 23 dargestellt wird. Beachten Sie, dass Sie nur die Stunde des Tages angeben können: der Wert 10 (mit der Angabe von 10:00 Uhr) ist zulässig, aber der Wert 10:30 von 10,5 (mit der Angabe 10:30 Uhr) ist nicht zulässig. Der Standardwert ist 1 (1:00 am). Gibt die lokale Tageszeit an, zu der eine Datenbankbereinigung durchgeführt wird. Die Uhrzeit wird im 24-Stunden-Format angegeben, wobei Mitternacht (12:00 AM) durch 0 und 11:00 PM durch 23 dargestellt wird. Beachten Sie, dass Sie nur die Stunde des Tages angeben können: der Wert 10 (mit der Angabe von 10:00 Uhr) ist zulässig, aber der Wert 10:30 von 10,5 (mit der Angabe 10:30 Uhr) ist nicht zulässig. Der Standardwert ist 1 (1:00 am).  <br/> |
    
 

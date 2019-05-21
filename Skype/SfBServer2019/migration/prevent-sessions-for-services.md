@@ -4,31 +4,31 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Sie können der Vorversion installiert Systemsteuerung so verhindern Sie neue Sitzungen für alle legacy Dienste auf einem bestimmten Computer ausgeführt oder um neue Sitzungen für einen bestimmten legacy-Dienst zu verhindern.
-ms.openlocfilehash: 9f3f9bb301841d7e71c18f4d3ca052f3d0c74dce
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Sie können die Systemsteuerung für Legacy Installationen verwenden, um neue Sitzungen für alle Legacy Dienste zu verhindern, die auf einem bestimmten Computer ausgeführt werden, oder um neue Sitzungen für einen bestimmten Legacy Dienst zu verhindern.
+ms.openlocfilehash: 4728f68c8f7b9392b99a6a49eefe699fa48a4d47
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231539"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301216"
 ---
 # <a name="prevent-sessions-for-services"></a>Verhindern von Sitzungen für Dienste
 
-Sie können der Vorversion installiert Systemsteuerung so verhindern Sie neue Sitzungen für alle legacy Dienste auf einem bestimmten Computer ausgeführt oder um neue Sitzungen für einen bestimmten legacy-Dienst zu verhindern.
+Sie können die Systemsteuerung für Legacy Installationen verwenden, um neue Sitzungen für alle Legacy Dienste zu verhindern, die auf einem bestimmten Computer ausgeführt werden, oder um neue Sitzungen für einen bestimmten Legacy Dienst zu verhindern.
   
-## <a name="to-prevent-new-sessions-for-services-on-a-computer"></a>So verhindern Sie neue Sitzungen für Dienste auf einem computer
+## <a name="to-prevent-new-sessions-for-services-on-a-computer"></a>So verhindern Sie, dass neue Sitzungen für Dienste auf einem Computer
 
-1. Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist 2019.
+1. Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder über entsprechende Benutzerrechte verfügt) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, bei jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben. 2019.
     
-2. Öffnen von Skype für die Business-Systemsteuerung.
+2. Öffnen Sie das Skype Control Panel für Unternehmen.
     
 3. Klicken Sie in der linken Navigationsleiste auf **Topologie ** und dann auf **Status**. 
     
-4. Erforderlich, auf der Seite **Status** sortieren oder Durchsuchen der Liste als zum Computer mit der die Dienste zu verhindern, dass neue Sitzungen, und klicken Sie dann auf es werden soll. 
+4. Sortieren oder Durchsuchen Sie auf der **Status** Seite die Liste nach Bedarf, um den Computer zu finden, auf dem die Dienste ausgeführt werden, für die Sie neue Sitzungen verhindern möchten, und klicken Sie darauf. 
     
 5. Klicken Sie auf **Aktion**.
     
@@ -36,17 +36,17 @@ Sie können der Vorversion installiert Systemsteuerung so verhindern Sie neue Si
     
 ## <a name="to-prevent-new-sessions-for-a-specific-service"></a>So verhindern Sie neue Sitzungen für einen bestimmten Dienst
 
-1. Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist 2019.
+1. Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder über entsprechende Benutzerrechte verfügt) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, bei jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben. 2019.
     
-2. Öffnen von Skype für die Business-Systemsteuerung.
+2. Öffnen Sie das Skype Control Panel für Unternehmen.
     
 3. Klicken Sie in der linken Navigationsleiste auf **Topologie ** und dann auf **Status**. 
     
-4. Sie möchten starten oder beenden, und klicken Sie dann auf, auf der Seite **Status** , sortieren oder Durchsuchen der Liste nach Bedarf an den Computer zu suchen, der der Dienst ausgeführt wird. 
+4. Sortieren oder Durchsuchen Sie auf der **Status** Seite die Liste nach Bedarf, um den Computer zu finden, auf dem der Dienst ausgeführt wird, den Sie starten oder beenden möchten, und klicken Sie darauf. 
     
 5. Klicken Sie auf **Eigenschaften**.
     
-6. Sortieren Sie die Liste der Dienste, bei Bedarf, und klicken Sie auf den Dienst, für den Sie neue Sitzungen verhindern möchten.
+6. Sortieren Sie die Liste der Dienste, falls erforderlich, und klicken Sie auf den Dienst, für den Sie neue Sitzungen verhindern möchten.
     
 7. Klicken Sie auf **Aktion**.
     

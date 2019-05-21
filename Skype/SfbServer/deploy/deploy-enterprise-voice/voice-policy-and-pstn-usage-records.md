@@ -1,10 +1,10 @@
 ---
-title: Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen
+title: Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,24 +13,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
-description: 'Zusammenfassung: Erstellen Sie oder ändern Sie der VoIP-Richtlinien und konfigurieren Sie PSTN-verwendungsdatensätzen mithilfe der Skype für Business Server-Systemsteuerung.'
-ms.openlocfilehash: e3314923c4227a630549dd2fc9cce1600263c4aa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Erstellen oder Ändern von VoIP-Richtlinien und Konfigurieren von PSTN-Verwendungsdatensätzen mithilfe der Skype for Business Server-Systemsteuerung.'
+ms.openlocfilehash: b9024ea1efac7f58fea7175f22f85b325ab5a43c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892244"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300894"
 ---
-# <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen
+# <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business
 
-**Zusammenfassung:** Erstellen Sie oder ändern Sie der VoIP-Richtlinien und konfigurieren Sie PSTN-verwendungsdatensätzen mithilfe der Skype für Business Server-Systemsteuerung.
+**Zusammenfassung:** Mit der Skype for Business Server-Systemsteuerung können Sie VoIP-Richtlinien erstellen oder ändern sowie PSTN-Nutzungsdatensätze konfigurieren.
 
 > [!NOTE]
-> Jeder VoIP-Richtlinie muss mindestens ein PSTN-Verwendungseintrag zugeordnet sein. Finden eine Liste aller PSTN-verwendungsdatensätzen in Ihrer Bereitstellung von Enterprise-VoIP verfügbar und deren Eigenschaften anzeigen, finden Sie unter [View PSTN-Verwendungseinträge in Skype für Unternehmen](view-pstn-usage-records.md).
+> Jeder VoIP-Richtlinie muss mindestens ein PSTN-Verwendungseintrag zugeordnet sein. Wenn Sie eine Auflistung aller für Ihre Enterprise-VoIP-Bereitstellung verfügbaren PSTN-Nutzungsdatensätze anzeigen und deren Eigenschaften anzeigen möchten, lesen Sie [Anzeigen von PSTN-Nutzungsdaten Sätzen in Skype for Business](view-pstn-usage-records.md).
 
 ### <a name="to-create-a-voice-policy"></a>So erstellen Sie eine VoIP-Richtlinie
 
-1. Öffnen von Skype Business Server-Systemsteuerung.
+1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
 
 2. Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing** und dann auf **VoIP-Richtlinie**.
 
@@ -49,20 +49,20 @@ ms.locfileid: "33892244"
 
 6. Aktivieren oder deaktivieren Sie die folgenden Kontrollkästchen, um die **Anruffunktionen** für diese VoIP-Richtlinie zu aktivieren oder zu deaktivieren:
 
-   - **Des Wechsels der Voicemail** verhindert, dass Anrufe von wird sofort an des Benutzers Mobiltelefon Voicemail-System weitergeleitet, wenn Gleichzeitiges Klingeln konfiguriert ist und das Telefon aus, nicht genügend Batterie oder außerhalb des gültigen Bereichs aktiviert ist.
+   - Mit der **Voicemail-Escape** -Funktion wird verhindert, dass Anrufe sofort an das Voicemailsystem des Benutzers weitergeleitet werden, wenn das gleichzeitige Klingeln konfiguriert ist und das Telefon ausgeschaltet, nicht mehr in der Batterie oder außerhalb des gültigen Bereichs liegt.
 
      > [!NOTE]
-     > Dieses Feature ist nur über die Skype für Business Server-Verwaltungsshell konfigurierbar
+     > Dieses Feature kann nur über die Skype for Business Server-Verwaltungsshell konfiguriert werden.
 
-   - **Anrufweiterleitung** ermöglicht Benutzern das Weiterleiten von Anrufen an andere Telefone und Clientgeräte. Skype für Business Server bietet einen deutlich größeren Bereich von Konfigurationsoptionen für die anrufweiterleitung. Wenn z. B. eine Organisation nicht möchte, dass eingehende Anrufe extern an das Festnetz (Public Switched Telephone Network, PSTN) weitergeleitet werden, kann ein Administrator eine spezielle VoIP-Richtlinie anwenden, um diese Einschränkungen durchzusetzen. Diese Option ist standardmäßig aktiviert.
+   - **Anrufweiterleitung** ermöglicht Benutzern das Weiterleiten von Anrufen an andere Telefone und Clientgeräte. Skype for Business Server bietet eine wesentlich größere Auswahl an Konfigurationsoptionen für die Anrufweiterleitung. Wenn z. B. eine Organisation nicht möchte, dass eingehende Anrufe extern an das Festnetz (Public Switched Telephone Network, PSTN) weitergeleitet werden, kann ein Administrator eine spezielle VoIP-Richtlinie anwenden, um diese Einschränkungen durchzusetzen. Diese Option ist standardmäßig aktiviert.
 
-   - **Delegierung** ermöglicht Benutzern die Angabe anderer Benutzer, die in ihrem Namen Anrufe tätigen und empfangen können. In Skype für Business Server kann eine Stellvertretung konfigurieren, Gleichzeitiges Klingeln, mit dem können eingehende Anrufe an seinem Manager alle Gleichzeitiges Klingeln Ziele der Stellvertretung angeboten werden soll. Dadurch wird die Stellvertretung flexibler reagieren Aufrufe an den Manager weitergeleitet. Diese Option ist standardmäßig aktiviert.
+   - **Delegierung** ermöglicht Benutzern die Angabe anderer Benutzer, die in ihrem Namen Anrufe tätigen und empfangen können. In Skype for Business Server kann eine Stellvertretung das gleichzeitige Klingeln konfigurieren, mit dem eingehende Anrufe an den Vorgesetzten alle gleichzeitigen Klingel Ziele des Stellvertreters anrufen können. Dies bietet dem Stellvertreter eine größere Flexibilität bei der Reaktion auf Anrufe, die an den Manager weitergeleitet werden. Diese Option ist standardmäßig aktiviert.
 
    - **Anrufdurchstellung** ermöglicht Benutzern, Anrufe an andere Benutzer durchzustellen. Diese Option ist standardmäßig aktiviert.
 
    - **Anruf parken** ermöglicht es Benutzern, Anrufe in der Warteschleife zu parken und den Anruf anschließend von einem anderen Telefon oder Client aus wiederaufzunehmen. Diese Option ist standardmäßig deaktiviert.
 
-   - **Gleichzeitiges Klingeln** ermöglicht bei eingehenden Anrufen das gleichzeitige Klingeln auf zusätzlichen Telefonen (z. B. einem Mobiltelefon) oder anderen Endpunktgeräten. Skype für Business Server bietet einen deutlich größeren Bereich von Konfigurationsoptionen für Gleichzeitiges Klingeln. Diese Option ist standardmäßig aktiviert.
+   - **Gleichzeitiges Klingeln** ermöglicht bei eingehenden Anrufen das gleichzeitige Klingeln auf zusätzlichen Telefonen (z. B. einem Mobiltelefon) oder anderen Endpunktgeräten. Skype for Business Server bietet eine wesentlich größere Auswahl an Konfigurationsoptionen für gleichzeitiges Klingeln. Diese Option ist standardmäßig aktiviert.
 
    - **Teamanruf** ermöglicht Benutzern in einem definierten Team die Annahme von Anrufen für andere Teammitglieder. Diese Option ist standardmäßig aktiviert.
 
@@ -75,7 +75,7 @@ ms.locfileid: "33892244"
 
    - **Nachverfolgung von Missbrauch durch Anrufer** ermöglicht Nutzern das Melden von Drohanrufen (z. B. Bombendrohungen) über die Clientbenutzeroberfläche. Die Anrufe werden anschließend in den Kommunikationsdatensätzen (KDS) gekennzeichnet. Diese Option ist standardmäßig deaktiviert.
 
-   - **Beschäftigt-Optionen** aktiviert oder deaktiviert Beschäftigt-Optionen für die angegebene VoIP-Richtlinie. Mit Beschäftigt-Optionen können eingehende Anrufe an die Voicemail weitergeleitet oder mit einem Besetztzeichen abgelehnt werden, wenn der Zielbenutzer des Anrufs am Telefon ist. Bei Beschäftigt-Optionen handelt es sich um eine neue im kumulativen Update für Juli 2016 eingeführte VoIP-Richtlinie. Bei Aktivierung dieses Parameters werden Beschäftigt-Optionen aktiviert, bei Deaktivierung werden diese Optionen deaktiviert. Weitere Informationen finden Sie unter [Planen für Skype für Business Server ausgelastet Optionen](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) und [Installieren und Konfigurieren von beschäftigt Optionen für Skype für Business Server](install-and-configure-busy-options.md).
+   - **Beschäftigt-Optionen** aktiviert oder deaktiviert Beschäftigt-Optionen für die angegebene VoIP-Richtlinie. Mit Beschäftigt-Optionen können eingehende Anrufe an die Voicemail weitergeleitet oder mit einem Besetztzeichen abgelehnt werden, wenn der Zielbenutzer des Anrufs am Telefon ist. Bei Beschäftigt-Optionen handelt es sich um eine neue im kumulativen Update für Juli 2016 eingeführte VoIP-Richtlinie. Bei Aktivierung dieses Parameters werden Beschäftigt-Optionen aktiviert, bei Deaktivierung werden diese Optionen deaktiviert. Weitere Informationen finden Sie unter [Planen von busy-Optionen für Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) und [Installieren und Konfigurieren von busy-Optionen für Skype for Business Server](install-and-configure-busy-options.md).
 
 7. Führen Sie eine der folgenden Aktionen aus, um PSTN-Verwendungseinträge für diese VoIP-Richtlinie zuzuordnen und zu konfigurieren:
 
@@ -87,7 +87,7 @@ ms.locfileid: "33892244"
 
      a. Klicken Sie auf **Neu**.
 
-     b. Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Eintrag ein. Sie möchten beispielsweise ein PSTN-Verwendung Datensatz NamedRedmond für Vollzeitmitarbeiter befindet sich in Redmond und einem anderen NamedRedmondTemps für temporäre Mitarbeiter zu erstellen.
+     b. Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Eintrag ein. So können Sie beispielsweise einen PSTN-Verwendungsdaten Satz namedRedmond für Vollzeitmitarbeiter in Redmond und einen anderen namedRedmondTemps für temporäre Mitarbeiter erstellen.
 
      > [!NOTE]
      > Der Name des PSTN-Verwendungseintrags muss innerhalb der Enterprise-VoIP-Bereitstellung eindeutig sein. Nach dem Speichern des Eintrags kann das Feld **Name** nicht mehr bearbeitet werden.
@@ -98,7 +98,7 @@ ms.locfileid: "33892244"
 
    - Zum Entfernen einer Route aus dem PSTN-Verwendungseintrag markieren Sie die Route und klicken Sie auf **Entfernen**.
 
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Ausführliche Informationen finden Sie unter [erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md).
 
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde.
 
@@ -114,22 +114,22 @@ ms.locfileid: "33892244"
 
    - Zum Entfernen einer Route aus diesem PSTN-Verwendungseintrag markieren Sie die Route und klicken Sie auf **Entfernen**.
 
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Ausführliche Informationen finden Sie unter [erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md).
 
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde.
 
      c. Klicken Sie auf **OK**.
 
-8. Ordnen Sie die PSTN-Verwendungseinträge zur Erzielung optimaler Leistung an. Um einen Datensatz Position in der Liste zu ändern, markieren Sie den Namen des Datensatzes, und klicken Sie auf den Pfeil nach oben oder nach-unten Sie-Pfeil.
+8. Ordnen Sie die PSTN-Verwendungseinträge zur Erzielung optimaler Leistung an. Um die Position eines Datensatzes in der Liste zu ändern, markieren Sie den Namen des Datensatzes, und klicken Sie auf den nach oben oder nach unten weisenden Pfeil.
 
     > [!IMPORTANT]
-    > Die Reihenfolge, in welche, die PSTN-verwendungsdatensätzen, in der VoIP-Richtlinie aufgeführt sind, ist relevant. Skype für Business Server durchläuft die Liste von oben nach unten. Es wird empfohlen, dass Sie die Liste beispielsweise nach der Häufigkeit der Verwendung, organisieren: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
+    > Die Reihenfolge, in der die Einträge für PSTN-Nutzung in der VoIP-Richtlinie aufgeführt sind, ist erheblich. Skype for Business Server durchläuft die Liste von oben nach unten. Wir empfehlen, die Liste nach Häufigkeit der Verwendung zu organisieren, beispielsweise: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
 
 9. Führen Sie eine der folgenden Aktionen aus, um PSTN-Verwendungseinträge für die Anrufweiterleitung und das gleichzeitige Klingeln in dieser VoIP-Richtlinie zuzuordnen und zu konfigurieren:
 
    - Um dieselben PSTN-Verwendungseinträge für die Anrufweiterleitung und für das gleichzeitige Klingeln wie in dieser VoIP-Richtlinie zu verwenden, wählen Sie aus dem Dropdownmenü die Option **Mithilfe der PSTN-Anrufverwendung weiterleiten** aus.
 
-   - Wenn die anrufweiterleitung und Gleichzeitiges Klingeln zu internen Skype für Unternehmensbenutzer nur zulassen möchten, wählen Sie die Option **Route zu internen Skype für Unternehmensbenutzer nur** aus dem Dropdown-Menü. Calls will not be forwarded to external PSTN numbers.
+   - Um die Anrufweiterleitung und gleichzeitiges Klingeln nur für interne Skype for Business-Benutzer zu ermöglichen, wählen Sie im Dropdownmenü die Option **Route zu internen Skype for Business-Benutzern weiterleiten** aus. Calls will not be forwarded to external PSTN numbers.
 
    - Um andere PSTN-Verwendungseinträge für die Anrufweiterleitung und für das gleichzeitige Klingeln wie für diese VoIP-Richtlinie anzugeben, wählen Sie aus dem Dropdownmenü die Option **Mithilfe benutzerdefinierter PSTN-Verwendung weiterleiten** aus. Mit dieser Option wird ein Steuerelement angezeigt, um vorhandene PSTN-Verwendungseinträge auszuwählen oder um neue PSTN-Verwendungseinträge speziell für die Anrufweiterleitung und für das gleichzeitige Klingeln zu erstellen.
 
@@ -152,7 +152,7 @@ ms.locfileid: "33892244"
 
    - Zum Entfernen einer Route aus dem PSTN-Verwendungseintrag markieren Sie die Route und klicken Sie auf **Entfernen**.
 
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Ausführliche Informationen finden Sie unter [erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md).
 
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde.
 
@@ -168,7 +168,7 @@ ms.locfileid: "33892244"
 
    - Zum Entfernen einer Route aus diesem PSTN-Verwendungseintrag markieren Sie die Route und klicken Sie auf **Entfernen**.
 
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Ausführliche Informationen finden Sie unter [erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md).
 
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde.
 
@@ -181,13 +181,13 @@ ms.locfileid: "33892244"
 12. Klicken Sie auf der Seite **VoIP-Richtlinie** auf **Commit ausführen** und klicken Sie anschließend auf **Commit für alle Elemente ausführen**.
 
     > [!NOTE]
-    > Jedes Mal, wenn Sie eine VoIP-Richtlinie erstellen oder ändern, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md) in der Betriebsdokumentation.
+    > Jedes Mal, wenn Sie eine VoIP-Richtlinie erstellen oder ändern, müssen Sie den Befehl **Commit für alle Elemente ausführen** ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter [veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in Skype for Business](voice-route-config-changes.md) in der Betriebsdokumentation.
 
-13. (Optional) Voicemail Escape erkennt, dass ein Anruf wurde durch den Benutzer Mobiltelefon Voicemail sofort beantwortet, und den Anruf an die Voicemail Mobiltelefon trennt. Dadurch wird den Anruf an weiterhin Anrufen auf den Benutzer des anderen Endpunkten, mit dem dem Benutzer die Möglichkeit, den Anruf entgegenzunehmen. Weitere Informationen zum Konfigurieren einer Richtlinie für Voicemail finden Sie unter [Konfigurieren des Wechsels der Voicemail in Skype für Unternehmen](configure-voice-mail-escape.md).
+13. Optional Voicemail-Escape erkennt, dass ein Anruf von der Mobiltelefon-Voicemail des Benutzers sofort beantwortet wurde, und trennt den Anruf mit der Voicemail des Mobiltelefons. Dadurch kann der Anruf weiterhin an den anderen Endpunkten des Benutzers Klingeln, um dem Benutzer die Möglichkeit zu geben, den Anruf zu beantworten. Details zum Konfigurieren einer Voicemail-Richtlinie finden Sie unter [Konfigurieren der Voicemail-escapefunktion in Skype for Business](configure-voice-mail-escape.md).
 
 ### <a name="to-modify-a-voice-policy"></a>So ändern Sie eine VoIP-Richtlinie
 
-1. Öffnen von Skype Business Server-Systemsteuerung.
+1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
 
 2. Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing** und anschließend auf **VoIP-Richtlinie**.
 
@@ -200,20 +200,20 @@ ms.locfileid: "33892244"
 
 5. Aktivieren oder deaktivieren Sie die folgenden Kontrollkästchen, um die einzelnen **Anruffunktionen** zu aktivieren bzw. zu deaktivieren:
 
-   - **Des Wechsels der Voicemail** verhindert, dass Anrufe von wird sofort an des Benutzers Mobiltelefon Voicemail-System weitergeleitet, wenn Gleichzeitiges Klingeln konfiguriert ist und das Telefon aus, nicht genügend Batterie oder außerhalb des gültigen Bereichs aktiviert ist.
+   - Mit der **Voicemail-Escape** -Funktion wird verhindert, dass Anrufe sofort an das Voicemailsystem des Benutzers weitergeleitet werden, wenn das gleichzeitige Klingeln konfiguriert ist und das Telefon ausgeschaltet, nicht mehr in der Batterie oder außerhalb des gültigen Bereichs liegt.
 
      > [!NOTE]
-     > Dieses Feature ist nur über die Skype für Business Server-Verwaltungsshell konfigurierbar
+     > Dieses Feature kann nur über die Skype for Business Server-Verwaltungsshell konfiguriert werden.
 
-   - **Anrufweiterleitung** ermöglicht Benutzern das Weiterleiten von Anrufen an andere Telefone und Clientgeräte. Skype für Business Server bietet einen deutlich größeren Bereich von Konfigurationsoptionen für die anrufweiterleitung. Wenn z. B. eine Organisation nicht möchte, dass eingehende Anrufe extern an das Festnetz (Public Switched Telephone Network, PSTN) weitergeleitet werden, kann ein Administrator eine spezielle VoIP-Richtlinie anwenden, um diese Einschränkungen durchzusetzen. Diese Option ist standardmäßig aktiviert.
+   - **Anrufweiterleitung** ermöglicht Benutzern das Weiterleiten von Anrufen an andere Telefone und Clientgeräte. Skype for Business Server bietet eine wesentlich größere Auswahl an Konfigurationsoptionen für die Anrufweiterleitung. Wenn z. B. eine Organisation nicht möchte, dass eingehende Anrufe extern an das Festnetz (Public Switched Telephone Network, PSTN) weitergeleitet werden, kann ein Administrator eine spezielle VoIP-Richtlinie anwenden, um diese Einschränkungen durchzusetzen. Diese Option ist standardmäßig aktiviert.
 
-   - **Delegierung** ermöglicht Benutzern die Angabe anderer Benutzer, die in ihrem Namen Anrufe tätigen und empfangen können. In Skype für Business Server kann eine Stellvertretung konfigurieren, Gleichzeitiges Klingeln, mit dem können eingehende Anrufe an seinem Manager alle Gleichzeitiges Klingeln Ziele der Stellvertretung angeboten werden soll. Dadurch wird die Stellvertretung flexibler reagieren Aufrufe an den Manager weitergeleitet. Diese Option ist standardmäßig aktiviert.
+   - **Delegierung** ermöglicht Benutzern die Angabe anderer Benutzer, die in ihrem Namen Anrufe tätigen und empfangen können. In Skype for Business Server kann eine Stellvertretung das gleichzeitige Klingeln konfigurieren, mit dem eingehende Anrufe an den Vorgesetzten alle gleichzeitigen Klingel Ziele des Stellvertreters anrufen können. Dies bietet dem Stellvertreter eine größere Flexibilität bei der Reaktion auf Anrufe, die an den Manager weitergeleitet werden. Diese Option ist standardmäßig aktiviert.
 
    - **Anrufdurchstellung** ermöglicht Benutzern, Anrufe an andere Benutzer durchzustellen. Diese Option ist standardmäßig aktiviert.
 
    - **Anruf parken** ermöglicht es Benutzern, Anrufe in der Warteschleife zu parken und den Anruf anschließend von einem anderen Telefon oder Client aus wiederaufzunehmen. Diese Option ist standardmäßig deaktiviert.
 
-   - **Gleichzeitiges Klingeln** ermöglicht bei eingehenden Anrufen das gleichzeitige Klingeln auf zusätzlichen Telefonen (z. B. einem Mobiltelefon) oder anderen Endpunktgeräten. Skype für Business Server bietet einen deutlich größeren Bereich von Konfigurationsoptionen für Gleichzeitiges Klingeln. Diese Option ist standardmäßig aktiviert.
+   - **Gleichzeitiges Klingeln** ermöglicht bei eingehenden Anrufen das gleichzeitige Klingeln auf zusätzlichen Telefonen (z. B. einem Mobiltelefon) oder anderen Endpunktgeräten. Skype for Business Server bietet eine wesentlich größere Auswahl an Konfigurationsoptionen für gleichzeitiges Klingeln. Diese Option ist standardmäßig aktiviert.
 
    - **Teamanruf** ermöglicht Benutzern in einem definierten Team die Annahme von Anrufen für andere Teammitglieder. Diese Option ist standardmäßig aktiviert.
 
@@ -236,7 +236,7 @@ ms.locfileid: "33892244"
 
      a. Klicken Sie auf **Neu**.
 
-     b. Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Eintrag ein. Sie möchten beispielsweise ein PSTN-Verwendung Datensatz NamedRedmond für Vollzeitmitarbeiter befindet sich in Redmond und einem anderen Datensatz NamedRedmondTemps für temporäre Mitarbeiter zu erstellen.
+     b. Geben Sie im Feld **Name** einen eindeutigen beschreibenden Namen für den Eintrag ein. So können Sie beispielsweise einen PSTN-Verwendungsdaten Satz namedRedmond für Vollzeitmitarbeiter in Redmond und einen anderen Daten Satz namedRedmondTemps für temporäre Mitarbeiter erstellen.
 
      > [!NOTE]
      > Der Name des PSTN-Verwendungseintrags muss innerhalb der Enterprise-VoIP-Bereitstellung eindeutig sein. Nach dem Speichern des Eintrags kann das Feld **Name** nicht mehr bearbeitet werden.
@@ -247,7 +247,7 @@ ms.locfileid: "33892244"
 
    - Zum Entfernen einer Route aus dem PSTN-Verwendungseintrag markieren Sie die Route und klicken Sie auf **Entfernen**.
 
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Ausführliche Informationen finden Sie unter [erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md).
 
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde.
 
@@ -263,22 +263,22 @@ ms.locfileid: "33892244"
 
    - Zum Entfernen einer Route aus diesem PSTN-Verwendungseintrag markieren Sie die Route und klicken Sie auf **Entfernen**.
 
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Ausführliche Informationen finden Sie unter [erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md).
 
    - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde.
 
      c. Klicken Sie auf **OK**.
 
-7. Ordnen Sie die PSTN-Verwendungseinträge zur Erzielung optimaler Leistung an. Um einen Datensatz Position in der Liste zu ändern, markieren Sie den Namen des Datensatzes, und klicken Sie auf den Pfeil nach oben oder nach-unten Sie-Pfeil.
+7. Ordnen Sie die PSTN-Verwendungseinträge zur Erzielung optimaler Leistung an. Um die Position eines Datensatzes in der Liste zu ändern, markieren Sie den Namen des Datensatzes, und klicken Sie auf den nach oben oder nach unten weisenden Pfeil.
 
     > [!NOTE]
-    > Die Reihenfolge, in welche, die PSTN-verwendungsdatensätzen, in der VoIP-Richtlinie aufgeführt sind, ist relevant. Skype für Business Server durchläuft die Liste von oben nach unten. Es wird empfohlen, dass Sie die Liste beispielsweise nach der Häufigkeit der Verwendung, organisieren: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
+    > Die Reihenfolge, in der die Einträge für PSTN-Nutzung in der VoIP-Richtlinie aufgeführt sind, ist erheblich. Skype for Business Server durchläuft die Liste von oben nach unten. Wir empfehlen, die Liste nach Häufigkeit der Verwendung zu organisieren, beispielsweise: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
 
 8. Führen Sie eine der folgenden Aktionen aus, um PSTN-Verwendungseinträge für die Anrufweiterleitung und das gleichzeitige Klingeln in dieser VoIP-Richtlinie zuzuordnen und zu konfigurieren:
 
    - Um dieselben PSTN-Verwendungseinträge für die Anrufweiterleitung und für das gleichzeitige Klingeln wie in dieser VoIP-Richtlinie zu verwenden, wählen Sie aus dem Dropdownmenü die Option **Mithilfe der PSTN-Anrufverwendung weiterleiten** aus.
 
-   - Um die anrufweiterleitung und Gleichzeitiges Klingeln zu internen Skype Business nur für Benutzer zu ermöglichen, wählen Sie aus dem Dropdown-Menü **Route zu internen Skype für Unternehmensbenutzer nur** aus. Calls will not be forwarded to external PSTN numbers.
+   - Wenn Sie die Anrufweiterleitung und gleichzeitiges Klingeln nur für interne Skype for Business-Benutzer zulassen möchten, wählen Sie im Dropdownmenü **nur an interne Skype for Business-Benutzer weiterleiten** aus. Calls will not be forwarded to external PSTN numbers.
 
    - Um andere PSTN-Verwendungsdatensätze für die Anrufweiterleitung und gleichzeitiges Klingeln zu verwenden, als die für diese VoIP-Richtlinie verwendeten, wählen Sie die Option **Mithilfe benutzerdefinierter PSTN-Verwendungen weiterleiten** im Dropdownmenü aus. Bei Auswahl dieser Option wird ein Steuerelement angezeigt, über das vorhandene PSTN-Verwendungsdatensätze ausgewählt oder neue PSTN-Verwendungsdatensätze erstellt werden können, die speziell auf die Anrufweiterleitung und gleichzeitiges Klingeln ausgerichtet sind.
 
@@ -301,7 +301,7 @@ ms.locfileid: "33892244"
 
    - Zum Entfernen einer Route aus dem PSTN-Verwendungseintrag markieren Sie die Route und klicken Sie auf **Entfernen**.
 
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Ausführliche Informationen finden Sie unter [erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md).
 
    - Markieren Sie die Route und klicken Sie anschließend auf **Details anzeigen**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungsdatensatz bereits zugeordnet wurde. Ausführliche Informationen erhalten Sie im Abschnitt [Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
 
@@ -317,7 +317,7 @@ ms.locfileid: "33892244"
 
      - Zum Entfernen einer Route aus diesem PSTN-Verwendungseintrag markieren Sie die Route und klicken Sie auf **Entfernen**.
 
-     - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen hierzu finden Sie unter [Erstellen oder ändern eine VoIP-Route in Skype für Business](create-or-modify-a-voice-route.md).
+     - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Ausführliche Informationen finden Sie unter [erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md).
 
      - Markieren Sie die Route und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde. Ausführliche Informationen finden Sie unter [Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
 
@@ -330,17 +330,17 @@ ms.locfileid: "33892244"
 11. Klicken Sie auf der Seite **VoIP-Richtlinie** auf **Commit ausführen** und klicken Sie anschließend auf **Commit für alle Elemente ausführen**.
 
     > [!NOTE]
-    > Jedes Mal, wenn Sie eine VoIP-Richtlinie erstellen oder ändern, müssen Sie den Befehl **Commit für alle** ausführen, um die Konfigurationsänderung zu veröffentlichen. Weitere Informationen hierzu finden Sie unter [Veröffentlichen ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md) in der Betriebsdokumentation.
+    > Jedes Mal, wenn Sie eine VoIP-Richtlinie erstellen oder ändern, müssen Sie den Befehl **Commit für alle** ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter [veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in Skype for Business](voice-route-config-changes.md) in der Betriebsdokumentation.
 
-12. (Optional) Voicemail Escape erkennt, dass ein Anruf wurde durch den Benutzer Mobiltelefon Voicemail sofort beantwortet, und den Anruf an die Voicemail Mobiltelefon trennt. Dadurch wird den Anruf an weiterhin Anrufen auf den Benutzer des anderen Endpunkten, mit dem dem Benutzer die Möglichkeit, den Anruf entgegenzunehmen. Ausführliche Informationen zum Konfigurieren einer Richtlinie für Voicemail finden Sie unter [Konfigurieren des Wechsels der Voicemail in Skype für Unternehmen](configure-voice-mail-escape.md).
+12. Optional Voicemail-Escape erkennt, dass ein Anruf von der Mobiltelefon-Voicemail des Benutzers sofort beantwortet wurde, und trennt den Anruf mit der Voicemail des Mobiltelefons. Dadurch kann der Anruf weiterhin an den anderen Endpunkten des Benutzers Klingeln, um dem Benutzer die Möglichkeit zu geben, den Anruf zu beantworten. Details zum Konfigurieren einer Voicemail-Richtlinie finden Sie unter [Konfigurieren der Voicemail-escapefunktion in Skype for Business](configure-voice-mail-escape.md).
 
 ## <a name="see-also"></a>Siehe auch
 
-[Anzeigen von PSTN-Verwendungseinträge in Skype für Unternehmen](view-pstn-usage-records.md)
+[Anzeigen von PSTN-Nutzungsdaten Sätzen in Skype for Business](view-pstn-usage-records.md)
 
-[Erstellen oder Ändern einer VoIP-Route in Skype für Unternehmen](create-or-modify-a-voice-route.md)
+[Erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md)
 
-[Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md)
+[Veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in Skype for Business](voice-route-config-changes.md)
 
-[Konfigurieren des Wechsels der Voicemail in Skype für Unternehmen](configure-voice-mail-escape.md)
+[Konfigurieren der Voicemail-escapefunktion in Skype for Business](configure-voice-mail-escape.md)
 

@@ -5,25 +5,25 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AssociateFrontEndWithAvMcuPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
-description: A / V-Konferenzen in Echtzeit Audio- und Videokommunikation Ihre Benutzer können (d. h., wenn sie die entsprechenden Clientgeräte wie Headsets für Audiokonferenzen und Webcams für Videokonferenzen verfügen). Wenn Ihre Bereitstellung, Konferenzen unterstützt und Sie, Webkonferenzen und A aktivieren / V-Konferenzen, möglich, A / V-Konferenzserver mit dem Front-End-Server), bereitstellen oder Sie können eine oder mehrere eigenständige A / V-Konferenzserver (A / V-konferenzpool) . Wenn Sie die Option zum Bereitstellen eines eigenständigen A / V-Konferenzservers müssen definieren Sie sie im Topologie-Generator.
-ms.openlocfilehash: 542634946f86adfe6839ea1eb37037cb920e337d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: A/V-Konferenzen ermöglichen die Echtzeit-Audio-und Videokommunikation zwischen Ihren Benutzern (d. h., wenn Sie über geeignete Clientgeräte wie Headsets für Audiokonferenzen und Webcams für Videokonferenzen verfügen). Wenn Ihre Bereitstellung Konferenz unterstützt und sowohl Webkonferenzen als auch a/v-Konferenzen aktiviert ist, können Sie den a/v-Konferenzserver mit dem Front-End-Server collocate), oder Sie können einen oder mehrere eigenständige a/v-Konferenzserver (a/v-Konferenz Pool) bereitstellen. . Wenn Sie die Option zum Bereitstellen eines eigenständigen a/V-Konferenzservers auswählen, müssen Sie ihn im Topologie-Generator definieren.
+ms.openlocfilehash: 41d24d56f15c1db5a39bfabf889a7caf3deca989
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925004"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301687"
 ---
 # <a name="associate-front-end-with-av-mcu"></a>Zuordnen des Front-Ends zur A/V MCU
  
-A / V-Konferenzen in Echtzeit Audio- und Videokommunikation Ihre Benutzer können (d. h., wenn sie die entsprechenden Clientgeräte wie Headsets für Audiokonferenzen und Webcams für Videokonferenzen verfügen). Wenn Ihre Bereitstellung, Konferenzen unterstützt und Sie, Webkonferenzen und A aktivieren / V-Konferenzen, möglich, A / V-Konferenzserver mit dem Front-End-Server), bereitstellen oder Sie können eine oder mehrere eigenständige A / V-Konferenzserver (A / V-konferenzpool) . Wenn Sie die Option zum Bereitstellen eines eigenständigen A / V-Konferenzservers müssen definieren Sie sie im Topologie-Generator.
+A/V-Konferenzen ermöglichen die Echtzeit-Audio-und Videokommunikation zwischen Ihren Benutzern (d. h., wenn Sie über geeignete Clientgeräte wie Headsets für Audiokonferenzen und Webcams für Videokonferenzen verfügen). Wenn Ihre Bereitstellung Konferenz unterstützt und sowohl Webkonferenzen als auch a/v-Konferenzen aktiviert ist, können Sie den a/v-Konferenzserver mit dem Front-End-Server collocate), oder Sie können einen oder mehrere eigenständige a/v-Konferenzserver (a/v-Konferenz Pool) bereitstellen. . Wenn Sie die Option zum Bereitstellen eines eigenständigen a/V-Konferenzservers auswählen, müssen Sie ihn im Topologie-Generator definieren.
   
-Sämtliche Pools an einem Standort und die Pools mehrerer zentraler Standorte können das gleiche A / V-Konferenzserver, sofern dadurch die Kapazität des A nicht überschritten wird / V-Konferenzserver. 
+Alle Pools auf einer Website und die Pools mehrerer zentraler Standorte können denselben a/v-Konferenzserver verwenden, wenn die Nutzung die Kapazität des a/v-Konferenzservers nicht überschreitet. 
   
 

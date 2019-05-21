@@ -5,39 +5,39 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
-description: TblPrincipalRole enthält explizite Rollen, die Knoten zugewiesen.
-ms.openlocfilehash: 7c144f2f531af58c7c5693b28b224a2ee4456783
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblPrincipalRole enthält explizite Rollen, die Knoten zugewiesen sind.
+ms.openlocfilehash: 9675713afba5753378f4d01b70489d0eee93b8bf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33904181"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295237"
 ---
 # <a name="tblprincipalrole"></a>tblPrincipalRole
  
-TblPrincipalRole enthält explizite Rollen, die Knoten zugewiesen.
+tblPrincipalRole enthält explizite Rollen, die Knoten zugewiesen sind.
   
 **Spalten**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|prinRoleNodeID  <br/> |Int, nicht null  <br/> |Knoten-ID, die für die Rolle gilt.  <br/> |
-|prinRolePrinID  <br/> |Int, nicht null  <br/> |Prinzipal-ID.  <br/> |
-|prinRoleTypeID  <br/> |Int, nicht null  <br/> |Rollentyp-ID (von TblRoleType).  <br/> |
-|prinRoleUpdatedBy  <br/> |Int, nicht null  <br/> |ID des Prinzipals, der diesen Eintrag zuletzt aktualisiert.  <br/> |
+|prinRoleNodeID  <br/> |int, nicht NULL  <br/> |Die Knoten-ID, auf die sich die Rolle bezieht.  <br/> |
+|prinRolePrinID  <br/> |int, nicht NULL  <br/> |Prinzipal-ID.  <br/> |
+|prinRoleTypeID  <br/> |int, nicht NULL  <br/> |Rollentyp-ID (aus tblRoleType).  <br/> |
+|prinRoleUpdatedBy  <br/> |int, nicht NULL  <br/> |Die ID des Prinzipals, der diesen Eintrag zuletzt aktualisiert hat.  <br/> |
    
 **Schlüssel**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
-|\<PrinRoleNodeID, PrinRolePrinID, prinRoleTypeID\>  <br/> |Primärschlüssel.  <br/> |
-|prinRoleNodeID  <br/> |Fremdschlüssel mit Abfrage der tblNode.nodeID-Tabelle.  <br/> |
-|prinRolePrinID  <br/> |Fremdschlüssel mit Abfrage der tblPrincipal.prinID-Tabelle.  <br/> |
-|prinRoleTypeID  <br/> |Fremdschlüssel mit Abfrage der tblRoleType.rtypeID-Tabelle.  <br/> |
+|\<prinRoleNodeID, prinRolePrinID, prinRoleTypeID\>  <br/> |Primärschlüssel  <br/> |
+|prinRoleNodeID  <br/> |Fremdschlüssel mit Lookup in der tblNode. Node-Tabelle  <br/> |
+|prinRolePrinID  <br/> |Fremdschlüssel mit Lookup in der tblPrincipal. prinID-Tabelle.  <br/> |
+|prinRoleTypeID  <br/> |Fremdschlüssel mit Lookup in der tblRoleType. rtypeID-Tabelle.  <br/> |
    
 

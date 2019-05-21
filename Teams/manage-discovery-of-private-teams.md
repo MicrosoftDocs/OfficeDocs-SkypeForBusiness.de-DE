@@ -1,5 +1,5 @@
 ---
-title: Verwalten der Suche von privaten Teams in Microsoft-Teams
+title: Verwalten der Erkennung privater Teams in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -8,7 +8,7 @@ ms.reviewer: shpoddar
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.audience: Admin
+audience: Admin
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
@@ -16,76 +16,76 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Erfahren Sie, wie gesteuert wird, ob private Teams durch Microsoft-Teams, Benutzer über Vorschläge in die Team-Katalog und die Suchergebnisse ermittelt werden können.
-ms.openlocfilehash: 3609a592c3c940e9f7cbec6ca5c58fd072322c46
-ms.sourcegitcommit: 0bb55cad74b15fc821ae916799aa8c0cb13dd31d
+description: Erfahren Sie, wie Sie steuern können, ob private Teams von Microsoft Teams-Benutzern mithilfe von Vorschlägen im Team Katalog und in den Suchergebnissen ermittelt werden können.
+ms.openlocfilehash: 55f127ff4dc9e5e0926e606c141b78f65c799de0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33497953"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304402"
 ---
-# <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Verwalten der Suche von privaten Teams in Microsoft-Teams
+# <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Verwalten der Erkennung privater Teams in Microsoft Teams
 
 > [!INCLUDE [preview feature](includes/preview-feature.md)] 
 
-Administratoren und Team Besitzer können gesteuert wird, ob private Teams von Benutzern in Ihrer Organisation Microsoft-Teams, der ermittelt werden können. Wenn eine private Team sichtbar ist, wird in den Suchergebnissen und in Vorschläge im Katalog Team zusammen mit öffentlichen Teams in Teams enthalten ist. Dies erleichtert Benutzern suchen, und suchen Sie nach der privaten Teams, die sie teilnehmen möchten. Benutzer können auf einem privaten Team stoßen, das Teambesitzer einer genehmigen oder verweigern kann anfordern.
+Administratoren und Teambesitzer können steuern, ob private Teams von Microsoft Teams-Benutzern in Ihrer Organisation gefunden werden können. Wenn ein privates Team auffindbar ist, wird es in den Suchergebnissen angezeigt und in den Vorschlägen des Team Katalogs sowie in den öffentlichen Teams in Teams aufgeführt. Dadurch ist es für Benutzer einfach, die privaten Teams zu suchen und zu finden, denen Sie beitreten möchten. Benutzer können die Teilnahme an einem privaten Team anfordern, das ein Teambesitzer genehmigen oder ablehnen kann.
 
-## <a name="overview-of-public-teams-private-teams-and-discovery-in-teams"></a>Übersicht über öffentliche Teams, private Teams und Erkennung in Teams
+## <a name="overview-of-public-teams-private-teams-and-discovery-in-teams"></a>Übersicht über öffentliche Teams, private Teams und Discovery in Teams
 
-Die meisten Organisationen verfügen über die folgenden Arten von Teams - öffentliche Teams, eDiscovery-fähigen private Teams und nicht erkennbaren private Teams.
+Die meisten Organisationen verfügen über die folgenden Arten von Teams: öffentliche Teams, auffindbare private Teams und nicht auffindbare private Teams.
 
-![Team-Katalog](media/private-team-discovery-team-gallery.png)
+![Team Katalog](media/private-team-discovery-team-gallery.png)
 
-### <a name="public-teams"></a>Öffentliche teams
+### <a name="public-teams"></a>Öffentliche Teams
 
-Öffentliche Teams stehen für alle Benutzer in Ihrer Organisation zur Teilnahme an. Öffentliche Teams für alle Benutzer in der Galerie Teams sichtbar sind, und Benutzer können eine öffentliche Team teilnehmen, ohne Genehmigung vom Teambesitzer erhalten möchten. Beispiele für Öffentliche Teams sind ein Team um Neuigkeiten in Technologie, ein Team, Dogfood Feedback für Ihre Produkte zu erhalten und ein Team für Personen Fahrgemeinschaften zu besprechen.
+Öffentliche Teams stehen allen Benutzern in Ihrer Organisation für die Teilnahme zur Verfügung. Öffentliche Teams sind für alle Personen im Katalog "Teams" sichtbar, und Benutzer können einem öffentlichen Team beitreten, ohne die Genehmigung des Team Besitzers zu erhalten. Beispiele für öffentliche Teams sind ein Team, in dem Sie über Neuigkeiten in der Technologie diskutieren können, ein Team, das Dogfood-Feedback für Ihre Produkte erhält, und ein Team, in dem Personen mit Fahrgemeinschaften arbeiten können.
 
-### <a name="discoverable-private-teams"></a>EDiscovery-fähigen private teams
+### <a name="discoverable-private-teams"></a>Auffindbare private Teams
 
-EDiscovery-fähigen private Teams können nur hinzugefügt werden, wenn der Teambesitzer für diese Benutzer hinzugefügt. Wenn Sie einen privaten Team auffindbar sind, ist das Team in der Liste der vorgeschlagenen Teams und der Suchergebnisse im Katalog Teams enthalten. Verwenden Sie eDiscovery-fähigen private Teams für Projekte und Gruppen in Ihrer Organisation, die jeder kennt und dabei den Zugriff auf Unterhaltungen und Dateien in das Team gesteuert werden müssen. Beispiele sind ein Team für die HR-Abteilung, ein Team für alle Führungskräfte in Ihrer Organisation und ein Team für einen Manager und ihre Mitarbeiter.
+Erkennbare private Teams können nur verbunden werden, wenn der Teambesitzer Ihnen Benutzer hinzufügt. Wenn Sie ein privates Team auffindbar machen, ist das Team in der Liste der vorgeschlagenen Teams und Suchergebnisse im Katalog "Teams" enthalten. Verwenden Sie auffindbare private Teams für Projekte und Gruppen in Ihrer Organisation, die jeder kennt und für die der Zugriff auf Unterhaltungen und Dateien im Team kontrolliert werden muss. Beispiele sind ein Team für Ihre Personalabteilung, ein Team für alle Manager in Ihrer Organisation sowie ein Team für einen Manager und deren direkte Berichte.
 
-### <a name="non-discoverable-private-teams"></a>Nicht sichtbar private teams
+### <a name="non-discoverable-private-teams"></a>Nicht auffindbare private Teams
 
-Nicht sichtbar private Teams können nur hinzugefügt werden, wenn der Teambesitzer für diese Benutzer hinzugefügt. Wenn Sie einen privaten Team nicht auffindbar zu machen, hat sie aus der Liste der vorgeschlagenen Teams ausgeblendet und aus den Suchergebnissen in der Galerie Teams entfernt. Verwenden Sie nicht erkennbaren Teams, um vertrauliche und streng vertraulich Themen zusammenzuarbeiten. Beispiele: ein Team, um eine bevorstehende Übernahme zu besprechen und ein Team eine Änderung in Ihrer Organisation strategische Ausrichtung besprechen.
+Nicht auffindbare private Teams können nur verbunden werden, wenn der Teambesitzer Benutzer hinzugefügt hat. Wenn Sie ein privates Team nicht auffindbar machen, wird es in der Liste der vorgeschlagenen Teams ausgeblendet und im Katalog "Teams" aus den Suchergebnissen entfernt. Verwenden Sie nicht auffindbare Teams, um an vertraulichen und hochgradig vertraulichen Themen zusammenzuarbeiten. Beispiele sind ein Team, das eine bevorstehende Akquisition und ein Team besprechen soll, um eine Änderung der strategischen Ausrichtung Ihres Unternehmens zu besprechen.
 
-## <a name="set-whether-new-private-teams-are-discoverable"></a>Festlegen Sie, ob neue private Teams erkannt werden.
+## <a name="set-whether-new-private-teams-are-discoverable"></a>Festlegen, ob neue private Teams auffindbar sind
 
-Wenn ein Teambesitzer ein privates Teams erstellt, können sie es sichtbar machen, indem Sie das Team Discovery-Einstellung konfigurieren. Standardmäßig sind neue private Teams durchsuchbar und sichtbar. Wenn Teambesitzer das private Team in den Suchergebnissen und Vorschläge angezeigt wird nicht möchte, können sie die Einstellung deaktivieren, durch Auswählen der **Einstellung ändern** **dieses Team durchsuchbar und sichtbar ist**.
+Wenn ein Teambesitzer ein privates Team erstellt, kann er durch Konfigurieren der Discovery-Einstellung des Teams feststellen, ob es auffindbar ist. Neue private Teams können standardmäßig durchsucht und auffindbar sein. Wenn der Teambesitzer nicht möchte, dass das private Team in Suchergebnissen und Vorschlägen angezeigt wird, können Sie die Einstellung deaktivieren, indem Sie die Einstellung " **ändern** " neben " **dieses Team ist durchsuchbar und**auffindbar" auswählen.
 
-![Discovery-Einstellung für neue private teams](media/private-team-discovery-new-team.png)
+![Ermittlungs Einstellung für neue private Teams](media/private-team-discovery-new-team.png)
 
-## <a name="set-whether-existing-private-teams-are-discoverable"></a>Festlegen Sie, ob die vorhandenen privaten Teams erkannt werden.
+## <a name="set-whether-existing-private-teams-are-discoverable"></a>Festlegen, ob vorhandene private Teams erkennbar sind
 
-Team Besitzer können die Discovery-Einstellung für eine vorhandene private Team direkt in die Team-Einstellungen und Administratoren können dazu mithilfe von PowerShell.
+Teambesitzer können die Ermittlungs Einstellung für ein vorhandenes privates Team direkt in den Team Einstellungen festlegen, und Administratoren können dies mithilfe von PowerShell tun.
 
-### <a name="in-team-settings"></a>In den Team-Einstellungen
+### <a name="in-team-settings"></a>In Team Einstellungen
 
-Wechseln Sie in Teams, an das Team der private, klicken Sie auf **Weitere Optionen ˙˙˙** > **Team verwalten**. Auf der Registerkarte **Einstellungen** **Team Discovery**, erweitern und deaktivieren oder aktivieren Sie das Kontrollkästchen **Auffindbarkeit zu aktivieren** .
+Wechseln Sie in Microsoft Teams zum privaten Team, klicken Sie auf **Weitere Optionen ̇ ̇ ̇** > **Team verwalten**. Erweitern Sie auf der Registerkarte **Einstellungen** die Option **Team Ermittlung**, und deaktivieren oder aktivieren Sie das Kontrollkästchen Verfüg **barkeit aktivieren** .
 
-![Discovery-Einstellung für vorhandene private teams](media/private-team-discovery-existing-team.png)
+![Ermittlungs Einstellung für vorhandene private Teams](media/private-team-discovery-existing-team.png)
 
-### <a name="using-powershell-coming-soon"></a>Verwenden von PowerShell (bald verfügbar)
+### <a name="using-powershell-coming-soon"></a>Verwenden von PowerShell (in Kürze verfügbar)
 
-Verwenden Sie das Cmdlet " **Set-Team** " zu deaktivieren oder aktivieren auf der Discovery-Einstellung für eine vorhandene private Team. Es folgt ein Beispiel dafür, wie Sie ein Team auffindbar sind:
+Verwenden Sie das Cmdlet " **Satz-Team** ", um die Ermittlungs Einstellung für ein vorhandenes privates Team zu deaktivieren oder zu aktivieren. Im folgenden finden Sie ein Beispiel dafür, wie Sie ein Team auffindbar machen können:
 
     Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInSearchAndSuggestions $true
-Dieses Cmdlet können in einem Skript Sie die Ermittlung der vorhandenen privaten Teams in einer Sammeloperation eingestellt.
+Sie können dieses Cmdlet in einem Skript verwenden, um die Ermittlungs Einstellung für vorhandene private Teams massenhaft festzulegen.
 
-## <a name="set-whether-users-can-discover-private-teams"></a>Festlegen Sie, ob Benutzer private Teams erkennen können
+## <a name="set-whether-users-can-discover-private-teams"></a>Festlegen, ob Benutzer private Teams entdecken können
 
-Als Administrator können Sie auch steuern, private Teams in den Suchergebnissen und Vorschläge in Teams ermitteln können, welche Benutzer in Ihrer Organisation zulässig sind. Erstellen Sie eine Richtlinie mit dem Cmdlet **New-CsTeamsChannelsPolicy** , und weisen Sie die Richtlinie für Benutzer.
+Als Administrator können Sie auch steuern, welche Benutzer in Ihrer Organisation private Teams in Suchergebnissen und Vorschlägen in Teams entdecken dürfen. Erstellen Sie eine Richtlinie mit dem Cmdlet **New-CsTeamsChannelsPolicy** , und weisen Sie die Richtlinie Benutzern zu.
  
-Legen Sie den **AllowPrivateTeamDiscovery** -Parameter auf **true fest,** um Benutzern zu ermöglichen, die die Richtlinie für eDiscovery-fähigen private Teams in Suchergebnissen und Vorschläge finden Sie unter zugewiesen sind. Den Parameter **AllowPrivateTeamDiscovery** auf **false** festlegen entfernt alle eDiscovery-fähigen private Teams aus den Suchergebnissen und Vorschläge für Benutzer, die die Richtlinie zugewiesen werden.
+Legen Sie den **AllowPrivateTeamDiscovery** -Parameter auf " **true** " fest, damit Benutzern, denen die Richtlinie zugewiesen ist, auffindbare private Teams in Suchergebnissen und Vorschlägen angezeigt werden. Durch Festlegen des **AllowPrivateTeamDiscovery** -Parameters auf " **false** " werden alle erkennbaren privaten Teams aus Suchergebnissen und Vorschlägen für Benutzer entfernt, denen die Richtlinie zugewiesen ist.
 
-**AllowPrivateTeamDiscovery** ist standardmäßig auf **"true"** für alle Benutzer in einer Organisation festgelegt.
+Standardmäßig ist **AllowPrivateTeamDiscovery** für alle Benutzer in einer Organisation auf **true** festgelegt.
 
-In diesem Beispiel erstellen wir eine Richtlinie mit dem Namen VendorPolicy, die verhindert, dass Benutzer ermitteln private Teams, die sichtbar gemacht werden, und klicken Sie dann weisen wir die Richtlinie für einen Benutzer mit dem Namen vendoruser1. 
+In diesem Beispiel erstellen wir eine Richtlinie mit dem Namen "VendorPolicy", die verhindert, dass Benutzer alle privaten Teams entdecken können, die erkennbar sind, und weisen dann die Richtlinie einem Benutzer mit dem Namen "vendoruser1" zu. 
    
      New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy
 
 > [!NOTE]
-> Private Teams, die nicht sichtbar sind werden nie in den Suchergebnissen und Vorschläge, ungeachtet der richtlinieneinstellung angezeigt. Beispielsweise wenn Sie die Discovery-Einstellung für eine private Team deaktivieren, können Benutzer nicht ermitteln können, das Team, obwohl der **AllowPrivateTeamDiscovery** -Parameter auf **"true"** in der richtlinieneinstellung für diesen Benutzer festgelegt ist.
+> Private Teams, die nicht auffindbar sind, werden unabhängig von der Richtlinieneinstellung nie in Suchergebnissen und Vorschlägen angezeigt. Wenn Sie beispielsweise die Ermittlungs Einstellung für ein privates Team deaktivieren, können Benutzer das Team nicht ermitteln, obwohl der **AllowPrivateTeamDiscovery** -Parameter in der Richtlinieneinstellung für diese Benutzer auf **true** festgelegt ist.
 
 ## <a name="related-topics"></a>Verwandte Themen
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)

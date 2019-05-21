@@ -5,42 +5,42 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeMachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
-description: 'Zum Bearbeiten der Eigenschaften für Edge-Server-Computer als einen einzigen Edge-Server oder als Mitgliedscomputer in einem edgepool, konfigurieren Sie Servername und IP-Adresse Konfigurationseinstellungen:'
-ms.openlocfilehash: ad8b763b2509d558a8de96e4fcda880934995e9e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Wenn Sie die Eigenschaften für Edgeserver-Computer als einzelnen Edgeserver oder als Mitgliedscomputer in einem Edge-Pool bearbeiten möchten, konfigurieren Sie die Konfigurationseinstellungen für Servername und IP-Adresse:'
+ms.openlocfilehash: c9201cfde9f19391e1cee351de6d4efac00be9dd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915283"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302336"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Edgecomputereinstellungen für Lync Server 2010 – Erweiterung
  
-Zum Bearbeiten der Eigenschaften für Edge-Server-Computer als einen einzigen Edge-Server oder als Mitgliedscomputer in einem edgepool, konfigurieren Sie **Servername und IP-Adresskonfiguration** Einstellungen:
+Wenn Sie die Eigenschaften für Edgeserver-Computer als einzelnen Edgeserver oder als Mitgliedscomputer in einem Edge-Pool bearbeiten möchten, konfigurieren Sie die Konfigurationseinstellungen für **Servername und IP-Adresse** :
   
-- **Interner Name oder FQDN**: Geben Sie den Namen des Computers ein, wie er im Domain Name System (DNS) verwiesen wird. 
+- **Interner Name oder FQDN**: Geben Sie den Namen des Computers ein, auf den im DNS (Domain Name System) Bezug genommen wird. 
     
-- **Interne IPv4-Adresse**: Geben Sie die IPv4-Adresse der internen Netzwerkkarte (NIC) für diesen Computer ein.
+- **Interne IPv4-Adresse**: Geben Sie die IPv4-Adresse der internen Netzwerkschnittstellenkarte (NIC) für diesen Computer ein.
     
-- Sie konfigurieren die **Zugriffs-edgedienst** - **externe IPv4-Adresse** , die diesem Computer zugeordnet
+- Sie konfigurieren die **externe IPv4-Adresse** des **Access Edge-Diensts** , die diesem Computer zugeordnet ist.
     
     > [!IMPORTANT]
-    > Wenn Sie eine einzelne IP-Adresse für die Konfiguration der Edge-Server verwenden ausgewählt haben, werden Sie nur die externe IPv4-Adresse für den Zugriffs-Edgeservers Dienst bearbeiten sein. Der Edge-Dienste nutzen die gleiche IPv4-Adresse als Zugriffs-edgediensts. 
+    > Wenn Sie die Verwendung einer einzelnen IP-Adresse für die Edgeserver-Konfiguration ausgewählt haben, können Sie nur die externe IPv4-Adresse für den Access Edge-Dienst bearbeiten. Die anderen Edge-Dienste verwenden dieselbe IPv4-Adresse wie der Access-Edgedienst. 
   
-- Konfigurieren Sie die **-Webkonferenzdienst** - **externe IPv4-Adresse** , die diesem Computer zugeordnet Falls zur Bearbeitung verfügbar
+- Wenn Sie zum Bearbeiten zur Verfügung stehen, konfigurieren Sie die **externe IPv4-Adresse** des Webkonferenz **Diensts** , die diesem Computer zugeordnet ist.
     
-- Wenn zur Bearbeitung verfügbar, Sie konfigurieren die **A / V-edgedienst** **externe IPv4-Adresse** , die diesem Computer zugeordnet
+- Wenn Sie zum Bearbeiten zur Verfügung stehen, konfigurieren Sie die **externe IPv4-Adresse** des **A/V-Edgedienst** , die diesem Computer zugeordnet ist.
     
-- Falls zur Bearbeitung verfügbar, konfigurieren Sie die **NAT-aktivierte öffentliche IPv4-Adresse** , die diesem Computer zugeordnet.
+- Wenn Sie zum Bearbeiten zur Verfügung stehen, konfigurieren Sie die **NAT-fähige öffentliche IPv4-Adresse** , die diesem Computer zugeordnet ist.
     
     > [!IMPORTANT]
-    > Die Konfigurationseigenschaft für **NAT-aktivierte öffentliche IPv4-Adresse** stehen nur zur Verfügung, bearbeiten, wenn Sie ausgewählt haben, geben Sie die Netzwerkadressübersetzung (NAT) für den A / V-edgedienst
+    > Die Konfigurationseigenschaft für **NAT-fähige öffentliche IPv4-Adressen** steht nur zur Bearbeitung zur Verfügung, wenn Sie für den A/V-Edgedienst Netzwerkadressübersetzung (Network Address Translation, NAT) bereitstellen.
   
   **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
   

@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24fb3caf-19b3-4c0a-90d7-ca5d53de32ad
-description: Die AppliedBandwidthSource-Tabelle ist eine Tabelle. Jeder Datensatz steht für eine Datenquelle.
-ms.openlocfilehash: 49e4fd4b2c2543399d073d5d03e8cccad8b0038e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Die Tabelle AppliedBandwidthSource ist eine unterstützende Tabelle. Jeder Datensatz stellt eine Quelle dar.
+ms.openlocfilehash: 6d40701b74dd5e7312a504127675eed686de7321
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924850"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295111"
 ---
 # <a name="appliedbandwidthsource-table"></a>AppliedBandwidthSource-Tabelle
  
-Die AppliedBandwidthSource-Tabelle ist eine Tabelle. Jeder Datensatz steht für eine Datenquelle.
+Die Tabelle AppliedBandwidthSource ist eine unterstützende Tabelle. Jeder Datensatz stellt eine Quelle dar.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**AppliedBandwidthSourceKey** <br/> |int  <br/> |Primary  <br/> |Eindeutige Zahl, die die Quelle identifiziert.  <br/> |
-|**AppliedBandwidthSource** <br/> |varchar(256)-Wert  <br/> |Eindeutige  <br/> |Dies ist die Quelle des Endes Bandbreite eingeführt wird. Beschrieben werden, in dem der Grenzwert für Bandbreite (beispielsweise "Richtlinienserver", "Server aktivieren" oder "Modalität") stammt.  <br/> |
+|**AppliedBandwidthSourceKey** <br/> |int  <br/> |Primary  <br/> |Eindeutige Nummer, die die Quelle kennzeichnet.  <br/> |
+|**AppliedBandwidthSource** <br/> |varchar (256)  <br/> |Eindeutigen  <br/> |Hierbei handelt es sich um die Quelle des verhängten Bandbreitenlimits. Es wird beschrieben, woher die Bandbreitengrenze stammt (beispielsweise "Richtlinienserver", "Server umwandeln" oder "Modalität").  <br/> |
    
 

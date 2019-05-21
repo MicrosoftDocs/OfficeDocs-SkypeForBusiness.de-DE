@@ -5,38 +5,38 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
-description: in "tblscopeprincipal" enthält die Bereiche, die Knoten zugewiesen.
-ms.openlocfilehash: f682c8a2235ef30cda365bc5950cbfb123840595
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblScopePrincipal enthält Bereiche, die Knoten zugewiesen sind.
+ms.openlocfilehash: 2fd8e434710c7bcd266c427fa492e23adacedb22
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924927"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295195"
 ---
 # <a name="tblscopeprincipal"></a>tblScopePrincipal
  
-in "tblscopeprincipal" enthält die Bereiche, die Knoten zugewiesen.
+tblScopePrincipal enthält Bereiche, die Knoten zugewiesen sind.
   
 **Spalten**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|scopeNodeID  <br/> |Int, nicht null  <br/> |Knoten-ID, die auf der Bereich angewendet wird.  <br/> |
-|scopePrinID  <br/> |Int, nicht null  <br/> |Prinzipal-ID.  <br/> |
-|scopeIsDenied  <br/> |Bit, nicht null  <br/> |True, wenn Bereichstyp verweigern. False, wenn ermöglichen.  <br/> |
-|scopeUpdatedBy  <br/> |Int, nicht null  <br/> |ID des Prinzipals, der diesen Eintrag zuletzt aktualisiert.  <br/> |
+|scopeNodeID  <br/> |int, nicht NULL  <br/> |Knoten-ID, auf die sich der Bereich bezieht.  <br/> |
+|scopePrinID  <br/> |int, nicht NULL  <br/> |Prinzipal-ID.  <br/> |
+|scopeIsDenied  <br/> |Bit, nicht NULL  <br/> |"True", wenn der Typ des Bereichs "verweigern" lautet. False, wenn allow.  <br/> |
+|scopeUpdatedBy  <br/> |int, nicht NULL  <br/> |Die ID des Prinzipals, der diesen Eintrag zuletzt aktualisiert hat.  <br/> |
    
 **Schlüssel**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
-|\<ScopeNodeID scopePrinID\>  <br/> |Primärschlüssel.  <br/> |
-|scopeNodeID  <br/> |Fremdschlüssel mit Abfrage der tblNode.nodeID-Tabelle.  <br/> |
-|scopePrinID  <br/> |Fremdschlüssel mit Abfrage der tblPrincipal.prinID-Tabelle.  <br/> |
+|\<scopeNodeID, scopePrinID\>  <br/> |Primärschlüssel  <br/> |
+|scopeNodeID  <br/> |Fremdschlüssel mit Lookup in der tblNode. Node-Tabelle  <br/> |
+|scopePrinID  <br/> |Fremdschlüssel mit Lookup in der tblPrincipal. prinID-Tabelle.  <br/> |
    
 

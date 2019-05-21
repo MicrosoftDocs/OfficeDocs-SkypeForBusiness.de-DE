@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,21 +21,21 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region, die gebührenfreie Nummer.
-ms.openlocfilehash: 3fe9985d6f87672927bd0f6dfe24783455948111
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
+ms.openlocfilehash: d2fe8e03ce0891fa46f092c87b6563ce174af75c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204445"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300975"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Einschränkungen für das Wählen von gebührenfreien Telefonnummern
 
-Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land oder Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert Sie zu einer Seite es, die enthält, in dem gebührenpflichtige kostenlosen Service einschließlich spezifische Details, Einschränkungen und Grenzwerte verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region, die gebührenfreie Nummer.
+So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land oder in jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer Seite, auf der gebührenfreie Dienste einschließlich spezifischer Details, Einschränkungen und Beschränkungen zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
   
-Wenn Sie bereit sind, wählen Sie ein Land oder Region:
+Wenn Sie bereit sind, wählen Sie ein Land oder eine Region aus:
   
-## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>Wählen Sie Ihr Land oder Region für die Einwahl Codes, Einschränkungen und Einschränkungen finden Sie unter.
+## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>Wählen Sie Ihr Land oder Ihre Region aus, um die Wähl Codes, Einschränkungen und Einschränkungen anzuzeigen.
 
 > [!div class="op_single_selector"]    
 > - [Argentinien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -101,20 +101,20 @@ Wenn Sie bereit sind, wählen Sie ein Land oder Region:
 > - [Venezuela](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [Vietnam](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Hier sind einige wichtige Punkte zu merken zu gebührenfreie Nummern:
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Hier sind einige wichtige Dinge, die Sie über gebührenfreie Nummern beachten sollten:
 
-- **Gebührenfreie Nummern funktionieren nur innerhalb jedes Land/Region.** Beispielsweise wird nicht die Benutzer eine Australien gebührenfreie Nummer außerhalb Australien aufrufen können.
+- **Gebührenfreie Nummern sind nur in jedem Land/jeder Region aktiv.** So können Ihre Benutzer beispielsweise nicht außerhalb Australiens eine gebührenfreie australische Nummer anrufen.
     
-- **Erwerben oder Portieren universelle International gebührenfreien Telefonnummern (UIFN) wird nicht unterstützt.**
+- **Das erwerben oder Portieren von universellen internationalen gebührenfreien Telefonnummern (UIFN) wird nicht unterstützt.**
     
-- **In vielen Ländern/Regionen erfordert Spannungsreglermodul/Telekommunikation Behörde in das Land/Region jedes gebührenfreie Telefonnummer mindestens 100 Minuten Verwendung pro Monat verwalten, um die Anzahl beibehalten werden.**
+- **In vielen Ländern/Regionen erfordert die Regulierungsbehörde/Telekommunikationsagentur in dem Land/der Region jede gebührenfreie Telefonnummer, um mindestens 100 Minuten Nutzung pro Monat beizubehalten, um die Nummer beizubehalten.**
     
     > [!NOTE]
-    > In der Ereignisprozedur Sie eine gebührenfreie Telefonnummer erhalten und die Verwendung der Anzahl nicht diese Mindestanforderungen erfüllen, kann Microsoft die Anzahl von Ihnen bei der Spannungsreglermodul/Telekommunikation Agency überzeugt. 
+    > Für den Fall, dass Sie eine gebührenfreie Nummer erhalten und die Nutzung der Nummer diese Mindestanforderungen nicht erfüllt, kann Microsoft von der Regulierungsbehörde/Telekommunikationsagentur dazu veranlasst werden, die Nummer von Ihnen zurückzufordern. 
   
-- **Der Zugriff auf gebührenfreie Telefonnummern über drahtgebundene Leitungen, Festnetz und Mobilnetz kann vollständig oder partiell eingeschränkt werden.** Die Wählformat beschreibt die erforderlichen Zugriffscodes innerhalb jedes Land/Region, mit der die gebührenfreie Telefonnummer anrufen.
+- **Der Zugriff auf gebührenfreie Telefonnummern über drahtgebundene Leitungen, Festnetz und Mobilnetz kann vollständig oder partiell eingeschränkt werden.** Das Wählformat beschreibt die erforderlichen Zugriffscodes in jedem Land/jeder Region, um Anrufe über die gebührenfreie Nummer zu tätigen.
     
-- **Nordamerika Nummerierung Plan gebührenfreie Nummern:** Pro Minute Überstundensätze Nordamerika Rufnummernplan gebührenfreie Nummern werden von der ursprünglichen Land bestimmt. Die gebührenpflichtige kostenlose pro Minute für Anrufe, die aus der USA-Zuordnung auf die Übertragungsrate definiert als "Nordamerika" stammen Anrufe, die von anderen nordamerikanischen Ländern wie Kanada, Puerto Rico usw. stammen müssen jedoch bestimmte gebührenpflichtige kostenlose Sätze.
+- **Rufnummern Plan für Nordamerika gebührenfreie Nummern:** Minutentarife für den nordamerikanischen Nummern Plan gebührenfreie Nummern werden vom Ursprungsland bestimmt. Die gebührenfreie Minutengebühr für Anrufe, die aus den Vereinigten Staaten stammen, werden dem als "Nordamerika" definierten Tarif zugeordnet. Anrufe, die aus anderen nordamerikanischen Ländern wie Kanada, Puerto Rico usw. stammen, haben jedoch spezielle gebührenfreie Gebühren.
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
-ms.openlocfilehash: e1f4020e7062066451eebd626832da8d4a633069
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ca00db8882837bc748dee89a100b2e7d9dd2d04f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227874"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297971"
 ---
 # <a name="getting-service-phone-numbers"></a>Abrufen von Diensttelefonnummern
 
@@ -35,29 +35,29 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 > [!NOTE]
 > Office 365 Communications Credits must be set up first in order to acquire toll-free numbers. See [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization). 
   
-Ihnen stehen zwei Arten der erste Service Zahlen, damit Sie sie mit Skype für Unternehmen und die Microsoft-Teams verwenden können:
+Sie haben zwei Möglichkeiten, Servicenummern zu erhalten, damit Sie Sie mit Skype for Business und Microsoft Teams nutzen können:
   
-- Holen Sie neue Rufnummern, die von Office 365.
+- Neue Nummern aus Office 365 abrufen.
     
-- Port oder Ihre vorhandenen Zahlen von Ihrem Dienstanbieter oder Mobilfunkbetreibers zu Office 365 übertragen.
+- Portieren oder übertragen Sie Ihre vorhandenen Telefonnummern von Ihrem Dienstanbieter oder Netzbetreiber zu Office 365.
     
     > [!NOTE]
-    > Bei der Übertragung von Ihrem Dienst Zahlen wird dringend empfohlen, wenden Sie sich an [Microsoft support](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) , um sicherzustellen, dass die höhere aufrufende belasten berücksichtigt und ordnungsgemäß konfiguriert ist.
+    > Wenn Sie Ihre Servicenummern übertragen, wird dringend empfohlen, dass Sie sich an den [Microsoft-Support](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) wenden, um sicherzustellen, dass die höhere gleichzeitige Anrufkapazität berücksichtigt und richtig konfiguriert wird.
   
 ## <a name="get-new-service-numbers"></a>Abrufen von neuen Leistungsnummern
 
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wechseln Sie zu der **Verwaltungskonsole** > **Teams und Skype** > **Skype Legacy Admin**.
+2. Wechseln Sie zu den **Admin Center** > **-Teams und Skype** > **Legacy-Administrator**.
     
-3. Wechseln Sie im linken Navigationsbereich auf **Stimme** > **Telefonnummern** > **Hinzufügen neue Nummer**, und klicken Sie dann auf **neue Dienst Nummern**.
+3. Wechseln Sie in der linken Navigationsleiste zu **VoIP** > **** > -Rufnummern**Hinzufügen**, und klicken Sie dann auf **neue Dienstnummern**.
     
     > [!IMPORTANT] 
-    > Damit Sie die Option **VoIP** im linken Navigationsbereich in die Skype für Business Administrationscenter finden Sie unter müssen Sie zunächst mindestens eine **E5 Enterprise-Lizenz**, eine zusätzliche Lizenz für **Telefonsystem** oder eine zusätzliche Lizenz für **Audiokonferenzen** kaufen.
+    > Damit Sie in der linken Navigationsleiste des Skype for Business admin Centers die Option **Stimme** sehen können, müssen Sie zunächst mindestens eine **Enterprise E5-Lizenz**, eine Lizenz für ein **Telefon System** -Add-on oder eine Lizenz für das Add-on **Audio Conferencing** kaufen.
     
-4. Wählen Sie auf der Seite **neue Service-Nummern hinzufügen** Folgendes ein:
+4. Wählen Sie auf der Seite **neue Dienstnummern hinzufügen** die folgenden Optionen aus:
     
    - **Land/Region**
     

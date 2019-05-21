@@ -1,56 +1,56 @@
 ---
-title: Bereitstellung der Topologie zum Laden in Stress and Performance Szenarien ausführen
+title: Bereitstellen der Topologie zum Ausführen der Auslastung in Stress-und Leistungs Szenarien
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 ms.date: 12/17/2015
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
-description: Skype für Business Server 2015 topologieänderungen oder Bereitstellung für Benutzer zu das Stress and Performance-Tool erfolgreich ausgeführt.
-ms.openlocfilehash: 446c8d8154992540ffd8bfe18b07af7c54e864fe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Änderungen oder Bereitstellung von Skype for Business Server 2015-Topologie, um Benutzern das erfolgreiche Ausführen des Stress-und Leistungstools zu ermöglichen.
+ms.openlocfilehash: c7cdc10b3667ac99376904c81309df739e49844a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906641"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299702"
 ---
-# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Bereitstellung der Topologie zum Laden in Stress and Performance Szenarien ausführen
+# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Bereitstellen der Topologie zum Ausführen der Auslastung in Stress-und Leistungs Szenarien
  
-Skype für Business Server 2015 topologieänderungen oder Bereitstellung für Benutzer zu das Stress and Performance-Tool erfolgreich ausgeführt.
+Änderungen oder Bereitstellung von Skype for Business Server 2015-Topologie, um Benutzern das erfolgreiche Ausführen des Stress-und Leistungstools zu ermöglichen.
   
-Je nach der vorhandenen Einstellungen und die Konfiguration für die Bereitstellung von Skype für Business Server 2015 müssen Sie möglicherweise einige Änderungen in Ihrer Umgebung vornehmen. Es folgt eine Liste mit diesen Änderungen:
+Je nach Ihren vorhandenen Einstellungen und der Konfiguration für Ihre Bereitstellung von Skype for Business Server 2015 müssen Sie möglicherweise einige Änderungen in Ihrer Umgebung vornehmen. Die folgende Liste enthält die folgenden Änderungen:
   
-1. Legen Sie die Windows PowerShell-Ausführungsrichtlinie nicht eingeschränkt. Wenn Sie nicht sicher sind, was ist können festlegen auf aktuell, Sie die Skype für Business Server-Verwaltungsshell öffnen und führen Sie diesen Befehl:
+1. Setzen Sie die Windows PowerShell-Ausführungsrichtlinie auf Unrestricted. Wenn Sie nicht genau wissen, auf was Sie derzeit eingestellt ist, können Sie die Skype for Business Server-Verwaltungsshell öffnen und diesen Befehl ausführen:
     
    ```
    Get-ExecutionPolicy
    ```
 
-   Wenn der Wert Unrestricted nicht zurückgegeben wird, müssen Sie diesem als Nächstes ausführen:
+   Wenn der Wert Unrestricted nicht zurückgegeben wird, müssen Sie Folgendes ausführen:
     
    ```
    Set-ExecutionPolicy -Unrestricted
    ```
 
-2. Um effektiv Skype für Business Server konfigurieren, müssen Sie Folgendes ausführen:
+2. Um Skype for Business Server effektiv zu konfigurieren, müssen Sie Folgendes tun:
     
-    - Mit Ihrer Skype für Business Server 2015 Topologie (beispielsweise Computernamen, Dienstinstanzen, Websitenamen und Richtlinien) vertraut sein.
+    - Machen Sie sich mit Ihrer Skype for Business Server 2015-Topologie vertraut (wie Computernamen, Dienstinstanzen, Websitenamen und Richtlinien).
     
-    - Weisen Sie einige Benutzer, die Gruppen erstellt werden, wie Response Group Sammelanschlüssen (beispielsweise SIP-URIs).
+    - Weisen Sie einige der Benutzer zu, die Gruppen zugeordnet sind, wie etwa Gruppen-Sammelanschlüsse (beispielsweise SIP-URIs).
     
-3. Wenn Sie ein Skript über die Befehlszeile ausführen, können Sie Folgendes verwenden:
+3. Wenn Sie ein Skript über die Befehlszeile ausführen möchten, können Sie Folgendes verwenden:
     
    ```
    PowerShell.exe -file <path to the file>
    ```
 
-4. Nach dem Ausführen eines Skripts aus diesem Paket werden in der Regel, die sich ergebende Spuren gespeichert werden in einer Datei in demselben Pfad in dem das Skript ausgeführt wurde. Es ist auch ein Namensformat \<Skriptname\>$h$m$s.txt. Also, wenn Sie die ArchivingPolicy.ps1 12:15 Uhr ausgeführt haben, Abrufen eine Protokolldatei namens ArchivingPolicy121500.txt.
+4. Nachdem Sie ein Skript aus diesem Paket ausgeführt haben, werden die resultierenden Ablaufverfolgungen in der Regel in einer Datei im gleichen Pfad gespeichert, von dem aus das Skript ausgeführt wurde. Außerdem gibt es ein Benennungsformat \<: Skript\>Name $h $ m $ s. txt. Wenn Sie also ArchivingPolicy. ps1 auf 12:15 Uhr ausgeführt haben, erhalten Sie eine Protokolldatei mit dem Namen ArchivingPolicy121500. txt.
     
-5. Während es in diesen Beispielen für die Serverkonfiguration bereitgestellt haben, ist es Ihnen Ändern der Konfigurations und Wiederherstellen oder ein Rollback durchführen, Sichern Sie nach Abschluss der Auslastungstests ausgeführt.
+5. Obwohl wir diese Beispiele für Ihre Serverkonfiguration bereitgestellt haben, liegt es an Ihnen, sowohl Ihre Konfiguration zu ändern als auch nach Abschluss der Auslastungstests wiederherzustellen oder zurückzusetzen.
     
 

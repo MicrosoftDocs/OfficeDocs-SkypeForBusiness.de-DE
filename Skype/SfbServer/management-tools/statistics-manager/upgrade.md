@@ -4,33 +4,33 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
-description: 'Zusammenfassung: Lesen Sie in diesem Thema erfahren, wie Statistiken Manager für Skype für Business Server zu aktualisieren.'
-ms.openlocfilehash: 1349d3e67481b2f0dd8c354c01b70a33969ed51d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Statistics Manager für Skype for Business Server aktualisieren.'
+ms.openlocfilehash: 70826776e9dfacdef75c7084a9aba6f4eede940a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906718"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299723"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Aktualisieren von Statistics Manager für Skype for Business Server
  
-**Zusammenfassung:** Gelesen Sie in diesem Thema erfahren, wie ein Upgrade Statistiken Manager für Skype für Business Server.
+**Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie Statistics Manager für Skype for Business Server aktualisieren.
   
-In diesem Thema wird beschrieben, wie zum Aktualisieren einer vorhandenen Installation von Statistiken Manager für Skype für Business Server – ein leistungsfähiges Tool, das Sie zum Anzeigen von Skype für Business Server Integrität und Leistung von Daten in Echtzeit ermöglicht. Sie können Leistungsdaten von Hunderten von Servern innerhalb von Sekunden abfragen und die Ergebnisse unmittelbar auf der Statistics Manager-Website anzeigen. 
+In diesem Thema wird beschrieben, wie Sie eine vorhandene Installation von Statistics Manager für Skype for Business Server aktualisieren – ein leistungsfähiges Tool, mit dem Sie Skype for Business Server-Integritäts-und-Leistungsdaten in Echtzeit anzeigen können. Sie können Leistungsdaten von Hunderten von Servern innerhalb von Sekunden abfragen und die Ergebnisse unmittelbar auf der Statistics Manager-Website anzeigen. 
   
-Weitere Informationen zu Statistiken Manager und die neuen Features in Version 2.0 finden Sie unter [für Statistiken Manager für Skype für Business Server planen](plan.md) und [Bereitstellen von Statistiken Manager für Skype für Business Server](deploy.md).
+Weitere Informationen zum Statistik-Manager und zu den neuen Features in Release 2,0 finden Sie unter [Planen von Statistics Manager für Skype for Business Server](plan.md) und [Bereitstellen von Statistics Manager für Skype for Business Server](deploy.md).
   
 Es gibt zwei Verfahren für die Aktualisierung:
   
-- **Automatische Aktualisierung.** Diese Methode wird ein automatisiertes Skript verwendet. Es ist die einfachste Methode und für alle Upgradeszenarien anwendbar sein.
+- **Automatische Aktualisierung.** Diese Methode verwendet ein automatisches Skript. Dies ist die einfachste Methode, die für alle Upgrade-Szenarien gelten sollte.
     
-- **Manuelle Aktualisierung.** Diese Methode wird als einen Sicherungsplan im ungewöhnliche Fall bereitgestellt, die die automatische Aktualisierung fehlschlägt.
+- **Manuelle Aktualisierung.** Diese Methode wird im ungewöhnlichen Fall als Sicherungsplan bereitgestellt, wenn das automatisierte Upgrade fehlschlägt.
     
 ## <a name="prerequisites"></a>Voraussetzungen
 
@@ -44,9 +44,9 @@ Bevor Sie aktualisieren, stellen Sie sicher, dass Sie über die folgenden Inform
     
 ## <a name="automated-upgrade"></a>Automatische Aktualisierung
 
-Das Skript wird Ihre aktuelle Zertifikatinformationen sammeln und die alte Version des Produkts deinstallieren Listener Kennwort verwenden aus, und klicken Sie dann die neue Version des Produkts installieren. Die Redis-Instanz auf dem Server installiert wird nicht verschoben werden, damit im Cache gespeicherten Daten über den Upgradeprozess beibehalten werden.
+Das Skript sammelt Ihre aktuellen Zertifikatinformationen und das Listener-Kennwort, deinstallieren die alte Version des Produkts und installieren dann die neue Version des Produkts. Die auf dem Server installierte Instanz von "auf dem Server" wird nicht berührt, sodass alle im Cache gespeicherten Daten über den Upgradeprozess aufbewahrt werden.
   
-1. Platzieren Sie die MSI-Dateien für die neue Version der Agent, Listener und Website zusammen mit der Update-StatsMan.ps1-Skript in einem gemeinsamen Ordner auf dem Computer Listener.
+1. Platzieren Sie die MSI-Dateien für die neue Version des Agents, Listener und der Website zusammen mit dem Update-StatsMan. ps1-Skript in einem einzelnen Ordner auf dem Listener-Computer.
     
 2. Öffnen Sie ein PowerShell-Verwaltungsfenster. Aktualisieren Sie die Listener-Komponente:
     
@@ -55,11 +55,11 @@ Das Skript wird Ihre aktuelle Zertifikatinformationen sammeln und die alte Versi
    ```
 
 > [!NOTE]
-> Das Statistiken Manager-Dienstkennwort wird unverschlüsselt in der Befehlszeile wie es an das Installationsprogramm übergeben wird angezeigt. Achten Sie darauf, Ihren Bildschirm bei Bedarf entsprechend abzudecken. 
+> Das Kennwort des Statistik-Manager-Diensts wird in Klartext in der Befehlszeile angezeigt, wenn es an das Installationsprogramm übergeben wird. Achten Sie darauf, Ihren Bildschirm bei Bedarf entsprechend abzudecken. 
   
 1. Beim Ausführen des Skripts sollten Sie aufgefordert werden, die alte Version des Produkts zu deinstallieren. Bestätigen Sie dies mit „Ja“.
     
-2. Wenn der Listenerdienst ausgeführt wird, werden Sie aufgefordert, die Anwendung zu schließen, bevor Sie fortfahren. Ermöglichen der Anwendung, schließen (der Dienst beendet werden soll, Statistiken Manager-Listener).
+2. Wenn der Listenerdienst ausgeführt wird, werden Sie aufgefordert, die Anwendung zu schließen, bevor Sie fortfahren. Zulassen, dass die Anwendung geschlossen wird (der Statistik-Manager-Listener-Dienst wird beendet).
     
 3. Setzen Sie den Installationsprozess fort. Beachten Sie, dass Eintragungen für das Dienstkennwort und den Zertifikatfingerabdruck bereits im Voraus vorgenommen worden sind. Falls das nicht der Fall ist, tragen Sie die Werte ein, die Sie zuvor gespeichert haben, bevor Sie fortfahren.
     
@@ -88,7 +88,7 @@ Das Skript wird Ihre aktuelle Zertifikatinformationen sammeln und die alte Versi
 11. Stellen Sie mithilfe des Browsers sicher, dass die Website wie erwartet funktioniert.
     
 > [!NOTE]
-> Die Agent-Aktualisierung verwendet werden kann mit der Option - NoPrompt. Dies ermöglicht den Prozess Deinstallation/Installation im Hintergrund, führen Sie Tools wie PSExec zu Remote Ausführen des Upgrades für eine große Anzahl von Servern zu ermöglichen. 
+> Das Agent-Upgrade kann mit der Schalter-noprompt verwendet werden. Auf diese Weise kann der Deinstallations-/Installationsvorgang im Hintergrund ausgeführt werden, sodass Tools wie PSExec das Upgrade Remote auf einer Vielzahl von Servern durchführen können. 
   
 ### <a name="manual-upgrade"></a>Manuelle Aktualisierung
 

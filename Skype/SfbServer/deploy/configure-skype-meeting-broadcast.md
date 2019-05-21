@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,33 +14,33 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
-description: 'Zusammenfassung: Erfahren Sie mehr über die Schritte, die Sie zum Konfigurieren von Skype Besprechung übertragen für Ihre lokale Skype für Business Server hybridbereitstellung ausführen müssen.'
-ms.openlocfilehash: 4eb117715905a9d371b725c8da7a992b9fdee6b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über die Schritte, die Sie ausführen müssen, um Skype-Live Konferenz für Ihre lokale Skype for Business Server-hybridbereitstellung zu konfigurieren.'
+ms.openlocfilehash: b744ae55fe9c866b2f65c816e471ed077312df13
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894204"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291665"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configure your on-premises deployment for Skype Meeting Broadcast
  
-**Zusammenfassung:** Informationen Sie zu den Schritten, die Sie zum Konfigurieren von Skype Besprechung übertragen für Ihre lokale Skype für Business Server hybridbereitstellung ausführen müssen.
+**Zusammenfassung:** Informieren Sie sich über die Schritte, die Sie ausführen müssen, um Skype-Live Konferenz für Ihre lokale Skype for Business Server-hybridbereitstellung zu konfigurieren.
   
-Skype Besprechung übertragen ist ein Onlinedienst, der Teil von Office 365 ist. Wenn Sie Skype für Business Server lokal ausgeführt werden und Skype Besprechung übertragen in Ihrer Umgebung verwenden möchten, müssen Sie die Konfiguration Schritte in diesem Thema. Bevor Sie beginnen, muss Ihre Umgebung für hybride mit Skype für Business Online konfiguriert werden. Weitere Informationen finden Sie unter [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) und [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
+Skype-Live Konferenz ist ein Onlinedienst, der Teil von Office 365 ist. Wenn Sie Skype for Business Server lokal ausführen und die Skype-Live Konferenz in Ihrer Umgebung verwenden möchten, müssen Sie die Konfigurationsschritte in diesem Thema befolgen. Bevor Sie beginnen, muss Ihre Umgebung für hybride mit Skype for Business Online konfiguriert sein. Weitere Informationen finden Sie unter [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) und [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
   
-## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Konfigurieren der hybridumgebung für Skype Besprechung übertragen
+## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Konfigurieren der Hybridumgebung für Skype-Live Konferenz
 
-Sie müssen Folgendes tun, um die Vorbereitung Ihrer Umgebung Skype Besprechung übertragen werden:
+Sie müssen die folgenden Schritte ausführen, um Ihre Umgebung für die Skype-Live Konferenz vorzubereiten:
   
-- Konfigurieren des Verbunds mit Skype für Business Onlineressourcen
+- Konfigurieren des Verbunds mit Skype for Business Online-Ressourcen
     
 - Konfigurieren von SIP-Partnerverbunddomänen
     
-### <a name="configure-federation-with-skype-for-business-online-resources"></a>Konfigurieren des Verbunds mit Skype für Business Onlineressourcen
+### <a name="configure-federation-with-skype-for-business-online-resources"></a>Konfigurieren des Verbunds mit Skype for Business Online-Ressourcen
 
-Um den Verbund mit Skype für Business Onlineressourcen zu aktivieren, müssen Sie für einen SIP-Partnerverbundanbieter externen Zugriff konfigurieren. Hierzu dies mithilfe der Skype für Business Server-Systemsteuerung gehen Sie folgendermaßen vor:
+Um die Föderation mit Skype for Business Online-Ressourcen zu aktivieren, müssen Sie den externen Zugriff für einen SIP-Verbund Anbieter konfigurieren. Führen Sie dazu die folgenden Schritte aus, indem Sie das Skype for Business Server Control Panel verwenden:
   
-1. Starten Sie die Skype für Business Server-Systemsteuerung, und wählen Sie **Externen Zugriff** auf der linken Seite.
+1. Starten Sie die Skype for Business Server-Systemsteuerung, und wählen Sie auf der linken Seite **externen Zugriff** aus.
     
 2. Wählen Sie **SIP-Partnerverbundanbieter** und klicken Sie auf **Neu**.
     
@@ -48,12 +48,12 @@ Um den Verbund mit Skype für Business Onlineressourcen zu aktivieren, müssen S
     
 |||
 |:-----|:-----|
-|**Aktivieren Sie Kommunikation mit diesem Anbieter:** <br/> |Ausgewählt  <br/> |
+|**Aktivieren der Kommunikation mit diesem Anbieter:** <br/> |Ausgewählt  <br/> |
 |**Anbietername:** <br/> |LyncOnlineResources  <br/> |
 |**Zugriffs-Edgedienst (FQDN):** <br/> |sipfed.resources.lync.com  <br/> |
 |**Standardüberprüfungsstufe:** <br/> |Benutzern die Kommunikation mit jedem erlauben, der diesen Anbieter verwendet  <br/> |
    
-Sie können auch mit Skype-Verbund für Business Onlineressourcen aktivieren, indem Sie das folgende Cmdlet in der Skype für Business Server-Verwaltungsshell ausführen:
+Sie können auch den Verbund mit Skype for Business Online-Ressourcen aktivieren, indem Sie in der Skype for Business Server-Verwaltungsshell das folgende Cmdlet ausführen:
   
 ```
 New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.lync.com -VerificationLevel AlwaysVerifiable -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $True -IsLocal $False
@@ -61,9 +61,9 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
 
 ### <a name="configure-sip-federated-domains"></a>Konfigurieren von SIP-Partnerverbunddomänen
 
-Im nächsten Schritt müssen Sie SIP Federated Domains die Liste der zulässigen Domänen hinzuzufügen. Wiederholen Sie diese Schritte für alle aufgeführten Domänen und erstellen Sie so vier neue SIP-Partnerverbunddomänen. Diese Domänen enthalten sind für die regionalen Daten verwendeten in Skype für Business Online zentriert.
+Als nächstes müssen Sie SIP-Verbunddomänen zur Liste der zulässigen Domänen hinzufügen. Wiederholen Sie diese Schritte für alle aufgeführten Domänen und erstellen Sie so vier neue SIP-Partnerverbunddomänen. Zu diesen Domänen gehören die regionalen Rechenzentren, die in Skype for Business Online verwendet werden.
   
-1. Starten Sie die Skype für Business Server-Systemsteuerung, und wählen Sie **Externen Zugriff** auf der linken Seite.
+1. Starten Sie die Skype for Business Server-Systemsteuerung, und wählen Sie auf der linken Seite **externen Zugriff** aus.
     
 2. Wählen Sie **SIP-Partnerverbunddomänen** und klicken Sie auf **Neu**.
     
@@ -77,7 +77,7 @@ Im nächsten Schritt müssen Sie SIP Federated Domains die Liste der zulässigen
     
    - resources.lync.com
     
-Sie können auch den externen Zugriff für SIP-Verbund Domänen konfigurieren, indem Sie die folgenden Cmdlets in der Skype für Business Server-Verwaltungsshell ausführen:
+Sie können den externen Zugriff für SIP-Verbunddomänen auch konfigurieren, indem Sie die folgenden Cmdlets in der Skype for Business Server-Verwaltungsshell ausführen:
   
 ```
 New-CsAllowedDomain -Identity "noammeetings.lync.com"
@@ -86,6 +86,6 @@ New-CsAllowedDomain -Identity "apacmeetings.lync.com"
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-Wenn Sie diese Konfigurationsschritte abgeschlossen haben können Sie beginnen, in Ihrer Bereitstellung mit Skype Besprechung übertragen werden. Weitere Informationen zu Skype Besprechung übertragen werden, finden Sie unter [Was ist eine Skype Besprechung übertragen?](https://go.microsoft.com/fwlink/?LinkId=617071) und [Skype-Besprechung übertragen Administratorhandbuch](https://go.microsoft.com/fwlink/?LinkId=617075).
+Nachdem Sie diese Konfigurationsschritte abgeschlossen haben, können Sie Skype-Live Konferenz in Ihrer Bereitstellung verwenden. Weitere Informationen zu Skype-Live Konferenz finden Sie unter [Was ist eine Skype-Live Konferenz?](https://go.microsoft.com/fwlink/?LinkId=617071) und [Skype-Live Konferenz-Administratorhandbuch](https://go.microsoft.com/fwlink/?LinkId=617075).
   
 

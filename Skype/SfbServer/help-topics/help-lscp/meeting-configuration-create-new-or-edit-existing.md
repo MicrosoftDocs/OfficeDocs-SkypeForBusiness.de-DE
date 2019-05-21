@@ -1,11 +1,11 @@
 ---
-title: Besprechungskonfiguration Erstellen einer neuen oder Bearbeiten einer vorhandenen
+title: Besprechungskonfiguration neues erstellen oder vorhandenes bearbeiten
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ConfMeetingSettingEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 description: Mithilfe von Konfigurationseinstellungen für Besprechungen wird der Benutzerbeitritt für von Benutzern geplante Konferenzen definiert. Diese Einstellungen gelten nur für geplante Besprechungen. Sie gelten nicht für Ad-hoc-Besprechungen, die durch Klicken auf die Option Sofortbesprechung erstellt werden.
-ms.openlocfilehash: 6af03588f5265c7fba208e88f2965639a1933153
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: baf8912e90d68dc175e6cd278cc7a13eff82ae33
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910890"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293459"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Besprechungskonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Besprechungskonfiguration
 
@@ -28,31 +28,31 @@ Mithilfe von Konfigurationseinstellungen für Besprechungen wird der Benutzerbei
 
 In der folgenden Liste werden die Felder der Seite beschrieben.
 
-- **Bereich** Gibt den Bereich der besprechungskonfiguration, die Sie erstellen oder ändern: global, Standort oder Pool.
+- **Bereich** Identifiziert den Bereich der zu erstellende oder zu ändernden besprechungskonfiguration: Global, Site oder Pool.
 
-- **Name** Besprechungskonfigurationen erhalten standardmäßig, und der Name kann nicht geändert werden.
+- **Name** Besprechungs Konfigurationen werden standardmäßig benannt, und der Name kann nicht geändert werden.
 
-- **PSTN-Anrufer umgehen die lobby** Aktivieren Sie dieses Kontrollkästchen, um automatisch Benutzer, die in einwählen, um der Konferenz über eine public switched Telephone Network, (PSTN) Telefonleitung zuzulassen. Deaktivieren Sie dieses Kontrollkästchen, um PSTN-Anrufer in den Konferenzwartebereich weiterzuleiten und dort zu halten, bis ihnen der Konferenzreferent Zugang zur Besprechung gewährt.
+- **PSTN-Anrufer Bypass-Lobby** Aktivieren Sie dieses Kontrollkästchen, um die Benutzer, die sich bei der Konferenz einwählen, über eine Telefonleitung des öffentlichen Telefonnetzes (PSTN) automatisch zuzulassen. Deaktivieren Sie dieses Kontrollkästchen, um PSTN-Anrufer in den Konferenzwartebereich weiterzuleiten und dort zu halten, bis ihnen der Konferenzreferent Zugang zur Besprechung gewährt.
 
-- **Legen Sie als Referent** Wählen Sie die Kategorie von Benutzern (außer dem Organisator der Besprechung), die automatisch als Referenten festgelegt werden, wenn sie an eine Konferenz teilnehmen. Unabhängig von dieser Einstellung können Benutzer explizit als Referenten festgelegt werden, wenn die Konferenz geplant wird, oder sie können während der Konferenz explizit zu Referenten ernannt werden. Mögliche Optionen:
+- **Als Referent festlegen** Wählen Sie die Kategorie der Benutzer (außer dem Besprechungsorganisator) aus, die beim teilnehmen an einer Konferenz automatisch als Referenten festgelegt werden. Unabhängig von dieser Einstellung können Benutzer explizit als Referenten festgelegt werden, wenn die Konferenz geplant wird, oder sie können während der Konferenz explizit zu Referenten ernannt werden. Mögliche Optionen:
 
-  - **None** Wählen Sie diese Option aus, wenn keine andere Person als der Organisator automatisch als Referent festgelegt ist.
+  - **Keine** Wählen Sie diese Option aus, wenn kein anderer als der Organisator automatisch als Referent festgelegt ist.
 
-  - **Unternehmen** Wählen Sie diese Option, um nur Mitglieder Ihrer Organisation automatisch als Referenten festzulegen.
+  - **Unternehmen** Wählen Sie diese Option aus, um nur Mitglieder Ihrer Organisation automatisch als Referenten festzulegen.
 
-  - **Jeder** Wählen Sie diese Option, um automatisch alle Personen als Referenten festzulegen.
+  - **Alle Personen** Wählen Sie diese Option aus, um automatisch alle Personen als Referenten festzulegen.
 
-- **Konferenztyp standardmäßig zugewiesen** Dieser Einstellung wird gesteuert, ob das Outlook-Add-Konferenzen immer Konferenzen plant mithilfe der Organisator Konferenz zugewiesen, haben, d. h., die immer Konferenzen geplant, die dieselbe Join-URL und Zugriffsinformationen enthalten. Aktivieren Sie dieses Kontrollkästchen, geplante Konferenzen verwenden Sie dieselbe URL Join immer haben. Deaktivieren Sie dieses Kontrollkästchen, um einen anderen Join-URL für jede Konferenz verwenden.
+- **Standardmäßig zugewiesene Konferenztypen** Mit dieser Einstellung wird gesteuert, ob das Outlook-Konferenz-Add-in Konferenzen immer mithilfe der zugewiesenen Konferenz des Organisators plant, was bedeutet, dass geplante Konferenzen immer über die gleiche URL-und Audioinformationen für die Teilnahme verfügen. Aktivieren Sie dieses Kontrollkästchen, damit geplante Konferenzen immer dieselbe Join-URL verwenden. Deaktivieren Sie dieses Kontrollkästchen, um für jede Konferenz eine andere Join-URL zu verwenden.
 
-- **Anonyme Benutzer zulassen, standardmäßig** Aktivieren Sie dieses Kontrollkästchen, wenn anonyme (d. h., nicht authentifizierte) Benutzer an Konferenzen teilnehmen in der Standardeinstellung zulässig sind. Deaktivieren Sie dieses Kontrollkästchen, wenn anonyme Benutzer nicht standardmäßig zu Konferenzen zugelassen werden sollen.
+- **Standardmäßig anonyme Benutzer zulassen** Aktivieren Sie dieses Kontrollkästchen, wenn anonyme (nicht authentifizierte) Benutzer standardmäßig an Konferenzen teilnehmen dürfen. Deaktivieren Sie dieses Kontrollkästchen, wenn anonyme Benutzer nicht standardmäßig zu Konferenzen zugelassen werden sollen.
 
-- **Logo-URL** Geben Sie die URL mit dem Bild für benutzerdefinierte konferenzeinladungen verwendet werden soll.
+- **Logo-URL** Geben Sie die URL ein, die das Bild enthält, das für benutzerdefinierte Konferenzeinladungen verwendet werden soll.
 
-- **Hilfe-URL** Geben Sie die URL für eine Website, in dem Benutzer Hilfe zur Teilnahme an der Konferenz erhalten können.
+- **Hilfe-URL** Geben Sie die URL für eine Website ein, auf der Benutzer Unterstützung für die Teilnahme an der Konferenz erhalten können.
 
-- **URL zu rechtlichen** Geben Sie die URL für eine Website, die die rechtliche Hinweise und Haftungsausschlüsse für die Konferenz.
+- **URL für juristischen Text** Geben Sie die URL für eine Website mit den rechtlichen Informationen und Haftungsausschlüssen für die Konferenz ein.
 
-- **Benutzerdefinierter Fußzeilentext text** Geben Sie den Text für benutzerdefinierte konferenzeinladungen verwendet wird.
+- **Benutzerdefinierter Fußzeilentext** Geben Sie den Text ein, der für benutzerdefinierte Konferenzeinladungen verwendet werden soll.
 
 Ausführliche Informationen zur Verwendung von Besprechungskonfigurationen finden Sie in der Betriebsdokumentation unter [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx). Ausführliche Informationen zur Festlegung von Besprechungskonfigurationen für große Besprechungen finden Sie in der Planungsdokumentation unter [Setting Up Support for Large Meetings](https://technet.microsoft.com/library/8e22d34b-b395-408d-9d48-8f2a3abe9513.aspx).
 

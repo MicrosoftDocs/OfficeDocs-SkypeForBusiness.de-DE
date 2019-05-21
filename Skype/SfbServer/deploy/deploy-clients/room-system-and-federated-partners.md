@@ -3,19 +3,19 @@ title: Skype Room System- und Skype for Business-Verbundpartner
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie Skype Room System für Skype for Business-Verbundpartner einrichten.
-ms.openlocfilehash: 30668641f2c43981485531722861647fdeffc710
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f47659ce1fcf98e026eea3c4a1f38f74575235dc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895019"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291716"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype Room System- und Skype for Business-Verbundpartner
  
@@ -23,13 +23,13 @@ Lesen Sie dieses Thema, um zu erfahren, wie Sie Skype Room System für Skype 
   
 ## <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype Room System- und Skype for Business-Verbundpartner
 
-Skype Raum System nutzt die Teilnahme Skype für Business besprechungslink in der Besprechungsanfrage Kalender. Der Link für die Teilnahme ist normalerweise im Textkörper der Besprechungsanfrage zu finden. Skype Raum System hängt jedoch diesen Link, um in die MAPI-Eigenschaften der Nachricht vorhanden sein. Wenn diese Besprechungsanfrage werden an remote Organisationen (Skype für Geschäftspartner federated), standardmäßig gesendet die Remoteorganisation Skype Raum System wird nicht angezeigt, die die Teilnahme an einer Besprechung im Kalender zu verknüpfen. Tatsächlich Outlook-Benutzer, die in der Remoteorganisation nicht an die Skype für Business-Besprechung mit einem Klick rechts des Kalenders item oder aus teilnehmen können innerhalb einer besprechungserinnerung. Sie öffnen Besprechung einladen, und klicken Sie auf teilnehmen Skype für Business Besprechung im Textkörper der Nachricht. 
+Das Skype Room-System basiert auf dem Link "an Skype for Business-Besprechung teilnehmen" in der Besprechungsanfrage des Kalenders. Der Link für die Teilnahme ist normalerweise im Textkörper der Besprechungsanfrage zu finden. Das Skype Room-System hängt jedoch davon ab, dass dieser Link in den MAPI-Eigenschaften der Nachricht vorhanden ist. Wenn diese Besprechungsanfrage an Remote Organisationen (Skype for Business-Verbundpartner) gesendet wird, wird standardmäßig im Skype Room-System der Remoteorganisation der Link "Besprechungsteilnahme" im Kalender nicht angezeigt. In der Tat können Outlook-Benutzer in der Remoteorganisation mit einem Rechtsklick auf das Kalenderelement oder innerhalb der Besprechungserinnerung nicht an der Skype for Business-Besprechung teilnehmen. Sie müssen die Besprechungseinladung öffnen und im Textkörper der Nachricht auf an Skype for Business-Besprechung teilnehmen klicken. 
   
-Der Grund für dieses Einschränkung ist, dass Outlook und Microsoft Exchange keine spezielle Methode dafür kennen, Informationen für den Versand von Nachrichten über das Internet mit einzuschließen. Diese Methode, die als „Transport Neutral Encapsulation Format“ (TNEF) bezeichnet wird, ist für Nachrichten, die aus einem Exchange-Unternehmen extern versendet werden, standardmäßig deaktiviert. Für eine Besprechung teilnehmen Hyperlink einfügen auf einem Skype Raum Remotesystem, muss die sendende Organisation TNEF mithilfe des folgenden Befehls aktivieren:
+Der Grund für dieses Einschränkung ist, dass Outlook und Microsoft Exchange keine spezielle Methode dafür kennen, Informationen für den Versand von Nachrichten über das Internet mit einzuschließen. Diese Methode, die als „Transport Neutral Encapsulation Format“ (TNEF) bezeichnet wird, ist für Nachrichten, die aus einem Exchange-Unternehmen extern versendet werden, standardmäßig deaktiviert. Damit ein Link zur Besprechungsteilnahme in einem Remote-Skype-Raum System angezeigt wird, muss die sendende Organisation TNEF mithilfe des folgenden Befehls aktivieren:
   
 ```
 New-RemoteDomain -DomainName Contoso.com -Name Contoso
 Set-RemoteDomain -Identity Contoso -TNEFEnabled $true
 ```
 
-Nachdem TNEF für das Remote-Unternehmen aktiviert worden ist, wird jede über das Internet an das Unternehmen gesendete Nachricht als Anlage im TNEF-Format geschickt. Mit TNEF aktiviert Wenn eine Skype für wird Business Besprechungsanfrage gesendet, der Skype für Verbundpartner Business, Skype Raum System sind in der Lage, die Verknüpfung Skype für Business Besprechung Rendern und Remotebenutzer können Skype für Business-Besprechungen teilnehmen. 
+Nachdem TNEF für das Remote-Unternehmen aktiviert worden ist, wird jede über das Internet an das Unternehmen gesendete Nachricht als Anlage im TNEF-Format geschickt. Wenn die TNEF-Funktion aktiviert ist und eine Skype for Business-Besprechungsanfrage an den Skype for Business-Verbundpartner gesendet wird, kann Skype Room System die Teilnahme an Skype for Business-Besprechungen wiedergeben, und Remotebenutzer können an Skype for Business-Besprechungen teilnehmen. 

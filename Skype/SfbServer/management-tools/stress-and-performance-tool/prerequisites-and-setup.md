@@ -5,19 +5,19 @@ ms.author: v-lanac
 author: lanachin
 ms.date: 12/20/2018
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Anforderungen oder Voraussetzungen für Skype for Business Server 2015 Stress and Performance Tool. Installieren oder Setup des Stress and Performance Tool.
-ms.openlocfilehash: 51e83736ecc3d8f18937dee8e9fdbb5244662a2a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37aa89a0e6158b4623711ded8752eab2eb9d77ab
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906585"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299730"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Voraussetzungen und Setup für Skype for Business Stress and Performance Tool
  
@@ -55,11 +55,11 @@ Die folgenden Betriebssysteme werden für Stress and Performance Tool unterstüt
     
 Darüber hinaus müssen die Computer die folgenden Softwareanforderungen erfüllen:
   
-- Microsoft .NET 4.5 Framework muss installiert sein. [Laden Sie die .net 4.5 hier Framework.](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
+- Microsoft .NET 4.5 Framework muss installiert sein. [Laden Sie das .NET 4,5-Framework hier herunter.](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
     
 - In Windows muss die Funktion Desktopdarstellung aktiviert sein.
     
-- Microsoft Visual C++ 2013 (x64) muss installiert sein. [Visual C++-2013 hier herunterladen](https://www.microsoft.com/en-us/download/details.aspx?id=40784)
+- Microsoft Visual C++ 2013 (x64) muss installiert sein. [Visual C++ 2013 hier herunterladen](https://www.microsoft.com/en-us/download/details.aspx?id=40784)
     
 - Skype for Business Server 2015 muss erfolgreich bereitgestellt sein.
     
@@ -81,6 +81,6 @@ Außerdem müssen Sie diese Konfigurationen vornehmen, um Stress and Performance
 
 Die Installation ist ganz einfach. Sie müssen auf jedem Computer, auf dem Sie Benutzerdatenverkehr simulieren möchten, sowie auf einem Front-End-Server in jedem Pool, in dem Sie Benutzer und Kontakte erstellen werden, die Windows Installer-Datei **CapacityPlanningTool.msi** ausführen.
   
-Laden Sie die MSI-Datei zusammen mit der Beispielskripts in unsere anderen Artikeln erwähnten finden Sie auf den Link Download Center: [Skype für Business Server 2015, Stress and Performance-Tool](https://www.microsoft.com/download/details.aspx?id=50367).
+Wenn Sie die MSI-Datei zusammen mit den Beispielskripts, die in unseren anderen Artikeln erwähnt werden, herunterladen möchten, wechseln Sie zum Download Center-Link: [Skype for Business Server 2015, Stress-und Leistungs Tool](https://www.microsoft.com/download/details.aspx?id=50367).
   
 

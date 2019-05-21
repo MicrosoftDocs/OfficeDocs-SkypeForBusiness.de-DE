@@ -1,5 +1,5 @@
 ---
-title: Was ist mein Abrechnung Telefonnummer?
+title: Was ist meine Abrechnungs Telefonnummer?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,19 +20,19 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoBTN
 ms.custom:
 - Calling Plans
-description: Hier erfahren Sie, was Ihre Skype für geschäftliche Telefonnummer Abrechnung ist, und wechseln um zu Schritt-für-Schritt-Anleitung zum Übertragen von einer Zahl zu erhalten.
-ms.openlocfilehash: b0eb2d3b2a4740759b2ea13eb5cddb1691392a48
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Erfahren Sie, was Ihre Skype for Business-Abrechnungs Telefonnummer ist und wohin Sie gehen, um Schritt-für-Schritt-Anleitungen für die Übertragung einer Nummer zu erhalten.
+ms.openlocfilehash: 1cb6bcca487f1b6b39dd4c2a7a22d7cd76acc891
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229615"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290782"
 ---
-# <a name="what-is-my-billing-telephone-number"></a>Was ist mein Abrechnung Telefonnummer?
+# <a name="what-is-my-billing-telephone-number"></a>Was ist meine Abrechnungs Telefonnummer?
 
-Die Art der Rechnungslegung Telefonnummer (BTN) ist die Haupttelefonnummer des, die auf Ihrer Abrechnung einbezogen und Fern-oder Ihrem Dienstanbieter oder Netzbetreiber ist. Wenn Sie eine Rufnummer aus einem Konto, die nur eine Telefonnummer verfügt übertragen, müssen Sie diese Rufnummer in platzieren. Wenn Sie Telefonnummern über ein Konto, die mehr als eine hat übertragen, können Sie sehen Sie sich Ihre Rechnung oder wenden Sie sich an Ihrem Dienstanbieter oder Netzbetreiber, um zu ermitteln, was die Art der Rechnungslegung Telefonnummer für Ihr Konto ist.
+Die Abrechnungs Telefonnummer (BTN) ist die Haupttelefonnummer, die auf Ihrer Rechnung enthalten ist und von Ihrem Dienstanbieter oder Netzbetreiber in Rechnung gestellt wird. Wenn Sie eine Telefonnummer von einem Konto übertragen, das nur eine Telefonnummer hat, müssen Sie diese Telefonnummer eingeben. Wenn Sie Telefonnummern von einem Konto übertragen, das mehr als eine hat, können Sie sich Ihre Rechnung ansehen oder sich an Ihren Dienstanbieter oder Netzbetreiber wenden, um festzustellen, welche Abrechnungs Telefonnummer für Ihr Konto gilt.
   
- **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ **Eine vollständige Schritt-für-Schritt-Anleitung finden Sie unter [übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

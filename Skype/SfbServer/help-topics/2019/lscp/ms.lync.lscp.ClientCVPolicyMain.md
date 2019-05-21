@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientCVPolicyMain
@@ -13,22 +13,22 @@ localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie können die Version von Clients angeben, die in Ihrer Umgebung unterstützt werden. Wenn zwei Clients unterschiedlicher Versionen interagieren, können die für einen der Clients verfügbaren Funktionen durch die Funktionen des anderen Clients eingeschränkt werden.
-ms.openlocfilehash: c017abec4c71573ba468b2a3fab1c9844e7fe63b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 42390f18bef702b5e7546d170aaa1a83e8394e0e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891852"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300531"
 ---
 # <a name="client-version-policy"></a>Clientversionsrichtlinie
 
-Sie können die Version von Clients angeben, die in Ihrer Umgebung unterstützt werden. Wenn zwei Clients unterschiedlicher Versionen interagieren, können die für einen der Clients verfügbaren Funktionen durch die Funktionen des anderen Clients eingeschränkt werden. Die größte Nutzung der Features in Skype für Business Server und zur Verbesserung der benutzerfreundlichkeit können den clientversionsfilter Sie um die Clientversionen, die verwendet werden in Ihrer Umgebung zu beschränken. Mit dem Clientversionsfilter können Sie außerdem die Kosten senken, die aufgrund der Unterstützung mehrerer Clientversionen anfallen.
+Sie können die Version von Clients angeben, die in Ihrer Umgebung unterstützt werden. Wenn zwei Clients unterschiedlicher Versionen interagieren, können die für einen der Clients verfügbaren Funktionen durch die Funktionen des anderen Clients eingeschränkt werden. Um die in Skype for Business Server enthaltenen Funktionen optimal zu nutzen und die allgemeine Benutzerfreundlichkeit zu verbessern, können Sie den Clientversionsfilter verwenden, um die Clientversionen zu beschränken, die in Ihrer Umgebung verwendet werden. Mit dem Clientversionsfilter können Sie außerdem die Kosten senken, die aufgrund der Unterstützung mehrerer Clientversionen anfallen.
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
 Auf der Seite **Clientversionsrichtlinie** können Sie die folgenden Aufgaben ausführen:
 
-- Bearbeiten Sie die Standardeinstellung ( **Global**) clientversionsrichtlinie.
+- Bearbeiten Sie die standardmäßige clientversionsrichtlinie ( **Global**).
 
 - Erstellen von Clientversionsrichtlinien für einen bestimmten Standort oder Pool
 
@@ -41,7 +41,7 @@ Auf der Seite **Clientversionsrichtlinie** können Sie die folgenden Aufgaben au
 
 In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.
 
-- **Neue** Sie können eine oder mehrere der folgenden clientversionsrichtlinien erstellen:
+- **Neu** Sie können eine oder mehrere der folgenden clientversionsrichtlinien erstellen:
 
   - Standortrichtlinie
 
@@ -49,15 +49,15 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 
   - Benutzerrichtlinie
 
-- **Bearbeiten** Sie können die Optionen aller clientversionsrichtlinien ändern. Mit dieser Option haben Sie folgende Möglichkeiten:
+- **Bearbeiten** von Sie können die Optionen für eine der clientversionsrichtlinien ändern. Mit dieser Option haben Sie folgende Möglichkeiten:
 
-  - **Details anzeigen** Diese Option öffnet ein Dialogfeld, in dem Sie die Optionen für eine clientversionsrichtlinie ändern können.
+  - **Details anzeigen** Mit dieser Option wird ein Dialogfeld geöffnet, in dem Sie die Optionen für eine clientversionsrichtlinie ändern können.
 
-  - **Wählen Sie alle** Diese Option werden alle clientversionsrichtlinien der Liste ausgewählt.
+  - **Alle auswählen** Mit dieser Option werden alle clientversionsrichtlinien in der Liste ausgewählt.
 
-  - **Löschen** Diese Option werden alle ausgewählten clientversionsrichtlinien gelöscht.
+  - **Löschen** Mit dieser Option werden alle ausgewählten clientversionsrichtlinien gelöscht.
 
-- **Aktualisieren** Sie können die Liste Client Version Richtlinie zum Überprüfen des Status der Optionen aller clientversionsrichtlinien aktualisieren.
+- **Aktualisieren** Sie können die Liste der clientversionsrichtlinien aktualisieren, um den Status der Optionen aller clientversionsrichtlinien zu überprüfen.
 
-Ausführliche Informationen zur Interoperabilität zwischen Clients und Clientversionen finden Sie unter [Client Interoperability](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Clientversionsrichtlinien finden Sie in der Betriebsdokumentation unter [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx).
+Details zur Interoperabilität zwischen Clients und Clientversionen finden Sie unter [Client Interoperabilität](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Clientversionsrichtlinien finden Sie in der Betriebsdokumentation unter [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx).
 

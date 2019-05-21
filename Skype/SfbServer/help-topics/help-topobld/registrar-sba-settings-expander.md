@@ -5,33 +5,33 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.RegistrarSBASettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
-description: 'Sie bearbeiten die Einstellungen für Flexibilität und konfigurieren Sie die folgenden Eigenschaften:'
-ms.openlocfilehash: caac7c2e8b4f5e08ef4051f092f7a02d6762c308
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Sie bearbeiten die Einstellungen für die Widerstandsfähigkeit und konfigurieren die folgenden Eigenschaften:'
+ms.openlocfilehash: dc5f207653142374fce00cdc774bc3a88fcea1b6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910277"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306468"
 ---
 # <a name="registrar-sba-settings-expander"></a>SBA-Einstellungen der Registrierungsstelle – Erweiterung
 
-Sie bearbeiten die Einstellungen für **Flexibilität** und konfigurieren Sie die folgenden Eigenschaften:
+Sie bearbeiten die Einstellungen für die **Widerstandsfähigkeit** und konfigurieren die folgenden Eigenschaften:
 
-- Wählen Sie **zugeordneter Benutzerdienst und Sicherungsregistrierungsstellen-Pool** aus der Liste aus.
+- Wählen Sie in der Liste **zugeordneter Benutzer Dienst und sicherungsregistrierungspool** aus.
 
     Aktivieren Sie optional das Kontrollkästchen **Automatisches Failover und Failback für VoIP** .
 
-    Konfigurieren der **VoIP-Fehler Erkennung Intervall (s)** und **VoIP Failback Intervall (s)**. Standardmäßig sind die Intervalle 120 für die Erkennung von VoIP-Fehlern und 240 Sekunden für VoIP Failback.
+    Konfigurieren Sie das **Erkennungsintervall für Sprachfehler (SEK)** und das **sprach-Failback-Intervall (SEK)**. Standardmäßig sind die Intervalle 120 Sekunden für die Sprachfehler Erkennung und 240 Sekunden für sprach-Failback.
 
     > [!CAUTION]
-    > Die Anzahl der Sekunden an, denen Sie für die Intervalle Failover und Failback definieren sollten sorgfältig getestet werden, um sicherzustellen, dass die Resiliency wie erwartet funktioniert. Festlegen des Intervalls auf Niedrig (d. h., kleiner als 120 Sekunden) oder das Failover und Failback festlegen zu stark möglicherweise in den tatsächlichen Failover und Failback funktioniert nicht wie erwartet.
+    > Die Anzahl der Sekunden, die Sie für die Failover-und Failback-Intervalle definieren, sollten sorgfältig getestet werden, um sicherzustellen, dass die Widerstandsfähigkeit wie erwartet funktioniert. Wenn Sie das Intervall auf "gering" (also weniger als 120 Sekunden) oder das Failover und die Failback-Einstellung zu eng festlegen, kann dies zu einem tatsächlichen Failover und Failback führen, die nicht erwartungsgemäß funktionieren.
 
   **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
 
@@ -41,4 +41,4 @@ Sie bearbeiten die Einstellungen für **Flexibilität** und konfigurieren Sie di
 
 ## <a name="see-also"></a>Siehe auch
 
-[Planen von Enterprise-VoIP-Ausfallsicherheit](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+[Planung für Enterprise-VoIP-Resilienz](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)

@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -23,14 +23,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. '
-ms.openlocfilehash: 44e51b8bcc72798b1c4b40a41383826de1a74291
-ms.sourcegitcommit: ee05fe02fe68b5bd6ee38dd4a3ad69da3d37c492
+ms.openlocfilehash: afcb0243144784929e8516308084fda791b0bcec
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34106292"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291537"
 ---
-# <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Einschalten und Aufrufen Qualitätsdashboard für Microsoft-Teams und Skype für Business Online
+# <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online
 
 Hier erfahren Sie, wie Sie Ihre Office 365-Organisation konfigurieren können, um das Anrufqualitäts-Dashboard zur Überwachung der Anrufqualität zu verwenden.
   
@@ -45,34 +45,34 @@ Dies sind die neuesten Änderungen am AQD:
     
 - Zusammenfassungsberichte enthalten einen Produktfilter, mit dem Sie alle Daten, Microsoft Teams-Daten oder Skype for Business Online-Daten auswählen können.
 
-- Video und VBSS Stream Qualität Klassifizierung Logik wurde aktualisiert. Die neuesten Klassifizierung Definitionen finden Sie unter [Stream-Klassifizierung Qualität Dashboards aufrufen](stream-classification-in-call-quality-dashboard.md) .
+- Die Klassifizierungs Logik für Video-und schlechte VBSS-Streams wurde aktualisiert. Informationen zu den neuesten klassifizierungsdefinitionen finden Sie unter [Stream-Klassifizierung im Anruf Qualitäts Dashboard](stream-classification-in-call-quality-dashboard.md) .
 
-Finden Sie in diesem Artikel finden Sie eine Liste von [Dimensionen und Measures in Aufrufen Qualitätsdashboard zur Verfügung](dimensions-and-measures-available-in-call-quality-dashboard.md).
+In diesem Artikel finden Sie eine Liste der [Dimensionen und Measures, die im Dashboard für die Anrufqualität zur Verfügung stehen](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 > [!NOTE]
-> Informationen zu Updates und Änderungen an das Dashboard finden Sie durch Klicken auf den Link in der **daran!** Banner auf das Dashboard angezeigt wird.
+> Informationen zu Updates und Änderungen am Dashboard finden Sie, indem Sie auf den Link in den **guten Nachrichten klicken.** Banner, wenn es auf dem Dashboard angezeigt wird.
   
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Aktivieren von Zusammenfassungsberichten des Microsoft-Anrufqualitäts-Dashboards (AQD)
 
 Bevor Sie mit der Verwendung des AQD beginnen können, müssen Sie es für Ihre Office 365-Organisation aktivieren.
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
+![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center**
  
-1. Melden Sie sich bei Office 365-Organisation mit Microsoft-Teams-Admin-Dienstkonto, und wählen Sie dann die **Admin** -Kachel, um das Administrationscenter zu öffnen.
+1. Registrieren Sie sich bei Ihrer Office 365-Organisation mit dem Microsoft Teams-Dienstadministratorkonto, und wählen Sie dann die Kachel **Administrator** aus, um das Admin Center zu öffnen.
     
-2. Wählen Sie im linken Bereich unter **Admin centers**, **Microsoft-Teams,** das Microsoft-Teams, Administrationscenter zu öffnen.
+2. Wählen Sie im linken Bereich unter **Admin Center**die Option **Microsoft Teams** aus, um das Microsoft Teams Admin Center zu öffnen.
     
-3. Wählen Sie in der Verwaltungskonsole von Microsoft-Teams im linken Bereich **Qualitätsdashboard aufrufen** .
+3. Wählen Sie im Microsoft Teams Admin Center im linken Bereich **Anruf qualitätsdashboard** aus.
     
   
-4. Klicken Sie auf der Seite, die geöffnet wird, melden Sie sich mit Ihrer globalen Administratorkonto oder Microsoft Teams Dienstadministrator Konto, und geben Sie die Anmeldeinformationen für das Konto, wenn Sie aufgefordert werden.
+4. Melden Sie sich auf der daraufhin geöffneten Seite mit ihrem globalen Administrator Konto oder dem Microsoft Teams-Dienstadministratorkonto an, und geben Sie die Anmeldeinformationen für das Konto ein, wenn Sie dazu aufgefordert werden.
     
      ![CQD Login](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
-Nach der Anmeldung einmal aktiviert ist, beginnt die CQD sammeln und Verarbeitung von Daten.  
+Nachdem Sie sich angemeldet haben, wird die CQD nach der Aktivierung mit dem sammeln und Verarbeiten von Daten beginnen.  
 > [!NOTE]
 > Es kann einige Stunden dauern, bis genügend Daten verarbeitet worden sind, um in den Berichten aussagekräftige Ergebnisse anzuzeigen. 
 
-![SFB-Logo-30x30.png](media/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
  
 1. Melden Sie sich mit einem Administratorkonto bei Ihrer Office 365-Organisation an, und wählen Sie dann die Kachel **Admin** aus, um das Admin Center zu öffnen.
     
@@ -82,15 +82,15 @@ Nach der Anmeldung einmal aktiviert ist, beginnt die CQD sammeln und Verarbeitun
     
      ![Skype for Business tools](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
   
-4. Klicken Sie auf der Seite, die geöffnet wird, melden Sie sich mit Ihrem globale Administratorkonto ein, und geben Sie die Anmeldeinformationen für das Konto, wenn Sie aufgefordert werden.
+4. Melden Sie sich auf der daraufhin geöffneten Seite mit ihrem globalen Administrator Konto an, und geben Sie die Anmeldeinformationen für das Konto ein, wenn Sie dazu aufgefordert werden.
     
      ![CQD Login](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
-Nach der Anmeldung einmal aktiviert ist, beginnt die CQD sammeln und Verarbeitung von Daten.
+Nachdem Sie sich angemeldet haben, wird die CQD nach der Aktivierung mit dem sammeln und Verarbeiten von Daten beginnen.
 
 
   
-## <a name="features-of-the-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Features des Anrufqualität Dashboard für Microsoft-Teams und Skype für Unternehmen Online 
+## <a name="features-of-the-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Features des Anruf Qualitäts Dashboards für Microsoft Teams und Skype for Business Online 
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
 CQD-Zusammenfassungsberichte bieten eine Reihe von Funktionen, die für detaillierte Berichte geplant sind. Die Unterschiede zwischen den zwei Versionen werden hier zusammengefasst:
@@ -99,7 +99,7 @@ CQD-Zusammenfassungsberichte bieten eine Reihe von Funktionen, die für detailli
 |:-----|:-----|:-----|
 |Anwendungsfreigabemetrik  <br/> |Nein  <br/> |Ja  <br/> |
 |Unterstützung von Kunden-Gebäudeinformationen  <br/> |Ja  <br/> |Ja  <br/> |
-|Support für Kunden Endpunkt Informationen  <br/> |Nur in cqd.teams.microsoft.com  <br/> |Nur in cqd.teams.microsoft.com  <br/> |
+|Support für Kunden Endpunktinformationen  <br/> |Nur in CQD.Teams.Microsoft.com  <br/> |Nur in CQD.Teams.Microsoft.com  <br/> |
 |Drilldown-Analyse-Support  <br/> |Nein  <br/> |Ja  <br/> |
 |Medienzuverlässigkeitsmetriken  <br/> |Nein  <br/> |Ja  <br/> |
 |Sofort einsatzbereite Berichte  <br/> |Ja  <br/> |Ja  <br/> |
@@ -137,9 +137,9 @@ Verwenden Sie die Daten auf dieser Registerkarte, um den Status und die Trends d
   
 ![CQD Data key](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-Streams are classified in three groups: Good, Poor, and Unclassified. Es sind auch berechneten Werte *schlechter %* , mit denen Sie das Verhältnis von Datenströmen als *schlechte* der Anzahl insgesamt geschützte Stream klassifiziert. Since *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*  , this makes the *Poor %*  unaffected by the presence with multiple *Unclassified*  streams. Was für die Klassifizierung eines Stream-Objekts als schlecht oder eine gute verwendet wird finden Sie unter [Stream-Klassifizierung Qualität Dashboards aufrufen](stream-classification-in-call-quality-dashboard.md).
+Streams are classified in three groups: Good, Poor, and Unclassified. Es gibt auch berechnete *schlechte%* -Werte, die Ihnen das Verhältnis der als *schlecht* klassifizierten Streams zur Gesamtanzahl der klassifizierten Datenströme geben. Since *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*  , this makes the *Poor %*  unaffected by the presence with multiple *Unclassified*  streams. Informationen dazu, was für die Klassifizierung eines Datenstroms als "schlecht" oder "gut" verwendet wird, finden Sie unter [Stream-Klassifizierung im Dashboard für die Anrufqualität](stream-classification-in-call-quality-dashboard.md).
   
-Verwenden Sie die Skala auf der linken Seite, um den Datenstrom zählen von Werten zu messen.
+Verwenden Sie die Skalierung auf der linken Seite, um die Werte für die Datenstromanzahl zu messen.
   
 ![CQD data count](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
   
@@ -154,7 +154,7 @@ Sie erhalten auch die tatsächlichen numerischen Werte, indem Sie mit der Maus �
   
 ![CQD Data numeric](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
   
-Das gesamte Datenstromvolumen ist ein wichtiger Faktor bei der Bestimmung der Relevanz der berechneten Prozentsätze für die Klassifizierung „Schlecht". Der kleinere der Lautstärke des allgemeinen Datenströme, die weniger zuverlässig sind die folgenden Werte gemeldeten schlechter Prozentsatz.
+Das gesamte Datenstromvolumen ist ein wichtiger Faktor bei der Bestimmung der Relevanz der berechneten Prozentsätze für die Klassifizierung „Schlecht". Je kleiner die Gesamtmenge der Datenströme ist, desto weniger zuverlässig sind die gemeldeten schlechten Prozentwerte.
   
 ### <a name="server-client-tab-and-client-client-tabs"></a>Registerkarten „Server-Client" und „Client-Client"
 
@@ -170,7 +170,7 @@ Diese zwei Registerkarten bieten zusätzliche Details für die Datenströme, die
     
 #### <a name="inside-test"></a>Innentest
 
-Bei der Verarbeitung klassifiziert das AQD-Back-End einen Datenstrom als  *Innen*  oder *Außen*  anhand von Gebäudeinformationen, falls diese vorhanden sind. Die Endpunkte jedes Datenstroms sind einer Subnetzadresse zugeordnet. Wenn das Subnetz in der Liste der Subnetze in der hochgeladenen Informationen zum Erstellen von InsideCorp gekennzeichnet ist, wird es *in*betrachtet. Wenn erstellen Informationen nicht noch hochgeladen wurde, wird in Test immer die Datenströme als *externe*klassifizieren. Beachten Sie, dass beim Innentest für das Server-Client-Szenario nur der Clientendpunkt berücksichtigt wird. Da sich Server aus der Perspektive des Benutzers stets außerhalb befinden, werden sie beim Test nicht berücksichtigt.
+Bei der Verarbeitung klassifiziert das AQD-Back-End einen Datenstrom als  *Innen*  oder *Außen*  anhand von Gebäudeinformationen, falls diese vorhanden sind. Die Endpunkte jedes Datenstroms sind einer Subnetzadresse zugeordnet. Wenn sich das Subnetz in der Liste der Subnetze befindet, die in den hochgeladenen Gebäudeinformationen als InsideCorp markiert sind, wird es im *Innern*berücksichtigt. Wenn die Gebäudeinformationen noch nicht hochgeladen wurden, werden die Datenströme von Inside Test immer als *außerhalb*klassifiziert. Beachten Sie, dass beim Innentest für das Server-Client-Szenario nur der Clientendpunkt berücksichtigt wird. Da sich Server aus der Perspektive des Benutzers stets außerhalb befinden, werden sie beim Test nicht berücksichtigt.
   
 #### <a name="wired-vs-wifi"></a>Verkabelt oder WLAN
 
@@ -186,24 +186,24 @@ In den Zusammenfassungsberichten und erweiterten Standortberichten können Sie m
   
 ![Screenshot shows the Product Filter control with options for All, Microsoft Teams, and Skype for Business.](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
-In ausführliche Berichte können Sie die Dimension **Teams ist** zum Filtern der Daten zu Microsoft-Teams oder Skype für Business Online-Daten als Teil der Definition des Berichts.
+In detaillierten Berichten können Sie die **is Teams** -Dimension verwenden, um die Daten im Rahmen der Berichtsdefinition nach Microsoft Teams oder Skype for Business Online-Daten zu filtern.
   
-## <a name="upload-tenant-data-information"></a>Mandantendaten Informationen uploaden
+## <a name="upload-tenant-data-information"></a>Hochladen von Mandantendaten Informationen
 <a name="BKMKTenantDataInformationUpload"></a>
 
-Das Dashboard CQD Zusammenfassung Berichte enthält eine Seite **Mandanten Daten hochladen** , durch Auswahl der **Mandant Hochladen von Daten** im Einstellungsmenü in der oberen rechten Ecke zugegriffen. Diese Seite ist für Administratoren zum Hochladen von ihren eigenen Informationen, wie Zuordnung von IP-Adresse und geografische Informationen, zuordnen jeder drahtlosen Zugriffspunkt und die MAC-Adresse, die Zuordnung des Endpunkts auf stellen/Modell/Endpunkttyp usw. verwendet.
+Das Dashboard für CQD-Zusammenfassungsberichte enthält eine Seite für **Mandantendaten Upload** , auf die durch Auswählen von **Mandantendaten Upload** im Menü Einstellungen in der oberen rechten Ecke zugegriffen wird. Diese Seite wird für Administratoren verwendet, um Ihre eigenen Informationen hochzuladen, wie etwa die Zuordnung von IP-Adresse und geografischen Informationen, die Zuordnung der einzelnen Drahtloszugriffs Rechte und deren Mac-Adresse, die Zuordnung des Endpunkts zu einem Endpunkt/Modell/Typ usw.
   
 ![CQD Dashboard](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
-1. Verwenden Sie auf der Seite **Mandanten Hochladen von Daten** im Dropdown-Menü, um einen Datentyp für die Datei zum Hochladen auswählen. Der Datentyp der Datei gibt den Inhalt der Datei (beispielsweise "Building" verweist auf die Zuordnung der IP-Adresse und building sowie andere geografische Informationen, "Endpunkt" verweist auf die Zuordnung von Endpunktname an Stellen/Modell/Endpunkttyp... Informationen). Derzeit unterstützt hochladen "Erstellen" und "Endpunkt" Datentypen für cqd.teams.microsoft.com (Preview Freigabefenster und nicht offiziell verfügbar noch), cqd.lync.com unterstützt nur das Hochladen Datentyp "Building". Einige weitere Datentypen werden den nachfolgenden Versionen hinzugefügt.
+1. Verwenden Sie auf der Seite **Mandantendaten Upload** das Dropdownmenü, um einen Datendateityp für den Upload auszuwählen. Der Datentyp "Datei" gibt den Inhalt der Datei an (beispielsweise "Building" bezieht sich auf die Zuordnung von IP-Adresse und Gebäude sowie andere geografische Informationen, "Endpunkt" bezieht sich auf die Zuordnung von Endpunkt Name zu Endpunkt erstellen/Modell/Typ... Informationen). Derzeit unterstützen wir die Upload-Datentypen "Building" und "Endpoint" für CQD. Teams. Microsoft. com (in der Preview-Phase, die noch nicht offiziell verfügbar sind), CQD.lync.com unterstützt nur den Upload "Building"-Datentyp. Einige weitere Datentypen werden mit nachfolgenden Versionen hinzugefügt.
     
 2. Klicken Sie nach Auswahl des Dateidatentyps auf **Durchsuchen**, um eine Datendatei auszuwählen.
     
-   - Bei der Datendatei muss es sich um eine TSV-Datei (Datei mit tabulatorgetrennten Werten) oder eine CSV-Datei (Datei mit durch Trennzeichen getrennten Werten) handeln. Wenn Sie eine CSV-Datei verwenden, wird jedes Feld, das ein Komma enthält müssen von Anführungszeichen umgeben sein oder Komma entfernt haben. Beispiel: Wenn Ihr Gebäudename NY,NY lautet, muss er in der CSV-Datei als „NY,NY" eingegeben werden.
+   - Bei der Datendatei muss es sich um eine TSV-Datei (Datei mit tabulatorgetrennten Werten) oder eine CSV-Datei (Datei mit durch Trennzeichen getrennten Werten) handeln. Wenn Sie eine CSV-Datei verwenden, müssen alle Felder, die ein Komma enthalten, in Anführungszeichen gesetzt oder das Komma entfernt werden. Beispiel: Wenn Ihr Gebäudename NY,NY lautet, muss er in der CSV-Datei als „NY,NY" eingegeben werden.
     
    - Die Datendatei darf maximal 50 MB groß sein.
 
-   - Datei in cqd.teams.microsoft.com hochgeladen wurde erweitert, Zeile Grenze von 1.000.000, um die Leistung von Abfragen zu beschleunigen. Wir können diese Grenze auf cqd.lync.com sowie vorsehen.
+   - Datei, die in CQD.Teams.Microsoft.com hochgeladen wurde, hat eine erweiterte Zeilenbeschränkung von 1 Million, um die Abfrageleistung zu beschleunigen. Wir können diese Beschränkung auch auf CQD.lync.com erzwingen.
     
    - Bei jeder Datendatei muss jede Spalte in der Datei einem vordefinierten Datentyp entsprechen, der später in diesem Thema besprochen wird.
     
@@ -217,15 +217,15 @@ Das Dashboard CQD Zusammenfassung Berichte enthält eine Seite **Mandanten Daten
   
 5. Falls während der Validierung keine Fehler auftreten, war der Dateiupload erfolgreich. Sie können die hochgeladene Datendatei in der Tabelle **Meine Uploads** anzeigen. Dort wird eine vollständige Liste aller hochgeladenen Dateien für den aktuellen Mandanten unten auf der Seite angezeigt.
     
-    Jeder Datensatz zeigt eine hochgeladene Mandanten Datendatei mit Dateityp, zuletzt aktualisiert, Zeitraum, Beschreibung, eines Symbols entfernen und ein Symbol. Um eine Datei zu entfernen, wählen Sie das Papierkorbsymbol in der Tabelle aus. Um eine Datei herunterzuladen, wählen Sie das Downloadsymbol in der Spalte **Download** der Tabelle aus.
+    Jeder Datensatz zeigt eine geuploadete Mandanten Datendatei mit dem Dateityp, dem letzten Aktualisierungszeitpunkt, dem Zeitraum, der Beschreibung, dem Symbol "entfernen" und einem Download Symbol. Um eine Datei zu entfernen, wählen Sie das Papierkorbsymbol in der Tabelle aus. Um eine Datei herunterzuladen, wählen Sie das Downloadsymbol in der Spalte **Download** der Tabelle aus.
     
      ![CQD My Uploads table](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
   
-### <a name="tenant-data-file-format-and-structure"></a>Mandanten-Dateiformat und Struktur
+### <a name="tenant-data-file-format-and-structure"></a>Mandantendaten Dateiformat und-Struktur
 <a name="BKMKTenantDataFile"> </a>
 
-### <a name="building-data-file"></a>Erstellen von-Datendatei
-CQD verwendet zum Erstellen von Datendatei vom ersten abgeleitet Subnetz Spalte erweiterbare Netzwerk + NetworkRange Spalte, und klicken Sie dann auf zu verknüpfende Subnetz-Spalte auf den Anruf Datensatz erste Subnet/Second Subnetz Spalte zum Erstellen von/Stadt/Land/Region anzeigen... Informationen. Das Format der Datei, die Sie hochladen, muss folgende Bedingungen erfüllen, um die Validierungsprüfung vor dem Hochladen zu bestehen.
+### <a name="building-data-file"></a>Erstellen einer Datendatei
+CQD verwendet die Gebäudedaten Datei, indem Sie zunächst die Spalte Subnet aus der Spalte Netzwerk + NetworkRange erweitern und dann Subnet-Spalte zur ersten Subnet/Second Subnet-Spalte des Anrufeintrags hinzugefügt, um "Gebäude/Ort/Land/Region" anzuzeigen. Informationen. Das Format der Datei, die Sie hochladen, muss folgende Bedingungen erfüllen, um die Validierungsprüfung vor dem Hochladen zu bestehen.
   
 - Bei der Datei muss es sich um eine TSV-Datei (die Spalten in den einzelnen Zeilen werden durch Tabstopps getrennt) oder um eine CSV-Datei (alle Spalten werden durch Trennzeichen getrennt) handeln.
     
@@ -233,18 +233,18 @@ CQD verwendet zum Erstellen von Datendatei vom ersten abgeleitet Subnetz Spalte 
     
 - In jeder Spalte kann der Datentyp nur eine Zeichenfolge, eine Zahl oder der boolesche Datentyp sein. Falls es eine Zahl ist, muss es sich um einen numerischen Wert handeln; falls es der boolesche Datentyp ist, muss der Wert entweder 0 oder 1 betragen.
     
-- Für jede Spalte ist der Datentyp String, die Daten können leer sein (aber dennoch durch eine entsprechende Trennzeichen (d. h., Registerkarte oder Komma) getrennt werden müssen. Dadurch wird dem Feld eine leere Zeichenfolge zugewiesen.
+- Wenn es sich bei dem Datentyp um eine Zeichenfolge handelt, können die Daten für jede Spalte leer sein (müssen aber immer noch durch ein entsprechendes Trennzeichen getrennt werden (also Tabstopp oder Komma). Dadurch wird dem Feld eine leere Zeichenfolge zugewiesen.
     
-- 14 Spalten für jede Zeile vorhanden sein muss, muss jeder Spalte die folgenden Daten Typ und die Spalten in der angegebenen Reihenfolge aus, in der folgenden Tabelle werden müssen:
+- Es müssen 14 Spalten für jede Zeile vorhanden sein, jede Spalte muss den folgenden Datentyp aufweisen, und die Spalten müssen in der in der folgenden Tabelle aufgelisteten Reihenfolge liegen:
     
 |**Spaltenname**|**Datentyp**|**Beispiel**|
 |:-----|:-----|:-----|
 |Netzwerk  <br/> |Zeichenfolge  <br/> |192.168.1.0  <br/> |
-|Netzwerkname  <br/> |Zeichenfolge  <br/> |USA/Seattle/SEATTLE-SEA-1  <br/> |
+|NetworkName  <br/> |Zeichenfolge  <br/> |USA/Seattle/SEATTLE-SEA-1  <br/> |
 |NetworkRange  <br/> |Zahl  <br/> |26  <br/> |
 |BuildingName  <br/> |Zeichenfolge  <br/> |SEATTLE-SEA-1  <br/> |
-|OwnershipType  <br/> |Zeichenfolge  <br/> |Contoso  <br/> |
-|BuildingType  <br/> |Zeichenfolge  <br/> |IT Termination  <br/> |
+|Ownershiptype  <br/> |Zeichenfolge  <br/> |Contoso  <br/> |
+|Buildingtype  <br/> |Zeichenfolge  <br/> |IT Termination  <br/> |
 |BuildingOfficeType  <br/> |Zeichenfolge  <br/> |Engineering  <br/> |
 |Ort  <br/> |Zeichenfolge  <br/> |Seattle  <br/> |
 |ZipCode  <br/> |Zeichenfolge  <br/> |98001  <br/> |
@@ -252,43 +252,43 @@ CQD verwendet zum Erstellen von Datendatei vom ersten abgeleitet Subnetz Spalte 
 |Bundesland  <br/> |Zeichenfolge  <br/> |WA  <br/> |
 |Region  <br/> |Zeichenfolge  <br/> |MSUS  <br/> |
 |InsideCorp  <br/> |Bool  <br/> |1  <br/> |
-|ExpressRoute  <br/> |Bool  <br/> |0  <br/> |
+|Express Route  <br/> |Bool  <br/> |0  <br/> |
    
 > [!IMPORTANT]
-> Der Netzwerkbereich kann zur Darstellung eines Supernetzes (einer Kombination aus mehreren Subnetzen mit einem einzelnen Routing-Präfix) verwendet werden. Alle neuen Gebäude-Uploads werden auf sich überlappende Bereiche hin untersucht. Wenn Sie zuvor eine Gebäudedatei hochgeladen haben, sollten Sie die aktuelle Datei herunterladen und erneut hochladen, um mögliche Überlappungen zu identifizieren und das Problem vor dem erneuten Hochladen zu beheben. Alle Überlappungen in zuvor hochgeladenen Dateien können zu falschen Zuordnungen von Subnetzen zu Gebäuden in den Berichten führen. Bestimmte VPN-Implementierungen meldet nicht genau die Subnetzinformationen. Es wird empfohlen, beim Hinzufügen eines VPN-Subnetzes zur Gebäudedatei anstelle eines Eintrags für das Subnetz separate Einträge für jede Adresse im VPN-Subnetz als separates 32 Bit-Netzwerk hinzuzufügen. Jede Zeile kann die gleichen Gebäudemetadaten enthalten. Ein Beispiel: Anstelle einer Zeile für 172.16.18.0/24 sollten Sie 256 Zeilen verwenden - eine Zeile für jede Adresse zwischen 172.16.18.0/32 und 172.16.18.255/32 (einschließlich). 
+> Der Netzwerkbereich kann zur Darstellung eines Supernetzes (einer Kombination aus mehreren Subnetzen mit einem einzelnen Routing-Präfix) verwendet werden. Alle neuen Gebäude-Uploads werden auf sich überlappende Bereiche hin untersucht. Wenn Sie zuvor eine Gebäudedatei hochgeladen haben, sollten Sie die aktuelle Datei herunterladen und erneut hochladen, um mögliche Überlappungen zu identifizieren und das Problem vor dem erneuten Hochladen zu beheben. Alle Überlappungen in zuvor hochgeladenen Dateien können zu falschen Zuordnungen von Subnetzen zu Gebäuden in den Berichten führen. Bei bestimmten VPN-Implementierungen werden die Subnetinformationen nicht genau gemeldet. Es wird empfohlen, beim Hinzufügen eines VPN-Subnetzes zur Gebäudedatei anstelle eines Eintrags für das Subnetz separate Einträge für jede Adresse im VPN-Subnetz als separates 32 Bit-Netzwerk hinzuzufügen. Jede Zeile kann die gleichen Gebäudemetadaten enthalten. Ein Beispiel: Anstelle einer Zeile für 172.16.18.0/24 sollten Sie 256 Zeilen verwenden - eine Zeile für jede Adresse zwischen 172.16.18.0/32 und 172.16.18.255/32 (einschließlich). 
 
-### <a name="endpoint-data-file"></a>Endpunkt-Datendatei
-CQD verwendet die Endpunkt-Datendatei durch Verknüpfen der Spalte endPointName angibt mit den Anruf Datensatz ersten Endpunkt Name/Second Client Endpunkt Clientname Spalte stellen/Modell/Endpunkttyp Informationen anzeigen. Das Format der Datei, die Sie hochladen, muss folgende Bedingungen erfüllen, um die Validierungsprüfung vor dem Hochladen zu bestehen.
+### <a name="endpoint-data-file"></a>Endpunkt Datendatei
+CQD verwendet die Endpunkt Datendatei, indem Sie die Spalte Endpunktname der ersten Clientendpunkt Name-Spalte des Anrufdaten Satzes hinzugefügt, um die Informationen zum Typ des Endpunkt-Make/Model/-Typs anzuzeigen. Das Format der Datei, die Sie hochladen, muss folgende Bedingungen erfüllen, um die Validierungsprüfung vor dem Hochladen zu bestehen.
 
 - Bei der Datei muss es sich um eine TSV-Datei (die Spalten in den einzelnen Zeilen werden durch Tabstopps getrennt) oder um eine CSV-Datei (alle Spalten werden durch Trennzeichen getrennt) handeln.
 
-- Der Inhalt der Datendatei umfasst keine Tabellenüberschriften. Das bedeutet, dass die erste Zeile der Datendatei realen Daten, Header nicht wie "endPointName"angibt, sein sollte usw..
+- Der Inhalt der Datendatei umfasst keine Tabellenüberschriften. Das bedeutet, dass die erste Zeile der Datendatei reelle Daten, keine Kopfzeilen wie "Endpunktname" usw. sein sollte.
 
-- Für jede Spalte des Datentyps kann nur Zeichenfolge sein, und es sollte nicht mehr als 64 Zeichen, das ist maximal zulässige Länge.
+- Für jede Spalte kann der Datentyp nur Zeichenfolge sein, und er darf nicht mehr als 64 Zeichen enthalten, was maximal zulässige Länge beträgt.
 
-- Für jede Spalte die Daten können leer sein (aber dennoch durch eine entsprechende Trennzeichen (d. h., Registerkarte oder Komma) getrennt werden müssen. Dadurch wird dem Feld eine leere Zeichenfolge zugewiesen.
+- Für jede Spalte können die Daten leer sein (Sie müssen aber immer noch durch ein entsprechendes Trennzeichen (also Tabstopp oder Komma) getrennt werden. Dadurch wird dem Feld eine leere Zeichenfolge zugewiesen.
 
-- 7 Spalten für jede Zeile vorhanden sein muss, und die Spalten in der angegebenen Reihenfolge aus, in der folgenden Tabelle werden müssen.
+- Für jede Zeile müssen 7 Spalten vorhanden sein, und die Spalten müssen in der in der folgenden Tabelle aufgelisteten Reihenfolge sein.
 
-- EndPointName angibt muss anders eindeutig sein, Upload aufgrund doppelte Zeile fehl, da falsche beitreten Dadurch wird.
+- Endpunktname muss eindeutig sein, da der Upload aufgrund einer doppelten Zeile fehlschlägt, da er zu einer falschen Verknüpfung führt.
 
--  EndpointLabel1, EndpointLabel2, EndpointLable3 Benutzer anpassbare Etiketten sind, kann es sich um eine leere Zeichenfolge oder Wert Benutzer bevorzugen wie "IT-Abteilung vorgesehen 2018 Laptop", "Asset Tag 5678"... usw.
+-  EndpointLabel1, EndpointLabel2, EndpointLable3 sind benutzerdefinierbare Etiketten, Sie können leere Zeichenfolgen oder Wert sein, die Benutzer bevorzugen, wie "IT-Abteilung, die als 2018-Laptop" bezeichnet wird, "Asset-Tag 5678"... usw.
 
 |**Spaltenname**|**Datentyp**|**Beispiel**|
 |:-----|:-----|:-----|
-|EndPointName angibt  <br/> |Zeichenfolge  <br/> |1409W3534  <br/> |
-|EndpointMake  <br/> |Zeichenfolge  <br/> |Fabrikam Inc.  <br/> |
+|EndpointName  <br/> |Zeichenfolge  <br/> |1409W3534  <br/> |
+|EndpointMake  <br/> |Zeichenfolge  <br/> |Fabrikam Inc  <br/> |
 |EndpointModel  <br/> |Zeichenfolge  <br/> |Fabrikam-Modell 123  <br/> |
 |EndpointType   <br/> |Zeichenfolge  <br/> |Laptop  <br/> |
-|EndpointLabel1  <br/> |Zeichenfolge  <br/> |IT festgelegte 2018 Laptop  <br/> |
-|EndpointLabel2  <br/> |Zeichenfolge  <br/> |Asset Tag 5678  <br/> |
+|EndpointLabel1  <br/> |Zeichenfolge  <br/> |IT-Designated 2018 Laptop  <br/> |
+|EndpointLabel2  <br/> |Zeichenfolge  <br/> |Inventar-Tag 5678  <br/> |
 |EndpointLabel3  <br/> |Zeichenfolge  <br/> |Kauf 2018   <br/> |
 
 
 ## <a name="selecting-media-type-in-detailed-reports"></a>Auswählen eines Medientyps in detaillierten Berichten
 <a name="BKMKMediaType"></a>
 
-Mit detaillierten Berichten können die Qualität und die Medienzuverlässigkeit von Medientypen für Audio, Video, Anwendungsfreigabe und videobasierte Bildschirmübertragung ermittelt werden. Dimensionen und Measures Filter, die für einen einzelnen Medientyp spezifisch sind haben "Audio", "Video", "AppSharing" oder "VBSS" als Präfix.
+Mit detaillierten Berichten können die Qualität und die Medienzuverlässigkeit von Medientypen für Audio, Video, Anwendungsfreigabe und videobasierte Bildschirmübertragung ermittelt werden. Dimensionen, Measures und Filter, die für einen einzelnen Medientyp spezifisch sind, weisen "Audio", "Video", "qualifizierte Anwendungsfreigabe" oder "schlechte VBSS" als Präfix auf.
   
 ![Call Quality Dashboard Dimensions.](media/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
   
@@ -299,7 +299,7 @@ Wenn Sie die Dimensionen und Kennzahlen für einen einzelnen Medientyp anzeigen 
 ## <a name="related-topics"></a>Verwandte Themen
 [Einrichten der Anrufanalyse von Skype for Business](set-up-call-analytics.md)
 
-[Verwenden Sie Analytics rufen Sie für die Problembehandlung bei schlechter Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Verwenden von Anruf Analysen zur Fehlerbehebung bei schlechter Anrufqualität](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Anrufanalyse- und Anrufqualitäts-Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 

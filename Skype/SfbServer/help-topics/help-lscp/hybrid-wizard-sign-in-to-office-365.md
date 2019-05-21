@@ -1,11 +1,11 @@
 ---
-title: Hybrid-Assistenten bei Office 365 anmelden
+title: Hybrid-Assistent bei Office 365 anmelden
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.HybridSignIntoO365
@@ -16,17 +16,17 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
-description: Mithilfe der Skype für Business Server Hybrid Verwaltbarkeit-Assistenten können Sie Ihre Umgebung für hybride mit Skype für Business Online zu konfigurieren.
-ms.openlocfilehash: 1e0a9e87e4ddeb32223fbc9b5c7d92ab4210e1ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Verwenden Sie den Assistenten für die Hybrid Verwaltbarkeit von Skype for Business Server, der Ihnen bei der Konfiguration Ihrer Umgebung für hybride mit Skype for Business Online hilft.
+ms.openlocfilehash: 1729699fdce96549bf1d3e485a6346960c4cc5ed
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910925"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293487"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>Hybrid-Assistent: Anmelden bei Office 365
 
-Mithilfe der Skype für Business Server Hybrid Verwaltbarkeit-Assistenten können Sie Ihre Umgebung für hybride mit Skype für Business Online zu konfigurieren.
+Verwenden Sie den Assistenten für die Hybrid Verwaltbarkeit von Skype for Business Server, der Ihnen bei der Konfiguration Ihrer Umgebung für hybride mit Skype for Business Online hilft.
 
 ## <a name="sign-in-to-office-365"></a>Melden Sie sich bei Office 365 an.
 

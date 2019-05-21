@@ -5,40 +5,40 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 7/15/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
-description: Ansichten bieten eine einfache Möglichkeit zum Zugriff auf Informationen zu den gängigsten Szenarien für die Rückgabe von Daten aus der CDR-Datenbank verwendet. Es wird empfohlen, zum Erstellen von benutzerdefinierten Berichten anstelle der tatsächlichen CDR Datenbanktabellen Ansichten zu verwenden; Dies liegt daran Datenbankansichten zum Aufrechterhalten der Abwärtskompatibilität Kompatibilität mit zukünftigen Versionen mehr wahrscheinlich eine Rolle spielen.
-ms.openlocfilehash: 87ca2199e3dc6524f49629ade023c734d7077de6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Ansichten bieten eine einfache Möglichkeit, auf Informationen zu den am häufigsten verwendeten Szenarien zuzugreifen, die für die Rückgabe von Daten aus der CDR-Datenbank verwendet werden. Es wird empfohlen, Ansichten zum Erstellen benutzerdefinierter Berichte zu verwenden, anstatt die eigentlichen CdR-Datenbanktabellen zu verwenden. Das liegt daran, dass die Datenbankansichten eher die Abwärtskompatibilität mit zukünftigen Versionen aufrecht erhalten.
+ms.openlocfilehash: e1a7926108c2e27ecc69c5717867b9c18f8b47ad
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930223"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296141"
 ---
 # <a name="list-of-cdr-views"></a>Liste der KDS-Ansichten
  
-Ansichten bieten eine einfache Möglichkeit zum Zugriff auf Informationen zu den gängigsten Szenarien für die Rückgabe von Daten aus der CDR-Datenbank verwendet. Es wird empfohlen, zum Erstellen von benutzerdefinierten Berichten anstelle der tatsächlichen CDR Datenbanktabellen Ansichten zu verwenden; Dies liegt daran Datenbankansichten zum Aufrechterhalten der Abwärtskompatibilität Kompatibilität mit zukünftigen Versionen mehr wahrscheinlich eine Rolle spielen.
+Ansichten bieten eine einfache Möglichkeit, auf Informationen zu den am häufigsten verwendeten Szenarien zuzugreifen, die für die Rückgabe von Daten aus der CDR-Datenbank verwendet werden. Es wird empfohlen, Ansichten zum Erstellen benutzerdefinierter Berichte zu verwenden, anstatt die eigentlichen CdR-Datenbanktabellen zu verwenden. Das liegt daran, dass die Datenbankansichten eher die Abwärtskompatibilität mit zukünftigen Versionen aufrecht erhalten.
   
-|**Name der Ansicht**|**Beschreibung**|
+|**Ansichts Name**|**Beschreibung**|
 |:-----|:-----|
-|[ClientVersions-Ansicht](clientversions-0.md) <br/> |Gibt Informationen über den Client in einer kommunikationssitzung verwendete clientsoftwareanwendungen/Geräten zurück.  <br/> |
-|[ConferenceMessageCount-Ansicht](conferencemessagecount-0.md) <br/> |Gibt Informationen über die Anzahl der Benutzer in einer Konferenz gesendeten Nachrichten zurück.  <br/> |
-|[Conferences-Ansicht](conferences-0.md) <br/> |Gibt Konferenzinformationen zurück, einschließlich Startzeit, Endzeit und Konferenzorganisator.  <br/> |
-|[ConferenceSessionDetails-Ansicht](conferencesessiondetails.md) <br/> |Gibt Sitzungsdetails zu allen konferenzsitzungen, einschließlich Start- und Endzeit, Benutzer-IDs, Antwortcodes und Diagnose-IDs zurück.  <br/> |
-|[ConferenceUris-Ansicht](conferenceuris-0.md) <br/> |Gibt Informationen zur Konferenz verwendeten URIs in einer Konferenz  <br/> |
-|[ErrorReport-Ansicht](errorreport-0.md) <br/> |Gibt Informationen zu Fehlern, die während einer Sitzung aufgetreten sind.  <br/> |
-|[FileTransfers-Ansicht](filetransfers.md) <br/> |Gibt Informationen zu dateiübertragungssitzungen, einschließlich der Dateinamen und gibt an, ob die Übertragung angenommen wurde, abgelehnt oder abgebrochen.  <br/> |
-|[FocusJoinsAndLeaves-Ansicht](focusjoinsandleaves-0.md) <br/> |Informationen zur Konferenz zurückgegeben beitreten oder Verlassen einer Aktivitäten.  <br/> |
-|[McuJoinsAndLeaves-Ansicht](mcujoinsandleaves-0.md) <br/> |Gibt Informationen zum Beitritt zur Konferenz kombiniert und lassen Sie Aktivitäten (jeder konferenzbeitritt ist mit den entsprechenden verlassen einer Konferenz gepaart).  <br/> |
-|[MCUs-Ansicht](mcus-0.md) <br/> |Gibt Informationen zu Konferenzservern zurück.  <br/> |
-|[Media-Ansicht](media-0.md) <br/> |Gibt Informationen zu den Arten von Medien in Peer-zu-Peer-kommunikationssitzungen verwendet.  <br/> |
-|[ProgressReport-Ansicht](progressreport-0.md) <br/> |Gibt Informationen zu beendeten konferenzsitzungen zurück.  <br/> |
-|[Registration-Ansicht](registration-0.md) <br/> |Gibt Informationen zu Registrierungen bei Skype für Business Server 2015 zurück.  <br/> |
-|[SessionDetails-Ansicht](sessiondetails-0.md) <br/> |Informationen über Peer-zu-Peer-Sitzungen, einschließlich VoIP-VoIP-Anrufe, Sofortnachrichtensitzungen zwei Teilnehmern oder anderen Peer-zu-Peer-kommunikationssitzungen zurückgegeben.  <br/> |
-|[User-Ansicht](user.md) <br/> |Gibt Informationen zu den Benutzern, die an kommunikationssitzungen teilgenommen haben.  <br/> |
-|[VoIPDetails-Ansicht](voipdetails.md) <br/> |Informationen für Peer-zu-Peer-Sitzungen, die mit mindestens einem Benutzer von VoIP (Voice over e/a) zurückgegeben.  <br/> |
+|[ClientVersions-Ansicht](clientversions-0.md) <br/> |Gibt Informationen zu den Client Software/-Geräten zurück, die in einer Kommunikationssitzung verwendet werden.  <br/> |
+|[ConferenceMessageCount-Ansicht](conferencemessagecount-0.md) <br/> |Gibt Informationen über die Anzahl der Nachrichten zurück, die von Benutzern in einer Konferenz gesendet wurden.  <br/> |
+|[Konferenz Ansicht](conferences-0.md) <br/> |Gibt Konferenz Informationen zurück, einschließlich Startzeit, Endzeit und Konferenzorganisator.  <br/> |
+|[ConferenceSessionDetails-Ansicht](conferencesessiondetails.md) <br/> |Gibt Sitzungsdetails für alle Konferenzsitzungen zurück, einschließlich Start-und Endzeit, Benutzer-IDs, Antwortcodes und Diagnose-IDs.  <br/> |
+|[ConferenceUris-Ansicht](conferenceuris-0.md) <br/> |Gibt Informationen zu Konferenz-URIs zurück, die in einer Konferenz verwendet werden.  <br/> |
+|[ErrorReport-Ansicht](errorreport-0.md) <br/> |Gibt Informationen zu Fehlern zurück, die während einer Sitzung aufgetreten sind.  <br/> |
+|[Dateiübertragungen (Ansicht)](filetransfers.md) <br/> |Gibt Informationen zu Dateiübertragungssitzungen zurück, einschließlich des Datei namens und der Frage, ob die Übertragung angenommen, abgelehnt oder abgebrochen wurde.  <br/> |
+|[FocusJoinsAndLeaves-Ansicht](focusjoinsandleaves-0.md) <br/> |Gibt Informationen zu Teilnahme-und Abwesenheits Aktivitäten für Konferenzen zurück.  <br/> |
+|[McuJoinsAndLeaves-Ansicht](mcujoinsandleaves-0.md) <br/> |Gibt kombinierte Informationen zu Teilnahme-und Abwesenheits Aktivitäten für Konferenzen zurück (jeder Konferenz Beitritt wird mit dem entsprechenden Konferenz Urlaub gekoppelt).  <br/> |
+|[MCU-Ansicht](mcus-0.md) <br/> |Gibt Informationen zu Konferenzservern zurück.  <br/> |
+|[Medienansicht](media-0.md) <br/> |Gibt Informationen zu den Medientypen zurück, die in Peer-to-Peer-Kommunikationssitzungen verwendet werden.  <br/> |
+|[ProgressReport-Ansicht](progressreport-0.md) <br/> |Gibt Informationen zu abgeschlossenen Sitzungen zurück.  <br/> |
+|[Registrierungs Ansicht](registration-0.md) <br/> |Gibt Informationen zu Registrierungen mit Skype for Business Server 2015 zurück.  <br/> |
+|[SessionDetails-Ansicht](sessiondetails-0.md) <br/> |Gibt Informationen zu Peer-to-Peer-Sitzungen zurück, einschließlich VoIP-VoIP-Telefonanrufe, zweier-Chat-Sitzungen oder anderen Peer-to-Peer-Kommunikationssitzungen.  <br/> |
+|[Benutzeransicht](user.md) <br/> |Gibt Informationen zu den Benutzern zurück, die an Kommunikationssitzungen teilgenommen haben.  <br/> |
+|[VoIPDetails-Ansicht](voipdetails.md) <br/> |Gibt Informationen zu Peer-to-Peer-Sitzungen zurück, die mindestens einen VoIP-Benutzer (Voice over IO) umfassen.  <br/> |
    
 

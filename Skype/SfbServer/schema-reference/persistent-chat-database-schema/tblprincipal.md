@@ -5,51 +5,51 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
-description: TblPrincipal enthält alle Prinzipale, einschließlich Benutzer, Ordner und Gruppen.
-ms.openlocfilehash: 2c1b25cce9183a68a276dee6167052cdd068eecf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblPrincipal enthält alle Prinzipale, einschließlich Benutzern, Ordnern und Gruppen.
+ms.openlocfilehash: 5a0b6535ace344951b75f7c5c9488f56a18564ee
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929882"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295363"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  
-TblPrincipal enthält alle Prinzipale, einschließlich Benutzer, Ordner und Gruppen.
+tblPrincipal enthält alle Prinzipale, einschließlich Benutzern, Ordnern und Gruppen.
   
 **Spalten**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|prinID  <br/> |Int, nicht null  <br/> |Prinzipal-ID.  <br/> |
-|prinGuid  <br/> |GUID, nicht null  <br/> |Prinzipal-GUID. Im Allgemeinen gibt es wird als eine alternative Primärschlüssel verwendet, da seine Bedeutung über in den Active Directory-Domänendienste Platz schneidet. (Die GUID für eine Cache Prinzipal ist gleich dem entsprechenden Active Directory-Objekt-GUID.)  <br/> |
-|prinUri  <br/> |Nvarchar (256), nicht null  <br/> |Prinzipal-URI. Das SIP-Schema für Benutzer verwendet wird, und Ma-Gruppe für fast alles verwendet wird.  <br/> |
-|prinName  <br/> |Nvarchar (256)  <br/> |Allgemeiner Name. Nur vom Benutzertypen verwendet.  <br/> |
-|prinDisplayName  <br/> |Nvarchar (256)  <br/> |Anzeigename. Nur vom Benutzertypen verwendet.  <br/> |
-|prinCompanyName  <br/> |Nvarchar (256)  <br/> |Name der Firma. Nur vom Benutzertypen verwendet.  <br/> |
-|prinEmail  <br/> |Nvarchar (256)  <br/> |E-Mail. Nur vom Benutzertypen verwendet.  <br/> |
-|prinADPath  <br/> |Nvarchar (384)  <br/> |Domänenname des Active Directory-Objekt, dem der Prinzipal eine zwischengespeicherte Version ist. Null kann für Typen sein, die nicht Active Directory-Objekte (beispielsweise Benutzer des Systems) sind.  <br/> |
-|prinADUserPrincipalName  <br/> |Nvarchar (256)  <br/> |Des Benutzers Benutzerprinzipalnamen (UPN). Nur vom regulären Benutzertypen verwendet.  <br/> |
-|prinDisabled  <br/> |Smallint, nicht null  <br/> | 0: Prinzipal ist aktiv. <br/>  1: Prinzipal ist deaktiviert, da die SIP-Funktionen des Benutzers deaktiviert sind. <br/>  2: Prinzipal wird gelöscht, da das zugehörige AD-Objekt gelöscht wurde. <br/> |
-|prinTypeID  <br/> |Smallint, nicht null  <br/> |Der Prinzipaltyp (aus der Tabelle "tblprincipaltype").  <br/> |
-|prinPoolID  <br/> |Int  <br/> |Skype für Business-Client-poolzuordnung für den Prinzipal.  <br/> |
-|prinPolicyID  <br/> |Int  <br/> |Persistent Chat-Server-Richtlinienwert für Benutzer, wenn eine tagtyprichtlinie vorhanden ist.  <br/> |
+|prinID  <br/> |int, nicht NULL  <br/> |Prinzipal-ID.  <br/> |
+|prinGuid  <br/> |GUID, nicht NULL  <br/> |Prinzipal-GUID. Dies wird im Allgemeinen als alternativer Primärschlüssel verwendet, da dessen Bedeutung in den Bereich der Active Directory-Domänendienste überschritten wird. (Die GUID für einen zwischengespeicherten Prinzipal entspricht der entsprechenden GUID des Active Directory-Objekts.)  <br/> |
+|prinUri  <br/> |nvarchar (256); nicht NULL  <br/> |Prinzipal-URI. Das SIP-Schema wird für Benutzer verwendet, und MA-GRP wird für fast alles andere verwendet.  <br/> |
+|prinName  <br/> |nvarchar (256)  <br/> |Allgemeiner Name Wird nur von Benutzertypen verwendet.  <br/> |
+|prinDisplayName  <br/> |Nvarchar (256)  <br/> |Anzeigename Wird nur von Benutzertypen verwendet.  <br/> |
+|prinCompanyName  <br/> |nvarchar (256)  <br/> |Name des Unternehmens. Wird nur von Benutzertypen verwendet.  <br/> |
+|prinEmail  <br/> |nvarchar (256)  <br/> |E-Mail. Wird nur von Benutzertypen verwendet.  <br/> |
+|prinADPath  <br/> |nvarchar (384)  <br/> |Der Domänenname des Active Directory-Objekts, in dem der Prinzipal eine zwischengespeicherte Version von ist. Kann NULL für Typen sein, die keine Active Directory-Objekte (wie Systembenutzer) sind.  <br/> |
+|prinADUserPrincipalName  <br/> |nvarchar (256)  <br/> |Benutzerprinzipalname (User Principal Name, UPN) des Benutzers. Wird nur von normalen Benutzertypen verwendet.  <br/> |
+|prinDisabled  <br/> |smallint, nicht NULL  <br/> | 0: Principal ist aktiv. <br/>  1: Principal ist deaktiviert, da die SIP-Funktionen des Benutzers deaktiviert sind. <br/>  2: Principal wird gelöscht, weil das zugeordnete anzeigen Objekt gelöscht wurde. <br/> |
+|prinTypeID  <br/> |smallint, nicht NULL  <br/> |Principal Type (aus tblPrincipalType-Tabelle).  <br/> |
+|prinPoolID  <br/> |Int  <br/> |Skype for Business-Client Poolzuordnung für den Prinzipal.  <br/> |
+|prinPolicyID  <br/> |Int  <br/> |Server Richtlinienwert des beständigen Chats für Benutzer, wenn die Kategorie-typrichtlinie vorhanden ist.  <br/> |
 |prinAddedBy  <br/> |int  <br/> |Prinzipal-ID des Erstellers.  <br/> |
-|prinAddedOn  <br/> |Bigint, nicht null  <br/> |Zeitstempel für den Zeitpunkt der Erstellung.  <br/> |
-|prinUpdatedBy  <br/> |int  <br/> |ID des Prinzipals dies der letzten Aktualisierung.  <br/> |
-|prinUpdatedOn  <br/> |Bigint, nicht null  <br/> |Zeitstempel für die letzte Aktualisierung.  <br/> |
-|prinVerifiedOn  <br/> |DateTime, nicht null  <br/> |Datum und Uhrzeit der letzten Active Directory-Synchronisierung für den Prinzipal zu aktualisieren.  <br/> |
+|prinAddedOn  <br/> |bigint, nicht NULL  <br/> |Zeitstempel für die Erstellungszeit.  <br/> |
+|prinUpdatedBy  <br/> |int  <br/> |Die ID des Prinzipals, der diesen zuletzt aktualisiert hat.  <br/> |
+|prinUpdatedOn  <br/> |bigint, nicht NULL  <br/> |Zeitstempel für das letzte Update.  <br/> |
+|prinVerifiedOn  <br/> |DateTime, nicht NULL  <br/> |Datum und Uhrzeit der letzten Aktualisierung der Active Directory-Synchronisierung für den Prinzipal.  <br/> |
    
 **Schlüssel**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
-|prinID  <br/> |Primärschlüssel.  <br/> |
-|prinTypeID  <br/> |Fremdschlüssel mit Abfrage der Tabelle "tblprincipaltype.ptypeid".  <br/> |
+|prinID  <br/> |Primärschlüssel  <br/> |
+|prinTypeID  <br/> |Fremdschlüssel mit Lookup in der tblPrincipalType. ptypeID-Tabelle.  <br/> |
    
 

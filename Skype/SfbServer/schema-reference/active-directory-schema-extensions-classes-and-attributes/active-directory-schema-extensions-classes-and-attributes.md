@@ -5,57 +5,57 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
-description: 'Dieser Abschnitt enthält die folgenden Informationen:'
-ms.openlocfilehash: dc2d147791317134ee9abd3de723f1c53f8f625b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Dieser Referenzabschnitt enthält die folgenden Informationen:'
+ms.openlocfilehash: 5934c9ffab8055de86cdaf3bcf507fa9c806f245
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33907101"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296742"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>Active Directory-Schemaerweiterungen, -Klassen und -Attribute
  
-Dieser Abschnitt enthält die folgenden Informationen: 
+Dieser Referenzabschnitt enthält die folgenden Informationen: 
   
-- Active Directory-Erweiterungen, die neue geänderte für Skype für Business Server oder
+- Active Directory-Schemaerweiterungen, die neu sind oder für Skype for Business Server geändert wurden
     
-    Active Directory-Schema enthält formale Definitionen für alle Objektklassen, die in einer Active Directory-Gesamtstruktur erstellt werden können. Das Schema enthält auch formale Definitionen für alle Attribute, die für Active Directory-Objekt vorhanden sein können. Der globale Katalog von Active Directory enthält Replikate aller Objekte für die Gesamtstruktur sowie eine Teilmenge der Attribute für jedes Objekt. Dieser Abschnitt beschreibt die Klassen und Attribute, die neue oder geänderte in Skype für Business Server sind.
+    Das Active Directory-Schema enthält formale Definitionen jeder Objektklasse, die in einer Active Directory-Gesamtstruktur erstellt werden können. Das Schema enthält auch formale Definitionen für alle Attribute, die für ein Active Directory-Objekt vorhanden sein können. Der globale Active Directory-Katalog enthält Replikate aller Objekte für die Gesamtstruktur sowie eine Teilmenge der Attribute für jedes Objekt. In diesem Abschnitt werden die Klassen und Attribute beschrieben, die neu sind oder in Skype for Business Server geändert wurden.
     
-- Alle Klassen, die von Skype für Business Server mit einer Beschreibung der einzelnen verwendet
+- Alle von Skype for Business Server verwendeten Kurse mit einer Beschreibung der einzelnen Klassen
     
-- Alle von Skype für Business-Server mit einer Beschreibung der einzelnen verwendeten Attribute
+- Alle von Skype for Business Server verwendeten Attribute mit einer Beschreibung der einzelnen
     
-- Eine Liste mit den Klassen, die mit den Attributen von Skype für Business Server kann enthalten.
+- Eine Liste der von Skype for Business Server verwendeten Klassen mit den Attributen, die jeweils enthalten können
     
-- Globale Einstellungen und Objekte sowie die universellen Dienst- und Administrationsgruppen, die während der Vorbereitung der Gesamtstruktur erstellt werden
+- Globale Einstellungen und Objekte, zusätzlich zu den universellen Dienst-und Verwaltungsgruppen, die während der Gesamtstrukturvorbereitung erstellt werden
     
-- Zugriffssteuerungseinträge (ACEs), die auf den Domänenstamm und in integrierten Containern, während der domänenvorbereitung erstellt werden
+- Zugriffssteuerungseinträge (ACEs), die im Domänenstamm und in den integrierten Containern während der Domänenvorbereitung erstellt werden
     
-- Änderungen, die durch das Grant_CsSetupPermission-Cmdlet für eine Active Directory-Organisationseinheit (OU) vorgenommen werden.
+- Änderungen, die an einer Active Directory-Organisationseinheit (OU) durch das Grant_CsSetupPermission-Cmdlet vorgenommen wurden.
     
-- Änderungen, die in einer Active Directory-Organisationseinheit durch das Grant_CsOUPermission-Cmdlet vorgenommen werden.
+- Änderungen, die an einer Active Directory-OU durch das Grant_CsOUPermission-Cmdlet vorgenommen wurden.
     
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-- [Schemaänderungen in Skype für Business Server](schema-changes.md)
+- [Schema Änderungen in Skype for Business Server](schema-changes.md)
     
-- [Schemaklassen und Beschreibungen in Skype für Business Server](schema-classes-and-descriptions.md)
+- [Schema Klassen und Beschreibungen in Skype for Business Server](schema-classes-and-descriptions.md)
     
-- [Schemaattribute und Beschreibungen in Skype für Business Server](schema-attributes-and-descriptions.md)
+- [Schema Attribute und Beschreibungen in Skype for Business Server](schema-attributes-and-descriptions.md)
     
-- [Schemaattribute nach Klasse in Skype für Business Server](schema-attributes-by-class.md)
+- [Schema Attribute nach Klasse in Skype for Business Server](schema-attributes-by-class.md)
     
-- [Änderungen, die durch die Vorbereitung der Gesamtstruktur in Skype für Business Server](changes-made-by-forest-preparation.md)
+- [Änderungen, die von der Gesamtstrukturvorbereitung in Skype for Business Server vorgenommen wurden](changes-made-by-forest-preparation.md)
     
-- [Änderungen, die durch domänenvorbereitung in Skype für Business Server](changes-made-by-domain-preparation.md)
+- [Von der Domänenvorbereitung in Skype for Business Server vorgenommene Änderungen](changes-made-by-domain-preparation.md)
     
-- [Änderungen, die durch Grant-CsSetupPermission in Skype für Business Server](changes-made-by-grant-cssetuppermission.md)
+- [Von Grant-CsSetupPermission in Skype for Business Server vorgenommene Änderungen](changes-made-by-grant-cssetuppermission.md)
     
-- [Änderungen, die durch Grant-CsOUPermission in Skype für Business Server](changes-made-by-grant-csoupermission.md)
+- [Von Grant-CsOUPermission in Skype for Business Server vorgenommene Änderungen](changes-made-by-grant-csoupermission.md)
     
 

@@ -4,35 +4,35 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: 'Zusammenfassung: Lesen Sie in diesem Thema, um Informationen zu Statistiken Manager für Skype für Business Server zu erfahren.'
-ms.openlocfilehash: 97c169b9350801f805672549d8cc68bfa37ce14d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über den Statistik-Manager für Skype for Business Server zu erfahren.'
+ms.openlocfilehash: a58ca8ea8ed2d612e00a0705bb28e8d6fe95eb45
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906613"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299737"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planen von Statistics Manager für Skype for Business Server
 
-**Zusammenfassung:** Lesen Sie in diesem Thema, um Informationen zu Statistiken Manager für Skype für Business Server zu erfahren.
+**Zusammenfassung:** In diesem Thema finden Sie Informationen zu Statistics Manager für Skype for Business Server.
 
  Statistics Manager für Skype for Business Server ist ein leistungsfähiges Tool, mit dem Sie Skype for Business Server-Status- und -Leistungsdaten in Echtzeit anzeigen können. Sie können Leistungsdaten von Hunderten von Servern innerhalb von Sekunden abfragen und die Ergebnisse unmittelbar auf der Statistics Manager-Website anzeigen.
 
-Statistiken-Manager können Sie laufende Leistungsprobleme identifizieren, zeigen Sie die Ergebnisse einer geplanten Änderung für Ihre Umgebung, Nachverfolgen von Ausfällen Auflösung und vieles mehr. Sofort einsetzbar Statistiken Manager wird mit der Key Health Indicator (KHI) Schwellenwerte konfiguriert und eindeutige Bedürfnisse Ihrer Bereitstellung angepasst werden können.
+Sie können den Statistik-Manager verwenden, um fortlaufende Leistungsprobleme zu erkennen, die Ergebnisse einer geplanten Änderung Ihrer Umgebung anzuzeigen, die Auflösung von Ausfällen zu überwachen und vieles mehr. Der Statistik-Manager ist mit KHI-Schwellenwerten (Key Health Indicator) konfiguriert und kann an die individuellen Anforderungen Ihrer Bereitstellung angepasst werden.
 
-Sie können Statistiken Manager in einer lokalen Bereitstellung bereitstellen, in denen ein einzelner Server alle serverseitigen Statistiken Manager Komponenten hostet. Weitere Informationen zum Bereitstellen von Statistiken-Manager finden Sie unter [Bereitstellen von Statistiken Manager für Skype für Business Server](deploy.md). Wenn Sie bereits über eine vorhandene Bereitstellung von Statistiken Manager verfügen, aber Sie noch nicht, Version 2.0 aktualisiert haben, finden Sie unter [Was ist neu in der Version 2.0](plan.md#BKMK_WhatsNew) und [Statistiken-Manager für Skype für Business Server aktualisieren](upgrade.md).
+Sie können den Statistik-Manager in einer lokalen Bereitstellung bereitstellen, auf der ein einzelner Server alle serverseitigen Statistics Manager-Komponenten hostet. Weitere Informationen zum Bereitstellen des Statistik-Managers finden Sie unter [Bereitstellen des Statistik-Managers für Skype for Business Server](deploy.md). Wenn Sie bereits über eine vorhandene Bereitstellung von Statistik-Manager verfügen, aber noch nicht auf Release 2,0 aktualisiert haben, lesen Sie [Neuerungen in Release 2,0](plan.md#BKMK_WhatsNew) und [Upgrade Statistics Manager für Skype for Business Server](upgrade.md).
 
 Dieses Thema enthält die folgenden Abschnitte:
 
 - [Features und Funktionen](plan.md#BKMK_Features)
 
-- [Was ist neu in der Version 2.0](plan.md#BKMK_WhatsNew)
+- [Neuerungen in Version 2,0](plan.md#BKMK_WhatsNew)
 
 - [Komponenten](plan.md#BKMK_Components)
 
@@ -40,137 +40,137 @@ Dieses Thema enthält die folgenden Abschnitte:
 
 - [Anforderungen](plan.md#BKMK_Requirements)
 
-- [Hinweise zur Sicherheit](plan.md#BKMK_Security)
+- [Sicherheitsüberlegungen](plan.md#BKMK_Security)
 
 ## <a name="features-and-capabilities"></a>Features und Funktionen
 <a name="BKMK_Features"> </a>
 
-Statistiken-Manager können Sie:
+Mit Statistik-Manager können Sie Folgendes ausführen:
 
-- Unformatierte Daten für alle Server in Echtzeit anzeigen. (Daten ist eine sehr hohe Fehlerrate bei ermittelt und in weniger als einer Sekunde an die Website gesendet).
+- Anzeigen unformatierter Daten für alle Server in Echtzeit. (Die Daten werden zu einem sehr günstigen Preis abgetastet und in weniger als einer Sekunde an die Website gesendet.)
 
-- Von Anzeigedaten, die für eine bestimmte Rolle zusammengesetzt wird; beispielsweise Front-End-Server, Vermittlungsserver, Edge-Server und So weiter.
+- Anzeigen von Daten, die für eine bestimmte Rolle aggregiert sind Beispiel: Front-End-Server, Vermittlungsserver, Edgeserver usw.
 
-- Nach unten zum Anzeigen von Daten für bestimmte Standorte, bestimmte Pools innerhalb der Website, und klicken Sie dann auf bestimmten Servern innerhalb des Pools der Drilldown erfolgen soll.
+- Führen Sie einen Drilldown aus, um Daten für bestimmte Websites, bestimmte Pools innerhalb der Website und dann bestimmte Server im Pool anzuzeigen.
 
-- Erstellen Sie benutzerdefinierte Diagramme, sodass sich entschieden, dass die Leistungsindikatoren standardmäßig angezeigt werden.
+- Erstellen Sie benutzerdefinierte Diagramme, damit ausgewählte Leistungsindikatoren standardmäßig angezeigt werden.
 
-- Zoomen und Schwenken auf sowohl die X - und y-Achse oder auf der x-Achse nur.
+- Zoomen und Schwenken Sie auf der x-und y-Achse oder nur auf der x-Achse.
 
-- Verwenden Sie Datumsbereiche oder Punkt in der Zeit zum Filtern von Daten an.
+- Verwenden Sie Datumsbereiche oder Zeitpunkte zum Filtern von Daten.
 
-- Ansicht basierend auf Leistung hergestellt Key Health Indikatoren (KHIs). KHIs stellt eine Auflistung von Leistungsindikatoren mit einem fehlerfreien definierten Bereich.
+- Zeigen Sie die Serverleistung basierend auf den festgelegten Schlüssel Integritätsindikatoren (KHIs) an. KHIs stellen eine Sammlung von Leistungsindikatoren mit einem definierten, gesunden Bereich dar.
 
-- Zeigen Sie detaillierte Metriken für die einzelnen Indikatoren.
+- Anzeigen detaillierter Metriken für jeden Leistungsindikator
 
-- Vergleichen der Daten in mehrere Auffüllungen oder Server.
+- Vergleichen Sie Daten auf mehreren Populationen oder Servern.
 
-- Anzeigen von Berichten latente Leistungsindikator Agents zu identifizieren, die nicht die aktuelle Daten mit dem Dashboard-Dienst reporting sind.
+- Zeigen Sie latente Indikator Berichte an, um Agents zu identifizieren, die keine aktuellen Daten an den dashboarddienst melden.
 
 - Speichern Sie eine bestimmte Instanz von Diagrammdaten in einer Datei.
 
-- Ansicht KHIs in Echtzeit, einschließlich Updates. Wenn die Ansicht Historie aktiviert ist, werden nur neue Fehler angezeigt.
+- Anzeigen von KHIs in Echtzeit, einschließlich Updates. Wenn die Verlaufsansicht aktiviert ist, werden nur neue Fehler angezeigt.
 
   - Alle KHIs gleichzeitig anzeigen
 
-  - Zeigen Sie KHIs an, indem Sie Server (Querformat anzeigen)
+  - Anzeigen von KHIs nach Server (Landschaftsansicht)
 
-  - KHI Ansichtsdefinitionen
+  - Anzeigen von KHI-Definitionen
 
-## <a name="whats-new-in-release-20"></a>Was ist neu in der Version 2.0
+## <a name="whats-new-in-release-20"></a>Neuerungen in Version 2,0
 <a name="BKMK_WhatsNew"> </a>
 
-Im folgenden wird beschrieben, was ist neu in der Version 2.0. Wenn Sie eine vorhandene Bereitstellung von Statistiken Manager und Sie noch nicht aktualisiert haben, finden Sie unter [Statistics-Manager für Skype für Business Server aktualisieren](upgrade.md).
+Im folgenden wird beschrieben, welche Neuerungen es in Version 2,0 gibt. Wenn Sie über eine vorhandene Bereitstellung von Statistics Manager verfügen und noch kein Upgrade durchgeführt haben, lesen Sie [Upgrade Statistics Manager für Skype for Business Server](upgrade.md).
 
-- Szenario Ansichten wurden für Edgemedien, Fabric-Zustand, Failover und Registrierung Szenarien hinzugefügt.
+- Szenario-Ansichten wurden für Edge-Medien, Fabric-Integrität, Pool-Failover und Registrierungs Szenarien hinzugefügt.
 
-- Viele neue Leistungsindikatoren für SQL Server, weitere Skype für Leistungsindikatoren für die Business hinzugefügt wurden und so weiter.
+- Viele neue Zähler wurden für SQL-Server, weitere Skype for Business-Nutzungszähler usw. hinzugefügt.
 
-- Watcher-Knoten-Integration für den Statistiken Manager-Agent - Wenn der Agent, auf einem Watcher-Knoten installiert ist wird synthetische Transaktion Statistiken als Leistungsindikatoren zu Statistiken Manager gemeldet werden.
+- Watcher-Knoten Integration für den Statistik-Manager-Agent – Wenn der Agent auf einem Watcher-Knoten installiert ist, werden synthetische Transaktionsstatistiken als Leistungsindikatoren zurück zum Statistik-Manager gemeldet.
 
-- Zahlreiche Verbesserung der Zuverlässigkeit und Leistung.
+- Zahlreiche Verbesserungen bei Zuverlässigkeit und Leistung.
 
-So überprüfen Sie die Version der Website für die Statistiken Manager ausgeführte:
+So überprüfen Sie die Version der von Ihnen ausgeführten Statistics Manager-Website:
 
-- Öffnen Sie im Datei-Explorer (Standardverzeichnis) C:\Program Files\Skype für Business Server StatsMan WebSite\bin
+- Öffnen Sie im Datei-Explorer (Standardverzeichnis) C:\Program Files\Skype for Business Server-Statistiker WebSite\bin
 
-- Klicken Sie mit der rechten Maustaste auf StatsManHubWebSite.dll und zeigen deren Eigenschaften an
+- Klicken Sie mit der rechten Maustaste auf StatsManHubWebSite. dll, und zeigen Sie deren Eigenschaften an.
 
 - Die Produktversion wird unter den Beschreibungsangaben angezeigt.
 
 ## <a name="components"></a>Komponenten
 <a name="BKMK_Components"> </a>
 
-Statistiken Manager besteht aus den folgenden Komponenten:
+Der Statistik-Manager besteht aus den folgenden Komponenten:
 
-- **Agent.** Ein lightweight-Agent, der auf jedem überwachten Server ausgeführt wird. Der Agent ermöglicht Abruf von Leistungsindikatoren mit lokalen Aggregation konfigurierbar hohes Maß an.
+- **Agent.** Ein Lightweight-Agent, der auf jedem überwachten Server ausgeführt wird. Der Agent ermöglicht die konfigurierbare hochfrequente Abfrage von Leistungsindikatoren mit lokaler Aggregation.
 
-- **Listener.** API des Servers, der Daten von allen Agents empfängt und aggregiert Daten über Auffüllungen.
+- **Listener.** Die serverseitige API, die Daten von allen Agents empfängt und Daten über Populationen aggregiert.
 
-- **Hub.** Bildet die Client-API für das System, auf den Web-Servern ausgeführt wird, und bietet Echtzeitdaten-Updates für Clients, die über die Website verbunden. (Der Hub wird automatisch als Teil der Website MSI-Datei installiert).
+- **Hub.** Fungiert als Client-API für das System, läuft auf dem/den Web-Server (en) und stellt Echtzeit-Datenaktualisierungen für Kunden bereit, die über die Website verbunden sind. (Der Hub wird automatisch als Teil der Website MSI installiert.)
 
-- **Website.** Eine Benutzeroberfläche, die allen im System verfügbaren Features zusammen abruft.
+- **Website.** Eine Benutzeroberfläche, die alle im System verfügbaren Features zusammenzieht.
 
-Darüber hinaus erfordert Statistiken Manager **Redis**, einem Öffnen einer Führungslinie basieren Daten Struktur Server für das Zwischenspeichern im Arbeitsspeicher. Weitere Informationen zum Herunterladen von Redis finden Sie unter [Bereitstellen von Statistiken Manager](deploy.md#BKMK_Deploy) .
+Darüber hinaus benötigt der Statistik- **** Manager einen Open-Source-Datenstruktur Server mit einem Open-Source-Server für die speicherinterne Zwischenspeicherung. Weitere Informationen zum Herunterladen von a/a finden Sie unter [Bereitstellen des Statistik-Managers](deploy.md#BKMK_Deploy) .
 
 ## <a name="on-premises-deployment"></a>Lokale Bereitstellung
 <a name="BKMK_DeploymentOptions"> </a>
 
-In einer lokalen Bereitstellung hostet ein einzelnes Servers alle Statistiken Manager serverseitige Komponenten.
+In einer lokalen Bereitstellung hostet ein einzelner Server alle serverseitigen Statistics Manager-Komponenten.
 
-Das folgende Diagramm zeigt eine lokale Bereitstellung, in der die Statistiken-Manager-Website, Hub, Listener und Redis Zwischenspeichern System auf einem einzigen Computer gehostet werden. Statistiken Manager überwacht drei Skype für Unternehmensserver, von denen jedes einen einzelnen Agent übertragen von Daten an den Listener haben. Benutzer Verbinden mit einer einzelnen Website alle vom Statistiken Manager aggregierte Daten anzeigen:
+Das folgende Diagramm zeigt eine lokale Bereitstellung, in der die Statistik-Manager-Website, der Hub-, Listener-und das zwischen Speicherungssystem für das System System auf einem einzelnen Computer gehostet werden. Der Statistik-Manager überwacht drei Skype for Business-Server, die jeweils über einen einzigen Agentendaten an den Listener übertragen. Benutzer stellen eine Verbindung mit einer einzelnen Website her, um alle Daten anzuzeigen, die vom Statistik-Manager aggregiert wurden:
 
 ![Stats Manager – lokale Bereitstellung](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
 ## <a name="requirements"></a>Voraussetzungen
 <a name="BKMK_Requirements"> </a>
 
-Sie müssen die folgenden Anforderungen Software, Netzwerk und Hardware berücksichtigen Sie vor der Bereitstellung von Statistiken-Manager.
+Sie müssen die folgenden Software-, Netzwerk-und Hardwareanforderungen Bedenken, bevor Sie den Statistik-Manager bereitstellen.
 
 ### <a name="software-requirements"></a>Softwareanforderungen
 
-- WindowsServer 2016 und 2019
+- Windows Server 2016 und 2019
 
 - IIS (automatisch installiert)
 
 - Redis
 
-- Statistiken-Manager-Dienste (automatisch installiert)
+- Statistik-Manager-Dienste (automatisch installiert)
 
-- PSExec - remote-Agent-Bereitstellung Aktionen erforderlich
+- PSExec – erforderlich für die Remote-Agent-Bereitstellung
 
-- .NET 4.5 (mit 2012 R2 enthalten) - Agents und serverseitige Komponenten erforderlich
-- Laden Sie die [Skype für Business Server, in Echtzeit Statistiken Manager (64-Bit)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
+- .NET 4,5 (im Lieferumfang von 2012 R2) – erforderlich für Agents und serverseitige Komponenten
+- Herunterladen des [Skype for Business-Servers, Echtzeitstatistik-Manager (64-Bit)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
 
 ### <a name="networking-requirements"></a>Netzwerkanforderungen
 
 
-|**Hosting-server**|**Agents**|**Listener**|
+|**Hostserver**|**Agents**|**Listener**|
 |:-----|:-----|:-----|
-|Minimale Gigabit Vollduplex Netzwerk.  <br/> |Ausgehende TCP-Port 8443 (anpassbar Portnummer) mit dem Listener kommunizieren.  <br/> |Der Überwachungsport muss auf allen Servern identisch sein.  <br/> |
-|Eingehende TCP-Port 80 oder 443 geöffnet, auf die Website zu hosten.  <br/> |||
-|Eingehende TCP-Port 8443 (anpassbar Portnummer) für die Agents Daten mit ihm austauschen.  <br/> |||
+|Minimales Gigabit-Vollduplex-Netzwerk.  <br/> |Ausgehende TCP-Port 8443 (anpassbare Portnummer) für die Kommunikation mit dem Listener.  <br/> |Der Listener-Port muss auf allen Servern identisch sein.  <br/> |
+|Der eingehende TCP-Port 80 oder 443 wird geöffnet, um die Website zu hosten.  <br/> |||
+|Eingehenden TCP-Port 8443 (anpassbare Portnummer), damit die Agents damit kommunizieren können.  <br/> |||
 
-Während der Installation werden Firewallports für den Listener und die Website automatisch erstellt. Für die Agents wird die Installation davon ausgegangen, dass ausgehende TCP-Verbindungen standardmäßig zugelassen werden.
+Während der Installation werden Firewall-Ports für den Listener und die Website automatisch erstellt. Bei den Agents geht die Installation davon aus, dass ausgehende TCP-Verbindungen standardmäßig zulässig sind.
 
 ### <a name="hardware-requirements"></a>Hardwareanforderungen
 
-In einer lokalen Bereitstellung, in dem ein einzelner Server gehostet alle Statistiken Manager serverseitige Komponenten eines Servers mit 16 GB RAM und 4 wird CPU sollte in der Lage, durchschnittlich etwa 150 Samples pro Sekunde unterstützen. Um festzustellen, wie viele Leistungsindikatoren-Agents unterstützt werden können, verwenden Sie die folgende Berechnung aus:
+In einer lokalen Bereitstellung, in der ein einzelner Server alle serverseitigen Statistiken-Manager-Komponenten hostet, sollte ein Server mit 16 GB Arbeitsspeicher und 4 CPUs in der Lage sein, durchschnittlich etwa 150-Beispiele pro Sekunde zu unterstützen. Verwenden Sie die folgende Berechnung, um zu ermitteln, wie viele Leistungsindikatoren/Agents Sie unterstützen können:
 
-100 Server \*80 Leistungsindikatoren \* 1 Beispiel pro Minute pro Agent / 60 Sekunden = ~ 133 Samples pro Sekunde.
+100 Server \*80 Counter \* 1 Sample pro Minute von jedem Agenten/60 Sekunden = ~ 133 Samples pro Sekunde.
 
-## <a name="security-considerations"></a>Hinweise zur Sicherheit
+## <a name="security-considerations"></a>Sicherheitsüberlegungen
 <a name="BKMK_Security"> </a>
 
-Der gesamte Datenverkehr zwischen Servern wird verschlüsselt.
+Der gesamte Datenverkehr zwischen Servern ist verschlüsselt.
 
-- Verschlüsselten HTTPS-Datenverkehr wird über Port 8443 (standardmäßig) vom Agent an den Listener Server gesendet werden.
+- Verschlüsselter HTTPS-Datenverkehr wird über Port 8443 (standardmäßig) vom Agent an den Listener-Server gesendet.
 
-- Der Agent prüft den Fingerabdruck des SSL auf dem Server, um sicherzustellen, dass der Server Listener der erwarteten Empfänger ist. Beachten Sie, dass der Agent bei Zertifikaten die Fingerabdruck-Verifizierung verwendet (anstatt der Kettenverifizierung). Er führt keine vollständige Verifizierung von Zertifikaten durch, weil es möglich ist, selbstsignierte Zertifikate zu verwenden.
+- Der Agent überprüft den SSL-Fingerabdruck auf dem Server, um sicherzustellen, dass der Listener-Server der erwartete Empfänger ist. Beachten Sie, dass der Agent bei Zertifikaten die Fingerabdruck-Verifizierung verwendet (anstatt der Kettenverifizierung). Er führt keine vollständige Verifizierung von Zertifikaten durch, weil es möglich ist, selbstsignierte Zertifikate zu verwenden.
 
-- Nachdem der Agent einverstanden ist der Listener authentisch ist, ein Kennwort wird vom Agent, die dann vom Listener überprüft wird angezeigt.
+- Nachdem der Agent erfüllt ist, ist der Listener echt, ein Kennwort wird vom Agenten angezeigt, der dann vom Listener überprüft wird.
 
-- Der Agent beginnt Leistungsdaten über die Verbindung an den Listener übertragen.
+- Der Agent beginnt mit der Übertragung von Leistungsdaten über die Verbindung mit dem Listener.
 
 ## <a name="for-more-information"></a>Weitere Informationen
 <a name="BKMK_Security"> </a>

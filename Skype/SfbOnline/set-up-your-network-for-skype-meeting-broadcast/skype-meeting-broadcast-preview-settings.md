@@ -1,5 +1,5 @@
 ---
-title: Skype Besprechung übertragen Preview-Einstellungen
+title: Vorschaueinstellungen für Skype-Live Konferenz
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,17 +19,17 @@ f1keywords:
 - ms.lync.lac.BroadcastMeetingsPreview
 ms.custom:
 - SMB
-description: Die Skype für Business Customer Preview Programm bietet Sie früher Zugriff auf neue Produkte und Features. Es kann Ihre Organisation eine Vorschau auf was kommt, testen Sie die neuen Features in Ihrer Umgebung, und geben Sie Feedback, bevor wir Produktbuilds der Öffentlichkeit freigeben, abrufen. Wenn um Sie mehr zu erfahren, finden Sie unter Skype Business Vorschau.
-ms.openlocfilehash: 0769d33885e3782a4e716797ef0c8995047f9659
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Das Skype for Business-Kunden-Preview-Programm bietet Ihnen frühen Zugriff auf neue Produkte und Funktionen. Sie ermöglicht Ihrer Organisation, sich einen Einblick in das kommende zu verschaffen, die neuen Funktionen in ihrer eigenen Umgebung zu testen und Feedback zu geben, bevor wir Produkt-Builds für die breite Öffentlichkeit freigeben. Weitere Informationen finden Sie unter Skype for Business Preview.
+ms.openlocfilehash: d26d6a6e24f803342bed9d1d1c2acb31884e19f0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906569"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301278"
 ---
-# <a name="skype-meeting-broadcast-preview-settings"></a>Skype Besprechung übertragen Preview-Einstellungen
+# <a name="skype-meeting-broadcast-preview-settings"></a>Vorschaueinstellungen für Skype-Live Konferenz
 
-Die Skype für Business Customer Preview Programm bietet Sie früher Zugriff auf neue Produkte und Features. Es kann Ihre Organisation eine Vorschau auf was kommt, testen Sie die neuen Features in Ihrer Umgebung, und geben Sie Feedback, bevor wir Produktbuilds der Öffentlichkeit freigeben, abrufen. Um mehr zu erfahren, finden Sie unter [Skype für Business Preview](https://www.skypepreview.com/).
+Das Skype for Business-Kunden-Preview-Programm bietet Ihnen frühen Zugriff auf neue Produkte und Funktionen. Sie ermöglicht Ihrer Organisation, sich einen Einblick in das kommende zu verschaffen, die neuen Funktionen in ihrer eigenen Umgebung zu testen und Feedback zu geben, bevor wir Produkt-Builds für die breite Öffentlichkeit freigeben. Weitere Informationen finden Sie unter [Skype for Business Preview](https://www.skypepreview.com/).
 
 ## <a name="related-topics"></a>Verwandte Themen
 [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)

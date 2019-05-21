@@ -5,36 +5,36 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
-description: ProgressReport-Ansicht speichert Informationen zu beendeten konferenzsitzungen. Fortschrittsberichte geschrieben werden nur für anrufen und Sitzungen, die Lync Server 2013 bestimmt um zu Diagnosezwecken hilfreich sein können. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 4508b2f1772a3b21d51d561c310b31f00740973d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: In der ProgressReport-Ansicht werden Informationen zu abgeschlossenen Sitzungen gespeichert. Fortschrittsberichte werden nur für Anrufe und Sitzungen geschrieben, die von lync Server 2013 für diagnostische Zwecke nützlich sein können. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
+ms.openlocfilehash: e5ad388c2845be63926f2172f944abc08f58481e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930630"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295958"
 ---
 # <a name="progressreport-view"></a>ProgressReport-Ansicht
  
-ProgressReport-Ansicht speichert Informationen zu beendeten konferenzsitzungen. Fortschrittsberichte geschrieben werden nur für anrufen und Sitzungen, die Lync Server 2013 bestimmt um zu Diagnosezwecken hilfreich sein können. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
+In der ProgressReport-Ansicht werden Informationen zu abgeschlossenen Sitzungen gespeichert. Fortschrittsberichte werden nur für Anrufe und Sitzungen geschrieben, die von lync Server 2013 für diagnostische Zwecke nützlich sein können. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
   
 > [!NOTE]
-> Die Felder ErrorTime, ErrorReportSeq und ProgressReportSeq verweisen nicht notwendigerweise auf Fehler, sondern auf Nachrichten, die den Status von Anrufen oder Nachrichten angeben. 
+> Die Felder "Fehler", "ErrorReportSeq" und "ProgressReportSeq" beziehen sich nicht unbedingt auf Fehler, sondern auf Nachrichten, die den Status von anrufen oder Nachrichten angeben. 
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|**"ErrorTime"** <br/> |datetime  <br/> |Zeitpunkt der Fehler aufgetreten ist. In Verbindung mit "errorreportseq" verwendet, um einen Fehler eindeutig zu identifizieren.  <br/> |
-|**"Errorreportseq"** <br/> |int  <br/> |ID-Nummer zur Identifikation des Fehlers. In Verbindung mit ErrorTime verwendet, um einen Fehler eindeutig zu identifizieren.  <br/> |
-|**"Progressreportseq" verweisen** <br/> |int  <br/> |Identifizieren Sie den Fortschrittsbericht-ID. Verwendet, um Fortschrittsberichte des gleichen Fehlerberichts zu unterscheiden.  <br/> |
+|**Fehlerzeit** <br/> |datetime  <br/> |Zeitpunkt des Fehlers. Wird in Verbindung mit ErrorReportSeq verwendet, um einen Fehler eindeutig zu identifizieren.  <br/> |
+|**ErrorReportSeq** <br/> |int  <br/> |Die ID-Nummer, um den Fehler zu identifizieren. Wird in Verbindung mit Fehlerzeit verwendet, um einen Fehler eindeutig zu identifizieren.  <br/> |
+|**ProgressReportSeq** <br/> |int  <br/> |ID zum Identifizieren des Statusberichts Wird verwendet, um Fortschrittsberichte desselben Fehlerberichts zu unterscheiden.  <br/> |
 |**MsDiagId** <br/> |int  <br/> |Diagnose-ID für den Fehlerbericht.  <br/> |
-|**Quelle** <br/> |nvarchar(256)  <br/> |Name des Servers, der den Fehler ausgelöst hat (falls der Bericht von einer Serverkomponente gesendet wurde).  <br/> |
-|**Anwendung** <br/> |nvarchar(256)  <br/> |Name der Anwendung, die den Fehler ausgelöst hat (falls der Bericht von einer Serverkomponente gesendet wurde).  <br/> |
-|**TelemetryId** <br/> |uniqueidentifier  <br/> |Eindeutige ID zum korelieren für die verschiedenen Komponenten in einer Konferenz Beteiligten.  <br/> |
-|**SessionSetupTime** <br/> |int  <br/> |Zeit (in Millisekunden) für eine bestimmte Komponente zu einer Konferenz erforderlich.  <br/> |
-|**MsDiagHeader** <br/> |varchar(max)  <br/> |Zusätzliche Fehlerinformationen.  <br/> |
+|**Quelle** <br/> |nvarchar(256)  <br/> |Name des Servers, der den Fehler verursacht hat (wenn der Bericht von einer Serverkomponente gesendet wurde).  <br/> |
+|**Anwendung** <br/> |nvarchar(256)  <br/> |Der Name der Anwendung, die den Fehler verursacht hat (wenn der Bericht von einer Serverkomponente gesendet wurde).  <br/> |
+|**Telemetrie** <br/> |uniqueidentifier  <br/> |Eindeutiger Bezeichner, in dem die Verknüpfungszeit Informationen für die verschiedenen an einer Konferenz beteiligten Komponenten korreliert werden.  <br/> |
+|**SessionSetupTime** <br/> |int  <br/> |Zeit (in Millisekunden), die für eine bestimmte Komponente erforderlich ist, um an einer Konferenz teilzunehmen.  <br/> |
+|**MsDiagHeader** <br/> |varchar (max)  <br/> |Weitere Fehlerinformationen.  <br/> |
    
 

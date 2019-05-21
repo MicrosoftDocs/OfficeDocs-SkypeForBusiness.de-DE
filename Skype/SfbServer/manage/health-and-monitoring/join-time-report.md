@@ -1,25 +1,25 @@
 ---
-title: Konferenzbeitrittszeit in Skype für Business Server
+title: Bericht "Konferenzteilnahme Zeit" in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
-description: 'Zusammenfassung: Erfahren Sie mehr über die Zusammenfassung Konferenzbeitrittszeit in Skype für Business Server.'
-ms.openlocfilehash: 91e1c58d5718f0012e59e5ce2bfb6c53dbfd9c01
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Zusammenfassungsbericht zur Konferenzteilnahme in Skype for Business Server.'
+ms.openlocfilehash: a6ded5dad2d55c6c629cd61809c803ee40de862a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897646"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305640"
 ---
-# <a name="conference-join-time-report-in-skype-for-business-server"></a>Konferenzbeitrittszeit in Skype für Business Server
+# <a name="conference-join-time-report-in-skype-for-business-server"></a>Bericht "Konferenzteilnahme Zeit" in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den zusammenfassenden Konferenzbeitrittszeit in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den Bericht "Konferenz Teilzeit-Zusammenfassung" in Skype for Business Server.
   
 Mit dem Bericht über Zeitpunkt des Konferenzbeitritts können Sie bestimmen, wie lange die Benutzer benötigen, um einer Konferenz beizutreten. Dieser Bericht enthält die durchschnittliche Zeit für den Beitritt (in Millisekunden) sowie eine Übersicht darüber, wie viele Benutzer in maximal 2 Sekunden einer Konferenz beitreten konnten, wie viele Benutzer zwischen 2 und 5 Sekunden für den Konferenzbeitritt benötigten usw.
   
@@ -52,13 +52,13 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über Z
 |**Datum** <br/> Der eigentliche Name dieser Metrik hängt vom ausgewählten Intervall ab.  <br/> |Nein  <br/> |Zeitpunkt (Datum und Uhrzeit), zu dem die Konferenz stattfand.  <br/> |
 |**Sitzungen insgesamt** <br/> |Nein  <br/> |Die Gesamtzahl der Sitzungen, einschließlich Sitzungen ohne Fehler, Sitzungen mit Fehlern (sowohl erwarteten als auch unerwarteten) und nicht kategorisierten Sitzungen.  <br/> |
 |**Mittelwert (ms)** <br/> |Nein  <br/> |Die durchschnittliche Zeit (in Millisekunden), die die Teilnehmer für den Konferenzbeitritt benötigten.  <br/> |
-|**Sitzungen \< 2 Sekunden, Anzahl** <br/> |Nein  <br/> |Die Anzahl der Teilnehmer, die der Konferenz in weniger als 2 Sekunden beitreten konnten.  <br/> |
+|**Sitzungen \< 2 Sekunden, Lautstärke** <br/> |Nein  <br/> |Die Anzahl der Teilnehmer, die der Konferenz in weniger als 2 Sekunden beitreten konnten.  <br/> |
 |**Sitzungen \< 2 Sekunden, Prozentsatz** <br/> |Nein  <br/> ||
 |**Sitzungen 2-5 Sekunden, Anzahl** <br/> |Nein  <br/> |Die Anzahl der Teilnehmer, die zwischen 2 und 5 Sekunden für den Konferenzbeitritt benötigten.  <br/> |
 |**Sitzungen 2-5 Sekunden, Prozentsatz** <br/> |Nein  <br/> |Der Prozentsatz der Gesamtteilnehmer, die zwischen 2 und 5 Sekunden für den Konferenzbeitritt benötigten.  <br/> |
 |**Sitzungen 5-10 Sekunden, Anzahl** <br/> |Nein  <br/> |Die Anzahl der Teilnehmer, die zwischen 5 und 10 Sekunden für den Konferenzbeitritt benötigten.  <br/> |
 |**Sitzungen 5-10 Sekunden, Prozentsatz** <br/> |Nein  <br/> |Der Prozentsatz der Gesamtteilnehmer, die zwischen 5 und 10 Sekunden für den Konferenzbeitritt benötigten.  <br/> |
-|**Sitzungen \> 10 Sekunden, Anzahl** <br/> |Nein  <br/> |Die Anzahl der Teilnehmer, die mehr als 10 Sekunden für den Konferenzbeitritt benötigten.  <br/> |
+|**Sitzungen \> 10 Sekunden, Lautstärke** <br/> |Nein  <br/> |Die Anzahl der Teilnehmer, die mehr als 10 Sekunden für den Konferenzbeitritt benötigten.  <br/> |
 |**Sitzungen \> 10 Sekunden, Prozentsatz** <br/> |Nein  <br/> |Der Prozentsatz der Gesamtteilnehmer, die mehr als 10 Sekunden für den Konferenzbeitritt benötigten.  <br/> |
    
 

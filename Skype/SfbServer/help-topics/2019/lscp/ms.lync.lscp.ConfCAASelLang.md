@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ConfCAASelLang
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wählen Sie die Sprachen aus, die für Ihre Zugriffsnummer für Einwahlkonferenzen verwendet werden sollen. Ausführliche Informationen finden Sie unter Create or Modify a Dial-in Conferencing Access Number.
-ms.openlocfilehash: 721d9d4f3486fe02edd451985f5277cb30f74f2f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf5b317b9f32efcbc5e8da59da217fea4654fb3a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891614"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300287"
 ---
 # <a name="select-languages"></a>Auswählen von Sprachen
 
