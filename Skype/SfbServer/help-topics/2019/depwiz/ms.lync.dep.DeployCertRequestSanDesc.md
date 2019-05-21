@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequestSanDesc
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 ROBOTS: NOINDEX, NOFOLLOW
-description: Der Antragstellername / Alternative Antragstellernamen Seite enthält eine Zusammenfassung der den Antragstellernamen und alle alternativen Antragstellernamen, die das Zertifikat aufgefüllt werden soll. Die Namen für den Antragstellernamen und den alternativen Antragstellernamen präsentiert werden aus dem Dokument Definition zusammengefasst, wie es erstellt wurde, wenn Sie die Bereitstellung im Topologie-Generator definiert haben.
-ms.openlocfilehash: 8808fc8aa0ec6fd2112b9fa6c315165cf32bd358
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Die Seite Betreffname/Subject Alternative Names zeigt eine Zusammenfassung des Antragstellernamens und aller alternativen Subjektnamen an, mit denen das Zertifikat gefüllt wird. Die Namen für den Namen des Antragstellers und den alternativen Betreff werden aus dem Definitions Dokument zusammengestellt, wie Sie beim Definieren der Bereitstellung im Topologie-Generator erstellt wurden.
+ms.openlocfilehash: 43bc61a0a67a00c681b9d8a56331340c7d65369d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893770"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299244"
 ---
-# <a name="certificate-request-subject-alternate-names"></a><span data-ttu-id="5d3da-104">Zertifikatanforderung (alternative Antragstellernamen)</span><span class="sxs-lookup"><span data-stu-id="5d3da-104">Certificate Request (Subject Alternate Names)</span></span>
+# <a name="certificate-request-subject-alternate-names"></a><span data-ttu-id="131c2-104">Zertifikatanforderung (alternative Antragstellernamen)</span><span class="sxs-lookup"><span data-stu-id="131c2-104">Certificate Request (Subject Alternate Names)</span></span>
  
-<span data-ttu-id="5d3da-105">Die **Antragstellername / Alternative Antragstellernamen** Seite enthält eine Zusammenfassung der den Antragstellernamen und alle alternativen Antragstellernamen, die das Zertifikat aufgefüllt werden soll.</span><span class="sxs-lookup"><span data-stu-id="5d3da-105">The **Subject Name / Subject Alternative Names** page presents a summary of the subject name and all subject alternative names that will populate the certificate.</span></span> <span data-ttu-id="5d3da-106">Die Namen für den Antragstellernamen und den alternativen Antragstellernamen präsentiert werden aus dem Dokument Definition zusammengefasst, wie es erstellt wurde, wenn Sie die Bereitstellung im Topologie-Generator definiert haben.</span><span class="sxs-lookup"><span data-stu-id="5d3da-106">The names presented for subject name and subject alternative names are gathered from the definition document, as it was created when you defined the deployment in Topology Builder.</span></span>
+<span data-ttu-id="131c2-105">Die Seite **Betreffname/Subject Alternative** Names zeigt eine Zusammenfassung des Antragstellernamens und aller alternativen Subjektnamen an, mit denen das Zertifikat gefüllt wird.</span><span class="sxs-lookup"><span data-stu-id="131c2-105">The **Subject Name / Subject Alternative Names** page presents a summary of the subject name and all subject alternative names that will populate the certificate.</span></span> <span data-ttu-id="131c2-106">Die Namen für den Namen des Antragstellers und den alternativen Betreff werden aus dem Definitions Dokument zusammengestellt, wie Sie beim Definieren der Bereitstellung im Topologie-Generator erstellt wurden.</span><span class="sxs-lookup"><span data-stu-id="131c2-106">The names presented for subject name and subject alternative names are gathered from the definition document, as it was created when you defined the deployment in Topology Builder.</span></span>
   
-<span data-ttu-id="5d3da-107">Wenn Sie Änderungen an den Antragstellernamen oder eines alternativen Antragstellernamen vornehmen müssen, klicken Sie auf **Abbrechen** , um den Zertifikatsanforderungs-Assistenten zu beenden und erneut ausführen, Topologie-Generator.</span><span class="sxs-lookup"><span data-stu-id="5d3da-107">If you must make changes to the subject name or any of the subject alternative names, click **Cancel** to exit the Certificate Request Wizard and rerun Topology Builder.</span></span> <span data-ttu-id="5d3da-108">Veröffentlichen Sie die neue Konfiguration mit den ordnungsgemäß definierte Betreff und den alternativen Antragstellernamen klicken Sie dann erneut.</span><span class="sxs-lookup"><span data-stu-id="5d3da-108">Then republish the new configuration with the correctly defined subject and subject alternative names.</span></span>
+<span data-ttu-id="131c2-107">Wenn Sie Änderungen am Namen des Antragstellers oder eines der alternativen Subjektnamen vornehmen müssen, klicken Sie auf **Abbrechen** , um den Assistenten für Zertifikatsanforderungen zu beenden und den Topologie-Generator erneut auszuführen.</span><span class="sxs-lookup"><span data-stu-id="131c2-107">If you must make changes to the subject name or any of the subject alternative names, click **Cancel** to exit the Certificate Request Wizard and rerun Topology Builder.</span></span> <span data-ttu-id="131c2-108">Veröffentlichen Sie die neue Konfiguration dann erneut mit dem korrekt definierten Betreff und den alternativen Namen.</span><span class="sxs-lookup"><span data-stu-id="131c2-108">Then republish the new configuration with the correctly defined subject and subject alternative names.</span></span>
   
 
