@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
 description: Das Cmdlet „Get-CcApplianceLogDirectory“ zeigt das aktuelle Verzeichnis an, in dem die Protokolle für eine Skype for Business Cloud Connector Edition-Appliance gespeichert werden.
-ms.openlocfilehash: d1298454bb347356718fdf24d6761acfea1b71b1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 675e89f49c7c1384edc7cfa5944c8aee3f236c79
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233952"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287370"
 ---
 # <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
@@ -37,7 +37,7 @@ Keine
 
 ### <a name="example-1"></a>Beispiel 1
 
-Das folgende Beispiel zeigt den aktuellen Ordner, in dem die Protokolle für die aktuelle Anwendung von Cloud-Connector gespeichert werden:
+Das folgende Beispiel zeigt den aktuellen Ordner, in dem Protokolle für die aktuelle Appliance des Cloud Connectors gespeichert sind:
   
 ```
 Get-CcApplianceLogDirectory
@@ -46,7 +46,7 @@ Get-CcApplianceLogDirectory
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Das Cmdlet Get-CcApplianceLogDirectory zeigt das aktuelle Verzeichnis, in dem die Protokolle für eine Cloud-Connector Appliance gespeichert werden. Der Standardordner ist C:\Users\%userprofile%\CloudConnector\ApplianceRoot\Logs. 
+Das Cmdlet "Get-CcApplianceLogDirectory" zeigt das aktuelle Verzeichnis an, in dem die Protokolle für eine Cloud Connector-Appliance gespeichert sind. Der Standardordner lautet C:\Users\%USERPROFILE%\CloudConnector\ApplianceRoot\Logs. 
   
 Sie können das Verzeichnis mit dem Cmdlet „Set-CcApplianceDirectory“ ändern.  
   

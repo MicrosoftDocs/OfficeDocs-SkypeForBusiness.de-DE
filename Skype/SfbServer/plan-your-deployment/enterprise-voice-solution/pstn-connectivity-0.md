@@ -1,10 +1,10 @@
 ---
-title: Planen von PSTN-Konnektivität in Skype for Business Server
+title: Planen der PSTN-Konnektivität in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
-description: Planen von PSTN-Konnektivität in Enterprise-VoIP in Skype für Business Server.
-ms.openlocfilehash: aa3449746c539e7b7bf8fe5332fa4313f80fa555
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Planen Sie die PSTN-Konnektivität in Enterprise-VoIP in Skype for Business Server.
+ms.openlocfilehash: f0b6aa6b43562fea91885b0d55d75fd234ab97de
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913570"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276497"
 ---
-# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Planen von PSTN-Konnektivität in Skype for Business Server
+# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Planen der PSTN-Konnektivität in Skype for Business Server
  
-Planen von PSTN-Konnektivität in Enterprise-VoIP in Skype für Business Server.
+Planen Sie die PSTN-Konnektivität in Enterprise-VoIP in Skype for Business Server.
   
-Eine VoIP-Lösung für Unternehmen muss ein- und ausgehende PSTN-Anrufe (Public Switched Telephone Network, Telefonfestnetz) ermöglichen, ohne dass die Dienstqualität (Quality of Service, QoS) in irgendeiner Weise beeinträchtigt wird. Benutzer, die Anrufe tätigen und empfangen darf nicht die zugrunde liegende Technologie bewusst sein: aus Sicht des Benutzers, ein Anruf zwischen der Enterprise-VoIP-Infrastruktur und dem Telefonfestnetz scheinbar nur ein weiteres Telefonanruf sollten.
+Eine VoIP-Lösung für Unternehmen muss ein- und ausgehende PSTN-Anrufe (Public Switched Telephone Network, Telefonfestnetz) ermöglichen, ohne dass die Dienstqualität (Quality of Service, QoS) in irgendeiner Weise beeinträchtigt wird. Benutzer, die Anrufe tätigen und empfangen, sollten sich der zugrunde liegenden Technologie nicht bewusst sein: ein Anruf zwischen der Enterprise-VoIP-Infrastruktur und dem PSTN sollte aus Sicht des Benutzers wie nur ein weiterer Telefonanruf aussehen.
   
-Skype für Business Server bietet zuverlässige, skalierbare PSTN-Anbindung mithilfe der folgenden Optionen:
+Skype for Business Server bietet zuverlässige, skalierbare PSTN-Konnektivität mithilfe der folgenden Optionen:
   
 - **SIP-Trunks** mit einem Anbieter von Internettelefoniediensten (Internet Telephony Service Provider, ITSP)
     
@@ -39,14 +39,14 @@ Je nach Größe, geografischer Abdeckung und der vorhandenen Enterprise-VoIP-Inf
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [SIP-Trunking in Skype für Business Server](sip-trunking.md)
+- [SIP-Trunking in Skype for Business Server](sip-trunking.md)
     
-- [Direkte SIP-Verbindungen in Skype für Business Server](direct-sip.md)
+- [Direkte SIP-Verbindungen in Skype for Business Server](direct-sip.md)
     
-- [M: n-Trunk in Skype für Business Server](m-n-trunk.md)
+- [M:N trunk in Skype for Business Server](m-n-trunk.md)
     
-- [Übersetzungsregeln in Skype für Business Server](translation-rules.md)
+- [Übersetzungsregeln in Skype for Business Server](translation-rules.md)
     
-- [Planen der ausgehende VoIP-routing in Skype für Business Server](outbound-voice-routing.md)
+- [Planen des ausgehenden VoIP-Routings in Skype for Business Server](outbound-voice-routing.md)
     
 

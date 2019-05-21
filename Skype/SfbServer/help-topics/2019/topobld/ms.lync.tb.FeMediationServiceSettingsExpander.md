@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.FeMediationServiceSettingsExpander
@@ -13,25 +13,25 @@ localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Für Vermittlungsserver können Sie Folgendes angeben:'
-ms.openlocfilehash: ae8cf24e9d4ba42f3b97a8f32e0bcdaf2aae4c77
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 701fe25213211e044a33cd91893a3509df6148a4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912015"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292745"
 ---
 # <a name="mediation-service-settings-expander"></a>Einstellungen für den Vermittlungsdienst – Erweiterung
 
 Für **Vermittlungsserver** können Sie Folgendes angeben:
 
-Wenn Sie den Vermittlungsserver auf den Front-End-Pool oder Standard Edition-Server kombinieren, aktivieren Sie das Kontrollkästchen **verbundener Vermittlungsserver aktiviert**. Wenn Sie nicht, den der Vermittlungsserver zusammenzustellen auswählen, sind keine definierbaren Einstellungen in diesem Abschnitt.
+Wenn Sie den Vermittlungsserver auf dem Front-End-Pool oder auf dem Standard Edition-Server abstimmen, aktivieren Sie das Kontrollkästchen für den **Mediationsserver aktiviert**. Wenn Sie den Vermittlungs Server nicht collocate möchten, gibt es in diesem Abschnitt keine definierbaren Einstellungen.
 
-Wenn Sie die gemeinsame Ausführung des Vermittlungsservers aktiviert haben, müssen Sie die überwachungsportbereich auf dem Server für Transport Layer Security (TLS) zu definieren. Standardmäßig ist dieser Port 5067. Wenn Sie **Aktivieren TCP-Port**auswählen, müssen Sie einen Port (TCP = Transmission Control Protocol) für den verbundenen Vermittlungsserver definieren. Dies ist eine optionale Einstellung, und verweisen Sie auf die Anforderungen Ihres Gateways oder öffentlichen Telefonnetz (PSTN) netzwerkanforderungen zu ermitteln, ob dies notwendig ist. Standardmäßig ist der Wert des TCP-Ports 5068.
+Wenn Sie die Übertragung des Vermittlungsservers aktiviert haben, müssen Sie den Überwachungs Portbereich auf dem Server für TLS (Transport Layer Security) definieren. Standardmäßig ist dieser Port 5067. Wenn Sie **TCP-Port aktivieren**auswählen, müssen Sie einen TCP-Port (Transmission Control Protocol) für den beiliegenden Vermittlungs Server definieren. Hierbei handelt es sich um eine optionale Einstellung, auf die Sie sich beziehen sollten, um festzustellen, ob dies erforderlich ist, wenn Sie sich auf die Anforderungen Ihres Gateways oder der PSTN-Anforderungen (Public Switched Telephone Network) beziehen Standardmäßig ist der TCP-Port-Wert 5068.
 
-Definieren Sie PSTN-Gateways, die dem verbundenen Vermittlungsserver zugeordnet sind. Wenn Sie bereits Gateways definiert haben, werden sie zur Verfügung, die der Vermittlungsserver zugeordnet.
+Sie definieren PSTN-Gateways, die dem zusammengefassten Vermittlungs Server zugeordnet sind. Wenn Sie bereits Gateways definiert haben, stehen diese dem Vermittlungs Server zur Verfügung.
 
-Wenn Sie mehr als ein Gateway einen Vermittlungsserver zugeordnet haben, wird das erste Gateway verknüpften Standardgateway sein. Falls Sie ein anderes Gateway als Standardgateway auswählen müssen, markieren Sie das gewünschte Gateway und klicken Sie auf **Als Standard**. Klicken Sie auf **Festlegung als Standardeinstellung aufheben**, um die Festlegung als Standardeinstellung aufzuheben.
+Wenn einem Vermittlungs Server mehr als ein Gateway zugeordnet ist, ist das erste zugeordnete Gateway das Standardgateway. Falls Sie ein anderes Gateway als Standardgateway auswählen müssen, markieren Sie das gewünschte Gateway und klicken Sie auf **Als Standard**. Klicken Sie auf **Festlegung als Standardeinstellung aufheben**, um die Festlegung als Standardeinstellung aufzuheben.
 
-Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für den Enterprise Edition-Front-End-Pool oder Standard Edition-Server finden Sie unter [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) und [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Details zum Definieren und Konfigurieren der Einstellungen für den Enterprise Edition-Front-End-Pool oder Standard Edition-Server finden Sie unter [definieren und Konfigurieren der Topologie](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) und [Bereitstellen von Vermittlungsservern und definieren](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)von Peers.
 
 

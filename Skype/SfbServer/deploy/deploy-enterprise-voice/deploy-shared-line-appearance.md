@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/7/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: Lesen Sie dieses Thema und finden Sie heraus, wie die Funktion „Gemeinsame Leitungen“ (SLA) in Skype for Business Server 2015, kumulatives Update vom November 2015, bereitzustellen ist. Bei SLA handelt es sich um eine Funktion zum Verarbeiten mehrerer Anrufe an eine bestimmte Nummer, die als gemeinsam genutzte Nummer bezeichnet wird.
-ms.openlocfilehash: bbdb5de985e44c0c3a0484605857485823457674
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 04efe0a0b3ae9e89576ca2d52ce45861cde68a9d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892650"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291179"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Bereitstellen der Funktion „Gemeinsame Leitungen“ in Skype for Business Server 2015
 
@@ -28,11 +28,11 @@ Lesen Sie dieses Thema und finden Sie heraus, wie die Funktion „Gemeinsame Lei
 
 Mehr über diese Funktion erfahren Sie unter [Plan for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).
 
-Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Business Server 2015 November Kumulatives Update. Um dieses Feature aktivieren, müssen Sie zuerst das kumulative Update bereitgestellt.
+Die gemeinsame Leitungsdarstellung (SLA) ist ein neues Feature in Skype for Business Server, 2015, Kumulatives Update vom November. Um dieses Feature zu aktivieren, müssen Sie zuerst dieses kumulative Update bereitgestellt haben.
 
 ### <a name="install-shared-line-appearance"></a>Installieren der Funktion „Gemeinsame Leitungen“
 
-1. Nach der Skype für Business Server, 2015 November Kumulatives Update bereitgestellt wird, führen Sie die `SkypeServerUpdateInstaller.exe` Patch auf jedem Front-End-Server im Pool.
+1. Führen Sie nach dem Skype for Business-Server, dem kumulativen Update vom `SkypeServerUpdateInstaller.exe` November 2015, den Patch auf jedem Front-End-Server im Pool aus.
 
 2. Der Installer stellt die aktuelle Version der SLA-Anwendung bereit, allerdings ist diese Anwendung nicht standardmäßig aktiviert. Sie wird aktiviert, indem Sie die folgenden Schritte durchführen:
 
@@ -77,7 +77,7 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
     Sie können Set-CsSlaConfiguration verwenden, um eine neue SLA-Gruppe zu erstellen oder eine vorhandene Gruppe zu ändern.
 
     > [!NOTE]
-    > Beachten Sie, dass die Angaben für `-Identity` muss ein gültige vorhandenen Enterprise-VoIP-aktiviertes Benutzerkonto.
+    > Beachten Sie, dass Sie für `-Identity` ein gültiges vorhandenes Enterprise-VoIP-Benutzerkonto angeben müssen.
 
 2. Fügen Sie der Gruppe mithilfe des Cmdlet [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps) Stellvertretungen hinzu:
 
@@ -86,7 +86,7 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
           <NameOfDelegate@domain>
    ```
 
-    Im folgenden Beispiel wird der SLA-Gruppe ein Benutzer hinzugefügt. Jeder Benutzer der Gruppe hinzugefügt, muss eine gültige Enterprise-VoIP-aktivierten Benutzer:
+    Im folgenden Beispiel wird der SLA-Gruppe ein Benutzer hinzugefügt. Jeder Benutzer, der der Gruppe hinzugefügt wird, muss ein gültiger Enterprise Voice-fähiger Benutzer sein:
 
    ```
    Add-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate1@contoso.com
@@ -102,7 +102,7 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
   ```
 
-    Im folgenden Beispiel wird die Anrufe, die überschreitet die maximale Anzahl gleichzeitiger Anrufe an das Telefon 202-555-1234 Nummer weitergeleitet werden. Das Ziel kann ein Benutzer in Ihrer Organisation anstelle einer Telefonnummer sein. In diesem Fall die Syntax für die Person, die die weitergeleitete Anrufe empfangen ist dieselbe wie bei der Angabe von einer stellvertretungs: `sip:<NameofDelegate@domain>`. Die möglichen Parameter für `BusyOption` ist `Voicemail`:
+    Im folgenden Beispiel werden Anrufe festgelegt, die die maximale Anzahl gleichzeitiger Anrufe überschreiten, die an die Telefonnummer 202-555-1234 weitergeleitet werden. Das Ziel kann ein Benutzer in Ihrer Organisation und nicht eine Telefonnummer sein. in diesem Fall ist die Syntax für die Person, für die weitergeleitete Anrufe zu empfangen sind, identisch mit der `sip:<NameofDelegate@domain>`Angabe einer Stellvertretung:. Der andere mögliche Parameter für `BusyOption` ist `Voicemail`:
 
   ```
   Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234
@@ -116,7 +116,7 @@ Freigegebene Zeile Darstellung (SLA) ist ein neues Feature in Skype für Busines
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
    ```
 
-2. Das folgende Beispiel gibt an, dass verpasste Anrufe an die Benutzer mit dem Namen weitergeleitet werden `sla_forward_number`. Die gültigen Optionen für die `-MissedCallOption` Parameter sind `Forward`, `BusySignal`, oder `Disconnect`. Bei Auswahl von `Forward`, müssen Sie auch enthalten die `-MissedCallForwardTarget` Parameter mit einem Benutzer oder Rufnummer weiter als Ziel:
+2. Im folgenden Beispiel wird angegeben, dass verpasste Anrufe an den Namen `sla_forward_number`des Benutzers weitergeleitet werden sollen. Die gültigen Optionen für den `-MissedCallOption` Parameter sind `Forward`, `BusySignal`oder `Disconnect`. Wenn Sie auswählen `Forward`, müssen Sie auch den `-MissedCallForwardTarget` Parameter mit einem Benutzer oder einer Telefonnummer als Ziel angeben:
 
    ```
    Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com

@@ -1,11 +1,11 @@
 ---
-title: – Topologiestatus
+title: Topologiestatus
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 5/21/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.TopoStatusMain
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 description: 'Auf der Seite Topologie: Status wird der Status der Server in der Skype for Business-Topologie angezeigt.'
-ms.openlocfilehash: ede65ba61436eb7b2b815eda7e11517a56f1dd1c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4804c75e75817bdecf260a5fc03f2df5a93bf3a2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929588"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293158"
 ---
 # <a name="topology-status"></a>Topologie: Status
 
@@ -36,6 +36,6 @@ Auf der Seite **Topologie**: **Status** können Sie die folgenden Aufgaben ausf�
 
 - [Prevent New Connections to Services](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
 
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+Details zu den verschiedenen Verfahren, die Sie mit der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype for Business Server 2015](../../manage/manage.md).
 
 

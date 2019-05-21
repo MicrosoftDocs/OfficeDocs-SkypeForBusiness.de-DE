@@ -4,47 +4,47 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'XMPP-Verbund definiert eine externe Bereitstellung auf Grundlage von eXtensible Messaging and Presence Protocol (XMPP). XMPP-Konfiguration ermöglicht Benutzern den Zugriff auf XMPP-Domänenbenutzern anhand folgender Kriterien:'
-ms.openlocfilehash: 65ef8904660eaa75ddd10238a6561ea91b9f7278
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Die XMPP-Föderation definiert eine externe Bereitstellung, die auf dem Extensible Messaging and Presence Protocol (XMPP) basiert. Eine XMPP-Konfiguration ermöglicht Benutzern den Zugriff auf XMPP-Domänenbenutzer durch:'
+ms.openlocfilehash: c5231016729cd40619bbcfe48ebfcf59eff9182a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238661"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275573"
 ---
 # <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>Konfigurieren von Zugriffsrichtlinien und Zertifikaten für XMPP-Gateways
 
-XMPP-Verbund definiert eine externe Bereitstellung auf Grundlage von eXtensible Messaging and Presence Protocol (XMPP). XMPP-Konfiguration ermöglicht Benutzern den Zugriff auf XMPP-Domänenbenutzern anhand folgender Kriterien:
+Die XMPP-Föderation definiert eine externe Bereitstellung, die auf dem Extensible Messaging and Presence Protocol (XMPP) basiert. Eine XMPP-Konfiguration ermöglicht Benutzern den Zugriff auf XMPP-Domänenbenutzer durch:
   
-- Sofortnachrichten und Anwesenheit – nur zwischen Personen
+- Chat und Anwesenheit – nur für Personen
     
-- Erstellung von XMPP-Verbundkontakten auf die Skype für Business-client
+- Erstellen von XMPP-verbundkontakten im Skype for Business-Client
     
-Beim Konfigurieren von Richtlinien für die Unterstützung von XMPP-Verbundpartner, die Richtlinien gelten für Benutzer von XMPP federated Domänen, aber nicht für Benutzer von Session Initiation-Protokoll (SIP) instant messaging (IM) Service Provider oder SIP verbunddomänen. Konfigurieren Sie eine XMPP-Verbundpartner für jede federated XMPP-Domäne, die Sie Ihre Benutzer die Kontakte hinzufügen und die Kommunikation mit zulassen möchten. Nachdem die Richtlinien vorhanden sind, müssen Sie die Zertifikate XMPP-Gateway zu konfigurieren. 
+Wenn Sie Richtlinien für die Unterstützung von XMPP-Verbundpartnern konfigurieren, gelten die Richtlinien für Benutzer von XMPP-Verbunddomänen, nicht aber für Benutzer von SIP-Chat Diensten (Session Initiation Protocol) oder SIP-Verbunddomänen. Sie konfigurieren einen XMPP-Verbundpartner für jede XMPP-Verbunddomäne, die es Ihren Benutzern ermöglichen soll, Kontakte hinzuzufügen und mit Ihnen zu kommunizieren. Sobald die Richtlinien vorhanden sind, müssen Sie die XMPP-Gateway-Zertifikate konfigurieren. 
   
 > [!NOTE]
-> XMPP-Funktionen ist in Skype für Business Server 2019 veraltet, sondern in einen Legacyserver zusammen mit Skype für Business Server 2019 fortgeführt werden kann. Stellen Sie sicher, dass den Server der Vorversionen bereits bereitgestellt haben (Skype für Business Server 2015 / Lync Server 2013) XMPP-Gateway und Richtlinien für den Zugriff zum Aktivieren von Benutzern für legacy XMPP-Gateway konfiguriert. Weitere Informationen hierzu finden Sie unter [Migrieren von XMPP-Verbund](migrating-xmpp-federation.md). 
+> Die XMPP-Funktionalität ist in Skype for Business Server 2019 veraltet, kann aber auf einem Legacy Server in Koexistenz mit Skype for Business Server 2019 fortgesetzt werden. Stellen Sie sicher, dass Sie bereits den Legacy Server (Skype for Business Server 2015/lync Server 2013) XMPP-Gateway bereitgestellt haben und die Zugriffsrichtlinien so konfiguriert haben, dass Benutzer für Legacy-XMPP-Gateways aktiviert werden. Ausführliche Informationen finden Sie unter [Migrieren von XMPP](migrating-xmpp-federation.md)-Föderationen. 
   
-### <a name="configure-an-external-access-policy-to-enable-users-for-legacy-xmpp-gateway"></a>Konfigurieren einer Richtlinie für externen Zugriff zum Aktivieren von Benutzern für legacy-XMPP-Gateway
+### <a name="configure-an-external-access-policy-to-enable-users-for-legacy-xmpp-gateway"></a>Konfigurieren einer Richtlinie für den externen Zugriff zum Aktivieren von Benutzern für Legacy-XMPP-Gateways
 
-1. Öffnen Sie die Vorversion Skype Business Server-Systemsteuerung.
+1. Öffnen Sie das Legacy-Control Panel für Skype for Business Server.
     
-2. Klicken Sie in der linken Navigationsleiste auf **Partnerverbund und externer Zugriff**und klicken Sie dann auf **Richtlinie für den externen Zugriff**.
+2. Klicken Sie in der linken Navigationsleiste auf **Föderation und externer Zugriff**, und klicken Sie dann auf **Richtlinie für den externen Zugriff**.
     
 3. Klicken Sie auf **Neu** und anschließend auf **Benutzerrichtlinie**.
     
-4. Geben Sie einen Namen für die externe benutzerzugriffsrichtlinie ein.
+4. Geben Sie einen Namen für die Benutzerrichtlinie für den externen Zugriff ein.
     
-5. Geben Sie eine Beschreibung für die externe benutzerzugriffsrichtlinie ein.
+5. Geben Sie eine Beschreibung für die Benutzerrichtlinie für den externen Zugriff an.
     
-6. Wählen Sie **Kommunikation mit Partnerbenutzern aktivieren**.
+6. Wählen Sie **Kommunikation mit Verbundbenutzern aktivieren**aus.
     
-7. Wählen Sie **Kommunikation mit XMPP partnerverbundbenutzern aktivieren**aus.
+7. Wählen Sie **Kommunikation mit XMPP-Verbundbenutzern aktivieren**aus.
     
-8. Klicken Sie auf **Commit** , um Ihre Änderungen an der Standort- oder Benutzerrichtlinie zu speichern. 
+8. Klicken Sie auf **Commit** , um Ihre Änderungen an der Website-oder Benutzerrichtlinie zu speichern. 
     
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceAdhocTestSave
@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
-description: Sie können das Dialogfeld Speichern VoIP-Routing Testen auf Testfallinformationen verwenden, um einen Testfall der temporären VoIP-routing speichern. Geben Sie in VoIP-Routing Testfallinformationen speichern den Namen, den Sie verwenden möchten, weisen Sie diesen Testfall im Namen, und klicken Sie dann auf OK.
-ms.openlocfilehash: 9cc5ee41c16004c6667a7e3ff999a8108b2a7610
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Sie können das Dialogfeld sprach Routing-Testfall-Informationen speichern verwenden, um einen Test Case für temporäre VoIP-Routing zu speichern. Geben Sie unter Informationen zum Speichern von sprach Routing Test Fällen den Namen ein, den Sie diesem Testfall geben möchten, und klicken Sie dann auf OK.
+ms.openlocfilehash: c41b1369c623c73547ec14dd9fec511a7d0c6e2e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890774"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293662"
 ---
 # <a name="save-voice-routing-test-case-information"></a>Speichern von Testfallinformationen für das VoIP-Routing
  
-Sie können das Dialogfeld **Speichern VoIP-Routing Testen auf Testfallinformationen** verwenden, um Testfall der Atemporary VoIP-routing speichern. Geben Sie im **Speichern VoIP-Routing Testen auf Testfallinformationen**den Namen, den Sie verwenden möchten, weisen Sie diesen Testfall im **Namen** , und klicken Sie dann auf **OK**. 
+Sie können das Dialogfeld **sprach Routing-Testfall-Informationen speichern** verwenden, um Agentur für befristete-sprach Routing Test Case zu speichern. Geben Sie unter **Informationen zum Speichern von sprach Routing Test Fällen**den Namen ein, den Sie diesem Testfall geben möchten, und klicken Sie dann auf **OK**. **** 
   
 > [!NOTE]
-> Wenn Sie einen temporären Testfall speichern, werden Sie nicht auf den zentralen Verwaltungsspeicher speichern. In diesem Fall den Testfall zur Verfügung gestellt von der Registerkarte **VoIP-Routing testen** der Seite **VoIP-Routing** . Der Testfall wird mit dem Zustand **Uncommitted**angezeigt. Zum Speichern des Testfalls auf den zentralen Verwaltungsspeicher müssen Sie die VoIP-Konfiguration Commit ausführen, indem Sie auf **Commit für alle** in einem beliebigen Menü **Aktion** auf der Seite **VoIP-Routing** .
+> Wenn Sie einen temporären Test Case speichern, speichern Sie ihn nicht im zentralen Verwaltungsspeicher. Stattdessen wird der Test Case über die Registerkarte " **VoIP-Routing testen** " auf der Seite " **VoIP-Routing** " verfügbar. Der Testfall wird mit einem Status "UNCOMMITTED" angezeigt. **** Wenn Sie den Testfall im zentralen Verwaltungsspeicher speichern möchten, müssen Sie die Sprachkonfiguration übernehmen, indem Sie auf **** der Seite VoIP- **Routing** auf **alle** übernehmen klicken.
   
  
   

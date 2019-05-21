@@ -1,11 +1,11 @@
 ---
-title: Mobiler Client erstellen oder Bearbeiten der Pushbenachrichtigungskonfiguration
+title: Mobiler Client erstellen oder Bearbeiten der Push-Benachrichtigungskonfiguration
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientPushNotificationCfgEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 description: Die Pushbenachrichtigung und das Push Notification Clearing House (PNCH) sind zwei wichtige Teile der Mobilitätsfunktion. Bei der Pushbenachrichtigung wird eine Nachricht an das PNCH gesendet. Die Nachricht wird dort gehalten, bis sie an den mobilen Client übermittelt werden kann oder das Zeitlimit abläuft.
-ms.openlocfilehash: 6100c32038b28dec0259ab8224abae696724b20f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5c7d78174ca4cfe180742fa73a801704cb85997c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911030"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293431"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Mobiler Client: Erstellen oder Bearbeiten der Pushbenachrichtigungskonfiguration
  
@@ -36,9 +36,9 @@ Führen Sie die folgenden Schritte aus, um die Pushbenachrichtigung zu aktiviere
   
 2. Wählen Sie aus, welche Pushbenachrichtigungsdienste Sie aktivieren möchten, indem Sie das jeweilige Kontrollkästchen aktivieren:
     
-   - **Aktivieren von Microsoft-Pushbenachrichtigungen** aktivieren die Pushbenachrichtigung für die Cloud-basierten PNCH für Windows Phone mit der Skype für Geschäfts-app
+   - **Aktivieren von Microsoft Push-Benachrichtigungen** aktiviert die Push-Benachrichtigung für die Cloud-basierte PNCH für Windows Phone mit der Skype for Business-App
     
-   - **Kontrollkästchen Apple-Pushbenachrichtigungen** aktivieren die Pushbenachrichtigung für die Apple-PNCH für Geräte von Apple iOS (beispielsweise iPhone, iPad) ausgeführt, und verwenden die Skype für Geschäfts-app
+   - **Apple Push-Benachrichtigung aktivieren** aktiviert die Push-Benachrichtigung an den Apple-PNCH für Geräte, auf denen Apples IOS ausgeführt wird (beispielsweise iPhone, iPad) und mit der Skype for Business-App
     
 3. Klicken Sie nach Abschluss der Änderungen an der Richtlinie auf **Commit ausführen**, um Ihre Änderungen zu speichern. Falls Sie die vorgenommenen Änderungen löschen möchten, wählen Sie **Abbrechen**. Die Änderungen der Richtlinie werden dann nicht gespeichert.
     

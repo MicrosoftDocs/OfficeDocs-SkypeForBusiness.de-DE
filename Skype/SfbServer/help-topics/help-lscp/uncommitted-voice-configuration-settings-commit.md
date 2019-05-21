@@ -1,24 +1,24 @@
 ---
-title: Ohne Commit VoIP Configuration Settings Commit
+title: Commit für nicht festgeschriebene sprach Konfigurationseinstellungen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceViewSumCommit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
-description: Das Dialogfeld VoIP-Konfigurationseinstellungen ohne Commit können Sie um alle Änderungen zu überprüfen, die Sie vorgenommen haben. Blättern Sie durch das Dialogfeld auf alle nicht übernommene Änderungen überprüfen, oder klicken Sie auf die Pfeile zum Erweitern oder reduzieren die verschiedenen Abschnitte. Wenn Sie fertig sind, klicken Sie auf Commit, um diese Änderungen zu übernehmen, oder klicken Sie auf Abbrechen, um zurückzugehen und Ihre Änderungen zu ändern.
-ms.openlocfilehash: e22b248f57bf786123c57c10570d8772adf03bd4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Sie können das Dialogfeld nicht festgeschriebene sprach Konfigurationseinstellungen verwenden, um alle vorgenommenen Änderungen zu überprüfen. Scrollen Sie durch das Dialogfeld, um alle nicht übernommenen Änderungen zu überprüfen, oder klicken Sie auf die Pfeile, um die verschiedenen Abschnitte zu erweitern oder zu reduzieren. Wenn Sie fertig sind, klicken Sie entweder auf Commit, um alle diese Änderungen zu übernehmen, oder klicken Sie auf Abbrechen, um zurückzukehren und Ihre Änderungen zu ändern.
+ms.openlocfilehash: 93d1fdfa8321f21b5868c2760efc0391b4e057aa
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929062"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292242"
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>VoIP-Konfigurationseinstellungen ohne Commit: Commit ausführen
  
@@ -27,6 +27,6 @@ Sie können das Dialogfeld **VoIP-Konfigurationseinstellungen, für die kein Com
 > [!IMPORTANT]
 > Wenn Sie auf **Commit ausführen** klicken, werden **alle** im Dialogfeld **VoIP-Konfigurationseinstellungen, für die kein Commit ausgeführt wurde** aufgeführten Änderungen übernommen.
   
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+Details zu den verschiedenen Verfahren, die Sie mit der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype for Business Server 2015](../../manage/manage.md).
   
 

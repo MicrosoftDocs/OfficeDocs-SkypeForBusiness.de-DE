@@ -5,20 +5,20 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ConfMeetingSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
-description: Besprechungskonfigurationseinstellungen definieren Sie den Typ der Konferenzen (auch Calledmeetings), dass Benutzer erstellen können, und steuern, wie (oder ob) anonyme Benutzer und einwahlkonferenzbenutzer diesen Konferenzen teilnehmen können. Diese Einstellungen gelten nur für geplante Besprechungen. Sie gelten nicht für Ad-hoc-Besprechungen, die durch Klicken auf die Option Sofortbesprechung erstellt werden.
-ms.openlocfilehash: 5381394d106c19091e6f8c29582358b60aa36912
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Die Konfigurationseinstellungen für Besprechungen definieren den Typ von Konferenzen (auch calledmeetings), die Benutzer erstellen können, und Steuern, wie (oder ob) anonyme Benutzer und Benutzer von Einwahlkonferenzen an diesen Konferenzen teilnehmen können. Diese Einstellungen gelten nur für geplante Besprechungen. Sie gelten nicht für Ad-hoc-Besprechungen, die durch Klicken auf die Option Sofortbesprechung erstellt werden.
+ms.openlocfilehash: 82619b255f99dc5a82d6a9cb704fe5443fe83d23
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911016"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293424"
 ---
 # <a name="meeting-configuration"></a>Besprechungskonfiguration
 
@@ -28,9 +28,9 @@ Konfigurationen für Besprechungen gelten auf globaler Ebene, Standortebene oder
 
 - **Globale besprechungskonfiguration:** Die globale besprechungskonfiguration wird standardmäßig erstellt. Sie können die globale Besprechungskonfiguration bearbeiten, jedoch nicht löschen. Wenn Sie versuchen, die globale Besprechungskonfiguration zu entfernen, werden alle Einstellungen auf die Standardwerte zurückgesetzt.
 
-- **Website besprechungskonfiguration (optional):** Erstellen Sie einen oder mehrere Website besprechungskonfigurationen, von denen jedes an einen bestimmten Standort gilt. Standortkonfigurationen setzen die globale Konfiguration außer Kraft.
+- **Konfiguration der Website Besprechung (optional):** Sie können eine oder mehrere Website Besprechungs Konfigurationen erstellen, die jeweils für eine bestimmte Website gelten. Standortkonfigurationen setzen die globale Konfiguration außer Kraft.
 
-- **Pool besprechungskonfiguration (optional):** Erstellen Sie einen oder mehrere Pools besprechungskonfigurationen, von denen jedes einem bestimmten Pool betrifft. Poolkonfigurationen setzen die globale Konfiguration und die Standortkonfigurationen außer Kraft.
+- **Pool-besprechungskonfiguration (optional):** Sie können eine oder mehrere Pool-Besprechungs Konfigurationen erstellen, die jeweils für einen bestimmten Pool gelten. Poolkonfigurationen setzen die globale Konfiguration und die Standortkonfigurationen außer Kraft.
 
 Auf der Seite **Besprechungskonfiguration** wird eine Liste mit allen Besprechungskonfigurationen angezeigt, die für Ihre Organisation definiert sind.
 
@@ -48,20 +48,20 @@ Auf der Seite **Besprechungskonfiguration** können Sie die folgenden Aufgaben a
 
 In der folgenden Liste werden die Befehle der Seite beschrieben.
 
-- **Neue** Startet einen neuen besprechungskonfiguration auf Standort- oder Poolebene.
+- **Neu** Startet eine neue Konfiguration für eine Website Besprechung oder eine Pool-besprechungskonfiguration.
 
-- **Bearbeiten** Öffnet die ausgewählte besprechungskonfiguration zur Bearbeitung, wählt alle besprechungskonfigurationen in der Liste aus oder löscht die ausgewählte Standort- oder Poolkonfiguration.
+- **Bearbeiten** von Öffnet die ausgewählte besprechungskonfiguration, um Sie zu bearbeiten, wählt alle Besprechungs Konfigurationen in der Liste aus oder löscht die ausgewählte Websitekonfiguration oder Poolkonfiguration.
 
     > [!NOTE]
     > Für die globale Besprechungskonfiguration werden die Einstellungen mit **Löschen** auf die Standardwerte zurückgesetzt.
 
-- **Aktualisieren** Aktualisiert die Liste mit den besprechungskonfigurationen.
+- **Aktualisieren** Aktualisiert die Liste der Besprechungs Konfigurationen.
 
 In der folgenden Liste werden die Felder der Seite beschrieben.
 
-- **Name** Die besprechungskonfiguration identifiziert.
+- **Name** Identifiziert die besprechungskonfiguration.
 
-- **Bereich** Gibt den Bereich der besprechungskonfiguration: global, Standort oder Pool.
+- **Bereich** Identifiziert den Bereich der besprechungskonfiguration: Global, Site oder Pool.
 
 Ausführliche Informationen zur Verwendung von Besprechungskonfigurationen finden Sie in der Betriebsdokumentation unter [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx).
 

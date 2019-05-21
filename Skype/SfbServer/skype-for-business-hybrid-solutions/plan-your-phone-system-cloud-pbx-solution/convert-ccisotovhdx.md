@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
 description: Das Cmdlet „Convert-CcIsoToVhdx“ erstellt eine Datei einer virtuellen Basisfestplatte (VHDX) und verwendet dazu eine vom Kunden bereitgestellte ISO-Datei von Windows Server 2012 R2. Die VHDX-Datei wird bei der Bereitstellung von Skype for Business Cloud Connector Edition verwendet.
-ms.openlocfilehash: 181d1af762d1f8c9c8f3e65a4411b317ab36ce4a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7b1426fe3180576e28780aeae96ee8e4913bb399
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245369"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287538"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  
@@ -47,7 +47,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO"
 
 ### <a name="example-2"></a>Beispiel 2
 
-Wenn das Cmdlet Convert-CcIsoToVhdx während ein Fehler auftritt Windows update, ist es wahrscheinlich aufgrund von falschen Netzwerk-Proxy-Konfiguration. Sie können die Anweisungen in der Fehlermeldung befolgen und sich bei der Basis-VM anmelden, um das Problem zu beheben und Windows manuell zu aktualisieren. Wenn die manuellen Aufgaben abgeschlossen sind, führen Sie das Cmdlet erneut mit dem Parameter „-GeneralizeOnly“ aus, um die verbleibenden Aufträge auszuführen: 
+Wenn das Cmdlet Convert-CcIsoToVhdx während Windows Update fehlschlägt, liegt dies wahrscheinlich an einer falschen Netzwerk/Proxy-Konfiguration. Sie können die Anweisungen in der Fehlermeldung befolgen und sich bei der Basis-VM anmelden, um das Problem zu beheben und Windows manuell zu aktualisieren. Wenn die manuellen Aufgaben abgeschlossen sind, führen Sie das Cmdlet erneut mit dem Parameter „-GeneralizeOnly“ aus, um die verbleibenden Aufträge auszuführen: 
   
 ```
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -GeneralizeOnly
@@ -55,7 +55,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Gene
 
 ### <a name="example-3"></a>Beispiel 3
 
-Wenn für das Update von Windows eine manuelle Konfiguration notwendig ist, können Sie den Parameter „-PauseBeforeUpdate“ verwenden. Mit diesem Parameter wird Cloud Connector anhalten, bevor der Prozess für die Windows update. Dann können Sie die manuelle Konfiguration vornehmen und den Konvertierungsprozess wie folgt fortsetzen:
+Wenn für das Update von Windows eine manuelle Konfiguration notwendig ist, können Sie den Parameter „-PauseBeforeUpdate“ verwenden. Mit diesem Parameter wird Cloud Connector vor dem Windows Update-Prozess angehalten. Dann können Sie die manuelle Konfiguration vornehmen und den Konvertierungsprozess wie folgt fortsetzen:
   
 ```
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -PauseBeforeUpdate 
@@ -64,7 +64,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Paus
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Das Convert-CcIsoToVhdx-Cmdlet erstellt eine Base, die VM zuerst einige grundlegenden Komponenten installiert, Cloud-Connector hängt von, und klicken Sie dann Windows-Updates installiert. Schließlich verallgemeinert er den virtuellen Computer (Sysprep) um einen Basiskalender VHDX Datei abzurufen, die von den virtuellen Computern einer Cloud-Connector Appliance verwendet werden. 
+Das Cmdlet Convert-CcIsoToVhdx erstellt zunächst eine Basis-VM, installiert einige grundlegende Komponenten, von denen Cloud Connector abhängig ist, und installiert dann Windows-Updates. Schließlich wird die virtuelle Maschine (Sysprep) verallgemeinert, um eine Basis VHDX-Datei abzurufen, die von den virtuellen Computern einer Cloud Connector-Appliance verwendet wird. 
   
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>

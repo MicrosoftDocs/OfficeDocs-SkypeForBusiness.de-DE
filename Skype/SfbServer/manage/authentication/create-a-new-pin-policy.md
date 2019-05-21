@@ -1,36 +1,36 @@
 ---
-title: Erstellen Sie eine neue PIN-Richtlinie in Skype für Business Server
+title: Erstellen einer neuen PIN-Richtlinie in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
-description: 'Zusammenfassung: Erstellen einer neuen PIN-Richtlinie in Skype für Business Server.'
-ms.openlocfilehash: 69a9028cbe54f4832e251663d0664c051843bbe0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Erstellen einer neuen PIN-Richtlinie in Skype for Business Server.'
+ms.openlocfilehash: aaedcbfe28cb8e64b4adf7a302eef8c0d3d08a1f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919808"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283819"
 ---
-# <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>Erstellen Sie eine neue PIN-Richtlinie in Skype für Business Server
+# <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>Erstellen einer neuen PIN-Richtlinie in Skype for Business Server
  
-**Zusammenfassung:** Erstellen Sie eine neue PIN-Richtlinie in Skype für Business Server.
+**Zusammenfassung:** Erstellen Sie eine neue PIN-Richtlinie in Skype for Business Server.
   
-Die Seite **PIN-Richtlinie** können Sie die Nummer persönliche Identifikationsnummer (PIN)-Authentifizierung für Benutzer bereit, die eine Verbindung Skype für Unternehmen mit IP-Telefonen herstellen. Stellen Sie zur Verwendung der PIN-Authentifizierung sicher, dass in den Webdiensteinstellungen die Option **PIN-Authentifizierung aktivieren** ausgewählt ist.
+Sie können die Seite **PIN-Richtlinie** verwenden, um Benutzern, die eine Verbindung mit Skype for Business mit IP-Telefonen herstellen, eine PIN-Authentifizierung (Personal Identification Number) zur Verfügung zu stellen. Stellen Sie zur Verwendung der PIN-Authentifizierung sicher, dass in den Webdiensteinstellungen die Option **PIN-Authentifizierung aktivieren** ausgewählt ist.
   
 Führen Sie die folgenden Schritte aus, um eine PIN-Richtlinie auf Benutzer- oder Standortebene zu erstellen. 
   
 ### <a name="to-create-a-user-or-site-pin-policy"></a>So erstellen Sie eine PIN-Richtlinie auf Benutzer- oder Standortebene
 
-1.  Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist .
+1.  Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder über entsprechende Benutzerrechte verfügt) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, bei jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben. .
     
-2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen. 
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
     
 3. Klicken Sie in der linken Navigationsleiste auf **Sicherheit** und dann auf **PIN-Richtlinie**.
     

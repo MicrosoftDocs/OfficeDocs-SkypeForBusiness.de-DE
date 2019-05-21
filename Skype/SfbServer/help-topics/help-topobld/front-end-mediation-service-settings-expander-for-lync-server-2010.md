@@ -5,31 +5,31 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.FeMediationServiceSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
-description: 'Sie können die Eigenschaften der Mediation Server PSTN-gatewayeinstellungen in diesem Dialogfeld bearbeiten. Definieren Sie die folgenden Einstellungen:'
-ms.openlocfilehash: acf671e8fd3d980e2050221be884b628d24bcbef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'In diesem Dialogfeld können Sie die Eigenschaften der Einstellungen für den Vermittlungs Server-PSTN-Gateway bearbeiten. Sie definieren die folgenden Einstellungen:'
+ms.openlocfilehash: b57ca675d3681886ea2a2853aa1357b394fda4c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888660"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284389"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Einstellungen für den Front-End-Vermittlungsdienst für Lync Server 2010 – Erweiterung
  
-Sie können die Eigenschaften der **Mediation Server PSTN-Gateway** Einstellungen in diesem Dialogfeld bearbeiten. Definieren Sie die folgenden Einstellungen:
+In diesem Dialogfeld können Sie die Eigenschaften der Einstellungen für den **Vermittlungs Server-PSTN-Gateway** bearbeiten. Sie definieren die folgenden Einstellungen:
   
-- Wählen Sie die **verbundener Vermittlungsserver aktiviert** , wenn Sie den Vermittlungsserver mit diesem Front-End-Server oder Front-End-Pools zu verbinden möchten.
+- Wählen Sie den beiliegenden **Vermittlungsserver** aus, wenn Sie den Vermittlungsserver mit diesem Front-End-Server oder Front-End-Pools collocate möchten.
     
-- **Überwachungsports**: Definieren Sie die Ports, die der Vermittlungsserver überwacht wird. Sie können einen Port für **TLS** oder Transport Layer Security oder **TCP**, definieren oder transport Control-Protokoll. Für den Porteintrag für TCP verfügbar sein soll müssen Sie das Kontrollkästchen für **Aktivieren TCP-Port**auswählen. 
+- **Abhör Anschlüsse**: definieren Sie die Ports, die vom Vermittlungs Server überwacht werden. Sie können einen Port für **TLS** oder Transport Layer Security oder **TCP**oder Transport Control Protocol definieren. Damit der Port Eintrag für TCP verfügbar ist, müssen Sie das Kontrollkästchen für TCP- **Port aktivieren**aktivieren. 
     
     > [!IMPORTANT]
-    > Finden Sie in der Dokumentation und Konfiguration Einstellungen für Ihre Gateway public switched Telephone Network, (PSTN) zu ermitteln, wenn Sie bei aktivierter definieren müssen Port TLS, TCP oder beide Werte. TLS ist eine sicherere Protokoll, Verwendung von Zertifikaten zur Verschlüsselung des Datenverkehrs zwischen dem Vermittlungsserver und PSTN-Gateway. Nicht alle PSTN-Gateways unterstützt TLS. 
+    > Informationen dazu finden Sie in den Dokumentations-und Konfigurationseinstellungen für das PSTN-Gateway (Public Switched Telephone Network), um festzustellen, ob Portwerte TLS, TCP oder beides aktiviert und definiert werden müssen. TLS ist ein sichereres Protokoll, in dem der Datenverkehr zwischen dem Vermittlungs Server und dem PSTN-Gateway mithilfe von Zertifikaten verschlüsselt wird. Nicht alle PSTN-Gateways unterstützen TLS. 
   
 - Auflistung des momentan zugeordneten und vorhandenen **Trunks** (Session Initiation Protocol-Trunk (SIP)), **Gateways** (PSTN-Gateway oder IP-PBX) und **Standorts** (für Trunk und Gateway konfigurierter Standort).
     

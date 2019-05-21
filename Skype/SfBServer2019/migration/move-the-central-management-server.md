@@ -4,119 +4,119 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Nach der Migration zu Skype für Business Server 2019, müssen Sie den zentralen Verwaltungsserver an der Skype für Business Server 2019 Front-End-Server oder Pool verschieben, bevor Sie dem-Legacyserver entfernen können.
-ms.openlocfilehash: dc85548a3c81e55267bc0ed3a32e53860e4bce09
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Nachdem Sie zu Skype for Business Server 2019 migriert haben, müssen Sie den zentralen Verwaltungsserver auf den Front-End-Server oder Pool von Skype for Business Server 2019 verschieben, bevor Sie den Legacy Server entfernen können.
+ms.openlocfilehash: 5e16145b6695a9ee7006ab7d5321af9e478d7c37
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231574"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291298"
 ---
-# <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Verschieben der Vorversion zentralen Verwaltungsserver in Skype für Business Server 2019
+# <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Verschieben des Legacy-zentralen Verwaltungsservers in Skype for Business Server 2019
 
-Nach der Migration zu Skype für Business Server 2019 und bevor Sie dem-Legacyserver entfernen können, müssen Sie den zentralen Verwaltungsserver in der Skype für Business Server 2019 Front-End-Server oder Pool zu verschieben. 
+Nachdem Sie zu Skype for Business Server 2019 migriert haben, müssen Sie den zentralen Verwaltungsserver auf den Front-End-Server oder Pool von Skype for Business Server 2019 verschieben, bevor Sie den Legacy Server entfernen können. 
   
-Den zentralen Verwaltungsserver ist ein einzelnes Master/mehreren Replikat System, auf dem wird die Lese-Schreib-Kopie der Datenbank vom Front-End-Server gespeichert, der den zentralen Verwaltungsserver enthält. Auf jedem Computer in der Topologie, einschließlich der Front-End-Server, der den zentralen Verwaltungsserver enthält ist eine schreibgeschützte Kopie der zentralen Speicherdaten in SQL Server-Datenbank (namens RTCLOCAL standardmäßig) auf dem Computer während des Setups installiert und Einsatz. Die lokale Datenbank empfängt Replikat Updates über die Skype für Business Server Replikat Replikations-Agent, der als Dienst auf allen Computern ausgeführt wird. Der Name der aktuellen Datenbank auf den zentralen Verwaltungsserver und dem lokalen Replikat ist XDS, die der Dateien xds.mdf und xds.ldf besteht. Einen Dienststeuerungspunkt (SCP) in Active Directory Domain Services verweist auf der Speicherort der master-Datenbank. Alle Tools, die verwenden den zentralen Verwaltungsserver Skype für Business Server konfigurieren und verwalten, mithilfe des zentralen Verwaltungsspeichers Suchen des Dienstverbindungspunkts.
+Bei dem zentralen Verwaltungsserver handelt es sich um ein einzelnes Master/Multiple-Replikat System, bei dem die Kopie der Datenbank vom Front-End-Server, auf dem sich der zentrale Verwaltungsserver befindet, gelesen/geschrieben wird. Jeder Computer in der Topologie, einschließlich des Front-End-Servers, der den zentralen Verwaltungsserver enthält, verfügt über eine schreibgeschützte Kopie der zentralen Verwaltungsspeicher Daten in der SQL Server-Datenbank (standardmäßig mit dem Namen RTCLOCAL), die während des Setups auf dem Computer installiert sind, und Bereitstellungs. Die lokale Datenbank erhält Replikat Updates über den Skype for Business Server Replica Replicator-Agent, der auf allen Computern als Dienst ausgeführt wird. Der Name der tatsächlichen Datenbank auf dem zentralen Verwaltungs Server und das lokale Replikat ist XDS, das aus den Dateien XDS. mdf und XDS. ldf besteht. Auf den Speicherort der Master Datenbank wird in den Active Directory-Domänendiensten von einem Dienst Kontrollpunkt (Service Control Point, SCP) verwiesen. Alle Tools, die den zentralen Verwaltungsserver zum Verwalten und Konfigurieren von Skype for Business Server verwenden, verwenden den SCP, um den zentralen Verwaltungsspeicher zu finden.
   
-Nachdem Sie den zentralen Verwaltungsserver erfolgreich verschoben haben, sollten Sie die Datenbanken zentralen Verwaltungsserver vom ursprünglichen Front-End-Server entfernen. Informationen zum Entfernen von der zentralen Verwaltungsserver-Datenbanken finden Sie unter [Entfernen der SQL Server-Datenbank für einen Front-End-Pool](remove-the-sql-server-database-for-a-front-end-pool.md).
+Nachdem Sie den zentralen Verwaltungsserver erfolgreich verschoben haben, sollten Sie die zentralen Verwaltungsserver Datenbanken vom ursprünglichen Front-End-Server entfernen. Informationen zum Entfernen der zentralen Verwaltungs Server-Datenbanken finden Sie unter [Entfernen der SQL Server-Datenbank für einen Front-End-Pool](remove-the-sql-server-database-for-a-front-end-pool.md).
   
-Sie verwenden das Windows PowerShell-Cmdlet **Move-CsManagementServer** in der Skype für Business Server-Verwaltungsshell zum Verschieben der Datenbank aus der Vorversion installieren SQL Server-Datenbank die Skype für Business Server 2019 SQL Server-Datenbank, und aktualisieren Sie die SCP So zeigen Sie auf die Skype für Business Server 2019 zentraler Verwaltungsserver Speicherort. 
+Sie verwenden das Windows PowerShell **-Cmdlet Move-CsManagementServer** in der Skype for Business Server-Verwaltungsshell, um die Datenbank aus der Legacy-Installations-SQL Server-Datenbank in die Skype for Business Server 2019 SQL Server-Datenbank zu verschieben, und aktualisieren Sie dann die SCP, um auf den Standort des zentralen Verwaltungsservers von Skype for Business Server 2019 zu verweisen. 
   
-Verwenden Sie die Verfahren in diesem Abschnitt, um die Skype für Business Server 2019 Front-End-Server vorbereiten, bevor Sie den zentralen Verwaltungsserver verschieben.
+Führen Sie die Verfahren in diesem Abschnitt aus, um die Front-End-Server für Skype for Business Server 2019 vorzubereiten, bevor Sie den zentralen Verwaltungs Server verschieben.
   
-## <a name="to-prepare-an-enterprise-edition-front-end-pool"></a>So bereiten Sie einen Enterprise Edition-Front-End-Pool vor
+## <a name="to-prepare-an-enterprise-edition-front-end-pool"></a>Vorbereiten eines Enterprise Edition-Front-End-Pools
 
-1. Klicken Sie auf die Skype für Business Server 2019 Enterprise Edition-Front-End-Pool, in dem Sie den zentralen Verwaltungsserver verschieben möchten, melden Sie sich an dem Computer, auf dem die Skype für Business Server-Verwaltungsshell installiert ist, als Mitglied der **"RTCUniversalServerAdmins" **Gruppe. Auch benötigen SQL Server-Datenbank Sysadmin Benutzerrechte und-Berechtigungen für die Datenbank Sie, wo Sie den zentralen Verwaltungsspeicher installieren möchten. 
+1. Melden Sie sich auf dem Skype for Business Server 2019 Enterprise Edition-Front-End-Pool, in dem Sie den zentralen Verwaltungs Server umsiedeln möchten, bei dem Computer an, auf dem die Skype for Business Server-Verwaltungsshell als Mitglied des RTCUniversalServerAdmins installiert ist. ** **Gruppe aus. Sie müssen auch über die SQL Server-Datenbank sysadmin-Benutzerrechte und-Berechtigungen für die Datenbank verfügen, in der Sie den zentralen Verwaltungsspeicher installieren möchten. 
     
-2. Öffnen Sie die Skype für Business Server-Verwaltungsshell.
+2. Öffnen Sie die Skype for Business Server-Verwaltungsshell.
     
-3. Geben Sie Folgendes ein, um den neuen zentralen Verwaltungsspeicher in der Skype für Business Server 2019 SQL Server-Datenbank in der Skype für Business Server-Verwaltungsshell zu erstellen:
+3. Zum Erstellen des neuen zentralen Verwaltungsspeichers in der Skype for Business Server 2019 SQL Server-Datenbank geben Sie in der Skype for Business Server-Verwaltungsshell Folgendes ein:
     
    ```
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
    ```
 
-4. Vergewissern Sie sich, dass der Status der **Skype für Business Server Front-End** -Dienst **gestartet**wird.
+4. Vergewissern Sie sich, dass der Status des **Skype for Business Server-Front-End-** Diensts **gestartet**wurde.
     
-## <a name="to-prepare-a-standard-edition-front-end-server"></a>So bereiten Sie einen Standard Edition-Front-End-Server vor
+## <a name="to-prepare-a-standard-edition-front-end-server"></a>Vorbereiten eines Standard Edition-Front-End-Servers
 
-1. Melden Sie auf der Skype für Business Server 2019 Standard Edition-Front-End-Server, auf dem Sie den zentralen Verwaltungsserver verschieben möchten sich an dem Computer, auf dem die Skype für Business Server-Verwaltungsshell installiert ist, als Mitglied der **"RTCUniversalServerAdmins" **Gruppe. 
+1. Melden Sie sich auf dem Skype for Business Server 2019 Standard Edition-Front-End-Server, auf dem Sie den zentralen Verwaltungsserver umsiedeln möchten, bei dem Computer an, auf dem die Skype for Business Server-Verwaltungsshell als Mitglied des RTCUniversalServerAdmins installiert ist. ** **Gruppe aus. 
     
-2. Öffnen Sie die Skype für Business Server-Bereitstellungs-Assistenten.
+2. Öffnen Sie den Skype for Business Server-Bereitstellungs-Assistenten.
     
-3. Klicken Sie in der Skype für Business Server-Bereitstellungs-Assistenten **Vorbereiten des ersten Standard Edition-Servers**auf.
+3. Klicken Sie im Skype for Business Server-Bereitstellungs-Assistenten auf **First Standard Edition-Server vorbereiten**.
     
-4. Auf der Seite **Befehle ausführen** ist SQL Server Express als den zentralen Verwaltungsserver installiert. Erforderlichen Firewallregeln erstellt werden. Wenn die Installation der Datenbank und der erforderlichen Software abgeschlossen ist, klicken Sie auf **Fertig stellen**.
+4. Auf der Seite **Ausführungsbefehle** wird SQL Server Express als zentraler Verwaltungs Server installiert. Es werden erforderliche Firewallregeln erstellt. Wenn die Installation der Datenbank und der erforderlichen Software abgeschlossen ist, klicken Sie auf **Fertig stellen**.
     
     > [!NOTE]
-    > Die ursprüngliche Installation kann einige Zeit ohne sichtbar Aktualisierung zum Befehl Ausgabe im Fenster Zusammenfassung dauern. Dies ist aufgrund der Installation von SQL Server Express. Wenn Sie die Installation der Datenbank überwachen möchten, verwenden Sie zum Überwachen der Einrichtung Task-Manager. 
+    > Die anfängliche Installation kann einige Zeit in Anspruch nehmen, ohne dass die Anzeige des Befehlsausgabe Zusammenfassungsbildschirms sichtbar wird. Dies ist auf die Installation von SQL Server Express zurückzuführen. Wenn Sie die Installation der Datenbank überwachen müssen, verwenden Sie den Task-Manager, um das Setup zu überwachen. 
   
-5. Geben Sie Folgendes ein, um den neuen zentralen Verwaltungsspeicher auf die Skype für Business Server 2019 Standard Edition-Front-End-Server in der Skype für Business Server-Verwaltungsshell zu erstellen: 
+5. Zum Erstellen des neuen zentralen Verwaltungsspeichers auf dem Skype for Business Server 2019 Standard Edition-Front-End-Server geben Sie in der Skype for Business Server-Verwaltungsshell Folgendes ein: 
     
    ```
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
    ```
 
-6. Vergewissern Sie sich, dass der Status der **Skype für Business Server Front-End** -Dienst **gestartet**wird.
+6. Vergewissern Sie sich, dass der Status des **Skype for Business Server-Front-End-** Diensts **gestartet**wurde.
     
-## <a name="to-move-the-legacy-installs-central-management-server-to-skype-for-business-server-2019"></a>So verschieben Sie die Vorversion installiert zentralen Verwaltungsserver in Skype für Business Server 2019
+## <a name="to-move-the-legacy-installs-central-management-server-to-skype-for-business-server-2019"></a>So verschieben Sie die Legacy Installation des zentralen Verwaltungsservers in Skype for Business Server 2019
 
-1. Melden Sie sich die Skype für Business Server 2019-Server, die den zentralen Verwaltungsserver werden, auf dem Computer, auf dem der Skype für Business Server-Verwaltungsshell, als Mitglied der Gruppe **RTCUniversalServerAdmins installiert ist** an. Sie müssen auch die SQL Server-Datenbank Benutzer Administratorrechte und-Berechtigungen verfügen. 
+1. Melden Sie sich auf dem Skype for Business Server 2019-Server, der der zentrale Verwaltungsserver sein soll, bei dem Computer an, auf dem die Skype for Business Server-Verwaltungsshell als Mitglied der **RTCUniversalServerAdmins** -Gruppe installiert ist. Sie müssen auch über die Benutzerrechte und-Berechtigungen des SQL Server-Datenbankadministrators verfügen. 
     
-2. Öffnen Sie Skype für Business Server-Verwaltungsshell.
+2. Öffnen Sie die Skype for Business Server-Verwaltungsshell.
     
-3. Geben Sie in der Skype für Business Server-Verwaltungsshell Folgendes ein: 
+3. Geben Sie in der Skype for Business Server-Verwaltungsshell Folgendes ein: 
     
    ```
    Enable-CsTopology
    ```
 
     > [!CAUTION]
-    > Wenn `Enable-CsTopology` ist nicht erfolgreich, lösen Sie das Problem verhindert, dass des Befehls abschließen, bevor Sie fortfahren. Wenn die **Enable-CsTopology** ist nicht erfolgreich, die Verschiebung schlägt fehl und Ihrer Topologie kann in einem Zustand belassen, in denen keine zentralen Verwaltungsspeicher vorhanden ist. 
+    > Wenn `Enable-CsTopology` dies nicht der Fall ist, beheben Sie das Problem, das verhindert, dass der Befehl abgeschlossen wird, bevor Sie fortfahren. Wenn **enable-CsTopology** nicht erfolgreich ist, schlägt die Verschiebung fehl, und Sie verlässt Ihre Topologie möglicherweise in einem Zustand, in dem kein zentraler Verwaltungsspeicher vorhanden ist. 
   
-4. Geben Sie auf der Skype für Business Server 2019 Front-End-Server oder Front-End-Pool, in der Skype für Business Server-Verwaltungsshell: 
+4. Geben Sie auf dem Skype for Business Server 2019-Front-End-Server oder-Front-End-Pool in der Skype for Business Server-Verwaltungsshell Folgendes ein: 
     
    ```
    Move-CsManagementServer
    ```
 
-5. Skype für Business Server-Verwaltungsshell zeigt den Servern, Dateispeicher, Datenbankspeicher und die Dienstverbindungspunkte aktueller Status und den Zustand vorgeschlagen. Lesen Sie die Informationen sorgfältig, und bestätigen Sie, dass dies die vorgesehene Quell-als auch ist. Geben Sie **Y** , um den Vorgang fortzusetzen oder **N** , um die Verschiebung zu beenden. 
+5. In der Skype for Business Server-Verwaltungsshell werden die Server, Dateispeicher, Datenbankspeicher und die Dienstverbindungspunkte des aktuellen Zustands sowie der vorgeschlagene Status angezeigt. Lesen Sie die Informationen sorgfältig durch, und bestätigen Sie, dass dies die beabsichtigte Quelle und das Ziel ist. Geben Sie **Y** ein, um fortzufahren, oder **N** , um die Verschiebung zu beenden. 
     
-6. Überprüfen Sie etwaige Warnungen oder Fehler, die durch den Befehl **Move-CsManagementServer** generiert, und beheben Sie diese. 
+6. Überprüfen Sie alle Warnungen oder Fehler, die durch den Befehl **Move-CsManagementServer** generiert wurden, und beheben Sie Sie. 
     
-7. Öffnen Sie auf der Skype für Business Server 2019 Server der Skype für Business Server-Bereitstellungs-Assistenten aus. 
+7. Öffnen Sie auf dem Skype for Business Server 2019-Server den Bereitstellungs-Assistenten für Skype for Business Server. 
     
-8. In Skype für Business Server-Bereitstellungs-Assistenten, klicken Sie auf **installieren oder aktualisieren Skype für Business Server-System**, klicken Sie auf **Schritt2: Einrichten oder Entfernen von Skype für Business Server-Komponenten**, klicken Sie auf **Weiter**, überprüfen Sie die Zusammenfassung, und klicken Sie dann auf Fertig stellen ** **. 
+8. Klicken Sie im Skype for Business Server-Bereitstellungs-Assistenten auf **Skype for Business Server System installieren oder aktualisieren**, klicken Sie auf **Schritt 2: Einrichten oder Entfernen von Skype for Business Server-Komponenten**, klicken Sie auf **weiter**, überprüfen Sie die Zusammenfassung, und klicken Sie dann auf **Fertig stellen. **. 
     
-9. Installieren Sie Server auf der Vorgängerversion, und öffnen Sie den Bereitstellungs-Assistenten. 
+9. Öffnen Sie auf dem Legacy Installationsserver den Bereitstellungs-Assistenten. 
     
-10. In Skype für Business Server-Bereitstellungs-Assistenten, klicken Sie auf **installieren oder aktualisieren Skype für Business Server-System**, klicken Sie auf **Schritt2: Einrichten oder Entfernen von Skype für Business Server-Komponenten**, klicken Sie auf **Weiter**, überprüfen Sie die Zusammenfassung, und klicken Sie dann auf Fertig stellen ** **. 
+10. Klicken Sie im Skype for Business Server-Bereitstellungs-Assistenten auf **Skype for Business Server System installieren oder aktualisieren**, klicken Sie auf **Schritt 2: Einrichten oder Entfernen von Skype for Business Server-Komponenten**, klicken Sie auf **weiter**, überprüfen Sie die Zusammenfassung, und klicken Sie dann auf **Fertig stellen. **. 
     
-11. Starten Sie die Skype für Business Server 2019 Server neu. Dies ist aufgrund einer Änderung der Gruppenmitgliedschaft Zugriff auf zentraler Verwaltungsserver Datenbank erforderlich.
+11. Starten Sie den Skype for Business Server 2019-Server neu. Dies ist aufgrund einer Änderung der Gruppenmitgliedschaft für den Zugriff auf die zentrale Verwaltungs Server-Datenbank erforderlich.
     
-12. Geben Sie Folgendes ein, um zu bestätigen, dass die Replikation mit dem neuen zentralen Management Store in der Skype für Business Server-Verwaltungsshell ausgeführt wird: 
+12. Um zu bestätigen, dass die Replikation mit dem neuen zentralen Verwaltungsspeicher erfolgt, geben Sie in der Skype for Business Server-Verwaltungsshell Folgendes ein: 
     
     ```
     Get-CsManagementStoreReplicationStatus
     ```
 
     > [!NOTE]
-    > Die Replikation dauert etwas Zeit, um alle aktuellen Replikate aktualisiert. 
+    > Die Replikation kann einige Zeit dauern, bis alle aktuellen Replikate aktualisiert wurden. 
   
-## <a name="to-remove-legacy-install-central-management-store-files-after-a-move"></a>So entfernen Sie legacy installieren zentralen Speicherdateien nach dem Verschieben
+## <a name="to-remove-legacy-install-central-management-store-files-after-a-move"></a>So entfernen Sie Legacy-Installationen von Central Management Store-Dateien nach einem Umzug
 
-1. Klicken Sie auf der Vorgängerversion installieren Sie Server, melden Sie sich an dem Computer, auf dem die Skype für Business Server-Verwaltungsshell als Mitglied der Gruppe **RTCUniversalServerAdmins** installiert ist. Sie müssen auch die SQL Server-Datenbank Benutzer Administratorrechte und-Berechtigungen verfügen. 
+1. Melden Sie sich auf dem Legacy Installationsserver bei dem Computer an, auf dem die Skype for Business Server-Verwaltungsshell als Mitglied der **RTCUniversalServerAdmins** -Gruppe installiert ist. Sie müssen auch über die Benutzerrechte und-Berechtigungen des SQL Server-Datenbankadministrators verfügen. 
     
-2. Öffnen von Skype für Business Server-Verwaltungsshell
+2. Öffnen der Skype for Business Server-Verwaltungsshell
     
     > [!CAUTION]
-    > Fahren Sie mit dem Entfernen der vorherigen Datenbankdateien, bis die Replikation abgeschlossen ist und stabil ist. Wenn Sie die Dateien vor dem Abschluss der Replikation entfernen, Sie Unterbrechen des Replikationsprozesses und lassen Sie den zentralen Verwaltungsserver neu verschobene in einem unbekannten Zustand. Verwenden Sie das **Get-CsManagementStoreReplicationStatus** -Cmdlet, um den Replikationsstatus zu bestätigen. 
+    > Gehen Sie nicht mit dem Entfernen der vorherigen Datenbankdateien fort, bis die Replikation abgeschlossen und stabil ist. Wenn Sie die Dateien vor dem Abschließen der Replikation entfernen, werden Sie den Replikationsprozess unterbrechen und den neu verschobenen zentralen Verwaltungs Server in einem unbekannten Zustand belässt. Verwenden Sie das Cmdlet **Get-CsManagementStoreReplicationStatus** , um den Replikationsstatus zu bestätigen. 
   
-3. Um die Datenbankdateien des zentralen Speicher aus der Vorversion Installation zentralen Verwaltungsserver zu entfernen, geben Sie Folgendes ein:
+3. Geben Sie Folgendes ein, um die Datenbankdateien des zentralen Verwaltungsspeichers aus dem Legacy install Central-Verwaltungs Server zu entfernen:
     
    ```
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
@@ -128,6 +128,6 @@ Verwenden Sie die Verfahren in diesem Abschnitt, um die Skype für Business Serv
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
    ```
 
-    In dem die _ \<FQDN von SQL Server\> _ ist entweder der Vorgängerversion Back-End-Server in einer Enterprise Edition-Bereitstellung oder der FQDN des Standard Edition-Server installieren. 
+    Hierbei handelt es sich bei dem _ \<FQDN von SQL Server\> _ entweder um den Legacy-Installations-Back-End-Server in einer Enterprise Edition-Bereitstellung oder um den FQDN des Standard Edition-Servers. 
     
 

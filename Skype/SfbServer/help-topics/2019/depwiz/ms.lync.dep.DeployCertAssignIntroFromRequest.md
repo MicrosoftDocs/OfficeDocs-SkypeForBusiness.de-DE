@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertAssignIntroFromRequest
@@ -12,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
 ROBOTS: NOINDEX, NOFOLLOW
-description: Auf der Seite Zertifikatzuweisung beginnt der Prozess der Zuweisung eines Zertifikats für die angeforderten Zwecke auf dem Server. Klicken Sie auf Zertifikatdetails anzeigen, um das Zertifikat anzuzeigen. Wählen Sie die Registerkarte Allgemein, auf der Registerkarte Details oder die Registerkarte Zertifizierungspfad. Die Registerkarte Allgemein zeigt grundlegende Informationen über das Zertifikat, wie die ausstellende Zertifizierungsstelle und den Status eines privaten Schlüssels. Auf der Registerkarte „Details“ werden Zertifikatinformationen wie der Antragstellername, alternative Antragstellernamen und andere Details angezeigt. Die Registerkarte Zertifizierungspfad zeigt die Certificatechain des Trustfrom das Zertifikat über alle ausstellenden oder intermediate Zertifizierungsstellen (Wenn sie vorhanden sind) für das Stammzertifikat der Zertifizierungsstelle.
-ms.openlocfilehash: e906d49b7f93e6ef38ef9228590bb3967981b413
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Auf der Seite Zertifikatzuweisung beginnt der Prozess der Zuweisung eines Zertifikats für die angeforderten Zwecke auf dem Server. Klicken Sie auf Zertifikatdetails anzeigen, um das Zertifikat anzuzeigen. Sie können die RegisterkarteAllgemein, die Registerkarte Details oder den Reiter Zertifizierungspfad auswählen. Auf der RegisterkarteAllgemein werden grundlegende Informationen zum Zertifikat angezeigt, beispielsweise die ausstellende Zertifizierungsstelle und der Status eines privaten Schlüssels. Auf der Registerkarte „Details“ werden Zertifikatinformationen wie der Antragstellername, alternative Antragstellernamen und andere Details angezeigt. Auf der Registerkarte "Zertifizierungspfad" wird die CertificateChain-trustfrom des Zertifikats über alle ausstellenden oder Zwischenzertifizierungsstellen (sofern vorhanden) für die Stammzertifizierungsstelle angezeigt.
+ms.openlocfilehash: 5b9163a078c5666a986ee80004d77113881df8b9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894099"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275559"
 ---
 # <a name="certificate-assignment-from-request"></a>Zertifikatzuweisung (nach Anforderung)
  

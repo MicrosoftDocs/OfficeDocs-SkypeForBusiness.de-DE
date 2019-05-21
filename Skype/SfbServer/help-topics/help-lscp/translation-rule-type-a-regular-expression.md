@@ -1,29 +1,29 @@
 ---
-title: Typ der Bereichsregel Übersetzung eines regulären Ausdrucks
+title: Übersetzungsregel geben Sie einen regulären Ausdruck ein.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceRuleRegexEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
-description: 'Geben Sie in der Übereinstimmung dieses Feld Muster das Muster, das entsprechend die zu übersetzenden Nummern verwendet wird. Geben Sie im Feld Übersetzungsregel ein Muster für das Format der übersetzten Nummern. Beispiel: bei Eingabe ^\+(\d{9}\d+)$ in der Übereinstimmung dieses Feld und 011$ 1 im Feld Übersetzungsregel Muster, übersetzt die Regel + 441235551010 in 011441235551010.'
-ms.openlocfilehash: 30a2415b3de8f110461633cceab578c87679211b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Geben Sie im Feld mit diesem Muster vergleichen das Muster an, das für die Übereinstimmung mit den zu übersetzenden Zahlen verwendet werden soll. Geben Sie im Feld Übersetzungsregel ein Muster für das Format der übersetzten Zahlen an. Wenn Sie beispielsweise ^\+(\d{9}\d +) $ in das Feld dieses Muster vergleichen und 011 $1 im Feld Übersetzungsregel eingeben, wird die Regel + 441235551010 in 011441235551010 übersetzen.
+ms.openlocfilehash: ae3e952aaf002df019fc93de4fa763481d7f563a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929154"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293046"
 ---
 # <a name="translation-rule-type-a-regular-expression"></a>Übersetzungsregel: Eingeben eines regulären Ausdrucks
  
-Geben Sie im Feld **dieses Muster** das Muster, das entsprechend die zu übersetzenden Nummern verwendet wird. Geben Sie im Feld **übersetzungsregel** ein Muster für das Format der übersetzten Nummern. Beispiel: bei Eingabe ^\+(\d{9}\d+)$ im Feld **dieses Muster abgleichen** und 011$ 1 im Feld **übersetzungsregel** die Regel + 441235551010 in 011441235551010 übersetzt.
+Geben Sie im Feld **mit diesem Muster vergleichen** das Muster an, das für die Übereinstimmung mit den zu übersetzenden Zahlen verwendet werden soll. Geben Sie im Feld **Übersetzungsregel** ein Muster für das Format der übersetzten Zahlen an. Wenn\+Sie beispielsweise ^ (\d{9}\d +) $ in das Feld **dieses Muster vergleichen** und 011 $1 im Feld **Übersetzungsregel** eingeben, wird die Regel + 441235551010 in 011441235551010 übersetzen.
   
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+Details zu den verschiedenen Verfahren, die Sie mit der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype for Business Server 2015](../../manage/manage.md).
   
 

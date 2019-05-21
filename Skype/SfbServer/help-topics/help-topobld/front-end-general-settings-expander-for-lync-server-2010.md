@@ -5,98 +5,98 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.FrontEndGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
-description: 'Sie bearbeiten die Eigenschaften des Front-End-Server oder Front-End-Pools, bearbeiten oder konfigurieren die folgenden Attribute. Die Konfigurationsseite ist in die folgenden Abschnitte unterteilt:'
-ms.openlocfilehash: c2941f683fe6fe9282c4dda00fb4fd255722a10e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Sie können die Eigenschaften des Front-End-Servers oder des Front-End-Pools bearbeiten, indem Sie die folgenden Attribute bearbeiten oder konfigurieren. Die Konfigurationsseite ist in die folgenden Abschnitte unterteilt:'
+ms.openlocfilehash: b0ee8a2d0081d937bf93d4a638e4f56b1cc79134
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888716"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284403"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Allgemeine Einstellungen für das Front-End für Lync Server 2010 – Erweiterung
 
-Sie bearbeiten die Eigenschaften des Front-End-Server oder Front-End-Pools, bearbeiten oder konfigurieren die folgenden Attribute. Die Konfigurationsseite ist in die folgenden Abschnitte unterteilt:
+Sie können die Eigenschaften des Front-End-Servers oder des Front-End-Pools bearbeiten, indem Sie die folgenden Attribute bearbeiten oder konfigurieren. Die Konfigurationsseite ist in die folgenden Abschnitte unterteilt:
 
  **Allgemein**
 
-- **FQDN**: den vollqualifizierten Domänennamen des Front-End-Server oder Front-End-Pools.
+- **FQDN**: der vollqualifizierte Domänenname des Front-End-Servers oder des Front-End-Pools.
 
-- Wählen Sie **Alle konfigurierte IP-Adressen verwenden** , um Stellen verwenden aller Adressen auf Front-End-Server oder Front-End-Pool konfiguriert ist.
+- Wählen Sie **alle konfigurierten IP-Adressen verwenden** aus, um alle Adressen zu verwenden, die auf dem Front-End-Server oder Front-End-Pool konfiguriert sind.
 
     > [!IMPORTANT]
-    > Sie sollten diese Option nicht auswählen, wenn Sie den Vermittlungsserver auf dem Front-End-Server oder Front-End-Pool verbinden. Vermittlungsserver und Front-End-Server benötigen dedizierte IP-Adressen auf dem die Kommunikation stattfinden.
+    > Wählen Sie diese Option nicht aus, wenn Sie den Vermittlungsserver auf dem Front-End-Server oder Front-End-Pool collocate. Vermittlungsserver und Front-End-Server benötigen dedizierte IP-Adressen für die Kommunikation.
 
-- Wählen Sie **Verwendung von Grenzwert ausgewählten IP-Adressen aus** , und geben Sie die IP-Adresse für die **primäre IP-Adresse** für die Front-End-Server oder Front-End-Pool-Kommunikation mit dem Rest der Bereitstellung. Geben Sie in **PSTN-IP-Adresse** die IP-Adresse, die der Vermittlungsserver zugeordnet ist.
+- Wählen Sie **Dienst Verwendung auf ausgewählte IP-Adressen einschränken** aus, und geben Sie die IP-Adresse für die **primäre IP-Adresse** für den Front-End-Server oder die Kommunikation des Front-End-Pools mit der restlichen Bereitstellung ein. Geben Sie die IP-Adresse, die dem Vermittlungs Server zugeordnet ist, in **PSTN-IP-Adresse** ein.
 
     **Features und Funktionen**
 
-- **Konferenzen**: Aktivieren Sie das Kontrollkästchen, wenn Sie Live Meeting-Features in Ihrer Bereitstellung verwenden möchten. Konferenzfunktionen beinhalten Audio, Video, Anwendungsfreigabe, Desktopfreigabe und Webkonferenzen. Sie müssen erstellen, und ordnen Sie einen Office Web Apps Server für Webkonferenzen (weiter unten in diesem Eigenschaftenseite definiert).
+- **Konferenz**: Aktivieren Sie das Kontrollkästchen, wenn Konferenzfeatures in Ihrer Bereitstellung angezeigt werden sollen. Konferenz umfasst Audio, Video, Anwendungsfreigabe, Desktopfreigabe und Webkonferenzen. Sie müssen einen Office Web Apps-Server für Webkonferenzen erstellen und zuordnen (wird später auf dieser Eigenschaftenseite definiert).
 
-- Wenn Sie Live Meeting ausgewählt haben, können **einwahlkonferenzen (PSTN)** ausgewählt werden. Aktivieren Sie das Kontrollkästchen, um einwahlkonferenzen Features zu aktivieren.
+- Wenn Sie Konferenzen ausgewählt haben, können **Einwahlkonferenzen (PSTN)** ausgewählt werden. Aktivieren Sie das Kontrollkästchen, um Features für Einwahlkonferenzen zu aktivieren.
 
-- Aktivieren Sie das Kontrollkästchen **Enterprise-VoIP** , wenn Sie beabsichtigen, Funktionen, die in Lync Server 2013 als Ihr Telefon VoIP-System über Voice over IP (VoIP) Technologien, einschließlich der Option über die Bereitstellung von Hörer Telefone fungieren aktivieren, SIP-Trunks oder öffentlichen bereitstellen Telefonnetz Netzwerkkonnektivität Vermittlungsserver, PSTN-Gateways und IP-Nebenstellenanlage mit basierend zusammen oder einzeln auf den Entwurf und die Anforderungen an. Informationen über Enterprise-VoIP finden Sie unter [Enterprise-VoIP](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) und [Planen von Enterprise-VoIP in Skype für Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Aktivieren Sie das Kontrollkästchen **Enterprise-VoIP** , wenn Sie Features bereitstellen möchten, damit lync Server 2013 mit VoIP-Technologien (Voice over IP) als Telefon Sprachsystem fungiert, einschließlich der Option zum Bereitstellen von Telefonen, SIP-Stämmen oder öffentlichen Geräten. Switched Telephone Network Connectivity mit Mediation Server, PSTN-Gateways und IP-PBX, in Kombination oder allein, basierend auf dem Design und den Anforderungen. Einzelheiten zu Enterprise-VoIP finden Sie unter [Enterprise](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) -VoIP und [Plan für Enterprise-VoIP in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Zuordnungen**
 
-- **SQL Server-Speicher**: der FQDN der SQL Server (und optional eine benannte Instanz) mit dem Front-End-Server oder Front-End-Pool verknüpft ist. Wählen Sie den SQL Server-Speicher aus der Liste aus, oder Sie einen neuen SQL Server-Speicher erstellen, indem Sie auf **neu**
+- **SQL Server Store**: der FQDN des SQL Server (und optional eine benannte Instanz), der dem Front-End-Server oder Front-End-Pool zugeordnet ist. Sie wählen den SQL Server-Speicher aus der Liste aus, oder Sie erstellen einen neuen SQL Server-Speicher, indem Sie auf **neu** klicken.
 
-- **Speichern der Datei**: Wählen Sie den FQDN des Servers und die Freigabe (im Format `\\<FQDN of server>\<share name>`) fungiert, die als den Dateispeicherort für die freigegebenen Dateien, die Lync Server 2013 erstellt und für die Replikation, konferenzverzeichnisse und andere Zwecke verwendet. Wählen Sie den Dateispeicher aus der Liste aus, oder erstellen Sie einen neuen Dateispeicher, indem Sie auf **neu**.
+- **Dateispeicher**: Sie wählen den FQDN des Servers und die Freigabe (im Format `\\<FQDN of server>\<share name>`) aus, die als Dateispeicher Speicherort für die freigegebenen Dateien fungiert, die von lync Server 2013 erstellt und für die Replikation, Konferenzverzeichnisse und andere Zwecke verwendet werden. Sie wählen den Dateispeicher in der Liste aus, oder Sie erstellen einen neuen Dateispeicher, indem Sie auf **neu**klicken.
 
-- Wählen Sie das Kontrollkästchen **Archivierungsserver zuordnen** , um einen Archivierungsserver für diesen Front-End-Server oder Front-End-Pool zu aktivieren. Nach dem Aktivieren des Kontrollkästchens, wählen Sie einen vorhandenen Archivierungsserver aus der Liste aus oder klicken Sie auf **neu** , um die Definitionen für den neuen Archivierungsserver erstellen.
+- Aktivieren Sie das Kontrollkästchen **Archivierungsserver zuordnen** , um einen Archivierungsserver für diesen Front-End-Server oder Front-End-Pool zu aktivieren. Nachdem Sie das Kontrollkästchen aktiviert haben, wählen Sie einen vorhandenen Archivierungsserver aus der Liste aus, oder klicken Sie auf **neu** , um die Definitionen für einen neuen Archivierungsserver zu erstellen.
 
-- Wählen Sie das Kontrollkästchen **Monitoring Server zuordnen** , um einen Monitoring Server für diesen Front-End-Server oder Front-End-Pool zu aktivieren. Nach dem Aktivieren des Kontrollkästchens, wählen Sie eine vorhandene Monitoring Server aus der Liste aus oder klicken Sie auf **neu** , um die Definitionen für einen neuen Monitoring Server zu erstellen.
+- Aktivieren Sie das Kontrollkästchen **Überwachungsserver zuordnen** , um einen Überwachungsserver für diesen Front-End-Server oder Front-End-Pool zu aktivieren. Nachdem Sie das Kontrollkästchen aktiviert haben, wählen Sie einen vorhandenen Überwachungsserver aus der Liste aus, oder klicken Sie auf **neu** , um die Definitionen für einen neuen Überwachungsserver zu erstellen.
 
-- Wählen Sie aus der **Edgepool zuordnen (für Medienkomponenten** Kontrollkästchen, um einen Edge-Server für diesen Front-End-Server oder Front-End-Pool zu aktivieren. Nach dem Aktivieren des Kontrollkästchens, wählen Sie eine vorhandene Edge-Server oder Pool aus der Liste aus oder klicken Sie auf **neu** , um die Definitionen für einen neuen Edge-Server oder Pool zu erstellen.
+- Aktivieren Sie das Kontrollkästchen **Edge-Pool zuordnen (für Medienkomponenten** , um einen Edgeserver für diesen Front-End-Server oder Front-End-Pool zu aktivieren. Nachdem Sie das Kontrollkästchen aktiviert haben, wählen Sie einen vorhandenen Edgeserver oder Pool in der Liste aus, oder klicken Sie auf **neu** , um die Definitionen für einen neuen Edgeserver oder Pool zu erstellen.
 
   **Flexibilität**
 
-- Wählen Sie das Kontrollkästchen **zugeordneter Sicherungsregistrierungsstellen-Pool** einen Front-End-Server oder Front-End-Pool aus der Liste auswählen, die Sicherungsregistrierung werden (d. h., die Front-End-Server oder Front-End-Pool, die als einer sekundären Registrierung den Fall, dass die primäre ein Fehler auftritt)
+- Aktivieren Sie das Kontrollkästchen **zugeordnete sicherungsregistrierungspool** , um aus der Liste einen Front-End-Server oder einen Front-End-Pool zu wählen, der die Sicherungs Registrierungsstelle (also der Front-End-Server oder der Front-End-Pool ist, der als sekundäre Registrierungsstelle bezeichnet wird, falls das primäre fehlschlägt
 
-- Wenn Sie zugeordneter Sicherungsregistrierungsstellen-Pool ausgewählt und eine sicherungsregistrierung gewählt haben, können Sie das Kontrollkästchen für **Automatisches Failover und Failback für VoIP**aktivieren. Sie können jetzt numerische Eigenschaften für **VoIP-Failover-Erkennung interne (s)** und **VoIP Failback Intervall (s)** definieren. Weitere Informationen hierzu finden Sie unter [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+- Wenn Sie den entsprechenden sicherungsregistrierungspool ausgewählt und eine Sicherungs Registrierungsstelle ausgewählt haben, können Sie das Kontrollkästchen für **Automatisches Failover und Failback für VoIP**aktivieren. Sie können jetzt numerische Eigenschaften für die **interne (SEK)-Spracherkennung** und das **Failback-Intervall für Sprachanrufe (sec)** definieren. Ausführliche Informationen finden Sie unter [Planen der Enterprise-VoIP-Resilienz](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
 
-  **Webdienste**
+  **Web Services**
 
-- Um **interne Webdienste**konfigurieren, definieren Sie die **Überwachungsports** für **HTTP** und **HTTPS**. Standardmäßig sind diese TCP-Port 80 und TCP-Port 443. Sie können auch die **veröffentlichten Ports** für **HTTP** und **HTTPS**konfigurieren. Standardmäßig sind diese TCP-Port 80 und TCP-Port 443. Auf Grundlage der interne Web Services-Konfiguration und der Lastenausgleich (Hardwaregeräte zum Lastenausgleich und DNS-Lastenausgleich) verwenden, passen Sie die Portwerte so definieren Sie die überwachungs- und veröffentlichten Ports.
-
-    > [!IMPORTANT]
-    > Interne Webdienste und die definierten überwacht und veröffentlichten Ports sind für interne Clients und Geräten. Externe Clients und Geräten verwenden Sie die externen Webdienste überwacht und veröffentlichte Ports, zusammen mit den definierten externe Web Services vollqualifizierten Domänennamen (FQDN).
-
-- Zum Konfigurieren von **externen Webdiensten**, definieren Sie die **Überwachungsports** für **HTTP** und **HTTPS**. Standardmäßig sind diese TCP-Port 80 und TCP-Port 443. Sie können auch die **veröffentlichten Ports** für **HTTP** und **HTTPS**konfigurieren. Standardmäßig sind diese TCP-Port 80 und TCP-Port 443. Auf Grundlage der interne Web Services-Konfiguration und der Lastenausgleich (Hardwaregeräte zum Lastenausgleich und DNS-Lastenausgleich) verwenden, passen Sie die Portwerte so definieren Sie die überwachungs- und veröffentlichten Ports.
+- Zum Konfigurieren **interner**Webdienste definieren Sie **Abhör-Ports** für **http** und **https**. Standardmäßig handelt es sich hierbei um TCP-Port 80 und TCP-Port 443. Darüber hinaus konfigurieren Sie die **veröffentlichten Ports** für **http** und **https**. Standardmäßig handelt es sich hierbei um TCP-Port 80 und TCP-Port 443. Passen Sie auf der Grundlage ihrer internen Webdienstkonfiguration und der Verwendung von Lastenausgleichsgeräten (Hardwarelastenausgleichs und DNS-Lastenausgleich) die Portwerte an, um die anhörenden und veröffentlichten Ports zu definieren.
 
     > [!IMPORTANT]
-    > Externe Webdienste und die definierten überwacht und veröffentlichten Ports sind für externe Clients und Geräten. Externe Clients und Geräten verwenden Sie die externen Webdienste überwacht und veröffentlichte Ports, die in der Regel durch Ihren Reverseproxy aufrufen zusammen mit den definierten externe Web Services vollqualifizierten Domänennamen (FQDN) definiert. Die Beziehung zwischen den externen FQDN der Webdienste und die einfachen URLs definieren die uniform Resource Locator (URL)-Adressen, die externe Clients verwendet werden, um die verfügbaren Dienste für externe Benutzer und Geräte zugreifen. Weitere Informationen zu einfachen URLs finden Sie unter [Planung für einfache URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx).
+    > Interne Webdienste und die definierten Überwachungs-und Veröffentlichungs-Ports sind für interne Clients und Geräte bestimmt. Externe Clients und Geräte verwenden die externen Webdienste Überwachung und veröffentlichte Ports sowie den definierten externen Webdienste-vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN).
+
+- Zum Konfigurieren **externer**Webdienste definieren Sie **Abhör-Ports** für **http** und **https**. Standardmäßig handelt es sich hierbei um TCP-Port 80 und TCP-Port 443. Darüber hinaus konfigurieren Sie die **veröffentlichten Ports** für **http** und **https**. Standardmäßig handelt es sich hierbei um TCP-Port 80 und TCP-Port 443. Passen Sie auf der Grundlage ihrer internen Webdienstkonfiguration und der Verwendung von Lastenausgleichsgeräten (Hardwarelastenausgleichs und DNS-Lastenausgleich) die Portwerte an, um die anhörenden und veröffentlichten Ports zu definieren.
+
+    > [!IMPORTANT]
+    > Externe Webdienste und die definierten Überwachungs-und Veröffentlichungs-Ports gelten für externe Clients und Geräte. Externe Clients und Geräte verwenden die überwachten und veröffentlichten Ports für externe Webdienste, die in der Regel von Ihrem Reverseproxy zusammen mit dem definierten externen Webdienste-vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) definiert werden. Die Beziehung zwischen dem FQDN externer Webdienste und den einfachen URLs definiert die URL-Adressen (Uniform Resource Locator), die von externen Clients für den Zugriff auf Dienste verwendet werden, die für externe Benutzer und Geräte verfügbar sind. Weitere Informationen zu einfachen URLs finden Sie unter [Planen einfacher URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx).
 
   **Vermittlungsserver**
 
-- Wählen Sie zum Konfigurieren der Eigenschaften der **Vermittlungsserver** für einen verbundenen Vermittlungsserver (d. h., einen Vermittlungsserver auf dem Front-End-Server oder Front-End-Pool bereitgestellt wird) **verbundener Vermittlungsserver aktiviert**.
+- Wenn Sie die **Vermittlungsserver** Eigenschaften für einen eingerichteten Vermittlungsserver (also einen auf dem Front-End-Server oder Front-End-Pool bereitgestellten Vermittlungsserver) konfigurieren möchten, wählen Sie zusammengestellt **Mediation Server aktiviert**aus.
 
-- Um die **Überwachungsports** für einen verbundenen Vermittlungsserver zu definieren, geben Sie den Wert **TLS** und **TCP-** Port, dem die verbundenen Vermittlungsserver abgehört wird. Standardmäßig ist TLS als TCP-Port 5067 definiert.
+- Wenn Sie die **Überwachungsanschlüsse** für einen bereitgestellten Vermittlungsserver definieren möchten, geben Sie den Wert für **TLS** und **TCP** -Port ein, der vom beiliegenden Vermittlungsserver überwacht wird. Standardmäßig ist TLS als TCP-Port 5067 definiert.
 
-- Um einen Wert für TCP-Port für den Vermittlungsserver zu definieren, aktivieren Sie das Kontrollkästchen **Aktivieren TCP-Port** . Standardmäßig wird der Vermittlungsserver die Transport Layer Security (TLS) über TCP-Protokoll verwendet. TCP-Ports sind verfügbar, nur, wenn die Auswahl des TCP-Port aktivieren aktiviert ist.
+- Wenn Sie einen TCP-Portwert für den Vermittlungs Server definieren möchten, aktivieren Sie das Kontrollkästchen **TCP-Port aktivieren** . Standardmäßig verwendet der Vermittlungs Server das TLS (Transport Layer Security) over TCP-Protokoll. TCP-Ports sind nur verfügbar, wenn die Option TCP-Port aktivieren aktiviert ist.
 
     > [!NOTE]
-    > Dies ist eine optionale Einstellung, und verweisen Sie auf die Anforderungen der PSTN-Gateway oder zu ermitteln, ob dies notwendig ist. Standardmäßig ist der Wert des TCP-Ports 5068.
+    > Hierbei handelt es sich um eine optionale Einstellung, und Sie sollten sich auf die Anforderungen Ihres Gateways oder PSTNs beziehen, um festzustellen, ob dies erforderlich ist. Standardmäßig ist der TCP-Port-Wert 5068.
 
-- Sie definieren Trunks, die verbundenen Vermittlungsserver zugeordnet sind. Wenn bereits Trunks definiert wurden, stehen sie für eine Zuordnung zum Vermittlungsserver zur Verfügung.
+- Sie definieren Trunks, die dem zusammengefassten Vermittlungs Server zugeordnet sind. Wenn bereits Trunks definiert wurden, stehen sie für eine Zuordnung zum Vermittlungsserver zur Verfügung.
 
-    Wenn Sie mehr als ein Gateway einen Vermittlungsserver zugeordnet haben, können Sie das Standardgateway angeben, wählen das Gateway, das Sie als Standardansicht festlegen möchten, und auf **Als Standard**. Wenn Sie auswählen, um das Standard-Gateway zu entfernen, wählen Sie das Gateway, und klicken Sie auf **Standard Unmake**.
+    Wenn einem Vermittlungs Server mehr als ein Gateway zugeordnet ist, können Sie das Standardgateway angeben, indem Sie das Gateway auswählen, das Sie als Standard festlegen möchten, und **** dann auf als Standard festlegen klicken. Wenn Sie sich entscheiden, das aktuelle Standardgateway zu entfernen, wählen Sie das Gateway aus, und klicken Sie auf **Standard aufheben**.
 
 > [!IMPORTANT]
-> Wenn Sie die Eigenschaften in diesem Dialogfeld ändern, müssen die Topologie zu veröffentlichen und die Skype für Business Server-Bereitstellungs-Assistenten auf allen betroffenen Servern ausführen. Nach der Veröffentlichung der neuen Topologie wird eine Liste der betroffenen Server, auf dem die Skype für Business Server-Bereitstellungs-Assistenten ausgeführt werden muss, als einen Link auf die Veröffentlichung erfolgreich Topologie-Zusammenfassung für Sie bereitgestellt. Ausführliche Informationen zum Veröffentlichen der aktualisierten Topologie finden Sie unter [Publish the Topology](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx). Ausführliche Informationen zum die Skype für Business Server-Bereitstellungs-Assistenten finden Sie unter [Lync Server Administrative Tools](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx).
+> Wenn Sie Änderungen an den Eigenschaften in diesem Dialogfeld vornehmen, müssen Sie die Topologie veröffentlichen und den Bereitstellungs-Assistenten für Skype for Business Server auf allen betroffenen Servern ausführen. Nach der Veröffentlichung der neuen Topologie wird eine Liste der betroffenen Server, auf denen der Skype for Business Server-Bereitstellungs-Assistent ausgeführt werden muss, als Link auf dem Zusammenfassungsbildschirm der erfolgreichen Topologie-Veröffentlichung bereitgestellt. Details zum Veröffentlichen der aktualisierten Topologie finden Sie unter [Veröffentlichen der Topologie](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx). Details zum Skype for Business Server-Bereitstellungs-Assistenten finden Sie unter [lync Server-Verwaltungs Tools](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx).
 
-Klicken Sie auf **OK** , um zu speichern und die Änderungen in das topologiedokument zu übernehmen.
+Klicken Sie auf **OK** , um Ihre Änderungen im Topologie-Dokument zu speichern und zu übernehmen.
 
-Klicken Sie auf **Abbrechen** , um die Änderungen zu verwerfen und schließen Sie die **Eigenschaften bearbeiten** für den Front-End-Server oder Front-End-Pool.
+Klicken Sie auf **Abbrechen** , um die Änderungen zu verwerfen und die **Bearbeitungseigenschaften** für den Front-End-Server oder den Front-End-Pool zu schließen.
 
-Klicken Sie auf **Hilfe** , um dieses Hilfethema anzuzeigen.
+Klicken Sie auf **Hilfe** , um dieses Hilfethema zu lesen.
 
 ## <a name="see-also"></a>Siehe auch
 
-[Definieren Sie und konfigurieren Sie eines Front-End-Pool oder Standard Edition-Server](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)
+[Definieren und Konfigurieren eines Front-End-Pools oder Standard Edition-Servers](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)

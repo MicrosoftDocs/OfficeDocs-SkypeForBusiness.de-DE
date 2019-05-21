@@ -5,29 +5,29 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.InstallMirrorDatabaseOptionPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
-description: 'Konfigurieren Sie Einstellungen der Spiegeldatenbank, indem Sie Folgendes definieren:'
-ms.openlocfilehash: d6606b6fc69909297375529aebc48322cc51f959
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Sie konfigurieren die Einstellungen für die Spiegelungsdatenbank, indem Sie Folgendes definieren:'
+ms.openlocfilehash: 5b1cf1160fc28efc8a7787693cc5dd439ea53a17
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888618"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284256"
 ---
 # <a name="install-mirror-database-option-page"></a>Seite "Spiegeldatenbank installieren" – Optionen
  
-Konfigurieren Sie **Einstellungen der Spiegeldatenbank** , indem Sie Folgendes definieren:
+Sie konfigurieren die Einstellungen für die **Spiegelungsdatenbank** , indem Sie Folgendes definieren:
   
-- Geben Sie den **Pfad zur Datei freigeben** , um den Speicherort für die SQL Server-Sicherungsdateien für die zu spiegelnde Datenbank zu definieren.
+- Geben Sie den **Pfad zur Dateifreigabe** ein, um den Speicherort für die Backup-SQL Server-Dateien für die zu spiegelnde Datenbank zu definieren.
     
     > [!NOTE]
-    > Primäre SQL Server-Instanz (benannte Instanz oder Standardinstanz) muss Schreibberechtigungen für die Dateifreigabe verfügen, den Sie hier angeben. Die Spiegelung SQL Server-Instanz (benannte Instanz oder Standardinstanz) muss über Leseberechtigungen für die gleichen Dateifreigabe verfügen. 
+    > Die primäre SQL Server-Instanz (entweder benannte Instanz oder Standardinstanz) muss über Schreibberechtigungen für die Dateifreigabe verfügen, die Sie hier definieren. Die Spiegelungs-SQL Server-Instanz (entweder benannte Instanz oder Standardinstanz) muss über Leseberechtigungen für dieselbe Dateifreigabe verfügen. 
   
   **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
   

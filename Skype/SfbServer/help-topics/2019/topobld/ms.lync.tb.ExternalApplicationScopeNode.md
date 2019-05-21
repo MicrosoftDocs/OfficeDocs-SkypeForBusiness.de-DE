@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.ExternalApplicationScopeNode
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) des Pools, Replikationseinstellungen und den nächsten Hoppool für diesen vertrauenswürdigen Anwendungspool. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 619c115f447bc908d6fdfd0991b9de09b7a3d2a9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 15f3bc3c17024552f376c85abecf3adff4729c9f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916031"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292766"
 ---
 # <a name="external-application-scope-node"></a>Externe Anwendung – Bereichsknoten
  

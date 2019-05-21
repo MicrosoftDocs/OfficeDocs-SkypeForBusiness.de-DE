@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertImportBasics
@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 ROBOTS: NOINDEX, NOFOLLOW
-description: Um ein Zertifikat zu importieren, müssen Sie einen Pfad zu der Zertifikatsdatei an angeben. In das Textfeld Datei Zertifikat auswählen, können Sie entweder Geben Sie den vollständigen Pfad und Dateinamen ein, oder klicken Sie auf die Schaltfläche Durchsuchen und navigieren Sie zu den Pfad und den Dateinamen (in der Regel eine p7b-, PFX- oder CER-Datei).
-ms.openlocfilehash: 6b6c8dcdb210d2203ab5148474df76b56d3a5ad7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Wenn Sie ein Zertifikat importieren möchten, müssen Sie einen Pfad zur Zertifikatsdatei angeben. Im Textfeld Zertifikatdatei auswählen können Sie entweder den vollständigen Pfad und den Dateinamen eingeben oder auf die Schaltfläche Durchsuchen klicken, um zum Speicherort des Pfads und zum Dateinamen zu navigieren (in der Regel eine P7B-, PFX-oder CER-Datei).
+ms.openlocfilehash: b04f8a2ca2e6d3104f4b36e4bc04b6cdd3c61940
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893938"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275552"
 ---
 # <a name="import-certificate-intro"></a>Importieren von Zertifikaten (Einführung)
  
-Um ein Zertifikat zu importieren, müssen Sie einen Pfad zu der Zertifikatsdatei an angeben. In das Textfeld **Datei Zertifikat auswählen,** können Sie entweder Geben Sie den vollständigen Pfad und Dateinamen ein, oder klicken Sie auf die Schaltfläche **Durchsuchen** und navigieren Sie zu den Pfad und den Dateinamen (in der Regel eine p7b-, PFX- oder CER-Datei).
+Wenn Sie ein Zertifikat importieren möchten, müssen Sie einen Pfad zur Zertifikatsdatei angeben. Im Textfeld **Zertifikatdatei auswählen** können Sie entweder den vollständigen Pfad und den Dateinamen eingeben oder auf die Schaltfläche **Durchsuchen** klicken, um zum Speicherort des Pfads und zum Dateinamen zu navigieren (in der Regel eine P7B-, PFX-oder CER-Datei).
   
-Wenn das Zertifikat einen privaten Schlüssel enthält, aktivieren Sie das Kontrollkästchen **Zertifikat-Testdatei enthält den privaten Schlüssel des Zertifikats**. Wenn dieses Kontrollkästchen aktiviert ist, wird die Texteingabe **Kennwort** aktiviert. Wenn Sie ein Zertifikat mit einem privaten Schlüssel zugeordnet ist, wird ein Kennwort auf den privaten Schlüssel in der Regel platziert, wenn das Zertifikat erstellt wird. Sie geben Sie das Kennwort für den privaten Schlüssel, um das Zertifikat zu ermöglichen und den privaten Schlüssel in den Zertifikatspeicher importiert werden sollen. Wenn Sie bereitgestellt haben die Informationen für den Dateipfad Zertifikat und optional das Kennwort des privaten Schlüssel, falls erforderlich, klicken Sie auf **Weiter**.
+Wenn das Zertifikat einen privaten Schlüssel enthält, aktivieren Sie das Kontrollkästchen **Zertifikatsdatei enthält den privaten Schlüssel des Zertifikats**. Wenn dieses Kontrollkästchen aktiviert ist, ist die Eingabe des **Kenn Wort** Texts aktiviert. Wenn Sie über ein Zertifikat mit einem privaten Schlüssel verfügen, wird in der Regel beim Erstellen des Zertifikats ein Kennwort für den privaten Schlüssel gespeichert. Sie geben das Kennwort für den privaten Schlüssel ein, damit das Zertifikat und der private Schlüssel in den Zertifikatspeicher importiert werden können. Wenn Sie die Informationen für den Pfad der Zertifikatsdatei angegeben haben, und optional das Kennwort für den privaten Schlüssel, falls erforderlich, klicken Sie auf **weiter**.
   
 > [!IMPORTANT]
-> Wenn Sie das Kennwort des privaten Schlüssels nicht kennen, schlägt der Import fehl. 
+> Wenn Sie das Kennwort für den privaten Schlüssel nicht kennen, schlägt der Import fehl. 
   
 

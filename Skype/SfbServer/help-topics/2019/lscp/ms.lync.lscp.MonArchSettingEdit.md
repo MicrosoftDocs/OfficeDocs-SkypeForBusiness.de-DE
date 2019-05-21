@@ -1,10 +1,10 @@
 ---
-title: Archivierungskonfiguration Erstellen einer neuen oder Bearbeiten einer vorhandenen
+title: Archivierungskonfiguration neues erstellen oder vorhandenes bearbeiten
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.MonArchSettingEdit
@@ -13,38 +13,38 @@ localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Verwenden Sie Archivierungskonfigurationen zum Steuern der Archivierungsoptionen für Ihre Bereitstellung. Zu den Archivierungskonfigurationen gehören die globale Konfiguration und optional eine oder mehrere Poolkonfigurationen:'
-ms.openlocfilehash: 0e6985fa40c82b1b958df99c332cb4ec5fe23b07
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 68d5de88fc56441989e8ffc9ceabfd3236179d1f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891117"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291978"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Archivierungskonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Archivierungskonfiguration
  
 Verwenden Sie Archivierungskonfigurationen zum Steuern der Archivierungsoptionen für Ihre Bereitstellung. Zu den Archivierungskonfigurationen gehören die globale Konfiguration und optional eine oder mehrere Poolkonfigurationen:
   
-- **Globale Konfiguration** Standardmäßig wird die globale Konfiguration erstellt. Sie können die globale Konfiguration bearbeiten, aber Sie können diese Archivierungskonfiguration nicht löschen. Wenn Sie versuchen, sie zu löschen, werden alle Optionen auf die Standardwerte zurückgesetzt.
+- **Globale Konfiguration** Die globale Konfiguration wird standardmäßig erstellt. Sie können die globale Konfiguration bearbeiten, aber Sie können diese Archivierungskonfiguration nicht löschen. Wenn Sie versuchen, sie zu löschen, werden alle Optionen auf die Standardwerte zurückgesetzt.
     
-- **Standortkonfiguration (optional)** Sie können eine oder mehrere Website Archivierungskonfigurationen angeben, von denen jedes Steuerelement Archivierungsoptionen für einen bestimmten Standort konfigurierbaren. Eine Standortkonfiguration setzt die globale Konfiguration außer Kraft, jedoch nur für die in den Archivierungsstandortkonfigurationen angegebenen Standorte. Sie können Standortkonfigurationen bearbeiten oder löschen.
+- **Websitekonfiguration (optional)** Sie können eine oder mehrere Website Archivierungs Konfigurationen angeben, die jeweils für die Steuerung der Archivierungsoptionen für eine bestimmte Website konfiguriert werden können. Eine Standortkonfiguration setzt die globale Konfiguration außer Kraft, jedoch nur für die in den Archivierungsstandortkonfigurationen angegebenen Standorte. Sie können Standortkonfigurationen bearbeiten oder löschen.
     
-- **Pool-Konfiguration (optional)** Sie können eine oder mehrere Pools Archivierungskonfigurationen, Kontrolle Archivierungsoptionen für einen bestimmten Pool angeben. Eine Poolkonfiguration setzt die globale Konfiguration und die Standortkonfiguration außer Kraft, jedoch nur für die in den Archivierungspoolkonfigurationen angegebenen Pools. Sie können Poolkonfigurationen bearbeiten oder löschen.
+- **Pool Konfiguration (optional)** Sie können eine oder mehrere Pool Archivierungs Konfigurationen angeben, um Archivierungsoptionen für einen bestimmten Pool zu steuern. Eine Poolkonfiguration setzt die globale Konfiguration und die Standortkonfiguration außer Kraft, jedoch nur für die in den Archivierungspoolkonfigurationen angegebenen Pools. Sie können Poolkonfigurationen bearbeiten oder löschen.
     
 > [!NOTE]
-> Archivierung Konfigurationen gelten für Benutzer, die auf Skype für Business Server verwaltet und, wenn Sie die Option Microsoft Exchange-Integration aktivieren mit Exchange zum Speichern von archivierten Datenteils in Microsoft Exchange, Benutzern, die sich in Exchange. Allerdings werden einige Optionen etwas unterschiedlich implementiert für Benutzer in Exchange, verwaltet wie im nächsten Abschnitt beschrieben. 
+> Archivierungs Konfigurationen gelten für Benutzer, die sich in Skype for Business Server befinden, und, wenn Sie die Microsoft Exchange-Integrations Option zur Verwendung von Exchange zum Speichern von Archivierungsdaten in Microsoft Exchange für Benutzer in Exchange aktivieren. Einige Optionen werden allerdings für Benutzer, die in Exchange verwaltet werden, etwas anders implementiert, wie im nächsten Abschnitt beschrieben. 
   
 Geben Sie die folgenden Optionen an, um die Einstellungen für eine neue oder vorhandene Archivierungskonfiguration zu konfigurieren:
-- **Name** Jede Archivierungskonfiguration erfordert einen Namen an. Der Name wird anhand des Typs der Konfiguration bestimmt, die Sie hinzufügen oder bearbeiten:
+- **Name** Für jede Archivierungskonfiguration ist ein Name erforderlich. Der Name wird anhand des Typs der Konfiguration bestimmt, die Sie hinzufügen oder bearbeiten:
     
-  - **Globale Konfiguration** Der Standardname ist Global. Ein Beispielname ist „Contoso North American Organization“.
+  - **Globale Konfiguration** Der Standardname lautet Global. Ein Beispielname ist „Contoso North American Organization“.
     
-  - **Standortkonfiguration** Die Liste enthält die verfügbaren Standorte in Ihrer Bereitstellung. Klicken Sie auf eine einzelne Website, um ihn auszuwählen. Beispielsweise Redmond-Rechenzentrum.
+  - **Websitekonfiguration** Die Liste enthält die verfügbaren Websites in Ihrer Bereitstellung. Klicken Sie auf eine einzelne Website, um Sie auszuwählen. Beispiel: Redmond-Rechenzentrum.
     
-  - **Pool-Konfiguration** Geben Sie einen geeigneten Namen, der den Namen des einem bestimmten Front-End-Pool oder Standard Edition-Server in Ihrer Bereitstellung sein kann. Dies kann der Name eines bestimmten Front-End-Pools oder Standard Edition-Servers der Bereitstellung sein, beispielsweise „Marketingabteilung“.
+  - **Pool Konfiguration** Geben Sie einen geeigneten Namen an, bei dem es sich um den Namen eines bestimmten Front-End-Pools oder eines Standard Edition-Servers in Ihrer Bereitstellung handeln kann. Dies kann der Name eines bestimmten Front-End-Pools oder Standard Edition-Servers der Bereitstellung sein, beispielsweise „Marketingabteilung“.
     
-- **Beschreibung** Dieser Schritt ist optional. Verwenden Sie diese Option zum Angeben weiterer Details wie Umfang oder Zweck der Konfiguration. Beispiel: „Koordination mit Rechtsabteilungen anderer Standorte“.
+- **Beschreibung** Dies ist optional. Verwenden Sie diese Option zum Angeben weiterer Details wie Umfang oder Zweck der Konfiguration. Beispiel: „Koordination mit Rechtsabteilungen anderer Standorte“.
     
-- **Archivierungseinstellung** Die folgenden: Optionen
+- **Archivierungseinstellung** Die folgenden Optionen sind verfügbar:
     
   - **Chatsitzungen archivieren**
     
@@ -52,24 +52,24 @@ Geben Sie die folgenden Optionen an, um die Einstellungen für eine neue oder vo
     
   - **Archivierung deaktivieren**
     
-- **Block instant messaging (IM) oder webkonferenzsitzungen bei Archivierungsfehlern** Die folgenden: Fehler
+- **Blockieren von Sofortnachrichten (im) oder Webkonferenz Sitzungen, wenn die Archivierung fehlschlägt** Zu den Fehlern gehören die folgenden:
     
-  - **Sofortnachrichten** ein Fehler kann eine vollständige Datenbank oder ein Problem mit der Speicherdienst handeln. In diesem Fall ist der Chat für Benutzer blockiert, die für die Archivierung aktiviert sind.
+  - **** Bei einem Fehler kann es sich um eine vollständige Datenbank oder um ein Problem mit dem Speicherdienst handeln. In diesem Fall ist der Chat für Benutzer blockiert, die für die Archivierung aktiviert sind.
     
-  - **Live Meeting** Ein Fehler kann eine Dateifreigabe nicht verfügbar oder ein Problem mit der Speicherdienst handeln. In diesem Fall werden aktive Konferenzen, die beim Auftreten des Fehlers im Pool gehostet werden, in den eingeschränkten Modus umgeschaltet und neue Konferenzen können nicht aktiviert werden.
+  - **Konferenzen** Bei einem Fehler kann es sich um eine nicht verfügbare Dateifreigabe oder um ein Problem mit dem Speicherdienst handeln. In diesem Fall werden aktive Konferenzen, die beim Auftreten des Fehlers im Pool gehostet werden, in den eingeschränkten Modus umgeschaltet und neue Konferenzen können nicht aktiviert werden.
     
     Chatnachrichten und Konferenzen werden nach dem Beheben des Fehlers automatisch wiederhergestellt.
     
-- **Microsoft Exchange-integration** Wählen Sie diese Option, wenn Benutzer vorhanden sind, die in Exchange verwaltet werden. Mit dieser Option wird Exchange zum Speichern von Daten für diese Benutzer verwendet, wenn ihre Postfächer Compliance-Archiv abgelegt wurden. Wenn alle Benutzer auf Exchange befinden, müssen Sie keine separaten SQL Server-Datenbanken für die Speicherung von Archivierungsdaten einrichten.
+- **Microsoft Exchange-Integration** Wählen Sie diese Option aus, wenn Sie über Benutzer verfügen, die in Exchange beheimatet sind. Mit dieser Option wird Exchange verwendet, um Daten für diese Benutzer zu speichern, wenn ihre Postfächer im in-situ-Speicher platziert wurden. Wenn alle Ihre Benutzer in Exchange verwaltet werden, müssen Sie keine separaten SQL Server-Datenbanken für die Speicherung von Archivierungsdaten einrichten.
     
-- **Aktivieren des Löschvorgangs archivierten Daten** Wählen Sie diese Option Aktivieren des Löschvorgangs und Entfernen von Optionen, die folgenden angeben:
+- **Aktivieren des Bereinigens von Archivierungsdaten** Wählen Sie diese Option aus, um das Bereinigen zu aktivieren und Bereinigungsoptionen anzugeben, die Folgendes umfassen:
     
   - Bereinigung nach einer von Ihnen angegebenen Anzahl von Tagen
     
-  - Bereinigung nach archivierten Daten exportieren von Archivierungsdaten (einschließlich der Daten, die in Exchange hochgeladen wurde, wenn Sie Microsoft Exchange-Integration aktivieren).
+  - Bereinigen nach dem Exportieren der Archivierungsdaten (einschließlich der Daten, die in Exchange hochgeladen wurden, wenn Sie die Microsoft Exchange-Integration aktivieren)
     
     > [!NOTE]
-    > Wenn Sie Microsoft Exchange-Integration aktivieren, Löschvorgang für Benutzer, die in Exchange verwaltet und mit ihren Postfächern, bei denen In-Place Hold von Exchange gesteuert. Die einzige Ausnahme ist für Konferenzen-Dateien, die in der Lync Server-Dateifreigabe gespeichert sind. Diese Dateien werden von der Dateifreigabe, nachdem die Dateien (hochgeladenen zu Exchange) exportiert worden sind, wenn Sie die Option aus, um Daten zu löschen, nach dem Exportieren der archivierten Daten auswählen oder die angegebene maximale Anzahl von Tagen, gelöscht, wenn Sie eine maximale Anzahl von angeben Tage für die Aufbewahrung. 
+    > Wenn Sie die Microsoft Exchange-Integration aktivieren, wird das Bereinigen für Benutzer, die sich in Exchange befinden, und deren Postfächer, die in-situ-Speicher platziert werden, von Exchange gesteuert. Die einzige Ausnahme ist für Konferenz Dateien, die auf der lync Server-Dateifreigabe gespeichert sind. Diese Dateien werden von der Dateifreigabe nur bereinigt, nachdem die Dateien exportiert (in Exchange hochgeladen) wurden, wenn Sie die Option zum Löschen von Daten nach dem Exportieren der Archivierungsdaten oder nach der angegebenen maximalen Anzahl von Tagen auswählen, wenn Sie eine maximale Anzahl von Tagen angeben. Tage für die Aufbewahrung. 
   
-Weitere Informationen über die Archivierungsfunktion und Funktionen, einschließlich Exchange-Integration finden Sie unter [Plan für die Archivierung in Skype für Business Server](../../../plan-your-deployment/archiving/archiving.md), [Archivierung für Skype für Business Server bereitstellen](../../../deploy/deploy-archiving/deploy-archiving.md)und verwalten [Archivierung in Skype für Unternehmen Server](../../../manage/archiving/archiving.md).
+Details zum Archivierungsfeature und zu den Funktionen, einschließlich der Exchange-Integration, finden Sie unter [Planen der Archivierung in Skype](../../../plan-your-deployment/archiving/archiving.md)for Business Server, [Bereitstellen der Archivierung für Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)und [Verwalten der Archivierung in Skype for Business. Server](../../../manage/archiving/archiving.md)aus.
 

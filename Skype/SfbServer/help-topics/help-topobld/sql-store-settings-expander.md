@@ -5,39 +5,39 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.SqlStoreSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
-description: Zum Bearbeiten der Eigenschaften einer SQL Server-Datenbank müssen Sie die Instanz des SQL Server-Datenbank ändern. Klicken Sie im Dialogfeld Eigenschaften bearbeiten können Aufgaben wie die Archivierungsserver-Datenbank von einem Computer an eine andere verschieben. Darüber hinaus können Sie das Dialogfeld Eigenschaften bearbeiten zum Verwenden der Instanz von SQL Server, der als Host Ändern des zentralen Verwaltungsspeichers.
-ms.openlocfilehash: 8f30d740fb7789bde3affdf7c27a23a351c576a1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Wenn Sie die Eigenschaften einer SQL Server-Datenbank bearbeiten möchten, müssen Sie die SQL Server-Datenbankinstanz ändern. Sie können das DialogfeldEigenschaften bearbeiten nicht verwenden, um Aufgaben wie das Verschieben Ihrer Archivierungs Server-Datenbank von einem Computer auf einen anderen auszuführen. Darüber hinaus können Sie das DialogfeldEigenschaften bearbeiten nicht verwenden, um die Instanz von SQL Server zu ändern, die den zentralen Verwaltungsspeicher hostet.
+ms.openlocfilehash: 5119159c782e4d27b47d9759ff7b75323b9992fc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903467"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291207"
 ---
 # <a name="sql-store-settings-expander"></a>SQL-Speichereinstellungen – Erweiterung
  
-Zum Bearbeiten der Eigenschaften einer SQL Server-Datenbank müssen Sie die Instanz des SQL Server-Datenbank ändern. Klicken Sie im Dialogfeld **Eigenschaften bearbeiten** können Aufgaben wie die Archivierungsserver-Datenbank von einem Computer an eine andere verschieben. Darüber hinaus können Sie das Dialogfeld **Eigenschaften bearbeiten** zum Verwenden der Instanz von SQL Server, der als Host Ändern des zentralen Verwaltungsspeichers.
+Wenn Sie die Eigenschaften einer SQL Server-Datenbank bearbeiten möchten, müssen Sie die SQL Server-Datenbankinstanz ändern. Sie können das Dialogfeld **Eigenschaften bearbeiten** nicht verwenden, um Aufgaben wie das Verschieben Ihrer Archivierungs Server-Datenbank von einem Computer auf einen anderen auszuführen. Darüber hinaus können Sie das Dialogfeld **Eigenschaften bearbeiten** nicht verwenden, um die Instanz von SQL Server zu ändern, die den zentralen Verwaltungsspeicher hostet.
   
 ## <a name="editing-the-properties-of-a-sql-server-database"></a>Bearbeiten der Eigenschaften einer SQL Server-Datenbank
 
-Führen Sie im Topologie-Generator die folgenden Schritte aus, um die Instanz von SQL Server zu ändern, die von einer anderen Datenbank als dem zentralen Verwaltungsspeicher verwendet wird:
+Wenn Sie die Instanz von SQL Server ändern möchten, die von einer anderen Datenbank als dem zentralen Verwaltungsspeicher verwendet wird, führen Sie das folgende Verfahren im Topologie-Generator aus:
   
 ### <a name="to-modify-an-instance-of-sql-server"></a>So ändern Sie eine Instanz von SQL Server
 
-1. Wählen Sie unter dem Knoten **SQL-Speicher** die gewünschte Datenbank aus, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+1. Wählen Sie die entsprechende Datenbank unter dem Knoten **SQL Stores** aus, und klicken Sie dann auf **Eigenschaften bearbeiten**.
     
-2. Klicken Sie im Dialogfeld **Eigenschaften bearbeiten** führen Sie eine der folgenden Aktionen aus:
+2. Führen Sie im Dialogfeld **Eigenschaften bearbeiten** eine der folgenden Aktionen aus:
     
-   - Um die Standardinstanz von SQL Server verwenden, wählen Sie **Standardinstanz** aus, und klicken Sie dann auf **OK**.
+   - Wenn Sie die standardmäßige SQL Server-Instanz verwenden möchten, wählen Sie **Standardinstanz** aus, und klicken Sie dann auf **OK**.
     
-   - Um eine benannte Datenbankinstanz verwenden, wählen Sie **Benannte Instanz**, geben Sie den Namen der Instanz in das Textfeld ein, und klicken Sie dann auf **OK**. Sie sollten nur der Name der Instanz (beispielsweise ArchivingInstance) und nicht den gesamten SQL Server-Pfad eingeben.
+   - Wenn Sie eine benannte Datenbankinstanz verwenden möchten, wählen Sie **benannte Instanz**aus, geben Sie den Namen der Instanz in das Textfeld ein, und klicken Sie dann auf **OK**. Geben Sie nur den Namen der Instanz (beispielsweise ArchivingInstance) und nicht den gesamten SQL Server-Pfad ein.
     
-Wenn Sie im Dialogfeld **Eigenschaften bearbeiten** arbeiten, wird Topologie-Generator nicht stellen Sie sicher, dass die Datenbankinstanz, die Sie eingegeben haben, um eine gültige Instanz ist. Angenommen, wenn Sie versehentlich TypeArchivingInstanec als den Namen der Instanz, und klicken Sie dann auf **OK**, Topologie-Generator akzeptiert, dass ungültige Instanz. Bevor Sie diese Topologie veröffentlichen können, müssen Sie diesen Fehler beheben: Wenn eine SQL Server-Instanz kann nicht gefunden werden, erstellt der Topologie-Generator diese Instanz nicht für Sie.
+Wenn Sie im Dialogfeld **Eigenschaften bearbeiten** arbeiten, überprüft der Topologie-Generator nicht, ob es sich bei der von Ihnen eingegebenen Datenbankinstanz um eine gültige Instanz handelt. Wenn Sie beispielsweise versehentlich als typeArchivingInstanec und dann auf **OK**klicken, akzeptiert der Topologie-Generator diese ungültige Instanz. Bevor Sie diese Topologie veröffentlichen können, müssen Sie diesen Fehler korrigieren: Wenn eine SQL Server-Instanz nicht gefunden werden kann, wird diese Instanz von Topology Builder nicht für Sie erstellt.
   
 

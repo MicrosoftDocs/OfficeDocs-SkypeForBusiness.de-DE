@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.MonitoringServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
-description: 'In Lync Server 2013-Topologie-Generator, können Sie Aufgaben im Zusammenhang mit einem einzelnen Server unter Überwachung Maustaste auf dem Server mit der Überwachung in der Konsolenstruktur ausführen, klicken auf der Symbolleiste Aktion oder einen Vorgang im Bereich Aktionen auf und führen Sie dann durch Klicken auf eine der folgenden Optionen für den Server mit der Überwachung:'
-ms.openlocfilehash: 3880ad774d28605942f4fa5bcf2bd07d00a3a7aa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'In lync Server 2013 Topology Builder können Sie Aufgaben im Zusammenhang mit einem einzelnen Server ausführen, auf dem die Überwachung ausgeführt wird, indem Sie entweder mit der rechten Maustaste auf den Server mit Überwachung in der Konsolenstruktur klicken, auf Aktion in der Symbolleiste klicken oder im Bereich Aktionen auf eine Aufgabe klicken, und dann Klicken Sie auf eine der folgenden Optionen für den Server, auf dem die Überwachung ausgeführt wird:'
+ms.openlocfilehash: ac099710bfd33effdf490a41d1b3e735894ceee1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888359"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285596"
 ---
 # <a name="monitoring-scope-node"></a>Überwachung – Bereichsknoten
  
-In Lync Server 2013-Topologie-Generator können Sie Aufgaben im Zusammenhang mit einem einzelnen Server Überwachung ausgeführt, indem Sie entweder mit der rechten Maustaste des Servers Überwachung in der Konsolenstruktur ausführen, klicken Sie auf **Aktion** in der Symbolleiste oder auf eine Aufgabe in die Aktionen ausführen. Bereich, und klicken Sie dann auf eine der folgenden Optionen für den Server mit der Überwachung:
+In lync Server 2013 Topology Builder können Sie Aufgaben im Zusammenhang mit einem einzelnen Server ausführen, auf dem die Überwachung ausgeführt wird, indem Sie entweder mit der rechten Maustaste auf den Server, auf dem die Überwachung ausgeführt wird, in der Konsolenstruktur klicken, auf **Aktion** in der Symbolleiste klicken oder auf eine Aufgabe im Aktions Bereich aus, und klicken Sie dann auf eine der folgenden Optionen für den Server, auf dem die Überwachung ausgeführt wird:
   
-- **Bearbeiten der Eigenschaften**. Öffnet die Seite **Eigenschaften bearbeiten** für den Server mit der Überwachung, in dem Sie den vollqualifizierten Domänennamen (FQDN) des Servers mit der Überwachung oder der SQL Server-Überwachungsdatenbank ändern können.
+- **Bearbeiten von Eigenschaften** Öffnet die Seite **Eigenschaften bearbeiten** für den Server, auf dem die Überwachung ausgeführt wird, wo Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Servers mit Überwachung oder der SQL Server-Überwachungsdatenbank ändern können.
     
-- **Löschen**. Löscht den Server Überwachung aus der Topologie und die Überwachungsdatenbank mit SQL Server ausgeführt.
+- **Delete**aus. Löscht den Server, auf dem die Überwachung ausgeführt wird, aus der Topologie und der Monitoring-SQL Server-Datenbank.
     
 Zusätzlich zu den zuvor in diesem Thema beschriebenen Optionen für den Server, auf dem die Überwachung ausgeführt wird, stehen im Knoten „Überwachung“ auch allgemeine Optionen zur Verfügung, auf die Sie auch über andere Knoten der Konsolenstruktur zugreifen können. Dies umfasst Folgendes:
   

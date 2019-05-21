@@ -3,54 +3,54 @@ title: Skype Room System – Hybridbereitstellungen
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
-description: Lesen Sie in diesem Thema erfahren, wie Skype Raum System in einer hybridumgebung bereitstellen.
-ms.openlocfilehash: 2f48707fd4e247a952bc17d26284a8a29eba025a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: In diesem Thema erfahren Sie, wie Sie das Skype Room-System in einer Hybridumgebung bereitstellen.
+ms.openlocfilehash: 37ed625ca97ba34a30ec6f4acbabce272ef6ac50
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895173"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293620"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype Room System – Hybridbereitstellungen
 
-Lesen Sie in diesem Thema erfahren, wie Skype Raum System in einer hybridumgebung bereitstellen.
+In diesem Thema erfahren Sie, wie Sie das Skype Room-System in einer Hybridumgebung bereitstellen.
   
 ## <a name="hybrid-deployments"></a>Hybridbereitstellungen
 
-Gehen Sie folgendermaßen vor, wenn Ihre Topologie Skype für Business Server und Exchange Online, und Sie das Ressourcenpostfach Skype Raum System auf Exchange Online hosten möchten. Dieser Abschnitt behandelt auch ein Hybridszenario, in dessen Rahmen sowohl Exchange Online als auch Exchange Server bereitgestellt werden.
+Führen Sie die folgenden Schritte aus, wenn Ihre Topologie über Skype for Business Server und Exchange Online verfügt und Sie das Skype Room-System Ressourcenpostfach auf Exchange Online hosten möchten. Dieser Abschnitt behandelt auch ein Hybridszenario, in dessen Rahmen sowohl Exchange Online als auch Exchange Server bereitgestellt werden.
   
-Zur Veranschaulichung verwenden wir für die lokale Domäne und LyncSample.ccstp.net LyncSample.com für die online-Domäne.
+Zu illustrativen Zwecken verwenden wir LyncSample.com für die lokale Domäne und LyncSample.ccstp.net für die Online Domäne.
   
-1. Erstellen Sie ein Ressourcenpostfach im Exchange Administrationscenter (LyncSample.ccsctp.net) durch Verbinden mit der Exchange Online-Verwaltungsshell wie in Exchange Online-Bereitstellung beschrieben.
+1. Erstellen Sie ein Ressourcenpostfach im Exchange Admin Center (LyncSample.ccsctp.net), indem Sie eine Verbindung zur Exchange Online-Verwaltungsshell herstellen, wie in Exchange Online-Bereitstellung beschrieben.
     
    ```
    New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
    ```
 
-    OWA-Konnektivität mit lrstest5@LyncSample.ccsctp.net anmelden kann überprüft werden.
+    Sie können die OWA-Konnektivität mithilfe von lrstest5@LyncSample.ccsctp.NET überprüfen, um sich anzumelden.
     
-2. Fügen Sie einer e-Mail-Adresse lrstest5@LyncSample.com (auf Prem Domäne hinzu), und legen Sie es als Antwortadresse, in der Office 365-Exchange-Verwaltungskonsole.
+2. Fügen Sie im Office 365 Exchange Admin Center eine e-Mail-Adresse lrstest5@LyncSample.com (auf-Prem-Domäne) hinzu, und stellen Sie Sie als Antwortadresse ein.
     
-3. Erstellen einer auf Prem Active Directory-Benutzer lrstest5@LyncSample.com, legen Sie die E-mail-Adresse auf lrstest5@LyncSample.com und die Zieladresse auf lrstest5@LyncSample.com festgelegt.
+3. Erstellen Sie eine auf-Prem Active Directory-Benutzer lrstest5@LyncSample.com, legen Sie die e-Mail-Adresse auf lrstest5@LyncSample.com, und legen Sie die Zieladresse auf lrstest5@LyncSample.com.
     
-4. Auslösen Directory-Synchronisierung und, nachdem Synchronisierung abgeschlossen ist, stellen Sie sicher, dass Benutzer in AAD zusammenführen und Sie nicht zum Ändern der Eigenschaften des Empfängers Ressourcen im Office365 Exchange Administrationscenter können.
+4. Führen Sie die Verzeichnissynchronisierung aus, und vergewissern Sie sich nach Abschluss der Synchronisierung, dass Benutzer in Aad zusammengeführt werden und dass Sie die Eigenschaften in den Ressourcen des Empfängers im Office365 Exchange Admin Center nicht ändern können.
     
-5. Überprüfen der OWA-Konnektivität mit lrstest5@LyncSample.com. (Zu einem früheren Zeitpunkt haben Sie OWA-Konnektivität mithilfe der Onlinedomäne überprüft.)
+5. Überprüfen Sie die OWA-Konnektivität mithilfe von lrstest5@LyncSample.com. (Zu einem früheren Zeitpunkt haben Sie OWA-Konnektivität mithilfe der Onlinedomäne überprüft.)
     
     Nachdem das Postfach erstellt worden ist, können Sie Set-CalendarProcessing in der Exchange-Online-Verwaltungsshell verwenden, um das Postfach zu konfigurieren. Mehr dazu erfahren Sie in den Schritten 3–6 unter „Lokale Bereitstellungen mit einzelner Gesamtstruktur“.
     
    > [!NOTE]
-   > Wenn Sie eine hybridumgebung mit Exchange Server und Exchange Online haben, fahren Sie mit der Exchange-Verwaltungsshell und Enable-RemoteMailbox lrstest5@LyncSample.com - RemoteRoutingAddress lrstest5@LyncSample.mail.ccsctp.net-Chatroom. Lösen Sie anschließend die Verzeichnissynchronisierung aus. 
+   > Wenn Sie über eine Hybridumgebung mit Exchange Server und Exchange Online verfügen, wechseln Sie zur Exchange-Verwaltungsshell, und aktivieren Sie RemoteMailbox lrstest5@LyncSample.com-RemoteRoutingAddress lrstest5@LyncSample.Mail.ccsctp.net-Room. Lösen Sie anschließend die Verzeichnissynchronisierung aus. 
   
-    Wenn Sie das Postfach Skype Raum im Exchange Online hosten möchten, diese Schritte für die Exchange-Verwaltungsshell sind nicht erforderlich, und können Sie mit Schritt 6 fortfahren.
+    Wenn Sie das Skype Room-System Postfach in Exchange Online hosten möchten, sind diese Schritte zur Exchange-Verwaltungsshell nicht erforderlich, und Sie können mit Schritt 6 fortfahren.
     
-6. Aktivieren Sie das Systemkonto von Skype Raum für Skype für Unternehmen durch Ausführen des folgenden Cmdlets auf Skype für Business-Verwaltungsshell:
+6. Aktivieren Sie das Skype Room-System Konto für Skype for Business, indem Sie auf der Skype for Business-Verwaltungsshell das folgende Cmdlet ausführen:
     
    ```
    Enable-CsMeetingRoom -SipAddress 'sip: lrstest5@LyncSample.com' -RegistrarPool pool1.child.corp.LyncSample.com -Identity lrstest5@LyncSample.com
@@ -58,6 +58,6 @@ Zur Veranschaulichung verwenden wir für die lokale Domäne und LyncSample.ccstp
    ```
 
 > [!NOTE]
-> Wenn Sie Skype für Business Online anstelle von Skype für Business Server im obigen Szenario haben, klicken Sie dann nach dem das Ressourcenpostfach Exchange-Bereitstellung Bereitstellen einer Skype für Business Konto wie in Skype für die Bereitstellung von Business Online beschrieben. 
+> Wenn Sie Skype for Business Online anstelle von Skype for Business Server im obigen Szenario haben, stellen Sie nach der Bereitstellung des Exchange-Ressourcenpostfachs ein Skype for Business-Konto bereit, wie es in der Skype for Business Online-Bereitstellung beschrieben ist. 
   
 

@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: 'Das Cmdlet „Install-CcAppliance“ installiert die Skype for Business Cloud Connector Edition-Appliance (einschließlich der virtuellen Maschinen für AD, den zentralen Verwaltungsspeicher, den Vermittlungsserver und den Edgeserver) auf dem Hostserver. '
-ms.openlocfilehash: 8f1a8b7d99a555006c1d69ee52f2403e9bf0a874
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 01c689c4a4639c12292d59def6b698281f402299
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880214"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287272"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
@@ -33,7 +33,7 @@ Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
 
 ### <a name="example-1"></a>Beispiel 1
 
-Im folgende Beispiel wird eine neue Cloud-Connector Appliance auf dem Hostserver installiert:
+Im folgenden Beispiel wird eine neue Cloud Connector-Appliance auf dem Hostserver installiert:
   
 ```
 Install-CcAppliance
@@ -41,7 +41,7 @@ Install-CcAppliance
 
 ### <a name="example-2"></a>Beispiel 2
 
-Im folgende Beispiel werden Cloud Connector auf die neueste Version aktualisiert:
+Im folgenden Beispiel wird Cloud Connector auf die neueste Version aktualisiert:
   
 ```
 Install-CcAppliance -Upgrade
@@ -49,7 +49,7 @@ Install-CcAppliance -Upgrade
 
 ### <a name="example-3"></a>Beispiel 3
 
-Das folgende Beispiel entfernt alle Cloud Connector Anmeldeinformationen Cache auf dem Hostserver fordert den Benutzer an allen Anmeldeinformationen erneut, und installiert dann Cloud Connector:
+Im folgenden Beispiel werden alle auf dem Hostserver zwischengespeicherten Cloud Connector-Anmeldeinformationen entfernt, der Benutzer wird aufgefordert, alle Anmeldeinformationen erneut anzugeben, und dann wird Cloud Connector installiert:
   
 ```
 Install-CcAppliance -UpdateAllCredentials
@@ -67,7 +67,7 @@ Der Parameter „-ShowStepsOnly“ ist nur für die Problembehandlung vorgesehen
   
 ### <a name="example-5"></a>Beispiel 5
 
-Im folgenden Beispiel werden Konfigurationsdateien für die einzelnen Bereitstellungsschritte auf dem Hostserver generiert. Konfigurationsdateien gespeichert, die \<ApplianceRoot\>\Instances\\<Version\>-Default\ExportedConfig-Ordner auf dem Hostserver:
+Im folgenden Beispiel werden Konfigurationsdateien für die einzelnen Bereitstellungsschritte auf dem Hostserver generiert. Konfigurationsdateien werden im \<Ordner ApplianceRoot\>\Instances\\<Version\>-default\ExportedConfig auf dem Hostserver gespeichert:
   
 ```
 Install-CcAppliance -PrepareOnly
@@ -95,11 +95,11 @@ Install-CcAppliance -ShowStepsOnly
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Das Cmdlet Install-CcAppliance wird zum Bereitstellen von Cloud-Connector für eine neue Appliance oder eines Upgrades eine vorhandene Appliance auf die neueste Version verwendet.
+Das Cmdlet "Install-CcAppliance" wird verwendet, um den Cloud Connector für eine neue Appliance bereitzustellen oder um eine vorhandene Appliance auf die neueste Version zu aktualisieren.
   
-Wenn Sie eine neue Appliance haben, müssen Sie unbedingt finden Sie unter Prepare Ihrer Umgebung für Cloud-Connector zunächst, führen Sie das Cmdlet Register-CcAppliance zum Registrieren der Appliance, und führen Sie das Cmdlet Install-CcAppliance. Weitere Informationen finden Sie unter [Bereitstellen einer einzelnen Website in der Cloud Connector](deploy-a-single-site-in-cloud-connector.md) und [mehrere Standorte in der Cloud Connector bereitstellen](deploy-multiple-sites-in-cloud-connector.md). 
+Wenn Sie über eine neue Appliance verfügen, lesen Sie Vorbereiten Ihrer Umgebung für Cloud Connector zuerst, führen Sie das Cmdlet Register-CcAppliance aus, um die Appliance zu registrieren, und führen Sie dann das Cmdlet Install-CcAppliance aus. Weitere Informationen finden Sie unter [Bereitstelleneiner einzelnen Website in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) und [Bereitstellen mehrerer Websites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
-Wenn Sie eine vorhandene Bereitstellung von Cloud-Connector verfügen, und Sie aktualisieren möchten, führen Sie die Anweisungen in das [Upgrade auf eine neue Version von Cloud-Connector](upgrade-to-a-new-version-of-cloud-connector.md).
+Wenn Sie über eine vorhandene Bereitstellung von Cloud Connector verfügen und ein Upgrade durchführen möchten, folgen Sie den Anweisungen unter [Upgrade auf eine neue Version von Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md).
   
 ## <a name="parameters"></a>Parameter
 <a name="DetailedDescription"> </a>
@@ -111,7 +111,7 @@ Wenn Sie eine vorhandene Bereitstellung von Cloud-Connector verfügen, und Sie a
 |SkipExistingObjects  <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Dieser Parameter muss in Verbindung mit dem Parameter „Steps“ verwendet werden. Dieser Parameter ist nur für die Problembehandlung vorgesehen.  <br/> |
 |Steps  <br/> |Optional  <br/> |System.Array  <br/> |Führt die Bereitstellungsschritte aus. Dieser Parameter ist nur für die Problembehandlung vorgesehen.  <br/> |
 |Upgrade  <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Aktualisiert eine vorhandene Cloud Connector-Installation auf die neueste Version.  <br/> |
-|UpdateAllCredentials  <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Entfernen Sie alle Cloud Connector Anmeldeinformationen im Cache. Fordert den Benutzer auf, für die Installation neue Anmeldeinformationen einzugeben.  <br/> |
+|UpdateAllCredentials  <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Entfernen Sie alle Anmeldeinformationen für den Cloud Connector im Cache. Fordert den Benutzer auf, für die Installation neue Anmeldeinformationen einzugeben.  <br/> |
    
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
@@ -121,7 +121,7 @@ Keine. Das Cmdlet „Install-CcAppliance“ akzeptiert keine Pipelineeingaben.
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine 
+Keine
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>

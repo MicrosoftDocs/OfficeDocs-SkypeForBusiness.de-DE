@@ -5,29 +5,29 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
-description: Definieren eines neuen SQL-Speichers, was bedeutet, dass Sie eine SQL Server-basierte Datenbank und einer Instanz von SQL Server angeben – eine Standardinstanz oder eine benannte Instanz – geben Sie Folgendes.
-ms.openlocfilehash: 6f70489f00ecde17b855ddb1cdaac55f1dd99e1c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Um einen neuen SQL Store zu definieren, was bedeutet, dass Sie eine SQL Server-basierte Datenbank und eine Instanz von SQL Server angeben – entweder eine Standardinstanz oder eine benannte Instanz – geben Sie Folgendes an:'
+ms.openlocfilehash: 15ac402f6b95d432981eee5eee9167adc4a27daa
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897373"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292969"
 ---
 # <a name="add-sql-store"></a>Hinzufügen von SQL-Speichern
 
-Definieren eines neuen SQL-Speichers, was bedeutet, dass Sie eine SQL Server-basierte Datenbank und einer Instanz von SQL Server angeben – eine Standardinstanz oder eine benannte Instanz – geben Sie Folgendes.
+Um einen neuen SQL Store zu definieren, was bedeutet, dass Sie eine SQL Server-basierte Datenbank und eine Instanz von SQL Server angeben – entweder eine Standardinstanz oder eine benannte Instanz – geben Sie Folgendes an:
 
-Geben Sie den vollqualifizierten Domänennamen (FQDN) des SQL-Servers, der die Datenbankinstanz gehostet wird, die Sie definieren.
+Geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des SQL Server an, der die zu definierende Datenbankinstanz hostet.
 
-Geben Sie die Instanz von SQL Server, der die Daten hosten wird. Sie können die Standardinstanz angeben, oder Sie können eine benannte Instanz angeben.
+Geben Sie die Instanz von SQL Server an, die die Daten hosten soll. Sie können die Standardinstanz angeben, oder Sie können eine benannte Instanz angeben.
 
-Verbinden von Datenbanken in bestimmten Fällen sollten deutlich verstanden werden. Weitere Informationen zum Server verbinden und Instanz-Datenbank – verbinden finden Sie unter [Server Collocation in der Bereitstellung eines Front-End-Pools beschrieben](https://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx) und [Server Collocation in einer Standard Edition-Server-Bereitstellung](https://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx).
+Die Anordnung von Datenbanken in bestimmten Fällen sollte sehr klar verstanden werden. Details zur Server Zusammenstellung und zur Zusammenstellung von Datenbankinstanzen finden Sie unter [Server Zusammenstellung in einer Front-End-Pool Bereitstellung](https://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx) und Server-Zusammenfassung [in einer Standard Edition-Server Bereitstellung](https://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx).
 
 

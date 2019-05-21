@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.WebConferencing
@@ -13,29 +13,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype für Webkonferenzen Business Server umfasst die Zusammenarbeit an Dokumenten, Anwendungsfreigabe und Desktopfreigabe.
-ms.openlocfilehash: 41f39dbe2fe5bec4f177729e5d24d303a87183dc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server-Webkonferenz umfasst die Zusammenarbeit an Dokumenten, die Anwendungsfreigabe und die Desktopfreigabe.
+ms.openlocfilehash: 51e06fa3913eca972f3ce146b344a748a07419e9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889276"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284599"
 ---
 # <a name="web-conferencing-planning-tool"></a>Web Conferencing (Planning Tool)
  
-Skype für Webkonferenzen Business Server umfasst die Zusammenarbeit an Dokumenten, Anwendungsfreigabe und Desktopfreigabe.
+Skype for Business Server-Webkonferenz umfasst die Zusammenarbeit an Dokumenten, die Anwendungsfreigabe und die Desktopfreigabe.
   
 > [!NOTE]
-> Skype für Business Server verwendet Office Web Apps und Office Web Apps Server Freigabe verarbeiten und Rendern von PowerPoint-Präsentationen. Webkonferenzfeatures funktionieren genau wie in Microsoft Lync 2013. Ausführliche Informationen zum Installieren und Konfigurieren von Office Web Apps-Server finden Sie unter [Konfigurieren von Integration mit Office Web Apps Server und Lync Server 2013](https://technet.microsoft.com/en-us/library/jj204792%28v=ocs.15%29.aspx). 
+> In Skype for Business Server werden Office Web Apps und der Office Web Apps-Server verwendet, um das Freigeben und Rendern von PowerPoint-Präsentationen zu verarbeiten. Webkonferenz Features funktionieren genauso wie in Microsoft lync 2013. Details zum Installieren und Konfigurieren des Office Web Apps-Servers finden Sie unter [Konfigurieren der Integration in Office Web Apps Server und lync Server 2013](https://technet.microsoft.com/en-us/library/jj204792%28v=ocs.15%29.aspx). 
   
 Ausführliche Informationen zur Planung der Aktivierung von Webkonferenzen in Ihrer Organisation finden Sie in den folgenden Themen: 
   
 - [Planen von Konferenzen in Skype for Business Server](../../../plan-your-deployment/conferencing/conferencing.md)
     
-- [Hardware und Software-Anforderungen für Konferenzen in Skype für Business Server](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [Hardware-und Softwareanforderungen für Konferenzen in Skype for Business Server](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [Planen von einwahlkonferenzen in Skype for Business Server](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
+- [Planen von Einwahlkonferenzen in Skype for Business Server](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [Planen von großen Besprechungen in Skype für Business Server](../../../plan-your-deployment/conferencing/large-meetings.md)
+- [Planen großer Besprechungen in Skype for Business Server](../../../plan-your-deployment/conferencing/large-meetings.md)
     
 

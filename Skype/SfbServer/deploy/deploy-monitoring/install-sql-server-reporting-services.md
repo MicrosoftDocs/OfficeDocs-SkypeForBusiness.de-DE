@@ -1,33 +1,33 @@
 ---
-title: Installieren von SQL Server Reporting Services in Skype für Business Server
+title: Installieren von SQL Server Reporting Services in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
-description: 'Zusammenfassung: Hier erfahren Sie, wo Sie Informationen zu SQL Server Reporting Services von Skype für Business Server verwendet wird.'
-ms.openlocfilehash: 6a8646fb664f78e9e3b957476362474cb1058d0b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wo Sie Informationen zu den von Skype for Business Server verwendeten SQL Server Reporting Services finden.'
+ms.openlocfilehash: 8aa62c3199d77990acae6eacd448e1a842d4fa0f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894493"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282336"
 ---
-# <a name="install-sql-server-reporting-services-in-skype-for-business-server"></a>Installieren von SQL Server Reporting Services in Skype für Business Server 
+# <a name="install-sql-server-reporting-services-in-skype-for-business-server"></a>Installieren von SQL Server Reporting Services in Skype for Business Server 
  
-**Zusammenfassung:** Hier erfahren Sie, wo Sie Informationen zu SQL Server Reporting Services von Skype für Business Server verwendet wird.
+**Zusammenfassung:** Hier erfahren Sie, wo Sie Informationen zu den von Skype for Business Server verwendeten SQL Server Reporting Services finden.
   
-Skype für Business Server können SQL Server Reporting Services (SSRS) zum Anzeigen und Überwachen von Berichten. Wenn Sie auf diese Funktion zurückgreifen möchten, müssen Reporting Services installiert und konfiguriert sein.
+Skype for Business Server kann SQL Server Reporting Services (SSRS) verwenden, um Berichte anzuzeigen und zu überwachen. Wenn Sie auf diese Funktion zurückgreifen möchten, müssen Reporting Services installiert und konfiguriert sein.
   
 ## <a name="install-sql-server-reporting-services"></a>Installieren von SQL Server Reporting Services
 
-Wenn Sie beabsichtigen, verwenden Sie Skype für Business Server Monitoring Reports (Siehe den nächsten Artikel Weitere Informationen in dieser Dokumentation) muss Erstinstallation von SQL Server Reporting Services; Reporting Services können zum gleichen Zeitpunkt installieren von Microsoft SQL Server oder jederzeit nach der Installation von SQL Server installiert werden. Wenn Sie SQL Server nicht installiert haben, gehen Sie wie weiter oben in dieser Dokumentation. Beim Installieren von SQL Server, stellen Sie sicher, dass auf der Seite Featureauswahl Sie Reporting Services auswählen. Installiert, die SQL Server Reporting Services ein.
+Wenn Sie beabsichtigen, Skype for Business Server-Überwachungsberichte zu verwenden (Weitere Informationen finden Sie im nächsten Artikel dieser Dokumentation), müssen Sie zuerst SQL Server Reporting Services installieren. Reporting Services kann zur gleichen Zeit installiert werden, wenn Sie Microsoft SQL Server oder nach der Installation von SQL Server installieren. Wenn Sie SQL Server nicht installiert haben, befolgen Sie die Anweisungen weiter oben in dieser Dokumentation. Stellen Sie bei der Installation von SQL Server sicher, dass Sie auf der Seite Featureauswahl die Option Reporting Services auswählen. , In dem SQL Server Reporting Services installiert wird.
   
-Erfahren Sie, wie zum Installieren von SQL Server Reporting Services finden Sie unter [SQL Server Reporting Services (SSRS)](https://technet.microsoft.com/en-us/library/ms159106.aspx).
+Informationen zum Installieren von SQL Server Reporting Services finden Sie unter [SQL Server Reporting Services (SSRS)](https://technet.microsoft.com/en-us/library/ms159106.aspx).
   
 Wenn Sie SQL Server ohne SQL Server Reporting Services installiert haben, können Sie dieses Feature gemäß der entsprechenden Vorgehensweise für SQL Server Reporting Services installieren. 
   

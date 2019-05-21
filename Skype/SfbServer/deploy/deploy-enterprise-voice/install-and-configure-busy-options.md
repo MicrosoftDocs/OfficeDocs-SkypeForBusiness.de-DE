@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,19 +12,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
-description: Lesen Sie zum Installieren und Konfigurieren von beschäftigt Optionen in Skype für Business Server.
-ms.openlocfilehash: 5e68dd61ce668a80ccbdeb3faae5875825992650
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Weitere Informationen zum Installieren und Konfigurieren von busy-Optionen in Skype for Business Server.
+ms.openlocfilehash: 13f529ddd7bd3b83f9d065599d3a213662da31a4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892363"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281601"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Installieren und Konfigurieren der Beschäftigt-Optionen für Skype for Business Server
 
-Lesen Sie zum Installieren und Konfigurieren von beschäftigt Optionen in Skype für Business Server.
+Weitere Informationen zum Installieren und Konfigurieren von busy-Optionen in Skype for Business Server.
 
-Wird eine neue VoIP-Richtlinie eingeführt beschäftigt Optionen in der Juli 2016 kumulative Update, mit dem Sie zum Konfigurieren eingehender Anrufe verarbeitet werden, wenn ein Benutzer bereits eines Anrufs oder einer Konferenz oder hat bei einem Anruf auf halten. Neue oder eingehende Anrufe können mit einem Besetztzeichen abgelehnt oder an die Voicemail weitergeleitet werden.
+"Busy Options" ist eine neue VoIP-Richtlinie, die im kumulativen Update vom Juli 2016 eingeführt wurde, mit dem Sie konfigurieren können, wie eingehende Anrufe gehandhabt werden, wenn sich ein Benutzer bereits in einem Anruf oder einer Konferenz befindet oder ein Anruf in Wartestellung gesetzt wurde. Neue oder eingehende Anrufe können mit einem Busy-Signal zurückgewiesen oder an die Voicemail weitergeleitet werden.
 
 Wenn Beschäftigt-Optionen für die Organisation aktiviert wurden, können alle Benutzer des Unternehmens (sowohl Enterprise-VoIP-Benutzer als auch andere Benutzer) die folgenden Konfigurationsoptionen verwenden:
 
@@ -38,7 +38,7 @@ Weitere Informationen zur Funktion „Beschäftigt-Optionen“ finden Sie unter 
 
 ## <a name="install"></a>Installieren 
 
-Stellen Sie sicher, dass Sie die neueste Version von Skype für Business Server installiert haben und dass Sie den neuesten Patch installiert haben. Klicken Sie dazu zunächst beenden Sie alle Dienste, und führen Sie die Skype für Update-Installationsprogramm Business Server wie folgt:
+Stellen Sie sicher, dass Sie die neueste Version von Skype for Business Server installiert haben und dass Sie den neuesten Patch installiert haben. Beenden Sie dazu zunächst alle Dienste, und führen Sie dann das Installationsprogramm für Skype for Business Server Update wie folgt aus:
 
 1. Führen Sie den Befehl „Stop-CsWindowsService“ aus.
 
@@ -48,7 +48,7 @@ Stellen Sie sicher, dass Sie die neueste Version von Skype für Business Server 
 
 Das Installationsprogramm stellt die aktuelle Version der Beschäftigt-Optionen bereit, allerdings ist diese Anwendung nicht standardmäßig aktiviert. Sie wird aktiviert, indem Sie die folgenden Schritte durchführen:
 
-1. Führen Sie das Cmdlet [Set-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps) beschäftigt Optionen global aktivieren, wie im folgenden Beispiel gezeigt aus:
+1. Führen Sie das Cmdlet " [Satz-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps) " aus, um die Optionen für die globale Auslastung zu aktivieren, wie im folgenden Beispiel gezeigt:
 
    ```
    Set-CsVoicePolicy -EnableBusyOptions $true
@@ -56,13 +56,13 @@ Das Installationsprogramm stellt die aktuelle Version der Beschäftigt-Optionen 
 
 2. Wenn für den Standort eine VoIP-Richtlinie eingerichtet wurde, müssen Sie die Beschäftigt-Optionen dann wie folgt für die VoIP-Richtlinie aktivieren:
 
-    Führen Sie zuerst [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps) zum Abrufen der Name der Website aus:
+    Führen Sie zuerst [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps) aus, um den Namen der Website abzurufen:
 
    ```
    Get-CsSite
    ```
 
-    Verwenden Sie den Identitätswert (zum Beispiel: "Site: redmond1") abgerufen, die von Get-CsSite, um die VoIP-Richtlinie der Website wie folgt abzurufen:
+    Verwenden Sie den Wert für Identity (Beispiel: Website: "redmond1"), der von Get-CsSite abgerufen wird, um die VoIP-Richtlinie der Website wie folgt abzurufen:
 
    ```
    Get-CsVoicePolicy -Identity Site:Redmond1
@@ -74,22 +74,22 @@ Das Installationsprogramm stellt die aktuelle Version der Beschäftigt-Optionen 
    Set-CsVoicePolicy -Identity Site:Redmond1 -EnableBusyOptions $true
    ```
 
-3. Führen Sie dann das Cmdlet [New-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) beschäftigt Optionen zur Liste der Server-Anwendungen wie im folgenden Beispiel dargestellt hinzuzufügen:
+3. Führen Sie als nächstes das Cmdlet [New-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) aus, um der Liste der Serveranwendungen beschäftigte Optionen hinzuzufügen, wie im folgenden Beispiel gezeigt:
 
    ```
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
     > [!NOTE]
-    > Sie müssen mit dem vollqualifizierten Domänennamen von einem bestimmten Pool FQDN % ersetzen.
+    > Sie müssen% FQDN% durch den vollqualifizierten Domänennamen eines bestimmten Pools ersetzen.
 
-4. Führen Sie dann das [Update-CsAdminRole](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps) -Cmdlet, um die Role-based Access Control (RBAC) Rollen für die Cmdlets beschäftigt Optionen wie im folgenden Beispiel dargestellt zu aktualisieren:
+4. Führen Sie als nächstes das Cmdlet [Update-CsAdminRole](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps) aus, um die rollenbasierten zugriffssteuerungsrollen für die Cmdlets "busy-Optionen" zu aktualisieren, wie im folgenden Beispiel gezeigt:
 
    ```
    Update-CsAdminRole
    ```
 
-5. Starten Sie schließlich die Skype für Business Server Windows-Dienste auf allen Front-End-Servern in den Pools, in dem beschäftigt Optionen installiert und mithilfe des Befehls [Start-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps) aktiviert wurde:
+5. Starten Sie schließlich die Skype for Business Server-Windows-Dienste auf allen Front-End-Servern in allen Pools, in denen busy-Optionen installiert und aktiviert wurden, indem Sie den Befehl [Start-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps) ausführen:
 
    ```
    Start-CsWindowsService
@@ -111,7 +111,7 @@ Im nächsten Beispiel konfiguriert der Befehl die Beschäftigt-Optionen für die
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-Sie können Konfigurationsinformationen zu den Beschäftigt-Optionen abrufen, indem Sie das Cmdlet [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) verwenden. Das folgende Beispiel gibt die Einstellung beschäftigt Optionen für "KenMyer@Contoso.com":
+Sie können Konfigurationsinformationen zu den Beschäftigt-Optionen abrufen, indem Sie das Cmdlet [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) verwenden. Im folgenden Beispiel wird die Einstellung für busy-Optionen für "KenMyer@contoso.com" zurückgegeben:
 
 ```
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
@@ -123,7 +123,7 @@ Entfernen Sie die Beschäftigt-Optionen mit dem Cmdlet [Remove-CsBusyOptions](ht
 Remove-CsBusyOptions -Identity "Ken Myer"
 ```
 
-Ausführliche Informationen zu den Cmdlets, mit denen Sie beschäftigt Optionen Konfigurieren finden Sie unter den Inhalt technische Referenz für [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx), [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)und [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx).
+Ausführliche Informationen zu den Cmdlets, die Sie zum Konfigurieren von busy-Optionen verwenden, finden Sie in den technischen Referenz Inhalten für " [CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx)", " [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)" und " [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx)".
 
 ## <a name="enable-logging"></a>Aktivieren der Protokollierung
 
@@ -139,7 +139,7 @@ New-CsClsScenario -Parent Global -Name BusyOptions -Provider @{Add=$p1,$p2,$p3}
 
 ## <a name="verify-and-troubleshoot"></a>Überprüfung und Fehlerbehebung
 
-Nach der Installation von Optionen für beschäftigt, stellen Sie sicher, dass die Installation erfolgreich war, mit dem [Get-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/get-csserverapplication?view=skype-ps) -Cmdlet zum Abrufen der Liste der Server-Anwendungen. Wenn die Beschäftigt-Optionen richtig installiert sind, zeigt die Ausgabe des Cmdlets folgende Konfiguration der Beschäftigt-Optionen:
+Nach der Installation von busy-Optionen können Sie überprüfen, ob die Installation erfolgreich war, indem Sie das Cmdlet [Get-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/get-csserverapplication?view=skype-ps) verwenden, um die Liste der Serveranwendungen abzurufen. Wenn die Beschäftigt-Optionen richtig installiert sind, zeigt die Ausgabe des Cmdlets folgende Konfiguration der Beschäftigt-Optionen:
 
 <pre>
 Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions
@@ -152,4 +152,4 @@ ScriptName :
 Script     :
 </pre>
 
-Sie können auch Windows-Ereignisanzeige verwenden, um sicherzustellen, dass die Installation beschäftigt Optionen erfolgreich war und dass Skype für Business Server ausgelastet Optionen erfolgreich geladen. Um beschäftigt Optionen zu überprüfen, öffnen Sie **Ereignisanzeige -\> Anwendungs- und Dienstprotokolle -\> Skype (oder Lync) Server** und suchen Sie nach der Ereignis-ID = 30253.
+Sie können auch die Windows-Ereignisanzeige verwenden, um zu überprüfen, ob die Installation von busy-Optionen erfolgreich war und dass Skype for Business Server die busy-Optionen erfolgreich geladen hat. Öffnen Sie zum Überprüfen der Auslastungs Optionen die **Ereignisanzeige –\> Anwendungs\> -und Dienstprotokolle – Skype (oder lync) Server** , und suchen Sie nach Ereignis-ID = 30253.
