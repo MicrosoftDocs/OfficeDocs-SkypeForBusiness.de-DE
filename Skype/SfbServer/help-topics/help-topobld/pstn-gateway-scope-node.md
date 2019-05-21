@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PstnGatewayScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
-description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN), zugeordnete Vermittlungsserver und andere grundlegende Informationen zu diesem Gateway public switched Telephone Network, (PSTN). Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: e0a19371b251f7d253b69d47294752d8a11df552
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN), den zugehörigen Vermittlungs Server und weitere grundlegende Informationen zu diesem PSTN-Gateway (Public Switched Telephone Network). Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: 52c328f082d29bca4a3253daf665ddcc7fadf4b8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910567"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289875"
 ---
 # <a name="pstn-gateway-scope-node"></a>PSTN-Gateway – Bereichsknoten
  
-Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN), zugeordnete Vermittlungsserver und andere grundlegende Informationen zu diesem Gateway public switched Telephone Network, (PSTN). Folgende Möglichkeiten stehen zur Verfügung:
+Dieser Knoten zeigt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN), den zugehörigen Vermittlungs Server und weitere grundlegende Informationen zu diesem PSTN-Gateway (Public Switched Telephone Network). Folgende Möglichkeiten stehen zur Verfügung:
   
 - **Eigenschaften bearbeiten**: Dient zum Öffnen der Seite **Eigenschaften bearbeiten** für dieses Gateway, auf der Sie den vollqualifizierten Domänennamen (falls die Topologie noch nicht veröffentlicht wurde), den Überwachungsport, das Transportprotokoll und die alternative IP-Adresse für Medien ändern können.
     

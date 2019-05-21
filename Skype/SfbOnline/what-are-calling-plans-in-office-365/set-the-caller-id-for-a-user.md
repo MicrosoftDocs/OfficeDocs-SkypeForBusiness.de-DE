@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going How can caller ID be used in your organization.
-ms.openlocfilehash: e9d2cced647eef2f4db7729c4446068a19000176
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e6cf065207afa04772930adf866c0557440c07ad
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229737"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291927"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Festlegen der Anrufer-ID für einen Benutzer
 The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
@@ -46,7 +46,7 @@ Es gibt Einstellungen, die Sie ändern können:
   
 - **Block their outbound caller ID** You can block the outgoing Caller ID from being sent on a user's outgoing PSTN calls. Doing this will block their phone number from being displayed on the phone of a person being called.
     
-- **Blockieren Sie ihre eingehenden Anrufer-ID** Sie können einen Benutzer aus der Anrufer-ID auf eine beliebige eingehende PSTN-Anrufe empfangen blockieren.
+- **Blockieren der eingehenden Anrufer-ID** Sie können verhindern, dass ein Benutzer die Rufnummernanzeige bei eingehenden PSTN-anrufen empfängt.
     
 > [!IMPORTANT]
 > Bei Notrufen wird immer die Telefonnummer des Benutzers (Anrufer-ID) gesendet. 
@@ -58,7 +58,7 @@ Weitere Informationen zu diesen Einstellungen und zu ihrer Verwendung finden Sie
 ## <a name="set-your-caller-id-policy-settings"></a>Festlegen Ihrer Anrufer-ID-Richtlinieneinstellungen
 
 > [!NOTE]
-> Für alle Einstellungen für die Anrufer-ID in Skype für Business Online müssen Sie Windows PowerShell, und Sie **kann nicht verwendet werden** , der **Skype für Business Administrationscenter**verwenden. 
+> Für alle Anrufer-ID-Einstellungen in Skype for Business Online müssen Sie Windows PowerShell verwenden, und Sie können das **Skype for Business Admin Center** **nicht verwenden** . 
   
 ### <a name="verify-and-start-windows-powershell"></a>Überprüfen und Starten von Windows PowerShell
 
@@ -90,21 +90,21 @@ Weitere Informationen zu diesen Einstellungen und zu ihrer Verwendung finden Sie
     Import-PSSession $session
    ```
 
-Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Sie unter [Connect auf alle Office 365-Dienste in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder das [Einrichten des Computers für Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Wenn Sie weitere Informationen zum Starten von Windows PowerShell benötigen, lesen Sie [Herstellen einer Verbindung mit allen Office 365-Diensten in einem einzelnen Windows PowerShell-Fenster](https://technet.microsoft.com/EN-US/library/dn568015.aspx) oder [Einrichten Ihres Computers für Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Anzeigen aller Anrufer-ID-Richtlinieneinstellungen in Ihrer Organisation
 
-- Um alle Richtlinie für die Anrufer-ID in Ihrer Organisation anzuzeigen, führen Sie Folgendes aus:
+- Wenn Sie alle Einstellungen für die Rufnummernanzeige in Ihrer Organisation anzeigen möchten, führen Sie Folgendes aus:
 
   ```
   Get-CsCallingLineIdentity |fl
   ```
-  [Get-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx)finden Sie weitere Beispiele und Details.
+  Weitere Beispiele und Details finden Sie unter [Get-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx).
     
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>Erstellen einer neuen Anrufer-ID-Richtlinie für Ihre Organisation
 
 
-- Zum Erstellen einer neuen Anrufer-ID-Richtlinie, die die Anrufer-ID auf anonymen festgelegt wird, führen Sie Folgendes aus:
+- Führen Sie Folgendes aus, um eine neue Richtlinie für die Rufnummernanzeige zu erstellen, die die Rufnummernanzeige auf Anonymous festlegt:
     
   ```
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
@@ -112,27 +112,27 @@ Wenn Sie weitere Informationen zu Windows PowerShell starten möchten, finden Si
   > [!NOTE]  
   > In allen Fällen sollte das Feld "Servicenummer" kein "+" enthalten.
 
-  [New-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx)finden Sie weitere Beispiele und Details.
+  Weitere Beispiele und Details finden Sie unter [New-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx).
     
-- Um die neue Richtlinie erstellten auf Amos Marmor anwenden möchten, führen Sie Folgendes aus:
+- Um die von Ihnen erstellte neue Richtlinie auf Amos Marble anzuwenden, führen Sie Folgendes aus:
     
   ```
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
   Weitere Informationen finden Sie im Artikel zum [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx)-Cmdlet.
     
-Wenn Sie bereits eine Richtlinie erstellt haben, können Sie verwenden Sie das Cmdlet [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) , die vorhandene Richtlinie zu ändern, und klicken Sie dann mit dem Cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) verwenden, um die Einstellungen für die Benutzer anzuwenden.
+Wenn Sie bereits eine Richtlinie erstellt haben, können Sie das Cmdlet " [festlegen-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) " verwenden, um Änderungen an der vorhandenen Richtlinie vorzunehmen, und verwenden Sie dann das Cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) , um die Einstellungen auf die Benutzer anzuwenden.
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Festlegen, dass die eingehende Anrufer-ID blockiert wird
 
-- Um die eingehenden Anrufer-ID zu blockieren, führen Sie Folgendes aus:
+- Um die eingehende Rufnummernanzeige zu blockieren, führen Sie Folgendes aus:
     
   ```
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx)finden Sie weitere Beispiele und Details.
+  Weitere Beispiele und Details finden Sie unter [Satz-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx).
     
-- Zum Anwenden von einem Benutzer in Ihrer Organisation der richtlinieneinstellung, die Sie erstellt haben, führen Sie Folgendes aus:
+- Um die von Ihnen erstellte Richtlinieneinstellung auf einen Benutzer in Ihrer Organisation anzuwenden, führen Sie Folgendes aus:
     
   ```
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"

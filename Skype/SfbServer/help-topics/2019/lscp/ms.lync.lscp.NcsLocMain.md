@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.NcsLocMain
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 ROBOTS: NOINDEX, NOFOLLOW
 description: Anhand von Standortrichtlinien wird bestimmt, ob E9-1-1 aktiviert ist, wie es verwendet wird und wie Standortinformationen für Benutzer und Kontakte verwendet werden.
-ms.openlocfilehash: 133fd96bbceab7971196147d604ed582d5584f1a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e86bf3c37350f0e7e571068eb276aa0b237dc86c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891131"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291898"
 ---
 # <a name="location-policy"></a>Standortrichtlinie
 
@@ -26,14 +26,14 @@ Anhand von Standortrichtlinien wird bestimmt, ob E9-1-1 aktiviert ist, wie es ve
 
 Zu den Standortrichtlinien gehören die globale Richtlinie und optional eine oder mehrere Standort- und Benutzerrichtlinien:
 
-- **Globale Richtlinie:** Die globale Richtlinie wird standardmäßig erstellt. Sie können die globale Richtlinie bearbeiten, jedoch nicht löschen. Wenn Sie versuchen, die globale Richtlinie zu entfernen, werden alle Einstellungen auf die Standardwerte zurückgesetzt.
+- **Globale Richtlinie:** Standardmäßig wird die globale Richtlinie erstellt. Sie können die globale Richtlinie bearbeiten, jedoch nicht löschen. Wenn Sie versuchen, die globale Richtlinie zu entfernen, werden alle Einstellungen auf die Standardwerte zurückgesetzt.
 
-- **Websiterichtlinien (optional):** Sie können eine oder mehrere Website Speicherort Richtlinien erstellen, von die jeder auf eine bestimmte Website angewendet wird. Standortrichtlinien setzen die globale Richtlinie außer Kraft.
+- **Website Richtlinien (optional):** Sie können eine oder mehrere Website Standortrichtlinien erstellen, die jeweils für eine bestimmte Website gelten. Standortrichtlinien setzen die globale Richtlinie außer Kraft.
 
-- **Richtlinien für Benutzer (optional):** Sie können eine oder mehrere Benutzer Standortrichtlinien erstellen, von die jedes auf einen bestimmten Benutzer oder eine Gruppe von Benutzern angewendet wird. Benutzerrichtlinien setzen die globale Richtlinie und Standortrichtlinien außer Kraft.
+- **Benutzerrichtlinien (optional):** Sie können eine oder mehrere Benutzerstandort Richtlinien erstellen, die jeweils für einen bestimmten Benutzer oder eine Gruppe von Benutzern gelten. Benutzerrichtlinien setzen die globale Richtlinie und Standortrichtlinien außer Kraft.
 
 > [!NOTE]
-> Außerdem können Sie Standortrichtlinien Netzwerkstandorten hinzufügen, wobei es sich um Gruppen von Subnetzen handelt. Netzwerkstandorten zugewiesene Standortrichtlinien haben Vorrang vor allen anderen Benutzerrichtlinien. Weitere Informationen zum Zuweisen von Standortrichtlinien zu Netzwerkstandorten mithilfe von Cmdlets finden Sie unter [Hinzufügen einer ortungsrichtlinie zu einem Netzwerkstandort in Skype für Business Server](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Weitere Informationen zur Verwendung von Skype Business Server-Systemsteuerung einem Netzwerkstandort eine Standortrichtlinie zugewiesen finden Sie unter [Konfigurieren von Netzwerkstandorten](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx).
+> Außerdem können Sie Standortrichtlinien Netzwerkstandorten hinzufügen, wobei es sich um Gruppen von Subnetzen handelt. Netzwerkstandorten zugewiesene Standortrichtlinien haben Vorrang vor allen anderen Benutzerrichtlinien. Details zum Zuweisen von Standortrichtlinien zu Netzwerk Websites mithilfe von Cmdlets finden Sie unter [Hinzufügen einer Standortrichtlinie zu einer Netzwerk Website in Skype for Business Server](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Details zur Verwendung der Skype for Business Server-Systemsteuerung zum Zuweisen einer Standortrichtlinie zu einer Netzwerk Website finden Sie unter [Konfigurieren von Netzwerkstandorten](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx).
 
 Auf der Seite **Standortrichtlinie** wird eine Liste mit allen Standortrichtlinien angezeigt, die für Ihre Organisation definiert sind.
 
@@ -51,31 +51,31 @@ Auf der Seite **Standortrichtlinie** können Sie die folgenden Aufgaben ausführ
 
 In der folgenden Liste werden die Befehle der Seite beschrieben.
 
-- **Neue** Ermöglicht die Erstellung einer neuen Standortrichtlinie oder Standortrichtlinie.
+- **Neu** Startet eine neue Website Standortrichtlinien-oder Benutzerstandort Richtlinie.
 
-- **Bearbeiten** Öffnet die ausgewählte Standortrichtlinie zur Bearbeitung, wählt alle Standortrichtlinien in der Liste aus oder löscht die ausgewählte Standort- oder Benutzerrichtlinie.
+- **Bearbeiten** von Öffnet die ausgewählte Standortrichtlinie, um Sie zu bearbeiten, wählt alle Standortrichtlinien in der Liste aus oder löscht die ausgewählte Website Richtlinie oder Benutzerrichtlinie.
 
     > [!NOTE]
     > Für die globale Richtlinie werden die Einstellungen mit **Löschen** auf die Standardwerte zurückgesetzt.
 
-- **Aktualisieren** Aktualisiert die Liste mit den Standortrichtlinien.
+- **Aktualisieren** Aktualisiert die Liste der Standortrichtlinien.
 
 In der folgenden Liste werden die Felder der Seite beschrieben.
 
-- **Name** Identifiziert die Standortrichtlinie an.
+- **Name** Identifiziert die Standortrichtlinie.
 
-- **Bereich** Gibt den Bereich der Standortrichtlinie: global, Standort oder Benutzer.
+- **Bereich** Identifiziert den Bereich der Standortrichtlinie: Global, Site oder User.
 
-- **E9-1-1** Überprüft, wenn der Benutzer, denen diese Standortrichtlinie zugewiesen für E9-1-1 aktiviert sind.
+- **E9-1-1** Überprüft, ob Benutzer, denen diese Standortrichtlinie zugewiesen ist, für E9-1-1 aktiviert sind.
 
-- **Speicherort** Gibt an, ob Benutzer Standortinformationen eingeben, wenn deren Clients bei Skype für Business Server an einem neuen Standort registriert wird, und ob sie einen Haftungsausschluss angezeigt, wenn sie die Meldung schließen, ohne Eingabe von Standortinformationen aufgefordert werden.
+- **Ort** Gibt an, ob Benutzer zur Eingabe von Standortinformationen aufgefordert werden, wenn sich der Client mit Skype for Business Server an einem neuen Speicherort registriert und ob er eine Verzichtserklärung erhält, wenn er die Eingabeaufforderung ohne Angabe von Standortinformationen versieht.
 
-- **PSTN-Verwendung** Gibt das Telefonfestnetz (PSTN) Netzwerkauslastung, das verwendet wird, zum Bestimmen der VoIP-Route zur Weiterleitung von Notrufen von Clients, die mit diesem Profil verwendet.
+- **PSTN-Verwendung** Gibt die PSTN-Nutzung (Public Switched Telephone Network) an, die verwendet wird, um die VoIP-Route zu ermitteln, die für die Weiterleitung von Notrufen von Clients mit diesem Profil verwendet wird.
 
-- **Anzahl der E9-1-1** Gibt die Nummer, die zum Erreichen der notrufdienste gewählt wird.
+- **E9-1-1 Nummer** Gibt die Nummer an, die zum Erreichen von Notfalldiensten gewählt wurde.
 
-- **Maske E9-1-1** Gibt eine Zahl, die ein Benutzer wählt, die dann in die Notrufnummer Nummer übersetzt wird.
+- **E9-1-1-Maske** Gibt eine Zahl an, die ein Benutzer anwählt, die dann in die Notrufnummer übersetzt wird.
 
-Weitere Informationen zu Enterprise-VoIP notrufunterstützung Features und Funktionen finden Sie unter [Übersicht über E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Standortrichtlinien finden Sie in der Betriebsdokumentation unter [Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx).
+Ausführliche Informationen zu den Features und Funktionen des Enterprise-VoIP-Notfall Diensts finden Sie unter [Übersicht über E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Standortrichtlinien finden Sie in der Betriebsdokumentation unter [Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx).
 
 

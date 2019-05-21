@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informationen Sie zu Add-on-Lizenzen, Funktionen und Informationen zum Erwerben von Office 365 Business Premium-Plänen. '
-ms.openlocfilehash: 272039c0a7cf0f568efd523f94c42348cba743fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b4f501d3a047e0408a484065e38ab23f98b850ab
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238934"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290073"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
@@ -43,7 +43,7 @@ Wenn Sie [Office 365 Business Premium](https://products.office.com/en/business/o
     > You have to set a toggle to allow your employees to use Skype for Business to search for Skype users. See [Let Skype for Business users add Skype contacts](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
 
 
-- **Option 2. Aktualisieren Sie Ihren Plan und kaufen Telefonsystem und eine in- oder National und International aufrufen Plan**.
+- **Option 2. Aktualisieren Sie Ihren Plan, und kaufen Sie ein Telefon System sowie einen Inlands-, Inlands-und Auslandsanruf Plan**.
 
     > [!Important]
     > Although Skype for Business Online Plan 2 is included with the Office Business Premium subscription, **you can’t add cloud voice calling features**. So, we recommend that you evaluate an Enterprise E5 (or Enterprise E3) plan to see if it is more cost effective.
@@ -52,11 +52,11 @@ Wenn Sie [Office 365 Business Premium](https://products.office.com/en/business/o
 
 2. Kaufen Sie das **Telefonsystem**-Add-On.
     
-3. Ein [Aufruf von Planen für Office 365](/MicrosoftTeams/calling-plans-for-office-365)kaufen: Sie können nur erwerben, nachdem Sie das **Telefonsystem** Add-on kaufen.
+3. Kaufen Sie einen [Anrufplan für Office 365](/MicrosoftTeams/calling-plans-for-office-365): Sie können diesen erst kaufen, nachdem Sie das **Telefon System** -Add-on gekauft haben.
     
     Diese zweite Option ist ideal für Unternehmen mit mehreren Mitarbeitern, die externe Telefonanrufe tätigen und erhalten.
 
-## <a name="how-to-see-prices-and-buy"></a>Wie finden Sie unter Preise und kaufen
+## <a name="how-to-see-prices-and-buy"></a>So können Sie Preise anzeigen und kaufen
 <a name="bkmk_buypremium"> </a>
 
  **So erhalten Sie die Add-Ons für Audiokonferenzen und Guthaben für Kommunikationen**
@@ -65,7 +65,7 @@ Wenn Sie [Office 365 Business Premium](https://products.office.com/en/business/o
 
 2. Navigieren Sie zu **Abrechnung** > **Abonnements** > **Add-ons** > **Add-ons kaufen**.
 
-   ![Um eine zusätzliche Lizenz erwerben möchten, wählen Sie erwerben Add-ons.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![Wenn Sie eine Add-on-Lizenz kaufen möchten, wählen Sie Add-ons kaufen aus.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
 3. Jetzt werden die Preise und die Option zum Kauf des Audiokonferenz-Add-Ons und zum Einrichten von Guthaben für Kommunikationen angezeigt.
 

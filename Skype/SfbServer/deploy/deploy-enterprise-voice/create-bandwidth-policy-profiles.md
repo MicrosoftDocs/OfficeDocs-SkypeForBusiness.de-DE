@@ -1,10 +1,10 @@
 ---
-title: Erstellen von Bandbreite Richtlinienprofilen in Skype für Business Server
+title: Erstellen von Bandbreitenrichtlinien Profilen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
-description: Erstellen oder Ändern von Bandbreitenrichtlinien, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden.
-ms.openlocfilehash: 2ffb7699593c6c7790e37f57e7cce6d1779f0c16
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Sie können Bandbreitenrichtlinien erstellen oder ändern, die von der Sprachanruf Steuerung für Unternehmen in Skype for Business Server verwendet werden.
+ms.openlocfilehash: c7fecafe5f036405088a3c6c62b70774b779e266
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892993"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289020"
 ---
-# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Erstellen von Bandbreite Richtlinienprofilen in Skype für Business Server 
+# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Erstellen von Bandbreitenrichtlinien Profilen in Skype for Business Server 
  
-Erstellen oder Ändern von Bandbreitenrichtlinien, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden. 
+Sie können Bandbreitenrichtlinien erstellen oder ändern, die von der Sprachanruf Steuerung für Unternehmen in Skype for Business Server verwendet werden. 
   
-Bandbreitenrichtlinien definieren Einschränkungen zur Bandbreitenauslastung für in Echtzeit übertragene Audio- und Videodaten. Bandbreitenrichtlinien sind Richtlinienprofilen angewendeten Tobandwidth, die zu mehreren Netzwerkstandorten für die anrufsteuerung angewendet werden können.
+Bandbreitenrichtlinien definieren Einschränkungen zur Bandbreitenauslastung für in Echtzeit übertragene Audio- und Videodaten. Bandbreitenrichtlinien gelten für Richtlinien Profile, die für die Anrufsteuerung auf mehrere Netzwerk Websites angewendet werden können.
   
-Hinweise zum welche Bandbreite begrenzt, Sie sollten in Ihrer Bereitstellung der Anrufsteuerung festlegen, finden Sie unter [Planen für die anrufsteuerung in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Richtlinien zu den Bandbreiteneinschränkungen, die Sie in ihrer CAC-Bereitstellung festlegen sollten, finden Sie unter [Planen der Anrufsteuerung in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 Die im folgenden Verfahren erstellten Beispielrichtlinien legen Einschränkungen für den Audiodatenverkehr insgesamt, einzelne Audiositzungen, den Videodatenverkehr insgesamt und einzelne Videositzungen fest. Das Bandbreitenrichtlinienprofil „5Mb_Link“ legt beispielsweise folgende Einschränkungen fest: 
   
@@ -42,7 +42,7 @@ Die im folgenden Verfahren erstellten Beispielrichtlinien legen Einschränkungen
 > [!NOTE]
 > Der Mindestgrenzwert für Audiositzungen ist 40 KBit/s. Der Mindestgrenzwert für Videositzungen ist 100 KBit/s. 
   
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>Bandbreite Richtlinienprofile erstellen mithilfe von Skype für Business Server-Verwaltungsshell
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>So erstellen Sie bandbreitenrichtlinienprofile mithilfe der Skype for Business Server-Verwaltungsshell
 
 1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
     
@@ -64,9 +64,9 @@ Die im folgenden Verfahren erstellten Beispielrichtlinien legen Einschränkungen
    New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
    ```
 
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>Bandbreite Richtlinienprofile erstellen mithilfe von Skype Business Server-Systemsteuerung
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>So erstellen Sie bandbreitenrichtlinienprofile mithilfe der Skype for Business Server-Systemsteuerung
 
-1. Öffnen von Skype Business Server-Systemsteuerung.
+1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
     
 2. Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**.
     

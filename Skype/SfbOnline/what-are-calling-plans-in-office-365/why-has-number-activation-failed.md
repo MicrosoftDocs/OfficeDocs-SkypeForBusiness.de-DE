@@ -1,5 +1,5 @@
 ---
-title: Warum hat Zahl Fehler bei der Aktivierung?
+title: Warum ist die Nummern Aktivierung fehlgeschlagen?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,15 +21,15 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
-ms.openlocfilehash: 8cb2e7b9f901ce4ab1db13e2869d002c62529537
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: db9e3d3266afe75328840450b89fcc16ebaf1779
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229565"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290624"
 ---
-# <a name="why-has-number-activation-failed"></a>Warum hat Zahl Fehler bei der Aktivierung?
-Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Wenn aus irgendeinem Grund eine Telefonnummer ein aufgrund von Adresse Validierung aktiviert nicht zur Verfügung, müssen Sie eine Serviceanfrage erstellen. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
+# <a name="why-has-number-activation-failed"></a>Warum ist die Nummern Aktivierung fehlgeschlagen?
+Die Adressvalidierung ist ein wichtiger Schritt beim Einrichten von Anrufplänen in Office 365. Wenn eine Telefonnummer aufgrund einer Adressüberprüfung aus irgendeinem Grund nicht aktiviert ist, müssen Sie eine Serviceanfrage erstellen. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Führen Sie für Organisationen mit maximal 150 Benutzern die folgenden Schritte aus:
 1. Wählen Sie im **Office 365 Admin Center** die Option **Need help?** (Benötigen Sie Hilfe?) aus.

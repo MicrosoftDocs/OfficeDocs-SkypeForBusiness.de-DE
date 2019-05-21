@@ -1,5 +1,5 @@
 ---
-title: Was sollte ich für die Kontonummer tragen Sie?
+title: Was muss ich für die Kontonummer eingeben?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,22 +20,22 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoAccountNumber
 ms.custom:
 - Calling Plans
-description: 'Finden Sie unter Was Sie als eine Kontonummer in Skype für Unternehmen halten sollten, und finden Sie auf, die. '
-ms.openlocfilehash: 3f539b886e16eaa106347fbff113763fb451ddb5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Sehen Sie sich an, was Sie als Kontonummer in Skype for Business setzen sollten und wo Sie das finden können. '
+ms.openlocfilehash: 8b99d64714108f3cac8045d09b34d1b76c56907d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229605"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290735"
 ---
-# <a name="what-should-i-put-in-for-the-account-number"></a>Was sollte ich für die Kontonummer tragen Sie?
+# <a name="what-should-i-put-in-for-the-account-number"></a>Was muss ich für die Kontonummer eingeben?
 
-In der Regel die Kontonummer finden Sie auf eine beliebige Bill oder Rechnung von Ihrem Dienstanbieter oder Netzbetreiber haben Sie Ihr Netzbetreiber Website anmelden kann. Wenn Sie die Kontonummer noch nicht kennen, können Sie wenden Sie Ihrem Dienstanbieter oder Netzbetreiber, um darauf zuzugreifen.
+In der Regel können Sie die Kontonummer auf jeder Rechnung oder Rechnung finden, die Sie von Ihrem Dienstanbieter oder Netzbetreiber erhalten haben, oder Sie können sich auf der Website Ihres Netzbetreibers anmelden. Wenn Sie die Kontonummer immer noch nicht wissen, können Sie sich an Ihren Dienstanbieter oder Netzbetreiber wenden, um Sie zu erhalten.
   
 > [!CAUTION]
->  Es ist wichtig, dass Sie, dass Sie Leerzeichen, Bindestriche und Bindestriche nicht verwenden sicherstellen, wenn Ihre Service Provider oder Netzbetreiber Account-Nummer eingeben.
+>  Achten Sie darauf, dass Sie keine Leerzeichen, Bindestriche oder Bindestriche verwenden, wenn Sie die Kontonummer Ihres Dienstanbieters oder Netzbetreibers eingeben.
   
- **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ **Eine vollständige Schritt-für-Schritt-Anleitung finden Sie unter [übertragen von Telefonnummern zu Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

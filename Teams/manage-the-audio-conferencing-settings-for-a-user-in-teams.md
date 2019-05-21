@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -21,37 +21,37 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Als Office 365-Administrator können Sie die Einstellungen für Audiokonferenzen in Microsoft Teams (zum Beispiel den Anbieter, die standardmäßige gebührenpflichtige oder gebührenfreie Telefonnummer, die Konferenzkennung oder die PIN) für einen einzelnen Benutzer in Ihrer Organisation bearbeiten. '
-ms.openlocfilehash: 55d9b326b98dd24cb98262b7104e7de1361a6e8e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: af5329d495303b33b3fe6b86db47b33ca5efce09
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202699"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292095"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Verwalten der Audiokonferenzeinstellungen für einen Benutzer in Microsoft Teams
 
-Sie können als ein Office 365-Administrator die Audiokonferenzeinstellungen – wie z.B. der Anbieter, gebührenpflichtige oder gebührenfreie Telefonnummer als Standard, Konferenz-ID oder PIN – für einen einzelnen Benutzer in Ihrer Organisation bearbeiten. Wenn Sie Einstellungen für die Organisation bearbeiten möchten, finden Sie unter [Verwalten der Einstellungen der Audiokonferenz für Ihre Organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
+Sie können als ein Office 365-Administrator die Audiokonferenzeinstellungen – wie z.B. der Anbieter, gebührenpflichtige oder gebührenfreie Telefonnummer als Standard, Konferenz-ID oder PIN – für einen einzelnen Benutzer in Ihrer Organisation bearbeiten. Wenn Sie die Einstellungen für Ihre Organisation bearbeiten möchten, lesen Sie [Verwalten der Einstellungen für die Audiokonferenz für Ihre Organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
-## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Teams-Logo-30x30.png](media/teams-logo-30x30.png) Verwenden das Microsoft-Teams, Administrationscenter
+## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Teams-Logo-30x30. png](media/teams-logo-30x30.png) Verwenden des Microsoft Teams admin Centers
 
-1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
+1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
 2. Klicken Sie auf **Bearbeiten**.
 
-3. Ändern Sie unter **Audiokonferenzen**eine der folgenden aus:
+3. Ändern **** Sie unter Audiokonferenz eine der folgenden Optionen:
 
 |**Einstellung**|**Beschreibung**|
 |:-----|:-----|
-|**Audiokonferenzen**|Audiokonferenzen aktivieren oder Deaktivieren für den Benutzer, klicken Sie auf **Bearbeiten** , neben **Audiokonferenzen**, und klicken Sie dann im Bereich **Audiokonferenzen** ein-/ausschalten **Audiokonferenzen** aktiviert oder deaktiviert.|
-|**Konferenz-Informationen in e-Mail senden**  |Klicken Sie nur auf diesen Link, wenn Sie sofort eine E-Mail an den Benutzer mit dessen Konferenz-ID und Telefonnummer senden möchten. (Diese E-Mail enthält nicht die PIN.) Weitere Informationen finden Sie unter [Eine E-Mail an einen Benutzer mit dessen Audiokonferenzen-Informationen senden](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).  |
-|**Konferenz-ID**  |Klicken Sie auf **Zurücksetzen Konferenz-ID** , wenn Sie die Konferenz-ID für den Benutzer zurücksetzen müssen. Weitere Informationen finden Sie unter [Zurücksetzen einer Konferenz-ID für einen Benutzer](reset-a-conference-id-for-a-user-in-teams.md).  |
-|**PIN-NUMMER** |Klicken Sie auf **Zurücksetzen PIN** , wenn Sie die PIN für den Benutzer zurücksetzen müssen. Weitere Informationen finden Sie unter [Zurücksetzen der PIN für Audiokonferenzen](reset-the-audio-conferencing-pin-in-teams.md). |
-|**Default Conferencing gebührenpflichtige Telefonnummer** (erforderlich) |Diese werden Zahlen, die für die audiokonferenzbrücke festgelegt werden. Formatieren Sie die Zahlen in Skype für Geschäfts- und Microsoft-Teams, Besprechungsanfragen angezeigt werden soll. Um die standardmäßige gebührenpflichtige Nummer zu ändern, klicken Sie auf **Bearbeiten** , neben **Audiokonferenzen** und klicken Sie im Bereich **Audiokonferenzen** , wählen Sie eine Zahl unter **gebührenpflichtige Nummer**. |
-|**Invites von diesem Benutzer können die gebührenfreie Telefonnummer enthalten.**|Wenn Sie diese Einstellung ändern, klicken Sie auf **Bearbeiten** , neben **Audiokonferenzen** und klicken Sie im Bereich **Audiokonferenzen** , umschalten Sie **gebührenfreie Nummern in Besprechungsanfragen von diesem Benutzer umfassen** , aktiviert oder deaktiviert. |
-|**Nicht authentifizierte Benutzer können die erste Person in der Besprechung sein.**|Zum Ändern dieser Einstellung umschalten Sie **können nicht authentifizierte Benutzer die erste Person in der Besprechung werden** aktiviert oder deaktiviert.
-|**Dial-Out-Berechtigungen**|Wenn Sie diese Einstellung ändern, klicken Sie auf **Bearbeiten** , neben **Audiokonferenzen** und klicken Sie im Bereich **Audiokonferenzen** , wählen Sie eine Option unter **Anwahl von Besprechungen**.|
+|**Audiokonferenzen**|Wenn Sie Audiokonferenzen für den Benutzer aktivieren oder deaktivieren möchten, klicken Sie neben **Audiokonferenz**auf **Bearbeiten** , und aktivieren oder deaktivieren Sie dann im Bereich Audiokonferenzen die **Option Audiokonferenzen** . ****|
+|**Senden von Konferenz Informationen in einer e-Mail**  |Klicken Sie nur auf diesen Link, wenn Sie sofort eine E-Mail an den Benutzer mit dessen Konferenz-ID und Telefonnummer senden möchten. (Diese E-Mail enthält nicht die PIN.) Weitere Informationen finden Sie unter [Eine E-Mail an einen Benutzer mit dessen Audiokonferenzen-Informationen senden](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).  |
+|**Konferenz-ID**  |Klicken Sie auf **Konferenz-ID zurücksetzen** , wenn Sie die Konferenz-ID für den Benutzer zurücksetzen müssen. Weitere Informationen finden Sie unter [Zurücksetzen einer Konferenz-ID für einen Benutzer](reset-a-conference-id-for-a-user-in-teams.md).  |
+|**PIN** |Klicken Sie auf **PIN zurücksetzen** , wenn Sie die PIN für den Benutzer zurücksetzen müssen. Weitere Informationen finden Sie unter [Zurücksetzen der PIN für Audiokonferenzen](reset-the-audio-conferencing-pin-in-teams.md). |
+|**Standardtelefonnummer für Konferenzgebühren** erforderlich |Hierbei handelt es sich um Zahlen, die auf der Audiokonferenz-Brücke festgesetzt werden. Formatieren Sie die Zahlen so, wie Sie in Skype for Business-und Microsoft Teams-Besprechungsanfragen angezeigt werden sollen. Wenn Sie die standardmäßige gebührenpflichtige Nummer ändern **** möchten, klicken Sie neben Audiokonferenz auf **Bearbeiten** , und wählen Sie im Bereich Audiokonferenz eine Nummer unter **gebührenpflichtige**Nummer aus. **** |
+|**Einladungen von diesem Nutzer können eine gebührenfreie Nummer umfassen.**|Wenn Sie diese Einstellung ändern möchten, klicken Sie **** neben Audiokonferenzen auf **Bearbeiten** , und aktivieren oder deaktivieren Sie im Bereich Audiokonferenzen die Option **gebührenfreie Nummern in Besprechungsanfragen von diesem Benutzer einfügen** . **** |
+|**Nicht authentifizierte Benutzer können die erste Person in der Besprechung sein.**|Um diese Einstellung zu ändern, **können Sie nicht authentifizierte Benutzer als erste Person in der Besprechung** aktivieren oder deaktivieren.
+|**Wählberechtigungen**|Wenn Sie diese Einstellung ändern möchten, klicken Sie **** neben Audiokonferenzen auf **Bearbeiten** , und wählen Sie im Bereich Audiokonferenz eine Option unter Einwahl **von Besprechungen aus**. ****|
 
-![Zeigt die Audiokonferenz Einstellungen für einen Benutzer](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
+![Zeigt die Einstellungen für Audiokonferenzen für einen Benutzer](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
  
 
 > [!Note]

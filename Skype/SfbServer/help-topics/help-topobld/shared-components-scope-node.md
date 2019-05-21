@@ -5,36 +5,36 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.SharedComponentsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
-description: Sie klicken Sie auf freigegebene Komponenten in der Hierarchiestruktur Topologie-Generator, um neue freigegebene Komponenten zu erstellen oder zu Optionen der Topologieebene zuzugreifen.
-ms.openlocfilehash: b959fae1eb2aca48fa29abc817c787b6df736ba5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Klicken Sie mit der rechten Maustaste auf freigegebene Komponenten in der Hierarchiestruktur des Topologie-Generators, um neue freigegebene Komponenten zu erstellen oder auf die Optionen auf
+ms.openlocfilehash: 019609145621a882da632aa945623ca49822cf33
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910242"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291371"
 ---
 # <a name="shared-components-scope-node"></a>Freigegebene Komponenten – Bereichsknoten
  
-Sie klicken Sie auf **Freigegebene Komponenten** in der Hierarchiestruktur Topologie-Generator, um neue freigegebene Komponenten zu erstellen oder zu Optionen der Topologieebene zuzugreifen.
+Klicken Sie mit der rechten Maustaste auf **freigegebene Komponenten** in der Hierarchiestruktur des Topologie-Generators, um neue freigegebene Komponenten zu erstellen oder auf die Optionen auf
   
 ![Freigegebene Komponenten – Bereichsknoten](../../media/Shared_Components_Scope_Node.jpg)
   
-Wählen Sie **neu** aus, um einen neuen Dateispeicher, ein neues IP/PSTN-Gateway, einen neuen Office Web Apps-Server, einen neuen SQL Server-Speicher oder einen neuen Trunk zu erstellen.
+Wählen Sie **neu** aus, um einen neuen Filestore, ein neues IP/PSTN-Gateway, einen neuen Office Web Apps-Server, einen neuen SQL Server-Speicher oder einen neuen trunk zu erstellen.
   
 > [!NOTE]
-> Finden Sie die Themen der Onlinehilfe für jede der folgenden Optionen aus. 
+> Informationen zu den einzelnen Optionen finden Sie in den Hilfethemen. 
   
 ![Freigegebene Komponenten – Bereichsknoten](../../media/Shared_Components_Scope_NodeB.jpg)
   
-Sie wählen Sie **Topologie** auf Optionen, um ein neues topologiedokument öffnen klicken. Zum Öffnen eines vorhandenen Topologie Dokuments Herunterladen der aktuellen Topologie aus dem zentralen Verwaltungsspeicher, Speichern einer Kopie des aktuellen Topologie Dokuments, das aktuelle topologiedokument veröffentlichen, Datenbank installieren, um die aktuell konfigurierte Datenbankkonfigurationen erstellen Zusammenführen von Office Communications Server 2007 R2 in der aktuellen Bereitstellung oder Bereitstellung entfernen.
+Sie wählen **Topologie** aus, um auf Optionen zu klicken, um ein neues Topologie-Dokument zu öffnen. Öffnen Sie ein vorhandenes Topologie-Dokument, laden Sie die aktuelle Topologie aus dem zentralen Verwaltungsspeicher herunter, speichern Sie eine Kopie des aktuellen Topologie-Dokuments, veröffentlichen Sie das aktuelle Topologie-Dokument, installieren Sie die Datenbank, um die derzeit konfigurierten Datenbankkonfigurationen zu erstellen. Verbinden Sie Office Communications Server 2007 R2 mit der aktuellen Bereitstellung, oder entfernen Sie die Bereitstellung.
   
-![Gemeinsam genutzte Komponenten – Bereichsknoten C](../../media/Shared_Components_Scope_NodeC.jpg)
+![Freigegebene Komponentenbereich Knoten C](../../media/Shared_Components_Scope_NodeC.jpg)
   
 

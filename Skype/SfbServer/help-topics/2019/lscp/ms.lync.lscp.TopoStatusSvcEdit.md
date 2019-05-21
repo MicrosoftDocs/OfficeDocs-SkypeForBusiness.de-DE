@@ -1,10 +1,10 @@
 ---
-title: Anzeigen von Dienstdetails Topologie
+title: Dienstdetails zur Topologieansicht
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.TopoStatusSvcEdit
@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 ROBOTS: NOINDEX, NOFOLLOW
-description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: ec7005150f9a83d0aede94152ce03e2e4c9d2412
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: 884151c6863e760095b6e15af3cb64d495a2a948
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891054"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289630"
 ---
 # <a name="topology-view-service-detail"></a>Topologie: Anzeigen von Dienstdetails
 
-Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Anzeigen einer Liste von Computern mit Skype für Business Server oder Lync Server](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [Anzeigen einer Liste der Computer mit Skype for Business Server oder lync Server](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
 
 - [View Details About a Service](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
 

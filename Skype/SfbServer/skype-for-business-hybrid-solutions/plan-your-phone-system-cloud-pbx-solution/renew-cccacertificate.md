@@ -5,22 +5,22 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 7/18/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
-description: Das Cmdlet „Renew-CcCACertificate“ erneuert das Zertifikat der Stammzertifizierungsstelle für Skype for Business Cloud Connector Edition, das in Kürze abläuft oder bereits abgelaufen ist. Mit diesem Befehl wurde Update-CcCACertificate in der Cloud Connector 2.0 und spätere Versionen geändert.
-ms.openlocfilehash: 616abb35d577b816368854396a201b9f07b40d12
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Das Cmdlet „Renew-CcCACertificate“ erneuert das Zertifikat der Stammzertifizierungsstelle für Skype for Business Cloud Connector Edition, das in Kürze abläuft oder bereits abgelaufen ist. Dieser Befehl wurde in Update-CcCACertificate in Cloud Connector 2,0 und höheren Versionen geändert.
+ms.openlocfilehash: f1e376b5b944468ec5bf508c6221a099a83d4804
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32250892"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287104"
 ---
 # <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
-Das Cmdlet „Renew-CcCACertificate“ erneuert das Zertifikat der Stammzertifizierungsstelle für Skype for Business Cloud Connector Edition, das in Kürze abläuft oder bereits abgelaufen ist. Mit diesem Befehl wurde Update-CcCACertificate in der Cloud Connector 2.0 und spätere Versionen geändert.
+Das Cmdlet „Renew-CcCACertificate“ erneuert das Zertifikat der Stammzertifizierungsstelle für Skype for Business Cloud Connector Edition, das in Kürze abläuft oder bereits abgelaufen ist. Dieser Befehl wurde in Update-CcCACertificate in Cloud Connector 2,0 und höheren Versionen geändert.
   
 ```
 Renew-CcCACertificate

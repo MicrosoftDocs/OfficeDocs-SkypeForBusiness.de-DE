@@ -1,27 +1,27 @@
 ---
-title: Call List Report in Skype für Business Server
+title: Bericht zur Anrufliste in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
-description: 'Zusammenfassung: Informationen Sie zu den Call List Report in Skype für Business Server verwendet wird.'
-ms.openlocfilehash: 3e9b115edc92c911029570c6b69d589db64533af
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Anruflistenbericht, der in Skype for Business Server verwendet wird.'
+ms.openlocfilehash: fcf7f0e5f34a48644c8bd3bad3f1f2267afeb63d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902762"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289329"
 ---
-# <a name="call-list-report-in-skype-for-business-server"></a>Call List Report in Skype für Business Server
+# <a name="call-list-report-in-skype-for-business-server"></a>Bericht zur Anrufliste in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Call List Report in Skype für Business Server verwendet wird.
+**Zusammenfassung:** Informieren Sie sich über den Anruflistenbericht, der in Skype for Business Server verwendet wird.
   
-Der Anruflistenbericht enthält QoE-Metriken (Quality of Experience) für einzelne Anrufe, die in Ihrer Organisation getätigt oder empfangen wurden. Beachten Sie, dass die tatsächlich im Bericht verzeichneten Metriken davon abhängen, wie Sie auf den Anruflistenbericht zugreifen. Angenommen, wenn Sie den Bericht aus dem [Device Report in Skype für Business Server](device-report.md)öffnen, erfahren Sie, Metriken wie die folgenden Metriken, die auch auf den Device Report gemeldet werden:
+Der Anruflistenbericht enthält QoE-Metriken (Quality of Experience) für einzelne Anrufe, die in Ihrer Organisation getätigt oder empfangen wurden. Beachten Sie, dass die tatsächlich im Bericht verzeichneten Metriken davon abhängen, wie Sie auf den Anruflistenbericht zugreifen. Wenn Sie beispielsweise den Bericht aus dem [gerätebericht in Skype for Business Server](device-report.md)öffnen, sehen Sie Metriken wie die folgenden Metriken, die auch im gerätebericht angezeigt werden:
   
 - Mikrofon des Anrufers
     
@@ -33,7 +33,7 @@ Der Anruflistenbericht enthält QoE-Metriken (Quality of Experience) für einzel
     
 - Anteil Sprachumschaltzeit 
     
-Wenn Sie den [Standortbericht in Skype für Business Server](location-report.md)Call List Report öffnen, werden nicht Sie eines der diese Metriken anzeigen. Stattdessen wird Metriken wie diese angezeigt werden:
+Wenn Sie den Anruflistenbericht aber über den [Standortbericht in Skype for Business Server](location-report.md)öffnen, werden keine dieser Metriken angezeigt. Stattdessen werden Metriken wie die folgenden angezeigt:
   
 - Roundtrip (ms)
     
@@ -49,15 +49,15 @@ Dies sind Metriken aus dem Standortbericht. Im Anruflistenbericht können Sie je
 
 Auf den Anruflistenbericht kann über alle folgenden Berichte zugegriffen werden:
   
-- Den [Standortbericht in Skype für Business Server](location-report.md) (durch Klicken auf das Anrufvolumen oder Anrufe schlechter Qualität Prozentsatz)
+- Der [Standortbericht in Skype for Business Server](location-report.md) (durch Klicken auf das Anrufvolumen oder die prozentuale Kennzahl für schlechten Anruf)
     
-- [Device Report in Skype für Business Server](device-report.md) (durch Klicken auf das Anrufvolumen oder Anrufe schlechter Qualität Prozentsatz)
+- Der [gerätebericht in Skype for Business Server](device-report.md) (durch Klicken auf die Lautstärke des Anrufs oder die prozentuale Kennzahl für schlechten Anruf)
     
-- [Media Quality Summary Report in Skype für Business Server](summary.md) (durch Klicken auf das Anrufvolumen oder Anrufe schlechter Qualität Prozentsatz)
+- Der [Bericht zur Zusammenfassung der Medienqualität in Skype for Business Server](summary.md) (durch Klicken auf die Lautstärke des Anrufs oder die prozentuale Kennzahl für schlechte Anrufe)
     
-- [Server Performance Report in Skype für Business Server](server-performance.md) (durch Klicken auf das Anrufvolumen oder Anrufe schlechter Qualität Prozentsatz)
+- Der [Bericht "Server Leistung" in Skype for Business Server](server-performance.md) (durch Klicken auf das Anrufvolumen oder die prozentuale Kennzahl für schlechten Anruf)
     
-Von können innerhalb der Call List Report Sie den [Call Detail Report in Skype für Business Server](call-detail-report.md) zugreifen, auf die Metrik Detail.
+Innerhalb des Anruflisten Berichts können Sie [in Skype for Business Server auf den Anruf Detailbericht](call-detail-report.md) zugreifen, indem Sie auf die Detail Metrik klicken.
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>Optimale Verwendung des Anruflistenberichts
 
@@ -83,7 +83,7 @@ In der folgenden Tabelle sind die im Anruflistenbericht enthaltenen Informatione
 |**Benutzer-Agent des Anrufers** <br/> |Ja  <br/> |Software, die vom Endpunkt der Person, die den Anruf initiiert hat, verwendet wird.  <br/> |
 |**Benutzer-Agent des Angerufenen** <br/> |Ja  <br/> |Software, die vom Endpunkt der Person, die angerufen wurde, verwendet wird.  <br/> |
 |**Roundtrip (ms)** <br/> |Ja  <br/> |Die durchschnittliche Zeit (in Millisekunden), die ein RTP-Paket (Real-time Transport Protocol) benötigt, um zu einem anderen Endpunkt und wieder zurück zu gelangen. Eine Roundtripzeit von 100 ms oder weniger gilt als akzeptable Qualität.  <br/> Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routingkonfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.  <br/> |
-|**Beeinträchtigung (MOS)** <br/> |Ja  <br/> |Die durchschnittliche Beeinträchtigung der Qualität, die gemäß Mean Opinion Score (MOS) während eines Anrufs auftrat. Die Beeinträchtigungswerte liegen zwischen 0,0 (schlecht) und 5,0 (gut). Ein Wert von 0,5 oder weniger gilt als akzeptable Beeinträchtigung. Früher wurden Mean Opinion Scores berechnet, indem man Benutzer die Qualität eines Telefongesprächs auf einer Skala von 1 bis 5 bewerten ließ. In Skype für Business Server ein Satz von Algorithmen Vorhersagen wie Benutzer einen Anruf bewertet haben würde.  <br/> Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
+|**Beeinträchtigung (MOS)** <br/> |Ja  <br/> |Die durchschnittliche Beeinträchtigung der Qualität, die gemäß Mean Opinion Score (MOS) während eines Anrufs auftrat. Die Beeinträchtigungswerte liegen zwischen 0,0 (schlecht) und 5,0 (gut). Ein Wert von 0,5 oder weniger gilt als akzeptable Beeinträchtigung. Früher wurden Mean Opinion Scores berechnet, indem man Benutzer die Qualität eines Telefongesprächs auf einer Skala von 1 bis 5 bewerten ließ. In Skype for Business Server wird in einer Reihe von Algorithmen prognostiziert, wie Nutzer einen Anruf bewertet hätten.  <br/> Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
 |**Paketverlust** <br/> |Ja  <br/> |Die durchschnittliche Rate an RTP-Paketverlusten. Zu Paketverlusten kommt es, wenn RTP-Pakete (RTP ist ein Protokoll für die Übertragung von Audio und Video über das Internet) ihr Ziel nicht erreichen. Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
 |**Jitter** <br/> |Ja  <br/> |Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für das „Zittern“ der Übertragung während eines Anrufs.) Hohe Jitterwerte werden in der Regel durch Überlastung oder einen überlasteten Medienserver verursacht und führen zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
 |**Ausblendungsverhältnis der Reparatur** <br/> |Ja  <br/> |Das durchschnittliche Verhältnis zwischen ausgeblendeten Audiosamples und der Gesamtzahl der Samples. (Ausgeblendete Audiosamples sind ein Verfahren zum „Glätten“ der „holprigen“ Übertragung, die normalerweise von verworfenen Netzwerkpaketen verursacht wird.) Ein hoher Wert gibt an, dass wegen Paketverlusten oder Jitters Verlustausblendung in großem Umfang angewendet wurde und führt zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |

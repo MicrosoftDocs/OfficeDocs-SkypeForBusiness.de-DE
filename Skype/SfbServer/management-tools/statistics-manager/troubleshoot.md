@@ -4,25 +4,25 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um die Bereitstellung von Statistiken Manager für Skype für Business Server zu beheben.'
-ms.openlocfilehash: dbdf536b43006f5619330e93de0b8aba5024a1ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um die Bereitstellung von Statistics Manager für Skype for Business Server zu beheben.'
+ms.openlocfilehash: b85ee6593413cce0aa5b7c76901dbbc6099107fd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906683"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299695"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server
  
-**Zusammenfassung:** Lesen Sie dieses Thema, um die Bereitstellung von Statistiken Manager für Skype für Business Server zu beheben.
+**Zusammenfassung:** Lesen Sie dieses Thema, um die Bereitstellung von Statistics Manager für Skype for Business Server zu beheben.
   
-In diesem Thema wird beschrieben, wie für die Problembehandlung bei der Bereitstellung von Statistiken-Manager mit der Beschreibung der Ereignisse, die möglicherweise im Ereignisprotokoll Anwendung angezeigt, und die entsprechenden Aktionen, die Sie ergreifen können, das Ereignis zu beheben. Dieses Thema enthält die folgenden Abschnitte:
+In diesem Thema wird beschrieben, wie Sie eine Problembehandlung für Ihre Statistik-Manager-Bereitstellung durchführen, indem Sie Ereignisse beschreiben, die möglicherweise im Anwendungsereignisprotokoll angezeigt werden, und geeignete Aktionen zum Beheben des Ereignisses. Dieses Thema enthält die folgenden Abschnitte:
   
 - [Agent-Ereignisse](troubleshoot.md#BKMK_Agent)
     
@@ -35,7 +35,7 @@ In diesem Thema wird beschrieben, wie für die Problembehandlung bei der Bereits
 
 - **1000** – Prozessor-Limiter (Auftragsobjekt) kann nicht eingerichtet werden – unbekannte Ursache
     
-- **1001** – Prozess eingeschränkt ist nicht zulässig für den Prozess (möglicherweise bereits in einem Auftrag-Objekt)
+- **1001** – die Prozess Begrenzung ist für den Prozess (wahrscheinlich bereits in einem Auftragsobjekt) nicht zulässig.
     
     Der Agent wird innerhalb eines Windows-Auftragsobjekts ausgeführt, um automatisch dessen Speicherbedarf zu begrenzen. Falls der Agent nicht gestartet wird und diese Ereigniseinträge im Ereignisprotokoll zu finden sind, kann das Auftragsobjekt auf dem Server nicht instanziiert werden. Um das Problem zu umgehen, kann die obere Speicherbegrenzung aufgehoben werden, indem ein Wert in der Konfigurationsdatei geändert wird:
     
@@ -43,14 +43,14 @@ In diesem Thema wird beschrieben, wie für die Problembehandlung bei der Bereits
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
   ```
 
-    Suchen Sie nach "MaxProcessMemoryMB", und ändern Sie den Wert auf "0" wie dargestellt:
+    Suchen Sie nach "MaxProcessMemoryMB", und ändern Sie den Wert in "0" (siehe Abbildung):
     
   ```
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 
     > [!NOTE]
-    > Wenn diese Änderung vorgenommen wurde, wird der Agent im Allgemeinen weiterhin nutzen \< 100 MB Arbeitsspeicher, jedoch es nicht erzwingen auf 300 MB beschränkt werden wie der Standardwert ist. Wenn diese Änderung vorgenommen wird, ist zu empfehlen, den Speicherverbrauch genau im Auge zu behalten, um sicherzustellen, dass der Agent nicht sehr viel Speicher auf seinem Hostcomputer in Anspruch nimmt. 
+    > Wenn diese Änderung vorgenommen wird, beansprucht \< der Agent in der Regel weiterhin 100 MB Arbeitsspeicher, wird jedoch nicht zwangsweise auf 300 MB limitiert, wie es der Standardwert ist. Wenn diese Änderung vorgenommen wird, ist zu empfehlen, den Speicherverbrauch genau im Auge zu behalten, um sicherzustellen, dass der Agent nicht sehr viel Speicher auf seinem Hostcomputer in Anspruch nimmt. 
   
 - **2000** – Fehler bei der Clientinitialisierung
     
@@ -60,17 +60,17 @@ In diesem Thema wird beschrieben, wie für die Problembehandlung bei der Bereits
     
 1. Stellen Sie sicher, dass der Listener-Dienst auf dem Listener-Computer ausgeführt wird. Ist das nicht der Fall, stellen Sie sicher, dass Redis auf diesem Server ausgeführt wird, und starten Sie anschließend den Listener-Dienst neu.
     
-    Überprüfen Sie das Ereignisprotokoll Statistiken-Manager auf dem Computer Listener, um sicherzustellen, dass es sind keine Probleme mit den Statistiken Manager Listener-Dienst selbst.
+    Überprüfen Sie das Ereignisprotokoll des Statistik-Managers auf dem Listener-Computer, um sicherzustellen, dass es keine Probleme mit dem Listen Dienst des Statistik-Managers selbst gibt.
     
 2. Verwenden Sie ein Connectivity Tool wie Telnet, um die Verbindung vom Agent- zum Listener-Computer auf dem richtigen Port zu überprüfen.
     
-    Ist diese Verbindung nicht gegeben, stellen Sie sicher, dass die Firewallregel für eingehenden Verkehr für die Art von Netzwerk aktiviert ist, mit dem der Listener-Computer verbunden ist (privat/öffentlich/Domäne). Wenn der Listener-Computer nicht Mitglied einer Domäne ist, im Netzwerk werden möglicherweise als öffentliche aufgelistet und in diesem Fall die Firewall-Regeln mit Statistiken Manager installiert standardmäßig nicht angewendet werden.
+    Ist diese Verbindung nicht gegeben, stellen Sie sicher, dass die Firewallregel für eingehenden Verkehr für die Art von Netzwerk aktiviert ist, mit dem der Listener-Computer verbunden ist (privat/öffentlich/Domäne). Wenn der Listener-Computer nicht mit einer Domäne verbunden ist, wird das Netzwerk möglicherweise als "öffentlich" aufgeführt, und in diesem Fall gelten die mit Statistik-Manager installierten Firewallregeln nicht standardmäßig.
     
 - **4000** – Fehler beim Herunterladen von Serverinformationen vom Listener-Computer (unbekannte Ursache)
     
   - **4001** – Server in Listener-Topologie nicht gefunden
     
-    Dieser Fehler tritt auf, wenn der Server erfolgreich eine mit dem Listener Verbindung, aber der Server nicht auf die Topologie in der Listener Cache hinzugefügt wurde. Lösungsmöglichkeiten:
+    Dieser Fehler tritt auf, wenn der Server erfolgreich eine Verbindung mit dem Listener herstellt, der Server jedoch nicht zur Topologie im Cache des Listener hinzugefügt wurde. Lösungsmöglichkeiten:
     
   - 	Stellen Sie sicher, dass Sie die Anweisungen für den Import der Topologie befolgt haben. Siehe auch [Import the topology](deploy.md#BKMK_ImportTopology).   
     
@@ -82,7 +82,7 @@ In diesem Thema wird beschrieben, wie für die Problembehandlung bei der Bereits
     
   - **4003** – Zertifikatfingerabdruck-Konflikt
     
-    Den Fingerabdruck des Zertifikats an den Agent bei der Installation angegeben nicht übereinstimmt, die der Fingerabdruck des Zertifikats dem Listener derzeit verwendet wird und daher die Verbindung werden abgelehnt. Deinstallieren Sie den Agent, und installieren Sie ihn mithilfe des richtigen Zertifikatfingerabdrucks neu.
+    Der für den Agenten während der Installationszeit angegebene Fingerabdruck des Zertifikats entspricht nicht dem Fingerabdruck des Zertifikats, das der Listener zurzeit verwendet, und daher wird die Verbindung abgelehnt. Deinstallieren Sie den Agenten, und installieren Sie ihn mit dem richtigen Fingerabdruck des Zertifikats erneut.
     
   - **4004** – Ungültige Antwort oder HttpStatusCode ungültig
     
@@ -90,7 +90,7 @@ In diesem Thema wird beschrieben, wie für die Problembehandlung bei der Bereits
     
   - Läuft die Verbindung über einen Proxy, überprüfen Sie die Proxy-Konfiguration.
     
-  - Überprüfen des Computers Listener StatsMan Protokoll bei Problemen mit der Konfiguration.
+  - Überprüfen Sie das Statistik Protokoll des Listener-Computers auf Probleme mit der Konfiguration.
     
   - **4005** – XML-Deserialisierung nicht möglich
     
@@ -141,7 +141,7 @@ In diesem Thema wird beschrieben, wie für die Problembehandlung bei der Bereits
     
     Wird bei jedem Start des Listeners protokolliert.
     
-- **22000** – Initialisierung von Statistiken Manager-Agent erfolgreich abgeschlossen wurde.
+- **22000** – die Initialisierung des Statistik-Manager-Agents war erfolgreich.
     
 - **23000** – Initialisierung von „EventLogQueryManager“ war erfolgreich (beim ersten Mal oder nach Fehlversuch).
     
@@ -158,7 +158,7 @@ In diesem Thema wird beschrieben, wie für die Problembehandlung bei der Bereits
 ## <a name="website-issues"></a>Websiteprobleme
 <a name="BKMK_Website"> </a>
 
-- Sich wiederholende Anmeldung, eingabeaufforderungen in Chrome – dies wurde ein Fehler, der in Version 1.1 aufgelöst wurde. Stellen Sie sicher, dass Sie auf die neueste Version von Statistiken Manager aktualisiert haben, wenn Sie wiederholt Anmeldung Anweisungen im Chrome-Browsers angezeigt werden. Folgendermaßen können Sie feststellen, welche Version der Website Sie ausführen:
+- Wiederholte Anmeldeaufforderung in Chrome – Dies war ein Fehler, der in Version 1,1 aufgelöst wurde. Stellen Sie sicher, dass Sie auf die neueste Version des Statistik-Managers aktualisiert haben, wenn im Chrome-Browser wiederholte Anmeldeaufforderungen angezeigt werden. Folgendermaßen können Sie feststellen, welche Version der Website Sie ausführen:
     
   - 	Öffnen Sie im Datei-Explorer (Standardverzeichnis).
     

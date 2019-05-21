@@ -11,90 +11,90 @@ ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
-description: Finden Sie unter Konfigurieren von Teams, damit die Benutzer mit Benutzern in anderen Organisationen kommunizieren können.
-ms.openlocfilehash: c3faf65dd3f36c193a75e74e73d90bf5e9be11df
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Hier erfahren Sie, wie Sie Teams so konfigurieren, dass Benutzer mit Benutzern in einer anderen Organisation kommunizieren können.
+ms.openlocfilehash: f34bd66b018d84a759c2bfbd5a61b6e112245abc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222371"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299943"
 ---
-# <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Lassen Sie Ihren Teams Benutzer Chat und kommunizieren mit Benutzern in einer anderen Organisation von Teams
+# <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Zulassen, dass Ihre Teams-Benutzer in einer anderen Teams-Organisation chatten und mit Benutzern kommunizieren
 
 Führen Sie die Schritte in diesem Artikel in folgenden Fällen aus:
   
-- Sie müssen die Benutzer in unterschiedlichen Domänen in Ihrem Unternehmen. Beispiel: Rob@ContosoEast.com und Ann@ContosoWest.com.
+- Sie verfügen über Benutzer in verschiedenen Domänen in Ihrem Unternehmen. Beispiel: Rob@ContosoEast.com und Ann@ContosoWest.com.
     
-- Sie möchten die Personen in Ihrer Organisation Teams verwenden, um Personen in bestimmten Unternehmen außerhalb Ihrer Organisation zu kontaktieren.
+- Sie möchten, dass die Personen in Ihrer Organisation Teams verwenden, um Personen in bestimmten Unternehmen außerhalb Ihrer Organisation zu kontaktieren.
     
-- Sie möchten Personen in der ganzen Welt, die Teams verwendet wird, in der Lage, zu finden, und wenden Sie sich mithilfe Ihrer e-Mail-Adresse sein. Wenn Sie und ein weiterer Benutzer aktivieren des externen Zugriffs und des jeweils anderen Domänen ermöglichen, diese verwendet werden. Wenn sie nicht funktioniert, der andere Benutzer sollten sicherstellen, dass seine oder ihre Konfiguration Ihrer Domäne blockieren nicht zur Verfügung.
+- Sie möchten, dass andere Personen in der Welt, die Teams verwenden, Ihre e-Mail-Adresse finden und mit Ihnen Kontakt aufnehmen können. Wenn Sie und ein anderer Benutzer den externen Zugriff aktivieren und die Domänen der anderen Personen zulassen, kann dies funktionieren. Wenn dies nicht funktioniert, sollte der andere Benutzer sicherstellen, dass seine Konfiguration Ihre Domäne nicht blockiert.
 
-Dadurch können Benutzer zu suchen, aufrufen, und Ihnen Sofortnachrichten senden, sowie Besprechungen mit Ihnen einrichten. Wenn Sie externe Benutzer auf Teams und Kanäle zugreifen möchten, möglicherweise Gast Access eine bessere Möglichkeit zum wechseln. Führen Sie die Schritte in diesem Artikel und stellen Sie sicher, dass zum [Aktivieren des Zugriffs Gast](set-up-guests.md) Benutzer kommunizieren können.
+Auf diese Weise können Benutzer Sofortnachrichten finden, anrufen und Ihnen senden sowie Besprechungen mit Ihnen einrichten. Wenn Sie möchten, dass externe Benutzer auf Teams und Kanäle zugreifen können, ist der Gastzugriff möglicherweise eine bessere Möglichkeit, um zu gehen. Führen Sie die Schritte in diesem Artikel aus, und stellen Sie sicher, dass Sie den [Gastzugriff aktivieren](set-up-guests.md) , damit die Benutzer kommunizieren können.
 
 > [!IMPORTANT]
-> Um die derzeit in der Microsoft-Teams-Client an einen externen Benutzer außerhalb Ihrer Organisation einen Verbund einrichten, die zurzeit nicht Gastsystem Ihres AAD-Mandanten wird, muss korrekt Setup für hybride und in Skype für Business Online verschoben. Ab 2/25/2019 Teams noch unterstützt keine systemeigene Verbund, ohne dass der Benutzer des SIP-Profils wird in Skype für Business Online verwaltet. Weitere Informationen zur Einstellung Ihr Konto für Hybrid und klicken Sie dann auf Teams verschoben, finden Sie unter [Upgrade Skype für Business Hybridbereitstellung Teams](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
+> Damit Sie zurzeit innerhalb des Microsoft Teams-Clients an einen externen Benutzer außerhalb Ihrer Organisation, der derzeit kein Gast ihres Aad/Mandanten ist, teilnehmen können, müssen Sie für Hybrid ordnungsgemäß eingerichtet sein und zu Skype for Business Online verschoben werden. Ab 2/25/2019 unterstützt Teams noch keine native Federation, ohne dass der Benutzer das SIP-Profil in Skype for Business Online verwaltet. Weitere Informationen zum Einrichten Ihres Kontos für Hybrid und anschließendes Verschieben in Teams finden Sie unter [Upgrade von Skype for Business-hybridbereitstellung in Teams](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
 
-## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Lassen Sie Ihren Teams Benutzer Chat und kommunizieren mit Benutzern in einer anderen Organisation von Teams
+## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Zulassen, dass Ihre Teams-Benutzer in einer anderen Teams-Organisation chatten und mit Benutzern kommunizieren
 
-Gehen Sie folgendermaßen vor.
+Führen Sie die folgenden Schritte aus.
 
-### <a name="step-1---make-sure-to-set-up-the-ports-and-urls-that-are-needed"></a>Schritt 1: Stellen Sie sicher, dass Sie richten Sie die Ports und URLs, die erforderlich sind.
+### <a name="step-1---make-sure-to-set-up-the-ports-and-urls-that-are-needed"></a>Schritt 1 – Stellen Sie sicher, dass die erforderlichen Ports und URLs eingerichtet sind.
 
 **Am häufigsten haben Benutzer beim Einrichten der Kommunikation zwischen Unternehmen Probleme damit, die [URLs und IP-Adressbereiche von Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) richtig festzulegen.**
 
-### <a name="step-2---enable-your-organization-to-communicate-with-another-teams-organization"></a>Schritt 2: Aktivieren Ihrer Organisation, um die Kommunikation mit einer anderen Organisation von Teams
+### <a name="step-2---enable-your-organization-to-communicate-with-another-teams-organization"></a>Schritt 2 – Aktivieren Ihrer Organisation für die Kommunikation mit einer anderen Teams-Organisation
 
-![Teams-Logo-30x30.png](media/teams-logo-30x30.png) **mithilfe der Verwaltungskonsole von Microsoft-Teams**
+![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center**
 
-   1. Wechseln Sie im linken Navigationsbereich **Org geltende**Einstellungen > **externen Zugriff**. 
+   1. Navigieren Sie in der linken Navigationsleiste zu **organisationsweiten Einstellungen** > **externer Zugriff**. 
 
-   2. Klicken Sie am oberen Rand der Seite **externen Zugriff** auf **externen Zugriff** auf **aktiviert**. 
+   2. Klicken Sie oben auf der Seite **externer Zugriff** auf **externer** Zugriff auf **ein**. 
 
-   3. Wenn Sie alle Teams Organisationen die Kommunikation mit Benutzern in Ihrer Organisation zulassen möchten, überspringen Sie Schritt 5. 
+   3. Wenn Sie zulassen möchten, dass alle Teams-Organisationen mit Benutzern in Ihrer Organisation kommunizieren, fahren Sie mit Schritt 5 fort. 
    
-   4. Wenn Sie möchten beschränken, welche Organisationen kommunizieren können mit Benutzern in Ihrer Organisation können Sie alle jedoch einige Domänen zulassen oder nur bestimmte Organisationen zulassen. Um alle jedoch einige Domänen zu ermöglichen, fügen Sie die Domänen an, den, die Sie blockieren, indem Sie auf **Domäne hinzufügen**möchten. Klicken Sie im Bereich **Domäne hinzufügen** tragen Sie den Domänennamen ein Klicken Sie auf **blockiert** und klicken Sie dann auf **Fertig**. Um für die Kommunikation mit bestimmten Organizatioins zu beschränken, fügen Sie diese Domänen zu der Liste mit dem Status **Alowed**. Nachdem Sie eine beliebige Domäne der Zulassungsliste hinzugefügt haben, werden für die Kommunikation mit anderen Organisationen auf nur Organisationen beschränkt, deren Domänen in der Zulassungsliste enthalten sind. 
+   4. Wenn Sie einschränken möchten, welche Organisationen mit Benutzern in Ihrer Organisation kommunizieren können, können Sie entweder alle außer einigen Domänen zulassen oder nur bestimmte Organisationen zulassen. Wenn Sie nur einige Domänen zulassen möchten, fügen Sie die zu blockierenden Domänen hinzu, indem Sie auf **Domäne hinzufügen**klicken. Klicken Sie im Bereich **Domäne hinzufügen** im Domänennamen auf **blockiert** und dann auf **Fertig**. Um die Kommunikation auf bestimmte organizatioins zu begrenzen, fügen Sie diese Domänen der Liste mit dem **** Status "verschuldete" hinzu. Nachdem Sie der Zulassungsliste eine beliebige Domäne hinzugefügt haben, sind die Kommunikationen mit anderen Organisationen nur auf die Organisationen limitiert, deren Domänen sich in der Zulassungsliste befinden. 
    
    5. Klicken Sie auf **Speichern**. 
 
-   6. Stellen Sie sicher, dass der Administrator in der anderen Teams Organisation dieselben Schritte wird. Beispielsweise muss in ihrer Liste der **zulässigen Domänen** ihren Administrator um die Domäne für Ihr Unternehmen einzugeben, falls sie einschränken, die Organisationen mit ihren Benutzern kommunizieren können. 
+   6. Stellen Sie dann sicher, dass der Administrator in der anderen Teams-Organisation die gleichen Schritte durchführt. In der Liste der **zulässigen Domänen** muss der Administrator beispielsweise die Domäne für Ihr Unternehmen eingeben, wenn er die Unternehmen, die mit seinen Benutzern kommunizieren können, einschränken. 
 
-### <a name="step-3---test-it"></a>Schritt 3: Testen sie das Formular
-Um die Installation zu testen, benötigen Sie ein Teams-Benutzer, die nicht hinter der Firewall befindet.
+### <a name="step-3---test-it"></a>Schritt 3 – testen
+Um Ihr Setup zu testen, benötigen Sie einen Teams-Benutzer, der sich nicht hinter Ihrer Firewall befindet.
   
-   1. Nachdem Sie und der Administrator aus der Organisation die **Zugriff durch externe** Einstellungen geändert haben, sollten Sie gut zu wechseln.
+   1. Nachdem Sie und der Administrator des Unternehmens die Einstellungen für den **externen Zugriff** geändert haben, sollten Sie gut gehen.
     
-   2. In der app Teams nach e-Mail-Adresse der Person suchen Sie, und senden Sie eine Anforderung zum chat.
+   2. Suchen Sie in der Teams-App nach der e-Mail-Adresse der Person, und senden Sie eine Anfrage an den Chat.
     
-   3. Bitten Sie Ihren Teams Kontakt senden eine Anforderung an chat. Wenn Sie die Anfrage nicht erhalten, stellen die Firewalleinstellungen das Problem dar (dabei wird angenommen, dass der Kontakt bereits die Richtigkeit seiner Firewalleinstellungen überprüft hat).
+   3. Bitten Sie Ihren Team-Kontakt, Ihnen eine Anfrage zum Chat zu senden. Wenn Sie die Anfrage nicht erhalten, stellen die Firewalleinstellungen das Problem dar (dabei wird angenommen, dass der Kontakt bereits die Richtigkeit seiner Firewalleinstellungen überprüft hat).
     
-   4. Eine andere Möglichkeit zu prüfen, ob das Problem der Firewall ist ist, gehen Sie an einem Speicherort Wifi nicht hinter der Firewall wie einem Café und Teams das Senden einer Anforderung an den Kontakt zu chat verwenden. Wenn die Nachricht dort gesendet wird, an Ihrem Arbeitsplatz aber nicht, wissen Sie, dass die Firewall das Problem darstellt.
+   4. Eine weitere Möglichkeit, zu testen, ob es sich um eine Firewall handelt, besteht darin, zu einem WLAN-Standort zu wechseln, der sich nicht hinter Ihrer Firewall wie einem Café befindet, und Teams zu verwenden, um eine Anfrage an Ihren Kontakt zu senden, um zu chatten. Wenn die Nachricht dort gesendet wird, an Ihrem Arbeitsplatz aber nicht, wissen Sie, dass die Firewall das Problem darstellt.
 
-## <a name="communicate-with-users-in-a-skype-for-business-online-organization"></a>Kommunizieren Sie mit Benutzern in einer Skype für Business Online-Organisation
+## <a name="communicate-with-users-in-a-skype-for-business-online-organization"></a>Kommunizieren mit Benutzern in einer Skype for Business Online-Organisation
 
-Wenn Sie es einrichten können Ihre Teams Benutzer suchen und Kontakt Benutzer, die in einer Skype für Business-Organisation beschränkt sind, die die Benutzer eine Verbindung herstellen kann, fragt den Administrator in der Organisation an die folgenden Schritte ausführen.
+Wenn Sie Ihre Teams so einrichten, dass Benutzer in einer Skype for Business-Organisation Personen finden und kontaktieren können, die die Kontaktaufnahme mit ihren Benutzern einschränken, bitten Sie den Administrator in dieser Organisation, die folgenden Schritte auszuführen.
 
-![SFB-Logo-30x30.png](media/sfb-logo-30x30.png) **Mithilfe von Skype für Business Administrationscenter** 
+![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **mit Skype for Business Admin Center** 
 
-Haben Sie die Admin, Organisation führen Sie diese Schritte:
+Führen Sie den Administrator in dieser Organisation aus, um die folgenden Schritte auszuführen:
     
-1. Wechseln Sie in das Office 365 Administrationscenter zu **Admin Center** > **Teams & Skype** > **Legacy-Portal**.
+1. Wechseln Sie im Office 365 Admin Center zu **Admin Center** > **Teams & Skype** > **Legacy-Portal**.
   
-2. Wählen Sie in der **Skype für Business Administrationscenter**, **Organisation** > **externe Kommunikation**.
+2. Wählen Sie im **Skype for Business Admin Center**die Option **Organisation** > **External Communications**aus.
     
-3. Zum Einrichten der Kommunikation mit einem bestimmten Unternehmen oder mit Benutzern in einer anderen Domäne, in der Dropdown-Feld auswählen **auf nur für zulässige Domänen**.
+3. Um die Kommunikation mit einem bestimmten Unternehmen oder mit Benutzern in einer anderen Domäne einzurichten, wählen Sie im Dropdownfeld **nur für zulässige Domänen**aktivieren aus.
     
-    ODER, falls sie Kommunikation mit allen anderen Benutzern in der ganzen Welt aktivieren, hat öffnen, möchten Skype für Geschäftsrichtlinien, wählen **auf mit Ausnahme der blockierten Domänen**. Dies ist die Standardeinstellung.
+    Wenn Sie die Kommunikation mit allen anderen Personen in der Welt ermöglichen möchten, die Skype for Business-Richtlinien geöffnet haben, wählen Sie **ein, außer für blockierte Domänen**. Dies ist die Standardeinstellung.
     
-4. Wählen Sie unter **blockiert oder zugelassenen Domänen**, **+** , und fügen Sie den Namen der Domäne, die Sie zulassen möchten. Stellen Sie sicher, dass der Administrator in der anderen Organisation dieselben Schritte wird. Beispiel: In der Liste der **zugelassenen Domänen** muss der Administrator der anderen Organisation die Domäne für Ihr Unternehmen eingeben.
+4. Wählen **+** Sie unter **blockierte oder zulässige Domänen**den Namen der Domäne aus, die Sie zulassen möchten, und fügen Sie ihn hinzu. Stellen Sie sicher, dass der Administrator in der anderen Organisation dieselben Schritte durchführt. Beispiel: In der Liste der **zugelassenen Domänen** muss der Administrator der anderen Organisation die Domäne für Ihr Unternehmen eingeben.
     
 ### <a name="related-topics"></a>Verwandte Themen
 
-[Melden Sie sich bei Microsoft-Teams,](sign-in-teams.md)
-[Endbenutzer Schulungen für Teams](enduser-training.md)
+[Anmelden bei Microsoft Teams](sign-in-teams.md)
+-[Endbenutzerschulungen für Teams](enduser-training.md)
 

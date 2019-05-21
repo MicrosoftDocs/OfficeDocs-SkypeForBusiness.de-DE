@@ -3,27 +3,27 @@ title: Skype Room System – Skripte für das Raumsetup
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: Lesen Sie dieses Thema, in dem Sie Beispielskripte für die Bereitstellung von Skype Room System-Konten finden.
-ms.openlocfilehash: 10e68de94f7327c2a2c111af98a725ad4d8a6754
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e4b146346d7afe69746cf7046c0ee156ee9ff0da
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895180"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291701"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype Room System – Skripte für das Raumsetup
  
 Lesen Sie dieses Thema, in dem Sie Beispielskripte für die Bereitstellung von Skype Room System-Konten finden.
   
-In diesem Abschnitt werden Beispielskripts, die zum Bereitstellen von Skype Raum Systemkonten verwendet werden können. Diese Skripte dienen lediglich als Beispiele und sollten nur verwendet werden, wenn Sie sich vorher mit Ihren IT-Fachleuten oder Domänenadministratoren beraten haben.
+In diesem Abschnitt werden Beispielskripts veranschaulicht, die für die Bereitstellung von Skype Room-System Konten verwendet werden können. Diese Skripte dienen lediglich als Beispiele und sollten nur verwendet werden, wenn Sie sich vorher mit Ihren IT-Fachleuten oder Domänenadministratoren beraten haben.
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Beispiel-Setup-Skript: Skype für Unternehmen und Exchange Server (lokal)
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Beispiel für ein Setup Skript: Skype for Business und Exchange Server (lokal)
 
 ```
 # On Exchange 
@@ -37,7 +37,7 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>Beispiel-Setup-Skript: Skype für Unternehmen und Exchange-Server Online
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>Beispiel für ein Setup Skript: Skype for Business und Exchange Server Online
 
 Stellen Sie sicher, dass Sie die folgenden Voraussetzungen überprüft haben, bevor Sie das Skript ausführen:
   
