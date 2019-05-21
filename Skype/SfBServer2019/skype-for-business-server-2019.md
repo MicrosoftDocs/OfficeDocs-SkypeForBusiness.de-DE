@@ -6,18 +6,18 @@ author: jambirk
 manager: serdars
 layout: LandingPage
 ms.date: 2/11/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: 'Zusammenfassung: Erkunden Sie diese Links, um Informationen zum Implementieren von Skype für Business Server 2019.'
-ms.openlocfilehash: e5a0997fd30447792640364978fea8edefdfe3ed
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Zusammenfassung: untersuchen Sie diese Links, um zu erfahren, wie Sie Skype for Business Server 2019 implementieren.'
+ms.openlocfilehash: 3bb946285b5bd85722aa1983cbbc7e87dbb72506
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32240093"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283906"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype for Business Server 2019
 
@@ -51,7 +51,7 @@ ms.locfileid: "32240093"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Hybridlösungen</h3>
+                        <h3>Hybrid Lösungen</h3>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@ ms.locfileid: "32240093"
         </a>
     </li>
     <li> 
-        <a href="https://www.microsoft.com/evalcenter/evaluate-skype-business-server-2019">
+        <a href="https://go.microsoft.com/fwlink/?linkid=2005336">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -201,12 +201,12 @@ ms.locfileid: "32240093"
 </ul>
 -->
 
-### <a name="featured-articles"></a>Ausgewählte Artikel
+### <a name="featured-articles"></a>Empfohlene Artikel
 
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Bevor Sie beginnen** <br>[Systemanforderungen](plan/system-requirements.md) <br>[Netzwerkanforderungen](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **Installieren** <br>[Installieren von Skype for Business Server](../SfbServer/deploy/install/install.md) <br> [Migrieren Sie zu Skype für Business 2019](migration/migration-to-skype-for-business-server-2019.md)                             | **Enterprise-VoIP**<br>[Planen](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Bereitstellen](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
-| **Neue features**<br>[Neuigkeiten](whats-new.md)                                                                                                                                         | **Hybridlösungen**<br>[Planen von hybridkonnektivität](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **Frühere Versionen**<br/>  [Skype für Business Server 2015-Dokumentation](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Dokumentation zur Lync Server 2013](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
+| **Bevor Sie beginnen** <br>[Systemanforderungen](plan/system-requirements.md) <br>[Netzwerkanforderungen](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **Installieren** <br>[Installieren von Skype for Business Server](../SfbServer/deploy/install/install.md) <br> [Migrieren zu Skype for Business 2019](migration/migration-to-skype-for-business-server-2019.md)                             | **Enterprise-VoIP**<br>[Planen](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Bereitstellen](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
+| **Neue Funktionen**<br>[Neuigkeiten](whats-new.md)                                                                                                                                         | **Hybrid Lösungen**<br>[Planen der Hybrid Konnektivität](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **Frühere Versionen**<br/>  [Skype for Business Server 2015-Dokumentation](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Lync Server 2013-Dokumentation](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 
 * * *

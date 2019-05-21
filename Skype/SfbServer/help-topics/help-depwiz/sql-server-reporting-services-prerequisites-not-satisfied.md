@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeploySSRSPrereqNotSatisfied
@@ -13,19 +13,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6be29df-b882-4ba8-ba40-8062eb3bb14d
 description: Diese Seite wird angezeigt, wenn in Ihrer Infrastruktur keine Monitoring Server bereitgestellt sind. Dies bedeutet, dass die Mindestanforderungen für die Bereitstellung von Monitoring Server-Berichten noch nicht erfüllt sind.
-ms.openlocfilehash: 78bc27491c69f0532411567eded61ad3a9f17fa2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: af04fd438620bea32bcab95cdbca295c116773b0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925173"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289555"
 ---
-# <a name="sql-server-reporting-services-prerequisites-not-satisfied"></a><span data-ttu-id="c8def-104">SQL Server Reporting Services (Voraussetzungen nicht erfüllt)</span><span class="sxs-lookup"><span data-stu-id="c8def-104">SQL Server Reporting Services (Prerequisites Not Satisfied)</span></span>
+# <a name="sql-server-reporting-services-prerequisites-not-satisfied"></a><span data-ttu-id="c1cbe-104">SQL Server Reporting Services (Voraussetzungen nicht erfüllt)</span><span class="sxs-lookup"><span data-stu-id="c1cbe-104">SQL Server Reporting Services (Prerequisites Not Satisfied)</span></span>
 
-<span data-ttu-id="c8def-p102">Diese Seite wird angezeigt, wenn in Ihrer Infrastruktur keine Monitoring Server bereitgestellt sind. Dies bedeutet, dass die Mindestanforderungen für die Bereitstellung von Monitoring Server-Berichten noch nicht erfüllt sind.</span><span class="sxs-lookup"><span data-stu-id="c8def-p102">You will see this page if there is no Monitoring Server deployed in your infrastructure. This indicates that the minimum requirements for deploying Monitoring Server reports have not been met.</span></span>
+<span data-ttu-id="c1cbe-p102">Diese Seite wird angezeigt, wenn in Ihrer Infrastruktur keine Monitoring Server bereitgestellt sind. Dies bedeutet, dass die Mindestanforderungen für die Bereitstellung von Monitoring Server-Berichten noch nicht erfüllt sind.</span><span class="sxs-lookup"><span data-stu-id="c1cbe-p102">You will see this page if there is no Monitoring Server deployed in your infrastructure. This indicates that the minimum requirements for deploying Monitoring Server reports have not been met.</span></span>
 
-<span data-ttu-id="c8def-107">Um dieses Problem zu beheben, stellen Sie sicher, dass Sie einen Monitoring Server Mitglied der Domäne, dass sie im Topologie-Generator definiert ist und die Topologie veröffentlicht wurde.</span><span class="sxs-lookup"><span data-stu-id="c8def-107">To resolve this issue, make sure that you have a Monitoring Server joined to the domain, that it is defined in Topology Builder, and that the topology has been published.</span></span> <span data-ttu-id="c8def-108">SQL Server Reporting Services muss auch auf dem SQL Server verfügbar, und als ein Feature in der Monitoring Server-Datenbank auf dem SQL Server installiert.</span><span class="sxs-lookup"><span data-stu-id="c8def-108">SQL Server Reporting Services must also be available on the SQL Server, and installed as a feature into the Monitoring Server database on the SQL Server.</span></span>
+<span data-ttu-id="c1cbe-107">Um dieses Problem zu beheben, stellen Sie sicher, dass Sie einen Überwachungs Server mit der Domäne verbunden haben, dass er im Topologie-Generator definiert ist und dass die Topologie veröffentlicht wurde.</span><span class="sxs-lookup"><span data-stu-id="c1cbe-107">To resolve this issue, make sure that you have a Monitoring Server joined to the domain, that it is defined in Topology Builder, and that the topology has been published.</span></span> <span data-ttu-id="c1cbe-108">SQL Server Reporting Services muss auch auf dem SQL Server verfügbar sein und als Feature in der Monitoring Server-Datenbank auf dem SQL Server installiert sein.</span><span class="sxs-lookup"><span data-stu-id="c1cbe-108">SQL Server Reporting Services must also be available on the SQL Server, and installed as a feature into the Monitoring Server database on the SQL Server.</span></span>
 
-<span data-ttu-id="c8def-109">Weitere Informationen hierzu finden Sie unter [Installieren Monitoring Reports in Skype für Business Server 2015](../../deploy/deploy-monitoring/install-monitoring-reports.md) und [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).</span><span class="sxs-lookup"><span data-stu-id="c8def-109">For details, see [Install Monitoring Reports in Skype for Business Server 2015](../../deploy/deploy-monitoring/install-monitoring-reports.md) and [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).</span></span>
+<span data-ttu-id="c1cbe-109">Ausführliche Informationen finden Sie unter [Installieren von Überwachungsberichten in Skype for Business Server 2015](../../deploy/deploy-monitoring/install-monitoring-reports.md) und [Bereitstellen der Überwachung](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).</span><span class="sxs-lookup"><span data-stu-id="c1cbe-109">For details, see [Install Monitoring Reports in Skype for Business Server 2015](../../deploy/deploy-monitoring/install-monitoring-reports.md) and [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).</span></span>
 
 

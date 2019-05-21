@@ -4,38 +4,38 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Skype für Business Server bietet Unterstützung für analoge Geräte. Sind vor allem die unterstützten analoge Geräte analoge audio Telefone und analoge Fax-. Sie können den qualifizierten Gateways zur Unterstützung der Verwendung von analogen Geräten in Ihrer Skype für Business Server-Umgebung konfigurieren. Nach der Migration zu Skype für Business Server 2019 müssen Sie auch die Kontaktobjekte analogen Geräten zugeordnet migrieren. Verwenden Sie Skype für Business Server-Verwaltungsshell, um alle mit der Vorversionen analogen Geräten verknüpften Objekte Kontakte abrufen, und anschließend verschieben Sie diese Objekte in der Skype für Business Server 2019 Pool.
-ms.openlocfilehash: 80edf5b806ffd192d125bd5da27207a37f3074d1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Skype for Business Server bietet Unterstützung für analoge Geräte. Die unterstützten analogen Geräte sind analoge Audio-Telefone und analoge Faxgeräte. Sie können die qualifizierten Gateways so konfigurieren, dass die Verwendung von analogen Geräten in Ihrer Skype for Business Server-Umgebung unterstützt wird. Nachdem Sie zu Skype for Business Server 2019 migriert haben, müssen Sie auch die Kontaktobjekte migrieren, die den analogen Geräten zugeordnet sind. Verwenden Sie die Skype for Business Server-Verwaltungsshell, um zunächst alle Kontaktobjekte abzurufen, die mit den Legacy-Analoggeräten verknüpft sind, und verschieben Sie diese Objekte dann in den Skype for Business Server 2019-Pool.
+ms.openlocfilehash: a822f8f73ad839654d266182172ef8e30d5d28e8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238390"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280843"
 ---
-# <a name="migrate-analog-devices"></a><span data-ttu-id="7cd5f-107">Migrieren analoger Geräte</span><span class="sxs-lookup"><span data-stu-id="7cd5f-107">Migrate analog devices</span></span>
+# <a name="migrate-analog-devices"></a><span data-ttu-id="af750-107">Migrieren analoger Geräte</span><span class="sxs-lookup"><span data-stu-id="af750-107">Migrate analog devices</span></span>
 
-<span data-ttu-id="7cd5f-108">Skype für Business Server bietet Unterstützung für analoge Geräte.</span><span class="sxs-lookup"><span data-stu-id="7cd5f-108">Skype for Business Server provides support for analog devices.</span></span> <span data-ttu-id="7cd5f-109">Sind vor allem die unterstützten analoge Geräte analoge audio Telefone und analoge Fax-.</span><span class="sxs-lookup"><span data-stu-id="7cd5f-109">Specifically, the supported analog devices are analog audio phones and analog fax machines.</span></span> <span data-ttu-id="7cd5f-110">Sie können den qualifizierten Gateways zur Unterstützung der Verwendung von analogen Geräten in Ihrer Skype für Business Server-Umgebung konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="7cd5f-110">You can configure the qualified gateways to support the use of analog devices in your Skype for Business Server environment.</span></span> <span data-ttu-id="7cd5f-111">Nach der Migration zu Skype für Business Server 2019 müssen Sie auch die Kontaktobjekte analogen Geräten zugeordnet migrieren.</span><span class="sxs-lookup"><span data-stu-id="7cd5f-111">After you migrate to Skype for Business Server 2019, you must also migrate the contact objects associated with the analog devices.</span></span> <span data-ttu-id="7cd5f-112">Verwenden Sie Skype für Business Server-Verwaltungsshell, um alle mit der Vorversionen analogen Geräten verknüpften Objekte Kontakte abrufen, und anschließend verschieben Sie diese Objekte in der Skype für Business Server 2019 Pool.</span><span class="sxs-lookup"><span data-stu-id="7cd5f-112">Use Skype for Business Server Management Shell to first retrieve all contact objects associated with the legacy analog devices, and then move those objects to the Skype for Business Server 2019 pool.</span></span>
+<span data-ttu-id="af750-108">Skype for Business Server bietet Unterstützung für analoge Geräte.</span><span class="sxs-lookup"><span data-stu-id="af750-108">Skype for Business Server provides support for analog devices.</span></span> <span data-ttu-id="af750-109">Die unterstützten analogen Geräte sind analoge Audio-Telefone und analoge Faxgeräte.</span><span class="sxs-lookup"><span data-stu-id="af750-109">Specifically, the supported analog devices are analog audio phones and analog fax machines.</span></span> <span data-ttu-id="af750-110">Sie können die qualifizierten Gateways so konfigurieren, dass die Verwendung von analogen Geräten in Ihrer Skype for Business Server-Umgebung unterstützt wird.</span><span class="sxs-lookup"><span data-stu-id="af750-110">You can configure the qualified gateways to support the use of analog devices in your Skype for Business Server environment.</span></span> <span data-ttu-id="af750-111">Nachdem Sie zu Skype for Business Server 2019 migriert haben, müssen Sie auch die Kontaktobjekte migrieren, die den analogen Geräten zugeordnet sind.</span><span class="sxs-lookup"><span data-stu-id="af750-111">After you migrate to Skype for Business Server 2019, you must also migrate the contact objects associated with the analog devices.</span></span> <span data-ttu-id="af750-112">Verwenden Sie die Skype for Business Server-Verwaltungsshell, um zunächst alle Kontaktobjekte abzurufen, die mit den Legacy-Analoggeräten verknüpft sind, und verschieben Sie diese Objekte dann in den Skype for Business Server 2019-Pool.</span><span class="sxs-lookup"><span data-stu-id="af750-112">Use Skype for Business Server Management Shell to first retrieve all contact objects associated with the legacy analog devices, and then move those objects to the Skype for Business Server 2019 pool.</span></span>
 
-### <a name="to-migrate-analog-devices"></a><span data-ttu-id="7cd5f-113">Migrieren von analogen Geräten</span><span class="sxs-lookup"><span data-stu-id="7cd5f-113">To migrate analog devices</span></span>
+### <a name="to-migrate-analog-devices"></a><span data-ttu-id="af750-113">So migrieren Sie analoge Geräte</span><span class="sxs-lookup"><span data-stu-id="af750-113">To migrate analog devices</span></span>
 
-1. <span data-ttu-id="7cd5f-114">Starten Sie die Skype für Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft Skype für Business Server 2019**, und klicken Sie dann auf **Skype für Business Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="7cd5f-114">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Skype for Business Server 2019**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="af750-114">Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft Skype for Business Server 2019**, und klicken Sie dann auf **Skype for Business Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="af750-114">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Skype for Business Server 2019**, and then click **Skype for Business Server Management Shell**.</span></span>
 
-2. <span data-ttu-id="7cd5f-115">Geben Sie in der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="7cd5f-115">At the command line, type:</span></span>
+2. <span data-ttu-id="af750-115">Geben Sie in der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="af750-115">At the command line, type:</span></span>
 
    ```
    Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsAnalogDevice -Target pool02.contoso.net
    ```
 
-3. <span data-ttu-id="7cd5f-116">Stellen Sie sicher, dass alle Kontaktobjekte in der Skype für Business Server 2019 Pool verschoben wurden.</span><span class="sxs-lookup"><span data-stu-id="7cd5f-116">Verify that all contact objects have been moved to the Skype for Business Server 2019 pool.</span></span> <span data-ttu-id="7cd5f-117">Geben Sie in der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="7cd5f-117">At the command line, type:</span></span>
+3. <span data-ttu-id="af750-116">Überprüfen Sie, ob alle Kontaktobjekte in den Skype for Business Server 2019-Pool verschoben wurden.</span><span class="sxs-lookup"><span data-stu-id="af750-116">Verify that all contact objects have been moved to the Skype for Business Server 2019 pool.</span></span> <span data-ttu-id="af750-117">Geben Sie in der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="af750-117">At the command line, type:</span></span>
 
    ```
    Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool02.contoso.net"}
    ```
 
-4. <span data-ttu-id="7cd5f-118">Stellen Sie sicher, dass die Kontaktobjekte jetzt sind die Skype für Business Server 2019 Pool zugeordnet.</span><span class="sxs-lookup"><span data-stu-id="7cd5f-118">Verify that all the contact objects are now associated with the Skype for Business Server 2019 pool.</span></span>
+4. <span data-ttu-id="af750-118">Überprüfen Sie, ob alle Kontaktobjekte jetzt dem Skype for Business Server 2019-Pool zugeordnet sind.</span><span class="sxs-lookup"><span data-stu-id="af750-118">Verify that all the contact objects are now associated with the Skype for Business Server 2019 pool.</span></span>
 
 

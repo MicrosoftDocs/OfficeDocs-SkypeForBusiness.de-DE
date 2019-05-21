@@ -1,9 +1,9 @@
 ---
-title: Bereitstellen von Microsoft-Teams, Räume mit Skype für Business Server
+title: Bereitstellen von Microsoft Teams-Chatrooms mit Skype for Business Server
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,22 +13,22 @@ ms.collection:
 - M365-voice
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: Lesen Sie dieses Thema bietet Informationen zum Microsoft-Teams Chatrooms mit Skype für Business Server bereitstellen.
-ms.openlocfilehash: f62006dc3f83d6f60c224f8e75ba4958ff0a7bfc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen mit Skype for Business Server.
+ms.openlocfilehash: a0e476738cb1ff68020b87624cbcdbabb220c248
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915797"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288444"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a><span data-ttu-id="ec2ba-103">Bereitstellen von Microsoft-Teams, Räume mit Skype für Business Server</span><span class="sxs-lookup"><span data-stu-id="ec2ba-103">Deploy Microsoft Teams Rooms with Skype for Business Server</span></span>
+# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a><span data-ttu-id="82738-103">Bereitstellen von Microsoft Teams-Chatrooms mit Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="82738-103">Deploy Microsoft Teams Rooms with Skype for Business Server</span></span>
   
-<span data-ttu-id="ec2ba-104">In diesem Thema wird erläutert, wie Sie ein Gerät-Konto für Microsoft-Teams Chatrooms hinzufügen, Sie mit eine einzelnen Gesamtstruktur, lokale Bereitstellung haben.</span><span class="sxs-lookup"><span data-stu-id="ec2ba-104">This topic explains how you add a device account for Microsoft Teams Rooms when you have a single-forest, on-premises deployment.</span></span>
+<span data-ttu-id="82738-104">In diesem Thema wird erläutert, wie Sie ein Geräte Konto für Microsoft Teams-Chatrooms hinzufügen, wenn Sie über eine einzelne Gesamtstruktur verfügen, die lokal bereitgestellt wird.</span><span class="sxs-lookup"><span data-stu-id="82738-104">This topic explains how you add a device account for Microsoft Teams Rooms when you have a single-forest, on-premises deployment.</span></span>
   
-<span data-ttu-id="ec2ba-105">Wenn Sie einer einzelnen Gesamtstruktur, lokalen Bereitstellung von Exchange 2013 SP1 oder höher und Skype für Business Server 2015 oder höher verfügen, können Sie bereitgestellte Windows PowerShell-Skripts verwenden, um Gerät Konten zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="ec2ba-105">If you have a single-forest, on-premises deployment with Exchange 2013 SP1 or later and Skype for Business Server 2015 or later, then you can use the provided Windows PowerShell scripts to create device accounts.</span></span> <span data-ttu-id="ec2ba-106">Wenn Sie eine Bereitstellung mit mehreren Gesamtstrukturen verwenden, können Sie die entsprechenden-Cmdlets verwenden, die die gleichen Ergebnisse erzeugt.</span><span class="sxs-lookup"><span data-stu-id="ec2ba-106">If you're using a multi-forest deployment, you can use equivalent cmdlets that will produce the same results.</span></span> <span data-ttu-id="ec2ba-107">Diese Cmdlets werden in diesem Abschnitt beschrieben.</span><span class="sxs-lookup"><span data-stu-id="ec2ba-107">Those cmdlets are described in this section.</span></span>
+<span data-ttu-id="82738-105">Wenn Sie über eine einzelne Gesamtstruktur, eine lokale Bereitstellung mit Exchange 2013 SP1 oder höher und Skype for Business Server 2015 oder höher verfügen, können Sie die bereitgestellten Windows PowerShell-Skripts verwenden, um Geräte Konten zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="82738-105">If you have a single-forest, on-premises deployment with Exchange 2013 SP1 or later and Skype for Business Server 2015 or later, then you can use the provided Windows PowerShell scripts to create device accounts.</span></span> <span data-ttu-id="82738-106">Wenn Sie eine Bereitstellung mit mehreren Gesamtstrukturen verwenden, können Sie entsprechende Cmdlets verwenden, die die gleichen Ergebnisse erzielen.</span><span class="sxs-lookup"><span data-stu-id="82738-106">If you're using a multi-forest deployment, you can use equivalent cmdlets that will produce the same results.</span></span> <span data-ttu-id="82738-107">Diese Cmdlets werden in diesem Abschnitt beschrieben.</span><span class="sxs-lookup"><span data-stu-id="82738-107">Those cmdlets are described in this section.</span></span>
 
   
-<span data-ttu-id="ec2ba-108">Bevor Sie Microsoft Teams Chatrooms bereitstellen beginnen, müssen Sie unbedingt, mit denen Sie die entsprechenden Berechtigungen für die zugehörigen Cmdlets ausführen.</span><span class="sxs-lookup"><span data-stu-id="ec2ba-108">Before you begin to deploy Microsoft Teams Rooms, be sure you have the right permissions to run the associated cmdlets.</span></span>
+<span data-ttu-id="82738-108">Bevor Sie mit der Bereitstellung von Microsoft Teams-Räumen beginnen, müssen Sie sicherstellen, dass Sie über die erforderlichen Berechtigungen zum Ausführen der zugehörigen Cmdlets verfügen.</span><span class="sxs-lookup"><span data-stu-id="82738-108">Before you begin to deploy Microsoft Teams Rooms, be sure you have the right permissions to run the associated cmdlets.</span></span>
   
 
    ``` Powershell
@@ -42,25 +42,25 @@ ms.locfileid: "33915797"
    Import-PSSession $sessLync
    ```
 
-   <span data-ttu-id="ec2ba-109">Beachten Sie, dass $strExchangeServer den vollqualifizierten Domänennamen (FQDN) des Exchange-Servers, und $strLyncFQDN der FQDN des Ihrer Skype für Business Server-Bereitstellung ist.</span><span class="sxs-lookup"><span data-stu-id="ec2ba-109">Note that $strExchangeServer is the fully qualified domain name (FQDN) of your Exchange server, and $strLyncFQDN is the FQDN of your Skype for Business Server deployment.</span></span>
+   <span data-ttu-id="82738-109">Beachten Sie, dass $strExchangeServer der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) Ihres Exchange-Servers und $strLyncFQDN der FQDN Ihrer Skype for Business Server-Bereitstellung ist.</span><span class="sxs-lookup"><span data-stu-id="82738-109">Note that $strExchangeServer is the fully qualified domain name (FQDN) of your Exchange server, and $strLyncFQDN is the FQDN of your Skype for Business Server deployment.</span></span>
 
-2. <span data-ttu-id="ec2ba-110">Nach dem Einrichten einer Sitzung, werden Sie entweder ein neues Postfach erstellen und als eine RoomMailboxAccount zu aktivieren oder Ändern der Einstellungen für ein vorhandenes Raumpostfach.</span><span class="sxs-lookup"><span data-stu-id="ec2ba-110">After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox.</span></span> <span data-ttu-id="ec2ba-111">Dadurch wird das Konto zum Microsoft-Teams Chatrooms authentifizieren.</span><span class="sxs-lookup"><span data-stu-id="ec2ba-111">This will allow the account to authenticate to Microsoft Teams Rooms.</span></span>
+2. <span data-ttu-id="82738-110">Nach dem Einrichten einer Sitzung erstellen Sie entweder ein neues Postfach und aktivieren es als RoomMailboxAccount, oder Sie können die Einstellungen für ein vorhandenes Raumpostfach ändern.</span><span class="sxs-lookup"><span data-stu-id="82738-110">After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox.</span></span> <span data-ttu-id="82738-111">Dadurch kann sich das Konto bei Microsoft Teams-Räumen authentifizieren.</span><span class="sxs-lookup"><span data-stu-id="82738-111">This will allow the account to authenticate to Microsoft Teams Rooms.</span></span>
 
-    <span data-ttu-id="ec2ba-112">Wenn Sie ein vorhandenes Ressourcenpostfach ändern:</span><span class="sxs-lookup"><span data-stu-id="ec2ba-112">If you're changing an existing resource mailbox:</span></span>
+    <span data-ttu-id="82738-112">Wenn Sie ein vorhandenes Ressourcenpostfach ändern:</span><span class="sxs-lookup"><span data-stu-id="82738-112">If you're changing an existing resource mailbox:</span></span>
 
    ``` Powershell
    Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password>
    -AsPlainText -Force)
    ```
 
-   <span data-ttu-id="ec2ba-113">Wenn Sie eine neue Ressourcenpostfach erstellen:</span><span class="sxs-lookup"><span data-stu-id="ec2ba-113">If you're creating a new resource mailbox:</span></span>
+   <span data-ttu-id="82738-113">Wenn Sie ein neues Ressourcenpostfach erstellen:</span><span class="sxs-lookup"><span data-stu-id="82738-113">If you're creating a new resource mailbox:</span></span>
 
    ``` Powershell
    New-Mailbox -UserPrincipalName PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. <span data-ttu-id="ec2ba-114">Sie können die verschiedenen Exchange-Eigenschaften auf das Gerät Konto zur Verbesserung der besprechungsumgebung für Personen festlegen.</span><span class="sxs-lookup"><span data-stu-id="ec2ba-114">You can set various Exchange properties on the device account to improve the meeting experience for people.</span></span> <span data-ttu-id="ec2ba-115">Im Abschnitt zu den Exchange-Eigenschaften sehen Sie, welche Eigenschaften Sie festlegen müssen.</span><span class="sxs-lookup"><span data-stu-id="ec2ba-115">You can see which properties need to be set in the Exchange properties section.</span></span>
+3. <span data-ttu-id="82738-114">Sie können verschiedene Exchange-Eigenschaften für das Geräte Konto einrichten, um die Besprechungs Erfahrung für Personen zu verbessern.</span><span class="sxs-lookup"><span data-stu-id="82738-114">You can set various Exchange properties on the device account to improve the meeting experience for people.</span></span> <span data-ttu-id="82738-115">Im Abschnitt zu den Exchange-Eigenschaften sehen Sie, welche Eigenschaften Sie festlegen müssen.</span><span class="sxs-lookup"><span data-stu-id="82738-115">You can see which properties need to be set in the Exchange properties section.</span></span>
 
    ``` Powershell
    Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
@@ -68,28 +68,28 @@ ms.locfileid: "33915797"
    Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. <span data-ttu-id="ec2ba-116">Wenn Sie sich entscheiden, damit das Kennwort nicht abläuft, können Sie, die mit Windows PowerShell-Cmdlets zu festlegen.</span><span class="sxs-lookup"><span data-stu-id="ec2ba-116">If you decide to have the password not expire, you can set that with Windows PowerShell cmdlets too.</span></span> <span data-ttu-id="ec2ba-117">Weitere Informationen finden Sie unter „Kennwortverwaltung“.</span><span class="sxs-lookup"><span data-stu-id="ec2ba-117">See Password management for more information.</span></span>
+4. <span data-ttu-id="82738-116">Wenn Sie sich entscheiden, dass das Kennwort nicht abläuft, können Sie dies auch mit Windows PowerShell-Cmdlets festlegen.</span><span class="sxs-lookup"><span data-stu-id="82738-116">If you decide to have the password not expire, you can set that with Windows PowerShell cmdlets too.</span></span> <span data-ttu-id="82738-117">Weitere Informationen finden Sie unter „Kennwortverwaltung“.</span><span class="sxs-lookup"><span data-stu-id="82738-117">See Password management for more information.</span></span>
 
    ``` Powershell
    Set-AdUser $acctUpn -PasswordNeverExpires $true
    ```
 
-5. <span data-ttu-id="ec2ba-118">Aktivieren Sie das Konto in Active Directory, damit es zu Microsoft-Teams Räumen authentifiziert wird.</span><span class="sxs-lookup"><span data-stu-id="ec2ba-118">Enable the account in Active Directory so it will authenticate to Microsoft Teams Rooms.</span></span>
+5. <span data-ttu-id="82738-118">Aktivieren Sie das Konto in Active Directory, damit es sich bei Microsoft Teams-Räumen authentifiziert.</span><span class="sxs-lookup"><span data-stu-id="82738-118">Enable the account in Active Directory so it will authenticate to Microsoft Teams Rooms.</span></span>
 
    ``` Powershell
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. <span data-ttu-id="ec2ba-119">Aktivieren Sie das Gerät Konto mit Skype für Business Server, indem Ihre Microsoft Teams Chatrooms Active Directory-Kontos auf einen Skype für Business Server-Pool aktivieren:</span><span class="sxs-lookup"><span data-stu-id="ec2ba-119">Enable the device account with Skype for Business Server by enabling your Microsoft Teams Rooms Active Directory account on a Skype for Business Server pool:</span></span>
+6. <span data-ttu-id="82738-119">Aktivieren Sie das Geräte Konto in Skype for Business Server, indem Sie Ihr Microsoft Teams rooms Active Directory-Konto in einem Skype for Business Server-Pool aktivieren:</span><span class="sxs-lookup"><span data-stu-id="82738-119">Enable the device account with Skype for Business Server by enabling your Microsoft Teams Rooms Active Directory account on a Skype for Business Server pool:</span></span>
 
    ``` Powershell
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
    -RegistrarPool LYNCPool15.contoso.com -Identity PROJECTRIGEL01
    ```
 
-    <span data-ttu-id="ec2ba-120">Sie müssen die SIP-Adresse (Session Initiation-Protokoll) und den Domänencontroller für das Projekt verwenden.</span><span class="sxs-lookup"><span data-stu-id="ec2ba-120">You'll need to use the Session Initiation Protocol (SIP) address and domain controller for the Project</span></span>
+    <span data-ttu-id="82738-120">Sie müssen die SIP-Adresse (Session Initiation-Protokoll) und den Domänencontroller für das Projekt verwenden.</span><span class="sxs-lookup"><span data-stu-id="82738-120">You'll need to use the Session Initiation Protocol (SIP) address and domain controller for the Project</span></span>
 
-7. <span data-ttu-id="ec2ba-121">**Optional.**</span><span class="sxs-lookup"><span data-stu-id="ec2ba-121">**Optional.**</span></span> <span data-ttu-id="ec2ba-122">Sie können auch Microsoft Teams Chatrooms tätigen und annehmen von public switched Telephone Network, (PSTN) Telefonanrufe durch Aktivieren von Enterprise-VoIP für Ihr Konto.</span><span class="sxs-lookup"><span data-stu-id="ec2ba-122">You can also allow Microsoft Teams Rooms to make and receive public switched telephone network (PSTN) phone calls by enabling Enterprise Voice for your account.</span></span> <span data-ttu-id="ec2ba-123">Enterprise-VoIP ist eine Voraussetzung für Microsoft-Teams Chatrooms nicht, wenn Sie PSTN-Einwahl-Funktionalität für den Client für Microsoft-Teams Chatrooms möchten, es gibt aber noch zum Aktivieren:</span><span class="sxs-lookup"><span data-stu-id="ec2ba-123">Enterprise Voice isn't a requirement for Microsoft Teams Rooms, but if you want PSTN dialing functionality for the Microsoft Teams Rooms client, here's how to enable it:</span></span>
+7. <span data-ttu-id="82738-121">**Optional.**</span><span class="sxs-lookup"><span data-stu-id="82738-121">**Optional.**</span></span> <span data-ttu-id="82738-122">Sie können auch Microsoft Teams-Chatrooms das tätigen und empfangen von PSTN-Telefon anrufen (Public Switched Telephone Network) ermöglichen, indem Sie Enterprise-VoIP für Ihr Konto aktivieren.</span><span class="sxs-lookup"><span data-stu-id="82738-122">You can also allow Microsoft Teams Rooms to make and receive public switched telephone network (PSTN) phone calls by enabling Enterprise Voice for your account.</span></span> <span data-ttu-id="82738-123">Enterprise-VoIP ist keine Voraussetzung für Microsoft Teams-Chatrooms, aber wenn Sie die PSTN-Wählfunktion für den Microsoft Teams rooms-Client nutzen möchten, können Sie ihn so aktivieren:</span><span class="sxs-lookup"><span data-stu-id="82738-123">Enterprise Voice isn't a requirement for Microsoft Teams Rooms, but if you want PSTN dialing functionality for the Microsoft Teams Rooms client, here's how to enable it:</span></span>
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -98,9 +98,9 @@ ms.locfileid: "33915797"
    Grant-CsDialPlan -PolicyName DP1 -Identity PROJECTRIGEL01
    ```
 
-   <span data-ttu-id="ec2ba-p106">Auch hier müssen Sie die bereitgestellten Beispiele für den Domänencontroller und die Telefonnummer durch Ihre eigenen Informationen ersetzen. Der Parameterwert „$true“ bleibt unverändert.</span><span class="sxs-lookup"><span data-stu-id="ec2ba-p106">Again, you'll need to replace the provided domain controller and phone number examples with your own information. The parameter value $true stays the same.</span></span>
+   <span data-ttu-id="82738-p106">Auch hier müssen Sie die bereitgestellten Beispiele für den Domänencontroller und die Telefonnummer durch Ihre eigenen Informationen ersetzen. Der Parameterwert „$true“ bleibt unverändert.</span><span class="sxs-lookup"><span data-stu-id="82738-p106">Again, you'll need to replace the provided domain controller and phone number examples with your own information. The parameter value $true stays the same.</span></span>
 
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a><span data-ttu-id="ec2ba-126">Beispiel: Raum kontoeinrichtung in Exchange und Skype für Business Server lokal</span><span class="sxs-lookup"><span data-stu-id="ec2ba-126">Sample: room account setup in Exchange and Skype for Business Server on premises</span></span>
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a><span data-ttu-id="82738-126">Beispiel: Einrichtung des Room-Kontos in Exchange und Skype for Business Server lokal</span><span class="sxs-lookup"><span data-stu-id="82738-126">Sample: room account setup in Exchange and Skype for Business Server on premises</span></span>
 
 ``` Powershell
 New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force)
@@ -116,14 +116,14 @@ Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
 Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 ```
 
-## <a name="see-also"></a><span data-ttu-id="ec2ba-127">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="ec2ba-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="82738-127">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="82738-127">See also</span></span>
 
-[<span data-ttu-id="ec2ba-128">Konfigurieren von Konten für Microsoft-Teams Räume</span><span class="sxs-lookup"><span data-stu-id="ec2ba-128">Configure accounts for Microsoft Teams Rooms</span></span>](room-systems-v2-configure-accounts.md)
+[<span data-ttu-id="82738-128">Konfigurieren von Konten für Microsoft Teams-Chatrooms</span><span class="sxs-lookup"><span data-stu-id="82738-128">Configure accounts for Microsoft Teams Rooms</span></span>](room-systems-v2-configure-accounts.md)
 
-[<span data-ttu-id="ec2ba-129">Planen der Microsoft-Teams, Räume</span><span class="sxs-lookup"><span data-stu-id="ec2ba-129">Plan for Microsoft Teams Rooms</span></span>](skype-room-systems-v2-0.md)
+[<span data-ttu-id="82738-129">Planen von Microsoft Teams-Räumen</span><span class="sxs-lookup"><span data-stu-id="82738-129">Plan for Microsoft Teams Rooms</span></span>](skype-room-systems-v2-0.md)
   
-[<span data-ttu-id="ec2ba-130">Bereitstellen von Microsoft-Teams, Räume</span><span class="sxs-lookup"><span data-stu-id="ec2ba-130">Deploy Microsoft Teams Rooms</span></span>](room-systems-v2.md)
+[<span data-ttu-id="82738-130">Bereitstellen von Microsoft Teams-Räumen</span><span class="sxs-lookup"><span data-stu-id="82738-130">Deploy Microsoft Teams Rooms</span></span>](room-systems-v2.md)
   
-[<span data-ttu-id="ec2ba-131">Konfigurieren einer Microsoft-Teams Räume-Konsole</span><span class="sxs-lookup"><span data-stu-id="ec2ba-131">Configure a Microsoft Teams Rooms console</span></span>](console.md)
+[<span data-ttu-id="82738-131">Konfigurieren einer Microsoft Teams rooms-Konsole</span><span class="sxs-lookup"><span data-stu-id="82738-131">Configure a Microsoft Teams Rooms console</span></span>](console.md)
   
-[<span data-ttu-id="ec2ba-132">Microsoft Teams Rooms verwalten</span><span class="sxs-lookup"><span data-stu-id="ec2ba-132">Manage Microsoft Teams Rooms</span></span>](skype-room-systems-v2.md)
+[<span data-ttu-id="82738-132">Microsoft Teams Rooms verwalten</span><span class="sxs-lookup"><span data-stu-id="82738-132">Manage Microsoft Teams Rooms</span></span>](skype-room-systems-v2.md)

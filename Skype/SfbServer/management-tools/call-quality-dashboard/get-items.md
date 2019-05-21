@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
-description: 'Zusammenfassung: Informationen Sie zum Vorgang Elemente abrufen, der Teil der Element-Dienst ist. Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen. Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.'
-ms.openlocfilehash: fe8d4f9a64e0855c90ee9f2accb67424ac3edb9c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang zum Abrufen von Elementen, der Teil des Element Diensts ist. Der Element Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: a1e7e8525df77cd5aacafb6d41316a985fbe9694
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926122"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274702"
 ---
-# <a name="get-items"></a><span data-ttu-id="6c2f8-105">Abrufen von Elementen</span><span class="sxs-lookup"><span data-stu-id="6c2f8-105">Get Items</span></span>
+# <a name="get-items"></a><span data-ttu-id="d7336-105">Abrufen von Elementen</span><span class="sxs-lookup"><span data-stu-id="d7336-105">Get Items</span></span>
  
-<span data-ttu-id="6c2f8-106">**Zusammenfassung:** Informationen Sie zu den Vorgang Elemente abrufen, der Teil der Element-Dienst ist.</span><span class="sxs-lookup"><span data-stu-id="6c2f8-106">**Summary:** Learn about the Get Items operation, which is part of the Item Service.</span></span> <span data-ttu-id="6c2f8-107">Der Element-Dienst ist Teil der Repository-API für die Qualitätsdashboard aufrufen.</span><span class="sxs-lookup"><span data-stu-id="6c2f8-107">The Item Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="6c2f8-108">Anruf Qualitätsdashboard ist ein Tool für Skype für Business Server.</span><span class="sxs-lookup"><span data-stu-id="6c2f8-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
+<span data-ttu-id="d7336-106">**Zusammenfassung:** Erfahren Sie mehr über den Vorgang "Elemente abrufen", der Teil des Element Diensts ist.</span><span class="sxs-lookup"><span data-stu-id="d7336-106">**Summary:** Learn about the Get Items operation, which is part of the Item Service.</span></span> <span data-ttu-id="d7336-107">Der Element Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard.</span><span class="sxs-lookup"><span data-stu-id="d7336-107">The Item Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="d7336-108">Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="d7336-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
   
-<span data-ttu-id="6c2f8-109">Der Vorgang Elemente abrufen ist Teil des Diensts Element in der Repository-API für die Qualitätsdashboard aufrufen.</span><span class="sxs-lookup"><span data-stu-id="6c2f8-109">The Get Items operation is part of the Item Service in the Repository API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="d7336-109">Der Vorgang zum Abrufen von Elementen ist Teil des Element Diensts in der Repository-API für die Anruf Qualitätssteuerung.</span><span class="sxs-lookup"><span data-stu-id="d7336-109">The Get Items operation is part of the Item Service in the Repository API for Call Quality Dashboard.</span></span>
   
-## <a name="get-items"></a><span data-ttu-id="6c2f8-110">Abrufen von Elementen</span><span class="sxs-lookup"><span data-stu-id="6c2f8-110">Get Items</span></span>
+## <a name="get-items"></a><span data-ttu-id="d7336-110">Abrufen von Elementen</span><span class="sxs-lookup"><span data-stu-id="d7336-110">Get Items</span></span>
 
-<span data-ttu-id="6c2f8-111">Rufen Sie Elemente gibt alle Elemente im Repository.</span><span class="sxs-lookup"><span data-stu-id="6c2f8-111">Get Items returns all Items in the repository.</span></span>
+<span data-ttu-id="d7336-111">Elemente abrufen gibt alle Elemente im Repository zurück.</span><span class="sxs-lookup"><span data-stu-id="d7336-111">Get Items returns all Items in the repository.</span></span>
   
-|<span data-ttu-id="6c2f8-112">**Methode**</span><span class="sxs-lookup"><span data-stu-id="6c2f8-112">**Method**</span></span>|<span data-ttu-id="6c2f8-113">**Anforderungs-URI**</span><span class="sxs-lookup"><span data-stu-id="6c2f8-113">**Request URI**</span></span>|<span data-ttu-id="6c2f8-114">**HTTP-Version**</span><span class="sxs-lookup"><span data-stu-id="6c2f8-114">**HTTP Version**</span></span>|
+|<span data-ttu-id="d7336-112">**Methode**</span><span class="sxs-lookup"><span data-stu-id="d7336-112">**Method**</span></span>|<span data-ttu-id="d7336-113">**Anforderungs-URI**</span><span class="sxs-lookup"><span data-stu-id="d7336-113">**Request URI**</span></span>|<span data-ttu-id="d7336-114">**HTTP-Version**</span><span class="sxs-lookup"><span data-stu-id="d7336-114">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="6c2f8-115">Erhalten</span><span class="sxs-lookup"><span data-stu-id="6c2f8-115">GET</span></span>  <br/> |<span data-ttu-id="6c2f8-116">https://\<Portal\>/QoERepositoryService/repository/item</span><span class="sxs-lookup"><span data-stu-id="6c2f8-116">https://\<portal\>/QoERepositoryService/repository/item</span></span>  <br/> |<span data-ttu-id="6c2f8-117">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="6c2f8-117">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="d7336-115">Erhalten</span><span class="sxs-lookup"><span data-stu-id="d7336-115">GET</span></span>  <br/> |<span data-ttu-id="d7336-116">https://\<-\>Portal/QoERepositoryService/Repository/Item</span><span class="sxs-lookup"><span data-stu-id="d7336-116">https://\<portal\>/QoERepositoryService/repository/item</span></span>  <br/> |<span data-ttu-id="d7336-117">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="d7336-117">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="6c2f8-118">**URI-Parameter** - None.</span><span class="sxs-lookup"><span data-stu-id="6c2f8-118">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="d7336-118">**URI-Parameter** -None.</span><span class="sxs-lookup"><span data-stu-id="d7336-118">**URI Parameters** - None.</span></span>
   
- <span data-ttu-id="6c2f8-119">**Anfordern von Kopfzeilen** - keine zusätzlichen Header.</span><span class="sxs-lookup"><span data-stu-id="6c2f8-119">**Request Headers** - No additional headers.</span></span>
+ <span data-ttu-id="d7336-119">**Anforderungs Kopfzeilen** – keine zusätzlichen Überschriften.</span><span class="sxs-lookup"><span data-stu-id="d7336-119">**Request Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="6c2f8-120">**Anforderungstextkörper** – None.</span><span class="sxs-lookup"><span data-stu-id="6c2f8-120">**Request Body** - None.</span></span>
+ <span data-ttu-id="d7336-120">**Anforderungstext** – keine.</span><span class="sxs-lookup"><span data-stu-id="d7336-120">**Request Body** - None.</span></span>
   
- <span data-ttu-id="6c2f8-121">**Antwort** - die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheader.</span><span class="sxs-lookup"><span data-stu-id="6c2f8-121">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="d7336-121">**Antwort** – die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheadern.</span><span class="sxs-lookup"><span data-stu-id="d7336-121">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
- <span data-ttu-id="6c2f8-122">**Statuscode** - eine erfolgreiche Ausführung Gibt Statuscode 200 (OK).</span><span class="sxs-lookup"><span data-stu-id="6c2f8-122">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
+ <span data-ttu-id="d7336-122">**Statuscode** – ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.</span><span class="sxs-lookup"><span data-stu-id="d7336-122">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
   
- <span data-ttu-id="6c2f8-123">**Antwortheader** - keine zusätzlichen Header.</span><span class="sxs-lookup"><span data-stu-id="6c2f8-123">**Response Headers** - No additional headers.</span></span>
+ <span data-ttu-id="d7336-123">**Antwortheader** – keine zusätzlichen Überschriften.</span><span class="sxs-lookup"><span data-stu-id="d7336-123">**Response Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="6c2f8-124">**Antworttext** - ist im folgenden Beispiel Antwort Nutzlast in JSON.</span><span class="sxs-lookup"><span data-stu-id="6c2f8-124">**Response Body** - Below is a sample response payload in JSON.</span></span>
+ <span data-ttu-id="d7336-124">**Antworttext** : Nachfolgend finden Sie eine Beispielantwort Nutzlast in JSON.</span><span class="sxs-lookup"><span data-stu-id="d7336-124">**Response Body** - Below is a sample response payload in JSON.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="6c2f8-125">Ein Array von Elementobjekten wird zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="6c2f8-125">An array of Item objects is returned.</span></span> <span data-ttu-id="6c2f8-126">Ausführliche Informationen zu Elementobjekt finden Sie unter Get-Element.</span><span class="sxs-lookup"><span data-stu-id="6c2f8-126">For details about Item object, see Get Item.</span></span> 
+> <span data-ttu-id="d7336-125">Ein Array von Item-Objekten wird zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="d7336-125">An array of Item objects is returned.</span></span> <span data-ttu-id="d7336-126">Details zu Item-Objekten finden Sie unter Abrufen von Elementen.</span><span class="sxs-lookup"><span data-stu-id="d7336-126">For details about Item object, see Get Item.</span></span> 
   
 ```
 [{
