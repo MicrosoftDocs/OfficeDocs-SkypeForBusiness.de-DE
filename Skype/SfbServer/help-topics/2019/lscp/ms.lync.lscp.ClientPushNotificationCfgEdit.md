@@ -1,10 +1,10 @@
 ---
-title: Mobiler Client erstellen oder Bearbeiten der Pushbenachrichtigungskonfiguration
+title: Mobiler Client erstellen oder Bearbeiten der Push-Benachrichtigungskonfiguration
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientPushNotificationCfgEdit
@@ -13,33 +13,33 @@ localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die Pushbenachrichtigung und das Push Notification Clearing House (PNCH) sind zwei wichtige Teile der Mobilitätsfunktion. Bei der Pushbenachrichtigung wird eine Nachricht an das PNCH gesendet. Die Nachricht wird dort gehalten, bis sie an den mobilen Client übermittelt werden kann oder das Zeitlimit abläuft.
-ms.openlocfilehash: 9920029e657db4ed7d1c8da269593368d673d08a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3a15e88e40b37da4570d04a93ef13a793d6dabaf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891663"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300336"
 ---
-# <a name="mobile-client-create-or-edit-push-notification-configuration"></a><span data-ttu-id="2f304-105">Mobiler Client: Erstellen oder Bearbeiten der Pushbenachrichtigungskonfiguration</span><span class="sxs-lookup"><span data-stu-id="2f304-105">Mobile Client: Create or Edit Push Notification Configuration</span></span>
+# <a name="mobile-client-create-or-edit-push-notification-configuration"></a><span data-ttu-id="b76eb-105">Mobiler Client: Erstellen oder Bearbeiten der Pushbenachrichtigungskonfiguration</span><span class="sxs-lookup"><span data-stu-id="b76eb-105">Mobile Client: Create or Edit Push Notification Configuration</span></span>
  
-<span data-ttu-id="2f304-p102">Die Pushbenachrichtigung und das Push Notification Clearing House (PNCH) sind zwei wichtige Teile der Mobilitätsfunktion. Bei der Pushbenachrichtigung wird eine Nachricht an das PNCH gesendet. Die Nachricht wird dort gehalten, bis sie an den mobilen Client übermittelt werden kann oder das Zeitlimit abläuft.</span><span class="sxs-lookup"><span data-stu-id="2f304-p102">Push Notification and the Push Notification Clearing House (PNCH) are two key parts of the mobility feature. Push notification is the process where a message is sent to the PNCH. The message is held here until it can be delivered to the mobile client, or the timeout period expires.</span></span> 
+<span data-ttu-id="b76eb-p102">Die Pushbenachrichtigung und das Push Notification Clearing House (PNCH) sind zwei wichtige Teile der Mobilitätsfunktion. Bei der Pushbenachrichtigung wird eine Nachricht an das PNCH gesendet. Die Nachricht wird dort gehalten, bis sie an den mobilen Client übermittelt werden kann oder das Zeitlimit abläuft.</span><span class="sxs-lookup"><span data-stu-id="b76eb-p102">Push Notification and the Push Notification Clearing House (PNCH) are two key parts of the mobility feature. Push notification is the process where a message is sent to the PNCH. The message is held here until it can be delivered to the mobile client, or the timeout period expires.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="2f304-109">Der Zeitraum wird beim Push Notification Clearing House festgelegt und kann vom Benutzer oder Administrator der Bereitstellung nicht konfiguriert werden.</span><span class="sxs-lookup"><span data-stu-id="2f304-109">The time period is set at the Push Notification Clearing House and is not configurable by the user or the administrator of your deployment.</span></span> 
+> <span data-ttu-id="b76eb-109">Der Zeitraum wird beim Push Notification Clearing House festgelegt und kann vom Benutzer oder Administrator der Bereitstellung nicht konfiguriert werden.</span><span class="sxs-lookup"><span data-stu-id="b76eb-109">The time period is set at the Push Notification Clearing House and is not configurable by the user or the administrator of your deployment.</span></span> 
   
-<span data-ttu-id="2f304-110">Führen Sie die folgenden Schritte aus, um die Pushbenachrichtigung zu aktivieren:</span><span class="sxs-lookup"><span data-stu-id="2f304-110">To enable Push Notification, you do the following:</span></span>
+<span data-ttu-id="b76eb-110">Führen Sie die folgenden Schritte aus, um die Pushbenachrichtigung zu aktivieren:</span><span class="sxs-lookup"><span data-stu-id="b76eb-110">To enable Push Notification, you do the following:</span></span>
   
-1. <span data-ttu-id="2f304-p103">**Bereich:** Beachten Sie den Bereich dieser Richtlinie. Er kann entweder **Global** lauten, was für alle Benutzer in dieser Bereitstellung gilt, oder **Standort**, was nur für Benutzer gilt, die Homeservern des angegebenen Standorts zugewiesen sind.</span><span class="sxs-lookup"><span data-stu-id="2f304-p103">**Scope:** Note the scope for this policy. It can either be **Global**, which applies to all users in this deployment, or **Site**, which is only users assigned to home servers in the specified site.</span></span>
+1. <span data-ttu-id="b76eb-p103">**Bereich:** Beachten Sie den Bereich dieser Richtlinie. Er kann entweder **Global** lauten, was für alle Benutzer in dieser Bereitstellung gilt, oder **Standort**, was nur für Benutzer gilt, die Homeservern des angegebenen Standorts zugewiesen sind.</span><span class="sxs-lookup"><span data-stu-id="b76eb-p103">**Scope:** Note the scope for this policy. It can either be **Global**, which applies to all users in this deployment, or **Site**, which is only users assigned to home servers in the specified site.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="2f304-p104">Richtlinieneinstellungen, die auf einer bestimmten Richtlinienebene angewendet werden, können durch Einstellungen überschrieben werden, die auf einer anderen Richtlinienebene angewendet werden. Dabei gilt folgende Rangfolge: Benutzerrichtlinien (größter Einfluss) überschreiben Standortrichtlinien und diese überschreiben wiederum globale Richtlinien (geringster Einfluss). Mit anderen Worten: Je geringer der Abstand zwischen Richtlinieneinstellung und betroffenem Objekt, desto stärker der Einfluss auf das Objekt.</span><span class="sxs-lookup"><span data-stu-id="2f304-p104">Policy settings that are applied at one policy level can override settings that are applied at another policy level. Policy precedence is: User policy (most influence) overrides a Site policy, and then a Site policy overrides a Global policy (least influence). This means that the closer the policy setting is to the object that the policy is affecting, the more influence it has on the object.</span></span> 
+    > <span data-ttu-id="b76eb-p104">Richtlinieneinstellungen, die auf einer bestimmten Richtlinienebene angewendet werden, können durch Einstellungen überschrieben werden, die auf einer anderen Richtlinienebene angewendet werden. Dabei gilt folgende Rangfolge: Benutzerrichtlinien (größter Einfluss) überschreiben Standortrichtlinien und diese überschreiben wiederum globale Richtlinien (geringster Einfluss). Mit anderen Worten: Je geringer der Abstand zwischen Richtlinieneinstellung und betroffenem Objekt, desto stärker der Einfluss auf das Objekt.</span><span class="sxs-lookup"><span data-stu-id="b76eb-p104">Policy settings that are applied at one policy level can override settings that are applied at another policy level. Policy precedence is: User policy (most influence) overrides a Site policy, and then a Site policy overrides a Global policy (least influence). This means that the closer the policy setting is to the object that the policy is affecting, the more influence it has on the object.</span></span> 
   
-2. <span data-ttu-id="2f304-116">Wählen Sie aus, welche Pushbenachrichtigungsdienste Sie aktivieren möchten, indem Sie das jeweilige Kontrollkästchen aktivieren:</span><span class="sxs-lookup"><span data-stu-id="2f304-116">Select which push notification services you want to enable by clicking the check box for:</span></span>
+2. <span data-ttu-id="b76eb-116">Wählen Sie aus, welche Pushbenachrichtigungsdienste Sie aktivieren möchten, indem Sie das jeweilige Kontrollkästchen aktivieren:</span><span class="sxs-lookup"><span data-stu-id="b76eb-116">Select which push notification services you want to enable by clicking the check box for:</span></span>
     
-   - <span data-ttu-id="2f304-117">**Aktivieren von Microsoft-Pushbenachrichtigungen** aktivieren die Pushbenachrichtigung für die Cloud-basierten PNCH für Windows Phone mit der Skype für Geschäfts-app</span><span class="sxs-lookup"><span data-stu-id="2f304-117">**Enable Microsoft push notification** will enable the push notification to the cloud-based PNCH for Windows Phone with the Skype for Business app</span></span>
+   - <span data-ttu-id="b76eb-117">**Aktivieren von Microsoft Push-Benachrichtigungen** aktiviert die Push-Benachrichtigung für die Cloud-basierte PNCH für Windows Phone mit der Skype for Business-App</span><span class="sxs-lookup"><span data-stu-id="b76eb-117">**Enable Microsoft push notification** will enable the push notification to the cloud-based PNCH for Windows Phone with the Skype for Business app</span></span>
     
-   - <span data-ttu-id="2f304-118">**Kontrollkästchen Apple-Pushbenachrichtigungen** aktivieren die Pushbenachrichtigung für die Apple-PNCH für Geräte von Apple iOS (beispielsweise iPhone, iPad) ausgeführt, und verwenden die Skype für Geschäfts-app</span><span class="sxs-lookup"><span data-stu-id="2f304-118">**Enable Apple push notification** will enable the push notification to the Apple PNCH for devices running Apple's iOS (for example, iPhone, iPad) and using the Skype for Business app</span></span>
+   - <span data-ttu-id="b76eb-118">**Apple Push-Benachrichtigung aktivieren** aktiviert die Push-Benachrichtigung an den Apple-PNCH für Geräte, auf denen Apples IOS ausgeführt wird (beispielsweise iPhone, iPad) und mit der Skype for Business-App</span><span class="sxs-lookup"><span data-stu-id="b76eb-118">**Enable Apple push notification** will enable the push notification to the Apple PNCH for devices running Apple's iOS (for example, iPhone, iPad) and using the Skype for Business app</span></span>
     
-3. <span data-ttu-id="2f304-p105">Klicken Sie nach Abschluss der Änderungen an der Richtlinie auf **Commit ausführen**, um Ihre Änderungen zu speichern. Falls Sie die vorgenommenen Änderungen löschen möchten, wählen Sie **Abbrechen**. Die Änderungen der Richtlinie werden dann nicht gespeichert.</span><span class="sxs-lookup"><span data-stu-id="2f304-p105">When you have completed the edits of the policy, click **Commit** to save your changes. If you need to delete the changes you have made, select **Cancel**. No changes will be saved to the policy.</span></span>
+3. <span data-ttu-id="b76eb-p105">Klicken Sie nach Abschluss der Änderungen an der Richtlinie auf **Commit ausführen**, um Ihre Änderungen zu speichern. Falls Sie die vorgenommenen Änderungen löschen möchten, wählen Sie **Abbrechen**. Die Änderungen der Richtlinie werden dann nicht gespeichert.</span><span class="sxs-lookup"><span data-stu-id="b76eb-p105">When you have completed the edits of the policy, click **Commit** to save your changes. If you need to delete the changes you have made, select **Cancel**. No changes will be saved to the policy.</span></span>
     
 
