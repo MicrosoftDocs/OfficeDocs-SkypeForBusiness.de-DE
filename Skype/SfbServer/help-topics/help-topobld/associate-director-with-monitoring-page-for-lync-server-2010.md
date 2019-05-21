@@ -5,35 +5,35 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AssociateDirectorWithMonitoringPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ad77291-832d-41ee-9ffc-61132691363b
-description: 'So konfigurieren einen Monitoring Server und verknüpfen ihn durch den Director oder Director Pool:'
-ms.openlocfilehash: fb69b2b1f62bfe1c2260f3fbe9af11675128981b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'So konfigurieren Sie einen Überwachungs Server und ordnen ihn dem Director-oder Director-Pool zu:'
+ms.openlocfilehash: bfd5694b751919a601414330bb5163c76fc53e8a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925039"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301736"
 ---
-# <a name="associate-director-with-monitoring-page-for-lync-server-2010"></a><span data-ttu-id="3c126-103">Zuordnen des Directors zur Überwachung für Lync Server 2010 – Seite</span><span class="sxs-lookup"><span data-stu-id="3c126-103">Associate Director With Monitoring Page for Lync Server 2010</span></span>
+# <a name="associate-director-with-monitoring-page-for-lync-server-2010"></a><span data-ttu-id="afb9d-103">Zuordnen des Directors zur Überwachung für Lync Server 2010 – Seite</span><span class="sxs-lookup"><span data-stu-id="afb9d-103">Associate Director With Monitoring Page for Lync Server 2010</span></span>
  
-<span data-ttu-id="3c126-104">So konfigurieren einen Monitoring Server und verknüpfen ihn durch den Director oder Director Pool:</span><span class="sxs-lookup"><span data-stu-id="3c126-104">To configure a Monitoring Server and associate it with the Director or Director pool:</span></span>
+<span data-ttu-id="afb9d-104">So konfigurieren Sie einen Überwachungs Server und ordnen ihn dem Director-oder Director-Pool zu:</span><span class="sxs-lookup"><span data-stu-id="afb9d-104">To configure a Monitoring Server and associate it with the Director or Director pool:</span></span>
   
-<span data-ttu-id="3c126-105">Wählen Sie unter **Monitoring Server** aus der Liste einen Monitoring Server.</span><span class="sxs-lookup"><span data-stu-id="3c126-105">Under **Monitoring Server** select from the list a Monitoring Server.</span></span>
+<span data-ttu-id="afb9d-105">Wählen Sie unter **Monitoring Server** in der Liste einen Überwachungsserver aus.</span><span class="sxs-lookup"><span data-stu-id="afb9d-105">Under **Monitoring Server** select from the list a Monitoring Server.</span></span>
   
-<span data-ttu-id="3c126-106">Wenn kein Monitoring Server vorhanden ist und Sie einen Monitoring Server jetzt erstellen möchten, klicken Sie auf **neu**.</span><span class="sxs-lookup"><span data-stu-id="3c126-106">If there is no Monitoring Server, and you want to create a Monitoring Server now, click **New**.</span></span>
+<span data-ttu-id="afb9d-106">Wenn kein Überwachungsserver vorhanden ist und Sie jetzt einen Überwachungsserver erstellen möchten, klicken Sie auf **neu**.</span><span class="sxs-lookup"><span data-stu-id="afb9d-106">If there is no Monitoring Server, and you want to create a Monitoring Server now, click **New**.</span></span>
   
- <span data-ttu-id="3c126-107">**Zurück**: wechselt zurück zum vorherigen Dialogfeld.</span><span class="sxs-lookup"><span data-stu-id="3c126-107">**Back**: Goes back to the previous dialog</span></span>
+ <span data-ttu-id="afb9d-107">**Zurück**: wechselt zum vorherigen Dialogfeld zurück</span><span class="sxs-lookup"><span data-stu-id="afb9d-107">**Back**: Goes back to the previous dialog</span></span>
   
- <span data-ttu-id="3c126-108">**Fertig stellen**: die Änderungen werden übernommen, und der Assistent wird beendet</span><span class="sxs-lookup"><span data-stu-id="3c126-108">**Finish**: Commits the changes and completes the wizard</span></span>
+ <span data-ttu-id="afb9d-108">**Fertig stellen**: übernimmt die Änderungen und schließt den Assistenten ab</span><span class="sxs-lookup"><span data-stu-id="afb9d-108">**Finish**: Commits the changes and completes the wizard</span></span>
   
- <span data-ttu-id="3c126-109">**Abbrechen**: verwirft Änderungen und die Konfiguration wird abgebrochen</span><span class="sxs-lookup"><span data-stu-id="3c126-109">**Cancel**: Discards changes and cancels the configuration</span></span>
+ <span data-ttu-id="afb9d-109">**Abbrechen**: verwirft Änderungen und bricht die Konfiguration ab</span><span class="sxs-lookup"><span data-stu-id="afb9d-109">**Cancel**: Discards changes and cancels the configuration</span></span>
   
- <span data-ttu-id="3c126-110">**Hilfe**: Zeigt Hilfeinformationen wie dieses Thema</span><span class="sxs-lookup"><span data-stu-id="3c126-110">**Help**: Displays help information, such as this topic</span></span>
+ <span data-ttu-id="afb9d-110">**Hilfe**: Zeigt Hilfeinformationen wie dieses Thema an.</span><span class="sxs-lookup"><span data-stu-id="afb9d-110">**Help**: Displays help information, such as this topic</span></span>
   
 

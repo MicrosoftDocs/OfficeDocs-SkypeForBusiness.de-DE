@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,35 +22,35 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region So wählen Sie die gebührenfreie Telefonnummer.
-ms.openlocfilehash: 74bfee550ace64f352ca4424d6276cb6c967a3a3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
+ms.openlocfilehash: 9eba1c9ac569331d3f6110b58402cacf072eb4af
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204335"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303547"
 ---
-# <a name="toll-free-dialing-restrictions-in-ireland"></a><span data-ttu-id="7f484-105">Einschränkungen für gebührenfreie Telefonnummern in Irland</span><span class="sxs-lookup"><span data-stu-id="7f484-105">Toll-free dialing restrictions in Ireland</span></span>
+# <a name="toll-free-dialing-restrictions-in-ireland"></a><span data-ttu-id="a4deb-105">Einschränkungen für gebührenfreie Telefonnummern in Irland</span><span class="sxs-lookup"><span data-stu-id="a4deb-105">Toll-free dialing restrictions in Ireland</span></span>
 
-<span data-ttu-id="7f484-106">[Suchen Sie nach einem anderen Land oder Region](../toll-free-dialing-limitations-and-restrictions.md), oder erfahren Sie mehr über die gebührenfreie Nummer Grenzen und Einschränkungen.</span><span class="sxs-lookup"><span data-stu-id="7f484-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="a4deb-106">[Suchen Sie nach einem anderen Land oder einer anderen Region](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über gebührenfreie Wähleinschränkungen und-Einschränkungen.</span><span class="sxs-lookup"><span data-stu-id="a4deb-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="7f484-107">**Details**</span><span class="sxs-lookup"><span data-stu-id="7f484-107">**Details**</span></span>|<span data-ttu-id="7f484-108">**Beschreibung**</span><span class="sxs-lookup"><span data-stu-id="7f484-108">**Description**</span></span>|
+|<span data-ttu-id="a4deb-107">**Details**</span><span class="sxs-lookup"><span data-stu-id="a4deb-107">**Details**</span></span>|<span data-ttu-id="a4deb-108">**Beschreibung**</span><span class="sxs-lookup"><span data-stu-id="a4deb-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="7f484-109">Ist gebührenfreie aufrufen verfügbar?</span><span class="sxs-lookup"><span data-stu-id="7f484-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="7f484-110">Ja</span><span class="sxs-lookup"><span data-stu-id="7f484-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="7f484-111">Wählformate</span><span class="sxs-lookup"><span data-stu-id="7f484-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="7f484-112">1 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="7f484-112">1 800 XXX XXX</span></span>  <br/> |
-|<span data-ttu-id="7f484-113">ISO-Code des Lands/der Region</span><span class="sxs-lookup"><span data-stu-id="7f484-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="7f484-114">IE</span><span class="sxs-lookup"><span data-stu-id="7f484-114">IE</span></span>  <br/> |
-|<span data-ttu-id="7f484-115">Abgedeckte Inseln/Gebiete</span><span class="sxs-lookup"><span data-stu-id="7f484-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="7f484-116">Alle der Küste vorgelagerten Inseln der Republik Irland sind abgedeckt.</span><span class="sxs-lookup"><span data-stu-id="7f484-116">All offshore islands of the Republic of Ireland are covered.</span></span>  <br/> |
-|<span data-ttu-id="7f484-117">Nicht abgedeckte Inseln/Gebiete</span><span class="sxs-lookup"><span data-stu-id="7f484-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="7f484-118">Nicht zutreffend</span><span class="sxs-lookup"><span data-stu-id="7f484-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="7f484-119">Verfügbarkeit über drahtgebundene Leitungen/Festnetz</span><span class="sxs-lookup"><span data-stu-id="7f484-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="7f484-120">Ja</span><span class="sxs-lookup"><span data-stu-id="7f484-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="7f484-121">Verfügbarkeit über Mobilnetze</span><span class="sxs-lookup"><span data-stu-id="7f484-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="7f484-122">Ja</span><span class="sxs-lookup"><span data-stu-id="7f484-122">Yes</span></span>  <br/> |
-|<span data-ttu-id="7f484-123">Kommentare, Einschränkungen und Zugriffsaspekte</span><span class="sxs-lookup"><span data-stu-id="7f484-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="7f484-124">Zugriff über die Mobilnetze Vodafone, O2 Digiphone, Meteor und H3G</span><span class="sxs-lookup"><span data-stu-id="7f484-124">Accessible through Vodafone,O2 Digiphone, Meteor, and H3G mobile networks.</span></span>  <br/> |
+|<span data-ttu-id="a4deb-109">Sind gebührenfreie Anrufe verfügbar?</span><span class="sxs-lookup"><span data-stu-id="a4deb-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="a4deb-110">Ja</span><span class="sxs-lookup"><span data-stu-id="a4deb-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="a4deb-111">Wählformate</span><span class="sxs-lookup"><span data-stu-id="a4deb-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="a4deb-112">1 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="a4deb-112">1 800 XXX XXX</span></span>  <br/> |
+|<span data-ttu-id="a4deb-113">ISO-Code des Lands/der Region</span><span class="sxs-lookup"><span data-stu-id="a4deb-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="a4deb-114">IE</span><span class="sxs-lookup"><span data-stu-id="a4deb-114">IE</span></span>  <br/> |
+|<span data-ttu-id="a4deb-115">Abgedeckte Inseln/Gebiete</span><span class="sxs-lookup"><span data-stu-id="a4deb-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="a4deb-116">Alle der Küste vorgelagerten Inseln der Republik Irland sind abgedeckt.</span><span class="sxs-lookup"><span data-stu-id="a4deb-116">All offshore islands of the Republic of Ireland are covered.</span></span>  <br/> |
+|<span data-ttu-id="a4deb-117">Nicht abgedeckte Inseln/Gebiete</span><span class="sxs-lookup"><span data-stu-id="a4deb-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="a4deb-118">Nicht zutreffend</span><span class="sxs-lookup"><span data-stu-id="a4deb-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="a4deb-119">Verfügbarkeit über drahtgebundene Leitungen/Festnetz</span><span class="sxs-lookup"><span data-stu-id="a4deb-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="a4deb-120">Ja</span><span class="sxs-lookup"><span data-stu-id="a4deb-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="a4deb-121">Verfügbarkeit über Mobilnetze</span><span class="sxs-lookup"><span data-stu-id="a4deb-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="a4deb-122">Ja</span><span class="sxs-lookup"><span data-stu-id="a4deb-122">Yes</span></span>  <br/> |
+|<span data-ttu-id="a4deb-123">Kommentare, Einschränkungen und Zugriffsaspekte</span><span class="sxs-lookup"><span data-stu-id="a4deb-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="a4deb-124">Zugriff über die Mobilnetze Vodafone, O2 Digiphone, Meteor und H3G</span><span class="sxs-lookup"><span data-stu-id="a4deb-124">Accessible through Vodafone,O2 Digiphone, Meteor, and H3G mobile networks.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="7f484-125">Verwandte Themen</span><span class="sxs-lookup"><span data-stu-id="7f484-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="a4deb-125">Verwandte Themen</span><span class="sxs-lookup"><span data-stu-id="a4deb-125">Related topics</span></span>
 
-[<span data-ttu-id="7f484-126">Einschränkungen für das Wählen von gebührenfreien Telefonnummern</span><span class="sxs-lookup"><span data-stu-id="7f484-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="a4deb-126">Einschränkungen für das Wählen von gebührenfreien Telefonnummern</span><span class="sxs-lookup"><span data-stu-id="a4deb-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="7f484-127">Anfordern von Servicenummern für Skype for Business und Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7f484-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="a4deb-127">Anfordern von Servicenummern für Skype for Business und Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="a4deb-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  
