@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.LyncServerCurrentReleaseScopeNode
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 ROBOTS: NOINDEX, NOFOLLOW
-description: Sie können im Lync Server 2013-Knoten des Topologie-Generator neue Serverrollen erstellen, indem Sie mit der rechten Maustaste auf Lync Server 2013, wählen Sie neu und dann die zu erstellende Serverrolle auswählen.
-ms.openlocfilehash: b0f272ec7393302e54818053ca0e53270b8c1cf3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Sie können neue Serverrollen im lync Server 2013-Knoten des Topologie-Generators erstellen, indem Sie mit der rechten Maustaste auf lync Server 2013 klicken, neues auswählen und dann die zu erstellende Serverrolle auswählen.
+ms.openlocfilehash: a0b36d340c71b3146c89f29cdbf21b9047e4fff2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885610"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287587"
 ---
-# <a name="skype-for-business-server-create-new-expander"></a>Skype für Business Server erstellen neue – Erweiterung
+# <a name="skype-for-business-server-create-new-expander"></a>Skype for Business Server-neues Expander-Modul erstellen
  
-Sie können im Topologie-Generator neue Serverrollen erstellen, mit der rechten Maustaste **Skype für Business Server** **neu**auswählen und die zu erstellende Serverrolle auswählen.
+Sie können neue Serverrollen im Topologie-Generator erstellen, indem Sie mit der rechten Maustaste auf **Skype for Business Server**klicken, **neu**auswählen und die zu Erstell Serverrolle auswählen.
   
 

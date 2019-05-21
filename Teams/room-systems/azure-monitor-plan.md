@@ -1,67 +1,67 @@
 ---
-title: Planen der Verwaltung von Microsoft-Teams Chatrooms mit Azure Monitor
+title: Planen der Verwaltung von Microsoft Teams Rooms mit Azure Monitor
 ms.author: jambirk
 author: jambirk
 ms.reviewer: Turgayo
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection: M365-voice
-description: In diesem Artikel werden planungsüberlegungen für die Verwendung von Azure Monitor zum Verwalten von Microsoft-Teams Chatrooms Geräte in Ihrer Skype für Business oder Teams Implementierung.
-ms.openlocfilehash: 67a74d0bd02465d1a84856238e3e65a049b23ab4
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: In diesem Artikel werden Planungsüberlegungen zur Verwendung von Azure Monitor zum Verwalten von Microsoft Teams rooms-Geräten in Ihrer Skype for Business-oder Teams-Implementierung erläutert.
+ms.openlocfilehash: 98b4ebb61f4f287b94967f0cfd80b6f0ca9caeaf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362834"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306550"
 ---
-# <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planen der Verwaltung von Microsoft-Teams Chatrooms mit Azure Monitor
+# <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planen der Verwaltung von Microsoft Teams Rooms mit Azure Monitor
  
- In diesem Artikel werden planungsüberlegungen für die Verwendung von Azure Monitor zum Verwalten von Microsoft-Teams Chatrooms Geräte in Ihrem Microsoft-Teams oder Skype für Business-Implementierung.
+ In diesem Artikel werden Planungsüberlegungen zur Verwendung von Azure Monitor zum Verwalten von Microsoft Teams rooms-Geräten in Ihrer Microsoft Teams-oder Skype for Business-Implementierung erläutert.
   
-[Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) ist eine Auflistung von Rights Management Services, die in der Cloud ab dem Anfang entwickelt wurden. Statt bereitstellen und Verwalten von lokalen Ressourcen, werden Azure Monitor Komponenten vollständig in Azure gehostet. Konfiguration ist gering, und Sie können ausgeführt werden und als solches innerhalb weniger Minuten. Mit einigen Arbeit Anpassung können sie bei der Verwaltung von Microsoft-Teams Chatrooms Videokonferenzsysteme durch Bereitstellen der Systemintegrität oder Fehler in Echtzeit Benachrichtigungen für einzelne Raum Systeme hilfreich, und es kann potenziell vertikales Skalieren zur Verwaltung von Tausende von Microsoft-Teams Konferenzräume Chatrooms.
+[Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) ist eine Sammlung von Verwaltungsdiensten, die von Anfang an in der Cloud entwickelt wurden. Anstatt lokale Ressourcen bereitzustellen und zu verwalten, werden Azure Monitor-Komponenten vollständig in Azure gehostet. Die Konfiguration ist minimal, und Sie können innerhalb weniger Minuten buchstäblich in Betrieb sein. Mit einigen Anpassungsarbeiten kann Sie die Verwaltung von Microsoft Teams rooms-Konferenzsystemen unterstützen, indem Sie Echtzeitbenachrichtigungen über den Systemstatus oder Fehler für einzelne Raumsysteme bereitstellen und diese potenziell auf die Verwaltung Tausender Microsoft Teams skalieren können. Zimmer Konferenzräume.
   
-Dieser Artikel enthält eine Erörterung der Anforderungen, Design-Architektur und Implementierung bewährte Methoden für die Implementierung von Azure Monitor basierend Verwaltung von Microsoft-Teams Chatrooms Konferenz Geräten und enthält Links zu ausführlichen Artikeln auf Implementieren von Azure Monitor für Microsoft-Teams Rooms und kritische Referenzinformationen für die laufende Überwachung der Microsoft-Teams Chatrooms Chatrooms. 
+Dieser Artikel enthält eine Erläuterung der Best Practices für Anforderungen, Entwurf/Architektur und Implementierung, die für die Implementierung der Azure Monitor-basierten Verwaltung von Microsoft Teams rooms-Konferenz Geräten erforderlich sind, und enthält Links zu detaillierten Artikeln zu Implementieren von Azure Monitor für Microsoft Teams Rooms und wichtige Referenzinformationen für die laufende Überwachung von Microsoft Teams-Chatrooms. 
   
 ## <a name="functional-overview"></a>Funktionsübersicht
 
-![Diagramm der Microsoft-Teams Chatrooms Management mit Azure Systemmonitor](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
+![Diagramm der Microsoft Teams rooms-Verwaltung mit Azure Monitor](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
   
-Die Microsoft-Teams Chatrooms app auf dem Gerät Konsole schreibt Ereignisse in der Windows-Ereignisprotokoll. Ein Microsoft-Monitoring-Agent, einmal installiert, übergibt die Informationen an Azure-Überwachungsdienst. 
+Die Microsoft Teams rooms-App auf dem Konsolengerät schreibt Ereignisse in das Windows-Ereignisprotokoll. Nach der Installation übergibt ein Microsoft-Überwachungs-Agent die Informationen an den Azure Monitor-Dienst. 
   
-Einmal ordnungsgemäß konfiguriert, Log Analytics analysiert die JSON-Nutzlast eingebettet in den Ereignisdetails Beschreibungen der wird beschrieben, wie jede Microsoft-Teams Chatrooms System funktioniert und welche Fehler erkannt werden. 
+Nach der ordnungsgemäßen Konfiguration analysiert die Protokollanalyse die in den Ereignisbeschreibungen eingebettete JSON-Nutzlast, um zu beschreiben, wie die einzelnen Microsoft Teams Room-Systeme funktionieren und welche Fehler erkannt werden. 
   
-Ein Administrator mit Azure Systemmonitor sind finde Benachrichtigungen von Microsoft-Teams Räume-Systemen, die offline sind oder app, Diensten oder Hardwarefehler auftritt als auch feststellen, ob ein System muss neu gestartet werden. Jede Systemstatus wird regelmäßig aktualisiert, sodass diese Benachrichtigungen nahezu in Echtzeit Updates sind.
+Ein Administrator, der Azure Monitor verwendet, kann Benachrichtigungen zu Microsoft Teams rooms-Systemen erhalten, die offline sind oder App-, Konnektivitäts-oder Hardwarefehler aufweisen, und wissen, ob ein System neu gestartet werden muss. Jeder Systemstatus wird häufig aktualisiert, sodass diese Benachrichtigungen in der Nähe von Echtzeitupdates sind.
   
 ## <a name="azure-monitor-requirements"></a>Azure Monitor-Anforderungen
 
-Sie benötigen ein gültiges Azure-Abonnement für Azure Monitor Protokoll Analytics-Feature verwenden. Finden Sie unter [Erste Schritte mit einem Protokoll Analytics Arbeitsbereich](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace) , um ein Abonnement für Ihre Organisation zu erstellen.
+Sie müssen über ein gültiges Azure-Abonnement für Azure Monitor verfügen, um die Protokollanalyse Funktion verwenden zu können. Weitere Informationen finden Sie unter [Erste Schritte mit einem Protokollanalyse-Arbeitsbereich](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace) , um ein Abonnement für Ihre Organisation zu erstellen.
   
-Sie sollten sich nach Bedarf zur Verwendung von Log Analytics Ansichts-Designer vertraut machen. Diese Details finden Sie unter [Ansichten im Protokoll Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer) .
+Sie sollten sich nach Bedarf über die Verwendung des Ansicht-Designers für die Protokollanalyse vertraut machen. Diese Details finden Sie unter [Ansichten in der Protokollanalyse](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer) .
   
 ### <a name="related-tasks"></a>Verwandte Aufgaben
 
-1. Nachdem Azure Monitor Protokoll Analytics abonniert haben, Erstellen der benutzerdefinierten Felder (wie in [benutzerdefinierte Felder zuordnen](azure-monitor-deploy.md#Custom_fields)beschrieben) benötigt, um die Informationen zu analysieren, die von Microsoft-Teams Chatrooms Konsolen gesendet werden soll. Dazu gehören Grundlegendes zum Schema der JSON in [die Protokolleinträge verstehen](azure-monitor-manage.md#understand-the-log-entries)dokumentiert.
+1. Nachdem Sie die Azure Monitor-Protokollanalyse abonniert haben, müssen Sie benutzerdefinierte Felder erstellen (wie unter " [benutzerdefinierte Felder zuordnen](azure-monitor-deploy.md#Custom_fields)" beschrieben), die zum Analysieren der Informationen benötigt werden, die von Microsoft Teams rooms-Konsolen gesendet werden. Dies umfasst das Verständnis des JSON-Schemas, [das unter verstehen der Protokolleinträge](azure-monitor-manage.md#understand-the-log-entries)dokumentiert ist.
     
-2. Entwickeln einer Microsoft-Teams Chatrooms Management-Ansicht im Protokoll Analytics. Sie können entweder [Erstellen Sie ein Dashboard Microsoft Teams Chatrooms mithilfe der Importmethode](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method) oder [ein Dashboard Microsoft Teams Chatrooms manuell erstellen](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually).
+2. Entwickeln Sie in der Protokollanalyse eine Microsoft Teams rooms-Verwaltungsansicht. Sie können entweder [ein Dashboard für Microsoft Teams rooms erstellen, indem Sie die Import-Methode verwenden](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method) oder [ein Dashboard für Microsoft Teams-Räume manuell erstellen](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually).
     
-## <a name="individual-microsoft-teams-rooms-console-requirements"></a>Einzelne Teams Räume-MMC-Anforderungen
+## <a name="individual-microsoft-teams-rooms-console-requirements"></a>Konsolenanforderungen für einzelne Microsoft Teams-Chatrooms
 
-Jede Microsoft-Teams Räume-Konsole ist eine app auf einem Surface Pro Gerät im Kioskmodus ausgeführt (normalerweise konfiguriert ist die einzige app handeln, die auf dem Gerät ausgeführt werden können). Wie bei jeder Windows-app schreibt die Microsoft-Teams Chatrooms app Ereignisse wie beim Starten und Hardware Fehlern im Windows-Ereignisprotokoll. Hinzufügen eines Microsoft Monitor-Agents auf dem Gerät Microsoft Teams Chatrooms kann diese Ereignisse gesammelt werden. (Einzelheiten finden Sie unter [mit dem Protokoll Analytics-Dienst in Azure-Computern mit Windows verbinden](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows) .)
+Bei jeder Microsoft Teams rooms-Konsole handelt es sich um eine APP, die auf einem Surface pro-Gerät im Kioskmodus ausgeführt wird (normalerweise ist Sie so konfiguriert, dass Sie die einzige APP ist, die auf dem Gerät ausgeführt werden kann). Wie bei jeder Windows-App schreibt die Microsoft Teams rooms-App Ereignisse wie Start-und Hardwarefehler in das Windows-Ereignisprotokoll. Durch Hinzufügen eines Microsoft Monitor-Agents auf dem Microsoft Teams rooms-Gerät können diese Ereignisse erfasst werden. (Weitere Informationen finden Sie unter [Verbinden von Windows-Computern mit dem Protokollanalyse Dienst in Azure](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows) .)
   
 ## <a name="ongoing-management"></a>Laufende Verwaltung
 
-Bei Verwendung von Azure Monitor Ihrer Microsoft Teams Räume-Geräte verwalten, müssen Sie verstehen, die Informationen in den Ereignisprotokollen von Azure Monitor verwendet. Finden Sie auf diese Nachrichten Health Einzelheiten in [die Protokolleinträge verstehen](azure-monitor-manage.md#understand-the-log-entries) .
+Bei der Verwendung von Azure Monitor zum Verwalten Ihrer Microsoft Teams rooms-Geräte müssen Sie die Informationen verstehen, die in den von Azure Monitor verwendeten Ereignisprotokollen enthalten sind. Details zu diesen Gesundheits Meldungen finden Sie Untergrund Legendes zu [den Protokolleinträgen](azure-monitor-manage.md#understand-the-log-entries) .
   
 ### <a name="related-tasks"></a>Verwandte Aufgaben
 
-- Grundlegendes zu den vom Microsoft-Teams Rooms und zu deren Behebung (finden Sie im Abschnitt [zu verstehen der Protokolleinträge](azure-monitor-manage.md#understand-the-log-entries)) generierten Warnungen
+- Informieren Sie sich über die Warnungen, die von Microsoft Teams rooms generiert wurden, und wie Sie diese beheben können (siehe Abschnitt " [verstehen der Protokolleinträge](azure-monitor-manage.md#understand-the-log-entries)").
     
 ## <a name="see-also"></a>Siehe auch
 
-[Bereitstellen von Microsoft-Teams Chatrooms Management mit Azure Monitor](azure-monitor-deploy.md)
+[Bereitstellen von Microsoft Teams rooms Management mit Azure Monitor](azure-monitor-deploy.md)
   
-[Verwalten von Microsoft-Teams Chatrooms Geräte mit Azure Monitor](azure-monitor-manage.md)
+[Verwalten von Microsoft Teams rooms-Geräten mit Azure Monitor](azure-monitor-manage.md)

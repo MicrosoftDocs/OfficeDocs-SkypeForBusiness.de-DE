@@ -1,25 +1,25 @@
 ---
-title: Konferenzdetailbericht in Skype für Business Server
+title: Konferenz Detail Bericht in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: 'Zusammenfassung: Informationen Sie zu den detaillierten Konferenzbericht in Skype für Business Server verwendet wird.'
-ms.openlocfilehash: 46181c403a115367d7c2f8c030205ae2a9437c41
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Konferenz Detail Bericht, der in Skype for Business Server verwendet wird.'
+ms.openlocfilehash: 5b88ae62c7d06437b3502bd72dd965fc26fbfcb6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926557"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305787"
 ---
-# <a name="conference-detail-report-in-skype-for-business-server"></a>Konferenzdetailbericht in Skype für Business Server
+# <a name="conference-detail-report-in-skype-for-business-server"></a>Konferenz Detail Bericht in Skype for Business Server
 
-**Zusammenfassung:** Informationen Sie zu den detaillierten Konferenzbericht in Skype für Business Server verwendet wird.
+**Zusammenfassung:** Informieren Sie sich über den Konferenz Detail Bericht, der in Skype for Business Server verwendet wird.
 
 Der detaillierte Konferenzbericht enthält ausführliche Informationen zu allen Benutzern, die an einer Konferenz teilgenommen haben. Sie können beispielsweise Informationen wie Datum und Uhrzeit, an dem bzw. zu der ein Benutzer einer Konferenz beigetreten ist und die Konferenz verlassen hat, sowie den Benutzer-Agent des Endpunkts anzeigen, mit dem der Benutzer mit der Konferenz verbunden wurde. Darüber hinaus können Sie Informationen zu der Rolle des Benutzers in den einzelnen Konferenzen (z. B. Referent oder Teilnehmer) anzeigen. Der vielleicht wichtigste Aspekt ist, dass Sie auf einen Blick erkennen können, welche Benutzer der Konferenz erfolgreich beigetreten und sie abgeschlossen haben und welche Benutzer der Konferenz nicht beitreten konnten und sie daher nicht abgeschlossen haben.
 
@@ -33,7 +33,7 @@ Auf den detaillierten Konferenzbericht kann über die folgenden Berichte zugegri
 
 - [User Activity Report](call-diagnostic-reports-per-user.md) (durch Klicken auf die Metrik „Konferenz-URI“)
 
-Über den detaillierten Konferenzbericht können Sie die [Diagnose Berich](diagnostic-report.md) zugreifen, durch Klicken auf die Metrik Diagnosebericht (Detail).
+Im Konferenz Detail Bericht können Sie auf den [Diagnose](diagnostic-report.md) -Repor zugreifen, indem Sie auf die Metrik Diagnosebericht (Detail) klicken.
 
 ## <a name="filters"></a>Filter
 
@@ -65,10 +65,10 @@ In der folgenden Tabelle werden die Informationen aus dem Abschnitt zur Konferen
 |**Verbindung** <br/> |Netzwerkverbindungen (in der Regel „From Internal“ oder „From External“) des Teilnehmers.  <br/> |
 |**Beitrittszeitpunkt** <br/> |Datum und Uhrzeit, an dem bzw. zu der der Teilnehmer der Konferenz beigetreten ist.  <br/> |
 |**Beendigungszeitpunkt** <br/> |Datum und Uhrzeit, an dem bzw. zu der der Teilnehmer die Konferenz verlassen hat.  <br/> |
-|**Benutzer-Agent** <br/> |Der Bezeichner für die vom Endpunkt des Teilnehmers verwendete Software.  <br/> |
+|**Benutzer-Agent** <br/> |Der Bezeichner für die Software, die vom Endpunkt des Teilnehmers verwendet wird.  <br/> |
 |**Diagnoseberichte** <br/> |Enthält Diagnose- und Problembehandlungsinformationen, einschließlich SIP-Antwortcodes, Diagnoseheader, Zeitpunkt des Konferenzbeitritts und Diagnose-IDs für fehlgeschlagene Sitzungen.  <br/> |
 
-In der folgenden Tabelle sind die Informationen in den Abschnitt zu Konferenzmodalitäten des detaillierten Konferenzberichts aufgeführt.
+In der folgenden Tabelle sind die Informationen aufgeführt, die im Abschnitt Konferenz Modalitäten des Konferenz Detail Berichts bereitgestellt werden.
 
 **Konferenzmodalitäten – Metriken**
 

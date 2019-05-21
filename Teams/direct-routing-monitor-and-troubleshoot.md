@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: troubleshooting
 ms.service: msteams
 localization_priority: Normal
@@ -14,74 +14,74 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: In diesem Artikel wird beschrieben, wie zur Überwachung und Problembehandlung für die direkte Routing-Konfiguration.
-ms.openlocfilehash: e21d3e020f477fd1518017e0d6fc484e7ea10344
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: In diesem Artikel wird beschrieben, wie Sie Ihre direkte Routing Konfiguration überwachen und beheben können.
+ms.openlocfilehash: b4d53ad566cd0c31696ce688044ce1587d771a7d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402446"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290408"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Überwachung und Problembehandlung von direktem Routing
 
-In diesem Artikel wird beschrieben, wie zur Überwachung und Problembehandlung für die direkte Routing-Konfiguration. 
+In diesem Artikel wird beschrieben, wie Sie Ihre direkte Routing Konfiguration überwachen und beheben können. 
 
-Die Möglichkeit zum tätigen und Entgegennehmen von Anrufen durch direktes Routing umfasst die folgenden Komponenten: 
+Die Möglichkeit zum tätigen und empfangen von Anrufen mithilfe des direkten Routings umfasst die folgenden Komponenten: 
 
-- Session Border Controller (SBCs) 
-- Direkte Routing-Komponenten in der Microsoft-Cloud 
-- Telekommunikation trunks 
+- Session Border Controllers (SBCS) 
+- Direkte Routing Komponenten in der Microsoft-Cloud 
+- Telekom-Stämme 
 
-Wenn Sie Probleme bei der Behandlung von Problemen haben, öffnen Sie eine Supportanfrage mit Ihrer SBC-Anbieter oder Microsoft. 
+Wenn Sie Probleme bei der Problembehandlung haben, öffnen Sie bitte einen Support-Fall mit Ihrem SBC-Anbieter oder Microsoft. 
 
-Microsoft ist funktionsfähig, klicken Sie auf Weitere Tools für die Problembehandlung und Überwachung bereitstellen. Überprüfen Sie die Dokumentation in regelmäßigen Abständen nach Updates. 
+Microsoft arbeitet an der Bereitstellung weiterer Tools für die Problembehandlung und Überwachung. Bitte überprüfen Sie die Dokumentation regelmäßig auf Updates. 
 
-## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>Überwachen der Verfügbarkeit von Session Border Controller über Session Initiation Protocol (SIP) Optionen Nachrichten
+## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>Überwachen der Verfügbarkeit von Sitzungs Grenz Controllern mithilfe von SIP-Options Meldungen (Session Initiation Protocol)
 
-Direktes Routing verwendet SIP-Optionen, die von der Session Border Controller gesendet, um SBC Integrität zu überwachen. Es sind keine Aktionen, die von der mandantenadministrator erforderlich sind, um die Optionen SIP-Überwachung aktivieren. Die gesammelte Informationen wird berücksichtigt, wenn Routingentscheidungen vorgenommen werden. 
+Das direkte Routing verwendet SIP-Optionen, die von den Session Border Controllern zur Überwachung des SBC-Status gesendet werden. Vom mandantenadministrator sind keine Aktionen erforderlich, um die Überwachung der SIP-Optionen zu aktivieren. Die gesammelten Informationen werden berücksichtigt, wenn Routingentscheidungen getroffen werden. 
 
-Beispielsweise wenn für einen bestimmten Benutzer, mehrere SBCs zum Weiterleiten eines Anrufs verfügbar sind, berücksichtigt direkten Routing von jedem SBC-routing bestimmen erhaltenen Informationen SIP-Optionen. 
+Wenn beispielsweise für einen bestimmten Benutzer mehrere SBCS verfügbar sind, um einen Anruf weiterleiten zu können, werden bei der direkten Weiterleitung die SIP-Options Informationen berücksichtigt, die von jedem SBC empfangen werden, um das Routing zu ermitteln. 
 
 Das folgende Diagramm zeigt ein Beispiel für die Konfiguration: 
 
-![Beispiel für die Konfiguration von SIP-Optionen](media/sip-options-config-example.png)
+![Konfigurationsbeispiel für SIP-Optionen](media/sip-options-config-example.png)
 
-Wenn ein Benutzer einen Anruf an Anzahl +1 425 herstellt \<alle sieben Digits>, direkten Routing wertet die Route. Es gibt zwei SBCs in der Route: sbc1.contoso.com und sbc2.contoso.com. Beide SBCs haben die gleiche Priorität in der Route. Vor der Entnahme eines SBC, wertet der routing-Mechanismus die Integrität der SBCs basierend auf, wenn der SBC die Optionen SIP gesendet letzten Zeit. 
+Wenn ein Benutzer einen Anruf an Number + 1 425 \<mit sieben digits> tätigt, wertet Direct Routing die Route aus. Die Route umfasst zwei SBCS: sbc1.contoso.com und sbc2.contoso.com. Beide SBCS haben in der Route dieselbe Priorität. Vor der Auswahl eines SBC bewertet der Routingmechanismus die Integrität des SBCS basierend auf dem Zeitpunkt, zu dem der SBC die SIP-Optionen beim letzten Mal gesendet hat. 
 
-Ein SBC gilt fehlerfrei, ob Statistiken zum Zeitpunkt der den Anruf senden angezeigt, dass der SBC Optionen in regelmäßigen Abständen gesendet.  
+Ein SBC wird als "fehlerfrei" eingestuft, wenn beim Senden des Anrufs Statistiken angezeigt werden, dass die SBC-Optionen in regelmäßigen Abständen gesendet werden.  
 
-Direktes Routing berechnet regelmäßige Abständen, indem Sie zwei Mal den Mittelwert nutzen, wenn der SBC Optionen sendet, bevor der Aufruf und Hinzufügen von fünf Minuten. 
+Beim direkten Routing werden reguläre Intervalle berechnet, indem der SBC zwei Mal den Mittelwert einnimmt, wenn der SBC Optionen sendet, bevor er den Anruf annimmt und fünf Minuten hinzufügt. 
 
-Beispielsweise wird Folgendes vorausgesetzt: 
+Nehmen Sie beispielsweise Folgendes an: 
 
-- Ein SBC ist so konfiguriert, zum Senden von "Optionen" jede Minute. 
-- Der SBC wurde um 11:00 Uhr kombiniert.  
-- Der SBC sendet Optionen auf 11.01 Uhr, 11.02 Uhr.  
-- An 11.15 ein Benutzer einen Anruf tätigt, und der routing Mechanismus markiert dieses SBC. 
+- Ein SBC ist so konfiguriert, dass Optionen jede Minute gesendet werden. 
+- Der SBC wurde um 11,00 Uhr gekoppelt.  
+- Der SBC sendet Optionen für 11,01 Uhr, 11,02 Uhr usw.  
+- Bei 11,15 führt ein Benutzer einen Anruf aus, und der Routingmechanismus wählt diesen SBC aus. 
 
-Die folgende Logik angewendet wird: doppelt das durchschnittliche Intervall der SBC Optionen (1 Minute plus eine Minute = zwei Minuten) plus fünf Minuten = sieben Minuten sendet. Dies ist der Wert der der regelmäßigen Intervall für die SBC.
+Die folgende Logik wird angewendet: das Zweifache des durchschnittlichen Intervalls, wenn der SBC Optionen sendet (eine Minute plus eine Minute = zwei Minuten) plus fünf Minuten = sieben Minuten. Dies ist der Wert des regulären Intervalls für den SBC.
  
-Wenn der SBC in unserem Beispiel gesendete Optionen auf einen beliebigen Zeitraum zwischen 11:08 und 11:15 Uhr (Zeit, die der Anruf getätigt wurde), wird es fehlerfrei betrachtet. Wenn dies nicht der Fall ist, wird der SBC aus der Route herabgestuft werden. 
+Wenn der SBC in unserem Beispiel Optionen zu einem beliebigen Zeitraum zwischen 11,08 und 11,15 Uhr (der Zeitpunkt, zu dem der Anruf getätigt wurde) gesendet hat, wird er als fehlerfrei angesehen. Wenn dies nicht der Fall ist, wird der SBC von der Route herabgestuft. 
 
-Herabstufung bedeutet, dass der SBC nicht zuerst getestet werden. Zum Beispiel haben wir sbc1.contoso.com und sbc2.contoso.com mit gleiche Priorität.  
+Herabstufung bedeutet, dass der SBC nicht zuerst getestet wird. Beispielsweise haben wir sbc1.contoso.com und sbc2.contoso.com mit gleicher Priorität.  
 
-Sbc1.contoso.com wie oben beschrieben keine SIP-Optionen in regelmäßigen Abständen sendet, wird es herabgestuft. Im nächsten Schritt versucht sbc2.contoso.com für den Anruf. Wenn den Aufruf von sbc2.contoso.con nicht zugestellt werden kann, die sbc1.contoso.com (tiefer gestuft) erneut versucht werden soll, bevor ein Fehler generiert wird. 
+Wenn sbc1.contoso.com die SIP-Optionen nicht wie oben beschrieben in regelmäßigen Abständen sendet, wird es herabgestuft. Als nächstes versucht sbc2.contoso.com den Anruf. Wenn sbc2. contoso. con den Anruf nicht übermitteln kann, wird der sbc1.contoso.com (degradiert) erneut versucht, bevor ein Fehler generiert wird. 
 
-## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Überwachen der Qualität Analytics aufrufen Dashboard und SBC-Protokolle 
+## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Überwachen von Anruf Qualitätsanalyse-Dashboard und SBC-Protokollen 
  
-In einigen Fällen vor allem in Zeiten der anfänglichen Paarung möglicherweise Probleme im Zusammenhang mit falsche Konfiguration der der SBCs und/oder direkte Routing Service. 
+In einigen Fällen, besonders während der anfänglichen Kopplung, gibt es möglicherweise Probleme im Zusammenhang mit der Fehlkonfiguration des SBCS und/oder des Direct Routing-Diensts. 
 
-Die folgenden Tools können Sie Ihre Konfiguration überwachen:  
+Sie können die folgenden Tools verwenden, um Ihre Konfiguration zu überwachen:  
  
 - Anrufqualitäts-Dashboard 
 - SBC-Protokolle 
 
-Direktes Routing Service hat sehr beschreibenden Fehlercodes gemeldet Analytics aufrufen oder die SBC-Protokolle. 
+Der Direct Routing-Dienst weist sehr anschauliche Fehlercodes auf, die entweder für die anrufanalyse oder für die SBC-Protokolle gemeldet wurden. 
 
-Das Aufrufen Qualitätsdashboard bietet Informationen zur Anrufqualität und Zuverlässigkeit. Weitere Informationen zum Beheben von Problemen mit Aufrufen Analytics finden Sie unter [aktivieren, und rufen Sie Qualitätsdashboard für Microsoft-Teams und Skype für Business Online verwenden](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) und [Verwendung aufrufen Analysen für die Qualität der Anrufe schlechter Qualität Problembehandlung bei](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality). 
+Das Dashboard "Anrufqualität" bietet Informationen zur Anrufqualität und Zuverlässigkeit. Weitere Informationen zur Behandlung von Problemen mit der anrufanalyse finden Sie unter [aktivieren und Verwenden von Anruf Qualitäts Dashboard für Microsoft Teams und Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) und [Verwenden von Anruf Analysen zur Behandlung schlechter Anrufqualität](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality). 
 
-Im Fall eines WAN-anruffehlern bietet Analytics rufen Sie standard-SIP-Codes, die Sie bei der Problembehandlung zu erleichtern. 
+Bei Anruf Fehlern bietet die anrufanalyse Standard-SIP-Codes, die Ihnen bei der Problembehandlung helfen. 
 
-![SIP-Beispielcode für das Fehlschlagen des Anrufs](media/failed-response-code.png)
+![Beispiel für SIP-Code für Anruf Fehler](media/failed-response-code.png)
 
-Analytics aufrufen können jedoch nur bei Anrufen die internen Komponenten des direkten Routing erreichen fehlschlagen. Im Fall eines WAN-Probleme bei der Paarung SBC oder Probleme, auf dem SIP "Einladen" (beispielsweise den Namen des Trunks, den FQDN falsch konfiguriert ist) abgelehnt wurde, trägt Analytics Anruf nicht. In diesem Fall finden Sie die SBC-Protokolle. Direktes Routing sendet eine detaillierte Beschreibung der Probleme an die SBCs. Diese Probleme können aus den Protokollen SBC gelesen werden. 
+Anruf Analysen können jedoch nur dann hilfreich sein, wenn Anrufe die internen Komponenten des direkten Routings erreichen und Fehler auftreten. Bei Problemen mit SBC-Kopplungen oder Problemen, bei denen SIP "Invite" abgelehnt wurde (beispielsweise ist der Name des trunk-FQDN falsch konfiguriert), kann die anrufanalyse nicht helfen. Beziehen Sie sich in diesem Fall bitte auf die SBC-Protokolle. Direktes Routing sendet eine detaillierte Beschreibung der Probleme an die SBCS. Diese Probleme können aus den SBC-Protokollen gelesen werden. 

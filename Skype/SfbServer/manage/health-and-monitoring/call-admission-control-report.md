@@ -1,25 +1,25 @@
 ---
-title: Aufrufen des Berichts über Anrufsteuerung in Skype für Business Server
+title: Bericht zur Anrufsteuerung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: 'Zusammenfassung: Erfahren Sie mehr über die aufrufen Admission Control-Berichte in Skype für Business Server verwendet.'
-ms.openlocfilehash: f6f68e74c584496de0256b0fad8e2deae7dcc253
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: informieren Sie sich über die in Skype for Business Server verwendeten Berichte zur Anruf Zulassungs Steuerung.'
+ms.openlocfilehash: efa632aa4a7fb5793694363d958a31e8a066a9b5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902696"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289434"
 ---
-# <a name="call-admission-control-report-in-skype-for-business-server"></a>Aufrufen des Berichts über Anrufsteuerung in Skype für Business Server
+# <a name="call-admission-control-report-in-skype-for-business-server"></a>Bericht zur Anrufsteuerung in Skype for Business Server
  
-**Zusammenfassung:** Lernen Sie die aufrufen Admission Control-Berichte in Skype für Business Server verwendet.
+**Zusammenfassung:** Informieren Sie sich über die in Skype for Business Server verwendeten Berichte zur Anruf Zulassungs Steuerung.
   
 Der Bericht über Anrufsteuerung bietet Informationen über Peer-to-Peer- und Konferenzsitzungen, die unter Beschränkungen durchgeführt wurden, die über die Anrufsteuerung eingeführt wurden. Die Anrufsteuerung bietet Administratoren eine Möglichkeit, Kommunikationssitzungen auf der Grundlage von Bandbreitenbeschränkungen zuzulassen (oder nicht zuzulassen). Beispielsweise kann ein Administrator Richtlinien erstellen, die die verfügbare Bandbreite für Sprach- und Videoanrufe beschränken. Sobald diese Bandbreitengrenze erreicht ist, können keine neuen Sprach- oder Videoanrufe mehr getätigt werden, bis einer der aktuellen Anrufe beendet worden ist und damit die erforderlichen Netzwerkressourcen freigegeben worden sind.
   
@@ -27,9 +27,9 @@ Der Bericht über Anrufsteuerung bietet Informationen über Peer-to-Peer- und Ko
 
 Auf den Bericht über Anrufsteuerung greifen Sie über die Startseite für Überwachungsberichte zu. Vom Bericht über Anrufsteuerung aus können Sie einen Drilldown zu einem der folgenden Berichte durchführen:
   
-- Konferenzdetailbericht – zum Öffnen dieses Berichts klicken Sie auf die Metrik Details für eine konferenzsitzung. 
+- Konferenz Detail Bericht – Wenn Sie auf diesen Bericht zugreifen möchten, klicken Sie in einer Konferenzsitzung auf die Metrik "Details". 
     
-- Peer-zu-Peer-Sitzungsbericht - zum Öffnen dieses Berichts klicken Sie auf die Metrik Details für eine Peer-zu-Peer-Sitzung.
+- Peer-zu-Peer-Sitzungs Detail Bericht – Wenn Sie auf diesen Bericht zugreifen möchten, klicken Sie auf die Metrik "Details" für eine Peer-to-Peer-Sitzung.
     
 ## <a name="making-the-best-use-of-the-call-admission-control-report"></a>Optimales Nutzen des Berichts über Anrufsteuerung
 

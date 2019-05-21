@@ -12,35 +12,35 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Finden Sie unter Skype für Business Online Schritte eines Benutzers und viele andere Einstellungen für einwahlkonferenzen eine einwahlkonferenzen Lizenz und Konferenz-ID zugewiesen. '
-ms.openlocfilehash: ed5d2cb2115c47ba84dd91ebc45561aa93e4c023
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Weitere Informationen finden Sie unter Skype for Business Online-Schritte zum Zuweisen einer Lizenz für Einwahlkonferenzen und einer Konferenz-ID für einen Benutzer und viele andere Einstellungen für Einwahlkonferenzen. '
+ms.openlocfilehash: 27d8ebbb524f5b03b0dc25f03b0380e5861034ac
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229359"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299173"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Verwalten der Einstellungen von Audio Conferencing für meine Organisation in Skype for Business Online
 
 > [!NOTE]
 > Wenn Sie in Microsoft Teams diese Einstellungen verwalten möchten, sehen Sie[Verwalten der Einstellungen für Audio Conferencing für meine Organisation im Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams).
 
-Alle für die Audiokonferenz für Skype für Unternehmen an einem Ort finden Sie unter erleichtert möglicherweise.
+Es ist möglicherweise einfacher für Sie, alle Audiokonferenz-Einstellungen für Skype for Business an einem zentralen Ort anzuzeigen.
 
 
-## <a name="assign-an-audio-conferencing-license"></a>Zuweisen einer Audiokonferenz-Lizenzvertrags
+## <a name="assign-an-audio-conferencing-license"></a>Zuweisen einer Audiokonferenz-Lizenz
 
 > [!NOTE]
 > You can't assign licenses using the **Skype for Business admin center**. You must use the Office 365 admin center. See [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
- **So weisen eine Lizenz für einen Benutzer**
+ **So weisen Sie eine Lizenz für einen Benutzer zu**
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
@@ -56,9 +56,9 @@ Alle für die Audiokonferenz für Skype für Unternehmen an einem Ort finden Sie
 > [!NOTE]
 > Unter Umständen wird Microsoft nach dem Zuweisen der Lizenz nicht sofort in der Liste als Audiokonferenzanbieter angezeigt. Melden Sie sich in diesem Fall im Office 365 Admin Center ab, oder drücken Sie STRG+F5, um das Browserfenster zu aktualisieren.
 
-## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Aktivieren Sie oder deaktivieren Sie e-Mails senden audiokonferenzbenutzer
+## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Aktivieren oder Deaktivieren von e-Mails, die an Audiokonferenz-Benutzer gesendet wurden
 
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
@@ -89,7 +89,7 @@ Alle für die Audiokonferenz für Skype für Unternehmen an einem Ort finden Sie
 
 Sie können die E-Mail, die automatisch an Ihre Benutzer gesendet wird, ändern, unter anderem die E-Mail-Adresse und den Anzeigenamen der Kontaktinformationen des Absenders. Standardmäßig ist Office 365 als Absender der E-Mails angegeben. Sie können jedoch die E-Mail-Adresse und den Anzeigenamen mit Windows PowerShell und dem Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) ändern. Um Änderungen an der E-Mail-Adresse vorzunehmen, über die die E-Mail an die Benutzer gesendet wird, müssen Sie:
 
-- Geben Sie die e-Mail-Adresse in der _SendEmailFromAddress_ -Parameter.
+- Geben Sie die e-Mail-Adresse im _SendEmailFromAddress_ -Parameter ein.
 
 - Den in der E-Mail angezeigten Namen in den Parameter  _SendEmailFromDisplayName_ eingeben.
 
@@ -103,9 +103,9 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 Wenn Sie die E-Mail-Adressinformationen ändern möchten, müssen Sie sicherstellen, dass die Richtlinien Ihres Unternehmens für eingehende E-Mails es zulassen, dass E-Mails von der benutzerdefinierten Absenderadresse gesendet werden.
 
-Das Cmdlet " [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) " können Sie um andere Einstellungen für Ihre Organisation, einschließlich e-Mail zu verwalten.
+Sie können das Cmdlet " [Satz-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) " verwenden, um andere Einstellungen für Ihre Organisation, einschließlich e-Mail, zu verwalten.
 
-Finden Sie unter [-e-Mails, die Benutzern beim Ändern ihrer Einstellungen für die Audiokonferenz automatisch gesendet werden](emails-sent-to-users-when-their-settings-change.md).
+Sehen Sie sich [e-Mails an, die automatisch an Benutzer gesendet werden, wenn sich Ihre audiokonferenzeinstellungen ändern](emails-sent-to-users-when-their-settings-change.md).
 
 ## <a name="reset-the-meeting-conference-id"></a>Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
@@ -137,9 +137,9 @@ Each meeting that a user schedules will get assigned a unique conference ID. Alt
 
 Benutzer erhalten eine E-Mail mit ihrer PIN, wenn sie für Audiokonferenzen aktiviert werden oder wenn die PIN zurückgesetzt wird. Wenn Sie das automatische Senden von E-Mails deaktiviert haben, wird allerdings keine E-Mail zum Zurücksetzen der PIN gesendet. In diesem Fall müssen Sie die PIN manuell an den Benutzer senden. Die PIN wird nach dem Zurücksetzen nur einmal angezeigt. Nachdem sie unmittelbar nach dem Zurücksetzen angezeigt wurde, wird die PIN in den Benutzereigenschaften nicht mehr angezeigt. Stattdessen wird ***** angezeigt.
 
-Finden Sie unter [der Audiokonferenz PIN zurücksetzen](reset-the-audio-conferencing-pin.md).
+Siehe [Zurücksetzen der Audiokonferenz-Pin](reset-the-audio-conferencing-pin.md).
 
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden Sie eine e-Mail mit Audiokonferenz Informationen zu einem Benutzer
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden einer e-Mail mit Audio-Konferenz Informationen an einen Benutzer
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
@@ -154,7 +154,7 @@ Finden Sie unter [der Audiokonferenz PIN zurücksetzen](reset-the-audio-conferen
 
 Siehe [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer](send-an-email-to-a-user-with-their-dial-in-information.md).
 
-## <a name="setting-the-phone-numbers-included-on-invites"></a>Festlegen des Telefons, die Zahlen enthalten auf invites
+## <a name="setting-the-phone-numbers-included-on-invites"></a>Festlegen der in Einladungen enthaltenen Telefonnummern
 
 1. Sign in to Office 365 with your work or school account.
 
@@ -166,12 +166,12 @@ Siehe [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen B
 
 5. Klicken Sie auf **Speichern**.
 
-Finden Sie unter [Einrichten des Telefons, Zahlen auf enthalten lädt](set-the-phone-numbers-included-on-invites.md).
+Weitere Informationen finden Sie unter [Einrichten der Telefonnummern, die in Einladungen enthalten sind](set-the-phone-numbers-included-on-invites.md).
 
 
-## <a name="choosing-audio-conferencing-bridge-settings"></a>Audiokonferenzen Bridge Einstellungen auswählen
+## <a name="choosing-audio-conferencing-bridge-settings"></a>Auswählen von Einstellungen für die Audiokonferenz-Bridge
 
-**Die besprechungsumgebung festgelegt, wenn der Anrufer an einer Besprechung teilnehmen**
+**Einrichten der Besprechungs Erfahrung, wenn Anrufer an einer Besprechung teilnehmen**
 
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
@@ -184,7 +184,7 @@ Finden Sie unter [Einrichten des Telefons, Zahlen auf enthalten lädt](set-the-p
 
    - **Benachrichtigungen beim Betreten oder Verlassen einer Besprechung aktivieren**: Diese Option ist standardmäßig aktiviert. Wenn Sie das Kontrollkästchen deaktivieren, werden Benutzer, die bereits standardmäßig an der Besprechung teilnehmen, nicht benachrichtigt, wenn ein Teilnehmer der Besprechung beitritt oder diese verlässt.
 
-     Dies kann festgelegt werden auf Basis von-Meeting-Besprechung, wenn ein Benutzer betritt einer Besprechung mit einem Skype für Geschäfts-app, und ändern Sie die Einstellung **Announce Wenn Personen eingeben oder diese verlassen** der Besprechung im Besprechung Skype- **Optionen** .
+     Dies kann für Besprechungen festgelegt werden, wenn ein Benutzer mit einer Skype for Business-APP an einer Besprechung teilnimmt und die Einstellung " **Wenn Personen eingeben oder belassen** " im Menü "Skype-Besprechungs **Optionen** " der Besprechung ändert.
 
    - **Anrufer zur Aufnahme ihres Namens auffordern, bevor sie an der Besprechung teilnehmen**: Diese Option ist standardmäßig aktiviert. Wenn Sie das Kontrollkästchen deaktivieren, werden Anrufer nicht aufgefordert, ihren Namen aufzuzeichnen, bevor sie an der Besprechung teilnehmen.
 
@@ -222,7 +222,7 @@ Siehe [Ändern der Einstellungen für eine Audiokonferenzbrücke](/MicrosoftTeam
 
     See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).
 
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Finden Sie unter, und legen Sie die primären (Standard) und die sekundären Sprachen (alternative) auf eine audiokonferenzbrücke
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Anzeigen und Festlegen der primären (Standard-) und sekundären (Alternativen) Sprachen auf einer Audiokonferenz-Brücke
 
 
 1. Sign in to Office 365 with your work or school account.
@@ -245,15 +245,15 @@ Siehe [Festlegen der automatischen Telefonzentrale Sprachen für Audio-Konferenz
 
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge**. Here you can:
 
-   - Zeigen Sie die Telefonnummern, die vom Office 365 festgelegt werden, für die Audiokonferenz verwendet werden soll.
+   - Zeigen Sie die Telefonnummern an, die von Office 365 für Audiokonferenzen verwendet werden.
 
    - Zeigen Sie den Standort sowie die primären und sekundären Sprachen an, die von der automatischen Telefonzentrale für Audiokonferenzen verwendet werden.
 
    - Wählen Sie die Standardtelefonnummer aus, die Benutzer erhalten, wenn sie für Audiokonferenzen aktiviert werden. Wenn jedoch die Standardtelefonnummer für die Audiokonferenzbrücke geändert wird, ändert sich die Standardtelefonnummer für vorhandene Benutzer nicht.
 
-Sie können wechseln Sie zur **Audiokonferenz** > **Benutzer** und wählen Sie die Eigenschaften des Benutzers ändern des Standard für einen Benutzer Zahlenformatvorlage wählen Sie eine neue Nummer aus der Liste von Zahlen, die in Ihrer Organisation zur Verfügung stehen.
+Sie können zu Audiokonferenz **** > -**Benutzern** wechseln und die Eigenschaften des Benutzers auswählen, um die Standardnummer für einen Benutzer zu ändern, indem Sie eine neue Nummer aus der Liste der in Ihrer Organisation verfügbaren Zahlen auswählen.
 
-Finden Sie unter [finden Sie eine Liste von Audiokonferenzen Zahlen](see-a-list-of-audio-conferencing-numbers.md).
+Weitere Informationen finden Sie unter [Anzeigen einer Liste von Audiokonferenz-Nummern](see-a-list-of-audio-conferencing-numbers.md).
 
 ## <a name="see-a-list-of-users-that-are-enabled"></a>Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
@@ -313,7 +313,7 @@ Hier sind die Einstellungen auf Organisationsebene:
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromDisplayName
   ```
 
-  ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie wissen, Weitere Informationen zu Windows PowerShell
+  ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 - Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
 
   - [Warum Sie Office 365 PowerShell verwenden müssen](https://go.microsoft.com/fwlink/?LinkId=525041)

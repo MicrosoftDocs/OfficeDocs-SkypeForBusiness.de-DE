@@ -1,11 +1,11 @@
 ---
-title: Überprüfen Sie die Topologie in Skype für Business Server
+title: Überprüfen der Topologie in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 7/14/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,57 +14,57 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
-description: 'Zusammenfassung: Informationen zum Überprüfen der Skype für Business Server-Topologie und Active Directory-Server wie erwartet funktionieren. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: fc0e3a4b76ab25a8b99a3c7d48d0527fc2a1f5ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie überprüfen können, ob die Skype for Business Server-Topologie und die Active Directory-Server wie erwartet funktionieren. Laden Sie eine ﻿kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverCenter unter: herunter.'
+ms.openlocfilehash: aad91c7bfb1e3187ace5d5caec4e3f18952a11d8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891782"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306591"
 ---
-# <a name="verify-the-topology-in-skype-for-business-server"></a>Überprüfen Sie die Topologie in Skype für Business Server
+# <a name="verify-the-topology-in-skype-for-business-server"></a>Überprüfen der Topologie in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie die Skype für Business Server-Topologie überprüfen und Active Directory-Server wie erwartet funktionieren. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem [Microsoft-Evaluierungscenter](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Zusammenfassung:** Erfahren Sie, wie Sie überprüfen können, ob die Skype for Business Server-Topologie und die Active Directory-Server wie erwartet funktionieren. Laden Sie eine ﻿kostenlose Testversion von Skype for Business Server vom [Microsoft Evaluation Center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)herunter.
   
-Nachdem Sie die Topologie veröffentlicht und die Skype für Business Server Systemkomponenten auf jedem Server in der Topologie installiert haben, können Sie überprüfen, ob die Topologie wie erwartet funktioniert. Dazu gehören, die die Konfiguration aller Active Directory-Server weitergegeben wurde, damit die gesamte Domäne bekannt ist, dass Skype für Unternehmen verfügbar ist, in der Domäne überprüfen. Sie können die Schritte 1 bis 5 in einer beliebigen Reihenfolge ausführen. Die Schritte 6, 7 und 8 müssen jedoch wie in der Abbildung dargestellt nacheinander und nach den Schritten 1 bis 5 ausgeführt werden. Überprüfen der Topologie wird in Schritt 8 des 8.
+Nachdem Sie die Topologie veröffentlicht haben und die Systemkomponenten von Skype for Business Server auf jedem der Server in der Topologie installiert sind, können Sie überprüfen, ob die Topologie wie erwartet funktioniert. Dies umfasst die Überprüfung, ob die Konfiguration an alle Active Directory-Server weitergegeben wurde, damit die gesamte Domäne weiß, dass Skype for Business in der Domäne verfügbar ist. Sie können die Schritte 1 bis 5 in einer beliebigen Reihenfolge ausführen. Die Schritte 6, 7 und 8 müssen jedoch wie in der Abbildung dargestellt nacheinander und nach den Schritten 1 bis 5 ausgeführt werden. Die Überprüfung der Topologie ist Schritt 8 von 8.
   
 ![Übersichtsdiagramm.](../../media/c8698b53-1282-4978-a9a6-ca3f7a778f60.png)
   
 ## <a name="test-the-front-end-pool-deployment"></a>Testen der Front-End-Poolbereitstellung
 
-Der letzte Schritt besteht, testen den Front-End-Pool, und stellen Sie sicher, dass Skype für Business Clients miteinander kommunizieren kann. 
+Der letzte Schritt besteht darin, den Front-End-Pool zu testen und zu bestätigen, dass Skype for Business-Clients miteinander kommunizieren können. 
   
 ### <a name="add-users-and-verify-client-connectivity"></a>Hinzufügen von Benutzern und Überprüfen der Clientkonnektivität
 
-1. Verwenden Sie Active Directory-Computer und Benutzer hinzufügen, das Active Directory-Benutzerobjekt der Administratorrolle für die Skype für Business Server-Bereitstellung (auf dem Skype Business Server-Systemsteuerung installiert ist) der Gruppe **csadministrator hinzu** .
+1. Verwenden Sie Active Directory-Computer und-Benutzer zum Hinzufügen des Active Directory-Benutzerobjekts der Administratorrolle für die Skype for Business Server-Bereitstellung (auf der Skype for Business Server-Systemsteuerung installiert ist) zur **CSAdministrator** -Gruppe.
     
     > [!IMPORTANT]
-    > Wenn Sie nicht die entsprechenden Benutzer und Gruppen zur Gruppe CsAdministors hinzufügen, wird eine Fehlermeldung beim Öffnen von Skype Business Server-Systemsteuerung die liest, "nicht autorisiert: Zugriff verweigert aufgrund einer rollenbasierten Zugriffssteuerung (RBAC) Autorisierungsfehler ." 
+    > Wenn Sie die entsprechenden Benutzer und Gruppen nicht zur CsAdministors-Gruppe hinzufügen, erhalten Sie eine Fehlermeldung, wenn Sie die Skype for Business Server-Systemsteuerung öffnen, die lautet: "nicht autorisiert: Zugriff verweigert aufgrund eines Autorisierungs Fehlers bei der rollenbasierten Zugriffssteuerung (RBAC) ." 
   
 2. Wenn das Benutzerobjekt derzeit angemeldet ist, melden Sie es ab und wieder an, um die neue Gruppenzuweisung zu registrieren.
     
     > [!NOTE]
-    > Das Benutzerkonto darf nicht den lokalen Administrator eines Servers mit Skype für Business Server sein. 
+    > Das Benutzerkonto kann nicht der lokale Administrator eines Servers sein, auf dem Skype for Business Server ausgeführt wird. 
   
-3. Verwenden Sie das Administratorkonto zur Anmeldung bei dem Computer, auf dem Skype Business Server-Systemsteuerung installiert ist.
+3. Verwenden Sie das Administratorkonto, um sich bei dem Computer anzumelden, auf dem die Skype for Business Server-Systemsteuerung installiert ist.
     
-4. Starten Sie Skype Business Server-Systemsteuerung, und klicken Sie dann die Anmeldeinformationen Sie, wenn Sie aufgefordert werden. Skype für Business Server-Systemsteuerung zeigt Informationen zur Bereitstellung.
+4. Starten Sie die Skype for Business Server-Systemsteuerung, und geben Sie dann die Anmeldeinformationen ein, wenn Sie dazu aufgefordert werden. In der Skype for Business Server-Systemsteuerung werden Bereitstellungsinformationen angezeigt.
     
-5. In der linken Navigationsleiste auf **Topologie**, und stellen dann sicher, dass der Dienststatus auf einen Computer mit einem grünen Pfeil zeigt und für Replikationsstatus ein grünes Häkchen neben jedem Skype für Business Server-Rolle ist, die bereitgestellt und online geschaltet wurde. 
+5. Klicken Sie in der linken Navigationsleiste auf **Topologie**, und stellen Sie dann sicher, dass der Dienststatus einen Computer mit einem grünen Pfeil anzeigt und ein grünes Häkchen für den Replikationsstatus neben jeder Skype for Business-Server Rolle steht, die bereitgestellt und online geschaltet wurde. 
     
 6. Klicken Sie in der linken Navigationsleiste auf **Benutzer** und dann auf **Benutzer aktivieren**. 
     
-7. Klicken Sie auf der Seite **Neue Skype für Business Server-Benutzer** auf **Hinzufügen**.
+7. Klicken Sie auf der **neuen Skype for Business Server-Benutzer** Seite auf **Hinzufügen**.
     
 8. Wenn Sie Suchparameter für die zu ermittelnden Objekte definieren möchten, aktivieren Sie auf der Seite **Aus Active Directory auswählen** die Option **Suchen** und klicken Sie optional auf **Filter hinzufügen**. Alternativ können Sie auch die Option **LDAP-Suche** aktivieren und einen LDAP-Ausdruck eingeben, um die zurückgegebenen Objekte zu filtern oder einzuschränken. Klicken Sie auf **Suchen**, nachdem Sie die gewünschten Suchoptionen festgelegt haben.
     
 9. Wählen Sie im Bereich mit den Suchergebnissen alle hinzuzufügenden Benutzer aus und klicken Sie dann auf **OK**.
     
-10. Auf der Seite **Neue Skype für Business Server-Benutzer** sind in die Anzeige der **Benutzer** die Benutzer gewählte. In the **Assign users to a pool** list, select the server where the users should reside.
+10. Auf der **neuen Benutzerseite für Skype for Business Server** befinden sich die von Ihnen ausgewählten Benutzer in der Ansicht **Benutzer** . In the **Assign users to a pool** list, select the server where the users should reside.
     
     Im Folgenden finden Sie eine Liste der Optionen, die Sie zum Konfigurieren der Objekte verwenden können.
     
-    - **Generieren von SIP-URI des Benutzers**
+    - **SIP-URI des Benutzers generieren**
     
     - **Telefonie**
     
@@ -84,7 +84,7 @@ Der letzte Schritt besteht, testen den Front-End-Pool, und stellen Sie sicher, d
     
     - **Clientrichtlinie**
     
-    Um die grundlegenden Funktionen testen möchten, wählen Sie die Option, die Sie bevorzugen für die **SIP-URI des Benutzers generieren** -Einstellung (die anderen Optionen in der Standardeinstellungen Konfiguration verwenden), die und klicken Sie dann auf **Aktivieren**, wie in der Abbildung dargestellt.
+    Wenn Sie die grundlegenden Funktionen testen möchten, wählen Sie die gewünschte Option für die **SIP-URI-Einstellung des Benutzers generieren** aus (die anderen Optionen in der Konfiguration verwenden Standardeinstellungen), und klicken Sie dann auf **aktivieren**, wie in der Abbildung dargestellt.
     
      ![Aktivieren von Benutzern in der Systemsteuerung](../../media/7ee8717d-9a1f-4864-8f45-71071c88878f.png)
   
@@ -94,6 +94,6 @@ Der letzte Schritt besteht, testen den Front-End-Pool, und stellen Sie sicher, d
   
 12. Melden Sie einen Benutzer bei einem Computer an, der mit der Domäne verknüpft ist, und einen weiteren Benutzer bei einem anderen Computer in der Domäne.
     
-13. Installieren von Skype für Business-Client auf jedem den beiden Clientcomputern, und stellen Sie sicher, dass beide Benutzer sich zu Skype für Business Server anmelden können und Sofortnachrichten austauschen senden können.
+13. Installieren Sie den Skype for Business-Client auf jedem der beiden Clientcomputer, und stellen Sie dann sicher, dass sich beide Benutzer bei Skype for Business Server anmelden können und Sofortnachrichten senden können.
     
 

@@ -4,24 +4,24 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Falls Ihre Bereitstellung der Vorversion einen Archivierungsserver oder einen Monitoring Server nach der Migration zu Skype für Business Server 2019 enthalten, können dieser Server aus der vorgängerumgebung entfernt werden, sofern alle Benutzer aus den verbleibenden Pools Vorversion entfernt wurden. Sie können in eine beliebige Abfolge der Archivierungsserver oder Monitoring Server entfernen. Die wichtigste Anforderung ist, dass alle Benutzer aus den verbleibenden Pools Vorversion entfernt wurden.
-ms.openlocfilehash: 5a3a691c8f2e8a4ad3610ccf1ea947ce23b74111
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Wenn Ihre Legacy Bereitstellung einen Archivierungsserver oder einen Überwachungsserver enthielt, können nach der Migration zu Skype for Business Server 2019 diese Server aus der Legacyumgebung entfernt werden, vorausgesetzt, dass alle Benutzer aus allen verbleibenden Legacy Pools entfernt wurden. Sie können den Archivierungsserver oder den Monitoring Server in beliebiger Reihenfolge entfernen. Die wichtigste Anforderung ist, dass alle Benutzer aus allen verbleibenden Legacy Pools entfernt wurden.
+ms.openlocfilehash: 918e04bb42853f0203ae8a2a56db5e640985af99
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231423"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301125"
 ---
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>Entfernen von Archivierungsservern und Monitoring Servern der Vorversion
 
-Falls Ihre Bereitstellung der Vorversion einen Archivierungsserver oder einen Monitoring Server nach der Migration zu Skype für Business Server 2019 enthalten, kann dieser Server aus der vorgängerumgebung entfernt, vorausgesetzt, dass alle Benutzer aus den verbleibenden Pools Vorversion entfernt wurden. Sie können in eine beliebige Abfolge der Archivierungsserver oder Monitoring Server entfernen. Die wichtigste Anforderung ist, dass alle Benutzer aus den verbleibenden Pools Vorversion entfernt wurden.
+Wenn Ihre Legacy Bereitstellung einen Archivierungsserver oder einen Überwachungsserver enthielt, können nach dem Migrieren zu Skype for Business Server 2019 diese Server aus der Legacyumgebung entfernt werden, vorausgesetzt, dass alle Benutzer aus allen verbleibenden Legacy Pools entfernt wurden. Sie können den Archivierungsserver oder den Monitoring Server in beliebiger Reihenfolge entfernen. Die wichtigste Anforderung ist, dass alle Benutzer aus allen verbleibenden Legacy Pools entfernt wurden.
   
-Können Sie Benutzer zu wechseln Skype für Business Server 2019 gemäß die Verfahren in [Phase 4: Verschieben von Testbenutzern in den pilotpool](phase-4-move-test-users-to-the-pilot-pool.md).
+Sie können Benutzer zu Skype for Business Server 2019 verschieben, indem Sie die in Phase 4 beschriebenen Verfahren ausführen [: Verschieben von Testbenutzern in den Pilot Pool](phase-4-move-test-users-to-the-pilot-pool.md).
   
-Nachdem Sie sichergestellt haben, dass alle Benutzer aus den verbleibenden Pools, Decommision der Server entfernt wurden und Rollen zu entfernen. Ein Benutzer, aber relevant, Beispiel ist "Deinstallieren von Microsoft Lync Server und Entfernen von Serverrollen," die unter heruntergeladen werden kann [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkId=246227).
+Nachdem Sie bestätigt haben, dass alle Benutzer aus allen verbleibenden Pools entfernt wurden, decommision Sie den Server aus, und entfernen Sie Rollen. Ein datiertes, aber relevantes Beispiel ist "Deinstallieren von Microsoft lync Server und Entfernen von Serverrollen", das unter [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkId=246227)heruntergeladen werden kann.
   
 

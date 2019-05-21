@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/6/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.Dialin
@@ -13,17 +13,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
-description: Skype für einwahlkonferenzen Business Server 2015 ermöglicht Benutzern die Audiodaten in der eine Skype für Business Server 2015 Konferenz beitreten, indem Sie mit einem Telefon ein public switched Telephone Network, (PSTN) ohne einen Drittanbieter-Audiokonferenzen.
-ms.openlocfilehash: 2842667287b653b0e1e595625e78b2c7d986ac5c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype for Business Server 2015-Einwahlkonferenzen ermöglicht Benutzern die Teilnahme am Audioteil einer Skype for Business Server 2015-Konferenz mithilfe eines PSTN-Telefons (Public Switched Telephone Network), ohne dass ein Drittanbieter für Audiokonferenzen erforderlich ist.
+ms.openlocfilehash: 43df7e851ce51a169cd98dec1361872dee17282f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888114"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288656"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (Planning Tool)
  
-Skype für einwahlkonferenzen Business Server 2015 ermöglicht Benutzern die Audiodaten in der eine Skype für Business Server 2015 Konferenz beitreten, indem Sie mit einem Telefon ein public switched Telephone Network, (PSTN) ohne einen Drittanbieter-Audiokonferenzen.
+Skype for Business Server 2015-Einwahlkonferenzen ermöglicht Benutzern die Teilnahme am Audioteil einer Skype for Business Server 2015-Konferenz mithilfe eines PSTN-Telefons (Public Switched Telephone Network), ohne dass ein Drittanbieter für Audiokonferenzen erforderlich ist.
   
 Ausführliche Informationen zur Planung der Aktivierung von Einwahlkonferenzen in Ihrer Organisation finden Sie in diesem Thema und in den Themen, auf die es verweist: 
   

@@ -1,5 +1,5 @@
 ---
-title: Skype für Business Online Admin Center Benutzer Seite Einschränkungen
+title: Einschränkungen der Benutzerseite für Skype for Business Online Admin Center
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,28 +19,28 @@ f1keywords:
 - ms.lync.lac.UsersCountLimitationWarning
 ms.custom:
 - Setup
-description: 'Erfahren Sie, wie in den Einschränkungen des Skype für die Anzeige von Benutzern Business Online Admin arbeiten. '
-ms.openlocfilehash: 37ef56ff8301586fbdf22d21830e22ff235ca1df
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Hier erfahren Sie, wie Sie innerhalb der Einschränkungen der Anzeige von Benutzern durch den Skype for Business Online-Administrator arbeiten können. '
+ms.openlocfilehash: 17865b9f369b73d4133f95d0d61fe0010052f50a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238014"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285224"
 ---
-# <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Skype für Business Online Admin Center Benutzer Seite Einschränkungen
+# <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Einschränkungen der Benutzerseite für Skype for Business Online Admin Center
 
-Aus Gründen der Systemleistung zeigt die **Skype für Business-Verwaltungskonsole**die ersten 1.000 Benutzer in der Benutzerliste. Wenn Sie mehr als 1.000 Benutzer vorhanden sind, verwenden Sie **Filter**![Filter](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) , und **Suchen Sie**![Suche](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) bestimmten Personen suchen Sie suchen.
+Aus Leistungsgründen zeigt das **Skype for Business Admin Center**die ersten 1.000-Benutzer in ihrer Benutzerliste an. Wenn Sie über mehr als 1.000 Benutzer verfügen, ****![verwenden Sie](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) Filter Filter und](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) **Such**![suchen, um die gewünschten Personen zu finden.
   
 ## <a name="bulk-editing"></a>Massenbearbeitung
 <a name="__top"> </a>
 
-1. Wählen Sie die ersten 1.000 Benutzer – oder jeder von der Filter oder in den zurückgegebenen – das Kontrollkästchen neben **Anzeigename** am Anfang der Liste.
+1. Wählen Sie die ersten 1.000-Benutzer – oder alle von Ihrem Filter oder Ihrer Suche zurückgegebenen – aus, indem Sie das Kontrollkästchen neben **Anzeigename** oben in der Liste markieren.
     
-2. Klicken Sie auf **Bearbeiten**![bearbeiten](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+2. Klicken Sie auf](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)bearbeiten bearbeiten. ****![
     
-Sie können die Anzahl der Benutzer, die auf jeder Seite mit dem Steuerelement am unteren Rand der Liste dargestellt ändern:
+Sie können die Anzahl der Benutzer, die auf jeder Seite angezeigt werden, mit dem Steuerelement unten in der Liste ändern:
   
-![Benutzern die Seitennavigation zum Ändern der Anzahl von Benutzern auf der Seite](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
+![Navigation der Benutzerseite zum Ändern der Anzahl der Benutzer auf der Seite](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
 ## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)

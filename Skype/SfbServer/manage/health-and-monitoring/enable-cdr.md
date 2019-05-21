@@ -1,25 +1,25 @@
 ---
-title: Aktivieren Sie die Aufzeichnung von kommunikationsdatensätzen in Skype für Business Server
+title: Aktivieren der Anrufdetailaufzeichnung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: 'Zusammenfassung: Erfahren Sie, wie die Aufzeichnung von kommunikationsdatensätzen (CDR) Datensätze in Skype für Business Server aktivieren.'
-ms.openlocfilehash: 40bd7bed0775652c2365da6f0a461e95db7968ac
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Datensätze für die Anrufdetailaufzeichnung in Skype for Business Server aktivieren.'
+ms.openlocfilehash: 64a6e7d8d0e633fb3ef4e440932226f1f6f9c11a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884987"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305703"
 ---
-# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Aktivieren Sie die Aufzeichnung von kommunikationsdatensätzen in Skype für Business Server
+# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Aktivieren der Anrufdetailaufzeichnung in Skype for Business Server
 
-**Zusammenfassung:** Erfahren Sie, wie die Aufzeichnung von kommunikationsdatensätzen (CDR) Datensätze in Skype für Business Server aktivieren.
+**Zusammenfassung:** Erfahren Sie, wie Sie in Skype for Business Server Datensätze für die Anrufdetailaufzeichnung (CDR) aktivieren.
 
 Bei der Aufzeichnung von Kommunikationsdatensätzen werden Nutzungs- und Diagnoseinformationen über Peer-to-Peer-Aktivitäten aufgezeichnet, z. B. Chat, VoIP-Anrufe (Voice over Internet Protocol), Anwendungsfreigabe, Dateiübertragung und Besprechungen. Anhand der Nutzungsdaten kann die Rendite berechnet werden und die Diagnosedaten können zur Problembehandlung bei Peer-to-Peer-Aktivitäten und Besprechungen eingesetzt werden.
 
@@ -28,11 +28,11 @@ Verwenden Sie das folgende Verfahren, um die Aufzeichnung von Kommunikationsdate
 > [!NOTE]
 > Zur Aktivierung von KDS müssen Sie die Überwachung und eine Überwachungsdatenbank konfigurieren. Ausführliche Informationen finden Sie unter [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).
 
-### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>So aktivieren Sie KDS mit Skype für Business Server-Systemsteuerung
+### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>So aktivieren Sie CDR mit der Skype for Business Server-Systemsteuerung
 
-1.  Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist .
+1.  Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder über entsprechende Benutzerrechte verfügt) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, bei jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben. .
 
-2. Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL, um die Skype Business Server-Systemsteuerung zu öffnen.
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen.
 
 3. Klicken Sie in der linken Navigationsleiste auf **Überwachung und Archivierung** und dann auf **Aufzeichnung von Kommunikationsdatensätzen**.
 
@@ -41,9 +41,9 @@ Verwenden Sie das folgende Verfahren, um die Aufzeichnung von Kommunikationsdate
     > [!NOTE]
     > KDS ist standardmäßig aktiviert.
 
-## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Aktivieren KDS mithilfe von Windows PowerShell-cmdlets
+## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Aktivieren von CDR mithilfe von Windows PowerShell-Cmdlets
 
-Sie können KDS aktivieren, mithilfe von Windows PowerShell und das **Set-CsCdrConfiguration** -Cmdlet. Sie können dieses Cmdlet entweder von der Skype für Business Server-Verwaltungsshell oder aus einer Remotesitzung von Windows PowerShell ausführen. Weitere Informationen zur Verwendung von remote Windows PowerShell zum Skype für Business Server herstellen finden Sie im Blog-Artikel ["Quick Start: Verwalten von Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). Der Vorgang ist in Skype für Business Server identisch.
+Sie können CdR mithilfe von Windows PowerShell und dem Cmdlet " **Satz-CsCdrConfiguration** " aktivieren. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen. Details zur Verwendung der Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blog-Artikel ["schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von Remote-PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). Der Vorgang ist in Skype for Business Server identisch.
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>So aktivieren Sie KDS für einen einzelnen Standort
 
@@ -69,7 +69,7 @@ Sie können KDS aktivieren, mithilfe von Windows PowerShell und das **Set-CsCdrC
   Get-CsCdrConfiguration | Set-CsCdrConfiguration "site:Redmond" -EnableCDR $True
   ```
 
-Weitere Informationen finden Sie im Hilfethema zum [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) -Cmdlet.
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet " [Satz-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) ".
 
 ## <a name="see-also"></a>Siehe auch
 

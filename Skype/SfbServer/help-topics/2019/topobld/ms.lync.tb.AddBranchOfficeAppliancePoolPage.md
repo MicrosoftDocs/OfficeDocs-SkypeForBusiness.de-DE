@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddBranchOfficeAppliancePoolPage
@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
 ROBOTS: NOINDEX, NOFOLLOW
-description: Um den FQDN der Survivable Branch Appliance zu definieren, geben Sie den vollqualifizierten Domänennamen (FQDN) (wie in Domain Name System (DNS) definiert) der Survivable Branch Appliance oder einen Survivable Branch Server in das Textfeld FQDN. Klicken Sie auf Weiter, um fortzufahren.
-ms.openlocfilehash: be3a1d26e9916876de57f08032e53c46d4539dd6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Geben Sie zum Definieren des FQDN der Survivable Branch Appliance den vollqualifizierten Domänennamen (Fully Qualified Domain Name, Domain Name System, DNS) der Survivable Branch Appliance oder des Survivable Branch Servers im Textfeld "FQDN" ein. Klicken Sie auf Weiter, um fortzufahren.
+ms.openlocfilehash: 422e509d011fcecfea8a35fa2a9d72034686908a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889325"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288150"
 ---
 # <a name="add-survivable-branch-appliance-pool"></a>Hinzufügen eines Survivable Branch Appliance-Pools
  
-Geben Sie mit **den FQDN der Survivable Branch Appliance definieren**den vollqualifizierten Domänennamen (FQDN) (wie in Domain Name System (DNS) definiert) der Survivable Branch Appliance oder einen Survivable Branch Server in das Textfeld **FQDN** . Klicken Sie auf **Weiter**, um fortzufahren.
+Geben Sie zum **Definieren des FQDN der Survivable Branch Appliance**den vollqualifizierten Domänennamen (Fully Qualified Domain Name, Domain Name System, DNS) der Survivable Branch Appliance oder des Survivable Branch Servers im Textfeld " **FQDN** " ein. Klicken Sie auf **Weiter**, um fortzufahren.
   
 > [!NOTE]
-> Sofern nicht anders angegeben, ist das Definieren einer Survivable Branch Appliance oder einen Survivable Branch Server die gleiche Prozedur. 
+> Sofern nicht anders angegeben, ist die Definition einer Survivable Branch-Appliance oder eines Überlebenden Verzweigungs Servers dasselbe Verfahren. 
   
 

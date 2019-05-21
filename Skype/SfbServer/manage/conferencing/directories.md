@@ -1,27 +1,27 @@
 ---
-title: Erstellen von konferenzverzeichnisse in Skype für Business Server
+title: Erstellen von Konferenz Verzeichnissen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
-description: 'Zusammenfassung: Erfahren Sie, wie konferenzverzeichnisse in Skype Business Server erstellen.'
-ms.openlocfilehash: 62e632126ab7fb5ac812593f78031c0825bb36ca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie in Skype for Business Server Konferenzverzeichnisse erstellen.'
+ms.openlocfilehash: d2962e7e01ba5bb73ce82de9b5c0ff85550fbe99
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919388"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306496"
 ---
-# <a name="create-conference-directories-in-skype-for-business-server"></a>Erstellen von konferenzverzeichnisse in Skype für Business Server
+# <a name="create-conference-directories-in-skype-for-business-server"></a>Erstellen von Konferenz Verzeichnissen in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie konferenzverzeichnisse in Skype Business Server erstellen.
+**Zusammenfassung:** Informationen zum Erstellen von Konferenz Verzeichnissen in Skype for Business Server.
   
-Konferenzverzeichnisse verwalten eine Zuordnung zwischen alphanumerische besprechungs-ID, die ein Teilnehmer an einer Konferenz teilnehmen, bei Verwendung von Skype für Unternehmen verwendet und die numerische Konferenz-ID, einwahlkonferenzen Teilnehmer an der Konferenz teilnehmen. 
+Konferenzverzeichnisse verwalten eine Zuordnung zwischen der alphanumerischen Besprechungs-ID, die ein Teilnehmer für die Teilnahme an einer Konferenz bei Verwendung von Skype for Business verwendet, und der numerischen Konferenz-ID, die ein Teilnehmer für Einwahlkonferenzen verwendet, um an der Konferenz teilzunehmen. 
   
 ## <a name="create-a-conference-directory"></a>Ein Konferenzverzeichnis erstellen
 

@@ -5,18 +5,18 @@ author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 4/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: Dieser Artikel erläutert die bekannten Probleme für Microsoft Teams Rooms nach Funktionsbereich.
-ms.openlocfilehash: c6ddaf11e0104c0de85c46b1369613ef365ede7d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 91e90479efdf905705d217de75cdac744a773860
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916513"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306518"
 ---
 # <a name="known-issues"></a>Bekannte Probleme 
  
@@ -59,7 +59,8 @@ Wenn die Vertrauensstellung zwischen Ihrem Microsoft Teams Rooms-Gerät und der 
 ***
 Die 64-Bit-Version von Windows 10 Enterprise Anniversary Edition (Englisch, Version 1607) wird seit der Microsoft Teams Rooms-Version 3.0.12.0 nicht mehr unterstützt. 
 ***
-
+Microsoft Teams Room ist eine Multi-Window-Anwendung und erfordert eine Front-Room-Anzeige, um mit dem HDMI-Anschluss des Geräts verbunden zu werden, damit die APP ordnungsgemäß funktioniert. Stellen Sie sicher, dass entweder ein HDMI-Display angeschlossen ist, oder verwenden Sie einen Dummy-HDMI-Stecker, wenn Sie testen und noch kein Display gekauft haben.
+***
 <a name="See"> </a>  
 ## <a name="see-also"></a>Siehe auch
 

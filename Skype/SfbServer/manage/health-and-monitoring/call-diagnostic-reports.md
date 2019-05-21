@@ -1,42 +1,42 @@
 ---
-title: Anrufdiagnoseberichte in Skype für Business Server
+title: Anruf Diagnoseberichte in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
-description: 'Zusammenfassung: Erfahren Sie mehr über die Rückschreiben durch mehrere Benutzer Anrufdiagnoseberichte in Skype für Business Server verwendet wird.'
-ms.openlocfilehash: 95bc7b67b1ff2c15fb1e87fb11d3e93f154081b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Informationen zu den in Skype for Business Server verwendeten Multi-User-Anruf Diagnoseberichten.'
+ms.openlocfilehash: bd7205afcc6bb37f336b52a6f33c6f2265d151bd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903348"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289364"
 ---
-# <a name="call-diagnostic-reports-in-skype-for-business-server"></a>Anrufdiagnoseberichte in Skype für Business Server
+# <a name="call-diagnostic-reports-in-skype-for-business-server"></a>Anruf Diagnoseberichte in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Rückschreiben durch mehrere Benutzer Anrufdiagnoseberichte in Skype für Business Server verwendet.
+**Zusammenfassung:** Informieren Sie sich über die in Skype for Business Server verwendeten Multi-User-Anruf Diagnoseberichte.
   
 Die Anrufdiagnoseberichte enthalten zusammenfassende Informationen und Diagnosedaten für nicht erfolgreich ausgeführte Peer-to-Peer-Sitzungen und Konferenzsitzungen.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [Zusammenfassender anrufdiagnosebericht in Skype für Business Server](summary-report.md) Bietet eine allgemeine Übersicht über fehlgeschlagenen Peer-zu-Peer-Sitzungen und konferenzsitzungen. Peer-to-Peer-Sitzungen sind Sitzungen mit nur zwei Teilnehmern. Bei Konferenzsitzungen nehmen mindestens drei Teilnehmer teil.
+- [Anruf Diagnose Zusammenfassungsbericht in Skype for Business Server](summary-report.md) Bietet eine Gesamtübersicht über fehlgeschlagene Peer-to-Peer-Sitzungen und Konferenzsitzungen. Peer-to-Peer-Sitzungen sind Sitzungen mit nur zwei Teilnehmern. Bei Konferenzsitzungen nehmen mindestens drei Teilnehmer teil.
     
-- [Diagnosebericht über Peer-zu-Peer-Aktivitäten in Skype für Business Server](peer-to-peer-activity-diagnostic-report.md) Bietet eine allgemeine Übersicht Trend der fehlgeschlagenen Peer-zu-Peer-Sitzungen. Bei einer Peer-to-Peer-Sitzung sind nur zwei Teilnehmer beteiligt.
+- [Diagnosebericht zur Peer-to-Peer-Aktivität in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md) Bietet eine allgemeine trendansicht für fehlerhafte Peer-to-Peer-Sitzungen. Bei einer Peer-to-Peer-Sitzung sind nur zwei Teilnehmer beteiligt.
     
-- [Diagnosebericht Konferenz in Skype für Business Server](conference-diagnostic-report.md) Bietet eine allgemeine Übersicht Trend der fehlgeschlagenen Sitzungen und Trend Ansichten für jede Konferenz Modalität angegeben werden. Bei Konferenzsitzungen sind mindestens drei Teilnehmer beteiligt.
+- [Konferenz Diagnosebericht in Skype for Business Server](conference-diagnostic-report.md) Bietet eine allgemeine trendansicht von fehlgeschlagenen Konferenzsitzungen und Trend Ansichten für die einzelnen Konferenz Modalitäten. Bei Konferenzsitzungen sind mindestens drei Teilnehmer beteiligt.
     
-- [Bericht über häufigste Fehler in Skype für Business Server](top-failures-report.md) Enthält eine Liste der häufigsten Fehler und deren Trends über einen Zeitraum.
+- [Bericht "Top-Fehler" in Skype for Business Server](top-failures-report.md) Enthält eine Liste der häufigsten Fehler und deren Trends im Laufe der Zeit.
     
-- [Bericht über fehlerverteilung in Skype für Business Server](failure-distribution-report.md) Enthält eine Analyse der fehlerhaften Sitzungen.
+- [Bericht zur Fehlerverteilung in Skype for Business Server](failure-distribution-report.md) Bietet eine Analyse fehlerhafter Sitzungen.
     
-- [Failure List Report in Skype für Business Server](failure-list-report.md) Enthält ausführliche Informationen über die einzelnen Teilnehmer an einer fehlerhaften Konferenz.
+- [Bericht zur Fehlerliste in Skype for Business Server](failure-list-report.md) Enthält detaillierte Informationen zu den einzelnen Teilnehmern, die an einer fehlgeschlagenen Konferenz beteiligt sind.
     
-- [Diagnosebericht in Skype für Business Server](diagnostic-report.md) Enthält Diagnose- und Problembehandlungsinformationen (einschließlich der SIP-Antwortcodes sowie diagnoseheader und IDs) der fehlerhaften Sitzungen.
+- [Diagnosebericht in Skype for Business Server](diagnostic-report.md) Bietet Diagnose-und Problembehandlungsinformationen (einschließlich SIP-Antwortcodes und Diagnose Kopfzeilen und-IDs) für fehlerhafte Sitzungen.
     
 

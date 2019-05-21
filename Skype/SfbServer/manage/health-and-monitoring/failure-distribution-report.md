@@ -1,25 +1,25 @@
 ---
-title: Bericht über fehlerverteilung in Skype für Business Server
+title: Bericht zur Fehlerverteilung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: 'Zusammenfassung: Informationen Sie zu den Bericht über Fehlerverteilung in Skype für Business Server.'
-ms.openlocfilehash: 1517509de09cd99f03271dccf9a4c78ba1d2d5ef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Informationen zum Fehler Verteilungs Bericht in Skype for Business Server.'
+ms.openlocfilehash: d9e7d2ac0ff10743c69bee665be3878ac9009933
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912078"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305696"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>Bericht über fehlerverteilung in Skype für Business Server
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>Bericht zur Fehlerverteilung in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Bericht über Fehlerverteilung in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den Bericht zur Fehlerverteilung in Skype for Business Server.
   
 Der Bericht über Fehlerverteilung ordnet Sitzungen, bei denen ein Fehler aufgetreten ist, in folgende Kategorien ein:
   
@@ -45,13 +45,13 @@ Anhand dieser Kategorien können Sie genau bestimmen, wo ein Problem aufgetreten
 
 Sie können auf den Bericht über Fehlerverteilung von einem der folgenden Berichte zugreifen, indem Sie entweder auf die Metrik **Anzahl der erwarteten Fehler** oder **Anzahl der unerwarteten Fehler** klicken:
   
-- [Bericht über häufigste Fehler in Skype für Business Server](top-failures-report.md)
+- [Bericht "Top-Fehler" in Skype for Business Server](top-failures-report.md)
     
-- [Diagnosebericht Konferenz in Skype für Business Server](conference-diagnostic-report.md)
+- [Konferenz Diagnosebericht in Skype for Business Server](conference-diagnostic-report.md)
     
-- [Diagnosebericht über Peer-zu-Peer-Aktivität in Skype für Business Server](peer-to-peer-activity-diagnostic-report.md)
+- [Diagnosebericht zur Peer-to-Peer-Aktivität in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)
     
-Der Bericht über Fehlerverteilung können Sie eine der folgenden Metriken [Failure List Report in Skype für Business Server](failure-list-report.md)anzeigen klicken:
+Im Bericht Fehlerverteilung können Sie auf eine der folgenden Metriken klicken, um den [Bericht Fehlerliste in Skype for Business Server](failure-list-report.md)anzuzeigen:
   
 - Wichtigste Diagnosegründe (Sitzungen)
     
@@ -128,9 +128,9 @@ In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen 
 
 |**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
-|**Rang** <br/> |Nein  <br/> |Relative Rangordnung der fehlgeschlagenen Sitzungen basierend auf dem Registrar-Pool oder Edge-Server, auf dem die Sitzung abgehalten wurde.  <br/> |
-|**Häufigste Pools** <br/> |Nein  <br/> |Name des Registrar-Pools oder Edgeservers.  <br/> |
-|**Sitzungen** <br/> |Nein  <br/> |Gesamtanzahl der fehlgeschlagenen Sitzungen pro Registrar-Pool oder Edge-Server.  <br/> |
+|**Rang** <br/> |Nein  <br/> |Relative Rangfolge der fehlgeschlagenen Sitzungen auf Grundlage des registrierungspools oder des Edge-Servers, auf dem die Sitzung ausgeführt wurde.  <br/> |
+|**Häufigste Pools** <br/> |Nein  <br/> |Der Name des registrierungspools oder des Edge-Servers.  <br/> |
+|**Sitzungen** <br/> |Nein  <br/> |Die Gesamtzahl der fehlgeschlagenen Sitzungen pro Registrierungspool oder Edgeserver.  <br/> |
    
 ## <a name="metrics-for-top-sources"></a>Metriken für die wichtigsten Quellen
 
@@ -152,7 +152,7 @@ In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen 
 
 |**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
-|**Rang** <br/> |Nein  <br/> |Relative Rangordnung der fehlgeschlagenen Sitzungen basierend auf Komponente (z. B. ExumRouting, Gruppenchat oder MediationServer).  <br/> |
+|**Rang** <br/> |Nein  <br/> |Relative Rangfolge der fehlgeschlagenen Sitzungen basierend auf der Komponente (beispielsweise ExumRouting, GroupChat oder MediationServer).  <br/> |
 |**Häufigste Komponenten** <br/> |Nein  <br/> |Name der für die fehlgeschlagene Sitzung verwendeten Komponente.  <br/> |
 |**Sitzungen** <br/> |Nein  <br/> |Gesamtanzahl der fehlgeschlagenen Sitzungen pro Komponente.  <br/> |
    

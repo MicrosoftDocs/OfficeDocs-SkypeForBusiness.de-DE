@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.FrontEndServersScopeNode
@@ -12,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Der Enterprise Edition-Front-End-Pools Knoten enthält die Front-End-Pools an diesem Standort und die Knoten Standard Edition-Front-End-Server führt die Standard Edition-Servern an diesem Standort. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 676bbbd74153842e4517a2acba667c2eeaa5cbac
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Der Knoten Enterprise Edition-Front-End-Pools listet die Front-End-Pools auf dieser Website auf, und die Standard Edition-Front-End-Serverknoten listet die Standard Edition-Server auf dieser Website auf. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: bfa2d36322fa868e0ba55dce62cee35cb3c7150a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919830"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306018"
 ---
 # <a name="front-end-servers-scope-node"></a>Front-End-Server – Bereichsknoten
  

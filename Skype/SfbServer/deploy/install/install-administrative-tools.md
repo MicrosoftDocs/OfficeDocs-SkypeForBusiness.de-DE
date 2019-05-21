@@ -1,11 +1,11 @@
 ---
-title: Installieren der Verwaltungstools in Skype für Business Server
+title: Installieren von Verwaltungstools in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 7/14/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,67 +14,67 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
-description: 'Zusammenfassung: Informationen Sie zum Installieren der erforderlichen für eine Installation von Skype für Business Server administrative Tools. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: cb5e1766ca4e0b7d6ad03db2004835e1a51d52cd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Verwaltungstools installieren, die für die Installation von Skype for Business Server erforderlich sind. Laden Sie eine ﻿kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverCenter unter: herunter.'
+ms.openlocfilehash: b700180a18cf7fcac3cb0353ff302edd1ed78584
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891831"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306612"
 ---
-# <a name="install-administrative-tools-in-skype-for-business-server"></a>Installieren der Verwaltungstools in Skype für Business Server
+# <a name="install-administrative-tools-in-skype-for-business-server"></a>Installieren von Verwaltungstools in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zum Installieren der erforderlichen für eine Installation von Skype für Business Server administrative Tools. Laden Sie eine kostenlose Testversion von Skype für Business Server aus dem Microsoft Evaluation Center herunter: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Zusammenfassung:** Hier erfahren Sie, wie Sie die Verwaltungstools installieren, die für die Installation von Skype for Business Server erforderlich sind. Laden Sie eine ﻿kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)Center unter: herunter.
   
-Zu den Verwaltungstools gehören der Topologie-Generator und die Systemsteuerung. Auf mindestens einem Server in der Topologie oder einem 64-Bit-Verwaltungscomputer auf dem eine Windows-Betriebssystem-Version, die für Skype für Business Server unterstützt wird, müssen die Verwaltungstools installiert werden. Sie können die Schritte 1 bis 5 in einer beliebigen Reihenfolge ausführen. Die Schritte 6, 7 und 8 müssen jedoch wie in der Abbildung dargestellt nacheinander und nach den Schritten 1 bis 5 ausgeführt werden. Die Installation der Verwaltungstools wird in Schritt 3 beschrieben.
+Zu den Verwaltungstools gehören der Topologie-Generator und die Systemsteuerung. Die Verwaltungstools müssen auf mindestens einem Server in der Topologie oder auf einer 64-Bit-Verwaltungsarbeitsstation installiert sein, auf der eine Windows-Betriebssystemversion ausgeführt wird, die für Skype for Business Server unterstützt wird. Sie können die Schritte 1 bis 5 in einer beliebigen Reihenfolge ausführen. Die Schritte 6, 7 und 8 müssen jedoch wie in der Abbildung dargestellt nacheinander und nach den Schritten 1 bis 5 ausgeführt werden. Die Installation der Verwaltungstools wird in Schritt 3 beschrieben.
   
 ![Übersichtsdiagramm](../../media/d856afe8-4758-432f-bc45-e1956016419a.png)
   
-## <a name="install-skype-for-business-server-administrative-tools"></a>Skype für Business Server-Verwaltungstools installieren
+## <a name="install-skype-for-business-server-administrative-tools"></a>Installieren von Skype for Business Server-Verwaltungstools
 
-Das Installationsmedium für Skype für Business Server bietet flexible. Beim Ausführen von Setup.exe sind die einzigen Tools installiert die Skype für Business Server-Bereitstellungs-Assistenten und den Skype für Business Server-Verwaltungsshell. Mithilfe dieser zwei Tools, bezeichnet als Hauptkomponenten, können Sie den Installationsvorgang fortsetzen, aber sie bieten keine primäre Funktionalität für die allgemeine Skype für Business Server-Umgebung. Der Bereitstellungs-Assistent wird nach Installation der Hauptkomponenten automatisch gestartet. Im Abschnitt des Bereitstellungs-Assistenten mit dem Titel **Verwaltungstools installieren** installiert Skype für Business Server-Topologie-Generator und Skype Business Server-Systemsteuerung.
+Das Installationsmedium für Skype for Business Server bietet eine flexible Funktionalität. Beim ersten Ausführen von Setup. exe sind die einzigen installierten Tools der Skype for Business Server-Bereitstellungs-Assistent und die Skype for Business Server-Verwaltungsshell. Durch die Verwendung dieser beiden Tools, so genannten Core-Komponenten, können Sie den Installationsvorgang fortsetzen, Sie bieten jedoch keine primäre Funktionalität für die gesamte Skype for Business Server-Umgebung. Der Bereitstellungs-Assistent wird nach Installation der Hauptkomponenten automatisch gestartet. Der Abschnitt des Bereitstellungs-Assistenten mit dem Titel **install Administration Tools** installiert den Skype for Business Server Topology Builder und die Skype for Business Server-Systemsteuerung.
   
 > [!IMPORTANT]
-> Jeder Skype für Business Server-Umgebung benötigen Sie mindestens einen Server mit die Verwaltungstools installiert sind. 
+> Jede Skype for Business Server-Umgebung muss mindestens einen Server besitzen, auf dem die Verwaltungstools installiert sind. 
   
 Schauen Sie sich das Video mit den Schritten zum **Installieren von Verwaltungstools** an:
   
 > [!video https://www.microsoft.com/en-us/videoplayer/embed/99a5c436-963b-4eed-b423-651568c87cb1?autoplay=false]
   
-### <a name="install-skype-for-business-server-administrative-tools-from-the-deployment-wizard"></a>Installieren Sie Skype für Business Server-Verwaltungstools aus den Bereitstellungs-Assistenten
+### <a name="install-skype-for-business-server-administrative-tools-from-the-deployment-wizard"></a>Installieren von Skype for Business Server-Verwaltungstools aus dem Bereitstellungs-Assistenten
 
-1. Legen Sie die Skype für Business Server-Installationsmedien. Wenn das Setup nicht automatisch startet, doppelklicken Sie auf **Setup**.
+1. Legen Sie das Skype for Business Server-Installationsmedium ein. Wenn das Setup nicht automatisch startet, doppelklicken Sie auf **Setup**.
     
 2. Das Installationsmedium erfordert zur Ausführung Microsoft Visual C++. Es wird ein Dialogfeld angezeigt, in dem gefragt wird, ob Sie es installieren möchten. Klicken Sie auf **Ja**.
     
-3. Mithilfe der Smart-Setup ein neues Feature in Skype für Business Server können Sie mit dem Internet während der Installation nach Updates suchen verbinden. Dies ist benutzerfreundlicher, da sichergestellt wird, dass Sie bei der Installation die aktuellen Updates zur Verfügung haben. Klicken Sie auf **Installieren**, um mit der Installation zu beginnen.
+3. Durch die Verwendung von Smart Setup, einer neuen Funktion in Skype for Business Server, können Sie eine Verbindung mit dem Internet herstellen, um während des Installationsvorgangs nach Updates zu suchen. Dies ist benutzerfreundlicher, da sichergestellt wird, dass Sie bei der Installation die aktuellen Updates zur Verfügung haben. Klicken Sie auf **Installieren**, um mit der Installation zu beginnen.
     
 4. Lesen Sie die Lizenzbedingungen sorgfältig durch und klicken Sie auf **Ich stimme den Lizenzbedingungen zu**, wenn Sie diesen zustimmen. Klicken Sie dann auf **OK**.
     
-5. Die Skype für Business Server Core-Komponenten wird auf dem Server installiert. 
+5. Die Skype for Business Server-Core-Komponenten werden auf dem Server installiert. 
     
     Die Hauptkomponenten werden in der Abbildung gezeigt.
     
     ![Hauptkomponenten auf dem Apps-Bildschirm.](../../media/0da1d983-4c4b-4b23-a196-c3bdba4857c6.png)
   
-   - **Skype für Business Server-Bereitstellungs-Assistenten** Eine Bereitstellung-Programm, das ein Launch Pad enthält, für die verschiedenen Komponenten von Skype für Business Server installieren.
+   - **Skype for Business Server** -Bereitstellungs-Assistent Ein Bereitstellungsprogramm, das eine Startrampe zum Installieren der verschiedenen Komponenten von Skype for Business Server bietet.
     
-   - **Skype für Business Server-Verwaltungsshell** Eine vorkonfigurierte PowerShell-Programm, das für die Verwaltung von Skype für Business Server ermöglicht.
+   - **Skype for Business Server-Verwaltungsshell** Ein vorkonfiguriertes PowerShell-Programm, das die Verwaltung von Skype for Business Server ermöglicht.
     
-     Nach Abschluss die Installation der Kernkomponenten wird die Skype für Business Server Installations-Assistent automatisch gestartet, wie in der Abbildung dargestellt. 
+     Nachdem die Installation der Kernkomponenten abgeschlossen ist, wird der Skype for Business Server-Bereitstellungs-Assistent automatisch gestartet, wie in der Abbildung dargestellt. 
     
      ![Skype for Business Server-Bereitstellungsassistent](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
   
-6. Zusätzlich zu den Hauptkomponenten müssen Sie auch Skype für Business Server-Topologie-Generator und Skype Business Server-Systemsteuerung auf mindestens einem Server in der Umgebung zu installieren. Klicken Sie im Bereitstellungs-Assistenten auf **Verwaltungstools installieren**.
+6. Zusätzlich zu den Kernkomponenten müssen Sie auch den Skype for Business Server Topology Builder und die Skype for Business Server-Systemsteuerung auf mindestens einem Server in der Umgebung installieren. Klicken Sie im Bereitstellungs-Assistenten auf **Verwaltungstools installieren**.
     
 7. Klicken Sie auf **Weiter**, um den Installationsvorgang zu starten.
     
 8. Wenn die Installation abgeschlossen ist, klicken Sie auf **Fertig stellen**. Die Verwaltungstools wurden nun dem Server hinzugefügt (siehe Abbildung).
     
-    ![Skype für Business Server-Verwaltungstools](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
+    ![Skype for Business Server-Verwaltungs Tools](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
   
-   - **Skype für Business Server-Topologie-Generator** Ein Programm, das zum Erstellen, bereitstellen und Verwalten von Topologien verwendet.
+   - **Skype for Business Server-Topologie-Generator** Ein Programm, das zum Erstellen, bereitstellen und Verwalten von Topologien verwendet wird.
     
-   - **Skype für Business Server-Systemsteuerung** Ein Programm verwendet, um die Installation zu verwalten.
+   - **Skype for Business Server-System** Steuerung Ein Programm, das zum Verwalten der Installation verwendet wird.
     
 

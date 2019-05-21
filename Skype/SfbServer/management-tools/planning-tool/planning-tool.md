@@ -5,39 +5,39 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
-description: Anleitung zur Verwendung der Skype für Business Server 2015-Planungstool.
-ms.openlocfilehash: 674b4b9ef2825c2e8776cdfa32dc5b413f2962cd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Leitfaden zur Verwendung des Skype for Business Server 2015-Planungstools.
+ms.openlocfilehash: b130ca05200ea30bed8008399050affa96438644
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914177"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288950"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server 2015 – Planungstool
  
-Anleitung zur Verwendung der Skype für Business Server 2015-Planungstool.
+Leitfaden zur Verwendung des Skype for Business Server 2015-Planungstools.
   
-Die Skype für Business Server 2015 Planungstool ist ein Assistent gesteuerte, Interview-ähnlichen Tool, das Fragen zu den Skype für Business Server 2015 Topologie gefragt werden, den Sie entwerfen. Das Planungstool verwendet die Informationen bereitgestellt, gekoppelt mit bevorzugten Methoden für das Entwerfen der Topologie und Kapazität ist eine empfohlene Topologie basierend auf der angegebenen Antworten präsentieren. Sie können das Planungstool aus der [Skype für Business Server 2015-Planungstool](https://go.microsoft.com/fwlink/p/?LinkID=282725)herunterladen.
+Das Planungstool für Skype for Business Server 2015 ist ein Assistenten gesteuertes, Interview ähnliches Tool, das Fragen zur von Ihnen entworfenen Skype for Business Server 2015-Topologie stellt. Das Planungs Tool verwendet die bereitgestellten Informationen in Verbindung mit den bevorzugten Methoden für Topologie-Design und-Kapazität, um eine empfohlene Topologie basierend auf den bereitgestellten Antworten darzustellen. Sie können das Planungstool über das [Planungstool für Skype for Business Server 2015](https://go.microsoft.com/fwlink/p/?LinkID=282725)herunterladen.
   
-Schließlich wird das Ziel des Planungstool zur Vereinfachung der potenziellen Komplexität einer vollständigen Skype für Business Server 2015 Topologie zu entwerfen. Das Tool bietet auch kontextbezogene Verweise auf die Dokumentation zur Planung und Bereitstellung innerhalb des Tools, vorausgesetzt, dass eine Internetverbindung Verbindung mit der Microsoft-Website verfügbar ist.
+Das Ziel des Planungstools besteht letztendlich darin, die potenzielle Komplexität beim Entwerfen einer vollständigen Skype for Business Server 2015-Topologie zu verringern. Das Tool enthält auch kontextbezogene Verweise auf die Planungs-und Bereitstellungsdokumentation im Tool, vorausgesetzt, es steht eine Internet Verbindung für die Verbindung mit der Microsoft-Website zur Verfügung.
   
-Nach der Anpassung der Topologie an die Infrastruktur TCP/IP-Adressen und vollständig qualifizierten Domänennamen (FQDNs) zur Verfügung Planungstool eine Reihe von Berichten, die Benennung Domain Name System (DNS), Firewall-Regeln, Zertifikate und vieles mehr zu behandeln. 
+Nach dem Anpassen der Topologie mit den TCP/IP-Adressen der Infrastruktur und den vollqualifizierten Domänennamen (FQDNs) stellt das Planungs Tool eine Reihe von Berichten zur Verfügung, die DNS-Benennung (Domain Name System), Firewallregeln, Zertifikate und vieles mehr beinhalten. 
   
-Die Verwendung dieses Tools stellt den ersten Schritt bei der Planung Ihrer Implementierung dar. Im nächste Schritt würde werden Einzelheiten Ihrer Website-Informationen in der [Skype für Business Server 2015 Kapazitätsrechner](https://www.microsoft.com/en-us/download/details.aspx?id=51196)eingeben, die Sie nach Bedarf anpassen, verwenden Sie die [Skype für Business Server 2015 Stress and Performance-Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50367) simulieren und Überprüfen der Implementierung Bedürfnisse Ihre.
+Die Verwendung dieses Tools stellt den ersten Schritt bei der Planung Ihrer Implementierung dar. Der nächste Schritt besteht darin, Ihre Website Informationen in den [Skype for Business Server 2015-Kapazitäts Rechner](https://www.microsoft.com/en-us/download/details.aspx?id=51196)einzugeben, nach Bedarf anzupassen und dann mit dem [Skype for Business Server 2015 Stress-und Leistungs Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50367) zu simulieren und zu überprüfen, ob die die Implementierung wird Ihren Anforderungen entsprechen.
   
-Das Planungstool bietet auch die Möglichkeit, Informationen in zwei Formaten exportieren:
+Das Planungs Tool bietet auch die Möglichkeit, Informationen in zwei Formaten zu exportieren:
   
 - Microsoft Excel (.xml-Arbeitsblatt)
     
 - Microsoft Visio (.vdx)
     
-In den folgenden Themen vorgestellt und das Planungstool detail.
+In den folgenden Themen wird das Planungs Tool vorgestellt und detailliert beschrieben.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 

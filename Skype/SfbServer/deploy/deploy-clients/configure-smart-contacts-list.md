@@ -1,31 +1,31 @@
 ---
-title: Konfigurieren von Smart Kontaktliste in Skype für die Business-clients
+title: Konfigurieren der intelligenten Kontaktliste in Skype for Business-Clients
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
-description: 'Zusammenfassung: Erfahren Sie, wie das Listenfeature Smart Kontakte in die Skype für Business-Client zu aktivieren.'
-ms.openlocfilehash: 14508cde3806f1438eb6970761e371b3b5d9d9e7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie das Feature "Smart Contacts List" im Skype for Business-Client aktivieren.'
+ms.openlocfilehash: 0deb90293ddf4f1a6627eb4bff86d7d8eb0ae5c9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893511"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286383"
 ---
-# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Konfigurieren von Smart Kontaktliste in Skype für die Business-clients
+# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Konfigurieren der intelligenten Kontaktliste in Skype for Business-Clients
 
-**Zusammenfassung:** Erfahren Sie, wie das Listenfeature Smart Kontakte in die Skype für Business-Client zu aktivieren.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie das Feature "Smart Contacts List" im Skype for Business-Client aktivieren.
 
-Das Listenfeature Smart Kontakte ermöglicht automatische Auffüllung von Kontaktlisten für die Endbenutzer. Bei der ersten Verwendung von Skype für Unternehmen, Ihre Benutzer werden automatisch finden Sie unter ihren Manager und andere Personen in ihrem Team. Dieses Feature ist standardmäßig für Office 365-Benutzer aktiviert, aber Sie müssen dieses Feature explizit durch Konfigurieren der Einstellung für die Richtlinie für Ihre lokalen Benutzer aktivieren.
+Das Feature "Smart Contacts List" ermöglicht die automatische Auffüllung von Kontaktlisten für Ihre Endbenutzer. Bei der ersten Verwendung von Skype for Business werden Ihre Benutzer automatisch Ihren Manager und andere Personen in Ihrem Team sehen. Dieses Feature ist standardmäßig für Office 365-Benutzer aktiviert, Sie müssen dieses Feature aber explizit für Ihre lokalen Benutzer aktivieren, indem Sie die Clientrichtlinien Einstellung konfigurieren.
 
 Beachten Sie Folgendes, wenn Sie diese Funktion konfigurieren:
 
-- Benutzer, bis zu 13, werden automatisch der Liste Smart Kontakte in der folgenden Reihenfolge hinzugefügt:
+- Benutzer, bis zu 13, werden der Liste der intelligenten Kontakte automatisch in der folgenden Reihenfolge hinzugefügt:
 
   1. Manager
 
@@ -33,7 +33,7 @@ Beachten Sie Folgendes, wenn Sie diese Funktion konfigurieren:
 
   3. Peers in alphabetischer Reihenfolge
 
-- Wenn sich ein Benutzer zum ersten Mal anmeldet, wird eine neue Gruppe mit dem Namen „My Group“ erstellt. Mit Personen in der Beziehung des Benutzers AD Gruppe basierend auf den Alias des Benutzers im Feld Manager aufgefüllt wird automatisch die Gruppe aufgefüllt. Beachten Sie, dass Änderungen in Bezug auf die AD-Gruppenmitgliedschaft keine Aktualisierung der Gruppe „My Group“ zur Folge hat, nachdem diese einmal mit Benutzern gefüllt wurde. Wenn ein Benutzer einen Kontakt oder die Gruppe löscht, werden weder der Kontakt noch die Gruppe wiederhergestellt. 
+- Wenn sich ein Benutzer zum ersten Mal anmeldet, wird eine neue Gruppe mit dem Namen „My Group“ erstellt. Die Gruppe wird automatisch mit Personen in der Anzeigengruppen Beziehung des Benutzers ausgefüllt, basierend auf dem im Feld Manager aufgefüllten Benutzer-Alias. Beachten Sie, dass Änderungen in Bezug auf die AD-Gruppenmitgliedschaft keine Aktualisierung der Gruppe „My Group“ zur Folge hat, nachdem diese einmal mit Benutzern gefüllt wurde. Wenn ein Benutzer einen Kontakt oder die Gruppe löscht, werden weder der Kontakt noch die Gruppe wiederhergestellt. 
 
 - Falls die automatische Tag-Kennzeichnung aktiviert ist, werden Kontakte in der Liste markiert, sobald sich deren Anwesenheitsstatus ändert. Die automatische Kennzeichnung ist standardmäßig aktiviert, kann jedoch bei Bedarf deaktiviert werden. 
 
@@ -45,19 +45,19 @@ Beachten Sie Folgendes, wenn Sie diese Funktion konfigurieren:
 
 Um die Funktion „Intelligente Kontaktliste“ für Ihre Benutzer zu aktivieren, müssen Sie die folgenden Schritte durchführen: 
 
-- Erstellen Sie einen neuen Eintrag CsClientPolicy und globale Clientrichtlinie hinzugefügt. 
+- Erstellen Sie einen neuen CsClientPolicy-Eintrag, und fügen Sie ihn der globalen Clientrichtlinie hinzu. 
 
 - Stellen Sie sicher, dass die Adressbuchsuche nur für die Websuche konfiguriert ist.
 
 ### <a name="create-a-policy-entry-to-enable-smart-contacts-list"></a>Einen Richtlinieneintrag zur Aktivierung der intelligenten Kontaktliste erstellen
 
-So erstellen Sie einen Richtlinieneintrag, um das Listenfeature Smart Kontakte aktivieren, verwenden Sie das Cmdlet " [New-CsClientPolicyEntry](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicyentry?view=skype-ps) " mit der Option EnableClientAutoPopulateWithTeam wie folgt:
+Verwenden Sie zum Erstellen eines Richtlinien Eintrags zum Aktivieren des Features "Smart Contacts List" das Cmdlet " [New-CsClientPolicyEntry](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicyentry?view=skype-ps) " mit der Option "EnableClientAutoPopulateWithTeam" wie folgt:
 
 ```
 $x=New-CsClientPolicyEntry -Name EnableClientAutoPopulateWithTeam -Value $True
 ```
 
-Im nächsten Schritt verwenden Sie das Cmdlet " [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) ", um die Änderungen an der globalen Richtlinie wie folgt schreiben:
+Verwenden Sie als nächstes das Cmdlet " [Satz-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) ", um die Änderungen an der globalen Richtlinie wie folgt zu schreiben:
 
 ```
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
@@ -70,7 +70,7 @@ $x=New-CsClientPolicyEntry -Name TagContactsInClientAutoPopulatedGroup -Value $F
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 ```
 
-Außerdem müssen Sie den Parameter „AddressBookAvailability“ für die entsprechende Richtlinie auf „WebSearchOnly“ einstellen. Weitere Informationen finden Sie unter [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps). 
+Außerdem müssen Sie den Parameter „AddressBookAvailability“ für die entsprechende Richtlinie auf „WebSearchOnly“ einstellen. Weitere Informationen finden Sie unter [Satz-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps). 
 
 ### <a name="troubleshoot"></a>Problembehandlung
 
@@ -80,10 +80,10 @@ Sollte die intelligente Kontaktliste nicht wie erwartet funktionieren, nehmen Si
 
 - Stellen Sie sicher, dass die AD-Organisationsinformationen ausgefüllt sind.
 
-- Sammeln von Skype für Clientprotokolle Business auf einen neuen Benutzer zur weiteren Analyse.
+- Sammeln Sie Skype for Business-Client-Logs für einen neuen Benutzer zur weiteren Analyse.
 
-- Vergewissern Sie sich, dass die Skype für Business Clientbenutzeroberfläche keine Meldung anzeigt, die zum Adressbuch keine Verbindung herstellen können. Adressbuch-Konnektivität zu bestätigen, führen Sie eine Suche für einen Benutzer in der Skype für Business Client Suchleiste.
+- Vergewissern Sie sich, dass auf der Skype for Business-Client-Benutzeroberfläche keine Meldung angezeigt wird, dass keine Verbindung mit dem Adressbuch hergestellt werden kann. Um die Adressbuch Konnektivität zu bestätigen, führen Sie in der Skype for Business-Client Suchleiste eine Suche nach einem Benutzer durch.
 
-- AD DS-Replikationsprobleme verursachen Kontakte nicht aufgelöst werden, wenn ein Benutzer zuerst bei Skype für Unternehmen anmeldet.
+- Probleme mit der AD DS-Replikation können dazu führen, dass Kontakte nicht aufgelöst werden, wenn sich ein Benutzer zum ersten Mal bei Skype for Business anmeldet.
 
 

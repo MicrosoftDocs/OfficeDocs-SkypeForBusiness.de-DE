@@ -1,48 +1,50 @@
 ---
-title: Version-Unterstützung
+title: Versionsunterstützung
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 4/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 ms.collection: M365-voice
 localization_priority: Normal
-description: In diesem Artikel werden die Lebenszyklus-Support für Microsoft-Teams Chatrooms.
-ms.openlocfilehash: f3e283bec4e84eb38268821e91524a6832aadac1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: In diesem Artikel wird die Lebenszyklus Unterstützung für Microsoft Teams-Chatrooms erläutert.
+ms.openlocfilehash: 9d4fcbfa7dbe1ea60233e97f10285d01f6cfe943
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916298"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288519"
 ---
-# <a name="version-support"></a>Versionsunterstützung
+# <a name="microsoft-teams-room-app-version-support"></a>Microsoft Teams Room App-Versionsunterstützung
  
-Microsoft plant, Freigeben von Updates für Microsoft-Teams Chatrooms ein paar Mal pro Jahr bei jeder Aktualisierung zwölf (12) Monate nach deren Veröffentlichungsdatum allgemeine Verfügbarkeit (GA) unterstützt. Für die gesamte zwölf (12) Monate technischer Support erhalten. Unsere Support-Struktur ist jedoch nun dynamisch und Weiterentwicklung in zwei getrennten Wartung Phasen, die auf die Verfügbarkeit der neuesten Version basieren.
+Microsoft plant, Updates für Microsoft Teams-Räume einige Male pro Jahr zu veröffentlichen, wobei jedes Update zwölf (12) Monate nach dem Veröffentlichungsdatum der allgemeinen Verfügbarkeit (GA) unterstützt wird. Der technische Support wird für die gesamten zwölf (12) Monate bereitgestellt. Unsere Supportstruktur ist nun dynamisch und entwickelt sich zu zwei unterschiedlichen Wartungsphasen, die von der Verfügbarkeit der neuesten Version abhängig sind.
 
-Wartung und wichtige Updates – Wartung für phase beim Ausführen der neuesten Version von Microsoft-Teams Chatrooms, erhalten Sie regelmäßig Updates, die Sicherheit enthalten und Servicing aktualisiert.
+Wartungs **-und Wartungsphase für wichtige Updates** \- Wenn Sie die neueste Version von Microsoft Teams rooms ausführen, erhalten Sie regelmäßige Updates, die Sicherheits-und Wartungsupdates enthalten.
 
-
-Sicherheitsupdates (nur) – Wartung Phase nach der Veröffentlichung einer neuen Version Unterstützung für ältere Zweigstellen zu Sicherheitsupdates reduziert, die nur für der Rest der Monat zwölf (12) – Wartung Updates Lifecycle unterstützen.
-
+**Sicherheits Updates (nur) Wartungsphase** \- Nachdem eine neue Version veröffentlicht wurde, wird die Unterstützung älterer Niederlassungen nur für den Rest des zwölf (12) Monats Support-Lebenszyklus für Wartungsupdates auf Sicherheitsupdates reduziert.
 
 > [!NOTE]
-> Die neueste Version ist immer in der Wartung und wichtige Updates – Wartung Phase. Dies bedeutet, dass, wenn Sie einen Codefehler auftreten, der ein wichtiges Update garantiert, die neueste Version, um ein Update installiert sein muss. Alle anderen unterstützten Versionen werden nur Sicherheitsupdates zu erhalten.
+> Die aktuelle Version befindet sich immer in der Wartungsphase für Wartung und kritische Updates. Das bedeutet, dass Sie für den Fall, dass ein Codefehler auftritt, der ein wichtiges Update gewährleistet, die neueste Version installiert haben müssen, um eine Lösung zu erhalten. Alle anderen unterstützten Versionen sind nur berechtigt, Sicherheitsupdates zu erhalten.
 
-Alle Unterstützung endet nach Ablauf des Lebenszyklus zwölf (12) Monat für eine Version oder wenn mehr als zwei Updates seitdem veröffentlicht wurden. Zu diesem Zeitpunkt müssen Kunden auf eine unterstützte Version aktualisieren.
+Alle Unterstützung endet, nachdem der 12-Monats-Lebenszyklus für eine Version abgelaufen ist oder mehr als zwei Updates seither veröffentlicht wurden. Zu diesem Zeitpunkt müssen Kunden auf eine unterstützte Version aktualisieren.
 
-Alle Versionen sind in der [Microsoft-Teams Chatrooms Anmerkungen zu dieser Version](srs2-release-note.md)aufgeführt. 
- 
+Alle Versionen sind in den Versionshinweisen für [Microsoft Teams](srs2-release-note.md)-Chatrooms aufgeführt.
 
+# <a name="os-version-support"></a>Unterstützung der Betriebssystem Version
+Windows 10-Funktionsupdates für Geräte mit Microsoft Teams-Räumen werden nicht für 6 Monate ab dem Zeitpunkt angeboten, zu dem Windows ein Veröffentlichungs Update durchführt. Dies erfolgt durch die Einrichtung eines speziellen Blocks für Microsoft Teams rooms-Geräte unter Windows Update für Business-Kanal (also halbjährlicher Kanal) und über die App-Einstellungen. Während dieses blockierten Zeitraums führt Microsoft verschiedene Tests sowohl im Haus als auch über unsere OEM-Geräte Partner durch, um sicherzustellen, dass die neue Windows 10-Funktionsfreigabe in Einklang mit den Microsoft Teams rooms-apps und Peripheriegeräten arbeitet, die mit ihr verbunden sind. Dies ist wichtig, um sowohl die Gerätesicherheit als auch die konsistente Benutzeroberfläche zu gewährleisten und sicherzustellen, dass die Qualität der von Microsoft Teams rooms App angebotenen Erfahrungen gewährleistet ist.   
 
+Wenn der Zeit Block aufgehoben wird (d. h., dass Windows 10-Funktions Update auf diesen Geräten heruntergeladen werden kann), unterstützt Microsoft Teams rooms die spezifische Windows 10-Funktionsfreigabe für den Zeitraum von 12 Monaten in Übereinstimmung mit den App-Supportrichtlinien. Da Windows 10-Funktionsupdates etwa alle 6 Monate angeboten werden, bedeutet dies auch, dass Microsoft Teams zwei weitere Versionen zum Testen haben wird, wenn die Unterstützung für die aktuelle Version beendet wird. Dies bedeutet auch, dass eine Windows 10-Version alle 6 Monate für alle Microsoft Teams rooms-Kunden gesperrt wird. Da wir ständig App-Änderungen vornehmen und sich gegen die letzte nicht blockierte Windows-Version entwickeln, müssen in einigen Fällen Abhängigkeit von den Windows-Features in neueren Windows-Versionen übernommen werden und die Tatsache, dass es für Microsoft schwieriger wird, Änderungen an die Version, die 12-18 Monate alt ist. Um sicherzustellen, dass Sie die APP-Korrektur für ein Problem erhalten, das auf Ihrem Microsoft Teams rooms-Gerät auftritt, empfehlen wir allen Kunden, diese Geräte auf das neueste Windows 10-Funktions Update zu aktualisieren, das für die unterstützten Windows-Versions Anleitungen verfügbar ist.
+
+Als solches erfordert Microsoft Teams rooms Windows 10 Versionen 1709 als mindestens unterstützte Version ab Mai 2019. Auf Systemen unter Windows 10, Version 1703 oder höher, werden keine neuen App-Versionen angeboten.
 
 <a name="See"> </a>  
 ## <a name="see-also"></a>Siehe auch
 
 [Microsoft Teams Rooms-Hilfe](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Microsoft-Teams Chatrooms Anmerkungen zu dieser Version](srs2-release-note.md)
+[Versionsinformationen zu Microsoft Teams rooms](srs2-release-note.md)
 
-[Planen der Microsoft-Teams, Räume](skype-room-systems-v2-0.md)
+[Planen von Microsoft Teams-Räumen](skype-room-systems-v2-0.md)

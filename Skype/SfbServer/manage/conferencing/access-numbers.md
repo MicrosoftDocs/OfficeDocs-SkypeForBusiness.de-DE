@@ -1,39 +1,39 @@
 ---
-title: 'Verwalten von Zugriffsnummern für einwahlkonferenzen in Skype für Business Server '
+title: 'Verwalten von Einwahlkonferenz-Zugriffsnummern in Skype for Business Server '
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
-description: 'Zusammenfassung: Informationen Sie zum Verwalten von Zugriffsnummern für einwahlkonferenzen in Skype für Business Server.'
-ms.openlocfilehash: aa386b1c2dd868634539be32062ed7728e27c1e7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Access-Nummern für Einwahlkonferenzen in Skype for Business Server verwalten.'
+ms.openlocfilehash: e41011c4ba06da7f05d8cb1a52717e707cd2f8bd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919409"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289034"
 ---
-# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Verwalten von Zugriffsnummern für einwahlkonferenzen in Skype für Business Server
+# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Verwalten von Einwahlkonferenz-Zugriffsnummern in Skype for Business Server
  
-**Zusammenfassung:** Hier erfahren Sie, wie Sie Zugriffsnummern für einwahlkonferenzen in Skype für Business Server verwalten.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie Access-Nummern für Einwahlkonferenzen in Skype for Business Server verwalten.
   
 Beim Bereitstellen von Einwahlkonferenzen müssen Sie Telefonnummern einrichten, die Benutzer aus dem Telefonfestnetz (Public Switched Telephone Network, PSTN) wählen können, um am Audioteil einer Konferenz teilzunehmen. Diese Zugriffsnummern für die Einwahl werden in Besprechungseinladungen und auf der Webseite mit den Einstellungen für Einwahlkonferenzen angezeigt. 
   
-In diesem Themenbereich wird beschrieben, wie bestehende Zugriffsnummern für Einwahlkonferenzen angezeigt, geändert oder gelöscht werden. Weitere Informationen zum Erstellen der anfänglichen Einwahl Zugriffsnummern finden Sie unter [Configure einwahlkonferenzen in Skype für Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+In diesem Themenbereich wird beschrieben, wie bestehende Zugriffsnummern für Einwahlkonferenzen angezeigt, geändert oder gelöscht werden. Weitere Informationen zum Erstellen von anfänglichen Einwahl Zugriffsnummern finden Sie unter [Konfigurieren von Einwahlkonferenzen in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>Anzeigen von Zugriffsnummern für Einwahlkonferenzen
 
-Sie können die Zugriffsnummern für einwahlkonferenzen mithilfe von Skype Business Server-Systemsteuerung oder mithilfe von Skype für Business Server-Verwaltungsshell anzeigen.
+Sie können Einwahlkonferenz-Zugriffsnummern über die Skype for Business Server-Systemsteuerung oder über die Skype for Business Server-Verwaltungsshell anzeigen.
   
-### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Ansicht Einwahl Zugriffsnummern mithilfe von Skype Business Server-Systemsteuerung
+### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Anzeigen von Einwahl Zugriffsnummern mithilfe der Skype for Business Server-Systemsteuerung
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2.  Öffnen von Skype Business Server-Systemsteuerung.
+2.  Öffnen Sie die Skype for Business Server-Systemsteuerung.
     
 3. Klicken Sie in der linken Navigationsleiste auf **Konferenz** und dann auf **Zugriffsnummer für Einwahl**.
     
@@ -41,11 +41,11 @@ Sie können die Zugriffsnummern für einwahlkonferenzen mithilfe von Skype Busin
     
 5. Aktivieren Sie unter **Bearbeiten** das Kontrollkästchen **Details anzeigen**.
     
-### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Ansicht Einwahl Zugriffsnummern mithilfe von Skype für Business Server-Verwaltungsshell
+### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Anzeigen von Einwahl Zugriffsnummern mithilfe der Skype for Business Server-Verwaltungsshell
 
 Verwenden Sie das Cmdlet **Get-CsDialInConferencingAccessNumber**, um Informationen über Zugriffsnummern für die Einwahl anzuzeigen.
   
-Der folgende Befehl gibt eine Auflistung von allen einwahlkonferenzen Zugriffsnummern für die Verwendung in der Organisation konfiguriert: 
+Mit dem folgenden Befehl wird eine Sammlung aller Zugriffsnummern für Einwahlkonferenzen zurückgegeben, die für die Verwendung in der Organisation konfiguriert sind: 
   
 ```
 Get-CsDialInConferencingAccessNumber
@@ -72,13 +72,13 @@ Weitere Informationen finden Sie unter [Get-CsDialInConferencingAccessNumber](ht
   
 ## <a name="modify-dial-in-conferencing-access-numbers"></a>Zugriffsnummern für Einwahlkonferenzen ändern
 
-Sie können die Zugriffsnummer für Einwahl-Zugriffsnummern mithilfe von Skype Business Server-Systemsteuerung oder mithilfe von Skype für Business Server-Verwaltungsshell ändern.
+Sie können Einwahl Zugriffsnummern über die Skype for Business Server-Systemsteuerung oder über die Skype for Business Server-Verwaltungsshell ändern.
   
-### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Ändern der Einwahl Zugriffsnummern mithilfe von Skype Business Server-Systemsteuerung
+### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Ändern von Einwahl Zugriffsnummern mithilfe der Skype for Business Server-Systemsteuerung
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2.  Öffnen von Skype Business Server-Systemsteuerung.
+2.  Öffnen Sie die Skype for Business Server-Systemsteuerung.
     
 3. Klicken Sie in der linken Navigationsleiste auf **Konferenz** und dann auf **Zugriffsnummer für Einwahl**.
     
@@ -91,7 +91,7 @@ Sie können die Zugriffsnummer für Einwahl-Zugriffsnummern mithilfe von Skype B
     
     Diese Nummer wird in Besprechungseinladungen und auf der Webseite mit den Einstellungen für die Einwahlkonferenz angezeigt.
     
-6. Geben Sie in **Anzeigename** eine Beschreibung für die Zugriffsnummer für die Einwahl ein. Dies ist der Name, der die Anzahl DFÜ-Zugriff in Skype für Suchergebnisse Business zugeordnet ist.
+6. Geben Sie in **Anzeigename** eine Beschreibung für die Zugriffsnummer für die Einwahl ein. Dies ist der Name, der der Einwahl Zugriffsnummer in den Suchergebnissen von Skype for Business zugeordnet ist.
     
     Der Name wird im Client angezeigt, wenn ein Benutzer die Einwahlnummer wählt. 
     
@@ -102,12 +102,12 @@ Sie können die Zugriffsnummer für Einwahl-Zugriffsnummern mithilfe von Skype B
   
 8. Führen Sie unter **SIP-URI** die folgenden Aktionen aus:
     
-   Geben Sie in das Textfeld einen eindeutigen SIP-URI für diese Zugriffsnummer für Einwahlkonferenzen ein. SIP-URI ist in verschiedenen Standorten, einschließlich angezeigt, aber nicht beschränkt, um Benachrichtigungen und früheren Versionen von Lync-Clients aufrufen.
+   Geben Sie in das Textfeld einen eindeutigen SIP-URI für diese Zugriffsnummer für Einwahlkonferenzen ein. Dieser SIP-URI wird an verschiedenen Speicherorten angezeigt, einschließlich, aber nicht ausschließlich, von Benachrichtigungsnachrichten und früheren Versionen von lync-Clients.
     
     > [!NOTE]
     > Dieser SIP-URI kann nicht für eine andere Zugriffsnummer für Einwahlkonferenzen verwendet werden. Der SIP-URI kann nach der Erstellung der Zugriffsnummer nicht geändert werden. Die einzige Möglichkeit zum Ändern des SIP-URI besteht darin, die Zugriffsnummer zu löschen und neu zu erstellen. 
   
-   Klicken Sie im Dropdown-Listenfeld auf die Domäne der Konferenzzentrale Anwendung, die diese Zugriffsnummer für Einwahl unterstützt.
+   Klicken Sie im Dropdown-Listenfeld auf die Domäne der Conferencing Attendant-Anwendung, die diese Einwahl Zugriffsnummer unterstützt.
     
 9. Klicken Sie unter **Pool** auf den Pool, der die Instanz der Konferenzzentrale ausführt, die diese Einwahlnummer unterstützt.
     
@@ -122,13 +122,13 @@ Sie können die Zugriffsnummer für Einwahl-Zugriffsnummern mithilfe von Skype B
     
     Sie können für jede Zugriffsnummer für die Einwahl bis zu vier sekundäre Sprachen auswählen. Benutzer können beim Einwählen in eine Konferenz eine sekundäre Sprache auswählen, bevor sie die Konferenz-ID eingeben.
     
-12. Klicken Sie auf **Hinzufügen**, klicken Sie auf einen oder mehrere Bereiche, die für diese Nummer Einwahlnummern Wählpläne zugeordnet sind, und klicken Sie dann auf **OK**, um eine Region für die Anzahl DFÜ-Zugriff unter **zugeordnete Regionen**, hinzuzufügen.
+12. Wenn Sie einen Bereich für die Einwahl Zugriffsnummer hinzufügen möchten, klicken Sie unter **zugeordnete Regionen**auf **Hinzufügen**, klicken Sie auf eine oder mehrere Regionen, die den Wählplänen für diese Einwahl Zugriffsnummer zugeordnet sind, und klicken Sie dann auf **OK**.
     
 13. Zum Löschen einer Region aus der Einwahlnummer klicken Sie unter **Zugeordnete Regionen** auf die zu löschende Region und anschließend auf **Entfernen**.
     
 14. Klicken Sie auf **Commit ausführen**.
     
-### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Ändern der Einwahl Zugriffsnummern mithilfe von Skype für Business Server-Verwaltungsshell
+### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Ändern von Einwahl Zugriffsnummern mithilfe der Skype for Business Server-Verwaltungsshell
 
 Verwenden Sie das Cmdlet **Set-CsDialInConferencingAccessNumber**, um die Zugriffsnummern für die Einwahl zu ändern.
   
@@ -144,17 +144,17 @@ In nächsten Beispiel wird die Zugriffsnummer für Einwahlkonferenzen mit dem Id
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
 ```
 
-Weitere Informationen finden Sie unter [Set-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps).
+Weitere Informationen finden Sie unter [Satz-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="delete-a-dial-in-conferencing-access-number"></a>Löschen einer Zugriffsnummer für Einwahlkonferenzen
 
-Sie können eine Zugriffsnummer für einwahlkonferenzen mithilfe von Skype Business Server-Systemsteuerung oder mithilfe von Skype für Business Server-Verwaltungsshell löschen.
+Sie können eine Access-Nummer für Einwahlkonferenzen mithilfe der Skype for Business Server-Systemsteuerung oder mithilfe der Skype for Business Server-Verwaltungsshell löschen.
   
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Löschen einer Zugriffsnummer für einwahlkonferenzen mithilfe von Skype Business Server-Systemsteuerung
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Löschen einer Zugriffsnummer für Einwahlkonferenzen mithilfe der Skype for Business Server-Systemsteuerung
 
-1.  Von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins (oder gleichwertige Benutzerrechte verfügt), oder der CsServerAdministrator oder CsAdministrator-Rolle, melden Sie sich an einem beliebigen Computer, die im Netzwerk ist in der Bereitstellung von Skype für Business Server zugeordnet ist .
+1.  Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder über entsprechende Benutzerrechte verfügt) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, bei jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben. .
     
-2.  Öffnen von Skype Business Server-Systemsteuerung.
+2.  Öffnen Sie die Skype for Business Server-Systemsteuerung.
     
 3. Klicken Sie in der linken Navigationsleiste auf **Konferenz** und dann auf **Zugriffsnummer für Einwahl**.
     
@@ -162,7 +162,7 @@ Sie können eine Zugriffsnummer für einwahlkonferenzen mithilfe von Skype Busin
     
 5. Klicken Sie anschließend auf **OK**.
     
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>Löschen einer Zugriffsnummer für einwahlkonferenzen mithilfe von Skype für Business Server-Verwaltungsshell
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>Löschen einer Zugriffsnummer für Einwahlkonferenzen mithilfe der Skype for Business Server-Verwaltungsshell
 
 Über **Remove-CsDialInConferencingAccessNumber** löschen Sie eine Einwahlnummer für Konferenzen.
   

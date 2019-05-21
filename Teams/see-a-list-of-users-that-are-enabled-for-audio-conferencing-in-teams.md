@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,30 +20,30 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie, wie Sie in Microsoft Teams eine Liste der Benutzer in Ihrer Organisation anzeigen, die für Dial-in-Konferenzen aktiviert sind. '
-ms.openlocfilehash: 2e1c74ccd856f32e8ff577ed7f718715e9e3c1b7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 15eda1623438138b688da38a862fefa17d2d3ec4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204994"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305348"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Anzeigen einer Liste der für Audiokonferenzen aktivierten Benutzer in Microsoft Teams
 
-Nachdem Sie die Microsoft-Teams, Benutzer in Ihrer Organisation für Audiokonferenzen aktiviert haben, können Sie die Liste der Benutzer anzeigen, die aktiviert wurden. 
+Nachdem Sie Microsoft Teams-Benutzer in Ihrer Organisation für Audiokonferenzen aktiviert haben, können Sie die Liste der Benutzer anzeigen, die aktiviert wurden. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Anzeige einer Benutzerliste
 
-- Klicken Sie in der Microsoft-Teams-Verwaltungskonsole im linken Navigationsbereich auf **Benutzer**.
+- Klicken Sie im Microsoft Teams Admin Center in der linken Navigationsleiste auf **Benutzer**.
 
 
 ## <a name="what-else-should-i-know"></a>Was sollte ich noch wissen?
 
-- Wenn Sie die Liste der Benutzer, die aktiviert sind anzeigen, können Sie einen Benutzer aus der Liste zum Bearbeiten der Audiokonferenz Einstellungen für diesen Benutzer auswählen.
+- Wenn Sie die Liste der aktivierten Benutzer anzeigen, können Sie einen Benutzer aus der Liste auswählen, um die Einstellungen für die Audiokonferenz für diesen Benutzer zu bearbeiten.
     
-- Wenn Sie einen einzelnen Benutzer auswählen, können Sie auf den Benutzer und alle anderen relevanten Audiokonferenzen Einstellungen zugewiesen Standardrufnummer anzeigen.    
+- Wenn Sie einen einzelnen Benutzer auswählen, können Sie die Standardtelefonnummer anzeigen, die dem Benutzer zugewiesen ist, sowie alle anderen relevanten Einstellungen für Audiokonferenzen.    
    
 - Über die Schaltfläche „Suchen" können Sie Benutzer in der Liste suchen.
     

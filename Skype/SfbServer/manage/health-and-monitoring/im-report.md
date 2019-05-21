@@ -1,31 +1,31 @@
 ---
-title: Peer-zu-Peer-Sofortnachrichten-Bericht in Skype für Business Server
+title: Peer-zu-Peer-Chat Bericht in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
-description: 'Zusammenfassung: Informationen Sie zu den Bericht über Peer-zu-Peer-Sofortnachrichten in Skype für Business Server.'
-ms.openlocfilehash: 8937f9b0342613ae0253fc75b1c54962bd670ed8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Peer-to-Peer-Chat Bericht in Skype for Business Server.'
+ms.openlocfilehash: abe6321f6c4432270ecec325a94608d2e3117954
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926585"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305654"
 ---
-# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Peer-zu-Peer-Sofortnachrichten-Bericht in Skype für Business Server
+# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Peer-zu-Peer-Chat Bericht in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Bericht über Peer-zu-Peer-Sofortnachrichten in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den Peer-to-Peer-Chat Bericht in Skype for Business Server.
   
 Der Bericht über Peer-to-Peer-Sofortnachrichten enthält Trendinformationen zu den Peer-to-Peer-Sofortnachrichtensitzungen, aufgeschlüsselt nach Pool und Authentifizierungstyp. Der Bericht kann entweder die Gesamtanzahl der im angegebenen Zeitraum abgehaltenen Sitzungen (z. B. nach Tag oder nach Stunden) oder die Gesamtanzahl der in diesem Zeitraum gesendeten Sofortnachrichten anzeigen.
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>Zugreifen auf den Bericht über Peer-to-Peer-Sofortnachrichten
 
-Sie können den Bericht über Peer-zu-Peer-Sofortnachrichten nur zugreifen, indem die [Zusammenfassung für Peer-zu-Peer-Aktivität in Skype für Business Server Report](peer-to-peer-activity-summary-report.md) öffnen und dann auf eine der folgenden Metriken:
+Sie können nur auf den Chat-Chat-Bericht zugreifen, indem Sie den [Bericht Peer-to-Peer-Aktivitätszusammenfassung in Skype for Business Server](peer-to-peer-activity-summary-report.md) öffnen und dann auf eine der folgenden Metriken klicken:
   
 - Peer-to-Peer-Chatsitzungen insgesamt
     
@@ -56,7 +56,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über P
 
 |**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
-|**Pool** <br/> |Nein  <br/> |Name des Registrar-Pools oder Edgeservers.  <br/> |
+|**Pool** <br/> |Nein  <br/> |Der Name des registrierungspools oder des Edge-Servers.  <br/> |
 |**Datum/Uhrzeit** <br/> |Nein  <br/> |Zeitpunkt (Datum und Uhrzeit), zu dem die Sitzungen stattfanden.  <br/> |
 |**Gesamt** <br/> |Nein  <br/> |Gesamtzahl der Sitzungen bzw. Gesamtzahl der Nachrichten.  <br/> |
    

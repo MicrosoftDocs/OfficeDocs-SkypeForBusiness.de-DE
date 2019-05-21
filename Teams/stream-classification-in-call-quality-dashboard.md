@@ -11,7 +11,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Erfahren Sie, wie die Datenstromqualität im Anrufqualitäts-Dashboard für Microsoft-Teams und Skype for Business Online klassifiziert wird.
-ms.openlocfilehash: b3b63ff8ac89ed0ad1d88893913fa89af769e078
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: ad18b15019ed82d629a4c32c27544d052cd2bc92
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641034"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298632"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Datenstromklassifizierung im Anrufqualitäts-Dashboard
 
@@ -45,7 +45,7 @@ Ein Audiodatenstrom wird als schlecht gekennzeichnet, wenn eine oder mehrere der
 |Round Trip|> 500|Durchschnittliche in Millisekunden berechnete Roundtripzeit bei der Netzwerkverteilung, wie in RFC3550 angegeben.|
 |Packet Loss Rate|> 0,1|Durchschnittlich Paketverlustrate für Datenstrom.|
 |Jitter|> 30|Durchschnittliche Anzahl an Jitter-Daten für Datenstrom in Millisekunden.|
-|Ratio Concealed Samples Avg|> 0,07|Durchschnittliches Verhältnis zwischen der Anzahl von audio Frames mit ausgeblendeten Samples, generiert von Paketverlust und der Gesamtzahl der audio Frames Reparatur.|
+|Ratio Concealed Samples Avg|> 0,07|Durchschnittliches Verhältnis der Anzahl von Audioframes mit verborgenen Samples, die durch Paketverlust-Heilung an die Gesamtzahl der Audioframes generiert wurden.|
 
 ### <a name="video-classifier"></a>Video-Klassifizierung
 
@@ -53,9 +53,9 @@ Ein Videodatenstrom wird basierend auf dem Wert der ersten verfügbaren Metrik i
 
 |**Schritt #**|**Metrik**|**Bedingung**|**Klassifizierung, wenn die Bedingung wahr ist**|**Klassifizierung, wenn die Bedingung falsch ist**|**Klassifizierung, wenn die Metrik nicht verfügbar ist**|**Erklärung**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50 % |Poor|Good|Mit Schritt 2 fortfahren|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
+|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|Mit Schritt 2 fortfahren|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|< 7|Poor|Good|Mit Schritt 3 fortfahren|Die Durchschnittliche Anzahl der pro Sekunde empfangenen Frames für einen Videodatenstrom, die für die Dauer einer Sitzung verarbeitet wurden.|
-|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Paketverlustrate nach FEC angewendet wurde, werden alle Videostreams und Codecs aggregiert.|
+|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Paketverlustrate, nachdem FEC auf alle Videodatenströme und-Codecs aggregiert wurde.|
 
 ### <a name="vbss-classifier"></a>VBSS-Klassifizierung
 
@@ -63,9 +63,9 @@ Ein VBSS-Videodatenstrom wird basierend auf dem Wert der ersten verfügbaren Met
 
 |**Schritt #**|**Metrik**|**Bedingung**|**Klassifizierung, wenn die Bedingung wahr ist**|**Klassifizierung, wenn die Bedingung falsch ist**|**Klassifizierung, wenn die Metrik nicht verfügbar ist**|**Erklärung**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50 % |Poor|Good|Mit Schritt 2 fortfahren|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
+|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|Mit Schritt 2 fortfahren|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|< 2|Poor|Good|Mit Schritt 3 fortfahren|Die Durchschnittliche Anzahl der pro Sekunde empfangenen Frames für einen Videodatenstrom, die für die Dauer einer Sitzung verarbeitet wurden.|
-|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Paketverlustrate nach FEC angewendet wurde, werden alle Videostreams und Codecs aggregiert.|
+|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Paketverlustrate, nachdem FEC auf alle Videodatenströme und-Codecs aggregiert wurde.|
 
 ### <a name="application-sharing-classifier"></a>Anwendungsfreigabe-Klassifizierung
 
@@ -76,7 +76,7 @@ Ein Anwendungsfreigabedatenstrom wird als schlecht gekennzeichnet, wenn eine ode
 |:-----------------------------------------------|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Spoiled Tile Percent Total                     | > 36          | Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server. |
 | AppSharing RDP Tile Processing Latency Average | > 400         | Durchschnittliche Latenz in Millisekunden bei der Verarbeitung von Kacheln im RDP-Stapel auf dem Konferenzserver.                                                                                                                          |
-| AppSharing Relative OneWay Average             | > 1,75        | Durchschnittliche unidirektionale relative Verzögerung zwischen den Endpunkten in Sekunden für die Anwendungsfreigabe Datenströme.                                                                                                                       |
+| AppSharing Relative OneWay Average             | > 1,75        | Durchschnittliche relative unidirektionale Verzögerung zwischen den Endpunkten in Sekunden für Anwendungsfreigabe Datenströme.                                                                                                                       |
 
 ## <a name="unclassified-streams"></a>Nicht klassifizierte Datenströme
 
@@ -104,8 +104,8 @@ If ICE connectivity succeeded for an unclassified stream, the stream is likely c
 
 
 ## <a name="related-topics"></a>Verwandte Themen
-[Aktivieren und Verwenden von Anrufen Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
+[Aktivieren und Verwenden des Dashboards für die Anrufqualität (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
 [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Verwenden Sie Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)

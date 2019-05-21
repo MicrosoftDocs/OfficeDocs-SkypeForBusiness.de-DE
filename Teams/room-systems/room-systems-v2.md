@@ -1,9 +1,9 @@
 ---
-title: Bereitstellen von Microsoft-Teams, Räume
+title: Bereitstellen von Microsoft Teams-Räumen
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,204 +13,204 @@ ms.collection:
 - M365-voice
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: In diesem Artikel erfahren Sie mehr über die Bereitstellung von Microsoft-Teams Chatrooms zu lesen.
-ms.openlocfilehash: 26a8a15f678c57e9e2f27b4aacde1577176a3840
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Lesen Sie diesen Artikel, um Informationen zum Bereitstellen von Microsoft Teams-Räumen zu erhalten.
+ms.openlocfilehash: c60d9a1ff3c00c62a14573b8b7e1d26b92e865d9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916551"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305393"
 ---
 # <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
-Bereitstellung von Microsoft-Teams Chatrooms bricht im Wesentlichen in Phasen:
+Die Bereitstellung von Microsoft Teams-Räumen gliedert sich im Wesentlichen in Phasen:
 
-- Bestätigen, dass Ihre Bereitstellung Speicherorte (Chatrooms) die Bereitstellung Abhängigkeiten erfüllt
-- Microsoft-Teams oder Skype für Geschäfts- und Exchange-Konten erstellen und Zuweisen der Konsolengeräte (finden Sie unter [Konfigurieren von Konten für Microsoft Teams Chatrooms](room-systems-v2-configure-accounts.md))
-- Erstellen eines neuen Image Microsoft Surface Tablets als Microsoft Teams Chatrooms Konsolen verwendbar sind (siehe [Konfigurieren einer Microsoft-Teams Chatrooms Konsole](console.md) oder [Bereitstellen von Microsoft Teams Chatrooms Masse Bereitstellungshandbuch](room-systems-scale.md))
-- (Optional) Einrichten von Microsoft Operations Management Suite für die Systeme (finden Sie unter [Bereitstellen von Microsoft Teams Chatrooms Management mit Azure Monitor](azure-monitor-deploy.md)
-- Einrichten von Konsolen in Besprechungsräumen und verbinden die Peripheriegeräte müssen Sie (OEM-Dokumentation für den Satz von Geräten finden Sie unter)
+- Bestätigen, dass Ihre Bereitstellungs Standorte (Räume) die Bereitstellungs Abhängigkeiten erfüllen
+- Erstellen von Microsoft Teams oder Skype for Business-und Exchange-Konten und Zuweisen dieser zu den Konsolen Geräten (siehe [Konfigurieren von Konten für Microsoft Teams-Räume](room-systems-v2-configure-accounts.md))
+- Umbilden von Microsoft Surface Tablets zur Arbeit als Microsoft Teams-Chatrooms (siehe [Konfigurieren einer Microsoft Teams rooms-Konsole](console.md) oder [Bereitstellen von Microsoft Teams Room-Massen Bereitstellungshandbuch](room-systems-scale.md))
+- Optional Einrichten von Microsoft Operations Management Suite für Ihre Systeme (siehe [Bereitstellen von Microsoft Teams rooms Management mit Azure Monitor](azure-monitor-deploy.md)
+- Einrichten von Konsolen in Besprechungsräumen und Verbinden der benötigten Peripheriegeräte (siehe OEM-Dokumentation für Ihre Gerätegruppe)
 
-A/v-Techs für die letzte Aufgabe, aber Ihrer Organisation verwendet werden können IT-Abteilung müssen die andere Teile des Prozesses. 
+AV-Techs können für die letzte Aufgabe verwendet werden, aber die IT-Abteilung Ihrer Organisation muss die anderen Teile des Prozesses durchführen. 
 
 
-## <a name="site-readiness"></a>Website-Bereitschaft 
+## <a name="site-readiness"></a>Website Bereitschaft 
 
-Während die sortierten und Geräte in Ihrer Organisation zugestellt werden, arbeiten mit Ihrer Netzwerk- und den Funktionen und die a/v-Teams dafür sorgen, dass Bereitstellung Abhängigkeiten erfüllt werden, und jede Website und Raum im Hinblick auf Leistung ist, Netzwerk, bereit und anzeigen. Stellen Sie außerdem sicher, dass die physische Installationsanforderungen erfüllt sind. Physische installationsüberlegungen finden Sie auf der Hersteller-Website, und nutzen Sie die Erfahrung Ihrer a/v-Team beim Installieren und Bereitstellen von Bildschirmen und Verkabelung ausgeführt.
+Während die bestellten Geräte an Ihre Organisation geliefert werden, arbeiten Sie mit Ihrem Netzwerk und ihren Einrichtungen und AV-Teams zusammen, um sicherzustellen, dass die Bereitstellungs Abhängigkeiten erfüllt sind und jeder Standort und jeder Raum in Bezug auf Leistung, Netzwerk und Anzeige bereit ist. Stellen Sie außerdem sicher, dass die Anforderungen für die physische Installation erfüllt sind. Überlegungen zur physikalischen Installation finden Sie auf der Website des Anbieters und nutzen Sie die Erfahrung Ihres AV-Teams beim Installieren und montieren von Bildschirmen und beim Ausführen von Kabeln.
 
-Sie können diese Abhängigkeiten in die Planung Anleitungen Links unten erkunden:
+Weitere Informationen zu diesen Abhängigkeiten finden Sie in den folgenden Links zu den Planungsanleitungen:
 
 -   [Überprüfen der Netzwerkverfügbarkeit](srs-v2-prep.md#check-network-availability) 
 -   [Zertifikate](srs-v2-prep.md#certificates)
 -   [Proxy](srs-v2-prep.md#proxy)
 
-**Pro Tipp** - Wenn Sie beabsichtigen, Proxyserver verwenden, um Zugriff auf das Microsoft-Teams oder Skype für Business Online ersten [Dieser Artikel enthält](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Beachten Sie, dass bei Skype für Business-Datenverkehr über Proxyserver, sollten umgehen von Proxyservern vollständig. Skype für Business Datenverkehr ist damit Proxy-Server sicherer machen nicht bereits verschlüsselt. Als Teil Ihrer Bereitstellung breiter wird empfohlen, dass Sie die Anleitung in [Meine Umgebung bewerten](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) für Bandbreite planen und Bewerten des Netzwerks Eignung für Real-Time-Datenverkehr zu befolgen. Verwenden Sie für die gesamte Bandbreite Planung der [MyAdvisor Netzwerk Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (Wir empfehlen, dass Sie erstellen eine Rolle Microsoft Teams Rooms um aktualisiert die beabsichtigte Verwendung der Microsoft-Teams Chatrooms [Video, Bildschirmfreigabe, Audio], und weisen Sie eine Anzahl von Benutzern, die ermittelt die Anzahl der Einheiten von Microsoft-Teams Chatrooms für jeden Standort bereitgestellt werden.) 
+**Pro Tipp** : Wenn Sie beabsichtigen, Proxy Server für den Zugriff auf Microsoft Teams oder Skype for Business Online zu verwenden, [Lesen Sie diesen Artikel](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)zuerst. Beachten Sie, dass es bei Skype for Business-Datenverkehr über Proxy-Server empfehlenswert ist, Proxy Server komplett zu umgehen. Skype for Business-Datenverkehr ist bereits verschlüsselt, sodass Proxy Server ihn nicht sicherer machen. Im Rahmen ihrer umfassenderen Bereitstellung empfehlen wir, dass Sie die Anleitungen unter [evaluieren meiner Umgebung](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) für die Bandbreitenplanung befolgen und die Eignung Ihres Netzwerks für den Echtzeitverkehr bewerten. Verwenden Sie für die gesamte Bandbreitenplanung den myadvisor- [Netzwerk Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (Es wird empfohlen, dass Sie eine Microsoft Teams rooms-Rolle erstellen, um die vorgesehene Verwendung von Microsoft Teams Rooms zu reflektieren [Video, Bildschirmübertragung, Audio], und weisen Sie eine Reihe von Benutzern zu, die der Anzahl der Microsoft Teams Room-Einheiten entsprechen, die auf jeder Website bereitgestellt werden sollen.) 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Vergewissern Sie sich, dass Ihre Websites für Microsoft-Teams Chatrooms wichtigen Anforderungen erfüllen.</li><li>Vergewissern Sie sich, dass Sie genügend Bandbreite für jede Website bereitgestellt haben.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Planen der gerätebereitstellung und der Konfiguration beginnen.</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Vergewissern Sie sich, dass Ihre Websites die wichtigsten Anforderungen für Microsoft Teams-Chatrooms erfüllen.</li><li>Vergewissern Sie sich, dass Sie für jede Website genügend Bandbreite bereitgestellt haben.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Beginnen Sie mit der Planung Ihrer Gerätebereitstellung und-Konfiguration.</li></ul>| 
 
-**Pro-Info-** Website-Planung im Hinblick auf nützlich die folgenden Ressourcen sind. Mehr als nur Microsoft-Teams Chatrooms abdecken, und können in eine vollständige Einführung von Skype für Business Online verwendet werden:
+**Pro-Tipp-** Aus Sicht der Website-für-Website-Planung können Sie die folgenden Ressourcen nützlich finden. Sie decken mehr als nur Microsoft Teams-Räume ab und können in einem vollständigen Rollout von Skype for Business Online verwendet werden:
 
--   [Einführung/Websitemigration Übermittlung Planungshandbuch](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_24)
+-   [Bereitstellungshandbuch für Website Rollout/Migrationsplanung](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_24)
 
--   [Einführung und Planung der Migration - Website (Playbook)](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_16)
+-   [Website Rollout und Migrationsplanung – Textbuch](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_16)
 
     > [!NOTE]
-    > Führen Sie in der Playbook die Aufgaben im Abschnitt "4.3 – > Konferenzräume" unter dem Blatt "4-Endpunkte" für jeden Standort, auf dem Sie vorab Microsoft Teams Chatrooms Geräte bereitstellen. Dies ermöglicht Ihnen das Skript später im Vorgang provisioning Massen-Konto verwenden. 
+    > Führen Sie im Textbuch die Aufgaben im Abschnitt "4,3 – > Konferenzräume" unter dem "4-Endpunkte"-Bogen für jede Website aus, auf der Sie Microsoft Teams rooms-Geräte bereitstellen möchten. Auf diese Weise können Sie das Bereitstellungsskript für das Massen Konto später während des Prozesses verwenden. 
 
 ## <a name="service-readiness"></a>Bereitschaft für den Dienst
 
-Führen Sie zur Vorbereitung der bereitstellungs von Microsoft-Teams Chatrooms den folgenden Schlüssel, zentralen Aufgaben aus:
+Führen Sie die folgenden zentralen Aufgaben aus, um die Bereitstellung Ihrer Microsoft Teams-Räume vorzubereiten:
 
--   Microsoft-Teams Chatrooms Service Account-Features zu definieren.
--   Vorbereiten einer Organisationseinheit und Active Directory-Gruppe, halten Sie den Microsoft-Teams Chatrooms Computer und Dienstkonten, und – optional – Vorbereiten von Gruppenrichtlinienobjekten (GPOs) PowerShell-Remoting aktivieren.
+-   Definieren Sie die Features des Microsoft Teams rooms-Dienstkontos.
+-   Vorbereiten einer Organisationseinheit und einer Active Directory-Gruppe, um die Computer-und Dienstkonten von Microsoft Teams Rooms zu speichern, und – optional – Gruppenrichtlinienobjekte (Group Policy Objects, GPOs) vorzubereiten, um PowerShell-Remoting zu ermöglichen.
 
-### <a name="define-microsoft-teams-rooms-service-account-features"></a>Definieren von Microsoft-Teams Chatrooms Service Account-features 
+### <a name="define-microsoft-teams-rooms-service-account-features"></a>Definieren von Microsoft Teams rooms-Dienstkonto Features 
 
-Je nach den Szenarien für die Zusammenarbeit, die Sie mit der Bereitstellung von Microsoft-Teams Chatrooms aktivieren entschieden haben, müssen Sie die Features und Funktionen, die Sie für jede Microsoft-Teams Chatrooms-Dienstkonto zuweisen, mit denen Sie bestimmen.
+Je nach den Zusammenarbeitsszenarien, die Sie für die Bereitstellung in Microsoft Teams rooms aktivieren möchten, müssen Sie die Features und Funktionen ermitteln, die Sie jedem Microsoft Teams rooms-Dienstkonto zuweisen, das Sie aktivieren.
 
-| **Szenario** | **Beschreibung** | **Microsoft Teams Chatrooms Service Account-Funktion** |
+| **Szenario** | **Beschreibung** | **Microsoft Teams rooms-Dienstkonto Feature** |
 |---------- |------------- | --- |
-| Interaktive Besprechungen            | Verwenden von Sprach-, Video- und Bildschirmfreigabe; tätigen von Chatrooms den Microsoft-Teams eine bookable Ressource                     | Für die Skype für Unternehmen, für Exchange (Ressourcenpostfach) aktiviert aktiviert |
-| Einwahlkonferenzen            | Enable-Besprechungen *direkt* aus der Microsoft-Teams Räume-Konsole mit einwahlkonferenzen Koordinaten gestartet. | Für Audiokonferenzen aktiviert                                          |
-| Ausgehend/eingehende PSTN aufrufen | Aktivieren Sie die Microsoft-Teams Chatrooms Konsole tätigen und annehmen von PSTN-Anrufe                                         | Für Telefonsystem aktiviert                                                |
+| Interaktive Besprechungen            | Verwenden von sprach-, Video-und Bildschirm Freigaben Bereitstellen von Microsoft Teams-Räumen als buchbare Ressource                     | Aktiviert für Skype for Business, aktiviert für Exchange (Ressourcenpostfach) |
+| Einwahlkonferenzen            | Aktivieren von Besprechungen, die *direkt* von der Microsoft Teams rooms-Konsole aus mit Einwahlkonferenz Koordinaten gestartet wurden | Für Audiokonferenzen aktiviert                                          |
+| Ausgehende/eingehende PSTN-Anrufe | Aktivieren der Microsoft Teams rooms-Konsole zum tätigen und empfangen von PSTN-anrufen                                         | Für Telefon System aktiviert                                                |
 
-Weitere Informationen zu Microsoft-Teams Räume-Konten finden Sie unter [Konten für Microsoft Teams Chatrooms konfigurieren](room-systems-v2-configure-accounts.md).
+Weitere Informationen zu Microsoft Teams rooms-Konten finden Sie unter [Konfigurieren von Konten für Microsoft Teams](room-systems-v2-configure-accounts.md)-Chatrooms.
 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, welche Szenarien Sie unterstützen und lizenzierungsanforderungen für die Microsoft-Teams Chatrooms Dienstkonten zu identifizieren.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Vorbereiten der host Computer und Dienstkonten.</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, welche Szenarien unterstützt werden sollen, und ermitteln Sie die Lizenzierungsanforderungen für Ihre Microsoft Teams rooms-Dienstkonten.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Vorbereiten des Hostens von Computer-und Dienstkonten</li></ul>| 
 
 
-_Planen der Tabelle Dienstkonto Microsoft Teams Chatrooms Beispiel_
+_Beispiel für die Planning-Tabelle des Microsoft Teams rooms-servicekontos_
 
-| **Standort**  | **Raumname** | **Raum-Typ** | **Zukünftige Raum-Funktionen**                                                 | **Microsoft-Teams Chatrooms Kontofeatures**                                                                                         |
+| **Standort**  | **Name des Raums** | **Zimmerkategorie** | **Zukünftige Raumfunktionen**                                                 | **Microsoft Teams rooms-Konto Features**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| London Unternehmenszentrale | Curie         | Mittel        | 1 Bildschirm, Audio- und Videodaten plus Präsentation <br>Einwahlkonferenzen Zugriff<br> PSTN-Zugang  | Für die Skype für Unternehmen, für Exchange (Ressourcenpostfach) aktiviert aktiviert <br>Für Audiokonferenzen aktiviert <br>Für Telefonsystem aktiviert |
-| Australische Unternehmenszentrale | Hill          | Große         | 2 Bildschirme, Audio- und Videodaten plus Präsentation<br>Einwahlkonferenzen Zugriff<br> PSTN-Zugang  | Für die Skype für Unternehmen, für Exchange (Ressourcenpostfach) aktiviert aktiviert<br> Für Audiokonferenzen aktiviert <br>Für Telefonsystem aktiviert |
+| Londoner HQ | Curie         | Mittel        | 1 Bildschirm, Audio-und Video plus Präsentation <br>Zugriff auf Einwahlkonferenzen<br> PSTN-Zugriff  | Aktiviert für Skype for Business, aktiviert für Exchange (Ressourcenpostfach) <br>Für Audiokonferenzen aktiviert <br>Für Telefon System aktiviert |
+| Sydney HQ | Hill          | Große         | 2 Bildschirme, Audio-und Video plus Präsentation<br>Zugriff auf Einwahlkonferenzen<br> PSTN-Zugriff  | Aktiviert für Skype for Business, aktiviert für Exchange (Ressourcenpostfach)<br> Für Audiokonferenzen aktiviert <br>Für Telefon System aktiviert |
 
 
-### <a name="prepare-to-host-microsoft-teams-rooms-machine-and-service-accounts-optional"></a>Vorbereiten der zum Hosten von Microsoft-Teams Chatrooms Computer und Dienstkonten (optional)
+### <a name="prepare-to-host-microsoft-teams-rooms-machine-and-service-accounts-optional"></a>Vorbereiten des Hostens von Microsoft Teams rooms-Maschinen-und Dienstkonten (optional)
 
-Um ermöglichen es Ihnen, verwalten und Berichte zu Ihrem Microsoft-Teams Chatrooms Computer- und Dienstkonten, bereiten Sie Ihre lokale Active Directory oder Azure Active Directory (AD Azure). 
+Damit Sie Ihre Microsoft Teams rooms-Computer-und-Dienstkonten verwalten und melden können, bereiten Sie Ihr lokales Active Directory oder Azure Active Directory (Azure AD) vor. 
 
-Definieren Sie eine lokale Active Directory oder Azure AD-Gruppe, um alle Microsoft-Teams Chatrooms (Benutzer) Dienstkonten auf Hinzufügen, und klicken Sie dann erstellen Sie Verwendungsberichte mithilfe des Get-CSUserSession-PowerShell-Cmdlets für Ihre Bereitstellung von Microsoft-Teams Chatrooms. Beispielsweise erstellen Sie eine Gruppe namens SkypeRoomSystemsv2 Dienstkonten. 
+Definieren Sie eine lokale Active Directory-oder Azure Ad-Gruppe, um alle Konten von Microsoft Teams rooms Service (Benutzer) zu hinzuzufügen, und erstellen Sie dann Nutzungsberichte mithilfe des Cmdlets Get-CSUserSession PowerShell in der Bereitstellung von Microsoft Teams rooms. Erstellen Sie beispielsweise eine Gruppe mit dem Namen SkypeRoomSystemsv2-Service-Accounts. 
 
 
-Definieren einer Organisationseinheit in Ihrer lokalen Active Directory oder Azure AD-Hierarchie für alle Microsoft-Teams Chatrooms Computerkonten Artikelseite (Wenn sie mit der Domäne verknüpft sind) und einer Organisationseinheit, um alle Microsoft-Teams Chatrooms Benutzerkonten zu halten. Wenn Sie eine Organisationseinheit für den Microsoft-Teams Chatrooms Computerkonten erstellen, sollten Sie Deaktivieren der Vererbung, um sicherzustellen, dass Sie nur die Richtlinien gelten, die Sie für die Domäne eingebundener Microsoft Teams Chatrooms gelten soll. 
+Definieren Sie eine Organisationseinheit in Ihrer lokalen Active Directory-oder Azure AD-Hierarchie, um alle Microsoft Teams rooms-Computerkonten (wenn Sie der Domäne beigetreten sind) und eine Organisationseinheit für alle Microsoft Teams rooms-Benutzerkonten zu speichern. Wenn Sie eine Organisationseinheit für die Microsoft Teams rooms-Computerkonten erstellen, sollten Sie die Vererbung deaktivieren, um sicherzustellen, dass Sie nur die Richtlinien anwenden, die Sie für die Domäne verwenden möchten, die zu den Microsoft Teams-Räumen beigetreten sind. 
 
-Erstellen Sie ein Gruppenrichtlinienobjekt mit der Organisationseinheit, die Ihre Computerkonten Microsoft Teams Räume enthält zugewiesen. Verwenden Sie diese Option, um: 
+Erstellen Sie ein Gruppenrichtlinienobjekt, das der Organisationseinheit zugeordnet ist, die Ihre Microsoft Teams rooms-Computerkonten enthält. Verwenden Sie Folgendes, um Folgendes zu tun: 
 
--   [Power und Einstellungen für lokales Konto festgelegt](room-systems-v2-operations.md#configuring-group-policy-for-microsoft-teams-rooms).
+-   [Festlegen der Einstellungen für Energie und lokales Konto](room-systems-v2-operations.md#configuring-group-policy-for-microsoft-teams-rooms)
 -   Aktivieren Sie Windows Update.
--   PowerShell-Remoting zu aktivieren. Sie können ein Start-Skript zum Ausführen eines einfachen Skripts konfigurieren: Enable-psremoting sieht - Force
+-   Aktivieren von PowerShell-Remoting Sie können ein Startskript so konfigurieren, dass ein einfaches Skript ausgeführt wird: enable-PSRemoting-Force
 
-PowerShell können Sie eine Reihe von remote-Management-Aktivitäten, einschließlich Abrufen und Festlegen von Konfigurationsinformationen ausführen. PowerShell-Remoting aktiviert *vor* jeder PowerShell-Remoteverwaltung ergreifen kann, platzieren und sollte als Teil Ihrer Bereitstellungsprozesse berücksichtigt werden muss, oder über eine Gruppenrichtlinie konfiguriert. Weitere Informationen zu diesen Funktionen und ermöglicht es ihnen finden Sie unter [Wartung und Betrieb](room-systems-v2-operations.md#remote-management-using-powershell). 
+Sie können PowerShell zum Ausführen einer Reihe von Remote Verwaltungsaktivitäten verwenden, einschließlich Abrufen und Festlegen von Konfigurationsinformationen. PowerShell-Remoting muss aktiviert sein, *bevor* eine PowerShell-Remoteverwaltung durchgeführt werden kann, und sollte als Teil ihrer Bereitstellungsprozesse betrachtet oder über Gruppenrichtlinien konfiguriert werden. Weitere Informationen zu diesen Funktionen und deren Aktivierung finden Sie unter [Wartung und Vorgänge](room-systems-v2-operations.md#remote-management-using-powershell). 
 
 
 ## <a name="configuration-and-deployment"></a>Konfiguration und Bereitstellung 
 
-Planen der Konfiguration und Bereitstellung umfasst die folgenden wichtige Bereiche:
+Die Planung für Konfiguration und Bereitstellung umfasst die folgenden Hauptbereiche:
 
--   Bereitstellen von Konten
--   Gerät für die Softwareinstallation
+-   Kontobereitstellung
+-   Geräte Software Installation
 -   Gerätebereitstellung
--   Microsoft-Teams Chatrooms Anwendung und peripherer Gerätekonfiguration
+-   Microsoft Teams rooms-Konfiguration der Anwendungs-und Peripheriegeräte
 -    Tests
--   Ressourcenmanagement
+-   Ressourcenverwaltung
 
-### <a name="account-provisioning"></a>Bereitstellen von Konten 
+### <a name="account-provisioning"></a>Kontobereitstellung 
 
-Jedes Microsoft Teams Chatrooms Gerät erfordert eine dedizierte und eindeutige Ressourcenkonto, das für Microsoft-Teams oder Skype für Unternehmen und Exchange aktiviert werden muss. Dieses Konto muss ein Raumpostfach auf Exchange gehostet und als einen Besprechungsraum in der Teams oder Skype für die Bereitstellung von Business aktiviert sein. Auf der Seite Exchange muss kalenderverarbeitung konfiguriert sein, damit das Gerät automatisch eingehende Besprechungsanfragen akzeptieren kann. Weitere Informationen zum Erstellen dieser Konten finden Sie unter [Konfigurieren von Konten für Microsoft Teams Chatrooms](room-systems-v2-configure-accounts.md). 
+Für jedes Microsoft Teams rooms-Gerät ist ein dediziertes und eindeutiges Ressourcenkonto erforderlich, das für Microsoft Teams oder Skype for Business und Exchange aktiviert sein muss. Dieses Konto muss über ein Chatroom-Postfach verfügen, das in Exchange gehostet wird, und als Besprechungsraum in der Microsoft Teams-oder Skype for Business-Bereitstellung aktiviert sein. Auf der Exchange-Seite muss die Kalenderverarbeitung so konfiguriert werden, dass das Gerät eingehende Besprechungsanfragen automatisch annehmen kann. Weitere Informationen zum Erstellen dieser Konten finden Sie unter [Konfigurieren von Konten für Microsoft Teams](room-systems-v2-configure-accounts.md)-Chatrooms. 
 
-**Tipp pro** – stellen die Anzeige für diese benennt Konten beschreibende und leicht zu verstehen. Dies sind die Namen, die Benutzern beim Suchen und Hinzufügen von Microsoft-Teams Chatrooms Systemen zu Besprechungen angezeigt wird. Manche Organisationen verwenden die Konvention *Website*-*Raumname*(*Max Raum Kapazität*)-RS, also beispielsweise Curie – eine 12 Person Konferenzraum in London – möglicherweise den Anzeigenamen LON CURIE (12)-RS. 
+**Pro-Tipp** : Stellen Sie die Anzeigenamen für diese Konten anschaulich und verständlich dar. Dies sind die Namen, die Benutzern beim Suchen und Hinzufügen von Microsoft Teams rooms-Systemen zu Besprechungen angezeigt werden. Einige Organisationen verwenden den*Namen*der Konventions *Website*-(max. Raumkapazität)-RS, also beispielsweise Curie – einen 12-Personen-Konferenzraum in London – den Anzeigenamen Lon-Curie (12)-Rs.** 
 
-Wenn Ihre Organisation viele Konferenzräume, die mehrere erfordern verfügt, bereitgestellten Konten empfiehlt [Skype Raum Systeme Konten Provisioning Skripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) Massen-Bereitstellung mehrere Dienstkonten automatisiert zu verwenden.
+Wenn Ihre Organisation über viele Konferenzräume verfügt, für die mehrere, bereitgestellte Konten erforderlich sind, sollten Sie die Bereitstellungs [Skripts für Skype Room Systems-Konten](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) verwenden, um mehrere Dienstkonten in automatisierter Weise zu Massen bereitzustellen.
 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie die Benennungskonvention für Ihre Microsoft-Teams Chatrooms Konten.</li><li>Entscheiden Sie, ob Sie einzelne Konten erstellen, oder verwenden Sie Skripts Massen-Bereitstellung.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Beginnen Sie mit der Planung Ihrer gerätebereitstellung.</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie sich für die Benennungskonvention für Ihre Microsoft Teams rooms-Konten.</li><li>Entscheiden Sie, ob Sie einzelne Konten erstellen oder Massen Bereitstellungsskripts verwenden möchten.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Beginnen Sie mit der Planung der Gerätebereitstellung.</li></ul>| 
 
 
-### <a name="device-software-installation"></a>Gerät für die Softwareinstallation 
+### <a name="device-software-installation"></a>Geräte Software Installation 
 
-Bei der Planung von Microsoft-Teams Chatrooms bereitstellen, müssen Sie eine Anzahl von Optionen, um die erforderliche Software installieren. Häufige Probleme und Ansätze werden in der folgenden Tabelle beschrieben. 
+Wenn Sie die Bereitstellung von Microsoft Teams-Räumen planen, haben Sie eine Reihe von Optionen, die Sie zum Installieren der erforderlichen Software in Frage stellen müssen. In der folgenden Tabelle werden häufige Szenarien und Ansätze beschrieben. 
 
 | **Szenario**            | **Ansatz**         |
 |-------------------------|-----------------------|   
-|Eine kleine Anzahl von Microsoft-Teams Räume-Geräten (<10) bereitstellen. | Wenn Surface Pro-basierten Microsoft Teams Chatrooms verwenden möchten, führen Sie die [installationsanweisungen pro Gerät installieren](console.md). [In diesem Video praktisch führt Sie durch den Prozess.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Wenn Sie eine integrierte Lösung verwenden, mithilfe der Hersteller Bilds bereitstellen und Konfigurieren von Einstellungen nach Bedarf. |
-| Bereitstellen von zwischen 10 und 50 Geräte von einem einzigen Anbieter.     | Erstellen Sie ein Bild WIM-basierte, pause nach [Schritt 6 in der Anleitung](console.md)und erfassen Sie ein Bild Verteilung mit Ihrer Klonen Verteilung Technologie verwendet werden.    |
-| Bereitstellen von mehr als 50 Geräte von Microsoft Teams Chatrooms, Bereitstellen von Geräten von mehr als einem Hersteller oder erfordern organisationsspezifischen Agents im Rahmen der Bereitstellung. | Verwenden Sie eine Aufgabe Sequencer basierenden Build und Verteilung Softwareplattform, wie [System Center Configuration Manager](room-systems-scale.md).  |
+|Bereitstelleneiner kleinen Anzahl von Microsoft Teams rooms-Geräten (<10) | Wenn Sie Surface pro-basierte Microsoft Teams-Räume verwenden, folgen Sie den [Installationsanweisungen für die Installation pro Gerät](console.md). [Dieses handliche Video führt Sie durch den Vorgang.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Wenn Sie eine integrierte Lösung verwenden, verwenden Sie das Image des Herstellers, und konfigurieren Sie die Einstellungen nach Bedarf. |
+| Bereitstellen von 10-und 50-Geräten von einem einzelnen Anbieter.     | Erstellen Sie ein WIM-basiertes Bild, pausieren Sie nach [Schritt 6 in der Anleitung](console.md), und erfassen Sie ein Verteilungs Bild, das mit ihrer Verteilungstechnologie für das Klonen verwendet werden soll.    |
+| Bereitstellen von mehr als 50 Microsoft Teams rooms-Geräten, Bereitstellen von Geräten von mehr als einem Anbieter oder Anfordern von organisationsspezifischen Agents als Teil der Bereitstellung. | Verwenden Sie eine auf Task Sequenzer basierende Software-Build-und-Verteilungsplattform, wie etwa [System Center Configuration Manager](room-systems-scale.md).  |
 
-**Tipp pro** - jede Microsoft-Teams Räume muss eine gültige und eindeutige Computername in Ihrem Netzwerk befinden. Viele für Überwachung und Warnungen Systeme zeigt den Namen des Computers als Schlüssel-ID, daher ist es wichtig zu eine Benennungskonvention für Microsoft-Teams Chatrooms Bereitstellungen zu entwickeln, die können für das Supportpersonal auf einfache Weise die Microsoft-Teams Räume zu finden, die markiert wurde erfordert eine Aktion. Ein Beispiel verwendet möglicherweise ein Muster der MTR -*Website*-*Raumname* (MTR LON CURIE). 
+**Pro-Tipp** – jeder Microsoft Teams-Chatroom muss über einen gültigen und eindeutigen Computernamen in Ihrem Netzwerk verfügen. Viele Überwachungs-und Warnungssysteme zeigen den Computernamen als Schlüsselbezeichner an, daher ist es wichtig, eine Benennungskonvention für Microsoft Teams rooms-Bereitstellungen zu entwickeln, mit deren Hilfe das Supportpersonal problemlos nach den gekennzeichneten Microsoft Teams-Räumen suchen kann. eine Aktion erforderlich ist. Ein Beispiel ist möglicherweise die Verwendung eines Musters des MTR-*Site*-*Room Name* (MTR-Lon-Curie). 
 
-Im Rahmen der Bereitstellung müssen Sie auch sollten Ihre Strategie für die Verwaltung und Konfiguration von der [lokalen Konten](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) , die durch das Installationsprogramm der Microsoft-Teams Räume erstellt werden.
+Als Teil der Bereitstellung müssen Sie auch Ihre Strategie für die Verwaltung und Konfiguration der [lokalen Konten](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) in Frage stellen, die vom Installationsprogramm für Microsoft Teams rooms erstellt werden.
 
-Wir bieten einen Leitfaden zum Verwenden der [Microsoft Azure Monitor](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) zum Überwachen der Bereitstellung von Microsoft-Teams Chatrooms und Verfügbarkeit, Hardware und Software Fehler und Microsoft Teams Chatrooms Anwendungsversion melden. Wenn Sie Microsoft Operations Management-Suite verwenden möchten, installieren Sie den Agent Vorgänge Management Suite als Teil der Installation der Software und konfigurieren die Workspace-Verbindungsinformationen für den Arbeitsbereich. 
+Wir bieten eine Anleitung zur Verwendung des [Microsoft Azure Monitors](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) , um die Bereitstellung von Microsoft Teams Rooms zu überwachen und auf Verfügbarkeit, Hardware/Softwarefehler und Microsoft Teams rooms-Anwendungsversion zu melden. Wenn Sie sich entschließen, Microsoft Operations Management Suite zu verwenden, sollten Sie den Operations Management Suite-Agent als Teil des Software Installationsprozesses installieren und die Arbeitsbereichs Verbindungsinformationen für Ihren Arbeitsbereich konfigurieren. 
 
-Eine zusätzliche Überlegung ist, ob die Microsoft-Teams Räume Domäne beigetreten sein soll. Informationen zu den Vorteilen der Domäne beitreten kann in [Skype Raum System Domäne beitretenden Aspekte](domain-joining-considerations.md)gefunden werden. 
+Eine weitere Überlegung ist, ob die Microsoft Teams-Chatrooms Domänen verbunden sind. Informationen zu den Vorteilen einer Domänenmitgliedschaft finden Sie unter Überlegungen zu den [Domänenbeitritt von Skype Room System](domain-joining-considerations.md). 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, die Microsoft-Teams Chatrooms Gerät-Benennungskonvention während der Bereitstellung verwendet werden.</li><li>Entscheiden Sie, ob Sie Microsoft-Teams Chatrooms Geräte an Ihre Domäne und zum Verwalten und Konfigurieren von lokalen Konten teilnehmen können. </li><li>Entscheiden Sie, ob Sie zum Überwachen der bereitstellungs von Microsoft-Teams Chatrooms Vorgänge Management Suite verwenden.</li><li>Entscheiden Sie, welche Methode Sie zum Bereitstellen von Software und Agents mit dem Microsoft-Teams Chatrooms System im Rahmen der Vorbereitung für die Bereitstellung des verwenden. </li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Starten Sie die Bereitstellungsmethode Gerät planen.</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie sich für die Microsoft Teams rooms-Geräte Benennungskonvention, die während der Bereitstellung verwendet werden soll.</li><li>Entscheiden Sie, ob Sie Microsoft Teams rooms-Geräten zu Ihrer Domäne beitreten möchten, und wie Sie lokale Konten verwalten und konfigurieren. </li><li>Entscheiden Sie, ob Sie die Operations Management Suite zum Überwachen der Microsoft Teams rooms-Bereitstellung verwenden werden.</li><li>Entscheiden Sie, welche Methode Sie für die Bereitstellung der Software und der Agents im Microsoft Teams Room-System zur Vorbereitung der Gerätebereitstellung verwenden werden. </li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Beginnen Sie mit der Planung Ihres Geräte Bereitstellungsansatzes.</li></ul>| 
 
 
 ### <a name="device-deployment"></a>Gerätebereitstellung
 
-Nachdem Sie Ihre Software auf die Microsoft-Teams Chatrooms Einheiten bereitgestellt haben, erstellen Sie Ihr Plan zur liefern die Geräte und ihre zugeordneten Peripheriegeräte zu Ihrer Räumen, und fahren Sie mit der Installation und Konfiguration. 
+Nachdem Sie Ihre Software in den Räumen von Microsoft Teams bereitgestellt haben, erstellen Sie Ihren Plan, um die Geräte und die Ihnen zugewiesenen Peripheriegeräte an Ihre Räume zu senden, und fahren Sie dann mit Installation und Konfiguration fort. 
 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, wer die Website-Bereitstellung verwalten werden.</li><li> Identifizieren Sie die Ressourcen, die die Microsoft-Teams Chatrooms Geräte auf Website installiert und verpflichten sich die Konfiguration und Tests.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Starten Sie das Gerät zu testen.</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, wer die Site-by-Site-Bereitstellung verwalten soll.</li><li> Ermitteln Sie die Ressourcen, die die Microsoft Teams rooms-Geräte auf der Website installieren, und führen Sie die Konfiguration und Tests durch.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Starten Sie den Gerätetest.</li></ul>| 
 
-_Beispieltabelle für die Bereitstellung_
+_Beispiel Bereitstellungs Tabelle_
 
-| **Standort**  | **Raumname** | **Raum-Typ** | **Microsoft-Teams Chatrooms system**  | **Peripheriegeräte**  | **Microsoft-Teams Chatrooms Computername**  | **Microsoft-Teams Chatrooms Ressourcenkonto**  |
+| **Standort**  | **Name des Raums** | **Zimmerkategorie** | **Microsoft Teams rooms-System**  | **Peripheriegeräte**  | **Microsoft Teams rooms-Computername**  | **Ressourcenkonto für Microsoft Teams rooms**  |
 |-----------|---------------|---------------|-----------------------------------|------------------|------------------------------------------|---------------------------------------------|
-| London Unternehmenszentrale | Curie         | Mittel        |                                   |                  |                                          |                                             |
-| Australische Unternehmenszentrale | Hill          | Große         |                                   |                  |                                          |                                             |
+| Londoner HQ | Curie         | Mittel        |                                   |                  |                                          |                                             |
+| Sydney HQ | Hill          | Große         |                                   |                  |                                          |                                             |
 
-### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Microsoft-Teams Chatrooms Anwendung und peripherer Gerätekonfiguration 
+### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Microsoft Teams rooms-Konfiguration der Anwendungs-und Peripheriegeräte 
 
-Nach dem jede Microsoft-Teams Chatrooms System physisch bereitgestellt wurde, und die unterstützten Peripheriegeräte verbunden ist, müssen Sie die Anwendung Microsoft-Teams Chatrooms, weisen Sie das Microsoft-Teams Chatrooms Ressourcenkonto und Kennwort zuvor erstellten konfigurieren , um die Microsoft-Teams Chatrooms System Microsoft-Teams oder Skype für Unternehmen und Exchange anmelden zu ermöglichen. Der Schlüssel zertifizierten USB-audio und video Peripheriegeräte an anderer Stelle im Dokument verknüpft verwenden können. Nicht auf diese Weise kann zu unvorhersehbaren führen. 
+Nachdem jedes Microsoft Teams rooms-System physisch bereitgestellt wurde und die unterstützten Peripheriegeräte verbunden sind, müssen Sie die Microsoft Teams rooms-Anwendung so konfigurieren, dass das zuvor erstellte Ressourcenkonto und Kennwort für Microsoft Teams rooms zugewiesen wird. , um das Microsoft Teams rooms-System für die Anmeldung bei Microsoft Teams oder Skype for Business und Exchange zu aktivieren. Der Schlüssel zur Nutzung von zertifizierten USB-Audio-und-Video-Peripheriegeräten, die an anderer Stelle im Dokument miteinander verbunden sind. Wenn Sie dies nicht tun, kann dies zu einem unvorhersehbaren Verhalten führen. 
 
-Sie können jede Microsoft-Teams Chatrooms System manuell konfigurieren. Alternativ können Sie eine zentral gespeicherten verwenden – Microsoft Teams Chatrooms XML-Konfigurationsdatei zum Verwalten der Einstellungen und Nutzen eines Startpfade GPO-Skripts, um die Konfiguration angewendet werden soll, jedes Mal Microsoft Teams Chatrooms Systemstart. 
+Sie können jedes Microsoft Teams Room-System manuell konfigurieren. Alternativ können Sie eine zentral gespeicherte XML-Konfigurationsdatei für Microsoft Teams-Räume verwenden, um die Anwendungseinstellungen zu verwalten und ein Start-GPO-Skript zu nutzen, um die gewünschte Konfiguration jedes Mal erneut anzuwenden, wenn die Microsoft Teams rooms-System bootet. 
 
-Weitere Informationen zur Verwendung von XML-Konfigurationsdatei finden Sie unter [Verwalten von einer Microsoft-Teams Chatrooms Konsole Einstellungen Remote mit einer XML-Konfigurationsdatei](xml-config-file.md). 
+Weitere Informationen zum Verwenden der XML-Konfigurationsdatei finden Sie unter [Verwalten von Microsoft Teams rooms-Konsoleneinstellungen Remote mit einer XML-Konfigurationsdatei](xml-config-file.md). 
 
-[Remote-PowerShell](room-systems-v2-operations.md#remote-management-using-powershell) können Sie die Konfiguration der Microsoft-Teams Chatrooms für berichterstellungsanforderungen ziehen. 
+Sie können [Remote-PowerShell](room-systems-v2-operations.md#remote-management-using-powershell) verwenden, um die Microsoft Teams rooms-Konfiguration für Berichterstattungsanforderungen abzurufen. 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Sie manuell konfigurieren Sie jedes System Microsoft Teams Chatrooms oder eine zentrale XML-Datei (eine pro Gerät Microsoft Teams Chatrooms) verwenden.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Definieren Sie Ihren Ansatz für die Remoteverwaltung.</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Sie jedes Microsoft Teams Room-System manuell konfigurieren oder eine zentrale XML-Datei verwenden möchten (eine pro Microsoft Teams rooms-Gerät).</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Definieren Ihres Remote Verwaltungsansatzes</li></ul>| 
 
 ### <a name="testing"></a> Tests
 
-Nachdem das Microsoft-Teams Chatrooms System bereitgestellt wurde, sollten Sie sie testen. Überprüfen Sie, dass die Funktionen aufgeführt, die in der [Hilfe zu Microsoft-Teams Chatrooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) auf dem Gerät bereitgestellt werden. Es wird dringend empfohlen, dass das Bereitstellungsteam stellen Sie sicher, dass die Microsoft-Teams Räume Microsoft Operations Management Suite Protokollierung ist (falls verwendet). Es ist außerdem wichtig, dass Sie eine Reihe von Test-Aufrufe und Besprechungen auf Anrufqualität prüfen vornehmen. Weitere Informationen finden Sie unter diese [Prüfliste für die Bereitstellung hilfreich](console.md#microsoft-teams-rooms-deployment-checklist).
+Nachdem das Microsoft Teams rooms-System bereitgestellt wurde, sollten Sie es testen. Überprüfen Sie, ob die in [Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) -Chatrooms aufgeführten Funktionen auf dem bereitgestellten Gerät funktionieren. Wir empfehlen dringend, dass das Bereitstellungsteam überprüft, ob die Microsoft Teams-Räume in Microsoft Operations Management Suite (falls verwendet) angemeldet sind. Es ist auch wichtig, dass Sie eine Reihe von Testanrufen und Besprechungen vornehmen, um die Qualität zu überprüfen. Weitere Informationen finden Sie in dieser [hilfreichen Bereitstellungscheckliste](console.md#microsoft-teams-rooms-deployment-checklist).
 
-Es wird empfohlen, im Rahmen des allgemeinen Teams oder Skype für Business Einführung, Erstellen von Dateien für aufrufen Quality Dashboard (CQD) konfigurieren, überwacht die Qualität Trends und Teilnahme an die Qualität der Erfahrung Überprüfungsprozess. Weitere Informationen finden Sie im [Erfahrung überprüfen Handbuch für Quality of](https://aka.ms/qerguide). 
+Wir empfehlen, dass Sie im Rahmen der allgemeinen Teams oder des Skype for Business-Rollouts Bausteine für das Anruf Qualitäts Dashboard (CQD) konfigurieren, qualitätstrends überwachen und sich an der Prüfung der Qualität der Erfahrung beteiligen. Weitere Informationen finden Sie im [Leitfaden zur Überprüfung der Qualität der Benutzerfreundlichkeit](https://aka.ms/qerguide). 
 
-**Tipp pro** – die [Matrix testen](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) von [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) enthält eine Registerkarte mit einer Reihe von Microsoft-Teams Chatrooms Tests, die Sie als Teil der Tests überprüfen sollten. 
+**Pro-Tipp** – die [Test Matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) , die in myadvisor zur Verfügung steht, enthält eine Registerkarte mit einer Reihe von Microsoft Teams rooms-Tests, die Sie im Rahmen Ihrer Tests überprüfen sollten. [](https://myadvisor.fasttrack.microsoft.com/) 
 
-### <a name="asset-management"></a>Ressourcenmanagement 
+### <a name="asset-management"></a>Ressourcenverwaltung 
 
-Im Rahmen der Bereitstellung, Ihre Anlage Register Raumname, Gerätename Microsoft Teams Chatrooms, angemeldeten Microsoft Teams Chatrooms Ressourcenkonto aktualisieren möchten, und Peripheriegeräte zugewiesen (und welche USB-Anschlüsse verwenden). 
+Als Teil der Bereitstellung sollten Sie Ihr Anlagenregister mit dem Raumnamen, dem Gerätenamen für Microsoft Teams rooms, dem Ressourcenkonto für signierte Microsoft Teams und den zugewiesenen Peripheriegeräten (und den verwendeten USB-Ports) aktualisieren. 
 
-_Anlage Beispieltabelle_
+_Beispiel für eine Anlagentabelle_
 
-| **Standort**  | **Raumname** | **Raum-Typ** | **Microsoft-Teams Chatrooms seriellen No.**  | **Peripheriegeräte / seriellen Selected / Ports**  | **Microsoft-Teams Chatrooms Computername**  | **Microsoft-Teams Räume-Dienstkonto**  | **Datum bereitgestellt** |
+| **Standort**  | **Name des Raums** | **Zimmerkategorie** | **Microsoft Teams rooms Serial-Nr.**  | **Peripheriegeräte/serielle Nummern/Anschlüsse**  | **Microsoft Teams rooms-Computername**  | **Microsoft Teams rooms-Dienstkonto**  | **Bereitstellungsdatum** |
 |-----------|---------------|---------------|------------------------------------------|------------------------------------------|------------------------------------------|--------------------------------------------|-------------------|
-| London Unternehmenszentrale | Curie         | Mittel        |                                          |                                          |                                          |                                            |                   |
-| Australische Unternehmenszentrale | Hill          | Große         |                                          |                                          |                                          |                                            |                   |
+| Londoner HQ | Curie         | Mittel        |                                          |                                          |                                          |                                            |                   |
+| Sydney HQ | Hill          | Große         |                                          |                                          |                                          |                                            |                   |
 
 

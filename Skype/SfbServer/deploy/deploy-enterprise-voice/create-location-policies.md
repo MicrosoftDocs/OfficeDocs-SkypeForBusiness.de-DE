@@ -1,10 +1,10 @@
 ---
-title: Erstellen von ortungsrichtlinien in Skype für Business Server
+title: Erstellen von Standortrichtlinien in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,30 +13,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
-description: Lesen Sie in diesem Thema erfahren, wie konfigurieren erweiterten notrufunterstützung (E9-1-1) anhand von Standortrichtlinien in Skype für Business Server Enterprise-VoIP.
-ms.openlocfilehash: 1c00663dfa8c2bc1896b19790d4b2080d336928b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Lesen Sie dieses Thema, um zu erfahren, wie Sie in Skype for Business Server Enterprise-VoIP erweiterte Notfalldienst (E9-1-1)-Standortrichtlinien konfigurieren.
+ms.openlocfilehash: e3e98394b660174eeb58b259de0121196934ad3c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892986"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286376"
 ---
-# <a name="create-location-policies-in-skype-for-business-server"></a>Erstellen von ortungsrichtlinien in Skype für Business Server
+# <a name="create-location-policies-in-skype-for-business-server"></a>Erstellen von Standortrichtlinien in Skype for Business Server
 
-Lesen Sie in diesem Thema erfahren, wie konfigurieren erweiterten notrufunterstützung (E9-1-1) anhand von Standortrichtlinien in Skype für Business Server Enterprise-VoIP. 
+Lesen Sie dieses Thema, um zu erfahren, wie Sie in Skype for Business Server Enterprise-VoIP erweiterte Notfalldienst (E9-1-1)-Standortrichtlinien konfigurieren. 
 
-Skype für Business Server verwendet eine ortungsrichtlinie, um Skype für Business-Clients für E9-1-1 bei der Clientregistrierung aktivieren. Eine Standortrichtlinie enthält die Einstellungen für die Definition der Notrufdienstimplementierung. Weitere Informationen finden Sie unter [Planen von Standortrichtlinien für Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
+Skype for Business Server verwendet eine ortungsrichtlinie, um Skype for Business-Clients für E9-1-1 während der Clientregistrierung zu aktivieren. Eine Standortrichtlinie enthält die Einstellungen für die Definition der Notrufdienstimplementierung. Weitere Informationen finden Sie unter [Planen von Standortrichtlinien für Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
 
-Sie können mithilfe der Skype für die Business-Systemsteuerung oder mithilfe des Cmdlets [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) Standortrichtlinien definieren.
+Sie definieren Standortrichtlinien mithilfe des Skype Control Panels für Unternehmen oder mithilfe des Cmdlets [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) .
 
 > [!NOTE]
-> Skype für Business Server unterstützt jetzt die Konfiguration von mehreren Notfall Zahlen für einen Client an. Wenn Sie mehrere Notfall Nummern konfigurieren möchten, müssen Sie die Informationen in [mehrere Notfall Zahlen in Skype für Business Server planen](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) und [Konfigurieren von mehreren Notfall Zahlen in Skype für Business](configure-multiple-emergency-numbers.md)befolgen. 
+> Skype for Business Server unterstützt jetzt die Konfiguration mehrerer Notrufnummern für einen Client. Wenn Sie mehrere Notrufnummern konfigurieren möchten, müssen Sie die Informationen unter [Planen mehrerer Notrufnummern in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) und [Konfigurieren mehrerer Notrufnummern in Skype for Business](configure-multiple-emergency-numbers.md)befolgen. 
 
 Sie können die globale Standortrichtlinie bearbeiten und bereichsspezifische Standortrichtlinien erstellen. Ein Client, der sich nicht in einem Subnetz mit zugeordneter Standortrichtlinie befindet oder dem nicht direkt eine Standortrichtlinie zugeordnet wurde, ruft eine globale Richtlinie ab. Bereichsspezifische Standortrichtlinien werden Subnetzen oder Benutzern zugewiesen.   
 
 Zum Erstellen einer Standortrichtlinie müssen Sie ein Konto verwenden, das Mitglied der Gruppe „RTCUniversalServerAdmins“ oder der Administratorrolle „CsVoiceAdministrator“ ist oder entsprechende Administratorrechte und -berechtigungen besitzt.
 
-Weitere Informationen finden Sie unter [Planen von Standortrichtlinien für Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md). Cmdlets in diesem Verfahren verwenden eine Standortrichtlinie, die mit den folgenden Werten definiert ist. Eine vollständige Beschreibung des Cmdlet-Parameter und Werte finden Sie unter [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps).
+Weitere Informationen finden Sie unter [Planen von Standortrichtlinien für Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md). Cmdlets in diesem Verfahren verwenden eine Standortrichtlinie, die mit den folgenden Werten definiert ist. Eine vollständige Beschreibung der Cmdlet-Parameter und-Werte finden Sie unter [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps).
 
 
 | **Element**                               | **Wert**                                                                                                                                                                          |

@@ -1,28 +1,28 @@
 ---
-title: PIN-Richtlinie Erstellen einer neuen oder Bearbeiten einer vorhandenen
+title: PIN-Richtlinie neue erstellen oder vorhandene bearbeiten
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.SecPinPolicyEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
-description: Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 19f99712050d9914398b2865b0b0302a151e050e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: 8b5a082d4bc9f547e01110c4dc97324d3eeba5a0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906606"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291081"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>PIN-Richtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen PIN-Richtlinie
 
-Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausführen möchten.
+Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
 - [Erstellen einer neuen PIN-Richtlinie in Skype for Business Server 2015](../../manage/authentication/create-a-new-pin-policy.md)
 
@@ -36,5 +36,5 @@ Was möchten Sie tun? Klicken Sie auf den Link für die Aufgabe, die Sie ausfüh
 
 - [Delete Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
 
-Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype für Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype für Business Server 2015](../../manage/manage.md).
+Details zu den verschiedenen Verfahren, die Sie mit der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype for Business Server 2015](../../manage/manage.md).
 

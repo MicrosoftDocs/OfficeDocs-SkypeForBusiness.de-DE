@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,77 +22,77 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 97dfa3c330979b151ea851be14e3149ecdfd10b7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8196b764f61fda7691d65a74f2eb89969ef2d48a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204961"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305245"
 ---
 # <a name="set-up-calling-plans"></a>Einrichten von Anrufplänen
 
-Anrufe an andere Skype für Unternehmensbenutzer sind kostenlos, allerdings sollen die Benutzer werden sollen, rufen Sie Telefone außerhalb Ihres Unternehmens Abrufen einer nationalen aufrufen planen oder eine International aufrufen planen in Office 365. Es ist einfach, diese für Ihr Unternehmen einzurichten. 
+Anrufe an andere Skype for Business-Nutzer sind kostenlos, aber wenn Sie möchten, dass Ihre Nutzer Telefone außerhalb Ihres Unternehmens anrufen können, besorgen Sie sich einen Plan für Inlandsanrufe oder einen internationalen Anrufplan in Office 365. Es ist einfach, das für Ihr Unternehmen einzurichten. 
 
-## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Schritt 1: Herauszufinden Sie, ob plant Aufrufen in Ihrem Land/Ihrer Region verfügbar sind
-Wechseln Sie zur [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) und wählen Sie Ihr Land oder Region plant aufrufen Verfügbarkeitsinformationen oder Informationen zu Audiokonferenzen, Telefonsystem, gebührenpflichtige und gebührenfreie Rufnummer abrufen Zahlen und Communications haben.
+## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Schritt 1: ermitteln, ob Anrufpläne in Ihrem Land/Ihrer Region verfügbar sind
+Wechseln Sie zur [Verfügbarkeit von Konferenz-und Anrufplänen in Land und Region](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) , und wählen Sie Ihr Land oder Ihre Region aus, um Informationen zur Verfügbarkeit von Anrufplänen sowie Informationen zu Audiokonferenzen, Telefonanlagen, gebührenpflichtigen und gebührenfreien anrufen zu erhalten. Nummern und Guthaben für Kommunikationen.
   
-## <a name="step-2-buy-and-assign-licenses"></a>Schritt 2: Kaufen und Zuweisen von Lizenzen
-1. Wenn das Telefonsystem in Office 365-Features nicht in Ihren Plan steht, müssen Sie möglicherweise **Telefonsystem** Add-on-Lizenzen erwerben. Nachdem Sie **Telefonsystem** Lizenzen haben, kaufen Sie [Für Office 365-Pläne aufrufen](calling-plans-for-office-365.md). Finden Sie unter [Microsoft-Teams, Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)und kaufen Sie die Lizenzen und Plan. 
+## <a name="step-2-buy-and-assign-licenses"></a>Schritt 2: erwerben und Zuweisen von Lizenzen
+1. Wenn das Telefonsystem in Office 365-Feature nicht in Ihrem Plan enthalten ist, müssen Sie möglicherweise **Telefonsystem** -Add-on-Lizenzen erwerben. Nachdem Sie über **Telefon System** Lizenzen verfügen, kaufen Sie [Anrufpläne für Office 365](calling-plans-for-office-365.md). Lesen Sie [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md), und kaufen Sie die Lizenzen und den Plan. 
     
     > [!TIP]
-    > **Telefonsystem** Lizenzen und Aufrufen in Office 365-Pläne wechseln zusammen, um herauszufinden, die Option zum erwerben aufrufen plant, zuerst die **Telefonsystem** Lizenzen müssen Sie verfügen.
+    > **Telefonsystem** Lizenzen und Anrufpläne in Office 365 zusammen gehen, um die Option zum Kauf von Anrufplänen zu sehen, müssen Sie zuerst über die **Telefonsystem** Lizenzen verfügen.
   
-2. Weisen Sie zuerst die Lizenzen aus, und weisen Sie an die Personen in Ihrer Organisation aufrufen planen. Finden Sie unter [Microsoft-Teams, Zuweisen von Lizenzen](assign-teams-licenses.md).
+2. Weisen Sie zunächst die Lizenzen zu, und weisen Sie den Personen in Ihrer Organisation einen Anrufplan zu. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md).
     
 ## <a name="step-3-get-phone-numbers"></a>Schritt 3: Abrufen von Telefonnummern
 Es gibt drei Möglichkeiten, neue Benutzernummern zu erhalten:
 
-- **Verwenden Sie die Skype für Business Administrationscenter.** Für einige Länder/Regionen können Sie Zahlen für Ihre Benutzer mithilfe der Skype für Business Administrationscenter erhalten möchten, finden Sie unter [Getting Rufnummern für Ihre Benutzer](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
+- **Verwenden Sie das Skype for Business Admin Center.** In einigen Ländern/Regionen können Sie mithilfe des Skype for Business admin Centers Nummern für Ihre Benutzer abrufen, finden Sie unter [Abrufen von Telefonnummern für Ihre Benutzer](/microsoftteams/getting-phone-numbers-for-your-users).
     
-- **Portieren von bestehenden Nummern.** Sie können Anschluss oder Nummern der von Ihrer aktuellen Dienstanbieter oder Mobilfunkbetreibers zu Office 365 übertragen. Finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md) oder [Rufnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) Weitere Informationen, die Ihnen dabei zu unterstützen.  
+- **Portieren von bestehenden Nummern.** Sie können vorhandene Nummern von Ihrem aktuellen Dienstanbieter oder Netzbetreiber an Office 365 portieren oder übertragen. Weitere Informationen dazu finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md) oder [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .  
   
-- **Verwenden Sie ein Anforderungsformular für neue Nummern.** In einigen Fällen (je nach Ihrem Land/Region) nicht um Ihre neue Rufnummern, die mit der Skype für Business Administrationscenter zu erhalten, oder benötigen Sie bestimmte Telefonnummern oder Ortskennzahlen. In diesem Fall müssen Sie ein Formular herunterladen und an uns senden. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
+- **Verwenden Sie ein Anforderungsformular für neue Nummern.** Manchmal (je nach Land/Region) können Sie Ihre neuen Telefonnummern nicht über das Skype for Business Admin Center erhalten, oder Sie benötigen bestimmte Telefonnummern oder Ortsvorwahl. In diesem Fall müssen Sie ein Formular herunterladen und an uns senden. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
-## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Schritt 4: Hinzufügen von Notfall-Adressen und Speicherorte für Ihre Organisation
-<a name="bkmk_add_addresses"></a> Eine Notfall-Adresse muss eine Telefonnummer; zugeordnet werden Wenn diese Zuordnung geschieht variiert zwischen Ländern und Regionen. In den Vereinigten Staaten müssen Sie beispielsweise eine Notfalladresse zuordnen, wenn Sie die Telefonnummer einem Benutzer zuweisen. Im Vereinigten Königreich müssen Sie der Telefonnummer eine Notfalladresse zuordnen, wenn Sie die Telefonnummern von Office 365 erhalten oder wenn Sie Telefonnummern von Ihrem aktuellen Dienstanbieter übertragen. 
+## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Schritt 4: Hinzufügen von Notfalladressen und-Standorten für Ihre Organisation
+<a name="bkmk_add_addresses"></a> Eine Notfalladresse muss mit einer Telefonnummer verbunden sein; Wenn diese Zuordnung erfolgt, kann zwischen Land und Regionen variieren. In den Vereinigten Staaten müssen Sie beispielsweise eine Notfalladresse zuordnen, wenn Sie die Telefonnummer einem Benutzer zuweisen. Im Vereinigten Königreich müssen Sie der Telefonnummer eine Notfalladresse zuordnen, wenn Sie die Telefonnummern von Office 365 erhalten oder wenn Sie Telefonnummern von Ihrem aktuellen Dienstanbieter übertragen. 
 
-**Zum Hinzufügen einer Notfall Adresse für Ihre Organisation**
+**So fügen Sie eine Notfalladresse für Ihre Organisation hinzu**
 
-![SFB-Logo-30x30.png](media/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
 
-Wechseln Sie in der Skype für Business Administrationscenter, um **VoIP** > **Emergency Speicherorte** > **neue Adresse hinzufügen**. Weitere Informationen finden Sie unter [Hinzufügen oder entfernen und Notfall Adresse für Ihre Organisation](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) .
+Wechseln Sie im Skype for Business Admin Center zu **Voice** > **Emergency Locations** > **neue Adresse hinzufügen**. Weitere Informationen finden Sie unter [Hinzufügen oder entfernen und Notfalladresse für Ihre Organisation](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) .
 
-**So fügen Sie einem Notfall Speicherort für Ihre Organisation hinzu** 
+**So fügen Sie einen Notfall Standort für Ihre Organisation hinzu** 
 
-![SFB-Logo-30x30.png](media/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
 
-Wechseln Sie in der Skype für Business Administrationscenter, um **VoIP** > **Emergency Speicherorte** > **neue Adresse hinzufügen**. Einzelheiten finden Sie unter [Hinzufügen, ändern oder Entfernen von einem Notfall Speicherort für Ihre Organisation](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) .
+Wechseln Sie im Skype for Business Admin Center zu **Voice** > **Emergency Locations** > **neue Adresse hinzufügen**. Details finden Sie unter [hinzufügen, ändern oder Entfernen eines Notfall Standorts für Ihre Organisation](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) .
 
     
-## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>Schritt 5: Zuweisen einer Notfall Adresse und eine Telefonnummer ein, die einem Benutzer
-<a name="bkmk_add_addresses"></a> Beim Aufrufen in Office 365-Pläne einrichten sind, müssen Sie Zuweisen einer Telefonnummer und Notfall Adresse jeden Ihrer Benutzer. Die Notfalladresse muss angelegt werden, bevor Sie sie einer Telefonnummer zuweisen können. 
+## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>Schritt 5: Zuweisen einer Notfalladresse und einer Telefonnummer zu einem Benutzer
+<a name="bkmk_add_addresses"></a> Wenn Sie in Office 365 Anrufpläne einrichten, müssen Sie jedem Benutzer eine Telefonnummer und eine Notfalladresse zuweisen. Die Notfalladresse muss angelegt werden, bevor Sie sie einer Telefonnummer zuweisen können. 
 
-**So fügen Sie eine Notfall-Adresse für einen Benutzer hinzu** 
+**So fügen Sie eine Notfalladresse für einen Benutzer hinzu** 
 
-![SFB-Logo-30x30.png](media/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
 
-Wechseln Sie in der Skype für Business Administrationscenter, um **VoIP** > **VoIP-Benutzer** > **Emergency Location** > **weisen Anzahl** > **Speicherort ändern**. Einzelheiten finden Sie unter [zuweisen oder eine Notfall-Adresse für einen Benutzer ändern](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user) .
+Wechseln Sie im Skype for Business Admin Center zu **VoIP** > -**Benutzer** > **Notfall Standort** > **Nummer** > **ändern**. Weitere Informationen finden Sie unter [zuweisen oder Ändern einer Notfalladresse für einen Benutzer](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user) .
 
    > [!NOTE]
-   > Sie können auch eine Notfall-Adresse zuweisen, wenn Sie eine Telefonnummer zuweisen.
+   > Sie können auch eine Notfalladresse zuweisen, wenn Sie eine Telefonnummer zuweisen.
 
-**Eine Telefonnummer ein, die einem Benutzer zuweisen**
+**So weisen Sie einem Benutzer eine Telefonnummer zu**
 
-![SFB-Logo-30x30.png](media/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
 
-Wechseln Sie in der Skype für Business Administrationscenter, um **VoIP** > **VoIP-Benutzer** > **weisen Anzahl** > **Speicherort ändern**. Einzelheiten finden Sie unter [zuweisen, ändern oder entfernen Sie eine Rufnummer für einen Benutzer](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user) .
+Wechseln Sie im Skype for Business Admin Center zu **VoIP** > **Benutzer** > **zuweisen** > des Orts für die Nummern**Änderung**. Weitere Informationen finden Sie unter [zuweisen, ändern oder Entfernen einer Telefonnummer für einen Benutzer](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) .
 
-## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>Schritt 6: Weisen Sie die Benutzer über die neuen Rufnummern
+## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>Schritt 6: informieren der Benutzer über Ihre neuen Telefonnummern
 <a name="bkmk_add_addresses"> </a>
 
 Wir empfehlen das Senden von E-Mail-Nachrichten oder die in Ihrem Unternehmen bevorzugte Kommunikationsmethode, um die Benutzer über ihre neuen Telefonnummern in Kenntnis zu setzen. 
 
-Hier ist, wie sie diese Telefonnummer in ihrer app **Skype für Unternehmen** anzeigen können:
+So können Sie diese Telefonnummer in Ihrer **Skype for Business** -app sehen:
   
 1. Melden Sie sich bei Skype for Business auf Ihrem Desktop an.
     

@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -19,19 +19,19 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: 81cc2f0c959bb4c611abc7ff198e6c5befc58c21
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 36af4a817a106758fbe95fb91e03661b9e200b85
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32210856"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299183"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute und QoS in Skype for Business Online
 
 Stellen Sie mithilfe von Azure ExpressRoute für Office 365 und Skype for Business Online eine Verbindung zu Office 365 über eine dedizierte Netzwerkverbindung her. Mit Ihrer dedizierten Verbindung für Ihre Skype for Business-Anwendungen profitieren Sie von einer zuverlässigen und vorhersehbaren Leistung sowie Privatsphäre außerhalb des öffentlichen Internets. Sie können jetzt eine bessere Netzwerkverbindung mit Office 365 und Skype for Business Online erwerben, die Vorhersehbarkeit, Zuverlässigkeit der Unternehmensklasse und eine SLA zur Verfügbarkeit bietet.
   
 > [!NOTE]
-> Eine neue Version des Rechners Bandbreite verfügbar ist: [Skype für Unternehmen, Bandbreite Rechner](https://go.microsoft.com/fwlink/?LinkId=715766). Die Anweisungen in diesem Dokument werden jedoch die Lync 2010 und 2013 Bandbreite Rechner verwenden. 
+> Eine neue Version des Bandbreiten Rechners steht zur Verfügung: [Skype for Business, bandbreitenrechner](https://go.microsoft.com/fwlink/?LinkId=715766). In den Anweisungen in diesem Dokument wird jedoch der bandbreitenrechner lync 2010 und 2013 verwendet. 
   
 ## <a name="skype-for-business-online-and-expressroute"></a>Skype for Business Online und ExpressRoute
 
@@ -82,7 +82,7 @@ Für die Bereitstellung von konsistenten und hochwertigen Echtzeitdiensten für 
     
 - Die Netzwerkswitche und -router müssen außerdem eine unterbrechungsfreie Stromversorgung (USV) nutzen, damit sie ihren Betrieb bei einem Stromausfall fortsetzen können.
     
-    Sie müssen eine Wi-Fi-Verbindungen ihre Büros LAN, sodass es wird dringend empfohlen, mit denen sie eine zertifizierten Skype für Business Wi-Fi-Infrastruktur Partner von [Skype für Business Solutions](https://go.microsoft.com/fwlink/?LinkId=690281).
+    Da Sie über eine WLAN-Verbindung zu Ihren LAN-Niederlassungen verfügen, empfehlen wir dringend, dass Sie einen zertifizierten Skype for Business-WLAN-Infrastruktur Partner von [Skype for Business-Lösungen](https://go.microsoft.com/fwlink/?LinkId=690281)verwenden.
     
     > [!TIP]
     >  Drahtlose 802.11n- und 802.11ac-Zugriffspunkte werden empfohlen.
@@ -101,7 +101,7 @@ Es gibt zwei Möglichkeiten, wie Daten von Skype for Business-Anwendungen zu den
     
 Zum Implementieren der Endpunktmarkierung müssen Sie alle mit der Domäne verbundenen Windows-Rechner für Dewey Law LLC. so konfigurieren, dass jedes Paket mit der geeigneten DiffServ Control Point (DSCP)-Markierung markiert wird, und dann QoS auf allen Netzwerkswitchen und -routern über alle Bürostandorte hinweg implementieren, um sicherzustellen, dass die QoS-Markierungen beibehalten und nicht entfernt werden. DSCP-Markierungen auf Netzwerkpaketen teilen dem Dienstanbieter mit, welche Priorität für dieses Netzwerkpaket festgelegt ist. **Weitere Informationen zu DSCP finden Sie im Abschnitt zu QoS in Teil 2.**
   
-Für eine Netzwerk-ACL-basierte Zuweisung werden die DSCP-Prioritätsmarkierungen auf einem Upstreamrouter implementiert und basieren auf dem UDP-Quellport. Die empfohlene Portbereiche für jede Anwendung werden im Abschnitt 2.6.1.1 der [Netzwerk-Planung, Überwachung und Problembehandlung von Lync Server](https://go.microsoft.com/fwlink/?LinkId=690286)aufgelistet. Es ist wichtig, dass Sie dies mit der allgemeinen QoS-Implementierung von Dewey Law LLC koordinieren und auf unterschiedliche QoS-Richtlinien und potenzielle Konflikte bei der Paketmarkierung achten.
+Für eine Netzwerk-ACL-basierte Zuweisung werden die DSCP-Prioritätsmarkierungen auf einem Upstreamrouter implementiert und basieren auf dem UDP-Quellport. Die empfohlenen Portbereiche für jede Anwendung sind in Abschnitt 2.6.1.1 von [Netzwerkplanung,-Überwachung und-Problembehandlung mit lync Server](https://go.microsoft.com/fwlink/?LinkId=690286)aufgeführt. Es ist wichtig, dass Sie dies mit der allgemeinen QoS-Implementierung von Dewey Law LLC koordinieren und auf unterschiedliche QoS-Richtlinien und potenzielle Konflikte bei der Paketmarkierung achten.
   
 Jeder ExpressRoute-Netzwerkdienstanbieter verfügt über eine Dienstklasse (QoS), die für Echtzeit-VoIP und -video geeignet ist. Diese Dienstklasse heißt „Expedited Forwarding" (EF) für VoIP und „Assured Forwarding" (AF) für Video. Sie müssen die Menge der Bandbreite, die Sie für VoIP-EF-Datenverkehr erwerben, sehr sorgfältig dimensionieren. Denn die VoIP-Dienstklasse ist sehr unnachgiebig, falls Sie mehr VoIP-Datenverkehr senden, als die Dienstklasse bereitstellt.
   
@@ -110,12 +110,12 @@ Jeder ExpressRoute-Netzwerkdienstanbieter verfügt über eine Dienstklasse (QoS)
   
 Bei der Betrachtung des allgemeinen Designs für Dewey Law LLC. ist es äußerst wichtig, dass Sie die Menge der Bandbreite, die zur Unterstützung des VoIP-Datenverkehrs im gesamten Netzwerk erforderlich ist, präzise bestimmen und jedes VoIP-Paket (und nur VoIP-Pakete) mit der DSCP-Einstellung für VoIP markieren (d. h. DSCP EF 46).
   
-Zum Implementieren der QoS in ihren Unternehmen Netzwerk, die Endpunkte oder Router muss jedes Paket mit den entsprechenden Layer 3 Priorität Indikator (d. h., DSCP) markieren. Entlang des Pfads gesamte Netzwerk muss alle Switch und Router die QoS-Option aktiviert haben. Müssen auch nur ein Netzwerk-Switch oder dem Router, für das QoS aktiviert ist, entfernt die QoS Auswahlmöglichkeiten für Sprach- oder Videokonferenz Pakete passieren, Switch- oder Router werden konnte. Dadurch wird effektiv QoS in alle downstream Switches und Router, die die Vorteile der Nutzung ExpressRoute beeinträchtigt wird deaktiviert.
+Um QoS im gesamten Unternehmensnetzwerk zu implementieren, müssen die Endpunkte oder Router jedes Paket mit dem entsprechenden Layer 3-Prioritäts Indikator (also DSCP) kennzeichnen. Entlang des gesamten Netzwerkpfads muss für jeden Switch und Router die QoS-Option aktiviert sein. Wenn nur ein Netzwerk-Switch oder Router vorhanden ist, auf dem QoS nicht aktiviert ist, können die QoS-Markierungen für Sprach-oder Videopakete, die durch diesen Switch oder Router geleitet werden, entfernt werden. Dadurch wird QoS in allen Downstream-Switches und-Routern deaktiviert, wodurch der Wert von Express Route verringert wird.
   
 All dies erfordert auch, dass die Verknüpfung der Layer-3- und Layer-2-QoS-Prioritäten an jedem Punkt definiert werden muss. Die Mechanismen für die Layer-2-Priorität sind in IEEE 802.1p für verkabelte Netzwerke und in 802.11e/WMM für WLAN-Netzwerke definiert. Noch wichtiger ist, dass der Netzwerkrouter, der auf das MPLS-Netzwerk des Netzwerkdienstanbieters gerichtet ist, die DSCP-Einstellungen für alle ausgehenden Pakete beibehalten muss, damit diese die geeignete MPLS-Dienstklasse beibehalten. 
   
 > [!TIP]
->  Die Details zu im Zusammenhang mit QoS-Einrichtung finden Sie im Abschnitt 2,6 [Netzwerkplanung, Überwachung und Problembehandlung von Lync Server]( https://go.microsoft.com/fwlink/?LinkId=760669). Weitere Anforderungen an die Netzwerkplanung finden Sie unter[Planen von Netzwerkanforderungen für Skype for Business 2015](https://go.microsoft.com/fwlink/?LinkId=690287).
+>  Einzelheiten zu den QoS-Einstellungen finden Sie im Abschnitt 2,6: [Netzwerkplanung,-Überwachung und-Problembehandlung mit lync Server]( https://go.microsoft.com/fwlink/?LinkId=760669). Weitere Anforderungen an die Netzwerkplanung finden Sie unter[Planen von Netzwerkanforderungen für Skype for Business 2015](https://go.microsoft.com/fwlink/?LinkId=690287).
   
 ### <a name="ordering-network-access-services"></a>Bestellen von Netzwerkzugriffsdiensten
 
@@ -173,12 +173,12 @@ Nachdem Sie die Einstellungen für jede Persona angegeben haben, müssen Sie die
    
  **Pro Anwendung erforderliche Bandbreite nach Standort in KBit/s (Arbeitsblatt „Standorte" - Spalten A und BQ bis LF)**
   
-|**Standort**|**Spitzen-SIP/Chatbandbreite**|**Spitzenbandbreite für standortübergreifendes Peer-Audio**|**Spitzenbandbreite für standortübergreifendes Peer-Video**|**Maximale Audiokonferenzen Bandbreite**|**Peak-Video-Konferenzen Bandbreite**|**Spitzenbandbreite für WAN-Freigaben**|**Spitzen-WAN-Bandbreite für PSTN-Anrufe**|
+|**Standort**|**Spitzen-SIP/Chatbandbreite**|**Spitzenbandbreite für standortübergreifendes Peer-Audio**|**Spitzenbandbreite für standortübergreifendes Peer-Video**|**Spitzenbandbreite für Audiokonferenzen**|**Spitzenbandbreite für Video Konferenzen**|**Spitzenbandbreite für WAN-Freigaben**|**Spitzen-WAN-Bandbreite für PSTN-Anrufe**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Hauptsitz  <br/> |1070  <br/> |525.30  <br/> |560.00  <br/> |739.50  <br/> |2640.00  <br/> |4224.00  <br/> |2688.30  <br/> |
-|Regionale Büros  <br/> |345  <br/> |185.40  <br/> |560.00  <br/> |255.00  <br/> |1320.00  <br/> |1536.00  <br/> |896.10  <br/> |
-|Große Zweigstellen  <br/> |70  <br/> |92.70  <br/> |560.00  <br/> |102.00  <br/> |600,00  <br/> |384.00  <br/> |216.30  <br/> |
-|Kleine Zweigstellen  <br/> |36  <br/> |119.40  <br/> |560.00  <br/> |76.50  <br/> |600,00  <br/> |384.00  <br/> |123.60  <br/> |
+|Hauptsitz  <br/> |1070  <br/> |525,30  <br/> |560,00  <br/> |739,50  <br/> |2640,00  <br/> |4224,00  <br/> |2688,30  <br/> |
+|Regionale Büros  <br/> |345  <br/> |185,40  <br/> |560,00  <br/> |255,00  <br/> |1320,00  <br/> |1536,00  <br/> |896,10  <br/> |
+|Große Zweigstellen  <br/> |70  <br/> |92,70  <br/> |560,00  <br/> |102,00  <br/> |600,00  <br/> |384,00  <br/> |216,30  <br/> |
+|Kleine Zweigstellen  <br/> |36  <br/> |119,40  <br/> |560,00  <br/> |76,50  <br/> |600,00  <br/> |384,00  <br/> |123,60  <br/> |
    
 Die wahrscheinlich wichtigsten Spalten im Arbeitsblatt sind die Spalten, in denen die WAN-Bandbreite nach QoS-Klasse beschrieben wird. Dies wird in der Tabelle unten gezeigt. Diese Daten sind eine Zusammenfassung, die Sie für den Netzwerkdienstanbieter bereitstellen müssen, um die Zugriffsverbindung an jedem Ihrer Standorte bestellen zu können. Denken Sie bei der Berechnung der Gesamtbandbreite daran, die Bandbreite für jeden Zweigstellenstandorttyp mit der Anzahl der Standorte gleichen Typs zu multiplizieren. Weitere Informationen zur Verbindung mit Ihrem ExpressRoute-Netzwerkdienstpartner finden Sie unter [Azure ExpressRoute]( https://go.microsoft.com/fwlink/?LinkId=690283).
   
@@ -187,26 +187,26 @@ Es ist sehr wichtig, dass Sie die Bandbreite in der VoIP- oder EF-Dienstklasse (
 > [!TIP]
 >  Auch gilt, dass die EF-Dienstklasse zwar die beste Leistungsgarantie bietet, zusätzliche Pakete jedoch bei einer Überschreitung der definierten Bandbreite sofort verworfen werden.
   
- **Aggregierte Bandbreite pro Website von QoS-Datenverkehrsklasse - ("Websites" Arbeitsblatt Spalten A und ML über MR)**
+ **Aggregierte Bandbreite pro Website durch QoS-Datenverkehrsklasse (Arbeitsblatt "Standorte" – Spalten A und ml bis Mr)**
   
 |**Standortname**|**Klasse für beste Leistung (DSCP 0)**|**Datenverkehrsklasse (DSCP benutzerdefiniert)**|**Echtzeit-Datenverkehrsklasse (DSCP 34, AF41)**|**Prioritäts-Datenverkehrsklasse (DSCP 46, EF)**|
 |:-----|:-----|:-----|:-----|:-----|
-|Hauptsitz  <br/> |0,00  <br/> |5764.80  <br/> |3200.00  <br/> |3953.10  <br/> |
-|Regionale Büros  <br/> |0,00  <br/> |2033.60  <br/> |1880.00  <br/> |1336.50  <br/> |
-|Große Zweigstellen  <br/> |0,00  <br/> |486.40  <br/> |1160.00  <br/> |411.00  <br/> |
-|Kleine Zweigstellen  <br/> |0,00  <br/> |438.40  <br/> |1160.00  <br/> |319.50  <br/> |
+|Hauptsitz  <br/> |0,00  <br/> |5764,80  <br/> |3200,00  <br/> |3953,10  <br/> |
+|Regionale Büros  <br/> |0,00  <br/> |2033,60  <br/> |1880,00  <br/> |1336,50  <br/> |
+|Große Zweigstellen  <br/> |0,00  <br/> |486,40  <br/> |1160,00  <br/> |411,00  <br/> |
+|Kleine Zweigstellen  <br/> |0,00  <br/> |438,40  <br/> |1160,00  <br/> |319,50  <br/> |
    
 ### <a name="putting-your-plan-into-action"></a>Ihren Plan in die Tat umsetzen
 
 Mit Hilfe der Bandbreitenschätzungen aus der oben stehenden Tabelle **Per application Per site** können wir die Gesamtbandbreite berechnen, die das WAN durchlaufen wird, und die Bandbreite, die ExpressRoute durchlaufen wird Der Anteil des Datenverkehrs, der ExpressRoute durchläuft, schließt die Bandbreite für standortübergreifende Peers aus.
 
  
-|**Standort**|**Spitzen-SIP/Chatbandbreite**|**Maximale Audiokonferenzen Bandbreite**|**Peak-Video-Konferenzen Bandbreite**|**Spitzenbandbreite für WAN-Freigaben**|**Spitzen-WAN-Bandbreite für PSTN-Anrufe**|**Insgesamt ExpressRoute<br/>Datenverkehr pro Website Klasse<br/>(d. h. insgesamt<br/>Zeit # Websites)**|
+|**Standort**|**Spitzen-SIP/Chatbandbreite**|**Spitzenbandbreite für Audiokonferenzen**|**Spitzenbandbreite für Video Konferenzen**|**Spitzenbandbreite für WAN-Freigaben**|**Spitzen-WAN-Bandbreite für PSTN-Anrufe**|**Gesamt Express Route<br/>-Datenverkehr pro<br/>Website Klasse (also Gesamt<br/>Zeit Anzahl von Websites)**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|**Hauptsitz** <br/> |1.070  <br/> |739.50  <br/> |2640.00  <br/> |4224.00  <br/> |2688.30  <br/> |11361.80  <br/> |
-|**Regionale Büros** <br/> |345  <br/> |255.00  <br/> |1320.00  <br/> |1536.00  <br/> |896.10  <br/> |8704.20  <br/> |
-|**Große Zweigstellen** <br/> |70  <br/> |102.00  <br/> |600,00  <br/> |384.00  <br/> |216.30  <br/> |32935.20  <br/> |
-|**Kleine Zweigstellen** <br/> |36  <br/> |76.50  <br/> |600,00  <br/> |384.00  <br/> |123.60  <br/> |61005.00  <br/> |
+|**Hauptsitz** <br/> |1.070  <br/> |739,50  <br/> |2640,00  <br/> |4224,00  <br/> |2688,30  <br/> |11361,80  <br/> |
+|**Regionale Büros** <br/> |345  <br/> |255,00  <br/> |1320,00  <br/> |1536,00  <br/> |896,10  <br/> |8704,20  <br/> |
+|**Große Zweigstellen** <br/> |70  <br/> |102,00  <br/> |600,00  <br/> |384,00  <br/> |216,30  <br/> |32935,20  <br/> |
+|**Kleine Zweigstellen** <br/> |36  <br/> |76,50  <br/> |600,00  <br/> |384,00  <br/> |123,60  <br/> |61005,00  <br/> |
    
 Dies bedeutet, dass der Online-Datenverkehr von Skype for Business die Express-Route mit ca. 114 MBit/s durchlaufen wird. Dewey benötigt also wenigstens das 200 MBit/s-Abonnement für ExpressRoute. Mehrfache ExpressRoute-Netze können bei unterschiedlichen ExpressRoute Peering-Standorten erworben werden. Falls sich die Standorte von Dewey in unterschiedlichen geographischen Regionen befinden oder falls die Verbindung zum ExpressRoute-Netz fehlschlägt, könnte dies als Ausfallsicherheit empfohlen werden. Beim Erwerb von ExpressRoute-Netzen in mehreren Azure-Regionen ist das ExpressRoute-Premium-Add-on erforderlich, um globale Konnektivität über ExpressRoute zu erhalten.
   
@@ -306,7 +306,7 @@ Differentiated Services (DiffServ) wird als ein „grobkörniger" Mechanismus f�
 |**Standard** <br/> |AF11 (10)  <br/> |Dateiübertragung  <br/> |
 ||CS0 (0)  <br/> |Sonstiges  <br/> |
    
- **IP-Version 4-header**
+ **IP-Version 4-Kopfzeile**
   
 ![IPv4-Header](../images/c8a6a714-2784-4328-8297-2e62706f302d.png)
   
@@ -316,7 +316,7 @@ Zwar ist DSCP der Standardmechanismus für die Implementierung von QoS in Layer 
   
 IEEE 802.1p verwendet einen 3-Bit-PCP (Priority Code Point), um die Priorität der Nachricht zu ermitteln. Der PCP ist Teil eines 32-Bit-Felds im Ethernetheader, der auch die VLAN-Kennung enthält. Die Definitionen für die PCP-Werte sind im Folgenden aufgeführt.
   
- **IEEE 802. 1p PCP Werte**
+ **IEEE 802.1 p-PCP-Werte**
   
 |**PCP-Wert**|**Priorität**|**Abkürzung**|**Datenverkehrstypen**|
 |:-----|:-----|:-----|:-----|
@@ -337,7 +337,7 @@ Zur Priorisierung des Zugriffs auf den Funkkanal definiert IEEE 802.11e/WMM vers
   
 Die Priorität wird durch Zuweisen kürzerer AFIS-Werte zu den Frames mit höherer Priorität erreicht. Wenn also eine Station darauf wartet, einen VoIP-Frame zu senden, und eine andere darauf, einen Datenframe zu senden, wird der VoIP-Frame immer zuerst gesendet. Technisch gesehen werden VoIP- und Videoframes dieselben AFIS-Werte zugewiesen, aber der Bereich für Back-off-Intervalle ist für Videoframes höher. So können ein VoIP- und ein Videoframe zwar beim ersten Versuch kollidieren, aber der VoIP-Frame wird immer früher erneut übermittelt. Die Korrelation zwischen IEEE 802.1p und IEEE 802.11e ist unten gezeigt:
   
- **IEEE 802.11e / Wi-Fi Multimedia (WMM) zu 802. 1p zuordnen**
+ **IEEE 802.11 e/Wi-Fi Multi-Media (WMM) zu 802.1 p-Zuordnung**
   
 |**WMM-Zugriffskategorie**|**WMM Beschreibung**|**802.1P-PCP-Wert**|**802.1P-Bezeichnung**|
 |:-----|:-----|:-----|:-----|
@@ -371,7 +371,7 @@ Die empfohlene Zuweisung von Layer-3- zu Layer-2-Prioritäten ist im Folgenden d
 |Beste Leistung  <br/> |Per Hop Behavior (PHB) - 0  <br/> |0  <br/> |4 (AC_BK)  <br/> |
 |DSCP-Wert - 0  <br/> |
    
-Es ist wichtig zu bemerken, dass ein Konflikt in der Codierung der Priorität für IEEE 802.1p und WMM besteht. Der 802.1p-PCP-Wert für VoIP ist 5, in der Standardäquivalenzzuordnung zu WMM wird PCP 5 jedoch in die Zugriffskategorie 2 übersetzt, also die WMM-Zugriffskategorie für Video (AC_VI). Sie sollten diese Zuordnung möglichst außer Kraft setzen, damit PCP 5 in Zugriffskategorie 1 übersetzt wird, oder einfach vermeiden, VoIP und Video im selben WLAN-Netzwerk zu verwenden, bis die Wi-Fi Alliance dieses Problem behoben hat. Weitere Informationen zu Wi-Fi finden Sie unter [Wi-Fi Katalogelemente]( https://go.microsoft.com/fwlink/?LinkId=690322).
+Es ist wichtig zu bemerken, dass ein Konflikt in der Codierung der Priorität für IEEE 802.1p und WMM besteht. Der 802.1p-PCP-Wert für VoIP ist 5, in der Standardäquivalenzzuordnung zu WMM wird PCP 5 jedoch in die Zugriffskategorie 2 übersetzt, also die WMM-Zugriffskategorie für Video (AC_VI). Sie sollten diese Zuordnung möglichst außer Kraft setzen, damit PCP 5 in Zugriffskategorie 1 übersetzt wird, oder einfach vermeiden, VoIP und Video im selben WLAN-Netzwerk zu verwenden, bis die Wi-Fi Alliance dieses Problem behoben hat. Weitere Informationen zu Wi-Fi finden Sie unter [WLAN-Katalogelemente]( https://go.microsoft.com/fwlink/?LinkId=690322).
   
 ### <a name="implementing-qos-using-network-access-control-list-acl"></a>Implementierung von QoS mithilfe einer Netzwerk-Zugriffssteuerungsliste (ACL)
 
@@ -397,7 +397,7 @@ MPLS-Anbieter bieten verschiedene Klassen von Serviceabstufungen, die allerdings
 
 Skype for Business verbessert die Art und Weise, in der die Geschäftskommunikation durchgeführt wird. Statt ein mit dem Festnetz verbundenes Telefon, ein eigenständiges Videokonferenzsystem, eine separate Plattform für E-Mails, einen externen Dienst für Audiokonferenzen und ein Mittel für Chat und Anwesenheit zu nutzen, kann Skype for Business all diese Funktionen in einer einzigen Benutzeroberfläche zusammenbringen.
   
-Für eine konsistente Bereitstellung von Echtzeit-VoIP- und Videodiensten der Unternehmensklasse ist eine End-to-End-Netzwerkinfrastruktur erforderlich, die QoS bereitstellen kann. Das beinhaltet sowohl LAN- als auch WAN-Dienste. Microsoft bietet Tools wie den [Lync 2010- und 2013-Bandbreiten-Rechner](https://go.microsoft.com/fwlink/?LinkID=690282), um die für die verschiedenen Dienste erforderliche Netzwerkkapazität abzuschätzen. Außerdem sind Partner in der Anwendung IT Pro Tools [Skype für Business Solutions: IT Pro Tools](https://go.microsoft.com/fwlink/?LinkID=690307) , die Tools zur Überprüfung vor dem Bewerten der Netzwerkinfrastruktur und monitoring, reporting und Problembehandlung unterstützen anbieten. Ohne eine korrekt dimensionierte und konfigurierte Netzwerkinfrastruktur besteht das Risiko, dass Ihre ExpressRoute Skype of Business-Bereitstellung nicht die Erwartungen an Qualität und Konsistenz Ihrer Benutzer erfüllt.
+Für eine konsistente Bereitstellung von Echtzeit-VoIP- und Videodiensten der Unternehmensklasse ist eine End-to-End-Netzwerkinfrastruktur erforderlich, die QoS bereitstellen kann. Das beinhaltet sowohl LAN- als auch WAN-Dienste. Microsoft bietet Tools wie den [Lync 2010- und 2013-Bandbreiten-Rechner](https://go.microsoft.com/fwlink/?LinkID=690282), um die für die verschiedenen Dienste erforderliche Netzwerkkapazität abzuschätzen. Darüber hinaus gibt es Partner im Programm "IT Pro Tools" [für Skype for Business-Lösungen: IT Pro Tools](https://go.microsoft.com/fwlink/?LinkID=690307) , die Tools anbieten, um die Netzwerkinfrastruktur vorab zu bewerten und die Überwachung, Berichterstellung und Problembehandlung zu unterstützen. Ohne eine korrekt dimensionierte und konfigurierte Netzwerkinfrastruktur besteht das Risiko, dass Ihre ExpressRoute Skype of Business-Bereitstellung nicht die Erwartungen an Qualität und Konsistenz Ihrer Benutzer erfüllt.
   
 Effektive Unternehmenstools müssen eine zuverlässige und konsistente Leistung bieten und eine Benutzererfahrung bereitstellen, die dafür sorgt, dass Benutzer das Angebot gern annehmen. Aus Netzwerksicht bedeutet das, dass Sie eine Netzwerkinfrastruktur einrichten, sowohl für LAN als auch WAN, fest und mobil, die dies ermöglichen kann. Das Planen, Entwerfen, Implementieren und Verwalten dieser Infrastruktur ist nicht immer leicht. Die Hardware, Tools und Netzwerkdienste, mit denen Sie eine solche Infrastruktur erreichen können, stehen heute zur Verfügung. Es liegt jedoch in der Verantwortung der IT-Mitarbeiter, diese auf eine Weise zu entwerfen, zu implementieren und zu verwalten, die sicherstellt, dass Benutzer eine Reihe von Diensten für die Kommunikation und Zusammenarbeit erhalten, mit denen sie effizient und effektiv arbeiten können, und dass die Organisation die Vorteile dieser Technologie vollständig ausschöpfen kann. 
   

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Polen verfügbar.
-ms.openlocfilehash: 0ae2b7c97250ad4051ad3ffa83c9d0d616a1d591
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Polen verfügbar sind.
+ms.openlocfilehash: 8dbc0056af27b5a422864af2e8471911102c36b3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199098"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287985"
 ---
 # <a name="availability-in-poland"></a>Verfügbarkeit in Polen
 
 [Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
 
-Hier sind die Office 365-Dienste für Skype für Unternehmen und die Microsoft-Teams für Polen verfügbar.
+Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Polen verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenz
 

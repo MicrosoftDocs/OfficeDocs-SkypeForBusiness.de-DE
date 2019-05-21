@@ -1,10 +1,10 @@
 ---
-title: Erstellen Sie Netzwerk Netzwerkrichtlinien in Skype für Business Server
+title: Erstellen von Netzwerk-standortübergreifenden Richtlinien in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,22 +13,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
-description: Erstellen Sie Netzwerk standortübergreifende Richtlinien, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden.
-ms.openlocfilehash: 455caaf624c463bdb1c32ca8fbce70c88626c774
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Erstellen von netzwerkinternen Richtlinien, die von Enterprise-VoIP-Zulassungs Steuerung in Skype for Business Server verwendet werden.
+ms.openlocfilehash: dceb48d0e87706d71de8c69b5622fbab468273b4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892965"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286313"
 ---
-# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Erstellen Sie Netzwerk Netzwerkrichtlinien in Skype für Business Server
+# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Erstellen von Netzwerk-standortübergreifenden Richtlinien in Skype for Business Server
  
-Erstellen Sie Netzwerk standortübergreifende Richtlinien, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden. 
+Erstellen von netzwerkinternen Richtlinien, die von Enterprise-VoIP-Zulassungs Steuerung in Skype for Business Server verwendet werden. 
   
 Eine standortübergreifende Netzwerkrichtlinie definiert Bandbreiteneinschränkungen zwischen Standorten, die über direkte WAN-Verbindungen miteinander verbunden sind.
   
 > [!IMPORTANT]
-> Eine standortübergreifende Netzwerkrichtlinie ist erforderlich *nur* , wenn eine standortübergreifende direktverbindung zwischen zwei Netzwerkstandorten besteht.
+> Eine Inter-Site-Netzwerkrichtlinie ist *nur* erforderlich, wenn zwischen zwei Netzwerkstandorten eine direkte Querverbindung besteht.
   
 In der Region „Nordamerika“ der Beispieltopologie besteht eine direkte Verbindung zwischen den Standorten „Reno“ und „Albuquerque“. Für diese beiden Standorte ist eine standortübergreifende Richtlinie erforderlich, die ein geeignetes Bandbreitenrichtlinienprofil anwendet. Im folgenden Beispiel wird das Profil „20Mb_Link“ angewendet.
   

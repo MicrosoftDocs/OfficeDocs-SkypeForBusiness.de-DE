@@ -1,31 +1,31 @@
 ---
-title: Failure List Report in Skype für Business Server
+title: Bericht zur Fehlerliste in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: 'Zusammenfassung: Informationen Sie zu den Failure List Report in Skype für Business Server.'
-ms.openlocfilehash: 67c02e9b0366bcf850139717eedf5c3946183988
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Bericht zur Fehlerliste in Skype for Business Server.'
+ms.openlocfilehash: 72637863d7a15d26ea997de8a9c3526279afc57f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926599"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305759"
 ---
-# <a name="failure-list-report-in-skype-for-business-server"></a>Failure List Report in Skype für Business Server 
+# <a name="failure-list-report-in-skype-for-business-server"></a>Bericht zur Fehlerliste in Skype for Business Server 
  
-**Zusammenfassung:** Informationen Sie zu den Failure List Report in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den Bericht Fehlerliste in Skype for Business Server.
   
 Der Fehlerlistenbericht enthält ausführliche Informationen über die einzelnen Teilnehmer, die an einer fehlerhaften Peer-to-Peer-Sitzung oder Konferenzsitzung beteiligt waren. Diese Informationen umfassen den URI des Benutzers, bei dem das Problem aufgetreten ist, sowie den SIP-Antwortcode und die Diagnose-ID, die dem Fehler zugeordnet sind.
   
 ## <a name="accessing-the-failure-list-report"></a>Zugriff auf den Fehlerlistenbericht
 
-Failure List Report erfolgt durch Klicken auf eine der folgenden Metriken im [Bericht über Fehlerverteilung in Skype für Business Server](failure-distribution-report.md):
+Der fehlerlistenbericht wird durch Klicken auf eine der folgenden Metriken im Bericht " [Fehlerverteilung" in Skype for Business Server](failure-distribution-report.md)aufgerufen:
   
 - Wichtigste Diagnosegründe (Sitzungen)
     
@@ -43,7 +43,7 @@ Failure List Report erfolgt durch Klicken auf eine der folgenden Metriken im [Be
     
 - Wichtigste Absenderbenutzer-Agenten (Sitzungen)
     
-Über Failure List Report können Sie der [Peer-zu-Peer-Sitzungsbericht in Skype für Business Server](peer-to-peer-session-detail-report.md) zugreifen, indem Sie auf die Metrik Session Detail für eine Peer-zu-Peer-Sitzung. Sie können ebenfalls auf den detaillierten Konferenzbericht zugreifen, indem Sie auf die Konferenzmetrik für eine Konferenz klicken.
+Im Bericht Fehlerliste können Sie auf den [Bericht Peer-to-Peer-Sitzungsdetails in Skype for Business Server](peer-to-peer-session-detail-report.md) zugreifen, indem Sie auf die Sitzungs Detail Metrik für eine Peer-to-Peer-Sitzung klicken. Sie können ebenfalls auf den detaillierten Konferenzbericht zugreifen, indem Sie auf die Konferenzmetrik für eine Konferenz klicken.
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>Bestmögliche Verwendung des Fehlerlistenberichts
 
@@ -51,7 +51,7 @@ Im Fehlerlistenbericht können Sie eine Beschreibung für jeden Antwortcode bzw.
   
 Interner Serverfehler erstellt Medien für Benutzer.
   
-Dabei muss beachtet werden, dass der Fehlerlistenbericht weder eine einfache Methode zum direkten Abrufen einer Liste aller Benutzer, die an mindestens einer fehlerhaften Sitzung beteiligt waren, noch eine Methode zur Ermittlung der Benutzer, die am häufigsten an einer fehlerhaften Sitzung beteiligt waren, darstellt. (Failure List Report hat einerseits keine Filterfunktionen.) Wenn Sie die Daten exportieren und dann in eine CSV-Datei konvertieren, können Sie Windows PowerShell verwenden, Sie Antworten auf Fragen wie die. Zum Beispiel können Sie die Daten in einer CSV-Datei mit dem Namen „C:\Data\Failure_List.csv“ speichern. Auf Basis der in dieser Datei gespeicherten Daten können mithilfe dieses Befehls alle Benutzer aufgelistet werden, die an mindestens einer fehlerhaften Sitzung beteiligt waren: 
+Dabei muss beachtet werden, dass der Fehlerlistenbericht weder eine einfache Methode zum direkten Abrufen einer Liste aller Benutzer, die an mindestens einer fehlerhaften Sitzung beteiligt waren, noch eine Methode zur Ermittlung der Benutzer, die am häufigsten an einer fehlerhaften Sitzung beteiligt waren, darstellt. (Zum einen hat der fehlerlistenbericht keine Filterfunktionen.) Wenn Sie die Daten exportieren und dann in eine Datei mit Komma getrennten Werten konvertieren, können Sie Windows PowerShell verwenden, um Antworten auf Fragen wie diese zu finden. Zum Beispiel können Sie die Daten in einer CSV-Datei mit dem Namen „C:\Data\Failure_List.csv“ speichern. Auf Basis der in dieser Datei gespeicherten Daten können mithilfe dieses Befehls alle Benutzer aufgelistet werden, die an mindestens einer fehlerhaften Sitzung beteiligt waren: 
   
 ```
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"

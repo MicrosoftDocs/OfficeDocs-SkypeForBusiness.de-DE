@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.TrunkSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Führen Sie zum Bearbeiten oder Ändern der Einstellungen für einen SIP-Trunk die folgenden Aufgaben aus:'
-ms.openlocfilehash: 6206a52930251681b197dbeea4e882a59da68787
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55df4a410f4d052d6dc886f609ddfc979e1a9bb8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33921055"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289069"
 ---
 # <a name="trunk-settings-expander"></a>Trunkeinstellungen – Erweiterung
 
@@ -32,17 +32,17 @@ Führen Sie zum Bearbeiten oder Ändern der Einstellungen für einen SIP-Trunk d
 
  **SIP-Transportprotokoll**: Als Protokoll wird entweder TCP oder TLS verwendet. Als Standardeinstellung ist TLS festgelegt. In der Dokumentation des Gatewayherstellers finden Sie die von Ihrem Gateway unterstützten Protokolle. Wenn das Gateway TLS unterstützt, ist die Standardeinstellung „TLS“ die Option mit höherer Sicherheit.
 
- **Zugeordneter Vermittlungsserver**: Wählen Sie eine vorhandene Vermittlungsserver aus der Bereitstellung der SIP-Trunk zugeordnet.
+ **Zugeordneter Vermittlungsserver**: Wählen Sie einen vorhandenen Vermittlungsserver aus der Bereitstellung aus, der dem SIP-Stamm zugeordnet werden soll.
 
 > [!NOTE]
-> Nur der stammtrunk kann einem Vermittlungsserver zugeordnet werden.
+> Nur der Stamm Stamm kann einem Vermittlungs Server zugeordnet werden.
 
- **Zugeordneter Vermittlungsserver Port**: ein erforderlicher Wert, dies ist festgelegt auf den Wert, der den Vermittlungsserver konfiguriert ist lauschen.
+ **Zugeordneter Vermittlungsserver-Port**: ein erforderlicher Wert, der auf den Wert festgelegt ist, den der Vermittlungsserver für die Überwachung konfiguriert ist.
 
 ![Trunkeinstellungen – Erweiterung](../../../media/Trunk_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>Siehe auch
 
-[Prüfliste für die Bereitstellung von SIP-Trunking](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
+[Checkliste für SIP-Trunking-Bereitstellung](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
 
 [Komponenten und Topologien für SIP-Trunking](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)

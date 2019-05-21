@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Administratoren können steuern, wie Organisatoren gebührenfreie Telefonnummern für ihre Besprechungen verwenden können.
-ms.openlocfilehash: 6fd415575110f9c6ae1dcf7b4fc006213a23cedd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 423aab1c942850c94385f4df15a07d3218dbe2da
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232627"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290333"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>Deaktivieren von gebührenfreien Telefonnummern für bestimmte Microsoft Teams-Benutzer
 
@@ -46,13 +46,13 @@ Wenn gebührenfreie Telefonnummern für einen bestimmten Organisator deaktiviert
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deaktivieren von gebührenfreien Telefonnummern für bestimmte Benutzer 
 
-Aus dem **Microsoft-Teams, Administrationscenter**:
+Im **Microsoft Teams Admin Center**:
 
-1. Im linken Navigationsbereich klicken Sie auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
+1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
 2. Klicken Sie neben **Audiokonferenz** auf **Bearbeiten**.
 
-3. **Gebührenfreie Nummern in Besprechungsanfragen von diesem Benutzer umfassen** auf **deaktiviert**festgelegt. 
+3. Legen Sie **gebührenfreie Nummern in Besprechungsanfragen von diesem Benutzer** auf **aus**. 
 
 4. Klicken Sie auf **Speichern**. 
 

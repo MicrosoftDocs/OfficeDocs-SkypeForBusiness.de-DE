@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,29 +22,29 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Dies hilft Ihnen, wie Sie gebührenfreie Nummern in jedem Land/Region einwählen können. Nachdem Sie das Land/Region auswählen, dauert es Sie zu einer länderspezifisch Seite, die enthält spezifische Details, Einschränkungen und Grenzwerte für gebührenfreie – Verfügbarkeit gebührenfreie Service verfügbar ist. Die Nummer oder Formate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb jedes Land/Region So wählen Sie die gebührenfreie Telefonnummer.
-ms.openlocfilehash: 5a6d57e611b2d80d1d83cfd59baeb9b411edc53b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
+ms.openlocfilehash: f8d8891e5e2b0af5b0c2c66ae475b640f8e1d186
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204415"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300953"
 ---
 # <a name="toll-free-dialing-restrictions-in-belarus"></a>Einschränkungen für gebührenfreie Telefonnummern in Belarus
 
-[Suchen Sie nach einem anderen Land oder Region](../toll-free-dialing-limitations-and-restrictions.md), oder erfahren Sie mehr über die gebührenfreie Nummer Grenzen und Einschränkungen.
+[Suchen Sie nach einem anderen Land oder einer anderen Region](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über gebührenfreie Wähleinschränkungen und-Einschränkungen.
 
 
 |**Details**|**Beschreibung**|
 |:-----|:-----|
-|Ist gebührenfreie aufrufen verfügbar?  <br/> |Ja  <br/> |
+|Sind gebührenfreie Anrufe verfügbar?  <br/> |Ja  <br/> |
 |Wählformate  <br/> |8 820 XXXX XXXX  <br/> |
 |ISO-Code des Lands/der Region  <br/> |BY  <br/> |
 |Abgedeckte Inseln/Gebiete  <br/> |Nicht zutreffend  <br/> |
 |Nicht abgedeckte Inseln/Gebiete  <br/> |Nicht zutreffend  <br/> |
 |Verfügbarkeit über drahtgebundene Leitungen/Festnetz  <br/> |Ja  <br/> |
 |Verfügbarkeit über Mobilnetze  <br/> |Ja  <br/> |
-|Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Mobile Netzwerkzugriff aus Velcom, MTS und Lebenszyklus.  <br/> |
+|Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Zugriff auf das Mobilfunknetz von Velcom, MTS und Life.  <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
 [Einschränkungen für das Wählen von gebührenfreien Telefonnummern](../toll-free-dialing-limitations-and-restrictions.md)

@@ -1,206 +1,206 @@
 ---
-title: Bereitstellen von Microsoft-Teams Chatrooms mithilfe von System Center Configuration Manager
+title: Bereitstellen von Microsoft Teams-Räumen mithilfe von System Center Configuration Manager
 author: lanachin
 ms.author: v-lanac
 ms.reviewer: Turgayo
 manager: serdars
 ms.date: 5/10/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection: M365-voice
-description: Lesen Sie dieses Thema zu erfahren Sie mehr über die Bereitstellung von Microsoft-Teams Räume unter umfangreiche Bereitstellungen.
-ms.openlocfilehash: ac016ff8a31ce9272c5766e1a994aeb7c0e9301f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Lesen Sie dieses Thema, um Informationen zum Bereitstellen von Microsoft Teams-Räumen in umfangreichen Bereitstellungen zu erhalten.
+ms.openlocfilehash: 34bd984d16da4eeb1934c7fda7bbadb0837240be
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916336"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305443"
 ---
-# <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Bereitstellen von Microsoft-Teams Chatrooms mithilfe von System Center Configuration Manager
+# <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Bereitstellen von Microsoft Teams-Räumen mithilfe von System Center Configuration Manager
 
-In diesem Artikel erhalten Sie alle erforderliche Informationen zur Bereitstellung Ihrer Microsoft Teams Chatrooms erstellen mithilfe von System Center Configuration Manager.
+Dieser Artikel enthält alle erforderlichen Informationen zum Erstellen Ihrer Microsoft Teams rooms-Bereitstellungen mithilfe von System Center Configuration Manager.
 
-Mit den Methoden leicht zu bedienende zur Verfügung gestellt von System Center Configuration Manager können Sie das Betriebssystem und andere Anwendungen für mehrere Geräte bereitstellen.
+Mit den einfach zu verwendenden Methoden, die von System Center Configuration Manager bereitgestellt werden, können Sie das Betriebs System und andere Anwendungen auf mehreren Zielgeräten bereitstellen.
 
-Verwenden Sie den unten dargestellten, durch die Konfiguration der Konfigurations-Manager, leiten Ansatz, und passen Sie die Beispielpaketen und der Bedarf für Ihre Organisation in dieser Anleitung bereitgestellten Skripts.
+Verwenden Sie den unten dargestellten Ansatz, der Sie durch Ihre Configuration Manager-Konfiguration führt, und passen Sie die Beispielpakete und Skripts an, die in diesem Leitfaden nach Bedarf für Ihre Organisation bereitgestellt werden.
 
-![Microsoft-Teams Chatrooms Bereitstellungsprozess von Configuration Manager](../media/room-systems-scale-image1.png)
+![Bereitstellungsprozess für Microsoft Teams rooms mithilfe von Configuration Manager](../media/room-systems-scale-image1.png)
 
 > [!IMPORTANT]
-> Diese Lösung wurde mit Surface Pro basierenden Bereitstellungen nur getestet. Folgen Sie den Hersteller Richtlinien für Konfigurationen, die nicht auf Surface Pro basieren.
+> Diese Lösung wurde nur mit Surface pro-basierten Bereitstellungen getestet. Befolgen Sie die Richtlinien des Herstellers für Konfigurationen, die nicht auf Surface pro basieren.
 
-## <a name="validate-prerequisites"></a>Überprüfen Sie die Komponenten
+## <a name="validate-prerequisites"></a>Überprüfen von Voraussetzungen
 
-Um Microsoft Teams Chatrooms mit Configuration Manager bereitstellen, stellen Sie sicher, dass die folgenden Voraussetzungen und Anforderungen erfüllt.
+Stellen Sie zum Bereitstellen von Microsoft Teams-Räumen mit Configuration Manager sicher, dass Sie die folgenden Voraussetzungen und Anforderungen erfüllen.
 
-### <a name="system-center-configuration-manager-requirements"></a>System Center Configuration Manager-Anforderungen
+### <a name="system-center-configuration-manager-requirements"></a>System Center-Konfigurations-Manager-Anforderungen
 
--   System Center Configuration Manager Version muss mindestens 1706 oder höher. Es wird empfohlen, 1710 oder höher verwenden. Checken Sie [Unterstützung für Windows 10 in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) , um Informationen zu den Windows-10-Versionen zu erhalten, der Konfigurations-Manager unterstützt.
+-   Die System Center Configuration Manager-Version muss mindestens 1706 oder höher sein. Wir empfehlen die Verwendung von 1710 oder höher. Schauen Sie sich die [Unterstützung für Windows 10 in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) an, um mehr über die Windows 10-Versionen zu erfahren, die von Configuration Manager unterstützt werden.
 
--   Eine unterstützte Version von Windows Assessment and Deployment Kit (ADK) für Windows 10 muss installiert sein. Finden Sie unter den Versionen von [Windows 10 ADK](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-adk) , die Sie mit verschiedenen Versionen von Configuration Manager verwenden können, und stellen Sie sicher, dass Ihre Bereitstellung die richtige Version umfasst.
+-   Es muss eine unterstützte Version von Windows Assessment und Deployment Kit (ADK) für Windows 10 installiert sein. Sehen Sie sich die Versionen von [Windows 10 ADK](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-adk) an, die Sie in verschiedenen Versionen von Configuration Manager verwenden können, und stellen Sie sicher, dass Ihre Bereitstellung die richtige Version enthält.
 
--   Die Servern des Systems müssen zugewiesen wurden die Verteilung Point-Rolle, und die Startabbilder beim für So aktivieren Sie Netzwerk initiierte Bereitstellungen [vor dem Start Unterstützung des PXE-Umgebung ()](https://docs.microsoft.com/sccm/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network) aktiviert werden soll. Wenn PXE-Unterstützung nicht aktiviert ist, können Sie für die Bereitstellung [startbaren Medium](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) .
+-   Den Standortsystemservern muss die Verteilungspunktrolle zugewiesen worden sein, und die Startabbilder sollten für [PXE-Unterstützung (Preboot Execution Environment)](https://docs.microsoft.com/sccm/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network) aktiviert werden, um Netzwerk initiierte Bereitstellungen zu ermöglichen. Wenn die PXE-Unterstützung nicht aktiviert ist, können Sie für Ihre Bereitstellungen [startfähige Medien](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) verwenden.
 
--   Ein Netzwerk für den Inhaltszugriff muss zur Unterstützung der neuen Computer (bare-Metal) Bereitstellungsszenarien konfiguriert werden. Mehr über die Konfiguration des ein Netzwerk für den Inhaltszugriff finden Sie unter [Verwalten von Konten Zugriff auf die Inhalte in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
+-   Ein Netzwerkzugriffskonto muss so konfiguriert sein, dass es neue Bereitstellungsszenarien für Computer (Bare Metal) unterstützt. Wenn Sie mehr über die Konfiguration eines Netzwerkzugriffskontos erfahren möchten, lesen Sie [Verwalten von Konten für den Zugriff auf Inhalte in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
--   Wir empfehlen, dass Sie [multicast-Support](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), aktivieren, wenn Sie wahrscheinlich dasselbe Microsoft-Teams Chatrooms Bild für mehrere Einheiten zur selben Zeit bereitstellen werden.
+-   Wir empfehlen, dass Sie die [Multicastunterstützung](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network)aktivieren, wenn Sie wahrscheinlich dasselbe Microsoft Teams rooms-Bild gleichzeitig auf mehreren Geräten bereitstellen.
 
 ### <a name="networking-requirements"></a>Netzwerkanforderungen
 
--   Ihr Netzwerk sollte einen Dynamic Host Configuration Protocol (DHCP)-Server, für die automatische Verteilung von IP-Adresse an die Subnetze, auf dem Microsoft-Teams Chatrooms Einheiten bereitgestellt wird, konfiguriert haben.
+-   Ihr Netzwerk sollte über einen DHCP-Server (Dynamic Host Configuration Protocol) verfügen, der für die automatische IP-Adress Verteilung an die Subnetze konfiguriert ist, in denen die Microsoft Teams rooms-Einheiten bereitgestellt werden.
 
     > [!NOTE]
-    > Die DHCP-Lease muss auf einen anderen Wert länger als die Dauer der Bild-Bereitstellung festgelegt werden. Andernfalls kann die Bereitstellung fehlschlagen.
+    > Die DHCP-Leasingdauer muss auf einen Wert gesetzt werden, der länger als die Dauer der Bild Bereitstellung ist. Andernfalls schlägt die Bereitstellung möglicherweise fehl.
 
--   Im Netzwerk, einschließlich Switches und virtuelle LANs (VLANs), sollte so konfiguriert werden, dass PXE unterstützen. Hersteller Ihres für Weitere Informationen zur Konfiguration von IP-Hilfsprogramm und PXE finden Sie unter. Alternativ können Sie [startbaren Medien](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) für die Bereitstellung verwenden, wenn PXE-Unterstützung nicht aktiviert ist.
+-   Ihr Netzwerk, einschließlich Switches und virtuellen LANs (VLANs), sollte so konfiguriert werden, dass es PXE unterstützt. Weitere Informationen zur IP-Helper-und PXE-Konfiguration finden Sie bei Ihrem Netzwerkanbieter. Wenn die PXE-Unterstützung nicht aktiviert ist, können Sie auch [startfähige Medien](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) für Ihre Bereitstellungen verwenden.
 
     > [!NOTE]
-    > Für Surface Pro werden Geräte, über das Netzwerk (PXE-Start) starten nur unterstützt, wenn Sie einen Ethernet-Adapter oder Dockingstation von Microsoft verwenden. Drittanbieter-Ethernet-Adapter unterstützen nicht PXE-Start mit Surface Pro. Weitere Informationen finden Sie unter [Ethernet-Adapter und Fläche Bereitstellung](https://docs.microsoft.com/surface/ethernet-adapters-and-surface-device-deployment) .
+    > Bei Surface pro-Geräten wird das Booten vom Netzwerk (PXE-Start) nur unterstützt, wenn Sie einen Ethernet-Adapter oder eine Docking-Station von Microsoft verwenden. Ethernet-Adapter von Drittanbietern unterstützen keinen PXE-Start mit Surface pro. Weitere Informationen finden Sie unter [Ethernet-Adapter und Surface-Bereitstellung](https://docs.microsoft.com/surface/ethernet-adapters-and-surface-device-deployment) .
 
-## <a name="configure-system-center-configuration-manager-for-operating-system-deployment"></a>Konfigurieren von System Center Configuration Manager für die Bereitstellung eines Betriebssystems
+## <a name="configure-system-center-configuration-manager-for-operating-system-deployment"></a>Konfigurieren von System Center Configuration Manager für die Betriebs System Bereitstellung
 
-In diesem Artikel wird vorausgesetzt, Sie bereits ist eine fehlerfreie Bereitstellung von System Center Configuration Manager, und nicht Detail alle die erforderlichen Schritte zum Bereitstellen und Konfigurieren von Configuration Manager von Grund auf neu. Die [Dokumentation und die Konfiguration Anleitung](https://docs.microsoft.com/sccm/) für System Center Configuration Manager ist eine hervorragende Ressource. Es wird empfohlen, dass Sie mit diesen Ressourcen starten, wenn Sie noch Konfigurations-Manager bereitgestellt haben.
+In diesem Artikel wird davon ausgegangen, dass Sie bereits über eine gesunde System Center Configuration Manager-Bereitstellung verfügen und nicht alle erforderlichen Schritte zum Bereitstellen und Konfigurieren von Configuration Manager von Grund auf detailliert ausführen. Die [Dokumentation und die Konfigurationsanleitungen](https://docs.microsoft.com/sccm/) im System Center Configuration Manager sind eine hervorragende Ressource; Wenn Sie Configuration Manager noch nicht bereitgestellt haben, empfehlen wir, mit diesen Ressourcen zu beginnen.
 
-Gehen Sie folgendermaßen vor, um sicherzustellen, dass das Betriebssystem Bereitstellungsfeatures (OSD) ordnungsgemäß konfiguriert sind.
+Verwenden Sie die folgenden Anweisungen, um zu überprüfen, ob die OSD-Features (Operating System Deployment) ordnungsgemäß konfiguriert sind.
 
-### <a name="validate-and-upgrade-configuration-manager"></a>Überprüfen und Aktualisieren von Configuration Manager
+### <a name="validate-and-upgrade-configuration-manager"></a>Überprüfen und Aktualisieren des Konfigurations-Managers
 
-1.  Navigieren Sie in der Configuration Manager-Konsole zu **Administration** \> **Updates und Wartung**.
+1.  Wechseln Sie in der Configuration Manager-Konsole zu **Administrator** \> **Updates und-Wartung**.
 
-2.  Überprüfen der installierten Build und die anwendbaren Aktualisierungen, die noch nicht installiert wurden haben.
+2.  Überprüfen Sie den installierten Build und die anwendbaren Updates, die noch nicht installiert wurden.
 
-3.  Überprüfen Sie die [Unterstützung für Windows 10 in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client); Wenn Sie die Bereitstellung aktualisieren müssen, wählen Sie das Update installieren möchten, und wählen Sie dann **herunterladen**.
+3.  Überprüfen des [Supports für Windows 10 in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) Wenn Sie Ihre Bereitstellung aktualisieren müssen, wählen Sie das Update aus, das Sie installieren möchten, und wählen Sie dann **herunterladen**aus.
 
-4.  Nachdem der Download abgeschlossen ist, wählen Sie das Update, und wählen Sie dann **Update Pack installieren**.
+4.  Nachdem der Download abgeschlossen ist, wählen Sie das Update aus, und wählen Sie dann **Update Pack installieren**aus.
 
-### <a name="configure-distribution-points-to-support-pxe-and-multicast"></a>Konfigurieren von Verteilungspunkte PXE und Multicast-Unterstützung
+### <a name="configure-distribution-points-to-support-pxe-and-multicast"></a>Konfigurieren von Verteilungspunkten zur Unterstützung von PXE und Multicast
 
-1.  Navigieren Sie in der Configuration Manager-Konsole zu **Administration** \> **Verteilungspunkte**.
+1.  Wechseln Sie in der Configuration Manager-Konsole zu **Verwaltungs** \> **Verteilungspunkten**.
 
-2.  Wählen Sie den Verteilung Point Server, der die Bereitstellung von Microsoft-Teams Räume dienen, und wählen Sie dann **Eigenschaften**aus.
+2.  Wählen Sie den Verteilungspunktserver aus, der für die Bereitstellung von Microsoft Teams rooms dient, und wählen Sie dann **Eigenschaften**aus.
 
-3.  Wählen Sie die **PXE** -Registerkarte, und stellen Sie sicher, dass die folgenden Einstellungen aktiviert sind:
-    -   Aktivieren der PXE-Unterstützung für clients
-    -   Zulassen Sie dieser Verteilungspunkt auf eingehende PXE-Anfragen reagieren
-    -   Aktivieren der Unterstützung von unbekannten computer
+3.  Wählen Sie die Registerkarte **PXE** aus, und stellen Sie sicher, dass die folgenden Einstellungen aktiviert sind:
+    -   Aktivieren der PXE-Unterstützung für Clients
+    -   Diesem Verteilungspunkt gestatten, auf eingehende PXE-Anforderungen zu reagieren
+    -   Unterstützung für unbekannte Computer aktivieren
 
-4.  *Optional:* Um multicast-Support zu aktivieren, wählen Sie die **Multicast** -Registerkarte, und stellen Sie sicher, dass die folgenden Einstellungen aktiviert sind:
-    -   Aktivieren Sie Multicast zum Senden von Daten für mehrere Clients gleichzeitig
-    -   Konfigurieren Sie den UDP-Port-Bereich gemäß den Anweisungen in Ihr Netzwerkteam Empfehlung
+4.  *Optional:* Wenn Sie die Multicastunterstützung aktivieren möchten, wählen Sie die Registerkarte **Multicast** aus, und stellen Sie sicher, dass die folgenden Einstellungen aktiviert sind:
+    -   Aktivieren von Multicast zum gleichzeitigen Senden von Daten an mehrere Clients
+    -   Konfigurieren des UDP-Portbereichs gemäß den Empfehlungen Ihres Netzwerkteams
 
-### <a name="configure-the-network-access-account"></a>Konfigurieren Sie das Netzwerk für den Inhaltszugriff
+### <a name="configure-the-network-access-account"></a>Konfigurieren des Netzwerkzugriffskontos
 
-1.  Navigieren Sie in der Configuration Manager-Konsole zu **Administration** \> **Standortkonfiguration** \> **Websites**, und wählen Sie dann die Website.
+1.  Wechseln Sie in der Configuration Manager-Konsole zu den **Verwaltungs** \> **Website-Konfigurations** \> **Websites**, und wählen Sie dann die Website aus.
 
-2.  Wählen Sie in der Gruppe **Einstellungen** **Konfigurieren Websitekomponenten** \> **Software Distribution**.
+2.  Wählen Sie in der Gruppe **Einstellungen** die Option **Software Verteilung**für **Websitekomponenten** \> konfigurieren aus.
 
-3.  Wählen Sie die Registerkarte **Netzwerk für den Inhaltszugriff** festlegen, eine oder mehrere Konten, und wählen Sie dann **OK**aus.
-
-> [!NOTE]
-> Die Konten benötigen keine spezielle Rechte, mit Ausnahme der **auf diesen Computer über das Netzwerk** direkt auf dem Verteilergruppen Point-Server. Eine generische Domänenbenutzerkonto wird geeignet. Weitere Informationen finden Sie unter [Verwalten von Konten Zugriff auf die Inhalte in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
-
-### <a name="configure-a-boot-image"></a>Konfigurieren einer Boot-Bild
-
-1.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Betriebssystem** \> **Boot Bilder**.
-
-2.  Wählen Sie **Start-Image (x64)**, und wählen Sie dann **Eigenschaften**aus.
-
-3.  Wählen Sie die Registerkarte **Datenquelle** aus, und aktivieren Sie **diese Boot-Abbild vom PXE-fähige Verteilungspunkt bereitstellen**.
-
-4.  Wählen Sie die **Optionalen Komponenten** -Registerkarte, um die erforderlichen Komponenten zu installieren:
-
-    1.  Wählen Sie Stern-Symbol, und suchen Sie nach **HTML (Windows PE-HTA)**
-
-    2.  Wählen Sie **OK** , um die Unterstützung von HTML in dem Boot-Abbild hinzufügen aus.
-
-5.  *Optional:* Zum Anpassen der Bereitstellung, wählen Sie die Registerkarte **Anpassung** .
-    -   Aktivieren Sie **Befehl unterstützen (nur zu Testzwecken)** aus, wenn Sie während der Bereitstellung in einem Eingabeaufforderungsfenster zugreifen möchten. Wenn diese Option aktiviert ist, können Sie ein Eingabeaufforderungsfenster, indem Sie **F8** auswählen, können Sie jederzeit während der Bereitstellung starten.
-    -   Sie können auch ein benutzerdefiniertes Hintergrundbild während der Bereitstellung anzuzeigende angeben. Aktivieren, um ein Bild festzulegen, **Geben Sie die benutzerdefinierten Hintergrund Image-Datei (UNC-Pfad** , und wählen Sie den Hintergrund.
-
-6.  Wenn Sie aufgefordert werden, wählen Sie **Ja** aus, und verteilen Sie das aktualisierte Boot Image an Ihre Verteilungspunkte.
-
-Weitere Informationen finden Sie unter [Manage Boot Bilder mit System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-boot-images).
+3.  Wählen Sie die Registerkarte **Netzwerkzugriffskonto** aus. richten Sie mindestens ein Konto ein, und wählen Sie dann **OK**aus.
 
 > [!NOTE]
-> Sie können ein startbares USB-Medium um Konfigurations-Manager Task Sequence-basierten Bereitstellungen für Umgebungen zu initiieren, die keine PXE-Unterstützung verfügen erstellen. Das startbare Medium enthält nur Boot Image, optionale prestart Befehle und ihre erforderlichen Dateien und Binärdateien Konfigurations-Manager zur Unterstützung der mit Windows PE starten und eine Verbindung zu den Konfigurations-Manager für den Rest des Bereitstellungsprozesses. Weitere Informationen finden Sie unter [Erstellen eines startbaren Medium](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia).
+> Die Konten benötigen keine besonderen Rechte, mit Ausnahme des **Zugriffs auf diesen Computer vom Netzwerk aus** direkt auf dem Verteilungspunktserver. Ein generisches Domänenbenutzerkonto ist angemessen. Weitere Informationen finden Sie unter [Verwalten von Konten für den Zugriff auf Inhalte in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
-## <a name="create-configuration-manager-packages"></a>Konfigurations-Manager-Pakete erstellen
+### <a name="configure-a-boot-image"></a>Konfigurieren eines Startabbilds
 
-Konfigurations-Manager erfordert eine Reihe von Paketen zum Bereitstellen und konfigurieren die Microsoft-Teams Chatrooms Einheiten.
+1.  Wechseln Sie in der Configuration Manager-Konsole zu den **Start**Abbildern des **Software Bibliothek** \> - **Betriebssystems** \> .
 
-Sie benötigen zum Erstellen und konfigurieren die folgenden Pakete, und klicken Sie dann den Konfigurations-Manager-Website-Systemen, die die Verteilung Point-Serverrolle zugewiesen wurden verteilen.
+2.  Wählen Sie **Startabbild (x64)** aus, und wählen Sie dann **Eigenschaften**aus.
 
-| **Paketname**                     | **Typ**               | **Beschreibung**                                                                           |
+3.  Wählen Sie die Registerkarte **Datenquelle** aus, und aktivieren Sie **Dieses Startabbild auf dem PXE-fähigen Verteilungspunkt bereitstellen**.
+
+4.  Wählen Sie die Registerkarte **optionale Komponenten** aus, um erforderliche Komponenten zu installieren:
+
+    1.  Wählen Sie das Stern Symbol aus, und suchen Sie nach **HTML (WinPE-HTA)** .
+
+    2.  Wählen Sie **OK** aus, um dem Startabbild HTML-Anwendungsunterstützung hinzuzufügen.
+
+5.  *Optional:* Um die Bereitstellungsumgebung anzupassen, wählen Sie die Registerkarte **Anpassung** aus.
+    -   Aktivieren Sie die **Befehlsunterstützung (nur testen)** , wenn Sie während der Bereitstellung auf eine Eingabeaufforderung zugreifen möchten. Wenn diese Option aktiviert ist, können Sie eine Eingabeaufforderung starten, indem Sie **F8** zu einem beliebigen Zeitpunkt während der Bereitstellung auswählen.
+    -   Sie können auch ein benutzerdefiniertes Hintergrundbild angeben, das während der Bereitstellung angezeigt werden soll. Wenn Sie ein Bild festlegen möchten, aktivieren **Sie die Option geben Sie die benutzerdefinierte Hintergrund Bilddatei an (UNC-Pfad** , und wählen Sie den Hintergrund aus.
+
+6.  Wenn Sie dazu aufgefordert werden, wählen Sie **Ja** aus, und verteilen Sie das aktualisierte Startabbild an Ihre Verteilungspunkte.
+
+Weitere Informationen finden Sie unter [Verwalten von Startabbildern mit System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-boot-images).
+
+> [!NOTE]
+> Sie können ein startbares USB-Medium erstellen, um auf Tasksequenz basierte Configuration Manager-Bereitstellungen für Umgebungen zu initiieren, die keine PXE-Unterstützung haben. Das startbare Medium enthält nur das Startabbild, optionale prestart-Befehle und die erforderlichen Dateien sowie Configuration Manager-Binärdateien, um das Booten in Windows PE zu unterstützen und die Verbindung mit Configuration Manager für den restlichen Bereitstellungsprozess herzustellen. Weitere Informationen finden Sie unter [Erstellen von Start](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)baren Medien.
+
+## <a name="create-configuration-manager-packages"></a>Erstellen von Configuration Manager-Paketen
+
+Configuration Manager erfordert eine Reihe von Paketen zum Bereitstellen und Konfigurieren der Microsoft Teams rooms-Einheiten.
+
+Sie müssen die folgenden Pakete erstellen und konfigurieren und dann an die Configuration Manager-Standortsysteme verteilen, denen die Verteilungspunkt-Serverrolle zugewiesen wurde.
+
+| **Paket Name**                     | **Typ**               | **Beschreibung**                                                                           |
 |--------------------------------------|------------------------|-------------------------------------------------------------------------------------------|
-| SRS v2 - Anwendungspaket SRS     | Softwarepaket       | Paket für das Microsoft-Teams Chatrooms Deployment kit                                      |
-| SRS v2 - Sysprep-Paket             | Softwarepaket       | Paket für die benutzerdefinierte Unattended.xml Microsoft Teams Chatrooms Einheiten konfigurieren            |
-| SRS v2 - Set-SRSComputerName-Paket | Softwarepaket       | Paket für die HTML-Anwendung (HTA) zuweisen einen Computernamen während der Bereitstellung    |
-| SRS v2 - SRS Setup konfigurieren         | Softwarepaket       | Konfigurieren der Bereitstellung der Microsoft-Teams Chatrooms app-Paket                          |
-| SRS v2 - aktualisiert OS Paket          | Softwarepaket       | Paket zum Bereitstellen von Updates obligatorisch Betriebssystem                                      |
-| SRS v2 - Root Certificate-Paket    | Softwarepaket       | Optional - Pakets zum Bereitstellen von des Stammzertifikats (nicht für die Domäne eingebundener Einheiten erforderlich)  |
-| SRS v2 - Microsoft Agent-Paket Monitoring | Softwarepaket       | Optional - Pakets zum Bereitstellen und Konfigurieren des Microsoft Operations Management Suite-Agents|
-| SRS v2 - Paket mit Windows PE Hintergrund    | Softwarepaket       | Paket für das benutzerdefinierte Hintergrundbild zur Verwendung mit Boot-Bilder                           |
-| Windows 10 Enterprise                | Betriebssystemabbilds | Paket für das Betriebssystem-Installationsdatei (install.wim)                          |
-| Surface Pro                          | Treiberpakets         | Paket für das Gerätetreiber und Firmware für Microsoft Surface Pro                     |
-| Surface Pro 4                        | Treiberpakets         | Paket für das Gerätetreiber und Firmware für Microsoft Surface Pro 4                   |
+| SRS v2-SRS-Anwendungspaket     | Software Paket       | Paket für das Microsoft Teams Room Deployment Kit                                      |
+| SRS v2 – Sysprep-Paket             | Software Paket       | Paket für die benutzerdefinierte unbeaufsichtigte XML-Datei zum Konfigurieren von Microsoft Teams-Zimmereinheiten            |
+| SRS v2-Set-SRSComputerName-Paket | Software Paket       | Paket für die HTML-Anwendung (HTA), um während der Bereitstellung einen Computernamen zuzuweisen    |
+| SRS v2 – Konfigurieren des SRS-Setups         | Software Paket       | Paket zum Konfigurieren der Bereitstellung der Microsoft Teams rooms-App                          |
+| SRS v2-Betriebssystem Updates-Paket          | Software Paket       | Paket zum Bereitstellen obligatorischer Betriebssystemupdates                                      |
+| SRS v2-Stammzertifikat Paket    | Software Paket       | Optional – Paket zum Bereitstellen des Stammzertifikats (nicht erforderlich für Domänen verbundene Einheiten)  |
+| SRS V2 – Paket für Microsoft-Überwachungs-Agents | Software Paket       | Optional – Paket zum Bereitstellen und Konfigurieren des Microsoft Operations Management Suite-Agents|
+| SRS v2 – WinPE-Hintergrund Paket    | Software Paket       | Paket für das benutzerdefinierte Hintergrundbild, das für Start Bilder verwendet werden soll                           |
+| Windows 10 Enterprise                | Betriebssystemabbild | Paket für die Installationsdatei des Betriebssystems (install. wim)                          |
+| Surface pro                          | Treiberpaket         | Paket für die Gerätetreiber und Firmware für Microsoft Surface pro                     |
+| Surface pro 4                        | Treiberpaket         | Paket für die Gerätetreiber und Firmware für Microsoft Surface pro 4                   |
 
 Weitere Informationen finden Sie unter [Pakete und Programme in System Center Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
 
-### <a name="create-folders-for-the-package-source-files"></a>Erstellen Sie die Ordner für das Paket Quelldateien
+### <a name="create-folders-for-the-package-source-files"></a>Erstellen von Ordnern für die Paketquelldateien
 
-Konfigurations-Manager erfordert die Quelldateien des Pakets in einer bestimmten Ordnerstruktur organisiert werden, wenn sie zuerst erstellt werden und wenn sie aktualisiert werden.
+Configuration Manager erfordert, dass Paketquelldateien in einer bestimmten Ordnerstruktur organisiert werden, wenn Sie zum ersten Mal erstellt und aktualisiert werden.
 
-Erstellen Sie die folgende Ordnerstruktur, die Zentraladministrationswebsite für System Center Configuration Manager oder primärer oder auf eine Serverfreigabe Host Paket Quelldateien verwendeten:
+Erstellen Sie die folgende Ordnerstruktur auf der System Center Configuration Manager-Website für die Zentraladministration oder auf der primären Website oder auf einer Serverfreigabe, die Sie zum Hosten von Paketquelldateien verwenden:
 
--   SRS v2 - Microsoft Agent-Paket Monitoring
--   SRS v2 - aktualisiert OS Paket
--   SRS v2 - Root Certificate-Paket
--   SRS v2 - Set-SRSComputerName-Paket
--   SRS v2 - Anwendungspaket SRS
--   SRS v2 - SRS Setup konfigurieren
--   SRS v2 - Sysprep-Paket
+-   SRS V2 – Paket für Microsoft-Überwachungs-Agents
+-   SRS v2-Betriebssystem Updates-Paket
+-   SRS v2-Stammzertifikat Paket
+-   SRS v2-Set-SRSComputerName-Paket
+-   SRS v2-SRS-Anwendungspaket
+-   SRS v2 – Konfigurieren des SRS-Setups
+-   SRS v2 – Sysprep-Paket
 -   Treiber
-    -   Surface Pro
-    -   Surface Pro 4
+    -   Surface pro
+    -   Surface pro 4
 -   Betriebssysteme
     -   Windows 10 Enterprise
 
 > [!TIP]
-> Sie können auch [herunterladen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) und verwenden die Zipdatei, die enthält die Ordnerstruktur für die Pakete, die Skripts, die Sie verwenden müssen, und der Task Sequence Vorlage, die Sie importieren möchten.
+> Sie können auch die ZIP-Datei [herunterladen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) und verwenden, die die Ordnerstruktur für die Pakete, die erforderlichen Skripts und die zu verwendende Tasksequenz Vorlage enthält, die Sie importieren müssen.
 
-### <a name="create-the-monitoring-agent-package"></a>Erstellen Sie das Monitoring-Agent-Paket
+### <a name="create-the-monitoring-agent-package"></a>Erstellen des Überwachungs-Agent-Pakets
 
-1. Laden Sie den Agent Überwachung von <https://go.microsoft.com/fwlink/?LinkId=828603>.
+1. Laden Sie den Überwachungs- <https://go.microsoft.com/fwlink/?LinkId=828603>Agent von herunter.
 
-2. Extrahieren Sie das Paket in den Ordner **SRS v2 - Agent-Monitoring-Paket Microsoft** , indem Sie ein Eingabeaufforderungsfenster öffnen und **MMASetup-AMD64.exe/c:** an der Befehlszeile.
+2. Extrahieren Sie das Paket in den Ordner **SRS v2-Microsoft-Überwachungs-Agent-Paket** , indem Sie ein Eingabeaufforderungsfenster öffnen und **MMASetup-amd64. exe/c:** an der Eingabeaufforderung eingeben.
 
-3. Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Anwendungsverwaltung** \> **Pakete**, und wählen Sie dann **Paket erstellen**.
+3. Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Application Management** \> **Packages**, und wählen Sie dann **Paket erstellen**aus.
 
-4. Geben Sie die folgenden Informationen, um das Paket zu erstellen:
+4. Geben Sie die folgenden Informationen ein, um das Paket zu erstellen:
 
-   - Namen<strong>: SRS v2 - Monitoring-Agent-Paket Microsoft</strong>
+   - Name<strong>: SRS V2 – Paket für Microsoft-Überwachungs-Agents</strong>
 
    - Hersteller<strong>: Microsoft Corporation</strong>
 
-   - Version<strong>: 8.1.11081.0</strong> (Geben Sie die Version der der heruntergeladenen Installationsdatei)
+   - Version<strong>: 8.1.11081.0</strong> (geben Sie die Version der heruntergeladenen Installationsdatei ein)
 
-   - Aktivieren Sie das Kontrollkästchen **Dieses Paket Quelldateien enthält** , geben Sie den Pfad zu dem Ordner **SRS v2 - Agent-Monitoring-Paket Microsoft** , und wählen Sie dann auf **Weiter**.
+   - Aktivieren Sie das Kontrollkästchen **Dieses Paket enthält Quelldateien** , geben Sie den Pfad zum **SRS v2-Microsoft-Überwachungs-Agent-Paket** Ordner ein, und wählen Sie dann **weiter**aus.
 
-5. **Erstellen Sie ein Programm nicht**aktivieren Sie, und wählen Sie dann auf **Weiter**.
+5. Wählen Sie **Programm nicht erstellen**aus, und wählen Sie dann **weiter**aus.
 
-6. Überprüfen Sie die Seite **bestätigen Sie die Einstellungen** , und wählen Sie dann auf **Weiter**.
+6. Überprüfen Sie die Seite **Einstellungen bestätigen** , und wählen Sie dann **weiter**aus.
 
 7. Wählen Sie **Schließen**aus.
 
-### <a name="create-the-operating-system-updates-package"></a>Erstellen Sie das Betriebssystem Updates-Paket
+### <a name="create-the-operating-system-updates-package"></a>Erstellen des Betriebssystemupdates-Pakets
 
-1. In den Ordner **SRS v2 - Paket mit Updates OS** Erstellen eines neuen PowerShell-Skripts, die mit dem Namen **Install-SRSv2-OS-Updates.ps1**.
+1. Erstellen Sie im Ordner **SRS v2-OS Updates Package** ein neues PowerShell-Skript mit dem Namen **install-SRSv2-OS-Updates. ps1**.
 
-2. Kopieren Sie das folgende Skript in das Skript für **Install-SRSv2-OS-Updates.ps1** . Alternativ können Sie das Skript für Install-SRSv2-OS-Updates.ps1 [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)herunterladen.
+2. Kopieren Sie das Skript unten in das **install-SRSv2-OS-Updates. ps1** -Skript. Alternativ können Sie das install-SRSv2-OS-Updates. ps1-Skript [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)herunterladen.
    ```
    # Install-SRSv2-OS-Updates.ps1
    $strPath = split-path -parent $MyInvocation.MyCommand.Definition
@@ -214,70 +214,70 @@ Erstellen Sie die folgende Ordnerstruktur, die Zentraladministrationswebsite fü
      Wait-Process -name wusa
    }
    ```
-3. Laden Sie die obligatorische Windows Update-Pakete in den gleichen Ordner.
+3. Laden Sie die obligatorischen Windows Update-Pakete in denselben Ordner herunter.
    > [!NOTE]
-   > Zum Zeitpunkt der Veröffentlichung des Artikels, war nur [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) erforderlich. Überprüfen Sie [Konfigurieren einer Microsoft-Teams Räume-Konsole](console.md), um festzustellen, ob andere Updates erforderlich sind.
+   > Zu dem Zeitpunkt, zu dem dieser Artikel veröffentlicht wurde, war nur [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) erforderlich. Aktivieren Sie das Kontrollkästchen [Konfigurieren einer Microsoft Teams rooms-Konsole](console.md), um festzustellen, ob andere Updates erforderlich sind.
 
-4. Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Anwendungsverwaltung** \> **Pakete**, und wählen Sie dann **Paket erstellen**.
+4. Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Application Management** \> **Packages**, und wählen Sie dann **Paket erstellen**aus.
 
-5. Geben Sie die folgenden Informationen, um das Paket zu erstellen:
-   -   Name: **SRS v2 – OS Paket aktualisiert**
+5. Geben Sie die folgenden Informationen ein, um das Paket zu erstellen:
+   -   Name: **SRS v2 – Betriebssystem Updates-Paket**
    -   Hersteller: **Microsoft Corporation**
    -   Version: **1.0.0**
-   -   Aktivieren Sie das Kontrollkästchen **Dieses Paket Quelldateien enthält** , geben Sie den Pfad zu dem Ordner **SRS v2 - Paket mit OS Updates** , und wählen Sie dann auf **Weiter**.
+   -   Aktivieren Sie das Kontrollkästchen **Dieses Paket enthält Quelldateien** , geben Sie den Pfad zum **SRS v2-OS-Updatepaket** Ordner ein, und wählen Sie dann **weiter**aus.
 
-6. **Erstellen Sie ein Programm nicht**aktivieren Sie, und wählen Sie dann auf **Weiter**.
+6. Wählen Sie **Programm nicht erstellen**aus, und wählen Sie dann **weiter**aus.
 
-7. Überprüfen Sie die Seite **bestätigen Sie die Einstellungen** , und wählen Sie dann auf **Weiter**.
+7. Überprüfen Sie die Seite **Einstellungen bestätigen** , und wählen Sie dann **weiter**aus.
 
 8. Wählen Sie **Schließen**aus.
 
-### <a name="create-the-root-certificate-package-optional"></a>Erstellen Sie das Stamm-Zertifikat-Paket (optional)
+### <a name="create-the-root-certificate-package-optional"></a>Erstellen des Stammzertifikat Pakets (optional)
 
-Sie erstellen diese Package, um das Stammzertifikat für Geräte verteilen, die mit einer Active Directory-Domäne verknüpft werden, werden nicht aus. Erstellen Sie dieses Paket nur, wenn beide die folgenden Bedingungen gelten:
--   Ihre Bereitstellung umfasst lokalen Lync oder Skype für Business Server.
--   Microsoft-Teams Chatrooms Einheiten werden für die Verwendung in einer Arbeitsgruppe statt Mitglied einer Domäne konfiguriert.
+Sie erstellen dieses Paket, um das Stammzertifikat für Geräte zu verteilen, die nicht mit einer Active Directory-Domäne verbunden werden. Erstellen Sie dieses Paket nur, wenn die folgenden Bedingungen zutreffen:
+-   Ihre Bereitstellung umfasst lokales lync oder Skype for Business Server.
+-   Microsoft Teams rooms-Einheiten sind so konfiguriert, dass Sie in einer Arbeitsgruppe statt in einem Domänenmitglied funktionieren.
 
-1.  Kopieren Sie das Stammzertifikat, in den Ordner **SRS v2 – Root Certificate-Paket** .
+1.  Kopieren Sie das Stammzertifikat in den Ordner **SRS v2 – Stammzertifikat Paket** .
 
-2.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Anwendungsverwaltung** \> **Pakete**, und wählen Sie dann **Paket erstellen**.
+2.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Application Management** \> **Packages**, und wählen Sie dann **Paket erstellen**aus.
 
-3.  Geben Sie die folgenden Informationen, um das Paket zu erstellen:
-    -   Name: **SRS v2 – Root Certificate-Paket**
-    -   Hersteller: *der Name Ihrer Organisation*
+3.  Geben Sie die folgenden Informationen ein, um das Paket zu erstellen:
+    -   Name: **SRS v2 – Stammzertifikat Paket**
+    -   Hersteller: *Name Ihrer Organisation*
     -   Version: **1.0.0**
-    -   Aktivieren Sie das Kontrollkästchen **Dieses Paket Quelldateien enthält** , geben Sie den Pfad zu dem Ordner **SRS v2 – Root Certificate-Paket** , und wählen Sie dann auf **Weiter**.
+    -   Aktivieren Sie das Kontrollkästchen **Dieses Paket enthält Quelldateien** , geben Sie den Pfad zum Ordner **SRS v2 – Stammzertifikat Paket** ein, und wählen Sie dann **weiter**aus.
 
-4.  **Erstellen Sie ein Programm nicht**aktivieren Sie, und wählen Sie dann auf **Weiter**.
+4.  Wählen Sie **Programm nicht erstellen**aus, und wählen Sie dann **weiter**aus.
 
-5.  Überprüfen Sie die Seite **bestätigen Sie die Einstellungen** , und wählen Sie dann auf **Weiter**.
+5.  Überprüfen Sie die Seite **Einstellungen bestätigen** , und wählen Sie dann **weiter**aus.
 
 6.  Wählen Sie **Schließen**aus.
 
-### <a name="create-the-microsoft-teams-rooms-deployment-kit-package"></a>Das Microsoft-Teams Chatrooms Kit Bereitstellungspaket erstellen
+### <a name="create-the-microsoft-teams-rooms-deployment-kit-package"></a>Erstellen des Microsoft Teams Room Deployment Kit-Pakets
 
-1.  Herunterladen der neuesten Version des **Microsoft-Teams Chatrooms Deployment Kit** von <https://go.microsoft.com/fwlink/?linkid=851168>, und installieren Sie es auf einer Arbeitsstation.
+1.  Laden Sie die neueste Version des **Microsoft Teams rooms Deployment Kit** von <https://go.microsoft.com/fwlink/?linkid=851168>herunter, und installieren Sie Sie auf einer Workstation.
 
-2.  Kopieren Sie den Inhalt von **C:\\Program Files (x86)\\Skype Raum System Deployment Kit** in den Ordner **SRS v2 - SRS Anwendungspaket** .
+2.  Kopieren Sie den Inhalt von **C\\: Program Files (x86\\) Skype Room System Deployment Kit** in den Ordner **SRS v2-SRS-Anwendungspaket** .
 
-3.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Anwendungsverwaltung** \> **Pakete**, und wählen Sie dann **Paket erstellen**.
+3.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Application Management** \> **Packages**, und wählen Sie dann **Paket erstellen**aus.
 
-4.  Geben Sie die folgenden Informationen, um das Paket zu erstellen:
-    -   Name: **SRS v2 – SRS Anwendungspaket**
+4.  Geben Sie die folgenden Informationen ein, um das Paket zu erstellen:
+    -   Name: **SRS v2 – SRS-Anwendungspaket**
     -   Hersteller: **Microsoft Corporation**
-    -   Version: **3.1.104.0** (Geben Sie die Version der der heruntergeladenen Installationsdatei)
-    -   Aktivieren Sie das Kontrollkästchen **Dieses Paket Quelldateien enthält** , geben Sie den Pfad zu dem Ordner **SRS v2 – SRS Anwendungspaket** , und wählen Sie dann auf **Weiter**.
-5.  **Erstellen Sie ein Programm nicht**aktivieren Sie, und wählen Sie dann auf **Weiter**.
+    -   Version: **3.1.104.0** (geben Sie die Version der heruntergeladenen Installationsdatei ein)
+    -   Aktivieren Sie das Kontrollkästchen **Dieses Paket enthält Quelldateien** , geben Sie den Pfad zum **SRS v2-SRS-Anwendungspaket** Ordner ein, und wählen Sie dann **weiter**aus.
+5.  Wählen Sie **Programm nicht erstellen**aus, und wählen Sie dann **weiter**aus.
 
-6.  Überprüfen Sie die Seite **bestätigen Sie die Einstellungen** , und wählen Sie dann auf **Weiter**.
+6.  Überprüfen Sie die Seite **Einstellungen bestätigen** , und wählen Sie dann **weiter**aus.
 
 7.  Wählen Sie **Schließen**aus.
 
-### <a name="create-the-computer-name-assignment-package"></a>Erstellen Sie das Computer Namen Assignment-Paket
+### <a name="create-the-computer-name-assignment-package"></a>Erstellen des Aufgabenpakets "Computername"
 
-1.  Erstellen Sie eine neue HTML-Anwendung mit dem Namen **Set-SRSComputerName.hta** in den Ordner **SRS v2 - Set-SRSComputerName-Paket** .
+1.  Erstellen Sie im **Paketordner SRS v2-Set-SRSComputerName** eine neue HTML-Anwendung mit dem Namen **Set-SRSComputerName. HTA** .
 
-2.  Kopieren Sie das folgende Skript in die **Set-SRSComputerName.hta** -Datei. Alternativ können Sie die Set-SRSComputerName.hta Datei [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)herunterladen.
+2.  Kopieren Sie das folgende Skript in die **Set-SRSComputerName. HTA** -Datei. Alternativ können Sie die Set-SRSComputerName. HTA-Datei [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)herunterladen.
     ```
     <!DOCTYPE HTML>
     <html>
@@ -365,29 +365,29 @@ Sie erstellen diese Package, um das Stammzertifikat für Geräte verteilen, die 
     </html>
 
     ```
-3.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Anwendungsverwaltung** \> **Pakete**, und wählen Sie dann **Paket erstellen**.
+3.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Application Management** \> **Packages**, und wählen Sie dann **Paket erstellen**aus.
 
-4.  Geben Sie die folgenden Informationen, um das Paket zu erstellen:
+4.  Geben Sie die folgenden Informationen ein, um das Paket zu erstellen:
 
-    -   Name: **SRS v2 - Set-SRSComputerName-Paket**
+    -   Name: **SRS v2-Set-SRSComputerName-Paket**
 
     -   Hersteller: **Microsoft Corporation**
 
     -   Version: **1.0.0**
 
-    -   Aktivieren Sie das Kontrollkästchen **Dieses Paket Quelldateien enthält** , geben Sie den Pfad zu dem Ordner **SRS v2 - Set-SRSComputerName-Paket** , und wählen Sie dann auf **Weiter**.
+    -   Aktivieren Sie das Kontrollkästchen **Dieses Paket enthält Quelldateien** , geben Sie den Pfad zum **SRS v2-Set-SRSComputerName-Paket** Ordner ein, und wählen Sie dann **weiter**aus.
 
-5.  **Erstellen Sie ein Programm nicht**aktivieren Sie, und wählen Sie dann auf **Weiter**.
+5.  Wählen Sie **Programm nicht erstellen**aus, und wählen Sie dann **weiter**aus.
 
-6.  Überprüfen Sie die Seite **bestätigen Sie die Einstellungen** , und wählen Sie dann auf **Weiter**.
+6.  Überprüfen Sie die Seite **Einstellungen bestätigen** , und wählen Sie dann **weiter**aus.
 
 7.  Wählen Sie **Schließen**aus.
 
-### <a name="create-the-sysprep-package"></a>Erstellen Sie das Sysprep-Paket
+### <a name="create-the-sysprep-package"></a>Erstellen des Sysprep-Pakets
 
-1. Erstellen Sie eine neue XML-Datei namens **Unattend.xml** in den Ordner **SRS v2 – Sysprep-Paket** .
+1. Erstellen Sie im Ordner **SRS v2 – Sysprep-Paket** eine neue XML-Datei mit dem Namen Unattend **. XML** .
 
-2. Kopieren Sie den folgenden Text in der Datei **Unattend.xml** . Alternativ können Sie die Datei Unattend.xml [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)heruntergeladen werden.
+2. Kopieren Sie den folgenden Text in die Datei **Unattend. XML** . Alternativ können Sie die Datei "Unattend. xml" [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)herunterladen.
    ```
    <?xml version="1.0" encoding="utf-8"?>
    <unattend xmlns="urn:schemas-microsoft-com:unattend">
@@ -439,90 +439,90 @@ Sie erstellen diese Package, um das Stammzertifikat für Geräte verteilen, die 
    <cpi:offlineImage cpi:source="wim:h:/install.wim#Windows 10 Enterprise" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
    </unattend>
    ```
-3. Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Anwendungsverwaltung** \> **Pakete**, und wählen Sie dann **Paket erstellen**.
+3. Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Application Management** \> **Packages**, und wählen Sie dann **Paket erstellen**aus.
 
-4. Geben Sie die folgenden Informationen, um das Paket zu erstellen:
-   -   Name: **SRS v2 - Sysprep-Paket**
+4. Geben Sie die folgenden Informationen ein, um das Paket zu erstellen:
+   -   Name: **SRS v2 – Sysprep-Paket**
    -   Hersteller: **Microsoft Corporation**
    -   Version: **1.0.0**
-   -   Aktivieren Sie das Kontrollkästchen **Dieses Paket Quelldateien enthält** , geben Sie den Pfad zu dem Ordner **SRS v2 – Sysprep-Paket** , und wählen Sie dann auf **Weiter**.
-5. **Erstellen Sie ein Programm nicht**aktivieren Sie, und wählen Sie dann auf **Weiter**.
+   -   Aktivieren Sie das Kontrollkästchen **Dieses Paket enthält Quelldateien** , geben Sie den Pfad zum Ordner **SRS v2 – Sysprep-Paket** ein, und wählen Sie dann **weiter**aus.
+5. Wählen Sie **Programm nicht erstellen**aus, und wählen Sie dann **weiter**aus.
 
-6. Überprüfen Sie die Seite **bestätigen Sie die Einstellungen** , und wählen Sie dann auf **Weiter**.
+6. Überprüfen Sie die Seite **Einstellungen bestätigen** , und wählen Sie dann **weiter**aus.
 
 7. Wählen Sie **Schließen**aus.
 
-### <a name="create-the-windows-10-enterprise-package"></a>Erstellen Sie das Windows-10-Enterprise-Paket
+### <a name="create-the-windows-10-enterprise-package"></a>Erstellen des Windows 10 Enterprise-Pakets
 
-1.  Erhalten Sie eine Windows 10 Enterprise X64 Media, und kopieren Sie die Datei **install.wim** , um die **Betriebssysteme\\Windows 10 Enterprise** Ordner.
+1.  Besorgen Sie sich ein Windows 10 Enterprise x64-Medium, und kopieren Sie die Datei " **install. wim** " in den **\\Windows 10 Enterprise** -Ordner der Betriebssysteme.
 
-2.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Betriebssysteme** \> **Betriebssystemabbilder**, und wählen Sie dann **Operating System Image hinzufügen**.
+2.  Wechseln Sie in der Configuration Manager-Konsole zu den Betriebs **System**Abbildern der **Software Bibliothek** \> **** \> , und wählen Sie dann **Betriebssystemabbild hinzufügen**aus.
 
-3.  Geben Sie den Pfad zu der **install.wim** -Datei, die Sie gerade kopiert haben, und wählen Sie dann auf **Weiter**.
+3.  Geben Sie den Pfad zu der soeben kopierten **install. wim** -Datei an, und wählen Sie dann **weiter**aus.
 
-4.  Aktualisieren Sie das Feld **Version** die Buildnummer des Bilds Windows 10 Enterprise entsprechend, und wählen Sie dann auf **Weiter**.
+4.  Aktualisieren Sie das Feld **Version** so, dass es der Buildnummer des Windows 10 Enterprise-Bilds entspricht, und wählen Sie dann **weiter**aus.
 
-5.  Überprüfen Sie die Seite **Details** , und wählen Sie dann auf **Weiter**.
+5.  Überprüfen Sie die Seite **Details** , und wählen Sie dann **weiter**aus.
 
 6.  Wählen Sie **Schließen**aus.
 
-Weitere Informationen finden Sie unter [Manage Betriebssystem Bilder mit System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-operating-system-images).
+Weitere Informationen finden Sie unter [Verwalten von Betriebssystemabbildern mit System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-operating-system-images).
 
-### <a name="create-surface-pro-device-driver-packages"></a>Erstellen Sie Surface Pro Gerät Treiberpakete.
+### <a name="create-surface-pro-device-driver-packages"></a>Erstellen von Surface pro-Gerätetreiberpaketen
 
-Microsoft-Teams Chatrooms wird für Surface Pro und Surface Pro 4 unterstützt. Sie müssen ein Paket für jedes Surface Pro Modell zu erstellen, die Ihnen in Ihrer Umgebung.
+Microsoft Teams Rooms wird sowohl für Surface pro als auch Surface pro 4 unterstützt. Sie müssen für jedes Surface pro-Modell, das Sie in Ihrer Umgebung haben, ein Treiberpaket erstellen.
 
 > [!IMPORTANT]
-> Die Treiber müssen mit der Windows-10-Enterprise-Build und die Microsoft-Teams Chatrooms Deployment Kit Version kompatibel sein. Weitere Informationen finden Sie unter [Laden Sie die neueste Firmware und Treiber für Fläche Geräte](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) und [Konfigurieren einer Konsole](console.md).
+> Die Treiber müssen mit dem Windows 10 Enterprise Build und der Microsoft Teams Room Deployment Kit-Version kompatibel sein. Weitere Informationen finden Sie unter [herunterladen der neuesten Firmware und Treiber für Surface-Geräte](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) und [Konfigurieren einer Konsole](console.md).
 
-1.  Laden Sie die aktuellsten Treiber und Firmware.
-    -   Für Surface Pro:<https://www.microsoft.com/download/details.aspx?id=55484>
-    -   Für Surface Pro 4:<https://www.microsoft.com/download/details.aspx?id=49498>
+1.  Laden Sie die neuesten Treiber und Firmware herunter.
+    -   Für Surface pro:<https://www.microsoft.com/download/details.aspx?id=55484>
+    -   Für Surface pro 4:<https://www.microsoft.com/download/details.aspx?id=49498>
 
-2.  Extrahieren Sie die heruntergeladene Treiber und Firmware. Öffnen Sie ein Eingabeaufforderungsfenster, und geben Sie an der Befehlszeile einen der folgenden Befehle:
+2.  Extrahieren Sie den heruntergeladenen Treiber und die Firmware. Öffnen Sie ein Eingabeaufforderungsfenster, und geben Sie an der Eingabeaufforderung einen der folgenden Befehle ein:
     -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro"`
     -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro 4"`
 
-3.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Betriebssysteme** \> **-Treiber**, und wählen Sie dann **Import-Treiber**.
+3.  Wechseln Sie in der Configuration Manager-Konsole zu den Treibern der **Software Bibliothek** \> - **Betriebssysteme** \> ****, und wählen Sie dann **Treiber importieren**aus.
 
-4.  Wählen Sie **alle Treiber in den folgenden Netzwerkpfad (UNC) zu importieren**, wählen Sie den Quellordner (z. B. C:\\_Sources\\Treiber\\Surface Pro), und wählen Sie dann auf **Weiter**.
+4.  Wählen Sie **alle Treiber importieren im folgenden Netzwerkpfad (UNC)** aus, wählen Sie den Quellordner aus (beispielsweise\\C\\:\\_Sources Driver Surface pro), und wählen Sie dann **weiter**aus.
 
-5.  Klicken Sie auf der Seite **Geben Sie die Details für die importierten Treiber** wählen Sie alle aufgelisteten Treiber, und wählen Sie dann **diese Treiber aktivieren und ermöglichen Computern installieren**.
+5.  Wählen Sie auf der Seite **Geben Sie die Details für die importierten Treiber** an alle aufgeführten Treiber aus, und wählen Sie dann **Diese Treiber aktivieren aus, und ermöglichen Sie es Computern, Sie zu installieren**.
 
-6.  Wählen Sie **Kategorien**, Erstellen einer neuen Kategorie, die einzelnen Details des Modells Fläche entspricht, wählen Sie **OK**aus, und wählen Sie dann auf **Weiter**.
+6.  Wählen Sie **Kategorien**aus, erstellen Sie eine neue Kategorie, die dem Oberflächenmodell entspricht, wählen Sie **OK**aus, und wählen Sie dann **weiter**aus.
 
-7.  Wählen Sie **Neues Paket**aus.
+7.  Wählen Sie **neues Paket**aus.
 
-8.  Geben Sie den Paketnamen an, der mit das Surface Pro Modell übereinstimmt, geben Sie einen Pfad zum Speichern von Paketdateien Treiber im, wählen Sie **OK**aus, und wählen Sie dann auf **Weiter**.
+8.  Geben Sie den Paketnamen an, der dem Surface pro-Modell entspricht, geben Sie einen Ordnerpfad zum Speichern der Treiberpaketdateien ein, wählen Sie **OK**aus, und wählen Sie dann **weiter**aus.
 
-9.  Auf der Seite **Boot Bilder** stellen Sie sicher, dass keine Bilder Boot ausgewählt sind, und wählen Sie dann auf **Weiter**.
+9.  Stellen Sie sicher, dass auf der Seite **Start Bilder** keine Startabbilder ausgewählt sind, und wählen Sie dann **weiter**aus.
 
 10. Wählen Sie **Schließen**aus.
 
-11. Wechseln Sie zu **Software Library** \> **Betriebssysteme** \> - **Treiber**wählen **Ordner \> Ordner erstellen**, und geben Sie einen Ordnernamen, die einzelnen Details des Modells Surface Pro gesucht, die Sie gerade die Treiber für importiert.
+11. Wechseln Sie zu den Treibern der **Software Bibliothek** \> - **Betriebssysteme** \> ****, wählen Sie Ordner ** \> erstellen**aus, und geben Sie einen Ordnernamen ein, der dem Surface pro-Modell entspricht, für das Sie die Treiber gerade importiert haben.
 
-12. Verschieben Sie alle importierten Treiber in den neu erstellten Ordner für einfachere Navigation und Vorgang.
+12. Verschieben Sie alle importierten Treiber in den neu erstellten Ordner, um die Navigation und den Vorgang zu vereinfachen.
 
 > [!NOTE]
-> Wiederholen Sie die gleichen Schritte für andere Surface Pro Modelle möglicherweise. Weitere Informationen finden Sie unter [Manage Treiber in System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
+> Wiederholen Sie diese Schritte für andere Surface pro-Modelle, die Sie möglicherweise haben. Weitere Informationen finden Sie unter [Verwalten von Treibern in System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
 
-### <a name="create-microsoft-teams-rooms-configuration-package"></a>Microsoft-Teams, Räume Konfigurationspaket erstellen
+### <a name="create-microsoft-teams-rooms-configuration-package"></a>Konfigurationspaket "Microsoft Teams-Chatrooms erstellen"
 
-1.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Anwendungsverwaltung** \> **Pakete**, und wählen Sie dann **Paket erstellen**.
+1.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Application Management** \> **Packages**, und wählen Sie dann **Paket erstellen**aus.
 
-2.  Geben Sie die folgenden Informationen, um das Paket zu erstellen:
+2.  Geben Sie die folgenden Informationen ein, um das Paket zu erstellen:
 
-    -   Name: **SRS v2 - Setuppaket SRS konfigurieren**
+    -   Name: **SRS v2 – Konfigurieren des SRS-Setup Pakets**
 
     -   Hersteller: **Microsoft Corporation**
 
     -   Version: **1.0.0**
 
-    -   Aktivieren Sie das Kontrollkästchen **Dieses Paket Quelldateien enthält** , geben Sie den Pfad zu dem Ordner **SRS v2 - SRS Setup konfigurieren** , und wählen Sie dann auf **Weiter**.
+    -   Aktivieren Sie das Kontrollkästchen **Dieses Paket enthält Quelldateien** , geben Sie den Pfad zum **SRS v2-Setup-** Ordner ein, und wählen Sie dann **weiter**aus.
 
-3.  **Erstellen Sie ein Programm nicht**aktivieren Sie, und wählen Sie dann auf **Weiter**.
+3.  Wählen Sie **Programm nicht erstellen**aus, und wählen Sie dann **weiter**aus.
 
-4.  Überprüfen Sie die Seite **bestätigen Sie die Einstellungen** , und wählen Sie dann auf **Weiter**.
+4.  Überprüfen Sie die Seite **Einstellungen bestätigen** , und wählen Sie dann **weiter**aus.
 
 5.  Wählen Sie **Schließen**aus.
 
@@ -530,226 +530,226 @@ Microsoft-Teams Chatrooms wird für Surface Pro und Surface Pro 4 unterstützt. 
 
 ## <a name="distribute-configuration-manager-packages"></a>Verteilen von Configuration Manager-Paketen
 
-Alle Pakete müssen an die Server verteilt werden, die die Verteilungspunktrolle in der Configuration Manager-Hierarchie zugewiesen wurden. Gehen Sie zum Paket Verteilung initiieren.
+Alle Pakete müssen an die Server verteilt werden, denen die Verteilungspunktrolle in der Configuration Manager-Hierarchie zugewiesen wurde. Führen Sie die folgenden Anweisungen aus, um die Paketverteilung zu initiieren.
 
-1.  Verteilen Sie Softwarepakete.
+1.  Softwarepakete verteilen.
 
-    1.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Anwendungsverwaltung** \> **Pakete**. Wählen Sie die Software-Pakete, die Sie verteilen möchten, und wählen Sie dann auf **Content verteilen**.
+    1.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Application Management** \> **Packages**. Wählen Sie alle Softwarepakete aus, die Sie verteilen möchten, und wählen Sie dann **Inhalt verteilen**aus.
 
-    2.  Überprüfen Sie die Liste der Pakete, und wählen Sie dann auf **Weiter**.
+    2.  Überprüfen Sie die Liste der Pakete, und wählen Sie dann **weiter**aus.
 
-    3.  Die Liste alle Verteilung Point-Server (oder Punkt Verteilergruppen, je nach der Hierarchie der Konfigurations-Manager) hinzu, und wählen Sie dann auf **Weiter**.
+    3.  Fügen Sie der Liste alle Verteilungspunktserver (oder Verteilungspunktgruppen, je nach Ihrer Configuration Manager-Hierarchie) hinzu, und wählen Sie dann **weiter**aus.
 
-    4.  Wählen Sie **Weiter**aus, und wählen Sie dann auf **Schließen**.
+    4.  Wählen Sie **weiter**aus, und wählen Sie dann **Schließen**aus.
 
-2.  Verteilen von Treiberpaketen.
+2.  Treiberpakete verteilen.
 
-    1.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Betriebssysteme** \> **Treiberpakete**. Wählen Sie die Treiberpakete, die Sie verteilen möchten, und wählen Sie dann auf **Inhalt zu verteilen**.
+    1.  Wechseln Sie in der Configuration Manager-Konsole zu den **Treiberpaketen**für **Software Bibliothek** \> - **Betriebssysteme** \> . Wählen Sie alle Treiberpakete aus, die Sie verteilen möchten, und wählen Sie dann **Inhalt verteilen**aus.
 
-    2.  Überprüfen Sie die Liste der Pakete, und wählen Sie dann auf **Weiter**.
+    2.  Überprüfen Sie die Liste der Pakete, und wählen Sie dann **weiter**aus.
 
-    3.  Die Liste alle Verteilung Point-Server (oder Punkt Verteilergruppen, je nach der Hierarchie der Konfigurations-Manager) hinzu, und wählen Sie dann auf **Weiter**.
+    3.  Fügen Sie der Liste alle Verteilungspunktserver (oder Verteilungspunktgruppen, je nach Ihrer Configuration Manager-Hierarchie) hinzu, und wählen Sie dann **weiter**aus.
 
-    4.  Wählen Sie **Weiter**aus, und wählen Sie dann auf **Schließen**.
+    4.  Wählen Sie **weiter**aus, und wählen Sie dann **Schließen**aus.
 
-3.  Verteilen Sie Betriebssystem-Pakete.
+3.  Verteilen von Betriebssystempaketen
 
-    1.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Betriebssysteme** \> **Betriebssystemabbilder**. Wählen Sie alle Betriebssystemabbilder, die Sie verteilen möchten, und wählen Sie dann auf **Inhalt zu verteilen**.
+    1.  Wechseln Sie in der Configuration Manager-Konsole zu den **** \> **Betriebssystem**Abbildern der **Software Bibliothek** \> . Wählen Sie alle Betriebssystem Bilder aus, die Sie verteilen möchten, und wählen Sie dann **Inhalt verteilen**aus.
 
-    2.  Überprüfen Sie die Liste der Pakete, und wählen Sie dann auf **Weiter**.
+    2.  Überprüfen Sie die Liste der Pakete, und wählen Sie dann **weiter**aus.
 
-    3.  Die Liste alle Verteilung Point-Server (oder Punkt Verteilergruppen, je nach der Hierarchie der Konfigurations-Manager) hinzu, und wählen Sie dann auf **Weiter**.
+    3.  Fügen Sie der Liste alle Verteilungspunktserver (oder Verteilungspunktgruppen, je nach Ihrer Configuration Manager-Hierarchie) hinzu, und wählen Sie dann **weiter**aus.
 
-    4.  Wählen Sie **Weiter**aus, und wählen Sie dann auf **Schließen**.
+    4.  Wählen Sie **weiter**aus, und wählen Sie dann **Schließen**aus.
 
 > [!NOTE]
-> Paket Verteilung kann je nach der Größe der Verteilungspakete, Konfigurations-Manager-Hierarchie, Anzahl der Verteilung Point Server und die Bandbreite in Ihrem Netzwerk verfügbar einige Zeit dauern.
+> Die Paketverteilung kann abhängig von der Paketgröße, der Configuration Manager-Hierarchie, der Anzahl der Verteilungspunktserver und der in Ihrem Netzwerk verfügbaren Bandbreite einige Zeit in Anspruch nehmen.
 > 
-> Bevor Sie eine Einheit Microsoft Teams Chatrooms bereitstellen können, müssen alle Pakete verteilt werden.
+> Alle Pakete müssen verteilt werden, bevor Sie mit der Bereitstellung einer Microsoft Teams rooms-Einheit beginnen können.
 > 
-> Sie können den Status Ihrer Paket Verteilung in der Configuration Manager-Konsole auf **Überwachung** überprüfen \> **Verteilungsstatus** \> **Status des Inhalts**.
+> Sie können den Status Ihrer Paketverteilung in der Configuration Manager-Konsole überprüfen, indem **** \> Sie auf den **Inhaltsstatus**des **Verteilungsstatus** \> überwachen wechseln.
 
-## <a name="configuration-manager-task-sequences"></a>Konfigurations-Manager Task sequences
+## <a name="configuration-manager-task-sequences"></a>Tasksequenzen für Configuration Manager
 
-Mit System Center Configuration Manager verwenden Sie Task Sequences, um die Schritte zur Bereitstellung eines Betriebssystemabbilds auf einem Zielcomputer zu automatisieren. Zum Bereitstellen von Microsoft-Teams Chatrooms Einheit automatisiert zu erstellen Sie eine Aufgabensequenz, die zum Starten der Zielcomputer Microsoft Teams Chatrooms, die Windows-10-Enterprise-Betriebssystemabbilds, die Sie installieren möchten und andere Boot-Abbild verweist Weitere zusätzliche Inhalte wie andere Anwendungen oder Softwareupdates.
+Sie verwenden Tasksequenzen mit System Center Configuration Manager, um die Schritte zum Bereitstellen eines Betriebs System Abbilds auf einem Zielcomputer zu automatisieren. Wenn Sie eine Microsoft Teams rooms-Einheit auf automatisierte Weise bereitstellen möchten, erstellen Sie eine Tasksequenz, die auf das Startabbild verweist, das zum Starten des Microsoft Teams Room-Zielcomputers, des Windows 10 Enterprise-Betriebssystemabbilds, das Sie installieren möchten, und allen andere zusätzliche Inhalte wie andere Anwendungen oder Softwareupdates.
 
-### <a name="import-the-sample-task-sequence"></a>Importieren Sie die Beispiel Aufgabensequenz
+### <a name="import-the-sample-task-sequence"></a>Importieren der Beispiel Tasksequenz
 
-Sie können herunterladen und auf einfache Weise importieren eine Beispiel-Aufgabensequenz und entsprechend Ihren Anforderungen anpassen.
+Sie können eine Beispiel Tasksequenz herunterladen und auf einfache Weise importieren und an Ihre Anforderungen anpassen.
 
-1.  [**Herunterladen**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) der Aufgabensequenz Sample, und kopieren Sie die heruntergeladene Zip-Datei an einen freigegebenen Speicherort.
-2.  Wechseln Sie in der Configuration Manager-Konsole zu **Software Library** \> **Betriebssysteme** \> **Task Sequences**, und wählen Sie dann **Import Task Sequence**.
+1.  [**Laden**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) Sie die Beispiel Tasksequenz herunter, und kopieren Sie die heruntergeladene ZIP-Datei an einen freigegebenen Speicherort.
+2.  Wechseln Sie in der Configuration Manager-Konsole zu den **Tasksequenzen** **Software Library** \> **Operating Systems** \> , und wählen Sie dann **Tasksequenz importieren**aus.
 
-3.  Wählen Sie **Durchsuchen**, wechseln Sie auf den Speicherort des freigegebenen Ordners, den Sie in Schritt 1 verwendet haben, wählen Sie die **Microsoft-Teams Chatrooms Bereitstellung (EN-US) ZIP** -Datei, und wählen Sie dann auf **Weiter**.
+3.  Wählen Sie **Durchsuchen**aus, wechseln Sie zum Speicherort des freigegebenen Ordners, den Sie in Schritt 1 verwendet haben, wählen Sie die **Microsoft Teams Room Deployment (en-US). zip** -Datei aus, und wählen Sie dann **weiter**aus.
 
-4.  Legen Sie die **Aktion** auf **Neu erstellen**, und wählen Sie dann auf **Weiter**.
+4.  Legen Sie **Aktion** auf **neu erstellen**, und wählen Sie dann **weiter**aus.
 
-5.  Bestätigen Sie die Einstellungen, und wählen Sie dann auf **Weiter**.
+5.  Bestätigen Sie die Einstellungen, und wählen Sie dann **weiter**aus.
 
 6.  Wählen Sie **Schließen**aus.
 
-### <a name="validate-that-the-reference-packages-are-correctly-linked-to-each-task-sequence-step"></a>Überprüfen Sie, dass die Pakete Verweis ordnungsgemäß mit jedem Task Sequence Schritt verknüpft sind.
+### <a name="validate-that-the-reference-packages-are-correctly-linked-to-each-task-sequence-step"></a>Überprüfen Sie, ob die Verweis Pakete ordnungsgemäß mit jedem Tasksequenzschritt verknüpft sind.
 
-1. Wählen Sie die importierten Aufgabensequenz aus, und wählen Sie dann auf **Bearbeiten**.
+1. Wählen Sie die importierte Tasksequenz aus, und wählen Sie dann **Bearbeiten**aus.
 
-    Den Task Sequence Editor wird geöffnet und zeigt jede sequenziellen Schritt, die Sie benötigen zum Bereitstellen und konfigurieren eine Microsoft-Teams Chatrooms Einheit.
+    Der Task Sequenz-Editor wird geöffnet und zeigt jeden sequenziellen Schritt an, den Sie für die Bereitstellung und Konfiguration einer Microsoft Teams rooms-Einheit benötigen.
 
-2. Durch die einzelnen Schritte durchlaufen Sie, und schließen Sie die empfohlenen Updates:
+2. Durchlaufen Sie die einzelnen Schritte, und führen Sie die empfohlenen Updates aus:
 
-   1. **In Windows PE neu starten**: Dieser Schritt wird neu gestartet, und klicken Sie dann in Windows PXE startet den Computer. In diesem Schritt muss werden nicht geändert.
+   1. **Neustart in Windows PE**: dieser Schritt wird neu gestartet und dann der Computer in Windows PXE gestartet. Für diesen Schritt sind keine Änderungen erforderlich.
 
-   2. **Partition Datenträger 0 – UEFI**: in diesem Schritt löscht die Datenträgerkonfiguration und Partitionen basierend auf den konfigurierten Einstellungen erstellt. Es wird empfohlen, dass Sie keine Änderungen an diesen Schritt vorgenommen.
+   2. **Partition Disk 0 – UEFI**: dieser Schritt löscht die Datenträgerkonfiguration und erstellt Partitionen basierend auf den konfigurierten Einstellungen. Wir empfehlen, dass Sie an diesem Schritt keine Änderungen vornehmen.
 
-   3. **SRS Computername festgelegt**: Dieser Schritt umfasst das eine HTML-Anwendung eine Benutzeroberfläche zum Festlegen von eines Computernamen für die Microsoft-Teams Chatrooms Einheit während der Bereitstellung bereitstellen.
-      -  Dies ist ein optionaler Schritt, aber es kann nur deaktiviert werden, wenn Sie über ein alternativer Prozess die Benennung von Computern verwalten möchten.
-      -  Stellen Sie sicher, dass das Paket **SRS v2 - Set-SRSComputerName** ausgewählt ist. Falls nicht, suchen Sie das Paket, und wählen Sie sie aus.
+   3. **SRS-Computer Name einrichten**: dieser Schritt umfasst eine HTML-Anwendung, um eine Benutzeroberfläche bereitzustellen, um einen Computer Namen für die Einheit Microsoft Teams rooms während der Bereitstellung zu definieren.
+      -  Dies ist ein optionaler Schritt, der aber nur deaktiviert werden kann, wenn Sie die Computer Namensgebung in einem anderen Prozess verwalten möchten.
+      -  Überprüfen Sie, ob das Paket **SRS v2-Set-SRSComputerName** ausgewählt ist. Wenn dies nicht der Fall ist, wechseln Sie zum Paket, und wählen Sie es aus.
 
-   4. **Betriebssystem anwenden**: in diesem Schritt gibt an, das Betriebssystemabbild bereitgestellt werden und die unbeaufsichtigte Sysprep Antwortdatei verwendet.
-      -  Stellen Sie sicher, dass die richtige Windows 10 Enterprise Operating System Image-Datei ausgewählt ist.
-      -  Stellen Sie sicher, dass die **Verwendung einer unbeaufsichtigten oder Sysprep-Antwortdatei für eine benutzerdefinierte Installation** ist aktiviert, und der **SRS v2 - Sysprep-Paket** aktiviert ist. Außerdem sicherstellen Sie, dass **Dateinamen** **unattend.xml**festgelegt ist.
+   4. **Betriebssystem anwenden**: dieser Schritt gibt das Betriebssystemabbild an, das bereitgestellt werden soll, und die zu verwendende Antwortdatei für die unbeaufsichtigte Sysprep.
+      -  Überprüfen Sie, ob die richtige Abbilddatei für das Windows 10 Enterprise-Betriebssystem ausgewählt ist.
+      -  Stellen Sie sicher, dass die **Verwendung einer Antwortdatei für eine unbeaufsichtigte oder Sysprep für eine benutzerdefinierte Installation** aktiviert ist und das **SRS v2-Sysprep-Paket** ausgewählt ist. Stellen Sie außerdem sicher, dass der **Dateiname** auf **Unattend. XML**festgesetzt ist.
 
-   5. **Windows-Einstellungen gelten**: in diesem Schritt erfasst Informationen über die Windows-Installation.
-      -  Enthalten Sie Lizenzierung und Registrierung Informationen, einschließlich der Produktschlüssel, Kennworts eines lokalen Administratorkontos und Zeitzone (je nach Ihren Anforderungen).
+   5. **Windows-Einstellungen übernehmen**: dieser Schritt sammelt Informationen zur Windows-Installation.
+      -  Stellen Sie Lizenzierungs-und Registrierungsinformationen bereit, einschließlich des Product Keys, des Kennworts für das lokale Administratorkonto und der Zeitzone (je nach Ihren Anforderungen).
 
-   6. **Netzwerkeinstellungen anwenden**: in diesem Schritt können Sie einer Arbeitsgruppe oder Name der Active Directory-Domäne und Organisationseinheit angeben.
+   6. **Netzwerkeinstellungen übernehmen**: mit diesem Schritt können Sie eine Arbeitsgruppe oder einen Active Directory-Domänennamen und eine Organisationseinheit angeben.
       > [!NOTE]
-      > Empfohlene Schritte, die Sie bei der Bereitstellung von Microsoft-Teams Chatrooms Einheiten als Mitglied einer Domäne ADSI Directory durchführen müssen, finden Sie unter [Skype Raum System Domäne beitreten Considerations](domain-joining-considerations.md) .
-   7. **Treiber anwenden:** Dieser Schritt und seine Unterschritte dienen zum entsprechenden Gerätetreiber und Firmware basierend auf dem Surface Pro Modell haben Sie bereitstellen. Aktualisieren Sie jeden Schritt zum Angeben des entsprechenden Treiberpakets dieser Bereitstellung zugeordnet.
-      -   Jedes Paket Nutzung der Windows-Verwaltungsinstrumentation (WMI) Filter zum Bereitstellen von relevanten Treiber konfiguriert und Firmware basierend auf dem Surface Pro Marke und das Modell.
-      -   Es wird dringend empfohlen, dass Sie die Konfiguration dieser Treiber nicht ändern, andernfalls Bereitstellung fehlschlagen.
+      > Informationen zu empfohlenen Aktionen, die Sie beim Bereitstellen von Microsoft Teams rooms-Einheiten als Mitglieder einer Actve-Verzeichnisdomäne ausführen müssen, finden Sie unter [Überlegungen zu Skype Room System Domain Joining](domain-joining-considerations.md) .
+   7. **Anwenden von Treibern:** Dieser Schritt und seine unter Schritte werden verwendet, um anwendbare Gerätetreiber und Firmware basierend auf dem von Ihnen verwendeten Surface pro-Modell bereitzustellen. Aktualisieren Sie die einzelnen Schritte, um das entsprechende Treiberpaket anzugeben, das dieser Bereitstellung zugeordnet ist.
+      -   Jedes Treiberpaket ist so konfiguriert, dass es die Windows-Verwaltungsinstrumentation (WMI)-Filter nutzt, um relevante Treiber und Firmware basierend auf dem Surface pro-Hersteller und-Modell bereitzustellen.
+      -   Wir empfehlen dringend, dass Sie die Konfiguration dieser Treiber nicht ändern, da die Bereitstellung andernfalls möglicherweise fehlschlägt.
 
-   8. **Einrichten von Windows und Konfigurations-Manager**: in diesem Schritt bereitstellen und konfigurieren Sie den Konfigurations-Manager-Client. Aktualisieren Sie diesen Schritt, um die integrierten Konfigurations-Manager-Client-Paket angeben.
+   8. **Einrichten von Windows und Configuration Manager**: dieser Schritt stellt den Configuration Manager-Client bereit und konfiguriert ihn. Aktualisieren Sie diesen Schritt, um das integrierte Configuration Manager-Client Paket anzugeben.
 
-   9. **Stammzertifikat installieren**: in diesem Schritt das Stammzertifikat für Geräte nicht in die Domäne eingebundener verteilt und daher ist optional und standardmäßig deaktiviert.
-      -   Aktivieren Sie diesen Schritt, wenn Sie ein Stammzertifikat der Einheiten von Microsoft-Teams Chatrooms bereitstellen müssen.
-      -   Wenn Sie benötigen, um diesen Schritt ausführen, stellen Sie sicher, dass der **SRS v2 – Root Certificate-Paket** und **Deaktivieren von 64-Bit-Datei System Umleitung** ausgewählt sind.
+   9. **Installieren des Stammzertifikats**: mit diesem Schritt wird das Stammzertifikat für nicht-Domänen verbundene Geräte verteilt und ist daher standardmäßig optional und deaktiviert.
+      -   Aktivieren Sie diesen Schritt, wenn Sie ein Stammzertifikat für die Microsoft Teams-Zimmereinheiten bereitstellen müssen.
+      -   Wenn Sie diesen Schritt ausführen müssen, stellen Sie sicher, dass das **SRS v2 – Stammzertifikat Paket** und die Deaktivierung der **64-Bit-Dateisystem Umleitung** ausgewählt sind.
 
-   10. **Installieren und Konfigurieren der Überwachung Agent**: in diesem Schritt installiert die 64-Bit-Version von der Microsoft Azure Monitor-Agent und den Verbindung mit den Arbeitsbereich Protokoll Analytics-Agent konfiguriert.
-       -   Dieser Schritt ist standardmäßig deaktiviert. Aktivieren Sie diesen Schritt nur aus, wenn der Agent Monitoring verwenden Sie zum Überwachen der Integrität der Microsoft-Teams Räume-Einheiten werden soll.
-       -   Bearbeiten Sie diesen Schritt und aktualisieren Sie die Befehlszeilenparameter, um das **Workspace-ID** und den **Arbeitsbereich Schlüssel**anzugeben.
-       -   Weitere Informationen zum Beziehen der Vorgänge Management Suite Workspace-ID und den Primärschlüssel finden Sie unter [Configure Geräte für die Überwachung von Azure testen](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring) .
-       -   Stellen Sie sicher, dass der **SRS v2 – Microsoft Monitoring Agent-Paket** und **Deaktivieren von 64-Bit-Datei System Umleitung** ausgewählt sind.
-       -   Weitere Informationen zum Überwachen der Integrität Ihrer Bereitstellung von Microsoft-Teams Chatrooms finden Sie unter [Planen von Microsoft Teams Chatrooms Verwaltung mit Azure Monitor](azure-monitor-plan.md), [Deploy Microsoft-Teams, Räume mit Azure Monitor](azure-monitor-deploy.md) und [verwalten Microsoft Teams Chatrooms Geräte mit Azure Monitor](azure-monitor-manage.md).
+   10. **Installieren und Konfigurieren des Überwachungs-Agents**: mit diesem Schritt wird die 64-Bit-Version des Microsoft Azure Monitor-Agents installiert und der Agent so konfiguriert, dass eine Verbindung mit Ihrem Protokollanalyse Arbeitsbereich hergestellt wird.
+       -   Dieser Schritt ist standardmäßig deaktiviert. Aktivieren Sie diesen Schritt nur, wenn Sie den Überwachungs-Agent verwenden möchten, um den Status Ihrer Microsoft Teams-Zimmereinheiten zu überwachen.
+       -   Bearbeiten Sie diesen Schritt, und aktualisieren Sie die Befehlszeilenparameter, um die **Arbeitsbereichs-ID** und den **Arbeitsbereichs Schlüssel**anzugeben.
+       -   Weitere Informationen zum Abrufen der Arbeitsbereichs-ID der Operations Management Suite und des Primärschlüssels finden Sie unter [Konfigurieren von Testgeräten für die Azure-Überwachung](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring) .
+       -   Vergewissern Sie sich, dass das **SRS v2 – Microsoft Monitoring Agent-Paket** und die Deaktivierung der **64-Bit-Dateisystem Umleitung** ausgewählt sind.
+       -   Weitere Informationen zum Überwachen der Integrität Ihrer Microsoft Teams rooms-Bereitstellung finden Sie unter [Planen der Microsoft Teams rooms-Verwaltung mit Azure Monitor](azure-monitor-plan.md), [Bereitstellen der Microsoft Teams rooms-Verwaltung mit Azure Monitor](azure-monitor-deploy.md) und [Verwalten von Microsoft Teams Räume Geräte mit Azure Monitor](azure-monitor-manage.md).
 
-   11. **Kopie SRS v2 Konfigurationsdateien**: Dieser Schritt kopiert die erforderlichen Dateien von Setup und Konfiguration aus dem Microsoft Teams Chatrooms Deployment Kit in der lokalen Festplatte. Keine Anpassung ist für diesen Schritt erforderlich.
-       -   Stellen Sie sicher, dass der **SRS v2 – SRS Anwendungspaket** und **Deaktivieren von 64-Bit-Datei System Umleitung** ausgewählt sind.
+   11. **Kopieren von SRS v2-Konfigurationsdateien**: dieser Schritt kopiert die erforderlichen Setup-und Konfigurationsdateien aus dem Microsoft Teams rooms Deployment Kit auf die lokale Festplatte. Für diesen Schritt sind keine Anpassungen erforderlich.
+       -   Vergewissern Sie sich, dass das **SRS v2-SRS-Anwendungspaket** und die Deaktivierung der **64-Bit-Dateisystem Umleitung** ausgewählt sind.
 
-   12. **Install-SRSv2-OS-Updates**: in diesem Schritt wird alle obligatorisch mit der Bereitstellung von Microsoft-Teams Chatrooms erforderlichen Betriebssystemupdates bereitgestellt. Gehen Sie wie folgt vor:
-       -   Überprüfen Sie [Konfigurieren einer Microsoft-Teams Räume-Konsole](console.md) , um herauszufinden, welche Updates erforderlich sind.
-       -   Stellen Sie sicher, dass Ihre **SRS v2 – Paket mit OS Updates** alle erforderlichen Updates enthält.
-       -   Stellen Sie sicher, dass der **SRS v2 – Paket mit OS Updates** aktiviert ist.
-       -   Stellen Sie sicher, dass die PowerShell-Ausführungsrichtlinie **umgehen**festgelegt ist.
+   12. **Installieren-SRSv2-OS-Updates**: in diesem Schritt werden alle obligatorischen Betriebssystemupdates bereitgestellt, die für die Microsoft Teams rooms-Bereitstellung erforderlich sind. Gehen Sie wie folgt vor:
+       -   Aktivieren Sie das Kontrollkästchen [Konfigurieren einer Microsoft Teams rooms-Konsole](console.md) , um festzustellen, welche Updates erforderlich sind.
+       -   Überprüfen Sie, ob Ihr **SRS v2 – OS-Updatepaket** alle erforderlichen Updates enthält.
+       -   Überprüfen Sie, ob das **Paket SRS v2 – Betriebssystem Updates** ausgewählt ist.
+       -   Überprüfen Sie, ob die PowerShell-Ausführungsrichtlinie auf **Bypass**festgesetzt ist.
 
-   13. **Computer neu starten**: Dieser Schritt startet den Computer neu, nachdem die obligatorische Betriebssystemupdates installiert worden sind. Keine Anpassung ist für diesen Schritt erforderlich.
+   13. **Computer neu starten**: mit diesem Schritt wird der Computer neu gestartet, nachdem die obligatorischen Betriebssystemupdates installiert wurden. Für diesen Schritt sind keine Anpassungen erforderlich.
 
-   14. **Konfigurieren der Windows-Komponenten**: in diesem Schritt werden die erforderlichen Windows-Features konfiguriert. Keine Anpassung ist für diesen Schritt erforderlich.
+   14. **Konfigurieren von Windows-Komponenten**: in diesem Schritt werden die erforderlichen Windows-Features konfiguriert. Für diesen Schritt sind keine Anpassungen erforderlich.
 
-   15. **Computer neu starten**: Dieser Schritt startet den Computer neu, nachdem die Windows-Features konfiguriert werden. Keine Anpassung ist für diesen Schritt erforderlich.
+   15. **Computer neu starten**: mit diesem Schritt wird der Computer neu gestartet, nachdem die Windows-Features konfiguriert wurden. Für diesen Schritt sind keine Anpassungen erforderlich.
 
-   16. **Skype-Benutzer**: Bei diesem Schritt wird das lokale Skype-Konto verwendet, um automatisch bei Windows anmelden, und starten Sie die Anwendung Microsoft-Teams Chatrooms. Dieser Schritt keine Softwarepaket zugeordnet haben, und keine Anpassung für die es erforderlich ist.
+   16. **Lokalen Skype-Nutzer hinzufügen**: mit diesem Schritt wird das lokale Skype-Konto erstellt, das für die automatische Anmeldung bei Windows und das Starten der Microsoft Teams rooms-Anwendung verwendet wird. Diesem Schritt ist kein Softwarepaket zugeordnet, und es ist keine Anpassung erforderlich.
 
-   17. **Festlegen einrichten und Konfigurieren der SRS Anwendung**: in diesem Schritt Microsoft Teams Chatrooms die Installation der Anwendung für den nächsten Start des Betriebssystems konfiguriert.
-       -   Stellen Sie sicher, dass der **SRS v2 – SRS Setuppaket konfigurieren** und **Deaktivieren von 64-Bit-Datei System Umleitung** ausgewählt sind.
+   17. **Einrichten und Konfigurieren von SRS-Anwendungen**: dieser Schritt konfiguriert die Anwendungsinstallation von Microsoft Teams rooms für den nächsten Start des Betriebssystems.
+       -   Vergewissern Sie sich, dass das SRS **v2 – Setup-Paket** für die SRS-Konfiguration und die **64-Bit-Dateisystem Umleitung deaktiviert** sind.
 
 > [!IMPORTANT]
-> Es ist sehr wichtig, dass die Task Sequence Schritte in der angegebenen Reihenfolge sein müssen. Ändern der Reihenfolge der Schritte aus, oder konfigurieren zusätzliche Schritte möglicherweise die Bereitstellung aufgehoben.
+> Es ist sehr wichtig, dass die Tasksequenzschritte in der angegebenen Reihenfolge ausgeführt werden müssen. Wenn Sie die Reihenfolge der Schritte ändern oder zusätzliche Schritte konfigurieren, kann dies die Bereitstellung unterbrechen.
 >
-> **Festlegen einrichten und Konfigurieren der SRS Anwendung** Schritt muss der letzte Schritt in der Aufgabensequenz, andernfalls die Bereitstellung kann fehlschlagen.
+> Das **Einrichten und Konfigurieren des SRS-Anwendungs** Schritts muss der letzte Schritt in der Tasksequenz sein, da andernfalls möglicherweise die Bereitstellung fehlschlägt.
 
-### <a name="create-deployment-for-the-task-sequence"></a>Bereitstellung für die Abfolge der Vorgänge erstellen
+### <a name="create-deployment-for-the-task-sequence"></a>Erstellen einer Bereitstellung für die Tasksequenz
 
-1. Wählen Sie die Abfolge der Vorgänge aus, und wählen Sie dann auf **Bereitstellen**.
+1. Wählen Sie die Tasksequenz aus, und wählen Sie **Bereitstellen**aus.
 
-2. Wählen Sie auf **Durchsuchen** , um für die Bereitstellung Zielsammlung auszuwählen.
+2. Wählen Sie **Durchsuchen** aus, um die Zielsammlung für die Bereitstellung auszuwählen.
 
-3. Wählen Sie **Alle unbekannten Computern** aus, und wählen Sie dann auf **OK**.
+3. Wählen Sie **alle unbekannten Computer** aus, und wählen Sie dann **OK**aus.
 
-4. Wählen Sie **Weiter**aus.
+4. Wählen Sie **weiter**aus.
 
-5. Wählen Sie aus der Dropdownliste **Zweck** **verfügbar** .
+5. Wählen Sie in der **** Dropdownliste Purpose **available (verfügbar** ) aus.
 
-6. Wählen Sie **nur Medien und PXE** in der Liste **die folgenden zur Verfügung stellen** , und wählen Sie dann auf **Weiter**.
+6. Wählen Sie **nur Medien und PXE** in der Liste in der **folgenden Liste verfügbar machen** aus, und wählen Sie dann **weiter**aus.
    > [!WARNING]
-   > Es ist sehr wichtig, dass **Zweck** auf **verfügbar**festgelegt ist. Stellen Sie sicher, dass der **Zweck** **nicht** auf **erforderlich**festgelegt ist. Stellen Sie außerdem sicher, dass Sie in **der folgenden zur Verfügung stellen** **nur Medien und PXE** auswählen.
+   > Es ist sehr wichtig, **** dass Purpose auf **available**festgesetzt ist. Stellen Sie sicher, dass der **Zweck** **nicht** auf **erforderlich**festgesetzt ist. Stellen Sie außerdem sicher, dass Sie **nur Medien und PXE** in der **folgenden verfügbar machen**auswählen.
    >
-   > Festlegen von diese Werte auf einen anderen Suchbegriff möglicherweise alle Computer mit dem Microsoft-Teams Chatrooms Bereitstellungsabbild Wenn gestartet wird.
-7. Geben Sie eine beliebige Zeitplan keine, und wählen Sie **Weiter**aus.
+   > Wenn diese Werte auf etwas anderes festgelegt werden, kann dies dazu führen, dass alle Computer beim Booten das Bereitstellungs Bild von Microsoft Teams rooms erhalten.
+7. Geben Sie keinen Zeitplan an, und wählen Sie **weiter**aus.
 
-8. Ändern Sie alles innerhalb des Abschnitts der **Benutzeroberfläche** nicht, und wählen Sie **Weiter**aus.
+8. Ändern Sie im Abschnitt **Benutzerfreundlichkeit** nichts, und wählen Sie **weiter**aus.
 
-9. Ändern Sie alles innerhalb des Abschnitts **Benachrichtigungen** nicht, und wählen Sie **Weiter**aus.
+9. Ändern Sie im Abschnitt **Benachrichtigungen** nichts, und wählen Sie **weiter**aus.
 
-10. Ändern Sie alles innerhalb des Abschnitts **Verteilungspunkte** nicht, und wählen Sie **Weiter**aus.
+10. Ändern Sie im Abschnitt Verteilungs **Punkte** nichts, und wählen Sie **weiter**aus.
 
-11. Bestätigen Sie die Einstellungen, und wählen Sie dann auf **Weiter**.
+11. Bestätigen Sie die Einstellungen, und wählen Sie dann **weiter**aus.
 
 12. Wählen Sie **Schließen**aus.
 
-<a name="validate-and-troubleshoot-the-solution"></a>Überprüfen Sie und Problembehandlung bei der Lösung
+<a name="validate-and-troubleshoot-the-solution"></a>Überprüfen und Problembehandlung der Lösung
 --------------------------------------
 
-Nachdem Sie die System Center Configuration Manager Task Sequences abgeschlossen haben, müssen Sie führen Sie einen Test ausführen, um zu überprüfen, ob die Abfolge der Vorgänge kann bereitstellen und Konfigurieren von Microsoft-Teams Chatrooms Einheiten.
+Nachdem Sie die Tasksequenzen des System Center Configuration Manager abgeschlossen haben, müssen Sie einen Testlauf durchführen, um zu überprüfen, ob die Tasksequenz Microsoft Teams-Zimmereinheiten bereitstellen und konfigurieren kann.
 
-1.  Verbinden Sie das Testgerät mit dem Kabelnetzwerk mithilfe einer der unterstützten Ethernet-Adapter oder mit der Fläche andocken. Wenn PXE-Boot-Funktionalität für Ihre Umgebung nicht konfiguriert wurde, können Sie das Boot-Abbild auf die USB flash-Laufwerk [das Sie zuvor erstellt](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media) von USB starten und eine Verbindung herstellen zu Configuration Manager.
+1.  Verbinden Sie das Test Gerät mit dem kabelgebundenen Netzwerk, indem Sie einen der unterstützten Ethernet-Adapter verwenden oder die Surface-Docking-Station verwenden. Wenn die PXE-Start Funktionalität für Ihre Umgebung nicht konfiguriert wurde, können Sie das Startabbild auf dem USB-Stick verwenden, den [Sie zuvor erstellt](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media) haben, um von USB zu booten und mit Configuration Manager zu verbinden.
 
-2.  Zugriff auf die Firmware und initiieren Sie PXE-Start:
+2.  Zugreifen auf die Firmware und Initiieren des PXE-Starts:
 
-    1.  Stellen Sie sicher, dass das Gerät Fläche ausgeschaltet wird.
+    1.  Stellen Sie sicher, dass das Surface-Gerät ausgeschaltet ist.
 
-    2.  Drücken Sie und halten Sie die **Lautstärke** .
+    2.  Drücken Sie die **Lautstärke** Taste und halten Sie sie gedrückt.
 
-    3.  Drücken und **halten** .
+    3.  Drücken Sie die **Power** -Taste, und lassen Sie sie los.
 
-    4.  Nachdem das Gerät beginnt mit starten, lassen Sie die **Lautstärke** los.
+    4.  Nachdem das Gerät gestartet wurde, lassen Sie die **Lautstärke** Taste los.
 
-    5.  Wählen Sie die **Startkonfiguration**.
+    5.  Wählen Sie **Startkonfiguration**aus.
 
     6.  Führen Sie einen der folgenden Schritte aus:
 
-        -   Wählen Sie **PXE-Start**, und ziehen Sie es an den Anfang der Liste. Alternativ können Sie führen Sie links auf den Netzwerkadapter, das Gerät sofort zu starten. Dies wird nicht die Startreihenfolge auswirken.
-        -   Wählen Sie das USB-Laufwerk, das die Startmedien enthält.
+        -   Wählen Sie **PXE-Start**aus, und ziehen Sie den Mauszeiger an den Anfang der Liste. Sie können aber auch nach links auf dem Netzwerkadapter wischen, um sofort auf das Gerät zu booten. Dies wirkt sich nicht auf die Startreihenfolge aus.
+        -   Wählen Sie das USB-Flashlaufwerk aus, das die Startmedien enthält.
 
-3.  Wählen Sie **Beenden**, und wählen Sie dann auf **Jetzt neu starten**.
+3.  Wählen Sie **Beenden**und dann **jetzt neu starten**aus.
 
-4.  Wenn Sie aufgefordert werden, wählen Sie **Enter** für Startdienst Netzwerk.
+4.  Wenn Sie dazu aufgefordert werden, wählen Sie für den Netzwerkstart Dienst **Enter** aus.
 
-5.  Windows PE wird in den Arbeitsspeicher geladen, und der Task Sequence-Assistent wird gestartet. Wählen Sie auf **Weiter** .
+5.  Windows PE wird in den Arbeitsspeicher geladen, und der Task Sequenz-Assistent wird gestartet. Wählen Sie **weiter** aus, um fortzufahren.
 
-6.  Wählen Sie die Abfolge der Vorgänge, die Sie zuvor importiert haben, und wählen Sie dann auf **Weiter**.
+6.  Wählen Sie die zuvor importierte Tasksequenz aus, und wählen Sie dann **weiter**aus.
 
-7.  Nachdem die Datenträgerkonfiguration angewendet wird, werden Sie aufgefordert, einen Computernamen für das Gerät angeben. Die Benutzeroberfläche wird eine empfohlene Computername basierend auf die Seriennummer des Geräts Surface Pro angezeigt. Sie können entweder den vorgeschlagenen Namen übernehmen oder geben Sie einen neuen Anwendungspool. Befolgen Sie die Anweisungen auf dem Bildschirm Zuordnung Name ein. Wenn Sie **annehmen**auswählen, beginnt mit die Bereitstellung.
+7.  Nachdem die Datenträgerkonfiguration angewendet wurde, werden Sie aufgefordert, einen Computernamen für das Gerät anzugeben. Auf der Benutzeroberfläche wird ein empfohlener Computername basierend auf der Seriennummer des Surface pro-Geräts angezeigt. Sie können entweder den vorgeschlagenen Namen akzeptieren oder einen neuen Namen angeben. Folgen Sie den Anweisungen auf dem Bildschirm Computername-Zuordnung. Wenn Sie **annehmen**auswählen, beginnt die Bereitstellung.
 
-8.  Der Rest des Bereitstellungsprozesses erfolgt automatisch und nicht für jede weitere Benutzereingaben bitten.
+8.  Der restliche Bereitstellungsprozess ist automatisch und fordert keine weitere Benutzereingabe.
 
-9.  Nach Abschluss die Bereitstellungsreihenfolge für die Aufgabe Konfigurieren des Geräts sehen Sie die folgenden Konfigurationsbildschirm, die Sie zum Konfigurieren der Einstellungen für die Microsoft-Teams Chatrooms aufgefordert werden.
+9.  Nachdem die Bereitstellungstasksequenz die Konfiguration des Geräts abgeschlossen hat, wird der folgende Konfigurationsbildschirm angezeigt, in dem Sie aufgefordert werden, die Anwendungseinstellungen für Microsoft Teams Rooms zu konfigurieren.
 
-    ![Anfängliche Setupbildschirm für Microsoft-Teams Chatrooms fest](../media/room-systems-scale-image2.png)
+    ![Bildschirm ' Initial Setup ' für die Microsoft Teams rooms-Anwendung](../media/room-systems-scale-image2.png)
 
-10.  Schließen Sie in der Microsoft-Teams Chatrooms Konsole Surface Pro und konfigurieren Sie der Einstellungen für die.
+10.  Schließen Sie das Surface pro an die Microsoft Teams rooms-Konsole an, und konfigurieren Sie die Anwendungseinstellungen.
 
-11.  Überprüfen Sie, dass die Funktionen aufgeführt, die in der [Hilfe zu Microsoft-Teams Chatrooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) auf dem Gerät bereitgestellt werden.
-
-
-Um eine fehlerhafte Installation zu beheben, überprüfen Sie **die Masterprotokolldatei, in dem alle Schritte in einer Configuration Manager-Aufgabensequenz ausgeführt protokolliert** .
-
-Die Masterprotokolldatei wird auf eine Reihe von Pfaden, je nach der Phase des Buildprozesses gespeichert. Überprüfen Sie in der folgenden Tabelle, um den Pfad zu der Masterprotokolldatei zu ermitteln.
+11.  Überprüfen Sie, ob die in [Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) -Chatrooms aufgeführten Funktionen auf dem bereitgestellten Gerät funktionieren.
 
 
-| **Bereitstellungsphase**                                                            | **Task Sequence Protokollpfad**                         |
+Wenn Sie eine fehlerhafte Installation beheben möchten, überprüfen Sie die Datei **"smsts. log** , in der alle in einer Configuration Manager-Tasksequenz ausgeführten Schritte protokolliert werden.
+
+Die Datei "" smsts. log "wird je nach Phase des Buildprozesses in einer Reihe von Pfaden gespeichert. Überprüfen Sie die folgende Tabelle, um den Pfad zur Datei "" smsts. log "zu identifizieren.
+
+
+| **Bereitstellungsphase**                                                            | **Task Sequenzprotokoll Pfad**                         |
 |---------------------------------------------------------------------------------|----------------------------------------------------|
-| Windows PE, bevor Sie HDD-format                                                        | X:\\Windows\\Temp\\Smstslog\\smsts.log             |
-| Windows PE, nach HDD-format                                                         | C:\\_SMSTaskSequence\\Protokolle\\Smstslog\\smsts.log    |
-| Betriebssystem bereitgestellt werden, bevor der Konfigurations-Manager-Agent installiert wurde | c:\\_SMSTaskSequence\\Protokolle\\Smstslog\\smsts.log    |
-| Betriebssystem und den Konfigurations-Manager-Agent bereitgestellt                   | %windir%\\System32\\Ccm\\Protokolle\\Smstslog\\smsts.log |
-| Task Sequence Ausführung abgeschlossen                                                | %windir%\\System32\\Ccm\\Protokolle\\smsts.log           |
+| WinPE, vor dem Festplattenformat                                                        | X:\\Windows\\Temp\\smstslog\\"smsts. log             |
+| WinPE, nach Festplattenformat                                                         | C:\\_SMSTaskSequence\\Logs\\Smstslog\\"smsts. log    |
+| Betriebssystem, das vor der Installation des Configuration Manager-Agents bereitgestellt wurde | c:\\_SMSTaskSequence\\Logs\\Smstslog\\"smsts. log    |
+| Betriebssystem und bereitgestellter Configuration Manager-Agent                   | % windir%\\System32\\ccm\\-\\Protokolle\\Smstslog "smsts. log |
+| Ausführung der Task Sequenz abgeschlossen                                                | % windir%\\System32\\ccm\\-\\Protokolle "smsts. log           |
 
 > [!TIP]
-> Sie können wählen **F8** können Sie jederzeit während der Aufgabensequenz, um eine Befehlskonsole zu öffnen, und klicken Sie dann erhalten Sie Zugriff auf die Masterprotokolldatei.
+> Sie können **F8** während der Tasksequenz zu einem beliebigen Zeitpunkt auswählen, um eine Befehlskonsole zu öffnen, und dann Zugriff auf die Datei "" smsts. log "erhalten.
 
-Überprüfen Sie um PXE Boot-Problemen, die zwei Protokolldateien auf dem Server-Konfigurations-Manager, die speziell für PXE-Aktionen sind:
+Wenn Sie Probleme mit dem PXE-Start beheben möchten, überprüfen Sie die beiden Protokolldateien auf dem Configuration Manager-Server, die für PXE-Aktionen spezifisch sind:
 
--   **Pxecontrol.log**, befindet sich im Installationsverzeichnis Protokolle Konfigurations-Manager
+-   **Pxecontrol. log**, befindet sich im Configuration Manager-Installationsprotokoll Verzeichnis
 
--   **Smspxe.log**, befindet sich im Verzeichnis der Konfigurations-Manager-Management Point (VA) logs
+-   **"SMSPXE. log**, befindet sich im Configuration Manager-Verwaltungspunkt (MP)-Protokollverzeichnis
 
-Eine vollständige Liste der Protokolldateien, die Sie zum Diagnostizieren Sie Ihre Installations Konfigurations-Manager verwenden können, finden Sie unter [System Center Configuration Manager-Protokolldateien](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/log-files).
+Eine vollständige Liste der Protokolldateien, die Sie zur weiteren Problembehandlung bei der Installation von Configuration Manager verwenden können, finden Sie unter [Protokolldateien in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/log-files).

@@ -1,5 +1,5 @@
 ---
-title: Anzeigen einer Liste der Benutzer, die für Audiokonferenzen in Skype für Business Online aktiviert sind
+title: Anzeigen einer Liste der Benutzer, die für Audiokonferenzen in Skype for Business Online aktiviert sind
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,19 +20,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: 722f9e411e1781529ea68f6995a2109f58d39cb0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9fb3a5ca8e21969ea5c09a5ac5c282dc4b816eff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229261"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298931"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Anzeigen einer Liste der Benutzer, die für Audiokonferenzen in Skype für Business Online aktiviert sind
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Anzeigen einer Liste der Benutzer, die für Audiokonferenzen in Skype for Business Online aktiviert sind
 
 > [!NOTE]
-> Informationen zu den aktivierten Benutzern in Microsoft-Teams, finden Sie unter [finden Sie eine Liste von Benutzern, die für Audiokonferenzen in Microsoft-Teams aktiviert sind](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams).
+> Informationen zu aktivierten Benutzern in Microsoft Teams finden Sie unter [Anzeigen einer Liste der Benutzer, die in Microsoft Teams für Audiokonferenzen aktiviert sind](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams).
 
-Nachdem Sie Skype für Unternehmensbenutzer in Ihrer Organisation für Audiokonferenzen aktiviert haben, können Sie die Liste der Benutzer anzeigen, die aktiviert wurden. Beim Betrachten der Liste wird ebenfalls für jeden Benutzer in der Liste den Typ des Audiokonferenzanbieter, die sie verwenden, die Standard-Einwahl Telefonnummer für den Benutzer angezeigt, und wenn Ihre Organisation für dynamische Konferenz-IDs, die statische Konferenz-IDs nicht aktiviert ist für Audiokonferenzen-Besprechungen, die sie organisieren.
+Nachdem Sie Skype for Business-Benutzer in Ihrer Organisation für Audiokonferenzen aktiviert haben, können Sie die Liste der Benutzer anzeigen, die aktiviert wurden. Wenn Sie sich die Liste ansehen, sehen Sie auch für jeden Benutzer in der Liste den Typ des verwendeten Audiokonferenz-Anbieters, die Standard-Einwahl Telefonnummer für den Benutzer, und wenn Ihre Organisation für dynamische Konferenz-IDs nicht aktiviert ist, werden die statischen Konferenz-IDs für Audiokonferenz-Besprechungen, die Sie organisieren.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -44,17 +44,17 @@ Nachdem Sie Skype für Unternehmensbenutzer in Ihrer Organisation für Audiokonf
 
 ## <a name="what-else-should-i-know"></a>Was sollte ich noch wissen?
 
-- Wenn Sie die Liste der Benutzer, die aktiviert sind anzeigen, können Sie wählen Sie einen Benutzer aus der Liste aus und Aktionsbereich verwenden, um die Audiokonferenz Einstellungen für diesen Benutzer zu bearbeiten.
+- Wenn Sie die Liste der aktivierten Benutzer anzeigen, können Sie in der Liste einen Benutzer auswählen und im Bereich "Aktion" die Einstellungen für die Audiokonferenz für diesen Benutzer bearbeiten.
     
-- Beim Wählen Sie eines einzelnen Benutzers, die Microsoft Audiokonferenz für die Verwendung als konfiguriert ist, können die Standardrufnummer und gibt an, ob Ihre Organisation für dynamische Konferenz IDs aktiviert ist und Sie können die Konferenz-ID für Besprechungen zurücksetzen, die Benutzer organisiert.
+- Wenn Sie einen einzelnen Benutzer auswählen, der für die Verwendung von Microsoft als Anbieter von Audiokonferenzen konfiguriert ist, können Sie die Standardtelefonnummer anzeigen und angeben, ob Ihre Organisation für dynamische Konferenz-IDs aktiviert ist, und Sie können die Konferenz-ID für Besprechungen zurücksetzen, die von der der Benutzer organisiert.
     
-- Wenn Sie einen einzelnen Benutzer, die einen Drittanbieter-Audiokonferenzen mit konfiguriert ist auswählen, können Sie den Namen der Anbieter von Audiokonferenzen, die gebührenpflichtige Telefonnummer und die gebührenfreie Telefonnummer (sofern sie eingerichtet werden) anzeigen.
+- Wenn Sie einen einzelnen Benutzer auswählen, der für die Verwendung eines Drittanbieters für Audiokonferenzen konfiguriert ist, können Sie den Namen des Audiokonferenz-Anbieters, die gebührenpflichtige Telefonnummer und die gebührenfreie Telefonnummer anzeigen (sofern diese eingerichtet sind).
     
 - Mithilfe der Filteroptionen können Sie Benutzer mit folgenden Eigenschaften aufrufen:
     
-  - **Audiokonferenzen auf**
+  - **Audiokonferenzen an**
     
-  - **Audiokonferenzen deaktiviert**
+  - **Audiokonferenz deaktiviert**
     
   - **Konferenzanbieter - Microsoft**
     
@@ -66,15 +66,15 @@ Nachdem Sie Skype für Unternehmensbenutzer in Ihrer Organisation für Audiokonf
     
   - Für diese Benutzer eine andere Standardnummer wählen.
     
-  - Deaktivieren der Audiokonferenz für den Benutzer durch Ändern des Anbieters auf **None**.
+  - Deaktivieren Sie Audiokonferenzen für den Benutzer, indem Sie den Anbieter in **None**ändern.
     
-  - Wechseln Sie an Microsoft als Anbieter von Audiokonferenzen Wenn der Benutzer eine **Audiokonferenz** -Lizenz zugewiesen wurde.
+  - Wechseln Sie zu Microsoft als Audiokonferenz-Anbieter, wenn dem Benutzer eine **Audiokonferenz-** Lizenz zugewiesen wurde.
     
   - Zulassen/nicht zulassen, dass anonyme Benutzer die Telefonbesprechungen der ausgewählten Benutzer aktivieren.
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype verwalten, für die Business Online verwenden eine zentrale Verwaltung, die Ihrer täglichen Arbeit vereinfachen können, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online mit einem zentralen Verwaltungspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn mehrere Aufgaben ausgeführt werden müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -90,4 +90,4 @@ Nachdem Sie Skype für Unternehmensbenutzer in Ihrer Organisation für Audiokonf
     
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder Erwerben von Audiokonferenzen in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

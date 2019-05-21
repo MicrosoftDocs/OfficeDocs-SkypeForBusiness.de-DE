@@ -5,22 +5,22 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/20/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
-description: Das Cmdlet Remove-CcCertificationAuthorityFile entfernt die Sicherungsdatei Certification Authority Service im Ordner "Zertifizierungsstelle" unter Freigeben Websiteverzeichnis für Skype für Business Cloud Connector Edition.
-ms.openlocfilehash: 52f3dc8642b9f3177b215b9cd102bbd50cd22fea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: Das Cmdlet Remove-CcCertificationAuthorityFile entfernt die Sicherungsdatei des Zertifizierungsstellendiensts im Ordner "Zertifizierungsstelle" unter dem Website Freigabeverzeichnis für Skype for Business Cloud Connector Edition.
+ms.openlocfilehash: 3251c3f608b52d217e7db04d7b5081ff73c0b487
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899624"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287090"
 ---
 # <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-Das Remove-CcCertificationAuthorityFile-Cmdlet entfernt die Sicherungsdatei Certification Authority Service "&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12" im Ordner "Zertifizierungsstelle" unter Freigeben Websiteverzeichnis für Skype für Business Cloud-Connector Edition. 
+Mit dem Cmdlet Remove-CcCertificationAuthorityFile wird die Sicherungsdatei des Zertifizierungs&lt;stellen&gt;Diensts "SiteRootDirectory \CA\SfB CCE root. p12" im Ordner "Zertifizierungsstelle" unter dem Verzeichnis "Website Freigabe" für Skype for Business Cloud Connector entfernt Edition. 
   
 ```
 Remove-CcCertificationAuthorityFile
@@ -35,7 +35,7 @@ Keine
 
 ### <a name="example-1"></a>Beispiel 1
 
-Das folgende Beispiel entfernt die Sicherungsdatei Certification Authority Service "&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12" im Ordner "Zertifizierungsstelle" unter dem Websiteverzeichnis freigeben:
+Im folgenden Beispiel wird die Sicherungsdatei des Zertifizierungsstellen&lt;Diensts&gt;"SiteRootDirectory \CA\SfB CCE root. p12" im Ordner "Zertifizierungsstelle" unterhalb des Website Freigabe Verzeichnisses entfernt:
   
 ```
 Remove-CcCertificationAuthorityFile

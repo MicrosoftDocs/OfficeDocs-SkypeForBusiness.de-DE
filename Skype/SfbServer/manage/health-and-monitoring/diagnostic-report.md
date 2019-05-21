@@ -1,25 +1,25 @@
 ---
-title: Diagnosebericht in Skype für Business Server
+title: Diagnosebericht in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: 'Zusammenfassung: Informationen Sie zu den Diagnosebericht in Skype für Business Server.'
-ms.openlocfilehash: b50be1733eb085bc8a3323cf3fcad028e2f0c6b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Diagnosebericht in Skype for Business Server.'
+ms.openlocfilehash: d71906f2407a0daadc04417ab60a23c86f5eeb52
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926564"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305773"
 ---
-# <a name="diagnostic-report-in-skype-for-business-server"></a>Diagnosebericht in Skype für Business Server
+# <a name="diagnostic-report-in-skype-for-business-server"></a>Diagnosebericht in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den Diagnosebericht in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den Diagnosebericht in Skype for Business Server.
   
 Der Diagnosebericht enthält Diagnose- und Problembehandlungsinformationen der fehlerhaften Sitzung. Er enthält sowohl die während einer fehlerhaften Sitzung berichtete Diagnose-ID als auch den Diagnoseheader. Die Diagnose-ID ist ein eindeutiger Bezeichner (in der Form eines Headers vom Typ „ms-diagnostics“) der an eine SIP-Nachricht angefügt wird, während der Diagnoseheader eine begleitende Beschreibung für die Diagnose-ID bietet. Der Bericht enthält möglicherweise auch wertvolle Details für die Problembehandlung, die der Reporting-Komponente bekannt sind. Beispielsweise:
   
@@ -31,7 +31,7 @@ Der Diagnosebericht enthält Diagnose- und Problembehandlungsinformationen der f
     
 ## <a name="accessing-the-diagnostic-report"></a>Zugreifen auf den Diagnosebericht
 
-Den Diagnosebericht kann durch Klicken auf die Metrik Diagnosebericht (Detail) auf den [Bericht über Peer-zu-Peer-Sitzungsbericht in Skype für Business Server](peer-to-peer-session-detail-report.md) oder den detaillierten Konferenzbericht zugegriffen werden.
+Sie können auf den Diagnosebericht zugreifen, indem Sie entweder im [Bericht Peer-to-Peer-Sitzungs Detail in Skype for Business Server](peer-to-peer-session-detail-report.md) oder im Konferenz Detailbericht auf die Metrik für den Diagnosebericht (Detail) klicken.
   
 ## <a name="filters"></a>Filter
 
@@ -58,6 +58,6 @@ In der folgenden Tabelle sind die im Diagnosebericht enthaltenen Informationen f
 |**Zeitpunkt des Beitritts für die Konferenz (ms)** <br/> |Nein  <br/> |Gesamtdauer (in Millisekunden), die der Benutzer benötigt, um an der Konferenz teilzunehmen.  <br/> |
 |**Diagnoseheader** <br/> |Nein  <br/> |Beschreibung der Diagnose-ID.  <br/> |
    
-Eine Liste der Diagnose von Fehlern finden Sie auf der [Seite Ms-Diagnostics-Header](https://msdn.microsoft.com/en-us/library/gg132446%28v=office.12%29.aspx).
+Eine Liste der Diagnosefehler finden Sie auf der [Header Seite MS-Diagnostics](https://msdn.microsoft.com/en-us/library/gg132446%28v=office.12%29.aspx).
   
 

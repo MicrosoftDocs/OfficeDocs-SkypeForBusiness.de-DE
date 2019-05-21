@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,63 +19,63 @@ f1keywords:
 - ms.teamsadmincenter.meetingsettings.invitationurls
 ms.custom:
 - Setup
-description: 'Skype-besprechungseinladungen mit Grafik Logos, Hilfe und rechtliche URLs und Fußzeilentext anpassen. '
-ms.openlocfilehash: 3d01d23172d7c187d09930c644390bdbf7a273b2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Passen Sie Skype-Besprechungseinladungen mit Grafik Logos, Hilfe-und rechtlichen URLs sowie Fußzeilentext an. '
+ms.openlocfilehash: c8b31aa579edb62e9b6aec65bda5adde10726deb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237890"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285294"
 ---
 # <a name="customize-meeting-invitations"></a>Anpassen von Besprechungseinladungen
 
-Als Administrator können Sie sicherstellen, dass alle Skype für Business besprechungseinladungen enthalten hilfreiche Informationen, die Ihre Benutzer benötigen möglicherweise, wie Links zu Support-Website und Haftungsausschluss, Ihr Firmenlogo und andere Text, den Sie einschließen möchten. 
+Als Administrator können Sie sicherstellen, dass alle Skype for Business-Besprechungseinladungen einige hilfreiche Informationen enthalten, die Ihre Benutzer möglicherweise benötigen, beispielsweise Links zu Ihrer Support Website sowie rechtliche Hinweise, Ihr Firmen Logo und anderen Text, den Sie einbeziehen möchten. 
   
-## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Tipps zum Erstellen eines Logos für Besprechungsanfragen
+## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Tipps zum Erstellen eines Logos für Besprechungseinladungen
 <a name="__top"> </a>
 
-1. Erstellen Sie ein Bild, das nicht mehr als 188 Pixel breit und 30 Pixel hoch ist (es ist sehr klein).
+1. Erstellen Sie ein Bild, das nicht mehr als 188 Pixel breit und 30 Pixel hoch ist (es ist ziemlich klein).
     
-2. Speichern Sie das Bild wird im JPG-Format.
+2. Speichern Sie das Bild im JPG-Format.
     
-3. Speichern Sie das Bild in eine zentrale Stelle, die alle Benutzer in Ihrem Unternehmen zugreifen können, wie etwa eine Netzwerkfreigabe freigegebenen OneDrive for Business-Ordner, Ablage, usw..
+3. Speichern Sie das Bild an einem zentralen Speicherort, auf den jeder in Ihrem Unternehmen zugreifen kann, beispielsweise eine Netzwerkfreigabe, einen freigegebenen OneDrive for Business-Ordner, eine Dropbox usw.
     
-    Jetzt können Sie es Ihrer besprechungseinladungen hinzufügen. Finden Sie unter den nächsten Schritten.
+    Sie können Sie nun zu ihren Besprechungseinladungen hinzufügen. Lesen Sie die nächsten Schritte.
     
-## <a name="customize-your-meeting-invitations"></a>Anpassen der besprechungseinladungen
+## <a name="customize-your-meeting-invitations"></a>Anpassen der Besprechungseinladungen
 <a name="__top"> </a>
 
-![SFB-Logo-30x30.png](../images/sfb-logo-30x30.png) **mithilfe der Skype für Business Administrationscenter**
+![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
-2. Wählen Sie das Office 365 Administrationscenter **Admin zentriert** > **Skype für Unternehmen**.
+2. Wählen Sie im Office 365 Admin Center die Option **Admin Centers** > **für Skype for Business**aus.
     
-3. Wählen Sie in der Skype für Business Administrationscenter **onlinebesprechungen**. 
+3. Wählen Sie im Skype for Business Admin Center **Onlinebesprechungen**aus. 
     
-4. Füllen Sie die folgenden Felder:
+4. Führen Sie die folgenden Felder aus:
     
-    ![Hier ist, was es wie beim Abschluss des Formulars zum Anpassen Ihrer besprechungseinladungen aussehen könnte.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
+    ![Wenn Sie das Formular ausfüllen, um Ihre Besprechungseinladungen anzupassen, sieht es so aus.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
 
-   **Logo-URL:** Geben Sie die URL ein, in dem Ihr Logo gespeichert ist. Denken Sie daran, dass es in das JPG-Format sein muss! 
+   **Logo-URL:** Geben Sie die URL ein, in der Ihr Logo gespeichert ist. Beachten Sie, dass es im JPG-Format sein muss! 
  
-   **Hilfe-URL:** Wenn Ihre Organisation eine Support-Website Personen umfasst zu wechseln, wenn sie Probleme haben sollen, geben Sie die URL hier. 
+   **Hilfe-URL:** Wenn Ihre Organisation über eine Support Website verfügt, auf die Sie von Personen zugreifen können, wenn Sie Probleme haben, geben Sie die URL hier ein. 
 
-   **Rechtlichen URL:** Wenn Ihre Organisation eine juristische Website Personen umfasst zu wechseln, wenn sie Probleme haben sollen, geben Sie die URL hier.
+   **Rechtliche URL:** Wenn Ihre Organisation über eine rechtliche Website verfügt, auf die Sie Personen zugreifen möchten, wenn Sie rechtliche Bedenken haben, geben Sie die URL hier ein.
     
-   **Fußzeilentext:** Geben Sie eine nur-Text-Fußnote, die für Ihre Benutzer geeignet sind.  
+   **Fußzeilentext:** Geben Sie eine nur-Text-Fußnote ein, die für Ihre Benutzer geeignet ist.  
   
    
 5. Klicken Sie auf **Speichern**.
     
-6. Warten Sie eine Stunde oder, damit die Änderungen in allen Office 365-Diensten aufgefüllt abrufen. Wechseln Sie zu Outlook und Planen einer Besprechung Skype können Sie sehen Ihre Änderungen aussehen. 
+6. Warten Sie eine Stunde, damit die Änderungen in allen Office 365-Diensten aufgefüllt werden. Wechseln Sie dann zu Outlook, und planen Sie eine Skype-Besprechung, um zu sehen, wie Ihre Änderungen aussehen. 
     
-    ![Hier ist wie einer Einladung zu eine benutzerdefinierte, ohne die Grafik aussieht](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![So sieht eine benutzerdefinierte Einladung aus, ohne die Grafik](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
 ## <a name="related-topics"></a>Verwandte Themen
 <a name="__top"> </a>
 
-[Testen oder Erwerben von Audiokonferenzen in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  

@@ -1,5 +1,5 @@
 ---
-title: Telefonverbindung aus einer Skype für Business Besprechung, damit andere Personen sie beitreten können
+title: Aus einer Skype for Business-Besprechung heraus wählen, damit andere Personen daran teilnehmen können
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,25 +20,25 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Erfahren Sie, was Sie wissen müssen und wie Besprechungsorganisatoren andere Personen anrufen können, die Skype for Business nutzen.
-ms.openlocfilehash: 49130a14391e014d1e7aea21c62abaf2385296d8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4f46315c7817ad7e8e529fabff9a3a333527a266
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229535"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306120"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Telefonverbindung aus einer Skype für Business Besprechung, damit andere Personen sie beitreten können
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Aus einer Skype for Business-Besprechung heraus wählen, damit andere Personen daran teilnehmen können
 
 > [!NOTE]
 > Informationen zum Wählen von Telefonnummern während einer Team-Besprechung finden Sie unter [Anruf aus einer Besprechung heraus tätigen, damit andere Personen dieser Besprechung beitreten können](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
 
 As the meeting organizer, you can dial out using the Skype for Business app to let other people join the same meeting using their phone. Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code. To get dial-out to work:
   
-- Sie können Dial-Out-nur, wenn Sie an einer Besprechung mithilfe einer Skype für Geschäfts-app teilnehmen.
+- Sie können nur dann wählen, wenn Sie mit einer Skype for Business-APP an einer Besprechung teilnehmen.
     
-- Sie als Organisator der Besprechung wurden für Audiokonferenzen aktiviert.
+- Sie als Besprechungsorganisator wurden für Audiokonferenzen aktiviert.
 
-Um andere Teilnehmer über Dial-Out-Besprechungen Ihrer Organisation hinzugefügt haben, ist mindestens ein authentifizierter Benutzer aus derselben Organisation als Organisator (Ihres Unternehmens) erforderlich, um die in der Besprechung vorhanden sein, um das Hinzufügen von anderen Teilnehmern erlauben über Anwahl. 
+Damit andere Teilnehmer über die Auswahl an den Besprechungen Ihrer Organisation hinzugefügt werden können, muss mindestens ein authentifizierter Benutzer aus derselben Organisation wie der Organisator (Ihre Organisation) in der Besprechung anwesend sein, damit andere Teilnehmer hinzugefügt werden können. über Dial-Out. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -53,9 +53,9 @@ Um andere Teilnehmer über Dial-Out-Besprechungen Ihrer Organisation hinzugefüg
   
 ## <a name="supported-countries-and-regions"></a>Unterstützte Länder und Regionen
 
-Dial-out is only available to some countries/regions. Vollständige Liste finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und plant aufrufen](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Dial-out is only available to some countries/regions. Eine vollständige Liste finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
   
-## <a name="want-to-know-more-about-audio-conferencing"></a>Möchten Sie weitere Informationen zu Audiokonferenzen wissen?
+## <a name="want-to-know-more-about-audio-conferencing"></a>Möchten Sie mehr über Audiokonferenzen erfahren?
 
 [Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     

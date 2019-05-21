@@ -5,59 +5,59 @@ author: lanachin
 manager: serdars
 ms.reviewer: davgroom
 ms.date: 4/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 ms.collection: M365-voice
 localization_priority: Normal
-description: In diesem Artikel wird erläutert, wie mit dem Recovery Tool für Microsoft-Teams Chatrooms, die Sie verwenden würden, um ein veraltet System in einem unterstützten Zustand bringen.
-ms.openlocfilehash: d784e20656d6f97340e8cfa797d9f64bcb83d4b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: In diesem Artikel wird erläutert, wie Sie das Wiederherstellungstool für Microsoft Teams-Räume verwenden, mit denen Sie ein veraltetes System in einen unterstützten Zustand bringen.
+ms.openlocfilehash: cbfb3ef1ec033389894b3b7479e454160dc77b1b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916543"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305484"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Verwenden Sie das Wiederherstellungstools für Microsoft Teams Rooms
  
-In diesem Artikel wird erläutert, wie mit dem Recovery Tool für Microsoft-Teams Chatrooms, die Sie verwenden würden, um ein veraltet System in einem unterstützten Zustand bringen. Verwenden Sie dieses Tool, wenn die Microsoft-Teams Räume-Konsole einen "veraltet System Config" Fehler angezeigt wird.
+In diesem Artikel wird erläutert, wie Sie das Wiederherstellungstool für Microsoft Teams-Räume verwenden, mit denen Sie ein veraltetes System in einen unterstützten Zustand bringen. Sie würden dieses Tool verwenden, wenn die Microsoft Teams rooms-Konsole einen Fehler "Systemkonfiguration veraltet" anzeigt.
   
 
 <a name="Prerequisites"> </a>  
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Laden Sie das neueste [Installationspaket für den Microsoft-Teams Chatrooms](https://go.microsoft.com/fwlink/?linkid=851168) und Entpacken Sie es auf ein USB-Speicher Stick oder eine Netzwerkfreigabe für das Microsoft-Teams Chatrooms Gerät zugänglich ist.
+Laden Sie das neueste [Microsoft Teams rooms-Installationspaket](https://go.microsoft.com/fwlink/?linkid=851168) herunter, und extrahieren Sie es auf einen USB-Speicherstick oder eine Netzwerkfreigabe, auf die das Microsoft Teams rooms-Gerät zugreifen kann.
 
-Sie müssen auch [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)installieren.
+Möglicherweise müssen Sie auch [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)installieren.
 
 <a name="Windows-ver"> </a>
 ## <a name="verify-windows-version"></a>Überprüfen der Windows-Version 
 
-1. Melden Sie sich an ein Administratorkonto, indem Sie auf **Settings> Setting> Admin Anmeldung im Windows** vom Microsoft-Teams Chatrooms Gerät. Diese Option bietet Ihnen zum Anmeldebildschirm.
-2. Melden Sie sich bei einer Administratorkonto der Standard-Administrator berücksichtigt wird `admin` mit dem Kennwort `sfb`.
-3. Klicken Sie auf das Startmenü und Typ `winver.exe` in das Suchfeld, und klicken Sie auf * das Ergebnis der*Befehl ausführen* .
-4. Notieren Sie die Nummer nach "Version" in der zweiten Zeile im Infobereich.
+1. Melden Sie sich bei einem Administratorkonto an, indem Sie **Settings> Windows Setting> Administrator anmelden** vom Microsoft Teams rooms-Gerät aus anmelden. Mit dieser Option gelangen Sie zum Anmeldebildschirm.
+2. Melden Sie sich `admin` bei einem Administratorkonto an, dem standardmäßigen Administrator `sfb`Konto, das das Kennwort hat.
+3. Klicken Sie auf das Startmenü und geben `winver.exe` Sie in das Suchfeld ein und klicken Sie auf*Befehl "ausführen* " im Ergebnis.
+4. Notieren Sie sich die Zahl nach "Version" in der zweiten Zeile des Infobereichs.
 
 >[!NOTE]
->Wenn die Version dargestellt 1607 oder früher ist, führen Sie die Schritte in den Schritten <a href="#Windows-up">Update Windows vor der Wiederherstellung</a> vor Proceding zu den Schritten zum <a href="#Perform">Ausführen einer Wiederherstellung</a> . Wenn die Version dargestellt 1607 größer ist, führen Sie nur die Schritte unter <a href="#Perform">Perform Wiederherstellung</a>.
+>Wenn die angezeigte Version 1607 oder früher ist, führen Sie die Schritte in den Schritten unter <a href="#Windows-up">Aktualisieren von Windows vor der Wiederherstellung</a> vor vorgegangen, um die Schritte zum <a href="#Perform">Ausführen einer Wiederherstellung auszuführen</a> . Wenn die angezeigte Version größer als 1607 ist, führen Sie nur die Schritte unter <a href="#Perform">Durchführen einer Wiederherstellung</a>aus.
 
 <a name="Windows-up"> </a>
 ## <a name="update-windows-before-recovery-if-needed"></a>Aktualisieren von Windows vor der Wiederherstellung (falls erforderlich)
 
-1. Zwar weiterhin als Benutzer mit Administratorberechtigung angemeldet haben, starten Sie ein Powershell-Eingabeaufforderung mit erhöhten Rechten.
-2. Führen Sie den Befehl `Remove-Item -Path 'c:\Recovery\OEM\$oem$\$1\Rigel' -Force -Recurse`.
-3. Führen Sie Windows Update, und installieren Sie das Update für Windows 1709.
-4. Nachdem die Aktualisierung auf 1709 ist vollständige Anmeldung wieder in den Administratorkonto und [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu)installieren. Das Update kann über den Link durchgeführt werden, oder über Windows Update.
-5. Als optionalen Schritt installieren Sie zusätzliche verfügbare Updates von Windows Update.
+1. Wenn Sie weiterhin als Administrator angemeldet sind, starten Sie eine Eingabeaufforderung mit erhöhten PowerShell.
+2. Führen Sie den `Remove-Item -Path 'c:\Recovery\OEM\$oem$\$1\Rigel' -Force -Recurse`Befehl aus.
+3. Führen Sie Windows Update aus, und installieren Sie das Update für Windows 1709.
+4. Nachdem das Update auf 1709 abgeschlossen ist, melden Sie sich erneut beim Administratorkonto an, und installieren Sie [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu). Das Update kann über den Link oder die Verwendung von Windows Update erfolgen.
+5. Als optionalen Schritt installieren Sie alle weiteren Updates, die über Windows Update zur Verfügung stehen.
 
 <a name="Perform"> </a>
-## <a name="perform-a-recovery"></a>Führen Sie eine Wiederherstellung
+## <a name="perform-a-recovery"></a>Durchführen einer Wiederherstellung
 
-1. Melden Sie sich an das Administratorkonto auf dem Gerät Microsoft Teams Chatrooms, und starten Sie eine Eingabeaufforderung mit erhöhten Rechten.
-2. Vergewissern Sie sich vom Microsoft-Teams Chatrooms Gerät, dass Sie Zugriff auf sind die `RecoveryTool.ps1` -Datei, die in die Dateien extrahiert haben, aus dem Microsoft-Teams Räume-Installationspaket enthalten ist. Das Kit finden Sie auf der Netzwerkfreigabe oder USB-Laufwerk beim Vorbereiten der erforderlichen Komponenten verwendet.
-3. Führen Sie den Befehl Powershell.exe `-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`.
-4. Bei Aufforderung durch die Option "Skript auswählen" `1:"Repair System"`.
-5. Starten Sie nach dem Abschluss das Microsoft-Teams Chatrooms Gerät neu. Es wird erneut automatisch neu gestartet und könnten vollständig wiederhergestellte zweites Mal.
+1. Registrieren Sie sich auf Ihrem Microsoft Teams rooms-Gerät beim Administratorkonto, und starten Sie eine Eingabeaufforderung mit erhöhten Rechten.
+2. Überprüfen Sie im Microsoft Teams rooms-Gerät, dass Sie auf die `RecoveryTool.ps1` Datei zugreifen können, die in den Dateien enthalten ist, die aus dem Installationspaket für Microsoft Teams rooms extrahiert wurden. Das Kit befindet sich auf der Netzwerkfreigabe oder dem USB-Laufwerk, das bei der Vorbereitung von Voraussetzungen verwendet wird.
+3. Führen Sie den Befehl `-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`PowerShell. exe aus.
+4. Wenn Sie von der Option `1:"Repair System"`Skript auswählen aufgefordert werden.
+5. Starten Sie nach Abschluss das Microsoft Teams rooms-Gerät neu. Sie wird automatisch neu gestartet und beim zweiten Mal wieder vollständig wiederhergestellt.
 
 
 

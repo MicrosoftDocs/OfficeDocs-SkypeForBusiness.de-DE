@@ -5,24 +5,24 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
-description: Das Cc-Anmeldeinformationen wiederherstellen-Cmdlet stellt alle Anmeldeinformationen von der aktuellen Skype für Business Cloud Connector Edition-Bereitstellung wieder her.
-ms.openlocfilehash: 0b790b9f2edab9fade2738c3c95348be864f9017
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: Das Cmdlet Restore CC-Credentials stellt alle Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung wieder her.
+ms.openlocfilehash: efa1bcda9af6abccd2ced0faf1e772e779a4483f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891468"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287083"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  
-Das Cc-Anmeldeinformationen wiederherstellen-Cmdlet stellt alle Anmeldeinformationen von der aktuellen Skype für Business Cloud Connector Edition-Bereitstellung wieder her. 
+Das Cmdlet Restore CC-Credentials stellt alle Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung wieder her. 
   
-Dieses Cmdlet gibt Skype für Business Cloud Connector Edition 2.1 betrifft.
+Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 2,1.
   
 ```
 Restore-CcCredentials 
@@ -30,7 +30,7 @@ Restore-CcCredentials
 
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 
-Das Cmdlet Restore-CcCredentials bereinigt alle Anmeldeinformationen und werden Sie aufgefordert, die alle für die aktuelle Skype für die Bereitstellung von Business Cloud Connector verwendete Anmeldeinformationen erneut eingeben.
+Das Cmdlet Restore-CcCredentials bereinigt alle Anmeldeinformationen und fordert Sie auf, alle für die aktuelle Skype for Business Cloud Connector-Bereitstellung verwendeten Anmeldeinformationen erneut einzugeben.
   
 ## <a name="parameters"></a>Parameter
 
@@ -38,7 +38,7 @@ Keine
   
 ## <a name="input-types"></a>Eingabetypen
 
-Keine. Das Cmdlet Restore-CcCredentials akzeptiert keine weitergeleitete Eingabe.
+Keine. Das Cmdlet "Restore-CcCredentials" akzeptiert keine Pipeline-Eingaben.
   
 ## <a name="return-types"></a>Rückgabetypen
 
@@ -46,7 +46,7 @@ Keine.
   
 ## <a name="example"></a>Beispiel
 
-Das folgende Beispiel stellt alle Anmeldeinformationen der aktuellen Cloud Connector Bereitstellung wieder her:
+Im folgenden Beispiel werden alle Anmeldeinformationen der aktuellen Cloud Connector-Bereitstellung wiederhergestellt:
   
 ```
     PS C:\>Restore-CcCredentials

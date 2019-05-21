@@ -1,10 +1,10 @@
 ---
-title: Konfigurieren von VoIP-Richtlinien, PSTN-verwendungsdatensätzen und VoIP-Routen in Skype für Unternehmen
+title: Konfigurieren von VoIP-Richtlinien, PSTN-Nutzungsdaten Sätzen und VoIP-Routen in Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,39 +13,39 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
-description: 'Zusammenfassung: Informationen Sie zum Konfigurieren von VoIP-Richtlinien, PSTN-verwendungsdatensätzen und VoIP-Routen in Skype für Business Server.'
-ms.openlocfilehash: 491d70a8bdec9017169a7937f52bb5403e94335f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Hier erfahren Sie, wie Sie VoIP-Richtlinien, PSTN-Nutzungsdatensätze und VoIP-Routen in Skype for Business Server konfigurieren.'
+ms.openlocfilehash: 5ce6b6b3e93804f648529043b9189110d25cbb08
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892230"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300909"
 ---
-# <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>Konfigurieren von VoIP-Richtlinien, PSTN-verwendungsdatensätzen und VoIP-Routen in Skype für Unternehmen
+# <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>Konfigurieren von VoIP-Richtlinien, PSTN-Nutzungsdaten Sätzen und VoIP-Routen in Skype for Business
  
-**Zusammenfassung:** Informationen Sie zum Konfigurieren von VoIP-Richtlinien, PSTN-verwendungsdatensätzen und VoIP-Routen in Skype für Business Server.
+**Zusammenfassung:** Hier erfahren Sie, wie Sie VoIP-Richtlinien, PSTN-Nutzungsdatensätze und VoIP-Routen in Skype for Business Server konfigurieren.
   
 VoIP-Richtlinien, PSTN-Verwendungsdatensätze und VoIP-Routen stehen in enger Beziehung zueinander. Zur Konfiguration von VoIP-Richtlinien wird eine Reihe von Anruffunktionen ausgewählt. Anschließend wird die Richtlinie einem Satz von PSTN-Verwendungsdatensätzen zugewiesen, in denen die Rechte für die Benutzer oder Gruppen festgelegt sind, denen die VoIP-Richtlinie zugewiesen wird. Auch VoIP-Routen werden PSTN-Verwendungsdatensätze zugewiesen, um Routen und die für ihre Verwendung autorisierten Benutzer einander zuzuordnen. Benutzer können also nur Anrufe über Routen tätigen, für die sie passende PSTN-Verwendungsdatensätze besitzen.
   
 Der empfohlene Workflow für eine neue Enterprise-VoIP-Bereitstellung besteht darin, zunächst eine VoIP-Richtlinie mit den geeigneten PSTN-Verwendungsdatensätzen zu konfigurieren und anschließend den einzelnen PSTN-Verwendungsdatensätzen die entsprechenden Routen zuzuordnen. 
   
 > [!NOTE]
-> Sie können auch VoIP-Richtlinien *Benutzerebene* erstellen und diese für einzelne Benutzer oder Gruppen zuweisen.
+> Sie können auch VoIP-Richtlinien mit dem *Benutzer* Bereich erstellen und diese einzelnen Benutzern oder Gruppen zuweisen.
   
 Die einzelnen Schritte zur Durchführung dieser Aufgaben finden Sie in den Verfahren in diesem Abschnitt.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungseinträge in Skype für Unternehmen](voice-policy-and-pstn-usage-records.md)
+- [Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business](voice-policy-and-pstn-usage-records.md)
     
-- [Konfigurieren des Wechsels der Voicemail in Skype für Unternehmen](configure-voice-mail-escape.md)
+- [Konfigurieren der Voicemail-escapefunktion in Skype for Business](configure-voice-mail-escape.md)
     
-- [Anzeigen von PSTN-Verwendungseinträge in Skype für Unternehmen](view-pstn-usage-records.md)
+- [Anzeigen von PSTN-Nutzungsdaten Sätzen in Skype for Business](view-pstn-usage-records.md)
     
-- [Erstellen oder Ändern einer VoIP-Route in Skype für Unternehmen](create-or-modify-a-voice-route.md)
+- [Erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md)
     
-- [Exportieren oder Importieren einer VoIP-routenkonfigurationsdatei in Skype für Unternehmen](voice-route-configuration-import-export.md)
+- [Exportieren oder Importieren einer sprach Routen-Konfigurationsdatei in Skype for Business](voice-route-configuration-import-export.md)
     
-- [Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Skype für Unternehmen](voice-route-config-changes.md)
+- [Veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in Skype for Business](voice-route-config-changes.md)
     
 

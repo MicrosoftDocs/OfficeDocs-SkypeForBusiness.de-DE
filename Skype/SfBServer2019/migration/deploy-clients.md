@@ -4,20 +4,20 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: End User
+audience: End User
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Weitere Informationen hierzu finden Sie unter Bereitstellen von Clients und Geräten in Skype für Business Server 2019 in der Bereitstellungsdokumentation.
-ms.openlocfilehash: 005948e4e9e5b27746497c55b22b498c6358ac0e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Ausführliche Informationen finden Sie unter Bereitstellen von Clients und Geräten in Skype for Business Server 2019 in der Bereitstellungsdokumentation.
+ms.openlocfilehash: 688d4bf489be56694d583793f951f3f04919365b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238647"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288621"
 ---
-# <a name="deploy-skype-for-business-server-clients"></a>Bereitstellen von Skype für Business Server-clients
+# <a name="deploy-skype-for-business-server-clients"></a>Bereitstellen von Skype for Business Server-Clients
 
-Weitere Informationen hierzu finden Sie unter [Bereitstellen von Clients für Skype für Business Server](../../SfbServer/deploy/deploy-clients/deploy-clients.md) in der Bereitstellungsdokumentation.
+Ausführliche Informationen finden Sie unter [Bereitstellen von Clients für Skype for Business Server](../../SfbServer/deploy/deploy-clients/deploy-clients.md) in der Bereitstellungsdokumentation.
   
 

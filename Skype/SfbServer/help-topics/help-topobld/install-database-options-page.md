@@ -5,43 +5,43 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.InstallDatabaseOptionPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
-description: 'Sie konfigurieren erweiterte Optionen für die Platzierung von Datenbank und Protokolldateien auf dem SQL Server. Die verfügbaren Optionen sind:'
-ms.openlocfilehash: 17453e97bf527390ed2dab561c3995711d7b1d07
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Sie konfigurieren Erweiterte Optionen für die Platzierung von Datenbank-und Protokolldateien auf Ihrem SQL Server. Folgende Optionen stehen zur Verfügung:'
+ms.openlocfilehash: 5a2aa6bffc5424c10ed752c7c3d2ac28cfba1684
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888611"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284277"
 ---
 # <a name="install-database-options-page"></a>Seite "Datenbank installieren" – Optionen
 
-Sie konfigurieren erweiterte Optionen für die Platzierung von Datenbank und Protokolldateien auf dem SQL Server. Die verfügbaren Optionen sind:
+Sie konfigurieren Erweiterte Optionen für die Platzierung von Datenbank-und Protokolldateien auf Ihrem SQL Server. Folgende Optionen stehen zur Verfügung:
 
 > [!IMPORTANT]
-> Wählen Sie die Option, die Ihren Anforderungen und Richtlinien zur Platzierung der Daten- und Protokolldateien auf den SQL Server-Computern am besten geeigneten aus.
+> Wählen Sie die Option aus, die Ihren Anforderungen und Richtlinien in Bezug auf die Daten-und Protokolldatei Platzierung auf Ihren SQL Server-Computern am besten entspricht.
 
- **Ort der Datenbankdatei automatisch ermitteln**: die Standardoption wird mithilfe ein Algorithmus, der bestimmt des verfügbaren Speicherplatzes auf dem SQL Server und verteilt die Datenbank- und Protokolldateien Dateien für eine optimale Leistung.
+ **Speicherort der Datenbankdatei automatisch ermitteln**: die Standardoption verwendet einen Algorithmus, der den verfügbaren Speicherplatz auf dem SQL Server bestimmt und die Datenbank-und Protokolldateien für eine optimale Leistung verteilt.
 
- **Mithilfe von SQL Server-Instanz Standardeinstellungen**: Wählen Sie diese Option zum Platzieren der Datenbankdatei und Protokolldateien auf der Basis Instanz unter SQL Server. Die Optionen werden in der Regel verwaltet und der Datenbankadministrator konfiguriert.
+ **Verwenden von Standardeinstellungen für SQL Server-Instanzen**: Wählen Sie diese Option aus, um Datenbankdatei-und Protokolldateien basierend auf den Instanzeinstellungen von SQL Server zu platzieren. Die Optionen werden in der Regel vom Daten Bank Administrator verwaltet und konfiguriert.
 
- **Uns diese Pfad auf dem SQL-Zielserver**: Wählen Sie diese Option zum Definieren eigener Pfade für SQL Server-Datenbank und die Protokolldateien von eingeben den vollständigen Pfad zu dem Laufwerk und den Ordner, in die Datenbank und-Protokolldateien kopiert werden.
+ **Uns dieser Pfad auf SQL Server-Ziel**: Wählen Sie diese Option aus, um eigene Pfade für SQL Server-Datenbank-und-Protokolldateien zu definieren, indem Sie den vollständigen Pfad zu dem Laufwerk und dem Ordner eingeben, in dem die Datenbank-und Protokolldateien gespeichert werden.
 
 > [!IMPORTANT]
-> Die Pfade, die Sie eingeben können basierend auf Leistung Optimierungsalgorithmen bei der Installation geändert werden. Weitere Informationen hierzu finden Sie unter [Datenbank Installation mithilfe von Lync Server-Verwaltungsshell](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx).
+> Die von Ihnen eingegebenen Pfade können auf der Grundlage der Leistungs Optimierungsalgorithmen in der Installation geändert werden. Ausführliche Informationen finden Sie unter [Daten Bank Installation mithilfe der lync Server-Verwaltungsshell](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx).
 
- **OK**: Klicken Sie auf OK, um die Änderungen zu übernehmen.
+ **OK**: Klicken Sie auf die Schaltfläche OK, um Ihre Änderungen zu bestätigen.
 
- **Abbrechen**: Klicken Sie auf Abbrechen, um die Änderungen zu verwerfen und zum Bildschirm Datenbank installieren zurückzukehren.
+ **Abbrechen**: Klicken Sie auf Abbrechen, um alle Änderungen zu verwerfen und zum Bildschirm Datenbank installieren zurückzukehren.
 
- **Hilfe**: Klicken Sie auf die Schaltfläche Hilfe klicken, um diese Hilfeseite zuzugreifen.
+ **Hilfe**: Klicken Sie auf die Schaltfläche "Hilfe", um auf diese Hilfeseite zuzugreifen.
 
 ## <a name="see-also"></a>Siehe auch
 
-[SQL Server-Daten und Platzieren der Protokolldatei](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)
+[SQL Server-Daten-und Protokolldatei Platzierung](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)

@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 ms.date: 12/20/2018
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: 4b049b5e3f959ad2c34ce4b904efbd36fd5c4526
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c570b84e43ede5327803ddbb07532fc1325c7b91
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914163"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288957"
 ---
 # <a name="planning-tool-ui-reference"></a>Referenz zur Benutzeroberfläche des Planungstools
  
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-In diesen Themen dokumentieren die Schnittstelle für das Planungstool aus dem [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?LinkID=282725)zur Verfügung. 
+In diesen Themen wird die Oberfläche für das Planungs Tool dokumentiert, das im [Microsoft-Download Center](https://go.microsoft.com/fwlink/p/?LinkID=282725)zur Verfügung steht. 
   
 - [Audio Video Conferencing (Planning Tool)](../../help-topics/help-planning/audio-video-conferencing.md)
     

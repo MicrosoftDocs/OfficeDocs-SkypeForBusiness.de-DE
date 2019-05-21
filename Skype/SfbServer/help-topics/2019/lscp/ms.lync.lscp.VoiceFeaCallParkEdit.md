@@ -1,10 +1,10 @@
 ---
-title: Parken von Anrufen Erstellen einer neuen oder Bearbeiten einer vorhandenen
+title: Anruf parken neues erstellen oder vorhandenes bearbeiten
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceFeaCallParkEdit
@@ -12,25 +12,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 ROBOTS: NOINDEX, NOFOLLOW
-description: Parken Nummernbereiche definieren die temporären Nummern, in dem Geparkte Anrufe gehalten werden, bis eine Person oder Timeout abgerufen.
-ms.openlocfilehash: 7573b64f93f10d1592d1beba2edf33fef626232b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Die Rufnummernbereiche des Anruf Parks definieren die temporären Nummern, in denen geparkte Anrufe abgehalten werden, bis jemand Sie abruft oder Sie auslaufen.
+ms.openlocfilehash: 7257327081be46f343ef8aeb6076ad9a788f46bb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890851"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290170"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>Funktion zum Parken von Anrufen: Erstellen einer neuen oder Bearbeiten einer vorhandenen Funktion zum Parken von Anrufen
 
-Parken Nummernbereiche definieren die temporären Nummern, in dem Geparkte Anrufe gehalten werden, bis eine Person oder Timeout abgerufen.
+Die Rufnummernbereiche des Anruf Parks definieren die temporären Nummern, in denen geparkte Anrufe abgehalten werden, bis jemand Sie abruft oder Sie auslaufen.
 
 ## <a name="ui-reference"></a>Referenz zur Benutzeroberfläche
 
 In der folgenden Liste werden die Felder der Seite beschrieben.
 
-- **Name** Geben Sie einen beschreibenden Namen, der den Nummernbereich. Nach dem Speichern des Nummernbereichs kann dieser Name nicht mehr geändert werden.
+- **Name** Geben Sie einen aussagekräftigen Namen ein, der den Nummernbereich kennzeichnet. Nach dem Speichern des Nummernbereichs kann dieser Name nicht mehr geändert werden.
 
-- **Zahlenbereich** Geben Sie im ersten Feld die Anfangsnummer des Bereichs an. Geben Sie im zweiten Feld die Endnummer des Nummernbereichs ein.
+- **Nummernbereich** Geben Sie im ersten Feld die Anfangszahl des Zahlenbereichs ein. Geben Sie im zweiten Feld die Endnummer des Nummernbereichs ein.
 
   - Die Startnummer für den Bereich muss kleiner oder gleich der Endnummer sein.
 
@@ -38,14 +38,14 @@ In der folgenden Liste werden die Felder der Seite beschrieben.
 
   - Der Nummernbereich muss eindeutig sein. Für diesen Bereich sind keine Überschneidungen mit einem anderen Bereich zulässig.
 
-  - Wenn der Nummernbereich mit dem Zeichen beginnt \* oder #, der Bereich muss größer als 100 sein.
+  - Wenn der Zahlenbereich mit dem Zeichen \* oder # beginnt, muss der Bereich größer als 100 sein.
 
-  - Gültige Werte: Zeichenfolge des regulären Ausdrucks muss übereinstimmen ([\\* | #] ? [1-9] \d{0,7}) | ([1-9] \d{0,8}). Dies bedeutet, dass der Wert muss eine Zeichenfolge beginnend mit entweder die Zeichen \* oder # oder eine Zahl zwischen 1 und 9 (das erste Zeichen darf nicht NULL sein). Wenn das erste Zeichen ist \* oder #, in das folgende Zeichen muss eine Zahl zwischen 1 und 9 (es kann nicht NULL sein). Nachfolgende Zeichen können eine beliebige Zahl von 0 bis 9 bis zu sieben zusätzliche Zeichen sein (z. B. "#6000", "\*92000", "\*95551212" und "915551212"). Wenn das erste Zeichen nicht ist \* oder #, in das erste Zeichen muss eine Zahl zwischen 1 und 9 (es kann nicht NULL sein), gefolgt von bis zu acht Zeichen jedes eine Zahl von 0 bis 9 (zum Beispiel: 915551212; 41212; 300).
+  - Gültige Werte: muss mit der Zeichenfolge des regulären Ausdrucks\\übereinstimmen ([* | #] ? [1{0,7}-9] \d) | ([1-9] \d{0,8}). Dies bedeutet, dass der Wert eine Zeichenfolge sein muss, die \* entweder mit dem Zeichen oder # oder einer Zahl von 1 bis 9 beginnt (das erste Zeichen darf keine NULL sein). Wenn das erste Zeichen oder \* # ist, muss das folgende Zeichen eine Zahl von 1 bis 9 sein (es darf keine NULL sein). Nachfolgende Zeichen können eine beliebige Zahl von 0 bis 9 bis zu sieben zusätzlichen Zeichen sein (beispielsweise "#6000"\*, "92000"\*, "95551212" und "915551212"). Wenn das erste Zeichen nicht \* oder # ist, muss das erste Zeichen eine Zahl von 1 bis 9 sein (es darf nicht NULL sein), gefolgt von bis zu acht Zeichen, die jeweils eine Zahl von 0 bis 9 aufweisen (Beispiel: 915551212; 41212; 300).
 
   - Sie sollten über maximal 50.000 Nummern pro Pool verfügen. Jeder Nummernbereich umfasst normalerweise maximal 100 Nummern, Sie können jedoch einen deutlich höheren Wert festlegen (bis maximal 10.000 Nummern). Geben Sie anstelle eines Bereichs mit der Startnummer "7000000" und der Endnummer "8000000" als Startnummer beispielsweise "7000000" und als Endnummer "7000100" an.
 
-- **FQDN des Zielservers** Wählen Sie den vollqualifizierten Domänennamen (FQDN) oder die Dienst-ID des Anwendungsdiensts, die die Anwendung zum Parken von Anrufen gehostet wird. Alle Anrufe, die im Bereich geparkt werden, der über die Start- und Endnummer des Nummernbereichs angegeben wird, werden an diesen Server oder Pool weitergeleitet.
+- **FQDN des Zielservers** Wählen Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) oder die Dienst-ID des Anwendungsdiensts aus, der die Anwendung für den Anruf Park hostet. Alle Anrufe, die im Bereich geparkt werden, der über die Start- und Endnummer des Nummernbereichs angegeben wird, werden an diesen Server oder Pool weitergeleitet.
 
-Informationen zu parken Features und Funktionen finden Sie unter [Planen des Parkens von Anrufen in Skype für Unternehmen](../../../plan-your-deployment/enterprise-voice-solution/call-park.md). Ausführliche Informationen zum Arbeiten mit Parken Nummernbereiche finden Sie unter [Konfigurieren Telefon Anzahl Erweiterungen für das Parken von Anrufen](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).
+Details zu den Funktionen und Funktionen des Anruf Parks finden Sie unter [Planen des Anruf Parks in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/call-park.md). Details zum Arbeiten mit den Rufnummernbereichen des Anruf Parks finden Sie unter [Konfigurieren von Telefonnummern Erweiterungen für Park Anrufe](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).
 
 

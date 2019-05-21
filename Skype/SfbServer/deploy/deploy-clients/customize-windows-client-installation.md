@@ -1,39 +1,39 @@
 ---
-title: Anpassen von Windows-Client-Installation in Skype für Business Server
+title: Anpassen der Windows-Clientinstallation in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
-description: 'Zusammenfassung: Übersicht über Installationsmethoden und Tools für Skype für Unternehmen.'
-ms.openlocfilehash: bcf837a406f3e6a238a623b2f317dd3d4dedcbea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Übersicht über Installationsmethoden und Tools für Skype for Business.'
+ms.openlocfilehash: 40e5b9145f06038e76aee0b77b287e6dce9a8b3b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893476"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288578"
 ---
-# <a name="customize-windows-client-installation-in-skype-for-business-server"></a>Anpassen von Windows-Client-Installation in Skype für Business Server
+# <a name="customize-windows-client-installation-in-skype-for-business-server"></a>Anpassen der Windows-Clientinstallation in Skype for Business Server
  
-**Zusammenfassung:** Übersicht über Installationsmethoden und Tools für Skype für Unternehmen.
+**Zusammenfassung:** Übersicht über Installationsmethoden und Tools für Skype for Business.
   
 > [!NOTE]
-> Installationsinformationen zu Skype für Unternehmen, die mit Office 365 enthalten ist, finden Sie unter [Bereitstellen der Skype für Business-Client in Office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96). 
+> Installationsinformationen zu Skype for Business, die in Office 365 enthalten sind, finden Sie unter [Bereitstellen des Skype for Business-Clients in Office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96). 
   
-Unternehmensadministratoren können die Windows Installer-basierten (MSI) Installation von Volumenlizenzversionen von Skype für Business anpassen, mithilfe der Methods in diesem Abschnitt beschrieben. Da keine einzelnes Tool alle Optionen zur Anpassung bereitstellt, wahrscheinlich verwenden eine Kombination der folgenden Methoden in Ihrer Skype für die Business-Bereitstellung Sie. Sie können die in den folgenden Abschnitten beschriebenen Tools verwenden:
+Unternehmensadministratoren können die Windows Installer-basierte (MSI)-Installation von Volumen lizenzierten Versionen von Skype for Business mithilfe der in diesem Abschnitt beschriebenen Methoden anpassen. Da kein einzelnes Tool alle Anpassungsoptionen bereitstellt, verwenden Sie wahrscheinlich eine Kombination dieser Methoden in Ihrer Skype for Business-Bereitstellung. Sie können die in den folgenden Abschnitten beschriebenen Tools verwenden:
   
-- [Verwendung der Office-Anpassungstool (OAT) in Skype für Business Server](use-the-office-customization-tool-oct.md) zum Anpassen von Setupoptionen und Funktionen für Skype für Unternehmen und anderen Office-Programmen.
+- [Verwenden Sie das Office-Anpassungs Tool (OAT) in Skype for Business Server](use-the-office-customization-tool-oct.md) , um die Setupoptionen und Funktionen für Skype for Business und andere Office-Programme anzupassen.
     
-- [Verwenden von "config.xml" zum Ausführen von Installationsaufgaben in Skype für Business Server](use-config-xml-to-perform-installation-tasks.md) Geben Sie den Pfad des Netzwerkinstallationspfads und unbeaufsichtigte Installation durchführen.
+- [Verwenden Sie "config. xml", um Installationsaufgaben in Skype for Business Server durchzuführen](use-config-xml-to-perform-installation-tasks.md) , um den Pfad des Netzwerkinstallationspunkts anzugeben und eine unbeaufsichtigte Installation durchzuführen.
     
-- [Verwenden Sie Setup-Befehlszeilenoptionen in Skype für Business Server](use-setup-command-line-options.md) zum Angeben der Datei Config.xml, die während der Installation verwendet.
+- [Verwenden Sie die Setup-Befehlszeilenoptionen in Skype for Business Server](use-setup-command-line-options.md) , um die Datei config. XML anzugeben, die während der Installation verwendet werden soll.
     
-- [Configure Client bootstrapping Policies in Skype für Business Server](configure-client-bootstrapping-policies.md) mithilfe des Gruppenrichtlinienobjekt-Editor-MMC-Snap-in.
+- [Konfigurieren Sie die Richtlinien für Client-Bootstrapping in Skype for Business Server](configure-client-bootstrapping-policies.md) mithilfe des MMC-Snap-Ins Gruppenrichtlinienobjekt-Editor.
     
-Möglicherweise werden weitere Optionen, den, die Sie konfigurieren, wie Sie die Office-Suite Produkte bereitstellen möchten, benötigen. In den Themen in diesem Abschnitt geben Sie eine Übersicht über diese Anpassungstools und werden Aspekte bestimmte zu Skype für Unternehmen. Außerdem finden Sie dort Links zu detaillierter Office-Hilfe für die einzelnen Tools. 
+Es gibt wahrscheinlich andere Optionen, die Sie konfigurieren möchten, wenn Sie die Office-Produktsuite bereitstellen. Die Themen in diesem Abschnitt geben einen Überblick über diese Anpassungstools und besprechen Überlegungen, die speziell für Skype for Business gelten. Außerdem finden Sie dort Links zu detaillierter Office-Hilfe für die einzelnen Tools. 
   
 

@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/20/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6625494d-1b63-4d99-a589-c8c69c4addba
 description: 'Das Cmdlet „Get-CcSiteLogDirectory“ zeigt das aktuelle Verzeichnis an, in dem die Protokolle auf Standortebene für Skype for Business Cloud Connector Edition gespeichert werden. '
-ms.openlocfilehash: c4354920ac25d076e550c5eda3a641eef0c8b900
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bc47c2ea2d81e70538305daa98f97a35cf3d9e0a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199076"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287286"
 ---
 # <a name="get-ccsitelogdirectory"></a>Get-CcSiteLogDirectory
  
@@ -46,7 +46,7 @@ Get-CcSiteLogDirectory
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Der Standardordner ist C:\Users\%userprofile%\CloudConnector\SiteRoot\Logs. Sie können den Ordner ändern, indem Sie das Cmdlet „Set-CcSiteDirectory“ ausführen. Es gibt kein separates Cmdlet, das nur den Speicherort des Protokollordners, aber nicht das Standortverzeichnis ändert.
+Der Standardordner lautet C:\Users\%USERPROFILE%\CloudConnector\SiteRoot\Logs. Sie können den Ordner ändern, indem Sie das Cmdlet „Set-CcSiteDirectory“ ausführen. Es gibt kein separates Cmdlet, das nur den Speicherort des Protokollordners, aber nicht das Standortverzeichnis ändert.
   
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>

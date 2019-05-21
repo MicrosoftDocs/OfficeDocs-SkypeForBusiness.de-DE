@@ -1,29 +1,29 @@
 ---
-title: IP-Telefonbestand in Skype für Business Server
+title: Bericht zum IP Phone-Inventar in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
-description: 'Zusammenfassung: Erfahren Sie mehr über das IP-Telefonbestand in Skype für Business Server.'
-ms.openlocfilehash: 4eae4d699ec2fc67fc4a6ed809578c4679e8bf1c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: Informationen zum IP Phone-Inventurbericht in Skype for Business Server.'
+ms.openlocfilehash: 8d7d7be6b5a677f3df33ebf2e0bb01f31b76eac9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888373"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305668"
 ---
-# <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>IP-Telefonbestand in Skype für Business Server
+# <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Bericht zum IP Phone-Inventar in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den IP-Telefonbestand in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den Bericht IP Phone Inventory in Skype for Business Server.
   
 Der Bericht für den IP-Telefonbestand enthält Informationen zu den IP-Telefonen, die derzeit in der Organisation verwendet werden. Er umfasst eine detaillierte Liste der IP-Telefone, die während des angegebenen Berichtszeitraums tatsächlich verwendet wurden. Mithilfe dieses Berichts können Administratoren unter anderem Informationen dazu erhalten, ob alte oder veraltete Telefone vorhanden sind, die ausgetauscht werden sollten. Zudem können Administratoren darauf hingewiesen werden, dass in der Organisation teure Telefone existieren, die kaum verwendet werden. Solche Informationen können außerordentlich wertvoll sein, wenn es darum geht, neue Telefone zu kaufen oder vorhandene Telefone neu zu verteilen. (Ein Benutzer, der sein teures Telefon selten nutzt, kann beispielsweise gebeten werden, sein Telefon mit einem Benutzer zu tauschen, der sein Telefon häufiger verwendet.)
   
-Beachten Sie, dass dieser Bericht jedoch einige Einschränkungen vorhanden ist, wenn es darum geht, als true Inventarbericht verwendet wird. Die IP-Telefon Bericht listet einerseits einfach alle Telefone, die sich Skype für Business Server während des angegebenen Zeitraums, sortiert nach der letzten Anmeldung angemeldet. Wenn ein Telefon während des angegebenen Zeitraums nicht anmelden wird dann sie nicht in den Bericht aufgelistet werden. Dazu gehören Telefone, die angemeldet, um den Zeitraum gestartet und noch während des angegebenen Zeitintervalls angemeldet sind. Angenommen Sie, dass Sie alle telefonbestand für Juli 2015 anzeigen möchten. Nehmen wir auch, dass mehrere Telefone an Skype für Business Server auf 30 Juni 2015 angemeldet und noch am 1. Juli angemeldet sind. Diese Telefone werden nicht auf den Bericht für den 1. Juli angezeigt.
+Es sollte beachtet werden, dass dieser Bericht einige Einschränkungen hat, wenn er als echter Inventarbericht verwendet wird. Zum einen listet der Bericht IP Phone einfach alle Telefone auf, die sich während des angegebenen Zeitraums bei Skype for Business Server angemeldet haben, sortiert nach der letzten Anmeldezeit. Wenn sich ein Telefon während des angegebenen Zeitraums nicht anmeldet, wird es im Inventurbericht nicht aufgeführt. Dazu gehören Telefone, die sich vor dem Start des Zeitraums anmeldeten und noch während des angegebenen Zeitintervalls angemeldet waren. Angenommen, Sie möchten die gesamte Telefon Inventur für Juli, 2015, sehen. Nehmen wir auch an, dass mehrere Telefone am 30. Juni 2015 bei Skype for Business Server angemeldet waren und noch am 1. Juli angemeldet waren. Diese Telefone werden im Inventarbericht für den 1. Juli nicht angezeigt.
   
 Weiterhin muss beachtet werden, dass der Bestandsbericht Telefone einschließen kann, die in Ihrer Organisation nicht mehr verwendet werden. Angenommen, eine bestimmte Anzahl Telefone von Fabrikam wurde am Mittwoch, 1. Juli 2015 beim System angemeldet. Fünf Tage später hat sich Ihre Organisation dazu entschlossen, diese Fabrikam-Telefone durch ein neueres Modell von Contoso auszutauschen. Die Fabrikam-Telefone werden jedoch weiterhin im „Bestandsbericht“ aufgeführt, weil sie im Juli beim System angemeldet wurden.
   
@@ -83,7 +83,7 @@ Last logoff time : 8/30/2010 5:59:07 PM
 Last activity    :
 </pre>
 
-Eine andere interessante Möglichkeit, verwenden Sie die IP-Telefonbestand ist dies: Wenn Sie die MAC-Adresse eines IP-Telefons verfügen, Sie, die Benutzer, die zuletzt dieses Telefon verwendet einfach herausfinden können, indem Sie diese Adresse in das Textfeld MAC-Adresse eingeben. Der IP-Telefonbestand-Bericht melden zurück (unter anderem) die SIP-Adresse des Benutzers, die zuletzt mit dieses Telefon angemeldet. Alternativ können Sie einen Benutzer-SIP-Adresse (im Feld Benutzer-URI Präfix) eingeben, um herauszufinden, alle Telefone, die von diesem Benutzer verwendet wurden.
+Eine weitere interessante Möglichkeit zur Verwendung des Inventarberichts für IP-Telefone: Wenn Sie über die Mac-Adresse eines IP-Telefons verfügen, können Sie den Benutzer, der das Telefon zuletzt verwendet hat, einfach über die Adresse in das Textfeld Mac-Adresse eingeben. Der Bericht IP Phone Inventory meldet dann (unter anderem) die SIP-Adresse des Benutzers, der sich zuletzt mit diesem Telefon angemeldet hat. Sie können auch eine SIP-Adresse des Benutzers (im Feld Benutzer-URI-Präfix) eingeben, um alle Telefone festzustellen, die von diesem Benutzer verwendet wurden.
   
 ## <a name="filters"></a>Filter
 
@@ -118,8 +118,8 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Bericht für den IP
 |**MAC-Adresse** <br/> |Ja  <br/> |Eindeutige ID für die Netzwerkschnittstelle auf dem IP-Telefon. Die MAC-Adresse wird in der Regel bei der Herstellung des Telefons zugewiesen und fest in der Gerätehardware verdrahtet.  <br/> |
 |**Benutzer-URI** <br/> |Ja  <br/> |SIP-Adresse des Benutzers, der das IP-Telefon verwendet hat.  <br/> |
 |**Benutzer-Agent** <br/> |Ja  <br/> |ID für die vom IP-Telefon verwendete Software.  <br/> |
-|**Zuletzt angemeldet um:** <br/> |Ja  <br/> |Datum und Uhrzeit, zu der IP-Telefon zuletzt an Skype für Business Server angemeldet.  <br/> |
-|**Zuletzt abgemeldet um:** <br/> |Ja  <br/> |Datum und Uhrzeit Abmeldung des IP-Telefons zuletzt von Skype für Business Server.  <br/> |
+|**Zuletzt angemeldet um:** <br/> |Ja  <br/> |Datum und Uhrzeit der letzten Anmeldung des IP-Telefons bei Skype for Business Server.  <br/> |
+|**Zuletzt abgemeldet um:** <br/> |Ja  <br/> |Datum und Uhrzeit, zu dem das IP-Telefon zuletzt von Skype for Business Server abgemeldet wurde.  <br/> |
 |**Letzte Aktivität** <br/> |Ja  <br/> |Datum und Uhrzeit der letzten Verwendung des IP-Telefons.  <br/> |
    
 

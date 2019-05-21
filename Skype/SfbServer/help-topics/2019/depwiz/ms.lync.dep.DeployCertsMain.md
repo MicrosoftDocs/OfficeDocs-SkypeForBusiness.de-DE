@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertsMain
@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
-description: Im Zertifikat-Assistenten können Sie Zertifikate anfordern, zuweisen, entfernenund anzeigen. Sie müssen als Mitglied der Gruppe „RTCUniversalServerAdmins“ angemeldet sein. Zum Anfordern eines Zertifikats von einer öffentlichen Zertifizierungsstelle sind keine besonderen Gruppenmitgliedschaften erforderlich. Zum Anfordern eines Zertifikats aus Ihrer Organisation public Key-Infrastruktur (PKI), müssen Sie bestätigen was zusätzliche – falls zutreffend – Gruppenmitgliedschaften, die Sie benötigen. Während des Vorgangs Anforderung können Sie alternative Anmeldeinformationen eingeben, die zum anfordern, dass das Zertifikat von Ihrem PKI Zertifizierungsstelle Ausstellen des verwendet werden.
-ms.openlocfilehash: 7c85272d9bddb0c25dae4e7623f57aafde670539
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Im Zertifikat-Assistenten können Sie Zertifikate anfordern, zuweisen, entfernenund anzeigen. Sie müssen als Mitglied der Gruppe „RTCUniversalServerAdmins“ angemeldet sein. Zum Anfordern eines Zertifikats von einer öffentlichen Zertifizierungsstelle sind keine besonderen Gruppenmitgliedschaften erforderlich. Wenn Sie ein Zertifikat von der Public Key-Infrastruktur (PKI) Ihrer Organisation anfordern möchten, müssen Sie bestätigen, welche zusätzlichen – wenn überhaupt – Gruppenmitgliedschaften erforderlich sind. Während der Anforderungsaufgabe können Sie alternative Anmeldeinformationen eingeben, die verwendet werden, um das Zertifikat von der ausstellenden Zertifizierungsstelle der PKI anzufordern.
+ms.openlocfilehash: daafbdd6730b86b7509323528405bec5277d264d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893791"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298961"
 ---
 # <a name="certificate-wizard"></a>Zertifikat-Assistent
  
-Im Zertifikat-Assistenten können Sie Zertifikate **anfordern**, **zuweisen**, **entfernen**und **anzeigen**. Sie müssen als Mitglied der Gruppe „RTCUniversalServerAdmins“ angemeldet sein. Zum Anfordern eines Zertifikats von einer öffentlichen Zertifizierungsstelle sind keine besonderen Gruppenmitgliedschaften erforderlich. Zum Anfordern eines Zertifikats aus Ihrer Organisation public Key-Infrastruktur (PKI), müssen Sie bestätigen was zusätzliche – falls zutreffend – Gruppenmitgliedschaften, die Sie benötigen. Während des Vorgangs Anforderung können Sie alternative Anmeldeinformationen eingeben, die zum anfordern, dass das Zertifikat von Ihrem PKI Zertifizierungsstelle Ausstellen des verwendet werden.
+Im Zertifikat-Assistenten können Sie Zertifikate **anfordern**, **zuweisen**, **entfernen**und **anzeigen**. Sie müssen als Mitglied der Gruppe „RTCUniversalServerAdmins“ angemeldet sein. Zum Anfordern eines Zertifikats von einer öffentlichen Zertifizierungsstelle sind keine besonderen Gruppenmitgliedschaften erforderlich. Wenn Sie ein Zertifikat von der Public Key-Infrastruktur (PKI) Ihrer Organisation anfordern möchten, müssen Sie bestätigen, welche zusätzlichen – wenn überhaupt – Gruppenmitgliedschaften erforderlich sind. Während der Anforderungsaufgabe können Sie alternative Anmeldeinformationen eingeben, die verwendet werden, um das Zertifikat von der ausstellenden Zertifizierungsstelle der PKI anzufordern.
   
 Klicken Sie zum Anfordern eines neuen Zertifikats auf **Anfordern**.
   
@@ -43,7 +43,7 @@ Klicken Sie zum Aktualisieren des aktuellen Zertifikatzuweisungsbildschirms auf 
 Klicken Sie zum Importieren eines Zertifikats, das noch nicht im Zertifikatspeicher vorhanden ist, auf **Zertifikat importieren**.
   
 > [!NOTE]
-> **Importieren des Zertifikats** wird normalerweise verwendet, um ein Zertifikat verarbeiten, die über einen anderen Prozess als einer Anforderung in den Zertifikat-Assistenten empfangen wird. Beispiel der PKI-Administrator erstellt ein Zertifikat und für Sie verfügbar gemacht. **Zertifikat importieren** zum Importieren des Zertifikats in Zertifikat des Computers speichern und zur Verfügung gestellt Skype für Business Server zuweisen.
+> **Zertifikat importieren** wird in der Regel verwendet, um ein Zertifikat zu verarbeiten, das über einen anderen Prozess als eine Anforderung vom Zertifikat-Assistenten empfangen wird. Beispielsweise erstellt Ihr PKI-Administrator ein Zertifikat und stellt es Ihnen zur Verfügung. Verwenden Sie das Zertifikat **importieren** , um das Zertifikat in den Zertifikatspeicher des Computers zu importieren und dem Skype for Business-Server zur Zuweisung zur Verfügung zu stellen.
   
 To complete the process of requesting a certificate request from a CA in your organization that requires CA administrator approval, click **Process Pending Request**. The certificate request will have returned a status of pending, and also displays the identification number of the pending request. To continue processing a certificate with a pending status, click **Refresh** to enable the **Process Pending Request** button. The **Process Pending Request** button will no longer be unavailable (dimmed). You can then attempt to retrieve the pending request, but the status of the request will remain pending until the certificate is issued or denied by the CA administrator. The button will be unavailable if there are no valid pending requests that have been created by the Certificate Wizard.
   

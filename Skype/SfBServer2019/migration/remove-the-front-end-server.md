@@ -1,24 +1,24 @@
 ---
-title: Entfernen Sie die Enterprise Edition-Front-End-Server oder Standard Edition-Front-End-Server
+title: Entfernen des Enterprise Edition-Front-End-Servers oder des Standard Edition-Front-End-Servers
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: In diesem Thema beschriebenen Vorgehensweisen sollen Sie schrittweise durch den Vorgang des Entfernens von einem Enterprise Edition-Front-End-Pool oder Standard Edition-Front-End-Servers. Nach der Migration zu Skype für Business Server 2019, ist dies eine der ersten Schritte Außerbetriebsetzen Ihrer vorversionsumgebung.
-ms.openlocfilehash: cd21eff37bfd4f1b29597ee2a44ad3bafe2c104c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Die in diesem Thema beschriebenen Verfahren sollen Sie durch den Vorgang zum Entfernen eines Enterprise Edition-Front-End-Pools oder eines Standard Edition-Front-End-Servers leiten. Nach der Migration zu Skype for Business Server 2019 handelt es sich um einen der ersten Schritte zur Außerbetriebnahme ihrer Legacyumgebung.
+ms.openlocfilehash: 62e9552f8781d753e5e03e8aa4f23ad67d40dbce
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231437"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301104"
 ---
 # <a name="remove-the-front-end-server"></a>Entfernen der Front-End-Server
 
-In diesem Abschnitt beschriebenen Vorgehensweisen sollen Sie schrittweise durch den Vorgang des Entfernens von einem Enterprise Edition-Front-End-Pool oder Standard Edition-Front-End-Servers. Nach der Migration zu Skype für Business Server 2019, ist dies eine der ersten Schritte bei der außerbetriebsetzung der vorversionsumgebung.
+Die in diesem Abschnitt beschriebenen Verfahren sollen Sie durch den Vorgang zum Entfernen eines Enterprise Edition-Front-End-Pools oder eines Standard Edition-Front-End-Servers leiten. Nach der Migration zu Skype for Business Server 2019 handelt es sich um einen der ersten Schritte zur Außerbetriebnahme ihrer Legacyumgebung.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 

@@ -1,25 +1,25 @@
 ---
-title: Zusammenfassender Konferenz-Unterbericht in Skype für Business Server
+title: Konferenz Zusammenfassung Unterbericht in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: 'Zusammenfassung: Informationen Sie zu den zusammenfassender Konferenz-Unterbericht in Skype für Business Server.'
-ms.openlocfilehash: 44895a8ed8c88cdf91b10ccf919bb7e088fbe13e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zusammenfassung: erfahren Sie mehr über den Unterbericht zur Konferenz Zusammenfassung in Skype for Business Server.'
+ms.openlocfilehash: ad3e382ac832976e15518a431055bf03189061a5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926641"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305864"
 ---
-# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Zusammenfassender Konferenz-Unterbericht in Skype für Business Server
+# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Konferenz Zusammenfassung Unterbericht in Skype for Business Server
  
-**Zusammenfassung:** Informationen Sie zu den zusammenfassender Konferenz-Unterbericht in Skype für Business Server.
+**Zusammenfassung:** Informieren Sie sich über den Unterbericht Konferenz Zusammenfassung in Skype for Business Server.
   
 Der zusammenfassende Konferenzunterbericht stellt eine Gesamtübersicht zu gescheiterten Konferenzsitzungen bereit, bei denen Fehler aufgetreten sind. Diese gescheiterten Sitzungen sind weiter nach Sitzungstyp unterteilt: Konferenzzustandsobjekt-Sitzungen und MCU-Sitzungen.
   

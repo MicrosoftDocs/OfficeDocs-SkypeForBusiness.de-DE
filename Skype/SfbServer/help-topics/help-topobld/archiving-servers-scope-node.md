@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.ArchivingServersScopeNode
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 description: Im Topologie-Generator können Sie auf einen einzelnen Archivierungsserver bezogene Aufgaben ausführen, indem Sie entweder in der Konsolenstruktur mit der rechten Maustaste auf Archivierungsserver klicken und anschließend auf der Symbolleiste auf Aktion klicken oder im Bereich „Aktionen“ auf eine Aufgabe und anschließend auf die folgende Archivierungsserveroption klicken.
-ms.openlocfilehash: 116b1695dbc97ad81b3840ff43e7ed930d5b269f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a46eb7c52579a53e4843e759f3cd61d39e70df35
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885632"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288782"
 ---
 # <a name="archiving-servers-scope-node"></a>Archivierungsserver – Bereichsknoten
  
@@ -27,11 +27,11 @@ Im Topologie-Generator können Sie auf einen einzelnen Archivierungsserver bezog
 - **Neuer Archivierungsserver**: Dient zum Starten des Assistenten **Neuen Archivierungsserver definieren**, in dem Sie die Einstellungen für den neuen Archivierungsserver angeben können, z. B. den vollqualifizierten Domänennamen, die SQL Server-Archivierungsdatenbank, den Dateispeicher für die Archivierung sowie die Poolzuordnung.
     
 > [!NOTE]
-> Der Knoten Archivierungsserver enthält einen Archivierungsserver, wenn Sie zuvor eines Archivierungsservers zur Topologie im Topologie-Generator hinzugefügt haben. Allerdings kann nicht instant messaging oder Webkonferenzen (messaging) archiviert werden, bis Sie auch den Archivierungsserver einrichten, die Skype für Business Server installieren, auf dem Server, den Sie als einen Archivierungsserver verwenden möchten, und Konfigurieren der Unterstützung für umfasst Archivierung. 
+> Der Knoten Archivierungsserver enthält einen Archivierungsserver, wenn Sie der Topologie im Topologie-Generator zuvor einen Archivierungsserver hinzugefügt haben. Instant Messaging oder Webkonferenzen (Messaging) können jedoch erst archiviert werden, nachdem Sie den Archivierungsserver eingerichtet haben, der auch die Installation von Skype for Business Server auf dem Server umfasst, den Sie als Archivierungsserver verwenden möchten, und die Unterstützung für Archivierung. 
   
 Zusätzlich zu den zuvor in diesem Thema beschriebenen Archivierungsserveroptionen stehen im Knoten „Archivierungsserver“ auch allgemeine Optionen zur Verfügung, auf die Sie auch über andere Knoten der Konsolenstruktur zugreifen können. Dies umfasst Folgendes:
   
-- **Topologie**. Verwenden Sie diese Option zum Definieren einer neuen Topologie, öffnen Sie eine vorhandene Topologie, Herunterladen der aktuellen Topologie, Speichern einer Kopie der Topologie, veröffentlichen Sie die Topologie, eine Datenbank installieren, Zusammenführen Komponenten oder Entfernen der bereitstellungs.
+- **Topologie**. Verwenden Sie diese Option, um eine neue Topologie zu definieren, eine vorhandene Topologie zu öffnen, die aktuelle Topologie herunterzuladen, eine Kopie der Topologie zu speichern, die Topologie zu veröffentlichen, eine Datenbank zu installieren, Komponenten zusammenzuführen oder die Bereitstellung zu entfernen.
     
 - **Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.
     
