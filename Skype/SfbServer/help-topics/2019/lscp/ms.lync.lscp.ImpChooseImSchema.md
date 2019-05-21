@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ImpChooseImSchema
@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 ROBOTS: NOINDEX, NOFOLLOW
-description: Verwenden Sie das Dialogfeld Linkpräfix auswählen auf die Typen von Hyperlinks, die Sie blockieren, senden eine Warnmeldung oder durch (zu blockieren oder eine Warnmeldung senden) aktivieren oder deaktivieren (zum zulassen) zulassen möchten, wählen die Kontrollkästchen für ihren Erweiterungen aus den Kategorien unter Linkpräfixe. Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und alle linkpräfixe für die Kategorie anzeigen. Wenn Sie alle linkpräfixe für eine Kategorie auswählen möchten, wählen Sie den Namen der Kategorie.
-ms.openlocfilehash: a62b0b786864926a4b6415cd959d369b807d34cf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Verwenden Sie das Dialogfeld "Link Präfix auswählen", um die Typen von links auszuwählen, die Sie blockieren, eine Warnmeldung senden oder zulassen möchten, indem Sie (zum Blockieren oder Senden einer Warnmeldung) auswählen oder die Kontrollkästchen für Ihre Erweiterungen aus den Kategorien unter Link-Präfixe. Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und alle Link Präfixe für diese Kategorie anzuzeigen. Wenn Sie alle Link-Präfixe für eine Kategorie auswählen möchten, wählen Sie den Kategorienamen aus.
+ms.openlocfilehash: e9f0fdb6f10afb8ac34a2201fad35fb8ad5f2ffd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891446"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292913"
 ---
-# <a name="select-hyperlink-prefix"></a><span data-ttu-id="9025f-105">Auswählen von Präfixen für Links</span><span class="sxs-lookup"><span data-stu-id="9025f-105">Select Hyperlink Prefix</span></span>
+# <a name="select-hyperlink-prefix"></a><span data-ttu-id="1b560-105">Auswählen von Präfixen für Links</span><span class="sxs-lookup"><span data-stu-id="1b560-105">Select Hyperlink Prefix</span></span>
  
-<span data-ttu-id="9025f-106">Verwenden Sie das Dialogfeld **Linkpräfix auswählen** auf die Typen von Hyperlinks, die Sie blockieren, senden eine Warnmeldung oder durch (zu blockieren oder eine Warnmeldung senden) aktivieren oder deaktivieren (zum zulassen) zulassen möchten, wählen die Kontrollkästchen für ihren Erweiterungen aus der Kategorien unter **linkpräfixe**.</span><span class="sxs-lookup"><span data-stu-id="9025f-106">Use the **Select Hyperlink Prefix** dialog box to select the types of hyperlinks that you want to block, send a warning message, or allow by selecting (to block or send a warning message) or clearing (to allow) the check boxes for their extensions from the categories under **Hyperlink prefixes**.</span></span> <span data-ttu-id="9025f-107">Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und alle linkpräfixe für die Kategorie anzeigen.</span><span class="sxs-lookup"><span data-stu-id="9025f-107">Click the arrow to expand a category and view all of the hyperlink prefixes for that category.</span></span> <span data-ttu-id="9025f-108">Wenn Sie alle linkpräfixe für eine Kategorie auswählen möchten, wählen Sie den Namen der Kategorie.</span><span class="sxs-lookup"><span data-stu-id="9025f-108">If you want to select all of the hyperlink prefixes for a category, select the category name.</span></span> 
+<span data-ttu-id="1b560-106">Verwenden Sie das Dialogfeld " **Link Präfix auswählen** ", um die Typen von links auszuwählen, die Sie blockieren, eine Warnmeldung senden oder zulassen möchten, indem Sie (um eine Warnmeldung zu blockieren oder zu senden) auswählen oder die Kontrollkästchen für Ihre Erweiterungen aus der Liste löschen (zulassen). Kategorien unter **Link Präfixe**.</span><span class="sxs-lookup"><span data-stu-id="1b560-106">Use the **Select Hyperlink Prefix** dialog box to select the types of hyperlinks that you want to block, send a warning message, or allow by selecting (to block or send a warning message) or clearing (to allow) the check boxes for their extensions from the categories under **Hyperlink prefixes**.</span></span> <span data-ttu-id="1b560-107">Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und alle Link Präfixe für diese Kategorie anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="1b560-107">Click the arrow to expand a category and view all of the hyperlink prefixes for that category.</span></span> <span data-ttu-id="1b560-108">Wenn Sie alle Link-Präfixe für eine Kategorie auswählen möchten, wählen Sie den Kategorienamen aus.</span><span class="sxs-lookup"><span data-stu-id="1b560-108">If you want to select all of the hyperlink prefixes for a category, select the category name.</span></span> 
   
-<span data-ttu-id="9025f-109">Wenn Sie nicht angezeigt, dass ein Hyperlink-Präfix, das Sie aktivieren möchten in **linkpräfixe**aufgeführt wird, geben Sie die Erweiterung im Textfeld unter **neue linkpräfixe zur Liste hinzufügen**, und klicken Sie dann auf **Hinzufügen**.</span><span class="sxs-lookup"><span data-stu-id="9025f-109">If you do not see a hyperlink prefix that you want to select listed in **Hyperlink prefixes**, type the extension in the text box under **Add new hyperlink prefixes to the list**, and then click **Add**.</span></span> 
+<span data-ttu-id="1b560-109">Wenn ein Link-Präfix nicht angezeigt wird, das Sie in den Link- **Präfixen**aufgelistet auswählen möchten, geben Sie die Erweiterung in das Textfeld unter **neue Link-Präfixe hinzufügen der Liste**ein, und klicken Sie dann auf **Hinzufügen**.</span><span class="sxs-lookup"><span data-stu-id="1b560-109">If you do not see a hyperlink prefix that you want to select listed in **Hyperlink prefixes**, type the extension in the text box under **Add new hyperlink prefixes to the list**, and then click **Add**.</span></span> 
   
-<span data-ttu-id="9025f-110">Nachdem Sie alle die gewünschten linkpräfixe zur Liste **ausgewählte linkpräfixe** hinzugefügt haben, klicken Sie auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="9025f-110">After you have added all of the hyperlink prefixes that you want to the **Selected hyperlink prefixes** list, click **OK**.</span></span>
+<span data-ttu-id="1b560-110">Nachdem Sie alle gewünschten Link Präfixe zur Liste **ausgewählte Link Präfixe** hinzugefügt haben, klicken Sie auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="1b560-110">After you have added all of the hyperlink prefixes that you want to the **Selected hyperlink prefixes** list, click **OK**.</span></span>
   
  
   

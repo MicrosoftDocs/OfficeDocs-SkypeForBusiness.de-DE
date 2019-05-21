@@ -5,27 +5,27 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddPstnGatewayIPPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
-description: Sie definieren die IPv4 oder IPv6-Adressen für das Gateway IP-Adresse oder Telefonnummer switched Telephone Network, (PSTN), indem Sie entweder aktivieren IPv4 oder IPv6 aktivieren auswählen. Sie können auswählen, dass entweder alle konfigurierten IP-Adressen oder Verwendung von Grenzwert ausgewählten IP-Adressen verwenden.
-ms.openlocfilehash: 5dbae2c471c15b20da45cc6412f4bbabecff10ed
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Sie definieren die IPv4-oder IPv6-Adressen für das IP-oder Phone Switched Telephone Network (PSTN)-Gateway, indem Sie entweder IPv4 aktivieren oder IPv6 aktivieren auswählen. Sie können entweder alle konfigurierten IP-Adressen verwenden oder die Dienstnutzung auf ausgewählte IP-Adressen einschränken.
+ms.openlocfilehash: 51f9b43b1fe5842d05f41cbf4f9e9ab6e791423a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915185"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306839"
 ---
-# <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a><span data-ttu-id="14500-104">Definieren der IP-Adresse des IP- oder PSTN-Gateways</span><span class="sxs-lookup"><span data-stu-id="14500-104">Define the IP Address of the IP or PSTN Gateway</span></span>
+# <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a><span data-ttu-id="57e08-104">Definieren der IP-Adresse des IP- oder PSTN-Gateways</span><span class="sxs-lookup"><span data-stu-id="57e08-104">Define the IP Address of the IP or PSTN Gateway</span></span>
 
-<span data-ttu-id="14500-105">Sie definieren die IPv4 oder IPv6-Adressen für das Gateway IP-Adresse oder Telefonnummer switched Telephone Network, (PSTN), indem Sie **Aktivieren IPv4** oder **IPv6 aktivieren**auswählen.</span><span class="sxs-lookup"><span data-stu-id="14500-105">You define the IPv4 or IPv6 addresses for the IP or phone switched telephone network (PSTN) gateway by selecting either **Enable IPv4** or **Enable IPv6**.</span></span> <span data-ttu-id="14500-106">Sie können **Alle konfigurierte IP-Adressen verwenden** oder **Verwendung von Grenzwert ausgewählten IP-Adressen**auswählen.</span><span class="sxs-lookup"><span data-stu-id="14500-106">You can choose either **Use all configured IP addresses** or **Limit service usage to selected IP addresses**.</span></span>
+<span data-ttu-id="57e08-105">Sie definieren die IPv4-oder IPv6-Adressen für das IP-oder Phone Switched Telephone Network (PSTN)-Gateway, indem Sie entweder **IPv4 aktivieren** oder **IPv6 aktivieren**auswählen.</span><span class="sxs-lookup"><span data-stu-id="57e08-105">You define the IPv4 or IPv6 addresses for the IP or phone switched telephone network (PSTN) gateway by selecting either **Enable IPv4** or **Enable IPv6**.</span></span> <span data-ttu-id="57e08-106">Sie können entweder **alle konfigurierten IP-Adressen verwenden** oder **die Dienstnutzung auf ausgewählte IP-Adressen einschränken**.</span><span class="sxs-lookup"><span data-stu-id="57e08-106">You can choose either **Use all configured IP addresses** or **Limit service usage to selected IP addresses**.</span></span>
 
-<span data-ttu-id="14500-107">Wenn Sie **Alle konfigurierte IP-Adressen verwenden**auswählen, werden alle für das Gateway konfigurierte Adressen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="14500-107">If you select **Use all configured IP addresses**, all addresses configured on the gateway will be used.</span></span> <span data-ttu-id="14500-108">Aktivieren Sie bei Bedarf die **Verwendung von Grenzwert zum ausgewählten IP-Adressen**, wodurch den Eintrag **PSTN-IP-Adresse** .</span><span class="sxs-lookup"><span data-stu-id="14500-108">Optionally, select **Limit service usage to selected IP addresses**, which enables the **PSTN IP address** entry.</span></span> <span data-ttu-id="14500-109">Geben Sie die IPv4 oder IPv6-Adresse, die für dieses Gateway zugewiesen wurde.</span><span class="sxs-lookup"><span data-stu-id="14500-109">Enter the IPv4 or IPv6 address that has been assigned for this gateway.</span></span>
+<span data-ttu-id="57e08-107">Wenn Sie **alle konfigurierten IP-Adressen verwenden**auswählen, werden alle auf dem Gateway konfigurierten Adressen verwendet.</span><span class="sxs-lookup"><span data-stu-id="57e08-107">If you select **Use all configured IP addresses**, all addresses configured on the gateway will be used.</span></span> <span data-ttu-id="57e08-108">Optional können Sie die Option **Dienstnutzung auf ausgewählte IP-Adressen beschränken**, wodurch der Eintrag **PSTN-IP-Adresse** aktiviert wird.</span><span class="sxs-lookup"><span data-stu-id="57e08-108">Optionally, select **Limit service usage to selected IP addresses**, which enables the **PSTN IP address** entry.</span></span> <span data-ttu-id="57e08-109">Geben Sie die IPv4-oder IPv6-Adresse ein, die diesem Gateway zugewiesen wurde.</span><span class="sxs-lookup"><span data-stu-id="57e08-109">Enter the IPv4 or IPv6 address that has been assigned for this gateway.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="14500-110">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="14500-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="57e08-110">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="57e08-110">See also</span></span>
 
-[<span data-ttu-id="14500-111">Zugriffsnummer für Einwahl für Webkonferenzen</span><span class="sxs-lookup"><span data-stu-id="14500-111">Dial-In Conferencing Requirements</span></span>](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
+[<span data-ttu-id="57e08-111">Anforderungen für Einwahlkonferenzen</span><span class="sxs-lookup"><span data-stu-id="57e08-111">Dial-In Conferencing Requirements</span></span>](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
