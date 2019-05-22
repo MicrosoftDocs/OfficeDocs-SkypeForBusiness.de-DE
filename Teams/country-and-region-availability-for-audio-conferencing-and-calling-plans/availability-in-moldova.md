@@ -24,12 +24,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plansfor Business and Microsoft Teams available for Moldova."
-ms.openlocfilehash: 2c92121b734b8f792bcd0739bb27a7abd53570ae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fc9f5e561bf81e6ccd7faaa64ec0948721b66640
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287977"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34331548"
 ---
 # <a name="availability-in-moldova"></a>Verfügbarkeit in der Republik Moldau
 
@@ -70,7 +70,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nein  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
- Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+ Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
@@ -82,7 +82,7 @@ Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Gutha
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

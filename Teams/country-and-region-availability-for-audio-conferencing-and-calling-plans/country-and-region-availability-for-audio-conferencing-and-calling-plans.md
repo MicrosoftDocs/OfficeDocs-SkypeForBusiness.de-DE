@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Sie können ein Land/eine Region auswählen, um zu sehen, ob Audiokonferenz, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen und gebührenpflichtige sowie gebührenfreie Telefonnummern verfügbar sind.
-ms.openlocfilehash: 51c5667330aec2881ce443600d311254655fe657
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d167a7d1072377b3eb8fab9d1958a46381500022
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286693"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330892"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
 
@@ -163,7 +163,7 @@ Ausgehende Anrufe aus einer Besprechung in ein anderes Land/eine andere Region i
 ### <a name="phone-system"></a>Telefonsystem
 Mit Telefonsystem können Sie automatische Telefonzentralen und Anrufwarteschleifen (mit gebührenpflichtigen und gebührenfreien Telefonnummern) zur Beantwortung von eingehenden Anrufen in Ihrer Organisation erstellen. Und wenn Sie einen Anrufplan für Benutzer hinzufügen, können diese Skype for Business nutzen, um grundlegende Aufgaben zur Anrufkontrolle durchzuführen. Beispiele sind das Tätigen und Annehmen von Anrufen, das Weiterleiten von Anrufen und das Stummschalten bzw. Aufheben der Stummschaltung für Anrufe. **Telefonsystem**-Benutzer können auf einen Namen in ihrem Adressbuch klicken, und Skype for Business wird diese Person anrufen. Um Anrufe zu tätigen oder anzunehmen, können **Telefonsystem**-Benutzer ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eins der zahlreichen IP-Telefone nutzen, die mit Skype for Business verwendet werden können.
 
-> Abhängig vom Bestand an gebührenpflichtigen Telefonnummern kann deren Verfügbarkeit an einigen dieser Standorte zu bestimmten Zeitpunkten variieren. Sie können nicht nur Telefonnummern für einzelne Benutzer aus Office 365 abrufen, sondern auch gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenz (für Konferenzbrücken), automatische Telefonzentralen und Anrufwarteschleifen suchen und anfordern. Diese werden Servicenummern genannt. Informationen zum Abrufen von Telefonnummern finden Sie unter Abrufen von Telefonnummern für [Dienstleistungen](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) . Für Ihre Benutzer können Sie jedoch nach dem Zuweisen eines Anrufplans eine Telefonnummer zuweisen, sodass die Benutzer Telefonanrufe tätigen und annehmen können. Wenn Sie diese Telefonnummern finden möchten, gehen Sie zu [Telefonnummern für Ihre Benutzer erhalten](/microsoftteams/getting-phone-numbers-for-your-users). Weitere Informationen finden Sie zudem unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user). 
+> Abhängig vom Bestand an gebührenpflichtigen Telefonnummern kann deren Verfügbarkeit an einigen dieser Standorte zu bestimmten Zeitpunkten variieren. Sie können nicht nur Telefonnummern für einzelne Benutzer aus Office 365 abrufen, sondern auch gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenz (für Konferenzbrücken), automatische Telefonzentralen und Anrufwarteschleifen suchen und anfordern. Diese werden Servicenummern genannt. Informationen zum Abrufen von Telefonnummern finden Sie unter Abrufen von Telefonnummern für [Dienstleistungen](/microsoftteams/getting-service-phone-numbers) . Für Ihre Benutzer können Sie jedoch nach dem Zuweisen eines Anrufplans eine Telefonnummer zuweisen, sodass die Benutzer Telefonanrufe tätigen und annehmen können. Wenn Sie diese Telefonnummern finden möchten, gehen Sie zu [Telefonnummern für Ihre Benutzer erhalten](/microsoftteams/getting-phone-numbers-for-your-users). Weitere Informationen finden Sie zudem unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user). 
 
 [Preise für Telefonsystem](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -186,7 +186,7 @@ Sie können nicht nur Telefonnummern für einzelne Benutzer aus Office 365 abru
   
 Es folgt eine Liste der Hauptstädte und Großstädte, für die Sie gebührenpflichtige Servicenummern zur Verwendung mit Audiokonferenz und Anrufplänen anfordern können. Gebührenpflichtige Servicenummern für diese Standorte können Sie mithilfe des **Skype for Business Admin Center** anfordern.
   
-Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer erhalten möchten, können Sie sehen, dass Sie [Service-Telefonnummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)erhalten. Wenn Sie bereits über eine gebührenpflichtige oder gebührenfreie Servicenummer verfügen, die Sie von einem anderen Anbieter übertragen möchten, finden Sie weitere Informationen unter [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer erhalten möchten, können Sie sehen, dass Sie [Service-Telefonnummern](/microsoftteams/getting-service-phone-numbers)erhalten. Wenn Sie bereits über eine gebührenpflichtige oder gebührenfreie Servicenummer verfügen, die Sie von einem anderen Anbieter übertragen möchten, finden Sie weitere Informationen unter [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 Mit der Dropdownliste oben auf der Seite können Sie nach einem Land oder einer Region suchen, um zu ermitteln, welche Dienste dort verfügbar sind.
 
@@ -198,7 +198,7 @@ Wenn Sie Guthaben für Kommunikationen nicht einrichten und Benutzern eine Lizen
 
 
 ## <a name="related-topics"></a>Verwandte Themen
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
   
  

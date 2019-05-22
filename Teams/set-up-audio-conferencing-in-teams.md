@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Hier erfahren Sie, wie Sie Einwahl-oder Audiokonferenzen für die Personen in Ihrem Unternehmen einrichten, die ein Telefon für die Teilnahme an Konferenzgesprächen verwenden müssen. '
-ms.openlocfilehash: 8702a41546eede73779247eb6816704e60225087
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 41a2d4288185d75bfed4d9882775ba054e2b3ccd
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305261"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34329732"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Einrichten von Audiokonferenzen für Microsoft Teams
 
@@ -63,7 +63,7 @@ Gehen Sie auf [Länder- und Regionenverfügbarkeit für Audiokonferenzen und Anr
 
 Für Audiokonferenzen können Sie keine Benutzertelefonnummern verwenden; Sie müssen Servicenummern anfordern. Sie können für Ihre Konferenzbrücken gebührenpflichtige oder gebührenfreie Servicenummern abrufen. Es gibt drei Möglichkeiten, gebührenpflichtige und gebührenfreie Servicenummern zu erhalten: 
   
-- **Verwenden Sie das Microsoft Teams Admin Center**. In einigen Ländern/Regionen können Sie mithilfe des Microsoft Teams Admin Center Servicenummern für Ihre Konferenz Brücken abrufen. Weitere Informationen finden Sie unter [Abrufen von Telefonnummern für Dienstleistungen](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+- **Verwenden Sie das Microsoft Teams Admin Center**. In einigen Ländern/Regionen können Sie mithilfe des Microsoft Teams Admin Center Servicenummern für Ihre Konferenz Brücken abrufen. Weitere Informationen finden Sie unter [Abrufen von Telefonnummern für Dienstleistungen](/microsoftteams/getting-service-phone-numbers).
     
 - **Portieren Sie Ihre vorhandenen Servicenummern**. Zum Portieren oder übertragen vorhandener Nummern von Ihrem aktuellen Dienstanbieter oder Telefonnetzbetreiber zu Office 365 Über [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md) oder [Rufnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) erhalten Sie weitere hilfreiche Informationen.  
   

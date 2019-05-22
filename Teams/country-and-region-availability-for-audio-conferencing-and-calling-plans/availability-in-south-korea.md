@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Südkorea verfügbar sind.
-ms.openlocfilehash: 9ada6bac533e200b253a57d162445712c144907b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d4eeda41564fef0be290b191be20a903fd2d9631
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282770"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34331228"
 ---
 # <a name="availability-in-south-korea"></a>Verfügbarkeit in Südkorea
 
@@ -43,7 +43,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 |**Funktion**|**Details**|
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für: <br/><ul><li> Seoul</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für: <br/><ul><li> Seoul</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Verfügbar  <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
@@ -71,7 +71,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
- Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+ Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
@@ -83,7 +83,7 @@ Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Gutha
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 860abd5c1e7e725d2f2bd8217edc0bb5ea92b734
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8356b9bcc504b885c4f2ce3f1f9b09905742aec5
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925434"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34332132"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Praktische Anleitungen für Audiokonferenzen in Microsoft Teams
 ============================================================
@@ -29,7 +29,7 @@ Mit der Funktion für Audiokonferenzen in Office 365 können Teilnehmer mit ein
 
 Das bekommen Sie mit [Audiokonferenzen](https://go.microsoft.com/fwlink/?linkid=858992) in Office 365.
 
-Diese Ihnen praktische Leitfäden führt Sie durch die Office 365 schnelle Kunden ein, Reise Framework und seine drei Phasen, Ermitteln übergeordneter Faktoren, integrierte, und Laufwerk Wert, mit denen Sie planen, bereitstellen und Verwenden von eine Audiokonferenz Implementierung in Richtung Erfolg eines Unternehmens Ergebnisse.
+Diese praktische Anleitung führt Sie durch das Office 365-Kundendienst-Reise-Framework und seine drei Phasen, enVision, Onboard und Drive-Wert, um Ihnen bei der Planung, Bereitstellung und beim Betrieb einer Audiokonferenz-Implementierung für erfolgreiches Unternehmen zu helfen. Ergebnisse.
 
 > [!TIP]
 > Sie erhalten hier Beispielergebnisse für die einzelnen Aktivitäten und die wichtigsten Diskussionspunkte. Die Beispiele in diesem Dokument, die Sie als wiederverwendbare Vorlagen nutzen können, finden Sie in den mit „Tipp“ beschrifteten Kästen. Der Hinweis „TBA“ (To Be Added, wird ergänzt) zeigt an, dass Sie hier Informationen als Teil Ihres Planungsprozesses eingeben müssen.
@@ -235,7 +235,7 @@ Sie müssen diesen Schritt abschließen und den operativen Plan als Teil des Erf
 <br>
 Technische Planung für Audiokonferenzen
 -----------------------------------------
-<a name="technical-planning-for-audio-conferencing"></a> Um die technischen Implementierung der Audiokonferenz planen, eine Reihe von Entscheidungen erfolgen muss vorausschauendes besser Vorbereiten Ihrer Organisation zum Implementieren einer Lösung, die geschäftlichen Anforderungen erfüllt. Diese Entscheidungen werden in einem Plan zur technischen Implementierung dokumentiert.
+<a name="technical-planning-for-audio-conferencing"></a> Um die technische Implementierung von Audiokonferenzen planen zu können, müssen eine Reihe von Entscheidungen im Voraus getroffen werden, um Ihre Organisation besser auf die Implementierung einer Lösung vorzubereiten, die den geschäftlichen Anforderungen entspricht. Diese Entscheidungen werden in einem Plan zur technischen Implementierung dokumentiert.
 
 ## <a name="availability-of-audio-conferencing"></a>Verfügbarkeit von Audiokonferenzen
 
@@ -324,10 +324,10 @@ Der Audiokonferenzdienst in Office 365 umfasst:
 -   Unterstützung für mehrere Sprachen für die Konferenzbrücke (primär oder sekundär)
 -   Eine Standardtelefonnummer für den Mandanten.
 
-Eine vollständige Beschreibung der Funktionen enthalten finden Sie unter [Einrichten von Audiokonferenzen für Microsoft-Teams](set-up-audio-conferencing-in-teams.md) und [Telefonnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing-in-teams.md).
+Eine vollständige Beschreibung der enthaltenen Funktionen finden Sie unter [Einrichten von Audiokonferenzen für Microsoft Teams](set-up-audio-conferencing-in-teams.md) und [Telefonnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing-in-teams.md).
 
 > [!NOTE]
-> Dedizierte Telefonnummern für Konferenzbrücken werden basierend auf der Anzahl der anwendbaren Lizenzen auf die Telefonnummern angerechnet, die pro Mandant angefordert werden können. Erläuterungen hierzu finden Sie unter [Erhalten von Servicenummern für Skype for Business und Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers). Für gebührenfreie Telefonnummern für Konferenzbrücken ist Kommunikationsguthaben erforderlich.
+> Dedizierte Telefonnummern für Konferenzbrücken werden basierend auf der Anzahl der anwendbaren Lizenzen auf die Telefonnummern angerechnet, die pro Mandant angefordert werden können. Erläuterungen hierzu finden Sie unter [Erhalten von Servicenummern für Skype for Business und Microsoft Teams](getting-service-phone-numbers.md). Für gebührenfreie Telefonnummern für Konferenzbrücken ist Kommunikationsguthaben erforderlich.
 
 Vorhandene Telefonnummern für Konferenzbrücken, die in den Audiokonferenzdienst übertragen werden müssen, und unter der Voraussetzung, dass diese die landespezifischen Anforderungen erfüllen, können nach Microsoft portiert werden.
 
@@ -376,7 +376,7 @@ Sie können auch konfigurieren, wie nicht authentifizierte Anrufer von jedem ein
 Zusätzliche für jeden Benutzer anwendbare Konfigurationen sind verfügbar, um die Verwendung von gebührenfreien Telefonnummern für Konferenzbrücken sowie das Anrufen aus einer Konferenz heraus zu steuern.
 
 > [!NOTE]
-> Diese mit Kosten verbundenen Steuerelemente sind derzeit nur für Preview-Kunden verfügbar. Sie können registrieren Sie Ihre Organisation in der Vorschau-Anwendung aus [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013).
+> Diese mit Kosten verbundenen Steuerelemente sind derzeit nur für Preview-Kunden verfügbar. Sie können Ihre Organisation im Vorschau Programm von [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013)registrieren.
 
 Mit diesen Steuerelementen können Sie entscheiden, ob Besprechungsorganisatoren gebührenfreie Telefonnummern für Konferenzbrücken für die von ihnen organisierten Besprechungen zur Verfügung stellen können, und ob sie steuern können, ob Teilnehmer Anrufe aus den von ihnen organisierten Besprechungen heraus tätigen können. Die Steuerungsebene rangiert hierbei vom Nichtzulassen von ausgehenden Anrufen, Zulassen von ausgehenden Anrufen an Inlandsnummern bis zum Zulassen von ausgehenden Anrufen an Inlands- und Auslandsnummern.
 
@@ -452,16 +452,16 @@ Normalisierungsregeln können maximal 25 Regeln in jedem Mandantenwählplan enth
 > 
 > |Name des Mandantenwählplans<br>_Beschreibung_  |Name der Normalisierungsregeln<br>_Beschreibung_  |Muster<br>Übersetzung<br>IsInternalExtension  |
 > |---------|---------|---------|
-> |**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, Wählplan für Australien_|**AU-NSW-NorthRyde-OER-Internal**<br>_Interne Nummer (x7000 - x7999) für One Epping Road-Niederlassung, North Ryde, NSW, Australien_|^(7\d{3})$<br>+6125550$1<br>Wahr|
+> |**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, Wählplan für Australien_|**AU-NSW-NorthRyde-OER-Internal**<br>_Interne Nummer (x7000 - x7999) für One Epping Road-Niederlassung, North Ryde, NSW, Australien_|^ (7 \ d{3}) $<br>+6125550$1<br>Wahr|
 > ||**AU-NSW-Local**<br>_Normalisierung für lokale Nummern für NSW, Australien_|^ ([2-9] \d{7}) $<br>+612$1<br>Falsch|
-> ||**AU-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Australien_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>Falsch|
+> ||**AU-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Australien_|^ (1 [38] \d{4,8}) \d * $<br>+61$1<br>Falsch|
 > ||**AU-Service**<br>_Normalisierung für Servicenummern für Australien_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>Falsch|
-> |**SG-Singapore-OMB**<br>_OMB Singapore, Wählplan für Singapur_|**SG-OMB-Internal**<br>_Interne Nummer (x8000 – x8999) für OMB-Niederlassung, Singapur_|^(8\d{3})$<br>+656888$1<br>Wahr|
-> ||**SG-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Singapur_|^(1?800\d{7}) \d*$<br>+65$1<br>Falsch|
-> ||**SG-Service**<br>_Normalisierung für Servicenummern für Singapur_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>Falsch|
-> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, Wählplan für Frankreich_|**FR-39qdPR-Internal**<br>_Interne Nummer (x7000 – x7999) für 39 quai du Président Roosevelt-Niederlassung, Issy-les-Moulineaux, Frankreich_|^(7\d{3})$<br>+3319999$1<br>Wahr|
-> ||**FR-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Frankreich_|^ 0?(80\d{7}) \d*$<br>+33$1<br>Falsch|
-> ||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>Falsch|
+> |**SG-Singapore-OMB**<br>_OMB Singapore, Wählplan für Singapur_|**SG-OMB-Internal**<br>_Interne Nummer (x8000 – x8999) für OMB-Niederlassung, Singapur_|^ (8 \ d{3}) $<br>+656888$1<br>Wahr|
+> ||**SG-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Singapur_|^ (1?800 \ d{7}) \d * $<br>+65$1<br>Falsch|
+> ||**SG-Service**<br>_Normalisierung für Servicenummern für Singapur_|^ (1 \ d{3,4}\|9 \ d{2}) $<br>$1<br>Falsch|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, Wählplan für Frankreich_|**FR-39qdPR-Internal**<br>_Interne Nummer (x7000 – x7999) für 39 quai du Président Roosevelt-Niederlassung, Issy-les-Moulineaux, Frankreich_|^ (7 \ d{3}) $<br>+3319999$1<br>Wahr|
+> ||**FR-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Frankreich_|^ 0? (80 \ d{7}) \d * $<br>+33$1<br>Falsch|
+> ||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^ (1 \ d{1,2}\|11 [68] \d{3}\|10 \ d{2}\|3 \ d{3}) $<br>$1<br>Falsch|
 
 <br>
 

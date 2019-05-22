@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Kenia verfügbar sind.
-ms.openlocfilehash: 39fc3b2669c9a09fa69570744ab265f22adfb896
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1944e23ed179b94d5ff74203b38f6a91b209d9c9
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288070"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34331660"
 ---
 # <a name="availability-in-kenya"></a>Verfügbarkeit in Kenia
 
@@ -71,7 +71,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nein  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
- Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+ Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
@@ -83,7 +83,7 @@ Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Gutha
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 2f9d7c6960eb70cff28a941903e0646197bc4c4e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 53a733bf7874c507416c4cc54820cbebb4fbc844
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306310"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34329540"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Einrichten der in Einladungen enthaltenen Telefonnummern in Skype for Business Online
 
@@ -74,7 +74,7 @@ Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organ
    - **Microsoft ist der Anbieter**: Verwenden Sie die standardmäßige **gebührenpflichtige Nummer** und die Standard **mäßige gebührenfreie** Nummernliste, um die Standardnummern für den Benutzer auszuwählen.
     
      > [!NOTE]
-     > Ihrer Konferenzbrücke muss mindestens eine gebührenfreie Nummer zugewiesen werden, bevor diese als gebührenfreie Standardnummer für einen Benutzer konfiguriert werden kann. Informationen zum Abrufen einer gebührenfreien Nummer finden Sie unter [Abrufen von Service-Telefonnummern für Skype for Business](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
+     > Ihrer Konferenzbrücke muss mindestens eine gebührenfreie Nummer zugewiesen werden, bevor diese als gebührenfreie Standardnummer für einen Benutzer konfiguriert werden kann. Informationen zum Abrufen einer gebührenfreien Nummer finden Sie unter [Abrufen von Service-Telefonnummern für Skype for Business](/microsoftteams/getting-service-phone-numbers). 
   
    - **Eine Drittpartei ist der Anbieter**: Verwenden Sie die Felder **gebührenpflichtige Nummer** und **gebührenfreie Nummer** , um die Nummern für den Benutzer einzugeben.
 

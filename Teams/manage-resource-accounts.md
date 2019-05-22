@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Informationen zum Verwalten von Ressourcenkonten in Microsoft Teams
-ms.openlocfilehash: d8f3e2893962524c09340ef80ccf13376733d4d4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f2c7b03f79a29b89c94266359f21571b1994e82a
+ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291508"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34334927"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
@@ -64,7 +64,7 @@ Zum Erstellen eines Ressourcenkontos, das eine Telefonnummer verwendet, müssen 
 
 1. Übertragen oder besorgen Sie sich eine gebührenpflichtige oder gebührenfreie Servicenummer. Die Nummer kann keinen anderen VoIP-Diensten oder Ressourcenkonten zugewiesen werden.
 
-   Bevor Sie einem Ressourcenkonto eine Telefonnummer zuweisen, müssen Sie Ihre vorhandenen gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder portieren. Nachdem Sie die gebührenpflichtigen oder gebührenfreien Service-Telefonnummern erhalten haben, werden Sie in den **Microsoft Teams Admin Center** > **sprach** > **Telefonnummern**angezeigt, und der angegebene **Nummerntyp** wird als " **Dienst gebührenfrei**" aufgeführt. Informationen zum Abrufen Ihrer Dienstnummern finden Sie unter [Abrufen von Dienst](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) Telefonnummern oder wenn Sie eine vorhandene Servicenummer übertragen möchten, finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
+   Bevor Sie einem Ressourcenkonto eine Telefonnummer zuweisen, müssen Sie Ihre vorhandenen gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder portieren. Nachdem Sie die gebührenpflichtigen oder gebührenfreien Service-Telefonnummern erhalten haben, werden Sie in den **Microsoft Teams Admin Center** > **sprach** > **Telefonnummern**angezeigt, und der angegebene **Nummerntyp** wird als " **Dienst gebührenfrei**" aufgeführt. Informationen zum Abrufen Ihrer Dienstnummern finden Sie unter [Abrufen von Dienst](getting-service-phone-numbers.md) Telefonnummern oder wenn Sie eine vorhandene Servicenummer übertragen möchten, finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
 
 2. Kaufen Sie eine Telefon System Lizenz und einen Anrufplan. Sieh:  
    - [Office 365 Enterprise E1- und E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
@@ -97,7 +97,7 @@ Wenden Sie als nächstes eine Lizenz auf das Ressourcenkonto im Office 365 Admin
 
 Verwenden Sie das folgende Cmdlet, um eine direkte Routingnummer zuzuweisen: 
 ``` Powershell
-Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber tel:+14250000000
+Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
 ```
 
 > [!IMPORTANT]
