@@ -140,7 +140,7 @@
 #### [E-Mails, die automatisch an Benutzer gesendet werden, wenn sich ihre Einstellungen ändern](emails-sent-to-users-when-their-settings-change-in-teams.md)
 #### [Aktivieren Sie oder deaktivieren Sie beim Senden von e-Mails aus, wenn Audio Konferenzen Einstellungen ändern](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Deaktivieren von gebührenfreien Telefonnummern für bestimmte Benutzer](disabling-toll-free-numbers-for-specific-teams-users.md)
-#### [Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe](outbound-calling-restriction-policies.md)
 #### [Anzeigen und Zurücksetzen einer Konferenzkennung, die einem Benutzer zugewiesen ist](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
 #### [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
 
@@ -285,7 +285,7 @@
 #### [Ändern der Standardsprache für Voicemail](change-the-default-language-for-greetings-and-emails.md)
 #### [Sprachen für Voicemail-Ansagen und -Nachrichten](languages-for-voicemail-greetings-and-messages.md)
 ### Anrufer-ID
-#### [Einsatzmöglichkeiten der Anrufer-ID in Ihrer Organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Einsatzmöglichkeiten der Anrufer-ID in Ihrer Organisation](how-can-caller-id-be-used-in-your-organization.md)
 #### [Festlegen der Anrufer-ID für einen Benutzer](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Automatische Telefonzentralen und Anrufwarteschleifen 
 #### [Was sind automatische Cloudtelefonzentralen?](what-are-phone-system-auto-attendants.md)
@@ -336,7 +336,7 @@
 ### [Abrufen von Telefonnummern für Ihre Benutzer](getting-phone-numbers-for-your-users.md)
 ### [Wie viele Telefonnummern können Sie bekommen?](how-many-phone-numbers-can-you-get.md)
 ### [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](assign-change-or-remove-a-phone-number-for-a-user.md)
-### [Abrufen von Diensttelefonnummern](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Abrufen von Diensttelefonnummern](getting-service-phone-numbers.md)
 ### [Übertragen von Telefonnummern an Office 365](transfer-phone-numbers-to-office-365.md)
 ### [Allgemeine Fragen zum Übertragen von Telefonnummern](transferring-phone-numbers-common-questions.md)
 

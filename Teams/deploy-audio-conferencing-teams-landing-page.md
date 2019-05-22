@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 596edc9aa9adf3a12bac9ec4553e27beec82f648
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cb2b26a1fc239e3b99f3e9c5530af679fb5e9533
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199209"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344593"
 ---
 # <a name="audio-conferencing-in-microsoft-teams"></a>Audiokonferenzen in Microsoft Teams
 
@@ -70,7 +70,7 @@ Weitere Informationen finden Sie unter [Audiokonferenzen in Office 365](audio-c
 
 |Frage|Aktion |
 |------------|-------|
-|Muss ich neue Konferenzbrückennummern hinzufügen?| Informationen zum Hinzufügen neuer Nummern finden Sie unter [Abrufen von Service-Telefonnummern](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
+|Muss ich neue Konferenzbrückennummern hinzufügen?| Informationen zum Hinzufügen neuer Nummern finden Sie unter [Abrufen von Service-Telefonnummern](/microsoftteams/getting-service-phone-numbers).|
 |Muss ich die Brückeneinstellungen ändern?|Informationen zum Ändern der Brückeneinstellungen finden Sie unter [Ändern der Einstellungen für eine Audiokonferenzbrücke](change-the-settings-for-an-audio-conferencing-bridge.md).|
 |Muss ich Nummern für den Gebrauch mit Audiokonferenzen übertragen?|Weitere Informationen zum Übertragen von Telefonnummern finden Sie unter [Übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).|
 |||
@@ -127,7 +127,7 @@ Als Administrator können Sie die Steuerelemente für ausgehende Anrufe verwende
 
 |Frage|Aktion |
 |------------|-------|
-| Soll ich den Typ der erlaubten ausgehenden Anrufe einschränken? | Informationen zum Einschränken ausgehender Anrufe finden Sie unter [Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
+| Soll ich den Typ der erlaubten ausgehenden Anrufe einschränken? | Informationen zum Einschränken ausgehender Anrufe finden Sie unter [Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe](outbound-calling-restriction-policies.md).|
 |||
 
 

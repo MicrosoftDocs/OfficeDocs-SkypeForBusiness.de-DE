@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: In diesem Artikel werden die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
-ms.openlocfilehash: 78fc934783c92909d50076eb0d4848ea919b205b
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 6033b627918c4e5159dadd1307aacf2056df3b1f
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329716"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344502"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Anforderungen für Microsoft Teams-Räume
 
@@ -109,8 +109,8 @@ Microsoft Teams-Räume können durch Zubehör je nach Audio-und Videoperipherie 
 
 - Bis zu zwei 1080p-Displays mit HDMI-Anschlüssen. HDMI-Kabel mit geeigneter Länge.
 
-    > [!NOTE]
-    > Ein Consumer-TV, der als eine Anzeige vorne im Raum verwendet wird, muss das Feature „Consumer Electronics Control (CEC)“ von HDMI unterstützen/aktivieren, sodass ein automatischer Wechsel zu einer aktiven Videoquelle aus dem Standbymodus möglich ist. Dieses Feature wird nicht auf allen TVs unterstützt. 
+> [!NOTE]
+> Ein Consumer-TV, der als eine Anzeige vorne im Raum verwendet wird, muss das Feature „Consumer Electronics Control (CEC)“ von HDMI unterstützen/aktivieren, sodass ein automatischer Wechsel zu einer aktiven Videoquelle aus dem Standbymodus möglich ist. Dieses Feature wird nicht auf allen TVs unterstützt. 
 
 > [!NOTE]
 > In Microsoft Teams-Räumen wird keine Tastatur verwendet. Falls erforderlich, sollte der Administrator die Bildschirmtastatur verwenden. Beim Imaging des Microsoft Teams rooms-Geräts wird eine USB-Tastatur oder-Maus benötigt. 

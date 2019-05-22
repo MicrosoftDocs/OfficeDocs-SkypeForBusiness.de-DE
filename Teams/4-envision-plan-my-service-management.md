@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 892cbf094c2c523d7eaa18b1d77a2fb864a3a9c0
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 5b6f96b2f3dd7993d6cb3d5b732e0796a215ebae
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400931"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344649"
 ---
 # <a name="plan-my-service-management"></a>Planen der Dienstverwaltung
 
@@ -115,8 +115,8 @@ Wir empfehlen dringend, den Qualitätspionier frühzeitig zu ernennen. Der ernan
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wer für den Cloud-VoIP-Betrieb in Ihrer Organisation verantwortlich ist.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Laden Sie das vollständige Handbuch zum Planen der Dienstverwaltung herunter.</li><li>Laden Sie das Handbuch für die Überprüfung der Erlebnisqualität herunter.</li><li>Lesen Sie das gesamte Betriebshandbuch.</li><li>Stellen Sie allen Mitgliedern der Betriebsteams sämtliche Handbücher zur Verfügung, damit sie diese lesen und sich mit den operativen Anforderungen vertraut machen können.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wer für den Cloud-VoIP-Betrieb in Ihrer Organisation verantwortlich ist.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Laden Sie das vollständige Handbuch zum Planen der Dienstverwaltung herunter.</li><li>Laden Sie das Handbuch für die Überprüfung der Erlebnisqualität herunter.</li><li>Lesen Sie das gesamte Betriebshandbuch.</li><li>Stellen Sie allen Mitgliedern der Betriebsteams sämtliche Handbücher zur Verfügung, damit sie diese lesen und sich mit den operativen Anforderungen vertraut machen können.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

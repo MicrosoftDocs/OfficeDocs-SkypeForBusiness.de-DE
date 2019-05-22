@@ -8,150 +8,150 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Erstellen Sie einen Plan für die Benutzerakzeptanz durch Ihre Ziele definieren, welche Annahme aussieht verstehen und Schulung und Support.
+description: Erstellen Sie einen Plan, um die Benutzerakzeptanz zu steigern, indem Sie Ihre Ziele definieren, verstehen, wie Akzeptanz aussieht, und Schulungen und Support bereitstellen.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 672e15c405f031144f3e8b393289e7166eb981f2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 614ea6276a0bbfb131d344ecfbcd57c70d198c8a
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915403"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344717"
 ---
 # <a name="prepare-my-users"></a>Vorbereiten der Benutzer
 
-Dieser Artikel bietet eine Übersicht über die Anforderungen für Ihre Benutzer für die Verwendung von Clouddiensten VoIP vorbereiten. Durch die ordnungsgemäße Vorbereitung Ihrer Benutzer, müssen Sie sicherstellen, dass Sie den größten Nutzen für Ihre Organisation liefern sind.
+In diesem Artikel finden Sie eine Übersicht über die Voraussetzungen für die Vorbereitung Ihrer Benutzer auf die Verwendung von Cloud-VoIP-Diensten. Wenn Sie Ihre Benutzer richtig vorbereiten, stellen Sie sicher, dass Sie für Ihre Organisation den größten Mehrwert liefern.
 
 <!--ENDOFSECTION-->
 
 ## <a name="preparing-for-user-adoption"></a>Vorbereiten der Benutzerakzeptanz
 
-Nachdem Sie Ihr Projektteam gesichert und der Umfang und die Ziele des Projekts definiert haben, wird im nächste Schritt Organisationseinheit sicherstellen und benutzervorbereitung, eine Aktivität ausführen gleichzeitig mit Ihrer technischen Readiness. Um aus Ihrer Bereitstellung nutzen möchten, müssen Benutzer tatsächlich verwenden und übernehmen. Aktivieren einfach eine Lösung wird nicht gewährleistet, dass Sie Ihre Ziele erreichen können. Darüber hinaus Benutzer verfügen über verschiedene Anwendungsfälle und verschiedener Learning Formatvorlagen, und sie auf neue Technologie mit verschiedenen Geschwindigkeit anpassen. Die gute Nachricht ist, dass Verwalten von Änderung alles ganz einfach ist, aber es eine Engagement im Zusammenhang dauert. Die nachstehend geführten Diskussionen dienen zum Verständnis der Benutzerbasis und die richtige Ebene der Bildungseinrichtungen zu vereinfachen und zu beschleunigen Benutzerakzeptanz vorbereiten.
+Nachdem Sie Ihr Projektteam gesichert und den Umfang und die Ziele Ihres Projekts definiert haben, besteht der nächste Schritt darin, die Organisations-und Benutzer Bereitschaft zu gewährleisten, eine Aktivität, die Sie parallel zu ihrer technischen Bereitschaft abschließen. Um den Wert aus der Bereitstellung zu realisieren, müssen Benutzer ihn tatsächlich verwenden und annehmen. Das einfache Aktivieren einer Lösung garantiert nicht, dass Sie Ihre Ziele erreichen. Darüber hinaus haben Benutzer unterschiedliche Anwendungsfälle und unterschiedliche Lernstile, die sich an neue Technologien mit unterschiedlichen Geschwindigkeiten anpassen. Die gute Nachricht ist, dass die Verwaltung von Änderungen nicht so kompliziert ist, aber eine gezielte Anstrengung unternimmt. Die folgenden geführten Diskussionen sollen Ihnen helfen, ihre Nutzerbasis zu verstehen und die richtige Bildungsstufe vorzubereiten, um die Benutzerakzeptanz zu vereinfachen und zu beschleunigen.
 
-Aktivitätsbesitzer: Annahme Change Manager als Lead, Projektmanager Lead, Executive Sponsor Schulung/Marketing/Support
+Aktivitätsbesitzer: Change Manager für Adoption als Lead, Projektleiter, Executive Sponsor, Marketing/Schulung/Support Manager
 
 > [!NOTE] 
-> Die unten stehenden Assessment Aktivitäten werden für jede Änderung Initiative in Ihrer Organisation. Beheben Sie einfach die Fragen basierend auf den Bereich Ihres Projekts. In der Erläuterung dieser Aktivitäten kann "neue Lösung" zum Aufrufen von Audio, Audiokonferenzen oder des Upgrades von Skype für Unternehmen, die Teams anwenden.
+> Die nachstehend aufgeführten Beurteilungsaktivitäten können an jede änderungsinitiative in Ihrer Organisation angepasst werden. Besprechen Sie die Fragen einfach anhand des Projektumfangs. In der Diskussion dieser Aktivitäten kann "neue Lösung" für Audioanrufe, Audiokonferenzen oder Ihr Upgrade von Skype for Business in Teams gelten.
 
 <!--ENDOFSECTION-->
 
-## <a name="create-your-vision-to-value-statement"></a>Erstellen Sie Ihre Vision-Wert-Anweisung
+## <a name="create-your-vision-to-value-statement"></a>Erstellen einer Vision-to-Value-Anweisung
 
-Durch Ihre Projektvision festlegen können Ihre der verantwortlichen Überblick angezeigt. Dies entspricht in der Regel von betriebswirtschaftlichen Faktoren&mdash;wie Kosten zu sparen, Effizienz und Produktivität&mdash;und die Ziele, die Sie zuvor in das Projekt festlegen ausgerichtet. Für einen Benutzer möglicherweise das gleiche Projekt angezeigt werden als verhinderten vertrauten Tools, Unterbrechung der Produktivität und mangelnde Mitgefühl Management. Nehmen Sie Zeit, selbst in Ihrer Benutzer Schuhe eingefügt, und übersetzen Sie Ihre Projektvision in eine Wert-Anweisung, die für diese anzusprechen wird. Verwenden Sie diese Anweisung Wert in Ihrer Kommunikation und Schulungsaktivitäten Benutzer Webinhalte finden Sie unter wie für diese Teams arbeiten können.
+Durch das Festlegen ihrer Projekt Vision können Ihre wichtigsten Stakeholder das Gesamtbild sehen. Dies entspricht in der Regel Unternehmens Treibern&mdash;wie Kosteneinsparungen, betrieblicher Effizienz und höherer&mdash;Produktivität und richtet sich an die Ziele, die Sie zuvor im Projekt gesetzt haben. Für einen Benutzer kann das gleiche Projekt als die Einnahme von vertrauten Tools, Produktivitäts Unterbrechungen und mangelndem Mitgefühl durch das Management angesehen werden. Nehmen Sie sich Zeit, um sich in die Schuhe Ihrer Benutzer zu setzen, und übersetzen Sie Ihre Projekt Vision in eine Value-Anweisung, die Ihnen gefallen wird. Verwenden Sie diese Value-Anweisung in ihren Kommunikations-und Schulungsaktivitäten, um Benutzern zu ermöglichen, zu sehen, wie Teams für Sie arbeiten können.
 
-In der folgenden Abbildung ist ein Beispiel einer Anweisung Vision-Wert für einen Kunden Aktualisieren von Skype für Unternehmen auf Teams.
+Die folgende Abbildung ist ein Beispiel für eine Vision-to-Value-Anweisung für Kunden, die von Skype for Business auf Teams aktualisieren.
 
-![Zweispaltige Tabelle mit Vision - warum wir dafür? (Organisationsebene) auf der linken und Wert - Was wird für mich? (auf Benutzerebene) auf der rechten Seite](media/prepare-my-users-new-image1.png "zweispaltige Tabelle mit Vision - Warum sind wir auf diese Weise? (Organisationsebene) auf der linken und Wert - Was wird für mich? (auf Benutzerebene) auf der rechten Seite")
+![Tabelle mit zwei Spalten mit Sicht und Wert] (media/prepare-my-users-new-image1.png "Zweispaltige Tabelle mit Vision – Warum tun wir das? (Organisationsebene) auf der linken Seite und Wert – Was ist das für mich? (Benutzerebene) auf der rechten Seite")
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Haben Sie den Vorteil und den Wert für die Benutzer auf eine Weise formuliert, die ihre erwerben-in für diese neue Lösung erhält?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Erstellen Sie Ihre Vision und den Wert-Anweisungen für Ihren aktuellen Projekt Bereich, stellt sicher, dass sie Ihre Ziele ausgerichtet.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Haben Sie die Vorteile und den Nutzen für Ihre Benutzer in einer Weise artikuliert, die das Buy-in für diese neue Lösung gewinnt?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Erstellen Sie Ihre Vision-und Wert-Statements für den aktuellen Projektumfang, um sicherzustellen, dass Sie sich an Ihre Ziele anpassen.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
-## <a name="determine-organizational-change-readiness"></a>Bestimmen der organisatorischen Bereitschaft
+## <a name="determine-organizational-change-readiness"></a>Ermitteln der Bereitschaft zur organisatorischen Änderung
 
-Bereitschaft der Organisation können Sie feststellen, wie primäre (oder nicht) Ihre Benutzer möglicherweise zum Ändern der deren Funktionsweise. Können wissen, wie Benutzer darauf reagieren können zum Ändern Ihrer Organisation proaktiv Probleme zu beheben, passen Sie Ihrem Bereitstellungsplan für eine optimale Empfang und Identifizieren von Benutzern, die den Champions oder Botschafterausschuss, um die Änderung zu vereinfachen verwendet werden können.
+Die organisatorische Bereitschaft hilft festzustellen, wie empfänglich (oder nicht) Ihre Benutzer sein können, ihre Arbeitsweise zu ändern. Wenn Sie wissen, wie Benutzer auf Veränderungen reagieren können, können Sie Ihre Organisation dazu veranlassen, Bedenken proaktiv zu behandeln, ihren Rollout-Plan für einen optimalen Empfang anzupassen und Benutzer zu identifizieren, die zu ihren Champions oder Ambassadoren werden, um die Änderung zu erleichtern.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Sind Benutzer bereit und bereit sind, zu der neuen Lösung ändern?</li><li>Verfügen die Benutzer die Möglichkeit oder Competency, um die Änderung zu erleichtern?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Verwenden Sie die folgenden Starter Unterhaltung, um die Kultur Ihrer Organisation zu verstehen, wenn es darum geht, ändern. Diese Informationen können dabei helfen, wie viel zur Förderung des Bekanntheitsgrads und Schulung Sie möglicherweise für Ihr Projekt implementieren zu informieren.
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Sind Benutzer bereit und bereit, zur neuen Lösung zu wechseln?</li><li>Haben Benutzer die Möglichkeit oder Kompetenz, die Änderung zu vereinfachen?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Verwenden Sie die folgenden Konversationsstarter, um die Kultur Ihrer Organisation zu verstehen, wenn es um Änderungen geht. Diese Informationen können Ihnen helfen, zu erfahren, wie viel Bekanntheit und Schulung Sie möglicherweise für Ihr Projekt implementieren müssen.
 </li></ul></td></tr>
 </table>
 
 > [!TIP]
-> Bewerten Sie, um die Diskussion zu helfen, eine vergangenen Einführung; Dies hilft Vorhersagen zu können, wie Benutzer zum Ändern und helfen Ihnen die Reaktionen proaktiv zu behandeln, die Sie erwarten reagieren können.
+> Um die Diskussion zu führen, evaluieren Sie einen früheren Rollout; Dies kann Ihnen dabei helfen, zu antizipieren, wie Benutzer auf Änderungen reagieren können, und Ihnen dabei helfen, die erwarteten Reaktionen proaktiv zu beheben.
 
-### <a name="what-percent-of-users-fall-into-each-bucket"></a>Wie viel Prozent der Benutzer in jedem Bucket fallen?
+### <a name="what-percent-of-users-fall-into-each-bucket"></a>Was für einen Prozentsatz von Benutzern fällt in die einzelnen Buckets?
 
-| **Typ des Benutzers**                                                             | **%** |
+| **Art des Benutzers**                                                             | **%** |
 |------------------------------------------------------------------------------|-------|
-| *Frühe Übernahmen* anfordern die Lösung, bevor es zur Verfügung steht.                  |       |
-| *Benutzer informiert* akzeptieren Sie die Lösung als dessen Wert veranschaulicht wird.    |       |
-| *Nachzügler* ablehnen die Lösung, selbst wenn in einer Änderung verschoben.                 |       |
+| *Frühe Anwender* fordern die Lösung an, bevor Sie verfügbar ist.                  |       |
+| *Informierte Benutzer* akzeptieren die Lösung, sobald ihr Wert nachgewiesen wird.    |       |
+| *Nachzügler* lehnen die Lösung ab, auch wenn Sie in die Änderung verschoben wurde.                 |       |
 
 
 > [!TIP]
-> Frühe Übernahmen sind gute Kandidaten für die Bereitstellung des Pilotprojekts und auch Champions Initiativen. Wenn Sie einen Großteil der Nachzügler verfügen, nehmen Sie Zeit Wert für diese Benutzer und Handholding helfen ihnen an Bord mit der Änderung messaging konzentrieren.
+> Frühe Anwender sind hervorragende Kandidaten für ihre Pilotbereitstellung und auch für Champions-Initiativen. Wenn Sie einen hohen Prozentsatz an Nachzügler haben, nehmen Sie sich Zeit, sich auf das Wert-Messaging für diese Benutzer zu konzentrieren, und halten Sie sich mit der Änderung an Bord.
 
-### <a name="what-percent-of-users-fall-into-each-competency"></a>Wie viel Prozent der Benutzer in jedem Competency fallen?
+### <a name="what-percent-of-users-fall-into-each-competency"></a>Welcher Prozentsatz der Benutzer fällt in jede Kompetenz?
 
-| **Typ von Teilnehmern**                                                        | **%** |
+| **Art des Lernenden**                                                        | **%** |
 |----------------------------------------------------------------------------|-------|
-| Teilnehmern *Self davon* seek Ressourcen, dadurch erfahren.                         |       |
-| *Team Spieler* genießen Sie die Gruppe und interaktiven Schulungen; Gehen sie zusammen mit Kollegen. |       |
-| *Handholding* Angreifer erwarten, dass "weißen Handschuh" oder Angebot einer direkten Unterstützung.                   |       |
+| *Selbst motivierte* Lernende suchen nach Ressourcen, lernen dabei.                         |       |
+| *Team Spieler* genießen Gruppen-und Interaktives Training; Sie gehen zusammen mit Kollegen. |       |
+| *Händchen* suchende erwarten "weißer Handschuh" oder Einzelhilfe.                   |       |
 
  
 > [!TIP]
-> Learning ist nicht Stange. Verstehen, wie die Benutzer am besten erfahren, können Sie ein robuste Schulungsprogramm beschleunigen ihre Learning erstellen. Wenn viele Benutzer unabhängig davon werden, Verknüpfen mit Videos und Benutzerhandbücher möglicherweise ausreichend. Benutzer, die spezielle Aufmerksamkeit benötigen, müssen Sie einige Angebot Zeitplan&mdash;oder Ihre Champions, mit denen die Benutzer über die Lernprozess eingetragen.
+> Lernen ist keine Einheitsgröße. Wenn Sie wissen, wie Ihre Benutzer am besten lernen, können Sie ein robustes Schulungsprogramm erstellen, um das Lernen zu beschleunigen. Wenn viele Benutzer selbst motiviert sind, kann das Verknüpfen mit Videos und Nutzerleitfäden genügen. Für diejenigen, die besondere Beachtung benötigen, sollten Sie einen einmaligen Termin planen&mdash;oder ihre Champions eintragen, um diese Benutzer über die Lernkurve zu unterstützen.
 
 <!--ENDOFSECTION-->
 
-## <a name="assess-your-user-base"></a>Bewerten Sie Ihre Benutzerbasis
+## <a name="assess-your-user-base"></a>Bewerten Ihrer Benutzerbasis
 
-Personen auf Dokumentebene Analyse gibt Ihnen Verständnis für Ihre Benutzer Rollen, Kohorten und Anwendungsfälle. Von Zeit zu verstehen, die Ihre Benutzer sind und ihre Funktionsweisen nehmen, können Sie sicherstellen, dass sie über das notwendige erfolgreich ist, wie Sie die Änderung zu implementieren. Dies kann gezielt bereitgestellten messaging, Schulungen oder sogar Geräten wie Headsets und Webcams enthalten. Beispielsweise erwarten Führungskraft Angebot Schulung, während Sie Reisen Feld Vertriebsmitarbeiter ein video sahen Belieben Trainings profitieren kann. Darüber hinaus kann Personen auf Dokumentebene Analyse identifizieren, die mithilfe der neuen Funktionalität heute im Vergleich zu die, die am besten durch das Warten bedient werden möglicherweise gestartet werden soll.
+Die Analyse auf Personenebene gibt Ihnen Verständnis für Ihre Benutzer Personen, Kohorten und Anwendungsfälle. Wenn Sie sich Zeit nehmen, um zu verstehen, wer Ihre Benutzer sind und wie Sie funktionieren, können Sie sicherstellen, dass Sie bei der Implementierung der Änderung über die erforderlichen Voraussetzungen verfügen. Dies kann gezieltes Messaging, Schulungen oder sogar Geräte wie Headsets und Webcams umfassen. So kann beispielsweise eine Führungskraft eine Einzelschulung erwarten, während die Mitarbeiter von Traveling Fields möglicherweise von einem Schulungsvideo profitieren, das Sie in ihrer Freizeit sehen können. Darüber hinaus kann Ihre Analyse auf Personenebene helfen zu erkennen, wer die neuen Funktionen heute verwenden soll, und wer am besten durch warten bedient werden kann.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Haben für bestimmte Benutzer oder Kohorten eine Abhängigkeit Core an dieser Lösung für ihre Arbeit effektiv zu tun?</li><li>Gibt es bestimmte Anwendungsfälle, die mithilfe dieser neuen Lösung vereinfacht werden können?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Ordnen Sie Benutzer Rollen. Segmentieren Sie zunächst Ihre Benutzerbasis in Persona/Kohorte Gruppen (Führungskräfte, Außendienst, Mitarbeiter für die Zusammenarbeit, Einzelhandel usw.). Verwaltbarkeit Liste nicht mehr als acht Gruppen. (Beispiel Unterhaltung Starter, finden Sie unten.) Verwenden Sie Ihre Ergebnisse aus, um weitere Entwerfen Ihrer Benutzer Bereitschaft Kampagnen und Pilotbenutzer, von denen segmentieren, die von einer Aktualisierung später profitieren kann.
-</li><li>Anwendungsfälle zuordnen. Nachdem Sie Benutzergruppen Core, die von dieser neuen Technologie profitieren identifiziert haben, sollten Sie allgemeine Benutzersegmente. Grundlegendes zu Cross-Team Anwendungsfälle und Szenarien können Sie Ihrer Organisation arbeiten mit dieser neuen Technologie darstellen. Darüber hinaus machen Hinzufügen von Groß-/Kleinschreibung verwendende-Beispiele, die Ihre Kommunikation und Schulungspläne wirklich sie relevant für Ihre Benutzer.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Haben bestimmte Benutzer oder Kohorten eine Kern Abhängigkeit von dieser Lösung, um Ihre Arbeit effektiv zu erledigen?</li><li>Gibt es spezielle Anwendungsfälle, die durch die Verwendung dieser neuen Lösung vereinfacht werden können?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Kartennutzer Personas. Segmentieren Sie zunächst Ihre Benutzerbasis in persona/Kohorte-Gruppen (Führungskräfte, straßenkrieger, Mitarbeiter für die Zusammenarbeit, Einzelhandel usw.). Führen Sie für die Verwaltbarkeit nicht mehr als acht Gruppen auf. (Beispiele für Konversationsstarter finden Sie weiter unten.) Verwenden Sie Ihre Ergebnisse, um Ihre Benutzer Bereitschafts Kampagnen weiter zu gestalten und Pilotbenutzer von denjenigen zu segmentieren, die später von einem Upgrade profitieren könnten.
+</li><li>Zuordnungs Anwendungsfälle Nachdem Sie Kern Benutzergruppen identifiziert haben, die von dieser neuen Technologie profitieren werden, sollten Sie die allgemeine Benutzerpopulation in Frage stellen. Wenn Sie teamübergreifende Anwendungsfälle und Szenarien verstehen, können Sie Ihre Organisation, die mit dieser neuen Technologie arbeitet, visualisieren. Darüber hinaus hilft Ihnen das Hinzufügen von Anwendungsfall Beispielen zu ihren Kommunikations-und Schulungsplänen wirklich, damit Sie für Ihre Benutzer relevant sind.</li></ul></td></tr>
 </table>
 
-Besprechen Sie für jede Gruppe Persona mit Ihrem Projektteam Folgendes:
+Besprechen Sie für jede Persona-Gruppe Folgendes mit Ihrem Projektteam:
 
--   Was sind Kerneigenschaften dieser Gruppe (d. h., was einem normalen "Tag im Leben" ist)?
+-   Was sind die Hauptmerkmale dieser Gruppe (was ist ein typischer "Tag im Leben")?
 
--   Wie werden diese Gruppe von der neuen Lösung profitieren? Welche Features und Funktionen müssen sie eine effektive werden?
+-   Wie wird diese Gruppe von der neuen Lösung profitieren? Welche Features und Funktionen werden für die effektive Funktion benötigt?
 
--   Welche Geräte werden (z. B., Headsets oder Lautsprecher) benötigt, und verfügen sie bereits über diese?
+-   Welche Geräte werden benötigt (zum Beispiel Headsets oder Lautsprecher), und haben Sie diese bereits?
 
--   Welche zusätzlichen Wert messaging ist gegebenenfalls erforderlich auf Wunsch in dieser Gruppe über die Verwendung der neuen Lösung erstellen?
+-   Welche zusätzlichen Wert Nachrichten sind erforderlich, um in dieser Gruppe den Wunsch zu erfüllen, die neue Lösung zu verwenden?
 
--   Was ist die beste Möglichkeit für diese Gruppe zu erhalten:
+-   Was ist die beste Methode, um diese Gruppe zu empfangen:
 
-    -   Förderung des Bekanntheitsgrads (beispielsweise e-Mails, Poster, Abteilungsleitern)?
+    -   Sensibilisierung (beispielsweise e-Mail, Plakate, Abteilungsleiter)?
 
-    -   Schulung (beispielsweise Schulungen, Benutzerhandbuch, weißen Handschuh)?
+    -   Schulung (beispielsweise Online Schulung, Nutzerleitfaden, weißer Handschuh)?
 
-    -   Support (Self bedienen, Helpdesk Champions)?  
+    -   Support (self-serve, Helpdesk, Champions)?  
 
--   Ist diese Gruppe gut für ein Pilotprojekt oder früh Firmenwerts Programm? Wenn dies der Fall ist, erstellen Sie einen Plan zum Abrufen von stützungskäufen von diese Benutzer zur Teilnahme an der Pilotphase. Weitere Informationen zum Implementieren eines erfolgreichen Pilotprogramms finden Sie unter [Pilot Teams zusammen mit Skype für Unternehmen](pilot-essentials.md).
+-   Ist diese Gruppe ein guter Kandidat für ein Pilot-oder Early Adopter-Programm? Wenn dies der Fall ist, erstellen Sie einen Plan für den Kauf von diesen Benutzern, um am Pilotprojekt teilzunehmen. Weitere Informationen zum Implementieren eines erfolgreichen Pilotprogramms finden Sie unter [Pilot Teams neben Skype for Business](pilot-essentials.md).
 
-In der folgenden Abbildung ist ein Beispiel für eine Rolle-Tabelle.
+Die folgende Abbildung zeigt ein Beispiel für eine persona-Tabelle.
 
-Angebot-Rollen mit allgemeinen Rollen und Kommunikation und Zusammenarbeit lösungsabhängigkeiten ![Tabelle. Die Rolle Executive wird mit Details zu dem Profil (Tag im Leben) und die Features hervorgehoben Geräte und Schulung muss ein Executive.] Angebot-Rollen mit allgemeinen Rollen und Kommunikation und Zusammenarbeit lösungsabhängigkeiten (media/prepare-my-users-image2.png "Tabelle. Die Rolle Executive wird mit Details zu dem Profil (Tag im Leben) und die Features hervorgehoben Geräte und Schulung muss ein Executive.")
+![Tabelle mit Personen mit ihren allgemeinen Rollen sowie Abhängigkeiten zwischen Kommunikations-und Zusammenarbeitslösungen. Die Exekutive Person ist mit Details zu dem Profil (Tag im Leben) und den Features, Geräten und Schulungen, die eine Führungskraft benötigt, hervorgehoben.] (media/prepare-my-users-image2.png "Tabelle mit Personen mit ihren allgemeinen Rollen sowie Abhängigkeiten zwischen Kommunikations-und Zusammenarbeitslösungen. Die Exekutive Person ist mit Details zu dem Profil (Tag im Leben) und den Features, Geräten und Schulungen, die eine Führungskraft benötigt, hervorgehoben.")
 
-Besprechen Sie für jeden Anwendungsfall mit Ihrem Projektteam Folgendes:
+Besprechen Sie für jeden Anwendungsfall Folgendes mit Ihrem Projektteam:
 
--   Was sind für dieses Verwendung Fall/Szenario Kerneigenschaften?
+-   Was sind die Hauptmerkmale für diesen Anwendungsfall/das Szenario?
 
--   Was ist eine gute Informationen über die aktuelle?
+-   Was ist gut an der aktuellen Lösung?
 
--   Welche Probleme, führen Sie gegebenenfalls Sie Ihre aktuelle Lösung mit der Vorderseite nach?
+-   Welche Herausforderungen stellen Sie mit Ihrer aktuellen Lösung, wenn überhaupt, vor?
 
--   Wie wird die neue Lösung die Benutzeroberfläche optimiert?
+-   Wie wird die neue Lösung die Benutzererfahrung optimieren?
 
-Beispiele für Anwendungsfälle finden Sie auf der [Der schnelle Produktivität Bibliothek](https://fasttrack.microsoft.com/microsoft365/productivitylibrary).
+Beispiele für Anwendungsfälle finden Sie in der [Bibliothek zur Produktivitätssteigerung](https://fasttrack.microsoft.com/microsoft365/productivitylibrary).
 
 <!--ENDOFSECTION-->
 
-## <a name="optimize-your-readiness-plan"></a>Optimieren Sie Ihre bereitschaftsplan
-Nachdem Sie verstehen, die Ihre Benutzer sind und wie diese tatsächlich in der neuen Lösung funktionieren, können Sie Ihre bereitschaftsplan entwerfen. Ihre Benutzer bereitschaftsplan beinhaltet, wie Sie kommunizieren, Schulen, und Ihre Benutzer unterstützen, als Sie Pilotprojekt integriert, und Betrieb der neue Lösung. Wie Sie in der vorherigen Schritte in diesem Artikel ermittelt haben, ist nicht Bereitschaft Stange. Beginnen Sie mit einer großer Reichweite zur Förderung des Bekanntheitsgrads und Schulungsplan, das Einbinden des Werts messaging Sie am Anfang dieses Prozesses definiert. Klicken Sie dann Ihren Messaging-, Schulungen, anpassen und support aus, um die Rollen oder Kohorten, die Sie definiert haben, je nach Bedarf. Ihr Plan personalisierte können Benutzer schneller beziehen sich auf die neue Lösung während der Vorführung, dass Sie ihren Anforderungen, die helfen verstehen, ihre Übergang zu erleichtern.
+## <a name="optimize-your-readiness-plan"></a>Optimieren des Bereitschaftsplans
+Nachdem Sie verstanden haben, wer Ihre Benutzer sind und wie Sie in der neuen Lösung funktionieren, können Sie Ihren Bereitschaftsplan entwerfen. Ihr Bereitschaftsplan für Benutzer umfasst die Art und Weise, wie Sie Ihre Benutzer bei der Vorführung, beim Einstieg und beim Betrieb der neuen Lösung kommunizieren, Schulen und unterstützen. Wie Sie in den vorherigen Schritten in diesem Artikel festgestellt haben, ist die Bereitschaft nicht 1:1-passend. Beginnen Sie mit einem breit gefächerten Sensibilisierungs-und Schulungsplan, in dem die zu Beginn dieses Prozesses definierten Wert Nachrichten integriert sind. Passen Sie dann nach Bedarf Ihre Nachrichten, Schulungen und Unterstützung an die von Ihnen festgelegten Personas oder Kohorten an. Ihr personalisierter Plan ermöglicht es Benutzern, sich schneller mit der neuen Lösung zu befassen, während Sie demonstrieren, dass Sie Ihre Anforderungen verstehen, was dazu beitragen wird, den Übergang zu erleichtern.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Welche bereitschaftsplan bieten Sie Hilfe zu vereinfachen und schnellere Umsetzung der neuen Lösung?</li><li>Verfügen Sie über die Rechte zur Förderung des Bekanntheitsgrads, Schulung und Support-Ressourcen, die die Möglichkeit für den Umgang mit ändern und die Benutzer Rollen, die Sie definiert haben ausgerichtet?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Verwenden Sie die Liste im folgenden Abschnitt, um Ideen für Ihr bereitschaftsplan zu generieren. Wählen Sie relevantesten diejenigen&mdash;oder eigene hinzufügen&mdash;zum Entwerfen einer bereitschaftsplan für Ihre Organisation optimiert.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Welchen Bereitschaftsplan können Sie anbieten, um die Einführung der neuen Lösung zu vereinfachen und zu beschleunigen?</li><li>Verfügen Sie über die richtigen Kenntnisse, Schulungen und Supportressourcen, die sich an der Fähigkeit Ihrer Benutzer orientieren, sich mit Änderungen und den von Ihnen definierten Benutzer Personen zu befassen?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Verwenden Sie die Liste im folgenden Abschnitt, um Ideen für Ihren Bereitschaftsplan zu generieren. Wählen Sie die relevantesten&mdash;aus, oder fügen&mdash;Sie eigene hinzu, um einen für Ihre Organisation optimierten Bereitschaftsplan zu entwerfen.</li></ul></td></tr>
 </table>
 
-### <a name="readiness-plan-ideas"></a>Bereitschaft Plan Ideen
+### <a name="readiness-plan-ideas"></a>Ideen zum Bereitschaftsplan
 
 <table>
 <tr><th>Kommunikation</th><th>Schulung</th><th>Support</th></tr>
-<tr><td><ul><li>E-Mail-&mdash;personalisieren unsere <a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">VoIP e-Mail-Vorlagen</a></li><li>Poster und digitaler Signatur </li><li>Starten Sie Ereignisse</li><li>Abteilungsleitern</li><li>Pioniere</li><li>Teams und Kanäle</li><li>Gamification</li></ul></td><td><ul><li>Artikel und Videos von Microsoft:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Umstieg von Skype for Business auf Teams</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">Video Schulung von Teams</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">Besprechungen und Anrufe</a></li></li></ul><li>Interne Unterstützung (Hilfe)</li><li>Schulung von internen Teams</li><li>Schulung des Partner-Teams</li></ul></td><td><ul><li>Internen helpdesk</li><li>Ausgelagertes Helpdesk</li><li>Selbsthilfe (Intranetwebsite)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">Online-Hilfe und-Vorgehensweisen</a></li><li>Floor-Walkers und champions</li><li>Feedbackschleife&mdash;finden Sie unter dem <a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">Beispiel Benutzer Feedback Umfragen</a></li></td></tr>
+<tr><td><ul><li>E&mdash;-Mail-Personalisierung unserer <a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">Voice-e-Mail-Vorlagen</a></li><li>Plakate und Digital Beschilderung </li><li>Starten von Ereignissen</li><li>Abteilungsleiter</li><li>Pioniere</li><li>Teams und Kanäle</li><li>Gamification</li></ul></td><td><ul><li>Artikel und Videos von Microsoft:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Umstieg von Skype for Business auf Teams</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">Videoschulung für Teams</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">Besprechungen und Anrufe</a></li></li></ul><li>In-House-Unterstützung (Hilfe)</li><li>Internes Schulungsteam</li><li>Partner Schulungsteam</li></ul></td><td><ul><li>In-House-Helpdesk</li><li>Outsourcing-Support-Desk</li><li>Self-Help (Intranet-Website)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">Online Hilfe und Anleitungen</a></li><li>Boden Wanderer und Champions</li><li>Rückkopplungsschleife&mdash;lesen Sie die <a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">Beispiele für Benutzer Feedback-Umfragen</a> .</li></td></tr>
 </table>

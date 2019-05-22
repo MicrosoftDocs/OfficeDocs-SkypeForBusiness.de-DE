@@ -8,37 +8,37 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Führen Sie regelmäßige Verkaufschancen Sie Verbesserung des Diensts Teams, Überwachen der Übersicht über die Teams für interessante Feature verbessert.
+description: Überprüfen Sie regelmäßig die Möglichkeiten zur Verbesserung des Teams-Diensts, und überwachen Sie die Roadmap für Teams auf interessante Funktionsverbesserungen.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fbc287254503c9c38f6a13bc77d747d91566b8d6
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: d5a912556d5a88583d0ee7e2a4331be5f259a517
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400836"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344837"
 ---
 # <a name="enhance-my-service"></a>Verbessern des Diensts
 
-Dieser Artikel bietet eine Übersicht über die Anforderungen für die optimale Nutzung Cloud VoIP-Dienste für Ihre Organisation. Durch die ständig Überwachung Cloud-Dienst Sprachfunktionen, können Sie sein sicher, dass Sie den größten Nutzen für Ihre Organisation liefern sind.
+In diesem Artikel finden Sie eine Übersicht über die Anforderungen, wie Sie die Cloud-VoIP-Dienste für Ihre Organisation optimal nutzen können. Indem Sie die Cloud-Sprachdienst Funktionen kontinuierlich überwachen, können Sie sicherstellen, dass Sie für Ihr Unternehmen den größten Mehrwert liefern.
 
-## <a name="enhance-my-service-overview"></a>Verbessern Sie meine Service (Übersicht)
-Nachdem Sie erfolgreich Audiokonferenzen oder Telefonsystem mit Diensten aufrufen Pläne für Ihre Organisation bereitgestellt haben und den Betrieb von sind des Diensts mit Qualität, Zuverlässigkeit und im nächsten Schritt besteht darin, regelmäßig bewerten, ob Sie alle Verkaufschancen zu haben Verbessern Sie Ihre Dienste. Dies ist ein Teil der Planung, d. h. eines modernen Standards für das Cloud-Service-Management zur Verbesserung der kontinuierlichen Service. 
+## <a name="enhance-my-service-overview"></a>Übersicht zur Verbesserung meines Diensts
+Nachdem Sie die Audiokonferenz oder das Telefon System mit Anruf Plan Diensten für Ihre Organisation erfolgreich bereitgestellt und den Dienst mit Qualität und Zuverlässigkeit betrieben haben, besteht der nächste Schritt darin, regelmäßig zu evaluieren, ob Sie Möglichkeiten zum verbessern Sie Ihre Dienste. Dies ist ein Teil der kontinuierlichen Dienst Optimierungsplanung, die einen modernen Standard für die Verwaltung von Cloud-Diensten darstellt. 
 
-Eine hervorragende Möglichkeit zum sicherstellen, dass Sie immer die für die optimale Nutzung Ihrer Dienste erhalten wird zum Überwachen der [öffentlichen Roadmaps Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) zur Verbesserung der neuen Features, die für Ihre Organisation von Interesse sein können. Wenn Sie Zugriff auf die Office 365-Verwaltungsportal haben erhalten bereitstellen regelmäßiger Updates Sie von uns über neue und geänderte Features über unsere Nachrichtencenter. 
+Eine großartige Möglichkeit, um sicherzustellen, dass Sie Ihre Dienste immer optimal nutzen, besteht darin, die [öffentlichen Roadmaps von Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) für neue Funktionsverbesserungen zu überwachen, die für Ihre Organisation von Interesse sein könnten. Wenn Sie Zugriff auf das Office 365-Administratorportal haben, erhalten Sie regelmäßige Updates von uns über neue und sich verändernde Funktionen über unser Nachrichten Center. 
 
-Darüber hinaus, da Organisationen wachsen und ändern, sollten Sie dauern Laufe und aktualisieren Ihre geschäftliche Anwendungsbeispiele in regelmäßigen Abständen, um sicherzustellen, dass der Dienst für die aktuelle Anforderungen Ihrer Organisation konfiguriert ist.  Stellen Sie sicher, dass Sie in der Praxis Feedback von Ihren Benutzern und internen Champions erhalten von Feedback Kanäle in Ihrer Organisation herstellen. Diese können werden informelle Unterhaltungen, regelmäßige Besprechungen oder durch eine Teams channel oder Yammer Community. 
+Darüber hinaus sollten Sie sich Zeit nehmen, um Ihre geschäftlichen Anwendungsfälle in regelmäßigen Abständen erneut zu überprüfen und zu aktualisieren, um sicherzustellen, dass der Dienst so konfiguriert ist, dass er den aktuellen Anforderungen Ihrer Organisation entspricht.  Stellen Sie sicher, dass Sie von Ihren Benutzern und internen Champions ein echtes Feedback erhalten, indem Sie Feedbackkanäle in Ihrer Organisation einrichten. Hierbei kann es sich um informelle Unterhaltungen, reguläre Besprechungen oder einen Teams-Kanal oder eine Jammer-Community handeln. 
 
-Wenn Sie Möglichkeiten zur Verbesserung von Ihrem Diensts angezeigt wird, nehmen Sie die Zeit Recht dafür. Laufe [Chat bereitstellen, Teams, Kanäle und apps im Microsoft-Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) und den gleichen Leitfäden Ende zum anwenden. Wenn die kleine, inkrementelle Änderungen vornehmen, ist es unwahrscheinlich, dass Sie alle Aktivitäten und Aufgaben vollständig abschließen müssen, aber Sie sicher, dass für jede Aktivität und jede Aufgabe entlang die Möglichkeit, sich selbst die Chancen auf ein erfolgreiches Ergebnis erteilen ausgewertet werden soll.
+Wenn Sie Möglichkeiten zur Verbesserung Ihres Diensts sehen, nehmen Sie sich die Zeit, es richtig zu machen. Übernehmen Sie die [Bereitstellung von Chat, Teams, Kanälen und apps in Microsoft Teams erneut](deploy-chat-teams-channels-microsoft-teams-landing-page.md) , und wenden Sie die gleichen Anleitungen auf End-to-End an. Wenn Sie kleine, inkrementelle Änderungen vornehmen, ist es unwahrscheinlich, dass Sie alle Aktivitäten und Aufgaben vollständig durchführen müssen, doch sollten Sie sicherstellen, dass Sie die einzelnen Aktivitäten und Aufgaben auf dem Weg auswerten, um sich die beste Chance zu einem erfolgreichen Ergebnis zu verschaffen.
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, die überwacht werden sollen, öffentliche Roadmaps und anderen Dienst Ankündigungen für neue Features und Dienste, denen von Ihrer Organisation profitieren kann.</li><li>Treffen einer Entscheidung bezüglich der Trittfrequenz, in denen diese neuen Features oder Dienstleistungen Unwichtigstes zurück, die der Verantwortlichen, über Ihre Lenkungsausschuss.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Implementieren Sie eine Strategie für die Kontaktpflege Stand mit Ihren Diensten, um den größten Nutzen für Ihre Organisation abzurufen.</li><li>Laufwerk Service Weiterentwicklungen über eine vollständige Projektlebenszyklus um sicherzustellen, dass Sie ordnungsgemäß für die Auswirkung berücksichtigt haben, den sie für Ihre Bereitstellung haben.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wer öffentliche Roadmaps und andere Dienstankündigungen für neue Features oder Dienste überwachen soll, von denen Ihre Organisation profitieren könnte.</li><li>Entscheiden Sie sich für die Kadenz, mit der Sie diese neuen Features oder Dienste über Ihr Lenkungskomitee an die wichtigsten Stakeholder zurückmelden können.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Implementieren Sie eine Strategie, um mit Ihren Diensten auf dem neuesten Stand zu bleiben, um den größten Nutzen für Ihre Organisation zu erzielen.</li><li>Führen Sie Dienstverbesserungen über einen vollständigen Projektlebenszyklus aus, um sicherzustellen, dass Sie die Auswirkungen auf Ihre Bereitstellung richtig berücksichtigt haben.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

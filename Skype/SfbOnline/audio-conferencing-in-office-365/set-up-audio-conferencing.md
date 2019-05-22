@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Hier erfahren Sie, wie Sie Einwahl-oder Audiokonferenzen für die Personen in Ihrem Unternehmen einrichten, die ein Telefon für die Teilnahme an Konferenzgesprächen verwenden müssen. '
-ms.openlocfilehash: fd259553794f0ed56d5e3a59752017b50478a97c
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 37bdc3208934d6ef9a7d97b896988b705735c869
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329560"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34343838"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Einrichten von Audiokonferenzen für Skype for Business
 
@@ -87,7 +87,7 @@ Weitere Informationen finden Sie unter [Ändern der Telefonnummern Ihrer Audioko
 
 Als nächstes möchten Sie die [Sprachen der automatischen Telefonzentrale für Audiokonferenzen fest legen](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) , die von der automatischen Telefonzentrale für Konferenzen verwendet werden, um Anrufer zu grüßen, wenn Sie sich bei einer Telefonnummer für Audiokonferenzen einwählen. 
 
-![Teams-Logo-30x30. png](../images/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center**:
+![Ein Symbol, das das Microsoft Teams](../images/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center**zeigt:
 
 1. Wechseln Sie im Dashboard zu **Besprechungen** > **Konferenz Brücken**.
 2. Wählen Sie die Telefonnummer der Konferenzbrücke aus, klicken Sie auf **Bearbeiten**, und wählen Sie dann die Standardsprache aus.
@@ -103,7 +103,7 @@ Als nächstes möchten Sie die [Sprachen der automatischen Telefonzentrale für 
     
 Nachdem Sie Ihre Konferenzbrücke eingerichtet haben, vergewissern Sie sich, dass die Standardeinstellungen, wie z. B. Ein-/Ausgangsbenachrichtigungen und PIN-Länge, die sind, die Sie verwenden möchten; wenn nicht, können Sie sie ändern. 
 
-![Teams-Logo-30x30. png](../images/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center**:
+![Ein Symbol, das das Microsoft Teams](../images/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center**zeigt:
 
 1. Wechseln Sie im Dashboard zu **Besprechungen** > **Konferenz Brücken**.
 2. Wählen Sie **Brücken Einstellungen**aus. Der **Brücke**-Einstellungsbereich wird geöffnet. 
@@ -123,7 +123,7 @@ Nachdem Sie eine Audiokonferenzbrücke erstellt haben, müssen Sie die gebühren
 
 Sie müssen dies für alle Personen in Ihrer Organisation tun, die Besprechungen leiten oder planen. 
 
-![Teams-Logo-30x30. png](../images/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center**:
+![Ein Symbol, das das Microsoft Teams](../images/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center**zeigt:
 
 1. Klicken Sie im Dashboard auf **Benutzer**, wählen Sie den Benutzer in der Liste aus, und wählen Sie **Bearbeiten**aus.
 2. Wählen Sie neben **Audio-Conferencing**die Option **Bearbeiten** aus, und wählen Sie dann im Bereich Audiokonferenz eine Nummer in den Listen **gebührenpflichtige** Nummer und **gebührenfreie** Nummern aus. ****

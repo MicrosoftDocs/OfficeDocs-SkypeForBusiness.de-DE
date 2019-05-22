@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: Zusätzlich zur Standard Lizenz für Audiokonferenzen pro Benutzer können Organisationen, die Microsoft-Volumenlizenzierung verwenden, auch ein Pay-per-Minute-Angebot auswählen, um Audiokonferenzfunktionen für ihre Organisationen zu ermöglichen.
-ms.openlocfilehash: 90f547eacabfc3dbe38244f82ca5f9c8262ea7ca
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7be5acfcb6dc86179c29c983c9764569232e1d97
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283532"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344709"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audiokonferenz mit Minutenabrechnung
 
@@ -61,7 +61,7 @@ Informationen zum Aktivieren von Pay-per-Minute für Audiokonferenzen für Benut
 
 - Die Abrechnung pro Minute wird für jeden eingehenden oder ausgehenden Anruf, der von jedem Teilnehmer während einer geplanten Besprechung abgerechnet wird (Gebühren variieren für gebührenpflichtige oder gebührenfreie Anrufe und nach Ziel) statt der Nutzung von Skype for Business-oder Teams-Anwendungen in einem Mobiltelefon, pro Minute berechnet. Gerät oder PC.
 
-- Möglichkeit zum Verwalten von Kosten, da Administratoren steuern können, um die Typen von Auswahlen (International und Domestic) zu beschränken, die in den Besprechungen eines Organisators ausgeführt werden können. Weitere Informationen finden Sie unter [Richtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies) .
+- Möglichkeit zum Verwalten von Kosten, da Administratoren steuern können, um die Typen von Auswahlen (International und Domestic) zu beschränken, die in den Besprechungen eines Organisators ausgeführt werden können. Weitere Informationen finden Sie unter [Richtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe](/microsoftteams/outbound-calling-restriction-policies) .
 
 - Wenn Sie Lizenzen für Audiokonferenz mit Minutenabrechnung haben, müssen Sie nicht jedem Benutzer für die Nutzung der Audiokonferenz separate Lizenzen für Guthaben für Kommunikationen zuweisen (Sie müssen diese möglicherweise noch für andere Dienste zuweisen).
 

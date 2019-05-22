@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55ed1396cd9c16b96e7d230429ccf25c1802473e
-ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
+ms.openlocfilehash: 52b398a9e70d650ad2afd70c60250076f1ab9fc2
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2019
-ms.locfileid: "34298663"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344194"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Festlegen Ihrer Einstellungen für Koexistenz und Upgrades
 
@@ -37,7 +37,7 @@ Sie können ein besseres Verständnis der Arten von Modi erhalten, die Ihnen zur
 
 ## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>Festlegen von Aktualisierungsoptionen für alle Benutzer in Ihrer Organisation
 
-![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center**
+![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
 
 1. Wechseln Sie in der linken Navigationsleiste zu **organisationsweiten Einstellungen** > **Teams Upgrade**. 
 
@@ -55,7 +55,7 @@ Sie können ein besseres Verständnis der Arten von Modi erhalten, die Ihnen zur
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>Festlegen von Aktualisierungsoptionen für einen einzelnen Benutzer in Ihrer Organisation
 
-![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center**
+![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
 
 1. Wechseln Sie in der linken Navigationsleiste zu **Benutzer**, und wählen Sie den Benutzer in der Liste aus. 
 2. Klicken Sie auf der Registerkarte **Konto** für den Benutzer unter **Teams-Upgrade**auf **Bearbeiten**.

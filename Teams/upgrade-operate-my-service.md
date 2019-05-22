@@ -1,12 +1,12 @@
 ---
-title: Vorgänge für Microsoft-Teams | Service-Management | Qualität
+title: Vorgänge für Microsoft Teams | Dienstverwaltung | Qualität
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Aufgaben und Aktivitäten erforderlich für Teams Servicemanagement, einschließlich Dienststatus, monitoring und bewerten und sicherstellen, dass Netzwerkqualität und Verwendungsanalyse
+description: Aufgaben und Aktivitäten, die für das Service Management von Teams erforderlich sind, einschließlich Überwachung des Dienststatus und bewerten und sicherstellen der Netzwerkqualität und-Nutzung
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,73 +15,73 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b9c596636d3d3a70c2f5865d772208f01b79f2b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b49d3c1f602da63a7a29010193d66ae09b4feb45
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920403"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344444"
 ---
-![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse] (media/upgrade-banner-op-excellence.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase erstklassige Betriebsprozesse")
+![Etappen des Upgrade-Vorgangs mit dem Schwerpunkt auf der Stufe "Operational Excellence"] (media/upgrade-banner-op-excellence.png "Etappen des Upgrade-Vorgangs mit dem Schwerpunkt auf der Stufe \"Operational Excellence\"")
 
-Dieser Artikel ist Teil der erstklassige Betriebsprozesse Stufe des Ihre Upgrade Reise, wodurch gestartet wird, sobald Sie die Aktualisierung von Skype für Unternehmen auf Teams abgeschlossen haben.
+Dieser Artikel ist Teil des "Operational Excellence"-Schritts Ihres Upgrade-Vorgangs, der beginnt, sobald Sie das Upgrade von Skype for Business auf Teams abgeschlossen haben.
 
 # <a name="operate-your-service"></a>Betreiben des Diensts
 
-Dieser Artikel bietet eine Übersicht über die Anforderungen für Teams für Ihre Organisation erfolgreich ausgeführt, nachdem Sie aktualisiert haben. Ihre Teams Dienste ordnungsgemäß funktioniert, können Sie sein sicher, dass Sie eine hohe Qualität und zuverlässige Erfahrung für Ihre Organisation zur Verfügung stellen.
+Dieser Artikel enthält eine Übersicht über die Anforderungen für das erfolgreiche Arbeiten mit Teams für Ihre Organisation, nachdem Sie das Upgrade durchgeführt haben. Durch die ordnungsgemäße Bedienung Ihrer Teams-Dienste können Sie sicherstellen, dass Sie eine qualitativ hochwertige und zuverlässige Benutzeroberfläche für Ihre Organisation bereitstellen.
 
 ## <a name="introduction-to-the-operations-guide"></a>Einführung in das Betriebshandbuch
 
-Im Betriebshandbuch enthält eine Übersicht aller Aufgaben und Aktivitäten, die als Teil der Service-Management-Funktion für Microsoft-Teams, erforderlich.
+Im Betriebshandbuch erhalten Sie einen Überblick über alle Aufgaben und Aktivitäten, die im Rahmen der Dienstverwaltungsfunktion für Microsoft Teams erforderlich sind.
 
 Die Dienstverwaltung ist ein umfangreiches Thema, das den täglichen Betrieb des Microsoft Teams-Diensts nach der Bereitstellung und der Aktivierung für die Benutzer abdeckt. Der Teams-Dienst umfasst Microsoft Office 365 und die lokal bereitgestellten Infrastrukturkomponenten (zum Beispiel das Netzwerk).
 
-Die Dienstverwaltung ist für die meisten Organisationen höchstwahrscheinlich kein neuer Begriff. Sie möglicherweise bereits implementiert haben, Prozesse und Aufgaben, bei die vorhandene Dienste zugeordnet sind. Dies bedeutet, dass Sie Ihre aktuellen Prozesse beim Service-Management heute planen zur Unterstützung von Teams in Zukunft wahrscheinlich erweitern können.
+Die Dienstverwaltung ist für die meisten Organisationen höchstwahrscheinlich kein neuer Begriff. Möglicherweise haben Sie bereits Prozesse und Aufgaben implementiert, die vorhandenen Diensten zugeordnet sind. Allerdings können Sie Ihre derzeitigen Prozesse wahrscheinlich erweitern, wenn Sie planen, dass das Service-Management heute Teams in Zukunft unterstützt.
 
-Service-Management umfasst alle Aktivitäten und Prozessen beteiligt Teams Ende zum Verwalten. Wie bereits erwähnt einige Komponenten von Service-Management – die Infrastruktur, die der Office 365-Dienst selbst umfasst – Microsofts Verantwortung sind, während Sie mit dem Kunden verantwortlich für die Benutzer zum Verwalten der verschiedenen Aspekte der Teams, die im Netzwerk sind , und Endpunkte, die Sie bereitstellen.
+Das Dienstleistungsmanagement umfasst alle Aktivitäten und Prozesse, die in der End-to-End-Verwaltung von Teams beteiligt sind. Wie bereits erwähnt, sind einige Komponenten des Dienst Managements – die Infrastruktur, die der Office 365-Dienst selbst umfasst – die Verantwortung von Microsoft, während Sie als Kunde für Ihre Benutzer verantwortlich sind, um die verschiedenen Aspekte von Teams, dem Netzwerk zu verwalten. und die von Ihnen bereitgestellten Endpunkte.
 
-Die Aufgaben und Aktivitäten in diesem Handbuch sind in acht Kategorien unterteilt, wie in der folgenden Abbildung dargestellt. Jede dieser Kategorien werden in den folgenden Abschnitten erweitert werden.
+Die Aufgaben und Aktivitäten in diesem Leitfaden sind in acht Kategorien unterteilt, wie in der folgenden Abbildung dargestellt. Jede dieser Kategorien wird in den folgenden Abschnitten erweitert.
 
-![Ein Diagramm, in dem eine Liste der Kategorien von Aufgaben und Aktivitäten, die Service-Management für Teams umfasst. Die Abbildung zeigt auch, dass Service-Management zum großen Teil eines Vorgangs Kunden ist.] (media/operate-my-service-image1.png "Ein Diagramm, in dem eine Liste der Kategorien von Aufgaben und Aktivitäten, die Service-Management für Teams umfasst. Die Abbildung zeigt auch, dass Service-Management zum großen Teil eines Vorgangs Kunden ist.")
+![Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt, die von Service Management für Teams umfasst werden.] (media/operate-my-service-image1.png "Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt, die von Service Management für Teams umfasst werden. Das Diagramm zeigt auch, dass die Dienstverwaltung größtenteils eine Kundenaufgabe ist.")
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wie die Vorgänge für Teams implementiert werden.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Überprüfen Sie im Betriebshandbuch vollständig.</li><li>Implementieren Sie eine Strategie für die Vorgänge, die Ziele Ihrer Organisation, um die Qualität und Zuverlässigkeit von Teams Arbeitslasten bereitzustellen ausgerichtet.</li><li>Überprüfen Sie im Handbuch für die Qualität der Erfahrung überprüfen.</li><li> Implementieren Sie eine Strategie Vorgänge für die Qualität der Erfahrung Bewertungen um sicherzustellen, dass Ihre Bereitstellung Teams auf seine Funktionen Spitzenzeiten betrieben wird regelmäßig ausführen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wie Vorgänge für Teams implementiert werden.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Überprüfen Sie den Betriebsleitfaden vollständig.</li><li>Implementieren Sie eine Betriebsstrategie, die mit den Zielen Ihrer Organisation übereinstimmt, um die Qualität und Zuverlässigkeit der Arbeitslasten von Teams zu gewährleisten.</li><li>Lesen Sie den Leitfaden zur Überprüfung der Qualität der Benutzerfreundlichkeit.</li><li> Implementieren Sie eine Betriebsstrategie, um regelmäßig Bewertungen der Qualität von Erfahrungen durchzuführen, um sicherzustellen, dass Ihre Teams-Bereitstellung mit ihren Höchstleistungen funktioniert.</li></ul></td></tr>
 </table>
 
 ### <a name="operational-role-mapping"></a>Zuordnung der operativen Rollen
 
-Die Planung, den, die Sie für Vorgänge während der Phase der Ermitteln übergeordneter Faktoren hat, ist entscheidend, da Operations Aktivitäten beginnen, wenn die erste Pilotbenutzer aktiviert sind. In diesem Handbuch werden die Aktivitäten und Aufgaben, die für einzelne täglich, wöchentlich, monatlich oder bei Bedarf Verwaltung eine qualitativ hochwertige Teams Bereitstellung ausgeführt werden müssen. Dieses Handbuch enthält Knowledge und Richtlinien zum diese wichtige Aktivitäten und Aufgaben ausführen.
+Die Planung, die Sie für Vorgänge während der enVision-Phase durchgeführt haben, ist wichtig, da die Vorgangs Aktivitäten beginnen, wenn die ersten Pilotbenutzer aktiviert sind. In diesem Leitfaden sind die Aktivitäten und Aufgaben aufgelistet, die täglich, wöchentlich, monatlich oder bedarfsorientiert ausgeführt werden müssen, um eine hochwertige Teams-Bereitstellung zu gewährleisten. Dieser Leitfaden enthält Kenntnisse und Anleitungen für die Durchführung dieser wichtigen Aktivitäten und Aufgaben.
 
-Eine wichtige Komponente einer erfolgreichen Bereitstellung wird sichergestellt, dass die Planung frühzeitig in der Phase Ermitteln übergeordneter Faktoren haben Sie auch das ermitteln, die zum Ausführen bestimmter Aktivitäten zuständig sind. Nachdem Sie die welche Aufgaben und Aktivitäten für Ihre Bereitstellung gelten herausgefunden haben, müssen sie verstehen und dahinter die Gruppen oder Personen, die Sie ihnen zuweisen.
+Eine wichtige Komponente einer erfolgreichen Bereitstellung besteht darin, sicherzustellen, dass die Planung, die Sie zu einem frühen Zeitpunkt in der enVision-Phase durchführen, die Entscheidung umfasst, wer für die Ausführung bestimmter Aktivitäten verantwortlich ist. Nachdem Sie herausgefunden haben, welche Aufgaben und Aktivitäten für Ihre Bereitstellung gelten, müssen Sie von den Gruppen oder Personen, die Sie Ihnen zuweisen, verstanden und befolgt werden.
 
-Jedes Team, die Sie identifizieren muss überprüfen und stimmen auf Aufgaben und Zuständigkeiten identifiziert und starten zur Vorbereitung. Dies kann enthalten, Schulung und Bereitschaft und Bereitstellen von Updates für die Personalplanung Plan oder sicherstellen, dass der Anbieter für externe übermitteln bereit sind.
+Jedes Team, das Sie identifizieren, muss die angegebenen Aufgaben und Zuständigkeiten überprüfen und sich damit einverstanden erklären und mit der Vorbereitung beginnen. Dazu gehören Schulung und Bereitschaft, die Bereitstellung von Updates für den Personalplan oder die Bereitstellung externer Anbieter.
 
-Die Aktivitäten und Rollen, die in diesem Handbuch definierten sollte in den meisten Szenarien gültig sein, sondern jeder Bereitstellung von Teams ist eindeutig; Daher können Sie dieses Handbuch als Ausgangspunkt verwenden, Aktivitäten und Standardrollen für Ihre Bedürfnisse anpassen.
+Die in diesem Leitfaden definierten Aktivitäten und Rollen sollten in den meisten Szenarien gültig sein, aber jede Bereitstellung von Teams ist eindeutig. aus diesem Grund können Sie diesen Leitfaden als Ausgangspunkt verwenden, um die Aktivitäten und Standardrollen Ihren Anforderungen entsprechend anzupassen.
 
-Stellen Sie sicher, dass jedes verantwortliche Team einen umfassenden Überblick über die Aktivitäten verfügt, die zum Ausführen des Diensts erforderlich sind. Es ist wichtig, dass jedes Team akzeptiert und ihre Accountability in Ihrer Organisation unterzeichnet vor Beginn des ersten Pilotprojekts.
+Stellen Sie sicher, dass jedes verantwortliche Team ein gutes Verständnis der Aktivitäten hat, die zum Ausführen des Diensts erforderlich sind. Es ist wichtig, dass die einzelnen Teams ihre Verantwortlichkeit in Ihrer Organisation akzeptieren und sich vor Beginn des ersten Pilotprojekts abmelden.
 
-Nachdem eine Vereinbarung erstellt wurde, sollte die entsprechende Teams zu ihrer Rollen durchsetzen beginnen.
+Nachdem eine Vereinbarung abgeschlossen ist, sollten die entsprechenden Teams beginnen, ihre Rollen zu übersetzen.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td>
-<td><ul><li>Verwenden Sie dieses Dokument in der betrieblichen Rolle Zuordnung Übung zu vereinfachen.</li><li>Besprechen Sie mit der jeweiligen Supportteams, um jedes Element in der Liste der erforderlichen Aktivitäten Namen zuzuweisen.</li><li>Erlangen Sie Annahme oder Abnahme der zugewiesenen Rollen.</li><li>Stellen Sie sicher, dass die entsprechenden Teams haben die entsprechenden Schulungen, Bereitschaft und Ressourcen für die Durchführung die Aktivitäten, die von ihnen erforderlich.</li></ul></td></table>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td>
+<td><ul><li>Verwenden Sie dieses Dokument, um die Übung zur operativen Rollenzuordnung zu vereinfachen.</li><li>Treffen Sie sich mit den jeweiligen Support Teams, um jedem Element in der Liste der erforderlichen Aktivitäten Namen zuzuweisen.</li><li>Erhalten Sie Akzeptanz oder Abmelden für die zugewiesenen Rollen.</li><li>Stellen Sie sicher, dass die entsprechenden Teams über die entsprechenden Schulungs-, Bereitschafts-und Ressourcen verfügen, um die erforderlichen Aktivitäten abzuschließen.</li></ul></td></table>
 
-### <a name="teams-service-dependencies"></a>Teams-dienstabhängigkeiten
+### <a name="teams-service-dependencies"></a>Teams-Dienstabhängigkeiten
 
-Microsoft-Teams vereint Technologien über Office 365, um einen Hub für die Zusammenarbeit bereitzustellen. Beispiele:
+Microsoft Teams vereint Technologien in Office 365, um einen Hub für Teamarbeit bereitzustellen. Beispiele sind:
 
-- Azure Active Directory (AD Azure) bietet Authentifizierung und Autorisierung Dienste für Teams.
+- Azure Active Directory (Azure AD) bietet Authentifizierungs-und Autorisierungsdienste für Teams.
 
-- Exchange Online bietet erweiterte Funktionen wie rechtliche Aufbewahrungspflicht und elektronische Ermittlung.
+- Exchange Online bietet erweiterte Funktionen wie rechtliche Aufbewahrung und e-Discovery.
 
-- SharePoint Online bietet die Möglichkeit zum Freigeben von Dateien in Kanälen und OneDrive für Unternehmen bietet einen Mechanismus zum Freigeben von Dateien in einem privaten Chat.
+- SharePoint Online bietet die Möglichkeit zum Freigeben von Dateien in Kanälen, und OneDrive for Business bietet einen Mechanismus zum Freigeben von Dateien in einem privaten Chat.
 
-Organisationen können auch vorhandene Investitionen in die lokale Infrastruktur nutzen. Beispielsweise können vorhandene lokalen Active Directory-Konten für die Authentifizierung verwendet werden, durch die Nutzung von Azure Active Directory verbinden. Anstelle von Exchange Online können bestimmte Versionen von Exchange Server verwendet werden.
+Organisationen können auch vorhandene Investitionen in die lokale Infrastruktur nutzen. Beispielsweise können vorhandene lokale Active Directory-Konten zur Authentifizierung verwendet werden, indem Sie Azure AD Connect nutzen. Bestimmte Versionen von Exchange Server können anstelle von Exchange Online verwendet werden.
 
-Diese Technologien zusammengefügt, eine umfassende, Zusammenarbeit und intelligente Communications Suite für Benutzer bereitzustellen. Diese enge Integration ist einer der wichtigsten Vorteile von Teams, aber es auch eine Voraussetzung für Service-Management über diese Technologien Laufwerke.
+Diese Technologien sind zusammen gekommen, um eine umfassende, kollaborative und intelligente Kommunikations Suite für Benutzer bereitzustellen. Diese enge Integration ist ein wichtiger Vorteil von Teams, aber auch eine Voraussetzung für das Service Management in diesen Technologien.
 
-In diesem Handbuch wird die wichtige Bereiche der Fokus zum Verwalten des Diensts Teams behandelt. In den meisten Fällen verfügen Sie Management Servicepläne für die unterstützenden Technologien, von denen Teams abhängt. Wenn nicht, Sie ordnungsgemäße Management Servicepläne für diese Technologiekomponenten einrichten müssen (lokal und online) als auch. Dies hilft sicherzustellen, dass Ihre Benutzer eine hohe Qualität und zuverlässige Erfahrung mit Teams nutzen zu können.
+In diesem Leitfaden werden die wichtigsten Schwerpunkte für die Verwaltung des Teams-Diensts behandelt. Höchstwahrscheinlich verfügen Sie über Dienst Verwaltungspläne für die unterstützenden Technologien, von denen Teams abhängig sind. Wenn dies nicht der Fall ist, müssen Sie geeignete Service Management-Pläne für diese Technologiekomponenten (sowohl lokal als auch online) einrichten. So können Sie sicherstellen, dass Ihre Benutzer eine qualitativ hochwertige und zuverlässige Erfahrung mit Teams erhalten.
 
 #### <a name="references"></a>Referenzen
 
@@ -91,160 +91,160 @@ In diesem Handbuch wird die wichtige Bereiche der Fokus zum Verwalten des Dienst
 
 [Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](sharepoint-onedrive-interact.md)
 
-[Microsoft-Teams und Skype für Interoperabilität und Koexistenz Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+[Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 <!--ENDOFSECTION-->
 
-## <a name="operations-guide-activities"></a>Operations Guide Aktivitäten
+## <a name="operations-guide-activities"></a>Aktivitäten des Arbeits Ratgebers
 
-Die folgenden Abschnitte enthalten eine Übersicht über die Aktivitäten, die erforderlich sind, um den Microsoft-Teams, Dienst erfolgreich ausgeführt werden. Dazu gehören Verweis zu Tools und kontextbezogene Informationen zu zusätzliche Inhalte, um die Aktivität Verständnis und Bereitschaft Initiativen rechten zu unterstützen.
+Die folgenden Abschnitte geben einen Überblick über die Aktivitäten, die für den erfolgreichen Betrieb des Microsoft Teams-Diensts erforderlich sind. Dazu gehören Verweise auf Tools, kontextbezogene Informationen und zusätzliche Inhalte, die Ihnen helfen, die Aktivitäten zu verstehen und in Bereitschafts Initiativen zu unterstützen.
 
 <!--ENDOFSECTION-->
 
-## <a name="monitor-service-health"></a>Monitor Dienststatus
+## <a name="monitor-service-health"></a>Überwachen des Dienststatus
 
-Es ist wichtig, dass die allgemeine Integrität des Diensts Microsoft-Teams, verstehen, sodass Sie proaktiv andere in Ihrer Organisation jedes Ereignisses darüber informiert werden können, die den Dienst wirkt sich auf. Wie bereits erwähnt, ist die Teams andere Office 365-Diensten wie etwa Azure Active Directory, Exchange Online, SharePoint Online und OneDrive für Unternehmen abhängig. Aus diesem Grund ist es gleichermaßen wichtig, dass Sie die Integrität der die abhängigen Dienste überwachen.
+Es ist wichtig, dass Sie den allgemeinen Status des Microsoft Teams-Diensts verstehen, damit Sie andere Personen in Ihrer Organisation proaktiv über alle Ereignisse informieren können, die sich auf den Dienst auswirken. Wie weiter oben beschrieben, sind Teams von anderen Office 365-Diensten wie Azure Active Directory, Exchange Online, SharePoint Online und OneDrive for Business abhängig. Aus diesem Grund ist es genauso wichtig, dass Sie die Integrität der abhängigen Dienste überwachen.
 
-Integrieren Sie diese Aktivität in Ihrer Incident Management-Prozess proaktiv über die Benutzer, der Helpdesk und Ihren Teams bei der Vorgänge zum Vorbereiten der Benutzer Eskalationen behandeln.
+Nehmen Sie diese Aktivität in den Vorfall Verwaltungsprozess auf, um die Benutzer, den Helpdesk und ihre Betriebsteams proaktiv zu informieren, um sich auf die Behandlung von Benutzer Eskalationen vorzubereiten.
 
-Den folgenden Abschnitten werden die Tools, die Sie zum Überwachen von [Dienstereignisse](https://technet.microsoft.com/library/office-365-service-health.aspx#Anchor_1) nutzen können, die den Dienst Teams betreffen. In der folgenden Tabelle ist eine Zusammenfassung der Vorteile der einzelnen Tools, und wenn Sie, jede Datei verwenden sollten enthalten.
+In den folgenden Abschnitten werden die Tools beschrieben, die Sie nutzen können, um [Dienst Vorfälle](https://technet.microsoft.com/library/office-365-service-health.aspx#Anchor_1) zu überwachen, die sich auf den Team Dienst auswirken. In der folgenden Tabelle finden Sie eine Zusammenfassung der Vorteile der einzelnen Tools und deren Verwendung.
 
-| Tools für die Überwachung | Vorteile | Wann verwendet werden |
+| Überwachungs Tool | Vorteile | Verwendungszweck |
 |---|---|---|
-| Office 365-Portal | Von jedem Gerät mit einem unterstützten Browser verfügbar. | Wird verwendet, wenn Sie nicht in Echtzeit Benachrichtigungen benötigen. |
-| Office 365-Admin-app | Pushbenachrichtigungen an Ihr mobiles Gerät enthält. | Wird verwendet, wenn Sie müssen über Dienstereignisse benachrichtigt werden, während Sie unterwegs sind. |
-| Microsoft System Center | Integration in Microsoft System Center. | Wird verwendet, wenn Sie erweiterte Überwachungsfunktionen und Benachrichtigung Unterstützung benötigen. |
-| Office 365-Dienst Communications API | Den programmgesteuerten Zugriff auf Office 365-Dienststatus. | Wird verwendet, wenn Sie benötigen eine Integration mit einem Drittanbieter-monitoring-Tool oder Ihre eigene Lösung erstellen möchten. |
+| Office 365-Portal | Verfügbar auf jedem Gerät mit einem unterstützten Browser. | Verwenden Sie diese, wenn Sie keine Echtzeitbenachrichtigungen benötigen. |
+| Office 365-Administrator-App | Bietet Push-Benachrichtigungen für Ihr mobiles Gerät. | Verwenden Sie diese Funktion, wenn Sie über Service-Vorfälle benachrichtigt werden möchten, während Sie unterwegs sind. |
+| Microsoft System Center | Integration in Microsoft System Center. | Verwenden Sie diese Funktion, wenn Sie erweiterte Überwachungsfunktionen und Benachrichtigungsunterstützung benötigen. |
+| Office 365 Service Communications-API | Programmgesteuerten Zugriff auf Office 365-Dienststatus. | Verwenden Sie diese Option, wenn Sie die Integration mit einem Überwachungstool eines Drittanbieters benötigen oder eine eigene Lösung erstellen möchten. |
 
 > [!NOTE]
-> Nur Personen, die die Rolle **globaler Administrator** oder **Dienstadministrator** zugewiesen sind, können Dienststatus anzeigen.
+> Nur Personen, denen die Rolle **globaler Administrator** oder **Dienstadministrator** zugewiesen ist, können den Dienststatus anzeigen.
 
-### <a name="monitoring-with-the-office-365-portal"></a>Überwachung mit Office 365-portal
+### <a name="monitoring-with-the-office-365-portal"></a>Überwachen mit dem Office 365-Portal
 
-Die [Office 365-Portal](https://portal.office.com/) bietet ein [Dienststatus Dashboard](https://portal.office.com/adminportal/home#/servicehealth) , in dem Sie den aktuellen Zustand des Diensts Teams zusätzlich zu abhängigen Dienste anzeigen können.
+Das [Office 365-Portal](https://portal.office.com/) bietet ein [Dienststatus-Dashboard](https://portal.office.com/adminportal/home#/servicehealth) , in dem Sie zusätzlich zu den abhängigen Diensten den aktuellen Status des Teams-Diensts anzeigen können.
 
-### <a name="monitoring-with-the-mobile-app"></a>Überwachen mit der mobilen app
+### <a name="monitoring-with-the-mobile-app"></a>Überwachen mit der mobilen App
 
-Die Office 365-Admin-app ist verfügbar unter Apple iOS, Android und Windows (PC und Mobile). Die app enthält Dienstadministratoren Informationen zu Dienststatus und anstehende Änderungen. Die app unterstützt Pushbenachrichtigungen, die Sie fast sofort warnen können nachdem eine Empfehlung bereitgestellt wurde. Dadurch können Sie den Status, Integrität und anstehenden Änderungen an den Dienst auf dem laufenden. Die Benachrichtigung Unterstützung erleichtert das empfohlene Tool für die Überwachung für Administratoren. Weitere Informationen finden Sie unter:
+Die Office 365-Administrator-APP ist auf Apple IOS, Android und Windows (PC und Mobile) erhältlich. Die APP bietet Dienstadministratoren Informationen zu Dienststatus und bevorstehenden Änderungen. Die App unterstützt Push-Benachrichtigungen, mit denen Sie fast unmittelbar nach der Veröffentlichung einer Empfehlung benachrichtigt werden können. Auf diese Weise können Sie den Status, die Integrität und alle bevorstehenden Änderungen des Diensts auf dem neuesten Stand halten. Die Benachrichtigungsunterstützung macht es zum empfohlenen Überwachungstool für Administratoren. Weitere Informationen finden Sie unter:
 
-[Office 365 Admin Mobile App](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
+[Office 365 admin Mobile-App](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
-[Laden Sie die Office 365-Admin-Mobile-App](https://products.office.com/business/manage-office-365-admin-app)
+[Herunterladen der mobilen Office 365 admin-App](https://products.office.com/business/manage-office-365-admin-app)
 
-### <a name="monitoring-with-microsoft-system-center"></a>Mit Microsoft System Center Monitoring
+### <a name="monitoring-with-microsoft-system-center"></a>Überwachung mit Microsoft System Center
 
-Microsoft System Center ist eine integrierte Management-Plattform, dass Sie Datacenter, Clientgeräten und hybride verwalten können IT-Umgebungen cloud. Office 365-Administratoren, die System Center jetzt verwenden, haben die Option zum Importieren der Office 365-Management Pack, wodurch sie alle Dienstkommunikation in Operations Manager in System Center anzeigen können. Mit diesem Tool ermöglicht den Zugriff auf den Status Ihrer abonnierten Dienste, aktiven und behobenen Dienstereignisse und Ihre Kommunikation Nachrichtencenter (anstehende Änderungen). Weitere Informationen finden Sie in der folgenden [Blogbeitrag](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true).
+Microsoft System Center ist eine integrierte Verwaltungsplattform, die Ihnen bei der Verwaltung von Rechenzentren, Clientgeräten und Hybrid-Cloud-IT-Umgebungen hilft. Office 365-Administratoren, die System Center verwenden, haben jetzt die Möglichkeit, das Office 365-Management Pack zu importieren, das es Ihnen ermöglicht, alle Dienst Kommunikationen in Operations Manager in System Center anzuzeigen. Mit diesem Tool können Sie auf den Status Ihrer abonnierten Dienste, aktive und aufgelöste Service Vorfälle und Ihre Nachrichten Center Kommunikation (bevorstehende Änderungen) zugreifen. Weitere Informationen finden Sie im folgenden [Blogbeitrag](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true).
 
-Wenn Sie System Center zum Überwachen von Teams Service Health (und abhängigen Dienste) nutzen, können Sie weiter anpassen das Management Pack für Warnung oder benachrichtigen Sie bestimmte Gruppen oder Personen, die auf Vorfälle reagieren identifiziert wurden.
-Diese Gruppen können Service Besitzer, Helpdesks, Unterstützung auf zweiter und dritter Ebene Gruppen und Vorfall-Manager in Ihrer Organisation enthalten.
+Wenn Sie System Center zum Überwachen des Teams-Dienststatus (und abhängiger Dienste) nutzen, können Sie das Management Pack weiter anpassen, um bestimmte Gruppen oder Personen, die identifiziert wurden, um auf Vorfälle zu reagieren, zu informieren oder zu benachrichtigen.
+Diese Gruppen können Dienstbesitzer, Helpdesks, Supportgruppen der zweiten Ebene und Dritter Ebene sowie Vorfall Manager in Ihrer Organisation umfassen.
 
-### <a name="monitoring-for-advanced-scenarios"></a>Überwachung für erweiterte Szenarien
+### <a name="monitoring-for-advanced-scenarios"></a>Überwachen für erweiterte Szenarien
 
-Sie können Dienststatus und anstehende Änderungen überwachen, durch die Nutzung von Office 365-Dienststatus und ändert den programmgesteuerten Zugriff auf die Office 365-Communications-API. Verwenden Sie diese API zum Erstellen eigener monitoring Tools oder Verbinden Sie Ihrer vorhandenen Überwachungstools mit Office 365-Dienst Communications, potenziell vereinfachen, wie Sie Ihre Umgebung überwachen. Weitere Informationen finden Sie unter [Office 365 für Enterprise-Entwickler](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
+Sie können den Dienststatus und bevorstehende Änderungen überwachen, indem Sie die Office 365 Service Communications-API für den Zugriff auf den Office 365-Dienststatus und die programmgesteuerte Änderung nutzen. Verwenden Sie diese API, um ein eigenes Überwachungstool zu erstellen oder Ihre vorhandenen Überwachungstools mit der Office 365-Dienst Kommunikation zu verbinden, wodurch die Überwachung Ihrer Umgebung potenziell vereinfacht wird. Weitere Informationen finden Sie unter [Office 365 für Enterprise-Entwickler](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>Täglich/wöchentlich/monatlich/bedarfsorientierte Aufgaben
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tägliche/wöchentliche/monatliche/bedarfsbezogene Aufgaben
 
-| Aktivität | Beschreibung | Trittfrequenz | Team zugewiesen |
+| Aktivität | Beschreibung | Häufigkeit | Team zugewiesen |
 |---|---|---|---|
-| Monitor Dienststatus | Proaktive Überwachung Dienststatus Microsoft-Teams (und abhängigen Dienste) mithilfe der Tools verfügbar. Einschließen von abhängigen Dienste: Exchange Online, SharePoint Online, OneDrive für Unternehmen, Azure Active Directory. | In Echtzeit | |
-| Vorfall Benachrichtigung | Benachrichtigen Sie interne beteiligten von Ereignissen, die den Dienst Teams betreffen. Interne Beteiligten können Benutzer, Helpdesks und Vorfall-Manager enthalten. | Bei Bedarf | |
+| Überwachen des Dienststatus | Proaktives Überwachen des Microsoft Teams-Dienststatus (und abhängiger Dienste) mithilfe der verfügbaren Tools Zu den abhängigen Diensten gehören: Exchange Online, SharePoint Online, OneDrive for Business, Azure Active Directory. | Echt Zeit | |
+| Vorfall Benachrichtigung | Informieren Sie interne Stakeholder über Ereignisse, die sich auf den Team-Service auswirken. Interne Stakeholder können Benutzer, Helpdesks und Incident Manager umfassen. | Nach Bedarf | |
 
 ### <a name="references"></a>Referenzen
 
-[Gewusst wie: Überprüfen von Office 365-Dienststatus](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
+[Überprüfen von Office 365-Dienststatus](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
 
 [Überprüfen der Dienstintegrität für Microsoft Teams](service-health.md)
 
-[Dienststatus und Continuity](https://technet.microsoft.com/library/office-365-service-health.aspx)
+[Dienststatus und Kontinuität](https://technet.microsoft.com/library/office-365-service-health.aspx)
 
 <!--ENDOFSECTION-->
 
-## <a name="manage-organizational-change"></a>Verwalten von Organisationseinheiten ändern
+## <a name="manage-organizational-change"></a>Verwalten von organisatorischen Änderungen
 
-Microsoft-Teams, ist ein Cloud-basierten Dienst. Aber auch die Möglichkeit, neue Features und Funktionen in eine schnelle Tempo bereitzustellen. Laufende Innovation bietet Organisationen einen offensichtlichen Vorteil, aber diese Änderungen müssen innerhalb Ihrer Organisation zur Vermeidung von Widerstand oder an den Helpdesk entsprechend verwaltet werden.
+Microsoft Teams ist ein Cloud-basierter Dienst. Damit ist es möglich, neue Features und Funktionen in rasantem Tempo bereitzustellen. Die Bereitstellung kontinuierlicher Innovationen bietet Organisationen einen offensichtlichen Vorteil, doch müssen diese Änderungen in Ihrer Organisation angemessen verwaltet werden, um Benutzer Resistenzen oder Eskalationen an Helpdesks zu vermeiden.
 
-Updates für Teams werden automatisch an Ihre Benutzer eingeführt. Die Benutzer müssen immer die neuesten Client und Features, die im Dienst Teams verfügbar. Es ist nicht möglich, die Einführung von Teams-Updates für die Benutzer zu verwalten, es ist daher extrem wichtig Änderung über effektiven Kommunikation, Schulung und Akzeptanz Programme verwalten. Wenn Ihre Benutzer die Änderung kennen, zu den Vorteilen geschult und in der Lage, die neuen Funktionen nutzen&mdash;werden schneller Wartungszeiten und Willkommen bei den ändern können.
+Updates für Teams werden automatisch für Ihre Benutzer bereit gesetzt. Ihre Benutzer verfügen immer über die neuesten Clients und Features, die im Team-Service zur Verfügung stehen. Es ist nicht möglich, den Rollout von Teams-Updates für Ihre Benutzer zu verwalten, daher ist es wichtig, Änderungen durch effektive Kommunikations-, Schulungs-und Adoptionsprogramme zu verwalten. Wenn Ihre Benutzer über die Änderung Bescheid wissen, sich über die Vorteile gebildeten und befugt sind, die neuen&mdash;Funktionen zu nutzen, können Sie sich schneller anpassen und die Änderung begrüßen.
 
-### <a name="monitoring-for-change"></a>Überwachung für Änderung
+### <a name="monitoring-for-change"></a>Überwachen auf Änderung
 
-Der erste Schritt beim Änderungsmanagement überwacht die Änderungen, die für Teams geplant werden. Die beste Quelle für die Überwachung diese Änderungen ist [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap), die Features aufgeführt, die derzeit in der Entwicklung an Ihre Kunden eingeführt werden oder komplett gestartet haben. Sie können mithilfe des Filters für Teams-spezifischen Features suchen oder können Sie der Übersicht über die auf einer Excel-Datei zur weiteren Analyse herunterladen. Für jedes Feature bietet der Übersicht über die eine kurze Beschreibung, zusammen mit der erwarteten Veröffentlichungsdatum.
+Der erste Schritt bei der Änderungsverwaltung ist das Überwachen der für Teams geplanten Änderungen. Die beste Quelle für die Überwachung dieser Änderungen ist die [Microsoft 365-Roadmap](https://www.microsoft.com/microsoft-365/roadmap), in der Features aufgelistet sind, die derzeit in der Entwicklung sind, für Kunden bereit stehen oder vollständig gestartet wurden. Sie können mithilfe des bereitgestellten Filters nach Teams-spezifischen Features suchen, oder Sie können die Roadmap für eine weitere Analyse in eine Excel-Datei herunterladen. Für jedes Feature gibt die Roadmap eine kurze Beschreibung zusammen mit dem voraussichtlichen Veröffentlichungsdatum an.
 
-Im [Blog des Microsoft-Teams,](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)erhalten Sie Informationen zu bewährten Methoden, Trends und Neuigkeiten zu Teams Produktupdates. Erwarten Sie wichtiges Feature Updates für Teams hier vorgestellt. Sie können auch den Blog über einen RSS-feed abonnieren. Anschließend können Sie [den RSS-feed](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) direkt in einem Kanal Teams hinzufügen, damit alle wichtigen News direkt in Teams gesendet wird.
+Im [Microsoft Teams-Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)finden Sie Informationen zu bewährten Methoden, Trends und Neuigkeiten zu Produktupdates für Teams. Erwarten Sie, dass Sie wichtige Funktionsupdates für Teams finden, die hier angekündigt werden. Sie können den Blog auch über einen RSS-Feed abonnieren. Sie können [den RSS-Feed](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) dann direkt in einen Teams-Kanal einfügen, damit alle wichtigen Nachrichten direkt innerhalb von Teams bereitgestellt werden.
 
-[Versionshinweise für Microsoft-Teams,](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)sind alle Features, die veröffentlicht werden dokumentiert.
-Hier finden Sie eine Liste der Features, die freigegeben wurden für Desktop, Web und mobile Geräte. Der gleiche Satz von Anmerkungen zu dieser Version stehen ebenfalls auf der Registerkarte **What's new** in der [Hilfe](get-help-in-microsoft-teams.md)zur Verfügung.
+Alle freigegebenen Features sind in den Versionshinweisen [für Microsoft Teams](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)dokumentiert.
+Hier finden Sie eine Liste der Funktionen, die für Desktop-, Web-und mobile Geräte freigegeben wurden. Die gleichen Anmerkungen zu dieser Version finden Sie auch auf der **** Registerkarte Neuerungen in der [Hilfe](get-help-in-microsoft-teams.md).
 
-Machen Sie sich vertraut mit den verfügbaren Ressourcen, und stellen Sie sicher, dass die entsprechenden Besitzer zum Überwachen von Änderung zugewiesen.
+Machen Sie sich mit den verfügbaren Ressourcen vertraut, und stellen Sie sicher, dass Sie die geeigneten Besitzer zuweisen, um Änderungen zu überwachen.
 
-### <a name="planning-for-change"></a>Planen der Änderung
+### <a name="planning-for-change"></a>Planen von Änderungen
 
-Nun, da Sie anstehende Änderungen an den Dienst Teams bekannt sind, besteht der nächste Schritt zum Vorbereiten und entsprechend planen. Bewerten Sie die einzelnen ändern, um zu bestimmen, welche Änderungen Kommunikation mit Benutzern, Kampagnen zur Förderung des Bekanntheitsgrads, Schulung für Support-Teams oder Benutzern oder Feature Test- und Annahme Kampagnen erfordern. Dies ist die primäre Rolle von einer Änderung Managementteam in Ihrer Organisation. Es folgt eine Auflistung von Beispiel-Tabellen, die Ihnen helfen zu planen.
+Nachdem Sie sich nun mit den bevorstehenden Änderungen des Teams-Diensts vertraut machen, besteht der nächste Schritt darin, entsprechend vorzubereiten und zu planen. Bewerten Sie die einzelnen Änderungen, um festzustellen, welche Änderungen die Kommunikation mit Benutzern, Sensibilisierungskampagnen, Schulungen für Support Teams oder Benutzer sowie Kampagnen zur Evaluierung und Annahme von Funktionen erfordern. Dies ist die primäre Rolle eines Change Management-Teams in Ihrer Organisation. Nachfolgend finden Sie eine Sammlung von Beispieltabellen, die Ihnen bei der Planung von Änderungen behilflich sein können.
 
-#### <a name="feature-cloud-recording-release-date-january-2018"></a>Feature: Cloud-Aufzeichnung (Datum der Veröffentlichung: Januar 2018)
+#### <a name="feature-cloud-recording-release-date-january-2018"></a>Feature: Cloud-Aufzeichnung (Veröffentlichungsdatum: Januar 2018)
 
-**Allgemeine nachverfolgen**
-
-| Ändern der Bereitschaft | Status | Notizen/nächste Schritte | Besitzer |
-|---|---|---|---|
-| Rechtliche Prüfung | Abgeschlossen | Dieses Feature ist eine Voraussetzung für die Schulung des Teams Onboarding. | Das Projektteam |
-
-**Technische Änderungsmanagement**
+**Allgemeiner Titel**
 
 | Ändern der Bereitschaft | Status | Notizen/nächste Schritte | Besitzer |
 |---|---|---|---|
-| IT-Änderungen erforderlich | Ja | Admin muss Aufzeichnung identifizierten nur für Benutzer zu aktivieren. | Supportteam |
-| Vollständige technische Bereitschaft | Ja | | Supportteam |
+| Rechtliche Überprüfung | Abgeschlossen | Dieses Feature ist eine Voraussetzung für das Onboarding des Schulungsteams. | Projektteam |
+
+**Technisches Änderungsmanagement**
+
+| Ändern der Bereitschaft | Status | Notizen/nächste Schritte | Besitzer |
+|---|---|---|---|
+| Änderungen erforderlich | Ja | Der Administrator muss die Aufzeichnung nur für erkannte Benutzer aktivieren. | Support-Team |
+| Technische Bereitschaft abgeschlossen | Ja | | Support-Team |
 | | | | |
 
-**Die Verwaltung von ändern**
+**Benutzer Änderungsverwaltung**
 
 | Ändern der Bereitschaft | Status | Notizen/nächste Schritte | Besitzer |
 |---|---|---|---|
-| Beeinträchtigung für die Benutzer | Niedrig | | |
-| Benutzerbereitschaft erforderlich | Ja | | |
-| Kommunikation bereit | Nein | Kommunikation e-Mail wurde entworfen wurde – Überprüfung aussteht. | Communications-Teams |
-| Schulung bereit | Ja | Schulung werden vorhandene Microsoft Video nutzen. | Schulung-Teams |
+| Auswirkungen des Benutzers | Niedrig | | |
+| Benutzer Bereitschaft erforderlich | Ja | | |
+| Kommunikation bereit | Nein | E-Mail-Kommunikation wurde verfasst – ausstehend Überprüfung. | Kommunikations Team |
+| Schulung bereit | Ja | Die Schulung nutzt vorhandene Microsoft-Video. | Schulungs Team |
 
-**Nachverfolgen des Status**
+**Status Spur**
 
 | Ändern der Bereitschaft | Status | Notizen/nächste Schritte | Besitzer |
 |---|---|---|---|
-| Veröffentlichungsstatus | in Bearbeitung | Ausstehende Überprüfung durch executive Sponsor. | Ändern von Management-Team |
-| Version deaktiviert | | | |
-| Datum der Veröffentlichung | | | |
+| Freigabestatus | in Bearbeitung | Ausstehende Überprüfung durch den Executive-Sponsor. | Change Management-Team |
+| Freigabe Abmeldung | | | |
+| Veröffentlichungsdatum | | | |
 
-Weitere Informationen zur Planung für das Änderungsmanagement mit den Teams finden Sie unter [Erstellen einer Strategie für Microsoft-Teams ändern](change-management-strategy.md).
+Weitere Informationen zum Planen der Änderungsverwaltung für Teams finden Sie unter [Erstellen einer Änderungs Verwaltungsstrategie für Microsoft Teams](change-management-strategy.md).
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>Täglich/wöchentlich/monatlich/bedarfsorientierte Aufgaben
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tägliche/wöchentliche/monatliche/bedarfsbezogene Aufgaben
 
-| Aktivität| Beschreibung| Trittfrequenz| Team zugewiesen |
+| Aktivität| Beschreibung| Häufigkeit| Team zugewiesen |
 |---|---|---|---|
-| Monitor für Änderung| Prüfen auf anstehende Änderungen an den Dienst Microsoft-Teams.| Täglich||
-| Planen der Änderung| Bewerten und Planen der neuen Features und Funktionen, einschließlich Kommunikationsplänen, zur Förderung des Bekanntheitsgrads Kampagnen und Schulung.| Bei Bedarf ||
-| Benutzerbereitschaft| Führen Sie gezielte Kommunikation, zur Förderung des Bekanntheitsgrads oder Schulung Kampagnen, um sicherzustellen, dass Benutzer für die bevorstehende Änderung bereit sind.| Bei Bedarf ||
-| Support Team Bereitschaft | Führen Sie gezielte Kommunikation, zur Förderung des Bekanntheitsgrads oder Schulung Kampagnen, um sicherzustellen, dass das Supportteam bereit ist. Supportteams zählen "weißen Handschuh" Team, Helpdesks, Stufe 2 oder Stufe 3-Unterstützung, externe Partner und So weiter. | Bei Bedarf ||
+| Überwachen auf Änderung| Überwachen Sie die bevorstehenden Änderungen am Microsoft Teams-Dienst.| Täglich||
+| Planen von Änderungen| Evaluieren und planen Sie neue Features und Funktionen, einschließlich Kommunikationspläne, Sensibilisierungskampagnen und Schulung.| Nach Bedarf ||
+| Benutzer Bereitschaft| Führen Sie gezielte Kommunikations-, Sensibilisierungs-oder Schulungskampagnen durch, um sicherzustellen, dass Benutzer bereit für die bevorstehende Änderung sind.| Nach Bedarf ||
+| Bereitschaft des Support Teams | Führen Sie gezielte Kommunikations-, Sensibilisierungs-oder Schulungskampagnen durch, um sicherzustellen, dass das Support Team bereit ist. Zu den Support Teams gehören das Team "weißer Handschuh", Helpdesks, Support für Stufe 2 oder Tier 3, externe Partner usw. | Nach Bedarf ||
 
 <!--ENDOFSECTION-->
 
 ## <a name="assess-teams-usage"></a>Bewerten der Verwendung von Teams
 
-Nachdem der Pilotphase begonnen hat, ist es wichtig, einen regulären Trittfrequenz zur Messung der tatsächlichen Teams Verbrauch einrichten. In Ihrer Organisation erhalten Sie Einblicke in wie die tatsächliche Verwendung ausgerichtet die Nutzung, die Sie während der Phase der Ermitteln übergeordneter Faktoren vorhergesagt können. Obwohl in diesem Abschnitt zur Verwendung von Teams behandelt, sollte dies Bestandteil einer größeren Aufwand zu messen und Bewerten der Office 365-Auslastung insgesamt sein.
+Nach Beginn des ersten Pilotprojekts ist es wichtig, eine reguläre Kadenz für die Messung der tatsächlichen Team Auslastung festzulegen. Auf diese Weise kann Ihre Organisation Einblicke in die Übereinstimmung der tatsächlichen Nutzung mit der in der Envisions Phase prognostizierten Verwendung gewinnen. Dieser Abschnitt konzentriert sich zwar auf die Verwendung von Teams, sollte aber Teil einer breiteren Bemühung sein, die Verwendung von Office 365 insgesamt zu messen und zu bewerten.
 
-Überprüfen häufig zu einem frühen Zeitpunkt Verwendung in der Bereitstellung haben Sie die Möglichkeit:
+Die häufige Überprüfung der Verwendung zu Beginn der Bereitstellung bietet Ihnen folgende Möglichkeiten:
 
 - Überprüfen Sie, ob Benutzer Teams verwenden.
 
-- Möglichen Annahme Probleme zu erkennen, bevor sie kritische Probleme in der gesamten Organisation erstellen.
+- Ermitteln Sie potenzielle Akzeptanz Herausforderungen, bevor Sie kritische Probleme in der gesamten Organisation verursachen.
 
-- Verstehen Sie, ob zwischen dem Ermitteln übergeordneter Faktoren Phase Anforderungen und dem tatsächlichen Verbrauch Diskrepanzen.
+- Ermitteln Sie, ob Diskrepanzen zwischen den Anforderungen der Envisions Phase und der tatsächlichen Verwendung bestehen.
 
-Wenn Verwendung nicht, was Sie erwartet, möglicherweise aufgrund eines Problems Bereitstellung oder der Anpassungsplan ist nicht ordnungsgemäß ausgeführt werden, oder ein anderer Problem wird. Je nach den tatsächlichen Grund hinter der geringen Verwendung muss mit den zugehörigen Teams, die bei der Verwendung Hindernisse unterstützen Dienstadministrator zusammenarbeiten.
+Wenn die Verwendung nicht das ist, was Sie erwarten, kann dies auf ein Bereitstellungsproblem zurückzuführen sein, oder der Adoptions Plan wird nicht ordnungsgemäß oder ein anderes Problem ausgeführt. Je nach dem tatsächlichen Grund für die niedrige Auslastung muss der Dienstadministrator mit den zugehörigen Teams zusammenarbeiten, um die Nutzung von Hindernissen zu entfernen.
 
-### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>Messen der Verwendung mit Microsoft 365 Administrationscenter
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>Messen der Verwendung mit dem Microsoft 365 Admin Center
 
-Verwendungsdaten von Teams ist im Dashboard Reporting verfügbar. Verwendungsdaten Teams können in drei verschiedene Berichte gefunden werden. Der erste Bericht bietet eine Ansicht produktübergreifende wie Benutzer kommunizieren und zusammenarbeiten, indem Sie die verschiedenen Dienste in Office 365 verwenden. In diesem Bericht kann, finden Sie hier: [Office 365 aktive Benutzer Bericht](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
+Verwendungsdaten aus Teams sind im Dashboard für die Berichterstellung verfügbar. Die Nutzungsdaten für Teams sind in drei verschiedenen Berichten zu finden. Der erste Bericht bietet eine produktübergreifende Ansicht, wie Benutzer mit den verschiedenen Diensten in Office 365 kommunizieren und zusammenarbeiten. Diesen Bericht finden Sie hier: [Office 365-Bericht "aktive Benutzer](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D) "
 
-Die anderen beiden Berichte sind Teams-spezifisch und bieten weitere Details zur Nutzung des Teams von einem Benutzer und Gerät Perspektive. Beide Berichte finden Sie hier:
+Die anderen beiden Berichte sind Teams-spezifisch, und Sie bieten weitere Details zur Verwendung von Teams aus Benutzer-und Geräte Perspektive. Beide Berichte finden Sie hier:
 
 [Microsoft Teams – Gerätenutzungsbericht](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
 
@@ -252,114 +252,114 @@ Die anderen beiden Berichte sind Teams-spezifisch und bieten weitere Details zur
 
 #### <a name="required-permissions"></a>Erforderliche Berechtigungen
 
-Die Verwendungsberichte in der Verwaltungskonsole können Benutzer darauf zugreifen, die einer Rolle **globaler Administrator** oder eine produktspezifische Administratorrolle (**Exchange-Administrator**, **Skype für Business-Administrator**, **SharePoint zugewiesen wurden Administrator**).
+Auf die Verwendungsberichte im Admin Center kann von Personen zugegriffen werden, denen eine **globale Administrator** Rolle zugewiesen wurde, oder eine produktspezifische Administratorrolle (**Exchange-Administrator**, **Skype for Business-Administrator**, **SharePoint Administrator**).
 
-Darüber hinaus ist die Rolle **Leser von Berichten** verfügbar für Benutzer, die Zugriff auf die Berichte benötigen, aber keine Aufgaben ausführen, die auf Administratorebene Berechtigungen erforderlich sind. Sie weisen Sie diese Rolle schafft für jeden Verwendungsberichte, Beteiligten, überwachen und Laufwerk Einführung ist. Weitere Informationen zu den verschiedenen Rollen verfügbar finden Sie unter [Informationen zu Office 365-Administratorrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Darüber hinaus steht die Rolle " **berichtsleser** " für Benutzer zur Verfügung, die Zugriff auf die Berichte benötigen, jedoch keine Aufgaben ausführen, für die Berechtigungen auf Administratorebene erforderlich sind. Sie weisen diese Rolle zu, um jedem, der ein Stakeholder ist, Verwendungsberichte zur Verfügung zu stellen, um die Einführung zu überwachen und zu steuern. Weitere Informationen zu den verschiedenen verfügbaren Rollen finden Sie unter [Informationen zu Office 365-Administratorrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="assessing-usage"></a>Bewerten der Verwendung
 
-Nachdem Sie das Dashboard Reporting Auslastung Messen verwendet haben, ist es wichtig, die gemessene Nutzung gegen alle Indikatoren für den Erfolg (KSIs) verglichen werden soll, die Sie während des Projekts Ermitteln übergeordneter Faktoren Phase definiert. Sie können Definieren einer KSI, die als active Verwendung definiert werden kann oder eine, die zur Verwendung von aktiven indirekt verknüpft ist.
+Nachdem Sie die Verwendung des Berichterstattungs-Dashboards verwendet haben, ist es wichtig, die gemessene Verwendung mit allen wichtigen Erfolgsindikatoren (KSIs) zu vergleichen, die Sie während der Envisions Phase des Projekts definiert haben. Sie können eine ksi definieren, die möglicherweise als aktive Verwendung definiert ist, oder eine, die indirekt mit aktiver Verwendung verknüpft ist.
 
-Es ist wichtig, um alle Unterschiede zwischen der aktuellen und der geplanten Verwendung vor die Einführung auf zusätzliche Standorte oder Benutzer fortsetzen zu identifizieren. Sie benötigen wahrscheinlich Organisationseinheit Befunde identifizieren, im Rahmen dieser Aktivität, den Sie verwenden können, um sicherzustellen, dass der nächste Batch von Websites oder Benutzer die gleichen Probleme auftreten, nicht.
+Es ist wichtig, etwaige Abweichungen zwischen der tatsächlichen und der geplanten Verwendung zu erkennen, bevor der Rollout auf zusätzliche Websites oder Benutzer fortgesetzt wird. Wahrscheinlich identifizieren Sie organisatorisches Lernen als Teil dieser Aktivität, die Sie nutzen können, um sicherzustellen, dass der nächste Batch von Websites oder Benutzern nicht dieselben Probleme aufweist.
 
-Ermitteln Sie zunächst, ob dies eine Annahme oder technischen Problem ist. Beginnen Sie mit dem Untersuchen von Elemente unten in der Reihenfolge, um zu bestimmen, wo das Problem liegt.
+Ermitteln Sie zunächst, ob es sich um ein Adoptions-oder technisches Problem handelt. Untersuchen Sie zunächst die folgenden Elemente, um festzustellen, wo das Problem liegt.
 
-1. Überprüfen der Qualität durch Ausführen der [Qualität der Erfahrung überprüfen](upgrade-monitor-quality.md).
+1. Überprüfen Sie die Qualität, indem Sie eine [Bewertung der Qualität der Erfahrung](upgrade-monitor-quality.md)durchführen.
 
-2. Arbeiten Sie mit dem Helpdeskteam zu überprüfen, ob es sind keine Trend technische Probleme, die verhindern, dass Benutzer den Zugriff auf oder die Verwendung des Diensts. Problemtrends vorhanden sind, verwenden Sie im Abschnitt [Endpunkt Problembehandlung](#endpoint-troubleshooting) weiter unten in diesem Artikel um zu versuchen, das Problem zu lösen, bevor ansprechender Support.
+2. Arbeiten Sie mit dem Helpdesk-Team zusammen, um zu überprüfen, ob es keine Trend technischen Probleme gibt, die verhindern, dass Benutzer auf den Dienst zugreifen oder ihn verwenden. Wenn Problem Trends vorhanden sind, verwenden Sie den Abschnitt [Endpunkt Problembehandlung](#endpoint-troubleshooting) weiter unten in diesem Artikel, um das Problem zu beheben, bevor Sie den Support ansprechen.
 
-3. Arbeiten Sie mit dem Team Schulung und Anpassung von Benutzern direktes Feedback sammeln (finden Sie weiter unten in diesem Artikel unter [Assess Benutzer Stimmung](#assess-user-sentiment) ) und die Effektivität des Aktivitäten zur Förderung des Bekanntheitsgrads und Annahme zu überprüfen.
+3. Arbeiten Sie mit dem Schulungs-und Adoptions Team zusammen, um direktes Feedback von Benutzern zu sammeln (Weitere Informationen finden Sie unter [bewerten der Benutzer Sentiment](#assess-user-sentiment) weiter unten in diesem Artikel), und überprüfen Sie die Effektivität von Sensibilisierungs-und Adoptions Aktivitäten.
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>Täglich/wöchentlich/monatlich/bedarfsorientierte Aufgaben
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tägliche/wöchentliche/monatliche/bedarfsbezogene Aufgaben
 
-| Aktivität | Beschreibung | Trittfrequenz | Team zugewiesen |
+| Aktivität | Beschreibung | Häufigkeit | Team zugewiesen |
 |---|---|---|---|
-| Measure Usage (Aktivierung Phase) | Messen Sie und bewerten Sie Teams Usage, wie Websites weiterhin Onboarded während der Phase der Aktivierung werden. Beheben Sie Probleme bei der Verwendung nach Bedarf. | Wöchentlich | |
-| Measure Verwendung | Messen und Bewerten von Teams Verwendung in der Phase Laufwerk Wert (nach der Bereitstellung abgeschlossen ist). Beheben Sie Probleme bei der Verwendung nach Bedarf. | Alle zwei Wochen | |
-| (Laufwerk Wert Phase) | | | |
-| Aktualisieren von Anpassungsplan | Aktualisieren Sie Ihre Anpassungsplan basierend auf wie gemessene Usage vergleicht auf Ihre Planung Ziele. | Bei Bedarf | |
+| Messen der Verwendung (Aktivierungsphase) | Messen und bewerten Sie die Verwendung von Teams, während die Websites während der Aktivierungsphase weiterhin an Bord sind. Behebung von Nutzungsproblemen nach Bedarf. | Wöchentlich | |
+| Messen der Verwendung | Messen und bewerten Sie die Verwendung von Teams in der Antriebs Wert Phase (nach Abschluss der Bereitstellung). Behebung von Nutzungsproblemen nach Bedarf. | Biweekly | |
+| (Antriebs Wert Phase) | | | |
+| Update Annahme Plan | Aktualisieren Sie Ihren Adoptions Plan basierend darauf, wie die gemessene Nutzung mit ihren Planungszielen verglichen wird. | Nach Bedarf | |
 
 ### <a name="references"></a>Referenzen
 
-[Informationen zum Microsoft 365 Administrationscenter](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[Informationen zum Microsoft 365 Admin Center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[Berichte in der Microsoft-365-Verwaltungskonsole](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[Aktivitätsberichte im Microsoft 365 Admin Center](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 
-## <a name="assess-user-sentiment"></a>Bewerten der Benutzer Stimmung
+## <a name="assess-user-sentiment"></a>Beurteilen der Benutzer Stimmung
 
-Grundlegendes zu Stimmung der Benutzer kann als ein Schlüsselindikator für den Erfolg Ihrer Bereitstellung Teams Bewertung fungieren. Feedback der Benutzer kann die Änderungen in Ihrer Organisation Laufwerk; Dies kann Änderungen an Ihrer Kommunikationsplänen, Schulungsprogramme oder die Möglichkeit, dass Sie Unterstützung für Ihren Benutzern anbieten enthalten.
+Das Verständnis der Benutzer Empfindung kann als ein wichtiger Indikator für den Erfolg Ihrer Teams-Bereitstellung fungieren. Benutzer Feedback kann Änderungen in Ihrer Organisation vorantreiben. Dies kann Änderungen an Ihren Kommunikationsplänen, Schulungsprogrammen oder der Art und Weise beinhalten, wie Sie Ihre Benutzer unterstützen.
 
-Es ist wichtig, früh Feedback erhalten möchten, und fahren Sie mit Benutzer Stimmung im gesamten Lebenszyklus des Projekts und darüber hinaus bewerten. Verwenden Sie die folgende Hinweise, um das Intervall zu bestimmen, in dem Ihre Organisation das Feedback seek wird:
+Es ist wichtig, dass Sie frühzeitig Feedback erhalten und die Einschätzung der Benutzer Gefühle während des gesamten Lebenszyklus des Projekts und darüber hinaus fortsetzen. Verwenden Sie die folgenden Anleitungen, um das Intervall zu ermitteln, in dem Ihre Organisation Feedback sucht:
 
-- **Beginn des Projekts**: mit der Bewertung der Benutzer Stimmung am Anfang des Projekts, erhalten Sie eine frühe Ansicht in wie Ihre Benutzer ihre Teams Erfahrung haben.
+- **Anfang des Projekts**: Wenn Sie die Einschätzung des Nutzers zu Beginn des Projekts bewerten, können Sie sich einen frühen Überblick darüber verschaffen, wie sich Ihre Benutzer über die Erfahrungen ihrer Teams fühlen.
 
-- **Nach der wichtigsten Meilensteine**: durch das Sammeln von Feedback im gesamten Projektlebenszyklus, können Sie Benutzer Stimmung permanenten einzuschätzen und Änderungen vorzunehmen, je nach Bedarf. Dies ist insbesondere dann hilfreich, nach der wichtigsten Meilensteine.
+- **Nach wichtigen Meilensteinen**: durch das Sammeln von Feedback während des gesamten Projektlebenszyklus können Sie die Benutzer Stimmung kontinuierlich beurteilen und Änderungen nach Bedarf vornehmen. Dies ist besonders nach wichtigen Meilensteinen nützlich.
 
-- **Project-Zusammenfassung**: Benutzer Stimmung am Ende eines Projekts bewerten informiert Sie darüber, wie gut Sie durchgeführt haben und, in denen Arbeit noch muss ausgeführt werden und können Sie Ergebnisse anhand der vorherigen Umfrage zu vergleichen.
+- **Projektfazit**: Wenn Sie die Einschätzung des Benutzers am Ende eines Projekts bewerten, erfahren Sie, wie gut Sie gearbeitet haben und wo noch Arbeit zu erledigen ist, und Sie können die Ergebnisse mit der vorherigen Umfrage vergleichen.
 
-- **Laufend Besprechung**: weiterhin Benutzer Stimmung auf unbestimmte Zeit gemessen. Änderungen in Stimmung Benutzer möglicherweise aufgrund von Änderungen in der Umgebung Ihrer Organisation oder Änderungen im Dienst Teams. Bewertung Benutzer Stimmung in regelmäßigen Abständen, können Sie verstehen, wie gut Ihr Service-Management-Teams ausführen und wie Ihre Organisation auf Änderungen in der Teams-Dienst reagiert.
+- Fort **laufend**: Messen Sie die Benutzer Stimmung weiterhin auf unbestimmte Zeit. Änderungen in der Benutzer Einschätzung können auf Änderungen in der Umgebung Ihrer Organisation oder auf Änderungen des Teams-Diensts zurückzuführen sein. Indem Sie die Benutzer Stimmung in regelmäßigen Abständen beurteilen, können Sie verstehen, wie gut Ihre Dienst Verwaltungsteams funktionieren und wie Ihre Organisation auf Änderungen im Team Dienst reagiert.
 
-Stimmung der Benutzer kann über viele verschiedene Methoden überprüft werden. Dazu zählen e-Mail Umfragen, persönlicher oder Telefon-Schreibweise Interviews oder erstellen einen Kanal Feedback einfach in Teams oder Yammer. Weitere Informationen finden Sie unter [bewährte Methoden für die Benutzer Feedback Methoden in Microsoft-Teams](best-practices-feedback.md).
+Benutzer Gefühle können über viele verschiedene Methoden bewertet werden. Diese können e-Mail-Umfragen, persönliche oder telefonische Interviews oder einfach nur einen Feedback Kanal in Teams oder "jammern" umfassen. Weitere Informationen finden Sie unter [bewährte Methoden für Benutzer Feedback Methoden in Microsoft Teams](best-practices-feedback.md).
 
-Sie können auch einen industrywide Ansatz bewerten können Benutzer Stimmung aufgerufen net Promotor Punktzahl (NPS), die im folgenden Abschnitt beschrieben wird.
+Sie können auch einen industrieweite-Ansatz verwenden, um die Benutzer Sentiment mit dem Namen net Promotor Score (NPS) zu bewerten, der im folgenden Abschnitt beschrieben wird.
 
 ### <a name="nps"></a>NPS
 
-NET Promoter Score (NPS) ist ein industrywide Kunden können Metrik und stellen eine gute Methode zum Benutzer Stimmung bewerten. NPS kann berechnet werden, indem Sie zwei Fragen: "wie wahrscheinlich Sie Teams an einen Kollegen empfehlen werden?", gefolgt von der Freihandform Frage "Warum?"
+Net Promoter Score (NPS) ist eine industrieweite-Kunden Bindungs Metrik und ein guter Ansatz zur Beurteilung der Benutzer Empfindung. NPS kann berechnet werden, indem zwei Fragen gestellt werden: "wie wahrscheinlich ist es, dass Sie einem Kollegen Teams empfehlen?", gefolgt von der frei Hand Frage "Warum?"
 
-NPS ist ein Index im Bereich von – 100 bis 100, der einem Kunden Bereitschaft zur Produkt oder den Dienst des Unternehmens empfiehlt sich misst. NPS basiert auf einer anonymen Umfrage, die an Benutzer über e-Mail oder anderweitig elektronische übermittelt werden. NPS misst die Bindung zwischen einem Anbieter und Consumer. Es besteht nur eine Frage, die der Benutzer zum Bewerten ihrer Erfahrung von 1 bis 10, mit der Option zur Verfügung zu stellen zusätzliche Kommentare aufgefordert. Benutzer werden dann klassifiziert basierend auf den folgenden Filter:
+NPS ist ein Index von – 100 bis 100, der die Bereitschaft eines Kunden zur Empfehlung eines Produkts oder einer Dienstleistung des Unternehmens misst. NPS basiert auf einer anonymen Umfrage, die Benutzern per e-Mail oder auf anderen elektronischen wegen zugestellt wird. NPS misst die Loyalität zwischen einem Anbieter und einem Verbraucher. Es besteht aus nur einer Frage, die die Nutzer auffordert, ihre Erfahrungen von 1 bis 10 zu veranschlagen, mit der Möglichkeit, zusätzliche Kommentare anzubieten. Benutzer werden dann basierend auf den folgenden Bewertungen klassifiziert:
 
-- 9 oder 10 sind Projektträger: treu Anhänger, die Ihren Dienst herauf- und geschäftliches andere werden.
+- 9 oder 10 sind Promoter: Treue Enthusiasten, die Ihren Service fördern und andere anheizen werden.
 
-- 7 oder 8 sind passiv: zufrieden jedoch unenthusiastic, einem anderen Dienst oder besser anfällig.
+- 7 oder 8 sind passiv: zufrieden, aber unenthusiastisch, anfällig für einen anderen Dienst oder ein Angebot.
 
-- Von 1 bis 6 werden geben: unzufriedenen Kunden, die Ihren Dienst beschädigen und Wachstum beeinträchtigen können.
+- Von 1 bis 6 sind Kritiker: unzufriedene Kunden, die Ihren Service beschädigen und das Wachstum behindern können.
 
-![Dieses Diagramm veranschaulicht die Skala NPS. Es zeigt, dass den Rängen von 0 bis 6 geben sind, 7 bis 8 Passiv sind und 9 bis 10 Projektträger sind.] (media/operate-my-service-image2.png "Dieses Diagramm veranschaulicht die Skala NPS. Es zeigt, dass den Rängen von 0 bis 6 geben sind, 7 bis 8 Passiv sind und 9 bis 10 Projektträger sind.")
+![Ein Diagramm, das die NPS-Skalierung veranschaulicht, zeigt, dass die Rankings von 0 bis 6 Gegner sind, 7 bis 8 sind passiv, und 9 bis 10 sind Promoter.] (media/operate-my-service-image2.png "Dieses Diagramm veranschaulicht die NPS-Skalierung. Es zeigt, dass die Rankings von 0 bis 6 Kritiker sind, 7 bis 8 sind passiv, und 9 bis 10 sind Promoter.")
 
-Obwohl die Zahl zur base NPS nützlich ist, erhalten Sie den größten Nutzen, durch das Analysieren von Benutzerkommentare. Sie helfen Ihnen zu verstehen, warum der Benutzer Teams an andere Personen empfehlen würden (oder würde nicht). Geben Sie diese Kommentare können wertvolles Feedback, um die Project-Hilfe oder Service-Management-Teams verstehen, die Anpassungen erforderlich, um einen Dienst für die Qualität.
+Obwohl die NPS-Basisnummer hilfreich ist, erhalten Sie den größten Nutzen aus der Analyse von Benutzerkommentaren. Sie werden Ihnen helfen zu verstehen, warum der Benutzer Teams anderen Personen empfehlen würde (oder nicht). Diese Kommentare können wertvolle Rückmeldungen liefern, damit die Projekt-oder Service Management Teams die Anpassungen verstehen, die erforderlich sind, um einen Qualitätsdienst bereitzustellen.
 
-Um NPS Umfragen für Ihre Organisation zu ermöglichen, können Sie Ihre bevorzugten Onlineumfrage Tool nutzen.
+Wenn Sie Ihrer Organisation NPS-Umfragen zur Verfügung stellen möchten, können Sie Ihr bevorzugtes Online Umfrage Tool nutzen.
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>Täglich/wöchentlich/monatlich/als erforderlichen Aufgaben
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tägliche/wöchentliche/monatliche/Bedarfs Aufgaben
 
-| Aktivität | Beschreibung | Trittfrequenz | Team zugewiesen |
+| Aktivität | Beschreibung | Häufigkeit | Team zugewiesen |
 |---|---|---|---|
-| Bewerten der Benutzer Stimmung | Erfassen Sie und bewerten Sie der Benutzer Stimmung mithilfe von Umfragen oder Interviews oder über einen Kanal Feedback in Teams oder Yammer. | Bei Bedarf | |
-| Aktualisieren der Annahme Pläne | Laufwerk Änderung in Ihrer Organisation basierend auf Feedback der Benutzer; Hierzu gehören Änderungen an Ihrer Kommunikationsplänen, Schulungsprogramme oder die Möglichkeit, dass Sie Unterstützung für Ihren Benutzern anbieten. | Bei Bedarf | |
+| Beurteilen der Benutzer Stimmung | Erfassen und bewerten Sie die Benutzer Stimmung mithilfe von Umfragen oder Interviews oder über einen Feedback Kanal in Teams oder "jammern". | Nach Bedarf | |
+| Aktualisieren von Adoptions Plänen | Laufwerksänderungen in Ihrer Organisation auf der Grundlage von Benutzer Feedback Dazu gehören Änderungen an Ihren Kommunikationsplänen, Schulungsprogrammen oder die Art und Weise, wie Sie Ihre Benutzer unterstützen können. | Nach Bedarf | |
 
 ### <a name="references"></a>Referenzen
 
-[NET Promoter Score](https://en.wikipedia.org/wiki/Net_Promoter)
+[Netto-Promoter-Score](https://en.wikipedia.org/wiki/Net_Promoter)
 
-[Verwenden von Yammer zum Sammeln von feedback](https://techcommunity.microsoft.com/t5/Yammer-Blog/The-Microsoft-Teams-team-uses-Yammer/ba-p/55210)
+[Verwenden von "jammern" zum Sammeln von Feedback](https://techcommunity.microsoft.com/t5/Yammer-Blog/The-Microsoft-Teams-team-uses-Yammer/ba-p/55210)
 
-[Bewährte Methoden für Benutzerfeedback](best-practices-feedback.md)
+[Bewährte Methoden für Benutzer Feedback](best-practices-feedback.md)
 
 <!--ENDOFSECTION-->
 
 ## <a name="manage-network-quality"></a>Verwalten der Netzwerkqualität
 
-Rufen Sie viele Planung Kernelemente optimieren, rechts Sizing und Korrigieren von Ihrer Netzwerkinfrastruktur, um sicherzustellen, dass einen hohe Qualität und effizienten Pfad für den Dienst Microsoft-Teams. Aufgaben zur Planung und Anforderungen werden in der Anleitung [Bereitschaft des Netzwerks](upgrade-prepare-environment-prepare-network.md) behandelt. Netzwerke weiterentwickelt werden häufig mit der Zeit aufgrund von Upgrades, Erweiterung oder anderen geschäftlichen Anforderungen. Es ist wichtig, dass Sie Ihren Anforderungen für Teams in Ihrem Netzwerk Planungsaktivitäten berücksichtigt.
+Viele grundlegende Planungselemente gehen in die Optimierung, die richtige Größenanpassung und die Remediation Ihrer Netzwerkinfrastruktur ein, um einen qualitativ hochwertigen, effizienten Pfad zum Microsoft Teams-Dienst zu gewährleisten. Die Planungsaufgaben und-Anforderungen werden in unserer [Netzwerk Readiness](upgrade-prepare-environment-prepare-network.md) -Anleitung behandelt. Netzwerke entwickeln sich im Laufe der Zeit aufgrund von Upgrades, Erweiterungen oder anderen geschäftlichen Anforderungen oft weiter. Es ist wichtig, dass Sie Ihre Anforderungen für Teams in Ihren Netzwerk Planungsaktivitäten berücksichtigen.
 
-Obwohl Netzwerk Planen einer Bereitstellung Teams ein wichtiger Aspekt ist, ist es gleichermaßen wichtig, um sicherzustellen, dass das Netzwerk fehlerfrei bleibt und bleibt aktuell, basierend auf geschäftlichen oder technischen Anforderungen ändern.
+Obwohl die Netzwerkplanung ein kritischer Aspekt einer Teams-Bereitstellung ist, ist es gleichermaßen wichtig, sicherzustellen, dass das Netzwerk weiterhin fehlerfrei bleibt und auf der Grundlage geänderter geschäftlicher oder technischer Anforderungen aktuell bleibt.
 
-Um die Integrität des Netzwerks sicherzustellen, müssen eine Reihe von Operationen Aktivitäten in geplanten Intervallen ausgeführt werden.
+Um die Integrität Ihres Netzwerks zu gewährleisten, müssen in regelmäßigen Abständen eine Reihe von Vorgangs Aktivitäten ausgeführt werden.
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>Täglich/wöchentlich/monatlich/bedarfsorientierte Aufgaben
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tägliche/wöchentliche/monatliche/bedarfsbezogene Aufgaben
 
-| Aktivität | Beschreibung | Trittfrequenz | Team zugewiesen |
+| Aktivität | Beschreibung | Häufigkeit | Team zugewiesen |
 |---|---|---|---|
-| Überwachen von Office 365 IP-Adressen und URLs | Überwachen von Änderungen an den [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips) mithilfe von den bereitgestellten [RSS-feed](https://go.microsoft.com/fwlink/p/?linkid=236301) , und starten Sie eine Anforderung einer entsprechenden Netzwerke Gruppen. | Täglich | |
-| Aktualisieren des Netzwerks aufgrund von Änderungen in Office 365 IP-Adressen und URLs | Nehmen Sie die entsprechenden Netzwerkkomponenten (Firewalls, Proxyservern, VPNs, mithilfe der clientseitigen Firewalls und usw.) entsprechend den Änderungen an den [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips)überarbeitet Updates. | Bei Bedarf | |
-| Geben Sie zum Erstellen von Daten | Stellen Sie aktualisierte Subnetz für die Qualität Champion (oder beteiligten), um sicherzustellen, dass die [Erstellung von Definitionen im CQD](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) auf dem aktuellen Stand gehalten werden. | Bei Bedarf | |
-| Implementieren der Änderung | Implementieren Sie Änderungen im Netzwerk zu Support veränderbaren Teams geschäftliche und technische Anforderungen. Netzwerkelementen können Folgendes umfassen:<ul><li>Firewalls</li><li>VPNs</li><li>Verkabelt und Wi-Fi-Netzwerke</li><li>Internet-Konnektivität und ExpressRoute</li><li>DNS</li></ul> | Bei Bedarf | |
-| Netzwerk-Überwachung und berichterstellung | Überwachen des Netzwerks durchgehende für Verfügbarkeit, Kapazität Trends und Auslastung mit Ihrer vorhandenen Drittanbieter-Netzwerk-Verwaltungstools und reporting-Funktionen, die von Ihrem Netzwerkanbieter zur Verfügung. Verwenden Sie Trend Daten für die Netzwerk-kapazitätsplanung. | Täglich, wöchentlich, monatlich | |
-| Kapazitätsplanung | Zusammenarbeit mit den Teams Service Besitzern zu verstehen, geschäftliche und technische Anforderungen, die zusätzliche Kapazität Änderungen Laufwerk möglicherweise ändern. Nutzen Sie die Ergebnisse aus dem [Netzwerk Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) zu gewährleisten, dass genügend Bandbreite für Microsoft-Teams zur Verfügung steht. | Bei Bedarf | |
-| Behandlung von Netzwerkproblemen und-Wartung | Unterstützen der Teams Helpdesks, Dienstbesitzer und der verantwortlichen beheben und Beheben von Problemen, um im Zusammenhang mit der Konnektivität Teams, Zuverlässigkeit oder Qualität. Netzwerkelementen können Folgendes umfassen:<ul><li>Firewalls</li><li>VPNs</li><li>Verkabelt und Wi-Fi-Netzwerke</li><li>Internet-Konnektivität und ExpressRoute</li><li>DNS</li></ul> | Bei Bedarf | |
-| Disaster Recovery und Testen der hohen Verfügbarkeit | Führen Sie regelmäßige hohe Verfügbarkeit und Disaster Recovery-Tests für die Netzwerkinfrastruktur, um sicherzustellen, dass es sich um den angegebenen Dienst-Level-Ziele (SLOs) oder Service Level Agreements (SLAs) für den Dienst Teams erfüllt. | Monatlich | |
+| Überwachen von Office 365 IPS und URLs | Überwachen Sie alle Änderungen an den [Office 365-URLs und IP-Adressbereichen](https://aka.ms/o365ips) mit dem bereitgestellten [RSS-Feed](https://go.microsoft.com/fwlink/p/?linkid=236301) , und initiieren Sie eine Änderungsanforderung für entsprechende Netzwerkgruppen. | Täglich | |
+| Aktualisieren des Netzwerks auf Grundlage von Änderungen an Office 365 IPS und URLs | Aktualisieren Sie die anwendbaren Netzwerkkomponenten (Firewalls, Proxy Server, VPNs, clientseitige Firewalls usw.), um Änderungen an den [Office 365-URLs und IP-Adressbereichen](https://aka.ms/o365ips)wiederzugeben. | Nach Bedarf | |
+| Bereitstellen von Gebäudedaten | Bereitstellen von aktualisierten Subnetz-Informationen für den Quality Champion (oder relevante Stakeholder), um sicherzustellen, dass die [Gebäude Definitionen in CQD](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) auf dem neuesten Stand gehalten werden. | Nach Bedarf | |
+| Implementieren von Änderungen | Implementieren Sie Änderungen im Netzwerk, um die geschäftlichen und technischen Anforderungen des Teams zu ändern. Zu den Netzwerkelementen gehören:<ul><li>Firewalls</li><li>VPNs</li><li>Kabelgebundene und WLAN-Netzwerke</li><li>Internet Konnektivität und Express Route</li><li>DNS</li></ul> | Nach Bedarf | |
+| Netzwerküberwachung und-Berichterstellung | Überwachen Sie das Ende des Netzwerks auf Verfügbarkeit, Auslastung und Kapazitäts Trends, indem Sie die vorhandenen Netzwerkverwaltungstools und Berichtsfunktionen von Drittanbietern verwenden, die von ihren Netzwerkanbietern zur Verfügung stehen. Verwenden Sie Trenddaten für die Netzwerkkapazitätsplanung. | Täglich, wöchentlich, monatlich | |
+| Kapazitätsplanung | Arbeiten Sie mit den Team Dienstanbietern zusammen, um sich verändernde geschäftliche und technische Anforderungen zu verstehen, die zusätzliche Kapazitätsänderungen antreiben könnten. Nutzen Sie die Ergebnisse des [Netzwerk Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) , um sicherzustellen, dass für Microsoft Teams genügend Bandbreite zur Verfügung steht. | Nach Bedarf | |
+| Netzwerkproblembehandlung und-Behebung | Unterstützen Sie die Teams-Helpdesks, Dienstbesitzer und wichtigen Teilnehmer bei der Problembehandlung und Beheben von Problemen im Zusammenhang mit der Konnektivität, Zuverlässigkeit oder Qualität von Teams. Zu den Netzwerkelementen gehören:<ul><li>Firewalls</li><li>VPNs</li><li>Kabelgebundene und WLAN-Netzwerke</li><li>Internet Konnektivität und Express Route</li><li>DNS</li></ul> | Nach Bedarf | |
+| Testen von Disaster Recovery und Höchstverfügbarkeit | Führen Sie regelmäßige hoch Verfügbarkeits-und Disaster Recovery-Tests für die Netzwerkinfrastruktur durch, um sicherzustellen, dass Sie die angegebenen Service Level Objectives (SLOs) oder Service Level Agreements (SLAs) für den Teams-Service erfüllt. | Monatlich | |
 
 ### <a name="references"></a>Referenzen
 
@@ -367,37 +367,37 @@ Um die Integrität des Netzwerks sicherzustellen, müssen eine Reihe von Operati
 
 [URLs und IP-Adressbereiche für Office 365](https://aka.ms/o365ips)
 
-[Erstellen von Daten-schema](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
+[Erstellen eines Datenschemas](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
 
 <!--ENDOFSECTION-->
 
-## <a name="assess-and-ensure-quality"></a>Bewerten und Sicherstellen der Qualität
+## <a name="assess-and-ensure-quality"></a>Bewerten und sicherstellen von Qualität
 
-Alle Organisationen benötigen, eine Gruppe oder eine Person für die Qualität verantwortlich sein. Dies ist die wichtigste Rolle bei der Dienstverwaltung. Die Rolle für die Qualität Champion wird an eine Person oder Gruppe, die über ihre Benutzer wünschen engagierten ist zugewiesen.
-Diese Rolle setzt die Fähigkeit voraus, Trends in der Umgebung zu erkennen, und muss gefördert werden, damit die Person oder Gruppe in Zusammenarbeit mit anderen Teams Verbesserungen vorantreiben kann. Der beste Kandidat für einen Qualitätspionier ist normalerweise der Leiter des Kundendiensts. Je nach Größe und Komplexität der Organisation kann dies eine Person oder Gruppe mit dem Schwerpunkt auf sicherstellen, dass ein hoher Qualität Benutzererlebnis sein.
+Alle Organisationen benötigen eine Gruppe oder eine Person, um für Qualität verantwortlich zu sein. Dies ist die wichtigste Rolle bei der Dienstverwaltung. Die Rolle "Qualitäts Champion" wird einer Person oder Gruppe zugewiesen, die leidenschaftlich über die Benutzererfahrung verfügt.
+Diese Rolle setzt die Fähigkeit voraus, Trends in der Umgebung zu erkennen, und muss gefördert werden, damit die Person oder Gruppe in Zusammenarbeit mit anderen Teams Verbesserungen vorantreiben kann. Der beste Kandidat für einen Qualitätspionier ist normalerweise der Leiter des Kundendiensts. Je nach Größe und Komplexität des Unternehmens kann es sich um eine Person oder Gruppe mit einer Leidenschaft für die Gewährleistung einer qualitativ hochwertigen Benutzererfahrung handeln.
 
-Die Qualität Champion nutzt vorhandenen Tools und dokumentierte Prozessen, wie aufrufen Quality Dashboard (CQD) und die Qualität der Erfahrung überprüfen Leitfaden zum Überwachen der Benutzer wünschen, identifizieren Qualität Trends und-Wartung Laufwerk bei Bedarf.
-Die Qualität Champion sollten mit den jeweiligen Teams auf Laufwerk Remediation Aktionen und Bericht zu einem Lenkungsausschuss zu des Fortschritts und der Probleme open arbeiten.
+Der Quality Champion nutzt die vorhandenen Tools und dokumentierten Prozesse, wie beispielsweise das Anruf Qualitäts-Dashboard (CQD) und den Leitfaden zur Überprüfung der Qualität von Erfahrungen, um die Benutzererfahrung zu überwachen, qualitätstrends zu erkennen und bei Bedarf eine Problembehebung durchführen zu können.
+Der Quality Champion sollte mit den jeweiligen Teams zusammenarbeiten, um Behebungsmaßnahmen zu Unternehmen und einem Lenkungsausschuss über den Fortschritt und alle offenen Probleme Bericht zu erstatten.
 
-[Erleben Sie die Überprüfung Handbuch für Quality of](https://aka.ms/qerguide) enthält Aktivitäten, die bewerten und-Wartung Anleitungen in wichtige Bereiche, die am stärksten zur Verbesserung der benutzerfreundlichkeit auswirken. Der Anleitungen in im Handbuch für die Überprüfung von Quality Erfahrung behandelt CQD Online als primäres Tool melden, und überprüfen Sie jeden dieser Bereiche mit Schwerpunkt auf Audio die Annahme und Auswirkungen auf die Maximieren Verwendung. Alle zur Verbesserung der Audiowahrnehmung vorgenommenen Netzwerkoptimierungen äußern sich auch direkt als Verbesserungen bei der Video- und Desktopfreigabe.
+Der [Leitfaden zur Überprüfung der Qualität](https://aka.ms/qerguide) der Benutzerfreundlichkeit umfasst Aktivitäten, die in wichtigen Bereichen, die die Verbesserungen der Benutzeroberfläche am stärksten beeinflussen, die Behebungs Anleitung bewerten und bereitstellen. Die im Leitfaden zur Überprüfung der Qualität der Überprüfung bereitgestellten Anleitungen konzentrieren sich auf die Verwendung von CQD Online als primäres Tool für die Berichterstellung und Untersuchung der einzelnen Bereiche, wobei der Schwerpunkt auf Audio liegt, um die Akzeptanz und Alle zur Verbesserung der Audiowahrnehmung vorgenommenen Netzwerkoptimierungen äußern sich auch direkt als Verbesserungen bei der Video- und Desktopfreigabe.
 
-Es wird dringend empfohlen, dass am Anfang der Qualität "Champion" benennen. Nach dem benannt wird, sollte sie beginnen mit der Inhalte in die Erfahrung überprüfen Handbuch für Quality of und zugehörige Schulungsmaterial vertraut machen.
+Wir empfehlen Ihnen dringend, den Qualitätschampion frühzeitig zu benennen. Nachdem Sie nominiert wurden, sollten Sie sich mit dem Inhalt des Überprüfungs Leitfadens für die Qualität der Erfahrung und zugehörigen Schulungsmaterialien vertraut machen.
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>Täglich/wöchentlich/monatlich/bedarfsorientierte Aufgaben
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tägliche/wöchentliche/monatliche/bedarfsbezogene Aufgaben
 
-| Aktivität | Beschreibung | Trittfrequenz | Team zugewiesen |
+| Aktivität | Beschreibung | Häufigkeit | Team zugewiesen |
 |---|---|---|---|
-| Benennen Sie und Schulen Sie Qualität champion(s) | Benennen und einen Champion Qualität Schulen. | Bei Bedarf | |
-| Führen Sie Quality of Experience-Bewertungen (QERs) | Führen Sie eine QER um Trends bei der Qualität und Zuverlässigkeit, identifizieren für definierten Ziele überprüfen, und melden Sie sich der Verantwortlichen in der Organisation. | Monatlich (wöchentlich während Bereitstellungen) | |
-| Laufwerk-Wartung | Koordinieren von Remediation-Maßnahmen in der Organisation basierend auf der QER Bewertung und die Ergebnisse. | Bei Bedarf | |
-| Erstellen von Daten in CQD aktualisieren | Aktualisieren oder neue Definitionen für Gebäude in CQD hinzufügen, wenn mit dem Netzwerk geändert wird (siehe [Erstellen Hochladen von Informationen](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)). | Bei Bedarf | |
-| Füllen Sie die Qualität Champion-Rolle | End-to-End-Verantwortung für die Qualität in der Organisation. Dazu gehören:<ul><li>Stellen Sie sicher, dass die QER regelmäßig durchgeführt wird.</li><li>Skalieren der verantwortlichen Mitarbeiterstatus Qualität melden.</li><li>Vergewissern Sie sich zum Erstellen von Daten, die Definitionen Stand sind.</li><li>Koordinieren von Remediation-Maßnahmen in der Organisation, um sicherzustellen, dass Benutzer eine hohe Qualität Erfahrung mit Teams verfügen.</li></ul> | Täglich | |
+| Nominierung und Schulung von Quality Champion (s) | Einen Qualitätschampion benennen und Schulen. | Nach Bedarf | |
+| Durchführen von Bewertungen der Quality of Experience (QERs) | Führen Sie eine QER durch, um Trends in Bezug auf Qualität und Zuverlässigkeit zu erkennen, anhand definierter Ziele zu überprüfen und den wichtigsten Stakeholdern in der Organisation zu melden. | Monatlich (wöchentlich während der Bereitstellung) | |
+| Behebung von Laufwerken | Koordinieren Sie die Behebungs Bemühungen in der gesamten Organisation auf der Grundlage der QER-Bewertungen und-Ergebnisse. | Nach Bedarf | |
+| Aktualisieren von Gebäudedaten in CQD | Aktualisieren oder Hinzufügen neuer Gebäude Definitionen in CQD, wenn Änderungen am Netzwerk vorgenommen werden (siehe [Hochladen von Gebäudeinformationen](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)). | Nach Bedarf | |
+| Füllen der Rolle "Qualitäts Champion" | End-to-End-Verantwortung für die Qualität in der Organisation Dazu gehören:<ul><li>Stellen Sie sicher, dass die QER regelmäßig durchgeführt wird.</li><li>Melden Sie sich an wichtige Stakeholder zum Qualitätsstatus.</li><li>Stellen Sie sicher, dass die Definitionen für Gebäudedaten auf dem neuesten Stand sind.</li><li>Koordinieren Sie die Behebungs Bemühungen in der gesamten Organisation, um sicherzustellen, dass die Benutzer eine qualitativ hochwertige Erfahrung mit Teams haben.</li></ul> | Täglich | |
 
 ### <a name="references"></a>Referenzen
 
 [Vertrautmachen mit dem AQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
-[Informationen zum Erstellen von hochladen](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
+[Hochladen von Gebäudeinformationen](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
 [Handbuch für die Überprüfung der QoE (Quality of Experience)](https://aka.ms/qerguide)
 
@@ -405,50 +405,50 @@ Es wird dringend empfohlen, dass am Anfang der Qualität "Champion" benennen. Na
 
 ## <a name="manage-endpoints"></a>Verwalten von Endpunkten
 
-Microsoft-Teams, Endpunkte können als jeder PC, Mac, Tablet oder Mobiltelefonnummer (oder eines anderen) Gerät, die auf dem Client Teams definiert werden. Der Begriff *Endpunkt* umfasst nicht nur dem Gerät selbst, aber wie ein Benutzer auf das Gerät verbindet – beispielsweise mithilfe des Geräts integrierten Mikrofon oder Lautsprecher, Ohrstöpsel oder eine optimierte Kopfhörer. Nachdem sie bereitgestellt haben, müssen Endpunkte nicht vergessen. Die Teams Endpunkte erfordern laufenden Wartung und Pflege. Den folgenden Abschnitten werden bestimmte Bereiche konzentrieren.
+Microsoft Teams-Endpunkte können als alle PC-, Mac-, Tablet-oder mobilen Geräte (oder ein anderes Gerät) definiert werden, auf denen der Client für Teams ausgeführt wird. Der Term- *Endpunkt* umfasst nicht nur das Gerät selbst, sondern wie ein Benutzer eine Verbindung mit dem Gerät herstellt, beispielsweise mithilfe des integrierten Mikrofons oder Lautsprechers des Geräts, Ohrstöpsel oder eines optimierten Headsets. Nach der Bereitstellung dürfen Endpunkte nicht vergessen werden. Die Endpunkte der Teams erfordern ständige Wartung und Wartung. In den folgenden Abschnitten werden bestimmte Bereiche beschrieben, auf die Sie sich konzentrieren sollten.
 
-### <a name="endpoint-requirements"></a>Anforderungen für Endpunkt
+### <a name="endpoint-requirements"></a>Endpunkt Anforderungen
 
-Einer der wichtigsten Vorteile von Teams ist, dass der Client automatisch auf dem aktuellen Stand ist. Die Clients für PC und Mac werden mit einem Hintergrundprozess aktualisiert, der nach neuen Builds sucht und den neuen Client herunterlädt, wenn sich die App im Leerlauf befindet. Die mobilen apps Teams sind über ihre jeweiligen app Speicher aktualisiert.
+Einer der Hauptvorteile von Teams besteht darin, dass der Client automatisch auf dem neuesten Stand gehalten wird. Die Clients für PC und Mac werden mit einem Hintergrundprozess aktualisiert, der nach neuen Builds sucht und den neuen Client herunterlädt, wenn sich die App im Leerlauf befindet. Die mobilen Teams-apps werden über ihre jeweiligen App-Stores aktuell gehalten.
 
-Der Client Teams über Mindestanforderungen im Hinblick auf die zugrunde liegenden Softwareplattform verfügt. Diese Anforderungen möglicherweise über einen Zeitraum ändern, und daher ist es wichtig, dass Sie diese Änderungen überwachen. Der Client Teams verfügt beispielsweise über eine minimale iOS-Version. Wenn der Client einen Internetbrowser verwendet, muss der Browser ebenfalls aktualisiert werden. Eine Liste der unterstützten Plattformen finden Sie im [-Clients für Microsoft-Teams erhalten möchten](get-clients.md).
+Der Client für Teams hat Mindestanforderungen hinsichtlich der zugrunde liegenden Softwareplattform. Diese Anforderungen können sich im Laufe der Zeit ändern, und daher ist es wichtig, dass Sie Sie auf Änderungen überwachen. Der Client für Teams verfügt beispielsweise über eine minimale IOS-Version. Wenn der Client einen Internet Browser verwendet, muss der Browser ebenfalls aktuell gehalten werden. Eine Liste der unterstützten Plattformen finden [Sie unter Abrufen von Clients für Microsoft Teams](get-clients.md).
 
 ### <a name="endpoint-firewalls"></a>Endpunktfirewalls
 
 Clientseitige Firewalls können erhebliche Auswirkungen auf die Benutzerfreundlichkeit haben.
-Mithilfe der clientseitigen Firewalls können sogar anzurufen aufgebaut wird und die Anrufqualität beeinflussen. Nachdem die entsprechenden Ausnahmen auf dem Clientfirewall konfiguriert wurden, müssen sie auf dem aktuellen Stand werden anhand der Informationen in [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips). Ihre Drittanbieter müssen spezifische Leitfäden dafür, wie die Ausnahmen zu aktualisieren.
+Client seitige Firewalls können die Anrufqualität beeinträchtigen und sogar verhindern, dass ein Anruf eingerichtet wird. Nachdem die entsprechenden Ausschlüsse für die Client Firewall konfiguriert wurden, müssen Sie basierend auf den Informationen in [Office 365-URLs und IP-Adressbereichen](https://aka.ms/o365ips)auf dem neuesten Stand gehalten werden. Ihr Drittanbieter erhält spezifische Anleitungen für die Aktualisierung der Ausschlüsse.
 
 ### <a name="wi-fi-drivers"></a>WLAN-Treiber
 
-Wi-Fi-Treiber können problematisch sein. Als Beispiel möglicherweise ein Treiber sehr aggressive roaming-Verhaltens zwischen Zugriffspunkten, die nicht benötigte-Zugriffspunkt wechseln, dem führenden Anruf schlechter Qualität auslösen kann. Ein leistungsschwachen Wi-Fi-Treiber möglicherweise durch eine Qualität Erfahrung Prüfung festgestellt werden (siehe [Erfahrung überprüfen Handbuch für Quality of](https://aka.ms/qerguide) für mehr Details). Es ist wichtig, einen Qualität datengesteuerten Prozess implementieren, der neue Wi-Fi-Treiber überwacht und stellt sicher, dass sie vor dem allgemeinen Benutzersegmente bereitgestellt wird getestet werden.
+WLAN-Treiber sind möglicherweise problematisch. Ein Beispiel: ein Treiber kann sehr aggressive Roaming-Verhaltensweisen zwischen Zugriffspunkten aufweisen, die unnötige Zugriffspunktwechsel auslösen können, was zu schlechter Anrufqualität führt. Ein schlechter leistungsfähiger WLAN-Treiber wird möglicherweise durch eine Überprüfung der Qualität der Erfahrung ermittelt (Weitere Einzelheiten finden Sie im [Leitfaden zur Überprüfung der Qualität](https://aka.ms/qerguide) ). Es ist wichtig, einen qualitätsorientierten Prozess zu implementieren, der neue Wi-Fi-Treiber überwacht und sicherstellt, dass Sie getestet werden, bevor Sie für die allgemeine Benutzer Bevölkerung bereitgestellt werden.
 
-### <a name="endpoint-management"></a>Endpunkt-Verwaltung
+### <a name="endpoint-management"></a>Endpunkt Verwaltung
 
-Ein Katalog mit unterstützten Endpunkten und Geräte (wie Headsets) Schnittstelle sollte verfügbar und verwaltet werden. In diesem Katalog wird eine Liste der zugelassenen Geräte enthalten, die ausgewählt und als Teil der Phasen Ermitteln übergeordneter Faktoren und Onboard überprüft wurden. In der Regel sind bestimmte Geräte auf den Bedürfnissen der Attribute, die diese Rolle für die einzelnen Rollen in Ihrer Organisation aktiviert. Alle Endpunkte ein Lebenszyklus haben, und zum Verwalten der Anbieter Verträge, Garantie, Ersatz, Verteilung, und Reparieren von Richtlinien, die diesen Geräten zugeordnet werden müssen.
+Ein Katalog mit unterstützten Endpunkten und Schnittstellengeräten (wie Headsets) sollte verfügbar und gewartet werden. Dieser Katalog enthält eine Liste der genehmigten Geräte, die als Teil der Phase enVision und Onboard ausgewählt und überprüft wurden. In der Regel werden bestimmte Geräte für jeden Persona-Typ in Ihrer Organisation ausgewählt, um die Anforderungen der Attribute dieser Person zu erfüllen. Alle Endpunkte verfügen über einen Lebenszyklus, und Sie müssen die Vertragspartner Verträge, Gewährleistungs-, Ersatz-, Verteilungs-und Reparatur Richtlinien verwalten, die diesen Geräten zugeordnet sind.
 
-### <a name="endpoint-troubleshooting"></a>Endpunkt-Problembehandlung
+### <a name="endpoint-troubleshooting"></a>Problembehandlung für Endpunkt
 
-Auch wenn Sie die vorherige Anleitung durchgeführt haben, können Benutzer in Ihrer Organisation weiterhin bei Teams Probleme auftreten ausgeführt. Obwohl möglicherweise das Problem nicht mit dem Endpunkt selbst, sind die Symptome des Problems in der Regel durch den Client für den Benutzer verfügbar gemacht. Die folgende Anleitung soll allgemeine Schritte zu übermitteln, die Sie ergreifen können, um dieses Problem zu beheben. Es ist nicht als ein umfassender Leitfaden zur Problembehandlung. Die Schritte in einer bestimmten Reihenfolge bereitgestellt werden, aber sie müssen nicht explizit ausgeführt werden und möglicherweise nicht zutreffend, abhängig von der Art des Problems.
+Auch wenn Sie die vorherigen Anleitungen befolgt haben, können die Benutzer in Ihrer Organisation weiterhin Probleme mit Teams eingehen. Obwohl das Problem möglicherweise nicht mit dem Endpunkt selbst verbunden ist, werden die Symptome des Problems in der Regel über den Client für den Benutzer angezeigt. Die folgenden Anleitungen sollen allgemeine Schritte zur Behebung des Problems bereitstellen. Es handelt sich nicht um eine umfassende Anleitung zur Fehlerbehebung. Die Schritte werden in einer bestimmten Reihenfolge bereitgestellt, müssen aber nicht explizit befolgt werden und sind je nach Art des Problems möglicherweise nicht anwendbar.
 
-1. **Überprüfen Dienststatus:** Das Problem aus, das ein Benutzer unter Umständen auftreten kann, kann auf ein Ereignis verknüpft werden, die sich negativ auf die Teams Service oder Itsdependent Dienste betrifft. Als ersten Schritt wird empfohlen, dass Sie bestätigen, dass keine aktiven Dienstprobleme aufgetreten sind. Wenden Sie sich an [Office 365-Dienststatus zu überprüfen](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0). Denken Sie daran zu prüfen, ob der Status der abhängigen Dienste (beispielsweise Exchange, SharePoint, OneDrive für Unternehmen). Überwachung für Dienststatus wird im vorherigen Abschnitt, [Monitor Dienststatus](#monitor-service-health)ausführlich erläutert.
+1. Über **prüfen des Dienststatus:** Das Problem, das ein Benutzer möglicherweise aufweist, kann sich auf ein Ereignis beziehen, das sich negativ auf den Teams-Dienst oder itsdependent-Dienste auswirkt. Als ersten Schritt empfehlen wir, dass Sie bestätigen, dass es keine aktiven Dienst Probleme gibt. Informieren [Sie sich, wie Sie den Office 365-Dienststatus überprüfen können](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0). Denken Sie daran, den Status abhängiger Dienste zu überprüfen (beispielsweise Exchange, SharePoint, OneDrive for Business). Die Überwachung des Dienststatus wird im vorherigen Abschnitt, Überwachen des [Dienststatus](#monitor-service-health), ausführlicher erläutert.
 
-2. **-Clientkonnektivität überprüfen:** Verbindungsprobleme verursachen Funktionalität oder Registrierungsprobleme in Teams. (Besonders für neue Websites oder Standorte) wird empfohlen, dass Sie die Verbindung mit dem Dienst überprüfen. Stellen Sie sicher, dass die folgende Anleitung für [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips) für jeden Standort des Telefonfestnetzes verwendet wird. Sie können das [Tool zur Bewertung der Microsoft Network](https://www.microsoft.com/download/details.aspx?id=53885) Informationen zum Ausführen eines Verbindungstest, um zu überprüfen, dass die medienports für Teams Funktionen ordnungsgemäß geöffnet wurden nutzen. Ausführliche Schritte zum Ausführen der Verbindungstests werden in der Anleitung [Bereitschaft des Netzwerks](upgrade-prepare-environment-prepare-network.md) bereitgestellt.
+2. Über **Prüfen der Clientkonnektivität:** Verbindungsprobleme führen zu Funktions-oder Anmeldeproblemen in Teams. Wir empfehlen (insbesondere für neue Websites oder Standorte), dass Sie die Verbindung mit dem Dienst überprüfen. Stellen Sie sicher, dass die folgenden [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips) für jede Website befolgt werden. Sie können das Tool für die [Microsoft-Netzwerkbewertung](https://www.microsoft.com/download/details.aspx?id=53885) nutzen, um einen Verbindungstest durchzuführen, um zu überprüfen, ob die Medienanschlüsse für die Teamfunktionen ordnungsgemäß geöffnet wurden. Detaillierte Anweisungen zum Ausführen der Verbindungstests finden Sie im [Netzwerk Readiness](upgrade-prepare-environment-prepare-network.md) -Leitfaden.
 
-3. **Überprüfen Sie die Liste der bekannten Probleme:** Finden Sie in der [Liste bekannter Probleme für Teams](known-issues.md) , um festzustellen, ob der Benutzer sich negativ auf durch eines der folgenden Probleme betroffen ist. Führen Sie die problemumgehung zur Verfügung gestellt (sofern vorhanden), um das Problem zu beheben.
+3. **Überprüfen Sie die Liste bekannte Probleme:** Konsultieren Sie die [Liste der bekannten Probleme für Teams](known-issues.md) , um festzustellen, ob der Benutzer von einem dieser Probleme negativ beeinflusst wurde. Befolgen Sie die Problemumgehung (sofern vorhanden), um das Problem zu beheben.
 
-4. **Besuchen Sie die Microsoft-Teams, Community:** Der [Microsoft-Teams, Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) bietet dedizierte Leerzeichen für Teams. Der Community Teams bietet eine Diskussionsliste, Blogbeiträge und Teams zentraler Ankündigungen. Sie können eine Frage oder vorherige Diskussionen für Lösungen auf Ihr Problem suchen.
+4. **Besuchen Sie die Microsoft Teams-Community:** Die [Microsoft Teams-Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) bietet dedizierte Räume für Teams. Die Teams-Community bietet eine Diskussionsliste, Blogbeiträge und Ankündigungen, die sich auf Teams konzentrieren. Sie können eine Frage Posten oder frühere Diskussionen nach Lösungen für Ihr Problem durchsuchen.
 
-5. **Support von Microsoft:** Microsoft-Support erhalten Sie bei Problemen mit Teams online oder per Telefon. Informationen finden Sie unter [Kontakt für Business-Produkte zu unterstützen](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). Für Premier Kunden Anforderungen initiiert werden können, durch Befolgen der Anleitung zur Unterstützung [Kontaktieren des Supports bei Microsoft-Teams (Premier Kunden)](https://support.microsoft.com/premier/contacts).
+5. **Wenden Sie sich an den Microsoft-Support:** Sie können sich an den Microsoft-Support wenden, um Probleme mit Teams Online oder telefonisch zu beheben. Informationen finden Sie unter [kontaktieren des Supports für Business-Produkte](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). Für Premier-Kunden können Supportanfragen initiiert werden, indem Sie die Anleitungen unter [Kontakt Support für Microsoft Teams (Premier-Kunden)](https://support.microsoft.com/premier/contacts)befolgen.
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>Täglich/wöchentlich/monatlich/bedarfsorientierte Aufgaben
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tägliche/wöchentliche/monatliche/bedarfsbezogene Aufgaben
 
-| Aktivität | Beschreibung | Trittfrequenz | Team zugewiesen |
+| Aktivität | Beschreibung | Häufigkeit | Team zugewiesen |
 |---|---|---|---|
-| Anforderungen für Endpunkt | Sicherstellen Sie, dass die gesamte erforderliche Software für Teams, die in [Get-Clients für Microsoft-Teams](get-clients.md)aufgeführten erfüllen Endpunkt weiterhin Teams. | Monatlich | |
-| Endpunktfirewalls | Verwalten Sie die entsprechenden Ausnahmen auf der Grundlage der Informationen in [Office 365-URLs und IP-Adressbereiche](https://aka.ms/o365ips)Endpunkt Firewall. Ihre Drittanbieter müssen bestimmte Richtlinien zum Verwalten der Ausschlüsse. Abonnieren Sie den [RSS-feed](https://support.office.com/o365ip/rss) Änderungen automatisch benachrichtigt werden sollen. | Bei Bedarf | |
-| WLAN-Treiber | Testen Sie und aktualisieren Sie die Wi-Fi-Treiber auf dem PC. Überprüfen Sie die Ergebnisse mithilfe von CQD ([Qualität überprüfen Handbuch für of Experience](https://aka.ms/qerguide)). | Bei Bedarf | |
-| Endpunkt-Verwaltung | Verwalten des Katalogs der unterstützten Endpunkten und Geräte (wie Headsets) Schnittstelle. Hersteller Verträge, Garantie, Verteilung, Replacement verwalten und Richtlinien zu reparieren. | Monatlich | |
-| Endpunkt-Problembehandlung | Problembehandlung bei Aufgaben kann Überprüfen der Konnektivität, konsultieren die Liste der bekannten Probleme, Log sammeln, Analyse und Weiterleitung zu Support von Microsoft oder von Drittanbietern enthalten. | Bei Bedarf | |
+| Endpunkt Anforderungen | Stellen Sie sicher, dass der Endpunkt des Teams weiterhin alle Softwareanforderungen für Teams erfüllt, die unter [Abrufen von Clients für Microsoft Teams](get-clients.md)aufgeführt sind. | Monatlich | |
+| Endpunktfirewalls | Verwalten Sie die entsprechenden Ausnahmen für die Endpunkt Firewall basierend auf den Informationen in [Office 365-URLs und IP-Adressbereichen](https://aka.ms/o365ips). Ihr Drittanbieter erhält spezifische Anleitungen für die Beibehaltung der Ausschlüsse. Abonnieren Sie den [RSS-Feed](https://support.office.com/o365ip/rss) , um automatisch über Änderungen benachrichtigt zu werden. | Nach Bedarf | |
+| WLAN-Treiber | Testen und aktualisieren Sie die WLAN-Treiber auf dem PC. Überprüfen Sie die Ergebnisse mithilfe von CQD ([Quality of Experience Review Guide](https://aka.ms/qerguide)). | Nach Bedarf | |
+| Endpunkt Verwaltung | Verwalten Sie den Katalog unterstützter Endpunkte und Schnittstellengeräte (wie Headsets). Verwalten von Lieferantenverträgen, Gewährleistungs-, Verteilungs-, Ersatz-und Reparatur Richtlinien. | Monatlich | |
+| Problembehandlung für Endpunkt | Die Problembehandlung kann die Überprüfung der Konnektivität, das Konsultieren der Liste der bekannten Probleme, die Erfassung von Protokollen, die Analyse und die Eskalation des Microsoft-Supports oder von Drittanbietern umfassen. | Nach Bedarf | |
 
 ### <a name="references"></a>Referenzen
 
@@ -456,7 +456,7 @@ Auch wenn Sie die vorherige Anleitung durchgeführt haben, können Benutzer in I
 
 [Clients für Microsoft Teams abrufen](get-clients.md)
 
-[Microsoft-Teams-community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
+[Microsoft Teams-Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
 [Bekannte Probleme für Microsoft Teams](known-issues.md)
 
@@ -464,43 +464,43 @@ Auch wenn Sie die vorherige Anleitung durchgeführt haben, können Benutzer in I
 
 [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-[Kontakt Premier support](https://support.microsoft.com/premier/contacts)
+[Kontaktieren des Premier-Supports](https://support.microsoft.com/premier/contacts)
 
-[Videos des Teams für die Problembehandlung](https://www.youtube.com/watch?v=4O4d_7uZTQY)
+[Problembehandlung für Teams – Video](https://www.youtube.com/watch?v=4O4d_7uZTQY)
 
 <!--ENDOFSECTION-->
 
 ## <a name="manage-teams"></a>Verwalten von Teams
 
-Nachdem der Dienst Microsoft-Teams bereitgestellt wurde, müssen Sie mehrere Aktivitäten zur Verwaltung ausführen. Der Bereich der Aktivitäten von der Verwaltung von Dienst und Einzelbenutzern für kapazitätsplanung und Bereitstellung Lizenzierung und Telefonnummern. In den folgenden Abschnitten werden einige der folgenden allgemeinen Verwaltungsaufgaben behandelt.
+Nachdem der Microsoft Teams-Dienst bereitgestellt wurde, müssen Sie mehrere Aktivitäten im Zusammenhang mit der Verwaltung durchführen. Die Aktivitäten sind von der Verwaltung des Diensts und einzelnen Benutzern bis hin zur Kapazitätsplanung und Bereitstellung von Lizenzen und Telefonnummern. In den folgenden Abschnitten werden einige dieser allgemeinen Verwaltungsaufgaben behandelt.
 
-### <a name="service-administration"></a>Verwalten des Diensts
+### <a name="service-administration"></a>Dienstverwaltung
 
-Der Dienst Teams hat mehrere Einstellungen, die gesamte Mandanten konfiguriert werden können.
-Änderungen an den Einstellungen für Mandanten betreffen alle Benutzer, die für Teams aktiviert wurden. Eine ausführliche Übersicht über diese Einstellungen finden Sie unter [Microsoft-Teams, Verwalten von Einstellungen für Ihre Organisation](enable-features-office-365.md).
+Der Team Dienst verfügt über mehrere Einstellungen, die mandantenübergreifend konfiguriert werden können.
+Änderungen an den Mandanten Einstellungen wirken sich auf alle Benutzer aus, die für Teams aktiviert wurden. Eine detaillierte Liste dieser Einstellungen finden Sie unter [Verwalten von Microsoft Teams-Einstellungen für Ihre Organisation](enable-features-office-365.md).
 
-### <a name="user-administration"></a>Verwalten des
+### <a name="user-administration"></a>Benutzerverwaltung
 
-Zur Unterstützung der Benutzer eine Organisation eine beliebige Anzahl von Aufgaben im Zusammenhang mit erfordern möglicherweise – spezifischen Aufgaben von einer Organisation zur nächsten variieren. Schließlich müssen diese Aufgaben durch ein Supportteam verwaltet werden, die diesen betrieblichen Aufgaben zugewiesen wurde. Zur Unterstützung der Benutzer in Teams sind häufig die folgenden Aufgaben erforderlich.
+Zur Unterstützung von Benutzern erfordert eine Organisation möglicherweise eine beliebige Anzahl verwandter Aufgaben – die spezifischen Aufgaben variieren von einer Organisation zur nächsten. Letztendlich müssen diese Aufgaben von einem Support Team verwaltet werden, dem diese operativen Aufgaben zugewiesen wurden. Die folgenden Aufgaben sind häufig erforderlich, um Benutzer in Teams zu unterstützen.
 
 #### <a name="general-tasks"></a>Allgemeine Aufgaben
 
 [Verwalten des Benutzerzugriffs auf Microsoft Teams](user-access.md)
 
-### <a name="team-creation-optional"></a>Team erstellen (optional)
+### <a name="team-creation-optional"></a>Team Erstellung (optional)
 
-Standardmäßig haben alle Benutzer mit einem Postfach in Exchange Online Berechtigungen zum Erstellen von Office 365-Gruppen und daher ein Team in Microsoft-Teams. Wenn Sie eine genauere Kontrolle und [die Erstellung des neuen Teams einschränken](assign-roles-permissions.md#permissions-to-create-teams) (und somit die Erstellung des neuen Office 365-Gruppen) haben möchten, können Sie die Gruppe erstellen und einen Satz von Administratoren Verwaltungsrechte delegieren. Wenn Ihre Organisation diese Option verfolgen möchte, finden Sie unter der Schritte in diesem Artikel ermöglicht den Benutzern, Anfragen zu senden, die von einer zugewiesenen Team verarbeitet werden.
+Standardmäßig verfügen alle Benutzer mit einem Postfach in Exchange Online über die Berechtigungen zum Erstellen von Office 365-Gruppen und damit zu einem Team in Microsoft Teams. Wenn Sie eine stärkere Kontrolle haben und [die Erstellung neuer Teams](assign-roles-permissions.md#permissions-to-create-teams) (und damit die Erstellung neuer Office 365-Gruppen) einschränken möchten, können Sie Gruppen Erstellungs-und Verwaltungsrechte an eine Reihe von Administratoren delegieren. Wenn Ihre Organisation diese Option weiter verfolgen möchte, lesen Sie den in diesem Artikel beschriebenen Verfahren, um Benutzern das Senden von Anforderungen zu ermöglichen, die von einem zugewiesenen Team verarbeitet werden.
 
 <!--ENDOFSECTION-->
 
-### <a name="dailyweeklymonthlyas-needed-tasks"></a>Täglich/wöchentlich/monatlich/bedarfsorientierte Aufgaben
+### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tägliche/wöchentliche/monatliche/bedarfsbezogene Aufgaben
 
-| Aktivität | Beschreibung | Trittfrequenz | Team zugewiesen |
+| Aktivität | Beschreibung | Häufigkeit | Team zugewiesen |
 |---|---|---|---|
-| Verwalten des Diensts | Verwaltung von Mandanten geltende Teams Einstellungen. | Bei Bedarf | |
-| Verwalten des | Verwaltung von benutzerbasierte Einstellungen und Lizenzierung in Teams. | Bei Bedarf | |
-| Lizenzverwaltung | Planen von aktuellen und zukünftigen Anforderungen für die Benutzer- und Verbrauch-basierte Lizenzierung (plant aufrufen und Kommunikation haben) durch die Nutzung von [PSTN-Verwendungsbericht](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) und [Minute Pools PSTN](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report) -Bericht. | Wöchentlich | |
-| Telefon Nummer management | Verwalten Sie die Telefonnummern für künftiges Wachstum verfügbar, und passen Sie Inventar Ebenen entsprechend Ihren Anforderungen Organisationseinheiten. | Wöchentlich | |
-| Team erstellen (optional) | Überprüfen und Verarbeiten von Anforderungen für Team erstellen. | Bei Bedarf | |
+| Dienstverwaltung | Verwaltung von Mandanten weiten Einstellungen für Teams. | Nach Bedarf | |
+| Benutzerverwaltung | Verwaltung benutzerbasierter Einstellungen und Lizenzierung in Teams. | Nach Bedarf | |
+| Lizenzverwaltung | Planen Sie den aktuellen und zukünftigen Bedarf sowohl für die Benutzer-als auch für die verbrauchsbasierte Lizenzierung (Anrufpläne und Kommunikationsguthaben), indem Sie den Bericht " [PSTN-Nutzungsbericht](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) " und " [PSTN-Minuten Pools](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report) " nutzen. | Wöchentlich | |
+| Verwaltung von Telefonnummern | Verwalten Sie die verfügbaren Telefonnummern für zukünftiges Wachstum, und passen Sie die Lagerbestände an Ihre organisatorischen Anforderungen an. | Wöchentlich | |
+| Team Erstellung (optional) | Überprüfen und Verarbeiten von Anforderungen für die Teamerstellung | Nach Bedarf | |
 
 <!--ENDOFSECTION-->

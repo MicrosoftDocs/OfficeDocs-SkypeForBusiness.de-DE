@@ -7,7 +7,7 @@ ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
-description: Anleitung für IT-Spezialisten das Laufwerk Office 365-Bereitstellungen in Entitäten, die Daten können US Organisationsrichtlinien behandeln
+description: Leitfaden für IT-Experten zum Steuern von Office 365-Bereitstellungen in Entitäten, die Daten verarbeiten, die von der US-amerikanischen Regierung geregelt werden
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -16,152 +16,152 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 025a1f22552fa8c196e9eeb4bee6b7e6e19eebdf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d807ec23399da13a7ce2da9f3fdf425aeaebb0fd
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902455"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344364"
 ---
-# <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planen von Microsoft 365 Government - GCC-Bereitstellungen
+# <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan für Microsoft 365 Government-gcc-Bereitstellungen
 
-Diese Anleitung ist für IT-Spezialisten, die Bereitstellungen von Office 365 in US-Federal, Bundesland, lokalen, tribal oder räumlicher Regierungsbehörden oder anderen Entitäten, die Daten zu behandeln, die behördlichen Vorschriften und Anforderungen, fällt gesteuert werden, in dem die Verwendung von Microsoft 365 Government - eignet sich GCC Sie diese Anforderungen erfüllen.
+Diese Anleitung richtet sich an IT-Experten, die Bereitstellungen von Office 365 in US-Bundes-, bundesstaatlichen, lokalen, Stammes-oder Gebietskörperschaften oder anderen Entitäten führen, die Daten verarbeiten, die behördlichen Vorschriften und Anforderungen unterliegen, wobei die Verwendung von Microsoft 365 Government-gcc ist geeignet, diese Anforderungen zu erfüllen.
 
 > [!NOTE]
-> Wenn Ihre Organisation bereits Microsoft 365 Government - GCC Berechtigung Anforderungen erfüllt und zum angewendet und in das Programm angenommen wurden, können Sie die Schritte 1 und 2 überspringen und direkt mit Schritt 3 fort. 
+> Wenn Ihre Organisation bereits die Berechtigungsanforderungen von Microsoft 365 Government-gcc erfüllt und in das Programm übernommen und akzeptiert wurde, können Sie die Schritte 1 und 2 überspringen und direkt zu Schritt 3 wechseln. 
 
-## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---gcc-and-meets-eligibility-requirements"></a>Schritt 1. Bestimmen Sie, ob Ihre Organisation Microsoft 365 Government - GCC benötigt und Berechtigung Anforderungen erfüllt. 
+## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---gcc-and-meets-eligibility-requirements"></a>Schritt 1. Ermitteln Sie, ob Ihre Organisation Microsoft 365 Government-gcc benötigt und die Anspruchsvoraussetzungen erfüllt. 
 
-Die Microsoft 365 Government - bietet GCC Umgebung Einhaltung US Behörden Anforderungen für die Clouddienste, einschließlich FedRAMP Mittel und Anforderungen für Strafjustiz und federal Tax Informationssysteme (CJI und FTI Datentypen).
+Die Microsoft 365 Government-gcc-Umgebung bietet die Einhaltung der Anforderungen der US-Regierung für Cloud-Dienste, einschließlich FedRAMP moderat, und Anforderungen für die Strafjustiz und die föderalen Steuer Informationssysteme (CJI-und FTI-Datentypen).
 
-Zusätzlich zu genießen die Features und Funktionen von Office 365, Vorteile für Organisationen die folgenden Features, die für Microsoft 365 Government - GCC eindeutig sind:
+Neben den Features und Funktionen von Office 365 profitieren Organisationen von den folgenden Features, die für Microsoft 365 Government-gcc einzigartig sind:
 
--   Der Inhalt Ihrer Organisation Kunden von Inhalten in kommerziellen Office 365-Dienste von Microsoft Customer logisch getrennt.
--   Der Inhalt Ihrer Organisation Kunden wird in den USA gespeichert.
--   Zugriff auf Inhalte von Ihrer Organisation Kunden ist auf überwachtes Microsoft-Mitarbeiter beschränkt.
--   Microsoft 365 Government - erfüllt GCC Zertifizierungen und Akkreditierungen, die für uns öffentlicher Sektor-Kunden erforderlich sind.
+-   Der Kunden Inhalt Ihrer Organisation wird logisch von Kundeninhalten in den kommerziellen Office 365-Diensten von Microsoft getrennt.
+-   Der Kunden Inhalt Ihrer Organisation wird in den Vereinigten Staaten gespeichert.
+-   Der Zugriff auf die Kunden Inhalte Ihrer Organisation ist auf geschirmte Microsoft-Mitarbeiter beschränkt.
+-   Microsoft 365 Government-gcc erfüllt Zertifizierungen und Akkreditierungen, die für Kunden im öffentlichen Dienst in den USA erforderlich sind.
 
-Sie können weitere Informationen zu Microsoft 365 Government - Angebot für den Kunden am [Office 365 Government plant](https://products.office.com/government/compare-office-365-government-plans), einschließlich [Berechtigung Anforderungen](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)US-Regierung GCC finden.
+Weitere Informationen zum Microsoft 365 Government-gcc-Angebot für US-Government-Kunden finden Sie unter [Office 365 Government-Pläne](https://products.office.com/government/compare-office-365-government-plans), einschließlich der [Anspruchsvoraussetzungen](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-Die [Beschreibung der Dienste von Office 365 US-Regierung](https://technet.microsoft.com/library/mt774581.aspx) beschreibt die Plattform Vorteile, die meeting-Compliance-Bestimmungen innerhalb der USA zentraler.
+Die [Office 365 US Government Service Description](https://technet.microsoft.com/library/mt774581.aspx) beschreibt die Vorteile der Plattform, die sich auf die Erfüllung der Compliance-Anforderungen in den USA konzentrieren.
 
 > [!Tip]
-> Möglicherweise möchten Sie übertragen von Informationen in der Beschreibung in den Tabellen in einer Excel-Arbeitsmappe, und fügen Sie zwei Spalten: **Relevant für meine Organisation Y/N** und **erfüllt die Anforderungen der Organisation Y/N**. Anschließend können Sie diese Liste mit Ihren Kollegen zu bestätigen, dass dieser Dienst Anforderungen Ihrer Organisation erfüllt überprüfen.
+> Möglicherweise möchten Sie die Tabellen mit Informationen in der Dienstbeschreibung in eine Excel-Arbeitsmappe übertragen und zwei Spalten hinzufügen, die **für meine Organisation y/n relevant** sind und **den Anforderungen meiner Organisation y/n entsprechen**. Sie können diese Liste dann mit ihren Kollegen überprüfen, um zu bestätigen, dass dieser Dienst den Anforderungen Ihrer Organisation entspricht.
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Microsoft 365 Government - GCC für Ihre Organisation geeignet ist.</li><li>Vergewissern Sie sich, dass Ihre Organisation Berechtigung Anforderungen erfüllt.</li></ul> |
+| ![Ein Symbol, das Entscheidungspunkte darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Microsoft 365 Government-gcc für Ihre Organisation geeignet ist.</li><li>Vergewissern Sie sich, dass Ihre Organisation die Berechtigungsanforderungen erfüllt.</li></ul> |
 
 > [!Note]
-> Microsoft 365 Government - GCC ist nur in den USA verfügbar. Eine Reihe von [Behörden für Office 365-Pläne](https://products.office.com/en/government/compare-office-365-government-plans)können nicht – US-Regierung Kunden auswählen.
+> Microsoft 365 Government-gcc steht nur in den Vereinigten Staaten zur Verfügung. Kunden außerhalb der US-Regierung können aus einer Reihe von [Office 365 Government-Plänen](https://products.office.com/en/government/compare-office-365-government-plans)wählen.
 
 
-## <a name="step-2-apply-for-microsoft-365-government---gcc"></a>Schritt 2. Für Microsoft 365 Government - GCC anwenden
+## <a name="step-2-apply-for-microsoft-365-government---gcc"></a>Schritt 2. Bewerben für Microsoft 365 Government-gcc
 
-Entschlossen, dass dieser Dienst für Ihr Unternehmen geeignet ist, starten Sie den Vorgang [für diesen Dienst hier](https://products.office.com/government/eligibility-validation)anwenden.
+Nachdem Sie entschieden haben, dass dieser Dienst für Ihre Organisation richtig ist, starten Sie den Prozess der [Bewerbung für diesen Dienst hier](https://products.office.com/government/eligibility-validation).
 
-## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>Schritt 3. Grundlegendes zu Microsoft 365 Government - GCC standardsicherheitseinstellungen.
+## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>Schritt 3. Grundlegendes zu Microsoft 365 Government-gcc-Standardsicherheitseinstellungen.
 
-Es wird empfohlen, dass Sie Ihre [Einstellungen Verwaltungs- und Sicherheitsfunktionen](enable-features-office-365.md) sorgfältig überprüfen, bevor Sie sie ändern, und Auswirkungen auf die Einhaltung von Bestimmungen berücksichtigen, bevor Sie Änderungen vorgenommen werden und den Standardeinstellungen für die Sicherheit können Zeit in Anspruch nehmen.
+Wir empfehlen, dass Sie sich Zeit nehmen, um Ihre [Administrator-und Sicherheitseinstellungen](enable-features-office-365.md) sorgfältig zu überprüfen, bevor Sie Sie ändern, und die Auswirkungen auf die Kompatibilität berücksichtigen, bevor Sie Änderungen an den Standardsicherheitseinstellungen vornehmen.
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob Sie die Standardeinstellung Microsoft 365 Government - GCC Security Settings, ändern müssen Sie zunächst kennen die Auswirkungen der Änderungen auflösen Sie vornehmen, möglicherweise.</li></ul> |
+| ![Ein Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob Sie die standardmäßigen Sicherheitseinstellungen für Microsoft 365 Government-gcc ändern möchten, um die Auswirkungen von Änderungen, die Sie möglicherweise vornehmen, zunächst zu verstehen.</li></ul> |
 
-## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Schritt 4. Verstehen Sie, welche Funktionen derzeit nicht verfügbar oder standardmäßig deaktiviert sind. 
+## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Schritt 4. Sie wissen, welche Funktionen zurzeit nicht verfügbar oder standardmäßig deaktiviert sind. 
 
-Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, es gibt einige Unterschiede zwischen Microsoft 365 Government - GCC und Enterprise-Pläne. Finden Sie in der folgenden Tabelle sehen Sie, welche Features verfügbar sind.
+Um den Anforderungen unserer Government Cloud-Kunden gerecht zu werden, gibt es einige Unterschiede zwischen den Microsoft 365 Government-gcc-und Enterprise-Plänen. Informationen zu den verfügbaren Features finden Sie in der folgenden Tabelle.
 
 |                             | Feature                     | GCC            |
 |-----------------------------|-----------------------------|----------------|
-| Base | Anmeldung | Verfügbar |
+| Basis | Anmeldung | Verfügbar |
 | | Anwesenheit | Verfügbar |
-| | Einheitliche Anwesenheit (Skype für Unternehmen und Teams unified) | Verfügbar |
+| | Einheitliche Anwesenheitsinformationen (Skype for Business und Teams Unified) | Verfügbar |
 | Aktivität | Feed | Verfügbar |
-|  | Meine Aktivität | Verfügbar |
+|  | Meine Aktivitäten | Verfügbar |
 | Chat | Unterhaltung | Verfügbar |
 | | Dateien | Verfügbar |
 | | Organigramm | Verfügbar |
 | | Aktivität | Verfügbar |
-| | InterOp (1:1 Teams-Skype für Business Chat) | Verfügbar |
-| Teams | Kanalnachricht | Verfügbar |
-| | Channel-Dateien | Verfügbar |
-| | Registerkarte ' OneNote ' | Klicken Sie auf der Regierung Bestand |
-| | E-Mail von einem DDE-Kanal | Nicht verfügbar |
+| | Interop (1:1 Teams – Skype for Business-Chat) | Verfügbar |
+| Teams | Kanal Nachricht | Verfügbar |
+| | Kanaldateien | Verfügbar |
+| | OneNote-Registerkarte | Auf dem Government-Rückstand |
+| | Senden eines Kanals per e-Mail | Nicht verfügbar |
 | | Mitglied hinzufügen | Verfügbar |
 | | Gastzugriff | Verfügbar |
 | Besprechungen | Besprechung planen | Verfügbar |
-| | An Besprechung teilnehmen | Verfügbar |
-| | VoIP-meeting | Verfügbar |
+| | Teilnehmen an einer Besprechung | Verfügbar |
+| | VoIP-Besprechung | Verfügbar |
 | | Desktopfreigabe | Verfügbar |
-| | Freigabe von geben und nehmen-Steuerelement | Verfügbar |
+| | Geben und übernehmen der Steuerung in der Freigabe | Verfügbar |
 | | Verbinden von einem Konferenzraum | Verfügbar |
-| | Anonyme Teilnahme | Verfügbar |
-| | Cloud-Aufzeichnung | Klicken Sie auf der Regierung Bestand |
+| | Anonyme Verknüpfung | Verfügbar |
+| | Cloud-Aufzeichnung | Auf dem Government-Rückstand |
 | | Besprechungsnotizen | Verfügbar |
-| | Übertragen von Besprechungen | Klicken Sie auf der Regierung Bestand |
-| | Verbundpartner Besprechungen | Verfügbar |
-| | Offenlegen Sie Hub-Unterstützung (Preview) | Klicken Sie auf der Regierung Bestand |
+| | Broadcast Besprechungen | Auf dem Government-Rückstand |
+| | Verbund Besprechungen | Verfügbar |
+| | Surface Hub-Unterstützung (Preview) | Auf dem Government-Rückstand |
 | Anrufe | Kontakte | Verfügbar |
 | | Verlauf | Verfügbar |
 | | Voicemail | Verfügbar |
 | | VoIP-Anruf | Verfügbar |
-| | Skype für Business - Teams aufrufen | Verfügbar |
+| | Skype for Business – Teams anrufen | Verfügbar |
 | | Anrufpläne | Verfügbar |
-| | Audiokonferenzen (durch Zulassen der Teilnehmer beitreten über PSTN) | Verfügbar |
-| | Microsoft Telefonsystem direktes routing | Verfügbar |
+| | Audiokonferenzen (dadurch, dass Besprechungsteilnehmer über PSTN beitreten können) | Verfügbar |
+| | Microsoft Phone-System Direktes Routing | Verfügbar |
 | | Lobby für PSTN-Anrufer | Verfügbar |
-| | Aufrufen der Warteschlange | Verfügbar |
-| | Unterstützung von Vorgesetzten und Delegat | Verfügbar |
-| | Konsultieren und sichere Übertragung | Verfügbar |
-| | Bahnbrechenden nicht stören | Verfügbar |
-| | Besondere ring | Verfügbar |
-| | 1:1 Gruppe Anruf Ausweitung mit Skype für Unternehmen, Teams und PSTN-Teilnehmer | Verfügbar |
-| | Gruppe weiterleiten | Verfügbar |
-| | Weiterleiten an PSTN-Anruf | Verfügbar |
-| | Notrufdienste - Pläne aufrufen | Verfügbar |
-| | Unterstützung für vorhandene zertifizierten SIP-Telefone | Verfügbar |
-| | USB HID | Verfügbar |
+| | Anrufwarteschlange | Verfügbar |
+| | Unterstützung von Boss und Stellvertretung | Verfügbar |
+| | Beratende und sichere Übertragung | Verfügbar |
+| | Durchbruch nicht stören | Verfügbar |
+| | Markanter Ring | Verfügbar |
+| | 1:1-Gruppen-Anruf Eskalation mit Teams, Skype for Business und PSTN-Teilnehmern | Verfügbar |
+| | Weiterleiten an Gruppe | Verfügbar |
+| | Übertragung an PSTN-Anruf | Verfügbar |
+| | Anrufpläne für Notrufe | Verfügbar |
+| | Unterstützung für vorhandene zertifizierte SIP-Telefone | Verfügbar |
+| | USB-HID | Verfügbar |
 | | eDiscovery für Anrufe und Besprechungen | Verfügbar |
-| | Organisation automatische Telefonzentrale | Verfügbar |
-| | Wenden Sie Skype Consumer - Teams | Verfügbar |
-| Dateien | aktuell | Verfügbar |
+| | Automatische Telefonzentrale der Organisation | Verfügbar |
+| | Support für Skype-Nutzer – Teams anrufen | Verfügbar |
+| Dateien | Jüngsten | Verfügbar |
 | | Microsoft Teams | Verfügbar |
-| abspeichern | App-Store | Klicken Sie auf der Regierung Bestand |
-| Suche | Nachrichten | Verfügbar |
+| Speichern | App Store | Auf dem Government-Rückstand |
+| Suche | Meldungen | Verfügbar |
 | | Kontakte | Verfügbar |
 | | Dateien | Verfügbar |
-| | Schrägstrich-Befehle | Verfügbar |
-| Beachtung | Compliance-Inhaltssuche | Verfügbar |
-| | Speicherung | Verfügbar |
-| | Audit Log-Suche | Verfügbar |
-| | Rechtliche Aufbewahrungspflicht | Verfügbar |
+| | Schrägstrich Befehle | Verfügbar |
+| Compliance | Kompatibilitäts Inhaltssuche | Verfügbar |
+| | Aufbewahrungs | Verfügbar |
+| | Überwachungsprotokoll Suche | Verfügbar |
+| | Rechtliche Aufbewahrung | Verfügbar |
 | | eDiscovery | Verfügbar |
 
 > [!Note]
 
-> Wenn andere Arbeitslasten in der Cloud GCC vollständig verfügbar sind, klicken Sie dann sie zur Verfügung stehen in Teams Wenn alle zusätzlichen Integrationsarbeit abgeschlossen ist.
+> Sobald andere Arbeitslasten in der gcc-Cloud vollständig verfügbar sind, werden Sie in Teams verfügbar, wenn alle zusätzlichen Integrationsarbeiten abgeschlossen sind.
 
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob die Featuregruppe Teams Anforderungen Ihrer Organisation erfüllt.</li></ul> |
+| ![Ein Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob der Featuresatz für Teams die Anforderungen Ihrer Organisation erfüllt.</li></ul> |
 
-## <a name="step-5-plan-for-governance"></a>Schritt 5. Planen der Steuerung
+## <a name="step-5-plan-for-governance"></a>Schritt 5. Plan für Governance
 
-Bestimmen der Anforderungen für die Unternehmensleitung und wie Sie diese erfüllen können. Weitere Informationen finden Sie in [Planen der Steuerung in Teams](plan-teams-governance.md) .
+Ermitteln Sie Ihre Anforderungen für Governance und wie Sie Sie erfüllen können. Weitere Informationen finden Sie unter [Planen von Governance in Teams](plan-teams-governance.md) .
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Bestimmen und Dokumentieren der Governance-Anforderungen, befolgen die Richtlinien in [Planen der Steuerung in Teams](plan-teams-governance.md).</li></ul> |
+| ![Ein Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Ermitteln und dokumentieren Sie Ihre Governance-Anforderungen, und befolgen Sie die Richtlinien in [Plan for Governance in Teams](plan-teams-governance.md).</li></ul> |
 
-## <a name="step-6-deploy-teams-for-collaboration"></a>Schritt 6. Bereitstellen des Teams für die Zusammenarbeit
+## <a name="step-6-deploy-teams-for-collaboration"></a>Schritt 6. Bereitstellen von Teams für die Zusammenarbeit
 
-Nachdem Sie Onboarded an Microsoft 365 Government - GCC, wurden haben können Sie die standardmäßige Bereitstellungsmethode der Verwendung [der schnelle](https://www.microsoft.com/fasttrack) und Ihr gewählten Partner mit dem Dienst integrierte folgen.
+Nachdem Sie mit dem Microsoft 365 Government-gcc an Bord waren, können Sie den Standard Bereitstellungsansatz der Verwendung von [](https://www.microsoft.com/fasttrack) "Kurzhilfe" und des von Ihnen ausgewählten Partners für die integrierte Nutzung des Diensts befolgen.
 
-Wenn Sie bereit sind, stellen Sie so [Aktivieren Sie für die Zusammenarbeit innerhalb Ihrer Organisation über Teams und Kanäle](teams-overview.md)Teams bereit. Achten Sie darauf, dass Sie mit der Annahme und Änderungsmanagement Team oder Teams Champions beteiligen.
+Wenn Sie bereit sind, stellen Sie Teams bereit, um die [Zusammenarbeit innerhalb Ihrer Organisation über Teams und Kanäle zu ermöglichen](teams-overview.md). Stellen Sie sicher, dass Sie sich mit Ihrem Adoptions-, Change Management-oder Team-Champion beschäftigen.
 
-## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>Schritt 7. Bereitstellen des Teams für Besprechungen und VoIP
+## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>Schritt 7. Bereitstellen von Teams für Besprechungen und Sprachanrufe
 
-Dies ist auch der ideale Zeitpunkt, Teams mit Ihrer breiter beteiligten Gruppe verwenden Sie zum Starten der Planung für die Einführung von Besprechungen und [Cloud-VoIP-Funktionen](cloud-voice-deployment.md).
+Dies ist auch eine gute Zeit, um Teams für Ihre breitere Interessengruppe zu verwenden, um mit der Planung für das Rollout von Besprechungen und [Cloud-Sprachfeatures](cloud-voice-deployment.md)zu beginnen.
 

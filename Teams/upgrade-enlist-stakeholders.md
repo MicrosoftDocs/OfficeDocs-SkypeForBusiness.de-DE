@@ -1,12 +1,12 @@
 ---
-title: Eintragen von Beteiligten | Skype für Unternehmen, die Teams Planen eines Upgrades
+title: Stakeholder eintragen | Upgrade-Planung für Skype for Business für Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Eintragen von Beteiligten, um das Projektteam für das Upgrade zu verarbeiten.
+description: Stellen Sie Teilnehmer ein, die im Projektteam für Ihr Upgrade zur Verfügung stehen.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,53 +15,53 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1d1db7c652ed365c264c3c33684832de098a3c0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9c5534edd8257652a50351ea6d7e6e14d449104a
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920351"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344625"
 ---
-![Phasen der Upgrade Reise, mit Schwerpunkt auf das Team der Projektbeteiligten sammeln] (media/upgrade-banner-stakeholders.png "Phasen der Upgrade Reise, mit Schwerpunkt auf das Team der Projektbeteiligten sammeln")
+![Phasen der Upgrade-Reise, wobei der Schwerpunkt auf dem Sammeln Ihres Teams von Projekt beteiligten liegt] (media/upgrade-banner-stakeholders.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf dem Sammeln Ihres Teams von Projekt beteiligten liegt")
 
-Dieser Artikel ist Teil der Projektbeteiligten Stufe des Ihrem Upgrade Weg, die erste und die wichtigsten Aktivität, die für den Erfolg des Projekts ausgeführt werden.
+Dieser Artikel ist Teil der Project Stakeholder-Phase ihres Upgrade-Vorgangs, der ersten und wichtigsten Aktivität, die Sie für den Erfolg Ihres Projekts abgeschlossen haben.
 
 # <a name="enlist-your-project-stakeholders"></a>Ernennen der Projektbeteiligten
 
-Durch die Implementierung von Projektlieferumfänge Accountability führen, halten Sie die Taste für den Erfolg des Projekts Beteiligten. Es gibt zwei Gruppen von Beteiligten, die Sie zuweisen möchten: (1) ein _Coalition Unterstützung durch_ die Führungskräfte und Projekt Sponsor, die ein begründetes Interesse haben und Einfluss auf des Projekts Erfolg und (2 umfasst) _Team project_, bestehend aus der Planen von Personen zur Sicherstellung technische und benutzervorbereitung, verantwortlich, die die verschiedenen Aufgaben im Projekt abgeschlossen werden. Das verbindende zwischen diesen beiden Gruppen ist _Projektmanager_, um sicherzustellen, dass Projektaufgaben termingerecht abgeschlossen abrufen und Berichte wieder auf die Coalition Projektstatus arbeitet.
+Von der Implementierung von Projektergebnissen bis hin zur vermehrten Verantwortlichkeit halten Ihre Stakeholder den Schlüssel zum Erfolg Ihres Projekts. Es gibt zwei Gruppen von Stakeholdern, die Sie zuweisen möchten: (1) eine _Sponsoring-Koalition_ , die Führungskräfte und Projektsponsoren umfasst, die über ein Interesse an dem Erfolg des Projekts verfügen und (2) das _Projektteam_, bestehend aus dem Personen, die dafür verantwortlich sind, die technische und Benutzer Bereitschaft zu gewährleisten, die die verschiedenen Aufgaben im Projektplan durchführen. Der gemeinsame Thread zwischen diesen beiden Gruppen ist der _Projektmanager_, der sicherstellt, dass Projektaufgaben planmäßig abgeschlossen werden und der Koalition den Projektstatus zurückgibt.
 
 > [!Tip]
-> Anfordern und übernehmen Zeit zum Identifizieren der ideale executive Sponsor, eine Person, die helfen können, legen Sie den Farbton Ihres Projekts anhand eines Beispiels leads und enthält andere verantwortlich. Dies sollte sein, senior Manager oder Führungskräfte, die über den Umfang und die Vision Berechtigung verfügt. Sie sollten auch die endgültige Entscheidungsträgern Popupblockern entfernen und Lösen von Konflikten, damit das Projekt termingerecht und Budget sicher sein.
+> Nehmen Sie sich Zeit, um den idealen Executive-Sponsor zu identifizieren, jemanden, der Ihnen helfen kann, den Ton Ihres Projekts festzulegen, führt mit gutem Beispiel und hält andere zur Rechenschaft. Dies sollte ein leitender Manager oder leitender Mitarbeiter sein, der über den Projektumfang und die Vision verfügt. Darüber hinaus sollten Sie die endgültige Entscheidungshilfe beim Entfernen von Blockierungen und der Konfliktlösung sein, damit das Projekt Zeit-und Budget gerecht bleibt.
 
-Optional können Sie einem Lenkungsausschuss erstellen. Manchmal als große oder komplexer Projekte landen mit "zu viele Köche in der Küche", was trennt die Verbindung zwischen der beteiligten Gruppen. Für diese Projekte empfiehlt es sich um eine Lenkungsausschuss zu bilden. Einem Lenkungsausschuss ist verantwortlich für die gesteuerter Entscheidungen, strategische Aufsicht, Unterstützung von Initiativen für das Projekt, bereitstellen und – bei Bedarf – Popupblockern entfernen. Sie finden weitere Informationen zum Implementieren von einem Lenkungsausschuss im [Lenkungsausschuss Guide](https://aka.ms/SteeringCommittee).
+Optional können Sie ein Lenkungskomitee erstellen. Manchmal sind große oder komplexere Projekte mit "zu viele Köche in der Küche" verbunden, was zu einer Trennung der Stakeholder-Gruppen führt. Bei diesen Projekten möchten Sie vielleicht ein Lenkungskomitee Gründen. Ein Lenkungsausschuss ist verantwortlich für die Entscheidungsfindung, die Bereitstellung strategischer Aufsicht, die Unterstützung der Projektinitiativen und – falls erforderlich – das Entfernen von Blockern. Weitere Informationen zur Implementierung eines Lenkungsausschusses finden Sie im Leitfaden für das [Lenkungskomitee](https://aka.ms/SteeringCommittee).
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte | <ul><li>Wer sind die richtigen Personen als verantwortlichen Team für dieses Projekt dienen soll?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Nächste Schritte | <ul><li>Berücksichtigen Sie den Umfang des Projekts, und weisen Sie der Beteiligten.</li><li>Anhand der folgenden Tabelle als Richtlinie, aber beachten Sie, dass diese Liste nicht vollständig ist.<br><strong>Tipp</strong><br>Erstellen Sie eine verantwortlich-verantwortlich-konsultiert-darüber informiert [(RACI) Matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) , um weitere diejenigen unterscheiden, die von den massenversender werden wird, die einfach in einem bestimmten Bereich des Projekts dem Laufenden gehalten werden müssen.</li> |
-| <li>Entscheiden Sie, ob einem Lenkungsausschuss erstellen und Zuweisen von Rollen nach Bedarf.</li></ul> | |
+| ![Ein Symbol, das Entscheidungspunkte darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte | <ul><li>Wer sind die richtigen Personen, die als Ihr Stakeholder-Team für dieses Projekt fungieren?</li></ul> |
+| ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte | <ul><li>Überdenken Sie den Umfang Ihres Projekts, und weisen Sie die relevanten Stakeholder zu.</li><li>Verwenden Sie die folgende Tabelle als Richtlinie, doch beachten Sie, dass diese Liste nicht "All-Inclusive" ist.<br><strong>Tipp</strong><br>Erstellen Sie eine verantwortungsbewusste, beratene [(RACI)-Matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) , um diejenigen zu unterscheiden, die von denjenigen, die in einem bestimmten Bereich des Projekts informiert werden müssen, zur Rechenschaft gezogen werden.</li> |
+| <li>Entscheiden Sie, ob Sie ein Lenkungskomitee erstellen möchten, und weisen Sie Rollen nach Bedarf zu.</li></ul> | |
 
 |  Rollen | Verantwortung |
 |---|---|
-| **Unterstützung durch die coalition** | |
-| Befürworter aus der Führungsebene | Allgemeine messaging und Accountability-Laufwerke |
-| Projektsponsor | Erleichtert die neue Technologie Anfragen für ihre Unternehmenseinheit |
-| Abteilungsleitern | Stellt den Teams, die am häufigsten von dieser Änderung betroffen. |
-| Leiter der Personalabteilung | Ist verantwortlich für die Verwaltung des Humankapitals |
-| Manager/Projektleiter | Das Projekt Übergang überwacht, wird sichergestellt Abschluss aller Vorgänge |
-| **Das Projektteam** | |
-| Zusammenarbeit führen / Architekturentwurf | Erstellt und implementiert die Architektur der Lösung |
-| Netzwerkleiter | Bietet Einblicke in die Netzwerkdesign und Ausführung |
-| Leiter der Sicherheit | Bietet Einblicke in Sicherheitsentwurf Prozess und Implementierung |
-| Synchrone Kommunikation Leads | Eigentümer von Anwesenheitsinformationen wie Chat, Besprechungen, Tools und aufrufen |
-| Asynchrone Zusammenarbeit Leads | Besitzt asynchronen tooling wie SharePoint, OneDrive und usw. |
-| Telefonieleiter | Bietet Einblicke in die Telefonie Entwurf und Implementierung |
-| Besitzer Service / Qualität Champion | Den Vorgang des Teams alle-nach-oben, einschließlich die Qualität des Benutzererlebnisses besitzt |
-| Desktop- und Geräte Leads | Bietet Unterstützung für Clients und Geräte desktop-apps |
-| IT Pro-Mandanten-Administrator | Sorgt für die Bereitschaft des Netzwerks und Office 365-Portal Konfigurationen vorhanden sind |
-| Support-/Helpdeskleiter | Verwaltet die Bereitschaft Ihrer Helpdesk |
-| Ändern der Verwaltung von potenziellen Kunden | Überwacht das Verwaltung und Annahme Programm Benutzer ändern |
-| Leiter des Marketing | Entwirft und implementiert Communications Kampagnen |
-| Schulung für Leads | Entwirft und implementiert Schulung Pläne |
+| **Sponsoring-Koalition** | |
+| Befürworter aus der Führungsebene | Steuert die allgemeine Nachrichtenübermittlung und Verantwortlichkeit |
+| Geschäfts Sponsor | Unterstützt neue Technologieanforderungen für Ihre Unternehmenseinheit |
+| Abteilungsleiter | Stellt die am stärksten von dieser Änderung betroffenen Teams dar. |
+| Leiter Personalwesen | Ist für Talent Management verantwortlich |
+| Projekt Manager/Lead | Überwacht das Übergangs Projekt, stellt den Abschluss aller Aufgaben sicher |
+| **Projektteam** | |
+| Leiter der Zusammenarbeit/Architekt | Erstellen und Implementieren der Lösungsarchitektur |
+| Netzwerkleiter | Bietet Einblicke in das Netzwerk Design und die Ausführung |
+| Leiter der Sicherheit | Bietet Einblicke in Sicherheitsentwurf,-Prozess und-Implementierung |
+| Synchrone Kommunikationsleitung | Besitzt Anwesenheits Tools wie Chats, Besprechungen und Anrufe |
+| Asynchrone Zusammenarbeit Lead | Besitzt asynchrone Tools wie SharePoint, OneDrive usw. |
+| Telefonieleiter | Bietet Einblicke in das Telefonie-Design und die Implementierung |
+| Service Besitzer/Quality Champion | Besitzt den Betrieb von Teams, einschließlich der Qualität der Benutzererfahrung |
+| Blei für Desktops und Geräte | Bereitstellen von Eingaben in Clients, Geräten und Desktop-Apps |
+| IT pro/mandantenadministrator | Stellt sicher, dass die Netzwerk Bereitschaft und die Office 365-Portal Konfigurationen vorhanden sind. |
+| Support-/Helpdeskleiter | Verwaltung der Bereitschaft Ihres Support Desks |
+| Lead für Change Management | Beaufsichtigt das Programm zur Verwaltung und Einführung von Benutzer Änderungen |
+| Marketing Lead | Entwerfen und Implementieren von Kommunikationskampagnen |
+| Schulungsleiter | Entwerfen und Implementieren von Schulungsplänen |
 
-Nachdem Sie Ihren Interessengruppen zusammengetragen haben, fahren Sie fort mit dem nächsten Schritt: [Definieren des Bereichs Projekt](https://aka.ms/SkypetoTeams-Scope).
+Nachdem Sie Ihre Stakeholder gesammelt haben, fahren Sie mit dem nächsten Schritt fort: [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope).

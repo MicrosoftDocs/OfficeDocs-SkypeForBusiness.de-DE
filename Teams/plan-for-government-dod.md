@@ -7,7 +7,7 @@ ms.date: 01/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
-description: Anleitungen für IT-Spezialisten das Laufwerk Office 365-Bereitstellungen in Entitäten, die Daten können US-Regierung DoD Regulierung behandelt.
+description: Leitfaden für IT-Experten zum Steuern von Office 365-Bereitstellungen in Entitäten, die Daten behandeln, die der US Government DoD-Verordnung unterliegen.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -16,142 +16,142 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06f3371233b4ff16be8d55813e1621c3b08566d9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 29de55208f53988a5941d114f3e681fd217f1b7e
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32247103"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344357"
 ---
-# <a name="plan-for-microsoft-365-government---dod-deployments"></a>Planen von Microsoft 365 Government - DoD-Bereitstellungen
+# <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan für Microsoft 365 Government-DoD-Bereitstellungen
 
-Diese Anleitung ist für IT-Spezialisten, die Bereitstellung von Office 365 in uns US-Regierung Entitäten vorantreibt oder anderen Personen, die Daten, die fällt behördlichen Vorschriften und Anforderungen, behandelt, in dem die Verwendung von Microsoft 365 Government – DoD geeignet ist erfüllen Sie diese Anforderungen.
+Diese Anleitung richtet sich an IT-Experten, die Bereitstellungen von Office 365 in US-amerikanischen Bundesbehörden oder anderen Entitäten führen, die Daten verarbeiten, die behördlichen Vorschriften und Anforderungen unterliegen, wobei die Verwendung von Microsoft 365 Government – DoD geeignet ist, Diese Anforderungen erfüllen.
 
 > [!NOTE]
-> Wenn Ihre Organisation bereits Microsoft 365 Government – DoD Berechtigung Anforderungen erfüllt und zum angewendet und in das Programm angenommen wurden, können Sie die Schritte 1 und 2 überspringen und direkt mit Schritt 3 fort.
+> Wenn Ihre Organisation die Berechtigungsanforderungen von Microsoft 365 Government – DoD bereits erfüllt und in das Programm übernommen und akzeptiert hat, können Sie die Schritte 1 und 2 überspringen und direkt zu Schritt 3 wechseln.
 
-## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---dod-and-meets-eligibility-requirements"></a>Schritt 1. Bestimmen Sie, ob Ihre Organisation Microsoft 365 Government - DoD benötigt und Berechtigung Anforderungen erfüllt. 
+## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---dod-and-meets-eligibility-requirements"></a>Schritt 1. Ermitteln Sie, ob Ihre Organisation Microsoft 365 Government-DoD benötigt und die Anspruchsvoraussetzungen erfüllt. 
 
-Die Microsoft 365 Government - bietet DoD Umgebung Einhaltung US Behörden Anforderungen für die Cloud-Dienste. Zusätzlich zu genießen die Features und Funktionen von Office 365, Vorteile für Organisationen die folgenden Features, die für Microsoft 365 Government – DoD eindeutig sind:
+Die Microsoft 365 Government-DoD-Umgebung bietet Konformität mit den Anforderungen der US-Regierung für Cloud-Dienste. Neben den Features und Funktionen von Office 365 profitieren Organisationen von den folgenden Features, die für Microsoft 365 Government – DoD einzigartig sind:
 
-- Der Inhalt Ihrer Organisation Kunden von Inhalten in kommerziellen Office 365-Dienste von Microsoft Customer logisch getrennt.
-- Der Inhalt Ihrer Organisation Kunden wird in den USA gespeichert.
-- Zugriff auf Inhalte von Ihrer Organisation Kunden ist auf überwachtes Microsoft-Mitarbeiter beschränkt.
-- Microsoft 365 Government – erfüllt DoD Zertifizierungen und Akkreditierungen, die für uns öffentlicher Sektor-Kunden erforderlich sind.
+- Der Kunden Inhalt Ihrer Organisation wird logisch von Kundeninhalten in den kommerziellen Office 365-Diensten von Microsoft getrennt.
+- Der Kunden Inhalt Ihrer Organisation wird in den Vereinigten Staaten gespeichert.
+- Der Zugriff auf die Kunden Inhalte Ihrer Organisation ist auf geschirmte Microsoft-Mitarbeiter beschränkt.
+- Microsoft 365 Government – DoD erfüllt Zertifizierungen und Akkreditierungen, die für Kunden im öffentlichen Dienst in den USA erforderlich sind.
 
-Sie können weitere Informationen zu Microsoft 365 Government – DoD Angebot für den Kunden am [Office 365 Government plant](https://products.office.com/government/compare-office-365-government-plans), einschließlich [Berechtigung Anforderungen](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)US-Regierung finden.
+Weitere Informationen zum Microsoft 365 Government-DoD-Angebot für US-Government-Kunden finden Sie unter [Office 365 Government-Pläne](https://products.office.com/government/compare-office-365-government-plans), einschließlich der [Teilnahmevoraussetzungen](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-Die [Beschreibung der Dienste von Office 365 US-Regierung](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) beschreibt die Plattform Vorteile, die auf die Einhaltung von Vorschriften in den USA zentriert werden.
+Die [Office 365 US Government Service Description](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) beschreibt die Vorteile der Plattform, die auf die Erfüllung der Compliance-Anforderungen in den USA ausgerichtet sind.
 
 
 > [!Tip]
-> Möglicherweise möchten Sie übertragen von Informationen in der Beschreibung in den Tabellen in einer Excel-Arbeitsmappe, und fügen Sie zwei Spalten: **Relevant für meine Organisation Y/N** und **erfüllt die Anforderungen der Organisation Y/N**. Anschließend können Sie diese Liste mit Ihren Kollegen zu bestätigen, dass dieser Dienst Anforderungen Ihrer Organisation erfüllt überprüfen.
+> Möglicherweise möchten Sie die Tabellen mit Informationen in der Dienstbeschreibung in eine Excel-Arbeitsmappe übertragen und zwei Spalten hinzufügen, die **für meine Organisation y/n relevant** sind und **den Anforderungen meiner Organisation y/n entsprechen**. Sie können diese Liste dann mit ihren Kollegen überprüfen, um zu bestätigen, dass dieser Dienst den Anforderungen Ihrer Organisation entspricht.
 
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Microsoft 365 Government - DoD für Ihre Organisation geeignet ist.</li><li>Vergewissern Sie sich, dass Ihre Organisation Berechtigung Anforderungen erfüllt.</li></ul> |
+| ![Ein Symbol, das Entscheidungspunkte darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Microsoft 365 Government-DoD für Ihre Organisation geeignet ist.</li><li>Vergewissern Sie sich, dass Ihre Organisation die Berechtigungsanforderungen erfüllt.</li></ul> |
 
 > [!Note]
-> Microsoft 365 Government - DoD ist nur in den USA verfügbar. Eine Reihe von [Behörden für Office 365-Pläne](https://products.office.com/en/government/compare-office-365-government-plans)können nicht – US-Regierung Kunden auswählen.
+> Microsoft 365 Government-DoD steht nur in den Vereinigten Staaten zur Verfügung. Kunden außerhalb der US-Regierung können aus einer Reihe von [Office 365 Government-Plänen](https://products.office.com/en/government/compare-office-365-government-plans)wählen.
 
-## <a name="step-2-apply-for-microsoft-365-government---dod"></a>Schritt 2. Für Microsoft 365 Government - DoD anwenden
+## <a name="step-2-apply-for-microsoft-365-government---dod"></a>Schritt 2. Bewerben für Microsoft 365 Government-DoD
 
-Dieser Dienst ist für Ihre Organisation die richtige entschlossen, das Starten der [Anwendung für diesen Dienst](https://products.office.com/government/eligibility-validation)an.
+Nachdem Sie entschieden haben, dass dieser Dienst für Ihre Organisation richtig ist, beginnen Sie mit dem Verfahren [zur Beantragung dieses Diensts](https://products.office.com/government/eligibility-validation).
 
 
-## <a name="step-3-understand-microsoft-365-government---dod-default-security-settings"></a>Schritt 3. Grundlegendes zu Microsoft 365 Government - DoD standardsicherheitseinstellungen.
+## <a name="step-3-understand-microsoft-365-government---dod-default-security-settings"></a>Schritt 3. Grundlegendes zu den Microsoft 365 Government-DoD-Standardsicherheitseinstellungen.
 
-Es wird empfohlen, dass Sie Ihre [Einstellungen Verwaltungs- und Sicherheitsfunktionen](enable-features-office-365.md) sorgfältig überprüfen, bevor Sie sie ändern, und Auswirkungen auf die Einhaltung von Bestimmungen berücksichtigen, bevor Sie Änderungen vorgenommen werden und den Standardeinstellungen für die Sicherheit können Zeit in Anspruch nehmen.
+Wir empfehlen, dass Sie sich Zeit nehmen, um Ihre [Administrator-und Sicherheitseinstellungen](enable-features-office-365.md) sorgfältig zu überprüfen, bevor Sie Sie ändern, und die Auswirkungen auf die Kompatibilität berücksichtigen, bevor Sie Änderungen an den Standardsicherheitseinstellungen vornehmen.
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob Sie zum Ändern des standardmäßigen Microsoft 365 Government - DoD Security Settings, benötigen Sie zunächst kennen die Auswirkungen der Änderungen auflösen Sie vornehmen, möglicherweise.</li></ul> |
+| ![Ein Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob Sie die Standardsicherheitseinstellungen für Microsoft 365 Government-DoD ändern müssen, um zunächst die Auswirkungen von Änderungen zu verstehen, die Sie möglicherweise vornehmen.</li></ul> |
 
 
-## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---dod"></a>Schritt 4. Verstehen Sie, welche Teams-Funktionen in Microsoft 365 Government - DoD derzeit verfügbar sind
+## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---dod"></a>Schritt 4. Grundlegendes zu den Teamfunktionen, die derzeit in Microsoft 365 Government-DoD verfügbar sind
 
-Um die Anforderungen des Kunden Cloud Behörden zu unterstützen, gibt es einige Unterschiede zwischen Teams Microsoft 365 für Behörden - Verteidigungsministeriums oder Teams in den Enterprise-Plänen. Finden Sie in der folgenden Tabelle sehen Sie, welche Features verfügbar sind.
+Um den Anforderungen unserer Government Cloud-Kunden gerecht zu werden, gibt es einige Unterschiede zwischen den Teams in Microsoft 365 Government-DoD und Teams in den Enterprise-Plänen. Informationen zu den verfügbaren Features finden Sie in der folgenden Tabelle.
 
 |                             | Feature                     | DoD       |
 |-----------------------------|-----------------------------|----------------|
-| Base | Anmeldung | Verfügbar |
+| Basis | Anmeldung | Verfügbar |
 | | Anwesenheit | Verfügbar |
-| | Einheitliche Anwesenheit (Skype für Unternehmen und Teams unified) | Klicken Sie auf der Regierung Bestand |
+| | Einheitliche Anwesenheitsinformationen (Skype for Business und Teams Unified) | Auf dem Government-Rückstand |
 | Aktivität | Feed | Verfügbar |
-|  | Meine Aktivität | Verfügbar |
+|  | Meine Aktivitäten | Verfügbar |
 | Chat | Unterhaltung | Verfügbar |
 | | Dateien | Verfügbar |
 | | Organigramm | Verfügbar |
 | | Aktivität | Verfügbar |
-| | InterOp (1:1 Teams-Skype für Business Chat) | Klicken Sie auf der Regierung Bestand |
-| Teams | Kanalnachricht | Verfügbar |
-| | Channel-Dateien | Verfügbar |
-| | Registerkarte ' OneNote ' | Klicken Sie auf der Regierung Bestand |
-| | E-Mail von einem DDE-Kanal | Nicht verfügbar |
+| | Interop (1:1 Teams – Skype for Business-Chat) | Auf dem Government-Rückstand |
+| Teams | Kanal Nachricht | Verfügbar |
+| | Kanaldateien | Verfügbar |
+| | OneNote-Registerkarte | Auf dem Government-Rückstand |
+| | Senden eines Kanals per e-Mail | Nicht verfügbar |
 | | Mitglied hinzufügen | Verfügbar |
-| | Gastzugriff | Klicken Sie auf der Regierung Bestand |
+| | Gastzugriff | Auf dem Government-Rückstand |
 | Besprechungen | Besprechung planen | Verfügbar |
-| | An Besprechung teilnehmen | Verfügbar |
-| | VoIP-meeting | Verfügbar |
+| | Teilnehmen an einer Besprechung | Verfügbar |
+| | VoIP-Besprechung | Verfügbar |
 | | Desktopfreigabe | Verfügbar |
-| | Freigabe von geben und nehmen-Steuerelement | Verfügbar |
+| | Geben und übernehmen der Steuerung in der Freigabe | Verfügbar |
 | | Verbinden von einem Konferenzraum | Verfügbar |
-| | Cloud-Aufzeichnung | Klicken Sie auf der Regierung Bestand |
+| | Cloud-Aufzeichnung | Auf dem Government-Rückstand |
 | | Besprechungsnotizen | Verfügbar |
-| | Übertragen von Besprechungen | Klicken Sie auf der Regierung Bestand |
-| | Innerhalb der Cloud Federated (DoD-DoD) Besprechungen | Verfügbar |
-| | Offenlegen Hub-Unterstützung | Klicken Sie auf der Regierung Bestand |
+| | Broadcast Besprechungen | Auf dem Government-Rückstand |
+| | Intra-Cloud (DoD to DoD)-Verbund Besprechungen | Verfügbar |
+| | Surface Hub-Unterstützung | Auf dem Government-Rückstand |
 | Anrufe | Kontakte | Verfügbar |
 | | Verlauf | Verfügbar |
 | | Voicemail | Verfügbar |
 | | VoIP-Anruf | Verfügbar |
-| | Skype für Business - Teams aufrufen | Verfügbar |
+| | Skype for Business – Teams anrufen | Verfügbar |
 | | Anrufpläne | Nicht verfügbar |
-| | Audiokonferenzen (durch Zulassen der Teilnehmer beitreten über PSTN) | Klicken Sie auf der Regierung Bestand |
-| | Microsoft Telefonsystem direktes routing | Klicken Sie auf der Regierung Bestand |
-| | Lobby für PSTN-Anrufer | Klicken Sie auf der Regierung Bestand |
-| | Aufrufen der Warteschlange | Klicken Sie auf der Regierung Bestand |
-| | Unterstützung von Vorgesetzten und Delegat | Klicken Sie auf der Regierung Bestand |
-| | Konsultieren und sichere Übertragung | Klicken Sie auf der Regierung Bestand |
-| | Bahnbrechenden nicht stören | Klicken Sie auf der Regierung Bestand |
-| | Besondere ring | Klicken Sie auf der Regierung Bestand |
-| | 1:1 Gruppe Anruf Ausweitung mit Skype für Unternehmen, Teams und PSTN-Teilnehmer | Klicken Sie auf der Regierung Bestand |
-| | Gruppe weiterleiten | Klicken Sie auf der Regierung Bestand |
-| | Weiterleiten an PSTN-Anruf | Klicken Sie auf der Regierung Bestand |
-| | Notrufdienste - Pläne aufrufen | Klicken Sie auf der Regierung Bestand |
-| | Unterstützung für vorhandene zertifizierten SIP-Telefone | Klicken Sie auf der Regierung Bestand |
-| | USB HID | Verfügbar |
+| | Audiokonferenzen (dadurch, dass Besprechungsteilnehmer über PSTN beitreten können) | Auf dem Government-Rückstand |
+| | Microsoft Phone-System Direktes Routing | Auf dem Government-Rückstand |
+| | Lobby für PSTN-Anrufer | Auf dem Government-Rückstand |
+| | Anrufwarteschlange | Auf dem Government-Rückstand |
+| | Unterstützung von Boss und Stellvertretung | Auf dem Government-Rückstand |
+| | Beratende und sichere Übertragung | Auf dem Government-Rückstand |
+| | Durchbruch nicht stören | Auf dem Government-Rückstand |
+| | Markanter Ring | Auf dem Government-Rückstand |
+| | 1:1-Gruppen-Anruf Eskalation mit Teams, Skype for Business und PSTN-Teilnehmern | Auf dem Government-Rückstand |
+| | Weiterleiten an Gruppe | Auf dem Government-Rückstand |
+| | Übertragung an PSTN-Anruf | Auf dem Government-Rückstand |
+| | Anrufpläne für Notrufe | Auf dem Government-Rückstand |
+| | Unterstützung für vorhandene zertifizierte SIP-Telefone | Auf dem Government-Rückstand |
+| | USB-HID | Verfügbar |
 | | eDiscovery für Anrufe und Besprechungen | Verfügbar |
-| | Organisation automatische Telefonzentrale | Klicken Sie auf der Regierung Bestand |
-| | Wenden Sie Skype Consumer - Teams | Nicht verfügbar |
-| Dateien | aktuell | Verfügbar |
+| | Automatische Telefonzentrale der Organisation | Auf dem Government-Rückstand |
+| | Support für Skype-Nutzer – Teams anrufen | Nicht verfügbar |
+| Dateien | Jüngsten | Verfügbar |
 | | Microsoft Teams | Verfügbar |
-| abspeichern | App-Store | Nicht verfügbar |
-| Suche | Nachrichten | Verfügbar |
+| Speichern | App Store | Nicht verfügbar |
+| Suche | Meldungen | Verfügbar |
 | | Kontakte | Verfügbar |
 | | Dateien | Verfügbar |
-| | Schrägstrich-Befehle | Verfügbar |
-| Beachtung | Compliance-Inhaltssuche | Verfügbar |
-| | Speicherung | Verfügbar |
-| | Audit Log-Suche | Verfügbar |
-| | Rechtliche Aufbewahrungspflicht | Verfügbar |
+| | Schrägstrich Befehle | Verfügbar |
+| Compliance | Kompatibilitäts Inhaltssuche | Verfügbar |
+| | Aufbewahrungs | Verfügbar |
+| | Überwachungsprotokoll Suche | Verfügbar |
+| | Rechtliche Aufbewahrung | Verfügbar |
 | | eDiscovery | Verfügbar |
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob die Featuregruppe Teams Anforderungen Ihrer Organisation erfüllt.</li></ul> |
+| ![Ein Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob der Featuresatz für Teams die Anforderungen Ihrer Organisation erfüllt.</li></ul> |
 
-## <a name="step-5-plan-for-governance"></a>Schritt 5. Planen der Steuerung
+## <a name="step-5-plan-for-governance"></a>Schritt 5. Plan für Governance
 
-Bestimmen der Anforderungen für die Unternehmensleitung und wie Sie diese erfüllen können. Weitere Informationen finden Sie in [Planen der Steuerung in Teams](plan-teams-governance.md) .
+Ermitteln Sie Ihre Anforderungen für Governance und wie Sie Sie erfüllen können. Weitere Informationen finden Sie unter [Planen von Governance in Teams](plan-teams-governance.md) .
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkt |<ul><li>Bestimmen und Dokumentieren der Governance-Anforderungen, befolgen die Richtlinien in [Planen der Steuerung in Teams](plan-teams-governance.md). </li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|Entscheidungspunkt |<ul><li>Ermitteln und dokumentieren Sie Ihre Governance-Anforderungen, und befolgen Sie die Richtlinien in [Plan for Governance in Teams](plan-teams-governance.md). </li></ul>|
 
-## <a name="step-6-deploy-teams-for-collaboration"></a>Schritt 6. Bereitstellen des Teams für die Zusammenarbeit
+## <a name="step-6-deploy-teams-for-collaboration"></a>Schritt 6. Bereitstellen von Teams für die Zusammenarbeit
 
-Nachdem Sie Onboarded an Microsoft 365 Government – DoD, wurden haben können Sie die standardmäßige Bereitstellungsmethode verwenden [der schnelle](https://www.microsoft.com/fasttrack) und Ihr gewählten Partner integrierte des Diensts folgen.
+Nachdem Sie Microsoft 365 Government – DoD zur Verfügung gestellt haben, können Sie den Standard Bereitstellungsansatz der Verwendung von [](https://www.microsoft.com/fasttrack) "Kurzarbeit" und des von Ihnen ausgewählten Partners für die Onboard-Nutzung des Diensts befolgen.
 
-Wenn Sie bereit sind, stellen Sie so [Aktivieren Sie für die Zusammenarbeit innerhalb Ihrer Organisation über Teams und Kanäle](teams-overview.md)Teams bereit. Achten Sie darauf, dass Sie mit der Annahme und Änderungsmanagement Team oder Teams Champions beteiligen.
+Wenn Sie bereit sind, stellen Sie Teams bereit, um die [Zusammenarbeit innerhalb Ihrer Organisation über Teams und Kanäle zu ermöglichen](teams-overview.md). Stellen Sie sicher, dass Sie sich mit Ihrem Adoptions-, Change Management-oder Team-Champion beschäftigen.

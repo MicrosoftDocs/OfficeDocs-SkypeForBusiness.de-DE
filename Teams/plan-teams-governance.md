@@ -7,7 +7,7 @@ ms.date: 08/10/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
-description: Erhalten Sie Informationen zur Planung der Implementierung von Governance-Funktionen in Teams.
+description: Hier erfahren Sie, wie Sie die Implementierung von Governance-Funktionen in Teams planen.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,119 +15,119 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12f6d6e6ea4fd519c5ad625bf872a15c94caa478
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 10fb80667a957ac4f4a7d9e25713a9232129b0b7
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902463"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344380"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Governance in Teams.
 
-Teams bietet einen umfassenden Satz von Tools, die alle Governance-Funktionen, die Ihre Organisation erfordern möglicherweise implementieren. In diesem Artikel wird beschrieben, wie IT-Spezialisten die richtigen Fragen zum Ermitteln der ihren Anforderungen für die Unternehmensleitung und wie diese entsprechen. 
+Teams bietet eine Reihe umfassender Tools zur Implementierung von Governance-Funktionen, die in Ihrer Organisation möglicherweise erforderlich sind. In diesem Artikel werden IT-Experten dazu aufgefordert, die richtigen Fragen zu stellen, um Ihre Anforderungen an die Governance zu ermitteln und zu erfüllen. 
 
 > [!Tip] 
-> Sehen Sie sich die folgenden Sitzung lernen Sie mehr über Steuerung in Microsoft-Teams: [Steuerung und Verwaltung Lebenszyklus im Microsoft-Teams](https://aka.ms/teams-governance)
+> Schauen Sie sich die folgende Sitzung an, um mehr über die Governance in Microsoft Teams zu erfahren: [Governance, Verwaltung und Lebenszyklus in Microsoft Teams](https://aka.ms/teams-governance)
 
-## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>Erstellung von Gruppe und Team, benennen, Klassifizierung und Gastzugriff
+## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>Gruppen-und TEAMERSTELLUNG,-Namensgebung,-Klassifizierung und Gastzugriff
 
-Ihre Organisation erfordern möglicherweise, exakte Steuerelemente wie Teams mit dem Namen und klassifiziert werden, ob Gäste als Teammitglieder hinzugefügt werden können und Benutzer, Teams erstellen können zu implementieren. Sie können jeden dieser Bereiche mithilfe von Azure Active Directory (AD Azure) konfigurieren. 
+Für Ihre Organisation ist es möglicherweise erforderlich, strenge Steuerelemente für das benennen und Klassifizieren von Teams zu implementieren, unabhängig davon, ob Gäste als Teammitglieder hinzugefügt werden können und wer Teams erstellen kann. Sie können jeden dieser Bereiche mit Azure Active Directory (Azure AD) konfigurieren. 
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Ist Ihre Organisation eine spezielle Benennungskonvention für Teams erforderlich?</li><li>Benötigen Teams Ersteller die Möglichkeit, Teams organisationsspezifischen Klassifikationen zugewiesen?</li><li>Benötigen Sie die Möglichkeit, Teams auf Basis-Team Gäste hinzufügen einschränken?</li><li>Benötigt Ihre Organisation die einschränken, wer Teams erstellen kann?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Anforderungen Ihrer Organisation für Team erstellen, benennen, Klassifizierung und Gastzugriff.</li><li>Planen der Implementierung von diesen Anforderungen als Teil des Teams nahezubringen.</li><li>Kommunizieren Sie und veröffentlichen Sie Ihrer Richtlinien um Teams Benutzer des Verhaltens zu informieren, die sie erwarten können.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |Entscheidungspunkte|<ul><li>Erfordert Ihre Organisation eine bestimmte Benennungskonvention für Teams?</li><li>Müssen Team Entwicklerteams die Möglichkeit geben, organisationsspezifische Klassifizierungen zuzuweisen?</li><li>Müssen Sie die Möglichkeit zum Hinzufügen von Gästen zu Teams pro Team einschränken?</li><li>Muss Ihre Organisation einschränken, wer Teams erstellen kann?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Nächste Schritte|<ul><li>Dokumentieren Sie die Anforderungen Ihrer Organisation an TEAMERSTELLUNG,-Namensgebung,-Klassifizierung und-Gastzugriff.</li><li>Planen Sie die Implementierung dieser Anforderungen als Teil des Rollouts Ihres Teams.</li><li>Kommunizieren und veröffentlichen Sie Ihre Richtlinien, um die Benutzer über das Verhalten zu informieren, das Sie erwarten können.</li></ul>|
 
 > [!TIP]
-> Verwenden Sie in der folgenden Tabelle, um den Anforderungen der Organisation zu erfassen.
+> Verwenden Sie die folgende Tabelle, um die Anforderungen Ihrer Organisation zu erfassen.
 
-|Funktion |Details |Azure AD-Premium <br> Lizenz erforderlich |Entscheidung |
+|Funktion |Details |Azure AD Premium <br> Lizenz erforderlich |Entscheidung |
 |---------|---------|---------|---------|
-|Team Benennungsrichtlinie | Verwenden Sie Präfix-Suffix-basierten, benutzerdefinierte blockierte Wörter. |P1 |TBD |
-|Team-Klassifizierung |Klassifikationen in der Teams zuweisen. |P1 |TBD |
-|Team Gastzugriff |Ermöglichen oder verhindern, dass Gäste Teams hinzugefügt wird. |Nein |TBD |
-|Teamerstellung |Team Erstellung für Administratoren zu begrenzen. |Nein |TBD|
-|Teamerstellung |Team erstellen auf Mitglieder der Gruppe Sicherheit zu begrenzen. |P1 |TBD|
+|Team Benennungsrichtlinie | Verwenden Sie Präfix-Suffix-basierte, benutzerdefinierte blockierte Wörter. |P1 |TBD |
+|Team Klassifizierung |Zuweisen von Klassifizierungen zu Teams |P1 |TBD |
+|Team Gastzugriff |Zulassen oder verhindern, dass Gäste zu Teams hinzugefügt werden. |Nein |TBD |
+|Teamerstellung |Beschränken Sie die TEAMERSTELLUNG auf Administratoren. |Nein |TBD|
+|Teamerstellung |Beschränken Sie die TEAMERSTELLUNG auf Mitglieder der Sicherheitsgruppe. |P1 |TBD|
 
 > [!NOTE]
-> Um im voraus, [erfahren Sie mehr über das Festlegen dieser Richtlinien und welche Lizenzen benötigten](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)planen.
+> [Weitere Informationen zum Festlegen dieser Richtlinien und zu den erforderlichen Lizenzen finden](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)Sie unter Unterstützung bei der Planung.
 > 
 > [!NOTE]
-> Beschränken der Gruppe und Teamwebsites erstellen kann Produktivität der Benutzer und verlangsamen, da viele Office 365-Dienste erfordern, dass für das Funktionieren des Diensts Gruppen erstellt werden. Zusätzliche Informationen navigieren Sie zu, und erweitern Sie, [Warum steuern, wer auf Office 365 Gruppen erstellt](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
+> Das Einschränken der Gruppen-und TEAMERSTELLUNG kann die Produktivität Ihrer Benutzer verlangsamen, da für viele Office 365-Dienste die Erstellung von Gruppen erforderlich ist, damit der Dienst funktioniert. Weitere Informationen finden Sie unter [Warum steuern, wer Office 365-Gruppen erstellt](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
 
 #### <a name="additional-information"></a>Weitere Informationen
 
-Nachdem Sie den Standarddateispeicherort bestimmt haben, können Sie diese mithilfe von Azure AD-Steuerelementen implementieren. Technische Anleitungen diese Einstellungen zu implementieren finden Sie unter:
+Nachdem Sie Ihre Anforderungen festgelegt haben, können Sie diese mithilfe von Azure AD-Steuerelementen implementieren. Technische Anleitungen zur Implementierung dieser Einstellungen finden Sie unter:
 
--   [Azure Active Directory-Cmdlets zum Konfigurieren von gruppeneinstellungen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
+-   [Azure Active Directory-Cmdlets zum Konfigurieren von Gruppeneinstellungen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
 
--   [Erzwingen Sie eine Namensrichtlinie für Office 365-Gruppen im Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).
+-   [Erzwingen einer Benennungsrichtlinie für Office 365-Gruppen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
 
--   [Office 365 Gruppen naming Policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+-   [Office 365-gruppenbenennungsrichtlinie](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
 
-## <a name="group-and-team-expiration-retention-and-archiving"></a>Gruppe und Team Ablauf, Aufbewahrung und Archivierung
+## <a name="group-and-team-expiration-retention-and-archiving"></a>Ablauf, Aufbewahrung und Archivierung von Gruppen und Teams
 
-Ihre Organisation möglicherweise zusätzliche Anforderungen für das Einrichten von Richtlinien für Ablauf, Archivierung, und Archivierung teams und teams, die Daten (DDE Kanalnachrichten und Channel-Dateien). Sie können Ablaufrichtlinien Gruppe, um die automatische Verwaltung des Lebenszyklus der Gruppe und Aufbewahrung Richtlinien für das beibehalten oder Löschen von Informationen nach Bedarf, und konfigurieren Sie können Teams archivieren (diese auf schreibgeschützt festgelegt), die eine Point-in-Time-Ansicht eines Teams beibehalten, der nicht mehr aktiv.
+In Ihrer Organisation sind möglicherweise zusätzliche Anforderungen für das Festlegen von Richtlinien für Ablauf, Aufbewahrung und Archivierung von Teams und Team Daten (Kanal Nachrichten und Kanaldateien) enthalten. Sie können Gruppen Ablaufrichtlinien so konfigurieren, dass der Lebenszyklus der Gruppen-und Aufbewahrungsrichtlinien automatisch verwaltet wird, um Informationen nach Bedarf zu erhalten oder zu löschen, und Sie können Teams archivieren (im schreibgeschützten Modus festlegen), um eine Point-in-Time-Ansicht eines Teams beizubehalten, das nicht mehr aktiv.
 
 |           |            |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Benötigt Ihre Organisation die ein Ablaufdatum für Teams angeben?</li><li>Benötigt Ihre Organisation bestimmte Daten Aufbewahrungsrichtlinien auf Teams angewendet werden?</li><li>Erwartet Ihrer Organisation erfordern die Möglichkeit zum Archivieren von inaktiven Teams den Inhalt in einem schreibgeschützten Zustand erhalten?</li></ul>|
-| ![](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Dokumentieren Sie die Anforderungen Ihrer Organisation für Team Ablauf, Daten Aufbewahrung und Archivierung.</li><li>Planen der Implementierung von diesen Anforderungen als Teil des Teams nahezubringen.</li><li>Kommunizieren Sie und veröffentlichen Sie Ihrer Richtlinien um Teams Benutzer des Verhaltens zu informieren, die sie erwarten können.</li></ul>|
+| ![Ein Symbol, das Entscheidungspunkte darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Erfordert Ihre Organisation die Angabe eines Ablaufdatums für Teams?</li><li>Erfordert Ihre Organisation, dass bestimmte Datenaufbewahrungsrichtlinien auf Teams angewendet werden?</li><li>Erwartet Ihre Organisation die Möglichkeit, inaktive Teams zu archivieren, um den Inhalt im schreibgeschützten Zustand zu erhalten?</li></ul>|
+| ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Dokumentieren Sie die Anforderungen Ihrer Organisation für Team Ablauf, Datenaufbewahrung und Archivierung.</li><li>Planen Sie die Implementierung dieser Anforderungen als Teil des Rollouts Ihres Teams.</li><li>Kommunizieren und veröffentlichen Sie Ihre Richtlinien, um die Benutzer über das Verhalten zu informieren, das Sie erwarten können.</li></ul>|
 
 > [!TIP]
-> Verwenden Sie in der folgenden Tabelle, um den Anforderungen der Organisation zu erfassen.
+> Verwenden Sie die folgende Tabelle, um die Anforderungen Ihrer Organisation zu erfassen.
 
-|Funktion |Details |Azure AD-Premium-Lizenz erforderlich |Entscheidung |
+|Funktion |Details |Azure AD Premium-Lizenz erforderlich |Entscheidung |
 |---------|---------|---------|---------|
-|Ablaufrichtlinie |Verwalten des Lebenszyklus der Office 365-Gruppen eine Ablaufrichtlinie festlegen. |P1 |TBD|
-|Aufbewahrungsrichtlinie |Beibehalten oder Löschen von Daten für einen bestimmten Zeitraum Aufbewahrungsrichtlinien für Teams im Compliance Center Sicherheit & festlegen. **Hinweis**: Diese Funktion erfordert Lizenzierung der Office 365 Enterprise E3 oder höher. |Nein |TBD |
-|Archivieren und Wiederherstellen |Archivieren Sie ein Team aus, wenn nicht mehr aktiv ist, aber es als Referenz beibehalten oder in der Zukunft erneut aktivieren möchten. |Nein |TBD |
+|Ablaufrichtlinie |Verwalten des Lebenszyklus von Office 365-Gruppen durch Festlegen einer Ablaufrichtlinie |P1 |TBD|
+|Aufbewahrungsrichtlinie |Speichern oder löschen Sie Daten für einen bestimmten Zeitraum, indem Sie Aufbewahrungsrichtlinien für Teams im Security & Compliance Center festlegen. **Hinweis**: die Verwendung dieses Features erfordert Lizenzierung von Office 365 Enterprise E3 oder höher. |Nein |TBD |
+|Archivieren und Wiederherstellen |Archivieren Sie ein Team, wenn es nicht mehr aktiv ist, möchten Sie es aber zu Referenzzwecken behalten oder in Zukunft wieder aktivieren. |Nein |TBD |
 
 > [!Note]
-> Gruppe Ablauf ist eine Azure AD Premium-Funktion. Für dieses Feature verfügbar sein soll müssen Ihre Mandanten ein Abonnement für Azure AD Premium und Lizenzen für den Administrator, die die Einstellungen und die Mitglieder der betroffenen Gruppen konfiguriert.
+> Das Ablaufdatum einer Gruppe ist eine Azure AD Premium-Funktion. Damit dieses Feature verfügbar ist, muss der Mandant ein Abonnement für Azure AD Premium und Lizenzen für den Administrator besitzen, der die Einstellungen und die Mitglieder der betroffenen Gruppen konfiguriert.
 
 #### <a name="additional-information"></a>Weitere Informationen
 
-Technische Anleitungen diese Einstellungen zu implementieren finden Sie unter:
+Technische Anleitungen zur Implementierung dieser Einstellungen finden Sie unter:
 
--   [Einrichten von Office 365 Gruppen Ablauf](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
+-   [Einrichten von Office 365 Groups-Ablauf](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
 
--   [Einrichten von Teams Aufbewahrungsrichtlinien](retention-policies.md).
+-   [Einrichten von Aufbewahrungsrichtlinien für Teams](retention-policies.md)
 
--   [Archivierung oder Wiederherstellung ein Team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
+-   [Archivieren oder Wiederherstellen eines Teams](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 
 
-## <a name="teams-feature-management"></a>Teams Feature management
+## <a name="teams-feature-management"></a>Team-Funktionsverwaltung
 
-Ein weiterer wichtiger Aspekt der Unternehmensleitung und Anwendungslebenszyklus-Verwaltung für Teams ist die Möglichkeit, die steuern, welche Features Zugriff auf Ihre Benutzer haben. Sie können messaging, der Einhaltung und Anruffunktionen, entweder auf die Office 365-Mandanten Ebene oder pro Benutzer verwalten. 
+Ein weiterer wichtiger Aspekt von Governance und Lifecycle Management für Teams ist die Möglichkeit, zu steuern, auf welche Funktionen Ihre Benutzer zugreifen können. Sie können Messaging-, Besprechungs-und Anruffeatures verwalten, entweder auf der Office 365-Mandantenebene oder pro Benutzer. 
 
 
 |         |         |
 |---------|---------|
-| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Benötigt Ihre Organisation die Einschränkung von Teams Features für Ihre gesamte Mandanten?</li><li>Benötigt Ihre Organisation die Teams Features für bestimmte Benutzer beschränken?</li></ul>|
-| ![](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Dokumentieren Sie die Anforderungen Ihrer Organisation für Teams Features Ebene der Mandanten und Benutzer beschränken.</li><li>Ihre spezifischen Anforderungen als Teil des Teams nahezubringen implementieren möchten.</li><li>Kommunizieren Sie und veröffentlichen Sie Ihrer Richtlinien um Teams Benutzer des Verhaltens zu informieren, die sie erwarten können.</li></ul>|
+| ![Ein Symbol, das Entscheidungspunkte darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Erfordert Ihre Organisation das Einschränken von Teamfunktionen für den gesamten Mandanten?</li><li>Erfordert Ihre Organisation das Einschränken von Teamfunktionen für bestimmte Benutzer?</li></ul>|
+| ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Dokumentieren Sie die Anforderungen Ihrer Organisation, um die Funktionen von Teams auf Mandanten-und Benutzerebene zu begrenzen.</li><li>Planen Sie, Ihre spezifischen Anforderungen als Teil des Rollouts für Teams zu implementieren.</li><li>Kommunizieren und veröffentlichen Sie Ihre Richtlinien, um die Benutzer über das Verhalten zu informieren, das Sie erwarten können.</li></ul>|
 
-### <a name="teams-feature-management-focus-areas"></a>Teams Featurebereiche Management Fokus
+### <a name="teams-feature-management-focus-areas"></a>Fokusbereiche der Featureverwaltung in Teams
 
-Teams bietet detaillierte Funktionen zur Kontrolle messaging, Besprechung, aufrufende und live Ereignis Features und mehr über Richtlinien. Verschiedene Richtlinien können auf alle Benutzer in der Standardeinstellung oder pro Benutzer nach Bedarf Ihrer Organisation angewendet werden. 
+Teams bietet granulare Funktionen zum Steuern von Messaging-, Besprechungs-, Anruf-und Live-Ereignis Features und mehr über Richtlinien. Verschiedene Richtlinien können standardmäßig oder pro Benutzer nach Bedarf für Ihre Organisation auf alle Benutzer angewendet werden. 
 
-Eine detaillierte Liste aller Einstellungen, einschließlich technische Anleitungen für Implementierungsmethode für Ihre Organisation finden Sie unter den folgenden Artikeln:
+Detaillierte Listen aller Einstellungen, einschließlich technischer Anleitungen zur Implementierung für Ihre Organisation, finden Sie in den folgenden Artikeln:
 
 -   [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md)
 -   [Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 -   [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md)
 
 
-## <a name="security-and-compliance"></a>Sicherheit und compliance
+## <a name="security-and-compliance"></a>Sicherheit und Compliance
 
-Teams basiert auf Erweiterte Sicherheit und Compliance-Funktionen von Office 365 und Überwachung und reporting, Inhaltssuche Compliance, eDiscovery, rechtlichen Aufbewahrungspflicht und Aufbewahrungsrichtlinien unterstützt. 
+Teams basiert auf den erweiterten Sicherheits-und Compliance-Funktionen von Office 365 und unterstützt die Überwachung und Berichterstellung, die Compliance-Inhaltssuche, e-Discovery, rechtliche Aufbewahrungs-und Aufbewahrungsrichtlinien. 
 
 > [!Important]
-> Wenn Ihre Organisation die Einhaltung von Vorschriften und sicherheitsanforderungen verfügt, Informationen Sie zur fundierte bereitgestellt, in der [Übersicht über Sicherheit und Einhaltung von Vorschriften in Microsoft-Teams,](security-compliance-overview.md)Artikel in diesem Thema.
+> Wenn Ihre Organisation über Konformitäts-und Sicherheitsanforderungen verfügt, lesen Sie den ausführlichen Inhalt zu diesem Thema im Artikel [Übersicht über Sicherheit und Compliance in Microsoft Teams](security-compliance-overview.md).
 
 <!--
 ## Teams lifecycle management

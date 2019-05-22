@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f52ffd975d671b71f098cb15c6dd7c8661c082d
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: 377d86bd71947588186979f20068b9e8927ccd3d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33994153"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287910"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -311,4 +311,4 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Dateien können nach dem Bearbeiten nicht verschoben, gelöscht oder umbenannt werden  <br/> |Nachdem eine Datei in MS Teams bearbeitet wurde, kann sie nicht mehr sofort verschoben, umbenannt oder gelöscht werden. <br/> |Dies ist derzeit ein bekanntes Problem, und die Problemumgehung besteht darin, einige Zeit zu warten, bevor administrativ Änderungen vorgenommen werden.  <br/> |03/12119  <br/> |
+|Dateien können nach dem Bearbeiten nicht verschoben, gelöscht oder umbenannt werden  <br/> |Nachdem eine Datei in Teams bearbeitet wurde, kann sie nicht mehr sofort verschoben, umbenannt oder gelöscht werden. <br/> |Dies ist derzeit ein bekanntes Problem, und die Problemumgehung besteht darin, einige Zeit zu warten, bevor administrative Änderungen vorgenommen werden.  <br/> |12.03.2019  <br/> |

@@ -8,107 +8,107 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Verwenden Sie Onboarding Prüflisten zum Vorbereiten von Office 365 für Teams und Konfigurieren von Teams Kernfunktionen, Netzwerk, und cloud-VoIP-Arbeitslasten.
+description: Verwenden Sie Onboarding-Checklisten, um Office 365 für Teams vorzubereiten und die Kernfunktionen von Teams, Netzwerke und Cloud-VoIP-Workloads zu konfigurieren.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27a3555443ecf1988a49c6002477e8ec2cb4680e
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: c2316376bd2dfddce99e63fe4ab66c5e33eb813e
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868688"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344829"
 ---
 # <a name="prepare-my-service"></a>Vorbereiten des Diensts
 
-Dieser Artikel bietet eine Übersicht über die Anforderungen bei der Vorbereitung von Cloud-VoIP-Dienste für Ihre Organisation. Vorbereiten der ordnungsgemäß, können Sie sein sicher, dass Sie Cloud Voice-Funktionen in Ihrer Organisation bereitstellen möchten.
+Dieser Artikel enthält eine Übersicht über die Anforderungen für das Vorbereiten von Cloud-VoIP-Diensten für Ihre Organisation. Wenn Sie ordnungsgemäß vorbereitet sind, können Sie sicherstellen, dass Sie bereit sind, Ihrer Organisation Cloud-Sprachfunktionen bereitzustellen.
 
-## <a name="onboarding-checklists-for-microsoft-teams-voice-workloads"></a>Onboarding Checklisten für die Microsoft-Teams, VoIP-Arbeitslasten
+## <a name="onboarding-checklists-for-microsoft-teams-voice-workloads"></a>Onboarding-Checklisten für Microsoft Teams-sprach Auslastungen
 
-Die folgenden Prüflisten führen Sie durch die Schritte für die Implementierung von Audiokonferenzen, Telefonsystem mit Aufrufen plant ("aufrufen plant") und Funktionen Phone System direkten Routing ("Direktes Routing") im Microsoft-Teams.
+Die folgenden Checklisten führen Sie durch die Schritte zum Implementieren von Audiokonferenzen, Telefonsystemen mit Anrufplänen ("Anrufpläne") und von Telefonsystem-direkt Routing ("Direct Routing") in Microsoft Teams.
 
-*  [Vorbereiten der Office 365 für Teams](onboarding-checklist-enable-office-365.md)
+*  [Vorbereiten von Office 365 für Teams](onboarding-checklist-enable-office-365.md)
 
-*  [Konfigurieren von Teams Kernfunktionen](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
+*  [Konfigurieren der Kernfunktionen von Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
 *  [Netzwerk konfigurieren](onboarding-checklist-configure-networking.md)
 
-*  [Konfigurieren von VoIP-Arbeitslasten Cloud in Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+*  [Konfigurieren von Cloud-sprach Auslastungen in Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 
-*  [Konfigurieren der direkten Weiterleitung von Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)
+*  [Konfigurieren des direkten Routings in Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)
 
-Die Aufgaben und Aktivitäten in dieser Prüflisten sind die Core "Aufgabe" Elemente, die in jeder Bereitstellung von Cloud-Sprachfunktionen mit Teams liegen. Sie können die Prüflisten zum Einschließen von Aktivitäten und Aufgaben, die speziell für Ihre eigenen Teams Reise anpassen.
-
->[!NOTE]
->Diese Anleitung konzentriert sich ausschließlich auf aufrufen plant, Audiokonferenzen und direkte Routing. Wenn Sie neue Teams sind, überprüfen Sie die [Übersicht der Microsoft-Teams](teams-overview.md). Starten Sie als allgemeinen Leitfaden zum Planen der Bereitstellung von Teams mit [Chat bereitstellen, Teams, Kanäle und apps im Microsoft-Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md).
-
-Verwenden Sie die bereitgestellten Prüflisten zum Nachverfolgen des Status der jede einzelne Aktivität und jede Aufgabe, und um sicherzustellen, dass Sie alle wichtigen Schritte übersprungen noch nicht. Jede Aktivität enthält eine ausführliche Beschreibung der erforderlichen Aktionen und Verweise auf zusätzliche Informationen, die Sie verwenden können, um diese Aktivität abgeschlossen haben.
-
-Obwohl es wird empfohlen, dass Sie die Prüflisten in Reihenfolge ausführen, wird der Umfang der Bereitstellung und Konfiguration und Komplexität der Umgebung die genauen Reihenfolge abhängen. Sie sind so angeordnet, dass entweder ein "ohne bestehende Infrastruktur" unterstützt Teams Bereitstellung (eine mit keine vorherigen Skype für Business Onlineanwesenheit) oder die Migration von Skype für Business Online zu Teams. Wenn Sie von Skype für Business Online migrieren, möglicherweise haben bereits abgeschlossen einige dieser Aktivitäten und jetzt ignorieren können.
-
-Wenn Sie Onboarding-Benutzer auf eine Websitebasis sind, empfehlen wir nachdrücklich für die Verwendung der [Website Aktivierung Playbook für VoIP (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) als zusätzliche Anleitung zu dieser Prüflisten.
+Die Aufgaben und Aktivitäten in diesen Prüflisten sind die Kernaufgaben, die für jede Bereitstellung von Cloud-Sprachfunktionen in Teams gelten. Sie können die Checklisten anpassen, um die Aktivitäten und Aufgaben einzubeziehen, die für Ihre eigene Teams-Reise spezifisch sind.
 
 >[!NOTE]
->Die meisten Konfigurationseinstellungen gelten sowohl für Teams und Skype für Business Online. Sie verwenden die Verwaltungskonsole Microsoft 365 Admin Center und Microsoft-Teams, um diese Einstellungen zu konfigurieren.
+>Dieser Leitfaden konzentriert sich ausschließlich auf Anrufpläne, Audiokonferenzen und direktes Routing. Wenn Sie neu bei Microsoft Teams sind, überprüfen Sie die [Übersicht über Microsoft Teams](teams-overview.md). Allgemeine Anleitungen zum Planen der Bereitstellung von Teams finden Sie unter [Bereitstellen von Chat, Teams, Kanälen und apps in Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md).
+
+Verwenden Sie die bereitgestellten Checklisten, um den Status der einzelnen Aktivitäten und Aufgaben zu überwachen und sicherzustellen, dass Sie keine kritischen Schritte übersprungen haben. Jede Aktivität umfasst eine detaillierte Beschreibung der erforderlichen Aktionen und Verweise auf zusätzliche Informationen, die Sie zum Ausführen dieser Aktivität verwenden können.
+
+Obwohl es empfehlenswert ist, die Checklisten in der richtigen Reihenfolge zu befolgen, hängt die genaue Reihenfolge vom Umfang ihrer Bereitstellung und der Konfiguration und Komplexität Ihrer Umgebung ab. Sie sind so organisiert, dass Sie eine "Greenfield"-Teams-Bereitstellung (eine ohne vorherige Skype for Business Online-Anwesenheit) oder die Migration von Skype for Business Online zu Teams unterstützen. Wenn Sie von Skype for Business Online migrieren, haben Sie möglicherweise bereits einige dieser Aktivitäten abgeschlossen und können diese jetzt ignorieren.
+
+Wenn Sie Benutzer pro Website an Bord haben, wird dringend empfohlen, dass Sie das Textbuch [für die Website Aktivierung](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) als ergänzende Anleitung für diese Checklisten verwenden.
+
+>[!NOTE]
+>Die meisten Konfigurationseinstellungen sind zwischen Teams und Skype for Business Online üblich. Sie verwenden das Microsoft 365 Admin Center und das Microsoft Teams Admin Center, um diese Einstellungen zu konfigurieren.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Wer wird für die Aufsicht über den Abschluss der Onboarding Prüflisten zuständig sein?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Laden Sie die Prüflisten Onboarding.</li><li>Durch die Onboarding Prüfliste Elemente schrittweise nach Plan für die Bereitstellung Ihrer Organisation arbeiten.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Wer ist für die Überwachung der Fertigstellung der Onboarding-Checklisten zuständig?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Laden Sie die Checklisten für Onboarding herunter.</li><li>Arbeiten Sie schrittweise über die Elemente der Onboarding-Checkliste in Übereinstimmung mit dem Bereitstellungsplan Ihres Unternehmens.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
 ## <a name="continue-onboarding"></a>Onboarding fortsetzen
 
-Nach Abschluss dieser Prüflisten benötigen Sie erfolgreich Voice-Funktionen für Ihre Bereitstellung Teams hinzugefügt haben.
+Nachdem Sie diese Checklisten abgeschlossen haben, haben Sie Ihrer Teams-Bereitstellung erfolgreich Sprachfunktionen hinzugefügt.
 
-Als Nächstes verwenden Sie die [Website Aktivierung Playbook für VoIP (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) Einstieg erleichtern die Benutzer auf jeder Website durch, und dazu beitragen Sie, dass Sie beim Planen und Ausführen von wichtigen standortspezifische Aktivitäten.
+Verwenden Sie im nächsten Schritt das Textbuch [für die Website Aktivierung (Textbuch für Sprache)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) , damit Sie Ihre Benutzer auf jeder Website an Bord bringen und sicherstellen können, dass Sie wichtige Website spezifische Aktivitäten planen und ausführen.
 
--   Plan für die Einführung der bereit von Standorten
+-   Bereitstellungs Plan für bereite Website nach Website
 
--   Service-Management Prozess herstellen
+-   Einrichten des Dienst Verwaltungsprozesses
 
--   Ausführen von Tests und-Wartung
+-   Testen und Behebung durchführen
 
 <!--ENDOFSECTION-->
 
-## <a name="test-cloud-voice-workloads-in-teams"></a>Test Cloud VoIP Arbeitslasten in Teams
+## <a name="test-cloud-voice-workloads-in-teams"></a>Testen von Cloud-sprach Auslastungen in Teams
 
-Nachdem Sie definiert und die Teams Cloud VoIP geschäftlichen Erfolg und technische Pläne als Teil der Phase Ermitteln übergeordneter Faktoren dokumentiert und in der Verwaltungskonsole gewünschte Konfiguration vorgenommen, wird im nächste Schritt zu überprüfen, die Ihre Organisation die Erwartungen und Anforderungen erfüllt sind über Features, Funktionen und Verwendbarkeit. Sie sollten diese Validierungsschritt führen Sie vor der Bereitstellung einer pilot oder final-bereitstellungs in Ihrer produktionsumgebung.
+Nachdem Sie Ihre Teams Cloud Voice Business Success-und Technical implementation-Pläne im Rahmen der enVision-Phase definiert und dokumentiert haben und die gewünschte Konfiguration im Admin Center vorgenommen haben, besteht der nächste Schritt darin, zu überprüfen, ob Ihre Organisation Erwartungen und Anforderungen werden durch Funktion, Funktionalität und Benutzerfreundlichkeit erfüllt. Sie sollten diesen Validierungsschritt durchführen, bevor Sie eine Pilot-oder endgültige Bereitstellung in Ihrer Produktionsumgebung bereitstellen.
 
-Sie können Business Erfolg planen nutzen, die Sie während der Phase der Ermitteln übergeordneter Faktoren dienen als Grundlage für die Bestimmung der Aktivitäten, erwartet, die Funktionalität der Testfälle und allgemeine Bereich während der Testphase ausgewertet werden definiert haben.
+Sie können den Geschäftserfolgs Plan, den Sie während der enVision-Phase definiert haben, als Grundlage für die Ermittlung der Aktivitäten, Erwartungen, Funktions-/Funktionstest Fälle und des Gesamtumfangs nutzen, der während der Testphase ausgewertet werden soll.
 
-## <a name="define-your-testing-approach"></a>Definieren Sie Ihren testing Ansatz
+## <a name="define-your-testing-approach"></a>Definieren des testansatzes
 
-In der einfachsten Form Ihre testing Ansatz basiert auf Ihre Funktion Funktionen von Audiokonferenzen, aufrufen plant, überprüfen oder direkte Routingdienst und Entwickeln von einen Test planen, um sicherzustellen, dass Ihre Funktionalität für Benutzer im Gültigkeitsbereich erfüllt sind. Es folgt ein Beispiel Testplan für die integrierte Phase einer Audiokonferenz Implementierung.
+In der einfachsten Form basiert Ihr Testansatz auf der Überprüfung der Funktions Funktionen der Audiokonferenzen, der Anrufpläne oder des direkten Routing Diensts sowie der Entwicklung eines Testplans, um zu überprüfen, ob die Funktionsanforderungen für Benutzer im Bereich erfüllt sind. Im folgenden sehen Sie einen Beispiel Testplan für die Onboard-Phase einer Audiokonferenz-Implementierung.
 
 
-| So testen Sie Audio Feature für Einwahlkonferenzen | Zusammenfassung der Ergebnisse | Zusätzliche Hinweise |
+| Zu prüfendes Audiokonferenz-Feature | Ergebnis Zusammenfassung | Zusätzliche Notizen |
 |------------|-----------------|------------------|
-| Planen Sie eine Ad-hoc-Teams Besprechung, die Einwahlinformationen Audiokonferenzen enthält | Bestanden wurden oder   | TBD |
-| Verwenden Sie ein Telefon zur Erfüllung von Audio in einer Besprechung über das Telefonfestnetz erreichen, indem er mit den bereitgestellten Informationen Zugriffsnummer für Einwahl | Bestanden wurden oder | TBD |
-| Teilnehmen an andere Personen zu einer vorhandenen Besprechung durch Telefonverbindung über das Telefonfestnetz | Bestanden wurden oder | TBD |
+| Planen einer Ad-hoc-Teams-Besprechung mit Einwahlinformationen zu Audiokonferenzen | Erfolgreich/fehlerhaft   | TBD |
+| Verwenden Sie ein Telefon für die Audioübertragung, indem Sie sich über das PSTN mit den eingegebenen Informationen in eine Besprechung einwählen. | Erfolgreich/fehlerhaft | TBD |
+| Teilnehmen an einer vorhandenen Besprechung durch Anrufen über das PSTN | Erfolgreich/fehlerhaft | TBD |
 
 
 
-| Aufrufen von Plänen oder direkten Routing feature zum Testen | Zusammenfassung der Ergebnisse | Zusätzliche Hinweise |
+| Anrufpläne oder direktes Routing-Feature zum Testen | Ergebnis Zusammenfassung | Zusätzliche Notizen |
 |----------------------------------------------------|-----------------|------------------|
-| Stellen Sie einen PSTN-Anruf durch wählen eine PSTN-Nummer       | Bestanden wurden oder       | TBD |
-| Erhalten Sie einen PSTN-Anruf durch Wählen der PSTN-Nummer aus einer externen Zeile (mobile, Festnetz) | Bestanden wurden oder | TBD|
-| Übertragen Sie einen PSTN-Anruf von einem Benutzer von Teams auf einen anderen | Bestanden wurden oder | TBD |
+| Tätigen eines PSTN-Anrufs durch Wählen einer PSTN-Nummer       | Erfolgreich/fehlerhaft       | TBD |
+| Empfangen eines PSTN-Anrufs, indem Sie Ihre PSTN-Nummer von einer externen Leitung anrufen (Mobil, Festnetztelefon) | Erfolgreich/fehlerhaft | TBD|
+| Übertragen eines PSTN-Anrufs von einem Teams-Benutzer zu einem anderen | Erfolgreich/fehlerhaft | TBD |
 
 
 >[!TIP]
->Zur Erleichterung der Testfall Erstellung als Ausgangspunkt finden Sie in der Liste der Benutzer Anleitungen verfügbar unter [Teams Besprechungen und Telefonkonferenzen](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8#bkmk_havingmeetings).
+>Wenn Sie die Erstellung von Testfällen als Ausgangspunkt unterstützen möchten, lesen Sie die Liste der Benutzerleitfäden, die in den [Teams-Besprechungen und-anrufen](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8#bkmk_havingmeetings)zur Verfügung stehen.
 
 <!--ENDOFSECTION-->
 
-## <a name="set-up-cloud-voice-workloads-for-teams"></a>Einrichten von Cloud-VoIP-Arbeitslasten für Teams
+## <a name="set-up-cloud-voice-workloads-for-teams"></a>Einrichten von Cloud-sprach Auslastungen für Teams
 
-Nun, da Sie Ihren testing Ansatz definiert haben, wird im nächste Schritt der Service-Umgebung und den Benutzer im Gültigkeitsbereich für Teams Cloud VoIP-Funktionen konfigurieren.
+Nachdem Sie Ihren Testansatz definiert haben, besteht der nächste Schritt darin, ihre Dienstumgebung und die Benutzer im Bereich für die Cloud-Sprachfeatures von Teams zu konfigurieren.
 
 Weitere Informationen finden Sie unter:
 
@@ -116,79 +116,79 @@ Weitere Informationen finden Sie unter:
 
 - [Einrichten von Audiokonferenzen für Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
-- [Technische Telefonsystem mit dem Aufrufen der Pläne planen](calling-plan-landing-page.md)
+- [Technische Planung für Telefonsysteme mit Anrufplänen](calling-plan-landing-page.md)
 
-- [Einrichten von Aufrufen Pläne für Skype für Unternehmen und die Microsoft-Teams](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+- [Einrichten von Anrufplänen für Skype for Business und Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
 - [Planen von direktem Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
 
 - [Konfigurieren von direktem Routing](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
 
-### <a name="execute-the-test-plan"></a>Führen Sie den Testplan
+### <a name="execute-the-test-plan"></a>Ausführen des Testplans
 
-[//]: # (Okay bearbeiten? "User" erschien mir etwas nicht eindeutig.)
-Nachdem die Umgebung des Benutzers und der Dienst konfiguriert haben, enthält der letzte Schritt testen Test Plan Ausführung mit Fokus auf Features und Funktionen Überprüfung. 
+[//]: # (Bearbeiten OK? "Nutzer" schien mir etwas zweideutig zu sein.)
+Nach der Konfiguration der Benutzerumgebung und des Diensts umfasst der letzte Test Schritt die Ausführung des Test Plans mit dem Fokus auf Feature-und Funktionsüberprüfung. 
 
-**Audiokonferenzen Voraussetzungen und Annahmen für Benutzer und Standorte im Bereich testen:**
+**Testen der Audiokonferenz-Voraussetzungen und Annahmen für Benutzer und Websites im Bereich:**
 
--   Business verwenden Sie Groß-/Kleinschreibung Definition für die Audiokonferenz Service abgeschlossen wurde.
+-   Die Business Use Case-Definition für den Audiokonferenzdienst wurde abgeschlossen.
 
--   Lizenzierung für Audiokonferenzen erforderlich ist verfügbar und zugewiesen wurde.
+-   Die für Audiokonferenzen erforderliche Lizenzierung steht zur Verfügung und wurde zugewiesen.
 
--   Die Liste der Organisationseinheit Standorte und Benutzergruppen ermittelt wurden.
+-   Die Liste der Organisations Websites und Benutzergruppen wurde identifiziert.
 
--   Die Liste der dedizierten und freigegebene Audiokonferenz einwählen und Nummern mit bevorzugte Sprache identifiziert und konfiguriert wurden.
+-   Die Liste der dedizierten und freigegebenen Audiokonferenz-Einwahlnummern mit Spracheinstellungen wurden identifiziert und konfiguriert.
 
--   [Communications haben](what-are-communications-credits.md) (falls erforderlich) Ihrer Organisation eingerichtet wurden.
+-   [Guthaben](what-are-communications-credits.md) für Kommunikationen (falls erforderlich) wurden für Ihre Organisation eingerichtet.
 
--   Live Meeting-Konferenz Bridge audioeinstellungen wurden identifiziert und konfiguriert (PIN-Mindestlänge, Eintrag/Exit Benachrichtigungen, Aktivierung Benachrichtigung Option Sie bevorzugen).
+-   Die Einstellungen für Audiokonferenz-Konferenz Brücken wurden identifiziert und konfiguriert (PIN-Länge, Benachrichtigungen für ein-und Ausstiege, Aktivierung der Benachrichtigungseinstellung).
 
--   Mandanten Sie konferenzrichtlinien, und wählen Sie planen von Einstellungen, die Audiokonferenz unterstützen Dial-Out-Szenarien identifiziert, angewendet und konfiguriert wurden.
+-   Mandanten Konferenzrichtlinien und Einstellungen für den Wählplan, die Wähl Szenarien für die Audiokonferenz unterstützen, wurden identifiziert, konfiguriert und angewendet.
 
--   Audio Conferencing Compliance-Bestimmungen haben identifiziert und konfiguriert wurden.
+-   Compliance-Anforderungen an die Audiokonferenz wurden identifiziert und konfiguriert.
 
-**Aufrufen von Pläne Voraussetzungen und Annahmen für Benutzer und Standorte im Bereich testen:**
+**Anrufpläne Testen von Voraussetzungen und Annahmen für Benutzer und Websites im Bereich:**
 
--   Business verwenden Sie Groß-/Kleinschreibung Definition für den Aufruf von plant Service abgeschlossen wurde.
+-   Die Business Use Case-Definition für den Service für Anrufpläne wurde abgeschlossen.
 
--   Lizenzierung für aufrufen Pläne erforderlich ist verfügbar und zugewiesen wurde.
+-   Die für Anrufpläne erforderliche Lizenzierung ist verfügbar und wurde zugewiesen.
 
--   Die Liste der Organisationseinheit Standorte und Benutzergruppen ermittelt wurden.
+-   Die Liste der Organisations Websites und Benutzergruppen wurde identifiziert.
 
--   Rufnummern, die Benutzern zugewiesen werden wurden erworben oder Microsoft und sind in den Mandanten Portal übertragen.
+-   Telefonnummern, die Benutzern zugewiesen werden sollen, wurden erworben oder an Microsoft portiert und stehen im mandantenportal zur Verfügung.
 
--   [Communications haben](what-are-communications-credits.md) (falls erforderlich) Ihrer Organisation eingerichtet wurden.
+-   [Guthaben](what-are-communications-credits.md) für Kommunikationen (falls erforderlich) wurden für Ihre Organisation eingerichtet.
 
--   Mandanten Benutzerrichtlinien und Wähleinstellungen, die Pläne aufrufen Szenarios unterstützen haben identifiziert, angewendet und konfiguriert wurden.
+-   Mandanten Benutzerrichtlinien und Einstellungen für den Wählplan, die Szenarien für Anrufpläne unterstützen, wurden identifiziert, konfiguriert und angewendet.
 
--   Aufrufen von Plänen Compliance-Bestimmungen identifiziert und konfiguriert wurden.
+-   Die Compliance-Anforderungen für Anrufpläne wurden identifiziert und konfiguriert.
 
-**Direkte Routing Voraussetzungen und Annahmen für Benutzer und Standorte im Bereich testen:**
+**Direktes Routing Testen von Voraussetzungen und Annahmen für Benutzer und Websites im Bereich:**
 
--   Business verwenden Sie Groß-/Kleinschreibung Definition für das direkte Routing Service abgeschlossen wurde.
+-   Die Geschäfts Anwendungsfall Definition für den Direct Routing-Dienst wurde abgeschlossen.
 
--   Lizenzierung für das direkte Routing erforderlich ist verfügbar und zugewiesen wurde.
+-   Die für das direkte Routing erforderliche Lizenzierung ist verfügbar und wurde zugewiesen.
 
--   Die Liste der Organisationseinheit Standorte und Benutzergruppen ermittelt wurden.
+-   Die Liste der Organisations Websites und Benutzergruppen wurde identifiziert.
 
--   Eine [zertifizierte Session Border Controller (SBC)](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs) wurde bereitgestellt, konfiguriert und gepaart mit einer Telefonsystem.
+-   Ein [Certified Session Border Controller (SBC)](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs) wurde bereitgestellt, konfiguriert und mit dem Telefon System gekoppelt.
 
--   Enterprise-VoIP aktiviert wurde, und die Rufnummern zugewiesen wurden.
+-   Enterprise-VoIP wurde aktiviert, und die Telefonnummern wurden zugewiesen.
 
--   VoIP-Routingrichtlinien zurückgegeben haben identifiziert, konfiguriert und zugewiesen.
+-   VoIP-Routing Richtlinien wurden identifiziert, konfiguriert und zugewiesen.
 
--   Microsoft-Teams wurde als bevorzugter Client aufrufende für die Benutzer im Bereich festgelegt.
+-   Microsoft Teams wurde als bevorzugter Anruf Client für die Benutzer im Bereich eingerichtet.
  
--   Direktes Routing Compliance Anforderungen identifiziert und konfiguriert wurden.
+-   Die Compliance-Anforderungen für Direct Routing wurden identifiziert und konfiguriert.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden, welche Funktionen der Audiokonferenz Feature bereitgestellt werden soll (service Entscheidung).</li><li>Identifizieren der Anforderungen an den Funktionen für Audiokonferenzen.</li><li>Identifizieren Sie die Konfiguration der dienstanforderungen für Audiokonferenzen.</li><br><li>Entscheiden Sie, ob direkten Routing oder aufrufen plant bereitgestellt und konfiguriert wird.<li>Entscheiden, welche Telefonsystem Feature Funktionen bereitgestellt werden soll (service Entscheidung).</li><li>Identifizieren der Anforderungen für Benutzer-Funktionalität für direkte Routing oder plant aufrufen.</li><li>Identifizieren Sie Service Konfigurationsaufwand für direkte Routing oder plant aufrufen.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Entwickeln Sie und Dokumentieren Sie Ihren Test Plan Ansatz.</li><li>Vorbereiten der Service-Umgebung und Benutzer für Audiokonferenzen Features im Bereich.</li><li>Vorbereiten der Service-Umgebung und Benutzer für den Aufruf von Plänen oder direkten Routing Features im Bereich.</li><li>Führen Sie Test-Überprüfung für die Audiokonferenz-Features, die Sie aktivieren möchten.</li><li>Führen Sie Test-Überprüfung für die direkte Routing oder plant aufrufen Features, die Sie aktivieren möchten.</li><li>Testen Sie für alle Fehler, bestätigen Sie, dass Ihre Konfiguration korrekt ist, Community-Artikel zu lesen und – falls erforderlich – auslösen eine Supportanfrage.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche Funktionen für Audiokonferenz Features bereitgestellt werden (Dienst Entscheidung).</li><li>Ermitteln Sie die Anforderungen der Benutzerfunktionalität für Audiokonferenzen.</li><li>Ermitteln der Dienst Konfigurationsanforderungen für Audiokonferenzen</li><br><li>Entscheiden Sie, ob direkte Routing-oder Anrufpläne bereitgestellt und konfiguriert werden.<li>Entscheiden Sie, welche Funktionen für das Telefon System bereitgestellt werden (Dienst Entscheidung).</li><li>Ermitteln der Benutzer Funktionalitätsanforderungen für Anrufpläne oder direktes Routing</li><li>Ermitteln der Dienst Konfigurationsanforderung für Anrufpläne oder direktes Routing</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Entwickeln und dokumentieren Sie Ihren Testplan-Ansatz.</li><li>Bereiten Sie Ihre Dienstumgebung und die Benutzer im Bereich für Audiokonferenzfunktionen vor.</li><li>Bereiten Sie Ihre Dienstumgebung und die Benutzer im Bereich für Anrufpläne oder direkte Routing Features vor.</li><li>Führen Sie die Testüberprüfung für die Audio-Konferenzfeatures aus, die Sie aktivieren möchten.</li><li>Führen Sie die Testüberprüfung für die Anrufpläne oder direkt Routing Features aus, die Sie aktivieren möchten.</li><li>Überprüfen Sie bei Test Fehlern, ob Ihre Konfiguration richtig ist, lesen Sie Community-Artikel, und führen Sie bei Bedarf einen Supportfall aus.</li></ul></td></tr>
 </table>
 
 
-Weitere ausführliche Anleitungen zur Durchführung von Tests für Audiokonferenzen in Teams finden Sie unter der- [ausführliche Anleitung für Audiokonferenzen testen](onboarding-test-plan-for-enterprises-Audio-Conferencing.md).
+Weitere detaillierte Anleitungen zum Durchführen von Tests für Audiokonferenzen in Teams finden Sie im [ausführlichen Testhandbuch für Audiokonferenzen](onboarding-test-plan-for-enterprises-Audio-Conferencing.md).
 
-Weitere ausführliche Anleitungen zur Durchführung von Tests für Aufrufen in Teams plant finden Sie unter der- [ausführliche Anleitung für Telefonsystem testen](onboarding-test-plan-for-enterprises-Phone-System.md).
+Weitere detaillierte Anleitungen zum Durchführen von Tests für Anrufpläne in Teams finden Sie im [ausführlichen Testhandbuch für das Telefon System](onboarding-test-plan-for-enterprises-Phone-System.md).
 
 <!--ENDOFSECTION-->

@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie Einstellungen für Teambesprechungen verwalten, die Benutzer in Ihrer Organisation planen.
-ms.openlocfilehash: 9dab34c518b4c0c5c25e55d894a1dacf4e0a773e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1828d626261c97cf3514781a5c55dbecd59d7666
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298119"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344877"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -33,7 +33,7 @@ Als Administrator verwenden Sie die Einstellungen für Teams-Besprechungen, um z
 
 Mit Anonymous Join kann jeder Teilnehmer an der Besprechung als anonymer Benutzer teilnehmen, indem er auf den Link in der Besprechungseinladung klickt.
 
-![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center**
+![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
 
 1. Wechseln Sie in der linken Navigationsleiste **** > zu**Besprechungseinstellungen**für Besprechungen.
 2. Aktivieren Sie unter **Teilnehmer** **die Option Anonyme Benutzer können an einer Besprechung teilnehmen**.
@@ -54,7 +54,7 @@ Sie können Besprechungseinladungen für Teams anpassen, um die Anforderungen Ih
 
 ### <a name="customize-your-meeting-invitations"></a>Anpassen der Besprechungseinladungen
 
-![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center**
+![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
 
 1. Wechseln Sie in der linken Navigationsleiste **** > zu**Besprechungseinstellungen**für Besprechungen.
 2. Gehen Sie unter **e-Mail-Einladung**wie folgt vor:
@@ -73,7 +73,7 @@ Sie können Besprechungseinladungen für Teams anpassen, um die Anforderungen Ih
 
 Wenn Sie Quality of Service [(QoS)](qos-in-teams.md) zur Priorisierung des Netzwerkverkehrs verwenden, können Sie QoS-Marker aktivieren, und Sie können Portbereiche für jede Art von Mediendatenverkehr festlegen.
 
- ![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **mit dem Microsoft Teams Admin Center**
+ ![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
 
 1. Wechseln Sie in der linken Navigationsleiste **** > zu**Besprechungseinstellungen**für Besprechungen.
 2. Führen Sie unter **Netzwerk**die folgenden Aktionen aus:

@@ -8,103 +8,103 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Laden Sie die Website-Aktivierung Playbook zur Planung der Einführung Teams und beschleunigen und zur Optimierung Benutzerakzeptanz, Wahrnehmung der Qualität und Kundenzufriedenheit.
+description: Laden Sie das Textbuch zur Website Aktivierung herunter, um den Rollout ihrer Teams zu planen und die Benutzerakzeptanz, die Wahrnehmung von Qualität und Zufriedenheit zu beschleunigen und zu optimieren.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 397917e8e5e2fc2c2707e9bbad67e031d96c09dc
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 90f49b3da1aec6d5f81f43674db5bc8cdb3822aa
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400860"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344701"
 ---
 # <a name="deploy-my-service"></a>Bereitstellen des Diensts
 
-Dieser Artikel bietet eine Übersicht über die Anforderungen für die Bereitstellung von ordnungsgemäß Clouddiensten VoIP. Indem Sie die folgenden Anweisungen für die Bereitstellung von VoIP-Clouddiensten, stellen Sie sicher, Sie erfolgreich für alle Anforderungen berücksichtigt und liefern wiederholbare Ergebnisse.
+Dieser Artikel enthält eine Übersicht über die Anforderungen für die ordnungsgemäße Bereitstellung von Cloud-VoIP-Diensten. Indem Sie die normativen Anleitungen für die Bereitstellung von Cloud Voice Services befolgen, können Sie sicherstellen, dass Sie alle Anforderungen erfolgreich berücksichtigen und wiederholbare Ergebnisse liefern.
 
-## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Website-Aktivierung (Playbook) für Microsoft-Teams, VoIP-Arbeitslasten
+## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Textbuch zur Website Aktivierung für Microsoft Teams-sprach Auslastungen
 
-Verwenden Sie diese Playbook mit deren Hilfe Ihre Organisation erfolgreich planen und Ausführen von der Einführung von Microsoft-Teams, VoIP-Funktionen für einzelne Website-Website.
+Verwenden Sie dieses Textbuch, um Ihre Organisation beim erfolgreichen planen und Durchführen des Rollouts der Microsoft Teams-Sprachfeatures für eine Website-für-Standort-Basis zu unterstützen.
 
-Einschließlich aller erforderlichen Aktivitäten, empfohlen Zeitachsen und Links zu entsprechenden Anweisungen für jede Aktivität behandelt dieses Playbook End-to-End-Anleitungen zum Sicherstellen einer erfolgreichen Teams VoIP-bereitstellungs für eine bestimmte Website, Konzentration auf Faktoren, die eine wichtige Rolle spielen für den Benutzer.
+Dieses Textbuch umfasst alle erforderlichen Aktivitäten, Empfohlene Zeitpläne und Links zu den entsprechenden Anleitungen für die einzelnen Aktivitäten und behandelt die End-to-End-Anleitung, um eine erfolgreiche Bereitstellung von Teams für eine bestimmte Website zu gewährleisten, wobei der Schwerpunkt auf Faktoren liegt, die wichtig sind. für den Benutzer.
 
-Anhand der Aktivitäten in dieser Playbook kann Ihre Organisation:
+Durch Abschluss der Aktivitäten in diesem Textbuch kann Ihre Organisation:
 
--   Effektiv planen und nahezubringen Teams planen.
+-   Planen und planen Sie Ihren Rollout für Teams effektiv.
 
--   Beschleunigen Sie und Optimieren Sie der Benutzerakzeptanz.
+-   Beschleunigen und Optimieren der Benutzerakzeptanz
 
--   Reduzieren von Support-Anforderungen und steigern Benutzerzufriedenheit.
+-   Verringern Sie den Supportbedarf, und erhöhen Sie die Benutzerzufriedenheit.
 
 > [!NOTE]
-> In diesem Artikel und die zugehörigen Playbook werden nicht für die direkte Verwendung beschreiben alle technischen Konfigurationsschritte erforderlich für die Aktivierung von Diensten oder an einen bestimmten Standort Wählton bereitstellen. Stattdessen Schwerpunktthemen Aktivitäten und Aufgaben auf einfache Weise integrierte Benutzern empfohlen und lassen, beginnt, Teams VoIP Arbeitslasten über einen schnellen und reibungslosen Übergang mit einer hohen Akzeptanz Support-Anforderungen zu minimieren. Technische Anleitungen für Teams VoIP Ihrer Umgebung am besten konfigurieren, finden Sie unter den Onboarding Prüflisten für das [Konfigurieren von VoIP-Arbeitslasten Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), [Konfigurieren von direkten Routing in Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [Teams core-Funktionen](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [-Netzwerke für Teams](onboarding-checklist-configure-networking.md), und [Aktivieren von Office 365](onboarding-checklist-enable-office-365.md).
+> In diesem Artikel und dem dazugehörigen Textbuch sollen nicht alle technischen Konfigurationsschritte beschrieben werden, die für die Dienstaktivierung oder die Bereitstellung von Wählton für eine bestimmte Website erforderlich sind. Stattdessen konzentrieren Sie sich auf die Aktivitäten und Aufgaben, die für Onboard-Benutzer empfohlen werden, und Sie können die Arbeitsauslastung von Teams über einen schnellen und reibungslosen Übergang mit hoher Akzeptanzrate unter minimieren, während die Supportanforderungen minimiert werden. Technische Anleitungen zur optimalen Konfiguration Ihrer Umgebung für Voices für Teams finden Sie in den Checklisten für das [Konfigurieren von Teams-sprach](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)Auslastungen, [Konfigurieren des direkten Routings in Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [Kernfunktionen von Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [Netzwerk für Teams](onboarding-checklist-configure-networking.md)und [Aktivieren von Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
-## <a name="playbook-focus-areas"></a>Schwerpunkte (Playbook)
+## <a name="playbook-focus-areas"></a>Textbuch-Fokusbereiche
 
-Der Schwerpunkt der Playbook ist die Faktoren behandeln, die beeinflussen des Benutzers Wahrnehmung der einer Teams VoIP-Bereitstellung. Aktivitäten und Aufgaben sind in die folgenden Fokus Bereiche unterteilt:
+Der Schwerpunkt des Textbuch liegt darin, die Faktoren zu berücksichtigen, die die Wahrnehmung einer Teams-sprach Bereitstellung beeinflussen. Aktivitäten und Aufgaben werden in die folgenden Schwerpunkte gruppiert:
 
--   Überprüfung der Service-Bereitschaft
+-   Überprüfung der Servicebereitschaft
     - Audiokonferenzen
     - Anrufpläne
     - Direktes Routing
 
--   Benutzer-Aktivierung
+-   Benutzeraktivierung
 
 -   Endpunkte
 
 -   Verwendung und Qualität
 
--   Annahme
+-   Zur Einführung
 
-Die [Website Aktivierung Playbook für VoIP (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) ist eine Microsoft Excel-Arbeitsmappe. Jeden dieser Bereiche fünf Fokus ist ein separates Blatt in der Arbeitsmappe, und jeder Bereitstellungsaufgabe und die Aktivitäten auf eine der folgenden Arbeitsblätter gruppiert wird.
+Das Textbuch [für die Website Aktivierung (Manuskript)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) ist eine Microsoft Excel-Arbeitsmappe. Jeder dieser fünf Fokusbereiche ist ein separates Blatt in der Arbeitsmappe, und alle Bereitstellungsaufgaben und-Aktivitäten sind auf einem dieser Blätter gruppiert.
 
-![Screenshot des der (Playbook)] (media/deploy-my-service-image1.png "Screenshot des der (Playbook)")
+![Screenshot des Manuskripts] (media/deploy-my-service-image1.png "Screenshot des Manuskripts")
 
 > [!NOTE]
-> Sie erstellen eine separate Instanz von der Playbook für jeden Standort für nahezubringen Teams im Bereich.
+> Sie erstellen eine separate Instanz des Textbuch für jede Website im Bereich für das Rollout Ihres Teams.
 
 <!--ENDOFSECTION-->
 
-## <a name="how-to-use-the-playbook"></a>So verwenden Sie die (Playbook)
+## <a name="how-to-use-the-playbook"></a>Verwenden des Manuskripts
 
-Unabhängig von der Größe und Komplexität des Speicherorts, jede Website aktivieren,, Ihre Aufgaben und Aktivitäten planen erfordert früh genug – sowie deren Ausführung in optimaler Reihenfolge – vor, während und nach der Einführung der tatsächlichen Service. Es wird empfohlen, dass Sie beim Planen und Ausführen Ihrer eigenen Weg zu Microsoft-Teams, VoIP diese Schritte ausführen.
+Unabhängig von der Größe und Komplexität des Standorts erfordert das Aktivieren jeder Website, dass Sie Ihre Aufgaben und Aktivitäten früh genug planen und in optimaler Reihenfolge ausführen – vor, während und nach dem eigentlichen Dienst Rollout. Wir empfehlen, dass Sie die folgenden Schritte ausführen, während Sie Ihre eigene Reise zu Microsoft Teams Voice planen und ausführen.
 
-1. Laden Sie die [Website-Aktivierung Playbook für VoIP (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) für Microsoft-Teams, VoIP.
+1. Laden Sie das [Website-Enablement-Manuskript für Voice (](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) Textbuch) für Microsoft Teams Voice herunter.
 
-2. Erstellen Sie eine separate Kopie der Playbook für jeden Standort.
+2. Erstellen Sie eine separate Kopie des Textbuch für jede Website.
 
-3. Ersetzen Sie auf der Registerkarte für das Blatt mit dem Namen **Playbook für {SiteName-Code}** **{SiteName-Code}** mit der relevante Websitename und/oder Vorwahl.
+3. Ersetzen Sie auf der Registerkarte für das Arbeitsbogen mit dem Namen Textbuch **für {Sitename-Code}** **{Sitename-Code}** durch den entsprechenden Websitenamen und/oder Website Code.
 
-4. Geben Sie die **Websitename, Vorwahl**und **Starttermin geplant**, wie im folgenden beschrieben. Dies ist ein wichtiger Schritt, da die empfohlenen Stichtagen für jede Aktivität in der Playbook angepasst.
+4. Geben Sie den **Websitenamen, den Standortcode**und das **geplante Startdatum**ein, wie unten dargestellt. Dies ist ein entscheidender Schritt, da er die empfohlenen Stichtage für jede Aktivität im Textbuch anpasst.
 
-   ![Beispiel mit Namen von New York-Vorwahl NY01, und geplanten Startdatum für 20-Mrz-18 des Standorts] (media/deploy-my-service-image2.png "Beispiel mit Namen von New York-Vorwahl NY01, und geplanten Startdatum für 20-Mrz-18 des Standorts")
+   ![Beispiel mit dem Websitenamen, dem Website Code und dem geplanten Startdatum] (media/deploy-my-service-image2.png "Beispiel mit dem Websitenamen von New York, Website Code NY01 und geplantem Startdatum von 20-Mrz-18")
 
-5. Überprüfen Sie jede Aktivität, Aktionen Sie erforderlich, und aktualisieren Sie den Status aus, wie Sie die Zeitachse durchlaufen. Status wird wie unten beschrieben grafisch dargestellt:
-   <ul>
-   <li>![Grünes Häkchen](media/deploy-my-service-image3.png) <strong>Ja oder nicht zutreffend (Grün):</strong> die Aktivität abgeschlossen wurde, oder es gilt nicht für diese Website und keine weitere Aktion erforderlich ist.</li>
-   <li>![Gelbes Ausrufezeichen](media/deploy-my-service-image4.png) <strong>die Aktivität nicht vollständig ausgeführt noch (gelb):</strong> die Aktivität noch nicht noch abgeschlossen und müssen auf Ja oder Nein aus, dessen Zeitplan aktualisiert werden.</li>
-   <li>![Rote X](media/deploy-my-service-image5.png) <strong>keine (Rot):</strong> die Aktivität kann aufgrund eines Problems nicht abgeschlossen werden und muss für die Project Status Besprechung durchgeführt werden.</li></ul>
+5. Überprüfen Sie die einzelnen Aktivitäten, führen Sie die erforderlichen Aktionen aus, und aktualisieren Sie den Status, während Sie die Zeitachse durchlaufen. Der Status wird grafisch dargestellt, wie nachstehend beschrieben:
+  
+   - ![Abbildung eines grünen Häkchens](media/deploy-my-service-image3.png) "Ja" oder " **nicht zutreffend" (grün):** die Aktivität wurde abgeschlossen, oder Sie gilt nicht für diese Website, und es ist keine weitere Aktion erforderlich.</li>
+    - ![Abbildung eines gelben Ausrufezeichens](media/deploy-my-service-image4.png) <strong>die Aktivität ist noch nicht abgeschlossen (gelb):</strong> die Aktivität wurde noch nicht abgeschlossen und muss in Ihrem Terminplan auf "Ja" oder "Nein" aktualisiert werden.</li>
+   - ![Abbildung eines roten X](media/deploy-my-service-image5.png) <strong>Nein (rot):</strong> die Aktivität kann aufgrund eines Problems nicht abgeschlossen werden und muss in der Projektstatusbesprechung durchgeführt werden.</li></ul>
 
-6. Der Status wird in jedem Abschnitt zusammengefasst und die Abschnittsüberschrift mit einem der folgenden Statusindikatoren formatiert ist. **Wöchentliche Status** wird auch automatisch aktualisiert.
+6. Der Status wird in jedem Abschnitt zusammengerollt, und die Abschnittsüberschrift wird mit einer dieser Statusindikatoren formatiert. Der **wöchentliche Status** wird ebenfalls automatisch aktualisiert.
 
-![Screenshot des weekly Status - Rollups in die (Playbook)] (media/deploy-my-service-image6.png "Screenshot des weekly Status - Rollups in die (Playbook)")
+![Screenshot der wöchentlichen Status-Rollups im] Textbuch (media/deploy-my-service-image6.png "Screenshot der wöchentlichen Status-Rollups im") Textbuch
 
 > [!TIP]
-> Wiederholen Sie die obigen Schritte für alle Speicherorte, die Ihnen.
+> Wiederholen Sie die obigen Schritte für alle Speicherorte.
 
 > [!IMPORTANT]
-> Einige Schritte möglicherweise nicht für alle Standorte und Websites gelten. Wenn eine bestimmte Aktivität nicht für eine Website relevant ist, müssen Sie für diese Aktivität **nicht zutreffend** auswählen. Alle Zeilen in der Playbook **nicht löschen** . In diesem Fall die Status-Rollup-Formeln, funktionieren nicht.<br/><br/>
-Achten Sie auf, die die voraussichtliche mehr Zeit als Sie, wie etwa Zahl Portieren geplant und Beschaffungsaktivitäten. Diese Aktivitäten können sich negativ auf die Website Bereitstellung Zeitachse auswirken. Müssen Sie überprüfen und aktualisieren die Liste der Aktivitäten und der zugehörige Zeitplan wöchentlich, und präsentieren sie bei [Lenkungsausschuss Besprechungen](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) , um sicherzustellen, dass die Beteiligten den Status von jedem Standort und alle möglichen Abweichung aus der Planung der Bereitstellung kennen.
+> Einige Schritte gelten möglicherweise nicht für alle Standorte und Websites. Wenn eine bestimmte Aktivität für eine Website nicht relevant ist, müssen Sie für diese Aktivität **nicht anwendbar** auswählen. **Löschen Sie** keine Zeilen im Textbuch; in diesem Fall funktionieren die Rollup-Formeln für den Status nicht.<br/><br/>
+Achten Sie auf Aktivitäten, die mehr Zeit in Anspruch nehmen können, als Sie geplant haben, beispielsweise Nummernportierung und Beschaffungsaktivitäten. Diese Aktivitäten können sich negativ auf die Zeitachse der Website Bereitstellung auswirken. Achten Sie darauf, die Aktivitätsliste und die zugehörige Zeitachse wöchentlich zu überprüfen und zu aktualisieren, und zeigen Sie Sie in den [Sitzungen des Lenkungsausschusses](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) an, um sicherzustellen, dass die Beteiligten den Status der einzelnen Websites und mögliche Abweichungen vom Bereitstellungszeitplan kennen.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, ob die Website-Aktivierung (Playbook) für Ihre Bereitstellung erforderlich ist.</li><li>Legen Sie fest, wer ist verantwortlich für das Anpassen von Website-Aktivierung (Playbook) für Microsoft-Teams für jeden Standort, den Sie bereitstellen müssen.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Laden Sie die Website-Aktivierung (Playbook)</a>.</li><li>Passen Sie die Website-Aktivierung Playbook für die erste Website.</li><li>Wiederholen Sie nach Bedarf für weitere Standorte.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, ob das Textbuch zur Website Aktivierung für Ihre Bereitstellung erforderlich ist.</li><li>Entscheiden Sie, wer für die Anpassung des Textbuch der Website Aktivierung für Microsoft Teams für jede bereitzustellende Website verantwortlich ist.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Laden Sie das Textbuch zur Website Aktivierung herunter</a>.</li><li>Anpassen des Manuskripts für die Website Aktivierung für Ihre erste Website</li><li>Wiederholen Sie diese Schritte für weitere Websites.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

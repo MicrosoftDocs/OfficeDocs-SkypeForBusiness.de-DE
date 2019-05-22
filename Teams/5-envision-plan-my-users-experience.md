@@ -8,49 +8,49 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Wählen Sie Teams Clientanwendungen, Plan für die Qualität der Endpunkt, Empfehlungen für die Bereitstellung von Wi-Fi-Endpunkten und Audiogeräte auswählen möchten.
+description: Wählen Sie Teams-Client-Apps aus, planen Sie die Endpunkt Qualität, erhalten Sie Empfehlungen für die Bereitstellung von WLAN-Endpunkten und das Auswählen von Audiogeräten.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abef4c9e1096396d7844002ebda38a32876b403b
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 7c7bf332c3d85445ccb9bcfe41e6d7417948ca15
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400972"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344609"
 ---
-# <a name="plan-my-users-experience"></a>Planen von meiner Benutzer-Erlebnis
+# <a name="plan-my-users-experience"></a>Planen der Benutzererfahrung
 
-Dieser Artikel bietet eine Übersicht über die Anforderungen für ordnungsgemäß Identifizieren der Elemente des Ihrer Bereitstellung Cloud VoIP-Dienste, die der Benutzer direkt beeinflussen. Durch die für diese Elemente vor der Bereitstellung vorbereiten, müssen Sie Ihre Chancen erfolgreich spielt eine hohe Qualität und zuverlässige Erfahrung für Benutzer zu erhöhen. 
+In diesem Artikel finden Sie eine Übersicht über die Anforderungen für die ordnungsgemäße Identifizierung der Elemente Ihrer Cloud Voice Services-Bereitstellung, die sich direkt auf die Benutzererfahrung auswirken. Wenn Sie sich vor der Bereitstellung auf diese Elemente vorbereiten, erhöhen Sie Ihre Chancen, dass Benutzer eine qualitativ hochwertige und zuverlässige Ober Leistung erzielen können. 
 
-## <a name="client-deployment"></a>Client-Bereitstellung
+## <a name="client-deployment"></a>Client Bereitstellung
 
-Microsoft-Teams, hat Clients verfügbaren Web, desktop (Windows und Mac) und Mobil (Android und iOS). Weitere Details zu den Desktop (Windows und Mac) und mobilen Clients wie installiert werden finden Sie unter [Get-Clients für Microsoft-Teams](https://docs.microsoft.com/microsoftteams/get-clients).
+Microsoft Teams verfügt über Clients für Web, Desktop (Windows und Mac) und Mobile (Android und IOS). Weitere Informationen dazu, wie der Desktop (Windows und Mac) und die mobilen Clients installiert werden, finden Sie unter [Abrufen von Clients für Microsoft Teams](https://docs.microsoft.com/microsoftteams/get-clients).
 
 ## <a name="client-updates"></a>Clientupdates
 
-Einer der wichtigsten Vorteile von Teams ist, dass der Client automatisch auf dem aktuellen Stand ist. Die Clients für PC und Mac werden mit einem Hintergrundprozess aktualisiert, der nach neuen Builds sucht und den neuen Client herunterlädt, wenn sich die App im Leerlauf befindet.
+Einer der Hauptvorteile von Teams besteht darin, dass der Client automatisch auf dem neuesten Stand gehalten wird. Die Clients für PC und Mac werden mit einem Hintergrundprozess aktualisiert, der nach neuen Builds sucht und den neuen Client herunterlädt, wenn sich die App im Leerlauf befindet.
 
 <!--ENDOFSECTION-->
 
 ## <a name="plan-for-endpoint-quality"></a>Planen der Endpunktqualität
 
-Wie Sie aus der folgenden Abbildung sehen können, sind Endpunkte als wichtiger Baustein einer Quality of Experience für Benutzer bereitzustellen.
+Wie Sie aus dem nachstehenden Diagramm sehen können, stellen Endpunkte einen wichtigen Baustein dar, um Benutzern eine Qualität zu ermöglichen.
 
-![Diagramm beschreibt die drei Komponenten der Qualität und wie Service-Management für alle drei Komponenten überlappt. Mit Schwerpunkt auf Endpunkten.] (media/plan-my-users-experience-image1.png "Diagramm beschreibt die drei Komponenten der Qualität und wie Service-Management für alle drei Komponenten überlappt. Mit Schwerpunkt auf Endpunkten.")
+![Diagramm, in dem die drei Komponenten der Qualität beschrieben sind und wie die Dienstverwaltung alle drei Komponenten überlappt] (media/plan-my-users-experience-image1.png "Diagramm, in dem die drei Komponenten der Qualität beschrieben sind und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit einem Fokus auf Endpunkte.")
 
-Teams Endpunkte können auf vielen Geräten, einschließlich PCs, Macs, Tablets und mobilen Geräten ausführen. Teil der Erfahrung umfasst nicht nur das Gerät, aber wie ein Benutzer auf das Gerät verbindet – beispielsweise mithilfe des Geräts integrierten Mikrofon/Lautsprecher, Ohrstöpsel oder eine optimierte Kopfhörer. Die Verwendung eines optimierten Headsets kann sich positiv auf die allgemeine Benutzerfreundlichkeit auswirken.
+Die Endpunkte von Teams können auf vielen Geräten, einschließlich PCs, Macs, Tablets und mobilen Geräten, ausgeführt werden. Ein Teil der Oberfläche umfasst nicht nur das Gerät, sondern auch, wie ein Benutzer eine Verbindung mit dem Gerät herstellt, beispielsweise mit dem integrierten Mikrofon/Lautsprecher, Ohrhörer oder einem optimierten Headset. Die Verwendung eines optimierten Headsets kann sich positiv auf die allgemeine Benutzerfreundlichkeit auswirken.
 
 Die folgenden Anleitungen zur Endpunktplanung sollen Ihnen helfen, für Ihre Organisation ein erfolgreiches Onboarding in Microsoft Teams sicherzustellen.
 
 ## <a name="endpoint-capability"></a>Endpunktfunktionen
 
-Der erste Teil der Planung ist, um sicherzustellen, dass alle PCs und andere Geräte in Ihrer Organisation können Teams ausführen. Dazu müssen Sie nicht nur die Hardwareanforderungen betrachten, sondern sich auch verdeutlichen, was außerdem im Hintergrund auf dem PC geschieht. Viele Organisationen führen weitere Software aus, beispielsweise Angriffserkennungssysteme und Antischadsoftware, die Basisleistung eines Geräts beeinflussen kann.
+Der erste Teil der Planung besteht darin, sicherzustellen, dass alle PCs und andere Geräte in Ihrer Organisation Teams ausführen können. Dazu müssen Sie nicht nur die Hardwareanforderungen betrachten, sondern sich auch verdeutlichen, was außerdem im Hintergrund auf dem PC geschieht. Viele Organisationen führen weitere Software aus, beispielsweise Angriffserkennungssysteme und Antischadsoftware, die Basisleistung eines Geräts beeinflussen kann.
 
-Informationen über die erforderliche Software für Teams finden Sie unter Clients auf jeder Plattform (Web, Desktops und Mobile), [erhalten die Clients für Microsoft-Teams](https://docs.microsoft.com/microsoftteams/get-clients).
+Informationen zu den Softwareanforderungen für Teams-Clients auf jeder Plattform (Web, Desktop und Mobiltelefon) finden Sie unter [Abrufen von Clients für Microsoft Teams](https://docs.microsoft.com/microsoftteams/get-clients).
 
 ## <a name="endpoint-firewalls"></a>Endpunktfirewalls
 
@@ -62,12 +62,12 @@ Clientseitige Firewalls können nicht nur verhindern, dass ein Anruf aufgebaut w
 
 ## <a name="wi-fi-recommendations-for-endpoints"></a>WLAN-Empfehlungen für Endpunkte
 
-Es dauert erhebliche planen die Bereitstellung einer optimierten Wi-Fi-Netzwerk zur Unterstützung von Real-Time Arbeitslasten in Microsoft-Teams. Die folgenden Abschnitte enthalten einige allgemeine Richtlinien, die Sie häufige Probleme zu vermeiden, bei der Planung für Endpunkte helfen kann.
+Für die Bereitstellungeines optimierten Wi-Fi-Netzwerks zur Unterstützung von Arbeitslasten in Microsoft Teams in Echtzeit ist eine beträchtliche Planung erforderlich. In den folgenden Abschnitten finden Sie einige allgemeine Anleitungen, die Ihnen bei der Planung von Endpunkten helfen, häufige Fehler zu vermeiden.
 
 ### <a name="wi-fi-drivers"></a>WLAN-Treiber
 
-Einige Wi-Fi-Treiber können problematisch sein. So kann beispielsweise ein Treiber ein sehr aggressives Verhalten beim Roaming zwischen Zugriffspunkten aufweisen, was zu einer mangelhaften Anrufqualität führt.
-Dies nicht häufig auftreten, aber es ist wichtig, um sicherzustellen, dass Wi-Fi-Treiber auf dem PC aktualisiert und vor der Bereitstellung getestet wurden.
+Einige WLAN-Treiber können problematisch sein. So kann beispielsweise ein Treiber ein sehr aggressives Verhalten beim Roaming zwischen Zugriffspunkten aufweisen, was zu einer mangelhaften Anrufqualität führt.
+Dies ist keine häufige Erscheinung, aber es ist wichtig, sicherzustellen, dass die WLAN-Treiber auf dem PC vor der Bereitstellung aktualisiert und getestet wurden.
 
 ### <a name="wi-fi-bands"></a>WLAN-Bänder
 
@@ -82,13 +82,13 @@ Planen Sie mit Geräten, die neueren WLAN-Funkstandards unterstützen. Sie könn
 
 Manche Organisationen möchten WLAN ganz vermeiden. In diesem Zusammenhang wird Benutzern manchmal empfohlen, eine direkte Verbindung mit einem Kabelnetzwerk herzustellen. In manchen Fällen sieht die Reihenfolge der Netzwerkbindungen eine Bevorzugung der WLAN-Verbindung vor, die dann weiterhin verwendet wird, obwohl der PC über die Kabelverbindung verbunden ist. Wenn Sie dieses unbeabsichtigte Verhalten vermeiden möchten, konfigurieren Sie die Bindungsreihenfolge so, dass dieses Szenario vermieden wird.
 
-### <a name="80211-power-save-protocol"></a>802.11-Energiesparmodus-Protokoll
+### <a name="80211-power-save-protocol"></a>802,11 Power Save-Protokoll
 
-Wenn Ihre Organisation verwendet Drahtloszugriffspunkte oder Router, die das 802.11-Energiesparmodus Protokoll nicht unterstützen, können Sie Verworfene Anrufe oder Anrufe schlechter Qualität Qualität in Microsoft-Teams, die auf Windows-Geräten ausgeführt auftreten. Wenn die WLAN-Zugriffspunkte oder -Router nicht aktualisiert werden können, sollten Sie auf Geräten, die mit Akku betrieben werden, die Windows-Einstellungen für den Energiesparplan aktualisieren. Weitere Details und Konfigurationsanleitungen finden Sie im folgenden [Supportartikel](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
+Wenn Ihre Organisation Drahtloszugriffspunkte oder Router verwendet, die das 802,11-Power Save-Protokoll nicht unterstützen, können Sie in Microsoft Teams, die auf Windows-Geräten ausgeführt werden, Ausfälle oder schlechte Anrufqualität auftreten. Wenn die WLAN-Zugriffspunkte oder -Router nicht aktualisiert werden können, sollten Sie auf Geräten, die mit Akku betrieben werden, die Windows-Einstellungen für den Energiesparplan aktualisieren. Weitere Details und Konfigurationsanleitungen finden Sie im folgenden [Supportartikel](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Welche Teams Clients in Ihrer Organisation bereitgestellt werden?</li><li>Wie werden Sie zunächst Teams Clients für die Benutzer bereitstellen?</li><li>Wer für die Auswertung von Endpunkten und Geräte überprüfen verantwortlich ist diese Teams Anforderungen für eine Quality of Experience entsprechen?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren des Prozesses, der zum Bereitstellen von Teams-Clients ausgeführt wird.</li><li>Auswertung von Endpunkten und Geräten, und führen und-Wartung erforderlich.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Welche Teams-Clients werden in Ihrer Organisation bereitgestellt?</li><li>Wie werden Sie zunächst Teams-Clients für Ihre Benutzer bereitstellen?</li><li>Wer ist für die Bewertung von Endpunkten und Geräten verantwortlich, um zu bestätigen, dass Sie die Anforderungen von Teams für eine Qualitätserfahrung erfüllen?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie den Prozess, der zum Bereitstellen von Teams-Clients befolgt wird.</li><li>Auswerten von Endpunkten und Geräten sowie ausführen und Behebung erforderlich.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -97,7 +97,7 @@ Wenn Ihre Organisation verwendet Drahtloszugriffspunkte oder Router, die das 802
 
 Microsoft Teams kann für Besprechungen oder als Telefonsystem verwendet werden. Bei der Verwendung dieser Funktionen spielt das für Microsoft Teams verwendete Gerät eine wichtige Rolle für die Benutzerfreundlichkeit.
 
-Benutzer, die einen integrierten PC-Lautsprecher und ein integriertes Mikrofon verwenden, empfinden diese Konfiguration möglicherweise als akzeptabel. Aber in der Regel diesen Geräten sind nicht für Noise Abbruch optimiert, und jede Art von Umgebung Noise kann wirken sich downstream auf anderen auf den Anruf. Die Nutzung von für diese Szenarien optimierten Geräten kann eine hohe Qualität sicherstellen.
+Benutzer, die einen integrierten PC-Lautsprecher und ein integriertes Mikrofon verwenden, empfinden diese Konfiguration möglicherweise als akzeptabel. In der Regel sind diese Geräte jedoch nicht für die Rauschunterdrückung optimiert, und jeder Typ von Umgebungsgeräuschen kann eine nachgeschaltete Auswirkung auf andere Personen beim Anruf haben. Die Nutzung von für diese Szenarien optimierten Geräten kann eine hohe Qualität sicherstellen.
 
 Alle Geräte müssen den Anforderungen der Benutzer entsprechen. Sie müssen Geräte wie beispielsweise Headsets auf die verschiedenen Personas und Anwendungsfälle in der Organisation abstimmen.
 Im Rahmen des Planungsprozesses sollte eine Zuordnung von Personas zu Geräten erstellt werden.
@@ -105,11 +105,11 @@ Im Rahmen des Planungsprozesses sollte eine Zuordnung von Personas zu Geräten e
 Wenn Sie die Geräte ausgewählt haben, nehmen Sie sie zur endgültigen Validierung in den Pilottestplan auf. Nutzen Sie in der Pilotphase Umfragen, um Feedback zu sammeln, damit Sie sicherstellen können, dass Sie die optimale Gerätestrategie verwenden.
 
 > [!NOTE]
-> Zurzeit empfehlen wir die Verwendung von Geräten, die über das Skype for Business-Zertifizierungsprogramm zertifiziert wurden. Finden Sie unter dieses Programm zertifizierte Geräte in den Lösungskatalog für [USB-Geräte zertifiziert für Skype für Unternehmen](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) .
+> Zurzeit empfehlen wir die Verwendung von Geräten, die über das Skype for Business-Zertifizierungsprogramm zertifiziert wurden. Informationen zur Suche nach Geräten, die unter diesem Programm zertifiziert sind, finden Sie im Katalog [für USB-Geräte, die für Skype for Business-Lösungen zertifiziert](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) sind.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Entscheidungspunkte</td><td><ul><li>Legen Sie allgemeine Gerät-Strategie für Benutzer- und meeting Room Erfahrungen Ihres Unternehmens.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td><td><ul><li>Führen Sie eine Übung Persona-Geräte-Zuordnung für Ihre Organisation.</li><li>Den Prozess zum Abrufen von Geräten für Benutzer und Besprechungsräumen des Dokuments.</li><li>Den Prozess für die Bereitstellung und Konfiguration von Geräten für Benutzer und Besprechungsräumen des Dokuments.</li><li>Bereitstellen von anfänglichen Geräte mit der Bereitstellung beginnen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie sich für die gesamte Geräte Strategie Ihrer Organisation für Benutzer-und Besprechungsraum Erlebnisse.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Führen Sie eine Aufgaben-zu-Gerät-Zuordnungsübung für Ihre Organisation durch.</li><li>Dokumentieren Sie den Prozess zum Abrufen von Geräten für Benutzer und Besprechungsräume.</li><li>Dokumentieren des Prozesses zum Bereitstellen und Konfigurieren von Geräten für Benutzer und Besprechungsräume</li><li>Beschaffen Sie die ersten Geräte, um Ihre Bereitstellung zu starten.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
