@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Erfahren Sie, welche Cloud-automatischen Telefonzentralen sind und wie Sie verwendet werden.
-ms.openlocfilehash: 3dc96398cb2aa9ab3eafcc6e5d38ad2feb44b45b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ae5d959918240cec63c925eff77653c54294e99c
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299041"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330356"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Was sind automatische Cloudtelefonzentralen?
 
@@ -236,7 +236,7 @@ Wenn Sie eine automatische Telefonzentrale und die Menü Optionen einrichten mö
 
 Sie können der automatischen Telefonzentrale eine Microsoft Calling Plan-Servicenummer oder eine Direct-Routing-Hybrid Nummer zuweisen. Weitere Informationen finden Sie unter [Planen des direkten Routings](direct-routing-plan.md) .
 
-Wenn Sie eine Service-Nummer zuweisen möchten, müssen Sie Ihre bestehenden gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder übertragen. Sobald Sie die gebührenpflichtigen oder gebührenfreien Service-Telefonnummern erhalten haben, werden Sie im <!-- validate nav path --> **Skype for Business Admin Center** > **** > -**Telefonnummern**, und der angegebene **Nummerntyp** wird als **Service-gebührenfrei**aufgeführt. Informationen zum Abrufen Ihrer Servicenummern finden Sie unter [Abrufen von Service-Telefonnummern für Skype for Business und Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) oder, wenn Sie eine vorhandene Servicenummer übertragen möchten, finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
+Wenn Sie eine Service-Nummer zuweisen möchten, müssen Sie Ihre bestehenden gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder übertragen. Sobald Sie die gebührenpflichtigen oder gebührenfreien Service-Telefonnummern erhalten haben, werden Sie im <!-- validate nav path --> **Skype for Business Admin Center** > **** > -**Telefonnummern**, und der angegebene **Nummerntyp** wird als **Service-gebührenfrei**aufgeführt. Informationen zum Abrufen Ihrer Servicenummern finden Sie unter [Abrufen von Service-Telefonnummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers) oder, wenn Sie eine vorhandene Servicenummer übertragen möchten, finden Sie unter [übertragen von Telefonnummern zu Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > Wenn Sie sich außerhalb der Vereinigten Staaten befinden, können Sie das Microsoft Teams Admin Center nicht verwenden, um Dienstnummern zu erhalten. Wechseln Sie stattdessen zu [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , um zu erfahren, wie das geht.
@@ -245,7 +245,7 @@ Wenn Sie eine Service-Nummer zuweisen möchten, müssen Sie Ihre bestehenden geb
 
 [Das Telefonsystem in Office 365 bietet Ihnen Folgendes](here-s-what-you-get-with-phone-system.md)
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

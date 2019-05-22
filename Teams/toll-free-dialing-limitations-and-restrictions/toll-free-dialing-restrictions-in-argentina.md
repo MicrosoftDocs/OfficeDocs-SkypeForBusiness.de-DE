@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: a7ccebda227800ef49da020245adf500c221c4ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9b17dcda588128fac550db3c096e015a455f700b
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300999"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330524"
 ---
 # <a name="toll-free-dialing-restrictions-in-argentina"></a>Einschränkungen für gebührenfreie Telefonnummern in Argentinien
 
@@ -48,7 +48,7 @@ ms.locfileid: "34300999"
 ## <a name="related-topics"></a>Verwandte Themen
 [Einschränkungen für das Wählen von gebührenfreien Telefonnummern](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
   
  

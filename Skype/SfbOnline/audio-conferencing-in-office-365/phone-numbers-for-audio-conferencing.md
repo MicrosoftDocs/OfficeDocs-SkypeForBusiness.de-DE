@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Erfahren Sie, welche Länder und Regionen Einwahlkonferenz-Nummern haben und wie diese automatisch zugeordnet werden.
-ms.openlocfilehash: daa2312350be038153db168517a1d0f5bd7023cf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 73ba9a0f3627cf744679bf46d07019b1d7aa644b
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299116"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34329550"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Telefonnummern für Audiokonferenzen in Skype für Business Online
 
@@ -68,7 +68,7 @@ Freigegebene Audiokonferenz-Telefonnummern werden Organisationen automatisch zug
 > [!CAUTION]
 > Due to limited availability of toll phone numbers in Venezuela, Indonesia, and United Arab Emirates (UAE), organizations from these countries/regions won't have an Audio Conferencing toll number automatically assigned to them. Toll-free numbers from these locations are available depending on available inventory. 
   
-Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. Service numbers can be found by using the **Skype for Business admin center**. For details, see [Getting service phone numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. Service numbers can be found by using the **Skype for Business admin center**. For details, see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).
   
 Eine Liste der Länder/Regionen, in denen Organisationen automatisch Telefonnummern zugewiesen werden, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
   

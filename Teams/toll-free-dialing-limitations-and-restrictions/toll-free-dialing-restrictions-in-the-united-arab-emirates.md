@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: 7be6f425e60c39bf65671eee65658e71684072db
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f2cf37c2069168d1ebbbb0daf714ea2c17386084
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304466"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34329844"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>Einschränkungen für gebührenfreie Telefonnummern in den Vereinigten Arabischen Emiraten
 
@@ -50,7 +50,7 @@ ms.locfileid: "34304466"
 
 [Einschränkungen für das Wählen von gebührenfreien Telefonnummern](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
   
  

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Hier erfahren Sie, wie Sie das Telefon System (Cloud PBX) für Ihre Organisation einrichten. '
-ms.openlocfilehash: bac24e2dea13460ee9f4935a25926cac46d2988c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a0e4f9b8dda8ee2051b2d79972ca2df2005c3b32
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298710"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34329796"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Einrichten des Telefonsystems in Ihrer Organisation
 
@@ -211,7 +211,7 @@ Häufig gestellte Fragen zu Audiokonferenzen finden Sie unter [Häufig gestellte
 
 Zu den Cloud-Anrufwarteschlangen gehören Begrüßungen, die verwendet werden, wenn sich jemand an eine Telefonnummer für Ihre Organisation anmeldet, die Möglichkeit, die Anrufe automatisch zu halten, und die Möglichkeit, nach dem nächsten verfügbaren Anruf Agenten zu suchen, um den Anruf zu führen, während die Anrufteilnehmer Musik hören in Wartestellung. Sie können eine oder mehrere Anrufwarteschlangen für Ihre Organisation erstellen.
 
-Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
+Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > If you are outside the United States, you can't use the Skype for Business admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
@@ -238,7 +238,7 @@ Once you have your service numbers from **Step 4 above**, you need to assign the
 
 - Bei Anrufwarteschlangen können Sie einer Anrufwarteschlange eine dedizierte Nummer zuweisen, indem Sie zu den **Microsoft 365 Admin Center** > **Admin** > Centers**Skype for Business** > -Anruf**Warteschlangen** für**Anrufweiterleitung** > wechseln und auf in der Anrufwarteschlange. Auf der Seite **Allgemein** wird die bereits vorhandene Servicenummer im Dropdown-Menü **Telefonnummer** aufgelistet. Ausführliche Informationen finden Sie unter [Erstellen einer Cloud-Anrufwarteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
-**Ausführliche Informationen zum Bezug neuer Servicerufnummern und zur Portierung bestehender Servicerufnummern finden Sie unter [Servicerufnummern beziehen](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).**
+**Ausführliche Informationen zum Bezug neuer Servicerufnummern und zur Portierung bestehender Servicerufnummern finden Sie unter [Servicerufnummern beziehen](/microsoftteams/getting-service-phone-numbers).**
 
 ## <a name="step-10-set-up-communications-credits-for-your-organization"></a>Schritt 10: Einrichten von Kommunikationsguthaben für Ihre Organisation
 
@@ -279,7 +279,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 ## <a name="related-topics"></a>Verwandte Themen
 [Das Telefonsystem in Office 365 bietet Ihnen Folgendes](here-s-what-you-get-with-phone-system.md)
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     

@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: d2fe8e03ce0891fa46f092c87b6563ce174af75c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8cba8dc9fffbe843f715445649a78d8a02fba4db
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300975"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330516"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Einschränkungen für das Wählen von gebührenfreien Telefonnummern
 
@@ -120,7 +120,7 @@ Wenn Sie bereit sind, wählen Sie ein Land oder eine Region aus:
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
     
 ## <a name="related-topics"></a>Verwandte Themen
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
   
  

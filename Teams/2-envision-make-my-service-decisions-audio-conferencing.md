@@ -8,71 +8,71 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Informationen zu Besprechungen, Lizenzierung und Verfügbarkeit, Konfigurieren von Konferenz Bridge Einstellungen, erwerben oder beim Übertragen von Telefonnummern und Auswählen der Option Mandanten-Wählpläne.
+description: Informieren Sie sich über Besprechungen, Lizenzierung und Verfügbarkeit, Konfigurieren von Einstellungen für Konferenz Brücken, erwerben oder übertragen von Telefonnummern und Auswählen von Mandanten Wählplänen.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3867f7f2f9dd2f093b71ced40b0c07b6c5395041
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 6f7c36904aadf19802511979fa5e069b3c91035e
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400905"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330596"
 ---
-# <a name="make-my-service-decisions"></a>Meine Service treffe
+# <a name="make-my-service-decisions"></a>Meine Dienst Entscheidungen treffen
 
-Um die technischen Implementierung der Audiokonferenz planen, müssen Sie eine Reihe von Dienst Entscheidungen vorausschauendes besser Vorbereiten Ihrer Organisation zum Implementieren einer Lösung, die Ihren definierten geschäftlichen Anforderungen erfüllt vornehmen.
+Wenn Sie die technische Implementierung von Audiokonferenzen planen möchten, müssen Sie eine Reihe von Dienst Entscheidungen vorzeitig treffen, um Ihre Organisation besser auf die Implementierung einer Lösung vorzubereiten, die ihre definierten geschäftlichen Anforderungen erfüllt.
 
 ## <a name="audio-conferencing-in-teams"></a>Audiokonferenzen in Teams
 
-Als Teil des erforderlichen Audiokonferenzen-Features in Microsoft-Teams definieren wird einer der ersten Schritte für die neuesten öffentlichen Roadmap bestimmen ausgewertet werden soll:
+Als Teil der Definition erforderlicher Audiokonferenzfunktionen in Microsoft Teams besteht einer der ersten Schritte darin, die aktuelle öffentliche Roadmap zu evaluieren, um Folgendes zu ermitteln:
 
--   Welche Audiokonferenzen Features in Teams, die für Benutzer im Gültigkeitsbereich bereitgestellt werden.
+-   Welche Audiokonferenz Features in Teams, die für Benutzer im Bereich bereitgestellt werden.
 
--   Anforderungen an die Benutzer Funktionen für Audiokonferenzen in Teams erwartet.
+-   Voraussetzungen für die Benutzerfunktionalität für Audiokonferenzen in Teams.
 
--   Bestätigung, dass Audio Konferenzfunktionen in die neuesten öffentlichen Roadmap beschriebenen Teams Ihre Benutzer, Funktionen und bereichsanforderungen innerhalb der Zeitachse Ihrer Bereitstellung erfüllt.
+-   Bestätigung, dass Audiokonferenzfunktionen in Teams, die in der neuesten öffentlichen Roadmap beschrieben sind, Ihre Benutzer-, Funktionalitäts-und Bereichsanforderungen innerhalb der Zeitachse Ihrer Bereitstellung erfüllen.
 
 > [!NOTE]
-> Die neueste Teams-Roadmap für die Identifizierung von Teams Audiokonferenzen Features im Bereich für die Bereitstellung Sie unter finden <https://aka.ms/O365Roadmap>.
+> Die aktuelle Roadmap für Teams zur Identifizierung von Teams für Audiokonferenz-Features im Bereich für Ihre bereit <https://aka.ms/O365Roadmap>Stellung finden Sie unter.
 
 ## <a name="meetings-in-teams"></a>Besprechungen in Microsoft Teams
 
-Teams können Benutzer die Möglichkeit zum Planen und teilnehmen an onlinebesprechungen mithilfe von HD-Video, voice over IP (VoIP) und PSTN-einwahlkonferenzen Optionen.
+Teams bietet ihren Benutzern die Möglichkeit zum Planen und teilnehmen an Onlinebesprechungen mithilfe von HD-Video, VoIP (Voice over IP) und Optionen für PSTN-Einwahlkonferenzen.
 
-Besprechungen geplant werden können, als private Konferenzen (nur eingeladene Teilnehmer können aufgenommen werden) oder DDE-Kanal Besprechungen (für alle Benutzer mit Zugriff auf den DDE-Kanal öffnen), und die Benutzer können auch in den Kanälen, spontane Besprechungen starten.
+Besprechungen können als private Besprechungen (nur eingeladene Parteien können teilnehmen) oder Kanal Besprechungen (für alle Benutzer, die Zugriff auf den Kanal haben) geplant werden, und Ihre Benutzer können auch spontane Besprechungen in Kanälen starten.
 
 > [!NOTE]
-> Weitere Informationen zu den Funktionen von Besprechungen in Teams finden Sie in der [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap).
+> Weitere Informationen zu den Features von Besprechungen in Teams finden Sie in der [Microsoft 365-Roadmap](https://aka.ms/O365Roadmap).
 
-Besprechungsteilnehmer kann Ihre Teams Besprechungen beitreten, indem Sie Telefonnummern die gebührenpflichtige oder gebührenfreie Zugriffsnummer für Einwahl Konferenzbrücke über Landlines oder Mobiltelefonen. Darüber hinaus können Benutzer den Audio-Konferenzdienst die Funktion "Anruf an mich" initiieren, damit die Konferenzbrücke, rufen Sie ihre Telefone (nützlich, wenn die Datenverbindung nicht zuverlässig ist), oder Let Besprechung in einer Besprechung teilnehmen können Organisatoren Besprechung einladen Teilnehmer durch ihre Telefone anwählen einer.
+Besprechungsteilnehmer können an Ihren Teambesprechungen teilnehmen, indem Sie sich über Festnetz-oder Mobilfunkanschlüsse in die gebührenpflichtige oder gebührenfreie Einwahlkonferenz Brücke einwählen. Darüber hinaus können Benutzer vom Audiokonferenzdienst die Funktion "anrufen" initiieren, damit Sie an einer Besprechung teilnehmen können, indem Sie die Konferenzbrücke anrufen lassen (nützlich, wenn die Datenverbindung nicht zuverlässig ist) oder Besprechungsorganisatoren eine Besprechung einladen lassen. Teilnehmer, indem Sie Ihre Telefone anrufen.
 
 > [!IMPORTANT]
-> Audiokonferenzen in Teams unterstützt keine Drittanbieter-Audiokonferenzanbieter (ACPs).
+> Audiokonferenzen in Teams unterstützen keine Audiokonferenz-Anbieter von Drittanbietern (ACPS).
 
 <!--ENDOFSECTION-->
 
 ## <a name="availability-of-audio-conferencing"></a>Verfügbarkeit von Audiokonferenzen
 
-Bevor Sie die Implementierung der Audiokonferenzen in Teams planen, müssen Sie überprüfen Sie die Verfügbarkeit des Diensts Audiokonferenzen wie in [Ländern und Regionen Verfügbarkeit für Audiokonferenzen und plant aufrufen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Bevor Sie die Implementierung von Audiokonferenzen in Teams planen, müssen Sie die Verfügbarkeit des Audiokonferenzdienst überprüfen, wie in der [Verfügbarkeit für Audiokonferenz-und Anrufpläne in Land und Region](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)beschrieben.
 
 > [!IMPORTANT]
-> Aufgrund der rechtlichen Nebenbedingungen für Audiokonferenzen für internationale Unternehmen verfügbar sein muss der Vertrag für Office 365-Abonnements stammen aus Ländern und Regionen, in dem der Audio-Konferenzdienst im Handel erhältliche ist.
+> Aufgrund rechtlicher Einschränkungen müssen Audiokonferenzen für multinationale Organisationen verfügbar sein, da der Vertrag für Office 365-Abonnements aus Ländern und Regionen stammen muss, in denen der Audiokonferenzdienst kommerziell verfügbar ist.
 
-Nach Bestätigung, dass Ihre Organisation berechtigt ist auf der Grundlage den Audiokonferenz-Dienst zu erhalten, kompilieren Sie die Liste der Standorte oder Büros, in dem Sie den Dienst Audiokonferenzen implementieren werden, der Liste der verfügbaren Ländern und Regionen.
+Nachdem Sie bestätigt haben, dass Ihre Organisation für den Audiokonferenzdienst berechtigt ist, kompilieren Sie die Liste der Benutzer Standorte oder-Büros, in denen Sie den Audiokonferenzdienst implementieren, basierend auf der Liste der verfügbaren Länder und Regionen.
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, welche Standorte oder Büros der Audiokonferenz Dienst implementiert werden.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Standorte oder Büros für die Audiokonferenz-Dienst aktiviert werden soll.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, welche Benutzer Standorte oder Offices den Audiokonferenzdienst implementieren sollen.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Benutzer Standorte oder-Büros, die für den Audiokonferenzdienst aktiviert werden sollen.</li></ul>|
 
 > [!TIP]
-> Es folgt ein Beispiel einer Audiokonferenz-Aktivierung-Liste Websitevorlage:
+> Nachfolgend finden Sie ein Beispiel für eine Vorlage für eine Audiokonferenz-Website Aktivierung:
 > 
 > |Office   |Standort |PSTN-Konferenzdienst  |
 > |---------|---------|---------|
@@ -86,30 +86,30 @@ Nach Bestätigung, dass Ihre Organisation berechtigt ist auf der Grundlage den A
 
 ## <a name="licensing-for-audio-conferencing"></a>Lizenzierung für Audiokonferenzen
 
-Eine [Audiokonferenz Lizenz](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) steht als Teil der Office 365 E5 Abonnementpläne oder als Add-on-Dienst auf Office 365 E1 oder E3 für Office 365-abonnementtarife.
+Eine [Audiokonferenz-Lizenz](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) steht im Rahmen von Office 365 E5-Abonnement Plänen oder als Add-on-Service für Office 365 E1-oder Office 365 E3-Abonnement Pläne zur Verfügung.
 
 > [!NOTE]
-> Drittanbieter-Audiokonferenzanbieter (ACPs) unterstützt keine PSTN oder Dial-in Conferencing in Teams.
+> PSTN-oder Einwahlkonferenzen in Teams unterstützen keine Audiokonferenz-Anbieter von Drittanbietern (ACPS).
 > <br>Wenn Sie den PSTN-Konferenzdienst für Skype for Business bereits verwenden, können Sie unmittelbar die Vorteile des Audiokonferenzdiensts in Teams nutzen.
 
-Anzugebende gebührenfreie Konferenz Bridge Telefonnummern und zur Unterstützung von Konferenzen Anwahl auf internationale Telefonnummern, müssen Sie für Ihre Organisation [Communications haben](what-are-communications-credits.md) einrichten.
+Wenn Sie gebührenfreie Konferenz Brücken-Telefonnummern bereitstellen und Konferenzanrufe an internationale Telefonnummern unterstützen möchten, müssen Sie für Ihre Organisation [Kommunikationsguthaben](what-are-communications-credits.md) einrichten.
 
 > [!IMPORTANT]
-> In einigen Ländern sind von nur Telefonnummern der gebührenfreie Konferenz-Brücke bedient. Zur Unterstützung der Zugriffsnummer für Einwahl in diesen Ländern müssen Sie Communications haben verwenden.
+> Einige Länder werden nur über gebührenfreie Telefonnummern für Konferenz Brücken gewartet. Zur Unterstützung der Einwahl in diesen Ländern müssen Sie Kommunikationsguthaben verwenden.
 
-Der erste Aspekt beim Implementieren von Kommunikation haben entscheiden, die Anfangsgröße des Mittel ist, die Sie kaufen möchten. Wenn Ihre Organisation entscheidet, Auto-Ladeleuchte verwenden, müssen Sie die Trigger Menge (niedrigste Betrag der Mittel) und den Auto-Ladeleuchte entscheiden. Nutzung von tatsächlichen wird die automatische Ladeleuchte bestimmen. Überwachen der Nutzung von Communications haben über einen Zeitraum, und passen Sie den Betrag Ladeleuchte nach Bedarf.
+Die erste Überlegung bei der Implementierung von Kommunikationsguthaben ist die Entscheidung über die anfängliche Höhe des Guthabens, das Sie kaufen möchten. Wenn Ihre Organisation die Verwendung der automatischen Aufladefunktion auswählt, müssen Sie den Abzugsbetrag (niedrigster Betrag) und den Betrag für das automatische aufladen entscheiden. Ihre tatsächliche Nutzung bestimmt den Betrag für das automatische aufladen. Sie sollten die Nutzung ihrer Kommunikationsguthaben über einen Zeitraum überwachen und den aufladbaren Betrag nach Bedarf anpassen.
 
-Weitere Informationen finden Sie Informationen zu Communications haben [hier](what-are-communications-credits.md).
+Weitere Informationen zu Kommunikationsguthaben finden Sie [hier](what-are-communications-credits.md).
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Wenn Ihr Unternehmen bereits die erforderlichen Audiokonferenzen Lizenzierung erworben wurde nicht, entscheiden Sie, ob Sie vorhandenen Office 365-Abonnements umsteigen oder Audiokonferenzen Add-On-Lizenzen erwerben Audiokonferenzen Lizenzen erwerben können.</li><li>Entscheiden Sie, ob Communications haben für die Audiokonferenz Implementierung erforderlich sind. Wenn ja, legen Sie den anfänglichen Auffüllungsbetrag fest. Legen Sie zudem fest, wie hoch der niedrigste Betrag sein sollte, bei dem die automatische Auffüllung ausgelöst wird.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Benutzer, die Audiokonferenz Lizenzen zugewiesen werden.</li><li>Dokumentieren Sie den Plan Communications haben (Anfangsgröße, Trigger Betrag, Auto-Ladeleuchte Betrag)</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Wenn Ihre Organisation die erforderliche Lizenzierung für Audiokonferenzen noch nicht erworben hat, entscheiden Sie, ob Sie Audiokonferenz-Lizenzen erwerben möchten, indem Sie vorhandene Office 365-Abonnements verstärken oder Audiokonferenz-Add-on-Lizenzen erwerben.</li><li>Entscheiden Sie, ob für Ihre Audiokonferenz-Implementierung Kommunikationsguthaben erforderlich sind. Wenn ja, legen Sie den anfänglichen Auffüllungsbetrag fest. Legen Sie zudem fest, wie hoch der niedrigste Betrag sein sollte, bei dem die automatische Auffüllung ausgelöst wird.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Benutzer, denen Audiokonferenz-Lizenzen zugewiesen werden sollen.</li><li>Dokumentieren des Plans für Kommunikations Kredite (Anfangsbetrag, Auslöse Betrag, Betrag für das automatische aufladen)</li></ul>|
 
 > [!TIP]
-> Sie können mithilfe der im folgenden Beispiel wird die Liste der Lizenz-Zuordnung für Audiokonferenzen Benutzer dokumentieren.
+> Mit dem folgenden Beispiel können Sie die Liste der Lizenz Aufgaben für Audiokonferenz-Benutzer dokumentieren.
 > 
 > |Benutzer  |Niederlassung  |Office 365-Lizenz  |
 > |---------|---------|---------|
@@ -143,29 +143,29 @@ Weitere Informationen finden Sie Informationen zu Communications haben [hier](wh
 
 Der Audiokonferenzdienst in Office 365 umfasst:
 
--   Mehrere Authentifizierungstypen Konferenz Brücke Rufnummern (gebührenpflichtige und gebührenfreie)
+-   Mehrere Arten von Telefonnummern für Konferenz Brücken (gebührenpflichtig und gebührenfrei)
 
--   Mehrere Kategorien der Konferenzbrücke Telefonnummern (dedizierte und gemeinsame)
+-   Mehrere Kategorien von Telefonnummern für Konferenz Brücken (dediziert und freigegeben)
 
 -   Unterstützung für mehrere Sprachen für die Konferenzbrücke (primär oder sekundär)
 
--   Eine Standard-Rufnummer für den Mandanten
+-   Eine Standardtelefonnummer für den Mandanten
 
 > [!NOTE]
-> Dedizierte Bridge Telefon Zahlen konferenzanzahl in der Begrenzung von Rufnummern, die pro Mandant, basierend auf der Anzahl der entsprechenden Lizenzen erworben werden können. Für gebührenfreie Telefonnummern für Konferenzbrücken ist Kommunikationsguthaben erforderlich.
+> Dedizierte Telefonnummern für Konferenz Brücken zählen auf die Grenze von Telefonnummern, die pro Mandant abhängig von der Anzahl der anwendbaren Lizenzen erworben werden können. Für gebührenfreie Telefonnummern für Konferenzbrücken ist Kommunikationsguthaben erforderlich.
 
-Wenn Sie vorhandene Konferenz Bridge Telefonnummern an den Audio-Konferenzdienst übertragen müssen – vorausgesetzt, sie erfüllen länderspezifisch – Sie können diese Rufnummern der vorhandenen Konferenz Bridge an Microsoft übertragen.
+Wenn Sie vorhandene Konferenz Brücken-Telefonnummern an den Audiokonferenzdienst übertragen müssen, vorausgesetzt, Sie erfüllen länderspezifische Anforderungen, können Sie diese vorhandenen Konferenz Brücken-Telefonnummern an Microsoft übertragen.
 
 > [!NOTE]
-> Die Komplexität der Rufnummern an Microsoft übertragen variiert stark je nach Land oder Region, Netzbetreiber, Anzahl der beteiligten Circuits und viele andere Faktoren beitragen. Arbeiten mit Ihren aktuellen Anbieter untersuchen, wie lange dies ist voraussichtlich durchführen, um sicherzustellen, dass Sie den zu einem frühen Zeitpunkt starten genug sind, um die Zeitachsen erfüllen.
+> Die Komplexität der Übertragung von Telefonnummern an Microsoft variiert stark je nach Land oder Region, Netzbetreiber, Anzahl der beteiligten Schaltkreise und vielen anderen Faktoren, die dazu beitragen. Arbeiten Sie mit Ihrem aktuellen Anbieter zusammen, um zu untersuchen, wie lange dies wahrscheinlich dauert, um sicherzustellen, dass Sie den Prozess früh genug starten, um ihre Zeitpläne zu erfüllen.
 
-Lesen Sie mehr über die Konferenz Bridge Rufnummern finden Sie in den folgenden Artikeln:
+Wenn Sie mehr über Telefonnummern für Konferenz Brücken erfahren möchten, lesen Sie die folgenden Artikel:
 
 -   [Einrichten von Audiokonferenzen für Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 -   [Telefonnummern für Audiokonferenzen](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
 
--   [Abrufen von Diensttelefonnummern](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+-   [Abrufen von Diensttelefonnummern](getting-service-phone-numbers.md)
 
 -   [Übertragen von Telefonnummern an Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
@@ -173,10 +173,10 @@ Lesen Sie mehr über die Konferenz Bridge Rufnummern finden Sie in den folgenden
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Ihre Organisation dedizierten Konferenz Bridge Telefonnummern benötigt.</li><li>Entscheiden Sie, wie die dedizierte Konferenz Bridge Telefonnummern für Standorte oder Büros erhalten werden im Bereich für die Implementierung von Audiokonferenzen (die von Microsoft oder Übertragung vorhandenen Telefonnummern erhalten wird,).</li><li>Wenn Sie diese von Microsoft erhalten möchten, entscheiden, die zu verwendende Methode (Formular zum Absenden oder automatisierte) für Standorte oder Büros Bereich für die Implementierung von Audiokonferenzen.</li><li>Entscheiden Sie, die spracheinstellungen für jede Telefonnummer für dedizierte Konferenz Bridge einrichten.</li><li>Entscheiden Sie Mandanten Konferenz Bridge Standardrufnummer.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Master-Shape für Erwerb von Telefon aus, mit ausführlichen Informationen zu wie Telefonnummern für jeden Benutzerstandort oder Office im Bereich für die Audiokonferenz Implementierung erhalten werden.</li><li>Füllen Sie das Formular neues Telefon anfordern – ein Formular für jeden Standort oder Office.</li><li>Dokument die detaillierte Konferenzbrücke phone Number Konfigurationen (shared und dedizierte Konferenz Bridge Telefonnummern, spracheinstellungen für jede dedizierten Bridge Konferenztelefonnummer, Mandanten Standard-Brücke Konferenztelefonnummer).</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Ihre Organisation dedizierte Telefonnummern für Konferenz Brücken benötigt.</li><li>Entscheiden Sie, wie die dedizierten Konferenz Brücken-Telefonnummern für die Benutzer Standorte oder Offices im Bereich der Audiokonferenz-Implementierung abgerufen werden (also von Microsoft beziehen oder vorhandene Telefonnummern übertragen).</li><li>Wenn Sie Sie von Microsoft erhalten möchten, entscheiden Sie sich für die Methode zur Verwendung (Formularübermittlung oder automatisiert) für Benutzer Standorte oder Offices, die für die Implementierung von Audiokonferenzen im Bereich der Audiokonferenz verwendet werden.</li><li>Entscheiden Sie, welche Spracheinstellungen für jede dedizierte Konferenzbrücke-Telefonnummer eingerichtet werden sollen.</li><li>Entscheiden Sie sich für die Telefonnummer des Mandanten als Standard Konferenzbrücke.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie den Masterplan für die Telefonnummern Akquisition, und erläutern Sie, wie Telefonnummern für die einzelnen Benutzer Standorte oder Office im Bereich der Audiokonferenz-Implementierung abgerufen werden.</li><li>Falls zutreffend, füllen Sie das neue Telefonnummern-Anforderungsformular aus – ein Formular für jeden Standort oder jede Niederlassung.</li><li>Dokumentieren Sie die detaillierten Telefonnummern Konfigurationen für Konferenz Brücken (freigegebene und dedizierte Konferenz Brücken-Telefonnummern, Spracheinstellungen für jede dedizierte Telefonnummer der Konferenzbrücke, Telefonnummer des Mandanten, Standard-Konferenzbrücke).</li></ul>|
 
-Es folgt ein Beispiel für eine Vorlage, die Sie zur Konferenz Bridge Details Erfassung verwenden können.
+Nachfolgend finden Sie ein Beispiel für eine Vorlage, die Sie zum Aufzeichnen von Details zur Konferenzbrücke verwenden können.
 
 > [!TIP]
 > Das folgende Beispiel zeigt eine Vorlage zum Erfassen der Details von Konferenzbrücken:
@@ -192,44 +192,44 @@ Es folgt ein Beispiel für eine Vorlage, die Sie zur Konferenz Bridge Details Er
 
 ## <a name="conference-bridge-settings"></a>Einstellungen der Konferenzbrücke
 
-Um die Benutzeroberfläche weiter anpassen möchten, können Sie organisationsweiten Optionen für die Teilnahme an Audiokonferenzen Besprechungen (meeting Beitritts- und Benachrichtigung und Anrufer Namen Aufzeichnung), der Besprechungsorganisator PIN-Länge und e-Mail-Benachrichtigung konfigurieren:
+Wenn Sie die Benutzerfreundlichkeit weiter anpassen möchten, können Sie organisationsweite Optionen für die Teilnahme an Audiokonferenz-Besprechungen (Besprechungs-und Exit-Benachrichtigung und Aufzeichnung der Rufnummernanzeige), die PIN-Länge des Besprechungsorganisators und die e-Mail-Benachrichtigung konfigurieren:
 
 -   Benachrichtigungen über Zu- und Abgänge in Besprechungen sind in Form eines aufgezeichneten Namens, einer Telefonnummer und Signaltönen verfügbar.
 
 -   Die PIN-Länge ist mit 4 bis zwölf Ziffern konfigurierbar, wobei eine PIN standardmäßig aus 5 Ziffern besteht.
 
--   Benachrichtigung, dass auf die Aktivierung der Lizenz Audiokonferenzen oder andere Administratorgesteuert Änderung gesendete e-Mails standardmäßig aktiviert sind. Sie können dieses Feature deaktivieren und Übernehmen der Steuerung Ihres Unternehmens Benutzerkommunikation.
+-   Benachrichtigungs-e-Mails, die bei der Aktivierung der Audiokonferenz-Lizenz oder einer anderen vom Administrator gesteuerten Änderung gesendet wurden, sind standardmäßig aktiviert. Sie können dieses Feature deaktivieren und die Benutzerkommunikation in Ihrer Organisation übernehmen.
 
-Für Benutzer, die eine Audiokonferenz-Lizenz zugewiesen sind, können die Standardeinstellung gebührenpflichtige/toll-free Zahlen, in die Koordinaten Audiokonferenzen angezeigt konfiguriert werden:
+Für Benutzer, denen eine Audiokonferenz-Lizenz zugewiesen ist, können die Standardgebühren/gebührenfreien Nummern, die in den Audiokonferenz-Koordinaten angezeigt werden, so konfiguriert werden, dass Sie Folgendes verwenden:
 
--   Der Standardwert ist auf Mandantenebene.
+-   Die Standardeinstellung auf Mandantenebene.
 
--   Die Telefonnummern der automatisch zugewiesene Konferenz-Brücke.
+-   Die automatisch zugewiesenen Telefonnummern für Konferenz Brücken.
 
--   Eine Konferenz Bridge Rufnummern für jeden Benutzer manuell konfiguriert.
+-   Eine Konferenzbrücke Telefonnummern, die für jeden Benutzer manuell konfiguriert werden.
 
-Benutzerspezifische Konferenz Brücke Telefonnummern Zahlen eignen sich in der Regel in der globalen oder landesweit Organisationen, in dem Benutzer verteilt werden und müssen Ortsgespräche als Standard-Konferenz Bridge Rufnummern in ihrer besprechungseinladungen angeben.
+Benutzerspezifische Telefonnummern für Konferenz Brücken sind in der Regel in globalen oder bundesweiten Organisationen hilfreich, in denen Benutzer verteilt sind, und Sie müssen in ihren Besprechungseinladungen Ortsnummern als Standardtelefon Nummern für Konferenz Brücken angeben.
 
-Teilnehmer aus verschiedenen Städten oder Übersee können Nachschlagen zusätzliche Nummern, die Ebene des Mandanten konfiguriert, aber diese Nummern nicht direkt in den besprechungseinladungen angezeigt. Die besprechungseinladungen enthalten einen Link Teilnehmer zur Seite **Teams Konferenz einwählen Zahlen** für sie die Brücke Konferenztelefonnummer am nächsten zu ihrem Standort nachzuschlagen.
+Teilnehmer, die aus unterschiedlichen Städten oder Übersee beitreten, können zusätzliche Nummern nachschlagen, die auf Mandantenebene konfiguriert sind, diese Zahlen werden aber nicht direkt in den Besprechungseinladungen angezeigt. Die Besprechungseinladungen stellen einen Link zur Verfügung, der Teilnehmer zur Seite " **Einwahlnummern für Teams** " führt, damit Sie die Telefonnummer der Konferenzbrücke nachschlagen können, die Ihrem Standort am nächsten ist.
 
-Sie können auch konfigurieren, wie nicht authentifizierter Anrufer werden von jedem einzelnen Besprechungsorganisator behandelt –, ob erzwungen Organisator der Besprechung die Besprechung starten, bevor nicht authentifizierter Anrufer zugelassen werden können, oder lassen Sie nicht authentifizierte Aufrufer zum Starten einer Besprechung .
+Sie können auch konfigurieren, wie nicht authentifizierte Aufrufer von den einzelnen Besprechungsorganisatoren behandelt werden, und zwar unabhängig davon, ob der Besprechungsorganisator die Besprechung starten soll, bevor nicht authentifizierte Anrufer zugelassen werden können, oder nicht authentifizierten Anrufern das Starten einer Besprechung gestatten. .
 
-Sie können auch zusätzliche Konfigurationen für jeden Benutzer die Verwendung von gebührenfreie Konferenz Bridge Rufnummern steuern und Anwahl von einer Konferenz anwenden.
+Sie können auch zusätzliche Konfigurationen für jeden Benutzer anwenden, um die Verwendung von gebührenfreien Konferenz Brücken-Telefonnummern und die Einwahl aus einer Konferenz zu steuern.
 
 > [!NOTE]
-> Diese mit Kosten verbundenen Steuerelemente sind derzeit nur für Preview-Kunden verfügbar. Sie können registrieren Sie Ihre Organisation in der Vorschau-Anwendung aus https://www.skypepreview.com.
+> Diese mit Kosten verbundenen Steuerelemente sind derzeit nur für Preview-Kunden verfügbar. Sie können Ihre Organisation im Vorschau Programm von https://www.skypepreview.comregistrieren.
 
-Mit diesen Steuerelementen können Sie entscheiden, ob Besprechungsorganisatoren gebührenfreie Konferenz Bridge Rufnummern für von ihnen organisierte Besprechungen bereitstellen können, und gibt an, ob Teilnehmer aus Besprechungen anwählen können Organisation. Die Ebene der Dial-Out-Steuerelement umfasst vollständig verhindert ein-, nur zulassen Client-nationalen Nummern, bis zum Zulassen von Client-nationalen und internationalen Zahlen werden kann.
+Mit diesen Steuerelementen können Sie entscheiden, ob Besprechungsorganisatoren gebührenfreie Telefonnummern für Konferenz Brücken für Besprechungen bereitstellen können, die von Ihnen organisiert werden, und ob Teilnehmer die von Ihnen organisierten Besprechungen anrufen können. Die Anzahl der Wähl Steuerungen reicht davon ab, die Rufnummernanzeige vollständig zu verhindern, um nur Anrufe an inländische Rufnummern zu ermöglichen, um Anrufe an inländische und internationale Rufnummern zu ermöglichen.
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden, ob Ihre Organisation Beitritts- und Benachrichtigungen erfordert und – wenn dies der Fall ist – die Art der Benachrichtigung implementiert werden (Töne, Telefonnummer oder aufgezeichneten Namen).</li><li>Entscheiden Sie, die Audio-Konferenzen PIN-Mindestlänge, die den Anforderungen der Sicherheit in der Organisation entspricht.</li><li>Entscheiden Sie, ob Ihre Organisation möchte Benutzerkommunikation im Zusammenhang mit der Audiokonferenz Dienst steuern.</li><li>Entscheiden Sie, die Konferenz Bridge Telefonnummern, jede Besprechungsorganisator zugewiesen werden soll.</li><li>Entscheiden Sie, ob einige Besprechungsorganisatoren gebührenfreie Konferenz Bridge Rufnummern für ihre Besprechungen verwenden müssen.</li><li>Entscheiden Sie, ob einige Besprechungsorganisatoren nicht authentifizierter Anrufer an eine Besprechung starten zu ermöglichen müssen.</li><li>Entscheiden Sie, ob einige Besprechungsorganisatoren Konferenz Anwahl gesteuert werden benötigen.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die detaillierten Konferenzbrückeneinstellungen (Benachrichtigungen über Zu- und Abgänge, PIN-Länge, E-Mail-Benachrichtigung über Konfigurationsänderungen).</li><li>Dokumentieren der Konferenz Bridge Rufnummern zugewiesen an jedem Organisator der Besprechung und die entsprechende Einstellung zum Steuern der Richtlinie für nicht authentifizierter Anrufer und gebührenfreie und Kontrollen einwählen.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Ihre Organisation Eingabe-und Exit-Benachrichtigungen erfordert, und – wenn ja – die Art der zu implementierenden Benachrichtigung (Töne, Telefonnummer oder aufgezeichneter Name).</li><li>Entscheiden Sie sich für die PIN-Länge der Audiokonferenz, die Ihren organisatorischen Sicherheitsanforderungen entspricht.</li><li>Entscheiden Sie, ob Ihre Organisation die Benutzerkommunikation in Verbindung mit dem Audio-Konferenzdienst übernehmen möchte.</li><li>Entscheiden Sie, welche Telefonnummern der Konferenzbrücke jedem Besprechungsorganisator zugewiesen werden sollen.</li><li>Entscheiden Sie, ob einige Besprechungsorganisatoren gebührenfreie Telefonnummern für Konferenz Brücken für Ihre Besprechungen verwenden müssen.</li><li>Entscheiden Sie, ob einige Besprechungsorganisatoren nicht authentifizierten Anrufern das Starten einer Besprechung gestatten müssen.</li><li>Entscheiden Sie, ob einige Besprechungsorganisatoren die Kontrolle über Konferenz Auswahlen benötigen.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die detaillierten Konferenzbrückeneinstellungen (Benachrichtigungen über Zu- und Abgänge, PIN-Länge, E-Mail-Benachrichtigung über Konfigurationsänderungen).</li><li>Dokumentieren Sie die Telefonnummern der Konferenzbrücke, die jedem Besprechungsorganisator zugewiesen werden sollen, und die entsprechende Einstellung, um die Richtlinie für nicht authentifizierte Anrufer zu steuern, sowie gebührenfreie und Wahl Steuerelemente.</li></ul>|
 
 > [!TIP]
-> Wie im folgenden Beispiel können die Konferenz Bridge Einstellungen dokumentiert werden.
+> Ihre Einstellungen für die Konferenzbrücke können wie im folgenden Beispiel dokumentiert werden.
 > 
 > |         |         |
 > |---------|---------|
@@ -242,7 +242,7 @@ Mit diesen Steuerelementen können Sie entscheiden, ob Besprechungsorganisatoren
 <br>
 
 > [!TIP]
-> Sie können mithilfe der im folgenden Beispiel wird die Liste Konferenz Bridge Settings Zuordnung für Audiokonferenzen Benutzer dokumentieren.
+> Mithilfe des folgenden Beispiels können Sie die Zuordnungsliste der Konferenz Brücken Einstellungen für Audiokonferenz-Benutzer dokumentieren.
 >
 > |Benutzer  |Niederlassung  |Gebührenpflichtige Standardnummer  |Gebührenfreie Standardnummer  |Gebührenfreie Nummer zulassen  |Nicht authentifizierte Anrufer umgehen Wartebereich  |Konferenzauswahl  |
 > |---------|---------|---------|---------|---------|---------|---------|
@@ -263,46 +263,46 @@ Mit diesen Steuerelementen können Sie entscheiden, ob Besprechungsorganisatoren
 
 ## <a name="manage-cloud-voice-telephone-numbers"></a>Verwalten von Cloud-VoIP-Telefonnummern
 
-Für Audiokonferenzen Implementierung können Sie neue Telefonnummern zu erwerben oder Übertragung/Port vorhandenen Telefonnummern.
+Für die Implementierung von Audiokonferenzen können Sie wählen, ob Sie neue Telefonnummern erwerben oder vorhandene Telefonnummern übertragen/portieren möchten.
 
-Ermöglicht den Benutzern so Telefonnummern wählen Sie wie gewohnt sind – wie Vorwahlen für Ortsgespräche auslassen, Ländercode für Gespräche auslassen oder sogar mit kurzen Ziffer, die beim Ausführen einer Konferenz einwählen ausgehende Anrufe – Sie können einen benutzerdefinierten Wählplan konfigurieren und Benutzern zuweisen.
+Wenn Sie es Benutzern ermöglichen möchten, Telefonnummern so zu wählen, wie Sie es gewohnt sind, beispielsweise das Auslassen von Ortsnetzen für Ortsgespräche, das Weglassen von Landesvorwahl für Inlandsanrufe oder die Verwendung von Kurzwahlnummern bei der Durchführung einer Konferenz Wahl, können Sie einen benutzerdefinierten Wählplan konfigurieren. und weisen Sie Sie Benutzern zu.
 
-## <a name="acquire-new-telephone-numbers"></a>Erwerben Sie neue Telefonnummern
+## <a name="acquire-new-telephone-numbers"></a>Neue Telefonnummern erwerben
 
-Die zwei Arten von Telefonnummern in Microsoft Cloud VoIP-Lösungen sind:
+Die beiden Arten von Telefonnummern in Microsoft Cloud Voice Solutions sind:
 
--   Zahlen Abonnenten (Benutzer), die für Benutzer in Ihrer Organisation zugewiesen werden können.
+-   Abonnenten Nummern (Benutzer), die Benutzern in Ihrer Organisation zugewiesen werden können.
 
--   Service, verfügbare Nummern als gebührenpflichtige oder gebührenfreie Service Zahlen, die höheren Kapazität für gleichzeitige Anrufe als Abonnenten Zahlen und Diensten wie etwa Audiokonferenzen, automatischen Telefonzentralen oder rufen Sie Warteschlangen zugewiesen werden können.
+-   Dienstnummern, die als gebührenpflichtige und gebührenfreie Servicenummern zur Verfügung stehen, die eine höhere gleichzeitige Anrufkapazität als Teilnehmer Nummern aufweisen und Diensten wie Audiokonferenzen, automatischen Telefonzentralen oder Anrufwarteschlangen zugewiesen werden können.
 
-Weitere Informationen über diese Art von Telefonnummern finden Sie unter [verschiedenen Arten von Telefonnummern für den Aufruf von plant verwendet](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans).
+Weitere Informationen zu diesen Arten von Telefonnummern finden Sie unter [verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans).
 
-Die Gesamtzahl der Telefonnummer, die Zahlen, die Sie erhalten können, welche Telefonnummer und die Anzahl der Lizenzen abhängen haben Sie erworben und Ihren Benutzern zugewiesen.
+Die Gesamtanzahl der Telefonnummern, die Sie erhalten können, hängt von den Telefonnummern Typen und der Anzahl der Lizenzen ab, die Sie Ihren Benutzern gekauft und zugewiesen haben.
 
-Wenn es sich um Service Zahlen geht, müssen Sie die Audiokonferenz Implementierung sorgfältig planen. Überprüfen Sie, ob Ihr Unternehmen dedizierten Konferenz Bridge Telefonnummern benötigt; Wenn dies nicht der Fall ist, Ihrer Organisation kann optional freigegebenen Konferenz Bridge Telefonnummern verwenden.
+Wenn es um Servicenummern geht, müssen Sie Ihre Audiokonferenz-Implementierung sorgfältig planen. Überprüfen Sie, ob Ihr Unternehmen dedizierte Telefonnummern für Konferenz Brücken benötigt. Wenn dies nicht der Fall ist, kann Ihre Organisation für die Verwendung von freigegebenen Konferenz Brücken-Telefonnummern entscheiden.
 
-Weitere Informationen über die Gesamtzahl der Telefonnummern, die Sie herunterladen können, finden Sie unter [wie viele Rufnummern erhalten Sie?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
+Weitere Informationen zur Gesamtanzahl der Telefonnummern, die Sie erhalten können, finden Sie unter [wie viele Telefonnummern können Sie erhalten?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie die Standorte oder Büros, in dem neue Telefonnummern von Microsoft erfasst wird.</li><li>Legen Sie die Art der Telefonnummern von Microsoft erworben werden.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Standorte oder Büros, in dem neue Telefonnummern von Microsoft erfasst wird.</li><li>Dokumentieren Sie den Typ der Telefonnummern von Microsoft erworben werden.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, welche Benutzer Standorte oder Büros neue Telefonnummern von Microsoft erwerben sollen.</li><li>Entscheiden Sie, welche Telefonnummern von Microsoft erworben werden sollen.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Benutzer Standorte oder Niederlassungen, in denen neue Telefonnummern von Microsoft erworben werden.</li><li>Dokumentieren Sie die Art der Telefonnummern, die von Microsoft erworben werden sollen.</li></ul>|
 
-## <a name="transfer-existing-telephone-numbers"></a>Übertragen der vorhandenen Telefonnummern
+## <a name="transfer-existing-telephone-numbers"></a>Übertragen vorhandener Telefonnummern
 
-Wenn Ihre Organisation für die Übertragung (oder Port) einer vorhandenen Telefonnummern an Microsoft möchte, können Sie dazu Port Reihenfolge Microsoft eine Anforderung einreichen.
+Wenn Ihre Organisation vorhandene Telefonnummern an Microsoft übertragen (oder portieren) möchte, können Sie dies tun, indem Sie eine Portierungs Auftragsanforderung an Microsoft übermitteln.
 
-Sie können alle Ihre vorhandenen Telefonnummern gleichzeitig (vollständige Port) übertragen und – in einigen Märkten – Sie können eine Teilmenge der vorhandenen Telefonnummern (teilweise Port) übertragen. Ein partieller Port kann in Fällen nützlich sein, auf dem Sie einfach Ihre Einwahl Konferenzbrücke Audiokonferenzen Dienst verschieben möchten.
+Sie können alle Ihre vorhandenen Telefonnummern gleichzeitig übertragen (Vollständiger Port) und – in einigen Märkten – eine Teilmenge ihrer vorhandenen Telefonnummern (teilweiser Port) übertragen. Ein partieller Port kann hilfreich sein, wenn Sie Ihre Einwahlkonferenz Brücke nur in den Audiokonferenzdienst verschieben möchten.
 
-Eine einzelnen Port Reihenfolge kann nur die Telefonnummern an ein einzelnes Telefon übertragen. Wenn Sie einige Ihrer Telefonnummern als Abonnenten Zahlen und einige als Dienst Zahlen übertragen müssen, wird empfohlen, dass Sie zuerst die Weiterleitung an Microsoft abgeschlossen, und Sie dann die Konvertierung führen, sobald die Zahlen in der Kontrolle von Microsoft sind.
+Eine einzelne Portierungs Reihenfolge kann die Telefonnummern nur an einen einzigen Telefonnummerntyp übertragen. Wenn Sie einige ihrer Telefonnummern als Teilnehmer Nummern und einige als Servicenummern übertragen müssen, empfehlen wir, dass Sie zuerst die Übertragung an Microsoft durchführen und dann die Konvertierung durchführen, sobald die Nummern innerhalb der Microsoft-Steuerung sind.
 
-Als Alternative wenn partielle Port unterstützt wird, können Sie mehrere Port-Anfragen, einen Port Anforderung zu einem Zeitpunkt senden. Diese alternative Ansatz wird jedoch Ihrem Vertrag mit Ihren vorhandenen Telekommunikation Dienstanbieter verlängert.
+Wenn partieller Port unterstützt wird, können Sie alternativ mehrere Portanforderungen senden, eine Port Anforderung gleichzeitig. Dieser Alternative Ansatz verlängert jedoch ihren Vertrag mit Ihrem bestehenden Telekommunikationsdienstanbieter.
 
-Telefon Nummer Portieren ist ein komplexes Thema und erfordert gründliche Planung, Koordination und angemessen verwalten beteiligten erwartet. Finden Sie weitere Informationen finden Sie in den folgenden Artikeln:
+Das Portieren von Telefonnummern ist ein komplexes Thema und erfordert eine gründliche Planung, Koordination und angemessene Verwaltung der Erwartungen ihrer Stakeholder. Weitere Informationen finden Sie in den folgenden Artikeln:
 
--   [Übertragen von Telefonnummern zu Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
+-   [Übertragen von Telefonnummern an Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
 -   [Übertragen von Telefonnummern – häufig gestellte Fragen](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
@@ -310,56 +310,56 @@ Telefon Nummer Portieren ist ein komplexes Thema und erfordert gründliche Planu
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie die Standorte oder Büros, auf dem vorhandenen Telefonnummern an Microsoft übertragen wird.</li><li>Legen Sie die Art der Telefonnummern an Microsoft übertragen werden.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Standorte oder Büros, auf dem vorhandenen Telefonnummern an Microsoft übertragen wird.</li><li>Dokumentieren Sie den Typ der Telefonnummern an Microsoft übertragen werden.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie sich für die Benutzer Standorte oder Offices, in denen vorhandene Telefonnummern an Microsoft übertragen werden.</li><li>Entscheiden Sie, welche Telefonnummern an Microsoft übertragen werden sollen.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die Benutzer Standorte oder Niederlassungen, an denen vorhandene Telefonnummern an Microsoft übertragen werden.</li><li>Dokumentieren Sie die Art der Telefonnummern, die an Microsoft übertragen werden sollen.</li></ul>|
 
 <!--ENDOFSECTION-->
 
 ## <a name="dial-plans"></a>Wählpläne
 
-A Dial Plan im Telefonsystem Feature von Office 365 handelt es sich um eine Gruppe von Normalisierungsregeln, die übersetzt Rufnummern für Anrufberechtigungen und Anrufrouting in ein anderes Format (normalerweise e. 164-Format) gewählt. Der Audio-Konferenzdienst nutzt die gleichen Funktionen von Telefonsystem verwendet, um die gewählte Rufnummern in Konferenz Dial-Out-Szenarien (z. B. Teilnehmer einladen über PSTN und Rückruf, Feature "Rückruf") übersetzen.
+Ein Wählplan in der Telefon System Funktion von Office 365 ist eine Reihe von Normalisierungsregeln, die gewählte Telefonnummern in ein alternatives Format (in der Regel E. 164-Format) für die Anruf Autorisierung und das Anrufrouting übersetzt. Der Audiokonferenzdienst nutzt dieselben Funktionen, die vom Telefon System verwendet werden, um gewählte Telefonnummern in Szenarien für die Konferenz Auswahl zu übersetzen (zum Beispiel: einladen von Teilnehmern über PSTN und zurück wählen, "Anruf"-Funktion).
 
-In das Telefonsystem Feature von Office 365 gibt es zwei Arten von Wählplänen:
+In der Telefon System Funktion von Office 365 gibt es zwei Arten von Wählplänen:
 
--   **Service-Wählplan:** Dies ist die Standardeinstellung Wählplan, die auf Benutzer angewendet wird basierend auf deren Speicherort der Office 365-Verwendung und kann nicht geändert werden.
+-   **Dienst Wähl Plan:** Dies ist der Standard-Wählplan, der auf Benutzer basierend auf dem Standort der Office 365-Nutzung angewendet wird und nicht geändert werden kann.
 
--   **Mandanten Wählplan:** Dies ist eine anpassbare Wählplan innerhalb eines Mandanten liegen weiter in zwei Typen unterteilt werden:
+-   **Mandanten Wähl Plan:** Hierbei handelt es sich um einen anpassbaren Wählplan innerhalb eines Mandanten, der in zwei Arten unterteilt ist:
 
-    -   **Mandanten globale Wählplan:** Die Wähleinstellungen, die für alle Benutzer in den Mandanten gilt.
+    -   **Mandanten – globaler Wählplan:** Die Wähleinstellungen, die für alle Benutzer im Mandanten gelten.
 
-    -   **Mandanten benutzerwähleinstellungen:** Die Wähleinstellungen, die nur auf bestimmte Benutzer gilt.
+    -   **Mandanten-Benutzerwähleinstellungen:** Die Wähleinstellungen, die nur für bestimmte Benutzer gelten.
 
-Die effektive Wähleinstellungen, die Benutzern zugewiesen ist eine Kombination aus dem Dienst Wählplan (basierend auf den Standort eines Benutzers Office 365 Verwendung) und Mandanten Wählplan (können Mandanten globale Wählplan oder Mandanten benutzerwähleinstellungen sein).
+Der effektive Wählplan, der Benutzern zugewiesen ist, ist die Kombination aus dem Dienst Wählplan (basierend auf dem Office 365-Verwendungsstandort eines Benutzers) und dem Mandanten Wählplan (kann entweder Mandanten-globaler Wählplan oder Mandanten Wähl Plan sein).
 
-![Tabelle werden die drei Kombinationen Quality of Service und Mandanten Wählplänen.] (media/audio_conferencing_image8.png "Tabelle werden die drei Kombinationen Quality of Service und Mandanten Wählplänen.")
+![Tabelle zeigt drei Kombinationen von Wählplänen für Dienst-und Mandanten.] (media/audio_conferencing_image8.png "Tabelle zeigt drei Kombinationen von Wählplänen für Dienst-und Mandanten.")
 
 > [!Important]
-> In jeder Mandant Wähleinstellungen kann bis zu 25 Normalisierungsregeln sein. Daher ist es wichtig, zu vermeiden, Duplizierung von Normalisierungsregeln, die bereits verfügbar sind als Teil des Diensts Wählplan.
+> In jedem Mandanten-Wählplan können maximal 25 Normalisierungsregeln vorhanden sein. Daher ist es wichtig, zu vermeiden, dass Normalisierungsregeln dupliziert werden, die bereits im Rahmen des Dienst Wählplans verfügbar sind.
 
-Weitere Informationen zu Wählplänen finden Sie unter [Was Wählpläne sind?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
+Weitere Informationen zu Wählplänen finden Sie unter [Was sind Wählpläne?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Ihre Organisation angepasste Wählpläne (geschäftlichen Anforderungen, Annahme Anforderungen usw.) erforderlich sind.</li><li>Entscheiden, falls zutreffend, des Bereichs eines Mandanten Wählplans (Mandanten globalen oder Mandanten Benutzer) die für die Unterstützung für benutzerdefinierte Wählpläne.</li><li>Gegebenenfalls entscheiden, die Mandanten-Wählpläne, die Sie erstellen, um Standorte oder Büros unterstützt im Gültigkeitsbereich für die Cloud VoIP-Implementierung.</li><li>Gegebenenfalls entscheiden Sie, welche Benutzer benötigen, eine angepasste Wählplan und die Wähleinstellungen Mandanten für jeden Benutzer zugewiesen werden soll.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie angepasste Wählpläne und die zugehörigen Normalisierungsregeln als Teil der Cloud VoIP-Implementierung konfiguriert werden soll.</li><li>Dokumentieren Sie die Benutzer um einen benutzerdefinierten Wählplan und die Mandanten-Wähleinstellungen für jeden Benutzer zugewiesen werden zugewiesen werden.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Ihre Organisation angepasste Wählpläne erfordert (Geschäftsanforderungen, Adoptions Anforderungen usw.).</li><li>Falls zutreffend, entscheiden Sie über den Bereich der Mandanten Wähleinstellungen (Mandanten-Global oder Mandanten Benutzer), um die Anforderungen für angepasste Wählpläne zu unterstützen.</li><li>Falls zutreffend, entscheiden Sie die Mandanten-Wählpläne, die Sie erstellen, um die Benutzer Standorte oder Offices zu unterstützen, die im Bereich der Cloud-VoIP-Implementierung liegen.</li><li>Falls zutreffend, entscheiden Sie, für welche Benutzer ein benutzerdefinierter Wählplan erforderlich ist und welcher Mandanten-Wählplan für jeden Benutzer zugewiesen werden soll.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Nächste Schritte|<ul><li>Dokumentieren Sie die angepassten Wählpläne und die zugehörigen Normalisierungsregeln, die als Teil der Cloud-VoIP-Implementierung konfiguriert werden sollen.</li><li>Dokumentieren Sie die Benutzer, denen ein benutzerdefinierter Wählplan zugewiesen werden soll, und den Mandanten Wähl Plan, der für jeden Benutzer zugewiesen werden soll.</li></ul>|
 
 > [!TIP]
-> Wenn sie für Ihr Projekt gilt, können Sie die folgende Vorlage verwenden, um die Konfigurationen für den Mandanten Dial Plan zu dokumentieren.
+> Wenn Sie für Ihr Projekt gültig ist, können Sie die folgenden Vorlagen verwenden, um die Konfigurationen des Mandanten Wähl Plans zu dokumentieren.
 > 
 > |Name des Mandantenwählplans<br>_Beschreibung_  |Name der Normalisierungsregeln<br>_Beschreibung_  |Muster<br>Übersetzung<br>IsInternalExtension  |
 > |---------|---------|---------|
-> |**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, Wählplan für Australien_|**AU-NSW-NorthRyde-OER-Internal**<br>_Interne Nummer (x7000 - x7999) für One Epping Road-Niederlassung, North Ryde, NSW, Australien_|^(7\d{3})$<br>+6125550$1<br>True|
+> |**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, Wählplan für Australien_|**AU-NSW-NorthRyde-OER-Internal**<br>_Interne Nummer (x7000 - x7999) für One Epping Road-Niederlassung, North Ryde, NSW, Australien_|^ (7 \ d{3}) $<br>+6125550$1<br>True|
 > ||**AU-NSW-Local**<br>_Normalisierung für lokale Nummern für NSW, Australien_|^ ([2-9] \d{7}) $<br>+612$1<br>Falsch|
-> ||**AU-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Australien_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>Falsch|
+> ||**AU-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Australien_|^ (1 [38] \d{4,8}) \d * $<br>+61$1<br>Falsch|
 > ||**AU-Service**<br>_Normalisierung für Servicenummern für Australien_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>Falsch|
-> |**SG-Singapore-OMB**<br>_OMB Singapore, Wählplan für Singapur_|**SG-OMB-Internal**<br>_Interne Nummer (X8000 Â €"x 8999) für Office OMB, Singapur_|^(8\d{3})$<br>+656888$1<br>Wahr|
-> ||**SG-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Singapur_|^(1?800\d{7}) \d*$<br>+65$1<br>Falsch|
-> ||**SG-Service**<br>_Normalisierung für Servicenummern für Singapur_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>Falsch|
-> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, Wählplan für Frankreich_|**FR-39qdPR-Internal**<br>_Interne Nummer (X7000 Â €"x 7999) für 39 Quai du Président Roosevelt Office, Issy-Les-Moulineaux, Frankreich_|^(7\d{3})$<br>+3319999$1<br>Wahr|
-> ||**FR-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Frankreich_|^ 0?(80\d{7}) \d*$<br>+33$1<br>Falsch|
-> ||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>Falsch|
+> |**SG-Singapore-OMB**<br>_OMB Singapore, Wählplan für Singapur_|**SG-OMB-Internal**<br>_Interne Nummer (x8000 â € "x8999) für OMB Office, Singapur_|^ (8 \ d{3}) $<br>+656888$1<br>Wahr|
+> ||**SG-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Singapur_|^ (1?800 \ d{7}) \d * $<br>+65$1<br>Falsch|
+> ||**SG-Service**<br>_Normalisierung für Servicenummern für Singapur_|^ (1 \ d{3,4}\|9 \ d{2}) $<br>$1<br>Falsch|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, Wählplan für Frankreich_|**FR-39qdPR-Internal**<br>_Interne Nummer (x7000 â € "x7999) für 39 Quai du President Roosevelt Office, Issy-les-Moulineaux, Frankreich_|^ (7 \ d{3}) $<br>+3319999$1<br>Wahr|
+> ||**FR-TollFree**<br>_Normalisierung für gebührenfreie Nummern für Frankreich_|^ 0? (80 \ d{7}) \d * $<br>+33$1<br>Falsch|
+> ||**FR-Service**<br>_Normalisierung für Servicenummern für Frankreich_|^ (1 \ d{1,2}\|11 [68] \d{3}\|10 \ d{2}\|3 \ d{3}) $<br>$1<br>Falsch|
 
 <br>
 
@@ -383,9 +383,9 @@ Weitere Informationen zu Wählplänen finden Sie unter [Was Wählpläne sind?](h
 
 <!--ENDOFSECTION-->
 
-## <a name="document-service-decisions"></a>Dokument Service Entscheidungen 
+## <a name="document-service-decisions"></a>Dokumentdienst Entscheidungen 
 
-Verwenden Sie die Informationen aus den vorherigen Abschnitten dieses Artikels, um Ihre Entscheidungen Service zu dokumentieren. Im Allgemeinen enthält diese Dokumentation die folgenden Hauptabschnitte:
+Verwenden Sie die Informationen aus den vorherigen Abschnitten dieses Artikels, um Ihre Dienst Entscheidungen zu dokumentieren. Diese Dokumentation enthält im Allgemeinen die folgenden Hauptabschnitte:
 
 -   Aktivierungsliste für Audiokonferenzdienst-Standorte
 
@@ -399,7 +399,7 @@ Verwenden Sie die Informationen aus den vorherigen Abschnitten dieses Artikels, 
 
 -   Zuweisungen der Einstellungen für die Konferenzbrücke
 
--   Telefonnummern Erwerb Pläne
+-   Telefonnummern-akquisitionspläne
 
 -   Mandantenwählpläne
 
