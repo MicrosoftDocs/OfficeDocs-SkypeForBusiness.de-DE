@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 614ea6276a0bbfb131d344ecfbcd57c70d198c8a
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 84e7dde2da777fbc0b3c5fd120d4ee88b1f98ea1
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344717"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432613"
 ---
 # <a name="prepare-my-users"></a>Vorbereiten der Benutzer
 
@@ -48,8 +48,8 @@ Die folgende Abbildung ist ein Beispiel für eine Vision-to-Value-Anweisung für
 ![Tabelle mit zwei Spalten mit Sicht und Wert] (media/prepare-my-users-new-image1.png "Zweispaltige Tabelle mit Vision – Warum tun wir das? (Organisationsebene) auf der linken Seite und Wert – Was ist das für mich? (Benutzerebene) auf der rechten Seite")
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Haben Sie die Vorteile und den Nutzen für Ihre Benutzer in einer Weise artikuliert, die das Buy-in für diese neue Lösung gewinnt?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Erstellen Sie Ihre Vision-und Wert-Statements für den aktuellen Projektumfang, um sicherzustellen, dass Sie sich an Ihre Ziele anpassen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Haben Sie die Vorteile und den Nutzen für Ihre Benutzer in einer Weise artikuliert, die das Buy-in für diese neue Lösung gewinnt?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Erstellen Sie Ihre Vision-und Wert-Statements für den aktuellen Projektumfang, um sicherzustellen, dass Sie sich an Ihre Ziele anpassen.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -59,8 +59,8 @@ Die folgende Abbildung ist ein Beispiel für eine Vision-to-Value-Anweisung für
 Die organisatorische Bereitschaft hilft festzustellen, wie empfänglich (oder nicht) Ihre Benutzer sein können, ihre Arbeitsweise zu ändern. Wenn Sie wissen, wie Benutzer auf Veränderungen reagieren können, können Sie Ihre Organisation dazu veranlassen, Bedenken proaktiv zu behandeln, ihren Rollout-Plan für einen optimalen Empfang anzupassen und Benutzer zu identifizieren, die zu ihren Champions oder Ambassadoren werden, um die Änderung zu erleichtern.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Sind Benutzer bereit und bereit, zur neuen Lösung zu wechseln?</li><li>Haben Benutzer die Möglichkeit oder Kompetenz, die Änderung zu vereinfachen?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Verwenden Sie die folgenden Konversationsstarter, um die Kultur Ihrer Organisation zu verstehen, wenn es um Änderungen geht. Diese Informationen können Ihnen helfen, zu erfahren, wie viel Bekanntheit und Schulung Sie möglicherweise für Ihr Projekt implementieren müssen.
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Sind Benutzer bereit und bereit, zur neuen Lösung zu wechseln?</li><li>Haben Benutzer die Möglichkeit oder Kompetenz, die Änderung zu vereinfachen?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Verwenden Sie die folgenden Konversationsstarter, um die Kultur Ihrer Organisation zu verstehen, wenn es um Änderungen geht. Diese Informationen können Ihnen helfen, zu erfahren, wie viel Bekanntheit und Schulung Sie möglicherweise für Ihr Projekt implementieren müssen.
 </li></ul></td></tr>
 </table>
 
@@ -98,8 +98,8 @@ Die organisatorische Bereitschaft hilft festzustellen, wie empfänglich (oder ni
 Die Analyse auf Personenebene gibt Ihnen Verständnis für Ihre Benutzer Personen, Kohorten und Anwendungsfälle. Wenn Sie sich Zeit nehmen, um zu verstehen, wer Ihre Benutzer sind und wie Sie funktionieren, können Sie sicherstellen, dass Sie bei der Implementierung der Änderung über die erforderlichen Voraussetzungen verfügen. Dies kann gezieltes Messaging, Schulungen oder sogar Geräte wie Headsets und Webcams umfassen. So kann beispielsweise eine Führungskraft eine Einzelschulung erwarten, während die Mitarbeiter von Traveling Fields möglicherweise von einem Schulungsvideo profitieren, das Sie in ihrer Freizeit sehen können. Darüber hinaus kann Ihre Analyse auf Personenebene helfen zu erkennen, wer die neuen Funktionen heute verwenden soll, und wer am besten durch warten bedient werden kann.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Haben bestimmte Benutzer oder Kohorten eine Kern Abhängigkeit von dieser Lösung, um Ihre Arbeit effektiv zu erledigen?</li><li>Gibt es spezielle Anwendungsfälle, die durch die Verwendung dieser neuen Lösung vereinfacht werden können?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Kartennutzer Personas. Segmentieren Sie zunächst Ihre Benutzerbasis in persona/Kohorte-Gruppen (Führungskräfte, straßenkrieger, Mitarbeiter für die Zusammenarbeit, Einzelhandel usw.). Führen Sie für die Verwaltbarkeit nicht mehr als acht Gruppen auf. (Beispiele für Konversationsstarter finden Sie weiter unten.) Verwenden Sie Ihre Ergebnisse, um Ihre Benutzer Bereitschafts Kampagnen weiter zu gestalten und Pilotbenutzer von denjenigen zu segmentieren, die später von einem Upgrade profitieren könnten.
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Haben bestimmte Benutzer oder Kohorten eine Kern Abhängigkeit von dieser Lösung, um Ihre Arbeit effektiv zu erledigen?</li><li>Gibt es spezielle Anwendungsfälle, die durch die Verwendung dieser neuen Lösung vereinfacht werden können?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Kartennutzer Personas. Segmentieren Sie zunächst Ihre Benutzerbasis in persona/Kohorte-Gruppen (Führungskräfte, straßenkrieger, Mitarbeiter für die Zusammenarbeit, Einzelhandel usw.). Führen Sie für die Verwaltbarkeit nicht mehr als acht Gruppen auf. (Beispiele für Konversationsstarter finden Sie weiter unten.) Verwenden Sie Ihre Ergebnisse, um Ihre Benutzer Bereitschafts Kampagnen weiter zu gestalten und Pilotbenutzer von denjenigen zu segmentieren, die später von einem Upgrade profitieren könnten.
 </li><li>Zuordnungs Anwendungsfälle Nachdem Sie Kern Benutzergruppen identifiziert haben, die von dieser neuen Technologie profitieren werden, sollten Sie die allgemeine Benutzerpopulation in Frage stellen. Wenn Sie teamübergreifende Anwendungsfälle und Szenarien verstehen, können Sie Ihre Organisation, die mit dieser neuen Technologie arbeitet, visualisieren. Darüber hinaus hilft Ihnen das Hinzufügen von Anwendungsfall Beispielen zu ihren Kommunikations-und Schulungsplänen wirklich, damit Sie für Ihre Benutzer relevant sind.</li></ul></td></tr>
 </table>
 
@@ -125,7 +125,7 @@ Besprechen Sie für jede Persona-Gruppe Folgendes mit Ihrem Projektteam:
 
 Die folgende Abbildung zeigt ein Beispiel für eine persona-Tabelle.
 
-![Tabelle mit Personen mit ihren allgemeinen Rollen sowie Abhängigkeiten zwischen Kommunikations-und Zusammenarbeitslösungen. Die Exekutive Person ist mit Details zu dem Profil (Tag im Leben) und den Features, Geräten und Schulungen, die eine Führungskraft benötigt, hervorgehoben.] (media/prepare-my-users-image2.png "Tabelle mit Personen mit ihren allgemeinen Rollen sowie Abhängigkeiten zwischen Kommunikations-und Zusammenarbeitslösungen. Die Exekutive Person ist mit Details zu dem Profil (Tag im Leben) und den Features, Geräten und Schulungen, die eine Führungskraft benötigt, hervorgehoben.")
+![Tabelle mit Persona-Details] (media/prepare-my-users-image2.png "Tabelle mit Personen mit ihren allgemeinen Rollen sowie Abhängigkeiten zwischen Kommunikations-und Zusammenarbeitslösungen. Die Exekutive Person ist mit Details zu dem Profil (Tag im Leben) und den Features, Geräten und Schulungen, die eine Führungskraft benötigt, hervorgehoben.")
 
 Besprechen Sie für jeden Anwendungsfall Folgendes mit Ihrem Projektteam:
 
@@ -145,8 +145,8 @@ Beispiele für Anwendungsfälle finden Sie in der [Bibliothek zur Produktivität
 Nachdem Sie verstanden haben, wer Ihre Benutzer sind und wie Sie in der neuen Lösung funktionieren, können Sie Ihren Bereitschaftsplan entwerfen. Ihr Bereitschaftsplan für Benutzer umfasst die Art und Weise, wie Sie Ihre Benutzer bei der Vorführung, beim Einstieg und beim Betrieb der neuen Lösung kommunizieren, Schulen und unterstützen. Wie Sie in den vorherigen Schritten in diesem Artikel festgestellt haben, ist die Bereitschaft nicht 1:1-passend. Beginnen Sie mit einem breit gefächerten Sensibilisierungs-und Schulungsplan, in dem die zu Beginn dieses Prozesses definierten Wert Nachrichten integriert sind. Passen Sie dann nach Bedarf Ihre Nachrichten, Schulungen und Unterstützung an die von Ihnen festgelegten Personas oder Kohorten an. Ihr personalisierter Plan ermöglicht es Benutzern, sich schneller mit der neuen Lösung zu befassen, während Sie demonstrieren, dass Sie Ihre Anforderungen verstehen, was dazu beitragen wird, den Übergang zu erleichtern.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Welchen Bereitschaftsplan können Sie anbieten, um die Einführung der neuen Lösung zu vereinfachen und zu beschleunigen?</li><li>Verfügen Sie über die richtigen Kenntnisse, Schulungen und Supportressourcen, die sich an der Fähigkeit Ihrer Benutzer orientieren, sich mit Änderungen und den von Ihnen definierten Benutzer Personen zu befassen?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Verwenden Sie die Liste im folgenden Abschnitt, um Ideen für Ihren Bereitschaftsplan zu generieren. Wählen Sie die relevantesten&mdash;aus, oder fügen&mdash;Sie eigene hinzu, um einen für Ihre Organisation optimierten Bereitschaftsplan zu entwerfen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Welchen Bereitschaftsplan können Sie anbieten, um die Einführung der neuen Lösung zu vereinfachen und zu beschleunigen?</li><li>Verfügen Sie über die richtigen Kenntnisse, Schulungen und Supportressourcen, die sich an der Fähigkeit Ihrer Benutzer orientieren, sich mit Änderungen und den von Ihnen definierten Benutzer Personen zu befassen?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Verwenden Sie die Liste im folgenden Abschnitt, um Ideen für Ihren Bereitschaftsplan zu generieren. Wählen Sie die relevantesten&mdash;aus, oder fügen&mdash;Sie eigene hinzu, um einen für Ihre Organisation optimierten Bereitschaftsplan zu entwerfen.</li></ul></td></tr>
 </table>
 
 ### <a name="readiness-plan-ideas"></a>Ideen zum Bereitschaftsplan

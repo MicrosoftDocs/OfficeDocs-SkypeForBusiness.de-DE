@@ -5,22 +5,22 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
-description: Das Cmdlet „Get-CcSiteDirectory“ zeigt das aktuelle Verzeichnis an, in dem die Konfigurationsdateien auf Standortebene gespeichert werden. Der Ordner enthält die Installationsdateien für die Basis-VHD und für Skype for Business Cloud Connector Edition. In diesem Ordner sollten für alle anderen Einheiten einer Cloud-Connector-Website freigegeben werden.
-ms.openlocfilehash: d0869f3cbd1c43e523107a0ff8dce6fd769889a8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Das Cmdlet „Get-CcSiteDirectory“ zeigt das aktuelle Verzeichnis an, in dem die Konfigurationsdateien auf Standortebene gespeichert werden. Der Ordner enthält die Installationsdateien für die Basis-VHD und für Skype for Business Cloud Connector Edition. Dieser Ordner sollte für alle anderen Appliances einer Cloud Connector-Website freigegeben werden.
+ms.openlocfilehash: e0b8a793f0210535a726b0bed19f240bf8b30dd9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233764"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287300"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  
-Das Cmdlet „Get-CcSiteDirectory“ zeigt das aktuelle Verzeichnis an, in dem die Konfigurationsdateien auf Standortebene gespeichert werden. Der Ordner enthält die Installationsdateien für die Basis-VHD und für Skype for Business Cloud Connector Edition. In diesem Ordner sollten für alle anderen Einheiten einer Cloud-Connector-Website freigegeben werden.
+Das Cmdlet „Get-CcSiteDirectory“ zeigt das aktuelle Verzeichnis an, in dem die Konfigurationsdateien auf Standortebene gespeichert werden. Der Ordner enthält die Installationsdateien für die Basis-VHD und für Skype for Business Cloud Connector Edition. Dieser Ordner sollte für alle anderen Appliances einer Cloud Connector-Website freigegeben werden.
   
 Dieses Cmdlet gilt für Cloud Connector Edition 1.4.1 und 1.4.2.
   
@@ -37,7 +37,7 @@ Keine
 
 ### <a name="example-1"></a>Beispiel 1
 
-Im folgenden Beispiel wird den aktuellen Ordner, in dem die Konfiguration und virtuelle Computer Dateien Cloud Connector Komponenten gespeichert sind:
+Das folgende Beispiel zeigt den aktuellen Ordner, in dem die Konfigurations-und Virtual Machines-Dateien von Cloud Connector-Komponenten gespeichert sind:
   
 ```
 Get-CcSiteDirectory
@@ -46,7 +46,7 @@ Get-CcSiteDirectory
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Um Gateway Affinität und hohe Verfügbarkeit zu ermöglichen, können in Websites Cloud Connector Appliances kombiniert werden. Benutzer werden anstelle von Cloud-Connector Appliances zugewiesen. Jeder Standort verfügt über einen freigegebenen Ordner, in dem die Installationsdateien für die Basis-VHD und für Cloud Connector gespeichert sind. Verwenden Sie diesen Ordner Appliances während der Bereitstellung. Der Standardordner ist C:\Users\%userprofile%\CloudConnector\SiteRoot. Sie können den Pfad mit dem Cmdlet „Set-CcSiteDirectory“ ändern.
+Zur Bereitstellung von Gateway-Affinität und höchst Verfügbarkeit können Cloud Connector-Appliances in Websites kombiniert werden. Benutzer werden Websites anstelle von Cloud Connector-Appliances zugewiesen. Jeder Standort verfügt über einen freigegebenen Ordner, in dem die Installationsdateien für die Basis-VHD und für Cloud Connector gespeichert sind. Appliances verwenden diesen Ordner während der Bereitstellung. Der Standardordner lautet C:\Users\%USERPROFILE%\CloudConnector\SiteRoot. Sie können den Pfad mit dem Cmdlet „Set-CcSiteDirectory“ ändern.
   
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>

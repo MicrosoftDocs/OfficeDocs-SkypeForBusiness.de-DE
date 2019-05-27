@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Cloud-Telefonzentralen für eine effiziente Anrufbehandlung in Ihrer Organisation einrichten und testen.
-ms.openlocfilehash: d4889f7a33306c970b73651bcaafe9f3e2c8009b
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 892285e2e720e300d9b935f017dedca96e45b411
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330924"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432896"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Einrichten einer automatischen Cloudtelefonzentrale
 
@@ -65,35 +65,35 @@ Klicken Sie im **Microsoft Teams Admin Center**auf **Automatische Voicemail** > 
 
 #### <a name="general-info-page"></a>Seite "Allgemeine Informationen"
 
-![New auto attendant page 1.](media/edacec94-9384-4a87-be0a-5c49a151287e.png)
+![Screenshot der Seite "meine automatische Telefonzentrale"](media/edacec94-9384-4a87-be0a-5c49a151287e.png)
 
 * * *
 
-![Nummer 1](media/sfbcallout1.png)
+![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
 **Name** Geben Sie einen aussagekräftigen Anzeige Namen für Ihre automatische Telefonzentrale ein. Der Name ist erforderlich und kann maximal 64 Zeichen einschließlich Leerzeichen enthalten. Er wird in der Spalte **Name** der Registerkarte **Automatische Telefonzentralen** aufgeführt.
 
 * * *
 
-![Nummer 2](media/sfbcallout2.png)
+![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout2.png)
 
 **Ressourcenkonto** Klicken Sie auf diese Schaltfläche, um ein oder mehrere Ressourcenkonten auszuwählen, um eine Verbindung mit der neuen automatischen Telefonzentrale herzustellen. Für alle automatischen Telefonzentralen ist ein zugeordnetes Ressourcenkonto erforderlich. Ein Ressourcenkonto kann eine Telefonnummer haben, die dem Konto zugeordnet ist, aber möglicherweise nicht. Eine automatische Telefonzentrale der obersten Ebene verfügt in der Regel über ein Ressourcenkonto mit einer zugewiesenen Telefonnummer, aber eine geschachtelte automatische Telefonzentrale (wird als Menü der Ebene 2 verwendet, mit dem die automatische Telefonzentrale eine Verbindung herstellt) möglicherweise nicht über eine Telefonnummer, die dem Ressourcenkonto zugeordnet ist.
 
 * * *
 
-![Nummer 3](media/sfbcallout3.png)
+![Symbol der Zahl 3, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout3.png)
 
 **Zeitzone**: Sie müssen die Zeitzone für Ihre automatische Telefonzentrale festlegen. Die Zeitzone muss jedoch nicht der Zeitzone der für Ihre Organisation angegebenen Hauptadresse entsprechen. Sie können für jede automatische Telefonzentrale eine andere Zeitzone festlegen. Die Geschäftszeiten für die automatische Telefonzentrale werden basierend auf der Zeitzone festgelegt, die Sie hier auswählen.
 
 * * *
 
-![Nummer 4](media/sfbcallout4.png)
+![Symbol der Zahl 4, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout4.png)
 
 **Sprache**: Wählen Sie unter den aufgeführten verfügbaren Sprachen die Sprache aus, die Sie für die automatische Telefonzentrale verwenden möchten. Bei der hier festgelegten Sprache handelt es sich um die Sprache, die von der automatischen Telefonzentrale für die Interaktion mit Personen verwendet wird, die diese automatische Telefonzentrale anrufen, und alle Systemansagen werden in dieser Sprache wiedergegeben.
 
 * * *
 
-![Nummer 5](media/sfbcallout5.png)
+![Symbol der Zahl 5, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout5.png)
 
 **Operator**: Diese Einstellung ist optional und muss für die automatische Telefonzentrale nicht festgelegt werden. Sie können allerdings die Option " **Operator** " für Personen einrichten, die in der Lage sind, die Menüs auszubrechen, um mit einer Person zu sprechen, um Ihnen zu helfen.
 
@@ -113,7 +113,7 @@ Als Vermittlung können Sie Folgendes festlegen:
 
 * * *
 
-![Nummer 6](media/sfbcallout6.png)
+![Symbol der Zahl 6, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout6.png)
 
 **Aktivieren von Spracheingaben** Wenn diese Option ausgewählt ist, steht die Spracherkennung zur Verfügung. Personen, die sich einwählen, können die Spracheingabe in der von [Ihnen festgelegten Sprache](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)verwenden. Sie können die Spracherkennung deaktivieren, indem Sie Sie auf aus setzen, wenn Sie nur Personen Ihre Telefontastatur verwenden lassen möchten.
 
@@ -125,17 +125,17 @@ Wenn Sie Ihre Auswahl getroffen haben, klicken Sie auf **weiter**.
 
 Standardmäßig sind die Geschäftszeiten von Montag bis Freitag auf 9:00 Uhr bis 17:00 Uhr eingestellt.  Alle Zeiten, die nicht innerhalb der Geschäftszeiten liegen, werden als außerhalb der Geschäftszeiten angesehen. Sie können auf **24/7 auswählen** klicken, um die Geschäftszeiten für alle Stunden zu übernehmen. Wenn Sie die Option **24/7 auswählen** auswählen, wird die Seite **After Hours-Anrufeinstellungen** verwendet, um die Anrufbehandlung für die automatische Telefonzentrale für After Business Hours zu konfigurieren.
 
-![New auto attendant Hours of operation.](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
+![Screenshot der Seite "Geschäftszeiten"](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
 * * *
 
-![Nummer 1](media/sfbcallout1.png)
+![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
 Standardmäßig sind die Geschäftszeiten auf Montag bis Freitag, 9:00 Uhr-5:00 Uhr, eingestellt. Wählen Sie die Option **alle Stunden löschen** aus, um die Auswahl aller Stunden Stunden im Terminplan aufzuheben. Wenn Sie **auf Standard zurücksetzen**klicken, werden die Geschäftszeiten auf Montag bis Freitag 9:00 Uhr-5:00 Uhr zurückgesetzt.
 
 * * *
 
-![Nummer 2](media/sfbcallout2.png)
+![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout2.png)
 
 Um Geschäftszeiten zu ändern, markieren Sie die Geschäftszeiten, die Sie einstellen möchten, im Kalender. Der Kalender ermöglicht Ihnen die Auswahl von Geschäftszeiten in Abständen von 30 Minuten, und die Geschäftszeiten, die Sie hier auswählen, werden entsprechend der Zeitzone eingestellt, die Sie auf der Seite „ **Allgemeine Daten“** festlegen. Um eine Pause (beispielsweise eine Mittagspause) einzurichten, deaktivieren, oder ziehen Sie zum Deaktivieren die Zeit im Kalender. Sie können innerhalb der Geschäftszeiten mehrere Pausen festlegen.
 
@@ -150,12 +150,12 @@ Wenn Sie Ihre Auswahl getroffen haben, klicken Sie auf **weiter**.
 
 Sie können Begrüßungen, Eingabeaufforderungen und Menüs einrichten, die Personen, die sich in der Telefonnummer der automatischen Telefonzentrale Ihrer Organisation einwählen, während der Geschäftszeiten hören.
 
-![Anrufbehandlung in Geschäftszeiten. ](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
-Anrufbehandlung während der Geschäftszeiten fort ![gesetzt.](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
+![Screenshot des Abschnitts "Begrüßungs](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
+![Bildschirm der Geschäftszeiten-Anrufbehandlung" im Abschnitt "Geschäftszeiten-Anrufbehandlung"](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
 
 * * *
 
-![Nummer 1](media/sfbcallout1.png)
+![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
 **Gruß** Eine Begrüßung in Geschäftszeiten ist optional und kann auf **keine Ansage**eingestellt werden. In diesem Fall hört der Anrufer keine Nachricht oder Begrüßung, bevor der Anruf von einer der von Ihnen ausgewählten Aktionen bearbeitet wird. Sie können auch eine Audiodatei hochladen (im WAV-, MP3- oder WMA-Format) oder eine benutzerdefinierte Begrüßung der Sprachausgabe verwenden.
 
@@ -165,7 +165,7 @@ Anrufbehandlung während der Geschäftszeiten fort ![gesetzt.](media/2a33b1f7-d3
 
 * * *
 
-![Nummer 2](media/sfbcallout2.png)
+![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout2.png)
 
 Sie können auswählen, was mit Anrufen geschieht, die während der Geschäftszeiten eingehen. Sie können aus den folgenden Aktionen auswählen:
 
@@ -184,13 +184,13 @@ Sie können auswählen, was mit Anrufen geschieht, die während der Geschäftsze
 
 * * *
 
-![Nummer 3](media/sfbcallout3.png)
+![Symbol der Zahl 3, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout3.png)
 
 **Menü Aufforderung** Zum Erstellen der Eingabeaufforderung im Hauptmenü können Sie entweder Text-zu-Sprache verwenden oder eine Audiodatei (WAV, MP3 oder WMA) hochladen. Sie können die Eingabeaufforderung im Feld **Menünavigation für Anrufer einrichten** eingeben oder eine Audiodatei aufzeichnen und beispielsweise Folgendes sagen: "für Verkäufe sagen oder drücken oder sagen Sie" 1 ". Wenn Sie Dienste nutzen, drücken oder sagen Sie "2". Drücken oder sagen Sie für den Kundendienst 3. Drücken oder sagen Sie für den Operator 0. Wenn Sie dieses Menü wieder hören möchten, drücken Sie die Sterntaste oder sagen Sie wiederholen. " **Eingeben einer Grußnachricht** Wenn Sie diese Option ausgewählt haben, sollten Sie den Text eingeben, der vom System gelesen werden soll (bis zu 1000 Zeichen). **Hochladen einer Audiodatei** Wenn Sie diese Option ausgewählt haben, müssen Sie die Begrüßung aufzeichnen und dann Ihre Audiodatei (im WAV-, MP3-oder WMA-Format) hochladen.
 
 * * *
 
-![Nummer 4](media/sfbcallout4.png)
+![Symbol der Zahl 4, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout4.png)
 
 **Setup für Menü Optionen** Menü Optionen mit Tasten Schaltflächen auf der Tastatur können hinzugefügt oder entfernt werden. Drücken Sie **+ Zuweisen einer Wähl Taste**, um eine Menüoption hinzuzufügen. Unten wird eine entsprechende Zeile mit Optionen angezeigt. Um eine Menüoption zu löschen, klicken Sie einfach links neben der entsprechenden Taste auf der Tastatursteuerung, und klicken Sie oben auf das Symbol Löschen. Die Zeile der Tastenzuordnung wird entfernt.
 
@@ -223,7 +223,7 @@ Wenn Sie Ihre Menü Optionen einrichten möchten, müssen Sie, nachdem Sie die W
 
 * * *
 
-![Nummer 5](media/sfbcallout5.png)
+![Symbol der Zahl 5, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout5.png)
 
 **Wählen nach Name** Wenn Sie diese Option auswählen, können Personen, die in Ihrer Organisation anrufen, mithilfe der Verzeichnissuche nach Personen suchen. Sie können auswählen, welche Personen für die Namensanwahl als verfügbar oder nicht verfügbar aufgelistet werden, indem Sie diese Optionen auf der Seite **Wählbereich** einrichten. Jeder Online-Benutzer mit einer **Telefonsystem**-Lizenz oder ein beliebiger Benutzer der vor Ort gehostet wird und den Skype for Business Server 2015 oder den Lync Server 2013 verwenden, finden Sie unter nach Namen wählen.
 
@@ -239,9 +239,9 @@ Sie können jeder automatische Telefonzentrale bis zu 20 geplante Feiertage hinz
 > [!TIP]
 > Sie können den Bildschirm bei den **organisationsweiten Einstellungen** > **** für Feiertage öffnen, um Feiertage zu erstellen, oder Sie können Sie im Rahmen des Erstellens eines neuen Anruf Handlers erstellen.
 
-![Einrichten von Feiertagen in der automatischen Telefonzentrale](media/50a5ce88-7f39-4210-808a-da7ced969854.png)
+![Screenshot der Seite "Feiertags Anrufeinstellungen"](media/50a5ce88-7f39-4210-808a-da7ced969854.png)
 
-![Nummer 1](media/sfbcallout1.png)
+![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
 Wenn Sie bereits andere automatische Telefonzentralen erstellt haben, wird möglicherweise eine Option angezeigt, die Sie verwenden oder bearbeiten können, in der Liste, die Sie benötigen. Wenn dies nicht der Fall ist, müssen Sie einen neuen Anruf Handler erstellen.
 
@@ -249,19 +249,19 @@ Wenn Sie einen neuen Anruf Handler hinzufügen möchten, klicken Sie auf **+ Neu
 
 * * *
 
-![Einrichten von Feiertagen in der automatischen Telefonzentrale fortgesetzt](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
+![Screenshot mit dem Hinzufügen eines neuen Anruf Handlers](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
 
-![Nummer 1](media/sfbcallout1.png)
+![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
 Geben Sie im Fenster neu einen Namen für den neuen Anruf Handler am oberen Rand des Bildschirms ein.
 
-![Nummer 2](media/sfbcallout2.png)
+![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout2.png)
 
 Wenn der Name Ihres Feiertags bereits in der Dropdown-Liste " **Feiertag** " vorhanden ist, können Sie ihn verwenden. Wenn der gewünschte Feiertagsname noch nicht vorhanden ist, wählen Sie in der Pulldown-Liste **neue Feiertage erstellen** aus, und weisen Sie dem neuen Bildschirm, der angezeigt wird, einen Namen und ein Datum für den neuen Feiertag zu. Klicken Sie auf **Speichern** , wenn Sie fertig sind.
 
 Feiertags-Namen können bis zu 64 Zeichen lang sein und müssen für die gleiche Telefonzentrale eindeutig sein. Beispielsweise können Sie in derselben automatischen Telefonzentrale keine zwei Feiertage mit dem Namen „Thanksgiving“ haben.
 
-![Nummer 3](media/sfbcallout3.png)
+![Symbol der Zahl 3, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout3.png)
 
 **Gruß** Die Begrüßung ist optional und kann auf **keine Grußformel**eingestellt werden. In diesem Fall hört der Anrufer keine Meldung oder die Ansage, bevor der Anruf durch eine der Optionen verarbeitet wird, die Sie auswählen. Sie können auch eine Audiodatei hochladen (im WAV-, MP3- oder WMA-Format) oder eine benutzerdefinierte Begrüßung der Sprachausgabe verwenden.
 
@@ -269,7 +269,7 @@ Feiertags-Namen können bis zu 64 Zeichen lang sein und müssen für die gleiche
 - **Hochladen einer Audiodatei** Wenn Sie diese Option auswählen, notieren Sie den Feiertags Gruß, und laden Sie dann Ihre Audiodatei (im WAV-, MP3-oder WMA-Format) hoch.
 - **Eingeben einer Grußnachricht** Wenn Sie diese Option auswählen, geben Sie den Text ein, der vom System gelesen werden soll (bis zu 1000 Zeichen). Beispielsweise können Sie „Frohes Neues Jahr!“, unsere Büros sind derzeit geschlossen“ Geben Sie im Feld **Grußnachrichten ein** .
 
-![Nummer 4](media/sfbcallout4.png)
+![Symbol der Zahl 4, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout4.png)
 
 **Aktionen** Sie können auswählen, was mit den anrufen passiert, die in diesem Feiertag ankommen. Sie können aus den folgenden Optionen wählen:
 
@@ -290,18 +290,18 @@ Feiertags-Namen können bis zu 64 Zeichen lang sein und müssen für die gleiche
 
 Auf dieser Seite können Sie festlegen, welche Benutzer in Ihrer Organisation in Ihrem Verzeichnis aufgeführt und für die Wahl nach Namen verfügbar sein sollen, wenn eine Person, die sich in Ihre Organisation einwählt.
 
-![Dial scope for searching with dial by name.](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
+![Screenshot mit der Seite "Wählbereich"](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
 
 * * *
 
-![Zahl 1](media/sfbcallout1.png) mit der Option " **einbeziehen** " haben Sie zwei Möglichkeiten:
+![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot](media/sfbcallout1.png) mit der Option " **einbeziehen** " verweist, haben Sie zwei Möglichkeiten:
 
 - **Alle Onlinebenutzer**: Wenn Sie diese Option verwenden, können alle Benutzer in Ihrer Organisation in eine Verzeichnissuche eingeschlossen werden. Alle Online-Benutzer mit einer **Telefonsystem**-Lizenz und auch lokal gehostete Benutzer, die den Skype for Business Server 2015 oder den Lync Server 2013 verwenden, die Anruf-Pläne in Office 365 haben, werden aufgeführt.
 - **Benutzerdefinierte Benutzergruppe** Wenn Sie diese Option verwenden, können Sie nach einer Office 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe suchen, die in Ihrer Organisation erstellt wurde, und den Personen, die zu dieser Office 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe hinzugefügt wurden, die entweder **Online-Benutzer mit einem Telefon System Lizenz** oder lokal gehostet mit Skype for Business Server 2015 oder lync Server 2013. Sie können mehrere Office 365-Gruppen, Verteilerlisten und Sicherheitsgruppen hinzufügen.
 
 * * *
 
-![Nummer 2](media/sfbcallout2.png)
+![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout2.png)
 
 Mit der Option **ausschließen** haben Sie zwei Möglichkeiten:
 

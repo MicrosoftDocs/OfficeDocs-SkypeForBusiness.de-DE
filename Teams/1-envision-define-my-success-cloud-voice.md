@@ -15,12 +15,12 @@ MS.collection:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e58bfdcff9b87d343de39f00e6ac45254203092b
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 96fb3a0031b27b331dbc6424650f101b0f0a34f3
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343930"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433096"
 ---
 # <a name="define-my-success"></a>Definieren der Erfolgskriterien
 
@@ -94,8 +94,8 @@ Um die Projektgrenzen festzulegen, sollten Sie nicht nur Ihre geschäftlichen An
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> |Entscheidungspunkte|<ul><li>Was sind die Unternehmens-Anwendungsfälle für Audiokonferenzen, die Sie in Ihrer Organisation identifizieren können?</li><li>Was sind alle Geschäfts Anwendungsfälle für Anrufpläne, die Sie in Ihrer Organisation identifizieren können?</li><li>Was sind alle Geschäfts Anwendungsfälle für das direkte Routing, das Sie in Ihrer Organisation identifizieren können?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|Nächste Schritte|<ul><li>Dokumentieren Sie alle Business Use Cases für Audiokonferenzen für Ihre Organisation.</li><li>Dokumentieren Sie alle Geschäfts Anwendungsfälle für Anrufpläne für Ihre Organisation.</li><li>Dokumentieren Sie alle Geschäfts Anwendungsfälle für das direkte Routing für Ihre Organisation.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |Entscheidungspunkte|<ul><li>Was sind die Unternehmens-Anwendungsfälle für Audiokonferenzen, die Sie in Ihrer Organisation identifizieren können?</li><li>Was sind alle Geschäfts Anwendungsfälle für Anrufpläne, die Sie in Ihrer Organisation identifizieren können?</li><li>Was sind alle Geschäfts Anwendungsfälle für das direkte Routing, das Sie in Ihrer Organisation identifizieren können?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Nächste Schritte|<ul><li>Dokumentieren Sie alle Business Use Cases für Audiokonferenzen für Ihre Organisation.</li><li>Dokumentieren Sie alle Geschäfts Anwendungsfälle für Anrufpläne für Ihre Organisation.</li><li>Dokumentieren Sie alle Geschäfts Anwendungsfälle für das direkte Routing für Ihre Organisation.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -129,8 +129,8 @@ Zu den im vorherigen Schritt definierten Geschäfts Anwendungsfällen gehören e
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|Entscheidungspunkte|<ul><li>Wer füllt die einzelnen wichtigen Stakeholder-Rollen für Ihre Organisation aus?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|Nächste Schritte|<ul><li>Dokumentieren Sie alle wichtigen Stakeholder, und kommunizieren Sie die Zuständigkeiten und Erwartungen der Rolle an jede zugewiesene Person.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Entscheidungspunkte|<ul><li>Wer füllt die einzelnen wichtigen Stakeholder-Rollen für Ihre Organisation aus?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Nächste Schritte|<ul><li>Dokumentieren Sie alle wichtigen Stakeholder, und kommunizieren Sie die Zuständigkeiten und Erwartungen der Rolle an jede zugewiesene Person.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -222,8 +222,8 @@ Sie müssen Geschäftsrisiken im Rahmen dieser Übung ermitteln und einen Minder
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|Entscheidungspunkte|<ul><li>Was sind Ihre organization& # 39; s OKRs und KSIs?</li><li>Welche Risiken sind für die Implementierung von Audiokonferenzen in Ihrer Organisation relevant? Was sind die Abschwächungs Pläne für die identifizierten Risiken?</li><li>Welche Risiken haben Sie für die Implementierung von Anrufplänen in Ihrer Organisation als relevant identifiziert? Was sind die Abschwächungs Pläne für die identifizierten Risiken?</li><li>Welche Risiken sind für die Implementierung des direkten Routings in Ihrer Organisation relevant? Was sind die Abschwächungs Pläne für die identifizierten Risiken?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|Nächste Schritte|<ul><li>Dokumentieren Sie die OKRs und KSIs, und legen Sie das risikoregister fest.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Entscheidungspunkte|<ul><li>Was sind Ihre organization& # 39; s OKRs und KSIs?</li><li>Welche Risiken sind für die Implementierung von Audiokonferenzen in Ihrer Organisation relevant? Was sind die Abschwächungs Pläne für die identifizierten Risiken?</li><li>Welche Risiken haben Sie für die Implementierung von Anrufplänen in Ihrer Organisation als relevant identifiziert? Was sind die Abschwächungs Pläne für die identifizierten Risiken?</li><li>Welche Risiken sind für die Implementierung des direkten Routings in Ihrer Organisation relevant? Was sind die Abschwächungs Pläne für die identifizierten Risiken?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Nächste Schritte|<ul><li>Dokumentieren Sie die OKRs und KSIs, und legen Sie das risikoregister fest.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -263,8 +263,8 @@ Das Lenkungskomitee tagt zu einem wiederkehrenden Intervall während der gesamte
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob ein Lenkungsausschuss für Ihre Organisation erforderlich ist.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|Nächste Schritte|<ul><li>Mitglieder des Lenkungsausschusses ermitteln.</li><li>Planen von Sitzungen des Lenkungsausschusses</li><li>Vorbereiten der Sitzungen des Lenkungsausschusses</li><li>Sitzungen des Lenkungsausschusses abhalten.</li><li>Ergreifen von Maßnahmen auf der Grundlage des Inputs der Sitzung des Lenkungsausschusses</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob ein Lenkungsausschuss für Ihre Organisation erforderlich ist.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Nächste Schritte|<ul><li>Mitglieder des Lenkungsausschusses ermitteln.</li><li>Planen von Sitzungen des Lenkungsausschusses</li><li>Vorbereiten der Sitzungen des Lenkungsausschusses</li><li>Sitzungen des Lenkungsausschusses abhalten.</li><li>Ergreifen von Maßnahmen auf der Grundlage des Inputs der Sitzung des Lenkungsausschusses</li></ul>|
 
 Weitere detaillierte Anleitungen zum Betrieb eines ordnungsgemäßen Lenkungsausschusses finden Sie im Leitfaden für das [Lenkungskomitee](envision-steering-committee-complete-guide.md).
 

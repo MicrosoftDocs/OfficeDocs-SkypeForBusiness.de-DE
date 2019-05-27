@@ -16,45 +16,45 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82e36e768b3e9edbf79204141540034344fb5aec
-ms.sourcegitcommit: d1b14268efe334aa93a6889f25fcfe46e07d5daa
+ms.openlocfilehash: e61a4456d926c8d939769e49968a79943c1138b4
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33584233"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433279"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Verwalten des Benutzerzugriffs auf Microsoft Teams
 =====================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Auf Benutzerebene kann Zugriff auf Microsoft-Teams, aktiviert oder deaktiviert für jeden Benutzer einzeln durch Zuweisen oder Entfernen von der Microsoft-Teams-Lizenz werden.
+Auf Benutzerebene kann der Zugriff auf Microsoft Teams für einzelne Benutzer aktiviert oder deaktiviert werden, indem die Microsoft Teams-Produktlizenz zugewiesen oder entfernt wird.
 
-Verwenden Sie Messagingrichtlinien verwaltete aus der Verwaltungskonsole Teams steuern, welche Chat und Channel messaging-Funktionen für Benutzer in Teams verfügbar sind. Sie können die Standardrichtlinie verwenden oder einen oder mehrere benutzerdefinierte Messagingrichtlinien für Personen in Ihrer Organisation erstellen. Weitere Informationen finden lesen Sie [Messagingrichtlinien in Teams verwalten](messaging-policies-in-teams.md).
+Verwenden Sie im Team Admin Center verwaltete Nachrichtenrichtlinien, um zu steuern, welche Chat-und Kanal-Messaging Features Benutzern in Teams zur Verfügung stehen. Sie können die Standardrichtlinie verwenden oder eine oder mehrere benutzerdefinierte Messagingrichtlinien für Personen in Ihrer Organisation erstellen. Weitere Informationen finden Sie unter [Verwalten von Nachrichtenrichtlinien in Teams](messaging-policies-in-teams.md).
 
 > [!NOTE]
->Microsoft empfiehlt, dass Sie Teams für alle Benutzer in einem Unternehmen aktivieren, damit Teams Wiki für Projekte und anderen dynamischen Initiativen gebildet werden können. Auch wenn Sie Entscheidungen zu treffen pilot, möglicherweise noch ist es hilfreich zum Beibehalten von Teams, die für alle Benutzer aktiviert, jedoch nur als Ziel für die Kommunikation mit der Pilotgruppe von Benutzern.
+>Microsoft empfiehlt, dass Sie Teams für alle Benutzer in einem Unternehmen aktivieren, damit Teams organisch für Projekte und andere dynamische Initiativen ausgebildet werden können. Auch wenn Sie sich für ein Pilotprojekt entscheiden, ist es möglicherweise weiterhin hilfreich, Teams für alle Benutzer aktiviert zu halten, aber nur die Kommunikation mit der Pilotgruppe von Benutzern zu erreichen.
 
-## <a name="manage-teams-through-the-microsoft-365-admin-center"></a>Verwalten von Teams über das Microsoft 365 Administrationscenter
+## <a name="manage-teams-through-the-microsoft-365-admin-center"></a>Verwalten von Teams über das Microsoft 365 Admin Center
 
-Teams auf Benutzerebene Lizenzen werden direkt über die Microsoft 365 Admin Center Benutzer Verwaltungsschnittstellen verwaltet. Ein Administrator kann Lizenzen für neue Benutzer, wenn neue Benutzerkonten erstellt werden, oder Benutzer mit vorhandenen Konten zuweisen. Der Administrator muss Office 365 globaler Administrator oder Benutzerverwaltungsadministrator Berechtigungen zum Verwalten von Lizenzen für Microsoft-Teams verfügen.
+Teams auf Benutzerebene Lizenzen werden direkt über die Benutzer Verwaltungsschnittstellen von Microsoft 365 Admin Center verwaltet. Ein Administrator kann neuen Benutzern Lizenzen zuweisen, wenn neue Benutzerkonten erstellt werden, oder für Benutzer mit vorhandenen Konten. Der Administrator muss über die Administratorrechte von Office 365 Global Administrator oder Benutzerverwaltung verfügen, um Microsoft Teams-Lizenzen verwalten zu können.
 
 Wenn einem Benutzer eine Lizenz-SKU wie E3 oder E5 zugewiesen wird, wird automatisch eine Microsoft Teams-Lizenz zugewiesen, und der Benutzer wird für Microsoft Teams aktiviert. Administratoren können alle Office 365-Dienste und -Lizenzen präzise steuern, und die Microsoft Teams-Lizenz für einen bestimmten Benutzer oder eine bestimmte Gruppe von Benutzern kann aktiviert oder deaktiviert werden.
 
 ![Screenshot des Abschnitts „Produktlizenzen“ im Office 365 Admin Center](media/Manage_user_access_to_Microsoft_Teams_image2.png) 
 
-Eine Benutzerlizenz Teams kann jederzeit deaktiviert werden. Nachdem die Lizenz deaktiviert ist, wird der Benutzerzugriff auf Microsoft-Teams, verhindert werden, und der Benutzer werden nicht mehr Teams in die Office 365-app-Start "und" Homepage finden Sie unter.
+Eine Benutzerlizenz für Teams kann jederzeit deaktiviert werden. Nachdem die Lizenz deaktiviert wurde, wird der Zugriff von Benutzern auf Microsoft Teams verhindert, und der Benutzer kann keine Teams mehr im Office 365-App-Startfeld und auf der Startseite anzeigen.
 
-![Screenshot des Abschnitts „Produktlizenzen“ im Office 365 Admin Center mit ausgewählter Option „Microsoft Teams“](media/Manage_user_access_to_Microsoft_Teams_image4.png)
+![Screenshot mit den im Abschnitt "Produktlizenzen" ausgewählten Teams](media/Manage_user_access_to_Microsoft_Teams_image4.png)
 
-## <a name="manage-via-powershell"></a>Verwalten von über die PowerShell
+## <a name="manage-via-powershell"></a>Verwalten über PowerShell
 
 > [!IMPORTANT]
-> Neue MsolLicenseOptions werden aktivieren Sie alle Dienste, die zuvor deaktiviert wurden, es sei denn, Explictitly identitied in Ihrem benutzerdefinierten Skript. Beispiel: Wenn Sie sowohl Exchange & Schlingern beim Deaktivieren von Teams, zusätzlich deaktiviert lassen möchten enthält müssten Sie dies in das Skript oder beide Exchange & Schlingern wird aktiviert werden, für die Benutzer, den Sie angegeben haben. Wenn Sie eine Benutzeroberfläche zur Verwaltung dieser Funktionen nutzen möchten finden Sie unter: [Reporting zu Office 365-Lizenz und Verwaltungstool-entfernen Lizenzen in einer Sammeloperation](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
+> New-MsolLicenseOptions aktiviert alle Dienste, die zuvor deaktiviert wurden, es sei denn, explictitly identitied in Ihrem angepassten Skript. Wenn Sie beispielsweise beide Exchange-& Sway deaktiviert lassen möchten, während Additonally die Deaktivierung von Teams durchführen möchten, müssen Sie dies im Skript INLCUDE, oder beide Exchange & Sway werden für die von Ihnen identifizierten Benutzer aktiviert. Wenn Sie eine GUI verwenden möchten, um diese Funktionalität zu verwalten, lesen Sie: [Office 365-Lizenz Berichterstattung und-Verwaltungs Tool – Zuweisen von Entfernen von Lizenzen in Massen](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
 
-Das Aktivieren und Deaktivieren von Microsoft Teams als Arbeitsauslastungslizenz über PowerShell funktioniert genau wie bei jeder anderen Arbeitsauslastung. Der Name des Dienstplans für Microsoft Teams lautet TEAMS1. Für GCC ist der Dienstname Plan TEAMS_GOV. Für GCC hoch ist der Dienstname Plan TEAMS_GCCHIGH. Für DoD ist der Dienstname Plan TEAMS_DOD (finden Sie unter [Disable-Zugriff auf Dienste mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) für Weitere Informationen.)
+Das Aktivieren und Deaktivieren von Microsoft Teams als Arbeitsauslastungslizenz über PowerShell funktioniert genau wie bei jeder anderen Arbeitsauslastung. Der Name des Dienstplans für Microsoft Teams lautet TEAMS1. Für gcc lautet der Service Plan Name TEAMS_GOV. Für gcc ist der Service Plan Name TEAMS_GCCHIGH. Für DoD lautet der Service Plan Name TEAMS_DOD (Weitere Informationen finden Sie unter [Deaktivieren des Zugriffs auf Dienste mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) .)
 
-**Beispiel:** Im folgenden finden einfach einem Beispiel auf wie würden Sie Teams für alle Benutzer in einem bestimmten Lizenztyp deaktivieren. Sie müssen dies zuerst tun und dann den Lizenztyp für die Benutzer, die im Rahmen von Pilottests Zugriff haben sollen, einzeln aktivieren.
+**Beispiel:** Im folgenden sehen Sie nur ein kurzes Beispiel, wie Sie Teams für jeden in einem bestimmten Lizenztyp deaktivieren. Sie müssen dies zuerst tun und dann den Lizenztyp für die Benutzer, die im Rahmen von Pilottests Zugriff haben sollen, einzeln aktivieren.
 
 Um die in Ihrer Organisation vorhandenen Abonnementtypen anzuzeigen, verwenden Sie den folgenden Befehl:
 
@@ -64,15 +64,15 @@ Tragen Sie den Namen Ihres Plans einschließlich des Organisationsnamens und des
 
       $acctSKU="<plan name>
       $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
-Führen Sie zum Deaktivieren von Teams für alle Benutzer mit einer aktiven Lizenz für den benannten Plan den folgenden Befehl ein:
+Führen Sie den folgenden Befehl aus, um Teams für alle Benutzer mit einer aktiven Lizenz für Ihren benannten Plan zu deaktivieren:
 
       Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
 
 | | | |
 |---------|---------|---------|
-|![Entscheidungspunktsymbol](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Entscheidungspunkt         |<ul><li>Was ist Ihre Organisation Planen von Teams Onboarding in der gesamten Organisation?  (Pilot- oder öffnen)</li></ul>         |
-|![Symbol für „Nächste Schritte“](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Nächste Schritte         |<ul><li>Wenn Sie über eine geschlossene Pilotprojekt Onboarding entscheiden, ob Sie über die Lizenzierung tun möchten, oder gezielten Kommunikation.</li><li>Je nach Entscheidung, dauern evaluieren Schritte aus, um sicherzustellen, nur Benutzer, die auf Teams (falls erforderlich) zugreifen dürfen.</li><li>Dokumentieren Sie die Richtlinien für welche Benutzer stellen, die werden (oder keine) haben Zugriff auf Teams.</li></ul>         |
+|![Entscheidungspunktsymbol](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Entscheidungspunkt         |<ul><li>Was ist der Plan Ihrer Organisation für Teams, die sich in der gesamten Organisation an Bord befinden?  (Pilot oder Open)</li></ul>         |
+|![Symbol für „Nächste Schritte“](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Nächste Schritte         |<ul><li>Wenn Sie über ein geschlossenes Pilot Projekt an Bord sind, entscheiden Sie, ob Sie dies über eine Lizenzierung oder gezielte Kommunikation tun möchten.</li><li>Führen Sie je nach Entscheidung die erforderlichen Schritte aus, um sicherzustellen, dass nur Pilot Benutzer, die auf Teams zugreifen dürfen (falls erforderlich).</li><li>Dokumentieren Sie die Richtlinien für die Benutzer, die Zugriff auf Teams haben (oder nicht).</li></ul>         |
 
-## <a name="manage-teams-at-the-office-365-tenant-level"></a>Verwalten von Teams auf der Ebene der Office 365-Mandanten
+## <a name="manage-teams-at-the-office-365-tenant-level"></a>Verwalten von Teams auf der Office 365-Mandantenebene
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 

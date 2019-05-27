@@ -15,12 +15,12 @@ description: Aufgaben und Aktivitäten, die für die Verwaltung von Teams erford
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c15d497ec86dcb15e85fc45dda838b5f203c87e0
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 293406bbc8fe8cb97917908bc14f83129ff1bb66
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343864"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432872"
 ---
 # <a name="operate-my-service"></a>Verwenden des Diensts
 
@@ -62,7 +62,7 @@ Stellen Sie sicher, dass jedes verantwortliche Team ein gutes Verständnis der A
 Nachdem eine Vereinbarung abgeschlossen ist, sollten die entsprechenden Teams beginnen, ihre Rollen zu übersetzen.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Nächste Schritte</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Image depicting the next steps"/><br/>Nächste Schritte</td>
 <td><ul><li>Verwenden Sie dieses Dokument, um die Übung zur operativen Rollenzuordnung zu vereinfachen.</li><li>Treffen Sie sich mit den jeweiligen Support Teams, um jedem Element in der Liste der erforderlichen Aktivitäten Namen zuzuweisen.</li><li>Erhalten Sie Akzeptanz oder Abmelden für die zugewiesenen Rollen.</li><li>Stellen Sie sicher, dass die entsprechenden Teams über die entsprechenden Schulungs-, Bereitschafts-und Ressourcen verfügen, um die erforderlichen Aktivitäten abzuschließen.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Teams-Dienstabhängigkeiten

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems.
-ms.openlocfilehash: ff413cf0f708f14feb8aa154be0dd4229e36eed5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 51f28b402fea69f0e5033954018a5f67bf6c90d6
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305221"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432777"
 ---
 # <a name="set-up-call-analytics"></a>Einrichten von Anrufanalyse
 

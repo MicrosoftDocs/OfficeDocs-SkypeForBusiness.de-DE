@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c7bf332c3d85445ccb9bcfe41e6d7417948ca15
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: c189ba7c3e814b3bbe37fea92f740e9fe873af86
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344609"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432595"
 ---
 # <a name="plan-my-users-experience"></a>Planen der Benutzererfahrung
 
@@ -40,7 +40,7 @@ Einer der Hauptvorteile von Teams besteht darin, dass der Client automatisch auf
 
 Wie Sie aus dem nachstehenden Diagramm sehen können, stellen Endpunkte einen wichtigen Baustein dar, um Benutzern eine Qualität zu ermöglichen.
 
-![Diagramm, in dem die drei Komponenten der Qualität beschrieben sind und wie die Dienstverwaltung alle drei Komponenten überlappt] (media/plan-my-users-experience-image1.png "Diagramm, in dem die drei Komponenten der Qualität beschrieben sind und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit einem Fokus auf Endpunkte.")
+![Diagramm, in dem die drei Komponenten der Qualität beschrieben werden] (media/plan-my-users-experience-image1.png "Diagramm, in dem die drei Komponenten der Qualität beschrieben sind und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit einem Fokus auf Endpunkte.")
 
 Die Endpunkte von Teams können auf vielen Geräten, einschließlich PCs, Macs, Tablets und mobilen Geräten, ausgeführt werden. Ein Teil der Oberfläche umfasst nicht nur das Gerät, sondern auch, wie ein Benutzer eine Verbindung mit dem Gerät herstellt, beispielsweise mit dem integrierten Mikrofon/Lautsprecher, Ohrhörer oder einem optimierten Headset. Die Verwendung eines optimierten Headsets kann sich positiv auf die allgemeine Benutzerfreundlichkeit auswirken.
 

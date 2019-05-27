@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Hier erfahren Sie, wie Sie Einwahl-oder Audiokonferenzen für die Personen in Ihrem Unternehmen einrichten, die ein Telefon für die Teilnahme an Konferenzgesprächen verwenden müssen. '
-ms.openlocfilehash: f0709f2a99524666e3b48992338abae111599b7d
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 9fc9369b8dd2d7054ce7a2c1508dbc73eff3dfa9
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344210"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432817"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Einrichten von Audiokonferenzen für Microsoft Teams
 
@@ -76,7 +76,7 @@ Nachdem Sie Ihre gebührenpflichtigen und/oder gebührenfreien Telefonnummern f�
 
 Führen Sie die folgenden Schritte aus, um ihrer Audiokonferenz-Brücke eine neue Telefonnummer zuzuweisen.
 
-![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center:**
+![Ein Symbol mit dem Skype for Business-](media/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center:**
 
  1. Wechseln Sie zum **Microsoft 365 Admin Center** > **Admin** > Center**Teams** > **Legacy-Portal**.
  2. Wählen Sie **VoIP** > ****-Rufnummern aus.

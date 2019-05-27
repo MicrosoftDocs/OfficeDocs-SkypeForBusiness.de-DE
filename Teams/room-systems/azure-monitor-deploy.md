@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: In diesem Artikel wird erläutert, wie Sie die Verwaltung von Microsoft Teams rooms-Geräten in integrierter End-to-End-Weise mithilfe von Azure Monitor bereitstellen.
-ms.openlocfilehash: d9f1a78d31fe6ef765fd43554337444533056114
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fd1f1b32bd999c18144831e2458b426bf55ca1a9
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291500"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433375"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Bereitstellen von Microsoft Teams rooms Management mit Azure Monitor
 
@@ -29,7 +29,7 @@ Sie können die Protokollanalyse in Azure Monitor konfigurieren, um grundlegende
 
 Wenn Sie diesem Leitfaden folgen, können Sie ein Dashboard wie im folgenden Beispiel verwenden, um detaillierte Statusberichte für die Geräteverfügbarkeit, die Anwendungs-und Hardware Integrität sowie die Microsoft Teams rooms-Anwendung und die Versions Verteilung des Betriebssystems zu erhalten.
 
-![Beispiel für eine Protokollanalyse Ansicht für Microsoft Teams] -Chatrooms (../media/Deploy-Azure-Monitor-1.png "Beispiel für eine Protokollanalyse Ansicht für Microsoft Teams") -Chatrooms
+Screenshot ![der Beispielansicht "Protokollanalyse" für Microsoft Teams-Chatrooms] (../media/Deploy-Azure-Monitor-1.png "Beispiel für eine Protokollanalyse Ansicht für Microsoft Teams") -Chatrooms
 
 Allgemein müssen Sie die folgenden Aufgaben ausführen:
 
@@ -64,7 +64,7 @@ Sie müssen Protokollanalyse konfigurieren, um die Protokolle zu sammeln, die zu
 
 Informationen zum Konfigurieren von Protokollanalysen zum Sammeln der Microsoft Teams rooms-Ereignisse finden Sie unter [Windows-Ereignisprotokoll-Datenquellen in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events) .
 
-![Ereignisprotokolleinstellungen] (../media/Deploy-Azure-Monitor-2.png "Ereignisprotokolleinstellungen")
+Screenshot ![der Ereignisprotokolleinstellungen] (../media/Deploy-Azure-Monitor-2.png "Ereignisprotokolleinstellungen")
 
 > [!IMPORTANT]
 > Konfigurieren Sie die Windows-Ereignisprotokolleinstellungen, und geben Sie **Skype Room System** als Ereignisprotokollnamen ein, und aktivieren Sie dann die Kontrollkästchen **Fehler**, **Warnung**und **Informationen** .

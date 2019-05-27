@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Informieren Sie sich, was das Telefon System für Sie tun kann. '
-ms.openlocfilehash: 7188a0d4573ce7bc935b60506371fbd2a4f1b6a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3c2d1d910226b4597595f6dd55246f2f9c71049d
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299019"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432880"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Was ist das Telefonsystem in Office 365?
 
@@ -49,7 +49,7 @@ Um Anrufe an Festnetztelefone und Handys zu ermöglichen, kann das Telefon Syste
 
 Die Verwendung eines Anruf Plan-Add-ons für Telefonsysteme in Office 365 ermöglicht die PSTN-Konnektivität für Anrufe an Festnetztelefone und Handys in der ganzen Welt (je nachdem, welche Dienstebene lizenziert wird). Ihre Benutzer sind in der Cloud beheimatet und für das Telefon System mit dem von Microsoft bereitgestellten Anrufplan-Add-on aktiviert. Für die Verwendung von Anrufplänen ist keine lokale Server Bereitstellung erforderlich. Anrufpläne funktionieren nur in Verbindung mit dem Telefonsystem in Office 365, und Sie können keine Anrufpläne mit einem anderen PBX-System verwenden.
 
-![Topologiediagramm, in dem Cloud PBX mit PSTN-Anrufen dargestellt wird – die VoIP-Lösung, die komplett in der Cloud bereitgestellt wird](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
+![Topologie-Diagramm mit Cloud PBX mit PSTN-anrufen](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
 Da Anrufpläne in Office 365 ausgeführt werden, handelt es sich um ein vollständig in der Cloud Angebot, das keine lokale Server Bereitstellung erfordert. Sie haben die Wahl, einen inländischen oder nationalen und internationalen Anrufplan zu verwenden, der jedem Nutzer zugeteilt wird, für den Sie Anrufe tätigen möchten. [Möchten Sie mehr erfahren?](calling-plan-landing-page.md)
   

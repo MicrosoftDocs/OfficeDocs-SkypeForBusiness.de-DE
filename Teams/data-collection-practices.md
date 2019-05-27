@@ -22,12 +22,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements.
-ms.openlocfilehash: bea3a508b91c83b009636aa8ee48a2add996b3ea
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 532cfe380a9f61043e38768c4c5d7d9c9fa8e9a6
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281863"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433391"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Datensammlungsverfahren im Zusammenhang mit Skype for Business und Microsoft Teams
 
@@ -103,10 +103,10 @@ Für die Fehlerberichterstattung müssen zwei Voraussetzungen erfüllt sein:
 
 - Die DisableAutomaticSendTracing-Gruppenrichtlinieneinstellung ist auf dem Server oder im Mandanten-Admin Center auf "false" festgelegt (Dies ist der Standardzustand). Weitere Informationen finden Sie unter [Konfigurieren von clientbootstrapping-Richtlinien](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) .
     
-- Endbenutzer können sich auf der Registerkarte "Allgemein" einzeln einwählen ![(klicken](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) Sie auf das Zahnradsymbol, und dann wird das Dialogfeld " **Optionen** " mit der Registerkarte " **Allgemein** " angezeigt) im Skype for Business-Client.
+- Endbenutzer können sich auf der Registerkarte "Allgemein" einzeln einwählen ![(Klicken Sie auf das Zahnrad ](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) Symbol ein Symbol, das ein Zahnrad darstellt, und dann wird das Dialogfeld " **Optionen** " mit der Registerkarte " **Allgemein** " angezeigt) im Skype for Business-Client.
     
  
-![Skype for Business data collection checkbox in the Options > General dialog](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
+![Screenshot des Kontrollkästchens ' Datensammlung ' im Dialogfeld ' Optionen '](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
 Für die Skype-Besprechungs-App steuert „MeetingUxEnableTelemetry" außerdem die Fehlerberichterstattung, obwohl für Abstürze unter Windows die Watson-Einstellungen das Hochladen von Absturzinformationen steuern. Es gibt für die Skype-Besprechungs-App keine Benutzereinstellung wie im Dialogfeld des Desktopclients.
 

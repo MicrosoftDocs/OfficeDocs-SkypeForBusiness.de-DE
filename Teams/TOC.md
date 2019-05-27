@@ -286,7 +286,8 @@
 #### [Sprachen für Voicemail-Ansagen und -Nachrichten](languages-for-voicemail-greetings-and-messages.md)
 ### Anrufer-ID
 #### [Einsatzmöglichkeiten der Anrufer-ID in Ihrer Organisation](how-can-caller-id-be-used-in-your-organization.md)
-#### [Festlegen der Anrufer-ID für einen Benutzer](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Festlegen der Anrufer-ID für einen Benutzer](set-the-caller-id-for-a-user.md)
+#### [Mehr über Telefonnummer-ID und Name des Anrufers](more-about-calling-line-id-and-calling-party-name.md)
 ### Automatische Telefonzentralen und Anrufwarteschleifen 
 #### [Was sind automatische Cloudtelefonzentralen?](what-are-phone-system-auto-attendants.md)
 #### [Einrichten einer automatischen Cloudtelefonzentrale](create-a-phone-system-auto-attendant.md)

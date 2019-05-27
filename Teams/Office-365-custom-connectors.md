@@ -14,31 +14,31 @@ search.appverid: MET150
 description: Mit Connectors kann sich Ihr Team auf dem Laufenden halten, da Inhalte und Updates von häufig verwendeten Diensten direkt in einen Kanal übermittelt werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdb4184ed203994f1275c9c074371655a627b1fe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2167022e3187924f5283ab5bee3a6b220595fd64
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32195095"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432856"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Verwenden von Office 365 und benutzerdefinierten Connectors in Microsoft Teams
 =======================================================
 
-Mit Connectors kann sich Ihr Team auf dem Laufenden halten, da Inhalte und Updates von häufig verwendeten Diensten direkt in einen Kanal übermittelt werden. Mit Connectors können Ihre Benutzer Microsoft-Teams von häufig verwendete Dienste wie Twitter, Trello, Wunderlist, GitHub und Azure DevOps Services im Chat Stream in ihr Team Updates erhalten.
+Mit Connectors kann sich Ihr Team auf dem Laufenden halten, da Inhalte und Updates von häufig verwendeten Diensten direkt in einen Kanal übermittelt werden. Mit Connectors können Ihre Microsoft Teams-Benutzer Updates von beliebten Diensten wie Twitter, Trello, wunderlist, GitHub und Azure DevOps-Diensten innerhalb des Chat-Streams in Ihrem Team erhalten.
 
-Ein beliebiges Mitglied eines Teams kann ihr Team mit beliebte Clouddiensten mit Connectors verbinden, wenn die Teamberechtigungen zulassen, und alle Teammitglieder Aktivitäten von diesem Dienst benachrichtigt werden. Verbinder bleiben auch nach der Member-Funktion, die Anfangs Setup hat, die der Connector verlassen hat. Jedes Teammitglied mit den Berechtigungen zum hinzufügen/entfernen kann Konnektoren Setup anderer Mitglieder ändern.
+Jedes Mitglied eines Teams kann sein Team mit den gängigen Cloud-Diensten mit den Connectors verbinden, wenn die Team Berechtigungen dies zulassen, und alle Teammitglieder werden über die Aktivitäten dieses Diensts benachrichtigt. Connectors funktionieren auch dann weiterhin, wenn das Mitglied, das den Connector zunächst eingerichtet hat, den Link verlassen hat. Jedes Teammitglied, das über die Berechtigungen für Faxkomponente verfügt, kann Connectors-Setup von anderen Mitgliedern ändern.
 
-Office 365-Connectors können mit beiden Microsoft-Teams verwendet werden und Office 365-Gruppen, erleichtert es für alle Mitglieder synchronisiert bleiben und relevanten Informationen schnell zu erhalten. Microsoft-Teams und Exchange verwenden dasselbe Modell Connector, das Sie die gleichen Connectors in beiden Plattformen verwenden kann. Dabei ist zu beachten, jedoch, deaktivieren Connectors für die Office 365-Gruppe, die ein Team abhängig ist die Möglichkeit zum Erstellen von Konnektoren für dieses Team auch deaktivieren.
+Office 365-Connectors können sowohl mit Microsoft Teams als auch mit Office 365-Gruppen verwendet werden, wodurch es für alle Mitglieder einfacher ist, synchron zu bleiben und relevante Informationen schnell zu erhalten. Sowohl Microsoft Teams als auch Exchange verwenden das gleiche Connector-Modell, mit dem Sie dieselben Connectors in beiden Plattformen verwenden können. Beachten Sie jedoch, dass das Deaktivieren von Connectors für die Office 365-Gruppe, von der ein Team abhängig ist, auch die Möglichkeit zum Erstellen von Connectors für dieses Team deaktiviert.
 
 Zurzeit können Connectors mit den Microsoft Teams-Desktopclients und -Webclients hinzugefügt werden. Von diesen Connectors gepostete Informationen können jedoch mit **allen Clients**, auch den mobilen Clients, angezeigt werden.
 
 1.  Um einen Connector zu einem Kanal hinzuzufügen, klicken Sie auf das **Auslassungszeichen (…)** rechts neben einem Kanalnamen und dann auf **Connectors**.
 
-    ![Screenshot der Microsoft Teams-Benutzeroberfläche mit ausgewähltem Kanalnamen und ausgewählter Option „Connectors“](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+    ![Screenshot der Benutzeroberfläche von Teams mit ausgewählter Option "Verbinder".](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
 2.  Benutzer können aus einer Vielfalt verfügbarer Connectors auswählen und dann auf **Hinzufügen** klicken.
 
-    ![Screenshot des Dialogfelds „Connectors“ mit den Connectors, die hinzugefügt werden können](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+    ![Screenshot des Dialogfelds "Verbinder" mit verfügbaren Connectors](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
 3.  Geben Sie die erforderlichen Informationen des ausgewählten Connectors ein, und klicken Sie auf **Speichern**. Jeder Connector erfordert verschiedene Informationen, damit er richtig funktioniert. Bei manchen dieser Informationen müssen Sie sich über die Links auf der Connector-Konfigurationsseite bei dem Dienst anmelden.
 
@@ -59,7 +59,7 @@ Sie können ganz leicht benutzerdefinierte Connectors entwickeln, die in Ihre br
 
 2.  Um einen Webhook zu erstellen, geben Sie einen **Namen** an, aktualisieren Sie bei Bedarf das Webhook-Image, und klicken Sie auf **Erstellen**.
 
-    ![Screenshot der Konfigurationsseite für den Connector „Incoming Webhook“ (Eingehender Webhook) ](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
+    ![Screenshot der Konfigurationsseite für den eingehenden webhook-Connector](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
 
 3.  Anwendungen, die Daten mithilfe von Push in diesen Kanal übertragen, benötigen die URL des Webhook-Connectors. Eine **eindeutige URL** wird erstellt, wenn Sie den **Webhook** erstellen. Geben Sie Ihren Entwicklern diese URL, damit sie bei Bedarf ihre Anwendungen für das Übertragen von Anwendungen mithilfe von Push konfigurieren können.
 

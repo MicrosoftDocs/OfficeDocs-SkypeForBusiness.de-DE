@@ -7,7 +7,7 @@ audience: Admin
 ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ''
+ms.reviewer: sonua
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams installiert in Outlook ein Add-In, mit dem Benutzer Microsoft Teams-Besprechungen über Outlook planen können.
@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 624e6a72daae12d0e40b351cea6039fbe5eb432b
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: fb6ba92185d797e3925ad56c8747fd504f40dccd
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33994135"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34404227"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -40,7 +40,7 @@ Das Microsoft Teams-Besprechungs-Add-In wird für Benutzer, auf deren Windows-PC
 Wenn Benutzer das Microsoft Teams-Besprechungs-Add-In nicht sehen, weisen Sie sie an, Outlook und Microsoft Teams zu schließen, den Microsoft Teams-Client neu zu starten, sich bei Microsoft Teams anzumelden und den Outlook-Client zu starten (in dieser Reihenfolge).
 
 > [!NOTE]
-> Die Schaltfläche Teams Besprechung in Outlook für Mac wird in der Outlook für Mac-Menüband angezeigt, wenn Outlook Produktions-Build 16.20 und höher ausgeführt wird.
+> Die Schaltfläche "Teams-Besprechung" in Outlook für Mac wird im Menüband von Outlook für Mac angezeigt, wenn in Outlook Produktions-Build 16,20 und höher ausgeführt wird.
 
 ## <a name="authentication-requirements"></a>Authentifizierungsanforderungen
 
@@ -65,7 +65,6 @@ Der Microsoft Teams-Client ermittelt, ob die Benutzer die 32-Bit- oder 64-Bit-Ve
 ## <a name="other-considerations"></a>Andere Überlegungen
 
 Die Funktionen des Microsoft Teams-Besprechungs-Add-Ins werden noch weiterentwickelt. Beachten Sie daher Folgendes:
-- Einige Funktionen von Onlinebesprechungen, beispielsweise Aufzeichnung, Umfragen und Whiteboards, sind noch nicht verfügbar.
 - Besprechungsoptionen sind zurzeit nicht verfügbar.
 - Sie können zurzeit nur Personen aus Ihrer Firma einladen, da die Teilnahme externer Benutzer an Besprechungen noch nicht möglich ist.
 - Das Add-In ist für geplante Besprechungen mit bestimmten Teilnehmern gedacht, nicht für Besprechungen in einem Kanal. Kanalbesprechungen müssen in Microsoft Teams geplant werden. Zurzeit ist das Microsoft Teams-Besprechungs-Add-In in Outlook nur für Windows-Benutzer verfügbar, aber die Unterstützung für Mac wird noch hinzugefügt.

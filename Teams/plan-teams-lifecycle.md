@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 913ae5315a8b2adae8043584e3cf6621f3650ad3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 601091520e6afe71e9ae4557380b826cd27e78ef
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902440"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344420"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planen der Lebenszyklusverwaltung in Microsoft Teams
 
@@ -150,8 +150,8 @@ Unter den folgenden Links finden Sie weitere Informationen zum Organisieren Ihre
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Was ist der Zweck des Teams?</li><li>Wer gehört zum Team?</li><li>Soll das Team privat oder öffentlich sein?</li><li>Können neue Mitglieder sich selbst hinzufügen, oder werden sie von Teambesitzern hinzugefügt?</li><li>Wer soll über Berechtigungen zum Erstellen von Kanälen oder Hinzufügen von Registerkarten, Bots und Connectors verfügen?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Erstellen Sie das Team.</li><li>Planen Sie Kanäle.</li></ul>|
+| ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Was ist der Zweck des Teams?</li><li>Wer gehört zum Team?</li><li>Soll das Team privat oder öffentlich sein?</li><li>Können neue Mitglieder sich selbst hinzufügen, oder werden sie von Teambesitzern hinzugefügt?</li><li>Wer soll über Berechtigungen zum Erstellen von Kanälen oder Hinzufügen von Registerkarten, Bots und Connectors verfügen?</li></ul> |
+| ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Erstellen Sie das Team.</li><li>Planen Sie Kanäle.</li></ul>|
 
 
 #### <a name="set-up-channels"></a>Einrichten von Kanälen
@@ -162,8 +162,8 @@ Der Kanalbesitzer kann das Interesse wecken, indem er eine Willkommensnachricht 
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Welche Kanäle werden anfangs zum Team hinzugefügt?</li><li>Welche Anleitungen werden gegebenenfalls zum Hinzufügen neuer Kanäle bereitgestellt? (Nach welchen Kriterien sollen Kanäle eingerichtet werden: Projekte, Themen, andere Kriterien?)</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Erstellen Sie die ersten Kanäle.</li><li>Stellen Sie eine Willkommensnachricht bereit.</li><li>Beginnen Sie mit der Zusammenarbeit.</li></ul>|
+| ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Welche Kanäle werden anfangs zum Team hinzugefügt?</li><li>Welche Anleitungen werden gegebenenfalls zum Hinzufügen neuer Kanäle bereitgestellt? (Nach welchen Kriterien sollen Kanäle eingerichtet werden: Projekte, Themen, andere Kriterien?)</li></ul> |
+| ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Erstellen Sie die ersten Kanäle.</li><li>Stellen Sie eine Willkommensnachricht bereit.</li><li>Beginnen Sie mit der Zusammenarbeit.</li></ul>|
 
 ### <a name="stage-2-middle"></a>Phase 2: Mitte
 
@@ -187,8 +187,8 @@ Wenn ein Team anfängt, in einen Trott zu verfallen, ziehen Sie Folgendes in Bet
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Wer soll die Nutzung überwachen, um Probleme zu identifizieren?</li><li>Welche Metriken werden verwendet, um zu ermitteln, ob ein Team in gutem Zustand ist?</li><li>Identifizieren Sie Teams, die nicht mehr von Nutzen sind.</li><li>Identifizieren Sie schwächelnde Teams, die noch einen Zweck erfüllen, aber einer Wiederbelebung bedürfen.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Implementieren Sie einen Prozess für die Überwachung des Zustands einzelner Teams.</li></ul>|
+| ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Wer soll die Nutzung überwachen, um Probleme zu identifizieren?</li><li>Welche Metriken werden verwendet, um zu ermitteln, ob ein Team in gutem Zustand ist?</li><li>Identifizieren Sie Teams, die nicht mehr von Nutzen sind.</li><li>Identifizieren Sie schwächelnde Teams, die noch einen Zweck erfüllen, aber einer Wiederbelebung bedürfen.</li></ul> |
+| ![Ein Symbol, das den nächsten Schritt darstellt](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Implementieren Sie einen Prozess für die Überwachung des Zustands einzelner Teams.</li></ul>|
 
 ### <a name="stage-3-end"></a>Phase 3: Ende
 
@@ -202,6 +202,6 @@ Weitere Informationen zum Einrichten von Ablauf- und Aufbewahrungsrichtlinien fi
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Definieren Sie, was das Ende des Lebens eines Teams ausmacht.</li><li>Entscheiden Sie, ob und wie lange der Inhalt eines Teams verfügbar bleiben soll.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Dokumentieren Sie bewährte Methoden und gesammelte Erfahrungen.</li><li>Archivieren Sie bei Bedarf die Daten.</li></ul>|
+| ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Definieren Sie, was das Ende des Lebens eines Teams ausmacht.</li><li>Entscheiden Sie, ob und wie lange der Inhalt eines Teams verfügbar bleiben soll.</li></ul> |
+| ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Dokumentieren Sie bewährte Methoden und gesammelte Erfahrungen.</li><li>Archivieren Sie bei Bedarf die Daten.</li></ul>|
 

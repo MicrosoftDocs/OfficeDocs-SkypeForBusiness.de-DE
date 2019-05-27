@@ -11,66 +11,66 @@ MS.collection:
 search.appverid: MET150
 ms.reviewer: jastark
 f1keywords: ms.teamsadmincenter.assignments.overview
-description: Informationen Sie zum Verwalten von Zuordnungen in der Microsoft-Teams-Verwaltungskonsole in Teams für Bildungseinrichtungen.
+description: Hier erfahren Sie, wie Sie Aufgaben im Microsoft Teams Admin Center in Teams für Bildung verwalten.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 263b9dda6929bd6956df803a33764634808cddf3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 188f4398136c2939ad2a84d75ab27942a5a4593b
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914023"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433431"
 ---
 # <a name="assignments-in-teams-for-education"></a>Aufgaben in Teams für Bildungseinrichtungen
 
-Zuordnungen sind Vorgänge oder Arbeitseinheiten Mitglied Student oder ein Team in einer Klasse als Teil ihrer Studie zugewiesen. Sie können innerhalb einer Klasse Teams Zuordnungen erstellen.
+Aufgaben sind Aufgaben oder Arbeitseinheiten, die einem Kursteilnehmer oder Teammitglied in einer Klasse im Rahmen ihrer Studie zugewiesen sind. Sie können Aufgaben in Ihrer Team Klasse erstellen.
 
-[Erfahren Sie mehr über Zuordnungen](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
+[Weitere Informationen zu Aufgaben](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
-## <a name="assignments-in-the-microsoft-teams-admin-center"></a>Zuordnungen in der Verwaltungskonsole von Microsoft-Teams
+## <a name="assignments-in-the-microsoft-teams-admin-center"></a>Aufgaben im Microsoft Teams Admin Center
 
-Mit den Einstellungen Admin im Microsoft-Teams, Administrationscenter können Sie die folgenden Features aktivieren oder Deaktivieren für Schüler und Lehrer innerhalb Ihrer Organisation zur Verfügung stehen. Im folgenden sind die Einstellungen im Zusammenhang mit Zuordnungen:
+Mit den Administratoreinstellungen im Microsoft Teams Admin Center können Sie die folgenden Funktionen aktivieren oder deaktivieren, damit Sie für Schüler und Lehrer in Ihrer Organisation zur Verfügung stehen. Die folgenden Einstellungen beziehen sich auf Aufgaben:
 
 <a name="#bkemaildigest"> </a>
-### <a name="weekly-guardian-email-digest"></a>Wöchentliche Guardian e-Mail-digest
-Guardian-e-Mails werden wöchentliche e-Mails an Eltern oder Aufsichtspersonen Schüler gesendet. Die e-Mails enthält Informationen zur Zuweisung von der vorhergehenden Woche und für die bevorstehende Woche und am Wochenende gesendet. Die e-Mail-Nachrichten von den Administratoren, die über das Feature Schule Daten Sync aktualisiert werden müssen.
+### <a name="weekly-guardian-email-digest"></a>Wöchentlicher Guardian-e-Mail-Digest
+Guardian-e-Mails sind wöchentliche e-Mails, die an die Eltern oder Erziehungsberechtigten der Schüler gesendet werden. Die e-Mail-Nachrichten enthalten Informationen zu den Aufgaben aus der vorherigen Woche und für die kommende Woche und werden über das Wochenende verschickt. Die e-Mail-Nachrichten müssen von den Administratoren über das School Data Sync-Feature aktualisiert werden.
 
 Diese Einstellung ist standardmäßig deaktiviert.
 
 <a name="bkmakecode"> </a>
 ### <a name="makecode"></a>MakeCode
-MakeCode ist eine Block-basierte Codierung Plattform die Lebensdauer für alle Schüler Computer Science bringt. 
+MakeCode ist eine blockbasierte Codierungs Plattform, die Computer Science für alle Schüler in den Alltag bringt. 
 
-Dies ist ein Produkt eines Drittanbieters oder Dienst, das eine eigene Begriffe und die Datenschutzrichtlinie fällt. Sie sind verantwortlich für die Verwendung von Drittanbieter-Produkte und Dienste.
+Hierbei handelt es sich um ein Produkt oder eine Dienstleistung eines Drittanbieters, das seinen eigenen Bedingungen und Datenschutzrichtlinien unterliegt. Sie sind für die Nutzung von Produkten und Dienstleistungen von Drittanbietern verantwortlich.
 
 Diese Einstellung ist standardmäßig deaktiviert.
 
-[Erfahren Sie mehr über MakeCode](https://www.microsoft.com/${locale}/makecode)
+[Weitere Informationen zu MakeCode](https://www.microsoft.com/${locale}/makecode)
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
 
-Turnitin ist ein Plagiate Erkennung-Dienst. Dies ist ein Produkt eines Drittanbieters oder Dienst, das eine eigene Begriffe und die Datenschutzrichtlinie fällt. Sie sind verantwortlich für die Verwendung von Drittanbieter-Produkte und Dienste.
+Turnitin ist ein Plagiat-Erkennungsdienst. Hierbei handelt es sich um ein Produkt oder eine Dienstleistung eines Drittanbieters, das seinen eigenen Bedingungen und Datenschutzrichtlinien unterliegt. Sie sind für die Nutzung von Produkten und Dienstleistungen von Drittanbietern verantwortlich.
 
 Diese Einstellung ist standardmäßig deaktiviert.
 
-Um erfolgreich Turnitin für Ihre Organisation zu aktivieren, müssen Sie bereits eine Turnitin-Abonnement verfügen. Sie müssen die folgende zusätzliche Informationen eingeben, die in der Verwaltungskonsole Turnitin nicht gefunden werden können:
+Damit Sie Turnitin für Ihre Organisation erfolgreich aktivieren können, müssen Sie bereits über ein Turnitin-Abonnement verfügen. Sie müssen die folgenden zusätzlichen Informationen eingeben, die in ihrer Turnitin-Verwaltungskonsole zu finden sind:
 
-  * _TurnitinApiKey_: Dies ist eine 32 Zeichen-GUID in der Verwaltungskonsole unter Integrationen gefunden wurde.
-  * _TurnitinApiUrl_: Dies ist die HTTPS-URL der Admin-Konsole Turnitin.
+  * _TurnitinApiKey_: Hierbei handelt es sich um eine 32-Zeichen-GUID, die in der Admin-Konsole unter Integrationen gefunden wird.
+  * _TurnitinApiUrl_: Dies ist die HTTPS-URL Ihrer Turnitin-Verwaltungskonsole.
 
-Hier sind einige Anweisungen, damit Sie diese Informationen nutzen können.
+Hier sind einige Anweisungen, die Ihnen bei der Behebung dieser Informationen helfen.
 
-Die TurnitinApiUrl ist die Adresse des Hosts der Administratorkonsole.
-![Suchen die TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin1.png)
+Die TurnitinApiUrl ist die Hostadresse Ihrer Admin-Konsole.
+![Screenshot mit der Hostadresse](./educationImages/Assignments_mopo_turnitin1.png)
 
-Wechseln Sie zur Registerkarte Integrationen, und fügen Sie eine Integration.
-![Suchen die TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin2.png)
+Wechseln Sie zur Registerkarte Integrationen, und fügen Sie eine Integration hinzu.
+![Screenshot mit dem Hinzufügen einer neuen Integration](./educationImages/Assignments_mopo_turnitin2.png)
 
-Die TurnitinApiKey Ihnen erhält, nachdem Sie die Anweisung befolgen. Kopieren Sie diesen Schlüssel, und fügen Sie ihn in der Microsoft-Teams-Verwaltungskonsole. 
-![Suchen die TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin3.png)
+Nachdem Sie den Anweisungen folgen, wird Ihnen der TurnitinApiKey mitgeteilt. Kopieren Sie diesen Schlüssel, und fügen Sie ihn in das Microsoft Teams Admin Center ein. 
+![Screenshot mit dem Kopieren des API-Schlüssels](./educationImages/Assignments_mopo_turnitin3.png)
 
-[Erfahren Sie mehr über die Integration zwischen Turnitin und Microsoft-Teams](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
+[Weitere Informationen zur Integration von Turnitin und Microsoft Teams](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
 
-[Erfahren Sie mehr über Turnitin](https://www.turnitin.com/)
+[Weitere Informationen zu Turnitin](https://www.turnitin.com/)

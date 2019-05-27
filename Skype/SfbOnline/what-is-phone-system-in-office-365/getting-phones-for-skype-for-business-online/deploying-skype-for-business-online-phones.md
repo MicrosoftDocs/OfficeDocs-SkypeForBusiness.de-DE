@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Informieren Sie sich über die Bereitstellungsschritte, um die richtige Firmware zu erhalten, Sie bei Bedarf zu aktualisieren, Lizenzen zuzuweisen und Einstellungen für Skype for Business Online-Telefone zu konfigurieren.
-ms.openlocfilehash: 1e83c240b5406fbb3e7a247200d2b38d74ba8ef5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8d3de52f7c732571b3692ed2b3683673acdb8e60
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298008"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432585"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Bereitstellen von Telefonen für Skype for Business Online
 
@@ -71,15 +71,15 @@ Von Skype for Business Online unterstützte Telefone und Firmware sind auch mit 
   
 Firmwareupdates werden vom Skype for Business-Dienst verwaltet. Die Firmware für alle Skype for Business-zertifizierten Telefone wird auf den Skype for Business-Updateserver hochgeladen, und Geräteupdates sind in allen Telefonen standardmäßig aktiviert. Je nachdem, wann die Telefone inaktiv sind und welche Abrufintervalle festgelegt sind, werden die neuesten zertifizierten Builds automatisch heruntergeladen und installiert. Sie können die Einstellungen für Geräteupdates mit dem [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx)-Cmdlet deaktivieren und den  _EnableDeviceUpdate_-Parameter auf  `false` festlegen.
   
-![Bereitstellen von Telefonen.](../../images/be727622-1924-439f-96ca-89230739db9e.png)
+![Screenshot mit Bereitstellen von Telefonen](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
 Wenn neue Firmware verfügbar und zum Herunterladen und Installieren bereit ist, benachrichtigt das Telefon den Benutzer. Polycom-Telefone benachrichtigen den Benutzer und bieten dabei die Optionen **Update** (Aktualisieren) und **Postpone** (Aufschieben).
   
-![Bereitstellen von Telefonen.](../../images/50956fa0-da0c-4085-9bb5-4a2e99aecebb.png)
+![Screenshot mit den Optionen "Aktualisieren" und "verschieben"](../../images/50956fa0-da0c-4085-9bb5-4a2e99aecebb.png)
   
 Für Polycom-Telefone können Sie die Firmware auf dem Telefon aktualisieren, indem Sie **SwUpdate** (Softwareupdate) auswählen.
   
-![Bereitstellen von Telefonen.](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
+![Screenshot mit der Option "SwUpdate"](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
   
 Wahlweise können Sie Firmwareupdates auch mit einem Partnerbereitstellungssystem verwalten. Informationen zur Verwaltung durch Partnerbereitstellungssysteme einschließlich der erweiterten Telefonanpassung finden Sie in den Administratorhandbüchern der Hersteller.
   
@@ -102,17 +102,17 @@ Weitere Informationen zu Anrufplänen finden Sie unter Lesen von [Telefon System
     
   - Benutzer mit **Polycom VVX 5XX/6XX** -Telefonen sehen folgenden Bildschirm:
     
-     ![Bereitstellen von Telefonen.](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
+     ![Screenshot mit der Anmeldung für Polycom-Telefone](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
   
   - Benutzer mit **Yealink T48G/T46G** -Telefonen sehen folgenden Bildschirm:
     
-     ![Yealink-Telefon-Login.](../../images/2a2892ae-850d-4781-8be0-4ffb8af068c9.png)
+     ![Screenshot mit der Yealink-Telefonanmeldung](../../images/2a2892ae-850d-4781-8be0-4ffb8af068c9.png)
   
     Details zu den von den Herstellern unterstützten Anmeldeoptionen finden Sie unter [Kauf von Telefonen für Skype for Business Online](getting-phones-for-skype-for-business-online.md).
     
 - **Benutzer-ID**: Die Benutzer können über die Wähltastatur oder die Bildschirmtastatur (falls verfügbar) des Telefons den Benutzernamen und das Kennwort der Organisation eingeben, um sich bei dem Telefon anzumelden. Für den Benutzernamen müssen sie das UPN-Format verwenden (zum Beispiel <em>amosm@contoso.com</em>  ).
     
-     ![Bereitstellen von Telefonen.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![Screenshot mit dem Anmeldebildschirm](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
     > [!NOTE]
     > PIN-Authentifizierung wird für Skype for Business Online in Verbindung mit LPE- und Partner-IP-Telefonen nicht unterstützt. 
@@ -122,47 +122,47 @@ Weitere Informationen zu Anrufplänen finden Sie unter Lesen von [Telefon System
   > [!NOTE]
   > Die Benutzer müssen den Benutzernamen und das Kennwort der Organisation eingeben, um sich bei dem Telefon anzumelden. Für den Benutzernamen müssen sie das UPN-Format verwenden (zum Beispiel  <em>amosm@contoso.com</em>  ).
   
-     ![Bereitstellen von Telefonen.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![Screenshot mit dem Anmeldebildschirm](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
 - **Verwendung einer Webanmeldung**: Dies ist eine neue Methode, bei der sich Onlinebenutzer mit einem standardmäßigen Webbrowser authentifizieren können. Den Benutzern werden Anweisungen bereitgestellt, denen sie folgen müssen, wenn sie einen Browser für die Anmeldung verwenden.
     
   - Benutzer mit **Polycom VVX 5XX/6XX** -Telefonen sehen folgenden Bildschirm:
     
-     ![Bereitstellen von Telefonen.](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
+     ![Screenshot mit den Polycom-Anweisungen](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
   
   - Benutzer mit **Yealink T48G/T46G** -Telefonen sehen folgenden Bildschirm:
     
-     ![Yealink-Telefon-Login.](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
+     ![Screenshot mit Yealink-Anweisungen](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
   
     Der generierte Code läuft nach 15 Minuten ab. Wenn er abgelaufen ist, müssen die Benutzer je nach Telefon auf **Wiederholen** oder **OK** klicken, um einen neuen Code zu generieren.
     
   - Benutzer mit **Polycom VVX 5XX/6XX** -Telefonen sehen folgenden Bildschirm:
     
-     ![Der PIN-Code ist abgelaufen.](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
+     ![Screenshot mit abgelaufenem Polycom-Code](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
   
   - Benutzer mit **Yealink T48G/T46G** -Telefonen sehen folgenden Bildschirm:
     
-     ![Yealink-Telefon-Login.](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
+     ![Screenshot mit abgelaufenem Yealink-Code](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
   
     Navigieren Sie in einem Browser zu der auf dem Telefon angezeigten Adresse, und geben Sie Ihren Skype for Business-Benutzernamen ein.
     
-     ![Bereitstellen von Telefonen.](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
+     ![Screenshot mit e-Mail-Überprüfung](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
   
     Geben Sie den auf dem Telefon angezeigten Code ein.
     
-     ![Bereitstellen von Telefonen.](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
+     ![Screenshot mit Eingabe des Codes auf dem Anmeldebildschirm](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
     Vergewissern Sie sich, dass auf der Website „ **Skype for Business-zertifiziertes Telefon** von [Name des Telefonherstellers]" angezeigt wird, und klicken Sie auf **Weiter**.
     
-     ![Bereitstellen von Telefonen.](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
+     ![Screenshot mit der Überprüfung des Namens](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
     Klicken Sie auf die Anmeldeinformationen des Benutzers oder auf **Anderes Konto verwenden**:
     
-     ![Bereitstellen von Telefonen.](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
+     ![Screenshot mit Anmeldeoptionen](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
   
     Wenn die folgende Seite angezeigt wird, können Sie den Browser gefahrlos schließen.
     
-     ![Bereitstellen von Telefonen.](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
+     ![Screenshot mit Bestätigungsmeldung](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
   
     > [!NOTE]
     > LPE-Telefone für Skype for Business Online unterstützen nur die Anmeldung über USB-Tethering. 
@@ -203,7 +203,7 @@ BToE kann für den Betrieb in zwei Modi konfiguriert werden:  *Automatisch*  (St
   
 1. Verbinden Sie den PC über den PC-Anschluss mit dem Telefon.
     
-     ![Bereitstellen von Telefonen.](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
+     ![Screenshot mit Verbindung zu einem PC](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
 2. Laden Sie über die folgenden Links die neueste BToE-Software von der Website des entsprechenden Herstellers herunter. Sie können die Benutzerfreundlichkeit erhöhen, indem Sie die BToE-Software mit einer Administratorverteilungslösung wie System Center Configuration Manager (SCCM) verteilen und installieren. Hilfe zur Verwendung von SCCM finden Sie unter [Pakete und Programme in System Center Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
     

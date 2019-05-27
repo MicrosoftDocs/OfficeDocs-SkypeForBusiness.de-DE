@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a61a9e31e2c1ba7c33da3a09d213e1ab0339756b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 69b23cefcfa6329e95e3413d720b3033250dd504
+ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246062"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34421995"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
 
@@ -59,8 +59,6 @@ Diese Apps werden von Drittanbietern bereitgestellt. Sie können die folgenden E
 - **Allow sideloading of external apps** (Querladen von externen Apps zulassen): Wenn Sie einige externe Apps aktivieren und andere deaktivieren möchten, deaktivieren Sie diese Einstellung, und deaktivieren Sie anschließend in der Liste der externen Apps die Apps, auf die Benutzer nicht zugreifen sollen. Wenn diese Einstellung aktiviert ist, können Teambesitzer und Mitglieder, denen eine Berechtigung erteilt wurde, Apps in Microsoft Teams querladen. 
 
 - **Enable new external apps by default** (Neue externe Apps standardmäßig aktivieren): Wenn diese Einstellung aktiviert ist, können Benutzer neue Apps aktivieren, sobald diese zum Microsoft Teams-App-Katalog hinzugefügt werden. Deaktivieren Sie diese Einstellung, wenn Sie neue Apps steuern möchten. Wenn Sie die Einstellung deaktiviert haben, müssen Sie natürlich daran denken, neue Apps regelmäßig zu überprüfen, damit Ihrer Organisation keine tollen neuen Apps entgehen. 
-
-Weitere Informationen finden Sie unter [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md). 
 
 ## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Unternehmensweite Teams-Einstellungen im Admin Center für Microsoft Teams
 Sie können organisationsweite Benutzereinstellungen im Microsoft Teams Admin Center steuern. Um organisationsweite Einstellungen zu bearbeiten, gehen Sie zum Microsoft Teams Admin Center, und wählen Sie dann **Organisationsweite Einstellungen** aus. Sie können die folgenden Einstellungen konfigurieren.
@@ -128,7 +126,7 @@ Hier können Sie die App auswählen, die Benutzer für die Teilnahme an Skype fo
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Woran erkenne ich, welche Funktionen verfügbar sind?
 
-In der [Microsoft 365-Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) finden Sie Informationen zu neuen Microsoft Teams-Funktionen. Weitere Informationen zu neuen und geplanten Funktionen finden Sie in Microsoft Teams auf der Seite [Neuigkeiten](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) und im [Microsoft Teams-Blog der Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+In der [Microsoft 365-Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) finden Sie Informationen zu neuen Microsoft Teams-Funktionen. Weitere Informationen zu neuen und geplanten Funktionen finden Sie in Microsoft Teams auf der Seite [Neuigkeiten](https://support.office.com/de-DE/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) und im [Microsoft Teams-Blog der Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Weitere Informationen
 

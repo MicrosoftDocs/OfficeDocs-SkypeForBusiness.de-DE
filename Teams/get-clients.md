@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4c18bdd39e7978258c90bd4c757eb3e2e86a3b3
-ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
+ms.openlocfilehash: 254d6391aa828276df1c3b56fb62185c8f13d75a
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34082665"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432761"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 ===========================
@@ -31,9 +31,9 @@ ms.locfileid: "34082665"
 Microsoft Teams-Clients sind für Desktop (Windows und Mac), Web und mobile Betriebssysteme (Android und iOS) verfügbar. Alle diese Clients erfordern eine aktive Internetverbindung. Ein Offlinemodus wird nicht unterstützt.
 
 > [!NOTE]
-> Ab dem 29. November 2018 können Sie die Microsoft Teams for Windows 10 S-App (Vorschau), die im Microsoft Store verfügbar ist, nicht mehr verwenden. Stattdessen können Sie jetzt herunterladen und installieren den Desktopclient Teams auf Geräte, auf denen Windows 10 S-Modus. Wenn den Desktopclient herunterladen möchten, wechseln Sie zur [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754). MSI-Builds von den Teams Desktopclient sind noch nicht verfügbar für Geräte, auf denen Windows 10 S-Modus.
+> Ab dem 29. November 2018 können Sie die Microsoft Teams for Windows 10 S-App (Vorschau), die im Microsoft Store verfügbar ist, nicht mehr verwenden. Stattdessen können Sie jetzt den Desktop-Client für Teams auf Geräten mit Windows 10 S-Modus herunterladen und installieren. Wechseln Sie zum Herunterladen des Desktop- [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)Clients zu. MSI-Builds des Teams-Desktop Clients sind noch nicht für Geräte verfügbar, auf denen Windows 10 S-Modus ausgeführt wird.
 >
-> Weitere Informationen zum Windows 10 S Modus finden Sie unter [Einführung in Windows 10 im S-Modus](https://www.microsoft.com/windows/s-mode). 
+> Weitere Informationen zum Windows 10 s-Modus finden Sie unter [Einführung in Windows 10 im s-Modus](https://www.microsoft.com/windows/s-mode). 
 
 <a name="desktop-client"></a>Desktopclient
 --------------
@@ -41,7 +41,7 @@ Microsoft Teams-Clients sind für Desktop (Windows und Mac), Web und mobile Betr
 > [!Tip]
 > Schauen Sie sich die folgende Sitzung mit Informationen zu den Vorteilen des Windows-Desktopclient sowie zum Planen und Bereitstellen der Lösung an: [Windows-Desktopclient für Teams](https://aka.ms/teams-clients)
 
-Der Microsoft-Teams Desktopclient ist eine eigenständige Anwendung und steht auch [in Office 365 ProPlus](https://docs.microsoft.com/en-us/deployoffice/teams-install). Teams ist für die 32-Bit- und 64-Bit-Versionen von Windows (7+) und für macOS (10.10+) verfügbar. Unter Windows erfordert Teams .NET Framework 4.5 oder höher. Das Installationsprogramm für Teams bietet die Installation an, wenn Sie nicht darüber verfügen. 
+Der Microsoft Teams-Desktop Client ist eine eigenständige Anwendung und steht auch [in Office 365 ProPlus zur Verfügung](https://docs.microsoft.com/en-us/deployoffice/teams-install). Teams ist für die 32-Bit- und 64-Bit-Versionen von Windows (7+) und für macOS (10.10+) verfügbar. Unter Windows erfordert Teams .NET Framework 4.5 oder höher. Das Installationsprogramm für Teams bietet die Installation an, wenn Sie nicht darüber verfügen. 
 
 Die Desktopclients bieten Unterstützung für Echtzeitkommunikation (Audio, Video und Inhaltsfreigabe) für Teambesprechungen, Gruppenanrufe und private Einzelanrufe.
 
@@ -129,13 +129,13 @@ Mobile Apps werden nur über den jeweiligen App Store für ihre mobile Plattform
 
 | | | |
 |---------|---------|---------|
-|![Entscheidungspunktsymbol](media/Get_clients_for_Microsoft_Teams_image4.png)      |Entscheidungspunkt         |Gelten Einschränkungen, die Benutzer daran hindern, den entsprechenden Microsoft Teams-Client auf ihren Geräten zu installieren?         |
-|![Symbol für „Nächste Schritte“](media/Get_clients_for_Microsoft_Teams_image5.png)     |Nächste Schritte         |Wenn Ihre Organisation Softwareinstallationen einschränkt, stellen Sie sicher, dass dieser Prozess mit Microsoft Teams kompatibel ist. Hinweis: Administratorrechte sind zum Installieren von Clients auf einem PC nicht erforderlich, auf einem Mac jedoch sind sie erforderlich.         |
+|![Ein Symbol, das einen Entscheidungspunkt darstellt](media/Get_clients_for_Microsoft_Teams_image4.png)      |Entscheidungspunkt         |Gelten Einschränkungen, die Benutzer daran hindern, den entsprechenden Microsoft Teams-Client auf ihren Geräten zu installieren?         |
+|![Ein Symbol, das die nächsten Schritte darstellt](media/Get_clients_for_Microsoft_Teams_image5.png)     |Nächste Schritte         |Wenn Ihre Organisation Softwareinstallationen einschränkt, stellen Sie sicher, dass dieser Prozess mit Microsoft Teams kompatibel ist. Hinweis: Administratorrechte sind zum Installieren von Clients auf einem PC nicht erforderlich, auf einem Mac jedoch sind sie erforderlich.         |
 
 <a name="client-update-management"></a>Verwaltung von Clientupdates
 ------------------------
 
-Clients werden derzeit automatisch vom Microsoft-Teams, Dienst mit keine IT-Administrator erforderlichem Benutzereingriff aktualisiert. Wenn ein Update verfügbar ist, wird der Client automatisch Update herunterladen, und wenn die app für eine bestimmte Zeitspanne im Leerlauf überging hat, wird der Aktualisierungsprozess beginnen.
+Clients werden derzeit vom Microsoft Teams-Dienst automatisch aktualisiert, ohne dass ein IT-Administratoreingriff erforderlich ist. Wenn ein Update verfügbar ist, wird der Client das Update automatisch herunterladen, und wenn die APP für einen bestimmten Zeitraum inaktiv ist, wird der Updatevorgang gestartet.
 
 <a name="client-side-configurations"></a>Clientseitige Konfigurationen
 ---------------------------

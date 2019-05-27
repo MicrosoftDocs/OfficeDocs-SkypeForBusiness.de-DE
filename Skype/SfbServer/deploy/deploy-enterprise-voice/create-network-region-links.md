@@ -1,10 +1,10 @@
 ---
-title: Erstellen von netzwerkregionenverbindungen in Skype für Business Server
+title: Erstellen von Links zu netzwerkregionen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
-description: Erstellen oder Ändern von netzwerkregionenverbindungen, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden.
-ms.openlocfilehash: c3b0f24ffdeea1724c89951ffc88516aea4dffb5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Erstellen oder Ändern von Netzwerk Regions Verknüpfungen, die von Enterprise-VoIP-Zulassungs Steuerung in Skype for Business Server verwendet werden.
+ms.openlocfilehash: 60d4d6f1279e7f6ad3946a6b25fb32ecd589ab07
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892958"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286270"
 ---
-# <a name="create-network-region-links-in-skype-for-business-server"></a>Erstellen von netzwerkregionenverbindungen in Skype für Business Server
+# <a name="create-network-region-links-in-skype-for-business-server"></a>Erstellen von Links zu netzwerkregionen in Skype for Business Server
  
-Erstellen oder Ändern von netzwerkregionenverbindungen, die von Enterprise-VoIP-anrufsteuerung in Skype für Business Server verwendet werden. 
+Erstellen oder Ändern von Netzwerk Regions Verknüpfungen, die von Enterprise-VoIP-Zulassungs Steuerung in Skype for Business Server verwendet werden. 
   
 Regionen in einem Netzwerk sind über physische WAN-Verbindungen miteinander verbunden. Eine Netzwerkregionenverbindung erstellt eine Verbindung zwischen zwei Regionen, die für die Anrufsteuerung (Call Admission Control, CAC) konfiguriert sind, und legt die Bandbreiteneinschränkungen für den Audio- und Videodatenverkehr zwischen diesen Regionen fest.
   
-Die Beispieltopologie weist eine Verbindung zwischen den Regionen „North America“ und „APAC“ sowie zwischen den Regionen „EMEA“ und „APAC“ auf. Diese Region links wird von WAN-Bandbreite eingeschränkt, wie beschrieben in Tabelle Bandbreiteninformationen [Beispiel: Sammeln von Anforderungen für die anrufsteuerung in Skype für Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
+Die Beispieltopologie weist eine Verbindung zwischen den Regionen „North America“ und „APAC“ sowie zwischen den Regionen „EMEA“ und „APAC“ auf. Jede dieser Regions Verknüpfungen wird durch die WAN-Bandbreite beschränkt, wie in der Tabelle Regions Link-bandbreiteninformationen beschrieben, [beispielsweise: Erfassen der Anforderungen für die Anrufsteuerung in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
   
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Erstellen Sie netzwerkregionenverbindungen mithilfe von Skype für Business Server-Verwaltungsshell
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>So erstellen Sie Netzwerk Regions Verknüpfungen mithilfe der Skype for Business Server-Verwaltungsshell
 
 1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
     
@@ -43,9 +43,9 @@ Die Beispieltopologie weist eine Verbindung zwischen den Regionen „North Ameri
    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
    ```
 
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>Erstellen Sie netzwerkregionenverbindungen mithilfe von Skype Business Server-Systemsteuerung
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>So erstellen Sie Netzwerk Regions Verknüpfungen mithilfe der Skype for Business Server-Systemsteuerung
 
-1. Öffnen von Skype Business Server-Systemsteuerung.
+1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
     
 2. Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**.
     

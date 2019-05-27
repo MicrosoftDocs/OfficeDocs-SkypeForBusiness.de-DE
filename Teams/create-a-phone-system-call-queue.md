@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie das Telefon System für Cloud-Anrufwarteschlangen einrichten, damit Sie eine organisatorische Begrüßung, Musik in Wartestellung und Umleiten von Anrufen an Anruf-Agents in Verteilerlisten und Sicherheitsgruppen erhalten. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: e32ab12c63f20439d21c9c1829cd4b32bdd34d70
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 3fc7dc69fad9e249c29758ae9bd0c30038520408
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344685"
+ms.locfileid: "34404310"
 ---
 # <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloudanrufwarteschleife
 
@@ -181,6 +181,8 @@ Sie können bis zu 200 Anruf-Agents auswählen, die zu bestimmten Mailinglisten 
  Um diese Lizenzen für Enterprise-VoIP zu aktivieren, können Sie die Windows PowerShell verwenden. Führen Sie beispielsweise folgenden Befehl aus:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Online-Benutzer mit einer **Telefonsystem**-Lizenz und einem Anrufplan, die einer Office 365-Gruppe, einer e-Mail-Verteilerliste oder einer Sicherheitsgruppe hinzugefügt worden sind. Es kann bis zu 3 Stunden dauern, bis ein neuer Agent für eine Verteilerliste oder eine Sicherheitsgruppe hinzugefügt wurde, um mit dem Empfang von Anrufen aus einer Anrufwarteschlange zu beginnen. Eine neu erstellte Verteilerliste oder Sicherheitsgruppe kann bis zu 48 Stunden dauern, bis Sie für die Verwendung mit Anrufwarteschlangen verfügbar ist. Neu erstellte Office 365-Gruppen sind fast sofort verfügbar.
+
+- Wenn Ihre Agents die Microsoft Teams-App verwenden, um Anruf Warteschlangen Anrufe zu empfangen, müssen Sie sich im TeamsOnly-Modus befinden.
 
 ![Set up call queues.](media/skype-for-business-add-agents-to-call-queue.png)
 

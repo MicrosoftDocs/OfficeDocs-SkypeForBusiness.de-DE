@@ -10,58 +10,58 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Stellen Sie wichtige Entscheidungen für Phase 2 des Projektplans Annahme
+description: Treffen wichtiger Entscheidungen für Phase 2 Ihres Adoptions Plans
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecf91ea9a06b3984b65954617fe5690658015e52
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31cfe0d42c7ce3382d8c7903bb7789cde19d35db
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896332"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433040"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Schnellstart von Governance für Microsoft Teams
 
-Die folgenden Aktivitäten werden gleichzeitig auftreten und sie möglicherweise ganz oder teilweise wichtige Team betreffen. Es empfiehlt sich zurückstellen Sie umfangreiche Unternehmensleitung und Unterhaltungen für Sicherheit nach Abschluss der anfänglichen Experimentieren mit Teams. Dadurch wird die Entscheidungen vereinfacht, die Sie benötigen, späteren Zeitpunkt zu stellen. In dieser Phase sind einige Entscheidungen, die getroffen werden müssen. Damit sie erfolgreich sind müssen Sie zunächst die folgenden Fragen beantworten:
+Die folgenden Aktivitäten werden gleichzeitig ausgeführt, und Sie können die gesamte oder einen Teil Ihres wichtigen Teams einbeziehen. Als bewährte Methode sollten Sie umfangreiche Governance-und Sicherheits Unterhaltungen aufschieben, nachdem Sie Ihr erstes Experiment mit Teams abgeschlossen haben. Dadurch werden die Entscheidungen vereinfacht, die Sie zu diesem späteren Zeitpunkt treffen müssen. In dieser Phase müssen einige Entscheidungen getroffen werden. Damit Sie erfolgreich sind, müssen Sie zunächst die folgenden Fragen beantworten:
 
-- Welche beteiligten aus Ihrer früheren Assessment eignet sich zur Teilnahme an dieser Onboarding beschränkt Business?
-- Vorschlag diese Person (oder eine Gruppe von Personen) Anwendungsfälle einen, die geeignet für diese Phase wären?  
-- Verfügen sie über genügend Interesse von Mitarbeitern in ihrer Organisation frühe Übernahmen und Ihnen sinnvollen und regulären Feedback geben? 
+- Welche Stakeholder aus ihrer früheren Beurteilung sind ein guter Kandidat für die Teilnahme an diesem limitierten Unternehmen an Bord?
+- Hat diese Person (oder Gruppe von Personen) Anwendungsfälle vorgeschlagen, die für diese Phase gute Kandidaten sind?  
+- Haben Sie genügend Interesse von Mitarbeitern in Ihrer Organisation, frühzeitige Anwender zu sein und Ihnen ein sinnvolles und regelmäßiges Feedback zu geben? 
 
-## <a name="decision-point-iconmediateams-adoption-decision-iconpngdecisions"></a>![Entscheidungspunktsymbol](media/teams-adoption-decision-icon.png)Entscheidungen
+## <a name="an-icon-representing-a-decision-pointmediateams-adoption-decision-iconpngdecisions"></a>![Ein Symbol, das einen Entscheidungspunkt darstellt](media/teams-adoption-decision-icon.png)Entscheidungen
 
-Stellen Sie die folgenden Entscheidungen (zu diesem Zeitpunkt diese Entscheidungen gelten nur für Phase 2):
+Treffen Sie die folgenden Entscheidungen (zu diesem Zeitpunkt gelten diese Entscheidungen nur für Phase 2):
 
-### <a name="decision-1-who-can-create-teams"></a>Entscheidung 1: Benutzer können Teams, erstellen 
+### <a name="decision-1-who-can-create-teams"></a>Entscheidung 1: Wer kann Teams erstellen? 
 
-Für die Zwecke dieser Phase können Sie einschränken, die die frühe Firmenwerts Auffüllung neben Ihrem Projektteam Core-Teams erstellen kann. Dadurch wird die frühen Übernahmen zusätzliche Teams bei Bedarf zu erstellen. Dieses Verhalten Monitoring erhalten Sie wichtige Informationen für Ihre Bereitstellung.
+In dieser Phase können Sie die Personen, die in der Lage sind, Teams zu erstellen, zusätzlich zu Ihrem Kernprojektteam einschränken. Auf diese Weise können ihre frühen Anwender bei Bedarf zusätzliche Teams erstellen. Wenn Sie dieses Verhalten überwachen, erhalten Sie wichtige Informationen für Ihre umfassende Bereitstellung.
 
-### <a name="decision-2-teams-naming-conventions"></a>Entscheidung 2: Teams Benennungskonventionen 
+### <a name="decision-2-teams-naming-conventions"></a>Entscheidung 2: Benennungskonventionen für Teams 
 
-Sie möchten wahrscheinlich implementieren Sie einige Benennungskonventionen für Ihre Bereitstellung von Teams, und prüfen, ob doppelte Namen. In Phase 2 empfehlen wir, dass Sie eine manuelle Namenskonvention für Ihre anfänglichen Projekte nur implementieren. Die bewährte Methode für dieses wird eine interaktive Onboarding mit dem frühe Firmenwerts Projektteam durchführen und ermöglicht es ihnen, einen eigenen Namen auswählen. Dadurch erhalten Sie einen Einblick in wie Mitarbeiter ihre Arbeit denken, und werden wichtige in einem größeren Ausmaß Benennungskonvention zu einem späteren Zeitpunkt erstellen. (Weitere Informationen zu Elementen des eine interaktive Onboarding wird weiter unten in diesem Handbuch angezeigt.)
+Wahrscheinlich möchten Sie einige Benennungskonventionen für Ihre breite Bereitstellung von Teams implementieren und auf doppelte Namen überprüfen. In Phase 2 empfehlen wir, nur für Ihre anfänglichen Projekte eine manuelle Benennungskonvention zu implementieren. Die bewährte Vorgehensweise besteht darin, ein interaktives Onboarding mit dem Early Adopter-Projektteam durchzuführen und es ihm zu ermöglichen, seinen eigenen Namen auszuwählen. Dadurch erhalten Sie einen Einblick in die Art und Weise, wie Mitarbeiter über ihre Arbeit nachdenken, und müssen zu einem späteren Zeitpunkt eine größere Benennungskonvention erstellen. (Weitere Informationen zu den Elementen einer interaktiven Onboarding-Version werden später in diesem Leitfaden angezeigt.)
 
 ### <a name="decision-3-guest-access"></a>Entscheidung 3: Gastzugriff
 
-Je nach Umfang und Art des Projekts und der Art der Ihre Branche sichere Zusammenarbeit mit Partnern und Lieferanten wesentliche Funktion möglicherweise, den, die Sie testen möchten. Sie können einschränken, wer Gäste Ihrer Implementierung von Teams mithilfe der entsprechenden Mandanten Steuerelemente hinzufügen können. 
+Je nach Umfang und Typ Ihres Projekts und der Art ihrer Branche ist es möglich, dass die sichere Zusammenarbeit mit Partnern oder Anbietern eine wichtige Funktion ist, die Sie testen möchten. Mithilfe der entsprechenden Mandanten Steuerelemente können Sie einschränken, wer ihrer Teams-Implementierung Gäste hinzufügen kann. 
 
-### <a name="decision-4-approved-apps"></a>Entscheidung 4: Genehmigt apps
+### <a name="decision-4-approved-apps"></a>Entscheidung 4: genehmigte apps
 
-Groß-/Kleinschreibung Nutzung des Teams umfasst die Integration von anderen apps in der Benutzeroberfläche. Mindestens technische Team sollten den ersten Teilnehmer aktivieren und wichtige apps in Ihre Erfahrung Teams. Je nach Ihrer Anwendungsfall und andere apps in Ihrer Organisation verwendeten können Sie optional weitere apps als Teil Ihrer gesteuerten Experiments enthalten. 
+Die optimale Verwendung von Teams umfasst die Integration anderer apps in die Benutzeroberfläche. Ihr technisches Team sollte mindestens die erste Partei und die vorgestellten Apps in Ihrer Teams-Umgebung aktivieren. Je nach Anwendungsfall und anderen apps, die in Ihrer Organisation verwendet werden, können Sie sich entscheiden, zusätzliche Apps als Teil Ihres kontrollierten Experiments einzubeziehen. 
 
-### <a name="decision-5-are-meetings-included-in-your-test"></a>Entscheidung 5: Sind Besprechungen, die im Test enthalten? 
+### <a name="decision-5-are-meetings-included-in-your-test"></a>Entscheidung 5: sind Besprechungen im Test enthalten? 
 
-Die Teams besprechungsumgebung hohe Qualität ist, unterstützt video chatten und Ihre Mitarbeiter zusammen, um effektiver vereint. Wenden Sie sich mit Ihrem technischen Team dafür sorgen, dass Ihre Umgebung bereit einfache VoIP-Besprechungen eingeschlossen ist. Aktivierung von Audiokonferenzen oder Sprachdienste würde normalerweise aus in dieser Phase der Ihrer experimentieren ausgeschlossen werden. jedoch das Projektteam Core, Ihre technische Bereitschaft, hängt und der Status von anderen VoIP/Meeting-Dienste in Ihrer Organisation. Es wird empfohlen, einschließlich video Chats und VoIP-Besprechungen in Ihrer experimentieren, mehr Nutzen aus Ihrer Implementierung Teams zu erhalten. 
+Die Besprechungs Erfahrung von Teams ist von hoher Qualität, unterstützt Videochats und bringt Ihre Mitarbeiter zusammen, um effektiver zu sein. Wenden Sie sich an Ihr technisches Team, um sicherzustellen, dass Ihre Umgebung einfache VoIP-Besprechungen beinhalten kann. Das Aktivieren von Audiokonferenz-oder Sprachdiensten wäre in der Regel von dieser Phase ihres Experiments ausgeschlossen; Dies hängt jedoch von Ihrem Kernprojektteam, ihrer technischen Bereitschaft und dem Zustand anderer sprach-/Besprechungsdienste in Ihrer Organisation ab. Wir empfehlen, dass Sie Video-Chats und VoIP-Besprechungen in ihre Experimente einbeziehen, um von Ihrer Team Implementierung mehr Wert zu erhalten. 
 
-### <a name="decision-6--data-security"></a>Entscheidung 6: Sicherheit
+### <a name="decision-6--data-security"></a>Entscheidung 6: Datensicherheit
 
-Vorbereitung Ihrer Bereitstellung können Sie optional Sicherheitskennzeichen verwenden, um die Arten von Teams in Ihrer Umgebung zu klassifizieren. Für die Zwecke dieser Experiments wird empfohlen, finden Sie unter [Planen der Steuerung in Teams](plan-teams-governance.md) und stellen Sie sicher, dass eine grundlegende Aufbewahrungsrichtlinie für Teams Daten in Office 365-Organisation festgelegt wurde. Sie müssen diese Arbeiten mit Ihrem technischen Team koordinieren, da Office 365-Administratorrechte erforderlich sind, um diesen Vorgang abzuschließen.
+In Vorbereitung für Ihre umfassende Bereitstellung können Sie Sicherheits Beschriftungen verwenden, um die Typen von Teams in Ihrer Umgebung zu klassifizieren. Für dieses Experiment empfehlen wir, dass Sie auf [Plan for Governance in Teams](plan-teams-governance.md) verweisen und sicherstellen, dass eine grundlegende Aufbewahrungsrichtlinie für Teams-Daten in Ihrer Office 365-Organisation festgesetzt wurde. Möglicherweise müssen Sie diese Arbeit mit Ihrem technischen Team koordinieren, da Office 365-Administratorrechte erforderlich sind, um diese Arbeit abzuschließen.
 
-### <a name="decision-7-length-of-your-experiment"></a>Entscheidung 7: Länge der Experiments
+### <a name="decision-7-length-of-your-experiment"></a>Entscheidung 7: Dauer des Experiments
 
-Teams jene fehlerfrei Tempo entsprechenden Momentum, den Fokus und Befunde sichergestellt wird fortgesetzt. Es wird empfohlen, dass dieser Phase des Projekts 60 Tage lang werden sicher, dass Ihre frühen Übernahmen ausreichend Business Zyklen ausführen. Erweitern experimentieren zu umfangreich Zeit erhöht das Risiko eines Programms fehlgeschlagenen ändern. Dieses Mal wird jedoch für jede Organisation variieren.  
+Eine erfolgreiche Teams-Implementierung wird in einem gesunden Tempo durchgeführt, um entsprechende Dynamik, Fokus und Lernerfolge zu gewährleisten. Wir empfehlen, dass diese Phase Ihres Projekts 60 Tage dauern wird, um sicherzustellen, dass Ihre Early-Anwender genügend Geschäftszyklen durchführen. Wenn Sie das Experimentieren für zu lange Zeit verlängern, erhöht sich das Risiko eines fehlgeschlagenen Änderungs Programms. Diese Zeit ist jedoch für jede Organisation unterschiedlich.  
 
-![Nächste Schritte Symbol](media/teams-adoption-next-icon.png) weiter: [Verwendungsszenarien definieren](teams-adoption-define-usage-scenarios.md)
+![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt als nächstes darstellt: [Definieren von Verwendungsszenarien](teams-adoption-define-usage-scenarios.md)

@@ -14,48 +14,48 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie integrierte und benutzerdefinierte Registerkarten verwenden können, um Funktionen wie Unterhaltungen, Dateien, Karten usw. einzubeziehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e63cbe83214f9323692804b7d297de9091aceef0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 461e61033cc0d201d0477bec2ff9ec66df0541d1
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235143"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432920"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Verwenden von integrierten und benutzerdefinierten Registerkarten in Microsoft Teams
 ==================================================
 
-Registerkarten können Teammitglieder Zugriff auf Dienste auf einem dedizierten Zeichenbereich in einem Kanal oder in einem Chat. Auf diese Weise können das Team direkt mit Tools und Daten arbeiten und Gespräche über diese im Kontext des DDE-Kanal oder Chat. 
+Mit Registerkarten können Teammitglieder in einem Kanal oder in einem Chat auf Dienste auf einer dedizierten Leinwand zugreifen. Auf diese Weise kann das Team direkt mit Tools und Daten arbeiten und Unterhaltungen im Kontext des Kanals oder Chats führen. 
 
-Besitzer und Teammitglieder können einem Kanal, einem privaten Chat oder einem Gruppenchat Registerkarten hinzufügen, um ihre Clouddienste besser integrieren zu können. Registerkarten können hinzugefügt werden, Benutzern helfen, auf einfache Weise Zugriff und die Verwaltung der Daten benötigt wird, oder mit den meisten interagieren. Dies kann sein, einen Power BI-Bericht, einem Dashboard oder sogar eine [Microsoft-Stream](https://go.microsoft.com/fwlink/?linkid=855785) Videokanal, in dem Sie Schulungsvideos veröffentlichen.
+Besitzer und Teammitglieder können einem Kanal, einem privaten Chat oder einem Gruppenchat Registerkarten hinzufügen, um ihre Clouddienste besser integrieren zu können. Sie können Registerkarten hinzufügen, um Benutzern den einfachen Zugriff auf und das Verwalten der Daten zu ermöglichen, die Sie benötigen, oder mit den meisten interagieren. Hierbei kann es sich um einen Power BI-Bericht, ein Dashboard oder sogar einen [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) -Videokanal handeln, in dem Sie Schulungsvideos veröffentlichen.
 
 ![Drei Screenshots mit verschiedenen Inhalten von Registerkarten](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
 ## <a name="work-with-tabs"></a>Arbeiten mit Registerkarten
 
-- Mit jeder neuen Kanal, zwei Registerkarten werden standardmäßig bereitgestellt: Unterhaltungen und Dateien. 
+- Bei jedem neuen Kanal werden standardmäßig zwei Registerkarten bereitgestellt: Unterhaltungen und Dateien. 
 
     ![Screenshot des Abschnitts „Unterhaltung“ des Teams „Marketing“](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
-- Mit jeder private Chat werden vier Registerkarten standardmäßig Unterhaltungen, Dateien, Organisation und Aktivität bereitgestellt.
+- Bei jedem privaten Chat werden standardmäßig vier Registerkarten bereitgestellt, Unterhaltungen, Dateien, Organisationen und Aktivitäten.
 
-    ![Screenshot der Registerkarten in einem Chat.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
+    ![Screenshot der Registerkarten in einem Chat](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
-- Besitzer und die Teammitglieder können hinzufügen weitere Registerkarten zu einem Kanal oder Chat durch Klicken auf **Hinzufügen einer Registerkarte** ![Screenshot des die Registerkarte Schaltfläche Hinzufügen mit einem Pluszeichen.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) am oberen Rand der Kanal oder Chat.
+- Besitzer und Teammitglieder können einem Kanal oder Chat weitere Registerkarten hinzufügen, **** ![indem Sie auf den Screenshot der Registerkarte hinzufügen klicken, um ein +-Zeichen anzuzeigen.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) am oberen Rand des Kanals oder Chats.
 
-- Excel, PowerPoint, Word und PDF-Dateien müssen auf die Registerkarte **Dateien** hochgeladen werden, bevor sie zur Liste der Registerkarten konvertiert werden können. Alternativ kann vorhandene hochgeladenen Dateien in eine Registerkarte mit einem Mausklick konvertiert werden soll, wie unten dargestellt.
+- Excel-, PowerPoint-, Word-und PDF-Dateien müssen auf die Registerkarte " **Dateien** " hochgeladen werden, bevor Sie in Tabstopps konvertiert werden können. Alternativ kann jede vorhandene geuploadete Datei mit nur einem Mausklick in eine Registerkarte konvertiert werden, wie unten dargestellt.
 
     ![Screenshot der Registerkarte „Dateien“ mit ausgewählter PowerPoint-Datei](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
-- Zum Hinzufügen einer Websites muss die URL mit einem Präfix **Https** starten, damit sicher bleiben, Informationen, die ausgetauscht werden.
+- Um eine Website hinzuzufügen, muss die URL mit einem **https** -Präfix beginnen, damit Informationen, die ausgetauscht werden, sicher sind.
 
-- Ausführliche Anweisungen werden bereitgestellt, wenn ein Teammitglied versucht, eine benutzerdefinierte Registerkarte ihren Kanal oder Chat hinzufügen. Wenn Sie einen Kanal eine benutzerdefinierte Registerkarte hinzugefügt wird, wird eine **Registerkarte Unterhaltung** erstellt, die Teammitglieder an den Schwerpunkt Diskussionen über die Inhalte ermöglicht.
+- Detaillierte Anweisungen werden bereitgestellt, wenn ein Teammitglied versucht, dem Kanal oder Chat eine benutzerdefinierte Registerkarte hinzuzufügen. Wenn einem Kanal eine benutzerdefinierte Registerkarte hinzugefügt wird, wird eine **Registerkarten Unterhaltung** erstellt, mit der Teammitglieder Diskussionen über den Inhalt führen können.
 
-    ![Screenshot einer benutzerdefinierten Registerkarte mit einer Registerkartenunterhaltung auf der rechten Seite des Fensters](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
+    ![Screenshot einer benutzerdefinierten Registerkarte mit einer Registerkarten Unterhaltung auf der rechten Seite](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
 ## <a name="develop-custom-tabs"></a>Entwickeln von benutzerdefinierten Registerkarten
 
-Sie können zusätzlich zu den integrierten entwerfen und entwickeln eigener Registerkarten zum Integrieren von Teams oder mit dem Rest der Community freigeben. Sie können [Steuern des Zugriffs auf die benutzerdefinierte Registerkarte](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access) , indem Sie die geeigneten Gruppen von Office 365 konfigurieren.
+Zusätzlich zu den integrierten Registerkarten können Sie eigene Registerkarten entwerfen und entwickeln, um Sie in Teams zu integrieren oder für die restliche Community freizugeben. Sie können den [Zugriff auf Ihre benutzerdefinierte Registerkarte steuern,](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access) indem Sie die entsprechenden Office 365-Gruppen konfigurieren.
 
-Microsoft Developer Network finden Sie [ausführliche Informationen](https://go.microsoft.com/fwlink/?linkid=855786) zum Entwerfen und Erstellen eigener und [Beispiel-Registerkarten](https://go.microsoft.com/fwlink/?linkid=855787) entwickelt von Microsoft, die Sie herunterladen können.
+Das Microsoft Developer Network bietet [detaillierte Anweisungen](https://go.microsoft.com/fwlink/?linkid=855786) zum Entwerfen und Erstellen eigener Registerkarten und [Beispiel Registerkarten](https://go.microsoft.com/fwlink/?linkid=855787) , die von Microsoft entwickelt wurden, die Sie herunterladen können.
 
 ![Screenshot einer benutzerdefinierten Beispielregisterkarte in Microsoft Teams](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

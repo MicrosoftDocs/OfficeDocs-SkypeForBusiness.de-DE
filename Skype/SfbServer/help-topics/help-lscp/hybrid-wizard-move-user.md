@@ -1,27 +1,27 @@
 ---
-title: Hybrid-Assistenten für Benutzer verschieben
+title: Hybrid-Assistent, Benutzer verschieben
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/10/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.HybridMoveUser
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be38b89c-3e8e-4d40-af49-fb650785d9a3
-description: Verwenden Sie den Assistenten zum Verschieben von Benutzern zum Verschieben von Benutzerkonten in einer lokalen Pool in Skype für Business Online verwaltet werden verwaltet. Weitere Informationen finden Sie unter Use the Hybrid Manageability wizard.
-ms.openlocfilehash: fc5fd4992c50789063558667f95ebf9042951fd2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Verwenden Sie den Assistenten zum Verschieben von Benutzern, um Benutzerkonten in einem lokalen Pool zu verschieben, damit Sie in Skype for Business Online verwaltet werden können. Weitere Informationen finden Sie unter Use the Hybrid Manageability wizard.
+ms.openlocfilehash: f11445d3f287d73d07598ca05fd26751a317ff57
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910904"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287580"
 ---
 # <a name="hybrid-wizard-move-user"></a>Hybrid-Assistent: Verschieben von Benutzern
 
-Verwenden Sie den Assistenten zum Verschieben von Benutzern zum Verschieben von Benutzerkonten in einer lokalen Pool in Skype für Business Online verwaltet werden verwaltet. Weitere Informationen finden Sie unter [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).
+Verwenden Sie den Assistenten zum Verschieben von Benutzern, um Benutzerkonten in einem lokalen Pool zu verschieben, damit Sie in Skype for Business Online verwaltet werden können. Weitere Informationen finden Sie unter [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).
 
 

@@ -5,29 +5,29 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployMainBootstrap
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8813f25-eafa-4006-a186-94e4ebcc5ac7
-description: 'Zum Installieren und aktivieren oder deaktivieren oder deinstallieren Skype für Business Server 2015 Komponenten, verwenden Sie Schritt2: Einrichten oder Entfernen von Skype-Serverkomponenten. Sie müssen angemeldet sein in als lokaler Administrator auf dem Computer sind installieren oder ändern und muss in der Lage, Active Directory-Domänendienste-Benutzer und Gruppen in der aktuellen Domäne zu lesen. Klicken Sie auf Ausführen, um zu beginnen. Beim Ausführen dieses Schritts wird die auf dem zentralen Verwaltungsspeicher basierende Topologiedefinition gelesen. Die erforderlichen Softwarekomponenten werden gemäß der im zentralen Verwaltungsspeicher definierten Rolle installiert und konfiguriert. Zeigen Sie nach Abschluss der Installation die Zusammenfassung an und klicken Sie auf Fertig stellen.'
-ms.openlocfilehash: c25f092b5f0d5a6031b1a0cf2ebbd0f718530435
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Zum Installieren und aktivieren oder deaktivieren oder Deinstallieren von Skype for Business Server 2015-Komponenten verwenden Sie Schritt 2: Einrichten oder Entfernen von Skype Server-Komponenten. Sie müssen als lokaler Administrator auf dem Computer angemeldet sein, den Sie installieren oder ändern, und Sie müssen in der Lage sein, die Active Directory-Domänendienste-Benutzer und-Gruppen in der aktuellen Domäne zu lesen. Klicken Sie auf Ausführen, um zu beginnen. Beim Ausführen dieses Schritts wird die auf dem zentralen Verwaltungsspeicher basierende Topologiedefinition gelesen. Die erforderlichen Softwarekomponenten werden gemäß der im zentralen Verwaltungsspeicher definierten Rolle installiert und konfiguriert. Zeigen Sie nach Abschluss der Installation die Zusammenfassung an und klicken Sie auf Fertig stellen.'
+ms.openlocfilehash: 7b6dcba9ad2a6f65cd017b4c194b5aa942412199
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916049"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284757"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components"></a>Einrichten oder Entfernen von Komponenten von Skype for Business Server
  
-Verwenden Sie zum Installieren und aktivieren oder deaktivieren oder deinstallieren Skype für Business Server 2015 Komponenten, **Schritt2: Einrichten oder Entfernen von Skype-Serverkomponenten**. Sie müssen angemeldet sein in als lokaler Administrator auf dem Computer sind installieren oder ändern und muss in der Lage, Active Directory-Domänendienste-Benutzer und Gruppen in der aktuellen Domäne zu lesen. Klicken Sie auf **Ausführen**, um zu beginnen. Beim Ausführen dieses Schritts wird die auf dem zentralen Verwaltungsspeicher basierende Topologiedefinition gelesen. Die erforderlichen Softwarekomponenten werden gemäß der im zentralen Verwaltungsspeicher definierten Rolle installiert und konfiguriert. Zeigen Sie nach Abschluss der Installation die Zusammenfassung an und klicken Sie auf **Fertig stellen**.
+Zum Installieren und aktivieren oder deaktivieren oder Deinstallieren von Skype for Business Server 2015-Komponenten verwenden Sie **Schritt 2: Einrichten oder Entfernen von Skype Server-Komponenten**. Sie müssen als lokaler Administrator auf dem Computer angemeldet sein, den Sie installieren oder ändern, und Sie müssen in der Lage sein, die Active Directory-Domänendienste-Benutzer und-Gruppen in der aktuellen Domäne zu lesen. Klicken Sie auf **Ausführen**, um zu beginnen. Beim Ausführen dieses Schritts wird die auf dem zentralen Verwaltungsspeicher basierende Topologiedefinition gelesen. Die erforderlichen Softwarekomponenten werden gemäß der im zentralen Verwaltungsspeicher definierten Rolle installiert und konfiguriert. Zeigen Sie nach Abschluss der Installation die Zusammenfassung an und klicken Sie auf **Fertig stellen**.
   
 > [!TIP]
-> Wenn Sie die Protokolldateien überprüfen, die durch den Bereitstellungs-Assistenten erstellt werden müssen, können sie auf dem Computer finden Sie dem Bereitstellungs-Assistenten ausgeführt wurde, im Verzeichnis Benutzer der Active Directory-Benutzer, die im Schritt ausgeführt hat. Angenommen, wenn der Benutzer als Domänenadministrator in der Domäne Contoso.net angemeldet, die Protokolldateien befinden sich im: > C:\Users\Administrator.Contoso\AppData\Local\Temp 
+> Wenn Sie die vom Bereitstellungs-Assistenten erstellten Protokolldateien überprüfen müssen, können Sie diese auf dem Computer finden, auf dem der Bereitstellungs-Assistent ausgeführt wurde, und zwar im Verzeichnis Benutzer des Active Directory-Benutzers, der den Schritt ausgeführt hat. Wenn sich der Benutzer beispielsweise als Domänenadministrator im Domänen contoso.net angemeldet hat, befinden sich die Protokolldateien in: > C:\users\administrator.Contoso\AppData\Local\Temp 
   
 > [!NOTE]
-> Wenn Sie zuvor Skype für Business Server 2015 Komponenten auf dem Computer installiert haben, im Bereitstellungs-Assistenten wird dies erkannt, und die Schaltfläche in Schritt 2 angezeigt wird, **Erneut ausführen**. So können Sie den Schritt bei Bedarf mehrfach ausführen, um den Server ordnungsgemäß zu konfigurieren oder zu ändern. 
+> Wenn Sie zuvor Skype for Business Server 2015-Komponenten auf diesem Computer installiert haben, wird dies vom Bereitstellungs-Assistenten erkannt, und die Schaltfläche in Schritt 2 wird als **erneut ausführen**angezeigt. So können Sie den Schritt bei Bedarf mehrfach ausführen, um den Server ordnungsgemäß zu konfigurieren oder zu ändern. 
   
 
