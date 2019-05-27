@@ -18,17 +18,15 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb6ba92185d797e3925ad56c8747fd504f40dccd
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: 801c4f43e9aafa7fe8331d85b601afd584505164
+ms.sourcegitcommit: e5cb24ad166268392e692d3d1b92125646e5d66e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404227"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34417443"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Das Microsoft Teams-Besprechungs-Add-In wird für Benutzer, auf deren Windows-PC Microsoft Teams und entweder Office 2013 oder Office 2016 installiert ist, automatisch installiert. Die Benutzer sehen auf dem Menüband „Kalender“ in Outlook das Microsoft Teams-Besprechungs-Add-In. 
 
@@ -53,7 +51,7 @@ Weitere Informationen zum Konfigurieren der Authentifizierung finden Sie unter [
 
 ## <a name="enable-private-meetings"></a>Aktivieren von privaten Besprechungen
 
-Die Option „Zeitplanung für private Besprechungen zulassen“ muss im Microsoft Teams Admin Center aktiviert sein, damit das Plug-In bereitgestellt wird. Wechseln Sie im Admin Center zu **Besprechungen** > **Besprechungsrichtlinien**, und legen Sie im Abschnitt **Allgemein** **Zeitplanung für private Besprechungen zulassen** auf „Aktiviert“ fest.)
+Die Option " **Terminplanung für private Besprechungen zulassen** " muss im Microsoft Teams Admin Center aktiviert sein, damit das Plug-in bereitgestellt wird. Wechseln Sie im Admin Center zu **Besprechungen** > **Besprechungsrichtlinien**, und legen Sie im Abschnitt **Allgemein** **Zeitplanung für private Besprechungen zulassen** auf „Aktiviert“ fest.)
 
 ![Screenshot der Einstellungen im Microsoft Teams Admin Center.](media/teams-add-in-for-outlook-image1.png)
 
@@ -65,6 +63,8 @@ Der Microsoft Teams-Client ermittelt, ob die Benutzer die 32-Bit- oder 64-Bit-Ve
 ## <a name="other-considerations"></a>Andere Überlegungen
 
 Die Funktionen des Microsoft Teams-Besprechungs-Add-Ins werden noch weiterentwickelt. Beachten Sie daher Folgendes:
+- Polling steht noch nicht zur Verfügung.
+- Das Whiteboard beginnt mit dem Rollout.
 - Besprechungsoptionen sind zurzeit nicht verfügbar.
 - Sie können zurzeit nur Personen aus Ihrer Firma einladen, da die Teilnahme externer Benutzer an Besprechungen noch nicht möglich ist.
 - Das Add-In ist für geplante Besprechungen mit bestimmten Teilnehmern gedacht, nicht für Besprechungen in einem Kanal. Kanalbesprechungen müssen in Microsoft Teams geplant werden. Zurzeit ist das Microsoft Teams-Besprechungs-Add-In in Outlook nur für Windows-Benutzer verfügbar, aber die Unterstützung für Mac wird noch hinzugefügt.

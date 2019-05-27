@@ -15,42 +15,42 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4caf7cad3e70b5472173b85bdbedec3d1be6d6ad
-ms.sourcegitcommit: bf7de2101862a154eb375c06bc89e6e0c4872119
+ms.openlocfilehash: 6af82e958d3a17c8eb2b3ef64339ae69c1d0871a
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34381714"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433056"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
 
 Wenn ein Gast zur Teilnahme in einem Team eingeladen wird, erhält er eine Willkommensnachricht mit einigen Informationen über das Team und darüber, was er als Teammitglied zu erwarten hat. Der Gast muss die Einladung in der E-Mail-Nachricht annehmen, bevor er auf das Team und dessen Kanäle zugreifen kann.
     
-![Beispiel für eine Willkommens-e-Mail-Nachricht, die von einem Teambesitzer in Microsoft Teams an einen Gastbenutzer gesendet wurde. Die Nachricht beinhaltet Text, der vom Teambesitzer angepasst werden kann, sowie Kurzbeschreibungen der Teams-Funktionen wie Chat, Anrufe und Besprechungen.](media/guest-experience-image1.png)
+![Screenshot mit einem Beispiel einer Willkommens-e-Mail-Nachricht](media/guest-experience-image1.png)
     
 Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt. Wie im folgenden Screenshot eines Beispielteams gezeigt, wird ein Banner mit dem Text „Dieses Team hat Gäste“ angezeigt, und neben jedem Gästenamen wird die Bezeichnung „GAST“ eingeblendet.
     
-![Screenshot, der einen Teil des Marketingkanals für Northwind Traders mit der Benachrichtigung „Dieses Team hat Gäste“ im oberen Banner sowie mit Benutzern abbildet, die mit dem Wort „GÄSTE“ neben ihrem Namen als Gäste gekennzeichnet sind.](media/guest-experience-image2.png)
+! [Screenshot mit Banner Benachrichtigung für Gastbenutzer] (Media/Guest-Experience-Image2. png "Screenshot zeigt einen Teil des Marketing Kanals für Northwind Traders, wobei die Benachrichtigung im oberen Banner besagt, dass" dieses Team Gäste hat "und Benutzer, die mit dem Wort" Guest "gekennzeichnet sind, neben dem Namen angezeigt werden.")
 
 In der folgenden Tabelle werden die für die Teammitglieder einer Organisation verfügbaren Microsoft Teams-Funktionen mit den für Gastbenutzer im Team verfügbaren Funktionen verglichen.
 
 |**Funktionen in Teams**|**Teams-Benutzer in der Organisation**|**Gastbenutzer**|
 |:-----|:-----|:-----|
-|Kanal erstellen  <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|An einem privaten Chat teilnehmen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|An einer Kanalunterhaltung teilnehmen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Nachrichten posten, löschen und bearbeiten  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Kanaldatei freigeben  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Chatdatei freigeben  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Apps hinzufügen (Registerkarten, Bots oder Connectors)  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Erstellen von Besprechungen oder Zugriffsplänen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Access OneDrive for Business-Speicher  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Mandantenweite Gastzugriffsrichtlinien für Teams/Kanäle erstellen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Benutzer außerhalb der Office 365-Mandantendomäne einladen <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Team erstellen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Öffentliches Team finden und daran teilnehmen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Organisationschat anzeigen  <br/> |![Häkchen](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Kanal erstellen  <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|An einem privaten Chat teilnehmen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|An einer Kanalunterhaltung teilnehmen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Nachrichten posten, löschen und bearbeiten  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Kanaldatei freigeben  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Chatdatei freigeben  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Apps hinzufügen (Registerkarten, Bots oder Connectors)  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Erstellen von Besprechungen oder Zugriffsplänen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Access OneDrive for Business-Speicher  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Mandantenweite Gastzugriffsrichtlinien für Teams/Kanäle erstellen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Benutzer außerhalb der Office 365-Mandantendomäne einladen <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Team erstellen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Öffentliches Team finden und daran teilnehmen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Organisationschat anzeigen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 In der folgenden Tabelle sind die Anruf-und besprechungsfeatures aufgeführt, die den Gästen zur Verfügung stehen.
 
