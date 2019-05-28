@@ -101,6 +101,7 @@
 ## [Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook](teams-add-in-for-outlook.md)
 ## [Einrichten von Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Microsoft Teams-Räume](room-systems/index.md)
+## [Verwalten des Whiteboards in Teams](manage-whiteboard.md)
 
 
 ## Audiokonferenz

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 870dcc05d174dd7f2e7b14f05b4be56ad1ce86ea
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 38b2b5e263347dd97a20da2ca7ea00068cb341c7
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827725"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433120"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Erste Schritte mit Microsoft Teams
 
@@ -29,7 +29,7 @@ Um schnell in Microsoft Teams einzusteigen, empfehlen wir Ihnen, zwei oder drei 
 
 Mithilfe von Teams können Sie schnell ein Team mit Personen innerhalb und außerhalb Ihrer Organisation zusammenstellen, mit anderen chatten, um schnelle und inklusive Unterhaltungen zu fördern, Dokumente auf sichere Weise teilen und gemeinsam verfassen sowie Projekte durcharbeiten. Passen Sie Teams an, indem Sie Zugriff auf gemeinsame Notizen, Webseiten und Apps mit einem Fingertipp hinzufügen. Verwenden Sie Besprechungen und Anrufe, um in Echtzeit zusammenzuarbeiten, unabhängig vom Aufenthaltsort der Benutzer. Teams erleichtert Ihren Zugang zu Office 365-Diensten und Apps von Drittanbietern und wird zum neuen Gravitationszentrum für Ihre Anforderungen an Zusammenarbeit und Kommunikation. Ermutigen Sie Ihre Early Adopter, die Desktop- und die mobile Anwendung zu installieren, damit sie die beste Erfahrung und Sie das genaueste Feedback erhalten.
 
-![Erste Schritte mit Teams](media/get-started-microsoft-teams.png "Screenshot der Benutzeroberfläche des Teams-Desktopclients und des mobilen Clients" ) 
+![Screenshot mit den Benutzeroberflächen des Desktop- und Mobile-Clients](media/get-started-microsoft-teams.png "Screenshot mit dem Teams Desktop-Client und der Benutzeroberfläche für mobile Clients" ) 
 
 So stellen Sie Ihre erste Reihe von Teams und Kanälen bereit, damit Ihre Early Adopter mit dem Chatten, dem Teilen von Dateien und der Zusammenarbeit beginnen können.
 
