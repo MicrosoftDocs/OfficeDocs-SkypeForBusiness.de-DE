@@ -25,12 +25,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: a225f55bd03793fa184dab8478fd608170418f2d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: c3cafee8dcce326dd20661f919dc57b0e1f1fe26
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494522"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548988"
 ---
 # <a name="calling-plans-for-office-365"></a>Anrufpläne für Office 365
 
@@ -46,7 +46,7 @@ Die monatlichen Minuten für jede Organisation und jedes Land/jede Region sind [
   
 > [!IMPORTANT]
 > Das Land/die Region basiert auf dem Standort der Benutzerlizenz in den**aktiven Benutzern** des **Microsoft 365 admin Centers** > und **nicht** auf der Rechnungsadresse, die unter dem **Organisationsprofil** im Microsoft 365-Administrator aufgeführt ist. ** Center**.   
-![Lizenz Standort des Benutzers](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
+![Screenshot des Lizenz Standorts des Benutzers](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 Detaillierte Informationen zu den Nutzungsbeschränkungen und Nutzungsbestimmungen finden Sie unter [﻿Kostenlose Dial-Out-Zeiten](complimentary-dial-out-period.md)für Audiokonferenzen.
   
@@ -54,14 +54,14 @@ Detaillierte Informationen zu den Nutzungsbeschränkungen und Nutzungsbestimmung
 
 1. <strong>Sie müssen zunächst eine * * Phone System</strong> -Add-on-Lizenz kaufen<strong>. Registrieren Sie sich dazu [beim Microsoft 365 Admin Center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) , und wählen Sie * * Billing</strong> > **Purchase Services** > **Add-on-Abonnements** > **Jetzt kaufen**aus.
     
-    ![Wenn Sie Ihre Cloud PBX-Lizenzen kaufen, sehen Sie eine Option zum Kauf eines Anruf Plans.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
+    ![Screenshot mit Option zum Kauf eines Sprachanruf Plans](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > Je nach Plan müssen Sie möglicherweise weitere Add-ons kaufen, bevor Sie Telefon System Lizenzen kaufen können. Weitere Informationen finden Sie unter "Lizenzoptionen basierend auf Ihrem Plan" in der [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. Nachdem Sie die Telefon System Lizenzen gekauft haben, können Sie den Anrufplan kaufen, indem Sie sich beim **Microsoft 365 Admin Center**anmelden, Abonnements für das **Abrechnungs** > **Kauf Services** > **-Add-on**auswählen und dann auf **Jetzt kaufen klicken **. Dort sehen Sie die Anrufpläne.
     
-    ![Nachdem Sie eine Cloud PBX-Lizenz gekauft haben, können Sie Sprachanruf Pläne erwerben.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
+    ![Screenshot mit Optionen für Sprachanruf Pläne](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
 Sie können abhängig von den Anforderungen Ihrer Organisation verschiedene Anrufpläne für verschiedene Benutzer kaufen und zuweisen. Nachdem Sie den gewünschten Anrufplan ausgewählt haben, fahren Sie mit Checkout fort. Sie weisen jedem Benutzer im Microsoft 365 Admin Center einen Plan zu. Informationen dazu finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md).
   

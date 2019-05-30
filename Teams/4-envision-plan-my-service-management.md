@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25f4bb41ed5aa5c99c6edbc3a8daf70af78e882d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 2336a7ce0a5aa5d21a167cfe88d981c1a722845e
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494418"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548112"
 ---
 # <a name="plan-my-service-management"></a>Planen der Dienstverwaltung
 
@@ -92,7 +92,7 @@ Die mit der Rolle verknüpften Aufgaben und Aktivitäten sind im Betriebshandbuc
 
 Das Handbuch für die Überprüfung der Erlebnisqualität enthält Aktivitäten zum Bewerten und Bereitstellen von Verbesserungsanleitungen in wichtigen Bereichen, die größten Auswirkungen auf die Verbesserung der Benutzerfreundlichkeit haben (siehe folgende Abbildung).
 
-![Abbildung der wichtigsten Bereiche, die während einer Überprüfung der Qualitätserfahrung zu untersuchen] sind (media/plan-my-service-management-image2.png "Die wichtigsten Bereiche, die während einer Überprüfung der Qualitätsüberprüfung zu untersuchen sind: Audio-, Zuverlässigkeits-und Nutzerumfrage Ergebnisse.")
+![Abbildung der wichtigsten Bereiche, die während der Überprüfung der Qualitätserfahrung zu untersuchen] sind (media/plan-my-service-management-image2.png "Die wichtigsten Bereiche, die während einer Überprüfung der Qualitätsüberprüfung zu untersuchen sind: Audio-, Zuverlässigkeits-und Nutzerumfrage Ergebnisse.")
 
 Durch kontinuierliches Bewerten und Verbessern der in diesem Dokument beschriebenen Bereiche können Sie die Wahrscheinlichkeit verringern, dass sie sich nachteilig auf die Benutzerfreundlichkeit auswirken. Die meisten bei einer Bereitstellung auftretenden Probleme mit der Benutzerfreundlichkeit können in die folgenden Kategorien eingeordnet werden:
 

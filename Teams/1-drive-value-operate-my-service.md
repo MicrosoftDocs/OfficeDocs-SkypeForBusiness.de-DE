@@ -15,12 +15,12 @@ description: Aufgaben und Aktivitäten, die für die Verwaltung von Teams erford
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d40bbeaf0876071502d187826ecc702c9175b2da
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 3c1aa8c35b43941839e7a82390bca16c16c72801
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494296"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548247"
 ---
 # <a name="operate-my-service"></a>Verwenden des Diensts
 
@@ -42,8 +42,8 @@ Die Aufgaben und Aktivitäten in diesem Leitfaden sind in acht Kategorien untert
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wie Vorgänge für Teams implementiert werden.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Überprüfen Sie den Betriebsleitfaden vollständig.</li><li>Implementieren Sie eine Betriebsstrategie, die mit den Zielen Ihrer Organisation übereinstimmt, um die Qualität und Zuverlässigkeit von Cloud-sprach Auslastungen zu gewährleisten.</li><li>Lesen Sie den Leitfaden zur Überprüfung der Qualität der Benutzerfreundlichkeit.</li><li> Implementieren Sie eine Betriebsstrategie, um regelmäßig Bewertungen der Qualität von Erfahrungen durchzuführen, um sicherzustellen, dass Ihre Cloud-VoIP-Bereitstellung mit ihren Spitzenfunktionen funktioniert.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wie Vorgänge für Teams implementiert werden.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Überprüfen Sie den Betriebsleitfaden vollständig.</li><li>Implementieren Sie eine Betriebsstrategie, die mit den Zielen Ihrer Organisation übereinstimmt, um die Qualität und Zuverlässigkeit von Cloud-sprach Auslastungen zu gewährleisten.</li><li>Lesen Sie den Leitfaden zur Überprüfung der Qualität der Benutzerfreundlichkeit.</li><li> Implementieren Sie eine Betriebsstrategie, um regelmäßig Bewertungen der Qualität von Erfahrungen durchzuführen, um sicherzustellen, dass Ihre Cloud-VoIP-Bereitstellung mit ihren Spitzenfunktionen funktioniert.</li></ul></td></tr>
 </table>
 
 
@@ -62,7 +62,7 @@ Stellen Sie sicher, dass jedes verantwortliche Team ein gutes Verständnis der A
 Nachdem eine Vereinbarung abgeschlossen ist, sollten die entsprechenden Teams beginnen, ihre Rollen zu übersetzen.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Image depicting the next steps"/><br/>Nächste Schritte</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td>
 <td><ul><li>Verwenden Sie dieses Dokument, um die Übung zur operativen Rollenzuordnung zu vereinfachen.</li><li>Treffen Sie sich mit den jeweiligen Support Teams, um jedem Element in der Liste der erforderlichen Aktivitäten Namen zuzuweisen.</li><li>Erhalten Sie Akzeptanz oder Abmelden für die zugewiesenen Rollen.</li><li>Stellen Sie sicher, dass die entsprechenden Teams über die entsprechenden Schulungs-, Bereitschafts-und Ressourcen verfügen, um die erforderlichen Aktivitäten abzuschließen.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Teams-Dienstabhängigkeiten
