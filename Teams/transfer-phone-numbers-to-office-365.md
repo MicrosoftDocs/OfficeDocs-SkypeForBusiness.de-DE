@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 7b61ff671814e0c4ce46cb8492930ada73a8e5fe
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f0785f28c13ea14538bf8e893e78cec6b1090aee
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298228"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493971"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Übertragen von Telefonnummern zu Office 365
 
@@ -45,7 +45,7 @@ Bevor Sie mit dem Übertragen von Telefonnummern beginnen, sollten Sie die Infor
   > [!NOTE]
   > Wenn Sie über Servicenummern für Einwahlkonferenzen, automatische Telefonzentralen oder andere Dienstnummern, gebührenfreie Telefonnummern oder mehr als 999-Telefonnummern verfügen, die Sie an Skype for Business übertragen müssen, lesen Sie [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , um das richtige Land/die richtige Region auszuwählen und die richtigen Formulare herunterzuladen und an uns zu senden.
  
-![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](media/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
 
  
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.

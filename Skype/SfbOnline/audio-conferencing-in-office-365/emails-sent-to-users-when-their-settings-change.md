@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich, welche Informationen automatisch per e-Mail an Benutzer gesendet werden, wenn sich die Einstellungen für Einwahlkonferenzen in Skype for Business Online ändern. '
-ms.openlocfilehash: 7f16e4dfdb108111767f173295044ca4bdfc0475
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: acdc16a1af2666dcb84599fae31a910be83ac08f
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275623"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494286"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>An Benutzer gesendete E-Mails, wenn ihre Einstellungen in Skype for Business Online geändert werden
 
@@ -111,7 +111,7 @@ When you disable sending emails to users, email won't be sent even when a user g
   
 Standardmäßig werden e-Mails an Ihre Benutzer gesendet, aber wenn Sie verhindern möchten, dass Sie e-Mails für Audiokonferenzen empfangen, können Sie das Skype for Business Admin Center oder die Windows PowerShell verwenden. 
  
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png)  **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png)Logo**im Skype for Business Admin Center**  
     
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     

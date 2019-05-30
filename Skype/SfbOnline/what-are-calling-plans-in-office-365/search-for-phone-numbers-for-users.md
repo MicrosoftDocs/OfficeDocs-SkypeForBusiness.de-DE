@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Sie nach Telefonnummern suchen können, die Sie Ihre Benutzer nach Land/Region, Bundesland/Region oder Stadt zuweisen und die Anzahl an Nummern angeben können, die Sie brauchen. '
-ms.openlocfilehash: 42f678b81b34b145e086e413bb95a53eab054167
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2630dd7853760db16497eec83be30af8a0ff0ef8
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280492"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493944"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Suchen nach Telefonnummern von Benutzern
 
@@ -40,7 +40,7 @@ Wenn Sie Hilfe beim Abrufen von Telefonnummern benötigen, finden Sie unter [Ver
 
  **So suchen Sie nach Telefonnummern für Ihre Benutzer**
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     

@@ -10,31 +10,31 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Erfahren Sie, wie die Experiments Phase des Teams Annahme durchführen.
+description: Hier erfahren Sie, wie Sie die Versuchsphase der Teams-Einführung durchführen.
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 753cde4e440788f9cb59ccb2d00d2fc14f6a8cd6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: af3644a89728d14070e1c8a2f6bd486d46523d4a
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930396"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548709"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams-Einführungsphase 2 – Experimentieren
 
-Sie sind jetzt auf der Grundlage eine hervorragende Projektteam und wichtige Informationen zu Ihrer Organisation, und Sie können Teams experimentieren. Es wird empfohlen, Experimentieren mit 2 bis 3 in der Praxis Projekte innerhalb einer Gruppe, die durch einen Projektbeteiligten geführt werden, mit denen Sie eine positive Beziehung haben und in, deren Organisation eine ausreichende Anzahl an frühe Übernahmen sinnvollen Feedback geben. Ob Ihr Unternehmen große oder kleine ist, wird empfohlen, Abschluss dieser Phase um Einblick wie Teams verbessert die Zusammenarbeit über seine chatten und Speicherfunktionen Datei.  
+Sie sind jetzt mit einem tollen Projektteam und wichtigen Informationen zu Ihrer Organisation bewaffnet, und Sie können mit Teams experimentieren. Wir empfehlen, mit 2 bis 3 realen Projekten innerhalb einer Gruppe zu experimentieren, die von einem Stakeholder geführt wird, mit dem Sie eine positive Beziehung haben und in deren Organisation eine ausreichende Anzahl von Early Adopters vorhanden ist, um aussagekräftige Rückmeldungen zu liefern. Unabhängig davon, ob es sich um eine große oder kleine Organisation handelt, empfehlen wir die Durchführung dieser Phase, um zu erfahren, wie Teams ihre Zusammenarbeit über die Verwendung der Chat-und Dateispeicher Funktionen hinaus verbessern können.  
 
-In dieser Phase können Sie die folgenden Schritte ausführen:
+In dieser Phase führen Sie die folgenden Schritte aus:
 
-1. [Ihr Programm Champions erstellen](teams-adoption-create-champions-program.md).
-2. [Abschließen Ihrer Governance quick start](teams-adoption-governance-quick-start.md).
-3. [Definieren der Anwendungsfälle](teams-adoption-define-usage-scenarios.md).
-4. [Finalize frühe Firmenwerts Programmteilnehmer](teams-adoption-onboard-early-adopters.md).
-5. [Richten Sie Ihr Feedback Kanäle](teams-adoption-onboard-early-adopters.md#gather-feedback).
-6. [Schalten Sie das Supportpersonal an Bord](teams-adoption-onboard-support.md).
+1. [Erstellen Sie Ihr Champions-Programm](teams-adoption-create-champions-program.md).
+2. [Vervollständigen Sie Ihre Governance-Schnellstart](teams-adoption-governance-quick-start.md).
+3. [Definieren Sie Ihre Anwendungsfälle](teams-adoption-define-usage-scenarios.md).
+4. [Finalisieren der Teilnehmer des Early Adopter-Programms](teams-adoption-onboard-early-adopters.md).
+5. [Richten Sie Ihre Feedbackkanäle ein](teams-adoption-onboard-early-adopters.md#gather-feedback).
+6. [Bringen Sie Ihr Supportpersonal an Bord](teams-adoption-onboard-support.md).
 
-![Nächste Schritte Symbol](media/teams-adoption-next-icon.png) weiter: [Ihr Programm Champions erstellen](teams-adoption-create-champions-program.md)
+![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt als nächstes darstellt: [Erstellen Ihres Champions-Programms](teams-adoption-create-champions-program.md)

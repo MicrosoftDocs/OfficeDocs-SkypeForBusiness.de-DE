@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c7343f294f18d5aaacf01059459524cdd2700a2
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
-ms.translationtype: HT
+ms.openlocfilehash: 423a12e8fce0c9d7508e97c1f57e17a0ba8a0ff0
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30569958"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493802"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams
 =================================================
@@ -72,5 +72,5 @@ Standardmäßig verfügen alle Benutzer mit einem Postfach in Exchange Online ü
 
 ||||
 |---------|---------|---------|
-| ![Entscheidungspunktsymbol](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Entscheidungspunkt         |Sollen alle Microsoft Teams-Benutzer in der Lage sein, Teams zu erstellen (empfohlen)?         |
-| ![Symbol für „Nächste Schritte“](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Nächste Schritte         |Ändern der Standardberechtigungen für Benutzer, die Office 365-Gruppen erstellen können, wenn Sie begrenzen müssen, wer Team erstellen kann         |
+| ![Ein Symbol, das einen Entscheidungspunkt darstellt](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Entscheidungspunkt         |Sollen alle Microsoft Teams-Benutzer in der Lage sein, Teams zu erstellen (empfohlen)?         |
+| ![Ein Symbol, das die nächsten Schritte darstellt](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Nächste Schritte         |Ändern der Standardberechtigungen für Benutzer, die Office 365-Gruppen erstellen können, wenn Sie begrenzen müssen, wer Team erstellen kann         |

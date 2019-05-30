@@ -8,105 +8,105 @@ ms.date: 3/29/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Informationen Sie zum Verschieben von Ihren Teams bei Microsoft StaffHub und Daten im Microsoft-Teams Schichten planen.
+description: Erfahren Sie, wie Sie Ihre Microsoft StaffHub-Teams verschieben und Daten in Microsoft Teams in Schichten planen können.
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74a9b23479f5357c0014ef5ef88b3f5da03ace7f
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: b6354c2edd4d8504aeb2c84715b982f6bf793d33
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33865051"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548294"
 ---
-# <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Verschieben Sie Ihren Teams bei Microsoft StaffHub in Schichten in der Microsoft-Teams
+# <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Verschieben Ihrer Microsoft StaffHub-Teams in die Schichten in Microsoft Teams
 
 > [!IMPORTANT]
-> Die Übermittlung wirksamer wird 1 Oktober 2019, Microsoft StaffHub zurückgezogen werden. Wir erstellen StaffHub-Funktionen in Microsoft-Teams. Heute, Teams enthält die Schichten app für zeitplanverwaltung und zusätzliche Funktionen, die über einen Zeitraum einführen werden. StaffHub werden nicht für alle Benutzer auf 1 Oktober 2019 mehr. Jeder Benutzer, der versucht, StaffHub öffnen wird eine Meldung mit der Weiterleitung zum Herunterladen von Teams angezeigt. Weitere Informationen finden Sie unter [Microsoft StaffHub zurückgezogen werden](microsoft-staffhub-to-be-retired.md).
+> Ab dem 1. Oktober 2019 wird Microsoft StaffHub eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Teams die Schicht-App für die Terminplanung, und zusätzliche Funktionen werden im Laufe der Zeit bereitgestellt. StaffHub wird für alle Benutzer am 1. Oktober 2019 nicht mehr funktionieren. Jede Person, die versucht, StaffHub zu öffnen, wird eine Meldung angezeigt, die Sie zum Herunterladen von Teams anweist. Weitere Informationen finden Sie unter [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md).
 
-> Die Möglichkeit, die in diesem Artikel erläuterten noch nicht noch zur Verfügung gestellt. Es ist bekannt gegeben und wird in Kürze verfügbar, in die Mitte der Mai 2019. Wenn Sie ein Administrator sind, können Sie feststellen, wenn dies in der Mitte der Nachricht (in der [Microsoft-365-Verwaltungskonsole](https://portal.office.com/adminportal/home)) zur Verfügung steht.
+> Die in diesem Artikel beschriebene Funktion wurde noch nicht veröffentlicht. Es wurde angekündigt, und wird in Kürze, Anfang Juni 2019. Wenn Sie ein Administrator sind, können Sie herausfinden, wann dies im Nachrichtencenter (im [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home)) verfügbar ist.
 
-Die Schichten-app in Teams bietet einen einfachen Ansatz für die Verwaltung von Zeitplänen und der Konstante Ablauf UMSCHALT vertauscht und absagen, die täglich auftreten. Teammitglieder können seinen Zeitplan zugreifen und UMSCHALT Informationen direkt in der app über ihren Geräten ihren Vorlieben festgelegt, deren Zeitpläne verwalten und Anforderungszeit deaktiviert.
+Die Schicht-app in Teams bietet einen einfachen Ansatz für die Verwaltung von Zeitplänen und den konstanten Fluss von Schicht-Swaps und-Abbrüchen, die täglich auftreten. Team Mitglieder können auf Ihre Plan-und Schicht Informationen direkt in der APP und auf Ihren Geräten zugreifen, um Ihre Einstellungen festzulegen, ihre Zeitpläne zu verwalten und die Freizeit zu beantragen.
 
-Dieser Artikel führt Sie durch das Verschieben Ihrer Organisation StaffHub Teams und Daten im Teams Schichten planen. Ganz gleich, ob Sie ein kleines Unternehmen mit einem oder zwei StaffHub Teams oder große Unternehmen mit Hunderten von StaffHub Teams, finden hier die Admin-Anleitung Sie, die Sie benötigen, um des Übergangs Teams Erfolg zu machen.
+In diesem Artikel erfahren Sie, wie Sie die StaffHub-Teams Ihrer Organisation verschieben und Daten in Teams verschieben können. Ganz gleich, ob Sie ein kleines Unternehmen mit einem oder zwei StaffHub-Teams oder einem Großunternehmen mit Hunderten von StaffHub-Teams sind, hier finden Sie die Administratoranleitung, die Sie benötigen, um den Übergang zu Teams erfolgreich zu gestalten.
 
-Sie müssen ein globaler Administrator zum Ausführen der Schritte in diesem Artikel werden. Wenn Sie dies noch nicht getan haben, haben Sie einen Überblick über die [StaffHub Stilllegung – häufig gestellte Fragen](microsoft-staffhub-to-be-retired.md) , Antworten auf Fragen zu erhalten, die Sie möglicherweise. 
+Sie müssen ein globaler Administrator sein, um die in diesem Artikel beschriebenen Schritte ausführen zu können. Wenn Sie dies noch nicht getan haben, schauen Sie sich die [FAQ zu StaffHub Retirement](microsoft-staffhub-to-be-retired.md) an, um Antworten auf Ihre Fragen zu erhalten. 
 
-## <a name="what-you-need-to-know-about-the-move-to-teams"></a>Sie müssen über die Verschiebung Teams wissen sollten
+## <a name="what-you-need-to-know-about-the-move-to-teams"></a>Was Sie über den Umzug in Teams wissen müssen
 
-### <a name="when-to-move-to-teams"></a>Beim Verschieben von Teams
+### <a name="when-to-move-to-teams"></a>Zeitpunkt für den Wechsel zu Teams
 
-Die Übermittlung wirksamer wird 1 Oktober 2019, StaffHub zurückgezogen werden. Wir empfehlen Ihnen, starten Sie heute mithilfe von Teams und für den Übergang von Teams und Benutzer aus StaffHub Ihres Unternehmens beginnen. Mit zeitplanverwaltung wird das Feature am häufigsten verwendeten in StaffHub wird empfohlen, dass Sie die app Schichten in Teams verwenden vorwärts verschoben werden.
+Ab dem 1. Oktober 2019 wird StaffHub eingestellt. Wir empfehlen Ihnen, die Verwendung von Teams noch heute zu verwenden und zu beginnen, die Teams und Benutzer Ihrer Organisation aus StaffHub zu wechseln. Da die Zeitplanverwaltung das am häufigsten verwendete Feature in StaffHub ist, empfehlen wir, dass Sie die app "Schichten" in Teams verwenden, die sich weiter bewegen.
 
-### <a name="what-is-moved-to-teams"></a>Was ist in Teams verschoben.
+### <a name="what-is-moved-to-teams"></a>Was wird in Teams verschoben?
 
-Teams sind Benutzerdetails Zeitplaninformationen und Chat und Dateidaten gewechselt. Dazu gehören Teammitgliedschaft, Team Zeitpläne, und Chats und Dateien von der letzten 90 Tage.
+Benutzer Details, Zeitplaninformationen sowie Chat-und Dateidaten werden in Teams umgestellt. Dazu gehören Teammitgliedschaft, Team Zeitpläne sowie Chats und Dateien aus den letzten 90 Tagen.
 
-Jedes Team StaffHub benötigt eine entsprechende Office 365-Gruppe. Wenn ein Team StaffHub ein mit ihm verbundenes Office 365-Gruppe vorhanden ist, wird eine automatisch für Sie zur Unterstützung des Übergangs erstellt. In Anbetracht der unterschiedlichen in Teams und der Gruppe Namenskonflikt zwischen Teams und StaffHub, sehen Sie möglicherweise einen anderen Teamnamen in Teams.
+Jedes StaffHub-Team benötigt eine entsprechende Office 365-Gruppe. Wenn einem StaffHub-Team keine Office 365-Gruppe zugeordnet ist, wird automatisch ein für Sie erstellt, um den Übergang zu unterstützen. Angesichts der Unterschiede bei der Team-und Gruppenbenennung zwischen Teams und StaffHub wird möglicherweise in Teams ein anderer Teamname angezeigt.
 
-Wie Sie Teams aus StaffHub Teams Übergang, Benutzer haben Zugriff auf ihre Zeitpläne nicht mehr in StaffHub und zu Schichten in Teams weitergeleitet werden. Es wird empfohlen, dass Sie diese Änderung in Ihrer Organisation, um Unterbrechung zu minimieren und fordern Sie die Benutzer zu übernehmen und Erforschen von Teams kommunizieren. Wenn Sie Azure AD Premium verfügen, können Sie zum Abrufen einer Liste von Benutzern in Ihrer Organisation, die über diese Änderung wissen sollten StaffHub [Führen Sie einen Bericht](run-report-to-show-staffhub-usage.md) .  
+Wenn Sie Teams von StaffHub in Teams umstellen, haben die Benutzer keinen Zugriff mehr auf ihre Zeitpläne in StaffHub und werden an Schichten in Teams umgeleitet. Wir empfehlen, dass Sie diese Änderung in Ihrer Organisation übermitteln, um Unterbrechungen zu minimieren und Benutzer zu ermutigen, Teams zu übernehmen und zu erkunden. Wenn Sie über Azure AD Premium verfügen, können Sie [einen Bericht ausführen](run-report-to-show-staffhub-usage.md) , um eine Liste der StaffHub-Benutzer in Ihrer Organisation abzurufen, die über diese Änderung Bescheid wissen müssen.  
 
-Es gibt keine Rollbackoption, nachdem Sie ein Team StaffHub Teams verschoben.
+Nachdem Sie ein StaffHub-Team in Teams verschoben haben, gibt es keine Rollback-Option.
 
-### <a name="user-experience-when-you-move-a-team"></a>Wenn Sie ein Team verschieben Benutzererlebnis
+### <a name="user-experience-when-you-move-a-team"></a>Benutzererfahrung beim Verschieben eines Teams
 
-Es ist die minimale Ausfallzeit (weniger als eine Sekunde, wenn überhaupt) für Benutzer, wenn ihr Team von StaffHub zu Schichten in Teams gewechselt wird. Benutzer können weiterhin mit StaffHub erst nach Abschluss der Wechsel zu Teams. Wenn die Verschiebung abgeschlossen ist, sehen Teammitglieder eine Nachricht an diese darüber informieren, dass sie über die Verwendung Schichten in Teams auf seinen Zeitplan Team zugreifen müssen. Es folgt ein Beispiel der Nachricht, die Benutzer sehen.
+Es gibt minimale Ausfallzeiten (wenn überhaupt keine Sekunde) für Benutzer, wenn Ihr Team von StaffHub zu Schichten in Teams gewechselt hat. Benutzer können StaffHub weiterhin verwenden, bis der Wechsel zu Teams abgeschlossen ist. Nach Abschluss des Umzugs wird den Teammitgliedern eine Meldung angezeigt, in der Sie darüber informiert werden, dass Sie die Verwendung von Schichten in Teams für den Zugriff auf Ihren Team Zeitplan benötigen. Nachfolgend finden Sie ein Beispiel für die Meldung, die Benutzer in StaffHub sehen, nachdem das StaffHub-Team in Teams verschoben wurde.
 
-![Beispiel für die Meldung, die Benutzern in StaffHub angezeigt, nachdem das Team StaffHub Teams verschoben wird.] (../../media/move-staffhub-teams-to-shifts-in-teams-message-to-users.png "Beispiel für die Meldung, die Benutzer sehen in StaffHub nach das Team StaffHub Teams verschoben wird")
+![Beispiel für die Meldung, die Benutzern angezeigt wird.] (../../media/move-staffhub-teams-to-shifts-in-teams-message-to-users.png "Beispiel für die Meldung, die Benutzer in StaffHub sehen, nachdem das StaffHub-Team in Teams verschoben wurde")
 
-## <a name="prepare"></a>Zubereiten
+## <a name="prepare"></a>Vorbereiten
 
-Hier ist wie für das Verschieben der Teams vorbereiten.
+Hier erfahren Sie, wie Sie sich auf den Umzug in Teams vorbereiten.
 
 ### <a name="assign-teams-licenses"></a>Zuweisen von Teams-Lizenzen
 
-Jeder Benutzer benötigen eine aktive Microsoft 365 oder Office 365-Lizenz aus [einem Anspruch Plan](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in) und Teams Lizenz zugewiesen sein. Zuweisen einer Lizenz Teams für Benutzer erhalten sie Zugriff auf Teams.
+Jeder Benutzer muss über eine aktive Microsoft 365-oder Office 365-Lizenz für [einen berechtigten Plan](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in) verfügen und muss eine Teams-Lizenz zugewiesen werden. Wenn Sie Benutzern eine Teams-Lizenz zuweisen, erhalten Sie Zugriff auf Teams.
 
-Sie können Teams-Lizenzen in der Microsoft-365-Verwaltungskonsole verwalten. Weitere Informationen finden Sie unter [Verwalten des Benutzerzugriffs für Teams](../../user-access.md).
+Sie verwalten die Lizenzen für Teams im Microsoft 365 Admin Center. Weitere Informationen finden Sie unter [Verwalten des Benutzerzugriffs auf Teams](../../user-access.md).
 
 > [!NOTE]
-> Wenn Ihre Organisation Skype für Unternehmen verwendet, und Sie sind nicht alle Benutzer in Teams zu verschieben, können Sie Teams für Ihre Mitarbeiter Firstline aktivieren, die dann Teams zusammen mit Skype für Unternehmen ausgeführt werden können. In diesem Koexistenzmodus *Inseln*aufgerufen, wird jede Clientanwendung als eine separate Lösung ausgeführt. Weitere Informationen finden Sie finden Sie unter [Grundlegendes zu Teams und Skype für Interoperabilität und Koexistenz von Business](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+> Wenn Ihre Organisation Skype for Business verwendet und Sie nicht bereit sind, alle Ihre Benutzer in Teams zu verschieben, können Sie Teams für Ihre Mitarbeiter in der First-work-Abteilung aktivieren, die dann Teams neben Skype for Business ausführen können. In diesem Koexistenzmodus, dem sogenannten " *Inseln*", fungiert jede Client-App als separate Lösung. Weitere Informationen finden Sie Untergrund Legendes zu [Teams und zur Koexistenz und Interoperabilität von Skype for Business](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-### <a name="provision-accounts-for-staffhub-users-who-dont-have-an-identity-in-azure-ad"></a>Bereitstellung von Konten für StaffHub-Benutzer, die nicht über eine Identität in Azure AD verfügen
+### <a name="provision-accounts-for-staffhub-users-who-dont-have-an-identity-in-azure-ad"></a>Bereitstellen von Konten für StaffHub-Benutzer, die keine Identität in Azure AD besitzen
 
-Jeden Manager und Teammitglied benötigen eine Identität in Azure Active Directory (AD Azure). Wenn ein Benutzer eine Identität in Azure AD bereits vorhanden ist, stellen Sie ein Konto für diese bereit. Vorgehensweise:
+Jeder Manager und jedes Teammitglied muss über eine Identität in Azure Active Directory (Azure AD) verfügen. Wenn ein Benutzer noch keine Identität in Azure AD hat, stellen Sie ihm ein Konto bereit. Vorgehensweise:
 
-- StaffHub Team Eigentümer und Manager können eine simulierte Kontostatus konvertieren und Verknüpfen des Arbeitsbereichs mit einem bereitgestellten Konto in StaffHub durch Ändern der e-Mail-Adresse des Benutzers für einen gültigen UPN auf der Seite StaffHub Team Settings.
+- StaffHub-Teambesitzer und-Manager können ein Dummy-oder Inaktives Konto konvertieren und mit einem bereitgestellten Konto in StaffHub verknüpfen, indem Sie die e-Mail-Adresse des Benutzers in einen gültigen UPN auf der Seite "StaffHub-Team Einstellungen" ändern.
 
-- Administratoren können die [Hinzufügen-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) ausführen und [Remove-StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) -Cmdlets zum Entfernen eines Kontos nicht bereitgestellte aus einem Team StaffHub, und fügen Sie das Konto mithilfe des UPN sichern.
+- Administratoren können die Cmdlets [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) und [Remove-StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) ausführen, um ein nicht bereitgestelltes Konto aus einem StaffHub-Team zu entfernen und das Konto mithilfe des UPN wieder hinzuzufügen.
 
 ### <a name="install-the-staffhub-powershell-module"></a>Installieren des StaffHub PowerShell-Moduls
 
-Wenn Sie nicht bereits geschehen, [Installieren Sie das Modul StaffHub PowerShell](install-the-staffhub-powershell-module.md).
+Wenn Sie dies noch nicht getan haben, [Installieren Sie das StaffHub PowerShell-Modul](install-the-staffhub-powershell-module.md).
 
-Wenn Sie ein Team StaffHub verschieben, wird die verschiebungsanforderung für erforderliche Komponenten überprüft. Nachfolgend finden Sie Gründe, warum eine verschiebungsanforderung fehlschlagen kann:
+Wenn Sie ein StaffHub-Team verschieben, überprüft die Verschiebungsanforderung die Voraussetzungen. Hier sind die Gründe, warum eine Verschiebungsanforderung fehlschlagen kann:
 
-- Der Benutzer angemeldet ist kein globaler Administrator
-- Teams ist für alle Benutzer in den Mandanten deaktiviert.
-- Office 365 Gruppen erstellen ist in den Mandanten deaktiviert.
-- Das Team StaffHub ist ungültig oder enthält keine Mitglieder
-- Das StaffHub Team enthält Elemente, die mit einem Azure AD-Konto verknüpft sind  
+- Der angemeldete Benutzer ist kein globaler Administrator.
+- Teams ist für alle Benutzer im Mandanten deaktiviert
+- Die Erstellung von Office 365-Gruppen ist im Mandanten deaktiviert
+- Die teamStaffHub ist ungültig oder hat keine Mitglieder.
+- Das StaffHub-Team enthält Mitglieder, die nicht mit einem Azure AD-Konto verknüpft sind.  
 
-## <a name="run-a-pilot"></a>Ausführen eines Pilotprojekts
+## <a name="run-a-pilot"></a>Führen eines Pilotprojekts
 
-Es wird empfohlen, dass Sie starten, indem Sie zwei oder drei StaffHub Teams für eine ausgewählte Gruppe von frühe Übernahmen verschieben. Ausführen eines Pilotprojekts Dank Optimieren des Plans für den Umstieg von, und stellen Sie sicher, dass Sie Ihrer Organisation StaffHub Teams Teams verschieben möchten. Er gibt außerdem Champions, die Akzeptanz in Ihrem Unternehmen helfen können. Wenn Sie ein kleines Unternehmen, das phasenweise nicht erforderlich ist sind, können die Schritte in diesem Abschnitt alle können, Sie die Option von StaffHub Teams müssen.
+Wir empfehlen, dass Sie zunächst zwei oder drei StaffHub-Teams für eine ausgewählte Gruppe von Early Adopters verschieben. Durch das Ausführen eines Pilotprojekts können Sie Ihren Übergangsplan verfeinern und sicherstellen, dass Sie bereit sind, alle StaffHub-Teams Ihrer Organisation in Teams zu verschieben. Es werden auch Champions identifiziert, die Ihnen bei der Einführung in Ihrer Organisation behilflich sein können. Wenn Sie ein kleines Unternehmen sind, das keinen Phasen orientierten Ansatz benötigt, sind die Schritte in diesem Abschnitt möglicherweise alles, was Sie benötigen, um von StaffHub zu Teams zu wechseln.
 
-### <a name="identify-pilot-teams"></a>Identifizieren von pilot-teams
+### <a name="identify-pilot-teams"></a>Ermitteln von Pilot Teams
 
-Erreichen von zwei oder drei pilot Teams zu identifizieren. Alle Teammitglieder sollten mithilfe von Schichten Teams ihre Zeitpläne verwalten und Kommunikation und Zusammenarbeit miteinander in commit.
+Erreichen Sie zwei oder drei Pilot Teams. Alle Teammitglieder sollten sich verpflichten, mithilfe von Schichten in Teams ihre Zeitpläne zu verwalten und miteinander zu kommunizieren und zusammenzuarbeiten.
 
-### <a name="identify-team-champions"></a>Identifizieren von Champions team
+### <a name="identify-team-champions"></a>Identifizieren von Team Champions
 
-Identifizieren von Champions über pilot Teams und registrieren, mit denen Schichten Wechsels bekannt. Team Champions am Herzen was sie tun, werden ihre eigenen Befunde um bieten Unterstützung und an die Teammitglieder freigeben. Team Champions kann Team Besitzer oder -Manager.
+Ermitteln Sie Champions in Pilot Teams, und geben Sie Sie zur Evangelisierung von Schichten ein. Team-Champions sind leidenschaftlich über das, was Sie tun, indem Sie Ihre eigenen Erfahrungen austauschen, um den Teammitgliedern Support und Hilfestellung zu bieten. Team Champions können Teambesitzer oder Manager sein.
 
-Team Champions sollten sicherstellen, Teammitglieder eingesetzten Hörers Zeit für alle Benutzer, [Teams Clients erhalten möchten](../../get-clients.md), melden Sie sich bei Teams sind und ihre Zeitpläne in Schichten Auschecken und miteinander chatten. Benutzer, die bereits mit StaffHub vertraut sind werden betriebsbereit schnell Schichten in. Sie können Sie auch zur [Schichten](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) zusätzliche Hilfe verweisen.
+Team-Champions sollten sicherstellen, dass die Teammitglieder eingerichtet werden, indem Sie Zeit für jeden einrichten, um [Teams-Clients zu erhalten](../../get-clients.md), sich bei Teams anzumelden und deren Zeitpläne in Schichten zu überprüfen und mit anderen zu chatten. Benutzer, die bereits mit StaffHub vertraut sind, werden in Schichten schnell in Betrieb sein. Sie können auch auf die [Schalt Schicht Hilfe](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) verweisen, um weitere Hilfe zu erhalten.
 
-### <a name="move-a-staffhub-team-coming-soon"></a>Verschieben eines StaffHub-Teams (bald verfügbar)
+### <a name="move-a-staffhub-team-coming-soon"></a>Verschieben eines StaffHub-Teams (in Kürze verfügbar)
 
-Verwenden Sie folgende Schritte aus, um ein StaffHub Team gleichzeitig zu verschieben. Es wird empfohlen, diese Herangehensweise an die die pilot-Teams. Später, wenn Sie zum Verschieben von Ihrer Organisation StaffHub Teams bereit sind, finden Sie unter Schritte zum Verschieben Sie mehrere Teams zu einem Zeitpunkt [Verschieben Ihrer StaffHub Teams](#move-your-staffhub-teams-coming-soon) .
+Führen Sie die folgenden Schritte aus, um ein StaffHub-Team gleichzeitig zu verschieben. Wir empfehlen diesen Ansatz für Ihre Pilot Teams. Wenn Sie zu einem späteren Zeitpunkt alle StaffHub-Teams Ihrer Organisation verschieben möchten, lesen Sie [Verschieben von StaffHub Teams](#move-your-staffhub-teams-coming-soon) nach Schritten zum Verschieben mehrerer Teams.
 
-Führen Sie Folgendes ein, um ein Team StaffHub verschieben.
+Führen Sie die folgenden Schritte aus, um ein StaffHub-Team zu verschieben.
 
 ```
 Move-StaffHubTeam -TeamId <String>
@@ -116,7 +116,7 @@ Sample:
 Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 ```
 
-Es folgt ein Beispiel der Antwort, die Sie erhalten, wenn Sie die Anforderung einer Verschiebung einer Team StaffHub Teams übermitteln.
+Im folgenden finden Sie ein Beispiel für die Antwort, die Sie erhalten, wenn Sie eine Anfrage einreichen, um ein StaffHub-Team in Teams zu verschieben.
 
 ```
     jobId                                      teamId                                      teamAlreadyInMicrosofteams  
@@ -124,7 +124,7 @@ Es folgt ein Beispiel der Antwort, die Sie erhalten, wenn Sie die Anforderung ei
     JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
 ```
 
-Führen Sie folgenden Befehl zum Überprüfen des Status einer Anforderung verschieben.
+Führen Sie die folgenden Schritte aus, um den Status einer Verschiebungsanforderung zu überprüfen.
 
 ```
 Get-TeamMigrationJobStatus <String>
@@ -134,7 +134,7 @@ Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
 
 ```
 
-Es folgt ein Beispiel der Antwort, die Sie erhalten, wenn eine Verschiebung ausgeführt wird.
+Im folgenden finden Sie ein Beispiel für die Antwort, die Sie erhalten, wenn ein Schritt ausgeführt wird.
 
 ```
     jobId                                     status       teamId                                     isO365GroupCreated  Error
@@ -142,33 +142,33 @@ Es folgt ein Beispiel der Antwort, die Sie erhalten, wenn eine Verschiebung ausg
     JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
 ```
 
-## <a name="make-the-transition-from-staffhub-to-teams"></a>Nehmen Sie den Übergang von StaffHub Teams
+## <a name="make-the-transition-from-staffhub-to-teams"></a>Durchführen des Übergangs von StaffHub zu Teams
 
-### <a name="raise-awareness"></a>Bewusstsein
+### <a name="raise-awareness"></a>Sensibilisieren
 
-Wenn können Sie jetzt Ihre pilot Teams hinausgehen, und Verschieben von Ihrer Organisation StaffHub Teams Teams, es ist wichtig, zuerst die Änderung in Ihrer Organisation kommunizieren. Das Wort zu Schichten und den Übergang zu Teams Bewusstsein, Interesse generieren und bessere Akzeptanz verteilt.
+Wenn Sie bereit sind, über Ihre Pilot Teams hinauszugehen und die StaffHub-Teams Ihrer Organisation in Teams zu verschieben, ist es wichtig, zunächst die Änderung in Ihrer Organisation zu kommunizieren. Informieren Sie sich über Schichten und den Übergang zu Teams, um das Bewusstsein zu schärfen, Spannung zu wecken und die Akzeptanz zu steigern.
 
-### <a name="move-your-staffhub-teams-coming-soon"></a>Verschieben Sie die StaffHub-Teams (bald verfügbar)
+### <a name="move-your-staffhub-teams-coming-soon"></a>Verschieben Ihrer StaffHub-Teams (in Kürze verfügbar)
 
-Verwenden Sie folgende Schritte aus, um StaffHub Teams in einer Sammeloperation verschieben. Sie können auswählen, verschieben Sie alle Ihrer Organisation StaffHub Teams oder bestimmte StaffHub Teams. Wenn Sie, dass StaffHub teams, die jeweils einzeln verschieben möchten, finden Sie unter [Verschieben Sie ein Team StaffHub](#move-a-staffhub-team-coming-soon).
+Führen Sie die folgenden Schritte aus, um StaffHub Teams massenhaft zu verschieben. Sie können auswählen, ob Sie alle StaffHub-Teams Ihrer Organisation verschieben oder bestimmte StaffHub-Teams verschieben möchten. Wenn Sie StaffHub Teams einzeln verschieben möchten, lesen Sie [Verschieben eines StaffHub](#move-a-staffhub-team-coming-soon)-Teams.
 
-#### <a name="move-all-staffhub-teams-coming-soon"></a>Verschieben Sie alle StaffHub-Teams (bald verfügbar)
+#### <a name="move-all-staffhub-teams-coming-soon"></a>Verschieben aller StaffHub-Teams (in Kürze verfügbar)
 
-Führen Sie Folgendes ein, um eine Liste aller StaffHub Teams in Ihrer Organisation abzurufen.
+Führen Sie die folgenden Schritte aus, um eine Liste aller StaffHub-Teams in Ihrer Organisation abzurufen.
 
 ```
 $StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
-Führen Sie dann Folgendes ein, um alle Teams verschieben.
+Führen Sie dann die folgenden Schritte aus, um alle Teams zu verschieben.
 
 ```
 $StaffHubTeams | foreach {Move-StaffHubTeam -TeamId {$_.Id}}
 ```
 
-Es folgt ein Beispiel der Antwort.
+Hier ist ein Beispiel für die Antwort.
 
-Für alle Teams, die bereits für Teams verschoben wurde oder bereits im Teams, wird die JobId "null" während ein Auftrags muss nicht zum Verschieben von diesem Teams übermittelt werden.
+Für alle Teams, die bereits in Teams verschoben oder bereits in Teams vorhanden sind, ist die JobID "Null", da ein Auftrag nicht gesendet werden muss, um das Team zu verschieben.
 
 ```
     jobId                                      teamId                                      teamAlreadyInMicrosofteams  
@@ -177,30 +177,30 @@ Für alle Teams, die bereits für Teams verschoben wurde oder bereits im Teams, 
     JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   false
 ```
 
-#### <a name="move-specific-staffhub-teams-coming-soon"></a>Verschieben Sie bestimmte StaffHub-Teams (bald verfügbar)
+#### <a name="move-specific-staffhub-teams-coming-soon"></a>Verschieben spezifischer StaffHub-Teams (in Kürze verfügbar)
 
-Führen Sie Folgendes ein, um eine Liste aller StaffHub Team Ids in Ihrer Organisation abzurufen.
+Führen Sie die folgenden Schritte aus, um eine Liste aller StaffHub-Team-IDs in Ihrer Organisation abzurufen.
 
 ```
 Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
-In den zurückgegebenen Ergebnissen der `Get-StaffHubteamsForTenant` Cmdlet ausgeführt Sie zuvor, wählen Sie die Team-Ids, die Sie verschieben möchten, und klicken Sie dann eine durch Trennzeichen getrennten Werten (CSV)-Datei hinzugefügt werden.
+Wählen Sie in den Ergebnissen, `Get-StaffHubteamsForTenant` die von dem zuvor ausgeführten Cmdlet zurückgegeben wurden, die Team-IDs aus, die Sie verschieben möchten, und fügen Sie Sie dann einer CSV-Datei (Comma-Separated Values, CSV) hinzu.
 
-Hier ist ein Beispiel, wie die CSV-Datei formatiert werden soll.
+Im folgenden finden Sie ein Beispiel dafür, wie die CSV-Datei formatiert werden soll.
 
 |ID  |
 |---------|
-|TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f<br>TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000<br>TEAM_b42d0fa2 - 0fc 9-408b-85ff-c14a26700000<br>TEAM_b42d0fa2 - 0fc 9-408b-85ff-c14a26700000|
+|TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f<br>TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000<br>TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000<br>TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000|
 
-Nachdem Sie die CSV-Datei erstellt haben, führen Sie Folgendes ein, um die Teams verschieben, den, die Sie in der CSV-Datei angegeben.
+Nachdem Sie die CSV-Datei erstellt haben, führen Sie die folgenden Schritte aus, um die in der CSV-Datei angegebenen Teams zu verschieben.
 
 ```
 Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -TeamdId {$_.Id}}
 ```
-### <a name="confirm-that-your-staffhub-teams-have-moved-to-teams-coming-soon"></a>Vergewissern Sie sich, dass Ihre StaffHub Teams Teams (bald verfügbar) verschoben wurden
+### <a name="confirm-that-your-staffhub-teams-have-moved-to-teams-coming-soon"></a>Vergewissern Sie sich, dass Ihre StaffHub-Teams in die Teams umgezogen sind (in Kürze verfügbar)
 
-Führen Sie Folgendes ein, um eine Liste aller Teams in Schichten in Ihrer Organisation abzurufen. 
+Führen Sie die folgenden Schritte aus, um eine Liste aller Teams in Schichten in Ihrer Organisation abzurufen. 
 
 ```
 Get-StaffHubTeamsForTenant -ManagedBy "Teams"
@@ -208,9 +208,9 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 
 ## <a name="monitor-teams-usage"></a>Überwachen der Verwendung von Teams
 
-Verwendungsberichte können Ihnen besser verstehen Verwendungsmuster und bieten Ihnen Insights an, wo Sie in Ihrer Organisation Schulung und Kommunikation Maßnahmen priorisieren. Da Schichten ist eine app in Teams, können Sie die Verwendung durch Teams Berichte anzeigen. Weitere Informationen finden Sie unter [Teams Berichte in der Verwaltungskonsole von Microsoft-Teams](../../teams-analytics-and-reports/teams-reporting-reference.md) und [Teams Berichte in der Microsoft-365-Verwaltungskonsole](../../teams-activity-reports.md).
+Verwendungsberichte können Ihnen dabei helfen, Nutzungsmuster besser zu verstehen und Ihnen Einblicke zu geben, wo Sie die Schulungs-und Kommunikationsaktivitäten in Ihrer Organisation priorisieren können. Da es sich bei Schichten um eine app in Teams handelt, können Sie die Verwendung über Teams-Berichte anzeigen. Weitere Informationen finden Sie unter [Teams-Berichterstattung im Microsoft Teams Admin Center](../../teams-analytics-and-reports/teams-reporting-reference.md) und [Teams-Aktivitätsberichte im Microsoft 365 Admin Center](../../teams-activity-reports.md).
 
 ## <a name="related-topics"></a>Verwandte Themen
 - [Microsoft StaffHub soll eingestellt werden](microsoft-staffhub-to-be-retired.md)
 - [Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
-- [Referenz zu den StaffHub PowerShell](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
+- [StaffHub PowerShell-Referenz](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)

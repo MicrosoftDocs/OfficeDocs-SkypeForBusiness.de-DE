@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 9581589dcc9b07ed5745069f56d6f2ba3561feae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ac3f6b94f0ddb4410d89ecd95aef346eb32c9ff1
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290120"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494226"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Aktivieren oder Deaktivieren des Sendens von e-Mails, wenn sich die Einstellungen für Audiokonferenzen in Skype for Business Online ändern
 
@@ -62,7 +62,7 @@ Im folgenden finden Sie ein Beispiel für die e-Mail, die an Benutzer gesendet w
 Sie können das Skype for Business Admin Center oder Windows PowerShell verwenden, um e-Mails zu aktivieren oder zu deaktivieren, die an Benutzer gesendet werden.
 
  
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
     
 1. Klicken Sie im **Skype for Business Admin Center**im linken Navigationsbereich auf Audiokonferenzen. ****
     

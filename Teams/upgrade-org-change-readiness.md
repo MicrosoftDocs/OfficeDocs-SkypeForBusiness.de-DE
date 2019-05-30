@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c0376c97ed86bb3a34def70c25a81bc79104a27
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 0b1fcbd95d58dd53eb2f8e4289563ab403f73e29
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344476"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548493"
 ---
-![Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Benutzer Bereitschaftsstufe] (media/upgrade-banner-user-readiness.png "Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Benutzer Bereitschaftsstufe")
+![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Benutzer Bereitschaftsstufe] (media/upgrade-banner-user-readiness.png "Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Benutzer Bereitschaftsstufe")
 
 Dieser Artikel ist Teil der Benutzer Bereitschaftsstufe Ihres Upgrade-Vorgangs, einer Aktivität, die Sie parallel zur technischen Bereitschaftsphase abschließen. Bevor Sie fortfahren, bestätigen Sie, dass Sie diese Aktivitäten aus vorherigen Phasen abgeschlossen haben:
 

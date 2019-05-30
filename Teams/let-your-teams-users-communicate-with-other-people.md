@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: Hier erfahren Sie, wie Sie Teams so konfigurieren, dass Benutzer mit Benutzern in einer anderen Organisation kommunizieren können.
-ms.openlocfilehash: d974197f6daedab030124dfc1117610e3504ae32
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: e9e2a60c7f1f93df56408976a92e4aa47f3e486e
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433191"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494690"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Zulassen, dass Ihre Teams-Benutzer in einer anderen Teams-Organisation chatten und mit Benutzern kommunizieren
 
@@ -58,7 +58,7 @@ Führen Sie die folgenden Schritte aus.
 
    3. Wenn Sie zulassen möchten, dass alle Teams-Organisationen mit Benutzern in Ihrer Organisation kommunizieren, fahren Sie mit Schritt 5 fort. 
    
-   4. Wenn Sie einschränken möchten, welche Organisationen mit Benutzern in Ihrer Organisation kommunizieren können, können Sie entweder alle außer einigen Domänen zulassen oder nur bestimmte Organisationen zulassen. Wenn Sie nur einige Domänen zulassen möchten, fügen Sie die zu blockierenden Domänen hinzu, indem Sie auf **Domäne hinzufügen**klicken. Klicken Sie im Bereich **Domäne hinzufügen** im Domänennamen auf **blockiert** und dann auf **Fertig**. Um die Kommunikation auf bestimmte organizatioins zu begrenzen, fügen Sie diese Domänen der Liste mit dem **** Status "verschuldete" hinzu. Nachdem Sie der Zulassungsliste eine beliebige Domäne hinzugefügt haben, sind die Kommunikationen mit anderen Organisationen nur auf die Organisationen limitiert, deren Domänen sich in der Zulassungsliste befinden. 
+   4. Wenn Sie einschränken möchten, welche Organisationen mit Benutzern in Ihrer Organisation kommunizieren können, können Sie entweder alle außer einigen Domänen zulassen oder nur bestimmte Organisationen zulassen. Wenn Sie nur einige Domänen zulassen möchten, fügen Sie die zu blockierenden Domänen hinzu, indem Sie auf **Domäne hinzufügen**klicken. Klicken Sie im Bereich **Domäne hinzufügen** im Domänennamen auf **blockiert** und dann auf **Fertig**. Um die Kommunikation auf bestimmte organizatioins zu begrenzen, fügen Sie diese Domänen der Liste mit dem Status **Allowed**hinzu. Nachdem Sie der Zulassungsliste eine beliebige Domäne hinzugefügt haben, sind die Kommunikationen mit anderen Organisationen nur auf die Organisationen limitiert, deren Domänen sich in der Zulassungsliste befinden. 
    
    5. Klicken Sie auf **Speichern**. 
 

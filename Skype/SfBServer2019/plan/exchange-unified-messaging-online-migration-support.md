@@ -10,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst (-Service) bis Februar 2020 ein. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: d959a4b3ff04a8f2de9182d0df9cc5f63941a5dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ba9df18478057e9c32b0f2cea70a10c6c7ab36e8
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280850"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494188"
 ---
-# <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online  
+# <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online
 
 In Bezug auf die [Ankündigung](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) vom 8. Februar 2019 wird Microsoft den Exchange Unified Messaging Online-Dienst ("Service") bis Februar 2020 zurückziehen. In diesem Artikel finden Sie eine Zusammenfassung der betroffenen Kunden, die Sie kennen sollten, um Ihre Geschäftskontinuität zu planen. 
  
@@ -30,9 +30,9 @@ Voicemail ist in erster Linie eine Microsoft-gesteuerte Migration; eine Beteilig
 
 Kunden, die eine der folgenden Features aus dem Exchange Unified Messaging-Online Dienst verwenden, sind davon betroffen:
 
-1. Voicemail-Dienst 
-2. Dienst für automatische Telefonzentrale 
-3. Fax-Integration 
+- Voicemail-Dienst
+- Dienst für automatische Telefonzentrale
+- Fax-Integration
 
 > [!Note]
 > Kunden, die einen der lokalen Exchange-Server mit Unified Messaging verwenden, sind davon nicht betroffen. 
@@ -56,7 +56,6 @@ Microsoft hat verschiedene Kundenbereitstellungen identifiziert, die Features vo
  
     Machen Sie sich mit der [Blog Ankündigung](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) und diesem Artikel vertraut, um eine reibungslose Migration für Ihre Benutzer zu planen. Weitere Informationen zu den Cloud-Voicemail-Funktionen finden Sie unter [Skype for Business-Voicemail und Optionen](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) .  
  
-
 2.  **Einrichten einer Skype for Business-Hybrid Topologie**
 
     Wenn Sie keine Skype for Business-Hybrid Topologie eingerichtet haben, müssen Sie dies tun, um eine reibungslose Migration Ihrer Voicemail-Benutzer zu ermöglichen. Weitere Informationen finden Sie unter [Konfigurieren von Skype for Business-Hybrid](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) . 
@@ -82,21 +81,32 @@ Microsoft hat verschiedene Kundenbereitstellungen identifiziert, die Features vo
     > [!Note]
     > Wenn Sie eine Benachrichtigung mit der Migrations Zeitachse Ihrer Benutzer erhalten haben und Ihre Migration aus geschäftlichen Gründen verschieben möchten, können Sie dies tun, indem Sie sich an den Microsoft-Support wenden. Beachten Sie, dass Sie Ihre Migration nicht über das pensionierungs Datum hinaus verschieben können, 2020. Februar. Für Kunden, die möglicherweise weitere Fragen haben, wenden Sie sich bitte an Ihr Konto Team oder den Microsoft-Support. Kunden, die bereits Office 365 verwenden, können einen Supportfall über das Office 365-Administratorportal einreichen. 
 
-6. **Sie sollten sich ab Mai 2019 entscheiden.**
+6. **Entscheiden Sie sich für eine geplante Migration**
 
-    Sie können sich für eine frühe Voicemail-Dienst Migration bis Mai 2019 entscheiden (wenn Sie keine Migrations Benachrichtigung erhalten haben), um Ihre Migration mit einer Lizenz Annuität oder einem Administrator Personal Urlaub auszurichten oder geschäftskritische Zeiträume zu vermeiden. Details zum Opt-in-Prozess werden in diesem Artikel vor Mai 2019 aktualisiert.  
+    Sie können sich für eine geplante Voicemail-Service-Migration in das Kooperationsangebot entscheiden. Bevor Sie sich entscheiden, lesen Sie die Details zu diesem Artikel, insbesondere die folgenden Abschnitte:
+
+    - Migrationsschritte (dieser Abschnitt)
+    - Feature-Matrix für die Dienstleistungen und Azure Cloud-based Services
+    - Auswirkungen auf die Benutzeroberfläche
+
+    Beachten Sie, dass Sie bei der Entscheidung für eine verwaltete Migration keine 30-Tage-Benachrichtigung im Microsoft 365 Admin Portal-Nachrichtencenter erhalten.
+ 
+    Wenn Sie eine geplante Migration aktivieren möchten, senden Sie eine e-Mail-Anforderung an [cvm@Microsoft.com](mailto:cvm@microsoft.com)unter Verwendung der e-Mail-Adresse Ihres Administrators mit den folgenden Informationen:
+
+    - Bevorzugtes Datum (dienstags): Migrationswellen werden jeden Dienstag ausgeführt. Bitte wählen Sie ein Datum an einem Dienstag aus, das nicht über 12/3/2019 hinausgeht.
+ 
+    - Mandanten-ID: 32-Zeichenzahl in diesem Format 0046728c-688a-4472-a38f-098fec60ac6x. Sie können Ihre Mandanten-ID im Microsoft 365-Administratorportal unter Azure Active Directory oder durch Ausführen des folgenden PowerShell-Cmdlets finden:`Get-CsTenant | Select ObjectId`
+ 
+    Sie erhalten eine e-Mail-Bestätigung, sobald Ihr Mandant erfolgreich migriert wurde. 
 
 ## <a name="appendix"></a>Anhang
 
-### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Feature-Matrix für die Dienstleistungen und Azure Cloud-based Services 
-
-
-
+### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Feature-Matrix für die Dienstleistungen und Azure Cloud-based Services
 
 | Dienst | Funktionsebene | Feature | Hinweise  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VM  | Dienst Features| Unterstützung von Drittanbieter-Telefonanlagen    | Einschließlich aller Funktionen, die von einer Drittanbieter-Telefonanlage bereitgestellt werden, wie MWI (Nachrichten Warteanzeige) mithilfe von SIP-Benachrichtigungen von Exchange um Online | N   | J    |
-| VM | Dienst Features  | Support für Skype for Business Server   |  | J | Y    |
+| VM | Dienst Features  | Support für Skype for Business Server   |  | Y | Y    |
 | VM | Dienst Features | Microsoft Teams unterstützen|  | J | N    |
 | VM | Dienst Features | eDiscovery und Haltebereich  | Für Sicherheit und Compliance  | Y | Y    |
 | VM | Dienst Features | Unterstützung für Exchange-Regeln | Für Sicherheit und Compliance  | Y | Y    |
@@ -113,8 +123,8 @@ Microsoft hat verschiedene Kundenbereitstellungen identifiziert, die Features vo
 | VM | Benutzer Features | Benutzereinstellung zum Deaktivieren der Transkription |  | N | J    |
 | VM | Benutzer Features | Transkription  |  | Y | Y    |
 | VM | Benutzer Features | Visuelle Voicemail auf allen Endpunkten   | Mit Benutzersteuerelement zum wiedergeben, löschen, Nachrichten-Warteanzeige und Status-umschalten auf allen unterstützten Endpunkten  | Y | Y    |
-| VM | Benutzer Features | MP3-Audio-Dateiformat in Outlook    |  | Y | Y    |
-| VM | Benutzer Features | Wiedergabesteuerung mit variabler Geschwindigkeit |  | Y | Y    |
+| VM | Benutzer Features | MP3-Audio-Dateiformat in Outlook    |  | J | Y    |
+| VM | Benutzer Features | Wiedergabesteuerung mit variabler Geschwindigkeit |  | J | Y    |
 | VM | Benutzer Features | Weiterleiten einer Sprachnachricht  | Weiterleiten einer empfangenen Sprachnachricht an andere Benutzer | J | Y    |
 | VM | Benutzer Features | Senden einer Sprachnachricht an eine Gruppe von Benutzern  |Voicemail-Übertragung   | N | J   |
 | VM | Benutzer Features | Voicemail-Benachrichtigung über SMS    | Benutzer können eine SMS empfangen, wenn Sie eine neue Voicemail haben    | N | J    |
@@ -131,7 +141,7 @@ Microsoft hat verschiedene Kundenbereitstellungen identifiziert, die Features vo
 | VM | Mandanten-Administratorfunktionen | Timeout für Silence-Erkennung ändern    |  | Nicht zutreffend    | Y    |
 | VM | Mandanten-Administratorfunktionen | Ändern der Anzahl von Eingabefehlern | Prothesen: schwer codiert bis 3 | N | J    |
 | VM | Mandanten-Administratorfunktionen | Ändern der Standardsprache |  | J | Y    |
-| VM | Mandanten-Administratorfunktionen | Deaktivieren/Aktivieren der Transkription |  | J | Y    |
+| VM | Mandanten-Administratorfunktionen | Deaktivieren/Aktivieren der Transkription |  | Y | Y    |
 | VM | Mandanten-Administratorfunktionen | Benachrichtigung über verpasste Anrufe deaktivieren/aktivieren |  | N | J    |
 | VM | Mandanten-Administratorfunktionen | Hilfe für Microsoft beim Verbessern der Voicemailvorschau    |  | Y | Y    |
 | VM | Mandanten-Administratorfunktionen | Anpassen der Textnachricht für aktivierte Benutzer|  | Nicht zutreffend    | Y    |
@@ -162,8 +172,6 @@ Microsoft hat verschiedene Kundenbereitstellungen identifiziert, die Features vo
 | AA | Mandanten-Administratorfunktionen | PowerShell-Cmdlets  |  | Y | Y    |
 | Fax| Dienst Features | Fax-Integration|  | N | J    |
 
-
-
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>Empfohlener Testplan und Validierung nach der Migration für Administratoren
 
 Stellen Sie beim Testen der Voicemail-Funktionalität nach der Migration Ihrer Benutzer sicher, dass Sie die folgenden Szenarien beachten:
@@ -173,7 +181,6 @@ Stellen Sie beim Testen der Voicemail-Funktionalität nach der Migration Ihrer B
 - Wenn Ihre Organisation über eine rechtliche oder Compliance-Anforderung verfügt, um die Transkription für Benutzer zu deaktivieren, stellen Sie sicher, dass Sie nach der Migration deaktiviert ist. Weitere Informationen finden Sie unter [Einrichten von Cloud-Voicemail](/microsoftteams/set-up-phone-system-voicemail).
 - Wenn Sie zuvor Exchange VM-Richtlinien und-Regeln konfiguriert haben, stellen Sie sicher, dass Sie effektiv sind.
 - Machen Sie sich mit den PowerShell-Cmdlets von Cloud Voicemail Service vertraut, um Benutzereinstellungen zu ändern.  
-
 
 ### <a name="user-experience-impact"></a>Auswirkungen auf die Benutzeroberfläche
 

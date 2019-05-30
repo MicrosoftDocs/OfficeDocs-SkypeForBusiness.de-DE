@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 ms.collection: M365-voice
 localization_priority: Normal
 description: In diesem Artikel wird die Lebenszyklus Unterstützung für Microsoft Teams-Chatrooms erläutert.
-ms.openlocfilehash: 9d4fcbfa7dbe1ea60233e97f10285d01f6cfe943
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18d666e9fd0fa98e6c5a92ad7910cfe2adcb4a9e
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288519"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494722"
 ---
 # <a name="microsoft-teams-room-app-version-support"></a>Microsoft Teams Room App-Versionsunterstützung
  
@@ -38,8 +38,11 @@ Windows 10-Funktionsupdates für Geräte mit Microsoft Teams-Räumen werden nich
 
 Wenn der Zeit Block aufgehoben wird (d. h., dass Windows 10-Funktions Update auf diesen Geräten heruntergeladen werden kann), unterstützt Microsoft Teams rooms die spezifische Windows 10-Funktionsfreigabe für den Zeitraum von 12 Monaten in Übereinstimmung mit den App-Supportrichtlinien. Da Windows 10-Funktionsupdates etwa alle 6 Monate angeboten werden, bedeutet dies auch, dass Microsoft Teams zwei weitere Versionen zum Testen haben wird, wenn die Unterstützung für die aktuelle Version beendet wird. Dies bedeutet auch, dass eine Windows 10-Version alle 6 Monate für alle Microsoft Teams rooms-Kunden gesperrt wird. Da wir ständig App-Änderungen vornehmen und sich gegen die letzte nicht blockierte Windows-Version entwickeln, müssen in einigen Fällen Abhängigkeit von den Windows-Features in neueren Windows-Versionen übernommen werden und die Tatsache, dass es für Microsoft schwieriger wird, Änderungen an die Version, die 12-18 Monate alt ist. Um sicherzustellen, dass Sie die APP-Korrektur für ein Problem erhalten, das auf Ihrem Microsoft Teams rooms-Gerät auftritt, empfehlen wir allen Kunden, diese Geräte auf das neueste Windows 10-Funktions Update zu aktualisieren, das für die unterstützten Windows-Versions Anleitungen verfügbar ist.
 
-Als solches erfordert Microsoft Teams rooms Windows 10 Versionen 1709 als mindestens unterstützte Version ab Mai 2019. Auf Systemen unter Windows 10, Version 1703 oder höher, werden keine neuen App-Versionen angeboten.
+Daher ist für Microsoft Teams rooms-Geräte die Windows 10-Version 1709 als die unterstützte Mindestversion ab Mai 2019 erforderlich. Auf Systemen unter Windows 10, Version 1703 oder höher, werden keine neuen App-Versionen angeboten.
 
+> [!NOTE]
+> Wenn ein Microsoft Teams rooms-Gerät mit der nächsten Version von Windows 10 OS kompatibel ist, wird das Gerät automatisch auf die nächste Version über Windows Update aktualisiert. Microsoft Teams rooms-Geräte sollten nicht manuell auf die nächste Version von Windows 10 aktualisiert werden oder über die Aktivierung von Windows Update for Business (WUFB)-Gruppenrichtlinien mit der Option "Windows-Bereitschaftsgrad für die Updates auswählen, die Sie empfangen möchten" und "auswählen, wann Preview-Builds und Feature-Updates werden über ein GPO "-Optionen empfangen. Die Aktivierung dieser Gruppenrichtlinien führt zu Problemen zwischen dem Windows 10-Betriebssystemupdate und der Microsoft Teams rooms-app. 
+ 
 <a name="See"> </a>  
 ## <a name="see-also"></a>Siehe auch
 

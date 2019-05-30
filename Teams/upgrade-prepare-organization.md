@@ -1,12 +1,12 @@
 ---
-title: Vorbereiten der Aktualisierung Skype für Unternehmen, die Microsoft-Teams | Planen der Benutzerakzeptanz
+title: Vorbereiten des Upgrades von Skype for Business auf Microsoft Teams | Planen der Benutzerakzeptanz
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Ermitteln Sie die Bereitschaft Ihrer Organisation, um die Änderung zu übernehmen und Vorbereiten eines Plans zum Abrufen von Benutzern bereit zum Upgraden von Skype für Unternehmen, die Microsoft-Teams
+description: Beurteilen der Bereitschaft Ihrer Organisation, Änderungen zu akzeptieren, und Vorbereiten eines Plans für die Bereitstellung von Benutzern zum Upgrade von Skype for Business auf Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,28 +15,28 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23d09a1d580cf933994fb116dd4df9c7e450f274
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 67ba6c1358273b78aee06861ea7cc3484f52666b
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885575"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494546"
 ---
-![Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase] (media/upgrade-banner-user-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die User Readiness-Phase")
+![Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Benutzer Bereitschaftsstufe] (media/upgrade-banner-user-readiness.png "Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Benutzer Bereitschaftsstufe")
 
-Dieser Artikel ist Teil der User Readiness Stufe des Ihrem Upgrade Weg, eine Aktivität, die gleichzeitig mit der technische Bereitschaft Phase ausgeführt werden. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie diese Aktivitäten aus vorherigen Phasen abgeschlossen haben:
+Dieser Artikel ist Teil der Benutzer Bereitschaftsstufe Ihres Upgrade-Vorgangs, einer Aktivität, die Sie parallel zur technischen Bereitschaftsphase abschließen. Bevor Sie fortfahren, bestätigen Sie, dass Sie diese Aktivitäten aus vorherigen Phasen abgeschlossen haben:
 
-- [Ihre Projektbeteiligten eingetragen](upgrade-enlist-stakeholders.md)
-- [Definiert die Projektumfang](https://aka.ms/SkypetoTeams-Scope)
-- [Skype-Interoperabilität und Koexistenz für Unternehmen und Teams verstanden](https://aka.ms/SkypeToTeams-Coexist)
-- [Ihre Reise Upgrade ausgewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Ihre Projekt Beteiligten wurden eingetragen](upgrade-enlist-stakeholders.md)
+- [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
+- [Verständliche Koexistenz und Interoperabilität von Skype for Business und Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Ihre Upgrade-Reise gewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="prepare-your-organization"></a>Bereiten Sie Ihre Organisation
+# <a name="prepare-your-organization"></a>Vorbereiten Ihrer Organisation
 
-Um den Höchstwert von Teams nutzen zu können, Benutzer müssen tatsächlich verwenden, jedoch erhalten Benutzer die Möglichkeit zu ändern, an denen, die Sie arbeiten, nicht immer leicht. Zeit zum Verstehen Sie die Benutzer und Entwerfen der richtigen bereitschaftsplan helfen zu vereinfachen ändern und schnellere Umsetzung von Teams. Diese Aktivitäten sollten gleichzeitig mit Ihrer technische Bereitschaft zur Vorbereitung abgeschlossen werden:
+Um den größtmöglichen Nutzen aus Teams zu ziehen, müssen die Benutzer Sie tatsächlich verwenden, aber die Benutzer können Ihre Arbeitsweise nicht immer einfach ändern. Wenn Sie sich Zeit nehmen, um Ihre Benutzer zu verstehen und den richtigen Bereitschaftsplan zu entwerfen, kann dies die Änderung erleichtern und die Einführung von Teams beschleunigen. Diese Aktivitäten sollten parallel zur Vorbereitung auf die technische Vorbereitung erfolgen:
 
-- [Bewerten der Bereitschaft ändern](https://aka.ms/OrgReadiness): hierzu gehören Kenntnisse, die Ihre Benutzer sind, wie die neue Technologie verwendet werden und wie einfach sie ändern anpassen. Dies ist auch die Möglichkeit, spezifische Benutzerprofile zu identifizieren, die von den Fokus besitzt Onboarding profitieren würden.
-- [Vorbereiten einer bereitschaftsplan Benutzer](https://aka.ms/UserReadinessPlan): bestehend aus zur Förderung des Bekanntheitsgrads, Schulung und Support-Aktivitäten, Ihre bereitschaftsplan sollte Adresse, die große Benutzerbasis und die gezielte Profile wie im Artikel [Änderung Bereitschaft bewerten](https://aka.ms/OrgReadiness) identifiziert.
+- [Bewertung der Bereitschaft zur organisatorischen Änderung](https://aka.ms/OrgReadiness): dazu gehören das Verständnis der Benutzer, die Verwendung der neuen Technologie und die Art und Weise, wie Sie sich an Änderungen anpassen. Dies ist auch eine Möglichkeit, bestimmte Nutzerprofile zu identifizieren, die von einem fokussierten Onboarding profitieren würden.
+- [Vorbereiten eines Benutzer Bereitschaftsplans](https://aka.ms/UserReadinessPlan): bestehend aus Sensibilisierungs-, Schulungs-und Supportaktivitäten sollte Ihr Bereitschaftsplan sowohl ihre breite Benutzerbasis als auch Ihre zielprofile berücksichtigen, wie Sie im Artikel [bewerten der Änderungsbereitschaft](https://aka.ms/OrgReadiness) angegeben sind.
 
 > [!Tip]
-> Laden Sie das [Upgrade Erfolg Kit](https://aka.ms/UpgradeSuccessKit) für Vorlage User Readiness Materialien wie Communications und den benutzerumfragen, zusätzlich zu einem Upgrade Beispielprojektplan und pilot Testplan.
+> Laden Sie das [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) für Vorlagenbenutzer Bereitschafts Materialien wie Kommunikations-und Benutzer Umfragen sowie einen Beispiel-Upgrade-Projektplan und einen Pilot Testplan herunter.

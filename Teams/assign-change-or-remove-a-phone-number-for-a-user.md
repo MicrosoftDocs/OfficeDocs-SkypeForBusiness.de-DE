@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie eine geschäftliche Telefonnummer für Ihre Teams oder Skype for Business-Benutzer zuweisen, ändern oder entfernen, sodass externe Unternehmen und Kunden Sie anrufen können.
-ms.openlocfilehash: f9792edf76d5d86a562516aa620bfbb62d26fdd9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ea2135a095a60d6da37ce4db0fb443f2e9a74154
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286285"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493898"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer
 
@@ -54,7 +54,7 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
   
  ## <a name="assign-a-phone-number-to-a-user"></a>Zuweisen einer Telefonnummer zu einem Benutzer
  
-![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](media/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
  
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
@@ -86,7 +86,7 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
 
  ## <a name="change-a-phone-number-for-a-user"></a>Ändern einer Telefonnummer für einen Benutzer
  
-![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](media/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
  
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
@@ -110,7 +110,7 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Office 365 erhalten und was die
 
  ## <a name="remove-a-phone-number-from-a-user"></a>Entfernen einer Telefonnummer eines Benutzers
  
-![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](media/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
  
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     

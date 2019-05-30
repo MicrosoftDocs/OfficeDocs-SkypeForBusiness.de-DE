@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Informieren Sie sich über die Bereitstellungsschritte, um die richtige Firmware zu erhalten, Sie bei Bedarf zu aktualisieren, Lizenzen zuzuweisen und Einstellungen für Telefone im öffentlichen Bereich zu konfigurieren.
-ms.openlocfilehash: 59b681fecfe4fe6c2b9d89c7dbea875f30152340
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b7717fd9bfb641c94261d288b5b546cace50a61f
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297988"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493857"
 ---
 # <a name="set-up-common-area-phones"></a>Einrichten von Telefonen für gemeinsame Bereiche
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -81,7 +81,7 @@ Weitere Informationen finden Sie unter [Benutzer hinzufügen](https://support.of
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Schritt 3 - Eine Telefonnummer dem Benutzerkonto Telefon für gemeinsame Bereich zuweisen
 
-![sfb-logo-30x30.png](../../images/sfb-logo-30x30.png) Dem Benutzer mit dem **Skype for Business Admin Center** eine Telefonnummer zuweisen
+![Ein Symbol mit dem Skype for Business-](../../images/sfb-logo-30x30.png) Logo weisen Sie dem Benutzer über das **Skype for Business Admin Center** eine Telefonnummer zu.
 
 1. Im Office 365 Admin Center > **Admin** > Centers**für Skype for Business**.
 2. In dem **Skype for Business Admin Center** >  **Sprache** > **Telefonnummern**.

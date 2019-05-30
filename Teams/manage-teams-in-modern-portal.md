@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: islubin
-description: Informationen Sie zum Anzeigen oder aktualisieren Ihren Teams bei der in der Verwaltungskonsole von Microsoft-Teams.
+description: Hier erfahren Sie, wie Sie Ihre Teams im Microsoft Teams Admin Center anzeigen oder aktualisieren.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d2903e65e4ef4876f41d367ce961530020e775c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c205c8d3b4f57935c1882530815643a90357d1aa
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202740"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548270"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Verwalten von Teams im Admin Center für Microsoft Teams
 ==========================================
@@ -30,102 +30,102 @@ ms.locfileid: "32202740"
 
 ## <a name="overview"></a>Übersicht
 
-Als IT-Administrator müssen Sie anzeigen oder Aktualisieren der Teams, die Ihre Organisation für die Zusammenarbeit, oder Sie eingerichtet wurde möglicherweise Remediation-Aktionen wie dem Zuweisen der Besitzer für eigentümerloser Teams ausführen müssen. Sie können die in Ihrer Organisation über die Microsoft-Teams PowerShell-Modul und das Microsoft-Teams, Administrationscenter verwendeten Teams verwalten. Für vollständige Administration diese zwei Toolsets verwenden sollten Sie sicherstellen, dass Sie eine der folgenden Rollen zugewiesen werden:
+Als IT-Administrator müssen Sie möglicherweise die Teams anzeigen oder aktualisieren, die Ihre Organisation für die Zusammenarbeit eingerichtet hat, oder Sie müssen möglicherweise Behebungsaktionen wie das Zuweisen von Besitzern für besitzerlos ausgeführte Teams ausführen. Sie können die in Ihrer Organisation verwendeten Teams sowohl über das PowerShell-Modul von Microsoft Teams als auch über das Microsoft Teams Admin Center verwalten. Wenn Sie die vollständigen Verwaltungsfunktionen mithilfe dieser beiden Toolsets verwenden möchten, müssen Sie sicherstellen, dass Ihnen eine der folgenden Rollen zugewiesen ist:
 
 - Globaler Administrator
 - Teams-Dienstadministrator
 
-Weitere Informationen finden Sie Informationen zu Administratorrollen Teams in [Administratorrollen für Microsoft-Teams, verwenden Sie zum Verwalten von Teams](using-admin-roles.md), und Lesen Sie dazu, wie Sie die PowerShell-Cmdlets zum Verwalten von Teams in der [Microsoft-Teams, Cmdlet-Referenz zu](https://docs.microsoft.com/powershell/teams/?view=teams-ps)verwenden.  
+Weitere Informationen zu Administratorrollen in Teams finden Sie unter [Verwenden von Microsoft Teams-Administratorrollen zum Verwalten von Teams](using-admin-roles.md), und Sie können weitere Informationen zur Verwendung der PowerShell-Cmdlets für die Verwaltung von Teams in der [Microsoft Teams-Cmdlet-Referenz](https://docs.microsoft.com/powershell/teams/?view=teams-ps)finden.  
 
-Dieser Artikel enthält eine Übersicht über die Verwaltungstools für Teams in der Verwaltungskonsole von Microsoft-Teams.
+Dieser Artikel enthält eine Übersicht über die Verwaltungstools für Teams im Microsoft Teams Admin Center.
 
-## <a name="teams-overview-grid"></a>Teams Übersichtsraster
+## <a name="teams-overview-grid"></a>Übersicht über Teams
 
-Verwaltungstools für Teams sind unter dem Knoten **Teams** in der Verwaltungskonsole von Microsoft-Teams. (Wählen Sie in der Verwaltungskonsole **Teams** > **Verwalten Teams**.) Jedes Team wird von einer Office 365-Gruppe, und dieser Knoten bietet einen Überblick über die Gruppen, die Microsoft-Teams in Ihrer Organisation aktiviert wurden.
+Verwaltungstools für Teams befinden sich im Microsoft Teams Admin Center unter dem Knoten **Teams** . (Wählen Sie im Admin Center **Teams** > **Manage Teams**aus.) Jedes Team wird von einer Office 365-Gruppe unterstützt, und dieser Knoten bietet eine Ansicht von Gruppen, die in Ihrer Organisation in Microsoft Teams aktiviert wurden.
 
-![Teams Übersichtsraster](media/manage-teams-in-modern-portal-image1.png)  
+![Screenshot des Rasters ' Teams-Übersicht '](media/manage-teams-in-modern-portal-image1.png)  
 
-Das Raster zeigt die folgenden Eigenschaften:
+Im Raster werden die folgenden Eigenschaften angezeigt:
 
 - **Teamname**
-- **Kanäle** - Anzahl alle Kanäle in Teams, einschließlich des allgemeinen Standard-Kanals.
-- **Benutzer** : Anzahl der Benutzer insgesamt, einschließlich Besitzer, Gäste und Mitglieder von Ihrem Mandanten.
-- **Besitzer** - Anzahl der Besitzer für dieses Team.
-- **Gäste** - Anzahl von Azure Active Directory B2B Gastbenutzern, die Mitglieder dieser Gruppe sind.
-- **Private** - die Sichtbarkeit/AccessType der Gruppe der unterstützenden Office 365.
-- **Status** – die archiviert oder den Status "aktiv" für dieses Team.  Weitere Informationen zur Archivierung von Teams in der [Archivierung oder Wiederherstellung ein Team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
-- **GroupID** - die eindeutige GroupID der Gruppe der unterstützenden Office 365
-- **Klassifizierung** - Klassifizierung (Wenn in Ihrer Organisation verwendet wird) Sicherung Office 365-Gruppe zugewiesen.  Erfahren Sie mehr über Klassifikationen unter [Klassifikationen für Office-Gruppen in Ihrer Organisation zu erstellen](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
-- **Beschreibung** : die Beschreibung für die Sicherung Office 365-Gruppe festlegen
+- **Kanäle** – die Anzahl aller Kanäle im Team, einschließlich des Standard Kanals für allgemein.
+- **Benutzer** – die Anzahl der Gesamtbenutzer, einschließlich Besitzern, Gästen und Mitgliedern Ihres Mandanten.
+- **Besitzer** – eine Anzahl von Besitzern für dieses Team.
+- **Gäste** – eine Anzahl von Azure Active Directory-Gastbenutzern, die Mitglieder dieses Teams sind.
+- **Datenschutz** – die Sichtbarkeit/der Zugriff auf die Gruppe "Backing Office 365".
+- **Status** – der archivierte oder aktive Status für dieses Team.  Weitere Informationen finden Sie unter Archivieren von Teams [oder Wiederherstellen eines](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)Teams.
+- **Gruppen** -Nr – die eindeutige Gruppen-Nr der Backing Office 365-Gruppe
+- **Klassifizierung** : die Klassifizierung (falls in Ihrer Organisation verwendet), die der Gruppe "Backing Office 365" zugewiesen ist.  Weitere Informationen zu Klassifizierungen finden Sie unter [Erstellen von Klassifizierungen für Office-Gruppen in Ihrer Organisation](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **Beschreibung** – die Beschreibung für die Backing Office 365-Gruppe
 
 ### <a name="search"></a>Suche
 
-Suche derzeit unterstützt die Zeichenfolge "Beginnt mit" und das Feld **Teamname** durchsucht.
+Die Suche unterstützt derzeit die Zeichenfolge "beginnt mit" **** und durchsucht das Feld Teamname.
 
 ### <a name="edit"></a>Bearbeiten
 
-Sie können Gruppe und Team-spezifischen Einstellungen bearbeiten, indem Sie ein Team aus dem Raster auswählen auswählen und dann auf die Schaltfläche **Bearbeiten** .
+Sie können Gruppen-und Team spezifische Einstellungen bearbeiten, indem Sie ein Team aus dem Raster auswählen und dann die Schaltfläche " **Bearbeiten** " auswählen.
 
-![Team bearbeiten](media/manage-teams-in-modern-portal-image2.png)
+![Screenshot der Optionen für "Team bearbeiten"](media/manage-teams-in-modern-portal-image2.png)
 
-## <a name="team-profile"></a>Team-Profil
+## <a name="team-profile"></a>Team Profil
 
-Sie können der Profilseite Team von jedem Team aus dem Hauptfenster Teams Übersichtsraster, indem Sie auf den Teamnamen navigieren. Die Team Profilseite zeigt die Mitglieder, Besitzer und Gäste, die an das Team gehören (und dessen sichern O365 Gruppe), sowie des Teams Kanäle und Einstellungen. Auf der Profilseite Team können Sie folgende Aktionen ausführen:
+Durch Klicken auf den Teamnamen können Sie zur Seite "Teamprofil" eines beliebigen Teams aus dem Hauptübersicht-Raster "Teams" navigieren. Auf der Seite Teamprofil werden die Mitglieder, Besitzer und Gäste angezeigt, die dem Team (und der zugehörigen Office 365-Gruppe) sowie den Kanälen und Einstellungen des Teams angehören. Auf der Seite Teamprofil können Sie Folgendes ausführen:
 
-- Hinzufügen oder Entfernen von Mitgliedern und Besitzern.
-- Hinzufügen oder Entfernen von Kanäle (Beachten Sie, dass den allgemeinen Channel nicht entfernt werden können).
-- Aktualisieren von Teams und -Einstellungen.
+- Mitglieder und Besitzer hinzufügen oder entfernen.
+- Hinzufügen oder Entfernen von Kanälen (Beachten Sie, dass Sie den Kanal "Allgemein" nicht entfernen können).
+- Aktualisieren Sie die Team-und Gruppeneinstellungen.
  
-![Team-Profil](media/manage-teams-in-modern-portal-image3.png)
+![Screenshot eines Beispiel Team Profils](media/manage-teams-in-modern-portal-image3.png)
 
-## <a name="making-changes-to-teams"></a>Das Ändern von teams
+## <a name="making-changes-to-teams"></a>Vornehmen von Änderungen an Teams
 
 Sie können die folgenden Elemente eines Teams ändern:
-- **Benutzer im Team** : Sie können hinzufügen oder Entfernen von Mitgliedern, und herauf- oder herabstufen Besitzer
-- **Kanäle** : Sie können neue Kanäle hinzufügen oder Entfernen von vorhandenen Kanäle.  Sie den Standardwert "Allgemein" DDE-Kanal kann nicht gelöscht werden, und Sie nach der Erstellung Channel Name, nicht Beschreibung kann nur bearbeiten.
+- **Benutzer im Team** – Sie können Mitglieder hinzufügen oder entfernen sowie Besitzer herauf-oder herunterstufen.
+- **Kanäle** – Sie können neue Kanäle hinzufügen oder vorhandene Kanäle entfernen.  Sie können den Standardkanal "Allgemein" nicht löschen, und nach der Erstellung können Sie nur den Kanalnamen, nicht die Beschreibung, bearbeiten.
 - **Teamname**
 - **Team Beschreibung**
-- **Team Privacy** - öffentliche oder private
-- **Team Klassifizierung** -, die auf Ihrer Office 365 Gruppe Klassifikationen
-- **Einstellungen für Team Members** - select Team Member Einstellungen
+- **Team Datenschutz** – öffentlich oder privat
+- **Team Klassifizierung** – unter dem Namen Ihrer Office 365-Gruppen Klassifizierungen
+- **Einstellungen für Teammitglieder** – wählen Sie die Einstellungen für Teammitglieder aus.
 
-## <a name="other-supported-changes-to-teams"></a>Andere unterstützten Änderungen an teams
+## <a name="other-supported-changes-to-teams"></a>Weitere unterstützte Änderungen an Teams
 
-- **Löschen** : Löschen ein Team ist eine Soft-Löschung des Teams und der entsprechenden Office 365-Gruppe.  Um eine versehentlich gelöschte Team wiederherzustellen, befolgen Sie die Anweisungen unter [Wiederherstellen einer gelöschten Office 365-Gruppe](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide).
-- **Archiv** - Archivierung ein Team versetzt das Team in den schreibgeschützten Modus innerhalb von Microsoft-Teams.  Sie können als Administrator archivieren und entpackt Teams im Namen Ihrer Organisation über die Administratorportal.
+- **Löschen** – das Löschen eines Teams ist ein Soft-Delete des Teams und der entsprechenden Office 365-Gruppe.  Wenn Sie ein versehentlich gelöschtes Team wiederherstellen möchten, folgen Sie den Anweisungen unter [Wiederherstellen einer gelöschten Office 365-Gruppe](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide).
+- **Archiv** -Archivierung ein Team versetzt das Team in Microsoft Teams in den schreibgeschützten Modus.  Als Administrator können Sie Teams im Namen Ihrer Organisation über das Administratorportal archivieren und aufteilen.
 
 
-Die Änderungen, die Sie ein Team stellen angemeldet sind. Wenn Sie Clientgruppen (Ändern der Name, Beschreibung, Foto, private, Klassifizierung oder Teammitglieder) ändern, werden diese Änderungen an Sie über die Pipeline Audit Ergebnisarray als Attribut zugewiesen werden. Falls Sie Aktionen für Teams-spezifischen Einstellungen ausführen, werden die Änderungen nachverfolgt und Ergebnisarray als Attribut zugewiesen, die Sie im Allgemeinen Kanal des Teams.
+Die Änderungen, die Sie an einem Team vornehmen, werden protokolliert. Wenn Sie Gruppeneinstellungen ändern (Name, Beschreibung, Foto, Datenschutz, Klassifikation oder Teammitglieder ändern), werden Ihnen diese Änderungen über die Audit-Pipeline zugeschrieben. Wenn Sie Aktionen für Teams-spezifische Einstellungen durchführen, werden Ihre Änderungen nachverfolgt und Ihnen im allgemeinen Kanal des Teams zugeordnet.
 
 ## <a name="troubleshooting"></a>Problembehandlung
 
-**Problem: Teams fehlende aus dem Team Übersichtsraster**
+**Problem: fehlende Teams im Team Übersicht-Raster**
 
-Wenn Sie das Microsoft-Teams, Administrationscenter eingeben, fehlen unter der Option **Teams** einige Ihrer Teams aus der Liste im Raster Übersicht Teams.
+Wenn Sie das Microsoft Teams Admin Center aufrufen, fehlen einige ihrer Teams unter der Option **Teams** in der Liste im Team Übersicht-Raster.
 
-**Ursache**: Dieses Problem tritt auf, wenn das Team falsch (oder noch nicht) vom System ein Profil erstellt wurde die eine fehlende-Eigenschaft erkannt werden führen können.
+**Ursache**: dieses Problem tritt auf, wenn das Team fälschlicherweise (oder noch nicht) vom System profiliert wurde, was zu einer fehlenden Eigenschaft führen kann, damit es erkannt wird.
 
-**Lösung: Legen Sie die-Eigenschaft manuell auf den richtigen Wert über MS Graph**
+**Lösung: Manuelles Festlegen der Eigenschaft auf den richtigen Wert über MS Graph**
 
-Ersetzen Sie mit dem Cmdlet **"[Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** **{Groupid}** in der Abfrage für die tatsächliche GroupId bezieht, die Sie über die Exchange Online Powershell abrufen können, wie das Attribut "**ExternalDirectoryObjectId**".
+Ersetzen Sie **{Gruppen** -Nr} in der Abfrage für die eigentliche fragliche Gruppen-Nr, die Sie über die Exchange Online-PowerShell mit dem Cmdlet **"[Get-Unifiedgroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** als "**ExternalDirectoryObjectId**"-Attribut abrufen können.
 
 1. Access- [Diagramm-Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
 
-2. Melden Sie sich bei Diagramm Explorer im linken Menü auf
+2. Anmelden beim Diagramm-Explorer im linken Menü
 
-3. Ändern der Abfragezeile an: PATCH > v1. 0 >https://graph.microsoft.com/v1.0/groups/{groupid}
+3. Ändern Sie die Abfragezeile in: Patch > v 1.0 >https://graph.microsoft.com/v1.0/groups/{groupid}
 
-4. Fügen Sie den folgenden Wert auf den Text der Anforderung: {"ResourceProvisioningOptions": ["Team"]}
+4. Fügen Sie den folgenden Wert für den Anforderungstext hinzu: {"resourceProvisioningOptions": ["Team"]}
 
-5. Führen Sie die Abfrage, auf der oberen rechten.
+5. Führen Sie die Abfrage oben rechts aus.
 
-6. Bestätigen Sie, dass das Team in der Verwaltungskonsole von Microsoft-Teams - ordnungsgemäß angezeigt Team (Übersicht)
+6. Bestätigen, dass das Team im Microsoft Teams Admin Center richtig angezeigt wird – Team Übersicht
 
 
 ## <a name="learn-more"></a>Weitere Informationen
 
-[Cmdlet-Referenz zu Microsoft-Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
-[Administratorrollen in Microsoft-Teams](using-admin-roles.md)
+[Microsoft Teams-Cmdlet-Referenz](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
+[Administratorrollen in Microsoft Teams](using-admin-roles.md)
 <!--
 [Plan for Teams Lifecycle Management](plan-for-teams-lifecycle-management.md)
 -->

@@ -8,56 +8,56 @@ ms.date: 09/27/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Informationen Sie zum Erstellen und Verwalten einer Org geltende Team in Teams.
+description: Hier erfahren Sie, wie Sie ein organisationsweites Team in Teams erstellen und verwalten.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 625f3ef560dd1c994afa0a566fedc3ad0fbe1143
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b999419f8fec9c205ec9713181596fba1fb38999
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236067"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494045"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
-Org geltende Teams bieten eine automatische Möglichkeit für alle Benutzer in einem kleinen, mittelgroßen Unternehmen angehören eines einzelnen Teams für die Zusammenarbeit. 
+Organisationsweite Teams bieten eine automatische Möglichkeit für alle Personen in einer kleinen bis mittelständischen Organisation, Teil eines einzelnen Teams für die Zusammenarbeit zu sein. 
  
-Mit Org geltende-Teams können globale Administratoren auf einfache Weise öffentliche Teams erstellen, die in jeder Benutzer in der Organisation abruft und hält die Mitgliedschaft Stand mit Active Directory als Benutzer teilnehmen und die Organisation verlassen. Nur globale Administratoren können Org geltende Teams erstellen und ein gesamte Org Team ist derzeit für Organisationen mit nicht mehr als 5.000 Benutzern beschränkt. Wenn diese Anforderungen erfüllt sind, werden globale Administratoren **Org geltende** als Option angezeigt, wenn sie **ein Team von Grund auf neu erstellen** beim Erstellen eines Teams auswählen. 
+Mit organisationsweiten Teams können globale Administratoren problemlos ein öffentliches Team erstellen, das alle Benutzer in der Organisation anzieht und die Mitgliedschaft mit Active Directory auf dem neuesten Stand hält, während Benutzer teilnehmen und die Organisation verlässt. Nur globale Administratoren können organisationsweite Teams erstellen, und derzeit ist ein organisationsweites Team auf Organisationen mit nicht mehr als 5.000-Benutzern begrenzt. Wenn diese Voraussetzungen erfüllt sind, sehen globale Administratoren **org-Wide** als Option, wenn Sie beim Erstellen eines Teams ein **Team von Grund auf neu erstellen** auswählen. 
 
-![Screenshot der Option zum Erstellen eines Teams Org geltende Org geltende] (media/create-org-wide-team.png "Screenshot der Option zum Erstellen eines Teams Org geltende Org geltende")
+![Screenshot der Option "org-Wide" zum Erstellen eines organisationsweiten Teams] (media/create-org-wide-team.png "Screenshot der Option \"org-Wide\" zum Erstellen eines organisationsweiten Teams")
 
-Wenn ein Team Org geltende erstellt wird, werden alle globale Administratoren als Team Besitzer hinzugefügt, und alle aktiven Benutzer werden als Teammitglieder hinzugefügt. Benutzer, die für Teams, Gastbenutzer und die meisten Chatrooms deaktiviert sind, werden nicht an das Team hinzugefügt. Verzeichnis Ihrer Organisation wird aktualisiert, sodass neue aktive Benutzer enthalten oder wenn der Benutzer ist nicht mehr in Ihrem Unternehmen arbeiten und die Lizenz Teams deaktiviert ist, automatisch Änderungen werden synchronisiert, und die Benutzer hinzugefügt oder aus dem Team entfernt werden. Teammitglieder können kein gesamte Org Team lassen. Sie können als Teambesitzer manuell hinzufügen oder Entfernen von Benutzern bei Bedarf.
+Wenn ein organisationsweites Team erstellt wird, werden alle globalen Administratoren als Teambesitzer hinzugefügt, und alle aktiven Benutzer werden als Teammitglieder hinzugefügt. Benutzer, die für Teams, Gastbenutzer und die meisten Chatrooms deaktiviert sind, werden dem Team nicht hinzugefügt. Wenn das Verzeichnis Ihrer Organisation aktualisiert wird, um neue aktive Benutzer einzubeziehen, oder wenn Benutzer nicht mehr in Ihrem Unternehmen arbeiten und ihre Teams-Lizenz deaktiviert ist, werden Änderungen automatisch synchronisiert, und die Benutzer werden dem Team hinzugefügt oder aus ihr entfernt. Teammitglieder können ein organisationsweites Team nicht bestanden haben. Als Teambesitzer können Sie bei Bedarf Benutzer manuell hinzufügen oder entfernen.
 
 > [!NOTE]
-> - Wenn die Option **gesamte Org** nicht angezeigt werden, wenn Sie ein Team erstellen und Sie ein globaler Administrator sind, das Feature möglicherweise noch Rollout oder Ihrer Organisation möglicherweise mehr als die aktuelle maximale Größe der 5.000 Elemente. Wir suchen, um diese in Zukunft erhöhen.
-> - Chatrooms, die nicht Teil einer Raum Liste, Equipment und Ressource Konten sind möglicherweise hinzugefügt oder an das Team der gesamte Org synchronisiert werden. Team Besitzer können auf einfache Weise diese Konten aus dem Team entfernen.
+> - Wenn beim Erstellen eines Teams die Option " **org-Wide** " nicht angezeigt wird und Sie ein globaler Administrator sind, wird das Feature möglicherweise weiterhin bereitgestellt, oder Ihre Organisation verfügt über mehr als die aktuelle Größenbeschränkung von 5.000-Mitgliedern. Wir möchten diesen Grenzwert in Zukunft erhöhen.
+> - Räume, die nicht Teil einer Raumliste, eines Equipments und einer Ressourcenkonten sind, werden möglicherweise dem organisationsweiten Team hinzugefügt oder synchronisiert. Teambesitzer können diese Konten ganz einfach aus dem Team entfernen.
 
 ## <a name="best-practices"></a>Bewährte Methoden
-Wenn die für die optimale Nutzung Ihrer Org geltende Team erhalten möchten, empfehlen wir Team Besitzer die folgenden Schritte aus.
+Um Ihr organisationsweites Team optimal zu nutzen, empfehlen wir Teambesitzern, die folgenden Schritte auszuführen:
 
-### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Zulassen Sie nur Team Besitzer für die Bereitstellung auf den allgemeinen Kanal
-Rauschen Sie DDE-Kanal Ausführungsstapel nur Team aus, dem Besitzer der allgemeinen Kanal veröffentlichen. Besuchen Sie das Team aus, und klicken Sie auf **Weitere Optionen (...)**  >  **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf **Berechtigung Mitglied** > wählen Sie **nur die Eigentümer Nachrichten senden können**.
-### <a name="turn-off-team-and-team-name-mentions"></a>Deaktivieren Sie @team und @ erwähnungen [Teamname]
- Reduzieren Sie um zu verhindern, dass die gesamte Organisation überladen @mentions. Besuchen Sie das Team aus, und klicken Sie auf **Weitere Optionen (...)**  >  **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf **@mentions** > ausschalten **Member anzeigen die Option zum @team oder @[Teamname]**. 
-### <a name="automatically-favorite-important-channels"></a>Automatisch bevorzugte wichtige Kanäle
- Bevorzugte wichtige Kanäle sicherzustellen, dass jede Person in Ihrer Organisation bestimmte Unterhaltungen abwickelt. Finden Sie weitere Informationen finden Sie unter [Automatische Favoriten Kanäle für das gesamte Team](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
+### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Nur Teambesitzern die Bereitstellung im allgemeinen Kanal gestatten
+Reduzieren Sie Kanalrauschen, indem Sie nur Teambesitzer in den Kanal "Allgemein" Posten. Wechseln Sie zum Team, und klicken Sie auf **Weitere Optionen (.** ..).  >  **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf **Mitglieder Berechtigungen** > wählen Sie **nur Besitzer können Nachrichten senden**aus.
+### <a name="turn-off-team-and-team-name-mentions"></a>Deaktivieren von @Team und @ [Teamname]-Erwähnungen
+ Reduzieren Sie @Mentions, damit Sie nicht die gesamte Organisation überlasten. Wechseln Sie zum Team, und klicken Sie auf **Weitere Optionen (.** ..).  >  **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf <strong>@mention</strong> > deaktivieren Sie **Mitglieder anzeigen die Option @Team oder @ [Teamname]**. 
+### <a name="automatically-favorite-important-channels"></a>Automatisch bevorzugten wichtigen Kanälen
+ Bevorzugte wichtige Kanäle, um sicherzustellen, dass sich jeder in Ihrer Organisation an bestimmten Konversationen beteiligt. Weitere Informationen finden Sie unter [automatisch bevorzugte Kanäle für das gesamte Team](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
 
-### <a name="remove-accounts-that-might-not-belong"></a>Entfernen von Konten, die möglicherweise nicht angehören.
-Obwohl die Mitglieder einer Organisation geltende Team, als Teambesitzer, lassen Sie können nicht können Sie das Teammitglied durch Entfernen von Konten, die nicht gehören verwalten. Stellen Sie sicher, dass Sie Teams verwenden, um Benutzer von Ihrem Team Org geltende zu entfernen.  Wenn Sie eine andere Möglichkeit zum Entfernen eines Benutzers, wie beispielsweise Microsoft 365 Administrationscenter oder aus einer Gruppe in Outlook verwenden, kann der Benutzer zurück an das Team der gesamte Org hinzugefügt. 
+### <a name="remove-accounts-that-might-not-belong"></a>Entfernen von Konten, die möglicherweise nicht dazugehören
+Auch wenn Mitglieder kein organisationsübergreifendes Team als Teambesitzer belassen können, können Sie die Team Liste verwalten, indem Sie Konten entfernen, die nicht dazugehören. Stellen Sie sicher, dass Sie Teams verwenden, um Benutzer aus Ihrem organisationsweiten Team zu entfernen.  Wenn Sie eine andere Möglichkeit zum Entfernen eines Benutzers wie dem Microsoft 365 Admin Center oder einer Gruppe in Outlook verwenden, wird der Benutzer möglicherweise wieder dem organisationsweiten Team hinzugefügt. 
 
 ## <a name="faq"></a>Häufig gestellte Fragen
 
-### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>Gibt es eine Möglichkeit, ein gesamte Org Team als mithilfe des Teams-Clients zu erstellen? 
+### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>Gibt es eine Möglichkeit, ein anderes organisationsübergreifendes Team als die Verwendung des Teams-Clients zu erstellen? 
 
-Globale Administratoren können nur ein gesamte Org Team erstellen, mit dem Teams. Wenn Ihre Organisation erstellen von PowerShell-Teams beschränkt ist, ist es wird empfohlen so Ihrer globalen Administratoren der Sicherheitsgruppe Benutzer hinzu, die ein Team erstellen können. Weitere Informationen finden Sie unter [Verwalten von Personen, die Office 365-Gruppen erstellen können](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups). 
+Globale Administratoren können nur mithilfe des Teams-Clients ein organisationsweites Team erstellen. Wenn Ihre Organisation das Erstellen von Teams auf die Verwendung von PowerShell beschränkt, empfiehlt es sich, ihre globalen Administratoren zur Sicherheitsgruppe der Benutzer hinzuzufügen, die ein Team erstellen können. Weitere Informationen finden Sie unter [Verwalten von Personen, die Office 365-Gruppen erstellen können](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups). 
 
-Ist dies eine Option nicht, können Sie eine öffentliche Team von PowerShell erstellt und einen globalen Administrator als Teambesitzer hinzufügen. Lassen Sie anschließend den globalen Administrator, klicken Sie neben dem Teamnamen **˙˙˙ Weitere Optionen** , klicken Sie auf **Team bearbeiten**, und ändern Sie den Datenschutz **Org-Wide - jede Person in Ihrer Organisation automatisch**hinzugefügt. Beachten Sie, dass nur die Eigentümer von Teams die Option **Team bearbeiten** zugreifen können und nur globale Administratoren können die Option **gesamte Org** finden Sie unter.
+Wenn dies nicht möglich ist, können Sie ein öffentliches Team mithilfe von PowerShell erstellen und einen globalen Administrator als Teambesitzer hinzufügen. Klicken Sie dann im globalen Administrator auf **̇ ̇ ̇ Sie weitere Optionen** neben dem Teamnamen, klicken Sie auf **Team bearbeiten**, und ändern Sie dann den Datenschutz in **org-Wide – jeder in Ihrer Organisation wird automatisch hinzugefügt**. Beachten Sie, dass nur Teambesitzer auf die Option **Team bearbeiten** zugreifen können und nur globale Administratoren die Option **org-Wide** sehen können.
 
-### <a name="is-there-a-way-to-convert-an-existing-team-to-an-org-wide-team"></a>Gibt es eine Möglichkeit, ein vorhandenes Team an das Team Org geltende konvertieren?
+### <a name="is-there-a-way-to-convert-an-existing-team-to-an-org-wide-team"></a>Gibt es eine Möglichkeit, ein vorhandenes Team in ein organisationsweites Team umzuwandeln?
 
-Globale Administratoren können an das gesamte Org Team in Teams Client bearbeiten ein vorhandenes Team konvertieren.
-Wechseln Sie zu dem Namen des Teams, und klicken Sie auf Weitere Optionen... (mit den Auslassungspunkten) > bearbeiten Team.
+Globale Administratoren können ein vorhandenes Team in ein organisationsweites Team umwandeln, das es im Teams-Client bearbeitet.
+Wechseln Sie zum Teamnamen, und klicken Sie auf weitere Optionen... (Auslassungspunkte) > Team bearbeiten.

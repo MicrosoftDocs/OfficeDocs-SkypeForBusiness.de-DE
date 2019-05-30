@@ -7,7 +7,7 @@ ms.date: 05/09/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
-description: Erfahren Sie, wo die Daten in Microsoft-Teams, gespeichert ist.
+description: Hier erfahren Sie, wo Daten in Microsoft Teams gespeichert sind.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,29 +15,29 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 369351b818506525cf750d7e5d767b3bdbf97906
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 941869edabc171fdf73eb9f2d0a11a2d3dacb1fd
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868840"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548183"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Speicherort von Daten in Microsoft Teams
 
-Die Microsoft Teams-Daten befinden sich in der geografischen Region, die Ihrem Office 365-Mandanten zugeordnet ist. Derzeit unterstützt Teams Australien, Kanada, Frankreich, Indien, Japan, Großbritannien, Nord-und Südamerika, "APAC" und "EMEA" Regionen. 
+Die Microsoft Teams-Daten befinden sich in der geografischen Region, die Ihrem Office 365-Mandanten zugeordnet ist. Derzeit unterstützt Microsoft Teams die Regionen Australien, Kanada, Frankreich, Indien, Japan, Großbritannien, Amerika, APAC und EMEA. 
 
 > [!IMPORTANT]
-> Teams derzeit bietet vor-Ort-Daten in Australien, Kanada, Frankreich, Indien, Japan und im Vereinigten Königreich für neue Mandanten nur. Ein neuer Mandant wird definiert als ein Mandant, über den sich noch kein einziger Benutzer bei Microsoft Teams angemeldet hat. Vorhandene Mandanten aus Australien, Indien und Japan werden weiterhin die Teams Daten in dem Bereich "APAC" gespeichert wurden. Vorhandene Mandanten in Kanada werden weiterhin die Daten in der amerikanischen Kontinent gespeichert wurden. Frankreich und im Vereinigten Königreich wird die Daten in der EMEA-Region gespeichert wurden.
+> Teams bietet derzeit Daten in Australien, Kanada, Frankreich, Indien, Japan und Großbritannien für neue Mandanten an. Ein neuer Mandant wird definiert als ein Mandant, über den sich noch kein einziger Benutzer bei Microsoft Teams angemeldet hat. Bestehende Mandanten aus Australien, Indien und Japan werden Ihre Teams-Daten weiterhin in der Region APAC speichern. Bestehende Mandanten in Kanada werden Ihre Daten weiterhin in Amerika speichern. Frankreich und das Vereinigte Königreich werden Ihre Daten in der EMEA-Region speichern.
 
-Finden Sie weitere Informationen zu den Start des Indien und Vereinigtes Königreich Data Service für Teams Ansuman Acharyas-Blogbeitrag, [Microsoft-Teams, Indien Daten vor-Ort-, andere Geos in Kürze startet](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827). 
+Wenn Sie mehr über die Einführung von Data Residency für Teams in Indien und Großbritannien erfahren möchten, lesen Sie den Blogbeitrag von Ansuman Acharya, [Microsoft Teams startet India Data Residency, andere GEOS in Kürze](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827). 
 
-Finden Sie weitere Informationen in Kanada Daten vor-Ort-Teams Varun Sagars Blogbeitrag, [Microsoft Teams startet Kanada Daten vor-Ort-, Australien und Japan bald verfügbar](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
+Weitere Informationen zu Kanada Data Residency für Teams finden Sie im Blogbeitrag von Varun Sagar, [Microsoft Teams startet Kanada Data Residency, Australien und Japan in Kürze](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
 
-Finden Sie weitere Informationen zu den Start des Australien und Japan Data Service für Teams Varun Sagars Blogbeitrag, [Microsoft Teams startet Australien und Japan Daten vor-Ort](https://go.microsoft.com/fwlink/?linkid=867773). 
+Wenn Sie mehr über die Einführung von Australien und Japan Data Residency für Teams erfahren möchten, lesen Sie den Blogbeitrag von Varun Sagar, [Microsoft Teams startet den Daten Wohnsitz in Australien und Japan](https://go.microsoft.com/fwlink/?linkid=867773). 
 
-Um weitere Informationen über die Einführung von Frankreich Daten vor-Ort-Teams Lesen Varun Sagars Blogbeitrag, [Microsoft Teams startet Frankreich Daten vor-Ort](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466). 
+Wenn Sie mehr über die Einführung von France Data Residency für Teams erfahren möchten, lesen Sie den Blogbeitrag von Varun Sagar, [Microsoft Teams startet France Data Residency](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466). 
 
-Um herauszufinden, welcher Bereich für Ihre Mandanten Daten enthält, gehen Sie zum [Microsoft 365 Administrationscenter](https://portal.office.com/adminportal/home) > **Einstellungen** > **Profil des Unternehmens**. Scrollen Sie nach unten zu **Data location** (Datenspeicherort). 
+Wenn Sie sehen möchten, in welcher Region Daten für Ihren Mandanten angezeigt werden, wechseln Sie zum [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home) > **Settings** > **Organization Profile**. Scrollen Sie nach unten zu **Data location** (Datenspeicherort). 
 
-![Screenshot der Speicherort Datentabelle, einschließlich Teams, in der Office 365-Verwaltungskonsole.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+![Screenshot der Tabelle "Datenspeicherort" mit Teams im Admin Center](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

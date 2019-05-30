@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b49d3c1f602da63a7a29010193d66ae09b4feb45
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: c177ae45fdb0770b533c8725d0fb6970a80a5bc2
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344444"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494063"
 ---
 ![Etappen des Upgrade-Vorgangs mit dem Schwerpunkt auf der Stufe "Operational Excellence"] (media/upgrade-banner-op-excellence.png "Etappen des Upgrade-Vorgangs mit dem Schwerpunkt auf der Stufe \"Operational Excellence\"")
 
@@ -42,7 +42,7 @@ Das Dienstleistungsmanagement umfasst alle Aktivitäten und Prozesse, die in der
 
 Die Aufgaben und Aktivitäten in diesem Leitfaden sind in acht Kategorien unterteilt, wie in der folgenden Abbildung dargestellt. Jede dieser Kategorien wird in den folgenden Abschnitten erweitert.
 
-![Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt, die von Service Management für Teams umfasst werden.] (media/operate-my-service-image1.png "Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt, die von Service Management für Teams umfasst werden. Das Diagramm zeigt auch, dass die Dienstverwaltung größtenteils eine Kundenaufgabe ist.")
+![Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt] (media/operate-my-service-image1.png "Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt, die von Service Management für Teams umfasst werden. Das Diagramm zeigt auch, dass die Dienstverwaltung größtenteils eine Kundenaufgabe ist.")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wie Vorgänge für Teams implementiert werden.</li></ul></td></tr>
@@ -317,7 +317,7 @@ NPS ist ein Index von – 100 bis 100, der die Bereitschaft eines Kunden zur Emp
 
 - Von 1 bis 6 sind Kritiker: unzufriedene Kunden, die Ihren Service beschädigen und das Wachstum behindern können.
 
-![Ein Diagramm, das die NPS-Skalierung veranschaulicht, zeigt, dass die Rankings von 0 bis 6 Gegner sind, 7 bis 8 sind passiv, und 9 bis 10 sind Promoter.] (media/operate-my-service-image2.png "Dieses Diagramm veranschaulicht die NPS-Skalierung. Es zeigt, dass die Rankings von 0 bis 6 Kritiker sind, 7 bis 8 sind passiv, und 9 bis 10 sind Promoter.")
+![Ein Diagramm, das die NPS-Skalierung veranschaulicht] (media/operate-my-service-image2.png "Dieses Diagramm veranschaulicht die NPS-Skalierung. Es zeigt, dass die Rankings von 0 bis 6 Kritiker sind, 7 bis 8 sind passiv, und 9 bis 10 sind Promoter.")
 
 Obwohl die NPS-Basisnummer hilfreich ist, erhalten Sie den größten Nutzen aus der Analyse von Benutzerkommentaren. Sie werden Ihnen helfen zu verstehen, warum der Benutzer Teams anderen Personen empfehlen würde (oder nicht). Diese Kommentare können wertvolle Rückmeldungen liefern, damit die Projekt-oder Service Management Teams die Anpassungen verstehen, die erforderlich sind, um einen Qualitätsdienst bereitzustellen.
 

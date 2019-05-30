@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Weitere Informationen finden Sie unter Skype for Business Online-Schritte zum Zuweisen einer Lizenz für Einwahlkonferenzen und einer Konferenz-ID für einen Benutzer und viele andere Einstellungen für Einwahlkonferenzen. '
-ms.openlocfilehash: 27d8ebbb524f5b03b0dc25f03b0380e5861034ac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e699cf51f3a9366cdd86004e48eeb18235849680
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299173"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494246"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Verwalten der Einstellungen von Audio Conferencing für meine Organisation in Skype for Business Online
 
@@ -58,7 +58,7 @@ Es ist möglicherweise einfacher für Sie, alle Audiokonferenz-Einstellungen fü
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Aktivieren oder Deaktivieren von e-Mails, die an Audiokonferenz-Benutzer gesendet wurden
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 

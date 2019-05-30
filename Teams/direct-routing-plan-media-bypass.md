@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: In diesem Thema erfahren Sie, wie Sie die medienumgehung mit dem direkten Routing des Telefonsystems planen.
-ms.openlocfilehash: 7a26f14e0fb6fec8537f04f03b6f58c252f86966
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 704b129b3d6ba7fdffd5c01886b73970e0711e60
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290461"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493916"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -70,7 +70,7 @@ Das folgende Diagramm zeigt den Anruffluss, wenn die medienumgehung aktiviert is
 
 - Das SIP-Signal nimmt immer die Pfade 4 und 4 auf (je nach Verkehrsrichtung). Das Medium bleibt lokal und nimmt den Pfad 5B.
 
-![Zeigt den Anruffluss mit aktivierter medienumgehung, Client ist intern und kann die öffentliche IP des Session Border Controllers (Direct Media) erreichen.](media/direct-routing-media-bypass-3.png)
+![Anzeige des Anrufflusses mit aktivierter medienumgehung, Client ist intern](media/direct-routing-media-bypass-3.png)
 
 
 ### <a name="call-flow-if-the-user-does-not-have-access-to-the-public-ip-address-of-the-sbc"></a>Anruffluss, wenn der Benutzer keinen Zugriff auf die öffentliche IP-Adresse des SBC hat
@@ -91,7 +91,7 @@ Das folgende Diagramm zeigt den Anruffluss, wenn die medienumgehung aktiviert is
 
 - Medien werden über die Pfade 3, 3 ', 4 und 4 ' weitergeleitet
 
-![Zeigt den Anruffluss an, wenn der Benutzer keinen Zugriff auf die öffentliche IP-Adresse des SBC hat)](media/direct-routing-media-bypass-4.png)
+![Zeigt den Anruffluss an, wenn der Benutzer keinen Zugriff auf die öffentliche IP-Adresse des SBC hat](media/direct-routing-media-bypass-4.png)
 
 
 ### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>Anruffluss, wenn sich ein Benutzer außerhalb des Netzwerks befindet und Zugriff auf die öffentliche IP des SBC hat
@@ -105,7 +105,7 @@ Das folgende Diagramm zeigt den Anruffluss, wenn die medienumgehung aktiviert is
 
 - Das SIP-Signal nimmt immer die Pfade 3 und 3 auf (abhängig von der Richtung des Datenverkehrs). Mediendatenströme mit Pfad 2.
 
-![Zeigt den Anruffluss an, wenn der Benutzer keinen Zugriff auf die öffentliche IP-Adresse des SBC hat)](media/direct-routing-media-bypass-5.png)
+![Zeigt den Anruffluss an, wenn der Benutzer keinen Zugriff auf die öffentliche IP-Adresse des SBC hat](media/direct-routing-media-bypass-5.png)
 
 
 ## <a name="use-of-media-processors-and-transport-relays"></a>Verwendung von Medien Prozessoren und Transport-Relays
@@ -125,7 +125,7 @@ Das folgende Diagramm zeigt zwei Anruf Flüsse: eine mit aktivierter medienumgeh
 
 - Der SIP-Proxy ist eine Komponente, die http-Ruhe Signalisierungen übersetzt, die in Teams für SIP verwendet werden.    
 
-![Zeigt zwei Anruf Flüsse an – eine mit aktivierter medienumgehung und die zweite mit deaktivierter medienumgehung)](media/direct-routing-media-bypass-6.png)
+![Zeigt Anruf Flüsse mit aktivierter und deaktivierter medienumgehung](media/direct-routing-media-bypass-6.png)
 
 
 In der nachstehenden Tabelle werden die Unterschiede zwischen Medien Prozessoren und Transport-Relays zusammengefasst.
@@ -273,7 +273,7 @@ Benutzer mit nur Teams-Endpunkten (einschließlich neuer Telefone, die für Team
 Beide Trunks können auf denselben SBC mit der gleichen öffentlichen IP-Adresse verweisen. Die TLS-Signalisierungs Anschlüsse auf dem SBC müssen unterschiedlich sein, wie in der nachstehenden Abbildung zu sehen ist. Hinweis Sie müssen sicherstellen, dass Ihr Zertifikat beide Trunks unterstützt. In San benötigen Sie zwei Namen (**sbc1.contoso.com** und **sbc2.contoso.com**) oder ein Platzhalterzertifikat.
 
 
-![Zeigt, dass beide Trunks auf denselben SBC mit derselben öffentlichen IP-Adresse verweisen können.)](media/direct-routing-media-bypass-7.png)
+![Zeigt, dass beide Trunks auf denselben SBC mit der gleichen öffentlichen IP-Adresse verweisen können.](media/direct-routing-media-bypass-7.png)
 
 Informationen zum Konfigurieren von zwei Stämmen im gleichen SBC finden Sie in der Dokumentation Ihres SBC-Anbieters:
 

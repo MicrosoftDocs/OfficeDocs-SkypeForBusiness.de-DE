@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90f49b3da1aec6d5f81f43674db5bc8cdb3822aa
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 2c4652e27caf207b1af275ecc1fae0d0daa8598b
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344701"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548366"
 ---
 # <a name="deploy-my-service"></a>Bereitstellen des Diensts
 
@@ -64,7 +64,7 @@ Der Schwerpunkt des Textbuch liegt darin, die Faktoren zu berücksichtigen, die 
 
 Das Textbuch [für die Website Aktivierung (Manuskript)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) ist eine Microsoft Excel-Arbeitsmappe. Jeder dieser fünf Fokusbereiche ist ein separates Blatt in der Arbeitsmappe, und alle Bereitstellungsaufgaben und-Aktivitäten sind auf einem dieser Blätter gruppiert.
 
-![Screenshot des Manuskripts] (media/deploy-my-service-image1.png "Screenshot des Manuskripts")
+![Screenshot des] Textbuch zur Website Aktivierung (media/deploy-my-service-image1.png "Screenshot des Manuskripts")
 
 > [!NOTE]
 > Sie erstellen eine separate Instanz des Textbuch für jede Website im Bereich für das Rollout Ihres Teams.
@@ -88,8 +88,8 @@ Unabhängig von der Größe und Komplexität des Standorts erfordert das Aktivie
 5. Überprüfen Sie die einzelnen Aktivitäten, führen Sie die erforderlichen Aktionen aus, und aktualisieren Sie den Status, während Sie die Zeitachse durchlaufen. Der Status wird grafisch dargestellt, wie nachstehend beschrieben:
   
    - ![Abbildung eines grünen Häkchens](media/deploy-my-service-image3.png) "Ja" oder " **nicht zutreffend" (grün):** die Aktivität wurde abgeschlossen, oder Sie gilt nicht für diese Website, und es ist keine weitere Aktion erforderlich.</li>
-    - ![Abbildung eines gelben Ausrufezeichens](media/deploy-my-service-image4.png) <strong>die Aktivität ist noch nicht abgeschlossen (gelb):</strong> die Aktivität wurde noch nicht abgeschlossen und muss in Ihrem Terminplan auf "Ja" oder "Nein" aktualisiert werden.</li>
-   - ![Abbildung eines roten X](media/deploy-my-service-image5.png) <strong>Nein (rot):</strong> die Aktivität kann aufgrund eines Problems nicht abgeschlossen werden und muss in der Projektstatusbesprechung durchgeführt werden.</li></ul>
+   - ![Abbildung eines gelben Ausrufezeichens](media/deploy-my-service-image4.png) <strong>die Aktivität ist noch nicht abgeschlossen (gelb):</strong> die Aktivität wurde noch nicht abgeschlossen und muss in Ihrem Terminplan auf "Ja" oder "Nein" aktualisiert werden.</li>
+   - ![Abbildung eines roten X-Zeichens](media/deploy-my-service-image5.png) <strong>(rot):</strong> die Aktivität kann aufgrund eines Problems nicht abgeschlossen werden und muss in der Projektstatusbesprechung durchgeführt werden.</li></ul>
 
 6. Der Status wird in jedem Abschnitt zusammengerollt, und die Abschnittsüberschrift wird mit einer dieser Statusindikatoren formatiert. Der **wöchentliche Status** wird ebenfalls automatisch aktualisiert.
 
@@ -103,8 +103,8 @@ Unabhängig von der Größe und Komplexität des Standorts erfordert das Aktivie
 Achten Sie auf Aktivitäten, die mehr Zeit in Anspruch nehmen können, als Sie geplant haben, beispielsweise Nummernportierung und Beschaffungsaktivitäten. Diese Aktivitäten können sich negativ auf die Zeitachse der Website Bereitstellung auswirken. Achten Sie darauf, die Aktivitätsliste und die zugehörige Zeitachse wöchentlich zu überprüfen und zu aktualisieren, und zeigen Sie Sie in den [Sitzungen des Lenkungsausschusses](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) an, um sicherzustellen, dass die Beteiligten den Status der einzelnen Websites und mögliche Abweichungen vom Bereitstellungszeitplan kennen.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, ob das Textbuch zur Website Aktivierung für Ihre Bereitstellung erforderlich ist.</li><li>Entscheiden Sie, wer für die Anpassung des Textbuch der Website Aktivierung für Microsoft Teams für jede bereitzustellende Website verantwortlich ist.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Laden Sie das Textbuch zur Website Aktivierung herunter</a>.</li><li>Anpassen des Manuskripts für die Website Aktivierung für Ihre erste Website</li><li>Wiederholen Sie diese Schritte für weitere Websites.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, ob das Textbuch zur Website Aktivierung für Ihre Bereitstellung erforderlich ist.</li><li>Entscheiden Sie, wer für die Anpassung des Textbuch der Website Aktivierung für Microsoft Teams für jede bereitzustellende Website verantwortlich ist.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Laden Sie das Textbuch zur Website Aktivierung herunter</a>.</li><li>Anpassen des Manuskripts für die Website Aktivierung für Ihre erste Website</li><li>Wiederholen Sie diese Schritte für weitere Websites.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

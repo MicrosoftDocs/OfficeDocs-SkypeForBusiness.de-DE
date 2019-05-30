@@ -10,39 +10,39 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Wählen Sie für die Phase Experiments Ihrer Teams Annahme frühe Übernahmen und dann Erfassung des Feedbacks für Ihr Projekt.
+description: Wählen Sie für die Testphase der Einführung von Teams Early Adopters aus, und sammeln Sie dann Feedback für Ihr Projekt.
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3094e620e52bad466e3229bdbdc0c7ccf173eee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0d639b3fc0a0712a9623121673aadfea8a99d0f1
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896347"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548757"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Onboarding von Early Adopters und Sammeln von Feedback für Microsoft Teams
 
-Zurück zur Liste der Mitarbeiter, die Interesse an Ihr Programm für frühe Firmenwerts ausgedrückt. Entscheiden Sie, welche der diese Personen in den ersten Experimenten mit Teams teilnehmen soll. Es kann sein, alle oder nur einen Teil der Personen, die sich interessieren. Auch wenn Sie sie nicht für diese erste Projekte auswählen, weiterhin mit ihnen zu kommunizieren, damit sie Interesse bleiben und werden in der Zukunft teilnehmen möchten. Sie können ein Teil des Prozesses für die ausgewählten Projekte auf Grundlage der Gespräche mit Projektbeteiligten, technische Team und Ihre Priorisierung Übung oben gezeigten Onboarding werden. 
+Kehren Sie zur Liste der Mitarbeiter zurück, die Interesse an Ihrem Early Adopter-Programm bekundet haben. Entscheiden Sie, welche dieser Personen an Ihren ersten Experimenten mit Teams teilnehmen soll. Es kann sich um alle oder einen Teil der interessierten Personen handeln. Auch wenn Sie diese nicht für diese anfänglichen Projekte auswählen, können Sie weiterhin mit Ihnen kommunizieren, damit Sie daran interessiert sind und in Zukunft teilnehmen können. Sie werden Teil des Onboarding-Prozesses für die Projekte sein, die Sie basierend auf Ihren Diskussionen mit Unternehmens-Stakeholdern, Ihrem technischen Team und der oben gezeigten Priorisierung-Übung ausgewählt haben. 
 
-Führen Sie die folgenden Schritte aus, mit diesen frühen Übernahmen:
+Führen Sie die folgenden Schritte aus, um diese frühen Anwender zu veranlassen:
 
-1. Senden Sie eine Einladung e-Mail versehen, um sie in der Community einzuladen,
-2. Hosten eines Kickoff Anrufs mit ihnen die Ziele und die Ergebnisse des Programms frühe Firmenwerts freigeben,
-3. Vergewissern Sie sich Zugriff auf den Kanal Feedback von Teammitgliedern Champions Zusammenarbeit und alle anderen internen soziale Netzwerke Tools, die Sie verwenden können. 
-4. Berücksichtigen Sie Targeted Erstellen von regelmäßigen Umfragen abgeschlossen, die sammeln werden Informationen.
+1. Senden Sie eine Einladungs-e-Mail an Sie, um Sie in die Community einzuladen.
+2. Führen Sie einen Kick-off-Anruf durch, um die Ziele und Ergebnisse des Early Adopter-Programms mit Ihnen zu teilen.
+3. Stellen Sie sicher, dass Sie Zugriff auf den Feedback Kanal Ihres Teamwork Champions-Teams und alle anderen internen Tools für soziale Netzwerke haben, die Sie verwenden können. 
+4. In diesem Fall sollten Sie regelmäßige Umfragen erstellen, mit denen Sie gezielt Informationen sammeln können.
 
 ## <a name="gather-feedback"></a>Sammeln von Feedback
 
-Verwenden Sie die Komponenten von Office 365 zum Sammeln von Feedback für Ihr Projekt.
+Verwenden Sie die Komponenten von Office 365, um Feedback zu Ihrem Projekt zu sammeln.
   
-![Entscheidungspunktsymbol](media/teams-adoption-decision-icon.png) Entscheidung: Wenn Ihre Organisation bereits eine Investition in einem Yammer-Netzwerk verfügt, können Sie es als Feedback Forum für Ihr early Firmenwerts-Programm verwenden. Wenn dies nicht der Fall ist, und Ihr early Firmenwerts Programm verfügt über weniger als 5000 Elemente, erstellen Sie ein Team in Teams Erfassung des Feedbacks und Schulen.
+![Ein Symbol, das einen Entscheidungspunkt darstellt](media/teams-adoption-decision-icon.png) Entscheidung: Wenn Ihre Organisation bereits über eine Investition in ein Jammer Netzwerk verfügt, können Sie Sie als Feedback Forum für Ihr Early Adopter-Programm verwenden. Wenn dies nicht der Fall ist und Ihr Early Adopter-Programm weniger als 5000 Mitglieder hat, erstellen Sie ein Team in Teams, um Feedback zu sammeln und Schulungen bereitzustellen.
   
 > [!Note]
-> In einigen Unternehmen werden die Kanäle für frühe Firmenwerts Feedback in die Zusammenarbeit Champions Programmierteam kombiniert. Dies ist ein guter Ansatz, da viele frühe Übernahmen möglicherweise Champions in Zukunft, und es wird eine stärkere Community erstellen. 
+> Einige Organisationen kombinieren die Kanäle für Early Adopter-Feedback in das Team Team-Champions-Programm. Dies ist ein guter Ansatz, da viele frühe Anwender in Zukunft zu Champions werden können, und es wird eine stärkere Community aufbauen. 
 
 
-![Nächste Schritte Symbol](media/teams-adoption-next-icon.png) weiter: [Onboard unterstützen](teams-adoption-onboard-support.md).
+![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt als nächstes darstellt: Onboard- [Support](teams-adoption-onboard-support.md).

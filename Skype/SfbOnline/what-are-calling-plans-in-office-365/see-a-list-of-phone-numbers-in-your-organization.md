@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie eine Liste aller Telefonnummern in Ihrer Organisation, alle den Benutzern zugewiesenen Nummern und alle Nummern anzeigen können, die sprach Benutzern aus dem Skype for Business Admin Center zugewiesen sind.
-ms.openlocfilehash: 9682e0473932337734828a13cf75a8c77e622938
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 33fc51206370c337bea849fac4d1bfa1ed37da56
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280468"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493906"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Telefonnummernliste für Ihre Organisation anzeigen
 
@@ -34,7 +34,7 @@ Es gibt verschiedene Arten von Telefonnummern, die Sie Benutzern oder anderen Di
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>So zeigen Sie eine Liste aller Telefonnummern für Ihre Organisation an
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
 
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
@@ -64,7 +64,7 @@ Es gibt verschiedene Arten von Telefonnummern, die Sie Benutzern oder anderen Di
     
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>So zeigen Sie alle Benutzern zugewiesenen Telefonnummern an
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
 
 
 Wenn Sie Benutzer einrichten, möchten Sie vielleicht nur die Liste der Telefonnummern sehen, die bereits Benutzern zugewiesen sind. Außerdem möchten Sie wissen, welche Telefonnummern den Benutzern zugewiesen werden können.
@@ -88,7 +88,7 @@ Wenn Sie Benutzer einrichten, möchten Sie vielleicht nur die Liste der Telefonn
     
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>So zeigen Sie die VoIP-Benutzern zugewiesenen Telefonnummern an
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
 
 
 Wenn Sie Benutzer in Ihrer Organisation einrichten, die Telefonanrufe tätigen und empfangen sollen, müssen Sie zuerst die Telefonnummern abrufen und diese dann den Benutzern zuweisen. Wenn Sie die Telefonnummern haben, möchten Sie vielleicht nur eine Liste der Benutzer sehen, denen Telefonnummern zugewiesen sind, oder eine Liste der Benutzer, denen keine Telefonnummern zugewiesen sind, oder Sie möchten wissen, ob bestimmte Benutzer online oder lokal gehostet werden.

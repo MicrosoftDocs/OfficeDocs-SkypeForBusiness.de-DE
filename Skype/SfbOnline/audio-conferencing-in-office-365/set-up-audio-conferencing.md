@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Hier erfahren Sie, wie Sie Einwahl-oder Audiokonferenzen für die Personen in Ihrem Unternehmen einrichten, die ein Telefon für die Teilnahme an Konferenzgesprächen verwenden müssen. '
-ms.openlocfilehash: 37bdc3208934d6ef9a7d97b896988b705735c869
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 9406c0ba680dd7eb6be52e2055041677913c3315
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343838"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494196"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Einrichten von Audiokonferenzen für Skype for Business
 
@@ -74,7 +74,7 @@ Nachdem Sie Ihre gebührenpflichtigen und/oder gebührenfreien Telefonnummern f�
 
 Um eine neue Rufnummer Ihrer Audiokonferenzbrücke zuzuweisen:
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center:**
+![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center:**
 
  1. Wechseln Sie zum **Microsoft 365 Admin Center** > **Admin** > Center**Teams** > **Legacy-Portal**.
  2. Wählen Sie **VoIP** > ****-Rufnummern aus.
@@ -92,7 +92,7 @@ Als nächstes möchten Sie die [Sprachen der automatischen Telefonzentrale für 
 1. Wechseln Sie im Dashboard zu **Besprechungen** > **Konferenz Brücken**.
 2. Wählen Sie die Telefonnummer der Konferenzbrücke aus, klicken Sie auf **Bearbeiten**, und wählen Sie dann die Standardsprache aus.
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**:
+![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**:
 
 1. Wechseln Sie zum **Office 365 Admin Center** > **Admin** > Center**Teams** > **Legacy Portal**.
 2. Wählen Sie **Audio Conferencing** > **Microsoft Bridge**aus. 
@@ -110,7 +110,7 @@ Nachdem Sie Ihre Konferenzbrücke eingerichtet haben, vergewissern Sie sich, das
 
 Weitere Informationen finden Sie unter [Einstellungen für eine Audiokonferenzbrücke ändern](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center:**
+![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center:**
 
 1. Wechseln Sie zum **Microsoft 365 Admin Center** > **Admin** > Center**Teams** > **Legacy-Portal**.
 2. Wählen Sie **Audiokonferenz** > -Einstellungen für**Microsoft Bridge**aus. Die Seite **Microsoft Brückeneinstellungen** wird geöffnet. 
@@ -128,7 +128,7 @@ Sie müssen dies für alle Personen in Ihrer Organisation tun, die Besprechungen
 1. Klicken Sie im Dashboard auf **Benutzer**, wählen Sie den Benutzer in der Liste aus, und wählen Sie **Bearbeiten**aus.
 2. Wählen Sie neben **Audio-Conferencing**die Option **Bearbeiten** aus, und wählen Sie dann im Bereich Audiokonferenz eine Nummer in den Listen **gebührenpflichtige** Nummer und **gebührenfreie** Nummern aus. ****
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center:**
+![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center:**
 
 1. Wechseln Sie zum **Microsoft 365 Admin Center** > **Teams** > **Legacy-Portal**.
 2. Wählen **** > Sie Audiokonferenz-**Benutzer**aus, und wählen Sie dann den Benutzer in der Liste aus, und klicken Sie auf **Bearbeiten**. 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Hier erfahren Sie, was Sie benötigen und wie Besprechungsorganisatoren mithilfe von Microsoft Teams andere Personen anrufen können.
-ms.openlocfilehash: b02a395277762c4bbd731bd839fdedc395042502
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f4eb5cd784af7bec6f8b2c19f50b7574745ef2b1
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281893"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548924"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Anrufen aus einer Microsoft Teams-Besprechung, sodass andere Personen teilnehmen können
 
@@ -43,10 +43,10 @@ Wenn Sie eine Person anrufen, empfehlen wir, dass Sie Ihre vollständigen Telefo
 
 Gehen Sie wie folgt vor, um die Arbeit zu wählen:
 
- **Schritt 1:** Verwenden Sie in der Besprechung die **** ![Schaltfläche](media/add-people-button.png) Kontakte hinzufügen, um eine Telefonnummer auszuwählen.
+ **Schritt 1:** Verwenden Sie in der Besprechung den Screenshot ![ **Personen hinzufügen** der Schaltfläche "](media/add-people-button.png) Personen hinzufügen", um eine Telefonnummer auszuwählen.
  **Schritt 2:** Geben Sie die vollständige Telefonnummer einschließlich der Landes-und Regions Vorwahl in das Feld **jemanden einladen oder Nummer wählen ein** .
   
-![Einladen einer Person oder wählen eines Nummern Felds](media/invite-someone-box.png)
+![Screenshot des Felds "jemanden einladen" oder "Nummer wählen"](media/invite-someone-box.png)
     
 ## <a name="supported-countries-and-regions"></a>Unterstützte Länder und Regionen
 

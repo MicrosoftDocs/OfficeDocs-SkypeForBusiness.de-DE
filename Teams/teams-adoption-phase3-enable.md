@@ -10,31 +10,31 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Erfahren Sie, wie die umfassende Scale-Aktivierung des Teams für Ihre Organisation unterstützen.
+description: Hier erfahren Sie, wie Sie die umfassende Aktivierung von Teams für Ihre Organisation unterstützen.
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5f53d17f882b8de1066a7622cc258ae21cf3887
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f9556338bba030ccefcd61f3bbdd9e3a4c56af2
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930412"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494091"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams-Einführungsphase 3 – Skalieren
 
-In dieser Phase verwenden Ihrer Befunde, talentierte Projektteam und Beziehungen mit Projektbeteiligten, Champions und frühe Übernahmen Sie die umfassende Scale-Aktivierung des Teams für Ihre Organisation unterstützen. Sie werden die folgenden Schritte ausführen, wie Sie vertrauen Engagements Bezug Organisationen auf Microsoft-Teams, vorbereiten:
+In dieser Phase verwenden Sie Ihre Lernenden, talentierten Projektteams und Beziehungen zu Stakeholdern, Champions und Early Adopters, um die umfassende Aktivierung von Teams für Ihre Organisation zu unterstützen. Sie führen die folgenden Schritte aus, während Sie sich auf das weitere geschäftliche Engagement in Bezug auf die Verwendung von Microsoft Teams durch ihre Organisationen vorbereiten:
 
-1. Definieren Sie Ergebnisse und Erfolgskennzahlen.
-2. Service-Strategie auswählen.
-3. Beteiligen Sie Beteiligten.
-4. Entwerfen und eine Kampagne zum Bekanntheitsgrad starten.
-5. Entwerfen und ein Schulungsprogramm zu starten.
-6. Grundlegendes zu reporting-Tools.
-7. Laufender Geschäftsprozesse Engagements vorbereiten.
-8. Bereiten Sie für laufende Service Health & Annahme Bewertungen vor.
+1. Definieren von Ergebnissen und Erfolgskennzahlen
+2. Wählen Sie Service Strategy aus.
+3. Stakeholder engagieren.
+4. Entwerfen und starten Sie eine Sensibilisierungskampagne.
+5. Entwerfen und starten Sie ein Schulungsprogramm.
+6. Grundlegendes zu Berichtstools
+7. Vorbereiten des laufenden geschäftlichen Engagements
+8. Vorbereiten der laufenden Dienststatus-& Adoptions Bewertungen.
 
-![Nächste Schritte Symbol](media/teams-adoption-next-icon.png) weiter: [Ergebnisse definieren und den Erfolg](teams-adoption-define-outcomes.md)
+![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt als nächstes darstellt: [Definieren von Ergebnissen und Erfolg](teams-adoption-define-outcomes.md)

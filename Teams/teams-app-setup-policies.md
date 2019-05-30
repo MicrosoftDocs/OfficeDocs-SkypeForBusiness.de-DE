@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Informationen zu app-Setup Richtlinien in Microsoft Teams und deren Verwendung zum Anheften von apps zum Anpassen von Teams für Benutzer in Ihrer Organisation.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: f4dd1cac59cd15efa014aa2efbe83b0cb6e4f991
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e26dc18f056f3493f6fcbdea2edee747d8abfa0b
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294017"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548821"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -37,13 +37,13 @@ Apps werden an die APP-Leiste angeheftet. Hierbei handelt es sich um die Leiste 
 
 |Desktop Client für Teams  |Mobiler Client für Teams |
 |---------|---------|
-|![App-Setup-Policies-Desktop-App-Bar. png](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![App-Setup-Policies-Mobile-App-Bar. png](media/app-setup-policies-mobile-app-bar.png)      |
+|![Screenshot des Teams-Desktop Clients](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Screenshot mit dem Mobile-Client von Teams](media/app-setup-policies-mobile-app-bar.png)      |
 
 Sie verwalten App-Setup Richtlinien im Microsoft Teams Admin Center. Sie können die globale Standardrichtlinie (org-Wide) verwenden oder benutzerdefinierte Richtlinien erstellen und diesen Benutzern zuweisen. Benutzer in Ihrer Organisation erhalten automatisch die globale Richtlinie, wenn Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen.
 
 Sie können die Einstellungen in der globalen Richtlinie bearbeiten, um die gewünschten apps einzubeziehen. Wenn Sie Teams für verschiedene Benutzergruppen in Ihrer Organisation anpassen möchten, erstellen Sie eine oder mehrere benutzerdefinierte Richtlinien, und weisen Sie diese zu. Wenn einem Benutzer eine benutzerdefinierte Richtlinie zugewiesen ist, gilt diese Richtlinie für den Benutzer. Wenn einem Benutzer keine benutzerdefinierte Richtlinie zugewiesen ist, gilt die globale Richtlinie für den Benutzer.
 
-![App-Setup-Policies. png](media/app-setup-policies.png)
+![Screenshot mit der Seite "Richtlinien für die APP-Einrichtung"](media/app-setup-policies.png)
 
 > [!NOTE]
 > Wenn Sie über Teams für Bildung verfügen, ist es wichtig zu wissen, dass die Aufgaben-App standardmäßig in der globalen Richtlinie angeheftet ist, obwohl Sie in der globalen Richtlinie zurzeit nicht aufgeführt ist. Es handelt sich um die vierte app in der Liste der angehefteten apps auf Teams-Clients.
@@ -58,11 +58,11 @@ Sie können das Microsoft Teams Admin Center verwenden, um eine benutzerdefinier
 4. Aktivieren oder deaktivieren Sie das **Hochladen benutzerdefinierter apps zulassen**, je nachdem, ob Sie Benutzer benutzerdefinierte apps in Teams hochladen lassen möchten.
 5. Suchen Sie im Bereich **angeheftete apps hinzufügen** nach den apps, die Sie hinzufügen möchten, und klicken Sie dann auf **Hinzufügen**. Sie können apps auch nach App-Berechtigungsrichtlinien filtern. Wenn Sie die Liste der apps ausgewählt haben, klicken Sie auf **Hinzufügen**.
 
-     ![App-Setup-Policies-Add-apps. png](media/app-setup-policies-add-apps.png)
+     ![Screenshot mit dem Bereich "angeheftete apps hinzufügen"](media/app-setup-policies-add-apps.png)
 
 6. Ordnen Sie die apps in der Reihenfolge an, in der Sie in Teams angezeigt werden sollen, und klicken Sie dann auf **Speichern**.
 
-    ![App-Setup-Policies-New-Policy-Setup. png](media/app-setup-policies-new-policy-setup.png)
+    ![Screenshot mit dem Abschnitt "angeheftete Apps"](media/app-setup-policies-new-policy-setup.png)
 
 ## <a name="edit-an-app-setup-policy"></a>Bearbeiten einer APP-Setup Richtlinie
 
@@ -86,7 +86,7 @@ Sie können das Microsoft Teams Admin Center verwenden, um einzelnen Benutzern o
 2. Wählen Sie neben **zugewiesene Richtlinien**die Option **Bearbeiten**aus.
 3. Wählen Sie unter **Teams-App-Setup Richtlinie**die APP-Setup Richtlinie aus, die Sie zuweisen möchten, und wählen Sie dann **Speichern**aus.
 
-    ![App-Setup-Policies-Assign-Policy. png](media/app-setup-policies-assign-policy.png)
+    ![Screenshot mit dem Bereich "Benutzerrichtlinien bearbeiten"](media/app-setup-policies-assign-policy.png)
 
 Sie können auch eine APP-Setup Richtlinie einem oder mehreren Benutzern wie folgt zuweisen:
 
@@ -157,7 +157,7 @@ Um alle apps anzuzeigen, die für einen Benutzer angeheftet sind, müssen die Be
 |Desktop Client für Teams |Mobiler Client für Teams |
 |---------|---------|
 |Klicken Sie in der APP-Leiste auf der Seite von Teams auf **... Weitere apps**.| Wischen Sie in der APP-Leiste am unteren Rand von Teams nach oben.|
-|![App-Setup-Policies-Desktop-more-apps. png](media/app-setup-policies-desktop-more-apps.png)<br>   |![App-Setup-Policies-Mobile-more-apps. png](media/app-setup-policies-mobile-more-apps.png)  
+|![Screenshot mit weiteren apps im Desktop Client von Teams](media/app-setup-policies-desktop-more-apps.png)<br>   |![Screenshot mit weiteren apps im mobilen Team-Client](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Was muss ich über die Mobile Teams-Umgebung wissen?
 

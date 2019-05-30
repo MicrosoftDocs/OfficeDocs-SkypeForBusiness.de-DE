@@ -17,87 +17,87 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 490d08a6be547ca0a6bcbde73b202d4362a8c46b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0ee28253c214cedead827b8e2a077372b0523f6a
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896309"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548916"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Wie gut ist Ihre Organisation auf Microsoft Teams vorbereitet?
 
-Nun, Ihr Projektteam zusammengefügt hat und Sie beginnen, finden Sie unter Was Teams für Ihre Organisation möglich ist, ist es wichtig, zur Bewertung der Bereitschaft Ihrer Organisation für den Übergang von Teams. Informationen zur Bewertung der Bereitschaft, benötigen Sie:
+Nachdem Ihr Projektteam nun zusammen gekommen ist und Sie sehen, was die Teams für Ihre Organisation tun können, ist es wichtig, die Bereitschaft Ihrer Organisation für den Übergang zu einem Team zu bewerten. Um ihre Bereitschaft zu bewerten, müssen Sie:
 
-1. Bewerten der Beteiligten.
-2. Frühe Übernahmen zu identifizieren.
-3. Bewerten der Bereitschaft der Organisation für ändern. 
+1. Bewerten Sie Ihre Stakeholder.
+2. Identifizieren Sie Early Adopters.
+3. Bewerten Sie die Bereitschaft der Organisation für Änderungen. 
 
-## <a name="assess-your-stakeholders"></a>Bewerten der beteiligten
+## <a name="assess-your-stakeholders"></a>Bewerten Ihrer Stakeholder
 
-Liste der Core Beteiligten und Führungskräfte in Ihrer Organisation. Für jedes einzelne Fragen:
+Führen Sie die wichtigsten Stakeholder und Unternehmensleiter in Ihrer Organisation auf. Stellen Sie für jeden einzelnen die folgenden Fragen:
  
-1. Ist diese Leiter benutzerfreundliche auf eine neue Technologie?
-2. Bewerten des Teamleiters wie zufrieden Sie mit der aktuellen Technologie.
-3. Ist diese Leiter unbestätigter Technologie verwenden, um Ergebnisse aus, oder erstellen Sie optimal für seinen Teammitglieder bereit?
-4. Ist diese Leiter unter ein hohes Maß Druck, wichtige Geschäftsergebnisse erzielen? 
-5. Wird diese Leiter bereit sind, da Erfahrung mit Teams zur Unterstützung bei der Übergang Wechsels bekannt sein?
-6. Hat dieses Leiter eine positive Beziehung mit den wichtigsten Mitgliedern des Projektteams vorhandenen?
-7. Sieht diese Leiter als "Agent der Änderung" innerhalb der Organisation angezeigt werden?  
+1. Ist dieser Marktführer für neue Technologien freundlich?
+2. Schätzen Sie die Zufriedenheit dieses Anführers mit Ihrer aktuellen Technologie.
+3. Ist dieser Marktführer bereit, nicht sanktionierte Technologien zu verwenden, um die Ergebnisse zu beschleunigen oder für seine Teammitglieder eine bessere Erfahrung zu schaffen?
+4. Ist dieser Marktführer unter einem hohen Maß an Druck, wichtige Unternehmensergebnisse zu liefern? 
+5. Wird dieser Leader bereit sein, seine/ihre Erfahrungen mit Teams zu evangelisieren, um den Übergang zu unterstützen?
+6. Hat dieser Leader eine positive Beziehung zu den wichtigsten Mitgliedern des vorhandenen Projektteams?
+7. Wird dieser Leader gerne in der Organisation als "Änderungs Beauftragter" angesehen?  
 
-Sie können weitere Fragen hinzufügen, die für Ihre Organisation relevant sind. Für Ihr erstes sehen umfasst zwei Phasen (Start und Experiments), Sie in leitender Position im Personen mit aktuellen Technologie benutzerfreundliche ändern, einigermaßen zufrieden sind und, die eine gute Beziehung mit Ihnen. Diese leitender Position im Unternehmen sollte als Business Berater in das Projektteam Core gebracht werden und möglicherweise Projekte, die entscheidend für Ihre experimentieren Phase werden. Es ist wichtig, wählen Sie impactful, real World Situationen mit experimentieren und Projekte mit hohem Risiko für den ersten Experimenten vermeiden.
+Sie können weitere Fragen hinzufügen, die für Ihr Unternehmen relevant sind. Für Ihre ersten beiden Phasen (Start und Experiment) sehen Sie Führungspersönlichkeiten, die sich freundlich zu ändern, mit der aktuellen Technologie etwas unzufrieden sind und mit denen Sie eine gute Beziehung haben. Diese Marktführer sollten als Unternehmensberater in das Kernprojektteam eingebracht werden und Projekte haben, die für Ihre Experimentierphase wichtig sind. Es ist wichtig, einflussreiche, reale Situationen zu wählen, mit denen experimentiert werden kann, und vermeiden Sie Projekte mit großem Risiko für Ihre anfänglichen Experimente.
    
 > [!NOTE]
-> Es ist, zwar möglich, eine Bewertung dieser Art von Fragebogen zuzuweisen, die die Auswirkung des human-Elements des Beziehungen innerhalb Ihrer Organisation zu minimieren, würde hängt gesteuerter Änderung der Chemie des Teams soweit wie ihre technische Kenntnisse oder Business Kollegen. Überprüfen Sie diese Liste mit den Mitgliedern Ihres Teams, die "anpassen" von Ihrer verschiedenen leitender Position im Unternehmen mit diesem Projekt erläutern, wie Sie Projekte und Mitarbeiter für nachfolgende Phasen auswählen. 
+> Es ist zwar möglich, einem solchen Fragebogen eine Punktzahl zuzuweisen, mit der die Auswirkungen des menschlichen Elements von Beziehungen innerhalb Ihrer Organisation minimiert werden, doch hängt die Veränderung des Wandels von der Chemie des Teams ebenso ab wie vom technischen Geschick oder vom geschäftlichen Scharfsinn. Überprüfen Sie diese Liste mit Ihren Teammitgliedern, um die "Passung" ihrer verschiedenen Führungskräfte mit diesem Projekt zu besprechen, während Sie Projekte und Mitarbeiter für nachfolgende Phasen auswählen. 
 
-## <a name="identify-early-adopters"></a>Identifizieren von frühe Übernahmen
+## <a name="identify-early-adopters"></a>Erkennen von frühen Anwendern
 
-Frühe Übernahmen freigeben, unabhängig davon, welche Größe oder Branche Ihrer Organisation möglicherweise bestimmte Merkmale. Frühe Übernahmen freigeben in der Regel diese Merkmale:
+Frühe Anwender geben bestimmte Merkmale frei, unabhängig von der Größe oder Branche Ihrer Organisation. In der Regel Teilen frühe Adoptierende diese Merkmale:
 
 - Technologie interessiert
-- Bereitschaft der Änderung angehören
-- Suchvorgänge, um sich zu verbessern
-- Collaborative Natur
-- Bereit sind, ihre Beobachtungen und Befunde für die Gruppe freigeben
-- Sind Sie Risiko entgegennehmen. d. h., sind sie bereit sind, versuchen etwas, um festzustellen, ob es funktioniert
+- Bereit, ein Teil des Wandels zu sein
+- Verbesserungen vornehmen
+- Collaborative by Nature
+- Bereit, ihre Beobachtungen und Erfahrungen mit der Gruppe zu teilen
+- Sind Risiko Bestatter; Das heißt, dass Sie bereit sind, etwas zu versuchen, um zu sehen, ob es funktioniert
 
-Verwenden Sie ein einfaches Formular in Office 365, damit diese Personen in Ihrer frühe Firmenwerts Programm für Teams abonnieren können. Je nach Größe und Komplexität Ihrer Organisation können Sie einige oder alle diese Personen für Ihre experimentieren Phase zu aktivieren. In diesem Programm werden sie aktiv an Ihre experimentieren Phase teilnehmen, und geben Sie reguläre Feedback an das Projektteam zustimmen. Vermeiden Sie, dass Personen, die einfach neue Technologie Laufwerk testen möchten. Lassen Sie darauf hin, dass dieses active Feedback erteilen, sie das Ergebnis des Projekts gestalten helfen. Sie verwenden diese Liste mit Personen in [Phase 2: experimentieren](teams-adoption-phase2-experiment.md).
+Verwenden Sie ein einfaches Formular in Office 365, um es diesen Personen zu ermöglichen, sich für Ihr Early Adopter-Programm für Teams zu entscheiden. Je nach Größe und Komplexität Ihrer Organisation können Sie einige oder alle dieser Personen für Ihre Experimentierphase aktivieren. In diesem Programm stimmen Sie zu, aktiv an ihrer Experimentierphase teilzunehmen und dem Projektteam regelmäßig Feedback zu geben. Vermeiden Sie Personen, die einfach nur neue Technologien testen möchten. Lassen Sie Sie wissen, dass Sie mit diesem aktiven Feedback dazu beitragen, das Ergebnis Ihres Projekts zu vermitteln. Sie werden diese Liste der Personen in [Phase 2-Experiment](teams-adoption-phase2-experiment.md)verwenden.
 
-Unsere frühe Firmenwerts Program Guide ist eine wertvolle Ressource für dieses Programm in der Umgebung auzuwählende.  
+Unser Early Adopter-Programmleitfaden ist eine hilfreiche Ressource, um dieses Programm in Ihrer Umgebung zu starten.  
  
-## <a name="assess-your-organizations-readiness-for-change"></a>Ermitteln Sie die Bereitschaft für Ändern Ihrer Organisation
+## <a name="assess-your-organizations-readiness-for-change"></a>Beurteilen der Änderungsbereitschaft Ihrer Organisation
 
-Änderung ist ein human Prozess, der nichts mit der Technologie tun hat. Es gibt Verhalten einfach und Neuroscience, die uns über die natürliche Widerstand ändern verseuchten. So machen Sie ändern akzeptabel, ist es wichtig, die Anforderungen Ihrer Benutzer erwarten, Ihre Kenntnisse über ihre Situation express und Erstellen von Lösungen, die diese Situation zu verbessern. Auch in dadurch natürliche Widerstand ändern treten.  
+Änderung ist ein menschlicher Prozess, der nichts mit Technologie zu tun hat. Es gibt Verhaltenspsychologie und Neurowissenschaften, die uns über die natürliche Resistenz gegen Veränderungen informieren. Damit die Änderung akzeptabel ist, ist es wichtig, die Anforderungen Ihrer Benutzer vorwegzunehmen, Ihr Verständnis für Ihre Situation darzulegen und Lösungen zu entwickeln, die diese Situation verbessern. Selbst auf diese Weise stoßen Sie auf natürliche Resistenz gegen Veränderungen.  
 
-![Widerstand ändern](media/teams-adoption-resistance.png)
+![Diagramm zur Veranschaulichung des Widerstandes gegen Änderungen](media/teams-adoption-resistance.png)
 
-Jede Organisation Ansätze Änderung unterschiedlich, je nach Region, Arbeitsweise, professional Profil und andere Elemente der Organisation. Zum Bewerten der Bereitschaft Ihrer Organisation finden Sie unter [Assess organisatorischen Bereitschaft ändern](upgrade-org-change-readiness.md). Verwenden Sie die Richtlinien, um die folgenden Fragen beantworten:
+Jeder Ansatz der Organisation ändert sich je nach Region, Arbeitsstil, beruflichem Profil und anderen Elementen der Organisation unterschiedlich. Informationen zum Bewerten der Bereitschaft Ihrer Organisation finden Sie unter [bewerten der organisatorischen Änderungsbereitschaft](upgrade-org-change-readiness.md). Befolgen Sie die Richtlinien, um die folgenden Fragen zu beantworten:
 
-1. Wie viel Prozent der Benutzer fallen in jedem Bucket? (*Änderung Widerstand*)
-    - **Frühe Übernahmen**: anfordern die Lösung, bevor es zur Verfügung steht.
-    - **Benutzer informiert**: Verwenden Sie die Lösung aus, nachdem sich bewährt ist.
-    - **Dissenters**: Push auf jede Änderung zurück.
+1. Welcher Prozentsatz der Benutzer fällt in die einzelnen Buckets? (*Widerstandsänderung*)
+    - **Early Adopters**: fordern Sie die Lösung an, bevor Sie verfügbar ist.
+    - **Informierte Benutzer**: Verwenden Sie die Lösung, nachdem ihr Wert bewiesen wurde.
+    - **** Dissenters: Drücken Sie auf jede Änderung zurück.
     
    > [!TIP]
-   > Frühe Übernahmen stellen hervorragende pilot Tester und peer-Champions. Benutzer, die nur langsam einführen neuer Tools sind erfordern zusätzliche Unterstützung und mehr Zeit anpassen. 
+   > Frühe Anwender machen tolle Pilottester und Peer-Champions. Benutzer, die mit der Einführung neuer Tools langsam sind, benötigen zusätzliche Unterstützung und mehr Zeit zum Anpassen. 
 
-2. Was ist der Benutzer Competency für ändern? (*Schulung*)
-    - **Self Starter** benötigen nur eine Verknüpfung zu einem Video.
-    - **Team Builder** nicht so sehr Gruppe Schulung.
-    - **1: 1-Teilnehmern** erfordern persönlichen Support.
+2. Was ist die Kompetenz der Benutzer für Änderungen? (*Schulung*)
+    - Für **Selbststarter** ist nur ein Link zu einem Video erforderlich.
+    - **Team** -Builder sind mit Gruppenschulungen bestens geeignet.
+    - **Einzel Lernende** benötigen persönliche Unterstützung.
 
     > [!TIP]
-    > Zum Anpassen der Art und den Umfang der Schulung Kompetenz und Rollen. Behalten Sie die Schulung als neue Features, die online geschaltet aktualisiert.
+    > Passen Sie die Art und den Umfang der Schulung an Kompetenz und Personas an. Halten Sie Schulungen auf dem neuesten Stand, wenn neue Features online sind.
 
-3. Zusätzlich zu dieser Bereitstellung Service sind wie viele weitere Änderungen passiert? (*Flexibilität*) <br/>Änderungen konnte Office/Windows Upgrades, Umzug, Fusionen, strukturiert neu, und So weiter enthalten.
+3. Wie viele andere Änderungen werden zusätzlich zu dieser Dienstbereitstellung ausgeführt? (*Anpassungsfähigkeit*) <br/>Zu den Änderungen gehören Office/Windows-Upgrades, Office Moves, Mergers, reorgs usw.
     - Keine
-    - 1 bis 3 Änderungen
+    - 1-3-Änderungen
     - Mehr als 3 Änderungen
  
     > [!TIP] 
-    > Zu viele ändern kann Annahme und Produktivität beeinträchtigen. Wenn mehr als 3 Änderungen vorgenommen werden sollen, sollten Sie Abstand sie oder erstellen ein Design, um bündeln zusammen ändert.  
+    > Zu viele Änderungen können Akzeptanz und Produktivität behindern. Wenn mehr als drei Änderungen durchgeführt werden, sollten Sie Sie abgleichen oder ein Design erstellen, um die Änderungen gemeinsam zu bündeln.  
 
-Verbinden Sie diese Daten mit den Beteiligten Profile und Mitarbeiter, die für das frühe Firmenwerts Programm zu bestätigen möchten. Auf diese Weise können Sie Identifizieren von Gruppen, die von werden können und Änderung zusammen mit ihren vorhandenen Aufgabe kompensieren können. Diese Methode ermöglicht Ihnen Partner im ändern zu erstellen.
+Kombinieren Sie diese Daten mit den Stakeholder-Profilen und Mitarbeitern, die sich für das Early Adopter-Programm entscheiden möchten. Auf diese Weise können Sie Gruppen identifizieren, die zusammen mit ihren bestehenden Aufgaben für Änderungen bereit sind und diese absorbieren können. Mit dieser Methode können Sie Partner in Change erstellen.
 
-Interne Champions können zum Beheben des Problems, unterschiedliche Änderungstypen. Feedback ist hier der Schlüssel zum Erfolg: fördern von Personen zu ihren Herausforderungen und muss freigegeben. Nutzen Sie das Potenzial Disruptoren und Dissenters erteilen Sie diese Personen oder Gruppen einen Sitz an den Tisch während experimentieren. Diese bewährte Methode wird die Möglichkeit für einen reibungsloseren umfassenden Bereitstellung von Ihrer Zusammenarbeit Verbesserungen pave.  
+Sie können interne Champions verwenden, um das Problem mit unterschiedlichen Änderungstypen zu beheben. Hier ist Feedback der Schlüssel zum Erfolg: ermutigen Sie die Teilnehmer, Ihre Herausforderungen und Bedürfnisse zu teilen. Nehmen Sie Unterbrechungen und Abweichungen an, indem Sie diesen Personen oder Gruppen während des Experimentierens einen Sitzplatz am Tisch geben. Diese bewährte Methode ebnet den Weg für eine reibungslosere, umfassende Bereitstellung Ihrer Verbesserungen bei der Zusammenarbeit.  
 
-![Nächste Schritte Symbol](media/teams-adoption-next-icon.png) weiter: [Microsoft-Teams Annahme Phase 2: Experiments](teams-adoption-phase2-experiment.md) 
+![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt darstellt weiter: [Microsoft Teams Adoption Phase 2: Experiment](teams-adoption-phase2-experiment.md) 

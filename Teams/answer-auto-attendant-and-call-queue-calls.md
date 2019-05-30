@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a78ed7e0bb40d83f7b46d4d4a008f964180c32d0
-ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
+ms.openlocfilehash: 855029001863b6603548c865d5f7bfb039261a18
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2019
-ms.locfileid: "34185295"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494832"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Direktes Beantworten von Anrufen aus der automatischen Telefonzentrale und der Anrufwarteschleife aus Teams
 ===========================================================
@@ -39,7 +39,7 @@ Benutzer können eingehende Anrufe von einer automatischen Telefonzentrale oder 
 
 Die folgende Abbildung zeigt, wie ein eingehender Anruf von einer automatischen Telefonzentrale oder einer Anrufwarteschlange für einen Benutzer angezeigt wird.
 
-![Benachrichtigung über eingehende Anrufe](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![Screenshot einer Benachrichtigung über eingehende Anrufe](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
 Sobald eine automatische Telefonzentrale oder ein Anruf Warteschlangen Anruf beantwortet wurde, kann der Benutzer den Anruf wie jeden anderen Anruf & # x2014; Sie können einen anderen Benutzer hinzufügen oder eine Konferenz durchführen oder den Anruf an eine andere Person übertragen. Darüber hinaus werden Anrufe an die automatische Telefonzentrale basierend auf der Konfiguration des Benutzers weitergeleitet.
 

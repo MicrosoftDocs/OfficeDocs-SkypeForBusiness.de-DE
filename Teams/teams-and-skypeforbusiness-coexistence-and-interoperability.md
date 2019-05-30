@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c10a5fd2a1a172410a69362687146ba50cd69529
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 06655b8c43bb912409b2a1c6a42d7509f45bf651
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344570"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548797"
 ---
 ![Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Projekt Definitions Stufe] (media/upgrade-banner-project-definition.png "Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Projekt Definitions Stufe")
 
@@ -66,7 +66,7 @@ Sobald Ihre Organisation für einige oder alle Benutzer bereit ist, Teams als ei
 
 Weitere Überlegungen zum Wechseln in den Modus nur für Teams finden Sie unter [Überlegungen zum nur für Teams](teams-only-mode-considerations.md).
 
-![Skype for Business-Client, der in einem speziellen Modus ausgeführt wird, nachdem der Benutzer als nur-Team-Benutzer aktualisiert wurde] (media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Skype for Business-Client, der in einem speziellen Modus ausgeführt wird, nachdem der Benutzer als nur-Team-Benutzer aktualisiert wurde")
+Screenshot ![der Bestätigungsmeldung für Teams] (media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Skype for Business-Client, der in einem speziellen Modus ausgeführt wird, nachdem der Benutzer als nur-Team-Benutzer aktualisiert wurde")
 
 ### <a name="skype-for-business-with-teams-collaboration-this-mode-is-upcoming"></a>Skype for Business mit Teamzusammenarbeit (dieser Modus ist anstehend)
 
@@ -105,11 +105,11 @@ Je nachdem, welche Koexistenzmodus Benutzern zugewiesen ist (wie oben beschriebe
 
 - Skype for Business-Benutzer können mit Teams-Benutzern einzeln chatten und umgekehrt. Ein Interop-Chat muss ein Interop-Gateway durchlaufen, das Teil der Cloud-Dienste von Teams ist (und daher nur Online vorhanden ist). Interop-Chats sind nur-Text: Rich-Text und Emoticons werden nicht unterstützt. Benutzer in Teams werden benachrichtigt, dass es sich bei der Konversation um eine Interop-Unterhaltung handelt. eine ähnliche Benachrichtigung für Nutzer von Skype for Business wird in Kürze zur Verfügung gestellt.
 
-![Interop-Chat-Erfahrung von Teams] (media/Interop_chat_experience_from_Teams.png "Interop-Chat-Erfahrung von Teams")
+Screenshot ![des Interop-Chats in Microsoft Teams] (media/Interop_chat_experience_from_Teams.png "Interop-Chat-Erfahrung von Teams")
 
 - Skype for Business-Benutzer können Einzel-sprach-und Videoanrufe an Teams-Nutzer tätigen und umgekehrt.
 
-![Interoperabilitäts-Anruf Erfahrung von Teams] (media/Interop_calling_experience_from_Teams.png "Interoperabilitäts-Anruf Erfahrung von Teams")
+Screenshot ![der Benutzeroberfläche für Interop-Anrufe in Teams] (media/Interop_calling_experience_from_Teams.png "Interoperabilitäts-Anruf Erfahrung von Teams")
 
 > [!Important]
 > Interoperabilitäts Erfahrungen mit einer lokalen Bereitstellung von Skype for Business setzen voraus, dass sich die lokale Umgebung im Hybrid Modus mit Office 365 Skype for Business befindet. Ausführliche Informationen finden Sie unter [Leitfaden zur Migration und Interoperabilität](https://aka.ms/SkypeToTeams-Interop).

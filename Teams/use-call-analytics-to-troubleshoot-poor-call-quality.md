@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: Verwenden Sie Details zur anrufanalyse zu Geräten, Netzwerken und Verbindungen zur Behandlung von Benutzerproblemen mit Microsoft Teams und Skype for Business-anrufen und-Besprechungen.
-ms.openlocfilehash: 2255afa0c2af8e1c672c2830009cfb34921ceed9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 952cd0f34221f0a7e1203f8ff78edf2abdadb9b1
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288196"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548980"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln
 
@@ -64,13 +64,13 @@ Wenn Sie Hilfe zu Berechtigungen benötigen, sehen Sie sich Ihre Teams und den S
     
 3. Beginnen Sie im **Dashboard**in der **Benutzersuche**mit der Eingabe des Namens oder der SIP-Adresse des Benutzers, dessen Anrufe Sie behandeln möchten, oder wählen Sie **Benutzer anzeigen** aus, um eine Liste der Benutzer anzuzeigen.
     
-    ![Screenshot des Felds "Benutzersuche" in der anrufanalyse im Microsoft Teams Admin Center.](media/use-call-analytics-to-troubleshoot-image-1.png)
+    ![Screenshot des Felds "Benutzersuche" in der anrufanalyse](media/use-call-analytics-to-troubleshoot-image-1.png)
   
 4. Wählen Sie den Benutzer in der Liste aus.
 
 5. Wählen Sie **Anrufprotokoll**aus, und wählen Sie dann den Anruf oder die Besprechung aus, für den Sie eine Problembehandlung durchführen möchten.
     
-    ![Der Screenshot zeigt die Seite "Anrufverlauf" für einen Benutzer.](media/use-call-analytics-to-troubleshoot-image-2.png)
+    ![Screenshot der Seite "Anrufverlauf" für einen Benutzer](media/use-call-analytics-to-troubleshoot-image-2.png)
   
 6. Wählen Sie die Registerkarte **Erweitert** aus, und suchen Sie dann nach gelben und roten Elementen, die auf eine schlechte Anrufqualität oder auf Verbindungsprobleme hinweisen.
     

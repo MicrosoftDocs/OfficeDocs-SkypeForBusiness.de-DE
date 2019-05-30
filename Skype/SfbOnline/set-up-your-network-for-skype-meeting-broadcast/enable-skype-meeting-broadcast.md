@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Bevor die Personen in Ihrer Organisation Skype-Live Konferenz verwenden können, müssen Sie Sie aktivieren. Dazu müssen Sie wissen, wie Sie Windows PowerShell verwenden. Wenn Sie keine Erfahrungen mit Windows PowerShell haben, sollten Sie möglicherweise einen Microsoft-Partner für diese Aufgabe heranziehen.
-ms.openlocfilehash: bd633b919bc916c1e64620d008e2ec9081656041
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f1a672bc8d3b0ce957a32691270293551e1a1409
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280803"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494035"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Aktivieren von Skype-Livekonferenz
 
@@ -32,7 +32,7 @@ Bevor die Personen in Ihrer Organisation Skype-Live Konferenz verwenden können,
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Aktivieren von Skype-Livekonferenz im Skype for Business Admin Center
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
 
 1. Melden Sie sich mit dem Konto Globaler Office 365-Administrator bei [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) an.
     

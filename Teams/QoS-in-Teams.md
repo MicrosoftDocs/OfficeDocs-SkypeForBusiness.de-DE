@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b02b22ff6b38a432260b98fbfd79272448ed7a5
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 972b997a7258ce4961fe4f94af37595846aac19b
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433143"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548884"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementieren von Quality of Service (QoS) in Microsoft Teams
 
@@ -70,7 +70,7 @@ Bei der Implementierung von QoS definieren Sie mehrere Warteschlangen mit einer 
 
 _Abbildung 2. Beispiele für QoS-Warteschlangen_
 
-![Illustration von QoS-Warteschlangen] (media/Qos-in-Teams-Image2.png "Die gesamte verfügbare Bandbreite ist auf mehrere Warteschlangen – Audio, Video und anderer Datenverkehr – aufgeteilt, denen unterschiedliche Prioritäten zugewiesen wurden.")
+![Illustration von QoS-Warteschlangen und Bandbreiten Teilung] (media/Qos-in-Teams-Image2.png "Die gesamte verfügbare Bandbreite ist auf mehrere Warteschlangen – Audio, Video und anderer Datenverkehr – aufgeteilt, denen unterschiedliche Prioritäten zugewiesen wurden.")
 
 Eine einfache Analogie ist, dass QoS virtuelle "Fahrgemeinschaften-Lanes" in Ihrem Datennetzwerk erstellt, sodass einige Datentypen nie oder nur selten einer Verzögerung begegnen. Nachdem Sie diese Spuren erstellt haben, können Sie Ihre relative Größe anpassen und die von Ihnen genutzte Verbindungsbandbreite effektiver verwalten, während Sie dennoch unternehmensspezifische Erfahrungen für die Benutzer Ihrer Organisation bereitstellen.
 

@@ -1,12 +1,12 @@
 ---
-title: Planen von dienstverwaltung und Qualität | Technische Bereitschaft
+title: Planen des Service Managements und der Qualität | Technische Bereitschaft
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Verwenden Sie diese Anleitung um kennen zu lernen die Anforderungen, die zum Bereitstellen und Verwalten von eine hohe Qualität Microsoft-Teams, Bereitstellung erforderlich sind.
+description: Verwenden Sie diese Anleitung, um die Anforderungen zu erfahren, die erforderlich sind, um eine hochwertige Microsoft Teams-Bereitstellung zu gewährleisten.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,27 +15,27 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1f663bc801a7b2d864c59051b08ae66d52123cf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 389b04a00ff0941edaf0f5f2d18d7685ce37b601
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896434"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548669"
 ---
-![Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade Reise, mit Schwerpunkt auf die Phase technische Bereitschaft")
+![Diagramm zum Upgrade von Fahrten mit Hervorhebung der technischen Bereitschaftsstufe] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der technischen Bereitschaftsstufe liegt")
 
-Dieser Artikel ist Teil technische Bereitschaft Stufe des Ihrem Upgrade Weg, eine Aktivität, die gleichzeitig mit der User Readiness Phase ausgeführt werden. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie diese Aktivitäten aus vorherigen Phasen abgeschlossen haben:
+Dieser Artikel ist Teil der technischen Bereitschaftsstufe Ihres Upgrade-Vorgangs, einer Aktivität, die Sie parallel zur Benutzer Bereitschaftsphase abschließen. Bevor Sie fortfahren, bestätigen Sie, dass Sie diese Aktivitäten aus vorherigen Phasen abgeschlossen haben:
 
-- [Ihre Projektbeteiligten eingetragen](upgrade-enlist-stakeholders.md)
-- [Definiert die Projektumfang](https://aka.ms/SkypetoTeams-Scope)
-- [Skype-Interoperabilität und Koexistenz für Unternehmen und Teams verstanden](https://aka.ms/SkypeToTeams-Coexist)
-- [Ihre Reise Upgrade ausgewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Ihre Projekt Beteiligten wurden eingetragen](upgrade-enlist-stakeholders.md)
+- [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
+- [Verständliche Koexistenz und Interoperabilität von Skype for Business und Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Ihre Upgrade-Reise gewählt](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
 
 # <a name="plan-for-quality"></a>Planen der Qualität
 
-Wenn Sie Audio-, Video- oder Besprechungen bereitstellen, können Sie einige zusätzliche Schritte zur Optimierung Ihrer Umgebung für diese Funktionalität nutzen. Sie erhalten hier eine Übersicht über die Anforderungen, die bei einer qualitativ hochwertigen Microsoft Teams-Bereitstellung erfüllt sein müssen. Sie können eine erfolgreiche Bereitstellung durch Planung für dienstverwaltung und die Qualität, vor der ersten Bereitstellung Pilot- oder Produktionsserverfarm sicherzustellen.
+Wenn Sie Audio, Video oder Besprechungen bereitstellen, können Sie einige zusätzliche Schritte Unternehmen, um die Umgebung für diese Funktionalität zu optimieren. Sie erhalten hier eine Übersicht über die Anforderungen, die bei einer qualitativ hochwertigen Microsoft Teams-Bereitstellung erfüllt sein müssen. Sie können helfen, eine erfolgreiche Bereitstellung zu gewährleisten, indem Sie vor der ersten Pilot-oder Produktionsbereitstellung Service Management und Qualität planen.
 
 Die Anleitungen sind in die folgenden Abschnitte unterteilt:
 
@@ -47,23 +47,23 @@ Die Anleitungen sind in die folgenden Abschnitte unterteilt:
 
 - Abschließend werden die nächsten Schritte zusammengefasst und Verweise auf verwandte Inhalte bereitgestellt.
 
-## <a name="key-technical-components-that-affect-user-experience"></a>Erleben Sie die wichtige technische Komponenten, die Einfluss auf Benutzer
+## <a name="key-technical-components-that-affect-user-experience"></a>Wichtige technische Komponenten, die Auswirkungen auf die Benutzeroberfläche haben
 
-In diesem Abschnitt werden die wichtigsten technischen Komponenten, die Benutzerinteraktion betreffen überprüft. Vor der Betrachtung der wichtigen Komponenten müssen Sie sich darüber im Klaren sein, was Benutzerfreundlichkeit bedeutet und wie wichtig sie dafür ist, die Geschäftsziele Ihrer Organisation zu verwirklichen. Wie wird nun die Benutzerfreundlichkeit definiert?
+Die wichtigsten technischen Komponenten, die Auswirkungen auf die Benutzeroberfläche haben, werden in diesem Abschnitt überprüft. Vor der Betrachtung der wichtigen Komponenten müssen Sie sich darüber im Klaren sein, was Benutzerfreundlichkeit bedeutet und wie wichtig sie dafür ist, die Geschäftsziele Ihrer Organisation zu verwirklichen. Wie wird nun die Benutzerfreundlichkeit definiert?
 
 ### <a name="user-experience-defined"></a>Definition der Benutzerfreundlichkeit
 
-Geschäftlicher Ziele können realisiert werden bei der Bereitstellung von Microsoft-Teams, und wenn Benutzern Teams als Zusammenarbeit und Kommunikation ihrer kernlösung übernommen. Qualität kann eine positive Benutzer wünschen, ein Key-Attributs in treibende Verwendung und Akzeptanz sicherzustellen. Durch die Bereitstellung von hoher Qualität Dienst, der Personen Delights, Einzelpersonen und Teams Confidence erhalten und finden neue und innovative Wege zur Verwendung des Diensts, Geschäftsvorteile Laufwerk.
+Unternehmensziele können beim Bereitstellen von Microsoft Teams und bei der Einführung von Teams als zentrale Lösung für die Zusammenarbeit und Kommunikation verwirklicht werden. Qualität kann dabei helfen, eine positive Nutzererfahrung zu gewährleisten, ein wichtiges Attribut für die Nutzung und Akzeptanz. Durch die Bereitstellungeines qualitativ hochwertigen Diensts, der Personen, Einzelpersonen und Teams begeistert, können Sie Vertrauen gewinnen und neue und innovative Methoden für die Nutzung des Diensts finden, der geschäftliche Vorteile bietet.
 
-Im Mittelpunkt steht dabei, wie die Benutzer Microsoft Teams wahrnehmen, das heißt, was sie bei der Nutzung des Diensts empfinden und wie sie ihm gegenüber eingestellt sind. Was fließt nun in die Benutzerfreundlichkeit ein? Es reicht von Benutzern zu wissen, wie und warum Sie Teams und integrieren es in ihrer täglichen Workflow außergewöhnliche Anrufqualität auftritt und zuverlässig, unabhängig davon, wo sie sind Verbindung hergestellt wird. Benutzerinteraktion ist sehr große Natur. Dieser Artikel befasst sich nur auf die technischen Elemente, die von Ihrer Organisation gesteuert werden können. Weitere Informationen zur benutzerbereitschaft finden Sie unter [Vorbereiten Ihrer Organisation für Teams](https://aka.ms/SkypeToTeams-UserReadiness).
+Im Mittelpunkt steht dabei, wie die Benutzer Microsoft Teams wahrnehmen, das heißt, was sie bei der Nutzung des Diensts empfinden und wie sie ihm gegenüber eingestellt sind. Was fließt nun in die Benutzerfreundlichkeit ein? Es reicht vom Wissen der Benutzer, wie und warum man Teams verwendet und in seinen täglichen Workflow einbindet, um eine außergewöhnliche Anrufqualität zu erfahren und eine zuverlässige Verbindung herzustellen, unabhängig davon, wo Sie sich befinden. Die Benutzererfahrung ist in der Natur sehr breit; in diesem Artikel werden nur die technischen Elemente behandelt, die von Ihrer Organisation gesteuert werden können. Weitere Informationen zur Benutzer Bereitschaft finden [Sie unter Vorbereiten Ihrer Organisation für Teams](https://aka.ms/SkypeToTeams-UserReadiness).
 
 Es gibt bestimmte Anforderungen für die Bereitstellung, die für eine hervorragende Benutzerfreundlichkeit unabdinglich sind – insbesondere bei Verwendung der Cloud-VoIP-Funktionen in Microsoft Teams. Microsoft Teams muss unbedingt gegenüber anderen Investitionen in Kommunikation und Zusammenarbeit bevorzugt behandelt werden, das heißt, der Echtzeit-Datenverkehr muss entsprechend priorisiert werden. Der folgende Abschnitt enthält eine Übersicht über die wichtigen Komponenten, die sich auf die Benutzerfreundlichkeit auswirken. In den weiteren Abschnitten erhalten Sie Anleitungen zum Planen der Bereitstellung und zum Warten der wichtigen Komponenten der Qualität.
 
 ### <a name="key-components-of-quality"></a>Wichtige Komponenten der Qualität
 
-Eine Organisation oder unterstützenden Partner zu Beginn der Planung für die drei wichtigsten Komponenten während der Phase technische Bereitschaft einer Bereitstellung Teams: service-Management, Netzwerk und Endpunkte. Die Kombination aller drei Bereiche bildet die Grundlage der Qualität der Benutzerfreundlichkeit.
+Eine Organisation oder ein unterstützender Partner sollte während der technischen Bereitschaftsphase einer Teams-Bereitstellung mit der Planung von drei wichtigen Komponenten beginnen: Dienstverwaltung, Netzwerk und Endpunkte. Die Kombination aller drei Bereiche bildet die Grundlage der Qualität der Benutzerfreundlichkeit.
 
-![Dieses Diagramm zeigt die drei Komponenten der Qualität sowie die Überlappungen aller drei Komponenten mit der Dienstverwaltung.](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Dieses Diagramm zeigt die drei Komponenten der Qualität sowie die Überlappungen aller drei Komponenten mit der Dienstverwaltung.")
+![Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden] (media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden und wie die Dienstverwaltung alle drei Komponenten überlappt.")
 
 #### <a name="service-management"></a>Dienstverwaltung
 
@@ -89,7 +89,7 @@ Detaillierte Anleitungen für die Netzwerkplanung finden Sie unter [Planen der N
 
 Microsoft Teams unterstützt eine breite Palette von Endpunkten. Sie können Microsoft Teams überall und über praktisch alle Geräte nutzen, seien es PCs, Tablets oder Telefone.
 
-Um Ihre Benutzer die beste Leistung zu bieten möglich ist, müssen Sie diese wichtige Aspekte berücksichtigen: Führen Sie die Endpunkte erfüllen die Teams Hardware und Software? Sind die Endpunkte für die Unterstützung von WLAN-Netzwerken konfiguriert und optimiert? Über welche Geräte möchten Sie Sprachanrufe tätigen und annehmen? Sind diese Geräte für Microsoft Teams optimiert?
+Wenn Sie Ihren Benutzern die bestmögliche Benutzererfahrung bieten möchten, müssen Sie diese wichtigen Aspekte berücksichtigen: erfüllen ihre Endpunkte die Hardware-und Softwareanforderungen für Teams? Sind die Endpunkte für die Unterstützung von WLAN-Netzwerken konfiguriert und optimiert? Über welche Geräte möchten Sie Sprachanrufe tätigen und annehmen? Sind diese Geräte für Microsoft Teams optimiert?
 
 Detaillierte Anleitungen für die Endpunktplanung finden Sie unter [Planen der Endpunktqualität](#plan-for-endpoint-quality).
 
@@ -101,13 +101,13 @@ Die Dienstverwaltung ist für die meisten Organisationen höchstwahrscheinlich k
 
 Die Dienstverwaltung umfasst alle Aktivitäten und Prozesse, die bei der End-to-End-Verwaltung von Microsoft Teams anfallen. Wie bereits beschrieben fallen einige Komponenten der Dienstverwaltung (die Infrastrukturkomponenten, aus denen der Office 365-Dienst selbst besteht) unter die Zuständigkeit von Microsoft, während der Kunde seinen Benutzern gegenüber für die Verwaltung der verschiedenen Aspekte von Microsoft Teams, dem Netzwerk und den bereitgestellten Endpunkten verantwortlich ist. Im Mittelpunkt dieses Abschnitts des Dokuments steht die Zuständigkeit des Kunden aus der Perspektive der Dienstverwaltung.
 
-![Dieses Diagramm zeigt die drei Komponenten der Qualität sowie die Überlappungen aller drei Komponenten mit der Dienstverwaltung. Der Schwerpunkt liegt auf der Dienstverwaltung.](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Dieses Diagramm zeigt die drei Komponenten der Qualität sowie die Überlappungen aller drei Komponenten mit der Dienstverwaltung. Der Schwerpunkt liegt auf der Dienstverwaltung.")
+![Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden] (media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit dem Schwerpunkt auf Service Management.")
 
 ### <a name="introduction-to-the-operations-guide"></a>Einführung in das Betriebshandbuch
 
 **Was?**, **Wer?** und **Wie?** sind drei wichtige Fragen, die im Hinblick auf die Dienstverwaltung beantwortet werden müssen.
 
-Bei der Beantwortung dieser drei Fragen können Sie das [Betriebshandbuch](1-drive-value-operate-my-service.md) zu Hilfe nehmen. Das Handbuch enthält Listen mit Aktivitäten, die täglich, wöchentlich, monatlich bzw. nach Bedarf ausgeführt werden müssen. Diese Aktivitäten und Aufgaben sind unerlässlich für eine dauerhaft qualitativ hochwertige Teams-Bereitstellung. Bestimmen, die zum Ausführen bestimmter Aktivitäten in Service-Management zuständig sind, ist ein wichtiger Aspekt der Planung, die Sie einem frühen Zeitpunkt in der [Phase Planung](upgrade-enlist-stakeholders.md) sicherstellen eine erfolgreiche Bereitstellung ausführen müssen. Wenn Sie die Aufgaben und Aktivitäten ermittelt haben, müssen die Gruppen oder Einzelpersonen, die Sie den Aufgaben und Aktivitäten zuweisen, diese verstehen und befolgen. Das Betriebshandbuch enthält Informationen und Anleitungen zur Ausführung der einzelnen Aufgaben und/oder Verweise auf externe Inhalte.
+Bei der Beantwortung dieser drei Fragen können Sie das [Betriebshandbuch](1-drive-value-operate-my-service.md) zu Hilfe nehmen. Das Handbuch enthält Listen mit Aktivitäten, die täglich, wöchentlich, monatlich bzw. nach Bedarf ausgeführt werden müssen. Diese Aktivitäten und Aufgaben sind unerlässlich für eine dauerhaft qualitativ hochwertige Teams-Bereitstellung. Die Entscheidung, wer für die Durchführung bestimmter Aktivitäten in der Dienstverwaltung zuständig sein soll, ist ein wichtiger Aspekt ihrer Planung, den Sie in der Planungs [Phase](upgrade-enlist-stakeholders.md) frühzeitig erledigen müssen, um eine erfolgreiche Bereitstellung sicherzustellen. Wenn Sie die Aufgaben und Aktivitäten ermittelt haben, müssen die Gruppen oder Einzelpersonen, die Sie den Aufgaben und Aktivitäten zuweisen, diese verstehen und befolgen. Das Betriebshandbuch enthält Informationen und Anleitungen zur Ausführung der einzelnen Aufgaben und/oder Verweise auf externe Inhalte.
 
 ### <a name="operational-role-mapping"></a>Zuordnung der operativen Rollen
 
@@ -115,7 +115,7 @@ Die frühzeitige Planung der Dienstverwaltung ist ein wichtiger Meilenstein, da 
 
 Nach Abschluss der Genehmigung muss das zuständige Team mit der Operationalisierung dieser Rollen und Zuständigkeiten beginnen. Dazu können Schulungen und Vorbereitungsmaßnahmen, Aktualisierungen des Modells für die personelle Besetzung oder Sicherstellen der Bereitschaft externer Partner gehören.
 
-Rollen zuordnen, wie Sie Ihr [Projektteam](upgrade-enlist-stakeholders.md) sammeln kann alle Teams Starten ihrer betriebsbezogenen Aufgaben während der Pilotphase, und lernen Sie Vorgänge, und stellen Sie sicher, dass Sie nach dem Starten der bereitstellungs abgeschlossen ist.
+Durch das Zuordnen von operativen Rollen während des Sammelns Ihres [Projektteams](upgrade-enlist-stakeholders.md) können alle Teams ihre operativen Aufgaben während des Pilotprojekts starten und Vorgänge Hochfahren und sicherstellen, dass alles nach dem Start der Bereitstellung bereit ist.
 
 Das Betriebshandbuch enthält eine Liste mit allgemeinen Aufgaben, die typischen für die meisten Szenarien geeigneten Rollen zugeordnet sind. Sie müssen diese Zuständigkeiten an die Gegebenheiten in Ihrer Organisation anpassen.
 
@@ -125,13 +125,13 @@ Eine Gruppe oder Einzelperson muss für die Qualität in allen Organisationen ve
 
 Der Qualitätspionier nutzt vorhandene Tools und dokumentierte Prozesse, beispielsweise das Anrufqualitäts-Dashboard (AQD) und das Handbuch für die Überprüfung der Erlebnisqualität, um die Benutzerfreundlichkeit zu überwachen, Qualitätstrends zu erkennen und gegebenenfalls Verbesserungen zu fördern. Der Qualitätspionier arbeitet mit den jeweiligen Teams zusammen, um Verbesserungsmaßnahmen voranzutreiben, und unterrichtet einen Lenkungsausschuss über den Fortschritt und die offenen Probleme.
 
-Die mit der Rolle verknüpften Aufgaben und Aktivitäten sind im Betriebshandbuch dokumentiert. Diese Rolle sollte bei der [Planung der Stufe](https://aka.ms/SkypeToTeams-Plan)zugewiesen werden. Ein wichtiger Schritt bei der Operationalisierung der Rolle des Qualitätspioniers besteht darin, das für die Rolle erforderliche Wissen zu erwerben und sicherzustellen, dass die zur Ausführung der Aufgaben erforderlichen Komponenten vorhanden sind. Eine wichtige Aufgabe dieser Rolle besteht darin, eine regelmäßige Überprüfung der Erlebnisqualität auszuführen.
+Die mit der Rolle verknüpften Aufgaben und Aktivitäten sind im Betriebshandbuch dokumentiert. Diese Rolle sollte während der [Planungsphase](https://aka.ms/SkypeToTeams-Plan)zugewiesen werden. Ein wichtiger Schritt bei der Operationalisierung der Rolle des Qualitätspioniers besteht darin, das für die Rolle erforderliche Wissen zu erwerben und sicherzustellen, dass die zur Ausführung der Aufgaben erforderlichen Komponenten vorhanden sind. Eine wichtige Aufgabe dieser Rolle besteht darin, eine regelmäßige Überprüfung der Erlebnisqualität auszuführen.
 
 ### <a name="introduction-to-the-quality-experience-review-guide"></a>Einführung in das Handbuch für die Überprüfung der Erlebnisqualität
 
 Das Handbuch für die Überprüfung der Erlebnisqualität enthält Aktivitäten zum Bewerten und Bereitstellen von Verbesserungsanleitungen in wichtigen Bereichen, die größten Auswirkungen auf die Verbesserung der Benutzerfreundlichkeit haben (siehe folgende Abbildung).
 
-![Dieses Diagramm veranschaulicht die wichtigen Bereiche, die bei einer Überprüfung der Erlebnisqualität betrachtet werden.](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "Dieses Diagramm veranschaulicht die wichtigen Bereiche, die bei einer Überprüfung der Erlebnisqualität betrachtet werden.")
+Diagramm, das die ![während der Überprüfung der Qualitätsprüfung untersuchten Schlüsselbereiche veranschaulicht] (media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "Ein Diagramm, das die wichtigsten Bereiche veranschaulicht, die während einer Überprüfung der Qualitätsüberprüfung untersucht werden.")
 
 Durch kontinuierliches Bewerten und Verbessern der in diesem Dokument beschriebenen Bereiche können Sie die Wahrscheinlichkeit verringern, dass sie sich nachteilig auf die Benutzerfreundlichkeit auswirken. Die meisten bei einer Bereitstellung auftretenden Probleme mit der Benutzerfreundlichkeit können in die folgenden Kategorien eingeordnet werden:
 
@@ -157,7 +157,7 @@ Das Handbuch für die Überprüfung der Erlebnisqualität finden Sie [hier](http
 
 Die Planung der Netzwerkqualität steht im Mittelpunkt des folgenden Abschnitts.
 
-![Dieses Diagramm zeigt die drei Komponenten der Qualität sowie die Überlappungen aller drei Komponenten mit der Dienstverwaltung. Der Schwerpunkt liegt auf dem Netzwerk.](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Dieses Diagramm zeigt die drei Komponenten der Qualität sowie die Überlappungen aller drei Komponenten mit der Dienstverwaltung. Der Schwerpunkt liegt auf dem Netzwerk.")
+![Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden] (media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit einem Fokus auf das Netzwerk.")
 
 Wie bereits erwähnt muss die Netzwerkqualität unbedingt vor dem Onboarding in Microsoft Teams geplant werden. Weitere Anleitungen zur Netzwerkvorbereitung finden Sie unter [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](prepare-network.md).
 
@@ -213,7 +213,7 @@ Die für die Umgehung des Proxyservers erforderliche Konfiguration ist je nach A
 
 Manche Proxyserveranbieter stellen einen automatisierten Prozess bereit, um sicherzustellen, dass die Konfiguration auf dem aktuellen Stand ist. Wenn Ihr Anbieter diesen automatischen Prozess nicht bereitstellt, können Sie unter <https://aka.ms/o365proxies> eine aktualisierte PAC-Datei herunterladen.
 
-[Proxyserver für Teams oder Skype für Unternehmen Online und Teams](proxy-servers-for-skype-for-business-online.md)
+[Proxy Server für Teams oder Skype for Business Online und Teams](proxy-servers-for-skype-for-business-online.md)
 
 #### <a name="firewalls"></a>Firewalls
 
@@ -268,13 +268,13 @@ Zu den Aktivitäten im Zusammenhang mit der Netzwerkbereitschaft gehört eine Ne
 
 Die Netzwerkbewertung sollte für Kabelnetzwerke und WLAN-Netzwerke in allen Gebäuden, die für Cloud-VoIP-Funktionen in Microsoft Teams aktiviert werden, ausgeführt werden.
 
-Die Netzwerkbewertung kann mit Unterstützung eines Microsoft-Partners, mit Drittanbietertools oder mit dem [Microsoft Network Assessment-Tool](https://www.microsoft.com/download/details.aspx?id=53885) durchgeführt werden. Wir auch bieten weitere Anweisungen zum Ausführen der Bewertung, verwenden das Microsoft-Netzwerk-Assessment-Tool als Teil des Bereitschaft der Anleitung [hier](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11).
+Die Netzwerkbewertung kann mit Unterstützung eines Microsoft-Partners, mit Drittanbietertools oder mit dem [Microsoft Network Assessment-Tool](https://www.microsoft.com/download/details.aspx?id=53885) durchgeführt werden. Darüber hinaus bieten wir weitere Anleitungen zum Ausführen der Bewertung mithilfe des Microsoft Network Assessment Tools als Teil unserer Readiness-Anleitung [hier](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11).
 
 ## <a name="plan-for-endpoint-quality"></a>Planen der Endpunktqualität
 
 Wie Sie im folgenden Diagramm sehen, stellen Endpunkte einen wichtigen Baustein einer Bereitstellung von hoher Qualität für die Benutzer bereit.
 
-![Dieses Diagramm zeigt die drei Komponenten der Qualität sowie die Überlappungen aller drei Komponenten mit der Dienstverwaltung. Der Schwerpunkt liegt auf Endpunkten.](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Dieses Diagramm zeigt die drei Komponenten der Qualität sowie die Überlappungen aller drei Komponenten mit der Dienstverwaltung. Der Schwerpunkt liegt auf Endpunkten.")
+![Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden] (media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Diagramm, in dem die drei Komponenten der Qualität veranschaulicht werden und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit einem Fokus auf Endpunkte.")
 
 Microsoft Teams-Endpunkte können auf vielen Geräten ausgeführt werden, beispielsweise auf PCs, Macs, Tablets und mobilen Geräten. Für die Benutzerfreundlichkeit spielt nicht nur das Gerät eine Rolle, sondern auch, wie Benutzer eine Verbindung mit dem Gerät herstellen – beispielsweise mithilfe des in das Gerät integrierten Mikros und Lautsprechers, über Ohrhörer oder über ein optimiertes Headset. Die Verwendung eines optimierten Headsets kann sich positiv auf die allgemeine Benutzerfreundlichkeit auswirken.
 
@@ -360,4 +360,4 @@ Diese Tabelle enthält eine Zusammenfassung der Planungsaktivitäten mit Links z
 | | Implementieren der WLAN-Empfehlungen für Endpunkte | Zurateziehen von Drittanbietern |
 | | Erstellen einer Zuordnung von Personas zu Geräten <br/> Bereitstellen von Geräten und Durchführen von Pilottests für die Geräte | [Client und Geräte – Vorbereitungsworkshop](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Gerätekatalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
 
-Nachdem Sie die Planung abgeschlossen haben, fahren Sie fort mit dem nächsten Schritt: [Vorbereiten der Umgebung für Teams](https://aka.ms/SkypeToTeams-TechnicalReadiness).
+Nachdem Sie die Planung fertig gestellt haben, fahren Sie mit dem nächsten Schritt fort: [Vorbereiten Ihrer Umgebung für Teams](https://aka.ms/SkypeToTeams-TechnicalReadiness).

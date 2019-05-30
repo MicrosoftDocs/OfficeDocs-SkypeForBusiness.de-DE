@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5454c8d4a95a6a9d1d695f74497ccf5c022d062b
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: eae5cdda83c6d480951c8e370b0d445de6afbc93
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344098"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548621"
 ---
-![Phasen der Upgrade-Strategie, mit Schwerpunkt auf der technischen Bereitschaft](media/upgrade-banner-tech-readiness.png "Phasen der Upgrade-Strategie, mit Schwerpunkt auf der technischen Bereitschaft")
+![Diagramm zum Upgrade von Fahrten mit Hervorhebung der technischen Bereitschaftsstufe] (media/upgrade-banner-tech-readiness.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der technischen Bereitschaftsstufe liegt")
 
 Dieser Artikel ist Bestandteil der Phase „Technische Bereitschaft“ Ihrer Upgrade-Strategie, einer Aktivität, die Sie parallel zur Phase „Benutzerbereitschaft“ durchführen. Vergewissern Sie sich zunächst, dass diese Aktivitäten aus den vorherigen Phasen abgeschlossen sind:
 
@@ -38,7 +38,7 @@ Dieser Artikel ist Bestandteil der Phase „Technische Bereitschaft“ Ihrer Upg
 
 Wenn Sie Audio, Video oder Besprechungen bereitstellen, können Sie einige zusätzliche Schritte Unternehmen, um Ihr Netzwerk für diese Funktionalität zu optimieren. In Teams werden Audio-und Videotechnologien (Codecs) verwendet, die sich an die meisten Netzwerkbedingungen anpassen können und daher besser funktionieren. Um eine optimale und konsistente Leistung zu gewährleisten, sollten Sie Ihr Netzwerk für Teams vorbereiten.
 
-![Diagramm, in dem die drei Komponenten der Qualität beschrieben sind und wie die Dienstverwaltung alle drei Komponenten überlappt] (media/evaluate-my-environment-image1.png "Diagramm, in dem die drei Komponenten der Qualität beschrieben sind und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit einem Fokus auf das Netzwerk.")
+![Diagramm, in dem die drei Komponenten der Qualität beschrieben werden] (media/evaluate-my-environment-image1.png "Diagramm, in dem die drei Komponenten der Qualität beschrieben sind und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit einem Fokus auf das Netzwerk.")
 
 ## <a name="why-should-you-prepare-your-network"></a>Warum sollten Sie Ihr Netzwerk vorbereiten?
 

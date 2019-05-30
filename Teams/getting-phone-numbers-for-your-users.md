@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, wie Sie vorhandene Nummern für Teams oder Skype for Business neu abrufen, portieren oder übertragen und wie Sie die Änderungen für Ihre Benutzer anzeigen können. '
-ms.openlocfilehash: 4991ef4f9cbf32c7b87ad621b1be1554cc65406c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bb71585464eb86b30024cef0a3f55fb14f648a75
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285512"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494650"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -47,13 +47,13 @@ Zum Anzeigen, Suchen, Erwerben und Reservieren dieser Nummern müssen Sie die Se
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Erhalten von neuen Telefonnummern für Ihre Benutzer
 
-![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](media/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
   
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     
 2. Wechseln Sie zum **Microsoft Teams Admin Center** > **Legacy-Portal**.
     
-3. Klicken Sie in der linken Navigationsleiste auf **VoIP** > ****-Rufnummern, klicken Sie auf](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png) **neue Nummer** ![hinzufügen, Schaltfläche hinzufügen, und klicken Sie dann auf **neue Benutzernummern**.
+3. Klicken Sie in der linken Navigationsleiste auf **VoIP** > ****-Rufnummern, klicken Sie auf ![ **neue Nummer hinzufügen** , die Schalt](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)Fläche hinzufügen, die ein Plus Symbol ist, und klicken Sie dann auf **neue Benutzernummern**.
     
     > [!IMPORTANT]
     > Damit Sie in der linken Navigationsleiste des Skype for Business admin Centers die Option **Stimme** sehen können, müssen Sie zunächst mindestens eine **Enterprise E5-Lizenz**, eine Lizenz für ein **Telefon System** -Add-on oder eine Lizenz für das Add-on **Audio Conferencing** kaufen.
@@ -86,7 +86,7 @@ Zum Anzeigen, Suchen, Erwerben und Reservieren dieser Nummern müssen Sie die Se
     
 ## <a name="show-phone-numbers-for-your-organization"></a>Anzeigen von Telefonnummern für Ihr Unternehmen
 
-![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](media/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     

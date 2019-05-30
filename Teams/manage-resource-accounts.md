@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Informationen zum Verwalten von Ressourcenkonten in Microsoft Teams
-ms.openlocfilehash: a136a91fc4667ac71f6c6798ce4a0953aa0c32a6
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: a5502ccfe4a464f96175127623d5d996b6ea4921
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404302"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548239"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
@@ -82,21 +82,26 @@ Ein Ressourcenkonto, für das keine Telefonnummer erforderlich ist, kann die Sch
 
 Nachdem Sie eine Telefon System Lizenz und einen Anrufplan mit dem Microsoft Teams Admin Center gekauft haben, navigieren Sie zu den **organisationsweiten Einstellungen** > für**Ressourcenkonten**. 
 
-![ASD](media/r-a-master.png)
+![Screenshot der Seite "Ressourcenkonten"](media/r-a-master.png)
 
-![Zahl 1](media/sfbcallout1.png)
+![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
 Klicken Sie zum Erstellen eines neuen Ressourcenkontos auf **+ Neues Konto**. Füllen Sie im Popup den Anzeigenamen und den Benutzernamen für das Ressourcenkonto aus (der Domänenname sollte automatisch aufgefüllt werden), und klicken Sie auf **Speichern**.
 
-![Ressourcenkonto](media/res-acct.png)
+![Screenshot der Optionen für das neue Ressourcenkonto](media/res-acct.png)
 
 Wenden Sie als nächstes eine Lizenz auf das Ressourcenkonto im Office 365 Admin Center an, wie unter [Zuweisen von Lizenzen für Benutzer in Office 365 for Business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) beschrieben wird.
 
+### <a name="edite-resource-account-name"></a>Ressourcenkontoname bearbeiten
+![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot](media/sfbcallout2.png) verweist Sie können den Anzeigenamen des Ressourcenkontos mit der Option " **Bearbeiten** " bearbeiten.  Klicken Sie auf **Speichern** , wenn Sie fertig sind.
+![Screenshot der Option "Ressourcenkonto bearbeiten"](media/r-a-edit.png)
+
 ### <a name="assignunassign-phone-numbers-and-services"></a>Zuweisen/Aufheben der Zuweisung von Telefonnummern und Diensten
 
-![Nummer 3](media/sfbcallout3.png) nachdem Sie das Ressourcenkonto erstellt und die Lizenz zugewiesen haben, können Sie auf zuweisen **/** Aufheben der Zuweisung einer Anruf Plan-Servicenummer zum Ressourcenkonto klicken oder das Ressourcenkonto einer automatischen Telefonzentrale oder einer Anrufwarteschlange zuweisen, die bereits vorhanden. Das Zuweisen einer direkten Routingnummer kann nur über Cmdlets erfolgen. Wenn Ihre Anrufwarteschlange oder automatische Telefonzentrale noch erstellt werden muss, können Sie das Ressourcenkonto während der Erstellung verknüpfen. Klicken Sie auf **Speichern** , wenn Sie fertig sind.
+![Symbol der Zahl 3, auf eine Beschriftung im vorherigen Screenshot](media/sfbcallout3.png) verweisen nachdem Sie das Ressourcenkonto erstellt und die Lizenz zugewiesen haben, können Sie auf zuweisen/Aufheben der Zuweisung klicken, um dem Ressourcenkonto eine Anruf Plan **-** Servicenummer zuzuweisen, oder zuweisen Das Ressourcenkonto für eine automatische Telefonzentrale oder eine Anrufwarteschlange, die bereits vorhanden ist. Das Zuweisen einer direkten Routingnummer kann nur über Cmdlets erfolgen. Wenn Ihre Anrufwarteschlange oder automatische Telefonzentrale noch erstellt werden muss, können Sie das Ressourcenkonto während der Erstellung verknüpfen. Klicken Sie auf **Speichern** , wenn Sie fertig sind.
 
 Verwenden Sie das folgende Cmdlet, um eine direkte Routingnummer zuzuweisen: 
+
 ``` Powershell
 Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
 ```
@@ -104,10 +109,7 @@ Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhone
 > [!IMPORTANT]
 > Wenn Ihr Mandant keine Telefon System Lizenz und einen Anrufplan gekauft hat, führt eine interne Überprüfung zu einem Fehler, wenn Sie versuchen, die Telefonnummer dem Ressourcenkonto zuzuweisen. Sie können die Nummer nicht zuweisen oder das Ressourcenkonto einem Dienst zuordnen.
 
-![Ressourcenkonto zuweisen](media/r-a-assign.png)
-
-![Nummer 2](media/sfbcallout2.png) Sie können den Anzeigenamen des Ressourcenkontos mit der Option " **Bearbeiten** " bearbeiten.  Klicken Sie auf **Speichern** , wenn Sie fertig sind.
-![Ressourcenkonto bearbeiten](media/r-a-edit.png)
+![Screenshot der Optionen zum Zuweisen/Aufheben der Zuweisung](media/r-a-assign.png)
 
 ## <a name="create-a-resource-account-in-powershell"></a>Erstellen eines Ressourcenkontos in PowerShell
 

@@ -15,12 +15,12 @@ description: Aufgaben und Aktivitäten, die für die Verwaltung von Teams erford
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 293406bbc8fe8cb97917908bc14f83129ff1bb66
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: d40bbeaf0876071502d187826ecc702c9175b2da
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432872"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494296"
 ---
 # <a name="operate-my-service"></a>Verwenden des Diensts
 
@@ -38,7 +38,7 @@ Das Dienstleistungsmanagement umfasst alle Aktivitäten und Prozesse, die in der
 
 Die Aufgaben und Aktivitäten in diesem Leitfaden sind in acht Kategorien unterteilt, wie in der folgenden Abbildung dargestellt. Jede dieser Kategorien wird in den folgenden Abschnitten erweitert.
 
-![Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt, die von Service Management für Teams umfasst werden. Das Diagramm zeigt auch, dass die Dienstverwaltung größtenteils eine Kundenaufgabe ist.] (media/operate-my-service-image1.png "Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt, die von Service Management für Teams umfasst werden. Das Diagramm zeigt auch, dass die Dienstverwaltung größtenteils eine Kundenaufgabe ist.")
+![Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt] (media/operate-my-service-image1.png "Ein Diagramm, das eine Liste der Kategorien von Aufgaben und Aktivitäten darstellt, die von Service Management für Teams umfasst werden. Das Diagramm zeigt auch, dass die Dienstverwaltung größtenteils eine Kundenaufgabe ist.")
 
 
 <table>
@@ -315,7 +315,7 @@ Bei NPS handelt es sich um einen Index, der von-100 bis 100 reicht und die Berei
 
 -   Von 1 bis 6 sind Kritiker: unzufriedene Kunden, die Ihren Service beschädigen und das Wachstum behindern können.
 
-![Dieses Diagramm veranschaulicht die NPS-Skalierung. Es zeigt, dass die Rankings von 0 bis 6 Kritiker sind, 7 bis 8 sind passiv, und 9 bis 10 sind Promoter.] (media/operate-my-service-image2.png "Dieses Diagramm veranschaulicht die NPS-Skalierung. Es zeigt, dass die Rankings von 0 bis 6 Kritiker sind, 7 bis 8 sind passiv, und 9 bis 10 sind Promoter.")
+![Ein Diagramm, das die NPS-Skalierung veranschaulicht] (media/operate-my-service-image2.png "Dieses Diagramm veranschaulicht die NPS-Skalierung. Es zeigt, dass die Rankings von 0 bis 6 Kritiker sind, 7 bis 8 sind passiv, und 9 bis 10 sind Promoter.")
 
 Obwohl die NPS-Basisnummer hilfreich ist, erhalten Sie den größten Nutzen aus der Analyse von Benutzerkommentaren. Sie werden Ihnen helfen zu verstehen, warum der Benutzer Teams anderen Personen empfehlen würde (oder nicht). Diese Kommentare können wertvolle Rückmeldungen liefern, damit die Projekt-oder Service Management Teams die Anpassungen verstehen, die erforderlich sind, um einen Qualitätsdienst bereitzustellen.
 
@@ -551,7 +551,7 @@ Standardmäßig verfügen alle Benutzer mit einem Postfach in Exchange Online ü
 
 Der [Leitfaden zur Überprüfung der Qualität](https://aka.ms/qerguide) der Benutzerfreundlichkeit umfasst eine Reihe von Aktivitäten, die in wichtigen Bereichen, die am stärksten zur Verbesserung der Benutzerfreundlichkeit führen, die Behebungs Anleitung bewerten und bereitstellen, wie unten dargestellt.
 
-![Die wichtigsten Bereiche, die während einer Prüfung der Qualität der Erfahrung zu untersuchen sind: Audio-, Zuverlässigkeits-und Nutzerumfrage Ergebnisse.] (media/plan-my-service-management-image2.png "Die wichtigsten Bereiche, die während einer Prüfung der Qualität der Erfahrung zu untersuchen sind: Audio-, Zuverlässigkeits-und Nutzerumfrage Ergebnisse.")
+![Diagramm der zu untersuchenden Bereiche während einer Überprüfung der Qualität der Erfahrung] (media/plan-my-service-management-image2.png "Die wichtigsten Bereiche, die während einer Prüfung der Qualität der Erfahrung zu untersuchen sind: Audio-, Zuverlässigkeits-und Nutzerumfrage Ergebnisse.")
 
 Indem Sie die im Leitfaden beschriebenen Bereiche kontinuierlich bewerten und korrigieren, können Sie deren Potenzial verringern, die Benutzererfahrung negativ zu beeinflussen. Die meisten bei einer Bereitstellung auftretenden Probleme mit der Benutzerfreundlichkeit können in die folgenden Kategorien eingeordnet werden:
 

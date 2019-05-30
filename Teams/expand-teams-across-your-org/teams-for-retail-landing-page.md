@@ -1,6 +1,6 @@
 ---
 title: Teams für den Einzelhandel
-description: Verwenden Sie diese Ressourcen zum Verwalten von Teams für Ihre Organisation Retail.
+description: Verwenden Sie diese Ressourcen, um Teams für Ihre Einzelhandelsorganisation zu verwalten.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -12,16 +12,16 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddf825a1d0fac734f9418c6f7a0b7933de322424
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 82d51d5f96163d98f327e1597a1a76e4a11ef9b0
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245730"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494530"
 ---
 # <a name="teams-for-retail"></a>Teams für den Einzelhandel
 
-Verwenden Sie die Admin-Ressourcen hier verwalten und Teams für Mitarbeiter und Einzelhandel optimal.
+Verwenden Sie die Administrator Ressourcen hier, um Teams für Ihre Einzelhandelsgeschäfte und ihre Belegschaft optimal zu verwalten und optimal zu nutzen.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -31,7 +31,7 @@ Verwenden Sie die Admin-Ressourcen hier verwalten und Teams für Mitarbeiter und
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough"/>
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="Icon depicting a map, representing getting started"/>
                         </div>
                     </div>
                     <div class="cardText">

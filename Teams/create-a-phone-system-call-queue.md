@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie das Telefon System für Cloud-Anrufwarteschlangen einrichten, damit Sie eine organisatorische Begrüßung, Musik in Wartestellung und Umleiten von Anrufen an Anruf-Agents in Verteilerlisten und Sicherheitsgruppen erhalten. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 3fc7dc69fad9e249c29758ae9bd0c30038520408
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: 3c98f7c9b8bb96b4c3792e4ec5abe92628d8e914
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404310"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34549011"
 ---
 # <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloudanrufwarteschleife
 
@@ -127,18 +127,18 @@ Klicken Sie im **Microsoft Teams Admin Center**auf Warteschlangen für **sprach*
 
 ### <a name="set-the-call-queue-display-name-and-resource-account"></a>Einrichten des Anzeige namens und des Ressourcenkontos für die Anrufwarteschlange
 
-![Setting up a call queue.](media/37ecc300-a108-4294-8463-fce570dfce72.png)
+![Screenshot einer neuen Anrufwarteschlange mit nummerierten Beschriftungen](media/37ecc300-a108-4294-8463-fce570dfce72.png)
 
 * * *
 
-![](media/sfbcallout1.png)
-**Name** der Nummer 1 geben Sie einen beschreibenden Anzeigenamen für die Anrufwarteschlange ein. Der Name ist erforderlich und kann maximal 64 Zeichen einschließlich Leerzeichen enthalten.
+![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot](media/sfbcallout1.png)
+-**Namen** verweist, geben Sie einen beschreibenden Anzeigenamen für die Anrufwarteschlange ein. Der Name ist erforderlich und kann maximal 64 Zeichen einschließlich Leerzeichen enthalten.
 
  Dieser Name wird in der Benachrichtigung über den eingehenden Anruf angezeigt.
 
 * * *
 
-![Nummer 2](media/sfbcallout2.png)
+![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout2.png)
 
 **Hinzufügen von Konten** Wählen Sie ein Ressourcenkonto aus. Das Ressourcenkonto ist möglicherweise mit einer Dienst gebührenpflichtigen oder gebührenfreien Telefonnummer für die Anrufwarteschlange verknüpft, aber für jede Anrufwarteschlange ist ein zugeordnetes Ressourcenkonto erforderlich.
 
@@ -149,17 +149,17 @@ Wenn keine Liste aufgeführt ist, müssen Sie Dienstnummern abrufen und Sie eine
 
 ### <a name="set-the-greeting-and-music-played-while-on-hold"></a>Festlegen der Begrüßung und der Wartemusik, die wiedergegeben werden soll
 
-![Setting up a call queue.](media/1d395a93-7cab-4178-9295-12d5379e20de.png)
+![Screenshot der Optionen für Begrüßung und Musik mit nummerierten Beschriftungen](media/1d395a93-7cab-4178-9295-12d5379e20de.png)
   
 * * *
 
-![Nummer 1](media/sfbcallout1.png)
+![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
 **Begrüßung** ist optional. Hierbei handelt es sich um die Ansage, die für Personen abgespielt wird, die die Anruf Warteschlangennummer anrufen.
 
 Sie können eine Audiodatei (WAV-, MP3-oder WMA-Formate) hochladen.
 
-![Nummer 2](media/sfbcallout2.png)
+![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout2.png)
 
 **Musik in Warte** Stellung Sie können entweder die standardmäßige Musik in der Warteschlange für die Anrufwarteschlange verwenden, oder Sie können eine Audiodatei in WAV-, MP3-oder WMA-Formaten hochladen, um Sie als benutzerdefinierte Musik in Wartestellung zu verwenden.
 
@@ -167,9 +167,9 @@ Sie können eine Audiodatei (WAV-, MP3-oder WMA-Formate) hochladen.
 
 ### <a name="select-the-call-answering-options"></a>Wählen Sie die Optionen für die Anrufannahme aus.
 
-![Zeigt die Optionen für Anruf-Verteilungsmethoden an](media/5d249515-d532-4af2-90da-011404028b89.png)
+![Screenshot der Optionen für die Anrufannahme mit nummerierten Beschriftungen](media/5d249515-d532-4af2-90da-011404028b89.png)
 
-![Nummer 1](media/sfbcallout1.png)
+![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
 Sie können bis zu 200 Anruf-Agents auswählen, die zu bestimmten Mailinglisten oder Gruppen gehören. Anruf-Agents müssen entweder:
 
@@ -184,9 +184,9 @@ Sie können bis zu 200 Anruf-Agents auswählen, die zu bestimmten Mailinglisten 
 
 - Wenn Ihre Agents die Microsoft Teams-App verwenden, um Anruf Warteschlangen Anrufe zu empfangen, müssen Sie sich im TeamsOnly-Modus befinden.
 
-![Set up call queues.](media/skype-for-business-add-agents-to-call-queue.png)
+![Screenshot des Bereichs "Anruf-Agents hinzufügen"](media/skype-for-business-add-agents-to-call-queue.png)
 
-![Nummer 2](media/sfbcallout2.png)
+![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout2.png)
 
 **Routing Methode** Sie können für Ihre Verteilungsmethode für die Anrufwarteschlange entweder **Attendant**, **seriell**oder **Round Robin** auswählen. Alle neuen und vorhandenen Anrufwarteschleifen sind standardmäßig auf Teilnehmer-Routing (attendant routing) eingestellt. Wenn Attendant-Routing verwendet wird, klingelt der erste Anruf in der Warteschlange alle Anruf-Agents gleichzeitig. Der Anruf wird vom ersten Anruf Agenten abgeholt.
 
@@ -198,11 +198,11 @@ Sie können bis zu 200 Anruf-Agents auswählen, die zu bestimmten Mailinglisten 
 
 ### <a name="select-an-agent-opt-out-option"></a>Wählen Sie eine Option für das Abmelden von Telefonisten
 
-![Zeigt das Abmeldungs-Kontrollkästchen des Telefonisten](media/99279eff-db61-4acf-9b62-64be84b6414b.png)
+![Screenshot der Optionen für das Deaktivieren von Agenten mit nummerierten Beschriftungen](media/99279eff-db61-4acf-9b62-64be84b6414b.png)
   
 * * *
 
-![Nummer 1](media/sfbcallout1.png)
+![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
 **Option Abmeldung für Telefonisten** Sie können es Telefonisten erlauben, sich von Anrufen von einer bestimmten Anrufwarteschleife abzumelden, indem Sie die **Option Abmeldung für Telefonisten** auswählen.
 
@@ -217,8 +217,8 @@ Um auf die Abmeldungsfunktion zuzugreifen können Telefonisten folgendes tun:
     > [!NOTE]
     > Agents, die apps oder Endpunkte mit Ausnahme von Skype for Business Desktop verwenden, können über das Benutzer Einstellungs [https://aka.ms/cqsettings](https://aka.ms/cqsettings)Portal auf die Option "ablehnen" zugreifen.
 
-![Nummer 2](media/sfbcallout2.png)
--**Agent-Warnungseinstellung**
+![Symbol der Zahl 2, die auf eine Legende in der vorherigen](media/sfbcallout2.png)
+**Benachrichtigungseinstellung** des Screenshot-Agents verweist
 
 Damit wird festgelegt, wie lange ein Agent über einen Anruf benachrichtigt wird, bevor die seriellen oder Round Robin-Routingmethoden zum nächsten Agenten wechseln.
 
@@ -228,17 +228,17 @@ Die Standardeinstellung ist 30 Sekunden, kann aber für bis zu 3 Minuten festgel
 
 ### <a name="set-the-call-overflow-and-timeout-handling-options"></a>Einrichten der Optionen für den Anruf Überlauf und die Timeout Behandlung
 
-![Set up a call queue.](media/3f018734-16fe-458b-827d-71fc25155cde.png)
+![Screenshot der Überlauf Behandlungsoptionen mit nummerierten Beschriftungen](media/3f018734-16fe-458b-827d-71fc25155cde.png)
   
 * * *
 
-![Nummer 1](media/sfbcallout1.png)
+![Symbol der Zahl 1, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout1.png)
 
 **Maximale Anrufe in der Warteschlange**: Legen Sie mit dieser Option fest, wie lange Anrufe maximal in der Warteschleife warten können, bis es zu einem Timeout kommt. Der Standardwert ist 50, aber er kann zwischen 0 und 200 liegen. Wenn dieses Limit erreicht ist, wird der Anruf gemäß Ihrer Angabe für die Einstellung **Wenn die maximale Anzahl der Anrufe erreicht ist** (siehe unten) behandelt.
 
 * * *
 
-![Nummer 2](media/sfbcallout2.png)
+![Symbol der Zahl 2, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout2.png)
 
 **Wenn die maximale Anzahl von Anrufen erreicht ist** Wenn die Anrufwarteschlange die maximale Größe erreicht (festgelegt mit den **maximalen anrufen in der Warteschlangen** Einstellung), können Sie auswählen, was mit neuen eingehenden Anrufen geschieht.
 
@@ -253,13 +253,13 @@ Die Standardeinstellung ist 30 Sekunden, kann aber für bis zu 3 Minuten festgel
 
 * * *
 
-![Nummer 3](media/sfbcallout3.png)
+![Symbol der Zahl 3, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout3.png)
 
 **Anruf Timeout: maximale Wartezeit** Sie können auch entscheiden, wie viel Zeit ein Anruf in der Warteschlange halten kann, bevor er ein Zeitlimit überschritten hat, und er muss umgeleitet oder getrennt werden. Wohin der Anruf umgeleitet wird, hängt von Ihrer Einstellung für **Wenn das Zeitlimit eines Anrufs überschritten ist** ab. Sie können eine Dauer von 0 bis 45 Minuten festlegen.
 
 Der Timeoutwert kann in Sekunden in Intervallen von 15 Sekunden festgelegt werden. Dadurch können Sie den Anruffluss mit feinerer Granularität bearbeiten. So können Sie beispielsweise festlegen, dass alle Anrufe, die von einem Agenten nicht innerhalb von 30 Sekunden beantwortet werden, zu einer automatischen Telefonzentrale für Verzeichnis suchen wechseln.
 
-![Nummer 4](media/sfbcallout4.png)
+![Symbol der Zahl 4, die auf eine Legende im vorherigen Screenshot verweist](media/sfbcallout4.png)
 
 **Beim Timeout** des Anrufs Wenn der Anruf den Grenzwert erreicht, den Sie für die **Wartezeit in der Warteschlangen** Einstellung festgelegt haben, können Sie auswählen, was mit diesem Anruf geschieht:
 

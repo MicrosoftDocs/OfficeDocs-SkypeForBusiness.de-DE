@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Hier erfahren Sie, wie Sie Skype for Business so einrichten, dass für die standardmäßige Voicemail-Ansage Ihrer Organisation eine andere Sprache verwendet wird. '
-ms.openlocfilehash: f36ab76f0a83fc71f9d7ca668020dcd30f4808d6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5502bea261e3313bed2dae854ca23d6a27f4f8b8
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283456"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494570"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Ändern der Standardsprache für Ansagen und E-Mails
 
@@ -51,11 +51,11 @@ Wenn Sie [globaler Office 365-Administrator](https://support.office.com/article
     
 2. Wählen Sie im Microsoft 365 Admin Center **Einstellungen** > **Organisationsprofil**aus. 
     
-     ![Choose Settings and then choose Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![Screenshot mit Auswahl von Einstellungen und dann Organisationsprofil](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. Wählen Sie **Bearbeiten** aus.
     
-    ![Choose Edit.](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
+    ![Screenshot mit der Option "Bearbeiten"](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
   
 4. Wählen Sie in der Liste **Bevorzugte Sprache** eine Sprache für alle in der Organisation aus.
     

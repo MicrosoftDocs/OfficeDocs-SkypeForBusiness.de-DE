@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77b9bb8283b7a032bb15556521200683e3bd9ccd
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: ca3365cd147cf2c6d49e3fda4dc283ce758d76e3
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433048"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548773"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Erstellen Ihrer ersten Teams in Microsoft Teams
 
@@ -62,4 +62,4 @@ In ihren anfänglichen Teams empfehlen wir, die folgenden Elemente zur einfachen
 
 Wenn Sie mit der Verwendung von Teams beginnen, ist es wichtig, dass Sie und das restliche Projektteam die Verwendung von teamchats, Kanälen und Ressourcen zum Ausführen Ihres Projekts verpflichten. Ihre eigene Nutzung von Teams ist für die Qualität Ihres Adoptions Projekts von entscheidender Bedeutung. Wir empfehlen, dass Sie die Fragmentierung Ihres Projekts widersetzen, indem Sie weiterhin Unterhaltungen mit dem zentralen Projektteam in e-Mail führen. Wenn Sie zu Teams wechseln, werden Sie das Verhalten modellieren, das Ihre Mitarbeiter letztendlich annehmen sollen. Legen Sie den Ton an, gehen Sie zuerst und beginnen Sie, Ihre Projektinformationen an einem zentralen Ort zu haben!  
 
-![Symbol, das den nächsten Schritt](media/teams-adoption-next-icon.png) darstellt: [wie bereit ist Ihre Organisation für Microsoft Teams?](teams-adoption-assess-readiness.md)
+![Ein Symbol, das den nächsten Schritt](media/teams-adoption-next-icon.png) darstellt: [wie bereit ist Ihre Organisation für Microsoft Teams?](teams-adoption-assess-readiness.md)

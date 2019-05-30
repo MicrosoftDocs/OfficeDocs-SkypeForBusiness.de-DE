@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie steuern können, ob private Teams von Microsoft Teams-Benutzern mithilfe von Vorschlägen im Team Katalog und in den Suchergebnissen ermittelt werden können.
-ms.openlocfilehash: 55f127ff4dc9e5e0926e606c141b78f65c799de0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: faae4c53f4fa17668ea69a783211e7ebe01bd4d6
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304402"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494626"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Verwalten der Erkennung privater Teams in Microsoft Teams
 
@@ -34,7 +34,7 @@ Administratoren und Teambesitzer können steuern, ob private Teams von Microsoft
 
 Die meisten Organisationen verfügen über die folgenden Arten von Teams: öffentliche Teams, auffindbare private Teams und nicht auffindbare private Teams.
 
-![Team Katalog](media/private-team-discovery-team-gallery.png)
+![Screenshot des Team Katalogs](media/private-team-discovery-team-gallery.png)
 
 ### <a name="public-teams"></a>Öffentliche Teams
 
@@ -52,7 +52,7 @@ Nicht auffindbare private Teams können nur verbunden werden, wenn der Teambesit
 
 Wenn ein Teambesitzer ein privates Team erstellt, kann er durch Konfigurieren der Discovery-Einstellung des Teams feststellen, ob es auffindbar ist. Neue private Teams können standardmäßig durchsucht und auffindbar sein. Wenn der Teambesitzer nicht möchte, dass das private Team in Suchergebnissen und Vorschlägen angezeigt wird, können Sie die Einstellung deaktivieren, indem Sie die Einstellung " **ändern** " neben " **dieses Team ist durchsuchbar und**auffindbar" auswählen.
 
-![Ermittlungs Einstellung für neue private Teams](media/private-team-discovery-new-team.png)
+![Screenshot der Ermittlungs Einstellung für neue private Teams](media/private-team-discovery-new-team.png)
 
 ## <a name="set-whether-existing-private-teams-are-discoverable"></a>Festlegen, ob vorhandene private Teams erkennbar sind
 
@@ -62,7 +62,7 @@ Teambesitzer können die Ermittlungs Einstellung für ein vorhandenes privates T
 
 Wechseln Sie in Microsoft Teams zum privaten Team, klicken Sie auf **Weitere Optionen ̇ ̇ ̇** > **Team verwalten**. Erweitern Sie auf der Registerkarte **Einstellungen** die Option **Team Ermittlung**, und deaktivieren oder aktivieren Sie das Kontrollkästchen Verfüg **barkeit aktivieren** .
 
-![Ermittlungs Einstellung für vorhandene private Teams](media/private-team-discovery-existing-team.png)
+![Screenshot der Ermittlungs Einstellung für vorhandene private Teams](media/private-team-discovery-existing-team.png)
 
 ### <a name="using-powershell-coming-soon"></a>Verwenden von PowerShell (in Kürze verfügbar)
 

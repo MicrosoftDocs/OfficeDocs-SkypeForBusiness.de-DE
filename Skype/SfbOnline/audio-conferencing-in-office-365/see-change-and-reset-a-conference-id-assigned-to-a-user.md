@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, wie Sie einem Benutzer in Skype for Business Online eine Konferenz-ID zuweisen und was die Konferenz-IDs-Parameter sein sollten. '
-ms.openlocfilehash: 28d18b6a12fdfcb40fa43904b8cc8a0461977c38
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f7cfe83d77ce9d182eca0d28a0c2c37da5cccb16
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298921"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494216"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Anzeigen und Zurücksetzen einer Konferenz-ID, die einem Benutzer in Skype for Business Online zugewiesen wurde
 
@@ -45,7 +45,7 @@ An email will be sent to the user with the conference ID and the default audio c
 
 ### <a name="to-view-the-conference-id"></a>So zeigen Sie die Konferenz-ID an
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
 
 Sie können ihre Konferenz-ID anzeigen und an Benutzer senden.
 
@@ -75,7 +75,7 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 Sie können eine Konferenz-ID für einen Benutzer zurücksetzen, wenn er diese beispielsweise vergessen hat.
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 

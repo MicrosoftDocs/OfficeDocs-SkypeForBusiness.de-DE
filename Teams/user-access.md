@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e61a4456d926c8d939769e49968a79943c1138b4
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 377e5ca917db9a0f628e8b045e179e1925e524f1
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433279"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493755"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Verwalten des Benutzerzugriffs auf Microsoft Teams
 =====================================
@@ -70,8 +70,8 @@ Führen Sie den folgenden Befehl aus, um Teams für alle Benutzer mit einer akti
 
 | | | |
 |---------|---------|---------|
-|![Entscheidungspunktsymbol](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Entscheidungspunkt         |<ul><li>Was ist der Plan Ihrer Organisation für Teams, die sich in der gesamten Organisation an Bord befinden?  (Pilot oder Open)</li></ul>         |
-|![Symbol für „Nächste Schritte“](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Nächste Schritte         |<ul><li>Wenn Sie über ein geschlossenes Pilot Projekt an Bord sind, entscheiden Sie, ob Sie dies über eine Lizenzierung oder gezielte Kommunikation tun möchten.</li><li>Führen Sie je nach Entscheidung die erforderlichen Schritte aus, um sicherzustellen, dass nur Pilot Benutzer, die auf Teams zugreifen dürfen (falls erforderlich).</li><li>Dokumentieren Sie die Richtlinien für die Benutzer, die Zugriff auf Teams haben (oder nicht).</li></ul>         |
+|![Ein Symbol, das einen Entscheidungspunkt darstellt](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Entscheidungspunkt         |<ul><li>Was ist der Plan Ihrer Organisation für Teams, die sich in der gesamten Organisation an Bord befinden?  (Pilot oder Open)</li></ul>         |
+|![Ein Symbol, das die nächsten Schritte darstellt](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Nächste Schritte         |<ul><li>Wenn Sie über ein geschlossenes Pilot Projekt an Bord sind, entscheiden Sie, ob Sie dies über eine Lizenzierung oder gezielte Kommunikation tun möchten.</li><li>Führen Sie je nach Entscheidung die erforderlichen Schritte aus, um sicherzustellen, dass nur Pilot Benutzer, die auf Teams zugreifen dürfen (falls erforderlich).</li><li>Dokumentieren Sie die Richtlinien für die Benutzer, die Zugriff auf Teams haben (oder nicht).</li></ul>         |
 
 ## <a name="manage-teams-at-the-office-365-tenant-level"></a>Verwalten von Teams auf der Office 365-Mandantenebene
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]

@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Passen Sie Skype-Besprechungseinladungen mit Grafik Logos, Hilfe-und rechtlichen URLs sowie Fußzeilentext an. '
-ms.openlocfilehash: c8b31aa579edb62e9b6aec65bda5adde10726deb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6d16bf7f7d41f2706ccefd217b2d810c37a9d0f3
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285294"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494119"
 ---
 # <a name="customize-meeting-invitations"></a>Anpassen von Besprechungseinladungen
 
@@ -45,7 +45,7 @@ Als Administrator können Sie sicherstellen, dass alle Skype for Business-Bespre
 ## <a name="customize-your-meeting-invitations"></a>Anpassen der Besprechungseinladungen
 <a name="__top"> </a>
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
     

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Senden Sie E-Mails mit Audiokonferenzinformationen an Ihre Benutzer in Microsoft Teams.
-ms.openlocfilehash: 505684bb2a73b60d1027c6cca6bbd7a306f48862
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 95dd6d562400630c5848484bd0081deeb3092abc
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344308"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494740"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer in Microsoft Teams
 
@@ -38,7 +38,7 @@ Manchmal müssen Sie Microsoft Teams-Benutzern ihre Audiokonferenzinformationen 
    
 Hier ist ein Beispiel für die gesendete E-Mail:
   
-![E-Mail zu einer Dial-in-Konferenz](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
+![Beispiel für eine e-Mail-Nachricht für Einwahlkonferenzen](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

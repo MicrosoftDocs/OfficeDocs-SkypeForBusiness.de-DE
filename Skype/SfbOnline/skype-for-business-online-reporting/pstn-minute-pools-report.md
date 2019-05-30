@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Im Bereich "neue Skype for Business Admin Center-Berichte" werden die Aktivitäten zur Anruf-und Audiokonferenz in Ihrer Organisation angezeigt. Es ermöglicht Ihnen, in Berichte zu drillen, um Ihnen genauere Einblicke in die Aktivitäten der einzelnen Benutzer zu verschaffen. So können Sie beispielsweise den Bericht Skype for Business PSTN-Minuten Pools verwenden, um die Anzahl der Minuten anzuzeigen, die während des aktuellen Monats innerhalb Ihrer Organisation verbraucht werden.
-ms.openlocfilehash: 81622eff6954fb19b9b16e278a19ed70c6183b2e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bfbc21453732d338c4d0cf6355903df344c826f4
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287745"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494015"
 ---
 # <a name="pstn-minute-pools-report"></a>Bericht „PSTN-Minutenpools“
 
@@ -41,7 +41,7 @@ Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten In
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>So erhalten Sie den Bericht "Skype for Business PSTN-Minuten Pools"
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **mit dem Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
 
 - Wechseln Sie zu **Office 365 Admin Center** > **Admin** > Center**Skype for Business Admin Center** > **meldet** > **PSTN-Minuten Pools**.
     
