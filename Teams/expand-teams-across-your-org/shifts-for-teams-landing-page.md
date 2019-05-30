@@ -1,6 +1,6 @@
 ---
 title: Schichten für Teams
-description: Rufen Sie die Admin-Anleitung zum Einrichten und Verwalten von Schichten, das Verwaltungstool Zeitplan in Teams benötigten.
+description: Rufen Sie die Administrator Anleitungen ab, die Sie zum Einrichten und Verwalten von Schichten, dem Tool zur Zeitplanverwaltung, in Teams benötigen.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -12,18 +12,18 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1d8336719e8858819f81f6e174c20dac09aa429
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: aa060ac4707f223ea960bdda3c7bc53a8d134e80
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245908"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494506"
 ---
 # <a name="shifts-for-teams"></a>Schichten für Teams
 
-Teams können Firstline Mitarbeiter in Ihrer Organisation die Kommunikation und effektive Zusammenarbeit und ihre besten führen benötigten Tools. Hier finden Sie die Admin-Anleitung zum Einrichten und Verwalten von Schichten, das Verwaltungstool Zeitplan in Teams benötigten.
+Teams bietet First-work-Mitarbeitern in Ihrer Organisation die Tools, die Sie benötigen, um effizient zu kommunizieren und zusammenzuarbeiten und Ihre beste Arbeit zu leisten. Hier finden Sie die Administrator Anleitungen, die Sie zum Einrichten und Verwalten von Schichten, dem Tool zur Zeitplanverwaltung, in Teams benötigen.
 
-### <a name="move-from-staffhub-to-shifts-in-teams"></a>Verschieben von StaffHub auf Schichten in Teams
+### <a name="move-from-staffhub-to-shifts-in-teams"></a>Wechseln von StaffHub zu Schichten in Teams
 
 <ul class="panelContent cardsFTitle">
  <li>
@@ -33,11 +33,11 @@ Teams können Firstline Mitarbeiter in Ihrer Organisation die Kommunikation und 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="An icon depicting a pointing hand and arrow" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Erfahren Sie mehr über StaffHub Stilllegung und den Übergang zu Schichten in Teams</h3>
+                        <h3>Informationen zu StaffHub Pensionierung und dem Übergang zu Schichten in Teams</h3>
                     </div>
                 </div>
             </div>
@@ -51,11 +51,11 @@ Teams können Firstline Mitarbeiter in Ihrer Organisation die Kommunikation und 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="Migration" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="An icon depicting migrating information" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Verschieben Sie Ihren Teams bei der StaffHub in Schichten in Teams</h3>
+                        <h3>Verschieben Ihrer StaffHub-Teams in die Schichten in Teams</h3>
                     </div>
                 </div>
             </div>
@@ -69,11 +69,11 @@ Teams können Firstline Mitarbeiter in Ihrer Organisation die Kommunikation und 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="what's new" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="A megaphone icon depicting what's new" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Firstline Worker Features der Teams</h3>
+                        <h3>First-Worker-Features für Teams</h3>
                     </div>
                 </div>
             </div>
@@ -92,7 +92,7 @@ Teams können Firstline Mitarbeiter in Ihrer Organisation die Kommunikation und 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="checklist" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon depicting managing shifts" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -110,11 +110,11 @@ Teams können Firstline Mitarbeiter in Ihrer Organisation die Kommunikation und 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/Help.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/Help.svg" alt="A question mark icon depicting help" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Verschiebt die Hilfe für Firstline Mitarbeiter</h3>
+                        <h3>Schicht Hilfe für Mitarbeiter von First-work</h3>
                     </div>
                 </div>
             </div>

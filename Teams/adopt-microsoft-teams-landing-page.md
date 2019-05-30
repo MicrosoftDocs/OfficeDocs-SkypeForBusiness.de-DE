@@ -1,7 +1,7 @@
 ---
 title: Einführen von Microsoft Teams
 ms.reviewer: karuanag
-description: Verwenden Sie diese Annahme Ressourcen, die Ihnen beim Planen und Bereitstellen von Microsoft-Teams in Ihrer Organisation unterstützen.
+description: Verwenden Sie diese Adoptions Ressourcen, um Sie beim Planen und Bereitstellen von Microsoft Teams in Ihrer Organisation zu unterstützen.
 ms.topic: landing-page
 author: kenwith
 ms.author: kenwith
@@ -16,16 +16,16 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26a7d77db81026782507575cab6d3f09500dde93
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 641c0702605c0d5e6eca72ce5e2917b10b5ecf5d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902724"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494498"
 ---
 # <a name="adopt-microsoft-teams"></a>Einführen von Microsoft Teams
 
-Wenn Sie ein kleines Unternehmen sind, oder wenn Einführung Teams beginnend mit Chat begonnen werden soll, Teams & Kanäle und Besprechungen, unsere zielgerichtete verwenden [Abrufen Schritte Anleitungen](get-started-with-teams-quick-start.md), dem Sie schnell erhalten soll. Wenn Sie eine große Organisation mit einer hybriden sind oder lokalen Skype für die Business-Konfiguration, oder wenn Sie VoIP-Funktionen (wie Office 365-Pläne oder Telefonsystem aufrufen) bereitstellen möchten, können Sie mit beginnen unsere Get gestartet, Anleitungen, aber Sie benötigen die zusätzlichen Anleitung unten unter **tiefer Annahme Anweisungen**.
+Wenn Sie ein kleines Unternehmen sind, oder wenn Sie Teams starten möchten, die mit Chats, Teams &-Kanälen und Besprechungen beginnen, verwenden Sie unsere [Richtlinien für erste Schritte](get-started-with-teams-quick-start.md), mit denen Sie schnell in Betrieb gehen können. Wenn Sie eine große Organisation mit einer Hybrid-oder lokalen Skype for Business-Konfiguration sind, oder wenn Sie Sprachfeatures (wie Office 365-Anrufpläne oder Telefonsystem) bereitstellen möchten, können Sie mit unserem Leitfaden für erste Schritte beginnen, aber Sie benötigen die zusätzlichen Anleitung unten, unter **tiefer**gehende Einführung.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -35,12 +35,12 @@ Wenn Sie ein kleines Unternehmen sind, oder wenn Einführung Teams beginnend mit
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock icon representing quick start" />
                         </div>
                     </div>
                     <div class="cardText">
                         <h3>Schnellstart</h3>
-                        <p>Durchlaufen Sie die am häufigsten verwendeten Annahme Szenarien</p>
+                        <p>Führt Sie durch die gängigsten Szenarien für die Einführung</p>
                     </div>
                 </div>
             </div>
@@ -54,11 +54,11 @@ Wenn Sie ein kleines Unternehmen sind, oder wenn Einführung Teams beginnend mit
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat icon representing an introduction" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Einführung in die Teams und Kanäle</h3>
+                        <h3>Einführung in Teams und Kanäle</h3>
                     </div>
                 </div>
             </div>
@@ -72,11 +72,11 @@ Wenn Sie ein kleines Unternehmen sind, oder wenn Einführung Teams beginnend mit
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist icon representing planning" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Planen des Teams für die erste</h3>
+                        <h3>Planen der ersten Teams</h3>
                     </div>
                 </div>
             </div>
@@ -90,11 +90,11 @@ Wenn Sie ein kleines Unternehmen sind, oder wenn Einführung Teams beginnend mit
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us//office/media/icons/best-practices-teams.svg" alt="Best practices" />
+                            <img src="https://docs.microsoft.com/en-us//office/media/icons/best-practices-teams.svg" alt="Award ribbon icon representing best practices" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Ihre Champions Webinhalte</h3>
+                        <h3>Ermächtigen Sie Ihre Champions</h3>
                     </div>
                 </div>
             </div>
@@ -108,11 +108,11 @@ Wenn Sie ein kleines Unternehmen sind, oder wenn Einführung Teams beginnend mit
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Mortarboard icon representing training" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Schulung &-Zertifizierung (engl.)</h3>
+                        <h3>Schulung &-Zertifizierung</h3>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@ Wenn Sie ein kleines Unternehmen sind, oder wenn Einführung Teams beginnend mit
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Training" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Wrench icon representing tools and downloads" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -140,8 +140,8 @@ Wenn Sie ein kleines Unternehmen sind, oder wenn Einführung Teams beginnend mit
 </ul>
 
 
-### <a name="deeper-adoption-guidance"></a>Tiefer Annahme Anleitungen
-Annahme Pläne können einfache und komplexe entsprechend Ihrer Umgebung entsprechen. Führen Sie für umfangreiche Bereitstellungen durch die Anweisungen, um sicherzustellen, dass Ihre Organisation einen reibungslosen Übergang zur Teams verfügt.
+### <a name="deeper-adoption-guidance"></a>Umfassendere Richtlinien zur Einführung
+Adoptions Pläne können je nach Umgebung einfach zu komplex sein. Für umfangreiche Bereitstellungen führen Sie die folgenden Anleitungen durch, um sicherzustellen, dass Ihre Organisation einen reibungslosen Übergang zu Teams gewährleistet.
 
 <ul class="panelContent cardsF">
     <li>
@@ -150,7 +150,7 @@ Annahme Pläne können einfache und komplexe entsprechend Ihrer Umgebung entspre
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-1-teams.svg" alt="Number 1" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-1-teams.svg" alt="Number 1 icon representing the first step" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -158,7 +158,7 @@ Annahme Pläne können einfache und komplexe entsprechend Ihrer Umgebung entspre
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">Erste Schritte</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">Grundlagen von Teams und Kanälen</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">Erstellen Ihrer ersten Teams</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">Ermitteln Sie die kulturellen und organisatorischen Bereitschaft</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">Bewertung der kulturellen und organisatorischen Bereitschaft</a></p>
                     </div>
                 </div>
             </div>
@@ -170,15 +170,15 @@ Annahme Pläne können einfache und komplexe entsprechend Ihrer Umgebung entspre
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-2-teams.svg" alt="Number 2" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-2-teams.svg" alt="Number 2 icon representing the second step" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">Experiments</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">Experiment</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">Erstellen Ihres Expertenprogramms</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">Governance-Schnellstart</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-usage-scenarios">Definieren von Verwendungsszenarien</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-early-adopters">Integrierte frühe Übernahmen und Feedback sammeln</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-early-adopters">Frühzeitiges einführen und Sammeln von Feedback</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-support">Onboardingsupport</a></p>
                     </div>
                 </div>
@@ -191,12 +191,12 @@ Annahme Pläne können einfache und komplexe entsprechend Ihrer Umgebung entspre
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-3-teams.svg" alt="Number 3" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-3-teams.svg" alt="Number 3 icon representing the third step" />
                         </div>
                     </div>
                     <div class="cardText">
                         <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">Skalierung</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Dieses Ergebnis und der Erfolg definieren</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Definieren von Ergebnissen und Erfolg</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">Optimieren von Feedback und Berichterstellung</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">Fördern des Bewusstseins und Implementieren der Schulung</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">Planen von Überprüfungen der Dienstintegrität</a></p>
