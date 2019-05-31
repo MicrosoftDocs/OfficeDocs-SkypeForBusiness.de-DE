@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Bevor die Personen in Ihrer Organisation Skype-Live Konferenz verwenden können, müssen Sie Sie aktivieren. Dazu müssen Sie wissen, wie Sie Windows PowerShell verwenden. Wenn Sie keine Erfahrungen mit Windows PowerShell haben, sollten Sie möglicherweise einen Microsoft-Partner für diese Aufgabe heranziehen.
-ms.openlocfilehash: f1a672bc8d3b0ce957a32691270293551e1a1409
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 066aeb3d3217cb61ebcd0323b342c88d0b99caee
+ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494035"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591629"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Aktivieren von Skype-Livekonferenz
 
@@ -34,11 +34,11 @@ Bevor die Personen in Ihrer Organisation Skype-Live Konferenz verwenden können,
 
 ![Ein Symbol mit dem Skype for Business-](../images/sfb-logo-30x30.png) Logo **im Skype for Business Admin Center**
 
-1. Melden Sie sich mit dem Konto Globaler Office 365-Administrator bei [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) an.
+1. Registrieren Sie sich mit ihrem globalen Administratorkonto für Office 365 oder dem Skype for Business [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)-Administratorkonto unter.
     
-2. Navigieren Sie im „Office 365 Admin Center" zu **Admin Center** > **Skype for Business**.
+2. Wechseln Sie im Office 365 Admin Center zu **Admin Center** > **Teams**.
     
-3. Wechseln Sie im **Skype for Business Admin Center**zu Besprechungen für **Online Besprechungen** > ****, und wählen Sie dann Skype-Live **Konferenz aktivieren**aus.
+3. Wechseln Sie **im Team Admin Center**zu **Legacy Portal** > **Online Besprechungen** > ****, und wählen Sie dann Skype-Live **Konferenz aktivieren**aus.
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Aktivieren von Skype-Livekonferenz mit PowerShell
 

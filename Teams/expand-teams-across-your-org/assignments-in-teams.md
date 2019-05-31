@@ -15,14 +15,16 @@ description: Hier erfahren Sie, wie Sie Aufgaben im Microsoft Teams Admin Center
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 188f4398136c2939ad2a84d75ab27942a5a4593b
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 22c53433548715fdc2a84a0f45ce0c3fc02d7b98
+ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433431"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591720"
 ---
 # <a name="assignments-in-teams-for-education"></a>Aufgaben in Teams für Bildungseinrichtungen
+
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Aufgaben sind Aufgaben oder Arbeitseinheiten, die einem Kursteilnehmer oder Teammitglied in einer Klasse im Rahmen ihrer Studie zugewiesen sind. Sie können Aufgaben in Ihrer Team Klasse erstellen.
 
@@ -63,13 +65,17 @@ Damit Sie Turnitin für Ihre Organisation erfolgreich aktivieren können, müsse
 Hier sind einige Anweisungen, die Ihnen bei der Behebung dieser Informationen helfen.
 
 Die TurnitinApiUrl ist die Hostadresse Ihrer Admin-Konsole.
-![Screenshot mit der Hostadresse](./educationImages/Assignments_mopo_turnitin1.png)
+Beispiel. https:[]()//your-Tenant-Name.Turnitin.com
 
-Wechseln Sie zur Registerkarte Integrationen, und fügen Sie eine Integration hinzu.
+In der Admin-Konsole können Sie eine Integration und einen API-Schlüssel erstellen, der der Integration zugeordnet ist.
+
+Wählen **** Sie Integrationen aus dem Seitenmenü und dann **Integration hinzufügen** aus, und geben Sie der Integration einen Namen.
 ![Screenshot mit dem Hinzufügen einer neuen Integration](./educationImages/Assignments_mopo_turnitin2.png)
 
-Nachdem Sie den Anweisungen folgen, wird Ihnen der TurnitinApiKey mitgeteilt. Kopieren Sie diesen Schlüssel, und fügen Sie ihn in das Microsoft Teams Admin Center ein. 
+Nachdem Sie den Anweisungen folgen, wird Ihnen der TurnitinApiKey mitgeteilt. Kopieren Sie den API-Schlüssel, und fügen Sie ihn in das Microsoft Teams Admin Center ein.  Dies ist das einzige Mal, dass Sie den Schlüssel anzeigen können.
 ![Screenshot mit dem Kopieren des API-Schlüssels](./educationImages/Assignments_mopo_turnitin3.png)
+
+Wenn Sie im Admin Center für diese Einstellung auf die Schaltfläche " **Speichern** " klicken, dürfen diese Einstellungen bis zu 24 Stunden in Kraft treten.
 
 [Weitere Informationen zur Integration von Turnitin und Microsoft Teams](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
 

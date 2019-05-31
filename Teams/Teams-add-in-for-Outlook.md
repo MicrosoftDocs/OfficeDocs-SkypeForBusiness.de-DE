@@ -4,7 +4,7 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 03/08/2019
+ms.date: 05/29/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -18,40 +18,62 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 801c4f43e9aafa7fe8331d85b601afd584505164
-ms.sourcegitcommit: e5cb24ad166268392e692d3d1b92125646e5d66e
+ms.openlocfilehash: c9a5a17f729c8899c5fb7f7f97a65f9bc36c3080
+ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34417443"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591639"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
 
-Das Microsoft Teams-Besprechungs-Add-In wird für Benutzer, auf deren Windows-PC Microsoft Teams und entweder Office 2013 oder Office 2016 installiert ist, automatisch installiert. Die Benutzer sehen auf dem Menüband „Kalender“ in Outlook das Microsoft Teams-Besprechungs-Add-In. 
+Mit dem Add-in "Teams-Besprechung" können Benutzer eine Teams-Besprechung aus Outlook planen. Das Add-in steht für Outlook unter Windows, Mac, Web und Handy zur Verfügung.
 
-![Screenshot des Microsoft Teams-Add-Ins auf dem Outlook-Menüband](media/Teams-add-in-for-Outlook.png)
+## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Teambesprechung-Add-in in Outlook für Windows
+
+Das Microsoft Teams-Besprechungs-Add-In wird für Benutzer, auf deren Windows-PC Microsoft Teams und entweder Office 2013 oder Office 2016 installiert ist, automatisch installiert. Die Benutzer sehen auf dem Menüband „Kalender“ in Outlook das Microsoft Teams-Besprechungs-Add-In.
+
+![Screenshot des Add-Ins "Teams-Besprechung" im Outlook-Menüband](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
-> Benutzer von Windows 7 müssen das [Update für Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) installieren, damit das Add-In für die Teams-Besprechung funktioniert.
+> - Wenn Benutzer das Microsoft Teams-Besprechungs-Add-In nicht sehen, weisen Sie sie an, Outlook und Microsoft Teams zu schließen, den Microsoft Teams-Client neu zu starten, sich bei Microsoft Teams anzumelden und den Outlook-Client zu starten (in dieser Reihenfolge).
+> - Windows 7-Benutzer müssen das [Update für die universelle C-Laufzeit unter Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) in Windows installieren, damit das Teambesprechung-Add-in funktioniert.
 
-Wenn Benutzer das Microsoft Teams-Besprechungs-Add-In nicht sehen, weisen Sie sie an, Outlook und Microsoft Teams zu schließen, den Microsoft Teams-Client neu zu starten, sich bei Microsoft Teams anzumelden und den Outlook-Client zu starten (in dieser Reihenfolge).
+## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Teambesprechung-Add-in in Outlook für Mac
 
-> [!NOTE]
-> Die Schaltfläche "Teams-Besprechung" in Outlook für Mac wird im Menüband von Outlook für Mac angezeigt, wenn in Outlook Produktions-Build 16,20 und höher ausgeführt wird.
+Die Schaltfläche "Teams-Besprechung" in Outlook für Mac wird im Menüband von Outlook für Mac angezeigt, wenn Outlook den Produktions-Build 16.24.414.0 und höher ausführt.
+
+Die Besprechungs Koordinaten (der Link "Teams beitreten" und die Einwahlnummern) werden der Besprechungseinladung hinzugefügt, nachdem der Benutzer auf " **senden**" geklickt hat.  
+
+## <a name="teams-meeting-add-in-in-outlook-web-app"></a>Teambesprechung-Add-in in Outlook Web App
+
+Die Schaltfläche "Teams-Besprechungen" in Outlook Web App wird als Teil der neuen Ereigniserstellung angezeigt, wenn sich der Benutzer in einer frühen Version des neuen Outlook im Web befindet. Informationen dazu, wie Benutzer die frühe Version des neuen Outlook im Web ausprobieren können, finden Sie im [Outlook-Blog](https://techcommunity.microsoft.com/t5/Outlook-Blog/Designed-to-be-fast-The-Outlook-on-the-web-user-experience-gets/ba-p/234909?utm_source=t.co&utm_medium=referral) .
+
+![Screenshot des Add-Ins "Teams-Besprechung" in Outlook Web App](media/teams-meeting-add-in-web.png)
+
+Die Besprechungs Koordinaten (der Link "Teams beitreten" und die Einwahlnummern) werden der Besprechungseinladung hinzugefügt, nachdem der Benutzer auf " **senden**" geklickt hat.  
+
+## <a name="teams-meeting-add-in-in-outlook-mobile-ios-and-android"></a>Teambesprechung-Add-in in Outlook Mobile (IOS und Android)
+
+Die Schaltfläche "Teams-Besprechung" wird in den neuesten Builds der Outlook IOS-und Android-App angezeigt.
+
+![Screenshot des Add-Ins "Teams-Besprechung" in Outlook Mobile](media/teams-meeting-add-in-mobile.png)
+
+Die Besprechungs Koordinaten (der Link "Teams beitreten" und die Einwahlnummern) werden der Besprechungseinladung hinzugefügt, nachdem der Benutzer auf " **senden**" geklickt hat.  
 
 ## <a name="authentication-requirements"></a>Authentifizierungsanforderungen
 
 Benutzer des Microsoft Teams-Besprechungs-Add-Ins müssen sich mit moderner Authentifizierung bei Microsoft Teams anmelden. Wenn sich Benutzer nicht mit dieser Methode anmelden, können sie zwar den Microsoft Teams-Client verwenden, aber sie können keine Microsoft Teams-Onlinebesprechungen mit dem Outlook-Add-In planen. Dies können Sie mit einer der folgenden Methoden korrigieren:
 
 - Wenn die moderne Authentifizierung für Ihre Organisation nicht konfiguriert ist, sollten Sie sie konfigurieren.
-- Wenn die moderne Authentifizierung konfiguriert ist, aber die Benutzer den Vorgang im Dialogfeld abgebrochen haben, weisen Sie die Benutzer an, sich mit mehrstufiger Authentifizierung erneut anzumelden.
+- Wenn die moderne Authentifizierung konfiguriert ist, diese jedoch im Dialogfeld abgebrochen wurde, sollten Sie die Benutzer anweisen, sich erneut mithilfe der mehrstufigen Authentifizierung anzumelden.
 
 Weitere Informationen zum Konfigurieren der Authentifizierung finden Sie unter [Identitätsmodelle und Authentifizierung in Microsoft Teams](identify-models-authentication.md).
 
 ## <a name="enable-private-meetings"></a>Aktivieren von privaten Besprechungen
 
-Die Option " **Terminplanung für private Besprechungen zulassen** " muss im Microsoft Teams Admin Center aktiviert sein, damit das Plug-in bereitgestellt wird. Wechseln Sie im Admin Center zu **Besprechungen** > **Besprechungsrichtlinien**, und legen Sie im Abschnitt **Allgemein** **Zeitplanung für private Besprechungen zulassen** auf „Aktiviert“ fest.)
+Die Option " **Terminplanung für private Besprechungen zulassen** " muss im Microsoft Teams Admin Center aktiviert sein, damit das Add-in bereitgestellt wird. Wechseln Sie im Admin Center zu **Besprechungen** > **Besprechungsrichtlinien**, und legen Sie im Abschnitt **Allgemein** **Zeitplanung für private Besprechungen zulassen** auf „Aktiviert“ fest.)
 
 ![Screenshot der Einstellungen im Microsoft Teams Admin Center.](media/teams-add-in-for-outlook-image1.png)
 
@@ -60,22 +82,33 @@ Der Microsoft Teams-Client ermittelt, ob die Benutzer die 32-Bit- oder 64-Bit-Ve
 > [!NOTE]
 > Möglicherweise müssen die Benutzer Outlook nach einer Installation oder einem Upgrade von Microsoft Teams neu starten, um das aktuelle Add-In zu erhalten.
 
+## <a name="teams-upgrade-policy-and-the-teams-meeting-add-in-for-outlook"></a>Teams-Upgrade-Richtlinie und das Microsoft Teams-Besprechungs-Add-in für Outlook
+
+Kunden können [Ihre Upgrade-Reise von Skype for Business in Teams auswählen](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md). Mandantenadministratoren können den Koexistenzmodus "Teams" verwenden, um diese Reise für Ihre Benutzer zu definieren. Mandantenadministratoren haben die Möglichkeit, dass Benutzer Teams zusammen mit Skype for Business (Inseln-Modus) verwenden können. 
+
+Wenn Benutzer im Insel Modus eine Besprechung in Outlook planen, erwarten Sie in der Regel, dass Sie entscheiden können, ob Sie eine Skype for Business-oder eine Teams-Besprechung planen. In Outlook im Web, Outlook Windows und Outlook Mac sehen Benutzer sowohl Skype for Business-als auch Teams-Add-Ins im Modus "Inseln". Aufgrund bestimmter Einschränkungen in der ersten Version kann Outlook Mobile nur das Erstellen von Skype for Business- **oder** Teams-Besprechungen unterstützen. Weitere Informationen finden Sie in der folgenden Tabelle.
+
+| Koexistenzmodus im Team Admin Center | Standardanbieter für Besprechungen in Outlook Mobile |
+| --------------------------------------|---------------------------------------------|
+| Inseln | Skype for Business |
+| Nur Skype for Business | Skype for Business |
+| Skype for Business mit Zusammenarbeit in Teams | Skype for Business |
+| Skype for Business mit Zusammenarbeit und Besprechungen in Teams | Teams |
+| Nur für Teams | Teams |
+
 ## <a name="other-considerations"></a>Andere Überlegungen
 
 Die Funktionen des Microsoft Teams-Besprechungs-Add-Ins werden noch weiterentwickelt. Beachten Sie daher Folgendes:
-- Polling steht noch nicht zur Verfügung.
-- Das Whiteboard beginnt mit dem Rollout.
-- Besprechungsoptionen sind zurzeit nicht verfügbar.
-- Sie können zurzeit nur Personen aus Ihrer Firma einladen, da die Teilnahme externer Benutzer an Besprechungen noch nicht möglich ist.
-- Das Add-In ist für geplante Besprechungen mit bestimmten Teilnehmern gedacht, nicht für Besprechungen in einem Kanal. Kanalbesprechungen müssen in Microsoft Teams geplant werden. Zurzeit ist das Microsoft Teams-Besprechungs-Add-In in Outlook nur für Windows-Benutzer verfügbar, aber die Unterstützung für Mac wird noch hinzugefügt.
+
+- Das Add-In ist für geplante Besprechungen mit bestimmten Teilnehmern gedacht, nicht für Besprechungen in einem Kanal. Kanalbesprechungen müssen in Microsoft Teams geplant werden.
 - Das Add-In funktioniert nicht, wenn sich im Netzwerkpfad zwischen dem PC des Benutzers und den Microsoft Teams-Diensten ein Authentifizierungsproxy befindet.
-- Das Add-In wird schrittweise bereitgestellt und steht möglicherweise noch nicht für Ihre Organisation zur Verfügung.
+- Benutzer können in Outlook keine Live Ereignisse planen. Wechseln Sie zu Teams, um Live-Events zu planen. Weitere Informationen finden Sie unter [Was sind Microsoft Teams Live-Ereignisse?](teams-live-events/what-are-teams-live-events.md).
 
 ## <a name="troubleshooting"></a>Problembehandlung
 
 Wenn Sie das Add-In für Teams-Besprechungen für Outlook nicht installieren können, versuchen Sie diese Schritte zur Problembehandlung.
 
-- Stellen Sie sicher, dass alle verfügbaren Updates für den Outlook-Desktopclient angewendet wurden. 
+- Stellen Sie sicher, dass alle verfügbaren Updates für Outlook-Desktop Client angewendet wurden.
 - Starten Sie den Teams-Desktopclient neu.
 - Melden Sie sich ab, und melden Sie sich dann wieder beim Teams-Desktopclient an.
 - Starten Sie den Outlook-Desktopclient neu. (Stellen Sie sicher, dass Outlook nicht im Admin-Modus ausgeführt wird.)
@@ -85,6 +118,3 @@ Wenn Sie das Add-In für Teams-Besprechungen für Outlook nicht installieren kö
 Eine allgemeine Anleitung zum Deaktivieren von Add-Ins finden Sie unter [Anzeigen, Verwalten und Installieren von Add-Ins in Office-Programmen](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 
 Weitere Informationen zu [Besprechungen und Anrufen in Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)
-
-[!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
-
