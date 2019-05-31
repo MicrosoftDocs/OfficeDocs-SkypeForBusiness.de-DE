@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Informationen zu app-Setup Richtlinien in Microsoft Teams und deren Verwendung zum Anheften von apps zum Anpassen von Teams für Benutzer in Ihrer Organisation.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: e26dc18f056f3493f6fcbdea2edee747d8abfa0b
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: a7b0a9cf7e7ed4eee10d82882d2f17ca57939aa1
+ms.sourcegitcommit: e6ae322d96357fe4f9a7b447afca9d87563f4ba1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548821"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34592168"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -136,9 +136,7 @@ Beachten Sie, dass im App Store für Teams alle Teams-apps aufgelistet sind, wä
 
 #### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>Ich bin ein Team für Bildungs Administrator. Was muss ich über die Richtlinien für die APP-Einrichtung in Teams für Bildung wissen?
 
-- Die Anruf-App steht in Teams für Education nicht zur Verfügung. Wenn Sie eine neue benutzerdefinierte App-Setup Richtlinie erstellen, wird die aufrufende app in der Liste der apps angezeigt. Die APP wird jedoch nicht an Teams-Clients und Teams für Education angeheftet. Benutzer sehen die Anruf-APP nicht in Teams. 
-
-- Zurzeit werden Richtlinienänderungen nicht für Teams für Education-Benutzer in der Android-App für Teams übernommen. Wir arbeiten an einer neuen Version der APP, die Richtlinienänderungen für Teams für Bildungseinrichtungen unterstützt.
+Die Anruf-App steht in Teams für Education nicht zur Verfügung. Wenn Sie eine neue benutzerdefinierte App-Setup Richtlinie erstellen, wird die aufrufende app in der Liste der apps angezeigt. Die APP wird jedoch nicht an Teams-Clients und Teams für Education angeheftet. Benutzer sehen die Anruf-APP nicht in Teams.
 
 #### <a name="how-many-apps-can-be-added-to-a-policy"></a>Wie viele apps können einer Richtlinie hinzugefügt werden?
 
