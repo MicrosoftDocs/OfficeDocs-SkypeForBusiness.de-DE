@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 826d2751f1b00c3c556d8f3760b6b94666cff4f7
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 7bc64d540fc2f885eabd43417edd728a5ef426f2
+ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493867"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34652746"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Administrator-Schulung für Microsoft Teams
 
@@ -71,7 +71,7 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="An icon depicting users" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="An icon depicting two users" />
                         </div>
                     </div>
                     <div class="cardText">
