@@ -12,49 +12,49 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: Erfahren Sie, wie in einer Website hoch.
+description: Hier erfahren Sie, wie Sie auf eine Website hochladen.
 ms.custom:
 - NewAdminCenter_Update
 f1keywords: ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a9274952d74c3bf55943ed6b028fd630ab2078e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6e7e9211b207c008de22fe86ae0c7bb6c9f9ac51
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33921282"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667482"
 ---
 <a name="adding-and-updating-locations-data"></a>Hinzufügen und Aktualisieren von Standortdaten
 ============================
 
-Speicherorte sind in Ihrer Organisation verwendet, um die physischen Standorten des Büros, Gebäude oder Organisationseinheit Websites anzugeben. Die Seite Speicherorte gibt Administratoren die Möglichkeit, eine Textdatei (CSV oder TSV) bereitstellen, enthält eine Liste der physischen Standorten und deren zugeordneten Netzwerksubnetzen. Diese Datei wird von Analytics aufrufen, und rufen Sie Qualitätsdashboard verwendet, Berichte zu erstellen. Wenn Kunden, deren Zuordnung Subnetz hochladen, enthalten die Berichte diese Dienste die Standortnamen auch erleichtern die Berichte zu verstehen und für Korrigieren von potenzielle Probleme beim verwenden.
+In Ihrer Organisation werden Standorte verwendet, um die physischen Standorte von Büros, Gebäuden oder organisatorischen Websites anzugeben. Auf der Seite "Orte" können Administratoren eine Textdatei (CSV oder TSV) bereitstellen, die eine Liste mit physikalischen Speicherorten und zugehörigen Netzwerk-Subnetzen enthält. Diese Datei wird von der anrufanalyse und dem Anruf Qualitäts Dashboard zum Generieren von Berichten verwendet. Wenn Kunden ihre Subnet-Zuordnung hochladen, enthalten die Berichte, die von diesen Diensten bereitgestellt werden, auch die Standortnamen, wodurch die Berichte verständlicher werden und zur Verdeutlichung potenzieller Probleme verwendet werden können.
 
-Die Speicherorte Daten, die Sie bereitstellen, wird eine einzelne Datenstruktur – ist derzeit kein-Schnittstelle für die einzelne Bearbeitungsaufgaben für Standortdaten durchführen. 
+Die von Ihnen bereitgestellten Positionsdaten sind eine einzige Datenstruktur – derzeit steht keine Schnittstelle zur Verfügung, um einzelne Änderungen an Standortdaten vorzunehmen. 
 
-**So bearbeiten Sie die Tabelle mit Subnetze und Standorten**
+**So bearbeiten Sie die Tabelle von Subnetzen und Speicherorten**
 
-1. Klicken Sie auf **Standorte Daten ersetzen**.
-2. Klicken Sie im Bereich **Speicherort Daten ersetzen** , **Wählen Sie eine Datei aus**, klicken Sie auf und navigieren Sie zu, und Hochladen Sie der bearbeiteten CSV- oder TSV-Datei. 
-3. Klicken Sie auf **Hochladen**. 
+1. Klicken Sie auf **Daten von Speicherorten ersetzen**.
+2. Klicken Sie im Bereich **Standortdaten ersetzen** auf **Datei auswählen**, und navigieren Sie dann zu der bearbeiteten CSV-oder TSV-Datei, und laden Sie Sie hoch. 
+3. Klicken Sie auf **hochladen**. 
 
 
-Sie können eine Beispielvorlage herunterladen [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
+Sie können [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)eine Beispielvorlage herunterladen.
 
-Im folgende Beispiel können Sie um Ihrer Datendatei zu erstellen. 
+Mit dem folgenden Beispiel können Sie Ihre Datendatei erstellen. 
 
 > [!IMPORTANT]
-> Die Datendatei sollte keine Spaltenüberschriften (wie Netzwerk, Netzwerkname usw.) enthalten. Diese werden hier nur zu Informationszwecken verwendet. </br>
+> Ihre Datendatei darf keine Spaltenüberschriften (wie Netzwerk, Netzwerk Name usw.) enthalten. Diese werden hier nur zu Informationszwecken verwendet. </br>
 
-|Netzwerk|Netzwerkname|Netzwerk-Bereich|Erstellen von Namen|Besitzertyp|Erstellen von Typ|Erstellen von Office-Typ|Ort|PLZ|Land|Bundesland|Region|Innen Corp|Express-Route|
+|Netzwerk|Netzwerk Name|Netzwerkbereich|Gebäude Name|Besitzertyp|Gebäudetyp|Gebäude-Office-Typ|Ort|PLZ|Land|Bundesland|Region|In Corp|Express Route|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso geleaste RE&F|Office|RE&F|Mountain-Ansicht|94043|USA|CA|USA|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso geleaste RE&F|Office|RE&F|Mountain-Ansicht|94043|USA|CA|USA|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso geleaste RE&F|Office|RE&F|Mountain-Ansicht|94043|USA|CA|USA|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso geleaste RE&F|Office|RE&F|Mountain-Ansicht|94043|USA|CA|USA|1|1|
+|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso vermietet Re&F|Office|Re&F|Gebirgs Ansicht|94043|USA|CA|USA|1|1|
+|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso vermietet Re&F|Office|Re&F|Gebirgs Ansicht|94043|USA|CA|USA|1|1|
+|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso vermietet Re&F|Office|Re&F|Gebirgs Ansicht|94043|USA|CA|USA|1|1|
+|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso vermietet Re&F|Office|Re&F|Gebirgs Ansicht|94043|USA|CA|USA|1|1|
 
 
-Weitere Informationen zum Formatieren der Datendatei finden Sie unter [Mandantendaten file Format und Erstellen von Daten-Dateistruktur](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-building-data-file-structure).
+Weitere Informationen zum Formatieren Ihrer Datendatei finden Sie unter [Mandantendaten Dateiformat und Erstellen von Datendatei Strukturen](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure).
 
 
 ## <a name="related-topics"></a>Verwandte Themen

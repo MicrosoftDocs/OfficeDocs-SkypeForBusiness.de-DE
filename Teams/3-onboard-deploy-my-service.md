@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c4652e27caf207b1af275ecc1fae0d0daa8598b
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 65878cc54973b67a604b08d3579553bca6ca8e4a
+ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548366"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34652738"
 ---
 # <a name="deploy-my-service"></a>Bereitstellen des Diensts
 
@@ -89,7 +89,7 @@ Unabhängig von der Größe und Komplexität des Standorts erfordert das Aktivie
   
    - ![Abbildung eines grünen Häkchens](media/deploy-my-service-image3.png) "Ja" oder " **nicht zutreffend" (grün):** die Aktivität wurde abgeschlossen, oder Sie gilt nicht für diese Website, und es ist keine weitere Aktion erforderlich.</li>
    - ![Abbildung eines gelben Ausrufezeichens](media/deploy-my-service-image4.png) <strong>die Aktivität ist noch nicht abgeschlossen (gelb):</strong> die Aktivität wurde noch nicht abgeschlossen und muss in Ihrem Terminplan auf "Ja" oder "Nein" aktualisiert werden.</li>
-   - ![Abbildung eines roten X-Zeichens](media/deploy-my-service-image5.png) <strong>(rot):</strong> die Aktivität kann aufgrund eines Problems nicht abgeschlossen werden und muss in der Projektstatusbesprechung durchgeführt werden.</li></ul>
+   - ![Abbildung eines roten X, das Nein](media/deploy-my-service-image5.png) <strong>Nein (rot) angibt:</strong> die Aktivität kann aufgrund eines Problems nicht abgeschlossen werden und muss in der Projektstatusbesprechung durchgeführt werden.</li></ul>
 
 6. Der Status wird in jedem Abschnitt zusammengerollt, und die Abschnittsüberschrift wird mit einer dieser Statusindikatoren formatiert. Der **wöchentliche Status** wird ebenfalls automatisch aktualisiert.
 

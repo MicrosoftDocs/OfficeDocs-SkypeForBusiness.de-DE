@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 933ea45cbcdc9e6af8c25dfdb67758d154731586
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: c9a2704cf517ac4b8eb0b2f3143c09cb550614ee
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404294"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548159"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Verwalten des Angebots für einen Test der kommerziellen Cloud von Microsoft Teams
 =======================================================
@@ -81,11 +81,11 @@ Sie können die Option zum Installieren von Test-Apps und -diensten für Benutze
 
 1. Navigieren Sie dazu im [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home) zu **Einstellungen** > **Dienste und Add-Ins** > **Apps und Dienste im Besitz des Benutzers**.
 
-    ![Screenshot der Seite "Dienste und Add-Ins" im Office 365 Admin Center.](media/iw-trial-enable-1.png)
+    ![Screenshot der Seite "Dienste und Add-Ins" im Admin Center](media/iw-trial-enable-1.png)
 
 2. Deaktivieren Sie **Benutzer Test-Apps und -dienste installieren lassen**.
 
-    ![Screenshot der Seite "Apps und Dienste im Besitz des Benutzers" im Office 365 Admin Center.](media/iw-trial-enable-2.png)
+    ![Screenshot der Seite "Apps & Dienste im Besitz des Benutzers" im Admin Center.](media/iw-trial-enable-2.png)
 
 
 ### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a>Verwalten der Verfügbarkeit von Testversionen für einen Benutzer mit einer Lizenz, die Microsoft Teams umfasst
@@ -102,7 +102,7 @@ So deaktivieren Sie den Zugriff auf Teams:
 
 4. Wechseln Sie im Bereich **Produktlizenzen** die Umschaltfläche auf **Aus**.
 
-    ![Screenshot der Seite "Produktlizenzen" im Office 365 Admin Center.](media/iw-trial-enable-3.png)
+    ![Screenshot der Seite „Produktlizenzen“ im Admin Center.](media/iw-trial-enable-3.png)
 
 ### <a name="manage-teams-availability-for-users-who-already-claimed-the-trial"></a>Verwalten der Verfügbarkeit von Testversionen für Benutzer, die bereits eine Testversion von Microsoft Teams in Anspruch genommen haben
 
@@ -118,7 +118,7 @@ So deaktivieren Sie die Testlizenz:
 
 4. Wechseln Sie im Bereich **Produktlizenzen** die Umschaltfläche auf **Aus**.
 
-    ![Screenshot der Einstellung "Microsoft Teams-Testlizenz" auf im Bereich "Produktlizenzen"](media/iW-trial-enable-4.png)
+    ![Screenshot der Einstellung "Microsoft Teams-Testlizenz" auf im Bereich „Lizenzen“](media/iW-trial-enable-4.png)
     
 >[!Note]
 >Der Umschalter „Microsoft Teams-Testversion“ wird angezeigt, sobald der erste Benutzer in der Organisation sich für die Testversion registriert.

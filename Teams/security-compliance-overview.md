@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6aa87b4cb600e38f7d3d0ea5944166d92793dad2
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 870e939602f5d954bfce64bc1f10d08838fc7c15
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548000"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667409"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Übersicht über Sicherheit und Compliance in Microsoft Teams
 ======================================================
@@ -33,17 +33,17 @@ Dienste in den Compliance-Kategorien C und D, für die branchenführende Complia
 
 Teams erzwingt auch teamübergreifende und organisationsweite zweistufige Authentifizierung, einmaliges Anmelden über Active Directory und Verschlüsselung von Daten in der Übertragung und im Ruhezustand. Dateien werden in SharePoint gespeichert und durch die SharePoint-Verschlüsselung gesichert. Notizen werden in OneNote gespeichert und durch die OneNote-Verschlüsselung gesichert. Die OneNote-Daten werden auf der SharePoint-Teamwebsite gespeichert. Die Registerkarte "wiki" kann auch zum Aufzeichnen von Notizen verwendet werden, und der Inhalt wird auch auf der SharePoint-Teamwebsite gespeichert.
 
-Außerdem haben wir Unterstützung für Überwachungsprotokollsuche, eDiscovery und gesetzliche Aufbewahrungspflicht für Kanäle, Chats und Dateien sowie mobile Anwendungsverwaltung mit Microsoft Intune hinzugefügt. Wechseln Sie zum Office 365 Security & Compliance Center, um diese Einstellungen zu verwalten. 
+Außerdem haben wir Unterstützung für Überwachungsprotokollsuche, eDiscovery und gesetzliche Aufbewahrungspflicht für Kanäle, Chats und Dateien sowie mobile Anwendungsverwaltung mit Microsoft Intune hinzugefügt. Wechseln Sie zum Office 365 Security #a0 Compliance Center, um diese Einstellungen zu verwalten. 
 
-Weitere Informationen zur Compliance von Office 365 Security & finden Sie unter [Konfigurieren Ihres Office 365-Mandanten für erhöhte Sicherheit](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)
+Weitere Informationen zu Office 365 Security #a0 Compliance finden Sie unter [Konfigurieren Ihres Office 365-Mandanten für erhöhte Sicherheit](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)
 
 ## <a name="auditing-and-reporting"></a>Überwachung und Berichterstellung
 
-Überwachungsprotokoll Suche-Plugs direkt in das Office 365 Security & Compliance Center und macht Fähigkeiten verfügbar, um Benachrichtigungen und/oder Berichte über Überwachungsereignisse festzulegen, indem Sie für die Verwendung und Untersuchung von Arbeitslasten spezifische oder generische Ereignis Sätze für die Verwendung durch Administratoren bereitstellen unbegrenzte Überwachungs Zeitachse. Alle Überwachungsprotokolldaten stehen zum Einrichten von Benachrichtigungen im Office 365 Security & Compliance Center sowie zum Filtern und exportieren zur weiteren Analyse zur Verfügung. Weitere Informationen zum durch [](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) führen einer Überwachungsprotokoll Suche nach Microsoft Teams-Ereignissen finden Sie im Office 365 Security & Compliance Center. 
+Die Überwachungsprotokoll Suche wird direkt in das Office 365 Security #a0 Compliance Center übermittelt und macht Fähigkeiten zum Festlegen von Benachrichtigungen und/oder Berichte zu Überwachungsereignissen verfügbar, indem Sie für die Verwendung und Untersuchung von Arbeitslasten spezifische oder generische Ereignis Sätze für die Verwendung durch Administratoren bereitstellen und über eine unbegrenzte Überwachungs Zeitachse. Alle Überwachungsprotokolldaten stehen zum Einrichten von Benachrichtigungen im Office 365 Security #a0 Compliance Center sowie zum Filtern und exportieren zur weiteren Analyse zur Verfügung. Weitere Informationen zum durch [](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) führen einer Überwachungsprotokoll Suche nach Microsoft Teams-Ereignissen finden Sie im Office 365 Security #a0 Compliance Center. 
 
 ## <a name="compliance-content-search"></a>Compliancesuche in Inhalten
 
-Mit der Inhaltssuche können Sie über Rich-Filterfunktionen nach allen Teams-Daten suchen und in einen bestimmten Container exportieren, um Compliance-und Litigation-Unterstützung zu erhalten. Dies kann mit oder ohne eDiscovery-Fall erfolgen. Dies ermöglicht es Compliance-Administratoren, Team Daten für alle Benutzer zu sammeln, zu überprüfen und zur weiteren Verarbeitung zu exportieren. Weitere Informationen zum durch [](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) führen einer Compliance-Inhaltssuche nach Microsoft Teams-Inhalten finden Sie im Office 365 Security & Compliance Center. 
+Mit der Inhaltssuche können Sie über Rich-Filterfunktionen nach allen Teams-Daten suchen und in einen bestimmten Container exportieren, um Compliance-und Litigation-Unterstützung zu erhalten. Dies kann mit oder ohne eDiscovery-Fall erfolgen. Dies ermöglicht es Compliance-Administratoren, Team Daten für alle Benutzer zu sammeln, zu überprüfen und zur weiteren Verarbeitung zu exportieren. Weitere Informationen zum durch [](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) führen einer Compliance-Inhaltssuche nach Microsoft Teams-Inhalten finden Sie im Office 365 Security #a0 Compliance Center. 
 
 Tipp: die Art Microsoft Teams kann verwendet werden, um nach Microsoft Teams nur Inhalte zu filtern, also Chats und Kanal Nachrichten, Besprechungen und Anrufe. 
 
@@ -51,7 +51,7 @@ Tipp: die Art Microsoft Teams kann verwendet werden, um nach Microsoft Teams nur
 
 Bei eDiscovery handelt es sich um den elektronischen Aspekt beim Identifizieren, Sammeln und Erzeugen von elektronisch gespeicherten Informationen (ESI) als Reaktion auf die Aufforderung zur Vorlage dieser Informationen in einem Rechtsstreit oder einer Untersuchung. Zu den Funktionen gehören Fallverwaltung, Aufbewahrung, Suche, Analyse und Export von Teams-Daten. Dazu gehören Chats, Nachrichten und Dateien, Besprechungen und Anruf Zusammenfassungen. Für Teams-Besprechungen und-Anrufe werden eine Zusammenfassung der Ereignisse erstellt, die in der Besprechung und dem Anruf durchgeführt wurden und in eDiscovery zur Verfügung gestellt werden. 
 
-Weitere Informationen dazu, wie Sie eDiscovery im Security & Compliance Center durchführen und Compliance-Inhaltssuche nach Teams-Inhalten ausführen, finden Sie unter den folgenden Links: 
+Weitere Informationen dazu, wie Sie eDiscovery im Security #a0 Compliance Center durchführen und Compliance-Inhaltssuche nach Teams-Inhalten ausführen, finden Sie unter den folgenden Links: 
 
 [eDiscovery](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e) 
 
@@ -74,7 +74,7 @@ Kunden können in-Place-eDiscovery oder [Advanced eDiscovery] je nach Ihren Anfo
 
 ## <a name="legal-hold"></a>Gesetzliche Aufbewahrungspflicht
 
-Während eines Rechtsstreits ist es häufig erforderlich, dass alle Daten, die einem Benutzer (Depotbank) oder einem Team zugeordnet sind, unveränderlich bleiben, damit er als Beweis für den Fall verwendet werden kann. Dies wird erreicht, indem entweder ein Benutzer (Benutzerpostfach) oder ein Team in rechtlicher Wartestellung platziert wird. Wenn ein Team innerhalb von Teams in-situ-Speicher (Teilmenge des Postfachs oder der Websitesammlung durch gezielte Abfragen oder gefilterte Inhalte) oder in einem Rechtsstreit (gesamtes Postfach oder Websitesammlung) platziert wird, wird der Haltebereich auf das Postfach "Gruppen" gesetzt. Dadurch wird sichergestellt, dass selbst dann, wenn Endbenutzer Kanal Nachrichten löschen oder bearbeiten, die in das Gruppenpostfach aufgenommen werden, unveränderliche Kopien dieser Inhalte verwaltet werden und in der eDiscovery-Suche verfügbar sind. Gesetzliche Aufbewahrungspflicht wird im Allgemeinen im Kontext eines eDiscovery-Falls angewendet. In [diesem](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) Hilfeartikel finden Sie weitere Informationen zur Aufbewahrung und Aufbewahrung im Office 365 Security & Compliance Center. 
+Während eines Rechtsstreits ist es häufig erforderlich, dass alle Daten, die einem Benutzer (Depotbank) oder einem Team zugeordnet sind, unveränderlich bleiben, damit er als Beweis für den Fall verwendet werden kann. Dies wird erreicht, indem entweder ein Benutzer (Benutzerpostfach) oder ein Team in rechtlicher Wartestellung platziert wird. Wenn ein Team innerhalb von Teams in-situ-Speicher (Teilmenge des Postfachs oder der Websitesammlung durch gezielte Abfragen oder gefilterte Inhalte) oder in einem Rechtsstreit (gesamtes Postfach oder Websitesammlung) platziert wird, wird der Haltebereich auf das Postfach "Gruppen" gesetzt. Dadurch wird sichergestellt, dass selbst dann, wenn Endbenutzer Kanal Nachrichten löschen oder bearbeiten, die in das Gruppenpostfach aufgenommen werden, unveränderliche Kopien dieser Inhalte verwaltet werden und in der eDiscovery-Suche verfügbar sind. Gesetzliche Aufbewahrungspflicht wird im Allgemeinen im Kontext eines eDiscovery-Falls angewendet. In [diesem](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) Hilfeartikel finden Sie weitere Informationen zum Thema Konservierung und Aufbewahrung im Office 365 Security #a0 Compliance Center. 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Informationsschutz Architektur für Microsoft Teams. 
 
@@ -114,23 +114,25 @@ Die Funktionen für den Schutz von Informationen hängen von den Office 365-Abo
 |![Ein Symbol, das einen Entscheidungspunkt darstellt](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Entscheidungspunkt         |Verfügt Ihre Organisation über die erforderlichen Lizenzen, um die geschäftlichen Compliance- und Sicherheitsanforderungen zu erfüllen?         |
 |![Ein Symbol, das die nächsten Schritte darstellt](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Nächste Schritte         |Überprüfen Sie die aktuelle Lizenzierung Ihrer Organisation, und bestätigen Sie, dass Sie alle geschäftlichen Anforderungen hinsichtlich Compliance und Sicherheit erfüllt.         |
 
-Bevor Sie eine dieser Funktionen aktivieren, stellen Sie sicher, dass Sie im Microsoft 365 Admin Center auf das Security & Compliance Center zugreifen können. Mandantenadministratoren verfügen standardmäßig über Zugriff.
+Bevor Sie diese Features aktivieren, stellen Sie sicher, dass Sie im Microsoft 365 Admin Center auf das Security #a0 Compliance Center zugreifen können. Mandantenadministratoren verfügen standardmäßig über Zugriff.
 
-Die Inhaltssuche und eDiscovery erfordern keine Aktivierung im Security & Compliance Center.
+Die Inhaltssuche und eDiscovery erfordern keine Aktivierung im Security #a0 Compliance Center.
 
 <a name="location-of-data-in-teams"></a>Speicherort von Daten in Microsoft Teams
 -------------------------
 
-Die Microsoft Teams-Daten befinden sich in der geografischen Region, die Ihrem Office 365-Mandanten zugeordnet ist. Derzeit unterstützt Microsoft Teams die Regionen Australien, Kanada, Indien, Japan, Großbritannien, Amerika, APAC und EMEA. 
+Die Microsoft Teams-Daten befinden sich in der geografischen Region, die Ihrem Office 365-Mandanten zugeordnet ist. Derzeit unterstützt Microsoft Teams die Regionen Australien, Kanada, Frankreich, Indien, Japan, Großbritannien, Nordamerika, APAC und EMEA. 
 
 > [!IMPORTANT]
-> Teams bietet derzeit nur für neue Mandantendaten in Australien, Kanada, Indien, Japan und Großbritannien an. Ein neuer Mandant wird definiert als ein Mandant, über den sich noch kein einziger Benutzer bei Microsoft Teams angemeldet hat. Bestehende Mandanten aus Australien, Indien und Japan werden Ihre Teams-Daten weiterhin in der Region APAC speichern. Für vorhandene Mandanten in Kanada und Großbritannien werden Ihre Daten in der Region Americas und EMEA gespeichert.
+> Teams bietet derzeit Daten in Australien, Kanada, Frankreich, Indien, Japan und Großbritannien für neue Mandanten an. Ein neuer Mandant wird definiert als ein Mandant, über den sich noch kein einziger Benutzer bei Microsoft Teams angemeldet hat. Bestehende Mandanten aus Australien, Indien und Japan werden Ihre Teams-Daten weiterhin in der Region APAC speichern. Bestehende Mandanten in Kanada werden Ihre Daten weiterhin in Amerika speichern. Bestehende Mandanten in Frankreich und Großbritannien werden Ihre Daten weiterhin in der EMEA-Region speichern.
 
 Weitere Informationen zur Einführung der Datenspeicherung für Microsoft Teams in Indien und im Vereinigten Königreich finden Sie in Ansuman Acharyas Blogbeitrag zur [Einführung der Datenspeicherung für Microsoft Teams in Indien und zu geplanten weiteren geografischen Regionen](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827). 
 
 Weitere Informationen zu Kanada Data Residency für Teams finden Sie im Blogbeitrag von Varun Sagar, [Microsoft Teams startet Kanada Data Residency, Australien und Japan in Kürze](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
 
 Wenn Sie mehr über die Einführung von Australien und Japan Data Residency für Teams erfahren möchten, lesen Sie den Blogbeitrag von Varun Sagar, [Microsoft Teams startet den Daten Wohnsitz in Australien und Japan ](https://go.microsoft.com/fwlink/?linkid=867773). 
+
+Wenn Sie mehr über die Einführung von France Data Residency für Teams erfahren möchten, lesen Sie den Blogbeitrag von Varun Sagar, [Microsoft Teams startet France Data Residency](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466).
 
 Wenn Sie sehen möchten, in welcher Region Daten für Ihren Mandanten angezeigt werden, wechseln Sie zum [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home) > **Settings** > **Organization Profile**. Scrollen Sie nach unten zu **Data location** (Datenspeicherort). 
 
