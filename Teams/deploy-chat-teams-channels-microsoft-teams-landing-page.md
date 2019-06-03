@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8dc365921871f8c39c9189571bee0214f4316c08
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1a86aa13c826b9b741aed936e134c6df90c8ed66
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236054"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667490"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 
@@ -29,7 +29,7 @@ Teams bietet ohne weitere Konfiguration eine hervorragende Zusammenarbeitserfahr
 > [!TIP]
 > Es ist empfehlenswert, die von uns vorgeschlagenen Apps – wie etwa Planner – in Ihre erstmalige Teams-Bereitstellung mit aufzunehmen. Fügen Sie mit fortschreitender Aneignung von Teams weitere [Apps, Bots und Connectors](deploy-apps-microsoft-teams-landing-page.md) hinzu.
 
-## <a name="chat-deployment-prerequisites"></a>Voraussetzungen für die Bereitstellung von Chat 
+## <a name="chat-deployment-prerequisites"></a>Voraussetzungen für die Bereitstellung von Chat
 
 Bevor Sie Teams in Ihrer Organisation bereitstellen, nehmen Sie sich Zeit, um zu überprüfen, ob Ihre Umgebung für Teams bereit ist. Lesen Sie die folgenden Informationen durch, und nehmen Sie alle erforderlichen Änderungen an Ihrer Umgebung vor.
 
@@ -159,7 +159,7 @@ Bei der Planung einer Enterprise-Bereitstellung von Teams sollten Sie alle relev
 
 ### <a name="office-365-urls-and-ports"></a>Office 365-URLs und Ports
 
-Organisationen, die eine fein abgestufte Kontrolle ihres Internetdatenverkehrs betreiben, sollten [URLs und IP-Adressbereiche von Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) lesen. Dort finden sie eine aktuelle Liste der URLs, IP-Adressen, Ports und Protokolle, die für Microsoft Teams richtig konfiguriert sein müssen. Microsoft verbessert den Office 365-Dienst ständig und fügt neue Funktionen hinzu. Daher können sich die erforderlichen Ports, URLs und IP-Adressen im Lauf der Zeit ändern. Wir empfehlen, den Artikel über RSS zu abonnieren, damit Sie erfahren, wenn diese Informationen aktualisiert oder geändert werden. Stellen Sie als Minimalkonfiguration sicher, dass Sie die oben unter [Bereitstellungsanforderungen](#deployment-prerequisites) aufgeführten Ports geöffnet haben.
+Organisationen, die eine fein abgestufte Kontrolle ihres Internetdatenverkehrs betreiben, sollten [URLs und IP-Adressbereiche von Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) lesen. Dort finden sie eine aktuelle Liste der URLs, IP-Adressen, Ports und Protokolle, die für Microsoft Teams richtig konfiguriert sein müssen. Microsoft verbessert den Office 365-Dienst ständig und fügt neue Funktionen hinzu. Daher können sich die erforderlichen Ports, URLs und IP-Adressen im Lauf der Zeit ändern. Wir empfehlen, den Artikel über RSS zu abonnieren, damit Sie erfahren, wenn diese Informationen aktualisiert oder geändert werden. Stellen Sie als Minimalkonfiguration sicher, dass Sie die oben unter [Chat-Bereitstellungsanforderungen](#chat-deployment-prerequisites) aufgeführten Ports geöffnet haben.
 
 |Frage|Aktion |
 |------------|-------|
