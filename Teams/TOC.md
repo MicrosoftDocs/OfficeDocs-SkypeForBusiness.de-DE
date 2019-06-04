@@ -36,9 +36,6 @@
 ### [Übersicht](deploy-apps-microsoft-teams-landing-page.md)
 ### [Berechtigungen für Apps und Überlegungen dazu](app-permissions.md).
 ### [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
-### [Verwalten von Richtlinien für App-Berechtigungen in Teams](teams-app-permission-policies.md)
-### [Verwalten von Richtlinien für App-Setup in Teams](teams-app-setup-policies.md)
-### [Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams](teams-custom-app-policies-and-settings.md)
 ### [Hinzufügen von Bots für private Chats und Kanäle in Teams](add-bots.md)
 ### [Verwenden integrierter und benutzerdefinierter Registerkarten](built-in-custom-tabs.md)
 ### [Office 365 und benutzerdefinierte Connectors](Office-365-custom-connectors.md)
@@ -70,6 +67,7 @@
 ### [Verwalten der kostenlosen Version von Teams](manage-freemium.md)
 ### [Zuweisen von Teambesitzern und -mitgliedern in Teams](assign-roles-permissions.md)
 ### [Teams-Benutzereinstellungen im Batch bearbeiten](edit-user-settings-in-bulk.md)
+### [Verwalten von Richtlinien für App-Setup in Teams](teams-app-setup-policies.md)
 ### [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Kommunizieren mit Microsoft Teams-Benutzern in anderen Organisationen](let-your-teams-users-communicate-with-other-people.md)
 ### [Verwenden der Inline-Nachrichtenübersetzung](inline-message-translation-teams.md)
