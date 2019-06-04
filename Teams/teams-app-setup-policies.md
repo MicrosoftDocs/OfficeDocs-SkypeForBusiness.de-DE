@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Informationen zu app-Setup Richtlinien in Microsoft Teams und deren Verwendung zum Anheften von apps zum Anpassen von Teams für Benutzer in Ihrer Organisation.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: a7b0a9cf7e7ed4eee10d82882d2f17ca57939aa1
-ms.sourcegitcommit: e6ae322d96357fe4f9a7b447afca9d87563f4ba1
+ms.openlocfilehash: e7d508ef87825d93c2df2a7899f413ec9710f44b
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34592168"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681975"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -175,6 +175,4 @@ Achten Sie darauf, dass Sie die Richtlinien für das Logo befolgen, bevor Sie di
 
  ## <a name="related-topics"></a>Verwandte Themen
 - [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
-- [Verwalten von Richtlinien für App-Berechtigungen in Teams](teams-app-permission-policies.md)
-- [Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams](teams-custom-app-policies-and-settings.md)
 - [Veröffentlichen einer APP im Mandanten-apps-Katalog des Teams-Clients](tenant-apps-catalog-teams.md)

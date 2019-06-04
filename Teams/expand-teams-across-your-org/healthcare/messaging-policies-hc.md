@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
-ms.openlocfilehash: 957e92ec9676047d727ba26b3eb2c29d1c3db558
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 167021c475edd760bf9b56d550616ebb199f2fb5
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494554"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681905"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
 
@@ -52,6 +52,8 @@ Die folgenden Einstellungen sind für medizinische Anwendungen von besonderem In
 ## <a name="priority-notifications"></a>Prioritäts Benachrichtigungen
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
+[!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
 - ![Symbol der Zahl 2, Verweis auf eine Legende im vorherigen Screenshot](../../media/sfbcallout2.png) **Benutzer können Prioritäts Benachrichtigungen senden** verwenden Sie diese Einstellung, um Benutzern das Senden von Prioritäts-Chatnachrichten an andere Benutzer zu ermöglichen. Dieses Feature hilft Krankenhausmitarbeitern, sich gegenseitig zu benachrichtigen, wenn ein kritischer Vorfall Ihre Aufmerksamkeit erfordert. Im Gegensatz zu regelmäßigen "wichtigen" Nachrichten werden Benutzer von Prioritäts Benachrichtigungen für einen Zeitraum von 20 Minuten wiederholt benachrichtigt, oder bis Nachrichten vom Empfänger abgeholt und gelesen werden, sodass die Wahrscheinlichkeit, dass die Nachricht aufgenommen und rechtzeitig bearbeitet wird, maximiert wird.
 
