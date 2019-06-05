@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d59413a2480458a00d84fddfe9a4368ca01a6cc
-ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
+ms.openlocfilehash: 81bfde91cb73ed6741138be390533d56dc2e60e3
+ms.sourcegitcommit: 3678dbbc8c36010fbf12c57b52281ef4fca9f065
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34159210"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34695949"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 ======================================
@@ -66,7 +66,7 @@ Teams basiert auf Office 365-Gruppen und bietet neue Möglichkeiten, auf freige
   
 |  |  |
 |---------|---------|
-|Einführung in Gastzugriff   | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
+|Einführung zum Gastzugriff   | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 |Umfassender Einblick in Gastzugriff   | <iframe width="350" height="200" src="https://www.youtube.com/embed/vaJRRSjBxxY" frameborder="0" allowfullscreen></iframe>   |
 | Hinzufügen von Gästen in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
     
