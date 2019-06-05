@@ -11,88 +11,100 @@ MS.collection:
 - M365-collaboration
 ms.reviewer: karvell
 search.appverid: MET150
-description: Ihre IT-Administrator kann den Zugriff durch andere Domänen (Verbund) können Benutzer über diese Domänen Teams teilnehmen konfigurieren.
+description: Ihr IT-Administrator kann den externen Zugriff für andere Domänen (Federation) konfigurieren, damit Benutzer aus diesen Domänen an Teams teilnehmen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98dc47ec66861d2f0c77c0eff45851c09e8bc353
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 3f6a3dc6016eb52d58e82e9e9022d1bb8575404b
+ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33356188"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34702720"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Verwaltung des externen Zugriffs (Verbund) in Microsoft Teams
 ======================================================
 
-Mit Microsoft-Teams, externen Zugriff können Benutzer aus anderen Domänen in Ihrer Chats und Anrufe teilnehmen. Sie können auch externe Benutzer zulassen, die noch Skype für Business Online oder Skype für Business auf Prem Teilnahme an. 
+Mit Microsoft Teams externer Zugriff können Benutzer aus anderen Domänen an ihren Chats und anrufen teilnehmen. Sie können auch externen Benutzern, die weiterhin Skype for Business Online oder Skype for Business on-Prem verwenden, die Teilnahme erlauben. 
 
-Externen Zugriff (Verbund) und Gast Access unterscheiden:
+Der externe Zugriff (Föderation) und Gastzugriff unterscheiden sich von den folgenden:
 
-- Gast Access erteilt eine einzelne Zugriffsberechtigung. Externer Zugriff erhält die Zugriffsberechtigung, eine gesamte Domäne.
+- Gastzugriff gewährt einer einzelnen Person Zugriffsberechtigungen. Externer Zugriff gewährt einer gesamten Domäne Zugriffsberechtigungen.
 
-- Einmal durch einen Teambesitzer gewährten Gast-Zugriffs kann Gastsystem auf [Ressourcen zugreifen](guest-experience.md)wie Channel Diskussionen und Dateien, für ein bestimmtes Team und Chat mit anderen Benutzern in das Team aus, dem sie eingeladen wurden. Mit externem Zugriff (federated Chat) haben die Teilnehmer externe Chat keinen Zugriff auf der einladen Organisation Teams oder Teamressourcen. Sie können nur Angebot federated Chat teilnehmen. Mandanten-Admins können zwischen den beiden Optionen, je nachdem, welcher Ebene der Zusammenarbeit mit der externen Partei wünschenswert ist. Administratoren können dann Ansätze oder beides, je nach ihren Anforderungen in der Organisation, aber es wird empfohlen, um zukünftig einen Gastzugriff eine vollständigere, gemeinsame Teams wünschen. 
+- Der Gastzugriff, nachdem er von einem Teambesitzer gewährt wurde, ermöglicht es einem Gast, auf [Ressourcen](guest-experience.md)wie Kanal Diskussionen und Dateien für ein bestimmtes Team zuzugreifen und mit anderen Benutzern in dem Team zu chatten, zu dem Sie eingeladen wurden. Beim externen Zugriff (Federated-Chat) haben die Teilnehmer des externen Chats keinen Zugriff auf die Teams oder Teamressourcen der einladenden Organisation. Sie können nur an einem einzigen Partner-Chat teilnehmen. Mandantenadministratoren können zwischen den beiden Kommunikationsoptionen wählen, je nachdem, welche Ebene der Zusammenarbeit für die externe Partei erwünscht ist. Administratoren können je nach Ihren organisatorischen Anforderungen entweder Ansätze oder beides auswählen, aber wir empfehlen, den Gastzugriff für eine umfassendere, kollaborative Teams-Erfahrung zu aktivieren. 
 
-Finden Sie in der folgenden Tabelle einen Vergleich von externen und Gast-Funktionen zuzugreifen.
+In der folgenden Tabelle finden Sie eine Übersicht über die Features für den externen und den Gastzugriff.
 
-| Feature | Zugriff durch externe Benutzer | Gast Access-Benutzer |
+| Feature | Benutzer für externen Zugriff | Gastzugriff-Benutzer |
 |---------|-----------------------|--------------------|
-| Benutzer kann mit einer anderen Person in einem anderen Unternehmen chat. | Ja |Ja |
-| Benutzer kann eine Person in einem anderen Unternehmen aufrufen. | Ja | Ja |
-| Benutzer kann sehen, wenn jemand aus einem anderen Unternehmen für Anruf oder Chat verfügbar ist | Ja | Ja<sup>1</sup> |
-| Benutzer kann externe konstant nach Benutzern suchen. | Ja<sup>2</sup> | Nein |
-| Benutzer kann Dateien freigeben. | Nein | Ja |
-| Benutzer kann Teams Ressourcen zugreifen. | Nein | Ja |
-| Benutzer kann einen Gruppenchat hinzugefügt werden | Nein | Ja |
-| Benutzer kann an einer Besprechung hinzugefügt werden | Ja | Ja |
-| Weitere Benutzer können einen Chat mit einem externen Benutzer hinzugefügt werden | Keine<sup>3</sup> | Nicht zutreffend |
-| Benutzer wird als von externer Seite identifiziert. | Ja | Ja |
-| Anwesenheitsinformationen wird angezeigt. | Ja | Ja |
-| Abwesend wird Nachricht angezeigt. | Nein | Ja |
-| Einzelner Benutzer kann ausgeschlossen werden | Nein | Ja |
-| @mentions werden unterstützt. | Nein | Ja |
+| Der Benutzer kann mit jemandem in einem anderen Unternehmen chatten. | Ja |Ja |
+| Der Benutzer kann jemanden in einem anderen Unternehmen anrufen | Ja | Ja |
+| Der Benutzer kann sehen, ob jemand aus einem anderen Unternehmen für Anrufe oder Chats zur Verfügung steht. | Ja | Ja<sup>1</sup> |
+| Benutzer kann über externe Mandanten nach Benutzern suchen | Ja<sup>2</sup> | Nein |
+| Benutzer kann Dateien freigeben | Nein | Ja |
+| Benutzer kann auf Teamressourcen zugreifen | Nein | Ja |
+| Benutzer kann zu einem Gruppen-Chat hinzugefügt werden | Nein | Ja |
+| Benutzer kann zu einer Besprechung hinzugefügt werden | Ja | Ja |
+| Zusätzliche Benutzer können einem Chat mit einem externen Benutzer hinzugefügt werden. | Nr.<sup>3</sup> | Nicht zutreffend |
+| Der Benutzer wird als externer Partner identifiziert | Ja | Ja |
+| Anwesenheit wird angezeigt | Ja | Ja |
+| Abwesenheitsnachricht wird angezeigt | Nein | Ja |
+| Der einzelne Benutzer kann blockiert werden. | Nein | Ja |
+| @Mentions werden unterstützt | Nein | Ja |
+| Private Anrufe tätigen | Ja | Ja |
+| IP-Video zulassen | Ja | Ja |
+| Bildschirmfreigabe Modus | Ja | Ja |
+| Sofortbesprechung zulassen | Nein | Ja |
+| Bearbeiten von gesendeten Nachrichten | Ja | Ja |
+| Kann gesendete Nachrichten löschen | Ja | Ja |
+| Verwenden von Giphy in einer Unterhaltung | Ja | Ja |
+| Verwenden von Memen in einer Unterhaltung | Ja | Ja |
+| Verwenden von Aufklebern in einer Unterhaltung | Ja | Ja |
 ||||
 
-<sup>1</sup> bereitgestellt, dass der Benutzer wurde als Gast hinzugefügt und als Gast, die dem Mandanten Gast angemeldet ist.<br>
-<sup>2</sup> nur per e-Mail oder Adresse Session Initiation Protocol (SIP).<br>
-<sup>3</sup> externe (Verbund) Chat ist 1:1.
+<sup>1</sup> vorausgesetzt, dass der Benutzer als Gast hinzugefügt wurde und als Gast für den Gast Mandanten angemeldet ist.<br>
+<sup>2</sup> nur per e-Mail oder SIP-Adresse (Session Initiation Protocol).<br>
+<sup>3</sup> externer Chat (Federated) ist nur 1:1.
 
-## <a name="turn-on-or-turn-off-external-access-users-can-communicate-with-skype-for-business-and-teams-users"></a>Aktivieren Sie oder deaktivieren Sie des externen Zugriffs (Benutzer können mit Skype für Unternehmen und Teams kommunizieren)
+> [!NOTE]
+> Weitere Informationen zu Gast Features und der Gast Erfahrung finden Sie unter [Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-guests) und [der Art der Gast Erfahrung](https://docs.microsoft.com/microsoftteams/guest-experience).
 
-Die Microsoft-Teams & Skype für Business Admin Center können Sie um externen Zugriff zu verwalten.
+## <a name="turn-on-or-turn-off-external-access-users-can-communicate-with-skype-for-business-and-teams-users"></a>Aktivieren oder Deaktivieren des externen Zugriffs (Benutzer können mit Skype for Business-und Teams-Benutzern kommunizieren)
 
-1. Wählen Sie in der Microsoft-Teams & Skype für Business Admin Center **Org geltende Einstellungen** > **externen Zugriff**.
+Sie können die Microsoft Teams #a0 Skype for Business Admin Center verwenden, um den externen Zugriff zu verwalten.
 
-     ![Screenshot des externen Zugriff für die gesamte Org-Einstellungen](media/manage-external-access-1.png).
+1. Wählen Sie im Microsoft Teams #a0 Skype for Business Admin Center die Option **organisationsweite Einstellungen** > **externer Zugriff**aus.
 
-2. Bringen Sie den Schalter **können Benutzer mit Skype für Unternehmen und Teams kommunizieren** , **aktiviert** oder **deaktiviert**.
+     ![Screenshot der organisationsweiten Einstellungen für externen Zugriff](media/manage-external-access-1.png).
 
-     ![Screenshot des externen Zugriffs Switch eingeschaltet](media/manage-external-access-2.png).
+2. Aktivieren oder **Deaktivieren**Sie die **Benutzer können mit Skype for Business und Teams kommunizieren** . ****
+
+     ![Screenshot des aktivierten externen Zugriffs Schalters](media/manage-external-access-2.png).
 
 3. Klicken Sie auf **Speichern**. 
 
-## <a name="add-or-block-a-domain"></a>Hinzufügen oder eine Domäne blockieren
+## <a name="add-or-block-a-domain"></a>Hinzufügen oder blockieren einer Domäne
 
-Befolgen Sie diese Schritte zum Hinzufügen einer Domäne oder Deaktivieren des externen Zugriffs für eine Domäne aus.
+Führen Sie die folgenden Schritte aus, um eine Domäne hinzuzufügen oder den externen Zugriff für eine Domäne zu deaktivieren.
 
-1. Wählen Sie in der Microsoft-Teams & Skype für Business Admin Center **Org geltende Einstellungen** > **externen Zugriff**.
+1. Wählen Sie im Microsoft Teams #a0 Skype for Business Admin Center die Option **organisationsweite Einstellungen** > **externer Zugriff**aus.
 
 2. Wählen Sie **Domäne hinzufügen**. 
  
-    ![Screenshot des externen Zugriffs-Seite mit einen Domäne Link hinzufügen](media/manage-external-access-3.png).
+    ![Screenshot der Seite ' externer Zugriff ' mit Link ' Domäne hinzufügen '](media/manage-external-access-3.png).
 
    Der Bereich **Domäne hinzufügen** wird angezeigt.
 
-    ![Screenshot des Hinzufügen einer Domäne-Bereich](media/manage-external-access-4.png).
+    ![Screenshot des Bereichs "Domäne hinzufügen"](media/manage-external-access-4.png).
 
 
-3. Geben Sie den Namen der Domäne, klicken Sie unter **Hinzufügen einer Domäne**; Geben Sie beispielsweise "contoso.com".
+3. Geben **Sie Unterdomäne hinzufügen**den Namen der Domäne ein. Geben Sie beispielsweise contoso.com ein.
 
 4. Wählen Sie **Zulässig** oder **Blockiert**. Sie können diese Einstellung jederzeit ändern.
 
-2. Wählen Sie **Fertig**.
+2. Wählen Sie **Fertig**aus.
 
-Nachdem Sie eine Domäne hinzugefügt haben, sehen Sie den Domänennamen und den Status der Liste der Domänen auf der Seite externen Zugriff hinzugefügt.
+Nachdem Sie eine Domäne hinzugefügt haben, werden der Domänenname und der Status der Liste der Domänen auf der Seite "externer Zugriff" angezeigt.
 
 ## <a name="more-information"></a>Weitere Informationen
 
-Informationen über Gast in Microsoft-Teams finden Sie unter [Manage Gast Access in Microsoft-Teams](manage-guests.md).
+Informationen zum Gastzugriff in Microsoft Teams finden Sie unter [Verwalten des Gastzugriffs in Microsoft Teams](manage-guests.md).

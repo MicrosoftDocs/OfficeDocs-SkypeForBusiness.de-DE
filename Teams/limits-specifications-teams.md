@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c71b789684d6d40ab9eb67e0464f8dc46ae0e96
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b8c28f3eac5bdfbd8542a77dca5386d27663d8c5
+ms.sourcegitcommit: 3678dbbc8c36010fbf12c57b52281ef4fca9f065
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299681"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34695941"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -34,8 +34,8 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 |Anzahl der Mitglieder in einem Team | 5.000       |
 |Anzahl der Mitglieder in einem [organisationsweiten Team](create-an-org-wide-team.md) | 5.000       |
 |Anzahl der Teams, die ein globaler Administrator erstellen kann        |  500.000   |
-|Anzahl der Teams in einem Office 365-Mandanten    | 500, 000&sup2;     |
-|Anzahl der Kanäle pro Team    | 200 (einschließlich gelöschter Kanäle) &sup3;         |
+|Anzahl der Teams in einem Office 365-Mandanten    | 500.000&sup2;     |
+|Anzahl der Kanäle pro Team    | 200 (enthält gelöschte Kanäle) &sup3;         |
 
 &sup1;Jedes Verzeichnisobjekt in Azure Active Directory zählt. Globale Administratoren und Apps, die Microsoft Graph mit [Anwendungsberechtigungen](https://docs.microsoft.com/graph/permissions-reference) aufrufen, sind von diesem Grenzwert ausgeschlossen.
 
@@ -64,7 +64,7 @@ Da Teams in einem SharePoint Online-Backend für die Dateifreigabe ausgeführt w
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Speicher                 |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation plus 10 GB pro erworbener Lizenz   |1 TB pro Organisation plus 10 GB pro erworbener Lizenz |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation           |
 |Speicher für Teams-Dateien |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |Bis zu 25 TB pro Websitesammlung oder Gruppe |
-|Grenzwert bei Dateiuploads       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
+|Beschränkung des Dateiuploads (pro Datei)    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
 Jede Dateienregisterkarte in Teams wird in einem SharePoint Online-Backend ausgeführt. Die Speichergrenzwerte oben gelten also für jeden Kanal in einem Team.
 

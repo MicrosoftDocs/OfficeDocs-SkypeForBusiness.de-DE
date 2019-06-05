@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst (-Service) bis Februar 2020 ein. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: ba9df18478057e9c32b0f2cea70a10c6c7ab36e8
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 785c80b435bfff5b8a9cda3fca17d57756d06091
+ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494188"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34702680"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online
 
@@ -48,7 +48,7 @@ Microsoft hat verschiedene Kundenbereitstellungen identifiziert, die Features vo
 |---------|---------|---------|
 |Kunden, die bereit sind, zu migrieren<br><br>Zu migrierende Features:<br><ul><li>Voicemail</ul>   |   März – Mai 2019  |Beispiele<ul><li>    Kunden mit einfacher Voicemail-Bereitstellung und-Nutzung<li>Kunden, die alle Voraussetzungen für Microsoft zum Ausführen der Migration festgelegt haben<ul>|
 |Kunden mit Voraussetzungen<br><br>Zu migrierende Features:<br><ul><li>Voicemail<li>Automatische Telefonzentrale</ul> |  Mai – Dezember 2019 |Beispiele <br><ul><li>Die Hybrid Konfiguration wurde nicht erstellt/abgeschlossen<li>Hybrid-PSTN-Nummern sind nicht eingerichtet</ul>|
-|Kunden, die eine Einbindung des Administrators benötigen & Kundeninvestition<br><br>Zu migrierende Features:<ul><li>Voicemail<li>Automatische Telefonzentrale<li>Fax-Integration</ul>| Bis Februar 2020  | Beispiele <br><ul><li>Der Service wird von der Telefonanlage von Drittanbietern genutzt<li>Kunden mit PSTN-Teilnehmerzugriffs Anforderungen<li>Kunden im SFB 2010 (nicht unterstützt)<li>Fax-Integration</ul> |
+|Kunden, die eine Beteiligung des Administrators #a0 Kundeninvestition benötigen<br><br>Zu migrierende Features:<ul><li>Voicemail<li>Automatische Telefonzentrale<li>Fax-Integration</ul>| Bis Februar 2020  | Beispiele <br><ul><li>Der Service wird von der Telefonanlage von Drittanbietern genutzt<li>Kunden mit PSTN-Teilnehmerzugriffs Anforderungen<li>Kunden im SFB 2010 (nicht unterstützt)<li>Fax-Integration</ul> |
 
 ## <a name="migration-steps"></a>Migrationsschritte
 
@@ -173,6 +173,10 @@ Microsoft hat verschiedene Kundenbereitstellungen identifiziert, die Features vo
 | Fax| Dienst Features | Fax-Integration|  | N | J    |
 
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>Empfohlener Testplan und Validierung nach der Migration für Administratoren
+
+Um zu überprüfen, ob Ihre Benutzer in Cloud Voicemail migriert wurden, lassen Sie einfach eine Sprachnachricht an einen Benutzer weiter und überprüfen Sie den Nachrichtentext in Outlook, in den Cloud-Sprachnachrichten gibt es eine zusätzliche Fußzeile, die lautet:
+
+**Vielen Dank, dass Sie die Transkription verwenden! Wenn Sie oben keine Aufzeichnung sehen, liegt das daran, dass die Audioqualität nicht klar genug war, um Sie zu transkribieren.**
 
 Stellen Sie beim Testen der Voicemail-Funktionalität nach der Migration Ihrer Benutzer sicher, dass Sie die folgenden Szenarien beachten:
 

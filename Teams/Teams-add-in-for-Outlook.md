@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a5a17f729c8899c5fb7f7f97a65f9bc36c3080
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 43d830429d983947f43aa11119801aef803f03f9
+ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591639"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34694747"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -61,6 +61,14 @@ Die Schaltfläche "Teams-Besprechung" wird in den neuesten Builds der Outlook IO
 ![Screenshot des Add-Ins "Teams-Besprechung" in Outlook Mobile](media/teams-meeting-add-in-mobile.png)
 
 Die Besprechungs Koordinaten (der Link "Teams beitreten" und die Einwahlnummern) werden der Besprechungseinladung hinzugefügt, nachdem der Benutzer auf " **senden**" geklickt hat.  
+
+## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Teambesprechung-Add-in in und "finden" für Outlook
+"Finden" ist ein Add-in für Outlook, das Benutzern hilft, einen Konsens über eine Besprechungszeit in Unternehmen zu erzielen. Nachdem die Besprechungseinladungen Ihre bevorzugten Zeiten bereitgestellt haben, wird die Besprechungseinladung im Namen des Benutzers durch "finden" gesendet. Wenn die Option " **Online Besprechung** " in "suchen" ausgewählt ist, wird in "suchen" eine Skype for Business-oder Microsoft Teams-Besprechung geplant. (Die Suchzeit verwendet je nachdem, welche von Ihrer Organisation als standardmäßiger Online Besprechungs Kanal festgesetzt wurde.)
+
+> [!NOTE]  
+> Wenn Sie eine Skype for Business-Einstellung in Ihrem [Dashboard](https://findtime.microsoft.com/UserDashboard)für die Suchfunktion gespeichert haben, verwenden Sie die Suchfunktion anstelle von Microsoft Teams. Wenn Sie Microsoft Teams verwenden möchten, löschen Sie die Skype for Business-Einstellung in Ihrem Dashboard.
+
+Weitere Informationen finden Sie unter [Planen von Besprechungen mit](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6) der Suchzeit.
 
 ## <a name="authentication-requirements"></a>Authentifizierungsanforderungen
 
