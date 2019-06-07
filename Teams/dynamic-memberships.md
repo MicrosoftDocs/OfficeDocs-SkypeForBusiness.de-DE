@@ -7,51 +7,51 @@ ms.reviewer: kblevens, phlouie
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
-description: Informationen Sie zu dynamischen Teammitgliedschaft basierend auf AAD.
+description: Informationen zur dynamischen Teammitgliedschaft auf Grundlage von Aad.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e9da5b5bc9c1bb5800634d727bd6c9218812ab
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: beb93d1bd369d98743ad54b9f5753278dea36ed8
+ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245415"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748435"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Übersicht über dynamische Mitgliedschaft für Teams
 
-Microsoft-Teams unterstützt Teams dynamischen Mitgliedschaft mit Office 365-Gruppen zugeordnet. Dynamische Mitgliedschaft kann die Mitgliedschaft der ein Team durch eine oder mehrere Regeln definiert werden, die für bestimmte Benutzerattribute in Azure Active Directory (AAD) überprüfen. Benutzer werden automatisch hinzugefügt oder entfernt den richtigen Teams, wie Benutzerattribute ändern oder Benutzer teilnehmen, und lassen Sie den Mandanten.
+Microsoft Teams unterstützt Teams, die Office 365-Gruppen zugeordnet sind, mithilfe der dynamischen Mitgliedschaft. Mit der dynamischen Mitgliedschaft kann die Mitgliedschaft in einem Team durch eine oder mehrere Regeln definiert werden, die in Azure Active Directory (AAD) nach bestimmten Benutzerattributen suchen. Benutzer werden automatisch zu den richtigen Teams hinzugefügt oder entfernt, wenn sich Benutzerattribute ändern oder Benutzer dem Mandanten beitreten und ihn belassen.
 
-Mit der dynamischen Mitgliedschaft können teams Setup für bestimmte Kohorten von Benutzern in Ihrer Organisation. Gibt die folgenden mögliche Szenarien:
-- Ein Krankenhaus kann unterschiedliche Teams für Pflegepersonal, Ärzten und Chirurgen Communications Übertragung erstellen. Dies ist besonders wichtig, wenn das Krankenhaus temp Mitarbeiter erforderlich ist.
-- Eine Universität kann erstellen Sie ein Team für alle Fakultät innerhalb einer bestimmten Universität, einschließlich einer angeschlossenen Fakultäts, die häufig ändert.
-- Flugzeug möchte ein Team für jeden Flug (wie ein Tag Dienstag ununterbrochenen aus Chicago zu Atlanta) erstellen und eine oft geändertem Flug Crew automatisch zugewiesen oder bei Bedarf entfernt haben.
+Mit der dynamischen Mitgliedschaft können Sie Teams für bestimmte Kohorten von Benutzern in Ihrer Organisation einrichten. Mögliche Szenarien sind:
+- In einem Krankenhaus können unterschiedliche Teams für Krankenschwestern, Ärzte und Chirurgen zur Übertragung von Kommunikationen erstellt werden. Dies ist besonders wichtig, wenn das Krankenhaus auf temporäre Mitarbeiter angewiesen ist.
+- Eine Universität kann ein Team für alle Dozenten innerhalb eines bestimmten Kollegiums erstellen, einschließlich einer Dozenten Gruppe, die sich häufig ändert.
+- Eine Fluglinie möchte für jeden Flug ein Team erstellen (wie einen Dienstag Nachmittag nonstop von Chicago nach Atlanta) und eine häufig wechselnde Flight Crew automatisch zugewiesen oder entfernt werden.
 
-Verwenden dieses Feature, ein bestimmtes Team Mitglieder Update automatisch basierend auf einem bestimmten Satz von Kriterien manuell verwalten der Mitgliedschaft. Dies erfordert Azure AD Premium P1 Lizenzen und Teammitgliedschaft kann jeder Benutzer AAD Eigenschaften [von einem mandantenadministrator zugewiesen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) , vorausgesetzt, Sie haben einen Mandanten und ein Administratorkonto sein. 
+Mithilfe dieser Funktion werden die Mitglieder eines bestimmten Teams automatisch basierend auf einem bestimmten Satz von Kriterien aktualisiert, anstatt die Mitgliedschaft manuell zu verwalten. Hierfür sind Azure AD Premium P1-Lizenzen erforderlich, und die Teammitgliedschaft kann [von einem mandantenadministrator](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) den Aad-Eigenschaften jedes Benutzers zugewiesen werden, vorausgesetzt, Sie verfügen über einen Mandanten und ein Administratorkonto. 
 
-Microsoft-Teams, kann an einer beliebigen Stelle von ein paar Minuten, bis zu 2 Stunden dauern dynamischen mitgliedschaftsänderungen aktualisiert, sobald sie in der Office 365-Gruppe für ein Team wirksam werden. 
+Microsoft Teams kann zwischen ein paar Minuten und bis zu zwei Stunden dauern, um dynamische Mitgliedschaftsänderungen wiederzugeben, sobald Sie in der Office 365-Gruppe für ein Team wirksam werden. 
 
 > [!NOTE]
-> - Regeln können definieren, die ein Teammitglied ist, jedoch nicht, die ein Team Besitzer ist.
-> - Aktuelle Einschränkungen für Teams und der Kanal Größen finden Sie unter [Limits und Spezifikationen für Microsoft-Teams](limits-specifications-teams.md) .
-> - Besitzer werden nicht hinzufügen oder Entfernen von Benutzern als Mitglieder des Teams, da durch Regeln für die dynamische Gruppe Mitglieder definiert sind.
-> - Elemente werden nicht verlassen können Teams, die auf dynamische Gruppen.
+> - Regeln können definieren, wer ein Teammitglied ist, aber nicht, wer ein Teambesitzer ist.
+> - Aktuelle Grenzwerte für Team-und Kanal Größen finden Sie unter [Grenzwerte und Spezifikationen für Microsoft Teams](limits-specifications-teams.md) .
+> - Besitzer können Benutzer nicht als Mitglieder des Teams hinzufügen oder entfernen, da Mitglieder durch dynamische Gruppenregeln definiert werden.
+> - Mitglieder können Teams nicht von dynamischen Gruppen zurücklassen.
 
 
-## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>Erstellen und Verwalten von einer Office 365-Gruppe mit dynamischen Mitgliedschaft
-Beim Anmelden als den Mandanten Admin, befolgen Sie die Anweisungen in [einer dynamischen Gruppe erstellen und überprüfen Sie Status](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Bei Bedarf finden Sie unter [Regeln für die dynamische Mitgliedschaft für Azure Active Directory-Gruppen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).
+## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>Erstellen und Verwalten einer Office 365-Gruppe mit dynamischer Mitgliedschaft
+Wenn Sie als mandantenadministrator angemeldet sind, folgen Sie den Anweisungen unter [Erstellen einer dynamischen Gruppe und Überprüfen des Status](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Beziehen Sie sich bei Bedarf auf [Dynamische Mitgliedschaftsregeln für Gruppen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).
 
-## <a name="create-a-new-team-with-your-o365-group"></a>Erstellen Sie ein neues Team mit Ihrer O365-Gruppe
+## <a name="create-a-new-team-with-your-o365-group"></a>Erstellen eines neuen Teams mit Ihrer Office 365-Gruppe
 
-Jetzt warten Sie die Änderungen wirksam werden, und erstellen Sie ein neues Team, wie in [Gruppen mit Microsoft-Teams verbessern vorhandenen Office 365](enhance-office-365-groups.md)beschrieben.
+Lassen Sie jetzt Zeit, bis die Mitgliedschaftsänderungen wirksam werden, und erstellen Sie ein neues Team, wie unter [Erweitern vorhandener Office 365-Gruppen mit Microsoft Teams](enhance-office-365-groups.md)beschrieben.
 
-## <a name="apply-dynamic-membership-to-an-existing-team"></a>Anwenden von dynamischen Mitgliedschaft an vorhandenen team
+## <a name="apply-dynamic-membership-to-an-existing-team"></a>Anwenden einer dynamischen Mitgliedschaft auf ein vorhandenes Team
 
-Sie können auch nehmen ein vorhandenes Team und ändern, um eine dynamische Mitgliedschaft, wie beschrieben in [statische Gruppenmitgliedschaft in einen dynamischen in Azure Active Directory ändern](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type).
+Sie können auch ein vorhandenes Team übernehmen und es so ändern, dass es eine dynamische Mitgliedschaft aufweist, wie unter [Ändern der statischen Gruppenmitgliedschaft in Dynamic in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type)beschrieben.
 
-## <a name="changes-in-client-behavior"></a>Änderungen in Clientverhaltens
+## <a name="changes-in-client-behavior"></a>Änderungen des Clientverhaltens
 
-Sobald dynamischen Mitgliedschaft für ein Team aktiviert ist, können Teams Clients nicht mehr Member Management für das Team, nämlich. Optionen zum Hinzufügen von Mitgliedern, Rollen bearbeiten, senden und Genehmigen von Anfragen Join und das Team verlassen werden alle ausgeblendet.
+Sobald die dynamische Mitgliedschaft für ein Team aktiviert ist, können die Teams-Clients die Mitgliederverwaltung für das Team nicht mehr zulassen. Optionen zum Hinzufügen von Mitgliedern, Bearbeiten von Mitgliederrollen, senden und Genehmigen von Join-Anfragen und belassen des Teams sind alle verborgen.

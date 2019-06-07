@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6af82e958d3a17c8eb2b3ef64339ae69c1d0871a
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: b8fa8b567e82e79fdd280e7f43147620e81ef8be
+ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433056"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748380"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
@@ -31,7 +31,7 @@ Wenn ein Gast zur Teilnahme in einem Team eingeladen wird, erhält er eine Willk
     
 Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt. Wie im folgenden Screenshot eines Beispielteams gezeigt, wird ein Banner mit dem Text „Dieses Team hat Gäste“ angezeigt, und neben jedem Gästenamen wird die Bezeichnung „GAST“ eingeblendet.
     
-! [Screenshot mit Banner Benachrichtigung für Gastbenutzer] (Media/Guest-Experience-Image2. png "Screenshot zeigt einen Teil des Marketing Kanals für Northwind Traders, wobei die Benachrichtigung im oberen Banner besagt, dass" dieses Team Gäste hat "und Benutzer, die mit dem Wort" Guest "gekennzeichnet sind, neben dem Namen angezeigt werden.")
+![Screenshot mit Banner Benachrichtigungs Gastbenutzern] (media/guest-experience-image2.png "Screenshot zeigt einen Teil des Marketing Kanals für Northwind Traders, wobei die Benachrichtigung im oberen Banner besagt, dass das Team Gäste und Benutzer hat, die Gäste sind, die mit dem Wort Guest neben dem Namen der Person gekennzeichnet sind.")
 
 In der folgenden Tabelle werden die für die Teammitglieder einer Organisation verfügbaren Microsoft Teams-Funktionen mit den für Gastbenutzer im Team verfügbaren Funktionen verglichen.
 
