@@ -4,7 +4,6 @@ author: LanaChin
 ms.author: v-lanac
 ms.reviewer: phlouie
 manager: serdars
-ms.date: 09/27/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -15,22 +14,24 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b999419f8fec9c205ec9713181596fba1fb38999
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 6bb614de33f532dcf26d7522969911c46331297a
+ms.sourcegitcommit: 0278cfe7d5ec53e83df4d9c8b9afb0f425cbb9d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494045"
+ms.lasthandoff: 06/08/2019
+ms.locfileid: "34802646"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
-Organisationsweite Teams bieten eine automatische Möglichkeit für alle Personen in einer kleinen bis mittelständischen Organisation, Teil eines einzelnen Teams für die Zusammenarbeit zu sein. 
+Organisationsweite Teams bieten eine automatische Möglichkeit für alle Personen in einer kleinen bis mittelständischen Organisation, Teil eines einzelnen Teams für die Zusammenarbeit zu sein.
  
-Mit organisationsweiten Teams können globale Administratoren problemlos ein öffentliches Team erstellen, das alle Benutzer in der Organisation anzieht und die Mitgliedschaft mit Active Directory auf dem neuesten Stand hält, während Benutzer teilnehmen und die Organisation verlässt. Nur globale Administratoren können organisationsweite Teams erstellen, und derzeit ist ein organisationsweites Team auf Organisationen mit nicht mehr als 5.000-Benutzern begrenzt. Wenn diese Voraussetzungen erfüllt sind, sehen globale Administratoren **org-Wide** als Option, wenn Sie beim Erstellen eines Teams ein **Team von Grund auf neu erstellen** auswählen. 
+Mit organisationsweiten Teams können globale Administratoren problemlos ein öffentliches Team erstellen, das alle Benutzer in der Organisation anzieht und die Mitgliedschaft mit Active Directory auf dem neuesten Stand hält, während Benutzer teilnehmen und die Organisation verlässt. Nur globale Administratoren können organisationsweite Teams erstellen, und derzeit ist ein organisationsweites Team auf Organisationen mit nicht mehr als 5.000-Benutzern begrenzt. Es gibt auch eine Grenze von fünf organisationsweiten Teams pro Mandant.  Wenn diese Voraussetzungen erfüllt sind, sehen globale Administratoren **org-Wide** als Option, wenn Sie beim Erstellen eines Teams ein **Team von Grund auf neu erstellen** auswählen. 
 
 ![Screenshot der Option "org-Wide" zum Erstellen eines organisationsweiten Teams] (media/create-org-wide-team.png "Screenshot der Option \"org-Wide\" zum Erstellen eines organisationsweiten Teams")
 
-Wenn ein organisationsweites Team erstellt wird, werden alle globalen Administratoren als Teambesitzer hinzugefügt, und alle aktiven Benutzer werden als Teammitglieder hinzugefügt. Benutzer, die für Teams, Gastbenutzer und die meisten Chatrooms deaktiviert sind, werden dem Team nicht hinzugefügt. Wenn das Verzeichnis Ihrer Organisation aktualisiert wird, um neue aktive Benutzer einzubeziehen, oder wenn Benutzer nicht mehr in Ihrem Unternehmen arbeiten und ihre Teams-Lizenz deaktiviert ist, werden Änderungen automatisch synchronisiert, und die Benutzer werden dem Team hinzugefügt oder aus ihr entfernt. Teammitglieder können ein organisationsweites Team nicht bestanden haben. Als Teambesitzer können Sie bei Bedarf Benutzer manuell hinzufügen oder entfernen.
+Wenn ein organisationsweites Team erstellt wird, werden alle globalen Administratoren als Teambesitzer hinzugefügt, und alle aktiven Benutzer werden als Teammitglieder hinzugefügt. Nicht lizenzierte Benutzer werden dem Team ebenfalls hinzugefügt. Wenn sich ein nicht lizenzierter Benutzer zum ersten Mal bei Teams anmeldet, wird ihm eine Microsoft Teams Commercial Cloud-Testlizenz zugewiesen. Wenn Sie mehr über die Testlizenz erfahren möchten, lesen Sie [das Angebot Verwalten des Teams für kommerzielle Cloud-Testversionen](iw-trial-teams.md). Benutzer, die für Teams, Gastbenutzer und die meisten Chatrooms deaktiviert sind, werden dem Team nicht hinzugefügt. 
+
+Wenn das Verzeichnis Ihrer Organisation aktualisiert wird, um neue aktive Benutzer einzubeziehen, oder wenn Benutzer nicht mehr in Ihrem Unternehmen arbeiten und ihre Teams-Lizenz deaktiviert ist, werden Änderungen automatisch synchronisiert, und die Benutzer werden dem Team hinzugefügt oder aus ihr entfernt. Teammitglieder können ein organisationsweites Team nicht bestanden haben. Als Teambesitzer können Sie bei Bedarf Benutzer manuell hinzufügen oder entfernen.
 
 > [!NOTE]
 > - Wenn beim Erstellen eines Teams die Option " **org-Wide** " nicht angezeigt wird und Sie ein globaler Administrator sind, wird das Feature möglicherweise weiterhin bereitgestellt, oder Ihre Organisation verfügt über mehr als die aktuelle Größenbeschränkung von 5.000-Mitgliedern. Wir möchten diesen Grenzwert in Zukunft erhöhen.
@@ -40,9 +41,9 @@ Wenn ein organisationsweites Team erstellt wird, werden alle globalen Administra
 Um Ihr organisationsweites Team optimal zu nutzen, empfehlen wir Teambesitzern, die folgenden Schritte auszuführen:
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Nur Teambesitzern die Bereitstellung im allgemeinen Kanal gestatten
-Reduzieren Sie Kanalrauschen, indem Sie nur Teambesitzer in den Kanal "Allgemein" Posten. Wechseln Sie zum Team, und klicken Sie auf **Weitere Optionen (.** ..).  >  **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf **Mitglieder Berechtigungen** > wählen Sie **nur Besitzer können Nachrichten senden**aus.
+Reduzieren Sie Kanalrauschen, indem Sie nur Teambesitzer in den Kanal "Allgemein" Posten. Wechseln Sie zum Team, und klicken Sie auf **̇ ̇ ̇ Weitere Optionen** > **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf **Mitglieder Berechtigungen** #a0 **nur Besitzer können Nachrichten senden**.
 ### <a name="turn-off-team-and-team-name-mentions"></a>Deaktivieren von @Team und @ [Teamname]-Erwähnungen
- Reduzieren Sie @Mentions, damit Sie nicht die gesamte Organisation überlasten. Wechseln Sie zum Team, und klicken Sie auf **Weitere Optionen (.** ..).  >  **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf <strong>@mention</strong> > deaktivieren Sie **Mitglieder anzeigen die Option @Team oder @ [Teamname]**. 
+ Reduzieren Sie @Mentions, damit Sie nicht die gesamte Organisation überlasten. Wechseln Sie zum Team, und klicken Sie auf **̇ ̇ ̇ Weitere Optionen** > **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf <strong>@Mentions</strong> #a0 deaktivieren Sie **Mitglieder anzeigen die Option @Team oder @ [Teamname]**. 
 ### <a name="automatically-favorite-important-channels"></a>Automatisch bevorzugten wichtigen Kanälen
  Bevorzugte wichtige Kanäle, um sicherzustellen, dass sich jeder in Ihrer Organisation an bestimmten Konversationen beteiligt. Weitere Informationen finden Sie unter [automatisch bevorzugte Kanäle für das gesamte Team](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
 
@@ -60,4 +61,4 @@ Wenn dies nicht möglich ist, können Sie ein öffentliches Team mithilfe von Po
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-org-wide-team"></a>Gibt es eine Möglichkeit, ein vorhandenes Team in ein organisationsweites Team umzuwandeln?
 
 Globale Administratoren können ein vorhandenes Team in ein organisationsweites Team umwandeln, das es im Teams-Client bearbeitet.
-Wechseln Sie zum Teamnamen, und klicken Sie auf weitere Optionen... (Auslassungspunkte) > Team bearbeiten.
+Wechseln Sie zum Teamnamen, klicken Sie auf **̇ ̇ ̇ Weitere Optionen** > **Team bearbeiten**.

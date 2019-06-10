@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Hier erfahren Sie, wie Sie Cloud Voicemail für Ihre Benutzer einrichten. '
-ms.openlocfilehash: bff4de7ed77ae7168e6daacf258e73dbc17a736a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 49f64f4b4cda9830bc189310efc26f39859009af
+ms.sourcegitcommit: 1764aa53441b9de5a8cfa37be344657176ee5703
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298671"
+ms.lasthandoff: 06/09/2019
+ms.locfileid: "34808025"
 ---
 # <a name="set-up-cloud-voicemail"></a>Einrichten von Cloudvoicemail
 
@@ -70,6 +70,8 @@ Die folgenden Informationen bezieht sich auf die Konfiguration von Cloud Voicema
 > Bei Skype for Business-Kunden kann das Deaktivieren von Voicemail über eine Microsoft Teams-Anrufrichtlinie auch den Voicemaildienst für Ihre Skype for Business-Benutzer deaktivieren.
 
 Voicemail-Transkription ist standardmäßig aktiviert und die Profanitäts-Maskierung während der Transkription ist standardmäßig für alle Organisationen und Benutzer deaktiviert. Sie können sie jedoch mithilfe der Cmdlets [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) und [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) steuern.
+
+Voicemail-Nachrichten, die von Benutzern in Ihrer Organisation empfangen werden, werden in der Region transkribiert, in der Ihr Office 365-Mandant gehostet wird. Der Bereich, in dem der Mandant gehostet wird, ist möglicherweise nicht derselbe Bereich, in dem sich der Benutzer befindet, der die Sprachnachricht empfängt. Um die Region anzuzeigen, in der Ihr Mandant gehostet wird, wechseln Sie zur Seite [Organisationsprofil](https://go.microsoft.com/fwlink/p/?linkid=2067339) , und klicken Sie dann neben **Datenspeicherort**auf **Details anzeigen** .
 
 > [!IMPORTANT]
 > Sie können keine neue Richtlinieninstanz für die Maskierung von Transkriptions-und Transkriptions Obszönitäten mithilfe des Cmdlets **New-CsOnlineVoiceMailPolicy** erstellen, und Sie können eine vorhandene Richtlinieninstanz nicht mithilfe des Cmdlets **Remove-CsOnlineVoiceMailPolicy** entfernen. .

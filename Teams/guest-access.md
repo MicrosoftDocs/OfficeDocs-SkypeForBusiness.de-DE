@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81bfde91cb73ed6741138be390533d56dc2e60e3
-ms.sourcegitcommit: 3678dbbc8c36010fbf12c57b52281ef4fca9f065
+ms.openlocfilehash: 2e9bf9993311ae723557b8d6f8c5ab777ebccd7c
+ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34695949"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748388"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 ======================================
@@ -49,7 +49,7 @@ Der Gastzugriff ist eine Einstellung auf Mandantenebene in Microsoft Teams, die 
 Ein Gast ist kein Mitarbeiter, Schüler/Student oder Mitglied Ihrer Organisation Er verfügt über kein Geschäfts-, Schul- oder Unikonto bei Ihrer Organisation. Gäste können beispielsweise Partner, Hersteller, Lieferanten oder Berater sein. Jede Person, die nicht Teil Ihrer Organisation ist, kann als Gast in Teams hinzugefügt werden. Dies bedeutet, dass jeder Benutzer mit einem Business-Konto (d. h. ein Azure Active Directory-Konto) oder E-Mail-Consumer-Konto (mit Outlook.com, Gmail.com oder einer sonstigen Adresse) als Gast in Teams teilnehmen kann – mit vollständigem Zugriff auf Team- und Kanalfunktionen. (Informationen zu Gastbeschränkungen finden Sie unter [Autorisieren des Gastzugriffs in Microsoft Teams](teams-dependencies.md).) Für alle Gäste in Microsoft Teams gelten die gleichen Compliance- und Überwachungsmaßnahmen wie überall in Office 365. Gäste können in Azure AD sicher verwaltet werden.
 
 ## <a name="why-use-guest-access"></a>Warum Gastzugriff verwenden?
-      
+
 Mit Gastzugriff können Organisationen, die Teams verwenden, ihren Partnern externen Zugriff auf Teams, Dokumente in Kanälen, Ressourcen, Chats und Anwendungen gewähren und gleichzeitig die vollständige Kontrolle über ihre eigenen Unternehmensdaten behalten. Für alle Gäste in Microsoft Teams gelten die gleichen Compliance- und Überwachungsmaßnahmen wie überall in Office 365. Gäste können in Azure AD sicher verwaltet werden.  
 
 Teams basiert auf Office 365-Gruppen und bietet neue Möglichkeiten, auf freigegebene Ressourcen für eine Office 365-Gruppe zuzugreifen. Teams ist die beste Lösung für beständigen Chat zwischen Gruppen- bzw. Teammitgliedern. Office 365-Gruppen ist ein Dienst, der anwendungsübergreifende Mitgliedschaft für bestimmte freigegebene Teamressourcen (beispielsweise eine SharePoint-Website oder ein Power BI-Dashboard) bietet, damit das Team effektiv und sicher zusammenarbeiten kann. 
