@@ -1,36 +1,42 @@
-﻿---
-title: Cmdlets, die keinen Bereich oder keine Identität verwenden
-TOCTitle: Cmdlets, die keinen Bereich oder keine Identität verwenden
-ms:assetid: 9c50c732-3c64-4b6a-96fd-8f528eb739ce
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn362824(v=OCS.15)
-ms:contentKeyID: 56269310
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Cmdlets, die keinen Bereich oder keine Identität verwenden
+title: Cmdlets in Skype for Business Online, die keinen Bereich oder keine Identität verwenden
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that do not use a scope or an identity
+ms:assetid: 9c50c732-3c64-4b6a-96fd-8f528eb739ce
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362824(v=OCS.15)
+ms:contentKeyID: 56558839
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4c7f6632640277a6a99626c18f458100f6a8cea0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839092"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity"></a><span data-ttu-id="40d96-102">Cmdlets in Skype for Business Online, die keinen Bereich oder keine Identität verwenden</span><span class="sxs-lookup"><span data-stu-id="40d96-102">Cmdlets in Skype for Business Online that do not use a scope or an identity</span></span>
 
  
 
-_**Letztes Änderungsdatum des Themas:** 2015-06-22_
 
-Die Cmdlets, mit denen die Liste der zulässigen Domänen oder die Liste der blockierten Domänen geändert wird (Listen, mit denen festgelegt wird, mit welchen externen Organisationen Ihre Benutzer kommunizieren dürfen), verwenden weder einen Bereich, noch eine Identität. Tatsächlich gibt es für das Cmdlet **New-CsEdgeAllowAllKnownDomains** keinerlei Parameter. Die Cmdlets, die weder einen Bereich, noch eine Identität verwenden, sind:
+<span data-ttu-id="40d96-103">Die beim Ändern der zulässigen Listen und blockierten Listen verwendeten Cmdlets (Listen, die ermitteln, mit welchen externen Organisationen ihre Benutzer kommunizieren dürfen) verwenden weder einen Bereich noch eine Identität.</span><span class="sxs-lookup"><span data-stu-id="40d96-103">The cmdlets used when modifying the allowed lists and blocked lists (lists that determine which outside organizations your users are allowed to communicate with) do not use either a scope or an Identity.</span></span> <span data-ttu-id="40d96-104">In der Tat hat das Cmdlet **New-CsEdgeAllowAllKnownDomains** keinerlei Parameter.</span><span class="sxs-lookup"><span data-stu-id="40d96-104">In fact, the **New-CsEdgeAllowAllKnownDomains** cmdlet does not have any parameters whatsoever.</span></span> <span data-ttu-id="40d96-105">Bei den Cmdlets, die weder einen Bereich noch eine Identität verwenden, handelt es sich um folgende:</span><span class="sxs-lookup"><span data-stu-id="40d96-105">The cmdlets that do not use either a scope or an Identity are:</span></span>
 
-  - [New-CsEdgeAllowAllKnownDomains](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowAllKnownDomains)
+  - <span data-ttu-id="40d96-106">[New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/en-us/library/jj994088\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="40d96-106">[New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/en-us/library/jj994088\(v=ocs.15\))</span></span>
 
-  - [New-CsEdgeAllowList](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowList)
+  - <span data-ttu-id="40d96-107">[New-CsEdgeAllowList](https://technet.microsoft.com/en-us/library/jj994023\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="40d96-107">[New-CsEdgeAllowList](https://technet.microsoft.com/en-us/library/jj994023\(v=ocs.15\))</span></span>
 
-  - [New-CsEdgeDomainPattern](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeDomainPattern)
+  - <span data-ttu-id="40d96-108">[New-CsEdgeDomainPattern](https://technet.microsoft.com/en-us/library/jj994040\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="40d96-108">[New-CsEdgeDomainPattern](https://technet.microsoft.com/en-us/library/jj994040\(v=ocs.15\))</span></span>
 
-Beachten Sie jedoch, dass Sie bei den beiden Cmdlets **New-CsEdgeAllowList** und **New-CsEdgeDomainPattern** den Parameter **Domain** angeben müssen. parameter. Beispiel:
+<span data-ttu-id="40d96-109">Beachten Sie, dass Sie mit dem Cmdlet **New-CsEdgeAllowList** und dem Cmdlet **New-CsEdgeDomainPattern** den Parameter Domain angeben müssen.</span><span class="sxs-lookup"><span data-stu-id="40d96-109">Note that, with both the **New-CsEdgeAllowList** cmdlet and the **New-CsEdgeDomainPattern** cmdlet, you must include the Domain parameter.</span></span> <span data-ttu-id="40d96-110">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="40d96-110">For example:</span></span>
 
     $x = New-CsEdgeDomainPattern -Domain "fabrikam.com"
 
-## Siehe auch
+## <a name="see-also"></a><span data-ttu-id="40d96-111">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="40d96-111">See Also</span></span>
 
-#### Konzepte
 
-[Identitäten, Bereiche und Mandanten](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Die Lync Online-Cmdlets](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+[<span data-ttu-id="40d96-112">Identitäten, Bereiche und Mandanten in Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="40d96-112">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+<span data-ttu-id="40d96-113">[Die Lync Online-Cmdlets](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="40d96-113">[The Skype for Business Online cmdlets](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span></span>
 

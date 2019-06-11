@@ -1,27 +1,49 @@
-﻿---
-title: 'Lync Server 2013: Client- und Serverunterstützung für standortbasiertes Routing'
-TOCTitle: Client- und Serverunterstützung für standortbasiertes Routing
-ms:assetid: 26c2ca3d-026d-4dd7-94fa-15ebb4406953
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ994024(v=OCS.15)
-ms:contentKeyID: 52056307
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Client- und Serverunterstützung für standortbasiertes Routing'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Client and server support for Location-Based Routing
+ms:assetid: 26c2ca3d-026d-4dd7-94fa-15ebb4406953
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994024(v=OCS.15)
+ms:contentKeyID: 51803933
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3791b359422c4b5bef463a612db6f0b74c07f096
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839565"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Client- und Serverunterstützung für standortbasiertes Routing in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="client-and-server-support-for-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="883c5-102">Client- und Serverunterstützung für standortbasiertes Routing in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="883c5-102">Client and server support for Location-Based Routing in Lync Server 2013</span></span>
 
-Standortbasiertes Routing wird von Lync Server erzwungen. Lync Server kann die Netzwerkstandorte erkennen, von denen Benutzer Verbindungen aus dem Unternehmensnetzwerk herstellen. Da sich Remotebenutzer außerhalb des Unternehmensnetzwerks befinden, werden deren Positionen als unbekannt angesehen.
+</div>
 
-## Unterstützung für Lync Server
+<div id="mainSection">
 
-Standortbasiertes Routing erfordert, dass Lync Server 2013 CU1 auf allen Front-End-Pools und Standard Edition-Servern bereitgestellt ist, die zu einer bestimmten Topologie gehören. Ist Lync Server 2013 CU1 auf einigen Lync-Komponenten in der Topologie nicht installiert, können Beschränkungen des standortbasierten Routings nicht vollständig erzwungen werden.
+<div id="mainBody">
 
-In der folgenden Tabelle ist die Kombination aus Serverrolle und -version angegeben, die für standortbasiertes Routing unterstützt wird.
+<span> </span>
+
+<span data-ttu-id="883c5-103">_**Letztes Änderungsdatum des Themas:** 2013-06-18_</span><span class="sxs-lookup"><span data-stu-id="883c5-103">_**Topic Last Modified:** 2013-06-18_</span></span>
+
+<span data-ttu-id="883c5-104">Standortbasiertes Routing wird von lync Server erzwungen.</span><span class="sxs-lookup"><span data-stu-id="883c5-104">Location-Based Routing is enforced by Lync Server.</span></span> <span data-ttu-id="883c5-105">Lync Server kann die Netzwerk Websites identifizieren, über die Benutzer im Unternehmensnetzwerk eine Verbindung herstellen.</span><span class="sxs-lookup"><span data-stu-id="883c5-105">Lync Server can identify the network sites where users are connecting from within the corporate network.</span></span> <span data-ttu-id="883c5-106">Da sich Remotebenutzer außerhalb des Unternehmensnetzwerks befinden, werden deren Positionen als unbekannt angesehen.</span><span class="sxs-lookup"><span data-stu-id="883c5-106">Since remote users are outside the corporate network, their location is considered to be unknown.</span></span>
+
+<div>
+
+## <a name="lync-server-support"></a><span data-ttu-id="883c5-107">Lync Server-Unterstützung</span><span class="sxs-lookup"><span data-stu-id="883c5-107">Lync Server Support</span></span>
+
+<span data-ttu-id="883c5-108">Standortbasiertes Routing erfordert, dass lync Server 2013 CU1 auf allen Front-End-Pools und Standard Edition-Servern in einer bestimmten Topologie bereitgestellt wird.</span><span class="sxs-lookup"><span data-stu-id="883c5-108">Location-Based Routing requires that Lync Server 2013 CU1 is deployed on all Front End pools and Standard Edition servers in a given topology.</span></span> <span data-ttu-id="883c5-109">Wenn lync Server 2013 CU1 auf bestimmten lync-Komponenten in der Topologie nicht installiert ist, können standortbasierte Routing Einschränkungen nicht vollständig erzwungen werden.</span><span class="sxs-lookup"><span data-stu-id="883c5-109">If Lync Server 2013 CU1 is not installed on certain Lync components in the topology, Location-Based Routing restrictions cannot be fully enforced.</span></span>
+
+<span data-ttu-id="883c5-110">In der folgenden Tabelle wird die Kombination aus Serverrollen und Versionen aufgeführt, die für standortbasiertes Routing unterstützt werden.</span><span class="sxs-lookup"><span data-stu-id="883c5-110">The following table identifies the combination of server roles and versions that is supported for Location-Based Routing.</span></span>
 
 
 <table>
@@ -32,54 +54,58 @@ In der folgenden Tabelle ist die Kombination aus Serverrolle und -version angege
 </colgroup>
 <thead>
 <tr class="header">
-<th>Poolversion</th>
-<th>Vermittlungsserverversion</th>
-<th>Unterstützt</th>
+<th><span data-ttu-id="883c5-111">Poolversion</span><span class="sxs-lookup"><span data-stu-id="883c5-111">Pool version</span></span></th>
+<th><span data-ttu-id="883c5-112">Mediation Server-Version</span><span class="sxs-lookup"><span data-stu-id="883c5-112">Mediation Server version</span></span></th>
+<th><span data-ttu-id="883c5-113">Unterstützt</span><span class="sxs-lookup"><span data-stu-id="883c5-113">Supported</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync Server 2013 Cumulative Update, Februar 2013</p></td>
-<td><p>Lync Server 2013 Cumulative Update, Februar 2013</p></td>
-<td><p>ja</p></td>
+<td><p><span data-ttu-id="883c5-114">Lync Server 2013 Februar 2013 Kumulatives Update</span><span class="sxs-lookup"><span data-stu-id="883c5-114">Lync Server 2013 February 2013 Cumulative Update</span></span></p></td>
+<td><p><span data-ttu-id="883c5-115">Lync Server 2013 Februar 2013 Kumulatives Update</span><span class="sxs-lookup"><span data-stu-id="883c5-115">Lync Server 2013 February 2013 Cumulative Update</span></span></p></td>
+<td><p><span data-ttu-id="883c5-116">ja</span><span class="sxs-lookup"><span data-stu-id="883c5-116">yes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2013 Cumulative Update, Februar 2013</p></td>
-<td><p>Lync Server 2013</p></td>
-<td><p>nein</p></td>
+<td><p><span data-ttu-id="883c5-117">Lync Server 2013 Februar 2013 Kumulatives Update</span><span class="sxs-lookup"><span data-stu-id="883c5-117">Lync Server 2013 February 2013 Cumulative Update</span></span></p></td>
+<td><p><span data-ttu-id="883c5-118">Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="883c5-118">Lync Server 2013</span></span></p></td>
+<td><p><span data-ttu-id="883c5-119">nein</span><span class="sxs-lookup"><span data-stu-id="883c5-119">no</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Server 2013 Cumulative Update, Februar 2013</p></td>
-<td><p>Lync Server 2010</p></td>
-<td><p>nein</p></td>
+<td><p><span data-ttu-id="883c5-120">Lync Server 2013 Februar 2013 Kumulatives Update</span><span class="sxs-lookup"><span data-stu-id="883c5-120">Lync Server 2013 February 2013 Cumulative Update</span></span></p></td>
+<td><p><span data-ttu-id="883c5-121">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="883c5-121">Lync Server 2010</span></span></p></td>
+<td><p><span data-ttu-id="883c5-122">nein</span><span class="sxs-lookup"><span data-stu-id="883c5-122">no</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2013 Cumulative Update, Februar 2013</p></td>
-<td><p>Office Communications Server 2007 R2</p></td>
-<td><p>nein</p></td>
+<td><p><span data-ttu-id="883c5-123">Lync Server 2013 Februar 2013 Kumulatives Update</span><span class="sxs-lookup"><span data-stu-id="883c5-123">Lync Server 2013 February 2013 Cumulative Update</span></span></p></td>
+<td><p><span data-ttu-id="883c5-124">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="883c5-124">Office Communications Server 2007 R2</span></span></p></td>
+<td><p><span data-ttu-id="883c5-125">nein</span><span class="sxs-lookup"><span data-stu-id="883c5-125">no</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Server 2013</p></td>
-<td><p>Beliebig</p></td>
-<td><p>nein</p></td>
+<td><p><span data-ttu-id="883c5-126">Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="883c5-126">Lync Server 2013</span></span></p></td>
+<td><p><span data-ttu-id="883c5-127">Beliebig</span><span class="sxs-lookup"><span data-stu-id="883c5-127">any</span></span></p></td>
+<td><p><span data-ttu-id="883c5-128">nein</span><span class="sxs-lookup"><span data-stu-id="883c5-128">no</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2010</p></td>
-<td><p>Beliebig</p></td>
-<td><p>nein</p></td>
+<td><p><span data-ttu-id="883c5-129">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="883c5-129">Lync Server 2010</span></span></p></td>
+<td><p><span data-ttu-id="883c5-130">Beliebig</span><span class="sxs-lookup"><span data-stu-id="883c5-130">any</span></span></p></td>
+<td><p><span data-ttu-id="883c5-131">nein</span><span class="sxs-lookup"><span data-stu-id="883c5-131">no</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Office Communications Server 2007 R2</p></td>
-<td><p>Beliebig</p></td>
-<td><p>nein</p></td>
+<td><p><span data-ttu-id="883c5-132">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="883c5-132">Office Communications Server 2007 R2</span></span></p></td>
+<td><p><span data-ttu-id="883c5-133">Beliebig</span><span class="sxs-lookup"><span data-stu-id="883c5-133">any</span></span></p></td>
+<td><p><span data-ttu-id="883c5-134">nein</span><span class="sxs-lookup"><span data-stu-id="883c5-134">no</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Unterstützung des Lync-Clients
+</div>
 
-In der folgenden Tabelle sind die Clients gekennzeichnet, die standortbasiertes Routing unterstützen.
+<div>
+
+## <a name="lync-client-support"></a><span data-ttu-id="883c5-135">Lync-Client Unterstützung</span><span class="sxs-lookup"><span data-stu-id="883c5-135">Lync Client Support</span></span>
+
+<span data-ttu-id="883c5-136">In der folgenden Tabelle sind die Clients aufgeführt, die vom standortbasierten Routing unterstützt werden.</span><span class="sxs-lookup"><span data-stu-id="883c5-136">The following table identifies the clients that Location-Based Routing supports.</span></span>
 
 
 <table>
@@ -90,50 +116,50 @@ In der folgenden Tabelle sind die Clients gekennzeichnet, die standortbasiertes 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Clienttyp</th>
-<th>Unterstützt</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="883c5-137">Clienttyp</span><span class="sxs-lookup"><span data-stu-id="883c5-137">Client type</span></span></th>
+<th><span data-ttu-id="883c5-138">Unterstützt</span><span class="sxs-lookup"><span data-stu-id="883c5-138">Supported</span></span></th>
+<th><span data-ttu-id="883c5-139">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="883c5-139">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync 2013</p></td>
-<td><p>ja</p></td>
-<td><p>Einschließlich Lync 2013 Cumulative Update, Februar 2013</p></td>
+<td><p><span data-ttu-id="883c5-140">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="883c5-140">Lync 2013</span></span></p></td>
+<td><p><span data-ttu-id="883c5-141">ja</span><span class="sxs-lookup"><span data-stu-id="883c5-141">yes</span></span></p></td>
+<td><p><span data-ttu-id="883c5-142">Einschließlich lync 2013 Februar 2013 Kumulatives Update</span><span class="sxs-lookup"><span data-stu-id="883c5-142">Including Lync 2013 February 2013 Cumulative Update</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Lync 2010</p></td>
-<td><p>ja</p></td>
+<td><p><span data-ttu-id="883c5-143">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="883c5-143">Lync 2010</span></span></p></td>
+<td><p><span data-ttu-id="883c5-144">ja</span><span class="sxs-lookup"><span data-stu-id="883c5-144">yes</span></span></p></td>
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>Office Communicator 2007 R2</p></td>
-<td><p>nein</p></td>
+<td><p><span data-ttu-id="883c5-145">Office Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="883c5-145">Office Communicator 2007 R2</span></span></p></td>
+<td><p><span data-ttu-id="883c5-146">nein</span><span class="sxs-lookup"><span data-stu-id="883c5-146">no</span></span></p></td>
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>Lync Phone Edition</p></td>
-<td><p>ja</p></td>
+<td><p><span data-ttu-id="883c5-147">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="883c5-147">Lync Phone Edition</span></span></p></td>
+<td><p><span data-ttu-id="883c5-148">ja</span><span class="sxs-lookup"><span data-stu-id="883c5-148">yes</span></span></p></td>
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>Lync Vermittlung</p></td>
-<td><p>ja</p></td>
+<td><p><span data-ttu-id="883c5-149">Lync Attendant</span><span class="sxs-lookup"><span data-stu-id="883c5-149">Lync Attendant</span></span></p></td>
+<td><p><span data-ttu-id="883c5-150">ja</span><span class="sxs-lookup"><span data-stu-id="883c5-150">yes</span></span></p></td>
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>Lync für Windows 8</p></td>
-<td><p>nein</p></td>
+<td><p><span data-ttu-id="883c5-151">Lync für Windows 8</span><span class="sxs-lookup"><span data-stu-id="883c5-151">Lync for Windows 8</span></span></p></td>
+<td><p><span data-ttu-id="883c5-152">nein</span><span class="sxs-lookup"><span data-stu-id="883c5-152">no</span></span></p></td>
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>Lync Mobile 2013</p></td>
-<td><p>nein</p></td>
-<td><p>VoIP muss für Lync Mobile 2013-Clients deaktiviert sein, wenn sie von Benutzern verwendet werden, für die standortbasiertes Routing aktiviert ist.</p></td>
+<td><p><span data-ttu-id="883c5-153">Lync Mobile 2013</span><span class="sxs-lookup"><span data-stu-id="883c5-153">Lync Mobile 2013</span></span></p></td>
+<td><p><span data-ttu-id="883c5-154">nein</span><span class="sxs-lookup"><span data-stu-id="883c5-154">no</span></span></p></td>
+<td><p><span data-ttu-id="883c5-155">VoIP muss für lync Mobile 2013-Clients deaktiviert sein, wenn Sie von Benutzern mit aktiviertem Standort basiertem Routing verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="883c5-155">VoIP must be disabled for Lync Mobile 2013 clients if used by users with Location-Based Routing enabled.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Mobile 2010</p></td>
-<td><p>ja</p></td>
+<td><p><span data-ttu-id="883c5-156">Lync Mobile 2010</span><span class="sxs-lookup"><span data-stu-id="883c5-156">Lync Mobile 2010</span></span></p></td>
+<td><p><span data-ttu-id="883c5-157">ja</span><span class="sxs-lookup"><span data-stu-id="883c5-157">yes</span></span></p></td>
 <td> </td>
 </tr>
 </tbody>
@@ -141,15 +167,35 @@ In der folgenden Tabelle sind die Clients gekennzeichnet, die standortbasiertes 
 
   
 
-
-> [!NOTE]
-> Wenn Sie VoIP für Lync Mobile 2013-Clients deaktivieren möchten, weisen Sie eine Mobilitätsrichtlinie zu, in der für alle Benutzer, für die standortbasiertes Routing aktiviert ist, die Einstellung "IP-Audio/Video aktivieren" deaktiviert wird. Ausführlichere Informationen zu Mobilitätsrichtlinien finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>.
+<div>
 
 
+> [!NOTE]  
+> <span data-ttu-id="883c5-158">Wenn Sie VoIP für lync Mobile 2013-Clients deaktivieren möchten, weisen Sie der Einstellung "IP Audio/Video" eine Mobilitätsrichtlinie zu, die für alle Benutzer deaktiviert ist, die für standortbasiertes Routing aktiviert sind.</span><span class="sxs-lookup"><span data-stu-id="883c5-158">To disable VoIP for Lync Mobile 2013 clients, assign a mobility policy with the setting, IP Audio/Video, disabled for all users enabled for Location Based Routing.</span></span> <span data-ttu-id="883c5-159">Ausführlichere Informationen zu Mobilitätsrichtlinien finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>.</span><span class="sxs-lookup"><span data-stu-id="883c5-159">For more details about mobility policy, see <A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>.</span></span>
 
-## Siehe auch
 
-#### Weitere Ressourcen
 
-[Planung des standortbasierten Routings in Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)
+</div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="883c5-160">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="883c5-160">See Also</span></span>
+
+
+[<span data-ttu-id="883c5-161">Planung des standortbasierten Routings in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="883c5-161">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

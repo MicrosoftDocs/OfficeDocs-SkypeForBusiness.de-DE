@@ -1,37 +1,65 @@
-﻿---
-title: 'Lync Server 2013: Barrierefreiheit'
-TOCTitle: Barrierefreiheit für Menschen mit Behinderung
-ms:assetid: 29c35a47-2513-425c-8b6b-250786573171
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204754(v=OCS.15)
-ms:contentKeyID: 49293497
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Barrierefreiheit'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Accessibility for people with disabilities
+ms:assetid: 29c35a47-2513-425c-8b6b-250786573171
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204754(v=OCS.15)
+ms:contentKeyID: 48183681
+ms.date: 01/15/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 428270d63184ab991bbaeb5538240bdb50a5d0d0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839974"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Barrierefreiheit in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="accessibility-in-lync-server-2013"></a><span data-ttu-id="1da12-102">Barrierefreiheit in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1da12-102">Accessibility in Lync Server 2013</span></span>
 
-Microsoft hat es sich zur Aufgabe gemacht, die Handhabung der Produkte und Dienste für jeden möglichst einfach zu gestalten. In den folgenden Abschnitten finden Sie Informationen zu den Features, Produkten und Diensten, die den Zugriff auf Lync Server 2013 für Personen mit Behinderungen vereinfachen.
+</div>
 
-## Barrierefreiheitsfeatures von Lync Server 2013
+<div id="mainSection">
 
-Die folgenden Lync Server 2013-Features vereinfachen den Einsatz von Lync Server 2013 für Personen mit Behinderungen:
+<div id="mainBody">
 
-  - Tastenkombinationen
+<span> </span>
 
-  - Alternativtext für Abbildungen
+<span data-ttu-id="1da12-103">_**Letztes Änderungsdatum des Themas:** 2014-10-09_</span><span class="sxs-lookup"><span data-stu-id="1da12-103">_**Topic Last Modified:** 2014-10-09_</span></span>
 
-Zudem können einige Barrierefreiheitsfeatures und -tools von Windows für Lync Server-Benutzer mit Behinderungen nützlich sein. Durch Größen- und Farbänderungen in Windows PowerShell werden Barrierefreiheitsoptionen beim Verwenden der Lync Server-Verwaltungsshell zur Verfügung gestellt. Detaillierte Informationen zu den Windows PowerShell-Barrierefreiheitsoptionen finden Sie im Thema zur Barrierefreiheit in Windows PowerShell 2.0 in der TechNet-Bibliothek unter <http://go.microsoft.com/fwlink/?linkid=98964>.
+<span data-ttu-id="1da12-104">Microsoft hat sich verpflichtet, seine Produkte und Dienste für alle Benutzer einfacher zu machen.</span><span class="sxs-lookup"><span data-stu-id="1da12-104">Microsoft is committed to making its products and services easier for everyone to use.</span></span> <span data-ttu-id="1da12-105">In den folgenden Abschnitten finden Sie Informationen zu den Features, Produkten und Diensten, die dazu beitragen, lync Server 2013 für Personen mit Behinderungen barrierefreier zu gestalten.</span><span class="sxs-lookup"><span data-stu-id="1da12-105">The following sections provide information about the features, products, and services that help make Lync Server 2013 more accessible for people with disabilities.</span></span>
 
-## Tastenkombinationen
+<div>
 
-Sie können Tastenkombinationen verwenden, um mit der Benutzeroberfläche in der Lync Server-Verwaltung und mit anderen Features zu interagieren.
+## <a name="accessibility-features-of-lync-server-2013"></a><span data-ttu-id="1da12-106">Barrierefreiheitsfeatures von lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1da12-106">Accessibility features of Lync Server 2013</span></span>
 
-Mithilfe von Tastenkombinationen können Sie schnell die folgenden allgemeinen Aufgaben durchführen.
+<span data-ttu-id="1da12-107">Die folgenden Features in lync Server 2013 helfen, die Barrierefreiheit für Personen mit Behinderungen zu vereinfachen:</span><span class="sxs-lookup"><span data-stu-id="1da12-107">The following features in Lync Server 2013 help make it more accessible for people with disabilities:</span></span>
+
+  - <span data-ttu-id="1da12-108">Tastenkombinationen</span><span class="sxs-lookup"><span data-stu-id="1da12-108">Keyboard Shortcuts</span></span>
+
+  - <span data-ttu-id="1da12-109">Alternativtext für Zahlen</span><span class="sxs-lookup"><span data-stu-id="1da12-109">Alternate text for figures</span></span>
+
+<span data-ttu-id="1da12-110">Darüber hinaus können einige Barrierefreiheitsfeatures und Tools von Windows für lync Server-Benutzer mit Behinderungen vorteilhaft sein.</span><span class="sxs-lookup"><span data-stu-id="1da12-110">In addition, some accessibility features and tools of Windows may benefit Lync Server users with disabilities.</span></span> <span data-ttu-id="1da12-111">Windows PowerShell-Größen-und Farbänderungen bieten Barrierefreiheitsoptionen bei Verwendung der lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="1da12-111">Windows PowerShell size and color changes provide accessibility options when using the Lync Server Management Shell.</span></span> <span data-ttu-id="1da12-112">Ausführliche Informationen zu den Windows PowerShell-Barrierefreiheitsoptionen finden Sie unter "Barrierefreiheit in Windows PowerShell 2,0" in [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964)der TechNet-Bibliothek unter.</span><span class="sxs-lookup"><span data-stu-id="1da12-112">For details about Windows PowerShell accessibility options, see “Accessibility in Windows PowerShell 2.0” in the TechNet Library at [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964).</span></span>
+
+</div>
+
+<span id="BKMK_KeyboardShortcuts"></span>
+
+<div>
+
+## <a name="keyboard-shortcuts"></a><span data-ttu-id="1da12-113">Tastenkombinationen</span><span class="sxs-lookup"><span data-stu-id="1da12-113">Keyboard shortcuts</span></span>
+
+<span data-ttu-id="1da12-114">Sie können Tastenkombinationen verwenden, um mit der Benutzeroberfläche in den lync Server-Verwaltungstools und anderen Features zu interagieren.</span><span class="sxs-lookup"><span data-stu-id="1da12-114">You can use keyboard shortcuts to interact with the user interface in Lync Server administrative tools and other features.</span></span>
+
+<span data-ttu-id="1da12-115">Mithilfe von Tastenkombinationen können Sie die folgenden allgemeinen Aufgaben schnell ausführen.</span><span class="sxs-lookup"><span data-stu-id="1da12-115">By using keyboard shortcuts, you can quickly accomplish the following common tasks.</span></span>
 
 
 <table>
@@ -41,98 +69,120 @@ Mithilfe von Tastenkombinationen können Sie schnell die folgenden allgemeinen A
 </colgroup>
 <thead>
 <tr class="header">
-<th>Aufgabe</th>
-<th>Tastenkombination</th>
+<th><span data-ttu-id="1da12-116">Zu diesem Zweck</span><span class="sxs-lookup"><span data-stu-id="1da12-116">To do this</span></span></th>
+<th><span data-ttu-id="1da12-117">Verwenden Sie diese Tastenkombination</span><span class="sxs-lookup"><span data-stu-id="1da12-117">Use this keyboard shortcut</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Wechseln zwischen Elementen auf der Benutzeroberfläche</p></td>
-<td><p>TAB-TASTE</p></td>
+<td><p><span data-ttu-id="1da12-118">Wechseln zwischen Elementen auf der Benutzeroberfläche</span><span class="sxs-lookup"><span data-stu-id="1da12-118">Switch between elements in the user interface.</span></span></p></td>
+<td><p><span data-ttu-id="1da12-119">Registerkarte</span><span class="sxs-lookup"><span data-stu-id="1da12-119">Tab</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Durchführen der Aktion für das ausgewählte Element, z. B. <strong>Alle anzeigen</strong>, <strong>Alle ausblenden</strong>, oder Öffnen eines Links</p></td>
-<td><p>EINGABETASTE</p></td>
+<td><p><span data-ttu-id="1da12-120">Führen Sie die Aktion für das ausgewählte Element aus, beispielsweise " <strong>Alle anzeigen</strong>", " <strong>Alle ausblenden</strong>" oder einen Link öffnen.</span><span class="sxs-lookup"><span data-stu-id="1da12-120">Perform the action for the selected element, such as <strong>Show All</strong>, <strong>Hide All</strong>, or open a hyperlink.</span></span></p></td>
+<td><p><span data-ttu-id="1da12-121">Eingeben</span><span class="sxs-lookup"><span data-stu-id="1da12-121">Enter</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Wechseln vom ausgewählten Element zum nächsten Element auf der Seite oder in einem Menü</p></td>
-<td><p>TAB-TASTE</p></td>
+<td><p><span data-ttu-id="1da12-122">Das ausgewählte Element in das nächste Element auf der Seite oder in einem Menü ändern</span><span class="sxs-lookup"><span data-stu-id="1da12-122">Change the selected element to the next element on the page or in a menu.</span></span></p></td>
+<td><p><span data-ttu-id="1da12-123">Registerkarte</span><span class="sxs-lookup"><span data-stu-id="1da12-123">Tab</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Wechseln vom ausgewählten Element zum vorherigen Element auf der Seite</p></td>
-<td><p>UMSCHALT+TAB</p></td>
+<td><p><span data-ttu-id="1da12-124">Das ausgewählte Element in das vorherige Element auf der Seite ändern.</span><span class="sxs-lookup"><span data-stu-id="1da12-124">Change the selected element to the previous element on the page.</span></span></p></td>
+<td><p><span data-ttu-id="1da12-125">UMSCHALT + TAB</span><span class="sxs-lookup"><span data-stu-id="1da12-125">Shift+Tab</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Navigieren nach oben, unten, links oder rechts, um auf der Seite oder im Menü ein anderes Element auszuwählen</p></td>
-<td><p>Pfeiltasten</p></td>
+<td><p><span data-ttu-id="1da12-126">Ändern des ausgewählten Elements auf der Seite oder im Menü nach oben, unten, Links oder rechts</span><span class="sxs-lookup"><span data-stu-id="1da12-126">Change the selected element on the page or menu up, down, left, or right.</span></span></p></td>
+<td><p><span data-ttu-id="1da12-127">Pfeiltasten</span><span class="sxs-lookup"><span data-stu-id="1da12-127">Arrow Keys</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Erweitern des ausgewählten Knotens in der Struktur</p></td>
-<td><p>TASTE +</p></td>
+<td><p><span data-ttu-id="1da12-128">Erweitern des ausgewählten Knotens in der Struktur</span><span class="sxs-lookup"><span data-stu-id="1da12-128">Expand the selected node in tree.</span></span></p></td>
+<td><p><span data-ttu-id="1da12-129">+Schlüssel</span><span class="sxs-lookup"><span data-stu-id="1da12-129">+ Key</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Reduzieren des ausgewählten Knotens in der Struktur</p></td>
-<td><p>TASTE -</p></td>
+<td><p><span data-ttu-id="1da12-130">Reduzieren des ausgewählten Knotens in der Struktur</span><span class="sxs-lookup"><span data-stu-id="1da12-130">Collapse the selected node in the tree.</span></span></p></td>
+<td><p><span data-ttu-id="1da12-131">-Schlüssel</span><span class="sxs-lookup"><span data-stu-id="1da12-131">- Key</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Zugreifen auf die Menüleiste</p></td>
-<td><p>ALT-TASTE</p></td>
+<td><p><span data-ttu-id="1da12-132">Öffnen Sie die Menüleiste.</span><span class="sxs-lookup"><span data-stu-id="1da12-132">Access the menu bar.</span></span></p></td>
+<td><p><span data-ttu-id="1da12-133">Alt</span><span class="sxs-lookup"><span data-stu-id="1da12-133">Alt</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Zugreifen auf einen Menüleistenbefehl</p></td>
-<td><p>ALT-TASTE + der im Menü unterstrichene Buchstabe</p></td>
+<td><p><span data-ttu-id="1da12-134">Zugreifen auf einen Menüleisten Befehl</span><span class="sxs-lookup"><span data-stu-id="1da12-134">Access a menu bar command.</span></span></p></td>
+<td><p><span data-ttu-id="1da12-135">ALT + Buchstabe im Kontextmenü unterstrichen.</span><span class="sxs-lookup"><span data-stu-id="1da12-135">Alt+ the letter underlined in the shortcut menu.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Auswählen der Dropdownliste im Zertifikat-Assistenten</p></td>
-<td><p>TAB-TASTE</p></td>
+<td><p><span data-ttu-id="1da12-136">Wählen Sie im Zertifikat-Assistenten die Dropdownliste aus.</span><span class="sxs-lookup"><span data-stu-id="1da12-136">Select the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="1da12-137">Registerkarte</span><span class="sxs-lookup"><span data-stu-id="1da12-137">Tab</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Öffnen der Dropdownliste im Zertifikat-Assistenten</p></td>
-<td><p>STRG+LEERTASTE</p></td>
+<td><p><span data-ttu-id="1da12-138">Öffnen Sie die Dropdownliste im Zertifikat-Assistenten.</span><span class="sxs-lookup"><span data-stu-id="1da12-138">Open the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="1da12-139">STRG + LEERTASTE</span><span class="sxs-lookup"><span data-stu-id="1da12-139">Ctrl+Spacebar</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Markieren eines Elements in der Dropdownliste im Zertifikat-Assistenten</p></td>
-<td><p>TAB-TASTE und dann STRG+Pfeiltasten, um zwischen Elementen zu wechseln</p></td>
+<td><p><span data-ttu-id="1da12-140">Hervorheben eines Elements in der Dropdownliste im Zertifikat-Assistenten</span><span class="sxs-lookup"><span data-stu-id="1da12-140">Highlight an item in the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="1da12-141">Tab und dann STRG + Pfeiltasten, um zwischen den Elementen zu wechseln.</span><span class="sxs-lookup"><span data-stu-id="1da12-141">Tab, and then Ctrl+Arrow keys to move between items.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Auswählen oder Löschen eines Elements in der Dropdownliste im Zertifikat-Assistenten</p></td>
-<td><p>STRG+LEERTASTE</p></td>
+<td><p><span data-ttu-id="1da12-142">Auswählen oder Löschen eines Elements in der Dropdownliste im Zertifikat-Assistenten</span><span class="sxs-lookup"><span data-stu-id="1da12-142">Select or clear an item in the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="1da12-143">STRG + LEERTASTE</span><span class="sxs-lookup"><span data-stu-id="1da12-143">Ctrl+Spacebar</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Alternativtext für Abbildungen
+</div>
 
-Jede Abbildung in der Lync Server 2013-Hilfe, z. B. Screenshots, Diagramme, Flussdiagramme und andere Abbildungen, besitzt einen zugeordneten Alternativtext. Benutzer, die Schwierigkeiten bei der Anzeige von Abbildungen haben, können den Cursor über der Abbildung positionieren und den Alternativtext lesen. Der Alternativtext beschreibt den Inhalt der Abbildung.
+<span id="BKMK_AltText"></span>
 
-## Barrierefreiheitsprodukte und -dienste von Microsoft
+<div>
 
-Die folgenden Abschnitte enthalten Informationen zu den Features, Produkten und Diensten, mit denen Windows für Personen mit Behinderungen einfacher einzusetzen ist.
+## <a name="alternate-text-for-figures"></a><span data-ttu-id="1da12-144">Alternativtext für Zahlen</span><span class="sxs-lookup"><span data-stu-id="1da12-144">Alternate text for figures</span></span>
+
+<span data-ttu-id="1da12-145">Jede Abbildung in der Hilfe zu lync Server 2013, einschließlich Screenshots, Diagrammen, Flussdiagrammen und anderen Abbildungen, weist einen alternativen Text auf.</span><span class="sxs-lookup"><span data-stu-id="1da12-145">Every figure in Lync Server 2013 Help, including screenshots, diagrams, flow charts, and other figures, has associated alternate text.</span></span> <span data-ttu-id="1da12-146">Benutzer, die Probleme beim Anzeigen von Zahlen haben, können den Cursor auf der Abbildung anhalten, um den Alternativtext zu lesen.</span><span class="sxs-lookup"><span data-stu-id="1da12-146">Users who have difficulty viewing figures can pause the cursor on the figure to read the alternate text.</span></span> <span data-ttu-id="1da12-147">Der Alternativtext beschreibt, was in der Abbildung gezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="1da12-147">The alternate text describes what is shown in the figure.</span></span>
+
+</div>
+
+<span id="BKMK_AccessMS"></span>
+
+<div>
+
+## <a name="accessibility-products-and-services-from-microsoft"></a><span data-ttu-id="1da12-148">Barrierefreiheits Produkte und-Dienste von Microsoft</span><span class="sxs-lookup"><span data-stu-id="1da12-148">Accessibility products and services from Microsoft</span></span>
+
+<span data-ttu-id="1da12-149">In den folgenden Abschnitten werden Informationen zu den Features, Produkten und Diensten bereitgestellt, die Windows für Personen mit Behinderungen barrierefreier machen.</span><span class="sxs-lookup"><span data-stu-id="1da12-149">The following sections provide information about the features, products, and services that make Windows more accessible for people with disabilities.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Die in diesem Abschnitt enthaltenen Informationen gelten nur für Benutzer, die Microsoft-Produkte in den USA lizenzieren lassen. Wenn Sie dieses Produkt außerhalb der USA erworben haben, enthält das Softwarepaket eine Karte mit zusätzlichen Informationen, aus der die Telefonnummern und die Adressen des Microsoft-Supportdiensts hervorgehen. Diese Informationen finden Sie auch auf der Microsoft-Website zur Barrierefreiheit unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=18139">http://go.microsoft.com/fwlink/?linkid=18139</A>. In Ihrer Niederlassung erhalten Sie Informationen darüber, welche der in diesem Abschnitt beschriebenen Produkte und Dienste in Ihrer Region verfügbar sind. Weitere Informationen zu den Barrierefreiheitsfeatures, die in Microsoft-Produkten enthalten sind, finden Sie auf der Website zur Barrierefreiheit in Microsoft-Produkten.
+> [!NOTE]  
+> <span data-ttu-id="1da12-150">Die Informationen in diesem Abschnitt gelten nur für Benutzer, die Microsoft-Produkte in den Vereinigten Staaten lizenzieren.</span><span class="sxs-lookup"><span data-stu-id="1da12-150">The information in this section applies only to users who license Microsoft products in the United States.</span></span> <span data-ttu-id="1da12-151">Wenn Sie dieses Produkt außerhalb der Vereinigten Staaten erworben haben, können Sie die im Lieferumfang Ihres Softwarepakets enthaltene Zusatz Informationskarte verwenden oder die Microsoft <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> -Website für Barrierefreiheit besuchen, um eine Liste der Telefonnummern und Adressen für den Microsoft-Support zu erhalten. Services.</span><span class="sxs-lookup"><span data-stu-id="1da12-151">If you obtained this product outside the United States, you can use the subsidiary information card that came with your software package or visit the Microsoft Accessibility website at <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> for a list of telephone numbers and addresses for Microsoft support services.</span></span> <span data-ttu-id="1da12-152">Sie können sich an Ihre Niederlassung wenden, um herauszufinden, ob die in diesem Abschnitt beschriebenen Arten von Produkten und Dienstleistungen in Ihrem Gebiet zur Verfügung stehen.</span><span class="sxs-lookup"><span data-stu-id="1da12-152">You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area.</span></span> <span data-ttu-id="1da12-153">Weitere Informationen zu den Barrierefreiheitsfeatures, die in Microsoft-Produkten enthalten sind, finden Sie auf der Website Barrierefreiheit in Microsoft-Produkten.</span><span class="sxs-lookup"><span data-stu-id="1da12-153">You can learn more about the accessibility features included in Microsoft products on the Accessibility in Microsoft Products website.</span></span>
 
 
 
-## Barrierefreiheitsfeatures von Windows
+</div>
 
-Das Betriebssystem Windows verfügt über zahlreiche integrierte Barrierefreiheitsfeatures für Personen, die Schwierigkeiten mit der Tastatureingabe oder der Bedienung der Maus haben oder sehbehindert oder blind bzw. taub oder hörgeschädigt sind. Die Features werden beim Ausführen von Setup installiert. Weitere Informationen zu diesen Features finden Sie in der Windows-Hilfe oder auf der Microsoft-Website für Barrierefreiheit unter <http://go.microsoft.com/fwlink/?linkid=18139>.
+<div>
 
-  - **Kostenlose Lernprogramme mit Schritt-für-Schritt-Beschreibungen**   Microsoft bietet eine Reihe von Lernprogrammen mit Schritt-für-Schritt-Beschreibungen an, die veranschaulichen, wie die Barrierefreiheitsoptionen und -einstellungen auf Ihrem Computer angepasst werden können. Diese Informationen werden parallel präsentiert, sodass Sie die Verwendung der Maus, der Tastatur oder die kombinierte Verwendung beider Eingabegeräte erlernen können.
+## <a name="accessibility-features-of-windows"></a><span data-ttu-id="1da12-154">Barrierefreiheitsfeatures von Windows</span><span class="sxs-lookup"><span data-stu-id="1da12-154">Accessibility features of Windows</span></span>
+
+<span data-ttu-id="1da12-155">Das Windows-Betriebssystem verfügt über viele integrierte Barrierefreiheitsfeatures, die für Personen hilfreich sind, die Probleme bei der Eingabe oder Verwendung einer Maus haben, die blind sind oder sehbehindert sind oder die taub oder schwerhörig sind.</span><span class="sxs-lookup"><span data-stu-id="1da12-155">The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or hard-of-hearing.</span></span> <span data-ttu-id="1da12-156">Die Features werden während des Setups installiert.</span><span class="sxs-lookup"><span data-stu-id="1da12-156">The features are installed during Setup.</span></span> <span data-ttu-id="1da12-157">Details zu diesen Features finden Sie unter Windows-Hilfe oder Microsoft- [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)Barrierefreiheit unter.</span><span class="sxs-lookup"><span data-stu-id="1da12-157">For details about these features, see Windows Help or Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+
+  - <span data-ttu-id="1da12-158">**﻿Kostenlose Schritt-für-Schritt-Anleitungen**   Microsoft bietet eine Reihe von schrittweisen Lernprogrammen, in denen detaillierte Verfahren zum Anpassen der Barrierefreiheitsoptionen und-Einstellungen auf dem Computer bereitgestellt werden.</span><span class="sxs-lookup"><span data-stu-id="1da12-158">**Free step-by-step tutorials**   Microsoft offers a series of step-by-step tutorials that provide detailed procedures for adjusting the accessibility options and settings on your computer.</span></span> <span data-ttu-id="1da12-159">Diese Informationen werden in einem nebeneinander angeordneten Format angezeigt, damit Sie erfahren, wie Sie die Maus, die Tastatur oder eine Kombination aus beidem verwenden können.</span><span class="sxs-lookup"><span data-stu-id="1da12-159">This information is presented in a side-by-side format so that you can learn how to use the mouse, the keyboard, or a combination of both.</span></span>
     
-    Sie finden weitere Informationen zu schrittweisen Lernprogrammen für Microsoft-Produkte auf der Microsoft-Website für Barrierefreiheit unter <http://go.microsoft.com/fwlink/?linkid=18139>.
+    <span data-ttu-id="1da12-160">Schritt-für-Schritt-Anleitungen für Microsoft-Produkte finden Sie unter Barrierefreiheit [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)in Microsoft.</span><span class="sxs-lookup"><span data-stu-id="1da12-160">To find step-by-step tutorials for Microsoft products, see Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
 
-  - **Hilfstechnologieprodukte für Windows**   Eine Vielzahl von Hilfstechnologieprodukten steht zur Verfügung, um Personen mit Behinderungen die Verwendung von Computern zu erleichtern. Microsoft stellt auf der Microsoft-Website zur Barrierefreiheit <http://go.microsoft.com/fwlink/?linkid=18139> einen Suchkatalog für technische Hilfsmittel bereit, die unter Windows ausgeführt werden können.
+  - <span data-ttu-id="1da12-161">**Hilfstechnologieprodukte für Windows**   eine große Auswahl an Hilfstechnologieprodukte steht zur Verfügung, um die Verwendung von Computern für Personen mit Behinderungen zu erleichtern.</span><span class="sxs-lookup"><span data-stu-id="1da12-161">**Assistive technology products for Windows**   A wide variety of assistive technology products are available to make computers easier to use for people with disabilities.</span></span> <span data-ttu-id="1da12-162">Sie können einen Katalog mit Hilfstechnologieprodukte durchsuchen, die unter Windows auf der Microsoft [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)-Website für Barrierefreiheit ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="1da12-162">You can search a catalog of assistive technology products that run on Windows on the Microsoft Accessibility website at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
     
-    Wenn Sie Hilfstechnologie verwenden, informieren Sie sich bei Ihrem Hilfstechnologieanbieter über mögliche Kompatibilitätsprobleme, bevor Sie Ihre Software oder Hardware aktualisieren.
+    <span data-ttu-id="1da12-163">Wenn Sie Hilfstechnologien verwenden, wenden Sie sich an Ihren Anbieter für Hilfstechnologien, bevor Sie Ihr Software-oder Hardware-Upgrade durchführen, um mögliche Kompatibilitätsprobleme zu überprüfen.</span><span class="sxs-lookup"><span data-stu-id="1da12-163">If you use assistive technology, be sure to contact your assistive technology vendor before you upgrade your software or hardware to check for possible compatibility issues.</span></span>
 
-## Dokumentation in alternativen Formaten
+</div>
 
-Falls Sie Probleme beim Lesen oder Verwenden von gedruckten Dokumenten haben, können Sie sich die Dokumentation für viele Microsoft-Produkte in anderen Formaten besorgen, die den Zugriff für Personen mit Behinderungen erleichtern. Sie finden eine Übersicht über die barrierefreien Produktdokumentation auf der Microsoft-Website für Barrierefreiheit unter <http://go.microsoft.com/fwlink/?linkid=18139>.
+<div>
 
-Weitere Microsoft-Veröffentlichungen erhalten Sie bei Recording for the Blind & Dyslexic, Inc (RFB\&D). RFB\&D verteilt diese Dokumente an registrierte, berechtigte Mitglieder ihres Vertriebsdiensts. Wenn Sie Informationen zur Verfügbarkeit der Microsoft-Produktdokumentation und Bücher von Microsoft Press benötigen, wenden Sie sich an RFB\&D.
+## <a name="documentation-in-alternative-formats"></a><span data-ttu-id="1da12-164">Dokumentation in alternativen Formaten</span><span class="sxs-lookup"><span data-stu-id="1da12-164">Documentation in alternative formats</span></span>
+
+<span data-ttu-id="1da12-165">Wenn Sie Probleme beim Lesen oder Umgang mit gedruckten Materialien haben, können Sie die Dokumentation für viele Microsoft-Produkte in barrierefreieren Formaten abrufen.</span><span class="sxs-lookup"><span data-stu-id="1da12-165">If you have difficulty reading or handling printed materials, you can obtain the documentation for many Microsoft products in more accessible formats.</span></span> <span data-ttu-id="1da12-166">Einen Index der barrierefreien Produktdokumentation finden Sie auf der Microsoft Accessibility-Website [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)unter.</span><span class="sxs-lookup"><span data-stu-id="1da12-166">You can obtain an index of accessible product documentation on the Microsoft Accessibility website at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+
+<span data-ttu-id="1da12-167">Darüber hinaus können Sie weitere Microsoft-Publikationen aus der Aufzeichnung für Blind #a0 Legasthenie, Inc (RFB\&D) abrufen.</span><span class="sxs-lookup"><span data-stu-id="1da12-167">In addition, you can obtain additional Microsoft publications from Recording for the Blind & Dyslexic, Inc (RFB\&D).</span></span> <span data-ttu-id="1da12-168">RFB\&D verteilt diese Dokumente an registrierte, berechtigte Mitglieder Ihres Verteilungs Diensts.</span><span class="sxs-lookup"><span data-stu-id="1da12-168">RFB\&D distributes these documents to registered, eligible members of their distribution service.</span></span> <span data-ttu-id="1da12-169">Informationen zur Verfügbarkeit der Microsoft-Produktdokumentation und Bücher von Microsoft Press erhalten Sie von\&RFB D.</span><span class="sxs-lookup"><span data-stu-id="1da12-169">For information about the availability of Microsoft product documentation and books from Microsoft Press, contact RFB\&D.</span></span>
 
 
 <table>
@@ -141,41 +191,67 @@ Weitere Microsoft-Veröffentlichungen erhalten Sie bei Recording for the Blind &
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Recording for the Blind &amp; Dyslexic, Inc.</p>
-<p>20 Roszel Road</p>
-<p>Princeton, NJ 08540, USA</p>
-<p>Telefonnummer, wenn Sie innerhalb der USA anrufen: (800) 221-4792</p>
-<p>Website: Recording for the Blind &amp; Dyslexic unter <a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></p></td>
+<td><p><span data-ttu-id="1da12-170">Aufzeichnung für blinde &amp; Legasthenie, Inc.</span><span class="sxs-lookup"><span data-stu-id="1da12-170">Recording for the Blind &amp; Dyslexic, Inc.</span></span></p>
+<p><span data-ttu-id="1da12-171">20 Roszel Road</span><span class="sxs-lookup"><span data-stu-id="1da12-171">20 Roszel Road</span></span></p>
+<p><span data-ttu-id="1da12-172">Princeton, NJ 08540</span><span class="sxs-lookup"><span data-stu-id="1da12-172">Princeton, NJ 08540</span></span></p>
+<p><span data-ttu-id="1da12-173">Telefonnummer innerhalb der Vereinigten Staaten: (800) 221-4792</span><span class="sxs-lookup"><span data-stu-id="1da12-173">Telephone number from within the United States: (800) 221-4792</span></span></p>
+<p><span data-ttu-id="1da12-174">Website: Aufzeichnung für blinde &amp; Legasthenie unter<a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></span><span class="sxs-lookup"><span data-stu-id="1da12-174">Website: Recording for the Blind &amp; Dyslexic at <a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Kundendienst für Personen mit Behinderungen
+</div>
 
-Microsoft möchte sicherstellen, dass alle Kunden, einschließlich Personen mit Behinderungen, die bestmögliche Leistung erhalten. Wenn Sie Hilfe benötigen, wenden Sie sich per Telefon oder E-Mail an das Supportteam für Barrierefreiheit, das in der Unterstützung von Personen mit Behinderungen geschult ist.
+<div>
 
-[Kontakt zum Support für Barrierefreiheit](http://support.microsoft.com/gp/contact-microsoft-accessibility)
+## <a name="customer-service-for-people-with-disabilities"></a><span data-ttu-id="1da12-175">Kundendienst für Personen mit Behinderungen</span><span class="sxs-lookup"><span data-stu-id="1da12-175">Customer service for people with disabilities</span></span>
 
-Direktwahltelefon: 1-800-936-5900
+<span data-ttu-id="1da12-176">Microsoft möchte allen unseren Kunden, auch Menschen mit Behinderungen, die bestmögliche Erfahrung bieten.</span><span class="sxs-lookup"><span data-stu-id="1da12-176">Microsoft wants to provide the best possible experience for all our customers, including people with disabilities.</span></span> <span data-ttu-id="1da12-177">Wenn Sie Hilfe benötigen, wenden Sie sich an das Support Team für Barrierefreiheit, das geschult ist, um Personen mit Behinderungen per Telefon oder e-Mail zu helfen.</span><span class="sxs-lookup"><span data-stu-id="1da12-177">If you need help, contact our Accessibility Support team, who are trained to help people with disabilities by telephone or email.</span></span>
 
-TTY: 1-800-892-5234
+[<span data-ttu-id="1da12-178">Wenden Sie sich an den answer Desk für Behinderungen</span><span class="sxs-lookup"><span data-stu-id="1da12-178">Contact the Disability Answer Desk</span></span>](http://support.microsoft.com/gp/contact-microsoft-accessibility)
 
-Wochentags: 5:00 bis 21:00 Uhr (pazifische Zeit)
+<span data-ttu-id="1da12-179">Direktwahltelefon: 1-800-936-5900</span><span class="sxs-lookup"><span data-stu-id="1da12-179">Direct Telephone Line: 1-800-936-5900</span></span>
 
-Am Wochenende: 6:00 bis 15:00 Uhr (pazifische Zeit)
+<span data-ttu-id="1da12-180">TTY: 1-800-892-5234</span><span class="sxs-lookup"><span data-stu-id="1da12-180">TTY: 1-800-892-5234</span></span>
 
-## Kundenservice für Personen mit Hörschädigungen
+<span data-ttu-id="1da12-181">Werktags: 5 Uhr</span><span class="sxs-lookup"><span data-stu-id="1da12-181">Weekdays: 5 A.M.</span></span> <span data-ttu-id="1da12-182">-21.00 Uhr</span><span class="sxs-lookup"><span data-stu-id="1da12-182">- 9 P.M.</span></span> <span data-ttu-id="1da12-183">(Pazifik Zeit)</span><span class="sxs-lookup"><span data-stu-id="1da12-183">(Pacific Time)</span></span>
 
-Wenn Sie taub oder hörgeschädigt sind, können Sie über den Texttelefondienst (TTY/TDD) auf alle Produkt- und Kundendienste von Microsoft zugreifen:
+<span data-ttu-id="1da12-184">Wochenenden: 6.00 Uhr</span><span class="sxs-lookup"><span data-stu-id="1da12-184">Weekends: 6 A.M.</span></span> <span data-ttu-id="1da12-185">-15.00 Uhr</span><span class="sxs-lookup"><span data-stu-id="1da12-185">- 3 P.M.</span></span> <span data-ttu-id="1da12-186">(Pazifik Zeit)</span><span class="sxs-lookup"><span data-stu-id="1da12-186">(Pacific Time)</span></span>
 
-  - Kundendienst und -support stellt das Microsoft Sales Information Center unter der Rufnummer (800) 892-5234 montags bis freitags von 06:30 bis 17:30 Uhr (Pacific Time), außer an Feiertagen, zur Verfügung.
+</div>
 
-  - Technische Unterstützung in den USA bietet der Produktsupport von Microsoft, den Sie unter der Rufnummer (800) 892-5234 montags bis freitags von 06:00 bis 18:00 Uhr (Pacific Time) erreichen, außer an Feiertagen. In Kanada ist die Rufnummer (905) 568-9641 montags bis freitags von 08:00 bis 20:00 Uhr (Eastern Standard Time) erreichbar, außer an Feiertagen.
+<div>
 
-Der Microsoft-Produktsupport unterliegt den Preisen und Bedingungen, die zum Zeitpunkt der Inanspruchnahme des Diensts gelten. Details hierzu finden Sie auf der Microsoft Support-Website unter <http://go.microsoft.com/fwlink/?linkid=18142>.
+## <a name="customer-service-for-people-with-hearing-impairments"></a><span data-ttu-id="1da12-187">Kundenservice für Personen mit Hörschädigungen</span><span class="sxs-lookup"><span data-stu-id="1da12-187">Customer service for people with hearing impairments</span></span>
 
-## Weitere Informationen
+<span data-ttu-id="1da12-188">Wenn Sie gehörlos oder schwerhörig sind, ist der vollständige Zugriff auf Microsoft-Produkte und-Kundendienste über einen Text Telephone-Service (TTY/TDD) verfügbar:</span><span class="sxs-lookup"><span data-stu-id="1da12-188">If you're deaf or hard-of-hearing, complete access to Microsoft product and customer services is available through a text telephone (TTY/TDD) service:</span></span>
 
-Weitere Informationen dazu, wie barrierefreie Computertechnologien dazu beitragen, Menschen mit Behinderungen zu unterstützen, finden Sie auf der Microsoft-Website zur Barrierefreiheit unter <http://go.microsoft.com/fwlink/?linkid=18139>.
+  - <span data-ttu-id="1da12-189">Wenden Sie sich für den Kundendienst an das Microsoft Sales Information Center unter (800) 892-5234 zwischen 6:30 Uhr.</span><span class="sxs-lookup"><span data-stu-id="1da12-189">For customer service, contact Microsoft Sales Information Center at (800) 892-5234 between 6:30 A.M.</span></span> <span data-ttu-id="1da12-190">und 5:30 Uhr</span><span class="sxs-lookup"><span data-stu-id="1da12-190">and 5:30 P.M.</span></span> <span data-ttu-id="1da12-191">Pazifik Zeit, Montag bis Freitag, ohne Feiertage.</span><span class="sxs-lookup"><span data-stu-id="1da12-191">Pacific Time, Monday through Friday, excluding holidays.</span></span>
+
+  - <span data-ttu-id="1da12-192">Wenden Sie sich für technische Hilfe in den Vereinigten Staaten an den Microsoft-Produkt Support unter (800) 892-5234 zwischen 6:00 Uhr.</span><span class="sxs-lookup"><span data-stu-id="1da12-192">For technical assistance in the United States, contact Microsoft Product Support Services at (800) 892-5234 between 6:00 A.M.</span></span> <span data-ttu-id="1da12-193">und 6:00 Uhr</span><span class="sxs-lookup"><span data-stu-id="1da12-193">and 6:00 P.M.</span></span> <span data-ttu-id="1da12-194">Pazifik Zeit, Montag bis Freitag, ohne Feiertage.</span><span class="sxs-lookup"><span data-stu-id="1da12-194">Pacific Time, Monday through Friday, excluding holidays.</span></span> <span data-ttu-id="1da12-195">In Kanada: Wählen Sie (905) 568-9641 zwischen 8:00 Uhr</span><span class="sxs-lookup"><span data-stu-id="1da12-195">In Canada, dial (905) 568-9641 between 8:00 A.M.</span></span> <span data-ttu-id="1da12-196">und 8:00 Uhr</span><span class="sxs-lookup"><span data-stu-id="1da12-196">and 8:00 P.M.</span></span> <span data-ttu-id="1da12-197">Eastern Time, Montag bis Freitag, ohne Feiertage.</span><span class="sxs-lookup"><span data-stu-id="1da12-197">Eastern Time, Monday through Friday, excluding holidays.</span></span>
+
+<span data-ttu-id="1da12-198">Die Microsoft-Support Dienste unterliegen den Preisen, Bedingungen und Konditionen, die zum Zeitpunkt der Nutzung des Diensts gelten.</span><span class="sxs-lookup"><span data-stu-id="1da12-198">Microsoft Support Services are subject to the prices, terms, and conditions in place at the time the service is used.</span></span> <span data-ttu-id="1da12-199">Ausführliche Informationen finden Sie unter Microsoft [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142)-Support unter.</span><span class="sxs-lookup"><span data-stu-id="1da12-199">For details, see Microsoft Support at [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142).</span></span>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="for-more-information"></a><span data-ttu-id="1da12-200">Weitere Informationen</span><span class="sxs-lookup"><span data-stu-id="1da12-200">For more information</span></span>
+
+<span data-ttu-id="1da12-201">Details dazu, wie die barrierefreie Technologie für Computer hilft, das Leben von Menschen mit Behinderungen zu verbessern [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139), finden Sie unter Barrierefreiheit in Microsoft.</span><span class="sxs-lookup"><span data-stu-id="1da12-201">For details about how accessible technology for computers helps to improve the lives of people with disabilities, see Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

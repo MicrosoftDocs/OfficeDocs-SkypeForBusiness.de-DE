@@ -1,19 +1,49 @@
-﻿---
-title: Sichern von Systemen und Daten
-TOCTitle: Sichern von Systemen und Daten
-ms:assetid: b0bbab1e-0361-4bc4-9998-21d182be7b46
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205174(v=OCS.15)
-ms:contentKeyID: 49295112
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Sichern von Systemen und Daten
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Back up systems and data
+ms:assetid: b0bbab1e-0361-4bc4-9998-21d182be7b46
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205174(v=OCS.15)
+ms:contentKeyID: 48185118
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 80832fe06f97a2fde4c48380a403683fbefe706c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839108"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Sichern von Systemen und Daten
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="back-up-systems-and-data"></a><span data-ttu-id="55a91-102">Sichern von Systemen und Daten</span><span class="sxs-lookup"><span data-stu-id="55a91-102">Back up systems and data</span></span>
 
-Bevor Sie mit der Migration auf Lync Server 2013 beginnen, sollten Sie unbedingt ein vollständiges Backup und eine Dokumentation Ihres Systems erstellen, einschließlich einer Auflistung der Benutzerkonten, die in jedem der Pools vorhanden sind. Auf diese Weise können Sie bei Bedarf leichter ein Rollback auf Office Communications Server 2007 R2 ausführen. Mehrere Tools und Programme stehen für die Sicherung und Wiederherstellung von Daten, Einstellungen und Systemen zur Verfügung. Genauere Informationen und Vorgehensweisen finden Sie im "Office Communications Server 2007 R2 Backup and Restoration Guide" unter <http://go.microsoft.com/fwlink/p/?linkid=168162>.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="55a91-103">_**Letztes Änderungsdatum des Themas:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="55a91-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+
+<span data-ttu-id="55a91-104">Bevor Sie mit der Migration zu lync Server 2013 beginnen, wird dringend empfohlen, dass Sie eine vollständige Systemsicherung durchführen und das vorhandene System dokumentieren, einschließlich eines Inventars der Benutzerkonten, die sich in jedem Pool befinden, damit Sie ein Rollback zu Office Communications ausführen können. Server 2007 R2, falls dies erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="55a91-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Office Communications Server 2007 R2 if it becomes necessary.</span></span> <span data-ttu-id="55a91-105">Es stehen mehrere Tools und Programme zum Sichern und Wiederherstellen von Daten, Einstellungen und Systemen zur Verfügung.</span><span class="sxs-lookup"><span data-stu-id="55a91-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span> <span data-ttu-id="55a91-106">Details und Verfahren finden Sie unter "Handbuch zur Sicherung und Wiederherstellung von <http://go.microsoft.com/fwlink/p/?linkid=168162>Office Communications Server 2007 R2" unter.</span><span class="sxs-lookup"><span data-stu-id="55a91-106">For details and procedures, see "Office Communications Server 2007 R2 Backup and Restoration Guide" at <http://go.microsoft.com/fwlink/p/?linkid=168162>.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
