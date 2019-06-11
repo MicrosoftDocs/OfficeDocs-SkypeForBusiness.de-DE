@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Device-Tabelle'
-TOCTitle: Device-Tabelle
-ms:assetid: d5a4f777-bc12-4ce8-bc0d-867d5e22b436
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398930(v=OCS.15)
-ms:contentKeyID: 49295534
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Device-Tabelle'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Device table
+ms:assetid: d5a4f777-bc12-4ce8-bc0d-867d5e22b436
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398930(v=OCS.15)
+ms:contentKeyID: 48185544
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 974898f6c3fa96dd9356a0a9eed1e3fab09d288b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832430"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Device-Tabelle in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="device-table-in-lync-server-2013"></a>Device-Tabelle in Lync Server 2013
 
-Bei der **Device** -Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird und in der Informationen über die verschiedenen Aufnahme- oder Darstellungsgeräte gespeichert sind. Jeder Datensatz in der Tabelle steht für ein Gerät.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+
+Die Gerätetabelle ist eine unterstützende Tabelle, in der Informationen zu den verschiedenen Aufnahme-oder Render-Geräten gespeichert werden. Jeder Datensatz in der Tabelle steht für ein Gerät.
 
 
 <table>
@@ -30,7 +50,7 @@ Bei der **Device** -Tabelle handelt es sich um eine Tabelle, auf die verwiesen w
 <th><strong>Spalte</strong></th>
 <th><strong>Datentyp</strong></th>
 <th><strong>Schlüssel/Index</strong></th>
-<th><strong>Beschreibung</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -38,20 +58,31 @@ Bei der **Device** -Tabelle handelt es sich um eine Tabelle, auf die verwiesen w
 <td><p><strong>DeviceKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutige Zahl, die dieses Gerät identifiziert.</p></td>
+<td><p>Eindeutige Nummer, die dieses Gerät kennzeichnet.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceName</strong></p></td>
-<td><p>nvarchar (256)</p></td>
-<td><p><strong>DeviceName</strong> + <strong>DeviceType</strong> ist <strong>unique</strong></p></td>
-<td><p>Gerätename</p></td>
+<td><p>nvarchar(256)</p></td>
+<td><p>DeviceName + DeviceType ist eindeutig</p></td>
+<td><p>Gerätename.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceType</strong></p></td>
 <td><p>bit</p></td>
-<td><p><strong>DeviceName</strong> + <strong>DeviceType</strong> ist <strong>unique</strong></p></td>
-<td><p>Gerätetyp. 1 ist ein Aufnahmegerät, 0 ist ein Darstellungsgerät.</p></td>
+<td><p>DeviceName + DeviceType ist eindeutig</p></td>
+<td><p>Gerätetyp. 1 ist ein Aufnahmegerät, 0 ist ein Render-Gerät.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

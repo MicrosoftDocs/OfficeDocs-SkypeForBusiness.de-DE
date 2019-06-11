@@ -1,39 +1,61 @@
-﻿---
-title: Aktivieren von standortbasiertem Routing in Lync Server 2013
-TOCTitle: Aktivieren von standortbasiertem Routing in Lync Server 2013
-ms:assetid: 029ede7e-0c4e-4ad2-af99-909ae674d6fe
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ994014(v=OCS.15)
-ms:contentKeyID: 52056276
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Aktivieren des standortbasierten Routings'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling Location-Based Routing
+ms:assetid: 029ede7e-0c4e-4ad2-af99-909ae674d6fe
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994014(v=OCS.15)
+ms:contentKeyID: 51803920
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 170ca1af77a84b655e90d5587fcd101cccf83c8a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832272"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Aktivieren von standortbasiertem Routing in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="enabling-location-based-routing-in-lync-server-2013"></a>Aktivieren des standortbasierten Routings in lync Server 2013
 
-Sobald Enterprise-VoIP bereitgestellt ist und Netzwerkregionen, Standorte sowie Subnetze definiert sind, können Sie standortbasiertes Routing aktivieren. Standortbasiertes Routing muss für die folgenden Enterprise-VoIP-Elemente aktiviert sein:
+</div>
 
-  - Netzwerkstandorte
+<div id="mainSection">
 
-  - Trunkkonfiguration
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2013-04-26_
+
+Nachdem Enterprise-VoIP bereitgestellt und netzwerkregionen,-Websites und-Subnetze definiert sind, können Sie standortbasiertes Routing aktivieren. Standortbasiertes Routing muss für die folgenden Enterprise-VoIP-Elemente aktiviert sein:
+
+  - Netzwerk Websites
+
+  - Trunk-Konfigurationen
 
   - VoIP-Richtlinien
 
-  - Routingkonfiguration
+  - Routing Konfiguration
 
-## Aktivieren von standortbasiertem Routing zu Netzwerkstandorten
+<div>
 
-Nachdem Sie Enterprise-VoIP bereitgestellt und Netzwerkstandorte konfiguriert haben, können Sie standortbasiertes Routing konfigurieren. Zunächst erstellen Sie eine VoIP-Routingrichtlinie, in der der jeweilige Netzwerkstandort mit den entsprechenden PSTN-Verwendungen verknüpft wird. Wenn Sie PSTN-Verwendungen mit einer VoIP-Routingrichtlinie verknüpfen, dürfen Sie nur PSTN-Verwendungen verwenden, denen VoIP-Routen zugewiesen sind, für die ein PSTN-Gateway verwendet wird, das hinsichtlich des Standorts lokal ist oder sich in einer Region befindet, in der keine Einschränkungen für standortbasiertes Routing erforderlich sind. Verwenden Sie den Lync ServerWindows PowerShell-Befehl "New-CsVoiceRoutingPolicy" oder die Lync Server-Systemsteuerung, um VoIP-Routingrichtlinien zu erstellen.
+## <a name="enable-location-based-routing-to-network-sites"></a>Aktivieren von Standort basiertem Routing auf Netzwerk Websites
+
+Nachdem Sie Enterprise-VoIP und konfigurierte Netzwerk Websites bereitgestellt haben, können Sie das standortbasierte Routing konfigurieren. Zuerst erstellen Sie eine VoIP-Routing Richtlinie, um die Netzwerk Website mit den entsprechenden PSTN-Nutzungen zu verknüpfen. Stellen Sie beim Zuweisen von PSTN-Nutzungen zu einer VoIP-Routing Richtlinie sicher, dass nur PSTN-Nutzungen verwendet werden, die VoIP-Routen zugeordnet sind, die ein lokales PSTN-Gateway für die Website oder ein PSTN-Gateway verwenden, das sich in einem Bereich befindet, in dem standortbasierte Routing Einschränkungen nicht erforderlich sind. Verwenden Sie den lync Server Windows PowerShell-Befehl, die CsVoiceRoutingPolicy-oder lync Server-Systemsteuerung, um VoIP-Routing Richtlinien zu erstellen.
 
     New-CsVoiceRoutingPolicy -Identity <voice routing policy ID> -Name <voice routing policy name> -PstnUsages <usages>
 
-Weitere Informationen hierzu finden Sie unter [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsVoiceRoutingPolicy).
+Weitere Informationen finden Sie unter [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsVoiceRoutingPolicy).
 
-Für dieses Beispiel werden in der folgenden Tabelle und in den folgenden Windows PowerShell-Befehlen zwei VoIP-Routingrichtlinien und deren zugehörige PSTN-Verwendungen veranschaulicht, die in diesem Szenario definiert sind. Für diese Veranschaulichung werden in der Tabelle nur die Einstellungen aufgeführt, die zum standortbasierten Routing gehören.
+In diesem Beispiel veranschaulichen die folgenden Tabellen-und Windows PowerShell-Befehle zwei VoIP-Routing Richtlinien und die zugehörigen PSTN-Nutzungen, die in diesem Szenario definiert sind. Nur Einstellungen, die für standortbasierte Routings spezifisch sind, sind in der Tabelle zu Illustrationszwecken enthalten.
 
     New-CsVoiceRoutingPolicy -Identity "DelhiVoiceRoutingPolicy" -Name "Delhi voice routing policy" -PstnUsages @{add="Delhi usage", "PBX Del usage", "PBX Hyd usage"}
     New-CsVoiceRoutingPolicy -Identity "HyderabadVoiceRoutingPolicy" -Name " Hyderabad voice routing policy" -PstnUsages @{add="Hyderabad usage", "PBX Del usage", "PBX Hyd usage"}
@@ -48,31 +70,31 @@ Für dieses Beispiel werden in der folgenden Tabelle und in den folgenden Window
 <thead>
 <tr class="header">
 <th></th>
-<th>VoIP-Routingrichtlinie 1</th>
-<th>VoIP-Routingrichtlinie 2</th>
+<th>VoIP-Routing Richtlinie 1</th>
+<th>VoIP-Routing Richtlinie 2</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>VoIP-Richtlinien-ID</p></td>
-<td><p>Delhi voice routing policy</p></td>
-<td><p>Hyderabad voice routing policy</p></td>
+<td><p>VoIP-Richtlinienkennung</p></td>
+<td><p>Delhi-VoIP-Routing Richtlinie</p></td>
+<td><p>Hyderabad-VoIP-Routing Richtlinie</p></td>
 </tr>
 <tr class="even">
-<td><p>PSTN-Verwendungen</p></td>
-<td><p>Delhi usage, PBX Del usage, PBX Hyd usage</p></td>
-<td><p>Hyderabad usage, PBX Hyd usage, PBX Del usage</p></td>
+<td><p>PSTN-Nutzungen</p></td>
+<td><p>Nutzung von Delhi, Nutzung von Telefonanlagen, Telefonanlagen Hyd</p></td>
+<td><p>Hyderabad-Nutzung, Nutzung von Telefonanlagen Hyd, Telefonanlagen Nutzung</p></td>
 </tr>
 </tbody>
 </table>
 
   
 
-Konfigurieren Sie nun das standortbasierte Routing für die entsprechenden Netzwerkstandorte, und weisen Sie Ihre Routingrichtlinien diesen Standorten zu. Verwenden Sie den Lync ServerWindows PowerShell-Befehl "New-CsNetworkSite", um das standortbasierte Routing zu aktivieren sowie Ihre VoIP-Routingrichtlinien den Netzwerkstandorten zuzuweisen, in denen Routingeinschränkungen durchgesetzt werden müssen.
+Konfigurieren Sie als nächstes standortbasiertes Routing für die entsprechenden Netzwerk Websites, und ordnen Sie Ihre VoIP-Routing Richtlinien zu. Verwenden Sie den Windows PowerShell-Befehl von lync Server, New-CsNetworkSite, um standortbasiertes Routing zu aktivieren und Ihren Netzwerk Websites VoIP-Routing Richtlinien zuzuordnen, die Routing Einschränkungen erzwingen müssen.
 
     Set-CsNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false> -VoiceRoutingPolicy <voice routing policy ID>
 
-In der folgenden Tabelle ist für dieses Beispiel das standortbasierte Routing für die beiden unterschiedlichen Netzwerkstandorte "Delhi" und "Hyderabad" veranschaulicht, die in diesem Szenario über Lync ServerWindows PowerShell definiert wurden. Für diese Veranschaulichung werden in der Tabelle nur die Einstellungen aufgeführt, die zum standortbasierten Routing gehören.
+In diesem Beispiel wird in der folgenden Tabelle die standortbasierte Weiterleitung für zwei verschiedene Netzwerkstandorte (Delhi und Hyderabad) veranschaulicht, die in diesem Szenario mithilfe der lync Server Windows PowerShell definiert sind. Nur Einstellungen, die für standortbasierte Routings spezifisch sind, sind in der Tabelle zu Illustrationszwecken enthalten.
 
     Set-CsNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true -VoiceRoutingPolicy "DelhiVoiceRoutingPolicy"
     Set-CsNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true -VoiceRoutingPolicy "HyderabadVoiceRoutingPolicy"
@@ -87,15 +109,15 @@ In der folgenden Tabelle ist für dieses Beispiel das standortbasierte Routing f
 <thead>
 <tr class="header">
 <th></th>
-<th>Standort 1 (Delhi)</th>
-<th>Standort 2 (Hyderabad)</th>
+<th>Website 1 (Delhi)</th>
+<th>Website 2 (Hyderabad)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Standortname</p></td>
-<td><p>Delhi</p></td>
-<td><p>Hyderabad</p></td>
+<td><p>Websitename</p></td>
+<td><p>Website 1 (Delhi)</p></td>
+<td><p>Website 2 (Hyderabad)</p></td>
 </tr>
 <tr class="even">
 <td><p>EnableLocationBasedRouting</p></td>
@@ -103,9 +125,9 @@ In der folgenden Tabelle ist für dieses Beispiel das standortbasierte Routing f
 <td><p>True</p></td>
 </tr>
 <tr class="odd">
-<td><p>VoIP-Routingrichtlinie</p></td>
-<td><p>Delhi voice routing policy</p></td>
-<td><p>Hyderabad voice routing policy</p></td>
+<td><p>VoIP-Routing Richtlinie</p></td>
+<td><p>Delhi-VoIP-Routing Richtlinie</p></td>
+<td><p>Hyderabad-VoIP-Routing Richtlinie</p></td>
 </tr>
 <tr class="even">
 <td><p>Subnetze</p></td>
@@ -116,44 +138,52 @@ In der folgenden Tabelle ist für dieses Beispiel das standortbasierte Routing f
 </table>
 
 
+<div>
 
-## Aktivieren von standortbasiertem Routing zu Trunks
 
-Bevor eine Trunkkonfiguration für standortbasiertes Routing aktiviert werden kann, müssen Sie für jeden Trunk- oder Netzwerkstandort eine Trunkkonfiguration erstellen. Verwenden Sie den Lync ServerWindows PowerShell-Befehl "New-CsTrunkConfiguration", um eine Trunkkonfiguration zu erstellen. Sind einem System (d. h. Gateway oder Nebenstellenanlage) mehrere Trunks zugewiesen, muss jede Trunkkonfiguration geändert werden, wenn Einschränkungen für standortbasiertes Routing aktiviert werden sollen.
+</div>
+
+</div>
+
+<div>
+
+## <a name="enable-location-based-routing-to-trunks"></a>Aktivieren von Standort basiertem Routing zu Trunks
+
+Bevor eine trunk-Konfiguration für standortbasiertes Routing aktiviert werden kann, müssen Sie für jeden trunk oder jede Netzwerk Website eine trunk-Konfiguration erstellen. Verwenden Sie den Windows PowerShell-Befehl von lync Server, New-CsTrunkConfiguration, um eine trunk-Konfiguration zu erstellen. Wenn mehrere Trunks einem bestimmten System (also Gateway oder PBX) zugeordnet sind, muss jede trunk-Konfiguration so geändert werden, dass standortbasierte Routing Einschränkungen aktiviert werden.
 
     New-CsTrunkConfiguration -Identity < trunk configuration ID>
 
-Weitere Informationen hierzu finden Sie unter [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration).
+Weitere Informationen finden Sie unter [New-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration).
 
-Für dieses Beispiel wird mit den folgenden Windows PowerShell-Befehlen veranschaulicht, wie in der Bereitstellung, die in diesem Szenario definiert ist, eine Trunkkonfiguration für jeden Trunk erstellt wird.
+In diesem Beispiel veranschaulichen die folgenden Windows PowerShell-Befehle das Erstellen einer trunk-Konfiguration für jeden trunk in der Bereitstellung, die in diesem Szenario definiert ist.
 
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 1 DEL-GW>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 2 HYD-GW>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 3 DEL-PBX>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 4 HYD-PBX>"
 
-Sobald es für jeden Trunk eine Trunkkonfiguration gibt, können Sie mit dem Lync ServerWindows PowerShell-Befehl "Set-CsTrunkConfiguration" standortbasiertes Routing für die Trunks aktivieren, für die Routingbeschränkungen durchgesetzt werden müssen. Aktivieren Sie standortbasiertes Routing für Trunks, über die Anrufe an PSTN-Gateways weitergeleitet werden, in denen die Anrufe an das PSTN weitergeleitet werden, und weisen Sie den Netzwerkstandort zu, in dem sich das jeweilige Gateway befindet.
+Nachdem eine trunk-Konfiguration pro trunk konfiguriert wurde, können Sie den lync Server-Windows PowerShell-Befehl, CsTrunkConfiguration, verwenden, um standortbasiertes Routing für Ihre Trunks zu aktivieren, die Routing Einschränkungen erzwingen müssen. Aktivieren Sie das standortbasierte Routing für Trunks, die Anrufe an PSTN-Gateways weiterleiten, die Anrufe an das PSTN weiterleiten, und ordnen Sie die Netzwerk Website zu, auf der sich das Gateway befindet.
 
     Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
-Weitere Informationen hierzu finden Sie unter [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration).
+Weitere Informationen finden Sie unter [New-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration).
 
-In diesem Beispiel wird standortbasiertes Routing für jeden Trunk aktiviert, der dem PSTN-Gateway in Delhi oder Hyderabad zugewiesen ist:
+In diesem Beispiel wird für jeden trunk, der PSTN-Gateways in Delhi und Hyderabad zugeordnet ist, ein standortbasiertes Routing aktiviert:
 
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
 
   
 
-Aktivieren Sie standortbasiertes Routing nicht für Trunks, über die keine Anrufe an das PSTN weitergeleitet werden. Trotzdem müssen Sie einen solchen Trunk dem Netzwerkstandort zuweisen, in dem sich das System befindet, denn für PSTN-Anrufe an Endgeräte, die über diesen Trunk angeschlossen sind, müssen Beschränkungen für standortbasiertes Routing durchgesetzt werden. In diesem Beispiel wird standortbasiertes Routing für keinen der Trunks aktiviert, die Nebenstellenanlagen (PBX-Systemen) in Delhi oder Hyderabad zugewiesen sind:
+Aktivieren Sie das standortbasierte Routing nicht für Trunks, die keine Anrufe an das PSTN weiterleiten. Sie müssen den trunk jedoch weiterhin der Netzwerk Website zuordnen, auf der sich das System befindet, da standortbasierte Routing Einschränkungen für PSTN-Anrufe, die über diesen Trunk verbunden sind, erzwungen werden müssen. Für dieses Beispiel ist standortbasiertes Routing für jeden trunk, der PBX-Systemen in Delhi und Hyderabad zugeordnet ist, nicht aktiviert:
 
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
 
   
-Endgeräte, die an Systeme angeschlossen sind, die keine Anrufe an das PSTN weiterleiten (d. h. eine Nebenstellenanlage), haben ähnliche Beschränkungen wie Lync-Endgeräte von Benutzern, für die standortbasiertes Routing aktiviert ist. Das heißt, dass diese Benutzer Anrufe an Lync-Benutzer tätigen oder von Lync-Benutzern empfangen können, egal, an welchem Standort sich der jeweilige Lync-Benutzer befindet. Außerdem können sie Anrufe an andere Systeme tätigen oder über andere Systeme empfangen, die keine Anrufe an das PSTN-Netzwerk weiterleiten (d. h. ein Endgerät, das an eine andere Nebenstellenanlage angeschlossen ist), wobei es keine Rolle spielt, welchem Netzwerkstandort das System zugewiesen ist. Alle eingehenden Anrufe, ausgehenden Anrufe, Anrufdurchstellungen und Anrufweiterleitungen, an denen PSTN-Endgeräte beteiligt sind, werden den Beschränkungen für standortbasiertes Routing unterworfen. Für solche Anrufe dürfen nur PSTN-Gateways verwendet werden, die für solche Systeme als lokal definiert sind.
+Endpunkte, die mit Systemen verbunden sind, die keine Anrufe an das PSTN (also eine Telefonanlage) weiterleiten, weisen ähnliche Einschränkungen wie lync-Endpunkte von Benutzern auf, die für standortbasiertes Routing aktiviert sind. Dies bedeutet, dass diese Benutzer unabhängig vom Standort des Benutzers Anrufe an und von lync-Benutzern tätigen und empfangen können. Sie können auch Anrufe von und zu anderen Systemen tätigen, die keine Anrufe an das PSTN-Netzwerk (also einen mit einer anderen Telefonanlage verbundenen Endpunkt) weiterleiten, und zwar unabhängig von der Netzwerk Website, der das System zugeordnet ist. Alle eingehenden Anrufe, ausgehenden Anrufe, Anruf Übertragungen und Anrufweiterleitung mit PSTN-Endpunkten unterliegen standortbasierten Routing-Erzwingungen. Bei solchen anrufen müssen nur PSTN-Gateways verwendet werden, die für solche Systeme als lokal definiert sind.
 
-In der folgenden Tabelle wird die Trunkkonfiguration von vier Trunks in zwei unterschiedlichen Netzwerkstandorten veranschaulicht: zwei Trunks, die mit PSTN-Gateways, und zwei Trunks, die mit Nebenstellenanlagen (PBX-Systemen) verbunden sind.
+In der folgenden Tabelle wird die trunk-Konfiguration von vier Trunks auf zwei verschiedenen Netzwerkstandorten veranschaulicht: zwei mit PSTN-Gateways verbunden und zwei mit PBX-Systemen verbunden.
 
 
 <table>
@@ -171,39 +201,47 @@ In der folgenden Tabelle wird die Trunkkonfiguration von vier Trunks in zwei unt
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>PstnGateway:Trunk 1 DEL-GW</p></td>
+<td><p>PstnGateway: trunk 1 del-GW</p></td>
 <td><p>True</p></td>
-<td><p>Delhi</p></td>
+<td><p>Website 1 (Delhi)</p></td>
 </tr>
 <tr class="even">
-<td><p>PstnGateway:Trunk 2 HYD-GW</p></td>
+<td><p>PstnGateway: trunk 2 Hyd-GW</p></td>
 <td><p>True</p></td>
-<td><p>Hyderabad</p></td>
+<td><p>Website 2 (Hyderabad)</p></td>
 </tr>
 <tr class="odd">
-<td><p>PstnGateway:Trunk 3 DEL-PBX</p></td>
-<td><p>False</p></td>
-<td><p>Delhi</p></td>
+<td><p>PstnGateway: trunk 3 del-PBX</p></td>
+<td><p>Falsch</p></td>
+<td><p>Website 1 (Delhi)</p></td>
 </tr>
 <tr class="even">
-<td><p>PstnGateway:Trunk 4 HYD-PBX</p></td>
-<td><p>False</p></td>
-<td><p>Hyderabad</p></td>
+<td><p>PstnGateway: trunk 4 Hyd-PBX</p></td>
+<td><p>Falsch</p></td>
+<td><p>Website 2 (Hyderabad)</p></td>
 </tr>
 </tbody>
 </table>
 
 
+<div>
 
-## Aktivieren von standortbasiertem Routing zu VoIP-Richtlinien
 
-Wenn Sie standortbasiertes Routing zu bestimmten Benutzern aktivieren möchten, müssen Sie die VoIP-Richtlinie für diese Benutzer so konfigurieren, dass ein Umgehen von gebührenpflichtigen PSTN-Telefonnummern verhindert wird. Verwenden Sie den Lync ServerWindows PowerShell-Befehl "New-CsVoicePolicy", wenn Sie eine neue VoIP-Richtlinie erstellen möchten, oder "Set-CsVoicePolicy", wenn Sie eine vorhandene Richtlinie verwenden möchten, um standortbasiertes Routing zu aktivieren, indem PSTN-Gebührenumgehung verhindert wird.
+</div>
+
+</div>
+
+<div>
+
+## <a name="enable-location-based-routing-to-voice-policies"></a>Aktivieren von Standort basiertem Routing zu VoIP-Richtlinien
+
+Wenn Sie ein standortbasiertes Routing für bestimmte Benutzer erzwingen möchten, konfigurieren Sie die VoIP-Richtlinie dieser Benutzer, um die PSTN-Maut Umgehung zu verhindern. Verwenden Sie den Windows PowerShell-Befehl von lync Server, New-CsVoicePolicy, zum Erstellen einer neuen VoIP-Richtlinie oder eines festgelegten CsVoicePolicy, wenn Sie eine vorhandene Richtlinie verwenden, um standortbasiertes Routing zu aktivieren, indem Sie die PSTN-Maut Umgehung verhindern.
 
     Set-CsVoicePolicy -Identity <voice policy ID> -PreventPSTNTollBypass <$true|$false>
 
-Weitere Informationen hierzu finden Sie unter [New-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsVoicePolicy).
+Weitere Informationen finden Sie unter [New-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsVoicePolicy).
 
-Für dieses Beispiel wird in der folgenden Tabelle und in den folgenden Windows PowerShell-Befehlen veranschaulicht, wie ein Verhindern von PSTN-Gebührenumgehung für die Delhi- und Hyderabad-VoIP-Routingrichtlinien aktiviert wird, die in diesem Szenario definiert sind. Für diese Veranschaulichung werden in der Tabelle nur die Einstellungen aufgeführt, die zum standortbasierten Routing gehören.
+In diesem Beispiel veranschaulichen die folgenden Tabellen-und Windows PowerShell-Befehle die Verhinderung von PSTN-Maut Umgehung für die in diesem Szenario definierten VoIP-Richtlinien in Delhi und Hyderabad. Nur Einstellungen, die für standortbasierte Routings spezifisch sind, sind in der Tabelle zu Illustrationszwecken enthalten.
 
     Set-CsVoicePolicy -Identity "Delhi voice policy" -PreventPSTNTollBypass $true
     Set-CsVoicePolicy -Identity "Hyderabad voice policy" -PreventPSTNTollBypass $true
@@ -224,14 +262,14 @@ Für dieses Beispiel wird in der folgenden Tabelle und in den folgenden Windows 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>VoIP-Richtlinien-ID</p></td>
-<td><p>Delhi voice policy</p></td>
-<td><p>Hyderabad voice policy</p></td>
+<td><p>VoIP-Richtlinienkennung</p></td>
+<td><p>VoIP-Richtlinie für Delhi</p></td>
+<td><p>Hyderabad-VoIP-Richtlinie</p></td>
 </tr>
 <tr class="even">
-<td><p>PSTN-Verwendungen</p></td>
-<td><p>Delhi usage, PBX Del usage, PBX Hyd usage</p></td>
-<td><p>Hyderabad usage, PBX Hyd usage, PBX Del usage</p></td>
+<td><p>PSTN-Nutzungen</p></td>
+<td><p>Nutzung von Delhi, Nutzung von Telefonanlagen, Telefonanlagen Hyd</p></td>
+<td><p>Hyderabad-Nutzung, Nutzung von Telefonanlagen Hyd, Telefonanlagen Nutzung</p></td>
 </tr>
 <tr class="odd">
 <td><p>PreventPSTNTollBypass</p></td>
@@ -242,25 +280,57 @@ Für dieses Beispiel wird in der folgenden Tabelle und in den folgenden Windows 
 </table>
 
 
+<div>
 
-## Aktivieren von standortbasiertem Routing in der Routingkonfiguration
 
-Aktivieren Sie schließlich standortbasiertes Routing global für Ihre Routingkonfiguration. Verwenden Sie den Lync ServerWindows PowerShell-Befehl "New-CsRoutingConfiguration", um standortbasiertes Routing zu aktivieren.
+</div>
+
+</div>
+
+<div>
+
+## <a name="enable-location-based-routing-in-the-routing-configuration"></a>Aktivieren des standortbasierten Routings in der Routingkonfiguration
+
+Schließlich können Sie auf globaler Ebene standortbasiertes Routing für Ihre Routingkonfiguration aktivieren. Verwenden Sie den Windows PowerShell-Befehl von lync Server, New-CsRoutingConfiguration, um standortbasiertes Routing zu aktivieren.
 
     Set-CsRoutingConfiguration -EnableLocationBasedRouting $true
 
-Weitere Informationen hierzu finden Sie unter [Set-CsRoutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRoutingConfiguration).
+Weitere Informationen finden Sie unter [Satz-CsRoutingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsRoutingConfiguration).
+
+<div>
 
 
-> [!NOTE]
-> Auch wenn standortbasiertes Routing über eine globale Konfiguration aktiviert werden muss, werden die anzuwendenden Regeln nur für die Standorte, Benutzer und Trunks durchgesetzt, für die die Konfiguration gemäß den Angaben in dieser Dokumentation erstellt wurde.
+> [!NOTE]  
+> während standortbasiertes Routing über eine globale Konfiguration aktiviert werden muss, wird die anzuwendende Regel nur für die Websites, Benutzer und Trunks erzwungen, für die Sie konfiguriert wurde, wie in dieser Dokumentation angegeben.
 
 
 
+</div>
 
-## Siehe auch
+<div>
 
-#### Weitere Ressourcen
 
-[Konfigurieren von standortbasiertem Routing in Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)
+</div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
+
+[Konfigurieren von standortbasiertem Routing in Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

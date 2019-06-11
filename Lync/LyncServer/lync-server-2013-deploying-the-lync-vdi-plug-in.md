@@ -1,25 +1,47 @@
-﻿---
-title: 'Lync Server 2013: Bereitstellen des Lync VDI-Plug-Ins'
-TOCTitle: Bereitstellen des Lync VDI-Plug-Ins
-ms:assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204683(v=OCS.15)
-ms:contentKeyID: 49293225
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Bereitstellen des Lync VDI-Plug-Ins'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying the Lync VDI plug-in
+ms:assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204683(v=OCS.15)
+ms:contentKeyID: 48183449
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 77b2e7ce89fe021c23da81f075aec3d1ce90e7b6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832510"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bereitstellen des Lync VDI-Plug-Ins in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="deploying-the-lync-vdi-plug-in-in-lync-server-2013"></a>Bereitstellen des Lync VDI-Plug-Ins in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-03_
 
-Der Lync 2013-Client unterstützt Audio und Video in einer VDI (Virtual Desktop Infrastructure)-Umgebung. Ein Benutzer kann ein Audio- oder Videogerät (z. B. ein Headset oder eine Kamera) mit dem lokalen Computer verbinden (z. B. einem Thin-Client oder einem Computer mit neuem Zweck). Der Benutzer kann eine Verbindung mit dem virtuellen Computer herstellen, sich am Lync 2013-Client anmelden, der auf dem virtuellen Computer ausgeführt wird, und an Audio- und Videokommunikation in Echtzeit teilnehmen, genau wie wenn der Client lokal ausgeführt würde.
+Der lync 2013-Client unterstützt Audio und Video in einer VDI-Umgebung (Virtual Desktop Infrastructure). Ein Benutzer kann ein Audio-oder Videogerät (beispielsweise ein Headset oder eine Kamera) an den lokalen Computer (beispielsweise einen Thin-Client oder einen neu gezielten Computer) anschließen. Der Benutzer kann eine Verbindung mit dem virtuellen Computer herstellen, sich beim lync 2013-Client anmelden, der auf dem virtuellen Computer ausgeführt wird, und an Echtzeit-Audio-und Videokommunikation teilnehmen, als ob der Client lokal ausgeführt wird.
 
-Das Lync-VDI-Plug-In ist eine alleinstehende Anwendung, die auf dem lokalen Computer installiert wird, und die Verwendung lokaler Audio- und Videogeräte mit dem Lync 2013-Client zulässt, der auf dem virtuellen Computer ausgeführt wird. Das Plug-In erfordert keine Installation von Lync auf dem lokalen Computer. Nachdem sich der Benutzer am Lync 2013-Client angemeldet hat, der auf dem virtuellen Computer ausgeführt wird, fordert Lync den Benutzer auf, seine Anmeldeinformationen erneut einzugeben, um eine Verbindung mit dem Lync-VDI-Plug-In herzustellen, das auf dem lokalen Computer ausgeführt wird. Ist dieser Verbindung hergestellt, kann der Benutzer Audio- und Videoanrufe durchführen und empfangen.
+Das lync-VDI-Plug-in ist eine eigenständige Anwendung, die auf dem lokalen Computer installiert wird und die Verwendung lokaler Audio-und Videogeräte mit dem auf dem virtuellen Computer ausgeführten lync 2013-Client ermöglicht. Für das Plug-in ist es nicht erforderlich, dass lync auf dem lokalen Computer installiert wird. Nachdem sich der Benutzer beim lync 2013-Client angemeldet hat, der auf dem virtuellen Computer ausgeführt wird, fordert lync den Benutzer auf, seine Anmeldeinformationen erneut einzugeben, um eine Verbindung mit dem lync-VDI-Plug-in herzustellen, das auf dem lokalen Computer ausgeführt wird. Nachdem diese Verbindung hergestellt wurde, ist der Benutzer bereit, Audio-und Videoanrufe zu tätigen und zu empfangen.
 
-## In diesem Abschnitt
+<div>
+
+## <a name="in-this-section"></a>In diesem Abschnitt
 
   - [Voraussetzungen für das Lync VDI-Plug-In in Lync Server 2013](lync-server-2013-lync-vdi-plug-in-prerequisites.md)
 
@@ -27,7 +49,19 @@ Das Lync-VDI-Plug-In ist eine alleinstehende Anwendung, die auf dem lokalen Comp
 
   - [Anmelden bei und Verwenden von Lync 2013 auf dem virtuellen Computer](lync-server-2013-signing-in-and-using-lync-2013-on-the-virtual-machine.md)
 
-  - [Problembehandlung für das Lync VDI-Plug-In](lync-server-2013-troubleshooting-the-lync-vdi-plug-in.md)
+  - [Problembehandlung beim lync VDI-Plug-in in lync Server 2013](lync-server-2013-troubleshooting-the-lync-vdi-plug-in.md)
 
   - [Unterstützte Virtualisierungstechnologien und bekannte Einschränkungen in Lync Server 2013](lync-server-2013-supported-virtualization-technologies-and-known-limitations.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

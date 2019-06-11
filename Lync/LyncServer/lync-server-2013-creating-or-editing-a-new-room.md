@@ -1,35 +1,89 @@
-﻿---
-title: 'Lync Server 2013: Erstellen oder Bearbeiten eines neuen Chatrooms'
-TOCTitle: Erstellen oder Bearbeiten eines neuen Chatrooms
-ms:assetid: aa8f4349-cfd9-4036-9c4d-de8fb2c4c8a4
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ215880(v=OCS.15)
-ms:contentKeyID: 49295044
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Erstellen oder Bearbeiten eines neuen Chatrooms'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Creating or editing a new room
+ms:assetid: aa8f4349-cfd9-4036-9c4d-de8fb2c4c8a4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215880(v=OCS.15)
+ms:contentKeyID: 48706008
+ms.date: 03/19/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1442454b2afb129fda50d98ed17ccdc2c7ba35c2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832753"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Erstellen oder Bearbeiten eines neuen Chatrooms in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="creating-or-editing-a-new-room-in-lync-server-2013"></a>Erstellen oder Bearbeiten eines neuen Chatrooms in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2015-03-19_
 
-Die Konfiguration von Chatrooms für Chats vom Typ Beständiger Chat erfolgt im Allgemeinen durch die Benutzer; ein Administrator für Chats vom Typ Beständiger Chat konfiguriert oder verwaltet normalerweise keine Chatrooms. Die Windows PowerShell-Cmdlets zum Verwalten von Chatrooms sind für **CsPersistentChatAdministrator**-Administratoren verfügbar.
+Die Konfiguration beständiger Chatrooms wird häufig von Benutzern gehandhabt. ein beständiger Chat Administrator konfiguriert oder verwaltet in der Regel keine Chatrooms. Windows PowerShell-Cmdlets zum Verwalten von Räumen stehen nur **CsPersistentChatAdministrator** -Administratoren zur Verfügung.
 
-Benutzer, die in einer bestimmten Kategorie **Ersteller** sind, können den Lync-Client zum Erstellen und Verwalten von Chatrooms verwenden. Benutzer, die für einen bestimmten Chatroom als Manager bestimmt wurden, können den Chatroom auch fortlaufend verwalten, indem sie beispielsweise dessen Eigenschaften oder Mitgliedschaften bearbeiten.
+Benutzer, die in einer bestimmten Kategorie **Schöpfer** sind, können den lync-Client verwenden, um Räume zu erstellen und zu verwalten. Benutzer, die als Manager für einen bestimmten Chatroom festgelegt wurden, können auch die laufende Verwaltung des Raums durchführen, beispielsweise das Bearbeiten der Raumeigenschaften oder der Mitgliedschaft.
 
-
-> [!TIP]
-> Administratoren für Chats vom Typ Beständiger Chat können auch Ersteller sein, und sie unterliegen nicht den für die Ersteller festgelegten Einschränkungen.
+<div>
 
 
+> [!TIP]  
+> Administratoren für beständigen Chat können auch Ersteller sein, und Sie unterliegen nicht den Einschränkungen, die den Erstellern auferlegt werden.
 
-Wenn Sie Administrator für Chats vom Typ Beständiger Chat sind, können Sie optional eine Benutzerschnittstelle zum Erstellen und Verwalten von Chatrooms verwenden, anstatt Windows PowerShell-Cmdlets zu verwenden. Führen Sie dazu für einen Administrator eine SIP-Aktivierung für einen Server für beständigen Chat aus, und verwenden Sie dann den Lync-Client zum Erstellen und Verwalten von Chatrooms.
 
-Wenn Sie einen benutzerdefinierten Chatroom-Verwaltungsworkflow für Ihre Benutzer erstellen möchten, können Sie die Eigenschaft **RoomManagementUrl** für Ihre Server für beständigen Chat-Konfiguration so festlegen, dass Benutzer vom Lync-Client zu Ihrer benutzerdefinierten Lösung umgeleitet werden.
 
-Ausführliche Informationen zum Konfigurieren von Chatrooms mithilfe der Windows PowerShell-Befehlszeilenschnittstelle finden Sie unter "Chatroomverwaltung" in [Konfigurieren des Servers für beständigen Chat mithilfe von Windows PowerShell-Cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).
+</div>
 
-Ausführliche Informationen zum Konfigurieren von Chatrooms finden Sie unter [Konfigurieren von Chatrooms in Lync Server 2013](lync-server-2013-configure-rooms.md) in der Bereitstellungsdokumentation.
+Wenn Sie ein beständiger Chat-Administrator sind, können Sie optional eine Benutzeroberfläche verwenden, um Chatrooms zu erstellen und zu verwalten, anstatt Windows PowerShell-Cmdlets zu verwenden. Aktivieren Sie dazu einen Administrator für beständigen Chat Server, und verwenden Sie dann den lync-Client, um Chatrooms zu erstellen und zu verwalten.
+
+Wenn Sie einen benutzerdefinierten Raum Verwaltungs Workflow für Ihre Benutzer erstellen möchten, können Sie die **RoomManagementUrl** -Eigenschaft für die Konfiguration des beständigen Chat Servers so festlegen, dass Benutzer vom lync-Client zu Ihrer benutzerdefinierten Lösung umgeleitet werden.
+
+Weitere Informationen zum Konfigurieren von Chatrooms mithilfe der Windows PowerShell-Befehlszeilenschnittstelle finden Sie unter "Room Management" in Konfigurieren des beständigen [Chat Servers mithilfe von Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)-Cmdlets.
+
+Details zum Konfigurieren von Chatrooms finden Sie unter [Konfigurieren von Räumen in lync Server 2013](lync-server-2013-configure-rooms.md) in der Bereitstellungsdokumentation.
+
+<div>
+
+
+> [!NOTE]  
+> Der beständige Chat Server ermöglicht Benutzern, Chatrooms für eine bestimmte Website zu erstellen und zu verwalten. Benutzer können Chatrooms jedoch nicht auf anderen Websites innerhalb derselben Topologie erstellen oder verwalten. Stellen Sie sicher, dass Sie für alle Websites in Ihrer Organisation Chatroom-Ersteller und-Manager angeben.
+
+
+
+</div>
+
+<div>
+
+
+> [!NOTE]  
+> Benutzer, die sich in einer Überlebenden lync Server-Branch-Appliance befinden, können keine neuen Chatrooms erstellen oder die raumkarte für vorhandene Räume anzeigen.
+
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

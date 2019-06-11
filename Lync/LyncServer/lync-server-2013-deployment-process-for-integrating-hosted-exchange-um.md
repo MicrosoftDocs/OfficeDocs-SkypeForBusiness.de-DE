@@ -1,33 +1,59 @@
-﻿---
-title: 'Lync Server 2013: Bereitstellungsprozess für die Integration gehosteter Exchange UM-Dienste'
-TOCTitle: Bereitstellungsprozess für die Integration gehosteter Exchange UM-Dienste in Lync Server
-ms:assetid: dbec9c38-7f66-419d-b8c3-c61380052cac
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398968(v=OCS.15)
-ms:contentKeyID: 49295614
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Bereitstellungsprozess für die Integration gehosteter Exchange UM-Dienste'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment process for integrating hosted Exchange UM with Lync Server
+ms:assetid: dbec9c38-7f66-419d-b8c3-c61380052cac
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398968(v=OCS.15)
+ms:contentKeyID: 48185586
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6269efd85261c702c77568fac67c96034ba01a71
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832469"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bereitstellungsprozess für die Integration gehosteter Exchange UM-Dienste in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="deployment-process-for-integrating-hosted-exchange-um-with-lync-server-2013"></a>Bereitstellungsprozess für die Integration gehosteter Exchange UM-Dienste in Lync Server 2013
 
-Für eine effektive Planung der Integration von Lync Server 2013 in gehostete Exchange Unified Messaging-Dienste (UM) müssen Sie Folgendes berücksichtigen:
+</div>
 
-  - Voraussetzungen für die Integration von Lync Server 2013 in gehostete Exchange Unified Messaging-Dienste
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-09-25_
+
+Bei der effektiven Planung für die Integration von lync Server 2013 in gehostete Exchange Unified Messaging (um) müssen Sie Folgendes berücksichtigen:
+
+  - Voraussetzungen für die Integration von lync Server 2013 in Hosted Exchange um
 
   - Erforderliche Schritte während des Integrationsprozesses
 
-## Bereitstellungsvoraussetzungen für die Integration in gehostete Exchange UM-Dienste
+<div>
 
-Bevor Sie mit der Integration beginnen, müssen Sie bereits Lync Server 2013 (Mindestvoraussetzung sind ein Front-End-Pool oder ein Standard Edition-Server), einen Edgeserver und Lync 2013- oder Lync 2010-Clients bereitgestellt haben.
+## <a name="deployment-prerequisites-for-integrating-with-hosted-exchange-um"></a>Voraussetzungen für die Bereitstellung für die Integration in Hosted Exchange um
 
-## Integrationsprozess
+Bevor Sie mit dem Integrationsprozess beginnen können, müssen Sie bereits lync Server 2013 (mindestens einen Front-End-Pool oder einen Standard Edition-Server), einen Edgeserver und lync 2013-oder lync 2010-Clients bereitgestellt haben.
 
-Die folgende Tabelle zeigt eine Übersicht über den Integrationsprozess der gehosteten Exchange Unified Messaging-Dienste. Ausführliche Informationen zu den Bereitstellungsschritten finden Sie unter [Bereitstellen von Voicemail für Benutzer von Lync Server 2013 für gehostete Exchange Unified Messaging-Dienste](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md) in der Bereitstellungsdokumentation.
+</div>
+
+<div>
+
+## <a name="integration-process"></a>Integrationsprozess
+
+Die folgende Tabelle enthält eine Übersicht über den gehosteten Exchange um-Integrationsprozess. Ausführliche Informationen zu Bereitstellungsschritten finden Sie unter [Bereitstellen von lync Server 2013-Benutzern für Voicemail](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md) in der Bereitstellungsdokumentation für gehostete Exchange um.
 
 
 <table>
@@ -47,11 +73,11 @@ Die folgende Tabelle zeigt eine Übersicht über den Integrationsprozess der geh
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Konfigurieren des Edgeservers</p></td>
+<td><p>Konfigurieren Sie den Edgeserver.</p></td>
 <td><ol>
 <li><p>Konfigurieren Sie den Edgeserver für einen Partnerverbund.</p></li>
-<li><p>Replizieren Sie die Daten manuell auf den Edgeserver.</p></li>
-<li><p>Konfigurieren Sie den Hostingprovider auf dem Edgeserver.</p></li>
+<li><p>Manuelles Replizieren von Daten auf den Edgeserver</p></li>
+<li><p>Konfigurieren Sie den Hostinganbieter auf dem Edgeserver.</p></li>
 </ol></td>
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md">Konfigurieren des Edgeservers für die Integration in gehostete Exchange UM-Dienste</a></p></td>
@@ -59,14 +85,14 @@ Die folgende Tabelle zeigt eine Übersicht über den Integrationsprozess der geh
 <tr class="even">
 <td><p>Konfigurieren der Richtlinie für gehostete Voicemail</p></td>
 <td><ol>
-<li><p>Ändern Sie entweder die globale Richtlinie für gehostete Voicemail, oder erstellen Sie eine neue Richtlinie für gehostete Voicemail auf Standort- oder Benutzerebene.</p></li>
-<li><p>Weisen Sie auf Benutzerebene erstellte Richtlinien den geeigneten Benutzern oder Gruppen zu.</p></li>
+<li><p>Ändern Sie entweder die Global Hosted Voicemail-Richtlinie, oder erstellen Sie eine neue gehostete Voicemail-Richtlinie mit Website-oder pro-Benutzer-Bereich.</p></li>
+<li><p>Weisen Sie für Richtlinien mit benutzerspezifischem Bereich die Richtlinie Benutzern oder Gruppen zu.</p></li>
 </ol></td>
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-manage-hosted-voice-mail-policies.md">Verwalten von Richtlinien für gehostete Voicemail in Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Aktivieren von Benutzerkonten für gehostete Voicemail</p></td>
+<td><p>Aktivieren von Benutzern für gehostete Voicemails</p></td>
 <td><ul>
 <li><p>Konfigurieren Sie Benutzerkonten für Benutzer, deren Postfächer sich in einem gehosteten Exchange-Dienst befinden.</p></li>
 </ul></td>
@@ -76,14 +102,14 @@ Die folgende Tabelle zeigt eine Übersicht über den Integrationsprozess der geh
 <tr class="even">
 <td><p>Konfigurieren von gehosteten Kontaktobjekten</p></td>
 <td><ol>
-<li><p>Erstellen Sie Kontaktobjekte für automatische Telefonzentralen für gehostete Exchange UM-Dienste.</p></li>
-<li><p>Erstellen Sie Kontaktobjekte für den Teilnehmerzugriff für gehostete Exchange UM-Dienste.</p></li>
+<li><p>Erstellen Sie Kontaktobjekte für die automatische Telefonzentrale für gehostete Exchange um.</p></li>
+<li><p>Erstellen von Kontaktobjekten für den Abonnenten Zugriff für gehostete Exchange um.</p></li>
 </ol></td>
 <td><p>RTCUniversalUserAdmins</p>
 <div>
 
-> [!NOTE]
-> Zum Erstellen, Ändern oder Entfernen von Kontaktobjekten muss der Benutzer, der das Cmdlet "New-CsExUmContact", "Set-CsExUmContact" oder "Remove-CsExUmContact" ausführt, über geeignete Berechtigungen für die Active Directory-Organisationseinheit (Organizational Unit, OU) verfügen, in der die neuen Kontaktobjekte gespeichert werden. Diese Berechtigungen können mit dem Cmdlet "Grant-CsOUPermission" gewährt werden. Ausführliche Informationen finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
+> [!NOTE]  
+> Zum Erstellen, ändern oder Entfernen von Kontaktobjekten muss der Benutzer, der das Cmdlet New-CsExUmContact, CsExUmContact oder Remove-CsExUmContact ausführt, über die richtige Berechtigung für die Active Directory-Organisationseinheit verfügen, in der die neuen Kontaktobjekte gespeichert sind. Diese Berechtigungen können gewährt werden, indem das Cmdlet Grant-CsOUPermission ausgeführt wird. Ausführliche Informationen finden Sie in der Dokumentation zur lync Server-Verwaltungsshell.
 
 
 </div></td>
@@ -91,4 +117,17 @@ Die folgende Tabelle zeigt eine Übersicht über den Integrationsprozess der geh
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

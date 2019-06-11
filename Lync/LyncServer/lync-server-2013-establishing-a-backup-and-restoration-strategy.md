@@ -1,67 +1,105 @@
-﻿---
-title: Einrichten einer Sicherungs- und Wiederherstellungsstrategie
-TOCTitle: Einrichten einer Sicherungs- und Wiederherstellungsstrategie
-ms:assetid: f545a75f-bbc4-4968-b510-8f6f3920112b
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh202195(v=OCS.15)
-ms:contentKeyID: 52056494
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Einrichten einer Sicherungs-und Wiederherstellungsstrategie'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Establishing a backup and restoration strategy
+ms:assetid: f545a75f-bbc4-4968-b510-8f6f3920112b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202195(v=OCS.15)
+ms:contentKeyID: 51541532
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d378c66ae820ef0be7b7b3b0492b023863e977ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832194"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Einrichten einer Sicherungs- und Wiederherstellungsstrategie
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="establishing-a-backup-and-restoration-strategy-for-lync-server-2013"></a>Einrichten einer Sicherungs-und Wiederherstellungsstrategie für lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-03-26_
 
-Bevor Sie einen Sicherungs- und Wiederherstellungsplan für Lync Server entwickeln können, müssen Sie eine Strategie entwickeln, die mit Ihren Organisationszielen konform ist. Das Entwickeln einer effektiven Sicherungs- und Wiederherstellungsstrategie erfordert Folgendes:
+Bevor Sie einen Sicherungs-und Wiederherstellungsplan für lync Server entwickeln können, müssen Sie eine Strategie entwickeln, die den Zielen Ihrer Organisation entspricht. Zur Entwicklung einer effektiven Sicherungs-und Wiederherstellungsstrategie müssen Sie Folgendes ausführen:
 
-  - Festlegen von Unternehmensprioritäten
+  - Unternehmensprioritäten festlegen
 
-  - Identifizieren der Sicherungs- und Wiederherstellungsanforderungen
+  - Ermitteln von Sicherungs-und Wiederherstellungsanforderungen
 
-## Festlegen von Unternehmensprioritäten
+<div>
 
-Bewerten Sie die Unternehmensprioritäten Ihrer Organisation. In der Regel umfassen die primären Unternehmensprioritäten, die Ihre Sicherungs- und Wiederherstellungsstrategie beeinflussen, die Folgenden:
+## <a name="establishing-business-priorities"></a>Einrichten von Unternehmensprioritäten
 
-  - Anforderungen an Geschäftskontinuität
+Bewerten Sie die geschäftlichen Prioritäten Ihrer Organisation. In der Regel sind die primären Unternehmensprioritäten, die sich auf Ihre Sicherungs-und Wiederherstellungsstrategie auswirken, wie folgt:
+
+  - Business Continuity-Anforderungen
 
   - Datenvollständigkeit
 
-  - Datenkritikalität
+  - Daten kritisch
 
-  - Portabilitätsanforderungen
+  - Portabilitäts Anforderungen
 
   - Kosteneinschränkungen
 
-Geschäftsanforderungen wie diese helfen beim Bestimmen der Vereinbarungen zum Servicelevel (SLA), die Sie mit Ihren Kunden entwickeln. Vereinbarungen zum Servicelevel haben erheblichen Einfluss auf Ihre Sicherungs- und Wiederherstellungsstrategie.
+Geschäftliche Anforderungen wie diese helfen bei der Bestimmung der Service Level Agreements (SLAs), die Sie mit ihren Kunden entwickeln. Service Level Agreements beeinflussen Ihre Sicherungs-und Wiederherstellungsstrategie erheblich.
 
-## Identifizieren der Sicherungs- und Wiederherstellungsanforderungen
+</div>
 
-Ihre Unternehmensprioritäten und Vereinbarungen zum Servicelevel dienen zum Bestimmen der Lync Server-Sicherungs- und Wiederherstellungsanforderungen Ihrer Organisation. Identifizieren und dokumentieren Sie Ihre Anforderungen für Folgendes:
+<div>
 
-  - **Häufigkeit von Sicherungen**   Beachten Sie, dass Lync Server abgesehen von Front-End-Pools in einer Paarbeziehung gemäß der Beschreibung in [Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md) nur das einfache Wiederherstellungsmodell unterstützt, was bedeutet, dass die letzte vollständige Sicherung wiederhergestellt wird. Planen Sie sorgfältig, wie oft eine vollständige Sicherung durchgeführt werden muss. Ausführliche Informationen zu bewährten Methoden bei der Sicherungshäufigkeit finden Sie unter [Bewährte Methoden für die Sicherung und Wiederherstellung](lync-server-2013-best-practices-for-backup-and-restoration.md).
+## <a name="identifying-backup-and-restoration-requirements"></a>Identifizieren von Sicherungs-und Wiederherstellungsanforderungen
 
-  - **Sicherungs- und Wiederherstellungstools**   Geben Sie an, wer diese Tools benutzen soll und auf welchen Computern. Ausführliche Informationen über die in diesem Thema behandelten Tools und die erforderlichen Berechtigungen finden Sie unter [Anforderungen für die Sicherung und Wiederherstellung: Tools und Berechtigungen](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
+Ihre Geschäftsprioritäten und Service Level Agreements dienen dazu, die Anforderungen Ihrer Organisationen für das Sichern und Wiederherstellen von lync Server zu ermitteln. Ermitteln und dokumentieren Sie Ihre Anforderungen für Folgendes:
 
-  - **Sicherungsspeicherort**   Legen Sie fest, ob Sicherungen lokal oder remote gespeichert werden, und berücksichtigen Sie dabei Sicherheit und Zugänglichkeit. Legen Sie das für die Sicherungen zu verwendende Medium fest.
+  - **Häufigkeit von Sicherungen**   Informationen zu den bewährten Methoden für die Sicherungshäufigkeit finden Sie unter [bewährte Methoden für die Sicherung und Wiederherstellung für lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md).
 
-  - **Hardware- und Softwareanforderungen**   Identifizieren und dokumentieren Sie Ihre spezifischen Hardware- und Softwareanforderungen, einschließlich der Hardware für die Sicherungsspeicherung und Wiederherstellung bestimmter Komponenten sowie Software und Netzwerkverbindungen, die zur Unterstützung der Sicherung und Wiederherstellung benötigt werden. Beachten Sie beim Entwickeln Ihrer Hardware- und Softwareanforderungen die verschiedenen sich ergebenden Wiederherstellungsszenarien.
+  - **Zu den Sicherungs-und Wiederherstellungstools**   gehören die Personen, die die Tools verwenden sollen, und auf welchen Computern. Details zu den in diesem Thema und den erforderlichen Berechtigungen besprochenen Tools finden Sie unter [Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013: Tools und Berechtigungen](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
 
-  - **Wiederherstellungsszenarien**   Hier sind die Wiederherstellungsprozesse für folgende Szenarien beschrieben:
+  - **Sicherungsspeicherort**   ermitteln Sie, ob die Sicherungen lokal oder Remote aufbewahrt werden, wobei Sicherheit und Barrierefreiheit berücksichtigt werden. Geben Sie das für die Sicherungen zu verwendende Medium an.
+
+  - **Hardware-und Softwareanforderungen**   identifizieren und dokumentieren ihre spezifischen Hardware-und Softwareanforderungen, einschließlich Hardware für den Backup-Speicher und die Wiederherstellung bestimmter Komponenten sowie Software-und Netzwerkkonnektivität, die erforderlich ist, um unterstützen Sie die Sicherung und Wiederherstellung. Berücksichtigen Sie bei der Entwicklung Ihrer Hardware-und Softwareanforderungen die verschiedenen Wiederherstellungsszenarien, die Folgen.
+
+  - **Wiederherstellungsszenarien**   hier sind die Wiederherstellungsprozesse für die folgenden Szenarien:
     
-      - Ein Lync Server-Pool fällt aus. Dieses Szenario erfordert die Neuerstellung aller Server im Pool.
+      - Ein lync Server-Pool schlägt fehl. Für dieses Szenario muss jeder Server im Pool neu erstellt werden.
     
-      - Ein Standard Edition-Server fällt aus. Dieses Szenario erfordert die Neuerstellung des Servers auf einem neuen oder bereinigten Computer sowie das Wiederherstellen der Datenbanken.
+      - Ein Standard Edition-Server schlägt fehl. Für dieses Szenario muss der Server auf einem neuen oder sauberen Computer neu erstellt und Datenbanken wiederhergestellt werden.
     
-      - Verlust des zentralen Verwaltungsspeicher. Dieses Szenario erfordert mindestens die Wiederherstellung und Veröffentlichung des zentralen Verwaltungsspeicher.
+      - Verlust des zentralen Verwaltungsspeichers. Dieses Szenario erfordert mindestens das Wiederherstellen und Veröffentlichen des zentralen Verwaltungsspeichers.
     
-      - Verlust eines Back-End-Servers, wenn der zentralen Verwaltungsspeicher weiterhin ordnungsgemäß funktioniert. Dieses Szenario erfordert die Neuerstellung des Servers auf einem neuen oder bereinigten Computer sowie das Wiederherstellen der Datenbanken.
+      - Verlust eines Back-End-Servers, wenn der zentrale Verwaltungsspeicher weiterhin normal funktioniert. Für dieses Szenario muss der Server auf einem neuen oder sauberen Computer neu erstellt und Datenbanken wiederhergestellt werden.
     
-      - Ein Server, der Mitglied in einem Lync Server-Pool ist, fällt aus. Dieses Szenario erfordert die Neuerstellung des Servers auf einem neuen oder bereinigten Computer.
+      - Ein Server, der Mitglied eines lync Server-Pools ist, schlägt fehl. Für dieses Szenario muss der Server auf einem neuen oder sauberen Computer neu erstellt werden.
     
-      - Ein Dateispeicher fällt aus. Dieses Szenario erfordert die Wiederherstellung des Dateiservers oder Dateiclusters.
+      - Ein Dateispeicher schlägt fehl. Für dieses Szenario muss der Dateiserver oder der Dateicluster wiederhergestellt werden.
     
-      - Eine Archivierungs- oder Überwachungsdatenbank oder eine Datenbank für beständigen Chat fällt aus. Dieses Szenario erfordert die Wiederherstellung der Datenbanken, und wenn es sich um wichtige Daten für Ihre Organisation handelt, müssen die Daten wiederhergestellt werden. Daten aus den Datenbanken für Archivierung, Überwachung und beständigen Chat sind nicht erforderlich, um Lync Server wieder zum Laufen zu bringen.
+      - Eine Datenbank zum Archivieren, überwachen oder beständigen Chat schlägt fehl. Für dieses Szenario müssen die Datenbanken neu erstellt werden, und wenn die Daten für Ihre Organisation wichtig sind, müssen Sie die Daten wiederherstellen. Archivierungs-, Überwachungs-und beständige Chat Daten sind nicht erforderlich, um lync Server wieder in Betrieb zu nehmen.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

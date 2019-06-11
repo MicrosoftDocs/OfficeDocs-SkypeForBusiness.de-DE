@@ -1,54 +1,74 @@
-﻿---
-title: 'Lync Server 2013: IIS-Anforderungen für Front-End-Pools und Standard Edition-Server'
-TOCTitle: IIS-Anforderungen für Front-End-Pools und Standard Edition-Server
-ms:assetid: e8a6c7ac-b6d5-4c7e-abe9-d8ea5eedbc62
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg399038(v=OCS.15)
-ms:contentKeyID: 49295761
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: IIS-Anforderungen für Front-End-Pools und Standard Edition-Server
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: IIS requirements for Front End pools and Standard Edition servers
+ms:assetid: e8a6c7ac-b6d5-4c7e-abe9-d8ea5eedbc62
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399038(v=OCS.15)
+ms:contentKeyID: 48185888
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9d804df614eab49eeabe82cca9d304e082d9ced3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832040"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# IIS-Anforderungen für Front-End-Pools und Standard Edition-Server in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>IIS-Anforderungen für Front-End-Pools und Standard Edition-Server in Lync Server 2013
 
-Für Standard Edition-Server, Front End-Server und Director-Server erstellt das Lync Server 2013-Installationsprogramm virtuelle Verzeichnisse in Internetinformationsdienste (Internet Information Services, IIS), um Folgendes zu ermöglichen:
+</div>
 
-  - Herunterladen von Dateien aus dem Adressbuchdienst durch Remotebenutzer
+<div id="mainSection">
 
-  - Abrufen von Updates durch Clients
+<div id="mainBody">
 
-  - Ermöglichen von Konferenzen
+<span> </span>
 
-  - Herunterladen von Besprechungsinhalten durch Benutzer
+_**Letztes Änderungsdatum des Themas:** 2012-06-19_
 
-  - Erweiterung von Verteilergruppen durch externe Benutzer
+Bei Standard Edition-Servern und-Front-End-Servern sowie Directors erstellt das lync Server 2013-Installationsprogramm virtuelle Verzeichnisse in Internet Informationsdienste (IIS) für die folgenden Zwecke:
 
-  - Ermöglichen von Telefonkonferenzen
+  - So aktivieren Sie Benutzer zum Herunterladen von Dateien aus dem Adressbuchdienst
 
-  - Ermöglichen von Reaktionsgruppenfunktionen
+  - So aktivieren Sie Clients zum Abrufen von Updates
 
-Darüber hinaus erstellt der Installer für das kumulative Update für Lync Server 2010: November 2011 in IIS virtuelle Verzeichnisse für die folgenden Zwecke:
+  - So aktivieren Sie Konferenzen
 
-  - Auf Front-End-Servern oder Standard Edition-Servern zur Unterstützung der Mobilitätsfunktionen wie Sofortnachrichten und Anwesenheit auf mobilen Geräten
+  - So aktivieren Sie Benutzer zum Herunterladen von Besprechungsinhalten
 
-  - Auf Front-End-Servern oder Standard Edition-Servern und auf Directors, damit mobile Geräte automatisch Mobilitätsressourcen ermitteln können
+  - So aktivieren Sie Benutzer zum Erweitern von Verteilergruppen
+
+  - So aktivieren Sie Telefonkonferenzen
+
+  - So aktivieren Sie die Features der Reaktionsgruppe
+
+Darüber hinaus erstellt das kumulative Update für lync Server 2010: November 2011-Installationsprogramm virtuelle Verzeichnisse in IIS für die folgenden Zwecke:
+
+  - Auf Front-End-Servern oder Standard Edition-Servern zur Unterstützung von Mobilitätsfunktionen wie Instant Messaging (im) und Anwesenheit auf mobilen Geräten
+
+  - Auf Front-End-Servern oder Standard Edition-Servern und auf Directors, damit Mobile Geräte mobilitätsressourcen automatisch entdecken können
+
 
 
 > [!NOTE]
-> Wenn Sie Mobilität bereitstellen, wird empfohlen, IIS 7.5 zu verwenden. Der Lync Server-Mobilitätsdienst-Installer legt zur Leistungsverbesserung einige der ASP.NET-Kennzeichen fest. IIS 7.5 ist standardmäßig unter Windows Server 2008 R2 installiert, und der Mobilitätsdienst-Installer ändert die ASP.NET-Einstellungen automatisch. Wenn Sie IIS 7.0 unter Windows Server 2008 verwenden, müssen Sie diese Einstellungen manuell ändern.
+> Wenn Sie Mobilität bereitstellen, empfehlen wir, IIS 7,5 zu verwenden. Das lync Server Mobility Service-Installationsprogramm legt einige ASP.net-Flags fest, um die Leistung zu verbessern. IIS 7,5 wird standardmäßig unter Windows Server 2008 R2 installiert, und das Mobilitätsdienst-Installationsprogramm ändert automatisch die ASP.NET-Einstellungen. Wenn Sie IIS 7,0 unter Windows Server 2008 verwenden, müssen Sie diese Einstellungen manuell ändern.
 
 
 
-Für Lync Server müssen folgende IIS-Module installiert sein:
+Für lync Server müssen die folgenden IIS-Module installiert werden:
 
 
 > [!IMPORTANT]
-> Sollte es erforderlich sein, dass Sie IIS und alle Webdienste auf einem anderen Laufwerk als dem Systemlaufwerk installieren, können Sie den Installationspfad für die Lync Server-Dateien im Setup-Dialogfeld ändern. Wenn Sie die Setupdateien, einschließlich OCSCore.msi, unter diesem Installationspfad installieren, werden auch die übrigen Lync Server-Dateien auf diesem Laufwerk bereitestellt. Einzelheiten dazu, wie Sie das vom Windows Server Manager bereitgestellte Verzeichnis INETPUB beim Installieren von IIS an anderer Stelle platzieren können, finden Sie unter <A class=uri href="http://go.microsoft.com/fwlink/?linkid=216888">http://go.microsoft.com/fwlink/?linkid=216888</A>.
-
+> Wenn Ihre Organisation erfordert, dass Sie IIS und alle Webdienste auf einem anderen Laufwerk als dem Systemlaufwerk finden, können Sie den Pfad für den Installationspfad für die lync Server-Dateien im Dialogfeld einrichten ändern. Wenn Sie die Setup Dateien in diesem Pfad, einschließlich OCSCore. msi, installieren, werden die restlichen lync Server-Dateien ebenfalls auf diesem Laufwerk bereitgestellt. Ausführliche Informationen dazu, wie Sie die INETPUB, die vom Windows Server-Manager bereitgestellt werden, <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>bei der Installation von IIS verschieben, finden Sie unter.
 
 
   - Statischer Inhalt
@@ -57,7 +77,7 @@ Für Lync Server müssen folgende IIS-Module installiert sein:
 
   - HTTP-Fehler
 
-  - ASP.NET
+  - ASP.net
 
   - .NET-Erweiterbarkeit
 
@@ -83,13 +103,13 @@ Für Lync Server müssen folgende IIS-Module installiert sein:
 
   - IIS-Verwaltungsskripts und -tools
 
-  - Anonyme Authentifizierung (wird bei der Installation von IIS standardmäßig installiert)
+  - Anonyme Authentifizierung (standardmäßig installiert, wenn IIS installiert ist)
 
   - Clientzertifikatzuordnungs-Authentifizierung
 
-In der folgenden Tabelle werden die URIs für die virtuellen Verzeichnisse zum internen Zugriff und die Dateisystemressourcen aufgeführt, auf die diese verweisen.
+In der folgenden Tabelle sind die URIs für die virtuellen Verzeichnisse für den internen Zugriff und die Dateisystemressourcen aufgelistet, auf die Sie verweisen.
 
-### Virtuelle Verzeichnisse für den internen Zugriff
+### <a name="virtual-directories-for-internal-access"></a>Virtuelle Verzeichnisse für den internen Zugriff
 
 <table>
 <colgroup>
@@ -99,88 +119,98 @@ In der folgenden Tabelle werden die URIs für die virtuellen Verzeichnisse zum i
 </colgroup>
 <thead>
 <tr class="header">
-<th>Funktion</th>
-<th>URI des virtuellen Verzeichnisses</th>
-<th>Verweis auf</th>
+<th>Feature</th>
+<th>URI für virtuelles Verzeichnis</th>
+<th>Bezieht sich auf</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Adressbuchserver</p></td>
-<td><p>https:// <em>&lt;Interner FQDN&gt;</em> /ABS/int/Handler</p></td>
-<td><p>Speicherort der Adressbuchserver-Downloaddateien für interne Benutzer</p></td>
+<td><p>https://&lt;Interner FQDN&gt;-/ABS/int/Handler</p></td>
+<td><p>Speicherort der Adressbuch Server-Downloaddateien für interne Benutzer.</p></td>
 </tr>
 <tr class="even">
 <td><p>AutoErmittlungsdienst</p></td>
-<td><p>https:// <em>&lt;Interner FQDN&gt;</em> /Autodiscover</p></td>
-<td><p>Ort des Lync Server-AutoErmittlungsdiensts, der Mobilitätsressourcen für interne mobile Gerätebenutzer ermittelt.</p></td>
+<td><p>https://&lt;Interner FQDN&gt;-/autodiscover</p></td>
+<td><p>Der Speicherort des lync Server-AutoErmittlungsdiensts, der mobilitätsressourcen für interne Benutzer von mobilen Geräten findet.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Clientupdates</p></td>
-<td><p>http:// <em>&lt;Interner FQDN&gt;</em> /AutoUpdate/Int</p></td>
-<td><p>Speicherort der Updatedateien für interne computerbasierte Clients</p></td>
+<td><p>http://&lt;Interner FQDN&gt;-/AutoUpdate/int</p></td>
+<td><p>Speicherort der Updatedateien für interne computerbasierte Clients.</p></td>
 </tr>
 <tr class="even">
-<td><p>Konferenz</p></td>
-<td><p>http:// <em>&lt;Interner FQDN&gt;</em> /Conf/Int</p></td>
-<td><p>Speicherort der Konferenzressourcen für interne Benutzer</p></td>
+<td><p>Conf</p></td>
+<td><p>http://&lt;Interner FQDN&gt;-/conf/int</p></td>
+<td><p>Der Speicherort der Konferenzressourcen für interne Benutzer.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Geräteaktualisierungen</p></td>
-<td><p>http:// <em>&lt;Interner FQDN&gt;</em> /DeviceUpdateFiles_Int</p></td>
-<td><p>Speicherort der UC-Geräteaktualisierungsdateien (Unified Communications) für interne UC-Geräte</p></td>
+<td><p>Geräte Updates</p></td>
+<td><p>http://&lt;Interner FQDN&gt;-/DeviceUpdateFiles_Int</p></td>
+<td><p>Speicherort der Unified Communications (UC)-Geräteaktualisierungsdateien für interne UC-Geräte.</p></td>
 </tr>
 <tr class="even">
 <td><p>Besprechung</p></td>
-<td><p>http:// <em>&lt;Interner FQDN&gt;</em> /etc/place/null</p></td>
-<td><p>Speicherort der Besprechungsinhalte für interne Benutzer</p></td>
+<td><p>http://&lt;Interner FQDN&gt;-/etc/Place/NULL</p></td>
+<td><p>Ort des Besprechungsinhalts für interne Benutzer.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Mobilitätsdienst</p></td>
-<td><p>https:// <em>&lt;Interner FQDN&gt;</em> /Mcx</p></td>
-<td><p>Ort der der Mobilitätsressourcen für interne mobile Gerätebenutzer.</p></td>
+<td><p>https://&lt;Interner FQDN&gt;-/MCX</p></td>
+<td><p>Speicherort der Mobilitätsdienst Ressourcen für Benutzer interner mobiler Geräte.</p></td>
 </tr>
 <tr class="even">
-<td><p>Gruppenerweiterung und Adressbuch-Webabfragedienst</p></td>
-<td><p>http:// <em>&lt;Interner FQDN&gt;</em> /GroupExpansion/int/service.asmx</p></td>
-<td><p>Speicherort des Webdiensts, der die Gruppenerweiterung für interne Besucher ermöglicht, zudem der Speicherort des Adressbuch-Webabfragediensts, der für die internen Lync Mobile- Microsoft Lync 2010 Mobile-Clients Informationen aus der globalen Adressliste bereitstellt.</p></td>
+<td><p>Gruppenerweiterung und Adressbuch-Webabfrage Dienst</p></td>
+<td><p>http://&lt;Interner FQDN&gt;-/GroupExpansion/int/Service.asmx</p></td>
+<td><p>Der Speicherort des Webdiensts, der die Gruppenerweiterung für interne Benutzer ermöglicht. Außerdem wird der Speicherort des Adressbuch-Webabfrage Diensts bereitgestellt, der den internen lync Mobile Microsoft lync 2010 Mobile-Clients globale Adresslisteninformationen bereitstellt.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Telefonkonferenz</p></td>
-<td><p>http:// <em>&lt;Interner FQDN&gt;</em> /PhoneConferencing/Int</p></td>
-<td><p>Speicherort der Telefonkonferenzdaten für interne Benutzer</p></td>
+<td><p>Telefonkonferenzen</p></td>
+<td><p>http://&lt;Interner FQDN&gt;-/PhoneConferencing/int</p></td>
+<td><p>Standort von Telefonkonferenz Daten für interne Benutzer.</p></td>
 </tr>
 <tr class="even">
-<td><p>Geräteaktualisierungen</p></td>
-<td><p>http:// <em>&lt;Interner FQDN&gt;</em> /RequestHandler</p></td>
-<td><p>Speicherort des Anforderungshandlers für den Geräteaktualisierungswebdienst, über den interne UC-Geräte Protokolle hochladen und nach Updates suchen können</p></td>
+<td><p>Geräte Updates</p></td>
+<td><p>http://&lt;Interner FQDN&gt;-/RequestHandler</p></td>
+<td><p>Der Speicherort des Webdienst Anforderungshandlers für den Geräteaktualisierungsdienst, der es internen UC-Geräten ermöglicht, Protokolle hochzuladen und auf Updates zu überprüfen.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Reaktionsgruppenanwendung</p></td>
-<td><p>http:// <em>&lt;Interner FQDN&gt;</em> /RgsConfig</p>
-<p>http:// <em>&lt;Interner FQDN&gt;</em> /RgsClients</p></td>
-<td><p>Speicherort des Konfigurationstools für Reaktionsgruppen</p></td>
+<td><p>http://&lt;Interner FQDN&gt;-/RgsConfig</p>
+<p>http://&lt;Interner FQDN&gt;-/RgsClients</p></td>
+<td><p>Speicherort des Reaktionsgruppen-Konfigurationstools</p></td>
 </tr>
 </tbody>
 </table>
 
 
-
 > [!NOTE]
-> Bei Front-End-Pools in einer konsolidierten Konfiguration müssen Sie IIS bereitstellen, bevor Sie dem Pool Server hinzufügen können.
-
+> Für Front-End-Pools in einer konsolidierten Konfiguration müssen Sie IIS bereitstellen, bevor Sie dem Pool Server hinzufügen können.
 
 
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg399038.security(OCS.15).gif" title="security" alt="security" />Sicherheit Hinweis:</th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="Sicherheits" alt="security" />Sicherheitshinweis:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Sie müssen das vom IIS-Webkomponentenserver verwendete Zertifikat über das IIS-Verwaltungs-Snap-In zuweisen.</td>
+<td>Sie müssen das IIS-Verwaltungs-Snap-in verwenden, um das vom IIS-Webkomponentenserver verwendete Zertifikat zuzuweisen.</td>
 </tr>
 </tbody>
 </table>
+
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,56 +1,95 @@
-﻿---
-title: Löschen von vorhandenen Netzwerkregionsrouten
-TOCTitle: Löschen von vorhandenen Netzwerkregionsrouten
-ms:assetid: 6256ff80-5f1e-48b4-928b-24aeb3c1a0e7
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688074(v=OCS.15)
-ms:contentKeyID: 49890770
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Löschen vorhandener Netzwerkbereichs Routen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deleting existing network region routes
+ms:assetid: 6256ff80-5f1e-48b4-928b-24aeb3c1a0e7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688074(v=OCS.15)
+ms:contentKeyID: 49733669
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5e188ef3214088fe9c38c144fad1908d13fef162
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832584"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Löschen von vorhandenen Netzwerkregionsrouten
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="deleting-existing-network-region-routes-in-lync-server-2013"></a>Löschen vorhandener Netzwerkbereichs Routen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
-Jede Region in einer CAC-Konfiguration (Call Admission Control, Anrufsteuerung) muss über eine Möglichkeit verfügen, auf jede andere Region zuzugreifen. Während die Regionenverbindungen Bandbreiteneinschränkungen für Verbindungen zwischen Regionen festlegen und auch die physischen Verbindungen darstellen, bestimmt eine Route, welchen Pfad die Verbindung von einer Region zur anderen nimmt. Mithilfe der Lync Server-Systemsteuerung können Sie Netzwerkregionenrouten konfigurieren. In der Lync Server-Systemsteuerung können Sie eine Netzwerkregionenroute erstellen, ändern oder löschen. In diesem Thema wird beschrieben, wie vorhandene Netzwerkregionenrouten gelöscht werden. Nähere Informationen über das Erstellen oder Ändern von Netzwerkregionenrouten finden Sie unter [Erstellen oder Ändern von Netzwerkregionsrouten](lync-server-2013-creating-or-modifying-network-region-routes.md).
+Jede Region innerhalb einer Anruf Steuerungskonfiguration muss über eine Möglichkeit verfügen, auf jede andere Region zuzugreifen. Während die Region Links die Bandbreiteneinschränkungen für die Verbindungen zwischen Regionen festlegen und auch die physischen Links darstellen, bestimmt eine Route, welchen verknüpften Pfad die Verbindung von einem Bereich zu einer anderen durchlaufen wird. Sie können die lync Server-Systemsteuerung verwenden, um Netzwerkbereichs Routen zu konfigurieren. In der lync Server-Systemsteuerung können Sie eine Netzwerk Regions Route erstellen, ändern oder löschen. Verwenden Sie dieses Thema, um vorhandene Netzwerkbereichs Routen zu löschen. Details zum Erstellen oder Ändern von Netzwerkbereichs Routen finden Sie unter [erstellen oder Ändern von Netzwerkbereichs Routen in lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md).
 
-## So löschen Sie eine Netzwerkregionenroute
+<div>
+
+## <a name="to-delete-a-network-region-route"></a>So löschen Sie eine Route des Netzwerkbereichs
 
 1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie auf der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Regionenroute**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Regions Route**.
 
-4.  Klicken Sie auf der Seite **Regionenroute** auf die Regionenroute, die Sie löschen möchten.
+4.  Klicken Sie auf der Seite **Region Route** auf die Route, die Sie löschen möchten.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Sie können mehrere Regionenrouten in einem Arbeitsschritt löschen. Wählen Sie dazu mit gedrückter STRG-TASTE mehrere Regionenrouten aus. Wenn Sie alle Regionenrouten auswählen möchten, klicken Sie im Menü <STRONG>Bearbeiten</STRONG> auf <STRONG>Alle auswählen</STRONG>.
+    > [!NOTE]  
+    > Sie können mehr als eine Regions Route gleichzeitig löschen. Drücken Sie dazu STRG, und wählen Sie mehrere Bereichs Routen aus, während Sie die STRG-Taste gedrückt halten. Wenn Sie alle Regions Routen auswählen möchten, klicken Sie im Menü <STRONG>Bearbeiten</STRONG> auf <STRONG>Alle auswählen</STRONG> .
 
-
+    
+    </div>
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Löschen**.
 
 6.  Klicken Sie auf **OK**.
 
-## Siehe auch
+</div>
 
-#### Aufgaben
+<div>
 
-[Erstellen oder Ändern von Netzwerkregionsrouten](lync-server-2013-creating-or-modifying-network-region-routes.md)  
+## <a name="see-also"></a>Siehe auch
 
-#### Konzepte
 
-[Konfigurieren einer Netzwerkregionenroute](https://technet.microsoft.com/de-de/library/gg133706\(v=ocs.15\))  
+[Erstellen oder Ändern von Netzwerkbereichs Routen in lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md)  
 
-#### Weitere Ressourcen
 
-[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)  
-[Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterRegionRoute)  
-[Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterRegionRoute)  
-[Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterRegionRoute)
+[Konfigurieren einer Netzwerkregionenroute](https://technet.microsoft.com/en-us/library/gg133706\(v=ocs.15\))  
+
+
+[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)  
+[Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute)  
+[Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)  
+[Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,29 +1,55 @@
-﻿---
-title: Prüfliste zur Bereitstellung für Webkonferenzen in Lync Server 2013
-TOCTitle: Prüfliste zur Bereitstellung für Webkonferenzen in Lync Server 2013
-ms:assetid: 9908ebe0-e5d3-4920-b9b1-85021f7e69e9
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205104(v=OCS.15)
-ms:contentKeyID: 49294847
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Checkliste für die lync Server 2013-Bereitstellung für Webkonferenzen
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment checklist for web conferencing
+ms:assetid: 9908ebe0-e5d3-4920-b9b1-85021f7e69e9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205104(v=OCS.15)
+ms:contentKeyID: 48184878
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d5f845fd57846d7f9b58351d1cb77f3f1c0142ed
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832501"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Prüfliste zur Bereitstellung für Webkonferenzen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="deployment-checklist-for-web-conferencing-in-lync-server-2013"></a>Bereitstellungscheckliste für Webkonferenzen in lync Server 2013
 
-Wie für die Bereitstellung Ihrer anderen Lync Server 2013-Komponenten wird auch für Webkonferenzen der Topologie-Generator benötigt, um eine Topologie zu erstellen und zu veröffentlichen, die Konferenzen aufnimmt.
+</div>
 
-## Bereitstellungsreihenfolge
+<div id="mainSection">
 
-Sie können Konferenzen gleichzeitig mit Ihrer ersten Topologie bereitstellen oder nachdem Sie mindestens einen Front-End-Pool oder einen Standard Edition-Server bereitgestellt haben.
+<div id="mainBody">
 
-## Bereitstellungsverfahren für Konferenzen
+<span> </span>
 
-Die folgende Tabelle bietet einen Überblick über die erforderlichen Schritte zur Bereitstellung von Konferenzen in einer vorhandenen Topologie.
+_**Letztes Änderungsdatum des Themas:** 2012-09-30_
+
+Wie bei der Bereitstellung Ihrer anderen lync Server 2013-Komponenten erfordert die Bereitstellung von Webkonferenzen, dass Sie den Topologie-Generator verwenden, um eine Topologie zu erstellen und zu veröffentlichen, in der Konferenzen integriert sind.
+
+<div>
+
+## <a name="deployment-sequence"></a>Bereitstellungssequenz
+
+Sie können Konferenzen gleichzeitig bereitstellen, indem Sie Ihre anfängliche Topologie bereitstellen oder nachdem Sie mindestens einen Front-End-Pool oder Standard Edition-Server bereitgestellt haben.
+
+</div>
+
+<div>
+
+## <a name="conferencing-deployment-process"></a>Konferenz Bereitstellungsprozess
+
+Die folgende Tabelle enthält eine Übersicht über die erforderlichen Schritte zum Bereitstellen von Konferenzen in einer vorhandenen Topologie.
 
 
 <table>
@@ -44,44 +70,44 @@ Die folgende Tabelle bietet einen Überblick über die erforderlichen Schritte z
 <tbody>
 <tr class="odd">
 <td><p><strong>Installieren der erforderlichen Hardware und Software</strong></p></td>
-<td><p>Konferenzen werden auf Front-End-Servern in einem Front-End-Pool und auf Standard Edition-Servern ausgeführt. Es bestehen keine zusätzlichen Hardware- oder Softwareanforderungen, die die Installationsanforderungen für diese Server übersteigen.</p>
+<td><p>Konferenzen werden auf Front-End-Servern in einem Front-End-Pool und auf Standard Edition-Servern ausgeführt. Abgesehen von den herkömmlichen Anforderungen zur Installation dieser Server bestehen keine zusätzlichen Hardware- oder Softwareanforderungen.</p>
 <div>
 
-> [!NOTE]
-> Lync Server 2013 nutzt Office Web Apps und den Office Web Apps-Server, um die Freigabe und das Rendern von PowerPoint-Präsentationen durchzuführen. Informationen zur Installation und Konfiguration von Office Web Apps-Server finden Sie unter <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Konfigurieren der Integration mit Office Web Apps Server und Lync Server 2013</A>.
+> [!NOTE]  
+> In lync Server 2013 werden Office Web Apps und der Office Web Apps-Server verwendet, um die Freigabe und das Rendern von PowerPoint-Präsentationen zu verarbeiten. Informationen zum Installieren und Konfigurieren von Office Web Apps Server finden Sie unter <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Konfigurieren der Integration in Office Web Apps Server und lync Server 2013</A>.
 
 
 </div></td>
 <td><p>Domänenbenutzer, der Mitglied der lokalen Administratorgruppe ist</p></td>
-<td><p><a href="lync-server-2013-supported-hardware.md">Unterstützte Hardware für Lync Server 2013</a> in der Unterstützungsdokumentation</p>
-<p><a href="lync-server-2013-server-software-and-infrastructure-support.md">Serversoftware- und Infrastrukturunterstützung in Lync Server 2013</a> in der Unterstützungsdokumentation</p>
-<p><a href="lync-server-2013-determining-your-system-requirements.md">Ermitteln Ihrer Systemanforderungen für Lync Server 2013</a> in der Planungsdokumentation</p>
-<p><a href="lync-server-2013-technical-requirements-for-archiving.md">Technische Anforderungen für die Archivierung in Lync Server 2013</a> in der Planungsdokumentation</p>
-<p></p></td>
+<td><p><a href="lync-server-2013-supported-hardware.md">Unterstützte Hardware für lync Server 2013</a> in der Dokumentation zur Unterstützung</p>
+<p><a href="lync-server-2013-server-software-and-infrastructure-support.md">Unterstützung für Server Software und-Infrastruktur in lync Server 2013</a> in der Dokumentation zur Unterstützung</p>
+<p><a href="lync-server-2013-determining-your-system-requirements.md">Ermitteln der Systemanforderungen für lync Server 2013</a> in der Planungsdokumentation</p>
+<p><a href="lync-server-2013-technical-requirements-for-archiving.md">Technische Voraussetzungen für die Archivierung in lync Server 2013</a> in der Planungsdokumentation.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Erstellen der geeigneten internen Topologie zur Unterstützung von Konferenzen</strong></p></td>
-<td><p>Führen Sie das Topologie-Generator aus, um Konferenzen zur Topologie hinzuzufügen und die Topologie dann zu veröffentlichen.</p></td>
+<td><p>Führen Sie den Topologie-Generator aus, um der Topologie Konferenzen hinzuzufügen, und veröffentlichen Sie dann die Topologie.</p></td>
 <td><p>Zum Definieren einer Topologie: Konto, das Mitglied der lokalen Benutzergruppe ist</p>
-<p>Zum Veröffentlichen der Topologie: Konto, das Mitglied der Gruppen &quot;Domänen-Admins&quot; und &quot;RTCUniversalServerAdmins&quot; ist und über Vollzugriff (Lesen/Schreiben/Ändern) für die Dateifreigabe verfügt, auf der sich der Lync Server 2013-Dateispeicher befindet (damit der Topologie-Generator die erforderlichen DACLs konfigurieren kann)</p></td>
-<td><p><a href="lync-server-2013-define-and-configure-a-topology-in-topology-builder.md">Definieren und Konfigurieren einer Topologie für Lync Server 2013 im Topologie-Generator</a> in der Bereitstellungsdokumentation</p></td>
+<p>So veröffentlichen Sie die Topologie: ein Konto, das ein Mitglied der Gruppe "Domänen-Admins" und der RTCUniversalServerAdmins-Gruppe ist und das Vollzugriffsberechtigungen (Lesen/Schreiben/ändern) für die Dateifreigabe hat, die für den lync Server 2013-Dateispeicher verwendet werden soll (damit der Topologie-Generator Konfigurieren der erforderlichen DACLs</p></td>
+<td><p><a href="lync-server-2013-define-and-configure-a-topology-in-topology-builder.md">Definieren und konfigurieren Sie eine Topologie im Topologie-Generator für lync Server 2013</a> in der Bereitstellungsdokumentation.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Konfigurieren von Konferenzrichtlinien und -unterstützung</strong></p></td>
-<td><p>Verwenden Sie die Systemsteuerung für Lync Server 2013 oder die Lync Server-Verwaltungsshell, um Einstellungen für Konferenzen zu konfigurieren.</p></td>
-<td><p>Gruppe &quot;RTCUniversalServerAdmins&quot; (nur Windows PowerShell) oder Zuweisung von Benutzern zur Rolle &quot;CSAdministrator&quot;</p></td>
-<td><p><a href="lync-server-2013-conferencing-policies.md">Konferenzrichtlinien in Lync Server 2013</a> in der Betriebsdokumentation</p></td>
+<td><p><strong>Konfigurieren von Konferenzrichtlinien und-Support</strong></p></td>
+<td><p>Verwenden Sie die lync Server 2013-Systemsteuerung oder die lync Server-Verwaltungsshell, um Konferenzeinstellungen zu konfigurieren.</p></td>
+<td><p>RTCUniversalServerAdmins-Gruppe (nur Windows PowerShell) oder Zuweisen von Benutzern zur []-oder CSAdministrator-Rolle</p></td>
+<td><p><a href="lync-server-2013-conferencing-policies.md">Konferenzrichtlinien in lync Server 2013</a> in der Betriebsdokumentation.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Lync Server 2013 besitzt nun die Einstellung **MaxUploadFileSizeMb**, mit der die Größe von Dateien, die während einer Besprechung hochgeladen werden können, beschränkt wird. Der Standardwert für diese Einstellung ist "500 MB". **MaxUploadFileSizeMb** kann mit dem **Set-CsConferencingConfiguration**-Cmdlet angepasst werden.
+Lync Server 2013 enthält jetzt die **MaxUploadFileSizeMb** -Einstellung, die die Größe von Dateien begrenzt, die während einer Besprechung hochgeladen werden können. Der Standardwert für diese Einstellung ist 500 MB. Sie können **MaxUploadFileSizeMb** mit dem Cmdlet " **Satz-CsConferencingConfiguration** " anpassen.
 
-**MaxUploadFileSizeMb** nimmt keine Beschränkung der Einstellung für das Hochladen von Dateien der Lync Web App vor. Der Grenzwert für die Größe hochgeladener Dateien ist in der Lync Web App auf rund 30 MB festgelegt und wird über die IIS "web.config"-Datei gesteuert: /DataCollabWeb/Int\[Ext\]/Handler/web.config. Zur Konfiguration des Grenzwerts für die Größe hochgeladener Dateien für die Lync Web App müssen Sie in der Datei "web.config" `maxRequestLength` und `maxAllowedContentLength` wie im Folgenden dargestellt aktualisieren.
+**MaxUploadFileSizeMb** schränkt die Einstellung für den Dateiupload für lync Web App nicht ein. Der Grenzwert für die Upload-Dateigröße für lync Web App ist auf ungefähr 30 MB festgesetzt und wird von der IIS Web.\[config\]-Datei gesteuert:/DataCollabWeb/int ext/Handler/Web.config. Zum Konfigurieren des Upload-Grenzwerts für die Dateigröße für lync `maxRequestLength` Web `maxAllowedContentLength` APP aktualisieren Sie die Datei Web. config wie unten dargestellt.
 
     <system.web>
-        <!-- Since this handler is used to upload files to DMCU the request size (in kilobytes) 
+        <!-- 
+            Since this handler is used to upload files to DMCU the request size (in kilobytes) 
             has to fit max allowed file size uploaded by LWA client.
             The timeout has to reflect the min client bandwidth. Timeout of 600 secs 
             and 512 Kbits of *client* bandwidth would result into aproximately 30 Mbytes 
@@ -97,5 +123,17 @@ Lync Server 2013 besitzt nun die Einstellung **MaxUploadFileSizeMb**, mit der di
                     </requestFiltering>
                     </security>
 
-Die Datei "web.config" muss für jeden Front-End-Server aktualisiert werden.
+Sie müssen die Datei Web. config für jeden Front-End-Server aktualisieren.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

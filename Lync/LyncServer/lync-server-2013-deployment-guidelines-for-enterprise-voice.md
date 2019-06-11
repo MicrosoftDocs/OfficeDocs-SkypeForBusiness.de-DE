@@ -1,73 +1,128 @@
-﻿---
-title: 'Lync Server 2013: Richtlinien für die Enterprise-VoIP-Bereitstellung'
-TOCTitle: Richtlinien für die Enterprise-VoIP-Bereitstellung
-ms:assetid: 8985bd93-7613-4cef-9c89-51df6049ed9b
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398694(v=OCS.15)
-ms:contentKeyID: 49294671
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Richtlinien für die Enterprise-VoIP-Bereitstellung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment guidelines for Enterprise Voice
+ms:assetid: 8985bd93-7613-4cef-9c89-51df6049ed9b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398694(v=OCS.15)
+ms:contentKeyID: 48184733
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b0f4f6198f8fb82720834d112bcf363554aaf84d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832494"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Richtlinien für die Enterprise-VoIP-Bereitstellung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="deployment-guidelines-for-enterprise-voice-in-lync-server-2013"></a>Richtlinien für die Enterprise-VoIP-Bereitstellung in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-21_
 
-In diesem Thema werden die Voraussetzungen und andere Richtlinien beschrieben, die Sie bei der Bereitstellungsplanung für Lync Server 2013 und eine Enterprise-VoIP-Arbeitsauslastung berücksichtigen sollten.
+In diesem Thema werden die Voraussetzungen und anderen Richtlinien beschrieben, die bei der Bereitstellung von lync Server 2013 und der Enterprise-VoIP-Arbeitsauslastung zu beachten sind.
 
-## Voraussetzungen für die Bereitstellung
+<div>
 
-Für ein optimales Ergebnis stellen Sie beim Bereitstellen von Enterprise-VoIP sicher, dass IT-Infrastruktur, Netzwerk und Systeme die folgenden Anforderungen erfüllen:
+## <a name="deployment-prerequisites"></a>Voraussetzungen für die Bereitstellung
 
-  - Lync Server 2013 Standard Edition oder Enterprise Edition ist im Netzwerk installiert und wird ausgeführt.
+Für eine optimale Benutzerfreundlichkeit bei der Bereitstellung von Enterprise-VoIP stellen Sie sicher, dass Ihre IT-Infrastruktur, Ihr Netzwerk und ihre Systeme die folgenden Voraussetzungen erfüllen:
 
-  - Alle Edgeserver und Reverseproxys wurden in Ihrem Umkreisnetzwerk bereitgestellt und sind betriebsbereit - die Edgeserver mit Zugriffs-Edgedienst, A/V-Edgedienst, Webkonferenz-Edgedienst und ein Reverseproxy eingeschlossen.
+  - Lync Server 2013 Standard Edition oder Enterprise Edition ist in Ihrem Netzwerk installiert und betriebsbereit.
 
-  - Es wurden Benutzer für Lync Server erstellt und aktiviert.
+  - Alle Edgeserver werden in Ihrem Umkreisnetzwerk bereitgestellt und in Betrieb genommen, einschließlich Edgeserver mit Access Edge Service, a/V Edge Service, Web Conferencing Edge Service und einem Reverse Proxy.
 
-  - Microsoft Exchange Server 2007 Service Pack 1 (SP1) oder mit dem neuesten Service Pack oder Microsoft Exchange Server 2010 wird installiert. Mindestens eine dieser Versionen ist für die Integration von Exchange Unified Messaging (UM) mit Lync Server und zur Bereitstellung von detaillierten Benachrichtigungen und Anrufprotokollinformationen für die Clientendpunkte erforderlich.
+  - Mindestens ein Benutzer wurde für lync Server erstellt und aktiviert.
 
-  - Für jeden Benutzer, für den Enterprise-VoIP aktiviert werden soll, wurde eine eindeutige primäre Rufnummer festgelegt, normalisiert und in das Attribut **msRTCSIP-line** kopiert.
+  - Microsoft Exchange Server 2007 Service Pack 1 (SP1) oder neuestes Service Pack oder Microsoft Exchange Server 2010 ist installiert. Eine dieser Funktionen ist für die Integration von Exchange Unified Messaging (um) in lync Server und für die Bereitstellung umfassender Benachrichtigungen und Anrufprotokoll Informationen für Clientendpunkte erforderlich.
+
+  - Für jeden Benutzer, der für Enterprise-VoIP aktiviert werden soll, wurde eine eindeutige primäre Telefonnummer festgelegt, normalisiert und in das **Attribut msRTCSIP-** Attribut kopiert.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Lync Server unterstützt E.164-Nummern und Nicht-DID-Nummern (Direct Inward Dialing). Nicht-DID-Nummern können im Format <STRONG>&lt;E.164&gt;;ext=&lt;extension&gt;</STRONG> oder als Ziffernfolge dargestellt werden. Dabei gilt die Anforderung, dass die private Durchwahl im Unternehmen eindeutig ist. Die private Nummer&nbsp;1001 kann z.&nbsp;B. als <STRONG>+1425550100;ext=1001</STRONG> oder als <STRONG>1001</STRONG> dargestellt werden. Bei Darstellung als <STRONG>1001</STRONG> wird vorausgesetzt, dass die private Nummer im Unternehmen eindeutig ist.
+    > [!NOTE]  
+    > Lync Server unterstützt E. 164-Nummern und nicht Direkteinwahl Nummern (DID). Nicht-did-Zahlen können im Format <STRONG> &lt;E. 164&gt;; Ext =&lt;Extension&gt; </STRONG> oder als Zeichenfolge von Ziffern dargestellt werden, mit der Voraussetzung, dass die private Erweiterung im gesamten Unternehmen eindeutig ist. Beispielsweise kann eine private Zahl von 1001 als <STRONG>+ 1425550100; ext = 1001</STRONG>oder als <STRONG>1001</STRONG>dargestellt werden. Wenn Sie als <STRONG>1001</STRONG>dargestellt wird, wird davon ausgegangen, dass diese private Nummer im gesamten Unternehmen eindeutig ist.
 
-
-
-  - Administratoren, die Enterprise-VoIP bereitstellen, sollten Mitglied der Gruppe "RTCUniversalServerAdmins" sein.
-
-  - Mindestens Office Communicator 2007 wurde erfolgreich bereitgestellt. Zur Verwendung der neuen Funktionen in dieser Version wurde Lync 2013 bereitgestellt.
-
-  - Es wurde mithilfe einer Zertifizierungsstelleninfrastruktur von Microsoft oder einem Drittanbieter eine Managed Key-Infrastruktur (MKI) bereitgestellt und konfiguriert.
-
-  - Für jeden Computer, auf dem Sie einen Vermittlungsserver installieren, gilt Folgendes:
     
-      - Ein Mitgliedsserver einer Domäne, der für Active Directory-Domänendienste vorbereitet ist. Ausführliche Informationen zum Vorbereiten von Active Directory-Domänendienste finden Sie unter [Vorbereiten der Active Directory-Domänendienste für Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) in der Bereitstellungsdokumentation.
+    </div>
+
+  - Administratoren, die Enterprise-VoIP bereitstellen, sollten Mitglieder der RTCUniversalServerAdmins-Gruppe sein.
+
+  - Office Communicator 2007 wird mindestens erfolgreich bereitgestellt. Um Features zu verwenden, die in dieser Version neu sind, wird lync 2013 bereitgestellt.
+
+  - Die Managed Key-Infrastruktur (MkII) wird mithilfe einer Microsoft-oder einer Drittanbieter-Infrastruktur (Certification Authority, ca) bereitgestellt und konfiguriert.
+
+  - Jeder Computer, auf dem Sie den Vermittlungs Server installieren, muss wie folgt lauten:
     
-      - Es muss eines der folgenden Betriebssysteme ausgeführt werden:
+      - Einen Mitgliedsserver einer Domäne und für die Active Directory-Domänendienste vorbereitet. Informationen zur Vorbereitung der Active Directory-Domänendienste finden Sie unter [Vorbereiten der Active Directory-Domänendienste für lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) in der Bereitstellungsdokumentation.
+    
+      - Führen Sie eines der folgenden Betriebssysteme aus:
         
-          - Die 64-Bit-Version von Windows Server 2008 Standard
+          - <span></span>  
+            Die 64-Bit-Version des Windows Server 2008-Standard Betriebssystems
         
-          - Die 64-Bit-Version von Windows Server 2008 Enterprise
+          - <span></span>  
+            Die 64-Bit-Version des Windows Server 2008 Enterprise-Betriebssystems
 
-  - Wenn die Verbindung zum Telefonfestnetz (Public Switched Telephone Network, PSTN) oder zu einer Nebenstellenanlage (Private Branch Exchange, PBX) per TDM-Verbindung (Time Division Multiplexing) erfolgt, stehen für die Bereitstellung ein oder mehrere PSTN-Gateways zur Verfügung. (Falls die Verbindung über einen SIP-Trunk hergestellt wird, ist kein PSTN-Gateway erforderlich.)
+  - Wenn die Verbindung mit dem PSTN (Public Switched Telephone Network) oder der PBX (Private Branch Exchange) über eine Time Division Multiplexing (TDM)-Verbindung erfolgt, stehen mindestens ein PSTN-Gateway für die Bereitstellung zur Verfügung. (Wenn die Verbindung über einen SIP-Stamm erfolgt, ist kein PSTN-Gateway erforderlich.)
 
-## Stromausfall, Ausfall des Netzwerks oder des Telefondiensts
+</div>
 
-Sollte es an Ihrem Standort zu einem Ausfall, einer Unterbrechung oder einer Störung der Stromversorgung, des Netzwerks oder des Telefondiensts kommen, sind Lync Server-Funktionen wie VoIP, Sofortnachrichten oder Anwesenheit sowie die mit Lync Server verbundenen Geräte möglicherweise nicht einwandfrei funktionsfähig.
+<div>
 
-## Abhängigkeit von Enterprise-VoIP von der Verfügbarkeit des Servers sowie der Funktionsfähigkeit des VoIP-Client und der Hardware
+## <a name="power-network-or-telephone-service-outages"></a>Strom-, Netzwerk-oder Telefondienst Ausfälle
 
-Die VoIP-Kommunikation mit Lync Server hängt von der Verfügbarkeit der Serversoftware sowie der ordnungsgemäßen Funktionsweise der VoIP-Clients bzw. der mit der Serversoftware verbundenen Telefone ab.
+Wenn es zu einem Ausfall, zu einer Unterbrechung oder zu einer anderen Verschlechterung der Strom-, Netzwerk-oder Telefondienste an Ihrem Standort kommt, funktionieren die sprach-, Chat-, Anwesenheits-und anderen Funktionen von lync Server und jedes mit lync Server verbundene Gerät möglicherweise nicht ordnungsgemäß.
 
-## Alternativer Zugriff auf Notrufdienste
+</div>
 
-Es wird empfohlen, an Standorten, an denen ein VoIP-Client installiert ist (z. B. auf einem PC mit Lync-Client oder auf einem Gerät mit Lync Phone Edition), den Benutzern die Möglichkeit zu geben, Notrufdienste auch dann weiterhin anrufen zu können, wenn es zu einem Stromausfall kommt oder Lync Server, Lync bzw. die Geräte mit der Lync Phone Edition aufgrund von Problemen mit dem Netzwerk oder dem Telefondienst oder anderen Störungen nicht funktionsfähig sind. Optionen für einen solchen alternativen Zugriff auf Notrufdienste sind beispielsweise ein Telefonfestnetz oder ein Mobiltelefon.
+<div>
 
-## Notruf und Telefonsysteme mit mehreren Leitungen
+## <a name="enterprise-voice-depends-on-server-availability-and-voice-client-and-hardware-operability"></a>Enterprise-VoIP hängt von der Server Verfügbarkeit und der Funktionsfähigkeit des sprach Clients und der Hardware ab
 
-Die Verwendung von Mehrleitungstelefonsystemen (MLTS) unterliegt eventuell gesetzlichen Bestimmungen, die bei einem Notruf die Angabe der Rufnummer, der Durchwahl und/oder des physischen Standorts des Anrufers erfordern. In dieser Version kann Lync Server so konfiguriert werden, dass der physische Standort eines Anrufers an den Anbieter für die Notrufunterstützung übermittelt wird (siehe [Planen von Notrufdiensten (E9-1-1) in Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md)). Die Einhaltung gesetzlicher Bestimmungen für Mehrleitungstelefonsysteme obliegt alleine den Käufern von Lync Server, Lync-Clients und Lync Phone Edition-Geräten.
+Die Sprachkommunikation mit lync Server hängt von der Verfügbarkeit der Server Software und der ordnungsgemäßen Funktion der VoIP-Clients oder der Hardware-Telefongeräte ab, die mit der Server Software verbunden sind.
+
+</div>
+
+<div>
+
+## <a name="alternative-means-of-accessing-emergency-services"></a>Alternative Möglichkeiten für den Zugriff auf Notfalldienste
+
+Für die Speicherorte, an denen Sie einen VoIP-Client installieren (beispielsweise einen PC mit lync-Client oder ein lync Phone Edition-Gerät), empfehlen wir, dass Sie eine Sicherungsoption für Benutzer zum Aufrufen von Notfalldiensten (beispielsweise 911 oder 999) im Fall eines Stromausfalls verwalten. , Netzwerk Verbindungs Verschlechterung, Ausfall des Telefondiensts oder anderes Problem, das den Betrieb von lync Server-, lync-oder lync Phone Edition-Geräten hemmen kann. Solche Alternativen können auch ein Telefon sein, das an eine standardmäßige öffentlich geschaltete Telefonnetz Leitung oder ein Mobiltelefon angeschlossen ist.
+
+</div>
+
+<div>
+
+## <a name="emergency-calls-and-multi-line-telephone-systems"></a>Notrufe und mehrzeilige Telefonanlagen
+
+Die Verwendung eines mehrzeiligen Telefonsystems (MLTS) unterliegt möglicherweise US-bundesstaatlichem oder Bundesrecht oder den Gesetzen anderer Länder/Regionen, in denen die MLTS die Telefonnummer, die Durchwahl und/oder den physischen Standort eines Anrufers für die entsprechenden Notfalldienste bereitstellen muss, wenn ein der Anrufer wird in die Notfalldienste (beispielsweise bei der Wahl einer Notfall Zugriffsnummer wie 911 oder 999) versetzt. In dieser Version kann lync Server so konfiguriert werden, dass der physikalische Standort eines Anrufers einem Notrufdienst Anbieter bereitgestellt wird, wie unter [Planen von Notfalldiensten (E9-1-1) in lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md)beschrieben. Die Einhaltung der MLTS-Gesetze obliegt der alleinigen Verantwortung des Käufers von lync Server-, lync-Client-und lync Phone Edition-Geräten.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

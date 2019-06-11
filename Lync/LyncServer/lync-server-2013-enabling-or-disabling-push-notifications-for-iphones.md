@@ -1,71 +1,125 @@
-﻿---
-title: Aktivieren oder Deaktivieren von Pushbenachrichtigungen für iPhones
-TOCTitle: Aktivieren oder Deaktivieren von Pushbenachrichtigungen für iPhones
-ms:assetid: 8bbf531a-807f-4a8f-814a-94bfed8f97ef
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688122(v=OCS.15)
-ms:contentKeyID: 49890827
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Aktivieren oder Deaktivieren von Push-Benachrichtigungen für iPhones'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling or disabling push notifications for iPhones
+ms:assetid: 8bbf531a-807f-4a8f-814a-94bfed8f97ef
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688122(v=OCS.15)
+ms:contentKeyID: 49733719
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5ccd4e4c65c539f5a6af36d1012c32059b3e291a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832240"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Aktivieren oder Deaktivieren von Pushbenachrichtigungen für iPhones
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="enabling-or-disabling-push-notifications-for-iphones-in-lync-server-2013"></a>Aktivieren oder Deaktivieren von Push-Benachrichtigungen für iPhones in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 
-Pushbenachrichtigungen in Form von Signalen, Symbolen oder Warnungen können an ein iPhone gesendet werden, auch wenn die mobile Anwendung inaktiv ist. Mit Pushbenachrichtigungen werden Benutzer über Ereignisse informiert, beispielsweise neue oder entgangene Sofortnachrichteneinladungen und Voicemails. Pushbenachrichtigungen für iPhone können Sie aktivieren oder deaktivieren, indem Sie entweder Systemsteuerung für Lync Server 2013 oder Verwaltungsshell für Lync Server 2013 verwenden.
+Push-Benachrichtigungen in Form von Signalen, Symbolen oder Benachrichtigungen können auch dann an ein iPhone gesendet werden, wenn die Mobile Anwendung inaktiv ist. Push-Benachrichtigungen benachrichtigt einen Benutzer über Ereignisse wie eine neue oder verpasste Chat Einladung und Voicemail. Sie können Push-Benachrichtigungen für iPhone aktivieren oder deaktivieren, indem Sie entweder die lync Server 2013-Systemsteuerung oder die lync Server 2013-Verwaltungsshell verwenden.
 
-## So aktivieren Sie Pushbenachrichtigungen für iPhone aus Lync Server-Systemsteuerung
+<div>
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
-
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
-
-3.  Klicken Sie in der linken Navigationsleiste auf **Clients** und dann auf die Navigationsschaltfläche **Pushbenachrichtigungskonfiguration**.
-
-4.  Klicken Sie auf der Seite **Pushbenachrichtigungskonfiguration** auf den zu bearbeitenden Standort, klicken Sie dann auf das Menü **Bearbeiten** und dann auf **Details anzeigen**.
-
-5.  Aktivieren Sie das Kontrollkästchen **Apple-Pushbenachrichtigungen aktivieren**.
-
-6.  Klicken Sie auf **Commit ausführen**.
-
-## So deaktivieren Sie Pushbenachrichtigungen für iPhone aus Lync Server-Systemsteuerung
+## <a name="to-enable-push-notifications-for-iphone-by-using-lync-server-control-panel"></a>So aktivieren Sie Push-Benachrichtigungen für iPhone mithilfe der lync Server-Systemsteuerung
 
 1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Clients** und dann auf die Navigationsschaltfläche **Pushbenachrichtigungskonfiguration**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Schaltfläche Navigations **Benachrichtigungskonfiguration** .
 
-4.  Klicken Sie auf der Seite **Pushbenachrichtigungskonfiguration** auf den zu bearbeitenden Standort, klicken Sie dann auf das Menü **Bearbeiten** und dann auf **Details anzeigen**.
+4.  Klicken Sie auf der Seite **Konfiguration der Push-Benachrichtigung** auf die Website, die Sie bearbeiten möchten, klicken Sie auf das Menü **Bearbeiten** , und klicken Sie dann auf **Details anzeigen**.
 
-5.  Deaktivieren Sie das Kontrollkästchen **Apple-Pushbenachrichtigungen aktivieren**.
+5.  Klicken Sie auf das Kontrollkästchen **Apple-Push-Benachrichtigungen aktivieren** .
 
 6.  Klicken Sie auf **Commit ausführen**.
 
-## So werden Pushbenachrichtigungen für iPhone mithilfe von Windows PowerShell-Cmdlets aktiviert bzw. deaktiviert
+</div>
 
-Sie können Pushbenachrichtigungen für Apple iPhone mithilfe des **Set-CsPushNotificationConfiguration**-Cmdlet aktivieren bzw. deaktivieren. Sie können dieses Cmdlet entweder über Verwaltungsshell für Lync Server 2013 oder über eine Remote-Sitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## So aktivieren Sie Pushbenachrichtigungen für iPhone
+## <a name="to-disable-push-notifications-for-iphone-by-using-lync-server-control-panel"></a>So deaktivieren Sie Push-Benachrichtigungen für iPhone mithilfe der lync Server-Systemsteuerung
 
-  - Setzen Sie den Wert der Eigenschaft "EnableApplePushNotificationService" auf "True" ($True), um Pushbenachrichtigungen für iPhone zu aktivieren. Beispiel:
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Schaltfläche Navigations **Benachrichtigungskonfiguration** .
+
+4.  Klicken Sie auf der Seite **Konfiguration der Push-Benachrichtigung** auf die Website, die Sie bearbeiten möchten, klicken Sie auf das Menü **Bearbeiten** , und klicken Sie dann auf **Details anzeigen**.
+
+5.  Deaktivieren Sie das Kontrollkästchen **Apple-Push-Benachrichtigungen aktivieren** .
+
+6.  Klicken Sie auf **Commit ausführen**.
+
+</div>
+
+<div>
+
+## <a name="enabling-or-disabling-push-notifications-to-iphone-by-using-windows-powershell-cmdlets"></a>Aktivieren oder Deaktivieren von Push-Benachrichtigungen auf dem iPhone mithilfe von Windows PowerShell-Cmdlets
+
+Push-Benachrichtigungen an Apple iPhone können mithilfe des Cmdlets " **CsPushNotificationConfiguration** " aktiviert oder deaktiviert werden. Sie können dieses Cmdlet entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+
+<div>
+
+## <a name="to-enable-push-notifications-for-iphone"></a>So aktivieren Sie Push-Benachrichtigungen für iPhone
+
+  - So aktivieren Sie die Push-Benachrichtigungen für iPhone legen Sie den Wert der EnableApplePushNotificationService-Eigenschaft auf true ($true) fest. Beispiel:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableApplePushNotificationService $True
 
-## So deaktivieren Sie Pushbenachrichtigungen für iPhone
+</div>
 
-  - Setzen Sie den Wert der Eigenschaft "EnableApplePushNotificationService" auf "False" ($False), um Pushbenachrichtigungen für iPhone zu deaktivieren. Beispiel:
+<div>
+
+## <a name="to-disable-push-notifications-for-iphone"></a>So deaktivieren Sie Push-Benachrichtigungen für iPhone
+
+  - So deaktivieren Sie Push-Benachrichtigungen für iPhone legen Sie den Wert der EnableApplePushNotificationService-Eigenschaft auf false ($false) fest. Beispiel:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableApplePushNotificationService $False
 
-Weitere Informationen finden Sie im Hilfethema zum [Set-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPushNotificationConfiguration)-Cmdlet.
+</div>
 
-## Siehe auch
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet " [Satz-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPushNotificationConfiguration) ".
 
-#### Aufgaben
+</div>
 
-[Konfigurieren von Pushbenachrichtigungen in Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
+
+[Konfigurieren von Pushbenachrichtigungen in Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

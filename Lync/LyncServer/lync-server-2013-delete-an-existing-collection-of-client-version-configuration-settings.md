@@ -1,53 +1,103 @@
-﻿---
-title: Löschen einer vorhandenen Auflistung von Konfigurationseinstellungen für Clientversionen
-TOCTitle: Löschen einer vorhandenen Auflistung von Konfigurationseinstellungen für Clientversionen
-ms:assetid: 70bf1216-d0d2-45ce-881f-b8edadf3cec7
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ898480(v=OCS.15)
-ms:contentKeyID: 52056364
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Löschen einer vorhandenen Sammlung von Konfigurationseinstellungen für Clientversionen
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete an existing collection of client version configuration settings
+ms:assetid: 70bf1216-d0d2-45ce-881f-b8edadf3cec7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898480(v=OCS.15)
+ms:contentKeyID: 50873760
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2a71df7af1f0a6158cb61e780b44ed4227d32018
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832617"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Löschen einer vorhandenen Auflistung von Konfigurationseinstellungen für Clientversionen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="delete-an-existing-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Löschen einer vorhandenen Sammlung von Konfigurationseinstellungen für Clientversionen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-23_
 
-Wenn Sie die für einen Standort konfigurierten Clientkonfigurationseinstellungen entfernen möchten, können Sie dies in der Systemsteuerung für Lync Server 2013 oder in der Verwaltungsshell für Lync Server 2013 durchführen.
+Wenn Sie die Clientkonfigurationseinstellungen entfernen möchten, die zuvor für eine Website konfiguriert wurden, können Sie die Einstellungen aus der lync Server 2013-Systemsteuerung oder der lync Server 2013-Verwaltungsshell entfernen.
 
-## So entfernen Sie Clientkonfigurationseinstellungen mithilfe der Lync Server-Systemsteuerung
+<div>
+
+## <a name="to-remove-client-configuration-settings-by-using-lync-server-control-panel"></a>So entfernen Sie Clientkonfigurationseinstellungen mithilfe der lync Server-Systemsteuerung
 
 1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie auf der linken Navigationsleiste auf **Clients** und dann auf die Navigationsschaltfläche **Clientversionskonfiguration**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Navigationsschaltfläche **Client Versions Konfiguration** .
 
-4.  Wählen Sie den Standort aus, klicken Sie auf **Bearbeiten** und **Löschen** und dann auf **OK**.
+4.  Wählen Sie die Website aus, klicken Sie auf **Bearbeiten**, klicken Sie auf **Löschen**, und klicken Sie dann auf **OK**.
 
-## Entfernen der von Konfigurationseinstellungen für Clientversionen mithilfe von Windows PowerShell-Cmdlets
+</div>
 
-Sie können Konfigurationseinstellungen für Clientversionen mithilfe des Cmdlets **Remove-CsClientVersionConfiguration** anzeigen. Dieses Cmdlet kann entweder über die Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## So entfernen Sie eine bestimmte Auflistung von Konfigurationseinstellungen für Clientversionen
+## <a name="removing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Entfernen von Client Versions Konfigurationseinstellungen mithilfe von Windows PowerShell-Cmdlets
 
-  - Mit dem folgenden Befehl werden die Konfigurationseinstellungen für Clientversionen entfernt, die für den Standort Redmond gelten:
+Mithilfe des Cmdlets **Remove-CsClientVersionConfiguration** können Sie Konfigurationseinstellungen für Clientversionen löschen. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+
+<div>
+
+## <a name="to-remove-a-specified-collection-of-client-version-configuration-settings"></a>So entfernen Sie eine angegebene Sammlung von Konfigurationseinstellungen für Clientversionen
+
+  - Mit dem folgenden Befehl werden die auf die Redmond-Website angewendeten Konfigurationseinstellungen für Clientversionen entfernt:
     
         Remove-CsClientVersionConfiguration -Identity "site:Redmond"
 
-## So entfernen Sie alle Konfigurationseinstellungen für Clientversionen auf Standortebene
+</div>
 
-  - Mit diesem Befehl werden alle Konfigurationseinstellungen für Clientversionen entfernt, die auf Standortebene konfiguriert sind:
+<div>
+
+## <a name="to-remove-all-the-client-version-configuration-settings-applied-to-the-site-scope"></a>So entfernen Sie alle auf den Website Bereich angewendeten Konfigurationseinstellungen für Clientversionen
+
+  - Mit diesem Befehl werden alle Konfigurationseinstellungen für Clientversionen entfernt, die für den Website Bereich konfiguriert sind:
     
         Get-CsClientVersionConfiguration -Filter site:* | Remove-CsClientVersionConfiguration
 
-## So entfernen Sie alle Konfigurationseinstellungen für Clientversionen basierend auf dem Wert der Eigenschaft "DefaultAction"
+</div>
 
-  - Mit diesem Befehl werden alle Konfigurationseinstellungen für Clientversionen gelöscht, bei denen für die Standardaktion "Blockieren" festgelegt wurde:
+<div>
+
+## <a name="to-remove-all-the-client-version-configuration-settings-based-on-the-value-of-the-defaultaction-property"></a>So entfernen Sie alle Konfigurationseinstellungen für Clientversionen basierend auf dem Wert der standardmäßigen Eigenschaft
+
+  - Und dieser Befehl entfernt alle Konfigurationseinstellungen für Clientversionen, bei denen die Standardaktion auf "blockieren" gesetzt wurde:
     
         Get-CsClientVersionConfiguration | Where-Object {$_.DefaultAction -eq "Block" | Remove-CsClientVersionConfiguration
 
-Einzelheiten dazu finden Sie im Hilfethema zum Cmdlet [Remove-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClientVersionConfiguration).
+</div>
+
+Ausführliche Informationen finden Sie im Hilfethema zum Cmdlet [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/en-us/library/Gg425925(v=OCS.15)) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

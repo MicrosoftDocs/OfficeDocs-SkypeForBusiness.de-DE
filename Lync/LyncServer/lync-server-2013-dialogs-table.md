@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Dialogs-Tabelle'
-TOCTitle: Dialogs-Tabelle
-ms:assetid: 487a430b-af66-4ea6-b28e-4e33cfdb7f9e
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425954(v=OCS.15)
-ms:contentKeyID: 49293889
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Dialogs-Tabelle'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Dialogs table
+ms:assetid: 487a430b-af66-4ea6-b28e-4e33cfdb7f9e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425954(v=OCS.15)
+ms:contentKeyID: 48184001
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a25ae1d298f1cf5908c4669a78485491fadd617d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832393"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Dialogs-Tabelle in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="dialogs-table-in-lync-server-2013"></a>Dialogs-Tabelle in Lync Server 2013
 
-Bei der **Dialogs** -Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird und die Informationen über **DialogIDs** für Peer-zu-Peer-Sitzungen enthält.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+
+Die Tabelle Dialogfelder ist eine unterstützende Tabelle, in der die Informationen zu DialogIDs für Peer-to-Peer-Sitzungen gespeichert werden.
 
 
 <table>
@@ -30,37 +50,48 @@ Bei der **Dialogs** -Tabelle handelt es sich um eine Tabelle, auf die verwiesen 
 <th>Spalte</th>
 <th>Datentyp</th>
 <th>Schlüssel/Index</th>
-<th>Beschreibung</th>
+<th>Details</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>SessionIdTime</strong></p></td>
+<td><p><strong>SessionID</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>Primary</p></td>
-<td><p>Zeitpunkt der Sitzungsanforderung; wird zusammen mit <strong>SessionIDSeq</strong> zur eindeutigen Identifikation einer Sitzung verwendet.</p></td>
+<td><p>Uhrzeit der Sitzungsanforderung; wird in Verbindung mit SessionIDSeq verwendet, um eine Sitzung eindeutig zu identifizieren.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>ID zur Identifikation der Sitzung. Wird zusammen mit <strong>SessionIDTime</strong> verwendet, um eine Sitzung eindeutig zu identifizieren.</p></td>
+<td><p>Die ID-Nummer, um die Sitzung zu identifizieren. Wird in Verbindung mit SessionID-Mal verwendet, um eine Sitzung eindeutig zu identifizieren.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ExternalChecksum</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Prüfsumme von <strong>ExternalID</strong> . Dieses Feld wird verwendet, um die Geschwindigkeit von Datenbanksuchvorgängen zu steigern.</p></td>
+<td><p>Prüfsumme der externen-Nr. Dieses Feld wird verwendet, um die Geschwindigkeit von Datenbanksuchen zu erhöhen.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ExternalId</strong></p></td>
-<td><p>varbinary(775)</p></td>
+<td><p>varbinary (775)</p></td>
 <td><p> </p></td>
-<td><p>SIP-DialogID, gespeichert als Binärwert. Das Format des Binärwerts lautet:</p>
-<p><strong>dialog;from-tag;to-tag</strong></p>
-<p>Diese Daten können mithilfe der folgenden Syntax in das Textformat konvertiert werden:</p>
+<td><p>SIP-Dialogfeld-ID, als Binärdatei gespeichert. Das Format der Binärdatei lautet wie folgt:</p>
+<p>Dialogfeld; from-Tag; to-Tag</p>
+<p>Diese Daten können mithilfe der folgenden Syntax in das Text Format konvertiert werden:</p>
 <p><code>cast(cast(ExternalId as varbinary(max)) as varchar(max))</code></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
