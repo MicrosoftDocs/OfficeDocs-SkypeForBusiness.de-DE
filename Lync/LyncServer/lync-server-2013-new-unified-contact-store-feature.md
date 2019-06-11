@@ -1,27 +1,61 @@
-﻿---
-title: 'Lync Server 2013: Neue Funktion für einheitlichen Kontaktspeicher'
-TOCTitle: Neue Funktion für einheitlichen Kontaktspeicher
-ms:assetid: 6003405d-08f6-4cfc-afda-3d9f6ebc91a5
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204947(v=OCS.15)
-ms:contentKeyID: 49294161
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Neue Funktion für einheitlichen Kontaktspeicher'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New unified contact store feature
+ms:assetid: 6003405d-08f6-4cfc-afda-3d9f6ebc91a5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204947(v=OCS.15)
+ms:contentKeyID: 48184308
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e3a10a1e55b94b118ea8d430b65d0e851c17b203
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825912"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Neue Funktion für einheitlichen Kontaktspeicher in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-13_
+# <a name="new-unified-contact-store-feature-in-lync-server-2013"></a><span data-ttu-id="c7072-102">Neue Funktion für einheitlichen Kontaktspeicher in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c7072-102">New unified contact store feature in Lync Server 2013</span></span>
 
-In Lync Server 2013 gibt es nun einen einheitlichen Kontaktspeicher. Dieser ermöglicht es Benutzern, all ihre Kontaktinformationen in Microsoft Exchange Server 2013 zu speichern. Nachdem die Benutzer ihre Lync-Kontakte zu Exchange 2013 migriert haben, können Sie von Lync 2013, Outlook oder Outlook Web App aus auf ihre Kontakte zugreifen, und ihre Favoriten bleiben synchronisiert. Wenn ein Benutzer zum Beispiel einen Kontakt zu "Favoriten" in Outlook hinzufügt, wird der Kontakt in der Favoritengruppe in Lync 2013 aufgeführt. Benutzer müssen nicht bei Lync angemeldet sein, um ihre Kontakte in Outlook oder Outlook Web App zu verwalten.
+</div>
 
-Der einheitliche Kontaktspeicher ist standardmäßig aktiviert. Sie können Benutzer für den einheitlichen Kontaktspeicher global, nach Standort, nach Mandant oder nach einzelnen Personen oder Gruppen von Personen aktivieren oder deaktivieren.
+<div id="mainSection">
 
-## Siehe auch
+<div id="mainBody">
 
-#### Konzepte
+<span> </span>
 
-[Planen und Bereitstellen des einheitlichen Kontaktspeichers in Lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)
+<span data-ttu-id="c7072-103">_**Letztes Änderungsdatum des Themas:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="c7072-103">_**Topic Last Modified:** 2012-09-13_</span></span>
+
+<span data-ttu-id="c7072-104">Lync Server 2013 stellt den einheitlichen Kontaktspeicher vor.</span><span class="sxs-lookup"><span data-stu-id="c7072-104">Lync Server 2013 introduces unified contact store.</span></span> <span data-ttu-id="c7072-105">Unified Contact Store ermöglicht Benutzern, alle Ihre Kontaktinformationen in Microsoft Exchange Server 2013 zu speichern.</span><span class="sxs-lookup"><span data-stu-id="c7072-105">Unified contact store allows users to keep all their contact information in Microsoft Exchange Server 2013.</span></span> <span data-ttu-id="c7072-106">Nachdem die lync-Kontakte von Benutzern zu Exchange 2013 migriert wurden, können die Benutzer auf Ihre Kontakte aus lync 2013, Outlook oder Outlook Web App zugreifen und diese verwalten, und Ihre Favoriten bleiben synchronisiert.</span><span class="sxs-lookup"><span data-stu-id="c7072-106">After users' Lync contacts are migrated to Exchange 2013, the users can access and manage their contacts from Lync 2013, Outlook, or Outlook Web App, and their Favorites stay synchronized.</span></span> <span data-ttu-id="c7072-107">Wenn ein Benutzer beispielsweise einen Kontakt zu den Favoriten in Outlook hinzufügt, wird der Kontakt in der Gruppe Favoriten in lync 2013 angezeigt.</span><span class="sxs-lookup"><span data-stu-id="c7072-107">For example, if a user adds a contact to Favorites in Outlook, the contact appears in the Favorites group in Lync 2013.</span></span> <span data-ttu-id="c7072-108">Benutzer müssen nicht bei lync angemeldet sein, um Ihre Kontakte aus Outlook oder Outlook Web App zu verwalten.</span><span class="sxs-lookup"><span data-stu-id="c7072-108">Users do not need to be logged in to Lync to manage their contacts from Outlook or Outlook Web App.</span></span>
+
+<span data-ttu-id="c7072-109">Der Unified Contact Store ist standardmäßig aktiviert.</span><span class="sxs-lookup"><span data-stu-id="c7072-109">Unified contact store is enabled by default.</span></span> <span data-ttu-id="c7072-110">Sie können Benutzer für den einheitlichen Kontaktspeicher Global, nach Website, nach Mandanten oder nach Einzelpersonen oder Gruppen von Personen aktivieren oder deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="c7072-110">You can enable or disable users for unified contact store globally, by site, by tenant, or by individuals or groups of individuals.</span></span>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="c7072-111">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="c7072-111">See Also</span></span>
+
+
+[<span data-ttu-id="c7072-112">Planen und Bereitstellen von Unified Contact Store in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c7072-112">Planning and deploying unified contact store in Lync Server 2013</span></span>](lync-server-2013-planning-and-deploying-unified-contact-store.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

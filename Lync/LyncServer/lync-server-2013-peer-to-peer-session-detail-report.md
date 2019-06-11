@@ -1,57 +1,91 @@
-﻿---
-title: 'Lync Server 2013: Detailbericht über Peer-zu-Peer-Sitzungen'
-TOCTitle: Detailbericht über Peer-zu-Peer-Sitzungen
-ms:assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg558659(v=OCS.15)
-ms:contentKeyID: 49294315
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Peer-to-Peer-Sitzungs Detail Bericht'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Peer-to-Peer Session Detail Report
+ms:assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558659(v=OCS.15)
+ms:contentKeyID: 48184416
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ec73febb248a8b61979c0aad2df6977c9feccb91
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825401"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Detailbericht über Peer-zu-Peer-Sitzungen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="peer-to-peer-session-detail-report-in-lync-server-2013"></a><span data-ttu-id="67966-102">Peer-zu-Peer-Sitzungs Detail Bericht in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="67966-102">Peer-to-Peer Session Detail Report in Lync Server 2013</span></span>
 
-Der Detailbericht über Peer-zu-Peer-Sitzungen gibt detaillierte Informationen über eine Peer-zu-Peer-Sitzung zurück. Wenn Sie beispielsweise eine Sofortnachrichtensitzung auswählen, gibt der Bericht Ihnen die Anzahl an Nachrichten an, die jeweils von den beiden an der Sitzung beteiligten Benutzern gesendet wurden.
+</div>
 
-## Zugriff auf den Detailbericht über Peer-zu-Peer-Sitzungen
+<div id="mainSection">
 
-Sie können über die folgenden Berichte (die alle über die Startseite für Überwachungsberichte aufgerufen werden können) auf den Detailbericht über Peer-zu-Peer-Sitzungen zugreifen:
+<div id="mainBody">
 
-  - Inventurbericht über IP-Telefone
+<span> </span>
 
-  - Bericht über Benutzeraktivität
+<span data-ttu-id="67966-103">_**Letztes Änderungsdatum des Themas:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="67966-103">_**Topic Last Modified:** 2012-06-06_</span></span>
 
-  - Bericht über Anrufsteuerung
+<span data-ttu-id="67966-p101">Der Detailbericht über Peer-to-Peer-Sitzungen gibt detaillierte Informationen über eine Peer-to-Peer-Sitzung zurück. Wenn Sie beispielsweise eine Sofortnachrichtensitzung auswählen, gibt der Bericht Ihnen die Anzahl an Nachrichten an, die jeweils von den beiden an der Sitzung beteiligten Benutzern gesendet wurden.</span><span class="sxs-lookup"><span data-stu-id="67966-p101">The Peer-to-Peer Session Detail Report returns detailed information about a peer-to-peer session. For example, if you select an instant messaging session, the report will tell you the number of messages sent by each of the two users in the session.</span></span>
 
-  - Fehlerlistenbericht
+<div>
 
-Innerhalb des Detailberichts über Peer-zu-Peer-Sitzungen können Sie auf den [Diagnosebericht in Lync Server 2013](lync-server-2013-diagnostic-report.md) zugreifen, indem Sie auf die Metrik des Diagnoseberichts (Details) klicken. Sie können zudem auf den Bericht über häufigste Fehler zugreifen, indem Sie auf eine der folgenden beiden Metriken klicken:
+## <a name="accessing-the-peer-to-peer-session-detail-report"></a><span data-ttu-id="67966-106">Zugriff auf den Detailbericht über Peer-to-Peer-Sitzungen</span><span class="sxs-lookup"><span data-stu-id="67966-106">Accessing the Peer-to-Peer Session Detail Report</span></span>
 
-  - Reaktion
+<span data-ttu-id="67966-107">Sie können über die folgenden Berichte (die alle über die Startseite für Überwachungsberichte aufgerufen werden können) auf den Detailbericht über Peer-to-Peer-Sitzungen zugreifen:</span><span class="sxs-lookup"><span data-stu-id="67966-107">The Peer-to-Peer Session Detail Report can be accessed from any of the following reports (all of which can be accessed from the Monitoring Reports home page):</span></span>
 
-  - Diagnose-ID
+  - <span data-ttu-id="67966-108">Inventurbericht über IP-Telefone</span><span class="sxs-lookup"><span data-stu-id="67966-108">IP Phone Inventory Report</span></span>
 
-## Optimale Verwendung des Detailberichts über Peer-zu-Peer-Sitzungen
+  - <span data-ttu-id="67966-109">Bericht über Benutzeraktivität</span><span class="sxs-lookup"><span data-stu-id="67966-109">User Activity Report</span></span>
 
-Der Detailbericht über Peer-zu-Peer-Sitzungen enthält zahlreiche Metriken, mit denen die Systemadministratoren möglicherweise zum Teil nicht vertraut sind. Häufig können Sie jedoch ein Tooltip mit einer kurzen Beschreibung der Metrik anzeigen, indem Sie den Mauszeiger über die Bezeichnung der jeweiligen Metrik bewegen.
+  - <span data-ttu-id="67966-110">Bericht über Anrufsteuerung</span><span class="sxs-lookup"><span data-stu-id="67966-110">Call Admission Control Report</span></span>
 
-Beachten Sie, dass die tatsächlichen Metriken, die in einem bestimmten Bericht angezeigt werden, von der ausgewählten Peer-zu-Peer-Sitzung abhängen. So wird für eine Audio-/Videositzung ein anderer Satz an Metriken ausgegeben als für eine Sofortnachrichtensitzung.
+  - <span data-ttu-id="67966-111">Fehlerlistenbericht</span><span class="sxs-lookup"><span data-stu-id="67966-111">Failure List Report</span></span>
 
-Sie können den Mauszeiger auch über die Antwortcode- und Diagnose-ID-Metriken bewegen, um eine Beschreibung der folgenden Werte anzuzeigen:
+<span data-ttu-id="67966-112">Im Bericht Peer-to-Peer-Sitzungsdetails können Sie auf den [Diagnosebericht in lync Server 2013](lync-server-2013-diagnostic-report.md) zugreifen, indem Sie auf die Metrik für den Diagnosebericht (Details) klicken.</span><span class="sxs-lookup"><span data-stu-id="67966-112">From within the Peer-to-Peer Session Detail Report you can access the [Diagnostic Report in Lync Server 2013](lync-server-2013-diagnostic-report.md) by clicking the Diagnostic Report (Details) metric.</span></span> <span data-ttu-id="67966-113">Sie können zudem auf den Bericht über häufigste Fehler zugreifen, indem Sie auf eine der folgenden beiden Metriken klicken:</span><span class="sxs-lookup"><span data-stu-id="67966-113">You can also access the Top Failures Report by clicking either of these two metrics:</span></span>
 
-## Filter
+  - <span data-ttu-id="67966-114">Reaktion</span><span class="sxs-lookup"><span data-stu-id="67966-114">Response</span></span>
 
-Keine. Der Detailbericht über Peer-zu-Peer-Sitzungen kann nicht gefiltert werden.
+  - <span data-ttu-id="67966-115">Diagnose-ID</span><span class="sxs-lookup"><span data-stu-id="67966-115">Diagnostic ID</span></span>
 
-## Sitzungsinformationen - Metriken
+</div>
 
-In der folgenden Tabelle sind die Informationen aufgelistet, die im Detailbericht über Peer-zu-Peer-Sitzungen angegeben werden.
+<div>
 
-### Sitzungsinformationen - Metriken
+## <a name="making-the-best-use-of-the-peer-to-peer-session-detail-report"></a><span data-ttu-id="67966-116">Optimale Verwendung des Detailberichts über Peer-to-Peer-Sitzungen</span><span class="sxs-lookup"><span data-stu-id="67966-116">Making the Best Use of the Peer-to-Peer session Detail Report</span></span>
+
+<span data-ttu-id="67966-p103">Der Detailbericht über Peer-to-Peer-Sitzungen enthält zahlreiche Metriken, mit denen die Systemadministratoren möglicherweise zum Teil nicht vertraut sind. Häufig können Sie jedoch ein Tooltip mit einer kurzen Beschreibung der Metrik anzeigen, indem Sie den Mauszeiger über die Bezeichnung der jeweiligen Metrik bewegen.</span><span class="sxs-lookup"><span data-stu-id="67966-p103">The Peer-to-Peer Session Detail Report includes a large number of metrics, many of which might not be familiar to system administrators. Often-times, however, you can view a tooltip that offers a brief description of that metric simply by holding your mouse over the metric label.</span></span>
+
+<span data-ttu-id="67966-p104">Beachten Sie, dass die tatsächlichen Metriken, die in einem bestimmten Bericht angezeigt werden, von der ausgewählten Peer-to-Peer-Sitzung abhängen. So wird für eine Audio-/Videositzung ein anderer Satz an Metriken ausgegeben als für eine Sofortnachrichtensitzung.</span><span class="sxs-lookup"><span data-stu-id="67966-p104">Note that the actual metrics shown on a given report will depend on the type of peer-to-peer session you selected. An audio/video session will report a different set of metrics than an instant messaging session.</span></span>
+
+<span data-ttu-id="67966-121">Sie können den Mauszeiger auch über die Antwortcode- und Diagnose-ID-Metriken bewegen, um eine Beschreibung der folgenden Werte anzuzeigen:</span><span class="sxs-lookup"><span data-stu-id="67966-121">You can also hold your mouse over the Response code and Diagnostic ID metrics in order to obtain a description of those values:</span></span>
+
+</div>
+
+<div>
+
+## <a name="filters"></a><span data-ttu-id="67966-122">Filter</span><span class="sxs-lookup"><span data-stu-id="67966-122">Filters</span></span>
+
+<span data-ttu-id="67966-p105">Keine. Der Detailbericht über Peer-to-Peer-Sitzungen kann nicht gefiltert werden.</span><span class="sxs-lookup"><span data-stu-id="67966-p105">None. You cannot filter the Peer-to-Peer Session Detail Report.</span></span>
+
+</div>
+
+<div>
+
+## <a name="session-information-metrics"></a><span data-ttu-id="67966-125">Sitzungsinformationen - Metriken</span><span class="sxs-lookup"><span data-stu-id="67966-125">Session Information Metrics</span></span>
+
+<span data-ttu-id="67966-126">In der folgenden Tabelle sind die Informationen aufgelistet, die im Detailbericht über Peer-to-Peer-Sitzungen angegeben werden.</span><span class="sxs-lookup"><span data-stu-id="67966-126">The following table lists the information provided in the Peer-to-Peer Session Detail Report for each session.</span></span>
+
+### <a name="session-information-metrics"></a><span data-ttu-id="67966-127">Sitzungsinformationen - Metriken</span><span class="sxs-lookup"><span data-stu-id="67966-127">Session Information Metrics</span></span>
 
 <table>
 <colgroup>
@@ -60,92 +94,96 @@ In der folgenden Tabelle sind die Informationen aufgelistet, die im Detailberich
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="67966-128">Name</span><span class="sxs-lookup"><span data-stu-id="67966-128">Name</span></span></th>
+<th><span data-ttu-id="67966-129">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="67966-129">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Pool-FQDN</strong></p></td>
-<td><p>Vollqualifizierter Domänenname (FQDN) des Registrar-Pools oder Edgeservers in der Sitzung.</p></td>
+<td><p><span data-ttu-id="67966-130"><strong>Pool-FQDN</strong></span><span class="sxs-lookup"><span data-stu-id="67966-130"><strong>Pool FQDN</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-131">Vollqualifizierter Domänenname (FQDN) des Registrar-Pools oder Edgeservers in der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="67966-131">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server involved in the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Zeitpunkt der Einladung</strong></p></td>
-<td><p>Datum und Uhrzeit, an dem bzw. zu der die Sitzungseinladung ursprünglich gesendet wurde.</p></td>
+<td><p><span data-ttu-id="67966-132"><strong>Einladungszeitpunkt</strong></span><span class="sxs-lookup"><span data-stu-id="67966-132"><strong>Invite time</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-133">Datum und Uhrzeit, an dem bzw. zu der die Sitzungseinladung ursprünglich gesendet wurde.</span><span class="sxs-lookup"><span data-stu-id="67966-133">Date and time the session invitation was originally sent.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Antwortzeit</strong></p></td>
-<td><p>Datum und Uhrzeit, an dem bzw. zu der die Annahme der Einladung empfangen wurde.</p></td>
+<td><p><span data-ttu-id="67966-134"><strong>Antwortzeitpunkt</strong></span><span class="sxs-lookup"><span data-stu-id="67966-134"><strong>Response time</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-135">Datum und Uhrzeit, an dem bzw. zu der die Annahme der Einladung empfangen wurde.</span><span class="sxs-lookup"><span data-stu-id="67966-135">Date and time that the invitation acceptance was received.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Von Benutzer</strong></p></td>
-<td><p>SIP-Adresse des Benutzers, der den Sitzung initiiert hat.</p></td>
+<td><p><span data-ttu-id="67966-136"><strong>Absenderbenutzer</strong></span><span class="sxs-lookup"><span data-stu-id="67966-136"><strong>From user</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-137">SIP-Adresse des Benutzers, der die Sitzung initiiert hat.</span><span class="sxs-lookup"><span data-stu-id="67966-137">SIP address of the user who initiated the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Von Benutzer-Agent</strong></p></td>
-<td><p>Software, die vom Endpunkt des Benutzers, der den Anruf initiiert hat, verwendet wird.</p></td>
+<td><p><span data-ttu-id="67966-138"><strong>Von Benutzeragent</strong></span><span class="sxs-lookup"><span data-stu-id="67966-138"><strong>From user agent</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-139">Software, die vom Endpunkt des Benutzers, der die Sitzung initiiert hat, verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="67966-139">Software used by the endpoint of the user who initiated the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Von Benutzer intern</strong></p></td>
-<td><p>Gibt an, ob der Benutzer, der die Sitzung initiiert hat, am internen Netzwerk angemeldet war.</p></td>
+<td><p><span data-ttu-id="67966-140"><strong>Interner Absenderbenutzer</strong></span><span class="sxs-lookup"><span data-stu-id="67966-140"><strong>Is From user internal</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-141">Gibt an, ob der Benutzer, der die Sitzung initiiert hat, am internen Netzwerk angemeldet war.</span><span class="sxs-lookup"><span data-stu-id="67966-141">Indicates whether the user who initiated the session was logged on to the internal network.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Von Benutzer mit Telefonapparat</strong></p></td>
-<td><p>Gibt an, ob der Endpunkt des Benutzers, der die Sitzung initiiert hat, mit seinem Desktoptelefon integriert ist.</p></td>
+<td><p><span data-ttu-id="67966-142"><strong>Absenderbenutzer mit Telefonapparat</strong></span><span class="sxs-lookup"><span data-stu-id="67966-142"><strong>Is From user integrated with desk phone</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-143">Gibt an, ob der Endpunkt des Benutzers, der die Sitzung initiiert hat, mit seinem Desktoptelefon integriert ist.</span><span class="sxs-lookup"><span data-stu-id="67966-143">Indicates whether the endpoint used by the user who initiated the session is integrated with his or her desktop phone.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Sitzungspriorität</strong></p></td>
-<td><p>Die der Sitzung zugewiesene Priorität. Gültige Prioritäten umfassen &quot;Unbekannt&quot;, &quot;Nicht dringend&quot;, &quot;Normal&quot;, &quot;Dringend&quot; und &quot;Notfall&quot;.</p></td>
+<td><p><span data-ttu-id="67966-144"><strong>Sitzungspriorität</strong></span><span class="sxs-lookup"><span data-stu-id="67966-144"><strong>Session Priority</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-p106">Die der Sitzung zugewiesene Priorität. Gültige Prioritäten sind „Unbekannt“, „Nicht dringend“, „Normal“, „Dringend“ und „Notfall“.</span><span class="sxs-lookup"><span data-stu-id="67966-p106">Priority assigned to the session. Valid priorities are: Unknown; Non-Urgent; Normal; Urgent; and Emergency.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Antwortcode</strong></p></td>
-<td><p>SIP-Antwortcode, der bei einem Sitzungsfehler gesendet wurde.</p></td>
+<td><p><span data-ttu-id="67966-147"><strong>Antwortcode</strong></span><span class="sxs-lookup"><span data-stu-id="67966-147"><strong>Response code</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-148">SIP-Antwortcode, der bei einem Sitzungsfehler gesendet wurde.</span><span class="sxs-lookup"><span data-stu-id="67966-148">SIP response code sent when the session failed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Front-End</strong></p></td>
-<td><p>Name des in der Konferenz verwendeten Front-End-Servers.</p></td>
+<td><p><span data-ttu-id="67966-149"><strong>Front-End</strong></span><span class="sxs-lookup"><span data-stu-id="67966-149"><strong>Front end</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-150">Name des in der Konferenz verwendeten Front-End-Servers.</span><span class="sxs-lookup"><span data-stu-id="67966-150">Name of the Front End Server used in the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Zeitpunkt der Erfassung</strong></p></td>
-<td><p>Datum und Uhrzeit, an dem bzw. zu der die Sitzungsinformationen erfasst wurden.</p></td>
+<td><p><span data-ttu-id="67966-151"><strong>Erfassungszeitpunkt</strong></span><span class="sxs-lookup"><span data-stu-id="67966-151"><strong>Capture time</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-152">Datum und Uhrzeit, an dem bzw. zu der die Sitzungsinformationen erfasst wurden.</span><span class="sxs-lookup"><span data-stu-id="67966-152">Date and time that the session information was recorded.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Endzeit</strong></p></td>
-<td><p>Datum und Uhrzeit, an dem bzw. zu der die Sitzung endete.</p></td>
+<td><p><span data-ttu-id="67966-153"><strong>Endzeitpunkt</strong></span><span class="sxs-lookup"><span data-stu-id="67966-153"><strong>End time</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-154">Datum und Uhrzeit, an dem bzw. zu der die Sitzung endete.</span><span class="sxs-lookup"><span data-stu-id="67966-154">Date and time the session ended.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>An Benutzer</strong></p></td>
-<td><p>SIP-Adresse des Benutzers, der zur Sitzung eingeladen wurde.</p></td>
+<td><p><span data-ttu-id="67966-155"><strong>An Benutzer</strong></span><span class="sxs-lookup"><span data-stu-id="67966-155"><strong>To user</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-156">SIP-Adresse des Benutzers, der zur Sitzung eingeladen wurde.</span><span class="sxs-lookup"><span data-stu-id="67966-156">SIP address of the user who was invited to the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>To user agent</strong> (An Benutzer-Agent)</p></td>
-<td><p>Die vom Endpunkt des Benutzers verwendete Software, der zur Teilnahme an der Sitzung eingeladen wurde.</p></td>
+<td><p><span data-ttu-id="67966-157"><strong>Empfängerbenutzeragent</strong></span><span class="sxs-lookup"><span data-stu-id="67966-157"><strong>To user agent</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-158">Die vom Endpunkt des Benutzers verwendete Software, der zur Teilnahme an der Sitzung eingeladen wurde.</span><span class="sxs-lookup"><span data-stu-id="67966-158">Software used by the endpoint of the user who was invited to the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>An Benutzer intern</strong></p></td>
-<td><p>Gibt an, ob der Benutzer, der zur Teilnahme an der Sitzung eingeladen wurde, am internen Netzwerk angemeldet war.</p></td>
+<td><p><span data-ttu-id="67966-159"><strong>Interner Empfängerbenutzer</strong></span><span class="sxs-lookup"><span data-stu-id="67966-159"><strong>Is To user internal</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-160">Gibt an, ob der Benutzer, der zur Teilnahme an der Sitzung eingeladen wurde, am internen Netzwerk angemeldet war.</span><span class="sxs-lookup"><span data-stu-id="67966-160">Indicates whether the user who was invited to the session was logged on to the internal network.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>An Benutzer mit Telefonapparat</strong></p></td>
-<td><p>Gibt an, ob der Endpunkt des Benutzers, der zur Teilnahme an der Sitzung eingeladen wurde, mit seinem Desktoptelefon integriert ist.</p></td>
+<td><p><span data-ttu-id="67966-161"><strong>Empfängerbenutzer mit Telefonapparat</strong></span><span class="sxs-lookup"><span data-stu-id="67966-161"><strong>Is To user integrated with desk phone</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-162">Gibt an, ob der Endpunkt des Benutzers, der zur Teilnahme an der Sitzung eingeladen wurde, mit seinem Desktoptelefon integriert ist.</span><span class="sxs-lookup"><span data-stu-id="67966-162">Indicates whether the endpoint used by the user who was invited to the session is integrated with his or her desktop phone.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Wiederholungsversuch der Sitzung</strong></p></td>
-<td><p>Gibt an, ob die Sitzung ein Wiederholungsversuch einer zuvor fehlgeschlagenen Sitzung ist.</p></td>
+<td><p><span data-ttu-id="67966-163"><strong>Wiederholungsversuch der Sitzung</strong></span><span class="sxs-lookup"><span data-stu-id="67966-163"><strong>Is retried session</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-164">Gibt an, ob die Sitzung ein Wiederholungsversuch einer zuvor fehlgeschlagenen Sitzung ist.</span><span class="sxs-lookup"><span data-stu-id="67966-164">Indicates whether the session is an attempt to retry a session that previously failed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Diagnose-ID</strong></p></td>
-<td><p>Eindeutige ID (in der Form eines Headers vom Typ &quot;ms-diagnostics&quot;), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt. Halten Sie den Mauszeiger über die ID-Nummer, um zusätzliche Information zu dieser ID anzuzeigen.</p></td>
+<td><p><span data-ttu-id="67966-165"><strong>Diagnose-ID</strong></span><span class="sxs-lookup"><span data-stu-id="67966-165"><strong>Diagnostic ID</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-p107">Eindeutige ID (in der Form eines Headers vom Typ „ms-diagnostics“), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt. Halten Sie den Mauszeiger über die ID-Nummer, um zusätzliche Information zu dieser ID anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="67966-p107">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Hold the mouse over the ID number to view additional information about that ID.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Metriken für Modalitäten
+</div>
 
-In der folgenden Tabelle sind die Informationen aufgelistet, die im Detailbericht über Peer-zu-Peer-Sitzungen zu jeder Sitzungsmodalität angegeben werden.
+<div>
 
-### Metriken für Modalitäten
+## <a name="metrics-for-modalities"></a><span data-ttu-id="67966-168">Metriken für Modalitäten</span><span class="sxs-lookup"><span data-stu-id="67966-168">Metrics for Modalities</span></span>
+
+<span data-ttu-id="67966-169">In der folgenden Tabelle sind die Informationen aufgelistet, die im Detailbericht über Peer-to-Peer-Sitzungen zu jeder Sitzungsmodalität angegeben werden.</span><span class="sxs-lookup"><span data-stu-id="67966-169">The following table lists the information provided in the Peer-to-Peer Session Detail Report for each session modality.</span></span>
+
+### <a name="metrics-for-modalities"></a><span data-ttu-id="67966-170">Metriken für Modalitäten</span><span class="sxs-lookup"><span data-stu-id="67966-170">Metrics for Modalities</span></span>
 
 <table>
 <colgroup>
@@ -155,36 +193,40 @@ In der folgenden Tabelle sind die Informationen aufgelistet, die im Detailberich
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Kann nach dieser Metrik sortiert werden?</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="67966-171">Name</span><span class="sxs-lookup"><span data-stu-id="67966-171">Name</span></span></th>
+<th><span data-ttu-id="67966-172">Kann nach dieser Metrik sortiert werden?</span><span class="sxs-lookup"><span data-stu-id="67966-172">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="67966-173">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="67966-173">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Modalitäten</strong></p></td>
-<td><p>Nein</p></td>
-<td><p>In der Sitzung verwendete Modalitäten, z. B. Chat, Audio oder Dateiübertragung.</p></td>
+<td><p><span data-ttu-id="67966-174"><strong>Modalitäten</strong></span><span class="sxs-lookup"><span data-stu-id="67966-174"><strong>Modalities</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-175">Nein</span><span class="sxs-lookup"><span data-stu-id="67966-175">No</span></span></p></td>
+<td><p><span data-ttu-id="67966-p108">In der Sitzung verwendete Modalitäten, z. B. Chat, Audio oder Dateiübertragung.</span><span class="sxs-lookup"><span data-stu-id="67966-p108">Modalities used in the session. For example, instant messaging (IM) or file transfer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nachrichten &quot;Von Benutzer&quot;</strong></p></td>
-<td><p>Nein</p></td>
-<td><p>Anzahl der gesendeten Nachrichten des Benutzers, der die Sitzung initiiert hat.</p></td>
+<td><p><span data-ttu-id="67966-178"><strong>Nachrichten von Absenderbenutzer</strong></span><span class="sxs-lookup"><span data-stu-id="67966-178"><strong>From user messages</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-179">Nein</span><span class="sxs-lookup"><span data-stu-id="67966-179">No</span></span></p></td>
+<td><p><span data-ttu-id="67966-180">Anzahl der gesendeten Nachrichten des Benutzers, der die Sitzung initiiert hat.</span><span class="sxs-lookup"><span data-stu-id="67966-180">Number of messages sent by the user who initiated the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Nachrichten &quot;An Benutzer&quot;</strong></p></td>
-<td><p>Nein</p></td>
-<td><p>Anzahl der gesendeten Nachrichten des Benutzers, der zur Teilnahme an der Sitzung eingeladen wurde.</p></td>
+<td><p><span data-ttu-id="67966-181"><strong>Nachrichten an Empfängerbenutzer</strong></span><span class="sxs-lookup"><span data-stu-id="67966-181"><strong>To user messages</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-182">Nein</span><span class="sxs-lookup"><span data-stu-id="67966-182">No</span></span></p></td>
+<td><p><span data-ttu-id="67966-183">Anzahl der gesendeten Nachrichten des Benutzers, der zur Teilnahme an der Sitzung eingeladen wurde.</span><span class="sxs-lookup"><span data-stu-id="67966-183">Number of messages sent by the user who was invited to join the session.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Metriken für Diagnoseberichte
+</div>
 
-In der folgenden Tabelle sind die Informationen aufgelistet, die im Detailbericht über Peer-zu-Peer-Sitzungen zu jeden Diagnosebericht angegeben werden.
+<div>
 
-### Metriken für Diagnoseberichte
+## <a name="metrics-for-diagnostic-reports"></a><span data-ttu-id="67966-184">Metriken für Diagnoseberichte</span><span class="sxs-lookup"><span data-stu-id="67966-184">Metrics for Diagnostic Reports</span></span>
+
+<span data-ttu-id="67966-185">In der folgenden Tabelle sind die Informationen aufgelistet, die im Detailbericht über Peer-to-Peer-Sitzungen zu jeden Diagnosebericht angegeben werden.</span><span class="sxs-lookup"><span data-stu-id="67966-185">The following table lists the information provided in the Peer-to-Peer Session Detail Report for each diagnostic report.</span></span>
+
+### <a name="metrics-for-diagnostic-reports"></a><span data-ttu-id="67966-186">Metriken für Diagnoseberichte</span><span class="sxs-lookup"><span data-stu-id="67966-186">Metrics for Diagnostic Reports</span></span>
 
 <table>
 <colgroup>
@@ -194,42 +236,55 @@ In der folgenden Tabelle sind die Informationen aufgelistet, die im Detailberich
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Kann nach dieser Metrik sortiert werden?</th>
-<th>Beschreibung</th>
+<th><span data-ttu-id="67966-187">Name</span><span class="sxs-lookup"><span data-stu-id="67966-187">Name</span></span></th>
+<th><span data-ttu-id="67966-188">Kann nach dieser Metrik sortiert werden?</span><span class="sxs-lookup"><span data-stu-id="67966-188">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="67966-189">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="67966-189">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Detail</strong></p></td>
-<td><p>Nein</p></td>
-<td><p>Klicken Sie auf dieses Element, um den Diagnosebericht für die Sitzung anzuzeigen.</p></td>
+<td><p><span data-ttu-id="67966-190"><strong>Detail</strong></span><span class="sxs-lookup"><span data-stu-id="67966-190"><strong>Detail</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-191">Nein</span><span class="sxs-lookup"><span data-stu-id="67966-191">No</span></span></p></td>
+<td><p><span data-ttu-id="67966-192">Klicken Sie auf dieses Element, um den Diagnosebericht für die Sitzung anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="67966-192">When you click this item, the report shows the Diagnostic Report for the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Berichtszeit</strong></p></td>
-<td><p>Nein</p></td>
-<td><p>Datum und Uhrzeit der Aufzeichnung des Berichts.</p></td>
+<td><p><span data-ttu-id="67966-193"><strong>Berichtszeitpunkt</strong></span><span class="sxs-lookup"><span data-stu-id="67966-193"><strong>Report time</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-194">Nein</span><span class="sxs-lookup"><span data-stu-id="67966-194">No</span></span></p></td>
+<td><p><span data-ttu-id="67966-195">Datum und Uhrzeit der Aufzeichnung des Berichts.</span><span class="sxs-lookup"><span data-stu-id="67966-195">Date and time the report was recorded.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Anforderung</strong></p></td>
-<td><p>Nein</p></td>
-<td><p>SIP-Anforderungstyp, z. B. INVITE oder BYE.</p></td>
+<td><p><span data-ttu-id="67966-196"><strong>Anforderung</strong></span><span class="sxs-lookup"><span data-stu-id="67966-196"><strong>Request</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-197">Nein</span><span class="sxs-lookup"><span data-stu-id="67966-197">No</span></span></p></td>
+<td><p><span data-ttu-id="67966-p109">SIP-Anforderungstyp, z. B. INVITE oder BYE.</span><span class="sxs-lookup"><span data-stu-id="67966-p109">SIP request type. For example, INVITE or BYE.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Diagnose-ID</strong></p></td>
-<td><p>Nein</p></td>
-<td><p>Eindeutige ID (in Form eines Headers vom Typ &quot;ms-diagnostics&quot;), die einer SIP-Nachricht angefügt ist, die häufig nützliche Informationen für die Problembehandlung von Fehlern bereitstellt.</p></td>
+<td><p><span data-ttu-id="67966-200"><strong>Diagnose-ID</strong></span><span class="sxs-lookup"><span data-stu-id="67966-200"><strong>Diagnostic ID</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-201">Nein</span><span class="sxs-lookup"><span data-stu-id="67966-201">No</span></span></p></td>
+<td><p><span data-ttu-id="67966-202">Eindeutige ID (in der Form eines Headers vom Typ „ms-diagnostics“), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt.</span><span class="sxs-lookup"><span data-stu-id="67966-202">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Inhaltstyp</strong></p></td>
-<td><p>Nein</p></td>
-<td><p>In der Konferenz verwendeter Medieninhaltstyp. Ein gängiger Inhaltstyp ist beispielsweise &quot;Application/sdp&quot;. SDP (Session Description Protocol) ist ein Standardinternetprotokoll, das für Sitzungsankündigungen, Sitzungseinladungen und andere Formen des Multimediasitzungsaufbaus verwendet wird.</p></td>
+<td><p><span data-ttu-id="67966-203"><strong>Inhaltstyp</strong></span><span class="sxs-lookup"><span data-stu-id="67966-203"><strong>Content type</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-204">Nein</span><span class="sxs-lookup"><span data-stu-id="67966-204">No</span></span></p></td>
+<td><p><span data-ttu-id="67966-p110">In der Konferenz verwendeter Medieninhaltstyp. Ein gängiger Inhaltstyp ist beispielsweise „Application/sdp“. SDP (Session Description Protocol) ist ein Standardinternetprotokoll, das für Sitzungsankündigungen, Sitzungseinladungen und andere Formen des Multimediasitzungsaufbaus verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="67966-p110">Type of media content used in the conference. For example, a common content type is Application/sdp. Session Description Protocol (SDP) is a standard Internet protocol used for session announcements, session invitations, and other forms of multimedia session initiation.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Berichtet von</strong></p></td>
-<td><p>Nein</p></td>
-<td><p>Computer (d. h. Client oder Server), der das Problem berichtet hat.</p></td>
+<td><p><span data-ttu-id="67966-208"><strong>Berichtet von</strong></span><span class="sxs-lookup"><span data-stu-id="67966-208"><strong>Reported by</strong></span></span></p></td>
+<td><p><span data-ttu-id="67966-209">Nein</span><span class="sxs-lookup"><span data-stu-id="67966-209">No</span></span></p></td>
+<td><p><span data-ttu-id="67966-210">Computer (d. h. Client oder Server), der das Problem berichtet hat.</span><span class="sxs-lookup"><span data-stu-id="67966-210">Computer (that is, client or server) that reported the problem.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

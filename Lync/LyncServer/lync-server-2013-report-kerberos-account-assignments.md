@@ -1,54 +1,92 @@
-﻿---
-title: 'Lync Server 2013: Melden von Kerberos-Kontozuweisungen'
-TOCTitle: Melden von Kerberos-Kontozuweisungen
-ms:assetid: 523231f6-81b3-454b-996d-663d9bd5cf83
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398343(v=OCS.15)
-ms:contentKeyID: 49294001
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Melden von Kerberos-Kontozuweisungen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Report Kerberos account assignments
+ms:assetid: 523231f6-81b3-454b-996d-663d9bd5cf83
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398343(v=OCS.15)
+ms:contentKeyID: 48184151
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1b02eb3cae7a7d2bbeb4cc3b9dce0a7daa8ee5c3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823224"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Melden von Kerberos-Kontozuweisungen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-01-16_
+# <a name="report-kerberos-account-assignments-in-lync-server-2013"></a><span data-ttu-id="73b96-102">Melden von Kerberos-Kontozuweisungen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="73b96-102">Report Kerberos account assignments in Lync Server 2013</span></span>
 
-Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie als Mitglied der Gruppe "RTCUniversalServerAdmins" angemeldet sein.
+</div>
 
-Mit dem Cmdlet **Get-CsKerberosAccountAssignment** können Sie Informationen zu Kontozuweisungen für die Kerberos-Authentifizierung sowie Berichtinformationen zu den aktuellen Zuweisungen in Ihrer Bereitstellung abrufen.
+<div id="mainSection">
 
-## So rufen Sie Kontozuweisungen für die Kerberos-Authentifizierung für einen Standort ab
+<div id="mainBody">
 
-1.  Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" bei einem Computer in der Domäne an, auf dem Lync Server 2013 ausgeführt wird. Alternativ können Sie sich bei einem Computer anmelden, auf dem die Verwaltungstools installiert sind.
+<span> </span>
 
-2.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+<span data-ttu-id="73b96-103">_**Letztes Änderungsdatum des Themas:** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="73b96-103">_**Topic Last Modified:** 2012-01-16_</span></span>
 
-3.  Führen Sie an der Befehlszeile einen der folgenden Befehle aus:
+<span data-ttu-id="73b96-104">Um dieses Verfahren erfolgreich abzuschließen, sollten Sie als Benutzer angemeldet sein, der Mitglied der RTCUniversalServerAdmins-Gruppe ist.</span><span class="sxs-lookup"><span data-stu-id="73b96-104">To successfully complete this procedure you should be logged on as a user who is a member of the RTCUniversalServerAdmins group.</span></span>
+
+<span data-ttu-id="73b96-105">Mit dem Cmdlet **Get-CsKerberosAccountAssignment** können Sie Informationen zu den Kerberos-Authentifizierungs Konto Zuweisungen Abfragen und Informationen zu den aktuellen Aufgaben in Ihrer Bereitstellung melden.</span><span class="sxs-lookup"><span data-stu-id="73b96-105">You can use the **Get-CsKerberosAccountAssignment** cmdlet to query information about the Kerberos authentication account assignments and report information about the current assignments in your deployment.</span></span>
+
+<div>
+
+## <a name="to-query-kerberos-authentication-account-assignments-for-a-site"></a><span data-ttu-id="73b96-106">So Abfragen Sie Kerberos-Authentifizierungs Konto Zuweisungen für eine Website</span><span class="sxs-lookup"><span data-stu-id="73b96-106">To query Kerberos authentication account assignments for a site</span></span>
+
+1.  <span data-ttu-id="73b96-107">Melden Sie sich als Mitglied der RTCUniversalServerAdmins-Gruppe an einem Computer in der Domäne mit lync Server 2013 oder auf einem Computer an, auf dem die Verwaltungstools installiert sind.</span><span class="sxs-lookup"><span data-stu-id="73b96-107">As a member of the RTCUniversalServerAdmins group, log on to a computer in the domain running Lync Server 2013 or on to a computer where the administrative tools are installed.</span></span>
+
+2.  <span data-ttu-id="73b96-108">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="73b96-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+3.  <span data-ttu-id="73b96-109">Führen Sie in der Befehlszeile einen der folgenden Befehle aus:</span><span class="sxs-lookup"><span data-stu-id="73b96-109">From the command line, run one of the following commands:</span></span>
     
-      - Zum Abrufen aller Kontozuweisungen für die Kerberos-Authentifizierung in Ihrer Organisation und Zurückgeben von Informationen zu den einzelnen Zuweisungen führen Sie das Cmdlet ohne Parameter aus:
+      - <span data-ttu-id="73b96-110">Wenn Sie alle Kerberos-Authentifizierungs Konto Zuweisungen in Ihrer Organisation Abfragen und Zuordnungsinformationen zu den einzelnen Aufgaben zurückgeben möchten, führen Sie das Cmdlet ohne Parameter aus:</span><span class="sxs-lookup"><span data-stu-id="73b96-110">To query all Kerberos authentication account assignments in your organization and return assignment information about each of them, run the cmdlet without any parameters:</span></span>
         
             Get-CsKerberosAccountAssignment
     
-      - Zum Abrufen aller Kontozuweisungen für die Kerberos-Authentifizierung in Ihrer Bereitstellung und Zurückgeben von Standortzuweisungsinformationen zu den einzelnen Zuweisungen führen Sie das Cmdlet mit dem Identitätsparameter aus:
+      - <span data-ttu-id="73b96-111">Führen Sie das Cmdlet mit dem Parameter Identity aus, um alle Kerberos-Authentifizierungs Konto Zuweisungen in Ihrer Bereitstellung abzufragen und Websitezuordnungsinformationen zu diesen zurückzugeben:</span><span class="sxs-lookup"><span data-stu-id="73b96-111">To query all Kerberos authentication account assignments in your deployment and return site assignment information about each of them, run the cmdlet with the Identity parameter:</span></span>
         
             Get-CsKerberosAccountAssignment -Identity "site:SiteName"
         
-        Beispiel:
+        <span data-ttu-id="73b96-112">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="73b96-112">For example:</span></span>
         
             Get-CsKerberosAccountAssignment -Identity "site:Redmond"
     
-      - Zum Abrufen aller Kontozuweisungen für die Kerberos-Authentifizierung an einem einzelnen Standort und Zurückgeben von Informationen zu den einzelnen Zuweisungen führen Sie das Cmdlet mit dem Filterparameter aus:
+      - <span data-ttu-id="73b96-113">Führen Sie das Cmdlet mit dem Parameter Filter aus, um alle Kerberos-Authentifizierungs Konto Zuweisungen an einer einzigen Website abzufragen und Zuordnungsinformationen zu den einzelnen Websites zurückzugeben:</span><span class="sxs-lookup"><span data-stu-id="73b96-113">To query all Kerberos authentication account assignments in a single site and return assignment information about each of them, run the cmdlet with the Filter parameter:</span></span>
         
             Get-CsKerberosAccountAssignment -Filter "SiteName"
         
-        Beispiel:
+        <span data-ttu-id="73b96-114">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="73b96-114">For example:</span></span>
         
             Get-CsKerberosAccountAssignment -Filter "*Redmond"
         
+        <div>
+        
 
-        > [!NOTE]
-        > Bei Angabe von "*SiteName" als Filterparameter werden Informationen zu sämtlichen Standorten zurückgegeben, deren Standort-ID den angegebenen Standortnamen enthält (z.&nbsp;B. alle Standorte mit der Zeichenfolge "Redmond" in der Standort-ID).
+        > [!NOTE]  
+        > <span data-ttu-id="73b96-115">Durch die Angabe von \* Sitename für den Filter-Parameter werden Informationen zu allen Websites zurückgegeben, die den angegebenen Websitenamen an einer beliebigen Stelle in der Website-ID enthalten (beispielsweise alle Websites, die die Zeichenfolge Redmond in der Website-ID enthalten).</span><span class="sxs-lookup"><span data-stu-id="73b96-115">Specifying \*SiteName for the Filter parameter returns information about all sites that contain the specified site name anywhere in the site identifier (for example, all sites that contain the string Redmond in the site identifier).</span></span>
 
+        
+        </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

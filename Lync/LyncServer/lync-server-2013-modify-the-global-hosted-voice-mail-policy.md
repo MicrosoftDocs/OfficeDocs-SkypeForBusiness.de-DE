@@ -1,44 +1,82 @@
-﻿---
-title: Ändern der globalen Richtlinie für gehostete Voicemail
-TOCTitle: Ändern der globalen Richtlinie für gehostete Voicemail
-ms:assetid: f059b3ce-a7d8-4ea9-b10b-0052222ec2ce
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412994(v=OCS.15)
-ms:contentKeyID: 49295848
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Ändern der Global Hosted Voicemail-Richtlinie'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Modify the global hosted voice mail policy
+ms:assetid: f059b3ce-a7d8-4ea9-b10b-0052222ec2ce
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412994(v=OCS.15)
+ms:contentKeyID: 48185757
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4759fd0cfe4f8a4c55905b265c2418354a6a6dae
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826794"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ändern der globalen Richtlinie für gehostete Voicemail
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-24_
+# <a name="modify-the-global-hosted-voice-mail-policy-in-lync-server-2013"></a><span data-ttu-id="c18dc-102">Ändern der Global Hosted Voicemail-Richtlinie in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c18dc-102">Modify the global hosted voice mail policy in Lync Server 2013</span></span>
 
-Die neue *globale* Richtlinie für gehostete Voicemail wird zusammen mit Lync Server 2013 installiert. Sie können diese Richtlinie Ihren Anforderungen entsprechend ändern, Sie können sie jedoch weder umbenennen noch löschen. Wenn Sie die globale Richtlinie ändern möchten, verwenden Sie das Cmdlet "Set-CsHostedVoicemailPolicy", um die Parameter auf die für Ihre spezielle Bereitstellung geeigneten Werte zu setzen.
+</div>
 
-Ausführliche Informationen zum Cmdlet [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy) finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
+<div id="mainSection">
 
-## So ändern Sie die globale Richtlinie für gehostete Voicemail
+<div id="mainBody">
 
-1.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+<span> </span>
 
-2.  Führen Sie das Cmdlet "Set-CsHostedVoicemailPolicy" aus, um die Parameter der globalen Richtlinie für Ihre Umgebung festzulegen. Führen Sie beispielsweise den folgenden Befehl aus:
+<span data-ttu-id="c18dc-103">_**Letztes Änderungsdatum des Themas:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="c18dc-103">_**Topic Last Modified:** 2012-09-24_</span></span>
+
+<span data-ttu-id="c18dc-104">Die *Global* Hosted Voicemail-Richtlinie wird mit lync Server 2013 installiert.</span><span class="sxs-lookup"><span data-stu-id="c18dc-104">The *global* hosted voice mail policy is installed with Lync Server 2013.</span></span> <span data-ttu-id="c18dc-105">Sie können Sie ändern, um Ihre Anforderungen zu erfüllen, aber Sie können Sie nicht umbenennen oder löschen.</span><span class="sxs-lookup"><span data-stu-id="c18dc-105">You can modify it to meet your needs, but you cannot rename or delete it.</span></span> <span data-ttu-id="c18dc-106">Zum Ändern der globalen Richtlinie verwenden Sie das Cmdlet "festlegen-CsHostedVoicemailPolicy", um die Parameter auf die entsprechenden Werte für die jeweilige Bereitstellung zu setzen.</span><span class="sxs-lookup"><span data-stu-id="c18dc-106">To modify the global policy, you use the Set-CsHostedVoicemailPolicy cmdlet to set the parameters to appropriate values for your specific deployment.</span></span>
+
+<span data-ttu-id="c18dc-107">Details zum Cmdlet " [setCsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsHostedVoicemailPolicy) " finden Sie in der Dokumentation zur lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="c18dc-107">For details about the [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsHostedVoicemailPolicy) cmdlet, see the Lync Server Management Shell documentation.</span></span>
+
+<div>
+
+## <a name="to-modify-the-global-hosted-voice-mail-policy"></a><span data-ttu-id="c18dc-108">So ändern Sie die Global Hosted Voicemail-Richtlinie</span><span class="sxs-lookup"><span data-stu-id="c18dc-108">To modify the global hosted voice mail policy</span></span>
+
+1.  <span data-ttu-id="c18dc-109">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="c18dc-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="c18dc-110">Führen Sie das Cmdlet "Satz-CsHostedVoicemailPolicy" aus, um die globalen Richtlinienparameter für Ihre Umgebung einzurichten.</span><span class="sxs-lookup"><span data-stu-id="c18dc-110">Run the Set-CsHostedVoicemailPolicy cmdlet to set the global policy parameters for your environment.</span></span> <span data-ttu-id="c18dc-111">Führen Sie beispielsweise den folgenden Befehl aus:</span><span class="sxs-lookup"><span data-stu-id="c18dc-111">For example, run:</span></span>
     
         Set-CsHostedVoicemailPolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
     
-    Da dieser Befehl den Parameter "Identity" der Richtlinie nicht festlegt, setzt die Windows PowerShell-Befehlszeilenschnittstelle folgende Werte in der globalen Richtlinie für gehostete Voicemail:
+    <span data-ttu-id="c18dc-112">Da dieser Befehl den Identitätsparameter der Richtlinie nicht angibt, legt die Windows PowerShell-Befehlszeilenschnittstelle die folgenden Werte für die Global Hosted Voicemail-Richtlinie fest:</span><span class="sxs-lookup"><span data-stu-id="c18dc-112">Because this command does not specify the policy’s Identity parameter, Windows PowerShell command-line interface sets the following values on the global hosted voice mail policy:</span></span>
     
-      - **Destination** gibt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des gehosteten Exchange UM-Diensts an. Dieser Parameter ist optional. Wenn Sie jedoch versuchen, einen Benutzer für gehostete Voicemail zu aktivieren, und die zugewiesene Richtlinie des Benutzers nicht auf "Destination" festgelegt ist, tritt bei der Aktivierung ein Fehler auf.
+      - <span data-ttu-id="c18dc-113">**Ziel** gibt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des gehosteten Exchange um-Diensts an.</span><span class="sxs-lookup"><span data-stu-id="c18dc-113">**Destination** specifies the fully qualified domain name (FQDN) of the hosted Exchange UM service.</span></span> <span data-ttu-id="c18dc-114">Dieser Parameter ist optional, aber wenn Sie versuchen, einen Benutzer für gehostete Voicemail zu aktivieren, und die zugewiesene Richtlinie des Benutzers keinen Zielwert hat, schlägt die Aktivierung fehl.</span><span class="sxs-lookup"><span data-stu-id="c18dc-114">This parameter is optional, but if you attempt to enable a user for hosted voice mail and the user’s assigned policy does not have a Destination value, the enable will fail.</span></span>
     
-      - **Organization** gibt eine durch Trennzeichen getrennte Liste der Exchange-Mandanten an, die Lync Server-Benutzer verwalten. Für jeden Mandanten muss der vollqualifizierte Domänenname des Mandanten im gehosteten Exchange-Dienst angegeben werden.
+      - <span data-ttu-id="c18dc-115">**Organisation** gibt eine durch trennzeichengetrennte Liste der Exchange-Mandanten an, die zu den lync Server-Benutzern werden.</span><span class="sxs-lookup"><span data-stu-id="c18dc-115">**Organization** specifies a comma-separated list of the Exchange tenants that home Lync Server users.</span></span> <span data-ttu-id="c18dc-116">Jeder Mandant muss als FQDN dieses Mandanten für den gehosteten Exchange um-Dienst angegeben werden.</span><span class="sxs-lookup"><span data-stu-id="c18dc-116">Each tenant must be specified as the FQDN of that tenant on the hosted Exchange UM service.</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > Im vorherigen Cmdlet-Beispiel ersetzt der Wert "corp1.litwareinc.com" einen beliebigen Wert, der im Parameter "Organization" möglicherweise bereits vorhanden ist. Wenn die Richtlinie beispielsweise bereits eine durch Trennzeichen getrennte Liste mit Organisationen enthält, wird die gesamte Liste ersetzt. Wenn Sie nicht die gesamte Liste ersetzen, sondern der Liste eine Organisation hinzufügen möchten, führen Sie einen Befehl wie den folgenden aus.
+    > [!NOTE]  
+    > <span data-ttu-id="c18dc-117">Im vorherigen Beispiel-Cmdlet ersetzt der Wert "corp1.litwareinc.com" alle Werte, die möglicherweise bereits im Parameter Organization vorhanden sind.</span><span class="sxs-lookup"><span data-stu-id="c18dc-117">In the previous example cmdlet, the value “corp1.litwareinc.com” replaces any value that might already be present in the Organization parameter.</span></span> <span data-ttu-id="c18dc-118">Wenn die Richtlinie beispielsweise bereits eine durch trennzeichengetrennte Liste von Organisationen enthält, wird die vollständige Liste ersetzt.</span><span class="sxs-lookup"><span data-stu-id="c18dc-118">For example, if the policy already contains a comma-separated list of organizations, the full list would be replaced.</span></span> <span data-ttu-id="c18dc-119">Wenn Sie der Liste eine Organisation hinzufügen möchten, anstatt die gesamte Liste zu ersetzen, führen Sie einen Befehl wie den folgenden aus.</span><span class="sxs-lookup"><span data-stu-id="c18dc-119">If you want to add an organization to the list rather than replace the entire list, run a command similar to the following.</span></span>
 
+    
+    </div>
     
         $a = Get-CsHostedVoicemailPolicy
         $a.Organization += ",corp3.litwareinc.com"
         Set-CsHostedVoicemailPolicy -Organization $a.Organization
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

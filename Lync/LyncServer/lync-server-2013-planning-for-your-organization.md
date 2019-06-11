@@ -1,33 +1,67 @@
-﻿---
-title: 'Lync Server 2013: Planung für Ihre Organisation'
-TOCTitle: 'Planungsbuch: Planung für Ihre Organisation'
-ms:assetid: fbbfcc5b-eece-48de-800f-2c28954eca33
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg413071(v=OCS.15)
-ms:contentKeyID: 49295992
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Planung für Ihre Organisation'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: 'Planning primer: Planning for your organization'
+ms:assetid: fbbfcc5b-eece-48de-800f-2c28954eca33
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413071(v=OCS.15)
+ms:contentKeyID: 48185940
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4c2b9521f9c8603829c2a35cbccc430b67f0184e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824253"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Organisationsplanung für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-24_
+# <a name="organization-planning-for-lync-server-2013"></a><span data-ttu-id="3bc17-102">Organisationsplanung für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3bc17-102">Organization planning for Lync Server 2013</span></span>
 
-Die Themen in diesem Abschnitt sollen Ihnen den Einstieg in die Planung Ihrer Lync Server-Bereitstellung erleichtern.
+</div>
 
-## In diesem Abschnitt
+<div id="mainSection">
 
-  - [Entscheiden, wie Lync Server 2013 bereitgestellt werden soll](lync-server-2013-deciding-how-to-deploy-microsoft-lync.md) bietet Orientierungshilfen zur Auswahl eines der grundlegenden Bereitstellungsszenarios für Lync Server 2013.
+<div id="mainBody">
 
-  - [Beginnen des Planungsprozesses für Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) bietet Hinweise dazu, wie Sie mit der Planung einer lokalen Bereitstellung beginnen können und wie die Planungsdokumentation mit dem Topologie-Generator funktioniert.
+<span> </span>
 
-  - In [Topologiegrundlagen, die Sie vor der Planung für Lync Server 2013 kennen sollten](lync-server-2013-topology-basics-you-must-know-before-planning.md) werden die Grundlagen der Lync Server-Topologien beschrieben, z. B. Standorte, Serverpools sowie Topologien, die hohe Verfügbarkeit und Notfallwiederherstellung unterstützen.
+<span data-ttu-id="3bc17-103">_**Letztes Änderungsdatum des Themas:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="3bc17-103">_**Topic Last Modified:** 2012-09-24_</span></span>
 
-  - Im Abschnitt [Anfängliche Planungsentscheidungen für Lync Server 2013](lync-server-2013-initial-planning-decisions.md) finden Sie die Fragen, die Sie beantworten müssen, um entscheiden zu können, welche Arbeitsauslastungen und Lync Server-Funktionen Sie bereitstellen müssen.
+<span data-ttu-id="3bc17-104">Die Themen in diesem Abschnitt unterstützen Sie beim Einstieg in die Planung Ihrer lync Server-Bereitstellung.</span><span class="sxs-lookup"><span data-stu-id="3bc17-104">The topics in this section help you get started with planning your Lync Server deployment.</span></span>
 
-  - [Clients für Lync Server 2013](lync-server-2013-clients.md) beschreibt die unterschiedlichen Arten von Clientsoftware, die Sie für die Benutzer Ihrer Organisation bereitstellen können, z. B. auf den Computern installierte Clientsoftware, webbasierte Clients und mobile Geräte.
+<div>
 
-  - [Referenztopologien in Lync Server 2013](lync-server-2013-reference-topologies.md) enthält drei Beispieltopologien, die einen gut strukturierten Topologieentwurf für drei typische Organisationstypen veranschaulichen, und erläutert die Gründe für viele Entscheidungen beim Entwerfen dieser Topologien.
+## <a name="in-this-section"></a><span data-ttu-id="3bc17-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="3bc17-105">In This Section</span></span>
+
+  - <span data-ttu-id="3bc17-106">Die [Entscheidung, wie lync Server 2013 bereitgestellt wird,](lync-server-2013-deciding-how-to-deploy-microsoft-lync.md) enthält Richtlinien für die Auswahl zwischen diesen grundlegenden Bereitstellungsszenarien für lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3bc17-106">[Deciding how to deploy Lync Server 2013](lync-server-2013-deciding-how-to-deploy-microsoft-lync.md) provides guidelines for choosing between these basic deployment scenarios for Lync Server 2013.</span></span>
+
+  - <span data-ttu-id="3bc17-107">Mit [dem Beginn des Planungsprozesses für lync Server 2013](lync-server-2013-beginning-the-planning-process.md) können Sie wissen, wie Sie mit der Planung einer lokalen Bereitstellung beginnen und wie die Planungsdokumentation mit dem Topologie-Generator funktioniert.</span><span class="sxs-lookup"><span data-stu-id="3bc17-107">[Beginning the planning process for Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) helps you understand how to get started planning an on-premises deployment and how the planning documentation works with Topology Builder.</span></span>
+
+  - <span data-ttu-id="3bc17-108">[Topologie-Grundlagen, die Sie vor dem Planen von lync Server 2013 wissen müssen](lync-server-2013-topology-basics-you-must-know-before-planning.md) , beschreibt die Grundlagen von lync Server-Topologien, einschließlich Websites, Server Pools und Topologien, die eine höhere Verfügbarkeit und Disaster Recovery unterstützen.</span><span class="sxs-lookup"><span data-stu-id="3bc17-108">[Topology basics you must know before planning for Lync Server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md) describes the basics of Lync Server topologies, including sites, server pools, and topologies that support high availability and disaster recovery.</span></span>
+
+  - <span data-ttu-id="3bc17-109">[Erste Planungsentscheidungen für lync Server 2013](lync-server-2013-initial-planning-decisions.md) führt Sie durch die Fragen, die Sie beantworten müssen, um zu entscheiden, welche Arbeitslasten und Features von lync Server bereitgestellt werden.</span><span class="sxs-lookup"><span data-stu-id="3bc17-109">[Initial planning decisions for Lync Server 2013](lync-server-2013-initial-planning-decisions.md) takes you through the questions you must answer to decide what workloads and features of Lync Server to deploy.</span></span>
+
+  - <span data-ttu-id="3bc17-110">[Clients für lync Server 2013](lync-server-2013-clients.md) beschreibt die verschiedenen Arten von Client Software, die Sie für die Benutzer Ihrer Organisation bereitstellen können, einschließlich Computer installierter Client Software, webbasierter Clients und mobiler Geräte.</span><span class="sxs-lookup"><span data-stu-id="3bc17-110">[Clients for Lync Server 2013](lync-server-2013-clients.md) describes the different types of client software that you can deploy to your organization’s users, including computer-installed client software, web-based clients, and mobile devices.</span></span>
+
+  - <span data-ttu-id="3bc17-111">[Referenz Topologien in lync Server 2013](lync-server-2013-reference-topologies.md) zeigt drei Beispiel Topologien, die ein gutes Topologie-Design in drei typischen Organisationstypen illustrieren, und erläutert die Gründe für viele Entscheidungen beim Entwerfen dieser Topologien.</span><span class="sxs-lookup"><span data-stu-id="3bc17-111">[Reference topologies in Lync Server 2013](lync-server-2013-reference-topologies.md) shows three sample topologies that illustrate good topology design in three typical organization types, and explains the reasoning behind many of the decisions in designing those topologies.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
