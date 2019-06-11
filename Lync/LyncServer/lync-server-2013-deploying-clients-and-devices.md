@@ -1,35 +1,69 @@
-﻿---
-title: Bereitstellen von Clients und Geräten in Lync Server 2013
-TOCTitle: Bereitstellen von Clients und Geräten in Lync Server 2013
-ms:assetid: fa2e6bb4-6c95-478d-8ee0-fc1b2cc14ee3
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205404(v=OCS.15)
-ms:contentKeyID: 49295967
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Bereitstellen von Clients und Geräten'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying clients and devices
+ms:assetid: fa2e6bb4-6c95-478d-8ee0-fc1b2cc14ee3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205404(v=OCS.15)
+ms:contentKeyID: 48185915
+ms.date: 04/03/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f1207368aadf574194ae21935e201492b276a384
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832557"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bereitstellen von Clients und Geräten in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-04-03_
+# <a name="deploying-clients-and-devices-in-lync-server-2013"></a><span data-ttu-id="3ccb1-102">Bereitstellen von Clients und Geräten in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ccb1-102">Deploying clients and devices in Lync Server 2013</span></span>
 
-In diesem Abschnitt werden die Verfahren zum Bereitstellen von Lync Server 2013-Clients und -Geräten beschrieben.
+</div>
 
-## Inhalt dieses Abschnitts
+<div id="mainSection">
 
-  - [Bereitstellen von Lync-Clients](lync-server-2013-deploying-lync-clients.md)
+<div id="mainBody">
 
-  - [Bereitstellen des Lync VDI-Plug-Ins in Lync Server 2013](lync-server-2013-deploying-the-lync-vdi-plug-in.md)
+<span> </span>
 
-  - [Bereitstellen von Lync Web App](lync-server-2013-deploying-lync-web-app.md)
+<span data-ttu-id="3ccb1-103">_**Letztes Änderungsdatum des Themas:** 2015-04-03_</span><span class="sxs-lookup"><span data-stu-id="3ccb1-103">_**Topic Last Modified:** 2015-04-03_</span></span>
 
-  - [Bereitstellen von Geräten](lync-server-2013-deploying-devices.md)
+<span data-ttu-id="3ccb1-104">In diesem Abschnitt werden die Verfahren zum Bereitstellen von lync Server 2013-Clients und-Geräten erläutert.</span><span class="sxs-lookup"><span data-stu-id="3ccb1-104">This section outlines the procedures for deploying Lync Server 2013 clients and devices.</span></span>
 
-  - [Bereitstellen mobiler Clients](lync-server-2013-deploying-mobile-clients.md)
+<div>
 
-  - [Bereitstellen der Lync-Windows Store-App](lync-server-2013-deploying-lync-windows-store-app.md)
+## <a name="in-this-section"></a><span data-ttu-id="3ccb1-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="3ccb1-105">In This Section</span></span>
 
-  - [Verwenden der Lync-Verbindungsanalyse](lync-server-2013-using-lync-connectivity-analyzer.md)
+  - [<span data-ttu-id="3ccb1-106">Bereitstellen von lync-Clients in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ccb1-106">Deploying Lync clients in Lync Server 2013</span></span>](lync-server-2013-deploying-lync-clients.md)
+
+  - [<span data-ttu-id="3ccb1-107">Configure the client experience with Skype for Business</span><span class="sxs-lookup"><span data-stu-id="3ccb1-107">Configure the client experience with Skype for Business</span></span>](configure-the-skype-for-business-client-in-lync-server-2013.md)
+
+  - [<span data-ttu-id="3ccb1-108">Bereitstellen des Lync VDI-Plug-Ins in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ccb1-108">Deploying the Lync VDI plug-in in Lync Server 2013</span></span>](lync-server-2013-deploying-the-lync-vdi-plug-in.md)
+
+  - [<span data-ttu-id="3ccb1-109">Bereitstellen von lync Web App in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ccb1-109">Deploying Lync Web App in Lync Server 2013</span></span>](lync-server-2013-deploying-lync-web-app.md)
+
+  - [<span data-ttu-id="3ccb1-110">Bereitstellen von Geräten in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ccb1-110">Deploying devices in Lync Server 2013</span></span>](lync-server-2013-deploying-devices.md)
+
+  - [<span data-ttu-id="3ccb1-111">Bereitstellen von mobilen Clients in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ccb1-111">Deploying mobile clients in Lync Server 2013</span></span>](lync-server-2013-deploying-mobile-clients.md)
+
+  - [<span data-ttu-id="3ccb1-112">Bereitstellen der lync Windows Store-App in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ccb1-112">Deploying Lync Windows Store app in Lync Server 2013</span></span>](lync-server-2013-deploying-lync-windows-store-app.md)
+
+ </div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

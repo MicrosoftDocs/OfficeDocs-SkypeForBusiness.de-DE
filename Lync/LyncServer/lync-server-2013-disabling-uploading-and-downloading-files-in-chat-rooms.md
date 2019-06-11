@@ -1,25 +1,55 @@
-﻿---
-title: 'Lync Server 2013: Deaktivieren des Hochladens und Herunterladens von Dateien in Chatrooms'
-TOCTitle: Deaktivieren des Hochladens und Herunterladens von Dateien in Chatrooms
-ms:assetid: c4faffb0-ae6a-47df-ae95-403c7101280f
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ215882(v=OCS.15)
-ms:contentKeyID: 49295340
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Deaktivieren des Hochladens und Herunterladens von Dateien in Chatrooms'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Disabling uploading and downloading files in chat rooms
+ms:assetid: c4faffb0-ae6a-47df-ae95-403c7101280f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215882(v=OCS.15)
+ms:contentKeyID: 48706010
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 71990efd54f9127384e50a710147f3f74c374b1f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832382"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Deaktivieren des Hochladens und Herunterladens von Dateien in Chatrooms in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+# <a name="disabling-uploading-and-downloading-files-in-chat-rooms-in-lync-server-2013"></a><span data-ttu-id="5af90-102">Deaktivieren des Hochladens und Herunterladens von Dateien in Chatrooms in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5af90-102">Disabling uploading and downloading files in chat rooms in Lync Server 2013</span></span>
 
-Standardmäßig können Benutzer in den Nachrichten, die sie bereitstellen, Dateien hochladen und herunterladen. Sie haben zwei Möglichkeiten, diese Funktion zu deaktivieren und zu verhindern, dass Benutzer Dateien hochladen und herunterladen:
+</div>
 
-  - Allen Benutzern das Hochladen und Herunterladen von Dateien in einem bestimmten Beständiger Chatroom oder einer bestimmten Chatroomkategorie verwehren.
+<div id="mainSection">
 
-  - Einem bestimmten Benutzer das Hochladen und Herunterladen von Dateien in jedem Chatroom verwehren. Der Benutzer kann dann in keinem Chatroom Dateien hochladen und herunterladen, auch nicht in Chatrooms, in denen das Hochladen und Herunterladen von Dateien zulässig ist.
+<div id="mainBody">
 
-Ausführliche Informationen, wie Sie das Hochladen und Herunterladen von Dateien aktivieren und deaktivieren, finden Sie unter [Konfigurieren von Kategorien in Lync Server 2013](lync-server-2013-configure-categories.md) und [Verwalten von Kategorien](manage-categories.md) in der Bereitstellungsdokumentation.
+<span> </span>
+
+<span data-ttu-id="5af90-103">_**Letztes Änderungsdatum des Themas:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="5af90-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+
+<span data-ttu-id="5af90-104">Standardmäßig können Benutzer Dateien in die von Ihnen bereitgestellen Nachrichten hochladen und herunterladen.</span><span class="sxs-lookup"><span data-stu-id="5af90-104">By default, users can upload and download files in the messages that they post.</span></span> <span data-ttu-id="5af90-105">Sie können diese Funktion deaktivieren und verhindern, dass Benutzer Dateien auf zwei Arten hochladen und herunterladen:</span><span class="sxs-lookup"><span data-stu-id="5af90-105">You can disable this functionality and prevent users from uploading and downloading files in two ways:</span></span>
+
+  - <span data-ttu-id="5af90-106">Verhindern, dass alle Benutzer Dateien in einem bestimmten beständigen Chatroom oder in einer Chatroom-Kategorie hochladen und herunterladen.</span><span class="sxs-lookup"><span data-stu-id="5af90-106">Prevent all users from uploading and downloading files in a certain Persistent Chat room or chat room category.</span></span>
+
+  - <span data-ttu-id="5af90-107">Verhindern, dass ein bestimmter Benutzer Dateien in einen Chatroom hoch-und herunterlädt.</span><span class="sxs-lookup"><span data-stu-id="5af90-107">Prevent a certain user from uploading and downloading files in any chat room.</span></span> <span data-ttu-id="5af90-108">Der Benutzer kann keine Dateien in einen Chatroom hochladen und herunterladen, einschließlich Chatrooms, die das Hochladen und Herunterladen von Dateien ermöglichen.</span><span class="sxs-lookup"><span data-stu-id="5af90-108">The user cannot upload and download files in any chat room, including chat rooms that allow file uploading and downloading.</span></span>
+
+<span data-ttu-id="5af90-109">Details zum Aktivieren und Deaktivieren des Uploads und Downloads von Dateien finden Sie unter [Konfigurieren von Kategorien in lync Server 2013](lync-server-2013-configure-categories.md) und [Verwalten von Kategorien](manage-categories.md) in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="5af90-109">For details about enabling and disabling file uploading and downloading, see [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) and [Manage categories](manage-categories.md) in the Deployment documentation.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

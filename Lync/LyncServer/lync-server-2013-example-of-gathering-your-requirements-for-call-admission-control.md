@@ -1,103 +1,90 @@
-﻿---
-title: 'Lync Server 2013: Beispiel: Zusammenstellen der Anforderungen Ihrer Organisation für die Anrufsteuerung'
-TOCTitle: 'Beispiel: Zusammenstellen der Anforderungen Ihrer Organisation für die Anrufsteuerung'
-ms:assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425827(v=OCS.15)
-ms:contentKeyID: 49293618
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Beispiel für die Erfassung Ihrer Anforderungen für die Anrufsteuerung
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Example of gathering your requirements for call admission control
+ms:assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425827(v=OCS.15)
+ms:contentKeyID: 48183820
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e17d9abb0387f0d77c696487558dec0c915b1651
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832218"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Beispiel: Zusammenstellen der Anforderungen Ihrer Organisation für die Anrufsteuerung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="example-gathering-your-requirements-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="ebbd6-102">Beispiel: Erfassen Ihrer Anforderungen für die Anrufsteuerung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ebbd6-102">Example: Gathering your requirements for call admission control in Lync Server 2013</span></span>
 
-Dieses Beispiel führt Sie Schritt für Schritt durch die Planung und Implementierung der Anrufsteuerungsdiensts (Call Admission Control, CAC). Bei diesem Verfahren werden die folgenden allgemeinen Aufgaben ausgeführt:
+</div>
 
-1.  Identifizieren aller Netzwerkhubs und Backbones (als *Netzwerkregionen* bezeichnet).
+<div id="mainSection">
 
-2.  Identifizieren des zentralen Lync Server-Standorts, der die Anrufsteuerung für jede Netzwerkregion verwaltet.
+<div id="mainBody">
 
-3.  Identifizieren und Definieren der *Netzwerkstandorte* , die mit jeder Netzwerkregion verbunden sind.
+<span> </span>
 
-4.  Für jeden Netzwerkstandort mit eingeschränkter WAN-Bandbreite: Beschreiben der Bandbreitenkapazität der WAN-Verbindung und der Bandbreiteneinschränkungen, die der Netzwerkadministrator für den Lync Server-Mediendatenverkehr festgelegt hat (sofern anwendbar). Standorte mit WAN-Verbindungen ohne Bandbreiteneinschränkung müssen nicht einbezogen werden.
+<span data-ttu-id="ebbd6-103">_**Letztes Änderungsdatum des Themas:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="ebbd6-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-5.  Zuordnen der einzelnen Subnetze in Ihrem Netzwerk zu einem Netzwerkstandort.
+<span data-ttu-id="ebbd6-p101">Dieses Beispiel führt Sie Schritt für Schritt durch die Planung und Implementierung des Anrufsteuerungsdiensts (Call Admission Control, CAC). Bei diesem Verfahren werden die folgenden allgemeinen Aufgaben ausgeführt:</span><span class="sxs-lookup"><span data-stu-id="ebbd6-p101">This example shows you how to plan for and implement call admission control (CAC). At a high level, this consists of the following activities:</span></span>
 
-6.  Zuordnen der Verbindungen zwischen den Netzwerkregionen. Beschreiben Sie für jede Verbindung die Bandbreitenkapazität und Einschränkungen, die der Netzwerkadministrator für den Lync Server-Mediendatenverkehr definiert hat.
+1.  <span data-ttu-id="ebbd6-106">Identifizieren aller Netzwerkhubs und Backbones (als *Netzwerkregionen* bezeichnet).</span><span class="sxs-lookup"><span data-stu-id="ebbd6-106">Identify all of your network hubs and backbones (known as *network regions*).</span></span>
 
-7.  Definieren einer Route zwischen jedem Netzwerkregionenpaar.
+2.  <span data-ttu-id="ebbd6-107">Ermitteln Sie die lync Server Central-Website, die die CAC für jede netzwerkregion verwaltet.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-107">Identify the Lync Server central site that will manage CAC for each network region.</span></span>
 
-## Sammeln der erforderlichen Informationen
+3.  <span data-ttu-id="ebbd6-108">Identifizieren und Definieren der *Netzwerkstandorte*, die mit jeder Netzwerkregion verbunden sind.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-108">Identify and define the *network sites* that are connected to each network region.</span></span>
 
-Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten beschriebenen Informationen sammeln:
+4.  <span data-ttu-id="ebbd6-109">Beschreiben Sie für jede Netzwerk Website, deren Verbindung mit dem WAN von der Bandbreite abhängig ist, die Bandbreitenkapazität der WAN-Verbindung und die Bandbreitenbeschränkungen, die der Netzwerkadministrator für den lync Server-Mediendatenverkehr festgelegt hat (falls zutreffend).</span><span class="sxs-lookup"><span data-stu-id="ebbd6-109">For each network site whose connection to the WAN is bandwidth-constrained, describe the bandwidth capacity of the WAN connection and the bandwidth limits that to the network administrator has set for Lync Server media traffic, if applicable.</span></span> <span data-ttu-id="ebbd6-110">Standorte mit WAN-Verbindungen ohne Bandbreiteneinschränkung müssen nicht einbezogen werden.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-110">You do not need to include sites whose connection to the WAN is not bandwidth-constrained.</span></span>
 
-1.  Identifizieren Sie Ihre Netzwerkregionen. Eine Netzwerkregion repräsentiert einen Netzwerkbackbone oder einen Netzwerkhub.
+5.  <span data-ttu-id="ebbd6-111">Zuordnen der einzelnen Subnetze in Ihrem Netzwerk zu einem Netzwerkstandort.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-111">Associate each subnet in your network with a network site.</span></span>
+
+6.  <span data-ttu-id="ebbd6-112">Zuordnen der Verbindungen zwischen den Netzwerkregionen.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-112">Map the links between the network regions.</span></span> <span data-ttu-id="ebbd6-113">Beschreiben Sie für jeden Link die Bandbreitenkapazität sowie alle Einschränkungen, die der Netzwerkadministrator für den Mediendatenverkehr in lync Server festgelegt hat.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-113">For each link, describe its bandwidth capacity and any limits that the network administrator has placed on Lync Server media traffic.</span></span>
+
+7.  <span data-ttu-id="ebbd6-114">Definieren einer Route zwischen jedem Netzwerkregionenpaar.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-114">Define a route between every pair of network regions.</span></span>
+
+<div>
+
+## <a name="gather-the-required-information"></a><span data-ttu-id="ebbd6-115">Sammeln der erforderlichen Informationen</span><span class="sxs-lookup"><span data-stu-id="ebbd6-115">Gather the Required Information</span></span>
+
+<span data-ttu-id="ebbd6-116">Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten beschriebenen Informationen sammeln:</span><span class="sxs-lookup"><span data-stu-id="ebbd6-116">To prepare for call admission control, gather the information described in the following steps:</span></span>
+
+1.  <span data-ttu-id="ebbd6-p104">Identifizieren Sie Ihre Netzwerkregionen. Eine Netzwerkregion repräsentiert einen Netzwerkbackbone oder einen Netzwerkhub.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-p104">Identify your network regions. A network region represents a network backbone or a network hub.</span></span>
     
-    Ein Netzwerkbackbone oder ein Netzwerkhub ist Bestandteil der Computernetzwerkinfrastruktur, die verschiedene Komponenten im Netzwerk verbindet und einen Pfad für den Austausch von Informationen zwischen unterschiedlichen LANs oder Subnetzen bereitstellt. Ein Backbone kann unterschiedliche Netzwerke miteinander verknüpfen, von kleinen Standorten bis hin zu einem geografisch weit verteilten Bereich. Die Kapazität des Backbones ist in der Regel höher als die der Netzwerke, die mit ihm verbunden sind.
+    <span data-ttu-id="ebbd6-p105">Ein Netzwerkbackbone oder ein Netzwerkhub ist Bestandteil der Computernetzwerkinfrastruktur, die verschiedene Komponenten im Netzwerk verbindet und einen Pfad für den Austausch von Informationen zwischen unterschiedlichen LANs oder Subnetzen bereitstellt. Ein Backbone kann unterschiedliche Netzwerke miteinander verknüpfen, von kleinen Standorten bis hin zu einem geografisch weit verteilten Bereich. Die Kapazität des Backbones ist in der Regel höher als die der Netzwerke, die mit ihm verbunden sind.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-p105">A network backbone or a network hub is a part of computer network infrastructure that interconnects various pieces of network, providing a path for the exchange of information between different LANs or subnets. A backbone can tie together diverse networks, from a small location to a wide geographic area. The backbone's capacity is typically greater than that of the networks connected to it.</span></span>
     
-    Die hier vorgestellte Beispieltopologie umfasst drei Netzwerkregionen: Nordamerika, EMEA und APAC. Eine Netzwerkregion enthält verschiedene Netzwerkstandorte. Arbeiten Sie mit Ihrem Netzwerkadministrator zusammen, um die Netzwerkregionen für Ihr Unternehmen zu definieren.
+    <span data-ttu-id="ebbd6-p106">Die hier vorgestellte Beispieltopologie umfasst drei Netzwerkregionen: Nordamerika, EMEA und APAC. Eine Netzwerkregion enthält verschiedene Netzwerkstandorte. Arbeiten Sie mit Ihrem Netzwerkadministrator zusammen, um die Netzwerkregionen für Ihr Unternehmen zu definieren.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-p106">Our example topology has three network regions: North America, EMEA, and APAC. A network region contains a collection of network sites. Work with your network administrator to define the network regions for your enterprise.</span></span>
 
-2.  Identifizieren Sie den zentralen Standort, dem jede Netzwerkregion zugeordnet ist. Ein zentraler Standort umfasst mindestens einen Front-End-Server und die Lync Server-Bereitstellung, mit der die Anrufsteuerung für den gesamten Mediendatenverkehr verwaltet wird, der über die WAN-Verbindung der Netzwerkregion geleitet wird.
+2.  <span data-ttu-id="ebbd6-125">Identifizieren Sie den zentralen Standort, dem jede Netzwerkregion zugeordnet ist.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-125">Identify each network region’s associated central site.</span></span> <span data-ttu-id="ebbd6-126">Eine zentrale Website enthält mindestens einen Front-End-Server und ist die lync Server-Bereitstellung, die CAC für den gesamten Mediendatenverkehr verwaltet, der die WAN-Verbindung des Netzwerkbereichs durchläuft.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-126">A central site contains at least one Front End Server and is the Lync Server deployment that will manage CAC for all media traffic that passes through the network region’s WAN connection.</span></span>
     
-    **Beispielunternehmensnetzwerk mit drei Netzwerkregionen**
+    <span data-ttu-id="ebbd6-127">**Beispielunternehmensnetzwerk mit drei Netzwerkregionen**</span><span class="sxs-lookup"><span data-stu-id="ebbd6-127">**An example enterprise network divided into three network regions**</span></span>
     
-    ![Netzwerktopologiebeispiel mit drei Netzwerkregionen](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Netzwerktopologiebeispiel mit drei Netzwerkregionen")  
+    <span data-ttu-id="ebbd6-128">![Beispiel für eine Netzwerktopologie mit 3 netzwerkregionen] (images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Beispiel für eine Netzwerktopologie mit 3 netzwerkregionen")</span><span class="sxs-lookup"><span data-stu-id="ebbd6-128">![Network Topology Example with 3 Network Regions](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Network Topology Example with 3 Network Regions")</span></span>  
     
-
-    > [!NOTE]
-    > Ein MPLS-Netzwerk (Multiprotocol Label Switching) sollte als Netzwerkregion abgebildet werden, bei der jeder geografische Standort über einen entsprechenden Netzwerkstandort verfügt. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-call-admission-control-on-an-mpls-network.md">Anrufsteuerung in einem MPLS-Netzwerk mit Lync Server 2013</A> in der Planungsdokumentation.
-
-    
-    In der oben gezeigten beispielhaften Netzwerktopologie sind drei Netzwerkregionen aufgeführt, jede mit einem zentralen Lync Server-Standort zur Verwaltung der Anrufsteuerung. Der geeignete zentrale Standort für eine Netzwerkregion wird nach geografischer Nähe ausgewählt. Da innerhalb der Netzwerkregionen das Aufkommen an Mediendatenverkehr am höchsten ist, führt die Festlegung nach geografischer Nähe zu einer eigenständigen Konfiguration, die auch dann noch funktionsfähig ist, wenn andere zentrale Standorte ausfallen.
-    
-    Im hier verwendeten Beispiel fungiert die Lync Server-Bereitstellung "Chicago" als zentraler Standort für die Region "Nordamerika".
-    
-    Alle Lync-Benutzer in der Region "Nordamerika" werden auf Servern in der Bereitstellung "Chicago" verwaltet. Die folgende Tabelle zeigt die zentralen Standorte für alle drei Netzwerkregionen.
-    
-    ### Netzwerkregionen und zugeordnete zentrale Standorte
-    
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Netzwerkregion</th>
-    <th>Zentraler Standort</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><p>Nordamerika</p></td>
-    <td><p>Chicago</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>EMEA</p></td>
-    <td><p>London</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>APAC</p></td>
-    <td><p>Peking</p></td>
-    </tr>
-    </tbody>
-    </table>
+    <div>
     
 
     > [!NOTE]
-    > In Abhängigkeit von Ihrer Lync Server-Topologie kann derselbe zentrale Standort mehreren Netzwerkregionen zugeordnet werden.
+    > <span data-ttu-id="ebbd6-129">Ein MPLS-Netzwerk (Multiprotocol Label Switching) sollte als Netzwerkregion abgebildet werden, bei der jeder geografische Standort über einen entsprechenden Netzwerkstandort verfügt.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-129">A Multiprotocol Label Switching (MPLS) network should be represented as a network region in which each geographic location has a corresponding network site.</span></span> <span data-ttu-id="ebbd6-130">Ausführliche Informationen finden Sie in der Planungsdokumentation unter dem Thema "<A href="lync-server-2013-call-admission-control-on-an-mpls-network.md">Anrufsteuerung in einem MPLS-Netzwerk mit lync Server 2013</A>".</span><span class="sxs-lookup"><span data-stu-id="ebbd6-130">For details, see the “<A href="lync-server-2013-call-admission-control-on-an-mpls-network.md">Call admission control on an MPLS network with Lync Server 2013</A>” topic in the Planning documentation.</span></span>
 
-
-
-3.  Identifizieren Sie für jede Netzwerkregion alle Netzwerkstandorte (Büros oder Zweigstellen), für deren WAN-Verbindungen keine Bandbreiteneinschränkungen gelten. Da diese Standorte keine Bandbreiteneinschränkungen aufweisen, müssen keine Richtlinien für die Anrufsteuerung auf sie angewendet werden.
     
-    Im Beispiel in der folgenden Tabelle gibt es drei Netzwerkstandorte, deren WAN-Verbindungen keine Bandbreiteneinschränkungen aufweisen: "New York", "Chicago" und "Detroit".
+    </div>
     
-    ### Netzwerkstandorte ohne Einschränkungen in Bezug auf die WAN-Bandbreite
+    <span data-ttu-id="ebbd6-131">In der vorhergehenden Beispiel-Netzwerktopologie gibt es drei netzwerkregionen, die jeweils einen zentralen lync Server-Standort aufweisen, der CAC verwaltet.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-131">In the preceding example network topology, there are three network regions, each with a Lync Server central site that manages CAC.</span></span> <span data-ttu-id="ebbd6-132">Der geeignete zentrale Standort für eine Netzwerkregion wird nach geografischer Nähe ausgewählt.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-132">The appropriate central site for a network region is chosen by the geographic vicinity.</span></span> <span data-ttu-id="ebbd6-133">Da innerhalb der Netzwerkregionen das Aufkommen an Mediendatenverkehr am höchsten ist, führt die Festlegung nach geografischer Nähe zu einer eigenständigen Konfiguration, die auch dann noch funktionsfähig ist, wenn andere zentrale Standorte ausfallen.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-133">Because media traffic will be heaviest within network regions, the ownership by geographic vicinity makes it self-contained and will continue to be functional even if other central sites become unavailable.</span></span>
+    
+    <span data-ttu-id="ebbd6-134">In diesem Beispiel ist eine lync Server-Bereitstellung mit dem Namen Chicago der zentrale Standort für die Region Nordamerika.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-134">In this example, a Lync Server deployment named Chicago is the central site for the North America region.</span></span>
+    
+    <span data-ttu-id="ebbd6-135">Alle lync-Benutzer in Nordamerika sind in der Chicago-Bereitstellung auf Servern verwaltet.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-135">All Lync users in North America are homed on servers in the Chicago deployment.</span></span> <span data-ttu-id="ebbd6-136">Die folgende Tabelle zeigt die zentralen Standorte für alle drei Netzwerkregionen.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-136">The following table shows central sites for all three network regions.</span></span>
+    
+    ### <a name="network-regions-and-their-associated-central-sites"></a><span data-ttu-id="ebbd6-137">Netzwerkregionen und zugeordnete zentrale Standorte</span><span class="sxs-lookup"><span data-stu-id="ebbd6-137">Network Regions and their Associated Central Sites</span></span>
     
     <table>
     <colgroup>
@@ -106,34 +93,40 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Netzwerkstandort</th>
-    <th>Netzwerkregion</th>
+    <th><span data-ttu-id="ebbd6-138">Netzwerkregion</span><span class="sxs-lookup"><span data-stu-id="ebbd6-138">Network Region</span></span></th>
+    <th><span data-ttu-id="ebbd6-139">Zentraler Standort</span><span class="sxs-lookup"><span data-stu-id="ebbd6-139">Central Site</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>New York</p></td>
-    <td><p>Nordamerika</p></td>
+    <td><p><span data-ttu-id="ebbd6-140">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-140">North America</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-141">Chicago</span><span class="sxs-lookup"><span data-stu-id="ebbd6-141">Chicago</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p>Chicago</p></td>
-    <td><p>Nordamerika</p></td>
+    <td><p><span data-ttu-id="ebbd6-142">EMEA</span><span class="sxs-lookup"><span data-stu-id="ebbd6-142">EMEA</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-143">London</span><span class="sxs-lookup"><span data-stu-id="ebbd6-143">London</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p>Detroit</p></td>
-    <td><p>Nordamerika</p></td>
+    <td><p><span data-ttu-id="ebbd6-144">APAC</span><span class="sxs-lookup"><span data-stu-id="ebbd6-144">APAC</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-145">Peking</span><span class="sxs-lookup"><span data-stu-id="ebbd6-145">Beijing</span></span></p></td>
     </tr>
     </tbody>
     </table>
+    
+    <div>
+    
 
+    > [!NOTE]
+    > <span data-ttu-id="ebbd6-146">Je nach lync Server-Topologie kann derselbe zentrale Standort mehreren netzwerkregionen zugewiesen werden.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-146">Depending on your Lync Server topology, the same central site can be assigned to multiple network regions.</span></span>
 
-4.  Identifizieren Sie für jede Netzwerkregion alle Netzwerkstandorte, die über WAN-Verbindungen mit Bandbreiteneinschränkungen eine Verbindung mit der Netzwerkregion herstellen.
     
-    Um die Audio- und Videoqualität besser sicherstellen zu können, wird für diese Netzwerkstandorte mit Bandbreiteneinschränkungen empfohlen, die WAN-Verbindungen zu überwachen und Richtlinien für die Anrufsteuerung anzuwenden, um den Mediendatenverkehr (Sprache oder Video) von und zu der Netzwerkregion zu beschränken.
+    </div>
+
+3.  <span data-ttu-id="ebbd6-p111">Identifizieren Sie für jede Netzwerkregion alle Netzwerkstandorte (Büros oder Zweigstellen), für deren WAN-Verbindungen keine Bandbreiteneinschränkungen gelten. Da diese Standorte keine Bandbreiteneinschränkungen aufweisen, müssen keine Richtlinien für die Anrufsteuerung auf sie angewendet werden.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-p111">For each network region, identify all of the network sites (offices or locations) whose WAN connections are not bandwidth-constrained. Because these sites are not bandwidth constrained, you do not need to apply CAC bandwidth policies to them.</span></span>
     
-    Im Beispiel in der folgenden Tabelle sind drei Netzwerkstandorte vorhanden, deren WAN-Bandbreite eingeschränkt ist: "Portland", "Reno" und "Albuquerque".
+    <span data-ttu-id="ebbd6-149">Im Beispiel in der folgenden Tabelle gibt es drei Netzwerkstandorte, deren WAN-Verbindungen keine Bandbreiteneinschränkungen aufweisen: „New York“, „Chicago“ und „Detroit“.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-149">In the example shown in the following table, three network sites do not have bandwidth-constrained WAN links: New York, Chicago, and Detroit.</span></span>
     
-    ### Netzwerkstandorte mit Einschränkungen in Bezug auf die WAN-Bandbreite
+    ### <a name="network-sites-not-constrained-by-wan-bandwidth"></a><span data-ttu-id="ebbd6-150">Netzwerkstandorte ohne Einschränkungen in Bezug auf die WAN-Bandbreite</span><span class="sxs-lookup"><span data-stu-id="ebbd6-150">Network Sites not Constrained by WAN Bandwidth</span></span>
     
     <table>
     <colgroup>
@@ -142,41 +135,77 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Netzwerkstandort</th>
-    <th>Netzwerkregion</th>
+    <th><span data-ttu-id="ebbd6-151">Netzwerkstandort</span><span class="sxs-lookup"><span data-stu-id="ebbd6-151">Network Site</span></span></th>
+    <th><span data-ttu-id="ebbd6-152">Netzwerkregion</span><span class="sxs-lookup"><span data-stu-id="ebbd6-152">Network Region</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>Albuquerque</p></td>
-    <td><p>Nordamerika</p></td>
+    <td><p><span data-ttu-id="ebbd6-153">New York</span><span class="sxs-lookup"><span data-stu-id="ebbd6-153">New York</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-154">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-154">North America</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p>Reno</p></td>
-    <td><p>Nordamerika</p></td>
+    <td><p><span data-ttu-id="ebbd6-155">Chicago</span><span class="sxs-lookup"><span data-stu-id="ebbd6-155">Chicago</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-156">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-156">North America</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p>Portland</p></td>
-    <td><p>Nordamerika</p></td>
+    <td><p><span data-ttu-id="ebbd6-157">Detroit</span><span class="sxs-lookup"><span data-stu-id="ebbd6-157">Detroit</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-158">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-158">North America</span></span></p></td>
+    </tr>
+    </tbody>
+    </table>
+
+
+4.  <span data-ttu-id="ebbd6-159">Identifizieren Sie für jede Netzwerkregion alle Netzwerkstandorte, die über WAN-Verbindungen mit Bandbreiteneinschränkungen eine Verbindung mit der Netzwerkregion herstellen.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-159">For each network region, identify all of the network sites that connect to the network region through bandwidth-constrained WAN links.</span></span>
+    
+    <span data-ttu-id="ebbd6-160">Um die Audio- und Videoqualität besser sicherstellen zu können, wird für diese Netzwerkstandorte mit Bandbreiteneinschränkungen empfohlen, die WAN-Verbindungen zu überwachen und Richtlinien für die Anrufsteuerung anzuwenden, um den Mediendatenverkehr (Sprache oder Video) von und zu der Netzwerkregion zu beschränken.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-160">To help ensure audio and video quality, we recommend that these bandwidth-constrained network sites have their WANs monitored and CAC bandwidth policies that limit media (voice or video) traffic flow to and from the network region.</span></span>
+    
+    <span data-ttu-id="ebbd6-161">Im Beispiel in der folgenden Tabelle sind drei Netzwerkstandorte vorhanden, deren WAN-Bandbreite eingeschränkt ist: „Portland“, „Reno“ und „Albuquerque“.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-161">In the example shown in the following table, there are three network sites that are constrained by WAN bandwidth: Portland, Reno and Albuquerque.</span></span>
+    
+    ### <a name="network-sites-constrained-by-wan-bandwidth"></a><span data-ttu-id="ebbd6-162">Netzwerkstandorte mit Einschränkungen in Bezug auf die WAN-Bandbreite</span><span class="sxs-lookup"><span data-stu-id="ebbd6-162">Network Sites Constrained by WAN Bandwidth</span></span>
+    
+    <table>
+    <colgroup>
+    <col style="width: 50%" />
+    <col style="width: 50%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><span data-ttu-id="ebbd6-163">Netzwerkstandort</span><span class="sxs-lookup"><span data-stu-id="ebbd6-163">Network Site</span></span></th>
+    <th><span data-ttu-id="ebbd6-164">Netzwerkregion</span><span class="sxs-lookup"><span data-stu-id="ebbd6-164">Network Region</span></span></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p><span data-ttu-id="ebbd6-165">Albuquerque</span><span class="sxs-lookup"><span data-stu-id="ebbd6-165">Albuquerque</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-166">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-166">North America</span></span></p></td>
+    </tr>
+    <tr class="even">
+    <td><p><span data-ttu-id="ebbd6-167">Reno</span><span class="sxs-lookup"><span data-stu-id="ebbd6-167">Reno</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-168">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-168">North America</span></span></p></td>
+    </tr>
+    <tr class="odd">
+    <td><p><span data-ttu-id="ebbd6-169">Portland</span><span class="sxs-lookup"><span data-stu-id="ebbd6-169">Portland</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-170">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-170">North America</span></span></p></td>
     </tr>
     </tbody>
     </table>
     
-    **Anrufsteuerung in der Netzwerkregion "Nordamerika" mit drei Netzwerkstandorten, die keine Bandbreiteneinschränkung aufweisen (Chicago, New York und Detroit), und drei Netzwerkstandorten mit eingeschränkter WAN-Bandbreite (Portland, Reno und Albuquerque)**
+    <span data-ttu-id="ebbd6-171">**Anrufsteuerung in der Netzwerkregion „Nordamerika“ mit drei Netzwerkstandorten, die keine Bandbreiteneinschränkung aufweisen (Chicago, New York und Detroit), und drei Netzwerkstandorten mit eingeschränkter WAN-Bandbreite (Portland, Reno und Albuquerque)**</span><span class="sxs-lookup"><span data-stu-id="ebbd6-171">**CAC network region North America with three network sites that are unconstrained by bandwidth (Chicago, New York, and Detroit) and three network sites that are constrained by WAN bandwidth (Portland, Reno, and Albuquerque)**</span></span>
     
-    ![Beispiel: Netzwerkstandorte mit Einschränkungen in Bezug auf die WAN-Bandbreite](images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "Beispiel: Netzwerkstandorte mit Einschränkungen in Bezug auf die WAN-Bandbreite")  
+    <span data-ttu-id="ebbd6-172">![Beispiel für Netzwerk Websites, die durch WAN-Bandbreite beschränkt] sind (images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "Beispiel für Netzwerk Websites, die durch WAN-Bandbreite beschränkt") sind</span><span class="sxs-lookup"><span data-stu-id="ebbd6-172">![Example network sites constrained by WAN bandwidth](images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "Example network sites constrained by WAN bandwidth")</span></span>  
 
-5.  Ermitteln Sie für jede WAN-Verbindung mit eingeschränkter Bandbreite die folgenden Informationen:
+5.  <span data-ttu-id="ebbd6-173">Ermitteln Sie für jede WAN-Verbindung mit eingeschränkter Bandbreite die folgenden Informationen:</span><span class="sxs-lookup"><span data-stu-id="ebbd6-173">For each bandwidth-constrained WAN link, determine the following:</span></span>
     
-      - Bandbreiteneinschränkung gesamt, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten. Wenn eine neue Audiositzung zu einer Überschreitung dieses Grenzwerts führen würde, lässt Lync Server den Start dieser Sitzung nicht zu.
+      - <span data-ttu-id="ebbd6-174">Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-174">Overall bandwidth limit that you want to set for all concurrent audio sessions.</span></span> <span data-ttu-id="ebbd6-175">Wenn diese Grenze durch eine neue Audiositzung überschritten wird, lässt Lync Server den Start der Sitzung nicht zu.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-175">If a new audio session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
     
-      - Bandbreiteneinschränkung, die Sie für jede einzelne Audiositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 175 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
+      - <span data-ttu-id="ebbd6-p113">Die Bandbreiteneinschränkung, die Sie für jede einzelne Audiositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 175 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-p113">Bandwidth limit that you want to set for each individual audio session. The default CAC bandwidth limit is 175 kbps, but it can be modified by the administrator.</span></span>
     
-      - Bandbreiteneinschränkung gesamt, die Sie für alle gleichzeitigen Videositzungen festlegen möchten. Wenn eine neue Videositzung zu einer Überschreitung dieses Grenzwerts führen würde, lässt Lync Server den Start dieser Sitzung nicht zu.
+      - <span data-ttu-id="ebbd6-178">Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Videositzungen festlegen möchten.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-178">Overall bandwidth limit that you want to set for all concurrent video sessions.</span></span> <span data-ttu-id="ebbd6-179">Wenn diese Grenze durch eine neue Videositzung überschritten wird, lässt Lync Server den Start der Sitzung nicht zu.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-179">If a new video session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
     
-      - Bandbreiteneinschränkung, die Sie für jede einzelne Videositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 700 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
+      - <span data-ttu-id="ebbd6-p115">Die Bandbreiteneinschränkung, die Sie für jede einzelne Videositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 700 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-p115">Bandwidth limit that you want to set for each individual video session. The default CAC bandwidth limit is 700 kbps, but it can be modified by the administrator.</span></span>
     
-    ### Netzwerkstandorte mit Informationen zur WAN-Bandbreiteneinschränkung (Bandbreite in KBit/s)
+    ### <a name="network-sites-with-wan-bandwidth-constraint-information-bandwidth-in-kbps"></a><span data-ttu-id="ebbd6-182">Netzwerkstandorte mit Informationen zur WAN-Bandbreiteneinschränkung (Bandbreite in KBit/s)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-182">Network Sites with WAN Bandwidth Constraint Information (Bandwidth in kbps)</span></span>
     
     <table style="width:100%;">
     <colgroup>
@@ -190,92 +219,100 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Netzwerkstandort</th>
-    <th>Netzwerkregion</th>
-    <th>Grenzwert für Bandbreite</th>
-    <th>Grenzwert für Audio</th>
-    <th>Grenzwert für Audiositzung</th>
-    <th>Grenzwert für Video</th>
-    <th>Grenzwert für Videositzung</th>
+    <th><span data-ttu-id="ebbd6-183">Netzwerkstandort</span><span class="sxs-lookup"><span data-stu-id="ebbd6-183">Network Site</span></span></th>
+    <th><span data-ttu-id="ebbd6-184">Netzwerkregion</span><span class="sxs-lookup"><span data-stu-id="ebbd6-184">Network Region</span></span></th>
+    <th><span data-ttu-id="ebbd6-185">Grenzwert für Bandbreite</span><span class="sxs-lookup"><span data-stu-id="ebbd6-185">BW Limit</span></span></th>
+    <th><span data-ttu-id="ebbd6-186">Grenzwert für Audio</span><span class="sxs-lookup"><span data-stu-id="ebbd6-186">Audio Limit</span></span></th>
+    <th><span data-ttu-id="ebbd6-187">Grenzwert für Audiositzung</span><span class="sxs-lookup"><span data-stu-id="ebbd6-187">Audio Session Limit</span></span></th>
+    <th><span data-ttu-id="ebbd6-188">Grenzwert für Video</span><span class="sxs-lookup"><span data-stu-id="ebbd6-188">Video Limit</span></span></th>
+    <th><span data-ttu-id="ebbd6-189">Grenzwert für Videositzung</span><span class="sxs-lookup"><span data-stu-id="ebbd6-189">Video Session Limit</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>Albuquerque</p></td>
-    <td><p>Nordamerika</p></td>
-    <td><p>5.000</p></td>
-    <td><p>2.000</p></td>
-    <td><p>175</p></td>
-    <td><p>1.400</p></td>
-    <td><p>700</p></td>
+    <td><p><span data-ttu-id="ebbd6-190">Albuquerque</span><span class="sxs-lookup"><span data-stu-id="ebbd6-190">Albuquerque</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-191">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-191">North America</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-192">5.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-192">5,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-193">2.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-193">2,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-194">175</span><span class="sxs-lookup"><span data-stu-id="ebbd6-194">175</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-195">1.400</span><span class="sxs-lookup"><span data-stu-id="ebbd6-195">1,400</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-196">700</span><span class="sxs-lookup"><span data-stu-id="ebbd6-196">700</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p>Reno</p></td>
-    <td><p>Nordamerika</p></td>
-    <td><p>10.000</p></td>
-    <td><p>4.000</p></td>
-    <td><p>175</p></td>
-    <td><p>2.800</p></td>
-    <td><p>700</p></td>
+    <td><p><span data-ttu-id="ebbd6-197">Reno</span><span class="sxs-lookup"><span data-stu-id="ebbd6-197">Reno</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-198">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-198">North America</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-199">10.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-199">10,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-200">4.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-200">4,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-201">175</span><span class="sxs-lookup"><span data-stu-id="ebbd6-201">175</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-202">2.800</span><span class="sxs-lookup"><span data-stu-id="ebbd6-202">2,800</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-203">700</span><span class="sxs-lookup"><span data-stu-id="ebbd6-203">700</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p>Portland</p></td>
-    <td><p>Nordamerika</p></td>
-    <td><p>5.000</p></td>
-    <td><p>4.000</p></td>
-    <td><p>175</p></td>
-    <td><p>2.800</p></td>
-    <td><p>700</p></td>
+    <td><p><span data-ttu-id="ebbd6-204">Portland</span><span class="sxs-lookup"><span data-stu-id="ebbd6-204">Portland</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-205">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-205">North America</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-206">5.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-206">5,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-207">4.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-207">4,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-208">175</span><span class="sxs-lookup"><span data-stu-id="ebbd6-208">175</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-209">2.800</span><span class="sxs-lookup"><span data-stu-id="ebbd6-209">2,800</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-210">700</span><span class="sxs-lookup"><span data-stu-id="ebbd6-210">700</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p>New York</p></td>
-    <td><p>Nordamerika</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
+    <td><p><span data-ttu-id="ebbd6-211">New York</span><span class="sxs-lookup"><span data-stu-id="ebbd6-211">New York</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-212">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-212">North America</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-213">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-213">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-214">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-214">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-215">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-215">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-216">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-216">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-217">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-217">(no limit)</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p>Chicago</p></td>
-    <td><p>Nordamerika</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
+    <td><p><span data-ttu-id="ebbd6-218">Chicago</span><span class="sxs-lookup"><span data-stu-id="ebbd6-218">Chicago</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-219">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-219">North America</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-220">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-220">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-221">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-221">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-222">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-222">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-223">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-223">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-224">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-224">(no limit)</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p>Detroit</p></td>
-    <td><p>Nordamerika</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
+    <td><p><span data-ttu-id="ebbd6-225">Detroit</span><span class="sxs-lookup"><span data-stu-id="ebbd6-225">Detroit</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-226">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-226">North America</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-227">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-227">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-228">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-228">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-229">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-229">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-230">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-230">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-231">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-231">(no limit)</span></span></p></td>
     </tr>
     </tbody>
     </table>
 
 
-6.  Geben Sie für jedes Subnetz in Ihrem Netzwerk den zugeordneten Netzwerkstandort an.
+6.  <span data-ttu-id="ebbd6-232">Geben Sie für jedes Subnetz in Ihrem Netzwerk den zugeordneten Netzwerkstandort an.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-232">For every subnet in your network, specify its associated network site.</span></span>
+    
+    <div>
     
 
     > [!IMPORTANT]
-    > Jedes Subnetz in Ihrem Netzwerk muss einem Netzwerkstandort zugeordnet sein - selbst dann, wenn für den Netzwerkstandort keine Bandbreiteneinschränkungen gelten. Diese Anforderung gilt, da die Anrufsteuerung mithilfe von Subnetzinformationen ermittelt, an welchem Netzwerkstandort sich ein Endpunkt befindet. Wenn die Standorte beider Sitzungsteilnehmer ermittelt wurden, kann über die Anrufsteuerung festgestellt werden, ob genügend Bandbreite für einen Anruf vorhanden ist. Wird eine Sitzung über eine Verbindung ohne Bandbreiteneinschränkungen hergestellt, wird eine Warnung generiert.<BR>Wenn Sie A/V-Edgeserver (Audio/Video) bereitstellen, müssen die öffentlichen IP-Adressen der jeweiligen Edgeserver dem Netzwerkstandort zugeordnet werden, in dem der Edgeserver bereitgestellt wurde. Jede öffentliche IP-Adresse des A/V-Edgeservers muss in den Netzwerkkonfigurationseinstellungen als Subnetz mit der Subnetzmaske&nbsp;32 hinzugefügt werden. Wenn Sie beispielsweise A/V-Edgeserver in Chicago bereitstellen, müssen Sie für jede externe IP-Adresse dieser Server ein Subnetz mit der Subnetzmaske&nbsp;32 erstellen und Netzwerkstandort "Chicago" diesen Subnetzen zuordnen. Ausführliche Informationen zu öffentlichen IP-Adressen finden Sie unter <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Ermitteln der Anforderungen für externe A/V-Firewalls und Ports für Lync Server 2013</A> in der Planungsdokumentation.
+    > <span data-ttu-id="ebbd6-p116">Jedes Subnetz in Ihrem Netzwerk muss einem Netzwerkstandort zugeordnet sein - selbst dann, wenn für den Netzwerkstandort keine Bandbreiteneinschränkungen gelten. Diese Anforderung gilt, da die Anrufsteuerung mithilfe von Subnetzinformationen ermittelt, an welchem Netzwerkstandort sich ein Endpunkt befindet. Wenn die Standorte beider Sitzungsteilnehmer ermittelt wurden, kann über die Anrufsteuerung festgestellt werden, ob genügend Bandbreite für einen Anruf vorhanden ist. Wird eine Sitzung über eine Verbindung ohne Bandbreiteneinschränkungen hergestellt, wird eine Warnung generiert.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-p116">Every subnet in your network must be associated with a network site, even if the network site is not bandwidth constrained. This is because call admission control uses subnet information to determine at which network site an endpoint is located. When the locations of both parties in the session are determined, call admission control can determine if there is sufficient bandwidth to establish a call. When a session is established over a link that has no bandwidth limits, an alert is generated.</span></span><BR><span data-ttu-id="ebbd6-237">Wenn Sie A/V-Edgeserver (Audio/Video) bereitstellen, müssen die öffentlichen IP-Adressen der jeweiligen Edgeserver dem Netzwerkstandort zugeordnet werden, in dem der Edgeserver bereitgestellt wurde.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-237">If you deploy Audio/Video Edge Servers, the public IP addresses of each Edge Server must be associated with the network site where the Edge Server is deployed.</span></span> <span data-ttu-id="ebbd6-238">Jede öffentliche IP-Adresse des A/V-Edgeservers muss in den Netzwerkkonfigurationseinstellungen als Subnetz mit der Subnetzmaske 32 hinzugefügt werden.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-238">Each public IP address of the A/V Edge Server must be added to your network configuration settings as a subnet with a subnet mask of 32.</span></span> <span data-ttu-id="ebbd6-239">Wenn Sie beispielsweise A/V-Edgeserver in Chicago bereitstellen, müssen Sie für jede externe IP-Adresse dieser Server ein Subnetz mit der Subnetzmaske 32 erstellen und den Netzwerkstandort „Chicago“ diesen Subnetzen zuordnen.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-239">For example, if you deploy A/V Edge Servers in Chicago, then for each external IP address of those servers create a subnet with a subnet mask of 32 and associate network site Chicago with those subnets.</span></span> <span data-ttu-id="ebbd6-240">Details zu öffentlichen IP-Adressen finden Sie unter <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Ermitteln der externen A/V-Firewall und Portanforderungen für lync Server 2013</A> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-240">For details about public IP addresses, see <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determine external A/V firewall and port requirements for Lync Server 2013</A> in the Planning documentation.</span></span>
 
+    
+    </div>
+    
+    <div>
     
 
     > [!NOTE]
-    > Es wird eine KHI-Warnung (Key Health Indicator) ausgegeben. Diese enthält eine Liste der IP-Adressen, die in Ihrem Netzwerk vorhanden, aber keinem Subnetz zugeordnet sind, oder gibt das Subnetz an, das die IP-Adressen enthält, jedoch keinem Netzwerkstandort zugeordnet ist. Diese Warnung wird innerhalb von 8&nbsp;Stunden nur einmal angezeigt. Nachfolgend finden Sie die relevanten Warnungsinformationen und ein Beispiel:<BR><STRONG>Quelle :</STRONG> CS-Bandbreitenrichtliniendienst (Core)<BR><STRONG>Ereignisnummer :</STRONG> 36034<BR><STRONG>Ebene :</STRONG> 2<BR><STRONG>Beschreibung :</STRONG> Die Subnetze für die folgenden IP-Adressen: &lt;Liste der IP-Adressen&gt; ist entweder nicht konfiguriert, oder die Subnetze sind keinem Netzwerkstandort zugeordnet.<BR><STRONG>Ursache :</STRONG> Die Subnetze für die zugehörigen IP-Adressen fehlen in den Netzwerkkonfigurationseinstellungen, oder die Subnetze sind keinem Netzwerkstandort zugeordnet.<BR><STRONG>Lösung :</STRONG> Fügen Sie gemäß der IP-Adressenliste den Netzwerkkonfigurationseinstellungen Subnetze hinzu, und ordnen Sie jedes Subnetz einem Netzwerkstandort zu.<BR>Wenn die Liste der IP-Adressen beispielsweise die Einträge 10.121.248.226 und 10.121.249.20 enthält, sind diese IP-Adressen entweder keinem Subnetz zugeordnet, oder das zugeordnete Subnetz gehört keinem Netzwerkstandort an. Wenn die zugehörigen Subnetze für diese Adressen 10.121.248.0/24 und 10.121.249.0/24 lauten, können Sie das Problem wie folgt lösen: 
+    > <span data-ttu-id="ebbd6-p118">Es wird eine KHI-Warnung (Key Health Indicator) ausgegeben. Diese enthält eine Liste der IP-Adressen, die in Ihrem Netzwerk vorhanden, aber keinem Subnetz zugeordnet sind, oder gibt das Subnetz an, das die IP-Adressen enthält, jedoch keinem Netzwerkstandort zugeordnet ist. Diese Warnung wird innerhalb von 8 Stunden nur einmal angezeigt. Nachfolgend finden Sie die relevanten Warnungsinformationen und ein Beispiel:</span><span class="sxs-lookup"><span data-stu-id="ebbd6-p118">A Key Health Indicator (KHI) alert is raised, specifying a list of IP addresses that are present in your network but are either not associated with a subnet, or the subnet that includes the IP addresses is not associated with a network site. This alert will not be raised more than once within an 8 hour period. The relevant alert information and an example are as follows:</span></span><BR><span data-ttu-id="ebbd6-244"><STRONG>Quelle:</STRONG> CS-bandbreitenrichtliniendienst (Core)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-244"><STRONG>Source:</STRONG> CS Bandwidth Policy Service (Core)</span></span><BR><span data-ttu-id="ebbd6-245"><STRONG>Ereignisnummer:</STRONG> 36034</span><span class="sxs-lookup"><span data-stu-id="ebbd6-245"><STRONG>Event number:</STRONG> 36034</span></span><BR><span data-ttu-id="ebbd6-246"><STRONG>Stufe:</STRONG> 2</span><span class="sxs-lookup"><span data-stu-id="ebbd6-246"><STRONG>Level:</STRONG> 2</span></span><BR><span data-ttu-id="ebbd6-247"><STRONG>Beschreibung:</STRONG> Die Subnetze für die folgenden IP- &lt;Adressen: die Liste&gt; der IP-Adressen ist entweder nicht konfiguriert, oder die Subnetze sind nicht mit einer Netzwerk Website verbunden.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-247"><STRONG>Description:</STRONG> The subnets for the following IP Addresses: &lt;List of IP Addresses&gt; are either not configured or the subnets are not associated to a network site.</span></span><BR><span data-ttu-id="ebbd6-248"><STRONG>Ursache:</STRONG> Die Subnetze für die entsprechenden IP-Adressen fehlen in den Netzwerkkonfigurationseinstellungen, oder die Subnetze sind nicht mit einer Netzwerk Website verbunden.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-248"><STRONG>Cause:</STRONG> The subnets for the corresponding IP addresses are missing from the network configuration settings or the subnets are not associated to a network site.</span></span><BR><span data-ttu-id="ebbd6-249"><STRONG>Auflösung:</STRONG> Fügen Sie den Netzwerkkonfigurationseinstellungen Subnetze hinzu, die der vorhergehenden Liste der IP-Adressen entsprechen, und ordnen Sie jedes Subnetz einer Netzwerk Website zu.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-249"><STRONG>Resolution:</STRONG> Add subnets corresponding to the preceding list of IP addresses into the network configuration settings and associate every subnet to a network site.</span></span><BR><span data-ttu-id="ebbd6-p119">Wenn die Liste der IP-Adressen beispielsweise die Einträge 10.121.248.226 und 10.121.249.20 enthält, sind diese IP-Adressen entweder keinem Subnetz zugeordnet oder das zugeordnete Subnetz gehört keinem Netzwerkstandort an. Wenn die zugehörigen Subnetze für diese Adressen 10.121.248.0/24 und 10.121.249.0/24 lauten, können Sie das Problem wie folgt lösen:</span><span class="sxs-lookup"><span data-stu-id="ebbd6-p119">For example, if the IP address list in the alert specifies 10.121.248.226 and 10.121.249.20, either these IP addresses are not associated with a subnet, or the subnet that they are associated with does not belong to a network site. If 10.121.248.0/24 and 10.121.249.0/24 are the corresponding subnets for these addresses, you can resolve this issue as follows:</span></span> 
     > <OL>
     > <LI>
-    > <P>Stellen Sie sicher, dass die IP-Adresse 10.121.248.226 dem Subnetz 10.121.248.0/24 und die IP-Adresse 10.121.249.20 dem Subnetz 10.121.249.0/24 zugeordnet ist.</P>
+    > <P><span data-ttu-id="ebbd6-252">Stellen Sie sicher, dass die IP-Adresse 10.121.248.226 dem Subnetz 10.121.248.0/24 und die IP-Adresse 10.121.249.20 dem Subnetz 10.121.249.0/24 zugeordnet ist.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-252">Be sure that IP address 10.121.248.226 is associated with the 10.121.248.0/24 subnet and IP address 10.121.249.20 is associated with the 10.121.249.0/24 subnet.</span></span></P>
     > <LI>
-    > <P>Stellen Sie sicher, dass die Subnetze 10.121.248.0/24 und 10.121.249.0/24 jeweils einem Netzwerkstandort zugeordnet sind.</P></LI></OL>
+    > <P><span data-ttu-id="ebbd6-253">Stellen Sie sicher, dass die Subnetze 10.121.248.0/24 und 10.121.249.0/24 jeweils einem Netzwerkstandort zugeordnet sind.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-253">Be sure that the 10.121.248.0/24 and 10.121.249.0/24 subnets are each associated with a network site.</span></span></P></LI></OL>
 
     
-    ### Netzwerkstandorte und zugeordnete Subnetze (Bandbreite in KBit/s)
+    </div>
+    
+    ### <a name="network-sites-and-associated-subnets-bandwidth-in-kbps"></a><span data-ttu-id="ebbd6-254">Netzwerkstandorte und zugeordnete Subnetze (Bandbreite in KBit/s)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-254">Network Sites and Associated Subnets (Bandwidth in kbps)</span></span>
     
     <table>
     <colgroup>
@@ -290,96 +327,96 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Netzwerkstandort</th>
-    <th>Netzwerkregion</th>
-    <th>Grenzwert für Bandbreite</th>
-    <th>Grenzwert für Audio</th>
-    <th>Grenzwert für Audiositzung</th>
-    <th>Grenzwert für Video</th>
-    <th>Grenzwert für Videositzung</th>
-    <th>Subnetze</th>
+    <th><span data-ttu-id="ebbd6-255">Netzwerkstandort</span><span class="sxs-lookup"><span data-stu-id="ebbd6-255">Network Site</span></span></th>
+    <th><span data-ttu-id="ebbd6-256">Netzwerkregion</span><span class="sxs-lookup"><span data-stu-id="ebbd6-256">Network Region</span></span></th>
+    <th><span data-ttu-id="ebbd6-257">Grenzwert für Bandbreite</span><span class="sxs-lookup"><span data-stu-id="ebbd6-257">BW Limit</span></span></th>
+    <th><span data-ttu-id="ebbd6-258">Grenzwert für Audio</span><span class="sxs-lookup"><span data-stu-id="ebbd6-258">Audio Limit</span></span></th>
+    <th><span data-ttu-id="ebbd6-259">Grenzwert für Audiositzung</span><span class="sxs-lookup"><span data-stu-id="ebbd6-259">Audio Session Limit</span></span></th>
+    <th><span data-ttu-id="ebbd6-260">Grenzwert für Video</span><span class="sxs-lookup"><span data-stu-id="ebbd6-260">Video Limit</span></span></th>
+    <th><span data-ttu-id="ebbd6-261">Grenzwert für Videositzung</span><span class="sxs-lookup"><span data-stu-id="ebbd6-261">Video Session Limit</span></span></th>
+    <th><span data-ttu-id="ebbd6-262">Subnetze</span><span class="sxs-lookup"><span data-stu-id="ebbd6-262">Subnets</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>Albuquerque</p></td>
-    <td><p>Nordamerika</p></td>
-    <td><p>5.000</p></td>
-    <td><p>2.000</p></td>
-    <td><p>175</p></td>
-    <td><p>1.400</p></td>
-    <td><p>700</p></td>
-    <td><p>172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24</p></td>
+    <td><p><span data-ttu-id="ebbd6-263">Albuquerque</span><span class="sxs-lookup"><span data-stu-id="ebbd6-263">Albuquerque</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-264">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-264">North America</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-265">5.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-265">5,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-266">2.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-266">2,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-267">175</span><span class="sxs-lookup"><span data-stu-id="ebbd6-267">175</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-268">1.400</span><span class="sxs-lookup"><span data-stu-id="ebbd6-268">1,400</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-269">700</span><span class="sxs-lookup"><span data-stu-id="ebbd6-269">700</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-270">172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24</span><span class="sxs-lookup"><span data-stu-id="ebbd6-270">172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p>Reno</p></td>
-    <td><p>Nordamerika</p></td>
-    <td><p>10.000</p></td>
-    <td><p>4.000</p></td>
-    <td><p>175</p></td>
-    <td><p>2.800</p></td>
-    <td><p>700</p></td>
-    <td><p>157.57.210.0/23, 172.28.151.128/25</p></td>
+    <td><p><span data-ttu-id="ebbd6-271">Reno</span><span class="sxs-lookup"><span data-stu-id="ebbd6-271">Reno</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-272">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-272">North America</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-273">10.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-273">10,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-274">4.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-274">4,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-275">175</span><span class="sxs-lookup"><span data-stu-id="ebbd6-275">175</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-276">2.800</span><span class="sxs-lookup"><span data-stu-id="ebbd6-276">2,800</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-277">700</span><span class="sxs-lookup"><span data-stu-id="ebbd6-277">700</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-278">157.57.210.0/23, 172.28.151.128/25</span><span class="sxs-lookup"><span data-stu-id="ebbd6-278">157.57.210.0/23, 172.28.151.128/25</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p>Portland</p></td>
-    <td><p>Nordamerika</p></td>
-    <td><p>5.000</p></td>
-    <td><p>4.000</p></td>
-    <td><p>175</p></td>
-    <td><p>2.800</p></td>
-    <td><p>700</p></td>
-    <td><p>172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23</p></td>
+    <td><p><span data-ttu-id="ebbd6-279">Portland</span><span class="sxs-lookup"><span data-stu-id="ebbd6-279">Portland</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-280">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-280">North America</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-281">5.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-281">5,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-282">4.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-282">4,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-283">175</span><span class="sxs-lookup"><span data-stu-id="ebbd6-283">175</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-284">2.800</span><span class="sxs-lookup"><span data-stu-id="ebbd6-284">2,800</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-285">700</span><span class="sxs-lookup"><span data-stu-id="ebbd6-285">700</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-286">172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23</span><span class="sxs-lookup"><span data-stu-id="ebbd6-286">172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p>New York</p></td>
-    <td><p>Nordamerika</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24</p></td>
+    <td><p><span data-ttu-id="ebbd6-287">New York</span><span class="sxs-lookup"><span data-stu-id="ebbd6-287">New York</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-288">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-288">North America</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-289">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-289">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-290">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-290">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-291">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-291">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-292">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-292">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-293">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-293">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-294">172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24</span><span class="sxs-lookup"><span data-stu-id="ebbd6-294">172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p>Chicago</p></td>
-    <td><p>Nordamerika</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>157.57.211.0/23, 172.28.152.128/25</p></td>
+    <td><p><span data-ttu-id="ebbd6-295">Chicago</span><span class="sxs-lookup"><span data-stu-id="ebbd6-295">Chicago</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-296">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-296">North America</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-297">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-297">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-298">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-298">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-299">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-299">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-300">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-300">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-301">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-301">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-302">157.57.211.0/23, 172.28.152.128/25</span><span class="sxs-lookup"><span data-stu-id="ebbd6-302">157.57.211.0/23, 172.28.152.128/25</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p>Detroit</p></td>
-    <td><p>Nordamerika</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>(keine Begrenzung)</p></td>
-    <td><p>172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23</p></td>
+    <td><p><span data-ttu-id="ebbd6-303">Detroit</span><span class="sxs-lookup"><span data-stu-id="ebbd6-303">Detroit</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-304">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-304">North America</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-305">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-305">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-306">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-306">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-307">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-307">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-308">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-308">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-309">(keine Begrenzung)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-309">(no limit)</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-310">172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23</span><span class="sxs-lookup"><span data-stu-id="ebbd6-310">172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23</span></span></p></td>
     </tr>
     </tbody>
     </table>
 
 
-7.  Bei der Lync Server-Anrufsteuerung werden die Verbindungen zwischen Netzwerkregionen als *Regionenverbindungen* bezeichnet. Ermitteln Sie für jede Regionenverbindung, ebenso wie für die Netzwerkstandorte, die folgenden Informationen:
+7.  <span data-ttu-id="ebbd6-311">In der lync Server-Anruf Zulassungs Steuerung werden die Verbindungen zwischen netzwerkregionen als *Regions Verknüpfungen*bezeichnet.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-311">In Lync Server call admission control, the connections between network regions are called *region links*.</span></span> <span data-ttu-id="ebbd6-312">Ermitteln Sie für jede Regionenverbindung, ebenso wie für die Netzwerkstandorte, die folgenden Informationen:</span><span class="sxs-lookup"><span data-stu-id="ebbd6-312">For each region link, determine the following, just as you did for the network sites:</span></span>
     
-      - Bandbreiteneinschränkung gesamt, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten. Wenn eine neue Audiositzung zu einer Überschreitung dieses Grenzwerts führen würde, lässt Lync Server den Start dieser Sitzung nicht zu.
+      - <span data-ttu-id="ebbd6-313">Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-313">Overall bandwidth limit that you want to set for all concurrent audio sessions.</span></span> <span data-ttu-id="ebbd6-314">Wenn diese Grenze durch eine neue Audiositzung überschritten wird, lässt Lync Server den Start der Sitzung nicht zu.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-314">If a new audio session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
     
-      - Bandbreiteneinschränkung, die Sie für jede einzelne Audiositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 175 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
+      - <span data-ttu-id="ebbd6-p122">Die Bandbreiteneinschränkung, die Sie für jede einzelne Audiositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 175 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-p122">Bandwidth limit that you want to set for each individual audio session. The default CAC bandwidth limit is 175 kbps, but it can be modified by the administrator.</span></span>
     
-      - Bandbreiteneinschränkung gesamt, die Sie für alle gleichzeitigen Videositzungen festlegen möchten. Wenn eine neue Videositzung zu einer Überschreitung dieses Grenzwerts führen würde, lässt Lync Server den Start dieser Sitzung nicht zu.
+      - <span data-ttu-id="ebbd6-317">Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Videositzungen festlegen möchten.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-317">Overall bandwidth limit that you want to set for all concurrent video sessions.</span></span> <span data-ttu-id="ebbd6-318">Wenn diese Grenze durch eine neue Videositzung überschritten wird, lässt Lync Server den Start der Sitzung nicht zu.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-318">If a new video session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
     
-      - Bandbreiteneinschränkung, die Sie für jede einzelne Videositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 700 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
+      - <span data-ttu-id="ebbd6-p124">Die Bandbreiteneinschränkung, die Sie für jede einzelne Videositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 700 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-p124">Bandwidth limit that you want to set for each individual video session. The default CAC bandwidth limit is 700 kbps, but it can be modified by the administrator.</span></span>
     
-    **Netzwerkregionenverbindungen mit zugehörigen Bandbreiteneinschränkungen**
+    <span data-ttu-id="ebbd6-321">**Netzwerkregionenverbindungen mit zugehörigen Bandbreiteneinschränkungen**</span><span class="sxs-lookup"><span data-stu-id="ebbd6-321">**Network Region links with associated bandwidth limits**</span></span>
     
-    ![Beispiel für Einschränkungen zwischen drei Regionen](images/Gg425827.25259afa-ee7c-4d26-bc41-92ba9cb56dec(OCS.15).jpg "Beispiel für Einschränkungen zwischen drei Regionen")  
+    <span data-ttu-id="ebbd6-322">![Beispiel für Einschränkungen zwischen drei Regionen] (images/Gg425827.25259afa-ee7c-4d26-bc41-92ba9cb56dec(OCS.15).jpg "Beispiel für Einschränkungen zwischen drei Regionen")</span><span class="sxs-lookup"><span data-stu-id="ebbd6-322">![Example of Limitations between 3 Regions](images/Gg425827.25259afa-ee7c-4d26-bc41-92ba9cb56dec(OCS.15).jpg "Example of Limitations between 3 Regions")</span></span>  
     
-    ### Bandbreiteninformationen zu Regionenverbindungen (Bandbreite in KBit/s)
+    ### <a name="region-link-bandwidth-information-bandwidth-in-kbps"></a><span data-ttu-id="ebbd6-323">Bandbreiteninformationen zu Regionenverbindungen (Bandbreite in KBit/s)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-323">Region Link Bandwidth Information (Bandwidth in kbps)</span></span>
     
     <table>
     <colgroup>
@@ -394,49 +431,53 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Name der Regionenverbindung</th>
-    <th>Erste Region</th>
-    <th>Zweite Region</th>
-    <th>Grenzwert für Bandbreite</th>
-    <th>Grenzwert für Audio</th>
-    <th>Grenzwert für Audiositzung</th>
-    <th>Grenzwert für Video</th>
-    <th>Grenzwert für Videositzung</th>
+    <th><span data-ttu-id="ebbd6-324">Name der Regionenverbindung</span><span class="sxs-lookup"><span data-stu-id="ebbd6-324">Region Link Name</span></span></th>
+    <th><span data-ttu-id="ebbd6-325">Erste Region</span><span class="sxs-lookup"><span data-stu-id="ebbd6-325">First Region</span></span></th>
+    <th><span data-ttu-id="ebbd6-326">Zweite Region</span><span class="sxs-lookup"><span data-stu-id="ebbd6-326">Second Region</span></span></th>
+    <th><span data-ttu-id="ebbd6-327">Grenzwert für Bandbreite</span><span class="sxs-lookup"><span data-stu-id="ebbd6-327">BW Limit</span></span></th>
+    <th><span data-ttu-id="ebbd6-328">Grenzwert für Audio</span><span class="sxs-lookup"><span data-stu-id="ebbd6-328">Audio Limit</span></span></th>
+    <th><span data-ttu-id="ebbd6-329">Grenzwert für Audiositzung</span><span class="sxs-lookup"><span data-stu-id="ebbd6-329">Audio Session Limit</span></span></th>
+    <th><span data-ttu-id="ebbd6-330">Grenzwert für Video</span><span class="sxs-lookup"><span data-stu-id="ebbd6-330">Video Limit</span></span></th>
+    <th><span data-ttu-id="ebbd6-331">Grenzwert für Videositzung</span><span class="sxs-lookup"><span data-stu-id="ebbd6-331">Video Session Limit</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>NA-EMEA-LINK</p></td>
-    <td><p>Nordamerika</p></td>
-    <td><p>EMEA</p></td>
-    <td><p>50.000</p></td>
-    <td><p>20.000</p></td>
-    <td><p>175</p></td>
-    <td><p>14.000</p></td>
-    <td><p>700</p></td>
+    <td><p><span data-ttu-id="ebbd6-332">NA-EMEA-LINK</span><span class="sxs-lookup"><span data-stu-id="ebbd6-332">NA-EMEA-LINK</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-333">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-333">North America</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-334">EMEA</span><span class="sxs-lookup"><span data-stu-id="ebbd6-334">EMEA</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-335">50.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-335">50,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-336">20.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-336">20,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-337">175</span><span class="sxs-lookup"><span data-stu-id="ebbd6-337">175</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-338">14.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-338">14,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-339">700</span><span class="sxs-lookup"><span data-stu-id="ebbd6-339">700</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p>EMEA-APAC-LINK</p></td>
-    <td><p>EMEA</p></td>
-    <td><p>APAC</p></td>
-    <td><p>25.000</p></td>
-    <td><p>10.000</p></td>
-    <td><p>175</p></td>
-    <td><p>7.000</p></td>
-    <td><p>700</p></td>
+    <td><p><span data-ttu-id="ebbd6-340">EMEA-APAC-LINK</span><span class="sxs-lookup"><span data-stu-id="ebbd6-340">EMEA-APAC-LINK</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-341">EMEA</span><span class="sxs-lookup"><span data-stu-id="ebbd6-341">EMEA</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-342">APAC</span><span class="sxs-lookup"><span data-stu-id="ebbd6-342">APAC</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-343">25.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-343">25,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-344">10.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-344">10,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-345">175</span><span class="sxs-lookup"><span data-stu-id="ebbd6-345">175</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-346">7.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-346">7,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-347">700</span><span class="sxs-lookup"><span data-stu-id="ebbd6-347">700</span></span></p></td>
     </tr>
     </tbody>
     </table>
 
 
-8.  Definieren einer Route zwischen jedem Netzwerkregionenpaar.
+8.  <span data-ttu-id="ebbd6-348">Definieren einer Route zwischen jedem Netzwerkregionenpaar.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-348">Define a route between every pair of network regions.</span></span>
+    
+    <div>
     
 
     > [!NOTE]
-    > Für die Route zwischen den Regionen "Nordamerika" und "APAC" sind zwei Verbindungen erforderlich, da keine Region vorhanden ist, die die Regionen direkt miteinander verbindet.
+    > <span data-ttu-id="ebbd6-349">Für die Route zwischen den Regionen „Nordamerika“ und „APAC“ sind zwei Verbindungen erforderlich, da keine Region vorhanden ist, die die Regionen direkt miteinander verbindet.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-349">Two links are required for the route between the North America and APAC regions because there is no region link that directly connects them.</span></span>
 
     
-    ### Routen zwischen Regionen
+    </div>
+    
+    ### <a name="region-routes"></a><span data-ttu-id="ebbd6-350">Routen zwischen Regionen</span><span class="sxs-lookup"><span data-stu-id="ebbd6-350">Region Routes</span></span>
     
     <table>
     <colgroup>
@@ -447,50 +488,50 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Name der Regionenroute</th>
-    <th>Erste Region</th>
-    <th>Zweite Region</th>
-    <th>Regionenverbindungen</th>
+    <th><span data-ttu-id="ebbd6-351">Name der Regionenroute</span><span class="sxs-lookup"><span data-stu-id="ebbd6-351">Region Route Name</span></span></th>
+    <th><span data-ttu-id="ebbd6-352">Erste Region</span><span class="sxs-lookup"><span data-stu-id="ebbd6-352">First Region</span></span></th>
+    <th><span data-ttu-id="ebbd6-353">Zweite Region</span><span class="sxs-lookup"><span data-stu-id="ebbd6-353">Second Region</span></span></th>
+    <th><span data-ttu-id="ebbd6-354">Regionenverbindungen</span><span class="sxs-lookup"><span data-stu-id="ebbd6-354">Region Links</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>NA-EMEA-ROUTE</p></td>
-    <td><p>Nordamerika</p></td>
-    <td><p>EMEA</p></td>
-    <td><p>NA-EMEA-LINK</p></td>
+    <td><p><span data-ttu-id="ebbd6-355">NA-EMEA-ROUTE</span><span class="sxs-lookup"><span data-stu-id="ebbd6-355">NA-EMEA-ROUTE</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-356">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-356">North America</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-357">EMEA</span><span class="sxs-lookup"><span data-stu-id="ebbd6-357">EMEA</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-358">NA-EMEA-LINK</span><span class="sxs-lookup"><span data-stu-id="ebbd6-358">NA-EMEA-LINK</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p>EMEA-APAC-ROUTE</p></td>
-    <td><p>EMEA</p></td>
-    <td><p>APAC</p></td>
-    <td><p>EMEA-APAC-LINK</p></td>
+    <td><p><span data-ttu-id="ebbd6-359">EMEA-APAC-ROUTE</span><span class="sxs-lookup"><span data-stu-id="ebbd6-359">EMEA-APAC-ROUTE</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-360">EMEA</span><span class="sxs-lookup"><span data-stu-id="ebbd6-360">EMEA</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-361">APAC</span><span class="sxs-lookup"><span data-stu-id="ebbd6-361">APAC</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-362">EMEA-APAC-LINK</span><span class="sxs-lookup"><span data-stu-id="ebbd6-362">EMEA-APAC-LINK</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p>NA-APAC-ROUTE</p></td>
-    <td><p>Nordamerika</p></td>
-    <td><p>APAC</p></td>
-    <td><p>NA-EMEA-LINK, EMEA-APAC-LINK</p></td>
+    <td><p><span data-ttu-id="ebbd6-363">NA-APAC-ROUTE</span><span class="sxs-lookup"><span data-stu-id="ebbd6-363">NA-APAC-ROUTE</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-364">Nordamerika</span><span class="sxs-lookup"><span data-stu-id="ebbd6-364">North America</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-365">APAC</span><span class="sxs-lookup"><span data-stu-id="ebbd6-365">APAC</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-366">NA-EMEA-LINK, EMEA-APAC-LINK</span><span class="sxs-lookup"><span data-stu-id="ebbd6-366">NA-EMEA-LINK, EMEA-APAC-LINK</span></span></p></td>
     </tr>
     </tbody>
     </table>
 
 
-9.  Ermitteln Sie für jedes Netzwerkstandortpaar, das durch eine einzelne Verbindung direkt miteinander verbunden wird (als *standortübergreifende* Verbindung bezeichnet), die folgenden Informationen:
+9.  <span data-ttu-id="ebbd6-367">Ermitteln Sie für jedes Netzwerkstandortpaar, das durch eine einzelne Verbindung direkt miteinander verbunden wird (als *standortübergreifende* Verbindung bezeichnet), die folgenden Informationen:</span><span class="sxs-lookup"><span data-stu-id="ebbd6-367">For every pair of network sites that are directly connected by a single link (called an *inter-site* link), determine the following:</span></span>
     
-      - Bandbreiteneinschränkung gesamt, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten. Wenn eine neue Audiositzung zu einer Überschreitung dieses Grenzwerts führen würde, lässt Lync Server den Start dieser Sitzung nicht zu.
+      - <span data-ttu-id="ebbd6-368">Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-368">Overall bandwidth limit that you want to set for all concurrent audio sessions.</span></span> <span data-ttu-id="ebbd6-369">Wenn diese Grenze durch eine neue Audiositzung überschritten wird, lässt Lync Server den Start der Sitzung nicht zu.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-369">If a new audio session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
     
-      - Bandbreiteneinschränkung, die Sie für jede einzelne Audiositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 175 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
+      - <span data-ttu-id="ebbd6-p126">Die Bandbreiteneinschränkung, die Sie für jede einzelne Audiositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 175 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-p126">Bandwidth limit that you want to set for each individual audio session. The default CAC bandwidth limit is 175 kbps, but it can be modified by the administrator.</span></span>
     
-      - Bandbreiteneinschränkung gesamt, die Sie für alle gleichzeitigen Videositzungen festlegen möchten. Wenn eine neue Videositzung zu einer Überschreitung dieses Grenzwerts führen würde, lässt Lync Server den Start dieser Sitzung nicht zu.
+      - <span data-ttu-id="ebbd6-372">Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Videositzungen festlegen möchten.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-372">Overall bandwidth limit that you want to set for all concurrent video sessions.</span></span> <span data-ttu-id="ebbd6-373">Wenn diese Grenze durch eine neue Videositzung überschritten wird, lässt Lync Server den Start der Sitzung nicht zu.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-373">If a new video session will cause this limit to be exceeded, Lync Server does not allow the session to start.</span></span>
     
-      - Bandbreiteneinschränkung, die Sie für jede einzelne Videositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 700 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
+      - <span data-ttu-id="ebbd6-p128">Die Bandbreiteneinschränkung, die Sie für jede einzelne Videositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 700 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-p128">Bandwidth limit that you want to set for each individual video session. The default CAC bandwidth limit is 700 kbps, but it can be modified by the administrator.</span></span>
     
-    **Anrufsteuerung in der Netzwerkregion "Nordamerika" mit Anzeige der Bandbreitenkapazitäten und -einschränkungen für die standortübergreifende Verbindung zwischen Reno und Albuquerque**
+    <span data-ttu-id="ebbd6-376">**Anrufsteuerung in der Netzwerkregion „Nordamerika“ mit Anzeige der Bandbreitenkapazitäten und -einschränkungen für die standortübergreifende Verbindung zwischen Reno und Albuquerque**</span><span class="sxs-lookup"><span data-stu-id="ebbd6-376">**CAC network region North America showing the bandwidth capacities and bandwidth limits for the inter-site link between Reno and Albuquerque**</span></span>
     
-    ![Netzwerkstandorte mit Einschränkungen in Bezug auf die WAN-Bandbreite (Beispiel)](images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Netzwerkstandorte mit Einschränkungen in Bezug auf die WAN-Bandbreite (Beispiel)")  
+    <span data-ttu-id="ebbd6-377">![Netzwerk Websites, die durch das WAN-Bandbreite-Beispiel beschränkt] sind (images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Netzwerk Websites, die durch das WAN-Bandbreite-Beispiel beschränkt") sind</span><span class="sxs-lookup"><span data-stu-id="ebbd6-377">![Network Sites Constrained by WAN Bandwidth example](images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Network Sites Constrained by WAN Bandwidth example")</span></span>  
     
-    ### Bandbreiteninformationen für eine standortübergreifende Verbindung zwischen zwei Netzwerkstandorten (Bandbreite in KBit/s)
+    ### <a name="bandwidth-information-for-an-inter-site-link-between-two-network-sites-bandwidth-in-kbps"></a><span data-ttu-id="ebbd6-378">Bandbreiteninformationen für eine standortübergreifende Verbindung zwischen zwei Netzwerkstandorten (Bandbreite in KBit/s)</span><span class="sxs-lookup"><span data-stu-id="ebbd6-378">Bandwidth Information for an Inter-Site Link between Two Network Sites (Bandwidth in kbps)</span></span>
     
     <table>
     <colgroup>
@@ -505,37 +546,58 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Name der standortübergreifenden Verbindung</th>
-    <th>Erster Standort</th>
-    <th>Zweiter Standort</th>
-    <th>Grenzwert für Bandbreite</th>
-    <th>Grenzwert für Audio</th>
-    <th>Grenzwert für Audiositzung</th>
-    <th>Grenzwert für Video</th>
-    <th>Grenzwert für Videositzung</th>
+    <th><span data-ttu-id="ebbd6-379">Name der standortübergreifenden Verbindung</span><span class="sxs-lookup"><span data-stu-id="ebbd6-379">Inter-Site Link Name</span></span></th>
+    <th><span data-ttu-id="ebbd6-380">Erster Standort</span><span class="sxs-lookup"><span data-stu-id="ebbd6-380">First Site</span></span></th>
+    <th><span data-ttu-id="ebbd6-381">Zweiter Standort</span><span class="sxs-lookup"><span data-stu-id="ebbd6-381">Second Site</span></span></th>
+    <th><span data-ttu-id="ebbd6-382">Grenzwert für Bandbreite</span><span class="sxs-lookup"><span data-stu-id="ebbd6-382">BW Limit</span></span></th>
+    <th><span data-ttu-id="ebbd6-383">Grenzwert für Audio</span><span class="sxs-lookup"><span data-stu-id="ebbd6-383">Audio Limit</span></span></th>
+    <th><span data-ttu-id="ebbd6-384">Grenzwert für Audiositzung</span><span class="sxs-lookup"><span data-stu-id="ebbd6-384">Audio Session Limit</span></span></th>
+    <th><span data-ttu-id="ebbd6-385">Grenzwert für Video</span><span class="sxs-lookup"><span data-stu-id="ebbd6-385">Video Limit</span></span></th>
+    <th><span data-ttu-id="ebbd6-386">Grenzwert für Videositzung</span><span class="sxs-lookup"><span data-stu-id="ebbd6-386">Video Session Limit</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>Reno-Albu-Intersite-Link</p></td>
-    <td><p>Reno</p></td>
-    <td><p>Albuquerque</p></td>
-    <td><p>20.000</p></td>
-    <td><p>12.000</p></td>
-    <td><p>175</p></td>
-    <td><p>5.000</p></td>
-    <td><p>700</p></td>
+    <td><p><span data-ttu-id="ebbd6-387">Reno-Albu-Intersite-Link</span><span class="sxs-lookup"><span data-stu-id="ebbd6-387">Reno-Albu-Intersite-Link</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-388">Reno</span><span class="sxs-lookup"><span data-stu-id="ebbd6-388">Reno</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-389">Albuquerque</span><span class="sxs-lookup"><span data-stu-id="ebbd6-389">Albuquerque</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-390">20.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-390">20,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-391">12.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-391">12,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-392">175</span><span class="sxs-lookup"><span data-stu-id="ebbd6-392">175</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-393">5.000</span><span class="sxs-lookup"><span data-stu-id="ebbd6-393">5,000</span></span></p></td>
+    <td><p><span data-ttu-id="ebbd6-394">700</span><span class="sxs-lookup"><span data-stu-id="ebbd6-394">700</span></span></p></td>
     </tr>
     </tbody>
     </table>
 
 
-## Nächste Schritte
+<div>
 
-Nachdem Sie die erforderlichen Informationen zusammengetragen haben, können Sie die Anrufsteuerung entweder mit der Lync Server-Verwaltungsshell oder der Lync Server-Systemsteuerung bereitstellen.
+## <a name="next-steps"></a><span data-ttu-id="ebbd6-395">Nächste Schritte</span><span class="sxs-lookup"><span data-stu-id="ebbd6-395">Next Steps</span></span>
+
+<span data-ttu-id="ebbd6-396">Nachdem Sie die erforderlichen Informationen gesammelt haben, können Sie die CAC-Bereitstellung entweder mithilfe der lync Server-Verwaltungsshell oder der lync Server-Systemsteuerung durchführen.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-396">After you have gathered the required information, you can perform CAC deployment either by using the Lync Server Management Shell or Lync Server Control Panel.</span></span>
+
+<div>
 
 
 > [!NOTE]
-> Wenngleich Sie mit der Lync Server-Systemsteuerung die meisten Aufgaben in Bezug auf die Netzwerkkonfiguration ausführen können, müssen Sie zum Erstellen von Subnetzen und standortübergreifenden Verbindungen die Lync Server-Verwaltungsshell verwenden. Ausführliche Informationen finden Sie in der Lync Server-Verwaltungsshell-Dokumentation für das Cmdlet <STRONG>New-CsNetworkSubnet</STRONG> und das Cmdlet <STRONG>New-CsNetworkIntersitePolicy</STRONG>.
+> <span data-ttu-id="ebbd6-397">Obwohl Sie die meisten Netzwerk Konfigurationsaufgaben mithilfe der lync Server-Systemsteuerung ausführen können, müssen Sie zum Erstellen von Subnetzen und standortübergreifenden Links die lync Server-Verwaltungsshell verwenden.</span><span class="sxs-lookup"><span data-stu-id="ebbd6-397">Although you can perform most network configuration tasks by using Lync Server Control Panel, to create subnets and intersite links, you must use Lync Server Management Shell.</span></span> <span data-ttu-id="ebbd6-398">Ausführliche Informationen finden Sie in der Dokumentation zur lync Server-Verwaltungsshell für das Cmdlet <STRONG>New-CsNetworkSubnet</STRONG> und das Cmdlet <STRONG>New-CsNetworkIntersitePolicy</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="ebbd6-398">For details, see the Lync Server Management Shell documentation for the <STRONG>New-CsNetworkSubnet</STRONG> cmdlet and the <STRONG>New-CsNetworkIntersitePolicy</STRONG> cmdlet.</span></span>
 
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

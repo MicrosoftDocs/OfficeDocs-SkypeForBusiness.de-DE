@@ -1,64 +1,108 @@
-﻿---
-title: Löschen eines Orbitbereichs für das Parken von Anrufen in Lync Server 2013
-TOCTitle: Löschen eines Orbitbereichs für das Parken von Anrufen in Lync Server 2013
-ms:assetid: 85e9f916-062d-450d-ac0a-aeaefc0f7cdc
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg182546(v=OCS.15)
-ms:contentKeyID: 49294643
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Löschen eines Anrufs im Umlaufbahn Bereich'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete a Call Park orbit range
+ms:assetid: 85e9f916-062d-450d-ac0a-aeaefc0f7cdc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182546(v=OCS.15)
+ms:contentKeyID: 48184713
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 69144e6552f9c3688c904c8522689abc8da7add2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832659"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Löschen eines Orbitbereichs für das Parken von Anrufen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-20_
+# <a name="delete-a-call-park-orbit-range-in-lync-server-2013"></a><span data-ttu-id="1b571-102">Löschen eines Umlauf Bereichs für einen Anruf Park in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1b571-102">Delete a Call Park orbit range in Lync Server 2013</span></span>
 
-Verwenden Sie eine der folgenden Prozeduren, um einen Parken von Anrufen-Orbitbereich zu löschen.
+</div>
 
-## Zum Verwenden von Lync Server-Systemsteuerung löschen Sie einen Parken von Anrufen-Orbitbereich
+<div id="mainSection">
 
-1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setupberechtigungen in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+<div id="mainBody">
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Klicken Sie in der linken Navigationsleiste auf **VoIP-Funktionen** und dann auf **Anruf parken**.
+<span data-ttu-id="1b571-103">_**Letztes Änderungsdatum des Themas:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="1b571-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-4.  Geben Sie auf der Seite **Anruf parken** im Suchfeld "Teile" den vollständigen Namen des Orbitbereichs ein, den Sie löschen möchten.
+<span data-ttu-id="1b571-104">Verwenden Sie eines der folgenden Verfahren, um einen Orbit-Bereich für einen Anruf Park zu löschen.</span><span class="sxs-lookup"><span data-stu-id="1b571-104">Use one of the following procedures to delete a Call Park orbit range.</span></span>
 
-5.  Klicken Sie in der Ergebnisliste der Orbits auf den Orbit, klicken Sie auf **Bearbeiten** und dann auf **Löschen**.
+<div>
 
-6.  Klicken Sie auf **OK**.
+## <a name="to-use-lync-server-control-panel-to-delete-a-call-park-orbit-range"></a><span data-ttu-id="1b571-105">So verwenden Sie die lync Server-Systemsteuerung zum Löschen eines Umlauf Bereichs für einen Anruf Park</span><span class="sxs-lookup"><span data-stu-id="1b571-105">To use Lync Server Control Panel to delete a Call Park orbit range</span></span>
 
-## Zum Verwenden von Cmdlets löschen Sie einen Parken von Anrufen-Orbitbereich
+1.  <span data-ttu-id="1b571-106">Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an.</span><span class="sxs-lookup"><span data-stu-id="1b571-106">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="1b571-107">Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="1b571-107">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-1.  Melden Sie sich auf dem Computer, auf dem die Lync Server-Verwaltungsshell installiert ist, als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten an, wie beschrieben unter [Delegieren von Setupberechtigungen in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+2.  <span data-ttu-id="1b571-108">Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="1b571-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="1b571-109">Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="1b571-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-2.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+3.  <span data-ttu-id="1b571-110">Klicken Sie in der linken Navigationsleiste auf **VoIP-Funktionen** und dann auf **Anruf parken**.</span><span class="sxs-lookup"><span data-stu-id="1b571-110">In the left navigation bar, click **Voice Features** and then click **Call Park**.</span></span>
 
-3.  Geben Sie an der Befehlszeile Folgendes ein:
+4.  <span data-ttu-id="1b571-111">Geben Sie auf der Seite **Anruf parken** im Suchfeld den Namen des zu löschenden Umlaufbahn Bereichs ganz oder teilweise ein.</span><span class="sxs-lookup"><span data-stu-id="1b571-111">On the **Call Park** page, in the search field, type all or part of the name of the orbit range that you want to delete.</span></span>
+
+5.  <span data-ttu-id="1b571-112">Klicken Sie in der resultierenden Liste der Umlaufbahnen auf die Umlaufbahn, klicken Sie auf **Bearbeiten**und dann auf **Löschen**.</span><span class="sxs-lookup"><span data-stu-id="1b571-112">In the resulting list of orbits, click the orbit, click **Edit**, and then click **Delete**.</span></span>
+
+6.  <span data-ttu-id="1b571-113">Klicken Sie auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="1b571-113">Click **OK**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-use-windows-powershell-to-delete-a-call-park-orbit-range"></a><span data-ttu-id="1b571-114">So verwenden Sie Windows PowerShell zum Löschen eines Umlauf Bereichs eines Anruf Parks</span><span class="sxs-lookup"><span data-stu-id="1b571-114">To use Windows PowerShell to delete a Call Park orbit range</span></span>
+
+1.  <span data-ttu-id="1b571-115">Melden Sie sich bei dem Computer an, auf dem die lync Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist, wie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md)beschrieben.</span><span class="sxs-lookup"><span data-stu-id="1b571-115">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+
+2.  <span data-ttu-id="1b571-116">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="1b571-116">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+3.  <span data-ttu-id="1b571-117">Geben Sie in der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="1b571-117">At the command line, type:</span></span>
     
         Remove-CsCallParkOrbit -Identity "<orbit range name>" 
     
-    Beispiel:
+    <span data-ttu-id="1b571-118">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="1b571-118">For example:</span></span>
     
         Remove-CsCallParkOrbit -Identity "Redmond orbit 1"
     
+    <div>
+    
 
-    > [!NOTE]
-    > Ausführliche Informationen zu weiteren Optionen finden Sie unter <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.
+    > [!NOTE]  
+    > <span data-ttu-id="1b571-119">Ausführliche Informationen zu weiteren Optionen finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.</span><span class="sxs-lookup"><span data-stu-id="1b571-119">For details about more options, see <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.</span></span>
+
+    
+    </div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="1b571-120">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="1b571-120">See Also</span></span>
 
 
+[<span data-ttu-id="1b571-121">Erstellen oder Ändern eines orbitbereichs für einen Anruf Bereich in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1b571-121">Create or modify a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
 
-## Siehe auch
 
-#### Aufgaben
+[<span data-ttu-id="1b571-122">Remove-CsCallParkOrbit</span><span class="sxs-lookup"><span data-stu-id="1b571-122">Remove-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit)  
+[<span data-ttu-id="1b571-123">Get-CsCallParkOrbit</span><span class="sxs-lookup"><span data-stu-id="1b571-123">Get-CsCallParkOrbit</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsCallParkOrbit)  
+  
 
-[Erstellen oder Ändern eines Orbitbereichs für das Parken von Anrufen in Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
+</div>
 
-#### Weitere Ressourcen
+</div>
 
-[Remove-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit)  
-[Get-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCallParkOrbit)
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

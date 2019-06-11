@@ -1,49 +1,87 @@
-﻿---
-title: Bereitstellen von Lync-Clients
-TOCTitle: Bereitstellen von Lync-Clients
-ms:assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204827(v=OCS.15)
-ms:contentKeyID: 49293751
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Bereitstellen von lync-Clients'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying Lync clients
+ms:assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204827(v=OCS.15)
+ms:contentKeyID: 48183925
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3bbbecc50ed88ac9b3237277ba1c991f8c1fcba2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832553"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bereitstellen von Lync-Clients
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-03_
+# <a name="deploying-lync-clients-in-lync-server-2013"></a><span data-ttu-id="e67cb-102">Bereitstellen von lync-Clients in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e67cb-102">Deploying Lync clients in Lync Server 2013</span></span>
 
-Lync 2013 führt einen anderen Ansatz zur Client-Bereitstellung ein. Im Unterschied zu früheren Versionen gibt es bei Lync 2013 kein eigenes Installationsprogramm mehr. Stattdessen verfügt Lync über das Office 2013-Setupprogramm. Zur Bereitstellung von Lync 2013 für Ihre Benutzer können Sie Installationsmethoden und Anpassungstools von Office 2013 verwenden.
+</div>
 
-  - **Der Windows Installer für Office 2013** ist ein auf Windows Installer basierendes Installationspaket, das aus mehreren MSI-Dateien besteht. Ein MSI-Paket mit sprachneutralem Kern wird mit einem oder mehreren sprachenspezifischen Paketen zu einem vollständigen Produkt kombiniert. Setup fügt die einzelnen Pakete zusammen und führt während und nach der Installation von Office auf den Computern der Benutzer Anpassungs- und Wartungsaufgaben aus. In den Themen in diesem Abschnitt wird beschrieben, wie der Windows Installer für Office 2013 zur Bereitstellung von Lync 2013 verwendet und angepasst werden kann.
+<div id="mainSection">
 
-  - **Office 2013 Klick-und-Los** ist ein Installationsprogramm, das Office-Setupdateien vom Microsoft Office 365-Portal an die Benutzer streamt. Administratoren können die Installation anpassen, indem sie das Office-Bereiststellungstool für Klick-und-Los verwenden. Da Office 2013 Klick-und-los hauptsächlich in der Microsoft Office 365-Umgebung verwendet wird, ist diese Installationsmethode in diesem Abschnitt nicht ausführlich beschrieben. Ausführliche Informationen zur Verwendung und Anpassung der Klick-und-Los-Installation finden Sie in der Dokumentation zum Office 2013 Resource Kit. Administratoren können außerdem das Office 2013 Klick-und-Los-Programm und die Sprachquelldateien in einen lokalen Speicherort herunterladen. Dies ist hilfreich, wenn Sie die Netzwerkauslastung minimieren oder aufgrund von Anforderungen der Unternehmenssicherheit verhindern möchten, dass Benutzer Software aus dem Internet installieren.
+<div id="mainBody">
 
-Die Themen in diesem Abschnitt konzentrieren sich darauf, wie Clients mithilfe des MSI-basierten Office 2013-Installationsprogramms bereitgestellt werden können. Ihre primäre Referenz sollte die Dokumentation zum Office 2013 Resource Kit sein. Dort ist ausführlich beschrieben, wie Sie Ihre Infrastruktur vorbereiten, Setup anpassen und Office 2013 bereitstellen können. Sie sollten die Office-Dokumentation jedoch in Verbindung mit den Themen in diesem Abschnitt verwenden, da diese auf spezifische Bereitstellungsaspekte für Lync 2013 eingehen.
+<span> </span>
+
+<span data-ttu-id="e67cb-103">_**Letztes Änderungsdatum des Themas:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="e67cb-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+
+<span data-ttu-id="e67cb-104">Lync 2013 führt einen anderen Ansatz für die Clientbereitstellung ein.</span><span class="sxs-lookup"><span data-stu-id="e67cb-104">Lync 2013 introduces a different approach to client deployment.</span></span> <span data-ttu-id="e67cb-105">In einer Abweichung von vorherigen Versionen verfügt lync 2013 nicht mehr über ein eigenes Installationsprogramm.</span><span class="sxs-lookup"><span data-stu-id="e67cb-105">In a departure from previous releases, Lync 2013 no longer has its own installer.</span></span> <span data-ttu-id="e67cb-106">Stattdessen ist lync im Office 2013-Setupprogramm enthalten.</span><span class="sxs-lookup"><span data-stu-id="e67cb-106">Instead, Lync is included with the Office 2013 setup program.</span></span> <span data-ttu-id="e67cb-107">Wenn Sie lync 2013 für Ihre Benutzer bereitstellen möchten, können Sie die Office 2013-Installationsmethoden und Anpassungstools verwenden.</span><span class="sxs-lookup"><span data-stu-id="e67cb-107">To deploy Lync 2013 to your users, you can use Office 2013 installation methods and customization tools.</span></span>
+
+  - <span data-ttu-id="e67cb-108">**Office 2013 Windows Installer** ist ein Windows Installer-basiertes Installationspaket, das aus mehreren MSI-Dateien besteht.</span><span class="sxs-lookup"><span data-stu-id="e67cb-108">**Office 2013 Windows Installer** is a Windows Installer-based installation package that consists of multiple MSI files.</span></span> <span data-ttu-id="e67cb-109">Ein MSI-Paket mit sprachneutralem Kern wird mit einem oder mehreren sprachenspezifischen Paketen zu einem vollständigen Produkt kombiniert.</span><span class="sxs-lookup"><span data-stu-id="e67cb-109">A language-neutral core MSI package is combined with one or more language-specific packages to make a complete product.</span></span> <span data-ttu-id="e67cb-110">Setup fügt die einzelnen Pakete zusammen und führt während und nach der Installation von Office auf den Computern der Benutzer Anpassungs- und Wartungsaufgaben aus.</span><span class="sxs-lookup"><span data-stu-id="e67cb-110">Setup assembles the individual packages and performs customization and maintenance tasks during and after installation of Office on users' computers.</span></span> <span data-ttu-id="e67cb-111">In den Themen in diesem Abschnitt wird beschrieben, wie Sie das Office 2013 Windows Installer zum Bereitstellen von lync 2013 verwenden und anpassen.</span><span class="sxs-lookup"><span data-stu-id="e67cb-111">The topics in this section describe how to use and customize the Office 2013 Windows Installer to deploy Lync 2013.</span></span>
+
+  - <span data-ttu-id="e67cb-112">**Office 2013 Klick-und-Los** ist ein Installationsprogramm, das die Office-Setupdateien aus dem Microsoft Office 365-Portal an den Benutzer streamt.</span><span class="sxs-lookup"><span data-stu-id="e67cb-112">**Office 2013 Click-to-Run** is an installation program that streams Office setup files to the user from the Microsoft Office 365 portal.</span></span> <span data-ttu-id="e67cb-113">Administratoren können die Installation mithilfe des Office-Bereitstellungstools für Klick-und-Los maßschneidern.</span><span class="sxs-lookup"><span data-stu-id="e67cb-113">Administrators can customize installation by using the Office Deployment Tool for Click-to-Run.</span></span> <span data-ttu-id="e67cb-114">Da Office 2013 Klick-und-Los in erster Linie in der Microsoft Office 365-Umgebung verwendet wird, wird diese Installationsmethode nicht ausführlich in diesem Abschnitt beschrieben.</span><span class="sxs-lookup"><span data-stu-id="e67cb-114">Because Office 2013 Click-to-Run is primarily used in the Microsoft Office 365 environment, this installation method is not described in detail in this section.</span></span> <span data-ttu-id="e67cb-115">Detaillierte Informationen zur Verwendung und Anpassung der Klick-und-Los-Installation finden Sie in der Dokumentation zum Office 2013 Resource Kit.</span><span class="sxs-lookup"><span data-stu-id="e67cb-115">Detailed information about using and customizing Click-to-Run installation is available in the Office 2013 Resource Kit documentation.</span></span> <span data-ttu-id="e67cb-116">Administratoren können auch das Office 2013-Klick-und-Los-Programm und die sprach Quelldateien in einen lokalen Speicherort herunterladen, was nützlich ist, wenn Sie die Netzwerk Nachfrage minimieren oder verhindern möchten, dass Benutzer Software aus dem Internet installieren, weil Sicherheitsanforderungen für Unternehmen.</span><span class="sxs-lookup"><span data-stu-id="e67cb-116">Administrators can also download the Office 2013 Click-to-Run program and language source files to an on-premises location, which is useful when you want to minimize the demand on the network or prevent users from installing software from the Internet because of corporate security requirements.</span></span>
+
+<span data-ttu-id="e67cb-117">Die Themen in diesem Abschnitt konzentrieren sich auf die Bereitstellung von Clients mithilfe des MSI-basierten Installationsprogramms von Office 2013.</span><span class="sxs-lookup"><span data-stu-id="e67cb-117">The topics in this section focus on how to deploy clients by using the Office 2013 MSI-based installer.</span></span> <span data-ttu-id="e67cb-118">Ihr primärer Bezug sollte die Office 2013 Resource Kit-Dokumentation sein, in der ausführlich beschrieben wird, wie Sie Ihre Infrastruktur vorbereiten, Setup anpassen und Office 2013 bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="e67cb-118">Your primary reference should be the Office 2013 Resource Kit documentation, which describes in detail how to prepare your infrastructure, customize setup, and deploy Office 2013.</span></span> <span data-ttu-id="e67cb-119">Sie sollten die Office-Dokumentation jedoch in Verbindung mit den Themen in diesem Abschnitt verwenden, die auf Bereitstellungsüberlegungen verweisen, die für lync 2013 spezifisch sind.</span><span class="sxs-lookup"><span data-stu-id="e67cb-119">However, you should use the Office documentation in conjunction with topics in this section, which point out deployment considerations that are specific to Lync 2013.</span></span>
+
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > <UL>
 > <LI>
-> <P>Das Onlinebesprechungs-Add-In für Lync&nbsp;2013, das die Besprechungsverwaltung aus dem Outlook-Client für Messaging und Zusammenarbeit unterstützt, wird automatisch mit Lync 2013 installiert.</P>
+> <P><span data-ttu-id="e67cb-120">Das Online Besprechungs-Add-in für lync 2013, das die Besprechungsverwaltung innerhalb des Outlook-Messaging-und Zusammenarbeits Clients unterstützt, wird automatisch mit lync 2013 installiert.</span><span class="sxs-lookup"><span data-stu-id="e67cb-120">The Online Meeting Add-in for Lync 2013, which supports meeting management from within the Outlook messaging and collaboration client, installs automatically with Lync 2013.</span></span></P>
 > <LI>
-> <P>Das Office 2013-Setupprogramm deinstalliert vorige Versionen von Lync oder Office Communicator nicht. Der Lync 2013-Client wird parallel zu anderen Lync- oder Office Communicator-Clients installiert.</P></LI></UL>
+> <P><span data-ttu-id="e67cb-121">Das Office 2013-Setupprogramm deinstalliert keine früheren Versionen von lync oder Office Communicator.</span><span class="sxs-lookup"><span data-stu-id="e67cb-121">The Office 2013 setup program does not uninstall previous versions of Lync or Office Communicator.</span></span> <span data-ttu-id="e67cb-122">Der lync 2013-Client wird nebeneinander mit anderen lync-oder Office Communicator-Clients installiert</span><span class="sxs-lookup"><span data-stu-id="e67cb-122">The Lync 2013 client installs side-by-side with other Lync or Office Communicator clients</span></span></P></LI></UL>
 
 
 
-## Inhalt dieses Abschnitts
+</div>
 
-  - [Anpassen einer Clientinstallation](lync-server-2013-customizing-client-installation.md)
+<div>
 
-  - [Anpassen des Verhaltens und der Benutzeroberfläche von Lync](lync-server-2013-customizing-lync-behavior-and-the-user-interface.md)
+## <a name="in-this-section"></a><span data-ttu-id="e67cb-123">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="e67cb-123">In This Section</span></span>
 
-  - [Anpassen des Onlinebesprechungs-Add-Ins](lync-server-2013-customizing-the-online-meeting-add-in.md)
+  - [<span data-ttu-id="e67cb-124">Anpassen der Clientinstallation in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e67cb-124">Customizing client installation in Lync Server 2013</span></span>](lync-server-2013-customizing-client-installation.md)
 
-  - [Konfigurieren der Seite für den Besprechungsbeitritt in Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md)
+  - [<span data-ttu-id="e67cb-125">Anpassen des lync-Verhaltens und der Benutzeroberfläche in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e67cb-125">Customizing Lync behavior and the user interface in Lync Server 2013</span></span>](lync-server-2013-customizing-lync-behavior-and-the-user-interface.md)
 
-  - [Konfigurieren von unterstützten Clientversionen](lync-server-2013-configuring-supported-client-versions.md)
+  - [<span data-ttu-id="e67cb-126">Anpassen des Online Besprechungs-Add-Ins in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e67cb-126">Customizing the Online Meeting Add-in in Lync Server 2013</span></span>](lync-server-2013-customizing-the-online-meeting-add-in.md)
 
-  - [Konfigurieren des erweiterten Datenschutzmodus für Anwesenheitsinformationen](lync-server-2013-configuring-enhanced-presence-privacy-mode.md)
+  - [<span data-ttu-id="e67cb-127">Konfigurieren der Seite für den Besprechungsbeitritt in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e67cb-127">Configuring the meeting join page in Lync Server 2013</span></span>](lync-server-2013-configuring-the-meeting-join-page.md)
+
+  - [<span data-ttu-id="e67cb-128">Konfigurieren von unterstützten Clientversionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e67cb-128">Configuring supported client versions in Lync Server 2013</span></span>](lync-server-2013-configuring-supported-client-versions.md)
+
+  - [<span data-ttu-id="e67cb-129">Konfigurieren des erweiterten Anwesenheitsdaten Schutzmodus in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e67cb-129">Configuring enhanced presence privacy mode in Lync Server 2013</span></span>](lync-server-2013-configuring-enhanced-presence-privacy-mode.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

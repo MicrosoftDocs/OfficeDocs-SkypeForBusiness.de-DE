@@ -1,29 +1,63 @@
-﻿---
-title: Standortbasiertes Routing für Konferenzen
-TOCTitle: Standortbasiertes Routing für Konferenzen
-ms:assetid: e1acb1ba-0ed2-4abf-8a7b-1ca3049e95e3
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn362849(v=OCS.15)
-ms:contentKeyID: 56269356
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Orts basiertes Routing für Konferenzen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Location-Based Routing for conferencing
+ms:assetid: e1acb1ba-0ed2-4abf-8a7b-1ca3049e95e3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362849(v=OCS.15)
+ms:contentKeyID: 56335087
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8ee4c8f996315ede0fd0f7ccd789a73cad25c4f3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831936"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Standortbasiertes Routing für Konferenzen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2013-07-31_
+# <a name="location-based-routing-for-conferencing-in-lync-server-2013"></a><span data-ttu-id="90c15-102">Standortbasiertes Routing für Konferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90c15-102">Location-Based Routing for conferencing in Lync Server 2013</span></span>
 
-Mithilfe von standortbasiertem Routing ist es möglich, das Routing von Anrufen zwischen VoIP-Endpunkten und Endpunkten des öffentlichen Telefonnetzes (PSTN-Endpunkten) auf der Grundlage des Standorts der Anrufteilnehmer einzuschränken. Mit dem kumulativen Update 2 von Lync Server 2013 können Regeln für das standortbasierte Routing für Lync-Besprechungen (d. h. Konferenzen) erzwungen werden, um ein Umgehen von Telefonfestnetzgebühren zu verhindern. Die Anwendung überwacht eine aktive Konferenz und erzwingt anhand des Standorts der teilnehmenden Benutzer Einschränkungen des standortbasierten Routings. Die Anwendung für Konferenzen mit standortbasiertem Routing aktiviert die Erzwingung von Einschränkungen des standortbasierten Routings außerdem für Gesprächsübergaben, an denen PSTN-Endpunkte beteiligt sind.
+</div>
 
-## In diesem Abschnitt
+<div id="mainSection">
 
-  - [Übersicht über das standortbasierte Routing für Konferenzen](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
+<div id="mainBody">
 
-  - [Standortbasiertes Routing und Anrufübergaben mit Ankündigung](lync-server-2013-location-based-routing-and-consultative-call-transfers.md)
+<span> </span>
 
-  - [Anforderungen für das standortbasierte Routing für Konferenzen](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
+<span data-ttu-id="90c15-103">_**Letztes Änderungsdatum des Themas:** 2013-07-31_</span><span class="sxs-lookup"><span data-stu-id="90c15-103">_**Topic Last Modified:** 2013-07-31_</span></span>
 
-  - [Konfiguration von standortbasiertem Routing für Konferenzen in Lync Server 2013](lync-server-2013-configuration-of-location-based-routing-for-conferencing.md)
+<span data-ttu-id="90c15-104">Standortbasiertes Routing ermöglicht das Einschränken des Routings von anrufen zwischen VoIP-Endpunkten und PSTN-Endpunkten basierend auf dem Standort der Gesprächspartner.</span><span class="sxs-lookup"><span data-stu-id="90c15-104">Location-Based Routing makes it possible to restrict the routing of calls between VoIP endpoints and PSTN endpoints based on the location of the parties in the call.</span></span> <span data-ttu-id="90c15-105">Mit dem kumulativen Update 2 von lync Server 2013 können standortbasierte Routing Regeln in lync-Besprechungen (d. h. Konferenzen) erzwungen werden, um eine PSTN-Maut Umgehung zu verhindern.</span><span class="sxs-lookup"><span data-stu-id="90c15-105">With Cumulative Update 2 of Lync Server 2013, Location-Based Routing rules can be enforced on Lync meetings (i.e. conferences) to prevent PSTN toll bypass.</span></span> <span data-ttu-id="90c15-106">Die Anwendung überwacht eine aktive Konferenz und erzwingt standortbasierte Routing Einschränkungen basierend auf dem Standort der teilnehmenden Benutzer.</span><span class="sxs-lookup"><span data-stu-id="90c15-106">The application monitors an active conference and enforces Location-Based Routing restrictions based on the location of users participating.</span></span> <span data-ttu-id="90c15-107">Die standortbasierte Routing Konferenz Anwendung ermöglicht darüber hinaus die Erzwingung standortbasierter Routing Einschränkungen bei Beratenden Übertragungen, die PSTN-Endpunkte umfassen.</span><span class="sxs-lookup"><span data-stu-id="90c15-107">The Location-Based Routing Conferencing application additionally enables the enforcement of Location-Based Routing restrictions to consultative transfers involving PSTN endpoints.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="90c15-108">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="90c15-108">In This Section</span></span>
+
+  - [<span data-ttu-id="90c15-109">Übersicht über standortbasiertes Routing für Konferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90c15-109">Overview of Location-Based Routing for conferencing in Lync Server 2013</span></span>](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
+
+  - [<span data-ttu-id="90c15-110">Übertragungen von standortbasierten Routing-und beratenden anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90c15-110">Location-Based Routing and consultative call transfers in Lync Server 2013</span></span>](lync-server-2013-location-based-routing-and-consultative-call-transfers.md)
+
+  - [<span data-ttu-id="90c15-111">Voraussetzungen für standortbasiertes Routing für Konferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90c15-111">Requirements for Location-Based Routing for conferencing in Lync Server 2013</span></span>](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
+
+  - [<span data-ttu-id="90c15-112">Konfiguration von standortbasiertem Routing für Konferenzen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90c15-112">Configuration of Location-Based Routing for conferencing in Lync Server 2013</span></span>](lync-server-2013-configuration-of-location-based-routing-for-conferencing.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

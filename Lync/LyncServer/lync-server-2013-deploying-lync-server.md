@@ -1,39 +1,73 @@
-﻿---
-title: 'Lync Server 2013: Bereitstellen von Lync Server'
-TOCTitle: Bereitstellen von Lync Server 2013
-ms:assetid: b76795a4-4e71-4c70-a5c0-d1197fa8028c
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412892(v=OCS.15)
-ms:contentKeyID: 49295181
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Bereitstellen von Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying Lync Server 2013
+ms:assetid: b76795a4-4e71-4c70-a5c0-d1197fa8028c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412892(v=OCS.15)
+ms:contentKeyID: 48185197
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ce62d2cfa3d98bc982ea2ed2fa19ade6205a62ac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832540"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bereitstellen von Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-18_
+# <a name="deploying-lync-server-2013"></a><span data-ttu-id="c2a8b-102">Bereitstellen von Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2a8b-102">Deploying Lync Server 2013</span></span>
 
-Der Bereitstellungsprozess für Lync Server 2013 wird von der Lync Server-Topologie und den Komponenten bestimmt, die Sie installieren möchten, und z. B. auch davon, ob Sie einen Front-End-Pool oder einen Standard Edition-Server bereitstellen möchten. Die Themen in diesem Abschnitt helfen Ihnen, die Umgebung zu ermitteln, die Sie bereitstellen möchten, und führen Sie durch den Bereitstellungsprozess.
+</div>
 
-## In diesem Abschnitt
+<div id="mainSection">
 
-  - [Übersicht über die Bereitstellung für Lync Server 2013](lync-server-2013-deployment-overview.md)
+<div id="mainBody">
 
-  - [Systemanforderungen für Lync Server 2013](lync-server-2013-system-requirements.md)
+<span> </span>
 
-  - [Vorbereiten der Infrastruktur und Systeme für Lync Server 2013](lync-server-2013-preparing-the-infrastructure-and-systems.md)
+<span data-ttu-id="c2a8b-103">_**Letztes Änderungsdatum des Themas:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="c2a8b-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-  - [Definieren und Konfigurieren der Topologie in Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md)
+<span data-ttu-id="c2a8b-104">Der Bereitstellungsprozess für lync Server 2013 wird von der lync Server-Topologie und den Komponenten bestimmt, die Sie installieren möchten, einschließlich der Frage, ob Sie einen Front-End-Pool oder einen Standard Edition-Server bereitstellen möchten.</span><span class="sxs-lookup"><span data-stu-id="c2a8b-104">Your deployment process for Lync Server 2013 is determined by the Lync Server topology and components you decide to install, including whether you want to deploy a Front End pool or a Standard Edition server.</span></span> <span data-ttu-id="c2a8b-105">Die Themen in diesem Abschnitt unterstützen Sie bei der Ermittlung der Umgebung, die Sie bereitstellen möchten, und führen Sie durch den Bereitstellungsprozess.</span><span class="sxs-lookup"><span data-stu-id="c2a8b-105">The topics in this section help you determine what environment you want to deploy and guide you through the deployment process.</span></span>
 
-  - [Abschließen und Implementieren des Topologieentwurfs in Lync Server 2013](lync-server-2013-finalizing-and-implementing-the-topology-design.md)
+<div>
 
-  - [Einrichten von Front-End-Servern und Front-End-Pools für Lync Server 2013](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)
+## <a name="in-this-section"></a><span data-ttu-id="c2a8b-106">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="c2a8b-106">In This Section</span></span>
 
-  - [Bereitstellen von Lync Server 2013 Standard Edition in einer vorhandenen Lync Server 2013 Enterprise-Bereitstellung](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
+  - [<span data-ttu-id="c2a8b-107">Übersicht über die Bereitstellung für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2a8b-107">Deployment overview for Lync Server 2013</span></span>](lync-server-2013-deployment-overview.md)
 
-  - [Hinzufügen von Serverrollen in Lync Server 2013](lync-server-2013-adding-server-roles.md)
+  - [<span data-ttu-id="c2a8b-108">Systemanforderungen für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2a8b-108">System requirements for Lync Server 2013</span></span>](lync-server-2013-system-requirements.md)
 
-  - [Einrichten der Kerberos-Authentifizierung in Lync Server 2013](lync-server-2013-setting-up-kerberos-authentication.md)
+  - [<span data-ttu-id="c2a8b-109">Vorbereiten der Infrastruktur und Systeme für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2a8b-109">Preparing the infrastructure and systems for Lync Server 2013</span></span>](lync-server-2013-preparing-the-infrastructure-and-systems.md)
+
+  - [<span data-ttu-id="c2a8b-110">Definieren und Konfigurieren der Topologie in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2a8b-110">Defining and configuring the topology in Lync Server 2013</span></span>](lync-server-2013-defining-and-configuring-the-topology.md)
+
+  - [<span data-ttu-id="c2a8b-111">Abschließen und Implementieren des Topologieentwurfs in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2a8b-111">Finalizing and implementing the topology design in Lync Server 2013</span></span>](lync-server-2013-finalizing-and-implementing-the-topology-design.md)
+
+  - [<span data-ttu-id="c2a8b-112">Einrichten von Front-End-Servern und Front-End-Pools für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2a8b-112">Setting up Front End Servers and Front End pools for Lync Server 2013</span></span>](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)
+
+  - [<span data-ttu-id="c2a8b-113">Bereitstellen von Lync Server 2013 Standard Edition in einer vorhandenen Lync Server 2013 Enterprise-Bereitstellung</span><span class="sxs-lookup"><span data-stu-id="c2a8b-113">Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise</span></span>](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
+
+  - [<span data-ttu-id="c2a8b-114">Hinzufügen von Serverrollen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2a8b-114">Adding server roles in Lync Server 2013</span></span>](lync-server-2013-adding-server-roles.md)
+
+  - [<span data-ttu-id="c2a8b-115">Einrichten der Kerberos-Authentifizierung in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2a8b-115">Setting up Kerberos authentication in Lync Server 2013</span></span>](lync-server-2013-setting-up-kerberos-authentication.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

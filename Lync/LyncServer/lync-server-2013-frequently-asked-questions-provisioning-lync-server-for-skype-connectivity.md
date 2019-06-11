@@ -1,125 +1,162 @@
-﻿---
-title: 'Lync Server 2013: Häufig gestellte Fragen: Bereitstellen der Skype-Konnektivität für Lync Server'
-TOCTitle: 'Häufig gestellte Fragen: Bereitstellen der Skype-Konnektivität für Lync Server'
-ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn440172(v=OCS.15)
-ms:contentKeyID: 59373604
-ms.date: 12/28/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Häufig gestellte Fragen: Bereitstellen der Skype-Konnektivität für Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: 'Frequently Asked Questions: Provisioning Lync Server for Skype connectivity'
+ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440172(v=OCS.15)
+ms:contentKeyID: 57793362
+ms.date: 12/29/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0fc06cda300945ccf4d7da9424b5615028c2e8f5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832150"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Häufig gestellte Fragen: Bereitstellen der Skype-Konnektivität für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-27_
+# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a><span data-ttu-id="9489b-102">Häufig gestellte Fragen: Bereitstellen der Skype-Konnektivität für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9489b-102">Frequently Asked Questions: Provisioning Lync Server 2013 for Skype connectivity</span></span>
 
-**F: Welche Funktionen werden im Zusammenspiel zwischen Microsoft Lync und Skype unterstützt?**
+</div>
 
-**A:** Da Skype nun Teil der Microsoft-Produktfamilie ist, eröffnen sich neue Möglichkeiten für die Erweiterung von Unified Communications-Szenarien auf die Hunderte Millionen Menschen, die Skype verwenden. Diese Kombination ermöglicht es Lync-Kunden, mit Lieferanten, Kunden und Partnern in Verbindung zu treten und mit diesen zusammenzuarbeiten, wobei sie auf den Funktionsreichtum von Lync und die Reichweite von Skype aufsetzen können.
+<div id="mainSection">
 
-  - Chatnachrichten sowie Audio- und Videoanrufe – Kombinierte Audio- und Videoanrufe sowie Chatnachrichten zwischen Lync- und Skype-Benutzern
+<div id="mainBody">
 
-  - Freigabe von Anwesenheitsinformationen - Austausch von Anwesenheitsinformationen zwischen Kontakten im Partnerverbund
+<span> </span>
 
-  - Einfache Verwaltung - Einstellungen und Steuerelemente zum Konfigurieren der Partnerverbundkommunikation in Übereinstimmung mit den Richtlinien und Standards Ihrer Organisation
+<span data-ttu-id="9489b-103">_**Letztes Änderungsdatum des Themas:** 2019-03-22_</span><span class="sxs-lookup"><span data-stu-id="9489b-103">_**Topic Last Modified:** 2019-03-22_</span></span>
 
-**F: Welche Voraussetzungen muss ich für die Verbindung meiner Lync-Bereitstellung mit Skype erfüllen?**
+<span data-ttu-id="9489b-104">Ab April 2019 werden wir die Erfassung und Speicherung von Kontaktinformationen für Kunden, die über die PIC.lync.com-Website für Skype Federation bereitgestellt werden, beenden.</span><span class="sxs-lookup"><span data-stu-id="9489b-104">Beginning in April 2019, we will stop the collection and retention of contact information for customers who are provisioned for Skype Federation via the pic.lync.com website.</span></span> <span data-ttu-id="9489b-105">Diese Änderung wird vorgenommen, um sicherzustellen, dass das PIC.lync.com-Bereitstellungssystem den Microsoft-Datenschutzrichtlinien entspricht.</span><span class="sxs-lookup"><span data-stu-id="9489b-105">This change is being made to ensure that the pic.lync.com provisioning system adheres to Microsoft privacy policies.</span></span> 
+ 
+<span data-ttu-id="9489b-106">Sobald diese Änderung in Echtzeit erfolgt, können wir keine e-Mail-Updates mehr für ausstehende Bereitstellungsänderungen bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="9489b-106">Once this change goes live, we will no longer be able to provide email updates on pending provisioning changes.</span></span> <span data-ttu-id="9489b-107">PIC-Bereitstellungsänderungen werden in der Regel innerhalb von 24-48 Stunden nach der Eingabe abgeschlossen.</span><span class="sxs-lookup"><span data-stu-id="9489b-107">PIC provisioning changes typically complete within 24-48 hours after being entered.</span></span> <span data-ttu-id="9489b-108">Wenn Sie nach dem Einreichen einer Bereitstellungsanfrage nach wie vor Skype Federation Issues (48) erleben, wenden Sie sich bitte an den technischen Support von Microsoft, um weitere Informationen zu erhalten.</span><span class="sxs-lookup"><span data-stu-id="9489b-108">If you are still experiencing Skype Federation issues 48 hours after submitting a provisioning request, please engage Microsoft Technical Support to investigate further.</span></span>
 
-**A:** Sie sind für die Skype-Konnektivität berechtigt, wenn Sie über Folgendes verfügen:
+> [!IMPORTANT]
+> <span data-ttu-id="9489b-109">Im Rahmen dieser Änderung werden alle zuvor eingegebenen Kontaktinformationen bis Ende April 2019 aus unserem System gelöscht.</span><span class="sxs-lookup"><span data-stu-id="9489b-109">As part of this change, all previously entered contact information will be purged from our system by the end of April, 2019.</span></span>
 
-  - Lync Server (2010 oder 2013) plus Lync Server Standard-Clientzugriffslizenzen ("CALs", 2010 oder 2013) für die Benutzer und/oder die Geräte in Ihrer Organisation, die die Verbindung zu Skype herstellen werden. 
 
-  - Lync Online (als eigenständige Lizenzen oder als Teil einer Office 365-Suite). Dieser Dienst ("pic.lync.com") kann jedoch nur für die Bereitstellung in Lync Server- und hybriden Lync Server- und Lync Online-Implementierungen verwendet werden. Die Bereitstellung von Lync Online PIC erfolgt in der Lync Online-Systemsteuerung (Lync Online Control Panel, LOCP).
+<span data-ttu-id="9489b-110">**F: welche Features werden zwischen Microsoft lync und Skype unterstützt?**</span><span class="sxs-lookup"><span data-stu-id="9489b-110">**Q: What features are supported between Microsoft Lync and Skype?**</span></span>
 
-**F: Wie müssen Lync-Endbenutzer vorgehen, um die Verbindung zu Skype-Kontakten herzustellen?**
+<span data-ttu-id="9489b-111">**A:** Da Skype nun Teil der Microsoft-Familie ist, eröffnen sich neue Möglichkeiten, um Unified Communications-Szenarien für Hunderte von Millionen von Skype-Nutzern zu erweitern.</span><span class="sxs-lookup"><span data-stu-id="9489b-111">**A:** With Skype now part of the Microsoft family, new possibilities open up for extending unified communications scenarios to the hundreds of millions of people who use Skype.</span></span> <span data-ttu-id="9489b-112">Diese Kombination ermöglicht lync-Kunden die Verbindung und Zusammenarbeit mit Lieferanten, Kunden und Partnern, die sich auf den Reichtum von lync und die Reichweite von Skype verlassen.</span><span class="sxs-lookup"><span data-stu-id="9489b-112">This combination will enable Lync customers to connect and collaborate with suppliers, customers, and partners, relying on the richness of Lync and the reach of Skype.</span></span>
 
-**A:** Nachdem eine Domäne aktiviert und die Funktionen von einem Lync-Administrator in der Organisation aktiviert wurden, können Lync-Benutzer ihren Kontaktlisten im Lync-Client Skype-Kontakte hinzufügen.
+  - <span data-ttu-id="9489b-113">Sofortnachrichten und Audio-und Videoanrufe – Federated-Audio-und Videoanrufe und Sofortnachrichten zwischen lync-und Skype-Nutzern</span><span class="sxs-lookup"><span data-stu-id="9489b-113">Instant Message and Audio and Video Calls—Federated audio and video calling and instant messaging between Lync and Skype users</span></span>
 
-**F: Wie müssen Skype-Endbenutzer vorgehen, um die Verbindung zu Lync-Kontakten herzustellen?**
+  - <span data-ttu-id="9489b-114">Anwesenheits Freigabe – Exchange-Anwesenheitsinformationen zwischen verbundkontakten</span><span class="sxs-lookup"><span data-stu-id="9489b-114">Presence Sharing— Exchange presence information between federated contacts</span></span>
 
-**A:** Alle Skype-Benutzer, die die Verbindung zu einem Lync-Benutzer herstellen möchten, müssen über ein Microsoft-Konto verfügen, das mit ihrer Skype-ID verbunden ist und sich mit dem Microsoft-Konto anmelden. Dies kann im Skype-Client aktiviert werden.
+  - <span data-ttu-id="9489b-115">Einfache Verwaltung – Einstellungen und Steuerelemente zum Konfigurieren der Verbundkommunikation gemäß den Richtlinien und Standards Ihrer Organisation</span><span class="sxs-lookup"><span data-stu-id="9489b-115">Simple Administration—Settings and controls to configure federated communications in accordance with your organization’s policies and standards</span></span>
 
-**F: Steht der Partnerverbund mit Windows Live noch zur Verfügung?**
+<span data-ttu-id="9489b-116">**F: Wie qualifiziere ich mich für die Verbindung meiner lync-Bereitstellung mit Skype?**</span><span class="sxs-lookup"><span data-stu-id="9489b-116">**Q: How do I qualify to connect my Lync deployment with Skype?**</span></span>
 
-**A:** Anfang Oktober 2012 hat Microsoft begonnen, den Benutzern von Windows Live Messenger (WLM) beim Umstieg auf Skype zu helfen, und zwar in Anbetracht der Tatsache, dass WLM schließlich eingestellt werden soll. Lync wird den Partnerverbund mit WLM solange unterstützen, wie WLM auf dem Markt ist, es sind jedoch keine weiteren Windows-Live-Domänenaktivierungen mehr möglich. Der Umstieg von WLM-Benutzern wird mit Skype 6.0 für Mac und Windows (veröffentlicht am 25. Oktober 2012) möglich. In dieser Version können sich die Benutzer mit einem Microsoft-Konto anmelden (d. h. mit denselben Anmeldeinformationen wie in WLM). Nach der Anmeldung bei Skype werden die WLM-Buddylisten automatisch nach Skype übernommen, und die Benutzer können nun die Vorteile der erweiterten Kommunikationsmöglichkeiten Skype nutzen, wie Anrufe von Festnetz- und Mobiltelefonen, Bildschirmfreigabe, Gruppenanrufe mit Video und Unterstützung einer Vielzahl unterschiedlicher Geräte. Darüber hinaus folgen auch die Lync-Partnerverbundkontakte von WLM-Benutzern dem Umstieg auf Skype mit den restlichen Buddylisten, und Chatunterhaltungen zwischen Skype und Lync zwischen diesen Kontakten sind sofort möglich. Lync-Kunden müssen nichts tun, um den Fortbestand des Diensts zu gewährleisten.
+<span data-ttu-id="9489b-117">**A:** Sie haben eine Lizenz für Skype-Konnektivität, wenn Sie über Folgendes verfügen:</span><span class="sxs-lookup"><span data-stu-id="9489b-117">**A:** You are licensed for Skype connectivity if you have either:</span></span>
 
-**F: Steht der Partnerverbund mit Yahoo\! oder AOL noch zur Verfügung?**
+  - <span data-ttu-id="9489b-118">Lync Server (2010 oder 2013) plus lync Server-Standard Client Zugriffs Lizenzen ("CALs"; 2010 oder 2013) für die Benutzer und/oder Geräte in Ihrer Organisation, die eine Verbindung mit Skype herstellen.</span><span class="sxs-lookup"><span data-stu-id="9489b-118">Lync Server (2010 or 2013) plus Lync Server Standard Client Access Licenses (“CALs”; 2010 or 2013) for the users and/or devices in your organization that will connect to Skype.</span></span> 
 
-**A:** Für Kunden von Lync und Office Communications Server wird der Partnerverbund mit Yahoo\! und AOL demnächst eingestellt. Die Fähigkeit von Microsoft, diese beiden Dienste bereitzustellen, war von der Unterstützung durch Yahoo\! und AOL abhängig, und die dieser Unterstützung zugrunde liegenden Vereinbarungen laufen demnächst aus. Sowohl für Yahoo\! als auch für AOL wird der Dienst bis Juni 2014 weiterhin bereitgestellt.
+  - <span data-ttu-id="9489b-119">Lync Online (als eigenständige Lizenzen oder als Teil einer Office 365-Suite).</span><span class="sxs-lookup"><span data-stu-id="9489b-119">Lync Online (as standalone licenses or as part of an Office 365 suite).</span></span><span data-ttu-id="9489b-120">Dieser Dienst (PIC.lync.com) ist allerdings nur für die Bereitstellung von lync Server-und Hybriden lync Server-und lync Online-Bereitstellungen vorgesehen.</span><span class="sxs-lookup"><span data-stu-id="9489b-120">  However, this service (pic.lync.com) is only for provisioning Lync Server and hybrid Lync Server and Lync Online deployments.</span></span><span data-ttu-id="9489b-121">Die lync Online PIC-Bereitstellung erfolgt in der lync Online-Systemsteuerung (LOCP).</span><span class="sxs-lookup"><span data-stu-id="9489b-121">  Lync Online PIC provisioning is done in Lync Online Control Panel (LOCP).</span></span>
 
-  - Yahoo\!: Der Dienst wird bis Juni 2014 weiterhin bereitgestellt, und Kunden benötigen weiterhin eine Microsoft Lync PIC USL (Benutzerabonnementlizenz für die Verbindung mit öffentlichen Instant Messaging-Diensten). Seit dem 1. September 2012 kann die PIC USL für neue Verträge oder die Erneuerung von Verträgen nicht mehr erworben werden. Kunden mit Lizenzen, die vor diesem Datum erworben wurden, können den Partnerverbund mit Yahoo\! bis entweder zum Einstellungsdatum des Diensts oder bis zum Ablaufdatum der Lizenz weiterhin nutzen. Kunden mit PIC-Lizenzen aus Verträgen, die über den 30. Juni 2014 hinaus gültig sind, erhalten eine anteilige Gutschrift für bereits geleistete Zahlungen, die über den 30. Juni 2014 hinausgehen.
+<span data-ttu-id="9489b-122">**F: Was müssen lync-Endbenutzer tun, um eine Verbindung mit Skype-Kontakten herzustellen?**</span><span class="sxs-lookup"><span data-stu-id="9489b-122">**Q: What must Lync end users do to connect to Skype contacts?**</span></span>
 
-  - AOL: Ab dem 30. Juni 2014 steht der Lync-Konnektivitätsdienst zur Herstellung der Verbindung zu Anbietern von öffentlichen Instant Messaging-Diensten nicht mehr zur Verfügung. Um das Ausmaß der Störungen bei den Kunden möglichst gering zu halten, wurde die Bereitstellung weiterer Kundendomänen bereits eingestellt. Bis zum 30. Juni 2014 müssen die Kunden nichts unternehmen, um die Kommunikation im Partnerverbund mit AIM fortzusetzen. Nach diesem Datum (oder für Kunden, die in der Zwischenzeit weitere Domänen bereitstellen möchten) steht ein Ersatzdienst direkt von AOL zur Verfügung. Weitere Informationen zu dem neuen Dienst von AOL finden Sie unter <http://aimenterprise.aol.com/pic.php> (mit diesem Link wird eine neue Seite auf AOL.com geöffnet). 
+<span data-ttu-id="9489b-123">**A:** Nachdem eine Domäne aktiviert wurde und die Features vom lync-Administrator einer Organisation aktiviert wurden, können lync-Benutzer ihren Kontaktlisten innerhalb des lync-Clients Skype-Kontakte hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="9489b-123">**A:** After a domain is activated and the features are enabled by an organization’s Lync administrator, Lync users can add Skype contacts to their contact lists within the Lync client.</span></span>
 
-**F: Kann ich die Skype-Konnektivität testen, bevor ich Lync kaufe?**
+<span data-ttu-id="9489b-124">**F: Was müssen Skype-Endbenutzer tun, um eine Verbindung mit lync-Kontakten herzustellen?**</span><span class="sxs-lookup"><span data-stu-id="9489b-124">**Q: What must Skype end users do to connect to Lync contacts?**</span></span>
 
-**A:** Die Skype-Konnektivität wird nicht in Form eines Tests angeboten. Anstelle eines Testlaufs sollten sich Lync-Kunden mit qualifizierenden Lizenzen einfach bei dem Dienst anmelden, um ihn zu testen.
+<span data-ttu-id="9489b-125">**A:** Alle Skype-Nutzer, die eine Verbindung mit einem lync-Nutzer herstellen möchten, müssen über ein Microsoft-Konto verfügen, das mit den Skype-IDs verbunden ist, und sich mit dem Microsoft-Konto anmelden.</span><span class="sxs-lookup"><span data-stu-id="9489b-125">**A:** All Skype users wishing to connect to a Lync user must have a Microsoft Account associated with their Skype IDs and sign in using the Microsoft Account.</span></span><span data-ttu-id="9489b-126">Dies kann im Skype-Client aktiviert werden.</span><span class="sxs-lookup"><span data-stu-id="9489b-126">  This can be enabled within the Skype client.</span></span>
 
-**F: Welche Informationen sind für die Bereitstellung erforderlich?**
+<span data-ttu-id="9489b-127">**F: ist der Verbund mit Windows Live weiterhin verfügbar?**</span><span class="sxs-lookup"><span data-stu-id="9489b-127">**Q: Is federation with Windows Live still available?**</span></span>
 
-**A:** Für die Übermittlung einer Bereitstellungsanforderung unter einer qualifizierenden Lizenz benötigen Sie Folgendes:
+<span data-ttu-id="9489b-128">**A:** Ab Oktober 2012 begann Microsoft, Windows Live Messenger (WLM)-Benutzern zu helfen, zu Skype zu wechseln und sich schließlich für WLM einzusetzen.</span><span class="sxs-lookup"><span data-stu-id="9489b-128">**A:** Beginning in October, 2012, Microsoft started helping Windows Live Messenger (WLM) users move to Skype, en route to eventually retiring WLM.</span></span><span data-ttu-id="9489b-129">Lync wird weiterhin die Föderation mit WLM unterstützen, solange WLM im Markt ist, aber keine zusätzlichen Windows Live-Domänen Aktivierungen zulässig sind.</span><span class="sxs-lookup"><span data-stu-id="9489b-129"> Lync will continue to support federation with WLM as long as WLM is in market, but no additional Windows Live domain activations will be allowed.</span></span><span data-ttu-id="9489b-130">Die Bewegung von WLM-Benutzern wird durch den Skype 6,0 für Mac und Windows (veröffentlicht am 25. Oktober 2012) ermöglicht, mit dem Sie sich mit einem Microsoft-Konto anmelden können (also mit den gleichen Anmeldeinformationen wie WLM).</span><span class="sxs-lookup"><span data-stu-id="9489b-130"> The movement of WLM users is enabled by the Skype 6.0 for Mac and Windows (released October 25, 2012) which allows signing in with a Microsoft Account (i.e., the same credentials as WLM).</span></span> <span data-ttu-id="9489b-131">Nachdem Sie sich einfach bei Skype angemeldet haben, werden die WLM-Kontaktlisten automatisch in Skype eingefügt, und Nutzer können die erweiterten Kommunikationsmöglichkeiten von Skype nutzen, wie Anrufe an Festnetz-und Handynummern, Bildschirmübertragung, Gruppen-Videoanrufe und Unterstützung für ein breites Vielzahl von Geräten.</span><span class="sxs-lookup"><span data-stu-id="9489b-131">After simply signing in to Skype, WLM buddy lists automatically populate into Skype, and users can take advantage of Skype’s expanded communication capabilities such as calling landlines and mobiles, screen sharing, group video calling, and support for a wide variety of devices.</span></span><span data-ttu-id="9489b-132">Darüber hinaus folgen die lync-Kontakte von WLM-Benutzern dem Übergang in Skype mit den restlichen Kontaktlisten, und Chats zwischen Skype und lync für diese Kontakte werden sofort zur Verfügung stehen.</span><span class="sxs-lookup"><span data-stu-id="9489b-132"> Moreover, WLM users’ federated Lync contacts follow the transition into Skype with the rest of their buddy lists, and IM between Skype and Lync for these contacts will be available immediately.</span></span> <span data-ttu-id="9489b-133">Lync-Kunden müssen nichts Unternehmen, um diese Kontinuität des Diensts zu ermöglichen.</span><span class="sxs-lookup"><span data-stu-id="9489b-133">Lync customers do not need to do anything to enable this continuity of service.</span></span>
 
-  - Die Microsoft-Vertragsnummer:
+<span data-ttu-id="9489b-134">**F: ist Föderation mit Yahoo\! oder AOL weiterhin verfügbar?**</span><span class="sxs-lookup"><span data-stu-id="9489b-134">**Q: Is federation with Yahoo\! or AOL still available?**</span></span>
+
+<span data-ttu-id="9489b-135">**A:** Nein.</span><span class="sxs-lookup"><span data-stu-id="9489b-135">**A:** No.</span></span> <span data-ttu-id="9489b-136">Föderation mit Yahoo\!</span><span class="sxs-lookup"><span data-stu-id="9489b-136">Federation with Yahoo\!</span></span> <span data-ttu-id="9489b-137">und AOL waren von Yahoo abhängig\!</span><span class="sxs-lookup"><span data-stu-id="9489b-137">and AOL were contingent upon support from Yahoo\!</span></span> <span data-ttu-id="9489b-138">und AOL.</span><span class="sxs-lookup"><span data-stu-id="9489b-138">and AOL.</span></span><span data-ttu-id="9489b-139">Für Yahoo\!</span><span class="sxs-lookup"><span data-stu-id="9489b-139"> For both Yahoo\!</span></span> <span data-ttu-id="9489b-140">und AOL endete der Service am 30. Juni 2014.</span><span class="sxs-lookup"><span data-stu-id="9489b-140">and AOL, the service ended on June 30, 2014.</span></span> 
+
+<span data-ttu-id="9489b-141">**F: kann ich Skype-Konnektivität testen, bevor ich lync kaufe?**</span><span class="sxs-lookup"><span data-stu-id="9489b-141">**Q: Can I trial Skype connectivity before purchasing Lync?**</span></span>
+
+<span data-ttu-id="9489b-142">**A:** Skype-Konnektivität wird nicht Test basiert angeboten.</span><span class="sxs-lookup"><span data-stu-id="9489b-142">**A:** Skype connectivity is not offered on a trial basis.</span></span> <span data-ttu-id="9489b-143">Anstelle einer Testversion werden lync-Kunden mit berechtigten Lizenzen dazu ermutigt, sich einfach für den zu testenden Dienst anzumelden.</span><span class="sxs-lookup"><span data-stu-id="9489b-143">In place of a trial, Lync customers with eligible licenses are encouraged to simply sign up for the service to test.</span></span>
+
+<span data-ttu-id="9489b-144">**F: welche Informationen sind für die Bereitstellung erforderlich?**</span><span class="sxs-lookup"><span data-stu-id="9489b-144">**Q: What information is required for provisioning?**</span></span>
+
+<span data-ttu-id="9489b-145">**A:** Wenn Sie eine Bereitstellungsanforderung unter einer qualifizierten Lizenz einreichen möchten, benötigen Sie Folgendes:</span><span class="sxs-lookup"><span data-stu-id="9489b-145">**A:** To submit a provisioning request under a qualified license, you need the following:</span></span>
+
+  - <span data-ttu-id="9489b-146">Microsoft-Vereinbarungsnummer:</span><span class="sxs-lookup"><span data-stu-id="9489b-146">Microsoft agreement number:</span></span>
     
-      - Microsoft-Volumenlizenz-Support: Nummer des Microsoft-Volumenlizenzvertrags
+      - <span data-ttu-id="9489b-147">Microsoft Volume Licensing-Unterstützung: Microsoft-Volumenlizenz Vereinbarungsnummer</span><span class="sxs-lookup"><span data-stu-id="9489b-147">Microsoft Volume Licensing Support: Microsoft Volume Licensing Agreement number</span></span>
     
-      - Microsoft Partner Network: Partner-ID der Unternehmenszentrale
+      - <span data-ttu-id="9489b-148">Microsoft-Partnernetzwerk: Headquarter-Partner-ID</span><span class="sxs-lookup"><span data-stu-id="9489b-148">Microsoft Partner Network: Headquarter partner ID</span></span>
     
-      - Dienstanbieter-Lizenzvertrag: Ursprüngliche Beitrittsvertragsnummer
+      - <span data-ttu-id="9489b-149">Dienstanbieter-Lizenzvertrag: erste Registrierungsnummer</span><span class="sxs-lookup"><span data-stu-id="9489b-149">Service Provider Licensing Agreement: Initial enrollment number</span></span>
     
-      - High Volume-Dienste: Produktregistrierungsnummer
+      - <span data-ttu-id="9489b-150">Dienstleistungen mit großem Volumen: Produkt Registrierungsnummer</span><span class="sxs-lookup"><span data-stu-id="9489b-150">High Volume Services: Product enrollment number</span></span>
 
-  - Vollständig qualifizierte Domänennamen (FQDNs) für den Zugriffs-Edgedienst
+  - <span data-ttu-id="9489b-151">Vollqualifizierte Domänennamen (FQDNs) für den Access Edge-Dienst.</span><span class="sxs-lookup"><span data-stu-id="9489b-151">Fully qualified domain names (FQDNs) for the Access Edge service.</span></span>
     
-      - Es ist ein FQDN für mindestens einen Zugriffs-Edgedienst erforderlich.
+      - <span data-ttu-id="9489b-152">Der FQDN für mindestens einen Access Edge-Dienst ist erforderlich.</span><span class="sxs-lookup"><span data-stu-id="9489b-152">FQDN for at least one Access Edge service is required.</span></span>
     
-      - Wenn der Zugriffs-Edgedienst in Ihrer Organisation auf mehr als einem Server ausgeführt wird, geben Sie die FQDNs für jeden zusätzlichen Zugriffs-Edgedienst an. Wichtig: Wenn Sie schon früher einen FQDN für den Zugriffs-Edgedienst angegeben haben und diesen nun ändern möchten, kann die Durchführung der Änderung mehrere Tage in Anspruch nehmen und zu einer Dienstunterbrechung führen. Zur Vermeidung von Dienstunterbrechungen wird empfohlen, den zuvor für den Zugriffs-Edgedienst angegebenen FQDN beizubehalten.
+      - <span data-ttu-id="9489b-153">Wenn in Ihrer Organisation mehr als ein Server den Access-Edgedienst ausführt, geben Sie die FQDNs für jeden zusätzlichen Access Edge-Dienst an.</span><span class="sxs-lookup"><span data-stu-id="9489b-153">If your organization has more than one server running the Access Edge service, specify the FQDNs for each additional Access Edge service.</span></span> <span data-ttu-id="9489b-154">Wichtig: Wenn Sie zuvor einen FQDN für den Access-Edgedienst angegeben haben und ihn ändern möchten, kann die Bereitstellung für die Änderung mehrere Tage dauern und zu einer Unterbrechung des Diensts führen.</span><span class="sxs-lookup"><span data-stu-id="9489b-154">Important: If you previously specified an FQDN for the Access Edge service and want to change it, provisioning for the change can take several days to complete and can result in a disruption in service.</span></span> <span data-ttu-id="9489b-155">Um eine Dienstunterbrechung zu verhindern, empfehlen wir, den zuvor angegebenen FQDN des Access Edge-Diensts beizubehalten.</span><span class="sxs-lookup"><span data-stu-id="9489b-155">To prevent service disruption, we recommend that you maintain the previously specified FQDN of the Access Edge service.</span></span>
 
-  - SIP-Domäne/n (Session Initiation Protocol). Dies ist das Domänensuffix des SIP URI, den die Benutzer derzeit für Chatunterhaltungen verwenden. Wenn es in Ihrer Organisation mehr als eine SIP-Domäne gibt, geben Sie das Suffix jeder Domäne an, die für Chatnachrichten verwendet wird. Geben Sie beispielsweise für "Benutzer1@contoso.com" als SIP-Domäne "contoso.com" an, für "Benutzer1@example.fabrikam.com" geben Sie "example.fabrikam.com" als SIP-Domäne an.
+  - <span data-ttu-id="9489b-156">SIP (Session Initiation Protocol)-Domäne (n).</span><span class="sxs-lookup"><span data-stu-id="9489b-156">Session Initiation Protocol (SIP) domain(s).</span></span> <span data-ttu-id="9489b-157">Dies ist das Domänensuffix des SIP-URIs, den Benutzer derzeit für Chatnachrichten verwenden.</span><span class="sxs-lookup"><span data-stu-id="9489b-157">This is the domain suffix of the SIP URI that users currently use for instant messaging.</span></span> <span data-ttu-id="9489b-158">Wenn Ihre Organisation über mehr als eine SIP-Domäne verfügt, geben Sie das Domänensuffix für jede Domäne an, die für Chatnachrichten verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="9489b-158">If your organization has more than one SIP domain, specify the domain suffix for each domain used for instant messaging.</span></span> <span data-ttu-id="9489b-159">Geben Sie beispielsweise für user1@contoso.com contoso.com für die SIP-Domäne an; Geben Sie für user1@example.fabrikam.com example.fabrikam.com als SIP-Domäne an.</span><span class="sxs-lookup"><span data-stu-id="9489b-159">For example, for user1@contoso.com, specify contoso.com for the SIP domain; for user1@example.fabrikam.com, specify example.fabrikam.com as the SIP domain.</span></span>
+    
+    <div>
     
 
     > [!NOTE]
-    > Geben Sie nur das Domänensuffix der SIP-Domäne an. Geben Sie keine FQDNs für die SIP-Domäne an, auch nicht den FQDN für den Zugriffs-Edgedienst.
+    > <span data-ttu-id="9489b-160">Geben Sie nur das Domänensuffix für die SIP-Domäne an.</span><span class="sxs-lookup"><span data-stu-id="9489b-160">Specify only the domain suffix for the SIP domain.</span></span> <span data-ttu-id="9489b-161">Geben Sie für die SIP-Domäne keine FQDNs an, einschließlich des FQDN für den Access Edge-Dienst.</span><span class="sxs-lookup"><span data-stu-id="9489b-161">Do not specify any FQDNs, including the FQDN for the Access Edge service, for the SIP domain.</span></span>
 
+    
+    </div>
 
+  - <span data-ttu-id="9489b-162">Kontaktinformationen.</span><span class="sxs-lookup"><span data-stu-id="9489b-162">Contact information.</span></span> <span data-ttu-id="9489b-163">Geben Sie eine e-Mail-Adresse für den Administrator jeder von Ihnen angegebenen SIP-Domäne an.</span><span class="sxs-lookup"><span data-stu-id="9489b-163">Specify an e-mail address for the administrator of each SIP domain that you specify.</span></span>
 
-  - Kontaktinformationen: Geben Sie die E-Mail-Adresse des Administrators jeder SIP-Domäne an, die Sie einbeziehen.
+<span data-ttu-id="9489b-164">**F: Wie aktiviere ich die lync-Skype-Konnektivität in einem Szenario mit geteilten Domänen?**</span><span class="sxs-lookup"><span data-stu-id="9489b-164">**Q: How do I enable Lync-Skype Connectivity in a split-domain scenario?**</span></span>
 
-**F: Wie kann ich die Lync-Skype-Konnektivität in einem Szenario mit geteilter Domäne aktivieren?**
+<span data-ttu-id="9489b-165">**A:** Wenn Sie über ein Szenario mit einer lync Online 2013-und lync Server-Domäne mit getrennten Domänen (mit Benutzern sowohl online als auch lokal mit derselben SIP-Domäne) verfügen, aktivieren Sie die lync-Skype-Konnektivität, indem Sie diese beiden Schritte in der folgenden Reihenfolge ausführen.</span><span class="sxs-lookup"><span data-stu-id="9489b-165">**A:** If you have a Lync Online 2013 and Lync Server on-premise split-domain scenario (with users on both online and on-premise using the same SIP domain), enable Lync-Skype Connectivity by doing these two steps in the following order</span></span>
 
-**A:** In einem Szenario mit geteilter Domäne, d. h. wenn Sie sowohl Lync Online 2013 als auch lokal Lync Server nutzen und die Benutzer sowohl online als auch lokal die gleiche SIP-Domäne verwenden, aktivieren Sie die Lync-Skype-Konnektivität mit zwei Schritten in der nachstehenden Reihenfolge:
+1.  <span data-ttu-id="9489b-166">Richten Sie die lokale lync-Skype-Konnektivität ein, wie im PIC-Bereitstellungshandbuch erläutert.</span><span class="sxs-lookup"><span data-stu-id="9489b-166">Set up on-premise Lync-Skype Connectivity as explained in the PIC Provisioning Guide.</span></span>
 
-1.  Richten Sie die Lync-Skype-Konnektivität lokal wie in der Anleitung zur Bereitstellung von Verbindungen mit öffentlichen Instant Messaging-Diensten beschrieben ein.
+2.  <span data-ttu-id="9489b-167">Warten Sie, bis Sie die Bestätigung erhalten, dass Ihre Domäne von Microsoft bereitgestellt wurde.</span><span class="sxs-lookup"><span data-stu-id="9489b-167">Wait until you see confirmation that your domain has been provisioned by Microsoft.</span></span>
 
-2.  Warten Sie, bis eine Bestätigung anzeigt wird, dass Ihre Domäne von Microsoft bereitgestellt wurde.
+3.  <span data-ttu-id="9489b-168">Nachdem Sie die Bestätigung angezeigt haben, verwenden Sie das lync Admin Center, um "externe Kommunikation" zu aktivieren.</span><span class="sxs-lookup"><span data-stu-id="9489b-168">After you see the confirmation, use the Lync admin center to turn on “external communications”.</span></span> <span data-ttu-id="9489b-169">Weitere Informationen finden Sie unter[http://office.microsoft.com/en-us/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/en-us/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)</span><span class="sxs-lookup"><span data-stu-id="9489b-169">For more information, see [http://office.microsoft.com/en-us/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/en-us/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)</span></span>
 
-3.  Nachdem die Bestätigung angezeigt wurde, aktivieren Sie **Externe Kommunikation** im Lync Admin Center. Weitere Informationen finden Sie unter [http://office.microsoft.com/de-de/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/de-de/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356).
+<span data-ttu-id="9489b-170">Diese Reihenfolge ist wichtig.</span><span class="sxs-lookup"><span data-stu-id="9489b-170">This order is important.</span></span><span data-ttu-id="9489b-171">Sie müssen die lokale Konnektivität einrichten, bevor Sie die Kommunikation in lync Online aktivieren.</span><span class="sxs-lookup"><span data-stu-id="9489b-171">  You must set up the on-premise connectivity before you enable the communications in Lync Online.</span></span> <span data-ttu-id="9489b-172">Wenn die Bestellung storniert wird, <https://pic.lync.com> werden die für die lokale Eingabe eingegebenen Informationen nicht durchlaufen.</span><span class="sxs-lookup"><span data-stu-id="9489b-172">If the order is reversed, the information entered for on-premise in <https://pic.lync.com> will not go through.</span></span> <span data-ttu-id="9489b-173">Wenn Sie lync Online für die externe Kommunikation mit dieser Domäne bereits eingerichtet haben, müssen Sie es deaktivieren, 24 Stunden warten und erneut starten, indem Sie zunächst Ihre lokalen Informationen eingeben <https://pic.lync.com> und dann die externe Kommunikation für lync Online aktivieren.</span><span class="sxs-lookup"><span data-stu-id="9489b-173">If you have already set up Lync Online for external communications with this domain, you must turn it off, wait for 24 hours, and start again, first by entering your on-premise information at <https://pic.lync.com> and then turning on external communications for Lync Online.</span></span>
 
-Diese Reihenfolge ist wichtig. Sie müssen die lokale Konnektivität einrichten, bevor Sie die Kommunikation in Lync Online aktivieren. Wird die Reihenfolge nicht eingehalten, können die Informationen, die Sie für die lokale Konnektivität auf <https://pic.lync.com> eingeben, nicht übermittelt werden. Wenn Sie Lync Online bereits für die externe Kommunikation mit dieser Domäne eingerichtet haben, müssen Sie die Option deaktivieren, 24 Stunden warten und dann neu beginnen, indem Sie zuerst die lokalen Informationen auf <https://pic.lync.com> eingeben und dann die externe Kommunikation für Lync Online aktivieren.
+<span data-ttu-id="9489b-174">**F: kann ich für die Skype-Konnektivität mehrere Access-Edge-Service-FQDNs bereitstellen?**</span><span class="sxs-lookup"><span data-stu-id="9489b-174">**Q: Can I provision multiple Access Edge service FQDNs for Skype connectivity?**</span></span>
 
-**F: kann ich mehrere FQDNs für den Zugriffs-Edgedienst für die Skype-Konnektivität bereitstellen?**
+<span data-ttu-id="9489b-175">**A:** Sie können nur einen Access-Edge-FQDN für eine oder mehrere Domänen bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="9489b-175">**A:** You can provision only one access edge FQDN for one or more domains.</span></span> <span data-ttu-id="9489b-176">Wenn Sie über unterschiedliche Domänen verfügen, können Sie mehrere Access-Edge-FQDNs (bis zu 10 pro Anforderung) bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="9489b-176">You can provision multiple access edge FQDNs, up to 10 per request, if they have distinct domains.</span></span>
 
-**A:** Sie können mit jeder Bereitstellungsanforderung bis zu 10 FQDNs für den Zugriffs-Edgedienst bereitstellen.
+<span data-ttu-id="9489b-177">**F: kann ich eine Liste der e-Mail-Adressen von Microsoft-Konten abrufen, die für die Organisation, die die Bereitstellung beantragt, gefunden werden?**</span><span class="sxs-lookup"><span data-stu-id="9489b-177">**Q: Can I obtain the list of Microsoft Account e-mail addresses that you find for the organization requesting provisioning?**</span></span>
 
-**F: Kann ich die Liste mit den E-Mail-Adressen der Microsoft-Konten bekommen, bei Ihnen für die Organisation vorliegt, die die Bereitstellung anfordert?**
+<span data-ttu-id="9489b-178">**A:** Nein.</span><span class="sxs-lookup"><span data-stu-id="9489b-178">**A:** No.</span></span> <span data-ttu-id="9489b-179">Diese Adressen gelten als persönlich identifizierbare Informationen und werden nicht freigegeben.</span><span class="sxs-lookup"><span data-stu-id="9489b-179">These addresses are considered personally identifiable information and are not shared.</span></span>
 
-**A:** Nein. Diese Adressen enthalten Informationen, über die die jeweiligen Benutzer persönlich identifiziert werden können und werden daher nicht weitergegeben.
+<span data-ttu-id="9489b-180">**F: Wie kann ich einen Windows Live Messenger-Kontakt hinzufügen, dessen ID eine andere Domäne als die von Windows Live unterstützten enthält?**</span><span class="sxs-lookup"><span data-stu-id="9489b-180">**Q: How do I add a Windows Live Messenger contact that has an ID containing a domain other than those supported by Windows Live?**</span></span>
 
-**F: Wie kann ich einen Windows Live Messenger-Kontakt hinzufügen, dessen ID eine andere Domäne als die von Windows Live unterstützten enthält?**
+<span data-ttu-id="9489b-181">**A:** Wenn Sie einen Windows Live Messenger-Benutzer mit einem Konto oder einer ID mit einer nicht-Windows Live-Domäne hinzufügen, geben Sie die Adresse im \<folgenden Format\>ein\<: Benutzer\>Name (Domänenname) @MSN \<. com\> , wobei Domänenname das Domänenname in der e-Mail-Adresse des Benutzers.</span><span class="sxs-lookup"><span data-stu-id="9489b-181">**A:** If you are adding a Windows Live Messenger user with an account or ID with a non-Windows Live domain, enter the address in the following format: \<user name\>(\<domain name\>)@msn.com, where \<domain name\> is the domain name in the e-mail address of the user.</span></span> <span data-ttu-id="9489b-182">Wenn Sie beispielsweise Ted@contoso.com hinzufügen möchten, verwenden Sie das folgende Format: Ted (contoso. com) @MSN. com.</span><span class="sxs-lookup"><span data-stu-id="9489b-182">For example, if you wanted to add ted@contoso.com, you would use the following format: ted(contoso.com)@msn.com.</span></span> <span data-ttu-id="9489b-183">Eine Liste der Domänen, die von Windows Live verwaltet werden, finden Sie im Abschnitt unterstützte Domänen unter "bekannte Probleme, die bei öffentlichen Sofortnachrichten auftreten, nachdem Sie Live Communications Server Service Pack 1 http://support.microsoft.com/?kbid=897567" unter installiert haben.</span><span class="sxs-lookup"><span data-stu-id="9489b-183">For a list of domains that are administered by Windows Live, see the Supported Domains section in “Known Issues That Occur with Public Instant Messaging After You Install Live Communications Server Service Pack 1” at http://support.microsoft.com/?kbid=897567.</span></span>
 
-**A:** Wenn Sie einen Windows Live Messenger-Benutzer mit einem Konto oder einer ID hinzufügen, die eine andere Domäne als die von Windows Live unterstützten enthält, geben Sie die Adresse im folgenden Format ein: \<Benutzername\>(\<Domänenname\>)@msn.com, wobei \<Domänenname\> der Domänenname in der E-Mail-Adresse des Benutzers ist. Wenn Sie beispielsweise "ted@contoso.com" hinzufügen möchten, verwenden Sie das Format "ted(contoso.com)@msn.com". Eine Liste der Domänen, die von Windows Live verwaltet werden, finden Sie im Abschnitt "Unterstützte Domänen" im Artikel "Bekannte Probleme mit öffentlichen Instant Messaging-Diensten nach der Installation von Live Communications Server Service Pack 1" an "http://support.microsoft.com/?kbid=897567".
+<span data-ttu-id="9489b-184">**F: wie lange dauert der Bereitstellungsprozess?**</span><span class="sxs-lookup"><span data-stu-id="9489b-184">**Q: How long does the provisioning process take?**</span></span>
 
-**F: Wie lange dauert der Bereitstellungsprozess?**
+<span data-ttu-id="9489b-185">**A:** Die Bereitstellung kann bis zu 30 Tage dauern.</span><span class="sxs-lookup"><span data-stu-id="9489b-185">**A:** Provisioning can take up to 30 days.</span></span>
 
-**A:** Die Bereitstellung kann bis zu 30 Tage in Anspruch nehmen.
+<span data-ttu-id="9489b-186">**F: Wie kann ich feststellen, ob die Bereitstellung abgeschlossen ist?**</span><span class="sxs-lookup"><span data-stu-id="9489b-186">**Q: How will I know when provisioning is complete?**</span></span>
 
-**F: Wie erfahre ich, wann die Bereitstellung abgeschlossen ist?**
+<span data-ttu-id="9489b-187">**A:** Microsoft sendet eine e-Mail-Benachrichtigung, wenn die Bereitstellung abgeschlossen ist.</span><span class="sxs-lookup"><span data-stu-id="9489b-187">**A:** Microsoft will send e-mail notification when provisioning is complete.</span></span>
 
-**A:** Microsoft sendet Ihnen nach Abschluss der Bereitstellung eine E-Mail-Benachrichtigung.
+<span data-ttu-id="9489b-188">**F: Wie kann ich die von mir gesendeten Konfigurations-oder Kontaktdetails aktualisieren?**</span><span class="sxs-lookup"><span data-stu-id="9489b-188">**Q: How can I update the configuration or contact details that I submit?**</span></span>
 
-**F: Wie kann ich die Konfigurations- oder Kontaktdetails aktualisieren, die ich übermittelt habe?**
+<span data-ttu-id="9489b-189">**A:** Nach Abschluss der Bereitstellung können Sie Ihre Informationen auf der Website aktualisieren, die Sie zum Anfordern der Bereitstellung verwendet haben.</span><span class="sxs-lookup"><span data-stu-id="9489b-189">**A:** You can update your information at the same web site that you used to request provisioning, after provisioning is complete.</span></span> <span data-ttu-id="9489b-190">Geben Sie Ihre Vertragsnummer ein, und klicken Sie dann auf Dienst aktualisieren.</span><span class="sxs-lookup"><span data-stu-id="9489b-190">Enter your agreement number, and then click Update service.</span></span>
 
-**A:** Sie können Ihre Angaben nach Abschluss der Bereitstellung auf der gleichen Website aktualisieren, auf der Sie auch die Bereitstellung angefordert haben. Geben Sie Ihre Vertragsnummer ein, und klicken Sie auf **Dienst aktualisieren**.
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

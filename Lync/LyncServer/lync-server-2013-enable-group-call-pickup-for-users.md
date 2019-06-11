@@ -1,38 +1,76 @@
-﻿---
-title: Aktivieren der Gruppenanrufannahme für Benutzer
-TOCTitle: Aktivieren der Gruppenanrufannahme für Benutzer
-ms:assetid: 20ec5f41-6ba2-4156-82ed-b91d05b62a6d
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ945620(v=OCS.15)
-ms:contentKeyID: 52056301
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Aktivieren der Gruppenanruf Abholung für Benutzer'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable Group Call Pickup for users
+ms:assetid: 20ec5f41-6ba2-4156-82ed-b91d05b62a6d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945620(v=OCS.15)
+ms:contentKeyID: 51541457
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b54abf04c7c0d892e5cc58938866592f96cc1776
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832313"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Aktivieren der Gruppenanrufannahme für Benutzer
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2013-01-30_
+# <a name="enable-group-call-pickup-for-users-in-lync-server-2013"></a><span data-ttu-id="dcc5d-102">Aktivieren der Gruppenanruf Abholung für Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dcc5d-102">Enable Group Call Pickup for users in Lync Server 2013</span></span>
 
-Aktivieren Sie die Gruppenanrufannahme für Benutzer mithilfe des SEFAUtil-Resource Kit-Tools. Damit Benutzer die Gruppenanrufannahme nutzen können, muss ihnen in der Orbittabelle für das Parken von Anrufen eine Gruppennummer vom Typ "GroupPickup" zugewiesen sein. Die Zuweisung einer Nummer für die Anrufannahmegruppe und die Aktivierung der Gruppenanrufannahme erfolgen gleichzeitig durch das Verwenden des Parameters "/enablegrouppickup", wenn Sie "SEFAUtil.exe" ausführen.
+</div>
 
-## So aktivieren Sie die Gruppenanrufannahme für einen Benutzer
+<div id="mainSection">
 
-1.  Melden Sie sich mit Administratorrechten an dem Computer an, auf dem Sie das SEFAUtil-Tool installiert haben.
+<div id="mainBody">
 
-2.  Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
+<span> </span>
+
+<span data-ttu-id="dcc5d-103">_**Letztes Änderungsdatum des Themas:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="dcc5d-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+
+<span data-ttu-id="dcc5d-104">Verwenden Sie das SEFAUtil Resource Kit-Tool, um die Gruppenanruf Abholung für Benutzer zu aktivieren.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-104">Use the SEFAUtil resource kit tool to enable Group Call Pickup for users.</span></span> <span data-ttu-id="dcc5d-105">Benutzern muss eine Gruppennummer mit dem Typ GroupPickup in der Orbit-Tabelle des Anruf Parks zugewiesen werden, damit die Gruppenanruf Abholung aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-105">Users must be assigned a group number with type GroupPickup in the call park orbit table to have Group Call Pickup enabled.</span></span> <span data-ttu-id="dcc5d-106">Sie weisen eine Gruppennummer für die Anruf Abholung zu und aktivieren die Gruppenanruf Abholung gleichzeitig mithilfe des/enablegrouppickup-Parameters, wenn Sie "SEFAUtil. exe" ausführen.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-106">You assign a call pickup group number and enable Group Call Pickup at the same time by using the /enablegrouppickup parameter when you run SEFAUtil.exe.</span></span>
+
+<div>
+
+## <a name="to-enable-group-call-pickup-for-a-user"></a><span data-ttu-id="dcc5d-107">So aktivieren Sie die Gruppenanruf Abholung für einen Benutzer</span><span class="sxs-lookup"><span data-stu-id="dcc5d-107">To enable Group Call Pickup for a user</span></span>
+
+1.  <span data-ttu-id="dcc5d-108">Melden Sie sich mit Administratorrechten an dem Computer an, auf dem Sie das SEFAUtil-Tool installiert haben.</span><span class="sxs-lookup"><span data-stu-id="dcc5d-108">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
+
+2.  <span data-ttu-id="dcc5d-109">Führen Sie an der Eingabeaufforderung folgenden Befehl aus:</span><span class="sxs-lookup"><span data-stu-id="dcc5d-109">At the command line, run:</span></span>
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
     
-    Beispiel:
+    <span data-ttu-id="dcc5d-110">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="dcc5d-110">For example:</span></span>
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
 
-## Siehe auch
+</div>
 
-#### Aufgaben
+<div>
 
-[Zuweisen von Nummern für die Gruppenanrufannahme an Benutzer](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
-[Deaktivieren der Gruppenanrufannahme für Benutzer](lync-server-2013-disable-group-call-pickup-for-users.md)
+## <a name="see-also"></a><span data-ttu-id="dcc5d-111">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="dcc5d-111">See Also</span></span>
+
+
+[<span data-ttu-id="dcc5d-112">Zuweisen von Gruppenanruf-Abhol Nummern zu Benutzern in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dcc5d-112">Assign Group Call Pickup numbers to users in Lync Server 2013</span></span>](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
+[<span data-ttu-id="dcc5d-113">Deaktivieren der Gruppenanruf Abholung für Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dcc5d-113">Disable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-disable-group-call-pickup-for-users.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,51 +1,88 @@
-﻿---
-title: Aktivieren oder Deaktivieren der Integration mit Exchange-Speicher
-TOCTitle: Aktivieren oder Deaktivieren der Integration mit Exchange-Speicher
-ms:assetid: c08b9ba5-04f6-452a-b44c-c130f1564a34
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205228(v=OCS.15)
-ms:contentKeyID: 49295289
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Aktivieren oder Deaktivieren der Integration in Exchange-Speicher'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling or disabling integration with Exchange storage
+ms:assetid: c08b9ba5-04f6-452a-b44c-c130f1564a34
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205228(v=OCS.15)
+ms:contentKeyID: 48185295
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8d2ded7e4cf586faf1f15ea6205aa23802413dc9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832236"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Aktivieren oder Deaktivieren der Integration mit Exchange-Speicher
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-09_
+# <a name="enabling-or-disabling-integration-of-lync-server-2013-with-exchange-storage"></a><span data-ttu-id="610f9-102">Aktivieren oder Deaktivieren der Integration von lync Server 2013 mit Exchange-Speicher</span><span class="sxs-lookup"><span data-stu-id="610f9-102">Enabling or disabling integration of Lync Server 2013 with Exchange storage</span></span>
 
-In der Systemsteuerung für Lync Server 2013 aktivieren bzw. deaktivieren Sie mithilfe von Archivierungskonfigurationen die Integration von Exchange-Speicher. Dies beinhaltet die folgenden Archivierungskonfigurationen:
+</div>
 
-  - Eine globale Konfiguration, die beim Bereitstellen von Lync Server 2013 standardmäßig erstellt wird.
+<div id="mainSection">
 
-  - Optionale Konfigurationen auf Standard- und Poolebene, die Sie erstellen und verwenden können, um anzugeben, wie die Archivierung für bestimmte Standorte oder Pools implementiert wird.
+<div id="mainBody">
 
-Ausführliche Informationen zur Implementierung der Archivierungskonfigurationen, einschließlich der Optionen, die Sie angeben können, und der Hierarchie der Archivierungskonfigurationen, finden Sie unter [Funktionsweise der Archivierung in Lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungs-, Bereitstellungs- oder Betriebsdokumentation.
+<span> </span>
 
-## So aktivieren oder deaktivieren Sie die Integration von Microsoft Exchange-Speicher
+<span data-ttu-id="610f9-103">_**Letztes Änderungsdatum des Themas:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="610f9-103">_**Topic Last Modified:** 2012-10-09_</span></span>
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsArchivingAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+<span data-ttu-id="610f9-104">In der lync Server 2013-Systemsteuerung verwenden Sie Archivierungs Konfigurationen, um die Integration in Exchange-Speicher zu aktivieren und zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="610f9-104">In Lync Server 2013 Control Panel, you use Archiving configurations to enable and disable integration with Exchange storage.</span></span> <span data-ttu-id="610f9-105">Dies umfasst die folgenden Archivierungs Konfigurationen:</span><span class="sxs-lookup"><span data-stu-id="610f9-105">This includes the following Archiving configurations:</span></span>
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+  - <span data-ttu-id="610f9-106">Eine globale Konfiguration, die standardmäßig beim Bereitstellen von lync Server 2013 erstellt wird.</span><span class="sxs-lookup"><span data-stu-id="610f9-106">A global configuration that is created by default when you deploy Lync Server 2013.</span></span>
 
-3.  Klicken Sie auf der linken Navigationsleiste auf **Überwachung und Archivierung** und anschließend auf **Archivierungskonfiguration**.
+  - <span data-ttu-id="610f9-107">Optionale Konfigurationen auf Websiteebene und auf Poolebene, die Sie erstellen und verwenden können, um anzugeben, wie die Archivierung für bestimmte Websites oder Pools implementiert werden soll.</span><span class="sxs-lookup"><span data-stu-id="610f9-107">Optional site-level and pool-level configurations that you can create and use to specify how archiving is implemented for specific sites or pools.</span></span>
 
-4.  Klicken Sie in der Liste mit den Archivierungskonfigurationen auf den Namen der entsprechenden globalen, Standort- oder Poolkonfiguration, klicken Sie auf **Bearbeiten**, klicken Sie auf **Details einblenden**, und führen Sie eine der folgenden Aktionen aus:
+<span data-ttu-id="610f9-108">Ausführliche Informationen zur Implementierung von Archivierungs Konfigurationen, einschließlich der Optionen, die Sie angeben können, und der Hierarchie der Archivierungs Konfigurationen finden Sie unter [wie funktioniert die Archivierung in lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungsdokumentation, Bereitstellung Dokumentation oder Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="610f9-108">For details about how Archiving configurations are implemented, including which options you can specify and the hierarchy of Archiving configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
+
+<div>
+
+## <a name="to-enable-or-disable-integration-with-microsoft-exchange-storage"></a><span data-ttu-id="610f9-109">So aktivieren oder deaktivieren Sie die Integration in den Microsoft Exchange-Speicher</span><span class="sxs-lookup"><span data-stu-id="610f9-109">To enable or disable integration with Microsoft Exchange storage</span></span>
+
+1.  <span data-ttu-id="610f9-110">Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsArchivingAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="610f9-110">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="610f9-111">Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="610f9-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="610f9-112">Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="610f9-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="610f9-113">Klicken Sie auf der linken Navigationsleiste auf **Überwachung und Archivierung** und anschließend auf **Archivierungskonfiguration**.</span><span class="sxs-lookup"><span data-stu-id="610f9-113">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
+
+4.  <span data-ttu-id="610f9-114">Klicken Sie in der Liste der Archivierungskonfigurationen auf den Namen der betreffenden Konfiguration auf globaler, Standort- oder Poolebene. Klicken Sie auf **Bearbeiten** und auf **Details anzeigen** und führen Sie dann eine der folgenden Aktionen aus:</span><span class="sxs-lookup"><span data-stu-id="610f9-114">Click the name of the appropriate global, site, or pool configuration in the list of archiving configurations, click **Edit**, click **Show details**, and then do the following:</span></span>
     
-      - Aktivieren Sie das Kontrollkästchen **Microsoft Exchange-Integration**, um die Integration von Exchange 2013-Speicher zu aktivieren.
+      - <span data-ttu-id="610f9-115">Wenn Sie die Integration in Exchange 2013-Speicher aktivieren möchten, aktivieren Sie das Kontrollkästchen **Microsoft Exchange-Integration** .</span><span class="sxs-lookup"><span data-stu-id="610f9-115">To enable integration with Exchange 2013 storage, select the **Microsoft Exchange integration** check box.</span></span>
     
-      - Deaktivieren Sie das Kontrollkästchen **Microsoft Exchange-Integration**, um die Integration von Exchange 2013-Speicher zu deaktivieren.
+      - <span data-ttu-id="610f9-116">Deaktivieren Sie das Kontrollkästchen **Microsoft Exchange-Integration** , um die Integration in Exchange 2013-Speicher zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="610f9-116">To disable integration with Exchange 2013 storage, clear the **Microsoft Exchange integration** check box.</span></span>
 
-5.  Klicken Sie auf **Commit ausführen**.
+5.  <span data-ttu-id="610f9-117">Klicken Sie auf **Commit ausführen**.</span><span class="sxs-lookup"><span data-stu-id="610f9-117">Click **Commit**.</span></span>
 
-## Siehe auch
+</div>
 
-#### Konzepte
+<div>
 
-[Funktionsweise der Archivierung in Lync Server 2013](lync-server-2013-how-archiving-works.md)  
+## <a name="see-also"></a><span data-ttu-id="610f9-118">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="610f9-118">See Also</span></span>
 
-#### Weitere Ressourcen
 
-[Verwalten von Konfigurationsoptionen für die Archivierung in Lync Server 2013 für Ihre Organisation, Standorte und Pools](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
+[<span data-ttu-id="610f9-119">Funktionsweise der Archivierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="610f9-119">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)  
+
+
+[<span data-ttu-id="610f9-120">Verwalten von Archivierungs Konfigurationsoptionen in lync Server 2013 für Ihre Organisation, ihre Websites und Pools</span><span class="sxs-lookup"><span data-stu-id="610f9-120">Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools</span></span>](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

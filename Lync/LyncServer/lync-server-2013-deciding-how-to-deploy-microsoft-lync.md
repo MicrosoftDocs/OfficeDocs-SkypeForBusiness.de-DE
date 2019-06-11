@@ -1,45 +1,83 @@
-﻿---
-title: 'Lync Server 2013: Entscheiden, wie Microsoft Lync bereitgestellt werden soll'
-TOCTitle: Entscheiden, wie Microsoft Lync bereitgestellt werden soll
-ms:assetid: 6ca677d3-745d-4935-8f05-19274a8bccf2
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204979(v=OCS.15)
-ms:contentKeyID: 49294322
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Entscheiden, wie Microsoft Lync bereitgestellt werden soll'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deciding how to deploy Microsoft Lync
+ms:assetid: 6ca677d3-745d-4935-8f05-19274a8bccf2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204979(v=OCS.15)
+ms:contentKeyID: 48184423
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d641f4da1884c1fb6e84eefb2127490f2ed3c4a9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832730"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Entscheiden, wie Lync Server 2013 bereitgestellt werden soll
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-03_
+# <a name="deciding-how-to-deploy-lync-server-2013"></a><span data-ttu-id="ce956-102">Entscheiden, wie Lync Server 2013 bereitgestellt werden soll</span><span class="sxs-lookup"><span data-stu-id="ce956-102">Deciding how to deploy Lync Server 2013</span></span>
 
-Bei Ihrer Planung für Lync ist es zunächst wichtig zu entscheiden, wie Microsoft Lync bereitgestellt wird: lokal als Lync Server 2013 oder als Skype for Business Online mit Microsoft Office 365 in der Cloud.
+</div>
 
-  - **Lokale Lync Server 2013-Bereitstellung :** Bei dieser Auswahl stehen Ihnen die gesamten Lync-Features zur Verfügung und Sie erhalten bzgl. Konfiguration, Anpassung und Betrieb Ihrer Bereitstellung die größte Flexibilität. Alle Server werden vor Ort installiert und von Ihrer Organisation verwaltet. Bei einer lokalen Bereitstellung verfügen Sie über das gesamte Featurepaket von Lync Server.
+<div id="mainSection">
 
-  - **Skype for Business Online in der Cloud :** Skype for Business Online eignet sich für Organisationen, die die Vorteile eines kostengünstigen und flexiblen cloudbasierten Sofortnachrichten-, Anwesenheits- und Konferenzdiensts nutzen möchten, ohne auf die erstklassigen Funktionen von Lync Server zu verzichten. Mit Skype for Business Online stellt Microsoft die erforderliche Serverinfrastruktur samt Verwaltung bereit, und kümmert sich um die laufende Wartung, Patches und Upgrades. Einige Features, die in einer lokalen Bereitstellung verfügbar sind, sind in Skype for Business Online nicht vorhanden.
+<div id="mainBody">
 
-Welcher Bereitstellungstyp am besten für Sie geeignet ist, hängt von den Arbeitsauslastungen, die Sie bereitstellen möchten, sowie vom geografischen und wirtschaftlichen Status Ihrer Organisation ab.
+<span> </span>
 
-## Lync Server
+<span data-ttu-id="ce956-103">_**Letztes Änderungsdatum des Themas:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="ce956-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-Eine lokale Lync Server-Bereitstellung eignet sich am besten für folgende Szenarien:
+<span data-ttu-id="ce956-104">Bei der Planung für lync ist die erste wichtige Entscheidung, wie Microsoft lync bereitgestellt wird: als lync Server 2013 lokal oder lync online mit Microsoft Office 365 in der Cloud.</span><span class="sxs-lookup"><span data-stu-id="ce956-104">When planning for Lync, the first major decision is how to deploy Microsoft Lync: as Lync Server 2013 on premises, or Lync Online with Microsoft Office 365 in the cloud.</span></span>
 
-  - **Komplette Enterprise Voice-Funktionen**   Wenn Sie die Bereitstellung einer vollständigen Enterprise Voice -Lösung planen, um Ihre Nebenstellenanlage (PBX) oder eine andere Einrichtung, mit der erweiterte Anruffunktionen genutzt werden, zu ersetzten, ist eine lokale Lync Server-Bereitstellung erforderlich. Eine lokale Bereitstellung unterstützt die direkte Konnektivität mit den Nebenstellenanlagen und Trunks sowie erweiterte Telefonfunktionen, wie Reaktionsgruppen und das Parken von Anrufen. Lync Online unterstützt diese Features derzeit nicht.
+  - <span data-ttu-id="ce956-105">**Lync Server 2013 lokal** : Diese Auswahl bietet den vollständigen lync-Funktionssatz und bietet höchste Flexibilität bei der Konfiguration, dem anpassen und dem Betrieb Ihrer Bereitstellung.</span><span class="sxs-lookup"><span data-stu-id="ce956-105">**Lync Server 2013 on-premises** : This choice provides the complete Lync feature set and provides ultimate flexibility in configuring, customizing, and operating your deployment.</span></span> <span data-ttu-id="ce956-106">Alle Server werden vor Ort installiert und von Ihrer Organisation verwaltet.</span><span class="sxs-lookup"><span data-stu-id="ce956-106">All servers are installed onsite and maintained by your organization.</span></span> <span data-ttu-id="ce956-107">Eine lokale Bereitstellung bietet die gesamte Palette der lync Server-Funktionen.</span><span class="sxs-lookup"><span data-stu-id="ce956-107">An on-premises deployment provides the full range of Lync Server features.</span></span>
 
-  - **Kontrolle der Medienqualität**   Falls Sie über die gesamte Palette an Features zur Sicherung der Medienqualität verfügen möchten, beispielsweise Anrufsteuerungs (Call Admission Control, CAC)- und Dienstqualitätsfeatures (Quality of Service, QoS) benötigen Sie eine lokale Bereitstellung.
+  - <span data-ttu-id="ce956-108">**Lync Online in der Cloud** Lync Online ist für Organisationen konzipiert, die den Kosten-und Agilitäts Vorteil von Cloud-basiertem Instant Messaging, Anwesenheitsinformationen und Besprechungen benötigen, ohne die Business-Class-Funktionen von lync Server zu beeinträchtigen.</span><span class="sxs-lookup"><span data-stu-id="ce956-108">**Lync Online in the cloud** Lync Online is designed for organizations that want the cost and agility benefits of cloud-based instant messaging, presence, and meetings without sacrificing the business-class capabilities of Lync Server.</span></span> <span data-ttu-id="ce956-109">Mit lync Online stellt Microsoft die erforderliche Serverinfrastruktur bereit und verwaltet Sie und verarbeitet laufende Wartung, Patches und Upgrades.</span><span class="sxs-lookup"><span data-stu-id="ce956-109">With Lync Online, Microsoft deploys and maintains the required server infrastructure, and handles ongoing maintenance, patches, and upgrades.</span></span> <span data-ttu-id="ce956-110">Einige Features, die in einer lokalen Bereitstellung verfügbar sind, stehen in lync Online nicht zur Verfügung.</span><span class="sxs-lookup"><span data-stu-id="ce956-110">Some features available in an on-premises deployment are not available in Lync Online.</span></span>
 
-  - **Beständiger Chat**   Wenn Sie den beständigen Chat für Ihre Organisation bereitstellen möchten, sollten Sie sich für eine lokale Bereitstellung entscheiden.
+<span data-ttu-id="ce956-111">Welche Art der Bereitstellung für Sie am besten geeignet ist, hängt von den Arbeitsauslastungen, die Sie bereitstellen möchten, und dem geografischen und geschäftlichen Status Ihrer Organisation ab.</span><span class="sxs-lookup"><span data-stu-id="ce956-111">Which type of deployment would be best for you depends on the workloads you want to deploy, and your organization’s geographical and business status.</span></span>
 
-  - **Serveranwendungen von Drittanbietern**   Nur lokale Bereitstellungen unterstützen vertrauenswürdige Drittanbieteranwendungen, die das Microsoft Unified Communications Managed API (UCMA) verwenden.
+<div>
 
-  - **Multinationale/Multiregionale Unternehmen, die regionale Unterstützung benötigen**   Wenn Sie Rechenzentren in mehreren Ländern und Regionen haben und darauf angewiesen sind, dass Server auf regionaler Ebene bereitgestellt und verwaltet werden, eignet sich eine lokale Bereitstellung am besten, da sie derartige regionale Verwaltungsfunktionen ermöglicht.
+## <a name="lync-server"></a><span data-ttu-id="ce956-112">Lync Server</span><span class="sxs-lookup"><span data-stu-id="ce956-112">Lync Server</span></span>
 
-  - **Vollständige Kontrolle über Richtlinien, Berichte und Upgrades**   Bei einer lokalen Lync Server-Bereitstellung haben Sie Zugriff auf sämtliche Server- und Clientrichtlinien, auf die Überwachung und andere Berichte und den Zeitpunkt von Upgrades. Lync Online bietet einen Teil der Richtlinieneinstellungen und ein begrenztes, jedoch bedeutendes Fenster, in dem Upgrades akzeptiert werden können.
+<span data-ttu-id="ce956-113">Eine lokale lync Server-Bereitstellung eignet sich am besten für die folgenden Szenarien:</span><span class="sxs-lookup"><span data-stu-id="ce956-113">An on-premises Lync Server deployment is best for the following scenarios:</span></span>
 
-## Lync Online
+  - <span data-ttu-id="ce956-114">**Vollständige Enterprise-VoIP-Funktionen**   Wenn Sie beabsichtigen, eine vollständige Enterprise-VoIP-Lösung bereitzustellen, um Ihre Telefonanlage zu ersetzen oder erweiterte Anruffunktionen verwendet, ist eine lokale lync Server-Bereitstellung erforderlich.</span><span class="sxs-lookup"><span data-stu-id="ce956-114">**Full Enterprise Voice Capabilities**   If you plan to deploy a full Enterprise Voice solution to replace your PBX or which uses advanced calling features, an on-premises Lync Server deployment is required.</span></span> <span data-ttu-id="ce956-115">Lokale Unterstützung bietet direkte Konnektivität mit PBX-Systemen und-Stämmen sowie erweiterte Telefonfunktionen wie Reaktionsgruppen und Parken von anrufen.</span><span class="sxs-lookup"><span data-stu-id="ce956-115">On-premises supports direct connectivity with PBX systems and trunks, and advanced phone features such as response groups and call park.</span></span> <span data-ttu-id="ce956-116">Lync Online unterstützt diese Features zurzeit nicht.</span><span class="sxs-lookup"><span data-stu-id="ce956-116">Lync Online does not currently support these features.</span></span>
 
-Falls keiner der in der Liste aufgeführten Faktoren für Sie von entscheidender Bedeutung ist, sollten Sie sich für Lync Online entscheiden, das einfacher bereitzustellen und zu verwalten ist. Lync Online bietet eine solide Auswahl an Sofortnachrichten-, Anwesenheits- und Konferenzfeatures und ermöglicht zudem Sprach- und Videoanrufe über IP zwischen Benutzern innerhalb Ihrer Organisation.
+  - <span data-ttu-id="ce956-117">**Steuerelemente**   für die Medienqualität Wenn Sie die gesamte Bandbreite der Medien Qualitätssicherungs-Features wie Anrufannahme Steuerung (CAC) und Quality of Service (QoS)-Features benötigen, benötigen Sie eine lokale Bereitstellung.</span><span class="sxs-lookup"><span data-stu-id="ce956-117">**Media Quality Controls**   If you want the full range of media quality assurance features, such as Call Admission Control (CAC) and Quality of Service (QoS) features, you will want an on-premises deployment .</span></span>
+
+  - <span data-ttu-id="ce956-118">**Beständiger Chat**   Wenn Sie den beständigen Chat für Ihre Organisation bereitstellen müssen, müssen Sie eine lokale Bereitstellung auswählen.</span><span class="sxs-lookup"><span data-stu-id="ce956-118">**Persistent Chat**   If you need to deploy Persistent chat for your organization, you must choose an on-premises deployment.</span></span>
+
+  - <span data-ttu-id="ce956-119">**Server Anwendungen**   von Drittanbietern nur lokale Bereitstellungen können mit vertrauenswürdigen Drittanbieteranwendungen funktionieren, die die Microsoft Unified Communications Managed API (UCMA) verwenden.</span><span class="sxs-lookup"><span data-stu-id="ce956-119">**3rd-Party Server Applications**   Only on-premises deployments can work with trusted 3rd-party applications that use the Microsoft Unified Communications Managed API (UCMA).</span></span>
+
+  - <span data-ttu-id="ce956-120">**Multi-National/Multi-Regional-Unternehmen, die regionale Unterstützung**   benötigen wenn Sie Rechenzentren in mehreren Ländern oder Regionen haben und Server auf regionaler Basis bereitgestellt und verwaltet werden müssen, ist eine lokale Bereitstellung am besten, da Sie diesen Typ bereitstellt. der regionalen Verwaltungsfunktionen.</span><span class="sxs-lookup"><span data-stu-id="ce956-120">**Multi-National/Multi-Regional Companies Needing Regional Support**   If you have datacenters in multiple countries or regions and need servers to be deployed and managed on a regional basis, an on-premises deployment is best, as it provides this type of regional management capabilities.</span></span>
+
+  - <span data-ttu-id="ce956-121">**Vollständige Kontrolle über Richtlinien, Berichte und Upgrades**   mit einer lokalen lync Server-Bereitstellung haben Sie Zugriff auf den vollständigen Satz von Server-und Clientrichtlinien, auf Überwachungs-und andere Berichte sowie auf die Anzeigedauer von Upgrades.</span><span class="sxs-lookup"><span data-stu-id="ce956-121">**Complete control over policies, reports, and upgrades**   With an on premises Lync Server deployment, you have access to the full set of server and client policies, Monitoring and other reports, and timing of upgrades.</span></span> <span data-ttu-id="ce956-122">Lync Online bietet eine Teilmenge der Richtlinieneinstellungen und-Berichte und bietet ein limitiertes, wenn auch erhebliches Fenster für das akzeptieren von Upgrades.</span><span class="sxs-lookup"><span data-stu-id="ce956-122">Lync Online provides a subset of policy setting and reports, and provides a limited, though significant, window for accepting upgrades.</span></span>
+
+</div>
+
+<div>
+
+## <a name="lync-online"></a><span data-ttu-id="ce956-123">Lync Online</span><span class="sxs-lookup"><span data-stu-id="ce956-123">Lync Online</span></span>
+
+<span data-ttu-id="ce956-124">Wenn keiner der Faktoren in der vorstehenden Liste für Sie von entscheidender Bedeutung ist, sollten Sie lync online zur einfacheren Bereitstellung und Verwaltbarkeit auswählen.</span><span class="sxs-lookup"><span data-stu-id="ce956-124">If none of the factors in the preceding list are critical for you, you may want to choose Lync Online, for simpler deployment and manageability.</span></span> <span data-ttu-id="ce956-125">Lync Online bietet eine robuste Chat-, Anwesenheits-und Konferenz Funktionsgruppe und ermöglicht auch sprach-und Videoanrufe über IP zwischen Benutzern in Ihrer Organisation.</span><span class="sxs-lookup"><span data-stu-id="ce956-125">Lync Online provides a robust IM, presence and conferencing feature set, and also enables voice and video calls over IP between users in your organization.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

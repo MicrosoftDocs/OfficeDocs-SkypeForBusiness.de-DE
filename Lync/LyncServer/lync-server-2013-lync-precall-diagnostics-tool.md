@@ -1,150 +1,189 @@
-﻿---
-title: Lync PreCall-Diagnosetool
-TOCTitle: Lync PreCall-Diagnosetool
-ms:assetid: 0ff291ec-cfb4-43eb-b5d6-a7a325681e3f
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn451255(v=OCS.15)
-ms:contentKeyID: 59373610
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: lync-Tool zur voranruf Diagnose'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync PreCall Diagnostics Tool
+ms:assetid: 0ff291ec-cfb4-43eb-b5d6-a7a325681e3f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn451255(v=OCS.15)
+ms:contentKeyID: 56708404
+ms.date: 11/04/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1e22b542a5840714455d4abdb0a7163e6a8ba748
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831926"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync PreCall-Diagnosetool
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a><span data-ttu-id="4b87e-102">Lync-Tool für die voranruf Diagnose in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4b87e-102">Lync PreCall Diagnostics Tool in Lync Server 2013</span></span>
 
-Das Lync PreCall-Diagnosetool (PCD) ist eine clientbasierte Anwendung, die es Ihnen ermöglicht zu sehen, welchen Einfluss der aktuelle Zustand Ihres Netzwerks bei einem anstehende Enterprise-VoIP-Anruf ggf. auf die Audioqualität hat.
+</div>
 
-PCD ist insbesondere in Szenarien nützlich, in denen der letzte Hop eines Netzwerks wahrscheinlich das schwächste Glied ist (beispielsweise Laptops in einem öffentlichen Wi-Fi-Netzwerk oder Privatbenutzer). PCD erstellt einen kleinen Paketstream, der diesen letzten Abschnitt des Netzwerks durchquert. Anschließend analysiert das Tool den Paketstream, um die voraussichtlichen Auswirkungen von Jitter und Verlust in diesem Abschnitt auf die Anrufqualität zu ermitteln und einen entsprechenden Bericht bereitzustellen. PCD kann kontinuierlich auf dem Client ausgeführt werden, sogar wenn Anrufe getätigt werden. Der Paketstream hat keine wesentlichen Auswirkungen auf die Bandbreite.
+<div id="mainSection">
 
-**Die neueste Version des PCD, Version 1.1, umfasst die folgenden Verbesserungen:**
+<div id="mainBody">
 
-  - Unterstützung für längere Kennwörter, die jetzt bis zu 127 Zeichen lang sein können
+<span> </span>
 
-  - Zusätzliche Diagnose für Anmeldeprobleme bei der Authentifizierung
+<span data-ttu-id="4b87e-103">_**Letztes Änderungsdatum des Themas:** 2016-11-04_</span><span class="sxs-lookup"><span data-stu-id="4b87e-103">_**Topic Last Modified:** 2016-11-04_</span></span>
 
-  - Bessere Unterstützung für Lync-Hybridbereitstellungen
+<span data-ttu-id="4b87e-104">Das lync precall Diagnostics Tool (PCD) ist eine clientbasierte Anwendung, mit der Sie sehen können, wie sich der aktuelle Zustand Ihres Netzwerks in einem bevorstehenden Enterprise-VoIP-Anruf auf die Audioqualität auswirken kann.</span><span class="sxs-lookup"><span data-stu-id="4b87e-104">The Lync PreCall Diagnostics Tool (PCD) is a client-based application that allows you to see how the current state of your network might impact the audio quality in an upcoming Enterprise Voice call.</span></span>
 
-  - Updates für die Auswahl von Anmeldeinformationen
+<span data-ttu-id="4b87e-105">PCD eignet sich besonders für Situationen, in denen der letzte Hop eines Netzwerks wahrscheinlich am schwächsten ist (beispielsweise bei Laptops mit einem öffentlichen WLAN-Netzwerk oder privaten Benutzern).</span><span class="sxs-lookup"><span data-stu-id="4b87e-105">PCD is most useful in situations where the last hop of a network is likely to be the weakest (for example, with laptops on a public WiFi network or home users).</span></span> <span data-ttu-id="4b87e-106">PCD erstellt einen kleinen Paketdaten Strom, der diese letzte Etappe des Netzwerks durchläuft.</span><span class="sxs-lookup"><span data-stu-id="4b87e-106">PCD creates a small packet stream that traverses this final leg of the network.</span></span> <span data-ttu-id="4b87e-107">Das Tool analysiert dann den Paketdaten Strom, um zu schätzen, wie sich der Jitter und der Verlust an diesem Bein auf die Anrufqualität auswirken können, und stellt dann einen Bericht bereit.</span><span class="sxs-lookup"><span data-stu-id="4b87e-107">The tool then analyzes the packet stream to estimate how the jitter and loss along this leg might impact call quality, and then provides a report.</span></span> <span data-ttu-id="4b87e-108">Sie können PCD kontinuierlich auf dem Client ausführen, auch wenn Anrufe getätigt werden.</span><span class="sxs-lookup"><span data-stu-id="4b87e-108">You can run PCD continuously on the client, even while calls are being placed.</span></span> <span data-ttu-id="4b87e-109">Der Paketdaten Strom hat keinen signifikanten Einfluss auf die Bandbreite.</span><span class="sxs-lookup"><span data-stu-id="4b87e-109">The packet stream does not have a significant effect on bandwidth.</span></span>
 
-  - Stabilitätsverbesserungen
+<span data-ttu-id="4b87e-110">**Die neueste Version der PCD, Version 1,1, umfasst die folgenden Verbesserungen:**</span><span class="sxs-lookup"><span data-stu-id="4b87e-110">**The latest release of the PCD, version 1.1, includes the following enhancements:**</span></span>
 
-Wir freuen uns über jede Art von Feedback. Bitte senden Sie alle Supportanfragen oder Probleme an den Alias [PCD Feedback](mailto:pcdfb@microsoft.com) an <pcdfb@microsoft.com>.
+  - <span data-ttu-id="4b87e-111">Unterstützung für längere Kennwörter, die nun bis zu 127 Zeichen lang sein können</span><span class="sxs-lookup"><span data-stu-id="4b87e-111">Support for longer passwords, which can now be up to 127 characters</span></span>
 
-Dieses Thema enthält die folgenden Abschnitte:
+  - <span data-ttu-id="4b87e-112">Zusätzliche Diagnose für Anmeldeprobleme bei der Authentifizierung</span><span class="sxs-lookup"><span data-stu-id="4b87e-112">Additional diagnostics for authentication sign-in issues</span></span>
 
-  - Versionen von Lync PCD
+  - <span data-ttu-id="4b87e-113">Bessere Unterstützung für lync-hybridbereitstellungen</span><span class="sxs-lookup"><span data-stu-id="4b87e-113">Better support for Lync hybrid deployments</span></span>
 
-  - Systemanforderungen von Lync PCD
+  - <span data-ttu-id="4b87e-114">Aktualisierungen der Anmelde Informationsauswahl</span><span class="sxs-lookup"><span data-stu-id="4b87e-114">Updates to credential picker</span></span>
 
-  - Features von Lync PCD
+  - <span data-ttu-id="4b87e-115">Verbesserungen bei der Stabilität</span><span class="sxs-lookup"><span data-stu-id="4b87e-115">Stability improvements</span></span>
 
-  - Ausführen von Lync PCD
+<span data-ttu-id="4b87e-116">Wir freuen uns über Ihr Feedback.</span><span class="sxs-lookup"><span data-stu-id="4b87e-116">We appreciate any feedback.</span></span> <span data-ttu-id="4b87e-117">Senden Sie bitte alle Support <pcdfb@microsoft.com>-Fragen oder Probleme an den PCD- [Feedback](mailto:pcdfb@microsoft.com) -Alias unter.</span><span class="sxs-lookup"><span data-stu-id="4b87e-117">Please send all support questions or issues to the [PCD Feedback](mailto:pcdfb@microsoft.com) alias at <pcdfb@microsoft.com>.</span></span>
 
-  - Deinstallieren von Lync PCD
+<span data-ttu-id="4b87e-118">Dieses Thema enthält die folgenden Abschnitte:</span><span class="sxs-lookup"><span data-stu-id="4b87e-118">This topic includes the following sections:</span></span>
 
-## Versionen von Lync PCD
+  - <span data-ttu-id="4b87e-119">Lync-PCD-Versionen</span><span class="sxs-lookup"><span data-stu-id="4b87e-119">Lync PCD Versions</span></span>
 
-In diesem Thema werden die folgenden Versionen des Tools beschrieben, die zum kostenlosen Download bereitstehen:
+  - <span data-ttu-id="4b87e-120">System Anforderungen für lync-PCD</span><span class="sxs-lookup"><span data-stu-id="4b87e-120">Lync PCD System Requirements</span></span>
 
-  - Windows Desktop-App ([http://go.microsoft.com/fwlink/?LinkId=327914](http://go.microsoft.com/fwlink/p/?linkid=327914))
+  - <span data-ttu-id="4b87e-121">Funktionen von lync PCD</span><span class="sxs-lookup"><span data-stu-id="4b87e-121">Lync PCD Features</span></span>
 
-  - Windows 8 Modern-App ([http://go.microsoft.com/fwlink/?LinkId=322110](http://go.microsoft.com/fwlink/p/?linkid=322110))
+  - <span data-ttu-id="4b87e-122">Ausführen von lync PCD</span><span class="sxs-lookup"><span data-stu-id="4b87e-122">Running Lync PCD</span></span>
+
+  - <span data-ttu-id="4b87e-123">Deinstallieren von lync PCD</span><span class="sxs-lookup"><span data-stu-id="4b87e-123">Uninstalling Lync PCD</span></span>
+
+<span id="Version"></span>
+
+<div>
+
+## <a name="lync-pcd-versions"></a><span data-ttu-id="4b87e-124">Lync-PCD-Versionen</span><span class="sxs-lookup"><span data-stu-id="4b87e-124">Lync PCD Versions</span></span>
+
+<span data-ttu-id="4b87e-125">In diesem Thema werden die folgenden Versionen des Tools beschrieben, die zum kostenlosen Download zur Verfügung stehen:</span><span class="sxs-lookup"><span data-stu-id="4b87e-125">This topic describes the following versions of the tool, available for free download:</span></span>
+
+  - <span data-ttu-id="4b87e-126">Windows-Desktop-[http://go.microsoft.com/fwlink/?LinkId=327914](http://go.microsoft.com/fwlink/p/?linkid=327914)app ()</span><span class="sxs-lookup"><span data-stu-id="4b87e-126">Windows Desktop App ([http://go.microsoft.com/fwlink/?LinkId=327914](http://go.microsoft.com/fwlink/p/?linkid=327914))</span></span>
+
+</div>
+
+<span id="Requirements"></span>
+
+<div>
+
+## <a name="lync-pcd-system-requirements"></a><span data-ttu-id="4b87e-127">System Anforderungen für lync-PCD</span><span class="sxs-lookup"><span data-stu-id="4b87e-127">Lync PCD System Requirements</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Benutzer von Lync für Office 365 können beide Versionen des PCD verwenden.
+> [!NOTE]  
+> <span data-ttu-id="4b87e-128">Für PCD muss die Unified Communications Web API (UCWA) installiert und für die Unterstützung mobiler Clients in der lync Server-Bereitstellung konfiguriert sein.</span><span class="sxs-lookup"><span data-stu-id="4b87e-128">PCD requires that Unified Communications Web API (UCWA) be installed and configured to support mobile clients in the Lync Server deployment.</span></span> <span data-ttu-id="4b87e-129">UCWA wird mit lync Server installiert.</span><span class="sxs-lookup"><span data-stu-id="4b87e-129">UCWA is installed with Lync Server.</span></span>
 
 
 
-Wenn Sie eine ältere Version von PCD verwenden möchten, gilt Folgendes:
+</div>
 
-  - Die 32-Bit-Version von PCD steht als kostenloser Download im Microsoft Download Center unter [Office Communications Server 2007 R2, PreCallDiagnostic Resource Kit Tool (32 Bit)](http://go.microsoft.com/fwlink/p/?linkid=164769) zur Verfügung.
+<div>
 
-  - Die 64-Bit-Version von PCD ist in den Office Communications Server 2007 R2 Resource Kit-Tools enthalten, die als kostenloser Download im Microsoft Download Center unter [Office Communications Server 2007 R2 Resource Kit Tools](http://go.microsoft.com/fwlink/p/?linkid=145159) verfügbar sind.
+## <a name="windows-desktop-app-requirements"></a><span data-ttu-id="4b87e-130">Windows-Desktop-App-Anforderungen</span><span class="sxs-lookup"><span data-stu-id="4b87e-130">Windows Desktop App Requirements</span></span>
 
-## Systemanforderungen von Lync PCD
+  - <span data-ttu-id="4b87e-131">Eine beliebige Edition des Betriebssystems Windows 7 oder Windows 8</span><span class="sxs-lookup"><span data-stu-id="4b87e-131">Any edition of the Windows 7 or Windows 8 operating system</span></span>
 
+  - <span data-ttu-id="4b87e-132">Microsoft .NET Framework 4,5 verfügbar unter[http://go.microsoft.com/fwlink/?LinkId=327790](http://go.microsoft.com/fwlink/p/?linkid=327790)</span><span class="sxs-lookup"><span data-stu-id="4b87e-132">Microsoft .NET Framework 4.5 available at [http://go.microsoft.com/fwlink/?LinkId=327790](http://go.microsoft.com/fwlink/p/?linkid=327790)</span></span>
 
-> [!NOTE]
-> PCD setzt voraus, dass die Unified Communications-Web API (UCWA) installiert und so konfiguriert ist, dass mobile Clients in der Lync Server-Bereitstellung unterstützt werden. UCWA wird zusammen mit Lync Server installiert.
+</div>
 
+</div>
 
+<span id="features"></span>
 
-## Voraussetzungen für die Windows Desktop-App
+<div>
 
-  - Eine beliebige Edition des Betriebssystems Windows 7 oder Windows 8
+## <a name="lync-pcd-features"></a><span data-ttu-id="4b87e-133">Funktionen von lync PCD</span><span class="sxs-lookup"><span data-stu-id="4b87e-133">Lync PCD Features</span></span>
 
-  - Microsoft .NET Framework 4.5, verfügbar unter [http://go.microsoft.com/fwlink/?LinkId=327790](http://go.microsoft.com/fwlink/p/?linkid=327790)
+<span data-ttu-id="4b87e-134">Lync PCD umfasst die folgenden Features:</span><span class="sxs-lookup"><span data-stu-id="4b87e-134">Lync PCD includes the following features:</span></span>
 
-## Anforderungen von Windows 8 Modern App
+  - <span data-ttu-id="4b87e-135">Standardmäßige Ausführung bei Bedarf (2 Minuten Bursts)</span><span class="sxs-lookup"><span data-stu-id="4b87e-135">Run in default On Demand (2 minute bursts)</span></span>
 
-  - Eine beliebige Edition des Betriebssystems Windows 8
+  - <span data-ttu-id="4b87e-136">Ausführen von "immer aktiviert" (bis zu 24 Stunden in der angedockten Ansicht)</span><span class="sxs-lookup"><span data-stu-id="4b87e-136">Run in Always On (up to 24 hours in snapped view) mode</span></span>
 
-  - Microsoft .NET Framework 4.5, verfügbar unter [http://go.microsoft.com/fwlink/?LinkId=327790](http://go.microsoft.com/fwlink/p/?linkid=327790)
+  - <span data-ttu-id="4b87e-137">Verlaufsansicht ihrer Testläufe</span><span class="sxs-lookup"><span data-stu-id="4b87e-137">Historical view of your test runs</span></span>
 
-## Features von Lync PCD
+  - <span data-ttu-id="4b87e-138">Diagnostizieren von Anmeldefehlern (nur lync PCD für Windows 8)</span><span class="sxs-lookup"><span data-stu-id="4b87e-138">Diagnose sign-in failures (Lync PCD for Windows 8 only)</span></span>
 
-Lync PCD bietet die folgenden Features:
+<span data-ttu-id="4b87e-139">![Bildschirmfoto der lync PCD-Features für den Anmeldestatus] (images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Bildschirmfoto der lync PCD-Features für den Anmeldestatus")</span><span class="sxs-lookup"><span data-stu-id="4b87e-139">![Lync PCD features Sign in progress screen shot](images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Lync PCD features Sign in progress screen shot")</span></span>
 
-  - Im Standardmodus bei Bedarf ausführen (2-Minuten-Bursts)
+  - <span data-ttu-id="4b87e-140">Grafische Ansicht von Netzwerk Metriken – Netzwerk-MOS, Paketverlust und interarrival-Jitter im Vollbildmodus und angedockten Ansicht.</span><span class="sxs-lookup"><span data-stu-id="4b87e-140">Graphical view of network metrics – Network MOS, Packet Loss and Interarrival Jitter in full screen and snapped view.</span></span>
 
-  - Im Modus "Immer aktiv" ausführen (bis zu 24 Stunden in der angedockten Ansicht)
+<span data-ttu-id="4b87e-141">**Vollbildansicht**</span><span class="sxs-lookup"><span data-stu-id="4b87e-141">**Full screen view**</span></span>
 
-  - Verlaufsansicht Ihrer Testläufe
+<span data-ttu-id="4b87e-142">![Testergebnis Diagramme für precall-Diagnosetools] (images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "Testergebnis Diagramme für precall-Diagnosetools")</span><span class="sxs-lookup"><span data-stu-id="4b87e-142">![PreCall Diagnostic Tool test result graphs](images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "PreCall Diagnostic Tool test result graphs")</span></span>
 
-  - Anmeldefehler diagnostizieren (nur Lync PCD für Windows 8)
+<span data-ttu-id="4b87e-143">**Angedockte Ansicht**</span><span class="sxs-lookup"><span data-stu-id="4b87e-143">**Snapped view**</span></span>
 
-![Lync PCD zeigt laufende Anmeldung (Screenshot)](images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Lync PCD zeigt laufende Anmeldung (Screenshot)")
+<span data-ttu-id="4b87e-144">![Testergebnisse] für die Nutzung des precall-Diagnosetools (images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "Testergebnisse") für die Nutzung des precall-Diagnosetools</span><span class="sxs-lookup"><span data-stu-id="4b87e-144">![PreCall Diagnostic Tool Utilization test results](images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "PreCall Diagnostic Tool Utilization test results")</span></span>
 
-  - Grafische Ansicht von Netzwerkmetriken – Netzwerk-MOS, Paketverlust und Jitter der Zwischenankunftszeit in der Vollbildansicht und der angedockten Ansicht
+</div>
 
-**Vollbildansicht**
+<span id="running"></span>
 
-![Ergebnisse des PreCall-Diagnosetools (Diagramme)](images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "Ergebnisse des PreCall-Diagnosetools (Diagramme)")
+<div>
 
-**Angedockte Ansicht**
+## <a name="running-lync-pcd"></a><span data-ttu-id="4b87e-145">Ausführen von lync PCD</span><span class="sxs-lookup"><span data-stu-id="4b87e-145">Running Lync PCD</span></span>
 
-![PreCall-Diagnosetool: Testergebnisse](images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "PreCall-Diagnosetool: Testergebnisse")
+<div>
 
-## Ausführen von Lync PCD
+## <a name="running-windows-desktop-app"></a><span data-ttu-id="4b87e-146">Ausführen der Windows-Desktop-App</span><span class="sxs-lookup"><span data-stu-id="4b87e-146">Running Windows Desktop App</span></span>
 
-## Ausführen der Windows Desktop-App
-
-1.  Zum Starten von PCD auf einem Windows 7-System wählen Sie im Menü **Start** den Eintrag **PreCall Diagnostics** aus.
+1.  <span data-ttu-id="4b87e-147">Wenn Sie die PCD auf einem Windows 7-System starten möchten, wählen Sie im **Startmenü** die Option **precall Diagnostics** aus.</span><span class="sxs-lookup"><span data-stu-id="4b87e-147">To start the PCD on a Windows 7 system, select **PreCall Diagnostics** from the **Start** menu.</span></span>
     
-    Zum Starten von PCD auf einem Windows 8-System wählen Sie das Symbol im Startbildschirm aus, oder suchen Sie nach "PreCall Diagnostics".
+    <span data-ttu-id="4b87e-148">Wenn Sie die PCD unter einem Windows 8-System starten möchten, wählen Sie das Symbol auf dem Startbildschirm aus, oder suchen Sie nach "Diagnose für Vorgespräche".</span><span class="sxs-lookup"><span data-stu-id="4b87e-148">To start the PCD on a Windows 8 system, select the icon on your Start screen, or search for “PreCall Diagnostics.”</span></span>
     
-    ![Symbol für PreCall-Diagnosetool](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "Symbol für PreCall-Diagnosetool")
+    <span data-ttu-id="4b87e-149">Symbol für das precall- ![Diagnosetool] Symbol für das precall- (images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "Diagnosetool")</span><span class="sxs-lookup"><span data-stu-id="4b87e-149">![PreCall Diagnostic tool icon](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "PreCall Diagnostic tool icon")</span></span>
 
-2.  Wählen Sie beim Start des Tools Ihre bevorzugte Methode für die Bereitstellung von Anmeldeinformationen aus, und wählen Sie im Dialogfeld **PreCall Diagnostics Tool Options** den Netzwerkbetriebsmodus as. Klicken Sie dann auf **OK**.
+2.  <span data-ttu-id="4b87e-150">Wenn das Tool gestartet wird, wählen Sie die bevorzugte Methode zum Bereitstellen von Anmeldeinformationen aus, und wählen Sie im Dialogfeldoptionen für das Tool für die voranruf- **Diagnose** den Netzwerkmodus aus, und wählen Sie dann **OK**aus:</span><span class="sxs-lookup"><span data-stu-id="4b87e-150">When the tool starts, select your preferred method of providing credentials and select the network operating mode in the **PreCall Diagnostics Tool Options** dialog box, then select **OK**:</span></span>
 
-3.  Klicken Sie auf die Schaltfläche **Start Test**, um mit der Ausführung der Diagnose zu beginnen.
+3.  <span data-ttu-id="4b87e-151">Wählen Sie die Schaltfläche **Test starten** aus, um mit der Ausführung der Diagnose zu beginnen.</span><span class="sxs-lookup"><span data-stu-id="4b87e-151">Select the **Start Test** button to start running diagnostics.</span></span>
     
-    Wenn Sie sich für die Option **Use network credentials** entschieden haben, wird der Test sofort gestartet.
+    <span data-ttu-id="4b87e-152">Wenn Sie die Option **Netzwerkanmeldeinformationen verwenden** ausgewählt haben, wird der Test sofort gestartet.</span><span class="sxs-lookup"><span data-stu-id="4b87e-152">If you selected the **Use network credentials** option, the test begins immediately.</span></span>
     
-    Wenn Sie die Option **Let me enter my credentials** ausgewählt haben wird das Dialogfeld **Windows Security** geöffnet. Der Test wird gestartet, nachdem Sie Ihre Anmeldeinformationen eingegeben haben.
+    <span data-ttu-id="4b87e-153">Wenn Sie die Option **Ich möchte meine Anmeldeinformationen eingeben** aktiviert haben, wird das Dialogfeld **Windows-Sicherheit** geöffnet.</span><span class="sxs-lookup"><span data-stu-id="4b87e-153">If you selected the **Let me enter my credentials** option, the **Windows Security** dialog box opens.</span></span> <span data-ttu-id="4b87e-154">Nachdem Sie Ihre Anmeldeinformationen eingegeben haben, wird der Test gestartet.</span><span class="sxs-lookup"><span data-stu-id="4b87e-154">After you enter your credentials, the test starts.</span></span>
 
-## Ausführen der Windows 8 Modern App
+</div>
 
+</div>
 
-1.  Zum Starten von PCD wählen Sie das Symbol im Startbildschirm aus, oder suchen Sie nach "PreCall Diagnostics".
-    
-    ![Symbol für PreCall-Diagnosetool](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "Symbol für PreCall-Diagnosetool")
+<span id="uninstall"></span>
 
-2.  Geben Sie beim Start des Tools Ihre Lync-Anmeldeinformationen ein, und wählen Sie **OK** aus.
-    
-    ![Anmelden beim Lync PreCall-Diagnosetool](images/Dn451255.88039914-4c68-48f6-a9fa-58cb4e3f3488(OCS.15).jpg "Anmelden beim Lync PreCall-Diagnosetool")
+<div>
 
-3.  Klicken Sie auf die Schaltfläche **Start Test**, um mit der Ausführung der Diagnose zu beginnen.
+## <a name="uninstalling-lync-pcd"></a><span data-ttu-id="4b87e-155">Deinstallieren von lync PCD</span><span class="sxs-lookup"><span data-stu-id="4b87e-155">Uninstalling Lync PCD</span></span>
 
-## Deinstallieren von Lync PCD
+<span data-ttu-id="4b87e-156">Um lync PCD zu entfernen, führen Sie das Verfahren für Ihr Betriebssystem aus:</span><span class="sxs-lookup"><span data-stu-id="4b87e-156">To remove Lync PCD, follow the procedure for your operating system:</span></span>
 
-Gehen Sie zum Deinstallieren von Lync PCD je nach Betriebssystem wie folgt vor:
+  - <span data-ttu-id="4b87e-157">Öffnen Sie auf einem Windows 7-System \*\*\*\* die Systemsteuerung, wählen Sie **Programme und Funktionen**aus, und doppelklicken Sie auf **lync 2013-Diagnose**.</span><span class="sxs-lookup"><span data-stu-id="4b87e-157">On a Windows 7 system, open the **Control Panel**, select **Programs and Features**, and double-click **Lync 2013 PreCall Diagnostics**.</span></span>
 
-  - Öffnen Sie auf einem Windows 7-System die Systemsteuerung,wählen Sie **Programme und Funktionen** aus, und doppelklicken sie auf **Lync 2013 PreCall Diagnostics**.
+  - <span data-ttu-id="4b87e-158">Klicken Sie unter Windows 8 mit der rechten Maustaste auf die PCD-Kachel, und klicken Sie auf der APP-Leiste am unteren Rand des Startbildschirms auf **deinstallieren** .</span><span class="sxs-lookup"><span data-stu-id="4b87e-158">On a Windows 8 system, right-click on the PCD tile and click **Uninstall** from the app bar at the bottom of the start screen.</span></span>
 
-  - Klicken Sie auf einem Windows 8-System mit der rechten Maustaste auf die PCD-Kachel, und klicken Sie dann in der App-Leiste am Fuß des Startbildschirms auf **Deinstallieren**.
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

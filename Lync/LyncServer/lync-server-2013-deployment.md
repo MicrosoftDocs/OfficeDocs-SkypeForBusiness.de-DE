@@ -1,65 +1,99 @@
-﻿---
-title: Bereitstellung
-TOCTitle: Bereitstellung
-ms:assetid: 83bd43ee-c1fe-4b38-bfa7-3eb382817bf9
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398664(v=OCS.15)
-ms:contentKeyID: 49294606
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Bereitstellung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment
+ms:assetid: 83bd43ee-c1fe-4b38-bfa7-3eb382817bf9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398664(v=OCS.15)
+ms:contentKeyID: 48184687
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5c7c7d6be1ee0e73ee87d71676dddfdcf7954d03
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34832451"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bereitstellung
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-18_
+# <a name="deployment-of-lync-server-2013"></a><span data-ttu-id="68e44-102">Bereitstellung von lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-102">Deployment of Lync Server 2013</span></span>
 
-Die Bereitstellung der Lync Server 2013-Kommunikationssoftware umfasst die Vorbereitung von Active Directory-Domänendienste, die Bereitstellung der Front-End-Server sowie anderer wichtiger interner Lync Server 2013-Komponenten sowie anschließend die Bereitstellung zusätzlicher Serverrollen und Funktionen, die in Ihrer Organisation gegebenenfalls erforderlich sind (z. B. der externe Benutzerzugriff und Enterprise-VoIP).
+</div>
 
-In dieser Dokumentation werden drei Szenarien für die Bereitstellung von Lync Server 2013 beschrieben:
+<div id="mainSection">
 
-  - Neue Bereitstellung von Lync Server 2013, Enterprise Edition
+<div id="mainBody">
 
-  - Neue Bereitstellung von Lync Server 2013, Standard Edition
+<span> </span>
 
-  - Neue Bereitstellung von Lync Server 2013 Standard Edition oder Enterprise Edition in einer vorhandenen Lync Server 2010 Standard Edition- oder Enterprise Edition-Bereitstellung
+<span data-ttu-id="68e44-103">_**Letztes Änderungsdatum des Themas:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="68e44-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-Weitere Informationen zur Bereitstellung von Lync Server 2013 in einer vorhandenen Microsoft Office Communications Server 2007- oder Microsoft Office Communications Server 2007 R2-Umgebung finden Sie in der [Migration](migration.md)sdokumentation.
+<span data-ttu-id="68e44-104">Die Bereitstellung der lync Server 2013-Kommunikationssoftware umfasst das Vorbereiten von Active Directory-Domänendiensten, die Bereitstellung der Front-End-Server und anderer interner Komponenten von lync Server 2013 sowie die Bereitstellung zusätzlicher Server Rollen und Features, die möglicherweise erfordert Ihre Organisation beispielsweise den Zugriff durch externe Benutzer und Enterprise-VoIP.</span><span class="sxs-lookup"><span data-stu-id="68e44-104">Deployment of Lync Server 2013 communications software includes preparing Active Directory Domain Services, deploying the Front End Servers and other core Lync Server 2013 internal components, and then deploying any additional server roles and features that your organization may require, such as external user access and Enterprise Voice.</span></span>
 
-## In diesem Abschnitt
+<span data-ttu-id="68e44-105">In dieser Dokumentation werden drei Szenarien für die Bereitstellung von lync Server 2013 beschrieben:</span><span class="sxs-lookup"><span data-stu-id="68e44-105">This documentation describes three scenarios for deploying Lync Server 2013:</span></span>
 
-  - [Bereitstellen von Lync Server 2013](lync-server-2013-deploying-lync-server.md)
+  - <span data-ttu-id="68e44-106">Neue Bereitstellung von lync Server 2013, Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="68e44-106">New Deployment of Lync Server 2013, Enterprise Edition</span></span>
 
-  - [Bereitstellen des Zugriffs durch externe Benutzer in Lync Server 2013](lync-server-2013-deploying-external-user-access.md)
+  - <span data-ttu-id="68e44-107">Neue Bereitstellung von lync Server 2013, Standard Edition</span><span class="sxs-lookup"><span data-stu-id="68e44-107">New Deployment of Lync Server 2013, Standard Edition</span></span>
 
-  - [Bereitstellen von Enterprise-VoIP in Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)
+  - <span data-ttu-id="68e44-108">Neue Bereitstellung von lync Server 2013 Standard Edition oder Enterprise Edition in einer vorhandenen lync Server 2010 Standard Edition oder Enterprise Edition-Bereitstellung</span><span class="sxs-lookup"><span data-stu-id="68e44-108">New Deployment of Lync Server 2013 Standard Edition or Enterprise Edition into an existing Lync Server 2010 Standard Edition or Enterprise Edition deployment</span></span>
 
-  - [Bereitstellen des Monitoring Servers](lync-server-2013-deploying-monitoring.md)
+<span data-ttu-id="68e44-109">Informationen zum Bereitstellen von lync Server 2013 in einer vorhandenen Microsoft Office Communications Server 2007-oder Microsoft Office Communications Server 2007 R2-Umgebung finden Sie in der [Migrations](migration.md) Dokumentation.</span><span class="sxs-lookup"><span data-stu-id="68e44-109">For information about deploying Lync Server 2013 in an existing Microsoft Office Communications Server 2007 or Microsoft Office Communications Server 2007 R2 environment, see the [Migration](migration.md) documentation.</span></span>
 
-  - [Bereitstellen der Archivierung in Lync Server 2013](lync-server-2013-deploying-archiving.md)
+<div>
 
-  - [Konfigurieren von Einwahlkonferenzen in Lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
+## <a name="in-this-section"></a><span data-ttu-id="68e44-110">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="68e44-110">In This Section</span></span>
 
-  - [Konfigurieren von Video](lync-server-2013-planning-and-deploying-video.md)
+  - [<span data-ttu-id="68e44-111">Bereitstellen von Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-111">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
 
-  - [Bereitstellen von Zweigstellen in Lync Server 2013](lync-server-2013-deploying-branch-sites.md)
+  - [<span data-ttu-id="68e44-112">Bereitstellen des Zugriffs durch externe Benutzer in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-112">Deploying external user access in Lync Server 2013</span></span>](lync-server-2013-deploying-external-user-access.md)
 
-  - [Bereitstellen des Servers für beständigen Chat in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md)
+  - [<span data-ttu-id="68e44-113">Bereitstellen von Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-113">Deploying Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deploying-enterprise-voice.md)
 
-  - [Bereitstellen von Clients und Geräten in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md)
+  - [<span data-ttu-id="68e44-114">Bereitstellen der Überwachung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-114">Deploying monitoring in Lync Server 2013</span></span>](lync-server-2013-deploying-monitoring.md)
 
-  - [Planen und Bereitstellen des einheitlichen Kontaktspeichers in Lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)
+  - [<span data-ttu-id="68e44-115">Bereitstellen der Archivierung in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-115">Deploying Archiving in Lync Server 2013</span></span>](lync-server-2013-deploying-archiving.md)
 
-  - [Verwalten von Server-zu-Server-Authentifizierung (OAuth) und Partneranwendungen](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
+  - [<span data-ttu-id="68e44-116">Konfigurieren von Einwahlkonferenzen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-116">Configuring dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configuring-dial-in-conferencing.md)
 
-  - [Ausführen eines Updates von der Evaluierungsversion von Lync Server 2013](lync-server-2013-updating-from-the-evaluation-version.md)
+  - [<span data-ttu-id="68e44-117">Planen und Bereitstellen von Video in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-117">Planning and deploying video in Lync Server 2013</span></span>](lync-server-2013-planning-and-deploying-video.md)
 
-  - [Bereitstellen der Remoteanrufsteuerung in Lync Server 2013](lync-server-2013-deploying-remote-call-control.md)
+  - [<span data-ttu-id="68e44-118">Bereitstellen von Zweigstellen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-118">Deploying branch sites in Lync Server 2013</span></span>](lync-server-2013-deploying-branch-sites.md)
 
-  - [Bereitstellen von Mobilität in Lync Server 2013](lync-server-2013-deploying-mobility.md)
+  - [<span data-ttu-id="68e44-119">Bereitstellen des Servers für beständigen Chat in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-119">Deploying Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-deploying-persistent-chat-server.md)
 
-  - [Konfigurieren der Integration mit Office Web Apps Server und Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
+  - [<span data-ttu-id="68e44-120">Bereitstellen von Clients und Geräten in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-120">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)
 
-  - [Konfiguration für die Integritätsüberwachung in Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md)
+  - [<span data-ttu-id="68e44-121">Planen und Bereitstellen von Unified Contact Store in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-121">Planning and deploying unified contact store in Lync Server 2013</span></span>](lync-server-2013-planning-and-deploying-unified-contact-store.md)
+
+  - [<span data-ttu-id="68e44-122">Verwalten von Server-zu-Server-Authentifizierung (OAuth) und Partneranwendungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-122">Managing server-to-server authentication (OAuth) and partner applications in Lync Server 2013</span></span>](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
+
+  - [<span data-ttu-id="68e44-123">Aktualisieren von der Evaluierungsversion von lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-123">Updating from the evaluation version of Lync Server 2013</span></span>](lync-server-2013-updating-from-the-evaluation-version.md)
+
+  - [<span data-ttu-id="68e44-124">Bereitstellen der Remoteanrufsteuerung in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-124">Deploying remote call control in Lync Server 2013</span></span>](lync-server-2013-deploying-remote-call-control.md)
+
+  - [<span data-ttu-id="68e44-125">Bereitstellen von Mobilität in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-125">Deploying mobility in Lync Server 2013</span></span>](lync-server-2013-deploying-mobility.md)
+
+  - [<span data-ttu-id="68e44-126">Konfigurieren der Integration mit Office Web Apps Server und Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-126">Configuring integration with Office Web Apps Server and Lync Server 2013</span></span>](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
+
+  - [<span data-ttu-id="68e44-127">Integritäts Konfiguration in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68e44-127">Health configuration in Lync Server 2013</span></span>](lync-server-2013-health-configuration-in-lync-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

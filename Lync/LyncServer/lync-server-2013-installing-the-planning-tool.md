@@ -1,71 +1,113 @@
-﻿---
-title: 'Lync Server 2013: Installieren des Planungstools'
-TOCTitle: Installieren des Planungstools
-ms:assetid: ebdc9e26-4b22-4b02-85b9-7462bcfe7c93
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg615046(v=OCS.15)
-ms:contentKeyID: 52056485
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Installieren des Planungstools'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Installing the Planning Tool
+ms:assetid: ebdc9e26-4b22-4b02-85b9-7462bcfe7c93
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615046(v=OCS.15)
+ms:contentKeyID: 51541525
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0e528062d5fd04e1a11df934cbc01b2dc8c92aa4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831969"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Installieren des Planungstools in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2013-11-07_
+# <a name="installing-the-planning-tool-in-lync-server-2013"></a><span data-ttu-id="e9bb5-102">Installieren des Planungstools in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e9bb5-102">Installing the Planning Tool in Lync Server 2013</span></span>
 
-Bevor Sie Ihre Lync Server 2013-Infrastruktur mithilfe des Microsoft Lync Server 2013, Planungstools entwerfen und planen können, müssen Sie das Planungstool zunächst installieren. Das Planungstool muss nicht auf einer Arbeitsstation oder einem Server innerhalb der Domäne oder Infrastruktur bereitgestellt werden, in der Sie Lync Server 2013 installieren möchten. Die Infodatei zum Planungstool enthält wichtige Informationen zu Installation und Verwendung des Tools. Einige Informationen aus dieser Datei werden zur Verdeutlichung im Folgenden noch einmal aufgeführt.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="e9bb5-103">_**Letztes Änderungsdatum des Themas:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="e9bb5-103">_**Topic Last Modified:** 2013-11-07_</span></span>
+
+<span data-ttu-id="e9bb5-104">Bevor Sie mit dem Entwerfen und Planen Ihrer lync Server 2013-Infrastruktur mit dem Microsoft lync Server 2013, Planungstool beginnen, müssen Sie zuerst das Planungstool installieren.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-104">Before you begin designing and planning your Lync Server 2013 infrastructure by using the Microsoft Lync Server 2013, Planning Tool, you must first install the Planning Tool.</span></span> <span data-ttu-id="e9bb5-105">Das Planungs Tool muss nicht auf einer Workstation oder einem Server bereitgestellt werden, die Teil der Domäne oder Infrastruktur ist, in der Sie lync Server 2013 installieren möchten.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-105">The Planning Tool does not need to be deployed to a workstation or server that is part of the domain or infrastructure where you plan to install Lync Server 2013.</span></span> <span data-ttu-id="e9bb5-106">In der Readme-Datei, die dem Planungs Tool beigefügt ist, finden Sie wichtige Informationen zum Installieren und Verwenden des Tools.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-106">The Readme file that accompanies the Planning Tool details important information about installing and using the tool.</span></span> <span data-ttu-id="e9bb5-107">Einige Informationen aus dieser Datei werden zur Verdeutlichung im Folgenden noch einmal aufgeführt.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-107">Some of the information in the Readme file is duplicated here for clarity.</span></span>
+
+<div>
 
 
-> [!IMPORTANT]
-> Das Planungstool muss von einem Benutzer mit Administratorrechten und -berechtigungen auf dem Computer installiert werden, auf dem das Tool verwendet werden soll.
+> [!IMPORTANT]  
+> <span data-ttu-id="e9bb5-108">Das Planungs Tool erfordert die Installation durch einen Benutzer mit Administratorrechten und-Berechtigungen auf dem Computer, auf dem das Tool installiert werden soll.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-108">The Planning Tool requires installation by a user with administrator rights and permissions on the computer on which the tool is to be installed.</span></span>
 
 
 
-Folgende Betriebssysteme werden für Installation und Verwendung des Planungstools unterstützt:
+</div>
 
-  - Windows 8
+<span data-ttu-id="e9bb5-109">Die unterstützten Betriebssysteme für die Installation und den Betrieb des Planungstools sind:</span><span class="sxs-lookup"><span data-stu-id="e9bb5-109">The supported operating systems for installation and operation of the Planning Tool are:</span></span>
 
-  - Windows 8,1
+  - <span data-ttu-id="e9bb5-110">Windows 8</span><span class="sxs-lookup"><span data-stu-id="e9bb5-110">Windows 8</span></span>
 
-  - Windows Server 2012
+  - <span data-ttu-id="e9bb5-111">Windows 8,1</span><span class="sxs-lookup"><span data-stu-id="e9bb5-111">Windows 8.1</span></span>
 
-  - Windows Server 2012 R2
+  - <span data-ttu-id="e9bb5-112">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="e9bb5-112">Windows Server 2012</span></span>
 
-  - Windows 7, 32-Bit-Version
+  - <span data-ttu-id="e9bb5-113">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="e9bb5-113">Windows Server 2012 R2</span></span>
 
-  - Windows 7, 64-Bit-Version unter Verwendung von Windows on Win32 (WOW)
+  - <span data-ttu-id="e9bb5-114">Windows 7, 32-Bit-Version</span><span class="sxs-lookup"><span data-stu-id="e9bb5-114">Windows 7, 32-bit edition</span></span>
 
-  - Windows Server 2008 R2 unter Verwendung von WOW
+  - <span data-ttu-id="e9bb5-115">Windows 7, 64-Bit-Version unter Verwendung von Windows on Win32 (WOW)</span><span class="sxs-lookup"><span data-stu-id="e9bb5-115">Windows 7, 64-bit edition using Windows on Win32 (WOW)</span></span>
 
-Darüber hinaus erfordert das Planungstool Microsoft .NET Framework 4.5.
+  - <span data-ttu-id="e9bb5-116">Windows Server 2008 R2 unter Verwendung von WOW</span><span class="sxs-lookup"><span data-stu-id="e9bb5-116">Windows Server 2008 R2, using WOW</span></span>
 
-Sobald die Vorinstallationsanforderungen erfüllt sind, können Sie das Planungstool installieren.
+<span data-ttu-id="e9bb5-117">Darüber hinaus erfordert das Planungs Tool Microsoft .NET Framework 4,5.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-117">Additionally, the Planning Tool requires Microsoft .NET Framework 4.5.</span></span>
 
-## So installieren Sie das Planungstool
+<span data-ttu-id="e9bb5-118">Nachdem die Voraussetzungen für die Vorinstallation erfüllt sind, können Sie das Planungs Tool installieren.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-118">After the preinstallation requirements are met, you can then install the Planning Tool.</span></span>
 
-1.  Melden Sie sich auf dem lokalen Computer als Mitglied der Gruppe "Administratoren" an.
+<div>
 
-2.  Suchen Sie in Windows Explorer oder in einem Befehlsfenster nach dem Verzeichnis, in das Sie die Planungstool-Installationsdateien heruntergeladen haben.
+## <a name="to-install-the-planning-tool"></a><span data-ttu-id="e9bb5-119">So installieren Sie das Planungstool</span><span class="sxs-lookup"><span data-stu-id="e9bb5-119">To install the Planning Tool</span></span>
 
-3.  Suchen Sie die Datei **LyncPlanningTool.msi** . Doppelklicken Sie in Windows-Explorer auf die Datei. Geben Sie im Befehlsfenster den Namen der Datei ein, und drücken Sie die EINGABETASTE, um die Datei auszuführen.
+1.  <span data-ttu-id="e9bb5-120">Melden Sie sich auf dem lokalen Computer als Mitglied der Gruppe "Administratoren" an.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-120">Log on to the local computer as a member of the Administrators group.</span></span>
 
-4.  Klicken Sie auf der Willkommensseite des Setup-Assistenten für das Microsoft Lync Server 2013-Planungstool auf **Weiter** .
+2.  <span data-ttu-id="e9bb5-121">Suchen Sie im Windows-Explorer oder einem Befehlsfenster nach dem Verzeichnis, in dem Sie die Installationsdateien des Planungstools heruntergeladen haben.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-121">Using Windows Explorer or a command window, locate the directory where you downloaded the Planning Tool installation files.</span></span>
 
-5.  Lesen Sie den **Endbenutzer-Lizenzvertrag** , wählen Sie die Option **Ich stimme den Bedingungen des Lizenzvertrags zu** aus, wenn Sie die Bedingungen akzeptieren, und klicken Sie anschließend auf **Weiter** .
+3.  <span data-ttu-id="e9bb5-122">Suchen Sie nach dem LyncPlanningTool. msi.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-122">Locate the LyncPlanningTool.msi.</span></span> <span data-ttu-id="e9bb5-123">Machen Sie im Windows Explorer einen Doppelklick auf die Datei.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-123">In Windows Explorer, double-click the file.</span></span> <span data-ttu-id="e9bb5-124">Geben Sie im Befehlsfenster den Namen der Datei ein und drücken Sie die **Eingabetaste**, um die Datei auszuführen.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-124">In the command window, type the name of the file, and then press **Enter** to run the file.</span></span>
 
-6.  Geben Sie an, in welchem Verzeichnis die Dateien des Planungstools installiert werden sollen. Der Standardspeicherort lautet "C:\\Programme (x86)\\Microsoft Lync Server 2013\\Planning Tool". Wenn Sie ein anderes Installationsverzeichnis auswählen möchten, klicken Sie auf **Ändern** . Navigieren Sie im Dialogfeld **Zielordner ändern** zum gewünschten Verzeichnis, oder geben Sie ein Verzeichnis ein, und klicken Sie nacheinander auf **OK** und auf **Weiter** .
+4.  <span data-ttu-id="e9bb5-125">Klicken Sie auf der Willkommensseite des **Microsoft lync Server 2013-Setup-Assistenten für Planungstools**auf **weiter**.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-125">On the Welcome page of the **Microsoft Lync Server 2013, Planning Tool Setup Wizard**, click **Next**.</span></span>
 
-7.  Das Installationsprogramm kann nun das Planungstool installieren. Klicken Sie auf **Installieren** , um den Installationsvorgang zu starten.
+5.  <span data-ttu-id="e9bb5-126">Lesen Sie den **Endbenutzer-Lizenzvertrag**, wählen Sie die Option **Ich stimme den Bedingungen des Lizenzvertrags zu** aus, sofern Sie die Bedingungen akzeptieren, und klicken Sie anschließend auf **Weiter**.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-126">Review the **End-User License Agreement**, select **I accept the terms in the License Agreement** if you choose to accept the terms of use in the license agreement, and then click **Next**.</span></span>
 
-8.  Die Installation beginnt, und der Installationsfortschritt wird angezeigt. Klicken Sie nach Abschluss der Installation auf **Fertig stellen** .
+6.  <span data-ttu-id="e9bb5-127">Geben Sie an, in welchem Verzeichnis die Dateien des Planungstools installiert werden sollen.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-127">Choose where to install the Planning Tool files.</span></span> <span data-ttu-id="e9bb5-128">Der Standardspeicherort ist C:\\Programmdateien (x86)\\Microsoft lync Server 2013\\-Planungs Tool.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-128">The default location is C:\\Program Files (x86)\\Microsoft Lync Server 2013\\Planning Tool.</span></span> <span data-ttu-id="e9bb5-129">Wenn Sie ein anderes Installationsverzeichnis auswählen möchten, klicken Sie auf **Ändern**.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-129">If you want to change the installation location, click **Change**.</span></span> <span data-ttu-id="e9bb5-130">Navigieren Sie im Dialogfeld **Zielordner ändern** zum gewünschten Verzeichnis oder geben Sie ein Verzeichnis ein und klicken Sie nacheinander auf **OK** und auf **Weiter**.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-130">On **Change destination folder**, browse or type the location to install the files, click **OK**, and then click **Next**.</span></span>
 
-9.  Nun können Sie das Planungstool verwenden.
+7.  <span data-ttu-id="e9bb5-131">Das Installationsprogramm ist nun bereit, das Planungs Tool zu installieren.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-131">The installer is now ready to install the Planning Tool.</span></span> <span data-ttu-id="e9bb5-132">Klicken Sie auf **Installieren**, um den Installationsvorgang zu starten.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-132">Click **Install** to begin the installation process.</span></span>
 
-## Siehe auch
+8.  <span data-ttu-id="e9bb5-133">Die Installation beginnt und der Installationsfortschritt wird angezeigt.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-133">The installation will start, and the progress will be displayed.</span></span> <span data-ttu-id="e9bb5-134">Klicken Sie nach Abschluss der Installation auf **Fertigstellen**.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-134">After the installation is successfully completed, click **Finish**.</span></span>
 
-#### Konzepte
+9.  <span data-ttu-id="e9bb5-135">Das Planungs Tool ist einsatzbereit.</span><span class="sxs-lookup"><span data-stu-id="e9bb5-135">The Planning Tool is ready for use.</span></span>
 
-[Installieren von optionaler Software in Lync Server 2013](lync-server-2013-installing-optional-software.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="e9bb5-136">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="e9bb5-136">See Also</span></span>
+
+
+[<span data-ttu-id="e9bb5-137">Installieren von optionaler Software in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e9bb5-137">Installing optional software in Lync Server 2013</span></span>](lync-server-2013-installing-optional-software.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
