@@ -1,57 +1,83 @@
-﻿---
-title: 'Lync Server 2013: Ausführen der Domänenvorbereitung'
-TOCTitle: Ausführen der Domänenvorbereitung
-ms:assetid: 95dab800-1f2c-4506-b36c-99986643b149
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398761(v=OCS.15)
-ms:contentKeyID: 49294806
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Ausführen der Domänenvorbereitung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Running domain preparation
+ms:assetid: 95dab800-1f2c-4506-b36c-99986643b149
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398761(v=OCS.15)
+ms:contentKeyID: 48184847
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 16fdd01b15fe5858129300c3a9f2f26c3d3de672
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822279"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ausführen der Domänenvorbereitung für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="running-domain-preparation-for-lync-server-2013"></a>Ausführen der Domänenvorbereitung für Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-04-16_
 
-Für die Vorbereitung von Domänen können Sie Setup oder Lync Server-Verwaltungsshell-Cmdlets nutzen. Das Cmdlet, das eine Domäne vorbereitet, ist **Enable-CsAdDomain**.
+Sie können die Setup-oder lync Server-Verwaltungsshell-Cmdlets verwenden, um Domänen vorzubereiten. Das Cmdlet, das eine Domäne vorbereitet, ist **enable-CsAdDomain**.
 
-Die Domänenvorbereitung ist der abschließende Schritt bei der Vorbereitung von Active Directory-Domänendienste für Lync Server 2013.
+Die Domänenvorbereitung ist der letzte Schritt beim Vorbereiten der Active Directory-Domänendienste für lync Server 2013.
 
-## So verwenden Sie Setup zum Vorbereiten von Domänen
+<div>
 
-1.  Melden Sie sich als Mitglied der Gruppe der Domänenadministratoren bei einem beliebigen Server an.
+## <a name="to-use-setup-to-prepare-domains"></a>So verwenden Sie das Setup zum Vorbereiten von Domänen
 
-2.  Führen Sie im Lync Server 2013-Installationsordner oder auf dem Installationsmedium "Setup.exe" aus, um den Lync Server-Bereitstellungs-Assistenten zu starten.
+1.  Melden Sie sich bei einem beliebigen Server in der Domäne als Mitglied der Gruppe der Domänenadministratoren an.
 
-3.  Klicken Sie auf **Active Directory vorbereiten** , und warten Sie das Bestimmen des Bereitstellungsstatus ab.
+2.  Führen Sie im lync Server 2013-Installationsordner oder-Medium Setup. exe aus, um den lync Server-Bereitstellungs-Assistenten zu starten.
 
-4.  Klicken Sie unter **Schritt 5: Aktuelle Domäne vorbereiten** auf **Ausführen** .
+3.  Klicken Sie auf **Active Directory vorbereiten** und warten Sie das Bestimmen des Bereitstellungsstatus ab.
 
-5.  Klicken Sie auf der Seite **Domäne vorbereiten** auf **Weiter** .
+4.  Klicken Sie unter **Schritt 5: Aktuelle Domäne vorbereiten** auf **Ausführen**.
 
-6.  Suchen Sie auf der Seite **Befehle ausführen** nach **Aufgabenstatus: Abgeschlossen** , und klicken Sie dann auf **Protokoll anzeigen** .
+5.  Klicken Sie auf der Seite **Domäne vorbereiten** auf **weiter**.
 
-7.  Erweitern Sie in der Spalte **Aktion** die Option **Domänenvorbereitung** , und achten Sie hinter jeder Aufgabe auf das Ausführungsergebnis **\<Erfolg\>** , um sicherzustellen, dass die Domänenvorbereitung erfolgreich abgeschlossen wurde. Schließen Sie das Protokoll, und klicken Sie auf **Fertig stellen** .
+6.  Suchen Sie auf der Seite **Befehle ausführen** nach **Aufgabenstatus: Abgeschlossen** und klicken Sie dann auf **Protokoll anzeigen**.
 
-8.  Warten Sie auf den Abschluss der Active Directory-Replikation, oder erzwingen Sie die Replikation für alle Domänencontroller, die im Snap-In "Active Directory-Standorte und -Dienste" für den Domänencontroller des Gesamtstrukturstamms aufgelistet sind.
+7.  Erweitern Sie in der Spalte " **Aktion** " die **Domäne prep**, suchen Sie nach einem ** \<\> ** Ergebnis der erfolgreichen Ausführung am Ende jeder Aufgabe, um zu überprüfen, ob die Domänenvorbereitung erfolgreich abgeschlossen wurde, schließen Sie das Protokoll, und klicken Sie dann auf **Fertig stellen**.
 
-## So verwenden Sie Cmdlets zum Vorbereiten der Domäne
+8.  Warten Sie, bis die Active Directory-Replikation abgeschlossen ist, oder erzwingen Sie die Replikation auf alle Domänencontroller, die im Snap-in Active Directory-Standorte und-Dienste für den Gesamtstruktur-Stammdomänencontroller aufgeführt sind.
 
-1.  Melden Sie sich als Mitglied der Gruppe der Domänenadministratoren bei einem beliebigen Server an.
+</div>
 
-2.  Installieren Sie die Lync Server-Hauptkomponenten wie folgt:
+<div>
+
+## <a name="to-use-cmdlets-to-prepare-the-domain"></a>So verwenden Sie Cmdlets zum Vorbereiten der Domäne
+
+1.  Melden Sie sich bei einem beliebigen Server in der Domäne als Mitglied der Gruppe der Domänenadministratoren an.
+
+2.  Installieren Sie die lync Server Core-Komponenten wie folgt:
     
-    1.  Führen Sie im Lync Server 2013-Installationsordner oder auf dem Installationsmedium "Setup.exe" aus, um den Lync Server-Bereitstellungs-Assistenten zu starten.
+    1.  Führen Sie im lync Server 2013-Installationsordner oder-Medium Setup. exe aus, um den lync Server-Bereitstellungs-Assistenten zu starten.
     
-    2.  Klicken Sie auf **Ja** , wenn Sie zur Installation von Microsoft Visual C++ Redistributable aufgefordert werden.
+    2.  Wenn Sie aufgefordert werden, die Microsoft Visual C++-Installation zu installieren, klicken Sie auf **Ja**.
     
-    3.  Sie werden im Dialogfeld für das Lync Server 2013-Setup aufgefordert, einen Speicherort für die Installation der Lync Server-Dateien anzugeben. Wählen Sie den Standardspeicherort, oder klicken Sie auf **Durchsuchen** , um einen anderen Speicherort anzugeben, und klicken Sie dann auf **Installieren** .
+    3.  Im Dialogfeld "lync Server 2013-Setup" werden Sie aufgefordert, einen Speicherort zum Installieren der lync Server-Dateien anzuzeigen. Wählen Sie den Standardspeicherort aus, oder **Navigieren** Sie zu einem Speicherort Ihrer Wahl, und klicken Sie dann auf **Installieren**.
     
-    4.  Aktivieren Sie auf der Seite "Lizenzvertrag" die Option **Ich stimme den Bedingungen des Lizenzvertrags zu** , und klicken Sie dann auf **OK** . Das Installationsprogramm installiert die Hauptkomponenten von Lync Server 2013.
+    4.  Aktivieren Sie auf der Seite Lizenzvertrag **die Kontrollkästchen Ich akzeptiere die Bedingungen des Lizenzvertrags**, und klicken Sie dann auf **OK**. Das Installationsprogramm installiert die lync Server 2013-Core-Komponenten.
 
-3.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+3.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 4.  Führen Sie folgenden Befehl aus:
     
@@ -61,7 +87,7 @@ Die Domänenvorbereitung ist der abschließende Schritt bei der Vorbereitung von
     
         Enable-CsAdDomain -Domain domain1.contoso.net 
     
-    Wenn Sie den Parameter "Domain" nicht angeben, wird standardmäßig die lokale Domäne verwendet.
+    Wenn Sie den Parameter Domain nicht angeben, ist der Standardwert die lokale Domäne.
 
 5.  Überprüfen Sie, ob die Domänenvorbereitung erfolgreich war. Führen Sie folgenden Befehl aus:
     
@@ -71,22 +97,41 @@ Die Domänenvorbereitung ist der abschließende Schritt bei der Vorbereitung von
     
         Get-CsAdDomain -Domain domain1.contoso.net -GlobalSettingsDomainController dc01.domain1.contoso.com
     
+    <div>
+    
 
-    > [!NOTE]
-    > Über den Parameter "GlobalSettingsDomainController" können Sie den Speicherort der globalen Einstellungen angeben. Wenn Ihre Einstellungen im Systemcontainer gespeichert sind (dies ist bei Upgradebereitstellungen typisch, in denen die globalen Einstellungen nicht zum Konfigurationscontainer migriert wurden), definieren Sie einen Domänencontroller im Stammverzeichnis Ihrer Active Directory-Gesamtstruktur. Wenn sich die globalen Einstellungen im Konfigurationscontainer befinden (dies ist bei neuen Bereitstellungen oder Upgradebereitstellungen typisch, bei denen die Einstellungen zum Konfigurationscontainer migriert wurden), definieren Sie einen beliebigen Domänencontroller in der Gesamtstruktur. Wenn Sie diesen Parameter nicht angeben, geht das Cmdlet davon aus, dass die Einstellungen im Konfigurationscontainer gespeichert sind, und verweist auf einen beliebigen Domänencontroller in AD&nbsp;DS.
+    > [!NOTE]  
+    > Mit dem Parameter GlobalSettingsDomainController können Sie angeben, wo die globalen Einstellungen gespeichert werden. Wenn Ihre Einstellungen im System Container gespeichert sind (typisch für Upgrade-Bereitstellungen, bei denen die globalen Einstellungen nicht in den Konfigurationscontainer migriert wurden), definieren Sie einen Domänencontroller im Stammverzeichnis Ihrer Active Directory-Gesamtstruktur. Wenn sich die globalen Einstellungen im Konfigurationscontainer befinden (dies ist bei neuen Bereitstellungen oder Upgradebereitstellungen typisch, bei denen die Einstellungen zum Konfigurationscontainer migriert wurden), definieren Sie einen beliebigen Domänencontroller in der Gesamtstruktur. Wenn Sie diesen Parameter nicht angeben, geht das Cmdlet davon aus, dass die Einstellungen im Konfigurationscontainer gespeichert sind und auf einen beliebigen Domänencontroller in&nbsp;AD DS verweisen.
 
     
-    Wenn Sie den Parameter **Domain** nicht angeben, wird standardmäßig die lokale Domäne verwendet.
+    </div>
     
-    Bei erfolgreicher Domänenvorbereitung gibt dieses Cmdlet den Wert **LC\_DOMAINSETTINGS\_STATE\_READY** zurück.
+    Wenn Sie den Parameter **Domain** nicht angeben, ist der Standardwert die lokale Domäne.
+    
+    Dieses Cmdlet gibt den Wert des **LC\_-\_DOMAINSETTINGS\_-Status bereit** zurück, wenn die Domänenvorbereitung erfolgreich war.
 
-## Siehe auch
+</div>
 
-#### Aufgaben
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
 
 [Verwenden von Cmdlets zum Rückgängigmachen der Domänenvorbereitung für Lync Server 2013](lync-server-2013-using-cmdlets-to-reverse-domain-preparation.md)  
 
-#### Weitere Ressourcen
 
-[Vorbereiten von Domänen für Lync Server 2013](lync-server-2013-preparing-domains.md)
+[Vorbereiten von Domänen für Lync Server 2013](lync-server-2013-preparing-domains.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

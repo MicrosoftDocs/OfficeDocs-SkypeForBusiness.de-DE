@@ -1,25 +1,47 @@
-﻿---
-title: 'Lync Server 2013: Vorbereiten der Active Directory-Domänendienste'
-TOCTitle: Vorbereiten der Active Directory-Domänendienste für Lync Server 2013
-ms:assetid: 7e126464-5d29-4013-9c44-0ccc2fbdea0f
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398630(v=OCS.15)
-ms:contentKeyID: 49294535
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Vorbereiten der Active Directory-Domänendienste'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing Active Directory Domain Services for Lync Server 2013
+ms:assetid: 7e126464-5d29-4013-9c44-0ccc2fbdea0f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398630(v=OCS.15)
+ms:contentKeyID: 48184620
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 99e1d7285d743da2270121389bbb5a510fe3b12d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823896"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vorbereiten der Active Directory-Domänendienste für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="preparing-active-directory-domain-services-for-lync-server-2013"></a>Vorbereiten der Active Directory-Domänendienste für Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
-Bevor Sie Lync Server 2013 bereitstellen und ausführen, müssen Sie die Vorbereitung von Active Directory-Domänendienste ausführen, indem Sie das Schema erweitern und anschließend Objekte erstellen und konfigurieren. Durch die Schemaerweiterungen werden die Active Directory-Klassen und -Attribute hinzugefügt, die für Lync Server erforderlich sind.
+Vor der Bereitstellung und dem Betrieb von lync Server 2013 müssen Sie die Active Directory-Domänendienste vorbereiten, indem Sie das Schema erweitern und dann Objekte erstellen und konfigurieren. Die Schemaerweiterungen fügen die Active Directory-Klassen und-Attribute hinzu, die für lync Server erforderlich sind.
 
-In den Themen in diesem Abschnitt wird beschrieben, wie Sie AD DS für die Bereitstellung von Lync Server vorbereiten und Berechtigungen für Setup und Organisationseinheiten zuweisen. Ausführliche Einzelheiten zu den für Lync Server erforderlichen Schemaänderungen finden Sie unter [Active Directory-Schemaerweiterungen, -Klassen und -Attribute, die von Lync Server 2013 verwendet werden](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md).
+In den Themen in diesem Abschnitt wird beschrieben, wie Sie AD DS für die Bereitstellung von lync Server vorbereiten und wie Sie Setup-und Organisations Einheits Berechtigungen zuweisen. Details zu den für lync Server erforderlichen Schemaänderungen finden Sie unter [Active Directory-Schemaerweiterungen,-Klassen und-Attribute, die von lync Server 2013 verwendet werden](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md).
 
-## In diesem Abschnitt
+<div>
+
+## <a name="in-this-section"></a>In diesem Abschnitt
 
   - [Active Directory-Infrastrukturanforderungen für Lync Server 2013](lync-server-2013-active-directory-infrastructure-requirements.md)
 
@@ -30,4 +52,16 @@ In den Themen in diesem Abschnitt wird beschrieben, wie Sie AD DS für die Bere
   - [Vorbereiten gesperrter Active Directory-Domänendienste in Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)
 
   - [Gewähren von Berechtigungen in Lync Server 2013](lync-server-2013-granting-permissions.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

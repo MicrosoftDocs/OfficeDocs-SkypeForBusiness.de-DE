@@ -1,37 +1,71 @@
-﻿---
-title: 'Lync Server 2013: Standort eines PSTN-Gateways'
-TOCTitle: Standort eines PSTN-Gateways
-ms:assetid: 49693a35-fad3-49ee-a71e-c7e4537b79aa
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ994031(v=OCS.15)
-ms:contentKeyID: 52056327
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Standort eines PSTN-Gateways'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: PSTN gateway's location
+ms:assetid: 49693a35-fad3-49ee-a71e-c7e4537b79aa
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994031(v=OCS.15)
+ms:contentKeyID: 51803940
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b897d9ce438844cde7617bb7c3e1dae086605f09
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823546"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Standort eines PSTN-Gateways in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="pstn-gateways-location-in-lync-server-2013"></a>Standort eines PSTN-Gateways in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-03-09_
 
-Für Anrufe, die über PSTN-Gateways und Nebenstellenanlagen weitergeleitet werden, sind möglicherweise je nach Standort dieser Systeme Einschränkungen für standortbasiertes Routing erforderlich. Standortbasiertes Routing kann mit unterschiedlicher Granularität bis hinunter zu einer Pro-Trunk-Basis aktiviert werden.
+Für Anrufe, die über PSTN-Gateways und PBX-Anlagen geroutet werden, können abhängig vom Standort solcher Systeme standortbasierte Routing Einschränkungen erforderlich sein. Standortbasiertes Routing kann bei der Granularität pro trunk-Basis aktiviert werden.
 
-Wenn standortbasiertes Routing für einen Trunk aktiviert ist, gelten die folgenden Regeln:
+Standortbasiertes Routing führt die folgenden Regelsätze ein, wenn Sie in einem Trunk aktiviert sind:
 
-  - Regeln, die für diesen Trunk definiert sind, werden nur auf Anrufe angewendet, die über diesen Trunk weitergeleitet werden.
+  - Wenn standortbasiertes Routing pro trunk aktiviert ist, werden die Regeln, die für diesen Stamm definiert sind, nur auf Anrufe angewendet, die durch diesen Trunk geleitet werden.
 
-  - Damit ein Umgehen von Gebühren für das Telefonfestnetz (Public Switched Telephone Network, PSTN) verhindert wird, wenn Anrufe aus einem Netzwerkstandort eingegangen sind, der nicht mit dem Netzwerkstandort identisch ist, in dem sich das PSTN-Gateway befindet, erfolgt mit dem standortbasierten Routing die Zuweisung eines Netzwerkstandorts zu einem bestimmten Trunk.
+  - Um zu verhindern, dass PSTN-Mautgebühren für Anrufe von einer Netzwerk Website abweichen, die sich auf der Netzwerk Website befinden, auf der sich das PSTN-Gateway befindet, führt das ortsbasierte Routing die Zuordnung einer Netzwerk Website zu einem bestimmten Stamm ein. Dadurch wird die Netzwerk Website definiert, die das Weiterleiten von Anrufen an einen bestimmten trunk ermöglicht.
 
-Trunks können auf zwei Arten für standortbasiertes Routing aktiviert werden:
+Trunks kann auf zwei Arten für standortbasiertes Routing aktiviert werden:
 
-  - Der Trunk ist für ein PSTN-Gateway definiert, das Anrufe an das Telefonfestnetz weiterleitet. Eingehende Anrufe, die von einem Trunk dieses Typs weitergeleitet werden, werden nur an Endgeräte weitergeleitet, die sich im selben Netzwerkstandort befinden wie der Trunk.
+  - Der Trunk ist für ein PSTN-Gateway definiert, das Anrufe an das Telefonfestnetz weiterleitet. Eingehende Anrufe, die von einem Trunk dieses Typs weitergeleitet werden, werden nur an Endgeräte weitergeleitet, die sich am selben Netzwerkstandort befinden wie der Trunk.
 
-  - Der Trunk ist für einen Vermittlungsserverpeer definiert, der Anrufe nicht an das Telefonfestnetz weiterleitet, sondern Benutzer bedient, die herkömmliche Telefone in einem statischen Standort (also Nebenstellentelefone) verwenden. Für diese spezielle Konfiguration wird für alle eingehenden Anrufe, die von einem Trunk dieses Typs weitergeleitet werden, angenommen, dass sie aus demselben Netzwerkstandort kommen wie der Trunk. Für Anrufe von Telefonfestnetzbenutzern gilt dieselbe Erzwingung von standortbasiertem Routing wie für Lync-Benutzer, die sich im selben Netzwerkstandort befinden wie der Trunk. Sind zwei Nebenstellenanlagen, die sich in unterschiedlichen Netzwerkstandorten befinden, über Lync Server miteinander verbunden, gestattet standortbasiertes Routing Weiterleitungen von einem Nebenstellenanlagenendgerät in einem Netzwerkstandort an ein anderes Nebenstellenanlagenendgerät im anderen Netzwerkstandort. Dieses Szenario wird von standortbasiertem Routing nicht blockiert. Zusätzlich zu diesem Szenario und ähnlich wie für einen Lync-Benutzer im selben Standort können Endgeräte, die mit einem Vermittlungsserverpeer mit dieser Konfiguration verbunden sind, Anrufe mit einem anderen Vermittlungsserverpeer führen, der Anrufe nicht an das Telefonfestnetz weiterleitet (d. h. ein Endgerät, das mit einer anderen Nebenstellenanlgae verbunden ist), und zwar unabhängig davon, welchem Netzwerkstandort der Vermittlungsserverpeer zugeweisen ist. Alle eingehenden Anrufe, ausgehenden Anrufe, Anrufdurchstellungen und Anrufweiterleitungen, die Telefonfestnetzendgeräte betreffen, unterliegen dem standortbasierten Routing, sodass nur PSTN-Gateways verwendet werden, die für einen solchen Vermittlungsserverpeer als lokal definiert sind.
+  - Der trunk ist für einen Vermittlungs Server-Peer definiert, der keine Anrufe an das PSTN abgibt und Dienste für Benutzer mit älteren Telefonen an statischen Speicherorten (also Telefonanlagen) abruft. Für diese spezielle Konfiguration wird für alle eingehenden Anrufe, die von einem Trunk dieses Typs weitergeleitet werden, angenommen, dass sie vom selben Netzwerkstandort kommen wie der Trunk. Anrufe von PBX-Benutzern haben dieselbe standortbasierte Routing Erzwingung wie lync-Benutzer, die sich am gleichen Netzwerkstandort wie der Stamm befinden. Wenn zwei PBX-Anlagen, die sich auf separaten Netzwerkstandorten befinden, über lync Server verbunden sind, ermöglicht standortbasiertes Routing das Routing von einem PBX-Endpunkt in einer Netzwerk Website zu einem anderen PBX-Endpunkt auf der anderen Netzwerk Website. Dieses Szenario wird nicht durch standortbasiertes Routing blockiert. Zusätzlich zu diesem Szenario und auf ähnliche Weise wie ein lync-Benutzer am gleichen Speicherort können Endpunkte, die mit einem Vermittlungsserver-Peer mit dieser Konfiguration verbunden sind, Anrufe an und von anderen Vermittlungsserver-Peers tätigen oder empfangen, die keine Anrufe an das PSTN weiterleiten (i. e. ein Endpunkt, der mit einer anderen Telefonanlage verbunden ist) unabhängig von der Netzwerk Website, der der Vermittlungs Server-Peer zugeordnet ist. Alle eingehenden Anrufe, ausgehenden Anrufe, Anruf Übertragungen und Anrufweiterleitung mit PSTN-Endpunkten unterliegen dem standortbasierten Routing, um nur PSTN-Gateways zu verwenden, die als lokal für diesen Vermittlungs Server-Peer definiert sind.
 
-## Siehe auch
+<div>
 
-#### Weitere Ressourcen
+## <a name="see-also"></a>Siehe auch
 
-[Anleitungen für das standortbasierte Routing in Lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)
+
+[Anleitungen für das standortbasierte Routing in Lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

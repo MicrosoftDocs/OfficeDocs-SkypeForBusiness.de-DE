@@ -1,58 +1,104 @@
-﻿---
-title: 'Lync Server 2013: Vorbereiten des Active Directory-Schemas'
-TOCTitle: Vorbereiten des Active Directory-Schemas
-ms:assetid: 067726ae-fd3f-4133-a32f-26d2603ac674
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398119(v=OCS.15)
-ms:contentKeyID: 49293063
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Vorbereiten des Active Directory-Schemas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing the Active Directory schema
+ms:assetid: 067726ae-fd3f-4133-a32f-26d2603ac674
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398119(v=OCS.15)
+ms:contentKeyID: 48183300
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5479bfbb0774ddd68015de470de082f0cc185b98
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823959"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vorbereiten des Active Directory-Schemas in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a>Vorbereiten des Active Directory-Schemas in Lync Server 2013
 
-Bevor Sie mit der Vorbereitung von Active Directory-Domänendienste beginnen, können Sie die Schemadateien mit einem Texteditor öffnen (z. B. mit Windows Editor) oder in der [Active Directory-Schemaerweiterungen, -Klassen und -Attribute, die von Lync Server 2013 verwendet werden](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md) alle Active Directory-Domänendienste-Schemaerweiterungen durchsehen, die für Lync Server 2013 geändert werden. In Lync Server werden vier Schemadateien verwendet:
+</div>
 
-  - ExternalSchema.ldf, verwendet zur Interoperabilität mit Microsoft Exchange Server
+<div id="mainSection">
 
-  - "ServerSchema.ldf", die primäre Lync Server 2013-Schemadatei
+<div id="mainBody">
 
-  - BackCompatSchema.ldf, verwendet zur Interoperabilität mit allen Komponenten aus vorherigen Versionen
+<span> </span>
 
-  - VersionSchema.ldf, verwendet für Versionsinformationen des vorbereiteten Schemas
+_**Letztes Änderungsdatum des Themas:** 2012-08-27_
 
-Alle LDF-Dateien werden während der Schemavorbereitung installiert – unabhängig davon, ob Sie eine Migration von einer vorherigen Version oder eine Neuinstallation durchführen. Diese Schemadateien werden in der Reihenfolge installiert, in der sie in der vorstehenden Liste aufgeführt werden, und befinden sich im Ordner "\\Support\\schema" auf dem Installationsmedium.
+Bevor Sie mit dem Vorbereiten der Active Directory-Domänendienste beginnen, können Sie die Schemadateien mit einem Text-Editor wie Windows Notepad öffnen oder die [Active Directory-Schemaerweiterungen,-Klassen und-Attribute anzeigen, die von lync Server 2013 verwendet](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md) werden, um alle aktiven zu überprüfen. Verzeichnis-Domänendienste-Schemaerweiterungen, die für lync Server 2013 geändert werden. Lync Server verwendet vier Schemadateien:
 
-Die Lync Server-Schemaerweiterungen werden in allen Domänen repliziert, was sich auf den Netzwerkdatenverkehr auswirkt. Führen Sie die Schemavorbereitung zu einem Zeitpunkt aus, zu dem die Netzwerkauslastung möglichst gering ist.
+  - ExternalSchema. ldf, das für die Interoperabilität mit Microsoft Exchange Server verwendet wird
+
+  - ServerSchema. ldf, die primäre lync Server 2013-Schemadatei
+
+  - BackCompatSchema. ldf, das für die Interoperabilität mit Komponenten aus früheren Versionen verwendet wird
+
+  - VersionSchema. ldf, das für Versionsinformationen des vorbereiteten Schemas verwendet wird
+
+Alle LDF-Dateien werden während der Schemavorbereitung installiert, unabhängig davon, ob Sie von einer früheren Version migrieren oder eine Neuinstallation durchführen. Diese Schemadateien werden in der in der obigen Liste aufgeführten Reihenfolge installiert und befinden sich im \\Ordner\\"Support Schema" auf dem Installationsmedium.
+
+Die lync Server-Schemaerweiterungen werden über alle Domänen repliziert, was Auswirkungen auf den Netzwerkverkehr hat. Führen Sie die Schemavorbereitung zu einem Zeitpunkt aus, an dem die Netzwerkauslastung gering ist.
+
+<div>
 
 
-> [!NOTE]
-> Wenn in Ihrer Lync Server 2013-Bereitstellung mobile Clients mit Microsoft®&nbsp;Office Communicator Mobile&nbsp;2007&nbsp;R2 für Java und Microsoft®&nbsp;Office Communicator Mobile für Nokia&nbsp;1.0 unterstützt werden sollen, müssen Sie das Active Directory-Schema für Microsoft Office Communications Server 2007 R2 während der Installation von Lync Server 2013 vorbereiten. Die erforderliche Software und Begleitdokumentation finden Sie unter <A href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</A>.
+> [!NOTE]  
+> Wenn Sie Unterstützung für Microsoft® Office Communicator Mobile 2007 R2 für Java und Microsoft® Office Communicator Mobile für Nokia 1,0 für mobile Clients zu ihrer lync Server 2013-Bereitstellung hinzufügen müssen, müssen Sie das Active Directory-Schema für Microsoft Office vorbereiten. Communications Server 2007 R2 während der Installation von lync Server 2013. Die erforderlichen Software-und Dokumentationsinformationen <A href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</A>finden Sie unter.
 
 
 
-## ADSI-Editor
+</div>
 
-Der ADSI-Editor (Active Directory Services Interfaces Editor) ist ein AD DS-Verwaltungstool, mit dem Sie die Schemavorbereitung und -replikation überprüfen können.
+<div>
 
-Der ADSI-Editor wird standardmäßig installiert, wenn Sie die AD DS-Rolle installieren, um einen Server als Domänencontroller einzusetzen. Bei Windows Server 2008 und Windows Server 2008 R2 ist der ADSI-Editor (adsiedit.msc) in den Remoteserver-Verwaltungstools (Remote Server Administration Tools, RSAT) enthalten. Sie können die Remoteserver-Verwaltungstools auch auf Domänenmitgliedsservern oder eigenständigen Servern installieren. Das RSAT-Paket wird standardmäßig auf diese Server kopiert, wenn Sie Windows installieren. Es wird standardmäßig jedoch nicht installiert. Sie installieren einzelne Tools über den Server-Manager. Sie finden den ADSI-Editor unter **Rollenverwaltungstools** , **Tools für die Active Directory-Domänendienste** , **Tools für Active Directory-Domänencontroller** .
+## <a name="adsi-edit"></a>ADSI-Bearbeitung
 
-Bei Windows Server 2003 ist der ADSI-Editor in den Supporttools enthalten. Die Supporttools befinden sich auf der Windows Server 2003-CD im Ordner "\\SUPPORT\\TOOLS". Sie können die Tools auch auf der Seite "Supporttools für Windows Server 2003 Service Pack 2 (32 Bit)" unter folgendem Link herunterladen: [http://go.microsoft.com/fwlink/p/?linkId=207172](http://go.microsoft.com/fwlink/p/?linkid=207172). Anweisungen zur Installation der Supporttools von der Produkt-CD finden Sie auf der Seite "Installieren der Windows-Supporttools" unter <http://go.microsoft.com/fwlink/?linkid=125771>. Die Datei "adsiedit.dll" wird automatisch registriert, wenn Sie die Supporttools installieren. Falls Sie die Dateien jedoch auf Ihren Computer kopiert haben, müssen Sie den Befehl **regsvr32** ausführen, um **adsiedit.dll** zu registrieren, bevor Sie das Tool ausführen können.
+Der Active Directory Service Interfaces-Editor (ADSI-Bearbeitung) ist ein AD DS-Verwaltungstool, mit dem Sie die Schemavorbereitung und-Replikation überprüfen können.
 
-## In diesem Abschnitt
+Die ADSI-Bearbeitung wird standardmäßig installiert, wenn Sie die AD DS-Rolle installieren, um einen Server zu einem Domänencontroller zu machen. Für Windows Server 2008 und Windows Server 2008 R2 ist die ADSI-Bearbeitung (AdsiEdit. msc) in den Remote Server-Verwaltungs Tools enthalten. Sie können die Remoteserver-Server auch auf Domänenmitgliedsservern oder eigenständigen Servern installieren. Wenn Sie Windows installieren, wird das Remoteserver-Paket standardmäßig auf diese Server kopiert, aber nicht standardmäßig installiert. Sie installieren einzelne Tools mithilfe des Server-Managers. Die ADSI-Bearbeitung ist unter **Rollenverwaltungstools**, **Active Directory-Domänendienst Tools**, **Active Directory-Domänen Controller Tools**enthalten.
+
+Für Windows Server 2003 ist die ADSI-Bearbeitung in den Support Tools enthalten. Die Support Tools stehen auf der Windows Server 2003-CD im Ordner \\Support\\Tools zur Verfügung, oder Sie können Sie unter "Windows Server 2003 Service Pack 2 32-Bit-Support Tools [http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770)" herunterladen. Anweisungen zum Installieren der Support Tools auf der Produkt-CD finden Sie unter "Installieren von Windows-Support [http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771)Tools" unter. Adsiedit. dll wird automatisch registriert, wenn Sie die Support Tools installieren. Wenn Sie die Dateien jedoch auf Ihren Computer kopiert haben, müssen Sie den Befehl **regsvr32** ausführen, um die Datei "Adsiedit. dll" zu registrieren, bevor Sie das Tool ausführen können.
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>In diesem Abschnitt
 
   - [Ausführen der Active Directory-Schemavorbereitung in Lync Server 2013](lync-server-2013-running-schema-preparation.md)
 
   - [Überprüfen der Active Directory-Schemareplikation in Lync Server 2013](lync-server-2013-verifying-schema-replication.md)
 
-## Siehe auch
+</div>
 
-#### Weitere Ressourcen
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
 
 [Vorbereiten der Gesamtstruktur für Lync Server 2013](lync-server-2013-preparing-the-forest.md)  
-[Vorbereiten von Domänen für Lync Server 2013](lync-server-2013-preparing-domains.md)
+[Vorbereiten von Domänen für Lync Server 2013](lync-server-2013-preparing-domains.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,41 +1,71 @@
-﻿---
-title: 'Lync Server 2013: Ports und Protokolle für interne Server '
-TOCTitle: Ports und Protokolle für interne Server
-ms:assetid: c94063f1-e802-4a61-be90-022fc185335e
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398833(v=OCS.15)
-ms:contentKeyID: 49295389
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Ports und Protokolle für interne Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Ports and protocols for internal servers
+ms:assetid: c94063f1-e802-4a61-be90-022fc185335e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398833(v=OCS.15)
+ms:contentKeyID: 48185402
+ms.date: 04/06/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 026843216e433ebea120384209ed90f38be3437b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824372"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ports und Protokolle für interne Server in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Ports und Protokolle für interne Server in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2016-04-06_
 
-In diesem Abschnitt werden die von Servern, Lastenausgleichssystemen und Clients in einer Lync Server-Bereitstellung verwendeten Ports und Protokolle beschrieben.
+In diesem Abschnitt werden die Ports und Protokolle zusammengefasst, die von Servern, Load-Balancern und Clients in einer lync Server-Bereitstellung verwendet werden.
+
+<div>
 
 
-> [!IMPORTANT]
-> Wenn Lync- und Communicator-Clients an einer Eins-zu-Eins-Kommunikation beteiligt sind, wird dies häufig als Peer-to-Peer-Situation bezeichnet. Vom technischen Standpunkt aus gesehen, kommunizieren die zwei Clients in einer Eins-zu-Eins-Unterhaltung mit der Multipoint Control Unit für Instant Messaging (IMMCU) als Bindeglied. Die IMMCU stellt eine Komponente von Front-End-Server dar. Die Platzierung der IMMCU im erforderlichen Kommunikationsworkflow ermöglicht die Aufzeichnung von Anrufdetails und weitere Features, die durch den Front-End-Server bereitgestellt werden. Die Kommunikation erfolgt von einem dynamischen Quellport auf dem Client an den Front-End-Server-Port TLS/TCP/5061 (bei angenommener Verwendung der empfohlenen Sicherheit in der Transportschicht). Konstruktionsbedingt ist Peer-to-Peer-Kommunikation (sowie Chat mit mehreren Teilnehmern) nur möglich, wenn Lync Server und die IMMCU aktiv und verfügbar sind.
-
-
-
-## Port- und Protokolldetails
-
-
-> [!NOTE]
-> Die Windows-Firewall muss ausgeführt werden, bevor Sie die Lync Server-Dienste auf einem Server starten, da Lync Server dann die erforderlichen Ports in der Firewall öffnet.
+> [!IMPORTANT]  
+> Lync-und Communicator-Clients werden, wenn Sie an einer 1:1-Kommunikation beteiligt sind, häufig als Peer-to-Peer bezeichnet. Technisch gesehen kommunizieren die beiden Clients in einer 1:1-Konversation mit der Instant Messaging-Multipoint-Steuereinheit (IMMCU) in der Mitte. Die IMMCU ist eine Komponente des Front-End-Servers. Wenn Sie den IMMCU in den erforderlichen Kommunikations Workflow einfügen, können Sie die Anrufdetailaufzeichnung und andere Features, die der Front-End-Server ermöglicht, aufzeichnen. Die Kommunikation erfolgt von einem dynamischen Quell Port auf dem Client zum Front-End-Serverport TLS/TCP/5061 (unter der Voraussetzung, dass die empfohlene Transportschichtsicherheit verwendet wird). Die Peer-to-Peer-Kommunikation (ebenso wie die Chat Unterhaltung mit mehreren Teilnehmern) ist im Entwurf nur möglich, wenn lync Server und IMMCU aktiv und verfügbar sind.
 
 
 
-Ausführliche Informationen zur Firewallkonfiguration für Edgekomponenten finden Sie unter [Ermitteln der Anforderungen für externe A/V-Firewalls und Ports für Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md).
+</div>
+
+<div>
+
+## <a name="port-and-protocol-details"></a>Port- und Protokolldetails
+
+<div>
+
+
+> [!NOTE]  
+> Die Windows-Firewall muss ausgeführt werden, bevor Sie die lync Server-Dienste auf einem Server starten, weil dies der Fall ist, wenn lync Server die erforderlichen Ports in der Firewall öffnet.
+
+
+
+</div>
+
+Details zur Firewall-Konfiguration für Edge-Komponenten finden Sie unter [ermitteln externer A/V-Firewall-und Portanforderungen für lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md).
 
 In der folgenden Tabelle werden alle Ports aufgeführt, die auf jeder internen Serverrolle geöffnet werden müssen.
 
-### Erforderliche Serverports (nach Serverrolle)
+### <a name="required-server-ports-by-server-role"></a>Erforderliche Serverports (nach Serverrolle)
 
 <table>
 <colgroup>
@@ -60,7 +90,7 @@ In der folgenden Tabelle werden alle Ports aufgeführt, die auf jeder internen S
 <td><p>SQL-Browser</p></td>
 <td><p>1434</p></td>
 <td><p>UDP</p></td>
-<td><p>SQL-Browser für die lokal replizierte Kopie der Datenbank des zentralen Verwaltungsspeichers.</p></td>
+<td><p>SQL-Browser für die lokale replizierte Kopie der Datenbank des zentralen Verwaltungsspeichers.</p></td>
 </tr>
 <tr class="even">
 <td><p>Front-End-Server</p></td>
@@ -74,7 +104,7 @@ In der folgenden Tabelle werden alle Ports aufgeführt, die auf jeder internen S
 <td><p>Lync Server-Front-End-Dienst</p></td>
 <td><p>5061</p></td>
 <td><p>TCP (TLS)</p></td>
-<td><p>Wird von Standard Edition-Servern und Front-End-Pools für die gesamte interne SIP-Kommunikation zwischen Servern (MTLS), für die SIP-Kommunikation zwischen Server und Client (TLS) und für die SIP-Kommunikation zwischen Front-End- und Vermittlungsservern (MTLS) verwendet. Wird auch für die Kommunikation mit dem Monitoring Server verwendet.</p></td>
+<td><p>Wird von Standard Edition-Servern und Front-End-Pools für die gesamte interne SIP-Kommunikation zwischen Servern (MTLS), für die SIP-Kommunikation zwischen Server und Client (TLS) und für die SIP-Kommunikation zwischen Front-End- und Vermittlungsservern (MTLS) verwendet. Wird auch für die Kommunikation mit Monitoring Server verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>Front-End-Server</p></td>
@@ -82,8 +112,8 @@ In der folgenden Tabelle werden alle Ports aufgeführt, die auf jeder internen S
 <td><p>444</p></td>
 <td><p>HTTPS</p>
 <p>TCP</p></td>
-<td><p>Wird für die HTTPS-Kommunikation zwischen dem Konferenzzustandsobjekt (der Lync Server-Komponente, die den Konferenzstatus verwaltet) und den einzelnen Servern verwendet.</p>
-<p>Dieser Port wird auch für die TCP-Kommunikation zwischen Survivable Branch-Anwendungen und Front-End-Servern verwendet.</p></td>
+<td><p>Wird für die HTTPS-Kommunikation zwischen dem Fokus (der lync-Server Komponente, die den Konferenzstatus verwaltet) und den einzelnen Servern verwendet.</p>
+<p>Dieser Port wird auch für die TCP-Kommunikation zwischen Überlebenden Branch-Appliances und Front-End-Servern verwendet.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Front-End-Server</p></td>
@@ -94,7 +124,7 @@ In der folgenden Tabelle werden alle Ports aufgeführt, die auf jeder internen S
 </tr>
 <tr class="even">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server-Chatkonferenzdienst</p></td>
+<td><p>Lync Server im-Konferenzdienst</p></td>
 <td><p>5062</p></td>
 <td><p>TCP</p></td>
 <td><p>Wird für eingehende SIP-Anforderungen für Instant Messaging-Konferenzen verwendet.</p></td>
@@ -111,39 +141,39 @@ In der folgenden Tabelle werden alle Ports aufgeführt, die auf jeder internen S
 <td><p>Lync Server-Webkonferenz-Kompatibilitätsdienst</p></td>
 <td><p>8058</p></td>
 <td><p>TCP (TLS)</p></td>
-<td><p>Wird zum Überwachen von PSOM-Verbindungen (Persistent Shared Object Model) vom Live Meeting-Client und von früheren Lync Server-Versionen verwendet.</p></td>
+<td><p>Wird verwendet, um auf Persistent Shared Object Model (PSOM)-Verbindungen vom Live Meeting-Client und früheren Versionen von lync Server zu lauschen.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server-A/V-Konferenzdienst</p></td>
+<td><p>Lync Server-Audio/Video Konferenzdienst</p></td>
 <td><p>5063</p></td>
 <td><p>TCP</p></td>
 <td><p>Wird für eingehende SIP-Anforderungen für A/V-Konferenzen (Audio/Video) verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server-A/V-Konferenzdienst</p></td>
+<td><p>Lync Server-Audio/Video Konferenzdienst</p></td>
 <td><p>57501-65535</p></td>
 <td><p>TCP/UDP</p></td>
 <td><p>Für Videokonferenzen verwendeter Medienportbereich.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server-Webkompatibilitätsdienst</p></td>
+<td><p>Lync Server-webkompatibilitäts Dienst</p></td>
 <td><p>80</p></td>
 <td><p>HTTP</p></td>
-<td><p>Wird für die Kommunikation von den Front-End-Servern mit den FQDNs der Webfarm (von IIS-Webkomponenten verwendete URLs) verwendet, wenn kein HTTPS verwendet wird.</p></td>
+<td><p>Wird für die Kommunikation von den Front-End-Servern mit den FQDNs der Webfarm (von IIS-Webkomponenten genutzte URLs) verwendet, wenn kein HTTPS verwendet wird.</p></td>
 </tr>
 <tr class="even">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server-Webkompatibilitätsdienst</p></td>
+<td><p>Lync Server-webkompatibilitäts Dienst</p></td>
 <td><p>443</p></td>
 <td><p>HTTPS</p></td>
-<td><p>Wird für die Kommunikation von den Front-End-Servern mit den FQDNs der Webfarm (von IIS-Webkomponenten verwendete URLs) verwendet.</p></td>
+<td><p>Wird für die Kommunikation von den Front-End-Servern mit den FQDNs der Webfarm (von IIS-Webkomponenten genutzte URLs) verwendet.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server-Webkompatibilitätsdienst</p></td>
+<td><p>Lync Server-webkompatibilitäts Dienst</p></td>
 <td><p>8080</p></td>
 <td><p>TCP und HTTP</p></td>
 <td><p>Wird von Webkomponenten für den externen Zugriff verwendet.</p></td>
@@ -153,56 +183,56 @@ In der folgenden Tabelle werden alle Ports aufgeführt, die auf jeder internen S
 <td><p>Webserverkomponente</p></td>
 <td><p>4443</p></td>
 <td><p>HTTPS</p></td>
-<td><p></p></td>
+<td><p>HTTPS (vom Reverseproxy) und HTTPS-Front-End-Kommunikation zwischen Servern für die AutoErmittlungsanmeldung.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Front-End-Server</p></td>
 <td><p>Webserverkomponente</p></td>
 <td><p>8060</p></td>
 <td><p>TCP (MTLS)</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Front-End-Server</p></td>
 <td><p>Webserverkomponente</p></td>
 <td><p>8061</p></td>
 <td><p>TCP (MTLS)</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Front-End-Server</p></td>
 <td><p>Mobilitätsdienstekomponente</p></td>
 <td><p>5086</p></td>
 <td><p>TCP (MTLS)</p></td>
-<td><p>Der von internen Prozessen der Mobilitätsdienste verwendete SIP-Port.</p></td>
+<td><p>Der von internen Prozessen der Mobilitätsdienste verwendete SIP-Port</p></td>
 </tr>
 <tr class="even">
 <td><p>Front-End-Server</p></td>
 <td><p>Mobilitätsdienstekomponente</p></td>
 <td><p>5087</p></td>
 <td><p>TCP (MTLS)</p></td>
-<td><p>Der von internen Prozessen der Mobilitätsdienste verwendete SIP-Port.</p></td>
+<td><p>Der von internen Prozessen der Mobilitätsdienste verwendete SIP-Port</p></td>
 </tr>
 <tr class="odd">
 <td><p>Front-End-Server</p></td>
 <td><p>Mobilitätsdienstekomponente</p></td>
 <td><p>443</p></td>
 <td><p>HTTPS</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server-Konferenzzentralendienst (Einwahlkonferenzen)</p></td>
+<td><p>Lync Server Conferencing Attendant-Dienst (Einwahlkonferenzen)</p></td>
 <td><p>5064</p></td>
 <td><p>TCP</p></td>
 <td><p>Wird für eingehende SIP-Anforderungen für Einwahlkonferenzen verwendet.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server-Konferenzzentralendienst (Einwahlkonferenzen)</p></td>
+<td><p>Lync Server Conferencing Attendant-Dienst (Einwahlkonferenzen)</p></td>
 <td><p>5072</p></td>
 <td><p>TCP</p></td>
-<td><p>Wird für eingehende SIP-Anforderungen für Vermittlung (Einwahlkonferenzen) verwendet.</p></td>
+<td><p>Wird für eingehende SIP-Anforderungen für Attendant (Dial in Conferencing) verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>Front-End-Server, auf denen auch ein verbundener Vermittlungsserver ausgeführt wird</p></td>
@@ -226,43 +256,39 @@ In der folgenden Tabelle werden alle Ports aufgeführt, die auf jeder internen S
 <td><p>Wird für eingehende SIP-Anforderungen vom PSTN-Gateway an den Vermittlungsserver verwendet.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Front-End-Server, auf denen auch ein verbundener Vermittlungsserver ausgeführt wird</p>
-<p></p></td>
-<td><p>Lync Server-Vermittlungsdienst</p>
-<p></p></td>
+<td><p>Front-End-Server, auf denen auch ein verbundener Vermittlungsserver ausgeführt wird</p></td>
+<td><p>Lync Server-Vermittlungsdienst</p></td>
 <td><p>5081</p></td>
 <td><p>TCP</p></td>
 <td><p>Wird für ausgehende SIP-Anforderungen vom Vermittlungsserver an das PSTN-Gateway verwendet.</p></td>
 </tr>
 <tr class="even">
-<td><p>Front-End-Server, auf denen auch ein verbundener Vermittlungsserver ausgeführt wird</p>
-<p></p></td>
-<td><p>Lync Server-Vermittlungsdienst</p>
-<p></p></td>
+<td><p>Front-End-Server, auf denen auch ein verbundener Vermittlungsserver ausgeführt wird</p></td>
+<td><p>Lync Server-Vermittlungsdienst</p></td>
 <td><p>5082</p></td>
 <td><p>TCP (TLS)</p></td>
 <td><p>Wird für ausgehende SIP-Anforderungen vom Vermittlungsserver an das PSTN-Gateway verwendet.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server-Anwendungsfreigabedienst</p></td>
+<td><p>Lync Server-Anwendungsfreigabe Dienst</p></td>
 <td><p>5065</p></td>
 <td><p>TCP</p></td>
 <td><p>Wird für eingehende SIP-Überwachungsanforderungen für die Anwendungsfreigabe verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server-Anwendungsfreigabedienst</p></td>
+<td><p>Lync Server-Anwendungsfreigabe Dienst</p></td>
 <td><p>49152-65535</p></td>
 <td><p>TCP</p></td>
 <td><p>Für die Anwendungsfreigabe verwendeter Medienportbereich.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server-Konferenzankündigungsdienst</p></td>
+<td><p>Ankündigungsdienst für lync Server-Konferenzen</p></td>
 <td><p>5073</p></td>
 <td><p>TCP</p></td>
-<td><p>Wird für eingehende SIP-Anforderungen für den Lync Server-Konferenzankündigungsdienst (d. h. für Einwahlkonferenzen) verwendet.</p></td>
+<td><p>Wird für eingehende SIP-Anforderungen für den lync Server Conferencing-Ankündigungsdienst (also für Einwahlkonferenzen) verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>Front-End-Server</p></td>
@@ -273,7 +299,7 @@ In der folgenden Tabelle werden alle Ports aufgeführt, die auf jeder internen S
 </tr>
 <tr class="odd">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server-Audiotestdienst</p></td>
+<td><p>Lync Server-audiotestdienst</p></td>
 <td><p>5076</p></td>
 <td><p>TCP</p></td>
 <td><p>Wird für eingehende SIP-Anforderungen für den Audiotestdienst verwendet.</p></td>
@@ -301,45 +327,45 @@ In der folgenden Tabelle werden alle Ports aufgeführt, die auf jeder internen S
 </tr>
 <tr class="odd">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server-Bandbreitenrichtliniendienst</p></td>
+<td><p>Lync Server-bandbreitenrichtliniendienst</p></td>
 <td><p>5080</p></td>
 <td><p>TCP</p></td>
 <td><p>Wird für die Anrufsteuerung durch den Bandbreitenrichtliniendienst für TURN-Datenverkehr vom A/V-Edgeserver verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>Front-End-Server</p></td>
-<td><p>Lync Server-Bandbreitenrichtliniendienst</p></td>
+<td><p>Lync Server-bandbreitenrichtliniendienst</p></td>
 <td><p>448</p></td>
 <td><p>TCP</p></td>
-<td><p>Wird für die Anrufsteuerung durch den Lync Server-Bandbreitenrichtliniendienst verwendet.</p></td>
+<td><p>Wird für die Anrufsteuerung vom lync Server-bandbreitenrichtliniendienst verwendet.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Front-End-Server mit dem zentraler Verwaltungsspeicher</p></td>
-<td><p>Dienst für den Master-Replikations-Agent von Lync Server</p></td>
+<td><p>Front-End-Server, auf denen sich der zentrale Verwaltungsspeicher befindet</p></td>
+<td><p>Lync Server-Master-Replicator-Agent-Dienst</p></td>
 <td><p>445</p></td>
 <td><p>TCP</p></td>
-<td><p>Wird zum Pushen von Konfigurationsdaten von dem zentraler Verwaltungsspeicher auf Server verwendet, auf denen Lync Server ausgeführt wird.</p></td>
+<td><p>Wird verwendet, um Konfigurationsdaten aus dem zentralen Verwaltungsspeicher auf Server mit lync Server zu übertragen.</p></td>
 </tr>
 <tr class="even">
 <td><p>Alle Server</p></td>
 <td><p>SQL-Browser</p></td>
 <td><p>1434</p></td>
 <td><p>UDP</p></td>
-<td><p>SQL-Browser für die lokal replizierte Kopie der zentralen Verwaltungsspeicher-Daten in der lokalen SQL Server-Instanz.</p></td>
+<td><p>SQL-Browser für lokale replizierte Kopie von Daten des zentralen Verwaltungsspeichers in einer lokalen SQL Server-Instanz</p></td>
 </tr>
 <tr class="odd">
 <td><p>Alle internen Server</p></td>
 <td><p>Verschiedene</p></td>
 <td><p>49152-57500</p></td>
 <td><p>TCP/UDP</p></td>
-<td><p>Für Audiokonferenzen auf allen internen Servern verwendeter Medienportbereich. Wird von allen Servern mit Audioterminierung verwendet: Front-End-Server (für den Lync Server-Konferenzzentralendienst, den Lync Server-Konferenzankündigungsdienst und den Lync Server-A/V-Konferenzdienst) und Vermittlungsserver.</p></td>
+<td><p>Für Audiokonferenzen auf allen internen Servern verwendeter Medienportbereich. Wird von allen Servern verwendet, die Audio beenden: Front-End-Server (für den lync Server Conferencing Attendant-Dienst, lync Server Conferencing Announcement Service und lync Server-Audio/Video Konferenzdienst) und Vermittlungsserver.</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Web Apps-Server</p></td>
-<td><p></p></td>
+<td></td>
 <td><p>443</p></td>
-<td><p></p></td>
-<td><p>Wird von Lync Server 2013 zur Verbindung mit dem Office Web Apps-Server verwendet.</p></td>
+<td></td>
+<td><p>Wird von lync Server 2013 zum Herstellen einer Verbindung mit Office Web Apps Server verwendet.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Directors</p></td>
@@ -350,29 +376,29 @@ In der folgenden Tabelle werden alle Ports aufgeführt, die auf jeder internen S
 </tr>
 <tr class="even">
 <td><p>Directors</p></td>
-<td><p>Lync ServerFront-End-Dienst</p></td>
+<td><p>Lync Server-Front-End-Dienst</p></td>
 <td><p>444</p></td>
 <td><p>HTTPS</p>
 <p>TCP</p></td>
-<td><p>Serverübergreifende Kommunikation zwischen Front-End und Director. Darüber hinaus Clientzertifikatveröffentichung (an Front-End-Server) oder ‑überprüfung, ob das Clientzertifikat bereits veröffentlicht wurde.</p></td>
+<td><p>Serverübergreifende Kommunikation zwischen Front-End und Director. Darüber hinaus veröffentlichen Clientzertifikate (auf Front-End-Servern) oder überprüfen, ob das Clientzertifikat bereits veröffentlicht wurde.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Directors</p></td>
-<td><p>Lync Server-Webkompatibilitätsdienst</p></td>
+<td><p>Lync Server-webkompatibilitäts Dienst</p></td>
 <td><p>80</p></td>
 <td><p>TCP</p></td>
-<td><p>Wird für die anfängliche Kommunikation von Directors zu den FQDNs der Webfarm (den von den IIS-Webkomponenten verwendeten URLs) verwendet. Im Normalbetrieb wird auf HTTPS-Datenverkehr mit Port 443 und Protokolltyp TCP umgeschaltet.</p></td>
+<td><p>Wird für die anfängliche Kommunikation von Directors zu den FQDNs der Webfarm (den von den IIS-Webkomponenten genutzten URLs) verwendet. Im Normalbetrieb wird auf HTTPS-Datenverkehr mit Port 443 und Protokolltyp TCP umgeschaltet.</p></td>
 </tr>
 <tr class="even">
 <td><p>Directors</p></td>
-<td><p>Lync Server-Webkompatibilitätsdienst</p></td>
+<td><p>Lync Server-webkompatibilitäts Dienst</p></td>
 <td><p>443</p></td>
 <td><p>HTTPS</p></td>
-<td><p>Wird für die Kommunikation von Directors zu den FQDNs der Webfarm (den von den IIS-Webkomponenten verwendeten URLs) verwendet.</p></td>
+<td><p>Wird für die Kommunikation von Directors zu den FQDNs der Webfarm (den von den IIS-Webkomponenten genutzten URLs) verwendet.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Directors</p></td>
-<td><p>Lync ServerFront-End-Dienst</p></td>
+<td><p>Lync Server-Front-End-Dienst</p></td>
 <td><p>5061</p></td>
 <td><p>TCP</p></td>
 <td><p>Wird für die interne Kommunikation zwischen Servern und für Clientverbindungen verwendet.</p></td>
@@ -410,35 +436,39 @@ In der folgenden Tabelle werden alle Ports aufgeführt, die auf jeder internen S
 <td><p>SIP für beständigen Chat</p></td>
 <td><p>5041</p></td>
 <td><p>TCP (MTLS)</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Front-End-Server für beständigen Chat</p></td>
 <td><p>Windows Communication Foundation (WCF) für beständigen Chat</p></td>
 <td><p>881</p></td>
 <td><p>TCP (TLS) und TCP (MTLS)</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Front-End-Server für beständigen Chat</p></td>
 <td><p>Dateiübertragungsdienst für beständigen Chat</p></td>
 <td><p>443</p></td>
 <td><p>TCP (TLS)</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 
-
-> [!NOTE]
-> In einigen Szenarien mit Remoteanrufsteuerung ist eine TCP-Verbindung zwischen dem Front-End-Server oder dem Director und der Nebenstellenanlage erforderlich. Wenngleich TCP-Port&nbsp;5060 in Lync Server nicht mehr verwendet wird, können Sie bei der Bereitstellung der Remoteanrufsteuerung eine Konfiguration mit vertrauenswürdigen Servern erstellen, in der der FQDN des Anschlussservers für die Remoteanrufsteuerung dem TCP-Port zugeordnet wird, der vom Front-End-Server oder vom Director zur Verbindung mit der Nebenstellenanlage verwendet wird. Ausführliche Informationen hierzu finden Sie im Abschnitt zum Cmdlet <STRONG>CsTrustedApplicationComputer</STRONG> in der Dokumentation zur Lync Server-Verwaltungsshell.
+<div>
 
 
+> [!NOTE]  
+> In einigen Szenarien mit Remoteanrufsteuerung ist eine TCP-Verbindung zwischen dem Front-End-Server oder dem Director und der Nebenstellenanlage erforderlich. Obwohl der TCP-Port 5060 von lync Server nicht mehr verwendet wird, erstellen Sie während der Remoteanrufsteuerung eine vertrauenswürdige Serverkonfiguration, die den FQDN des RCC-Leitungs Servers dem TCP-Port zuordnet, den der Front-End-Server oder Director für die Verbindung mit dem PBX-System verwendet. Ausführliche Informationen finden Sie im <STRONG>CsTrustedApplicationComputer</STRONG> -Cmdlet in der Dokumentation zur lync Server-Verwaltungsshell.
+
+
+
+</div>
 
 Für Pools, in denen nur Hardwaregeräte zum Lastenausgleich (kein DNS-Lastenausgleich) verwendet werden, zeigen die folgenden Tabellen die Ports, die für die Hardwaregeräte zum Lastenausgleich geöffnet werden müssen.
 
-### Ports für Hardwaregeräte zum Lastenausgleich, wenn nur ein Hardwarelastenausgleich verwendet wird
+### <a name="hardware-load-balancer-ports-if-using-only-hardware-load-balancing"></a>Ports für Hardwaregeräte zum Lastenausgleich, wenn nur ein Hardwarelastenausgleich verwendet wird
 
 <table>
 <colgroup>
@@ -495,50 +525,42 @@ Für Pools, in denen nur Hardwaregeräte zum Lastenausgleich (kein DNS-Lastenaus
 <td><p>TCP</p></td>
 </tr>
 <tr class="odd">
-<td><p>Front-End-Server-Lastenausgleichssystem</p>
-<p></p></td>
+<td><p>Front-End-Server-Lastenausgleichssystem</p></td>
 <td><p>5073</p></td>
 <td><p>TCP</p></td>
 </tr>
 <tr class="even">
-<td><p>Front-End-Server-Lastenausgleichssystem</p>
-<p></p></td>
+<td><p>Front-End-Server-Lastenausgleichssystem</p></td>
 <td><p>5075</p></td>
 <td><p>TCP</p></td>
 </tr>
 <tr class="odd">
-<td><p>Front-End-Server-Lastenausgleichssystem</p>
-<p></p></td>
+<td><p>Front-End-Server-Lastenausgleichssystem</p></td>
 <td><p>5076</p></td>
 <td><p>TCP</p></td>
 </tr>
 <tr class="even">
-<td><p>Front-End-Server-Lastenausgleichssystem</p>
-<p></p></td>
+<td><p>Front-End-Server-Lastenausgleichssystem</p></td>
 <td><p>5071</p></td>
 <td><p>TCP</p></td>
 </tr>
 <tr class="odd">
-<td><p>Front-End-Server-Lastenausgleichssystem</p>
-<p></p></td>
+<td><p>Front-End-Server-Lastenausgleichssystem</p></td>
 <td><p>5080</p></td>
 <td><p>TCP</p></td>
 </tr>
 <tr class="even">
-<td><p>Front-End-Server-Lastenausgleichssystem</p>
-<p></p></td>
+<td><p>Front-End-Server-Lastenausgleichssystem</p></td>
 <td><p>448</p></td>
 <td><p>TCP</p></td>
 </tr>
 <tr class="odd">
-<td><p>Vermittlungsserver-Lastenausgleichssystem</p>
-<p></p></td>
+<td><p>Vermittlungsserver-Lastenausgleichssystem</p></td>
 <td><p>5070</p></td>
 <td><p>TCP</p></td>
 </tr>
 <tr class="even">
-<td><p>Front-End-Server-Lastenausgleichssystem (wenn im Pool auch ein Vermittlungsserver ausgeführt wird)</p>
-<p></p></td>
+<td><p>Front-End-Server-Lastenausgleichssystem (wenn im Pool auch ein Vermittlungsserver ausgeführt wird)</p></td>
 <td><p>5070</p></td>
 <td><p>TCP</p></td>
 </tr>
@@ -553,8 +575,7 @@ Für Pools, in denen nur Hardwaregeräte zum Lastenausgleich (kein DNS-Lastenaus
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Director-Lastenausgleichssystem</p>
-<p></p></td>
+<td><p>Director-Lastenausgleichssystem</p></td>
 <td><p>5061</p></td>
 <td><p>TCP</p></td>
 </tr>
@@ -567,9 +588,9 @@ Für Pools, in denen nur Hardwaregeräte zum Lastenausgleich (kein DNS-Lastenaus
 </table>
 
 
-Für die Front-End- und Director-Pools, die DNS-Lastenausgleich verwenden, muss auch ein Hardwaregerät zum Lastenausgleich bereitgestellt werden. In der folgenden Tabelle werden die Ports aufgeführt, die auf diesen Hardwaregeräten geöffnet werden müssen.
+Für die Front-End- und Director-Pools, die DNS-Lastenausgleich verwenden, muss auch ein Hardwaregerät zum Lastenausgleich bereitgestellt werden. In der folgenden Tabelle werden die Ports aufgeführt, die auf diesen Hardwaregeräten geöffnet sein müssen.
 
-### Ports für Hardwaregeräte zum Lastenausgleich, wenn DNS-Lastenausgleich verwendet wird
+### <a name="hardware-load-balancer-ports-if-using-dns-load-balancing"></a>Ports für Hardwaregeräte zum Lastenausgleich, wenn DNS-Lastenausgleich verwendet wird
 
 <table>
 <colgroup>
@@ -624,7 +645,7 @@ Für die Front-End- und Director-Pools, die DNS-Lastenausgleich verwenden, muss 
 </table>
 
 
-### Erforderliche Clientports
+### <a name="required-client-ports"></a>Erforderliche Clientports
 
 <table>
 <colgroup>
@@ -646,11 +667,10 @@ Für die Front-End- und Director-Pools, die DNS-Lastenausgleich verwenden, muss 
 <td><p>Clients</p></td>
 <td><p>67/68</p></td>
 <td><p>DHCP</p></td>
-<td><p>Wird von Lync Server zur Ermittlung des Registrierungsstellen-FQDN verwendet (d. h. falls bei DNS-SRV ein Fehler auftritt und keine manuellen Einstellungen konfiguriert sind).</p></td>
+<td><p>Wird von lync Server verwendet, um den FQDN der Registrierungsstelle zu finden (das heißt, wenn DNS SRV fehlschlägt und manuelle Einstellungen nicht konfiguriert sind).</p></td>
 </tr>
 <tr class="even">
-<td><p>Clients</p>
-<p></p></td>
+<td><p>Clients</p></td>
 <td><p>443</p></td>
 <td><p>TCP (TLS)</p></td>
 <td><p>Wird bei externem Benutzerzugriff für SIP-Datenverkehr vom Client zum Server verwendet.</p></td>
@@ -683,7 +703,7 @@ Für die Front-End- und Director-Pools, die DNS-Lastenausgleich verwenden, muss 
 <td><p>Clients</p></td>
 <td><p>6891-6901</p></td>
 <td><p>TCP</p></td>
-<td><p>Wird für Dateiübertragungen zwischen Lync-Clients und vorherigen Clientversionen verwendet (Microsoft Office Communications Server 2007 R2-Clients, Microsoft Office Communications Server 2007-Clients und Live Communications Server 2005-Clients).</p></td>
+<td><p>Wird für die Dateiübertragung zwischen lync-Clients und vorherigen Clients (Clients von Microsoft Office Communications Server 2007 R2, Microsoft Office Communications Server 2007 und Live Communications Server 2005) verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>Clients</p></td>
@@ -694,8 +714,7 @@ Für die Front-End- und Director-Pools, die DNS-Lastenausgleich verwenden, muss 
 <tr class="odd">
 <td><p>Clients</p></td>
 <td><p>1024-65535 *</p></td>
-<td><p>TCP/UDP</p>
-<p></p></td>
+<td><p>TCP/UDP</p></td>
 <td><p>Videoportbereich (mindestens 20 Ports erforderlich).</p></td>
 </tr>
 <tr class="even">
@@ -721,22 +740,43 @@ Für die Front-End- und Director-Pools, die DNS-Lastenausgleich verwenden, muss 
 <p>IP-Konferenztelefon Polycom CX3000</p></td>
 <td><p>67/68</p></td>
 <td><p>DHCP</p></td>
-<td><p>Wird von den gelisteten Geräten zum Ermitteln des Lync Server-Zertifikats, des FQDN für die Bereitstellung und des Registrierungsstellen-FQDN verwendet.</p></td>
+<td><p>Wird von den aufgelisteten Geräten verwendet, um das lync Server-Zertifikat, den Bereitstellungs-FQDN und den FQDN der Registrierungsstelle zu finden.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**\*** Zum Konfigurieren spezieller Ports für diese Medientypen verwenden Sie das Cmdlet **CsConferencingConfiguration** (Parameter **ClientMediaPortRangeEnabled**, **ClientMediaPort** und **ClientMediaPortRange**).
+**\*** Wenn Sie bestimmte Ports für diese Medientypen konfigurieren möchten, verwenden Sie das CsConferencingConfiguration-Cmdlet (ClientMediaPortRangeEnabled-, ClientMediaPort-und ClientMediaPortRange-Parameter).
+
+<div>
 
 
-> [!NOTE]
-> Zum Festlegen von Progammen für Lync-Clients müssen die erforderlichen Betriebssystemfirewall-Ausnahmen auf dem Clientcomputer automatisch erstellt werden.
+> [!NOTE]  
+> Mit den Einstellungen für lync-Clients werden die erforderlichen Ausnahmen für das Betriebssystem auf dem Clientcomputer automatisch erstellt.
 
 
 
+</div>
 
-> [!NOTE]
-> Die für den externen Benutzerzugriff verwendeten Ports werden für jedes Szenario benötigt, in dem der Client die Firewall der Organisation durchqueren muss (z.&nbsp;B. bei externer Kommunikation oder bei Besprechungen, die von anderen Organisationen gehostet werden).
+<div>
 
+
+> [!NOTE]  
+> Die für den externen Benutzerzugriff verwendeten Ports werden für jedes Szenario benötigt, in dem der Client die Firewall der Organisation durchqueren muss (z. B. bei externer Kommunikation oder bei Besprechungen, die von anderen Organisationen gehostet werden).
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

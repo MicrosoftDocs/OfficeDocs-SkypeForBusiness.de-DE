@@ -1,57 +1,102 @@
-﻿---
-title: Zurückgeben von Konfigurationsinformationen für den A/V-Edgeserver
-TOCTitle: Zurückgeben von Konfigurationsinformationen für den A/V-Edgeserver
-ms:assetid: b041f5a4-2387-4075-846c-ec4f99640903
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721850(v=OCS.15)
-ms:contentKeyID: 49890889
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Zurückgeben von A/V-Edgeserver-Konfigurationsinformationen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Return A/V Edge Server configuration information
+ms:assetid: b041f5a4-2387-4075-846c-ec4f99640903
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721850(v=OCS.15)
+ms:contentKeyID: 49733783
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 15096099184525890328dbe1c89d891487b46d87
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822363"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Zurückgeben von Konfigurationsinformationen für den A/V-Edgeserver
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="return-av-edge-server-configuration-information-in-lync-server-2013"></a>Zurückgeben von A/V-Edgeserver-Konfigurationsinformationen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
-Der A/V-Edgeserverdienst bietet eine Möglichkeit für Ihre internen Benutzer (in Ihrem Organisationsnetzwerk angemeldete Benutzer), Audio- und Videodateien für externe Benutzer (nicht in Ihrem Organisationsnetzwerk angemeldete Benutzer) freizugeben. Der A/V-Edgeserverdienst wird primär durch die Verwendung von A/V-Edge-Konfigurationseinstellungen verwaltet; Einstellung, die über die Standort- oder die Dienstebene konfiguriert werden kann (d. h., sie kann für einen einzelnen A/V-Edgeserver konfiguriert werden).
+Der a/V-Edgedienst bietet internen Benutzern (Benutzern, die bei Ihrem Unternehmensnetzwerk angemeldet sind) die Möglichkeit, Audio und Video für externe Benutzer freizugeben (Benutzer, die nicht bei Ihrem Organisationsnetzwerk angemeldet sind). Der a/v-Edgedienst wird in erster Linie mithilfe von a/v-Edge-Konfigurationseinstellungen verwaltet, die für den Website Bereich oder den Dienstbereich konfiguriert werden können (d. h., Sie können für einen einzelnen a/v-Edgeserver konfiguriert werden).
 
-Sie müssen die Communications Server-Verwaltungsshell und das Cmdlet Get-CsAVEdgeConfiguration verwenden, um Informationen über die in Ihrer Organisation verwendeten A/V-Edge-Konfigurationseinstellungen zurückzugeben. Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAVEdgeConfiguration).
+Wenn Sie Informationen zu den A/V-Edge-Konfigurationseinstellungen zurückgeben möchten, die in Ihrer Organisation verwendet werden, müssen Sie Windows PowerShell und das Cmdlet Get-CsAVEdgeConfiguration verwenden. Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsAVEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAVEdgeConfiguration) .
 
-Vom Cmdlet Get-CsAVEdgeConfiguration zurückgegebene Informationen sehen in etwa so aus:
+Informationen, die vom Cmdlet "Get-CsAVEdgeConfiguration" zurückgegeben werden, sehen wie folgt aus:
 
     Identity              : Global
     MaxTokenLifetime      : 08:00:00
     MaxBandwidthPerUserKb : 10000
     MaxBandwidthPerPortKb : 3000
 
-## Zurückgeben von Informationen für alle Ihre A/V-Edge-Konfigurationseinstellungen
+<div>
 
-  - Der folgende Befehl gibt Informationen über alle derzeit in Ihrer Organisation verwendeten A/V-Edge-Konfigurationseinstellungen zurück:
+## <a name="to-return-information-for-all-your-av-edge-configuration-settings"></a>So geben Sie Informationen zu allen ihren A/V-Edge-Konfigurationseinstellungen zurück
+
+  - Mit dem folgenden Befehl werden Informationen zu allen A/V-Edge-Konfigurationseinstellungen zurückgegeben, die derzeit in Ihrer Organisation verwendet werden:
     
         Get-CsAVEdgeConfiguration
 
-## Zurückgeben von Informationen für A/V-Edge-Konfigurationseinstellungen auf Standortebene
+</div>
 
-  - Geben Sie zum Zurückgeben von Informationen über eine bestimmte Sammlung von A/V-Edge-Konfigurationseinstellungen die Identität der Sammlung an, wenn das Cmdlet Get-CsAVEdgeConfiguration ausgeführt wird. Beispielsweise gibt dieser Befehl nur Informationen für die Einstellungen zurück, die im Standort Redmond angewendet wurden:
+<div>
+
+## <a name="to-return-information-for-site-scoped-av-edge-configuration-settings"></a>So geben Sie Informationen zu Konfigurationseinstellungen für den Website Bereich A/V-Edge zurück
+
+  - Wenn Sie Informationen zu einer bestimmten Sammlung von a/V-Edge-Konfigurationseinstellungen zurückgeben möchten, geben Sie die Identität dieser Sammlung an, wenn Sie das Cmdlet "Get-CsAVEdgeConfiguration" ausführen. Dieser Befehl gibt beispielsweise nur Informationen für die Einstellungen zurück, die auf die Redmond-Website angewendet wurden:
     
         Get-CsAVEdgeConfiguration -Identity "site:Redmond"
 
-## Zurückgeben von Informationen für A/V-Edge-Konfigurationseinstellungen auf Dienstebene
+</div>
 
-  - Und dieser Befehl gibt nur Informationen für Einstellungen zurück, die auf einem bestimmten A/V-Edgeserver angewendet wurden:
+<div>
+
+## <a name="to-return-information-for-service-scoped-av-edge-configuration-settings"></a>So geben Sie Informationen für die Konfigurationseinstellungen des Dienstbereichs A/V-Edge zurück
+
+  - Und dieser Befehl gibt nur Informationen für Einstellungen zurück, auf die ein bestimmter a/V-Edgeserver angewendet wurde:
     
         Get-CsAVEdgeConfiguration -Identity "service:EdgeServer:atl-edge-001.litwareinc.com"
 
-## Siehe auch
+</div>
 
-#### Aufgaben
+<div>
 
-[Erstellen oder Ändern einer Auflistung von Konfigurationseinstellungen für A/V-Edgeserver](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)  
-[Löschen einer vorhandenen Auflistung von Konfigurationseinstellungen für A/V-Edgeserver](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)  
+## <a name="see-also"></a>Siehe auch
 
-#### Weitere Ressourcen
 
-[A/V-Edgeserver in Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)
+[Erstellen oder Ändern einer Sammlung von a/V-Edgeserver-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)  
+[Löschen einer vorhandenen Sammlung von A/V-Edgeserver-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)  
+
+
+[Audio/Video-Edgeserver (A/V) in lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

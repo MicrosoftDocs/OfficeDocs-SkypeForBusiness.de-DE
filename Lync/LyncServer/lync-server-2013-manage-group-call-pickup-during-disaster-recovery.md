@@ -1,39 +1,65 @@
-﻿---
-title: Verwalten der Gruppenanrufannahme während der Notfallwiederherstellung
-TOCTitle: Verwalten der Gruppenanrufannahme während der Notfallwiederherstellung
-ms:assetid: 2d32f19f-c649-4a72-a4fb-edd338e3a7cc
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ945618(v=OCS.15)
-ms:contentKeyID: 52056312
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Verwalten der Gruppenanruf Abholung während der Disaster Recovery'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Manage Group Call Pickup during disaster recovery
+ms:assetid: 2d32f19f-c649-4a72-a4fb-edd338e3a7cc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945618(v=OCS.15)
+ms:contentKeyID: 51541455
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bed21a672dfecab4c3cc8d828fd40f52bd82a363
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828362"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwalten der Gruppenanrufannahme während der Notfallwiederherstellung
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="manage-group-call-pickup-during-disaster-recovery-in-lync-server-2013"></a>Verwalten der Gruppenanruf Abholung während der Disaster Recovery in lync Server 2013
 
-Wenn ein Front-End-Pool während eines ungeplanten Vorfalls ausfällt, wird ein Failover des Diensts zum Sicherungspool ausgeführt. Während des Failovers zum Sicherungspool werden die Benutzer in den Sicherungspool umgeleitet und in den Ausfallsicherheitsmodus geschaltet. Im Ausfallsicherheitsmodus können Benutzer keine Anrufe an anderen Benutzer annehmen, und ihre eigenen Anrufe können nicht von anderen Benutzern angenommen werden. Nach Abschluss des Failovers können Benutzer die Gruppenanrufannahme wie gewohnt nutzen.
+</div>
 
-Während des Failbacks zum primären Pool werden die Benutzer in den primären Pool umgeleitet und dabei erneut in den Ausfallsicherheitsmodus geschaltet. Die Gruppenanrufannahme ist erst dann wieder verfügbar, wenn sich die Benutzer nicht mehr im Ausfallsicherheitsmodus befinden.
+<div id="mainSection">
 
-In diesem Abschnitt werden einige Überlegungen zur Gruppenanrufannahme während der Notfallwiederherstellung erörtert, und die Benutzererfahrung wird beschrieben.
+<div id="mainBody">
 
-## Überlegungen zur Gruppenanrufannahme während der Notfallwiederherstellung
+<span> </span>
 
-Während der Notfallwiederherstellung verwenden Benutzer, die im Rahmen des Failoververfahrens in den Sicherungspool umgeleitet wurden, die im Sicherungspool ausgeführte Anwendung zum Parken von Anrufen für die Nummern für Anrufannahmegruppe. Daher erfordert die Unterstützung der Gruppenanrufannahme während der Notfallwiederherstellung die Bereitstellung und Aktivierung der Anwendung zum Parken von Anrufen sowohl im primären Pool als auch im Sicherungspool.
+_**Letztes Änderungsdatum des Themas:** 2013-01-30_
 
-Die Nummernbereiche für die Gruppenanrufannahme in der Orbittabelle für das Parken von Anrufen müssen in den Sicherungspool umgeleitet werden, nachdem das Failover zum Sicherungspool abgeschlossen ist. Wenn das Failback zum primären Pool abgeschlossen ist, müssen die Nummernbereiche wieder in den primären Pool umgeleitet werden. Zum Umleiten der Bereiche für die Gruppenanrufannahme verwenden Sie das Cmdlet **Set-CsCallParkOrbit**.
+Wenn ein Front-End-Pool aufgrund eines ungeplanten Vorfalls nicht mehr zur Verfügung steht, ist der Dienst für den Sicherungspool nicht verfügbar. Beim Failover zum Sicherungspool werden die Benutzer in den Sicherungspool umgeleitet und befinden sich im Widerstands Modus. Im Resilienz-Modus können Benutzer keine Anrufe anderer Benutzer aufnehmen oder deren Anrufe von anderen Benutzern abgeholt werden. Nach Abschluss des Failovers können Benutzer die Gruppenanruf-Abholung wie gewohnt wieder verwenden.
 
-Wenn Sie einen neuen Pool mit einem anderen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) bereitstellen, der den primären Pool ersetzt, müssen Sie alle Nummernbereiche für die Gruppenanrufannahme, die dem primären Pool zugeordnet waren, dem FQDN des neuen Pools zuweisen. Zum Zuweisen von Nummernbereichen an den neuen Pool können Sie das **Set-CsCallParkOrbit**-Cmdlet verwenden. Ausführliche Informationen zum **Set-CsCallParkOrbit**-Cmdlet finden Sie unter [Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit).
+Während des Failbacks an den primären Pool werden die Benutzer in den primären Pool umgeleitet und befinden sich wieder im Stabilitäts Modus. Die Funktion für die Gruppenanruf Abholung steht erst zur Verfügung, wenn die Benutzer den Stabilitäts Modus verlassen.
 
-## Die Benutzererfahrung der Gruppenanrufannahme während des Ausfalls eines Pools
+In diesem Abschnitt werden einige Überlegungen zur Abholung von Gruppen anrufen während der Disaster Recovery erläutert und auch die Benutzeroberfläche beschrieben.
 
-In der folgenden Tabelle ist die Benutzererfahrung der Gruppenanrufannahme während der Phasen der Notfallwiederherstellung zusammengefasst.
+<div>
 
-### Vorgänge auf Benutzerseite während der Notfallwiederherstellung
+## <a name="considerations-for-group-call-pickup-during-disaster-recovery"></a>Überlegungen zur Abholung von Gruppen anrufen während der Disaster Recovery
+
+Während der Disaster Recovery verwenden Benutzer, die im Rahmen des Failovers an den Backup-Pool umgeleitet wurden, die Anruf Park Anwendung, die im Backup-Pool für die Gruppennummern der Anruf Abholung ausgeführt wird. Daher erfordert die Unterstützung für die Gruppenanruf Abholung während der Disaster Recovery, dass die Anwendung "Parken" im primären Pool und im Backup-Pool bereitgestellt und aktiviert wird.
+
+Die Nummernbereiche für den Gruppenanruf-Pickup in der Umlaufbahn Tabelle des Anruf Parks müssen nach Abschluss des Failovers an den Sicherungspool an den Sicherungspool umgeleitet werden. Nach Abschluss des Failback-Vorgangs für den primären Pool müssen die Nummernbereiche wieder an den primären Pool umgeleitet werden. Verwenden Sie das Cmdlet " **Satz-CsCallParkOrbit** ", um die Gruppenanruf-Abhol Bereiche umzuleiten.
+
+Wenn Sie einen neuen Pool mit einem anderen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) bereitstellen, um den primären Pool zu ersetzen, müssen Sie dem FQDN des neuen Pools alle Nummernbereiche für die Gruppenanruf Abholung neu zuweisen, die dem primären Pool zugeordnet waren. Wenn Sie dem neuen Poolnummern Bereiche erneut zuweisen möchten, können Sie das Cmdlet " **festlegen-CsCallParkOrbit** " verwenden. Details zum Cmdlet " **setCsCallParkOrbit** " finden Sie unter [Satz-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit).
+
+</div>
+
+<div>
+
+## <a name="group-call-pickup-experience-during-pool-failure"></a>Gruppenanruf-Pickup-Erfahrung beim Pool-Fehler
+
+In der folgenden Tabelle sind die Erfahrungen der Gruppenanruf Abholung in den Phasen der Disaster Recovery zusammengefasst.
+
+### <a name="user-experience-during-disaster-recovery"></a>Benutzererfahrung bei der Disaster Recovery
 
 <table>
 <colgroup>
@@ -43,69 +69,82 @@ In der folgenden Tabelle ist die Benutzererfahrung der Gruppenanrufannahme währ
 </colgroup>
 <thead>
 <tr class="header">
-<th>Anrufstatus</th>
-<th>Failover zu einem Sicherungspool</th>
-<th>Failback zum primären Pool</th>
+<th>Anruf Zustand</th>
+<th>Failover zu Backup-Pool</th>
+<th>Failback zu primärem Pool</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Neue Anrufe</p></td>
-<td><p><strong>Während des Failoverprozesses:</strong></p>
+<td><p><strong>Während des Failover-Vorgangs:</strong></p>
 <ul>
-<li><p>Die Gruppenanrufannahme ist für Benutzer im Ausfallsicherheitsmodus nicht verfügbar.</p></li>
+<li><p>Gruppenanruf Abholung für Benutzer im Resilienz-Modus nicht verfügbar</p></li>
 </ul>
 <p><strong>Nach Abschluss des Failovers:</strong></p>
 <ul>
-<li><p>Die Gruppenanrufannahme ist verfügbar, wenn sich Benutzer nicht im Ausfallsicherheitsmodus befinden und die Nummernbereiche für die Gruppenanrufannahme in den Sicherungspool umgeleitet wurden.</p></li>
+<li><p>Gruppenanruf-Pickup verfügbar, wenn Benutzer, die aus der Widerstandsfähigkeit und dem Gruppenanruf-Nummernbereich abgeholt werden, in den Backup-Pool umgeleitet werden</p></li>
 </ul></td>
-<td><p><strong>Während des Failbackprozesses:</strong></p>
+<td><p><strong>Während des Failback-Vorgangs:</strong></p>
 <ul>
-<li><p>Die Gruppenanrufannahme ist für Benutzer im Ausfallsicherheitsmodus nicht verfügbar.</p></li>
+<li><p>Gruppenanruf Abholung für Benutzer im Resilienz-Modus nicht verfügbar</p></li>
 </ul>
-<p><strong>Nach Abschluss des Failbacks:</strong></p>
+<p><strong>Nach Abschluss des Failback:</strong></p>
 <ul>
-<li><p>Die Gruppenanrufannahme ist verfügbar, wenn sich Benutzer nicht im Ausfallsicherheitsmodus befinden und die Nummernbereiche für die Gruppenanrufannahme zurück in den primären Pool geleitet wurden.</p></li>
+<li><p>Gruppenanruf-Abholung ist verfügbar, wenn Benutzer, die aus der Widerstandsfähigkeit und dem Gruppenanruf-Nummernbereich abgeholt werden, zurück zum primären Pool umgeleitet werden.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Anrufe in der Warteschlange der Gruppenanrufannahme</p></td>
-<td><p><strong>Während des Failoverprozesses:</strong></p>
+<td><p>Anrufe in der Gruppenanruf-Pickup-Warteschlange</p></td>
+<td><p><strong>Während des Failover-Vorgangs:</strong></p>
 <ul>
-<li><p>Anrufe in der Warteschlange können nicht über die Gruppenanrufannahme angenommen werden.</p></li>
+<li><p>Anrufe in der Warteschlange können nicht über die Gruppenanruf-Abholung beantwortet werden.</p></li>
 </ul>
 <p><strong>Nach Abschluss des Failovers:</strong></p>
 <ul>
-<li><p>Keine Anrufe in diesem Status</p></li>
+<li><p>Keine Anrufe in diesem Zustand</p></li>
 </ul></td>
-<td><p><strong>Während des Failbackprozesses:</strong></p>
+<td><p><strong>Während des Failback-Vorgangs:</strong></p>
 <ul>
-<li><p>Anrufe in der Warteschlange können nicht über die Gruppenanrufannahme angenommen werden.</p></li>
+<li><p>Anrufe in der Warteschlange können nicht über die Gruppenanruf-Abholung beantwortet werden.</p></li>
 </ul>
-<p><strong>Nach Abschluss des Failbacks:</strong></p>
+<p><strong>Nach Abschluss des Failback:</strong></p>
 <ul>
-<li><p>Anrufe in der Warteschlange können nicht über die Gruppenanrufannahme angenommen werden.</p></li>
+<li><p>Anrufe in der Warteschlange können nicht über die Gruppenanruf-Abholung beantwortet werden.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Aktuelle Anrufe</p></td>
-<td><p><strong>Während des Failoverprozesses:</strong></p>
+<td><p>Festgelegter Anruf</p></td>
+<td><p><strong>Während des Failover-Vorgangs:</strong></p>
 <ul>
-<li><p>Anrufe bleiben verbunden</p></li>
+<li><p>Anrufe bleiben in Verbindung</p></li>
 </ul>
 <p><strong>Nach Abschluss des Failovers:</strong></p>
 <ul>
-<li><p>Anrufe bleiben verbunden</p></li>
+<li><p>Anrufe bleiben in Verbindung</p></li>
 </ul></td>
-<td><p><strong>Während des Failbackprozesses:</strong></p>
+<td><p><strong>Während des Failback-Vorgangs:</strong></p>
 <ul>
-<li><p>Anrufe bleiben verbunden</p></li>
+<li><p>Anrufe bleiben in Verbindung</p></li>
 </ul>
-<p><strong>Nach Abschluss des Failbacks:</strong></p>
+<p><strong>Nach Abschluss des Failback:</strong></p>
 <ul>
-<li><p>Anrufe bleiben verbunden</p></li>
+<li><p>Anrufe bleiben in Verbindung</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,41 +1,71 @@
-﻿---
-title: Trendbericht über Medienqualität des Servers
-TOCTitle: Trendbericht über Medienqualität des Servers
-ms:assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205071(v=OCS.15)
-ms:contentKeyID: 49294675
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Trend Bericht zur Server Medienqualität'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Server Media Quality Trend Report
+ms:assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205071(v=OCS.15)
+ms:contentKeyID: 48184760
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: dc60cd4c0d8d00fa67a5fe77ca70e61058191baa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821873"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Trendbericht über Medienqualität des Servers
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="server-media-quality-trend-report-in-lync-server-2013"></a>Trend Bericht zur Server Medienqualität in lync Server 2013
 
-Mit dem "Trendbericht über Medienqualität des Servers" haben Sie die Möglichkeit, bis zu 5 Server anhand von Quality of Experience (QoE)-Metriken, wie beispielsweise Anrufvolumen, Prozentsatz der Anrufe schlechter Qualität, Paketverlust und Jitter grafisch zu vergleichen. Mithilfe dieser Möglichkeit ist es einfacher, die leistungsschwachen, unterausgelasteten oder die überbeanspruchten Server zu identifizieren.
+</div>
 
-## Zugreifen auf den "Trendbericht über Medienqualität des Servers"
+<div id="mainSection">
 
-Auf den "Trendbericht über Medienqualität des Servers" kann über einen der folgenden Berichte zugegriffen werden:
+<div id="mainBody">
 
-  - [Bericht über Serverleistung in Lync Server 2013](lync-server-2013-server-performance-report.md) (durch Klicken auf die Trend-Metriken)
+<span> </span>
 
-  - [Anrufdetailbericht in Lync Server 2013](lync-server-2013-call-detail-report.md) (durch Klicken auf die A/V-Edgeserver-Metriken. Wenn der Anrufer bzw. der Angerufene ein Server ist, kann der Trendbericht über Medienqualität des Servers auch durch Klicken auf den Endpunktnamen erreicht werden.)
+_**Letztes Änderungsdatum des Themas:** 2012-11-12_
 
-## Optimale Nutzung des "Trendberichts über Medienqualität des Servers"
+Der Trend Bericht "Server Medienqualität" bietet eine Möglichkeit, bis zu 5 Server auf der Grundlage der Qualität von Erfahrungswerten wie Anruflautstärke, schlechtem Anruf Prozentsatz, Paketverlust und Jitter grafisch zu vergleichen. So ist es einfacher, die leistungsschwachen, nicht voll ausgelasteten oder die überbeanspruchten Server zu identifizieren.
 
-Wenn Sie auf die Trend-Metrik im [Bericht über Serverleistung in Lync Server 2013](lync-server-2013-server-performance-report.md) für einen bestimmten Server klicken, wird der "Trendbericht über Medienqualität des Servers" geöffnet. In diesem Bericht wird jedoch nur eine leere Instanz angezeigt. Der von Ihnen ausgewählte Server im Bericht über Serverleistung wird nicht auf dem Bildschirm angezeigt. Stattdessen müssen Sie den Server aus der Dropdownliste mit den Servern auswählen. Beachten Sie auch, dass in der Dropdownliste mit den Servern die Option "Alle auswählen" enthalten ist. Diese Option funktioniert nicht, wenn mehr als 5 Server vorhanden sind. Im "Trendbericht über Medienqualität des Servers" können nur Daten für maximal 5 Server gleichzeitig angezeigt werden.
+<div>
 
-In den Grafiken des "Trendberichts über Medienqualität des Servers" werden die mit "Anrufvolumen" und "Prozentsatz der Anrufe mit schlechter Qaulität" bezeichneten Punkte als Hotlinks angezeigt. Beim Klicken auf einen Punkt in der Grafik wird eine Instanz des [Anruflistenbericht in Lync Server 2013](lync-server-2013-call-list-report.md) geöffnet, in der die Gesamtanzahl der Anrufe (oder die Anrufe schlechter Qualität) für die angegebene Zeitspanne angezeigt wird.
+## <a name="accessing-the-server-media-quality-trend-report"></a>Zugreifen auf den „Trendbericht über Medienqualität des Servers“
 
-## Filter
+Auf den „Trendbericht über Medienqualität des Servers“ kann über einen der folgenden Berichte zugegriffen werden:
 
-Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. In der folgenden Tabelle werden die Filter aufgelistet, die Sie im "Trendbericht über Medienqualität des Servers" verwenden können.
+  - [Bericht zur Server Leistung in lync Server 2013](lync-server-2013-server-performance-report.md) (durch Klicken auf die Trend Metrik)
 
-### Filter im "Trendbericht über Medienqualität des Servers"
+  - [Anruf Detail Bericht in lync Server 2013](lync-server-2013-call-detail-report.md) (durch Klicken auf die A/V-Edgeserver-Metrik. Wenn es sich bei dem Anrufer oder angerufenen um einen Server handelt, können Sie auch den Bericht "Server Quality Media Trend" erreichen, indem Sie auf den Endpunktnamen klicken.)
+
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>Optimale Nutzung des „Trendberichts über Medienqualität des Servers“
+
+Wenn Sie im [Serverleistungsbericht in lync Server 2013](lync-server-2013-server-performance-report.md) für einen bestimmten Server auf die Trend Metrik klicken, wird der Trendbericht "Server Medienqualität" geöffnet. Es wird jedoch nur eine leere Instanz dieses Berichts angezeigt. der auf dem Serverleistungsbericht ausgewählte Server wird nicht auf dem Bildschirm angezeigt. Stattdessen müssen Sie diesen Server aus der Dropdownliste Server auswählen. Beachten Sie auch, dass die Dropdownliste "Server" eine Option "Alles auswählen" enthält. Diese Option funktioniert nicht, wenn Sie mehr als 5 Server haben; im Trend Bericht zur Server Medienqualität können nur Daten für maximal 5 Server gleichzeitig angezeigt werden.
+
+In den Diagrammen, die mit dem Trend Bericht "Server Medienqualität" angezeigt werden, sind die Punkte mit der Bezeichnung Anrufvolumen und schlechter Anruf Prozentsatz Hotlinks; Wenn Sie auf einen Punkt im Diagramm klicken, wird eine Instanz des [Anruflisten Berichts in lync Server 2013](lync-server-2013-call-list-report.md) geöffnet, in dem die Gesamt Anrufe (oder schlechte Anrufe) für den angegebenen Zeitraum angezeigt werden.
+
+</div>
+
+<div>
+
+## <a name="filters"></a>Filter
+
+Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. In der folgenden Tabelle werden die Filter aufgelistet, die Sie im „Trendbericht über Medienqualität des Servers“ verwenden können.
+
+### <a name="server-media-quality-trend-report-filters"></a>Filter im „Trendbericht über Medienqualität des Servers“
 
 <table>
 <colgroup>
@@ -52,21 +82,21 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 <tr class="odd">
 <td><p><strong>Von</strong></p></td>
 <td><p>Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</p>
-<p>07.07.2012 13:00 Uhr</p>
-<p>Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
-<p>07.07.2012</p>
+<p>7/7/2012 1:00 Uhr</p>
+<p>Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
+<p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
-<p>03.07.2012</p>
+<p>7/3/2012</p>
 <p>Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Bis</strong></p></td>
 <td><p>Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</p>
-<p>07.07.2012 13:00 Uhr</p>
-<p>Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
-<p>07.07.2012</p>
+<p>7/7/2012 1:00 Uhr</p>
+<p>Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
+<p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
-<p>03.07.2012</p>
+<p>7/3/2012</p>
 <p>Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</p></td>
 </tr>
 <tr class="odd">
@@ -77,7 +107,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 <li><p>Täglich (maximal 31 Tage können angezeigt werden)</p></li>
 <li><p>Wöchentlich (maximal 12 Wochen können angezeigt werden)</p></li>
 </ul>
-<p>Wenn die Start- und Enddaten die maximale Anzahl an zugelassenen Werten für das ausgewählte Intervall überschreiten, wird nur die maximale Anzahl an Werten (beginnend beim Startdatum) angezeigt. Wenn Sie beispielsweise das Intervall &quot;Täglich&quot; mit dem Startdatum 07.07.2012 und dem Enddatum 28.09.2012 wählen, werden die Daten für die Tage vom 07.08.2012 12:00 Uhr bis zum 07.09.2012 12:00 Uhr angezeigt (insgesamt also die Daten von 31 Tagen).</p></td>
+<p>Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Wenn Sie beispielsweise das Tagesintervall mit einem Anfangstermin von 8/7/2012 und einem Enddatum von 9/28/2012 auswählen, werden die Daten für die Tage 8/7/2012 12:00 Uhr bis 9/7/2012 12:00 Uhr angezeigt (also insgesamt 31 Tage).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Servertyp</strong></p></td>
@@ -92,7 +122,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Servers</strong></p></td>
+<td><p><strong>Server</strong></p></td>
 <td><p>Name des in der Sitzung verwendeten Servers. Diese Dropdownliste wird automatisch anhand des Werts des Servertypfilters aufgefüllt. Sie können bei der Erstellung eines Berichts bis zu 5 verschiedene Server auswählen.</p></td>
 </tr>
 <tr class="even">
@@ -100,8 +130,8 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 <td><p>Gibt an, ob der Teilnehmer am internen oder am externen Netzwerk angemeldet wurde. Gültige Werte sind:</p>
 <ul>
 <li><p>[Alle]</p></li>
-<li><p>Internal</p></li>
-<li><p>External</p></li>
+<li><p>Intern</p></li>
+<li><p>Extern</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -126,11 +156,15 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 </table>
 
 
-## Metriken
+</div>
 
-In der folgenden Tabelle werden Metriken aufgelistet, die im "Trendbericht über Medienqualität des Servers" angegeben werden.
+<div>
 
-### Metriken im "Trendbericht über Medienqualität des Servers"
+## <a name="metrics"></a>Metriken
+
+In der folgenden Tabelle werden Metriken aufgelistet, die im „Trendbericht über Medienqualität des Servers“ angegeben werden.
+
+### <a name="server-media-quality-trend-report-metrics"></a>Metriken im „Trendbericht über Medienqualität des Servers“
 
 <table>
 <colgroup>
@@ -147,14 +181,14 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im "Trendbericht über
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Anrufvolumen</strong></p></td>
+<td><p><strong>Anruflautstärke</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Die Gesamtanzahl der Anrufe</p></td>
+<td><p>Die Gesamtzahl der Anrufe.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Beeinträchtigung (MOS)</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Die durchschnittliche Beeinträchtigung der Qualität, die gemäß MOS (Mean Opinion Score) während eines Anrufs auftrat. Die Beeinträchtigungswerte liegen zwischen &quot;0,0&quot; (schlecht) und &quot;5,0&quot; (gut). Ein Wert von &quot;0,5&quot; oder besser gilt als akzeptable Beeinträchtigung. Früher wurden Mean Opinion Scores berechnet, indem man Benutzer die Qualität eines Telefongesprächs auf einer Skala von 1 bis 5 bewerten ließ. Lync Server ermittelt anhand mehrerer Algorithmen, wie die Benutzer einen Anruf bewertet hätten.</p>
+<td><p>Durchschnittliche Anzahl von MOS (Mean Option Score) Verschlechterung während eines Anrufs. Die Werte für die Verschlechterung können von einem Tiefstwert von 0,0 bis zu einem Höchstwert von 5,0 liegen. ein Wert von 0,5 oder einer kleineren stellt eine akzeptable Verschlechterung dar. Früher wurden Mean Opinion Scores berechnet, indem man Benutzer die Qualität eines Telefongesprächs auf einer Skala von 1 bis 5 bewerten ließ. Lync Server verwendet eine Reihe von Algorithmen, um vorherzusagen, wie Benutzer einen Anruf bewertet hätten.</p>
 <p>Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
 </tr>
 <tr class="odd">
@@ -171,28 +205,41 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im "Trendbericht über
 <tr class="odd">
 <td><p><strong>Paketverlust</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Die durchschnittliche Rate an RTP-Paketverlusten (Real-Time Transport Protocol). (Zu Paketverlusten kommt es, wenn RTP-Pakete (ein Protokoll für die Übertragung von Audio und Video über das Internet) ihr Ziel nicht erreichen.) Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
+<td><p>Die durchschnittliche Rate an RTP-Paketverlusten (Real-Time Transport-Protokoll; ein Protokoll für die Übertragung von Audio und Video über das Internet). Zu Paketverlusten kommt es, wenn RTP-Pakete ihr Ziel nicht erreichen. Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Jitter</strong></p></td>
+<td><p><strong>Jitter (ms)</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für das &quot;Zittern&quot; der Übertragung während eines Anrufs.) Hohe Jitterwerte werden in der Regel durch Überlastung oder einen überlasteten Medienserver verursacht und führen zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
+<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot;Zittern&quot; eines Anrufs.) Starke Jitterwerte werden in der Regel durch Überlastung oder einen überladenen Medienserver verursacht, was zu verzerrten oder verlorenen Audiodaten führt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Ausblendungsverhältnis der Reparatur</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Das durchschnittliche Verhältnis zwischen ausgeblendeten Audiosamples und der Gesamtzahl der Samples. (Ausgeblendete Audiosamples sind ein Verfahren zum &quot;Glätten&quot; der &quot;holprigen&quot; Übertragung, die normalerweise von verworfenen Netzwerkpaketen verursacht wird.) Ein hoher Wert gibt an, dass wegen Paketverlusten oder Jitter Verlustausblendung in großem Umfang angewendet wurde und führt zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
+<td><p>Das durchschnittliche Verhältnis zwischen ausgeblendeten Audiosamples und der Gesamtzahl der Samples. (Ausgeblendete Audiosamples sind ein Verfahren zum „Glätten“ der „holprigen“ Übertragung, die normalerweise von verworfenen Netzwerkpaketen verursacht wird.) Ein hoher Wert gibt an, dass wegen Paketverlusten oder Jitters Verlustausblendung in großem Umfang angewendet wurde und führt zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Streckungsverhältnis der Reparatur</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Das durchschnittliche Verhältnis zwischen gestreckten Audiosamples und der Gesamtzahl der Samples. (Gestrecktes Audio ist ein Verfahren zum Dehnen von Audiodaten, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitter Samplestreckung in hohem Umfang aufgetreten ist und führt zu roboterhafter oder verzerrter Sprachqualität.</p></td>
+<td><p>Das durchschnittliche Verhältnis zwischen gestreckten Audiosamples und der Gesamtzahl der Samples. (Gestrecktes Audio ist ein Verfahren zum Dehnen von Audiodaten, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplestreckung in hohem Umfang aufgetreten ist und führt zu roboterhafter oder verzerrter Sprachqualität.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Komprimierungsverhältnis der Reparatur</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Das durchschnittliche Verhältnis zwischen komprimierten Audiosamples und der Gesamtzahl der Samples. (Komprimiertes Audio sind Audiodaten, die komprimiert wurden, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitter Samplekomprimierung in hohem Umfang angewendet wurde und führt zu zu schneller Sprachwiedergabe oder zu verzerrter Sprachqualität.</p></td>
+<td><p>Das durchschnittliche Verhältnis zwischen komprimierten Audiosamples und der Gesamtzahl der Samples. (Komprimiertes Audio sind Audiodaten, die komprimiert wurden, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplekomprimierung in hohem Umfang angewendet wurde und führt zu einer zu schnellen Sprachwiedergabe oder zu verzerrter Sprachqualität.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

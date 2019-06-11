@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Roles-Tabelle'
-TOCTitle: Roles-Tabelle
-ms:assetid: e8eb8a10-26b5-488b-bc8c-f9ef93f98bdb
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg399043(v=OCS.15)
-ms:contentKeyID: 49295762
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Roles-Tabelle'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Roles table
+ms:assetid: e8eb8a10-26b5-488b-bc8c-f9ef93f98bdb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399043(v=OCS.15)
+ms:contentKeyID: 48185893
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 12ed7ed4a6f152ce103e3e100bf14918cf945345
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822307"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Roles-Tabelle in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="roles-table-in-lync-server-2013"></a>Roles-Tabelle in Lync Server 2013
 
-Die Roles-Tabelle ist eine statische Tabelle, in der die Liste der möglichen Konferenzrollen wie Teilnehmer und Referent gespeichert ist.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+
+Die Tabelle "Rollen" ist eine statische Tabelle, in der die Liste möglicher Konferenz Rollen wie Teilnehmer und Referenten gespeichert ist.
 
 
 <table>
@@ -30,7 +50,7 @@ Die Roles-Tabelle ist eine statische Tabelle, in der die Liste der möglichen Ko
 <th>Spalte</th>
 <th>Datentyp</th>
 <th>Schlüssel/Index</th>
-<th>Beschreibung</th>
+<th>Details</th>
 </tr>
 </thead>
 <tbody>
@@ -38,19 +58,30 @@ Die Roles-Tabelle ist eine statische Tabelle, in der die Liste der möglichen Ko
 <td><p><strong>RoleId</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Primary</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p><strong>Rolle</strong></p></td>
-<td><p>nvarchar (256)</p></td>
-<td><p></p></td>
+<td><p>nvarchar(256)</p></td>
+<td></td>
 <td><p>Zulässige Werte:</p>
 <ul>
-<li><p>Unbekannt</p></li>
-<li><p>Referent</p></li>
-<li><p>Teilnehmer</p></li>
+<li><p>0 – unbekannt</p></li>
+<li><p>1-Referent</p></li>
+<li><p>2 – Teilnehmer</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

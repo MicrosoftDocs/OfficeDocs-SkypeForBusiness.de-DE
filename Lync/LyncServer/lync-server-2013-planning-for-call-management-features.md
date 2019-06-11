@@ -1,45 +1,82 @@
-﻿---
-title: 'Lync Server 2013: Planen der Anrufverwaltungsfunktionen'
-TOCTitle: Planen der Anrufverwaltungsfunktionen
-ms:assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398421(v=OCS.15)
-ms:contentKeyID: 49294152
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Planen von Funktionen zur Anrufverwaltung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for call management features
+ms:assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398421(v=OCS.15)
+ms:contentKeyID: 48184298
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c799051615a75801640c63ade6fe6d23b8a62dda
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825023"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planen der Anrufverwaltungsfunktionen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="planning-for-call-management-features-in-lync-server-2013"></a>Planen der Anruf Verwaltungsfeatures in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-12-17_
 
-Enterprise-VoIP-Anrufverwaltungsfeatures steuern, wie eingehende Anrufe weitergeleitet und beantwortet werden. Lync Server 2013 bietet die folgenden Anrufverwaltungsfeatures:
+Enterprise-VoIP-anrufverwaltungsfunktionen steuern, wie eingehende Anrufe weitergeleitet und beantwortet werden. Lync Server 2013 bietet die folgenden anrufverwaltungsfunktionen:
 
-  - **Parken von Anrufen :** Ermöglicht es VoIP-Benutzern, Anrufe vorübergehend zu parken und anschließend am gleichen oder an einem anderen Telefon entgegenzunehmen.
+  - **Parken von Anrufen**: Ermöglicht VoIP-Benutzern, Anrufe vorübergehend zu parken und anschließend am gleichen oder an einem anderen Telefon entgegenzunehmen.
 
-  - **Gruppenannahme**:   Ermöglicht VoIP-Benutzern das Annehmen von Anrufen, die an andere VoIP-Benutzer eingehen, die Annahmegruppen zugewiesen sind.
+  - **Gruppenannahme**: Ermöglicht VoIP-Benutzern das Annehmen von Anrufen, die an andere VoIP-Benutzer eingehen, die Annahmegruppen zugewiesen sind.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Die Gruppenannahme ist ein neues Feature, das mit den kumulativen Updates für Lync Server 2013: Februar&nbsp;2013 bereitgestellt wird.
+    > [!NOTE]  
+    > Die Gruppen Abholung ist neu mit kumulativen Updates für lync Server 2013: Februar 2013.
 
+    
+    </div>
 
+  - **Reaktionsgruppe**: Leitet eingehende Anrufe mithilfe von Sammelanschlüssen oder interaktiven Sprachantworten an Agentgruppen weiter.
 
-  - **Reaktionsgruppe :** Leitet eingehende Anrufe mithilfe von Sammelanschlüssen oder interaktiven Sprachantworten an Agentgruppen weiter.
-
-  - **Ansage :** Zur Wiedergabe einer Nachricht für Anrufe, die über eine nicht zugewiesene Nummer eingehen, zur Weiterleitung des Anrufs oder beides.
+  - **Ankündigung:**    Wiedergabe einer Nachricht für Anrufe an eine nicht zugewiesene Nummer oder Weiterleiten des Anrufs an einem anderen Ort oder in beiden Fällen.
 
 Wenn Sie die Bereitstellung von Enterprise-VoIP planen, können Sie einige oder alle dieser Anrufverwaltungsfunktionen implementieren.
 
-## In diesem Abschnitt
+<div>
+
+## <a name="in-this-section"></a>In diesem Abschnitt
 
   - [Planen des Parkens von Anrufen in Lync Server 2013](lync-server-2013-planning-for-call-park.md)
 
-  - [Planen der Gruppenanrufannahme in Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)
+  - [Planen der Abholung von Gruppen anrufen in lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)
 
   - [Planen von Reaktionsgruppen in Lync Server 2013](lync-server-2013-planning-for-response-groups.md)
 
   - [Planen von Ansagen in Lync Server 2013](lync-server-2013-planning-for-announcements.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

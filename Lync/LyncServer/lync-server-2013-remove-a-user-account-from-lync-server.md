@@ -1,65 +1,114 @@
-﻿---
-title: Entfernen eines Benutzerkontos aus Lync Server
-TOCTitle: Entfernen eines Benutzerkontos aus Lync Server
-ms:assetid: 2f512aba-e358-45ae-af58-74312ee9c514
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688008(v=OCS.15)
-ms:contentKeyID: 49890683
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Entfernen eines Benutzerkontos von lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Remove a user account from Lync Server
+ms:assetid: 2f512aba-e358-45ae-af58-74312ee9c514
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688008(v=OCS.15)
+ms:contentKeyID: 49733596
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9780e19fb608855d9c820285cc87582787ff896d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823154"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Entfernen eines Benutzerkontos aus Lync Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="remove-a-user-account-from-lync-server-2013"></a>Entfernen eines Benutzerkontos aus lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-22_
 
-Sie können das folgende Verfahren verwenden, um ein zuvor hinzugefügtes Benutzerkonto in Lync Server 2013 zu entfernen.
+Sie können das folgende Verfahren verwenden, um ein zuvor hinzugefügtes Benutzerkonto in lync Server 2013 zu entfernen.
+
+<div>
 
 
-> [!NOTE]
-> Durch das Entfernen eines Benutzers gehen alle Einstellungen verloren, die für das Benutzerkonto konfiguriert wurden. Sie können ein Benutzerkonto auch vorübergehend deaktivieren. Informationen hierzu finden Sie im Thema <A href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Aktivieren oder Reaktivieren von Benutzerkonten für Lync Server</A>.
+> [!NOTE]  
+> Wenn Sie einen Benutzer entfernen, gehen alle Einstellungen verloren, die Sie für das Benutzerkonto konfiguriert haben. Wenn Sie stattdessen ein Benutzerkonto vorübergehend deaktivieren möchten, lesen Sie das Thema <A href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">deaktivieren oder erneutes Aktivieren des Benutzerkontos für lync Server 2013</A>.
 
 
 
-## So entfernen Sie ein Lync Server-Benutzerkonto aus Lync Server
+</div>
+
+<div>
+
+## <a name="to-remove-a-user-account-by-using-lync-server-management-shell"></a>So entfernen Sie ein Benutzerkonto mithilfe der lync Server-Verwaltungsshell
 
 1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
 
-4.  Geben Sie im Feld **Benutzer suchen** einen Teil oder den vollständigen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager, Sicherheitskonto-Manager), die SIP-Adresse oder den Anschluss-URI (Uniform Resource Identifier) des Benutzerkontos ein, das deaktiviert oder erneut aktiviert werden soll, und klicken Sie dann auf **Suchen**.
+4.  Geben Sie im Feld **Benutzer suchen** den gesamten oder den ersten Teil des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontos (Security Accounts Manager), der SIP-Adresse oder des Uniform Resource Identifier (URI) des Benutzerkontos ein, das Sie deaktivieren oder erneut aktivieren möchten. und klicken Sie dann auf **Suchen**.
 
 5.  Klicken Sie in der Tabelle auf das Benutzerkonto, das Sie entfernen möchten.
 
-6.  Klicken Sie im Menü **Aktion** auf **Aus Lync Server entfernen**. Daraufhin wird ein Dialogfeld angezeigt.
+6.  Klicken Sie im Menü **Aktion** auf **aus lync Server entfernen**, und es wird ein Dialogfeld angezeigt.
 
-7.  Wählen Sie im Dialogfeld**OK** aus, um den Benutzer zu entfernen.
+7.  Wählen Sie im Dialogfeld **OK** aus, um den Benutzer zu entfernen.
 
-## Entfernen eines Benutzerkontos mithilfe von Lync Server-PowerShell-Cmdlets
+</div>
 
-Sie können Benutzerkonten auch mithilfe des Cmdlets **Disable-CsUser** entfernen. Sie können dieses Cmdlet entweder über die Verwaltungsshell für Lync Server 2013 oder in einer Remotesitzung über Windows PowerShell ausführen. Ausführliche Informationen zur Remoteverwendung von Windows PowerShell, um eine Verbindung zu einem Lync-Server herzustellen, finden Sie im Lync Server Windows PowerShell-Blog "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" unter [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Entfernen eines Benutzerkontos
+## <a name="removing-user-accounts-by-using-windows-powershell-cmdlets"></a>Entfernen von Benutzerkonten mithilfe von Windows PowerShell-Cmdlets
 
-  - Sie können das Cmdlet **Disable-CsUser** verwenden, um ein Benutzerkonto zu entfernen. Beispiel:
+Sie können Benutzerkonten mithilfe des Cmdlets Disable-CsUser entfernen. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Windows PowerShell-Remotesitzung ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+
+<div>
+
+## <a name="to-remove-a-user-account"></a>So entfernen Sie ein Benutzerkonto
+
+  - Wenn Sie ein Benutzerkonto entfernen möchten, verwenden Sie das Cmdlet Disable-CsUser. Beispiel:
     
         Disable-CsUser -Identity "Ken Myer"
     
-    Nachdem dieser Befehl ausgeführt wurde, gibt es keine Möglichkeit, das Konto erneut zu aktivieren und die vorherigen Kontoeinstellungen wiederherzustellen. Stattdessen müssen Sie das Cmdlet **Enable-CsUser-** verwenden, um für Ken Myer ein ganz neues Konto zu erstellen.
+    Nachdem dieser Befehl ausgeführt wurde, gibt es keine Möglichkeit, das Konto und seine vorherigen Einstellungen wieder zu aktivieren. Stattdessen müssen Sie das Cmdlet Enable-CsUser verwenden, um ein nagelneues Konto für Ken Myers zu erstellen.
 
-Weitere Informationen finden Sie im Hilfethema für das [Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser)-Cmdlet.
+</div>
 
-## Siehe auch
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser) .
 
-#### Aufgaben
+</div>
 
-[Aktivieren oder Reaktivieren von Benutzerkonten für Lync Server](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+<div>
 
-#### Weitere Ressourcen
+## <a name="see-also"></a>Siehe auch
 
-[Aktivieren und Deaktivieren von Benutzern für Lync Server 2013](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
+
+[Deaktivieren oder erneutes Aktivieren des Benutzerkontos für lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+
+
+[Aktivieren und Deaktivieren von Benutzern für lync Server 2013](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,133 +1,221 @@
-﻿---
-title: Lync Call Quality Methodology
+---
+title: 'Lync Server 2013: Poster: Methode der lync-Anrufqualität'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: 'Poster: Lync Call Quality Methodology'
 ms:assetid: a069f4e5-4f80-4f0f-8657-2e07276b6b41
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn593600(v=OCS.15)
-ms:contentKeyID: 61084825
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593600(v=OCS.15)
+ms:contentKeyID: 61084874
+ms.date: 06/24/2016
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: e18dc59e0b8669bb48962874291e63523f37eb48
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824015"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Call Quality Methodology
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="lync-call-quality-methodology-in-lync-server-2013"></a>Methodik der lync-Anrufqualität in lync Server 2013
 
-Dieser Artikel begleitet das Poster [Lync Call Quality Methodology](http://go.microsoft.com/fwlink/?linkid=391841), das Sie aus dem Download Center herunterladen können.
+</div>
 
-![Poster mit Beschreibung des CQM-Prozesses](images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "Poster mit Beschreibung des CQM-Prozesses")
+<div id="mainSection">
 
-Auf diesem Poster erfahren Sie mehr über CQM, der Call Quality Methodology für Lync 2013 und 2010, mit der Sie Probleme finden und beheben können, die sich auf die Anrufqualität und die Benutzerfreundlichkeit für Lync-Implementierungen auswirken, die Enterprise-VoIP-Funktionen enthalten. Call Quality Methodology ist ein neues Fehlerbehandlungs- und Dienstverwaltungsframework, mit dem Sie Ihre Bemühungen zur Verbesserung von Enterprise-VoIP-Diensten in Lync besser fokussieren können. In diesem Artikel erfahren Sie mehr über CQM, die Arten der überwachten Server und Lösungen und was Sie mit den gesammelten Telemetriedaten tun können.
+<div id="mainBody">
 
-Fragen zur Verwendung von CQM können Sie an cqmfeedback@microsoft.com senden.
+<span> </span>
 
-Auf dem Poster werden die folgenden Bereiche erklärt:
+_**Letztes Änderungsdatum des Themas:** 2016-06-24_
 
-  - Was ist Lync CQM?
+Dieser Artikel ist ein Begleiter des lync-Methoden-Plakats für die [Anrufqualität](http://go.microsoft.com/fwlink/?linkid=391841) , das Sie aus dem Download Center herunterladen können.
 
-  - Priorisierung: Ausführen von Trendabfragen
+![Poster mit Beschreibung des CQM-Prozesses] (images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "Poster mit Beschreibung des CQM-Prozesses")
+
+Sie können dieses Poster verwenden, um mehr über CQM zu erfahren, die Methoden zur Anrufqualität für lync 2013 und 2010, die Ihnen helfen, Probleme zu finden und zu eliminieren, die sich auf die Anrufqualität und die Benutzererfahrung für lync-Implementierungen beziehen, die Enterprise-VoIP Die Methode der Anrufqualität ist ein neues Problem Behandlungs-und Dienst Verwaltungs Framework, mit dem sich die Bemühungen zur Verbesserung der Enterprise-VoIP-Dienste in lync besser konzentrieren können. In diesem Artikel finden Sie weitere Informationen zu CQM, den Arten von Servern und Lösungen, die überwacht werden, und was mit den erfassten Telemetrie-Daten zu tun ist.
+
+Wenn Sie Fragen zur Verwendung von CQM haben, können Sie Ihre Fragen an cqmfeedback@Microsoft.com senden.
+
+Das Poster erläutert die folgenden Bereiche:
+
+  - Was ist lync CQM?
+
+  - Priorisieren: Ausführen von Trend Abfragen
 
   - PCD
 
-  - Verwaltet/Nicht verwaltet
+  - Verwaltet/nicht verwaltet
 
-  - Die Straße der Servereinrichtung
+  - Der Server plant Road
 
-  - Die Straße der letzten Meile
+  - Die letzte Meile Straße
 
-  - Die Straße der Endpunkte
+  - Die Endpunkte-Straße
 
   - Dienstverwaltung
 
-  - Spielregeln
+  - Regeln für das Brettspiel
 
-## Was ist Lync CQM?
+<span id="WhatIs"></span>
 
-Call Quality Methodology ist ein neues Fehlerbehandlungs- und Dienstverwaltungsframework, mit dem Sie Ihre Bemühungen zur Verbesserung von Enterprise-VoIP-Diensten in Lync besser fokussieren können. Wenn Sie CQM verwenden, können Sie die Anrufqualität und Benutzerzufriedenheit für Enterprise-VoIP-Anrufe einfacher sicherstellen. CQM wird ausführlicher im [Lync Server-Netzwerkhandbuch](http://go.microsoft.com/fwlink/p/?linkid=390677) beschrieben. In diesem Artikel und auf dem Poster werden diese Inhalte zusammengefasst.
+<div>
 
-CQM teilt die Systemfehlerbehandlung in die folgenden drei Wege oder “Straßen” auf: die Straße der Servereinrichtung, bei der die Server und die dazwischen bestehenden Verbindungen angesehen werden, die Straße der Endpunkte, bei der Benutzergeräte und Medien für die Übertragung von Anrufen betrachtet werden, und die Straße der letzten Meile, bei der die Integration herkömmlicher PSTN-Anrufe behandelt wird.
+## <a name="what-is-lync-cqm"></a>Was ist lync CQM?
 
-Jede Straße ist je nach bestimmtem Bereich oder Thema in mehrere Segmente aufgeteilt. In jedem Segment wird definiert, was ein akzeptabler Qualitätslevel ist und mit welchen Aktionen dieser Qualitätslevel erreicht werden kann. Zudem wird ein Dienstverwaltungsplan festgelegt, um diesen Qualitätslevel aufrechtzuerhalten, bevor zum nächsten Thema übergegangen wird.
+Die Methode der Anrufqualität ist ein neues Problem Behandlungs-und Dienst Verwaltungs Framework, mit dem sich die Bemühungen zur Verbesserung der Enterprise-VoIP-Dienste in lync besser konzentrieren können. Wenn Sie CQM verwenden, sind geringere Anstrengungen erforderlich, um die Anrufqualität und die Benutzerzufriedenheit für Enterprise-VoIP-Dienste zu gewährleisten. CQM wird in der [Methode zur Anrufqualität](http://go.microsoft.com/fwlink/p/?linkid=615208)umfassender erläutert. Dieser Artikel und das Plakat sind Zusammenfassungen dieser Inhalte.
 
-Auf dem Poster ist Lync CQM als Brettspiel für drei Spieler dargestellt, die jeweils eine der Straßen nehmen. Im Download enthaltene Karten werden verwendet, um Hindernisse für die Anrufqualität darzustellen, die überwunden werden müssen. Hinweise und Vorschläge zu Zielen und wie diese erreicht werden können, sind in allen drei Straßen vorhanden, ebenso Richtlinien zur Priosierung, welche Straße in tatsächlichen Anwendungen zuerst verfolgt werden sollte (im Spiel werden alle drei Straßen parallel genommen).
+CQM gliedert die System Problembehandlung in drei Pfade oder "Straßen" auf. Diese sind: die Server plant Road, die die Server und die Verknüpfungen zwischen Ihnen, die Endpunkte Road, untersucht, die Benutzer Geräte und Medien verwendet, um Anrufe zu führen, und die letzte Meile Road, die die Integration von herkömmlichen Telefonnetz anrufen anspricht.
 
-Wie funktioniert CQM in früheren Versionen von Lync? CQM ist neu in Lync 2013, aber der größte Teil kann auch für die Verwendung mit Lync 2010 angepasst werden. CQM funktioniert möglicherweise zu einem gewissen Grad mit Microsoft Office Communicator, aber dies ist nicht getestet und es gibt keinen Support dafür.
+Jede Straße ist in mehrere Abschnitte unterteilt, die sich auf einen bestimmten Bereich oder ein bestimmtes Thema beziehen, und bei jedem Segment werden Definitionen zu einer akzeptablen Qualitätsstufe, Maßnahmen zur Erreichung dieser Qualitätsstufe und ein Service Management Plan eingerichtet, in dem die Verwaltung erfolgen kann. Diese Qualitätsstufe, bevor Sie mit dem nächsten Thema fortfahren.
 
-Fragen zur Verwendung von CQM können Sie an cqmfeedback@microsoft.com senden.
+Das Poster stellt lync CQM als Brettspiel für drei Spieler dar, die jeweils eine der Straßen durchlaufen werden. Karten, die im Download enthalten sind, werden verwendet, um Hindernisse für die Anrufqualität zu simulieren, die überwunden werden müssen. Hinweise und Vorschläge zu Zielen und deren Erreichung sind in den drei Pfaden sowie in den Richtlinien für die Priorisierung enthalten, die zuerst in tatsächlichen Anwendungen verfolgt werden sollen (im Spiel werden alle drei Straßen parallel adressiert).
 
-## Priorisierung: Ausführen von Trendabfragen
+Wie funktioniert CQM in früheren Versionen von lync? CQM ist neu für lync 2013, aber die meisten davon können an die Verwendung mit lync 2010 angepasst werden. CQM kann mit Microsoft Office Communicator zu einem gewissen Grad arbeiten, dies ist jedoch nicht getestet und wird nicht unterstützt.
 
-Der erste Schritt von CQM besteht darin, zwei Wochen lang jede der Trendabfragen auszuführen und die Ergebnisse zu analysieren. Priorisieren Sie korrigierende Aktionen nach dem größten Datenstrombeitrager, dem höchsten Datenstromverhältnis und den verwalteten Bereichen (die Sie kontrollieren). Wenn die Audio/Video Multipoint Control Unit (AV MCU) oder Vermittlungsabfragen schlechte Ergebnisse zeigen, beginnen Sie auf der roten Straße (Servereinrichtung). Wenn die Verkabelungs- oder Drahtlosabfragen schlechte Ergebnisse zeigen, beginnen Sie auf der blauen Straße (letzte Meile). Wenn die VPN- oder externen Abfragen schlechte Ergebnisse zeigen, beginnen Sie auf der grünen Straße (Endpunkte).
+Wenn Sie Fragen zur Verwendung von CQM haben, können Sie Ihre Fragen an cqmfeedback@Microsoft.com senden.
 
-Nachdem Sie sich für eine Straße entschieden haben, mit der Sie beginnen möchten, definieren Sie ein Ziel für jeden Bereich (Bestätigen), arbeiten Sie daran, das Ziel zu erreichen (Erreichen), und implementieren Sie dann Verfahren, um den Kurs zu halten (Warten). Sie können dieses Poster auch als Spiel verwenden, um die Prinzipien hinter CQM zu verstehen.
+</div>
 
-## PCD
+<span id="Trending"></span>
 
-Das PreCall-Diagnosetool (PCD) hilft Ihnen, Probleme in Ihrem Umkreisnetzwerk zu erkennen und zu diagnostizieren (die QoE-Datenbank sammelt keine Informationen in Ihrem Edge- oder Umkreisnetzwerk) sowie Probleme mit der Verbindung in der letzten Meile zu beheben. Das Tool steht sowohl als Windows 8 Modern-App als auch als Windows Desktop-App unter http://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88 zur Verfügung.
+<div>
 
-## Verwaltet/Nicht verwaltet
+## <a name="prioritize-run-trending-queries"></a>Priorisieren: Ausführen von Trend Abfragen
 
-Die Lync Server-Bereitstellung und -Infrastruktur kann normalerweise in verwaltete und nicht verwaltete Bereiche aufgeteilt werden. Der verwaltete Bereich beinhaltet Ihre gesamte interne verkabelte Netzwerk- und Serverinfrastruktur. Der nicht verwaltete Bereich ist die Drahtlosinfrastruktur und die externe Netzwerkinfrastruktur.
+Der erste Schritt in CQM besteht darin, die einzelnen Trend Abfragen für zwei Wochen auszuführen und dann die Ergebnisse zu analysieren. Priorisieren von Korrekturmaßnahmen durch den größten Datenstrom Mitwirkenden, das höchste schlechte Datenstrom Verhältnis und verwaltete Bereiche (die Sie steuern).Wenn die Audio/Video-Multi-Point-Steuereinheit (AV MCU) oder Mediations Abfragen schlechte Ergebnisse aufweisen, beginnen Sie auf der roten oder Server-Anlagen Straße.Wenn die verkabelten oder drahtlos Abfragen schlechte Ergebnisse aufweisen, beginnen Sie mit der blauen oder letzten Meile.Wenn die VPN-oder externen Abfragen schlechte Ergebnisse aufweisen, beginnen Sie mit der grünen oder Endpunkte-Straße.
 
-Wenn Sie diese Unterscheidung machen, werden Ihre Daten klarer. Es hilft Ihrem Unternehmen zudem, sich auf Arbeitsauslastungen zu konzentrieren, die eine messbare Wirkung auf die Sprach- und Videoqualität für Ihre Benutzer haben. Benutzer haben unterschiedliche Erwartungen an die Qualität, wenn der Anruf in einer Infrastruktur erfolgt, die Sie besitzen (verwaltet), oder in einer Infrastruktur, die teilweise von einer anderen Entität kontrolliert wird (nicht verwaltet). Das bedeutet nicht, dass Drahtlosbenutzer mit ihren eigenen Geräten allein dastehen, um hervorragende Lync Server-Erfahrungen zu machen.
+Nachdem Sie eine Straße ausgewählt haben, mit der Sie beginnen möchten, definieren Sie ein Ziel für jeden Bereich (Assert), arbeiten Sie, um dieses Ziel zu erfüllen (erreichen), und implementieren Sie dann Verfahren, um im Ziel (beibehalten) zu bleiben. Sie können dieses Poster auch als Spiel verwenden, um die Prinzipien hinter CQM zu verstehen.
 
-Für eine Verbesserung der Sprachqualität im nicht verwalteten Bereich benötigen Sie eine hohe Qualität im verwalteten Bereich. Ob der Drahtlosbereich (WLAN) als verwalteter oder nicht verwalteter Bereich betrachtet wird, hängt von Ihrem Unternehmen ab. Die Techniken zum Erzielen einer fehlerfreien Umgebung sind in beiden Bereichen unterschiedlich, ebenso die Lösungen.
+</div>
 
-## Die Straße der Servereinrichtung
+<span id="PCD"></span>
 
-Segment 1 der Straße der Servereinrichtung zielt auf die tatsächlichen Server in der Lync-Implementierung ab. Sammeln Sie KHI-Daten zum Server selbst und zu seiner Rolle in der Implementierung und analysieren Sie die Ergebnisse. Wenn eine Aktion notweding ist, korrigieren Sie die gefundenen Probleme. Ausführlichere Informationen zu diesem Thema finden Sie in dem Artikel zu [Key Health Indicators](lync-server-2013-poster-key-health-indicators.md), der das KHI-Poster begleitet.
+<div>
 
-Das nächste Segment betrifft den Mediendatenstrom zwischen dem AV MCU-Server und dem Vermittlungsserver. Bestimmen Sie zunächst Ihre Ziele für schlechte Datenstromschwellenwerte. Schlechte Datenströme sind normalerweise "PacketLossRate \> .01" oder "PacketLossRateMax \> .05". Ein weiteres wünschenswertes Ziel ist "PoorStreamsRatio \< 2%". Verwenden Sie danach detaillierte Abfragen, um AV MCU- und Vermittlungsserver mit schlechten Datenströmen zu finden, untersuchen Sie deren Ursache, sehen Sie sich die Netzwerkkomponenten in den schlechten Datenstrompfaden an, warten Sie schlechte Datenströme und definieren Sie die optimale oder "goldene" Konfiguration für die Netzwerkkomponenten. Um Ihren Erfolg beizubehalten, implementieren Sie Prozesse und Tools zum Verwalten von Konfigurationsabweichungen und Melden neuer Problembereiche.
+## <a name="pcd"></a>PCD
 
-Untersuchen Sie danach den Mediendatenstrom zwischen dem Vermittlungsserver und dem PSTN-Gateway. Bestimmen Sie zunächst Ihre Ziele für schlechte Datenstromschwellenwerte. Schlechte Datenströme sind normalerweise "PacketLossRate \> .01" oder "PacketLossRateMax \> .05". Ein weiteres wünschenswertes Ziel ist "PoorStreamsRatio \< 2%". Verwenden Sie danach detaillierte Abfragen, um Vermittlungsserver- und Gatewaypaare mit schlechten Datenströmen zu finden, untersuchen Sie deren Ursache, sehen Sie sich die Netzwerkkomponenten in den schlechten Datenstrompfaden an, warten Sie schlechte Datenströme und definieren Sie die optimale oder "goldene" Konfiguration für die Netzwerkkomponenten. Um Ihren Erfolg beizubehalten, implementieren Sie Prozesse und Tools zum Verwalten von Konfigurationsabweichungen und Melden neuer Problembereiche.
+Das precall Diagnostics Tool (PCD) hilft Ihnen, Probleme in Ihrem Umkreisnetzwerk zu erkennen und zu diagnostizieren (die QoE-Datenbank sammelt keine Informationen über Ihr Edge-oder Umkreisnetzwerk) und auch, um Verbindungen in der letzten Meile zu beheben. Das Tool ist sowohl in einer modernen Windows 8-App als auch in http://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88einer Windows-Desktop-App verfügbar.
 
-Schließlich können Sie die Integritätskennzahlen für Ihr PSTN-Gateway untersuchen. Ermitteln Sie die Statistiken, die die Integrität zeigen, und definieren Sie Ziele anhand dieser Statistiken. Hier wird keine spezielle Anleitung bereitgestellt, da viele mögliche Gateways verwendet werden können. Wenn die Ziele festgelegt sind, warten Sie nach Bedarf, um das Ziel zu erreichen. Während dieses Vorgangs werden Sie wahrscheinlich eine optimale oder "goldene" Konfiguration für das Gateway festlegen. Um Ihren Erfolg beizubehalten, implementieren Sie Prozesse und Tools zum Verwalten von Konfigurationsabweichungen und Melden neuer Problembereiche. Achten Sie darauf, dass Firmware- und Softwareupdates möglicherweise Ihre Konfiguration ändern oder dazu führen, dass Sie die Definition der "goldenen" Konfiguration ändern. Gehen Sie diese Aktivitäten deshalb mit Vorsicht an.
+</div>
 
-## Die Straße der letzten Meile
+<span id="ManagedUn"></span>
 
-Von den zwei Möglichkeiten, mit denen Clients eine Verbindung zum Netzwerk herstellen können, wird bei einer verkabelten Verbindung erwartet, dass sie die höchste Qualität bietet. Entsprechend muss das Ihr anfänglicher Schwerpunkt für Probleme der letzten Meile sein. Verwenden Sie die CQM-Verkabelungsabfrage (LastMile\_0\_Wired) und die Verhältnisdaten für schlechte Datenströme, die diese bereitstellt. Es wird empfohlen, ein Ziel für PoorStreamsRatio \< 5% für Standorte mit \> 300 Datenströmen festzulegen. Zum Erreichen Ihrer Ziele warten Sie Subnetze in der Reihenfolge vom schlechtesten zum besten und implementieren Sie QoS.
+<div>
 
-Nachdem Sie die Qualität Ihrer verkabelten Verbindungen optimiert haben, wird das Verbessern der Qualität von Drahtlosverbindungen einfacher, da die Drahtlosinfrastruktur über dem verkabelten Kern an jedem Standort sitzt. Schlechte Drahtlosdatenströme an einem Standort mit guter verkabelter Qualität muss den speziellen Drahtloskomponenten zugeschrieben werden. Die CQM-Drahtlosabfrage (LastMile\_1\_Wireless) funktioniert in einem Datumsbereich und gibt alle internen Drahtlosdatenströme in Ihrer Umgebung zurück, die Lync-Clients an oder von Konferenz- oder Vermittlungsservern übertragen. Es wird empfohlen, ein Ziel für PoorStreamsRatio \< 5% für Standorte mit \> 300 Datenströmen zu definieren. Zum Erreichen Ihrer Ziele warten Sie Subnetze in der Reihenfolge vom schlechtesten zum besten und implementieren Sie QoS.
+## <a name="managedunmanaged"></a>Verwaltet/nicht verwaltet
 
-## Die Straße der Endpunkte
+Die lync Server-Bereitstellung und die Netzwerkinfrastruktur können in der Regel in verwaltete und nicht verwaltete Leerzeichen unterteilt werden. Der verwaltete Speicherplatz umfasst Ihr gesamtes internes Kabelnetzwerk und die Serverinfrastruktur. Der nicht verwaltete Speicherplatz ist die drahtlose Infrastruktur und die externe Netzwerkinfrastruktur.
 
-Beginnen Sie Abfragen in der Straße der Endpunkte mit den Kopfhörern und anderen Geräten, die bekanntermaßen bei der Verwendung mit Lync eine annehmbare Qualität bieten. Es wird empfohlen, ein Ziel von AvgSendListen MOS \> 3.6 für Implementierungen mit mehr als 100 Datenströmen zu setzen. Verfolgen Sie Ihr Ziel, indem Sie problematische Geräte ermitteln und reparieren oder ersetzen.
+Durch diese Unterscheidung wird die Übersichtlichkeit Ihrer Daten erhöht, und Ihre Organisation kann sich auf Arbeitslasten konzentrieren, die messbare Auswirkungen auf die Sprach-und Videoqualität Ihrer Benutzer haben. Die Erwartungen der Benutzer an die Qualität sind unterschiedlich, wenn der Anruf in einer Infrastruktur erfolgt, die Sie besitzen (verwaltet), und die Infrastruktur teilweise unter der Kontrolle einer anderen Entität (nicht verwaltet) liegt. Dies soll nicht heißen, dass drahtlose Benutzer auf Ihren eigenen Geräten überlassen werden, um hervorragende lync Server-Erfahrungen zu haben.
 
-Untersuchen Sie danach das Gerät oder den PC, das bzw. der die Audiosignale für Endbenutzeranrufe verarbeitet. Eine vorgeschlagene Zielqualitätskennzahl ist AudioMic GlitchRate \> 1. Wenn Sie optimale Systemkonfigurationen für die Benutzersysteme ermitteln, definieren Sie eine "goldene" PC-Konfiguration einschließlich Treiberversionen.
+Um die Sprachqualität im nicht verwalteten Speicherbereich zu verbessern, müssen Sie in verwaltetem Raum eine hohe Qualität aufweisen. Ob drahtlos (Wi-Fi) als verwalteter oder nicht verwalteter Speicherplatz gilt, liegt in Ihrer Organisation. Die Techniken zum Erreichen einer gesunden Umgebung unterscheiden sich in den beiden Räumen ebenso wie die Lösungen.
 
-Untersuchen Sie jetzt den Netzwerkpfad, den ein Audiodatenstrom von einem Lync-Endpunktsystem nimmt, der zu schlechter Audioqualität führen kann. Wenn Audio über eine VPN-Verbindung übertragen wird, beobachten Sie möglicherweise Latenzprobleme. Wenn ein interner Lync-Client bei einem Anruf mit zwei Parteien oder einem Peer-zu-Peer-Anruf keinen direkten Mediendatenstrom zu einem anderen internen Lync-Client einrichten kann, fällt er auf einen Pfad zurück, der über einen Lync-Edgeserver vermittelt wird, was wiederum zu Latenzproblemen sowie einem höheren Verlust- und Jitterrisiko führen kann. Es wird empfohlen, eine Qualitätskennzahl von 0 % Medien über VPN zu definieren. Wenn Sie warten, um das festgelegte Ziel zu erreichen, ermitteln Sie Problemsubnetze und untersuchen Sie Firewallregeln, Packet Shaper und andere relevante Netzwerkgerätekonfigurationen.
+</div>
 
-IP-Pakete können TCP (Transmission Control Protocol) oder UDP (User Datagram Protocol) verwenden. TCP ist optimal für Datendatenströme geeignet. UDP ist verbindungslos und effizienter für Medien, da TCP-Wiederherstellungsmechanismen nicht auf Verluste in Echtzeitmedien reagieren können. Lync bevorzugt immer UDP, wird aber auf TCP zurückgesetzt, wenn keine UDP-Sitzung eingerichtet werden kann. Mediensitzungen über TCP haben eine schlechtere Qualität als über UDP. Es wird empfohlen, eine Qualitätsdefinition von 0 % Verbindungen über TCP festzulegen. Wenn Sie warten, um das festgelegte Ziel zu erreichen, ermitteln Sie Problemsubnetze und untersuchen Sie Firewallregeln, Packet Shaper und andere relevante Netzwerkgerätekonfigurationen.
+<span id="ServRd"></span>
 
-## Dienstverwaltung
+<div>
 
-Die Dienstverwaltung ist der Endzustand von CQM und das Ziel aller drei Straßen. Zur Aufrechterhaltung einer hohen Anrufqualität überwachen Sie die folgenden Bereiche:
+## <a name="the-server-plant-road"></a>Der Server plant Road
 
-1.  **Benutzer:** Wartungsaktivitäten sollten eine messbare Steigerung der Benutzerzufriedenheit zeigen. Sie können dies mit Problemtickets oder anderen Feedbackmechanismen messen. Sie können außerdem Qualitätskennzahlen veröffentlichen.
+Segment 1 des Server plant Road-Adressen der tatsächlichen Server in der lync-Implementierung. Sammeln Sie KHI-Daten bezüglich des Servers selbst und seiner Rolle in der Implementierung, und analysieren Sie das Ergebnis. Wenn die Aktion gerechtfertigt ist, beheben Sie alle gefundenen Probleme. Weitere Informationen zu diesem Thema finden Sie im Artikel zu den [wichtigsten Integritätsindikatoren in lync Server 2013](lync-server-2013-poster-key-health-indicators.md) , der dem KHI-Poster beigefügt ist.
 
-2.  **Prozess:** Definieren Sie tägliche, wöchentliche und monatliche Prozesse, um CQM zu operationalisieren. Der Überwachungsrhythmus beginnt mit einer größeren Häufigkeit, während Sie warten (täglich), und geht zu einer geringeren Häufigkeit (monatlich) über, wenn Sie stabilisieren.
+Das nächste Segment adressiert Mediendatenströme zwischen dem AV MCU-Server und dem Vermittlungsserver. Ermitteln Sie zunächst Ihre Ziele für schlechte Datenstrom Schwellenwerte. Schlechte Datenströme sind in \> der Regel PacketLossRate \> .01 oder PacketLossRateMax. 05. Ein weiteres erstrebenswertes \< Ziel ist PoorStreamsRatio 2%. Verwenden Sie als nächstes detaillierte Abfragen, um AVMCU-und Vermittlungsserver Paare mit schlechten Datenströmen zu finden, die Ursache schlechter Datenströme zu untersuchen, Netzwerkgeräte in den schlechten Datenstrom Pfaden zu suchen, schlechte Streams zu beheben und die optimale oder "Gold"-Konfiguration für das Netzwerk zu definieren. Geräte. Um Ihre Leistung beizubehalten, implementieren Sie Prozesse und Tools, um die Konfigurations Drift zu verwalten und neue Problembereiche zu melden.
 
-3.  **Tools:** Ermitteln Sie Tools sowohl für das Messen als auch das Warten. Möglicherweise ist es nützlich, die Ausführung von CQM-Abfragen zu automatisieren, um Ihre Prozesse zu unterstützen. Für die Wartung sind möglicherweise zusätzliche Tools erforderlich, zum Beispiel um standardisierte Konfigurationen für Netzwerkelemente zu erzwingen oder Verlustprobleme in schlechen Datenströmen zu behandeln.
+Überprüfen Sie als nächstes die Mediendatenströme zwischen dem Vermittlungsserver und dem PSTN-Gateway (Public Switched Telephone Network). Ermitteln Sie zunächst Ihre Ziele für schlechte Datenstrom Schwellenwerte. Schlechte Datenströme sind in \> der Regel PacketLossRate \> .01 oder PacketLossRateMax. 05. Ein weiteres erstrebenswertes \< Ziel ist PoorStreamsRatio 2%. Verwenden Sie als nächstes detaillierte Abfragen, um Vermittlungsserver-und Gateway-Paare mit schlechten Datenströmen zu finden, die Ursache schlechter Datenströme zu untersuchen, Netzwerkgeräte in den schlechten Datenstrom Pfaden zu ermitteln, schlechte Streams zu beheben und die optimale oder "Gold"-Konfiguration für das Netzwerk zu definieren. Geräte. Um Ihre Leistung beizubehalten, implementieren Sie Prozesse und Tools, um die Konfigurations Drift zu verwalten und neue Problembereiche zu melden.
 
-## Spielregeln
+Überprüfen Sie abschließend die Integritäts Metrik für Ihr PSTN-Gateway. Ermitteln Sie die Statistiken, die den Status anzeigen, und definieren Sie Ziele für Sie. Hier werden keine spezifischen Anleitungen bereitgestellt, da viele mögliche Gateways verwendet werden können. Sobald Ziele festgelegt sind, können Sie bei Bedarf wiederhergestellt werden, um das Ziel zu erreichen. im Prozess definieren Sie wahrscheinlich eine "Gold"-oder optimale Konfiguration für das Gateway. Um Ihre Leistung beizubehalten, implementieren Sie Prozesse und Tools, um die Konfigurations Drift zu verwalten und neue Problembereiche zu melden. Beachten Sie, dass Firmware-und Softwareupdates Ihre Konfiguration ändern oder Sie dazu bringen können, die Definition der "Gold"-Konfiguration zu ändern, damit Sie sich mit Bedacht an diese Aktivitäten wenden können.
 
-Sie können dieses Poster entweder als Referenz für eine CQM-Implementierung oder als Spiel verwenden, um sich mit den Konzepten vertraut zu machen. Zum Spielen benötigen Sie einen sechsseitigen Würfel und die bereitgestellten Karten. Eine Version der Karten zum Herunterladen steht zur Verfügung und kann auf Avery 5871-Standardvisitenkarten gedruckt werden.
+</div>
 
-Das Spiel ist für drei Spieler vorgesehen. Es gibt drei Straßen, die die Spieler nehmen können, um die gewünschte Qualität zu erzielen und den zentralen Dienstverwaltungsstatus zu erreichen: die Straße der Servereinrichtung, die Straße der Endpunkte und die Straße der letzten Meile. Auf jeder Straße gibt es Haltepunkte, an denen Sie Qualitätsziele bestätigen, Ziele erreichen und einen Aspekt Ihres Systems warten. Legen Sie die Karten auf dem gekennzeichneten Bereich oben ab und ziehen Sie fünf Karten. Sehen Sie sich die gezogenen Karten an und legen Sie sie im vorgesehenen Spielsegment ab. Jeder Spieler arbeitet sich auf seiner Straße Schritt für Schritt durch die Karten, bestätigt die Qualitätsziele, erreicht diese Ziele und hält die Servicelevel aufrecht. Das Spiel ist abgeschlossen, wenn alle Spieler den zentralen Dienstverwaltungszustand erreicht haben. Ausführlichere Regeln werden mit dem Download der Spielkarten bereitgestellt.
+<span id="LastMi"></span>
 
-Zum **Bestätigen** eines Qualitätsziels sehen Sie sich die für dieses Ziel geltenden Parameter an und sprechen Sie laut aus, was Sie akzeptieren und was nicht. Wir haben empfohlene Startpunkte, aber Sie müssen die letzte Entscheidung treffen. Die Ausnahme sind KHI-Daten, bei denen die von Microsoft festgelegten Standards verwendet werden sollten. Weitere Informationen finden Sie auf dem begleitenden KHI-Poster.
+<div>
 
-Zum **Erreichen** eines Ziels im Spiel verwenden Sie die Karten, die anstelle von KHI-Daten und Systemabfragen bereitgestellt sind. Wenn Sie zu Beginn des Spiels keine Karte gezogen haben, die einem bestimmten Aspekt entspricht, können Sie darüber hinweggehen. Wenn eine entsprechende Karte vorhanden ist, würfeln Sie. Liegt die gewürfelte Zahl unter der auf der Karte angegebenen Zahl, haben Sie gewonnen. Entspricht die gewürfelte Zahl der Zahl auf der Karte oder liegt sie darüber, müssen Sie eine weitere Karte vom Stapel ziehen. Wenn auf der Karte angegeben ist, dass zwei oder mehr Spieler würfeln sollen, müssen alle erfolgreich würfeln.
+## <a name="the-last-mile-road"></a>Die letzte Meile Straße
 
-Zum **Warten** im Spiel sprechen Sie laut den Dienstmanagementplan für diesen Aspekt der Lync-Umgebung aus.
+Von den zwei Möglichkeiten, wie Clients eine Verbindung mit dem Netzwerk herstellen, wird von Wired erwartet, dass Sie die höchste Qualität liefern, und dementsprechend muss dies Ihr erster Schwerpunkt für die letzten Meilen sein. Verwenden Sie die CQM-Kabel Abfrage\_(\_LastMile 0 Wired) und die von ihr bereitgestellten Datenströme. Wir empfehlen, eine Ziel PoorStreamsRatio \< von 5% für Websites \> mit 300-Streams zu definieren. Um Ihre Ziele zu erreichen, beheben Sie Subnetze, die von Worst to Best bestellt wurden, und implementieren Sie QoS.
 
-## Siehe auch
+Nachdem Sie die Qualität ihrer kabelgebundenen Verbindungen optimiert haben, wird die Verbesserung der WLAN-Qualität vereinfacht, da sich die drahtlose Infrastruktur an jedem Standort auf dem kabelgebundenen Kern befindet. Schlechte drahtlose Datenströme auf einer Website mit guter Kabelqualität müssen den jeweiligen Drahtloskomponenten zugeschrieben werden. Die CQM Wireless Query (LastMile\_1\_Wireless) funktioniert in einem Datumsbereich und gibt alle internen drahtlos Datenströme in Ihrer Umgebung von lync-Clients zu oder von Konferenzservern oder Vermittlungsservern zurück. Wir empfehlen, eine Ziel PoorStreamsRatio \< von 5% für Websites \> mit 300-Streams zu definieren. Um Ihre Ziele zu erreichen, beheben Sie Subnetze, die von Worst to Best bestellt wurden, und implementieren Sie QoS.
 
-#### Weitere Ressourcen
+</div>
+
+<span id="EndPt"></span>
+
+<div>
+
+## <a name="the-end-points-road"></a>Die Endpunkte-Straße
+
+Beginnen Sie Anfragen in die Endpunkte der Straße, wobei die Headsets und andere Geräte bekanntermaßen in Verbindung mit lync akzeptable Qualität produzieren. Wir empfehlen eine Ziel AvgSendListen Mos \> 3,6 für Implementierungen mit mehr als 100 Streams.) Erreichen Sie das Ziel, indem Sie problematische Geräte identifizieren und beheben oder ersetzen.
+
+Überprüfen Sie als nächstes das Gerät oder den PC, in dem die Audiodaten für Endbenutzer Anrufe verarbeitet werden. Eine vorgeschlagene Ziel Qualitätsmetrik ist eine AudioMicGlitchRate \<= 1. Wenn Sie optimale Systemkonfigurationen für die Benutzersysteme erkennen, definieren Sie eine "Goldene" PC-Konfiguration mit Treiberversionen.
+
+Untersuchen Sie nun den Netzwerkpfad, den ein Audiostream von einem lync-Endpunkt System benötigt, was zu schlechter Audioqualität führen kann. Wenn Audio über eine VPN-Verbindung reist, werden möglicherweise Latenzprobleme angezeigt. Wenn ein interner lync-Client keinen direkten Mediendatenstrom zu einem anderen internen lync-Client für einen zweiseitigen oder Peer-zu-Peer-Anruf einrichten kann, wird er auf einen Pfad zurückgegriffen, der über einen lync-Edgeserver weitergeleitet wird, was wiederum zu Latenzproblemen führt, sowie zu einem erhöhten Potenzial für Verlust und Jitter. Wir empfehlen, dass Sie eine Qualitätsmetrik von 0% Medien über VPN definieren. Bei der Problembehebung, um das von Ihnen festgelegte Ziel zu erreichen, identifizieren Sie Problem-Subnetze und untersuchen Firewall-Regeln, Paket-shaper und andere relevante Netzwerkgeräte-Konfiguration.
+
+IP-Pakete können entweder TCP (Transmission Control Protocol) oder UDP (User Datagram Protocol) verwenden. TCP eignet sich optimal für Datenströme. UDP ist verbindungslos und effizienter für Medien, da TCP-Wiederherstellungsmechanismen den Verlust in Echtzeit-Medien nicht beheben können. Lync bevorzugt UDP immer, wird aber auf TCP zurückgesetzt, wenn keine UDP-Sitzung hergestellt werden kann. Mediensitzungen über TCP weisen eine schlechtere Qualität als über UDP auf. Wir empfehlen eine Qualitätsdefinition von 0% Verbindungen über TCP. Bei der Problembehebung, um das von Ihnen festgelegte Ziel zu erreichen, identifizieren Sie Problem-Subnetze und untersuchen Firewall-Regeln, Paket-shaper und andere relevante Netzwerkgeräte-Konfiguration.
+
+</div>
+
+<span id="ServMgt"></span>
+
+<div>
+
+## <a name="service-management"></a>Dienstverwaltung
+
+Dienstverwaltung ist der Endstatus von CQM und das Ziel für alle drei Straßen. Um eine hohe Anrufqualität zu gewährleisten, sollten Sie die folgenden Bereiche überwachen:
+
+1.  **Benutzer** -Behebungs Aktivitäten sollten eine messbare Steigerung der Benutzerzufriedenheit aufweisen. Sie können dies anhand von Problemtickets oder anderen Feedbackmechanismen messen. Sie können auch Qualitäts Metriken veröffentlichen.
+
+2.  **Prozess** – definieren Sie tägliche, wöchentliche und monatliche Prozesse für die operative CQM. Die Überwachung des Rhythmus beginnt mit einer höheren Häufigkeit, während Sie (täglich) eine erneute Vermittlung durchführen und auf eine niedrigere Häufigkeit (monatlich) umstellen, während Sie sich stabilisieren.
+
+3.  **Tools** – identifizieren Sie Tools, um beide zu messen und zu beheben. Möglicherweise ist es hilfreich, die Ausführung der CQM-Abfragen zu automatisieren, um Ihre Prozesse zu unterstützen. Für die Behebung sind möglicherweise zusätzliche Tools erforderlich, um beispielsweise standardisierte Konfigurationen für Netzwerkelemente durchzusetzen oder Verlust in schlechten Datenströmen zu beheben.
+
+</div>
+
+<span id="BoardGm"></span>
+
+<div>
+
+## <a name="board-game-rules"></a>Regeln für das Brettspiel
+
+Sie können dieses Poster entweder als Verweis auf eine CQM-Implementierung oder als Spiel verwenden, um die Konzepte zu üben. Damit Sie spielen können, benötigen Sie einen 1 6-seitigen Würfel, und die Karten werden bereitgestellt. Eine herunterladbare Version der Karten steht zum Drucken auf Standard-Avery 5871-Visitenkarten zur Verfügung.
+
+Das Spiel ist für 3 Spieler. Es gibt drei Pfade, die die Spieler verwenden können, um die gewünschte Qualität zu erreichen und den Center-Service Verwaltungsstatus zu erreichen: Server Anlage, Endpunkt und letzte Meile. Jeder Pfad hat Stopps auf dem Weg, in dem Sie Qualitätsziele behaupten, Ziele erreichen und einen Aspekt Ihres Systems verwalten. Legen Sie die Karten in dem oben angegebenen Bereich ab, und ziehen Sie dann fünf Karten. Überprüfen Sie die Karten, die Sie gezeichnet haben, und legen Sie Sie auf das entsprechende Board-Segment. Jeder Spieler bewegt sich Schritt für Schritt durch die Karten auf seinem Weg, indem er Qualitätsziele, die Erreichung dieser Ziele und die Beibehaltung der Service Levels behauptet. Das Spiel ist abgeschlossen, wenn alle Spieler den Center Service Management-Zustand erreichen. Detailliertere Regeln finden Sie im Spielkarten Download.
+
+Wenn Sie ein Qualitätsziel **bestätigen** möchten, überprüfen Sie die auf dieses Ziel anwendbaren Parameter, und geben Sie laut an, was Sie akzeptieren und welche nicht. Wir haben Anfangspunkte empfohlen, aber Sie müssen den letzten Anruf führen. Die Ausnahme sind KHI-Daten, bei denen die von Microsoft festgelegten Standards verwendet werden sollten. Sehen Sie sich das dazugehörige KHI-Poster an.
+
+Um im Spiel zu **erreichen** , verwenden Sie die Karten, die anstelle von KHI-Daten und System Abfragen zur Verfügung gestellt werden. Wenn Sie zu Beginn des Spiels keine Karte in Bezug auf einen bestimmten Aspekt gezeichnet haben, können Sie sie weiterführen. Wenn eine entsprechende Karte vorhanden ist, drehen Sie den Würfel. Wenn Sie unter der auf der Karte angegebenen Nummer gerollt haben, ist es Ihnen gelungen. Wenn Sie bei oder über die angegebene Zahl Rollen, müssen Sie eine weitere Karte vom Stapel ziehen. Wenn die Karte angibt, dass zwei oder mehr Spieler Rollen müssen, müssen Sie alle erfolgreich Rollen.
+
+Wenn Sie im Spiel **warten** möchten, geben Sie den Service Management Plan für diesen Aspekt der lync-Umgebung laut an.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
 
 [Lync Server-Netzwerkhandbuch](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[Key Health Indicators: die Grundlage für die Aufrechterhaltung fehlerfreier Lync-Server](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Lync Call Quality Methodology](http://go.microsoft.com/fwlink/?linkid=391841)
+[Wichtige Integritätsindikatoren: die Grundlage für die Verwaltung von fehlerfreien lync-Servern](http://go.microsoft.com/fwlink/?linkid=391838)  
+[Methodik der lync-Anrufqualität](http://go.microsoft.com/fwlink/?linkid=391841)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

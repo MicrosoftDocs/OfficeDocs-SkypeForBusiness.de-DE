@@ -1,45 +1,85 @@
-﻿---
-title: 'Lync Server 2013: Vorbereiten von Domänen'
-TOCTitle: Vorbereiten von Domänen
-ms:assetid: 8eea541c-5f9d-4afc-92a8-a31d6f742544
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398721(v=OCS.15)
-ms:contentKeyID: 49294721
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Vorbereiten von Domänen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing domains
+ms:assetid: 8eea541c-5f9d-4afc-92a8-a31d6f742544
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398721(v=OCS.15)
+ms:contentKeyID: 48184816
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9c1f5693a14084627d20ae66fa6ec85f6b6c6c6f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823847"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vorbereiten von Domänen für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="preparing-domains-for-lync-server-2013"></a>Vorbereiten von Domänen für Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-29_
 
-Die Domänenvorbereitung ist der abschließende Schritt bei der Vorbereitung von Active Directory-Domänendienste für Lync Server 2013. Beim Schritt zur Domänenvorbereitung werden universellen Gruppen die erforderlichen ACEs (Access Control Entries, Zugriffssteuerungseinträge) hinzugefügt, über die Berechtigungen zum Hosten und Verwalten von Benutzern in der Domäne gewährt werden. Bei der Domänenvorbereitung werden ACEs im Domänenstamm und in drei integrierten Containern erstellt: für Benutzer, Computer und Domänencontroller.
+Die Domänenvorbereitung ist der letzte Schritt beim Vorbereiten der Active Directory-Domänendienste für lync Server 2013. Beim Schritt zur Domänenvorbereitung werden universellen Gruppen die erforderlichen ACEs (Access Control Entries, Zugriffssteuerungseinträge) hinzugefügt, über die Berechtigungen zum Hosten und Verwalten von Benutzern in der Domäne gewährt werden. Bei der Domänenvorbereitung werden ACEs im Domänenstamm und in drei integrierten Containern erstellt: für Benutzer, Computer und Domänencontroller.
 
-Sie können die Domänenvorbereitung auf einem beliebigen Computer in der Domäne ausführen, in der Lync Server bereitgestellt wird. Sie müssen alle Domänen vorbereiten, auf denen Lync Server-Computer oder -Benutzer gehostet werden.
+Sie können die Domänenvorbereitung auf jedem Computer in der Domäne ausführen, in der Sie lync Server bereitstellen. Sie müssen jede Domäne vorbereiten, die lync Server oder Benutzer hosten soll.
 
-Wenn die Berechtigungsvererbung oder Berechtigungen für authentifizierte Benutzer in der Organisation deaktiviert wurden, sind während der Domänenvorbereitung zusätzliche Schritte erforderlich. Ausführliche Informationen finden Sie unter [Vorbereiten gesperrter Active Directory-Domänendienste in Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md).
+Wenn die Vererbung von Berechtigungen deaktiviert ist oder die Berechtigungen für authentifizierte Benutzer in Ihrer Organisation deaktiviert sind, müssen Sie während der Domänenvorbereitung weitere Schritte ausführen. Ausführliche Informationen finden Sie unter [Vorbereiten einer gesperrten Active Directory-Domänendienste in lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md).
 
-Wenn in Ihrer Organisation anstelle der drei integrierten Container (für Benutzer, Computer und Domänencontroller) Organisationseinheiten verwendet werden, muss die Gruppe der authentifizierten Benutzer über Lesezugriff für die Organisationseinheiten verfügen. Der Lesezugriff auf die Container ist für die Domänenvorbereitung erforderlich. Wenn die Gruppe der authentifizierten Benutzer nicht über Lesezugriff auf die Organisationseinheit verfügt, führen Sie das Cmdlet **Grant-CsOuPermission** wie im folgenden Codebeispiel gezeigt aus, um Leseberechtigungen für die einzelnen Organisationseinheiten zu gewähren.
+Wenn Ihre Organisation Organisationseinheiten (OU) anstelle der drei integrierten Container (also Benutzer, Computer und Domänencontroller) verwendet, müssen Sie den Organisationseinheiten Lesezugriff für die Gruppe Authentifizierte Benutzer erteilen. Für die Domänenvorbereitung ist Lesezugriff auf die Container erforderlich. Wenn die Gruppe der authentifizierten Benutzer keinen Lesezugriff auf die Organisationseinheit hat, führen Sie das Cmdlet **Grant-CsOuPermission** aus, wie in den folgenden Codebeispielen veranschaulicht, um Leseberechtigungen für jede OU zu erteilen.
 
+   ```
     Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
+   ```
 
-   &nbsp;
-
+   ```
     Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
+   ```
 
-Ausführliche Informationen zur Verwendung des **Grant-CsOuPermission**-Cmdlets finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
+Details zum Cmdlet **Grant-CsOuPermission** finden Sie in der Dokumentation zur lync Server-Verwaltungsshell.
 
-
-> [!TIP]
-> Ausführliche Informationen zu den ACEs, die im Domänenstamm und in den Benutzer-, Computer- und Domänencontrollercontainern erstellt werden, finden Sie unter <A href="lync-server-2013-changes-made-by-domain-preparation.md">Änderungen bei der Domänenvorbereitung in Lync Server 2013</A>.
-
+<div class="">
 
 
-## In diesem Abschnitt
+> [!TIP]  
+> Details zu den ACEs, die im Domänenstamm und in den Containern Benutzer, Computer und Domänencontroller erstellt wurden, finden Sie unter Änderungen, die <A href="lync-server-2013-changes-made-by-domain-preparation.md">von der Domänenvorbereitung in lync Server 2013 vorgenommen</A>wurden.
+
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>In diesem Abschnitt
 
   - [Ausführen der Domänenvorbereitung für Lync Server 2013](lync-server-2013-running-domain-preparation.md)
 
   - [Verwenden von Cmdlets zum Rückgängigmachen der Domänenvorbereitung für Lync Server 2013](lync-server-2013-using-cmdlets-to-reverse-domain-preparation.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

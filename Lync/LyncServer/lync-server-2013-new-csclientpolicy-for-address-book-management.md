@@ -1,25 +1,45 @@
-﻿---
-title: "\"New-CsClientPolicy\" für die Adressbuchverwaltung"
-TOCTitle: "\"New-CsClientPolicy\" für die Adressbuchverwaltung"
-ms:assetid: ef4415fc-82c4-4dc8-97d1-37a084553343
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg429726(v=OCS.15)
-ms:contentKeyID: 49295832
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: New-CsClientPolicy für Adressbuchverwaltung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New-CsClientPolicy for Address Book management
+ms:assetid: ef4415fc-82c4-4dc8-97d1-37a084553343
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429726(v=OCS.15)
+ms:contentKeyID: 48185771
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 77cf1f7ebe085fc11d23381db9d1c474c79403d0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826269"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# \"New-CsClientPolicy\" für die Adressbuchverwaltung
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>New-CsClientPolicy für Adressbuchverwaltung in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
-Dieses Cmdlet kann von folgenden Benutzern ausgeführt werden: Standardmäßig dürfen Mitglieder der folgenden Gruppen das **New-CsClientPolicy**-Cmdlet ausführen: **RTCUniversalServerAdmins**. Geben Sie den folgenden Befehl an der Windows PowerShell-Eingabeaufforderung ein, um eine Liste aller rollenbasierten Zugriffssteuerungsrollen zurückzugeben, die diesem Cmdlet zugewiesen wurden (einschließlich der benutzerdefinierten rollenbasierten Zugriffssteuerungsrollen, die Sie selbst erstellt haben):
+Wer dieses Cmdlet ausführen kann: Standardmäßig sind Mitglieder der folgenden Gruppen autorisiert, das Cmdlet New-CsClientPolicy auszuführen: RTCUniversalServerAdmins. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller rollenbasierten zugriffssteuerungsrollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben):
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsClientPolicy"}
 
-Das **New-CsClientPolicy**-Cmdlet definiert zahlreiche Einstellungen für die Bereitstellung von Clients für Funktionen, die in Lync Server 2013 zur Verfügung stehen. Für den Adressbuchdienst ist der **AddressBookAvailability**-Parameter von Bedeutung. Dieser Parameter, der sich direkt auf die für die Clients verfügbaren Optionen auswirkt, bietet drei mögliche Optionen:
+Das Cmdlet New-CsClientPolicy definiert eine große Anzahl von Einstellungen für die Bereitstellung von Clients für Features, die in lync Server 2013 zur Verfügung stehen. Für den Adressbuchdienst ist der Parameter AddressBookAvailability von Interesse. Dieser Parameter, der direkte Auswirkungen auf die für Clients verfügbaren Optionen hat, bietet drei mögliche Optionen:
 
   - WebSearchAndFileDownload
 
@@ -27,15 +47,29 @@ Das **New-CsClientPolicy**-Cmdlet definiert zahlreiche Einstellungen für die Be
 
   - FileDownloadOnly
 
-Dieser Parameter, sofern definiert, gibt an, wie durch Clients auf das Adressbuch zugegriffen wird. Wenn Sie diesen Parameter definieren, müssen Sie eine der Optionen festlegen. Wenn Sie diese Einstellung nicht ändern, bleibt der Standardwert "WebSearchAndFileDownload" in Kraft.
+Nach der Definition wird bestimmt, wie der Zugriff auf das Adressbuch durch Clients erfolgt. Wenn Sie diesen Parameter definieren, müssen Sie eine der Optionen definieren. Wenn Sie diese Einstellung nicht ändern, bleibt die standardmäßige WebSearchAndFileDownload in Kraft.
 
 Beispiel:
 
     New-CsClientPolicy -Identity RedmondClientPolicy -DisableCalendarPresence $True -DisablePhonePresence $True -DisplayPhoto "PhotosFromADOnly" -AddressBookAvailability "WebSearchOnly"
 
-## Siehe auch
+<div>
 
-#### Weitere Ressourcen
+## <a name="see-also"></a>Siehe auch
 
-[New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy)
+
+[New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

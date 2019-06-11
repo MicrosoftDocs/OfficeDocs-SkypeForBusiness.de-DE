@@ -1,60 +1,98 @@
-﻿---
-title: 'Lync Server 2013: Übersicht über den Zugriff durch externe Benutzer'
-TOCTitle: Übersicht über den Zugriff durch externe Benutzer
-ms:assetid: 97aded6c-5fa3-4225-95a6-9ad094d61654
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398775(v=OCS.15)
-ms:contentKeyID: 49294833
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Übersicht über den Zugriff durch externe Benutzer'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of external user access
+ms:assetid: 97aded6c-5fa3-4225-95a6-9ad094d61654
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398775(v=OCS.15)
+ms:contentKeyID: 48184934
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0a527df5a3bc7b296d17860c7a02876dbc31fbc4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825520"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Übersicht über den Zugriff durch externe Benutzer in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="overview-of-external-user-access-in-lync-server-2013"></a>Übersicht über den Zugriff durch externe Benutzer in Lync Server 2013
 
-In dieser Dokumentation wird der Begriff *externer Benutzer* zur Definition einer großen Kategorie von Benutzern verwendet, die mit Ihrem Lync Server 2013 kommunizieren, und von Lync 2013-Benutzern von außerhalb der Firewall. Zu den externen Benutzern, die Sie für die Verwendung von Lync Server 2013 zur Kommunikation mit internen Benutzern autorisieren können (also mit Benutzern, die sich innerhalb der Firewall bei Lync Server anmelden), gehören beispielsweise Folgende:
+</div>
 
-  - **Remotebenutzer**   Benutzer Ihrer Organisation, die sich von außerhalb der Firewall bei Lync Server anmelden.
+<div id="mainSection">
 
-  - **Partnerbenutzer**   Benutzer, die ein Konto bei einer als vertrauenswürdig eingestuften Kunden- oder Partnerorganisation haben, wie Lync Server 2010, Lync Server 2013 oder Office Communications Server 2007 R2. Partnerbenutzer können auch Benutzer definierter Partnerorganisationen sein, die XMPP über den XMPP-Proxy auf dem Edgeserver und das XMPP-Gateway auf dem Front-End-Server oder im Pool verwenden. Eine definierte vertrauenswürdige Beziehung, also ein Verbund, hat keinen Bezug zu einer vertrauenswürdigen Active Directory-Domänendienste-Beziehung und ist davon nicht abhängig.
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2013-11-07_
+
+In dieser Dokumentation verwenden wir den Begriff *externer Benutzer* , um eine große Kategorie von Benutzern zu definieren, die von außerhalb der Firewall mit ihren lync Server 2013-und lync 2013-Benutzern kommunizieren. Externe Benutzer, die Sie für die Kommunikation mit lync Server 2013 mit internen Benutzern autorisieren können (das heißt, Benutzer, die sich bei lync Server innerhalb der Firewall anmelden), können Folgendes umfassen:
+
+  - **Remote Benutzer**   Benutzer Ihrer Organisation, die sich von außerhalb der Firewall bei lync Server anmelden.
+
+  - **Benutzer von Verbundbenutzern**   , die über ein Konto bei einem vertrauenswürdigen Kunden oder einer Partnerorganisation wie lync Server 2010, lync Server 2013 oder Office Communications Server 2007 R2 verfügen Federated-Benutzer können auch Mitglieder von definierten Partnerorganisationen sein, die mithilfe des XMPP-Proxys auf dem Edge-Server und dem XMPP-Gateway auf dem Front-End-Server oder-Pool über den XMPP-Proxy und das Presence-Protokoll (XMPP) verfügen. Eine definierte Vertrauensstellung, die so genannte Föderation, bezieht sich nicht auf eine Vertrauensstellung von Active Directory-Domänendiensten und hängt nicht davon ab.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Für AOL und Yahoo! wurde die Einstellung des Diensts für Juni 2014 angekündigt. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Unterstützen von Verbindungen mit öffentlichen Chatdiensten in Lync Server 2013</A>.
+    > [!NOTE]  
+    > Datum des Endes des Lebenszyklus von Juni 2014 für AOL und Yahoo! wurde angekündigt. Ausführliche Informationen finden Sie <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">unter Unterstützung für öffentliche Instant Messenger-Konnektivität in lync Server 2013</A>.
 
-
-
-  - **Benutzer mit Verbindung mit öffentlichen Instant Messaging-Diensten**   Kontakte, die Ihre Benutzer über Verbindungen mit öffentlichen Instant Messaging-Diensten (Windows Live, Yahoo\! und AOL) herstellen.
-
-  - **Mobilbenutzer**   Benutzer, die Mitglieder Ihrer Organisation sind und ein Smartphone oder Tablet benutzen, auf dem ein Lync Mobile-Client ausgeführt wird. Diese melden sich bei Ihrer internen Bereitstellung an und können mit den anderen Benutzerklassen kommunizieren. Mobilbenutzer nutzen Mobildienste, die über den Reverseproxy veröffentlicht werden, um auf die interne Bereitstellung zuzugreifen. Ausführliche Informationen zu den in Lync Mobile verfügbaren Funktionen und Möglichkeiten finden Sie in den Mobil-Client-Vergleichstabellen unter [http://go.microsoft.com/fwlink/?linkid=234777\&clcid=0x407](http://go.microsoft.com/fwlink/?linkid=234777%26clcid=0x407).
-
-  - **Anonyme Benutzer**   Benutzer, die nicht über ein Benutzerkonto in Active Directory-Domänendienste Ihrer Organisation oder in einer unterstützten Partnerdomäne verfügen, die jedoch zur Remoteteilnahme an einer lokalen Konferenz eingeladen werden.
-
-Ihre Edgebereitstellung bietet externen Zugriff für folgende Kommunikationstypen:
-
-  - **Chatnachrichten und Anwesenheit**   Autorisierte externe Benutzer können an Chatnachrichtenunterhaltungen und -konferenzen teilnehmen sowie Informationen über den Anwesenheitsstatus anderer Benutzer abrufen. Benutzer öffentlicher Instant Messaging-Dienstanbieter können an Chatnachrichtenunterhaltungen mit einzelnen Lync Server-Benutzern in Ihrer Organisation teilnehmen und auf Anwesenheitsinformationen zugreifen, aber nicht an Chatnachrichtenkonferenzen über den Lync Server teilnehmen, an denen mehrere Personen beteiligt sind. Die Konferenzfunktion kann ausschließlich als Peer-zu-Peer-Option genutzt werden. Dateitransfer wird für Benutzer öffentlicher Instant Messaging-Dienstanbieter nicht unterstützt. Audio/Video in Peer-zu-Peer-Kommunikation wird für Benutzer von Windows Messenger 2011 unterstützt, aber nicht für andere Benutzer öffentlicher Instant Messaging-Dienstanbieter.
     
-    Es wird sowohl das SIP- als auch das XMPP-Protokoll unterstützt. Informationen zur Bereitstellung von Diensten für XMPP finden Sie unter [Planen für SIP-, XMPP-Partnerverbund und öffentliche Chats in Lync Server 2013](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md).
+    </div>
 
-  - **Webkonferenzen**   Autorisierte externe Benutzer können an Konferenzen teilnehmen, die in Ihrer Lync Server-Bereitstellung gehostet werden. Remotebenutzern, Verbundbenutzern und anonymen Benutzern kann die Teilnahme an Webkonferenzen ermöglicht werden, Benutzer öffentlicher Instant Messaging-Dienste können jedoch nicht an Konferenzen teilnehmen. Je nach den ausgewählten Optionen können für Webkonferenzen aktivierte Benutzer an der Desktop- und Anwendungsfreigabe teilnehmen und als Besprechungsorganisatoren oder Referenten agieren.
+  - **Öffentliche Instant Messaging-Konnektivität Benutzer**   Kontakte, die Ihre Benutzer über öffentliche Instant Messaging-Verbindungsdienste einrichten (Windows Live, Yahoo\! und AOL).
 
-  - **A/V-Konferenzen**   Autorisierte externe Benutzer können an Audio- und Videokonferenzen teilnehmen, die von Ihrer Lync Server-Bereitstellung gehostet werden. Audio/Video in Peer-zu-Peer-Kommunikationen werden für Benutzer von Windows Messenger 2011, aber nicht für andere Benutzer öffentlicher Chatanbieter unterstützt.
+  - **Benutzer von mobilen Benutzern**   , die Mitglieder Ihrer Organisation sind, die ein Smartphone oder ein Tablet mit einem lync Mobile-Client verwenden, sich bei ihrer internen Bereitstellung anmelden und mit den anderen Benutzergruppen kommunizieren können. Der Mobile Benutzer verwendet Mobilitätsdienste, die über den Reverse Proxy veröffentlicht werden, um auf die interne Bereitstellung zuzugreifen. Details zu den Features und Funktionen, die für lync Mobile verfügbar sind, finden Sie in [http://go.microsoft.com/fwlink/p/?LinkID=234777](http://go.microsoft.com/fwlink/p/?linkid=234777)den Vergleichstabellen für mobile Clients unter.
 
-Zum Steuern der Kommunikation können Sie eine oder mehrere Richtlinien konfigurieren, durch die definiert wird, wie Benutzer innerhalb und außerhalb der Firewall miteinander kommunizieren. Außerdem können Sie für einzelne interne Benutzer oder für bestimmte Typen externer Benutzer Einstellungen konfigurieren und Richtlinien anwenden, um die Kommunikation mit externen Benutzern zu steuern.
+  - **Anonyme Benutzer**   Benutzer, die nicht über ein Benutzerkonto in den Active Directory-Domänendiensten Ihrer Organisation oder in einer unterstützten Föderationsdomäne verfügen, aber Einladungen zur Remote Teilnahme an einer lokalen Konferenz erhalten haben.
 
-Lync Server 2013-Rollen, die für den Zugriff externer Benutzer verwendet werden:
+Ihre Edge-Bereitstellung bietet externen Zugriff für die folgenden Kommunikationsarten:
 
-**Edgeserver**   Der Edgeserver ist ein Server oder ein Pool von Servern, auf dem Dienste ausgeführt werden, die den externen Zugriff auf Instant Messaging- und Anwesenheits-, Konferenz-, Audio/Video- und andere Mediendienste (z. B. Dateiübertragung) ermöglichen. Optional können Sie den Edgeserver konfigurieren, um einen Verbund mit anderen Lync Server- oder Office Communications Server 2007 R2-Bereitstellungen und anderen XMPP-Bereitstellungen herzustellen. Die optionale Funktion für öffentliche Instant Messaging-Verbindungen wird über den Edgeserver aktiviert und konfiguriert.
+  - **Im-und Anwesenheits**   autorisierte externe Benutzer können an Chat Unterhaltungen und Konferenzen teilnehmen, und Sie können Informationen über den Anwesenheitsstatus der anderen Person erhalten. Benutzer von öffentlichen Chat Dienstanbietern können an Chat Unterhaltungen mit einzelnen lync Server-Benutzern in Ihrer Organisation teilnehmen und auf Anwesenheitsinformationen zugreifen, aber Sie können mit lync Server nicht an Chat Konferenzen teilnehmen. Es handelt sich um eine strikte Peer-to-Peer-Kommunikation. Die Dateiübertragung wird für Benutzer von öffentlichen Chat Dienstanbietern nicht unterstützt, und Audio/Video in Peer-zu-Peer-Kommunikation wird für Windows Messenger 2011-Benutzer, aber nicht für andere Benutzer von öffentlichen Chatdienst Anbietern unterstützt.
+    
+    Sowohl SIP-als auch XMPP-Protokolle werden unterstützt. Informationen zum Bereitstellen von Diensten für XMPP finden Sie unter [Planen von SIP, XMPP Federation und Public Instant Messaging in lync Server 2013](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md).
 
-**Director**   Der Director ist ein optionaler Server oder Serverpool, auf dem der Lync Server 2013- Director ausgeführt wird, der Benutzeranfragen im Vorfeld authentifiziert und Anfragen an den Front-End-Server oder den Front-End-Pool des Benutzers weiterleitet, aber keine Benutzerkonten besitzt.
+  - ****   Autorisierte Webkonferenzen externe Benutzer können an Konferenzen teilnehmen, die in ihrer lync Server-Bereitstellung gehostet werden. Remote Benutzer, verbundene Benutzer und anonyme Benutzer können für die Teilnahme an Webkonferenzen aktiviert werden, aber öffentliche Chat-Benutzer können nicht an Konferenzen teilnehmen. Je nach den von Ihnen ausgewählten Optionen können Webkonferenzen aktivierte Benutzer an der Desktop-und Anwendungsfreigabe teilnehmen und als Besprechungsorganisatoren oder Referenten fungieren.
 
-**Reverseproxy**   Ein Reverseproxy ist ein allgemeiner Begriff für spezialisierte Server, die Ressourcen veröffentlichen, die im internen Netzwerk verfügbar sind, und für Clients Informationen aus der veröffentlichten Ressource abrufen. Lync Server 2013 nutzt den Reverseproxy für die Veröffentlichung diverser Funktionen, wie Konferenzbesprechungen, Konferenzbeitrittsorte, das Adressbuch, die Verteilerlistenerweiterung, das Herunterladen von Besprechungsinhalten, Geräteaktualisierungen, Mobildienste und weitere. Es kann jeder Reverseproxy verwendet werden, der die Anforderungen für die Veröffentlichung der erforderlichen Ressourcenspeicherorte erfüllt. Zur Verdeutlichung der erforderlichen Veröffentlichungsregeln wird hier Microsoft Forefront Threat Management Gateway (TMG) 2010 genutzt, Forefront TMG 2010 ist allerdings nicht erforderlich.
+  - **A/V-Konferenz**   autorisierte externe Benutzer können an Audio-und Videokonferenzen teilnehmen, die ihre lync Server-Bereitstellung hostet. Audio/Video in der Peer-to-Peer-Kommunikation wird für Windows Messenger 2011-Benutzer, aber nicht für andere Benutzer von öffentlichen Chat Dienstanbietern unterstützt.
+
+Um die Kommunikation zu steuern, können Sie eine oder mehrere Richtlinien konfigurieren, die definieren, wie Benutzer innerhalb und außerhalb Ihrer Organisation miteinander kommunizieren. Sie können auch Einstellungen konfigurieren und Richtlinien für einzelne interne Benutzer oder bestimmte Typen externer Benutzer anwenden, um die Kommunikation mit externen Benutzern zu steuern.
+
+Lync Server 2013-Rollen, die für den externen Zugriff verwendet werden:
+
+**Edgeserver**   der Edgeserver ist ein Server oder ein Pool von Servern, auf denen die Dienste ausgeführt werden, die den externen Zugriff auf Chat und Anwesenheit, Konferenzen, Audio/Video und andere Medien (beispielsweise Dateiübertragungsdienste) ermöglichen. Optional können Sie den Edgeserver für die Föderation mit anderen lync Server-oder Office Communications Server 2007 R2-Bereitstellungen und anderen XMPP-Bereitstellungen konfigurieren. Das optionale Feature für die öffentliche Chat Verbindung wird über den Edgeserver aktiviert und konfiguriert.
+
+**Director**   der Director ist ein optionaler Server-oder Serverpool, auf dem die lync Server 2013 Director-Rolle ausgeführt wird, mit der Benutzeranforderungen vorab authentifiziert und Anforderungen an den Start-Front-End-Server oder den Front-End-Pool der Benutzer weitergeleitet werden, jedoch keine Benutzerkonten zu Hause sind.
+
+**Reverse Proxy**   ein Reverseproxy ist ein allgemeiner Ausdruck für spezialisierte Server, die im internen Netzwerk verfügbare Ressourcen veröffentlichen und Informationen für Clients aus der veröffentlichten Ressource abrufen. Lync Server 2013 verwendet den Reverseproxy zum Veröffentlichen einer Reihe von Features, wie Konferenz Besprechungen, Konferenz-Join-Speicherorte, Adressbuch, Erweiterung der Verteilerliste, Herunterladen von Besprechungsinhalten, Geräte Updates, Mobilitätsdienste und vieles mehr. Alle Reverse-Proxys, die die Anforderungen für die Veröffentlichung der erforderlichen Ressourcenspeicherorte erfüllen können, können verwendet werden. Microsoft Forefront Threat Management Gateway (TMG) 2010 wird als Beispiel verwendet, um die Veröffentlichungsregeln zu illustrieren, aber Forefront TMG 2010 ist nicht erforderlich.
+
+<div>
 
 
-> [!IMPORTANT]
-> Lync Server 2013 unterstützt IPv4 und IPv6. Windows Server&nbsp;2008&nbsp;R2, Windows Server 2012 und Windows Server 2012 R2 nutzen einen dualen Stapel, der sowohl IPv4 als auch IPv6 gleichzeitig verwenden kann. Dies ist aufgrund des Übergangsstatus einer Bereitstellung wichtig, die von IPv4 auf IPv6 umgestellt wird. In einigen Bereichen kann IPv4 unterstützt werden, während in anderen Bereichen der Bereitstellung IPv6 eingesetzt wird. Dies ist insbesondere dort wichtig, wo das Internet und interne Bereitstellungen betroffen sind. Externe Clients müssen über den Reverseproxy kommunizieren, um Dienste wie Mobilität, Besprechungen, Adressbuch-Download und andere zu nutzen. Forefront Threat Management Gateway 2010 und Internet Security and Acceleration Server 2006 unterstützen zurzeit keine IPv6-Adressierung - unabhängig von der Betriebssystemversion, auf der sie bereitgestellt werden. Entsprechend müssen Sie die Verwendung von IPv6 und IPv4 planen, wenn es um externe Clients geht.
+> [!IMPORTANT]  
+> Lync Server 2013 unterstützt IPv4 und IPv6. Windows Server&nbsp;2008&nbsp;R2, Windows Server 2012 und Windows Server 2012 R2 verwenden einen dualen Stapel, der gleichzeitig IPv4 und IPv6 verwenden kann. Dies ist wichtig, da eine Bereitstellung, die von IPv4 zu IPv6 wechselt, übergangsweise ist. IPv4 kann in einigen Bereichen unterstützt werden, in denen in anderen Bereichen der Bereitstellung IPv6 verwendet werden kann. Dies ist besonders wichtig, wenn es um das Internet und interne Bereitstellungen geht. Externe Clients müssen über den Reverse-Proxy kommunizieren, um Dienste wie Mobilität, Besprechungen, Adressbuch Download und andere zu verwenden. Derzeit unterstützen Forefront Threat Management Gateway 2010 und Internet Security and Acceleration Server 2006 keine IPv6-Adressierung, unabhängig von der Betriebssystemversion, auf der Sie bereitgestellt werden. Sie müssen in Bezug auf ihre Verwendung von IPv6 und IPv4 entsprechend planen, während Sie sich auf externe Clients beziehen.
 
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

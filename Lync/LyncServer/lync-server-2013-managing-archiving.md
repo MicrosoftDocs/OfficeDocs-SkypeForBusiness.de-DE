@@ -1,31 +1,65 @@
-﻿---
-title: 'Lync Server 2013: Verwalten der Archivierung'
-TOCTitle: Verwalten der Lync Server 2013-Archivierung
-ms:assetid: 48c6cc8c-c2c1-4534-9a8a-fd5eb738076a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg520990(v=OCS.15)
-ms:contentKeyID: 49293892
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Verwalten der Archivierung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing Lync Server 2013 Archiving
+ms:assetid: 48c6cc8c-c2c1-4534-9a8a-fd5eb738076a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520990(v=OCS.15)
+ms:contentKeyID: 48184003
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 88e5176ec32b5039b9351202f72ee32502959f60
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828166"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwalten der Lync Server 2013-Archivierung
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="managing-lync-server-2013-archiving"></a>Verwalten der Lync Server 2013-Archivierung
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-10_
 
-Die ursprüngliche Konfiguration wird beim Bereitstellen der Archivierung in Ihrer Organisation vorgenommen. Zu einem späteren Zeitpunkt kann es jedoch wünschenswert oder notwendig sein, die Implementierung der Archivierungsunterstützung an alltägliche Verwaltungsvorgänge oder neue Herausforderungen anzupassen. Beispielsweise kann es sein, dass Sie die Archivierungsunterstützung für einen bestimmten Standort, einen bestimmten Pool oder bestimmte Benutzer in Ihrer Organisation verändern müssen. Für Benutzer, die in Lync Server 2013 gehostet werden, können Sie dazu die entsprechenden Archivierungsrichtlinien und -konfigurationen bearbeiten. Wenn Sie die Microsoft Exchange-Integration verwenden, müssen darüber hinaus Einstellungen für Exchange 2013 konfiguriert werden. In diesem Abschnitt finden Sie Informationen und Verfahren, mit denen Sie Änderungen an Ihrer Archivierungsbereitstellung vornehmen können.
+Wenn Sie die Archivierung für Ihre Organisation bereitstellen, geben Sie die anfängliche Konfiguration während der Bereitstellung an. Es kann jedoch vorkommen, dass Sie ändern möchten, wie Sie die Archivierungsunterstützung für das tägliche Management implementieren oder neue Anforderungen in Ihrer Organisation erfüllen möchten. Möglicherweise müssen Sie den Archivierungs Support für eine bestimmte Website, einen Pool oder für Benutzer in Ihrer Organisation anders einrichten. Für Benutzer, die in lync Server 2013 verwaltet werden, erstellen und Anpassen Sie Archivierungsrichtlinien und-Konfigurationen. Wenn Sie die Microsoft Exchange-Integration verwenden, müssen Sie auch die Exchange 2013-Einstellungen konfigurieren. Dieser Abschnitt enthält Informationen und Verfahren, mit denen Sie Änderungen an ihrer Archivierungs Bereitstellung vornehmen können.
 
-## In diesem Abschnitt
+<div>
 
-  - [Funktionsweise der Archivierung in Lync Server 2013](lync-server-2013-how-archiving-works.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Verwalten der Archivierung von interner und externer Kommunikation in Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)
+  - [Funktionsweise der Archivierung in lync Server 2013](lync-server-2013-how-archiving-works.md)
 
-  - [Verwalten von Konfigurationsoptionen für die Archivierung in Lync Server 2013 für Ihre Organisation, Standorte und Pools](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
+  - [Verwalten der Archivierung interner und externer Kommunikation in lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)
 
-  - [Ändern von Optionen für Archivierungsdatenbanken in Lync Server 2013](lync-server-2013-changing-archiving-database-options.md)
+  - [Verwalten von Archivierungs Konfigurationsoptionen in lync Server 2013 für Ihre Organisation, ihre Websites und Pools](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
 
-  - [Exportieren von archivierten Daten von Lync Server 2013](lync-server-2013-exporting-archived-data.md)
+  - [Ändern der Optionen für die Archivierungsdatenbank in lync Server 2013](lync-server-2013-changing-archiving-database-options.md)
+
+  - [Exportieren von archivierten Daten aus lync Server 2013](lync-server-2013-exporting-archived-data.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

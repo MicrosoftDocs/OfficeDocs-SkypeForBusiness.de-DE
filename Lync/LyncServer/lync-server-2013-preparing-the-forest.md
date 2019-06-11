@@ -1,37 +1,75 @@
-﻿---
-title: 'Lync Server 2013: Vorbereiten der Gesamtstruktur'
-TOCTitle: Vorbereiten der Gesamtstruktur
-ms:assetid: 3d188fcb-c64e-46cf-a3a7-9e3ebefed7fd
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425898(v=OCS.15)
-ms:contentKeyID: 49293754
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Vorbereiten der Gesamtstruktur'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing the forest
+ms:assetid: 3d188fcb-c64e-46cf-a3a7-9e3ebefed7fd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425898(v=OCS.15)
+ms:contentKeyID: 48183926
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c374252f94c3a872eacbb99a4f6b891204bb56cd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823840"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vorbereiten der Gesamtstruktur für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="preparing-the-forest-for-lync-server-2013"></a>Vorbereiten der Gesamtstruktur für Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
-Bei der Gesamtstrukturvorbereitung werden globale Active Directory-Einstellungen und -Objekte und universelle Active Directory-Gruppen zur Verwendung durch Lync Server 2013 erstellt, und den Active Directory-Objekten werden geeignete Zugriffsberechtigungen gewährt. Eine Beschreibung der universellen Gruppen und der globalen Einstellungen und Objekte, die bei der Gesamtstrukturvorbereitung erstellt werden, finden Sie unter [Änderungen bei der Gesamtstrukturvorbereitung in Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md).
+Die Gesamtstrukturvorbereitung erstellt Active Directory-globale Einstellungen und-Objekte sowie universelle Active Directory-Gruppen für die Verwendung durch lync Server 2013 und gewährt geeignete Zugriffsberechtigungen für die Active Directory-Objekte. Eine Beschreibung der universellen Gruppen und der globalen Einstellungen und Objekte, die von der Gesamtstrukturvorbereitung erstellt wurden, finden Sie unter Änderungen, die [von der Gesamtstrukturvorbereitung in lync Server 2013 vorgenommen](lync-server-2013-changes-made-by-forest-preparation.md)wurden.
 
-Außerdem werden bei der Gesamtstrukturvorbereitung Objekte erstellt, die von Lync Server 2013 verwendete Eigenschaftensätze und Anzeigespezifizierer enthalten. Die Objekte werden im Konfigurationscontainer gespeichert.
+Die Gesamtstrukturvorbereitung erstellt auch Objekte, die Eigenschaftensätze und Anzeigebezeichner enthalten, die von lync Server 2013 verwendet werden, und speichert Sie im Konfigurationscontainer.
 
-
-> [!IMPORTANT]
-> Stellen Sie sicher, dass die während der Schemavorbereitung durchgeführten Änderungen auf alle Domänencontroller repliziert wurden, bevor Sie mit der Gesamtstrukturvorbereitung beginnen. Wenn die Replikation noch nicht abgeschlossen wurde, tritt ein Fehler auf.
+<div>
 
 
+> [!IMPORTANT]  
+> Stellen Sie sicher, dass die Schema Vorbereitungs Änderungen auf alle Domänencontroller repliziert wurden, bevor Sie das Verfahren für die Gesamtstrukturvorbereitung durchführen. Wenn die Replikation nicht abgeschlossen ist, tritt ein Fehler auf.
 
-Wenn Sie eine neue Lync Server-Bereitstellung durchführen, müssen Sie globale Einstellungen auf der Konfigurationspartition speichern. Wenn Sie ein Upgrade von einer früheren Version durchführen und globale Einstellungen noch im Systemcontainer speichern, können Sie den Systemcontainer weiterhin verwenden.
 
-Zum Durchführen dieses Verfahrens müssen Sie ein Mitglied der Gruppe "Organisations-Admins" oder "Domänen-Admins" für die Stammdomäne der Gesamtstruktur sein.
 
-## In diesem Abschnitt
+</div>
+
+Wenn Sie eine neue lync Server-Bereitstellung durchführen, müssen Sie die globalen Einstellungen im Container Konfiguration speichern. Wenn Sie ein Upgrade von einer früheren Version durchführen und die globalen Einstellungen weiterhin im Systemcontainer speichern, können Sie den Systemcontainer weiterhin verwenden.
+
+Sie müssen ein Mitglied der Gruppe "Organisations-Admins" oder "Domänen-Admins" für die Gesamtstruktur-Stammdomäne sein, um dieses Verfahren ausführen zu können.
+
+<div>
+
+## <a name="in-this-section"></a>In diesem Abschnitt
 
   - [Ausführen der Gesamtstrukturvorbereitung für Lync Server 2013](lync-server-2013-running-forest-preparation.md)
 
   - [Verwenden von Cmdlets zum Rückgängigmachen der Gesamtstrukturvorbereitung für Lync Server 2013](lync-server-2013-using-cmdlets-to-reverse-forest-preparation.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

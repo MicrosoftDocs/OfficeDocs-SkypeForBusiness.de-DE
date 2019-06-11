@@ -1,57 +1,89 @@
-﻿---
-title: 'Lync Server 2013: Verwalten von Standorten für ELIN-Gateways'
-TOCTitle: Verwalten von Standorten für ELIN-Gateways
-ms:assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205288(v=OCS.15)
-ms:contentKeyID: 49295453
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Verwalten von Speicherorten für Elin-Gateways'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing locations for ELIN gateways
+ms:assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205288(v=OCS.15)
+ms:contentKeyID: 48185496
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8b447a150a48255a04e5a332cc5d0f56110848f9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828040"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwalten von Standorten für ELIN-Gateways in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a>Verwalten von Speicherorten für Elin-Gateways in lync Server 2013
 
-Sie müssen die folgenden Aufgaben ausführen, damit Lync Server automatisch Standorte für Clients in einem Netzwerk bereitstellt:
+</div>
 
-  - Füllen Sie die Datenbank des Standortinformationsdiensts mithilfe einer Netzwerkwiremap auf, und geben Sie die ELINs (Emergency Location Identification Numbers) im Feld CompanyName ein.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+
+Damit lync Server automatisch Speicherorte für Clients in einem Netzwerk bereitstellt, müssen Sie die folgenden Aufgaben ausführen:
+
+  - Füllen Sie die Datenbank des Standort Informationsdiensts mit einem Netzwerk-Wiremap, und fügen Sie die Notfall Standort-Identifikationsnummern (Elins) in das Feld Firma ein.
 
   - Veröffentlichen Sie die Standorte, damit sie für Clients in Ihrem Netzwerk verfügbar sind.
 
   - Laden Sie die ELINs in die ALI (Automatic Location Identification)-Datenbank Ihres PSTN-Betreibers hoch.
 
-Ausführliche Informationen zum Ausführen dieser Aufgaben finden Sie unter [Konfigurieren der Standortdatenbank in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in der Bereitstellungsdokumentation.
+Details zum Ausführen dieser Aufgaben finden Sie unter [Konfigurieren der Standortdatenbank in lync Server 2013](lync-server-2013-configure-the-location-database.md) in der Bereitstellungsdokumentation.
+
+<div>
 
 
-> [!NOTE]
-> Standorte, die der zentralen Standortdatenbank hinzugefügt wurden, stehen dem Client erst zur Verfügung, nachdem sie mit einem Lync Server-Verwaltungsshell-Befehl veröffentlicht und in die lokalen Speicher des Pools repliziert wurden. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-the-location-database.md">Veröffentlichen der Standortdatenbank von Lync Server 2013</A> in der Bereitstellungsdokumentation.
+> [!NOTE]  
+> Speicherorte, die der zentralen Standortdatenbank hinzugefügt wurden, stehen dem Client erst zur Verfügung, nachdem Sie mithilfe eines lync Server-Verwaltungsshell-Befehls veröffentlicht und in den lokalen Speicher des Pools repliziert wurden. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-the-location-database.md">Veröffentlichen der Standortdatenbank aus lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 
+
+</div>
 
 In diesem Abschnitt wird beschrieben, was Sie beim Planen der Aktualisierung und Verwaltung der Standortdatenbank berücksichtigen sollten.
 
-## Planen der Notfallstandorte
+<div>
 
-Bei Verwendung von ELIN-Gateways füllen Sie die Datenbank des Standortinformationsdiensts mit der allgemeinen Adresse, dem Standort innerhalb eines Gebäudes und mindestens einer ELIN für jeden Standort auf. In der Planungsphase sollten Sie festlegen, wie Sie die Standorte benennen und wie Sie ELINs zuweisen möchten.
+## <a name="planning-emergency-locations"></a>Planen der Notfallstandorte
 
-## Planen der Standortnamen
+Wenn Sie Elin-Gateways verwenden, füllen Sie die standortinformationsdienst-Datenbank mit der bürgerlichen Adresse, einer bestimmten Stelle in einem Gebäude und mindestens einem Elin für jeden Standort auf. In der Planungsphase sollten Sie festlegen, wie Sie die Standorte benennen und wie Sie ELINs zuweisen möchten.
 
-Das Feld **Location** des Standortinformationsdiensts, in dem der Standort innerhalb eines Gebäudes gespeichert ist, hat eine maximale Länge von 20 Zeichen (einschließlich Leerzeichen). In diesem Feld mit begrenzter Länge sollten Sie Folgendes angeben:
+<div>
 
-  - Einen leicht verständlichen Namen für den Standort des Notfallanrufers, um sicherzustellen, dass Notrufempfänger den Standort unverzüglich auffinden, wenn sie an der durchgegebenen Adresse eintreffen. Dieser Standortname kann die Hausnummer, das Stockwerk, den Gebäudetrakt, die Zimmernummer usw. beinhalten. Vermeiden Sie Spitznamen, die nur Mitarbeiter kennen und dazu führen könnten, dass sich Notrufempfänger zur falschen Adresse begeben.
+## <a name="planning-location-names"></a>Planen der Standortnamen
 
-  - Einen Standortbezeichner, mit dem Benutzer problemlos erkennen können, dass der Lync-Client den richtigen Standort ermittelt hat. Die ermittelten Felder **Location** und **City** werden vom Lync-Client automatisch verkettet und im Header angezeigt. Es empfiehlt sich, die Gebäudeanschrift jedem Standortbezeichner hinzuzufügen (z. B. "1. Stock \<Hausnummer\>"). Ohne die Anschrift könnte ein allgemeiner Standortbezeichner wie z. B. "1. Stock" auf jedes Gebäude in der Stadt zutreffen.
+Das Feld standortinformationsdienst **Standort** , in dem sich die bestimmte Position in einem Gebäude befindet, hat eine maximale Länge von 20 Zeichen (einschließlich Leerzeichen). In diesem Feld mit begrenzter Länge sollten Sie Folgendes angeben:
 
-  - Wenn es sich um eine ungefähre Standortangabe handelt, da der Standort von einem Funkzugriffspunkt ermittelt wird, sollten Sie das Wort Near (Ca.) hinzufügen (z. B. "Ca. 1. Stock 1234").
+  - Einen leicht verständlichen Namen für den Standort des Notfallanrufers, um sicherzustellen, dass Notrufempfänger den Standort unverzüglich auffinden, wenn sie an der durchgegebenen Adresse eintreffen. Dieser Standortname kann die Hausnummer, das Stockwerk, den Gebäudetrakt, die Zimmernummer usw. beinhalten. Vermeiden Sie Spitznamen, die nur Mitarbeiter kennen und die dazu führen könnten, dass sich Notrufempfänger zur falschen Adresse begeben.
 
-## Planen der ELINs
+  - Eine Standort-ID, die Benutzern hilft, einfach zu erkennen, dass Ihr lync-Client den richtigen Speicherort übernommen hat. Der lync-Client verkettet und zeigt die Felder "gefundener **** **Ort** " und "Ort" in der Kopfzeile automatisch an. Eine gute Vorgehensweise besteht darin, jeder Standortkennung die Straßenadresse des Gebäudes hinzuzufügen (zum Beispiel " \<Straßennummer\>1. Etage"). Ohne die Straßenadresse kann eine generische Standortkennung wie "1. Etage" für alle Gebäude in der Stadt gelten.
 
-Nachdem Sie festgelegt haben, wie der Gebäudebereich in Standorte aufgeteilt werden soll, müssen Sie bestimmen, wie viele ELINs jedem Standort zugewiesen werden sollen. Beispielsweise können in einem Gebäude mit mehreren Stockwerken oder mehreren Parteien unterschiedliche Gebäudebereiche verschiedenen Notfallzonen zugewiesen werden. In der Regel wird jedes Stockwerk in einem Gebäude als Standort ausgewiesen. Jedem Standort wird dann eine oder mehrere ELINs zugewiesen, die bei einem Notruf als wählende Nummer(n) verwendet werden. Von Ihrem PSTN-Betreiber erfahren Sie, welche Telefonnummern als ELINs verwendet werden können. Die folgende Tabelle enthält ein Beispiel für Standorte für eine bestimmte Anschrift.
+  - Wenn es sich um eine ungefähre Standortangabe handelt, da der Standort von einem Funkzugriffspunkt ermittelt wird, sollten Sie das Wort Near (Ca.) hinzufügen (z. B. „Ca. 1. Stock 1234“).
 
-### Beispielstandort und ELIN-Zuweisungen
+</div>
+
+<div>
+
+## <a name="planning-elins"></a>Planen der ELINs
+
+Nachdem Sie festgelegt haben, wie der Gebäudebereich in Standorte aufgeteilt werden soll, müssen Sie bestimmen, wie viele ELINs jedem Standort zugewiesen werden sollen. Beispielsweise können in einem Gebäude mit mehreren Stockwerken oder mehreren Parteien unterschiedliche Gebäudebereiche verschiedenen Notfallzonen zugewiesen werden. In der Regel wird jedes Stockwerk in einem Gebäude als Standort ausgewiesen. Jedem Standort werden dann ELINs zugewiesen, die bei einem Notruf als wählende Nummern verwendet werden. Von Ihrem PSTN-Betreiber erfahren Sie, welche Telefonnummern als ELINs verwendet werden können. Die folgende Tabelle enthält ein Beispiel für Standorte für eine bestimmte Anschrift.
+
+### <a name="sample-location-and-elin-assignments"></a>Beispielstandort und ELIN-Zuweisungen
 
 <table>
 <colgroup>
@@ -88,35 +120,57 @@ Nachdem Sie festgelegt haben, wie der Gebäudebereich in Standorte aufgeteilt we
 
 Die von Ihnen definierten Standorte sollten die folgenden Anforderungen erfüllen:
 
-  - Lokale und nationale/regionale Bestimmungen werden im Hinblick auf den maximalen Bereich pro Standort und die Anzahl von Standorten pro Anschrift eingehalten.
+  - Lokale und nationale/regionale Bestimmungen im Hinblick auf den maximalen Bereich pro Standort und die Anzahl von Standorten pro Anschrift werden eingehalten.
 
   - Sie sind aussagekräftig genug, damit die Person, die den Notruf getätigt hat, problemlos auffindbar ist.
 
-## Auffüllen der Standortdatenbank
+</div>
+
+</div>
+
+<div>
+
+## <a name="populating-the-location-database"></a>Auffüllen der Standortdatenbank
 
 Die folgenden Fragen helfen Ihnen zu bestimmen, wie die Standortdatenbank aufgefüllt werden soll.
 
   - **Welches Verfahren verwenden Sie zum Auffüllen der Standortdatenbank?**  
-    Wo befinden sich die Daten, und welche Schritte müssen Sie ausführen, um die Daten in das für die Standortdatenbank erforderliche Format zu konvertieren? Werden die Standorte einzeln oder mithilfe einer CSV-Datei per Massenvorgang hinzugefügt?
+    Wo befinden sich die Daten und welche Schritte müssen Sie ausführen, um die Daten in das für die Standortdatenbank erforderliche Format zu konvertieren? Werden die Standorte einzeln oder mithilfe einer CSV-Datei als Batch hinzugefügt?
 
 <!-- end list -->
 
   - **Verfügen Sie über eine Drittanbieterdatenbank, die bereits Standortzuordnungen enthält?**  
-    Indem Sie den sekundären Standortinformationsdienst von Lync Server für die Verbindung mit einer Drittanbieterdatenbank verwenden, können Sie Standorte mithilfe einer Offlineplattform gruppieren und verwalten. Der Vorteil dieses Ansatzes ist, dass Sie Standorte nicht nur Netzwerk-IDs, sondern auch einem Benutzer zuordnen können. Das bedeutet, dass der Standortinformationsdienst mehrere Adressen, die vom sekundären Standortinformationsdienst stammen, an einen Lync Server-Client übermitteln kann. Der Benutzer kann dann den am besten geeigneten Standort wählen.
+    Wenn Sie die Option sekundärer standortinformationsdienst von lync Server zum Herstellen einer Verbindung mit einer Drittanbieter-Datenbank verwenden, können Sie Speicherorte mithilfe einer Offline Plattform gruppieren und verwalten. Der Vorteil dieses Ansatzes ist, dass Sie Standorte nicht nur Netzwerk-IDs, sondern auch einem Benutzer zuordnen können. Dies bedeutet, dass der standortinformationsdienst mehrere Adressen, die vom sekundären standortinformationsdienst stammen, an einen lync Server-Client zurückgeben kann. Der Benutzer kann dann den am besten geeigneten Standort wählen.
     
-    Zur Integration in den Standortinformationsdienst muss die Drittanbieterdatenbank das Anforderung/Antwort-Schema für Standorte von Lync Server verwenden. Ausführliche Informationen finden Sie unter <http://go.microsoft.com/fwlink/p/?linkid=213819>. Ausführliche Informationen zum Bereitstellen eines sekundären Standortinformationsdiensts finden Sie unter [Konfigurieren eines sekundären Standortinformationsdiensts in Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) in der Bereitstellungsdokumentation.
+    Zur Integration in den standortinformationsdienst muss die Drittanbieterdatenbank dem Anforderungs-/Antwortschema des lync Server-Standorts folgen. Ausführliche Informationen finden Sie <http://go.microsoft.com/fwlink/p/?linkid=213819>unter. Details zum Bereitstellen eines sekundären Standort Informationsdiensts finden Sie unter [Konfigurieren eines sekundären Standort Informationsdiensts in lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) in der Bereitstellungsdokumentation.
 
-Ausführliche Informationen zum Auffüllen der Standortdatenbank finden Sie unter [Konfigurieren der Standortdatenbank in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in der Bereitstellungsdokumentation.
+Details zum Auffüllen der Standortdatenbank finden Sie unter [Konfigurieren der Standortdatenbank in lync Server 2013](lync-server-2013-configure-the-location-database.md) in der Bereitstellungsdokumentation.
 
-## Verwalten der Standortdatenbank
+</div>
+
+<div>
+
+## <a name="maintaining-the-location-database"></a>Verwalten der Standortdatenbank
 
 Nach dem Auffüllen der Standortdatenbank müssen Sie eine Strategie zum Aktualisieren der Datenbank entwickeln, um Änderungen an der Netzwerkkonfiguration umzusetzen. Die folgenden Fragen helfen Ihnen zu bestimmen, wie die Standortdatenbank verwaltet werden soll.
 
   - **Wie aktualisieren Sie die Standortdatenbank?**  
-    Eine Aktualisierung der Standortdatenbank kann in verschiedenen Situationen notwendig sein, etwa beim Hinzufügen von Funkzugriffspunkten, bei einer Neuverkabelung des Büros (mit neuen Switchzuordnungen) und bei einer Subnetzerweiterung. Aktualisieren Sie jeden Standort sofort, oder führen Sie mithilfe einer CSV-Datei eine Aktualisierung aller Standorte per Massenvorgang durch?
+    Eine Aktualisierung der Standortdatenbank kann in verschiedenen Situationen notwendig sein, etwa beim Hinzufügen von Funkzugriffspunkten, bei einer Neuverkabelung des Büros (mit neuen Switchzuordnungen) und bei einer Subnetzerweiterung. Aktualisieren Sie jeden Standort sofort oder führen Sie mithilfe einer CSV-Datei eine Aktualisierung aller Standorte als Batch durch?
 
 <!-- end list -->
 
   - **Verwenden Sie eine SNMP-Anwendung zum Abgleich von Lync-Client-MAC-Adressen mit den Port- und Switchbezeichnern?**  
-    Wenn Sie eine SNMP-Anwendung verwenden, müssen Sie ein manuelles Verfahren ausarbeiten, um die Konsistenz der Switch- und Portinformationen zwischen der SNMP-Anwendung und der Standortdatenbank sicherzustellen. Wenn die SNMP-Anwendung eine Switch-IP-Adresse ausgibt, die nicht in der Standortdatenbank enthalten ist, kann der Standortinformationsdienst keinen Standort an den Client zurückgeben.
+    Wenn Sie eine SNMP-Anwendung verwenden, müssen Sie ein manuelles Verfahren ausarbeiten, um die Konsistenz der Switch- und Portinformationen zwischen der SNMP-Anwendung und der Standortdatenbank sicherzustellen. Wenn die SNMP-Anwendung eine Chassis-IP-Adresse oder Port-ID zurückgibt, die nicht in der Datenbank enthalten ist, kann der standortinformationsdienst keinen Standort an den Client zurückgeben.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

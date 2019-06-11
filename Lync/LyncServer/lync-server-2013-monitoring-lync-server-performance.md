@@ -1,99 +1,133 @@
-﻿---
-title: 'Lync Server 2013: Monitoring Lync Server performance'
+---
+title: 'Lync Server 2013: Überwachen der lync Server-Leistung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Monitoring Lync Server 2013 performance
 ms:assetid: 2acfd720-6120-4816-a2d4-30476bd5cd0e
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Dn720910(v=OCS.15)
-ms:contentKeyID: 62240043
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720910(v=OCS.15)
+ms:contentKeyID: 63969592
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: a9610dddfa9748b7d28dfe040a36214f3f969826
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826745"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Monitoring Lync Server 2013 performance
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="monitoring-lync-server-2013-performance"></a>Überwachen der lync Server 2013-Leistung
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2014-05-15_
 
-Lync Server 2013 performance is affected by various factors such as user profiles, system architecture, software, hardware components, third-party integration points such as gateways and telephony equipment, network connectivity and performance, Windows Active Directory service configuration and performance in addition to the Windows operating system functionality.
+Die Leistung von lync Server 2013 ist von verschiedenen Faktoren wie Benutzerprofilen, Systemarchitektur, Software, Hardwarekomponenten, Drittanbieter-Integrationspunkten wie Gateways und Telefonanlagen, Netzwerkkonnektivität und-Leistung, Windows Konfiguration und Leistung des Active Directory-Diensts zusätzlich zur Funktionalität des Windows-Betriebssystems.
 
-At the core of a Lync Server 2013 deployments’ performance is the server software and hardware it is implemented on. As an example, a front-end server must have sufficient hardware resources to cope with the expected (short-term) user load. If a respective front-end server is required to provide services to 10 thousand users, then an adequately configured server must meet the expected load requirements to ultimately help ensure the best possible end-user experience.
+Im Mittelpunkt der Leistung einer lync Server 2013-Bereitstellung steht die Server Software und-Hardware, auf der Sie implementiert ist. Beispielsweise muss ein Front-End-Server über genügend Hardwareressourcen verfügen, um die erwartete (kurzfristige) Benutzerauslastung bewältigen zu können. Wenn ein jeweiliger Front-End-Server für die Bereitstellung von Diensten für 10000-Benutzer erforderlich ist, muss ein ausreichend konfigurierter Server den erwarteten Ladeanforderungen genügen, um letztendlich die bestmögliche Benutzererfahrung zu gewährleisten.
 
-Monitoring server performance is therefore extremely important to gauge whether the implemented server infrastructure have suitable hardware resources for the day-to-day peak-load requirements. Monitoring server performance helps identify system bottlenecks allowing administrators to apply corrective action before the end-user experience is affected. The performance data should be used for long-term capacity planning.
+Das Überwachen der Serverleistung ist daher äußerst wichtig, um zu ermitteln, ob die implementierte Serverinfrastruktur über geeignete Hardwareressourcen für die täglichen Spitzenlastanforderungen verfügt. Die Überwachung der Serverleistung hilft, Systemengpässe zu erkennen, die es Administratoren ermöglichen, korrigierende Aktionen anzuwenden, bevor die Benutzererfahrung beeinträchtigt wird. Die Leistungsdaten sollten für die langfristige Kapazitätsplanung verwendet werden.
 
-While detailed information on all performance objects and counters to be observed is linked to in [Monitoring Lync Server 2013 with System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md), some performance counters that you should follow can provide administrators a quick view of the system performance:
+Während detaillierte Informationen zu allen zu beobachtenden Leistungsobjekten und Leistungsindikatoren beim Überwachen von [lync Server 2013 mit System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)verknüpft sind, können einige Leistungsindikatoren, denen Sie folgen sollten, Administratoren eine Schnellansicht zur Verfügung stellen. der Systemleistung:
 
-  - To track overall system health of the front-end server, a good starting point is to check Processor\\% Processor Time. The value should always be below 80 percent.
+  - Um die Gesamtsystem Integrität des Front-End-Servers nachvollziehen zu können, ist es ein guter\\Ausgangspunkt, Prozessor% Prozessorzeit zu überprüfen. Der Wert sollte immer unter 80 Prozent liegen.
 
-  - To track the performance of the back end SQL Server database software instance used by the Front End pool, monitor the following performance counters:
+  - Überwachen Sie die folgenden Leistungsindikatoren, um die Leistung der vom Front-End-Pool verwendeten SQL Server-Datenbanksoftware-Instanz für die Back-End-Datenbank zu verfolgen:
     
-    LC:USrv – 00 – DBStore\\Usrv – 002 – Queue Latency (msec)
+    LC: USrv – 00 – DBStore\\USrv – 002 – Warteschlangen Latenz (MS)
     
-    LC:USrv – 00 – DBStore\\Usrv – 0 04– Sproc Latency (msec)
+    LC: USrv – 00 – DBStore\\USrv – 0 04 – Latenz Wartezeit (MS)
     
-    The healthy server at steady state should show \<100 ms latency values. The throttling mechanism will engage when latency reaches 12 seconds, which means the front-end server starts throttling requests to the back end. This causes clients to start to receive a 503 Server too busy error message.
+    Der fehlerfreie Server im stationären Zustand \<sollte 100 MS-Latenzwerte anzeigen. Der Drosselungsmechanismus wird aktiviert, wenn die Wartezeit 12 Sekunden erreicht, was bedeutet, dass der Front-End-Server die Drosselung von Anforderungen an das Back-End startet. Dies bewirkt, dass Clients mit dem Empfang einer zu stark ausgelasteten 503-Server-Fehlermeldung beginnen.
 
-  - To track the processing time at the front-end server, monitor the following counter:
+  - Wenn Sie die Verarbeitungszeit auf dem Front-End-Server nachverfolgen möchten, überwachen Sie den folgenden Indikator:
     
-    LC:SIP - 07 - Load Management\\SIP - 000 - Average Holding Time For Incoming Messages
+    LC: SIP-07-Load Management\\SIP-000-durchschnittliche Aufbewahrungszeit für eingehende Nachrichten
     
-    This is another throttling mechanism on the front-end servers, this time starting when the processing time on the front end is high. If average processing time is more than six seconds, the server goes into throttling mode and only allows one outstanding transaction per client connection.
+    Hierbei handelt es sich um einen weiteren Drosselungsmechanismus auf den Front-End-Servern, der ab diesem Zeitpunkt gestartet wird, wenn die Verarbeitungszeit im Front-End-Bereich höher ist. Wenn die durchschnittliche Verarbeitungszeit mehr als sechs Sekunden beträgt, wechselt der Server in den Drosselungs Modus und ermöglicht nur eine ausstehende Transaktion pro Clientverbindung.
 
-  - To track memory issues at SQL Back End Server, monitor the following counter:
+  - Zum Nachverfolgen von Speicherproblemen am SQL-Back-End-Server überwachen Sie den folgenden Indikator:
     
-    SQL Server Buffer Manager\\Page life expectancy
+    Lebenserwartung der SQL\\Server-Puffer-Manager-Seite
     
-    A low value, below 3600 seconds (together with high latency writes/sec and checkpoint pages/sec) indicates memory pressure.
+    Ein niedriger Wert unter 3600 Sekunden (zusammen mit den Schreibvorgängen für höhere Latenzen/Sek. und Prüfpunkt-Seiten/Sek.) zeigt den arbeitsspeicherdruck an.
 
-## Additional Counters to View
+<div>
 
-There are several key counters that are good indicators of overall health from the front end server. This is not a comprehensive list and is not meant to identify root cause. These counters will let you perform a quick check on your server health. We recommend verifying these counters on each of the servers in the pool. It is important to understand what these counter values are when your server is healthy. A baseline is required to understand what changed when the user experience is degraded.
+## <a name="additional-counters-to-view"></a>Weitere zu anzeigende Leistungsindikatoren
 
-The front-end server can indicate issues that may be caused by bottlenecks elsewhere in the system. This means that it is the best place to start when looking at overall system health.
+Es gibt mehrere wichtige Indikatoren, die gute Indikatoren für den allgemeinen Zustand vom Front-End-Server sind. Hierbei handelt es sich nicht um eine umfassende Liste, die nicht dazu dient, die Ursache zu identifizieren. Mithilfe dieser Leistungsindikatoren können Sie die Serverintegrität schnell überprüfen. Wir empfehlen, diese Leistungsindikatoren auf jedem Server im Pool zu überprüfen. Es ist wichtig zu verstehen, was diese Leistungsindikatorwerte sind, wenn Ihr Serverfehler frei ist. Ein Basisplan ist erforderlich, um zu verstehen, was sich geändert hat, wenn die Benutzeroberfläche beeinträchtigt wird.
 
-Two additional counters to review first are as follows:
+Der Front-End-Server kann auf Probleme hindeuten, die durch Engpässe an anderen Stellen im System verursacht werden können. Dies bedeutet, dass es der beste Ausgangspunkt ist, wenn Sie sich den allgemeinen Systemzustand anschauen.
 
-LC:USrv-00-DBStore\\Usrv-002-Queue Latency (msec)
+Zwei weitere zu überprüfende Leistungsindikatoren sind wie folgt:
 
-LC:USrv-00-DBStore\\Usrv-004-Sproc Latency (msec)
+LC: USrv-00-DBStore\\USrv-002-Warteschlangen Latenz (MS)
 
-The queue latency counter represents the time that a request spent in the queue to the back end and the Sproc latency represents the time that it took for the back end to process the request. If, for any reason, disk, memory, network, and processor on the back end are in trouble, the queue latency counter will be high.
+LC: USrv-00-DBStore\\USrv-004-Latenz Wartezeit (MS)
 
-It can also be high if there is high network latency between the front end and the back end. So what is acceptable queue latency?
+Der Indikator Warteschlangen Latenz stellt die Zeit dar, die eine in der Warteschlange verbrachte Anforderung an das Back-End und die Latenz Wartezeit für das Back-End für die Verarbeitung der Anforderung darstellt. Wenn sich der Datenträger, der Arbeitsspeicher, das Netzwerk und der Prozessor auf dem Back-End-Gerät aus irgendeinem Grund in Schwierigkeiten befinden, ist der Warteschlangen Latenz-Indikator sehr groß.
 
-At 12 seconds, the Front End Servers start throttling requests to the Back End Servers. This means the servers start returning Server too busy – 503 errors to the clients. A healthy server should have less than 100 msec DBStore queue latencies at steady state, but during times where the server has just come online and users are all logging in at the same time, that counter can be very high and you may even see it hit multiple seconds.
+Sie kann auch bei einer großen Netzwerklatenz zwischen dem Front-End und dem Back-End sehr groß sein. Was ist also eine akzeptable Warteschlangen Wartezeit?
 
-You may have a load-balanced configuration, where you have a pool deployed with multiple front-end servers and a load balancer that is configured for "least number of connections." In this case, if one front-end server is restarted, then all users who attempt to reconnect will be pointed to the restarted server, because that server will have fewer connections compared to the other pool members. During this time, the respective front-end server may be overloaded while the other pool members are not.
+Bei 12 Sekunden starten die Front-End-Server die Drosselung von Anforderungen an die Back-End-Server. Dies bedeutet, dass die Server den Server zu ausgelastet zurückgeben – 503-Fehler für die Clients. Bei einem fehlerfreien Server sollten die Warteschlangen Latenzen von weniger als 100 Millisekunden im stationären Zustand liegen, doch in Zeiten, in denen der Server gerade online ist und sich alle Benutzer gleichzeitig anmelden, kann dieser Zähler sehr hoch sein, und Sie können sogar sehen, dass er mehrere Sekunden erreicht hat.
 
-We recommend that you perform maintenance during off-hours to reduce the performance affect as users will not all be competing to connect to the server at the same time.
+Möglicherweise verfügen Sie über eine Konfiguration mit Lastenausgleich, bei der ein Pool mit mehreren Front-End-Servern und einem Lastenausgleichsmodul bereitgestellt wird, das für "kleinste Anzahl von Verbindungen" konfiguriert ist. Wenn in diesem Fall ein Front-End-Server neu gestartet wird, werden alle Benutzer, die eine erneute Verbindung herstellen möchten, auf den neu gestarteten Server hinweisen, da dieser Server im Vergleich zu den anderen Poolmitgliedern weniger Verbindungen aufweist. Während dieser Zeit kann der jeweilige Front-End-Server überladen sein, während die anderen Pool-Mitglieder dies nicht tun.
 
-If the previous two performance counters are high, the most likely bottleneck is the SQL Back End Server. The next components to confirm are as follows:
+Wir empfehlen, dass Sie Wartungsarbeiten außerhalb von Stunden durchführen, um die Leistung zu verringern, da die Benutzer nicht alle mit der Verbindung zum Server gleichzeitig konkurrieren können.
 
-  - Is the SQL Server CPU too high? For example, is it greater than 80 percent?
+Wenn die beiden vorherigen Leistungsindikatoren stark sind, ist der wahrscheinlichste Engpass der SQL-Back-End-Server. Die nächsten zu bestätigenden Komponenten lauten wie folgt:
 
-  - Is the disk latency high?
+  - Ist die SQL Server-CPU zu groß? Handelt es sich beispielsweise um einen Wert von mehr als 80 Prozent?
 
-In an ideal world, you have enough RAM to have both the RTC and RTCDYN databases in memory. Then, the only reason the server would be accessing the disk, is to write to the log files and flush to the databases. Tests have shown that 12 GB of RAM is sufficient for 100 thousand user deployments. This assumes that the RTC and RTCDYN databases size totals less than 12 GB. If your databases are larger than that, then you may need additional memory.
+  - Ist die Datenträgerlatenz höchst?
 
-You can determine whether your SQL Server requires additional RAM by reviewing the SQL Server Buffer Manager page life expectancy performance counter. A value less than 3,600 indicates memory pressure. You should also see little to no reads on your database drive if you have sufficient memory because SQL Server should only be writing to the database.
+In einer idealen Welt verfügen Sie über genügend Arbeitsspeicher, um sowohl die RTC-als auch die RTCDYN-Datenbank im Arbeitsspeicher zu haben. Der einzige Grund, warum der Server auf den Datenträger zugreifen würde, besteht darin, in die Protokolldateien zu schreiben und in die Datenbanken zu leeren. Tests haben gezeigt, dass 12 GB Arbeitsspeicher für 100.000-Benutzer Bereitstellungen ausreichend sind. Dabei wird davon ausgegangen, dass die RTC-und RTCDYN-Datenbanken eine Gesamtgröße von weniger als 12 GB aufweisen. Wenn Ihre Datenbanken größer sind, benötigen Sie möglicherweise zusätzlichen Arbeitsspeicher.
 
-There is an additional throttling mechanism in a Lync Server 2013 Front End Server that starts if the server processing time is high. The DBStore latency throttling is only enabled if the latency to the SQL Server is high. One example in which such throttling is enabled is if the front-end server is CPU-bound.
+Sie können feststellen, ob Ihr SQL Server zusätzlichen Arbeitsspeicher erfordert, indem Sie den Leistungsindikator "Lebenserwartung" der SQL Server-Puffer-Manager-Seite überprüfen. Ein Wert kleiner als 3.600 gibt den arbeitsspeicherdruck an. Wenn Sie über genügend Arbeitsspeicher verfügen, sollten Sie auch wenig bis gar keine Lesevorgänge auf dem Datenbanklaufwerk sehen, da SQL Server nur in die Datenbank geschrieben werden sollte.
 
-If the average processing time **(LC:SIP-07-Load Management\\SIP-000-Average Holding Time For Incoming Messages)** on the server exceeds six seconds, then the server goes into throttling mode and only gives users one outstanding transaction per client connection. Once the processing time drops to three seconds, then the server drops out of throttling mode and gives users up to 20 outstanding transactions per client connection. Whenever the number of transactions on a specific connection exceeds the threshold above, the connection is marked as flow controlled. The result is the server does not post any receives on it, and the **LC:SIP-01-Peers\\Flow Controlled Connections** counter is incremented. If a connection stays in a flow-controlled state for more than one minute, then the server closes it. It does so lazily. When it has an opportunity to check the connection, it determines whether it was throttled for too long and closes it if it has more than one minute.
+In einem lync Server 2013-Front-End-Server gibt es einen zusätzlichen Drosselungsmechanismus, der gestartet wird, wenn die Server Verarbeitungszeit sehr groß ist. Die DBStore-Latenz Drosselung ist nur aktiviert, wenn die Wartezeit für SQL Server sehr groß ist. Ein Beispiel, bei dem eine solche Drosselung aktiviert ist, ist, wenn der Front-End-Server CPU-gebunden ist.
 
-These are the two throttling mechanisms and there is one performance counter that summarizes what, if any, throttling the server is performing.
+Wenn die durchschnittliche Verarbeitungszeit **(LC: SIP-07-Load Management\\SIP-000-durchschnittliche Aufbewahrungszeit für eingehende Nachrichten)** auf dem Server sechs Sekunden überschreitet, wechselt der Server in den Drosselungs Modus und gibt Benutzern nur eine ausstehende Transaktion pro Clientverbindung. Sobald die Verarbeitungszeit auf drei Sekunden sinkt, sinkt der Server den Drosselungs Modus und gibt Benutzern bis zu 20 ausstehende Transaktionen pro Clientverbindung. Wenn die Anzahl der Transaktionen für eine bestimmte Verbindung den oben genannten Schwellenwert überschreitet, wird die Verbindung als Fluss gesteuert markiert. Das Ergebnis ist, dass der Server keine empfangenen Beiträge bereitstellt, und der Zähler **LC: SIP-01-\\Peers Flow Controlled Connections** inkrementiert wird. Wenn eine Verbindung länger als eine Minute in einem Flow-Controlled-Zustand verbleibt, wird Sie vom Server geschlossen. Es tut so faul. Wenn Sie die Möglichkeit hat, die Verbindung zu überprüfen, bestimmt Sie, ob Sie zu lange gedrosselt wurde, und schließt Sie, wenn Sie mehr als eine Minute hat.
 
-**LC:SIP-04-Responses\\SIP-053-Local 503 Responses/sec**
+Hierbei handelt es sich um die beiden Drosselungs Mechanismen, und es gibt einen Leistungsindikator, der zusammenfasst, was, wenn überhaupt, die Drosselung des Servers ausführt.
 
-  - The term "Local" in the previous counter refers to locally generated responses.
+**LC: SIP-04-Antworten\\SIP-053-lokale 503-Antworten/Sek.**
 
-  - The 503 code corresponds to server unavailable—where you should not see any 503 codes on a healthy server. During the period after a server is just brought online, you may see some 503 codes. When all of the users sign back in and the server returns to a stable state, there should no additional 503 codes.
+  - Der Ausdruck "local" im vorherigen Leistungsindikator bezieht sich auf lokal generierte Antworten.
 
-**LC:SIP-04-Responses\\SIP-074-Local 504 Responses/sec**
+  - Der 503-Code entspricht dem Server, der nicht verfügbar ist, wobei keine 503-Codes auf einem fehlerfreien Server angezeigt werden sollten. Während des Zeitraums, nachdem ein Server gerade online geschaltet wurde, werden möglicherweise einige 503-Codes angezeigt. Wenn sich alle Benutzer wieder anmelden und der Server in einen stabilen Zustand zurückkehrt, sollten keine zusätzlichen 503-Codes vorhanden sein.
 
-This performance counter indicates connectivity issues with other servers and it can indicate failures to connect or delays in connecting. If you are seeing 504 errors then the following performance counter should be checked.
+**LC: SIP-04-Antworten\\SIP-074-lokale 504-Antworten/Sek.**
 
-**LC:SIP-01-Peers\\SIP-017-Sends Outstanding**
+Dieser Leistungsindikator zeigt Verbindungsprobleme mit anderen Servern an und kann auf Verbindungsfehler oder Verzögerungen bei der Verbindung hindeuten. Wenn 504-Fehler angezeigt werden, sollte der folgende Leistungsindikator überprüft werden.
 
-This counter indicates the number of outgoing queued requests and responses. If this counter is high then the issue is most likely not on the local server. Note that this counter can be high if there are network latency issues. It could also indicate issues with the local network adapter, but is more likely caused by an issue on a remote server. This counter would most likely be high on a Director server when the pool it is trying to communicate with is overloaded. The key with this counter is to look at the instances, not just the total.
+**LC: SIP-01-Peers\\SIP-017-sendet hervorragende**
+
+Dieser Leistungsindikator zeigt die Anzahl der ausgehenden Warteschlangenanforderungen und Antworten an. Wenn dieser Leistungsindikator höher ist, liegt das Problem höchstwahrscheinlich nicht auf dem lokalen Server. Beachten Sie, dass dieser Leistungsindikator bei Problemen mit der Netzwerklatenz sehr groß sein kann. Sie kann auch auf Probleme mit dem lokalen Netzwerkadapter hindeuten, ist aber wahrscheinlicher auf ein Problem auf einem Remoteserver zurückzuführen. Dieser Leistungsindikator wäre höchstwahrscheinlich auf einem Director-Server zu groß, wenn der Pool, mit dem er kommunizieren möchte, überlastet ist. Der Schlüssel für diesen Leistungsindikator besteht darin, die Instanzen zu betrachten, nicht nur die Summe.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

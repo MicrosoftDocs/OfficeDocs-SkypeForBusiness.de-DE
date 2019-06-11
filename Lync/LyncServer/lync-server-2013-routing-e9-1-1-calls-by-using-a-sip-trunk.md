@@ -1,39 +1,69 @@
-﻿---
-title: 'Lync Server 2013: Weiterleiten von E9-1-1-Anrufen mittels SIP-Trunk'
-TOCTitle: Weiterleiten von E9-1-1-Anrufen mittels SIP-Trunk
-ms:assetid: 157753c3-fe74-4e2c-81da-ee06911d4cc2
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204701(v=OCS.15)
-ms:contentKeyID: 49293274
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Weiterleiten von E9-1-1-Anrufen mittels SIP-Trunk'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Routing E9-1-1 calls by using a SIP trunk
+ms:assetid: 157753c3-fe74-4e2c-81da-ee06911d4cc2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204701(v=OCS.15)
+ms:contentKeyID: 48183492
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c537b66883ab786bc28e3cc808874c0fcb79b92d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822314"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Weiterleiten von E9-1-1-Anrufen mittels SIP-Trunk in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="routing-e9-1-1-calls-by-using-a-sip-trunk-in-lync-server-2013"></a>Weiterleiten von E9-1-1-Anrufen mittels SIP-Trunk in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-29_
 
-Das Verwenden eines SIP-Trunks zum Herstellen einer Verbindung mit einem qualifizierten E9-1-1-Dienstanbieter ist eine Möglichkeit der Bereitstellung von E9-1-1. Nähere Informationen zur Verwendung eines ELIN-Gateway zum Herstellen einer Verbindung mit einem Telefonfestnetzbasierten E9-1-1-Dienstanbieter finden Sie unter [Weiterleiten von E9-1-1-Anrufen über ein ELIN-Gateway in Lync Server 2013](lync-server-2013-routing-e9-1-1-calls-by-using-an-elin-gateway.md).
+Das Verwenden eines SIP-Trunks zum Herstellen einer Verbindung mit einem qualifizierten E9-1-1-Dienstanbieter ist eine Möglichkeit für die Bereitstellung von E9-1-1. Details zur Verwendung eines Elin-Gateways zum Herstellen einer Verbindung mit einem PSTN-basierten E9-1-1-Dienstanbieter (Public Switched Telephone Network) finden Sie unter [Routing von E9-1-1-Anrufen mithilfe eines Elin-Gateways in lync Server 2013](lync-server-2013-routing-e9-1-1-calls-by-using-an-elin-gateway.md).
 
-Die folgende Abbildung zeigt, wie ein Notruf von Lync Server an die Rettungsleitstelle weitergeleitet wird, wenn Sie einen SIP-Trunk und einen qualifizierten E9-1-1-Dienstanbieter verwenden.
+Das folgende Diagramm zeigt, wie ein Notruf von lync Server an den Public Safety Answering Point (PSAP) weitergeleitet wird, wenn Sie einen SIP-Trunk und einen qualifizierten E9-1-1-Service-Anbieter verwenden.
 
 **Weiterleiten von E9-1-1-Anrufen über einen SIP-Trunk**
 
-![Emergency Call Routing vom Lync Server an PSAP](images/JJ204701.0637a9d4-2ca7-438a-8ed0-19090a4b992d(OCS.15).jpg "Emergency Call Routing vom Lync Server an PSAP")
+![Notfall Anruf Routing von lync Server zu PSAP] (images/JJ204701.0637a9d4-2ca7-438a-8ed0-19090a4b992d(OCS.15).jpg "Notfall Anruf Routing von lync Server zu PSAP")
 
-Wenn ein Notruf über einen kompatiblen Lync Server-Client abgesetzt wird, werden folgende Schritte ausgeführt:
+Wenn ein Notfall Anruf von einem kompatiblen lync Server-Client abgegeben wird:
 
-1.  SIP INVITE-Anforderung mit dem Standort, der Rückrufnummer des Anrufers sowie der (optionalen) Benachrichtigungs-URL und Konferenzrückrufnummer wird an Lync Server weitergeleitet.
+1.  Eine SIP-Einladung, die den Standort, die Rückrufnummer des Anrufers und die (optionale) Benachrichtigungs-URL und die Konferenz-Rückrufnummer enthält, wird an lync Server weitergeleitet.
 
-2.  Lync Server ordnet die Notrufnummer zu, und leitet den Anruf (basierend auf dem in der anwendbaren Ortungsrichtlinie angegebenen Wert für **PSTN-Verwendung** ) an einer Vermittlungsserver und von dort über einen SIP-Trunk an den E9-1-1-Dienstanbieter weiter.
+2.  Lync Server vergleicht die Notrufnummer und leitet den Anruf (basierend auf dem in der jeweiligen Standortrichtlinie definierten **PSTN-Nutzungs** Wert) an einen Vermittlungsserver und von dort aus über einen SIP-Trunk an den E9-1-1-Service-Anbieter weiter.
 
 3.  Der E9-1-1-Dienstanbieter leitet den Notruf basierend auf dem Standort, der dem Anruf zugeordnet ist, an die richtige Rettungsleitstelle weiter. Wenn der Notruf des Clients einen überprüften Standort für Notrufmaßnahmen umfasst, leitet der Anbieter den Anruf automatisch an die richtige Rettungsstelle weiter. Wenn der Standort vom Benutzer manuell eingegeben wurde, überprüft die Notrufzentrale zunächst die Genauigkeit des Standorts mit dem Anrufer, bevor der Notruf an die Rettungsstelle weitergeleitet wird.
 
-4.  Wenn Sie die Standortrichtlinie für Benachrichtigungen konfiguriert haben, erhält mindestens ein Sicherheitsbeauftragte Ihres Unternehmens eine spezielle Lync-Sofortnachricht für Notfälle. Die Nachricht wird immer direkt auf dem Bildschirm des Sicherheitsbeauftragten angezeigt. Sie enthält den Namen des Anrufers, seine Telefonnummer sowie die Uhrzeit und den Standort. Auf diese Weise wird eine schnelle Reaktion auf den Notruf via Sofort- oder Sprachnachricht ermöglicht.
+4.  Wenn Sie die ortungsrichtlinie für Benachrichtigungen konfiguriert haben, werden einem oder mehreren Sicherheitsbeauftragten Ihrer Organisation eine spezielle Sofortnachricht zur lync-Notfallbenachrichtigung gesendet. Diese Meldung wird immer auf dem Bildschirm des Security Officers eingeblendet und enthält den Namen des Anrufers, die Telefonnummer, die Uhrzeit und den Standort, sodass das Sicherheitspersonal schnell auf den Notruf Anrufer reagieren kann, indem er eine Sofortnachricht oder eine Stimme verwendet.
 
 5.  Wenn Sie die Ortungsrichtlinie für Konferenzen konfiguriert haben und diese vom E9-1-1-Dienstanbieter unterstützt wird, wird der Konferenz ein internes Sicherheitsdesk entweder mit unidirektionalem oder bidirektionalem Audio hinzugefügt.
 
 6.  Wenn ein Anruf vorzeitig unterbrochen wird, verwendet die Rettungsleitstelle die Rückrufnummer, um den Anrufer direkt zu kontaktieren.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

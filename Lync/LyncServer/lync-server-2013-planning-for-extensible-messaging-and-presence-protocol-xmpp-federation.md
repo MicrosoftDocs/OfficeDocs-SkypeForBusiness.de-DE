@@ -1,23 +1,45 @@
-﻿---
-title: Planen eines XMPP-Partnerverbunds (Extensible Messaging and Presence Protocol) in Lync Server 2013
-TOCTitle: Planen eines XMPP-Partnerverbunds (Extensible Messaging and Presence Protocol) in Lync Server 2013
-ms:assetid: 952b33e2-1f58-4831-9a39-1dfec2a316ad
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205107(v=OCS.15)
-ms:contentKeyID: 49294790
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Planen des Extensible Messaging and Presence Protocol (XMPP)-Verbunds
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for extensible messaging and presence protocol (XMPP) federation
+ms:assetid: 952b33e2-1f58-4831-9a39-1dfec2a316ad
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205107(v=OCS.15)
+ms:contentKeyID: 48184892
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f2f4e1d8f9b7f164dd9e83f556dcc57809619278
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824869"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planen eines XMPP-Partnerverbunds (Extensible Messaging and Presence Protocol) in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="planning-for-extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Planen der erweiterbaren Messaging-und Anwesenheits Protokoll (XMPP)-Föderation in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-22_
 
-Frühere Versionen von Lync Server und Office Communications Server boten ein XMPP-Gateway, das als separate Serverrolle bereitgestellt werden konnte, um den Verbund mit XMPP-Bereitstellungen zu ermöglichen. In Microsoft Lync Server 2013 kann die XMPP-Funktion als Feature bereitgestellt werden. Die XMPP-Funktion wird in zwei Teilen installiert: einem XMPP-Proxy, der auf dem Edgeserver ausgeführt wird, und dem XMPP-Gateway, das auf den Front-End-Servern ausgeführt wird.
+In früheren Versionen von lync Server und Office Communications Server wurde ein Extensible Messaging and Presence Protocol (XMPP)-Gateway bereitgestellt, das als separate Server Rolle bereitgestellt werden kann, um die Föderation mit XMPP-Bereitstellungen zu ermöglichen. In Microsoft lync Server 2013 kann die XMPP-Funktion als Feature bereitgestellt werden. Die XMPP-Funktionalität ist in zwei Teilen installiert: ein XMPP-Proxy, der auf dem Edgeserver ausgeführt wird, und das XMPP-Gateway, das auf den Front-End-Servern ausgeführt wird.
 
-Die Bereitstellung und Konfiguration von XMPP wird unter [Bereitstellen des Zugriffs durch externe Benutzer in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) behandelt. Die Planung der XMPP-Unterstützung in Ihrer Organisation umfasst die Definition von Port- und Protokollregeln in der Firewall, die Konfiguration von Zertifikaten und das Hinzufügen von DNS-Datensätzen. Die folgenden Themen in diesem Abschnitt fassen die Informationen zusammen, die Sie für die erfolgreiche Planung eines XMPP-Verbunds für Ihre Bereitstellung benötigen.
+Die Bereitstellung und Konfiguration von XMPP wird unter [Bereitstellen des Zugriffs auf externe Benutzer in lync Server 2013](lync-server-2013-deploying-external-user-access.md) , die Sie zur Unterstützung von xmpp in Ihrer Organisation planen, durch Definieren von Port-und Protokollregeln für Ihre Firewall, Konfiguration von Zertifikaten und Hinzufügen von DNS abgedeckt. Einträge. In den folgenden Themen in diesem Abschnitt werden die Informationen zusammengefasst, die Sie benötigen, um die XMPP-Föderation für Ihre Bereitstellung erfolgreich zu planen.
+
+<div>
 
 
 > [!IMPORTANT]
@@ -25,25 +47,44 @@ Die Bereitstellung und Konfiguration von XMPP wird unter [Bereitstellen des Zugr
 
 
 
-## In diesem Abschnitt
+</div>
 
-  - [Zertifikatzusammenfassung für XMPP-Partnerverbund (Extensible Messaging and Presence Protocol)](lync-server-2013-certificate-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+<div>
 
-  - [Portzusammenfassung für XMPP-Partnerverbund (Extensible Messaging and Presence Protocol)](lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [DNS-Zusammenfassung für XMPP-Partnerverbund (Extensible Messaging and Presence Protocol)](lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+  - [Zertifikatzusammenfassung – Extensible Messaging and Presence Protocol (XMPP) Federation in lync Server 2013](lync-server-2013-certificate-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
-## Siehe auch
+  - [Port Zusammenfassung – Extensible Messaging and Presence Protocol (XMPP) Federation in lync Server 2013](lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
-#### Aufgaben
+  - [DNS Summary – Extensible Messaging and Presence Protocol (XMPP) Federation in lync Server 2013](lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
 
 [Einrichten eines XMPP-Partnerverbunds in Lync Server 2013](lync-server-2013-setting-up-xmpp-federation.md)  
 [Konfigurieren von Richtlinien zur Steuerung des Zugriffs durch XMPP-Partnerbenutzer in Lync Server 2013](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md)  
 
-#### Weitere Ressourcen
 
 [Verwalten von XMPP-Verbundpartnern für Ihre Organisation in Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
-[Get-CsXmppAllowedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsXmppAllowedPartner)  
-[Get-CsXmppGatewayConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsXmppGatewayConfiguration)
+[Get-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/Gg425805(v=OCS.15))  
+[Get-CsXmppAllowedPartner](https://technet.microsoft.com/en-us/library/JJ204981(v=OCS.15))  
+[Get-CsXmppGatewayConfiguration](https://technet.microsoft.com/en-us/library/JJ204869(v=OCS.15))  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

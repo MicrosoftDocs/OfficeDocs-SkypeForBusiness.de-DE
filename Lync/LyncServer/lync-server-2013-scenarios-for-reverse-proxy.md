@@ -1,29 +1,49 @@
-﻿---
-title: 'Lync Server 2013: Szenarien für Reverseproxys'
-TOCTitle: Szenarien für Reverseproxys
-ms:assetid: 13108f59-a660-4ff1-8404-079d1cb646f2
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204691(v=OCS.15)
-ms:contentKeyID: 49293243
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Szenarien für Reverseproxys'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Scenarios for reverse proxy
+ms:assetid: 13108f59-a660-4ff1-8404-079d1cb646f2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204691(v=OCS.15)
+ms:contentKeyID: 48183468
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1621e8bb0241e82f9f4678d4fe39a4f66f6bcf9b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822244"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Szenarien für Reverseproxys in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="scenarios-for-reverse-proxy-in-lync-server-2013"></a>Szenarien für Reverseproxys in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-01-21_
 
-Reverseproxys sind in Lync Server 2013 erforderlich, um Zugriff auf Dienste und Ressourcen wie z. B. die einfachen Besprechungs- und Einwahl-URLs, Adressbücher, Besprechungsinhalte, Verteilerlistenerweiterungen, Mobilitätsdienste usw. bereitzustellen. Das gängige Reverseproxyszenario in Lync Server 2013 besteht darin, dass externen Clients (z. B. dem Desktopclient oder dem Lync Web App-Client) Zugriff auf die externen Director- oder Front-End-Server-Webdienste gewährt wird.
+Umgekehrte Proxys sind in lync Server 2013 für den Zugriff auf Dienste und Ressourcen wie die Besprechungs-und Einwahl einfachen URLs, das Adressbuch, den Besprechungsinhalt, die Erweiterung der Verteilerliste, Mobilitätsdienste und andere erforderlich. Das typische Reverse-Proxy-Szenario in lync Server 2013 ist es, externen Clients (beispielsweise dem Desktop Client oder lync Web App-Client) Zugriff auf externe Webdienste des Director-oder Front-End-Servers zu ermöglichen.
 
-**Reverseproxy und externe Webdienste**
+**Reverse-Proxy und externe Webdienste**
 
-![Reverseproxy und externe Webdienste](images/JJ204932.13142405-d5c9-45b7-a8b7-a8c89f09c97c(OCS.15).jpg "Reverseproxy und externe Webdienste")
+![13142405-d5c9-45b7-a8b7-a8c89f09c97c] (images/JJ204932.13142405-d5c9-45b7-a8b7-a8c89f09c97c(OCS.15).jpg "13142405-d5c9-45b7-a8b7-a8c89f09c97c")
 
-Während der Planungsphase definieren Sie die Voraussetzungen für den Reverseproxy in einer Lync Server 2013-Bereitstellung. Der Reverseproxy ermöglicht ermöglicht den Zugriff auf Features für die folgenden externen Clients:
+Während der Planungsphase definieren Sie die Anforderungen für den Reverse Proxy in einer lync Server 2013-Bereitstellung. Der Reverse-Proxy ermöglicht den Zugriff auf Features für die folgenden externen Clients:
 
-  - Microsoft Lync 2013-Desktopclient
+  - Microsoft lync 2013-Desktop Client
 
   - Microsoft Lync Web App
 
@@ -31,45 +51,51 @@ Während der Planungsphase definieren Sie die Voraussetzungen für den Reversepr
 
   - Windows Store-App für Lync
 
-Beim Planen Ihrer Lync Server 2013-Bereitstellung ordnen Sie den Reverseproxyfeatures die tatsächlichen Anforderungen für Lync Server 2013 zu.
+Bei der Planung Ihrer lync Server 2013-Bereitstellung ordnen Sie die tatsächlichen Anforderungen für lync Server 2013 den Reverse-Proxy Features zu.
 
-1.  Externe Clients stellen an Port TCP 443 eine Verbindung zum Reverseproxy her und verwenden SSL (Secure Socket Layer) oder TLS (SSL) oder (Transport Layer Security). Microsoft Lync Mobile-Clients können an Port TCP 80 eine Verbindung herstellen; dies ist jedoch nur möglich, wenn bei der ersten Verbindung mit den Lync-Ermittlungsdiensten und dem Administrator die richtigen DNS (Domain Name Service)-CNAME (oder Alias)-Einträge konfiguriert wurden, und wenn akzeptiert wird, dass diese Kommunikation unverschlüsselt ist.
+1.  Externe Clients stellen eine Verbindung mit dem Reverse Proxy auf Port TCP 443 her und verwenden Secure Socket Layer (SSL) oder Transport Layer Security (TLS). Microsoft lync Mobile-Clients können eine Verbindung mit Port TCP 80 herstellen, allerdings nur, wenn die anfängliche Verbindung mit den lync Discover-Diensten hergestellt wird und der Administrator die richtigen DNS-Einträge (Domain Name System) konfiguriert hat, und akzeptiert, dass diese die Kommunikation wird nicht verschlüsselt.
 
-2.  Externe Lync Server 2013-Webdienste (bereitgestellt auf dem Front-End-Server und/oder dem Director) erwarten einer Verbindung von einem Reverseproxy an Port TCP 4443; dabei wird eine SSL/TLS-Verbindung erwartet.
+2.  Lync Server 2013-externe Webdienste (bereitgestellt auf dem Front-End-Server und/oder der Director) erwarten eine Verbindung von einem Reverseproxy auf Port TCP 4443, und es wird erwartet, dass die Verbindung SSL/TLS ist.
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > Die vorgeschlagenen Standardüberwachungsports für die externen Webdienste sind TCP&nbsp;8080 für HTTP-Datenverkehr und TCP&nbsp;4443 für HTTPS-Datenverkehr. Topologie-Generator bietet eine Möglichkeit, die Standardeinstellungen zu überschreiben und eigene Überwachungsports für die externen Webdienste festzulegen. Es muss berücksichtigt werden, dass der Reverseproxy mit den externen Webdiensten und die externen Webdienste mit dem Reverseproxy kommunizieren. Der externe Client kommuniziert mit dem Reverseproxy an Port TCP&nbsp;443, Sie können den Port, an dem der Reverseproxy mit den externen Webdiensten kommuniziert jedoch neu festlegen. Die Optionen in Topologie-Generator zum Außerkraftsetzen der Standardüberwachungsports für die Webdienste ermöglicht Ihnen das Lösen von Überwachungsportkonflikten, die in Ihrer Infrastruktur u.&nbsp;U. auftreten.
+    > [!IMPORTANT]  
+    > Die empfohlenen Standard Überwachungsanschlüsse für die externen Webdienste sind TCP 8080 für HTTP-Datenverkehr und TCP 4443 für HTTPS-Datenverkehr. Der Topologie-Generator bietet die Möglichkeit, die Standardeinstellungen zu überschreiben und ihre eigenen Überwachungsanschlüsse für die externen Webdienste zu definieren. Beachten Sie, dass der Reverse-Proxy mit den externen Webdiensten kommuniziert und die externen Clients mit dem Reverse-Proxy kommunizieren. Der externe Client kommuniziert mit dem Reverseproxy auf Port TCP 443, aber Sie können neu definieren, welchen Port der Reverse-Proxy mit den externen Webdiensten kommuniziert. Mit den Optionen im Topologie-Generator können Sie die standardmäßigen Überwachungsanschlüsse für die Webdienste überschreiben, um die Überwachung von Port Konflikten zu beheben, die in Ihrer Infrastruktur auftreten können.
 
+    
+    </div>
 
+3.  Lync Server 2013-externe Webdienste erwarten einen unveränderten Host Header vom Client, um zu ermitteln, welches Dienst-und Webserververzeichnis der Client verwenden möchte. Anforderungen sollten so aussehen, als ob Sie vom Reverse-Proxy stammen
 
-3.  Externe Lync Server 2013-Webdienste erwarten einen nicht veränderten Hostheader vom Client um zu identifizieren, welchen Dienst und welches Webserververzeichnis der Client zu verwenden versucht. Anfragen sollten aussehen, als kämen sie vom Reverseproxy.
-
-4.  Die externen Webdienste verwenden verwenden definierte virtuelle Webserververzeichnisse (vDir), welche die den Clients zur Verfügung gestellten Dienste bereitstellen. Bestimmte extern identifizierbare Webdienste sind:
+4.  Die externen Webdienste verwenden definierte Webserver Virtual Directories (vDir), die die für Clients angebotenen Dienste bereitstellen. Bestimmte extern identifizierbare Webdienste sind:
     
-      - Das vDir "Meet" für Webkonferenzbesprechungen
+      - Die "Besprechung"-vDir für Webkonferenzbesprechungen
     
-      - Das vDir "Dialin" für Telefonzugriff und Telefonkonferenzen
+      - "Dialin"-vDir für Telefon-und Telefonkonferenzen
     
-      - Das vDir "Autodiscover" für Windows Store-App für Lync, Lync Mobile und den Lync 2013-Desktopclient. Die AutoErmittlung in Lync Server 2013 ist unter dem DNS-Namen "lyncdiscover" bekannt.
+      - Der "Auto Ermittlungs-vDir" für die lync Windows Store-App, lync Mobile und den Desktop Client lync 2013. Die AutoErmittlung in lync Server 2013 ist unter dem DNS-Namen "lyncdiscover" bekannt.
     
-      - Auf nicht definierte Dienste greift der externe Client durch direkte Aufrufe der externen Webdienste zu. Beispielsweise wird auf die Verteilergruppenerweiterung (DLX) und den Adressbuchdienst (ABS) durch direkte Aufrufe der externen Webdienste und der zugeordneten vDirs zugegriffen. Der Client kennt den tatsächlichen Pfad zum vDir und erstellt basierend auf diesen Informationen eine URL (Uniform Record Locator). Der Client greift auf den Adressbuchdienst mit einer ähnlichen URL wir der folgenden zu: `https://externalweb.contoso.com/abs/handler`.
+      - Auf Dienste, die nicht definiert sind, wird vom externen Client durch direkte Anrufe an die externen Webdienste zugegriffen. So können Sie beispielsweisedurch direkte Anrufe an externe Webdienste und zugeordnete vDirs auf die Expansion von Verteilergruppen (dlx) und den Adressbuchdienst (ABS) zugreifen. Der Client kennt den tatsächlichen Pfad zum vDir und erstellt basierend auf diesen Informationen einen Uniform Record Locator (URL). Der Clientzugriff auf den Adressbuchdienst mit einer URL ähnlich wie`https://externalweb.contoso.com/abs/handler`
     
-      - Der Office Web Apps-Server wird bei Konferenzen als Teil der Lync Server-Topologie definiert und konfiguriert.
+      - Der Office Web Apps-Server, wenn Konferenzen als Teil der lync Server-Topologie definiert und konfiguriert sind
+        
+        <div>
         
 
-        > [!NOTE]
-        > Der Office Web Apps-Server ist ein separater Rollenserver und wird nicht als Teil der externen Webdienste konfiguriert. Dieser Server wird für den Clientzugriff separat veröffentlicht.
+        > [!NOTE]  
+        > Der Office Web Apps-Server ist ein separater Rollen Server und nicht als Teil der externen Webdienste konfiguriert. Dieser Server wird separat für den Clientzugriff veröffentlicht.
 
+        
+        </div>
 
+5.  Definieren Sie SSL-Bridging für jeden Dienst. Der externe Port TCP 443 wird dem external Web Services-Port von TCP 4443 zugeordnet. Für unverschlüsselte http wird Port TCP 80 dem externen Webdienste-Port TCP 8080 zugeordnet.
 
-5.  Definieren Sie SSL-Bridging für jeden Dienst. Der externe Port TCP 443 wird dem externen Webdienstport TCP 4443 zugeordnet. Für unverschlüsseltes HTTP wird Port TCP 80 dem externen Webdienstport TCP 8080 zugeordnet.
+6.  Planen von Reverse Proxy-Listenern zum Veröffentlichen von Webserverressourcen
 
-6.  Planen von Reverseproxylistenern zum Veröffentlichen von Webserverressourcen
+7.  Sie können das Zertifikat für den Reverse-Proxy basierend auf den angebotenen Diensten anfordern und konfigurieren. Wenn dieses Zertifikat mit dem richtigen Alternativen Betreff-Namen konfiguriert wurde, kann es von allen konfigurierten Listener auf dem Reverse-Proxy Server freigegeben werden.
 
-7.  Fordern Sie das Zertifikat für den Reverseproxy basierend auf den Diensten an, die angeboten werden, und konfigurieren Sie es. Wenn dieses Zertifikat mit den richtigen alternativen Antragstellernamen konfiguriert ist, kann es von allen konfigurierten Listenern auf dem Reverseproxyserver gemeinsam verwendet werden.
-
-Verfügbare Ressourcen für die Planung Ihrer Reverseproxybereitstellung:
+Ressourcen, die für die Planung der Reverse-Proxybereitstellung verfügbar sind:
 
   - [Datenerfassung in Lync Server 2013](lync-server-2013-data-collection.md)
 
@@ -78,4 +104,14 @@ Verfügbare Ressourcen für die Planung Ihrer Reverseproxybereitstellung:
   - [Portzusammenfassung für Reverseproxy in Lync Server 2013](lync-server-2013-port-summary-reverse-proxy.md)
 
   - [DNS-Zusammenfassung für Reverseproxy in Lync Server 2013](lync-server-2013-dns-summary-reverse-proxy.md)
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,73 +1,103 @@
-﻿---
-title: 'Lync Server 2013: Referenztopologie für große Organisationen mit mehreren Rechenzentren'
-TOCTitle: Referenztopologie für große Organisationen mit mehreren Rechenzentren
-ms:assetid: 9a6aeae6-629b-49e6-9804-7ef369d7c3dc
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398797(v=OCS.15)
-ms:contentKeyID: 49294865
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Referenztopologie für große Organisationen mit mehreren Rechenzentren'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Reference topology for large organizations with multiple data centers
+ms:assetid: 9a6aeae6-629b-49e6-9804-7ef369d7c3dc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398797(v=OCS.15)
+ms:contentKeyID: 48184887
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2460378d19f8edb4e845778cacaf01c7141204c3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823833"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Referenztopologie für Lync Server 2013 für große Organisationen mit mehreren Rechenzentren
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="reference-topology-for-lync-server-2013-in-large-organizations-with-multiple-data-centers"></a>Referenztopologie für Lync Server 2013 für große Organisationen mit mehreren Rechenzentren
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-22_
 
-Die Referenztopologie für eine große Organisation mit mehreren Rechenzentren gilt für jede Organisationsgröße mit mehr als einem zentralen Standort. Die genaue Topologie in dem folgenden Diagramm bezieht sich auf eine Organisation mit 50.000 Benutzern, von denen sich 20.000 Benutzer am zentralen Standort A, 20.000 Benutzer am zentralen Standort B und insgesamt 10.000 Benutzer am zentralen Standort C und an Zweigstellenstandorten befinden. Der in diesem Diagramm gezeigte Topologietyp kann Organisationen mit einer beliebigen Benutzeranzahl umfassen.
+Die Referenztopologie für eine große Organisation mit mehreren Rechenzentren gilt für jede Organisationsgröße mit mehr als einem zentralen Standort. Die genaue Topologie im folgenden Diagramm bezieht sich auf eine Organisation mit 50.000 Benutzern, von denen sich 20.000 Benutzer am zentralen Standort A, 20.000 Benutzer am zentralen Standort B und insgesamt 10.000 Benutzer am zentralen Standort C und an Zweigstellen befinden. Der in diesem Diagramm gezeigte Topologietyp kann Organisationen mit einer beliebigen Benutzeranzahl umfassen.
 
-Neben der durch Pools auf den Front-End-Servern bereitgestellten Hochverfügbarkeit unterstützt diese Topologie außerdem eine Notfallwiederherstellung. Die Front-End-Pools an den zentralen Standorten A und B sind miteinander kombiniert. Wenn einer dieser Pools ausfällt, kann der Administrator die Dienste für die betroffenen Benutzer in den kombinierten Pool des nicht betroffenen Standorts verlagern.
+Neben der großen Verfügbarkeit, die von den Pools der Front-End-Server bereitgestellt wird, fügt diese Topologie Disaster Recovery-Unterstützung hinzu. Die Front-End-Pools an zentralen Standorten A und B sind zusammen gekoppelt. Wenn einer dieser Pools ausfällt, kann der Administrator die Dienste für die betroffenen Benutzer in den kombinierten Pool des nicht betroffenen Standorts verlagern.
 
 Diese Topologie wird in mehreren Diagrammen gezeigt. Zunächst sehen Sie einen Überblick, gefolgt von detaillierten Ansichten der zentralen Standorte.
 
 **Überblick über die Referenztopologie für große Organisationen mit mehreren Rechenzentren**
 
-![Referenztopologie für mehrere Rechenzentren](images/Gg398797.471e1ce9-be11-44b9-9f4a-59e0551b7b30(OCS.15).jpg "Referenztopologie für mehrere Rechenzentren")
+![Referenztopologie für mehrere Rechenzentren] (images/Gg398797.471e1ce9-be11-44b9-9f4a-59e0551b7b30(OCS.15).jpg "Referenztopologie für mehrere Rechenzentren")
 
 **Referenztopologie für große Organisationen: Detaillierte Ansicht des zentralen Standorts A**
 
-![Planen von Referenztopologien A](images/Gg398797.dab33f19-e77b-42da-9047-858fb9851264(OCS.15).jpg "Planen von Referenztopologien A")
+![dab33f19-e77b-42da-9047-858fb9851264] (images/Gg398797.dab33f19-e77b-42da-9047-858fb9851264(OCS.15).jpg "dab33f19-e77b-42da-9047-858fb9851264")
 
 **Referenztopologie für große Organisationen: Detaillierte Ansicht des zentralen Standorts B**
 
-![Planen von Referenztopologien B](images/Gg398797.5ccaf1d4-bd53-4cb7-96fe-723147334e7f(OCS.15).jpg "Planen von Referenztopologien B")
+![5ccaf1d4-bd53-4cb7-96fe-723147334e7f] (images/Gg398797.5ccaf1d4-bd53-4cb7-96fe-723147334e7f(OCS.15).jpg "5ccaf1d4-bd53-4cb7-96fe-723147334e7f")
 
 **Referenztopologie für große Organisationen: Detaillierte Ansicht des zentralen Standorts C**
 
-![Planen von Referenztopologien C](images/Gg398797.7238ca40-340c-491f-b497-ddc2665dadb6(OCS.15).jpg "Planen von Referenztopologien C")
+![7238ca40-340c-491f-b497-ddc2665dadb6] (images/Gg398797.7238ca40-340c-491f-b497-ddc2665dadb6(OCS.15).jpg "7238ca40-340c-491f-b497-ddc2665dadb6")
 
-  - Die **Front-End-Pools sind für die Notfallwiederherstellung kombiniert.**   Die Front-End-Pools an den Standorten A und B sind miteinander kombiniert, um eine Notfallwiederherstellung zu unterstützen. Wenn der Pool eines Standorts ausfällt, kann der Administrator die Benutzer des ausgefallenen Standorts mit einer minimalen Dienstunterbrechung in den kombinierten Front-End-Pool des anderen Standorts übernehmen. Jeder dieser beiden Front-End-Pools hat sechs Server, was ausreicht, um alle 40.000 Benutzer beider Pools im Fall eines Failovers zu unterstützen. Weitere Informationen finden Sie unter [Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+  - **Front-End-Pools sind gekoppelt, um eine Disaster Recovery zu ermöglichen.**    Die Front-End-Pools an Standort a und Standort B sind miteinander gekoppelt, um Disaster Recovery-Unterstützung bereitzustellen. Wenn der Pool an einer Website fehlschlägt, kann der Administrator für die Benutzer von dieser Website an den gekoppelten Front-End-Pool am anderen Standort ein Failover durchführen, wobei für die Benutzer mindestens eine Dienstunterbrechung erforderlich ist. Each of these two Front End pools has six servers, which is enough for all 40,000 users in both pools in case of failover. Weitere Informationen finden Sie unter [Planen von höchst Verfügbarkeit und Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
-  - Die **Back-End-Server sind gespiegelt**   Um die Hochverfügbarkeit der grundlegenden Benutzerfunktionen zu erhöhen, hat die Organisation ein gespiegeltes Paar Back-End-Server für jeden Front-End-Pool bereitgestellt. Dies ist eine optionale Topologie und Sie können sich auch für die Bereitstellung eines einzelnen Back-End-Servers entscheiden.
+  - **Back-End-Server werden gespiegelt**   , um eine höhere Verfügbarkeit für grundlegende Benutzer Features bereitzustellen, hat die Organisation ein gespiegeltes paar von Back-End-Servern für jeden Front-End-Pool bereitgestellt. Hierbei handelt es sich um eine optionale Topologie, und Sie können stattdessen einen einzelnen Back-End-Server bereitstellen.
 
-  - **Verwenden eines Standard Edition-Servers an einem Zweigstellenstandort.**Diese Organisation stuft Standort C als Zweigstellenstandort ein, da er nur 600 Mitarbeiter umfasst. Die dortigen Benutzer halten jedoch untereinander viele A/V-Konferenzen ab. Wenn der Standort in Lync Server als Zweigstellenstandort bereitgestellt würde, liefen die Medien für diese Konferenzen über das WAN zum zentralen Standort mit einem bereitgestellten Front-End-Server und wieder zurück. Um dieses potenzielle Bandbreitenproblem zu vermeiden, haben sie an diesem Standort zwei Standard Edition-Server installiert, auf denen diese Konferenzen gehostet werden. Da dort Standard Edition-Server installiert wurden, betrachtet Lync Server ihn laut Definition als zentralen Standort, und er wird im Topologie-Generator und im Planungstool als solcher behandelt.
+  - **Verwenden des Standard Edition-Servers an einer Zweigstelle**    Diese Organisation berücksichtigt Website C als Zweigstellen Website, da Sie nur 600 Mitarbeiter hat. However, the users there have many A/V conferences among themselves. Wenn Sie in lync Server als Verzweigungs Website bereitgestellt wurde, würden die Medien für diese Konferenzen über das WAN (Wide Area Network) zu und von einem zentralen Standort aus ausgeführt werden, auf dem ein Front-End-Server bereitgestellt wurde. Um diese potenzielle Bandbreitenauslastung zu vermeiden, haben Sie auf dieser Website ein paar Standard Edition-Server installiert, auf denen diese Konferenzen gehostet werden. Da die Standard Edition-Server dort installiert sind, sieht lync Server per Definition eine zentrale Website und wird als solche im Topologie-Generator und im Planungs Tool behandelt.
     
-    Hier würde im Hinblick auf die Leistung nur ein Standard Edition-Server ausreichen, die Organisation hat aber zwei bereitgestellt und miteinander kombiniert, um die Hochverfügbarkeit sicherzustellen falls ein Server ausfällt.
+    Nur ein Standard Edition-Server würde hier die Leistung ausreichen, aber die Organisation hat zwei bereitgestellt und zusammengefügt, um eine höhere Verfügbarkeit zu gewährleisten, wenn ein Server ausfällt.
     
     Auch wenn Standort C als zentraler Standort betrachtet wird, müssen Sie dort keine Edgeserver bereitstellen. In diesem Beispiel verwendet Standort C die an Standort A bereitgestellten Edgeserver.
 
-  - **Überwachen und Archivieren**   Diese Organisation hat sowohl die Überwachung als auch die Archivierung bereitgestellt. Wenn Sie die Überwachung oder die Archivierung bereitstellen, werden diese auf allen Front-End-Servern ausgeführt. Die Datenbanken für diese Funktionen können mit der Back-End-Datenbank verbunden oder auf einem separaten Server gespeichert werden. Diese Organisation hat diese Datenbanken am zentralen Standort B auf einem von den Back-End-Servern getrennten Server gespeichert. Die Datenbanken empfangen hier Überwachungs- und Archivierungsdaten von den Front-End-Servern aller Standorte.
+  - **Überwachung und Archivierung**   diese Organisation hat sowohl die Überwachung als auch die Archivierung bereitgestellt. Wenn Sie die Überwachung oder Archivierung bereitstellen, wird Sie auf jedem Front-End-Server ausgeführt. Die Datenbanken für diese Features können mit der Back-End-Datenbank oder auf einem separaten Server gespeichert werden. Diese Organisation hat diese Datenbanken auf einem Server getrennt von den Back-End-Servern auf dem zentralen Standort B lokalisiert. Die Datenbanken hier empfangen Überwachungs-und Archivierungsdaten von den Front-End-Servern an allen Standorten.
 
-  - **Optionen für Bereitstellungen an Zweigstellenstandorten.**   Diese Organisation besitzt aktuell über 50 Zweigstellen. Im Diagramm werden davon lediglich drei dargestellt. Die Zweigstellenstandorte 1 und 3 besitzen keine ausfallsichere WAN-Verbindung mit dem zentralen Standort. Daher werden Survivable Branch-Anwendungen eingesetzt, um bei Ausfall der WAN-Verbindung mit dem zentralen Standort Telefondienste bereitzustellen. Zweigstellenstandort 2 verfügt jedoch über eine ausfallsichere WAN-Verbindung, daher wird nur ein PSTN-Gateway benötigt. Das dort bereitgestellte PSTN-Gateway unterstützt die Medienumgehung, deshalb wird an Zweigstellenstandort B kein Vermittlungsserver benötigt. Ausführliche Informationen dazu, welche Komponenten an einem Zweigstellenstandort installiert werden sollten, finden Sie unter [Planen der Ausfallsicherheit für Enterprise-VoIP in Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md) in der Planungsdokumentation.
+  - **Bereitstellungsoptionen für Verzweigungs Websites**    Diese Organisation verfügt tatsächlich über mehr als 50 Zweigstellen, von denen nur drei in den detaillierten Diagrammen angezeigt werden. Die Zweigstellen 1 und 3 verfügen nicht über eine stabile WAN-Verbindung mit dem zentralen Standort, sodass Sie über Survivable Branch-Appliances bereitgestellt werden, um einen Telefondienst bereitzustellen, falls die WAN-Verbindung zum zentralen Standort ausfällt. Branch Site 2 hat jedoch eine stabile WAN-Verbindung, sodass Sie nur ein öffentliches Switched Telephone Network (PSTN)-Gateway benötigen. Das dort bereitgestellte PSTN-Gateway unterstützt die medienumgehung, sodass auf dem Zweigstellenstandort B kein Vermittlungs Server erforderlich ist. Details zur Entscheidung, was Sie an einer Zweigstelle installieren sollten, finden Sie unter [Planen der Enterprise-VoIP-Resilienz in lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md) in der Planungsdokumentation.
 
-  - **SIP-Trunking und Vermittlungsserver.**   Beachten Sie, dass an Standort B der Vermittlungsserver nicht gemeinsam mit den Front-End-Servern ausgeführt wird. Der Grund hierfür liegt darin, dass für Standorte mit SIP-Trunking ein eigenständiger Vermittlungsserver empfohlen wird. In den meisten anderen Fällen empfiehlt sich die gemeinsame Ausführung des Vermittlungsservers mit dem Front-End-Server. Ausführliche Informationen zu den Vermittlungsservertopologien finden Sie unter [Komponenten und Topologien für den Vermittlungsserver in Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) in der Planungsdokumentation.
+  - **SIP-Trunking-und Vermittlungs Server**    Beachten Sie, dass der Vermittlungs Server am zentralen Standort B nicht mit den Front-End-Servern bereit steht. Der Grund dafür ist, dass für Standorte mit SIP-Trunking ein eigenständiger Vermittlungsserver empfohlen wird. In den meisten anderen Fällen empfiehlt sich die gemeinsame Ausführung des Vermittlungsservers mit dem Front-End-Server. Details zu Mediation Server-Topologien finden Sie unter [Komponenten und Topologien für Mediation Server in lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) in der Planungsdokumentation.
 
-  - **Beständiger Chat bereitgestellt.**   Diese Organisation hat die für den beständigen Chat erforderlichen Server bereitgestellt. Sie hat mehrere Front-End-Server für den beständigen Chat bereitgestellt, um die Last für die Benutzer im Pool zu bewältigen und Hochverfügbarkeit zu bieten. Sie hat außerdem Kompatibilität für den beständigen Chat bereitgestellt und den Speicher für den beständigen Chat und den Kompatibilitätsspeicher auf separaten Servern bereitgestellt. Diese Speicher können verbunden werden, und dies sogar mit dem Back-End-Server. Diese Organisation hat aber beschlossen, diese für eine bessere Leistung zu trennen.
+  - **Beständiger Chat wird bereitgestellt.**    Diese Organisation hat die erforderlichen Server zum Aktivieren des beständigen Chats bereitgestellt. Es wurden mehrere beständige Chat-Front-End-Server bereitgestellt, um die Last für die Anzahl der Benutzer im Pool zu behandeln und eine hohe Verfügbarkeit bereitzustellen. Darüber hinaus wurde Compliance für beständigen Chat bereitgestellt und der beständige Chat Speicher und der Compliance-Speicher für beständigen Chat auf separaten Servern gespeichert. Diese Stores können mit dem Back-End-Server kombiniert werden, aber diese Organisation hat sich entschieden, diese zu trennen, um eine bessere Leistung zu gewährleisten.
 
-  - **DNS-Lastenausgleich.**   Der Front-End-Pool und der Edgeserverpool. Auf diese Weise sind keine Hardwaregeräte zum Lastenausgleich für die interne Schnittstelle der Edgeserver erforderlich, und der für Setup und Wartung der Hardwaregeräte zum Lastenausgleich für die weiteren Pools erforderliche Zeitraum wird erheblich verringert, da die Hardwaregeräte zum Lastenausgleich nur für HTTP-Datenverkehr benötigt werden. Ausführliche Informationen zum DNS-Lastenausgleich finden Sie unter [DNS-Lastenausgleich in Lync Server 2013](lync-server-2013-dns-load-balancing.md) in der Planungsdokumentation.
+  - **DNS-Lastenausgleich**    Der Front-End-Pool und der Edge-Server Pool. Dadurch sind keine Hardwaregeräte zum Lastenausgleich für die interne Schnittstelle der Edgeserver erforderlich und der für Setup und Wartung der Hardwaregeräte zum Lastenausgleich für die weiteren Pools erforderliche Zeitraum wird erheblich verringert, da die Hardwaregeräte zum Lastenausgleich nur für HTTP-Datenverkehr benötigt werden. Details zum DNS-Lastenausgleich finden Sie unter [DNS-Lastenausgleich in lync Server 2013](lync-server-2013-dns-load-balancing.md) in der Planungsdokumentation.
 
-  - **Exchange UM-Bereitstellung.**   Lync Server funktioniert sowohl mit *lokalen* Bereitstellungen von Exchange Unified Messaging (UM) als auch mit *gehosteten* Exchange UM-Diensten. Der zentrale Standort A umfasst einen Exchange Unified Messaging (UM)-Server, auf dem nicht Lync Server, sondern Microsoft Exchange Server ausgeführt wird. Die Exchange UM-Funktionalität für Lync Server wird im Front-End-Pool ausgeführt.
+  - **Exchange um-Bereitstellung.**   Lync Server funktioniert sowohl mit *lokalen* Bereitstellungen von Exchange Unified Messaging (um) als auch mit *Hosted* Exchange um. Der zentrale Standort A umfasst einen Exchange Unified Messaging (um)-Server, auf dem Microsoft Exchange Server ausgeführt wird, nicht lync Server. Die Exchange um-Funktionalität für lync Server wird im Front-End-Pool ausgeführt.
     
     Am zentralen Standort B wird gehostetes Exchange eingesetzt, daher wird die Exchange UM-Serverfunktionalität ebenfalls gehostet.
     
-    Ausführliche Informationen zu Exchange UM finden Sie unter [Planen der Integration von Exchange Unified Messaging in Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) und [Integration in gehostete Exchange Unified Messaging-Dienste in Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md) in der Planungsdokumentation.
+    Ausführliche Informationen zu Exchange um finden Sie unter [Planen der Exchange Unified Messaging-Integration in lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) und [gehostete Exchange Unified Messaging-Integration in lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md) in der Planning-Dokumentation.
 
-  - **Office Web Apps Server.**   Wir empfehlen die Bereitstellung eines Office Web Apps Servers oder einer Office Web Apps Server-Farm in allen Organisation, die Webkonferenzen unterstützen. Sie können eine einzelne Office Web Apps Server-Farm an einem Standort bereitstellen, die den Datenverkehr von allen Standorten abwickelt, oder diese an allen Standorten bereitstellen. Mit Office Web Apps Server können Powerpoint-Folien in Webkonferenzen präsentiert werden. Weitere Informationen finden Sie unter [Konfigurieren der Integration mit Office Web Apps Server und Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+  - **Office Web Apps-Server.**   Es wird empfohlen, in jeder Organisation, in der der Webkonferenzdienst verwendet wird, einen Office Web Apps Server oder eine Office Web Apps-Serverfarm bereitzustellen. Sie können eine einzelne Office Web Apps-Server Farm auf einer Website bereitstellen, die Datenverkehr von allen Websites dient, oder Sie auf jeder Website bereitstellen. Der Office Web Apps Server ermöglicht die Präsentation von PowerPoint-Folien in Webkonferenzen. Weitere Informationen finden Sie unter [Konfigurieren der Integration in Office Web Apps Server und lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
-  - **Directors können hinzugefügt werden.**   Wenn diese Organisation die Sicherheit im Hinblick auf Denial-of-Service-Angriffe erhöhen möchte, könnte sie auch einen Pool von Directors bereitstellen. Ein Director ist eine separate, optionale Serverrolle in Lync Server, die keine Benutzerkonten enthält oder Anwesenheits- oder Konferenzdienste bereitstellt. Sie dient als interner nächster Hopserver, an den ein Edgeserver eingehenden SIP-Datenverkehr, der für interne Server bestimmt ist, weiterleitet. Der Director nimmt eine Vorabauthentifizierung eingehender Anfragen vor und leitet diese an den Pool oder Server des Benutzers weiter. Die Vorabauthenitifizierung in Director ermöglicht das Aussortieren von Anfragen, die von Benutzerkonten stammen, die in der Bereitstellung nicht bekannt sind. Ein Director unterstützt die Isolierung der Front-End-Server von schädlichem Datenverkehr, wie Denial-of-Service-Angriffen (DoS). Wenn das Netzwerk bei einem solchen Angriff mit ungültigem externen Datenverkehr überflutet wird, endet der Angriff beim Director.
+  - **Directors können hinzugefügt werden.**   Wenn diese Organisation die Sicherheit gegen Denial-of-Service-Angriffe erhöhen möchte, könnte Sie auch einen Pool von Directors bereitstellen. Bei einem Director handelt es sich um eine separate, optionale Serverrolle in lync Server, auf der keine Benutzerkonten zu Hause sind, oder Anwesenheits-oder Konferenzdienste bereitstellen. Sie fungiert als interner Server für den nächsten Hop, auf dem ein Edgeserver eingehenden SIP-Datenverkehr für interne Server weiterleitet. Der Director authentifiziert eingehende Anforderungen vorab und leitet Sie an den privaten Pool oder Server des Benutzers weiter. Die Vorabauthentifizierung durch den Director ermöglicht das Verwerfen von Anfragen von Benutzerkonten, die der Bereitstellung nicht bekannt sind. Ein Director hilft, Front-End-Server vor böswilligem Datenverkehr zu isolieren, wie DOS-Attacken (Denial-of-Service). Wenn das Netzwerk bei einem solchen Angriff mit einem ungültigen externen Datenverkehr überflutet wird, endet der Datenverkehr beim Director.
 
-  - **System Center Operations Manager ist bereitgestellt.**   Wir empfehlen die Überwachung der Integrität Ihrer Lync Server-Bereitstellung, um die Dienstverfügbarkeit für Endbenutzer sicherzustellen. Sie können Lync mit dem System Center Operations Manager Management Pack für Lync überwachen, das als kostenloser Download bei Microsoft verfügbar ist. Mit dem Lync Management Pack erhalten Sie proaktiv Echtzeitwarnungen, sobald Probleme auftreten, können synthetische Transaktionen ausführen, um die Lync-Funktionalität von Ende zu Ende zu testen, Berichte zur Dienstverfügbarkeit erhalten usw. Dies hilft Ihnen bei der proaktiven Behandlung von Problemen mit Ihrer Bereitstellung, bevor diese für Endbenutzer spürbar werden.
+  - **System Center Operations Manager wird bereitgestellt.**   Wir empfehlen, dass Sie den Status Ihrer lync Server-Bereitstellung überwachen, um die Dienstverfügbarkeit für Endbenutzer zu gewährleisten. Sie können lync mit dem System Center Operations Manager-Management Pack für lync überwachen, das als kostenloser Download von Microsoft zur Verfügung steht. Mit dem lync-Management Pack können Sie proaktiv Echtzeitbenachrichtigungen erhalten, wenn Probleme auftreten, synthetische Transaktionen ausführen, um die End-to-End-lync-Funktionalität zu testen, Berichte für die Dienstverfügbarkeit abzurufen usw. This helps you to proactively respond to issues with your deployment before end-users experience them.
     
-    Diese Organisation hat an allen zentralen Standorten einen System Center Operations Manager-Server bereitgestellt.
+    Diese Organisation hat einen System Center Operations Manager-Server an jedem zentralen Standort bereitgestellt.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

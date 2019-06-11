@@ -1,39 +1,69 @@
-﻿---
-title: 'Lync Server 2013: Planen von Lync Server-Hybridbereitstellungen'
-TOCTitle: Planen von Lync Server-Hybridbereitstellungen
-ms:assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205403(v=OCS.15)
-ms:contentKeyID: 49295960
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Planen von hybridbereitstellungen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for hybrid deployments
+ms:assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205403(v=OCS.15)
+ms:contentKeyID: 48185910
+ms.date: 05/25/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3b528e22e24635d47755096cd4bf81d4066feb3c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825149"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planen von Lync Server 2013-Hybridbereitstellungen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="planning-for-lync-server-2013-hybrid-deployments"></a>Planen der Bereitstellung von lync Server 2013-hybridbereitstellungen
 
-Bei der Planung einer Hybridbereitstellung sollten Sie die Anforderungen im Hinblick auf die Benutzer und Netzwerkinfrastruktur berücksichtigen.
+</div>
 
-## Infrastrukturanforderungen
+<div id="mainSection">
 
-Zum Implementieren und Konfigurieren einer Lync Server 2013-Hybridbereitstellung muss in der Umgebung Folgendes verfügbar sein:
+<div id="mainBody">
 
-  - Ein Office 365-Mandant, auf dem Lync Online aktiviert ist.
+<span> </span>
 
-  - Ein Server für Active Directory-Verbunddienste (AD FS), der entweder lokal oder über Microsoft Azure bereitgestellt wird. Weitere Informationen zu AD FS finden Sie unter [Active Directory-Verbunddienste (AD FS) 2.0](http://go.microsoft.com/fwlink/p/?linkid=393795) oder [Konfigurieren von Active Directory-Verbunddiensten für das Windows Azure Pack](http://go.microsoft.com/fwlink/p/?linkid=522475).
+_**Letztes Änderungsdatum des Themas:** 2016-05-25_
 
-  - Eine lokale Bereitstellung von Lync Server 2013 oder Lync Server 2010 mit kumulativen Updates für Lync Server 2010: März 2013 oder höher.
+Berücksichtigen Sie beim Planen einer hybridbereitstellung die folgenden Anforderungen für Benutzer und Ihre Netzwerkinfrastruktur.
 
-  - Lync Server 2013 Verwaltungstools.
+<div>
 
-  - Verzeichnissynchronisierung. Details zur Verzeichnissynchronisierung finden Sie unter [Hybrid-Identitätsverwaltung](http://go.microsoft.com/fwlink/p/?linkid=231010).
+## <a name="infrastructure-requirements"></a>Infrastrukturanforderungen
 
-## Unterstützung des Lync-Clients
+Sie müssen die folgenden in Ihrer Umgebung konfiguriert haben, um eine hybridbereitstellung implementieren und bereitstellen zu können.
 
-Es gibt einige Unterschiede in Bezug auf die Features, die von Lync-Clients unterstützt werden, und die Features, die in lokalen und Onlineumgebungen verfügbar sind. Bevor Sie entscheiden, wo die Benutzer in Ihrer Organisation verwaltet werden sollen, können Sie sich über die Clientunterstützung für die verschiedenen Konfigurationen von Lync Server informieren. Die folgenden Clients werden mit Skype for Business Online in einer Lync-Hybridbereitstellung unterstützt:
+  - Ein Microsoft Office 365-Mandant mit aktiviertem Skype for Business Online. Beachten Sie, dass Sie nur einen einzelnen Mandanten für eine Hybrid Konfiguration mit Ihrer lokalen Bereitstellung verwenden können.
+
+  - Eine einzelne lokale Bereitstellung (Infrastruktur) von Skype for Business Server oder lync Server, die in einer unterstützten Topologie bereitgestellt wird. Siehe Topologie-Anforderungen.
+    
+    Informationen zum Konfigurieren ihrer lync Server 2013-oder lync Server 2010-Bereitstellung für hybride finden Sie unter [Konfigurieren von lync Server 2013-hybridbereitstellungen](lync-server-2013-configuring-hybrid-deployments.md).
+
+  - Skype for Business Server 2015-Verwaltungstools. Wenn Sie lync Server 2013 oder lync Server 2010 verwenden, können Sie die Verwaltungstools von lync Server 2013 verwenden.
+
+  - Um die einmalige Anmeldung bei Office 365 zu unterstützen, damit Benutzer dieselben Anmeldeinformationen für die Anmeldung bei Office verwenden können, während Sie lokal tätig sind, können Sie die Kenn Wort Synchronisierungsfeatures von Azure Active Directory (AAD) Connect verwenden. Sie können auch die Active Directory Federation Services (AD FS) für das einmalige Anmelden mit Office 365 verwenden.
+    
+    Weitere Informationen finden Sie unter [integrieren Ihrer lokalen Identitäten in Azure Active Directory](http://go.microsoft.com/fwlink/p/?linkid=619754).
+
+  - Eine einzige Lösung für die Verzeichnissynchronisierung, damit Ihre lokalen und Online aktiven Active Directory-Objekte synchronisiert bleiben. Details zur Verzeichnissynchronisierung finden Sie unter [Tools für die Verzeichnis Integration](http://go.microsoft.com/fwlink/p/?linkid=530320).
+
+</div>
+
+<div>
+
+## <a name="lync-client-support"></a>Lync-Client Unterstützung
+
+Es gibt einige Unterschiede bei den Features, die in lync-Clients unterstützt werden, sowie die Features, die in lokalen und Online Umgebungen zur Verfügung stehen. Bevor Sie sich entscheiden, wo Sie die Benutzer in Ihrer Organisation privatisieren möchten, können Sie die Clientunterstützung für die verschiedenen Konfigurationen von lync Server anzeigen. Die folgenden Clients werden von Skype for Business Online in einer lync-hybridbereitstellung unterstützt:
 
   - Lync 2010
 
@@ -51,69 +81,150 @@ Es gibt einige Unterschiede in Bezug auf die Features, die von Lync-Clients unte
 
   - Lync Basic 2013
 
-Ausführliche Informationen zur Clientunterstützung finden Sie in den folgenden Themen:
+Details zum Client Support finden Sie unter den folgenden Themen:
 
-  - [Clients für Lync Online](http://go.microsoft.com/fwlink/?linkid=281902)
+  - [Clients für lync Online](http://go.microsoft.com/fwlink/?linkid=281902)
 
   - [Clientvergleichstabellen für Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md)
 
   - [Vergleichstabellen für mobile Clients für Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md)
 
-## Anforderungen im Hinblick auf die Topologie
+</div>
 
-Zum Konfigurieren einer Hybridbereitstellung aus Lync Server 2013 und Skype for Business Online müssen Sie über eine der folgenden unterstützten Topologien verfügen:
+<span id="BKMK_Topology"></span>
 
-  - Microsoft Office Communications Server 2007 R2 mit lokaler Lync Server 2013-Bereitstellung. Auf dem Partnerverbund- Edgeserver in Lync Server 2013 und auf dem nächsten Hopserver aus dem Partnerverbund- Edgeserver muss Lync Server 2013 ausgeführt werden. Zudem muss ein zentraler Verwaltungsspeicher bereitgestellt werden. Der Edgeserver und der Pool müssen lokal bereitgestellt werden.
+<div>
+
+## <a name="topology-requirements"></a>Anforderungen im Hinblick auf die Topologie
+
+Wenn Sie Ihre Bereitstellung für Hybrid mit Skype for Business Online konfigurieren möchten, müssen Sie über eine der folgenden unterstützten Topologien verfügen:
+
+  - Eine Skype for Business Server 2015-Bereitstellung mit allen Servern, auf denen Skype for Business Server 2015 ausgeführt wird.
+
+  - Eine lync Server 2013-Bereitstellung mit allen Servern, auf denen lync Server 2013 ausgeführt wird.
+
+  - Eine lync Server 2010-Bereitstellung mit allen Servern, auf denen lync Server 2010 mit den neuesten kumulativen Updates ausgeführt wird.
     
-
-    > [!IMPORTANT]
-    > Obwohl diese Topologie unterstützt wird, sind einige Funktionen möglicherweise eingeschränkt. Beispielsweise funktionieren Präsenzinformationen zwischen Microsoft Lync Online-Benutzern und lokalen Office Communications Server 2007 R2-Benutzern möglicherweise nicht wie erwartet.
-
-
-
-  - Microsoft Lync Server 2010 mit angewendeten kumulativen Updates für Lync Server 2010: März 2013 (oder späteres Update) und lokal installierten Lync Server 2013-Verwaltungstools. Auf dem Partnerverbund-Edgeserver und dem nächsten Hopserver aus dem Partnerverbund-Edgeserver muss Microsoft Lync Server 2010 mit angewendeten kumulativen Updates von März 2013 (oder später) oder Lync Server 2013 ausgeführt werden.
+      - Auf dem Verbund-Edgeserver und dem Server für den nächsten Hop vom Verbund-Edgeserver muss lync Server 2010 mit den neuesten kumulativen Updates ausgeführt werden.
     
+      - Die Verwaltungs Tools für Skype for Business Server 2015 oder lync Server 2013 müssen auf mindestens einem Server oder einer Verwaltungsarbeitsstation installiert sein.
 
-    > [!IMPORTANT]
-    > Die Lync Server 2013-Verwaltungstools sollten auf einem separaten Server installiert sein, der Verbindungszugriff auf die vorhandene Lync Server 2010-Bereitstellung hat. Das Move-CsUser-cmdlet zum Verschieben von Benutzern aus Ihrer lokalen Bereitstellung nach Lync Online muss von den Lync Server 2013-Verwaltungstools, die mit Ihrer lokalen Bereitstellung verbunden sind, aus ausgeführt werden.
+  - Eine gemischte lync Server 2013-und Skype for Business Server 2015-Bereitstellung mit den folgenden Server Rollen in mindestens einer Website mit Skype for Business Server 2015:
+    
+      - Mindestens ein Enterprise-Pool- oder Standard Edition-Server 
+    
+      - Der dem SIP-Partnerverbund zugeordnete Director-Pool, falls vorhanden
+    
+      - Der dem SIP-Partnerverbund zugeordnete Edgepool
+
+  - Eine gemischte lync Server 2010-und Skype for Business Server 2015-Bereitstellung mit den folgenden Serverrollen in mindestens einer Website mit Skype for Business Server 2015:
+    
+      - Mindestens ein Enterprise-Pool- oder Standard Edition-Server 
+    
+      - Der dem SIP-Partnerverbund zugeordnete Director-Pool, falls vorhanden
+    
+      - Der dem SIP-Partnerverbund zugeordnete Edgepool für den Standort
+
+  - Eine gemischte lync Server 2010-und lync Server 2013-Bereitstellung mit den folgenden Server Rollen in mindestens einer Website mit lync Server 2013:
+    
+      - Mindestens ein Enterprise-Pool- oder Standard Edition-Server am Standort
+    
+      - Der dem SIP-Partnerverbund zugeordnete Director-Pool, falls am Standort vorhanden
+    
+      - Der dem SIP-Partnerverbund zugeordnete Edgepool für den Standort
+
+<div>
+
+
+> [!IMPORTANT]  
+> Die gesamte Benutzerverwaltung, einschließlich des Benutzers, der zwischen lokalen und UNRESOLVED_TOKEN_VAL (skypeforbusiness) Online wechselt, muss mithilfe der neuesten installierten Version der Verwaltungstools ausgeführt werden. Die Verwaltungstools müssen auf einem separaten Server installiert sein, auf dem der Zugriff auf die vorhandene lokale Bereitstellung und das Internet verbunden ist. Das Cmdlet <A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">Move-CsUser</A> zum Verschieben von Benutzern aus Ihrer lokalen Bereitstellung in UNRESOLVED_TOKEN_VAL (skype16_online) muss über die Verwaltungstools ausgeführt werden, die mit Ihrer lokalen Bereitstellung verbunden sind.
 
 
 
-  - Eine Lync Server 2013-Bereitstellung mit allen Servern, auf denen Lync Server 2013 ausgeführt wird.
+</div>
 
-Weitere Informationen zu den unterstützten Topologien finden Sie unter [Unterstützte Topologien in Lync Server 2013](lync-server-2013-supported-topologies.md) und [Lync Server 2013 Reference Topologies for Enterprise Hybrid Deployments](http://go.microsoft.com/fwlink/p/?linkid=398709).
+Weitere Informationen zu unterstützten Topologien finden Sie unter [Unterstützte Topologien in lync Server 2013](lync-server-2013-supported-topologies.md)und [lync Server 2013-Referenz Topologien für Enterprise-Hybrid Bereitstellungen](http://go.microsoft.com/fwlink/p/?linkid=398709).
 
-Informationen zur Problembehandlung in Hybridbereitstellungen und zum Herstellen von Verbindungen der PowerShell mit Lync Online finden Sie unter [Lync Online: Lync PowerShell and Hybrid Troubleshooting](http://go.microsoft.com/fwlink/p/?linkid=306718).
+Informationen zur Problembehandlung von hybridbereitstellungen und zum Verbinden von PowerShell mit lync Online finden Sie unter [lync online: Problembehandlung bei lync PowerShell und Hybrid](http://go.microsoft.com/fwlink/p/?linkid=306718).
 
-## Anforderungen in Bezug auf die Listen der zugelassenen und blockierten Domänen für den Partnerverbund
+</div>
+
+<div>
+
+## <a name="requirements-for-federation-allowedblocked-lists"></a>Voraussetzungen für zugelassene/blockierte Listen für Föderationen
 
 Die Liste der zugelassenen Domänen enthält Domänen, für die ein Partner-Edge-FQDN (vollqualifizierter Domänenname) konfiguriert ist. Diese werden mitunter als *zulässige Partnerserver* oder *direkte Verbundpartner* bezeichnet. Sie sollten mit dem Unterschied zwischen einem öffentlichen Partnerverbund und einem geschlossenen Partnerverbund vertraut sein, der in lokalen Bereitstellungen als *Partnerermittlung* bzw. *Liste der zulässigen Partnerdomänen* bezeichnet wird.
 
 Die folgenden Anforderungen müssen erfüllt sein, um eine Hybridbereitstellung erfolgreich zu konfigurieren:
 
-  - Der Domänenabgleich muss für die lokale Bereitstellung und den Office 365-Mandanten identisch konfiguriert sein. Wenn die Partnerermittlung für die lokale Bereitstellung aktiviert ist, muss der öffentliche Partnerverbund für den Onlinemandaten konfiguriert sein. Wenn die Partnerermittlung nicht aktiviert ist, muss für den Onlinemandanten der geschlossene Partnerverbund konfiguriert sein.
+  - Der Domänenabgleich muss für die lokale Bereitstellung und den Office 365-Mandanten identisch konfiguriert sein. Wenn die Partnerermittlung für die lokale Bereitstellung aktiviert ist, muss der öffentliche Partnerverbund für den Onlinemandaten konfiguriert sein. Wenn die Partnerermittlung nicht aktiviert ist, muss für den Onlinemandanten der geschlossene Partnerverbund konfiguriert sein.
 
   - Die Liste der blockierten Domänen in der lokalen Bereitstellung muss genau mit der Liste der blockierten Domänen für den Onlinemandanten übereinstimmen.
 
   - Die Liste der zugelassenen Domänen in der lokalen Bereitstellung muss genau mit der Liste der zugelassenen Domänen für den Onlinemandanten übereinstimmen.
 
-  - Der Partnerverbund muss für die externe Kommunikation für den Onlinemandanten aktiviert sein, der mithilfe der Lync Online-Systemsteuerung konfiguriert wird.
+  - Der Verbund muss für die externe Kommunikation für den Online Mandanten aktiviert sein, der über die lync Online-Systemsteuerung konfiguriert wird.
 
-## DNS-Einstellungen
+</div>
 
-Beim Erstellen von DNS-SRV-Einträgen für Hybridbereitstellungen sollten die Einträge "\_sipfederationtls.\_tcp.\<domäne\>" und "\_sip.\_tls.\<domäne\>" auf den lokalen Zugriffsproxy zeigen.
+<div>
 
-## Überlegungen zu Firewalls
+## <a name="dns-settings"></a>DNS-Einstellungen
+
+Beim Erstellen von DNS-Einträgen für hybridbereitstellungen sollten alle externen lync-DNS-Einträge auf die lokale Infrastruktur verweisen. Details zu den erforderlichen DNS-Einträgen finden Sie unter [Domain Name System (DNS) Requirements for lync Server 2013](lync-server-2013-domain-name-system-dns-requirements.md).
+
+Darüber hinaus müssen Sie sicherstellen, dass die in der folgenden Tabelle erläuterte DNS-Auflösung in Ihrer lokalen Bereitstellung funktioniert:
+
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>DNS-Eintrag</p></td>
+<td><p>Aufzulösen durch</p></td>
+<td><p>DNS-Anforderung</p></td>
+</tr>
+<tr class="even">
+<td><p>DNS-SRV-Eintrag für _sipfederationtls. _tcp. &lt;sipdomain.com&gt; für alle unterstützten SIP-Domänen, die in Access Edge external IP (s) aufgelöst werden</p></td>
+<td><p>Edgeserver</p></td>
+<td><p>Aktivieren Sie Partnerverbundkommunikation in einer Hybridkonfiguration. Der Edgeserver muss wissen, wohin der Datenverkehr im Partnerverbund für die zwischen lokal und online aufgeteilte SIP-Domäne geleitet werden soll.</p></td>
+</tr>
+<tr class="odd">
+<td><p>DNS-A-Eintrag/Einträge für den Edge-Webkonferenzdienst-FQDN, zum Beispiel „webcon.contoso.com“, aufgelöst zu der externen IP/den IPs des Webkonferenzdienst-Edgeservers</p></td>
+<td><p>Über internes Unternehmensnetzwerk verbundene Benutzercomputer</p></td>
+<td><p>Versetzen Sie Onlinebenutzer in die Lage, in lokal gehosteten Besprechungen Inhalte zu präsentieren oder zu betrachten. Entsprechende Inhalte sind unter anderem PowerPoint-Dateien, Whiteboards, Umfragen und freigegebene Notizen. </p></td>
+</tr>
+</tbody>
+</table>
+
+
+Je nachdem, wie DNS in Ihrer Organisation konfiguriert ist, müssen Sie möglicherweise der intern gehosteten DNS-Zone für die entsprechenden SIP-Domäne(n) diese Einträge hinzufügen, um die interne DNS-Auflösung dieser Datensätze zu gewährleisten.
+
+</div>
+
+<div>
+
+## <a name="firewall-considerations"></a>Firewall-Überlegungen
 
 Die Computer in Ihrem Netzwerk müssen Standard-Internet-DNS-Lookups ausführen können. Wenn diese Computer Standard-Internetwebsites erreichen können, erfüllt Ihr Netzwerk diese Anforderung.
 
-Abhängig vom Standort des Microsoft Online Services-Rechenzentrums müssen Sie auch Ihre Netzwerkfirewallgeräte so konfigurieren, dass Verbindungen basierend auf Platzhalterdomänennamen akzeptiert werden (z. B. der gesamte Datenverkehr von "\*.outlook.com"). Wenn die Firewalls Ihrer Organisation Konfigurationen mit Platzhalternamen nicht unterstützen, müssen Sie die IP-Adressbereiche, die Sie zulassen möchten, und die angegebenen Ports manuell festlegen.
+Je nach Standort Ihres Microsoft Online Services-Rechenzentrums müssen Sie auch Ihre Netzwerkfirewall-Geräte so konfigurieren, dass Sie Verbindungen basierend auf Platzhalter-Domänennamen (beispielsweise alle Daten \*Verkehr von Outlook.com) akzeptieren. Wenn die Firewalls Ihrer Organisation Konfigurationen mit Platzhalternamen nicht unterstützen, müssen Sie die IP-Adressbereiche, die Sie zulassen möchten, und die angegebenen Ports manuell festlegen.
 
-Informationen finden Sie im Hilfethema [URLs und IP-Adressbereiche für Office 365](http://go.microsoft.com/fwlink/p/?linkid=252942).
+Weitere Informationen finden Sie im Hilfethema [Office 365-URLs und IP-Adressbereiche](http://go.microsoft.com/fwlink/p/?linkid=252942).
 
-## Port- und Firewallanforderungen
+</div>
 
-Sie müssen nicht nur die Portanforderungen für die interne Lync Server 2013-Kommunikation berücksichtigen, sondern auch die folgenden Ports konfigurieren.
+<span id="b"></span>
+
+<div>
+
+## <a name="port-and-protocol-requirements"></a>Port-und Protokollanforderungen
+
+Zusätzlich zu den Portanforderungen für die interne lync Server 2013-Kommunikation müssen Sie auch die folgenden Ports konfigurieren.
 
 
 <table>
@@ -130,121 +241,99 @@ Sie müssen nicht nur die Portanforderungen für die interne Lync Server 2013-Ko
 <tbody>
 <tr class="odd">
 <td><p>TCP 443</p></td>
-<td><p>Geöffnet, eingehend</p>
+<td><p>Eingehend öffnen</p>
 <ul>
-<li><p>Active Directory-Verbunddienste (Active Directory Federation Services, AD&amp;nbsp;FS) (Verbundserverrolle)</p>
+<li><p>Active Directory-Verbunddienste (Verbundserver Rolle)</p>
 <p>Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Grundlegendes zu AD FS-Rollendiensten</a>.</p></li>
-<li><p>Active Directory-Verbunddienste (Proxyserverrolle)</p></li>
+<li><p>Active Directory-Verbunddienste (Proxy Serverrolle)</p></li>
 <li><p>Microsoft Online Services-Portal</p></li>
-<li><p>Unternehmensportal</p></li>
+<li><p>Mein Unternehmens Portal</p></li>
 <li><p>Outlook Web App</p></li>
-<li><p>Lync-Client (Kommunikation mit Lync Online vom lokalen Lync Server aus)</p></li>
+<li><p>Lync-Client (Kommunikation mit lync Online von einem lokalen lync-Server)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>TCP 80 und 443</p></td>
-<td><p>Geöffnet, eingehend</p>
+<td><p>TCP 80 und 443</p></td>
+<td><p>Eingehend öffnen</p>
 <ul>
-<li><p>Microsoft Online Services-Verzeichnissynchronisierungstool</p></li>
+<li><p>Microsoft Online Services-Verzeichnis Synchronisierungs Tool</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>TCP 5061</p></td>
-<td><p>Geöffnete eingehende/ausgehende Ports auf dem Edgeserver</p></td>
+<td><p>TCP 5061</p></td>
+<td><p>Inbound/Outbound auf dem Edgeserver öffnen</p></td>
 </tr>
 <tr class="even">
-<td><p>PSOM/TLS 443</p></td>
-<td><p>Geöffnete eingehende/ausgehende Ports für Datenfreigabesitzungen</p></td>
+<td><p>PSOM/TLS 443</p></td>
+<td><p>Eingehende/ausgehende Datenfreigabesitzungen öffnen</p></td>
 </tr>
 <tr class="odd">
-<td><p>STUN/TCP 443</p></td>
-<td><p>Geöffnete eingehende/ausgehende Ports für Audio-, Video- und Anwendungsfreigabesitzungen</p></td>
+<td><p>STUN/TCP 443</p></td>
+<td><p>Eingehend/ausgehend für Audio-, Video-und Anwendungsfreigabesitzungen öffnen</p></td>
 </tr>
 <tr class="even">
-<td><p>STUN/UDP 3478</p></td>
-<td><p>Geöffnete eingehende/ausgehende Ports für Audio- und Videositzungen</p></td>
+<td><p>STUN/UDP 3478</p></td>
+<td><p>Eingehende/ausgehende für Audio-und Videositzungen öffnen</p></td>
 </tr>
 <tr class="odd">
-<td><p>RTP/TCP 50000-59999</p></td>
-<td><p>Geöffnete ausgehende Ports für Audio- und Videositzungen</p></td>
-</tr>
-<tr class="even">
-<td><p>TCP 443</p></td>
-<td><p>Geöffnet, eingehend</p>
-<ul>
-<li><p>Active Directory-Verbunddienste (Active Directory Federation Services, AD&amp;nbsp;FS) (Verbundserverrolle)</p>
-<p>Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Grundlegendes zu AD FS-Rollendiensten</a>.</p></li>
-<li><p>Active Directory-Verbunddienste (Proxyserverrolle)</p></li>
-<li><p>Microsoft Online Services-Portal</p></li>
-<li><p>Unternehmensportal</p></li>
-<li><p>Outlook Web App</p></li>
-<li><p>Lync-Client (Kommunikation mit Lync Online vom lokalen Lync Server aus)</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>TCP 80 und 443</p></td>
-<td><p>Geöffnet, eingehend</p>
-<ul>
-<li><p>Microsoft Online Services-Verzeichnissynchronisierungstool</p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>TCP 5061</p></td>
-<td><p>Geöffnete eingehende/ausgehende Ports auf dem Edgeserver</p></td>
-</tr>
-<tr class="odd">
-<td><p>PSOM/TLS 443</p></td>
-<td><p>Geöffnete eingehende/ausgehende Ports für Datenfreigabesitzungen</p></td>
-</tr>
-<tr class="even">
-<td><p>STUN/TCP 443</p></td>
-<td><p>Geöffnete eingehende/ausgehende Ports für Audio-, Video- und Anwendungsfreigabesitzungen</p></td>
-</tr>
-<tr class="odd">
-<td><p>STUN/UDP 3478</p></td>
-<td><p>Geöffnete eingehende/ausgehende Ports für Audio- und Videositzungen</p></td>
-</tr>
-<tr class="even">
-<td><p>RTP/TCP 50000-59999</p></td>
-<td><p>Geöffnete ausgehende Ports für Audio- und Videositzungen</p></td>
+<td><p>RTP/TCP 50000-59999</p></td>
+<td><p>Open Outbound für Audio-und Videositzungen</p></td>
 </tr>
 </tbody>
 </table>
 
 
+</div>
 
-> [!NOTE]
-> Wenn Sie einen Verbund mit Partnern benötigen, die Office Communications Server 2007 ausführen, müssen Sie die eingehenden/ausgehenden RTP/UDP- und RTP/TCP-Ports 50000-59999 öffnen. Weitere Informationen zu A/V-Firewallanforderungen finden Sie unter <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Ermitteln der Anforderungen für externe A/V-Firewalls und Ports für Lync Server 2013</A>. Weitere Informationen zu Ports und Protokollen finden Sie unter <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Portzusammenfassung für skalierte konsolidierte Edgetopologie mit Hardwareastenausgleich in Lync Server 2013</A>.
+<div>
 
+## <a name="user-accounts-and-data"></a>Benutzerkonten und-Daten
 
+In einer lync Server 2013-hybridbereitstellung müssen alle Benutzer, die Sie in lync Online verwenden möchten, zunächst in der lokalen Bereitstellung erstellt werden, damit das Benutzerkonto in den Active Directory-Domänendiensten erstellt wird. Sie können den Benutzer dann in Skype for Business Online verschieben, wodurch die Kontaktliste des Benutzers verschoben wird.
 
-## Benutzerkonten und -daten
+Wenn Sie Benutzerkonten zwischen Ihren lokalen lync-und lync Online-Bereitstellungen mit AD FS und Dirsync synchronisieren, müssen Sie die Ad-Konten für alle lync-Benutzer in Ihrer Organisation zwischen Ihren lokalen und Online lync-Bereitstellungen synchronisieren, auch wenn Benutzer werden nicht in lync Online verschoben. Wenn Sie nicht alle Benutzer synchronisieren, funktioniert die Kommunikation zwischen lokalen und Onlinebenutzern in Ihrem Unternehmen möglicherweise nicht erwartungsgemäß.
 
-In einer Lync Server 2013-Hybridbereitstellung muss jeder Benutzer, den Sie in Lync Online verwalten möchten, zuerst in der lokalen Bereitstellung erstellt werden, damit das Benutzerkonto in Active Directory-Domänendienste erstellt wird. Sie können den Benutzer dann zu Skype for Business Online verschieben, wodurch auch die Kontaktliste des Benutzers verschoben wird.
-
-Wenn Sie Benutzerkonten zwischen Ihrer standortgebundenen und der Lync Online-Bereitstellung mit AD FS und Dirsync synchronisieren, müssen Sie die AD-Konten für alle Lync-Benutzer in Ihrer Organisation zwischen der standortgebundenen und der Onlinebereitstellung von Lync synchronisieren, selbst wenn die Benutzer nicht nach Lync Online migriert werden. Wenn Sie nicht alle Benutzer synchronisieren, funktioniert die Kommunikation zwischen lokalen und Onlinebenutzern in Ihrem Unternehmen möglicherweise nicht erwartungsgemäß.
-
-
-> [!IMPORTANT]
-> Wenn der Benutzer mit dem Onlineportal für Office 365 erstellt wird, wird der Benutzer nicht mit der lokalen Active Directory-Bereitstellung synchronisiert und ist dort nicht vorhanden. Wenn Sie bereits Benutzer in Lync Online erstellt haben und eine Hybridkonfiguration mit einem lokalen Lync Server erstellen möchten, finden Sie entsprechende Informationen unter <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Verschieben von Lync Online-Benutzern zur lokalen Lync-Bereitstellung in Lync Server 2013</A>.
+<div>
 
 
+> [!IMPORTANT]  
+> Wenn der Benutzer mithilfe des Online Portals für Office 365 erstellt wird, wird das Benutzerkonto nicht mit lokalem Active Directory synchronisiert, und der Benutzer ist nicht im lokalen Active Directory vorhanden. Wenn Sie bereits Benutzer in lync online erstellt haben und Hybrid mit einem lokalen lync-Server konfigurieren möchten, lesen Sie <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Verschieben von Benutzern aus lync Online in lync lokal in lync Server 2013</A>.
+
+
+
+</div>
 
 Sie sollten bei der Planung einer Hybridbereitstellung auch die folgenden benutzerbezogenen Aspekte berücksichtigen.
 
-  - **Benutzerkontakte**   Lync Online-Benutzer können maximal 250 Kontakte besitzen. Alle darüber hinausgehenden Kontakte werden aus der Kontraktliste des Benutzers entfernt, wenn das Konto nach Lync Online verschoben wird.
+  - **Benutzer Kontakte**   die Höchstgrenze für Kontakte für lync Online-Benutzer lautet 250. Alle darüber hinausgehenden Kontakte werden aus der Kontaktliste des Benutzers entfernt, wenn das Konto nach Lync Online verschoben wird.
 
-  - **Chat und Anwesenheit**   Benutzerkontaktlisten, Benutzergruppen und Zugriffssteuerungslisten (ACLs) werden mit dem Benutzerkonto migriert.
+  - **Sofortnachrichten und Anwesenheits**   Benutzer-Kontaktlisten, Gruppen und Zugriffssteuerungslisten (ACLs) werden mit dem Benutzerkonto migriert.
 
-  - **Konferenzdaten, Besprechungsinhalte und geplante Besprechungen**   Dieser Inhalt wird nicht mit dem Benutzerkonto migriert. Benutzer müssen Besprechungen neu planen, nachdem ihre Konten zu Lync Online migriert wurden.
+  - **Konferenzdaten, Besprechungsinhalte und geplante Besprechungen**   dieser Inhalt wird nicht mit dem Benutzerkonto migriert. Benutzer müssen Besprechungen neu planen, nachdem ihre Konten zu Lync Online migriert wurden.
 
-## Benutzerrichtlinien und Features
+</div>
 
-  - In einer Lync Server 2013-Hybridumgebung können Benutzer entweder lokal oder online für Chat, VoIP und Besprechungen aktiviert werden. Eine gleichzeitige Aktivierung in einer lokalen Bereitstellung und einer Onlinebereitstellung ist nicht möglich.
+<div>
 
-  - **Lync Client**    Einige Benutzer benötigen vor der Migration zu Lync Online möglicherweise eine neue Clientversion. Für Office Communications Server 2007 R2 müssen Benutzer vor der Migration zu Lync Online in einen Lync Server 2013-Pool verschoben werden.
+## <a name="user-policies-and-features"></a>Benutzerrichtlinien und-Features
+
+  - In einer lync Server 2013-Hybridumgebung können Benutzer für Sofortnachrichten, Sprachanrufe und Besprechungen entweder lokal oder Online aktiviert sein, jedoch nicht beides gleichzeitig.
+
+  - **Lync-Client**     einige Benutzer benötigen möglicherweise eine neue Client Version, wenn Sie nach lync Online verschoben werden. Für Office Communications Server 2007 R2 müssen Benutzer vor der Migration zu lync Online in einen lync Server 2013-Pool verschoben werden.
     
-    Weitere Informationen zum Clientsupport finden Sie unter [Clients für Lync Online](http://go.microsoft.com/fwlink/p/?linkid=281902) und [Unterstützte Lync-Clients und Netzwerkportkonfigurationen](http://go.microsoft.com/fwlink/p/?linkid=281901) .
+    Weitere Informationen zum Client Support finden Sie unter [Clients für lync Online](http://go.microsoft.com/fwlink/p/?linkid=281902) und [unterstützte lync-Clients und Netzwerk-Portkonfigurationen](http://go.microsoft.com/fwlink/p/?linkid=281901).
 
-  - **Lokale Richtlinien und Konfiguration (nicht benutzerbezogen)**   Für Onlinerichtlinien und lokale Richtlinien ist eine separate Konfiguration erforderlich. Sie können keine globalen Richtlinien festlegen, die für beides gelten.
+  - **Lokale Richtlinien und Konfiguration (nicht-Benutzer)**   Online-und lokale Richtlinien erfordern eine separate Konfiguration. Sie können keine globalen Richtlinien festlegen, die für beide Umgebungen gelten.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

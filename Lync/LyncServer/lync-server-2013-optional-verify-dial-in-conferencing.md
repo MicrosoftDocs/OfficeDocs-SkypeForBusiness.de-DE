@@ -1,17 +1,37 @@
-﻿---
-title: 'Lync Server 2013: (Optional) Überprüfen von Einwahlkonferenzen'
-TOCTitle: '(Optional) Überprüfen von Einwahlkonferenzen '
-ms:assetid: 3e2b4220-8fb3-442f-98b1-78447adb321f
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425905(v=OCS.15)
-ms:contentKeyID: 49293773
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: (Optional) Überprüfen von Einwahlkonferenzen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: (Optional) Verify dial-in conferencing
+ms:assetid: 3e2b4220-8fb3-442f-98b1-78447adb321f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425905(v=OCS.15)
+ms:contentKeyID: 48183941
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 70a0b18ce596e4799c82a2843b5f3a008b5cb285
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825639"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# (Optional) Überprüfen von Einwahlkonferenzen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="optional-verify-dial-in-conferencing-in-lync-server-2013"></a>(Optional) Überprüfen von Einwahlkonferenzen in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2011-01-21_
 
@@ -23,11 +43,13 @@ Sie müssen die folgenden Aufgaben ausführen, um sicherzustellen, dass die Webs
 
 Dieser Schritt ist optional.
 
-## So testen Sie Zugriffsnummern für einen spezifischen Pool
+<div>
 
-1.  Melden Sie sich beim Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle **Cs-ServerAdministrator** oder **CsAdministrator** an.
+## <a name="to-test-access-numbers-for-a-specific-pool"></a>So testen Sie Zugriffsnummern für einen spezifischen Pool
 
-2.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+1.  Melden Sie sich bei dem Computer als Mitglied der RTCUniversalServerAdmins-Gruppe oder als Mitglied der Rolle **CS-ServerAdministrator** oder **CsAdministrator** an.
+
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 3.  Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
@@ -37,4 +59,16 @@ Dieser Schritt ist optional.
         Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
     
     In den Berichtergebnissen wird der Test entweder als erfolgreich oder mit Fehlern angezeigt, zusammen mit spezifischen Diagnoseinformationen. Mit dem Flag "-Verbose" werden detailliertere Informationen bereitgestellt, z. B. die Anzahl von ermittelten Zugriffsnummern sowie weitere Informationen zu den Zugriffsnummern.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

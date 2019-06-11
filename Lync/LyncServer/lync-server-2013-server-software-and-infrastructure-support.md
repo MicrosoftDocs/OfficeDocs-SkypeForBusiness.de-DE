@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Serversoftware- und Infrastrukturunterstützung'
-TOCTitle: Serversoftware- und Infrastrukturunterstützung
-ms:assetid: 4ee5fe38-0191-4710-9aa2-df8895e8c51b
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398319(v=OCS.15)
-ms:contentKeyID: 49293969
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Serversoftware- und Infrastrukturunterstützung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Server software and infrastructure support
+ms:assetid: 4ee5fe38-0191-4710-9aa2-df8895e8c51b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398319(v=OCS.15)
+ms:contentKeyID: 48184127
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8e3df5a7c37c1b03cd5ce838721b6ef00fad9547
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821985"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Serversoftware- und Infrastrukturunterstützung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a>Serversoftware- und Infrastrukturunterstützung in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-06-29_
 
-Zur Softwareunterstützung für Serverkomponenten, einschließlich aller Serverrollen und Speicher von Lync Server 2013, gehören unterstützte Betriebssysteme, Datenbanksoftware, Infrastruktursoftware und andere Software, die für die Unterstützung der jeweiligen Funktionalität erforderlich ist. Außerdem ist darin die Virtualisierung von Serverkomponenten enthalten.
+Softwareunterstützung für Server Komponenten, einschließlich aller lync Server 2013-Serverrollen und-Speicher, umfasst unterstützte Betriebssysteme, Datenbanksoftware, Infrastruktur Software und andere Software, die für die Unterstützung spezifischer Funktionen erforderlich ist. Darüber hinaus umfasst Sie die Virtualisierung von Server Komponenten.
 
-## In diesem Abschnitt
+<div>
+
+## <a name="in-this-section"></a>In diesem Abschnitt
 
   - [Betriebssystemunterstützung für Server und Tools in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md)
 
@@ -42,4 +64,16 @@ Zur Softwareunterstützung für Serverkomponenten, einschließlich aller Serverr
   - [VoIP-Unterstützung in Lync Server 2013](lync-server-2013-voice-support.md)
 
   - [Virtualisierungsunterstützung in Lync Server 2013](lync-server-2013-virtualization-support.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,27 +1,49 @@
-﻿---
-title: Zusammenfassender Unterbericht über Peer-zu-Peer-Sitzungen
-TOCTitle: Zusammenfassender Unterbericht über Peer-zu-Peer-Sitzungen
-ms:assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205416(v=OCS.15)
-ms:contentKeyID: 49296000
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: P2P-Zusammenfassungs Unterbericht'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: P2P Summary Subreport
+ms:assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205416(v=OCS.15)
+ms:contentKeyID: 48185950
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7199d9571adfb90b6f848f8f46474fd14813bc76
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825380"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Zusammenfassender Unterbericht über Peer-zu-Peer-Sitzungen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="p2p-summary-subreport-in-lync-server-2013"></a>P2P-Zusammenfassungs Unterbericht in lync Server 2013
 
-Der Zusammenfassende Unterbericht über Peer-zu-Peer-Sitzungen bietet eine allgemeine Übersicht über fehlerhafte Peer-zu-Peer-Kommunikationssitzungen.
+</div>
 
-## Filter
+<div id="mainSection">
 
-Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Zusammenfassenden Unterbericht über Peer-zu-Peer-Sitzungen verwenden können.
+<div id="mainBody">
 
-### Filter im Zusammenfassenden Unterbericht über Peer-zu-Peer-Sitzungen
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-21_
+
+Der Zusammenfassende Unterbericht über Peer-to-Peer-Sitzungen bietet eine allgemeine Übersicht über fehlerhafte Peer-to-Peer-Kommunikationssitzungen.
+
+<div>
+
+## <a name="filters"></a>Filter
+
+Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Zusammenfassenden Unterbericht über Peer-to-Peer-Sitzungen verwenden können.
+
+### <a name="p2p-summary-subreport-filters"></a>Filter im Zusammenfassenden Unterbericht über Peer-to-Peer-Sitzungen
 
 <table>
 <colgroup>
@@ -38,36 +60,40 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 <tr class="odd">
 <td><p><strong>Von</strong></p></td>
 <td><p>Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</p>
-<p>07.07.2012 13:00</p>
+<p>7/7/2012 1:00 Uhr</p>
 <p>Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
-<p>07.07.2012</p>
+<p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
-<p>03.07.2012</p>
+<p>7/3/2012</p>
 <p>Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Bis</strong></p></td>
 <td><p>Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</p>
-<p>07.07.2012 13:00</p>
+<p>7/7/2012 1:00 Uhr</p>
 <p>Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
-<p>07.07.2012</p>
+<p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
-<p>03.07.2012</p>
+<p>7/3/2012</p>
 <p>Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
-<td><p>Vollqualifizierter Domänenname (Fully Qualified Domain Name, FQDN) des Registrierungsstellenpools oder des Edgeserver. Sie können entweder einen einzelnen Pool auswählen oder auf <strong>[Alle]</strong> klicken, um Daten für alle Pools anzuzeigen. Diese Dropdownliste wird basierend auf den Datensätzen in der Datenbank automatisch ausgefüllt.</p></td>
+<td><p>Vollqualifizierter Domänenname (FQDN) des Registrierungspools oder Edgeservers. Sie können einen einzelnen Pool auswählen oder auf <strong>[Alle]</strong> klicken, um die Daten für alle Pools anzuzeigen. Diese Dropdownliste wird basierend auf den Datensätzen in der Datenbank automatisch ausgefüllt.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Metriken
+</div>
 
-In der folgenden Tabelle werden die Metriken aufgelistet, die im Zusammenfassenden Unterbericht über Peer-zu-Peer-Sitzungen angegeben werden.
+<div>
 
-### Metriken im Zusammenfassenden Unterbericht über Peer-zu-Peer-Sitzungen
+## <a name="metrics"></a>Metriken
+
+In der folgenden Tabelle werden die Metriken aufgelistet, die im Zusammenfassenden Unterbericht über Peer-to-Peer-Sitzungen angegeben werden.
+
+### <a name="p2p-summary-subreport-metrics"></a>Metriken im Zusammenfassenden Unterbericht über Peer-to-Peer-Sitzungen
 
 <table>
 <colgroup>
@@ -91,18 +117,31 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Zusammenfassend
 <tr class="even">
 <td><p><strong>Fehlerrate</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Der Prozentsatz der Peer-zu-Peer-Sitzungen, bei denen ein Fehler aufgetreten ist.</p></td>
+<td><p>Der Prozentsatz der Peer-to-Peer-Sitzungen, bei denen ein Fehler aufgetreten ist.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Sitzungen nach Modalität</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Gesamtzahl der Sitzungen, gruppiert nach Modalität (z.&amp;nbsp;B. Instant Messaging).</p></td>
+<td><p>Gesamtzahl der Sitzungen, gruppiert nach Modalität (z. B. Instant Messaging).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Fehlerrate nach Modalität</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Gesamtzahl der fehlerhaften Sitzungen, gruppiert nach Modalität (z.&amp;nbsp;B. Instant Messaging).</p></td>
+<td><p>Gesamtzahl der fehlerhaften Sitzungen, gruppiert nach Modalität (z. B. Instant Messaging).</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

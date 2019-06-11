@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Medienumgehung und Anrufsteuerung'
-TOCTitle: Medienumgehung und Anrufsteuerung
-ms:assetid: 120b2a2b-5f97-4735-a2ee-0f849feb8c1d
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398203(v=OCS.15)
-ms:contentKeyID: 49293231
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Medienumgehung und Anrufsteuerung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Media bypass and call admission control
+ms:assetid: 120b2a2b-5f97-4735-a2ee-0f849feb8c1d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398203(v=OCS.15)
+ms:contentKeyID: 48183454
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3c5e02a57add6b93f1ad5c5efc3ac644e65e97f4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827557"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Medienumgehung und Anrufsteuerung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="media-bypass-and-call-admission-control-in-lync-server-2013"></a>Medienumgehung und Anrufsteuerung in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-05_
 
-Medienumgehung und Anrufsteuerung (Call Admission Control, CAC) arbeiten zusammen, um eine Bandbreitensteuerung für den Mediendatenverkehr bei Anrufen zu erzielen. Die Medienumgehung fördert den Mediendatenfluss über Leitungen mit guter Konnektivität; die Anrufsteuerung verwaltet den Datenverkehr für Verbindungen mit Bandbreiteneinschränkungen. Da Medienumgehung und Anrufsteuerung sich gegenseitig ausschließen, müssen Sie bei der Planung die jeweils andere Funktion berücksichtigen. Die folgenden Kombinationen werden unterstützt:
+Medienumgehung und Anrufsteuerung (Call Admission Control, CAC) arbeiten zusammen, um eine Bandbreitensteuerung für den Mediendatenverkehr bei Anrufen zu erzielen.  Die Medienumgehung fördert den Mediendatenfluss über Leitungen mit guter Konnektivität; die Anrufsteuerung verwaltet den Datenverkehr für Verbindungen mit Bandbreiteneinschränkungen. Da Medienumgehung und Anrufsteuerung sich gegenseitig ausschließen, müssen Sie bei der Planung die jeweils andere Funktion berücksichtigen. Die folgenden Kombinationen werden unterstützt:
 
   - Sowohl Anrufsteuerung als auch Medienumgehung sind aktiviert. Die Medienumgehung muss auf **Informationen zu Standort und Region verwenden** festgelegt sein. Die Informationen zu Standort und Region sind dieselben wie für die Anrufsteuerung.
     
@@ -31,13 +51,27 @@ Medienumgehung und Anrufsteuerung (Call Admission Control, CAC) arbeiten zusamme
     
     Selbst wenn die Anrufsteuerung global deaktiviert wurde, müssen Bandbreitenrichtlinien für jeden Standort und jede Verbindung definiert werden, wenn die Konfiguration von Standorten und Regionen für Entscheidungen zur Medienumgehung herangezogen werden soll. Der tatsächliche Wert der Bandbreiteneinschränkung oder die Modalität spielen hierbei keine Rolle. Das Ziel besteht darin, dass das System automatisch unterschiedliche Umgehungs-IDs berechnet, die verschiedenen Standorten ohne gute Verbindung zugeordnet sind. Das Definieren einer Bandbreiteneinschränkung bedeutet per Definition, dass eine Verbindung keine gute Konnektivität aufweist.
 
-  - Weder die Anrufsteuerung noch die Medienumgehung sind aktiviert. Dieser Fall tritt nur ein, wenn alle Gateways und IP-Nebenstellenanlagen über Leitungen mit geringer Konnektivität verbunden sind oder andere Anforderungen für die Medienumgehung nicht erfüllen. Ausführliche Informationen zu den Anforderungen für die Medienumgehung finden Sie unter [Technische Anforderungen für die Medienumgehung in Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md).
+  - Weder die Anrufsteuerung noch die Medienumgehung sind aktiviert. Dieser Fall tritt nur ein, wenn alle Gateways und IP-Nebenstellenanlagen über Leitungen mit geringer Konnektivität verbunden sind oder andere Anforderungen für die Medienumgehung nicht erfüllen. Details zu den Anforderungen für die medienumgehung finden Sie unter [Technische Voraussetzungen für die medienumgehung in lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md).
 
-## Siehe auch
+<div>
 
-#### Konzepte
+## <a name="see-also"></a>Siehe auch
 
-[Übersicht über die Medienumgehung in Lync Server 2013](lync-server-2013-overview-of-media-bypass.md)  
+
+[Übersicht über die medienumgehung in lync Server 2013](lync-server-2013-overview-of-media-bypass.md)  
 [Modi für die Medienumgehung in Lync Server 2013](lync-server-2013-media-bypass-modes.md)  
-[Technische Anforderungen für die Medienumgehung in Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md)
+[Technische Anforderungen für die Medienumgehung in Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

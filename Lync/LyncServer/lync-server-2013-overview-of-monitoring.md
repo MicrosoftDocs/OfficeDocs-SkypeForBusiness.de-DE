@@ -1,59 +1,93 @@
-﻿---
-title: 'Lync Server 2013: Übersicht über die Überwachung'
-TOCTitle: Übersicht über die Überwachung
-ms:assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204937(v=OCS.15)
-ms:contentKeyID: 49890765
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Übersicht über die Überwachung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of monitoring
+ms:assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204937(v=OCS.15)
+ms:contentKeyID: 48184261
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 88bfb8170b2334c322c612628daa1f8b9db2473c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825422"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Übersicht über die Überwachung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="overview-of-monitoring-in-lync-server-2013"></a>Übersicht über die Überwachung in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-05_
 
-In Microsoft Lync Server 2013 werden mithilfe der Überwachung Nutzungsinformationen sowie QoE-Daten (Quality of Experience, Erlebnisqualität) für die Kommunikationssitzungen erfasst, die von den Benutzern unterhalten werden. Eine Sitzung ist ein allgemeiner Begriff, der sich auf die Verbindungen von Benutzern mit folgenden Elementen bezieht:
+In Microsoft lync Server 2013 wird die Überwachung verwendet, um Nutzungsinformationen und QoE-Daten (Quality of Experience) zu den Kommunikationssitzungen zu sammeln, an denen Ihre Benutzer beteiligt sind. Bei einer Sitzung handelt es sich um einen generischen Ausdruck, der die Verbindung eines Benutzers mit einer der folgenden Bereiche abdeckt:
 
   - Konferenz
 
-  - Konferenzmodalitäten (wie Audio/Video oder Anwendungsfreigabe)
+  - Konferenz Modalitäten (wie Audio/Video oder Anwendungsfreigabe)
 
   - Andere Benutzer über eine Peer-zu-Peer-Unterhaltung wie Sofortnachrichten oder Audioanruf
 
-
-> [!NOTE]
-> Lync Server 2013 protokolliert beispielsweise die folgenden Informationen über die jeweilige Sitzung: Wer hat wen angerufen? Welche Endpunkte waren an der Sitzung beteiligt? Wie lange hat die Sitzung gedauert? Wie wurde die Qualität der Sitzung empfunden? Der Anruf selbst wird von Lync Server jedoch nicht aufgezeichnet. Dies gilt auch für Sofortnachrichtensitzungen: Lync Server zeichnet zwar Informationen zu den Sofortnachrichtensitzungen auf, Datensätze für jede einzelne Sofortnachricht, die im Rahmen einer Sitzung gesendet wird, werden jedoch nicht verwaltet.
+<div>
 
 
+> [!NOTE]  
+> Lync Server 2013 verfolgt Informationen zu den einzelnen Sitzungen: Wer hat wen angerufen? welche Endpunkte in der Sitzung verwendet wurden; wie lange dauerte die Sitzung? Was war die wahrgenommene Qualität der Sitzung; Und so weiter. Lync Server zeichnet aber den eigentlichen Anruf selbst nicht auf und speichert ihn. Dazu gehören auch Instant Messaging-Sitzungen: Obwohl lync Server Informationen zu Instant Messaging-Sitzungen aufzeichnet, wird keine Aufzeichnung der einzelnen Sofortnachrichten verwaltet, die während der Sitzung gesendet wurden.
 
-Die von Lync Server erfassten detaillierten Anrufinformationen können für verschiedene Zwecke wie die folgenden eingesetzt werden:
 
-  - **Renditeanalyse (Return on Investment, ROI)** . Administratoren können die vom Monitoring Server erfassten Nutzungsdaten mit ähnlichen Daten aus früheren Telefoniesystemen vergleichen, um Kosteneinsparungen aufzuzeigen und Argumente für die Bereitstellung von Lync Server zu sammeln.
 
-  - **Verwalten des Gerätebestands** . Informationen bezüglich der Inventarverwaltung unterstützen Administratoren bei der Identifizierung alter Geräte, die ersetzt werden müssen. Außerdem können auf diese Weise kostenintensive Geräte identifiziert werden, die anscheinend gar nicht genutzt werden.
+</div>
 
-  - Helpdesk. Informationen zur Problembehebung unterstützen Supporttechniker dabei, herauszufinden, warum beim Anruf eines Benutzers ein Fehler aufgetreten ist, ohne dass Protokolle vom Server oder Client angefordert werden müssen. Auf diese Informationen kann problemlos zugegriffen werden. Ferner sind die Angaben auch für Supportmitarbeiter ohne umfassende technische Kenntnisse von Microsoft Lync 2013 und Lync Server 2013 gut verständlich.
+Die von lync Server gesammelten Anruf Detailinformationen können für eine beliebige Anzahl von Verwendungen eingesetzt werden, einschließlich:
 
-  - **Systemproblembehandlung** . Ermöglicht Administratoren das Erkennen grundlegender Probleme, die u. U. verhindern, dass Endbenutzer einfache Aufgaben wie das Beitreten zu einer Konferenz, das Tätigen eines Anrufs oder das Senden einer Sofortnachricht ausführen können.
+  - **Return on Investment (ROI)**. Administratoren können die von Monitoring Server gesammelten Nutzungsdaten mit ähnlichen Daten vergleichen, die für Ihr vorheriges Telefoniesystem erfasst wurden, um Kosteneinsparungen anzuzeigen und die Bereitstellung von lync Server zu rechtfertigen.
 
-Neben diesen Standardanrufinformationen stellt der Monitoring Server auch einen Mechanismus bereit, der SIP-Endpunkten (wie Lync 2013) das Bereitstellen von Informationen zur Problembehandlung erlaubt, auf die der Server anderweitig nicht zugreifen könnte:
+  - **Verwalten des Gerätebestands**: Informationen zur Inventarverwaltung unterstützen Administratoren bei der Identifikation alter Geräte, die ersetzt werden müssen. Informationen zur Vermögensverwaltung unterstützen Administratoren bei der Identifizierung veralteter Geräte, die noch verwendet werden müssen, sowie bei der Ermittlung teurer Geräte, die anscheinend überhaupt nicht verwendet werden.
 
-  - **Medienmetriken mit Auswirkungen auf die Qualität** . Die Metriken beziehen sich auf die eigentliche Übertragung des Anrufs. Sie stellen eine Art "Reiseprotokoll" des Anrufs durch das Netzwerk dar und beinhalten Daten wie Paketverluste, Jitter und Roundtripzeiten. Anhand dieser Informationen lässt sich erkennen, was mit dem Anruf zwischen dem Verlassen des einen Benutzerendpunkts und dem Eintreffen am anderen Benutzerendpunkt passiert.
+  - Helpdesk. Die Problembehandlung von Daten ermöglicht Supportingenieuren, zu ermitteln, warum der Anruf eines Benutzers fehlgeschlagen ist, und dies ohne Server-oder clientseitige Protokolle zu erfassen. Diese Informationen können von Supportmitarbeitern, die nicht über fundierte technische Kenntnisse in Microsoft lync 2013 und lync Server 2013 verfügen, problemlos abgerufen und verstanden werden.
 
-  - **Probleme, die dem Endbenutzer gemeldet werden** . Diese Metriken beinhalten Benachrichtigungen bezüglich schlechter Qualität, die Lync 2013 Endbenutzern bereitstellt. Gründe hierfür können ein zu großer Abstand zum Mikrofon, zu leises Sprechen, eine mangelhafte Netzwerkverbindung oder unzureichende Ressourcen aufgrund der Netzwerkauslastung durch ein anderes Programm sein.
+  - **Systemproblembehandlung**: Ermöglicht Administratoren das Erkennen grundlegender Probleme, die u. U. verhindern, dass Endbenutzer einfache Aufgaben wie das Beitreten zu einer Konferenz, das Durchführen eines Anrufs oder das Senden einer Chatnachricht ausführen können.
 
-  - **Umgebungsinformationen** . Diese Metriken erfassen detaillierte Faktoren der Anrufqualität wie den Typ des verwendeten Mikrofons und Lautsprechers, Angaben darüber, ob eine VPN-Verbindung verwendet wurde und Angaben darüber, ob eine WLAN-Verbindung verwendet wurde.
+Zusätzlich zu diesen grundlegenden Anrufinformationen bietet der Monitoring Server auch einen Mechanismus, der es SIP-Endpunkten (wie lync 2013) ermöglicht, Informationen zur Problembehandlung bereitzustellen, auf die der Server sonst nicht zugreifen kann:
 
-Am Ende jedes Anrufs übertragen SIP-kompatible Endpunkte diese Informationen automatisch an den Front-End-Server, von dem der Anruf bereitgestellt wurde. Sie müssen nichts tun, damit diese Informationen von den Endpunkten übertragen werden. Das SIP-Protokoll ist bereits entsprechend konfiguriert. Wenn Sie diese Informationen jedoch erfassen und speichern möchten, müssen Sie die Überwachung aktivieren. Wenn Sie die Überwachung installieren und aktivieren, werden die Anrufinformationen von den Agents gesammelt, die auf dem Front-End-Server ausgeführt werden, und an ein SQL Server-Datenbankpaar weitergeleitet.
+  - **Medienmetriken mit Auswirkungen auf die Qualität**: Die Metriken beziehen sich auf die eigentliche Übertragung des Anrufs. Diese Metriken befassen sich mit der eigentlichen Übertragung des Anrufs selbst; Das bedeutet, dass Sie eine Art Reiseprotokoll als Anruf Fahrten über das Netzwerk bereitstellen. Diese Metriken (wie beispielsweise Paketverlust, Jitter und Roundtrip-Zeiten) geben Informationen dazu, was mit dem Anruf geschehen ist, wenn der Endpunkt den Endpunkt der anderen Person erreicht hat.
 
-Das Installieren und Konfigurieren der Überwachung wurde in Lync Server 2013 vereinfacht. In früheren Versionen der Software war noch eine separate Monitoring Server-Rolle für die Überwachung erforderlich, und ein separater Computer musste als Monitoring Server bereitgestellt werden. In Lync Server 2013 ist dagegen keine separate Monitoring Server-Rolle mehr erforderlich. Stattdessen wurde der Überwachungsdienst (in Form von einheitlichen Datenerfassungs-Agents) auf allen Front-End-Servern integriert. Dies hat zwei wesentliche Vorteile:
+  - **Probleme, die dem Endbenutzer gemeldet**wurden. Zu diesen Metriken gehören Benachrichtigungen über schlechte Qualität, die lync 2013 für Endbenutzer in Fällen vorstellt, in denen Sie zu weit von einem Mikrofon entfernt sind, zu leise sprechen, eine schlechte Netzwerkverbindung aufweisen oder eine schlechte Qualität aufweisen, weil ein anderes Programm auf dem Computer Nutzung der verfügbaren Ressourcen.
 
-  - Verringerung der Anzahl erforderlicher Serverrollen zur Implementierung von Lync Server 2013. Weniger Monitoring Server-Rollen bedeuten gleichzeitig weniger Kosten, da weniger dedizierte Server für die Überwachung unterhalten werden müssen.
+  - **Umgebungsinformationen**: Diese Metriken erfassen detaillierte Faktoren der Anrufqualität wie den Typ des verwendeten Mikrofons und Lautsprechers, Angaben darüber, ob eine VPN-Verbindung verwendet wurde, und darüber, ob eine WLAN-Verbindung verwendet wurde.
 
-  - Einfacheres Setup und einfachere Verwaltung von Lync Server 2013. Durch das Platzieren der Überwachungsdienste auf den einzelnen Front-End-Servern entfällt die Notwendigkeit der Installation, Konfiguration und Verwaltung von Monitoring Server-Rollen.
+Am Ende jedes Anrufs übertragen SIP-kompatible Endpunkte diese Informationen automatisch an den Front-End-Server, der den Anruf erleichtert hat. Sie müssen nichts Unternehmen, um Endpunkte zur Übertragung dieser Informationen zu erhalten. Dieses Verhalten ist in das SIP-Protokoll integriert. Wenn Sie diese Informationen jedoch sammeln und speichern möchten, müssen Sie die Überwachung installieren und aktivieren. Wenn Sie die Überwachung installieren und aktivieren, werden die Anrufinformationen von Agents gesammelt, die auf dem Front-End-Server ausgeführt werden und an ein paar von SQL Server-Datenbanken weitergeleitet werden.
 
-Weitere Informationen finden Sie im Bereitstellungshandbuch von Lync Server 2013 im Thema [Bereitstellen des Monitoring Servers](lync-server-2013-deploying-monitoring.md).
+Beachten Sie, dass der Vorgang zum Installieren und Konfigurieren der Überwachung in lync Server 2013 vereinfacht wurde. In früheren Versionen der Software erforderte die Überwachung eine separate Überwachungsserver Rolle, was in der Regel einen separaten Computer für die Verwendung als Überwachungsserver bedeutete. In lync Server 2013 wurde die Monitoring Server-Rolle jedoch eliminiert. Stattdessen wurde der Überwachungsdienst (in Form von "Unified Data Collection Agents") in allen Front-End-Servern zusammengestellt. Dies hat mindestens zwei Hauptvorteile. Überprüfung des Überwachungsdiensts:
+
+  - Verringert die Anzahl der Serverrollen, die bei der Implementierung von lync Server 2013 erforderlich sind. Durch die Dekrementierung der Monitoring Server-Rolle können Sie auch die Kosten reduzieren, indem Sie die Notwendigkeit, dedizierte Server für die Überwachung zu verwalten, eliminieren.
+
+  - Verringert die Komplexität der Einrichtung und Verwaltung von lync Server 2013. Durch abstimmen der Überwachungsdienste auf jedem Front-End-Server müssen Sie nicht mehr die Monitoring Server-Rolle installieren, konfigurieren und verwalten.
+
+Weitere Informationen finden Sie im Thema [Bereitstellen der Überwachung in lync Server 2013](lync-server-2013-deploying-monitoring.md) im Bereitstellungshandbuch für lync Server 2013 2013.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

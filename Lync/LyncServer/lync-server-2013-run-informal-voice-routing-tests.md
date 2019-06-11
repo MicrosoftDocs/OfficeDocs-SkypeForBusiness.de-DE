@@ -1,95 +1,139 @@
-﻿---
-title: Ausführen informeller Tests für das VoIP-Routing
-TOCTitle: Ausführen informeller Tests für das VoIP-Routing
-ms:assetid: ea0e6059-bf04-4b03-b6d3-8f5534b731e2
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg399049(v=OCS.15)
-ms:contentKeyID: 49295779
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Ausführen informeller VoIP-Routing Tests'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Run informal voice routing tests
+ms:assetid: ea0e6059-bf04-4b03-b6d3-8f5534b731e2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399049(v=OCS.15)
+ms:contentKeyID: 48185904
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b47394f595926fe37df9a0809380ed96fa1dec66
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822300"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ausführen informeller Tests für das VoIP-Routing
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="run-informal-voice-routing-tests-in-lync-server-2013"></a>Ausführen informeller VoIP-Routing Tests in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-08-07_
 
-Sie können mit dem Dialogfeld **Testfallinformationen für das VoIP-Routing erstellen** interne Tests ausführen, bevor Sie einen tatsächlichen Testfall erstellen. Wenn Sie mit dem Ergebnis eines Tests zufrieden sind, können Sie den Test als formalen Testfall speichern.
+Sie können das Dialogfeld **Informationen zum Erstellen von sprach Routing Testfällen** verwenden, um informelle Tests auszuführen, bevor Sie einen tatsächlichen Testfall erstellen. Wenn Sie mit dem Ergebnis eines Tests zufrieden sind, haben Sie die Möglichkeit, es als formalen Testfall zu speichern.
 
-## So führen Sie einen informellen Test für das VoIP-Routing aus
+<div>
 
-1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setupberechtigungen in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+## <a name="to-run-an-informal-voice-routing-test"></a>So führen Sie einen informellen VoIP-Routing Test aus
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-3.  Klicken Sie auf der linken Navigationsleiste auf **VoIP-Routing** und dann auf **VoIP-Routing testen**.
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-4.  Klicken Sie auf der Seite **VoIP-Routing testen** auf **Testfallinformationen für das VoIP-Routing erstellen**.
+3.  Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing**, und klicken Sie dann auf VoIP- **Routing testen**.
 
-5.  Geben Sie im Feld **Gewählte Nummer** die Telefonnummer ein, die Sie für diesen Test verwenden möchten. Diese Nummer wird normalisiert und im Feld **Normalisierte Nummer** des Ergebnisbereichs angezeigt.
+4.  Klicken Sie auf der Seite **VoIP-Routing testen** auf VoIP-Weiterleitungs **testfallinformationen erstellen**.
 
-6.  Wählen Sie in der Liste **Wähleinstellungen** den Satz mit Wähleinstellungen, der zum Testen der gewählten Nummer verwendet werden soll. Standardeinstellung ist der globale Satz mit Wähleinstellungen.
+5.  Geben Sie im Feld **gewählte Nummer** die Telefonnummer ein, die Sie für diesen Test verwenden möchten. Diese Nummer wird normalisiert und im Feld "normalisierte **Zahl** " des **Ergebnis** Bereichs angezeigt.
+
+6.  Wählen Sie in der Liste **Wählplan** die Wähleinstellungen aus, die Sie zum Testen der gewählten Nummer verwenden möchten. Standardmäßig ist der globale Wählplan vorgesehen.
     
-    Wenn Sie den Test ausführen, wird die erste Normalisierungsregel in diesen Wähleinstellungen, die mit der gewählten Nummer übereinstimmt, im Feld **Normalisierungsregel** des Ergebnisbereichs angezeigt.
+    Wenn Sie den Test ausführen, wird die erste Normalisierungsregel in diesem Wählplan, die der gewählten Nummer entspricht, im Feld normalisierungs **Regel** des **Ergebnis** Bereichs angezeigt.
 
-7.  Wählen Sie in der Liste **VoIP-Richtlinie** die VoIP-Richtlinie aus, die zum Testen der gewählten Nummer verwendet werden soll. Standardeinstellung ist die globale VoIP-Richtlinie.
+7.  Wählen Sie in der Liste **VoIP-Richtlinie** die VoIP-Richtlinie aus, die Sie zum Testen der gewählten Nummer verwenden möchten. Standard ist die globale VoIP-Richtlinie.
     
-    Wenn Sie den Test ausführen, wird der erste übereinstimmende PSTN-Verwendungsdatensatz in dieser VoIP-Richtlinie im Feld **Erste PSTN-Verwendung** des Ergebnisbereichs angezeigt. Außerdem wird die erste übereinstimmende VoIP-Route, die diesem PSTN-Verwendungsdatensatz zugeordnet ist, im Feld **Erste Route** angezeigt.
+    Wenn Sie den Test ausführen, wird der erste übereinstimmende PSTN-Verwendungs Eintrag in dieser VoIP-Richtlinie im ersten Feld für die **PSTN-Nutzung** des **Ergebnis** Bereichs angezeigt. Außerdem wird die erste übereinstimmende VoIP-Route, die diesem PSTN-Verwendungsdaten Satz zugeordnet ist, im Feld **erste Route** angezeigt.
 
-8.  (Optional) Aktivieren Sie das Kontrollkästchen **Aus Benutzer auffüllen**, wenn Sie die gewählte Nummer für eine VoIP-Richtlinie testen möchten, die einem bestimmten Benutzer zugewiesen ist.
+8.  Optional Aktivieren Sie das Kontrollkästchen **vom Benutzer auffüllen** , wenn Sie die gewählte Nummer anhand der VoIP-Richtlinie testen möchten, die einem bestimmten Benutzer zugewiesen ist.
     
-    1.  Klicken Sie auf **Durchsuchen**, um das Dialogfeld **Enterprise-VoIP-Benutzer auswählen** anzuzeigen.
+    1.  Klicken Sie auf **Durchsuchen** , um das Dialogfeld **Enterprise-VoIP-Benutzer auswählen** anzuzeigen.
     
-    2.  Klicken Sie auf **Suchen**, um die Liste der Benutzer anzuzeigen, die für Enterprise-VoIP aktiviert sind.
+    2.  Klicken Sie auf **Suchen** , um die Liste der Benutzer anzuzeigen, die für Enterprise-VoIP aktiviert sind.
     
-    3.  Doppelklicken Sie auf den Benutzernamen, dessen zugewiesene VoIP-Richtlinie Sie für diesen Test verwenden möchten. Das Feld **Richtlinie** wird jetzt mit der VoIP-Richtlinie gefüllt, die dem ausgewählten Benutzer zugewiesen ist.
+    3.  Doppelklicken Sie auf den Benutzernamen, dessen zugewiesene VoIP-Richtlinie Sie für diesen Test verwenden möchten. Das Feld " **Richtlinie** " ist jetzt mit der VoIP-Richtlinie gefüllt, die dem ausgewählten Benutzer zugewiesen ist.
     
-    Wenn Sie den Test ausführen, wird der erste übereinstimmende PSTN-Verwendungsdatensatz in dieser VoIP-Richtlinie im Feld **Erste PSTN-Verwendung** des Ergebnisbereichs angezeigt. Außerdem wird die erste übereinstimmende VoIP-Route, die diesem PSTN-Verwendungsdatensatz zugeordnet ist, im Feld **Erste Route** angezeigt.
+    Wenn Sie den Test ausführen, wird der erste übereinstimmende Usage-Eintrag (Public Switched Telephone Network, PSTN) in dieser VoIP-Richtlinie im ersten Feld für die **PSTN-Nutzung** des **Ergebnis** Bereichs angezeigt. Außerdem wird die erste übereinstimmende VoIP-Route, die diesem PSTN-Verwendungsdaten Satz zugeordnet ist, im Feld **erste Route** angezeigt.
 
-9.  Klicken Sie auf **Ausführen**, um den Testfall auszuführen. Die Ergebnisse werden im rechten Bereich des Dialogfelds angezeigt.
+9.  Klicken Sie auf **Ausführen** , um den Testfall auszuführen. Die Ergebnisse werden im rechten Fenster des Dialogfelds angezeigt.
 
-10. (Optional) Klicken Sie auf **Speichern unter**, wenn Sie diese Testkonfiguration als formalen Testfall speichern möchten.
+10. Optional Klicken Sie auf **Speichern** unter, wenn Sie diese Testkonfiguration als formalen Testfall speichern möchten.
     
-    1.  Geben Sie im Feld **Name** des Dialogfelds **Testfallinformationen für das VoIP-Routing speichern** einen eindeutigen Namen für den Testfall ein.
+    1.  Geben Sie im Feld **Name** des Dialogfelds **VoIP-Routing Test Case-Informationen speichern** einen eindeutigen Namen für den Testfall ein.
         
-        Der Name muss unter allen VoIP-Routing-Testfällen in Ihrer Enterprise-VoIP-Bereitstellung eindeutig sein. Er kann bis zu 32 Zeichen lang sein und beliebige alphanumerische Zeichen sowie umgekehrte Schrägstriche (\\), Punkte (.) oder Unterstriche (\_) enthalten.
+        Der Name muss bei allen Sprach Routing-Testfälle in Ihrer Enterprise-VoIP-Bereitstellung eindeutig sein. Es kann bis zu 32 Zeichen lang sein und kann neben dem umgekehrten Schrägstrich (\\), Punkt (.) oder Unterstrich (\_) auch beliebige alphanumerische Zeichen enthalten.
     
-    2.  Beachten Sie, dass die verbleibenden Felder im Dialogfeld **Testfallinformationen für das VoIP-Routing speichern** schreibgeschützt sind und mit den Daten *und* Ergebnissen aus der informellen Testkonfiguration vorausgefüllt werden. Stellen Sie sicher, dass dies die Konfiguration ist, die Sie für den Testfall speichern möchten.
+    2.  Beachten Sie, dass die verbleibenden Felder im Dialogfeld **sprach Routing-Testfall-Informationen speichern** schreibgeschützt sind und aus der informellen Testkonfiguration *und* den Ergebnissen ausgefüllt werden. Überprüfen Sie, ob es sich um die Konfiguration handelt, die Sie für den Testfall speichern möchten.
+        
+        <div>
         
 
-        > [!NOTE]
-        > Die Werte aus den Testergebnissen werden folgendermaßen zum Vorausfüllen der Felder im Dialogfeld <STRONG>Testfallinformationen für das VoIP-Routing speichern</STRONG> verwendet: 
+        > [!NOTE]  
+        > Die Werte aus den Testergebnissen werden verwendet, um die Felder im Dialogfeld <STRONG>VoIP-Routing Test Case-Informationen speichern</STRONG> wie folgt zu füllen: 
         > <UL>
         > <LI>
-        > <P><STRONG>Erwartete Übersetzung</STRONG> wird mit dem Wert im Feld <STRONG>Normalisierte Nummer</STRONG> vorausgefüllt.</P>
+        > <P>Die <STRONG>erwartete Übersetzung</STRONG> wird mit dem Wert im Feld <STRONG>normalisierte Zahl</STRONG> vorab ausgefüllt.</P>
         > <LI>
-        > <P><STRONG>Erwartete Route</STRONG> wird mit dem Wert im Feld <STRONG>Erste Route</STRONG> vorausgefüllt.</P>
+        > <P>Die <STRONG>erwartete Route</STRONG> wird mit dem Wert im <STRONG>ersten Routen</STRONG> Feld ausgefüllt.</P>
         > <LI>
-        > <P><STRONG>Erwarteter PSTN-Verwendungsdatensatz</STRONG> wird mit dem Wert im Feld <STRONG>Erste PSTN-Verwendung</STRONG> vorausgefüllt.</P></LI></UL>Wenn für einen dieser Werte beim Test keine Übereinstimmungen gefunden werden, bleibt das entsprechende Feld im Dialogfeld <STRONG>Testfallinformationen für das VoIP-Routing speichern</STRONG> leer.
+        > <P><STRONG>Voraussichtlicher PSTN-Verwendungsdaten Satz</STRONG> wird mit dem Wert im <STRONG>ersten PSTN-Nutzungs</STRONG> Feld vorab ausgefüllt.</P></LI></UL>Wenn Übereinstimmungen für einen dieser Werte während des Testlaufs nicht gefunden wurden, ist das entsprechende Feld im Dialogfeld <STRONG>Informationen zum Speichern von sprach Routing Testfällen</STRONG> leer.
+
+        
+        </div>
+    
+    3.  Klicken Sie auf **OK** , um den Testfall zu speichern, oder klicken Sie auf **Abbrechen** , um zurückzukehren, um zum Dialogfeld **sprach Routing Test Case-Informationen anzeigen** zu wechseln, um den Test weiter zu entwickeln, bevor Sie ihn speichern.
+
+11. Klicken Sie auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**.
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > Wenn Sie einen Test Case für VoIP-Routing erstellen, müssen Sie den Befehl <STRONG>Commit all</STRONG> ausführen, um den Testfall zu veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in lync Server 2013</A> in der Betriebsdokumentation.
 
     
-    3.  Klicken Sie auf **OK**, um den Testfall zu speichern, oder klicken Sie auf **Abbrechen**, um zum Dialogfeld **Testfallinformationen für das VoIP-Routing anzeigen** zurückzukehren und weitere Änderungen vorzunehmen, bevor Sie den Test speichern.
+    </div>
 
-11. Klicken Sie auf **Commit** und anschließend auf **Commit für alle**.
-    
+</div>
 
-    > [!NOTE]
-    > Jedes Mal, wenn Sie einen Testfall für das VoIP-Routing erstellen, müssen Sie den Befehl <STRONG>Commit für alle</STRONG> ausführen, um den Testfall zu veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in Lync Server 2013</A> in der Betriebsdokumentation.
+<div>
 
+## <a name="see-also"></a>Siehe auch
 
-
-## Siehe auch
-
-#### Aufgaben
 
 [Erstellen eines Testfalls für das VoIP-Routing in Lync Server 2013](lync-server-2013-create-a-voice-routing-test-case.md)  
-[Ausführen von Testfällen für das VoIP-Routing](lync-server-2013-run-voice-routing-test-cases.md)  
+[Ausführen von Testfällen für das VoIP-Routing in lync Server 2013](lync-server-2013-run-voice-routing-test-cases.md)  
 [Exportieren von Testfällen für das VoIP-Routing in Lync Server 2013](lync-server-2013-export-voice-routing-test-cases.md)  
 [Importieren von Testfällen für das VoIP-Routing in Lync Server 2013](lync-server-2013-import-voice-routing-test-cases.md)  
 
-#### Weitere Ressourcen
 
 [Konfigurieren von Wählplänen in Lync Server 2013](lync-server-2013-configuring-dial-plans.md)  
-[Konfigurieren von VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und VoIP-Routen in Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
+[Konfigurieren von VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und VoIP-Routen in lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

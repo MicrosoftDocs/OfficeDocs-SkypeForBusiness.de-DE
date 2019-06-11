@@ -1,37 +1,63 @@
-﻿---
-title: 'Lync Server 2013: Übersicht über IP-Adresstypen'
-TOCTitle: Übersicht über IP-Adresstypen für Lync Server
-ms:assetid: ee9a695f-5cf5-441e-94fb-6adeca50e8d8
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205363(v=OCS.15)
-ms:contentKeyID: 49295824
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Übersicht über IP-Adresstypen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of IP address types for Lync Server
+ms:assetid: ee9a695f-5cf5-441e-94fb-6adeca50e8d8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205363(v=OCS.15)
+ms:contentKeyID: 48185759
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 90d31045879c4e6f488c232687346ed0413ef62b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825513"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Übersicht über IP-Adresstypen für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Übersicht über IP-Adresstypen für Lync Server 2013
 
-Beim Konfigurieren von IP-Adressen in Lync Server 2013 haben Sie drei Optionen. Sie können Lync Server 2013 so konfigurieren, dass es nur IP Version 4 (IPv4), nur IP Version 6 (IPv6) oder aber eine Kombindation aus beiden (auch *dualer Stapel* genannt) unterstützt. Bei jedem Konfigurationstyp sind bestimmte Punkte zu beachten:
+</div>
 
-  - **Nur IPv4**   IPv6 wurde entwickelt, weil es auf der Welt immer weniger IPv4-Adressen gibt. IPv6 wird sich letztendlich weltweit durchsetzen, aber viele Unternehmen und Geräte, mit denen Ihr Unternehmen kommunizieren muss, unterstützen vielleicht derzeit noch nicht IPv6, und möglicherweise bleibt das auch noch eine ganze Weile so. Mit einer Nur-IPv4-Konfiguration können Sie sicherstellen, dass Ihre Lync Server-Implementierung mit den meisten vorhandenen Geräten kommunizieren kann.
+<div id="mainSection">
 
-  - **Nur IPv6**   Andersherum wird eine reine IPv6-Implementierung die Kommunikation mit vielen vorhandenen Geräten derzeit noch ausschließen.
+<div id="mainBody">
 
-  - **Dualer Stapel**   Beim dualen Stapel werden sowohl IPv4- als auch IPv6-Adressen unterstützt. Diese Konfiguration wird in Lync Server 2013 unterstützt, weil die Umstellung von reinem IPv4 auf reines IPv6 meist mehrere Jahre dauert.
+<span> </span>
 
-In den folgenden Abschnitten wird die Kompatibilität zwischen diesen drei Konfigurationen in Bezug auf verschiedene Features von Lync Server beschrieben.
+_**Letztes Änderungsdatum des Themas:** 2013-01-29_
+
+Bei der Konfiguration von IP-Adressen in lync Server 2013 stehen Ihnen drei Optionen zur Auswahl. Sie können lync Server 2013 so konfigurieren, dass nur IP, Version 4 (IPv4), nur IP Version 6 (IPv6) oder eine Kombination aus beidem (als *dualer Stack*bezeichnet) unterstützt wird. Bei jedem Konfigurationstyp sind bestimmte Punkte zu beachten:
+
+  - ****   IPv6 wurde nur erstellt, weil die IPv4-Adressen für die Welt nicht verfügbar sind. IPv6 wird sich letztendlich weltweit durchsetzen, aber viele Unternehmen und Geräte, mit denen Ihr Unternehmen möglicherweise kommunizieren muss, unterstützen derzeit noch nicht IPv6 und möglicherweise bleibt das auch noch eine ganze Weile so. Eine reine IPv4-Konfiguration wird dabei helfen, sicherzustellen, dass Ihre lync Server-Implementierung mit den meisten vorhandenen Geräten kommunizieren kann.
+
+  - **IPv6 nur**   umgekehrt schließt eine vollständige IPv6-Implementierung zu diesem Zeitpunkt die Kommunikation mit vielen vorhandenen Geräten aus.
+
+  - **Dual Stack**   Dual Stack ist ein Netzwerk, in dem sowohl IPv4-als auch IPv6-Adressen aktiviert sind. Diese Konfiguration wird in lync Server 2013 unterstützt, da in den meisten Fällen der Übergang von Full-IPv4 zu voll-IPv6 mehrere Jahre dauern wird.
+
+In den folgenden Abschnitten wird die Kompatibilität zwischen diesen drei Konfigurationen für verschiedene lync Server-Features erläutert.
+
+<div>
 
 
-> [!NOTE]
-> Client- oder Serverkonfiguration mit reinem IPv6 wird nur zu Labor- oder Validierungszwecken unterstützt. Eine reine IPv6-Konfiguration wird in der Produktionsbereitstellung nicht unterstützt.
+> [!NOTE]  
+> Client- oder Serverkonfiguration mit reinem IPv6 wird nur zu Labor- oder Validierungszwecken unterstützt. Eine reine IPv6-Konfiguration wird in der serienmäßigen Bereitstellung nicht unterstützt.
 
 
 
-## Clientregistrierung
+</div>
+
+<div>
+
+## <a name="client-registration"></a>Clientregistrierung
 
 
 <table>
@@ -78,9 +104,13 @@ In den folgenden Abschnitten wird die Kompatibilität zwischen diesen drei Konfi
 </table>
 
 
-## Peer-zu-Peer-Client
+</div>
 
-Peer-zu-Peer-Kommunikation umfasst Audio, Audio/Video, Anwendungsfreigabe und Dateiübertragung. Nach der erfolgreichen Registrierung beider Clients werden die folgenden Kombinationen unterstützt.
+<div>
+
+## <a name="peer-to-peer-client"></a>Peer-to-Peer-Client
+
+Peer-to-Peer-Kommunikation umfasst Audio, Audio/Video, Anwendungsfreigabe und Dateiübertragung. Nach der erfolgreichen Registrierung beider Clients werden die folgenden Kombinationen unterstützt.
 
 
 <table>
@@ -119,9 +149,13 @@ Peer-zu-Peer-Kommunikation umfasst Audio, Audio/Video, Anwendungsfreigabe und Da
 </table>
 
 
-## Konferenzen
+</div>
 
-Konferenzfunktionen beinhalten Audio/Video, Anwendungsfreigabe und Zusammenarbeit an Daten (Whiteboards und Dateifreigabe).
+<div>
+
+## <a name="conferencing"></a>Konferenzen
+
+Konferenz umfasst Audio/Video, Anwendungsfreigabe und Datenzusammenarbeit (Whiteboards und Dateifreigabe).
 
 
 <table>
@@ -168,9 +202,13 @@ Konferenzfunktionen beinhalten Audio/Video, Anwendungsfreigabe und Zusammenarbei
 </table>
 
 
-## Vermittlungsserver/PSTN
+</div>
 
-Lync Server 2013 unterstützt keine Medienumgehung für PSTN-Anrufe (Public Switched Telephone Network, Festnetz), wenn der Datenverkehr über eine IPv6-Schnittstelle abgewickelt wird. Wenn Medienumgehung erforderlich ist, sollten Sie das PSTN-Gateway mit IPv4 konfigurieren.
+<div>
+
+## <a name="mediation-serverpstn"></a>Vermittlungsserver/PSTN
+
+Lync Server 2013 unterstützt keine medienumgehung für PSTN-Anrufe (Public Switched Telephone Network), wenn der Datenverkehr über eine IPv6-Schnittstelle erfolgt. Wenn Medienumgehung erforderlich ist, sollten Sie das PSTN-Gateway mit IPv4 konfigurieren.
 
 
 <table>
@@ -206,11 +244,15 @@ Lync Server 2013 unterstützt keine Medienumgehung für PSTN-Anrufe (Public Swit
 </table>
 
 
-\* Die primäre Schnittstelle ist die Schnittstelle, die mit den Lync Server-Komponenten kommuniziert.
+\*Die primäre Schnittstelle ist die Schnittstelle, die mit den lync Server-Komponenten kommuniziert.
 
-## Peer-zu-Peer-Kommunikation mit Remotebenutzern
+</div>
 
-Peer-zu-Peer-Kommunikation mit Remotebenutzern umfasst Sofortnachrichten, Audio/Video, Anwendungsfreigabe und Dateiübertragung.
+<div>
+
+## <a name="remote-user-peer-to-peer-communications"></a>Peer-to-Peer-Kommunikation mit Remotebenutzern
+
+Peer-to-Peer-Kommunikation mit Remotebenutzern umfasst Sofortnachrichten, Audio/Video, Anwendungsfreigabe und Dateiübertragung.
 
 
 <table>
@@ -249,11 +291,15 @@ Peer-zu-Peer-Kommunikation mit Remotebenutzern umfasst Sofortnachrichten, Audio/
 </table>
 
 
-## Konfiguration mit Front-End-Pool und Edgepool
+</div>
 
-Die folgende Tabelle zeigt, welche Kombinationen zwischen dem Front-End-Server-Pool und dem internen Edgeserver-Pool unterstützt werden.
+<div>
 
-### Schema der unterstützten Kombinationen zwischen Front-End-Pool und Edgepool (interner Edge)
+## <a name="front-end-pool-and-edge-pool-configuration"></a>Konfiguration mit Front-End-Pool und Edgepool
+
+Die folgende Tabelle zeigt die Support Matrix zwischen dem Front-End-Serverpool und dem internen Edge-Serverpool.
+
+### <a name="front-end-pool-and-edge-pool-internal-edge-matrix"></a>Schema der unterstützten Kombinationen zwischen Front-End-Pool und Edgepool (interner Edge)
 
 <table>
 <colgroup>
@@ -264,7 +310,7 @@ Die folgende Tabelle zeigt, welche Kombinationen zwischen dem Front-End-Server-P
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p></p></td>
+<td></td>
 <td><p><strong>Edgepool: IPv4</strong></p></td>
 <td><p><strong>Edgepool: Dualer Stapel</strong></p></td>
 <td><p><strong>Edgepool: IPv6</strong></p></td>
@@ -277,7 +323,7 @@ Die folgende Tabelle zeigt, welche Kombinationen zwischen dem Front-End-Server-P
 </tr>
 <tr class="odd">
 <td><p><strong>Front-End-Pool: Dualer Stapel</strong></p></td>
-<td><p>Ja</p></td>
+<td><p>Ja </p></td>
 <td><p>Ja</p></td>
 <td><p>Nein</p></td>
 </tr>
@@ -291,11 +337,11 @@ Die folgende Tabelle zeigt, welche Kombinationen zwischen dem Front-End-Server-P
 </table>
 
 
-\* Verwenden Sie diese Kombination nur in einer Laborumgebung.
+\*Verwenden Sie diese Kombination nur in einer Lab-Umgebung.
 
 Die folgende Tabelle zeigt, welche Kombinationen zwischen den internen und externen Edge-Schnittstellen unterstützt werden.
 
-### Schema der unterstützten Kombinationen zwischen Edgepool (interner Edge) und Edgepool (externer Edge)
+### <a name="edge-pool-internal-edge-and-edge-pool-external-edge-matrix"></a>Schema der unterstützten Kombinationen zwischen Edgepool (interner Edge) und Edgepool (externer Edge)
 
 <table>
 <colgroup>
@@ -306,25 +352,25 @@ Die folgende Tabelle zeigt, welche Kombinationen zwischen den internen und exter
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p></p></td>
-<td><p><strong>Edgepool (externer Edge): IPv4</strong></p></td>
+<td></td>
+<td><p><strong>Edgepool (Externer Edge): IPv4</strong></p></td>
 <td><p><strong>Edgepool (Externer Edge): Dualer Stapel</strong></p></td>
 <td><p><strong>Edgepool (Externer Edge): IPv6</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Edgepool (interner Edge): IPv4</strong></p></td>
+<td><p><strong>Edgepool (Interner Edge): IPv4</strong></p></td>
 <td><p>Ja</p></td>
 <td><p>Ja</p></td>
 <td><p>Nein</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Edgepool (interner Edge): Dualer Stapel</strong></p></td>
+<td><p><strong>Edgepool (Interner Edge): Dualer Stapel</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Ja</p></td>
 <td><p>Nein</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Edgepool (interner Edge): IPv6</strong></p></td>
+<td><p><strong>Edgepool (Interner Edge): IPv6</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Nein</p></td>
 <td><p>Ja*</p></td>
@@ -333,31 +379,55 @@ Die folgende Tabelle zeigt, welche Kombinationen zwischen den internen und exter
 </table>
 
 
-\* Verwenden Sie diese Kombination nur in einer Laborumgebung.
+\*Verwenden Sie diese Kombination nur in einer Lab-Umgebung.
 
-## Erweiterte Unterstützung für Enterprise-VoIP für IPv6
+</div>
 
-Bereitstellungen, die Anrufsteuerung (Call Admission Control, CAC), E9-1-1-Notrufdienste oder Medienumgehung beinhalten, müssen als Implementierung nur mit IPv4 oder als Dualer-Stapel-Implementierung konfiguriert werden.
+<div>
+
+## <a name="advanced-enterprise-voice-support-for-ipv6"></a>Erweiterte Unterstützung für Enterprise-VoIP für IPv6
+
+Bereitstellungen, die Anrufsteuerung (Call Admission Control, CAC), E911-Notrufdienste oder Medienumgehung beinhalten, können nur mit IPv4 oder als Implementierung mit dualem Stapel konfiguriert werden.
+
+<div>
 
 
-> [!NOTE]
-> In einer Implementierung mit dualem Stapel versucht Lync selbst dann, wenn ein Lync-Client über IPv6 eine Verbindung mit einem Lync Server herstellt, eine geeignete IPv4-Adresse zur Unterstützung von E9-1-1-Notrufdiensten zuzuordnen.
+> [!NOTE]  
+> In einer Dual-Stacked-Bereitstellung, auch wenn ein lync-Client eine Verbindung mit einem lync-Server mithilfe von IPv6 herstellt, bemüht sich lync, eine geeignete IPv4-Adresse zuzuordnen, um E9-1-1 zu unterstützen.
 
 
 
-Standortinformationsdienst mit IPv6-Adressen wird nicht unterstützt.
+</div>
+
+Der standortinformationsdienst mit IPv6-Adressen wird nicht unterstützt.
 
 Exchange Unified Messaging (UM) unterstützt IPv6 nicht. Stellen Sie sicher, dass die DNS-Auflösung für Exchange UM keine IPv6-Adresse zurückgibt. Die Verwendung von IPv6 kann Fehler verursachen, wenn Anrufe an Voicemail gesendet werden.
 
-## Unterstützung von IPv6 für andere Lync Server 2013-Features
+</div>
 
-Zusätzlich zu den oben erwähnten Features und Komponenten wird IPv6 in Lync Server 2013 für die folgenden Features unterstützt:
+<div>
+
+## <a name="other-lync-server-2013-feature-support-for-ipv6"></a>Andere lync Server 2013-Feature-Unterstützung für IPv6
+
+Zusätzlich zu den zuvor erwähnten Features und Komponenten unterstützt lync Server 2013 IPv6 für die folgenden Features:
 
   - **Beständiger Chat**
     
-    Sie verwenden den Topologie-Generator, um IPv6 für Beständiger Chat zu konfigurieren. Ausführliche Informationen zum Konfigurieren von Beständiger Chat finden Sie in der Dokumentation "Bereitstellen von Persistent Chat Server".
+    Sie konfigurieren IPv6 für beständigen Chat mithilfe des Topologie-Generators. Details zum Konfigurieren des beständigen Chats finden Sie in der Dokumentation zum Bereitstellen des beständigen Chats.
 
-  - **QoE-Berichte und Berichte über die Aufzeichnung von Kommunikationsdatensätzen**
+  - **QoE-Berichte und Berichte über die Aufzeichnung von Kommunikationsdatensätzen (KDS)**
     
     In Monitoring-Berichten wird die IP-Adresse so angegeben, wie sie in der Monitoring Server-Datenbank gespeichert ist, unabhängig davon, ob der Adresstyp IPv4 oder IPv6 ist.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

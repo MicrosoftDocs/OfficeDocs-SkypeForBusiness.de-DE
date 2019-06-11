@@ -1,77 +1,109 @@
-﻿---
-title: Wiederherstellen eines Standard Edition-Servers
-TOCTitle: Wiederherstellen eines Standard Edition-Servers
-ms:assetid: d1845663-3138-4fd6-b3e7-337e294d40d8
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh202190(v=OCS.15)
-ms:contentKeyID: 52056458
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Wiederherstellen eines Standard Edition-Servers'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Restoring a Standard Edition server
+ms:assetid: d1845663-3138-4fd6-b3e7-337e294d40d8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202190(v=OCS.15)
+ms:contentKeyID: 51541519
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 101cf0cb2fc4073e2b79aa008187465f84d2d439
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823042"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Wiederherstellen eines Standard Edition-Servers
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>Wiederherstellen eines Standard Edition-Servers in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
-Führen Sie die Verfahren in diesem Abschnitt beim Ausfall eines Standard Edition-Servers aus, auf dem der zentrale Verwaltungsspeicher nicht gehostet wird. Beim Ausfall des zentralen Verwaltungsspeichers lesen Sie die Informationen unter [Wiederherstellen des Servers, der den zentralen Verwaltungsspeicher hostet](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md).
+Wenn ein Standard Edition-Server, auf dem der zentrale Verwaltungsspeicher nicht gehostet wird, fehlschlägt, führen Sie die Verfahren in diesem Abschnitt aus. Wenn der zentrale Verwaltungsspeicher fehlschlägt, lesen Sie [Wiederherstellen des Servers, auf dem der zentrale Verwaltungsspeicher in lync Server 2013 gehostet](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)wird.
+
+<div>
 
 
-> [!TIP]
-> Es wird empfohlen, vor der Wiederherstellung ein Abbild des Systems zu erstellen. Sie können dieses Abbild dann als Rollbackpunkt verwenden, falls Probleme bei der Wiederherstellung auftreten. Es ist sinnvoll, das Abbild nach der Installation des Betriebssystems und von SQL&nbsp;Server zu erstellen und die Zertifikate wiederherzustellen oder erneut zu registrieren.
+> [!TIP]  
+> Wir empfehlen, dass Sie eine Image-Kopie des Systems erstellen, bevor Sie mit der Wiederherstellung beginnen. Sie können dieses Bild als Rollback-Punkt verwenden, falls während der Wiederherstellung etwas schief geht. Möglicherweise möchten Sie das Abbild kopieren, nachdem Sie das Betriebssystem und SQL Server installiert haben, und die Zertifikate wiederherstellen oder erneut registrieren.
 
 
 
-## So stellen Sie einen Standard Edition-Server wieder her
+</div>
 
-1.  Voraussetzung ist ein bereinigter oder neuer Server, der denselben vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) wie der ausgefallene Computer aufweist. Installieren Sie das Betriebssystem, und stellen Sie dann die Zertifikate wieder her bzw. registrieren Sie sie erneut.
+<div>
+
+## <a name="to-restore-a-standard-edition-server"></a>So stellen Sie einen Standard Edition-Server wieder her
+
+1.  Beginnen Sie mit einem sauberen oder neuen Server mit dem gleichen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) wie der fehlerhafte Computer, installieren Sie das Betriebssystem, und stellen Sie die Zertifikate dann wieder her oder registrieren Sie Sie erneut.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Folgen Sie den Verfahren zur Bereitstellung der Server in Ihrer Organisation, um diesen Schritt durchzuführen.
+    > [!NOTE]  
+    > Befolgen Sie die Server Bereitstellungsverfahren Ihrer Organisation, um diesen Schritt ausführen zu können.
 
+    
+    </div>
 
+2.  Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe und der lokalen Gruppe Administratoren ist, bei dem Server an, den Sie wiederherstellen möchten.
 
-2.  Melden Sie sich bei dem Server an, den Sie wiederherstellen möchten. Verwenden Sie hierzu ein Konto, das Mitglied der Gruppe "RTCUniversalServerAdmins" und der lokalen Administratorgruppe ist.
-
-3.  Stellen Sie den Dateispeicher wieder her, indem Sie den entsprechenden Dateispeicher aus **$Backup** in das Verzeichnis für den Dateispeicher auf dem Server kopieren und den Ordner freigeben.
+3.  Stellen Sie den Dateispeicher wieder her, indem Sie den entsprechenden Dateispeicher aus $Backup in den Dateispeicher Speicherort auf dem Server kopieren und den Ordner freigeben.
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > Der Pfad und der Dateiname für den wiederhergestellten Dateispeicher sollten identisch sein mit dem gesicherten Dateispeicher, damit Komponenten, die die Dateien verwenden, darauf zugreifen können.
+    > [!IMPORTANT]  
+    > Der Pfad und Dateinamen für den wiederhergestellten Dateispeicher sollten exakt mit dem gesicherten Dateispeicher identisch sein, damit die Komponenten, die die Dateien verwenden, darauf zugreifen können.
 
+    
+    </div>
 
+4.  Ausführen des Topologie-Generators:
+    
+    1.  Starten Sie den Topologie-Generator: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topology Builder**.
+    
+    2.  Klicken Sie auf **Topologie aus vorhandener Bereitstellung herunterladen**, und klicken Sie dann auf **OK**.
+    
+    3.  Wählen Sie die Topologie aus, und klicken Sie dann auf **Speichern**. Klicken Sie auf **Ja** , um die Auswahl zu bestätigen.
 
-4.  Führen Sie den Topologie-Generator aus:
+5.  Navigieren Sie zum lync Server-Installationsordner oder-Medium, und starten Sie dann den lync Server- \\Bereitstellungs-Assistenten unter Setup\\amd64\\Setup. exe. Verwenden Sie den lync Server-Bereitstellungs-Assistenten, um folgende Aktionen auszuführen:
     
-    1.  Starten des Topologie-Generators: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Topologie-Generator**.
+    1.  Führen Sie **Schritt 1: Installieren des lokalen Konfigurationsspeichers** aus, um die lokalen Konfigurationsdateien zu installieren.
     
-    2.  Klicken Sie auf **Topologie aus einer vorhandenen Bereitstellung herunterladen**, und klicken Sie dann auf **OK**.
+    2.  Führen **Sie Schritt 2: Einrichten oder Entfernen von lync Server-Komponenten** aus, um die lync Server-Serverrollen zu installieren.
     
-    3.  Wählen Sie die Topologie aus, und klicken Sie dann auf **Speichern**. Klicken Sie zur Bestätigung der Auswahl auf **Ja**.
+    3.  Führen Sie **Schritt 3 aus: anfordern, installieren oder Zuweisen von Zertifikaten** zum Zuweisen der Zertifikate.
+    
+    4.  Führen Sie **Schritt 4: Dienste starten** aus, um Dienste auf dem Server zu starten.
+    
+    Details zum Ausführen des Bereitstellungs-Assistenten finden Sie in der Bereitstellungsdokumentation für die Serverrolle, die Sie wiederherstellen.
 
-5.  Navigieren Sie zum Installationsordner oder Datenträger von Lync Server, und starten Sie dann den Lync Server-Bereitstellungs-Assistenten unter **\\setup\\amd64\\Setup.exe**. Führen Sie die folgenden Schritte mithilfe des Lync Server-Bereitstellungs-Assistenten aus:
+6.  Wiederherstellen von Benutzerdaten durch Ausführen der folgenden Schritte:
     
-    1.  Führen Sie **Schritt 1: Lokalen Konfigurationsspeicher installieren** aus, um die lokalen Konfigurationsdateien zu installieren.
+    1.  Kopieren Sie ExportedUserData. zip aus\\ $Backup in ein lokales Verzeichnis.
     
-    2.  Führen Sie **Schritt 2: Lync Server-Komponenten einrichten oder entfernen** aus, um die Lync Server-Serverrollen zu installieren.
-    
-    3.  Führen Sie **Schritt 3: Zertifikate anfordern, installieren oder zuweisen** aus, um die Zertifikate zuzuweisen.
-    
-    4.  Führen Sie **Schritt 4: Dienste starten** aus, um Dienste auf dem Server zu starten.
-    
-    Ausführliche Informationen über die Ausführung des Bereitstellungs-Assistenten finden Sie in der Bereitstellungsdokumentation zu der Serverrolle, die Sie wiederherstellen.
-
-6.  Stellen Sie Benutzerdaten wieder her, indem Sie folgende Schritte ausführen:
-    
-    1.  Kopieren Sie **ExportedUserData.zip** aus **$Backup\\** in ein lokales Verzeichnis.
-    
-    2.  Vor dem Wiederherstellen der Benutzerdaten müssen Sie Lync-Dienste beenden. Geben Sie dazu Folgendes ein:
+    2.  Bevor Sie die Benutzerdaten wiederherstellen, müssen Sie lync-Dienste beenden. Geben Sie dazu Folgendes ein:
         
             Stop-CsWindowsService
     
-    3.  Geben Sie zum Wiederherstellen der Benutzerdaten Folgendes an der Befehlszeile ein:
+    3.  Geben Sie zum Wiederherstellen der Benutzerdaten in der Befehlszeile Folgendes ein:
         
             Import-CsUserData -PoolFqdn <Fqdn> -FileName <String>
         
@@ -79,15 +111,27 @@ Führen Sie die Verfahren in diesem Abschnitt beim Ausfall eines Standard Editio
         
             Import-CsUserData -PoolFqdn "atl0cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserDatal.zip"
     
-    4.  Geben Sie zum erneuten Starten der Lync-Dienste Folgendes ein:
+    4.  Starten Sie lync Services neu, indem Sie Folgendes eingeben:
         
             Start-CsWindowsService
 
-7.  Wenn Sie eine Reaktionsgruppe auf diesem Standard Edition-Server bereitgestellt haben, stellen Sie die Konfigurationsdaten der Reaktionsgruppe wieder her. Ausführliche Informationen finden Sie unter [Wiederherstellen der Reaktionsgruppeneinstellungen](lync-server-2013-restoring-response-group-settings.md).
+7.  Wenn Sie die Reaktionsgruppe auf diesem Standard Edition-Server bereitgestellt haben, stellen Sie die Konfigurationsdaten der Reaktionsgruppe wieder her. Ausführliche Informationen finden Sie unter [Wiederherstellen von Einstellungen für die Reaktionsgruppe in lync Server 2013](lync-server-2013-restoring-response-group-settings.md).
 
-8.  Wenn Sie auf diesem Standard Edition-Server einen beständigen Chat bereitgestellt haben, stellen Sie die Datenbank für beständigen Chat ("mgc.mdf") wieder her.
+8.  Wenn Sie den beständigen Chat auf diesem Standard Edition-Server bereitgestellt haben, stellen Sie die persistent Chat-Datenbank (MGC. mdf) wieder her.
     
-    Wenn Sie die SQL Server-Sicherung verwendet haben, um die Datenbank für beständigen Chat zu sichern, verwenden Sie SQL Server-Wiederherstellungsverfahren zum Wiederherstellen der Datenbank.
+    Wenn Sie die Datenbank für persistente Chats mithilfe der SQL Server-Sicherung gesichert haben, verwenden Sie die SQL Server-Wiederherstellungsverfahren, um Sie wiederherzustellen.
     
-    Wenn Sie die Datenbank mit dem Export-CsPersistentChatData-Cmdlet gesichert haben, verwenden Sie das Import-CsPersistentChatData-Cmdlet, um die Datenbank wiederherzustellen.
+    Wenn Sie das Cmdlet Export-CsPersistentChatData verwendet haben, um es zu sichern, können Sie es mithilfe der Import-CsPersistentChatData wiederherstellen.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

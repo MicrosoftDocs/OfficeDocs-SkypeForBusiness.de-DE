@@ -1,31 +1,65 @@
-﻿---
-title: Vorbereiten der Lync Server-Sicherung und -Wiederherstellung
-TOCTitle: Vorbereiten der Lync Server-Sicherung und -Wiederherstellung
-ms:assetid: 044623a1-948e-4957-b6e1-354d301ad505
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh202159(v=OCS.15)
-ms:contentKeyID: 52056277
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Vorbereiten der lync Server-Sicherung und-Wiederherstellung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing for Lync Server backup and restoration
+ms:assetid: 044623a1-948e-4957-b6e1-354d301ad505
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202159(v=OCS.15)
+ms:contentKeyID: 51541442
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 20454d4e361ef91ff16fcecf586db773372f796b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823875"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vorbereiten der Lync Server-Sicherung und -Wiederherstellung
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="preparing-for-lync-server-2013-backup-and-restoration"></a>Vorbereiten der Sicherung und Wiederherstellung von lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-17_
 
-In den folgenden Abschnitten werden die Einstellungen, Konfigurationen sowie weitere Daten beschrieben, die Sie sichern müssen, um Server und Datenbanken in Falle eines Fehlers oder Ausfalls wiederherstellen zu können.
+In den folgenden Themen werden die Einstellungen, die Konfiguration und andere Daten beschrieben, die Sie sichern müssen, um Server und Datenbanken bei einem Ausfall oder Ausfall wiederherstellen zu können.
 
-## In diesem Abschnitt
+<div>
 
-  - [Anforderungen für die Sicherung und Wiederherstellung: Daten](lync-server-2013-backup-and-restoration-requirements-data.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Anforderungen für die Sicherung und Wiederherstellung: Tools und Berechtigungen](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)
+  - [Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013: Daten](lync-server-2013-backup-and-restoration-requirements-data.md)
 
-  - [Übersicht über den Sicherungs- und Wiederherstellungsvorgang](lync-server-2013-backup-and-restoration-process-overview.md)
+  - [Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013: Tools und Berechtigungen](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)
 
-  - [Entwickeln einer Strategie und eines Plans für das Sichern und Wiederherstellen](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)
+  - [Übersicht über den Sicherungs-und Wiederherstellungsprozess für lync Server 2013](lync-server-2013-backup-and-restoration-process-overview.md)
 
-  - [Bewährte Methoden für die Sicherung und Wiederherstellung](lync-server-2013-best-practices-for-backup-and-restoration.md)
+  - [Entwickeln einer Sicherungs-und Wiederherstellungsstrategie und Planen von lync Server 2013](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)
+
+  - [Bewährte Methoden für die Sicherung und Wiederherstellung für lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

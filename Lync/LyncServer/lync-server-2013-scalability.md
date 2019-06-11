@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Skalierbarkeit'
-TOCTitle: Skalierbarkeit
-ms:assetid: 46fa0cb5-1507-4a12-ad3f-ba64585e2dc4
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg417160(v=OCS.15)
-ms:contentKeyID: 49293872
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Skalierbarkeit'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Scalability
+ms:assetid: 46fa0cb5-1507-4a12-ad3f-ba64585e2dc4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417160(v=OCS.15)
+ms:contentKeyID: 48183995
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0dfdc96934871fd2e73af30507288c734e786cc0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822167"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Skalierbarkeit mit Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="scalability-with-lync-server-2013"></a>Skalierbarkeit mit Lync Server 2013
 
-Lync Server wird in zwei Editionen angeboten, Enterprise Edition und Standard Edition. Die verschiedenen Editionen sind vor allem auf Organisationen unterschiedlicher Größe ausgelegt. Der folgenden Tabelle können Sie entnehmen, dass beide Editionen mit Ausnahme der hohen Verfügbarkeit und der Notfallwiederherstellung die gesamte Funktionalität in allen Arbeitsauslastungen unterstützen.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-06-25_
+
+Lync Server wird in zwei Editionen, Enterprise Edition und Standard Edition angeboten. Die verschiedenen Editionen sind in erster Linie für unterschiedliche Größen von Organisationen vorgesehen. Wie in der folgenden Tabelle dargestellt, unterstützen beide Editionen alle Funktionen in allen Arbeitsauslastungen, mit Ausnahme von höchst Verfügbarkeit und Disaster Recovery.
 
 
 <table>
@@ -26,47 +46,58 @@ Lync Server wird in zwei Editionen angeboten, Enterprise Edition und Standard Ed
 </colgroup>
 <thead>
 <tr class="header">
-<th>Funktion</th>
-<th>Unterstützung in Enterprise Edition</th>
-<th>Unterstützung in Standard Edition</th>
+<th>Feature</th>
+<th>In Enterprise Edition unterstützt?</th>
+<th>In der Standard Edition unterstützt?</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Instant Messaging und Anwesenheit</p></td>
-<td><p>Ja</p></td>
+<td><p>Instant Messaging (im) und Anwesenheitsinformationen</p></td>
+<td><p>Ja </p></td>
 <td><p>Ja</p></td>
 </tr>
 <tr class="even">
 <td><p>Konferenzen</p></td>
-<td><p>Ja</p></td>
+<td><p>Ja </p></td>
 <td><p>Ja</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V-Konferenzen</p></td>
-<td><p>Ja</p></td>
+<td><p>Ja </p></td>
 <td><p>Ja</p></td>
 </tr>
 <tr class="even">
 <td><p>Einwahlkonferenzen</p></td>
-<td><p>Ja</p></td>
+<td><p>Ja </p></td>
 <td><p>Ja</p></td>
 </tr>
 <tr class="odd">
 <td><p>Enterprise-VoIP</p></td>
-<td><p>Ja</p></td>
+<td><p>Ja </p></td>
 <td><p>Ja</p></td>
 </tr>
 <tr class="even">
 <td><p>Virtualisierung</p></td>
-<td><p>Ja</p></td>
+<td><p>Ja </p></td>
 <td><p>Ja</p></td>
 </tr>
 <tr class="odd">
-<td><p>Hochverfügbarkeit, Failover und Notfallwiederherstellung</p></td>
+<td><p>Hochgradige Verfügbarkeit, Failover und Disaster Recovery</p></td>
 <td><p>Ja</p></td>
 <td><p>Nein</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

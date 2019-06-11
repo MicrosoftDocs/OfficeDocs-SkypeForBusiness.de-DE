@@ -1,33 +1,63 @@
-﻿---
-title: 'Lync Server 2013: Übersicht über den Server für beständigen Chat'
-TOCTitle: Übersicht über den Server für beständigen Chat
-ms:assetid: 23f7c886-304d-495a-ae70-3cbb44241acd
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg425717(v=OCS.15)
-ms:contentKeyID: 49293433
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Übersicht über den Server für beständigen Chat'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of Persistent Chat Server
+ms:assetid: 23f7c886-304d-495a-ae70-3cbb44241acd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425717(v=OCS.15)
+ms:contentKeyID: 48183622
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a744f4eb251bbbacc8b1b5f4c2a5978a9689f225
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825331"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Übersicht über den Server für beständigen Chat in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="overview-of-persistent-chat-server-in-lync-server-2013"></a>Übersicht über den Server für beständigen Chat in Lync Server 2013
 
-Mit dem Server für beständigen Chat in Lync Server 2013 können Benutzer themenbasierte Unterhaltungen mit mehreren Teilnehmern führen, die im Verlauf erhalten bleiben. Der Server für beständigen Chat unterstützt Ihre Organisation bei den folgenden Aufgaben:
+</div>
 
-  - Verbesserung der Kommunikation zwischen geografisch verteilten und funktionsübergreifenden Teams. Mithilfe des Beständiger Chats können Teams Informationen und Ideen effizient austauschen und Entscheidungen als Gruppe treffen. Die in Chatrooms (Diskussionsforen) veröffentlichten Nachrichten können dauerhaft sein (im Laufe der Zeit verfügbar bleiben), sodass Personen an unterschiedlichen Standorten und in unterschiedlichen Abteilungen daran teilnehmen können, auch wenn sie nicht zur gleichen Zeit online sind. Wenn Benutzer eine Verbindung mit einem Chatroom herstellen, wird der Backchat (eine konfigurierbare Anzahl von Nachrichten im Chatverlauf) automatisch in den Chatroom geladen, um dem Benutzer Kontextinformationen zur Unterhaltung bereitzustellen.
+<div id="mainSection">
 
-  - Verbesserung des Informationsbewusstseins. Benutzer können mithilfe clientseitiger Filter Bedingungen definieren, z. B. Schlüsselwörter in Nachrichten oder den Wert des Felds "Von" in einer Nachricht, um eine Benachrichtigung zu erhalten, wenn diese Bedingungen in Chatnachrichten oder Chatroomnachrichten von einem Beständiger Chat eintreten. So können Benutzer bei Inhalten, die sie am meisten interessieren, stets auf dem Laufenden bleiben.
+<div id="mainBody">
 
-  - Verbesserung der Kommunikation über alle Unternehmensbereiche hinweg. Indem bei lange andauernden Themen die Zusammenarbeit mit anderen in der Organisation vereinfacht und ein beständiger Chat zum Austauschen von Informationen bereitgestellt wird, kann der Beständiger Chat zur Verbesserung der Kommunikation beitragen.
+<span> </span>
 
-  - Verringerung der Informationsüberlastung. Benutzer können mithilfe clientseitiger Filter den interessantesten Chatrooms und Nachrichten folgen und Chatrooms hinzufügen, um deren Kontaktliste zu folgen.
+_**Letztes Änderungsdatum des Themas:** 2012-10-29_
 
-  - Gezielte Weitergabe von wichtigem Wissen und wichtigen Informationen. Dokumente und Links können in Unterhaltungen eingefügt werden, damit das gesamte Team darauf zugreifen kann. Wenn sie Fragen an ein großes Team stellen, können Benutzer von den Antworten der Fachbereichsexperten profitieren. Dank der Integration in andere Informationssysteme können wichtige Unternehmensdaten einfach an große Gruppen kommuniziert werden.
+Lync Server 2013, beständiger Chat Server ermöglicht Benutzern die Teilnahme an mehrteiligen, themenbasierten Konversationen, die im Laufe der Zeit fortbestehen. Der beständige Chat Server kann Ihrer Organisation helfen, Folgendes zu tun:
 
-Stellen Sie den Beständiger Chat von Lync Server 2013 bereit, um Chatrooms in Lync Server 2013 zu aktivieren. Informationen zum Aktivieren von Chatrooms finden Sie in der Hilfe zu Beständiger Chat unter <http://go.microsoft.com/fwlink/p/?linkid=270945>. Wenn Benutzer für Lync Server aktiviert wurden und Support für Lync Server bereitgestellt wird, können die Benutzer den Beständiger Chat von Lync 2013 installieren und nutzen, um Chatroomsupport zu erhalten.
+  - Verbessern der Kommunikation zwischen geografisch verteilten und funktionsübergreifenden Teams Mithilfe des beständigen Chats können Teams Informationen, Ideen und Entscheidungen effizient miteinander austauschen. Die Nachrichten, die in Chatrooms (Diskussionsforen) gepostet wurden, können beibehalten werden (das heißt, Sie können im Laufe der Zeit verfügbar sein), damit Personen an verschiedenen Standorten und Abteilungen teilnehmen können, selbst wenn Sie nicht gleichzeitig online sind. Wenn ein Benutzer eine Verbindung mit einem Chatroom herstellt, wird im Chatroom automatisch Backchat (eine konfigurierbare Anzahl von Chat-Verlaufs Nachrichten) geladen, damit der Benutzer einen Kontext für die Unterhaltung erhält.
 
-Wenn Ihre Organisation rechtliche Vorschriften einhalten muss, können Sie optional einen Konformitätsdienst für Beständiger Chat bereitstellen.
+  - Verbessern des Informations Bewusstseins Mithilfe von clientseitigen filtern können Benutzerbedingungen definieren, wie beispielsweise Schlüsselwörter im Nachrichteninhalt oder den Wert des Felds "von" in einer Nachricht, um eine Benachrichtigung zu erhalten, wenn diese Bedingungen in Sofortnachrichten oder Chatroom-Nachrichten im beständigen Chat erfüllt werden. Auf diese Weise können Benutzer mit den Inhalten, die Sie am meisten interessieren, auf dem neuesten Stand bleiben.
+
+  - Verbessern der Kommunikation mit der erweiterten Organisation Durch die einfache Zusammenarbeit über lang andauernde Themen mit anderen Personen in der Organisation und durch die Bereitstellungeines permanenten Informationsaustauschs hilft der beständige Chat, die Kommunikation zu verbessern.
+
+  - Reduzieren Sie die Informationsüberlastung. Benutzer können Chatrooms und Nachrichten von größtem Interesse mithilfe von clientseitigen Filtern verfolgen und Chatrooms, denen Sie folgen möchten, zu Ihrer Kontaktliste hinzufügen.
+
+  - Verbessern Sie die Verbreitung wichtiger Kenntnisse und Informationen. Dokumente und Links können in Unterhaltungen für den Zugriff durch das gesamte Team integriert werden. Wenn Sie Fragen an ein umfassenderes Team senden, können die Benutzer von den Antworten von Sachverständigen profitieren. Durch die Integration in andere Informationssysteme können wichtige organisatorische Daten problemlos an große Gruppen kommuniziert werden.
+
+Um Chatrooms in lync Server 2013 zu aktivieren, stellen Sie den lync Server 2013-beständigen Chat bereit. Informationen zum Aktivieren von Chatrooms finden Sie in <http://go.microsoft.com/fwlink/p/?linkid=270945>der Hilfe zum beständigen Chat unter. Wenn Benutzer für lync Server aktiviert sind und die lync Server-Unterstützung bereitgestellt wird, können Benutzer lync 2013-beständigen Chat installieren und verwenden, um Chatroom-Unterstützung bereitzustellen.
+
+Wenn Ihre Organisation Konformitätsrichtlinien beachten muss, können Sie optional den Compliance-Service für beständigen Chat bereitstellen.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

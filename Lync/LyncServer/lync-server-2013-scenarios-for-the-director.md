@@ -1,29 +1,55 @@
-﻿---
-title: 'Lync Server 2013: Szenarien für den Director'
-TOCTitle: Szenarien für den Director
-ms:assetid: d2cf384a-0860-4779-80ce-cba2543be322
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398908(v=OCS.15)
-ms:contentKeyID: 49295497
-ms.date: 07/20/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Szenarien für den Director'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Scenarios for the Director
+ms:assetid: d2cf384a-0860-4779-80ce-cba2543be322
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398908(v=OCS.15)
+ms:contentKeyID: 48185419
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: eba35647e8ecc0cfa59d5c7c6b5c32b07bedf95e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822153"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Szenarien für den Director in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="scenarios-for-the-director-in-lync-server-2013"></a>Szenarien für den Director in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-22_
 
-Bei einem Director handelt es sich um einen Server, auf dem Microsoft Lync Server 2013- Kommunikationssoftware ausgeführt wird, mit der Benutzeranforderungen authentifiziert werden können, aber keine Benutzerkonten verwaltet werden. Der Director hostet außerdem ähnlich wie der Front-End-Server Webdienste und authentifiziert Webticketanforderungen und bietet sonstige Dienste an.
+Bei einem Director handelt es sich um einen Server mit Microsoft lync Server 2013-Kommunikationssoftware, der Benutzeranforderungen authentifizieren kann, jedoch keine Benutzerkonten aufweist. Der Direktor hostet auch Webdienste, die dem Front-End-Server ähnlich sind, und authentifiziert Web-Ticket-Anfragen und stellt andere Dienste bereit.
+
+<div>
 
 
-> [!IMPORTANT]
-> Beim Bereitstellen von Directors müssen Sie die Director-Webdienste extern über den Reverseproxy bereitstellen, ebenso die Webdienste des Front-End-Servers. In den folgenden Themen wird der Planungsprozess für die möglichen Director-Topologien beschrieben.
+> [!IMPORTANT]  
+> Wenn Sie Directors bereitstellen, müssen Sie die Director-Webdienste extern über den Reverse-Proxy und die Webdienste des Front-End-Servers veröffentlichen. In den folgenden Themen wird der Planungsprozess für die möglichen Director-Topologien beschrieben.
 
 
 
-## In diesem Abschnitt
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>In diesem Abschnitt
 
   - [Übersicht über den Director in Lync Server 2013](lync-server-2013-overview-of-the-director.md)
 
@@ -35,10 +61,26 @@ Bei einem Director handelt es sich um einen Server, auf dem Microsoft Lync Serve
 
   - [Skalierter Directorpool in Lync Server 2013](lync-server-2013-scaled-director-pool.md)
 
-## Siehe auch
+</div>
 
-#### Konzepte
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
 
 [Unterstützte Topologien in Lync Server 2013](lync-server-2013-supported-topologies.md)  
-[Serverhardwareplattformen für Lync Server 2013](lync-server-2013-server-hardware-platforms.md)
+[Serverhardwareplattformen für Lync Server 2013](lync-server-2013-server-hardware-platforms.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

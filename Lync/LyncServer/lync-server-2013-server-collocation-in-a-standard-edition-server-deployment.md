@@ -1,43 +1,69 @@
-﻿---
-title: 'Lync Server 2013: Gemeinsames Ausführen von Servern in einer Standard Edition-Serverbereitstellung'
-TOCTitle: Gemeinsames Ausführen von Servern in einer Standard Edition-Serverbereitstellung
-ms:assetid: 0763ffab-4fd6-463a-8e62-d97876b376d3
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398131(v=OCS.15)
-ms:contentKeyID: 49293076
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Gemeinsames Ausführen von Servern in einer Standard Edition-Serverbereitstellung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Server collocation in a Standard Edition server deployment
+ms:assetid: 0763ffab-4fd6-463a-8e62-d97876b376d3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398131(v=OCS.15)
+ms:contentKeyID: 48183314
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 950f2ab06a146ec99ef9ebb2ecbc64c885c82d70
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821964"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gemeinsames Ausführen von Servern in einer Standard Edition-Serverbereitstellung für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="server-collocation-in-a-standard-edition-server-deployment-for-lync-server-2013"></a>Gemeinsames Ausführen von Servern in einer Standard Edition-Serverbereitstellung für Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-01-20_
 
-In diesem Abschnitt werden die Serverrollen, Datenbanken und Dateifreigaben beschrieben, die Sie in einer Serverbereitstellung mit Lync Server 2013 Standard Edition verbinden können.
+In diesem Abschnitt werden die Serverrollen, Datenbanken und Dateifreigaben beschrieben, die Sie in einer lync Server 2013 Standard Edition-Server Bereitstellung collocate können.
 
-## Serverrollen
+<div>
 
-Unter Lync Server 2013 werden der A/V-Konferenzdienst, der Vermittlungsdienst, die Überwachung und Archivierung auf dem Standard Edition-Server verbunden, zur Aktivierung sind jedoch zusätzliche Konfigurationsschritte erforderlich. Sie können den Vermittlungsdienst auf verschiedenen Servern bereitstellen.
+## <a name="server-roles"></a>Server Rollen
 
-Sie können einen vertrauenswürdigen Andwendungsserver mit einem Standard Edition-Server verbinden.
+In lync Server 2013 sind A/V-Konferenzdienst, Mediationsdienst, Überwachung und Archivierung auf dem Standard Edition-Server verfügbar, es ist jedoch eine zusätzliche Konfiguration erforderlich, um Sie zu aktivieren. Sie können den Vermittlungsdienst auf separaten Servern bereitstellen.
 
-Die folgenden Serverrollen müssen auf jeweils einem separaten Computer bereitgestellt werden:
+Sie können einen vertrauenswürdigen Anwendungsserver mit einem Standard Edition-Server collocate.
+
+Die folgenden Serverrollen müssen jeweils auf einem separaten Computer bereitgestellt werden:
 
   - Director
 
   - Edgeserver
 
-  - Vermittlungsserver (sofern nicht gemeinsam mit dem Standard Edition-Server ausgeführt)
+  - Vermittlungsserver (wenn Sie nicht mit dem Standard Edition-Server ausgestattet sind)
 
   - Office Web Apps-Server
 
-## Datenbanken
+</div>
 
-Die SQL Server Express-Back-End-Datenbank wird standardmäßig mit dem Standard Edition-Server verbunden. Sie kann nicht auf einen separaten Computer verschoben werden. Ferner ist es bis auf eine Ausnahme nicht möglich, andere Datenbanken mit dem Standard Edition-Server zu verbinden. Wenn Sie den Server für beständigen Chat auf einem Standard Edition-Server einsetzen, werden die Datenbank für beständigen Chat und die Kompatibilitätsdatenbank für beständigen Chat auf demselben Standard Edition-Server verbunden.
+<div>
 
-Sie können jede der folgenden Datenbanken mit einem einzigen Datenbankserver verbinden:
+## <a name="databases"></a>Datenbanken
+
+Standardmäßig befindet sich die SQL Server Express-Back-End-Datenbank auf dem Standard Edition-Server. Sie können Sie nicht auf einen anderen Computer verschieben. Mit einer Ausnahme können Sie keine anderen Datenbanken auf dem Standard Edition-Server collocate. Wenn Sie den Server für beständigen Chat auf einem Standard Edition-Server bereitstellen möchten, können Sie die Datenbank für beständigen Chat und die Compliance-Datenbank für beständigen Chat auf demselben Standard Edition-Server collocate.
+
+Sie können jede der folgenden Datenbanken auf einem einzelnen Datenbankserver collocate:
 
   - Überwachungsdatenbank
 
@@ -45,29 +71,41 @@ Sie können jede der folgenden Datenbanken mit einem einzigen Datenbankserver ve
 
   - Eine Back-End-Datenbank für einen Enterprise Edition-Front-End-Pool
 
-Sie können diese Datenbanken einzeln oder alle in einer einzigen SQL-Instanz verbinden oder für jede eine separate SQL-Instanz verwenden, wobei folgende Beschränkungen gelten:
+Sie können eine beliebige oder eine beliebige oder alle dieser Datenbanken in einer einzelnen SQL-Instanz collocate oder für jede einzelne SQL-Instanzen verwenden, wobei die folgenden Einschränkungen gelten:
 
-  - Jede SQL-Instanz kann nur eine einzige Back-End-Datenbank (für einen Enterprise Edition-Front-End-Pool), eine einzige Überwachungsdatenbank, eine einzige Archivierungsdatenbank, eine einzige Datenbank für beständigen Chat und eine einzige Kompatibilitätsdatenbank für beständigen Chat enthalten.
+  - Jede SQL-Instanz kann nur eine einzige Back-End-Datenbank (für einen Enterprise Edition-Front-End-Pool), eine einzige Überwachungsdatenbank, eine einzelne Archivierungsdatenbank, eine einzelne persistent Chat-Datenbank und eine einzelne beständige Chat-Kompatibilitätsdatenbank enthalten.
 
-  - Der Datenbankserver kann nicht mehr als einen Enterprise Edition-Front-End-Pool, einen Archivierungsserver, einen Überwachungsserver, eine einzelne Datenbank für Beständiger Chat und eine einzelne Kompatibilitätsdatenbank für Beständiger Chat unterstützen. Er kann aber jeweils einen bzw. eine davon unterstützen, unabhängig davon, ob die Datenbanken dieselbe SQL Server-Instanz oder separate SQL Server-Instanzen verwenden.
+  - Der Datenbankserver kann nicht mehr als einen Enterprise Edition-Front-End-Pool, einen Server mit Archivierungsfunktion, einen Server mit Überwachung, eine einzige persistente Chat-Datenbank und eine einzelne beständige Chat-Compliance-Datenbank unterstützen, aber er kann jeweils eine davon unterstützen. unabhängig davon, ob die Datenbanken dieselbe Instanz von SQL Server oder separate Instanzen von SQL Server verwenden.
 
-Das Verbinden einer Dateifreigabe mit den Datenbanken ist möglich, wie weiter unten in diesem Abschnitt beschrieben.
+Sie können eine Dateifreigabe für die Datenbanken collocate, wie weiter unten in diesem Abschnitt beschrieben.
 
-
-> [!NOTE]
-> Unter Lync Server 2013 können Sie den Überwachungs- und Archivierungsspeicher in den Exchange 2013-Speicher für einige oder alle Benutzer in der Bereitstellung integrieren. Sie können keine Server mit Lync Server oder Komponenten auf denselben Servern wie der Exchange-Speicher bereitstellen.
+<div>
 
 
-
-
-> [!IMPORTANT]
-> Die gemeinsame Ausführung von Datenbanken wird zwar unterstützt, die Datenbanken können jedoch schnell wachsen. Wenn Sie beispielsweise in Erwägung ziehen, die Archivierungsdatenbank mit anderen Datenbanken zu verbinden, müssen Sie beachten, dass beim Archivieren der Nachrichten von mehreren Benutzern der von der Archivierungsdatenbank benötigte Speicherplatz sehr groß sein kann. Aus diesem Grund wird das Verbinden mehrerer Datenbanken, insbesondere der Archivierungsdatenbank, der Datenbank für Beständiger Chat und der Kompatibilitätsdatenbank für Beständiger Chat, mit der Back-End-Datenbank eines Enterprise-Pools nicht empfohlen.
+> [!NOTE]  
+> In lync Server 2013 haben Sie die Möglichkeit, den Überwachungs-und Archivierungsspeicher mit Exchange 2013-Speicher für einige oder alle Benutzer in Ihrer Bereitstellung zu integrieren. Sie können keine Server mit lync Server oder Komponenten auf denselben Servern wie dem Exchange-Speicher bereitstellen.
 
 
 
-## Dateifreigaben
+</div>
 
-Die Dateifreigabe kann auf einem separaten Server oder auf demselben Server wie folgende Server ausgeführt werden:
+<div>
+
+
+> [!IMPORTANT]  
+> Obwohl die Daten Bank Zusammenstellung unterstützt wird, kann die Größe der Datenbanken schnell zunehmen. Wenn Sie beispielsweise die Archivierungsdatenbank mit anderen Datenbanken abstimmen, beachten Sie Folgendes: Wenn Sie die Nachrichten von mehr als wenigen Benutzern archivieren, kann der von der Archivierungsdatenbank benötigte Speicherplatz sehr groß werden. Aus diesem Grund raten wir davon ab, abstimmen mehrere Datenbanken, insbesondere die Archivierungsdatenbank, die persistente Chat-Datenbank und die beständige Chat-Kompatibilitätsdatenbank, mit der Back-End-Datenbank eines Enterprise-Pools zu verwenden.
+
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="file-shares"></a>Dateifreigaben
+
+Die Dateifreigabe kann ein separater Server sein oder sich auf dem gleichen Server wie die folgenden befinden:
 
   - Datenbankserver, einschließlich des Back-End-Servers eines Enterprise Edition-Front-End-Pools
 
@@ -75,21 +113,41 @@ Die Dateifreigabe kann auf einem separaten Server oder auf demselben Server wie 
 
   - Überwachungsdatenbank
 
-  - Datenbank für Beständiger Chat
+  - Datenbank für beständigen Chat
 
-  - Konformitätsdatenbank für Beständiger Chat
+  - Kompatibilitätsdatenbank für beständigen Chat
 
-Eine einzelne Dateifreigabe kann für mehrere Front-End-Pools und Standard Edition-Server (am gleichen Standort) verwendet werden.
+Eine einzelne Dateifreigabe kann für mehrere Front-End-Pools, Standard Edition-Server (alle auf der gleichen Website), verwendet werden.
 
-
-> [!NOTE]
-> Unter Lync Server 2013 wird von der Überwachung und der Archivierung die Lync Server-Dateifreigabe als Standard Edition-Server verwendet.
+<div>
 
 
+> [!NOTE]  
+> In lync Server 2013 verwenden die Überwachung und Archivierung die lync Server-Dateifreigabe als Standard Edition-Server.
 
-## Weitere Komponenten
 
-Sie können einen Reverseproxyserver, der keine Lync Server 2013-Komponente ist, aber in der Bereitstellung benötigt wird, wenn die Freigabe von Webinhalten für Verbundbenutzer unterstützt werden soll, nicht mit einer Lync Server 2013-Serverrolle verbinden. Allerdings können Sie Reverseproxyunterstützung für eine Lync Server 2013-Bereitstellung implementieren, indem Sie die Unterstützung auf einem vorhandenen Reverseproxyserver in Ihrer Organisation konfigurieren, der für andere Anwendungen genutzt wird.
 
-Mit einer Exchange UM-Komponente oder SharePoint-Komponente kann keine Lync Server 2013-Rolle verbunden werden.
+</div>
+
+</div>
+
+<div>
+
+## <a name="other-components"></a>Andere Komponenten
+
+Sie können keinen Reverseproxy-Server collocate, bei dem es sich nicht um eine lync Server 2013-Komponente handelt, aber für Ihre Bereitstellung erforderlich ist, wenn Sie die Freigabe von Webinhalten für Verbundbenutzer mit einer beliebigen lync Server 2013-Serverrolle unterstützen möchten. Sie können jedoch eine Reverse-Proxy-Unterstützung für eine lync Server 2013-Bereitstellung implementieren, indem Sie die Unterstützung für einen vorhandenen Reverse-Proxy Server in Ihrer Organisation konfigurieren, der für andere Anwendungen verwendet wird.
+
+Sie können keine Exchange um-Komponente oder SharePoint-Komponente mit einer lync Server 2013-Rolle collocate.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

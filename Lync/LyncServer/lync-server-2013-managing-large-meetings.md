@@ -1,31 +1,65 @@
-﻿---
-title: Verwalten von großen Besprechungen
-TOCTitle: Verwalten von großen Besprechungen
-ms:assetid: b2112f12-b548-4e71-a3a3-8c14c6bb0de9
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205177(v=OCS.15)
-ms:contentKeyID: 49295127
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Verwalten von umfangreichen Besprechungen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing large meetings
+ms:assetid: b2112f12-b548-4e71-a3a3-8c14c6bb0de9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205177(v=OCS.15)
+ms:contentKeyID: 48185146
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c27057f6b8c29078231deedb5fe4492965e89bec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827963"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwalten von großen Besprechungen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="managing-large-meetings-in-lync-server-2013"></a>Verwalten von umfangreichen Besprechungen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-10-01_
 
-Nach dem Einrichten eines dedizierten Pools für große Konferenzen können Sie Schritte unternehmen, um sicherzustellen, dass die in diesem Pool gehosteten großen Besprechungen die beste Benutzererfahrung bieten. Die Themen in diesem Abschnitt enthalten Details über das Organisieren und Verwalten großer Besprechungen.
+Nachdem Sie einen dedizierten Pool für große Konferenzen eingerichtet haben, können Sie Schritte Unternehmen, um sicherzustellen, dass große Besprechungen, die im Pool gehostet werden, die beste Benutzererfahrung bieten. Die Themen in diesem Abschnitt enthalten detaillierte Informationen dazu, wie Sie große Besprechungen organisieren und verwalten können.
 
-## In diesem Abschnitt
+<div>
 
-  - [Dedizierte Organisatoren](lync-server-2013-dedicated-meeting-organizers.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Separater Kalender für große Besprechungen](lync-server-2013-separate-large-meeting-calendar.md)
+  - [Dedizierte Besprechungsorganisatoren in lync Server 2013](lync-server-2013-dedicated-meeting-organizers.md)
 
-  - [Planungsprozess für große Besprechungen](lync-server-2013-large-meeting-scheduling-process.md)
+  - [Separater Kalender für große Besprechungen in lync Server 2013](lync-server-2013-separate-large-meeting-calendar.md)
 
-  - [Planungsdetails](lync-server-2013-scheduling-details-for-meetings.md)
+  - [Planungsprozess für große Besprechungen in lync Server 2013](lync-server-2013-large-meeting-scheduling-process.md)
 
-  - [Durchführen von großen Besprechungen](lync-server-2013-running-large-meetings.md)
+  - [Planen von Details für Besprechungen in lync Server 2013](lync-server-2013-scheduling-details-for-meetings.md)
+
+  - [Ausführen von umfangreichen Besprechungen in lync Server 2013](lync-server-2013-running-large-meetings.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

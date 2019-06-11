@@ -1,43 +1,81 @@
-﻿---
-title: Verwalten von Reaktionsgruppen
-TOCTitle: Verwalten von Reaktionsgruppen
-ms:assetid: 5a804d7d-3c1a-4647-a0e0-d5c4c8c23b73
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg520996(v=OCS.15)
-ms:contentKeyID: 49294104
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Verwalten von Reaktionsgruppen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing response groups
+ms:assetid: 5a804d7d-3c1a-4647-a0e0-d5c4c8c23b73
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520996(v=OCS.15)
+ms:contentKeyID: 48184222
+ms.date: 02/01/2018
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 39c0d8ac0fbfa8464fd0cd078fc90784eb9fdd3d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827767"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwalten von Reaktionsgruppen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+# <a name="managing-response-groups-in-lync-server-2013"></a>Verwalten von Reaktionsgruppen in lync Server 2013
 
-Reaktionsgruppen sind eine Anrufverwaltungsfunktion, mit der Sie Anrufe für einen bestimmten Bereich (z. B. ein Helpdesk) in der Warteschleife platzieren und anschließend an eine zuständige Personengruppe namens *Agents* weiterleiten können.
+</div>
 
-Um die Reaktionsgruppen zu verwalten, konfigurieren Sie Agentgruppen, Warteschlangen und Workflows. Diese legen fest, wie ein Anruf vom Zeitpunkt der Tätigung bis hin zur Beantwortung durch einen Agent verarbeitet wird.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2018-02-01_
+
+Reaktionsgruppen sind eine anrufverwaltungsfunktion, mit der Sie Anrufe an einen bestimmten Bereich, beispielsweise einen Helpdesk, in die Warteschlange stellen und die Anrufe an eine bestimmte Gruppe von Personen weiterleiten können, die so genannten *Agenten*sind.
+
+Zum Verwalten von Reaktionsgruppen konfigurieren Sie Agentengruppen,-Warteschlangen und-Workflows, die definieren, was mit einem Anruf ab dem Zeitpunkt erfolgt, zu dem er gespeichert wird, bis ein Agent ihn beantwortet.
+
+<div>
 
 
-> [!NOTE]
-> Wenn Sie über mehr als 300&nbsp;Workflows in einem einzelnen Pool Ihrer Reaktionsgruppenbereitstellung verfügen, sollten Sie die Workflows mithilfe von Lync Server-Verwaltungsshell-Cmdlets erstellen. Wenn Sie das Reaktionsgruppen-Konfigurationstool zum Erstellen von Workflows für einen Pool mit mehr als 300&nbsp;Workflows verwenden, wird für das Laden der Webseite sehr viel Zeit benötigt.
+> [!NOTE]  
+> Wenn in der Bereitstellung von Reaktionsgruppen mehr als 300-Workflows in einem einzigen Pool vorhanden sind, empfiehlt es sich, die Cmdlets der lync Server-Verwaltungsshell zum Erstellen der Workflows zu verwenden. Wenn Sie das Tool für die Reaktionsgruppen Konfiguration verwenden, um Workflows für einen Pool mit mehr als 300-Workflows zu erstellen, dauert die Ladezeit der Webseite sehr lange. Die Anzahl der Agents, die indirekt Workflows über die Warteschlangen zugeordnet sind, wirkt sich auch proportional auf das Laden der Seite aus.
 
 
 
-Die Themen in diesem Abschnitt beinhalten detaillierte Anleitungen für Aufgaben zur Anpassung und Verwaltung der Reaktionsgruppenanwendung in Ihrer Bereitstellung.
+</div>
 
-## In diesem Abschnitt
+Die Themen in diesem Abschnitt enthalten Schritt-für-Schritt-Verfahren für Aufgaben, die Sie ausführen können, um die reaktionsgruppenanwendung in Ihrer Bereitstellung anzupassen und zu verwalten.
 
-  - [Verwalten von Agentgruppen für Reaktionsgruppen](lync-server-2013-managing-response-group-agent-groups.md)
+<div>
 
-  - [Verwalten von Warteschleifen für Reaktionsgruppen](lync-server-2013-managing-response-group-queues.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Verwalten von Workflows für Reaktionsgruppen](lync-server-2013-managing-response-group-workflows.md)
+  - [Verwalten von Reaktionsgruppen-Agentgruppen in lync Server 2013](lync-server-2013-managing-response-group-agent-groups.md)
 
-  - [Verwalten von Reaktionsgruppeneinstellungen auf Anwendungsebene in Lync Server 2013](lync-server-2013-managing-application-level-response-group-settings.md)
+  - [Verwalten von warte Gruppen Warteschlangen in lync Server 2013](lync-server-2013-managing-response-group-queues.md)
 
-  - [Verschieben von Reaktionsgruppen in einen neuen Pool](lync-server-2013-moving-response-groups-to-a-new-pool.md)
+  - [Verwalten von reaktionsgruppenworkflows in lync Server 2013](lync-server-2013-managing-response-group-workflows.md)
+
+  - [Verwalten von Reaktionsgruppeneinstellungen auf Anwendungsebene in lync Server 2013](lync-server-2013-managing-application-level-response-group-settings.md)
+
+  - [Verschieben von Reaktionsgruppen in einen neuen Pool in lync Server 2013](lync-server-2013-moving-response-groups-to-a-new-pool.md)
 
   - [Verwalten von Reaktionsgruppen in Lync Server 2013 während eines Notfalls](lync-server-2013-managing-response-groups-during-a-disaster.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

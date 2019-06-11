@@ -1,89 +1,139 @@
-﻿---
-title: 'Lync Server 2013: Bereitstellungsoptionen für PSTN-Gateways'
-TOCTitle: Bereitstellungsoptionen für PSTN-Gateways
-ms:assetid: d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398899(v=OCS.15)
-ms:contentKeyID: 49295487
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Bereitstellungsoptionen für PSTN-Gateways'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: PSTN gateway deployment options
+ms:assetid: d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398899(v=OCS.15)
+ms:contentKeyID: 48185445
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 137c9996429e953db22bea0c0dbd382f5a7af9a2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823819"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bereitstellungsoptionen für PSTN-Gateways in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="pstn-gateway-deployment-options-in-lync-server-2013"></a>Bereitstellungsoptionen für PSTN-Gateways in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-21_
 
-## PSTN-Gateways
+<div>
 
-Bei PSTN-Gateways (Public Switched Telephone Network) handelt es sich um Hardwarekomponenten von Drittanbietern, die für eine Signal- und Mediendatenübersetzung zwischen der Enterprise-VoIP-Infrastruktur und dem Festnetz sorgen, entweder direkt oder über eine Verbindung zu SIP-Trunks. In beiden Topologien stellt das Gateway den Endpunkt für das Telefonfestnetz dar. Das Gateway ist in einem eigenen Subnetz isoliert und über den Vermittlungsserver mit dem Unternehmensnetzwerk verbunden.
+## <a name="pstn-gateways"></a>PSTN Gateways
 
-In einem Unternehmen mit mehreren Standorten wird üblicherweise mindestens ein Gateway pro Standort bereitgestellt. Zweigniederlassungen können entweder über ein Gateway oder über eine Survivable Branch-Anwendung, die Gateway und Server in einem einzigen Gerät kombiniert, eine Verbindung zum Telefonfestnetz herstellen. Wenn Zweigstellen ein Gateway verwenden, müssen sich am Standort sowohl eine Registrierungstelle als auch ein Vermittlungsserver befinden, es sei denn, die WAN-Verbindung ist ausfallsicher. Ein oder mehrere Vermittlungsserver, die mit Front-End-Servern verbunden sind, können Anrufe an ein oder mehrere Gateways an jedem Standort weiterleiten. Es wird empfohlen, die am Standort erforderlichen Komponenten - Registrierungsstelle, Vermittlungsserver und Gateway - als Survivable Branch-Anwendung bereitzustellen.
+PSTN-Gateways (Public Switched Telephone Network) sind Hardwarekomponenten von Drittanbietern, die Signale und Medien zwischen der Enterprise-VoIP-Infrastruktur und dem PSTN übersetzen, entweder direkt oder über die Verbindung zu SIP-Stämmen. In either topology, the gateway terminates the PSTN. Das Gateway ist in seinem eigenen Subnetz isoliert und wird über den Vermittlungs Server mit dem Unternehmensnetzwerk verbunden.
 
-Das Festlegen von Anzahl, Größe und Standort der PSTN-Gateways ist möglicherweise die wichtigste und teuerste Entscheidung, die Sie bei der Planung Ihrer Enterprise-VoIP-Infrastruktur treffen müssen.
+An enterprise with multiple sites would typically deploy one or more gateways at each site. Zweigstellenstandorte können eine Verbindung mit dem PSTN entweder über ein Gateway oder über eine Survivable Branch-Appliance herstellen, die Gateway und Server in einem einzigen Feld kombiniert. Wenn Verzweigungs Websites ein Gateway verwenden, sind auf der Website sowohl eine Registrierungsstelle als auch ein Vermittlungs Server erforderlich, es sei denn, die WAN-Verbindung ist widerstandsfähig. Auf einem oder mehreren Vermittlungsservern, die sich auf Front-End-Servern befinden, können Anrufe an die einen oder mehrere Gateways an jedem Standort weitergeleitet werden. Wir empfehlen, dass die auf der Website erforderliche Registrierungsstelle, der Vermittlungs Server und das Gateway als Survivable Branch Appliance bereitgestellt werden.
 
-Sie müssen folgende wichtige Fragen bedenken. Keine dieser Fragen kann unabhängig von den anderen beantwortet werden.
+Die Ermittlung von Anzahl, Größe und Standort von PSTN-Gateways ist vielleicht die wichtigste und kostspieligste Entscheidung, die Sie bei der Planung Ihrer Enterprise-VoIP-Infrastruktur treffen müssen.
 
-  - Wie viele PSTN-Gateways sind erforderlich? Die Antwort richtet sich nach der Anzahl von Benutzern, der erwarteten Anzahl gleichzeitiger Anrufe (Datenverkehr) und der Anzahl von Standorten (jeder Standort benötigt ein Gateway).
+Here are the main questions to consider. Keep in mind that the answers to these questions are all interdependent
 
-  - Wie groß sollen die Gateways sein? Die Antwort richtet sich nach der Anzahl von Benutzern am Standort und dem zu erwartenden Datenverkehr.
+  - How many PSTN gateways are needed? The answer depends on the number of users, the anticipated number of simultaneous calls (traffic load), and the number of sites (each site needs one).
 
-  - Wo sollen sich die Gateways befinden? Die Antwort richtet sich zum Teil nach der Topologie und zum Teil nach der geografischen Verteilung Ihrer Organisation.
+  - What size should the gateways be? The answer depends on the number of users at the site and on the traffic load.
 
-Sie sollten auch die Optionen für die Gatewaytopologie berücksichtigen (weitere Informationen hierzu finden Sie im Abschnitt "Gatewaytopologien" weiter unten in diesem Thema).
+  - Where should the gateways be located? The answer depends in part on the topology and in part on the geographic distribution of your organization.
 
-## M:N-Trunkunterstützung
+ You should also consider your gateway topology options (for details, see Gateway Topologies later in this topic).
 
-Die Vermittlungsserver können Anrufe über verschiedene Gateways oder von Internettelefoniedienstanbietern bereitgestellte SBCs (Session Border Controllers) oder eine Kombination dieser beiden Optionen weiterleiten. Außerdem ist die Interaktion mehrerer Vermittlungsserver im Pool mit einem mehreren Gateways möglich. Die zwischen einem Vermittlungsserver und einem Gateway definierte logische Route wird als *Trunk* bezeichnet. Wenn ein interner Benutzer einen PSTN-Anruf tätigt, entscheidet die Routinglogik für ausgehende Anrufe im Front-End-Pool, welcher der für das Routen dieses Anrufs verfügbaren Trunks verwendet werden soll. Wenn in einer Umgebung mit DNS-Lastenausgleich ein Anruf aufgrund eines Problems mit einem bestimmten Vermittlungsserver im Pool nicht an ein Gateway geleitet werden kann, wird dieser Anruf an einen anderen Vermittlungsserver im Pool weitergeleitet.
+<div>
 
-Ausführliche Informationen zum Planen von mehreren Gateways finden Sie unter [M:N-Trunk in Lync Server 2013](lync-server-2013-m-n-trunk.md).
+## <a name="mn-trunk-support"></a>M:N Trunk Support
 
-Ausführliche Informationen zu weiteren Verbesserungen beim Ausgangsrouting finden Sie unter [VoIP-Routen in Lync Server 2013](lync-server-2013-voice-routes.md).
+Die Vermittlungsserver können Anrufe über mehrere Gateways (Session Border Controllers, SBCS), die von Internet-Telefoniedienst-Anbietern bereitgestellt werden, oder eine Kombination der beiden leiten. Darüber hinaus können mehrere Vermittlungsserver im Pool mit mehreren Gateways interagieren. Die logische Route, die zwischen einem Vermittlungs Server und einem Gateway definiert wird, wird als *trunk*bezeichnet. Wenn ein interner Benutzer einen PSTN-Anruf annimmt, wählt die ausgehende Routinglogik im Front-End-Pool aus, welcher trunk über alle möglichen Kombinationen weitergeleitet werden soll, die möglicherweise für das Routing dieses bestimmten Anrufs verfügbar sind. Wenn ein Anruf aufgrund eines Problems mit einem bestimmten Vermittlungsserver im Pool durch einen DNS-Lastenausgleich nicht erreicht wird, wird der Anruf an einen alternativen Vermittlungsserver im Pool wiederholt.
 
-## Gatewaytopologien
+Ausführliche Informationen zur Planung mehrerer Gateways finden Sie unter [M:N trunk in lync Server 2013](lync-server-2013-m-n-trunk.md).
 
-Halten Sie sich bei Ihren Überlegungen zu den grundlegenden Fragen zur Gatewaybereitstellung an die folgenden Schritte:
+Details zu weiteren Verbesserungen des ausgehenden Routings finden Sie unter [VoIP-Routen in lync Server 2013](lync-server-2013-voice-routes.md).
 
-1.  Zählen Sie die Standorte, an denen Sie eine PSTN-Anbindung über Enterprise-VoIP bereitstellen möchten.
+</div>
 
-2.  Schätzen Sie den zu erwartenden Datenverkehr für jeden Standort (Anzahl von Benutzern und durchschnittliche Anzahl von Anrufen pro Stunde und Benutzer).
+<div>
 
-3.  Stellen Sie mindestens ein Gateway an jedem Standort bereit, um den zu erwartenden Datenverkehr zu verarbeiten.
+## <a name="gateway-topologies"></a>Gateway Topologies
 
-Die folgende Abbildung zeigt die verteilte Gatewaytopologie, die Sie auf diese Weise erhalten.
+When you consider the fundamental questions of gateway deployment, follow these steps:
 
-**Verteilte Gatewaytopologie**
+1.  Zählen Sie die Websites, auf denen Sie PSTN-Konnektivität mithilfe von Enterprise-VoIP bereitstellen möchten.
 
-![Verteilte Gatewaytopologie (Diagramm)](images/Gg398899.f0f65a0b-a462-491a-878b-4d4bf0a96f6d(OCS.15).jpg "Verteilte Gatewaytopologie (Diagramm)")
+2.  Estimate the traffic at each site (number of users and average number of calls per hour per user).
 
-In dieser Topologie werden alle Anrufe zwischen Mitarbeitern innerhalb jedes Standorts sowie zwischen den Standorten über Ihr Intranet weitergeleitet. Anrufe in das Telefonfestnetz werden über das IP-Unternehmensnetzwerk an die Gateways weitergeleitet, die dem Standort der Zielrufnummern am nächsten sind. Wie sollte die Bereitstellung jedoch aussehen, wenn Ihre Organisation Dutzende, Hunderte oder sogar Tausende von Standorten unterstützt, die über mehrere Kontinente verteilt sind - was beispielsweise bei vielen Finanzinstituten und anderen großen Unternehmen der Fall ist? In solchen Fällen ist es nicht empfehlenswert, an jedem Standort ein separates Gateway bereitzustellen.
+3.  Deploy one or more gateways at each site to handle the anticipated traffic.
 
-Zur Lösung dieses Problems stellen viele große Unternehmen mindestens einen oder mehrere große zentraler Standorte für die Telefonie bereit, wie in folgender Abbildung gezeigt.
+Die resultierende verteilte Gateway-Topologie wird in der folgenden Abbildung gezeigt.
 
-**Topologie mit einem zentralen Standort für die Telefonie**
+**Topologie des verteilten Gateways**
 
-![Rechenzentrum-Gatewaytopologie](images/Gg398899.927f4808-bf74-405a-be20-2cd9cd87af6d(OCS.15).jpg "Rechenzentrum-Gatewaytopologie")
+![Topologie-Diagramm für verteilte Gateways] (images/Gg398899.f0f65a0b-a462-491a-878b-4d4bf0a96f6d(OCS.15).jpg "Topologie-Diagramm für verteilte Gateways")
 
-In dieser Topologie werden in jedem zentraler Standort mehrere große Gateways bereitgestellt, die für die erwartete Benutzerlast ausreichend sind. Alle Anrufe bei Benutzern im Unternehmen werden durch den Telefondienstanbieter des Unternehmens an einen zentralen Standort weitergeleitet. Die Routinglogik am zentraler Standort bestimmt, ob der Anruf über das Intranet oder an das Telefonfestnetz weitergeleitet werden muss.
+With this topology, calls among workers at each site and between sites are all routed over your intranet. Calls to the PSTN are routed over the enterprise IP network to the gateways that are closest to the location of the destination numbers.But what if your organization supports dozens or hundreds or even thousands of sites spread across one or more continents, as many financial institutions and other large enterprises do? In such cases, deploying a separate gateway at each site is not practical.
 
-## Gatewaystandort
+Um dieses Problem zu beheben, bevorzugen viele große Unternehmen, wie in der nachstehenden Abbildung zu sehen, ein oder einige wenige große Telefonie-Zentrale Standorte bereitzustellen.
 
-Auch der Gatewaystandort bestimmt möglicherweise, welche Typen von Gateways Sie auswählen und wie Sie diese konfigurieren können. Es gibt Dutzende von PSTN-Protokollen, von denen jedoch keines weltweiter Standard ist. Wenn sich all Ihre Gateways in einem einzigen Land bzw. einer einzigen Region befinden, stellt dies kein Problem dar. Wenn Sie jedoch Gateways in mehreren Ländern/Regionen platzieren, muss jedes Gateway gemäß den dort verwendeten PSTN-Standards konfiguriert werden. Außerdem sind die Gateways, die beispielsweise für den Betrieb in Kanada zugelassen sind, in Indien, Brasilien oder der Europäischen Union möglicherweise nicht zugelassen.
+**Topologie des zentralen Telefonie-Standorts**
 
-## Größe und Anzahl von Gateways
+![Datencenter-Gateway-Topologie] (images/Gg398899.927f4808-bf74-405a-be20-2cd9cd87af6d(OCS.15).jpg "Datencenter-Gateway-Topologie")
 
-Die Größe der PSTN-Gateways, deren Bereitstellung für die meisten Organisationen in Betracht kommt, liegt im Bereich von 2 bis 960 Ports. (Es gibt sogar noch größere Gateways; diese werden jedoch hauptsächlich von Telefonanbietern verwendet.) Um zu schätzen, wie viele Ports in Ihrer Organisation benötigt werden, beachten Sie die folgenden Richtlinien:
+In dieser Topologie sind mehrere große Gateways, die für die erwartete Benutzerauslastung ausreichend sind, an jedem zentralen Standort bereitgestellt. All calls to users in the enterprise are forwarded by the company's telephone service provider to a central site. Die Routing Logik am zentralen Standort bestimmt, ob der Anruf über das Intranet oder das PSTN weitergeleitet werden soll.
 
-  - Wenn in Ihrer Organisation wenig telefoniert wird (ein PSTN-Anruf pro Benutzer und Stunde), sollten Sie einen Port für jeweils 15 Benutzer zuordnen. Wenn beispielsweise 20 Benutzer vorhanden sind, benötigen Sie ein Gateway mit zwei Ports.
+</div>
 
-  - Wenn in Ihrer Organisation mäßig viel telefoniert wird (zwei PSTN-Anrufe pro Benutzer und Stunde), sollten Sie einen Port für jeweils 10 Benutzer zuordnen. Wenn beispielsweise 100 Benutzer vorhanden sind, benötigen Sie insgesamt 10 Ports, die Sie auf einem oder auf mehreren Gateways zuordnen können.
+<div>
 
-  - Wenn in Ihrer Organisation viel telefoniert wird (mindestens drei PSTN-Anrufe pro Benutzer und Stunde), sollten Sie einen Port für jeweils 5 Benutzer zuordnen. Wenn beispielsweise 47.000 Benutzer vorhanden sind, benötigen Sie insgesamt 9.400 Ports, die Sie auf mindestens 10 großen Gateways zuordnen sollten.
+## <a name="gateway-location"></a>Gateway Location
 
-  - Zusätzliche Ports können erworben werden, wenn die Benutzeranzahl oder der Umfang des Datenverkehrs in Ihrer Organisation steigt.
+Gateway location may also determine the types of gateways that you choose and how they are configured. There are dozens of PSTN protocols, none of which is a worldwide standard. If all your gateways are located in a single country/region, this is not an issue, but if you locate gateways in several countries/regions, each must be configured according to the PSTN standards of that country/region. Moreover, gateways that are certified for operation in, for example, Canada, may not be certified in India, Brazil, or the European Union.
 
-Für jede zu unterstützende Benutzeranzahl können Sie entweder wenige größere Gateways oder mehrere kleine bereitstellen. Prinzipiell werden für jede Organisation mindestens zwei Gateways empfohlen, um die Verfügbarkeit sicherzustellen, falls ein Gateway ausfällt.
+</div>
 
-Für jedes bereitgestellte PSTN-Gateway muss mindestens ein entsprechender Vermittlungsserver vorhanden sein.
+<div>
+
+## <a name="gateway-size-and-number"></a>Gateway Size and Number
+
+The PSTN gateways that most organizations will consider deploying range in size from 2 to as many as 960 ports. (There are even larger gateways, but these are used mainly by telephone service providers.) When estimating the number of ports your organization requires, use the following guidelines:
+
+  - Organizations with light telephony usage (one PSTN call per user per hour) should allocate one port for every 15 users. For example, if you have 20 users, you will require a gateway with two ports.
+
+  - Organizations with moderate telephony usage (two PSTN calls per user per hour) should allocate one port for every 10 users. For example, if you have 100 users, you will require a total of 10 ports allocated among one or more gateways.
+
+  - Organizations with heavy telephony usage (three or more PSTN calls per user per hour) should allocate one port for every five users. For example, if you have 47,000 users, you will require a total of 9,400 ports allocated among at least 10 large gateways.
+
+  - Additional ports can be acquired as the number of users or amount of traffic in your organization increases.
+
+For any given number of users you must support, you have the choice of deploying fewer, larger gateways, or smaller ones. As a rule, a minimum of two gateways for an organization is recommended to maintain availability if one gateway fails. 
+
+Jedes von Ihnen bereitgestellte PSTN-Gateway muss mindestens über einen entsprechenden Vermittlungs Server verfügen.
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

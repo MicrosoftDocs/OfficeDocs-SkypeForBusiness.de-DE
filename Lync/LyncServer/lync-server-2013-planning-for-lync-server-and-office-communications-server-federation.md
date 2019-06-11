@@ -1,109 +1,162 @@
-﻿---
-title: Planen von Lync Server- und Office Communications Server-Partnerverbünden
-TOCTitle: Planen von Lync Server- und Office Communications Server-Partnerverbünden
-ms:assetid: c9eaf06b-054f-41a4-ad0c-499400d6c4c7
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205335(v=OCS.15)
-ms:contentKeyID: 49295399
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Planen der lync Server-und Office Communications Server-Föderation
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Lync Server and Office Communications Server federation
+ms:assetid: c9eaf06b-054f-41a4-ad0c-499400d6c4c7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205335(v=OCS.15)
+ms:contentKeyID: 48185640
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c683092b61d278d380ad68cef86795d496498fbf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824785"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planen von Lync Server- und Office Communications Server-Partnerverbünden
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="planning-for-lync-server-2013-and-office-communications-server-federation"></a>Planen der lync Server 2013-und Office Communications Server-Föderation
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-13_
 
-Der Partnerverbund zwischen Microsoft Lync Server 2013, Lync Server 2010 und Office Communications Server unterstützt die Peer-zu-Peer-Kommunikation und die Kommunikation mit mehreren Teilnehmern. Peer-zu-Peer-Unterhaltungen können auf Unterhaltungen mit mehreren Teilnehmern ausgeweitet werden, wodurch spontane Besprechungen ermöglicht werden. Besprechungen – Webkonferenzen oder Audio/Videokonferenzen – können so geplant werden, dass Kontakte innerhalb Ihrer Organisation sowie Kontakte bei Partnern, mit denen Sie einen Partnerverbund eingegangen sind, einbezogen werden.
+Der Verbund zwischen Microsoft lync Server 2013, lync Server 2010 und Office Communications Server unterstützt Peer-to-Peer-und Mehrparteienkommunikation. Peer-to-Peer-Unterhaltungen können an mehr Parteien Unterhaltungen eskaliert werden, was zu Ad-hoc-Besprechungen führt. Besprechungen – Webkonferenzen oder Audio/visuelle Konferenzen – können so geplant werden, dass Sie Kontakte innerhalb Ihrer Organisation sowie Kontakte in Partner einbeziehen, mit denen Sie eine Föderation aufnehmen.
 
-Der Partnerverbund wurde in Microsoft Office Live Communications Server 2005 eingeführt und unterstützte eine Art von Partnerverbund, nämlich den direkten Partnerverbund. Für den direkten Partnerverbund mussten Sie die SIP-Domäne (Session Initiation Protocol) und den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Edgeservers des Verbundpartners kennen. In Live Communications Server 2005 mit SP1 wurden zusätzliche Partnerverbundtypen eingeführt, für die DNS SRV-Einträge vom Verbundpartner veröffentlicht werden mussten, um den Edgeserver aufzufinden. Für diese Version wurde folgende Terminologie verwendet:
+Federation erschien zunächst in Microsoft Office Live Communications Server 2005 und unterstützte eine Art von Föderation, direkte Föderation. Für den direkten Verbund mussten Sie die SIP-Domäne (Session Initiation Protocol) des Partner Verbandes und den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Edge-Servers des Partners kennen. Mit Live Communications Server 2005 mit SP1 wurden zusätzliche Föderations Typen eingeführt, die alle DNS-SRV-Einträge (Domain Name System) benötigten, die von dem Partnerverbund zum Auffinden des Edgeserver veröffentlicht wurden. Die Terminologie für diese Version lautete:
 
-  - *Öffentlicher erweiterter Verbund*: Jeder SIP-Domänenname wird akzeptiert, und DNS SRV wird zum Auffinden des Edgeservers des Partners verwendet.
+  - *Erweiterte Föderation öffnen*: akzeptieren Sie einen beliebigen SIP-Domänennamen, und verwenden Sie DNS SRV zum Auffinden des Partner-Edge-Servers.
 
-  - *Erweiterter Verbund*: Der SIP-Domänennamen des Partners wird als Verbundpartner für Ihre Organisation konfiguriert, und DNS SRV wird zum Auffinden des Edgeservers des Partners verwendet.
+  - *Erweiterte Föderation*: Konfigurieren Sie den SIP-Domänennamen des Partners als Verbundpartner für Ihre Organisation, und verwenden Sie DNS SRV zum Auffinden des Partner-Edge-Servers.
 
-  - *Direkter Verbund*: Der SIP-Domänenname und der FQDN des Partners werden für den Edgeserver des Partners konfiguriert.
+  - *Direkter Verbund*: Konfigurieren Sie den SIP-Domänennamen und den FQDN des Partners auf dem Edgeserver des Partners.
 
-  - *Serverzulassungsliste*: Jede Domäne wird akzeptiert, DNS SRV wird zum Auffinden des Edgeservers eines Hostinganbieters oder eines Chatdienstanbieters verwendet.
+  - *Server Zulassungsliste*: akzeptieren einer beliebigen Domäne, verwenden von DNS SRV zum Auffinden des Edgeserver eines Hostinganbieter oder eines öffentlichen Instant Messaging (im)-Verbindungs Anbieters
 
-In Microsoft Office Communications Server 2007 wurden aktualisierte Namen für Partnerverbundtypen eingeführt, um die Funktion der einzelnen Partnerverbundtypen besser zu definieren:
+Microsoft Office Communications Server 2007 hat aktualisierte Namen für Verbundtypen eingeführt, um besser zu definieren, was die einzelnen Föderations Typen tatsächlich erreicht haben:
 
-  - Aus dem öffentlichen erweiterten Verbund wurde die *erkannte Partnerdomäne*
+  - Open Enhanced Federation wurde als *erkannte Partner Domäne* bekannt
 
-  - Aus dem erweiterten Verbund wurde die *zulässige Partnerdomäne*
+  - Erweiterte Föderation wurde als *zugelassene Partner Domäne* bekannt
 
-  - Aus dem direkten Verbund wurde der *zulässige Partnerserver*
+  - Der direkte Verbund wurde als *zugelassener Partner Server* bekannt.
 
-  - Aus der Serverzulassungsliste wurde der *Hostinganbieter* und der *öffentliche Chatanbieter*
+  - Server Zulassungsliste wurde als *Hostinganbieter* und *Öffentlicher Chat Anbieter* bekannt.
 
-In Microsoft Lync Server 2010 wurde eine enger gefasste Definition des Hostinganbieters gemäß Microsoft Lync Online 2010 und Microsoft Office 365 eingeführt, und außerdem wurde die vom Verbundpartnertyp "zulässige Partnerdomäne" definierte Zulassungsliste verwendet.
+Microsoft lync Server 2010 hat eine schmalere Definition des Hostinganbieter-Anbieters in Übereinstimmung mit Microsoft lync Online 2010 und Microsoft Office 365 eingeführt und außerdem der gleichen zulässigen Liste unterzogen, die durch den Föderations zugelassene Partner Domäne definiert ist.
 
-Für den Partnerverbund zwischen Microsoft Lync Server 2013, Lync Server 2010 und Office Communications Server werden mit den Edgeservern und Reverseproxys die von Ihnen definierten Regeln und zulässigen Partnerdomänen erzwungen. Aus Sicht der Planung ist für den Partnerverbund mit anderen Lync Server-Instanzen für Office Communications Server Folgendes erforderlich:
+Wenn Sie den Verbund zwischen Microsoft lync Server 2013, lync Server 2010 und Office Communications Server aktivieren, werden die Edgeserver und Reverse Proxys verwendet, um die von Ihnen definierten Regeln und zulässigen Partnerdomänen zu erzwingen. Aus Planungssicht erfordert die Zusammenarbeit mit anderen lync-Servern in Office Communications Server Folgendes:
 
-  - Aktivieren Sie den Partnerverbund im Topologie-Generator. Ausführliche Informationen finden Sie im Bereitstellungsthema [Konfigurieren von SIP-Partnerverbünden, XMPP-Partnerverbünden und öffentlichem Chat in Lync Server 2013](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md).
+  - Aktivieren der Föderation im Topologie-Generator Ausführliche Informationen finden Sie im Bereitstellungs Thema [Konfigurieren von SIP Federation, XMPP Federation und Public Instant Messaging in lync Server 2013](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md).
 
-  - Bestimmen Sie Ihre Anforderungen für die Erkennung von Partnerverbunddomänen:
+  - Ermitteln Sie Ihre Anforderungen für die Föderationsdomänen Ermittlung:
     
-      - Für die manuelle Konfiguration des Partnerverbunds benötigen Sie den vollqualifizierten Domänennamen (FQDN) des Edgeservers des Partners und den Domänennamen, oder Onlinedomänennamen, der in der Lync Server-Systemsteuerung unter **Partnerverbund und externer Zugriff**, **SIP-Partnerverbunddomänen** eingegeben wird. Erstellen Sie eine neueRichtlinie, oder bearbeitenSie eine vorhandene Richtlinie, um Domänen anhand des FQDN zuzulassen oder zu blockieren.
+      - <span></span>  
+        Für die manuelle Konfiguration von Federation müssen Sie über den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Edge-Servers des Partners und des Domänennamens oder des Online Domänennamens verfügen, der in der lync Server-Systemsteuerung, in der **Föderation und im externen Zugriff**, SIP eingegeben wird. ** Föderationsdomänen**. Erstellen Sie eine **neue** Richtlinie, oder **Bearbeiten** Sie eine vorhandene Richtlinie, damit Domänen nach FQDN zugelassen oder blockiert werden.
+        
+        <div>
         
 
         > [!WARNING]
-        > Die manuelle Konfiguration des Edgeservers eines Verbundpartners ist fehleranfällig, falls der Partner die IP-Adresse des Edgeservers ändert.
+        > Die manuelle Konfiguration des Edge-Servers eines Verbundpartners ist für den Fall anfällig, dass der Partner die IP-Adresse seines Edge-Servers ändert.
 
+        
+        </div>
+        
+        <div>
         
 
         > [!NOTE]
-        > Für neue SIP-Partnerverbunddomänenmüssen Sie eine Eingabe in <STRONG>Domänenname (oder FQDN)</STRONG> für Microsoft Lync Online, Microsoft Office 365 vornehmen. Für Microsoft Lync Server 2013, Lync Server 2010 und Office Communications Server müssen Sie auch eine Eingabe für <STRONG>Zugriffs-Edgedienst (FQDN)</STRONG> vornehmen.
+        > Für <STRONG>neue SIP-Verbunddomänen</STRONG>müssen Sie den <STRONG>Domänennamen (oder den FQDN)</STRONG> für Microsoft lync Online, Microsoft Office 365, angeben. Für Microsoft lync Server 2013, lync Server 2010 und Office Communications Server müssen Sie auch einen <STRONG>Access Edge Service (FQDN)</STRONG> bereitstellen.
 
+        
+        </div>
     
-      - Für die Partnerverbunderkennung, bei der Partner Ihren Edgeserver erkennen können, erstellen Sie einen SRV-Eintrag in Ihrem externen DNS (\_sipfederationtls.\_tcp.contoso.com), der auf Port 5061 und den Hosteintrag (A) Ihres Edgeservers verweist.
+      - <span></span>  
+        Für entdeckten Partnerverbund, in dem Partner ihren Edgeserver entdecken können, erstellen Sie einen SRV-Eintrag in Ihrem \_externen DNS-sipfederationtls. \_TCP.contoso.com – verweist auf den Port 5061 und den Host (A)-Eintrag Ihres Edge-Servers
+        
+        <div>
         
 
         > [!IMPORTANT]
-        > Wenn Sie Microsoft Lync Mobile-Clients unter Windows Phone oder Apple iPhone, iPad oder sonstigen Apple-Geräten unterstützen und den Pushbenachrichtigungsdienst oder Pushbenachrichtigungsdienst verwenden, müssen Sie _sipfederationtls._tcp. <EM>&lt;SIP-Domäne&gt;</EM>-SRV-Einträge für jede SIP-Domäne einplanen, für die Sie über Lync Mobile-Clients verfügen. Android und Nokia Symbian Lync Mobile verwenden die Pushbenachrichtigung nicht, weshalb diese Anforderung in diesem Falle nicht zutrifft.
+        > Wenn Sie Microsoft lync Mobile-Clients auf Windows Phone oder Apple iPhone, iPad oder anderen Apple-Geräten unterstützen und den Push-Benachrichtigungsdienst oder den Push-Benachrichtigungsdienst verwenden, müssen Sie _sipfederationtls. _tcp planen. &lt;SIP-&gt; Domänen-SRV-Einträge für jede SIP-Domäne, auf der Sie lync Mobile-Clients haben. Android und Nokia Symbian lync Mobile verwenden keine Push-Benachrichtigung und unterliegen nicht dieser Anforderung.
 
+        
+        </div>
 
+  - Konfigurieren von Richtlinien für den externen Benutzer Zugriff zur Unterstützung von Verbunddomänen
 
-  - Konfigurieren Sie Richtlinien für den Zugriff durch externe Benutzer, um Partnerverbunddomänen zu unterstützen.
+  - Öffnen Sie die Firewall-Ports für SIP (Session Initiation Protocol), Webkonferenzen und Audio/visuell, um die von Ihnen aktivierte Föderation oder Kontakte aufnehmen zu können. Ausführliche Informationen finden Sie unter: [ermitteln externer A/V-Firewall-und Portanforderungen für lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
 
-  - Öffnen Sie Firewallports für SIP (Session Initiation Protocol), Webkonferenzen und Audio/Video, um den Partnerverbund oder die Kontakte, die Sie aktivieren, zu ermöglichen. Ausführliche Informationen finden Sie unter [Ermitteln der Anforderungen für externe A/V-Firewalls und Ports für Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
+Die folgenden Informationen unterstützen Sie bei der Definition der Zertifikat-, Port/Protokoll-und DNS-Anforderungen für den Verbund mit Microsoft lync Server 2013 und lync Server 2010.
 
-Die folgenden Informationen helfen Ihnen beim Definieren der Zertifikat-, Port/Protokoll- und DNS-Anforderungen für den Partnerverbund mit Microsoft Lync Server 2013 und Lync Server 2010.
+Die Planung für Zertifikate, Firewall-und Port/Protocol-Anforderungen und DNS-Anforderungen ist in der Regel ein geradliniger Prozess, wenn Sie Ihre Microsoft lync Server 2013-Edgeserver geplant oder bereitgestellt haben. Da es sich bei der Föderation um ein zusätzliches Feature handelt, das den vorhandenen Edgeserver verwendet, werden die Planungsanforderungen in der Regel von der Planung und Bereitstellung des Edge-Servers erfüllt. Verwenden Sie die folgenden Tabellen, um festzustellen, ob Ihre Anforderungen erfüllt sind, und nehmen Sie dementsprechend Änderungen an Port/Protokoll und DNS vor.
 
-Das Planen der Zertifikat-, Firewall-, Port/Protokoll- und DNS-Anforderungen ist im Allgemeinen ein einfacher Vorgang, wenn Sie Ihre Microsoft Lync Server 2013-Edgeserver geplant oder bereitgestellt haben. Da es sich beim Partnerverbund um ein zusätzliches Feature handelt, das den vorhandenen Edgeserver verwendet, werden die Planungsanforderungen im Allgemeinen von der Planung und Bereitstellung der Edgeserver erfüllt. Sie sollten anhand der folgenden Tabellen bestimmen, ob Ihre Anforderungen erfüllt sind, und entsprechend Änderungen im Hinblick auf Port/Protokoll und DNS vornehmen.
+<div>
 
 
 > [!IMPORTANT]
-> Wenn Sie einen Pool von Edgeservers verwenden und einen Partnerverbund mit Lync Server 2013- oder Lync Server 2010-Partnern einrichten, können Sie den DNS-Lastenausgleich oder Hardwaregeräte zum Lastenausgleich auf der internen und externen Seite der Edgeserver verwenden. Wenn Sie einen Partnerverbund mit Office Communications Server 2007 oder Office Communications Server 2007 R2 einrichten, unterstützen Hardwaregeräte zum Lastenausgleich das Failover für einen Edgeserver. Office Communications Server 2007 und Office Communications Server 2007 R2 unterstützen den DNS-Lastenausgleich nicht. Die Partner-Edgeserver stellen die Kommunikation mit dem ersten Edgeserver im Pool her, der antwortet. Falls dieser Edgeserver ausfällt, erfolgt kein automatisches Failover für die Kommunikation.
+> Wenn Sie über einen Pool von Edge-Servern verfügen und mit lync Server 2013-oder lync Server 2010-Partnern zusammenarbeiten, können Sie entweder den DNS-Lastenausgleich oder Hardwarelastenausgleichs auf der internen und externen Seite der Edgeserver verwenden. Wenn Sie mit Office Communications Server 2007 oder Office Communications Server 2007 R2 eine Föderation durchführen, bietet der Hardwarelastenausgleich eine Failover-Unterstützung für den Fall eines Edgeserver. Office Communications Server 2007 und Office Communications Server 2007 R2 sind nicht für den DNS-Lastenausgleich bekannt. Die Partner-Edgeserver richten die Kommunikation mit dem ersten Edgeserver in Ihrem Pool ein, der antwortet. Wenn dieser Edge-Server ausfällt, wird die Kommunikation nicht automatisch Failover.
 
 
 
-Zertifikatanforderungen werden in der Regel durch die Planung von Zertifikaten für Ihren gewählten Edgeserver- oder Pool-Edgeserver-Plan erfüllt.
+</div>
 
-## In diesem Abschnitt
+Die Zertifikatanforderungen werden in der Regel durch die Planung von Zertifikaten für den ausgewählten Edgeserver oder den Pooled Edge Server-Plan erfüllt.
 
-  - [Zertifikatzusammenfassung – SIP, XMPP-Partnerverbund und öffentliche Chatdienste](lync-server-2013-certificate-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+<div>
 
-  - [Portzusammenfassung – SIP, XMPP-Partnerverbund und Chat in öffentlichen Netzen](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [DNS-Zusammenfassung - SIP-, XMPP-Partnerverbund und öffentliche Chatdienste](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [Zusammenfassung des Zertifikats – SIP, XMPP Federation und Public Instant Messaging in lync Server 2013](lync-server-2013-certificate-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
-## Siehe auch
+  - [Port Zusammenfassung – SIP, XMPP Federation und Public Instant Messaging in lync Server 2013](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
-#### Aufgaben
+  - [DNS-Zusammenfassung – SIP, XMPP Federation und Public Instant Messaging in lync Server 2013](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Siehe auch
+
 
 [Konfigurieren von Richtlinien zur Steuerung des Partnerbenutzerzugriffs in Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
 
-#### Konzepte
 
 [Szenarien für den Zugriff durch externe Benutzer in Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)  
 [Ermitteln der Anforderungen für externe A/V-Firewalls und Ports für Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
 [Ermitteln von DNS-Anforderungen für Lync Server 2013](lync-server-2013-determine-dns-requirements.md)  
 
-#### Weitere Ressourcen
 
 [Verwalten der Konfiguration des Zugriffsedge für Ihre Organisation in Lync Server 2013](lync-server-2013-manage-access-edge-configuration-for-your-organization.md)  
 [Verwalten von SIP-Partnerdomänen für eine Organisation in Lync Server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)  
-[Verwalten von SIP-Partnerverbundanbietern für eine Organisation in Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)
+[Verwalten von SIP-Partnerverbundanbietern für eine Organisation in Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

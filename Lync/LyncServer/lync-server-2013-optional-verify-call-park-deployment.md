@@ -1,31 +1,64 @@
-﻿---
-title: 'Lync Server 2013: (Optional) Überprüfen der Bereitstellung der Funktion zum Parken von Anrufen'
-TOCTitle: (Optional) Überprüfen der Bereitstellung der Funktion zum Parken von Anrufen
-ms:assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg413076(v=OCS.15)
-ms:contentKeyID: 49296004
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: (optional) Überprüfen der Bereitstellung des Anruf Parks'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: (Optional) Verify Call Park deployment
+ms:assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413076(v=OCS.15)
+ms:contentKeyID: 48185952
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 110617bbd77da0efb8802c6aba401f2ea5075b01
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825723"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# (Optional) Überprüfen der Bereitstellung der Funktion zum Parken von Anrufen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="optional-verify-call-park-deployment-in-lync-server-2013"></a>Optional Überprüfen der Bereitstellung des Anruf Parks in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-11_
 
-Nach dem Installieren und Konfigurieren der Anwendung zum Parken von Anrufen müssen Sie die Konfiguration überprüfen, um sicherzustellen, dass das Parken und Entgegennehmen von Anrufen wie erwartet funktioniert. Überprüfen Sie mindestens Folgendes:
+Nachdem Sie den Parken von Anrufen installiert und konfiguriert haben, müssen Sie die Konfiguration überprüfen, um sicherzustellen, dass das Parken und Abrufen von anrufen wie erwartet funktioniert. Überprüfen Sie mindestens Folgendes:
 
-  - Rufen Sie einen Benutzer an, bei dem das Parken von Anrufen aktiviert ist, und bitten Sie ihn oder sie, den Anruf zu parken.
+  - Rufen Sie einen Benutzer an, der den Anruf Park aktiviert hat, und lassen Sie den Anruf vom Nutzer Parken.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Wenn Sie Parken von Anrufen kurz vor dem Testen in der VoIP-Richtlinie aktiviert haben, muss dieser Benutzer sich von Lync Server abmelden und dann wieder anmelden, damit die Option zum Parken von Anrufen in der Liste zur Anrufweiterleitung angezeigt wird.
+    > [!NOTE]  
+    > Wenn Sie den Anruf Park in der VoIP-Richtlinie unmittelbar vor der Durchführung dieses Tests aktiviert haben, muss sich der Benutzer, der den Anruf parkt, von lync Server abmelden und dann wieder anmelden, um die Option "Parken" in der Anrufliste für Anrufe sehen zu können.
 
+    
+    </div>
 
+  - Wählen Sie die Orbitnummer aus, um den Anruf entgegenzunehmen.
 
-  - Wählen Sie die Orbitnummer, um den Anruf entgegenzunehmen.
+  - Parken Sie einen weiteren Anruf, lassen Sie die Zeitspanne für die Zeitüberschreitung verstreichen und nehmen Sie den Rückruf nicht entgegen. Überprüfen Sie, ob der Anruf, bei dem eine Zeitüberschreitung aufgetreten ist, ordnungsgemäß an das für **OnTimeoutURI** angegebene Fallbackziel weitergeleitet wurde.
 
-  - Parken Sie einen weiteren Anruf, lassen Sie Zeitspanne für die Zeitüberschreitung verstreichen, und nehmen Sie den Rückruf nicht entgegen. Überprüfen Sie, ob der Anruf, bei dem eine Zeitüberschreitung aufgetreten ist, ordnungsgemäß an das für **OnTimeoutURI** angegebene Fallbackziel weitergeleitet wurde.
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

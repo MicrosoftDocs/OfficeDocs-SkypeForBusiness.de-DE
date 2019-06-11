@@ -1,88 +1,136 @@
-﻿---
-title: Ausführen von Testfällen für das VoIP-Routing
-TOCTitle: Ausführen von Testfällen für das VoIP-Routing
-ms:assetid: fb4d32df-b9ea-4944-8cd7-a6102c78c465
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg413068(v=OCS.15)
-ms:contentKeyID: 49295986
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Ausführen von Testfällen für das VoIP-Routing'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Run voice routing test cases
+ms:assetid: fb4d32df-b9ea-4944-8cd7-a6102c78c465
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413068(v=OCS.15)
+ms:contentKeyID: 48185948
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0cded8f3bf44388103ccf5a33507973817de45ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822398"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ausführen von Testfällen für das VoIP-Routing
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="run-voice-routing-test-cases-in-lync-server-2013"></a>Ausführen von Testfällen für das VoIP-Routing in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-24_
 
-Sie können sämtliche Testfälle in Ihrem Paket mit Testfällen für das VoIP-Routing oder lediglich einen bzw. einige ausgewählte Testfälle ausführen.
+Sie können alle Testfälle in Ihrer Suite für den sprach Routing Test ausführen, oder Sie können einen oder mehrere ausgewählte Test Cases ausführen.
 
-## So führen Sie alle Testfälle für das VoIP-Routing aus
+<div>
 
-1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setupberechtigungen in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+## <a name="to-run-all-voice-routing-test-cases"></a>So führen Sie alle Test Cases für VoIP-Routing aus
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing** und dann auf **VoIP-Routing testen**.
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-4.  Klicken Sie auf der Seite **VoIP-Routing testen** auf **Aktion** und anschließend auf **Alle ausführen**.
-    
-    Ob ein Testfall erfolgreich war oder nicht, wird in der Spalte **Erfolgreich/Fehler** angezeigt. Für Testfälle, die noch nicht ausgeführt wurden, wird in der Spalte **Erfolgreich/Fehler** der Eintrag "N/A" angezeigt.
+3.  Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing** , und klicken Sie dann auf VoIP- **Routing testen**.
 
-5.  (Optional) Doppelklicken Sie auf den Namen eines Testfalls, um detaillierte Ergebnisse anzuzeigen. Die Ergebnisse werden rechts auf der Seite **Testfall bearbeiten** im schattierten Bereich angezeigt:
+4.  Klicken Sie auf der Seite **VoIP-Routing testen** auf **Aktion** und dann auf **alle ausführen**.
     
-    1.  **Testergebnis:** Gesamtstatus für die Ausführung des Testfalls (erfolgreich oder Fehler)
+    Der Pass-oder Fehlerstatus jedes Testfalls wird in der Spalte **Pass/Fehler** angezeigt. Wenn ein Testfall noch nicht ausgeführt wurde, wird N/a in der Spalte **Durchlauf/Fehler** angezeigt.
+
+5.  Optional Wenn Sie detaillierte Ergebnisse für jeden Testfall anzeigen möchten, doppelklicken Sie auf den Namen des Testfalls. Die Ergebnisse werden im schattierten Bereich auf der rechten Seite der Seite **Testfall bearbeiten** angezeigt:
     
-    2.  **Normalisierungsregel:** Die erste Normalisierungsregel in den für diesen Testfall ausgewählten Wähleinstellungen, die mit der gewählten Nummer (dem Wert im Feld **Zu testende Nummer**) übereinstimmt.
+    1.  **Test Ergebnis:** Gesamtdurchlauf-oder Fehlerstatus des Test Fall Laufs
     
-    3.  **Normalisierte Nummer:** Der Wert der gewählten Nummer nach der Übersetzung mithilfe der Normalisierungsregel.
+    2.  **Normalisierungsregel:** Die erste Normalisierungsregel im Wählplan, die für diesen Testfall ausgewählt wurde, der der gewählten Nummer entspricht (dem Wert im Feld " **zu testende Zahl** ").
     
-    4.  **Erste PSTN-Verwendung:** Der erste PSTN-Verwendungsdatensatz (Public Switched Telephone Network, Festnetz) in der für diesen Testfall ausgewählten VoIP-Richtlinie, der mit der gewählten Nummer übereinstimmt.
+    3.  **Normalisierte Zahl:** Der Wert der gewählten Nummer, nachdem Sie von der Normalisierungsregel übersetzt wurde.
     
-    5.  **Erste Route:** Die erste VoIP-Route im ersten PSTN-Verwendungsdatensatz, die mit der gewählten Nummer übereinstimmt.
+    4.  **Erste PSTN-Nutzung:** Der erste PSTN-Nutzungs Eintrag (Public Switched Telephone Network) in der VoIP-Richtlinie, der für diesen Testfall ausgewählt wurde, der der gewählten Nummer entspricht.
+    
+    5.  **Erste Route:** Die erste VoIP-Route im ersten PSTN-Verwendungsdaten Satz, die der gewählten Nummer entspricht.
+        
+        <div>
         
 
-        > [!NOTE]
-        > Die Felder <STRONG>Erwarteter PSTN-Verwendungsdatensatz</STRONG> und <STRONG>Erwartete Route</STRONG> sind bei der Testfallkonfiguration für das VoIP-Routing optional. Wenn diese Werte nicht für den Testfall angegeben werden, sind die entsprechenden Felder in den Testergebnissen leer.
+        > [!NOTE]  
+        > Der <STRONG>erwartete PSTN-Nutzungsdaten Satz</STRONG> und die <STRONG>erwarteten Route</STRONG> -Felder sind in der Konfiguration des Testfalles für sprach Routing optional. Wenn der Testfall diese Werte nicht angibt, ist das entsprechende Feld in den Testergebnissen leer.
 
+        
+        </div>
 
+</div>
 
-## So führen Sie einen oder mehrere ausgewählte Testfälle für das VoIP-Routing aus
+<div>
 
-1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setupberechtigungen in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+## <a name="to-run-one-or-more-selected-voice-routing-test-cases"></a>So führen Sie einen oder mehrere ausgewählte VoIP-Test Cases aus
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter Delegieren von [Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-3.  Klicken Sie auf der linken Navigationsleiste auf **VoIP-Routing** und dann auf **VoIP-Routing testen**.
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing**, und klicken Sie dann auf VoIP- **Routing testen**.
 
 4.  Klicken Sie auf der Seite **VoIP-Routing testen** auf die Namen der Testfälle, die Sie ausführen möchten.
 
-5.  Klicken Sie im Menü **Aktion** auf **Ausgewählte ausführen**.
+5.  Klicken Sie im Menü **Aktion** auf **ausgewählte ausführen**.
     
-    Ob ein Testfall erfolgreich war oder nicht, wird in der Spalte **Erfolgreich/Fehler** angezeigt. Für Testfälle, die noch nicht ausgeführt wurden, wird in der Spalte **Erfolgreich/Fehler** der Eintrag "N/A" angezeigt.
+    Der Pass-oder Fehlerstatus jedes Testfalls wird in der Spalte **Pass/Fehler** angezeigt. Wenn ein Testfall noch nicht ausgeführt wurde, wird N/a in der Spalte **Durchlauf/Fehler** angezeigt.
 
-6.  (Optional) Doppelklicken Sie auf den Namen eines Testfalls, um detaillierte Ergebnisse anzuzeigen. Die Ergebnisse werden rechts auf der Seite **Testfall bearbeiten** im schattierten Bereich angezeigt:
+6.  Optional Wenn Sie detaillierte Ergebnisse für jeden Testfall anzeigen möchten, doppelklicken Sie auf den Namen des Testfalls. Die Ergebnisse werden im schattierten Bereich auf der rechten Seite der Seite **Testfall bearbeiten** angezeigt:
     
-    1.  **Testergebnis:** Gesamtstatus für die Ausführung des Testfalls (erfolgreich oder Fehler)
+    1.  **Test Ergebnis:** Gesamtdurchlauf-oder Fehlerstatus des Test Fall Laufs
     
-    2.  **Normalisierungsregel:** Die erste Normalisierungsregel in den für diesen Testfall ausgewählten Wähleinstellungen, die mit der gewählten Nummer (dem Wert im Feld **Zu testende Nummer**) übereinstimmt.
+    2.  **Normalisierungsregel:** Die erste Normalisierungsregel im Wählplan, die für diesen Testfall ausgewählt wurde, der der gewählten Nummer entspricht (dem Wert im Feld " **zu testende Zahl** ").
     
-    3.  **Normalisierte Nummer:** Der Wert der gewählten Nummer nach der Übersetzung mithilfe der Normalisierungsregel.
+    3.  **Normalisierte Zahl:** Der Wert der gewählten Nummer, nachdem Sie von der Normalisierungsregel übersetzt wurde.
     
-    4.  **Erste PSTN-Verwendung:** Der erste PSTN-Verwendungsdatensatz in der für diesen Testfall ausgewählten VoIP-Richtlinie, der mit der gewählten Nummer übereinstimmt.
+    4.  **Erste PSTN-Nutzung:** Der erste PSTN-Verwendungs Eintrag in der VoIP-Richtlinie, der für diesen Testfall ausgewählt wurde, der der gewählten Nummer entspricht.
     
-    5.  **Erste Route:** Die erste VoIP-Route im ersten PSTN-Verwendungsdatensatz, die mit der gewählten Nummer übereinstimmt.
+    5.  **Erste Route:** Die erste VoIP-Route im ersten PSTN-Verwendungsdaten Satz, die der gewählten Nummer entspricht.
+        
+        <div>
         
 
-        > [!NOTE]
-        > Die Felder <STRONG>Erwarteter PSTN-Verwendungsdatensatz</STRONG> und <STRONG>Erwartete Route</STRONG> sind bei der Testfallkonfiguration für das VoIP-Routing optional. Wenn diese Werte nicht für den Testfall angegeben werden, sind die entsprechenden Felder in den Testergebnissen leer.
+        > [!NOTE]  
+        > Der <STRONG>erwartete PSTN-Nutzungsdaten Satz</STRONG> und die <STRONG>erwarteten Route</STRONG> -Felder sind in der Konfiguration des Testfalles für sprach Routing optional. Wenn der Testfall diese Werte nicht angibt, ist das entsprechende Feld in den Testergebnissen leer.
 
+        
+        </div>
 
+</div>
 
-## Siehe auch
+<div>
 
-#### Weitere Ressourcen
+## <a name="see-also"></a>Siehe auch
+
 
 [Testen des VoIP-Routings in Lync Server 2013](lync-server-2013-test-voice-routing.md)  
-[Ausführen von Tests für das VoIP-Routing in Lync Server 2013](lync-server-2013-running-voice-routing-tests.md)
+[Ausführen von Tests für das VoIP-Routing in Lync Server 2013](lync-server-2013-running-voice-routing-tests.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

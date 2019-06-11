@@ -1,27 +1,49 @@
-﻿---
-title: Leistungsindikatoren für Mobilität
-TOCTitle: Leistungsindikatoren für Mobilität
-ms:assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh690046(v=OCS.15)
-ms:contentKeyID: 49295484
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Mobilitäts Leistungsindikatoren'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mobility performance counters
+ms:assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690046(v=OCS.15)
+ms:contentKeyID: 48185441
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8c0759ccd6a9203dfac87f0ec55f555d49d19ccc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827116"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Leistungsindikatoren für Mobilität
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="mobility-performance-counters-in-lync-server-2013"></a>Mobilitäts Leistungsindikatoren in lync Server 2013
 
-Die folgende Tabelle enthält die Namen und Beschreibungen der Leistungsindikatoren, die zum Überwachen der Server verwendet werden können, auf denen UCWA (Unified Communications Web API) und der Lync Server 2013-Mcx-Mobilitätsdienst ausgeführt werden.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2013-02-22_
+
+In den folgenden Tabellen sind die Namen und Beschreibungen der Leistungsindikatoren aufgeführt, die Sie zum Überwachen von Servern mit der Unified Communications Web-API (UCWA) und dem lync Server 2013 MCX-Mobilitätsdienst verwenden können.
 
 Der Kategoriename für die Leistungsindikatoren in der UCWA-Tabelle ist **LS:WEB – UCWA**.
 
 Der Kategoriename für die Leistungsindikatoren in der Mcx-Mobilitätsdiensttabelle ist **LS:WEB - Mobile Communication Service**.
 
-## Leistungsindikatoren für UCWA
+<div>
+
+## <a name="performance-counters-for-ucwa"></a>Leistungsindikatoren für UCWA
 
 
 <table>
@@ -141,7 +163,7 @@ Der Kategoriename für die Leistungsindikatoren in der Mcx-Mobilitätsdiensttabe
 <td><p>Die Gesamtzahl der Deserialisierungsfehler.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Anzahl von Fehlern beim HD-Fotoabruf</p></td>
+<td><p>Anzahl der HD-fotofehler erhalten</p></td>
 <td><p>Die Gesamtzahl der Fehler beim Abrufen von HD-Fotos aus Exchange.</p></td>
 </tr>
 <tr class="even">
@@ -212,7 +234,11 @@ Der Kategoriename für die Leistungsindikatoren in der Mcx-Mobilitätsdiensttabe
 </table>
 
 
-### Leistungsindikatoren für den Mcx-Mobilitätsdienst
+</div>
+
+<div id="sectionSection1" class="section">
+
+### <a name="performance-counters-for-mcx-mobility-service"></a>Leistungsindikatoren für den Mcx-Mobilitätsdienst
 
 <table>
 <colgroup>
@@ -232,7 +258,7 @@ Der Kategoriename für die Leistungsindikatoren in der Mcx-Mobilitätsdiensttabe
 </tr>
 <tr class="even">
 <td><p>Aktuelle Pushbenachrichtigungsabonnements</p></td>
-<td><p>Die aktuelle Anzahl von Pushbenachrichtigungsabonnements. Diese Anzahl in Verbindung mit &quot;Anzahl derzeit aktiver Sitzungen&quot; stellt eine Teilmenge der derzeit aktiven Sitzungen dar, die für Windows Mobile- oder iPhone-Geräte registriert sind.</p></td>
+<td><p>Die aktuelle Anzahl von Pushbenachrichtigungsabonnements. Diese Anzahl in Verbindung mit „Anzahl derzeit aktiver Sitzungen“ stellt eine Teilmenge der derzeit aktiven Sitzungen dar, die für Windows Mobile- oder iPhone-Geräte registriert sind.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Anzahl derzeit aktiver Netzwerkumfragen mit Timeout</p></td>
@@ -352,4 +378,17 @@ Der Kategoriename für die Leistungsindikatoren in der Mcx-Mobilitätsdiensttabe
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

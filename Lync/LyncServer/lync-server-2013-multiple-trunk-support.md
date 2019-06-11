@@ -1,35 +1,65 @@
-﻿---
-title: 'Lync Server 2013: Unterstützung für mehrere Trunks'
-TOCTitle: Unterstützung für mehrere Trunks
-ms:assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205127(v=OCS.15)
-ms:contentKeyID: 49294939
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: mehrere trunk-Unterstützung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Multiple trunk support
+ms:assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205127(v=OCS.15)
+ms:contentKeyID: 48184948
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 156db04ceb26809c7043f30e9e01ea0071e0a31d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826542"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Unterstützung für mehrere Trunks in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="multiple-trunk-support-in-lync-server-2013"></a>Mehrere trunk-Unterstützung in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-01_
 
-Die Lync Server 2013-Funktionalität unterstützt mehrere Zuordnungen zwischen Gateways und Vermittlungsservern. Die Zuordnungen werden durch die Definition eines Trunk vorgenommen. Dabei handelt es sich um eine logische Zuordnung zwischen einem Vermittlungsserverpool und einem PSTN-Gateway (Telefonfestnetz), SBC (Session Border Controller) oder einer IP-Festnetztelefonanlage. Verwenden Sie den Topologie-Generator zum Zuordnen von Gateways zu Vermittlungsservern (Trunks).
+Die lync Server 2013-Funktionalität unterstützt mehrere Zuordnungen zwischen Gateways und Vermittlungsservern. Diese Zuordnungen werden durch Definieren eines Trunks erstellt, bei dem es sich um eine logische Zuordnung zwischen einem Vermittlungs Server Pool und einem PSTN-Gateway (Public Switched Telephone Network), Sitzungs Grenz Controller (SBC) oder IP-PBX handelt. Verwenden Sie den Topologie-Generator, um Gateways mit Vermittlungsservern (also Trunks) zu verknüpfen.
 
-  - Wenn Sie einen Trunk in Lync Server 2013 zuordnen oder entfernen möchten, müssen Sie zunächst im Topologie-Generator einen Trunk definieren. Ein Trunk umfasst die folgende Zuordnung: vollqualifizierter Domänenname (Fully Qualified Domain Name, FQDN) des Vermittlungsservers, Überwachungsport des Vermittlungsservers, Gateway-FQDN und Gateway-Überwachungsport.
+  - Um einen trunk in lync Server 2013 zuzuweisen oder zu entfernen, müssen Sie zuerst einen trunk im Topologie-Generator definieren. Ein trunk besteht aus der folgenden Zuordnung: vollständig qualifizierter Domänenname (Fully Qualified Domain Name, FQDN), Mediation Server-Abhör Port, Gateway-FQDN und Gateway-Abhör Port.
 
-  - Wenn Sie mehrere Trunks konfigurieren möchten, können Sie mehrere Zuordnungen zwischen demselben Gateway und dem Vermittlungsserver erstellen. Dies führt zu einer zusätzlichen Ausfallsicherheit für die Enterprise-VoIP-Infrastruktur, was speziell in Interoperationalitätsszenarien mit Nebenstellenanlagen (Private Branch Exchange, PBX) besonders hilfreich ist.
+  - Zum Konfigurieren mehrerer Trunks können Sie mehrere Zuordnungen zwischen dem gleichen Gateway und dem Vermittlungs Server erstellen. Dies bietet zusätzliche Widerstandsfähigkeit für die Enterprise-VoIP-Infrastruktur, die besonders in interoperational-Szenarien (Private Branch Exchange) verwendet werden kann.
 
-Beim Definieren eines Trunks muss er einer Route zugeordnet werden. Zum Zuordnen eines Trunks zu einer Route definieren Sie im Topologie-Generator einen einfachen Namen für den Trunk. Dieser einfache Name dient als Trunkname in der Lync Server-Systemsteuerung, wo Trunks Routen zugeordnet werden können. Der einfache Trunkname wird von der Lync Server-Verwaltungsshell als Gatewayname verwendet.
+Beim Definieren eines Trunks muss er einer Route zugeordnet werden. Um einen trunk einer Route zuzuordnen, definieren Sie einen einfachen Namen für den trunk im Topologie-Generator. Dieser einfache Name wird als trunk-Name in der lync Server-Systemsteuerung verwendet, in der Trunks Routen zugeordnet werden können. Der einfache trunk-Name wird als Gateway-Name aus der lync Server-Verwaltungsshell verwendet.
 
     New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}
 
-Der Administrator muss einen Standardtrunk auswählen, der einem Vermittlungsserver zugeordnet ist. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den zugeordneten Vermittlungsserver, und klicken Sie dann auf **Eigenschaften** . Geben Sie das Standardgateway für den Vermittlungsserver an.
+Der Administrator muss einen Standard trunk auswählen, der einem Vermittlungs Server zugeordnet ist. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den zugehörigen Vermittlungs Server, und klicken Sie dann auf **Eigenschaften**. Geben Sie das Standardgateway für den Vermittlungs Server an.
 
-In der folgenden Abbildung werden mehrere Trunks veranschaulicht, die für jeden Vermittlungsserver und jedes Gateway definiert werden.
+Das folgende Diagramm zeigt die verschiedenen Trunks, die für jeden Vermittlungs Server und jedes Gateway definiert sind.
 
-**M-N Trunk-Routing**
+**M-N trunk-Routing**
 
-![Mehrere Trunk-Zuweisungen](images/JJ205127.c61cd9a7-d8d9-4e02-83b9-ab62519a48c4(OCS.15).jpg "Mehrere Trunk-Zuweisungen")
+![Mehrere trunk Aufgaben.] (images/JJ205127.c61cd9a7-d8d9-4e02-83b9-ab62519a48c4(OCS.15).jpg "Mehrere trunk Aufgaben.")
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

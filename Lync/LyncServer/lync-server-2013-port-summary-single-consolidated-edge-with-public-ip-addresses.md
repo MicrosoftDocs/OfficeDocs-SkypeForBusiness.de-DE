@@ -1,35 +1,57 @@
-﻿---
-title: 'Lync Server 2013: Portzusammenfassung für einen einzelnen konsolidierten Edgeserver mit öffentlichen IP-Adressen'
-TOCTitle: Portzusammenfassung für einen einzelnen konsolidierten Edgeserver mit öffentlichen IP-Adressen
-ms:assetid: 28407acc-8b92-4f78-875c-fd6b4323b602
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204756(v=OCS.15)
-ms:contentKeyID: 49293485
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Portzusammenfassung für einen einzelnen konsolidierten Edgeserver mit öffentlichen IP-Adressen
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Port summary - Single consolidated edge with public IP addresses
+ms:assetid: 28407acc-8b92-4f78-875c-fd6b4323b602
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204756(v=OCS.15)
+ms:contentKeyID: 48183685
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7c1a61341908bef3a3098e70b06816bbf5ea328b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824239"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Portzusammenfassung für einen einzelnen konsolidierten Edgeserver mit öffentlichen IP-Adressen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="port-summary---single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a>Portzusammenfassung für einen einzelnen konsolidierten Edgeserver mit öffentlichen IP-Adressen in Lync Server 2013
 
-Die in dieser Szenarioarchitektur beschriebene Funktionalität für den Edgeserver in Lync Server 2013 entspricht weitgehend der in Lync Server 2010 implementierten Funktionalität. Die auffälligste Ergänzung ist der Porteintrag **5269 über TCP** für XMPP (Extensible Messaging and Presence-Protokoll). Lync Server 2013 stellt optional einen XMPP-Proxy auf dem Edgeserver oder im Edgepool und den XMPP-Gatewayserver auf dem Front-End-Server oder im Front-End-Pool bereit. Planungsinformationen für den Reverseproxy und Partnerverbund finden Sie im Abschnitt [Szenarien für Reverseproxys in Lync Server 2013](lync-server-2013-scenarios-for-reverse-proxy.md) bzw. [Planen für SIP-, XMPP-Partnerverbund und öffentliche Chats in Lync Server 2013](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md).
+</div>
 
-Zusätzlich zu IPv4 unterstützt der Edgeserver jetzt IPv6. In den Szenarien wird zur Verdeutlichung ausschließlich IPv4 verwendet.
+<div id="mainSection">
 
-**Unternehmensumkreisnetzwerk für einzelnen konsolidierten Edgeserver mit öffentlichen IP-Adressen**
+<div id="mainBody">
 
-![Einzelner konsolidierter Edgeserver](images/JJ204756.f8c144c5-e5fb-498a-823e-eb39f26b6847(OCS.15).jpg "Einzelner konsolidierter Edgeserver")
+<span> </span>
 
-## Port- und Protokolldetails
+_**Letztes Änderungsdatum des Themas:** 2013-02-21_
 
-Es wird empfohlen, nur die Ports zu öffnen, die zur Unterstützung der Funktionalität erforderlich sind, für die Sie externen Zugriff bereitstellen möchten.
+Die in dieser Szenario-Architektur beschriebene lync Server 2013-Edgeserver-Funktionalität ähnelt dem, was in lync Server 2010 implementiert wurde. Die bemerkenswerteste Ergänzung ist der Port **5269 over TCP** -Eintrag für das Extensible Messaging and Presence Protocol (XMPP). Lync Server 2013 stellt optional einen XMPP-Proxy auf dem Edge-Server oder Edge-Pool und dem XMPP-Gatewayserver auf dem Front-End-Server oder Front-End-Pool bereit. Planungsinformationen für den Reverseproxy und die Föderation finden Sie in [Szenarien für den Reverse Proxy in lync Server 2013](lync-server-2013-scenarios-for-reverse-proxy.md) und [Planen für SIP, XMPP Federation und Public Instant Messaging in lync Server 2013](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md) -Abschnitten.
 
-Damit der Remotezugriff für einen beliebigen Edgedienst funktioniert, muss der SIP-Datenverkehr in beide Richtungen übertragen werden können (wie in der Abbildung zum eingehenden/ausgehenden Edgedatenverkehr gezeigt). Anders ausgedrückt: Für Chat, Anwesenheit, Webkonferenzen, Audio/Video (A/V) und Partnerverbund ist SIP-Messaging an den und vom Zugriffs-Edgedienst erforderlich.
+Neben IPv4 unterstützt der Edgeserver nun IPv6. Aus Gründen der Übersichtlichkeit wird in den Szenarien nur IPv4 verwendet.
 
-### Firewallzusammenfassung für einen einzelnen konsolidierten Edgeserver mit öffentlichen IP-Adressen: Externe Schnittstelle
+**Unternehmens Umkreisnetzwerk für einzelnen konsolidierten Edge mit öffentlicher IP-Adressierung**
+
+![f8c144c5-e5fb-498a-823e-eb39f26b6847] (images/Gg425891.f8c144c5-e5fb-498a-823e-eb39f26b6847(OCS.15).jpg "f8c144c5-e5fb-498a-823e-eb39f26b6847")
+
+<div>
+
+## <a name="port-and-protocol-details"></a>Port- und Protokolldetails
+
+Wir empfehlen, nur die Ports zu öffnen, die erforderlich sind, um die Funktionalität zu unterstützen, für die Sie externen Zugriff bereitstellen.
+
+Damit der Remotezugriff für jeden Edgedienst funktionieren kann, ist es zwingend erforderlich, dass der SIP-Datenverkehr bidirektional erfolgt, wie in der Abbildung für eingehende/ausgehende Edge-Datenverkehr dargestellt. Anders ausgedrückt: das SIP-Messaging zum und vom Access-Edgedienst ist an Instant Messaging (im), Anwesenheitsinformationen, Webkonferenzen, Audio/Video (A/V) und Föderation beteiligt.
+
+### <a name="firewall-summary-for-single-consolidated-edge-with-public-ip-addresses-external-interface"></a>Zusammenfassung der Firewall für einzelne konsolidierte Edges mit öffentlichen IP-Adressen: externe Schnittstelle
 
 <table>
 <colgroup>
@@ -40,7 +62,7 @@ Damit der Remotezugriff für einen beliebigen Edgedienst funktioniert, muss der 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rolle/Protokoll/TCP oder UDP/Port</th>
+<th>Role/Protocol/TCP oder UDP/Port</th>
 <th>Quell-IP-Adresse</th>
 <th>Ziel-IP-Adresse</th>
 <th>Hinweise</th>
@@ -50,104 +72,104 @@ Damit der Remotezugriff für einen beliebigen Edgedienst funktioniert, muss der 
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
 <td><p>Beliebig</p></td>
-<td><p>XMPP-Proxydienst (teilt die IP-Adresse mit dem Zugriffs-Edgedienst)</p></td>
-<td><p>XMPP-Proxydienst akzeptiert Datenverkehr von XMPP-Kontakten in definierten XMPP-Verbünden</p></td>
+<td><p>XMPP-Proxy Dienst (Freigabe der IP-Adresse mit Access Edge Service)</p></td>
+<td><p>Der XMPP-Proxy Dienst akzeptiert Datenverkehr von XMPP-Kontakten in definierten XMPP-Föderationen</p></td>
 </tr>
 <tr class="even">
-<td><p>Zugriff/HTTP/TCP/80</p></td>
-<td><p>Öffentliche Edgeserver-IP-Adresse des Zugriffs-Edgediensts</p></td>
+<td><p>Access/http/TCP/80</p></td>
+<td><p>Öffentliche IP-Adresse des Edge-Server-Zugriffs-Edge-Diensts</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Zertifikatsperre/Zertifikatsperrlistenprüfung und -abruf</p></td>
+<td><p>Zertifikatsperrung/CRL-Prüfung und-Abruf</p></td>
 </tr>
 <tr class="odd">
-<td><p>Zugriff/DNS/TCP/53</p></td>
-<td><p>Öffentliche Edgeserver-IP-Adresse des Zugriffs-Edgediensts</p></td>
+<td><p>Access/DNS/TCP/53</p></td>
+<td><p>Öffentliche IP-Adresse des Edge-Server-Zugriffs-Edge-Diensts</p></td>
 <td><p>Beliebig</p></td>
 <td><p>DNS-Abfrage über TCP</p></td>
 </tr>
 <tr class="even">
-<td><p>Zugriff/DNS/UDP/53</p></td>
-<td><p>Öffentliche Edgeserver-IP-Adresse des Zugriffs-Edgediensts</p></td>
+<td><p>Access/DNS/UDP/53</p></td>
+<td><p>Öffentliche IP-Adresse des Edge-Server-Zugriffs-Edge-Diensts</p></td>
 <td><p>Beliebig</p></td>
 <td><p>DNS-Abfrage über UDP</p></td>
 </tr>
 <tr class="odd">
-<td><p>Zugriff/SIP(TLS)/TCP/443</p></td>
+<td><p>Access/SIP (TLS)-/TCP/443</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Öffentliche Edgeserver-IP-Adresse des Zugriffs-Edgediensts</p></td>
-<td><p>Client-zu-Server-SIP-Datenverkehr für den externen Benutzerzugriff</p></td>
+<td><p>Öffentliche IP-Adresse des Edge-Server-Zugriffs-Edge-Diensts</p></td>
+<td><p>Client-zu-Server-SIP-Datenverkehr für den Zugriff durch externe Benutzer</p></td>
 </tr>
 <tr class="even">
-<td><p>Zugriff/SIP(MTLS)/TCP/5061</p></td>
+<td><p>Access/SIP (MTLS)-/TCP/5061</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Öffentliche Edgeserver-IP-Adresse des Zugriffs-Edgediensts</p></td>
-<td><p>Für Verbindungen mit Partnerverbünden und öffentlichen Instant Messaging-Diensten über SIP</p></td>
+<td><p>Öffentliche IP-Adresse des Edge-Server-Zugriffs-Edge-Diensts</p></td>
+<td><p>Für Verbund-und öffentliche Chat Verbindungen mit SIP</p></td>
 </tr>
 <tr class="odd">
-<td><p>Zugriff/SIP(MTLS)/TCP/5061</p></td>
-<td><p>Öffentliche Edgeserver-IP-Adresse des Zugriffs-Edgediensts</p></td>
+<td><p>Access/SIP (MTLS)-/TCP/5061</p></td>
+<td><p>Öffentliche IP-Adresse des Edge-Server-Zugriffs-Edge-Diensts</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Für Verbindungen mit Partnerverbünden und öffentlichen Instant Messaging-Diensten über SIP</p></td>
+<td><p>Für Verbund-und öffentliche Chat Verbindungen mit SIP</p></td>
 </tr>
 <tr class="even">
-<td><p>Webkonferenzen/PSOM(TLS)TCP/443</p></td>
+<td><p>Web Conferencing/PSOM (TLS)/TCP/443</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Öffentliche Edgeserver-IP-Adresse des Webkonferenz-Edgediensts</p></td>
-<td><p>Webkonferenzmedien</p></td>
+<td><p>Edge-Server-Webkonferenz-Edgedienst, öffentliche IP-Adresse</p></td>
+<td><p>Web-Konferenzmedien</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/RTP/TCP/50.000-59.999</p></td>
-<td><p>Öffentliche Edgeserver-IP-Adresse des Zugriffs-Edgediensts</p></td>
+<td><p>A/V/RTP/TCP/50000-59.999</p></td>
+<td><p>Öffentliche IP-Adresse des Edge-Server-Zugriffs-Edge-Diensts</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Erforderlich für den Partnerverbund mit Organisationen, die Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010 und Lync Server 2013 ausführen.</p></td>
+<td><p>Erforderlich für die Föderation mit Partnern, die Office Communications Server 2007, Office Communications Server 2007 R2, lync Server 2010 und lync Server 2013 ausführen.</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/RTP/UDP/50.000-59.999</p></td>
-<td><p>Öffentliche Edgeserver-IP-Adresse des A/V-Edgediensts</p></td>
+<td><p>A/V/RTP/UDP/50000-59.999</p></td>
+<td><p>Edge-Server-A/V-Edgedienst, öffentliche IP-Adresse</p></td>
 <td><p>Beliebig</p></td>
 <td><p>Nur für den Verbund mit Partnern erforderlich, die Office Communications Server 2007 ausführen</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/RTP/TCP/50.000-59.999</p></td>
+<td><p>A/V/RTP/TCP/50000-59.999</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Öffentliche Edgeserver-IP-Adresse des A/V-Edgediensts</p></td>
-<td><p>Nur für den Verbund mit Partnern erforderlich, die Office Communications Server 2007 ausführen.</p></td>
+<td><p>Edge-Server-A/V-Edgedienst, öffentliche IP-Adresse</p></td>
+<td><p>Nur für den Verbund mit Partnern erforderlich, auf denen Office Communications Server 2007 ausgeführt wird.</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/RTP/UDP/50.000-59.999</p></td>
+<td><p>A/V/RTP/UDP/50000-59.999</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Öffentliche Edgeserver-IP-Adresse des A/V-Edgediensts</p></td>
-<td><p>Nur für den Verbund mit Partnern erforderlich, die Office Communications Server 2007 ausführen.</p></td>
+<td><p>Edge-Server-A/V-Edgedienst, öffentliche IP-Adresse</p></td>
+<td><p>Nur für den Verbund mit Partnern erforderlich, auf denen Office Communications Server 2007 ausgeführt wird.</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/STUN,MSTURN/UDP/3478</p></td>
-<td><p>Öffentliche Edgeserver-IP-Adresse des A/V-Edgediensts</p></td>
+<td><p>A/V/Stun, MSTURN/UDP/3478</p></td>
+<td><p>Edge-Server-A/V-Edgedienst, öffentliche IP-Adresse</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Port 3478 (ausgehend) wird zum Ermitteln der Version des Edgeservers verwendet, mit der Lync Server kommuniziert, sowie für den Mediendatenverkehr von Edgeserver zu Edgeserver. Erforderlich für den Partnerverbund mit Lync Server 2010, Windows Live Messenger und Office Communications Server 2007 R2 sowie dann, wenn mehrere Edgepools in einem Unternehmen bereitgestellt werden.</p></td>
+<td><p>3478 Outbound wird verwendet, um die Version von Edgeserver zu ermitteln, mit der lync Server kommuniziert, sowie für Mediendatenverkehr vom Edge-Server-zu-Edge-Server. Erforderlich für den Verbund mit lync Server 2010, Windows Live Messenger und Office Communications Server 2007 R2 und auch, wenn mehrere Edge-Pools in einem Unternehmen bereitgestellt werden.</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/STUN,MSTURN/UDP/3478</p></td>
+<td><p>A/V/Stun, MSTURN/UDP/3478</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Öffentliche Edgeserver-IP-Adresse des A/V-Edgediensts</p></td>
-<td><p>STUN/TURN-Aushandlung von Kandidaten über UDP/3478</p></td>
+<td><p>Edge-Server-A/V-Edgedienst, öffentliche IP-Adresse</p></td>
+<td><p>Betäubung/Turn Verhandlung von Kandidaten über UDP/3478</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/STUN,MSTURN/TCP/443</p></td>
+<td><p>A/V/Stun, MSTURN/TCP/443</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Öffentliche Edgeserver-IP-Adresse des A/V-Edgediensts</p></td>
-<td><p>STUN/TURN-Aushandlung von Kandidaten über TCP/443</p></td>
+<td><p>Edge-Server-A/V-Edgedienst, öffentliche IP-Adresse</p></td>
+<td><p>Betäubung/Turn Verhandlung von Kandidaten über TCP/443</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/STUN,MSTURN/TCP/443</p></td>
-<td><p>Öffentliche Edgeserver-IP-Adresse des A/V-Edgediensts</p></td>
+<td><p>A/V/Stun, MSTURN/TCP/443</p></td>
+<td><p>Edge-Server-A/V-Edgedienst, öffentliche IP-Adresse</p></td>
 <td><p>Beliebig</p></td>
-<td><p>STUN/TURN-Aushandlung von Kandidaten über TCP/443</p></td>
+<td><p>Betäubung/Turn Verhandlung von Kandidaten über TCP/443</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Firewallzusammenfassung für einen einzelnen konsolidierten Edgeserver mit öffentlichen IP-Adressen: Interne Schnittstelle
+### <a name="firewall-summary-for-single-consolidated-edge-with-public-ip-addresses-internal-interface"></a>Zusammenfassung der Firewall für einzelne konsolidierte Edges mit öffentlichen IP-Adressen: interne Schnittstelle
 
 <table>
 <colgroup>
@@ -167,80 +189,79 @@ Damit der Remotezugriff für einen beliebigen Edgedienst funktioniert, muss der 
 <tbody>
 <tr class="odd">
 <td><p>XMPP/MTLS/TCP/23456</p></td>
-<td><p>Beliebig (kann als IP-Adresse für den Standard Edition-Server, als IP-Adresse für den Standard Edition-Server oder als IP-Adresse des Pools definiert werden, mit dem der XMPP-Gatewaydienst ausgeführt wird)</p></td>
-<td><p>Interne Schnittstelle des Edgeservers</p></td>
-<td><p>Ausgehender XMPP-Datenverkehr vom XMPP-Gatewaydienst, der auf dem Front-End-Server oder im Front-End-Pool ausgeführt wird</p>
-<p></p></td>
+<td><p>Any (kann als Standard Edition Server IP, Standard Edition Server-IP-Adresse oder Pool-IP-Adresse mit dem XMPP-Gatewayserver definiert werden)</p></td>
+<td><p>Interne Edge-Server-Schnittstelle</p></td>
+<td><p>Ausgehender XMPP-Datenverkehr vom XMPP-Gatewayserver auf dem Front-End-Server oder Front-End-Pool</p></td>
 </tr>
 <tr class="even">
 <td><p>SIP/MTLS/TCP/5061</p></td>
-<td><p>Beliebig (kann definiert werden als Director, als Directorpool-IP-Adresse Front-End-Server oder als Front-End-Pool-IP-Adresse)</p></td>
-<td><p>Edgeserver-IP oder Pool, der die interne Schnittstelle beinhaltet</p></td>
-<td><p>Ausgehender SIP-Datenverkehr (von Director, einer Directorpool-IP-Adresse, Front-End-Server oder einer Front-End-Pool-IP-Adresse) an die interne Edgeserver-Schnittstelle.</p>
-<p></p></td>
+<td><p>Any (kann als Director, IP-Adresse des Director-Pools, Front-End-Server oder IP-Adresse des Front-End-Pools definiert werden)</p></td>
+<td><p>Edge-Server-IP oder Pool, der die interne Schnittstelle enthält</p></td>
+<td><p>Ausgehender SIP-Datenverkehr (von Director, Director-Pool-IP-Adresse, Front-End-Server oder IP-Adresse des Front-End-Pools) zu einer internen Schnittstelle</p></td>
 </tr>
 <tr class="odd">
 <td><p>SIP/MTLS/TCP/5061</p></td>
-<td><p>Interne Schnittstelle des Edgeservers</p></td>
-<td><p>Beliebig (kann definiert werden als Director, als Directorpool-IP-Adresse Front-End-Server oder als Front-End-Pool-IP-Adresse)</p></td>
-<td><p>Eingehender SIP-Datenverkehr (an Director, eine Directorpool-IP-Adresse, Front-End-Server oder eine Front-End-Pool-IP-Adresse) von der internen Edgeserver-Schnittstelle.</p>
-<p></p></td>
+<td><p>Interne Edge-Server-Schnittstelle</p></td>
+<td><p>Any (kann als Director, IP-Adresse des Director-Pools, Front-End-Server oder Adresse des Front-End-Pools definiert werden)</p></td>
+<td><p>Eingehende SIP-Datenverkehr (an Director, IP-Adresse des Director-Pools, Front-End-Server oder IP-Adresse des Front-End-Pools) aus der internen Schnittstelle</p></td>
 </tr>
 <tr class="even">
 <td><p>PSOM/MTLS/TCP/8057</p></td>
-<td><p>Beliebig (kann definiert werden als Front-End-Server-IP-Adresse oder jede Front-End-Server-IP-Adresse in einem Front-End-Pool)</p>
-<p></p></td>
-<td><p>Interne Schnittstelle des Edgeservers</p></td>
-<td><p>Webkonferenzdatenverkehr von Front-End-Server oder jedem Front-End-Server (falls in einem Pool) an die interne Edgeserver-Schnittstelle.</p>
-<p></p></td>
+<td><p>Any (kann als Front-End-Server-IP-Adresse oder jede IP-Adresse eines Front-End-Servers in einem Front-End-Pool definiert werden)</p></td>
+<td><p>Interne Edge-Server-Schnittstelle</p></td>
+<td><p>Webkonferenzen-Datenverkehr vom Front-End-Server oder jedem Front-End-Server, falls in einem Pool, zu einer internen Schnittstelle des Edge-Servers</p></td>
 </tr>
 <tr class="odd">
 <td><p>SIP/MTLS/TCP/5062</p></td>
-<td><p>Beliebig (kann als Front-End-Server-IP-Adresse, als Front-End-Pool-IP-Adresse, als Survivable Branch-Anwendung oder als Survivable Branch-Server definiert sein, der diesen Edgeserver verwendet)</p></td>
-<td><p>Interne Schnittstelle des Edgeservers</p></td>
-<td><p>Authentifizierung von A/V-Benutzern (A/V-Authentifizierungsdienst) von einer Front-End-Server- oder Front-End-Pool-IP-Adresse oder einem beliebigen Survivable Branch-Anwendung oder Survivable Branch-Server mit diesem Edgeserver</p></td>
+<td><p>Any (kann als Front-End-Server-IP-Adresse oder IP-Adresse des Front-End-Pools oder einer überlebensfähigen Branch-Appliance oder eines Überlebenden Branch-Servers mit diesem Edgeserver definiert werden)</p></td>
+<td><p>Interne Edge-Server-Schnittstelle</p></td>
+<td><p>Authentifizierung von a/v-Benutzern (a/v-Authentifizierungsdienst) vom Front-End-Server oder der IP-Adresse des Front-End-Pools oder von einer Überlebenden Branch-Appliance oder einem Überlebenden Branch-Server mit diesem Edgeserver</p></td>
 </tr>
 <tr class="even">
-<td><p>STUN/MSTURN/UDP/3478</p></td>
+<td><p>Stun/MSTURN/UDP/3478</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Interne Schnittstelle des Edgeservers</p></td>
-<td><p>Bevorzugter Pfad für die Übertragung von A/V-Mediendaten zwischen internen Benutzern und externen Benutzern, Survivable Branch-Anwendung oder Survivable Branch-Server</p></td>
+<td><p>Interne Edge-Server-Schnittstelle</p></td>
+<td><p>Bevorzugter Pfad für die A/V-Medienübertragung zwischen internen und externen Benutzern, Survivable Branch Appliance oder Survivable Branch Server</p></td>
 </tr>
 <tr class="odd">
-<td><p>STUN/MSTURN/TCP/443</p></td>
+<td><p>Stun/MSTURN/TCP/443</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Interne Schnittstelle des Edgeservers</p></td>
-<td><p>Ausweichpfad für die Übertragung von A/V-Mediendaten zwischen internen und externen Benutzern, Survivable Branch-Anwendung oder Survivable Branch-Server, wenn keine UDP-Kommunikation hergestellt werden kann und TCP für die Dateiübertragung und Desktopfreigabe verwendet wird</p></td>
+<td><p>Interne Edge-Server-Schnittstelle</p></td>
+<td><p>Fall Back Pfad für die A/V-Medienübertragung zwischen internen und externen Benutzern, Survival-Branch-Appliance oder einem Überlebenden Branch-Server wenn die UDP-Kommunikation nicht hergestellt werden kann, wird TCP für Dateiübertragung und Desktopfreigabe verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/4443</p></td>
-<td><p>Beliebig (kann definiert werden als Front-End-Server-IP-Adresse oder Pool, der den zentralen Verwaltungsspeicher beinhaltet)</p></td>
-<td><p>Interne Schnittstelle des Edgeservers</p></td>
-<td><p>Replikation von Änderungen aus dem zentralen Verwaltungsspeicher auf dem Edgeserver</p></td>
+<td><p>Any (kann als die IP-Adresse des Front-End-Servers oder-Pools definiert werden, der den zentralen Verwaltungsspeicher enthält)</p></td>
+<td><p>Interne Edge-Server-Schnittstelle</p></td>
+<td><p>Replikation von Änderungen vom zentralen Verwaltungsspeicher auf den Edgeserver</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Interne Schnittstelle des Edgeservers</p></td>
-<td><p>Zentraler Protokollierungsdienst-Controller mithilfe der Lync Server-Verwaltungsshell und Zentraler Protokollierungsdienst-Cmdlets, ClsController-Befehlszeile (ClsController.exe) oder Agentbefehle (ClsAgent.exe) und Protokollerfassung</p></td>
+<td><p>Interne Edge-Server-Schnittstelle</p></td>
+<td><p>Zentralisierter Protokollierungsdienst Controller mit lync Server-Verwaltungsshell und zentralen Protokolldienst-Cmdlets, Befehlszeilen-ClsController (ClsController. exe) oder Agent (ClsAgent. exe) und Protokollsammlung</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Interne Schnittstelle des Edgeservers</p></td>
-<td><p>Zentraler Protokollierungsdienst-Controller mithilfe der Lync Server-Verwaltungsshell und Zentraler Protokollierungsdienst-Cmdlets, ClsController-Befehlszeile (ClsController.exe) oder Agentbefehle (ClsAgent.exe) und Protokollerfassung</p></td>
+<td><p>Interne Edge-Server-Schnittstelle</p></td>
+<td><p>Zentralisierter Protokollierungsdienst Controller mit lync Server-Verwaltungsshell und zentralen Protokolldienst-Cmdlets, Befehlszeilen-ClsController (ClsController. exe) oder Agent (ClsAgent. exe) und Protokollsammlung</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Interne Schnittstelle des Edgeservers</p></td>
-<td><p>Zentraler Protokollierungsdienst-Controller mithilfe der Lync Server-Verwaltungsshell und Zentraler Protokollierungsdienst-Cmdlets, ClsController-Befehlszeile (ClsController.exe) oder Agentbefehle (ClsAgent.exe) und Protokollerfassung</p></td>
+<td><p>Interne Edge-Server-Schnittstelle</p></td>
+<td><p>Zentralisierter Protokollierungsdienst Controller mit lync Server-Verwaltungsshell und zentralen Protokolldienst-Cmdlets, Befehlszeilen-ClsController (ClsController. exe) oder Agent (ClsAgent. exe) und Protokollsammlung</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Firewallzusammenfassung für den Partnerverbund
+</div>
+
+<div>
+
+## <a name="firewall-summary-for-federation"></a>Zusammenfassung der Firewall für den Verbund
 
 
 <table>
@@ -252,7 +273,7 @@ Damit der Remotezugriff für einen beliebigen Edgedienst funktioniert, muss der 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rolle/Protokoll/TCP oder UDP/Port</th>
+<th>Role/Protocol/TCP oder UDP/Port</th>
 <th>Quell-IP-Adresse</th>
 <th>Ziel-IP-Adresse</th>
 <th>Hinweise</th>
@@ -260,16 +281,20 @@ Damit der Remotezugriff für einen beliebigen Edgedienst funktioniert, muss der 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Zugriff/SIP(MTLS)/TCP/5061</p></td>
-<td><p>Öffentliche IP-Adresse für den Zugriffs-Edgedienst</p></td>
+<td><p>Access/SIP (MTLS)-/TCP/5061</p></td>
+<td><p>Access Edge Service (öffentliche IP-Adresse)</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Für Verbindungen mit Partnerverbünden und öffentlichen Instant Messaging-Diensten über SIP</p></td>
+<td><p>Für Verbund-und öffentliche Chat Verbindungen mit SIP</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Firewallzusammenfassung - Verbindungen mit öffentlichen Instant Messaging-Diensten
+</div>
+
+<div>
+
+## <a name="firewall-summary--public-instant-messaging-connectivity"></a>Zusammenfassung der Firewall – öffentliche Instant Messaging-Konnektivität
 
 
 <table>
@@ -281,7 +306,7 @@ Damit der Remotezugriff für einen beliebigen Edgedienst funktioniert, muss der 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rolle/Protokoll/TCP oder UDP/Port</th>
+<th>Role/Protocol/TCP oder UDP/Port</th>
 <th>Quell-IP-Adresse</th>
 <th>Ziel-IP-Adresse</th>
 <th>Hinweise</th>
@@ -289,46 +314,50 @@ Damit der Remotezugriff für einen beliebigen Edgedienst funktioniert, muss der 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Zugriff/SIP(MTLS)/TCP/5061</p></td>
-<td><p>Partner für Verbindungen mit öffentlichen Instant Messaging-Diensten</p></td>
-<td><p>Edgeserver-Zugriffs-Edgedienst</p></td>
-<td><p>Für Verbindungen mit Partnerverbünden und öffentlichen Instant Messaging-Diensten über SIP</p></td>
+<td><p>Access/SIP (MTLS)-/TCP/5061</p></td>
+<td><p>Verbindungspartner für öffentliche Chats</p></td>
+<td><p>Edge-Server-Zugriffs-Edgedienst</p></td>
+<td><p>Für Verbund-und öffentliche Chat Verbindungen mit SIP</p></td>
 </tr>
 <tr class="even">
-<td><p>Zugriff/SIP(MTLS)/TCP/5061</p></td>
-<td><p>Edgeserver-Zugriffs-Edgedienst</p></td>
-<td><p>Partner für Verbindungen mit öffentlichen Instant Messaging-Diensten</p></td>
-<td><p>Für Verbindungen mit Partnerverbünden und öffentlichen Instant Messaging-Diensten über SIP</p></td>
+<td><p>Access/SIP (MTLS)-/TCP/5061</p></td>
+<td><p>Edge-Server-Zugriffs-Edgedienst</p></td>
+<td><p>Verbindungspartner für öffentliche Chats</p></td>
+<td><p>Für Verbund-und öffentliche Chat Verbindungen mit SIP</p></td>
 </tr>
 <tr class="odd">
-<td><p>Zugriff/SIP(TLS)/TCP/443</p></td>
+<td><p>Access/SIP (TLS)-/TCP/443</p></td>
 <td><p>Clients</p></td>
-<td><p>Edgeserver-Zugriffs-Edgedienst</p></td>
-<td><p>Client-zu-Server-SIP-Datenverkehr für den externen Benutzerzugriff</p></td>
+<td><p>Edge-Server-Zugriffs-Edgedienst</p></td>
+<td><p>Client-zu-Server-SIP-Datenverkehr für den Zugriff durch externe Benutzer</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/RTP/TCP/50.000-59.999</p></td>
-<td><p>Edgeserver-A/V-Edgedienst</p></td>
+<td><p>A/V/RTP/TCP/50000-59.999</p></td>
+<td><p>Edge-Server A/V-Edgedienst</p></td>
 <td><p>Live Messenger-Clients</p></td>
-<td><p>Wird für A/V-Sitzungen mit Windows Live Messenger verwendet, wenn Verbindungen mit öffentlichen Instant Messaging-Diensten konfiguriert sind.</p></td>
+<td><p>Wird für A/V-Sitzungen mit Windows Live Messenger verwendet, wenn die Konnektivität für öffentliche Chats konfiguriert ist.</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/STUN,MSTURN/UDP/3478</p></td>
-<td><p>Edgeserver-A/V-Edgedienst</p></td>
+<td><p>A/V/Stun, MSTURN/UDP/3478</p></td>
+<td><p>Edge-Server A/V-Edgedienst</p></td>
 <td><p>Live Messenger-Clients</p></td>
-<td><p>Für Verbindungen mit öffentlichen Instant Messaging-Diensten mit Windows Live Messenger erforderlich</p></td>
+<td><p>Erforderlich für öffentliche Chat Verbindungen mit Windows Live Messenger</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/STUN,MSTURN/UDP/3478</p></td>
+<td><p>A/V/Stun, MSTURN/UDP/3478</p></td>
 <td><p>Live Messenger-Clients</p></td>
-<td><p>Edgeserver-A/V-Edgedienst</p></td>
-<td><p>Für Verbindungen mit öffentlichen Instant Messaging-Diensten mit Windows Live Messenger erforderlich</p></td>
+<td><p>Edge-Server A/V-Edgedienst</p></td>
+<td><p>Erforderlich für öffentliche Chat Verbindungen mit Windows Live Messenger</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Firewallzusammenfassung für XMPP (Extensible Messaging and Presence Protocol)
+</div>
+
+<div>
+
+## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a>Zusammenfassung der Firewall für erweiterbares Messaging und Anwesenheits Protokoll
 
 
 <table>
@@ -350,21 +379,34 @@ Damit der Remotezugriff für einen beliebigen Edgedienst funktioniert, muss der 
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Edgeserver-IP-Adresse der Zugriffs-Edgedienst-Schnittstelle</p></td>
-<td><p>Standardmäßiger Server-zu-Server-Kommunikationsport für XMPP; erlaubt Kommunikation von XMPP-Verbundpartnern zum Edgeserver-XMPP-Proxy</p></td>
+<td><p>IP-Adresse des Edge-Server-Access-Edge-Service-Interfaces</p></td>
+<td><p>Standard mäßiger Server-zu-Server-Kommunikationsanschluss für XMPP. Ermöglicht die Kommunikation mit dem Edge-Server-XMPP-Proxy von Federated XMPP-Partnern</p></td>
 </tr>
 <tr class="even">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>Edgeserver-IP-Adresse der Zugriffs-Edgedienst-Schnittstelle</p></td>
+<td><p>IP-Adresse des Edge-Server-Access-Edge-Service-Interfaces</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Standardmäßiger Server-zu-Server-Kommunikationsport für XMPP; erlaubt Kommunikation vom Edgeserver-XMPP-Proxy zu XMPP-Verbundpartnern</p></td>
+<td><p>Standard mäßiger Server-zu-Server-Kommunikationsanschluss für XMPP. Ermöglicht die Kommunikation vom Edge Server XMPP-Proxy an Federated XMPP-Partner</p></td>
 </tr>
 <tr class="odd">
 <td><p>XMPP/MTLS/TCP/23456</p></td>
 <td><p>Beliebig</p></td>
-<td><p>Jede interne Edgeserver-Schnittstellen-IP</p></td>
-<td><p>Interner XMPP-Datenverkehr vom XMPP-Gateway auf dem Front-End-Server oder im Front-End-Pool zur internen Edgeserver-IP-Adresse oder der internen IP-Adresse aller Edgepool-Member</p></td>
+<td><p>Jede interne Edge-Server-Schnittstellen-IP</p></td>
+<td><p>Interner XMPP-Datenverkehr vom XMPP-Gateway auf dem Front-End-Server oder Front-End-Pool zur internen IP-Adresse des Edge-Servers oder zur internen IP-Adresse jedes Edge-Pools</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: Details zur QoE-Ansicht in Lync Server 2013
-TOCTitle: Details zur QoE-Ansicht in Lync Server 2013
-ms:assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688081(v=OCS.15)
-ms:contentKeyID: 49890780
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Details zur QoE-Ansicht'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: QoE view details
+ms:assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688081(v=OCS.15)
+ms:contentKeyID: 49733677
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8e223ff2adee63eb8e13304e4df6db519e85014f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823686"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Details zur QoE-Ansicht in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="qoe-view-details-in-lync-server-2013"></a>Details zur QoE-Ansicht in lync Server 2013
 
-Ansichten gibt es für die gebräuchlichsten Szenarien zur Rückgabe von Daten aus der QoE-SQL-Datenbank. Es wird empfohlen, zum Erstellen von benutzerdefinierten Berichten Ansichten zu verwenden, anstatt direkt auf die Datenbanktabellen zuzugreifen, um auch in zukünftigen Versionen abwärtskompatibel zu bleiben.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-10-03_
+
+Ansichten decken die am häufigsten verwendeten Szenarien für die Rückgabe von Daten aus der QoE SQL-Datenbank ab. Es wird empfohlen, Ansichten zum Erstellen benutzerdefinierter Berichte zu verwenden, anstatt direkt auf die Datenbanktabellen zuzugreifen. Das liegt daran, dass Ansichten eher die Abwärtskompatibilität mit zukünftigen Versionen aufrecht erhalten.
 
 
 <table>
@@ -25,35 +45,46 @@ Ansichten gibt es für die gebräuchlichsten Szenarien zur Rückgabe von Daten a
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ansichtsname</th>
+<th>Ansichts Name</th>
 <th>Beschreibung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-audiostreamdetail-view.md">AudioStreamDetail-Ansicht</a></p></td>
+<td><p><a href="lync-server-2013-audiostreamdetail-view.md">AudioStreamDetail-Ansicht in lync Server 2013</a></p></td>
 <td><p>Speichert Informationen zu jedem Audiostream in der Datenbank.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-medialine-view.md">MediaLine-Ansicht</a></p></td>
-<td><p>Speichert Informationen zu jeder Medienzeile in der Datenbank. Eine Audiositzung enthält für gewöhnlich eine Audiomedienzeile. Eine A/V-Sitzung (Audio und Video) enthält meist eine Audiomedienzeile und eine Videomedienzeile, kann jedoch auch zwei Medienzeilen enthalten, wenn ein Konferenzgerät oder eine Galerieansicht verwendet wird.</p></td>
+<td><p><a href="lync-server-2013-medialine-view.md">Medienansicht in lync Server 2013</a></p></td>
+<td><p>Speichert Informationen zu jeder medienzeile in der Datenbank. Eine Audiositzung enthält in der Regel eine Audio-medienzeile. Eine Audio-und Video (A/V)-Sitzung enthält in der Regel eine Audio-medienzeile und eine Video medienzeile. die Sitzung kann jedoch zwei Video Medien Linien enthalten, wenn ein Konferenzgerät verwendet wird oder wenn die Katalogansicht verwendet wird.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-networkconfigurationsettings-view.md">NetworkConfigurationSettings-Ansicht</a></p></td>
-<td><p>Speichert Informationen über die Netzwerkkonfiguration.</p></td>
+<td><p><a href="lync-server-2013-networkconfigurationsettings-view.md">NetworkConfigurationSettings-Ansicht in lync Server 2013</a></p></td>
+<td><p>Speichert Informationen zur Netzwerkkonfiguration.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-session-view.md">Session-Ansicht</a></p></td>
-<td><p>Speichert Informationen über Sitzungen, zu denen in der Datenbank Datensätze vorhanden sind.</p></td>
+<td><p><a href="lync-server-2013-session-view.md">Sitzungsansicht in lync Server 2013</a></p></td>
+<td><p>Speichert Informationen zu Sitzungen mit Datensätzen in der Datenbank.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-useragent-view.md">UserAgent-Ansicht</a></p></td>
-<td><p>Speichert Informationen über die Benutzeragents, die an Sitzungen beteiligt waren, zu denen es in der Datenbank Datensätze gibt.</p></td>
+<td><p><a href="lync-server-2013-useragent-view.md">UserAgent-Ansicht in lync Server 2013</a></p></td>
+<td><p>Speichert Informationen zu den Benutzer-Agents, die an Sitzungen teilgenommen haben, die Datensätze in der Datenbank aufweisen.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-videostreamdetail-view.md">VideoStreamDetail-Ansicht</a></p></td>
+<td><p><a href="lync-server-2013-videostreamdetail-view.md">VideoStreamDetail-Ansicht in lync Server 2013</a></p></td>
 <td><p>Speichert Informationen zu jedem Videostream in der Datenbank.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

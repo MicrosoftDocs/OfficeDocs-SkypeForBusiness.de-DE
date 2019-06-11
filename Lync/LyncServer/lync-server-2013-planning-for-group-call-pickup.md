@@ -1,31 +1,65 @@
-﻿---
-title: Planen der Gruppenanrufannahme in Lync Server 2013
-TOCTitle: Planen der Gruppenanrufannahme in Lync Server 2013
-ms:assetid: 6d306466-778f-4c6a-9b6a-35dcd0d1811e
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ945636(v=OCS.15)
-ms:contentKeyID: 52056374
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Planen der Abholung von Gruppen anrufen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Group Call Pickup
+ms:assetid: 6d306466-778f-4c6a-9b6a-35dcd0d1811e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945636(v=OCS.15)
+ms:contentKeyID: 51541487
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: efff375e6177b43687d19f88cca0964d6d1ea22c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824960"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planen der Gruppenanrufannahme in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="planning-for-group-call-pickup-in-lync-server-2013"></a>Planen der Abholung von Gruppen anrufen in lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2013-02-01_
 
-Mit dem kumulativen Update für Lync Server 2013: Februar 2013 wird die Gruppenanrufannahme als neues Enterprise-VoIP-Feature eingeführt. Mit der Gruppenanrufannahme können Benutzer eingehende Anrufe an andere Benutzer annehmen, indem sie eine Nummer für die Anrufannahmegruppe wählen. Dieser Abschnitt bietet Informationen zur Planung der Gruppenanrufannahme.
+Kumulatives Update für lync Server 2013: Februar 2013 führt die Abholung des Gruppenanrufs als neue Enterprise-VoIP-Funktion ein. Mit der Gruppenanruf-Abholung können Benutzer Anrufe aufnehmen, die für einen anderen Nutzer Klingeln, indem Sie eine Anruf-Abhol Gruppennummer wählen. Dieser Abschnitt enthält Planungsinformationen, die für die Gruppenanruf Abholung spezifisch sind.
 
-## In diesem Abschnitt
+<div>
 
-  - [Übersicht über die Gruppenanrufannahme](lync-server-2013-overview-of-group-call-pickup.md)
+## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Von der Gruppenanrufannahme verwendete Komponenten](lync-server-2013-components-used-by-group-call-pickup.md)
+  - [Übersicht über die Gruppenanruf Abholung in lync Server 2013](lync-server-2013-overview-of-group-call-pickup.md)
 
-  - [Technische Voraussetzungen für die Gruppenanrufannahme](lync-server-2013-technical-requirements-for-group-call-pickup.md)
+  - [Von der Gruppenanruf Abholung in lync Server 2013 verwendete Komponenten](lync-server-2013-components-used-by-group-call-pickup.md)
 
-  - [Für die Gruppenanrufannahme unterstützte Clients](lync-server-2013-clients-supported-for-group-call-pickup.md)
+  - [Technische Voraussetzungen für die Gruppenanruf Abholung in lync Server 2013](lync-server-2013-technical-requirements-for-group-call-pickup.md)
 
-  - [Bereitstellungsprozess für die Gruppenanrufannahme](lync-server-2013-deployment-process-for-group-call-pickup.md)
+  - [Für die Gruppenanruf Abholung in lync Server 2013 unterstützte Clients](lync-server-2013-clients-supported-for-group-call-pickup.md)
+
+  - [Bereitstellungsprozess für die Gruppenanruf Abholung in lync Server 2013](lync-server-2013-deployment-process-for-group-call-pickup.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,31 +1,53 @@
-﻿---
-title: 'Lync Server 2013: (Optional) Einladen von Benutzern zu Einwahlkonferenzen'
-TOCTitle: (Optional) Einladen von Benutzern zu Einwahlkonferenzen
-ms:assetid: caa4fd61-f506-4c09-bb5b-1aa260d7a720
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398846(v=OCS.15)
-ms:contentKeyID: 49295407
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: (Optional) Einladen von Benutzern zu Einwahlkonferenzen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: (Optional) Welcome users to dial-in conferencing
+ms:assetid: caa4fd61-f506-4c09-bb5b-1aa260d7a720
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398846(v=OCS.15)
+ms:contentKeyID: 48185443
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: df3defde18a01ed09ac529ba9b289749f28c4cdd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825814"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# (Optional) Einladen von Benutzern zu Einwahlkonferenzen in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="optional-welcome-users-to-dial-in-conferencing-in-lync-server-2013"></a>(Optional) Einladen von Benutzern zu Einwahlkonferenzen in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-09-30_
 
-Nach dem Konfigurieren von Einwahlkonferenzen und dem Testen der ordnungsgemäßen Funktionsweise sollten Sie persönliche Identifikationsnummern (PINs) für Ihre Benutzer einrichten und die Benutzer über die Verfügbarkeit dieser Funktion informieren. Sie sollten den Benutzern die anfängliche PIN und den Link zur Webseite mit den Einwahlkonferenzeinstellungen bereitstellen. Dieser Schritt ist optional. Üblicherweise verwenden Sie zum Einrichten von PINs das Cmdlet **Set-CsClientPin**, Sie können jedoch die anfänglichen PINs auch anhand des in diesem Thema beschriebenen Verfahrens einrichten, wenn Sie den Benutzern eine Begrüßungs-E-Mail mit den Informationen senden möchten. Wenn Sie keine E-Mail senden möchten, können Sie stattdessen das Cmdlet **Set-CsClientPin** verwenden.
+Nachdem Sie Einwahlkonferenzen konfiguriert und getestet haben, um sicherzustellen, dass Sie ordnungsgemäß funktioniert, sollten Sie anfängliche persönliche Identifikationsnummern (Pins) für Benutzer festlegen und die Benutzer über die Verfügbarkeit der Funktion informieren, einschließlich einleitender Anweisungen wie als Initiale PIN und Link zur Webseite für Einwahlkonferenzeinstellungen. Dieser Schritt ist optional. In der Regel verwenden Sie das Cmdlet " **Satz-CsClientPin** ", um Pins zurückzusetzen, doch Sie können das Verfahren in diesem Thema zum ersten Mal verwenden, wenn Sie eine Willkommens-e-Mail mit den Informationen senden möchten. Wenn Sie keine E-Mail senden möchten, können Sie stattdessen das Cmdlet **Set-CsClientPin** verwenden.
 
-Sie können mithilfe des Skripts **Set-CsPinSendCAWelcomeMail** eine PIN für einen einzelnen Benutzer einrichten und diesem Benutzer eine Begrüßungs-E-Mail senden. Mit diesem Skript wird eine bereits eingerichtete PIN standardmäßig nicht zurückgesetzt, Sie können das Zurücksetzen der PIN jedoch mithilfe des Parameters **Force** erzwingen. Die E-Mail-Nachricht wird über SMTP (Simple Mail Transfer Protocol) gesendet.
+Sie können mithilfe des Skripts **Set-CsPinSendCAWelcomeMail** eine PIN für einen einzelnen Benutzer einrichten und diesem Benutzer eine Begrüßungs-E-Mail senden. Standardmäßig setzt das Skript eine PIN nicht zurück, wenn Sie bereits festgesetzt ist, aber Sie können den Parameter **Force** verwenden, um das Zurücksetzen einer PIN zu erzwingen. Die E-Mail-Nachricht wird über SMTP (Simple Mail Transfer Protocol) gesendet.
 
-Sie können ein Skript erstellen, mit dem das **Set-CsPinSendCAWelcomeMail**-Skript iterativ ausgeführt wird, um PINs für eine Benutzergruppe einzurichten und E-Mails an diese Gruppe zu senden. Sie können die E-Mail-Vorlage (d. h. die Datei **CAWelcomeEmailTemplate.html**) bearbeiten, um weitere Links zu Intranetseiten hinzuzufügen oder den E-Mail-Text zu ändern.
+Sie können ein Skript erstellen, mit dem das **Set-CsPinSendCAWelcomeMail**-Skript iterativ ausgeführt wird, um PINs für eine Benutzergruppe einzurichten und E-Mails an diese Gruppe zu senden. Sie können die e-Mail-Vorlage (d **. CAWelcomeEmailTemplate. html** -Datei) ändern, um weitere Links zu Intranetseiten hinzuzufügen oder den e-Mail-Text zu ändern.
 
-## So richten Sie eine anfängliche PIN ein und senden eine Begrüßungs-E-Mail
+<div>
+
+## <a name="to-set-an-initial-pin-and-send-welcome-email"></a>So setzen Sie eine Initiale PIN und senden eine Willkommens-e-Mail
 
 1.  Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" an.
 
-2.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 3.  Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
@@ -40,16 +62,16 @@ Sie können ein Skript erstellen, mit dem das **Set-CsPinSendCAWelcomeMail**-Skr
         [-Pin <new numeric PIN>] [-Force] `
         [-Credential <SMTP server credentials used to send email with the specified From address>]
     
-    **SmtpServer**   Das Skript verwendet standardmäßig den Wert der reservierten Umgebungsvariable **$PSEmailServer** für diesen Parameter. Wenn die Variable **$PSEmailServer** nicht gesetzt ist, müssen Sie diesen Parameter angeben.
+    **SmtpServer**   standardmäßig verwendet das Skript den Wert der reservierten Umgebungsvariablen **$PSEmailServer** für diesen Parameter. Wenn die Variable **$PSEmailServer** nicht gesetzt ist, müssen Sie diesen Parameter angeben.
     
-    **Credential**   Das Skript verwendet standardmäßig die Anmeldeinformationen des aktuellen Benutzers. Wenn der aktuelle Benutzer nicht zum Senden von E-Mails im Namen der angegebenen Absenderadresse berechtigt ist, müssen Sie diesen Parameter angeben. Als allgemeine Regel gilt: wenn Sie nicht Ihre E-Mail-Adresse als Absenderadresse verwenden, geben Sie diesen Parameter an.
+    **Anmeldeinformationen**   standardmäßig verwendet das Skript die Anmeldeinformationen des aktuellen Benutzers. Wenn der aktuelle Benutzer nicht zum Senden von E-Mails im Namen der angegebenen Absenderadresse berechtigt ist, müssen Sie diesen Parameter angeben. Als allgemeine Regel gilt: Wenn Sie nicht Ihre E-Mail-Adresse als Absenderadresse verwenden, geben Sie diesen Parameter an.
     
     Beispiel:
     
         Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
         -From "marco@contoso.com"
     
-    In diesem Beispiel wird eine neue PIN erstellt und anschließend eine Begrüßungs-E-Mail von Marco an Bob gesendet. Hierbei wird der E-Mail-Text der Standardvorlage verwendet, und die E-Mail-Nachricht wird im HTML-Format erstellt. Die standardmäßige Betreffzeile lautet "Willkommen bei der Funktion für Einwahlkonferenzen".
+    In diesem Beispiel wird eine neue PIN erstellt und dann eine Willkommens-e-Mail von Marco an Bob gesendet. Hierbei wird der E-Mail-Text der Standardvorlage verwendet und die E-Mail-Nachricht wird im HTML-Format erstellt. Das Standardthema lautet "Willkommen bei Dial in Conferencing".
     
     Ein weiteres Beispiel:
     
@@ -58,5 +80,17 @@ Sie können ein Skript erstellen, mit dem das **Set-CsPinSendCAWelcomeMail**-Skr
         -Pin "383042650" -Force
         -Credential Admin@contoso.com -UseSsl
     
-    In diesem Beispiel wird eine neue PIN mit dem Wert "383042650" für Bob erzwungen, obwohl Bob bereits über eine PIN verfügt, und anschließend wird eine Begrüßungs-E-Mail von Marco an Bob gesendet. Da der Parameter "Credential" angegeben ist, wird die Person, die den Befehl ausführt, zur Eingabe eines Kennworts aufgefordert. Die E-Mail wird über SSL (Secure Sockets Layer) gesendet.
+    In diesem Beispiel wird eine neue PIN mit dem Wert "383042650" für Bob erzwungen, obwohl Bob über eine vorhandene Pin verfügte und dann eine Willkommens-e-Mail von Marco an Bob sendet. Da der Parameter „Credential“ angegeben ist, wird die Person, die den Befehl ausführt, zur Eingabe eines Kennworts aufgefordert. Die e-Mail wird mithilfe des Secure Sockets Layer (SSL) gesendet.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

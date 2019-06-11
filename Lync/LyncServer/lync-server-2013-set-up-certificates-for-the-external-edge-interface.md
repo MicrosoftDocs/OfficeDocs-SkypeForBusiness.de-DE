@@ -1,129 +1,171 @@
-﻿---
-title: 'Lync Server 2013: Einrichten der Zertifikate für die externe Edgeschnittstelle'
-TOCTitle: Einrichten der Zertifikate für die externe Edgeschnittstelle
-ms:assetid: 5d78182c-88d8-4483-95ad-74b17f2d5fac
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398409(v=OCS.15)
-ms:contentKeyID: 49294142
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Einrichten der Zertifikate für die externe Edgeschnittstelle'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Set up certificates for the external edge interface
+ms:assetid: 5d78182c-88d8-4483-95ad-74b17f2d5fac
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398409(v=OCS.15)
+ms:contentKeyID: 48184287
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b2cb33a91d6609f9109e6416f5688d1b2ddfb9ed
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822118"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Einrichten der Zertifikate für die externe Edgeschnittstelle für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>Einrichten der Zertifikate für die externe Edgeschnittstelle für Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Letztes Änderungsdatum des Themas:** 2012-09-08_
+
+<div>
 
 
-> [!IMPORTANT]
-> Wenn Sie den Zertifikat-Assistenten ausführen, müssen Sie mit einem Konto angemeldet sein, das Mitglied einer Gruppe ist, die über die entsprechenden Berechtigungen für den von Ihnen verwendeten Zertifikatvorlagentyp verfügt. Für eine Lync Server -Zertifikatanforderung wird standardmäßig die Webserver-Zertifikatvorlage verwendet. Wenn Sie ein Konto verwenden, das Mitglied der RTCUniversalServerAdmins-Gruppe ist, kann mit dieser Vorlage nur ein Zertifikat angefordert werden, wenn dieser Gruppe die zum Verwenden dieser Vorlage erforderlichen Registrierungsberechtigungen erteilt wurden.
+> [!IMPORTANT]  
+> Wenn Sie den Zertifikat-Assistenten ausführen, stellen Sie sicher, dass Sie mit einem Konto angemeldet sind, das Mitglied einer Gruppe ist, der die entsprechenden Berechtigungen für den Typ der Zertifikatvorlage zugewiesen wurden, die Sie verwenden werden. Standardmäßig wird für eine lync Server-Zertifikatanforderung die Vorlage Webserverzertifikat verwendet. Wenn Sie ein Konto verwenden, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist, um ein Zertifikat mithilfe dieser Vorlage anzufordern, stellen Sie sicher, dass der Gruppe die für die Verwendung dieser Vorlage erforderlichen Registrierungsberechtigungen zugewiesen wurden.
 
 
 
-Jeder Edgeserver benötigt ein öffentliches Zertifikat für die Schnittstelle zwischen dem Umkreisnetzwerk und dem Internet. Der alternative Antragstellername des Zertifikats muss die externen Namen des Zugriffs-Edgediensts und die vollqualifizierten Domänennamen des Webkonferenz-Edgediensts enthalten.
+</div>
 
-Ausführliche Informationen zu diesen und anderen Voraussetzungen für Zertifikate finden Sie unter [Zertifikatanforderungen für den Zugriff durch externe Benutzer in Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
+Jeder Edgeserver erfordert ein öffentliches Zertifikat auf der Schnittstelle zwischen dem Umkreisnetzwerk und dem Internet, und der Alternative Name des Zertifikats muss die externen Namen des Access Edge-Diensts und des Webkonferenz-Edgedienst vollständig enthalten qualifizierte Domänennamen (FQDNs).
 
-Eine Liste öffentlicher Zertifizierungsstellen, die Zertifikate bereitstellen, die den speziellen Anforderungen an Unified Communications-Zertifikate entsprechen und eine Partnerschaft mit Microsoft eingegangen sind, um sicherzustellen, dass ihre Zertifikate mit dem Zertifikat-Assistenten von Lync Server 2013 verwendet werden können, finden Sie im Microsoft Knowledge Base-Artikel 929395, "Partner für Unified Communications-Zertifikate für Exchange Server und Communications Server", unter [http://go.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834).
+Ausführliche Informationen zu diesen und anderen Zertifikatanforderungen finden Sie unter [Zertifikatanforderungen für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-## Konfigurieren von Zertifikaten für die externen Schnittstellen
+Eine Liste der öffentlichen Zertifizierungsstellen, die Zertifikate zur Verfügung stellen, die bestimmte Anforderungen für Unified Communications-Zertifikate erfüllen und mit Microsoft zusammenarbeiten, um sicherzustellen, dass Sie mit dem lync Server 2013-Zertifikat-Assistenten funktionieren, finden Sie unter Microsoft Knowledge Base-Artikel 929395, "Unified Communications Certificate Partners für Exchange Server und für Communications Server", [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)unter.
 
-Führen Sie die Schritte in diesem Abschnitt aus, um ein Zertifikat für die externe Edgeschnittstelle an einem Standort einzurichten:
+<div>
 
-  - Erstellen Sie die Zertifikatanforderung für die externe Schnittstelle des Edgeservers.
+## <a name="configuring-certificates-on-the-external-interfaces"></a>Konfigurieren von Zertifikaten für die externen Schnittstellen
 
-  - Senden Sie die Anforderung an die öffentliche Zertifizierungsstelle.
+Gehen Sie wie folgt vor, um ein Zertifikat für die externe Edge-Schnittstelle an einer Website einzurichten:
 
-  - Importieren Sie das Zertifikat für die externe Schnittstelle jedes Edgeservers.
+  - Erstellen Sie die Zertifikatanforderung für die externe Schnittstelle des Edge-Servers.
 
-  - Weisen Sie das Zertifikat für die externe Schnittstelle jedem Edgeserver zu.
+  - Senden Sie die Anfrage an Ihre öffentliche Zertifizierungsstelle.
 
-  - Wenn Ihre Bereitstellung mehrere Edgeserver umfasst, exportieren Sie das Zertifikat gemeinsam mit seinem privaten Schlüssel, und kopieren Sie es auf die anderen Edgeserver. Importieren Sie das Zertifikat anschließend für jeden Edgeserver, und weisen Sie es wie zuvor beschrieben zu. Wiederholen Sie dieses Verfahren für jeden Edgeserver.
+  - Importieren Sie das Zertifikat für die externe Schnittstelle jedes Edge-Servers.
 
-Sie können öffentliche Zertifikate direkt von einer öffentlichen Zertifizierungsstelle anfordern (z. B. über die Website einer öffentlichen Zertifizierungsstelle). Bei den Verfahren in diesem Abschnitt wird für die meisten Aufgaben im Zusammenhang mit Zertifikaten der Zertifikat-Assistent verwendet. Wenn Sie ein Zertifikat direkt von einer öffentlichen Zertifizierungsstelle anfordern, ändern Sie die einzelnen Vorgehensweisen zum Anfordern, Transportieren und Importieren des Zertifikats sowie zum Importieren der Zertifikatkette entsprechend.
+  - Weisen Sie das Zertifikat für die externe Schnittstelle jedes Edgeserver zu.
 
-Wenn Sie ein Zertifikat von einer externen Zertifizierungsstelle anfordern, müssen die angegebenen Anmeldeinformationen mit den erforderlichen Rechten zum Anfordern eines Zertifikats von dieser Zertifizierungsstelle verknüpft sein. Jede Zertifizierungsstelle verfügt über eine Sicherheitsrichtlinie zur Definition, über welche Anmeldeinformationen (also bestimmte Benutzer- und Gruppennamen) Zertifikate angefordert, ausgestellt, verwaltet oder gelesen werden dürfen.
+  - Wenn Ihre Bereitstellung mehrere Edgeserver umfasst, exportieren Sie das Zertifikat zusammen mit seinem privaten Schlüssel, und kopieren Sie es auf die anderen Edgeserver. Importieren Sie die Datei für jeden Edgeserver, und weisen Sie Sie wie zuvor beschrieben zu. Wiederholen Sie diesen Vorgang für jeden Edgeserver.
 
-Wenn Sie die Microsoft Management Console (MMC) zum Importieren der Zertifikatkette und des Zertifikats verwenden, müssen Sie diese Elemente in den Zertifikatspeicher für den Computer importieren. Wenn Sie diese Elemente in den Zertifikatspeicher des Benutzers oder Diensts importieren, kann das Zertifikat nicht im Zertifikat-Assistenten von Lync Server 2013 zugewiesen werden.
+Sie können öffentliche Zertifikate direkt von einer öffentlichen Zertifizierungsstelle (etwa über die Website einer öffentlichen Zertifizierungsstelle) anfordern. Die Verfahren in diesem Abschnitt verwenden den Zertifikat-Assistenten für die meisten Zertifikataufgaben. Wenn Sie sich entschieden haben, ein Zertifikat direkt von einer öffentlichen Zertifizierungsstelle anzufordern, müssen Sie die einzelnen Verfahren entsprechend anpassen, um das Zertifikat anzufordern, zu transportieren und zu importieren sowie die Zertifikatkette zu importieren.
 
-## So erstellen Sie die Zertifikatanforderung für die externe Schnittstelle des Edgeservers
+Wenn Sie ein Zertifikat von einer externen Zertifizierungsstelle anfordern, müssen die bereitgestellten Anmeldeinformationen Rechte besitzen, um ein Zertifikat von dieser Zertifizierungsstelle anzufordern. Jede Zertifizierungsstelle verfügt über eine Sicherheitsrichtlinie, die festlegt, welche Anmeldeinformationen (also bestimmte Benutzer-und Gruppennamen) Zertifikate anfordern, ausgeben, verwalten oder lesen dürfen.
 
-1.  Klicken Sie auf dem Edgeserver im Bereitstellungs-Assistenten neben **Schritt 3: Zertifikate anfordern, installieren oder zuweisen** auf **Erneut ausführen** .
+Wenn Sie die Zertifikate Microsoft Management Console (MMC) zum Importieren der Zertifikatkette und des Zertifikats verwenden möchten, müssen Sie Sie in den Zertifikatspeicher für den Computer importieren. Wenn Sie Sie in den Benutzer-oder Dienstzertifikat Speicher importieren, steht das Zertifikat im lync Server 2013-Zertifikat-Assistenten nicht für die Zuweisung zur Verfügung.
+
+<div>
+
+## <a name="to-create-the-certificate-request-for-the-external-interface-of-the-edge-server"></a>So erstellen Sie die Zertifikatanforderung für die externe Schnittstelle des Edge-Servers
+
+1.  Klicken Sie auf dem Edgeserver im Bereitstellungs-Assistenten neben **Schritt 3: anfordern, installieren oder Zuweisen von Zertifikaten**auf **erneut ausführen**.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Wenn Ihre Organisation Verbindungen mit öffentlichen Sofortnachrichtendiensten über AOL unterstützen möchte, können Sie das Zertifikat nicht mit dem Lync Server-Bereitstellungs-Assistenten anfordern. Führen Sie stattdessen das weiter unten in diesem Thema beschriebene Verfahren "So erstellen Sie eine Zertifikatanforderung für die externe Schnittstelle des Edgeservers zur Unterstützung von Verbindungen mit öffentlichen Sofortnachrichtendiensten über AOL" aus.<BR>Wenn Sie an einem Standort über mehrere Edgeserver in einem Pool verfügen, können Sie den Lync Server 2013-Zertifikat-Assistenten auf jedem dieser Edgeserver ausführen.
+    > [!NOTE]  
+    > Wenn Ihre Organisation Öffentliche Instant Messaging-Verbindungen (im) mit AOL unterstützen möchte, können Sie den lync Server-Bereitstellungs-Assistenten nicht verwenden, um das Zertifikat anzufordern. Führen Sie stattdessen die Schritte im Abschnitt "So erstellen Sie eine Zertifikatanforderung für die externe Schnittstelle des Edge-Servers zur Unterstützung öffentlicher Chat Verbindungen mit AOL" weiter unten in diesem Thema aus.<BR>Wenn Sie über mehrere Edgeserver an einem Speicherort in einem Pool verfügen, können Sie den lync Server 2013-Zertifikat-Assistenten auf einem der Edgeserver ausführen.
 
-
-
-2.  Klicken Sie auf der Seite **Verfügbare Zertifikataufgaben** auf **Neue Zertifikatsanforderung erstellen** .
-
-3.  Klicken Sie auf der Seite **Zertifikatsanforderung** auf **Externes Edgezertifikat** .
-
-4.  Aktivieren Sie auf der Seite **Verzögerte oder sofortige Anforderungen** das Kontrollkästchen **Anforderung jetzt vorbereiten, jedoch später senden** .
-
-5.  Geben Sie auf der Seite **Zertifikatsanforderungsdatei** den vollständigen Pfad und Namen der Datei ein, in der die Anforderung gespeichert werden soll (Beispiel: c:\\cert\_exernal\_edge.cer ).
-
-6.  Aktivieren Sie auf der Seite **Alternative Zertifikatvorlage angeben** das Kontrollkästchen **Alternative Zertifikatvorlage für ausgewählte Zertifizierungsstelle verwenden** , um eine andere Vorlage als die Standardvorlage "WebServer" zu verwenden.
-
-7.  Führen Sie auf der Seite **Namens- und Sicherheitseinstellungen** die folgenden Aufgaben aus:
     
-      - Geben Sie im Feld **Anzeigename** einen Anzeigenamen für das Zertifikat ein.
+    </div>
+
+2.  Klicken Sie auf der Seite **Verfügbare Zertifikataufgaben** auf **Neue Zertifikatsanforderung erstellen**.
+
+3.  Klicken Sie auf der Seite **Zertifikatanforderung** auf **externes Zertifikat**.
+
+4.  Aktivieren Sie auf der Seite **verzögerte oder sofortige Anforderung** das Kontrollkästchen **Anforderung jetzt vorbereiten, aber später senden** .
+
+5.  Geben Sie auf der Seite **Zertifikatanforderungsdatei** den vollständigen Pfad und den Dateinamen der Datei ein, in der die Anforderung gespeichert werden soll (beispielsweise\\c\_: CERT,\_"Edge. cer").
+
+6.  Aktivieren Sie auf der Seite **Alternative Zertifikatvorlage angeben** für das Kontrollkästchen **Alternative Zertifikatvorlage für die ausgewählte Zertifizierungsstelle verwenden** , um eine andere Vorlage als die standardmäßige Webservervorlage zu verwenden.
+
+7.  Gehen Sie auf der Seite **Name und Sicherheitseinstellungen** wie folgt vor:
     
-      - Geben Sie in **Bitlänge** die Bitlänge ein (typischerweise wird der Standardwert **2048** verwendet).
+      - Geben Sie unter Anzeige **Name**einen Anzeigenamen für das Zertifikat ein.
     
-      - Stellen Sie sicher, dass das Kontrollkästchen **Privaten Schlüssel des Zertifikats als exportierbar markieren** aktiviert ist.
-
-8.  Geben Sie auf der Seite **Organisationsinformationen** den Namen für die Organisation und Organisationseinheit ein (z. B. eine Gruppe oder Abteilung).
-
-9.  Geben Sie auf der Seite **Geografische Informationen** die Standortinformationen ein.
-
-10. Auf der Seite **Antragstellernamen/Alternative Antragstellernamen** werden die Informationen angezeigt, die automatisch vom Assistenten aufgefüllt werden. Wenn zusätzliche alternative Antragstellernamen erforderlich sind, werden diese in den nächsten zwei Schritten angegeben.
-
-11. Wählen Sie auf der Seite **SIP-Domäneneinstellung für alternative Antragstellernamen** das Kontrollkästchen der Domäne, um einen Eintrag "sip. *\<SIP-Domäne\>* " zur Liste der alternativen Antragstellernamen hinzuzufügen.
-
-12. Geben Sie auf der Seite **Weitere alternative Antragstellernamen konfigurieren** zusätzliche alternative Antragstellernamen an, die benötigt werden.
-
-13. Überprüfen Sie auf der Seite **Zusammenfassung über Zertifikatsanforderungen** die Zertifikatinformationen, die zum Generieren der Anforderung verwendet werden sollen.
-
-14. Nachdem die Befehle ausgeführt wurden, führen Sie die folgenden Aufgaben aus:
+      - Geben Sie in **Bit length**die Bittiefe (in der Regel den Standardwert von **2048**) an.
     
-      - Zum Anzeigen des Protokolls für die Zertifikatanforderung klicken Sie auf **Protokoll anzeigen** .
+      - Überprüfen Sie, ob das Kontrollkästchen **Zertifikat privater Schlüssel als exportierbar kennzeichnen** aktiviert ist.
+
+8.  Geben Sie auf der Seite **Organisationsinformationen** den Namen für die Organisation und die Organisationseinheit ein (beispielsweise eine Abteilung oder Abteilung).
+
+9.  Geben Sie auf der Seite **geographische Informationen** die Standortinformationen an.
+
+10. Auf der Seite **Betreffname/Subject Alternative** Names werden die Informationen angezeigt, die automatisch vom Assistenten ausgefüllt werden sollen. Wenn zusätzliche Alternative Namen für Subjekte benötigt werden, geben Sie diese in den nächsten beiden Schritten an.
+
+11. Aktivieren Sie in der **SIP-Domäneneinstellung auf der Seite Subject Alternate Names (SANs)** das Kontrollkästchen Domäne, um einen SIP hinzuzufügen. \<sipdomain\> -Eintrag in der Liste Subject Alternative Names.
+
+12. Geben Sie auf der Seite **configure additional Subject Alternative Names** alle zusätzlichen alternativen Subjektnamen an, die erforderlich sind.
+
+13. Überprüfen Sie auf der Seite **Anforderungszusammenfassung** die Zertifikatinformationen, die zum Generieren der Anforderung verwendet werden sollen.
+
+14. Führen Sie nach Abschluss der Befehle die folgenden Aktionen aus:
     
-      - Klicken Sie auf **Weiter** , um die Zertifikatanforderung abzuschließen.
-
-15. Führen Sie auf der Seite **Zertifikatanforderungsdatei** die folgenden Schritte aus:
+      - Wenn Sie das Protokoll für die Zertifikatanforderung anzeigen möchten, klicken Sie auf **Protokoll anzeigen**.
     
-      - Zum Anzeigen der generierten CSR-Datei (Certificate Signing Request, Zertifikatsignieranforderung) klicken Sie auf **Anzeigen** .
+      - Klicken Sie auf **weiter**, um die Zertifikatanforderung abzuschließen.
+
+15. Führen Sie auf der Seite **Zertifikatanforderungsdatei** die folgenden Aktionen aus:
     
-      - Klicken Sie auf **Fertig stellen** , um den Assistenten zu schließen.
+      - Klicken Sie zum Anzeigen der generierten CSR-Datei (Certificate Signing Request) auf **Ansicht**.
+    
+      - Klicken Sie auf **Fertig stellen**, um den Assistenten zu schließen.
 
-16. Kopieren Sie die Ausgabedatei an einen Speicherort, von dem aus Sie diese an die öffentliche Zertifizierungsstelle übermitteln können.
+16. Kopieren Sie die Ausgabedatei an einen Speicherort, an den Sie Sie an die öffentliche Zertifizierungsstelle übermitteln können.
 
-## So erstellen Sie eine Zertifikatanforderung für die externe Schnittstelle des Edgeservers zur Unterstützung von Verbindungen mit öffentlichen Instant Messaging-Diensten über AOL
+</div>
 
-1.  Wenn die erforderliche Vorlage für die Zertifizierungsstelle zur Verfügung gestellt wurde, verwenden Sie auf dem Edgeserver das folgende Cmdlet der Windows PowerShell, um das Zertifikat anzufordern:
+<div>
+
+## <a name="to-create-a-certificate-request-for-the-external-interface-of-the-edge-server-to-support-public-im-connectivity-with-aol"></a>So erstellen Sie eine Zertifikatanforderung für die externe Schnittstelle des Edge-Servers zur Unterstützung öffentlicher Chat Verbindungen mit AOL
+
+1.  Wenn die erforderliche Vorlage für die Zertifizierungsstelle verfügbar ist, verwenden Sie das folgende Windows PowerShell-Cmdlet auf dem Edgeserver, um das Zertifikat anzufordern:
     
         Request-CsCertificate -New -Type AccessEdgeExternal  -Output C:\ <certfilename.txt or certfilename.csr>  -ClientEku $true -Template <template name>
     
-    Der standardmäßige Zertifikatname der in Lync Server 2013 bereitgestellten Vorlage lautet "Web Server". Geben Sie *\<Vorlagenname\>* nur an, wenn eine andere Vorlage verwendet werden muss als die Standardvorlage.
+    Der Standardzertifikat Name der Vorlage, die in lync Server 2013 bereitgestellt wird, ist Web Server. Geben Sie nur \<den Vorlagen\> Namen an, wenn Sie eine Vorlage verwenden möchten, die sich von der Standardvorlage unterscheidet.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Wenn Ihre Organisation die Verbindung mit öffentlichen Instant Messaging-Diensten über AOL unterstützen möchte, müssen Sie anstelle des Zertifikat-Assistenten die Windows PowerShell zum Anfordern des Zertifikats verwenden, das dem externen Edge für den Zugriffs-Edgedienst zugewiesen werden soll. Der Grund dafür ist, dass die Lync Server 2013-Vorlage "Web Server", die der Zertifikat-Assistent zum Anfordern von Zertifikaten verwendet, keine EKU-Clientkonfiguration unterstützt. Vor der Verwendung der Windows PowerShell zum Erstellen des Zertifikats muss der Administrator der Zertifizierungsstelle eine neue Vorlage mit Unterstützung für Client-EKU erstellen und bereitstellen.
+    > [!NOTE]  
+    > Wenn Ihre Organisation öffentliche Chat Verbindungen mit AOL unterstützen möchte, müssen Sie anstelle des Zertifikat-Assistenten Windows PowerShell verwenden, um das Zertifikat anzufordern, das dem externen Edge für den Access Edge-Dienst zugewiesen werden soll. Der Grund hierfür ist, dass die vom Zertifikat-Assistenten zum Anfordern eines Zertifikats verwendete lync Server 2013-Webservervorlage die Client-EKU-Konfiguration nicht unterstützt. Bevor Sie Windows PowerShell zum Erstellen des Zertifikats verwenden, muss der CA-Administrator eine neue Vorlage erstellen und bereitstellen, die die Client-EKU unterstützt.
 
+    
+    </div>
 
+</div>
 
-## So übermitteln Sie eine Anforderung an eine öffentliche Zertifizierungsstelle
+<div>
+
+## <a name="to-submit-a-request-to-a-public-certification-authority"></a>So senden Sie eine Anforderung an eine öffentliche Zertifizierungsstelle
 
 1.  Öffnen Sie die Ausgabedatei.
 
-2.  Kopieren Sie den Inhalt der Signieranforderung für das Zertifikat, und fügen Sie ihn ein.
+2.  Kopieren Sie den Inhalt der Certificate Signing Request (CSR), und fügen Sie ihn ein.
 
-3.  Geben Sie nach Aufforderung Folgendes an:
+3.  Wenn Sie dazu aufgefordert werden, geben Sie Folgendes an:
     
-      - **Microsoft** als Serverplattform.
+      - **Microsoft** als Server Plattform.
     
       - **IIS** als Version.
     
@@ -131,103 +173,141 @@ Wenn Sie die Microsoft Management Console (MMC) zum Importieren der Zertifikatke
     
       - **PKCS7** als Antwortformat.
 
-4.  Wenn die öffentliche Zertifizierungsstelle Ihre Informationen überprüft hat, erhalten Sie eine E-Mail mit dem erforderlichen Text für das Zertifikat.
+4.  Wenn die öffentliche Zertifizierungsstelle Ihre Informationen überprüft hat, erhalten Sie eine e-Mail-Nachricht mit Text, der für Ihr Zertifikat erforderlich ist.
 
-5.  Kopieren Sie den Text aus der E-Mail, und speichern Sie ihn in einer Textdatei (TXT-Datei) auf Ihrem lokalen Computer.
+5.  Kopieren Sie den Text aus der e-Mail-Nachricht, und speichern Sie den Inhalt in einer Textdatei (txt) auf dem lokalen Computer.
 
-## So importieren Sie das Zertifikat für die externe Schnittstelle des Edgeservers
+</div>
 
-1.  Melden Sie sich als Mitglied der Administratorgruppe bei demselben Edgeserver an, auf dem Sie die Zertifikatanforderung erstellt haben.
+<div>
 
-2.  Klicken Sie im Bereitstellungs-Assistenten auf der Seite **Edgeserver bereitstellen** neben **Schritt 3: Zertifikate anfordern, installieren oder zuweisen** auf **Erneut ausführen** .
+## <a name="to-import-the-certificate-for-the-external-interface-of-the-edge-server"></a>So importieren Sie das Zertifikat für die externe Schnittstelle des Edge-Servers
 
-3.  Klicken Sie auf der Seite **Verfügbare Zertifikataufgaben** auf **Zertifikat aus einer P7B-, PFX- oder CER-Datei importieren** .
+1.  Melden Sie sich als Mitglied der Gruppe Administratoren auf dem gleichen Edgeserver an, auf dem Sie die Zertifikatanforderung erstellt haben.
 
-4.  Klicken Sie auf der Seite **Zertifikat importieren** auf **Durchsuchen** , um das Zertifikat zu finden und auszuwählen, das Sie für die externe Schnittstelle des Edgeservers angefordert haben (oder geben Sie den vollständigen Pfad und Dateinamen ein). Wenn das Zertifikat einen privaten Schlüssel enthält, aktivieren Sie das Kontrollkästchen **Zertifikatdatei enthält den privaten Schlüssel des Zertifikats** , und geben Sie das Kennwort für den privaten Schlüssel ein. Klicken Sie dann auf **Weiter** .
+2.  Klicken Sie im Bereitstellungs-Assistenten auf der Seite **Edgeserver bereitstellen** neben **Schritt 3: anfordern, installieren oder Zuweisen von Zertifikaten**auf **erneut ausführen**.
 
-5.  Überprüfen Sie auf der Seite **Zertifikat importieren - Zusammenfassung** die Angaben, und klicken Sie dann auf **Weiter** .
+3.  Klicken Sie auf der Seite **Verfügbare Zertifikats Aufgaben** auf **Zertifikat aus einer P7B-, PFX-oder CER-Datei importieren**.
 
-6.  Überprüfen Sie auf der Seite **Befehle ausführen** die Ergebnisse des Imports, klicken Sie auf **Protokoll anzeigen** , um ggf. mehr Informationen einzublenden, und klicken Sie zum Abschließen des Zertifikatimports auf **Fertig stellen** .
+4.  Klicken Sie auf der Seite **Zertifikat importieren** auf **Durchsuchen** , um das Zertifikat zu suchen und auszuwählen, das Sie für die externe Schnittstelle des Edge-Servers angefordert haben (oder Sie können den vollständigen Pfad und den Dateinamen eingeben). Wenn das Zertifikat einen privaten Schlüssel enthält, wählen Sie **Zertifikatdatei enthält den privaten** Schlüssel des Zertifikats aus, und geben Sie das Kennwort für den privaten Schlüssel ein. Klicken Sie auf **Weiter**.
 
-7.  Wenn Sie einen Edgeserverpool konfigurieren, exportieren Sie das Zertifikat mit seinem privaten Schlüssel, wie im Verfahren "So exportieren Sie das Zertifikat mit dem privaten Schlüssel für Edgeserver in einem Pool" weiter unten in diesem Thema beschrieben. Kopieren Sie die exportierte Zertifikatdatei auf die anderen Edgeserver, und importieren Sie sie in den Computerspeicher auf den einzelnen Edgeservern.
+5.  Überprüfen Sie auf der Seite **Zertifikatzusammenfassung importieren** die Zusammenfassung, und klicken Sie dann auf **weiter**.
 
-## So exportieren Sie das Zertifikat mit dem privaten Schlüssel für Edgeserver in einem Pool
+6.  Überprüfen Sie beim **Ausführen von Befehlen**die Ergebnisse des Imports, klicken Sie auf **Protokoll anzeigen** , wenn Sie weitere Informationen benötigen, und klicken Sie dann auf **Fertig stellen** , um den Zertifikatimport abzuschließen.
 
-1.  Melden Sie sich als Mitglied der Administratorgruppe bei demselben Edgeserver an, auf dem Sie das Zertifikat importiert haben.
+7.  Wenn Sie einen Edge-Server-Pool konfigurieren, exportieren Sie das Zertifikat mit seinem privaten Schlüssel, wie im Abschnitt "So exportieren Sie das Zertifikat mit dem privaten Schlüssel für Edgeserver in einem Pool" weiter unten in diesem Thema beschrieben. Kopieren Sie die exportierte Zertifikatsdatei auf die anderen Edgeserver, und importieren Sie Sie in den Computerspeicher auf jedem Edgeserver.
 
-2.  Klicken Sie auf **Start** , dann auf **Ausführen** , und geben Sie **MMC** ein.
+</div>
 
-3.  Klicken Sie in der Microsoft Management Console (MMC) auf **Datei** und dann auf **Snap-In hinzufügen/entfernen** .
+<div>
 
-4.  Klicken Sie in **Snap-Ins hinzufügen bzw. entfernen** auf **Zertifikate** und dann auf **Hinzufügen** .
+## <a name="to-export-the-certificate-with-the-private-key-for-edge-servers-in-a-pool"></a>So exportieren Sie das Zertifikat mit dem privaten Schlüssel für Edgeserver in einem Pool
 
-5.  Wählen Sie im Dialogfeld **Zertifikate** den Eintrag **Computerkonto** aus, klicken Sie auf **Weiter** , wählen Sie unter **Computer auswählen** die Option **Lokaler Computer: (Computer, auf dem diese Konsole ausgeführt wird)** aus, klicken Sie auf **Fertig stellen** , und klicken Sie dann auf **OK** , um die Konfiguration der MMC-Konsole abzuschließen.
+1.  Melden Sie sich als Mitglied der Gruppe Administratoren auf dem gleichen Edgeserver an, auf dem Sie das Zertifikat importiert haben.
 
-6.  Doppelklicken Sie auf **Zertifikate (Lokaler Computer)** , um die Zertifikatspeicher zu erweitern, doppelklicken Sie auf **Eigene Zertifikate** , und doppelklicken Sie dann auf **Zertifikate** .
+2.  Klicken Sie auf **Start**, klicken Sie auf **Ausführen**, und geben Sie **MMC**ein.
+
+3.  Klicken Sie in der MMC-Konsole (Microsoft Management Console) auf **Datei**, und klicken Sie dann auf **Snap-in hinzufügen/entfernen**.
+
+4.  Klicken Sie unter **Snap-Ins hinzufügen oder entfernen**auf **Zertifikate**, und klicken Sie dann auf **Hinzufügen**.
+
+5.  Wählen Sie im Dialogfeld **Zertifikate** die Option **Computerkonto**aus, klicken Sie auf **weiter**, wählen Sie **lokaler Computer aus: (der Computer, auf dem diese Konsole ausgeführt wird)** klicken Sie auf Computer **auswählen**, klicken Sie auf **Fertig stellen** , und klicken Sie dann auf **OK** , um vollständige Konfiguration der MMC-Konsole.
+
+6.  Doppelklicken Sie auf **Zertifikate (lokaler Computer)** , um die Zertifikatspeicher zu erweitern, doppelklicken Sie auf **persönlich**, und doppelklicken Sie dann auf **Zertifikate**.
+    
+    <div>
     
 
-    > [!IMPORTANT]
-    > Wenn sich im Speicher <STRONG>Eigene Zertifikate</STRONG> für den lokalen Computer keine Zertifikate befinden, ist dem importierten Zertifikat kein privater Schlüssel zugeordnet. Überprüfen Sie die Anforderungs- und Importschritte. Besteht das Problem weiterhin, wenden Sie sich an den Administrator oder Anbieter für die Zertifizierungsstelle.
+    > [!IMPORTANT]  
+    > Wenn im persönlichen Zertifikatspeicher für den lokalen Computer keine Zertifikate vorhanden sind, ist dem importierten Zertifikat kein privater Schlüssel zugeordnet. Überprüfen Sie die Schritte zum Anfordern und importieren. Wenn das Problem weiterhin besteht, wenden Sie sich an den Administrator oder Anbieter Ihrer Zertifizierungsstelle.
 
+    
+    </div>
 
+7.  Klicken Sie im **persönlichen Zertifikatspeicher für den lokalen Computer**mit der rechten Maustaste auf das zu exportierende Zertifikat, klicken Sie auf **alle Vorgänge**, und klicken Sie dann auf **exportieren**.
 
-7.  Klicken Sie im Speicher **Eigene Zertifikate** für den lokalen Computer mit der rechten Maustaste auf das zu exportierende Zertifikat, klicken Sie auf **Alle Aufgaben** und dann auf **Exportieren** .
-
-8.  Klicken Sie im Zertifikatexport-Assistenten auf **Weiter** , wählen Sie **Ja, privaten Schlüssel exportieren** aus, und klicken Sie dann auf **Weiter** .
+8.  Klicken Sie im Zertifikat Export-Assistenten auf **weiter**, wählen Sie ja aus, **exportieren Sie den privaten Schlüssel**, und klicken Sie dann auf **weiter**.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Ist die Option <STRONG>Ja, privaten Schlüssel exportieren</STRONG> nicht verfügbar ist, wurde der diesem Zertifikat zugeordnete private Schlüssel nicht für den Export markiert. Si müssen das Zertifikat erneut anfordern. Dabei müssen Sie sicherstellen, dass das Zertifikat für den Export des privaten Schlüssels markiert ist, bevor Sie den Export fortsetzen können. Wenden Sie sich ggf. an den Administrator oder Anbieter für die Zertifizierungsstelle.
+    > [!NOTE]  
+    > Wenn die Auswahl <STRONG>Ja, privater Schlüssel exportieren</STRONG> nicht verfügbar ist, wurde der dem Zertifikat zugeordnete private Schlüssel nicht für den Export markiert. Sie müssen das Zertifikat erneut anfordern, um sicherzustellen, dass das Zertifikat markiert ist, damit der Export des privaten Schlüssels zugelassen wird, bevor Sie den Export fortsetzen können. Wenden Sie sich an den Administrator oder Anbieter Ihrer Zertifizierungsstelle.
 
-
-
-9.  Wählen Sie im Dialogfeld **Format der zu exportierenden Datei** die Option **Privater Informationsaustausch - PKCS\#12 (.PFX)** aus und wählen Sie dann Folgendes aus:
     
-      - **Wenn möglich, alle Zertifikate im Zertifizierungspfad einbeziehen**
+    </div>
+
+9.  Wählen Sie im Dialogfeld Dateiformate exportieren den Eintrag **Personal Information Exchange\#– PKCS 12 (. PFX)** , und wählen Sie dann die folgenden Optionen aus:
     
-      - **Alle erweiterten Eigenschaften exportieren**
+      - Nach Möglichkeit alle Zertifikate in den Zertifizierungspfad einbeziehen
+    
+      - Exportieren aller erweiterten Eigenschaften
+        
+        <div>
         
 
-        > [!WARNING]
-        > Wählen Sie beim Exportieren des Zertifikats von einem Edgeserver nicht die Option <STRONG>Privaten Schlüssel nach erfolgreichem Export löschen</STRONG> aus. Wenn Sie diese Option auswählen, müssen Sie das Zertifikat und den privaten Schlüssel auf diesen Edgeserver importieren.
+        > [!WARNING]  
+        > Wenn Sie das Zertifikat von einem Edgeserver exportieren, wählen Sie <STRONG>den privaten Schlüssel nicht löschen aus, wenn der Export erfolgreich ist</STRONG>. Wenn Sie diese Option auswählen, müssen Sie das Zertifikat und den privaten Schlüssel auf diesen Edgeserver importieren.
 
+        
+        </div>
 
+10. Klicken Sie auf **Weiter**.
 
-10. Klicken Sie auf **Weiter** .
+11. Geben Sie ein Kennwort für den privaten Schlüssel ein, geben Sie das Kennwort erneut ein, um es zu bestätigen, und klicken Sie dann auf **weiter**.
 
-11. Geben Sie ein Kennwort für den privaten Schlüssel ein, geben Sie das Kennwort zur Bestätigung erneut ein, und klicken Sie dann auf **Weiter** .
+12. Geben Sie einen Pfad und einen Dateinamen für das exportierte Zertifikat ein, wobei Sie die Dateierweiterung .pfx verwenden. Der Pfad muss entweder für alle anderen Edgeserver im Pool zugänglich sein oder über Wechselmedien zur Verfügung stehen, beispielsweise einen USB-Speicherstick. Klicken Sie auf **Weiter**.
 
-12. Geben Sie einen Pfad und einen Dateinamen für das exportierte Zertifikat ein, wobei Sie die Dateierweiterung PFX verwenden. Für den Pfad gilt, dass entweder alle anderen Edgeserver in dem Pool darauf zugreifen können müssen, oder dass er für den Transport mittels Wechseldatenträger, z. B. USB-Stick, verfügbar ist. Klicken Sie auf **Weiter** .
+13. Überprüfen Sie die Zusammenfassung im **Assistenten zum Abschließen des Zertifikat Exports**, und klicken Sie dann auf **Fertig stellen**.
 
-13. Überprüfen Sie die Zusammenfassung im Dialogfeld **Fertigstellen des Assistenten** , und klicken Sie dann auf **Fertig stellen** .
+14. Klicken Sie im Dialogfeld erfolgreichen Export auf **OK**.
 
-14. Klicken Sie im Dialogfeld **Export erfolgreich** auf **OK** .
+15. Importieren Sie die exportierte Zertifikatsdatei auf die anderen Edgeserver, und folgen Sie den Schritten unter "So importieren Sie das Zertifikat für das externe Interface des Edge-Servers" weiter oben in diesem Thema.
 
-15. Importieren Sie die exportierte Zertifikatdatei auf die anderen Edgeserver, indem Sie das weiter oben in diesem Thema beschriebene Verfahren "So importieren Sie das Zertifikat für die externe Schnittstelle des Edgeservers" ausführen.
+</div>
 
-## So weisen Sie der externen Schnittstelle des Edgeservers das Zertifikat zu
+<div>
 
-1.  Klicken Sie auf jedem Edgeserver im Bereitstellungs-Assistenten neben **Schritt 3: Zertifikate anfordern, installieren oder zuweisen** auf **Erneut ausführen** .
+## <a name="to-assign-the-certificate-for-the-external-interface-of-the-edge-server"></a>So weisen Sie das Zertifikat für die externe Schnittstelle des Edge-Servers zu
 
-2.  Klicken Sie auf der Seite **Verfügbare Zertifikataufgaben** auf **Vorhandenes Zertifikat zuweisen** .
+1.  Klicken Sie auf jedem Edgeserver im Bereitstellungs-Assistenten neben **Schritt 3: anfordern, installieren oder Zuweisen von Zertifikaten**auf **erneut ausführen**.
 
-3.  Klicken Sie auf der Seite **Zertifikatzuweisung** auf **Externes Edgezertifikat** , und aktivieren Sie das Kontrollkästchen **Erweiterte Zertifikatverwendungen** .
+2.  Klicken Sie auf der Seite **Verfügbare Zertifikats Aufgaben** auf **vorhandenes Zertifikat zuweisen**.
 
-4.  Aktivieren Sie auf der Seite **Erweiterte Zertifikatverwendungen** alle Kontrollkästchen, um das Zertifikat allen Verwendungen zuzuweisen.
+3.  Klicken Sie auf der Seite **zertifikatzuweisung** auf **externes Zertifikat** , und aktivieren Sie das Kontrollkästchen **Erweiterte Zertifikatverwendung** .
 
-5.  Wählen Sie auf der Seite **Zertifikatspeicher** das öffentliche Zertifikat aus, das Sie für die externe Schnittstelle dieses Edgeservers angefordert und importiert haben.
+4.  Aktivieren Sie auf der Seite **Erweiterte Zertifikatverwendung** alle Kontrollkästchen, um das Zertifikat für alle Verwendungszwecke zuzuweisen.
+
+5.  Wählen Sie auf der Seite **Zertifikatspeicher** das öffentliche Zertifikat aus, das Sie für die externe Schnittstelle des Edge-Servers angefordert und importiert haben.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Wenn das angeforderte und importierte Zertifikat nicht in der Liste aufgeführt wird, stellen Sie sicher, dass der Antragstellername und die alternativen Antragstellernamen des Zertifikats alle Anforderungen für das Zertifikat erfüllen. Wenn Sie das Zertifikat und die Zertifikatkette nicht über die vorstehenden Verfahren, sondern manuell importiert haben, überprüfen Sie zudem, ob sich das Zertifikat im richtigen Zertifikatspeicher befindet (im Zertifikatspeicher des Computers, nicht des Benutzers oder Diensts).
+    > [!NOTE]  
+    > Wenn das angeforderte und importierte Zertifikat nicht in der Liste enthalten ist, besteht eine der Problembehebungsmethoden darin, zu überprüfen, ob der Antragstellername und der Alternative Name des Zertifikats alle Anforderungen für das Zertifikat erfüllen, und wenn Sie die Datei manuell importiert haben Zertifikat-und Zertifikatkette anstelle der vorhergehenden Vorgehensweisen, dass sich das Zertifikat im richtigen Zertifikatspeicher befindet (der Computerzertifikatspeicher, nicht der Benutzer oder Dienstzertifikat Speicher).
 
+    
+    </div>
 
+6.  Überprüfen Sie auf der Seite **Certificate Assignment Summary** Ihre Einstellungen, und klicken Sie dann auf **weiter** , um die Zertifikate zuzuweisen.
 
-6.  Überprüfen Sie auf der Seite **Zusammenfassung der Zertifikatzuweisung** die Einstellungen, und klicken Sie dann auf **Weiter** , um die Zertifikate zuzuweisen.
+7.  Klicken Sie auf der Seite zum Abschließen des Assistenten auf **Fertig stellen**.
 
-7.  Klicken Sie auf der Seite zum Abschließen des Assistenten auf **Fertig stellen** .
+8.  Nachdem Sie dieses Verfahren zum Zuweisen des Edge-Zertifikats verwendet haben, öffnen Sie das Zertifikat-Snap-in auf jedem Server, erweitern Sie **Zertifikate (lokaler Computer)**, erweitern Sie **Personal**, klicken Sie auf **Zertifikate**, und überprüfen Sie dann im Detailbereich, dass der Zertifikat ist aufgelistet.
 
-8.  Nachdem Sie das Edgezertifikat über diese Schritte zugewiesen haben, öffnen Sie auf jedem Server das Zertifikat-Snap-In, erweitern Sie den Eintrag **Zertifikate (Lokaler Computer)** sowie den Eintrag **Eigene Zertifikate** , und klicken Sie auf **Zertifikate** . Überprüfen Sie dann im Detailbereich, ob das Zertifikat aufgeführt ist.
+9.  Wenn Ihre Bereitstellung mehrere Edgeserver umfasst, wiederholen Sie diesen Vorgang für jeden Edgeserver.
 
-9.  Wenn Ihre Bereitstellung mehrere Edgeserver umfasst, wiederholen Sie dieses Verfahren für jeden Edgeserver.
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

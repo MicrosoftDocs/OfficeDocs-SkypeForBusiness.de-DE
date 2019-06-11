@@ -1,44 +1,70 @@
-﻿---
-title: 'Lync Server 2013: Verwalten der Notfallwiederherstellung, der hohen Verfügbarkeit und des Sicherungsdiensts'
-TOCTitle: Verwalten der Notfallwiederherstellung, der hohen Verfügbarkeit und des Sicherungsdiensts in Lync Server 2013
-ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ721939(v=OCS.15)
-ms:contentKeyID: 49891017
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Verwalten von lync Server Disaster Recovery, Hochverfügbarkeits-und Sicherungsdienst
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing Lync Server disaster recovery, high availability, and Backup Service
+ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721939(v=OCS.15)
+ms:contentKeyID: 49733876
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cada393fca28895ee5f23a12fdd55eabd211128e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828012"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwalten der Notfallwiederherstellung, der hohen Verfügbarkeit und des Sicherungsdiensts in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="managing-lync-server-2013-disaster-recovery-high-availability-and-backup-service"></a>Verwalten der Notfallwiederherstellung, der hohen Verfügbarkeit und des Sicherungsdiensts in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Letztes Änderungsdatum des Themas:** 2012-11-12_
 
-In diesem Abschnitt finden Sie Verfahren für Notfallwiederherstellungsvorgänge sowie für die Verwaltung des Sicherungsdienstes, der die Daten in einem Front-End-Poolpaar synchronisiert.
+Dieser Abschnitt enthält Verfahren für Wiederherstellungsvorgänge in Notfällen sowie für die Verwaltung des Sicherungsdiensts, der die Daten in gekoppelten Front-End-Pools synchronisiert.
 
-Bei den Notfallwiederherstellungsverfahren, sowohl für Failover als auch für Failback, handelt es sich um manuelle Methoden. Tritt ein Notfall ein, muss der Administrator die Failoverprozeduren manuell aufrufen. Gleiches gilt für den Failback nach der Reparatur des Pools.
+Disaster Recovery-Verfahren, sowohl Failover als auch Failback, sind manuell. Wenn ein Notfall vorliegt, muss der Administrator die Failoververfahren manuell aufrufen. Das gleiche gilt für das Failback, nachdem der Pool repariert wurde.
 
-Bei den Notfallwiederherstellungsverfahren in diesem Abschnitt wird Folgendes vorausgesetzt:
+Bei den Disaster Recovery-Verfahren im restlichen Abschnitt wird Folgendes vorausgesetzt:
 
-  - Sie haben eine Bereitstellung mit paarweise angeordneten Front-End-Pools, die sich an unterschiedlichen Standorten befinden, wie unter [Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md) beschrieben. Der Sicherungsdienst ist in diesem Poolpaar ausgeführt worden, um die Pools synchron zu halten.
+  - Sie verfügen über eine Bereitstellung mit gekoppelten Front-End-Pools, die sich an verschiedenen Standorten befinden, wie unter [Planen der Hochverfügbarkeits-und Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)beschrieben. Der Sicherungsdienst wurde in diesen gekoppelten Pools ausgeführt, um sie synchron zu halten.
 
-  - Wenn der zentralen Verwaltungsspeicher in einem der beiden Pools gehostet wird, wird er in beiden paarweise angeordneten Pools installiert und ausgeführt, wobei einer dieser Pools den aktiven Master hostet und der andere das Standbysystem.
+  - Wenn der zentrale Verwaltungsspeicher in einem der Pools gehostet wird, wird er in beiden Pools installiert und ausgeführt, wobei einer dieser Pools den aktiven Master und den anderen Pool hostet, in dem sich der Standby-Modus befindet.
+
+<div>
 
 
 > [!IMPORTANT]
-> In den folgenden Verfahren bezeichnet der <EM>PoolFQDN</EM> -Parameter den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools, der von dem Notfall betroffen ist, und nicht den Pool, aus dem betroffene Benutzer umgeleitet werden. Für die gleiche Gruppe von betroffenen Benutzern bezeichnet er den gleichen Pool sowohl in Failover- als auch in Failback-Cmdlets (d. h. den Pool, in dem die Benutzer verwaltet wurden, bevor der Failover eintrat).<BR>Nehmen wir beispielsweise an, für alle Benutzer, die in einem Pool P1 verwaltet werden, wurde ein Failover zum Sicherungspool P2 durchgeführt. Möchte der Administrator nun alle Benutzer, die derzeit von P2 bedient werden, zu P1 verschieben, muss er die folgenden Schritte ausführen: 
+> In den folgenden Verfahren bezieht sich der <EM>PoolFQDN</EM> -Parameter auf den FQDN des Pools, der von einem Notfall betroffen ist, nicht auf den Pool, von dem betroffene Benutzer umgeleitet werden. Für denselben Satz betroffener Benutzer verweist er sowohl in Failover-als auch in Failback-Cmdlets auf denselben Pool (also auf den Pool, der zuerst die Benutzer vor dem Failover verwaltet hat).<BR>Angenommen, ein Fall, in dem alle Benutzer, die sich in einem Pool P1 befanden, auf den Sicherungspool P2 umgestellt wurden. Wenn der Administrator alle Benutzer verschieben möchte, die von P2 aktuell gewartet werden, um von P1 gewartet zu werden, muss der Administrator die folgenden Schritte ausführen: 
 > <OL>
 > <LI>
-> <P>Mithilfe des Failback-Cmdlets einen Failback aller Benutzer, die ursprünglich auf P1 verwaltet wurden, von P2 zu P1 ausführen. In diesem Fall ist der <EM>PoolFQDN</EM> der FQDN von P1.</P>
+> <P>Führen Sie mithilfe des Failback-Cmdlets alle Benutzer, die sich ursprünglich auf P1 benetzten, von P2 zu P1 zurück. In diesem Fall ist der <EM>PoolFQDN</EM> P1's-FQDN.</P>
 > <LI>
-> <P>Mithilfe des Failover-Cmdlets einen Failover aller Benutzer, die ursprünglich auf P2 verwaltet wurden, zu P1 ausführen. In diesem Fall ist der <EM>PoolFQDN</EM> der FQDN von P2.</P>
+> <P>Über das Failover-Cmdlet können alle Benutzer, die sich ursprünglich auf P2 mit P1 befanden, einen Failover durchführen. In diesem Fall ist der <EM>PoolFQDN</EM> P2-FQDN.</P>
 > <LI>
-> <P>Wenn der Administrator später einen Failback dieser P2-Benutzer zurück zu P2 ausführen möchte, ist der <EM>PoolFQDN</EM> der FQDN von P2.</P></LI></OL>Beachten Sie, dass der obige Schritt 1 vor Schritt 2 ausgeführt werden muss, um die Poolintegrität aufrecht zu erhalten. Wenn Sie zuerst Schritt 2 auszuführen versuchen, tritt beim Cmdlet von Schritt 2 ein Fehler auf.
+> <P>Wenn der Administrator später diese P2-Benutzer wieder in P2 zurücksetzen möchte, ist der <EM>PoolFQDN</EM> P2-FQDN.</P></LI></OL>Beachten Sie, dass Schritt 1 oben vor Schritt 2 ausgeführt werden muss, um die Pool Integrität beizubehalten. Wenn Sie Schritt 2 vor Schritt 1 versuchen, tritt das Cmdlet "Schritt 2" nicht auf.
 
 
 
-## In diesem Abschnitt
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>In diesem Abschnitt
 
   - [Konfigurieren und Überwachen des Sicherungsdiensts in Lync Server 2013](lync-server-2013-configuring-and-monitoring-the-backup-service.md)
 
@@ -58,9 +84,25 @@ Bei den Notfallwiederherstellungsverfahren in diesem Abschnitt wird Folgendes vo
 
   - [Wiederherstellen von Konferenzinhalten mithilfe des Sicherungsdiensts in Lync Server 2013](lync-server-2013-restoring-conference-contents-using-the-backup-service.md)
 
-## Siehe auch
+</div>
 
-#### Konzepte
+<div>
 
-[Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)
+## <a name="see-also"></a>Siehe auch
+
+
+[Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
