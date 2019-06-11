@@ -1,61 +1,102 @@
-﻿---
-title: Wiederherstellen eines Enterprise Edition-Mitgliedsservers
-TOCTitle: Wiederherstellen eines Enterprise Edition-Mitgliedsservers
-ms:assetid: d960b19c-2104-4719-b736-0d940f254d42
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh202191(v=OCS.15)
-ms:contentKeyID: 52056470
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Wiederherstellen eines Enterprise Edition-Mitgliedsservers'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Restoring an Enterprise Edition member server
+ms:assetid: d960b19c-2104-4719-b736-0d940f254d42
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202191(v=OCS.15)
+ms:contentKeyID: 51541523
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 83f0283dc6525dbb75ce74809bd88f4e962a9aec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822972"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Wiederherstellen eines Enterprise Edition-Mitgliedsservers
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-18_
+# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a><span data-ttu-id="6cdb1-102">Wiederherstellen eines Enterprise Edition-Mitgliedsservers in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6cdb1-102">Restoring an Enterprise Edition member server in Lync Server 2013</span></span>
 
-Bei einem Ausfall eines Servers, auf dem eine der folgenden Serverrollen ausgeführt wird, führen Sie das Verfahren in diesem Thema aus, um den Server wiederherzustellen. Wenn mehrere Server unabhängig voneinander ausfallen, führen Sie das Verfahren für jeden einzelnen Server aus.
+</div>
 
-  - Front-End-Server
+<div id="mainSection">
 
-  - Vermittlungsserver
+<div id="mainBody">
 
-  - Director
+<span> </span>
 
-  - Server für beständigen Chat
+<span data-ttu-id="6cdb1-103">_**Letztes Änderungsdatum des Themas:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="6cdb1-103">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-  - Edgeserver
+<span data-ttu-id="6cdb1-104">Wenn auf einem Server, auf dem eine der folgenden Serverrollen ausgeführt wird, ein Fehler auftritt, führen Sie die Schritte in diesem Thema aus, um den Server wiederherzustellen.</span><span class="sxs-lookup"><span data-stu-id="6cdb1-104">If a server running one of the following server roles fails, follow the procedure in this topic to restore the server.</span></span> <span data-ttu-id="6cdb1-105">Wenn mehrere Server unabhängig voneinander auftreten, führen Sie das Verfahren für jeden Server aus.</span><span class="sxs-lookup"><span data-stu-id="6cdb1-105">If multiple servers fail independently, follow the procedure for each server.</span></span>
+
+  - <span data-ttu-id="6cdb1-106">Front-End-Server</span><span class="sxs-lookup"><span data-stu-id="6cdb1-106">Front End Server</span></span>
+
+  - <span data-ttu-id="6cdb1-107">Vermittlungsserver</span><span class="sxs-lookup"><span data-stu-id="6cdb1-107">Mediation Server</span></span>
+
+  - <span data-ttu-id="6cdb1-108">Director</span><span class="sxs-lookup"><span data-stu-id="6cdb1-108">Director</span></span>
+
+  - <span data-ttu-id="6cdb1-109">Server für beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="6cdb1-109">Persistent Chat Server</span></span>
+
+  - <span data-ttu-id="6cdb1-110">Edgeserver</span><span class="sxs-lookup"><span data-stu-id="6cdb1-110">Edge Server</span></span>
+
+<div>
 
 
-> [!TIP]
-> Es wird empfohlen, vor der Wiederherstellung ein Abbild des Systems zu erstellen. Sie können dieses Abbild dann als Rollbackpunkt verwenden, falls Probleme bei der Wiederherstellung auftreten. Es ist sinnvoll, das Abbild nach der Installation des Betriebssystems und von SQL&nbsp;Server zu erstellen und die Zertifikate wiederherzustellen oder erneut zu registrieren.
+> [!TIP]  
+> <span data-ttu-id="6cdb1-111">Wir empfehlen, dass Sie eine Image-Kopie des Systems erstellen, bevor Sie mit der Wiederherstellung beginnen.</span><span class="sxs-lookup"><span data-stu-id="6cdb1-111">We recommend that you take an image copy of the system before you start restoration.</span></span> <span data-ttu-id="6cdb1-112">Sie können dieses Bild als Rollback-Punkt verwenden, falls während der Wiederherstellung etwas schief geht.</span><span class="sxs-lookup"><span data-stu-id="6cdb1-112">You can use this image as a rollback point, in case something goes wrong during restoration.</span></span> <span data-ttu-id="6cdb1-113">Möglicherweise möchten Sie das Abbild kopieren, nachdem Sie das Betriebssystem und SQL Server installiert haben, und die Zertifikate wiederherstellen oder erneut registrieren.</span><span class="sxs-lookup"><span data-stu-id="6cdb1-113">You might want to take the image copy after you install the operating system and SQL Server, and restore or reenroll the certificates.</span></span>
 
 
 
-## So stellen Sie einen Mitgliedsserver wieder her
+</div>
 
-1.  Voraussetzung ist ein bereinigter oder neuer Server, der denselben vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) wie der ausgefallene Server aufweist. Installieren Sie das Betriebssystem, und stellen Sie dann die Zertifikate wieder her bzw. registrieren Sie sie erneut.
+<div>
+
+## <a name="to-restore-a-member-server"></a><span data-ttu-id="6cdb1-114">So stellen Sie einen Mitgliedsserver wieder her</span><span class="sxs-lookup"><span data-stu-id="6cdb1-114">To restore a member server</span></span>
+
+1.  <span data-ttu-id="6cdb1-115">Beginnen Sie mit einem sauberen oder neuen Server, der den gleichen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) wie der fehlerhafte Server aufweist, installieren Sie das Betriebssystem, und stellen Sie die Zertifikate dann wieder her oder registrieren Sie Sie erneut.</span><span class="sxs-lookup"><span data-stu-id="6cdb1-115">Start with a clean or new server that has the same fully qualified domain name (FQDN) as the failed server, install the operating system, and then restore or reenroll the certificates.</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > Folgen Sie den Verfahren zur Bereitstellung der Server in Ihrer Organisation, um diesen Schritt durchzuführen.
+    > [!NOTE]  
+    > <span data-ttu-id="6cdb1-116">Befolgen Sie die Server Bereitstellungsverfahren Ihrer Organisation, um diesen Schritt ausführen zu können.</span><span class="sxs-lookup"><span data-stu-id="6cdb1-116">Follow your organization's server deployment procedures to perform this step.</span></span>
 
+    
+    </div>
 
+2.  <span data-ttu-id="6cdb1-117">Melden Sie sich von einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist, bei dem Server an, den Sie wiederherstellen möchten.</span><span class="sxs-lookup"><span data-stu-id="6cdb1-117">From a user account that is a member of the RTCUniversalServerAdmins group, log on to the server that you are restoring.</span></span>
 
-2.  Melden Sie sich von einem Konto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist, bei dem Server an, den Sie wiederherstellen.
+3.  <span data-ttu-id="6cdb1-118">Navigieren Sie zum lync Server-Installationsordner oder-Medium, und starten Sie den lync Server- \\Bereitstellungs-Assistenten unter Setup\\amd64\\Setup. exe.</span><span class="sxs-lookup"><span data-stu-id="6cdb1-118">Browse to the Lync Server installation folder or media, and start the Lync Server Deployment Wizard located at \\setup\\amd64\\Setup.exe.</span></span>
 
-3.  Navigieren Sie zum Installationsordner oder Datenträger von Lync Server, und starten Sie den Lync Server-Bereitstellungs-Assistenten unter **\\setup\\amd64\\Setup.exe**.
+4.  <span data-ttu-id="6cdb1-119">Folgen Sie dem Bereitstellungs-Assistenten, um folgende Aktionen auszuführen:</span><span class="sxs-lookup"><span data-stu-id="6cdb1-119">Follow the Deployment Wizard to do the following:</span></span>
+    
+    1.  <span data-ttu-id="6cdb1-120">Führen Sie **Schritt 1: Installieren des lokalen Konfigurationsspeichers** aus, um die lokalen Konfigurationsdateien zu installieren.</span><span class="sxs-lookup"><span data-stu-id="6cdb1-120">Run **Step 1: Install Local Configuration Store** to install the local configuration files.</span></span>
+    
+    2.  <span data-ttu-id="6cdb1-121">Führen **Sie Schritt 2: Einrichten oder Entfernen von lync Server-Komponenten** aus, um die lync Server-Serverrolle zu installieren.</span><span class="sxs-lookup"><span data-stu-id="6cdb1-121">Run **Step 2: Setup or Remove Lync Server Components** to install the Lync Server server role.</span></span>
+    
+    3.  <span data-ttu-id="6cdb1-122">Führen Sie **Schritt 3 aus: anfordern, installieren oder Zuweisen von Zertifikaten** zum Zuweisen der Zertifikate.</span><span class="sxs-lookup"><span data-stu-id="6cdb1-122">Run **Step 3: Request, Install or Assign Certificates** to assign the certificates.</span></span>
+    
+    4.  <span data-ttu-id="6cdb1-123">Führen Sie **Schritt 4: Dienste starten** aus, um Dienste auf dem Server zu starten.</span><span class="sxs-lookup"><span data-stu-id="6cdb1-123">Run **Step 4: Start Services** to start services on the server.</span></span>
+    
+    <span data-ttu-id="6cdb1-124">Details zum Ausführen des Bereitstellungs-Assistenten finden Sie in der Bereitstellungsdokumentation für die Serverrolle, die Sie wiederherstellen.</span><span class="sxs-lookup"><span data-stu-id="6cdb1-124">For details about running the Deployment Wizard, see the Deployment documentation for the server role that you are restoring.</span></span>
 
-4.  Folgen Sie dem Bereitstellungs-Assistenten, um folgende Schritte auszuführen:
-    
-    1.  Führen Sie **Schritt 1: Lokalen Konfigurationsspeicher installieren** aus, um die lokalen Konfigurationsdateien zu installieren.
-    
-    2.  Führen Sie **Schritt 2: Lync Server-Komponenten einrichten oder entfernen** aus, um die Lync Server-Serverrollen zu installieren.
-    
-    3.  Führen Sie **Schritt 3: Zertifikate anfordern, installieren oder zuweisen** aus, um die Zertifikate zuzuweisen.
-    
-    4.  Führen Sie **Schritt 4: Dienste starten** aus, um Dienste auf dem Server zu starten.
-    
-    Ausführliche Informationen über die Ausführung des Bereitstellungs-Assistenten finden Sie in der Bereitstellungsdokumentation zu der Serverrolle, die Sie wiederherstellen.
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

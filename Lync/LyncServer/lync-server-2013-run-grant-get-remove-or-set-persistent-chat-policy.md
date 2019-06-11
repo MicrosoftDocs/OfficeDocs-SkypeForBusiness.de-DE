@@ -1,37 +1,67 @@
-﻿---
-title: 'Lync Server 2013: Ausführen, Ausstellen, Abrufen, Entfernen oder Festlegen einer Richtlinie für den beständigen Chat'
-TOCTitle: Ausführen, Ausstellen, Abrufen, Entfernen oder Festlegen einer Richtlinie für den beständigen Chat
-ms:assetid: 39ccdbe8-fb3d-47bc-96e2-9486b6d317e0
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ204810(v=OCS.15)
-ms:contentKeyID: 49293716
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Ausführen, Ausstellen, Abrufen, Entfernen oder Festlegen einer Richtlinie für den beständigen Chat'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Run, grant, get, remove, or set Persistent Chat Policy
+ms:assetid: 39ccdbe8-fb3d-47bc-96e2-9486b6d317e0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204810(v=OCS.15)
+ms:contentKeyID: 48183857
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b8465271c4bd2be3d6fc240811e61a61f20ac814
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822230"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ausführen, Ausstellen, Abrufen, Entfernen oder Festlegen einer Richtlinie für den beständigen Chat in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+# <a name="run-grant-get-remove-or-set-persistent-chat-policy-in-lync-server-2013"></a><span data-ttu-id="e359f-102">Ausführen, Ausstellen, Abrufen, Entfernen oder Festlegen einer Richtlinie für den beständigen Chat in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e359f-102">Run, grant, get, remove, or set Persistent Chat Policy in Lync Server 2013</span></span>
 
-So erstellen Sie eine neue Beständiger Chat-Richtlinie
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="e359f-103">_**Letztes Änderungsdatum des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="e359f-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+
+<span data-ttu-id="e359f-104">So erstellen Sie eine neue Richtlinie für beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="e359f-104">To create a new Persistent Chat policy</span></span>
 
     New-CsPersistentChatPolicy -Identity <XdsIdentity> [-Enable <Switch Parameter>] [-Confirm <Switch Parameter>] [-Force <Switch Parameter>] [-WhatIf <Switch Parameter>] [-InMemory <Switch Parameter>]
 
-So gewähren Sie eine Beständiger Chat-Richtlinie
+<span data-ttu-id="e359f-105">So gewähren Sie die Richtlinie für beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="e359f-105">To grant Persistent Chat policy</span></span>
 
     Grant-CsPersistentChatPolicy -Identity <UserIdParameter> -PolicyName <String> [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-So rufen Sie eine Beständiger Chat-Richtlinie ab
+<span data-ttu-id="e359f-106">So erhalten Sie Richtlinien für beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="e359f-106">To get Persistent Chat policy</span></span>
 
     Get-CsPersistentChatPolicy [-Identity <XdsIdentity>] [-Filter <String>] [-LocalStore <Switch Parameter>]
 
-So entfernen Sie eine Beständiger Chat-Richtlinie
+<span data-ttu-id="e359f-107">So entfernen Sie die Richtlinie für beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="e359f-107">To remove Persistent Chat policy</span></span>
 
     Remove-CsPersistentChatPolicy -Identity <XdsIdentity> [-Confirm <Switch Parameter>] [-Force <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-So legen Sie eine Beständiger Chat-Richtlinie fest
+<span data-ttu-id="e359f-108">So setzen Sie die Richtlinie für beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="e359f-108">To set Persistent Chat policy</span></span>
 
     Set-CsPersistentChatPolicy [-Identity <XdsIdentity>] [-Instance < PSObject>]
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

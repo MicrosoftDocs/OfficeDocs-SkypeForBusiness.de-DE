@@ -1,101 +1,146 @@
-﻿---
-title: 'Lync Server 2013: Ausführen der Schemavorbereitung'
-TOCTitle: Ausführen der Schemavorbereitung
-ms:assetid: 9d02bdb1-ff29-417a-bcce-b068b31207d8
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412729(v=OCS.15)
-ms:contentKeyID: 49294897
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Ausführen der Schemavorbereitung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Running schema preparation
+ms:assetid: 9d02bdb1-ff29-417a-bcce-b068b31207d8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412729(v=OCS.15)
+ms:contentKeyID: 48184911
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4b743e5ef93b14279f5f2f16cb70241617a0c8f0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822538"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ausführen der Active Directory-Schemavorbereitung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="running-active-directory-schema-preparation-in-lync-server-2013"></a><span data-ttu-id="ca5c2-102">Ausführen der Active Directory-Schemavorbereitung in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ca5c2-102">Running Active Directory schema preparation in Lync Server 2013</span></span>
 
-Für die Vorbereitung des Active Directory-Schemas können Sie Setup oder Lync Server-Verwaltungsshell-Cmdlets nutzen. Das Cmdlet für die Erweiterung des Active Directory-Schemas ist **Install-CsAdServerSchema**.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="ca5c2-103">_**Letztes Änderungsdatum des Themas:** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="ca5c2-103">_**Topic Last Modified:** 2012-10-29_</span></span>
+
+<span data-ttu-id="ca5c2-104">Sie können das Active Directory-Schema mithilfe von Setup-oder lync Server-Verwaltungsshell-Cmdlets vorbereiten.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-104">You can use Setup or Lync Server Management Shell cmdlets to prepare the Active Directory schema.</span></span> <span data-ttu-id="ca5c2-105">Das Cmdlet, das das Active Directory-Schema erweitert, ist **install-CsAdServerSchema**.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-105">The cmdlet that extends the Active Directory schema is **Install-CsAdServerSchema**.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Das Cmdlet für die Schemavorbereitung ( <STRONG>Install-CsAdServerSchema</STRONG>) muss auf den Schemamaster zugreifen. Dazu muss der Remoteregistrierungsdienst ausgeführt werden und der Remoteregistrierungsschlüssel aktiviert sein. Falls der Remoteregistrierungsdienst nicht auf dem Schemamaster aktiviert werden kann, können Sie das Cmdlet lokal auf dem Schemamaster ausführen. Ausführliche Informationen über den Remotezugriff auf die Registrierung finden Sie im Microsoft Knowledge Base-Artikel 314837 "Steuerung des Remotezugriffs auf die Registrierung" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=125769">http://go.microsoft.com/fwlink/p/?linkId=125769</A>.
+> [!NOTE]  
+> <span data-ttu-id="ca5c2-106">Das Schema Vorbereitungs-Cmdlet (<STRONG>install-CsAdServerSchema</STRONG>) muss auf den Schemamaster zugreifen, der erfordert, dass der Remoteregistrierungsdienst ausgeführt wird und dass der Remote Registrierungsschlüssel aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-106">The schema preparation cmdlet (<STRONG>Install-CsAdServerSchema</STRONG>) must access the schema master, which requires that the remote registry service is running and that the remote registry key is enabled.</span></span> <span data-ttu-id="ca5c2-107">Wenn der Remoteregistrierungsdienst auf dem Schemamaster nicht aktiviert werden kann, können Sie das Cmdlet lokal auf dem Schemamaster ausführen.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-107">If the remote registry service cannot be enabled on the schema master, you can run the cmdlet locally on the schema master.</span></span> <span data-ttu-id="ca5c2-108">Details zum Remotezugriff auf die Registrierung finden Sie im <A href="http://go.microsoft.com/fwlink/p/?linkid=125769">http://go.microsoft.com/fwlink/p/?linkId=125769</A>Microsoft Knowledge Base-Artikel 314837, "Verwalten des Remotezugriffs auf die Registrierung" unter.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-108">For details about registry remote access, see Microsoft Knowledge Base article 314837, "How to Manage Remote Access to the Registry," at <A href="http://go.microsoft.com/fwlink/p/?linkid=125769">http://go.microsoft.com/fwlink/p/?linkId=125769</A>.</span></span>
 
 
 
-Stellen Sie nach Abschluss der Schemavorbereitung manuell sicher, dass die Schemapartition repliziert wurde, bevor Sie mit der Vorbereitung der Gesamtstruktur fortfahren. Ausführliche Informationen finden Sie unter [Überprüfen der Active Directory-Schemareplikation in Lync Server 2013](lync-server-2013-verifying-schema-replication.md).
+</div>
 
-## So bereiten Sie das Schema der aktuellen Gesamtstruktur mithilfe von Setup vor
+<span data-ttu-id="ca5c2-109">Nachdem Sie die Schemavorbereitung abgeschlossen haben, überprüfen Sie manuell, ob die Schemapartition repliziert wurde, bevor Sie mit der Gesamtstrukturvorbereitung fortfahren.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-109">After you complete schema preparation, manually verify that the schema partition has been replicated before proceeding to forest preparation.</span></span> <span data-ttu-id="ca5c2-110">Ausführliche Informationen finden Sie unter [Überprüfen der Active Directory-Schemareplikation in lync Server 2013](lync-server-2013-verifying-schema-replication.md).</span><span class="sxs-lookup"><span data-stu-id="ca5c2-110">For details, see [Verifying Active Directory schema replication in Lync Server 2013](lync-server-2013-verifying-schema-replication.md).</span></span>
 
-1.  Melden Sie sich bei einem Server in der Gesamtstruktur als Mitglied der Gruppe "Schema-Admins" und mit Administratorrechten auf dem Schemamaster an.
+<div>
 
-2.  Führen Sie im Lync Server 2013-Installationsordner oder auf dem Installationsmedium "Setup.exe" aus, um den Bereitstellungs-Assistenten zu starten.
+## <a name="to-use-setup-to-prepare-the-schema-of-the-current-forest"></a><span data-ttu-id="ca5c2-111">So verwenden Sie Setup zum Vorbereiten des Schemas der aktuellen Gesamtstruktur</span><span class="sxs-lookup"><span data-stu-id="ca5c2-111">To use Setup to prepare the schema of the current forest</span></span>
 
-3.  Klicken Sie auf **Ja** , wenn Sie zur Installation von Microsoft Visual C++ Redistributable aufgefordert werden.
+1.  <span data-ttu-id="ca5c2-112">Melden Sie sich bei einem Server in Ihrer Gesamtstruktur als Mitglied der Gruppe Schemaadministratoren und mit Administratorrechten für den Schemamaster an.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-112">Log on to a server in your forest as a member of the Schema Admins group and with administrator rights on the schema master.</span></span>
 
-4.  Sie werden im Dialogfeld für das Lync Server 2013-Setup aufgefordert, einen Speicherort für die Installation der Lync Server-Dateien anzugeben. Wählen Sie den Standardspeicherort, oder klicken Sie auf **Durchsuchen** , um einen anderen Speicherort anzugeben, und klicken Sie dann auf **Installieren** .
+2.  <span data-ttu-id="ca5c2-113">Führen Sie im lync Server 2013-Installationsordner oder-Medium Setup. exe aus, um den Bereitstellungs-Assistenten zu starten.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-113">From the Lync Server 2013 installation folder or media, run Setup.exe to start the Deployment Wizard.</span></span>
 
-5.  Aktivieren Sie auf der Seite "Lizenzvertrag" die Option **Ich stimme den Bedingungen des Lizenzvertrags zu** , und klicken Sie dann auf **OK** .
+3.  <span data-ttu-id="ca5c2-114">Wenn Sie aufgefordert werden, die Microsoft Visual C++-Installation zu installieren, klicken Sie auf **Ja**.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-114">If you are prompted to install the Microsoft Visual C++ Redistributable, click **Yes**.</span></span>
 
-6.  Das Installationsprogramm installiert die Hauptkomponenten von Lync Server.
+4.  <span data-ttu-id="ca5c2-115">Im Dialogfeld "lync Server 2013-Setup" werden Sie aufgefordert, einen Speicherort zum Installieren der lync Server-Dateien anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-115">The Lync Server 2013 Setup dialog box prompts you for a location to install the Lync Server files.</span></span> <span data-ttu-id="ca5c2-116">Wählen Sie den Standardspeicherort aus, oder **Navigieren** Sie zu einem Speicherort Ihrer Wahl, und klicken Sie dann auf **Installieren**.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-116">Choose the default location or **Browse** to a location of your choice, and then click **Install**.</span></span>
 
-7.  Wenn der Bereitstellungs-Assistent bereit ist, klicken Sie auf **Active Directory vorbereiten** , und warten Sie das Bestimmen des Bereitstellungsstatus ab.
+5.  <span data-ttu-id="ca5c2-117">Aktivieren Sie auf der Seite Lizenzvertrag **die Kontrollkästchen Ich akzeptiere die Bedingungen des Lizenzvertrags**, und klicken Sie dann auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-117">On the License Agreement page, check **I accept the terms in the license agreement**, and then click **OK**.</span></span>
 
-8.  Klicken Sie unter **Schritt 1: Schema vorbereiten** auf **Ausführen** .
+6.  <span data-ttu-id="ca5c2-118">Das Installationsprogramm installiert die lync Server Core-Komponenten.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-118">The installer installs the Lync Server Core Components.</span></span>
 
-9.  Klicken Sie auf der Seite **Schema vorbereiten** auf **Weiter** .
+7.  <span data-ttu-id="ca5c2-119">Wenn der Bereitstellungs-Assistent bereit ist, klicken Sie auf **Active Directory vorbereiten**, und warten Sie, bis der Bereitstellungsstatus ermittelt wurde.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-119">When the Deployment Wizard is ready, click **Prepare Active Directory**, and then wait for the deployment state to be determined.</span></span>
 
-10. Suchen Sie auf der Seite **Befehle ausführen** nach **Aufgabenstatus: Abgeschlossen** , und klicken Sie dann auf **Protokoll anzeigen** .
+8.  <span data-ttu-id="ca5c2-120">Klicken Sie in **Schritt 1: Schema vorbereiten**auf **Ausführen**.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-120">At **Step 1: Prepare Schema**, click **Run**.</span></span>
 
-11. Erweitern Sie in der Spalte **Aktion** die Option **Schemavorbereitung** , und achten Sie am Ende jeder Aufgabe auf das Ausführungsergebnis **\<Erfolg\>** , um sicherzustellen, dass die Schemavorbereitung erfolgreich abgeschlossen wurde. Schließen Sie das Protokoll, und klicken Sie auf **Fertig stellen** .
+9.  <span data-ttu-id="ca5c2-121">Klicken Sie auf der Seite **Schema vorbereiten** auf **weiter**.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-121">On the **Prepare Schema** page, click **Next**.</span></span>
 
-12. Warten Sie, bis die Active Directory-Replikation abgeschlossen ist, oder erzwingen Sie die Replikation.
+10. <span data-ttu-id="ca5c2-122">Suchen Sie auf der Seite **Befehle ausführen** nach **Aufgabenstatus: Abgeschlossen** und klicken Sie dann auf **Protokoll anzeigen**.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-122">On the **Executing Commands** page, look for **Task status: Completed**, and then click **View Log**.</span></span>
 
-13. Stellen Sie anhand des folgenden Verfahrens manuell sicher, dass die Schemaänderungen auf alle übrigen Domänencontroller repliziert wurden. Ausführliche Informationen finden Sie unter [Überprüfen der Active Directory-Schemareplikation in Lync Server 2013](lync-server-2013-verifying-schema-replication.md)
+11. <span data-ttu-id="ca5c2-123">Erweitern Sie in der Spalte **Aktion** die **Schema**Vorbereitung, suchen Sie \*\* \<nach\> \*\* dem Ergebnis der erfolgreichen Ausführung am Ende jeder Aufgabe, um zu überprüfen, ob die Schemavorbereitung erfolgreich abgeschlossen wurde, schließen Sie das Protokoll, und klicken Sie dann auf **Fertig stellen**.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-123">Under the **Action** column, expand **Schema Prep**, look for the **\<Success\>** Execution Result at the end of each task to verify that schema preparation completed successfully, close the log, and then click **Finish**.</span></span>
 
-## So bereiten Sie das Schema der aktuellen Gesamtstruktur mithilfe von Cmdlets vor
+12. <span data-ttu-id="ca5c2-124">Warten Sie, bis die Active Directory-Replikation abgeschlossen ist, oder erzwingen Sie die Replikation.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-124">Wait for Active Directory replication to complete or force replication.</span></span>
 
-1.  Melden Sie sich bei einem Computer der Gesamtstruktur als Mitglied der Gruppe "Schema-Admins" und mit Administratorrechten für den Schemamaster an.
+13. <span data-ttu-id="ca5c2-125">Überprüfen Sie manuell, ob die Schemaänderungen auf alle anderen Domänencontroller repliziert wurden.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-125">Manually verify that the schema changes replicated to all other domain controllers.</span></span> <span data-ttu-id="ca5c2-126">Ausführliche Informationen finden Sie unter [Überprüfen der Active Directory-Schemareplikation in lync Server 2013](lync-server-2013-verifying-schema-replication.md).</span><span class="sxs-lookup"><span data-stu-id="ca5c2-126">For details, see [Verifying Active Directory schema replication in Lync Server 2013](lync-server-2013-verifying-schema-replication.md).</span></span>
 
-2.  Installieren Sie die Lync Server-Hauptkomponenten wie folgt:
+</div>
+
+<div>
+
+## <a name="to-use-cmdlets-to-prepare-the-schema-of-the-current-forest"></a><span data-ttu-id="ca5c2-127">So verwenden Sie Cmdlets zum Vorbereiten des Schemas der aktuellen Gesamtstruktur</span><span class="sxs-lookup"><span data-stu-id="ca5c2-127">To use cmdlets to prepare the schema of the current forest</span></span>
+
+1.  <span data-ttu-id="ca5c2-128">Melden Sie sich bei einem Computer in der Gesamtstruktur als Mitglied der Gruppe Schemaadministratoren und mit Administratorrechten für den Schemamaster an.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-128">Log on to a computer in the forest as a member of the Schema Admins group and with administrator rights on the schema master.</span></span>
+
+2.  <span data-ttu-id="ca5c2-129">Installieren Sie die lync Server Core-Komponenten wie folgt:</span><span class="sxs-lookup"><span data-stu-id="ca5c2-129">Install Lync Server Core components as follows:</span></span>
     
-    1.  Führen Sie im Lync Server 2013-Installationsordner oder auf dem Installationsmedium "Setup.exe" aus, um den Lync Server-Bereitstellungs-Assistenten zu starten.
+    1.  <span data-ttu-id="ca5c2-130">Führen Sie im lync Server 2013-Installationsordner oder-Medium Setup. exe aus, um den lync Server-Bereitstellungs-Assistenten zu starten.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-130">From the Lync Server 2013 installation folder or media, run Setup.exe to start the Lync Server Deployment Wizard.</span></span>
     
-    2.  Klicken Sie auf **Ja** , wenn Sie zur Installation von Microsoft Visual C++ Redistributable aufgefordert werden.
+    2.  <span data-ttu-id="ca5c2-131">Wenn Sie aufgefordert werden, die Microsoft Visual C++-Installation zu installieren, klicken Sie auf **Ja**.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-131">If you are prompted to install the Microsoft Visual C++ Redistributable, click **Yes**.</span></span>
     
-    3.  Sie werden im Dialogfeld für das Lync Server 2013-Setup aufgefordert, einen Speicherort für die Installation der Lync Server-Dateien anzugeben. Wählen Sie den Standardspeicherort, oder klicken Sie auf **Durchsuchen** , um einen anderen Speicherort anzugeben, und klicken Sie dann auf **Installieren** .
+    3.  <span data-ttu-id="ca5c2-132">Im Dialogfeld "lync Server 2013-Setup" werden Sie aufgefordert, einen Speicherort zum Installieren der lync Server-Dateien anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-132">The Lync Server 2013 Setup dialog box prompts you for a location to install the Lync Server files.</span></span> <span data-ttu-id="ca5c2-133">Wählen Sie den Standardspeicherort aus, oder **Navigieren** Sie zu einem Speicherort Ihrer Wahl, und klicken Sie dann auf **Installieren**.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-133">Choose the default location or **Browse** to a location of your choice, and then click **Install**.</span></span>
     
-    4.  Aktivieren Sie auf der Seite "Lizenzvertrag" die Option **Ich stimme den Bedingungen des Lizenzvertrags zu** , und klicken Sie dann auf **OK** . Das Installationsprogramm installiert die Hauptkomponenten von Lync Server 2013.
+    4.  <span data-ttu-id="ca5c2-134">Aktivieren Sie auf der Seite Lizenzvertrag **die Kontrollkästchen Ich akzeptiere die Bedingungen des Lizenzvertrags**, und klicken Sie dann auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-134">On the License Agreement page, check **I accept the terms in the license agreement**, and then click **OK**.</span></span> <span data-ttu-id="ca5c2-135">Das Installationsprogramm installiert die lync Server 2013-Core-Komponenten.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-135">The installer installs the Lync Server 2013 Core Components.</span></span>
 
-3.  Starten der Lync Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Microsoft Lync Server 2013**, und klicken Sie anschließend auf **Lync Server-Verwaltungsshell**.
+3.  <span data-ttu-id="ca5c2-136">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-136">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-4.  Führen Sie folgenden Befehl aus:
+4.  <span data-ttu-id="ca5c2-137">Führen Sie folgenden Befehl aus:</span><span class="sxs-lookup"><span data-stu-id="ca5c2-137">Run:</span></span>
     
         Install-CsAdServerSchema [-Ldf <directory where the .ldf file is located>] 
     
-    Wenn Sie den Parameter "Ldf" nicht angeben, ist der Standardwert der Lync Server 2013-Installationspfad, der aus der Registrierung gelesen wird.
+    <span data-ttu-id="ca5c2-138">Wenn Sie den LDF-Parameter nicht angeben, ist der Standardwert der lync Server 2013-Installationspfad, der aus der Registrierung gelesen wird.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-138">If you do not specify the Ldf parameter, the default value is the Lync Server 2013 installation path that is read from the registry.</span></span>
     
-    Beispiel:
+    <span data-ttu-id="ca5c2-139">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="ca5c2-139">For example:</span></span>
     
         Install-CsAdServerSchema -Ldf "C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup"
 
-5.  Überprüfen Sie mit dem folgenden Cmdlet, ob die Schemavorbereitung erfolgreich abgeschlossen wurde.
+5.  <span data-ttu-id="ca5c2-140">Verwenden Sie das folgende Cmdlet, um zu überprüfen, ob die Schemavorbereitung bis zum Abschluss ausgeführt wurde.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-140">Use the following cmdlet to verify that schema preparation ran to completion.</span></span>
     
         Get-CsAdServerSchema 
     
-    Bei erfolgreicher Schemavorbereitung gibt dieses Cmdlet den Wert **SCHEMA\_VERSION\_STATE\_CURRENT** zurück.
+    <span data-ttu-id="ca5c2-141">Dieses Cmdlet gibt den Wert des **Schema\_Versions\_Status\_Current** zurück, wenn die Schemavorbereitung erfolgreich war.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-141">This cmdlet returns a value of **SCHEMA\_VERSION\_STATE\_CURRENT** if schema preparation was successful.</span></span>
 
-6.  Warten Sie, bis die Active Directory-Replikation abgeschlossen ist, oder erzwingen Sie die Replikation.
+6.  <span data-ttu-id="ca5c2-142">Warten Sie, bis die Active Directory-Replikation abgeschlossen ist, oder erzwingen Sie die Replikation.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-142">Wait for Active Directory replication to complete or force replication.</span></span>
 
-7.  Stellen Sie anhand des folgenden Verfahrens manuell sicher, dass die Schemaänderungen auf alle übrigen Domänencontroller repliziert wurden. Ausführliche Informationen finden Sie unter [Überprüfen der Active Directory-Schemareplikation in Lync Server 2013](lync-server-2013-verifying-schema-replication.md)
+7.  <span data-ttu-id="ca5c2-143">Überprüfen Sie manuell, ob die Schemaänderungen auf alle anderen Domänencontroller repliziert wurden.</span><span class="sxs-lookup"><span data-stu-id="ca5c2-143">Manually verify that the schema changes replicated to all other domain controllers.</span></span> <span data-ttu-id="ca5c2-144">Ausführliche Informationen finden Sie unter [Überprüfen der Active Directory-Schemareplikation in lync Server 2013](lync-server-2013-verifying-schema-replication.md).</span><span class="sxs-lookup"><span data-stu-id="ca5c2-144">For details, see [Verifying Active Directory schema replication in Lync Server 2013](lync-server-2013-verifying-schema-replication.md).</span></span>
 
-## Siehe auch
+</div>
 
-#### Aufgaben
+<div>
 
-[Überprüfen der Active Directory-Schemareplikation in Lync Server 2013](lync-server-2013-verifying-schema-replication.md)  
+## <a name="see-also"></a><span data-ttu-id="ca5c2-145">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="ca5c2-145">See Also</span></span>
 
-#### Konzepte
 
-[Vorbereiten des Active Directory-Schemas in Lync Server 2013](lync-server-2013-preparing-the-active-directory-schema.md)
+[<span data-ttu-id="ca5c2-146">Überprüfen der Active Directory-Schemareplikation in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ca5c2-146">Verifying Active Directory schema replication in Lync Server 2013</span></span>](lync-server-2013-verifying-schema-replication.md)  
+
+
+[<span data-ttu-id="ca5c2-147">Vorbereiten des Active Directory-Schemas in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ca5c2-147">Preparing the Active Directory schema in Lync Server 2013</span></span>](lync-server-2013-preparing-the-active-directory-schema.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

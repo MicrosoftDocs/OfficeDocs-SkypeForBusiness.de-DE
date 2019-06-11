@@ -1,21 +1,51 @@
-﻿---
-title: Einrichten eines Sicherungsspeicherorts
-TOCTitle: Einrichten eines Sicherungsspeicherorts
-ms:assetid: 006732eb-3d44-414d-8010-227a855caa93
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Hh202158(v=OCS.15)
-ms:contentKeyID: 52056274
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Einrichten eines Sicherungsspeicherorts'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up a backup location
+ms:assetid: 006732eb-3d44-414d-8010-227a855caa93
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202158(v=OCS.15)
+ms:contentKeyID: 51541440
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c6d8f91af650e68348a35e9f485f5ca5f54093fe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821880"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Einrichten eines Sicherungsspeicherorts
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-17_
+# <a name="setting-up-a-backup-location-for-lync-server-2013"></a><span data-ttu-id="242f2-102">Einrichten eines Sicherungsspeicherorts für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="242f2-102">Setting up a backup location for Lync Server 2013</span></span>
 
-Richten Sie vor dem ersten Sichern von Lync Server die für die Speicherung und Verwaltung der Sicherungen notwendige Hardware und Software ein. Verschaffen Sie sich Zugriff auf die erforderlichen Medien und Inhalte, und stellen Sie die Netzwerkkonnektivität zwischen den einzelnen zu sichernden Servern und den Sicherungsmedien her. Die von Ihnen verwendeten Medien und Speicherorte sollten in Ihrer Sicherungs- und Wiederherstellungsstrategie definiert sein. Der Speicherort für regelmäßige Sicherungen kann dabei lokal oder remote sein, muss jedoch sicher und sowohl für Sicherungen als auch Wiederherstellungen geeignet sein. Die Verwendung eines Remotespeicherorts wird zum Schutz vor katastrophalen Ereignissen am Ihrem primären Standort empfohlen.
+</div>
 
-Überprüfen Sie nach dem Einrichten und Testen der einzelnen Komponenten, ob von jedem Server auf die Sicherungen zugegriffen werden kann.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="242f2-103">_**Letztes Änderungsdatum des Themas:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="242f2-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+
+<span data-ttu-id="242f2-104">Bevor Sie die erste Sicherung von lync Server durchführen, richten Sie die Hardware und Software ein, die Sie benötigen, um die Sicherungen zu speichern und zu verwalten.</span><span class="sxs-lookup"><span data-stu-id="242f2-104">Before you take your first backup of Lync Server, set up the hardware and software that you need in order to store and maintain the backups.</span></span> <span data-ttu-id="242f2-105">Sie müssen je nach Bedarf Zugriff auf die Medien und Inhalte erhalten und die Netzwerkkonnektivität zwischen den einzelnen zu sichernden Servern und den Sicherungsmedien bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="242f2-105">You need to obtain access to the media and content, as appropriate, and provide network connectivity between each server to be backed up and the backup media.</span></span> <span data-ttu-id="242f2-106">Die von Ihnen verwendeten Medien und Standorte sollten in ihrer Sicherungs-und Wiederherstellungsstrategie definiert werden.</span><span class="sxs-lookup"><span data-stu-id="242f2-106">The media and location that you use should be defined in your backup and restoration strategy.</span></span> <span data-ttu-id="242f2-107">Der Speicherort, den Sie für reguläre Sicherungen verwenden, kann lokal oder Remote sein, aber er muss sicher sein, und er muss für die Sicherung und Wiederherstellung zugänglich sein.</span><span class="sxs-lookup"><span data-stu-id="242f2-107">The location that you use for regular backups can be local or remote, but it must be secure, and it must be accessible for both backup and restoration.</span></span> <span data-ttu-id="242f2-108">Wir empfehlen, einen Remotestandort zu verwenden, um vor einem katastrophalen Ereignis an Ihrem primären Standort zu schützen.</span><span class="sxs-lookup"><span data-stu-id="242f2-108">We recommend using a remote location to protect against a catastrophic event at your primary site.</span></span>
+
+<span data-ttu-id="242f2-109">Nachdem Sie die einzelnen Komponenten eingerichtet und getestet haben, überprüfen Sie die Barrierefreiheit der Sicherungen auf den einzelnen Servern.</span><span class="sxs-lookup"><span data-stu-id="242f2-109">After you set up and test the individual components, verify accessibility to the backups from each server.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,53 +1,91 @@
-﻿---
-title: Planen von Verbindungen mit öffentlichen Instant Messaging-Diensten
-TOCTitle: Planen von Verbindungen mit öffentlichen Instant Messaging-Diensten
-ms:assetid: e75e8884-05c7-414a-8014-bc9aa8126fb7
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205349(v=OCS.15)
-ms:contentKeyID: 49295739
-ms.date: 03/09/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Planen der öffentlichen Instant Messaging-Konnektivität'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for public instant messaging connectivity
+ms:assetid: e75e8884-05c7-414a-8014-bc9aa8126fb7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205349(v=OCS.15)
+ms:contentKeyID: 48185698
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4432484fbd6056d51a38090a18dbe106851d7c0f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824575"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planen von Verbindungen mit öffentlichen Instant Messaging-Diensten
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2017-03-09_
+# <a name="planning-for-public-instant-messaging-connectivity-in-lync-server-2013"></a><span data-ttu-id="63a2f-102">Planen der öffentlichen Instant Messaging-Konnektivität in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="63a2f-102">Planning for public instant messaging connectivity in Lync Server 2013</span></span>
 
-Die Verbindung mit öffentlichen Instant Messaging-Diensten stellt eine Partnerverbundklasse dar und wird konfiguriert, damit Ihre internen und externen Lync Server 2013-Benutzer die folgenden Kontakte hinzufügen können:
+</div>
 
-  - Messenger-Kontakte
+<div id="mainSection">
 
-  - Yahoo\! Kontakte
+<div id="mainBody">
 
-  - America Online (AOL)-Kontakte
+<span> </span>
+
+<span data-ttu-id="63a2f-103">_**Letztes Änderungsdatum des Themas:** 2013-10-07_</span><span class="sxs-lookup"><span data-stu-id="63a2f-103">_**Topic Last Modified:** 2013-10-07_</span></span>
+
+<span data-ttu-id="63a2f-104">Die öffentliche Instant Messaging-Konnektivität ist eine Klasse des Föderations-und ist so konfiguriert, dass Ihre internen und externen lync Server 2013-Benutzer Kontakte aus einem der folgenden hinzufügen können:</span><span class="sxs-lookup"><span data-stu-id="63a2f-104">Public Instant Messaging Connectivity is a class of federation, and is configured to allow your internal and external Lync Server 2013 users to add contacts from any of the following:</span></span>
+
+  - <span data-ttu-id="63a2f-105">Messenger-Kontakte</span><span class="sxs-lookup"><span data-stu-id="63a2f-105">Messenger contacts</span></span>
+
+  - <span data-ttu-id="63a2f-106">Yahoo\!</span><span class="sxs-lookup"><span data-stu-id="63a2f-106">Yahoo\!</span></span> <span data-ttu-id="63a2f-107">Kontakte</span><span class="sxs-lookup"><span data-stu-id="63a2f-107">contacts</span></span>
+
+  - <span data-ttu-id="63a2f-108">America Online (AOL)-Kontakte</span><span class="sxs-lookup"><span data-stu-id="63a2f-108">America Online (AOL) contacts</span></span>
+
+<div>
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>Ab dem 1. September 2012 kann die Microsoft Lync-Benutzerabonnementlizenz für die Verbindung mit öffentlichen Instant Messaging-Diensten (PIC USL) nicht mehr neu erworben werden, und Verträge können nicht verlängert werden. Kunden mit aktiven Lizenzen können den Partnerverbund mit Yahoo! Messenger weiterhin nutzen, bis der Dienst eingestellt wird. Für AOL und Yahoo! wurde das Einstellungsdatum Juni 2014 angekündigt. Ausführliche Informationen hierzu finden Sie unter <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Unterstützen von Verbindungen mit öffentlichen Chatdiensten in Lync Server 2013</A>.</P>
+> <P><span data-ttu-id="63a2f-109">Ab dem 1. September, 2012, ist die Microsoft lync Public Chat-Benutzerabonnementlizenz (PIC USL) nicht mehr für den Kauf für neue oder erneuernde Vereinbarungen verfügbar.</span><span class="sxs-lookup"><span data-stu-id="63a2f-109">As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (PIC USL) is no longer available for the purchase for new or renewing agreements.</span></span> <span data-ttu-id="63a2f-110">Kunden mit aktiven Lizenzen sind in der Lage, weiterhin mit Yahoo! zu verbünden</span><span class="sxs-lookup"><span data-stu-id="63a2f-110">Customers with active licenses will be able to continue to federate with Yahoo!</span></span> <span data-ttu-id="63a2f-111">Messenger bis zum Shutdown-Datum des Diensts.</span><span class="sxs-lookup"><span data-stu-id="63a2f-111">Messenger until the service shutdown date.</span></span> <span data-ttu-id="63a2f-112">Datum des Endes des Lebenszyklus von Juni 2014 für AOL und Yahoo!</span><span class="sxs-lookup"><span data-stu-id="63a2f-112">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="63a2f-113">wurde angekündigt.</span><span class="sxs-lookup"><span data-stu-id="63a2f-113">has been announced.</span></span> <span data-ttu-id="63a2f-114">Ausführliche Informationen finden Sie <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">unter Unterstützung für öffentliche Instant Messenger-Konnektivität in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="63a2f-114">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</span></span></P>
 > <LI>
-> <P>Bei PIC&nbsp;USL handelt es sich um eine Abonnementlizenz pro Benutzer und pro Monat, die für Lync&nbsp;Server oder Office&nbsp;Communications&nbsp;Server zum Einrichten eines Partnerverbunds mit Yahoo! Messenger erforderlich ist. Die Bereitstellung dieses Services durch Microsoft hing von der Unterstützung durch Yahoo! ab, deren zugrundeliegende Vereinbarung nicht verlängert wird.</P>
+> <P><span data-ttu-id="63a2f-115">Bei der PIC-USL handelt es sich um eine pro Benutzer/Monat-Abonnementlizenz, die für lync Server oder Office Communications Server für die Föderation mit Yahoo! erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="63a2f-115">The PIC USL is a per-user, per-month subscription license that is required for Lync Server or Office Communications Server to federate with Yahoo!</span></span> <span data-ttu-id="63a2f-116">Messenger.</span><span class="sxs-lookup"><span data-stu-id="63a2f-116">Messenger.</span></span> <span data-ttu-id="63a2f-117">Die Möglichkeit von Microsoft, diesen Dienst bereitzustellen, war von der Unterstützung durch Yahoo! abhängig, deren zugrunde liegende Vereinbarung nicht verlängert werden sollte.</span><span class="sxs-lookup"><span data-stu-id="63a2f-117">Microsoft’s ability to provide this service has been contingent upon support from Yahoo!, the underlying agreement for which will not be renewed.</span></span></P>
 > <LI>
-> <P>Lync ist mehr denn je ein leistungsstarkes Tool das Organisationen und Einzelpersonen weltweit verbindet. Der Partnerverbund mit Windows Live Messenger erfordert keine zusätzlichen Benutzer-/Gerätelizenzen außer der Lync-Standard-Clientzugriffslizenz (CAL). Der Partnerverbund mit Skype wird dieser Liste hinzugefügt und ermöglicht Lync-Benutzern, Abermillionen von Personen per Chat oder VoIP zu erreichen.</P></LI></UL>
+> <P><span data-ttu-id="63a2f-118">Lync ist mehr denn je ein leistungsfähiges Tool für die Verbindung zwischen Organisationen und Personen in der ganzen Welt.</span><span class="sxs-lookup"><span data-stu-id="63a2f-118">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="63a2f-119">Für den Verbund mit Windows Live Messenger sind keine zusätzlichen Benutzer-und Gerätelizenzen außerhalb der lync-Standard CAL erforderlich.</span><span class="sxs-lookup"><span data-stu-id="63a2f-119">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard CAL.</span></span> <span data-ttu-id="63a2f-120">Skype Federation wird dieser Liste hinzugefügt und ermöglicht es lync-Benutzern, Hunderte von Millionen von Personen über Chat und Sprache zu erreichen.</span><span class="sxs-lookup"><span data-stu-id="63a2f-120">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people through IM and voice.</span></span></P></LI></UL>
 
 
 
-Für diese Partnerverbundklasse sind die folgenden Planungsüberlegungen erforderlich:
+</div>
 
-  - Benutzer von Windows Live Messenger können die Peer-zu-Peer-Kommunikation per Audio/Video mit Benutzern von Lync Server 2013 sowie Chatdienste nutzen. Ihre Edgeserver müssen bestimmte Port- und Protokollanforderungen erfüllen. Ausführliche Informationen finden Sie unter [Ermitteln der Anforderungen für externe A/V-Firewalls und Ports für Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
+<span data-ttu-id="63a2f-121">Für diese Föderations Klasse sind die folgenden Planungsüberlegungen erforderlich:</span><span class="sxs-lookup"><span data-stu-id="63a2f-121">This class of federation requires the following planning considerations:</span></span>
 
-  - Für den Yahoo-Chatdienst gelten außer den üblichen Anforderungen für die Planung und Bereitstellung eines typischen Edgeservers mit Partnerverbundunterstützung keine speziellen Anforderungen.
+  - <span data-ttu-id="63a2f-122">Benutzer von Windows Live Messenger können neben Instant Messaging auch eine Peer-to-Peer-Audio/visuelle Kommunikation mit lync Server 2013-Benutzern führen.</span><span class="sxs-lookup"><span data-stu-id="63a2f-122">Windows Live Messenger users can have peer-to-peer audio/visual communication with Lync Server 2013 users, in addition to instant messaging.</span></span> <span data-ttu-id="63a2f-123">Ihre Edgeserver müssen bestimmte Port-und Protokollanforderungen erfüllen.</span><span class="sxs-lookup"><span data-stu-id="63a2f-123">Your Edge Servers must meet specific port and protocol requirements.</span></span> <span data-ttu-id="63a2f-124">Ausführliche Informationen finden Sie unter [ermitteln externer A/V-Firewall-und Portanforderungen für lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="63a2f-124">For details, see [Determine external A/V firewall and port requirements for Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md).</span></span>
 
-  - Für America Online muss das Edgeserverzertifikat, das dem Zugriffs-Edgedienst zugewiesen ist, die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU) für den Client unterstützen.
+  - <span data-ttu-id="63a2f-125">Yahoo Instant Messaging hat keine eindeutigen Anforderungen, außer denen, die normalerweise bei der Planung und Bereitstellung des typischen Edgeserver verwendet werden, der Föderation bereitstellt.</span><span class="sxs-lookup"><span data-stu-id="63a2f-125">Yahoo instant messaging has no unique requirements, other than those typically used in the planning and deployment of the typical Edge Server that is providing federation.</span></span>
 
-## In diesem Abschnitt
+  - <span data-ttu-id="63a2f-126">Für America Online ist es erforderlich, dass Ihr Edge-Server-Zertifikat, das dem Access-Edgedienst zugewiesen ist, über eine erweiterte Client-Schlüsselverwendung verfügt.</span><span class="sxs-lookup"><span data-stu-id="63a2f-126">America Online requires that your Edge Server certificate assigned to the Access Edge service has a client enhanced key usage (EKU).</span></span>
 
-  - [Zertifikatzusammenfassung für Verbindungen mit öffentlichen Instant Messaging-Diensten](lync-server-2013-certificate-summary-public-instant-messaging-connectivity.md)
+<div>
 
-  - [Portzusammenfassung für Verbindungen mit öffentlichen Instant Messaging-Diensten](lync-server-2013-port-summary-public-instant-messaging-connectivity.md)
+## <a name="in-this-section"></a><span data-ttu-id="63a2f-127">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="63a2f-127">In This Section</span></span>
 
-  - [DNS-Zusammenfassung für Verbindungen mit öffentlichen Instant Messaging-Diensten](https://technet.microsoft.com/de-de/library/jj618375\(v=ocs.15\))
+  - [<span data-ttu-id="63a2f-128">Zertifikats Zusammenfassung – öffentliche Instant Messaging-Konnektivität in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="63a2f-128">Certificate summary - Public instant messaging connectivity in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-public-instant-messaging-connectivity.md)
+
+  - [<span data-ttu-id="63a2f-129">Port Zusammenfassung – öffentliche Instant Messaging-Konnektivität in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="63a2f-129">Port summary - Public instant messaging connectivity in Lync Server 2013</span></span>](lync-server-2013-port-summary-public-instant-messaging-connectivity.md)
+
+  - <span data-ttu-id="63a2f-130">[DNS-Zusammenfassung – öffentliche Instant Messaging-Konnektivität in lync Server 2013](https://technet.microsoft.com/en-us/library/jj618375\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="63a2f-130">[DNS summary - Public instant messaging connectivity in Lync Server 2013](https://technet.microsoft.com/en-us/library/jj618375\(v=ocs.15\))</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

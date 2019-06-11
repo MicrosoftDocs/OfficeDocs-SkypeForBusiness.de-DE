@@ -1,51 +1,87 @@
-﻿---
-title: Markieren einer MSPL-Serveranwendung (Microsoft SIP Processing Language) als kritisch oder nicht kritisch
-TOCTitle: Markieren einer MSPL-Serveranwendung (Microsoft SIP Processing Language) als kritisch oder nicht kritisch
-ms:assetid: df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg182598(v=OCS.15)
-ms:contentKeyID: 49295648
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Kennzeichnen einer MSPL-Anwendung (Microsoft SIP Processing Language) als kritisch oder nicht kritisch'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mark a Microsoft SIP Processing Language (MSPL) application as critical or not critical
+ms:assetid: df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182598(v=OCS.15)
+ms:contentKeyID: 48185622
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 419a162e355434972216f0c47d79850af28cd244
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827648"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Markieren einer MSPL-Serveranwendung (Microsoft SIP Processing Language) als kritisch oder nicht kritisch
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+# <a name="mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical-in-lync-server-2013"></a><span data-ttu-id="25bae-102">Kennzeichnen einer MSPL-Anwendung (Microsoft SIP Processing Language) als kritisch oder nicht kritisch in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="25bae-102">Mark a Microsoft SIP Processing Language (MSPL) application as critical or not critical in Lync Server 2013</span></span>
 
-MSPL-Serveranwendungen (Microsoft SIP Processing Language) sind Nur-Skript-Anwendungen, die anstelle der Microsoft Lync 2010-API eine Skriptsprache verwenden. Einige MSPL-Serveranwendungen werden als kritisch eingestuft. Wenn ein Skript als kritisch eingestuft wird, muss es beim Systemstart gestartet werden, damit Lync Server 2013 gestartet werden kann. Wenn während der Ausführung von Lync Server ein Fehler im Skript auftritt, wird der Server nicht heruntergefahren, er sendet jedoch keinen weiteren Datenverkehr an die Anwendung und schreibt Fehler in das Ereignisprotokoll.
+</div>
 
-Sie können mit der Lync Server-Systemsteuerung MSPL-Serveranwendungen als kritisch markieren oder die Markierung aufheben.
+<div id="mainSection">
 
-Nicht alle Skripts unterstützen diese Option. Beispielsweise ist das DefaultRouting-Skript als kritisch markiert, und diese Option kann für "DefaultRouting" nicht geändert werden.
+<div id="mainBody">
 
-## So markieren Sie eine MSPL-Serveranwendung als kritisch oder heben die Markierung auf
+<span> </span>
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer des Netzwerks an, in dem Sie Lync Server 2013 bereitgestellt haben.
+<span data-ttu-id="25bae-103">_**Letztes Änderungsdatum des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="25bae-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie die Admin-URL ein, um die Lync Server-Systemsteuerung zu öffnen. Informationen zu den verschiedenen Methoden zum Starten der Lync Server-Systemsteuerung finden Sie unter [Öffnen von Lync Server-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+<span data-ttu-id="25bae-104">MSPL-Serveranwendungen (Microsoft SIP Processing Language) sind reine Skriptanwendungen, die die MSPL-Skriptsprache anstelle der Microsoft lync 2010-API verwenden.</span><span class="sxs-lookup"><span data-stu-id="25bae-104">Microsoft SIP Processing Language (MSPL) server applications are script-only applications that use the MSPL scripting language instead of the Microsoft Lync 2010 API.</span></span> <span data-ttu-id="25bae-105">Einige MSPL-Serveranwendungen werden als kritisch angegeben.</span><span class="sxs-lookup"><span data-stu-id="25bae-105">Some MSPL server applications are specified as critical.</span></span> <span data-ttu-id="25bae-106">Wenn ein Skript kritisch ist, muss das Skript beim Systemstart gestartet werden, damit lync Server 2013 gestartet werden kann.</span><span class="sxs-lookup"><span data-stu-id="25bae-106">If a script is critical, the script must start during system startup in order for Lync Server 2013 to start.</span></span> <span data-ttu-id="25bae-107">Wenn das Skript fehlschlägt, während lync Server ausgeführt wird, wird der Server nicht heruntergefahren, aber er beendet das Senden von Datenverkehr an das Skript und schreibt Fehler im Ereignisprotokoll.</span><span class="sxs-lookup"><span data-stu-id="25bae-107">If the script fails while Lync Server is running, the server does not shut down, but it stops sending traffic to the script, and it writes errors in the event log.</span></span>
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Serveranwendung**.
+<span data-ttu-id="25bae-108">Mit der lync Server-Systemsteuerung können Sie MSPL-Serveranwendungen (Microsoft SIP Processing Language) als kritisch kennzeichnen oder die Markierung aufheben.</span><span class="sxs-lookup"><span data-stu-id="25bae-108">You can use Lync Server Control Panel to mark Microsoft SIP Processing Language (MSPL) server applications as critical or unmark them.</span></span>
 
-4.  Klicken Sie auf der Seite **Serveranwendung** auf eine Spaltenüberschrift, um die Anwendungen ggf. zu sortieren, und klicken Sie dann auf die Serveranwendung, die Sie ändern möchten.
+<span data-ttu-id="25bae-109">Diese Option wird nicht von allen Skripts unterstützt.</span><span class="sxs-lookup"><span data-stu-id="25bae-109">Not all scripts support this option.</span></span> <span data-ttu-id="25bae-110">Das DefaultRouting-Skript wird beispielsweise als kritisch markiert, und diese Option kann für DefaultRouting nicht geändert werden.</span><span class="sxs-lookup"><span data-stu-id="25bae-110">For example, the DefaultRouting script is marked as critical, and this option cannot be changed for DefaultRouting.</span></span>
 
-5.  Klicken Sie auf **Aktion**.
+<div>
 
-6.  Klicken Sie auf **Als kritisch markieren** oder **Markierung aufheben** (sofern das Skript diese Option unterstützt).
+## <a name="to-mark-or-unmark-an-mspl-server-application-as-critical"></a><span data-ttu-id="25bae-111">Markieren oder Aufheben der Markierung einer MSPL-Serveranwendung als kritisch</span><span class="sxs-lookup"><span data-stu-id="25bae-111">To mark or unmark an MSPL server application as critical</span></span>
 
-## Siehe auch
+1.  <span data-ttu-id="25bae-112">Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder über entsprechende Benutzerrechte verfügt) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, bei jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie lync Server 2013 bereitgestellt haben.</span><span class="sxs-lookup"><span data-stu-id="25bae-112">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-#### Aufgaben
+2.  <span data-ttu-id="25bae-113">Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="25bae-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="25bae-114">Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="25bae-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-[Aktivieren oder Deaktivieren einer MSPL-Serveranwendung (Microsoft SIP Processing Language)](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)  
+3.  <span data-ttu-id="25bae-115">Klicken Sie in der linken Navigationsleiste auf **Topologie** , und klicken Sie dann auf **Server Anwendung**.</span><span class="sxs-lookup"><span data-stu-id="25bae-115">In the left navigation bar, click **Topology** and then click **Server Application**.</span></span>
 
-#### Konzepte
+4.  <span data-ttu-id="25bae-116">Klicken Sie auf der Seite **Serveranwendung** auf eine Spaltenüberschrift, um die Anwendungen bei Bedarf zu sortieren, und klicken Sie dann auf die Serveranwendung, die Sie ändern möchten.</span><span class="sxs-lookup"><span data-stu-id="25bae-116">On the **Server Application** page, click a column heading to sort the applications, if needed, and then click the server application that you want to modify.</span></span>
 
-[Anzeigen von MSPL-Serveranwendungen (Microsoft SIP Processing Language) in Lync Server 2013](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)  
+5.  <span data-ttu-id="25bae-117">Klicken Sie auf **Aktion**.</span><span class="sxs-lookup"><span data-stu-id="25bae-117">Click **Action**.</span></span>
 
-#### Weitere Ressourcen
+6.  <span data-ttu-id="25bae-118">Klicken Sie auf **als kritisch kennzeichnen** oder **als kritisch aufheben** (das heißt, wenn das Skript diese Option unterstützt).</span><span class="sxs-lookup"><span data-stu-id="25bae-118">Click **Mark as critical** or **Unselect as critical** (that is, if the script supports this option).</span></span>
 
-[Verwalten der Lync Server 2013-Topologie](lync-server-2013-managing-the-lync-server-topology.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="25bae-119">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="25bae-119">See Also</span></span>
+
+
+[<span data-ttu-id="25bae-120">Aktivieren oder Deaktivieren einer Microsoft SIP Processing Language (MSPL)-Serveranwendung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="25bae-120">Enable or disable a Microsoft SIP Processing Language (MSPL) server application in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)  
+
+
+[<span data-ttu-id="25bae-121">Anzeigen von MSPL-Serveranwendungen (Microsoft SIP Processing Language) in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="25bae-121">View Microsoft SIP Processing Language (MSPL) server applications in Lync Server 2013</span></span>](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)  
+
+
+[<span data-ttu-id="25bae-122">Verwalten der Lync Server 2013-Topologie</span><span class="sxs-lookup"><span data-stu-id="25bae-122">Managing the Lync Server 2013 topology</span></span>](lync-server-2013-managing-the-lync-server-topology.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

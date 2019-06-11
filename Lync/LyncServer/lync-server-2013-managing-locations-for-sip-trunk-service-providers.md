@@ -1,63 +1,105 @@
-﻿---
-title: 'Lync Server 2013: Verwalten von Standorten für SIP-Trunkdienstanbieter'
-TOCTitle: Verwalten von Standorten für SIP-Trunkdienstanbieter
-ms:assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398959(v=OCS.15)
-ms:contentKeyID: 49295587
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Verwalten von Speicherorten für SIP Trunk-Dienstanbieter'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing locations for SIP trunk service providers
+ms:assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398959(v=OCS.15)
+ms:contentKeyID: 48185548
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: eba237ae4e984169a354339ce0222dfd58f324c1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828005"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwalten von Standorten für SIP-Trunkdienstanbieter in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="managing-locations-for-sip-trunk-service-providers-in-lync-server-2013"></a><span data-ttu-id="5ba05-102">Verwalten von Speicherorten für SIP Trunk-Dienstanbieter in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5ba05-102">Managing locations for SIP trunk service providers in Lync Server 2013</span></span>
 
-Zum Konfigurieren von Lync Server für das automatische Suchen von Clients in einem Netzwerk müssen Sie entweder die Datenbank des Standortinformationsdiensts mit einer Netzwerkwiremap auffüllen und die Standorte veröffentlichen, oder Sie stellen eine Verknüpfung zu einer externen Datenbank her, die bereits die richtigen Zuordnungen enthält. Im Rahmen dieses Vorgangs müssen Sie die Adressen der Standorte mit Ihrem E9-1-1-Dienstanbieter abgleichen. Ausführliche Informationen finden Sie unter [Konfigurieren der Standortdatenbank in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in der Bereitstellungsdokumentation.
+</div>
 
-Die Datenbank des Standortinformationsdiensts füllen Sie mit einem Emergency Response Location (ERL) auf, der aus der allgemeinen Adresse und der spezifischen Adresse innerhalb eines Gebäudes besteht. Das Feld **Location** des Standortinformationsdiensts, in dem der Standort innerhalb eines Gebäudes gespeichert ist, hat eine maximale Länge von 20 Zeichen (einschließlich Leerzeichen). In diesem Feld mit begrenzter Länge sollten Sie Folgendes angeben:
+<div id="mainSection">
 
-  - Einen leicht verständlichen Namen für den Standort des Notfallanrufers, um sicherzustellen, dass Notrufempfänger den Standort unverzüglich auffinden, wenn sie an der durchgegebenen Adresse eintreffen. Dieser Standortname kann die Hausnummer, das Stockwerk, den Gebäudetrakt, die Zimmernummer usw. beinhalten. Vermeiden Sie Spitznamen, die nur Mitarbeiter kennen und dazu führen könnten, dass sich Notrufempfänger zur falschen Adresse begeben.
+<div id="mainBody">
 
-  - Einen Standortbezeichner, mit dem Benutzer problemlos erkennen können, dass der Lync-Client den richtigen Standort ermittelt hat. Die ermittelten Felder **Location** und **City** werden vom Lync-Client automatisch verkettet und im Header angezeigt. Es empfiehlt sich, die Gebäudeanschrift jedem Standortbezeichner hinzuzufügen (z. B. "1. Stock \<Hausnummer\>"). Ohne die Anschrift könnte ein allgemeiner Standortbezeichner wie z. B. "1. Stock" auf jedes Gebäude in der Stadt zutreffen.
+<span> </span>
 
-  - Wenn es sich um eine ungefähre Standortangabe handelt, da der Standort von einem Funkzugriffspunkt ermittelt wird, können Sie das Wort Near (Ca.) hinzufügen (z. B. "Ca. 1. Stock 1234").
+<span data-ttu-id="5ba05-103">_**Letztes Änderungsdatum des Themas:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="5ba05-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="5ba05-104">Um lync Server so zu konfigurieren, dass Clients in einem Netzwerk automatisch gefunden werden, müssen Sie entweder die Datenbank des Standort Informationsdiensts mit einem Netzwerk-Wiremap füllen und die Speicherorte veröffentlichen oder eine Verknüpfung zu einer externen Datenbank erstellen, die bereits die richtige Zuordnungen.</span><span class="sxs-lookup"><span data-stu-id="5ba05-104">To configure Lync Server to automatically locate clients within a network, you need to either populate the Location Information service database with a network wiremap and publish the locations, or link to an external database that already contains the correct mappings.</span></span> <span data-ttu-id="5ba05-105">Im Rahmen dieses Vorgangs müssen Sie die Adressen der Standorte mit Ihrem E9-1-1-Dienstanbieter abgleichen.</span><span class="sxs-lookup"><span data-stu-id="5ba05-105">As part of this process, you need to validate the civic addresses of the locations with your E9-1-1 service provider.</span></span> <span data-ttu-id="5ba05-106">Ausführliche Informationen finden Sie unter [Konfigurieren der Standortdatenbank in lync Server 2013](lync-server-2013-configure-the-location-database.md) in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="5ba05-106">For details, see [Configure the location database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in the Deployment documentation.</span></span>
+
+<span data-ttu-id="5ba05-107">Die Datenbank des Standortinformationsdiensts füllen Sie mit einem Emergency Response Location (ERL) auf, der aus der allgemeinen Adresse und der spezifischen Adresse innerhalb eines Gebäudes besteht.</span><span class="sxs-lookup"><span data-stu-id="5ba05-107">You populate the Location Information service database with an Emergency Response Location (ERL), which consists of a civic address and the specific address within a building.</span></span> <span data-ttu-id="5ba05-108">Das Feld standortinformationsdienst **Standort** , das die spezifische Position in einem Gebäude ist, hat eine maximale Länge von 20 Zeichen (einschließlich Leerzeichen).</span><span class="sxs-lookup"><span data-stu-id="5ba05-108">The Location Information service **Location** field, which is the specific location within a building, has a maximum length of 20 characters (including spaces).</span></span> <span data-ttu-id="5ba05-109">In diesem Feld mit begrenzter Länge sollten Sie Folgendes angeben:</span><span class="sxs-lookup"><span data-stu-id="5ba05-109">Within that limited length, try to include the following:</span></span>
+
+  - <span data-ttu-id="5ba05-p103">Einen leicht verständlichen Namen für den Standort des Notfallanrufers, um sicherzustellen, dass Notrufempfänger den Standort unverzüglich auffinden, wenn sie an der durchgegebenen Adresse eintreffen. Dieser Standortname kann die Hausnummer, das Stockwerk, den Gebäudetrakt, die Zimmernummer usw. beinhalten. Vermeiden Sie Spitznamen, die nur Mitarbeiter kennen und die dazu führen könnten, dass sich Notrufempfänger zur falschen Adresse begeben.</span><span class="sxs-lookup"><span data-stu-id="5ba05-p103">An easy-to-understand name that identifies the location of the 911 caller to help ensure that emergency responders find the specific location promptly when they arrive at the civic address. This location name may include a building number, floor number, wing designator, room number, and so on. Avoid nicknames known only to employees, which might cause emergency responders to go to the wrong location.</span></span>
+
+  - <span data-ttu-id="5ba05-113">Eine Standort-ID, die Benutzern hilft, einfach zu erkennen, dass Ihr lync-Client den richtigen Speicherort übernommen hat.</span><span class="sxs-lookup"><span data-stu-id="5ba05-113">A location identifier that helps users to easily see that their Lync client picked up the correct location.</span></span> <span data-ttu-id="5ba05-114">Der lync-Client verkettet und zeigt die Felder "gefundener \*\*\*\* **Ort** " und "Ort" in der Kopfzeile automatisch an.</span><span class="sxs-lookup"><span data-stu-id="5ba05-114">The Lync client automatically concatenates and displays the discovered **Location** and **City** fields in its header.</span></span> <span data-ttu-id="5ba05-115">Eine gute Vorgehensweise besteht darin, jeder Standortkennung die Straßenadresse des Gebäudes hinzuzufügen (zum Beispiel " \<Straßennummer\>1. Etage").</span><span class="sxs-lookup"><span data-stu-id="5ba05-115">A good practice is to add the street address of the building to each location identifier (for example, "1st Floor \<street number\>").</span></span> <span data-ttu-id="5ba05-116">Ohne die Straßenadresse kann eine generische Standortkennung wie "1. Etage" für alle Gebäude in der Stadt gelten.</span><span class="sxs-lookup"><span data-stu-id="5ba05-116">Without the street address, a generic location identifier such as "1st Floor" could apply to any building in the city.</span></span>
+
+  - <span data-ttu-id="5ba05-117">Wenn es sich um eine ungefähre Standortangabe handelt, da der Standort von einem Funkzugriffspunkt ermittelt wird, können Sie das Wort Near (Ca.) hinzufügen (z. B. „Ca. 1. Stock 1234“).</span><span class="sxs-lookup"><span data-stu-id="5ba05-117">If the location is approximate because it’s determined by a wireless access point, you can add the word Near (for example, "Near 1st Floor 1234").</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Standorte, die der zentralen Standortdatenbank hinzugefügt wurden, stehen dem Client erst zur Verfügung, nachdem sie mit einem Lync Server-Verwaltungsshell-Befehl veröffentlicht und in die lokalen Speicher des Pools repliziert wurden. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-the-location-database.md">Veröffentlichen der Standortdatenbank von Lync Server 2013</A> in der Bereitstellungsdokumentation.
+> [!NOTE]  
+> <span data-ttu-id="5ba05-118">Speicherorte, die der zentralen Standortdatenbank hinzugefügt wurden, stehen dem Client erst zur Verfügung, nachdem Sie mithilfe eines lync Server-Verwaltungsshell-Befehls veröffentlicht und in den lokalen Speicher des Pools repliziert wurden.</span><span class="sxs-lookup"><span data-stu-id="5ba05-118">Locations added to the central location database are not available to the client until they are published by using a Lync Server Management Shell command and are replicated to the pool's local stores.</span></span> <span data-ttu-id="5ba05-119">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-the-location-database.md">Veröffentlichen der Standortdatenbank aus lync Server 2013</A> in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="5ba05-119">For details, see <A href="lync-server-2013-publish-the-location-database.md">Publish the location database from Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
-In den folgenden Abschnitten erfahren Sie, was Sie beim Auffüllen und Verwalten der Standortdatenbank bedenken müssen.
+</div>
 
-## Auffüllen der Standortdatenbank
+<span data-ttu-id="5ba05-120">In den folgenden Abschnitten erfahren Sie, was Sie beim Auffüllen und Verwalten der Standortdatenbank bedenken müssen.</span><span class="sxs-lookup"><span data-stu-id="5ba05-120">The following sections discuss considerations that you need to take into account when populating and maintaining the location database.</span></span>
 
-Die folgenden Fragen helfen Ihnen zu bestimmen, wie die Standortdatenbank aufgefüllt werden soll.
+<div>
 
-  - **Welches Verfahren verwenden Sie zum Auffüllen der Standortdatenbank?**  
-    Wo befinden sich die Daten, und welche Schritte müssen Sie ausführen, um die Daten in das für die Standortdatenbank erforderliche Format zu konvertieren? Werden die Standorte einzeln oder mithilfe einer CSV-Datei per Massenvorgang hinzugefügt?
+## <a name="populating-the-location-database"></a><span data-ttu-id="5ba05-121">Auffüllen der Standortdatenbank</span><span class="sxs-lookup"><span data-stu-id="5ba05-121">Populating the Location Database</span></span>
+
+<span data-ttu-id="5ba05-122">Die folgenden Fragen helfen Ihnen zu bestimmen, wie die Standortdatenbank aufgefüllt werden soll.</span><span class="sxs-lookup"><span data-stu-id="5ba05-122">The following questions can help you determine how to populate the location database.</span></span>
+
+  - <span data-ttu-id="5ba05-123">**Welches Verfahren verwenden Sie zum Auffüllen der Standortdatenbank?**</span><span class="sxs-lookup"><span data-stu-id="5ba05-123">**What process will you use to populate the location database?**</span></span>  
+    <span data-ttu-id="5ba05-p106">Wo befinden sich die Daten und welche Schritte müssen Sie ausführen, um die Daten in das für die Standortdatenbank erforderliche Format zu konvertieren? Werden die Standorte einzeln oder mithilfe einer CSV-Datei als Batch hinzugefügt?</span><span class="sxs-lookup"><span data-stu-id="5ba05-p106">Where does the data exist, and what steps do you need to take to convert the data into the format required by the location database? Will you add locations individually, or in bulk, by using a CSV file?</span></span>
 
 <!-- end list -->
 
-  - **Verfügen Sie über eine Drittanbieterdatenbank, die bereits Standortzuordnungen enthält?**  
-    Indem Sie den sekundären Standortinformationsdienst von Lync Server für die Verbindung mit einer Drittanbieterdatenbank verwenden, können Sie Standorte mithilfe einer Offlineplattform gruppieren und verwalten. Der Vorteil dieses Ansatzes ist, dass Sie Standorte nicht nur Netzwerk-IDs, sondern auch einem Benutzer zuordnen können. Das bedeutet, dass der Standortinformationsdienst mehrere Adressen, die vom sekundären Standortinformationsdienst stammen, an einen Lync Server-Client übermitteln kann. Der Benutzer kann dann den am besten geeigneten Standort wählen.
+  - <span data-ttu-id="5ba05-126">**Verfügen Sie über eine Drittanbieterdatenbank, die bereits Standortzuordnungen enthält?**</span><span class="sxs-lookup"><span data-stu-id="5ba05-126">**Do you have a third party database that already contains a mapping of locations?**</span></span>  
+    <span data-ttu-id="5ba05-127">Wenn Sie die Option sekundärer standortinformationsdienst von lync Server zum Herstellen einer Verbindung mit einer Drittanbieter-Datenbank verwenden, können Sie Speicherorte mithilfe einer Offline Plattform gruppieren und verwalten.</span><span class="sxs-lookup"><span data-stu-id="5ba05-127">By using Lync Server's Secondary Location Information service option to connect to a third-party database, you can group and manage locations by using an offline platform.</span></span> <span data-ttu-id="5ba05-128">Der Vorteil dieses Ansatzes ist, dass Sie Standorte nicht nur Netzwerk-IDs, sondern auch einem Benutzer zuordnen können.</span><span class="sxs-lookup"><span data-stu-id="5ba05-128">A benefit to this approach is that in addition to associating locations to network identifiers, you can associate locations to a user.</span></span> <span data-ttu-id="5ba05-129">Dies bedeutet, dass der standortinformationsdienst mehrere Adressen, die vom sekundären standortinformationsdienst stammen, an einen lync Server-Client zurückgeben kann.</span><span class="sxs-lookup"><span data-stu-id="5ba05-129">This means that the Location Information service can return multiple addresses, originating from the Secondary Location Information service, to a Lync Server client.</span></span> <span data-ttu-id="5ba05-130">Der Benutzer kann dann den am besten geeigneten Standort wählen.</span><span class="sxs-lookup"><span data-stu-id="5ba05-130">The user can then choose the most appropriate location.</span></span>
     
-    Zur Integration in den Standortinformationsdienst muss die Drittanbieterdatenbank das Anforderung/Antwort-Schema für Standorte von Lync Server verwenden. Ausführliche Informationen finden Sie im Thema "\[MS-E911WS\]: Webdienst für die E911-Supportprotokollspezifikation" unter <http://go.microsoft.com/fwlink/p/?linkid=213819>. Ausführliche Informationen zum Bereitstellen eines sekundären Standortinformationsdiensts finden Sie unter [Konfigurieren eines sekundären Standortinformationsdiensts in Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) in der Bereitstellungsdokumentation.
+    <span data-ttu-id="5ba05-131">Zur Integration in den standortinformationsdienst muss die Drittanbieterdatenbank dem Anforderungs-/Antwortschema des lync Server-Standorts folgen.</span><span class="sxs-lookup"><span data-stu-id="5ba05-131">To integrate with the Location Information service, the third-party database must follow the Lync Server Location Request/Response schema.</span></span> <span data-ttu-id="5ba05-132">Ausführliche Informationen finden Sie unter\["MS-\]E911WS: Web Service for E911 Support Protocol Specification" <http://go.microsoft.com/fwlink/p/?linkid=213819>unter.</span><span class="sxs-lookup"><span data-stu-id="5ba05-132">For details, see "\[MS-E911WS\]: Web Service for E911 Support Protocol Specification" at <http://go.microsoft.com/fwlink/p/?linkid=213819>.</span></span> <span data-ttu-id="5ba05-133">Details zum Bereitstellen eines sekundären Standort Informationsdiensts finden Sie unter [Konfigurieren eines sekundären Standort Informationsdiensts in lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="5ba05-133">For details about deploying a Secondary Location Information service, see [Configure a secondary Location Information service in Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) in the Deployment documentation.</span></span>
 
-Ausführliche Informationen zum Auffüllen der Standortdatenbank finden Sie unter [Konfigurieren der Standortdatenbank in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in der Bereitstellungsdokumentation.
+<span data-ttu-id="5ba05-134">Details zum Auffüllen der Standortdatenbank finden Sie unter [Konfigurieren der Standortdatenbank in lync Server 2013](lync-server-2013-configure-the-location-database.md) in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="5ba05-134">For details about populating the location database, see [Configure the location database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in the Deployment documentation.</span></span>
 
-## Verwalten der Standortdatenbank
+</div>
 
-Nach dem Auffüllen der Standortdatenbank müssen Sie eine Strategie zum Aktualisieren der Datenbank entwickeln, um Änderungen an der Netzwerkkonfiguration umzusetzen. Die folgenden Fragen helfen Ihnen zu bestimmen, wie die Standortdatenbank verwaltet werden soll.
+<div>
 
-  - **Wie aktualisieren Sie die Standortdatenbank?**  
-    Eine Aktualisierung der Standortdatenbank kann in verschiedenen Situationen notwendig sein, etwa beim Hinzufügen von Funkzugriffspunkten, bei einer Neuverkabelung des Büros (mit neuen Switchzuordnungen) und bei einer Subnetzerweiterung. Aktualisieren Sie jeden Standort sofort, oder führen Sie mithilfe einer CSV-Datei eine Aktualisierung aller Standorte per Massenvorgang durch?
+## <a name="maintaining-the-location-database"></a><span data-ttu-id="5ba05-135">Verwalten der Standortdatenbank</span><span class="sxs-lookup"><span data-stu-id="5ba05-135">Maintaining the Location Database</span></span>
+
+<span data-ttu-id="5ba05-p109">Nach dem Auffüllen der Standortdatenbank müssen Sie eine Strategie zum Aktualisieren der Datenbank entwickeln, um Änderungen an der Netzwerkkonfiguration umzusetzen. Die folgenden Fragen helfen Ihnen zu bestimmen, wie die Standortdatenbank verwaltet werden soll.</span><span class="sxs-lookup"><span data-stu-id="5ba05-p109">After you populate the location database, you need to develop a strategy for updating the database as the network configuration changes. The following questions will help you determine how to maintain the location database.</span></span>
+
+  - <span data-ttu-id="5ba05-138">**Wie aktualisieren Sie die Standortdatenbank?**</span><span class="sxs-lookup"><span data-stu-id="5ba05-138">**How will you update the location database?**</span></span>  
+    <span data-ttu-id="5ba05-p110">Eine Aktualisierung der Standortdatenbank kann in verschiedenen Situationen notwendig sein, etwa beim Hinzufügen von Funkzugriffspunkten, bei einer Neuverkabelung des Büros (mit neuen Switchzuordnungen) und bei einer Subnetzerweiterung. Aktualisieren Sie jeden Standort sofort, oder führen Sie mithilfe einer CSV-Datei eine Aktualisierung aller Standorte per Massenvorgang durch?</span><span class="sxs-lookup"><span data-stu-id="5ba05-p110">There are several scenarios that require an update to the location database, including adding WAPs, office recabling (resulting in different switch assignments), and subnet expansion. Will you directly update each individual location, or will you perform a bulk update of all the locations by using a CSV file?</span></span>
 
 <!-- end list -->
 
-  - **Verwenden Sie eine SNMP-Anwendung zum Abgleich von Lync-Client-MAC-Adressen mit den Port- und Switchbezeichnern?**  
-    Wenn Sie eine SNMP-Anwendung verwenden, müssen Sie ein manuelles Verfahren ausarbeiten, um die Konsistenz der Switch- und Portinformationen zwischen der SNMP-Anwendung und der Standortdatenbank sicherzustellen. Wenn die SNMP-Anwendung eine Switch-IP-Adresse ausgibt, die nicht in der Standortdatenbank enthalten ist, kann der Standortinformationsdienst keinen Standort an den Client zurückgeben.
+  - <span data-ttu-id="5ba05-141">**Verwenden Sie eine SNMP-Anwendung zum Abgleich von Lync-Client-MAC-Adressen mit den Port- und Switchbezeichnern?**</span><span class="sxs-lookup"><span data-stu-id="5ba05-141">**Will you use an SNMP application to match Lync client MAC addresses to port and switch identifiers?**</span></span>  
+    <span data-ttu-id="5ba05-142">Wenn Sie eine SNMP-Anwendung verwenden, müssen Sie ein manuelles Verfahren ausarbeiten, um die Konsistenz der Switch- und Portinformationen zwischen der SNMP-Anwendung und der Standortdatenbank sicherzustellen.</span><span class="sxs-lookup"><span data-stu-id="5ba05-142">If you use an SNMP application, you need to develop a manual process for keeping the switch chassis and port information consistent between the SNMP application and the location database.</span></span> <span data-ttu-id="5ba05-143">Wenn die SNMP-Anwendung eine Chassis-IP-Adresse oder Port-ID zurückgibt, die nicht in der Datenbank enthalten ist, kann der standortinformationsdienst keinen Standort an den Client zurückgeben.</span><span class="sxs-lookup"><span data-stu-id="5ba05-143">If the SNMP application returns a chassis IP address or port ID that is not included in the database, the Location Information service will not be able to return a location to the client.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

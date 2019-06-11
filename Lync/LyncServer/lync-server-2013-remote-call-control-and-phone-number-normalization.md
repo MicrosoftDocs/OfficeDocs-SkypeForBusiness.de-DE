@@ -1,31 +1,65 @@
-﻿---
-title: 'Lync Server 2013: Remoteanrufsteuerung und Normalisieren von Rufnummern'
-TOCTitle: Remoteanrufsteuerung und Normalisieren von Rufnummern
-ms:assetid: 291d9e87-4c65-4ea2-888f-517741391de5
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg558630(v=OCS.15)
-ms:contentKeyID: 49293495
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Remoteanrufsteuerung und Normalisieren von Rufnummern'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Remote call control and phone number normalization
+ms:assetid: 291d9e87-4c65-4ea2-888f-517741391de5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558630(v=OCS.15)
+ms:contentKeyID: 48183696
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 86de318cb1e72fce8fb6f42ff7698db5974034fe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823168"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Remoteanrufsteuerung und Normalisieren von Rufnummern in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-22_
+# <a name="remote-call-control-and-phone-number-normalization-in-lync-server-2013"></a><span data-ttu-id="7fac8-102">Remoteanrufsteuerung und Normalisieren von Rufnummern in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7fac8-102">Remote call control and phone number normalization in Lync Server 2013</span></span>
 
-Lync-Clients laden Normalisierungsregeln für Rufnummern im Rahmen des Adressbuchdienst-Dateidownloads herunter. In Szenarien mit Remoteanrufsteuerung werden die vom Adressbuchdienst verwendeten Normalisierungsregeln für Rufnummern sowohl auf eingehende als auch auf ausgehende Anrufe mit Remoteanrufsteuerung angewendet. Für eingehende Anrufe bei einem Benutzer, der für die Remoteanrufsteuerung aktiviert ist, wird die Rufnummer des Anrufers zunächst über das SIP/CSTA-Gateway oder eine Nebenstellenanlage (Private Branch Exchange, PBX) in das E.164-Format normalisiert. Wenn Lync Server 2013 einen Anruf vom Gateway empfängt, wird für die Rufnummer des Anrufers eine umgekehrte Nummernsuche nach der normalisierten Nummer in der Microsoft Office Outlook-Kontaktliste oder der globalen Adressliste des Anrufempfängers durchgeführt, die im Adressbuchdienst gespeichert sind. Wenn die umgekehrte Nummernsuche zu einem Treffer führt, wird der Anrufer in der Benachrichtigung über einen eingehenden Anruf mit seinem Namen identifiziert.
+</div>
 
-Für ausgehende Anrufe mit Remoteanrufsteuerung wendet Lync die vom Adressbuchdienst verwendeten Normalisierungsregeln für Rufnummern auf die gewählte Nummer an, bevor der Anruf an das SIP/CSTA-Gateway geroutet wird.
+<div id="mainSection">
 
-Ausführliche Informationen zum Erstellen von Normalisierungsregeln für Rufnummern bei Verwendung der Remoteanrufsteuerung finden Sie unter [Wählpläne und Normalisierungsregeln in Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) in der Planungsdokumentation.
+<div id="mainBody">
 
-## Migrieren von Normalisierungsregeln für Rufnummern
+<span> </span>
 
-Wenn Sie Benutzer migrieren, die zuvor für die Remoteanrufsteuerung aktiviert waren, finden Sie weitere Informationen in den folgenden Themen der Migrationsdokumentation:
+<span data-ttu-id="7fac8-103">_**Letztes Änderungsdatum des Themas:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="7fac8-103">_**Topic Last Modified:** 2012-09-22_</span></span>
 
-  - Informationen zur Vorgehensweise für Lync Server 2010 finden Sie unter [Migrieren des Adressbuchs](migrate-address-book.md) in der Migrationsdokumentation.
+<span data-ttu-id="7fac8-104">Lync-Clients laden Telefonnummern Normalisierungsregeln als Teil des Adressbuchdienst-Dateidownloads (ABS) herunter.</span><span class="sxs-lookup"><span data-stu-id="7fac8-104">Lync clients download phone number normalization rules as part of the Address Book Service (ABS) file download.</span></span> <span data-ttu-id="7fac8-105">In Szenarien für die Remoteanrufsteuerung werden die Normalisierungsregeln für den Adressbuchdienst für eingehende und ausgehende Anrufe in der Remoteanrufsteuerung angewendet.</span><span class="sxs-lookup"><span data-stu-id="7fac8-105">In remote call control scenarios, Address Book Service phone number normalization rules are applied to both incoming and outgoing remote call control calls.</span></span> <span data-ttu-id="7fac8-106">Für eingehende Anrufe an einen Benutzer mit Remoteanrufsteuerung wird die Telefonnummer des Anrufers zuerst vom SIP/CSTA-Gateway oder von der PBX (Private Branch Exchange) auf das E. 164-Format normiert.</span><span class="sxs-lookup"><span data-stu-id="7fac8-106">For incoming calls to a remote call control-enabled user, the phone number of the caller is first normalized to E.164 format by either the SIP/CSTA gateway or private branch exchange (PBX).</span></span> <span data-ttu-id="7fac8-107">Wenn lync Server 2013 den Anruf vom Gateway empfängt, führt er Reverse Number Lookup (RNL) für die Telefonnummer des Anrufers anhand der normalisierten Nummer in der Microsoft Office Outlook-Kontaktliste des berufenen oder in der globalen Adressliste (GAL) durch, die in gespeichert ist. der Adressbuchdienst</span><span class="sxs-lookup"><span data-stu-id="7fac8-107">When Lync Server 2013 receives the call from the gateway, it performs reverse number lookup (RNL) on the phone number of the caller against the normalized number in the callee’s Microsoft Office Outlook Contacts list or the global address list (GAL) that is stored in the Address Book Service.</span></span> <span data-ttu-id="7fac8-108">Wenn die Suche nach einer umgekehrten Zahl erfolgreich gefunden wird, wird der Anrufer in der Benachrichtigung über den eingehenden Anruf durch den Namen gekennzeichnet.</span><span class="sxs-lookup"><span data-stu-id="7fac8-108">If reverse number lookup successfully finds a match, the caller is identified by name in the incoming call notification.</span></span>
 
-  - Informationen zur Vorgehensweise für Communications Server 2007 R2 finden Sie unter [Migrieren eines Adressbuchs](migrate-address-book_1.md) in der Migrationsdokumentation.
+<span data-ttu-id="7fac8-109">Bei ausgehenden Remote Anruf Steuerungs anrufen wendet lync die Normalisierungsregeln für den Adressbuchdienst auf die gewählte Nummer an, bevor der Anruf an das SIP/CSTA-Gateway weitergeleitet wird.</span><span class="sxs-lookup"><span data-stu-id="7fac8-109">For outgoing remote call control calls, Lync applies the Address Book Service phone number normalization rules to the dialed number before routing the call to the SIP/CSTA gateway.</span></span>
+
+<span data-ttu-id="7fac8-110">Details zum Erstellen von Regeln für die Normalisierung der Telefonnummern für die Remoteanrufsteuerung finden Sie unter [Wählpläne und Normalisierungsregeln in lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="7fac8-110">For details about creating phone number normalization rules for remote call control, see [Dial plans and normalization rules in Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) in the Planning documentation.</span></span>
+
+<div>
+
+## <a name="migrating-phone-number-normalization-rules"></a><span data-ttu-id="7fac8-111">Migrieren von Normalisierungsregeln für Telefonnummern</span><span class="sxs-lookup"><span data-stu-id="7fac8-111">Migrating Phone Number Normalization Rules</span></span>
+
+<span data-ttu-id="7fac8-112">Wenn Sie Benutzer migrieren, die zuvor für die Remoteanrufsteuerung aktiviert wurden, lesen Sie die folgenden Themen in der Migrationsdokumentation:</span><span class="sxs-lookup"><span data-stu-id="7fac8-112">If you are migrating users previously enabled for remote call control, see the following topics in the Migration documentation:</span></span>
+
+  - <span data-ttu-id="7fac8-113">Informationen zu lync Server 2010 finden Sie unter [Migrieren des Adressbuchs](migrate-address-book.md) in der Migrationsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="7fac8-113">For Lync Server 2010, see [Migrate Address Book](migrate-address-book.md) in the Migration documentation.</span></span>
+
+  - <span data-ttu-id="7fac8-114">Informationen zu Communications Server 2007 R2 finden Sie unter [Migrieren des Adressbuchs](migrate-address-book_1.md) in der Migrationsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="7fac8-114">For Communications Server 2007 R2, see [Migrate Address Book](migrate-address-book_1.md) in the Migration documentation.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

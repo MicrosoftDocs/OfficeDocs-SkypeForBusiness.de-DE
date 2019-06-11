@@ -1,39 +1,76 @@
-﻿---
-title: 'Lync Server 2013: Verwalten des VoIP-Routings'
-TOCTitle: Verwalten des VoIP-Routings
-ms:assetid: da558f8c-18c5-4ad5-94d1-b22e777f12bd
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg182596(v=OCS.15)
-ms:contentKeyID: 49295596
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Verwalten des VoIP-Routings'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing voice routing
+ms:assetid: da558f8c-18c5-4ad5-94d1-b22e777f12bd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182596(v=OCS.15)
+ms:contentKeyID: 48185554
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cbfdaa2359493941e2bde6cbbfcb857b75071c5f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827613"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwalten des VoIP-Routings in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+# <a name="managing-voice-routing-in-lync-server-2013"></a><span data-ttu-id="39a29-102">Verwalten des VoIP-Routings in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39a29-102">Managing voice routing in Lync Server 2013</span></span>
 
-In den Themen des vorliegenden Abschnitts werden Schrittanleitungen für Aufgaben vorgestellt, die Sie mit der Gruppe **VoIP-Routing** in der Lync Server-Systemsteuerung ausführen können.
+</div>
 
-## In diesem Abschnitt
+<div id="mainSection">
 
-  - [Definieren von Übersetzungs- und Normalisierungsregeln](lync-server-2013-defining-translation-rules-and-normalization-rules.md)
+<div id="mainBody">
 
-  - [Konfigurieren von Trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md)
+<span> </span>
 
-  - [Konfigurieren von VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und VoIP-Routen in Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
+<span data-ttu-id="39a29-103">_**Letztes Änderungsdatum des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="39a29-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-  - [Konfigurieren von Wählplänen in Lync Server 2013](lync-server-2013-configuring-dial-plans.md)
+<span data-ttu-id="39a29-104">Die Themen in diesem Abschnitt enthalten Schritt-für-Schritt-Verfahren für Aufgaben, die Sie mithilfe der **VoIP-Routing** Gruppe in der lync Server-Systemsteuerung ausführen können.</span><span class="sxs-lookup"><span data-stu-id="39a29-104">Topics in this section provide step-by-step procedures for tasks that you can perform by using the **Voice Routing** group in Lync Server Control Panel.</span></span>
 
-## Siehe auch
+<div>
 
-#### Konzepte
+## <a name="in-this-section"></a><span data-ttu-id="39a29-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="39a29-105">In This Section</span></span>
 
-[Planen von Enterprise-VoIP in Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  
+  - [<span data-ttu-id="39a29-106">Definieren von Übersetzungsregeln und Normalisierungsregeln in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39a29-106">Defining translation rules and normalization rules in Lync Server 2013</span></span>](lync-server-2013-defining-translation-rules-and-normalization-rules.md)
 
-#### Weitere Ressourcen
+  - [<span data-ttu-id="39a29-107">Konfigurieren von Trunks in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39a29-107">Configuring trunks in Lync Server 2013</span></span>](lync-server-2013-configuring-trunks.md)
 
-[Verwalten von Funktionen für die Anrufverwaltung in Lync Server 2013](lync-server-2013-managing-call-management-features.md)
+  - [<span data-ttu-id="39a29-108">Konfigurieren von VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und VoIP-Routen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39a29-108">Configuring voice policies, PSTN usage records, and voice routes in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
+
+  - [<span data-ttu-id="39a29-109">Konfigurieren von Wählplänen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39a29-109">Configuring dial plans in Lync Server 2013</span></span>](lync-server-2013-configuring-dial-plans.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="39a29-110">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="39a29-110">See Also</span></span>
+
+
+[<span data-ttu-id="39a29-111">Planen von Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39a29-111">Planning for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice.md)  
+
+
+[<span data-ttu-id="39a29-112">Verwalten von Funktionen für die Anrufverwaltung in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39a29-112">Managing call management features in Lync Server 2013</span></span>](lync-server-2013-managing-call-management-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

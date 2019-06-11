@@ -1,28 +1,63 @@
-﻿---
-title: 'Lync Server 2013: Vorabanforderung von Zertifikaten (optional)'
-TOCTitle: Vorabanforderung von Zertifikaten (optional)
-ms:assetid: 9d6d7de6-ff2a-46da-b1b7-a354c8e383e4
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg412733(v=OCS.15)
-ms:contentKeyID: 49294901
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Vorabanforderung von Zertifikaten (optional)'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Request certificates in advance (optional)
+ms:assetid: 9d6d7de6-ff2a-46da-b1b7-a354c8e383e4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412733(v=OCS.15)
+ms:contentKeyID: 48184915
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c6b376a2c1652dcaf255e39f6d112568b7c3bf31
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823217"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vorabanforderung von Zertifikaten (optional) für Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-21_
+# <a name="request-certificates-in-advance-optional-for-lync-server-2013"></a><span data-ttu-id="cbcd4-102">Vorabanforderung von Zertifikaten (optional) für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbcd4-102">Request certificates in advance (optional) for Lync Server 2013</span></span>
 
-Zertifikate sind für alle internen Server erforderlich, auf denen Lync Server 2013 ausgeführt wird. Dies gilt auch für jeden Enterprise Edition- Front-End-Server, - Standard Edition-Server, - Director, - Edgeserver und alle eigenständigen Vermittlungsserver. Wenngleich für interne Server die Verwendung einer internen Unternehmenszertifizierungsstelle empfohlen wird, können Sie auch eine öffentliche Zertifizierungsstelle verwenden. Ausführliche Informationen zu Zertifikatanforderungen und zur Verwendung einer öffentlichen Zertifizierungsstelle finden Sie unter [Anforderungen an Zertifikate für interne Server in Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) in der Planungsdokumentation.
+</div>
 
-Lync Server 2013-Setup umfasst den Zertifikat-Assistenten, der die Aufgaben zum Anfordern, Zuweisen und Installieren von Zertifikaten während der Bereitstellung vereinfacht. Wenn Sie vor der Installation von Servern Zertifikate anfordern möchten (um beispielsweise während der eigentlichen Serverbereitstellung Zeit zu sparen), können Sie hierzu einen Computer verwenden, auf dem die Lync Server 2013-Verwaltungstools installiert sind, oder ein in Ihrer Organisation definiertes Verfahren zur Zertifikatanforderung einsetzen, sofern Sie sicherstellen, dass die Zertifikate exportiert werden können und alle erforderlichen alternativen Antragstellernamen enthalten. Die vorzeitige Anforderung von Zertifikaten ist optional; wenn Sie sie nicht im Voraus anfordern, müssen Sie dies im Rahmen des Setups für jeden Server nachholen, für den ein Zertifikat erforderlich ist.
+<div id="mainSection">
 
-Diese Bereitstellungsdokumentation enthält Verfahren zur Verwendung des Zertifikat-Assistenten zum Anfordern von Zertifikaten im Rahmen des Setup-Prozesses. Beschreibungen hierzu finden Sie in den Abschnitten [Konfigurieren von Zertifikaten für Server in Lync Server 2013](lync-server-2013-configure-certificates-for-servers.md), [Konfigurieren von Zertifikaten für den Director in Lync Server 2013](lync-server-2013-configure-certificates-for-the-director.md) und [Installieren der Dateien für den Vermittlungsserver in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) in dieser Bereitstellungsdokumentation. Wenn Sie Zertifikate im Voraus anfordern, müssen Sie die Verfahren zur Zertifikatbereitstellung in den betreffenden Abschnitten entsprechend ändern, da die Zertifikate nicht zum Bereitstellungszeitpunkt angefordert, sondern importiert und zugewiesen werden müssen.
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="cbcd4-103">_**Letztes Änderungsdatum des Themas:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="cbcd4-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+
+<span data-ttu-id="cbcd4-104">Zertifikate sind für alle internen Server erforderlich, auf denen lync Server 2013 ausgeführt wird, darunter jeder Enterprise Edition-Front-End-Server, Standard Edition-Server, Director, Edge-Server und eigenständiger Vermittlungsserver.</span><span class="sxs-lookup"><span data-stu-id="cbcd4-104">Certificates are required for all internal servers that are running Lync Server 2013, including each Enterprise Edition Front End Server, Standard Edition server, Director, Edge Server and stand-alone Mediation Server.</span></span> <span data-ttu-id="cbcd4-105">Obwohl eine interne Unternehmenszertifizierungsstelle für interne Server empfohlen wird, können Sie auch eine öffentliche Zertifizierungsstelle verwenden.</span><span class="sxs-lookup"><span data-stu-id="cbcd4-105">Although an internal enterprise certification authority (CA) is recommended for internal servers, you can also use a public CA.</span></span> <span data-ttu-id="cbcd4-106">Ausführliche Informationen zu Zertifikatanforderungen und zur Verwendung einer öffentlichen Zertifizierungsstelle finden Sie unter [Zertifikatanforderungen für interne Server in lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="cbcd4-106">For details about certificate requirements and about the use of a public CA, see [Certificate requirements for internal servers in Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) in the Planning documentation.</span></span>
+
+<span data-ttu-id="cbcd4-107">Das Setup von lync Server 2013 umfasst den Zertifikat-Assistenten, der die Aufgaben zum anfordern, zuweisen und Installieren von Zertifikaten während der Bereitstellung vereinfacht.</span><span class="sxs-lookup"><span data-stu-id="cbcd4-107">Lync Server 2013 setup includes the Certificate Wizard, which facilitates the tasks of requesting, assigning, and installing certificates during deployment.</span></span> <span data-ttu-id="cbcd4-108">Wenn Sie vor dem Installieren von Servern Zertifikate anfordern möchten (beispielsweise um Zeit während der eigentlichen Bereitstellung von Servern zu sparen), können Sie dies mithilfe eines Computers, auf dem die lync Server 2013-Verwaltungstools installiert sind, oder mithilfe einer Zertifikatanforderung ausführen. in Ihrer Organisation definierte Prozedur, sofern Sie sicherstellen, dass die Zertifikate exportierbar sind und alle erforderlichen Alternativen Betreff-Namen enthalten.</span><span class="sxs-lookup"><span data-stu-id="cbcd4-108">If you want to request certificates prior to installing servers (for instance, to save time during actual deployment of servers), you can do so by using a computer on which the Lync Server 2013 administrative tools are installed or by using a certificate request procedure defined in your organization, as long as you make sure that the certificates are exportable and contain all the required subject alternative names.</span></span> <span data-ttu-id="cbcd4-109">Das Anfordern von Zertifikaten im Voraus ist optional.</span><span class="sxs-lookup"><span data-stu-id="cbcd4-109">Requesting certificates in advance is optional.</span></span> <span data-ttu-id="cbcd4-110">Wenn Sie diese nicht im Voraus anfordern, müssen Sie Sie im Rahmen der Einrichtung jedes Servers anfordern, für den ein Zertifikat erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="cbcd4-110">If you do not request them in advance, you must request them as part of the setup of each server that requires a certificate.</span></span>
+
+<span data-ttu-id="cbcd4-111">Diese Bereitstellungsdokumentation enthält Verfahren für die Verwendung des Zertifikat-Assistenten zum Anfordern von Zertifikaten als Teil des Setupvorgangs, wie in der [Konfiguration von Zertifikaten für Server in lync Server 2013](lync-server-2013-configure-certificates-for-servers.md)beschrieben, [Konfigurieren von Zertifikaten für die Director in lync Server 2013](lync-server-2013-configure-certificates-for-the-director.md), und [Installieren Sie die Dateien für den Vermittlungsserver in den Abschnitten lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) dieser Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="cbcd4-111">This Deployment documentation provides procedures for using the Certificate Wizard to request certificates as part of the setup process, as described in the [Configure certificates for servers in Lync Server 2013](lync-server-2013-configure-certificates-for-servers.md), [Configure certificates for the Director in Lync Server 2013](lync-server-2013-configure-certificates-for-the-director.md), and [Install the files for Mediation Server in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) sections of this Deployment documentation.</span></span> <span data-ttu-id="cbcd4-112">Wenn Sie Zertifikate im Voraus anfordern, müssen Sie die Zertifikat Bereitstellungsverfahren in diesen Abschnitten nach Bedarf ändern, um die Zertifikate zu importieren und zuzuweisen, anstatt Sie zum Zeitpunkt der Bereitstellung anzufordern.</span><span class="sxs-lookup"><span data-stu-id="cbcd4-112">If you request certificates in advance, you must modify the certificate deployment procedures in those sections as appropriate to importing and assigning the certificates instead of requesting them at the time of deployment.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Lync Server 2013 umfasst die Unterstützung für SHA-256-Zertifikate für Verbindungen von Clients, auf denen die Betriebssysteme Windows Vista, Windows Server&nbsp;2008, Windows Server&nbsp;2008&nbsp;R2 und Windows 7 sowie Lync Phone Edition ausgeführt werden. Damit der externe Zugriff über SHA-256 unterstützt wird, wird das externe Zertifikat von einer öffentlichen Zertifizierungsstelle ausgestellt, die SHA-256 verwendet.
+> [!NOTE]  
+> <span data-ttu-id="cbcd4-113">Lync Server 2013 enthält Unterstützung für SHA-256-Zertifikate für Verbindungen von Clients, auf denen Windows Vista&nbsp;, Windows Server 2008&nbsp;,&nbsp;Windows Server 2008 R2 und Windows 7-Betriebssysteme und lync Phone Edition ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="cbcd4-113">Lync Server 2013 includes support for SHA-256 certificates for connections from clients running the Windows Vista, Windows Server&nbsp;2008, Windows Server&nbsp;2008&nbsp;R2, and Windows 7 operating systems, and Lync Phone Edition.</span></span> <span data-ttu-id="cbcd4-114">Um den externen Zugriff mithilfe von SHA-256 zu unterstützen, wird das externe Zertifikat von einer öffentlichen Zertifizierungsstelle mithilfe von SHA-256 ausgestellt.</span><span class="sxs-lookup"><span data-stu-id="cbcd4-114">To support external access using SHA-256, the external certificate is issued by a public CA using SHA-256.</span></span>
 
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Session-Tabelle'
-TOCTitle: Session-Tabelle
-ms:assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398635(v=OCS.15)
-ms:contentKeyID: 49294545
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Session-Tabelle'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Session table
+ms:assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398635(v=OCS.15)
+ms:contentKeyID: 48184626
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5ab4eb63b95ecdf08c1967babba39cff2b2abf19
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822048"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Session-Tabelle in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2015-03-09_
+# <a name="session-table-in-lync-server-2013"></a><span data-ttu-id="d5efe-102">Session-Tabelle in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d5efe-102">Session table in Lync Server 2013</span></span>
 
-Jeder Datensatz stellt eine Sitzung mit Audio oder mit Audio und Video dar. Er enthält allgemeine Informationen zu einer Sitzung. Eine Sitzung ist als ein SIP-Dialog (Session Initiation Protocol) mit Audio oder Video zwischen zwei Endpunkten definiert.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="d5efe-103">_**Letztes Änderungsdatum des Themas:** 2013-09-09_</span><span class="sxs-lookup"><span data-stu-id="d5efe-103">_**Topic Last Modified:** 2013-09-09_</span></span>
+
+<span data-ttu-id="d5efe-104">Jeder Eintrag stellt eine Sitzung dar, die Audio-oder Audio-und Videodaten beinhaltet.</span><span class="sxs-lookup"><span data-stu-id="d5efe-104">Each record represents one session which involves audio or audio and video.</span></span> <span data-ttu-id="d5efe-105">Sie enthält allgemeine Informationen zur Sitzung.</span><span class="sxs-lookup"><span data-stu-id="d5efe-105">It contains overall information about the session.</span></span> <span data-ttu-id="d5efe-106">Eine Sitzung ist als SIP-Dialog (Audio-oder Video Session Initiation Protocol) zwischen zwei Endpunkten definiert.</span><span class="sxs-lookup"><span data-stu-id="d5efe-106">A session is defined as an audio or video Session Initiation Protocol (SIP) dialog between two endpoints.</span></span>
 
 
 <table>
@@ -27,140 +47,151 @@ Jeder Datensatz stellt eine Sitzung mit Audio oder mit Audio und Video dar. Er e
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Spalte</strong></th>
-<th><strong>Datentyp</strong></th>
-<th><strong>Schlüssel/Index</strong></th>
-<th><strong>Beschreibung</strong></th>
+<th><span data-ttu-id="d5efe-107"><strong>Spalte</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-107"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="d5efe-108"><strong>Datentyp</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-108"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="d5efe-109"><strong>Schlüssel/Index</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-109"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="d5efe-110"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-110"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ConferenceDateTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>Primary</p></td>
-<td><p>Verwiesen von der <a href="lync-server-2013-dialog-table.md">Dialog-Tabelle in Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="d5efe-111"><strong>ConferenceDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-111"><strong>ConferenceDateTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-112">datetime</span><span class="sxs-lookup"><span data-stu-id="d5efe-112">datetime</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-113">Primary</span><span class="sxs-lookup"><span data-stu-id="d5efe-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-114">Wird in der <a href="lync-server-2013-dialog-table.md">Dialog Feld Tabelle in lync Server 2013</a>referenziert.</span><span class="sxs-lookup"><span data-stu-id="d5efe-114">Referenced from the <a href="lync-server-2013-dialog-table.md">Dialog table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionSeq</strong></p></td>
-<td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>Verwiesen von der <a href="lync-server-2013-dialog-table.md">Dialog-Tabelle in Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="d5efe-115"><strong>SessionSeq</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-115"><strong>SessionSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-116">int</span><span class="sxs-lookup"><span data-stu-id="d5efe-116">int</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-117">Primary</span><span class="sxs-lookup"><span data-stu-id="d5efe-117">Primary</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-118">Wird in der <a href="lync-server-2013-dialog-table.md">Dialog Feld Tabelle in lync Server 2013</a>referenziert.</span><span class="sxs-lookup"><span data-stu-id="d5efe-118">Referenced from the <a href="lync-server-2013-dialog-table.md">Dialog table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ConferenceKey</strong></p></td>
-<td><p>int</p></td>
-<td><p>Fremd</p></td>
-<td><p>Konferenzschlüssel. In der <a href="lync-server-2013-conference-table.md">Conference-Tabelle in Lync Server 2013</a> referenziert.</p></td>
+<td><p><span data-ttu-id="d5efe-119"><strong>ConferenceKey</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-119"><strong>ConferenceKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-120">int</span><span class="sxs-lookup"><span data-stu-id="d5efe-120">int</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-121">Fremd</span><span class="sxs-lookup"><span data-stu-id="d5efe-121">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-122">Konferenz Taste.</span><span class="sxs-lookup"><span data-stu-id="d5efe-122">Conference key.</span></span> <span data-ttu-id="d5efe-123">Wird aus der <a href="lync-server-2013-conference-table.md">Konferenz Tabelle in lync Server 2013</a>referenziert.</span><span class="sxs-lookup"><span data-stu-id="d5efe-123">Referenced from the <a href="lync-server-2013-conference-table.md">Conference table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CorrelationKey</strong></p></td>
-<td><p>int</p></td>
-<td><p>Fremd</p></td>
-<td><p>Korrelationsschlüssel. In der <a href="lync-server-2013-sessioncorrelation-table.md">SessionCorrelation-Tabelle in Lync Server 2013</a> referenziert.</p></td>
+<td><p><span data-ttu-id="d5efe-124"><strong>CorrelationKey</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-124"><strong>CorrelationKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-125">int</span><span class="sxs-lookup"><span data-stu-id="d5efe-125">int</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-126">Fremd</span><span class="sxs-lookup"><span data-stu-id="d5efe-126">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-127">Korrelationsschlüssel</span><span class="sxs-lookup"><span data-stu-id="d5efe-127">Correlation key.</span></span> <span data-ttu-id="d5efe-128">Wird in der <a href="lync-server-2013-sessioncorrelation-table.md">SessionCorrelation-Tabelle in lync Server 2013</a>referenziert.</span><span class="sxs-lookup"><span data-stu-id="d5efe-128">Referenced from the <a href="lync-server-2013-sessioncorrelation-table.md">SessionCorrelation table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DialogCategory</strong></p></td>
-<td><p>bit</p></td>
+<td><p><span data-ttu-id="d5efe-129"><strong>DialogCategory</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-129"><strong>DialogCategory</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-130">bit</span><span class="sxs-lookup"><span data-stu-id="d5efe-130">bit</span></span></p></td>
 <td><p> </p></td>
-<td><p>Dialogkategorie. 0 = Abschnitt von Lync Server zum Vermittlungsserver, 1 = Abschnitt vom Vermittlungsserver zum PSTN-Gateway.</p></td>
+<td><p><span data-ttu-id="d5efe-131">Dialog Feld Kategorie; 0 ist lync Server to Mediation Server Leg; 1 ist Vermittlungs Server für das PSTN-Gateway-Bein.</span><span class="sxs-lookup"><span data-stu-id="d5efe-131">Dialog category; 0 is Lync Server to Mediation Server leg; 1 is Mediation Server to PSTN gateway leg.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MediationServerBypassFlag</strong></p></td>
-<td><p>bit</p></td>
-<td><p></p></td>
-<td><p>Flag, das angibt, ob der Anruf umgangen wurde oder nicht.</p></td>
+<td><p><span data-ttu-id="d5efe-132"><strong>MediationServerBypassFlag</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-132"><strong>MediationServerBypassFlag</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-133">bit</span><span class="sxs-lookup"><span data-stu-id="d5efe-133">bit</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="d5efe-134">Flag, das angibt, ob der Anruf umgangen wurde oder nicht.</span><span class="sxs-lookup"><span data-stu-id="d5efe-134">Flag indicating if the call was bypassed or not.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MediaBypassWarningFlag</strong></p></td>
-<td><p>int</p></td>
-<td><p></p></td>
-<td><p>Dieses Feld gibt an (falls es vorhanden ist), warum ein Anruf nicht umgangen wurde, auch wenn die Umgehungs-IDs übereinstimmten. Für Lync Server ist nur ein Wert definiert.</p>
-<p>0x0001 - Unbekannte Umgehungs-ID für Standardnetzwerkadapter.</p></td>
+<td><p><span data-ttu-id="d5efe-135"><strong>MediaBypassWarningFlag</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-135"><strong>MediaBypassWarningFlag</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-136">int</span><span class="sxs-lookup"><span data-stu-id="d5efe-136">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="d5efe-137">Dieses Feld, falls vorhanden, gibt an, warum ein Anruf nicht umgangen wurde, auch wenn die Bypass-IDs übereinstimmten.</span><span class="sxs-lookup"><span data-stu-id="d5efe-137">This field, if present, indicates why a call was not bypassed even if the bypass IDs matched.</span></span> <span data-ttu-id="d5efe-138">Bei lync Server ist nur ein Wert definiert.</span><span class="sxs-lookup"><span data-stu-id="d5efe-138">For Lync Server, only one value is defined.</span></span></p>
+<p><span data-ttu-id="d5efe-139">0x0001 – unbekannte Bypass-ID für den standardmäßigen Netzwerkadapter.</span><span class="sxs-lookup"><span data-stu-id="d5efe-139">0x0001 – Unknown bypass ID for Default network adapter.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>StartTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p><span data-ttu-id="d5efe-140"><strong>StartTime</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-140"><strong>StartTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-141">datetime</span><span class="sxs-lookup"><span data-stu-id="d5efe-141">datetime</span></span></p></td>
 <td><p> </p></td>
-<td><p>Startzeitpunkt des Anrufs.</p></td>
+<td><p><span data-ttu-id="d5efe-142">Startzeit des Anrufs.</span><span class="sxs-lookup"><span data-stu-id="d5efe-142">Call start time.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>EndTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p><span data-ttu-id="d5efe-143"><strong>EndTime</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-143"><strong>EndTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-144">datetime</span><span class="sxs-lookup"><span data-stu-id="d5efe-144">datetime</span></span></p></td>
 <td><p> </p></td>
-<td><p>Endzeitpunkt des Anrufs.</p></td>
+<td><p><span data-ttu-id="d5efe-145">Endzeit des Anrufs.</span><span class="sxs-lookup"><span data-stu-id="d5efe-145">Call end time.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CallerPool</strong></p></td>
-<td><p>int</p></td>
-<td><p>Fremd</p></td>
-<td><p>Der Pool des Anrufers. In der <a href="lync-server-2013-pool-table.md">Pool-Tabelle in Lync Server 2013</a> referenziert.</p></td>
+<td><p><span data-ttu-id="d5efe-146"><strong>CallerPool</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-146"><strong>CallerPool</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-147">int</span><span class="sxs-lookup"><span data-stu-id="d5efe-147">int</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-148">Fremd</span><span class="sxs-lookup"><span data-stu-id="d5efe-148">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-149">Der Pool des Anrufers.</span><span class="sxs-lookup"><span data-stu-id="d5efe-149">The pool of the caller.</span></span> <span data-ttu-id="d5efe-150">Referenziert aus der <a href="lync-server-2013-pool-table.md">Pool Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="d5efe-150">Referenced from the <a href="lync-server-2013-pool-table.md">Pool table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>CalleePool</strong></p></td>
-<td><p>int</p></td>
-<td><p>Fremd</p></td>
-<td><p>Der Pool des Angerufenen. In der <a href="lync-server-2013-pool-table.md">Pool-Tabelle in Lync Server 2013</a> referenziert.</p></td>
+<td><p><span data-ttu-id="d5efe-151"><strong>CalleePool</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-151"><strong>CalleePool</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-152">int</span><span class="sxs-lookup"><span data-stu-id="d5efe-152">int</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-153">Fremd</span><span class="sxs-lookup"><span data-stu-id="d5efe-153">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-154">Der Pool des anrufempfängers.</span><span class="sxs-lookup"><span data-stu-id="d5efe-154">The pool of the call receiver.</span></span> <span data-ttu-id="d5efe-155">Referenziert aus der <a href="lync-server-2013-pool-table.md">Pool Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="d5efe-155">Referenced from the <a href="lync-server-2013-pool-table.md">Pool table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CalleePAI</strong></p></td>
-<td><p>int</p></td>
-<td><p>Fremd</p></td>
-<td><p>Die SIP-URI in der SIP-PAI (P-Asserted-Identity) des empfangenden Endpunkts. In der <a href="lync-server-2013-user-table.md">User-Tabelle in Lync Server 2013</a> referenziert.</p></td>
+<td><p><span data-ttu-id="d5efe-156"><strong>CalleePAI</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-156"><strong>CalleePAI</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-157">int</span><span class="sxs-lookup"><span data-stu-id="d5efe-157">int</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-158">Fremd</span><span class="sxs-lookup"><span data-stu-id="d5efe-158">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-159">SIP-URI in der SIP p-asserted Identity (Pai) des empfangenden Endpunkts.</span><span class="sxs-lookup"><span data-stu-id="d5efe-159">SIP URI in the SIP p-asserted identity (PAI) of the receiving endpoint.</span></span> <span data-ttu-id="d5efe-160">Wird in der <a href="lync-server-2013-user-table.md">Tabelle "Benutzer" in lync Server 2013</a>referenziert.</span><span class="sxs-lookup"><span data-stu-id="d5efe-160">Referenced from the <a href="lync-server-2013-user-table.md">User table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>CallerURI</strong></p></td>
-<td><p>int</p></td>
-<td><p>Fremd</p></td>
-<td><p>Die URI des Anrufers. In der <a href="lync-server-2013-user-table.md">User-Tabelle in Lync Server 2013</a> referenziert.</p></td>
+<td><p><span data-ttu-id="d5efe-161"><strong>CallerURI</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-161"><strong>CallerURI</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-162">int</span><span class="sxs-lookup"><span data-stu-id="d5efe-162">int</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-163">Fremd</span><span class="sxs-lookup"><span data-stu-id="d5efe-163">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-164">URI des Anrufers.</span><span class="sxs-lookup"><span data-stu-id="d5efe-164">Caller’s URI.</span></span> <span data-ttu-id="d5efe-165">Wird in der <a href="lync-server-2013-user-table.md">Tabelle "Benutzer" in lync Server 2013</a>referenziert.</span><span class="sxs-lookup"><span data-stu-id="d5efe-165">Referenced from the <a href="lync-server-2013-user-table.md">User table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CallerEndpoint</strong></p></td>
-<td><p>int</p></td>
-<td><p>Fremd</p></td>
-<td><p>Der Endpunkt des Anrufers. In der <a href="lync-server-2013-endpoint-table.md">Endpoint-Tabelle in Lync Server 2013</a> referenziert.</p></td>
+<td><p><span data-ttu-id="d5efe-166"><strong>CallerEndpoint</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-166"><strong>CallerEndpoint</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-167">int</span><span class="sxs-lookup"><span data-stu-id="d5efe-167">int</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-168">Fremd</span><span class="sxs-lookup"><span data-stu-id="d5efe-168">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-169">Endpunkt des Anrufers.</span><span class="sxs-lookup"><span data-stu-id="d5efe-169">Caller’s endpoint.</span></span> <span data-ttu-id="d5efe-170">Wird von der <a href="lync-server-2013-endpoint-table.md">Endpunkt Tabelle in lync Server 2013</a>referenziert.</span><span class="sxs-lookup"><span data-stu-id="d5efe-170">Referenced from the <a href="lync-server-2013-endpoint-table.md">Endpoint table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>CallerUserAgent</strong></p></td>
-<td><p>bit</p></td>
-<td><p>Fremd</p></td>
-<td><p>Dr Benutzer-Agent des Anrufers. In der <a href="lync-server-2013-useragent-table.md">UserAgent-Tabelle in Lync Server 2013</a> referenziert.</p></td>
+<td><p><span data-ttu-id="d5efe-171"><strong>CallerUserAgent</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-171"><strong>CallerUserAgent</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-172">bit</span><span class="sxs-lookup"><span data-stu-id="d5efe-172">bit</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-173">Fremd</span><span class="sxs-lookup"><span data-stu-id="d5efe-173">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-174">Benutzer-Agent des Anrufers.</span><span class="sxs-lookup"><span data-stu-id="d5efe-174">Caller’s user agent.</span></span> <span data-ttu-id="d5efe-175">Wird in der <a href="lync-server-2013-useragent-table.md">userAgent-Tabelle in lync Server 2013</a>referenziert.</span><span class="sxs-lookup"><span data-stu-id="d5efe-175">Referenced from the <a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CallPriority</strong></p></td>
-<td><p>smallint</p></td>
-<td><p></p></td>
-<td><p>Priorität dieses Anrufs.</p></td>
+<td><p><span data-ttu-id="d5efe-176"><strong>CallPriority</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-176"><strong>CallPriority</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-177">smallint</span><span class="sxs-lookup"><span data-stu-id="d5efe-177">smallint</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="d5efe-178">Die Priorität dieses Anrufs.</span><span class="sxs-lookup"><span data-stu-id="d5efe-178">The priority of this call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ClassifiedPoorCall</strong></p></td>
-<td><p>bit</p></td>
-<td><p></p></td>
-<td><p>Dies Spalte wird nicht mehr unterstützt und wird in Microsoft Lync Server 2013 nicht verwendet. Stattdessen werden diese Informationen pro Medienzeile angegeben. Weitere Informationen finden Sie unter <a href="lync-server-2013-medialine-table.md">MediaLine-Tabelle in Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="d5efe-179"><strong>ClassifiedPoorCall</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-179"><strong>ClassifiedPoorCall</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-180">bit</span><span class="sxs-lookup"><span data-stu-id="d5efe-180">bit</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="d5efe-181">Diese Spalte wurde als veraltet markiert und wird in Microsoft lync Server 2013 nicht verwendet.</span><span class="sxs-lookup"><span data-stu-id="d5efe-181">This column has been deprecated and is not used in Microsoft Lync Server 2013.</span></span> <span data-ttu-id="d5efe-182">Stattdessen werden diese Informationen auf Basis einer einzelnen medienzeile gemeldet.</span><span class="sxs-lookup"><span data-stu-id="d5efe-182">Instead, this information is reported on a per-media line bases.</span></span> <span data-ttu-id="d5efe-183">Weitere Informationen finden Sie <a href="lync-server-2013-medialine-table.md">in der Tabelle medialinie in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="d5efe-183">Refer to the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CallerPAI</strong></p></td>
-<td><p>int</p></td>
-<td><p>Fremd</p></td>
-<td><p>Die P-Asserted-Identity (P-Asserted-ID) des Benutzers, der den Anruf getätigt hat. Die P-Asserted-Identity (PAI) dient zur Übermittlung der wahren Identität des Benutzers, der den Anruf getätigt hat.</p></td>
+<td><p><span data-ttu-id="d5efe-184"><strong>CallerPAI</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-184"><strong>CallerPAI</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-185">int</span><span class="sxs-lookup"><span data-stu-id="d5efe-185">int</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-186">Fremd</span><span class="sxs-lookup"><span data-stu-id="d5efe-186">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-187">P-bestätigt – Identität des Benutzers, der den Anruf getätigt hat.</span><span class="sxs-lookup"><span data-stu-id="d5efe-187">P-Asserted-Identity of the user who placed the call.</span></span> <span data-ttu-id="d5efe-188">Die P-Asserted-Identity (Pai) wird verwendet, um die wahre Identität des Benutzers zu vermitteln, der den Anruf getätigt hat.</span><span class="sxs-lookup"><span data-stu-id="d5efe-188">The P-Asserted-Identity (PAI) is used to convey the true identity of the user who placed the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>CalleeEndpoint</strong></p></td>
-<td><p>int</p></td>
-<td><p>Fremd</p></td>
-<td><p>Endpunkt, der den Anruf empfangen hat.</p></td>
+<td><p><span data-ttu-id="d5efe-189"><strong>CalleeEndpoint</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-189"><strong>CalleeEndpoint</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-190">int</span><span class="sxs-lookup"><span data-stu-id="d5efe-190">int</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-191">Fremd</span><span class="sxs-lookup"><span data-stu-id="d5efe-191">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-192">Endpunkt, der den Anruf empfangen hat.</span><span class="sxs-lookup"><span data-stu-id="d5efe-192">Endpoint that received the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CalleeUserAgent</strong></p></td>
-<td><p>int</p></td>
-<td><p>Fremd</p></td>
-<td><p>Der Benutzer-Agent des Benutzers, der den Anruf empfangen hat. Benutzer-Agents repräsentieren das Endpunktgerät des Clients.</p></td>
+<td><p><span data-ttu-id="d5efe-193"><strong>CalleeUserAgent</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-193"><strong>CalleeUserAgent</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-194">int</span><span class="sxs-lookup"><span data-stu-id="d5efe-194">int</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-195">Fremd</span><span class="sxs-lookup"><span data-stu-id="d5efe-195">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-196">Benutzer-Agent des Benutzers, der den Anruf erhalten hat.</span><span class="sxs-lookup"><span data-stu-id="d5efe-196">User agent employed by the user who received the call.</span></span> <span data-ttu-id="d5efe-197">Benutzer-Agents stellen das Clientendpunkt Gerät dar.</span><span class="sxs-lookup"><span data-stu-id="d5efe-197">User agents represent the client endpoint device.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>CalleeUri</strong></p></td>
-<td><p>int</p></td>
-<td><p>Fremd</p></td>
-<td><p>SIP-URI des Benutzers, der den Anruf empfangen hat.</p></td>
+<td><p><span data-ttu-id="d5efe-198"><strong>CalleeUri</strong></span><span class="sxs-lookup"><span data-stu-id="d5efe-198"><strong>CalleeUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="d5efe-199">int</span><span class="sxs-lookup"><span data-stu-id="d5efe-199">int</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-200">Fremd</span><span class="sxs-lookup"><span data-stu-id="d5efe-200">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="d5efe-201">SIP-URI des Benutzers, der den Anruf erhalten hat.</span><span class="sxs-lookup"><span data-stu-id="d5efe-201">SIP URI of the user who received the call.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

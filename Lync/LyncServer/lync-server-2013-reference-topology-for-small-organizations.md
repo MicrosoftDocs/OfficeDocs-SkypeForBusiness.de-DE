@@ -1,55 +1,88 @@
-﻿---
-title: 'Lync Server 2013: Referenztopologie für kleine Unternehmen'
-TOCTitle: Referenztopologie für kleine Unternehmen
-ms:assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/Gg398095(v=OCS.15)
-ms:contentKeyID: 49293028
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013-Referenztopologie für kleine Organisationen
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Reference topology for small organizations
+ms:assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398095(v=OCS.15)
+ms:contentKeyID: 48183272
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c06a3585a342ecc7fa7c41ff2b2b2682d2b8a0c3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823812"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Referenztopologie für Lync Server 2013 in kleinen Unternehmen
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2013-10-07_
+# <a name="reference-topology-for-lync-server-2013-in-small-organizations"></a><span data-ttu-id="063b2-102">Referenztopologie für lync Server 2013 in kleinen Organisationen</span><span class="sxs-lookup"><span data-stu-id="063b2-102">Reference topology for Lync Server 2013 in small organizations</span></span>
 
-Die Referenztopologie für kleine Organisationen zeigt, wie Sie eine zuverlässige Lösung mit hoher Verfügbarkeit durch Bereitstellung von lediglich drei Servern mit Lync Server bereitstellen können.
+</div>
 
-**Referenztopologie für kleine Unternehmen**
+<div id="mainSection">
 
-![Referenztopologie mit drei Servern (Diagramm)](images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "Referenztopologie mit drei Servern (Diagramm)")
+<div id="mainBody">
 
-  - **Paar bereitgestellter Standard Edition-Server**     Diese Organisation hat 4.000 Benutzer an ihrem Hauptstandort. Die Organisation hat zwei Standard Edition-Server bereitgestellt und diese als Paar zusammengefasst, um eine hohe Verfügbarkeit sowie Notfallwiederherstellung zu ermöglichen. Jeder Server hostet 2.000 Benutzer, die Informationen zu allen Benutzern werden aber zwischen den beiden Server synchronisiert. Fällt ein Server aus, kann ein Administrator ein Failover für diese Benutzer ausführen, sodass sie mit minimaler Unterbrechung von dem anderen Server gehostet werden. Weitere Informationen zu den Features für hohe Verfügbarkeit und Notfallwiederherstellung in Lync Server 2013 finden Sie unter [Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+<span> </span>
 
-  - **Empfehlung zur Bereitstellung eines Edgeservers.**    Wenngleich die Bereitstellung eines Edgeservers für das interne Instant Messaging, für Anwesenheitsinformationen und Konferenzen nicht erforderlich ist, wird sie selbst für kleine Bereitstellung empfohlen. Sie können Ihre Investition in Lync Server maximieren, indem Sie einen Edgeserver zur Bereitstellung von Diensten für Benutzer implementieren, die sich aktuell außerhalb der Organisationsfirewall befinden. Es bieten sich folgende Vorteile:
+<span data-ttu-id="063b2-103">_**Letztes Änderungsdatum des Themas:** 2013-10-07_</span><span class="sxs-lookup"><span data-stu-id="063b2-103">_**Topic Last Modified:** 2013-10-07_</span></span>
+
+<span data-ttu-id="063b2-104">Die Referenztopologie für kleine Organisationen zeigt, wie Sie eine robuste, hoch verfügbare Lösung bereitstellen können, indem Sie nur drei Server mit lync Server bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="063b2-104">The reference topology for small organizations shows how you can deploy a robust, highly available solution by deploying only three servers running Lync Server.</span></span>
+
+<span data-ttu-id="063b2-105">**Referenztopologie für kleine Organisationen**</span><span class="sxs-lookup"><span data-stu-id="063b2-105">**Reference topology for small organizations**</span></span>
+
+<span data-ttu-id="063b2-106">![Referenztopologie zum Bereitstellen von drei Server Diagrammen] (images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "Referenztopologie zum Bereitstellen von drei Server Diagrammen")</span><span class="sxs-lookup"><span data-stu-id="063b2-106">![Reference topology deploying three servers diagram](images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "Reference topology deploying three servers diagram")</span></span>
+
+  - <span data-ttu-id="063b2-107">**Paar von Standard Edition-Servern**     , die diese Organisation bereitgestellt hat, hat 4.000-Benutzer an Ihrem zentralen Standort.</span><span class="sxs-lookup"><span data-stu-id="063b2-107">**Pair of Standard Edition Servers Deployed**    This organization has 4,000 users at their central site.</span></span> <span data-ttu-id="063b2-108">Die Organisation hat zwei Standard Edition-Server bereitgestellt und kombiniert, um eine höhere Verfügbarkeit und Disaster Recovery zu ermöglichen.</span><span class="sxs-lookup"><span data-stu-id="063b2-108">The organization has deployed two Standard Edition servers and paired them together to enable high availability and disaster recovery.</span></span> <span data-ttu-id="063b2-109">Each server homes 2,000 users, but information about all users is synchronized between the two servers.</span><span class="sxs-lookup"><span data-stu-id="063b2-109">Each server homes 2,000 users, but information about all users is synchronized between the two servers.</span></span> <span data-ttu-id="063b2-110">If one goes down, an administrator can fail over those users to be served by the other server, with a minimum of disruption to users.</span><span class="sxs-lookup"><span data-stu-id="063b2-110">If one goes down, an administrator can fail over those users to be served by the other server, with a minimum of disruption to users.</span></span> <span data-ttu-id="063b2-111">Weitere Informationen zu Funktionen für die Hochverfügbarkeits-und Disaster Recovery in lync Server 2013 finden Sie unter [Planen von Hochverfügbarkeits-und Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="063b2-111">For more information about high availability and disaster recovery features in Lync Server 2013, see [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span>
+
+  - <span data-ttu-id="063b2-112">**Die Bereitstellung von Edge-Servern wird empfohlen.**    Obwohl die Bereitstellungeines Edgeserver für interne Chats, Anwesenheitsfunktionen und Konferenzen nicht erforderlich ist, empfehlen wir dies auch für kleine Bereitstellungen.</span><span class="sxs-lookup"><span data-stu-id="063b2-112">**Edge Server deployment is recommended.**   Although deploying an Edge Server is not required for internal IM, presence and conferencing, we recommend it even for small deployments.</span></span> <span data-ttu-id="063b2-113">Sie können Ihre lync Server-Investition maximieren, indem Sie einen Edgeserver bereitstellen, um die Dienste für Benutzer bereitzustellen, die sich derzeit außerhalb der Firewalls Ihrer Organisation befinden.</span><span class="sxs-lookup"><span data-stu-id="063b2-113">You can maximize your Lync Server investment by deploying an Edge Server to provide service to users currently outside your organization’s firewalls.</span></span> <span data-ttu-id="063b2-114">Dies bietet folgende Vorteile:</span><span class="sxs-lookup"><span data-stu-id="063b2-114">The benefits include the following:</span></span>
     
-      - Die organisationseigenen Benutzer können die Lync Server-Funktionalität nutzen, wenn sie von zu Hause oder unterwegs arbeiten.
+      - <span data-ttu-id="063b2-115">Die eigenen Benutzer Ihrer Organisation können die lync-Server Funktionalität verwenden, wenn Sie von zu Hause aus arbeiten oder unterwegs sind.</span><span class="sxs-lookup"><span data-stu-id="063b2-115">Your organization’s own users can use Lync Server functionality, if they are working from home or are out on the road.</span></span>
     
-      - Ihre Benutzer können externe Benutzer zur Teilnahme an Besprechungen einladen.
+      - <span data-ttu-id="063b2-116">Ihre Benutzer können externe Benutzer zur Teilnahme an Besprechungen einladen.</span><span class="sxs-lookup"><span data-stu-id="063b2-116">Your users can invite outside users to participate in meetings.</span></span>
     
-      - Wenn Sie mit einer Partner-, Lieferanten- oder Kundenorganisation zusammenarbeiten, die ebenfalls Lync Server einsetzt, können Sie eine *Partnerverbundbeziehung* mit dieser Organisation einrichten. Benutzer dieser Partnerorganisation werden anschließend in Ihrer Lync Server-Bereitstellung erkannt, wodurch die Zusammenarbeit verbessert wird.
+      - <span data-ttu-id="063b2-117">Wenn Sie über einen Partner, einen Kreditor oder eine Kundenorganisation verfügen, die ebenfalls lync Server verwendet, können Sie eine *Verbundbeziehung* mit dieser Organisation bilden.</span><span class="sxs-lookup"><span data-stu-id="063b2-117">If you have a partner, vendor or customer organization that also uses Lync Server, you can form a *federated relationship* with that organization.</span></span> <span data-ttu-id="063b2-118">Ihre lync Server-Bereitstellung erkennt dann Benutzer aus dieser Verbundorganisation, was zu einer besseren Zusammenarbeit führt.</span><span class="sxs-lookup"><span data-stu-id="063b2-118">Your Lync Server deployment would then recognize users from that federated organization, leading to better collaboration.</span></span>
     
-      - Ihre Benutzer können Chatnachrichten mit Benutzern von öffentlichen Instant Messaging-Diensten austauschen, darunter: Windows Live, AOL, Yahoo\! und Google Talk. Für Verbindungen mit diesen öffentlichen Instant Messaging-Diensten ist möglicherweise eine separate Lizenz erforderlich.
+      - <span data-ttu-id="063b2-119">Ihre Benutzer können Sofortnachrichten mit Benutzern von öffentlichen Chat Diensten austauschen, einschließlich einer oder aller der folgenden: Windows Live, AOL, Yahoo\!und Google Talk.</span><span class="sxs-lookup"><span data-stu-id="063b2-119">Your users can exchange instant messages with users of public IM services, including any or all of the following: Windows Live, AOL, Yahoo\!, and Google Talk.</span></span> <span data-ttu-id="063b2-120">Für die Konnektivität öffentlicher Chats mit diesen Diensten ist möglicherweise eine separate Lizenz erforderlich.</span><span class="sxs-lookup"><span data-stu-id="063b2-120">A separate license might be required for public IM connectivity with these services.</span></span>
+        
+        <div>
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > <UL>
         > <LI>
-        > <P>Ab dem 1. September 2012 kann die Microsoft Lync-Benutzerabonnementlizenz für die Verbindung mit öffentlichen Chatdiensten ("PIC USL") nicht mehr neu erworben werden, und Verträge können nicht verlängert werden. Kunden mit aktiven Lizenzen können den Partnerverbund mit Yahoo! Messenger weiterhin nutzen, bis der Dienst eingestellt wird. Als Datum der Einstellung des Diensts für AOL und Yahoo! wurde Juni 2014 angekündigt. Einzelheiten hierzu finden Sie unter <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Unterstützen von Verbindungen mit öffentlichen Chatdiensten in Lync Server 2013</A>.</P>
+        > <P><span data-ttu-id="063b2-121">Ab dem 1. September, 2012, ist die Microsoft lync Public im Connectivity-Benutzerabonnementlizenz ("PIC USL") nicht mehr für den Kauf von neuen oder erneuernden Vereinbarungen verfügbar.</span><span class="sxs-lookup"><span data-stu-id="063b2-121">As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements.</span></span> <span data-ttu-id="063b2-122">Kunden mit aktiven Lizenzen sind in der Lage, weiterhin mit Yahoo! zu verbünden</span><span class="sxs-lookup"><span data-stu-id="063b2-122">Customers with active licenses will be able to continue to federate with Yahoo!</span></span> <span data-ttu-id="063b2-123">Messenger, bis der Dienst das Datum beendet hat.</span><span class="sxs-lookup"><span data-stu-id="063b2-123">Messenger until the service shut down date.</span></span> <span data-ttu-id="063b2-124">Datum des Endes des Lebenszyklus von Juni 2014 für AOL und Yahoo!</span><span class="sxs-lookup"><span data-stu-id="063b2-124">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="063b2-125">wurde angekündigt.</span><span class="sxs-lookup"><span data-stu-id="063b2-125">has been announced.</span></span> <span data-ttu-id="063b2-126">Ausführliche Informationen finden Sie <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">unter Unterstützung für öffentliche Instant Messenger-Konnektivität in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="063b2-126">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</span></span></P>
         > <LI>
-        > <P>Bei PIC&nbsp;USL handelt es sich um eine Abonnementlizenz pro Benutzer und pro Monat, die für Lync&nbsp;Server oder Office&nbsp;Communications&nbsp;Server zum Einrichten eines Partnerverbunds mit Yahoo! Messenger erforderlich ist. Die Bereitstellung dieses Services durch Microsoft hing von der Unterstützung durch Yahoo! ab, deren zugrundeliegende Vereinbarung ausläuft.</P>
+        > <P><span data-ttu-id="063b2-127">Bei der PIC-USL handelt es sich um eine Abonnementlizenz pro Benutzer pro Monat, die für die Föderation von lync Server oder Office Communications Server mit Yahoo! erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="063b2-127">The PIC USL is a per-user per-month subscription license that is required for Lync Server or Office Communications Server to federate with Yahoo!</span></span> <span data-ttu-id="063b2-128">Messenger.</span><span class="sxs-lookup"><span data-stu-id="063b2-128">Messenger.</span></span> <span data-ttu-id="063b2-129">Die Möglichkeit von Microsoft, diesen Dienst bereitzustellen, war von der Unterstützung durch Yahoo! abhängig, deren zugrunde liegende Vereinbarung abgewickelt wird.</span><span class="sxs-lookup"><span data-stu-id="063b2-129">Microsoft’s ability to provide this service has been contingent upon support from Yahoo!, the underlying agreement for which is winding down.</span></span></P>
         > <LI>
-        > <P>Lync ist mehr denn je ein leistungsstarkes Tool das Organisationen und Einzelpersonen weltweit verbindet. Der Partnerverbund mit Windows Live Messenger erfordert keine zusätzlichen Benutzer-/Gerätelizenzen außer der Lync Standard CAL. Der Partnerverbund mit Skype wird dieser Liste hinzugefügt und ermöglicht Lync-Benutzern, Abermillionen von Personen per Chat oder VoIP zu erreichen.</P></LI></UL>
+        > <P><span data-ttu-id="063b2-130">Lync ist mehr denn je ein leistungsfähiges Tool für die Verbindung zwischen Organisationen und Personen in der ganzen Welt.</span><span class="sxs-lookup"><span data-stu-id="063b2-130">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="063b2-131">Für den Verbund mit Windows Live Messenger sind keine zusätzlichen Benutzer-und Gerätelizenzen außerhalb der lync-Standard CAL erforderlich.</span><span class="sxs-lookup"><span data-stu-id="063b2-131">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard CAL.</span></span> <span data-ttu-id="063b2-132">Skype Federation wird dieser Liste hinzugefügt und ermöglicht es lync-Benutzern, Hunderte von Millionen von Personen mit Chat und Sprache zu erreichen.</span><span class="sxs-lookup"><span data-stu-id="063b2-132">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people with IM and voice.</span></span></P></LI></UL>
 
+        
+        </div>
 
+  - <span data-ttu-id="063b2-133">\*\*\*\* Überlebensfähigkeit der Verzweigungs Website.    In dieser Organisation wird ein Pilotprogramm des Enterprise-VoIP-Features von lync Server ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="063b2-133">**Branch site survivability.**   This organization is running a pilot program of the Enterprise Voice feature of Lync Server.</span></span> <span data-ttu-id="063b2-134">Einige Benutzer verwenden lync Server als einzige Sprachlösung.</span><span class="sxs-lookup"><span data-stu-id="063b2-134">Some users are using Lync Server as their sole voice solution.</span></span> <span data-ttu-id="063b2-135">Einige dieser sprach Pilotbenutzer befinden sich auf der Zweigstelle.</span><span class="sxs-lookup"><span data-stu-id="063b2-135">Some of these Voice pilot users are located at the branch site.</span></span> <span data-ttu-id="063b2-136">Die Verzweigungs Website verfügt nicht über einen zuverlässigen WAN-Link (Wide Area Network) mit dem zentralen Standort, daher wird eine Survivable Branch-Appliance dort bereitgestellt.</span><span class="sxs-lookup"><span data-stu-id="063b2-136">The branch site does not have a reliable wide area network (WAN) link to the central site, so a Survivable Branch Appliance is deployed there.</span></span> <span data-ttu-id="063b2-137">Dank der Survivable Branch-Anwendung können die Benutzer in der Zweigstelle bei Ausfall der WAN-Verbindung weiterhin Anrufe tätigen und entgegennehmen (sowohl innerhalb der Organisation als auch über das Festnetz), die Voicemailfunktion nutzen und per Chat kommunizieren.</span><span class="sxs-lookup"><span data-stu-id="063b2-137">With this deployed, if the WAN link goes down, users at the branch site can still make and receive calls (both calls within the organization and PSTN calls), have voice mail functionality, and communicate with two-party instant messaging (IM).</span></span> <span data-ttu-id="063b2-138">Benutzer können darüber hinaus auch dann authentifiziert werden, wenn die WAN-Verbindung nicht verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="063b2-138">Users can also be authenticated when the WAN link is unavailable as well.</span></span>
 
-  - **Ausfallsicherheit für Zweigstellen.**    Die Organisation führt ein Pilotprogramm zur Enterprise-VoIP-Funktion von Lync Server durch. Einige Benutzer verwenden Lync Server als alleinige VoIP-Lösung. Einige dieser VoIP-Pilotbenutzer befinden sich am Zweigstellenstandort. Der Zweigstellenstandort ist nicht über eine zuverlässige WAN (Wide Area Network)-Leitung mit dem zentralen Standort verbunden, daher wurde am Zweigstellenstandort eine Survivable Branch-Anwendung bereitgestellt. Dank der Survivable Branch Appliance können die Benutzer am Zweigstellenstandort bei Ausfall der WAN-Verbindung weiterhin Anrufe tätigen und entgegennehmen (sowohl innerhalb der Organisation als auch über das Festnetz), die Voicemailfunktion nutzen und per Instant Messaging kommunizieren. Benutzer können darüber hinaus auch dann authentifiziert werden, wenn die WAN-Verbindung nicht verfügbar ist.
-
-  - **Exchange UM-Bereitstellung.** Diese Referenztopologie umfasst einen Exchange Unified Messaging (UM)-Server, auf dem nicht Lync Server, sondern Microsoft Exchange Server ausgeführt wird.
+  - <span data-ttu-id="063b2-139">**Exchange UM-Bereitstellung.**</span><span class="sxs-lookup"><span data-stu-id="063b2-139">**Exchange UM deployment.**</span></span> <span data-ttu-id="063b2-140">Diese Referenztopologie umfasst einen Exchange Unified Messaging (um)-Server, auf dem Microsoft Exchange Server ausgeführt wird, nicht lync Server.</span><span class="sxs-lookup"><span data-stu-id="063b2-140">This reference topology includes an Exchange Unified Messaging (UM) Server, which runs Microsoft Exchange Server, not Lync Server.</span></span>
     
-    Ausführliche Informationen zu Exchange UM finden Sie unter [Planen der Integration von Exchange Unified Messaging in Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) und [Integration in gehostete Exchange Unified Messaging-Dienste in Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md) in der Planungsdokumentation.
+    <span data-ttu-id="063b2-141">Ausführliche Informationen zu Exchange um finden Sie unter [Planen der Exchange Unified Messaging-Integration in lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) und [gehostete Exchange Unified Messaging-Integration in lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md) in der Planning-Dokumentation.</span><span class="sxs-lookup"><span data-stu-id="063b2-141">For details about Exchange UM, see [Planning for Exchange Unified Messaging integration in Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) and [Hosted Exchange Unified Messaging integration in Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md) in the Planning documentation.</span></span>
 
-  - **Office Web Apps Server** Es wird empfohlen, eine Office Web Apps Server- oder Office Web Apps Server-Farm in allenOrganisationen bereitzustellen, die Webkonferenzen verwenden. Office Web Apps Server ermöglicht die Präsentation von PowerPoint-Folien in Webkonferenzen. Weitere Informationen finden Sie unter [Konfigurieren der Integration mit Office Web Apps Server und Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+  - <span data-ttu-id="063b2-142">**Office Web Apps Server.**</span><span class="sxs-lookup"><span data-stu-id="063b2-142">**Office Web Apps Server.**</span></span> <span data-ttu-id="063b2-143">Es wird empfohlen, in jeder Organisation, in der der Webkonferenzdienst verwendet wird, einen Office Web Apps Server oder eine Office Web Apps-Serverfarm bereitzustellen.</span><span class="sxs-lookup"><span data-stu-id="063b2-143">We recommend deploying an Office Web Apps Server or Office Web Apps Server farm in every organization that uses web conferencing.</span></span> <span data-ttu-id="063b2-144">Mit Office Web Apps Server können PowerPoint-Folien in Webkonferenzen präsentiert werden.</span><span class="sxs-lookup"><span data-stu-id="063b2-144">Office Web Apps Server makes it possible for PowerPoint slides to be presented in web conferences.</span></span> <span data-ttu-id="063b2-145">Weitere Informationen finden Sie unter [Konfigurieren der Integration in Office Web Apps Server und lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).</span><span class="sxs-lookup"><span data-stu-id="063b2-145">For more information, see [Configuring integration with Office Web Apps Server and Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

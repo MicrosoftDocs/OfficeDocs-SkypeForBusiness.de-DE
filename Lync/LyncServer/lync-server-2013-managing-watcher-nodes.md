@@ -1,41 +1,75 @@
-﻿---
-title: Verwalten von Watcher-Knoten
-TOCTitle: Verwalten von Watcher-Knoten
-ms:assetid: 66deaf49-a71f-4a6e-ada0-ea8b688ee921
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ688078(v=OCS.15)
-ms:contentKeyID: 49890773
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Verwalten von Watcher-Knoten'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing watcher nodes
+ms:assetid: 66deaf49-a71f-4a6e-ada0-ea8b688ee921
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688078(v=OCS.15)
+ms:contentKeyID: 49733674
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e7edddd1a1bb67dc4bf3df5b7809aa76b2397e56
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827641"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwalten von Watcher-Knoten
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-20_
+# <a name="managing-watcher-nodes-in-lync-server-2013"></a><span data-ttu-id="f85cf-102">Verwalten von Watcher-Knoten in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f85cf-102">Managing watcher nodes in Lync Server 2013</span></span>
 
-Mit dem **Set-CsWatcherNodeConfiguration**-Cmdlet können Administratoren nicht nur die auf einem Watcher-Knoten ausgeführten synthetischen Transaktionen ändern, sondern auch noch zwei andere wichtige Aufgaben durchführen: das Aktivieren und Deaktivieren des Watcher-Knotens sowie das Konfigurieren des Watcher-Knotens zur Verwendung interner oder externer URLs beim Durchführen seiner Tests.
+</div>
 
-In der Standardeinstellung führen Watcher-Knoten in regelmäßigen Abständen alle für sie aktivierten synthetischen Transaktionen aus. Manchmal müssen solche Transaktionen jedoch angehalten werden. Wenn der Watcher-Knoten zum Beispiel vorübergehend vom Netzwerk getrennt ist, liegt kein Grund vor, dass die synthetischen Transaktionen ausgeführt werden. Ohne Verbindung mit dem Netzwerk würden solche Transaktionen nur fehlerhaft sein. Wenn Sie einen Watcher-Knoten vorübergehend deaktivieren möchten, führen Sie in der Lync Server-Verwaltungsshell einen Befehl aus, der in etwa so aussieht:
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="f85cf-103">_**Letztes Änderungsdatum des Themas:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="f85cf-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+
+<span data-ttu-id="f85cf-104">Zusätzlich zum Ändern der synthetischen Transaktionen, die auf einem Watcher-Knoten ausgeführt werden, können Administratoren auch das Cmdlet " **Satz-CsWatcherNodeConfiguration** " verwenden, um zwei weitere wichtige Aufgaben auszuführen: Aktivieren und Deaktivieren des Watcher-Knotens und Konfigurieren des Watcher-Knotens zum Verwenden interner URLs oder externer URLs, wenn die Tests ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="f85cf-104">In addition to modifying the synthetic transactions that are executed on a watcher node, administrators can also use the **Set-CsWatcherNodeConfiguration** cmdlet to carry out two other important tasks: enabling and disabling the watcher node, and configuring the watcher node to use either internal URLs or external URLs when running its tests.</span></span>
+
+<span data-ttu-id="f85cf-105">In der Standardeinstellung führen Watcher-Knoten in regelmäßigen Abständen alle für sie aktivierten synthetischen Transaktionen aus.</span><span class="sxs-lookup"><span data-stu-id="f85cf-105">By default, watcher nodes are designed to periodically run all their enabled synthetic transactions.</span></span> <span data-ttu-id="f85cf-106">Manchmal müssen Sie diese Transaktionen aber möglicherweise anhalten.</span><span class="sxs-lookup"><span data-stu-id="f85cf-106">Sometimes, however, you may need to suspend those transactions.</span></span> <span data-ttu-id="f85cf-107">Wenn der Watcher-Knoten zum Beispiel vorübergehend vom Netzwerk getrennt ist, liegt kein Grund vor, dass die synthetischen Transaktionen ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="f85cf-107">For example, if the watcher node is temporarily disconnected from the network, then there is no reason to run the synthetic transactions.</span></span> <span data-ttu-id="f85cf-108">Ohne Netzwerkkonnektivität sind diese Transaktionen garantiert fehlerhaft.</span><span class="sxs-lookup"><span data-stu-id="f85cf-108">Without network connectivity, those transactions are guaranteed to fail.</span></span> <span data-ttu-id="f85cf-109">Wenn Sie einen Watcher-Knoten vorübergehend deaktivieren möchten, führen Sie in der lync Server-Verwaltungsshell einen ähnlichen Befehl wie den folgenden aus:</span><span class="sxs-lookup"><span data-stu-id="f85cf-109">If you want to temporarily disable a watcher node, run a command similar to this from the Lync Server Management Shell:</span></span>
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $False
 
-Dieser Befehl deaktiviert die Ausführung synthetischer Transaktionen auf dem Watcher-Knoten "atl-watcher- 001.litwareinc.com". Wenn die synthetischen Transaktionen wieder aufgenommen werden sollen, setzen Sie die Eigenschaft "Enabled" wieder zurück auf "True" ($True):
+<span data-ttu-id="f85cf-110">Mit diesem Befehl wird die Ausführung von synthetischen Transaktionen auf dem Watcher-Knoten ATL-Watcher-001.litwareinc.com deaktiviert.</span><span class="sxs-lookup"><span data-stu-id="f85cf-110">This command will disable the execution of synthetic transactions on the watcher node atl-watcher- 001.litwareinc.com.</span></span> <span data-ttu-id="f85cf-111">Wenn die synthetischen Transaktionen wieder aufgenommen werden sollen, setzen Sie die Eigenschaft „Enabled“ wieder zurück auf „True“ ($True):</span><span class="sxs-lookup"><span data-stu-id="f85cf-111">To resume execution of the synthetic transactions, set the Enabled property back to True ($True):</span></span>
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 
-
-> [!NOTE]
-> Mithilfe der Eigenschaft "Enabled" können Watcher-Knoten ein- und ausgeschaltet werden. Wenn Sie einen Watcher-Knoten dauerhaft löschen möchten, verwenden Sie das <STRONG>Remove-CsWatcherNodeConfiguration</STRONG>-Cmdlet:<BR>Remove-CsWatcherNodeConfiguration –Identity "atl-watcher-001.litwareinc.com"<BR>Dieser Befehl entfernt auf dem angegebenen Computer alle Konfigurationseinstellungen für Watcher-Knoten, sodass auf diesem Computer keine synthetischen Transaktionen mehr automatisch ausgeführt werden. Allerdings werden dabei weder die System Center-Agentdateien noch die Lync Server 2013-Systemdateien deinstalliert.
+<div>
 
 
+> [!NOTE]  
+> <span data-ttu-id="f85cf-p103">Mithilfe der Eigenschaft „Enabled“ können Watcher-Knoten ein- und ausgeschaltet werden. Wenn Sie einen Watcher-Knoten dauerhaft löschen möchten, verwenden Sie das <STRONG>Remove-CsWatcherNodeConfiguration</STRONG>-Cmdlet:</span><span class="sxs-lookup"><span data-stu-id="f85cf-p103">The Enabled property can be used to turn watcher nodes on or off. If you want to permanently delete a watcher node, use the <STRONG>Remove-CsWatcherNodeConfiguration</STRONG> cmdlet:</span></span><BR><span data-ttu-id="f85cf-114">Remove-CsWatcherNodeConfiguration – Identity "ATL-Watcher-001.litwareinc.com"</span><span class="sxs-lookup"><span data-stu-id="f85cf-114">Remove-CsWatcherNodeConfiguration –Identity "atl-watcher-001.litwareinc.com"</span></span><BR><span data-ttu-id="f85cf-115">Dieser Befehl entfernt alle Überwachungsknoten-Konfigurationseinstellungen vom angegebenen Computer, wodurch verhindert wird, dass der Computer synthetische Transaktionen automatisch ausführt.</span><span class="sxs-lookup"><span data-stu-id="f85cf-115">That command removes all the watcher node configuration settings from the specified computer, which prevents the computer from automatically running synthetic transactions.</span></span> <span data-ttu-id="f85cf-116">Der Befehl wird jedoch nicht die System Center-Agentendateien oder die lync Server 2013-Systemdateien deinstalliert.</span><span class="sxs-lookup"><span data-stu-id="f85cf-116">However, the command does not uninstall the System Center agent files or the Lync Server 2013 system files.</span></span>
 
-In der Standardeinstellung verwenden Watcher-Knoten bei der Durchführung ihrer Tests externe URLs des Unternehmens. Es ist jedoch auch möglich, die Verwendung interner URLs zu konfigurieren. Dies ermöglicht es Administratoren, den URL-Zugriff für innerhalb des Umkreisnetzwerks befindliche Benutzer zu überprüfen. Wenn Sie einen Watcher-Knoten so konfigurieren möchten, dass er interne anstatt externe URLs verwendet, legen Sie die Eigenschaft "UseInternalWebUrls" auf "True" ($True) fest:
+
+
+</div>
+
+<span data-ttu-id="f85cf-117">Standardmäßig verwenden Watcher-Knoten die externen URLs einer Organisation, wenn Sie Ihre Tests durchführen.</span><span class="sxs-lookup"><span data-stu-id="f85cf-117">By default, watcher nodes use an organization's external URLs when conducting their tests.</span></span> <span data-ttu-id="f85cf-118">Watcher-Knoten können jedoch auch so konfiguriert werden, dass Sie die internen URLs der Organisation verwenden.</span><span class="sxs-lookup"><span data-stu-id="f85cf-118">However, watcher nodes can also be configured to use the organization's internal URLs.</span></span> <span data-ttu-id="f85cf-119">Dies ermöglicht es Administratoren, den URL-Zugriff für innerhalb des Umkreisnetzwerks befindliche Benutzer zu überprüfen.</span><span class="sxs-lookup"><span data-stu-id="f85cf-119">This enables administrators to verify URL access for users located inside the perimeter network.</span></span> <span data-ttu-id="f85cf-120">Wenn Sie einen Watcher-Knoten für die Verwendung interner URLs anstelle externer URLs konfigurieren möchten, legen Sie die UseInternalWebUrls-Eigenschaft auf true ($true) fest:</span><span class="sxs-lookup"><span data-stu-id="f85cf-120">To configure a watcher node to use internal URLs instead of external URLs, set the UseInternalWebUrls property to True ($True):</span></span>
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $True
 
-Wenn Sie diese Eigenschaft auf ihren Standardwert ($False) zurücksetzen, wird der Watcher-Knoten wieder externe URLs verwenden:
+<span data-ttu-id="f85cf-121">Wenn Sie diese Eigenschaft auf den Standardwert false ($false) zurücksetzen, verwendet der Watcher die externen URLs:</span><span class="sxs-lookup"><span data-stu-id="f85cf-121">If you reset this property to the default value of False ($False), the watcher will then use the external URLs:</span></span>
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $False
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

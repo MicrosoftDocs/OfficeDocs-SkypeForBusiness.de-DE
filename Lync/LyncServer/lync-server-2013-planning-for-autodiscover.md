@@ -1,45 +1,87 @@
-﻿---
-title: Planen der AutoErmittlung in Lync Server 2013
-TOCTitle: Planen der AutoErmittlung in Lync Server 2013
-ms:assetid: 51f1ff94-1d64-4e6d-a878-b86fa07edc2d
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ945628(v=OCS.15)
-ms:contentKeyID: 52056335
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Planen der AutoErmittlung'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Autodiscover
+ms:assetid: 51f1ff94-1d64-4e6d-a878-b86fa07edc2d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945628(v=OCS.15)
+ms:contentKeyID: 51541474
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0a1d0ce7a775bc73c5f3afa10d1f9c148395b0eb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825121"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planen der AutoErmittlung in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-16_
+# <a name="planning-for-autodiscover-in-lync-server-2013"></a><span data-ttu-id="eb6ac-102">Planen der AutoErmittlung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eb6ac-102">Planning for Autodiscover in Lync Server 2013</span></span>
 
-Die AutoErmittlung wurde für Lync Server mit dem kumulativen Update für Lync Server 2010: November 2011 eingeführt. Der Hauptzweck dieser Erstimplementierung der AutoErmittlung bestand in der Bereitstellung einer Methode für Lync Mobile zum Identifizieren des Mobilitätsdiensts (Mcx). Der AutoErmittlungsdienst in Lync Server 2013 ist mittlerweile ein Dienst, der von allen Clients zum Identifizieren von Server- und Benutzerdiensten verwendet wird. Der AutoErmittlungsdienst von Microsoft Lync Server 2013 wird auf Directors und Front-End-Server ausgeführt.
+</div>
 
+<div id="mainSection">
 
-> [!TIP]
-> Weitere technische Informationen zur AutoErmittlung und der Kommunikation an Clients finden Sie unter <A href="lync-server-2013-understanding-autodiscover.md">Grundlegendes zur AutoErmittlung</A>.<BR>Bei der Mobilität handelt es sich noch um ein eigenständiges Szenario und die Mobilitätsdienste erfordern individuelle Planung. Zusätzliche Informationen finden Sie unter <A href="lync-server-2013-planning-for-mobility.md">Planen der Mobilität in Lync Server&nbsp;2013</A>.
+<div id="mainBody">
 
+<span> </span>
 
+<span data-ttu-id="eb6ac-103">_**Letztes Änderungsdatum des Themas:** 2013-02-16_</span><span class="sxs-lookup"><span data-stu-id="eb6ac-103">_**Topic Last Modified:** 2013-02-16_</span></span>
 
-Als die AutoErmittlung in Lync Server 2010 eingeführt wurde, mussten Kompromisse geschlossen werden, um einen Dienst zu implementieren, der u. U. Zertifikatänderungen an vorhandenen Serverbereitstellungen erfordert. Die AutoErmittlung konnte über Port TCP 443 für HTTPS oder über Port TCP 80 für HTTP verwendet werden. Bei der Verwendung von HTTPS mussten Zertifikate auf Reverseproxys, Directors und Front-End-Serverm erneut ausgestellt werden, um die erforderlichen DNS-Einträge `lyncdiscover.<domain>` und `lyncdiscoverinternal.<domain>` zu speichern. Bei der Verwendung von HTTP konnte das erneute Ausstellen von Zertifikaten umgangen werden, indem DNS-CNAME (oder Alias)-Einträge verwendet wurden, um vorhandene Namen auf den Zertifikaten beizubehalten. Bei der Verwendung von HTTP war die erste Kommunikation jedoch unverschlüsselt.
+<span data-ttu-id="eb6ac-104">Die AutoErmittlung wurde für lync Server im kumulativen Update für lync Server 2010: November 2011 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="eb6ac-104">Autodiscover was introduced for Lync Server in the Cumulative Update for Lync Server 2010: November 2011.</span></span> <span data-ttu-id="eb6ac-105">Der Hauptzweckdieser anfänglichen Implementierung der AutoErmittlung war die Bereitstellungeines Mittel für lync Mobile zum Auffinden des mobilitätsdiensts (Mobility Service, MCX).</span><span class="sxs-lookup"><span data-stu-id="eb6ac-105">The primary purpose for this initial implementation of Autodiscover was to provide a means for Lync Mobile to locate the Mobility service (Mcx).</span></span> <span data-ttu-id="eb6ac-106">Der AutoErmittlungsdienst in lync Server 2013 ist jetzt ein Dienst, der von allen Clients zum Auffinden von Server-und Benutzerdiensten verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="eb6ac-106">The Autodiscover service in Lync Server 2013 is now a service used by all clients to locate server and user services.</span></span> <span data-ttu-id="eb6ac-107">Der Microsoft lync Server 2013-AutoErmittlungsdienst wird auf Directors und Front-End-Servern ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="eb6ac-107">The Microsoft Lync Server 2013 Autodiscover service runs on Directors and Front End Servers.</span></span>
 
-Das Lync Server 2013 die AutoErmittlung für alle Clients verwendet, sieht das Hauptszenario die ausschließliche Verwendung von HTTPS sowie die Erstellung von Zertifikaten mit "lyncdiscover.\<domain\>" als Teil der Konfiguration von Reverseproxys, Directors und Front-End-Servern vor. Wenn Sie die AutoErmittlung in eine Bereitstellung von Lync Server 2010 implementieren, sollten Sie HTTP verwenden, um das erneute Ausstellen von Zertifikaten zu umgehen. Anleitungen für beide Szenarien werden in den folgenden Abschnitten bereitgestellt.
-
-
-> [!IMPORTANT]
-> Die Liste der alternativen Antragstellernamen auf Zertifikaten, die von der Veröffentlichungsregel für externe Webdienste verwendet wird, muss den Eintrag <EM>lyncdiscover.&lt;sipdomain&gt;</EM> für jede SIP-Domäne innerhalb Ihrer Organisation enthalten. Ausführliche Informationen zu den erforderlichen Einträgen alternativer Antragstellernamen für Directors, Front-End-Server und Reverseproxys finden Sie unter <A href="lync-server-2013-certificate-summary-autodiscover.md">Zertifikatübersicht – AutoErmittlung</A>.
+<div>
 
 
+> [!TIP]  
+> <span data-ttu-id="eb6ac-108">Ein besseres technisches Verständnis der AutoErmittlung und der Informationen, die Clients mitgeteilt werden, finden Sie unter <A href="lync-server-2013-understanding-autodiscover.md">Grundlegendes zu AutoErmittlung in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="eb6ac-108">For a more technical understanding of Autodiscover and what is communicated to clients, see <A href="lync-server-2013-understanding-autodiscover.md">Understanding Autodiscover in Lync Server 2013</A>.</span></span><BR><span data-ttu-id="eb6ac-109">Mobilität ist nach wie vor ein eindeutiges Szenario, und die Mobilitätsdienste erfordern noch einige besondere Planungen.</span><span class="sxs-lookup"><span data-stu-id="eb6ac-109">Mobility is still a distinct scenario and the Mobility services still require some special planning.</span></span> <span data-ttu-id="eb6ac-110">Weitere Informationen finden Sie unter <A href="lync-server-2013-planning-for-mobility.md">Planen der Mobilität in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="eb6ac-110">For additional details, see <A href="lync-server-2013-planning-for-mobility.md">Planning for mobility in Lync Server 2013</A>.</span></span>
 
-## In diesem Abschnitt
 
-  - [Zertifikatübersicht – AutoErmittlung](lync-server-2013-certificate-summary-autodiscover.md)
 
-  - [Portübersicht – AutoErmittlung in Lync Server 2013](lync-server-2013-port-summary-autodiscover.md)
+</div>
 
-  - [DNS-Zusammenfassung – AutoErmittlung in Lync Server 2013](lync-server-2013-dns-summary-autodiscover.md)
+<span data-ttu-id="eb6ac-111">Wenn AutoErmittlung in lync Server 2010 eingeführt wurde, gab es Kompromisse, die erforderlich sind, um einen Dienst zu implementieren, der potenzielle Zertifikat Änderungen an vorhandenen Server Bereitstellungen erforderlich macht.</span><span class="sxs-lookup"><span data-stu-id="eb6ac-111">When Autodiscover was introduced in Lync Server 2010, there were compromises that needed to be made in order to implement a service that required potential certificate changes to existing server deployments.</span></span> <span data-ttu-id="eb6ac-112">AutoErmittlung kann über Port TCP 443 für HTTPS oder über Port TCP 80 für HTTP verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="eb6ac-112">Autodiscover could be used over port TCP 443 for HTTPS or over port TCP 80 for HTTP.</span></span> <span data-ttu-id="eb6ac-113">Wenn die Entscheidung zur Verwendung von HTTPS getroffen wurde, mussten Zertifikate für Reverse-Proxies, Directors und Front-End-Server erneut ausgestellt werden, um die erforderlichen `lyncdiscover.<domain>` und `lyncdiscoverinternal.<domain>` DNS-Einträge aufnehmen zu können.</span><span class="sxs-lookup"><span data-stu-id="eb6ac-113">If the decision was made to use HTTPS, certificates on reverse proxies, Directors, and Front End Servers needed to be reissued in order to accommodate the required `lyncdiscover.<domain>` and `lyncdiscoverinternal.<domain>` DNS records.</span></span> <span data-ttu-id="eb6ac-114">Wenn es sich um die Verwendung von http handelt, kann die erneute Ausstellung von Zertifikaten mithilfe von DNS-CNAME-Einträgen (oder Alias) verhindert werden, um vorhandene Namen auf den Zertifikaten zu verwenden.</span><span class="sxs-lookup"><span data-stu-id="eb6ac-114">If the decision was to use HTTP, the reissue of certificates could be avoided by using DNS CNAME (or alias) records to use existing names on the certificates.</span></span> <span data-ttu-id="eb6ac-115">Die Verwendung von http bedeutete, dass die anfängliche Kommunikation unverschlüsselt war.</span><span class="sxs-lookup"><span data-stu-id="eb6ac-115">Using HTTP did mean that the initial communications were unencrypted.</span></span>
 
-  - [Hybriddomäne oder geteilte Domäne – AutoErmittlung](lync-server-2013-hybrid-and-split-domain-autodiscover.md)
+<span data-ttu-id="eb6ac-116">Da lync Server 2013 die AutoErmittlung für alle Clients verwendet, besteht das Hauptszenario darin, nur HTTPS zu verwenden und Zertifikate mit lyncdiscover zu erstellen. \<Domäne\> als Teil der Konfiguration von Reverse-Proxies, Directors und Front-End-Servern.</span><span class="sxs-lookup"><span data-stu-id="eb6ac-116">Because Lync Server 2013 uses Autodiscover for all clients, the main scenario is to use HTTPS exclusively and to create certificates with lyncdiscover.\<domain\> as part of the configuration of reverse proxies, Directors and Front End Servers.</span></span> <span data-ttu-id="eb6ac-117">Wenn Sie die AutoErmittlung in einer aktualisierten Bereitstellung von lync Server 2010 implementieren, möchten Sie möglicherweise http verwenden, um die erneute Ausstellung von Zertifikaten zu vermeiden.</span><span class="sxs-lookup"><span data-stu-id="eb6ac-117">If you are implementing Autodiscover into an upgraded deployment from Lync Server 2010, you may want to use HTTP to avoid reissuing certificates.</span></span> <span data-ttu-id="eb6ac-118">Anleitungen für beide Szenarien finden Sie in den folgenden Abschnitten.</span><span class="sxs-lookup"><span data-stu-id="eb6ac-118">Guidance for both scenarios is provided in the following sections.</span></span>
+
+<div>
+
+
+> [!IMPORTANT]  
+> <span data-ttu-id="eb6ac-119">Die Liste Subject Alternative Name für Zertifikate, die von der externen Webdienste-Veröffentlichungsregel verwendet werden, muss eine <EM>lyncdiscover enthalten.&lt; sipdomain&gt; </EM> -Eintrag für jede SIP-Domäne innerhalb Ihrer Organisation.</span><span class="sxs-lookup"><span data-stu-id="eb6ac-119">The subject alternative name list on certificates used by the external web services publishing rule must contain a <EM>lyncdiscover.&lt;sipdomain&gt;</EM> entry for each SIP domain within your organization.</span></span> <span data-ttu-id="eb6ac-120">Details zu den Einträgen des alternativen betreffs, die für Directors, Front-End-Server und Reverse-Proxies erforderlich sind, finden Sie unter <A href="lync-server-2013-certificate-summary-autodiscover.md">Zertifikats Zusammenfassung – AutoErmittlung in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="eb6ac-120">For details about the subject alternative name entries that are required for Directors, Front End Servers, and reverse proxies, see <A href="lync-server-2013-certificate-summary-autodiscover.md">Certificate summary - Autodiscover in Lync Server 2013</A>.</span></span>
+
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="eb6ac-121">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="eb6ac-121">In This Section</span></span>
+
+  - [<span data-ttu-id="eb6ac-122">Zertifikatzusammenfassung – AutoErmittlung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eb6ac-122">Certificate summary - Autodiscover in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-autodiscover.md)
+
+  - [<span data-ttu-id="eb6ac-123">Port Zusammenfassung – AutoErmittlung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eb6ac-123">Port summary - Autodiscover in Lync Server 2013</span></span>](lync-server-2013-port-summary-autodiscover.md)
+
+  - [<span data-ttu-id="eb6ac-124">DNS-Zusammenfassung – AutoErmittlung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eb6ac-124">DNS summary - Autodiscover in Lync Server 2013</span></span>](lync-server-2013-dns-summary-autodiscover.md)
+
+  - [<span data-ttu-id="eb6ac-125">Hybrid-und Split-Domain-AutoErmittlung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eb6ac-125">Hybrid and split-domain - Autodiscover in Lync Server 2013</span></span>](lync-server-2013-hybrid-and-split-domain-autodiscover.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

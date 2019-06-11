@@ -1,57 +1,89 @@
-﻿---
-title: 'Lync Server 2013: Verwalten von Standorten für ELIN-Gateways'
-TOCTitle: Verwalten von Standorten für ELIN-Gateways
-ms:assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
-ms:mtpsurl: https://technet.microsoft.com/de-de/library/JJ205288(v=OCS.15)
-ms:contentKeyID: 49295453
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Verwalten von Speicherorten für Elin-Gateways'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing locations for ELIN gateways
+ms:assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205288(v=OCS.15)
+ms:contentKeyID: 48185496
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8b447a150a48255a04e5a332cc5d0f56110848f9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828040"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verwalten von Standorten für ELIN-Gateways in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+# <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a><span data-ttu-id="902f7-102">Verwalten von Speicherorten für Elin-Gateways in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="902f7-102">Managing locations for ELIN gateways in Lync Server 2013</span></span>
 
-Sie müssen die folgenden Aufgaben ausführen, damit Lync Server automatisch Standorte für Clients in einem Netzwerk bereitstellt:
+</div>
 
-  - Füllen Sie die Datenbank des Standortinformationsdiensts mithilfe einer Netzwerkwiremap auf, und geben Sie die ELINs (Emergency Location Identification Numbers) im Feld CompanyName ein.
+<div id="mainSection">
 
-  - Veröffentlichen Sie die Standorte, damit sie für Clients in Ihrem Netzwerk verfügbar sind.
+<div id="mainBody">
 
-  - Laden Sie die ELINs in die ALI (Automatic Location Identification)-Datenbank Ihres PSTN-Betreibers hoch.
+<span> </span>
 
-Ausführliche Informationen zum Ausführen dieser Aufgaben finden Sie unter [Konfigurieren der Standortdatenbank in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in der Bereitstellungsdokumentation.
+<span data-ttu-id="902f7-103">_**Letztes Änderungsdatum des Themas:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="902f7-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="902f7-104">Damit lync Server automatisch Speicherorte für Clients in einem Netzwerk bereitstellt, müssen Sie die folgenden Aufgaben ausführen:</span><span class="sxs-lookup"><span data-stu-id="902f7-104">To have Lync Server automatically provide locations for clients within a network, you need to perform the following tasks:</span></span>
+
+  - <span data-ttu-id="902f7-105">Füllen Sie die Datenbank des Standort Informationsdiensts mit einem Netzwerk-Wiremap, und fügen Sie die Notfall Standort-Identifikationsnummern (Elins) in das Feld Firma ein.</span><span class="sxs-lookup"><span data-stu-id="902f7-105">Populate the Location Information service database with a network wiremap, and include the Emergency Location Identification Numbers (ELINs) in the CompanyName field.</span></span>
+
+  - <span data-ttu-id="902f7-106">Veröffentlichen Sie die Standorte, damit sie für Clients in Ihrem Netzwerk verfügbar sind.</span><span class="sxs-lookup"><span data-stu-id="902f7-106">Publish the locations so that they are available for clients in your network.</span></span>
+
+  - <span data-ttu-id="902f7-107">Laden Sie die ELINs in die ALI (Automatic Location Identification)-Datenbank Ihres PSTN-Betreibers hoch.</span><span class="sxs-lookup"><span data-stu-id="902f7-107">Upload the ELINs to your public switched telephone network (PSTN) carrier's Automatic Location Identification (ALI) database.</span></span>
+
+<span data-ttu-id="902f7-108">Details zum Ausführen dieser Aufgaben finden Sie unter [Konfigurieren der Standortdatenbank in lync Server 2013](lync-server-2013-configure-the-location-database.md) in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="902f7-108">For details about how to perform these tasks, see [Configure the location database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in the Deployment documentation.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Standorte, die der zentralen Standortdatenbank hinzugefügt wurden, stehen dem Client erst zur Verfügung, nachdem sie mit einem Lync Server-Verwaltungsshell-Befehl veröffentlicht und in die lokalen Speicher des Pools repliziert wurden. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-the-location-database.md">Veröffentlichen der Standortdatenbank von Lync Server 2013</A> in der Bereitstellungsdokumentation.
+> [!NOTE]  
+> <span data-ttu-id="902f7-109">Speicherorte, die der zentralen Standortdatenbank hinzugefügt wurden, stehen dem Client erst zur Verfügung, nachdem Sie mithilfe eines lync Server-Verwaltungsshell-Befehls veröffentlicht und in den lokalen Speicher des Pools repliziert wurden.</span><span class="sxs-lookup"><span data-stu-id="902f7-109">Locations added to the central location database are not available to the client until they have been published by using a Lync Server Management Shell command and are replicated to the pool's local stores.</span></span> <span data-ttu-id="902f7-110">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-the-location-database.md">Veröffentlichen der Standortdatenbank aus lync Server 2013</A> in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="902f7-110">For details, see <A href="lync-server-2013-publish-the-location-database.md">Publish the location database from Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
-In diesem Abschnitt wird beschrieben, was Sie beim Planen der Aktualisierung und Verwaltung der Standortdatenbank berücksichtigen sollten.
+</div>
 
-## Planen der Notfallstandorte
+<span data-ttu-id="902f7-111">In diesem Abschnitt wird beschrieben, was Sie beim Planen der Aktualisierung und Verwaltung der Standortdatenbank berücksichtigen sollten.</span><span class="sxs-lookup"><span data-stu-id="902f7-111">This section describes things to consider as you plan to update and maintain the location database.</span></span>
 
-Bei Verwendung von ELIN-Gateways füllen Sie die Datenbank des Standortinformationsdiensts mit der allgemeinen Adresse, dem Standort innerhalb eines Gebäudes und mindestens einer ELIN für jeden Standort auf. In der Planungsphase sollten Sie festlegen, wie Sie die Standorte benennen und wie Sie ELINs zuweisen möchten.
+<div>
 
-## Planen der Standortnamen
+## <a name="planning-emergency-locations"></a><span data-ttu-id="902f7-112">Planen der Notfallstandorte</span><span class="sxs-lookup"><span data-stu-id="902f7-112">Planning Emergency Locations</span></span>
 
-Das Feld **Location** des Standortinformationsdiensts, in dem der Standort innerhalb eines Gebäudes gespeichert ist, hat eine maximale Länge von 20 Zeichen (einschließlich Leerzeichen). In diesem Feld mit begrenzter Länge sollten Sie Folgendes angeben:
+<span data-ttu-id="902f7-113">Wenn Sie Elin-Gateways verwenden, füllen Sie die standortinformationsdienst-Datenbank mit der bürgerlichen Adresse, einer bestimmten Stelle in einem Gebäude und mindestens einem Elin für jeden Standort auf.</span><span class="sxs-lookup"><span data-stu-id="902f7-113">When you use ELIN gateways, you populate the Location Information service database with the civic address, a specific location within a building, and at least one ELIN for each location .</span></span> <span data-ttu-id="902f7-114">In der Planungsphase sollten Sie festlegen, wie Sie die Standorte benennen und wie Sie ELINs zuweisen möchten.</span><span class="sxs-lookup"><span data-stu-id="902f7-114">During the planning phase, it is a good idea to decide how you want to name the locations and how you want to assign ELINs.</span></span>
 
-  - Einen leicht verständlichen Namen für den Standort des Notfallanrufers, um sicherzustellen, dass Notrufempfänger den Standort unverzüglich auffinden, wenn sie an der durchgegebenen Adresse eintreffen. Dieser Standortname kann die Hausnummer, das Stockwerk, den Gebäudetrakt, die Zimmernummer usw. beinhalten. Vermeiden Sie Spitznamen, die nur Mitarbeiter kennen und dazu führen könnten, dass sich Notrufempfänger zur falschen Adresse begeben.
+<div>
 
-  - Einen Standortbezeichner, mit dem Benutzer problemlos erkennen können, dass der Lync-Client den richtigen Standort ermittelt hat. Die ermittelten Felder **Location** und **City** werden vom Lync-Client automatisch verkettet und im Header angezeigt. Es empfiehlt sich, die Gebäudeanschrift jedem Standortbezeichner hinzuzufügen (z. B. "1. Stock \<Hausnummer\>"). Ohne die Anschrift könnte ein allgemeiner Standortbezeichner wie z. B. "1. Stock" auf jedes Gebäude in der Stadt zutreffen.
+## <a name="planning-location-names"></a><span data-ttu-id="902f7-115">Planen der Standortnamen</span><span class="sxs-lookup"><span data-stu-id="902f7-115">Planning Location Names</span></span>
 
-  - Wenn es sich um eine ungefähre Standortangabe handelt, da der Standort von einem Funkzugriffspunkt ermittelt wird, sollten Sie das Wort Near (Ca.) hinzufügen (z. B. "Ca. 1. Stock 1234").
+<span data-ttu-id="902f7-116">Das Feld standortinformationsdienst **Standort** , in dem sich die bestimmte Position in einem Gebäude befindet, hat eine maximale Länge von 20 Zeichen (einschließlich Leerzeichen).</span><span class="sxs-lookup"><span data-stu-id="902f7-116">The Location Information service **Location** field, which holds the specific location within a building, has a maximum length of 20 characters (including spaces).</span></span> <span data-ttu-id="902f7-117">In diesem Feld mit begrenzter Länge sollten Sie Folgendes angeben:</span><span class="sxs-lookup"><span data-stu-id="902f7-117">Within that limited length, try to include the following:</span></span>
 
-## Planen der ELINs
+  - <span data-ttu-id="902f7-p104">Einen leicht verständlichen Namen für den Standort des Notfallanrufers, um sicherzustellen, dass Notrufempfänger den Standort unverzüglich auffinden, wenn sie an der durchgegebenen Adresse eintreffen. Dieser Standortname kann die Hausnummer, das Stockwerk, den Gebäudetrakt, die Zimmernummer usw. beinhalten. Vermeiden Sie Spitznamen, die nur Mitarbeiter kennen und die dazu führen könnten, dass sich Notrufempfänger zur falschen Adresse begeben.</span><span class="sxs-lookup"><span data-stu-id="902f7-p104">An easy-to-understand name that identifies the location of the 911 caller to help ensure that emergency responders find the specific location promptly when they arrive at the civic address. This location name may include a building number, floor number, wing designator, room number, and so on. Avoid nicknames that are known only to employees, which might cause emergency responders to go to the wrong location.</span></span>
 
-Nachdem Sie festgelegt haben, wie der Gebäudebereich in Standorte aufgeteilt werden soll, müssen Sie bestimmen, wie viele ELINs jedem Standort zugewiesen werden sollen. Beispielsweise können in einem Gebäude mit mehreren Stockwerken oder mehreren Parteien unterschiedliche Gebäudebereiche verschiedenen Notfallzonen zugewiesen werden. In der Regel wird jedes Stockwerk in einem Gebäude als Standort ausgewiesen. Jedem Standort wird dann eine oder mehrere ELINs zugewiesen, die bei einem Notruf als wählende Nummer(n) verwendet werden. Von Ihrem PSTN-Betreiber erfahren Sie, welche Telefonnummern als ELINs verwendet werden können. Die folgende Tabelle enthält ein Beispiel für Standorte für eine bestimmte Anschrift.
+  - <span data-ttu-id="902f7-121">Eine Standort-ID, die Benutzern hilft, einfach zu erkennen, dass Ihr lync-Client den richtigen Speicherort übernommen hat.</span><span class="sxs-lookup"><span data-stu-id="902f7-121">A location identifier that helps users to easily see that their Lync client picked up the correct location.</span></span> <span data-ttu-id="902f7-122">Der lync-Client verkettet und zeigt die Felder "gefundener \*\*\*\* **Ort** " und "Ort" in der Kopfzeile automatisch an.</span><span class="sxs-lookup"><span data-stu-id="902f7-122">The Lync client automatically concatenates and displays the discovered **Location** and **City** fields in its header.</span></span> <span data-ttu-id="902f7-123">Eine gute Vorgehensweise besteht darin, jeder Standortkennung die Straßenadresse des Gebäudes hinzuzufügen (zum Beispiel " \<Straßennummer\>1. Etage").</span><span class="sxs-lookup"><span data-stu-id="902f7-123">A good practice is to add the street address of the building to each location identifier (for example, "1st Floor \<street number\>").</span></span> <span data-ttu-id="902f7-124">Ohne die Straßenadresse kann eine generische Standortkennung wie "1. Etage" für alle Gebäude in der Stadt gelten.</span><span class="sxs-lookup"><span data-stu-id="902f7-124">Without the street address, a generic location identifier such as "1st Floor" could apply to any building in the city.</span></span>
 
-### Beispielstandort und ELIN-Zuweisungen
+  - <span data-ttu-id="902f7-125">Wenn es sich um eine ungefähre Standortangabe handelt, da der Standort von einem Funkzugriffspunkt ermittelt wird, sollten Sie das Wort Near (Ca.) hinzufügen (z. B. „Ca. 1. Stock 1234“).</span><span class="sxs-lookup"><span data-stu-id="902f7-125">If the location is approximate because it’s determined by a wireless access point, you may want to add the word Near (for example, "Near 1st Floor 1234").</span></span>
+
+</div>
+
+<div>
+
+## <a name="planning-elins"></a><span data-ttu-id="902f7-126">Planen der ELINs</span><span class="sxs-lookup"><span data-stu-id="902f7-126">Planning ELINs</span></span>
+
+<span data-ttu-id="902f7-p106">Nachdem Sie festgelegt haben, wie der Gebäudebereich in Standorte aufgeteilt werden soll, müssen Sie bestimmen, wie viele ELINs jedem Standort zugewiesen werden sollen. Beispielsweise können in einem Gebäude mit mehreren Stockwerken oder mehreren Parteien unterschiedliche Gebäudebereiche verschiedenen Notfallzonen zugewiesen werden. In der Regel wird jedes Stockwerk in einem Gebäude als Standort ausgewiesen. Jedem Standort werden dann ELINs zugewiesen, die bei einem Notruf als wählende Nummern verwendet werden. Von Ihrem PSTN-Betreiber erfahren Sie, welche Telefonnummern als ELINs verwendet werden können. Die folgende Tabelle enthält ein Beispiel für Standorte für eine bestimmte Anschrift.</span><span class="sxs-lookup"><span data-stu-id="902f7-p106">After you decide how you want to divide your building space into locations, you need to decide how many ELINs to assign to each location. For example, in a multifloor or multitenant building, different areas in the building can be assigned different emergency zones. Typically, each floor in a building is designated as a location. Each location is then assigned one or more ELINs, which are used as the calling number(s) during an emergency call. Contact your PSTN carrier for phone numbers that you can use for ELINs. The following table provides an example of locations for a specific street address.</span></span>
+
+### <a name="sample-location-and-elin-assignments"></a><span data-ttu-id="902f7-133">Beispielstandort und ELIN-Zuweisungen</span><span class="sxs-lookup"><span data-stu-id="902f7-133">Sample Location and ELIN Assignments</span></span>
 
 <table>
 <colgroup>
@@ -61,62 +93,84 @@ Nachdem Sie festgelegt haben, wie der Gebäudebereich in Standorte aufgeteilt we
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gebäudebereich</th>
-<th>Ort</th>
-<th>ELIN</th>
+<th><span data-ttu-id="902f7-134">Gebäudebereich</span><span class="sxs-lookup"><span data-stu-id="902f7-134">Building Area</span></span></th>
+<th><span data-ttu-id="902f7-135">Ort</span><span class="sxs-lookup"><span data-stu-id="902f7-135">Location</span></span></th>
+<th><span data-ttu-id="902f7-136">ELIN</span><span class="sxs-lookup"><span data-stu-id="902f7-136">ELIN</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Erster Stock</p></td>
-<td><p>1</p></td>
-<td><p>425-555-0100</p></td>
+<td><p><span data-ttu-id="902f7-137">Erster Stock</span><span class="sxs-lookup"><span data-stu-id="902f7-137">First floor</span></span></p></td>
+<td><p><span data-ttu-id="902f7-138">1</span><span class="sxs-lookup"><span data-stu-id="902f7-138">1</span></span></p></td>
+<td><p><span data-ttu-id="902f7-139">425-555-0100</span><span class="sxs-lookup"><span data-stu-id="902f7-139">425-555-0100</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Zweiter Stock</p></td>
-<td><p>2</p></td>
-<td><p>425-555-0111</p></td>
+<td><p><span data-ttu-id="902f7-140">Zweiter Stock</span><span class="sxs-lookup"><span data-stu-id="902f7-140">Second floor</span></span></p></td>
+<td><p><span data-ttu-id="902f7-141">2</span><span class="sxs-lookup"><span data-stu-id="902f7-141">2</span></span></p></td>
+<td><p><span data-ttu-id="902f7-142">425-555-0111</span><span class="sxs-lookup"><span data-stu-id="902f7-142">425-555-0111</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Dritter Stock</p></td>
-<td><p>3</p></td>
-<td><p>425-555-0123</p></td>
+<td><p><span data-ttu-id="902f7-143">Dritter Stock</span><span class="sxs-lookup"><span data-stu-id="902f7-143">Third floor</span></span></p></td>
+<td><p><span data-ttu-id="902f7-144">3</span><span class="sxs-lookup"><span data-stu-id="902f7-144">3</span></span></p></td>
+<td><p><span data-ttu-id="902f7-145">425-555-0123</span><span class="sxs-lookup"><span data-stu-id="902f7-145">425-555-0123</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-Die von Ihnen definierten Standorte sollten die folgenden Anforderungen erfüllen:
+<span data-ttu-id="902f7-146">Die von Ihnen definierten Standorte sollten die folgenden Anforderungen erfüllen:</span><span class="sxs-lookup"><span data-stu-id="902f7-146">The locations you define should meet the following requirements:</span></span>
 
-  - Lokale und nationale/regionale Bestimmungen werden im Hinblick auf den maximalen Bereich pro Standort und die Anzahl von Standorten pro Anschrift eingehalten.
+  - <span data-ttu-id="902f7-147">Lokale und nationale/regionale Bestimmungen im Hinblick auf den maximalen Bereich pro Standort und die Anzahl von Standorten pro Anschrift werden eingehalten.</span><span class="sxs-lookup"><span data-stu-id="902f7-147">Comply with local and national/regional regulations in terms of maximum area per location and number of locations per street address.</span></span>
 
-  - Sie sind aussagekräftig genug, damit die Person, die den Notruf getätigt hat, problemlos auffindbar ist.
+  - <span data-ttu-id="902f7-148">Sie sind aussagekräftig genug, damit die Person, die den Notruf getätigt hat, problemlos auffindbar ist.</span><span class="sxs-lookup"><span data-stu-id="902f7-148">Are specific enough to make it easy to locate the emergency caller.</span></span>
 
-## Auffüllen der Standortdatenbank
+</div>
 
-Die folgenden Fragen helfen Ihnen zu bestimmen, wie die Standortdatenbank aufgefüllt werden soll.
+</div>
 
-  - **Welches Verfahren verwenden Sie zum Auffüllen der Standortdatenbank?**  
-    Wo befinden sich die Daten, und welche Schritte müssen Sie ausführen, um die Daten in das für die Standortdatenbank erforderliche Format zu konvertieren? Werden die Standorte einzeln oder mithilfe einer CSV-Datei per Massenvorgang hinzugefügt?
+<div>
+
+## <a name="populating-the-location-database"></a><span data-ttu-id="902f7-149">Auffüllen der Standortdatenbank</span><span class="sxs-lookup"><span data-stu-id="902f7-149">Populating the Location Database</span></span>
+
+<span data-ttu-id="902f7-150">Die folgenden Fragen helfen Ihnen zu bestimmen, wie die Standortdatenbank aufgefüllt werden soll.</span><span class="sxs-lookup"><span data-stu-id="902f7-150">The following questions will help you determine how to will populate the location database.</span></span>
+
+  - <span data-ttu-id="902f7-151">**Welches Verfahren verwenden Sie zum Auffüllen der Standortdatenbank?**</span><span class="sxs-lookup"><span data-stu-id="902f7-151">**What process will you use to populate the location database?**</span></span>  
+    <span data-ttu-id="902f7-p107">Wo befinden sich die Daten und welche Schritte müssen Sie ausführen, um die Daten in das für die Standortdatenbank erforderliche Format zu konvertieren? Werden die Standorte einzeln oder mithilfe einer CSV-Datei als Batch hinzugefügt?</span><span class="sxs-lookup"><span data-stu-id="902f7-p107">Where does the data exist, and what steps do you need to take to convert the data into the format required by the location database? Will you add locations individually, or in bulk, by using a CSV file?</span></span>
 
 <!-- end list -->
 
-  - **Verfügen Sie über eine Drittanbieterdatenbank, die bereits Standortzuordnungen enthält?**  
-    Indem Sie den sekundären Standortinformationsdienst von Lync Server für die Verbindung mit einer Drittanbieterdatenbank verwenden, können Sie Standorte mithilfe einer Offlineplattform gruppieren und verwalten. Der Vorteil dieses Ansatzes ist, dass Sie Standorte nicht nur Netzwerk-IDs, sondern auch einem Benutzer zuordnen können. Das bedeutet, dass der Standortinformationsdienst mehrere Adressen, die vom sekundären Standortinformationsdienst stammen, an einen Lync Server-Client übermitteln kann. Der Benutzer kann dann den am besten geeigneten Standort wählen.
+  - <span data-ttu-id="902f7-154">**Verfügen Sie über eine Drittanbieterdatenbank, die bereits Standortzuordnungen enthält?**</span><span class="sxs-lookup"><span data-stu-id="902f7-154">**Do you have a third party database that already contains a mapping of locations?**</span></span>  
+    <span data-ttu-id="902f7-155">Wenn Sie die Option sekundärer standortinformationsdienst von lync Server zum Herstellen einer Verbindung mit einer Drittanbieter-Datenbank verwenden, können Sie Speicherorte mithilfe einer Offline Plattform gruppieren und verwalten.</span><span class="sxs-lookup"><span data-stu-id="902f7-155">By using Lync Server's Secondary Location Information service option to connect to a third-party database, you can group and manage locations by using an offline platform.</span></span> <span data-ttu-id="902f7-156">Der Vorteil dieses Ansatzes ist, dass Sie Standorte nicht nur Netzwerk-IDs, sondern auch einem Benutzer zuordnen können.</span><span class="sxs-lookup"><span data-stu-id="902f7-156">A benefit to this approach is that in addition to associating locations to network identifiers, you can associate locations to a user.</span></span> <span data-ttu-id="902f7-157">Dies bedeutet, dass der standortinformationsdienst mehrere Adressen, die vom sekundären standortinformationsdienst stammen, an einen lync Server-Client zurückgeben kann.</span><span class="sxs-lookup"><span data-stu-id="902f7-157">This means that the Location Information service can return multiple addresses, originating from the Secondary Location Information service, to a Lync Server client.</span></span> <span data-ttu-id="902f7-158">Der Benutzer kann dann den am besten geeigneten Standort wählen.</span><span class="sxs-lookup"><span data-stu-id="902f7-158">The user can then choose the most appropriate location.</span></span>
     
-    Zur Integration in den Standortinformationsdienst muss die Drittanbieterdatenbank das Anforderung/Antwort-Schema für Standorte von Lync Server verwenden. Ausführliche Informationen finden Sie unter <http://go.microsoft.com/fwlink/p/?linkid=213819>. Ausführliche Informationen zum Bereitstellen eines sekundären Standortinformationsdiensts finden Sie unter [Konfigurieren eines sekundären Standortinformationsdiensts in Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) in der Bereitstellungsdokumentation.
+    <span data-ttu-id="902f7-159">Zur Integration in den standortinformationsdienst muss die Drittanbieterdatenbank dem Anforderungs-/Antwortschema des lync Server-Standorts folgen.</span><span class="sxs-lookup"><span data-stu-id="902f7-159">To integrate with the Location Information service, the third-party database must follow the Lync Server Location Request/Response schema.</span></span> <span data-ttu-id="902f7-160">Ausführliche Informationen finden Sie <http://go.microsoft.com/fwlink/p/?linkid=213819>unter.</span><span class="sxs-lookup"><span data-stu-id="902f7-160">For details, see <http://go.microsoft.com/fwlink/p/?linkid=213819>.</span></span> <span data-ttu-id="902f7-161">Details zum Bereitstellen eines sekundären Standort Informationsdiensts finden Sie unter [Konfigurieren eines sekundären Standort Informationsdiensts in lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="902f7-161">For details about deploying a Secondary Location Information service, see [Configure a secondary Location Information service in Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) in the Deployment documentation.</span></span>
 
-Ausführliche Informationen zum Auffüllen der Standortdatenbank finden Sie unter [Konfigurieren der Standortdatenbank in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in der Bereitstellungsdokumentation.
+<span data-ttu-id="902f7-162">Details zum Auffüllen der Standortdatenbank finden Sie unter [Konfigurieren der Standortdatenbank in lync Server 2013](lync-server-2013-configure-the-location-database.md) in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="902f7-162">For details about populating the location database, see [Configure the location database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in the Deployment documentation.</span></span>
 
-## Verwalten der Standortdatenbank
+</div>
 
-Nach dem Auffüllen der Standortdatenbank müssen Sie eine Strategie zum Aktualisieren der Datenbank entwickeln, um Änderungen an der Netzwerkkonfiguration umzusetzen. Die folgenden Fragen helfen Ihnen zu bestimmen, wie die Standortdatenbank verwaltet werden soll.
+<div>
 
-  - **Wie aktualisieren Sie die Standortdatenbank?**  
-    Eine Aktualisierung der Standortdatenbank kann in verschiedenen Situationen notwendig sein, etwa beim Hinzufügen von Funkzugriffspunkten, bei einer Neuverkabelung des Büros (mit neuen Switchzuordnungen) und bei einer Subnetzerweiterung. Aktualisieren Sie jeden Standort sofort, oder führen Sie mithilfe einer CSV-Datei eine Aktualisierung aller Standorte per Massenvorgang durch?
+## <a name="maintaining-the-location-database"></a><span data-ttu-id="902f7-163">Verwalten der Standortdatenbank</span><span class="sxs-lookup"><span data-stu-id="902f7-163">Maintaining the Location Database</span></span>
+
+<span data-ttu-id="902f7-p110">Nach dem Auffüllen der Standortdatenbank müssen Sie eine Strategie zum Aktualisieren der Datenbank entwickeln, um Änderungen an der Netzwerkkonfiguration umzusetzen. Die folgenden Fragen helfen Ihnen zu bestimmen, wie die Standortdatenbank verwaltet werden soll.</span><span class="sxs-lookup"><span data-stu-id="902f7-p110">After you populate the location database, you need to develop a strategy for updating the database as the network configuration changes. The following questions will help you determine how to maintain the location database.</span></span>
+
+  - <span data-ttu-id="902f7-166">**Wie aktualisieren Sie die Standortdatenbank?**</span><span class="sxs-lookup"><span data-stu-id="902f7-166">**How will you update the location database?**</span></span>  
+    <span data-ttu-id="902f7-p111">Eine Aktualisierung der Standortdatenbank kann in verschiedenen Situationen notwendig sein, etwa beim Hinzufügen von Funkzugriffspunkten, bei einer Neuverkabelung des Büros (mit neuen Switchzuordnungen) und bei einer Subnetzerweiterung. Aktualisieren Sie jeden Standort sofort oder führen Sie mithilfe einer CSV-Datei eine Aktualisierung aller Standorte als Batch durch?</span><span class="sxs-lookup"><span data-stu-id="902f7-p111">There are several scenarios that require an update to the location database, including adding wireless access points (WAPs), office recabling (resulting in different switch assignments), and subnet expansion. Will you directly update each individual location, or will you perform a bulk update of all the locations by using a CSV file?</span></span>
 
 <!-- end list -->
 
-  - **Verwenden Sie eine SNMP-Anwendung zum Abgleich von Lync-Client-MAC-Adressen mit den Port- und Switchbezeichnern?**  
-    Wenn Sie eine SNMP-Anwendung verwenden, müssen Sie ein manuelles Verfahren ausarbeiten, um die Konsistenz der Switch- und Portinformationen zwischen der SNMP-Anwendung und der Standortdatenbank sicherzustellen. Wenn die SNMP-Anwendung eine Switch-IP-Adresse ausgibt, die nicht in der Standortdatenbank enthalten ist, kann der Standortinformationsdienst keinen Standort an den Client zurückgeben.
+  - <span data-ttu-id="902f7-169">**Verwenden Sie eine SNMP-Anwendung zum Abgleich von Lync-Client-MAC-Adressen mit den Port- und Switchbezeichnern?**</span><span class="sxs-lookup"><span data-stu-id="902f7-169">**Will you use an SNMP application to match Lync client MAC addresses to port and switch identifiers?**</span></span>  
+    <span data-ttu-id="902f7-170">Wenn Sie eine SNMP-Anwendung verwenden, müssen Sie ein manuelles Verfahren ausarbeiten, um die Konsistenz der Switch- und Portinformationen zwischen der SNMP-Anwendung und der Standortdatenbank sicherzustellen.</span><span class="sxs-lookup"><span data-stu-id="902f7-170">If you use an SNMP application, you need to develop a manual process for keeping the switch chassis and port information consistent between the SNMP application and the location database.</span></span> <span data-ttu-id="902f7-171">Wenn die SNMP-Anwendung eine Chassis-IP-Adresse oder Port-ID zurückgibt, die nicht in der Datenbank enthalten ist, kann der standortinformationsdienst keinen Standort an den Client zurückgeben.</span><span class="sxs-lookup"><span data-stu-id="902f7-171">If the SNMP application returns a chassis IP address or port ID that is not included in the database, the Location Information service will not be able to return a location to the client.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
