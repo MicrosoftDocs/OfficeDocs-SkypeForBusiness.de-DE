@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst (-Service) bis Februar 2020 ein. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: 785c80b435bfff5b8a9cda3fca17d57756d06091
-ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
+ms.openlocfilehash: 3beaceb8da8169a6d2bb702841e5f040d2e22a66
+ms.sourcegitcommit: ba5ee891e5b16c8bece475133a0b6cd1d1f9c145
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34702680"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34813082"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online
 
@@ -137,7 +137,7 @@ Microsoft hat verschiedene Kundenbereitstellungen identifiziert, die Features vo
 | VM | Funktionen für Anrufer  | Anruferlebnis – private Voicemail | Der Anrufer kann eine Option auswählen, um eine aufgezeichnete Nachricht als "Privat" zu kennzeichnen.  | N | J    |
 | VM | Funktionen für Anrufer  | Silence-Erkennung   |  | N | J    |
 | VM | Mandanten-Administratorfunktionen | Geschützte Voicemail auf Server Ebene    | Mandanten-Administrator kann eine Regel auf Dienstebene konfigurieren, um eingehende Voicemail als geschützt zu kennzeichnen. | J | Y    |
-| VM | Mandanten-Administratorfunktionen | Zeit Limit für das Ändern der Aufnahmedauer  | Für 5 Minuten fest programmiert    | N | J    |
+| VM | Mandanten-Administratorfunktionen | Zeit Limit für das Ändern der Aufnahmedauer  |     | J | Y    |
 | VM | Mandanten-Administratorfunktionen | Timeout für Silence-Erkennung ändern    |  | Nicht zutreffend    | Y    |
 | VM | Mandanten-Administratorfunktionen | Ändern der Anzahl von Eingabefehlern | Prothesen: schwer codiert bis 3 | N | J    |
 | VM | Mandanten-Administratorfunktionen | Ändern der Standardsprache |  | J | Y    |

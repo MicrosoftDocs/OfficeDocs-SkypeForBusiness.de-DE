@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich über das Testen oder erwerben von Lizenzen für Audiokonferenz (PSTN-Konferenz) für Office 365 zum Einrichten von Telefonkonferenzen, in die Personen sich einwählen können. '
-ms.openlocfilehash: e59c895ed60c53b3199648a0acb142037b936c75
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1a96e8866671c6a6a268113b4b8ca89c67bed8fa
+ms.sourcegitcommit: ba5ee891e5b16c8bece475133a0b6cd1d1f9c145
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302760"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34813049"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Testen oder kaufen von Audiokonferenzen in Office 365 für Skype for Business Online
 
@@ -69,32 +69,30 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
 3. [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization) for your organization. To set up Communications Credits, see [What are Communications Credits?](/microsoftteams/what-are-communications-credits)
     
     > [!IMPORTANT]
-    > Wenn Guthaben für Kommunikationen noch nicht eingerichtet wurden, wird die Audiokonferenz für Benutzer mit Lizenzen mit Minutenabrechnung nicht funktionieren.
+    > Wenn Guthaben für Kommunikationen noch nicht eingerichtet wurden, wird die Audiokonferenz für Benutzer mit Lizenzen mit Minutenabrechnung nicht funktionieren. Wenn Sie über Audiokonferenz-Pay-per-Minute-Lizenzen verfügen, müssen Sie den einzelnen Benutzern für die Audiokonferenz-Nutzung nicht separat Lizenzen für Kommunikationsguthaben zuweisen, aber Sie müssen Sie möglicherweise noch einem anderen Dienst zuweisen.
 
 4. [Zuweisen oder Entfernen von Lizenzen für Office 365 Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) den Mitarbeitern in Ihrer Organisation zu, die Besprechungen planen oder leiten werden.
 
-    > [!NOTE]
-    > Wenn Sie Lizenzen für Audiokonferenz mit Minutenabrechnung haben, müssen Sie nicht jedem Benutzer für die Nutzung der Audiokonferenz separate Lizenzen für Guthaben für Kommunikationen zuweisen (Sie müssen diese möglicherweise noch für andere Dienste zuweisen).
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Schritt 2: Festlegen des Providers von Audiokonferenz für Personen, die Meetings führen oder planen
 
-When you assign an **Audio Conferencing** license to people in your organization who lead or schedule meetings, they are all set up and ready to go! (You don't have to set their audio conferencing provider.)
+Wenn Sie eine Lizenz für **Audiokonferenz**Personen in Ihrer Organisation zuweisen, die Meetings führen oder planen, sind diese alle eingerichtet und einsatzbereit! (Sie müssen deren Provider von Audiokonferenz nicht festlegen.)
 
 ## <a name="step-3-other-admin-tasks"></a>Schritt 3: Andere Administratoraufgaben
 
 Die folgenden Schritte sind **optional**, aber viele Administratoren führen diese gerne aus:
 
-1. [Customize meeting invitations](../set-up-skype-for-business-online/customize-meeting-invitations.md). The dial-in numbers that are set for the user will be automatically added to the meeting invitations that are sent to attendees. However, you can add your own help and legal links, a text message, and small company graphic.
+1. [Anpassen von Besprechungseinladungen](../set-up-skype-for-business-online/customize-meeting-invitations.md) Die für den Nutzer festgelegten Einwahlnummern werden automatisch den Besprechungseinladungen hinzugefügt, die Teilnehmern zugesendet werden. Sie können jedoch Ihre eigenen Hilfe- und rechtliche Links, eine SMS und eine kleine Firmengrafik hinzufügen, wenn Sie möchten.
 
-2. [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). This is the phone number that will show up in the meeting that is scheduled by a user.
+2. [Stellen Sie die Telefonnummern ein, die in Einladungen enthalten sind](set-the-phone-numbers-included-on-invites.md). Dies ist die Telefonnummer, die in der Besprechung angezeigt wird, die von einem Benutzer geplant wird.
 
-3. [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing.md) that the Audio Conferencing auto attendant uses to greet a caller when they dial in to an audio conferencing phone number. This step only applies if you're using Microsoft as your audio conferencing provider.
+3. [Festlegen der automatischen Sprache der Telefonzentrale für Audiokonferenz](set-auto-attendant-languages-for-audio-conferencing.md), die von der automatischen Telefonzentrale von Audiokonferenz verwendet wird, um einen Anrufer zu begrüßen, wenn er sich mit einer Telefonnummer für die Audiokonferenz einwählt. Dieser Schritt gilt nur, wenn Sie Microsoft als Ihren Provider von Audio Conferencing verwenden.
 
 4. [Die Länge der PIN für Audiokonferenz-Besprechungen festzulegen](set-the-pin-length-for-audio-conferencing-meetings.md).
 
 
 > [!NOTE]
-> This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
+> Dieses Feature ist noch nicht verfügbar für Kunden mit Office 365 das von 21Vianet in China betrieben wird. Weitere Informationen finden Sie unter [Erfahren Sie mehr über Office 365, das von 21Vianet betrieben wird](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
